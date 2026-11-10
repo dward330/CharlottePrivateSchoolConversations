@@ -284,6 +284,8 @@
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
         "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-latin:guide.bands[0].deadlines[3].value",
+        "charlotte-latin:guide.bands[0].checklistRows[7].due",
         "charlotte-latin:guide.bands[2].deadlines[1].value",
         "charlotte-latin:guide.bands[2].deadlines[2].value",
         "charlotte-latin:guide.bands[2].checklistRows[4].due",
@@ -817,6 +819,12 @@
         "providence-day:guide.bands[2].deadlines[2].value",
         "providence-day:guide.bands[2].steps[4].tag",
         "providence-day:guide.bands[2].checklistRows[5].due",
+        "charlotte-latin:guide.bands[1].deadlines[2].value",
+        "charlotte-latin:guide.bands[1].checklistRows[6].due",
+        "charlotte-latin:guide.bands[2].deadlines[4].value",
+        "charlotte-latin:guide.bands[2].checklistRows[7].due",
+        "charlotte-latin:guide.bands[3].deadlines[4].value",
+        "charlotte-latin:guide.bands[3].checklistRows[7].due",
         "charlotte-christian:guide.bands[1].deadlines[2].value",
         "charlotte-christian:guide.bands[1].checklistRows[7].due",
         "charlotte-christian:guide.bands[2].deadlines[2].value",
@@ -1606,8 +1614,8 @@
       ]
     },
     {
-      "t": "Tout nivo swiv menm kat etap yo: aplike sou entènèt nan pòtay la → ale nan yon Visit Day → pase yon tès estandadize → respekte dat limit yo. Sa k chanje ant nivo yo se ki tès pitit ou ap pase, ak kiyès ki fikse Visit Day la: biwo admisyon an oswa ou menm. Nivo yo diferan tou sou si jounen sa a gen yon entèvyou ladan l, ak sou ki dat limit ou ap travay sou li.",
-      "of": "4c624c7a",
+      "t": "Tout nivo swiv menm senk etap yo. Premye: aplike sou entènèt nan pòtay la → ale nan yon Visit Day → pase yon tès estandadize. Apre: respekte dat limit yo → resevwa repons ou nan jou anons la. Sa k chanje ant nivo yo se ki tès pitit ou ap pase, ak kiyès ki fikse Visit Day la: biwo admisyon an oswa ou menm. Nivo yo diferan tou sou si jounen sa a gen yon entèvyou ladan l, ak sou ki dat limit ou ap travay sou li.",
+      "of": "9efab3b0",
       "at": [
         "charlotte-latin:guide.spineNote"
       ]
@@ -1646,6 +1654,15 @@
         "charlotte-latin:guide.bands[1].deadlines[1].label",
         "charlotte-latin:guide.bands[2].deadlines[3].label",
         "charlotte-latin:guide.bands[3].deadlines[3].label"
+      ]
+    },
+    {
+      "t": "jou anons",
+      "of": "0d52f720",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[3].label",
+        "charlotte-latin:guide.bands[1].deadlines[2].label",
+        "charlotte-latin:guide.bands[2].deadlines[4].label"
       ]
     },
     {
@@ -1690,8 +1707,8 @@
       ]
     },
     {
-      "t": "Obligatwa, epi li dwe rive **2 janvye 2027**. Sa se trèz jou anvan tout lòt klas nan lekòl la. Kidonk dat limit nivo sa a tonbe nan premye semèn janvye a, pa nan mitan mwa a. **Pa gen okenn limit laj oswa dat nesans ki pibliye** pou Transitional Kindergarten ni pou Kindergarten. Lekòl la dekri TK sèlman an tèm jeneral, tankou yon bagay ki «fèt pou timoun ki fèk gen senk an epi ki pare pou Kindergarten», epi li pa bay okenn dat. Mande biwo admisyon an kote pitit ou tonbe.",
-      "of": "52ca6e42",
+      "t": "Obligatwa, epi li dwe rive **2 janvye 2027**. Sa se trèz jou anvan tout lòt klas nan lekòl la. Kidonk dat limit nivo sa a tonbe nan premye semèn janvye a, pa nan mitan mwa a. **Pa gen okenn limit laj oswa dat nesans ki pibliye** pou Transitional Kindergarten ni pou Kindergarten. Lekòl la dekri TK sèlman an tèm jeneral, tankou yon bagay ki «fèt pou timoun ki fèk gen senk an epi ki pare pou Kindergarten», epi li pa bay okenn dat. Mande biwo admisyon an kote pitit ou tonbe. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an. Lis la di K-12, kidonk li pa di si li kouvri TK.",
+      "of": "3c4bf219",
       "at": [
         "charlotte-latin:guide.bands[0].steps[2].detail"
       ]
@@ -1752,10 +1769,34 @@
       ]
     },
     {
-      "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon èd la louvri nan **Clarity** nan dat **15 septanm 2026**. Li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Sa se de semèn apre pwòp dat limit aplikasyon nivo sa a. Yon sèl aplikasyon kouvri tout timoun nan fanmi an.",
-      "of": "bb167924",
+      "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon èd la louvri nan **Clarity** nan dat **15 septanm 2026**. Li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Sa se de semèn apre pwòp dat limit aplikasyon nivo sa a. Yon sèl aplikasyon kouvri tout timoun nan fanmi an. Desizyon sou èd la ap vini nan jou anons ou, **26 fevriye 2027**.",
+      "of": "3a7aef70",
       "at": [
         "charlotte-latin:guide.bands[0].steps[5].detail"
+      ]
+    },
+    {
+      "t": "Desizyon",
+      "of": "be93ff03",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].title",
+        "charlotte-latin:guide.bands[1].steps[5].title",
+        "charlotte-latin:guide.bands[2].steps[6].title",
+        "charlotte-latin:guide.bands[3].steps[6].title"
+      ]
+    },
+    {
+      "t": "26 fevriye",
+      "of": "7445835e",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].tag"
+      ]
+    },
+    {
+      "t": "**26 fevriye 2027** se «jou anons TK ak K» lekòl la. Yo kominike desizyon sou èd finansye yo menm jou a. **Pa gen okenn dat kontra enskripsyon ki pibliye**, kidonk mande biwo admisyon an kilè li dwe rive. Pou enskri, fòk ou peye tou **depo $2,500 ki pa ranbousab** la.",
+      "of": "b7f0c249",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].detail"
       ]
     },
     {
@@ -1766,8 +1807,8 @@
       ]
     },
     {
-      "t": "Transitional Kindergarten ak Kindergarten aplike trèz jou anvan tout lòt klas. Pou nivo sa a, se biwo admisyon an ki fikse Visit Day la, se pa fanmi an. Pa gen okenn dat limit pou tout dokiman dosye a ki pibliye pou nivo sa a. Kidonk konsidere lis kontwòl pòtay ou a kòm dènye mo sou sa ki rete pou fèt. Pa gen okenn dat desizyon ni dat kontra enskripsyon ki pibliye pou okenn nivo. Konfime tou de ak biwo admisyon an.",
-      "of": "ac01cd72",
+      "t": "Transitional Kindergarten ak Kindergarten aplike trèz jou anvan tout lòt klas. Pou nivo sa a, se biwo admisyon an ki fikse Visit Day la, se pa fanmi an. Pa gen okenn dat limit pou tout dokiman dosye a ki pibliye pou nivo sa a. Kidonk konsidere lis kontwòl pòtay ou a kòm dènye mo sou sa ki rete pou fèt. Desizyon yo ap vini nan jou anons la, 26 fevriye 2027. Pa gen okenn dat kontra enskripsyon ki pibliye, kidonk konfime l ak biwo admisyon an.",
+      "of": "68014566",
       "at": [
         "charlotte-latin:guide.bands[0].checklistCallout.text"
       ]
@@ -1908,8 +1949,8 @@
       ]
     },
     {
-      "t": "Konfime dat desizyon an ak dat kontra a ak biwo admisyon an",
-      "of": "397c18a8",
+      "t": "Veye jou anons ou",
+      "of": "58f8f5ab",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].action",
         "charlotte-latin:guide.bands[1].checklistRows[6].action",
@@ -1918,23 +1959,12 @@
       ]
     },
     {
-      "t": "Ni youn ni lòt pa pibliye pou okenn nivo. Mande kilè ou ta dwe tann yon repons.",
-      "of": "c3c92423",
+      "t": "Desizyon admisyon ak èd finansye yo ap vini jou sa a. Pa gen okenn dat kontra ki pibliye; konfime l ak biwo admisyon an.",
+      "of": "9173c205",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].detail",
         "charlotte-latin:guide.bands[1].checklistRows[6].detail",
-        "charlotte-latin:guide.bands[2].checklistRows[7].detail",
-        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
-      ]
-    },
-    {
-      "t": "Konfime",
-      "of": "a183c9ef",
-      "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[7].due",
-        "charlotte-latin:guide.bands[1].checklistRows[6].due",
-        "charlotte-latin:guide.bands[2].checklistRows[7].due",
-        "charlotte-latin:guide.bands[3].checklistRows[7].due"
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
       ]
     },
     {
@@ -1961,8 +1991,8 @@
       ]
     },
     {
-      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 ap travay sou li, trèz jou apre Transitional Kindergarten ak Kindergarten.",
-      "of": "1994f5d5",
+      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 ap travay sou li, trèz jou apre Transitional Kindergarten ak Kindergarten. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an.",
+      "of": "d9c67bf3",
       "at": [
         "charlotte-latin:guide.bands[1].steps[1].detail"
       ]
@@ -2006,10 +2036,27 @@
       ]
     },
     {
-      "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon èd la louvri nan **Clarity** nan dat **15 septanm 2026**. Li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Sa se menm jou ak dat limit aplikasyon nivo sa a. Yon sèl aplikasyon kouvri tout timoun nan fanmi an.",
-      "of": "dca8641e",
+      "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon èd la louvri nan **Clarity** nan dat **15 septanm 2026**. Li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Sa se menm jou ak dat limit aplikasyon nivo sa a. Yon sèl aplikasyon kouvri tout timoun nan fanmi an. Desizyon sou èd la ap vini nan jou anons ou, **9 avril 2027**.",
+      "of": "3582225d",
       "at": [
         "charlotte-latin:guide.bands[1].steps[4].detail"
+      ]
+    },
+    {
+      "t": "9 avril",
+      "of": "7063767d",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[5].tag",
+        "charlotte-latin:guide.bands[2].steps[6].tag",
+        "charlotte-latin:guide.bands[3].steps[6].tag"
+      ]
+    },
+    {
+      "t": "**9 avril 2027** se «jou anons klas 1-11» lekòl la. Yo kominike desizyon sou èd finansye yo menm jou a. **Pa gen okenn dat kontra enskripsyon ki pibliye**, kidonk mande biwo admisyon an kilè li dwe rive. Pou enskri, fòk ou peye tou **depo $2,500 ki pa ranbousab** la.",
+      "of": "7f2bfc85",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[5].detail",
+        "charlotte-latin:guide.bands[2].steps[6].detail"
       ]
     },
     {
@@ -2020,8 +2067,8 @@
       ]
     },
     {
-      "t": "Klas 1 pase WPPSI la, klas 2–4 yo WISC-V la epi klas 5 la ISEE a. Fason pou rezève a chanje avè l tou. Pou WPPSI ak WISC-V, ou kontakte yon sikològ CAIS dirèkteman. Pou ISEE a, ou enskri nan Educational Records Bureau la. Konfime ki tès ki aplike pou klas kote pitit ou ap antre a anvan ou rezève. Pa gen okenn dat limit pou tout dokiman dosye a ki pibliye pou nivo sa a. Kidonk konsidere lis kontwòl pòtay ou a kòm dènye mo sou sa ki rete pou fèt. Pa gen okenn dat desizyon ni dat kontra enskripsyon ki pibliye pou okenn nivo. Konfime tou de ak biwo admisyon an.",
-      "of": "906f9af3",
+      "t": "Klas 1 pase WPPSI la, klas 2–4 yo WISC-V la epi klas 5 la ISEE a. Fason pou rezève a chanje avè l tou. Pou WPPSI ak WISC-V, ou kontakte yon sikològ CAIS dirèkteman. Pou ISEE a, ou enskri nan Educational Records Bureau la. Konfime ki tès ki aplike pou klas kote pitit ou ap antre a anvan ou rezève. Pa gen okenn dat limit pou tout dokiman dosye a ki pibliye pou nivo sa a. Kidonk konsidere lis kontwòl pòtay ou a kòm dènye mo sou sa ki rete pou fèt. Desizyon yo ap vini nan jou anons la, 9 avril 2027. Pa gen okenn dat kontra enskripsyon ki pibliye, kidonk konfime l ak biwo admisyon an.",
+      "of": "78a2466d",
       "at": [
         "charlotte-latin:guide.bands[1].checklistCallout.text"
       ]
@@ -2086,8 +2133,8 @@
       ]
     },
     {
-      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 pataje a. Klas sizyèm nan se youn nan ane kote lekòl la «elaji natirèlman», ansanm ak TK, Kindergarten ak nevyèm.",
-      "of": "85254822",
+      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 pataje a. Klas sizyèm nan se youn nan ane kote lekòl la «elaji natirèlman», ansanm ak TK, Kindergarten ak nevyèm. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an.",
+      "of": "c285c5c0",
       "at": [
         "charlotte-latin:guide.bands[2].steps[1].detail"
       ]
@@ -2138,11 +2185,10 @@
       ]
     },
     {
-      "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon èd la louvri nan **Clarity** nan dat **15 septanm 2026**. Li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Sa se sis semèn anvan dat limit dokiman yo. Yon sèl aplikasyon kouvri tout timoun nan fanmi an.",
-      "of": "44608f2b",
+      "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon èd la louvri nan **Clarity** nan dat **15 septanm 2026**. Li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Sa se sis semèn anvan dat limit dokiman yo. Yon sèl aplikasyon kouvri tout timoun nan fanmi an. Desizyon sou èd la ap vini nan jou anons ou, **9 avril 2027**.",
+      "of": "89cc82c0",
       "at": [
-        "charlotte-latin:guide.bands[2].steps[5].detail",
-        "charlotte-latin:guide.bands[3].steps[5].detail"
+        "charlotte-latin:guide.bands[2].steps[5].detail"
       ]
     },
     {
@@ -2154,8 +2200,8 @@
       ]
     },
     {
-      "t": "Ni ISEE a ni tout rès bagay nan dosye a dwe rive jou sa a. Kidonk planifye enskripsyon ERB w lan an ranvès depi dat sa a, olye ou vize l. Yon plas egzamen dwe rezève, pase epi note anvan dat limit la. Visit Day la se yon jounen evalyasyon, se pa yon vizit: li gen yon entèvyou, yon evalyasyon sou plas ak obsèvasyon yon klas. Pa gen okenn dat desizyon ni dat kontra enskripsyon ki pibliye pou okenn nivo. Konfime tou de ak biwo admisyon an.",
-      "of": "bb4c3591",
+      "t": "Ni ISEE a ni tout rès bagay nan dosye a dwe rive jou sa a. Kidonk planifye enskripsyon ERB w lan an ranvès depi dat sa a, olye ou vize l. Yon plas egzamen dwe rezève, pase epi note anvan dat limit la. Visit Day la se yon jounen evalyasyon, se pa yon vizit: li gen yon entèvyou, yon evalyasyon sou plas ak obsèvasyon yon klas. Desizyon yo ap vini nan jou anons la, 9 avril 2027. Pa gen okenn dat kontra enskripsyon ki pibliye, kidonk konfime l ak biwo admisyon an.",
+      "of": "8836e1fc",
       "at": [
         "charlotte-latin:guide.bands[2].checklistCallout.text"
       ]
@@ -2228,8 +2274,15 @@
       ]
     },
     {
-      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 pataje a. Klas nevyèm nan se youn nan ane kote lekòl la «elaji natirèlman», ansanm ak TK, Kindergarten ak sizyèm.",
-      "of": "b6749c0e",
+      "t": "jou anons — klas 9–11",
+      "of": "7d521e76",
+      "at": [
+        "charlotte-latin:guide.bands[3].deadlines[4].label"
+      ]
+    },
+    {
+      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 pataje a. Klas nevyèm nan se youn nan ane kote lekòl la «elaji natirèlman», ansanm ak TK, Kindergarten ak sizyèm. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an.",
+      "of": "bbcb2cdc",
       "at": [
         "charlotte-latin:guide.bands[3].steps[1].detail"
       ]
@@ -2256,8 +2309,22 @@
       ]
     },
     {
-      "t": "Ni ISEE a ni tout rès bagay nan dosye a dwe rive jou sa a. Kidonk planifye enskripsyon ERB w lan an ranvès depi dat sa a, olye ou vize l. Visit Day la mete yon entèvyou ansanm ak yon jounen akonpayman ak yon Student Ambassador, kidonk pitit ou pase jounen an menm jan yon elèv Latin ta pase l. Sa yo mande pou tès la kouvri klas 9 rive 11. Pa gen anyen ki pibliye pou moun k ap aplike pou klas 12, kidonk mande biwo admisyon an kisa ki aplike. Pa gen okenn dat desizyon ni dat kontra enskripsyon ki pibliye pou okenn nivo. Konfime tou de ak biwo a.",
-      "of": "5a21d4bf",
+      "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon èd la louvri nan **Clarity** nan dat **15 septanm 2026**. Li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Sa se sis semèn anvan dat limit dokiman yo. Yon sèl aplikasyon kouvri tout timoun nan fanmi an. Pou klas 9–11, desizyon sou èd la ap vini nan jou anons la, **9 avril 2027**.",
+      "of": "f05bee23",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[5].detail"
+      ]
+    },
+    {
+      "t": "**9 avril 2027** se «jou anons klas 1-11» lekòl la. Yo kominike desizyon sou èd finansye yo menm jou a. **Pa gen okenn dat kontra enskripsyon ki pibliye**, kidonk mande biwo admisyon an kilè li dwe rive. Pou enskri, fòk ou peye tou **depo $2,500 ki pa ranbousab** la. Jou anons sa a kouvri klas 9–11. **Pa gen okenn dat anons ki pibliye pou klas 12**, kidonk yon fanmi klas 12 ta dwe mande biwo admisyon an.",
+      "of": "c026f666",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[6].detail"
+      ]
+    },
+    {
+      "t": "Ni ISEE a ni tout rès bagay nan dosye a dwe rive jou sa a. Kidonk planifye enskripsyon ERB w lan an ranvès depi dat sa a, olye ou vize l. Visit Day la mete yon entèvyou ansanm ak yon jounen akonpayman ak yon Student Ambassador, kidonk pitit ou pase jounen an menm jan yon elèv Latin ta pase l. Sa yo mande pou tès la kouvri klas 9 rive 11. Pa gen anyen ki pibliye pou moun k ap aplike pou klas 12, kidonk mande biwo admisyon an kisa ki aplike. Desizyon pou klas 9–11 yo ap vini nan jou anons la, 9 avril 2027. Pa gen okenn dat kontra enskripsyon ki pibliye, kidonk konfime l ak biwo a.",
+      "of": "665be691",
       "at": [
         "charlotte-latin:guide.bands[3].checklistCallout.text"
       ]
@@ -2291,8 +2358,15 @@
       ]
     },
     {
-      "t": "Èd la pase nan **Clarity**. Li louvri **15 septanm 2026** epi li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Yon sèl aplikasyon kouvri tout timoun nan fanmi an epi «nòmalman li pran 30 minit oswa mwens pou ranpli». Apa de sa, gen yon **depo $2,500 ki pa ranbousab** yo «mande nan moman premye enskripsyon an oswa reenskripsyon an» epi yo «wete l nan dezyèm peman ekolaj la». Okenn elèv pa ka enskri ni reenskri san li. **Pa gen okenn frè aplikasyon pou èd ki pibliye** pou sik sa a.",
-      "of": "e0133c73",
+      "t": "Klas 9–11. Desizyon admisyon ak èd finansye yo ap vini jou sa a. Pa gen anyen ki pibliye pou klas 12 ni pou kontra a; mande biwo admisyon an.",
+      "of": "0984e87d",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "Èd la pase nan **Clarity**. Li louvri **15 septanm 2026** epi li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Desizyon sou èd la ap vini nan jou anons la: **26 fevriye 2027** pou TK ak Kindergarten, ak **9 avril 2027** pou klas 1–11. Yon sèl aplikasyon kouvri tout timoun nan fanmi an epi «nòmalman li pran 30 minit oswa mwens pou ranpli». Apa de sa, gen yon **depo $2,500 ki pa ranbousab** yo «mande nan moman premye enskripsyon an oswa reenskripsyon an» epi yo «wete l nan dezyèm peman ekolaj la». Okenn elèv pa ka enskri ni reenskri san li. **Pa gen okenn frè aplikasyon pou èd ki pibliye** pou sik sa a.",
+      "of": "b235946d",
       "at": [
         "charlotte-latin:guide.aid.text"
       ]
@@ -2422,10 +2496,25 @@
       ]
     },
     {
-      "t": "Yo pa pibliye l nan okenn nivo — konfime ak biwo admisyon an. Tout kalandriye ki pibliye yo rete nan dat limit aplikasyon an oswa dokiman yo. Pa gen okenn paj admisyon ki bay dat oswa lè yo voye desizyon yo, ni dat kontra enskripsyon an.",
-      "of": "3bb46864",
+      "t": "26 fevriye 2027 · pa gen dat kontra ki pibliye",
+      "of": "eed7eae9",
       "at": [
-        "charlotte-latin:guide.comparison.rows[6].cells.all"
+        "charlotte-latin:guide.comparison.rows[6].cells.tkk"
+      ]
+    },
+    {
+      "t": "9 avril 2027 · pa gen dat kontra ki pibliye",
+      "of": "5760d46c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.ls",
+        "charlotte-latin:guide.comparison.rows[6].cells.ms"
+      ]
+    },
+    {
+      "t": "9 avril 2027 (klas 9–11) · anyen pa pibliye pou klas 12 · pa gen dat kontra ki pibliye",
+      "of": "961f8cc3",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.us"
       ]
     },
     {
@@ -2538,8 +2627,8 @@
       ]
     },
     {
-      "t": "Voye l anvan 15 janvye 2027 pou yo konsidere w nan desizyon tou prioritè a.",
-      "of": "43ac5026",
+      "t": "Voye l anvan 15 janvye 2027 pou yo konsidere w nan desizyon tou prioritè a. Desizyon sou èd la ap vini nan jou anons la: 26 fevriye 2027 pou TK ak Kindergarten, ak 9 avril 2027 pou klas 1–11.",
+      "of": "ab395938",
       "at": [
         "charlotte-latin:guide.checklist.aidPanel.items[2]"
       ]
@@ -2580,8 +2669,8 @@
       ]
     },
     {
-      "t": "Dat yo se pou sik antre 2027–28 la, jan yo pibliye l sou charlottelatin.org (nou pran l nan mwa out 2026). Yo soti nan paj pwosesis aplikasyon an, paj ekolaj ak èd finansye a, ak paj admisyon yo. Bagay ki make «konfime» yo swa parèt sèlman anndan pòtay aplikasyon an, swa yo pa pibliye ditou. Bagay sa yo gen ladan yo tout dat desizyon ak dat kontra enskripsyon. Dat sik la chanje chak ane, epi paj sa yo te montre yon lòt seri dat nan yon sezon anvan. Kidonk verifye paj k ap mache yo anvan ou aji. Se Charlotte School Compare ki rasanble yo; li pa gen rapò ak Charlotte Latin School.",
-      "of": "6236a7fa",
+      "t": "Dat yo se pou sik antre 2027–28 la, jan yo pibliye l sou charlottelatin.org (nou pran l nan mwa out 2026; nou te reverifye dat yo nan mwa novanm 2026). Yo soti nan paj pwosesis aplikasyon an, paj ekolaj ak èd finansye a, ak paj admisyon yo. Kèk bagay, tankou dat kontra enskripsyon an, parèt sèlman anndan pòtay aplikasyon an, oswa yo pa pibliye ditou. Dat sik la chanje chak ane, epi paj sa yo te montre yon lòt seri dat nan yon sezon anvan. Kidonk verifye paj k ap mache yo anvan ou aji. Se Charlotte School Compare ki rasanble yo; li pa gen rapò ak Charlotte Latin School.",
+      "of": "698ff60b",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ]

@@ -305,6 +305,8 @@
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
         "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-latin:guide.bands[0].deadlines[3].value",
+        "charlotte-latin:guide.bands[0].checklistRows[7].due",
         "charlotte-latin:guide.bands[2].deadlines[1].value",
         "charlotte-latin:guide.bands[2].deadlines[2].value",
         "charlotte-latin:guide.bands[2].checklistRows[4].due",
@@ -885,6 +887,12 @@
         "providence-day:guide.bands[2].deadlines[2].value",
         "providence-day:guide.bands[2].steps[4].tag",
         "providence-day:guide.bands[2].checklistRows[5].due",
+        "charlotte-latin:guide.bands[1].deadlines[2].value",
+        "charlotte-latin:guide.bands[1].checklistRows[6].due",
+        "charlotte-latin:guide.bands[2].deadlines[4].value",
+        "charlotte-latin:guide.bands[2].checklistRows[7].due",
+        "charlotte-latin:guide.bands[3].deadlines[4].value",
+        "charlotte-latin:guide.bands[3].checklistRows[7].due",
         "charlotte-christian:guide.bands[1].deadlines[2].value",
         "charlotte-christian:guide.bands[1].checklistRows[7].due",
         "charlotte-christian:guide.bands[2].deadlines[2].value",
@@ -1766,12 +1774,12 @@
       "t": "চক্রের তারিখ বছরে বছরে বদলায়, আর আগের কোনো মরশুমে এই পাতাগুলোতে অন্য একটি তালিকা ছিল। এগুলোর কোনোটির ভিত্তিতে পদক্ষেপ নেওয়ার আগে চলমান ভর্তি পাতাগুলোর সঙ্গে মিলিয়ে নিন।"
     },
     {
-      "text": "Every band follows the same four steps: apply online through the portal → attend a Visit Day → complete a standardized assessment → meet the deadlines. What changes between bands is which assessment your child takes and who schedules the Visit Day: the admissions office or you. Bands also differ in whether that day includes an interview, and in which deadline you work to.",
-      "of": "4c624c7a",
+      "text": "Every band follows the same five steps. First: apply online through the portal → attend a Visit Day → complete a standardized assessment. Then: meet the deadlines → hear back on notification day. What changes between bands is which assessment your child takes and who schedules the Visit Day: the admissions office or you. Bands also differ in whether that day includes an interview, and in which deadline you work to.",
+      "of": "9efab3b0",
       "at": [
         "charlotte-latin:guide.spineNote"
       ],
-      "t": "প্রতিটি স্তর একই চারটি ধাপ অনুসরণ করে: পোর্টালের মাধ্যমে অনলাইনে আবেদন → একটি Visit Day-তে উপস্থিতি → একটি প্রমিত পরীক্ষা → সময়সীমা মেনে চলা। স্তরভেদে যা বদলায় তা হলো আপনার সন্তান কোন পরীক্ষাটি দেবে এবং Visit Day কে ঠিক করে: ভর্তি দপ্তর, নাকি আপনি। সেই দিনে সাক্ষাৎকার থাকে কি না, এবং আপনি কোন সময়সীমা ধরে এগোবেন, তাতেও স্তরগুলো আলাদা।"
+      "t": "প্রতিটি স্তর একই পাঁচটি ধাপ অনুসরণ করে। প্রথমে: পোর্টালের মাধ্যমে অনলাইনে আবেদন → একটি Visit Day-তে উপস্থিতি → একটি প্রমিত পরীক্ষা। এরপর: সময়সীমা মেনে চলা → সিদ্ধান্ত জানানোর দিন-এ উত্তর পাওয়া। স্তরভেদে যা বদলায় তা হলো আপনার সন্তান কোন পরীক্ষাটি দেবে এবং Visit Day কে ঠিক করে: ভর্তি দপ্তর, নাকি আপনি। সেই দিনে সাক্ষাৎকার থাকে কি না, এবং আপনি কোন সময়সীমা ধরে এগোবেন, তাতেও স্তরগুলো আলাদা।"
     },
     {
       "text": "application due",
@@ -1812,6 +1820,16 @@
         "charlotte-latin:guide.bands[3].deadlines[3].label"
       ],
       "t": "আর্থিক সহায়তার আবেদনের সময়সীমা"
+    },
+    {
+      "text": "notification day",
+      "of": "0d52f720",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[3].label",
+        "charlotte-latin:guide.bands[1].deadlines[2].label",
+        "charlotte-latin:guide.bands[2].deadlines[4].label"
+      ],
+      "t": "সিদ্ধান্ত জানানোর দিন"
     },
     {
       "text": "Submit an inquiry, then create your family profile",
@@ -1860,12 +1878,12 @@
       "t": "আবেদনটি সম্পন্ন করুন"
     },
     {
-      "text": "Required, and due **January 2, 2027**. That is thirteen days ahead of every other grade in the school. So this band's deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being \"designed for children that are newly five and ready for Kindergarten,\" and states no calendar date. Ask the admissions office where your child falls.",
-      "of": "52ca6e42",
+      "text": "Required, and due **January 2, 2027**. That is thirteen days ahead of every other grade in the school. So this band's deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being \"designed for children that are newly five and ready for Kindergarten,\" and states no calendar date. Ask the admissions office where your child falls. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office. The listing says K-12, so it does not say whether it covers TK.",
+      "of": "3c4bf219",
       "at": [
         "charlotte-latin:guide.bands[0].steps[2].detail"
       ],
-      "t": "আবশ্যিক, এবং সময়সীমা **2 জানুয়ারি 2027**। এটি বিদ্যালয়ের অন্য প্রতিটি শ্রেণির চেয়ে তেরো দিন আগে। ফলে এই স্তরের সময়সীমা জানুয়ারির মাঝামাঝি নয়, প্রথম সপ্তাহে পড়ে। Transitional Kindergarten বা Kindergarten-এর জন্য **কোনো বয়স বা জন্মতারিখের সীমা প্রকাশ করা হয়নি**। বিদ্যালয়টি TK-কে কেবল সাধারণভাবে বর্ণনা করে, «সদ্য পাঁচ বছরে পা দেওয়া এবং Kindergarten-এর জন্য প্রস্তুত শিশুদের জন্য পরিকল্পিত» বলে, এবং কোনো তারিখ উল্লেখ করে না। আপনার সন্তান কোথায় পড়ে তা ভর্তি দপ্তরকে জিজ্ঞেস করুন।"
+      "t": "আবশ্যিক, এবং সময়সীমা **2 জানুয়ারি 2027**। এটি বিদ্যালয়ের অন্য প্রতিটি শ্রেণির চেয়ে তেরো দিন আগে। ফলে এই স্তরের সময়সীমা জানুয়ারির মাঝামাঝি নয়, প্রথম সপ্তাহে পড়ে। Transitional Kindergarten বা Kindergarten-এর জন্য **কোনো বয়স বা জন্মতারিখের সীমা প্রকাশ করা হয়নি**। বিদ্যালয়টি TK-কে কেবল সাধারণভাবে বর্ণনা করে, «সদ্য পাঁচ বছরে পা দেওয়া এবং Kindergarten-এর জন্য প্রস্তুত শিশুদের জন্য পরিকল্পিত» বলে, এবং কোনো তারিখ উল্লেখ করে না। আপনার সন্তান কোথায় পড়ে তা ভর্তি দপ্তরকে জিজ্ঞেস করুন। বর্তমান শিক্ষার্থীদের ভাইবোনদের জন্য আরও আগের একটি সময়সীমা ছিল। বিদ্যালয়ের ক্যালেন্ডারে **K-12 ভাইবোনদের আবেদনের সময়সীমা 15 অক্টোবর 2026** দেখানো হয়েছিল। আপনি যদি ভাইবোন-পরিবার হিসেবে এখন আবেদন করেন, ভর্তি দপ্তরকে জিজ্ঞেস করুন। তালিকায় K-12 লেখা আছে, তাই এতে TK অন্তর্ভুক্ত কি না তা বলা নেই।"
     },
     {
       "text": "Attend a Visit Day — the office schedules it",
@@ -1930,12 +1948,39 @@
       "t": "প্রয়োজন হলে আর্থিক সহায়তার জন্য আবেদন করুন"
     },
     {
-      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is two weeks after this band's own application deadline. One application covers every child in the family.",
-      "of": "bb167924",
+      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is two weeks after this band's own application deadline. One application covers every child in the family. Award decisions come on your notification day, **February 26, 2027**.",
+      "of": "3a7aef70",
       "at": [
         "charlotte-latin:guide.bands[0].steps[5].detail"
       ],
-      "t": "ঐচ্ছিক, এবং এর নিজস্ব সময়সূচি আছে: সহায়তার আবেদনটি **Clarity**-র মাধ্যমে **15 সেপ্টেম্বর 2026**-এ খোলে। অগ্রাধিকার পর্যায়ে বিবেচিত হতে হলে এটি **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয়। এটি এই স্তরের নিজস্ব আবেদনের সময়সীমার দুই সপ্তাহ পরে। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে।"
+      "t": "ঐচ্ছিক, এবং এর নিজস্ব সময়সূচি আছে: সহায়তার আবেদনটি **Clarity**-র মাধ্যমে **15 সেপ্টেম্বর 2026**-এ খোলে। অগ্রাধিকার পর্যায়ে বিবেচিত হতে হলে এটি **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয়। এটি এই স্তরের নিজস্ব আবেদনের সময়সীমার দুই সপ্তাহ পরে। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে। সহায়তার সিদ্ধান্ত আসে আপনার সিদ্ধান্ত জানানোর দিন-এ, **26 ফেব্রুয়ারি 2027**।"
+    },
+    {
+      "text": "Decision",
+      "of": "be93ff03",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].title",
+        "charlotte-latin:guide.bands[1].steps[5].title",
+        "charlotte-latin:guide.bands[2].steps[6].title",
+        "charlotte-latin:guide.bands[3].steps[6].title"
+      ],
+      "t": "সিদ্ধান্ত"
+    },
+    {
+      "text": "Feb 26",
+      "of": "7445835e",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].tag"
+      ],
+      "t": "26 ফেব্রুয়ারি"
+    },
+    {
+      "text": "**February 26, 2027** is the school's \"TK and K notification day.\" Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.",
+      "of": "b7f0c249",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[6].detail"
+      ],
+      "t": "**26 ফেব্রুয়ারি 2027** হলো বিদ্যালয়ের «TK ও K-এর সিদ্ধান্ত জানানোর দিন»। আর্থিক সহায়তার সিদ্ধান্তও একই দিনে জানানো হয়। **ভর্তি চুক্তির কোনো তারিখ প্রকাশ করা হয়নি**, তাই এটি কবে জমা দিতে হবে তা ভর্তি দপ্তরকে জিজ্ঞেস করুন। ভর্তির জন্য **$2,500 অফেরতযোগ্য জমা**ও আবশ্যক।"
     },
     {
       "text": "Your application deadline is Jan 2, 2027.",
@@ -1946,12 +1991,12 @@
       "t": "আপনার আবেদনের সময়সীমা 2 জানুয়ারি 2027।"
     },
     {
-      "text": "Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band's Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. No decision date and no enrollment contract date are published for any band. Confirm both with the admissions office.",
-      "of": "ac01cd72",
+      "text": "Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band's Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, February 26, 2027. No enrollment contract date is published, so confirm it with the admissions office.",
+      "of": "68014566",
       "at": [
         "charlotte-latin:guide.bands[0].checklistCallout.text"
       ],
-      "t": "Transitional Kindergarten ও Kindergarten অন্য প্রতিটি শ্রেণির চেয়ে তেরো দিন আগে আবেদন করে। এই স্তরের Visit Day পরিবার নয়, ভর্তি দপ্তরই ঠিক করে। এই স্তরের জন্য সব নথি জমার কোনো সময়সীমা প্রকাশ করা হয়নি। তাই কী কী বাকি আছে, সে বিষয়ে আপনার পোর্টালের চেকলিস্টটিকেই চূড়ান্ত বলে ধরুন। কোনো স্তরের জন্যই সিদ্ধান্তের তারিখ বা ভর্তি চুক্তির তারিখ প্রকাশ করা হয়নি। দুটোই ভর্তি দপ্তরের সঙ্গে নিশ্চিত করে নিন।"
+      "t": "Transitional Kindergarten ও Kindergarten অন্য প্রতিটি শ্রেণির চেয়ে তেরো দিন আগে আবেদন করে। এই স্তরের Visit Day পরিবার নয়, ভর্তি দপ্তরই ঠিক করে। এই স্তরের জন্য সব নথি জমার কোনো সময়সীমা প্রকাশ করা হয়নি। তাই কী কী বাকি আছে, সে বিষয়ে আপনার পোর্টালের চেকলিস্টটিকেই চূড়ান্ত বলে ধরুন। সিদ্ধান্ত আসে সিদ্ধান্ত জানানোর দিন-এ, 26 ফেব্রুয়ারি 2027। ভর্তি চুক্তির কোনো তারিখ প্রকাশ করা হয়নি, তাই তা ভর্তি দপ্তরের সঙ্গে নিশ্চিত করে নিন।"
     },
     {
       "text": "Submit the online inquiry form",
@@ -2105,37 +2150,25 @@
       "t": "ঐচ্ছিক। 15 সেপ্টেম্বর 2026-এ খোলে; একটি আবেদনেই একাধিক সন্তান অন্তর্ভুক্ত হয়।"
     },
     {
-      "text": "Confirm the decision and contract dates with admissions",
-      "of": "397c18a8",
+      "text": "Watch for your notification day",
+      "of": "58f8f5ab",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].action",
         "charlotte-latin:guide.bands[1].checklistRows[6].action",
         "charlotte-latin:guide.bands[2].checklistRows[7].action",
         "charlotte-latin:guide.bands[3].checklistRows[7].action"
       ],
-      "t": "সিদ্ধান্ত ও চুক্তির তারিখ ভর্তি দপ্তরের সঙ্গে নিশ্চিত করুন"
+      "t": "আপনার সিদ্ধান্ত জানানোর দিন-এর অপেক্ষায় থাকুন"
     },
     {
-      "text": "Neither is published for any band. Ask when you should expect to hear.",
-      "of": "c3c92423",
+      "text": "Admission and financial aid decisions come that day. No contract date is published; confirm it with admissions.",
+      "of": "9173c205",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].detail",
         "charlotte-latin:guide.bands[1].checklistRows[6].detail",
-        "charlotte-latin:guide.bands[2].checklistRows[7].detail",
-        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
       ],
-      "t": "কোনো স্তরের জন্যই এর কোনোটি প্রকাশ করা হয়নি। কবে উত্তর আশা করবেন তা জিজ্ঞেস করুন।"
-    },
-    {
-      "text": "Confirm",
-      "of": "a183c9ef",
-      "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[7].due",
-        "charlotte-latin:guide.bands[1].checklistRows[6].due",
-        "charlotte-latin:guide.bands[2].checklistRows[7].due",
-        "charlotte-latin:guide.bands[3].checklistRows[7].due"
-      ],
-      "t": "নিশ্চিত করুন"
+      "t": "ভর্তি ও আর্থিক সহায়তার সিদ্ধান্ত সেদিনই আসে। চুক্তির কোনো তারিখ প্রকাশ করা হয়নি; তা ভর্তি দপ্তরের সঙ্গে নিশ্চিত করুন।"
     },
     {
       "text": "Lower School · Grades 1–5",
@@ -2164,12 +2197,12 @@
       "t": "আবশ্যিক প্রথম ধাপ: পরিবারগুলো «প্রথমে একটি অনুসন্ধান পাঠায় এবং তারপর নিজেদের পরিবারের জন্য একটি প্রোফাইল তৈরি করে»। এরপর সেই অ্যাকাউন্টই আপনাকে ঐচ্ছিক ভর্তি-অনুষ্ঠানে আসন সংরক্ষণ করতে, নথিপত্র জমা দিতে, ফর্ম খুঁজে নিতে এবং সময়সীমা মানতে বলে।"
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline every grade from 1 through 12 works to, thirteen days later than Transitional Kindergarten and Kindergarten.",
-      "of": "1994f5d5",
+      "text": "Required, and due **January 15, 2027** — the deadline every grade from 1 through 12 works to, thirteen days later than Transitional Kindergarten and Kindergarten. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "d9c67bf3",
       "at": [
         "charlotte-latin:guide.bands[1].steps[1].detail"
       ],
-      "t": "আবশ্যিক, এবং সময়সীমা **15 জানুয়ারি 2027** — 1 থেকে 12 পর্যন্ত প্রতিটি শ্রেণি যে সময়সীমা ধরে চলে, Transitional Kindergarten ও Kindergarten-এর চেয়ে তেরো দিন পরে।"
+      "t": "আবশ্যিক, এবং সময়সীমা **15 জানুয়ারি 2027** — 1 থেকে 12 পর্যন্ত প্রতিটি শ্রেণি যে সময়সীমা ধরে চলে, Transitional Kindergarten ও Kindergarten-এর চেয়ে তেরো দিন পরে। বর্তমান শিক্ষার্থীদের ভাইবোনদের জন্য আরও আগের একটি সময়সীমা ছিল। বিদ্যালয়ের ক্যালেন্ডারে **K-12 ভাইবোনদের আবেদনের সময়সীমা 15 অক্টোবর 2026** দেখানো হয়েছিল। আপনি যদি ভাইবোন-পরিবার হিসেবে এখন আবেদন করেন, ভর্তি দপ্তরকে জিজ্ঞেস করুন।"
     },
     {
       "text": "Schedule and attend a Visit Day",
@@ -2215,12 +2248,31 @@
       "t": "আবশ্যিক, এবং **এই একই স্তরের ভেতরেই পরীক্ষাটি দুবার বদলায়**। শ্রেণি 1-এর আবেদনকারীরা **WPPSI**, শ্রেণি 2–4 **WISC-V** এবং শ্রেণি 5 **ISEE** দেয়। এর সঙ্গে বুকিংয়ের পথও বদলায়। Charlotte Area Independent Schools কনসোর্টিয়ামের একজন মনোবিজ্ঞানী WPPSI ও WISC-V নেন, এবং আপনি সেই মনোবিজ্ঞানীর সঙ্গে সরাসরি যোগাযোগ করেন। ISEE তৈরি ও পরিচালনা করে **Educational Records Bureau**, আর শ্রেণি 5-এর পরিবারগুলো ERB-র মাধ্যমে নিবন্ধন করে। কিছু বুক করার আগে দেখে নিন আপনার সন্তান যে শ্রেণিতে ঢুকছে তার জন্য কোন পরীক্ষাটি প্রযোজ্য।"
     },
     {
-      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is the same day as this band's application deadline. One application covers every child in the family.",
-      "of": "dca8641e",
+      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is the same day as this band's application deadline. One application covers every child in the family. Award decisions come on your notification day, **April 9, 2027**.",
+      "of": "3582225d",
       "at": [
         "charlotte-latin:guide.bands[1].steps[4].detail"
       ],
-      "t": "ঐচ্ছিক, এবং এর নিজস্ব সময়সূচি আছে: সহায়তার আবেদনটি **Clarity**-র মাধ্যমে **15 সেপ্টেম্বর 2026**-এ খোলে। অগ্রাধিকার পর্যায়ে বিবেচিত হতে হলে এটি **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয়। এটি এই স্তরের আবেদনের সময়সীমার দিনই। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে।"
+      "t": "ঐচ্ছিক, এবং এর নিজস্ব সময়সূচি আছে: সহায়তার আবেদনটি **Clarity**-র মাধ্যমে **15 সেপ্টেম্বর 2026**-এ খোলে। অগ্রাধিকার পর্যায়ে বিবেচিত হতে হলে এটি **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয়। এটি এই স্তরের আবেদনের সময়সীমার দিনই। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে। সহায়তার সিদ্ধান্ত আসে আপনার সিদ্ধান্ত জানানোর দিন-এ, **9 এপ্রিল 2027**।"
+    },
+    {
+      "text": "Apr 9",
+      "of": "7063767d",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[5].tag",
+        "charlotte-latin:guide.bands[2].steps[6].tag",
+        "charlotte-latin:guide.bands[3].steps[6].tag"
+      ],
+      "t": "9 এপ্রিল"
+    },
+    {
+      "text": "**April 9, 2027** is the school's \"Grades 1-11 notification day.\" Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.",
+      "of": "7f2bfc85",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[5].detail",
+        "charlotte-latin:guide.bands[2].steps[6].detail"
+      ],
+      "t": "**9 এপ্রিল 2027** হলো বিদ্যালয়ের «শ্রেণি 1-11-এর সিদ্ধান্ত জানানোর দিন»। আর্থিক সহায়তার সিদ্ধান্তও একই দিনে জানানো হয়। **ভর্তি চুক্তির কোনো তারিখ প্রকাশ করা হয়নি**, তাই এটি কবে জমা দিতে হবে তা ভর্তি দপ্তরকে জিজ্ঞেস করুন। ভর্তির জন্য **$2,500 অফেরতযোগ্য জমা**ও আবশ্যক।"
     },
     {
       "text": "The assessment changes twice inside this one band.",
@@ -2231,12 +2283,12 @@
       "t": "এই একই স্তরের ভেতরেই পরীক্ষাটি দুবার বদলায়।"
     },
     {
-      "text": "Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child's entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. No decision date or enrollment contract date is published for any band. Confirm both with the admissions office.",
-      "of": "906f9af3",
+      "text": "Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child's entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the admissions office.",
+      "of": "78a2466d",
       "at": [
         "charlotte-latin:guide.bands[1].checklistCallout.text"
       ],
-      "t": "শ্রেণি 1 দেয় WPPSI, শ্রেণি 2–4 দেয় WISC-V আর শ্রেণি 5 দেয় ISEE। এর সঙ্গে বুকিংয়ের পথও বদলায়। WPPSI ও WISC-V-এর জন্য আপনি সরাসরি একজন CAIS মনোবিজ্ঞানীর সঙ্গে যোগাযোগ করেন। ISEE-র জন্য আপনি Educational Records Bureau-তে নিবন্ধন করেন। বুক করার আগে নিশ্চিত করুন আপনার সন্তানের ভর্তির শ্রেণির জন্য কোন পরীক্ষাটি প্রযোজ্য। এই স্তরের জন্য সব নথি জমার কোনো সময়সীমা প্রকাশ করা হয়নি। তাই কী কী বাকি আছে, সে বিষয়ে আপনার পোর্টালের চেকলিস্টটিকেই চূড়ান্ত বলে ধরুন। কোনো স্তরের জন্যই সিদ্ধান্তের তারিখ বা ভর্তি চুক্তির তারিখ প্রকাশ করা হয়নি। দুটোই ভর্তি দপ্তরের সঙ্গে নিশ্চিত করে নিন।"
+      "t": "শ্রেণি 1 দেয় WPPSI, শ্রেণি 2–4 দেয় WISC-V আর শ্রেণি 5 দেয় ISEE। এর সঙ্গে বুকিংয়ের পথও বদলায়। WPPSI ও WISC-V-এর জন্য আপনি সরাসরি একজন CAIS মনোবিজ্ঞানীর সঙ্গে যোগাযোগ করেন। ISEE-র জন্য আপনি Educational Records Bureau-তে নিবন্ধন করেন। বুক করার আগে নিশ্চিত করুন আপনার সন্তানের ভর্তির শ্রেণির জন্য কোন পরীক্ষাটি প্রযোজ্য। এই স্তরের জন্য সব নথি জমার কোনো সময়সীমা প্রকাশ করা হয়নি। তাই কী কী বাকি আছে, সে বিষয়ে আপনার পোর্টালের চেকলিস্টটিকেই চূড়ান্ত বলে ধরুন। সিদ্ধান্ত আসে সিদ্ধান্ত জানানোর দিন-এ, 9 এপ্রিল 2027। ভর্তি চুক্তির কোনো তারিখ প্রকাশ করা হয়নি, তাই তা ভর্তি দপ্তরের সঙ্গে নিশ্চিত করে নিন।"
     },
     {
       "text": "The Grades 1–12 deadline, thirteen days after the TK/K one.",
@@ -2306,12 +2358,12 @@
       "t": "সব নথি জমার সময়সীমা"
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Sixth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and ninth grade.",
-      "of": "85254822",
+      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Sixth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and ninth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "c285c5c0",
       "at": [
         "charlotte-latin:guide.bands[2].steps[1].detail"
       ],
-      "t": "আবশ্যিক, এবং সময়সীমা **15 জানুয়ারি 2027** — 1 থেকে 12 পর্যন্ত প্রতিটি শ্রেণির অভিন্ন সময়সীমা। ষষ্ঠ শ্রেণি সেই বছরগুলোর একটি যেখানে বিদ্যালয়টি «স্বাভাবিকভাবে বিস্তৃত হয়», TK, Kindergarten ও নবম শ্রেণির সঙ্গে।"
+      "t": "আবশ্যিক, এবং সময়সীমা **15 জানুয়ারি 2027** — 1 থেকে 12 পর্যন্ত প্রতিটি শ্রেণির অভিন্ন সময়সীমা। ষষ্ঠ শ্রেণি সেই বছরগুলোর একটি যেখানে বিদ্যালয়টি «স্বাভাবিকভাবে বিস্তৃত হয়», TK, Kindergarten ও নবম শ্রেণির সঙ্গে। বর্তমান শিক্ষার্থীদের ভাইবোনদের জন্য আরও আগের একটি সময়সীমা ছিল। বিদ্যালয়ের ক্যালেন্ডারে **K-12 ভাইবোনদের আবেদনের সময়সীমা 15 অক্টোবর 2026** দেখানো হয়েছিল। আপনি যদি ভাইবোন-পরিবার হিসেবে এখন আবেদন করেন, ভর্তি দপ্তরকে জিজ্ঞেস করুন।"
     },
     {
       "text": "Schedule and attend a Visit Day — interview included",
@@ -2365,13 +2417,12 @@
       "t": "সব নথি জমার সময়সীমা **26 ফেব্রুয়ারি 2027**, পরীক্ষার সময়সীমার সঙ্গে একই দিন। কী কী বাকি আছে তা আপনার পোর্টাল অ্যাকাউন্টেই তালিকাভুক্ত থাকে এবং সেখানেই জমা দেওয়া হয়।"
     },
     {
-      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family.",
-      "of": "44608f2b",
+      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family. Award decisions come on your notification day, **April 9, 2027**.",
+      "of": "89cc82c0",
       "at": [
-        "charlotte-latin:guide.bands[2].steps[5].detail",
-        "charlotte-latin:guide.bands[3].steps[5].detail"
+        "charlotte-latin:guide.bands[2].steps[5].detail"
       ],
-      "t": "ঐচ্ছিক, এবং এর নিজস্ব সময়সূচি আছে: সহায়তার আবেদনটি **Clarity**-র মাধ্যমে **15 সেপ্টেম্বর 2026**-এ খোলে। অগ্রাধিকার পর্যায়ে বিবেচিত হতে হলে এটি **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয়। এটি নথি জমার সময়সীমার ছয় সপ্তাহ আগে। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে।"
+      "t": "ঐচ্ছিক, এবং এর নিজস্ব সময়সূচি আছে: সহায়তার আবেদনটি **Clarity**-র মাধ্যমে **15 সেপ্টেম্বর 2026**-এ খোলে। অগ্রাধিকার পর্যায়ে বিবেচিত হতে হলে এটি **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয়। এটি নথি জমার সময়সীমার ছয় সপ্তাহ আগে। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে। সহায়তার সিদ্ধান্ত আসে আপনার সিদ্ধান্ত জানানোর দিন-এ, **9 এপ্রিল 2027**।"
     },
     {
       "text": "February 26, 2027 is the date that binds this band.",
@@ -2383,12 +2434,12 @@
       "t": "26 ফেব্রুয়ারি 2027-ই এই স্তরের নির্ধারক তারিখ।"
     },
     {
-      "text": "Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. A test seat has to be booked, taken and scored before the deadline. The Visit Day is an assessment day, not a tour: it includes an interview, an on-site assessment and a class observation. No decision date and no enrollment contract date are published for any band. Confirm both with the admissions office.",
-      "of": "bb4c3591",
+      "text": "Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. A test seat has to be booked, taken and scored before the deadline. The Visit Day is an assessment day, not a tour: it includes an interview, an on-site assessment and a class observation. Decisions come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the admissions office.",
+      "of": "8836e1fc",
       "at": [
         "charlotte-latin:guide.bands[2].checklistCallout.text"
       ],
-      "t": "ISEE এবং ফাইলের বাকি প্রতিটি বিষয় সেদিনই জমা দিতে হয়। তাই ওই তারিখটিকে লক্ষ্য না করে, সেখান থেকে পিছিয়ে হিসেব করে ERB নিবন্ধনের পরিকল্পনা করুন। পরীক্ষার আসন বুক করা, পরীক্ষা দেওয়া ও নম্বর পাওয়া সবই সময়সীমার আগে সারতে হবে। Visit Day একটি মূল্যায়নের দিন, পরিদর্শন নয়: এতে থাকে একটি সাক্ষাৎকার, সরাসরি একটি মূল্যায়ন এবং একটি ক্লাস পর্যবেক্ষণ। কোনো স্তরের জন্যই সিদ্ধান্তের তারিখ বা ভর্তি চুক্তির তারিখ প্রকাশ করা হয়নি। দুটোই ভর্তি দপ্তরের সঙ্গে নিশ্চিত করে নিন।"
+      "t": "ISEE এবং ফাইলের বাকি প্রতিটি বিষয় সেদিনই জমা দিতে হয়। তাই ওই তারিখটিকে লক্ষ্য না করে, সেখান থেকে পিছিয়ে হিসেব করে ERB নিবন্ধনের পরিকল্পনা করুন। পরীক্ষার আসন বুক করা, পরীক্ষা দেওয়া ও নম্বর পাওয়া সবই সময়সীমার আগে সারতে হবে। Visit Day একটি মূল্যায়নের দিন, পরিদর্শন নয়: এতে থাকে একটি সাক্ষাৎকার, সরাসরি একটি মূল্যায়ন এবং একটি ক্লাস পর্যবেক্ষণ। সিদ্ধান্ত আসে সিদ্ধান্ত জানানোর দিন-এ, 9 এপ্রিল 2027। ভর্তি চুক্তির কোনো তারিখ প্রকাশ করা হয়নি, তাই তা ভর্তি দপ্তরের সঙ্গে নিশ্চিত করে নিন।"
     },
     {
       "text": "The Grades 1–12 deadline. Grade 6 is a natural expansion year.",
@@ -2467,12 +2518,20 @@
       "t": "Upper School — শ্রেণি 9–12"
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Ninth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and sixth grade.",
-      "of": "b6749c0e",
+      "text": "notification day — Grades 9–11",
+      "of": "7d521e76",
+      "at": [
+        "charlotte-latin:guide.bands[3].deadlines[4].label"
+      ],
+      "t": "সিদ্ধান্ত জানানোর দিন — শ্রেণি 9–11"
+    },
+    {
+      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Ninth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and sixth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "bbcb2cdc",
       "at": [
         "charlotte-latin:guide.bands[3].steps[1].detail"
       ],
-      "t": "আবশ্যিক, এবং সময়সীমা **15 জানুয়ারি 2027** — 1 থেকে 12 পর্যন্ত প্রতিটি শ্রেণির অভিন্ন সময়সীমা। নবম শ্রেণি সেই বছরগুলোর একটি যেখানে বিদ্যালয়টি «স্বাভাবিকভাবে বিস্তৃত হয়», TK, Kindergarten ও ষষ্ঠ শ্রেণির সঙ্গে।"
+      "t": "আবশ্যিক, এবং সময়সীমা **15 জানুয়ারি 2027** — 1 থেকে 12 পর্যন্ত প্রতিটি শ্রেণির অভিন্ন সময়সীমা। নবম শ্রেণি সেই বছরগুলোর একটি যেখানে বিদ্যালয়টি «স্বাভাবিকভাবে বিস্তৃত হয়», TK, Kindergarten ও ষষ্ঠ শ্রেণির সঙ্গে। বর্তমান শিক্ষার্থীদের ভাইবোনদের জন্য আরও আগের একটি সময়সীমা ছিল। বিদ্যালয়ের ক্যালেন্ডারে **K-12 ভাইবোনদের আবেদনের সময়সীমা 15 অক্টোবর 2026** দেখানো হয়েছিল। আপনি যদি ভাইবোন-পরিবার হিসেবে এখন আবেদন করেন, ভর্তি দপ্তরকে জিজ্ঞেস করুন।"
     },
     {
       "text": "Schedule and attend a Visit Day — interview and a shadow day",
@@ -2499,12 +2558,28 @@
       "t": "**শ্রেণি 9–11-এর আবেদনকারীদের** জন্য আবশ্যিক, যারা «ISEE দেয়», এবং «Upper School-এর সব পরীক্ষা **26 ফেব্রুয়ারি 2027**-এর মধ্যে সম্পন্ন ও জমা দিতে হবে»। আপনি বিদ্যালয়ের নয়, **Educational Records Bureau**-র মাধ্যমে নিবন্ধন করেন। এই স্তরে আপনার পরীক্ষার পরিকল্পনা 26 ফেব্রুয়ারির ওপর নির্ভর করে, তাই **সেখান থেকে পিছিয়ে হিসেব করে নিবন্ধনের পরিকল্পনা করুন**। পরীক্ষার আসন বুক করা, পরীক্ষা দেওয়া ও নম্বর পাওয়া সবই সময়সীমার আগে সারতে হবে। **শ্রেণি 12-এর আবেদনকারীদের জন্য কোনো ভর্তি-পরীক্ষা প্রকাশ করা হয়নি**। প্রকাশিত শর্তটি কেবল শ্রেণি 9 থেকে 11 পর্যন্তই প্রযোজ্য, তাই শ্রেণি 12-এর পরিবারের উচিত ভর্তি দপ্তরকে জিজ্ঞেস করা কী প্রযোজ্য।"
     },
     {
-      "text": "Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. The Visit Day pairs an interview with a Student Ambassador shadow day, so your child spends the day as a Latin student would. The published assessment requirement covers Grades 9 through 11. Nothing is published for Grade 12 applicants, so ask the admissions office what applies. No decision date and no enrollment contract date are published for any band. Confirm both with the office.",
-      "of": "5a21d4bf",
+      "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is six weeks before the file-material deadline. One application covers every child in the family. For Grades 9–11, award decisions come on the notification day, **April 9, 2027**.",
+      "of": "f05bee23",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[5].detail"
+      ],
+      "t": "ঐচ্ছিক, এবং এর নিজস্ব সময়সূচি আছে: সহায়তার আবেদনটি **Clarity**-র মাধ্যমে **15 সেপ্টেম্বর 2026**-এ খোলে। অগ্রাধিকার পর্যায়ে বিবেচিত হতে হলে এটি **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয়। এটি নথি জমার সময়সীমার ছয় সপ্তাহ আগে। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে। শ্রেণি 9–11-এর জন্য সহায়তার সিদ্ধান্ত আসে সিদ্ধান্ত জানানোর দিন-এ, **9 এপ্রিল 2027**।"
+    },
+    {
+      "text": "**April 9, 2027** is the school's \"Grades 1-11 notification day.\" Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**. That notification day covers Grades 9–11. **No notification date is published for Grade 12**, so a Grade 12 family should ask the admissions office.",
+      "of": "c026f666",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[6].detail"
+      ],
+      "t": "**9 এপ্রিল 2027** হলো বিদ্যালয়ের «শ্রেণি 1-11-এর সিদ্ধান্ত জানানোর দিন»। আর্থিক সহায়তার সিদ্ধান্তও একই দিনে জানানো হয়। **ভর্তি চুক্তির কোনো তারিখ প্রকাশ করা হয়নি**, তাই এটি কবে জমা দিতে হবে তা ভর্তি দপ্তরকে জিজ্ঞেস করুন। ভর্তির জন্য **$2,500 অফেরতযোগ্য জমা**ও আবশ্যক। এই সিদ্ধান্ত জানানোর দিন শ্রেণি 9–11-এর জন্য প্রযোজ্য। **শ্রেণি 12-এর জন্য সিদ্ধান্ত জানানোর কোনো তারিখ প্রকাশ করা হয়নি**, তাই শ্রেণি 12-এর পরিবারের উচিত ভর্তি দপ্তরকে জিজ্ঞেস করা।"
+    },
+    {
+      "text": "Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. The Visit Day pairs an interview with a Student Ambassador shadow day, so your child spends the day as a Latin student would. The published assessment requirement covers Grades 9 through 11. Nothing is published for Grade 12 applicants, so ask the admissions office what applies. Decisions for Grades 9–11 come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the office.",
+      "of": "665be691",
       "at": [
         "charlotte-latin:guide.bands[3].checklistCallout.text"
       ],
-      "t": "ISEE এবং ফাইলের বাকি প্রতিটি বিষয় সেদিনই জমা দিতে হয়। তাই ওই তারিখটিকে লক্ষ্য না করে, সেখান থেকে পিছিয়ে হিসেব করে ERB নিবন্ধনের পরিকল্পনা করুন। Visit Day-তে একটি সাক্ষাৎকারের সঙ্গে একজন Student Ambassador-এর পাশে থাকা একটি ছায়া-দিবস যুক্ত হয়, ফলে আপনার সন্তান দিনটি একজন Latin শিক্ষার্থীর মতোই কাটায়। প্রকাশিত পরীক্ষার শর্তটি শ্রেণি 9 থেকে 11 পর্যন্ত প্রযোজ্য। শ্রেণি 12-এর আবেদনকারীদের জন্য কিছুই প্রকাশ করা হয়নি, তাই ভর্তি দপ্তরকে জিজ্ঞেস করুন কী প্রযোজ্য। কোনো স্তরের জন্যই সিদ্ধান্তের তারিখ বা ভর্তি চুক্তির তারিখ প্রকাশ করা হয়নি। দুটোই দপ্তরের সঙ্গে নিশ্চিত করে নিন।"
+      "t": "ISEE এবং ফাইলের বাকি প্রতিটি বিষয় সেদিনই জমা দিতে হয়। তাই ওই তারিখটিকে লক্ষ্য না করে, সেখান থেকে পিছিয়ে হিসেব করে ERB নিবন্ধনের পরিকল্পনা করুন। Visit Day-তে একটি সাক্ষাৎকারের সঙ্গে একজন Student Ambassador-এর পাশে থাকা একটি ছায়া-দিবস যুক্ত হয়, ফলে আপনার সন্তান দিনটি একজন Latin শিক্ষার্থীর মতোই কাটায়। প্রকাশিত পরীক্ষার শর্তটি শ্রেণি 9 থেকে 11 পর্যন্ত প্রযোজ্য। শ্রেণি 12-এর আবেদনকারীদের জন্য কিছুই প্রকাশ করা হয়নি, তাই ভর্তি দপ্তরকে জিজ্ঞেস করুন কী প্রযোজ্য। শ্রেণি 9–11-এর সিদ্ধান্ত আসে সিদ্ধান্ত জানানোর দিন-এ, 9 এপ্রিল 2027। ভর্তি চুক্তির কোনো তারিখ প্রকাশ করা হয়নি, তাই তা দপ্তরের সঙ্গে নিশ্চিত করে নিন।"
     },
     {
       "text": "The Grades 1–12 deadline. Grade 9 is a natural expansion year.",
@@ -2539,12 +2614,20 @@
       "t": "Educational Records Bureau-র মাধ্যমে। শ্রেণি 12-এর জন্য কিছুই প্রকাশ করা হয়নি।"
     },
     {
-      "text": "Aid runs through **Clarity**. It opens **September 15, 2026** and is due **January 15, 2027** to be considered in the priority round. One application covers every child in the family and \"typically takes 30 minutes or less to complete.\" Separately, a **$2,500 non-refundable deposit** is \"required at the time of initial enrollment or reenrollment\" and is \"deducted from the second tuition payment\". No student can be enrolled or reenrolled without it. **No aid application fee is published** for this cycle.",
-      "of": "e0133c73",
+      "text": "Grades 9–11. Admission and financial aid decisions come that day. Nothing is published for Grade 12 or for the contract; ask admissions.",
+      "of": "0984e87d",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+      ],
+      "t": "শ্রেণি 9–11। ভর্তি ও আর্থিক সহায়তার সিদ্ধান্ত সেদিনই আসে। শ্রেণি 12 বা চুক্তির বিষয়ে কিছুই প্রকাশ করা হয়নি; ভর্তি দপ্তরকে জিজ্ঞেস করুন।"
+    },
+    {
+      "text": "Aid runs through **Clarity**. It opens **September 15, 2026** and is due **January 15, 2027** to be considered in the priority round. Award decisions come on notification day: **February 26, 2027** for TK and Kindergarten, and **April 9, 2027** for Grades 1–11. One application covers every child in the family and \"typically takes 30 minutes or less to complete.\" Separately, a **$2,500 non-refundable deposit** is \"required at the time of initial enrollment or reenrollment\" and is \"deducted from the second tuition payment\". No student can be enrolled or reenrolled without it. **No aid application fee is published** for this cycle.",
+      "of": "b235946d",
       "at": [
         "charlotte-latin:guide.aid.text"
       ],
-      "t": "সহায়তা চলে **Clarity**-র মাধ্যমে। এটি খোলে **15 সেপ্টেম্বর 2026**-এ, এবং অগ্রাধিকার পর্যায়ে বিবেচিত হতে হলে **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয়। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে এবং «সাধারণত 30 মিনিট বা তার কম সময়ে সম্পন্ন হয়»। এর বাইরে, «প্রথম ভর্তি বা পুনঃভর্তির সময়» একটি **$2,500 অফেরতযোগ্য জমা** «আবশ্যক», যা «দ্বিতীয় টিউশন কিস্তি থেকে বাদ দেওয়া হয়»। এটি ছাড়া কোনো শিক্ষার্থীকে ভর্তি বা পুনঃভর্তি করা যায় না। এই চক্রের জন্য **কোনো সহায়তা-আবেদন ফি প্রকাশ করা হয়নি**।"
+      "t": "সহায়তা চলে **Clarity**-র মাধ্যমে। এটি খোলে **15 সেপ্টেম্বর 2026**-এ, এবং অগ্রাধিকার পর্যায়ে বিবেচিত হতে হলে **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয়। সহায়তার সিদ্ধান্ত আসে সিদ্ধান্ত জানানোর দিন-এ: TK ও Kindergarten-এর জন্য **26 ফেব্রুয়ারি 2027**, এবং শ্রেণি 1–11-এর জন্য **9 এপ্রিল 2027**। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে এবং «সাধারণত 30 মিনিট বা তার কম সময়ে সম্পন্ন হয়»। এর বাইরে, «প্রথম ভর্তি বা পুনঃভর্তির সময়» একটি **$2,500 অফেরতযোগ্য জমা** «আবশ্যক», যা «দ্বিতীয় টিউশন কিস্তি থেকে বাদ দেওয়া হয়»। এটি ছাড়া কোনো শিক্ষার্থীকে ভর্তি বা পুনঃভর্তি করা যায় না। এই চক্রের জন্য **কোনো সহায়তা-আবেদন ফি প্রকাশ করা হয়নি**।"
     },
     {
       "text": "Who schedules the Visit Day",
@@ -2688,12 +2771,29 @@
       "t": "সিদ্ধান্ত ও চুক্তি"
     },
     {
-      "text": "Not published in any band — confirm with the admissions office. Every published timeline ends at the application or file-material deadline. No admissions page gives a date or time when decisions are sent, or a date for the enrollment contract.",
-      "of": "3bb46864",
+      "text": "Feb 26, 2027 · no contract date published",
+      "of": "eed7eae9",
       "at": [
-        "charlotte-latin:guide.comparison.rows[6].cells.all"
+        "charlotte-latin:guide.comparison.rows[6].cells.tkk"
       ],
-      "t": "কোনো স্তরেই প্রকাশিত নয় — ভর্তি দপ্তরের সঙ্গে নিশ্চিত করুন। প্রকাশিত প্রতিটি সময়রেখা আবেদন বা নথি জমার সময়সীমাতেই শেষ হয়। কোনো ভর্তি পাতায় সিদ্ধান্ত পাঠানোর তারিখ বা সময়, কিংবা ভর্তি চুক্তির তারিখ দেওয়া নেই।"
+      "t": "26 ফেব্রুয়ারি 2027 · চুক্তির কোনো তারিখ প্রকাশিত নয়"
+    },
+    {
+      "text": "Apr 9, 2027 · no contract date published",
+      "of": "5760d46c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.ls",
+        "charlotte-latin:guide.comparison.rows[6].cells.ms"
+      ],
+      "t": "9 এপ্রিল 2027 · চুক্তির কোনো তারিখ প্রকাশিত নয়"
+    },
+    {
+      "text": "Apr 9, 2027 (Gr 9–11) · nothing published for Gr 12 · no contract date published",
+      "of": "961f8cc3",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.us"
+      ],
+      "t": "9 এপ্রিল 2027 (শ্রেণি 9–11) · শ্রেণি 12-এর জন্য কিছুই প্রকাশিত নয় · চুক্তির কোনো তারিখ প্রকাশিত নয়"
     },
     {
       "text": "Constant in every band",
@@ -2820,12 +2920,12 @@
       "t": "আবেদনটি 15 সেপ্টেম্বর 2026-এ খোলে।"
     },
     {
-      "text": "Submit by January 15, 2027 to be considered for priority-round decisions.",
-      "of": "43ac5026",
+      "text": "Submit by January 15, 2027 to be considered for priority-round decisions. Award decisions come on notification day: February 26, 2027 for TK and Kindergarten, and April 9, 2027 for Grades 1–11.",
+      "of": "ab395938",
       "at": [
         "charlotte-latin:guide.checklist.aidPanel.items[2]"
       ],
-      "t": "অগ্রাধিকার পর্যায়ের সিদ্ধান্তে বিবেচিত হতে 15 জানুয়ারি 2027-এর মধ্যে জমা দিন।"
+      "t": "অগ্রাধিকার পর্যায়ের সিদ্ধান্তে বিবেচিত হতে 15 জানুয়ারি 2027-এর মধ্যে জমা দিন। সহায়তার সিদ্ধান্ত আসে সিদ্ধান্ত জানানোর দিন-এ: TK ও Kindergarten-এর জন্য 26 ফেব্রুয়ারি 2027, এবং শ্রেণি 1–11-এর জন্য 9 এপ্রিল 2027।"
     },
     {
       "text": "A $2,500 non-refundable deposit is required when a student first enrolls or reenrolls. It is deducted from the second tuition payment. No student can be enrolled or reenrolled without it.",
@@ -2868,12 +2968,12 @@
       "t": "9502 Providence Road, Charlotte, NC 28277"
     },
     {
-      "text": "Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026). They come from the application process, tuition and financial assistance, and admissions pages. Items marked \"confirm\" are either shown only inside the application portal or not published at all. Those items include every decision and enrollment contract date. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.",
-      "of": "6236a7fa",
+      "text": "Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages. Some items, such as the enrollment contract date, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.",
+      "of": "698ff60b",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ],
-      "t": "তারিখগুলো 2027–28 ভর্তি চক্রের, যেমনটি charlottelatin.org-এ প্রকাশিত (সংগৃহীত আগস্ট 2026)। এগুলো নেওয়া হয়েছে আবেদন প্রক্রিয়া, টিউশন ও আর্থিক সহায়তা, এবং ভর্তি পাতাগুলো থেকে। «নিশ্চিত করুন» চিহ্নিত বিষয়গুলো হয় কেবল আবেদন পোর্টালের ভেতরে দেখা যায়, নয়তো একেবারেই প্রকাশিত নয়। এর মধ্যে প্রতিটি সিদ্ধান্ত ও ভর্তি চুক্তির তারিখও পড়ে। চক্রের তারিখ বছরে বছরে বদলায়, আর আগের কোনো মরশুমে এই পাতাগুলোতে অন্য একটি তালিকা ছিল। তাই পদক্ষেপ নেওয়ার আগে চলমান পাতাগুলোর সঙ্গে মিলিয়ে নিন। সংকলন করেছে Charlotte School Compare; Charlotte Latin School-এর সঙ্গে সম্পর্কিত নয়।"
+      "t": "তারিখগুলো 2027–28 ভর্তি চক্রের, যেমনটি charlottelatin.org-এ প্রকাশিত (সংগৃহীত আগস্ট 2026; তারিখগুলো আবার যাচাই করা হয়েছে নভেম্বর 2026-এ)। এগুলো নেওয়া হয়েছে আবেদন প্রক্রিয়া, টিউশন ও আর্থিক সহায়তা, এবং ভর্তি পাতাগুলো থেকে। কিছু বিষয়, যেমন ভর্তি চুক্তির তারিখ, হয় কেবল আবেদন পোর্টালের ভেতরে দেখা যায়, নয়তো একেবারেই প্রকাশিত নয়। চক্রের তারিখ বছরে বছরে বদলায়, আর আগের কোনো মরশুমে এই পাতাগুলোতে অন্য একটি তালিকা ছিল। তাই পদক্ষেপ নেওয়ার আগে চলমান পাতাগুলোর সঙ্গে মিলিয়ে নিন। সংকলন করেছে Charlotte School Compare; Charlotte Latin School-এর সঙ্গে সম্পর্কিত নয়।"
     },
     {
       "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. The school publishes three documents, but there are really four processes. The application deadline changes at Kindergarten→1, while the testing changes a grade later, at 1→2.",

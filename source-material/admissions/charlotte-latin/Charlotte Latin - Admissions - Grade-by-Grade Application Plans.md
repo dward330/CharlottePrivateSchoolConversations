@@ -8,27 +8,29 @@
 - **Sourcing constraint:** official school pages ONLY, at the user's explicit instruction.
   Anything not on the official site is marked NOT PUBLISHED / NOT RETRIEVED and has **not**
   been inferred, estimated, or filled in from third-party sources.
-- **Cycle:** 2026–27 entry. Every date below was verified against live page content, not URL
+- **Cycle:** 2027–28 entry (fall 2027; the school's own pages call it 2026–27, the apply year — this site labels by entry year, user decision 2026-11-10). Every date below was verified against live page content, not URL
   slugs.
 
 ## Cycle note
 
-The Application Process page was published 2026-08-17 and carries 2026–27-cycle content; the
+The Application Process page was published 2026-08-17 and carries 2027–28-entry-cycle content; the
 Tuition & Financial Assistance page 2026-07-09; the Admissions landing page 2026-08-28.
 
 **Prior-cycle dates (2025–26) are CLOSED and must never be carried forward.** Cached and
 earlier versions of the *same* Application Process URL showed: "The deadline for the
 application is December 31, 2025" (TK/Kindergarten), January 15, 2026 (Grades 1–12), testing
 "completed and submitted by February 28, 2026", and "February 27, 2026 – All File Material
-due." The current live page shows the January 2027 / February 26, 2027 dates for 2026–27
+due." The current live page shows the January 2027 / February 26, 2027 dates for 2027–28
 entry.
 
-**Next cycle (2027–28): no dates published yet.**
+**Next cycle (fall 2028 entry, 2028–29): no dates published yet** (re-checked 2026-11-10).
 
 **Date-drift risk:** because the same URLs have served different cycles' dates over time,
 every figure here is anchored to the live pages as retrieved on the dates above.
 
-## ⚠️ The defining structural fact — NO decision or contract dates, any band
+## ⚠️ The defining structural fact — NO decision or contract dates, any band (SUPERSEDED 2026-11-10)
+
+**Update 2026-11-10 — notification days are now published.** The Application Process page now carries an "Important Admissions and Financial Aid Dates" block: "February 26: TK and K notification day; TK and K financial award decisions communicated" and "April 9: Grades 1-11 notification day; Grades 1-11 financial aid award decisions communicated". The block states no year; every other date on the page is 2027, so these are read as February 26, 2027 and April 9, 2027. **No enrollment contract date is published, still.** Grade 12 is not named. The verbatim record is `Charlotte Latin - Admissions - Live Dates Check 2026-11-10.md`. The 2026-08-31 text below is kept as history; its "no decision step" consequence was retired by user decision 2026-11-10.
 
 **Charlotte Latin publishes no admission decision date, no notification time, and no
 enrollment contract due date — for any of its four bands.** Re-verified 2026-08-31 across
@@ -45,7 +47,7 @@ This is a confirmed absence, not a research gap. Two consequences for the card:
 
 A **prior-cycle** admissions-director blog post states, "Following our January 15 application
 deadline, Charlotte Latin School enters rolling admissions." This is **not restated** on the
-current Application Process page. Treat it as historical guidance, not confirmed 2026–27
+current Application Process page. Treat it as historical guidance, not confirmed 2027–28-entry
 policy — and do not ship it as a current rolling-admissions rule.
 
 ## Structure — four bands
@@ -188,7 +190,7 @@ Testing Consortium.md`. Charlotte Latin is a listed member school.)*
 
 ## (b) Shared timeline — every date labeled by cycle
 
-**For 2026–27 entry** (verified on the live Application Process, Tuition, and Admissions
+**For 2027–28 entry** (verified on the live Application Process, Tuition, and Admissions
 pages):
 
 - **September 15, 2026** — Financial aid applications available online (Clarity opens)
@@ -202,6 +204,9 @@ pages):
   application deadline
 - **February 26, 2027** — Middle School and Upper School testing completed/submitted AND all
   file material due
+- **February 26, 2027** — TK and K notification day; TK and K financial aid award decisions (added 2026-11-10; year inferred, see the update above)
+- **April 9, 2027** — Grades 1–11 notification day; Grades 1–11 financial aid award decisions (added 2026-11-10; year inferred)
+- **October 15, 2026** — K-12 sibling admissions applications due (calendar entry, added 2026-11-10)
 
 **Enrolled-family tuition dates** (post-enrollment, not admissions): two-payment plan — half
 due May 31, balance (less the $2,500 deposit) due November 30; monthly plan runs May through
@@ -211,11 +216,13 @@ December.
 
 - **Rolling admission vs. fixed notification date:** a **prior-cycle** blog post says the
   school "enters rolling admissions" after January 15. **Not restated** on the current
-  Application Process page, and a fixed common notification date is **NOT PUBLISHED** for the
-  current cycle.
+  Application Process page. **Update 2026-11-10:** fixed notification days are now published
+  (Feb 26 TK/K, Apr 9 Grades 1–11) — see the update under the defining structural fact.
 - **Waitlist procedures: NOT PUBLISHED.**
 - **Sibling, legacy/alumni, and faculty-children preference (for TK–12 admission): NOT
   PUBLISHED.**
+  (2026-11-10: the calendar lists a separate "K-12 Sibling Admissions Applications Due"
+  deadline, Oct 15, 2026 — an earlier deadline, not a published admission preference.)
   ⚠️ Latin's separate licensed preschool, **"The Nest,"** does state it admits children who
   "must be four by 10/15/26 and have a parent who is a Charlotte Latin employee or alumnus"
   and "will also admit younger siblings of CLS students" — **but this governs the preschool,
@@ -292,9 +299,9 @@ brochure also lists her as "Director of Enrollment Management".)*
 - **Required recommendation forms** (teacher and/or counselor), **writing samples**, and
   whether **parent interviews** are required — portal-gated.
 - **Waitlist procedures.**
-- **Fixed vs. rolling notification specifics** for the current (2026–27) cycle.
-- **Any admission decision/notification date and any enrollment contract due date** — see the
-  defining structural fact above. Re-verified 2026-08-31 across three official pages.
+- **Rolling-admission specifics** after the priority dates for the current (2027–28 entry) cycle.
+- **Any enrollment contract due date** — see the defining structural fact above. (Decision /
+  notification days ARE published as of 2026-11-10; Grade 12's is not.)
 - **Sibling / legacy-alumni / faculty-children preference** for TK–12 admission.
 - **Re-application policy** for previously denied applicants.
 - **Transfer-student and mid-year entry procedures.**
