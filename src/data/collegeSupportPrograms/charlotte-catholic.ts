@@ -376,7 +376,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       },
     ],
     methodNote:
-      'Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.',
+      'Read each row as a joint figure. It is the rate at which that university admitted this school’s applicants. It is not the university’s overall admit rate, and it does not measure how selective the school itself is. Applied/Accepted are the Fall 2025 entering class. The 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a year with many applicants counts more than a year with few. The counts sit beside every rate because several cells are in single digits.',
     flags: [
       {
         kind: 'verify',
@@ -418,7 +418,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       { label: 'Computer science and engineering', text: 'AP Computer Science A, AP Computer Science Principles and AP Cybersecurity Kickstart, above a four-course engineering strand ending in Honors Engineering Capstone.' },
       { label: 'Social studies', text: 'AP US History, AP European History, AP Psychology, AP US Government, AP Microeconomics and a year-long AP Microeconomics & Macroeconomics course — six AP options in one department.' },
       { label: 'World languages', text: 'French, German, Latin and Spanish each run to an AP course; Spanish continues to AP Spanish VI, a sixth-level course.' },
-      { label: 'Classical pathway', text: 'The St. Augustine Scholars Program, begun with a 9th-grade cohort in 2025-26 and now running 10th-grade courses, adds a four-year classical track — philosophy, logic, Latin, primary texts and Socratic seminars.' },
+      { label: 'Classical pathway', text: 'The St. Augustine Scholars Program began with a 9th-grade class in 2025-26 and now runs 10th-grade courses. It adds a four-year classical track: philosophy, logic, Latin, primary texts and Socratic seminars.' },
     ],
     trustTitle: 'How the grade is engineered to be read',
     trust: [
@@ -432,7 +432,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'No AP Scholar tier counts are published. The profile gives exam-level performance (94% scoring 3+ across 1,184 exams in 2026) instead, which is the richer disclosure — but it means the Scholar/Scholar with Distinction ledger other schools show cannot be built here.',
+        text: 'No AP Scholar tier counts are published. Instead, the profile gives results by exam (94% scoring 3+ across 1,184 exams in 2026). That tells you more. But it means the Scholar/Scholar with Distinction ledger other schools show cannot be built here.',
       },
       {
         kind: 'verify',
@@ -506,7 +506,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
           'The counseling office publishes the Common Application essay prompts and supports drafting against them.',
           'Transcripts carry the weighted GPA and no rank; the decile chart travels with the profile.',
           'Final service hours are due March 1, completing the 70-hour graduation requirement.',
-          'Dual Enrollment through Central Piedmont Community College opens — one course per semester, taken asynchronously, with the same extra quality point as AP and Honors.',
+          'Dual Enrollment (college courses taken while in high school) through Central Piedmont Community College opens. Students take one course per semester on their own schedule, with the same extra quality point as AP and Honors.',
         ],
       },
     ],
@@ -524,7 +524,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
     reachTitle: 'Reach and tools',
     reach: [
       'NC State University lists Charlotte Catholic as a named admissions-visit venue.',
-      'Graduates of the Classes of 2024–2026 matriculated to 168 different colleges and universities.',
+      'Graduates of the Classes of 2024–2026 enrolled at 168 different colleges and universities.',
       '32% of the Class of 2026 stayed in North Carolina; 76% enrolled at public universities and 24% at private ones.',
       'One US Naval Academy and one US Military Academy appointment in 2026, after three Naval Academy appointments in 2025.',
     ],
@@ -550,9 +550,9 @@ export const charlotteCatholic: CollegeSupportProgram = {
     headline:
       'Where 200 colleges took CCHS graduates over four classes — and $25,186,236 in scholarships for one class.',
     subhead:
-      'This is a matriculation list: where graduates actually enrolled, not everywhere they were admitted.',
+      'This is an enrollment list: where graduates actually enrolled, not everywhere they were admitted.',
     stats: [
-      { value: '200', label: 'institutions matriculated to, Classes of 2023–2026' },
+      { value: '200', label: 'institutions graduates enrolled at, Classes of 2023–2026' },
       { value: '98%', label: 'of the Class of 2026 went straight to post-secondary study' },
       { value: '$25,186,236', label: 'scholarships earned by the Class of 2026' },
       { value: '32%', label: 'of the Class of 2026 stayed in North Carolina' },
@@ -566,7 +566,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       { tier: 'Power Four', count: '43 / 68', note: '44 rows carry the tag; the two Arizona State campuses are one institution' },
       { tier: 'HBCUs', count: '3 / 107', note: 'Hampton University, Benedict College and West Virginia State University' },
     ],
-    collegesTitle: 'Every matriculation, 2023–2026',
+    collegesTitle: 'Every enrollment, 2023–2026',
     collegesTotal: '200 institutions · the profile publishes no enrollment counts per institution',
     colleges,
     scholarshipsTitle: 'Scholarships and recognition',
@@ -616,21 +616,21 @@ export const charlotteCatholic: CollegeSupportProgram = {
         glyph: '◆',
         items: [
           'Take the AP load the school names as most demanding — 2 in junior year, 4 in senior year — and clear the competitive application for each course.',
-          'Sit the AP exam in every AP course; it is mandatory here, so the 94% scoring 3+ is a cohort result a student is measured inside, not opted out of.',
+          'Take the AP exam in every AP course. It is mandatory here, so the 94% scoring 3+ counts every AP student. No one can opt out of it.',
           'Go past 70 service hours. The requirement is universal, so the hours themselves do not differentiate — the parish and leadership roles behind them do.',
           'Use the 76-club directory to build depth rather than breadth: seven honor societies carry published GPA thresholds, from NHS at 3.9 to Mu Alpha Theta at 4.5 in mathematics.',
           'For a classical or theology-facing application, the St. Augustine Scholars Program is a four-year differentiator that few applicants anywhere will carry.',
         ],
       },
       {
-        title: 'Lever 2 — The school’s leverage',
+        title: 'Lever 2 — What the school brings',
         hint: 'what CCHS supplies',
         glyph: '▲',
         items: [
           'Athletic recruiting reach is real and unusual: 79 state championships since 2000, 10 Wells Fargo Cups, and 1000+ alumni who went on to play at NCAA, NAIA or junior-college level.',
-          'CCHS is one of only four parochial schools competing in the NCHSAA — the public-school association — so its athletes are evaluated against the state’s largest programs rather than a private-school bracket.',
+          'CCHS is one of only four parochial (church-run) schools in the NCHSAA, the sports association for public schools. So its athletes are measured against the state’s biggest programs, not a private-school bracket.',
           'The school profile does the interpretive work for an admissions reader: decile chart, stated load norms, explicit no-rank policy and a defined "most demanding" benchmark.',
-          'Diocesan scale shows up in outcomes — Naval Academy appointments in consecutive classes (three in 2025, one in 2026 alongside a West Point appointment), and service-academy matriculations at all three academies.',
+          'The school’s size as a diocesan school shows up in outcomes. There were Naval Academy appointments in back-to-back classes (three in 2025, one in 2026 alongside a West Point appointment). Graduates have also enrolled at all three service academies.',
           'A 650-seat Fine Arts Center dedicated in 2022, a Charlotte Symphony partnership, and a band that performs quadrennially in Dublin give arts applicants a portfolio venue.',
         ],
         note: 'No published Naviance/SCOIR-style scattergram exists, so a family cannot see admit rates by GPA band for this school.',
@@ -660,7 +660,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
           { label: 'SAT total', values: ['—', '1070', '—', '1320', '—', '—'] },
           { label: 'ACT composite', values: ['—', '20', '—', '27', '—', '—'] },
         ],
-        note: 'The school publishes a mid-50% RANGE, not percentiles and not an average. The endpoints of a mid-50% range are by definition the 25th and 75th percentiles, so those two columns are real; the 10th, 50th, 90th and mean are not published and are shown as em-dashes rather than modelled. No section-level (EBRW / Math) split is published. Against 336 seniors, 290 SAT takers and 322 ACT takers means most of the class sat both tests.',
+        note: 'The school publishes a mid-50% RANGE, not percentiles and not an average. The two ends of a mid-50% range are by definition the 25th and 75th percentiles, so those two columns are real. The 10th, 50th, 90th and mean are not published. They are shown as em-dashes rather than estimated. No section-level (EBRW / Math) split is published. With 336 seniors, 290 SAT takers and 322 ACT takers, most of the class took both tests.',
       },
     ],
     gpaTitle: 'Weighted GPA distribution',
@@ -676,7 +676,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       'CCHS publishes DECILES, not quintiles; each row above pairs two adjacent published deciles, and the underlying bands are given in the detail line so nothing is hidden by the pairing. The published deciles are 1st 4.38–4.59, 2nd 4.23–4.37, 3rd 4.09–4.22, 4th 3.98–4.08, 5th 3.83–3.97, 6th 3.70–3.82, 7th 3.54–3.69, 8th 3.35–3.53, 9th 3.16–3.34, 10th 2.22–3.15. Every figure is weighted, with one quality point added for AP, Honors and Dual Enrollment.',
     supportTitle: 'Academic support',
     support: [
-      { label: 'Academic Skills', text: 'A one-semester course (508 for grades 9–10, 509 for 11–12) in executive function and self-advocacy for Academic Achievement students — the step before Guided Academic Support.' },
+      { label: 'Academic Skills', text: 'A one-semester course (508 for grades 9–10, 509 for 11–12) in planning, organizing and focus skills and in speaking up for yourself. It is for Academic Achievement students — the step before Guided Academic Support.' },
       { label: 'Guided Academic Support', text: 'A scheduled course (511) rather than a pull-out service — support sits inside the timetable.' },
       { label: 'Options Program', text: 'A full parallel track — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance and Options Financial Management: 14 courses in all.' },
       { label: 'Pathway Program', text: 'A distinct pathway course (507) alongside the Options track.' },
@@ -706,8 +706,8 @@ export const charlotteCatholic: CollegeSupportProgram = {
       'The profile answers the questions a family actually asks — and the tuition structure answers one no other school on this roster raises.',
     points: [
       { label: 'The disclosure is genuinely strong', text: 'A **10-decile GPA chart including the bottom decile**, stated load norms, an explicit no-rank policy and exam-level AP performance. Most schools publish less and frame it more favourably.' },
-      { label: 'The AP rate cannot be flattered', text: '**94% of scores at 3+** across **1,184 exams** in 2026 is a whole-cohort number, because **the exam is mandatory in every AP course** — weaker candidates cannot be quietly kept out of the denominator.' },
-      { label: 'Read the college list as matriculations', text: '**200 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.' },
+      { label: 'The AP rate cannot be flattered', text: '**94% of scores at 3+** across **1,184 exams** in 2026 covers every AP student, because **the exam is mandatory in every AP course**. Weaker students cannot be quietly left out of the count.' },
+      { label: 'Read the college list as enrollments', text: '**200 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.' },
       { label: 'Athletics is the standout', text: '**79 state championships** since 2000 and **10 Wells Fargo Cups**, won inside the **NCHSAA** against public schools rather than in a private-school bracket.' },
       { label: 'Tuition turns on parish participation', text: '**$15,041** for a participating Catholic family against **$21,562** at the community rate — a ~30% difference driven by parish involvement rather than financial need, and the single biggest cost variable here.' },
       { label: 'The gaps are structural, not sloppy', text: 'No per-school aid figures (MACS publishes diocese-wide only), **no Form 990** (the diocese is exempt as a religious organization), and no published tuition history.' },

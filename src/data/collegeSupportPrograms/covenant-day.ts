@@ -130,7 +130,7 @@ export const covenantDay: CollegeSupportProgram = {
       },
     ],
     methodNote:
-      'Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.',
+      'Read each row as a joint figure. It is the rate at which that university admitted this school’s applicants. It is not the university’s overall admit rate, and it does not measure how selective the school itself is. Applied/Accepted are the Fall 2025 entering class. The 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a year with many applicants counts more than a year with few. The counts sit beside every rate because several cells are in single digits.',
     flags: [
       {
         kind: 'verify',
@@ -165,8 +165,8 @@ export const covenantDay: CollegeSupportProgram = {
       { year: '2026', detail: '96% — 38 AP Scholars with Distinction, 27 with Honor, 33 Scholars' },
     ],
     meritNote:
-      'Since 2006 — the first graduating class — the school counts 28 National Merit Finalists and 70 Commended students, a ledger that grew by two Finalists and nine Commended between the last two profile editions.',
-    depthTitle: 'The rigor architecture',
+      'Since 2006, the year of its first graduating class, the school counts 28 National Merit Finalists and 70 Commended students. That count grew by two Finalists and nine Commended between the last two profile editions.',
+    depthTitle: 'How the course load is built',
     depth: [
       { label: 'Weighting', text: 'A+ = 4.33 unweighted; Honors +0.5; Dual Enrollment and AP +1.0. GPA computed on all subjects, grades 9–12.' },
       { label: 'AP gating', text: 'No AP for freshmen; sophomores capped at one. The profile itself calls two junior-year and four senior-year APs "a very demanding course load."' },
@@ -278,7 +278,7 @@ export const covenantDay: CollegeSupportProgram = {
   /* ---------------------------------------------------------- 3c outcomes -- */
   outcomes: {
     headline:
-      '225 institutions on the published 2023–2026 acceptance list — with matriculations bolded, so you can see where students actually went.',
+      '225 institutions on the published 2023–2026 acceptance list, with enrollments in bold, so you can see where students actually went.',
     subhead:
       'The current window reaches Dartmouth, Penn and Duke — all three bolded as enrolled — with the deepest concentrations at NC publics and Christian colleges.',
     stats: [
@@ -527,10 +527,10 @@ export const covenantDay: CollegeSupportProgram = {
     scholarships: [
       'No scholarship dollar totals — checked across all three profile editions',
       'No per-class acceptance breakdowns — the lists are multi-year windows',
-      'No matriculation-rate percentages',
+      'No enrollment-rate percentages',
     ],
     scholarshipsNote:
-      'The bold-marks-matriculation convention is itself unusual disclosure: because both published lists carry it and overlap on the classes of 2023–24, acceptances and enrollments can be cross-validated across editions.',
+      'Marking enrollments in bold is itself an unusual level of openness. Both published lists use it, and they overlap on the classes of 2023–24. So acceptances and enrollments can be checked against each other across editions.',
     flags: [
       {
         kind: 'verify',
@@ -572,13 +572,13 @@ export const covenantDay: CollegeSupportProgram = {
         ],
       },
       {
-        title: 'Legible rigor',
+        title: 'Hard courses, clearly shown',
         hint: 'what an admissions reader sees',
         glyph: '●',
         items: [
           'Covenant College dual-enrollment credit atop the AP matrix',
           'Every-AP-student-tests policy makes the 96% pass rate cover the whole program',
-          'The no-rank policy plus a full weighting key lets readers reconstruct rigor in context',
+          'The no-rank policy plus a full weighting key lets readers work out how demanding a schedule was, in context',
         ],
         note: 'The support model is relational — a 30-year director in the NACCAP circuit — rather than a productized essay-bootcamp curriculum, and the school publishes none of the latter.',
       },
@@ -644,7 +644,7 @@ export const covenantDay: CollegeSupportProgram = {
     middle: [
       {
         label: 'The list shows the range',
-        text: 'The bolded matriculations run from Dartmouth and Duke through Covenant College, Cedarville, Montreat, community colleges and trade-adjacent programs — a school placing only its top quartile would not produce that spread.',
+        text: 'The enrollments in bold run from Dartmouth and Duke through Covenant College, Cedarville, Montreat, community colleges and trade-related programs. A school placing only its top quarter of students would not produce that spread.',
       },
       {
         label: 'The NC-public backbone',
@@ -654,7 +654,7 @@ export const covenantDay: CollegeSupportProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'No distributions are published anywhere: no GPA quantiles, no score percentiles, no per-class matriculation rates. This card ships with the aggregates above because they are genuinely informative — but the shape of the class is not recoverable from public sources, and that follows from the school’s own no-rank policy.',
+        text: 'Nothing about how results are spread is published anywhere: no GPA breakdowns, no score percentiles and no enrollment rates for each class. This card shows the summary figures above because they are genuinely useful. But the shape of the class cannot be worked out from public sources. That follows from the school’s own no-rank policy.',
       },
     ],
     sources: [
@@ -667,7 +667,7 @@ export const covenantDay: CollegeSupportProgram = {
   /* ----------------------------------------------------------- 3f verdict -- */
   verdict: {
     headline:
-      'A rigorous, legible academic product with an unusually heavy counselor caseload — and disclosure that is excellent about outcomes, silent about process.',
+      'A demanding, clearly documented academic program with an unusually heavy counselor caseload. It shares excellent detail about outcomes but is silent about process.',
     subhead:
       'The profile tells colleges nearly everything; the website tells parents much less about how the counseling actually works.',
     points: [
@@ -680,7 +680,7 @@ export const covenantDay: CollegeSupportProgram = {
         text: 'One dedicated college counselor for 85 seniors — cushioned by a 23-year director with NACCAP standing, but a ratio a parent should ask about directly.',
       },
       {
-        label: 'Matriculation is actually visible',
+        label: 'You can actually see where graduates enrolled',
         text: 'Bold marks on two overlapping multi-year lists let you verify where students enrolled, not just where they were accepted — disclosure peers rarely offer.',
       },
       {

@@ -502,7 +502,7 @@ export const cannon: CollegeSupportProgram = {
       },
     ],
     methodNote:
-      'Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.',
+      'Read each row as a joint figure. It is the rate at which that university admitted this school’s applicants. It is not the university’s overall admit rate, and it does not measure how selective the school itself is. Applied/Accepted are the Fall 2025 entering class. The 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a year with many applicants counts more than a year with few. The counts sit beside every rate because several cells are in single digits.',
     flags: [
       {
         kind: 'verify',
@@ -520,7 +520,7 @@ export const cannon: CollegeSupportProgram = {
     headline:
       'Cannon publishes something almost no peer does — an explicit maximum AP/AT load by grade, capping a four-year transcript at twelve advanced courses and barring freshmen entirely.',
     subhead:
-      'That ceiling is the key to reading a Cannon transcript: “most rigorous” here has a hard, published limit, and the 90% scoring 3+ comes from students who chose to sit an optional exam.',
+      'That ceiling is the key to reading a Cannon transcript. Here, “most rigorous” has a hard, published limit. And the 90% scoring 3+ comes from students who chose to take an optional exam.',
     stats: [
       { value: '27', label: 'advanced courses — AP plus school-designed Advanced Topics, the school’s own count' },
       { value: '90%', label: 'of students scored 3+ (446 exams, 195 students, May 2026)' },
@@ -548,7 +548,7 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'Before and after the school year',
-        text: '**Zero Hour** runs Varsity Chorus and Varsity Orchestra, pass/fail, on Monday, Wednesday and Friday before school. **Summer Term** offers Geometry Acceleration pass/fail, and Honors Biology and Honors Chemistry for a grade; summer courses are designated as Summer Term on the transcript, and BIOREX is not offered in the summer section.',
+        text: '**Zero Hour** runs Varsity Chorus and Varsity Orchestra, pass/fail, on Monday, Wednesday and Friday before school. **Summer Term** offers Geometry Acceleration pass/fail, and Honors Biology and Honors Chemistry for a grade. Summer courses are marked as Summer Term on the transcript. BIOREX is not offered in the summer section.',
       },
     ],
     trust: [
@@ -561,7 +561,7 @@ export const cannon: CollegeSupportProgram = {
         text: 'No rank, no decile or quintile table — but the narrow weighting plus the twelve-course cap means the weighted top decile tops out around **4.28**. Cannon does not produce inflated 4.9 GPAs, which needs context for readers used to heavier schemes.',
       },
       {
-        label: 'A per-discipline rigour key',
+        label: 'A key to the hardest courses in each subject',
         text: 'Bold entries in the profile’s course table mark the “most demanding coursework in that discipline per appropriate grade level”, so a reader can see the ceiling subject by subject rather than guessing.',
       },
     ],
@@ -628,7 +628,7 @@ export const cannon: CollegeSupportProgram = {
       'Testing interpretation',
     ],
     mechanicsNote:
-      'That is the published scope. Note what is absent from it: essay coaching or brainstorming workshops, a teacher-recommendation coordination process, interview preparation, and any scholarship-search service are none of them explicitly claimed — consistent with the absence of a scholarship-dollar headline.',
+      'That is the published scope. Note what it leaves out. The school does not state outright that it offers essay coaching or brainstorming workshops, a way of lining up teacher recommendations, interview practice, or any help finding scholarships. That fits with the missing scholarship-dollar headline.',
     reach: [
       '**Hosts** the Lake Norman Area College Admissions Case Studies Program and College Fair, co-hosted with Davidson Day — Cannon is the venue',
       'Second annual edition held **26 April 2026**, confirmed independently from a college’s own registration portal',
@@ -689,23 +689,23 @@ export const cannon: CollegeSupportProgram = {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**BIOREX** — the Biological Research Experience, embedded in Honors Biology. Students form a hypothesis, test it, analyse it statistically and present to a committee of **faculty, science professionals and local business leaders**. External judging is what separates this from a class project.',
-          '**Symposium and Portfolio Defense** — an original historical argument defended in the spring of junior year (AT: U.S. History), and a multi-draft digital portfolio presented in AT: American Language and Composition.',
+          '**BIOREX** — the Biological Research Experience, built into Honors Biology. Students form a hypothesis, test it and analyse the results with statistics. Then they present to a committee of **faculty, science professionals and local business leaders**. Outside judges are what set this apart from a class project.',
+          '**Symposium and Portfolio Defense** — two projects. In the spring of junior year, students in AT: U.S. History defend an original history argument. Students in AT: American Language and Composition present a digital portfolio, built through many drafts.',
           '**Independent Study** — petition-based, and unusually the student **co-develops the course content and the assessment rubric**, then produces an end-of-year artefact.',
-          '**Senior Capstone** — a philanthropic service project with a culminating public presentation to faculty, staff, peers and community. It is the one near-universal senior experience, though service itself is explicitly not a graduation requirement.',
-          '**Global Education Certificate** — fully specified: World History I–II plus three levels of a world language, a senior **Glocal Perspectives** course with a capstone essay and presentation, and at least two of three global experiences. Awarded at Senior Night.',
+          '**Senior Capstone** — a service project for a charitable cause. It ends with a public talk to faculty, staff, peers and community. It is the one thing nearly every senior does, though the school says plainly that service itself is not required to graduate.',
+          '**Global Education Certificate** — the steps are fully spelled out. Students take World History I–II and three levels of a world language. They take a senior **Glocal Perspectives** course with a capstone essay and presentation. They also do at least two of three global experiences. It is awarded at Senior Night.',
         ],
         note:
-          'Entrepreneurship and Engineering exist as course tracks with real depth — Honors Design Thinking & Entrepreneurship Lab, Creative Design and Engineering I–III, The Mill makerspace — but there is no published distinction or credential for either, so they should be read as tracks rather than certificates. No required internship or externship programme is published.',
+          'Entrepreneurship and Engineering are course tracks with real depth: Honors Design Thinking & Entrepreneurship Lab, Creative Design and Engineering I–III, and The Mill makerspace. But the school publishes no award or credential for either. So read them as tracks, not certificates. No required internship or externship programme is published.',
       },
       {
-        title: 'Lever 2 — The school’s leverage',
+        title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
-          '**The profile publishes its own ceiling** — the maximum AP/AT load by grade, with a footnote that maths placement governs whether a student can reach it. Disclosing the cap protects students from being read against an unlimited-load norm they were never allowed to attempt.',
+          '**The profile publishes its own ceiling** — the most AP/AT courses allowed in each grade. A footnote says maths placement decides whether a student can reach that limit. Printing the cap protects students. They will not be judged against an unlimited course load they were never allowed to try.',
           '**Integrity signalling** — the office “reports out-of-school suspensions and expulsions through time of graduation to any colleges and universities that request this information”: a disclose-on-request posture consistent with current NACAC norms.',
           '**Institutional memberships** — **SAIS** accreditation; NAIS, NCAIS, CSEE, **ACCIS**, NACAC and SACAC; and a **National Honor Society** chapter awarded in 2025.',
-          '**Hosting regional admissions traffic** — Cannon is the venue for the Lake Norman case-studies programme and fair, pulling visiting admissions officers onto its own campus at regional scale rather than only sending students out.',
+          '**Hosting regional admissions traffic** — Cannon hosts the Lake Norman case-studies programme and fair. That brings visiting admissions officers to its own campus for a regional event. It does not only send its students out.',
         ],
       },
     ],
@@ -747,15 +747,15 @@ export const cannon: CollegeSupportProgram = {
       { label: 'Unweighted · mid 50%', gpa: '3.76–3.94', detail: 'A− range before weighting' },
     ],
     gpaNote:
-      'These are bands, not a quintile table — no full quintile or decile breakdown, median GPA, or per-band student count is published. The modest weighted ceiling follows directly from the 1.0-quality-point cap and the twelve-course AP/AT maximum, which is a transparency point in Cannon’s favour but needs context for readers used to heavier weighting schemes. As printed, the weighted top-10% band (from 4.08) begins below the top of the middle 50% (4.11), and the profile does not explain the overlap.',
+      'These are bands, not a quintile table (a split of the class into fifths). The school publishes no full quintile or decile breakdown, no median GPA and no count of students in each band. The weighted top is modest because of two limits: the 1.0-quality-point cap and the twelve-course AP/AT maximum. Publishing these limits counts in Cannon’s favour. But readers used to schools that add more weight will need that context. As printed, the weighted top-10% band (from 4.08) begins below the top of the middle 50% (4.11). The profile does not explain the overlap.',
     support: [
       {
         label: 'Two named Upper School learning-support staff',
-        text: '**Michelle Donah**, Upper School Learning Specialist, and **Jennifer Ridenhour**, Upper School Dean of Academic Support — substantial staffing for 421 Upper School students, and among the best-documented learning support in this set.',
+        text: '**Michelle Donah**, Upper School Learning Specialist, and **Jennifer Ridenhour**, Upper School Dean of Academic Support. That is substantial staffing for 421 Upper School students. It is also some of the best-documented learning support of the schools on this site.',
       },
       {
         label: 'The student owns the plan',
-        text: 'Students **actively participate in creating their own personalized learning plans** with specific accommodations, supported by a formally constituted team: the student, parents, teachers, the Assistant Head for Academics, the Student Dean, the Upper School Counselor and the advisor.',
+        text: 'Students **actively participate in creating their own personalized learning plans** with specific accommodations. A formal team backs each plan. It is made up of the student, parents, teachers, the Assistant Head for Academics, the Student Dean, the Upper School Counselor and the advisor.',
       },
       {
         label: 'Where it reaches the application',
@@ -763,13 +763,13 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'The surrounding structure',
-        text: 'The **Academic Resource Center** for maths, writing, science and world languages; 1:1 **academic coaching** on executive function; and a faculty-facilitated, peer-led **Academic Lab**.',
+        text: 'The **Academic Resource Center** for maths, writing, science and world languages; 1:1 **academic coaching** on planning, organizing and focus skills; and a peer-led **Academic Lab** that faculty oversee.',
       },
     ],
     middle: [
       {
         label: 'The list is printed honestly',
-        text: 'The acceptance list runs from MIT, Caltech, Stanford, Princeton and Yale down through Rowan-Cabarrus, Cape Fear, Central Piedmont and Davidson-Davie community colleges, Brevard, Barton, Catawba, Mars Hill, Wingate, Charleston Southern, Coastal Carolina, Lenoir-Rhyne, Queens, Western Carolina, UNC Pembroke and USC Beaufort. A school optimising for prestige would omit these; Cannon prints them, and discloses its 2% two-year figure rather than burying it.',
+        text: 'At one end of the acceptance list are MIT, Caltech, Stanford, Princeton and Yale. At the other are Rowan-Cabarrus, Cape Fear, Central Piedmont and Davidson-Davie community colleges. That end also includes Brevard, Barton, Catawba, Mars Hill, Wingate, Charleston Southern, Coastal Carolina, Lenoir-Rhyne, Queens, Western Carolina, UNC Pembroke and USC Beaufort. A school chasing prestige would leave these out. Cannon prints them, and it shows its 2% two-year figure rather than burying it.',
       },
       {
         label: 'A design-weighted arts pathway',
@@ -777,7 +777,7 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'Other non-traditional destinations',
-        text: 'International universities (St Andrews, Edinburgh, Aberdeen — a confirmed 2023 enrollment, Manchester, King’s College London, Trinity College Dublin, University College Dublin, The American University of Paris, McGill, Toronto, Montreal and Western); service academies and the military (the Air Force, Naval and Coast Guard academies, The Citadel and VMI); technical institutes (Caltech, Rose-Hulman, Stevens, Colorado School of Mines, RPI, WPI, Illinois Tech, RIT and Embry-Riddle); HBCUs (Alabama A&M, Clark Atlanta, Elizabeth City State, Howard, NC A&T, NC Central, South Carolina State, Southern University and A&M, Spelman, West Virginia State and Winston-Salem State).',
+        text: 'International universities: St Andrews, Edinburgh, Aberdeen (a confirmed 2023 enrollment), Manchester, King’s College London and Trinity College Dublin. Also University College Dublin, The American University of Paris, McGill, Toronto, Montreal and Western. Service academies and the military: the Air Force, Naval and Coast Guard academies, The Citadel and VMI. Technical institutes: Caltech, Rose-Hulman, Stevens, Colorado School of Mines, RPI, WPI, Illinois Tech, RIT and Embry-Riddle. HBCUs (historically Black colleges and universities): Alabama A&M, Clark Atlanta, Elizabeth City State, Howard, NC A&T and NC Central. Also South Carolina State, Southern University and A&M, Spelman, West Virginia State and Winston-Salem State.',
       },
     ],
     flags: [],
@@ -790,16 +790,16 @@ export const cannon: CollegeSupportProgram = {
 
   verdict: {
     headline:
-      'A stable, structurally honest programme — four-year counselor continuity, a published load ceiling, real research defences, and a genuine matriculation list — wrapped in thinner outcome disclosure than its larger peers.',
+      'A stable programme that is honest by design. Students keep the same counselor for all four years. It also has a published course-load ceiling, real research defences and a genuine list of where graduates enrolled. But it shares less about outcomes than its larger peers.',
     subhead:
       'Most of what is missing here is publication rather than practice, which makes almost every gap a question a tour can answer.',
     points: [
       {
         label: 'Four-year counselor continuity, stated in writing',
-        text: 'students keep the same college counselor for their whole Upper School career rather than being handed off in junior year — and the roster shows the same four directors across three published profiles (only the coordinator changed).',
+        text: 'students keep the same college counselor for all of Upper School, rather than being handed off in junior year. The roster also shows the same four directors across three published profiles (only the coordinator changed).',
       },
       {
-        label: 'The rigour ceiling is disclosed, not implied',
+        label: 'The course-load ceiling is disclosed, not implied',
         text: 'a published maximum of 0/1/5/6 AP or AT courses by grade caps a transcript at twelve, so colleges read “most rigorous” against a limit the school itself states.',
       },
       {
@@ -807,8 +807,8 @@ export const cannon: CollegeSupportProgram = {
         text: 'BIOREX is presented to a committee including science professionals and local business leaders, Symposium demands an original historical argument, and Independent Study has the student writing the rubric.',
       },
       {
-        label: 'It publishes an actual matriculation list',
-        text: '58 institutions where a Class of 2023 graduate genuinely enrolled — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary and the Air Force Academy. That is stronger evidence than any acceptance rollup — and the acceptance list beside it now runs 2022–2026.',
+        label: 'It publishes a list of where graduates actually enrolled',
+        text: '58 institutions where a Class of 2023 graduate genuinely enrolled, including Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary and the Air Force Academy. That is stronger evidence than any list of acceptances. The acceptance list beside it now runs 2022–2026.',
       },
       {
         label: 'Learning support is named and reaches the application',
@@ -820,7 +820,7 @@ export const cannon: CollegeSupportProgram = {
       },
     ],
     checklist: [
-      'The newest acceptance list covers 2024–26, but the newest matriculation list is the Class of 2023. Where did the Classes of 2024–2026 actually enroll?',
+      'The newest acceptance list covers 2024–26, but the newest list of where graduates enrolled is for the Class of 2023. Where did the Classes of 2024–2026 actually enroll?',
       'With 105 seniors and four counselors, what is the actual caseload per counselor across all four Upper School grades?',
       'Has Cannon had any National Merit Semifinalists, Finalists or Commended Students in recent years? Nothing is published in any year.',
       'AP exams are optional here. What share of students in AP and AT courses actually sit the exam, what share scored 4 or 5 rather than just 3+ — and does the 90.16% count students or exams?',

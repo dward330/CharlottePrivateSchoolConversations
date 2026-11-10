@@ -1,0 +1,823 @@
+{
+  "generated": "2026-11-10",
+  "dir": "src/data/collegeSupportPrograms",
+  "slugs": [
+    "cannon",
+    "charlotte-catholic",
+    "covenant-day"
+  ],
+  "match": "^(Read each row as a joint figure|Lever 2 — The (school|office)’s leverage)",
+  "total": 69,
+  "counts": {
+    "cannon": 25,
+    "carmel-christian": 2,
+    "charlotte-catholic": 16,
+    "charlotte-christian": 2,
+    "charlotte-country-day": 2,
+    "charlotte-latin": 2,
+    "covenant-day": 12,
+    "davidson-day": 2,
+    "gaston-day": 2,
+    "hickory-grove-christian": 2,
+    "providence-day": 2
+  },
+  "units": [
+    {
+      "at": "cannon:ncAdmissions.methodNote",
+      "slug": "cannon",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "cannon:transcript.subhead",
+      "slug": "cannon",
+      "path": "transcript.subhead",
+      "words": 30,
+      "grade": 12.2,
+      "rules": [
+        "grade"
+      ],
+      "text": "That ceiling is the key to reading a Cannon transcript: “most rigorous” here has a hard, published limit, and the 90% scoring 3+ comes from students who chose to sit an optional exam."
+    },
+    {
+      "at": "cannon:transcript.depth[4].text",
+      "slug": "cannon",
+      "path": "transcript.depth[4].text",
+      "words": 50,
+      "grade": 12.6,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "**Zero Hour** runs Varsity Chorus and Varsity Orchestra, pass/fail, on Monday, Wednesday and Friday before school. **Summer Term** offers Geometry Acceleration pass/fail, and Honors Biology and Honors Chemistry for a grade; summer courses are designated as Summer Term on the transcript, and BIOREX is not offered in the summer section."
+    },
+    {
+      "at": "cannon:transcript.trust[2].label",
+      "slug": "cannon",
+      "path": "transcript.trust[2].label",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "A per-discipline rigour key"
+    },
+    {
+      "at": "cannon:counseling.mechanicsNote",
+      "slug": "cannon",
+      "path": "counseling.mechanicsNote",
+      "words": 40,
+      "grade": 14.9,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "That is the published scope. Note what is absent from it: essay coaching or brainstorming workshops, a teacher-recommendation coordination process, interview preparation, and any scholarship-search service are none of them explicitly claimed — consistent with the absence of a scholarship-dollar headline."
+    },
+    {
+      "at": "cannon:edge.levers[0].items[0]",
+      "slug": "cannon",
+      "path": "edge.levers[0].items[0]",
+      "words": 41,
+      "grade": 11.6,
+      "rules": [],
+      "text": "**BIOREX** — the Biological Research Experience, embedded in Honors Biology. Students form a hypothesis, test it, analyse it statistically and present to a committee of **faculty, science professionals and local business leaders**. External judging is what separates this from a class project."
+    },
+    {
+      "at": "cannon:edge.levers[0].items[1]",
+      "slug": "cannon",
+      "path": "edge.levers[0].items[1]",
+      "words": 30,
+      "grade": 17.7,
+      "rules": [
+        "grade"
+      ],
+      "text": "**Symposium and Portfolio Defense** — an original historical argument defended in the spring of junior year (AT: U.S. History), and a multi-draft digital portfolio presented in AT: American Language and Composition."
+    },
+    {
+      "at": "cannon:edge.levers[0].items[3]",
+      "slug": "cannon",
+      "path": "edge.levers[0].items[3]",
+      "words": 33,
+      "grade": 15.5,
+      "rules": [
+        "grade"
+      ],
+      "text": "**Senior Capstone** — a philanthropic service project with a culminating public presentation to faculty, staff, peers and community. It is the one near-universal senior experience, though service itself is explicitly not a graduation requirement."
+    },
+    {
+      "at": "cannon:edge.levers[0].items[4]",
+      "slug": "cannon",
+      "path": "edge.levers[0].items[4]",
+      "words": 38,
+      "grade": 10.5,
+      "rules": [
+        "long"
+      ],
+      "text": "**Global Education Certificate** — fully specified: World History I–II plus three levels of a world language, a senior **Glocal Perspectives** course with a capstone essay and presentation, and at least two of three global experiences. Awarded at Senior Night."
+    },
+    {
+      "at": "cannon:edge.levers[0].note",
+      "slug": "cannon",
+      "path": "edge.levers[0].note",
+      "words": 51,
+      "grade": 13.8,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Entrepreneurship and Engineering exist as course tracks with real depth — Honors Design Thinking & Entrepreneurship Lab, Creative Design and Engineering I–III, The Mill makerspace — but there is no published distinction or credential for either, so they should be read as tracks rather than certificates. No required internship or externship programme is published."
+    },
+    {
+      "at": "cannon:edge.levers[1].title",
+      "slug": "cannon",
+      "path": "edge.levers[1].title",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:leverage"
+      ],
+      "shared": true,
+      "text": "Lever 2 — The school’s leverage"
+    },
+    {
+      "at": "cannon:edge.levers[1].items[0]",
+      "slug": "cannon",
+      "path": "edge.levers[1].items[0]",
+      "words": 43,
+      "grade": 11.5,
+      "rules": [],
+      "text": "**The profile publishes its own ceiling** — the maximum AP/AT load by grade, with a footnote that maths placement governs whether a student can reach it. Disclosing the cap protects students from being read against an unlimited-load norm they were never allowed to attempt."
+    },
+    {
+      "at": "cannon:edge.levers[1].items[3]",
+      "slug": "cannon",
+      "path": "edge.levers[1].items[3]",
+      "words": 33,
+      "grade": 19.4,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "**Hosting regional admissions traffic** — Cannon is the venue for the Lake Norman case-studies programme and fair, pulling visiting admissions officers onto its own campus at regional scale rather than only sending students out."
+    },
+    {
+      "at": "cannon:wholeClass.gpaNote",
+      "slug": "cannon",
+      "path": "wholeClass.gpaNote",
+      "words": 76,
+      "grade": 12.6,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "These are bands, not a quintile table — no full quintile or decile breakdown, median GPA, or per-band student count is published. The modest weighted ceiling follows directly from the 1.0-quality-point cap and the twelve-course AP/AT maximum, which is a transparency point in Cannon’s favour but needs context for readers used to heavier weighting schemes. As printed, the weighted top-10% band (from 4.08) begins below the top of the middle 50% (4.11), and the profile does not explain the overlap."
+    },
+    {
+      "at": "cannon:wholeClass.support[0].text",
+      "slug": "cannon",
+      "path": "wholeClass.support[0].text",
+      "words": 30,
+      "grade": 16.6,
+      "rules": [
+        "grade"
+      ],
+      "text": "**Michelle Donah**, Upper School Learning Specialist, and **Jennifer Ridenhour**, Upper School Dean of Academic Support — substantial staffing for 421 Upper School students, and among the best-documented learning support in this set."
+    },
+    {
+      "at": "cannon:wholeClass.support[1].text",
+      "slug": "cannon",
+      "path": "wholeClass.support[1].text",
+      "words": 38,
+      "grade": 21.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Students **actively participate in creating their own personalized learning plans** with specific accommodations, supported by a formally constituted team: the student, parents, teachers, the Assistant Head for Academics, the Student Dean, the Upper School Counselor and the advisor."
+    },
+    {
+      "at": "cannon:wholeClass.support[3].text",
+      "slug": "cannon",
+      "path": "wholeClass.support[3].text",
+      "words": 22,
+      "grade": null,
+      "rules": [
+        "jargon:executive function"
+      ],
+      "text": "The **Academic Resource Center** for maths, writing, science and world languages; 1:1 **academic coaching** on executive function; and a faculty-facilitated, peer-led **Academic Lab**."
+    },
+    {
+      "at": "cannon:wholeClass.middle[0].text",
+      "slug": "cannon",
+      "path": "wholeClass.middle[0].text",
+      "words": 61,
+      "grade": 15.6,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The acceptance list runs from MIT, Caltech, Stanford, Princeton and Yale down through Rowan-Cabarrus, Cape Fear, Central Piedmont and Davidson-Davie community colleges, Brevard, Barton, Catawba, Mars Hill, Wingate, Charleston Southern, Coastal Carolina, Lenoir-Rhyne, Queens, Western Carolina, UNC Pembroke and USC Beaufort. A school optimising for prestige would omit these; Cannon prints them, and discloses its 2% two-year figure rather than burying it."
+    },
+    {
+      "at": "cannon:wholeClass.middle[2].text",
+      "slug": "cannon",
+      "path": "wholeClass.middle[2].text",
+      "words": 89,
+      "grade": 39.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "International universities (St Andrews, Edinburgh, Aberdeen — a confirmed 2023 enrollment, Manchester, King’s College London, Trinity College Dublin, University College Dublin, The American University of Paris, McGill, Toronto, Montreal and Western); service academies and the military (the Air Force, Naval and Coast Guard academies, The Citadel and VMI); technical institutes (Caltech, Rose-Hulman, Stevens, Colorado School of Mines, RPI, WPI, Illinois Tech, RIT and Embry-Riddle); HBCUs (Alabama A&M, Clark Atlanta, Elizabeth City State, Howard, NC A&T, NC Central, South Carolina State, Southern University and A&M, Spelman, West Virginia State and Winston-Salem State)."
+    },
+    {
+      "at": "cannon:verdict.headline",
+      "slug": "cannon",
+      "path": "verdict.headline",
+      "words": 29,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "A stable, structurally honest programme — four-year counselor continuity, a published load ceiling, real research defences, and a genuine matriculation list — wrapped in thinner outcome disclosure than its larger peers."
+    },
+    {
+      "at": "cannon:verdict.points[0].text",
+      "slug": "cannon",
+      "path": "verdict.points[0].text",
+      "words": 36,
+      "grade": 16.8,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "students keep the same college counselor for their whole Upper School career rather than being handed off in junior year — and the roster shows the same four directors across three published profiles (only the coordinator changed)."
+    },
+    {
+      "at": "cannon:verdict.points[1].label",
+      "slug": "cannon",
+      "path": "verdict.points[1].label",
+      "words": 7,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "The rigour ceiling is disclosed, not implied"
+    },
+    {
+      "at": "cannon:verdict.points[3].label",
+      "slug": "cannon",
+      "path": "verdict.points[3].label",
+      "words": 6,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "It publishes an actual matriculation list"
+    },
+    {
+      "at": "cannon:verdict.points[3].text",
+      "slug": "cannon",
+      "path": "verdict.points[3].text",
+      "words": 43,
+      "grade": 12,
+      "rules": [
+        "grade"
+      ],
+      "text": "58 institutions where a Class of 2023 graduate genuinely enrolled — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary and the Air Force Academy. That is stronger evidence than any acceptance rollup — and the acceptance list beside it now runs 2022–2026."
+    },
+    {
+      "at": "cannon:verdict.checklist[0]",
+      "slug": "cannon",
+      "path": "verdict.checklist[0]",
+      "words": 21,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "The newest acceptance list covers 2024–26, but the newest matriculation list is the Class of 2023. Where did the Classes of 2024–2026 actually enroll?"
+    },
+    {
+      "at": "carmel-christian:ncAdmissions.methodNote",
+      "slug": "carmel-christian",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "carmel-christian:edge.levers[1].title",
+      "slug": "carmel-christian",
+      "path": "edge.levers[1].title",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:leverage"
+      ],
+      "shared": true,
+      "text": "Lever 2 — The office’s leverage"
+    },
+    {
+      "at": "charlotte-catholic:ncAdmissions.methodNote",
+      "slug": "charlotte-catholic",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "charlotte-catholic:transcript.depth[5].text",
+      "slug": "charlotte-catholic",
+      "path": "transcript.depth[5].text",
+      "words": 29,
+      "grade": null,
+      "rules": [
+        "jargon:cohort"
+      ],
+      "text": "The St. Augustine Scholars Program, begun with a 9th-grade cohort in 2025-26 and now running 10th-grade courses, adds a four-year classical track — philosophy, logic, Latin, primary texts and Socratic seminars."
+    },
+    {
+      "at": "charlotte-catholic:transcript.flags[0].text",
+      "slug": "charlotte-catholic",
+      "path": "transcript.flags[0].text",
+      "words": 37,
+      "grade": 10.1,
+      "rules": [],
+      "text": "No AP Scholar tier counts are published. The profile gives exam-level performance (94% scoring 3+ across 1,184 exams in 2026) instead, which is the richer disclosure — but it means the Scholar/Scholar with Distinction ledger other schools show cannot be built here."
+    },
+    {
+      "at": "charlotte-catholic:counseling.timeline[3].items[4]",
+      "slug": "charlotte-catholic",
+      "path": "counseling.timeline[3].items[4]",
+      "words": 24,
+      "grade": null,
+      "rules": [
+        "jargon:synchronous / asynchronous"
+      ],
+      "text": "Dual Enrollment through Central Piedmont Community College opens — one course per semester, taken asynchronously, with the same extra quality point as AP and Honors."
+    },
+    {
+      "at": "charlotte-catholic:counseling.reach[1]",
+      "slug": "charlotte-catholic",
+      "path": "counseling.reach[1]",
+      "words": 11,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "Graduates of the Classes of 2024–2026 matriculated to 168 different colleges and universities."
+    },
+    {
+      "at": "charlotte-catholic:outcomes.subhead",
+      "slug": "charlotte-catholic",
+      "path": "outcomes.subhead",
+      "words": 14,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "This is a matriculation list: where graduates actually enrolled, not everywhere they were admitted."
+    },
+    {
+      "at": "charlotte-catholic:outcomes.stats[0].label",
+      "slug": "charlotte-catholic",
+      "path": "outcomes.stats[0].label",
+      "words": 5,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "institutions matriculated to, Classes of 2023–2026"
+    },
+    {
+      "at": "charlotte-catholic:outcomes.collegesTitle",
+      "slug": "charlotte-catholic",
+      "path": "outcomes.collegesTitle",
+      "words": 2,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "Every matriculation, 2023–2026"
+    },
+    {
+      "at": "charlotte-catholic:edge.levers[0].items[1]",
+      "slug": "charlotte-catholic",
+      "path": "edge.levers[0].items[1]",
+      "words": 28,
+      "grade": null,
+      "rules": [
+        "jargon:cohort"
+      ],
+      "text": "Sit the AP exam in every AP course; it is mandatory here, so the 94% scoring 3+ is a cohort result a student is measured inside, not opted out of."
+    },
+    {
+      "at": "charlotte-catholic:edge.levers[1].title",
+      "slug": "charlotte-catholic",
+      "path": "edge.levers[1].title",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:leverage"
+      ],
+      "shared": true,
+      "text": "Lever 2 — The school’s leverage"
+    },
+    {
+      "at": "charlotte-catholic:edge.levers[1].items[1]",
+      "slug": "charlotte-catholic",
+      "path": "edge.levers[1].items[1]",
+      "words": 30,
+      "grade": 16.2,
+      "rules": [
+        "grade"
+      ],
+      "text": "CCHS is one of only four parochial schools competing in the NCHSAA — the public-school association — so its athletes are evaluated against the state’s largest programs rather than a private-school bracket."
+    },
+    {
+      "at": "charlotte-catholic:edge.levers[1].items[3]",
+      "slug": "charlotte-catholic",
+      "path": "edge.levers[1].items[3]",
+      "words": 28,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "Diocesan scale shows up in outcomes — Naval Academy appointments in consecutive classes (three in 2025, one in 2026 alongside a West Point appointment), and service-academy matriculations at all three academies."
+    },
+    {
+      "at": "charlotte-catholic:wholeClass.scoreTables[0].note",
+      "slug": "charlotte-catholic",
+      "path": "wholeClass.scoreTables[0].note",
+      "words": 71,
+      "grade": 7.6,
+      "rules": [
+        "long"
+      ],
+      "text": "The school publishes a mid-50% RANGE, not percentiles and not an average. The endpoints of a mid-50% range are by definition the 25th and 75th percentiles, so those two columns are real; the 10th, 50th, 90th and mean are not published and are shown as em-dashes rather than modelled. No section-level (EBRW / Math) split is published. Against 336 seniors, 290 SAT takers and 322 ACT takers means most of the class sat both tests."
+    },
+    {
+      "at": "charlotte-catholic:wholeClass.support[0].text",
+      "slug": "charlotte-catholic",
+      "path": "wholeClass.support[0].text",
+      "words": 21,
+      "grade": null,
+      "rules": [
+        "jargon:executive function"
+      ],
+      "text": "A one-semester course (508 for grades 9–10, 509 for 11–12) in executive function and self-advocacy for Academic Achievement students — the step before Guided Academic Support."
+    },
+    {
+      "at": "charlotte-catholic:verdict.points[1].text",
+      "slug": "charlotte-catholic",
+      "path": "verdict.points[1].text",
+      "words": 29,
+      "grade": null,
+      "rules": [
+        "jargon:cohort"
+      ],
+      "text": "**94% of scores at 3+** across **1,184 exams** in 2026 is a whole-cohort number, because **the exam is mandatory in every AP course** — weaker candidates cannot be quietly kept out of the denominator."
+    },
+    {
+      "at": "charlotte-catholic:verdict.points[2].label",
+      "slug": "charlotte-catholic",
+      "path": "verdict.points[2].label",
+      "words": 6,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "Read the college list as matriculations"
+    },
+    {
+      "at": "charlotte-christian:ncAdmissions.methodNote",
+      "slug": "charlotte-christian",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "charlotte-christian:edge.levers[1].title",
+      "slug": "charlotte-christian",
+      "path": "edge.levers[1].title",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:leverage"
+      ],
+      "shared": true,
+      "text": "Lever 2 — The school’s leverage"
+    },
+    {
+      "at": "charlotte-country-day:ncAdmissions.methodNote",
+      "slug": "charlotte-country-day",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "charlotte-country-day:edge.levers[1].title",
+      "slug": "charlotte-country-day",
+      "path": "edge.levers[1].title",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:leverage"
+      ],
+      "shared": true,
+      "text": "Lever 2 — The school’s leverage"
+    },
+    {
+      "at": "charlotte-latin:ncAdmissions.methodNote",
+      "slug": "charlotte-latin",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "charlotte-latin:edge.levers[1].title",
+      "slug": "charlotte-latin",
+      "path": "edge.levers[1].title",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:leverage"
+      ],
+      "shared": true,
+      "text": "Lever 2 — The school’s leverage"
+    },
+    {
+      "at": "covenant-day:ncAdmissions.methodNote",
+      "slug": "covenant-day",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "covenant-day:transcript.meritNote",
+      "slug": "covenant-day",
+      "path": "transcript.meritNote",
+      "words": 30,
+      "grade": 13.8,
+      "rules": [
+        "grade"
+      ],
+      "text": "Since 2006 — the first graduating class — the school counts 28 National Merit Finalists and 70 Commended students, a ledger that grew by two Finalists and nine Commended between the last two profile editions."
+    },
+    {
+      "at": "covenant-day:transcript.depthTitle",
+      "slug": "covenant-day",
+      "path": "transcript.depthTitle",
+      "words": 3,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "The rigor architecture"
+    },
+    {
+      "at": "covenant-day:outcomes.headline",
+      "slug": "covenant-day",
+      "path": "outcomes.headline",
+      "words": 17,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "225 institutions on the published 2023–2026 acceptance list — with matriculations bolded, so you can see where students actually went."
+    },
+    {
+      "at": "covenant-day:outcomes.scholarships[2]",
+      "slug": "covenant-day",
+      "path": "outcomes.scholarships[2]",
+      "words": 3,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "No matriculation-rate percentages"
+    },
+    {
+      "at": "covenant-day:outcomes.scholarshipsNote",
+      "slug": "covenant-day",
+      "path": "outcomes.scholarshipsNote",
+      "words": 27,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "The bold-marks-matriculation convention is itself unusual disclosure: because both published lists carry it and overlap on the classes of 2023–24, acceptances and enrollments can be cross-validated across editions."
+    },
+    {
+      "at": "covenant-day:edge.levers[2].title",
+      "slug": "covenant-day",
+      "path": "edge.levers[2].title",
+      "words": 2,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "Legible rigor"
+    },
+    {
+      "at": "covenant-day:edge.levers[2].items[2]",
+      "slug": "covenant-day",
+      "path": "edge.levers[2].items[2]",
+      "words": 14,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "The no-rank policy plus a full weighting key lets readers reconstruct rigor in context"
+    },
+    {
+      "at": "covenant-day:wholeClass.middle[0].text",
+      "slug": "covenant-day",
+      "path": "wholeClass.middle[0].text",
+      "words": 30,
+      "grade": 16.6,
+      "rules": [
+        "jargon:matriculation",
+        "grade"
+      ],
+      "text": "The bolded matriculations run from Dartmouth and Duke through Covenant College, Cedarville, Montreat, community colleges and trade-adjacent programs — a school placing only its top quartile would not produce that spread."
+    },
+    {
+      "at": "covenant-day:wholeClass.flags[0].text",
+      "slug": "covenant-day",
+      "path": "wholeClass.flags[0].text",
+      "words": 48,
+      "grade": 14.2,
+      "rules": [
+        "jargon:matriculation",
+        "long",
+        "grade"
+      ],
+      "text": "No distributions are published anywhere: no GPA quantiles, no score percentiles, no per-class matriculation rates. This card ships with the aggregates above because they are genuinely informative — but the shape of the class is not recoverable from public sources, and that follows from the school’s own no-rank policy."
+    },
+    {
+      "at": "covenant-day:verdict.headline",
+      "slug": "covenant-day",
+      "path": "verdict.headline",
+      "words": 21,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "A rigorous, legible academic product with an unusually heavy counselor caseload — and disclosure that is excellent about outcomes, silent about process."
+    },
+    {
+      "at": "covenant-day:verdict.points[2].label",
+      "slug": "covenant-day",
+      "path": "verdict.points[2].label",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:matriculation"
+      ],
+      "text": "Matriculation is actually visible"
+    },
+    {
+      "at": "davidson-day:ncAdmissions.methodNote",
+      "slug": "davidson-day",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "davidson-day:edge.levers[1].title",
+      "slug": "davidson-day",
+      "path": "edge.levers[1].title",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:leverage"
+      ],
+      "shared": true,
+      "text": "Lever 2 — The school’s leverage"
+    },
+    {
+      "at": "gaston-day:ncAdmissions.methodNote",
+      "slug": "gaston-day",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "gaston-day:edge.levers[1].title",
+      "slug": "gaston-day",
+      "path": "edge.levers[1].title",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:leverage"
+      ],
+      "shared": true,
+      "text": "Lever 2 — The school’s leverage"
+    },
+    {
+      "at": "hickory-grove-christian:ncAdmissions.methodNote",
+      "slug": "hickory-grove-christian",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "hickory-grove-christian:edge.levers[1].title",
+      "slug": "hickory-grove-christian",
+      "path": "edge.levers[1].title",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:leverage"
+      ],
+      "shared": true,
+      "text": "Lever 2 — The office’s leverage"
+    },
+    {
+      "at": "providence-day:ncAdmissions.methodNote",
+      "slug": "providence-day",
+      "path": "ncAdmissions.methodNote",
+      "words": 65,
+      "grade": 12.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "shared": true,
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit."
+    },
+    {
+      "at": "providence-day:edge.levers[1].title",
+      "slug": "providence-day",
+      "path": "edge.levers[1].title",
+      "words": 4,
+      "grade": null,
+      "rules": [
+        "jargon:leverage"
+      ],
+      "shared": true,
+      "text": "Lever 2 — The school’s leverage"
+    }
+  ]
+}

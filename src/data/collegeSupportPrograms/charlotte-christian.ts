@@ -401,7 +401,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       },
     ],
     methodNote:
-      'Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.',
+      'Read each row as a joint figure. It is the rate at which that university admitted this school’s applicants. It is not the university’s overall admit rate, and it does not measure how selective the school itself is. Applied/Accepted are the Fall 2025 entering class. The 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a year with many applicants counts more than a year with few. The counts sit beside every rate because several cells are in single digits.',
     flags: [
       {
         kind: 'verify',
@@ -419,7 +419,7 @@ export const charlotteChristian: CollegeSupportProgram = {
     headline:
       'Students in AP classes are required to sit the exam, and 94% of 2026’s 435 exams scored 3 or higher — a rate earned on a mandated rather than self-selected pool.',
     subhead:
-      'Because the exams are mandatory, the profile’s published exam, student and AP Scholar counts describe the whole AP cohort rather than its most confident testers. Four credits of Biblical Studies are the transcript’s defining signature.',
+      'Because the exams are required, the profile’s published exam, student and AP Scholar counts describe every AP student, not just the most confident testers. The transcript stands out most for its four credits of Biblical Studies.',
     stats: [
       { value: '435', label: 'AP exams taken in 2026 (208 students)' },
       { value: '94%', label: 'of exams scored 3+ in 2026' },
@@ -434,11 +434,11 @@ export const charlotteChristian: CollegeSupportProgram = {
       { year: '2025', detail: '**4** College Board National Recognition awards — 1 African American, 3 Hispanic (Class of 2024: 5)' },
     ],
     meritNote:
-      'All three National Merit figures are rolling 15-year windows, which is why the Finalist count can fall from 16 to 14 to 12 while Commended moves from 45 to 48 to 46 — strong older years drop out of the window. That is arithmetically possible rather than an error, but the school does not explain it, and no per-class-year ledger is published in any edition.',
+      'All three National Merit figures cover a rolling 15-year window. That is why the Finalist count can fall from 16 to 14 to 12 while Commended moves from 45 to 48 to 46: strong older years drop out of the window. The math allows this, so it is not necessarily an error. But the school does not explain it, and no edition publishes a count for each class year.',
     depth: [
       {
         label: 'Mathematics',
-        text: '**Calculus III** is genuine post-AP depth — multivariable and vector-valued functions, curvature, double and triple integrals, vector analysis and differential equations. It requires a 93% in AP Calculus AB or completion of BC.',
+        text: '**Calculus III** is a real course beyond AP. It covers multivariable and vector-valued functions, curvature, double and triple integrals, vector analysis and differential equations. It requires a 93% in AP Calculus AB or completion of BC.',
       },
       {
         label: 'Physics',
@@ -468,7 +468,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       },
       {
         label: 'A Christian-specific load signature',
-        text: 'Graduation requires **27 credits including 4 of Biblical Studies**, plus a January Term credit, a half-credit Junior Seminar and a half-credit Speech course. Those four credits consume elective space peer schools spend elsewhere, and they are the transcript’s most distinctive feature.',
+        text: 'Graduation requires **27 credits including 4 of Biblical Studies**. Students also need a January Term credit, a half-credit Junior Seminar and a half-credit Speech course. Those four Biblical Studies credits use up elective space that peer schools spend on other courses. They are the transcript’s most distinctive feature.',
       },
     ],
     flags: [
@@ -478,7 +478,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'Only the 3+ threshold is reported — the share of exams scoring 4 or 5 is not published in any year, so no 4–5 rate should be inferred. The 2026–27 profile also drops the pass count and the AP Scholar breakdown by award level that the 2024–25 edition printed. “Most rigorous” course-load norms are likewise undefined: there is no published rubric and no statement of what fraction of students take the most demanding programme.',
+        text: 'Only the share scoring 3+ is reported. The share of exams scoring 4 or 5 is not published in any year, so no 4–5 rate should be guessed. The 2026–27 profile also drops the pass count and the AP Scholar breakdown by award level that the 2024–25 edition printed. What counts as a “Most rigorous” course load is not defined either. There is no published rubric and no statement of what share of students take the most demanding programme.',
       },
       {
         kind: 'verify',
@@ -574,7 +574,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'No counselor tenure, prior employer or professional background is published for anyone on the team, and no bios appear on the college counseling page. Neither rep-visit counts nor counselor campus-visit counts are published.',
+        text: 'The school publishes no counselor’s years in the job, past employer or professional background. No bios appear on the college counseling page. It also publishes no count of visits by college reps or of campus visits by counselors.',
       },
     ],
     sources: [
@@ -633,25 +633,25 @@ export const charlotteChristian: CollegeSupportProgram = {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**Academic Conservatory** — the school’s strongest published credential, and critically it is **noted on the transcript**, so it reaches the admissions reader rather than living only in a résumé. The 2026–27 profile names six areas — Math and Science; Fine Arts; Bible, Philosophy & Religion; English; Social Studies; World Languages — and **20% of the Class of 2026** earned at least one distinction.',
-          '**Winterim / January Term** — a required credit every year (0.25 per year toward graduation), supplying internships, travel and vocational shadowing. Note the vocational shadowing component is small: only about seven placements are published.',
+          '**Academic Conservatory** — the school’s strongest published credential. Importantly, it is **noted on the transcript**, so it reaches the admissions reader rather than appearing only on a résumé. The 2026–27 profile names six areas: Math and Science; Fine Arts; Bible, Philosophy & Religion; English; Social Studies; World Languages. **20% of the Class of 2026** earned at least one distinction.',
+          '**Winterim / January Term** — a required credit every year (0.25 per year toward graduation). It offers internships, travel and job shadowing. The job-shadowing part is small: only about seven placements are published.',
           '**Junior Seminar** — a required, graded half-credit course containing a mock admission committee and two mandatory college visits. Structurally stronger than the optional evening programming most schools offer.',
           '**Athletic recruiting at scale** — 21 signees in the Class of 2025, roughly 22% of a 94-student class, with athletic scholarships at Florida State, Queens, Wake Forest, Kentucky and New Hampshire.',
-          '**Seal of Biliteracy** — implemented in 2019 and awarded on a proficiency exam across two languages, though the share earning it fell from 11% of the Class of 2021 to 4% of the Class of 2024, then rose to 7% of the Class of 2026.',
+          '**Seal of Biliteracy** — started in 2019 and awarded for passing a skills exam in two languages. The share earning it fell from 11% of the Class of 2021 to 4% of the Class of 2024. It then rose to 7% of the Class of 2026.',
           '**Scholastic Art & Writing** — 54 awards over the last five years, per the 2026–27 profile.',
         ],
       },
       {
-        title: 'Lever 2 — The school’s leverage',
+        title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
-          '**A Christian-college network with its own membership** — Charlotte Christian belongs to **NACCAP**, the Christian-college counseling association, alongside NACAC and SACAC. Its brochure gives Christian colleges a named tier, and 14% of graduates enroll at one. Class of 2026 graduates enrolled at Wheaton, Liberty, Samford, Gordon, Lipscomb and Baylor.',
+          '**A Christian-college network with its own membership** — Charlotte Christian belongs to **NACCAP**, a counseling group for Christian colleges, as well as NACAC and SACAC. Its brochure lists Christian colleges as their own group, and 14% of graduates enroll at one. Class of 2026 graduates enrolled at Wheaton, Liberty, Samford, Gordon, Lipscomb and Baylor.',
           '**A named HBCU tier** — Hampton, Howard, Morehouse, NC A&T and Spelman are listed as a distinct group, with confirmed Class of 2025 enrollments at NC A&T and Johnson C. Smith.',
-          '**The School Profile as an instrument** — it publishes the AP exam, student and AP Scholar counts, a five-quintile GPA table, a GPA middle 50% (3.604–4.199 for the Class of 2026), the grading scale and the weighting formula, plus CEEB 340667.',
-          '**Granular scholarship reporting** — roughly ninety individually named awards published for a single class is far more specific than a headline dollar figure, and lets a family see which institutions actually fund this school’s students.',
+          '**The School Profile as an instrument** — it publishes the AP exam, student and AP Scholar counts and a five-quintile GPA table. It gives a GPA middle 50% (3.604–4.199 for the Class of 2026). It also prints the grading scale, the weighting formula and the CEEB code 340667.',
+          '**Detailed scholarship reporting** — the school published roughly ninety named awards for a single class. That is far more specific than one total dollar figure. It lets a family see which colleges actually fund this school’s students.',
         ],
         note:
-          'The disciplinary policy is published: the school follows the NACAC Statement of Principles of Good Practice and “does not permit the reporting of any disciplinary infractions”, but it advises students to self-disclose any grade 9–12 infraction that led to an out-of-school suspension.',
+          'The discipline policy is published. The school follows the NACAC Statement of Principles of Good Practice. It “does not permit the reporting of any disciplinary infractions”. But it advises students to report on their own any grade 9–12 infraction that led to an out-of-school suspension.',
       },
     ],
     flags: [],
@@ -667,7 +667,7 @@ export const charlotteChristian: CollegeSupportProgram = {
     headline:
       'A full five-quintile GPA table, published every year — and in the Class of 2026 table it compressed: the top floor eased while the bottom rose sharply.',
     subhead:
-      'The median student sits in the third quintile at roughly 3.80–4.05 weighted, and the profile puts the class’s GPA middle 50% at 3.604–4.199 on its GPA scale. Because Honors adds 0.5 and AP a full point, a 4.240 top-quintile floor implies a heavy advanced load rather than a perfect record.',
+      'The middle student sits in the third quintile at roughly 3.80–4.05 weighted. The profile puts the class’s GPA middle 50% at 3.604–4.199 on its GPA scale. Honors adds 0.5 and AP a full point. So a 4.240 floor for the top quintile points to a heavy load of advanced courses, not a perfect record.',
     scoreTables: [
       {
         title: 'SAT score percentiles',
@@ -694,11 +694,11 @@ export const charlotteChristian: CollegeSupportProgram = {
       { label: 'Fifth', gpa: '2.269–3.524', detail: 'the floor of the published table' },
     ],
     gpaNote:
-      'All five quintiles are the school’s own published figures. Against the Class of 2025 table, the distribution compressed in one year: the first-quintile floor eased from 4.277 to 4.240, while the third rose from 3.686 to 3.804, the fourth from 3.124 to 3.542 and the fifth from 1.941 to 2.269. The bottom of the class moved up much more than the top moved down. No unweighted distribution is published.',
+      'All five quintiles are the school’s own published figures. Compared with the Class of 2025 table, the spread narrowed in one year. The first-quintile floor eased from 4.277 to 4.240. The third rose from 3.686 to 3.804, the fourth from 3.124 to 3.542 and the fifth from 1.941 to 2.269. The bottom of the class moved up much more than the top moved down. No unweighted distribution is published.',
     support: [
       {
         label: 'What is published is counseling, not learning support',
-        text: 'Two Upper School counselors provide study-skills instruction, course-selection guidance, academic progress monitoring, test-anxiety management, and referrals to outside resources. That is a general counseling function rather than a learning-differences programme.',
+        text: 'Two Upper School counselors teach study skills, help with course choices and track academic progress. They also help with test anxiety and refer students to outside resources. That is general counseling, not a programme for learning differences.',
       },
       {
         label: 'Credentials are a genuine strength',
@@ -706,13 +706,13 @@ export const charlotteChristian: CollegeSupportProgram = {
       },
       {
         label: 'The named academic-support structures',
-        text: '**WIN (“What I Need”) labs** and advisory lessons are the named Upper School academic-support structure, and the **Media & Writing Center** is free and writing-specific. What WIN Lab delivers academically is not described.',
+        text: '**WIN (“What I Need”) labs** and advisory lessons are the Upper School’s named academic support. The **Media & Writing Center** is free and focused on writing. What WIN Lab actually teaches is not described.',
       },
     ],
     middle: [
       {
-        label: 'The middle may be the best-served cohort',
-        text: 'The list spans Duke, Harvard and Columbia down to Central Piedmont Community College, Barton, Catawba, Spartanburg Methodist, Belmont Abbey, Wingate and Winthrop. A fourth- or fifth-quintile student at 3.54 or below has real, named destinations, and the checklist instructs students to include “every possible type of college that might be of interest”.',
+        label: 'The middle may be the best-served group',
+        text: 'The list runs from Duke, Harvard and Columbia down to Central Piedmont Community College, Barton, Catawba, Spartanburg Methodist, Belmont Abbey, Wingate and Winthrop. A fourth- or fifth-quintile student at 3.54 or below has real, named places to go. The checklist also tells students to include “every possible type of college that might be of interest”.',
       },
       {
         label: 'The Christian-college route is real, not decorative',
@@ -737,7 +737,7 @@ export const charlotteChristian: CollegeSupportProgram = {
 
   verdict: {
     headline:
-      'A structurally rigorous, transparent transcript — mandatory AP exams, a full published quintile table, published AP exam and Scholar counts — attached to the thinnest learning-support disclosure in this set.',
+      'A demanding, open transcript: required AP exams, a full published quintile table, and published AP exam and Scholar counts. It comes with the thinnest learning-support disclosure among the schools on this site.',
     subhead:
       'The academic reporting is unusually honest. The gaps are concentrated in exactly one place, which makes the tour questions easy to aim.',
     points: [
@@ -747,7 +747,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       },
       {
         label: 'The AP counts are published with the rate',
-        text: 'the 2026–27 profile prints 435 exams, 208 students and 90 AP Scholars beside the 94%, so the rate can be read against the size of the cohort that earned it.',
+        text: 'the 2026–27 profile prints 435 exams, 208 students and 90 AP Scholars beside the 94%, so the rate can be read against the size of the group that earned it.',
       },
       {
         label: 'A real quintile table, published annually',

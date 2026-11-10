@@ -524,7 +524,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
     ],
     methodNote:
-      'Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.',
+      'Read each row as a joint figure. It is the rate at which that university admitted this school’s applicants. It is not the university’s overall admit rate, and it does not measure how selective the school itself is. Applied/Accepted are the Fall 2025 entering class. The 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a year with many applicants counts more than a year with few. The counts sit beside every rate because several cells are in single digits.',
     flags: [
       {
         kind: 'verify',
@@ -542,7 +542,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     headline:
       '589 AP exams in 2026 at 96% scoring 3+ and 87% at 4 or 5 — an average score of 4.2 — and the school publishes those results discipline by discipline.',
     subhead:
-      'Country Day was the first school in North Carolina to offer the IB Diploma, so a student has two legible routes to maximum rigour rather than one, and the profile names the ceiling course in every discipline.',
+      'Country Day was the first school in North Carolina to offer the IB Diploma. So a student has two clear routes to the hardest course load, not one. The profile also names the top course in every subject.',
     stats: [
       { value: '589', label: 'AP exams sat in May 2026 (230 students)' },
       { value: '96%', label: 'scored 3+ · 87% earned 4s or 5s · 4.2 average' },
@@ -567,11 +567,11 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'Sciences',
-        text: '**Organic Chemistry** and **Physical Computational Biochemistry** run as post-AP semester electives, the former explicitly for students who have finished AP or IB Chemistry. **AP Physics 1** replaced Honors Physics in 2026–27 and is now the prerequisite for AP Physics C.',
+        text: '**Organic Chemistry** and **Physical Computational Biochemistry** are one-semester electives taken after AP. Organic Chemistry is stated to be for students who have finished AP or IB Chemistry. **AP Physics 1** replaced Honors Physics in 2026–27. It is now the course students must take before AP Physics C.',
       },
       {
         label: 'Computer science',
-        text: 'The ceiling is AP Computer Science A; **AP Computer Science Principles** joins in 2026–27 as a 10th-grade entry point, and there is still **no post-AP CS course**, a genuine gap against the maths and science depth beside it.',
+        text: 'The top course is AP Computer Science A. **AP Computer Science Principles** joins in 2026–27 as a starting course in 10th grade. There is still **no post-AP CS course**. That is a real gap next to the depth in maths and science.',
       },
       {
         label: 'World language',
@@ -585,19 +585,19 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     trust: [
       {
         label: 'Weighted on a flat bump',
-        text: '**+0.5 for Honors, +1.0 for AP/IB** on a 4.0 base — stable across every profile edition reviewed, and the 2026–27 edition extends the +1.0 to the post-AP Organic Chemistry and Calculus III. There is no separate quality-point table.',
+        text: '**+0.5 for Honors, +1.0 for AP/IB** on a 4.0 base. Every profile edition reviewed uses this same scale. The 2026–27 edition also gives the +1.0 to the post-AP Organic Chemistry and Calculus III. There is no separate quality-point table.',
       },
       {
         label: 'No rank → a quintile table',
-        text: 'Country Day has published a quintile table continuously since at least 2015–16. The 2025–26 edition tied each fifth to a median SAT and ACT; the 2026–27 edition returns to **GPA medians alone** and prints a **whole-class SAT/ACT middle 50%** beside them.',
+        text: 'Country Day has published a quintile table (a split of the class into fifths) every year since at least 2015–16. The 2025–26 edition tied each fifth to a median SAT and ACT score. The 2026–27 edition goes back to **GPA medians alone**. Beside them it prints a **whole-class SAT/ACT middle 50%**.',
       },
       {
         label: '“Most rigorous” shown, not defined',
-        text: 'No numeric rubric, but a **“Notably Rigorous Courses by Discipline”** table naming the ceiling course in each subject, plus AP-load buckets — 0–2 / 3–5 / 6–8 / 9+ (Class of 2027: 22 / 22 / 39 / 14 of the 97 non-IB seniors with seven-plus semesters) — that let a reader locate a candidate against classmates.',
+        text: 'There is no number-based rubric. Instead, a **“Notably Rigorous Courses by Discipline”** table names the top course in each subject. The profile also sorts seniors into AP-load groups: 0–2 / 3–5 / 6–8 / 9+ (Class of 2027: 22 / 22 / 39 / 14 of the 97 non-IB seniors with seven-plus semesters). These let a reader place a student among classmates.',
       },
       {
         label: 'Standard means college-prep',
-        text: 'Every course that is not Honors, AP or IB is labelled **“Regular/Standard”** on transcripts and STARS forms, and the profile calls every course college-prep in rigour. AP is closed to 9th graders, and 10th graders generally take only AP Human Geography and AP Computer Science Principles.',
+        text: 'Every course that is not Honors, AP or IB is labelled **“Regular/Standard”** on transcripts and STARS forms. The profile says every course is college-prep in difficulty. AP is closed to 9th graders. 10th graders generally take only AP Human Geography and AP Computer Science Principles.',
       },
     ],
     flags: [
@@ -621,7 +621,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     headline:
       'Five full-time counselors for 536 Upper Schoolers — roughly 27 seniors each — with more than 100 years of combined admissions experience between them.',
     subhead:
-      'A director change landed in July 2026, and the 2026–27 profile is the first edition to print the new office — but it sits on top of a decade of institutional memory: two of the five have been in this office since at least 2015–16.',
+      'The office changed directors in July 2026, and the 2026–27 profile is the first edition to show the new office. But the office still holds a decade of experience. Two of the five have worked there since at least 2015–16.',
     stats: [
       { value: '~1:27', label: 'counselors to seniors (derived — 137 ÷ 5; the school publishes no ratio)' },
       { value: '5', label: 'full-time college counselors, plus a registrar' },
@@ -696,7 +696,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       'Scholarship evaluation',
     ],
     mechanicsNote:
-      'The Class of 2026 submitted **1,107 applications to 203 institutions** — about eight per student. Transcripts and the school report are owned by a dedicated registrar, and testing accommodations are handled by the Educational Resource Program rather than the college office.',
+      'The Class of 2026 sent **1,107 applications to 203 institutions**, about eight per student. A dedicated registrar handles transcripts and the school report. Testing accommodations are handled by the Educational Resource Program, not the college office.',
     reach: [
       '**150+** admissions officers a year, in 60-minute sessions across five fixed daily slots',
       'A defined visit window — **24 Aug to 20 Nov 2026** — scheduled through Scoir Visits',
@@ -725,7 +725,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     headline:
       'The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada, with 32 students to UNC–Chapel Hill alone.',
     subhead:
-      'The published list is a four-year cumulative acceptance list of 363 institutions, with Harvard, Caltech, Johns Hopkins and Northwestern among the final edition’s additions; only the bolded names represent somewhere a Class of 2026 student actually enrolled.',
+      'The published list covers four years of acceptances at 363 colleges. Harvard, Caltech, Johns Hopkins and Northwestern were among those added in the final edition. Only the names in bold are places where a Class of 2026 student actually enrolled.',
     stats: [
       { value: '70', label: 'institutions actually enrolling a Class of 2026 student' },
       { value: '170', label: 'unique institutions admitting them · 1,107 applications sent' },
@@ -751,7 +751,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       'Recent: Jefferson, Jack Kent Cooke, QuestBridge, Ron Brown, Coca-Cola',
     ],
     scholarshipsNote:
-      'Treat the “34 Morehead-Cain recipients” figure carefully: the College Counseling landing page shows it beside Class of 2026 statistics, but the Class of 2026 produced exactly one Morehead-Cain Scholar. The 34 is a cumulative, all-time count whose window the school never states. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile and should not be presented as current pipelines.',
+      'Treat the “34 Morehead-Cain recipients” figure with care. The College Counseling main page shows it next to Class of 2026 numbers. But the Class of 2026 had exactly one Morehead-Cain Scholar. The 34 is an all-time total, and the school never says what years it covers. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile. They should not be shown as awards students win today.',
     flags: [
       {
         kind: 'verify',
@@ -773,7 +773,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'The IB Diploma is the structural differentiator — a second route to maximum rigour — and the Senior Externship turns 175+ local employers into a network only this school has.',
+      'The IB Diploma is what sets the school apart: a second route to the hardest course load. And the Senior Externship turns 175+ local employers into a network only this school has.',
     subhead:
       'What Country Day does not have is a required capstone or research thesis; its spike-building is programme breadth rather than a single mandated credential.',
     levers: [
@@ -781,26 +781,26 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**IB Diploma Programme** — Country Day was the **first school in North Carolina** to offer it. **26 seniors in the Class of 2027** take the full diploma from junior year, at an 88% five-year pass rate. For a student whose strengths are not AP-shaped, it is a second legible path to maximum rigour, and it carries an Extended Essay by construction.',
-          '**Senior Externship** — a January job-shadowing immersion launched in 2017, partnered with **175+ local employers across 20+ industries**. In a recent year **136 seniors** placed with 68 Charlotte-area employers, hosts drawn largely from current and past parents and alumni.',
+          '**IB Diploma Programme** — Country Day was the **first school in North Carolina** to offer it. **26 seniors in the Class of 2027** take the full diploma from junior year. Its five-year pass rate is 88%. For a student whose strengths do not fit the AP model, it is a second clear path to the hardest course load. It also has an Extended Essay built in.',
+          '**Senior Externship** — a January job-shadowing program that started in 2017. It works with **175+ local employers across 20+ industries**. In a recent year **136 seniors** were placed with 68 Charlotte-area employers. Most hosts were current and past parents and alumni.',
           '**Science Outreach Program** — rising juniors and seniors work with science professors at local institutions on primary research over the summer, then present at the annual Science Symposium.',
-          '**Weddington Farm** — a **330-acre living classroom** with produce, livestock, beekeeping, mushroom farming and a ten-mile trail system, feeding sustainable-agriculture, ecology and entrepreneurship programming. A genuinely uncommon asset for an urban independent school.',
-          '**Special Olympics Mecklenburg County Spring Games** — the Upper School has taken a two-day break from classes every April **since 1984** to host. A 40-year institutional commitment reads very differently to an admissions office than a service club.',
+          '**Weddington Farm** — a **330-acre living classroom** with crops, farm animals, beekeeping, mushroom farming and a ten-mile trail system. It is used for lessons in green farming, ecology and starting a business. Few city private schools have anything like it.',
+          '**Special Olympics Mecklenburg County Spring Games** — the Upper School has paused classes for two days every April **since 1984** to host them. To an admissions office, a 40-year commitment by the whole school reads very differently than a service club.',
         ],
         note:
-          'There is no required internship, capstone or independent research thesis. The Senior Externship is a single day and is never stated to be mandatory, though 136 of ~141 seniors taking part implies it is near-universal in practice.',
+          'There is no required internship, capstone or independent research thesis. The Senior Externship is a single day, and the school never says it is required. Still, 136 of ~141 seniors took part, which suggests nearly every senior does it in practice.',
       },
       {
-        title: 'Lever 2 — The school’s leverage',
+        title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
-          '**The School Profile as an instrument** — the 2026–27 edition names the ceiling course in every discipline, states the weighting formula, and discloses AP results by discipline including the low end (Fine Arts at 91%/61%). Its AP-load buckets grew to four, and it dropped the per-fifth test medians of the 2025–26 edition but restored a whole-class SAT/ACT middle 50%. That candour is itself a credibility signal.',
-          '**Integrity signalling** — an annually pledged Honor Code with a student-run Honor Council, plus ACCIS, NACAC and SACAC membership. Faculty credibility markers matter here too: the Upper School’s **83 teaching and administrative staff** include **AP exam readers**, National Board graders and Klingenstein Fellows; 82% hold advanced degrees and 100% take part in professional development each year.',
-          '**A dominant UNC–Chapel Hill pipeline** — 32 Class of 2026 students enrolled there, 23% of the class, alongside 34 cumulative Morehead-Cain recipients. Add a standing Jefferson Scholar link to UVA and a decade of service-academy appointments.',
-          '**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolling for the Class of 2026 (19 HBCUs on the list, Claflin new), with a February One Scholarship and a Ron Brown Scholar among recent awards.',
+          '**The School Profile as an instrument** — the 2026–27 edition names the top course in every subject. It states the weighting formula. It shows AP results by subject, including the low end (Fine Arts at 91%/61%). Its AP-load groups grew to four. It dropped the 2025–26 edition’s test medians for each fifth, but it brought back a whole-class SAT/ACT middle 50%. That openness itself builds trust.',
+          '**Integrity signalling** — an Honor Code students pledge every year, a student-run Honor Council, and membership in ACCIS, NACAC and SACAC. Signs of strong teachers matter here too. The Upper School’s **83 teaching and administrative staff** include **AP exam readers**, National Board graders and Klingenstein Fellows. 82% hold advanced degrees, and 100% take part in teacher training each year.',
+          '**A dominant UNC–Chapel Hill pipeline** — 32 Class of 2026 students enrolled there, 23% of the class. The school also counts 34 Morehead-Cain recipients all-time. Add a lasting Jefferson Scholar link to UVA and a decade of service-academy appointments.',
+          '**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolled Class of 2026 students. The list holds 19 HBCUs (historically Black colleges and universities), with Claflin new. Recent awards include a February One Scholarship and a Ron Brown Scholar.',
         ],
         note:
-          'The school does not publish its disciplinary-disclosure policy — whether and how Honor Council findings or suspensions reach the secondary school report. Given published NACAC membership, that omission is a sharp tour question.',
+          'The school does not publish its policy on reporting discipline. That policy would say whether, and how, Honor Council findings or suspensions reach the secondary school report (the form the school sends to colleges). The school lists NACAC membership, so this gap is a sharp question to ask on a tour.',
       },
     ],
     flags: [],
@@ -815,9 +815,9 @@ export const charlotteCountryDay: CollegeSupportProgram = {
 
   wholeClass: {
     headline:
-      'The quintile table is the honest answer for the middle of the class — the fourth fifth sits at a 3.655 median GPA, the fifth at 3.012 — and the whole-class middle 50% is a 1170–1400 SAT.',
+      'The quintile table gives the honest answer for the middle of the class. The fourth fifth has a 3.655 median GPA, and the bottom fifth 3.012. The whole-class middle 50% is a 1170–1400 SAT.',
     subhead:
-      'Country Day publishes what most schools hide, and its acceptance list matches that spread: Harvard, Princeton and MIT at one end, Cape Fear and Central Piedmont community colleges at the other.',
+      'Country Day publishes what most schools hide. Its acceptance list shows the same spread: Harvard, Princeton and MIT at one end, and Cape Fear and Central Piedmont community colleges at the other.',
     scoreTables: [
       {
         title: 'SAT score percentiles',
@@ -856,7 +856,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'The Upper School model',
-        text: '**Academic coaches** support content areas and executive function, while **learning specialists** work one-on-one so students “recognize and utilize their strengths” and become independent learners and self-advocates.',
+        text: '**Academic coaches** help with subjects and with planning, organizing and focus skills. **Learning specialists** work one-on-one so students “recognize and utilize their strengths”. The goal is for students to learn on their own and speak up for themselves.',
       },
       {
         label: 'Where it reaches the application',
@@ -866,7 +866,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     middle: [
       {
         label: 'The list matches the distribution',
-        text: 'The enrolling names are not a top-25 highlight reel — Appalachian State, East Carolina, UNC–Charlotte, High Point, Queens, Liberty, Tampa, Mississippi, Kentucky and Southwest Minnesota State all appear. **55% of the Class of 2026 enrolled at public universities** and 32% stayed in North Carolina.',
+        text: 'The colleges where students enrolled are not just a top-25 highlight reel. Appalachian State, East Carolina, UNC–Charlotte, High Point, Queens, Liberty, Tampa, Mississippi, Kentucky and Southwest Minnesota State all appear. **55% of the Class of 2026 enrolled at public universities**, and 32% stayed in North Carolina.',
       },
       {
         label: 'Community colleges published',
@@ -874,13 +874,13 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'Non-traditional destinations',
-        text: 'About eighteen dedicated arts and music institutions (Berklee enrolling, plus CalArts, Cooper Union, Ringling, Oberlin Conservatory, Manhattan School of Music, RISD, Pratt, SAIC, Parsons in New York and Paris, UNCSA); all three federal service academies with a Naval Academy appointment; and around twenty-one international universities including Oxford, Cambridge, Imperial, UCL, McGill, Trinity College Dublin, Toronto, St Andrews, Edinburgh and Durham.',
+        text: 'There are about eighteen arts and music schools, and Berklee is one where a student enrolled. The list also has CalArts, Cooper Union, Ringling, Oberlin Conservatory, Manhattan School of Music, RISD, Pratt and SAIC. It has Parsons in New York and Paris, and UNCSA. All three federal service academies appear, with a Naval Academy appointment. There are also around twenty-one international universities. They include Oxford, Cambridge, Imperial, UCL, McGill, Trinity College Dublin, Toronto, St Andrews, Edinburgh and Durham.',
       },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'The 2026–27 profile restores a whole-class SAT and ACT middle 50% but labels neither the class nor the number of testers, and drops the 2025–26 edition’s per-quintile medians. The number of testers has never been published in any year — a range without a sample size shows a shape without an N.',
+        text: 'The 2026–27 profile brings back a whole-class SAT and ACT middle 50%. But it does not say which class it covers or how many students took the tests. It also drops the 2025–26 edition’s medians for each fifth. The number of test-takers has never been published in any year. A range without a count shows a shape, but not how many students stand behind it.',
       },
       {
         kind: 'gap',
@@ -897,7 +897,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
 
   verdict: {
     headline:
-      'A deep, stable office and an unusually candid profile — Country Day hands admissions readers more usable context than almost any peer — and the 2026–27 edition restores the whole-class SAT and ACT ranges it had dropped.',
+      'A deep, stable office and an unusually open profile. Country Day gives admissions readers more useful context than almost any peer school. The 2026–27 edition also brings back the whole-class SAT and ACT ranges it had dropped.',
     subhead:
       'The strengths are structural and durable; the gaps are disclosure choices, which is exactly what a tour can put pressure on.',
     points: [
@@ -911,25 +911,25 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'The IB Diploma is a real structural differentiator',
-        text: 'first in North Carolina to offer it, 26 full-diploma seniors in the Class of 2027, 88% five-year pass rate — a second legible path to maximum rigour for students who are not AP-shaped.',
+        text: 'first in North Carolina to offer it, 26 full-diploma seniors in the Class of 2027, 88% five-year pass rate. It is a second clear path to the hardest course load for students whose strengths do not fit the AP model.',
       },
       {
         label: 'The office is deep and stable through a director change',
-        text: 'five counselors, 100+ years of combined experience, 150+ reps a year through a structured Scoir Visits programme — and the July 2026 change has happened: Allison Slater Tate leads, with Catherine Odum, a decade-plus in the office, as Senior Associate, so the new leadership sits on institutional memory rather than a vacuum.',
+        text: 'five counselors, 100+ years of combined experience, and 150+ college reps a year through a structured Scoir Visits programme. The July 2026 change has happened. Allison Slater Tate leads, and Catherine Odum, in the office for a decade-plus, is Senior Associate. So the new leaders build on long experience, not a blank slate.',
       },
       {
         label: 'The timeline starts genuinely early',
-        text: 'Freshman Seminar and Scoir in 9th grade, PreACT and the Charlotte Area Case Studies mock committee in 10th, one-on-one meetings from junior second semester, and an essay workshop in August before senior year.',
+        text: 'Freshman Seminar and Scoir in 9th grade. PreACT and the Charlotte Area Case Studies mock committee in 10th. One-on-one meetings from the second semester of junior year. An essay workshop in August before senior year.',
       },
       {
         label: 'The outcomes are honest across the whole distribution',
-        text: '70 destinations for 141 seniors across 24 states, DC and Canada, 55% public and 45% private, community colleges published alongside Princeton and MIT, 32 students to UNC–Chapel Hill, and a substantial HBCU pipeline with four institutions enrolling.',
+        text: '70 destinations for 141 seniors across 24 states, DC and Canada, 55% public and 45% private. Community colleges are listed alongside Princeton and MIT. 32 students enrolled at UNC–Chapel Hill. And a substantial HBCU pipeline, with students enrolling at four of them.',
       },
     ],
     checklist: [
-      'Your 2026–27 profile prints a 1170–1400 SAT and 26–31 ACT middle 50% beside the Class of 2027 GPA table — which class and how many testers does that cover, and why did the per-fifth medians go?',
+      'Your 2026–27 profile prints a 1170–1400 SAT and 26–31 ACT middle 50% beside the Class of 2027 GPA table. Which class and how many test-takers does that cover? And why were the medians for each fifth dropped?',
       'The Class of 2025 had 2 National Merit Semifinalists where the classes either side had 7 and 6. What happened that year?',
-      'Harvard appears on the 2023–2026 list for the first time in the final edition, and still no Class of 2026 student enrolled at an Ivy. How do you read that, and what does Ivy matriculation look like year over year?',
+      'Harvard appears on the 2023–2026 list for the first time in the final edition, and still no Class of 2026 student enrolled at an Ivy. How do you read that, and what does Ivy enrollment look like year over year?',
       'What exactly does the “34 Morehead-Cain recipients” figure cover — how many years? The Class of 2026 post names exactly one.',
       'How many learning specialists and academic coaches work with Upper School students, what are their credentials, and what is the caseload?',
       'How do you report Honor Council findings and disciplinary actions on the secondary school report?',
