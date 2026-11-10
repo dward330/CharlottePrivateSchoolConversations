@@ -23,15 +23,37 @@ import type {
    Every segment also goes through localizeMoneyText. This is the topic where it
    matters most — the financial-aid report is almost entirely dollar figures, and
    without it a French or Spanish reader sees "3 250 000 $US" in a stat tile and
-   "$3.25M" in the sentence explaining it. Same figure, one page, two shapes. */
+   "$3.25M" in the sentence explaining it. Same figure, one page, two shapes.
+
+   A single-asterisk pair (`*is*`) is emphasis too, rendered as <em>. Cannon's
+   reach box uses one, and six locales carried it over, so without this every
+   one of them showed two literal asterisks. The pattern needs a non-space,
+   non-asterisk character just inside each `*` and no word character just
+   outside, so a footnote mark after a figure (`$22,605* / $24,312*`) is never
+   read as emphasis. */
+const ITALIC = /(?<![\w*])\*(?=[^\s*])([^*\n]+?)(?<=[^\s*])\*(?![\w*])/g
+
+function Italics({ text }: { text: string }) {
+  const parts = text.split(ITALIC)
+  return (
+    <>
+      {parts.map((part, i) =>
+        i % 2 === 1
+          ? <em key={i}>{localizeMoneyText(part)}</em>
+          : localizeMoneyText(part),
+      )}
+    </>
+  )
+}
+
 function RichText({ text }: { text: string }) {
   const parts = text.split(/\*\*(.+?)\*\*/g)
   return (
     <>
       {parts.map((part, i) =>
         i % 2 === 1
-          ? <strong key={i}>{localizeMoneyText(part)}</strong>
-          : localizeMoneyText(part),
+          ? <strong key={i}><Italics text={part} /></strong>
+          : <Italics key={i} text={part} />,
       )}
     </>
   )
@@ -390,7 +412,9 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
           {t('finAid.section', { n: String(index + 1).padStart(2, '0') })}
         </span>
         <h4>{section.title}</h4>
-        {section.note && <span className="fa-section-note">{section.note}</span>}
+        {/* RichText, not raw: a note can carry **bold** (Charlotte Catholic's
+            state-programs note did, and shipped literal asterisks). */}
+        {section.note && <span className="fa-section-note"><RichText text={section.note} /></span>}
         {section.tag && <span className="tag-accent">{section.tag}</span>}
       </div>
 
@@ -483,6 +507,16 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
                 </div>
               ))}
             </div>
+          )}
+          {/* A stats-only section has no chart for its notes to sit under, so
+              they used to be dropped. Eight did not render at all, including
+              the ones saying a tile's ~20% comes from a third-party aggregator
+              rather than the school. They sit directly under the stat strip. */}
+          {stats && !hasFigure && section.figureNote && (
+            <p className="fa-note"><RichText text={section.figureNote} /></p>
+          )}
+          {stats && !hasFigure && section.figureNote2 && (
+            <p className="fa-note"><RichText text={section.figureNote2} /></p>
           )}
           {/* Boxes not already placed in the figure's side rail. */}
           {(timeline || !hasFigure) && boxes && (
