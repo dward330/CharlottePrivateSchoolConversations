@@ -123,8 +123,8 @@
       ]
     },
     {
-      "t": "Legga ogni riga come un dato congiunto: il tasso con cui quell’università ha ammesso i candidati di questa scuola — non il tasso di ammissione complessivo dell’università, né una misura della selettività della scuola stessa. Domande/Ammessi si riferiscono alla coorte di immatricolati dell’autunno 2025; la colonna a 5 anni aggrega l’autunno 2021–2025 come somma(ammessi)/somma(domande), quindi un anno pesante conta più di uno leggero. I valori assoluti accompagnano ogni tasso perché diverse celle sono a una cifra.",
-      "of": "99f2fb2d",
+      "t": "Legga ogni riga come un dato congiunto. È il tasso con cui quell’università ha ammesso i candidati di questa scuola. Non è il tasso di ammissione complessivo dell’università, e non misura quanto sia selettiva la scuola stessa. Domande/Ammessi si riferiscono alla coorte di immatricolati dell’autunno 2025. La colonna a 5 anni aggrega l’autunno 2021–2025 come somma(ammessi)/somma(domande), quindi un anno con molti candidati conta più di un anno con pochi. I valori assoluti stanno accanto a ogni tasso perché diverse celle sono a una cifra.",
+      "of": "4c4dd378",
       "at": [
         "providence-day:ncAdmissions.methodNote",
         "charlotte-latin:ncAdmissions.methodNote",
@@ -349,8 +349,8 @@
       ]
     },
     {
-      "t": "AP Biology, AP Chemistry e AP Physics C **si tengono per due ore al giorno** — un segnale strutturale di rigore anziché un corso post-AP.",
-      "of": "e2197819",
+      "t": "AP Biology, AP Chemistry e AP Physics C **si tengono per due ore al giorno**. Il tempo di lezione in più è un segnale strutturale di quanto siano impegnativi, anche se non sono corsi oltre l’AP.",
+      "of": "a8f08610",
       "at": [
         "providence-day:transcript.depth[3].text"
       ]
@@ -426,8 +426,8 @@
       ]
     },
     {
-      "t": "La scuola non pubblica alcun confronto della severità della propria valutazione rispetto alle scuole pubbliche locali, e nessuna terza parte la verifica. La tabella dei quintili e la politica dell'esame obbligatorio sono la risposta implicita; un confronto diretto sull'inflazione dei voti non è pubblicato.",
-      "of": "e0ca92a5",
+      "t": "La scuola non pubblica alcun confronto tra la severità dei propri voti e quella delle scuole pubbliche locali, e nessun ente esterno verifica i suoi voti. La tabella dei quintili e la regola che rende obbligatori gli esami AP rispondono alla domanda in modo indiretto. Un confronto diretto sull'inflazione dei voti non è pubblicato.",
+      "of": "fbf0569c",
       "at": [
         "providence-day:transcript.flags[1].text"
       ]
@@ -842,8 +842,8 @@
       ]
     },
     {
-      "t": "L'ufficio non pubblica una garanzia che ogni candidatura sia formalmente rivista prima dell'invio, una strategia codificata di Early Decision / Early Action, una posizione dichiarata sul test-optional, né scadenze FAFSA/CSS Profile oltre la programmazione generale “Paying for College”.",
-      "of": "c208b9e3",
+      "t": "L'ufficio lascia quattro cose non pubblicate. Non garantisce che ogni candidatura sia formalmente rivista prima dell'invio. Non dichiara per iscritto una strategia di Early Decision / Early Action né una posizione sulle candidature test-optional. E non fornisce scadenze FAFSA/CSS Profile oltre i suoi incontri generali “Paying for College”.",
+      "of": "8bc85aec",
       "at": [
         "providence-day:counseling.flags[1].text"
       ]
@@ -1127,8 +1127,8 @@
       ]
     },
     {
-      "t": "Due leve agiscono contemporaneamente: lo studente costruisce uno spike verificabile attraverso programmi di diploma primi nella nazione e uno stage obbligatorio, e l'Academic Profile fa sì che la trasparenza della scuola dia garanzia.",
-      "of": "8a4f1383",
+      "t": "Due leve agiscono contemporaneamente. Lo studente costruisce un punto di forza spiccato che le università possono verificare, attraverso programmi di diploma primi nella nazione e uno stage obbligatorio. E l'Academic Profile condivide così tanto da fare da garante per lo studente.",
+      "of": "1e29ff07",
       "at": [
         "providence-day:edge.headline"
       ]
@@ -1155,8 +1155,8 @@
       ]
     },
     {
-      "t": "**Global Studies Diploma** — “il primo del suo genere nel paese”. Inizia in nono anno, richiede una lingua straniera per tutti e quattro gli anni, un percorso di studi a orientamento globale, un'esperienza interculturale, un portfolio individuale e un lungo elaborato di ricerca nel corso conclusivo Global Leadership. **375 diplomati dal 2007**, 23 nella sola Class of 2026.",
-      "of": "87fd399a",
+      "t": "**Global Studies Diploma** — “il primo del suo genere nel paese”. Inizia al 9° anno e richiede una lingua straniera per tutti e quattro gli anni. Richiede inoltre corsi a orientamento globale, un'esperienza interculturale e un portfolio individuale. Il corso conclusivo, Global Leadership, termina con un lungo elaborato di ricerca. **375 diplomati dal 2007**, 23 nella sola Class of 2026.",
+      "of": "2a07e864",
       "at": [
         "providence-day:edge.levers[0].items[0]"
       ]
@@ -1169,8 +1169,8 @@
       ]
     },
     {
-      "t": "**Stage obbligatorio di 30 ore del Senior Project** — un requisito per il diploma, così che ogni diplomato esca con una credenziale esperienziale documentata. In modo notevole la scuola *non* prevede un requisito di servizio alla comunità, deliberatamente.",
-      "of": "ae0204f8",
+      "t": "**Stage obbligatorio di 30 ore del Senior Project** — ogni studente deve completarlo per diplomarsi, così ogni diplomato esce con un'esperienza di lavoro documentata. La scuola deliberatamente *non* prevede un requisito di servizio alla comunità.",
+      "of": "6ef00ec7",
       "at": [
         "providence-day:edge.levers[0].items[2]"
       ]
@@ -1183,15 +1183,15 @@
       ]
     },
     {
-      "t": "L'Entrepreneurial Studies Diploma è stato annunciato ma i suoi requisiti di corso, il progetto conclusivo e la struttura dello stage non sono pubblicati — le richieste vengono indirizzate a un indirizzo email. Da confrontare con Global Studies, che pubblica sia i requisiti sia un flusso di 375 diplomati.",
-      "of": "88acc81f",
+      "t": "La scuola ha annunciato un Entrepreneurial Studies Diploma. Ma i suoi requisiti di corso, il progetto conclusivo e la struttura dello stage non sono pubblicati, e le domande vanno inviate a un indirizzo email. Global Studies, invece, pubblica sia i requisiti sia il numero dei suoi 375 diplomati.",
+      "of": "5e00f5af",
       "at": [
         "providence-day:edge.levers[0].note"
       ]
     },
     {
-      "t": "Leva 2 — La leva della scuola",
-      "of": "a6679ead",
+      "t": "Leva 2 — Ciò che porta la scuola",
+      "of": "c1ec92e7",
       "at": [
         "providence-day:edge.levers[1].title",
         "charlotte-latin:edge.levers[1].title",
@@ -1204,29 +1204,29 @@
       ]
     },
     {
-      "t": "**L'Academic Profile come strumento** — un documento insolitamente trasparente, ed è proprio questa la leva. Offre spontaneamente una distribuzione AP completa per singola materia su 29 materie, una tabella dei quintili con la media SAT e ACT per ciascun quinto, norme esplicite sul carico di AP, e la formula di ponderazione con i voti non ponderati sul transcript. Trasforma una politica di assenza di graduatoria da svantaggio in contesto.",
-      "of": "a44a873f",
+      "t": "**L'Academic Profile come strumento** — condivide molto più della maggior parte dei profili scolastici, ed è proprio questa trasparenza ciò che porta la scuola. Fornisce la distribuzione completa dei punteggi AP per ciascuna di 29 materie. La sua tabella dei quintili mostra la media SAT e ACT per ciascun quinto della classe. Indica il numero massimo di AP che uno studente può seguire in ogni anno. Fornisce anche la formula di ponderazione, con i voti non ponderati sul transcript. Così l'assenza di graduatoria passa da punto debole a contesto utile.",
+      "of": "cdd4c903",
       "at": [
         "providence-day:edge.levers[1].items[0]"
       ]
     },
     {
-      "t": "**Segnalazione di integrità** — la scuola dichiara di conformarsi alla **NACAC Guide to Ethical Practice** e di “reports all student behavioral probations, suspensions and expulsions through time of graduation” a qualsiasi università che ne faccia richiesta, con il supporto di un Honor Council di otto studenti, due per classe, più due docenti eletti e un terzo nominato dall'Head of School. La trasparenza guadagna la fiducia di chi legge, e tale credibilità va a beneficio di ogni candidato.",
-      "of": "57768173",
+      "t": "**Segnalazione di integrità** — la scuola dichiara di seguire la **NACAC Guide to Ethical Practice**. Inoltre “reports all student behavioral probations, suspensions and expulsions through time of graduation” a qualsiasi università che ne faccia richiesta. Un Honor Council gestito dagli studenti la sostiene. È composto da otto studenti, due per classe, più due docenti eletti e un terzo nominato dall'Head of School. Questa trasparenza guadagna la fiducia di chi legge le candidature, e ogni candidato ne trae beneficio.",
+      "of": "78406d10",
       "at": [
         "providence-day:edge.levers[1].items[1]"
       ]
     },
     {
-      "t": "**Pipeline ricorrenti, numerate anziché sottintese** — la borsa di studio della Class of 2025 è stata la **18ª Morehead-Cain** di Providence Day, una pipeline profonda decenni verso il riconoscimento di merito più selettivo del North Carolina. Le istituzioni in grassetto lungo l'elenco funzionano come la mappa di fatto delle pipeline, e quattro delle cinque accademie militari federali compaiono.",
-      "of": "12fc0f92",
+      "t": "**Pipeline ricorrenti, numerate anziché sottintese** — la borsa di studio della Class of 2025 è stata la **18ª Morehead-Cain** di Providence Day. È una tradizione che risale a decenni fa con il riconoscimento di merito più selettivo del North Carolina. Le università in grassetto lungo l'elenco funzionano come una mappa pratica delle pipeline della scuola. Compaiono quattro delle cinque accademie militari federali.",
+      "of": "c43ac96f",
       "at": [
         "providence-day:edge.levers[1].items[2]"
       ]
     },
     {
-      "t": "**Relazioni bidirezionali e affiliazioni** — NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** e il College Board, accreditata da SAIS e SACS, più Global Online Academy, e l'**81%** dei docenti dell'Upper School possiede un titolo post-laurea. Circa 150 rappresentanti ospitati a fronte di oltre 50 campus visitati costituiscono una genuina cadenza bidirezionale, e una profonda pipeline verso Regno Unito/Europa (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Bocconi, Toronto) si sposa con l'identità di Global Studies.",
-      "of": "578dfa1b",
+      "t": "**Relazioni bidirezionali e affiliazioni** — la scuola è membro di NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** e del College Board, oltre a Global Online Academy. È accreditata da SAIS e SACS, e l'**81%** dei docenti dell'Upper School possiede un titolo post-laurea. La scuola ha ospitato ~150 rappresentanti universitari e ha visitato oltre 50 campus, un vero scambio bidirezionale. Una profonda pipeline verso Regno Unito/Europa (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Bocconi, Toronto) si sposa con il suo orientamento Global Studies.",
+      "of": "4cc93db9",
       "at": [
         "providence-day:edge.levers[1].items[3]"
       ]
@@ -1239,8 +1239,8 @@
       ]
     },
     {
-      "t": "È anche la tabella più analiticamente onesta che la scuola stampi: un divario SAT di 338 punti tra il quinto superiore e quello inferiore mostra una classe ampia e accademicamente eterogenea anziché uniformemente d'élite.",
-      "of": "b808d182",
+      "t": "È anche la tabella più rivelatrice e onesta che la scuola stampi. Un divario SAT di 338 punti tra il quinto superiore e quello inferiore mostra una classe ampia con studenti molto diversi tra loro, non una classe d'élite dall'inizio alla fine.",
+      "of": "279cd0f2",
       "at": [
         "providence-day:wholeClass.subhead"
       ]
@@ -1295,8 +1295,8 @@
       ]
     },
     {
-      "t": "Il profilo pubblica solo la media e il 50% centrale. Gli estremi del 50% centrale SONO il 25° e il 75° percentile, quindi quelle colonne sono cifre reali della scuola; il 10°, il 50° e il 90° sono mostrati come “—” anziché modellati, perché la scuola non li pubblica.",
-      "of": "eb914c6b",
+      "t": "Il profilo pubblica solo la media e il 50% centrale. Gli estremi del 50% centrale SONO il 25° e il 75° percentile, quindi quelle colonne sono cifre reali della scuola. Il 10°, il 50° e il 90° sono mostrati come “—” anziché stimati, perché la scuola non li pubblica.",
+      "of": "82365903",
       "at": [
         "providence-day:wholeClass.scoreTables[0].note"
       ]
@@ -1471,8 +1471,8 @@
       ]
     },
     {
-      "t": "Tutti e cinque i quintili sono cifre pubblicate dalla scuola stessa — nulla qui è interpolato. Si osservi la distribuzione: 4.507 → 3.204 è un divario di GPA ponderata di 1.303 e 1454 → 1116 un divario SAT di 338 punti. Poiché l'AP aggiunge un punto intero, un quintile centrale di 4.017 non corrisponde a un certificato dei voti non ponderato tutto di A — una parte è il peso dei corsi honours e AP. Si noti che i quintili descrivono la Class of 2027 mentre i punteggi dei test qui sopra descrivono la Class of 2026 — coorti diverse, quindi non vanno mescolate.",
-      "of": "5f8f8f96",
+      "t": "Tutti e cinque i quintili sono cifre pubblicate dalla scuola stessa — nulla qui è stimato. Si osservi la distribuzione: 4.507 → 3.204 è un divario di GPA ponderata di 1.303 e 1454 → 1116 un divario SAT di 338 punti. Poiché l'AP aggiunge un punto intero, un quinto centrale di 4.017 non corrisponde a un certificato dei voti non ponderato tutto di A — una parte è il peso dei corsi honours e AP. Si noti che i quintili descrivono la Class of 2027 mentre i punteggi dei test qui sopra descrivono la Class of 2026 — classi diverse, quindi non vanno mescolate.",
+      "of": "b9bdba73",
       "at": [
         "providence-day:wholeClass.gpaNote"
       ]
@@ -1514,8 +1514,8 @@
       ]
     },
     {
-      "t": "Si tratta di un modello **consultivo**, non di un programma strutturato per le differenze di apprendimento — non esiste un percorso LD pubblicato, un'aula risorse o una struttura di corsi con accomodamenti. È presente la terapia occupazionale in sede; i servizi di logopedia non sono pubblicati.",
-      "of": "59b779cd",
+      "t": "Si tratta di un modello **consultivo**. Non è un programma strutturato per studenti con differenze di apprendimento. Non è pubblicato alcun percorso LD, aula risorse o corso con accomodamenti. È presente la terapia occupazionale in sede, ma i servizi di logopedia non sono pubblicati.",
+      "of": "a46a7b99",
       "at": [
         "providence-day:wholeClass.support[2].text"
       ]
@@ -1529,8 +1529,8 @@
       ]
     },
     {
-      "t": "L'elenco di 383 istituzioni spazia da Williams, MIT e Harvard fino a Catawba, Brevard, Lees-McRae, Pfeiffer e Central Piedmont Community College — e, elemento cruciale, molte opzioni accessibili sono in **grassetto** come sedi con iscritti: App State, East Carolina, UNC–Charlotte, UNC–Greensboro, Western Carolina, High Point, Wingate, Gardner-Webb, Belmont Abbey e Central Piedmont. Il quarto e il quinto quintile vengono effettivamente collocati, non solo elencati.",
-      "of": "1eb94ae9",
+      "t": "L'elenco di 383 istituzioni spazia da Williams, MIT e Harvard fino a Catawba, Brevard, Lees-McRae, Pfeiffer e Central Piedmont Community College. Altrettanto importante, molte opzioni meno selettive sono in **grassetto**, il che significa che vi si sono iscritti degli studenti. Tra queste App State, East Carolina, UNC–Charlotte, UNC–Greensboro, Western Carolina, High Point, Wingate, Gardner-Webb, Belmont Abbey e Central Piedmont. Quindi gli studenti del quarto e del quinto quintile si iscrivono davvero, non compaiono solo nell'elenco.",
+      "of": "495025d6",
       "at": [
         "providence-day:wholeClass.middle[0].text"
       ]
@@ -1558,15 +1558,15 @@
       ]
     },
     {
-      "t": "Conservatori (Berklee, RISD, Parsons, SAIC, SCAD, School of Visual Arts, UNCSA), quattro delle cinque accademie federali di servizio, e un ampio elenco internazionale (Oxford, St Andrews, Edinburgh, UCL, LSE, King’s College London, Trinity Dublin, Leiden, Amsterdam, Bocconi, Toronto).",
-      "of": "4a739488",
+      "t": "Conservatori: Berklee, RISD, Parsons, SAIC, SCAD, School of Visual Arts e UNCSA. Quattro delle cinque accademie federali di servizio. Un ampio elenco internazionale: Oxford, St Andrews, Edinburgh, UCL, LSE, King’s College London, Trinity Dublin, Leiden, Amsterdam, Bocconi e Toronto.",
+      "of": "deb7c020",
       "at": [
         "providence-day:wholeClass.middle[2].text"
       ]
     },
     {
-      "t": "Non è pubblicata alcuna ripartizione degli esiti PER quintile — la tabella fornisce gli input (GPA, SAT, ACT per ciascun quinto) ma non dice mai dove il quinto centrale e quello inferiore si iscrivano effettivamente. È la singola lacuna più grande in un profilo altrimenti insolitamente trasparente.",
-      "of": "42d06012",
+      "t": "Non è pubblicata alcuna ripartizione degli esiti PER quintile. La tabella fornisce gli input (GPA, SAT, ACT per ciascun quinto) ma non dice mai dove il quinto centrale e quello inferiore si iscrivano effettivamente. È la singola lacuna più grande in un profilo che per il resto condivide insolitamente molto.",
+      "of": "48138159",
       "at": [
         "providence-day:wholeClass.flags[0].text"
       ]
@@ -1607,8 +1607,8 @@
       ]
     },
     {
-      "t": "1,282 esami con il 93% che ottiene 3+ e il 76% a 4–5, e il 94% dei 497 studenti che li hanno sostenuti ha ottenuto 3 o più — con la distribuzione completa per materia stampata, punti deboli inclusi. Poiché l'esame è obbligatorio, quei dati poggiano su un denominatore non autoselezionato.",
-      "of": "9ab45b49",
+      "t": "1,282 esami, con il 93% che ottiene 3+ e il 76% a 4–5. E il 94% dei 497 studenti che li hanno sostenuti ha ottenuto 3 o più. La distribuzione completa dei punteggi per materia è stampata, punti deboli inclusi. Poiché l'esame è obbligatorio, quei dati contano ogni studente AP, non solo quelli che hanno scelto di sostenerlo.",
+      "of": "0b5e90cb",
       "at": [
         "providence-day:verdict.points[1].text"
       ]
@@ -1818,8 +1818,8 @@
       ]
     },
     {
-      "t": "Il profilo riporta anche un avvertimento insolitamente franco sulla propria collocazione in matematica, e la decisione, presa nella primavera del 2026, di ponderare +0.5 i corsi Advanced di matematica e scienze, applicata retroattivamente a partire dalla Class of 2027.",
-      "of": "34d0877e",
+      "t": "Il profilo riporta anche un avvertimento insolitamente franco sulla propria collocazione in matematica. E riferisce la decisione, presa nella primavera del 2026, di ponderare +0.5 i corsi Advanced di matematica e scienze. La modifica vale anche per i voti già ottenuti, a partire dalla Class of 2027.",
+      "of": "ae8a4c0d",
       "at": [
         "charlotte-latin:transcript.subhead"
       ]
@@ -1937,8 +1937,8 @@
       ]
     },
     {
-      "t": "**Honors Java Data Structures** si colloca oltre l'AP CS A, e **AP Cybersecurity** e **AP Networking Fundamentals** sono ora elencati come due AP distinti — entrambi offerte del College Board molto recenti e un vero elemento di differenziazione.",
-      "of": "47f3804a",
+      "t": "**Honors Java Data Structures** va oltre l'AP CS A. **AP Cybersecurity** e **AP Networking Fundamentals** sono ora elencati come due AP distinti. Sono entrambi corsi del College Board molto recenti, e distinguono Latin dalle altre scuole.",
+      "of": "bca3f30e",
       "at": [
         "charlotte-latin:transcript.depth[1].text"
       ]
@@ -1965,8 +1965,8 @@
       ]
     },
     {
-      "t": "Interdisciplinare",
-      "of": "67789faa",
+      "t": "Tra le materie",
+      "of": "18cb3b65",
       "at": [
         "charlotte-latin:transcript.depth[4].label"
       ]
@@ -1986,8 +1986,8 @@
       ]
     },
     {
-      "t": "Una scala ponderata su 4 punti (A+ 4.33, A 4.00 per 93–97, fino a F 0.00) che assegna **un punto qualità aggiuntivo** per Honors e AP e **mezzo punto per ogni corso Advanced**, eccetto Advanced Functions with Trigonometry. La scala era assente da ogni edizione successiva al 2017–18 ed **è tornata nel 2026–27**.",
-      "of": "86672619",
+      "t": "Una scala ponderata su 4 punti (A+ 4.33, A 4.00 per 93–97, fino a F 0.00). Assegna **un punto qualità aggiuntivo** per Honors e AP. Assegna **mezzo punto per ogni corso Advanced**, eccetto Advanced Functions with Trigonometry. La scala era assente da ogni edizione successiva al 2017–18 ed **è tornata nel 2026–27**.",
+      "of": "789acf4d",
       "at": [
         "charlotte-latin:transcript.trust[0].text"
       ]
@@ -2306,15 +2306,15 @@
       ]
     },
     {
-      "t": "Quattro classi di diplomati hanno prodotto ammissioni in 337 istituzioni; 132 recano l'asterisco di immatricolazione dell'elenco più recente — almeno uno studente di Latin vi si è iscritto nel 2024–26.",
-      "of": "8b914e3b",
+      "t": "Quattro classi di diplomati hanno ottenuto ammissioni in 337 istituzioni. Nell'elenco più recente, 132 recano un asterisco che indica che almeno uno studente di Latin vi si è iscritto nel 2024–26.",
+      "of": "21937a07",
       "at": [
         "charlotte-latin:outcomes.headline"
       ]
     },
     {
-      "t": "Il dato più sorprendente è l'ampiezza: compaiono 61 delle 68 università Power Four, con le assenze di Minnesota, Nebraska, BYU, UCF, Houston, Kansas State e UT Austin (gli elenchi scrivono solo “University of Texas”), e sette delle otto Ivy — Columbia è l'unica che manca.",
-      "of": "94714d13",
+      "t": "Il dato più sorprendente è l'ampiezza. Compaiono 61 delle 68 università Power Four. Mancano Minnesota, Nebraska, BYU, UCF, Houston, Kansas State e UT Austin (gli elenchi scrivono solo “University of Texas”). Compaiono sette delle otto Ivy, e Columbia è l'unica che manca.",
+      "of": "298ccbd2",
       "at": [
         "charlotte-latin:outcomes.subhead"
       ]
@@ -2341,8 +2341,8 @@
       ]
     },
     {
-      "t": "recano l'asterisco di immatricolazione 2024–26",
-      "of": "ffc7ef18",
+      "t": "recano l'asterisco di iscrizione 2024–26",
+      "of": "50098e06",
       "at": [
         "charlotte-latin:outcomes.stats[1].label"
       ]
@@ -2447,15 +2447,15 @@
       ]
     },
     {
-      "t": "Il totale in dollari di merito ha smesso di essere pubblicato dopo la Class of 2023 — le presentazioni del 2024, 2025 e 2026 non riportano alcuna cifra, e non è chiaro se la scuola abbia smesso di raccoglierla o di pubblicarla. Il Morehead-Cain si riferisce alla Class of 2022, al di fuori della finestra di questo elenco. QuestBridge, Robertson, Jefferson, Belk, Stamps e Coca-Cola non sono stati trovati per alcuna classe recente; Robertson, Jefferson e Belk sono attestati solo in un paragrafo storico del 2017–18 e non dovrebbero essere letti come pipeline attuali. Nemmeno il profilo 2026–27 riporta cifre sul merito.",
-      "of": "b90f32e9",
+      "t": "La scuola ha smesso di pubblicare il totale in dollari delle borse di merito dopo la Class of 2023. Le presentazioni del 2024, 2025 e 2026 non riportano alcuna cifra. Non è chiaro se la scuola abbia smesso di raccogliere la cifra o solo di pubblicarla. Il Morehead-Cain appartiene alla Class of 2022, al di fuori della finestra di questo elenco. QuestBridge, Robertson, Jefferson, Belk, Stamps e Coca-Cola non sono stati trovati per alcuna classe recente. Robertson, Jefferson e Belk compaiono solo in un paragrafo storico del 2017–18, quindi non vanno letti come pipeline attuali. Nemmeno il profilo 2026–27 riporta cifre sul merito.",
+      "of": "f621067a",
       "at": [
         "charlotte-latin:outcomes.scholarshipsNote"
       ]
     },
     {
-      "t": "Gli elementi distintivi di Latin sono ristretti, profondi e genuinamente d'élite in due ambiti — un programma di dibattito tra i primi 20 a livello nazionale e un Fab Lab di stirpe MIT — e la scuola lascia l'assemblaggio di uno spike quasi interamente allo studente.",
-      "of": "b91f6e00",
+      "t": "I punti di forza di Latin sono ristretti e profondi, e davvero d'élite in due ambiti: un programma di dibattito tra i primi 20 a livello nazionale e un Fab Lab che segue il modello del MIT. La scuola lascia quasi interamente allo studente il compito di costruire un punto di forza spiccato.",
+      "of": "ad3a8a7a",
       "at": [
         "charlotte-latin:edge.headline"
       ]
@@ -2482,8 +2482,8 @@
       ]
     },
     {
-      "t": "**Innovation & Design / Fab Lab** — una scuola Fab Lab ufficiale nella stirpe del **Center for Bits and Atoms del MIT**, e un nodo attivo della Fab Academy dal 2016. L'ingegneria viene insegnata qui dal 1989; il laboratorio gestisce stampa 3D, fresatura CNC, produzione di circuiti, taglio laser e fresatura di precisione. I corsi dell'Upper School sono insegnati “come uno studio professionale di ingegneria del software”, con studenti che presentano davanti a panel esterni di esperti del settore.",
-      "of": "73d2d30b",
+      "t": "**Innovation & Design / Fab Lab** — una scuola Fab Lab ufficiale che risale al **Center for Bits and Atoms del MIT**. È una sede attiva della Fab Academy dal 2016. L'ingegneria viene insegnata qui dal 1989. Il laboratorio gestisce stampa 3D, fresatura CNC, produzione di circuiti, taglio laser e fresatura di precisione. I corsi dell'Upper School sono insegnati “come uno studio professionale di ingegneria del software”. Gli studenti presentano davanti a panel esterni di esperti del settore.",
+      "of": "e6ad7be2",
       "at": [
         "charlotte-latin:edge.levers[0].items[2]"
       ]
@@ -2496,22 +2496,22 @@
       ]
     },
     {
-      "t": "**Gli stage esistono davvero**, contrariamente a un'ipotesi comune: un **Biomedical Internship Program** che colloca gli studenti dell'ultimo anno presso Atrium Health è integrato nel corso Advanced Topics in Engineering, insieme a un elettivo Student Internship Program.",
-      "of": "151e6e4f",
+      "t": "**Gli stage esistono davvero**, contrariamente a un'opinione diffusa. Un **Biomedical Internship Program** colloca gli studenti dell'ultimo anno presso Atrium Health nell'ambito del corso Advanced Topics in Engineering. C'è anche un elettivo Student Internship Program.",
+      "of": "275eb0b1",
       "at": [
         "charlotte-latin:edge.levers[0].items[4]"
       ]
     },
     {
-      "t": "Non esiste ancora alcuno stage, capstone, progetto finale, studio indipendente o requisito di ricerca a livello di scuola obbligatorio — i requisiti di diploma sono puramente basati sui crediti, e non c'è alcun certificato o diploma in studi globali. Il supporto per il reclutamento atletico e per le arti all'università è costituito solo da programmi informativi: non è pubblicato alcun coordinatore del reclutamento nominato, servizio di highlight-film, percorso di preparazione al conservatorio o revisione di portfolio.",
-      "of": "31a9fb33",
+      "t": "Non esiste ancora alcuno stage, capstone, progetto finale, studio indipendente o progetto di ricerca a livello di scuola obbligatorio. Per diplomarsi, a uno studente servono solo i crediti dei corsi richiesti. Non c'è alcun certificato o diploma in studi globali. Il supporto per il reclutamento sportivo e per le arti all'università si limita a fornire informazioni. Non è pubblicato alcun coordinatore del reclutamento nominato, servizio di highlight-film, percorso di preparazione al conservatorio o revisione di portfolio.",
+      "of": "fceefa64",
       "at": [
         "charlotte-latin:edge.levers[0].note"
       ]
     },
     {
-      "t": "**Lo School Profile torna ad argomentare con i numeri.** È l'unico documento che ogni ufficio ammissioni legge, e l'edizione 2026–27 ripristina la scala di valutazione, la dichiarazione sulla ponderazione e la politica sulla graduatoria di classe, e aggiunge i risultati AP e le medie SAT e ACT dopo anni senza. Omette ancora il codice CEEB, una percentuale di immatricolazione quadriennale e i National Merit Finalists.",
-      "of": "79ed802e",
+      "t": "**Lo School Profile torna ad argomentare con i numeri.** È l'unico documento che ogni ufficio ammissioni legge. L'edizione 2026–27 ripristina la scala di valutazione, la dichiarazione sulla ponderazione e la politica sulla graduatoria di classe. Aggiunge anche i risultati AP e le medie SAT e ACT dopo anni senza. Omette ancora il codice CEEB, la quota di diplomati iscritti a università quadriennali e i National Merit Finalists.",
+      "of": "474a51c0",
       "at": [
         "charlotte-latin:edge.levers[1].items[0]"
       ]
@@ -2524,15 +2524,15 @@
       ]
     },
     {
-      "t": "**Anche la storia delle borse di studio nominate è stata cancellata.** L'edizione 2017–18 comunicava ai lettori che gli studenti della scuola avevano vinto le borse Morehead-Cain, Robertson, B.N. Duke, Jefferson, Belk, Bryan, Chancellor’s, Danforth e Johnson, e forniva l'ampiezza di candidature e immatricolazioni. Non una di quelle frasi sopravvive, e l'edizione 2026–27 non le ripristina.",
-      "of": "d228ad24",
+      "t": "**Anche la storia delle borse di studio nominate è stata cancellata.** L'edizione 2017–18 comunicava ai lettori che gli studenti della scuola avevano vinto le borse Morehead-Cain, Robertson, B.N. Duke, Jefferson, Belk, Bryan, Chancellor’s, Danforth e Johnson. Mostrava anche quanto ampiamente gli studenti presentassero domanda e si iscrivessero. Non una di quelle frasi sopravvive, e l'edizione 2026–27 non le ripristina.",
+      "of": "f7d00d52",
       "at": [
         "charlotte-latin:edge.levers[1].items[2]"
       ]
     },
     {
-      "t": "**Ciò che resta è genuino ed esterno** — il riconoscimento NSDA, il nodo Fab Academy e la selezione da parte della Malone Family Foundation sono tutte convalide di terze parti che non dipendono dal profilo.",
-      "of": "0a0e80f5",
+      "t": "**Ciò che resta è genuino ed esterno** — il riconoscimento NSDA, la sede Fab Academy e la selezione da parte della Malone Family Foundation. Tutti e tre provengono da enti esterni e non dipendono dal profilo.",
+      "of": "4c129d13",
       "at": [
         "charlotte-latin:edge.levers[1].items[3]"
       ]
@@ -2559,8 +2559,8 @@
       ]
     },
     {
-      "t": "Le cifre sono medie, non distribuzioni. Un lettore può ora collocare un punteggio rispetto alla media della classe, ma non rispetto alla dispersione — non c'è una fascia del 50% centrale né la quota della classe sopra una qualsiasi soglia.",
-      "of": "a48c878b",
+      "t": "Le cifre sono medie, non distribuzioni. Un lettore può ora confrontare un punteggio con la media della classe, ma non con la dispersione. Non c'è una fascia del 50% centrale né la quota della classe sopra una qualsiasi soglia.",
+      "of": "6144de05",
       "at": [
         "charlotte-latin:wholeClass.subhead"
       ]
@@ -2622,8 +2622,8 @@
       ]
     },
     {
-      "t": "Testualmente: nell'Upper School il programma “diventa più un **modello consultivo e di coaching**”, lavorando sulle funzioni esecutive — organizzazione, gestione del tempo, strategie di studio. L'LR della Lower School è esplicitamente di recupero; quello dell'Upper School no. Decisivo per una famiglia il cui studente di 9–12 necessita di un intervento diretto.",
-      "of": "e7545b3a",
+      "t": "Con le parole della scuola, nell'Upper School il programma “diventa più un **modello consultivo e di coaching**”. Lavora su abilità come organizzazione, gestione del tempo e strategie di studio. L'LR (Learning Resources) della Lower School è esplicitamente di recupero, ma quello dell'Upper School no. Questo conta soprattutto per una famiglia il cui studente di 9–12 necessita di un aiuto diretto.",
+      "of": "0e805424",
       "at": [
         "charlotte-latin:wholeClass.support[1].text"
       ]
@@ -2636,8 +2636,8 @@
       ]
     },
     {
-      "t": "Gli studenti di Middle e Upper School che ne hanno diritto dispongono di un **504 Educational Plan**, con test aggiornati entro i tre anni; tra i servizi tipici figurano il tempo aggiuntivo e lo svolgimento delle prove in un ambiente separato. È importante notare che **i costi delle sessioni non sono inclusi nella retta e vengono fatturati per singola sessione ogni mese**.",
-      "of": "e1eeae20",
+      "t": "Gli studenti di Middle e Upper School che ne hanno diritto dispongono di un **504 Educational Plan**. I loro test non devono avere più di tre anni. Tra gli accomodamenti tipici figurano il tempo aggiuntivo e lo svolgimento delle prove in un ambiente separato. È importante notare che **i costi delle sessioni non sono inclusi nella retta e vengono fatturati per singola sessione ogni mese**.",
+      "of": "f85643cd",
       "at": [
         "charlotte-latin:wholeClass.support[2].text"
       ]
@@ -2650,8 +2650,8 @@
       ]
     },
     {
-      "t": "L'Office of Academic Transition and Student Success è un **ufficio dedicato alla transizione e all'appartenenza** per gli studenti nuovi alle scuole indipendenti, in particolare provenienti da contesti sottorappresentati. La sua pagina non menziona mai le differenze di apprendimento, i piani 504 o i servizi di supporto. Uno studente con dislessia che non è né nuovo a Latin né proveniente da un contesto sottorappresentato ricade interamente al di fuori della popolazione dichiarata.",
-      "of": "9c423b75",
+      "t": "L'Office of Academic Transition and Student Success è un **ufficio dedicato alla transizione e all'appartenenza**. Si rivolge agli studenti nuovi alle scuole indipendenti, in particolare a quelli provenienti da contesti sottorappresentati. La sua pagina non menziona mai le differenze di apprendimento, i piani 504 o gli accomodamenti. Si prenda uno studente con dislessia che non è nuovo a Latin e non proviene da un contesto sottorappresentato. Quello studente ricade interamente al di fuori del gruppo a cui l'ufficio dichiara di rivolgersi.",
+      "of": "c95c9cf9",
       "at": [
         "charlotte-latin:wholeClass.support[3].text"
       ]
@@ -2664,8 +2664,8 @@
       ]
     },
     {
-      "t": "Nel penultimo anno della Class of 2027, 524 degli 833 voti di corso (63%) erano nella fascia A, e 457 su 806 (57%) nel secondo anno — secondo il conteggio dalle tabelle del profilo stesso, che omettono i voti inferiori a C−. Oltre ai voti, l'elenco delle 337 istituzioni è effettivamente ampio, spaziando da Harvard, MIT e Stanford fino a Belhaven, Brevard, Catawba, Carson-Newman, Lenoir-Rhyne, Methodist, Saint Leo, Trevecca Nazarene, Wingate e Johnson & Wales, molte contrassegnate da asterischi di immatricolazione.",
-      "of": "b4355b5e",
+      "t": "Nel penultimo anno della Class of 2027, 524 degli 833 voti di corso (63%) erano nella fascia A. Nel secondo anno erano 457 su 806 (57%). Questi conteggi provengono dalle tabelle del profilo stesso, che omettono i voti inferiori a C−. Oltre ai voti, l'elenco delle 337 istituzioni è davvero ampio. Spazia da Harvard, MIT e Stanford fino a Belhaven, Brevard, Catawba, Carson-Newman, Lenoir-Rhyne, Methodist, Saint Leo, Trevecca Nazarene, Wingate e Johnson & Wales. Molte recano l'asterisco che indica che uno studente vi si è iscritto.",
+      "of": "c8fb9841",
       "at": [
         "charlotte-latin:wholeClass.middle[0].text"
       ]
@@ -2678,8 +2678,8 @@
       ]
     },
     {
-      "t": "Nove campus del sistema UNC recano un asterisco di immatricolazione 2024–26 — Chapel Hill, NC State, Charlotte, Greensboro, Wilmington, Asheville, la School of the Arts, East Carolina e Appalachian State — così Latin colloca visibilmente studenti lungo l'intera fascia e non soltanto ai vertici.",
-      "of": "5936881a",
+      "t": "Nove campus del sistema UNC recano un asterisco di iscrizione 2024–26: Chapel Hill, NC State, Charlotte, Greensboro, Wilmington, Asheville, la School of the Arts, East Carolina e Appalachian State. Quindi gli studenti di Latin si iscrivono chiaramente lungo l'intera gamma di campus, non soltanto in quelli più selettivi.",
+      "of": "2bc6ea40",
       "at": [
         "charlotte-latin:wholeClass.middle[1].text"
       ]
@@ -2694,8 +2694,8 @@
       ]
     },
     {
-      "t": "Negli elenchi compaiono accademie militari (la Naval Academy e The Citadel, più una nomina alla Air Force Academy nel 2025), conservatori e istituti artistici, e università internazionali tra cui St Andrews, UCL, King’s, Imperial, Leiden, Amsterdam, Queensland, Toronto, McGill e UBC.",
-      "of": "e0192008",
+      "t": "Negli elenchi compaiono accademie militari: la Naval Academy e The Citadel, più una nomina alla Air Force Academy nel 2025. Compaiono anche conservatori e istituti artistici. E università internazionali, tra cui St Andrews, UCL, King’s, Imperial, Leiden, Amsterdam, Queensland, Toronto, McGill e UBC.",
+      "of": "fac25bd5",
       "at": [
         "charlotte-latin:wholeClass.middle[2].text"
       ]
@@ -2792,8 +2792,8 @@
       ]
     },
     {
-      "t": "337 istituzioni su quattro classi, con 61 delle 68 università Power Four rappresentate, e asterischi di immatricolazione distribuiti dalle Ivy fino alla fascia regionale.",
-      "of": "a22536a9",
+      "t": "337 istituzioni su quattro classi, con 61 delle 68 università Power Four rappresentate. Gli asterischi di iscrizione vanno dalle Ivy fino ai college regionali.",
+      "of": "962f32be",
       "at": [
         "charlotte-latin:verdict.points[4].text"
       ]
@@ -2904,8 +2904,8 @@
       ]
     },
     {
-      "t": "Poiché gli esami sono obbligatori, i conteggi di esami, studenti e AP Scholars pubblicati nel profilo descrivono l’intera coorte AP e non solo i candidati più sicuri. Quattro crediti di Studi Biblici sono il tratto distintivo del certificato dei voti.",
-      "of": "680fb673",
+      "t": "Poiché gli esami sono obbligatori, i conteggi di esami, studenti e AP Scholars pubblicati nel profilo descrivono ogni studente AP, non solo i candidati più sicuri. Il certificato dei voti si distingue soprattutto per i suoi quattro crediti di Studi Biblici.",
+      "of": "9a1dc894",
       "at": [
         "charlotte-christian:transcript.subhead"
       ]
@@ -2996,15 +2996,15 @@
       ]
     },
     {
-      "t": "Tutte e tre le cifre National Merit sono finestre mobili di 15 anni, per questo il numero di Finalisti può scendere da 16 a 14 a 12 mentre i Commended passano da 45 a 48 a 46 — gli anni più vecchi e forti escono dalla finestra. È aritmeticamente possibile e non un errore, ma la scuola non lo spiega, e nessuna edizione pubblica un registro per anno di diploma.",
-      "of": "2f59435b",
+      "t": "Tutte e tre le cifre National Merit coprono una finestra mobile di 15 anni. Per questo il numero di Finalisti può scendere da 16 a 14 a 12 mentre i Commended passano da 45 a 48 a 46: gli anni più vecchi e forti escono dalla finestra. L'aritmetica lo consente, quindi non è necessariamente un errore. Ma la scuola non lo spiega, e nessuna edizione pubblica un conteggio per ogni anno di diploma.",
+      "of": "0bd29bee",
       "at": [
         "charlotte-christian:transcript.meritNote"
       ]
     },
     {
-      "t": "**Calculus III** rappresenta un'autentica profondità post-AP — funzioni a più variabili e a valori vettoriali, curvatura, integrali doppi e tripli, analisi vettoriale ed equazioni differenziali. Richiede un 93% in AP Calculus AB oppure il completamento di BC.",
-      "of": "bf2be8a5",
+      "t": "**Calculus III** è un vero corso oltre l'AP. Tratta funzioni a più variabili e a valori vettoriali, curvatura, integrali doppi e tripli, analisi vettoriale ed equazioni differenziali. Richiede un 93% in AP Calculus AB oppure il completamento di BC.",
+      "of": "2edc627a",
       "at": [
         "charlotte-christian:transcript.depth[0].text"
       ]
@@ -3080,8 +3080,8 @@
       ]
     },
     {
-      "t": "Il diploma richiede **27 crediti, di cui 4 di Studi Biblici**, più un credito di January Term, mezzo credito di Junior Seminar e mezzo credito di un corso di Public Speaking. Quei quattro crediti occupano spazio per materie opzionali che le altre scuole usano altrove, e sono la caratteristica più distintiva del certificato dei voti.",
-      "of": "34887367",
+      "t": "Il diploma richiede **27 crediti, di cui 4 di Studi Biblici**. Gli studenti hanno bisogno anche di un credito di January Term, di mezzo credito di Junior Seminar e di mezzo credito di un corso di Public Speaking. Quei quattro crediti di Studi Biblici occupano spazio per materie opzionali che le altre scuole dedicano ad altri corsi. Sono la caratteristica più distintiva del certificato dei voti.",
+      "of": "3142613a",
       "at": [
         "charlotte-christian:transcript.trust[2].text"
       ]
@@ -3094,8 +3094,8 @@
       ]
     },
     {
-      "t": "Viene riportata solo la soglia del 3+ — la quota di esami con 4 o 5 non è pubblicata in nessun anno, quindi non va dedotto alcun tasso di 4–5. Il profilo 2026–27 elimina anche il numero di promossi e la suddivisione degli AP Scholars per livello di riconoscimento che l’edizione 2024–25 stampava. Anche le norme sul carico di corsi “più rigoroso” restano indefinite: non c’è una griglia pubblicata né un’indicazione di quale frazione di studenti segua il programma più impegnativo.",
-      "of": "038b10e2",
+      "t": "Viene riportata solo la quota con 3+. La quota di esami con 4 o 5 non è pubblicata in nessun anno, quindi non va ipotizzato alcun tasso di 4–5. Il profilo 2026–27 elimina anche il numero di promossi e la suddivisione degli AP Scholars per livello di riconoscimento che l’edizione 2024–25 stampava. Non è definito nemmeno che cosa conti come carico di corsi “Most rigorous”. Non c’è una griglia pubblicata né un’indicazione di quale quota di studenti segua il programma più impegnativo.",
+      "of": "2bc4c484",
       "at": [
         "charlotte-christian:transcript.flags[1].text"
       ]
@@ -3348,8 +3348,8 @@
       ]
     },
     {
-      "t": "Non sono pubblicati anzianità, precedenti datori di lavoro o percorso professionale di nessuno dei membri del team, e non compaiono biografie sulla pagina del college counseling. Non sono pubblicati né i conteggi delle visite dei rappresentanti né quelli delle visite dei consulenti ai campus.",
-      "of": "7484d40b",
+      "t": "La scuola non pubblica per nessun consulente gli anni nel ruolo, i precedenti datori di lavoro o il percorso professionale. Non compaiono biografie sulla pagina del college counseling. Non pubblica nemmeno il numero di visite dei rappresentanti universitari né quello delle visite dei consulenti ai campus.",
+      "of": "f1650f7f",
       "at": [
         "charlotte-christian:counseling.flags[1].text"
       ]
@@ -3495,15 +3495,15 @@
       ]
     },
     {
-      "t": "**Academic Conservatory** — la credenziale pubblicata più forte della scuola e, cosa fondamentale, è **annotata sul certificato dei voti**, così raggiunge chi valuta le ammissioni anziché vivere solo in un curriculum. Il profilo 2026–27 indica sei aree — Matematica e Scienze; Belle Arti; Bibbia, Filosofia e Religione; Inglese; Studi Sociali; Lingue del Mondo — e **il 20% della Class of 2026** ha ottenuto almeno un riconoscimento.",
-      "of": "f0414ce8",
+      "t": "**Academic Conservatory** — la credenziale pubblicata più forte della scuola. Cosa importante, è **annotata sul certificato dei voti**, così raggiunge chi valuta le ammissioni anziché comparire solo in un curriculum. Il profilo 2026–27 indica sei aree: Matematica e Scienze; Belle Arti; Bibbia, Filosofia e Religione; Inglese; Studi Sociali; Lingue del Mondo. **Il 20% della Class of 2026** ha ottenuto almeno un riconoscimento.",
+      "of": "121124e5",
       "at": [
         "charlotte-christian:edge.levers[0].items[0]"
       ]
     },
     {
-      "t": "**Winterim / January Term** — un credito obbligatorio ogni anno (0.25 per anno verso il diploma), che fornisce tirocini, viaggi e affiancamento professionale. Si noti che la componente di affiancamento professionale è ridotta: sono pubblicate solo circa sette collocazioni.",
-      "of": "d46c87c7",
+      "t": "**Winterim / January Term** — un credito obbligatorio ogni anno (0.25 per anno verso il diploma). Offre tirocini, viaggi e affiancamento professionale. La componente di affiancamento professionale è ridotta: sono pubblicate solo circa sette collocazioni.",
+      "of": "a033c96f",
       "at": [
         "charlotte-christian:edge.levers[0].items[1]"
       ]
@@ -3523,8 +3523,8 @@
       ]
     },
     {
-      "t": "**Seal of Biliteracy** — introdotto nel 2019 e assegnato tramite un esame di competenza in due lingue, anche se la quota di chi lo ottiene è scesa dall’11% della Class of 2021 al 4% della Class of 2024, per poi risalire al 7% della Class of 2026.",
-      "of": "39ba3b00",
+      "t": "**Seal of Biliteracy** — introdotto nel 2019 e assegnato a chi supera un esame di competenza in due lingue. La quota di chi lo ottiene è scesa dall’11% della Class of 2021 al 4% della Class of 2024. Poi è risalita al 7% della Class of 2026.",
+      "of": "4f60f557",
       "at": [
         "charlotte-christian:edge.levers[0].items[4]"
       ]
@@ -3537,8 +3537,8 @@
       ]
     },
     {
-      "t": "**Una rete di college cristiani con una propria affiliazione** — Charlotte Christian è membro di **NACCAP**, l’associazione di orientamento dei college cristiani, insieme a NACAC e SACAC. La sua brochure dà ai college cristiani una fascia a sé, e il 14% dei diplomati si iscrive a uno di essi. Diplomati della Class of 2026 si sono iscritti a Wheaton, Liberty, Samford, Gordon, Lipscomb e Baylor.",
-      "of": "34b289c7",
+      "t": "**Una rete di college cristiani con una propria affiliazione** — Charlotte Christian è membro di **NACCAP**, un’associazione di orientamento dei college cristiani, oltre che di NACAC e SACAC. La sua brochure elenca i college cristiani come gruppo a sé, e il 14% dei diplomati si iscrive a uno di essi. Diplomati della Class of 2026 si sono iscritti a Wheaton, Liberty, Samford, Gordon, Lipscomb e Baylor.",
+      "of": "9ecb80cc",
       "at": [
         "charlotte-christian:edge.levers[1].items[0]"
       ]
@@ -3551,22 +3551,22 @@
       ]
     },
     {
-      "t": "**Lo School Profile come strumento** — pubblica i conteggi di esami AP, studenti e AP Scholars, una tabella GPA in cinque quintili, un GPA del 50% centrale (3.604–4.199 per la Class of 2026), la scala di valutazione e la formula di ponderazione, oltre al CEEB 340667.",
-      "of": "cac46d1b",
+      "t": "**Lo School Profile come strumento** — pubblica i conteggi di esami AP, studenti e AP Scholars e una tabella GPA in cinque quintili. Fornisce un GPA del 50% centrale (3.604–4.199 per la Class of 2026). Riporta anche la scala di valutazione, la formula di ponderazione e il codice CEEB 340667.",
+      "of": "98f2ad91",
       "at": [
         "charlotte-christian:edge.levers[1].items[2]"
       ]
     },
     {
-      "t": "**Rendicontazione dettagliata delle borse di studio** — all'incirca novanta riconoscimenti nominali pubblicati per una singola classe è molto più specifico di una cifra complessiva in dollari, e permette a una famiglia di vedere quali istituzioni finanziano effettivamente gli studenti di questa scuola.",
-      "of": "10fe374a",
+      "t": "**Rendicontazione dettagliata delle borse di studio** — la scuola ha pubblicato circa novanta riconoscimenti nominali per una singola classe. È molto più specifico di un'unica cifra complessiva in dollari. Permette a una famiglia di vedere quali università finanziano effettivamente gli studenti di questa scuola.",
+      "of": "bfbac8e0",
       "at": [
         "charlotte-christian:edge.levers[1].items[3]"
       ]
     },
     {
-      "t": "La politica disciplinare è pubblicata: la scuola segue lo Statement of Principles of Good Practice della NACAC e “does not permit the reporting of any disciplinary infractions”, ma consiglia agli studenti di dichiarare spontaneamente qualsiasi infrazione dei gradi 9–12 che abbia comportato una sospensione dalla scuola.",
-      "of": "2c8ebdf9",
+      "t": "La politica disciplinare è pubblicata. La scuola segue lo Statement of Principles of Good Practice della NACAC, e la sua politica “does not permit the reporting of any disciplinary infractions”. Ma consiglia agli studenti di dichiarare di propria iniziativa qualsiasi infrazione dei gradi 9–12 che abbia comportato una sospensione dalla scuola.",
+      "of": "03cdc4d6",
       "at": [
         "charlotte-christian:edge.levers[1].note"
       ]
@@ -3579,8 +3579,8 @@
       ]
     },
     {
-      "t": "Lo studente mediano si colloca nel terzo quintile, a circa 3.80–4.05 ponderato, e il profilo colloca il GPA del 50% centrale della classe a 3.604–4.199 sulla sua scala GPA. Poiché Honors aggiunge 0.5 e AP un punto intero, una soglia di 4.240 nel quintile superiore implica un forte carico di corsi avanzati più che un curriculum perfetto.",
-      "of": "cf6ba500",
+      "t": "Lo studente mediano si colloca nel terzo quintile, a circa 3.80–4.05 ponderato. Il profilo colloca il GPA del 50% centrale della classe a 3.604–4.199 sulla sua scala GPA. Honors aggiunge 0.5 e AP un punto intero. Quindi una soglia di 4.240 nel quintile superiore indica un forte carico di corsi avanzati, non un curriculum perfetto.",
+      "of": "4f79d133",
       "at": [
         "charlotte-christian:wholeClass.subhead"
       ]
@@ -3656,8 +3656,8 @@
       ]
     },
     {
-      "t": "Tutti e cinque i quintili sono cifre pubblicate dalla scuola stessa. Rispetto alla tabella della Class of 2025, la distribuzione si è compressa in un anno: la soglia del primo quintile è scesa da 4.277 a 4.240, mentre quella del terzo è salita da 3.686 a 3.804, quella del quarto da 3.124 a 3.542 e quella del quinto da 1.941 a 2.269. La parte bassa della classe è salita molto più di quanto la parte alta sia scesa. Non è pubblicata alcuna distribuzione non ponderata.",
-      "of": "b978e75a",
+      "t": "Tutti e cinque i quintili sono cifre pubblicate dalla scuola stessa. Rispetto alla tabella della Class of 2025, la distribuzione si è ristretta in un anno. La soglia del primo quintile è scesa da 4.277 a 4.240. Quella del terzo è salita da 3.686 a 3.804, quella del quarto da 3.124 a 3.542 e quella del quinto da 1.941 a 2.269. La parte bassa della classe è salita molto più di quanto la parte alta sia scesa. Non è pubblicata alcuna distribuzione non ponderata.",
+      "of": "52ffc977",
       "at": [
         "charlotte-christian:wholeClass.gpaNote"
       ]
@@ -3670,8 +3670,8 @@
       ]
     },
     {
-      "t": "Due consulenti dell'Upper School forniscono istruzione su metodi di studio, orientamento nella scelta dei corsi, monitoraggio dell'andamento scolastico, gestione dell'ansia da test e indirizzamento verso risorse esterne. Si tratta di una funzione di counseling generale anziché di un programma per le differenze di apprendimento.",
-      "of": "2d0566e5",
+      "t": "Due consulenti dell'Upper School insegnano metodi di studio, aiutano nella scelta dei corsi e seguono l'andamento scolastico. Aiutano anche a gestire l'ansia da test e indirizzano gli studenti verso risorse esterne. Si tratta di counseling generale, non di un programma per le differenze di apprendimento.",
+      "of": "75a6d0e5",
       "at": [
         "charlotte-christian:wholeClass.support[0].text"
       ]
@@ -3698,22 +3698,22 @@
       ]
     },
     {
-      "t": "I **WIN (“What I Need”) labs** e le lezioni di advisory sono la struttura di supporto accademico nominale dell'Upper School, e il **Media & Writing Center** è gratuito e specifico per la scrittura. Ciò che il WIN Lab fornisce sul piano accademico non è descritto.",
-      "of": "c7eba76c",
+      "t": "I **WIN (“What I Need”) labs** e le lezioni di advisory sono il supporto accademico nominale dell'Upper School. Il **Media & Writing Center** è gratuito e dedicato alla scrittura. Ciò che il WIN Lab insegna concretamente non è descritto.",
+      "of": "c3a50255",
       "at": [
         "charlotte-christian:wholeClass.support[2].text"
       ]
     },
     {
-      "t": "La fascia intermedia potrebbe essere la coorte meglio servita",
-      "of": "7dbf1177",
+      "t": "La fascia intermedia potrebbe essere il gruppo meglio servito",
+      "of": "85562905",
       "at": [
         "charlotte-christian:wholeClass.middle[0].label"
       ]
     },
     {
-      "t": "L’elenco va da Duke, Harvard e Columbia fino a Central Piedmont Community College, Barton, Catawba, Spartanburg Methodist, Belmont Abbey, Wingate e Winthrop. Uno studente del quarto o quinto quintile a 3.54 o meno ha destinazioni reali e con un nome, e la checklist chiede agli studenti di includere “every possible type of college that might be of interest”.",
-      "of": "9ee490f4",
+      "t": "L’elenco va da Duke, Harvard e Columbia fino a Central Piedmont Community College, Barton, Catawba, Spartanburg Methodist, Belmont Abbey, Wingate e Winthrop. Uno studente del quarto o quinto quintile a 3.54 o meno ha destinazioni reali e con un nome. La checklist chiede inoltre agli studenti di includere “every possible type of college that might be of interest”.",
+      "of": "3842d31c",
       "at": [
         "charlotte-christian:wholeClass.middle[0].text"
       ]
@@ -3754,8 +3754,8 @@
       ]
     },
     {
-      "t": "Un certificato dei voti strutturalmente rigoroso e trasparente — esami AP obbligatori, una tabella dei quintili completa e pubblicata, conteggi pubblicati di esami AP e Scholars — abbinato alla comunicazione sul supporto all’apprendimento più scarna di questo gruppo.",
-      "of": "b70f9c0b",
+      "t": "Un certificato dei voti impegnativo e trasparente: esami AP obbligatori, una tabella dei quintili completa e pubblicata, e conteggi pubblicati di esami AP e Scholars. È abbinato alla comunicazione sul supporto all’apprendimento più scarna tra le scuole di questo sito.",
+      "of": "68bd7f4b",
       "at": [
         "charlotte-christian:verdict.headline"
       ]
@@ -3789,8 +3789,8 @@
       ]
     },
     {
-      "t": "il profilo 2026–27 riporta 435 esami, 208 studenti e 90 AP Scholars accanto al 94%, così il tasso può essere letto rispetto alla dimensione della coorte che l’ha ottenuto.",
-      "of": "f67c76e1",
+      "t": "il profilo 2026–27 riporta 435 esami, 208 studenti e 90 AP Scholars accanto al 94%, così il tasso può essere letto rispetto alla dimensione del gruppo che l’ha ottenuto.",
+      "of": "3c8aba9d",
       "at": [
         "charlotte-christian:verdict.points[1].text"
       ]
@@ -4133,8 +4133,8 @@
       ]
     },
     {
-      "t": "Il St. Augustine Scholars Program, avviato con una coorte di nono anno nel 2025-26 e che ora offre corsi di decimo anno, aggiunge un percorso classico quadriennale — filosofia, logica, latino, testi originali e seminari socratici.",
-      "of": "8b876034",
+      "t": "Il St. Augustine Scholars Program è iniziato con una classe di 9° anno nel 2025-26 e ora offre corsi di 10° anno. Aggiunge un percorso classico quadriennale: filosofia, logica, latino, testi originali e seminari socratici.",
+      "of": "59691ad9",
       "at": [
         "charlotte-catholic:transcript.depth[5].text"
       ]
@@ -4232,8 +4232,8 @@
       ]
     },
     {
-      "t": "Non è pubblicato alcun conteggio dei livelli AP Scholar. Il profilo fornisce invece il rendimento a livello di esame (il 94% con punteggio pari o superiore a 3 su 1,184 esami nel 2026), che è la divulgazione più ricca — ma significa che il registro Scholar / Scholar with Distinction mostrato da altre scuole qui non può essere ricostruito.",
-      "of": "99d62502",
+      "t": "Non è pubblicato alcun conteggio dei livelli AP Scholar. Il profilo fornisce invece i risultati per esame (il 94% con punteggio pari o superiore a 3 su 1,184 esami nel 2026). Questo dice di più. Ma significa che il registro Scholar/Scholar with Distinction mostrato da altre scuole qui non può essere ricostruito.",
+      "of": "92512cc1",
       "at": [
         "charlotte-catholic:transcript.flags[0].text"
       ]
@@ -4485,8 +4485,8 @@
       ]
     },
     {
-      "t": "Si apre il Dual Enrollment con il Central Piedmont Community College — un corso per semestre, seguito in modalità asincrona, con lo stesso punto di qualità aggiuntivo di AP e Honors.",
-      "of": "c9841aaf",
+      "t": "Si apre il Dual Enrollment (corsi universitari seguiti durante la scuola superiore) con il Central Piedmont Community College. Gli studenti seguono un corso per semestre con i propri tempi, con lo stesso punto di qualità aggiuntivo di AP e Honors.",
+      "of": "2307284f",
       "at": [
         "charlotte-catholic:counseling.timeline[3].items[4]"
       ]
@@ -4563,8 +4563,8 @@
       ]
     },
     {
-      "t": "I diplomati delle Classi 2024–2026 si sono immatricolati in 168 diversi college e università.",
-      "of": "733c6890",
+      "t": "I diplomati delle Classi 2024–2026 si sono iscritti in 168 diversi college e università.",
+      "of": "a52ef178",
       "at": [
         "charlotte-catholic:counseling.reach[1]"
       ]
@@ -4605,8 +4605,8 @@
       ]
     },
     {
-      "t": "Questo è un elenco di immatricolazioni: dove i diplomati si sono effettivamente iscritti, non tutti i luoghi in cui sono stati ammessi.",
-      "of": "5ef00101",
+      "t": "Questo è un elenco di iscrizioni: dove i diplomati si sono effettivamente iscritti, non tutti i luoghi in cui sono stati ammessi.",
+      "of": "24eccecd",
       "at": [
         "charlotte-catholic:outcomes.subhead"
       ]
@@ -4619,8 +4619,8 @@
       ]
     },
     {
-      "t": "istituzioni di immatricolazione, Classi 2023–2026",
-      "of": "91e9db11",
+      "t": "istituzioni a cui si sono iscritti i diplomati, Classi 2023–2026",
+      "of": "90c17d3f",
       "at": [
         "charlotte-catholic:outcomes.stats[0].label"
       ]
@@ -4725,8 +4725,8 @@
       ]
     },
     {
-      "t": "Ogni immatricolazione, 2023–2026",
-      "of": "9b179df6",
+      "t": "Ogni iscrizione, 2023–2026",
+      "of": "4202162c",
       "at": [
         "charlotte-catholic:outcomes.collegesTitle"
       ]
@@ -4872,8 +4872,8 @@
       ]
     },
     {
-      "t": "Sostenere l'esame AP in ogni corso AP; qui è obbligatorio, quindi il 94% con punteggio pari o superiore a 3 è un risultato di coorte all'interno del quale lo studente viene misurato, non un dato da cui ci si può sfilare.",
-      "of": "d3539bac",
+      "t": "Sostenere l'esame AP in ogni corso AP. Qui è obbligatorio, quindi il 94% con punteggio pari o superiore a 3 conta ogni studente AP. Nessuno può sottrarsi.",
+      "of": "f4b58d28",
       "at": [
         "charlotte-catholic:edge.levers[0].items[1]"
       ]
@@ -4914,8 +4914,8 @@
       ]
     },
     {
-      "t": "CCHS è una delle sole quattro scuole parrocchiali che competono nella NCHSAA — l'associazione delle scuole pubbliche — quindi i suoi atleti sono valutati rispetto ai programmi più grandi dello stato anziché in un girone riservato alle scuole private.",
-      "of": "d3498cc6",
+      "t": "CCHS è una delle sole quattro scuole parrocchiali (gestite dalla Chiesa) nella NCHSAA, l'associazione sportiva delle scuole pubbliche. Quindi i suoi atleti sono valutati rispetto ai programmi più grandi dello stato, non in un girone riservato alle scuole private.",
+      "of": "c14cbc3c",
       "at": [
         "charlotte-catholic:edge.levers[1].items[1]"
       ]
@@ -4928,8 +4928,8 @@
       ]
     },
     {
-      "t": "La scala diocesana emerge nei risultati — ammissioni alla Naval Academy in classi consecutive (tre nel 2025, una nel 2026 insieme a un'ammissione a West Point) e immatricolazioni in tutte e tre le accademie militari.",
-      "of": "53dc59d8",
+      "t": "Le dimensioni della scuola, in quanto scuola diocesana, emergono nei risultati. Ci sono state nomine alla Naval Academy in classi consecutive (tre nel 2025, una nel 2026 insieme a una nomina a West Point). I diplomati si sono inoltre iscritti in tutte e tre le accademie militari.",
+      "of": "78cef5d6",
       "at": [
         "charlotte-catholic:edge.levers[1].items[3]"
       ]
@@ -4984,8 +4984,8 @@
       ]
     },
     {
-      "t": "La scuola pubblica un INTERVALLO mediano del 50%, non i percentili e non una media. Gli estremi di un intervallo mediano del 50% sono per definizione il 25º e il 75º percentile, quindi quelle due colonne sono reali; il 10º, il 50º, il 90º e la media non sono pubblicati e sono mostrati come lineette anziché stimati. Non è pubblicata alcuna suddivisione per sezione (EBRW / Math). Su 336 studenti dell'ultimo anno, 290 candidati al SAT e 322 all'ACT significano che la maggior parte della classe ha sostenuto entrambi i test.",
-      "of": "72d1345c",
+      "t": "La scuola pubblica un INTERVALLO del 50% centrale, non i percentili e non una media. Gli estremi di un intervallo del 50% centrale sono per definizione il 25º e il 75º percentile, quindi quelle due colonne sono reali. Il 10º, il 50º, il 90º e la media non sono pubblicati. Sono mostrati come lineette anziché stimati. Non è pubblicata alcuna suddivisione per sezione (EBRW / Math). Con 336 studenti dell'ultimo anno, 290 candidati al SAT e 322 all'ACT, la maggior parte della classe ha sostenuto entrambi i test.",
+      "of": "9c0d0e58",
       "at": [
         "charlotte-catholic:wholeClass.scoreTables[0].note"
       ]
@@ -5096,8 +5096,8 @@
       ]
     },
     {
-      "t": "Un corso semestrale (508 per le classi 9–10, 509 per le 11–12) su funzioni esecutive e autotutela per gli studenti di Academic Achievement — il passo che precede Guided Academic Support.",
-      "of": "c1bba2f5",
+      "t": "Un corso semestrale (508 per le classi 9–10, 509 per le 11–12) su capacità di pianificazione, organizzazione e concentrazione e sul farsi valere. È per gli studenti di Academic Achievement — il passo che precede Guided Academic Support.",
+      "of": "063d4abb",
       "at": [
         "charlotte-catholic:wholeClass.support[0].text"
       ]
@@ -5257,15 +5257,15 @@
       ]
     },
     {
-      "t": "Il **94% dei punteggi pari o superiore a 3** su **1,184 esami** nel 2026 è un dato riferito all'intera coorte, perché **l'esame è obbligatorio in ogni corso AP** — i candidati più deboli non possono essere silenziosamente tenuti fuori dal denominatore.",
-      "of": "b1b21936",
+      "t": "Il **94% dei punteggi pari o superiore a 3** su **1,184 esami** nel 2026 riguarda ogni studente AP, perché **l'esame è obbligatorio in ogni corso AP**. Gli studenti più deboli non possono essere silenziosamente tenuti fuori dal conteggio.",
+      "of": "a29d544a",
       "at": [
         "charlotte-catholic:verdict.points[1].text"
       ]
     },
     {
-      "t": "L'elenco delle università va letto come immatricolazioni",
-      "of": "a0270676",
+      "t": "L'elenco delle università va letto come iscrizioni",
+      "of": "b99fa3c2",
       "at": [
         "charlotte-catholic:verdict.points[2].label"
       ]
@@ -5411,8 +5411,8 @@
       ]
     },
     {
-      "t": "Country Day è stata la prima scuola nella Carolina del Nord a offrire l'IB Diploma, così uno studente ha due percorsi leggibili verso il massimo rigore anziché uno solo, e il profilo nomina il corso di livello più alto in ogni disciplina.",
-      "of": "c7a1d2db",
+      "t": "Country Day è stata la prima scuola nella Carolina del Nord a offrire l'IB Diploma. Così uno studente ha due percorsi chiari verso il carico di corsi più impegnativo, non uno solo. Il profilo nomina anche il corso di livello più alto in ogni disciplina.",
+      "of": "61ee3e17",
       "at": [
         "charlotte-country-day:transcript.subhead"
       ]
@@ -5546,15 +5546,15 @@
       ]
     },
     {
-      "t": "**Organic Chemistry** e **Physical Computational Biochemistry** sono proposte come corsi elettivi semestrali post-AP, il primo esplicitamente per gli studenti che hanno completato AP o IB Chemistry. **AP Physics 1** ha sostituito Honors Physics nel 2026–27 ed è ora il prerequisito per AP Physics C.",
-      "of": "86b8d956",
+      "t": "**Organic Chemistry** e **Physical Computational Biochemistry** sono corsi elettivi semestrali da seguire dopo l'AP. Organic Chemistry è dichiaratamente per gli studenti che hanno completato AP o IB Chemistry. **AP Physics 1** ha sostituito Honors Physics nel 2026–27. Ora è il corso che gli studenti devono seguire prima di AP Physics C.",
+      "of": "c95886ea",
       "at": [
         "charlotte-country-day:transcript.depth[1].text"
       ]
     },
     {
-      "t": "Il livello massimo è AP Computer Science A; **AP Computer Science Principles** si aggiunge nel 2026–27 come punto di ingresso al 10th grade, e non c'è ancora **alcun corso di CS post-AP**, una vera lacuna a fronte della profondità in matematica e scienze che gli sta accanto.",
-      "of": "cc25aa0f",
+      "t": "Il livello massimo è AP Computer Science A. **AP Computer Science Principles** si aggiunge nel 2026–27 come corso di ingresso al 10th grade. Non c'è ancora **alcun corso di CS post-AP**. È una vera lacuna a fronte della profondità in matematica e scienze.",
+      "of": "f8e23b34",
       "at": [
         "charlotte-country-day:transcript.depth[2].text"
       ]
@@ -5581,15 +5581,15 @@
       ]
     },
     {
-      "t": "**+0.5 per gli Honors, +1.0 per AP/IB** su una base 4.0 — stabile in ogni edizione del profilo esaminata, e l'edizione 2026–27 estende il +1.0 ai corsi post-AP Organic Chemistry e Calculus III. Non esiste una tabella separata dei punti qualità.",
-      "of": "71dbfbec",
+      "t": "**+0.5 per gli Honors, +1.0 per AP/IB** su una base 4.0. Ogni edizione del profilo esaminata usa questa stessa scala. L'edizione 2026–27 assegna il +1.0 anche ai corsi post-AP Organic Chemistry e Calculus III. Non esiste una tabella separata dei punti qualità.",
+      "of": "43395783",
       "at": [
         "charlotte-country-day:transcript.trust[0].text"
       ]
     },
     {
-      "t": "Country Day pubblica una tabella dei quintili ininterrottamente almeno dal 2015–16. L'edizione 2025–26 collegava ciascun quinto a un SAT e un ACT mediani; l'edizione 2026–27 torna alle **sole mediane di GPA** e stampa accanto un **middle 50% di SAT/ACT dell'intera classe**.",
-      "of": "7c16c0e9",
+      "t": "Country Day pubblica ogni anno una tabella dei quintili (una suddivisione della classe in quinti) almeno dal 2015–16. L'edizione 2025–26 collegava ciascun quinto a un punteggio SAT e ACT mediano. L'edizione 2026–27 torna alle **sole mediane di GPA**. Accanto a esse stampa un **middle 50% di SAT/ACT dell'intera classe**.",
+      "of": "4d01bc20",
       "at": [
         "charlotte-country-day:transcript.trust[1].text"
       ]
@@ -5602,8 +5602,8 @@
       ]
     },
     {
-      "t": "Nessuna rubrica numerica, ma una tabella **“Notably Rigorous Courses by Discipline”** che nomina il corso di livello più alto in ogni materia, più fasce di carico AP — 0–2 / 3–5 / 6–8 / 9+ (Class of 2027: 22 / 22 / 39 / 14 dei 97 studenti dell'ultimo anno non IB con sette o più semestri) — che consentono al lettore di collocare un candidato rispetto ai compagni.",
-      "of": "c18b3c02",
+      "t": "Non c'è una rubrica numerica. Al suo posto, una tabella **“Notably Rigorous Courses by Discipline”** nomina il corso di livello più alto in ogni materia. Il profilo suddivide inoltre gli studenti dell'ultimo anno in fasce di carico AP: 0–2 / 3–5 / 6–8 / 9+ (Class of 2027: 22 / 22 / 39 / 14 dei 97 studenti dell'ultimo anno non IB con sette o più semestri). Questi dati consentono al lettore di collocare uno studente rispetto ai compagni.",
+      "of": "bd9411f7",
       "at": [
         "charlotte-country-day:transcript.trust[2].text"
       ]
@@ -5616,8 +5616,8 @@
       ]
     },
     {
-      "t": "Ogni corso che non sia Honors, AP o IB è indicato come **“Regular/Standard”** nei transcript e nei moduli STARS, e il profilo definisce ogni corso preparatorio al college per rigore. L'AP è precluso al 9th grade, e al 10th grade si seguono in genere solo AP Human Geography e AP Computer Science Principles.",
-      "of": "c19b1f67",
+      "t": "Ogni corso che non sia Honors, AP o IB è indicato come **“Regular/Standard”** nei transcript e nei moduli STARS. Il profilo afferma che ogni corso ha la difficoltà di un corso preparatorio al college. L'AP è precluso al 9th grade. Al 10th grade si seguono in genere solo AP Human Geography e AP Computer Science Principles.",
+      "of": "73775b5f",
       "at": [
         "charlotte-country-day:transcript.trust[3].text"
       ]
@@ -5644,8 +5644,8 @@
       ]
     },
     {
-      "t": "Il cambio di direttore è avvenuto a luglio 2026, e il profilo 2026–27 è la prima edizione a riportare il nuovo ufficio — ma si innesta su un decennio di memoria istituzionale: due dei cinque sono in questo ufficio almeno dal 2015–16.",
-      "of": "4ab28149",
+      "t": "L'ufficio ha cambiato direttore a luglio 2026, e il profilo 2026–27 è la prima edizione a riportare il nuovo ufficio. Ma l'ufficio conserva un decennio di esperienza. Due dei cinque vi lavorano almeno dal 2015–16.",
+      "of": "562439af",
       "at": [
         "charlotte-country-day:counseling.subhead"
       ]
@@ -5861,8 +5861,8 @@
       ]
     },
     {
-      "t": "La Class of 2026 ha presentato **1,107 candidature a 203 istituzioni** — circa otto per studente. I certificati dei voti e il rapporto scolastico sono di competenza di un registrar dedicato, e gli adattamenti per i test sono gestiti dall'Educational Resource Program anziché dall'ufficio per l'orientamento universitario.",
-      "of": "1167e54d",
+      "t": "La Class of 2026 ha presentato **1,107 candidature a 203 istituzioni**, circa otto per studente. Un registrar dedicato si occupa dei certificati dei voti e del rapporto scolastico. Gli adattamenti per i test sono gestiti dall'Educational Resource Program, non dall'ufficio per l'orientamento universitario.",
+      "of": "4a2abc6c",
       "at": [
         "charlotte-country-day:counseling.mechanicsNote"
       ]
@@ -5910,8 +5910,8 @@
       ]
     },
     {
-      "t": "L'elenco pubblicato è un elenco cumulativo quadriennale delle ammissioni di 363 istituzioni, con Harvard, Caltech, Johns Hopkins e Northwestern tra le aggiunte dell'edizione finale; solo i nomi in grassetto rappresentano un luogo dove uno studente della Class of 2026 si è effettivamente iscritto.",
-      "of": "084fde63",
+      "t": "L'elenco pubblicato copre quattro anni di ammissioni in 363 college. Harvard, Caltech, Johns Hopkins e Northwestern sono tra quelli aggiunti nell'edizione finale. Solo i nomi in grassetto sono luoghi dove uno studente della Class of 2026 si è effettivamente iscritto.",
+      "of": "6778ed7f",
       "at": [
         "charlotte-country-day:outcomes.subhead"
       ]
@@ -6037,8 +6037,8 @@
       ]
     },
     {
-      "t": "Trattare con cautela la cifra dei “34 Morehead-Cain recipients”: la pagina di destinazione del College Counseling la mostra accanto alle statistiche della Class of 2026, ma la Class of 2026 ha prodotto esattamente un Morehead-Cain Scholar. Il 34 è un conteggio cumulativo, di tutti i tempi, la cui finestra la scuola non dichiara mai. Robertson Scholars e NC State Park Scholars compaiono solo nel profilo 2015–16 e non dovrebbero essere presentati come canali attuali.",
-      "of": "003ac0dc",
+      "t": "Trattare con cautela la cifra dei “34 Morehead-Cain recipients”. La pagina principale del College Counseling la mostra accanto ai numeri della Class of 2026. Ma la Class of 2026 ha avuto esattamente un Morehead-Cain Scholar. Il 34 è un totale di tutti i tempi, e la scuola non dice mai quali anni copra. Robertson Scholars e NC State Park Scholars compaiono solo nel profilo 2015–16. Non dovrebbero essere presentati come riconoscimenti che gli studenti vincono oggi.",
+      "of": "b1beab57",
       "at": [
         "charlotte-country-day:outcomes.scholarshipsNote"
       ]
@@ -6058,8 +6058,8 @@
       ]
     },
     {
-      "t": "L'IB Diploma è il fattore differenziante strutturale — un secondo percorso verso il massimo rigore — e il Senior Externship trasforma 175+ datori di lavoro locali in una rete che solo questa scuola possiede.",
-      "of": "6f760e28",
+      "t": "L'IB Diploma è ciò che distingue la scuola: un secondo percorso verso il carico di corsi più impegnativo. E il Senior Externship trasforma 175+ datori di lavoro locali in una rete che solo questa scuola possiede.",
+      "of": "0c425753",
       "at": [
         "charlotte-country-day:edge.headline"
       ]
@@ -6072,15 +6072,15 @@
       ]
     },
     {
-      "t": "**IB Diploma Programme** — Country Day è stata la **prima scuola nella Carolina del Nord** a offrirlo. **26 studenti dell'ultimo anno della Class of 2027** conseguono il diploma completo a partire dal penultimo anno, con un tasso di superamento quinquennale dell'88%. Per uno studente i cui punti di forza non sono di tipo AP, è un secondo percorso leggibile verso il massimo rigore, e comporta per costruzione un Extended Essay.",
-      "of": "ba43a742",
+      "t": "**IB Diploma Programme** — Country Day è stata la **prima scuola nella Carolina del Nord** a offrirlo. **26 studenti dell'ultimo anno della Class of 2027** conseguono il diploma completo a partire dal penultimo anno. Il suo tasso di superamento quinquennale è dell'88%. Per uno studente i cui punti di forza non si adattano al modello AP, è un secondo percorso chiaro verso il carico di corsi più impegnativo. Comprende inoltre un Extended Essay.",
+      "of": "212c6c82",
       "at": [
         "charlotte-country-day:edge.levers[0].items[0]"
       ]
     },
     {
-      "t": "**Senior Externship** — un'immersione di job-shadowing a gennaio avviata nel 2017, in partnership con **175+ datori di lavoro locali in oltre 20 settori**. In un anno recente **136 studenti dell'ultimo anno** sono stati collocati presso 68 datori di lavoro dell'area di Charlotte, ospiti attinti in gran parte da genitori attuali e passati e da ex allievi.",
-      "of": "793014a9",
+      "t": "**Senior Externship** — un programma di job-shadowing a gennaio avviato nel 2017. Collabora con **175+ datori di lavoro locali in oltre 20 settori**. In un anno recente **136 studenti dell'ultimo anno** sono stati collocati presso 68 datori di lavoro dell'area di Charlotte. La maggior parte degli ospiti erano genitori attuali e passati ed ex allievi.",
+      "of": "c4a76917",
       "at": [
         "charlotte-country-day:edge.levers[0].items[1]"
       ]
@@ -6093,71 +6093,71 @@
       ]
     },
     {
-      "t": "**Weddington Farm** — un'**aula vivente di 330 acri** con prodotti agricoli, bestiame, apicoltura, coltivazione di funghi e un sistema di sentieri di dieci miglia, che alimenta la programmazione di agricoltura sostenibile, ecologia e imprenditorialità. Un patrimonio genuinamente non comune per una scuola indipendente urbana.",
-      "of": "37ef7327",
+      "t": "**Weddington Farm** — un'**aula vivente di 330 acri** con prodotti agricoli, animali da fattoria, apicoltura, coltivazione di funghi e un sistema di sentieri di dieci miglia. È usata per lezioni di agricoltura sostenibile, ecologia e avvio d'impresa. Poche scuole private di città hanno qualcosa di simile.",
+      "of": "a4068f51",
       "at": [
         "charlotte-country-day:edge.levers[0].items[3]"
       ]
     },
     {
-      "t": "**Special Olympics Mecklenburg County Spring Games** — la Upper School ha preso una pausa di due giorni dalle lezioni ogni aprile **dal 1984** per ospitarli. Un impegno istituzionale di 40 anni si legge in modo molto diverso per un ufficio ammissioni rispetto a un club di servizio.",
-      "of": "417d5fc5",
+      "t": "**Special Olympics Mecklenburg County Spring Games** — la Upper School sospende le lezioni per due giorni ogni aprile **dal 1984** per ospitarli. Per un ufficio ammissioni, un impegno di 40 anni dell'intera scuola si legge in modo molto diverso rispetto a un club di servizio.",
+      "of": "545efc41",
       "at": [
         "charlotte-country-day:edge.levers[0].items[4]"
       ]
     },
     {
-      "t": "Non esiste alcun tirocinio, capstone o tesi di ricerca indipendente obbligatorio. Il Senior Externship è di una sola giornata e non è mai dichiarato obbligatorio, benché 136 su ~141 studenti dell'ultimo anno che vi partecipano implichi che sia quasi universale nella pratica.",
-      "of": "d933fe13",
+      "t": "Non esiste alcun tirocinio, capstone o tesi di ricerca indipendente obbligatorio. Il Senior Externship è di una sola giornata, e la scuola non dice mai che sia obbligatorio. Tuttavia vi hanno partecipato 136 su ~141 studenti dell'ultimo anno, il che suggerisce che in pratica quasi tutti lo facciano.",
+      "of": "615e5b70",
       "at": [
         "charlotte-country-day:edge.levers[0].note"
       ]
     },
     {
-      "t": "**Lo School Profile come strumento** — l'edizione 2026–27 nomina il corso di livello più alto in ogni disciplina, dichiara la formula di ponderazione e divulga i risultati AP per disciplina, compresa la fascia bassa (Fine Arts al 91%/61%). Le sue fasce di carico AP sono diventate quattro, e ha eliminato le mediane dei test per quinto dell'edizione 2025–26 ma ha ripristinato un middle 50% di SAT/ACT dell'intera classe. Quella franchezza è di per sé un segnale di credibilità.",
-      "of": "84e0ec9e",
+      "t": "**Lo School Profile come strumento** — l'edizione 2026–27 nomina il corso di livello più alto in ogni disciplina. Dichiara la formula di ponderazione. Mostra i risultati AP per disciplina, compresa la fascia bassa (Fine Arts al 91%/61%). Le sue fasce di carico AP sono diventate quattro. Ha eliminato le mediane dei test per quinto dell'edizione 2025–26, ma ha ripristinato un middle 50% di SAT/ACT dell'intera classe. Quella trasparenza crea di per sé fiducia.",
+      "of": "900178c4",
       "at": [
         "charlotte-country-day:edge.levers[1].items[0]"
       ]
     },
     {
-      "t": "**Segnalazione dell'integrità** — un Honor Code sottoscritto annualmente con un Honor Council gestito dagli studenti, più l'adesione ad ACCIS, NACAC e SACAC. Anche i marcatori di credibilità del corpo docente contano qui: gli **83 membri del personale docente e amministrativo** della Upper School comprendono **AP exam readers**, National Board graders e Klingenstein Fellows; l'82% possiede titoli di studio avanzati e il 100% partecipa ogni anno ad attività di aggiornamento professionale.",
-      "of": "519c3223",
+      "t": "**Segnalazione dell'integrità** — un Honor Code che gli studenti sottoscrivono ogni anno, un Honor Council gestito dagli studenti e l'adesione ad ACCIS, NACAC e SACAC. Anche i segnali di un corpo docente forte contano qui. Gli **83 membri del personale docente e amministrativo** della Upper School comprendono **AP exam readers**, National Board graders e Klingenstein Fellows. L'82% possiede titoli di studio avanzati, e il 100% partecipa ogni anno ad attività di aggiornamento professionale.",
+      "of": "db7635e8",
       "at": [
         "charlotte-country-day:edge.levers[1].items[1]"
       ]
     },
     {
-      "t": "**Un canale dominante verso UNC–Chapel Hill** — 32 studenti della Class of 2026 vi si sono iscritti, il 23% della classe, insieme a 34 Morehead-Cain recipients cumulativi. Aggiungete un legame permanente con lo Jefferson Scholar verso UVA e un decennio di nomine alle accademie militari.",
-      "of": "7ec5ba89",
+      "t": "**Un canale dominante verso UNC–Chapel Hill** — 32 studenti della Class of 2026 vi si sono iscritti, il 23% della classe. La scuola conta inoltre 34 Morehead-Cain recipients di tutti i tempi. Aggiungete un legame duraturo con lo Jefferson Scholar verso UVA e un decennio di nomine alle accademie militari.",
+      "of": "46b97f5b",
       "at": [
         "charlotte-country-day:edge.levers[1].items[2]"
       ]
     },
     {
-      "t": "**Un sostanziale canale verso le HBCU** — North Carolina A&T, Howard, Hampton e Clark Atlanta tutte con iscrizioni per la Class of 2026 (19 HBCU nell'elenco, Claflin nuova), con una February One Scholarship e un Ron Brown Scholar tra i premi recenti.",
-      "of": "816dedb4",
+      "t": "**Un sostanziale canale verso le HBCU** — North Carolina A&T, Howard, Hampton e Clark Atlanta hanno tutte iscritto studenti della Class of 2026. L'elenco comprende 19 HBCU (college e università storicamente afroamericani), con Claflin come novità. Tra i premi recenti figurano una February One Scholarship e un Ron Brown Scholar.",
+      "of": "345e40ad",
       "at": [
         "charlotte-country-day:edge.levers[1].items[3]"
       ]
     },
     {
-      "t": "La scuola non pubblica la propria politica di divulgazione disciplinare — se e come le decisioni dell'Honor Council o le sospensioni raggiungano il rapporto della secondary school. Data l'adesione pubblicata a NACAC, tale omissione è una domanda pungente per la visita.",
-      "of": "67f94b00",
+      "t": "La scuola non pubblica la propria politica di comunicazione dei provvedimenti disciplinari. Tale politica direbbe se, e come, le decisioni dell'Honor Council o le sospensioni raggiungano il secondary school report (il modulo che la scuola invia alle università). La scuola dichiara l'adesione a NACAC, quindi questa lacuna è una domanda pungente da porre durante una visita.",
+      "of": "bd0af1ed",
       "at": [
         "charlotte-country-day:edge.levers[1].note"
       ]
     },
     {
-      "t": "La tabella dei quintili è la risposta onesta per il centro della classe — il quarto quinto si colloca a una GPA mediana di 3.655, il quinto a 3.012 — e il middle 50% dell'intera classe è un SAT di 1170–1400.",
-      "of": "839b959a",
+      "t": "La tabella dei quintili dà la risposta onesta per il centro della classe. Il quarto quinto ha una GPA mediana di 3.655, e il quinto inferiore di 3.012. Il middle 50% dell'intera classe è un SAT di 1170–1400.",
+      "of": "b9b24716",
       "at": [
         "charlotte-country-day:wholeClass.headline"
       ]
     },
     {
-      "t": "Country Day pubblica ciò che la maggior parte delle scuole nasconde, e il suo elenco delle ammissioni rispecchia quella dispersione: Harvard, Princeton e MIT a un estremo, i community college Cape Fear e Central Piedmont all'altro.",
-      "of": "b9d5eb24",
+      "t": "Country Day pubblica ciò che la maggior parte delle scuole nasconde. Il suo elenco delle ammissioni mostra la stessa dispersione: Harvard, Princeton e MIT a un estremo, e i community college Cape Fear e Central Piedmont all'altro.",
+      "of": "f20098b7",
       "at": [
         "charlotte-country-day:wholeClass.subhead"
       ]
@@ -6220,8 +6220,8 @@
       ]
     },
     {
-      "t": "Gli **academic coaches** supportano le aree disciplinari e le funzioni esecutive, mentre i **learning specialists** lavorano uno a uno affinché gli studenti “recognize and utilize their strengths” e diventino discenti autonomi e autopromotori.",
-      "of": "f3b79a16",
+      "t": "Gli **academic coaches** aiutano nelle materie e nelle capacità di pianificazione, organizzazione e concentrazione. I **learning specialists** lavorano uno a uno affinché gli studenti “recognize and utilize their strengths”. L'obiettivo è che gli studenti imparino in autonomia e sappiano farsi valere.",
+      "of": "fc705165",
       "at": [
         "charlotte-country-day:wholeClass.support[1].text"
       ]
@@ -6242,8 +6242,8 @@
       ]
     },
     {
-      "t": "I nomi degli iscritti non sono una carrellata dei primi 25 atenei — compaiono Appalachian State, East Carolina, UNC–Charlotte, High Point, Queens, Liberty, Tampa, Mississippi, Kentucky e Southwest Minnesota State. **Il 55% della Class of 2026 si è iscritto a università pubbliche** e il 32% è rimasto in North Carolina.",
-      "of": "15b2d680",
+      "t": "I college a cui si sono iscritti gli studenti non sono solo una carrellata dei primi 25 atenei. Compaiono Appalachian State, East Carolina, UNC–Charlotte, High Point, Queens, Liberty, Tampa, Mississippi, Kentucky e Southwest Minnesota State. **Il 55% della Class of 2026 si è iscritto a università pubbliche**, e il 32% è rimasto in North Carolina.",
+      "of": "ab68b370",
       "at": [
         "charlotte-country-day:wholeClass.middle[0].text"
       ]
@@ -6263,15 +6263,15 @@
       ]
     },
     {
-      "t": "Circa diciotto istituzioni dedicate alle arti e alla musica (Berklee con iscrizione, oltre a CalArts, Cooper Union, Ringling, Oberlin Conservatory, Manhattan School of Music, RISD, Pratt, SAIC, Parsons a New York e Parigi, UNCSA); tutte e tre le accademie militari federali con una nomina alla Naval Academy; e circa ventuno università internazionali tra cui Oxford, Cambridge, Imperial, UCL, McGill, Trinity College Dublin, Toronto, St Andrews, Edinburgh e Durham.",
-      "of": "3aa77d93",
+      "t": "Ci sono circa diciotto istituzioni dedicate alle arti e alla musica, e Berklee è una di quelle a cui si è iscritto uno studente. L'elenco comprende anche CalArts, Cooper Union, Ringling, Oberlin Conservatory, Manhattan School of Music, RISD, Pratt e SAIC. Comprende Parsons a New York e Parigi, e UNCSA. Compaiono tutte e tre le accademie militari federali, con una nomina alla Naval Academy. Ci sono inoltre circa ventuno università internazionali. Tra queste Oxford, Cambridge, Imperial, UCL, McGill, Trinity College Dublin, Toronto, St Andrews, Edinburgh e Durham.",
+      "of": "a65736c5",
       "at": [
         "charlotte-country-day:wholeClass.middle[2].text"
       ]
     },
     {
-      "t": "Il profilo 2026–27 ripristina un middle 50% di SAT e ACT dell'intera classe ma non indica né la classe né il numero di studenti che hanno sostenuto i test, ed elimina le mediane per quintile dell'edizione 2025–26. Il numero di studenti che hanno sostenuto i test non è mai stato pubblicato in alcun anno — una fascia senza una dimensione campionaria mostra una forma senza un N.",
-      "of": "69ce23ab",
+      "t": "Il profilo 2026–27 ripristina un middle 50% di SAT e ACT dell'intera classe. Ma non indica a quale classe si riferisca né quanti studenti abbiano sostenuto i test. Elimina inoltre le mediane per quinto dell'edizione 2025–26. Il numero di studenti che hanno sostenuto i test non è mai stato pubblicato in alcun anno. Una fascia senza un conteggio mostra una forma, ma non quanti studenti ci siano dietro.",
+      "of": "f3c420a9",
       "at": [
         "charlotte-country-day:wholeClass.flags[0].text"
       ]
@@ -6284,8 +6284,8 @@
       ]
     },
     {
-      "t": "Un ufficio solido e stabile e un profilo insolitamente franco — Country Day offre ai lettori delle ammissioni un contesto più utilizzabile di quasi ogni scuola omologa — e l'edizione 2026–27 ripristina le fasce SAT e ACT dell'intera classe che aveva eliminato.",
-      "of": "9234ccf5",
+      "t": "Un ufficio solido e stabile e un profilo insolitamente trasparente. Country Day offre ai lettori delle ammissioni un contesto più utile di quasi ogni scuola paragonabile. L'edizione 2026–27 ripristina inoltre le fasce SAT e ACT dell'intera classe che aveva eliminato.",
+      "of": "65077aed",
       "at": [
         "charlotte-country-day:verdict.headline"
       ]
@@ -6333,8 +6333,8 @@
       ]
     },
     {
-      "t": "prima scuola in North Carolina a offrirlo, 26 studenti dell'ultimo anno con il diploma completo nella Class of 2027, tasso di superamento quinquennale dell'88% — un secondo percorso leggibile verso il massimo rigore per studenti che non hanno una vocazione AP.",
-      "of": "dd6caf3d",
+      "t": "prima scuola in North Carolina a offrirlo, 26 studenti dell'ultimo anno con il diploma completo nella Class of 2027, tasso di superamento quinquennale dell'88%. È un secondo percorso chiaro verso il carico di corsi più impegnativo per gli studenti i cui punti di forza non si adattano al modello AP.",
+      "of": "bab9002a",
       "at": [
         "charlotte-country-day:verdict.points[2].text"
       ]
@@ -6347,8 +6347,8 @@
       ]
     },
     {
-      "t": "cinque consulenti, oltre 100 anni di esperienza complessiva, oltre 150 rappresentanti all'anno attraverso un programma strutturato Scoir Visits — e il cambio di luglio 2026 è avvenuto: Allison Slater Tate guida l'ufficio, con Catherine Odum, da oltre un decennio nell'ufficio, come Senior Associate, quindi la nuova leadership poggia sulla memoria istituzionale anziché su un vuoto.",
-      "of": "86ec9e8a",
+      "t": "cinque consulenti, oltre 100 anni di esperienza complessiva e oltre 150 rappresentanti universitari all'anno attraverso un programma strutturato Scoir Visits. Il cambio di luglio 2026 è avvenuto. Allison Slater Tate guida l'ufficio, e Catherine Odum, nell'ufficio da oltre un decennio, è Senior Associate. Quindi la nuova guida poggia su una lunga esperienza, non su un foglio bianco.",
+      "of": "4998cda1",
       "at": [
         "charlotte-country-day:verdict.points[3].text"
       ]
@@ -6361,8 +6361,8 @@
       ]
     },
     {
-      "t": "Freshman Seminar e Scoir in 9th grade, PreACT e la commissione simulata Charlotte Area Case Studies in 10th, incontri individuali dal secondo semestre del terzo anno e un workshop sui saggi ad agosto prima dell'ultimo anno.",
-      "of": "cc9d3290",
+      "t": "Freshman Seminar e Scoir in 9th grade. PreACT e la commissione simulata Charlotte Area Case Studies in 10th. Incontri individuali dal secondo semestre del terzo anno. Un workshop sui saggi ad agosto prima dell'ultimo anno.",
+      "of": "7318ab42",
       "at": [
         "charlotte-country-day:verdict.points[4].text"
       ]
@@ -6375,15 +6375,15 @@
       ]
     },
     {
-      "t": "70 destinazioni per 141 studenti dell'ultimo anno in 24 stati, DC e Canada, 55% pubbliche e 45% private, community college pubblicati accanto a Princeton e MIT, 32 studenti a UNC–Chapel Hill e un consistente canale verso gli HBCU con quattro istituzioni con iscrizione.",
-      "of": "6bfcb858",
+      "t": "70 destinazioni per 141 studenti dell'ultimo anno in 24 stati, DC e Canada, 55% pubbliche e 45% private. I community college sono elencati accanto a Princeton e MIT. 32 studenti si sono iscritti a UNC–Chapel Hill. E un consistente canale verso le HBCU, con studenti iscritti in quattro di esse.",
+      "of": "f7cf9e31",
       "at": [
         "charlotte-country-day:verdict.points[5].text"
       ]
     },
     {
-      "t": "Il vostro profilo 2026–27 stampa un middle 50% di 1170–1400 al SAT e di 26–31 all'ACT accanto alla tabella di GPA della Class of 2027 — a quale classe e a quanti candidati si riferisce, e perché sono scomparse le mediane per quinto?",
-      "of": "f5ee0f6d",
+      "t": "Il vostro profilo 2026–27 stampa un middle 50% di 1170–1400 al SAT e di 26–31 all'ACT accanto alla tabella di GPA della Class of 2027. A quale classe e a quanti candidati si riferisce? E perché sono state eliminate le mediane per quinto?",
+      "of": "298b9139",
       "at": [
         "charlotte-country-day:verdict.checklist[0]"
       ]
@@ -6396,8 +6396,8 @@
       ]
     },
     {
-      "t": "Harvard compare nell'elenco 2023–2026 per la prima volta nell'edizione finale, eppure nessuno studente della Class of 2026 si è iscritto a una Ivy. Come lo interpretate, e come si presenta l'immatricolazione alle Ivy anno per anno?",
-      "of": "fff8c403",
+      "t": "Harvard compare nell'elenco 2023–2026 per la prima volta nell'edizione finale, eppure nessuno studente della Class of 2026 si è iscritto a una Ivy. Come lo interpretate, e come si presentano le iscrizioni alle Ivy anno per anno?",
+      "of": "6a4c2439",
       "at": [
         "charlotte-country-day:verdict.checklist[2]"
       ]
@@ -6481,8 +6481,8 @@
       ]
     },
     {
-      "t": "Quel tetto è la chiave per leggere un certificato dei voti di Cannon: “most rigorous” qui ha un limite rigido e pubblicato, e il 90% che ottiene 3+ proviene da studenti che hanno scelto di sostenere un esame facoltativo.",
-      "of": "ce6bd446",
+      "t": "Quel tetto è la chiave per leggere un certificato dei voti di Cannon. Qui “most rigorous” ha un limite rigido e pubblicato. E il 90% che ottiene 3+ proviene da studenti che hanno scelto di sostenere un esame facoltativo.",
+      "of": "5fcf1f0b",
       "at": [
         "cannon:transcript.subhead"
       ]
@@ -6579,8 +6579,8 @@
       ]
     },
     {
-      "t": "La **Zero Hour** ospita Varsity Chorus e Varsity Orchestra, con valutazione superato/non superato, il lunedì, mercoledì e venerdì prima delle lezioni. Il **Summer Term** offre Geometry Acceleration con superato/non superato, e Honors Biology e Honors Chemistry con voto; i corsi estivi sono indicati come Summer Term sul certificato dei voti, e BIOREX non è offerto nella sessione estiva.",
-      "of": "36a1abca",
+      "t": "La **Zero Hour** ospita Varsity Chorus e Varsity Orchestra, con valutazione superato/non superato, il lunedì, mercoledì e venerdì prima delle lezioni. Il **Summer Term** offre Geometry Acceleration con superato/non superato, e Honors Biology e Honors Chemistry con voto. I corsi estivi sono indicati come Summer Term sul certificato dei voti. BIOREX non è offerto nella sessione estiva.",
+      "of": "46da505c",
       "at": [
         "cannon:transcript.depth[4].text"
       ]
@@ -6614,8 +6614,8 @@
       ]
     },
     {
-      "t": "Una chiave di rigore per disciplina",
-      "of": "9ab5f063",
+      "t": "Una chiave dei corsi più impegnativi in ogni disciplina",
+      "of": "b85fdd7a",
       "at": [
         "cannon:transcript.trust[2].label"
       ]
@@ -6812,8 +6812,8 @@
       ]
     },
     {
-      "t": "Questo è l'ambito pubblicato. Si noti cosa manca: coaching o workshop di brainstorming sui saggi, un processo di coordinamento delle raccomandazioni dei docenti, la preparazione ai colloqui e qualsiasi servizio di ricerca di borse di studio non sono nessuno di essi esplicitamente dichiarato — coerentemente con l'assenza di un dato di rilievo sui dollari di borse di studio.",
-      "of": "1d21a938",
+      "t": "Questo è l'ambito pubblicato. Si noti cosa lascia fuori. La scuola non dichiara esplicitamente di offrire coaching o workshop di brainstorming sui saggi, un modo per coordinare le raccomandazioni dei docenti, la preparazione ai colloqui o qualsiasi aiuto nella ricerca di borse di studio. Ciò è coerente con l'assenza di un dato di rilievo sui dollari di borse di studio.",
+      "of": "d9ebabbe",
       "at": [
         "cannon:counseling.mechanicsNote"
       ]
@@ -6959,15 +6959,15 @@
       ]
     },
     {
-      "t": "**BIOREX** — la Biological Research Experience, integrata in Honors Biology. Gli studenti formulano un'ipotesi, la testano, la analizzano statisticamente e la presentano a una commissione di **docenti, professionisti della scienza e dirigenti d'impresa locali**. La valutazione esterna è ciò che distingue questo da un progetto di classe.",
-      "of": "7885180d",
+      "t": "**BIOREX** — la Biological Research Experience, integrata in Honors Biology. Gli studenti formulano un'ipotesi, la testano e analizzano i risultati con la statistica. Poi li presentano a una commissione di **docenti, professionisti della scienza e dirigenti d'impresa locali**. I giudici esterni sono ciò che distingue questo da un progetto di classe.",
+      "of": "ff54639c",
       "at": [
         "cannon:edge.levers[0].items[0]"
       ]
     },
     {
-      "t": "**Symposium and Portfolio Defense** — un argomento storico originale difeso nella primavera del terzo anno (AT: U.S. History), e un portfolio digitale a più bozze presentato in AT: American Language and Composition.",
-      "of": "b286da1a",
+      "t": "**Symposium and Portfolio Defense** — due progetti. Nella primavera del terzo anno, gli studenti di AT: U.S. History difendono un argomento storico originale. Gli studenti di AT: American Language and Composition presentano un portfolio digitale, costruito attraverso molte bozze.",
+      "of": "86dbdefa",
       "at": [
         "cannon:edge.levers[0].items[1]"
       ]
@@ -6980,29 +6980,29 @@
       ]
     },
     {
-      "t": "**Senior Capstone** — un progetto di servizio filantropico con una presentazione pubblica conclusiva a docenti, personale, compagni e comunità. È l'unica esperienza dell'ultimo anno pressoché universale, sebbene il servizio in sé non sia esplicitamente un requisito per il diploma.",
-      "of": "01a8d614",
+      "t": "**Senior Capstone** — un progetto di servizio per una causa benefica. Si conclude con una presentazione pubblica a docenti, personale, compagni e comunità. È l'unica cosa che quasi ogni studente dell'ultimo anno fa, anche se la scuola dice chiaramente che il servizio in sé non è un requisito per il diploma.",
+      "of": "f48c5741",
       "at": [
         "cannon:edge.levers[0].items[3]"
       ]
     },
     {
-      "t": "**Global Education Certificate** — pienamente specificato: World History I–II più tre livelli di una lingua straniera, un corso **Glocal Perspectives** dell'ultimo anno con un saggio e una presentazione capstone, e almeno due delle tre esperienze globali. Conferito al Senior Night.",
-      "of": "2da7e6aa",
+      "t": "**Global Education Certificate** — i passaggi sono pienamente specificati. Gli studenti seguono World History I–II e tre livelli di una lingua straniera. Seguono un corso **Glocal Perspectives** dell'ultimo anno con un saggio e una presentazione capstone. Svolgono inoltre almeno due delle tre esperienze globali. Viene conferito al Senior Night.",
+      "of": "9379cfb0",
       "at": [
         "cannon:edge.levers[0].items[4]"
       ]
     },
     {
-      "t": "Entrepreneurship ed Engineering esistono come indirizzi di studio con reale profondità — Honors Design Thinking & Entrepreneurship Lab, Creative Design and Engineering I–III, il makerspace The Mill — ma non c'è alcuna distinzione o credenziale pubblicata per nessuno dei due, quindi vanno letti come indirizzi anziché certificati. Non è pubblicato alcun programma obbligatorio di internship o externship.",
-      "of": "8564254f",
+      "t": "Entrepreneurship ed Engineering sono indirizzi di studio con reale profondità: Honors Design Thinking & Entrepreneurship Lab, Creative Design and Engineering I–III e il makerspace The Mill. Ma la scuola non pubblica alcuna distinzione o credenziale per nessuno dei due. Quindi vanno letti come indirizzi, non come certificati. Non è pubblicato alcun programma obbligatorio di internship o externship.",
+      "of": "02b7fec4",
       "at": [
         "cannon:edge.levers[0].note"
       ]
     },
     {
-      "t": "**Il profilo pubblica il proprio tetto** — il carico massimo di AP/AT per anno, con una nota che precisa che il posizionamento in matematica determina se uno studente può raggiungerlo. Divulgare il tetto protegge gli studenti dall'essere valutati rispetto a una norma di carico illimitato che non è mai stato loro permesso di tentare.",
-      "of": "b8c86582",
+      "t": "**Il profilo pubblica il proprio tetto** — il numero massimo di corsi AP/AT consentiti per ogni anno. Una nota precisa che il posizionamento in matematica determina se uno studente può raggiungere quel limite. Stampare il tetto protegge gli studenti. Non verranno valutati rispetto a un carico di corsi illimitato che non è mai stato loro permesso di tentare.",
+      "of": "86378c8b",
       "at": [
         "cannon:edge.levers[1].items[0]"
       ]
@@ -7022,8 +7022,8 @@
       ]
     },
     {
-      "t": "**Ospitare traffico regionale di ammissioni** — Cannon è la sede del programma di case-studies e della fiera del Lake Norman, attirando i funzionari delle ammissioni in visita nel proprio campus su scala regionale anziché limitarsi a mandare fuori gli studenti.",
-      "of": "ed45f906",
+      "t": "**Ospitare traffico regionale di ammissioni** — Cannon ospita il programma di case-studies e la fiera del Lake Norman. Questo porta i funzionari delle ammissioni in visita nel proprio campus per un evento regionale. La scuola non si limita a mandare fuori i suoi studenti.",
+      "of": "b2c563ab",
       "at": [
         "cannon:edge.levers[1].items[3]"
       ]
@@ -7136,8 +7136,8 @@
       ]
     },
     {
-      "t": "Queste sono fasce, non una tabella per quintile — non è pubblicata alcuna suddivisione completa per quintile o decile, alcuna GPA mediana o alcun conteggio di studenti per fascia. Il modesto tetto ponderato deriva direttamente dal cap di 1.0 quality point e dal massimo di dodici corsi AP/AT, il che è un punto di trasparenza a favore di Cannon ma richiede contesto per lettori abituati a schemi di ponderazione più pesanti. Così come stampata, la fascia ponderata del top 10% (da 4.08) inizia sotto il limite superiore del middle 50% (4.11), e il profilo non spiega la sovrapposizione.",
-      "of": "6a51904a",
+      "t": "Queste sono fasce, non una tabella dei quintili (una suddivisione della classe in quinti). La scuola non pubblica alcuna suddivisione completa per quintile o decile, alcuna GPA mediana né alcun conteggio di studenti per fascia. Il tetto ponderato è modesto a causa di due limiti: il cap di 1.0 quality point e il massimo di dodici corsi AP/AT. Pubblicare questi limiti va a favore di Cannon. Ma i lettori abituati a scuole che aggiungono più peso avranno bisogno di quel contesto. Così come stampata, la fascia ponderata del top 10% (da 4.08) inizia sotto il limite superiore del middle 50% (4.11). Il profilo non spiega la sovrapposizione.",
+      "of": "7296dd3b",
       "at": [
         "cannon:wholeClass.gpaNote"
       ]
@@ -7150,8 +7150,8 @@
       ]
     },
     {
-      "t": "**Michelle Donah**, specialista dell’apprendimento dell’Upper School, e **Jennifer Ridenhour**, responsabile del supporto accademico (Dean of Academic Support) dell’Upper School — un organico consistente per 421 studenti dell’Upper School, e tra il supporto all’apprendimento meglio documentato in questo gruppo.",
-      "of": "9418d3e1",
+      "t": "**Michelle Donah**, specialista dell’apprendimento dell’Upper School, e **Jennifer Ridenhour**, responsabile del supporto accademico (Dean of Academic Support) dell’Upper School. È un organico consistente per 421 studenti dell’Upper School. È anche uno dei supporti all’apprendimento meglio documentati tra le scuole di questo sito.",
+      "of": "7859a4dc",
       "at": [
         "cannon:wholeClass.support[0].text"
       ]
@@ -7164,8 +7164,8 @@
       ]
     },
     {
-      "t": "Gli studenti **partecipano attivamente alla creazione dei propri piani di apprendimento personalizzati** con accomodamenti specifici, supportati da un team formalmente costituito: lo studente, i genitori, gli insegnanti, l'Assistant Head for Academics, lo Student Dean, l'Upper School Counselor e il tutor.",
-      "of": "c44ad1d3",
+      "t": "Gli studenti **partecipano attivamente alla creazione dei propri piani di apprendimento personalizzati** con accomodamenti specifici. Ogni piano è sostenuto da un team formalmente costituito. Ne fanno parte lo studente, i genitori, gli insegnanti, l'Assistant Head for Academics, lo Student Dean, l'Upper School Counselor e il tutor.",
+      "of": "e5155da9",
       "at": [
         "cannon:wholeClass.support[1].text"
       ]
@@ -7185,8 +7185,8 @@
       ]
     },
     {
-      "t": "L'**Academic Resource Center** per matematica, scrittura, scienze e lingue straniere; **academic coaching** 1:1 sulle funzioni esecutive; e un **Academic Lab** facilitato dai docenti e condotto tra pari.",
-      "of": "582a36af",
+      "t": "L'**Academic Resource Center** per matematica, scrittura, scienze e lingue straniere; **academic coaching** 1:1 su pianificazione, organizzazione e concentrazione; e un **Academic Lab** condotto tra pari e supervisionato dai docenti.",
+      "of": "cf2c24a0",
       "at": [
         "cannon:wholeClass.support[3].text"
       ]
@@ -7199,8 +7199,8 @@
       ]
     },
     {
-      "t": "L'elenco delle ammissioni va da MIT, Caltech, Stanford, Princeton e Yale fino ai community college Rowan-Cabarrus, Cape Fear, Central Piedmont e Davidson-Davie, Brevard, Barton, Catawba, Mars Hill, Wingate, Charleston Southern, Coastal Carolina, Lenoir-Rhyne, Queens, Western Carolina, UNC Pembroke e USC Beaufort. Una scuola che ottimizza per il prestigio ometterebbe questi; Cannon li stampa, e divulga la sua cifra del 2% del biennio anziché occultarla.",
-      "of": "b0bc2d40",
+      "t": "A un estremo dell'elenco delle ammissioni ci sono MIT, Caltech, Stanford, Princeton e Yale. All'altro ci sono i community college Rowan-Cabarrus, Cape Fear, Central Piedmont e Davidson-Davie. Quell'estremo comprende anche Brevard, Barton, Catawba, Mars Hill, Wingate, Charleston Southern, Coastal Carolina, Lenoir-Rhyne, Queens, Western Carolina, UNC Pembroke e USC Beaufort. Una scuola a caccia di prestigio li ometterebbe. Cannon li stampa, e mostra la sua cifra del 2% del biennio anziché nasconderla.",
+      "of": "6c1ee07c",
       "at": [
         "cannon:wholeClass.middle[0].text"
       ]
@@ -7227,15 +7227,15 @@
       ]
     },
     {
-      "t": "Università internazionali (St Andrews, Edinburgh, Aberdeen — un'iscrizione confermata del 2023, Manchester, King’s College London, Trinity College Dublin, University College Dublin, The American University of Paris, McGill, Toronto, Montreal e Western); accademie militari e forze armate (le accademie di Air Force, Navy e Coast Guard, The Citadel e VMI); istituti tecnici (Caltech, Rose-Hulman, Stevens, Colorado School of Mines, RPI, WPI, Illinois Tech, RIT ed Embry-Riddle); HBCU (Alabama A&M, Clark Atlanta, Elizabeth City State, Howard, NC A&T, NC Central, South Carolina State, Southern University and A&M, Spelman, West Virginia State e Winston-Salem State).",
-      "of": "e00702d5",
+      "t": "Università internazionali: St Andrews, Edinburgh, Aberdeen (un'iscrizione confermata del 2023), Manchester, King’s College London e Trinity College Dublin. Inoltre University College Dublin, The American University of Paris, McGill, Toronto, Montreal e Western. Accademie militari e forze armate: le accademie di Air Force, Navy e Coast Guard, The Citadel e VMI. Istituti tecnici: Caltech, Rose-Hulman, Stevens, Colorado School of Mines, RPI, WPI, Illinois Tech, RIT ed Embry-Riddle. HBCU (college e università storicamente afroamericani): Alabama A&M, Clark Atlanta, Elizabeth City State, Howard, NC A&T e NC Central. Inoltre South Carolina State, Southern University and A&M, Spelman, West Virginia State e Winston-Salem State.",
+      "of": "7c114d71",
       "at": [
         "cannon:wholeClass.middle[2].text"
       ]
     },
     {
-      "t": "Un programma stabile e strutturalmente onesto — continuità quadriennale del consulente, un tetto di carico pubblicato, vere difese di ricerca e un genuino elenco di immatricolazione — avvolto in una divulgazione degli esiti più esile rispetto alle scuole omologhe più grandi.",
-      "of": "a8f666a7",
+      "t": "Un programma stabile e onesto per costruzione. Gli studenti mantengono lo stesso consulente per tutti e quattro gli anni. Ha inoltre un tetto di carico di corsi pubblicato, vere difese di ricerca e un genuino elenco dei college a cui si sono iscritti i diplomati. Ma condivide meno dati sugli esiti rispetto alle scuole paragonabili più grandi.",
+      "of": "d43607b4",
       "at": [
         "cannon:verdict.headline"
       ]
@@ -7255,15 +7255,15 @@
       ]
     },
     {
-      "t": "gli studenti mantengono lo stesso college counselor per l'intera carriera nell'Upper School anziché essere passati ad altri nel terzo anno — e l'organico mostra gli stessi quattro direttori in tre profili pubblicati (è cambiato solo il ruolo di coordinamento).",
-      "of": "839853dc",
+      "t": "gli studenti mantengono lo stesso college counselor per l'intera Upper School, anziché essere passati ad altri nel terzo anno. L'organico mostra inoltre gli stessi quattro direttori in tre profili pubblicati (è cambiato solo il coordinatore).",
+      "of": "17fe0067",
       "at": [
         "cannon:verdict.points[0].text"
       ]
     },
     {
-      "t": "Il tetto di rigore è divulgato, non implicito",
-      "of": "6a756ffa",
+      "t": "Il tetto del carico di corsi è dichiarato, non sottinteso",
+      "of": "7d14b77e",
       "at": [
         "cannon:verdict.points[1].label"
       ]
@@ -7290,15 +7290,15 @@
       ]
     },
     {
-      "t": "Pubblica un elenco effettivo delle immatricolazioni",
-      "of": "eab34282",
+      "t": "Pubblica un elenco dei college a cui i diplomati si sono effettivamente iscritti",
+      "of": "1a6f34ea",
       "at": [
         "cannon:verdict.points[3].label"
       ]
     },
     {
-      "t": "58 istituzioni in cui un diplomato della Class of 2023 si è effettivamente iscritto — Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary e la Air Force Academy. Si tratta di una prova più solida di qualsiasi riepilogo delle ammissioni — e l'elenco delle ammissioni accanto ora copre il 2022–2026.",
-      "of": "0eb78f24",
+      "t": "58 istituzioni in cui un diplomato della Class of 2023 si è effettivamente iscritto, tra cui Stanford, Duke, Penn, UCLA, USC, Vanderbilt, Middlebury, Vassar, Georgia Tech, UNC, UVA, William & Mary e la Air Force Academy. È una prova più solida di qualsiasi elenco delle ammissioni. L'elenco delle ammissioni accanto ora copre il 2022–2026.",
+      "of": "b3465820",
       "at": [
         "cannon:verdict.points[3].text"
       ]
@@ -7332,8 +7332,8 @@
       ]
     },
     {
-      "t": "L'elenco delle ammissioni più recente copre il 2024–26, ma l'elenco di immatricolazione più recente è quello della Class of 2023. Dove si sono effettivamente iscritte le Classi dal 2024 al 2026?",
-      "of": "7cfe9e1e",
+      "t": "L'elenco delle ammissioni più recente copre il 2024–26, ma l'elenco più recente dei college a cui si sono iscritti i diplomati è quello della Class of 2023. Dove si sono effettivamente iscritte le Classi 2024–2026?",
+      "of": "fabe1130",
       "at": [
         "cannon:verdict.checklist[0]"
       ]
@@ -7522,15 +7522,15 @@
       ]
     },
     {
-      "t": "Dal 2006 — la prima classe diplomata — la scuola conta 28 Finalisti National Merit e 70 studenti Menzionati, un registro cresciuto di due Finalisti e nove Menzionati tra le ultime due edizioni del profilo.",
-      "of": "3e057851",
+      "t": "Dal 2006, l'anno della sua prima classe diplomata, la scuola conta 28 Finalisti National Merit e 70 studenti Menzionati. Questo conteggio è cresciuto di due Finalisti e nove Menzionati tra le ultime due edizioni del profilo.",
+      "of": "53bc646c",
       "at": [
         "covenant-day:transcript.meritNote"
       ]
     },
     {
-      "t": "L'architettura del rigore",
-      "of": "a09f8c3a",
+      "t": "Come è costruito il carico di corsi",
+      "of": "0e4807af",
       "at": [
         "covenant-day:transcript.depthTitle"
       ]
@@ -7882,8 +7882,8 @@
       ]
     },
     {
-      "t": "225 istituzioni nell'elenco pubblicato delle ammissioni 2023–2026 — con le immatricolazioni in grassetto, così si vede dove gli studenti sono andati davvero.",
-      "of": "c18f5e7d",
+      "t": "225 istituzioni nell'elenco pubblicato delle ammissioni 2023–2026, con le iscrizioni in grassetto, così si vede dove gli studenti sono andati davvero.",
+      "of": "69fb7fbd",
       "at": [
         "covenant-day:outcomes.headline"
       ]
@@ -8001,15 +8001,15 @@
       ]
     },
     {
-      "t": "Nessuna percentuale di tasso di immatricolazione",
-      "of": "6c917bc8",
+      "t": "Nessuna percentuale di tasso di iscrizione",
+      "of": "146a744e",
       "at": [
         "covenant-day:outcomes.scholarships[2]"
       ]
     },
     {
-      "t": "La convenzione grassetto-uguale-immatricolazione è di per sé una divulgazione insolita: poiché entrambi gli elenchi pubblicati la usano e si sovrappongono sulle classi 2023–24, ammissioni e iscrizioni possono essere incrociate tra le edizioni.",
-      "of": "a83cb3d4",
+      "t": "Segnare le iscrizioni in grassetto è di per sé un livello di trasparenza insolito. Entrambi gli elenchi pubblicati lo usano, e si sovrappongono sulle classi 2023–24. Quindi ammissioni e iscrizioni possono essere incrociate tra le edizioni.",
+      "of": "33e59bb1",
       "at": [
         "covenant-day:outcomes.scholarshipsNote"
       ]
@@ -8106,8 +8106,8 @@
       ]
     },
     {
-      "t": "Rigore leggibile",
-      "of": "0dc25c94",
+      "t": "Corsi impegnativi, mostrati con chiarezza",
+      "of": "bce2d8e9",
       "at": [
         "covenant-day:edge.levers[2].title"
       ]
@@ -8134,8 +8134,8 @@
       ]
     },
     {
-      "t": "La politica di nessuna graduatoria più una chiave di ponderazione completa consente a chi legge di ricostruire il rigore nel contesto",
-      "of": "427aa388",
+      "t": "La politica di nessuna graduatoria più una chiave di ponderazione completa consente a chi legge di capire quanto fosse impegnativo un orario, nel contesto",
+      "of": "c34411d2",
       "at": [
         "covenant-day:edge.levers[2].items[2]"
       ]
@@ -8303,8 +8303,8 @@
       ]
     },
     {
-      "t": "Le immatricolazioni in grassetto vanno da Dartmouth e Duke fino a Covenant College, Cedarville, Montreat, community college e programmi vicini ai mestieri — una scuola che piazzasse solo il suo quartile migliore non produrrebbe quella dispersione.",
-      "of": "00394520",
+      "t": "Le iscrizioni in grassetto vanno da Dartmouth e Duke fino a Covenant College, Cedarville, Montreat, community college e programmi legati ai mestieri. Una scuola che collocasse solo il suo quarto migliore di studenti non produrrebbe quella dispersione.",
+      "of": "eea98719",
       "at": [
         "covenant-day:wholeClass.middle[0].text"
       ]
@@ -8324,15 +8324,15 @@
       ]
     },
     {
-      "t": "Non è pubblicata alcuna distribuzione da nessuna parte: niente quantili di GPA, niente percentili dei punteggi, niente tassi di immatricolazione per classe. Questa scheda esce con gli aggregati qui sopra perché sono genuinamente informativi — ma la forma della classe non è ricostruibile da fonti pubbliche, e ciò discende dalla stessa politica di nessuna graduatoria della scuola.",
-      "of": "59ca5e57",
+      "t": "Non è pubblicato da nessuna parte come si distribuiscono i risultati: niente suddivisioni della GPA, niente percentili dei punteggi e niente tassi di iscrizione per classe. Questa scheda mostra i dati di sintesi qui sopra perché sono davvero utili. Ma la forma della classe non si può ricostruire da fonti pubbliche. Ciò discende dalla stessa politica di nessuna graduatoria della scuola.",
+      "of": "7f063ba3",
       "at": [
         "covenant-day:wholeClass.flags[0].text"
       ]
     },
     {
-      "t": "Un prodotto accademico rigoroso e leggibile con un carico per consulente insolitamente pesante — e una divulgazione eccellente sugli esiti, silenziosa sul processo.",
-      "of": "69b1bef2",
+      "t": "Un programma accademico impegnativo e chiaramente documentato, con un carico per consulente insolitamente pesante. Condivide dettagli eccellenti sugli esiti, ma tace sul processo.",
+      "of": "093885aa",
       "at": [
         "covenant-day:verdict.headline"
       ]
@@ -8373,8 +8373,8 @@
       ]
     },
     {
-      "t": "L'immatricolazione è davvero visibile",
-      "of": "08e83102",
+      "t": "Si vede davvero dove si sono iscritti i diplomati",
+      "of": "bdef2cea",
       "at": [
         "covenant-day:verdict.points[2].label"
       ]
@@ -8486,8 +8486,8 @@
       ]
     },
     {
-      "t": "Davidson Day pubblica per intero il proprio meccanismo di valutazione — la scala, la ponderazione e un elenco insolitamente esplicito di ciò che è escluso dalla GPA — ma nessun risultato degli esami AP e nessun record National Merit.",
-      "of": "410e02c8",
+      "t": "Davidson Day pubblica per intero come funzionano i suoi voti: la scala, la ponderazione e un elenco insolitamente chiaro di ciò che la GPA esclude. Ma non pubblica alcun risultato degli esami AP né alcun record National Merit.",
+      "of": "c65666de",
       "at": [
         "davidson-day:transcript.headline"
       ]
@@ -8605,8 +8605,8 @@
       ]
     },
     {
-      "t": "Sono esclusi i corsi trasferiti, i corsi della Upper School seguiti nella Middle School, gli Independent Studies e i corsi online non promossi dalla scuola; la GPA riflette solo il lavoro svolto a Davidson Day.",
-      "of": "33116563",
+      "t": "La GPA esclude i corsi trasferiti, i corsi della Upper School seguiti nella Middle School, gli Independent Studies e i corsi online non promossi dalla scuola. Conta solo il lavoro svolto a Davidson Day.",
+      "of": "dc9fb4bb",
       "at": [
         "davidson-day:transcript.trust[2].text"
       ]
@@ -8626,22 +8626,22 @@
       ]
     },
     {
-      "t": "Non è pubblicato alcun risultato degli esami AP di alcun tipo — né il numero di esami sostenuti, né il numero di studenti, né la quota con punteggio 3+, né se gli studenti di un corso AP siano tenuti a sostenere l'esame. L'offerta indica cosa uno studente può seguire; non dice nulla sui risultati.",
-      "of": "a3b8a761",
+      "t": "Non è pubblicato alcun risultato degli esami AP di alcun tipo. La scuola non indica il numero di esami sostenuti, il numero di studenti o la quota con punteggio 3+. Né dice se gli studenti di un corso AP siano tenuti a sostenere l'esame. L'elenco dei corsi indica cosa uno studente può seguire. Non dice nulla sui risultati.",
+      "of": "51b07f57",
       "at": [
         "davidson-day:transcript.flags[2].text"
       ]
     },
     {
-      "t": "Non è stato possibile individuare alcun record di riconoscimenti National Merit o College Board nei materiali della scuola, nel suo feed di notizie o negli elenchi della National Merit Scholarship Corporation. Non pubblicato non equivale a zero — con una classe di ~50 studenti un conteggio nullo o di poche unità sarebbe irrilevante.",
-      "of": "7086c489",
+      "t": "Non è stato possibile trovare alcun record di riconoscimenti National Merit o College Board nei materiali della scuola, nel suo feed di notizie o negli elenchi della National Merit Scholarship Corporation. Non pubblicato non significa zero. In una classe di ~50 studenti, un conteggio pari a zero o a pochi sarebbe normale.",
+      "of": "b22f5ec3",
       "at": [
         "davidson-day:transcript.flags[3].text"
       ]
     },
     {
-      "t": "Il “most rigorous course load” non è mai definito: nessun massimo di AP dichiarato, nessun criterio di accesso pubblicato e nessuna descrizione di come la scuola risponda alla domanda sul rigore del curriculum del Common App.",
-      "of": "5a5c93c9",
+      "t": "Il “most rigorous course load” non è mai definito. Non c'è un massimo di AP dichiarato né una regola pubblicata su chi possa seguire gli AP. La scuola non descrive nemmeno come risponda alla domanda del Common App sul rigore del curriculum (quanto siano impegnativi i corsi di uno studente).",
+      "of": "4c2ea1ba",
       "at": [
         "davidson-day:transcript.flags[4].text"
       ]
@@ -8654,8 +8654,8 @@
       ]
     },
     {
-      "t": "Il carico di lavoro contenuto è la parte credibile. Ciò che manca è qualsiasi impegno scritto su ciò che l'ufficio effettivamente garantisce: nessuna promessa pubblicata di revisione prima dell'invio, nessuna posizione su ED/EA, nessun protocollo per le lettere di raccomandazione.",
-      "of": "8ed570c9",
+      "t": "Il carico di lavoro contenuto è la parte credibile. Ciò che manca è qualsiasi impegno scritto su ciò che l'ufficio effettivamente garantisce. Non pubblica alcuna promessa di rivedere le candidature prima dell'invio, alcuna posizione su Early Decision o Early Action, né alcuna procedura per le lettere di raccomandazione.",
+      "of": "71b21a46",
       "at": [
         "davidson-day:counseling.subhead"
       ]
@@ -8850,8 +8850,8 @@
       ]
     },
     {
-      "t": "Le candidature e i materiali vengono inviati tramite Scoir. Si noti cosa manca da quell'elenco: le lettere di raccomandazione dei docenti compaiono solo come passaggio di invio su Scoir, senza alcuna politica pubblicata su quante servano, su come si contattano i docenti o su come l'ufficio li supporti.",
-      "of": "dc17d2de",
+      "t": "Le candidature e i materiali vengono inviati tramite Scoir. Si noti cosa lascia fuori quell'elenco. Le lettere di raccomandazione dei docenti compaiono solo come passaggio su Scoir. Non c'è alcuna politica pubblicata su quante ne servano, su come si chiedono ai docenti o su come l'ufficio li supporti.",
+      "of": "4696b336",
       "at": [
         "davidson-day:counseling.mechanicsNote"
       ]
@@ -8892,8 +8892,8 @@
       ]
     },
     {
-      "t": "L'ufficio non pubblica alcun impegno a leggere ogni candidatura prima dell'invio, nessuna dottrina di Early Decision / Early Action e nessun conteggio delle visite dei consulenti ai campus. Un ufficio di due persone può plausibilmente rivedere tutto — ma non lo dichiara mai per iscritto.",
-      "of": "b5bf0222",
+      "t": "L'ufficio non pubblica alcun impegno a leggere ogni candidatura prima dell'invio. Non dichiara alcun approccio a Early Decision / Early Action, né alcun conteggio delle visite dei consulenti ai campus. Un ufficio di due persone potrebbe ben rivedere tutto. Ma non lo dice mai per iscritto.",
+      "of": "c3be8c44",
       "at": [
         "davidson-day:counseling.flags[2].text"
       ]
@@ -8906,15 +8906,15 @@
       ]
     },
     {
-      "t": "L'elenco esteso qui sotto è un elenco cumulativo delle ammissioni su sei anni (2021–2026), non un elenco delle immatricolazioni: 278 istituzioni, ciascuna delle quali ha ammesso almeno uno studente di Davidson Day nell'arco di sei classi diplomate. Unisce i due elenchi più recenti dei profile della scuola, 2021–2025 e 2022–2026.",
-      "of": "25cd6f73",
+      "t": "Il lungo elenco qui sotto copre sei anni di ammissioni (2021–2026). Non è un elenco dei college a cui si sono iscritti gli studenti. Nomina 278 college, ciascuno dei quali ha ammesso almeno uno studente di Davidson Day nell'arco di sei classi diplomate. Unisce i due elenchi più recenti dei profile della scuola, 2021–2025 e 2022–2026.",
+      "of": "6d064fbf",
       "at": [
         "davidson-day:outcomes.subhead"
       ]
     },
     {
-      "t": "della Class of 2025 si è immatricolata presso un'istituzione quadriennale",
-      "of": "dcb6a6e2",
+      "t": "della Class of 2025 si è iscritta a un college quadriennale",
+      "of": "ec352f69",
       "at": [
         "davidson-day:outcomes.stats[0].label"
       ]
@@ -9025,15 +9025,15 @@
       ]
     },
     {
-      "t": "I $7.9M sono la formulazione della scuola stessa — “offered”, non accettati, quindi includono premi da università che nessuno studente ha frequentato. Il numero di studenti che ricevono aiuti di merito, il premio mediano e il totale accettato sono tutti non pubblicati, così come gli esiti Morehead-Cain, Robertson, QuestBridge e ROTC.",
-      "of": "9473cc9c",
+      "t": "I $7.9M usano la parola della scuola stessa, “offered”, non accettati. Quindi includono premi da università che nessuno studente ha frequentato. La scuola non pubblica quanti studenti abbiano ricevuto borse di merito, il premio mediano o il totale accettato. Anche gli esiti Morehead-Cain, Robertson, QuestBridge e ROTC non sono pubblicati.",
+      "of": "eb4189ce",
       "at": [
         "davidson-day:outcomes.scholarshipsNote"
       ]
     },
     {
-      "t": "Presso quali università gli studenti si siano effettivamente iscritti non è pubblicato, e non lo sono nemmeno dati su eventuali flussi ricorrenti o sul rendimento per singola università. Da questo elenco non si può dedurre un canale preferenziale verso alcuna singola università.",
-      "of": "cf881004",
+      "t": "La scuola non pubblica a quali università gli studenti si siano effettivamente iscritti. Non fornisce nemmeno dati su iscrizioni ricorrenti alla stessa università, o su quanti studenti ammessi si siano iscritti a ciascuna. Da questo elenco non si può capire se gli studenti vadano in una stessa università anno dopo anno.",
+      "of": "21182791",
       "at": [
         "davidson-day:outcomes.flags[0].text"
       ]
@@ -9046,78 +9046,78 @@
       ]
     },
     {
-      "t": "Ciò che la scuola non può offrire è il riconoscimento istituzionale del nome — quindi la leva che effettivamente controlla è il Profile stesso, il volume delle visite dei rappresentanti e l'accesso ai consulenti.",
-      "of": "6f09ef56",
+      "t": "Ciò che la scuola non può offrire è un nome noto. Quindi ciò che può controllare è il Profile stesso, il numero di visite dei rappresentanti universitari e l'accesso ai consulenti.",
+      "of": "cf95af9e",
       "at": [
         "davidson-day:edge.subhead"
       ]
     },
     {
-      "t": "**AFAR international field research** — autentici scavi archeologici in Belize (dal 2009), Spagna (2014), Grecia (2017) e Portogallo (2018). Lo scavo in Belize si svolge nell'ambito del progetto BVAR su autorizzazione del Belize Institute of Archaeology a Cahal Pech; la storia del programma compare nella letteratura sottoposta a revisione paritaria (*Heritage*, 2020). Gli studenti pubblicano e presentano a conferenze internazionali.",
-      "of": "b7852a0a",
+      "t": "**AFAR international field research** — veri scavi archeologici in Belize (dal 2009), Spagna (2014), Grecia (2017) e Portogallo (2018). Lo scavo in Belize si svolge con il progetto BVAR a Cahal Pech, su autorizzazione del Belize Institute of Archaeology. La storia del programma compare in una rivista sottoposta a revisione paritaria (*Heritage*, 2020). Gli studenti pubblicano e presentano a conferenze in tutto il mondo.",
+      "of": "36bf8fa1",
       "at": [
         "davidson-day:edge.levers[0].items[0]"
       ]
     },
     {
-      "t": "**Global Studies Diploma** — nucleo di Honors Anthropology, quattro corsi AP approvati, la stessa lingua straniera in tutti e quattro gli anni di Upper School, un minimo di due settimane di ricerca sul campo internazionale e un elaborato conclusivo. Cosa cruciale, *produce un certificato dei voti e profilo separato inviato alle università* — un documento aggiuntivo nel fascicolo, non una riga sul certificato dei voti.",
-      "of": "152ebb66",
+      "t": "**Global Studies Diploma** — un corso di base in Honors Anthropology, quattro corsi AP approvati e la stessa lingua straniera in tutti e quattro gli anni di Upper School. Richiede inoltre almeno due settimane di ricerca sul campo internazionale e un elaborato conclusivo. Cosa più importante, *produce un certificato dei voti e profilo separato inviato alle università*. È un documento aggiuntivo nel fascicolo, non una riga sul certificato dei voti.",
+      "of": "39b58995",
       "at": [
         "davidson-day:edge.levers[0].items[1]"
       ]
     },
     {
-      "t": "**STEMM and Business & Civic Engagement Diplomas** — ciascuno richiede almeno 100 ore di tirocinio o pratica approvati, Ethics Labs trimestrali, un corso Research Methods Honors all'undicesimo anno, un tutoraggio Capstone Research Honors al dodicesimo anno e una presentazione pubblica alla Scholars Research Conference.",
-      "of": "2820add2",
+      "t": "**STEMM and Business & Civic Engagement Diplomas** — ciascuno richiede almeno 100 ore di tirocinio o pratica (lavoro sul campo supervisionato) approvati. Ciascuno richiede inoltre Ethics Labs ogni trimestre e un corso Research Methods Honors all'11° anno. Al 12° anno, gli studenti svolgono un tutoraggio Capstone Research Honors. Poi tengono una presentazione pubblica alla Scholars Research Conference.",
+      "of": "505a854f",
       "at": [
         "davidson-day:edge.levers[0].items[2]"
       ]
     },
     {
-      "t": "**Percorsi di recruiting e arte** — un Athletic Recruitment Workshop annuale ed eventi National Signing Day (in una recente giornata si sono registrate sette firme NLI); AP Studio Art più esiti di portfolio a SCAD, Pratt, Manhattan School of Music, UNCSA e AMDA.",
-      "of": "864071c0",
+      "t": "**Percorsi di recruiting e arte** — un Athletic Recruitment Workshop annuale ed eventi National Signing Day. In una recente giornata si sono registrate sette firme NLI (National Letter of Intent). Per le arti c'è AP Studio Art, più esiti di portfolio a SCAD, Pratt, Manhattan School of Music, UNCSA e AMDA.",
+      "of": "570ca4e5",
       "at": [
         "davidson-day:edge.levers[0].items[3]"
       ]
     },
     {
-      "t": "Il tirocinio/capstone richiesto si applica solo ai candidati alla Diploma Distinction — non esiste alcun tirocinio o progetto conclusivo obbligatorio a livello di scuola. I dati di partecipazione ad AFAR (\"hundreds\", \"150+\", \"200+\") sono tutti riferiti all'intero programma, distribuito su molte scuole; quanti studenti di Davidson Day nello specifico vi abbiano preso parte non è pubblicato.",
-      "of": "893dd288",
+      "t": "Il tirocinio o capstone richiesto si applica solo agli studenti che puntano a una Diploma Distinction. Non esiste alcun tirocinio o progetto conclusivo obbligatorio a livello di scuola. I dati di partecipazione ad AFAR (\"hundreds\", \"150+\", \"200+\") riguardano l'intero programma, distribuito su molte scuole. Quanti studenti di Davidson Day vi abbiano preso parte non è pubblicato.",
+      "of": "cd6833ed",
       "at": [
         "davidson-day:edge.levers[0].note"
       ]
     },
     {
-      "t": "**Lo School Profile come strumento** — la leva più forte qui, e ben realizzata. Quattro pagine, aggiornate, pubblicamente collegate: scala di valutazione e ponderazione complete, esclusioni dalla GPA, la fascia di GPA della Class of 2027, il catalogo completo dei corsi con i corsi non offerti chiaramente segnalati, i requisiti di diploma, l'Honor Code e l'elenco delle ammissioni quinquennale. Per un lettore che non è mai stato a Davidson, NC, inquadra uno studente senza appoggiarsi ai punteggi dei test o alla graduatoria — esattamente il compito che deve svolgere.",
-      "of": "d2faa3ef",
+      "t": "**Lo School Profile come strumento** — la leva più forte qui, e ben realizzata. Sono quattro pagine, aggiornate e pubblicamente collegate. Fornisce la scala di valutazione e la ponderazione complete, ciò che la GPA esclude e la fascia di GPA della Class of 2027. Contiene anche il catalogo completo dei corsi, con i corsi non offerti chiaramente segnalati. Seguono i requisiti di diploma, l'Honor Code e l'elenco delle ammissioni quinquennale. Un lettore che non è mai stato a Davidson, NC, può capire uno studente senza appoggiarsi ai punteggi dei test o alla graduatoria. È esattamente il compito che il Profile deve svolgere.",
+      "of": "4b6cfddc",
       "at": [
         "davidson-day:edge.levers[1].items[0]"
       ]
     },
     {
-      "t": "**Segnalazione dell'integrità** — l'Honor Code è pubblicato integralmente e la scuola detiene le consuete affiliazioni di pratica etica: NACAC, SACAC e ACCIS, insieme a SACS, SAIS, NAIS, NCAIS, NCISAA, Educational Records Bureau (ERB) e College Board.",
-      "of": "0bf6e57c",
+      "t": "**Segnalazione dell'integrità** — l'Honor Code è pubblicato parola per parola. La scuola detiene le consuete affiliazioni a enti che fissano regole etiche per le ammissioni universitarie: NACAC, SACAC e ACCIS. È inoltre membro di SACS, SAIS, NAIS, NCAIS, NCISAA, Educational Records Bureau (ERB) e College Board.",
+      "of": "6f9747f3",
       "at": [
         "davidson-day:edge.levers[1].items[1]"
       ]
     },
     {
-      "t": "**Co-organizzazione regionale** — ogni primavera Davidson Day co-organizza con la Cannon School il Lake Norman Area College Admissions Case Studies Program and College Fair, mettendo le famiglie all'interno di un finto comitato di ammissione che esamina fascicoli reali (romanzati).",
-      "of": "8ed58eaf",
+      "t": "**Co-organizzazione regionale** — ogni primavera Davidson Day e la Cannon School co-organizzano il Lake Norman Area College Admissions Case Studies Program and College Fair. Le famiglie fanno da finto comitato di ammissione. Esaminano fascicoli reali con i dettagli modificati.",
+      "of": "b542ce02",
       "at": [
         "davidson-day:edge.levers[1].items[2]"
       ]
     },
     {
-      "t": "**Prossimità, non partnership** — il Davidson College si trova a un miglio di distanza e compare nell'elenco delle ammissioni, ma non è pubblicato alcun accordo di dual-enrollment, accesso ai corsi o ammissione preferenziale. La prossimità è un fatto, non un canale documentato.",
-      "of": "fbd841f1",
+      "t": "**Prossimità, non partnership** — il Davidson College si trova a un miglio di distanza e compare nell'elenco delle ammissioni. Ma la scuola non pubblica alcun accordo di dual-enrollment, accesso ai corsi o ammissione preferenziale. Essere vicini è un fatto, non un percorso documentato dall'una all'altro.",
+      "of": "9599e739",
       "at": [
         "davidson-day:edge.levers[1].items[3]"
       ]
     },
     {
-      "t": "La parte relativa alla comunicazione disciplinare della segnalazione dell'integrità non è divulgata: se sospensioni o violazioni dell'honor code vengano riportate nel secondary school report, e come uno studente possa spiegare un episodio, non è pubblicato.",
-      "of": "407a78fc",
+      "t": "La parte della segnalazione dell'integrità relativa alla comunicazione disciplinare non è divulgata. La scuola non dice se sospensioni o violazioni dell'honor code vengano riportate nel secondary school report che invia alle università. Né dice come uno studente possa spiegare un episodio.",
+      "of": "b3b88862",
       "at": [
         "davidson-day:edge.levers[1].note"
       ]
@@ -9263,8 +9263,8 @@
       ]
     },
     {
-      "t": "Tre punti di sintesi sono l'intera divulgazione — non esiste alcuna tabella per quintili o decili, quindi un lettore delle ammissioni apprende la fascia e il valore intermedio ma nulla sulla forma: quanto strettamente si aggrega la classe, quanti si collocano sopra 4.0 o dove cade il 25° percentile. Pubblicare un minimo di 2.58 accanto a un massimo di 4.67 è comunque una scelta di trasparenza che molte scuole simili evitano.",
-      "of": "bd49aad4",
+      "t": "Tre punti di sintesi sono tutto ciò che la scuola condivide. Non esiste alcuna tabella che suddivida la classe in quinti o decimi. Quindi un lettore delle ammissioni apprende la fascia e il valore intermedio, ma nulla sulla forma. Non può vedere quanto strettamente si aggrega la classe, quanti si collocano sopra 4.0 o dove cade il 25° percentile. Pubblicare un minimo di 2.58 accanto a un massimo di 4.67 è comunque una scelta di trasparenza che molte scuole simili evitano.",
+      "of": "128c0b09",
       "at": [
         "davidson-day:wholeClass.gpaNote"
       ]
@@ -9277,8 +9277,8 @@
       ]
     },
     {
-      "t": "Una struttura di supporto realmente dotata di personale anziché uno sportello per gli accomodamenti: tutoraggio individuale durante o al di fuori dell'orario scolastico, coaching accademico e supporto alle funzioni esecutive, gruppi di abilità sociali, terapia logopedica e terapia occupazionale.",
-      "of": "d06cad02",
+      "t": "Si tratta di un team di supporto realmente dotato di personale, non solo di uno sportello per gli accomodamenti. Offre tutoraggio individuale durante o al di fuori dell'orario scolastico. Offre coaching accademico e aiuto per pianificazione, organizzazione e concentrazione. Gestisce anche gruppi di abilità sociali. E offre terapia logopedica e terapia occupazionale.",
+      "of": "e96d27e4",
       "at": [
         "davidson-day:wholeClass.support[0].text"
       ]
@@ -9291,15 +9291,15 @@
       ]
     },
     {
-      "t": "La copertura va dai due anni di età fino al dodicesimo anno, così il supporto non si interrompe alla soglia della Upper School. I tutor lavorano in collaborazione con le famiglie e i docenti in classe, e il coaching accademico individuale sviluppa le funzioni esecutive.",
-      "of": "25ae8b81",
+      "t": "Il supporto va dai due anni di età fino al dodicesimo anno, quindi non si interrompe alla soglia della Upper School. I tutor lavorano con le famiglie e con i docenti in classe. Il coaching accademico individuale sviluppa capacità di pianificazione, organizzazione e concentrazione.",
+      "of": "6ed609bf",
       "at": [
         "davidson-day:wholeClass.support[1].text"
       ]
     },
     {
-      "t": "Le pagine della scuola non dicono mai se il LEC redige o gestisce accomodamenti, né tantomeno come verrebbero riconosciuti per i test College Board / ACT e per i servizi universitari per la disabilità. I servizi sono ben documentati; un eventuale passaggio di consegne nel processo di candidatura no.",
-      "of": "ce4a1667",
+      "t": "Le pagine della scuola non dicono mai se il LEC redige o gestisce accomodamenti. Non dicono nemmeno come verrebbero riconosciuti per i test College Board / ACT o dai servizi universitari per la disabilità. I servizi sono ben documentati. Un eventuale passaggio di consegne nel processo di candidatura no.",
+      "of": "997c29d5",
       "at": [
         "davidson-day:wholeClass.support[2].text"
       ]
@@ -9312,8 +9312,8 @@
       ]
     },
     {
-      "t": "L'elenco 2021–26 spazia da Brown, Dartmouth, Cornell e Chicago fino a istituzioni ad ampio accesso — Belmont Abbey, Brevard, Catawba, Mars Hill, Methodist, Wingate, Gardner-Webb, Lenoir-Rhyne, UNC Pembroke, Winston-Salem State. Una scuola che colloca solo il proprio quartile superiore non produrrebbe una gamma simile.",
-      "of": "215b1e05",
+      "t": "L'elenco 2021–26 spazia da Brown, Dartmouth, Cornell e Chicago fino a college che ammettono la maggior parte dei candidati. Tra questi Belmont Abbey, Brevard, Catawba, Mars Hill, Methodist, Wingate, Gardner-Webb, Lenoir-Rhyne, UNC Pembroke e Winston-Salem State. Una scuola che colloca solo il proprio quarto migliore non produrrebbe una gamma simile.",
+      "of": "3a5e14e1",
       "at": [
         "davidson-day:wholeClass.middle[0].text"
       ]
@@ -9326,15 +9326,15 @@
       ]
     },
     {
-      "t": "In una classe di 50 persone, una posizione ordinale è assai più dannosa che informativa. La politica di nessuna graduatoria è una scelta strutturale che protegge la fascia intermedia, e il Case Studies Program primaverile insegna alle famiglie a leggere le ammissioni come esigenza istituzionale anziché come graduatoria dei candidati.",
-      "of": "61809f5f",
+      "t": "In una classe di 50 persone, una graduatoria di classe è assai più dannosa che informativa. La politica di nessuna graduatoria protegge la fascia intermedia della classe. Il Case Studies Program primaverile insegna inoltre alle famiglie che le ammissioni dipendono da ciò di cui un college ha bisogno, non dalla classifica dei candidati.",
+      "of": "bf4b23bd",
       "at": [
         "davidson-day:wholeClass.middle[1].text"
       ]
     },
     {
-      "t": "Accademie militari (Air Force, West Point); conservatori e istituti d'arte (Manhattan School of Music, UNCSA, Pratt, SCAD, AMDA); sette università internazionali in cinque paesi (UCL, Edinburgh, Manchester, Toronto, Copenhagen, John Cabot, Richmond American London); e scuole tecniche specializzate (Embry-Riddle, Colorado School of Mines, RPI, RIT).",
-      "of": "9206153e",
+      "t": "Accademie militari: Air Force e West Point. Scuole di musica e d'arte: Manhattan School of Music, UNCSA, Pratt, SCAD e AMDA. Università internazionali: sette in cinque paesi (UCL, Edinburgh, Manchester, Toronto, Copenhagen, John Cabot, Richmond American London). Scuole tecniche specializzate: Embry-Riddle, Colorado School of Mines, RPI e RIT.",
+      "of": "50618b39",
       "at": [
         "davidson-day:wholeClass.middle[2].text"
       ]
@@ -9382,8 +9382,8 @@
       ]
     },
     {
-      "t": "AFAR non è un viaggio di volontariato: scavo su autorizzazione a Cahal Pech nell'ambito del progetto BVAR, quattro paesi con anni di avvio documentati, studenti che pubblicano e presentano a conferenze e una storia del programma nella letteratura sottoposta a revisione paritaria.",
-      "of": "45b32bca",
+      "t": "AFAR non è un viaggio di volontariato. Gli studenti scavano su autorizzazione a Cahal Pech con il progetto BVAR. Il programma si svolge in quattro paesi, ciascuno con un anno di avvio documentato. Gli studenti pubblicano e presentano a conferenze, e la storia del programma compare in una rivista sottoposta a revisione paritaria.",
+      "of": "9d726446",
       "at": [
         "davidson-day:verdict.points[0].text"
       ]
@@ -9396,8 +9396,8 @@
       ]
     },
     {
-      "t": "Strutturalmente diverso da un semplice riconoscimento d'onore — il Profile dichiara che un certificato dei voti e profilo aggiuntivo vengono inviati alle università, sostenuto dallo studio della lingua, da due settimane di ricerca sul campo internazionale e da un elaborato conclusivo.",
-      "of": "0f078fbe",
+      "t": "È una cosa di natura diversa da un semplice cordone d'onore. Il Profile dichiara che un certificato dei voti e un profilo aggiuntivi vengono inviati alle università. Il diploma è sostenuto dallo studio della lingua, da due settimane di ricerca sul campo internazionale e da un elaborato conclusivo.",
+      "of": "28c23eca",
       "at": [
         "davidson-day:verdict.points[1].text"
       ]
@@ -9445,8 +9445,8 @@
       ]
     },
     {
-      "t": "Non pubblicate i risultati degli esami AP — quale quota di esami AP ha ottenuto 3 o più lo scorso anno, quale quota erano 4 e 5, e gli studenti di un corso AP sono tenuti a sostenere l'esame?",
-      "of": "ede6ed50",
+      "t": "Non pubblicate i risultati degli esami AP. Quale quota di esami AP ha ottenuto 3 o più lo scorso anno, e quale quota erano 4 e 5? Gli studenti di un corso AP sono tenuti a sostenere l'esame?",
+      "of": "52e05442",
       "at": [
         "davidson-day:verdict.checklist[0]"
       ]
@@ -9536,8 +9536,8 @@
       ]
     },
     {
-      "t": "Il 73% degli studenti dell’ultimo anno ha ottenuto un 3 o superiore in almeno un esame AP, e l’80% ne ha sostenuto almeno uno — abbastanza per il Platinum AP School Honor Roll del College Board, il suo livello più alto.",
-      "of": "43be6875",
+      "t": "Il 73% degli studenti dell’ultimo anno ha ottenuto un 3 o superiore in almeno un esame AP, e l’80% ne ha sostenuto almeno uno. È abbastanza per il Platinum AP School Honor Roll del College Board, il suo livello più alto.",
+      "of": "e7dbfb4b",
       "at": [
         "carmel-christian:transcript.headline"
       ]
@@ -9613,8 +9613,8 @@
       ]
     },
     {
-      "t": "Il Platinum riconosce le scuole in cui una grande quota della classe dell’ultimo anno sia sostiene sia supera gli esami AP — **l’80% ha sostenuto un esame e il 73% ha ottenuto 3+**, quindi il riconoscimento si fonda sull’intera classe, non su una manciata di specialisti.",
-      "of": "dc229d7f",
+      "t": "Il Platinum va alle scuole in cui una grande quota degli studenti dell’ultimo anno sia sostiene gli esami AP sia ottiene buoni risultati. Qui **l’80% ha sostenuto un esame e il 73% ha ottenuto 3+**. Quindi il riconoscimento si fonda sull’intera classe, non su una manciata di fuoriclasse.",
+      "of": "d9112bfb",
       "at": [
         "carmel-christian:transcript.depth[0].text"
       ]
@@ -9678,8 +9678,8 @@
       ]
     },
     {
-      "t": "Non è pubblicato alcun registro di riconoscimenti National Merit / College Board — nessun conteggio per anno di Semifinalist, Finalist o Commended — quindi questa scheda non riporta alcun registro di meriti. La College Planning Timeline fa riferimento al National Merit solo attraverso il PSAT/NMSQT.",
-      "of": "f1929f7e",
+      "t": "Non è pubblicato alcun registro annuale dei riconoscimenti National Merit / College Board. Non ci sono conteggi per anno di Semifinalist, Finalist o Commended, quindi questa scheda non riporta alcun registro di meriti. La College Planning Timeline fa riferimento al National Merit solo attraverso il PSAT/NMSQT.",
+      "of": "7f4e5939",
       "at": [
         "carmel-christian:transcript.flags[1].text"
       ]
@@ -9979,8 +9979,8 @@
       ]
     },
     {
-      "t": "È il quadro “Anatomy of a College Application” pubblicato dall’ufficio stesso, alla lettera — otto parti nominate. Il caratteristico “College Boot Camp” unisce un Boot Camp Day con sessioni di follow-up “Logins and Letters”; parallelamente si svolge un laboratorio di scrittura del saggio per studenti con revisione, con la bozza dell’11ª classe letta da Berry e dai docenti di inglese.",
-      "of": "af33c7ff",
+      "t": "È il quadro “Anatomy of a College Application” pubblicato dall’ufficio stesso, parola per parola, con otto parti nominate. Il caratteristico “College Boot Camp” unisce un Boot Camp Day a sessioni di follow-up “Logins and Letters”. Parallelamente si svolge un laboratorio di scrittura del saggio per studenti con revisione. Berry e i docenti di inglese leggono la bozza dell’11ª classe.",
+      "of": "65085f2f",
       "at": [
         "carmel-christian:counseling.mechanicsNote"
       ]
@@ -10014,8 +10014,8 @@
       ]
     },
     {
-      "t": "La dimensione della classe dell’ultimo anno, il rapporto studenti-counselor e il numero annuo di visite dei rappresentanti dei college non sono pubblicati da nessuna parte sul sito pubblico — quindi qui non viene indicata alcuna cifra di carico, anziché ricavarla da un denominatore non pubblicato.",
-      "of": "adc056b8",
+      "t": "Il sito pubblico non pubblica la dimensione della classe dell’ultimo anno, il numero di studenti dell’ultimo anno per counselor né il numero annuo di visite dei rappresentanti dei college. Quindi questa scheda non indica alcuna cifra di carico, anziché ricavarla da un numero non pubblicato.",
+      "of": "453ac64f",
       "at": [
         "carmel-christian:counseling.flags[0].text"
       ]
@@ -10028,8 +10028,8 @@
       ]
     },
     {
-      "t": "La pagina non riporta alcun intervallo temporale, né conteggi né indicazioni di immatricolazione, quindi si legge come un elenco cumulativo di ammissioni. Qui è valutata rispetto agli attuali livelli U.S. News.",
-      "of": "b76388b4",
+      "t": "La pagina non riporta alcun intervallo temporale, né conteggi né indicazioni di dove gli studenti si siano iscritti. Quindi si legge come un elenco di ammissioni accumulato nel tempo. Qui è valutata rispetto agli attuali livelli U.S. News.",
+      "of": "7fc74c41",
       "at": [
         "carmel-christian:outcomes.subhead"
       ]
@@ -10120,8 +10120,8 @@
       ]
     },
     {
-      "t": "~215 istituzioni · nessun intervallo temporale, conteggio o indicazione di immatricolazione pubblicati",
-      "of": "92b6be66",
+      "t": "~215 istituzioni · nessun intervallo temporale, conteggio o indicazione di iscrizione pubblicati",
+      "of": "50a2af20",
       "at": [
         "carmel-christian:outcomes.collegesTotal"
       ]
@@ -10142,8 +10142,8 @@
       ]
     },
     {
-      "t": "Nessuna indicazione di immatricolazione — solo ammissioni",
-      "of": "a390b816",
+      "t": "Nessuna indicazione di iscrizione — solo ammissioni",
+      "of": "c80725c8",
       "at": [
         "carmel-christian:outcomes.scholarships[2]"
       ]
@@ -10207,15 +10207,15 @@
       ]
     },
     {
-      "t": "**Un piano sequenziato** — la timeline quadriennale pubblicata (Strong Start → Involvement & Service → Testing & Research → Essays & Applications) fa sì che uno studente costruisca la propria domanda a partire dalla 9ª classe, anziché metterla insieme nell’autunno dell’ultimo anno.",
-      "of": "9605a3f1",
+      "t": "**Un piano sequenziato** — la timeline quadriennale pubblicata procede Strong Start → Involvement & Service → Testing & Research → Essays & Applications. Così uno studente lavora alla propria domanda a partire dalla 9ª classe. Non la mette insieme in fretta nell’autunno dell’ultimo anno.",
+      "of": "587bb3a2",
       "at": [
         "carmel-christian:edge.levers[0].items[2]"
       ]
     },
     {
-      "t": "Leva 2 — La leva dell’ufficio",
-      "of": "116d2939",
+      "t": "Leva 2 — Ciò che porta l’ufficio",
+      "of": "9a6f2f13",
       "at": [
         "carmel-christian:edge.levers[1].title",
         "hickory-grove-christian:edge.levers[1].title"
@@ -10237,15 +10237,15 @@
       ]
     },
     {
-      "t": "**Un programma caratteristico che i rappresentanti vedono** — il College Admissions Panel porta in una stessa sala, per le famiglie, rappresentanti di college pubblici, privati e cristiani, un funzionario per gli aiuti finanziari, un reclutatore dei Marine e un cappellano universitario.",
-      "of": "9aca5eb2",
+      "t": "**Un programma caratteristico che i rappresentanti vedono** — il College Admissions Panel riunisce in una stessa sala rappresentanti dei college e famiglie. Provengono da college pubblici, privati e cristiani. Si uniscono a loro un funzionario per gli aiuti finanziari, un reclutatore dei Marine e un cappellano universitario.",
+      "of": "6b22733c",
       "at": [
         "carmel-christian:edge.levers[1].items[1]"
       ]
     },
     {
-      "t": "**Un transcript leggibile** — un intervallo di ponderazione dichiarato e una politica di non graduatoria permettono a un lettore di ricostruire il rigore nel contesto, e l’AP Honor Roll dà al programma un riconoscimento di terza parte.",
-      "of": "5374a8a3",
+      "t": "**Un transcript chiaro** — un intervallo di ponderazione dichiarato e una politica di non graduatoria permettono a un lettore di giudicare, nel contesto, quanto fossero impegnativi i corsi di uno studente. L’AP Honor Roll aggiunge un riconoscimento esterno.",
+      "of": "6feac78c",
       "at": [
         "carmel-christian:edge.levers[1].items[2]"
       ]
@@ -10265,8 +10265,8 @@
       ]
     },
     {
-      "t": "La scuola non stila una graduatoria, quindi l’intervallo ponderato fa le veci della posizione in classe — ma poiché non sono pubblicati percentili, quintili né il numero di candidati, la forma della classe dietro questi intervalli non è ricostruibile.",
-      "of": "7553373f",
+      "t": "La scuola non stila una graduatoria, quindi l’intervallo ponderato fa le veci della posizione in classe. Ma non pubblica percentili, quintili né il numero di candidati ai test. Quindi la forma della classe dietro questi intervalli non si può ricostruire.",
+      "of": "68322903",
       "at": [
         "carmel-christian:wholeClass.subhead"
       ]
@@ -10365,15 +10365,15 @@
       ]
     },
     {
-      "t": "L’elenco delle ammissioni va da Princeton e Duke passando per gli atenei pubblici della NC (Chapel Hill, NC State, UNC Charlotte, App State, East Carolina), college cristiani, community college e destinazioni tecnico-professionali (NASCAR Technical Institute) — l’ampiezza di una classe estesa, non uniformemente d’élite.",
-      "of": "c979c8be",
+      "t": "L’elenco delle ammissioni va da Princeton e Duke agli atenei pubblici della NC (Chapel Hill, NC State, UNC Charlotte, App State, East Carolina). Comprende anche college cristiani, community college e scuole tecnico-professionali (NASCAR Technical Institute). È l’ampiezza di una classe varia, non di una classe tutta d’élite.",
+      "of": "f3bf88c3",
       "at": [
         "carmel-christian:wholeClass.middle[0].text"
       ]
     },
     {
-      "t": "Compaiono destinazioni artistiche e specialistiche (SCAD, Ringling College of Art & Design, Watkins College of Art, UNC School of the Arts, New York Film Academy, The American Musical & Dramatic Academy), accanto a un filone britannico/internazionale (St Andrews, Glasgow, Stirling, York, Brock, Cape Breton).",
-      "of": "114267fb",
+      "t": "Compaiono scuole artistiche e specialistiche. Tra queste SCAD, Ringling College of Art & Design, Watkins College of Art e UNC School of the Arts. Compaiono anche New York Film Academy e The American Musical & Dramatic Academy. E università nel Regno Unito e in altri paesi: St Andrews, Glasgow, Stirling, York, Brock e Cape Breton.",
+      "of": "194145ac",
       "at": [
         "carmel-christian:wholeClass.middle[1].text"
       ]
@@ -10449,8 +10449,8 @@
       ]
     },
     {
-      "t": "Circa 215 ammissioni nominate guidate da Princeton e Duke, con forte presenza di atenei pubblici della NC e college cristiani — ma l’elenco non segna alcuna immatricolazione, quindi mostra le ammissioni, non dove gli studenti si siano iscritti.",
-      "of": "6f870b6f",
+      "t": "Circa 215 ammissioni nominate guidate da Princeton e Duke, con forte presenza di atenei pubblici della NC e college cristiani. Ma l’elenco non segna le iscrizioni, quindi mostra le ammissioni, non dove gli studenti si siano iscritti.",
+      "of": "bde6aa92",
       "at": [
         "carmel-christian:verdict.points[3].text"
       ]
@@ -10463,8 +10463,8 @@
       ]
     },
     {
-      "t": "Il profilo afferma che dalla Class of 2026 i corsi Honors valgono **+0.5** e i corsi AP **+1.0**, in calo rispetto ai **+1** e **+2** punti di qualità che stanno dietro agli intervalli di GPA qui sopra — perciò una GPA ponderata citata oggi non è calcolata allo stesso modo di una citata per uno studente attualmente al primo anno.",
-      "of": "96c79b7e",
+      "t": "Il profilo afferma che dalla Class of 2026 i corsi Honors valgono **+0.5** e i corsi AP **+1.0**. È un calo rispetto ai **+1** e **+2** punti di qualità che stanno dietro agli intervalli di GPA qui sopra. Perciò una GPA ponderata citata oggi non è calcolata allo stesso modo di una citata per uno studente attualmente al primo anno.",
+      "of": "403cc53b",
       "at": [
         "carmel-christian:verdict.points[4].text"
       ]
@@ -10491,8 +10491,8 @@
       ]
     },
     {
-      "t": "L’elenco delle ammissioni non segna alcuna iscrizione — dove si è effettivamente immatricolata la classe dello scorso anno, e in quali concentrazioni?",
-      "of": "6b8588eb",
+      "t": "L’elenco delle ammissioni non segna alcuna iscrizione. Dove si è effettivamente iscritta la classe dello scorso anno, e in quanti in ciascun college?",
+      "of": "37812e2b",
       "at": [
         "carmel-christian:verdict.checklist[3]"
       ]
@@ -10547,8 +10547,8 @@
       ]
     },
     {
-      "t": "Una scuola di preparazione al college con una visione del mondo biblica che non stila graduatorie interne; la pagella si fonda su un GPA ponderato con un bonus di quality point per honors e AP, e su un catalogo AP che arriva fino ad AP Seminar e AP Research.",
-      "of": "01daa8b6",
+      "t": "Una scuola di preparazione al college, fondata su una visione del mondo biblica, che non stila graduatorie degli studenti. La pagella si fonda su un GPA ponderato, con un bonus di quality point per i corsi honors e AP. Il suo catalogo AP arriva fino ad AP Seminar e AP Research.",
+      "of": "162a1981",
       "at": [
         "hickory-grove-christian:transcript.subhead"
       ]
@@ -10645,8 +10645,8 @@
       ]
     },
     {
-      "t": "La scuola dichiara **17 corsi AP più AP Capstone** (AP Seminar + AP Research). Il profilo 2026–27 ne nomina 13 per titolo (Calculus BC e Psychology non sono più indicati; Human Geography torna); il profilo 2023 ne nominava 17, che coprono ogni titolo stampato in qualsiasi edizione, quindi quali corsi si tengono varia di anno in anno.",
-      "of": "0b6f0000",
+      "t": "La scuola dichiara **17 corsi AP più AP Capstone** (AP Seminar + AP Research). Il profilo 2026–27 ne nomina 13 per titolo. Calculus BC e Psychology non sono più indicati, e Human Geography torna. Il profilo 2023 ne nominava 17, coprendo ogni titolo stampato in qualsiasi edizione. Quindi quali corsi si tengono varia di anno in anno.",
+      "of": "9b42df52",
       "at": [
         "hickory-grove-christian:transcript.depth[0].text"
       ]
@@ -10673,8 +10673,8 @@
       ]
     },
     {
-      "t": "I corsi tenuti nel campus sono accreditati tramite **Judson College** (profilo 2026–27; negli anni precedenti tramite il College at Southeastern), e solo i corsi tenuti da docenti di HGCS danno doppio credito; gli studenti frequentano anche corsi **NC Career & College Promise** nei community college locali.",
-      "of": "30010540",
+      "t": "I corsi tenuti nel campus sono accreditati tramite **Judson College** (profilo 2026–27; negli anni precedenti tramite il College at Southeastern). Solo i corsi tenuti da docenti di HGCS danno doppio credito. Gli studenti frequentano anche corsi **NC Career & College Promise** nei community college locali.",
+      "of": "05e70beb",
       "at": [
         "hickory-grove-christian:transcript.depth[2].text"
       ]
@@ -10736,8 +10736,8 @@
       ]
     },
     {
-      "t": "Il rapporto tra studenti dell’ultimo anno e consulenti non è pubblicato; rispetto al numero di studenti dell’ultimo anno della Class of 2025, l’ultimo pubblicato dalla scuola, risulta di circa 34:1 sui due membri del personale, o di circa 144:1 calcolato su tutti i 287 studenti della high school.",
-      "of": "1560127e",
+      "t": "La scuola non pubblica quanti studenti dell’ultimo anno segua ciascun consulente. Usando il numero di studenti dell’ultimo anno della Class of 2025, l’ultimo pubblicato, il rapporto risulta di circa 34:1 sui due membri del personale. Su tutti i 287 studenti della high school, è di circa 144:1.",
+      "of": "d1f13982",
       "at": [
         "hickory-grove-christian:counseling.subhead"
       ]
@@ -10869,8 +10869,8 @@
       ]
     },
     {
-      "t": "La pagina dell’orientamento descrive questi elementi come il proprio programma invece di pubblicare un calendario anno per anno. Né i profili né la pagina dell’orientamento indicano un account su una piattaforma di candidatura (Naviance / SCOIR / Common App) o un codice NCAA.",
-      "of": "6ad6d63e",
+      "t": "La pagina dell’orientamento descrive questi elementi come il proprio programma. Non pubblica un calendario anno per anno. Né i profili né la pagina dell’orientamento indicano una piattaforma di candidatura (Naviance / SCOIR / Common App) o un codice NCAA.",
+      "of": "d8925a70",
       "at": [
         "hickory-grove-christian:counseling.mechanicsNote"
       ]
@@ -10897,15 +10897,15 @@
       ]
     },
     {
-      "t": "158 istituti distinti compaiono nei tre elenchi di ammissioni pubblicati dalla scuola (Classes of 2023, 2025 e 2026) — da Bowdoin, Pomona, Georgia Tech e Boston University fino a un’ampia schiera di atenei pubblici del NC, college cristiani e HBCU.",
-      "of": "4e56831f",
+      "t": "158 college diversi compaiono nei tre elenchi di ammissioni pubblicati dalla scuola (Classes of 2023, 2025 e 2026). Vanno da Bowdoin, Pomona, Georgia Tech e Boston University fino a molti atenei pubblici del NC, college cristiani e HBCU (college storicamente afroamericani).",
+      "of": "012f46f9",
       "at": [
         "hickory-grove-christian:outcomes.headline"
       ]
     },
     {
-      "t": "Gli elenchi non riportano alcuna indicazione di immatricolazione, quindi si leggono come ammissioni, e non è stato pubblicato alcun elenco della Class of 2024. Qui l’elenco combinato e senza duplicati è valutato rispetto alle fasce attuali di U.S. News.",
-      "of": "610796e0",
+      "t": "Gli elenchi non riportano alcuna indicazione di dove gli studenti si siano iscritti, quindi si leggono come ammissioni. Non è stato pubblicato alcun elenco della Class of 2024. Qui i tre elenchi sono combinati, senza duplicati, e valutati rispetto alle fasce attuali di U.S. News.",
+      "of": "a7cf4b28",
       "at": [
         "hickory-grove-christian:outcomes.subhead"
       ]
@@ -10974,15 +10974,15 @@
       ]
     },
     {
-      "t": "158 istituti in tre elenchi di classi pubblicati · nessuna indicazione di immatricolazione",
-      "of": "c7fd8fe8",
+      "t": "158 istituti in tre elenchi di classi pubblicati · nessuna indicazione di iscrizione",
+      "of": "99d84b3a",
       "at": [
         "hickory-grove-christian:outcomes.collegesTotal"
       ]
     },
     {
-      "t": "Nessuna indicazione di immatricolazione per singolo college — solo ammissioni",
-      "of": "577502e5",
+      "t": "Nessuna indicazione di iscrizione per singolo college — solo ammissioni",
+      "of": "1248efad",
       "at": [
         "hickory-grove-christian:outcomes.scholarships[1]"
       ]
@@ -11044,8 +11044,8 @@
       ]
     },
     {
-      "t": "**Una pagella leggibile e senza graduatoria** — la scuola non stila graduatorie e pubblica entrambe le scale di valutazione e la ponderazione honors/AP, così che un lettore possa ricostruire il rigore nel contesto.",
-      "of": "e878d613",
+      "t": "**Una pagella chiara e senza graduatoria** — la scuola non stila graduatorie. Pubblica entrambe le scale di valutazione e la ponderazione honors/AP, così un lettore può giudicare quanto fossero impegnativi i corsi di uno studente.",
+      "of": "4588b07a",
       "at": [
         "hickory-grove-christian:edge.levers[1].items[0]"
       ]
@@ -11177,15 +11177,15 @@
       ]
     },
     {
-      "t": "Gli **Educational Support Services (ESS)**, a pagamento e regolati da un contratto annuale, coprono dal K al 12º anno: piani di adattamento basati su valutazioni educative o su un precedente 504/IEP, misure di adattamento approvate per le verifiche e Academic Coaching alla scuola superiore.",
-      "of": "cd07f3f6",
+      "t": "Gli **Educational Support Services (ESS)**, a pagamento, funzionano con un contratto annuale e coprono dal K al 12º anno. Offrono piani di adattamento basati su valutazioni educative o su un precedente 504/IEP. Offrono inoltre misure di adattamento approvate per le verifiche e Academic Coaching alla scuola superiore.",
+      "of": "de55ba71",
       "at": [
         "hickory-grove-christian:wholeClass.support[0].text"
       ]
     },
     {
-      "t": "I tre elenchi di ammissioni vanno da Bowdoin, Pomona, Georgia Tech e Boston University fino all’intero sistema pubblico del NC (Chapel Hill, NC State, Charlotte, Wilmington, Greensboro, Asheville, Pembroke), college cristiani, HBCU e community college (Central Piedmont, Cape Fear, Rowan-Cabarrus) — l’ampiezza di una classe varia, non uniformemente d’élite.",
-      "of": "83f34bf5",
+      "t": "I tre elenchi di ammissioni vanno da Bowdoin, Pomona, Georgia Tech e Boston University fino all’intero sistema pubblico del NC. Questo comprende Chapel Hill, NC State, Charlotte, Wilmington, Greensboro, Asheville e Pembroke. Compaiono anche college cristiani, HBCU e community college (Central Piedmont, Cape Fear, Rowan-Cabarrus). È l’ampiezza di una classe varia, non di una classe d’élite dall’inizio alla fine.",
+      "of": "16bf806d",
       "at": [
         "hickory-grove-christian:wholeClass.middle[0].text"
       ]
@@ -11198,22 +11198,22 @@
       ]
     },
     {
-      "t": "Il profilo 2026–27 indica come piani tipici dopo la high school il 65% college di 4 anni, il 25% college di 2 anni e il 10% lavoro, servizio militare o anno sabbatico. Nella Class of 2025, l’ultimo anno stampato con conteggi, il 22% prevedeva un college di 2 anni e l’11% aveva scelto di non proseguire gli studi — e l’elenco di ammissioni include i community college e i percorsi professionali che lo riflettono.",
-      "of": "810b9d4d",
+      "t": "Il profilo 2026–27 indica come piani tipici dopo la high school il 65% college di 4 anni, il 25% college di 2 anni e il 10% lavoro, servizio militare o anno sabbatico. La Class of 2025 è l’ultimo anno stampato con conteggi. Il 22% prevedeva un college di 2 anni e l’11% aveva scelto di non proseguire gli studi. L’elenco di ammissioni lo riflette, con community college e percorsi professionali.",
+      "of": "19903f22",
       "at": [
         "hickory-grove-christian:wholeClass.middle[1].text"
       ]
     },
     {
-      "t": "Non sono pubblicati percentili dei punteggi, quintili di GPA né esiti per quintile — solo medie/mediane di classe (con i numeri di studenti esaminati resi noti) e fasce di insigniti AP. La forma della classe non è ricostruibile dalle fonti pubbliche.",
-      "of": "4c9c95b9",
+      "t": "Non sono pubblicati percentili dei punteggi, quintili di GPA né esiti per quintile. Ci sono solo medie e mediane di classe (con il numero di studenti esaminati indicato) e fasce dei riconoscimenti AP. La forma della classe non si può ricostruire dalle fonti pubbliche.",
+      "of": "4d1fa268",
       "at": [
         "hickory-grove-christian:wholeClass.flags[0].text"
       ]
     },
     {
-      "t": "Una scuola di preparazione al college con visione del mondo biblica, con un vero programma AP e Capstone e un record di riconoscimenti in ampliamento — con i piccoli numeri di studenti esaminati e il carico di lavoro non pubblicato come i due aspetti da approfondire durante una visita.",
-      "of": "043e7f66",
+      "t": "Una scuola di preparazione al college con visione del mondo biblica, un vero programma AP e Capstone e un record di riconoscimenti in crescita. I piccoli numeri di studenti esaminati e il carico di lavoro non pubblicato sono i due aspetti da approfondire durante una visita.",
+      "of": "678fcb4f",
       "at": [
         "hickory-grove-christian:verdict.headline"
       ]
@@ -11233,8 +11233,8 @@
       ]
     },
     {
-      "t": "17 corsi AP con AP Capstone, 176 esami sostenuti a maggio 2026, 14 studenti con un 5 in almeno un esame e 3 AP Capstone Diplomas — un programma di reale profondità per una scuola di queste dimensioni.",
-      "of": "d08e4be9",
+      "t": "17 corsi AP con AP Capstone, 176 esami sostenuti a maggio 2026, 14 studenti con un 5 in almeno un esame e 3 AP Capstone Diplomas. È un programma di reale profondità per una scuola di queste dimensioni.",
+      "of": "1ecf1ed4",
       "at": [
         "hickory-grove-christian:verdict.points[0].text"
       ]
@@ -11275,8 +11275,8 @@
       ]
     },
     {
-      "t": "158 istituti negli elenchi 2023, 2025 e 2026 — Bowdoin e Pomona in cima, 23 HBCU, l’intero sistema pubblico del NC — ma gli elenchi non indicano immatricolazioni, quindi mostrano ammissioni, non iscrizioni.",
-      "of": "281c1c9b",
+      "t": "158 istituti negli elenchi 2023, 2025 e 2026 — Bowdoin e Pomona in cima, 23 HBCU, l’intero sistema pubblico del NC. Ma gli elenchi non indicano dove gli studenti si siano iscritti, quindi mostrano ammissioni, non iscrizioni.",
+      "of": "82ec6c1f",
       "at": [
         "hickory-grove-christian:verdict.points[3].text"
       ]
@@ -11289,8 +11289,8 @@
       ]
     },
     {
-      "t": "La scuola pubblica medie della classe su piccoli numeri di studenti esaminati (SAT n=45), non distribuzioni per percentili né una tabella del GPA, e non stila graduatorie — quindi il profilo della classe non è pubblico.",
-      "of": "fd07a1e1",
+      "t": "La scuola pubblica medie della classe basate su piccoli numeri di studenti esaminati (SAT n=45). Non pubblica alcuna distribuzione per percentili né una tabella del GPA, e non stila graduatorie. Quindi la forma della classe non è pubblica.",
+      "of": "bbedc9bc",
       "at": [
         "hickory-grove-christian:verdict.points[4].text"
       ]
@@ -11310,8 +11310,8 @@
       ]
     },
     {
-      "t": "Gli elenchi di ammissioni non indicano iscrizioni — dove si sono effettivamente immatricolate le Classes of 2024, 2025 e 2026, e con quali concentrazioni?",
-      "of": "08355a18",
+      "t": "Gli elenchi di ammissioni non indicano iscrizioni. Dove si sono effettivamente iscritte le Classes of 2024, 2025 e 2026, e quanti sono andati in ciascun college?",
+      "of": "fa4084e0",
       "at": [
         "hickory-grove-christian:verdict.checklist[2]"
       ]
@@ -11380,8 +11380,8 @@
       ]
     },
     {
-      "t": "In assenza di un class rank, il profilo offre a chi legge in ammissione tre sostituti insieme: una tabella pubblicata dei quintili di GPA, una tabella della distribuzione dei voti per dipartimento e dei massimali dichiarati di carico AP che definiscono che cosa significhi qui “most rigorous”.",
-      "of": "f1c1816e",
+      "t": "In assenza di un class rank, il profilo offre a chi legge in ammissione tre sostituti insieme. Contiene una tabella dei quintili di GPA (una suddivisione della classe in quinti) e una tabella dei voti per dipartimento. Indica inoltre il numero massimo di AP che uno studente può seguire, e questo definisce che cosa significhi qui \"most rigorous\".",
+      "of": "0cf10fbc",
       "at": [
         "gaston-day:transcript.subhead"
       ]
@@ -11465,8 +11465,8 @@
       ]
     },
     {
-      "t": "Si tratta di borse di merito universitarie ottenute dagli studenti diplomati, non di borse sulla retta di Gaston Day — le borse Kimbrell della scuola stessa sono separate e compaiono nell’area Aiuti finanziari. Il totale in dollari è salito mentre il numero di studenti è calato (25 studenti/$2.75M nel 2023 → 20/$3.87M nel 2024), per cui la media per studente è all’incirca raddoppiata tra quelle due classi.",
-      "of": "8f90246f",
+      "t": "Si tratta di borse di merito universitarie ottenute dagli studenti diplomati, non di borse sulla retta di Gaston Day. Le borse Kimbrell della scuola stessa sono separate e compaiono nell’area Aiuti finanziari. Il totale in dollari è salito mentre il numero di studenti è calato (25 studenti/$2.75M nel 2023 → 20/$3.87M nel 2024). Quindi la media per studente è all’incirca raddoppiata tra quelle due classi.",
+      "of": "2f10f771",
       "at": [
         "gaston-day:transcript.meritNote"
       ]
@@ -11542,15 +11542,15 @@
       ]
     },
     {
-      "t": "Il profilo pubblica tutti e cinque i quintili di GPA della Class of 2026 al termine del penultimo anno, così chi legge può collocare qualsiasi candidato all’interno della classe senza che esista un singolo #1.",
-      "of": "27c0e342",
+      "t": "Il profilo pubblica tutti e cinque i quintili di GPA (quinti della classe) della Class of 2026, al termine del penultimo anno. Così chi legge può collocare qualsiasi candidato all’interno della classe senza che la scuola indichi un #1.",
+      "of": "37f44014",
       "at": [
         "gaston-day:transcript.trust[1].text"
       ]
     },
     {
-      "t": "I massimali AP pubblicati — **un AP in classe 10, tre in ciascuna delle classi 11 e 12** — dicono alle università esattamente com’è fatto qui il percorso più impegnativo, così un normale carico di sei corsi non viene letto come leggero.",
-      "of": "da67c4ec",
+      "t": "La scuola pubblica il numero massimo di AP che uno studente può seguire: **un AP in classe 10, tre in ciascuna delle classi 11 e 12**. Questo dice alle università esattamente com’è fatto qui l’orario più impegnativo. Così un normale carico di sei corsi non viene letto come leggero.",
+      "of": "9dcb6925",
       "at": [
         "gaston-day:transcript.trust[2].text"
       ]
@@ -11570,8 +11570,8 @@
       ]
     },
     {
-      "t": "Il profilo non pubblica alcuna tabella dei punteggi AP per materia, alcun conteggio degli esami AP sostenuti, né alcun registro National Merit — per cui il tasso di 3+ è una singola cifra a livello di scuola per ciascun anno anziché una distribuzione.",
-      "of": "b9bd5d76",
+      "t": "Il profilo non pubblica alcuna tabella dei punteggi AP per materia, alcun conteggio degli esami AP sostenuti, né alcun registro National Merit. Quindi il tasso di 3+ è una singola cifra a livello di scuola per ciascun anno, non una ripartizione.",
+      "of": "cc848768",
       "at": [
         "gaston-day:transcript.flags[0].text"
       ]
@@ -11830,8 +11830,8 @@
       ]
     },
     {
-      "t": "La prassi sui transcript è pubblicata anziché sottintesa: i transcript iniziali riportano i voti fino alla fine del penultimo anno più i corsi dell’ultimo anno; i transcript per l’Early Decision con i voti provvisori del primo semestre vengono inviati a fine novembre **solo su richiesta**; i transcript di metà anno vengono inviati a inizio gennaio per tutto il resto.",
-      "of": "95edac62",
+      "t": "La scuola pubblica come invia i transcript, anziché lasciarlo sottinteso. I transcript iniziali riportano i voti fino alla fine del penultimo anno, più i corsi dell’ultimo anno. I transcript per l’Early Decision con i voti del primo semestre ottenuti fino a quel momento vengono inviati a fine novembre **solo su richiesta**. I transcript di metà anno vengono inviati a inizio gennaio per tutto il resto.",
+      "of": "e03d1cf8",
       "at": [
         "gaston-day:counseling.mechanicsNote"
       ]
@@ -11893,8 +11893,8 @@
       ]
     },
     {
-      "t": "Un elenco così lungo da classi di ~35 studenti significa che gran parte di esso è ampiezza più che concentrazione: è l’insieme dei luoghi in cui gli studenti di Gaston Day sono stati ammessi nell’arco di sette anni, non dove è approdata una singola classe.",
-      "of": "e954d726",
+      "t": "Un elenco così lungo da classi di ~35 studenti mostra soprattutto ampiezza, non molti studenti negli stessi college. È l’insieme dei luoghi in cui gli studenti di Gaston Day sono stati ammessi nell’arco di sette anni. Non è dove è approdata una singola classe.",
+      "of": "ae6a7fa3",
       "at": [
         "gaston-day:outcomes.subhead"
       ]
@@ -12033,15 +12033,15 @@
       ]
     },
     {
-      "t": "Borse di merito universitarie ottenute dagli studenti diplomati. A fronte di una classe di ~35, la cifra del 2025 corrisponde a ben oltre $100K per studente premiato — ma si noti che la scuola non pubblica quanti membri della classe abbiano fatto domanda o ricevuto una qualsiasi assegnazione al di là di questi conteggi.",
-      "of": "9dfc75e4",
+      "t": "Borse di merito universitarie ottenute dagli studenti diplomati. In una classe di ~35, la cifra del 2025 corrisponde a ben oltre $100K per studente premiato. Ma si noti che la scuola non pubblica quanti membri della classe abbiano fatto domanda o ricevuto una qualsiasi assegnazione al di là di questi conteggi.",
+      "of": "643a8c53",
       "at": [
         "gaston-day:outcomes.scholarshipsNote"
       ]
     },
     {
-      "t": "La scuola non pubblica conteggi delle immatricolazioni, numeri di iscritti per singola università né una ripartizione delle ammissioni anno per anno — l’elenco è un unico insieme 2019–2025 indifferenziato.",
-      "of": "1552e682",
+      "t": "La scuola non pubblica conteggi di dove gli studenti si siano iscritti, numeri di iscritti per singola università né una ripartizione delle ammissioni anno per anno. L’elenco è un unico insieme 2019–2025 senza dettagli.",
+      "of": "896c81fe",
       "at": [
         "gaston-day:outcomes.flags[0].text"
       ]
@@ -12054,15 +12054,15 @@
       ]
     },
     {
-      "t": "Il punto di forza qui è insolitamente concreto per una scuola piccola: una squadra iGEM di biologia sintetica da medaglia d’oro, una squadra di VEX Robotics arrivata ai TSA Nationals al primo anno e un Capstone obbligatorio di 40 ore che ogni studente dell’ultimo anno deve discutere.",
-      "of": "12fa0bcf",
+      "t": "Il punto di forza spiccato qui è insolitamente concreto per una scuola piccola. La scuola ha una squadra iGEM di biologia sintetica da medaglia d’oro e una squadra di VEX Robotics arrivata ai TSA Nationals al primo anno. E c’è un Capstone obbligatorio di 40 ore che ogni studente dell’ultimo anno deve discutere.",
+      "of": "d3a1e320",
       "at": [
         "gaston-day:edge.headline"
       ]
     },
     {
-      "t": "Ciò che la scuola non può offrire è la notorietà del nome su larga scala — Gaston Day è una scuola di 510 studenti a Gastonia, non un bacino noto a livello nazionale, per cui l’argomento della leva poggia sulla distintività anziché sui numeri.",
-      "of": "f02564e1",
+      "t": "Ciò che la scuola non può offrire è un nome ampiamente noto. Gaston Day è una scuola di 510 studenti a Gastonia, non una scuola nota a livello nazionale per mandare studenti alle università. Quindi la sua forza poggia sull’essere distintiva, non sul numero di studenti che invia.",
+      "of": "dbc4fa77",
       "at": [
         "gaston-day:edge.subhead"
       ]
@@ -12075,22 +12075,22 @@
       ]
     },
     {
-      "t": "**iGEM biologia sintetica** — squadre nel 2012, 2016, 2018 e 2020, con una **medaglia d’oro** e progetti tra cui una fitotossina del kudzu e un biocarburante a isobutanolo da *E. coli* K-12. iGEM è una competizione di livello universitario con una sezione per le scuole superiori; schierarne una da una scuola di queste dimensioni è raro.",
-      "of": "4bbb0758",
+      "t": "**iGEM biologia sintetica** — squadre nel 2012, 2016, 2018 e 2020, con una **medaglia d’oro**. Tra i progetti, una fitotossina del kudzu (un veleno vegetale) e un biocarburante a isobutanolo da *E. coli* K-12. iGEM è una competizione di livello universitario con una sezione per le scuole superiori. Schierare una squadra da una scuola di queste dimensioni è raro.",
+      "of": "304acf7f",
       "at": [
         "gaston-day:edge.levers[0].items[0]"
       ]
     },
     {
-      "t": "**VEX Robotics** — dopo anni in una squadra FIRST Robotics congiunta tra scuole che si era classificata **4ª a livello statale**, Gaston Day ha lanciato una propria squadra e si è **qualificata ai TSA VEX Nationals nel 2023, al suo primo anno di partecipazione**.",
-      "of": "b48ddca8",
+      "t": "**VEX Robotics** — per anni Gaston Day ha fatto parte di una squadra FIRST Robotics condivisa con altre scuole, che si era classificata **4ª a livello statale**. Poi ha avviato una propria squadra, che si è **qualificata ai TSA VEX Nationals nel 2023, al suo primo anno di gare**.",
+      "of": "6658ce93",
       "at": [
         "gaston-day:edge.levers[0].items[1]"
       ]
     },
     {
-      "t": "**Capstone Project** — ogni studente dell’ultimo anno completa un tirocinio, un progetto di ricerca o di servizio di **almeno 40 ore**, documentato e rendicontato lungo un intero anno. È un requisito, quindi ogni candidato ne ha uno.",
-      "of": "8e08d3c6",
+      "t": "**Capstone Project** — ogni studente dell’ultimo anno completa un tirocinio, un progetto di ricerca o di servizio di **almeno 40 ore**. È documentato e rendicontato lungo un intero anno. È un requisito, quindi ogni candidato ne ha uno.",
+      "of": "05a53b94",
       "at": [
         "gaston-day:edge.levers[0].items[2]"
       ]
@@ -12131,15 +12131,15 @@
       ]
     },
     {
-      "t": "**Un profilo costruito per chi legge in ammissione** — quintili, una distribuzione dei voti a livello di dipartimento, massimali AP definiti e tempistiche pubblicate per i transcript rendono tutti facile interpretare un percorso alla GDS, il che è una leva di tipo più silenzioso.",
-      "of": "d358d60d",
+      "t": "**Un profilo costruito per chi legge in ammissione** — quintili, voti per dipartimento, massimali AP dichiarati e tempistiche pubblicate per i transcript rendono tutti facile leggere un percorso alla GDS. È un tipo di vantaggio più silenzioso.",
+      "of": "0d34da99",
       "at": [
         "gaston-day:edge.levers[1].items[1]"
       ]
     },
     {
-      "t": "**Una coorte internazionale e una Global Classroom Initiative** — partnership con scuole all’estero per le classi 10–12 e un programma documentato di ospitalità in famiglia, che conferiscono al bacino dei candidati un carattere realmente internazionale.",
-      "of": "eeff73c6",
+      "t": "**Studenti internazionali e una Global Classroom Initiative** — partnership con scuole all’estero per le classi 10–12 e un programma documentato di ospitalità in famiglia. Conferiscono al bacino dei candidati un carattere realmente internazionale.",
+      "of": "2b333593",
       "at": [
         "gaston-day:edge.levers[1].items[2]"
       ]
@@ -12152,8 +12152,8 @@
       ]
     },
     {
-      "t": "La scuola non pubblica alcuna prova di rapporti con gli uffici ammissioni, alcun conteggio delle visite dei rappresentanti universitari e alcuna rivendicazione su una rete di ex allievi — per cui la leva istituzionale è dedotta dall’accreditamento e dalla qualità del profilo anziché dimostrata.",
-      "of": "55d44477",
+      "t": "La scuola non pubblica alcuna prova di rapporti con gli uffici ammissioni delle università. Non fornisce conteggi delle visite dei rappresentanti universitari e non fa affermazioni sulla sua rete di ex allievi. Quindi il suo peso presso le università si giudica dall’accreditamento e dalla qualità del profilo, ma non è dimostrato.",
+      "of": "7aa3c866",
       "at": [
         "gaston-day:edge.levers[1].note"
       ]
@@ -12299,8 +12299,8 @@
       ]
     },
     {
-      "t": "Tutti gli studenti della classe 11 sono tenuti a sostenere l’ACT, per cui questo intervallo copre l’intera classe anziché un gruppo autoselezionato di esaminandi — una differenza importante rispetto a una scuola in cui sostiene i test solo chi è diretto all’università.",
-      "of": "ae99c11a",
+      "t": "Tutti gli studenti della classe 11 sono tenuti a sostenere l’ACT, quindi questo intervallo copre l’intera classe. Non riguarda solo gli studenti che hanno scelto di sostenere il test. È una differenza importante rispetto a una scuola in cui lo sostiene solo chi è diretto all’università.",
+      "of": "198150ac",
       "at": [
         "gaston-day:wholeClass.scoreTables[1].note"
       ]
@@ -12453,8 +12453,8 @@
       ]
     },
     {
-      "t": "A ogni studente dell’Upper School è assegnato un docente advisor abbinato ai suoi interessi e bisogni, che **lo accompagna fino al diploma** — una continuità che non dipende dall’essere uno studente di punta.",
-      "of": "34bc20d9",
+      "t": "A ogni studente dell’Upper School è assegnato un docente advisor abbinato ai suoi interessi e bisogni. L’advisor **lo accompagna fino al diploma**. Questo sostegno costante non dipende dall’essere uno studente di punta.",
+      "of": "90a0278a",
       "at": [
         "gaston-day:wholeClass.middle[0].text"
       ]
@@ -12488,8 +12488,8 @@
       ]
     },
     {
-      "t": "Esiste rigore anche fuori dagli AP",
-      "of": "2e77cd4a",
+      "t": "Corsi impegnativi anche fuori dagli AP",
+      "of": "21655063",
       "at": [
         "gaston-day:wholeClass.middle[3].label"
       ]
@@ -12516,15 +12516,15 @@
       ]
     },
     {
-      "t": "Per nessun anno sono pubblicati i conteggi degli esaminandi, per cui non è possibile dire quale quota di una classe di ~35 studenti abbia sostenuto il SAT — un intervallo del 50% centrale su un n piccolo si sposta bruscamente per pochi studenti.",
-      "of": "efcc4e61",
+      "t": "Per nessun anno sono pubblicati i conteggi degli studenti che hanno sostenuto i test. Quindi non si può dire quale quota di una classe di ~35 studenti abbia sostenuto il SAT. Con così pochi studenti, un intervallo del 50% centrale può spostarsi bruscamente a causa di pochi di loro.",
+      "of": "5f37f0a5",
       "at": [
         "gaston-day:wholeClass.flags[0].text"
       ]
     },
     {
-      "t": "La tabella dei quintili fornisce solo intervalli, senza alcuna media SAT o ACT per quintile, per cui chi legge non può collegare la fascia di GPA al rendimento nei test come consentono alcuni profili di scuole omologhe.",
-      "of": "daf1e540",
+      "t": "La tabella dei quintili fornisce solo intervalli, senza alcuna media SAT o ACT per ciascun quinto. Quindi chi legge non può collegare una fascia di GPA ai punteggi dei test, come consentono alcuni profili di scuole paragonabili.",
+      "of": "8dde3037",
       "at": [
         "gaston-day:wholeClass.flags[1].text"
       ]
@@ -12537,8 +12537,8 @@
       ]
     },
     {
-      "t": "Le riserve riguardano la scala e la trasparenza, non la qualità: una classe di 35 diplomandi rende volatile ogni tasso, e gli elenchi di sport e club sono più esili sul fronte pubblico rispetto al percorso accademico.",
-      "of": "b39b99e2",
+      "t": "Le riserve riguardano le dimensioni e la trasparenza, non la qualità. Con una classe di 35 studenti dell’ultimo anno, ogni tasso può oscillare molto. E gli elenchi pubblici di sport e club sono più esili rispetto al percorso accademico.",
+      "of": "5df0cedf",
       "at": [
         "gaston-day:verdict.subhead"
       ]

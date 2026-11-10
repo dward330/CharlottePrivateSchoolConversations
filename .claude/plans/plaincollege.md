@@ -1,7 +1,7 @@
 ---
 name: plaincollege
 title: Plain-language rewrite of the College Support area's English prose (11 schools, 259 units), English in three reviewed batches, then all nine prose locales
-status: english-done
+status: implemented
 phases: 2
 batches: 3                     # Phase 1 is built in three batches, each with its own review stop
 created: 2026-11-09
@@ -588,6 +588,23 @@ notes. The locale traps in those docs apply unchanged:
 - **Independent review: 9 findings, all fixed** (see `review-batch3.md`). Two were strengthened claims: DD "cannot tell … that students go" and CCD "as a separate job" misreading "dedicated". Four were wrong referents after a split ("it", "this signal", "They", "It has"). Three were wording slips (DD "an open choice", Carmel grammar, Gaston "when just a few change").
 - **`check:live`: 241 stale `college-support` entries per locale** (51 + 82 + 108), all nine locales, no other topic. That is Phase 2's input. Every other Step 6 check passes. `npm run check:plain`: **college-support Flagged 0** (baseline 224). Grade >10 is 8, which equals the residual table.
 - **Browser check** (headed Chrome, `vite preview`, every `<details>` open): 108/108 probe strings render across the four schools. No literal `**` appears on any of the four pages, and bold renders as `<strong>`. At 390px, davidson-day has no page overflow (scrollWidth 375).
+
+### Phase 2 (2026-11-09)
+
+- **Splice matched exactly:** `i18n_splice_work.mjs --topic college-support` reported **1518 kept / 241 added / 241 dropped** in all nine locales, which equals the Batch 3 `check:live` stale count. Every added unit was paired with its dropped predecessor by `at` path (0 unpaired). The base work files from `main` served as the old-English / old-`t` source.
+- **Translation:** nine parallel `general-purpose` subagents, one per locale. Each read only a task file in the scratchpad and wrote only its own output file. Its brief was to *revise* the reviewed `t` to match the new English. A scratch apply script then gated every output before writing it to the work file. The gate checked the numeric-token multiset against the new English, the `**` count, the absence of bidi controls and non-Western digits, `t` ≠ English, and the 0.4–2.5 length ratio. All nine passed with 0 problems.
+- **Fixes made at apply time:**
+  - es: an over-long NLI gloss was trimmed to "(National Letter of Intent)".
+  - es: a doubled hedge "unos ~141" became "~141".
+  - es: a quote left as a sentence fragment was re-attached ("…de NACAC y “does not permit…”").
+  - ht and fa: both agents changed the Weddington Farm "330-acre" from the reviewed "kawo tè" / "جریب" to "acre" / "ایکر". **Reverted to the reviewed words:** every other acreage figure in `sports.ht` / `sports.fa` / `summer-programs.fa` uses them with the figure unchanged, and `unitrevert` left them in place. Whether "kawo"/"jarib" for *acre* is itself a unit swap is a separate cross-topic question (see Candidates).
+- **Systematic change across locales, worth a reviewer's look:**
+  - Spelled-out ordinals in the old `t` ("noveno", "नौवीं", "নবম") became digits ("9.º grado", "कक्षा 9", "গ্রেড 9") where the English has a digit. Digit-token parity required it.
+  - "matriculation" loanwords / "immatricolati" became the locale's plain "enrolled" word in the rewritten units only, so a few unchanged units still use the old term (notably `it` and `hi`/`te` on Covenant Day / Carmel / Charlotte Christian).
+- **`check_work_integrity.mjs` reported 4,257 "violations".** This is its known false positive after a splice (memory `comparerows-shipped`). Verified by stamp against the `main` work files instead: all 1,518 kept stamps have `text` and `t` byte-identical, 241 are new, and 0 are blank, in every locale.
+- **Checks:** `check:live` ✓, `check:runtime` ✓ (15,645 entries per locale), `check:digits` **2,169 units compared · 0 to review**, `check:sepdrift` 0 drifted ×9, `check_figures.py --topic college-support` intact ×9, `check:fr` / `check:hi` / `check:fa` / `check:bidi` / `check:dates` / `check:moneytext` ✓. `i18n:leaks`: 0 flags on any rewritten unit in any locale (every flag is on pre-existing text). `npm run build` green end to end.
+- **Browser** (headed Chrome, `vite preview`, every `<details>` open): every rewritten unit's longest sentence renders on cannon (23/23) and davidson-day (33/33) in `es`, `fa` and `hi`, with 0 English leftovers. In `fa`, 514 of 519 numeric ranges sit in an LRI isolate. The 5 bare ones are all inside the English "National Rank #382-422" chip (strong-L context), not rewritten prose.
+- Candidate (not acted on): `ht` "kawo tè" and `fa` "جریب" are used for *acre* site-wide. A kawo is about 1.29 ha, so the reviewed wording may misstate land area. This is a cross-topic decision for the user and the reviewers.
 
 ### Candidates noticed, not acted on
 
