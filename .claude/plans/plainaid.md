@@ -867,8 +867,8 @@ Steps:
    into the session scratchpad. They hold the native-reviewed translations of the *old*
    English.
 2. **Splice.** Run `node scripts/i18n_splice_work.mjs --lang <code> --topic financial-aid-report`
-   for each locale. Expect *added* ≈ *dropped* ≈ the Batch 4 `check:live` stale count
-   (≈85). A rewrite that happens to equal an existing string merges into it and lowers
+   for each locale. Expect *added* ≈ *dropped* ≈ the final `check:live` stale count
+   (**86**: the 85 batch units plus the Gaston timeline follow-up fix). A rewrite that happens to equal an existing string merges into it and lowers
    *added*. If the counts are lopsided, stop and investigate.
 3. **Translate each *added* unit as a revision of its reviewed predecessor.** Pair it with
    the dropped unit at the same `at` path. Give the translator the old English, the old
@@ -1138,14 +1138,22 @@ Following the approved Batch 3 precedent (Gaston's installment claim), all three
 
 **Phase 1 close-out.** `npm run check:plain`: financial-aid-report Prose units 976, Flagged **0** (baseline 58), Sentence >30 **0**, Grade >10 **0** (baseline 78), Grade >12 **0**. Grade >10 equals the residual count (0). financial-aid-tuition is unchanged (2 / 6), as planned.
 
+### Follow-up fixes (user request, 2026-11-10, after Batch 4)
+
+The user asked for two Candidates to be fixed: "Use your recommendation and research and fix what should be the wording for the things you call out for gaston and christian". Both edits were made with Edit, so the hook ran.
+- **gaston-day `sections[2].timeline[0].detail`** (off every batch worklist). It said "Create an account with **Clarity** — not FACTS or SSS, the platform most of this roster uses", which reads as "most schools use FACTS or SSS". By the app's own reports, Clarity assesses need at 10 of 13 schools and FACTS at 3 (Covenant, Carmel, HG); none uses SSS. It now reads "Create an account with **Clarity**, not FACTS or SSS. Clarity is the aid platform most schools on this site use." It is listed in `plainaid-data/worklist-fixes.json`, so guard (k) allows it, and its review row is in `plainaid-data/review-fixes.md`. Every guard passes.
+- **charlotte-christian `sections[5].boxes[1].body`** (Batch 2 unit). "Section 4 is the weak point, at 62%" quoted the **source PDF's** score for its own section 4, "Assistance reach and award size 62%" (`src/content/financial-aid-tuition/charlotte-christian.json`). The app merged that section with the PDF's "Discounts and remissions 80%" into its own Section 04, "Discounts & Ceiling", whose meter shows **80**, so a parent read 62% beside a meter that says 80. It now reads "Section 4's weak point is how far aid reaches and how large awards are." "Section 4" still points at the app's section that holds the 50% ceiling. The 62% is dropped, because it appears nowhere on the page. **This is the one deliberate guard failure in the plan:** (b) `-62` and (m) `-62%` on this unit, expected and approved by the user's request. `review-batch2.md` is regenerated with the new text.
+
+Checks after the fixes: `check_plain_language.mjs --file` clean; `tsc -b`, `vite build`, `check:schema/spelling/tuition/chrome/runtime/moneytext/dates` green. `check:live` reports **86 stale stamps per locale, all `financial-aid-report`** (85 + the Gaston timeline unit), which is Phase 2's input. In the browser, both units render, and at 390px there is no overflow.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
 
 - **charlotte-catholic `sections[4].note` ships literal `**`.** `sections[].note` renders raw (`fa-section-note`), so "These are **North Carolina state** programs…" shows two pairs of asterisks in every locale. The defect predates this plan (identical on `main`) and the field is off the worklist. The fix is to drop the `**`, or render the note through `RichText`.
-- **gaston-day `timeline` says "not FACTS or SSS, the platform most of this roster uses".** That is the same false claim corrected in Catholic (Batch 4), since most schools use Clarity. It is off the worklist.
+- ~~**gaston-day `timeline` says "not FACTS or SSS, the platform most of this roster uses".**~~ **Fixed** at the user's request (Follow-up fixes).
 
-- **charlotte-christian `sections[5].boxes[1].body`: "Section 4 is the weak point, at 62%".** No section in CHARLOTTE_CHRISTIAN has confidence 62: `sections[3]` "Discounts & Ceiling" is 80, and the source notes never say 62%. The figure predates this plan and was kept char-for-char. It needs a data check against the source report.
+- ~~**charlotte-christian `sections[5].boxes[1].body`: "Section 4 is the weak point, at 62%".**~~ **Fixed** at the user's request: 62% was the source PDF's score for its own section 4 (Follow-up fixes).
 
 - **8 report notes never render** (Batch 1 notes): `figureNote`/`figureNote2` in a stats-only section have no render site in `FinancialAidReport.tsx`. Those include Gaston's 26%-vs-45% explanation and Prep's FY series. Fixing it is a component change (render the notes under a stats-only strip), so it needs the user's call.
 - **Checker quirk:** a sentence ending in a closing quote before the period (`…in chart below". It`) is not split. The strip step turns the quote into `Q`, and the initials rule reads `Q.` as an initial. Harmless once reworded (Trinity componentsNote), but a unit ending that way measures as one long sentence. The plan does not change the checker.

@@ -860,7 +860,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
         {
           tag: 'THE REACH GAP',
-          body: 'Section 4 is the weak point, at 62%. The 50% ceiling is published, but no total awarded, no share of students, no average and no median. Gifts received into the assistance fund are published: $48,422 in 2020–21, falling to $23,798 in 2024–25. But money received is not money awarded, and one should not be read as the other.',
+          body: 'Section 4\'s weak point is how far aid reaches and how large awards are. The 50% ceiling is published, but no total awarded, no share of students, no average and no median. Gifts received into the assistance fund are published: $48,422 in 2020–21, falling to $23,798 in 2024–25. But money received is not money awarded, and one should not be read as the other.',
         },
       ],
       questionsNote:
@@ -2453,7 +2453,7 @@ const GASTON_DAY: FinancialAidReport = {
       timeline: [
         {
           when: 'Step 1',
-          detail: 'Create an account with **Clarity** — not FACTS or SSS, the platform most of this roster uses',
+          detail: 'Create an account with **Clarity**, not FACTS or SSS. Clarity is the aid platform most schools on this site use.',
         },
         {
           when: 'Step 2',
