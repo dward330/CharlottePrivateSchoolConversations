@@ -163,7 +163,7 @@ worklist unit):
 | "a student once won a scholarship for non-performing theater work" | davidson-day `theatre.whoRunsIt` | `verdict.ask[3]` |
 | "a materially lower barrier than an auditioned band or choir" | davidson-day `verdict.holdsUp[0].text` | `music.ladder[0].text` |
 | "…matter more here than at a school that publishes everything" | davidson-day `music.ladderNote` | `verdict.subhead` |
-| "a video submission followed by an in-person round by invitation" | carmel-christian `music.boardNote` | `music.ladder[1].text` |
+| "…followed by an in-person round by invitation" (the off-worklist site says "a video round"; the two never matched word for word, corrected at Batch 2) | carmel-christian `music.boardNote` | `music.ladder[1].text` |
 | "participate in adjudicated festivals annually, and the Middle School band has earned superior ratings at ACSI band festivals" | hickory-grove-christian `ladder.enrichment[0].text` | `music.ladder[1].text`, `verdict.holdsUp[2].text` |
 | "numerous Scholastic Art and Writing Awards" | gaston-day `visual.exhibits[1].detail` | `verdict.holdsUp[3].text` |
 | the quote "at chapels, commencement, and various venues outside of school" | trinity-episcopal `ladder.enrichment[0].text` | `music.ladder[2].text` |
@@ -461,8 +461,8 @@ shipped*) only after Batch 5.
 
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
-| 1 | *(this commit)* | [review-batch1.md](plainarts-data/review-batch1.md) | 10 (all fixed: 6 unclear referents after a split, 1 overclaim (exhibited work), 1 strengthened verb ("runs" → "organizes"), 2 wording shifts ("jobs", "lessons")) | |
-| 2 | | | | |
+| 1 | `e24c2796` | [review-batch1.md](plainarts-data/review-batch1.md) | 10 (all fixed: 6 unclear referents after a split, 1 overclaim (exhibited work), 1 strengthened verb ("runs" → "organizes"), 2 wording shifts ("jobs", "lessons")) | approved 2026-11-10, no rulings |
+| 2 | *(this commit)* | [review-batch2.md](plainarts-data/review-batch2.md) | 12 (all fixed: 4 referents, 3 restored unit-note keeps, 2 strengthened claims ("led to", "keeps producing"), 1 weakened figure ("high" for 100%), 1 wrong gloss (proscenium), 1 tense) | |
 | 3 | | | | |
 | 4 | | | | |
 | 5 | | | | |
@@ -642,6 +642,23 @@ approved every batch of all three):**
 command arrives with the `<, with these rulings: …>` placeholder unfilled, read it as
 "approved, no rulings", as all three earlier plans did, and record that batch's choices
 here as precedent.
+
+- **Batch 1 (approved 2026-11-10): no rulings.** The resume command arrived with the
+  `<, with these rulings: …>` placeholder unfilled, read as "approved, no rulings". So both
+  defaults stand: the eighth-grade student's name stays out of Latin `music.ladder[2]`, and
+  Anjali Rao ’27 stays in Latin `visual.footnote`. Batch 1's choices stand as precedent:
+  - ledger rows and name lists of 4+ items become a `·` run after a colon lead, with the
+    lead ("No wins. N finalist placements…:") kept parallel across a school's rows;
+  - a quoted span that ends a sentence goes at the end of the unit, or is followed by a
+    short sentence, because the checker merges it with what follows;
+  - a jargon term that is also a Compare cite is wrapped in parentheses after its plain
+    form ("Hands-on music classes (Experiential music)");
+  - no count word is added that the before-text lacked (guard (n)): "the Gold Key art
+    pieces", not "the two Gold Key pieces";
+  - a lowercase cite stays lowercase, with a lead word added before it ("First, the
+    backstage/technical course…");
+  - a referent after a split names its noun ("The production had no placement…", "the
+    Fab Lab is not shown…", "such a selection").
 
 ### plain-ok register
 
@@ -1057,7 +1074,7 @@ command changes, so `.claude/SKILLS.md` is not touched.
 
 | Path | After-grade | Reason |
 |---|--:|---|
-| — | — | Batch 1: none. All 28 units are at grade ≤10. |
+| — | — | Batches 1–2: none. All 52 units are at grade ≤10. |
 
 ## Implementation notes
 
@@ -1127,6 +1144,35 @@ Every guard passed on the first `--check` after applying. Ledger rows and long n
 - At 390px, PD with every card open has `scrollWidth` 390.
 - The Compare Arts cells come only from `ARTS_MATRIX`, which is unchanged, and `check:matrices` proves every cite. The Compare page rendered its "Not listed" cells as before.
 
+### Batch 2 (2026-11-10)
+
+**Resume.** Batch 1 was approved with no rulings (placeholder unfilled; recorded under "Style rulings"). `main` had not moved, so the rebase was a no-op.
+
+**Worklist** matched the plan: 24 units (charlotte-country-day 16, carmel-christian 8).
+
+**Build.** All 24 drafts were measured and cite-checked before applying. Three needed a second pass:
+- CCD `whoRunsIt` (10.4);
+- CCD `ledger[4]` (10.1);
+- CCD `holdsUp[0]` (10.7).
+
+Every guard passed on the first `--check`, for Batch 2 and for Batches 1–2 together.
+- **"TO VERIFY" is gone** from Carmel `ledger[1]`, as the Decision says. The "likely" hedge is kept.
+- **Carmel `visual.footnote` sets the shared noun phrase** "no external visual-arts recognition (Scholastic or otherwise)". Its verb is "turned up", because "was found" would have entered the NOTFOUND class, which the before-text's "surfaced in this pass" did not hold.
+- **CCD sets the NCTC-scale sentence** that Cannon copies: "For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions."
+
+**Independent review: 12 findings, all fixed** (see the review file). The reviewer also reported one fact error in the before-text, left unchanged and flagged: CCD's "Sabrina McGovern earned lead-category nominations in three consecutive cycles" disagrees with the school's own ledger, where 2024 is Best Supporting Actress. It also caught that the plan's near-repeat table misquoted Carmel `music.ladder[1]`; the table is corrected.
+
+**Step 6 checks.** All green:
+- `npx tsc -b` and `npx vite build`;
+- `check:schema`, `check:spelling`, `check:matrices`, `check:schoolurls`, `check:chrome`, `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`, `check:photos`.
+
+`check:live` reports **52 stale stamps per locale, all `the-arts`** (28 + 24). Running total for Phase 2: **52**.
+
+**Step 7 browser check:**
+- **24/24** rewritten units render, with 0 asterisks in either arts section.
+- One WIN chip on each school, matching its one `win` row (CCD 2022, Carmel 2026).
+- At 390px, CCD with every card open has `scrollWidth` 390.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
@@ -1149,6 +1195,13 @@ Every guard passed on the first `--check` after applying. Ledger rows and long n
   `visual.footnote` lists "Anjali Rao ’27 (fashion, 2023)". A Class of 2027 student was in
   8th grade in 2022–23. She is in high school now, and the plan's default covered only
   the current eighth grader, so the name is kept. **Flagged for the user.**
+- **CCD's McGovern claim (found at Batch 2).** `charlotte-country-day:theatre.honestContext`
+  says "lead-category nominations in three consecutive cycles". The ledger shows 2024 as Best
+  Supporting Actress, so two of three are lead categories. This is a fact fix, not a wording
+  one. **Flagged for the user.**
+- **Research bookkeeping in a non-prose field.** carmel-christian `theatre.ledger[2].year` is
+  `'~2022-23 (year to verify)'`. `year` is not prose, so it is untranslated and off every
+  worklist, and the "(year to verify)" renders to parents in every locale.
 - **Student names on the ledgers** are high-school students and are allowed by the K–8
   rule. No other K–8-grade student name was found in the arts files (the Latin one is
   handled above).

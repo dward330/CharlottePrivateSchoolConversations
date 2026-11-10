@@ -133,21 +133,21 @@ export const carmelChristian: ArtsProgram = {
       },
     ],
     venueNote:
-      'The director and the venue are not published — the arts nav carries a "Main Stage" label but no room name, and the Footloose "SOLD OUT!" note implies a fixed-capacity house that is not named anywhere.',
+      'The director and the venue are not published. The arts menu has a "Main Stage" label but no room name. The Footloose "SOLD OUT!" note suggests a hall with a fixed number of seats, but the hall is not named anywhere.',
     ledgerTitle: 'The Blumey ledger — external judging',
     ledger: [
       {
         year: '2026',
         show: 'Footloose',
         result:
-          'Best Actress WIN — Anna Jernigan as Ariel Moore, who advances to the national Jimmy Awards (ceremony May 17, 2026, Belk Theater; announced May 18). Plus five more placements across four categories: Best Actor finalist (James Coleman as Ren McCormack), Best Supporting Actor finalist (Sloan Pettus as Willard Hewitt), Best Supporting Actress finalist (Charlotte Scott as Rusty), Best Featured Performer finalist (Titus Teague as Garvin) and a Best Choreography Execution nominee (production).',
+          'Best Actress WIN — Anna Jernigan as Ariel Moore, who advances to the national Jimmy Awards (ceremony May 17, 2026, Belk Theater; announced May 18). Plus five more placements across four categories: Best Actor finalist (James Coleman as Ren McCormack) · Best Supporting Actor finalist (Sloan Pettus as Willard Hewitt) · Best Supporting Actress finalist (Charlotte Scott as Rusty) · Best Featured Performer finalist (Titus Teague as Garvin) · a Best Choreography Execution nominee (production).',
         win: true,
       },
       {
         year: '2024',
         show: 'Anastasia',
         result:
-          'Seven placements, no win: Best Featured Performer nominees Sasha Mashchenko (Ballet Lead) and Caeden Moore (Vlad); Best Actor finalists Dylan Wilson (Dmitry) and Anna Jernigan (Lily); Best Supporting Actor finalists Caeden Moore (Vlad) and Karleigh Robin (Dowager Empress); and a Best Featured Performer finalist, Sasha Mashchenko (Ballet Lead). Jernigan appears under "Finalists for Best Actor" verbatim in Blumenthal\'s official PDF — a likely labeling quirk (she played Lily); TO VERIFY.',
+          'Seven placements, no win: Best Featured Performer nominees Sasha Mashchenko (Ballet Lead) and Caeden Moore (Vlad) · Best Actor finalists Dylan Wilson (Dmitry) and Anna Jernigan (Lily) · Best Supporting Actor finalists Caeden Moore (Vlad) and Karleigh Robin (Dowager Empress) · a Best Featured Performer finalist, Sasha Mashchenko (Ballet Lead). Blumenthal\'s official PDF lists Jernigan under the exact heading "Finalists for Best Actor", though she played Lily. The heading is likely a labeling quirk.',
       },
       {
         year: '~2022-23 (year to verify)',
@@ -157,7 +157,7 @@ export const carmelChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'Anna Jernigan’s arc anchors the program: a 2024 Best Actor finalist placement (as Lily in Anastasia, per Blumenthal’s own labeling) became the 2026 Best Actress win for Footloose, which carried on to the national Jimmy Awards. Note that the 2024 nominations belong to Anastasia, not to "Singin\' in the Rain" — the school’s undated news page pins a separate, earlier pair of noms (Pisacano, Wilson) to that different production.',
+      'Anna Jernigan’s rise anchors the program. In 2024 she was a Best Actor finalist (as Lily in Anastasia, per Blumenthal’s own labeling). That placement grew into the 2026 Best Actress win for Footloose, which went on to the national Jimmy Awards. The 2024 nominations belong to Anastasia, not to "Singin\' in the Rain". The school’s undated news page ties a separate, earlier pair of nominations (Pisacano, Wilson) to that production.',
     sources: [
       { label: 'carmelchristian.org — Theatre Productions (2025-26 season)', url: CC_PRODUCTIONS },
       { label: 'carmelchristian.org — 2024-25 theatre season', url: CC_SEASON_2425 },
@@ -188,7 +188,7 @@ export const carmelChristian: ArtsProgram = {
       },
     ],
     boardNote:
-      'Ignite Band, the High School praise team, is audition-based — a video submission followed by an in-person round by invitation. No orchestra, a cappella group or Tri-M / music honor society is published.',
+      'Ignite Band is the High School praise team. The band is audition-based: a video submission followed by an in-person round by invitation. No orchestra, a cappella group or Tri-M / music honor society is published.',
     ladderTitle: 'The honors ladder — what is published',
     ladder: [
       {
@@ -240,7 +240,7 @@ export const carmelChristian: ArtsProgram = {
       },
     ],
     footnote:
-      'High School gallery or exhibit events beyond the Middle School Art Festival are not published, and no external visual-arts recognition (Scholastic or otherwise) surfaced in this pass. The Honors and AP studio courses appear only in the Course Offerings guide, which the arts page does not corroborate.',
+      'High School gallery or exhibit events beyond the Middle School Art Festival are not published. No external visual-arts recognition (Scholastic or otherwise) turned up either. The Honors and AP studio courses appear only in the Course Offerings guide; the arts page does not confirm them.',
     sources: [
       { label: 'carmelchristian.org — Elementary (K–5) Arts', url: CC_ELEM },
       { label: 'carmelchristian.org — Middle School (6–8) Arts', url: CC_MS },
@@ -260,7 +260,7 @@ export const carmelChristian: ArtsProgram = {
       },
       {
         label: 'Depth behind the win',
-        text: 'the 2026 "Footloose" run placed six across five categories (actress, actor, both supporting, featured performer and choreography), and "Anastasia" placed seven in 2024 — a repeat producer of acting finalists, not a one-off.',
+        text: 'the 2026 "Footloose" run placed six across five categories (actress, actor, both supporting, featured performer and choreography). "Anastasia" placed seven in 2024. The program is a repeat producer of acting finalists, not a one-off.',
       },
       {
         label: 'A studio path that reaches AP',
@@ -274,7 +274,7 @@ export const carmelChristian: ArtsProgram = {
     ask: [
       'Where do productions like "Footloose" actually stage — what is the venue, and how many seats? The site names a "Main Stage" but no room.',
       'Who directs the Upper School musical, and who ran the 2026 Blumey-winning "Footloose"? No director is published.',
-      'The Course Offerings guide lists Honors Art III/IV, Honors Acting Studio and AP 2-D Art & Design, but the arts page names none of them — which of these actually runs each year?',
+      'The Course Offerings guide lists Honors Art III/IV, Honors Acting Studio and AP 2-D Art & Design, but the arts page names none of them. Which of these actually runs each year?',
       'Is there any music beyond band, choir and the Ignite praise teams — an orchestra, a strings program, or an a cappella group?',
       'What happens at the Middle School "Honor Band" event, and do students audition into any all-state or regional honors ensemble from there?',
       'Was the "Singin\' in the Rain" Blumey pair (Pisacano, Wilson) a separate year from the 2024 "Anastasia" nominations — and what year was it?',
