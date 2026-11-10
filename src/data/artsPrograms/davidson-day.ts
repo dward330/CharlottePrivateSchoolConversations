@@ -92,19 +92,19 @@ export const davidsonDay: ArtsProgram = {
     enrichment: [
       {
         label: 'Improv & Musical Review',
-        text: 'The Theatre Performance Ensemble takes part in Davidson Day productions, an Improv Comedy show, a Musical Review, a Student Written and Directed Short Play Showcase, and collaborations with local theatre companies — though the partner companies are not named.',
+        text: 'The Theatre Performance Ensemble takes part in: Davidson Day productions · an Improv Comedy show · a Musical Review · a Student Written and Directed Short Play Showcase · collaborations with local theatre companies. The partner companies are not named.',
       },
       {
         label: 'The performance venue',
-        text: 'No theater, auditorium or arts-center name is published anywhere for the Jetton Street campus. Two catalog photographs bear on this and point toward multi-use space: a musical staged on a constructed set in what appears to be a gymnasium (basketball net and gym wall visible), and a keyboard recital held inside the art studio itself. Treat "is there a real theater?" as an open tour question.',
+        text: 'No theater, auditorium or arts-center name is published anywhere for the Jetton Street campus. Two catalog photographs point toward shared, multi-use space. One shows a musical staged on a built set in what appears to be a gymnasium (a basketball net and gym wall are visible). The other shows a keyboard recital held inside the art studio itself. Treat "is there a real theater?" as an open tour question.',
       },
       {
         label: 'The art studio',
-        text: 'The catalog’s Visual Arts photograph shows a genuine, well-equipped room — flat-file drawing cabinets, wall storage, a sink and wet area, tabletop easels, a plaster bust and student work throughout. This reads as a real studio rather than a converted classroom.',
+        text: 'The catalog’s Visual Arts photograph shows a real, well-equipped room: flat-file drawing cabinets · wall storage · a sink and wet area · tabletop easels · a plaster bust · student work throughout. The room reads as a true studio, not a converted classroom.',
       },
       {
         label: 'Not found',
-        text: 'No visiting-artist or artist-in-residence series, no parent arts organization, no arts festival or gallery-night calendar, and no arts faculty member named in any source. Two arts teachers are pictured in the catalog but neither is captioned.',
+        text: 'None of these appears in any source: a visiting-artist or artist-in-residence series · a parent arts organization · an arts festival or gallery-night calendar · a named arts faculty member. Two arts teachers are pictured in the catalog, but neither is captioned.',
       },
     ],
     sources: [
@@ -135,7 +135,7 @@ export const davidsonDay: ArtsProgram = {
       },
     ],
     whoRunsIt:
-      'No theatre director, musical director or drama teacher is named in any source, and the catalog does not attribute courses to faculty — notable given the school earned a Best Overall Direction nomination in 2023, which Blumenthal credits to the school rather than an individual. The Theatre Performance Ensemble is a select company; new students must audition, most class time is rehearsal, and there are after-school calls before performances. There is NO stagecraft or technical theatre course in the 2026-27 catalog — the nearest offering, Film Studies & Production, is video editing rather than stage tech. Students clearly build substantial multi-level scenery, and a Davidson Day student once won a scholarship for non-performing theater work, so backstage participation exists in some form; whether through a class, club or crew is unpublished.',
+      'No theatre director, musical director or drama teacher is named in any source, and the catalog does not link courses to teachers. The missing names stand out, because the school earned a Best Overall Direction nomination in 2023. Blumenthal credits that nomination to the school, not to a person. The Theatre Performance Ensemble is a select company. New students must audition, most class time is rehearsal, and there are after-school calls before performances. There is NO stagecraft or technical theatre course in the 2026-27 catalog. The nearest offering, Film Studies & Production, is video editing, not stage tech. Students clearly build large, multi-level scenery, and a Davidson Day student once won a scholarship for non-performing theater work. So backstage work exists in some form. Whether it happens through a class, a club or a crew is unpublished.',
     venueNote:
       'Where performances happen is genuinely unclear — no venue is named, and the available photographic evidence suggests a gymnasium for the musical and the art studio for recitals.',
     ledgerTitle: 'The Blumey ledger — every year found',
@@ -144,7 +144,7 @@ export const davidsonDay: ArtsProgram = {
         year: '2026',
         show: 'Big Fish',
         result:
-          'Five finalists: Best Actor (Lukas Paeper as Edward Bloom), Best Actress (Malena Lessa as Sandra Bloom), Best Supporting Actor (Noah Larsen as Will Bloom), Best Supporting Actress (Katelyn Ray as Witch), Best Featured Performer (Elizabeth Robinson as Giant, also a nominee). No win recorded.',
+          'Five finalists: Best Actor (Lukas Paeper as Edward Bloom) · Best Actress (Malena Lessa as Sandra Bloom) · Best Supporting Actor (Noah Larsen as Will Bloom) · Best Supporting Actress (Katelyn Ray as Witch) · Best Featured Performer (Elizabeth Robinson as Giant, also a nominee). No win recorded.',
       },
       {
         year: '2025',
@@ -156,18 +156,18 @@ export const davidsonDay: ArtsProgram = {
         year: '2023',
         show: 'Mean Girls',
         result:
-          'The strongest year found — four nominations including two at program level: Best Ensemble/Chorus and Best Overall Direction, plus Best Actress (Kathleen Moore as Regina George) and Best Featured Performer (Ada Brown as Mrs. George).',
+          'The strongest year found: four nominations, two of them for the whole program. Those were Best Ensemble/Chorus and Best Overall Direction. The others were Best Actress (Kathleen Moore as Regina George) and Best Featured Performer (Ada Brown as Mrs. George).',
       },
       {
         year: '~2015',
         show: 'Gordon Hay Scholarship',
         result:
-          'Aslan Freidline received the $5,000 Gordon Hay Scholarship, awarded to a Charlotte-area senior pursuing a NON-performing career in the performing arts. The award is well attested; the year attribution (the 4th annual Blumeys) is not confirmed on a fetched Blumenthal page.',
+          'Aslan Freidline received the $5,000 Gordon Hay Scholarship. The scholarship goes to a Charlotte-area senior pursuing a NON-performing career in the performing arts. The award is well attested. But its year (the 4th annual Blumeys) is not confirmed on any Blumenthal page that could be checked.',
         win: true,
       },
     ],
     honestContext:
-      'For a school this small, the Blumey record is real and better than the enrollment would predict — the 2023 nominations for Best Ensemble/Chorus and Best Overall Direction are program-level recognition, not just standout individuals. The flip side of small-school math is the upside for a student: mounting a full musical out of a very small student body means far fewer peers competing for a role. Two things a parent should note plainly: no NCTC participation, placement or award could be found anywhere, so the Blumeys are the whole external picture; and prior research attributing a production of "Matilda Jr." to this school was an error — that show was staged by the Davidson Community Players, a separate community theater company in the same town, so it is excluded here.',
+      'For a school this small, the Blumey record is real and better than its enrollment would predict. The 2023 nominations for Best Ensemble/Chorus and Best Overall Direction recognize the whole program, not just standout individuals. Small-school math also helps a student. Mounting a full musical out of a very small student body means far fewer peers competing for a role. A parent should note two things plainly. First, no NCTC participation, placement or award could be found anywhere, so the Blumeys are the whole outside picture. And earlier research credited a production of "Matilda Jr." to this school by mistake. The Davidson Community Players staged that show; they are a separate community theater company in the same town. So the show is left out here.',
     sources: [
       {
         label: 'Blumenthal Arts — 2026 nominees & finalists',
@@ -209,7 +209,7 @@ export const davidsonDay: ArtsProgram = {
       },
     ],
     boardNote:
-      'Contemporary Ensemble is described as the school’s "very own School of Rock" — pop and rock with a dash of jazz, blues and funk, open to all levels, all instruments and vocalists, with guitars, bass, keyboards and drums provided in the classroom. Members must perform publicly at least once per quarter. Modern Music covers music history and production in GarageBand with no performance requirement. No concert band, symphonic band, marching band, orchestra, jazz band, chorus or vocal ensemble appears as a named Upper School course in the 2026-27 catalog. No band, choral or music-department director is named anywhere.',
+      'Contemporary Ensemble is described as the school’s "very own School of Rock": pop and rock with a dash of jazz, blues and funk. The ensemble is open to all levels, all instruments and vocalists, and guitars, bass, keyboards and drums are provided in the classroom. Members must perform publicly at least once per quarter. Modern Music covers music history and production in GarageBand, with no performance requirement. No concert band, symphonic band, marching band, orchestra, jazz band, chorus or vocal ensemble appears as a named Upper School course in the 2026-27 catalog. No band, choral or music-department director is named anywhere.',
     ladderTitle: 'The honors ladder — where it stops',
     ladder: [
       {
@@ -230,7 +230,7 @@ export const davidsonDay: ArtsProgram = {
       },
     ],
     ladderNote:
-      'This is the clearest gap in the school’s published arts picture, and it is the reason the tour questions below matter more here than at a school that publishes everything. A student who plays violin or flute, or who sings classically, has no published ensemble to join in grades 9–12 — ask directly what they would join, and whether private lessons happen on campus.',
+      'This is the clearest gap in what the school publishes about the arts. That gap is why the tour questions below matter more here than at a school that publishes everything. A student who plays violin or flute, or who sings classically, has no published ensemble to join in grades 9–12. Ask directly what they would join, and whether private lessons happen on campus.',
     sources: [
       { label: '2026-27 Upper School Course Catalog', url: DD_CATALOG },
       { label: 'davidsonday.org — Arts', url: DD_ARTS },
@@ -281,7 +281,7 @@ export const davidsonDay: ArtsProgram = {
       },
     ],
     footnote:
-      'No visual arts, photography or AP Studio Art teacher is named in any source. The school states that students building AP portfolios "pursue admission" at schools such as the Savannah College of Art and Design, Rhode Island School of Design and Chapman University — note the careful wording, which describes where students apply rather than confirmed admissions. Whether the school supplies cameras is unpublished, though catalog photos show students with their own DSLR bodies. One adjacent honor worth knowing: sophomore Sims Skaff was named Photographer of the Year in the Private School Journalism Association contest, co-sponsored by Quill and Scroll, announced April 2025 — but that came through the yearbook and journalism pipeline, which the catalog houses under English rather than the arts department.',
+      'No visual arts, photography or AP Studio Art teacher is named in any source. The school states that students building AP portfolios "pursue admission" at schools such as the Savannah College of Art and Design, Rhode Island School of Design and Chapman University. Note the careful wording: it describes where students apply, not confirmed admissions. Whether the school supplies cameras is unpublished, though catalog photos show students with their own DSLR cameras. One related honor is worth knowing. Sophomore Sims Skaff was named Photographer of the Year in the Private School Journalism Association contest, co-sponsored by Quill and Scroll, announced April 2025. But that came through the yearbook and journalism program, which the catalog places under English, not the arts department.',
     sources: [
       { label: '2026-27 Upper School Course Catalog', url: DD_CATALOG },
       { label: 'davidsonday.org — Arts', url: DD_ARTS },
@@ -296,15 +296,15 @@ export const davidsonDay: ArtsProgram = {
     holdsUp: [
       {
         label: 'A genuine no-audition way into performing music',
-        text: 'Contemporary Ensemble takes students at any level with no audition, adjusts repertoire to each player, and provides guitars, bass, keyboards and drums in the classroom. For a beginner or late starter that is a materially lower barrier than an auditioned band or choir.',
+        text: 'Contemporary Ensemble takes students at any level with no audition. It adjusts the music to each player and provides guitars, bass, keyboards and drums in the classroom. For a beginner or late starter, that is a materially lower barrier than an auditioned band or choir.',
       },
       {
         label: 'Small-school math means real stage time',
-        text: 'the school mounts a full Upper School musical out of a very small student body, so a student who wants to be cast competes against far fewer peers than at a large independent or public magnet.',
+        text: 'the school mounts a full Upper School musical out of a very small student body. So a student who wants to be cast competes against far fewer peers than at a large independent school or public magnet.',
       },
       {
         label: 'The Blumey record is program-level, not just lucky individuals',
-        text: '2023 Mean Girls drew Best Ensemble/Chorus and Best Overall Direction nominations, and 2026 Big Fish produced five finalists across Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress and Best Featured Performer.',
+        text: '2023 Mean Girls drew Best Ensemble/Chorus and Best Overall Direction nominations. 2026 Big Fish produced five finalists: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer.',
       },
       {
         label: 'A complete visual-arts ladder terminating in AP',
@@ -316,7 +316,7 @@ export const davidsonDay: ArtsProgram = {
       },
       {
         label: 'The requirements are arts-friendly at the margins',
-        text: 'only one fine-arts credit is required to graduate, so an arts-indifferent student is not forced into a heavy commitment — while an arts-committed one can claim the PE credit for theater, freeing a schedule slot.',
+        text: 'only one fine-arts credit is required to graduate, so a student with little interest in the arts is not forced into a heavy commitment. A committed arts student can claim the PE credit for theater, which frees up a slot in the schedule.',
       },
     ],
     ask: [
@@ -324,7 +324,7 @@ export const davidsonDay: ArtsProgram = {
       'Who teaches the arts, and who directed Big Fish — and are they returning? Not one arts faculty name is published, and in a program this small one departure changes everything.',
       'Is there any concert band, orchestra or chorus, in any division at any level? The Upper School catalog shows only Contemporary Ensemble. If my child plays violin or flute, or sings classically, what do they join in grades 9–12?',
       'Who builds the sets, and is there any tech-theater pathway? The productions involve substantial constructed scenery and a student once won a scholarship for non-performing theater work, yet there is no stagecraft course.',
-      'What external arts recognition have students earned in the last three years beyond the Blumeys? No all-state selections, adjudicated ratings, NCTC participation, Art Honor Society or Tri-M chapter could be found.',
+      'What external arts recognition have students earned in the last three years beyond the Blumeys? None of these could be found: all-state selections · adjudicated ratings (scores from festival judges) · NCTC participation · an Art Honor Society · a Tri-M chapter.',
       'How does visual art get shown, and is any film or darkroom work possible? No gallery, student-show calendar or art honor society is published, and the photo sequence reads as digital-only. Does the school provide cameras?',
       'Does a Middle School band or chorus exist, and does it feed anything in the Upper School?',
     ],

@@ -162,7 +162,7 @@ worklist unit):
 | "Best Ensemble/Chorus and Best Overall Direction" | davidson-day `theatre.honestContext`, `ledger[2].result`, `verdict.holdsUp[2].text` | `theatre.headline` |
 | "a student once won a scholarship for non-performing theater work" | davidson-day `theatre.whoRunsIt` | `verdict.ask[3]` |
 | "a materially lower barrier than an auditioned band or choir" | davidson-day `verdict.holdsUp[0].text` | `music.ladder[0].text` |
-| "…matter more here than at a school that publishes everything" | davidson-day `music.ladderNote` | `verdict.subhead` |
+| "…matter more here than at a school that …everything" (the off-worklist site says "documents", the worklist unit "publishes"; the two never matched word for word, corrected at Batch 4) | davidson-day `music.ladderNote` | `verdict.subhead` |
 | "…followed by an in-person round by invitation" (the off-worklist site says "a video round"; the two never matched word for word, corrected at Batch 2) | carmel-christian `music.boardNote` | `music.ladder[1].text` |
 | "participate in adjudicated festivals annually, and the Middle School band has earned superior ratings at ACSI band festivals" | hickory-grove-christian `ladder.enrichment[0].text` | `music.ladder[1].text`, `verdict.holdsUp[2].text` |
 | "numerous Scholastic Art and Writing Awards" | gaston-day `visual.exhibits[1].detail` | `verdict.holdsUp[3].text` |
@@ -463,8 +463,8 @@ shipped*) only after Batch 5.
 |---|---|---|---|---|
 | 1 | `e24c2796` | [review-batch1.md](plainarts-data/review-batch1.md) | 10 (all fixed: 6 unclear referents after a split, 1 overclaim (exhibited work), 1 strengthened verb ("runs" → "organizes"), 2 wording shifts ("jobs", "lessons")) | approved 2026-11-10, no rulings |
 | 2 | `54da2493` | [review-batch2.md](plainarts-data/review-batch2.md) | 12 (all fixed: 4 referents, 3 restored unit-note keeps, 2 strengthened claims ("led to", "keeps producing"), 1 weakened figure ("high" for 100%), 1 wrong gloss (proscenium), 1 tense) | approved 2026-11-10, no rulings |
-| 3 | *(this commit)* | [review-batch3.md](plainarts-data/review-batch3.md) | 13 (all fixed: 5 referents, 1 widened entry rule (three productions → Theater in Performance only), 1 weakened verb ("asked" for "assigned"), 1 narrowed scope, 1 wrong "who shares", 1 wrong "scheduled", 3 wording) | |
-| 4 | | | | |
+| 3 | `581246f3` | [review-batch3.md](plainarts-data/review-batch3.md) | 13 (all fixed: 5 referents, 1 widened entry rule (three productions → Theater in Performance only), 1 weakened verb ("asked" for "assigned"), 1 narrowed scope, 1 wrong "who shares", 1 wrong "scheduled", 3 wording) | approved 2026-11-10, no rulings |
+| 4 | *(this commit)* | [review-batch4.md](plainarts-data/review-batch4.md) | 12 (all fixed: 7 referents incl. the shared Ghana sentence at both sites, 3 "outside" read as outside Charlotte / outdoor, 1 dropped "such as", 1 fragment) | |
 | 5 | | | | |
 
 ### Unit notes (things the drafter must not get wrong)
@@ -670,6 +670,16 @@ here as precedent.
   - "led to" / "keeps producing" are causal or trend claims; the before-text's "became" /
     "repeat producer" stay;
   - an unclear "house" becomes "hall", never "theater", when the unit holds no THEATER.
+
+- **Batch 3 (approved 2026-11-10): no rulings.** Placeholder unfilled again. The four
+  flagged before-text issues got no answer, so they stay under Candidates. Batch 3's choices
+  stand:
+  - a rule that applies to one course is never widened to a whole sequence by a split
+    ("enter Theater in Performance", not "enter it");
+  - the before-text's verb of authority stays ("assigned", not "asked");
+  - when a guard's long-span pattern matched across a sentence break in the before-text,
+    the rewrite carries a true marker of the same class instead ("The school names no …");
+  - a unit whose quote would merge with the next sentence is reordered to end on the quote.
 
 ### plain-ok register
 
@@ -1085,7 +1095,7 @@ command changes, so `.claude/SKILLS.md` is not touched.
 
 | Path | After-grade | Reason |
 |---|--:|---|
-| — | — | Batches 1–3: none. All 74 units are at grade ≤10. |
+| — | — | Batches 1–4: none. All 102 units are at grade ≤10. |
 
 ## Implementation notes
 
@@ -1215,6 +1225,35 @@ It also reported four before-text issues, left unchanged:
 - Catholic's has 40, all from the six off-worklist `verdict.holdsUp[]` units with `**` (Candidates). Guard (o) proves none of them is in a rewritten unit.
 - At 390px, Cannon with every card open has `scrollWidth` 390.
 
+### Batch 4 (2026-11-10)
+
+**Resume.** Batch 3 was approved with no rulings (placeholder unfilled; recorded under "Style rulings"). `main` had not moved.
+
+**Worklist** matched the plan: 28 units (davidson-day 17, trinity-episcopal 11).
+
+**Build.** All 28 drafts were measured and cite-checked. One needed a second pass: DD `ask[4]` (11.1), now a question followed by a `·` list of what could not be found.
+
+After applying, guard (h) failed once. DD `ladder.enrichment[3]`'s "No source names any of these" matched UNPUBLISHED (`no … names`), a class the before-text lacked. It became "None of these appears in any source", made with Edit. A meaning slip was fixed at the same time: the item is "a named arts faculty member", since two teachers are pictured but unnamed.
+
+The Trinity near-repeats were built from shared sentences: "Trinity was CIH's first new partner school since the pandemic." and "…leads the exchange with CIH founder Amy Gaylor Nedriga." Both `pedagogy` units now say "teaching method".
+
+**Independent review: 12 findings, all fixed** (see the review file). The fixes cover 7 referents, 3 cases of "outside" misreading (outside Charlotte, or outdoor), a dropped "such as" and a fragment.
+
+The reviewer also reported three before-text issues, left unchanged:
+- Trinity's `ask[2]` overstates the profile-vs-web conflict: the profile also lists 5th Grade Shakespeare.
+- Trinity's "20 to 70 minutes each" leaves out a 10:48 Fiddler selection.
+- The plan's near-repeat table misquoted DD `verdict.subhead` (corrected).
+
+**Step 6 checks.** All green:
+- `npx tsc -b` and `npx vite build`;
+- `check:schema`, `check:spelling`, `check:matrices`, `check:schoolurls`, `check:chrome`, `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`, `check:photos`.
+
+`check:live` reports **102 stale stamps per locale, all `the-arts`** (28 + 24 + 22 + 28). Running total for Phase 2: **102**.
+
+**Step 7 browser check:**
+- **28/28** rewritten units render, with 0 asterisks on either school.
+- At 390px, DD with every card open has `scrollWidth` 390.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
@@ -1249,6 +1288,12 @@ It also reported four before-text issues, left unchanged:
   - charlotte-catholic `theatre.headline` "five more nominations in 2026" covers 4
     nominees and 1 finalist, and `theatre.subhead` "a rare sweep of nominations"
     describes 2025's finalists. Both are off the worklist.
+- **Before-text issues found at Batch 4**, unchanged and **flagged for the user**:
+  - trinity-episcopal `verdict.ask[2]` says the 2026-27 profile lists only "4th Grade
+    Musical and a Middle School fall play plus winter musical". The profile also lists 5th
+    Grade Shakespeare Review, so the conflict it asks about is overstated;
+  - trinity-episcopal `ladder.enrichment[0]`'s "20 to 70 minutes each" does not cover the
+    10:48 Spring Arts Fest 2020 Fiddler selections (arguably not a full play).
 - **Research bookkeeping in a non-prose field.** carmel-christian `theatre.ledger[2].year` is
   `'~2022-23 (year to verify)'`. `year` is not prose, so it is untranslated and off every
   worklist, and the "(year to verify)" renders to parents in every locale.
