@@ -45,12 +45,12 @@ export const charlottePrep: AdmissionsProgram = {
     rules: [
       {
         title: 'One portal.',
-        text: 'Everything runs through FACTS: start an application in the FACTS admissions portal and pay the $100 non-refundable fee there. Entering a teacher’s and a registrar’s email in the portal sends them the recommendation and transcript forms directly.',
+        text: 'Everything runs through FACTS. Start an application in the FACTS admissions portal and pay the $100 non-refundable fee there. When you enter a teacher’s and a registrar’s email in the portal, it sends them the recommendation and transcript forms directly.',
       },
     ],
 
     spineNote:
-      'Same spine in both bands — visit → apply through FACTS with the fee → recommendations (and transcripts from Grade 1) → testing → an on-campus visit → decision by email at 4:00 p.m. → enrollment contract. What changes is the calendar, which test your child sits, and who administers it.',
+      'Both bands follow the same main steps. First: visit → apply through FACTS with the fee → recommendations (and transcripts from Grade 1) → testing. Then: an on-campus visit → decision by email at 4:00 p.m. → enrollment contract. What changes is the calendar, which test your child takes, and who gives it.',
 
     bands: [
       {
@@ -70,7 +70,7 @@ export const charlottePrep: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The **Montessori Open House** is **Wednesday, October 21** at 9:30 a.m., and a **Kindergarten Virtual Information Session** runs **Thursday, November 12** at 12:00 p.m. Ages are set **by August 1**: **2** for Pre-Primary, **3** for Primary, **4** for TK, and **5** for Montessori K or Traditional K.',
+              'The **Montessori Open House** is at 9:30 a.m. on **Wednesday, October 21**. A **Kindergarten Virtual Information Session** runs at 12:00 p.m. on **Thursday, November 12**. Ages are set **by August 1**: **2** for Pre-Primary, **3** for Primary, **4** for TK, and **5** for Montessori K or Traditional K.',
           },
           {
             title: 'Apply through FACTS and pay the $100 fee',
@@ -111,7 +111,7 @@ export const charlottePrep: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'Your deadline is Jan 2 — two weeks ahead of Grades 1–8.',
-          text: 'Early School and Kindergarten apply by January 2, finish testing and recommendations by February 1, and hear back on February 26 at 4:00 p.m. Only Montessori K and Kindergarten sit a test — the WPPSI-IV, through a CAIS psychologist. Pre-Primary, Primary and TK applicants sit none.',
+          text: 'Early School and Kindergarten apply by January 2 and finish testing and recommendations by February 1. Families hear back at 4:00 p.m. on February 26. Only Montessori K and Kindergarten take a test: the WPPSI-IV, through a CAIS psychologist. Pre-Primary, Primary and TK applicants take none.',
         },
         checklistRows: [
           {
@@ -209,7 +209,7 @@ export const charlottePrep: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'Check which test your grade sits — it changes twice inside this band.',
-          text: 'Grade 1 takes the WPPSI-IV, Grades 2–4 the WISC-V — both through a CAIS psychologist — and Grades 5–8 the ISEE, registered through ERB. Applications are due January 15; recommendations, testing and transcripts by February 26; decisions arrive April 9 at 4:00 p.m.',
+          text: 'Grade 1 takes the WPPSI-IV and Grades 2–4 the WISC-V, both through a CAIS psychologist. Grades 5–8 take the ISEE, registered through ERB. Applications are due January 15. Recommendations, testing and transcripts are due by February 26. Decisions arrive April 9 at 4:00 p.m.',
         },
         checklistRows: [
           {
@@ -253,7 +253,7 @@ export const charlottePrep: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Tuition assistance is offered for **Kindergarten through 8th grade**, through **Clarity**, on "financial need, academic merit, and the student’s fit". The school’s aid page gives two deadlines — **January 2** in its body and **January 15** in its FAQ — so **confirm the date with the Director of Enrollment** before relying on either. Pre-Primary, Primary and TK are not eligible for aid.',
+      text: 'Tuition assistance is offered for **Kindergarten through 8th grade**, through **Clarity**. It is based on "financial need, academic merit, and the student’s fit". The school’s aid page gives two deadlines: **January 2** in the main text and **January 15** in its FAQ. So **confirm the date with the Director of Enrollment** before relying on either. Pre-Primary, Primary and TK are not eligible for aid.',
       button: 'Financial Aid & Tuition',
     },
 

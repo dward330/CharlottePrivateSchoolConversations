@@ -127,7 +127,7 @@ export const providenceDay: AdmissionsProgram = {
         watchOuts: [
           {
             kicker: 'Why TK/K is different',
-            text: 'The youngest band runs on an **earlier calendar** than everyone else and uses a **readiness model** — WPPSI-IV, Readiness Screening, and Classroom Visit — instead of standardized testing. Three assessment pieces means three appointments to schedule: another reason the early application matters.',
+            text: 'The youngest band runs on an **earlier calendar** than everyone else. Instead of standardized testing, it uses a **readiness model** with three parts: the WPPSI-IV, a Readiness Screening and a Classroom Visit. Three parts means three appointments to schedule. That is one more reason to apply early.',
           },
           {
             kicker: 'Age eligibility',
@@ -224,7 +224,7 @@ export const providenceDay: AdmissionsProgram = {
             tag: 'by Feb 26',
             tagKind: 'outline',
             detail:
-              'The instrument depends on the grade: **Rising Grade 1** takes the WPPSI-IV, the same Wechsler preschool scale as TK/K; **Grades 2–4** take the WISC-V, the Wechsler Intelligence Scale for Children; and **Grade 5** takes the ISEE, the Independent School Entrance Exam. Ask admissions how to schedule the one your child needs.',
+              'The test depends on the grade. **Rising Grade 1** takes the WPPSI-IV, the same Wechsler preschool scale used for TK/K. **Grades 2–4** take the WISC-V, the Wechsler Intelligence Scale for Children. **Grade 5** takes the ISEE, the Independent School Entrance Exam. Ask admissions how to schedule the one your child needs.',
           },
           {
             title: 'Decision → contract + deposit',
@@ -338,7 +338,7 @@ export const providenceDay: AdmissionsProgram = {
         watchOuts: [
           {
             kicker: 'The test is the ISEE',
-            text: 'The school names the **Independent School Entrance Exam (ISEE)** as the required test for this band. The exam has grade-appropriate levels — confirm with admissions which level your child sits, and book a date early enough that scores arrive before the February 26 materials deadline.',
+            text: 'The school names the **Independent School Entrance Exam (ISEE)** as the required test for this band. The exam comes in levels by grade. Confirm with admissions which level your child takes. Then book a test date early enough that scores arrive before the February 26 materials deadline.',
           },
           {
             kicker: 'International applicants',
@@ -392,7 +392,7 @@ export const providenceDay: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Clarity application ($65) due **Jan 22** for prospective families — complete both processes on time and the aid decision arrives inside the Enrollment Agreement. Applying for aid never influences admission; separate committees decide.',
+      text: 'Families new to the school submit the Clarity application ($65) by **Jan 22**. Complete both processes on time, and the aid decision arrives as part of the Enrollment Agreement. Applying for aid never affects admission. Separate committees make each decision.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -485,7 +485,7 @@ export const providenceDay: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2026–27 entry cycle as published on the providenceday.org admissions calendar and admissions-process pages (verified against the live site Sep 2026); cycle dates shift year to year — verify against the live calendar before acting. Items marked "confirm" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.',
+        'Dates are for the 2026–27 entry cycle, as published on the providenceday.org admissions calendar and admissions-process pages (checked against the live site Sep 2026). Cycle dates change from year to year, so check the live calendar before acting. Items marked "confirm" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.',
     },
 
     sources: [

@@ -118,6 +118,25 @@ test('8. sentence splitting', () => {
   assert.equal(sentences('Dr. Smith and St. Mary’s, e.g. the U.S. teams, joined.').length, 1)
 })
 
+test('8b. a spaced middle dot separates list items', () => {
+  assert.equal(sentences('A $100 fee · the myCCS portal · a birth certificate').length, 3)
+  assert.equal(sentences('Open Mon·Fri only').length, 1, 'an unspaced · does not split')
+  assert.equal(sentences('Ends here. · Next item').length, 2, 'no empty third piece')
+
+  const item = 'the admissions office reviews every file it receives in the order that the files arrived'
+  assert.equal(wordsOf(item).length, 15)
+  const dotted = [item, item, item].join(' · ')
+  const commas = [item, item, item].join(', ')
+  assert.ok(!rules(dotted).includes('long'), 'three 15-word items are three sentences')
+  assert.ok(rules(commas).includes('long'), 'the same items joined by commas are one 45-word sentence')
+
+  const longItem = `${item} and then sends a letter home to every single family that applied before the deadline passed`
+  assert.ok(wordsOf(longItem).length > 30)
+  assert.ok(rules(`A short item · ${longItem}`).includes('long'), 'one item over 30 words is still long')
+
+  assert.ok(fleschKincaid(normalize(dotted)) < fleschKincaid(normalize(commas)), 'grade is measured per item')
+})
+
 test('9. out-of-scope files ignored', async () => {
   for (const p of [
     'src/components/Compare.tsx', 'src/data/overlays/admissions.es.json', 'src/locales/es.json',
