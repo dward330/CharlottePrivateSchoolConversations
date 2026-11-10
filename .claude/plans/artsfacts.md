@@ -1,7 +1,7 @@
 ---
 name: artsfacts
 title: Fix the open issues plainarts flagged — The Arts fact corrections (Christian AP Music Theory, CCD McGovern, Cannon "two offerings" and AV quote, Catholic nominee/finalist tiers, Trinity production list and recording lengths, HG "nominated", Gaston Thespian charter), literal asterisks (Catholic holdsUp, HG Exodus), Carmel's TO VERIFY bookkeeping, and Cyrillic homoglyphs in three ht translations; then all nine locales
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-10
 branch: fix/artsfacts
@@ -75,4 +75,26 @@ Use plainarts' Phase 2 method exactly:
 
 ## Implementation notes
 
-*Phase 2 notes go here.*
+### Phase 2 (2026-11-10)
+
+- **Approval.** The user approved the English ("The English page is approved. Run only Phase 2"). Phase 2 ran in the same window, on `fix/artsfacts`.
+- **Splice:** 1,154 kept / 22 added / 22 dropped per locale. All 22 paired 1:1 by `at`.
+- **Mechanical carry** (7 units per locale: Catholic `holdsUp` ×6 and the HG Exodus item). Each reviewed `t` was copied with `*`/`**` stripped, after confirming that stripping the same marks from the old English gives the new English. No asterisk remained.
+- **Revision.** The other 15 units per locale were revised by three subagents, each covering three locales, instead of nine. That deviates from the plainarts method, because the batch was small. Each `t` is the reviewed `oldT` with only the changed spans replaced, applied by exact find-and-replace.
+- **Gate.** The plainarts gate, with the April-Liu name exemption, passed 22/22 in all nine locales after one fix:
+  - **The problem.** In a fa mechanical unit (`d785fada`), the reviewed `t` wrote the English `+1` quality point as `1+`.
+  - **The fix.** It is now `+1`, char-for-char, as plainarts Phase 2 already did for the same figure.
+- **Wrong-script scan:** clean.
+- **Integrity by stamp vs `main`:** 1,154 kept stamps are byte-identical, 22 are new, and 0 are blank, ×9.
+- **Checks:**
+  - `check:live`, `check:runtime`, `check:dates`, `check:moneytext`, `check:currency`, `check:fr`, `check:hi`, `check:fa`, `check:bidi`: ✓;
+  - `check:digits`: 198 units compared · 0 to review;
+  - `check:sepdrift`: 0 ×9, and `check_figures.py`: intact ×9;
+  - `i18n:leaks`: 0 flags on the 22 changed paths ×9;
+  - `npm run build`: green.
+- **Browser** (`?lang=es|fa|hi` on Catholic, Carmel and Christian, every card open): 13/13 changed units are translated per locale. There is no English-only text, no `*`, and no "verify" token.
+- **For a native reviewer:**
+  - "placements" and "recognized performers" are new tier words;
+  - "curriculum guide" is new wording in several locales;
+  - es "Mejor Actriz" vs Carmel's English "Best Actress";
+  - "5th Grade Shakespeare Review" is kept Latin in some locales and translated in te/ar, following each one's reviewed grade-label pattern.
