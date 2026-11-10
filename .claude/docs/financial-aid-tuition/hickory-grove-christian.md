@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — Financial Aid & Tuition
-> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-04.
+> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
 **Documents:** Deep Dive Report
 
 
@@ -148,6 +148,41 @@ different thing from institutional aid and gets **no Compare row**.
  FACTS payment-plan installment count/fee (set inside the portal).
 - **Out of scope:** NCSEAA per-school voucher totals (state money, not institutional aid).
 
+## Update 2026-11-10 — tuition re-read from the school's own page
+
+- **Retrieved:** 2026-11-10 by Claude Code, in headed Chrome (Playwright), from the school's own page. The old `/admissions/tuition-and-fees` address now redirects to the admissions home page. The live page is linked from it as "Tuition and Fees".
+- **Source URL:** https://www.hgchristian.org/tuition-and-fees
+- **Why:** the user ruled (2026-11-10) that the Financial Aid & Tuition area uses only the school's own site or documents and tax filings. The bands above (S3, S4: PrivateSchoolReview and schooltuitions.org mirrors) are therefore no longer used in the app. The school's own page now renders the table as text, and its 2026–27 figures differ from the mirrored ones.
+
+Verbatim from the page:
+
+> 2026-2027 Tuition and Fees
+> GRADE	YEARLY RATE
+> Elementary	$11,900.00
+> Middle School	$12,900.00
+> High School	$14,100.00
+> K-8th Spanish Immersion: Additional $700
+>
+> Optional Services: Charges for all optional services will be applied to the family’s payment plan.
+>
+> Bus Transportation: From/To HGCS Mallard Creek Campus location is a yearly charge of $1,000
+>
+> TK-5th Grade After School Childcare: $2,600; yearly
+>
+> 6th-12th Grade After School Childcare: $1,300; yearly
+>
+> For further assistance, contact the finance office at 704-566-7518 or finance@hgchristian.org.
+
+What the app now shows (`src/data/financialAidReports.ts`, `src/data/metricValues.ts`):
+
+| Band | 2026–27 (school page) | Previously shown (third-party mirrors) |
+|---|---|---|
+| TK–5 (Elementary) | $11,900 | $11,500 |
+| Grades 6–8 (Middle) | $12,900 | $12,500 |
+| Grades 9–12 (High) | $14,100 | $13,750 |
+
+The band-to-grade mapping (Elementary = TK–5, Middle = 6–8, High = 9–12) is unchanged from the earlier research. The page labels the rows only "Elementary", "Middle School" and "High School", and its after-school childcare lines use the same TK–5 / 6–12 split. The new Compare runs are TK–12 $178,400 (7 × $11,900 + 3 × $12,900 + 4 × $14,100), Grades 6–12 $95,100, and Grades 9–12 $56,400.
+
 
 ---
 
@@ -158,5 +193,6 @@ different thing from institutional aid and gets **no Compare row**.
 - https://webservices.ncleg.gov/ViewDocSiteFile/91108
 - https://www.hgchristian.org/admissions/scholarships
 - https://www.hgchristian.org/admissions/tuition-and-fees
+- https://www.hgchristian.org/tuition-and-fees
 - https://www.privateschoolreview.com/hickory-grove-christian-school-profile
 - https://www.schooltuitions.org/school/charlotte-nc-hickory_grove_christian_school

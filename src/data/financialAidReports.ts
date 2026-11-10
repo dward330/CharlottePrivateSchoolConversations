@@ -995,12 +995,11 @@ const COVENANT_DAY: FinancialAidReport = {
       title: 'What the Numbers Disclose',
       confidence: 25,
       stats: [
-        { value: '~20%', label: 'of students on aid — third-party figure only' },
         { value: 'No 990', label: 'church ministry — IRS-exempt from filing' },
         { value: '$0', label: 'published aid totals, averages, or budgets' },
       ],
       figureNote:
-        'The ~20% share comes from aggregators (PrivateSchoolReview, schooltuitions.org); the school itself publishes no percentage, no total awarded, and no average award.',
+        'The school publishes no share of students on aid, no total awarded and no average award.',
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
@@ -1008,7 +1007,7 @@ const COVENANT_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'projects.propublica.org — Nonprofit Explorer, EIN 56-1656570; privateschoolreview.com; schooltuitions.org, retrieved 15 Aug 2026',
+        'projects.propublica.org — Nonprofit Explorer, EIN 56-1656570, retrieved 15 Aug 2026',
     },
     {
       id: 'fa-merit',
@@ -1091,7 +1090,7 @@ const COVENANT_DAY: FinancialAidReport = {
       ],
       questionsTitle: 'Questions the public record cannot answer',
       questions: [
-        'What share of families receive aid, and what is the average award? (The ~20% figure is third-party.)',
+        'What share of families receive aid, and what is the average award?',
         'What is the aid application deadline, and when are decisions released relative to enrollment contracts?',
         'How does the mandatory NC Opportunity Scholarship application interact with CDS aid for families above the state income cap?',
         'Is there an appeals or mid-year change-of-circumstance process?',
@@ -1101,7 +1100,7 @@ const COVENANT_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'covenantday.org — Tuition & Financial Aid · 2025-2026 Tuition Payment Terms and Conditions (PDF) · ProPublica Nonprofit Explorer (EIN 56-1656570) · privateschoolreview.com · schooltuitions.org — retrieved 15 Aug 2026',
+    'covenantday.org — Tuition & Financial Aid · 2025-2026 Tuition Payment Terms and Conditions (PDF) · ProPublica Nonprofit Explorer (EIN 56-1656570) — retrieved 15 Aug 2026',
 }
 
 const DAVIDSON_DAY: FinancialAidReport = {
@@ -1332,10 +1331,6 @@ const DAVIDSON_DAY: FinancialAidReport = {
           tag: 'A COMPARISON TRAP IN THE EARLY YEARS',
           body: 'The Early Childhood band was **restructured**, not merely repriced: six separately priced options through 2025–26 (half-day from $12,290) became a single row for 2026–27. Comparing the current row against the old half-day price would suggest an ~84% increase that never happened. The Section 01 chart compares full-time rates only.',
         },
-        {
-          tag: 'A THIRD-PARTY FIGURE, NOT A SCHOOL ONE',
-          body: 'A commercial service that digitizes Form 990 filings reports **$742,270** in grants and assistance to individuals for the fiscal year ending June 2024. We could not open the filed return to verify it, it sits two years behind the 2026–27 year, and it is not a school-published aid budget. It should not be read as one.',
-        },
       ],
       questionsNote:
         'Each is unanswerable from published sources and materially affects what a family pays or receives.',
@@ -1352,7 +1347,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'davidsonday.org — Tuition and Affordability (published 9 Apr 2026), enrollment instructions, employee-parent enrollment instructions, deposit instructions, extended care and back-to-school pages (all 22 Jul 2026) · Clarity Financial Aid family application guide, 2025–26 cycle · ProPublica Nonprofit Explorer, EIN 11-1976223, Form 990 FY2019–FY2025 · Instrumentl Form 990 report (unverified third-party digitisation). Third-party listing sites disagree with one another on both tuition and enrollment and are not the source of any figure here. The school did not commission, review or approve this report.',
+    'davidsonday.org — Tuition and Affordability (published 9 Apr 2026), enrollment instructions, employee-parent enrollment instructions, deposit instructions, extended care and back-to-school pages (all 22 Jul 2026) · Clarity Financial Aid family application guide, 2025–26 cycle · ProPublica Nonprofit Explorer, EIN 11-1976223, Form 990 FY2019–FY2025. Third-party listing sites disagree with one another on both tuition and enrollment and are not the source of any figure here. The school did not commission, review or approve this report.',
 }
 
 const CHARLOTTE_LATIN: FinancialAidReport = {
@@ -1928,10 +1923,6 @@ const PROVIDENCE_DAY: FinancialAidReport = {
           title: 'The aid trend the school does publish',
           body: 'Total aid awarded rose from **$3,105,191 (2012–13)** to **$3,683,971 (2017–18)**, with a $3,013,928 dip in 2013–14 between. The average grant rose $12,273 → $13,695; the share of students at 16% at both ends. Enrollment grew 1,552 → 1,627 students over the window. No comparable figures were located after 2017–18. Endowment market value grew $6,486,512 (Jun 2013) → $14,029,707 (Jun 2018); the school\'s strategic framework targets $55M by 2030.',
         },
-        {
-          tag: 'NAVIGATION HAZARD',
-          body: 'Widely shared third-party listings give tuition figures that agree neither with each other nor with the school. They show an "≈$20,500" single rate, a "$34,430" 2024 top rate, a "$20,800–$29,620" range and a "$23,040–$32,810" 2024–25 range. **None** matches the school\'s published 2026–27 bands of $25,510–$36,325. School-listing websites (aggregators) keep figures from past years and are often out of date. Treat the school\'s own tuition page as the only authority, even when a search engine shows a listing site above it.',
-        },
       ],
       questionsNote:
         'Each corresponds to a gap in this report and is ordered by how much it is likely to move a family\'s total.',
@@ -1951,7 +1942,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'providenceday.org — Tuition and Financial Assistance, Extended Day (Lower School), Clubhouse (Middle School), Transportation, Endowment and Donor Recognition, Strategic Framework (all 24 Jul 2026) · Report on Philanthropy 2012–13, 2013–14 and 2017–18, "Enrollment at a Glance" and Endowments · I.R.S. Form 990 filings for Providence Day School, Inc., EIN 56-0952382, via ProPublica Nonprofit Explorer (Schedule I and Schedule D not retrieved). Commercial tuition aggregators were reviewed only to identify discrepancies against the school\'s own page (Section 7) and are the source of no figure here. Every figure was anchored to EIN 56-0952382, the 5800 Sardis Road address, or CEEB 340687 before use. The school did not commission, review or approve this report.',
+    'providenceday.org — Tuition and Financial Assistance, Extended Day (Lower School), Clubhouse (Middle School), Transportation, Endowment and Donor Recognition, Strategic Framework (all 24 Jul 2026) · Report on Philanthropy 2012–13, 2013–14 and 2017–18, "Enrollment at a Glance" and Endowments · I.R.S. Form 990 filings for Providence Day School, Inc., EIN 56-0952382, via ProPublica Nonprofit Explorer (Schedule I and Schedule D not retrieved). Commercial tuition aggregators are the source of no figure here. Every figure was anchored to EIN 56-0952382, the 5800 Sardis Road address, or CEEB 340687 before use. The school did not commission, review or approve this report.',
 }
 
 /* ── Carmel Christian ── transcribed from the school's own 2026-2027 Tuition
@@ -1959,8 +1950,8 @@ const PROVIDENCE_DAY: FinancialAidReport = {
    source-material/financial-aid-tuition/carmel-christian/. Two structural
    facts shape the report: the school is a church-exempt ministry of Carmel
    Baptist Church and files NO Form 990 (like Covenant Day), so no aid totals
-   exist to find; and the only participation figure (~20% on aid) is
-   third-party (PrivateSchoolReview), never school-confirmed. No prior-year
+   exist to find; and the school publishes no participation figure (a
+   third-party ~20% on aid was removed 2026-11-10: official sources only). No prior-year
    tuition was recovered, so no band carries a `prior`. */
 const CARMEL_CHRISTIAN: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
@@ -2067,12 +2058,11 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       title: 'What the Numbers Disclose',
       confidence: 20,
       stats: [
-        { value: '~20%', label: 'of students on aid — third-party figure only, verify' },
         { value: 'No 990', label: 'church ministry — IRS-exempt from filing' },
         { value: '$0', label: 'published aid totals, averages, or budgets' },
       ],
       figureNote:
-        'The ~20% share comes from a third-party aggregator (PrivateSchoolReview); the school itself publishes no percentage, no total awarded, and no average award. Treat the 20% as unverified.',
+        'The school publishes no share of students on aid, no total awarded and no average award.',
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
@@ -2084,7 +2074,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'privateschoolreview.com; projects.propublica.org — Nonprofit Explorer (school files none; Carmel Educational Foundation EIN 56-2107877), retrieved 16 Aug 2026',
+        'projects.propublica.org — Nonprofit Explorer (school files none; Carmel Educational Foundation EIN 56-2107877), retrieved 16 Aug 2026',
     },
     {
       id: 'fa-merit',
@@ -2157,7 +2147,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       ],
       questionsTitle: 'Questions the public record cannot answer',
       questions: [
-        'What share of families receive aid, and what is the average award? (The ~20% figure is third-party and unverified.)',
+        'What share of families receive aid, and what is the average award?',
         'How many monthly installments does the FACTS plan run, and does it carry a fee?',
         'Is there an appeals or mid-year change-of-circumstance process, and when are decisions released relative to enrollment?',
         'What do athletics, fine arts, AP classes, Impact Week and the Senior Trip actually cost?',
@@ -2168,13 +2158,13 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
     },
   ],
   sources:
-    'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF, dated 5 Dec 2025), Financial Aid landing page · ncseaa.edu — NC Opportunity Scholarship · privateschoolreview.com (third-party ~20% on aid) · projects.propublica.org — Nonprofit Explorer (school files no Form 990; Carmel Educational Foundation, EIN 56-2107877). Retrieved 16 Aug 2026. The school did not commission, review or approve this report.',
+    'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF, dated 5 Dec 2025), Financial Aid landing page · ncseaa.edu — NC Opportunity Scholarship · projects.propublica.org — Nonprofit Explorer (school files no Form 990; Carmel Educational Foundation, EIN 56-2107877). Retrieved 16 Aug 2026. The school did not commission, review or approve this report.',
 }
 
-/* ── Hickory Grove Christian ── the tuition bands are the school's own current
-   figures, confirmed across two third-party mirrors (the school's tuition page
-   renders its fee tables through an embedded FACTS/portal widget that did not
-   expose the numbers to a fetch). Aid mechanisms are from the school's own
+/* ── Hickory Grove Christian ── the tuition bands are the school's own 2026–27
+   yearly rates, read from its Tuition and Fees page in a real browser on
+   2026-11-10 (they replaced older bands that had come from two third-party
+   mirrors; official sources only, user 2026-11-10). Aid mechanisms are from the school's own
    scholarships page. Like Carmel Christian and Covenant Day, the school is a
    ministry of a church — Hickory Grove Baptist Church — that is IRS 990-exempt
    and files no Form 990, so no aid totals, rates or averages exist to find; that
@@ -2185,7 +2175,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
    aid, and is deliberately kept out of the aid-outcome sections. */
 const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2025–26 tuition · figures as of 17 Aug 2026',
+  meta: '2026–27 tuition · figures as of 10 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -2195,7 +2185,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
     {
       icon: 'clock',
       title: 'Published ≠ current.',
-      body: 'The tuition bands are the school\'s own current figures, confirmed across two third-party mirrors because the school\'s tuition page renders its tables through an embedded portal widget. Undated figures are flagged, not guessed.',
+      body: 'Every dollar figure carries the school year it applies to. Undated school figures are flagged, not guessed.',
     },
     {
       icon: 'book',
@@ -2211,16 +2201,16 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       confidence: 80,
       figureCaption: 'Published tuition by grade band',
       bands: [
-        { label: 'TK–5 (Elementary)', amount: 11500 },
-        { label: 'Grades 6–8 (Middle)', amount: 12500 },
-        { label: 'Grades 9–12 (High)', amount: 13750 },
+        { label: 'TK–5 (Elementary)', amount: 11900 },
+        { label: 'Grades 6–8 (Middle)', amount: 12900 },
+        { label: 'Grades 9–12 (High)', amount: 14100 },
       ],
       figureNote:
-        'Three bands run from transitional kindergarten through grade 12, with a $2,250 spread from lowest to highest. The school\'s own tuition-and-fees page shows its fee tables in an embedded FACTS/portal widget. So these figures are confirmed across two independent third-party mirrors (PrivateSchoolReview and a second school-listing website), not copied exactly from a school PDF. Both match the school\'s published $11,500–$13,750 range.',
+        'Three bands run from transitional kindergarten through grade 12, with a $2,200 spread from lowest to highest. These are the school\'s own 2026–27 yearly rates, from its Tuition and Fees page.',
       figureNote2:
-        'Separate "student services fees" documents (2025-26 and 2026-27) are referenced on the tuition page but render through the portal and were not captured; those fee amounts are not shown here.',
+        'The same page lists a $700 add-on for K–8 Spanish Immersion. Optional services are added to the family\'s payment plan: bus transportation from the Mallard Creek campus ($1,000 a year) and after-school childcare ($2,600 a year for TK–5, $1,300 for grades 6–12).',
       source:
-        'hgchristian.org — Tuition and Fees (portal-rendered); PrivateSchoolReview + a second aggregator mirror of the current bands, retrieved 17 Aug 2026',
+        'hgchristian.org — Tuition and Fees (2026-2027 Tuition and Fees table), retrieved 10 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -2349,7 +2339,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       title: 'The Trend, and What to Ask',
       confidence: 40,
       stats: [
-        { value: '$13,750', label: 'top band (grades 9–12)' },
+        { value: '$14,100', label: 'top band (grades 9–12)' },
         { value: '1 yr', label: 'of published rates — no history recovered' },
       ],
       questionsTitle: 'Questions the public record cannot answer',
@@ -2365,7 +2355,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
     },
   ],
   sources:
-    'hgchristian.org — Tuition and Fees (portal-rendered) and Scholarships (NCSEAA Opportunity Scholarship tiers, ESA+, FACTS Grant & Aid, 5% early-pay) · PrivateSchoolReview + a second aggregator (tuition-band mirror) · projects.propublica.org — Nonprofit Explorer (Hickory Grove Baptist Church files no Form 990) · ncleg.gov — NC Opportunity Scholarship 2023-24 Annual Report (state-voucher line, not institutional aid). Retrieved 17 Aug 2026. The school did not commission, review or approve this report.',
+    'hgchristian.org — Tuition and Fees (2026-2027 table, retrieved 10 Nov 2026) and Scholarships (NCSEAA Opportunity Scholarship tiers, ESA+, FACTS Grant & Aid, 5% early-pay) · projects.propublica.org — Nonprofit Explorer (Hickory Grove Baptist Church files no Form 990) · ncleg.gov — NC Opportunity Scholarship 2023-24 Annual Report (state-voucher line, not institutional aid). Retrieved 17 Aug 2026. The school did not commission, review or approve this report.',
 }
 
 /* ── Gaston Day ── transcribed from the school's own SCHEDULE OF TUITION AND
@@ -2375,7 +2365,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
    SEPARATE columns plus an explicit combined total, which no other school here
    does; and it runs THREE distinct assistance channels (need-based aid, merit
    scholarships, and the NC Opportunity Scholarship) whose overlap is almost
-   certainly why the school's own 26% aid share and a third-party 45% figure
+   certainly why the school's own 26% aid share and a third-party figure
    diverge so widely. */
 const GASTON_DAY: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
@@ -2501,7 +2491,7 @@ const GASTON_DAY: FinancialAidReport = {
         { value: '$0', label: 'published aid budget, total awarded, or average award' },
       ],
       figureNote:
-        'The 26% comes from the school’s own 2025-26 Academic Profile. A third-party profile (Private School Review) reports 45%. That is a wide gap, but probably a difference in what is counted rather than an error. In the school’s profile, "tuition assistance" is need-based aid. A school-listing website’s "percent on financial aid" often also counts merit awards and NC Opportunity Scholarship recipients. At Gaston Day, need-based aid, merit awards and the NC Opportunity Scholarship are three separate channels.',
+        'The 26% comes from the school’s own 2025-26 Academic Profile, where "tuition assistance" means need-based aid. At Gaston Day, need-based aid, merit awards and the NC Opportunity Scholarship are three separate channels.',
       boxes: [
         {
           title: 'The 80% ceiling is the most useful published number',
@@ -2513,11 +2503,11 @@ const GASTON_DAY: FinancialAidReport = {
         },
         {
           tag: 'ENROLLMENT ALSO DIVERGES',
-          body: 'The school reports **510** students. Private School Review says **466**, and the federal NCES survey (2023-24) says **448**. This site uses the school’s own current figure throughout. But any per-student figure worked out from a third-party enrollment count will differ from one worked out from the school’s.',
+          body: 'The school reports **510** students, and the federal NCES survey (2023-24) says **448**. This site uses the school’s own current figure throughout. Any per-student figure worked out from the NCES count will differ from one worked out from the school’s.',
         },
       ],
       source:
-        'gastonday.org — Academic Profile 2025-2026; Cost and Financial Aid; privateschoolreview.com; nces.ed.gov PSS 2023-24, retrieved 18 Aug 2026',
+        'gastonday.org — Academic Profile 2025-2026; Cost and Financial Aid; nces.ed.gov PSS 2023-24, retrieved 18 Aug 2026',
     },
     {
       id: 'fa-merit',
@@ -2595,7 +2585,6 @@ const GASTON_DAY: FinancialAidReport = {
       questionsTitle: 'Questions the public record cannot answer',
       questions: [
         'What is the total aid budget, the average award, and how many families receive aid?',
-        'Why does the school report 26% on tuition assistance when Private School Review reports 45% — what does each figure count?',
         'What are the payment plans, how many installments, and what do they cost?',
         'What is the enrollment deposit, and is it refundable or credited to tuition?',
         'What exactly do the fees buy — the $2,175 Upper School fees column is not itemized anywhere?',
@@ -2607,7 +2596,7 @@ const GASTON_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF) · Cost and Financial Aid · Scholarships · Academic Profile 2025-2026 (PDF) · After School Program · 2026 Summer Camps Catalog · privateschoolreview.com · nces.ed.gov PSS — retrieved 18 Aug 2026',
+    'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF) · Cost and Financial Aid · Scholarships · Academic Profile 2025-2026 (PDF) · After School Program · 2026 Summer Camps Catalog · nces.ed.gov PSS — retrieved 18 Aug 2026',
 }
 
 const CHARLOTTE_CATHOLIC: FinancialAidReport = {
@@ -2622,7 +2611,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
     {
       icon: 'clock',
       title: 'Only the current year is published.',
-      body: 'MACS publishes the 2026-27 schedule and no history. Secondary sources give conflicting older figures ($13,348 and $9,366) with no reliable year attached. So this report shows no tuition trend, rather than building one from numbers it cannot date.',
+      body: 'MACS publishes the 2026-27 schedule and no tuition history, so this report shows no tuition trend.',
     },
     {
       icon: 'book',
