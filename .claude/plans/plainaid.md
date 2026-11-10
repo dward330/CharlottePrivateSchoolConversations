@@ -1,7 +1,7 @@
 ---
 name: plainaid
 title: Plain-language rewrite of the Financial Aid report's English prose (13 schools, 85 sites / 85 distinct texts in src/data/financialAidReports.ts), English in four reviewed batches, then all nine prose locales; the financial-aid-tuition content blocks are left for a later plan
-status: in-progress
+status: english-done
 phases: 2
 batches: 4                     # Phase 1 is built in four batches, each with its own review stop
 created: 2026-11-10
@@ -449,7 +449,7 @@ shipped*) only after Batch 4.
 | 1 | `8d9fd17f` | [review-batch1.md](plainaid-data/review-batch1.md) | 8 (all fixed: 3 meaning/claim changes incl. Prep "most expensive", 1 not-published → does-not-exist, 1 recipient → family unit change, 2 restored terms, 1 cross-school claim) | approved 2026-11-10, no rulings |
 | 2 | `0b6a0ed6` | [review-batch2.md](plainaid-data/review-batch2.md) | 7 units, 10 changes (all fixed: 1 not-published → none-exists, 1 vague base + fuzzy year, 2 referents, 1 overclaim, 1 tense that made terms sound lapsed, 1 narrowed scope) | approved 2026-11-10, no rulings |
 | 3 | `7404e85e` | [review-batch3.md](plainaid-data/review-batch3.md) | 9 (all fixed: 2 not-published verbs restored, 3 referents, 1 "only"/"also" contradiction, 1 strengthened "counted", 1 dropped "demonstrated", 1 false "every other school" claim → "most") | approved 2026-11-10, no rulings |
-| 4 | | | | |
+| 4 | `a719b146` | [review-batch4.md](plainaid-data/review-batch4.md) | 7 (all fixed: 1 false "most schools use FACTS" claim → "some other", 2 referents, 1 strengthened "only", 1 dropped "payment", 1 widened "records", 1 grammar/`·` run) | |
 
 ### Unit notes (things the drafter must not get wrong)
 
@@ -1001,6 +1001,7 @@ command changes, so `.claude/SKILLS.md` is not touched.
 
 | Path | After-grade | Reason |
 |---|--:|---|
+| — | — | **None.** Every rewritten unit in all four batches is at grade ≤10. The expected residuals (fund-name runs, the Form 990/EIN units, Prep's FY series) all came in under target. |
 
 ## Implementation notes
 
@@ -1107,9 +1108,42 @@ The reviewer also flagged the 62% figure (Candidates).
 
 **Step 7 browser check.** Every rendered rewritten unit on the three schools renders, with bold inside `<strong>`. Gaston `sections[3].figureNote` has no render site (Batch 1 finding). The one markdown-shaped asterisk on Cannon's card is the known off-worklist `*is*` in `cannon:sections[3].boxes[1].body` (Candidates). At 390px, DD with the card open has `scrollWidth` 390.
 
+### Batch 4 (2026-11-10)
+
+**Resume.** Batch 3 was approved with no rulings (placeholder unfilled; recorded under "Style rulings"), so Gaston's "Most other schools…" correction stands. `main` had not moved.
+
+**Worklist** matched the plan: 18 units (charlotte-catholic 4, covenant-day 4, carmel-christian 4, hickory-grove-christian 6).
+
+**Deviation: the three Form 990 boxes share one new tail instead of keeping their "(bar …)" clauses.** The plan said to keep "(bar Covenant Day)" and "(bar Covenant Day and Carmel Christian)" exactly. Checked against the app's own research, "Every other school in this project … is a 990 filer" was **false at all three sites**:
+- Charlotte Catholic files no 990 either (MACS EIN 56-1779865, religious-organization exemption; `source-material/financial-aid-tuition/charlotte-catholic/`).
+- Covenant's version also ignored Carmel and HG.
+
+Following the approved Batch 3 precedent (Gaston's installment claim), all three now read "Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found." The independent reviewer verified it: 7 confirmed filers, 4 non-filers, and Cannon and Gaston not recorded either way. **Flagged for the user.**
+
+**Drafts were measured first.** Three needed a second pass: Covenant deposit (10.6), Covenant `sections[4].boxes[0]` (11.4; only its first sentence could change, because the second is byte-identical to Carmel's off-worklist unit) and HG `sections[1].boxes[1]` (11.0, then 10.2). After applying, guard (h) caught one slip: "Three bands **cover** transitional kindergarten…" added a COVERED marker, so it was restored to "run from" with Edit. The shared FACTS sentence was built from one string for Carmel and HG.
+
+**Measure.** The review generator exits 0 for Batch 4 and for **the whole file** (`--topic financial-aid-report` with no `--slugs`, all four worklists, `--aid-markers`): 85/85 `hook: pass`, after-grade >10: 0. `check_plain_language.mjs --file src/data/financialAidReports.ts` reports **clean** (86 issues at the start).
+
+**Independent review: 7 findings, all fixed** (see the review file):
+- **A second false cross-school claim, carried from the before-text.** Catholic said "most schools on this site use FACTS Grant & Aid to assess need", but Clarity is used at 10 schools and FACTS at 3. It now says "some other schools" (**flagged for the user**).
+- 2 referents named ("The Foundation's link", "the return").
+- "shown **only** inside" overclaimed "live inside" (fixed at both shared sites).
+- "payment" restored in "FACTS payment plan".
+- "records" widened "disclosure".
+- One grammar fix, and one three-item `·` run turned back into a sentence.
+
+**Step 6 checks.** `npx tsc -b`, `npx vite build` and the nine later checks are green. `check:live` reports **85 stale stamps per locale, all `financial-aid-report`** (21 + 23 + 23 + 18). That is Phase 2's input.
+
+**Step 7 browser check.** Every rendered rewritten unit on the four schools renders, with bold inside `<strong>`. HG `sections[2].figureNote` has no render site (Batch 1 finding). The two `**` on Catholic's card come from `sections[4].note` ("These are **North Carolina state** programs…"). That field renders raw, the text is identical on `main`, and it is off the worklist (Candidates). At 390px, Catholic with the card open has `scrollWidth` 390.
+
+**Phase 1 close-out.** `npm run check:plain`: financial-aid-report Prose units 976, Flagged **0** (baseline 58), Sentence >30 **0**, Grade >10 **0** (baseline 78), Grade >12 **0**. Grade >10 equals the residual count (0). financial-aid-tuition is unchanged (2 / 6), as planned.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
+
+- **charlotte-catholic `sections[4].note` ships literal `**`.** `sections[].note` renders raw (`fa-section-note`), so "These are **North Carolina state** programs…" shows two pairs of asterisks in every locale. The defect predates this plan (identical on `main`) and the field is off the worklist. The fix is to drop the `**`, or render the note through `RichText`.
+- **gaston-day `timeline` says "not FACTS or SSS, the platform most of this roster uses".** That is the same false claim corrected in Catholic (Batch 4), since most schools use Clarity. It is off the worklist.
 
 - **charlotte-christian `sections[5].boxes[1].body`: "Section 4 is the weak point, at 62%".** No section in CHARLOTTE_CHRISTIAN has confidence 62: `sections[3]` "Discounts & Ceiling" is 80, and the source notes never say 62%. The figure predates this plan and was kept char-for-char. It needs a data check against the source report.
 
