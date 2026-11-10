@@ -598,8 +598,6 @@ Per-column sourcing (verbatim quotes from the retrieved snapshots):
 | Grades 5–8 | +3.98% | +8.48% | +7.51% | +4.75% | +4.51% |
 | Grades 9–12 | +3.97% | +6.50% | +5.51% | +4.74% | +4.50% |
 
-These percentages are derived arithmetic from the sourced dollar figures and are clearly
-labeled as such; the dollar figures themselves are all directly sourced. Note the
-unusually large 2022–23 → 2023–24 jump in the upper three bands.
+These percentages are worked out from the tuition figures above, which the school publishes. Note the unusually large 2022–23 → 2023–24 jump in the upper three bands.
 
 ---`}],i={school_slug:e,topic_slug:t,section_count:5,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

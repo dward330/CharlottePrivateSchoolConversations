@@ -40,8 +40,7 @@ the real published figures rather than the derived ones in any year-over-year ch
 | Grades 5–8 | +4.75% | +5.08% | +4.99% |
 | Grades 9–12 | +4.75% | +5.08% | +5.01% |
 
-These percentages are derived arithmetic from the sourced dollar figures and are clearly
-labeled as such; the dollar figures themselves are all directly sourced.
+These percentages are worked out from the tuition figures above, which the school publishes.
 
 ---`},{subtopic:`Financial Aid and Tuition- Deep Dive Report`,source_file:`Charlotte Country Day - Financial Aid and Tuition- Deep Dive Report.pdf`,preview:`CHARLOTTE SCHOOL COMPARE Charlotte Country Day School Tuition & Financial Aid — Deep Dive Report Covering the 2026–27 school year · figures current as of 23 July 2026 A JK–12 independent school at 1440 Carmel Road, Charlotte, North Carolina 28226. IRS EIN 56-0623935 · CEEB code 340666. Published by Charlotte School…`,text:`CHARLOTTE SCHOOL COMPARE
 Charlotte Country Day School
