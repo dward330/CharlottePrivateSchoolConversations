@@ -1985,7 +1985,6 @@ main { flex: 1; }
 /* payment plans — four equal cards, one emphasized */
 .fa-plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; align-items: stretch; margin-bottom: 14px; }
 .fa-plan { border: 1px solid var(--border); padding: 14px; font-size: 12.5px; line-height: 1.55; }
-.fa-plan.on { border-color: var(--accent); background: var(--accent-100); }
 .fa-plan-figure { font-family: var(--heading); font-weight: 600; font-size: 22px; }
 .fa-plan-label { font-family: var(--heading); font-weight: 600; font-size: 14px; margin-bottom: 6px; }
 
