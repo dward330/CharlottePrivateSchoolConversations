@@ -214,7 +214,7 @@ import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 export const hickoryGroveChristian: AdmissionsProgram = {
   guide: {
     headline:
-      "Pick your child's entry point and the guide personalizes: the full application sequence in order, the 2027–28 application windows, and the forms and testing for that band — plus a printable checklist to take with you. One spine for every domestic applicant, but the priority window opens two weeks early for church members, Early Education Center families and current-student siblings, and the F-1 international process is a separate one end to end.",
+      "Pick your child's entry point and the guide personalizes: the full application sequence in order, the 2027–28 application windows, and the forms and testing for that band. You also get a printable checklist to take with you. Every domestic applicant follows the same main steps. But the priority window opens two weeks early for church members, Early Education Center families and current-student siblings. The F-1 international process is separate from start to finish.",
     cycle: '2027–28 entry cycle',
 
     stats: [
@@ -239,7 +239,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
     ],
 
     spineNote:
-      'One shared spine in every domestic band — submit the inquiry form → register for the Open House → apply in FACTS and pay the application fee → send the forms your band requires → sit the entrance testing, which is scheduled only once every form has arrived → attend the family interview → receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this and is set out in its own band.',
+      'Every domestic band follows the same main steps. First: submit the inquiry form → register for the Open House → apply in FACTS and pay the application fee. Next: send the forms your band requires → take the entrance testing, which is scheduled only once every form has arrived → attend the family interview. Last: receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this, and it has its own band.',
 
     bands: [
       {
@@ -258,55 +258,55 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The first two steps are linked from the admissions page — an inquiry form, then the visit, which now means registering for the **Admissions Open House on Tuesday, November 10, 2026** (sessions at 12, 4 and 6 p.m., with separate elementary, middle and high school tours). This is also the point to decide which campus you are applying to: **Harris** runs Transitional Kindergarten and Kindergarten alongside the rest of TK–12, while **Mallard Creek** plans to open a **classical Christian TK and Kindergarten** that would grow one grade a year, with students moving to Harris at middle school.',
+              'The first two steps are linked from the admissions page: an inquiry form, then the visit. The visit now means registering for the **Admissions Open House on Tuesday, November 10, 2026**. Sessions are at 12, 4 and 6 p.m., with separate elementary, middle and high school tours. This is also the point to decide which campus you are applying to. **Harris** runs Transitional Kindergarten and Kindergarten alongside the rest of TK–12. **Mallard Creek** plans to open a **classical Christian TK and Kindergarten** that would grow one grade a year, with students moving to Harris at middle school.',
           },
           {
             title: 'Check which grade your child is eligible for',
             tag: 'before applying',
             tagKind: 'outline',
             detail:
-              'The two youngest grades are split by birthday. A child turning five **by October 16** of the school year applied for is eligible for **Kindergarten (K5)**; a child turning five **on or before April 16** is eligible for **Transitional Kindergarten (TK)**, which the school describes as a bridge between preschool and kindergarten, giving a child time to develop the fundamental skills kindergarten expects. The birthday is not the whole decision — see the readiness screening below. TK is the earliest K–12 entry point; younger children are enrolled through the **Early Education Center** office rather than this process.',
+              'The two youngest grades are split by birthday. A child turning five **by October 16** of the school year applied for is eligible for **Kindergarten (K5)**. A child turning five **on or before April 16** is eligible for **Transitional Kindergarten (TK)**. The school describes TK as a bridge between preschool and kindergarten that gives a child time to build the basic skills kindergarten expects. The birthday is not the whole decision; see the readiness screening below. TK is the earliest K–12 entry point. Younger children are enrolled through the **Early Education Center** office, not through this process.',
           },
           {
             title: 'Apply in FACTS and pay the application fee',
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the FACTS portal for your campus — **Harris and Mallard Creek use different portals**. The school expects **limited availability at Mallard Creek**, so confirm its dates and steps with the admissions office if you are applying there. Send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
+              'Apply through the FACTS portal for your campus. **Harris and Mallard Creek use different portals**. The school expects **limited availability at Mallard Creek**, so confirm its dates and steps with the admissions office if you are applying there. Send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**. After that, the fee rises to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send the three forms this band requires',
             tag: 'after applying',
             tagKind: 'accent',
             detail:
-              'Three forms complete a TK or K5 file: an **Information form**; a **Readiness Checklist**, completed by your child\'s preschool or daycare teacher; and a **Personal Recommendation form from your family\'s pastor**, which is required at every grade from TK through 12. Send all three promptly — nothing is scheduled until the admissions office has every one of them.',
+              'Three forms complete a TK or K5 file. The first is an **Information form**. The second is a **Readiness Checklist**, completed by your child\'s preschool or daycare teacher. The third is a **Personal Recommendation form from your family\'s pastor**, which is required at every grade from TK through 12. Send all three promptly. Nothing is scheduled until the admissions office has every one of them.',
           },
           {
             title: 'Sit the readiness screening',
             tag: 'after all forms arrive',
             tagKind: 'accent',
             detail:
-              'Your child takes a **developmentally appropriate skills assessment** during the admissions process, and qualifying for the program depends on passing it — this is what settles TK-versus-K5 placement alongside the birthday cutoffs. Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**, so a single outstanding form holds up the whole timeline. The school does not publish which instrument it uses.',
+              'Your child takes a **developmentally appropriate skills assessment** during the admissions process. Qualifying for the program depends on passing it. Along with the birthday cutoffs, the assessment settles whether your child is placed in TK or K5. Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. So a single missing form holds up the whole timeline. The school does not publish which test it uses.',
           },
           {
             title: 'Attend the family interview',
             tag: 'after testing',
             tagKind: 'outline',
             detail:
-              'The family interview is scheduled once the earlier steps are complete and have gone well. The school describes it as an opportunity to share its **mission, vision and statement of faith**, and to assess whether Hickory Grove is the right fit for your family. **There is no published requirement that a parent be a professing Christian** — what is required is the pastor\'s recommendation form and this conversation.',
+              'The family interview is scheduled once the earlier steps are complete and have gone well. The school describes it as a chance to share its **mission, vision and statement of faith**. The school says it is also a chance to assess whether Hickory Grove is the right fit for your family. **There is no published requirement that a parent be a professing Christian**. What is required is the pastor\'s recommendation form and this conversation.',
           },
           {
             title: 'Decision, then the $500 deposit',
             tag: 'rolling',
             tagKind: 'outline',
             detail:
-              'The final decision is **communicated in writing**, and it weighs satisfactory grades, the letters of recommendation, the interview, behavior reports, entrance testing and any IEP, 504 or psychoeducational evaluation on file. **No fixed notification date is published** — admission is rolling and depends on space in the grade. On acceptance a **nonrefundable $500 deposit** is due, and it applies toward tuition.',
+              'The final decision is **communicated in writing**. It weighs satisfactory grades, the letters of recommendation, the interview, behavior reports and entrance testing. It also weighs any IEP, 504 or psychoeducational evaluation on file. **No fixed notification date is published**. Admission is rolling and depends on space in the grade. If your child is accepted, a **nonrefundable $500 deposit** is due. It applies toward tuition.',
           },
         ],
         watchOuts: [],
         checklistCallout: {
           lead: 'Testing is not scheduled until every form is in.',
-          text: 'The readiness screening that settles TK-versus-K5 placement is arranged through Student Services only after the admissions office has received the Information form, the Readiness Checklist from your child\'s preschool or daycare teacher, and the pastor\'s Personal Recommendation form. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.',
+          text: 'The readiness screening settles whether your child is placed in TK or K5. Student Services arranges it only after the admissions office has received all three forms. They are the Information form, the Readiness Checklist from your child\'s preschool or daycare teacher, and the pastor\'s Personal Recommendation form. Applications open November 2 for church members, Early Education Center students and current-student siblings. They open November 16 for everyone else. After that, admission is rolling and depends on open seats, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.',
         },
         checklistRows: [
           {
@@ -377,48 +377,48 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The first two steps are linked from the admissions page — an inquiry form, then the visit, which now means registering for the **Admissions Open House on Tuesday, November 10, 2026** (sessions at 12, 4 and 6 p.m., with separate elementary, middle and high school tours). Grades 1 through 5 are taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
+              'The first two steps are linked from the admissions page: an inquiry form, then the visit. The visit now means registering for the **Admissions Open House on Tuesday, November 10, 2026**. Sessions are at 12, 4 and 6 p.m., with separate elementary, middle and high school tours. Grades 1 through 5 are taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
           },
           {
             title: 'Apply in FACTS and pay the application fee',
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
+              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**. After that, the fee rises to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send the forms and records this band requires',
             tag: 'after applying',
             tagKind: 'accent',
             detail:
-              'An elementary file needs more than the youngest band: an **Academic Referral form from your child\'s current teacher**; **report cards covering at least two years**; a **Personal Recommendation form from your family\'s pastor**, required at every grade TK–12; and, **for fourth and fifth graders only, a Student Questionnaire**. If your child has had **educational or diagnostic testing**, or has a current **IEP or 504 plan**, send those results too. Nothing is scheduled until all of it has arrived.',
+              'An elementary file needs more than the youngest band\'s. It needs an **Academic Referral form from your child\'s current teacher** and **report cards covering at least two years**. It also needs a **Personal Recommendation form from your family\'s pastor**, required at every grade TK–12. The file also needs, **for fourth and fifth graders only, a Student Questionnaire**. If your child has had **educational or diagnostic testing**, or has a current **IEP or 504 plan**, send those results too. Nothing is scheduled until all of it has arrived.',
           },
           {
             title: 'Sit the entrance testing',
             tag: 'after all forms arrive',
             tagKind: 'accent',
             detail:
-              'Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms** — a single outstanding report card or recommendation holds up the whole timeline. The school does not publish which instrument it uses. **There is no shadow day at this band**; shadowing is required for high school applicants only.',
+              'Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. A single missing report card or recommendation holds up the whole timeline. The school does not publish which test it uses. **There is no shadow day at this band**. Shadowing is required for high school applicants only.',
           },
           {
             title: 'Attend the family interview',
             tag: 'after testing',
             tagKind: 'outline',
             detail:
-              'The family interview is scheduled once the earlier steps are complete and have gone well. The school describes it as an opportunity to share its **mission, vision and statement of faith**, and to assess whether Hickory Grove is the right fit for your family. **There is no published requirement that a parent be a professing Christian** — what is required is the pastor\'s recommendation form and this conversation.',
+              'The family interview is scheduled once the earlier steps are complete and have gone well. The school describes it as a chance to share its **mission, vision and statement of faith**. The school says it is also a chance to assess whether Hickory Grove is the right fit for your family. **There is no published requirement that a parent be a professing Christian**. What is required is the pastor\'s recommendation form and this conversation.',
           },
           {
             title: 'Decision, then the $500 deposit',
             tag: 'rolling',
             tagKind: 'outline',
             detail:
-              'The final decision is **communicated in writing**, and it weighs satisfactory grades, the letters of recommendation, the interview, behavior reports, entrance testing and any IEP, 504 or psychoeducational evaluation on file. **No fixed notification date is published** — admission is rolling and depends on space in the grade. On acceptance a **nonrefundable $500 deposit** is due, and it applies toward tuition.',
+              'The final decision is **communicated in writing**. It weighs satisfactory grades, the letters of recommendation, the interview, behavior reports and entrance testing. It also weighs any IEP, 504 or psychoeducational evaluation on file. **No fixed notification date is published**. Admission is rolling and depends on space in the grade. If your child is accepted, a **nonrefundable $500 deposit** is due. It applies toward tuition.',
           },
         ],
         watchOuts: [],
         checklistCallout: {
           lead: 'Two years of report cards, and a referral from the teacher your child has now.',
-          text: 'An elementary file needs the Academic Referral form from your child\'s current teacher, report cards covering at least two years, the pastor\'s Personal Recommendation form, and — for fourth and fifth graders only — a Student Questionnaire. Testing is arranged through Student Services only after all of it has arrived, so start with the forms other people have to complete. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.',
+          text: 'An elementary file needs the Academic Referral form from your child\'s current teacher and report cards covering at least two years. It also needs the pastor\'s Personal Recommendation form and, for fourth and fifth graders only, a Student Questionnaire. Student Services arranges testing only after all of it has arrived. So start with the forms other people have to complete. Applications open November 2 for church members, Early Education Center students and current-student siblings. They open November 16 for everyone else. After that, admission is rolling, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.',
         },
         checklistRows: [
           {
@@ -494,48 +494,48 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The first two steps are linked from the admissions page — an inquiry form, then the visit, which now means registering for the **Admissions Open House on Tuesday, November 10, 2026** (sessions at 12, 4 and 6 p.m., with separate elementary, middle and high school tours). Middle school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
+              'The first two steps are linked from the admissions page: an inquiry form, then the visit. The visit now means registering for the **Admissions Open House on Tuesday, November 10, 2026**. Sessions are at 12, 4 and 6 p.m., with separate elementary, middle and high school tours. Middle school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
           },
           {
             title: 'Apply in FACTS and pay the application fee',
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
+              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**. After that, the fee rises to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send four recommendations and the full record',
             tag: 'after applying',
             tagKind: 'accent',
             detail:
-              'This is the band where the paperwork jumps. **Four recommendation forms** are required — a **Math Teacher Recommendation**, an **English Teacher Recommendation**, a **Principal or Guidance Counselor Recommendation**, and the **Personal Recommendation form from your family\'s pastor** that every grade needs. Alongside them: **report cards from the most recent two years**, the **transcript**, **standardized testing results**, a **Student Questionnaire** completed by your child, and any **educational or diagnostic testing results or a current IEP, 504 or accommodations plan**. Three of the four recommendations depend on other people\'s time, so request them first.',
+              'This is the band where the paperwork jumps. **Four recommendation forms** are required. They are a **Math Teacher Recommendation**, an **English Teacher Recommendation**, a **Principal or Guidance Counselor Recommendation**, and the **Personal Recommendation form from your family\'s pastor** that every grade needs. You also send **report cards from the most recent two years**, the **transcript** and **standardized testing results**. Your child also fills out a **Student Questionnaire**. If you have any, also send **educational or diagnostic testing results or a current IEP, 504 or accommodations plan**. Three of the four recommendations depend on other people\'s time, so request them first.',
           },
           {
             title: 'Sit the entrance testing',
             tag: 'after all forms arrive',
             tagKind: 'accent',
             detail:
-              'Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. With four recommendations in the file, that condition is the one most likely to hold up a middle school application. **A shadow day is not required at this band** — that requirement applies to high school applicants only, even though grades 6 through 12 otherwise share the same form list.',
+              'Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. With four recommendations in the file, that condition is the one most likely to hold up a middle school application. **A shadow day is not required at this band**. That requirement applies to high school applicants only, even though grades 6 through 12 otherwise share the same form list.',
           },
           {
             title: 'Attend the family interview',
             tag: 'after testing',
             tagKind: 'outline',
             detail:
-              'The family interview is scheduled once the earlier steps are complete and have gone well. The school describes it as an opportunity to share its **mission, vision and statement of faith**, and to assess whether Hickory Grove is the right fit for your family. **There is no published requirement that a parent be a professing Christian** — what is required is the pastor\'s recommendation form and this conversation.',
+              'The family interview is scheduled once the earlier steps are complete and have gone well. The school describes it as a chance to share its **mission, vision and statement of faith**. The school says it is also a chance to assess whether Hickory Grove is the right fit for your family. **There is no published requirement that a parent be a professing Christian**. What is required is the pastor\'s recommendation form and this conversation.',
           },
           {
             title: 'Decision, then the $500 deposit',
             tag: 'rolling',
             tagKind: 'outline',
             detail:
-              'The final decision is **communicated in writing**, and it weighs satisfactory grades, the letters of recommendation, the interview, behavior reports, entrance testing and any IEP, 504 or psychoeducational evaluation on file. **No fixed notification date is published** — admission is rolling and depends on space in the grade. On acceptance a **nonrefundable $500 deposit** is due, and it applies toward tuition.',
+              'The final decision is **communicated in writing**. It weighs satisfactory grades, the letters of recommendation, the interview, behavior reports and entrance testing. It also weighs any IEP, 504 or psychoeducational evaluation on file. **No fixed notification date is published**. Admission is rolling and depends on space in the grade. If your child is accepted, a **nonrefundable $500 deposit** is due. It applies toward tuition.',
           },
         ],
         watchOuts: [],
         checklistCallout: {
           lead: 'Four recommendations — and no shadow day, unlike high school.',
-          text: 'Grades 6 through 12 share one form list: math teacher, English teacher, principal or guidance counselor, and your family\'s pastor, plus the transcript, two years of report cards, standardized scores and a Student Questionnaire. What middle school does not have is the shadow day, which is required of high school applicants only. Testing is arranged through Student Services only after every one of those forms has arrived, so request the three school recommendations first. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.',
+          text: 'Grades 6 through 12 share one form list. It includes recommendations from a math teacher, an English teacher, a principal or guidance counselor, and your family\'s pastor. It also includes the transcript, two years of report cards, standardized scores and a Student Questionnaire. What middle school does not have is the shadow day, which is required of high school applicants only. Student Services arranges testing only after every one of those forms has arrived, so request the three school recommendations first. Applications open November 2 for church members, Early Education Center students and current-student siblings. They open November 16 for everyone else. After that, admission is rolling and depends on open seats, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.',
         },
         checklistRows: [
           {
@@ -626,55 +626,55 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'Fall 2026',
             tagKind: 'outline',
             detail:
-              'The first two steps are linked from the admissions page — an inquiry form, then the visit, which now means registering for the **Admissions Open House on Tuesday, November 10, 2026** (sessions at 12, 4 and 6 p.m., with separate elementary, middle and high school tours). High school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
+              'The first two steps are linked from the admissions page: an inquiry form, then the visit. The visit now means registering for the **Admissions Open House on Tuesday, November 10, 2026**. Sessions are at 12, 4 and 6 p.m., with separate elementary, middle and high school tours. High school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.',
           },
           {
             title: 'Apply in FACTS and pay the application fee',
             tag: 'from Nov 2 or Nov 16',
             tagKind: 'accent',
             detail:
-              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**, rising to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
+              'Apply through the **FACTS portal**, and send your child\'s **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes a **non-refundable $300 application fee** for applications from **November 2, 2026 through May 31, 2027**. After that, the fee rises to a **$550 late enrollment application fee from June 1, 2027**. The application fee is **not applied toward tuition**.',
           },
           {
             title: 'Send four recommendations and the full record',
             tag: 'after applying',
             tagKind: 'accent',
             detail:
-              'High school shares its form list with middle school. **Four recommendation forms** are required — a **Math Teacher Recommendation**, an **English Teacher Recommendation**, a **Principal or Guidance Counselor Recommendation**, and the **Personal Recommendation form from your family\'s pastor** that every grade needs. Alongside them: the **high school transcript**, **report cards from the most recent two years**, **standardized testing results**, a **Student Questionnaire** completed by your child, and any **educational or diagnostic testing results or a current IEP, 504 or accommodations plan**. Request the three school recommendations first — they depend on other people\'s time.',
+              'High school shares its form list with middle school. **Four recommendation forms** are required. They are a **Math Teacher Recommendation**, an **English Teacher Recommendation**, a **Principal or Guidance Counselor Recommendation**, and the **Personal Recommendation form from your family\'s pastor** that every grade needs. You also send the **high school transcript**, **report cards from the most recent two years** and **standardized testing results**. Your child also fills out a **Student Questionnaire**. If you have any, also send **educational or diagnostic testing results or a current IEP, 504 or accommodations plan**. Request the three school recommendations first, because they depend on other people\'s time.',
           },
           {
             title: 'Shadow a Hickory Grove student',
             tag: 'high school only',
             tagKind: 'accent',
             detail:
-              '**This step exists only at this band.** High school applicants are **required** to shadow a current Hickory Grove student for a day, arranged by completing a shadow request form. Grades 6 through 8 have no equivalent requirement even though their paperwork is identical, so it is the clearest difference between applying to middle school and applying to high school here.',
+              '**This step exists only at this band.** High school applicants are **required** to shadow a current Hickory Grove student for a day. You request it by completing a shadow request form. Grades 6 through 8 have no such requirement, even though their paperwork is identical. That makes it the clearest difference between applying to middle school and applying to high school here.',
           },
           {
             title: 'Sit the entrance testing, including the placement test',
             tag: 'after all forms arrive',
             tagKind: 'accent',
             detail:
-              'Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. High school applicants also sit a **mandatory entrance test used to determine grade placement** — a step the school publishes for grades 9 through 12 only — and, per the school\'s 2026–27 High School Profile, they **must score at or above their grade level and be in good standing with their current school** to be admitted. The specific instruments are not published.',
+              'Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. High school applicants also take a **mandatory entrance test used to determine grade placement**. The school publishes this step for grades 9 through 12 only. According to the school\'s 2026–27 High School Profile, applicants **must score at or above their grade level and be in good standing with their current school** to be admitted. The specific tests used are not published.',
           },
           {
             title: 'Attend the family interview',
             tag: 'after testing',
             tagKind: 'outline',
             detail:
-              'The family interview is scheduled once the earlier steps are complete and have gone well. The school describes it as an opportunity to share its **mission, vision and statement of faith**, and to assess whether Hickory Grove is the right fit for your family. **There is no published requirement that a parent be a professing Christian** — what is required is the pastor\'s recommendation form and this conversation.',
+              'The family interview is scheduled once the earlier steps are complete and have gone well. The school describes it as a chance to share its **mission, vision and statement of faith**. The school says it is also a chance to assess whether Hickory Grove is the right fit for your family. **There is no published requirement that a parent be a professing Christian**. What is required is the pastor\'s recommendation form and this conversation.',
           },
           {
             title: 'Decision, then the $500 deposit',
             tag: 'rolling',
             tagKind: 'outline',
             detail:
-              'The final decision is **communicated in writing**, and it weighs satisfactory grades, the letters of recommendation, the interview, behavior reports, entrance testing and any IEP, 504 or psychoeducational evaluation on file. **Any suspensions, expulsions or failed courses on record are an automatic denial of admission** — a rule that matters most at this band, because a high school transcript carries the longest record. **No fixed notification date is published** — admission is rolling and depends on space in the grade. On acceptance a **nonrefundable $500 deposit** is due, and it applies toward tuition.',
+              'The final decision is **communicated in writing**. It weighs satisfactory grades, the letters of recommendation, the interview, behavior reports and entrance testing. It also weighs any IEP, 504 or psychoeducational evaluation on file. **Any suspensions, expulsions or failed courses on record are an automatic denial of admission**. That rule matters most at this band, because a high school transcript carries the longest record. **No fixed notification date is published**. Admission is rolling and depends on space in the grade. If your child is accepted, a **nonrefundable $500 deposit** is due. It applies toward tuition.',
           },
         ],
         watchOuts: [],
         checklistCallout: {
           lead: 'Two steps that exist only here — the shadow day and a placement test.',
-          text: 'High school applicants are required to shadow a current Hickory Grove student for a day, and to sit a mandatory entrance test that determines grade placement — and, per the school\'s 2026–27 High School Profile, applicants must score at or above their grade level and be in good standing with their current school to be admitted. Neither the shadow day nor the test applies to grades 6 through 8, even though the four recommendation forms and the records list are identical. Testing is arranged through Student Services only after every form has arrived. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission — the rule bites hardest here, because a high school transcript carries the longest record.',
+          text: 'High school applicants are required to shadow a current Hickory Grove student for a day. They also take a mandatory entrance test that determines grade placement. According to the school\'s 2026–27 High School Profile, applicants must score at or above their grade level and be in good standing with their current school to be admitted. Neither the shadow day nor the test applies to grades 6 through 8, even though the four recommendation forms and the records list are identical. Student Services arranges testing only after every form has arrived. Applications open November 2 for church members, Early Education Center students and current-student siblings. They open November 16 for everyone else. After that, admission is rolling and depends on open seats, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission. The rule bites hardest here, because a high school transcript carries the longest record.',
         },
         checklistRows: [
           {
@@ -770,62 +770,62 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'part of the review',
             tagKind: 'accent',
             detail:
-              'Admission rests on four things the school lists together: an **online interview with the Director of the International Student Program and the Principal**, the completed online application, prior academic and behavioral performance, and the English-test scores. The interview is held online, so it **replaces the campus visit** that opens every domestic band — a family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013**, and it issues its own I-20 rather than routing families through a third party.',
+              'Admission rests on four things the school lists together. The first is an **online interview with the Director of the International Student Program and the Principal**. The others are the completed online application, prior academic and behavioral performance, and the English-test scores. The interview is held online, so it **replaces the campus visit** that opens every domestic band. A family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013**. It issues its own I-20 (the form a student needs to apply for a student visa) rather than routing families through a third party.',
           },
           {
             title: 'Complete the online admission application',
             tag: 'after the interview',
             tagKind: 'accent',
             detail:
-              'The same online admission application as domestic applicants, submitted to the **International Admissions Office**. The application file needs a **copy of the passport and birth certificate**, the **immunization record**, a **math and an English teacher recommendation**, the English-test score sheet, the **high school transcript and the previous two years of report cards, both translated into English**, and any accommodations plan, educational evaluation or medical diagnosis that applies. The application fee is **non-refundable** and **due at the time of application**, but its **amount is not published** — ask the international office.',
+              'This is the same online application that domestic applicants use. You submit it to the **International Admissions Office**. The file needs a **copy of the passport and birth certificate** and the **immunization record**. It needs a **math and an English teacher recommendation** and the English-test score sheet. It also needs the **high school transcript and the previous two years of report cards, both translated into English**. Include any accommodations plan, educational evaluation or medical diagnosis that applies. The application fee is **non-refundable** and **due at the time of application**. But its **amount is not published**, so ask the international office.',
           },
           {
             title: 'Meet the English-proficiency thresholds',
             tag: 'with the application',
             tagKind: 'accent',
             detail:
-              'The published thresholds are **TOEFL 80** and **Duolingo 115**, and the score sheet is submitted with the application. The school states it is **willing to discuss other testing options**, so a student holding a different recognized English assessment should ask rather than assume it will not be accepted.',
+              'The published thresholds are **TOEFL 80** and **Duolingo 115**, and the score sheet is submitted with the application. The school states it is **willing to discuss other testing options**. So if your child has a different recognized English test, ask the school rather than assume it will not be accepted.',
           },
           {
             title: 'Send transcripts translated into English',
             tag: 'with the application',
             tagKind: 'accent',
             detail:
-              '**The high school transcript and the previous two years of report cards must be translated into English**, and the school directs families to **International Education Evaluations (IEE)** — info@foreigntranscripts.com — for help. Prior **academic and behavioral performance** and standardized test scores are then reviewed together, so the translated record is what the decision is made on.',
+              '**The high school transcript and the previous two years of report cards must be translated into English**. For help, the school directs families to **International Education Evaluations (IEE)** at info@foreigntranscripts.com. The school then reviews prior **academic and behavioral performance** and standardized test scores together. So the decision is made on the translated record.',
           },
           {
             title: 'Acceptance, then the I-20',
             tag: 'on acceptance',
             tagKind: 'accent',
             detail:
-              'An accepted student is **notified by email**, and a school official then **mails the I-20 to the parent or guardian**. With the I-20 in hand, the student **arranges an interview with the U.S. Embassy in their own country to obtain the F-1 visa** — that appointment is the family\'s to book, and embassy waiting times are outside the school\'s control, so start it as soon as the I-20 arrives.',
+              'An accepted student is **notified by email**. A school official then **mails the I-20 to the parent or guardian**. With the I-20 in hand, the student **arranges an interview with the U.S. Embassy in their own country to obtain the F-1 visa**. That appointment is the family\'s to book. Embassy waiting times are outside the school\'s control, so start on the appointment as soon as the I-20 arrives.',
           },
           {
             title: 'Arrange homestay, health insurance and immunizations',
             tag: 'before arrival',
             tagKind: 'outline',
             detail:
-              'Where homestay is required, the **HGCS Student Coordinator** contacts the student or agent with the arrangements; host families are **Hickory Grove Baptist Church members and families with students at HGCS**, and the school handles the arrangement internally. **Host-family vetting and background-check specifics are not published** — ask the coordinator directly. Health insurance runs through **American Benefit Services (Short Term Medical)**, on **843-214-2447** or wesley.abs@gmail.com, and the school also requires an **international-student immunizations form** and a **current physical**.',
+              'Where homestay (living with a host family) is required, the **HGCS Student Coordinator** contacts the student or agent with the details. Host families are **Hickory Grove Baptist Church members and families with students at HGCS**. The school handles the arrangement itself. **Details of host-family vetting and background checks are not published**, so ask the coordinator directly. Health insurance is through **American Benefit Services (Short Term Medical)**. You can reach American Benefit Services at **843-214-2447** or wesley.abs@gmail.com. The school also requires an **international-student immunizations form** and a **current physical**.',
           },
           {
             title: 'Pay in full by August 1',
             tag: 'by Aug 1',
             tagKind: 'accent',
             detail:
-              '**Full payment must be received by August 1** before the student can be enrolled, and a balance still unpaid on the first day of school puts the application on **financial hold**. This is the sharpest difference from the domestic bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**; nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**',
+              '**Full payment must be received by August 1** before the student can be enrolled. A balance still unpaid on the first day of school puts the application on **financial hold**. Paying in full before enrollment is the sharpest difference from the domestic bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**. Nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**',
           },
           {
             title: 'What the program includes once you arrive',
             tag: 'through the year',
             tagKind: 'outline',
             detail:
-              'The program covers an **orientation before school starts**, **PSAT and ACT testing**, **weekly meetings with the International Student Director**, regular reports back to families and agencies, **airport transportation** at the start and end of the year, **I-20 maintenance**, daily lunch, athletic and technology fees, local college visits, class field trips and required class reading books. One thing to plan for: **re-enrollment is not automatic** — it is applied for each year rather than carried forward.',
+              'The program covers an **orientation before school starts**, **PSAT and ACT testing** and **weekly meetings with the International Student Director**. It also covers regular reports back to families and agencies, and **airport transportation** at the start and end of the year. **I-20 maintenance**, daily lunch, and athletic and technology fees are included too. So are local college visits, class field trips and required class reading books. One thing to plan for: **re-enrollment is not automatic**. It is applied for each year, not carried forward.',
           },
         ],
         watchOuts: [],
         checklistCallout: {
           lead: 'A different process, not the domestic one with extra paperwork.',
-          text: 'It runs on an online interview with the program director and the principal instead of a campus visit, on English-proficiency thresholds, on a transcript and report cards translated into English, and on two teacher recommendations, and it ends with an I-20 that Hickory Grove issues itself and an embassy appointment you book. The financial shape differs too: full payment is due by August 1, not a deposit and a billing plan. No separate international deadline is published, and neither is the international application fee or tuition — Sheila M. Chaney directs both admissions and the international program and is the person to ask.',
+          text: 'This process runs on an online interview with the program director and the principal, instead of a campus visit. It also runs on minimum English test scores, a transcript and report cards translated into English, and two teacher recommendations. It ends with an I-20 that Hickory Grove issues itself, and an embassy appointment you book. The money side differs too: full payment is due by August 1, instead of a deposit and a billing plan. No separate international deadline is published. Neither is the international application fee or tuition. Ask Sheila M. Chaney, who directs both admissions and the international program.',
         },
         checklistRows: [
           {
@@ -835,7 +835,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           },
           {
             action: 'Complete the online admission application and pay the fee',
-            detail: 'With the passport and birth certificate copies, immunization record, math and English teacher recommendations and any accommodations plan. The fee is non-refundable and due with the application; its amount is not published.',
+            detail: 'Include copies of the passport and birth certificate, the immunization record, and the math and English teacher recommendations. Add any accommodations plan. The fee is non-refundable and due with the application. Its amount is not published.',
             due: 'With the application',
           },
           {
@@ -884,7 +884,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid runs through **FACTS Grant & Aid Assessment**, and **FACTS charges $40** to process the application; request the aid information from the **finance office** at finance@hgchristian.org. The order of operations: apply for, accept or renew the **NC Opportunity Scholarship** through the state education assistance authority — **anyone can apply**, with no income cap on applying, and applications open **February 1** — and if you are still waiting on it, or it will not meet your need, apply to Hickory Grove for aid, awarded "until all available funds have been allocated". **ESA+** is available for children with disabilities attending an eligible non-public school. Hickory Grove\'s own aid application can be submitted **only once your HGCS application is complete**. A new federal **Education Freedom Tax Credit** funds K–12 scholarships from January 1, 2027 through an approved Scholarship Granting Organization; families apply to that organization, not the school, and Hickory Grove has not yet named its partner. Hickory Grove offers **no automatic discounts** such as multi-child or pastor discounts, but families earn a **5% discount for paying the whole school year\'s tuition by May 31**.',
+      text: 'Aid runs through **FACTS Grant & Aid Assessment**, and **FACTS charges $40** to process the application. Request the aid information from the **finance office** at finance@hgchristian.org. Do things in this order. First, apply for, accept or renew the **NC Opportunity Scholarship** through the state education assistance authority. **Anyone can apply**: there is no income cap on applying, and applications open **February 1**. Then, if you are still waiting on that scholarship or it will not meet your need, apply to Hickory Grove for aid. That aid is awarded "until all available funds have been allocated". **ESA+** is available for children with disabilities attending an eligible non-public school. Hickory Grove\'s own aid application can be submitted **only once your HGCS application is complete**. A new federal **Education Freedom Tax Credit** funds K–12 scholarships from January 1, 2027, through an approved Scholarship Granting Organization. Families apply to that organization, not the school, and Hickory Grove has not yet named its partner. Hickory Grove offers **no automatic discounts**, such as multi-child or pastor discounts. But families earn a **5% discount for paying the whole school year\'s tuition by May 31**.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -975,7 +975,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         {
           label: 'Constant in every band',
           cells: {
-            all: 'A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application, with a non-refundable $300 application fee through May 31, 2027 ($550 from June 1, 2027), not applied toward tuition · testing scheduled only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and capacity-dependent · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission',
+            all: 'A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application · a non-refundable $300 application fee through May 31, 2027 ($550 from June 1, 2027), not applied toward tuition · testing set up only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and depends on space in the grade · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission',
           },
         },
       ],
@@ -985,7 +985,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
       kicker: 'CONTACTS',
       title: 'The admissions office',
       address:
-        '7200 E. WT Harris Blvd., Charlotte, NC 28215 · main office 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:30 p.m. Mail is addressed separately, to 6050 Hickory Grove Road, Charlotte, NC 28215 — the church and school complex. The school names a four-person Admissions & Enrollment Team — Sheila Chaney (Director of Admissions & International Student Program), Shelly Rivenbark (Registrar), Amanda Wright (School Finance) and Jared Daulton (Communications Coordinator) — but publishes contact details only for the director; the office lines below cover the rest.',
+        '7200 E. WT Harris Blvd., Charlotte, NC 28215 · main office 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:30 p.m. · mail to 6050 Hickory Grove Road, Charlotte, NC 28215, the church and school complex. The school names a four-person Admissions & Enrollment Team: Sheila Chaney (Director of Admissions & International Student Program), Shelly Rivenbark (Registrar), Amanda Wright (School Finance) and Jared Daulton (Communications Coordinator). It publishes contact details only for the director; the office lines below cover the rest.',
       people: [
         {
           name: 'Sheila M. Chaney',
@@ -1019,7 +1019,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         items: [
           'Aid runs through FACTS Grant & Aid Assessment, and FACTS charges $40 to process the application. Request it from the finance office — finance@hgchristian.org.',
           'Apply for, accept or renew the NC Opportunity Scholarship first — anyone can apply, and applications open February 1.',
-          'If you are still waiting on the state scholarship, or it will not meet your need, apply to Hickory Grove for aid — awarded until all available funds have been allocated, and open only once your HGCS application is complete.',
+          'If you are still waiting on the state scholarship, or it will not meet your need, apply to Hickory Grove for aid. That aid is awarded until all available funds have been allocated. You can apply for it only once your HGCS application is complete.',
           'ESA+ is available for children with disabilities attending an eligible non-public school.',
           'No automatic discounts (multi-child, pastor), but a 5% discount for paying the full year\'s tuition by May 31.',
         ],

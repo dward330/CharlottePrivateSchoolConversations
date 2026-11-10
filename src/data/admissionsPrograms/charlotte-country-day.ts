@@ -89,7 +89,7 @@ export const charlotteCountryDay: AdmissionsProgram = {
     ],
 
     spineNote:
-      'Six published steps in every band — start your journey → submit an application → complete an entrance test → meet with a faculty member → provide supporting materials → follow your progress. What changes is step 3 (which test), the application deadline, and which decision track you land on.',
+      'Every band has the same six published steps. First: start your journey → submit an application → complete an entrance test. Then: meet with a faculty member → provide supporting materials → follow your progress. What changes is step 3 (which test), the application deadline, and which decision track you land on.',
 
     bands: [
       {
@@ -158,13 +158,13 @@ export const charlotteCountryDay: AdmissionsProgram = {
             tag: 'Feb 26 → Mar 5',
             tagKind: 'accent',
             detail:
-              'Decisions release Feb 26 and your response is due Mar 5. The enrollment contract carries a deposit of 10% of tuition, credited toward the total; families with an aid application in play pay a reduced deposit that is refundable if the award falls short.',
+              'Decisions come out Feb 26, and your response is due Mar 5. The enrollment contract carries a deposit of 10% of tuition, credited toward the total. Families with an aid application in progress pay a reduced deposit, which is refundable if the award falls short.',
           },
         ],
         watchOuts: [
           {
             kicker: 'Why JK/K is its own band',
-            text: 'This band runs on an **entirely earlier calendar** — applications are due Jan 2 rather than Jan 15, decisions release Feb 26 rather than April 9. It also carries two requirements the older bands do not: a **separately deadlined teacher recommendation** and a **classroom visit** for your child.',
+            text: 'This band runs on an **entirely earlier calendar**. Applications are due Jan 2 instead of Jan 15, and decisions come out Feb 26 instead of April 9. It also has two requirements the older bands do not: a **teacher recommendation with its own deadline** and a **classroom visit** for your child.',
           },
           // 'One test serves seven schools' card removed by user request, 2026-08-31.
         ],
@@ -272,7 +272,7 @@ export const charlotteCountryDay: AdmissionsProgram = {
             tag: 'by Feb 26',
             tagKind: 'outline',
             detail:
-              'Which instrument depends on the grade, and the split does not follow this band: **WPPSI-IV for Grade 1, WISC-V for rising Grades 2–4**. Either is $300, booked and paid directly with a CAIS-designated psychologist — appointments open the day after Labor Day, and you book with one psychologist only.',
+              'The test depends on the grade, and the split does not line up with this band: **WPPSI-IV for Grade 1, WISC-V for rising Grades 2–4**. Either test costs $300. You book and pay for it directly with a CAIS-designated psychologist. Appointments open the day after Labor Day, and you book with one psychologist only.',
           },
           {
             title: 'Meet with a faculty member',
@@ -293,7 +293,7 @@ export const charlotteCountryDay: AdmissionsProgram = {
             tag: 'Apr 9 → Apr 16',
             tagKind: 'accent',
             detail:
-              'Decisions release Apr 9 and your response is due Apr 16. The enrollment contract carries a deposit of 10% of tuition, credited toward the total; families with an aid application in play pay a reduced deposit that is refundable if the award falls short.',
+              'Decisions come out Apr 9, and your response is due Apr 16. The enrollment contract carries a deposit of 10% of tuition, credited toward the total. Families with an aid application in progress pay a reduced deposit, which is refundable if the award falls short.',
           },
         ],
         watchOuts: [
@@ -419,7 +419,7 @@ export const charlotteCountryDay: AdmissionsProgram = {
             tag: 'Apr 9 → Apr 16',
             tagKind: 'accent',
             detail:
-              'Decisions release Apr 9 and your response is due Apr 16. The enrollment contract carries a deposit of 10% of tuition, credited toward the total; families with an aid application in play pay a reduced deposit that is refundable if the award falls short.',
+              'Decisions come out Apr 9, and your response is due Apr 16. The enrollment contract carries a deposit of 10% of tuition, credited toward the total. Families with an aid application in progress pay a reduced deposit, which is refundable if the award falls short.',
           },
         ],
         watchOuts: [
@@ -495,7 +495,7 @@ export const charlotteCountryDay: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Clarity application ($65 fee) due **Jan 15** if you are a prospective family — the Nov 1 date the school also publishes is for families already enrolled, so it is not yours. Awards are **need-based only** (there are no merit scholarships), both custodial and non-custodial parents submit, "admission decisions are made separately from financial aid decisions," and any award arrives with the enrollment contract.',
+      text: 'If you are applying as a new family, the Clarity application ($65 fee) is due **Jan 15**. The school also publishes a Nov 1 date, but that one is for families already enrolled, so it is not yours. Awards are **need-based only** (there are no merit scholarships). Both parents submit, whether or not they have custody. The school says "admission decisions are made separately from financial aid decisions," and any award arrives with the enrollment contract.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -589,7 +589,7 @@ export const charlotteCountryDay: AdmissionsProgram = {
         items: [
           'Complete the Clarity financial-aid application ($65 fee) by Jan 15 — the Nov 1 deadline the school publishes alongside it applies to families already enrolled, not to prospective ones.',
           'Both custodial and non-custodial parents submit through Clarity. Awards are need-based only; there are no merit scholarships.',
-          'Admission decisions are made separately from financial aid decisions, and any award is communicated with the enrollment contract. Families applying for aid pay a reduced deposit, refundable if the award is insufficient.',
+          'Admission decisions are made separately from financial aid decisions. Any award is sent with the enrollment contract. Families who apply for aid pay a reduced deposit. It is refundable if the award is not enough.',
         ],
       },
       contactPanel: {

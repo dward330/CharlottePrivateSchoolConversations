@@ -143,7 +143,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
     rules: [
       {
         title: 'One portal.',
-        text: 'Everything runs through FACTS: set up your FACTS admission account, then submit the application and the application fee from it. There is no Ravenna at Trinity — if you hold a Ravenna account for another Charlotte school, it does not reach this one.',
+        text: 'Everything runs through FACTS. Set up your FACTS admission account, then submit the application and the application fee from it. Trinity does not use Ravenna. If you have a Ravenna account for another Charlotte school, it does not carry over to this one.',
       },
       {
         title: 'Three different grade splits, and they do not line up.',
@@ -152,7 +152,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
     ],
 
     spineNote:
-      'Same spine in both bands — visit → apply through FACTS with the fee → recommendations and transcripts → testing → Wildcat Visit Day → decision. What changes is the calendar, which test your child sits, and who administers it. Every family who completes the process is invited to a Follow-Up Conference with the admission team, whatever the outcome.',
+      'Both bands follow the same main steps: visit → apply through FACTS with the fee → recommendations and transcripts → testing → Wildcat Visit Day → decision. What changes is the calendar, which test your child takes, and who gives it. Every family who completes the process is invited to a Follow-Up Conference with the admission team, whatever the outcome.',
 
     bands: [
       {
@@ -183,7 +183,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
             tag: 'by Jan 2',
             tagKind: 'accent',
             detail:
-              'Set up your **FACTS admission account**, then submit the application and the application fee from it. **The fee amount is not published anywhere** — there is not a single dollar figure on the admission process page — so confirm it with the Admission Office before you budget. Kindergarten applies **two weeks ahead of every other grade**, and hears back six weeks earlier.',
+              'Set up your **FACTS admission account**, then submit the application and the application fee from it. **The fee amount is not published anywhere**. The admission process page does not show a single dollar figure. So confirm the fee with the Admission Office before you budget. Kindergarten applies **two weeks ahead of every other grade**, and hears back six weeks earlier.',
           },
           {
             title: 'Teacher recommendation',
@@ -222,7 +222,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
         ],
         checklistCallout: {
           lead: 'Your deadline is Jan 2 — two weeks ahead of every other grade.',
-          text: 'Kindergarten applies by January 2, submits supporting materials by February 1, and hears back on Friday, February 26 — six weeks before Grades 1–8. The WPPSI-IV is booked by you with a single CAIS psychologist at $275, and coaching, tutoring or re-testing invalidates your application at all seven CAIS schools. The application fee amount is not published; confirm it with the office.',
+          text: 'Kindergarten applies by January 2 and submits supporting materials by February 1. Families hear back on Friday, February 26, six weeks before Grades 1–8. You book the WPPSI-IV yourself with a single CAIS psychologist, for $275. Coaching, tutoring or re-testing makes your application invalid at all seven CAIS schools. The application fee amount is not published; confirm it with the office.',
         },
         checklistRows: [
           {
@@ -306,7 +306,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'accent',
             detail:
-              'Set up your **FACTS admission account**, then submit the application and the application fee from it. **The fee amount is not published anywhere** on the admission pages — confirm it with the Admission Office. The school also notes it is **still accepting applications for the 2026-2027 school year in select grades**, so a family looking to move mid-cycle should ask rather than wait a year.',
+              'Set up your **FACTS admission account**, then submit the application and the application fee from it. **The fee amount is not published anywhere** on the admission pages. Confirm it with the Admission Office. The school also says it is **still accepting applications for the 2026-2027 school year in select grades**. So a family hoping to move during that school year should ask rather than wait a year.',
           },
           {
             title: 'Recommendations and transcripts',
@@ -334,7 +334,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
             tag: 'Fri Apr 9, 2027',
             tagKind: 'accent',
             detail:
-              'Decisions are emailed on **Friday, April 9, 2027**, six weeks after the Kindergarten band. Trinity invites **every family** who completes the application process — not only admitted ones — to sit down with the admission team to share what they learned about the child and "help the family discern how Trinity Episcopal School can best partner with the family in support of their child."',
+              'Decisions are emailed on **Friday, April 9, 2027**, six weeks after the Kindergarten band. Trinity invites **every family** who completes the application process to meet with the admission team, not only families whose child was admitted. The meeting is to share what the team learned about the child and to "help the family discern how Trinity Episcopal School can best partner with the family in support of their child."',
           },
         ],
         watchOuts: [
@@ -507,7 +507,7 @@ export const trinityEpiscopal: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2027–28 entry cycle as published on tescharlotte.org and retrieved in September 2026. Errors in the school’s own copy are reproduced rather than corrected: the financial-support deadline on the process page reads February 1, 2026 where the tuition page says February 1, 2027, and it is flagged where it appears. The Dec 1, 2026 open house is labeled "Thursday" when it falls on a Tuesday, and its start time differs between the school’s two admission pages. The CAIS consortium detail is from the 2024-25 brochure, whose structure carries forward but whose dates do not and are not reproduced. Cycle dates shift year to year — verify against the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Trinity Episcopal School.',
+        'Dates are for the 2027–28 entry cycle, as published on tescharlotte.org and retrieved in September 2026. Errors in the school’s own copy are shown as printed, not corrected. The financial-support deadline on the process page reads February 1, 2026, where the tuition page says February 1, 2027. This error is flagged where it appears. The Dec 1, 2026 open house is labeled "Thursday" when it falls on a Tuesday, and its start time differs between the school’s two admission pages. The CAIS consortium detail is from the 2024-25 brochure. Its structure carries forward, but its dates do not and are not shown here. Cycle dates change from year to year, so check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Trinity Episcopal School.',
     },
 
     sources: [

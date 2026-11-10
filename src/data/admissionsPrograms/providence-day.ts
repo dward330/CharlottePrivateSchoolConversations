@@ -19,11 +19,13 @@
 // (ISEE, named outright). Grades 2–5 also have a required Day Visit, and
 // Grades 6–12 have student and parent interviews.
 //
-// CYCLE: 2026–27 only, and no date changed in the refresh. NOTE the school's
-// own two pages disagree on the LABEL while agreeing exactly on the dates — the
-// calendar page says "2026-2027", the process page's apply buttons say
-// "2027-2028". We follow the calendar page. A date is never guessed and a prior
-// cycle's date is never carried forward.
+// CYCLE: one cycle only (fall 2027 entry), and no date changed in the refresh.
+// NOTE the school's own two pages disagree on the LABEL while agreeing exactly
+// on the dates — the calendar page says "2026-2027" (the year families apply),
+// the process page's apply buttons say "2027-2028" (the year the child enters).
+// The site labels every school by ENTRY year, so this card says "2027–28 entry
+// cycle" like the other six (user decision 2026-11-10; it said 2026–27 before).
+// A date is never guessed and a prior cycle's date is never carried forward.
 //
 // The school's own "NOT PUBLISHED" markers that REMAIN are load-bearing and are
 // rendered as "confirm with admissions" rather than dropped or asserted: the
@@ -35,8 +37,8 @@ import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 export const providenceDay: AdmissionsProgram = {
   guide: {
     headline:
-      "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. The financial-aid clock runs in parallel.",
-    cycle: '2026–27 entry cycle',
+      "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. The financial-aid clock runs in parallel.",
+    cycle: '2027–28 entry cycle',
 
     stats: [
       // The 'grade bands' count tile was removed by request (2026-08-31) — not a data gap.
@@ -55,7 +57,7 @@ export const providenceDay: AdmissionsProgram = {
       },
       {
         title: 'Dates are cycle-specific.',
-        text: 'Every date below is the 2026–27 entry cycle from the live admissions calendar. Cycle dates shift year to year — verify before acting.',
+        text: 'Every date below is the 2027–28 entry cycle from the live admissions calendar. Cycle dates shift year to year — verify before acting.',
       },
     ],
 
@@ -127,7 +129,7 @@ export const providenceDay: AdmissionsProgram = {
         watchOuts: [
           {
             kicker: 'Why TK/K is different',
-            text: 'The youngest band runs on an **earlier calendar** than everyone else and uses a **readiness model** — WPPSI-IV, Readiness Screening, and Classroom Visit — instead of standardized testing. Three assessment pieces means three appointments to schedule: another reason the early application matters.',
+            text: 'The youngest band runs on an **earlier calendar** than everyone else. Instead of standardized testing, it uses a **readiness model** with three parts: the WPPSI-IV, a Readiness Screening and a Classroom Visit. Three parts means three appointments to schedule. That is one more reason to apply early.',
           },
           {
             kicker: 'Age eligibility',
@@ -224,7 +226,7 @@ export const providenceDay: AdmissionsProgram = {
             tag: 'by Feb 26',
             tagKind: 'outline',
             detail:
-              'The instrument depends on the grade: **Rising Grade 1** takes the WPPSI-IV, the same Wechsler preschool scale as TK/K; **Grades 2–4** take the WISC-V, the Wechsler Intelligence Scale for Children; and **Grade 5** takes the ISEE, the Independent School Entrance Exam. Ask admissions how to schedule the one your child needs.',
+              'The test depends on the grade. **Rising Grade 1** takes the WPPSI-IV, the same Wechsler preschool scale used for TK/K. **Grades 2–4** take the WISC-V, the Wechsler Intelligence Scale for Children. **Grade 5** takes the ISEE, the Independent School Entrance Exam. Ask admissions how to schedule the one your child needs.',
           },
           {
             title: 'Decision → contract + deposit',
@@ -338,7 +340,7 @@ export const providenceDay: AdmissionsProgram = {
         watchOuts: [
           {
             kicker: 'The test is the ISEE',
-            text: 'The school names the **Independent School Entrance Exam (ISEE)** as the required test for this band. The exam has grade-appropriate levels — confirm with admissions which level your child sits, and book a date early enough that scores arrive before the February 26 materials deadline.',
+            text: 'The school names the **Independent School Entrance Exam (ISEE)** as the required test for this band. The exam comes in levels by grade. Confirm with admissions which level your child takes. Then book a test date early enough that scores arrive before the February 26 materials deadline.',
           },
           {
             kicker: 'International applicants',
@@ -392,7 +394,7 @@ export const providenceDay: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Clarity application ($65) due **Jan 22** for prospective families — complete both processes on time and the aid decision arrives inside the Enrollment Agreement. Applying for aid never influences admission; separate committees decide.',
+      text: 'Families new to the school submit the Clarity application ($65) by **Jan 22**. Complete both processes on time, and the aid decision arrives as part of the Enrollment Agreement. Applying for aid never affects admission. Separate committees make each decision.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -485,7 +487,7 @@ export const providenceDay: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2026–27 entry cycle as published on the providenceday.org admissions calendar and admissions-process pages (verified against the live site Sep 2026); cycle dates shift year to year — verify against the live calendar before acting. Items marked "confirm" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.',
+        'Dates are for the 2027–28 entry cycle, as published on the providenceday.org admissions calendar and admissions-process pages (checked against the live site Sep 2026). Cycle dates change from year to year, so check the live calendar before acting. Items marked "confirm" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.',
     },
 
     sources: [
