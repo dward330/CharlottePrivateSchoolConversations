@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-10
 branch: feat/latinnotify
-prs: []
+prs: [470]
 ---
 
 # Charlotte Latin admissions — notification days
