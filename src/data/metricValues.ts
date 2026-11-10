@@ -1713,7 +1713,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '~5', // standing HS bodies: NHS, Beta, Spanish Honor Society, Student Council, Timothy Project
       'davidson-day': '≥9', // confirmed clubs only; no US roster published
       'hickory-grove-christian': '27', // aggregator roster (18 clubs/orgs + 9 arts/music), single-source
-      'gaston-day': '31', // 28 named clubs + 3 honor societies; reconstructed from third-party listings, not a school-published roster
+      'gaston-day': '30', // 28 named clubs + 2 honor societies; reconstructed from third-party listings, not a school-published roster. International Thespian Society removed (plan thespianname, 2026-11-10): third-party only
       'providence-day': '77', // official 25–26 US list, 5 arts clubs excluded
     },
     quals: {

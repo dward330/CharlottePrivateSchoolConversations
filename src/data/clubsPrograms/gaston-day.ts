@@ -19,7 +19,10 @@
 // Clubs card (src/data/clubClusters.ts). An earlier draft wrongly put it here.
 //
 // `service` carries the three signature programs and the service ladder;
-// `honors` carries the three chartered societies plus non-society recognition.
+// `honors` carries the two chartered societies plus non-society recognition.
+// International Thespian Society was removed in plan thespianname (2026-11-10):
+// it came only from third-party listings, and the user ruled that this card
+// takes only what the school's own website or documents state.
 
 import type { ClubsProgram } from '../clubsProgram.ts'
 
@@ -87,7 +90,7 @@ export const gastonDay: ClubsProgram = {
   /* ----------------------------------------------------------- 3c honors -- */
   honors: {
     headline:
-      'Three chartered honor societies, and an Honor Code enforced by a student-led Honor Council that the college office will report to admissions when asked.',
+      'Two chartered honor societies, and an Honor Code enforced by a student-led Honor Council that the college office will report to admissions when asked.',
     subhead:
       'The Honor Code disclosure is unusually explicit — the school states in its own profile that it reports violations, including suspension, dismissal or expulsion.',
     societies: [
@@ -104,13 +107,6 @@ export const gastonDay: ClubsProgram = {
         recognizes:
           'Academic achievement, character, leadership and service — a second academic society alongside NHS.',
         feedsFrom: 'the classroom',
-      },
-      {
-        name: 'International Thespian Society',
-        division: 'Upper School',
-        recognizes:
-          'Excellence in theatre. The school charters the society but does not publish its troupe number or induction thresholds.',
-        feedsFrom: 'The Arts',
       },
     ],
     adjacent: [
@@ -138,7 +134,7 @@ export const gastonDay: ClubsProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'No induction criteria, GPA thresholds, chapter names or member counts are published for any of the three societies — only that they exist. The National Merit program is not mentioned in the profile at all, so no Semifinalist/Commended ledger could be built.',
+        text: 'No induction criteria, GPA thresholds, chapter names or member counts are published for either society — only that they exist. The National Merit program is not mentioned in the profile at all, so no Semifinalist/Commended ledger could be built.',
       },
     ],
     sources: [

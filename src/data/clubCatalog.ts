@@ -694,7 +694,6 @@ const GASTON_DAY: ClubCatalog = {
     { name: 'FCA', cat: 'interest', note: 'Fellowship of Christian Athletes; third-party listed at a non-sectarian school' },
     { name: 'National Honor Society', cat: 'honor', note: 'Members carry a 40-hour annual service requirement against the school-wide 25' },
     { name: 'National Beta Club', cat: 'honor', note: 'Academic achievement, character, leadership and service' },
-    { name: 'International Thespian Society', cat: 'honor', note: 'Theatre honor society; troupe number and induction thresholds not published' },
   ],
   divisions: [
     {

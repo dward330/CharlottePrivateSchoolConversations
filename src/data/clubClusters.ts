@@ -447,10 +447,10 @@ const GASTON_DAY: ClubClusters = {
     },
     {
       name: 'Honor societies →',
-      oneLiner: 'National Honor Society, National Beta Club, International Thespian Society',
+      oneLiner: 'National Honor Society, National Beta Club',
       evidence: 'reported',
       evidenceLabel: 'Named only',
-      note: 'Three chartered societies. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter names, troupe numbers or member counts are published for any of the three, and the profile does not mention the National Merit program at all.',
+      note: 'Two chartered societies. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter names or member counts are published for any of the three, and the profile does not mention the National Merit program at all.',
       source: 'privateschoolreview.com — Gaston Day profile; gastonday.org — Academic Profile 2025-2026',
     },
   ],

@@ -310,7 +310,7 @@ export const charlotteLatin: ArtsProgram = {
       },
     ],
     footnote:
-      'Richard Fletcher chairs visual arts. Scholastic Art & Writing recognition found: Ella Hennessy ’28 took a GOLD KEY for "Strike" (photography), the top regional award, which advances to national judging · Hope Gottschling ’24 (fashion, "Silk Strength") · Anjali Rao ’27 (fashion, 2023) · Cary Mone (oil painting, 2023) · Madison Nabors ’25 (drawing, 2023). The Fab Lab is mentioned once, in connection with portfolio work. But it sits under Innovation & Design, not the arts department. No cross-disciplinary art course, project or equipment list is named, so the Fab Lab is not shown here as an arts facility. No other visual-arts faculty are named anywhere on the school’s pages, which refer only to "a team of dedicated and experienced art educators."',
+      'Richard Fletcher chairs visual arts. Scholastic Art & Writing recognition found: Ella Hennessy ’28 took a GOLD KEY for "Strike" (photography), the top regional award, which advances to national judging · Hope Gottschling ’24 (fashion, "Silk Strength") · another student (fashion, 2023) · Cary Mone (oil painting, 2023) · Madison Nabors ’25 (drawing, 2023). The Fab Lab is mentioned once, in connection with portfolio work. But it sits under Innovation & Design, not the arts department. No cross-disciplinary art course, project or equipment list is named, so the Fab Lab is not shown here as an arts facility. No other visual-arts faculty are named anywhere on the school’s pages, which refer only to "a team of dedicated and experienced art educators."',
     sources: [
       { label: 'charlottelatin.org — Visual Arts', url: CL_VISUAL },
       { label: 'Upper School course offerings', url: CL_COURSES },
