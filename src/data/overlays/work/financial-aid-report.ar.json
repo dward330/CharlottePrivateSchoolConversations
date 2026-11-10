@@ -1127,22 +1127,6 @@
       "t": "ارتفع إجمالي المساعدة الممنوحة من **$3,105,191 (2012–13)** إلى **$3,683,971 (2017–18)**، مع انخفاض إلى $3,013,928 في 2013–14 بينهما. وارتفع متوسّط المنحة $12,273 → $13,695؛ وحصّة الطلاب 16% في الطرفين. ونما عدد الطلاب 1,552 → 1,627 على مدى النافذة. ولم يُعثَر على أرقام قابلة للمقارنة بعد 2017–18. ونمت القيمة السوقية للوقف $6,486,512 (يونيو 2013) → $14,029,707 (يونيو 2018)؛ ويستهدف الإطار الاستراتيجي للمدرسة $55M بحلول 2030."
     },
     {
-      "text": "NAVIGATION HAZARD",
-      "of": "4d99b319",
-      "at": [
-        "providence-day:sections[6].boxes[1].tag"
-      ],
-      "t": "خطر في التصفّح"
-    },
-    {
-      "text": "Widely shared third-party listings give tuition figures that agree neither with each other nor with the school. They show an \"≈$20,500\" single rate, a \"$34,430\" 2024 top rate, a \"$20,800–$29,620\" range and a \"$23,040–$32,810\" 2024–25 range. **None** matches the school's published 2026–27 bands of $25,510–$36,325. School-listing websites (aggregators) keep figures from past years and are often out of date. Treat the school's own tuition page as the only authority, even when a search engine shows a listing site above it.",
-      "of": "c6c8e053",
-      "at": [
-        "providence-day:sections[6].boxes[1].body"
-      ],
-      "t": "تعطي قوائم طرف ثالث واسعة الانتشار أرقام رسوم لا تتّفق لا فيما بينها ولا مع المدرسة. فهي تُظهر سعرًا واحدًا \"≈$20,500\"، وسعرًا أعلى لعام 2024 \"$34,430\"، ونطاق \"$20,800–$29,620\"، ونطاق 2024–25 \"$23,040–$32,810\". و**لا** أيٌّ منها يطابق نطاقات المدرسة المنشورة لعام 2026–27 $25,510–$36,325. ومواقع قوائم المدارس (المُجمِّعات) تحتفظ بأرقام السنوات السابقة وكثيرًا ما تكون قديمة. فعامِل صفحة رسوم المدرسة نفسها بوصفها المرجع الوحيد، حتى حين يُظهر محرّك بحث موقع قوائم فوقها."
-    },
-    {
       "text": "Each corresponds to a gap in this report and is ordered by how much it is likely to move a family's total.",
       "of": "520e904d",
       "at": [
@@ -2981,12 +2965,12 @@
       "t": "السنة الحالية وحدها هي المنشورة."
     },
     {
-      "text": "MACS publishes the 2026-27 schedule and no history. Secondary sources give conflicting older figures ($13,348 and $9,366) with no reliable year attached. So this report shows no tuition trend, rather than building one from numbers it cannot date.",
-      "of": "8fe781e4",
+      "text": "MACS publishes the 2026-27 schedule and no tuition history, so this report shows no tuition trend.",
+      "of": "a0614930",
       "at": [
         "charlotte-catholic:framing[1].body"
       ],
-      "t": "تنشر MACS جدول 2026-27 دون أي تاريخ سابق. وتعطي المصادر الثانوية أرقامًا أقدم متضاربة ($13,348 و$9,366) دون سنة موثوقة مرتبطة بها. ولذلك لا يعرض هذا التقرير أي اتّجاه للرسوم، بدلًا من بناء اتّجاه من أرقام لا يستطيع تأريخها."
+      "t": "تنشر MACS جدول 2026-27 دون أي تاريخ سابق للرسوم، ولذلك لا يعرض هذا التقرير أي اتّجاه للرسوم."
     },
     {
       "text": "Tuition assistance while enrolled — not the $17,242,184 in college scholarships the Class of 2025 earned, which is university money and excluded throughout. Not financial advice.",
@@ -3544,7 +3528,8 @@
       "of": "8acff684",
       "at": [
         "charlotte-country-day:framing[1].body",
-        "cannon:framing[1].body"
+        "cannon:framing[1].body",
+        "hickory-grove-christian:framing[1].body"
       ],
       "t": "كل رقم دولاري يحمل العام الدراسي الذي ينطبق عليه. وأرقام المدرسة غير المؤرَّخة مُعلَّمة، لا مُخمَّنة."
     },
@@ -4941,19 +4926,11 @@
       "t": "ما تُفصح عنه الأرقام"
     },
     {
-      "text": "of students on aid — third-party figure only",
-      "of": "e248fc59",
-      "at": [
-        "covenant-day:sections[3].stats[0].label"
-      ],
-      "t": "من الطلاب على مساعدة — رقم طرف ثالث فقط"
-    },
-    {
       "text": "church ministry — IRS-exempt from filing",
       "of": "fd45ab9c",
       "at": [
-        "covenant-day:sections[3].stats[1].label",
-        "carmel-christian:sections[3].stats[1].label",
+        "covenant-day:sections[3].stats[0].label",
+        "carmel-christian:sections[3].stats[0].label",
         "hickory-grove-christian:sections[2].stats[0].label"
       ],
       "t": "خدمة كنسية — معفاة من الإيداع لدى IRS"
@@ -4962,18 +4939,19 @@
       "text": "published aid totals, averages, or budgets",
       "of": "e75ea3c1",
       "at": [
-        "covenant-day:sections[3].stats[2].label",
-        "carmel-christian:sections[3].stats[2].label"
+        "covenant-day:sections[3].stats[1].label",
+        "carmel-christian:sections[3].stats[1].label"
       ],
       "t": "إجماليات مساعدة أو متوسّطات أو ميزانيات منشورة"
     },
     {
-      "text": "The ~20% share comes from aggregators (PrivateSchoolReview, schooltuitions.org); the school itself publishes no percentage, no total awarded, and no average award.",
-      "of": "99fcdce6",
+      "text": "The school publishes no share of students on aid, no total awarded and no average award.",
+      "of": "1f3fec6c",
       "at": [
-        "covenant-day:sections[3].figureNote"
+        "covenant-day:sections[3].figureNote",
+        "carmel-christian:sections[3].figureNote"
       ],
-      "t": "حصّة الـ ~20% تأتي من مجمّعات (PrivateSchoolReview وschooltuitions.org)؛ والمدرسة نفسها لا تنشر نسبة مئوية، ولا إجمالي ممنوح، ولا متوسّط منحة."
+      "t": "لا تنشر المدرسة حصّة الطلاب الحاصلين على مساعدة، ولا إجمالي ممنوح، ولا متوسّط منحة."
     },
     {
       "text": "NOT PUBLISHED — AND NOT RECOVERABLE",
@@ -5258,12 +5236,13 @@
       "t": "أسئلة لا يستطيع السجلّ العام الإجابة عنها"
     },
     {
-      "text": "What share of families receive aid, and what is the average award? (The ~20% figure is third-party.)",
-      "of": "c63baba4",
+      "text": "What share of families receive aid, and what is the average award?",
+      "of": "52613baf",
       "at": [
-        "covenant-day:sections[6].questions[0]"
+        "covenant-day:sections[6].questions[0]",
+        "carmel-christian:sections[6].questions[0]"
       ],
-      "t": "ما حصّة الأسر التي تتلقّى مساعدة، وما متوسّط المنحة؟ (رقم الـ ~20% من طرف ثالث.)"
+      "t": "ما حصّة الأسر التي تتلقّى مساعدة، وما متوسّط المنحة؟"
     },
     {
       "text": "What is the aid application deadline, and when are decisions released relative to enrollment contracts?",
@@ -5826,22 +5805,6 @@
       "t": "أُعيد **هيكلة** نطاق الطفولة المبكرة، لا مجرّد إعادة تسعيره: ستّة خيارات مُسعَّرة منفصلة حتى 2025–26 (نصف يوم من $12,290) صارت صفًّا واحدًا لعام 2026–27. ومقارنة الصفّ الحالي مقابل سعر نصف اليوم القديم ستوحي بزيادة ~84% لم تحدث قطّ. ويقارن مخطّط القسم 01 أسعار الدوام الكامل فقط."
     },
     {
-      "text": "A THIRD-PARTY FIGURE, NOT A SCHOOL ONE",
-      "of": "f17ac422",
-      "at": [
-        "davidson-day:sections[5].boxes[2].tag"
-      ],
-      "t": "رقم من جهة خارجية، لا من المدرسة"
-    },
-    {
-      "text": "A commercial service that digitizes Form 990 filings reports **$742,270** in grants and assistance to individuals for the fiscal year ending June 2024. We could not open the filed return to verify it, it sits two years behind the 2026–27 year, and it is not a school-published aid budget. It should not be read as one.",
-      "of": "782fd303",
-      "at": [
-        "davidson-day:sections[5].boxes[2].body"
-      ],
-      "t": "تُبلّغ خدمة تجارية تُرقمِن إقرارات Form 990 عن **$742,270** في منح ومساعدة لأفراد للسنة المالية المنتهية يونيو 2024. ولم نتمكّن من فتح الإقرار المُقدَّم للتحقّق منه، وهو يتأخّر سنتين عن سنة 2026–27، وليس ميزانية مساعدة منشورة من المدرسة. وينبغي ألّا يُقرأ كذلك."
-    },
-    {
       "text": "What share of students receive tuition assistance, and is that share of total enrollment or of families who applied?",
       "of": "35a96998",
       "at": [
@@ -6085,22 +6048,6 @@
       "t": "لا يظهر أي جدول زمني للقرار، ولا عملية اعتراض، ولا سياسة سقف للمنحة على السجلّ العامّ. كما أن أي رسم لطلب FACTS، وما إذا كان يجب إعادة التقدّم للمساعدة سنوياً، غير مذكورين أيضاً. ولا تظهر أي ESA+ أو شراكة مسمّاة أخرى في المصادر المُسترجَعة."
     },
     {
-      "text": "of students on aid — third-party figure only, verify",
-      "of": "cd1edd3c",
-      "at": [
-        "carmel-christian:sections[3].stats[0].label"
-      ],
-      "t": "من الطلاب يحصلون على مساعدة — رقم من طرف ثالث فقط، للتحقّق"
-    },
-    {
-      "text": "The ~20% share comes from a third-party aggregator (PrivateSchoolReview); the school itself publishes no percentage, no total awarded, and no average award. Treat the 20% as unverified.",
-      "of": "da1d6ebe",
-      "at": [
-        "carmel-christian:sections[3].figureNote"
-      ],
-      "t": "تأتي نسبة ~20% من مُجمِّع طرف ثالث (PrivateSchoolReview)؛ والمدرسة نفسها لا تنشر أي نسبة، ولا إجمالي مُنِح، ولا متوسّط منحة. عامِل نسبة 20% على أنها غير مُتحقَّق منها."
-    },
-    {
       "text": "Carmel Christian is a ministry of Carmel Baptist Church. As a church-affiliated organization, it is **not required to file Form 990**, and ProPublica returns no filing for the school itself. Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.",
       "of": "7b3ca2b3",
       "at": [
@@ -6239,14 +6186,6 @@
       "t": "من الأسعار المنشورة — لا تاريخ مُسترجَع"
     },
     {
-      "text": "What share of families receive aid, and what is the average award? (The ~20% figure is third-party and unverified.)",
-      "of": "03daf682",
-      "at": [
-        "carmel-christian:sections[6].questions[0]"
-      ],
-      "t": "ما نسبة العائلات التي تتلقّى مساعدة، وما متوسّط المنحة؟ (رقم ~20% من طرف ثالث وغير مُتحقَّق منه.)"
-    },
-    {
       "text": "How many monthly installments does the FACTS plan run, and does it carry a fee?",
       "of": "603b11a2",
       "at": [
@@ -6288,20 +6227,12 @@
       "t": "كيف تتفاعل NC Opportunity Scholarship مع أي مساعدة مدرسية للعائلات فوق حدّ الدخل السابق؟"
     },
     {
-      "text": "2025–26 tuition · figures as of 17 Aug 2026",
-      "of": "aedac2ed",
+      "text": "2026–27 tuition · figures as of 10 Nov 2026",
+      "of": "96df4afe",
       "at": [
         "hickory-grove-christian:meta"
       ],
-      "t": "رسوم 2025–26 · الأرقام حتى 17 أغسطس 2026"
-    },
-    {
-      "text": "The tuition bands are the school's own current figures, confirmed across two third-party mirrors because the school's tuition page renders its tables through an embedded portal widget. Undated figures are flagged, not guessed.",
-      "of": "8ee48fa8",
-      "at": [
-        "hickory-grove-christian:framing[1].body"
-      ],
-      "t": "شرائح الرسوم هي أرقام المدرسة نفسها المعمول بها حالياً، وقد جرى تأكيدها عبر مرآتين مستقلتين تابعتين لجهات خارجية لأن صفحة الرسوم لدى المدرسة تعرض جداولها من خلال أداة بوابة مدمجة. أما الأرقام غير المؤرخة فيُشار إليها بوضوح ولا تُخمَّن."
+      "t": "رسوم 2026–27 · الأرقام حتى 10 نوفمبر 2026"
     },
     {
       "text": "Published tuition by grade band",
@@ -6336,20 +6267,20 @@
       "t": "الصفوف 9–12 (High)"
     },
     {
-      "text": "Three bands run from transitional kindergarten through grade 12, with a $2,250 spread from lowest to highest. The school's own tuition-and-fees page shows its fee tables in an embedded FACTS/portal widget. So these figures are confirmed across two independent third-party mirrors (PrivateSchoolReview and a second school-listing website), not copied exactly from a school PDF. Both match the school's published $11,500–$13,750 range.",
-      "of": "c31952a6",
+      "text": "Three bands run from transitional kindergarten through grade 12, with a $2,200 spread from lowest to highest. These are the school's own 2026–27 yearly rates, from its Tuition and Fees page.",
+      "of": "bd336122",
       "at": [
         "hickory-grove-christian:sections[0].figureNote"
       ],
-      "t": "ثلاث شرائح من رياض الأطفال الانتقالية حتى الصف 12، بفارق قدره $2,250 بين أدناها وأعلاها. وصفحة الرسوم والمصاريف لدى المدرسة تعرض جداول مصاريفها من خلال أداة FACTS/بوابة مدمجة. ولذلك جرى تأكيد هذه الأرقام عبر مرآتين مستقلتين تابعتين لجهات خارجية (PrivateSchoolReview وموقع ثانٍ لقوائم المدارس)، بدلاً من نقلها حرفاً بحرف من ملف PDF صادر عن المدرسة. وكلتاهما تتطابقان مع النطاق المنشور للمدرسة $11,500–$13,750."
+      "t": "ثلاث شرائح من رياض الأطفال الانتقالية حتى الصف 12، بفارق قدره $2,200 بين أدناها وأعلاها. وهذه هي الأسعار السنوية للمدرسة نفسها لعام 2026–27، من صفحة الرسوم والمصاريف لديها."
     },
     {
-      "text": "Separate \"student services fees\" documents (2025-26 and 2026-27) are referenced on the tuition page but render through the portal and were not captured; those fee amounts are not shown here.",
-      "of": "f15809eb",
+      "text": "The same page lists a $700 add-on for K–8 Spanish Immersion. Optional services are added to the family's payment plan: bus transportation from the Mallard Creek campus ($1,000 a year) and after-school childcare ($2,600 a year for TK–5, $1,300 for grades 6–12).",
+      "of": "611e7068",
       "at": [
         "hickory-grove-christian:sections[0].figureNote2"
       ],
-      "t": "تُشير صفحة الرسوم إلى مستندين منفصلين لـ \"student services fees\" (2025-26 و2026-27) غير أنهما يُعرضان عبر البوابة ولم يجرِ التقاطهما؛ ولذلك لا تُعرض مبالغ تلك المصاريف هنا."
+      "t": "تذكر الصفحة نفسها رسمًا إضافيًا قدره $700 لبرنامج Spanish Immersion في الصفوف K–8. وتُضاف الخدمات الاختيارية إلى خطة السداد الخاصة بالأسرة: النقل بالحافلات من حرم Mallard Creek ($1,000 في السنة)، ورعاية الأطفال بعد الدوام المدرسي ($2,600 في السنة للصفوف TK–5، و$1,300 للصفوف 6–12)."
     },
     {
       "text": "From Feb 1",
@@ -6977,12 +6908,12 @@
       "t": "ميزانية مساعدة منشورة، أو إجمالي ممنوح، أو متوسّط منحة"
     },
     {
-      "text": "The 26% comes from the school’s own 2025-26 Academic Profile. A third-party profile (Private School Review) reports 45%. That is a wide gap, but probably a difference in what is counted rather than an error. In the school’s profile, \"tuition assistance\" is need-based aid. A school-listing website’s \"percent on financial aid\" often also counts merit awards and NC Opportunity Scholarship recipients. At Gaston Day, need-based aid, merit awards and the NC Opportunity Scholarship are three separate channels.",
-      "of": "33a60477",
+      "text": "The 26% comes from the school’s own 2025-26 Academic Profile, where \"tuition assistance\" means need-based aid. At Gaston Day, need-based aid, merit awards and the NC Opportunity Scholarship are three separate channels.",
+      "of": "25124e27",
       "at": [
         "gaston-day:sections[3].figureNote"
       ],
-      "t": "تأتي نسبة 26% من Academic Profile الخاصّ بالمدرسة لعام 2025-26. ويذكر ملفّ من طرف ثالث (Private School Review) نسبة 45%. وهو تباعد واسع، لكنه على الأرجح فرق فيما يُحتسَب لا خطأ. ففي ملفّ المدرسة، \"tuition assistance\" هي مساعدة قائمة على الحاجة. أما \"percent on financial aid\" لدى موقع لقوائم المدارس فيضمّ عادةً أيضًا منح الجدارة ومتلقّي NC Opportunity Scholarship. وفي Gaston Day، المساعدة القائمة على الحاجة ومنح الجدارة وNC Opportunity Scholarship ثلاث قنوات منفصلة."
+      "t": "تأتي نسبة 26% من Academic Profile الخاصّ بالمدرسة لعام 2025-26، حيث تعني \"tuition assistance\" المساعدة القائمة على الحاجة. وفي Gaston Day، المساعدة القائمة على الحاجة ومنح الجدارة وNC Opportunity Scholarship ثلاث قنوات منفصلة."
     },
     {
       "text": "The 80% ceiling is the most useful published number",
@@ -7017,12 +6948,12 @@
       "t": "أعداد الطلاب تختلف أيضًا"
     },
     {
-      "text": "The school reports **510** students. Private School Review says **466**, and the federal NCES survey (2023-24) says **448**. This site uses the school’s own current figure throughout. But any per-student figure worked out from a third-party enrollment count will differ from one worked out from the school’s.",
-      "of": "fe0e816e",
+      "text": "The school reports **510** students, and the federal NCES survey (2023-24) says **448**. This site uses the school’s own current figure throughout. Any per-student figure worked out from the NCES count will differ from one worked out from the school’s.",
+      "of": "ee972e0f",
       "at": [
         "gaston-day:sections[3].boxes[2].body"
       ],
-      "t": "تذكر المدرسة **510** طالب. ويقول Private School Review **466**، ويقول مسح NCES الاتحادي (2023-24) **448**. ويستخدم هذا الموقع رقم المدرسة الحالي نفسه في كل مكان. لكن أي رقم لكل طالب يُحسَب من عدد تسجيل صادر عن طرف ثالث سيختلف عن رقم يُحسَب من عدد المدرسة."
+      "t": "تذكر المدرسة **510** طالب، ويقول مسح NCES الاتحادي (2023-24) **448**. ويستخدم هذا الموقع رقم المدرسة الحالي نفسه في كل مكان. وأي رقم لكل طالب يُحسَب من عدد NCES سيختلف عن رقم يُحسَب من عدد المدرسة."
     },
     {
       "text": "Merit & State Aid",
@@ -7218,18 +7149,10 @@
       "t": "ما إجمالي ميزانية المساعدة، وما متوسّط المنحة، وكم أسرة تتلقّى مساعدة؟"
     },
     {
-      "text": "Why does the school report 26% on tuition assistance when Private School Review reports 45% — what does each figure count?",
-      "of": "6ea1bc85",
-      "at": [
-        "gaston-day:sections[6].questions[1]"
-      ],
-      "t": "لماذا تذكر المدرسة 26% في مساعدة الرسوم بينما يذكر Private School Review نسبة 45% — وما الذي يعدّه كل رقم؟"
-    },
-    {
       "text": "What are the payment plans, how many installments, and what do they cost?",
       "of": "152601ad",
       "at": [
-        "gaston-day:sections[6].questions[2]"
+        "gaston-day:sections[6].questions[1]"
       ],
       "t": "ما خطط الدفع، وكم عدد الأقساط، وما تكلفتها؟"
     },
@@ -7237,7 +7160,7 @@
       "text": "What is the enrollment deposit, and is it refundable or credited to tuition?",
       "of": "0f0c40bf",
       "at": [
-        "gaston-day:sections[6].questions[3]"
+        "gaston-day:sections[6].questions[2]"
       ],
       "t": "ما وديعة التسجيل، وهل هي قابلة للاسترداد أم تُحتسَب من الرسوم؟"
     },
@@ -7245,7 +7168,7 @@
       "text": "What exactly do the fees buy — the $2,175 Upper School fees column is not itemized anywhere?",
       "of": "2fc296f9",
       "at": [
-        "gaston-day:sections[6].questions[4]"
+        "gaston-day:sections[6].questions[3]"
       ],
       "t": "ما الذي تشتريه المصاريف بالضبط — فعمود مصاريف Upper School البالغ $2,175 غير مُفصَّل في أي موضع؟"
     },
@@ -7253,7 +7176,7 @@
       "text": "Do need-based aid, the Kimbrell awards and the NC Opportunity Scholarship stack, or offset each other?",
       "of": "0d6b0ae3",
       "at": [
-        "gaston-day:sections[6].questions[5]"
+        "gaston-day:sections[6].questions[4]"
       ],
       "t": "هل تتراكم المساعدة القائمة على الحاجة ومنح Kimbrell وNC Opportunity Scholarship، أم يقابل بعضها بعضًا؟"
     },
@@ -7261,7 +7184,7 @@
       "text": "What is the amount of the Kimbrell Family Scholarship, and when are both Kimbrell awards decided?",
       "of": "b99c7287",
       "at": [
-        "gaston-day:sections[6].questions[6]"
+        "gaston-day:sections[6].questions[5]"
       ],
       "t": "ما مبلغ Kimbrell Family Scholarship، ومتى يُبتّ في منحتَي Kimbrell كلتيهما؟"
     },
@@ -7269,7 +7192,7 @@
       "text": "Given the rolling deadline and the August funds warning, by what date should a family realistically apply?",
       "of": "6aa7c747",
       "at": [
-        "gaston-day:sections[6].questions[7]"
+        "gaston-day:sections[6].questions[6]"
       ],
       "t": "بالنظر إلى الموعد النهائي المستمرّ والتحذير من نفاد الأموال في أغسطس، بأي تاريخ ينبغي للأسرة أن تتقدّم واقعيًّا؟"
     },

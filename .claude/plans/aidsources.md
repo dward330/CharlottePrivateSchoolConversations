@@ -1,7 +1,7 @@
 ---
 name: aidsources
 title: Financial Aid & Tuition uses only official sources — remove third-party figures (Covenant/Carmel ~20% on aid, PD aggregator tuition box, DD commercial-990 figure, Catholic secondary-source figures, Gaston's Private School Review 45%/466) and replace Hickory Grove's mirror-sourced tuition with the school's own 2026–27 rates; then all nine locales
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-10
 branch: fix/aidsources
@@ -97,3 +97,31 @@ method:
    `check:dates`, `check:moneytext`, `check:sepdrift` ×9, `check_figures.py` ×9 for both
    topics, and `npm run build`.
 6. Browser check in `es`, `fa` and `hi`. Then open the PR, squash-merge, and do not deploy.
+
+## Implementation notes — Phase 2 (2026-11-10)
+
+- **Approval.** The user approved the English ("The English page is approved. Run only Phase 2"). Phase 2 ran in the same window, on `fix/aidsources`.
+- **Splice:**
+  - `financial-aid-report`: 958 kept / 8 added / 18 dropped per locale. The removed units drop, and Hickory Grove's `framing[1].body` merged into the shared, already-translated sentence.
+  - `metric-values`: 890 kept / 14 added / 18 dropped. Several HG sub-lines merged into existing shared strings.
+  - All 22 added units paired with a predecessor by `at` (0 unpaired).
+- **Mechanical carry** (7 units per locale: HG's six Compare values and the `(2026–27 · TK–5)` sub-line): token swap on the reviewed `t`, after asserting that the same swap turns the old English into the new.
+  - A first pass read `2025–26` as two numbers and produced "2027–27". The assertion caught it before anything was written, and the year-span-first pattern fixed it.
+- **Translation.** Nine parallel `general-purpose` agents, one per locale, revised the remaining 15 units against their reviewed predecessors. The gate checked:
+  - digits, and money/percent/year tokens;
+  - `**` count;
+  - no bidi controls and no non-Western digits;
+  - `t` ≠ English and the length ratio;
+  - English months.
+
+  It found **0 problems ×9**.
+- **Integrity by stamp vs the `main` snapshots:** across all 18 work files, every kept stamp has `text` and `t` byte-identical, and 0 new stamps are blank. Overlays: 965 (financial-aid-report) and 904 (metric-values) entries per locale.
+- **Checks:**
+  - `check:live` ✓ and `check:runtime` ✓;
+  - `check:digits`: 198 compared, 0 to review;
+  - `check:dates`, `check:moneytext`, `check:currency`, `check:fr`, `check:hi`, `check:fa`, `check:bidi`: ✓;
+  - `check:sepdrift`: 0 ×9, and `check_figures.py` intact ×9 for both topics;
+  - `i18n:leaks`: 0 flags on the 24 changed paths ×9;
+  - `npm run build`: green.
+- **Browser** (headed Chrome, `es`/`fa`/`hi`, seven schools' report cards plus Compare): 0 English leftovers, none of the removed figures or sources, and HG's new bands and Compare runs present. Hindi shows `$1,78,400`, the intended lakh grouping.
+- **For a native reviewer:** HG `figureNote2` is new text in every locale (add-on, payment plan, after-school childcare, Mallard Creek bus).
