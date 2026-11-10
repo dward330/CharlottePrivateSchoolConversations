@@ -706,7 +706,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         { label: 'Middle school extended day · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'The enrollment fee of $1,500 per student is non-refundable but applied to the tuition balance. The $300 installment fee includes the required $250 Tuition Protection Program — a $50 difference. The school does not publish an athletics participation fee or a fine arts schedule, which is not the same as confirming no such costs exist.',
+        'The enrollment fee of $1,500 per student is non-refundable but applied to the tuition balance. The $300 installment fee includes the required $250 Tuition Protection Program, which leaves a $50 difference. The school does not publish an athletics participation fee or a fine arts schedule. That is not the same as confirming no such costs exist.',
       stats: [
         { value: '$21,600', label: 'Early Education all-in, common case (JK–K)' },
         { value: '$27,355', label: 'Upper School all-in, common case (gr. 9–12)' },
@@ -747,15 +747,15 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           title: 'A requirement unique in this series — and since withdrawn',
-          body: 'Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**, a state program whose applications opened 2 February. Across the schools examined here, this was the only instance of a school conditioning its own assistance application on a parallel state application. **It no longer applies**: the school\'s live tuition page (retrieved 14 Sep 2026) does not mention it, consistent with its own note that NC Opportunity Scholarship participation concludes after 2025–26.',
+          body: 'Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**. Applications for that state program opened 2 February. No other school on this site made its own aid application depend on a state application. **It no longer applies**: the school\'s live tuition page (retrieved 14 Sep 2026) does not mention it. That fits the school\'s own note that NC Opportunity Scholarship participation ends after 2025–26.',
         },
         {
           tag: 'DOCUMENTATION HAZARD',
-          body: 'The 2026–27 instruction sheet states the documentation requirement **twice, and the two statements do not match** — one asks for the 2024 return plus the 2025 return when available and a 2025 W-2; the other asks for the 2025 return, or the 2024 return with 2025 W-2s. We decline to choose a reading; confirm with the school.',
+          body: 'The 2026–27 instruction sheet lists the documentation requirement **twice, and the two statements do not match**. One asks for the 2024 return, plus the 2025 return when available and a 2025 W-2. The other asks for the 2025 return, or the 2024 return with 2025 W-2s. This report does not pick one; confirm with the school.',
         },
         {
           title: 'Renewal & conditions',
-          body: 'Families reapply each year, and awards may be larger or smaller than the previous year as circumstances and the pool change. Awards are granted only after a student is accepted. As a member of the state independent schools athletic association, no student may receive assistance of any form in exchange for athletic participation.',
+          body: 'Families reapply each year. An award may be larger or smaller than the year before, as circumstances and the aid pool change. Awards are granted only after a student is accepted. The school belongs to the state independent schools athletic association, so no student may receive assistance of any form in exchange for playing a sport.',
         },
       ],
       source:
@@ -769,7 +769,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       tag: 'AID CAPPED AT 50% OF TUITION',
       figureCaption: 'The published 50% ceiling, by band',
       figureNote2:
-        "The school states grants will not exceed 50% of tuition, to extend assistance to as many families as possible. The figures below are our arithmetic against that cap — emphatically not a typical award.",
+        "The school states grants will not exceed 50% of tuition, so that aid reaches as many families as possible. The figures below are our arithmetic against that cap. They are not a typical award, and should not be read as one.",
       ladder: [
         { gift: 'Early Ed', share: 50, detail: 'ceiling · $10,650/yr' },
         { gift: 'Lower', share: 50, detail: 'ceiling · $11,647.50/yr' },
@@ -789,7 +789,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'Clergy, faculty and partner-school support are named in fundraising materials but not documented as programs a family can apply to — whether they are distinct remissions or designated funding inside the general need-based program is not published. No academic or general merit scholarship exists; athletic awards are explicitly excluded.',
+          body: 'Fundraising materials name clergy, faculty and partner-school support. They are not listed as programs a family can apply to. The school does not publish whether each is a separate tuition remission (lower tuition for that group) or money set aside within the main need-based program. No academic or general merit scholarship exists. Athletic awards are explicitly excluded.',
         },
       ],
       source:
@@ -830,11 +830,11 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'CURRENCY WARNING — CONTRACT TERMS TAGGED 2023–24',
-          body: 'These terms come from the 2023–24 enrollment packet, three years behind the tuition table above, and we could not confirm they are still current. As published then: **no tuition refund for any reason** without the Tuition Protection Program; with it, 90% of unused tuition refunded on withdrawal before 1 May, and **no refund after 30 April**. Withdrawal begins with written notice to the division principal.',
+          body: 'These terms come from the 2023–24 enrollment packet, three years behind the tuition table above. We could not confirm they are still current. As published then, the terms allow **no tuition refund for any reason** without the Tuition Protection Program. With it, 90% of unused tuition is refunded on withdrawal before 1 May, and there is **no refund after 30 April**. Withdrawal begins with written notice to the division principal.',
         },
         {
           tag: 'ARREARS, PER THE SAME 2023–24 PACKET',
-          body: 'A missed payment constitutes default, and at the school\'s option all tuition and fees become immediately due. An account more than sixty days past due may result in enrollment being revoked and referral to a collection agency, with court and legal costs assumed by the responsible party.',
+          body: 'A missed payment counts as a default (a failure to pay as agreed). The school may then make all tuition and fees due at once. If an account is more than sixty days past due, the school may revoke enrollment and refer the account to a collection agency. The responsible party then pays the court and legal costs.',
         },
       ],
       source:
@@ -860,7 +860,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
         {
           tag: 'THE REACH GAP',
-          body: 'Section 4 is the weak point at 62%: the 50% ceiling is published, but no total awarded, no share of students, no average and no median. Gifts *received into* the assistance fund are published ($48,422 in 2020–21 falling to $23,798 in 2024–25) — but money received is not money awarded, and the two should not be read as each other.',
+          body: 'Section 4 is the weak point, at 62%. The 50% ceiling is published, but no total awarded, no share of students, no average and no median. Gifts received into the assistance fund are published: $48,422 in 2020–21, falling to $23,798 in 2024–25. But money received is not money awarded, and one should not be read as the other.',
         },
       ],
       questionsNote:
@@ -1395,7 +1395,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         { label: 'Grades 9–12', amount: 36500 },
       ],
       figureNote:
-        'Four bands cover the full stated span of Transitional Kindergarten through Grade 12, so no grade is unpriced. The school labels the table "These fees are from the 2026-27 school year." Tuition includes most course and laboratory fees; textbooks are included in TK–5 but are an additional expense in grades 6–12, and that amount is not published.',
+        'Four bands cover the full stated span of Transitional Kindergarten through Grade 12, so no grade is unpriced. The school labels the table "These fees are from the 2026-27 school year." Tuition includes most course and laboratory fees. Textbooks are included in TK–5. In grades 6–12 they are an additional expense, and that amount is not published.',
       figureNote2:
         'Enrollment context: 1,555 students total, 586 in the Upper School (2025–26 Upper School Profile).',
       source:
@@ -1482,12 +1482,12 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
           body: 'The school defines need plainly: "the difference between tuition and the family\'s ability to pay for tuition." It states it "strives to cover 100% of the identified family\'s need" — an aim, not a guarantee, and not read here as a promise of any particular award. A **Financial Aid Committee** conducts the review and decision.',
         },
         {
-          title: 'Need-blind',
+          title: 'Need-blind (admission decided without looking at ability to pay)',
           body: 'The published financial aid questions-and-answers document states an applying family can expect "**a need-blind decision**" — the clearest available statement that applying for aid is described as not affecting the admission decision.',
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'What it costs a family to file (aid platforms commonly charge a fee; the pages do not say whether one applies) · when aid decisions arrive relative to admission decisions · the confidentiality policy — who inside the school sees a family\'s financial information, and how long it is retained.',
+          body: 'What it costs a family to apply (aid platforms often charge a fee, and the pages do not say whether one applies here) · when aid decisions arrive compared with admission decisions · the confidentiality policy: who inside the school sees a family\'s financial information, and how long it is kept.',
         },
       ],
       source:
@@ -1509,11 +1509,11 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       boxes: [
         {
           title: 'What is published, and where',
-          body: 'Total awarded **$3.25M**, aid as **6%** of operational budget, average award **$17,900**, and **36 students across 17 endowed scholarships** — all 2024–25, all on the tuition page. Separately: **$3.125M** offered in 2021–22 (strategic plan) and an undated "over three million dollars" (policies page). These are not added together and are not a trend — different pages, different years, and in one case no year at all.',
+          body: 'The tuition page gives four 2024–25 figures: total awarded **$3.25M** · aid as **6%** of operational budget · average award **$17,900** · **36 students across 17 endowed scholarships**. Two other pages give other totals: **$3.125M** offered in 2021–22 (strategic plan) and "over three million dollars" with no year (policies page). This report does not add these together or treat them as a trend. They come from different pages and different years, and one has no year at all.',
         },
         {
           tag: 'THE PARTICIPATION SHARE CARRIES A DENOMINATOR BUT NO YEAR',
-          body: 'The measure most families look for first **is** published — but on the strategic-plan site, a separate web property from admissions, as "14% of students receiving some funding." The denominator is clear and it is the right one: a share of **students**, not of applicants or filers, which are different and usually larger-looking numbers. The year is not. The sentence sits beside a figure tagged 2021–22, but adjacency is not a year tag and is not treated as one here.',
+          body: 'The measure most families look for first **is** published. It appears on the strategic-plan site, a separate website from admissions, as "14% of students receiving some funding." It is clear what the share is out of, and it is the right group. It is a share of **students**, not of applicants or aid filers. Shares of those groups are different and usually look larger. It carries no year. It sits beside a figure tagged 2021–22, but sitting beside a dated figure does not give it that year, and this report does not treat it that way.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -1521,11 +1521,11 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           title: 'Supplemental support',
-          body: 'Beyond tuition assistance, the school states that for its **highest-need families** it also covers supplemental support for school essentials, **including lunch**. The scope beyond lunch, and the threshold at which a family qualifies, are not published.',
+          body: 'Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. It does not publish what else this help covers, or how much need makes a family eligible.',
         },
         {
           tag: 'HOW TO READ THE 990 FIGURE',
-          body: 'Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024: grants to domestic individuals **$3.0M**, total revenue $55.7M, total expenses $55.1M. This is aggregate institutional accounting filed with the IRS, not a school statement about its aid program — it runs one to two years behind the current school year and its definition of a grant need not match what the school counts as tuition assistance. Context only; it does not close the gaps above.',
+          body: 'Charlotte Latin Schools Inc, EIN 56-0944449 (federal tax ID number), FY ending June 2024: grants to domestic individuals **$3.0M** · total revenue $55.7M · total expenses $55.1M. These are whole-school accounts filed with the IRS, not a school statement about its aid program. They run one to two years behind the current school year. Their definition of a grant may also not match what the school counts as tuition assistance. This is context only; it does not close the gaps above.',
         },
       ],
       source:
@@ -1540,15 +1540,15 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       boxes: [
         {
           title: 'The Malone Scholars program',
-          body: 'Charlotte Latin states it is the **only Malone Scholars School in North Carolina**, endowed by the Malone Family Foundation to provide scholarships to highly capable students. The foundation\'s published basis for selecting its fifty partner schools nationally: academic caliber, quality of staff, accommodations for gifted and talented students, strong Advanced Placement and enrichment programs, attention to individual student needs, and an economically, culturally, ethnically and socially diverse population.',
+          body: 'Charlotte Latin states it is the **only Malone Scholars School in North Carolina**. It says the Malone Family Foundation endowed the school to provide scholarships to highly capable students. The foundation has fifty partner schools across the country. Its published criteria for choosing them are: academic quality · quality of staff · support for gifted and talented students · strong Advanced Placement and enrichment programs · attention to each student\'s needs · a student body that is diverse economically, culturally, ethnically and socially.',
         },
         {
           title: 'Named funds that reach beyond tuition',
-          body: 'The scholarships document states that the **Malone, Sunny, Thrive, Wall and Kearney** scholarships cover additional school expenses **beyond tuition**, that they are Middle and Upper School awards, and that they are made **at the time of admission**. That is a meaningful distinction: a scholarship reaching costs beyond tuition addresses precisely the gap Section 02 describes. (Document summary only — the body could not be opened.)',
+          body: 'The scholarships document states three things about the **Malone, Sunny, Thrive, Wall and Kearney** scholarships. They cover additional school expenses **beyond tuition**. They are Middle and Upper School awards. They are made **at the time of admission**. That matters, because a scholarship that pays for costs beyond tuition is aimed at exactly the gap Section 02 describes. (This comes from the document\'s summary only; the full document could not be opened.)',
         },
         {
           tag: 'NOT PUBLISHED — SIZES, CRITERIA AND STACKING',
-          body: 'For each named fund the public record does not state the award amount, how many are awarded in a year, the eligibility criteria, or whether a scholarship can be held alongside need-based aid. The one quantitative anchor is that **36 students held awards from 17 endowed scholarships in 2024–25** — a reach figure, not an award size. Ask which scholarships an applicant would be considered for, whether consideration is automatic, and whether an award reduces need-based aid.',
+          body: 'For each named fund, the public record does not state the award amount, how many are given in a year, or who is eligible. Nor does it say whether a scholarship can be held alongside need-based aid. The one number published is that **36 students held awards from 17 endowed scholarships in 2024–25**. That shows how many students the funds reach, not how large an award is. Ask which scholarships an applicant would be considered for, whether that happens automatically, and whether an award reduces need-based aid.',
         },
         {
           tag: 'NOT PUBLISHED — DISCOUNTS',
@@ -1595,7 +1595,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED — THE WITHDRAWAL OBLIGATION',
-          body: 'The public pages do not set out the withdrawal or mid-year departure obligation, any refund schedule, or the point at which full-year tuition becomes payable regardless of attendance. The optional Tuition Refund Plan at 0.53% of tuition implies some obligation survives a withdrawal — that is what such plans exist to cover — but the underlying terms are not on the public record. **This is the single most consequential unpublished item in this report;** read the contract carefully before signing.',
+          body: 'The public pages do not say what a family owes if it withdraws or leaves mid-year. They give no refund schedule, and they do not say when the full year\'s tuition is owed whether or not the student attends. The optional Tuition Refund Plan, at 0.53% of tuition, suggests a family still owes something after a withdrawal, since that is what such plans exist to cover. But the terms themselves are not on the public record. **This is the single most consequential unpublished item in this report;** read the contract carefully before signing.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -1625,15 +1625,15 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'READ THE TENURE FIGURES AS ARITHMETIC, NOT A FORECAST',
-          body: 'The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500) as if today\'s prices held every year — which they will not, since published tuition is re-set annually and has historically risen. They are tuition only, net of nothing, and exclude the deposit, trips, insurance, transport, extended day, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.',
+          body: 'The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500). They assume today\'s prices hold every year, which they will not: published tuition is reset every year and has risen in the past. They are tuition only, before any aid. They exclude the deposit, trips, insurance, transport, extended day, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.',
         },
         {
           tag: 'THE MIDDLE-INCOME QUESTION',
-          body: 'The school publishes an aim to meet up to 100% of demonstrated need and a share of students receiving some funding. It publishes nothing about families above the aid threshold but below comfortable full-pay — no indexed tuition, no middle-income initiative, no guidance on where the threshold falls. A publication gap rather than a statement about who the school serves.',
+          body: 'The school publishes an aim to meet up to 100% of demonstrated need, and a share of students receiving some funding. It publishes nothing for families above the aid threshold who would still find full tuition hard to pay. It publishes no indexed tuition (a price set by family income), no middle-income program and no guidance on where the threshold falls. This is a gap in what is published, not a statement about who the school serves.',
         },
         {
           tag: 'TWO NAVIGATION HAZARDS',
-          body: '**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027, but search engines still serve cached text from the same address giving 15 January 2026. Open the page directly rather than trusting the snippet. **The contact address is misspelled in one place** — the tuition page invites inquiries at an address whose domain has two letters transposed, while the correct address appears elsewhere on the same page. Mail to the misspelled version will not arrive; use the contact panel.',
+          body: '**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027. But search engines still show saved text from the same address that gives 15 January 2026. Open the page directly rather than trusting the search snippet. **The contact address is misspelled in one place**. The tuition page asks for questions at an email address whose domain has two letters swapped. The correct address appears elsewhere on the same page. Mail to the misspelled version will not arrive, so use the contact panel.',
         },
       ],
       questionsNote:

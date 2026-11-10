@@ -115,7 +115,7 @@ const MARKERS = {
   UNPUBLISHED: new RegExp([
     String.raw`\bnot published\b`, String.raw`\bisn[’']t published\b`, String.raw`\bunpublished\b`, String.raw`\bnot stated\b`,
     String.raw`\bdoes(?: not|n[’']t) (?:publish|name|state|say|disclose)\b`, String.raw`\bnever (?:says|states|publishes)\b`,
-    String.raw`\b(?:publishes|states|names) no\b`, String.raw`\bconfirm(?: [\w’']+){0,3} with\b`,
+    String.raw`\b(?:publishes|states|names) (?:no|nothing)\b`, String.raw`\bconfirm(?: [\w’']+){0,3} with\b`,
     String.raw`\bno published\b`, String.raw`\bno\b(?: [\w’',/-]+){1,12} (?:(?:is|are) )?(?:published|stated)\b`,
     String.raw`\bno(?: [\w’'-]+){1,3} (?:publishes|states|names)\b`, String.raw`\bnothing\b[^.;]{0,60}\b(?:is|are) published\b`,
     String.raw`\bnever (?:been |be )?(?:published|stated)\b`,

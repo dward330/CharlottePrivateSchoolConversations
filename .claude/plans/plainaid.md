@@ -446,8 +446,8 @@ shipped*) only after Batch 4.
 
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
-| 1 | `8d9fd17f` | [review-batch1.md](plainaid-data/review-batch1.md) | 8 (all fixed: 3 meaning/claim changes incl. Prep "most expensive", 1 not-published → does-not-exist, 1 recipient → family unit change, 2 restored terms, 1 cross-school claim) | |
-| 2 | | | | |
+| 1 | `8d9fd17f` | [review-batch1.md](plainaid-data/review-batch1.md) | 8 (all fixed: 3 meaning/claim changes incl. Prep "most expensive", 1 not-published → does-not-exist, 1 recipient → family unit change, 2 restored terms, 1 cross-school claim) | approved 2026-11-10, no rulings |
+| 2 | see Batch 2 notes | [review-batch2.md](plainaid-data/review-batch2.md) | 7 units, 10 changes (all fixed: 1 not-published → none-exists, 1 vague base + fuzzy year, 2 referents, 1 overclaim, 1 tense that made terms sound lapsed, 1 narrowed scope) | |
 | 3 | | | | |
 | 4 | | | | |
 
@@ -538,6 +538,19 @@ batch of both):**
 command arrives with the `<, with these rulings: …>` placeholder unfilled, read it as
 "approved, no rulings", as both earlier plans did, and record that batch's choices here
 as precedent.
+
+- **Batch 1 (approved 2026-11-10): no rulings.** The resume command arrived with the
+  `<, with these rulings: …>` placeholder unfilled, read as "approved, no rulings". The
+  Batch 1 question about the 8 report notes with no render site was not answered, so it
+  stays out of scope (Candidates). Batch 1's choices stand as precedent:
+  - a long parallel list becomes a `·` run after a colon lead;
+  - "this series" → "among the schools on this site";
+  - a not-published claim keeps a not-published verb ("No sliding scale is published"),
+    never "there is no…";
+  - a gloss sits where it cannot break the not-published phrase ("The school publishes no
+    median (the middle award)…");
+  - "typical recipient" stays "recipient", never "family";
+  - a confidentiality policy is never called a privacy policy.
 
 ### plain-ok register
 
@@ -1018,9 +1031,42 @@ The worktree was removed afterwards.
 
 **Found while checking: report notes with no render site.** Prep `sections[3].figureNote` did not appear on the page. In `FinancialAidReport.tsx`, `figureNote`/`figureCaption` render only inside a chart (bands, ranges or ladder) and `figureNote2` only with bands or a ladder. A section with stat tiles and no chart drops them. **8 fields never render** today: covenant-day `sections[3].figureNote`, carmel-christian `sections[3].figureNote`, hickory-grove-christian `sections[2].figureNote`, gaston-day `sections[3].figureNote`, trinity-episcopal `sections[3].figureNote` and `figureNote2`, charlotte-prep `sections[3].figureNote` and `figureNote2`. Three are on this plan's worklist (Prep, Gaston, HG). This is pre-existing and a component change, so it is out of scope (see Candidates). The three are still rewritten, since they are extracted and translated.
 
+### Batch 2 (2026-11-10)
+
+**Resume.** Batch 1 was approved with no rulings (placeholder unfilled; recorded under "Style rulings"). `main` had not moved, so the rebase was a no-op.
+
+**Worklist** matched the plan: 23 units (charlotte-latin 14, charlotte-christian 9).
+
+**One guard widening, with its reason.** UNPUBLISHED now also counts "publishes nothing" (`(?:publishes|states|names) (?:no|nothing)`). Latin `sections[6].boxes[2]`'s before-text says "It publishes nothing about families…" and held no UNPUBLISHED marker, so any plain not-published wording would have read as a marker *added*. After the change the College Support calibration still shows exactly its 3 known hits, and Batch 1 still passes.
+
+**Drafts were measured first.** Three needed a second pass: Latin `sections[3].boxes[3]` (11.1), a 33-word sentence in Latin `sections[4].boxes[2]`, and Christian `sections[3].boxes[2]` (11.4, then 10.3). Every guard passed on the first `--check` after applying.
+- Latin `sections[2].boxes[2].title` → "Need-blind (admission decided without looking at ability to pay)", with no `**`.
+- Latin `sections[6].boxes[2]` mirrors Batch 1's CCD wording ("…above the aid threshold who would still find full tuition hard to pay"). It keeps Latin's "the aid threshold", not CCD's "typical".
+- Latin `sections[0].figureNote` and `sections[3].boxes[1]` end a sentence in a quote. The checker's quote-strip quirk (Candidates) merges it with the next sentence, so the next sentence is kept short.
+- Christian's stray `*received into*` lost its single asterisks; the words are kept.
+- `·` runs: Latin's four tuition-page figures, the three IRS-filing figures, and the six Malone criteria.
+
+**Measure.** The review generator, every guard on (`--allow` worklists 1–2, `--aid-markers`), exits 0: 23/23 `hook: pass`, after-grade >10: 0. Batch 2 adds no residual rows. `check_plain_language.mjs --file` reports 42 issues (61 after Batch 1), none on a Batch 1 or 2 school.
+
+**Independent review: 7 units, 10 changes, all fixed** (see the review file):
+- Latin's middle-income box had become "there is no published…", which can read as "none exists". It now reads "It publishes no…".
+- "Its base is clear and right" and "Its year is not clear" were vague. They now read "it is clear what the share is out of" and "It carries no year".
+- Two referents after a split: Malone "endowed this", and Christian "It no longer applies" after a new "It is a state program" sentence.
+- "fills exactly the gap" overclaimed "addresses precisely".
+- The past tense made Christian's unconfirmed 2023–24 terms sound lapsed.
+- "They do not list them" narrowed "not documented" to the fundraising materials.
+
+The reviewer also flagged the 62% figure (Candidates).
+
+**Step 6 checks.** `npx tsc -b`, `npx vite build` and the nine later checks are green. `check:live` reports **44 stale stamps per locale, all `financial-aid-report`** (21 + 23). Running total for Phase 2: **44**. `check:plain` now shows financial-aid-report Flagged **28**.
+
+**Step 7 browser check.** Every rewritten unit on both schools renders, every bold span is inside a `<strong>`, and no markdown-shaped asterisk appears (Christian's former `*received into*` included). At 390px, Latin with the card open has `scrollWidth` 390.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
+
+- **charlotte-christian `sections[5].boxes[1].body`: "Section 4 is the weak point, at 62%".** No section in CHARLOTTE_CHRISTIAN has confidence 62: `sections[3]` "Discounts & Ceiling" is 80, and the source notes never say 62%. The figure predates this plan and was kept char-for-char. It needs a data check against the source report.
 
 - **8 report notes never render** (Batch 1 notes): `figureNote`/`figureNote2` in a stats-only section have no render site in `FinancialAidReport.tsx`. Those include Gaston's 26%-vs-45% explanation and Prep's FY series. Fixing it is a component change (render the notes under a stats-only strip), so it needs the user's call.
 - **Checker quirk:** a sentence ending in a closing quote before the period (`…in chart below". It`) is not split. The strip step turns the quote into `Q`, and the initials rule reads `Q.` as an initial. Harmless once reworded (Trinity componentsNote), but a unit ending that way measures as one long sentence. The plan does not change the checker.
