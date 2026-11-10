@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-10
 branch: feat/plaintuition
-prs: []
+prs: [473]
 ---
 
 # Plain-language rewrite — Financial Aid content blocks
