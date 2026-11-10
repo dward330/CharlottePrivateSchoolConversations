@@ -74,8 +74,8 @@ export type PaymentPlan = {
   figure: string
   label: string
   detail: string
-  /** Renders in the accent-filled emphasis style. */
-  emphasis?: boolean
+  // No highlight flag: every option renders alike. A highlighted card read as
+  // the recommended plan, which no school says (removed 2026-11-10).
 }
 
 export type InfoBox = {
@@ -313,7 +313,6 @@ const COUNTRY_DAY: FinancialAidReport = {
           label: 'Enrollment deposit',
           detail:
             "Credited toward tuition — a timing obligation, not an extra charge. Aid applicants pay a **reduced, refundable** deposit if the award isn't enough to attend (amount not published).",
-          emphasis: true,
         },
         {
           figure: '1×',
@@ -564,7 +563,6 @@ const CANNON: FinancialAidReport = {
           label: 'Ten-month bank draft',
           detail:
             'Ten equal monthly payments drafted on the 5th or the 15th, June through March. **No administrative fee.**',
-          emphasis: true,
         },
         {
           figure: '10×',
@@ -806,7 +804,6 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
           label: 'Enrollment deposit',
           detail:
             'Per student, due at initial enrollment or re-enrollment. **Non-refundable**, and applied to the tuition balance.',
-          emphasis: true,
         },
         {
           figure: '1×',
@@ -1030,7 +1027,6 @@ const COVENANT_DAY: FinancialAidReport = {
           figure: 'NC',
           label: 'Opportunity Scholarship + ESA+',
           detail: 'The school accepts both NCSEAA-administered programs — and applying for the Opportunity Scholarship is a **prerequisite** for CDS aid, so state aid is the designed first layer of every package.',
-          emphasis: true,
         },
       ],
       boxes: [
@@ -1057,7 +1053,6 @@ const COVENANT_DAY: FinancialAidReport = {
           figure: '9×',
           label: 'Monthly plan (FACTS)',
           detail: 'Nine equal installments, **May through January**, autopaying on the 5th or 20th — plus a $50/year FACTS fee. Note the season: payments start four months before school does.',
-          emphasis: true,
         },
         {
           figure: '3.05%',
@@ -1279,7 +1274,6 @@ const DAVIDSON_DAY: FinancialAidReport = {
           label: 'Eleven-month plan',
           detail:
             'An eleven-month plan exists, but its installment due dates are not published. Materials for employees carry a Truth in Lending disclosure that puts the additional cost of paying monthly at **$0**. No matching statement is published for other families.',
-          emphasis: true,
         },
         {
           figure: '2.8%',
@@ -1564,7 +1558,6 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
           label: 'Enrollment deposit',
           detail:
             'Non-refundable, **deducted from the second tuition payment**. No student can be enrolled or re-enrolled without it (2026–27).',
-          emphasis: true,
         },
         {
           figure: '2×',
@@ -2097,7 +2090,6 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
           figure: 'NC',
           label: 'Opportunity Scholarship',
           detail: 'The school references the state voucher, with income caps removed and eligibility expanded to currently-enrolled private-school students.',
-          emphasis: true,
         },
       ],
       boxes: [
@@ -2119,7 +2111,6 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
           figure: '$500',
           label: 'Enrollment fee',
           detail: 'Per child, **non-refundable**, and — per the school — must be paid in full at the time of enrollment.',
-          emphasis: true,
         },
         {
           figure: 'FACTS',
@@ -2284,7 +2275,6 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
           figure: '5%',
           label: 'Early-payment discount',
           detail: 'Off tuition if the whole school year is paid by **May 31**.',
-          emphasis: true,
         },
         {
           figure: 'NCSEAA',
@@ -2321,7 +2311,6 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
           figure: 'FACTS',
           label: 'Annual billing, monthly draft',
           detail: 'Tuition is "billed annually and divided into equal payments based on the plan you select," drafted monthly through **FACTS**. The number of installments and any plan fee are set inside the portal.',
-          emphasis: true,
         },
       ],
       boxes: [
@@ -2555,7 +2544,6 @@ const GASTON_DAY: FinancialAidReport = {
           figure: 'Several',
           label: 'Payment plans offered',
           detail: 'The fee schedule states that "Gaston Day offers a variety of payment plans in an effort to make our community more affordable and accessible" — but names none of them, gives no installment counts, dates or fees.',
-          emphasis: true,
         },
         {
           figure: 'Deposit',
@@ -2756,7 +2744,6 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
           figure: 'FACTS',
           label: 'Payment processor',
           detail: 'Runs the tuition draft. Plan fee **$15–$45 per family**.',
-          emphasis: true,
         },
         {
           figure: '$150',

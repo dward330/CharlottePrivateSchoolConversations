@@ -446,7 +446,7 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
       {plans && (
         <div className="fa-plans">
           {plans.map((p) => (
-            <div key={p.label} className={`fa-plan${p.emphasis ? ' on' : ''}`}>
+            <div key={p.label} className="fa-plan">
               <div className="fa-plan-figure">{localizeMoneyText(p.figure)}</div>
               <div className="fa-plan-label">{p.label}</div>
               <div className="fa-plan-detail">
