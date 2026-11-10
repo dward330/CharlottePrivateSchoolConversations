@@ -512,7 +512,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     headline:
       'Students in AP classes must sit the exam — and in 2026, 92% of the 833 exams Latin students took scored 3 or higher, with a mean score of 4.10.',
     subhead:
-      'The profile also carries an unusually candid warning about its own maths placement, and a spring-2026 decision to weight Advanced maths and science courses +0.5, applied retroactively from the Class of 2027.',
+      'The profile also gives an unusually frank warning about its own maths placement. And it reports a spring-2026 decision to weight Advanced maths and science courses +0.5. The change reaches back to grades already earned, starting with the Class of 2027.',
     stats: [
       { value: '24', label: 'AP subjects offered — exams required of AP students' },
       { value: '92%', label: 'of 833 AP exams scored 3+ (2026, 308 students)' },
@@ -536,7 +536,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       },
       {
         label: 'Computer science',
-        text: '**Honors Java Data Structures** sits beyond AP CS A, and **AP Cybersecurity** and **AP Networking Fundamentals** are now listed as two separate APs — both very new College Board offerings and a real differentiator.',
+        text: '**Honors Java Data Structures** goes beyond AP CS A. **AP Cybersecurity** and **AP Networking Fundamentals** are now listed as two separate APs. Both are very new College Board courses, and they set Latin apart.',
       },
       {
         label: 'Engineering',
@@ -547,14 +547,14 @@ export const charlotteLatin: CollegeSupportProgram = {
         text: '**Honors Greek I–IV** (available only as a second world language), plus both AP Spanish Language and AP Spanish Literature, and Honors sequences in Latin, French and Spanish.',
       },
       {
-        label: 'Interdisciplinary',
+        label: 'Across subjects',
         text: '**Honors American Studies-History**, a double-period seminar co-created by the History and English departments and taught, per an earlier profile, “at an equivalent level of rigor and depth to Advanced Placement curricula”.',
       },
     ],
     trust: [
       {
         label: 'Weighted — and stated again',
-        text: 'A weighted 4-point scale (A+ 4.33, A 4.00 for 93–97, down to F 0.00) giving **one additional quality point** for Honors and AP and **one-half point for each Advanced course** except Advanced Functions with Trigonometry. The scale was absent from every edition after 2017–18 and **returned in 2026–27**.',
+        text: 'A weighted 4-point scale (A+ 4.33, A 4.00 for 93–97, down to F 0.00). It gives **one additional quality point** for Honors and AP. It gives **one-half point for each Advanced course**, except Advanced Functions with Trigonometry. The scale was missing from every edition after 2017–18 and **returned in 2026–27**.',
       },
       {
         label: 'No rank — stated again',
@@ -686,12 +686,12 @@ export const charlotteLatin: CollegeSupportProgram = {
 
   outcomes: {
     headline:
-      'Four graduating classes produced acceptances at 337 institutions; 132 carry the newest list’s matriculation asterisk — at least one Latin student enrolled there in 2024–26.',
+      'Four graduating classes earned acceptances at 337 institutions. On the newest list, 132 carry an asterisk showing that at least one Latin student enrolled there in 2024–26.',
     subhead:
-      'The striking number is breadth: 61 of the 68 Power Four universities appear, the absences being Minnesota, Nebraska, BYU, UCF, Houston, Kansas State and UT Austin (the lists write only “University of Texas”), and seven of the eight Ivies — Columbia is the only one missing.',
+      'The striking number is breadth. 61 of the 68 Power Four universities appear. The ones missing are Minnesota, Nebraska, BYU, UCF, Houston, Kansas State and UT Austin (the lists write only “University of Texas”). Seven of the eight Ivies appear, and Columbia is the only one missing.',
     stats: [
       { value: '337', label: 'institutions on the 2023–26 acceptance lists' },
-      { value: '132', label: 'carry the 2024–26 matriculation asterisk' },
+      { value: '132', label: 'carry the 2024–26 enrollment asterisk' },
       { value: '7 of 8', label: 'Ivy League — absent Columbia' },
       { value: '61 of 68', label: 'Power Four universities represented' },
     ],
@@ -715,7 +715,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       'U.S. Air Force Academy appointment (2025)',
     ],
     scholarshipsNote:
-      'The merit-dollar total stopped being published after the Class of 2023 — the 2024, 2025 and 2026 write-ups carry no figure, and whether the school stopped collecting or stopped publishing it is unclear. Morehead-Cain attaches to the Class of 2022, outside this list’s window. QuestBridge, Robertson, Jefferson, Belk, Stamps and Coca-Cola were not found for any recent class; Robertson, Jefferson and Belk are attested only in a 2017–18 historical paragraph and should not be read as current pipelines. The 2026–27 profile carries no merit figures either.',
+      'The school stopped publishing its merit-dollar total after the Class of 2023. The 2024, 2025 and 2026 write-ups carry no figure. It is unclear whether the school stopped collecting the figure or only stopped publishing it. Morehead-Cain belongs to the Class of 2022, outside this list’s window. QuestBridge, Robertson, Jefferson, Belk, Stamps and Coca-Cola were not found for any recent class. Robertson, Jefferson and Belk appear only in a 2017–18 history paragraph, so they should not be read as current pipelines. The 2026–27 profile carries no merit figures either.',
     flags: [],
     sources: [
       { label: 'charlottelatin.org — 2026–27 Upper School Profile (College Admission Summary 2024–26)', url: PROFILE_2627 },
@@ -727,7 +727,7 @@ export const charlotteLatin: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'Latin’s differentiators are narrow, deep and genuinely elite in two places — a top-20 national debate programme and an MIT-lineage Fab Lab — and the school leaves the assembly of a spike almost entirely to the student.',
+      'Latin’s strengths are narrow and deep, and truly elite in two places: a top-20 national debate programme and a Fab Lab that follows MIT’s model. The school leaves it almost entirely to the student to build a standout strength.',
     subhead:
       'There is no required capstone or senior project that manufactures one, which makes the two flagship programmes carry more weight than they would elsewhere.',
     levers: [
@@ -737,21 +737,21 @@ export const charlotteLatin: CollegeSupportProgram = {
         items: [
           '**Speech & Debate — the strongest documented spike.** An NSDA **Debate School of Excellence Award**, one of the top 20 programmes in the country; NSDA **charter status**; **200 Club** membership in 2025. Director Bilal Butt has earned a second Diamond award with 30,000+ NSDA points over ten years. At 2025 Nationals, 7 debaters competed and 6 earned recognition against 6,700+ students — including a **5th place in Public Forum**.',
           '**It is curricular, not merely a club.** The courses carry a competition mandate: the intro course requires participation in two tournaments a year, and the advanced course requires six.',
-          '**Innovation & Design / Fab Lab** — an official Fab Lab school in the lineage of **MIT’s Center for Bits and Atoms**, and an active Fab Academy node since 2016. Engineering has been taught here since 1989; the lab runs 3D printing, CNC milling, circuit production, laser and precision milling. Upper School courses are taught “like a professional software engineering firm”, with students presenting to external panels of industry experts.',
+          '**Innovation & Design / Fab Lab** — an official Fab Lab school that traces back to **MIT’s Center for Bits and Atoms**. It has been an active Fab Academy site since 2016. Engineering has been taught here since 1989. The lab runs 3D printing, CNC milling, circuit production, laser and precision milling. Upper School courses are taught “like a professional software engineering firm”. Students present to outside panels of industry experts.',
           '**Malone Scholars School** — North Carolina’s only one, endowed by the Malone Family Foundation, which selects 50 independent schools nationally partly for their “excellent accommodations for gifted and talented students”.',
-          '**Internships do exist**, contrary to a common assumption: a **Biomedical Internship Program** placing seniors with Atrium Health is course-embedded in Advanced Topics in Engineering, alongside a Student Internship Program elective.',
+          '**Internships do exist**, despite a common belief that they do not. A **Biomedical Internship Program** places seniors with Atrium Health as part of the Advanced Topics in Engineering course. There is also a Student Internship Program elective.',
         ],
         note:
-          'There is still no required internship, capstone, senior project, independent study or school-wide research requirement — graduation requirements are purely credit-based, and there is no global-studies certificate or diploma. Athletic recruiting and arts-in-college support are informational programmes only: no named recruiting coordinator, highlight-film service, conservatory-prep track or portfolio review is published.',
+          'There is still no required internship, capstone, senior project, independent study or school-wide research project. To graduate, a student needs only the required course credits. There is no global-studies certificate or diploma. Help with sports recruiting and with arts in college is limited to sharing information. No named recruiting coordinator, highlight-film service, conservatory-prep track or portfolio review is published.',
       },
       {
         title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
-          '**The School Profile argues with numbers again.** It is the one document every admissions office reads, and the 2026–27 edition restores the grading scale, the weighting statement and the class-rank policy, and adds AP results and SAT and ACT means after years without them. It still omits a CEEB code, a four-year matriculation percentage and National Merit Finalists.',
+          '**The School Profile argues with numbers again.** It is the one document every admissions office reads. The 2026–27 edition restores the grading scale, the weighting statement and the class-rank policy. It also adds AP results and SAT and ACT averages after years without them. It still leaves out a CEEB code, the share of graduates who enrolled at four-year colleges and National Merit Finalists.',
           '**The integrity block was deleted wholesale.** All three archived editions carried, verbatim: “Reflecting our emphasis on ‘HONOR ABOVE ALL,’ our policy is to report any **probations, suspensions, and expulsions through time of graduation** to any colleges that request this information. CLS complies with the **NACAC Statement of Principles of Good Practice**.” None of that survives, and the 2026–27 edition does not restore it.',
-          '**Named-scholarship history was deleted too.** The 2017–18 edition told readers the school’s students had won Morehead-Cain, Robertson, B.N. Duke, Jefferson, Belk, Bryan, Chancellor’s, Danforth and Johnson scholarships, and gave application and matriculation breadth. Not one of those sentences survives, and the 2026–27 edition does not restore them.',
-          '**What remains is genuine and external** — the NSDA recognition, the Fab Academy node, and the Malone Family Foundation selection are all third-party validations that do not depend on the profile.',
+          '**Named-scholarship history was deleted too.** The 2017–18 edition told readers the school’s students had won Morehead-Cain, Robertson, B.N. Duke, Jefferson, Belk, Bryan, Chancellor’s, Danforth and Johnson scholarships. It also showed how widely students applied and enrolled. Not one of those sentences survives, and the 2026–27 edition does not restore them.',
+          '**What remains is genuine and external** — the NSDA recognition, the Fab Academy site and the Malone Family Foundation selection. All three come from outside groups and do not depend on the profile.',
         ],
         note:
           'The net effect is a profile that now argues with numbers again, but still omits the integrity statement and the scholarship history earlier editions carried.',
@@ -776,7 +776,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     headline:
       'As of 2026–27, Latin publishes its class-level numbers — 2026 AP results, SAT and ACT means, and junior and sophomore grade distributions — but still no percentiles, GPA distribution or rank.',
     subhead:
-      'The figures are means, not distributions. A reader can now place a test score against the class average, but not against the spread — there is no middle-50% band and no share of the class above any line.',
+      'The figures are averages, not distributions. A reader can now compare a test score with the class average, but not with the spread. There is no middle-50% band and no share of the class above any line.',
     // The 2026–27 profile prints class MEANS only, so the table is
     // noPercentiles: a mean is never filed under a percentile column. No GPA
     // distribution is published, so quintiles stays empty. Section averages
@@ -822,29 +822,29 @@ export const charlotteLatin: CollegeSupportProgram = {
       },
       {
         label: 'The Upper School model is coaching, not remediation',
-        text: 'Verbatim: in the Upper School the programme “becomes more of a **consultative and coaching model**”, working on executive functioning — organisation, time management, study strategies. Lower School LR is explicitly remedial; the Upper School is not. Decisive for a family whose 9–12 student needs direct intervention.',
+        text: 'In the school’s own words, the Upper School programme “becomes more of a **consultative and coaching model**”. It coaches skills such as organisation, time management and study strategies. Lower School Learning Resources (LR) is explicitly remedial, but the Upper School is not. That matters most for a family whose 9–12 student needs direct help.',
       },
       {
         label: 'Accommodations and cost',
-        text: 'Middle and Upper School students who qualify have a **504 Educational Plan**, with testing current within three years; typical accommodations include extended time and testing in a separate setting. Critically, **charges for sessions are not included in tuition and are billed per session each month**.',
+        text: 'Middle and Upper School students who qualify have a **504 Educational Plan**. Their testing must be no more than three years old. Typical accommodations include extra time and testing in a separate setting. Importantly, **charges for sessions are not included in tuition and are billed per session each month**.',
       },
       {
         label: 'Do not confuse ATSS with Learning Resources',
-        text: 'The Office of Academic Transition and Student Success is a **transition and belonging office** for students new to independent schools, particularly from underrepresented backgrounds. Its page never mentions learning differences, 504 plans or accommodations. A student with dyslexia who is neither new to Latin nor from an underrepresented background falls outside its stated population entirely.',
+        text: 'The Office of Academic Transition and Student Success is a **transition and belonging office**. It serves students new to independent schools, especially those from underrepresented backgrounds. Its page never mentions learning differences, 504 plans or accommodations. Take a student with dyslexia who is not new to Latin and not from an underrepresented background. That student falls fully outside the group the office says it serves.',
       },
     ],
     middle: [
       {
         label: 'Grades are now published',
-        text: 'In the Class of 2027’s junior year, 524 of 833 course grades (63%) were in the A range, and 457 of 806 (57%) in sophomore year — as counted from the profile’s own tables, which omit grades below C−. Beyond grades, the 337-institution list is genuinely broad, spanning Harvard, MIT and Stanford through Belhaven, Brevard, Catawba, Carson-Newman, Lenoir-Rhyne, Methodist, Saint Leo, Trevecca Nazarene, Wingate and Johnson & Wales, many carrying matriculation asterisks.',
+        text: 'In the Class of 2027’s junior year, 524 of 833 course grades (63%) were in the A range. In sophomore year it was 457 of 806 (57%). These counts come from the profile’s own tables, which leave out grades below C−. Beyond grades, the 337-institution list is truly broad. It runs from Harvard, MIT and Stanford through Belhaven, Brevard, Catawba, Carson-Newman, Lenoir-Rhyne, Methodist, Saint Leo, Trevecca Nazarene, Wingate and Johnson & Wales. Many carry the asterisk showing a student enrolled.',
       },
       {
         label: 'The regional band is real',
-        text: 'Nine UNC-system campuses carry a 2024–26 matriculation asterisk — Chapel Hill, NC State, Charlotte, Greensboro, Wilmington, Asheville, the School of the Arts, East Carolina and Appalachian State — so Latin visibly places students across the band rather than only at the top.',
+        text: 'Nine UNC-system campuses carry a 2024–26 enrollment asterisk: Chapel Hill, NC State, Charlotte, Greensboro, Wilmington, Asheville, the School of the Arts, East Carolina and Appalachian State. So Latin students clearly enroll across the whole range of campuses, not only at the most selective ones.',
       },
       {
         label: 'Non-traditional destinations',
-        text: 'Service academies (the Naval Academy and The Citadel, plus a 2025 Air Force Academy appointment), conservatory and arts institutions, and international universities including St Andrews, UCL, King’s, Imperial, Leiden, Amsterdam, Queensland, Toronto, McGill and UBC all appear on the lists.',
+        text: 'The lists include service academies: the Naval Academy and The Citadel, plus a 2025 Air Force Academy appointment. Conservatory and arts schools appear too. So do international universities, including St Andrews, UCL, King’s, Imperial, Leiden, Amsterdam, Queensland, Toronto, McGill and UBC.',
       },
     ],
     flags: [
@@ -888,7 +888,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       },
       {
         label: 'Placement breadth across the whole class',
-        text: '337 institutions across four classes with 61 of the 68 Power Four universities represented, and matriculation asterisks spread from the Ivies down through the regional band.',
+        text: '337 institutions across four classes, with 61 of the 68 Power Four universities represented. Enrollment asterisks run from the Ivies down through regional colleges.',
       },
       {
         label: 'The exam requirement is real',

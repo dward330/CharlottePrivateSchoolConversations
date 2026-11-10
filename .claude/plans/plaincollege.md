@@ -226,14 +226,28 @@ through Batches 1–2 and becomes `english-done` (INDEX: *English shipped*) only
 
 | Batch | Commit | Review file | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
-| 1 | `plaincollege: batch 1 English — shared templates, cannon, charlotte-catholic, covenant-day` (see `git log feat/plaincollege`) | [`review-batch1.md`](plaincollege-data/review-batch1.md) | 6 (6 fixed) + 3 borderline applied | pending |
-| 2 | — | — | — | — |
+| 1 | `plaincollege: batch 1 English — shared templates, cannon, charlotte-catholic, covenant-day` (see `git log feat/plaincollege`) | [`review-batch1.md`](plaincollege-data/review-batch1.md) | 6 (6 fixed) + 3 borderline applied | **Approved 2026-11-09**, no wording rulings given |
+| 2 | `plaincollege: batch 2 English — providence-day, charlotte-latin, charlotte-christian, hickory-grove-christian` (see `git log feat/plaincollege`) | [`review-batch2.md`](plaincollege-data/review-batch2.md) | 9 (9 fixed) | pending |
 | 3 | — | — | — | — |
 
 ### Style rulings
 
 *Filled in by `/implement` from the user's Batch 1 and Batch 2 reviews. Every later batch
 applies them. Empty at planning time.*
+
+**From Batch 1 (approved 2026-11-09).** The user approved Batch 1 without wording changes.
+Their `/implement` command carried the template placeholder `<, with these rulings: …>`
+unfilled, so no explicit rulings were given. Batch 1's choices therefore stand as precedent
+for Batches 2 and 3:
+
+- *matriculation* → "enrollment" / "enrolled" ("Every enrollment, 2023–2026", "enrollment
+  asterisk", "enrollment markings"). Never "admitted" or "accepted".
+- *cohort* → "every AP student" when the figure counts AP exam-takers, otherwise "class" or
+  "group".
+- Keep-and-explain with a parenthetical for a named term a parent must recognize: "HBCUs
+  (historically Black colleges…)", "quintile table (a split of the class into fifths)".
+- "rather than modelled" → "rather than estimated" in score-table notes.
+- "in this set" (meaning the schools on the site) → "among the schools on this site".
 
 ### plain-ok register
 
@@ -523,6 +537,13 @@ notes. The locale traps in those docs apply unchanged:
 | File | Path | After-grade | Reason |
 |---|---|--:|---|
 | `cannon.ts` | `wholeClass.middle[2].text` | 11.5 (was 39.3) | A list of about 45 college names in four groups. Every sentence is now ≤30 words. The names set the grade. |
+| `providence-day.ts` | `wholeClass.middle[0].text` | 10.3 (was 15.2) | Fifteen college names in two lists. The names set the grade. |
+| `providence-day.ts` | `wholeClass.middle[2].text` | 10.1 (was 20.3) | Conservatory and international university names in three groups. |
+| `charlotte-latin.ts` | `edge.levers[0].note` | 11.2 (was 20.8) | Two lists of program types the school does not publish (capstone, independent study, conservatory-prep track, …). |
+| `charlotte-latin.ts` | `wholeClass.middle[1].text` | 11.2 (was 18.4) | Nine UNC campus names. |
+| `charlotte-latin.ts` | `wholeClass.middle[2].text` | 10.9 (was 21.7) | Service-academy and ten international university names. |
+| `charlotte-christian.ts` | `transcript.depth[0].text` | 11.2 (was 14.1) | Calculus III topic list (multivariable and vector-valued functions, …), the course's own content. |
+| `hickory-grove-christian.ts` | `outcomes.headline` | 10.1 (was 15.0) | College names plus the HBCU explanation. |
 
 ## Implementation notes
 
@@ -541,10 +562,20 @@ notes. The locale traps in those docs apply unchanged:
   - "cohort" became "every AP student" after the reviewer's fix, not "whole class", because the figure counts exams taken by AP students.
 - **Browser check** (headed Chrome, `vite preview`): every probe string renders on cannon, catholic, covenant-day, carmel-christian and providence-day, and bold renders in College Support. The first pass showed some misses, but those were `innerText` uppercasing the card titles (the `innertext-case-false-pass` trap). They resolved with `textContent`. At 390px, catholic has no page overflow and its heading reads "EVERY ENROLLMENT, 2023–2026".
 
+### Batch 2 (2026-11-09)
+
+- **Worklist matched the plan exactly:** 82 units (providence-day 19, charlotte-latin 23, charlotte-christian 21, hickory-grove-christian 19). `main` had not moved since Batch 1, so the rebase was a no-op. The review file has 90 rows, because it also shows the 8 shared-template rows Batch 1 already changed in these files. After the build: 90/90 rows `hook: pass`, all guards pass, and 7 residuals above grade 10, all lists of names or topics.
+- **Rewrites were applied by an exact-match script**, keyed by worklist path, which refuses any old literal it cannot find. The hook does not see a scripted write, so `check_plain_language.mjs --file` was run on all four files afterwards. It caught 3 units, which were then fixed with Edit so the hook checked them.
+- **Charlotte Latin "Interdisciplinary" → "Across subjects".** The label appears only in our own research notes (`Charlotte Latin - College Support - Redesign Research 2026.md`), not as a profile heading, so the plan's default applied. No `plain-ok` was needed.
+- **Independent review: 9 findings, all fixed** (see `review-batch2.md`). Two were strengthened claims (PD "what makes them demanding", Christian "it is not an error"). One was a wrong gloss: PD "AP-load norms" are published *maximums* (2/3/4 by grade, `transcript.trust`), not typical loads. The others: a restored "explicitly remedial", a narrowing "Otherwise,", a grammar slip from a sentence split, an ambiguous modifier, and "NC public schools" read as K–12.
+- **`check:live`: 133 stale `college-support` entries per locale**, all nine locales, no other topic. That is 51 from Batch 1 plus 82 from Batch 2. Every other Step 6 check passes.
+- **Browser check** (headed Chrome, `vite preview`, every `<details>` open): 90/90 probe strings render across the four schools. No literal `**` appears on any of the four pages. At 390px, charlotte-latin has no page overflow (scrollWidth 375).
+
 ### Candidates noticed, not acted on
 
 - **Literal `**` on Charlotte Catholic's page, in The Arts area, not College Support.** 7 lines in `artsPrograms/charlotte-catholic.ts` render their asterisks raw (e.g. "— **39 of 199 courses** —"). This predates the branch, which does not touch that file. It is a separate render or data fix.
 - catholic `edge.levers[1].items[3]`: "all three service academies". The US has five federal service academies, and the original had the same wording. A content question, not a plainness one.
 - catholic `wholeClass.scoreTables[0].note`: "shown as em-dashes rather than estimated" is research bookkeeping that may belong in a `verify` flag (dev-only rule). It was rewritten for plainness with the same content.
+- providence-day `wholeClass.scoreTables[0].note` and charlotte-latin `wholeClass.middle[0].text` ("as counted from the profile’s own tables") carry the same research-bookkeeping shape as Catholic's note. They were rewritten for plainness with the same content.
 - cannon `wholeClass.support[0].text`: "of the schools on this site" replaced "in this set". The reviewer flagged it as right only if "this set" meant the whole roster.
-- Words outside the jargon list that were fixed inside rewritten units: "denominator" → "count", "rollup", "legible", "aggregates", "quartile" → "quarter". Per the Open-questions default, `plain_language.json` was not edited.
+- Words outside the jargon list that were fixed inside rewritten units: "denominator" → "count", "rollup", "legible", "aggregates", "quartile" → "quarter". Batch 2 adds: "spike" → "standout strength", "legible" → "clear", "granular" → "detailed", "disclosive", "interpolated" → "estimated". Per the Open-questions default, `plain_language.json` was not edited.

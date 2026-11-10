@@ -584,7 +584,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: 'Science',
-        text: 'AP Biology, AP Chemistry and AP Physics C **meet two periods a day** — a structural rigour signal rather than a post-AP course.',
+        text: 'AP Biology, AP Chemistry and AP Physics C **meet two periods a day**. The extra class time is a built-in sign of how demanding they are, even though they are not courses beyond AP.',
       },
       {
         label: 'Beyond campus',
@@ -612,7 +612,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'The school publishes no comparison of its grading severity against local public schools, and no third party audits it. The quintile table and the mandatory-exam policy are the implicit answer; a direct inflation comparison is unpublished.',
+        text: 'The school publishes no comparison of how hard it grades against local public schools, and no outside group checks its grades. The quintile table and the rule that AP exams are required answer the question indirectly. A direct comparison of grade inflation is not published.',
       },
     ],
     sources: [
@@ -715,7 +715,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         kind: 'gap',
-        text: 'The office does not publish a guarantee that every application is formally reviewed before submission, a codified Early Decision / Early Action strategy, a stated test-optional position, or FAFSA/CSS Profile timelines beyond the general “Paying for College” programming.',
+        text: 'The office leaves four things unpublished. It gives no promise that every application is formally reviewed before it is sent. It states no written Early Decision / Early Action strategy and no position on test-optional applying. And it gives no FAFSA/CSS Profile timelines beyond its general “Paying for College” sessions.',
       },
     ],
     sources: [
@@ -775,7 +775,7 @@ export const providenceDay: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'Two levers work at once: the student builds a verifiable spike through nation-first diploma programmes and a required internship, and the Academic Profile makes the school’s disclosure do the vouching.',
+      'Two levers work at once. The student builds a standout strength that colleges can check, through first-in-the-nation diploma programmes and a required internship. And the Academic Profile shares so much that it vouches for the student.',
     subhead:
       'One is what your child brings; the other is the standing the building lends to the file.',
     levers: [
@@ -783,22 +783,22 @@ export const providenceDay: CollegeSupportProgram = {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**Global Studies Diploma** — “the first of its kind in the country”. Begins in 9th grade, requires a world language through all four years, globally-focused coursework, cross-cultural experience, an individual portfolio, and a lengthy research paper in the capstone Global Leadership course. **375 graduates since 2007**, 23 in the Class of 2026 alone.',
+          '**Global Studies Diploma** — “the first of its kind in the country”. It begins in 9th grade and requires a world language all four years. It also requires globally focused courses, a cross-cultural experience and a personal portfolio. The final course, Global Leadership, ends in a long research paper. **375 graduates since 2007**, 23 in the Class of 2026 alone.',
           '**Diploma in Entrepreneurial Studies** — new for 2026, sitting inside IDEAS@PD (Innovation, Design, Entrepreneurship, Analytics, Sustainability) with industry-certification opportunities and business partnerships.',
-          '**Required 30-hour Senior Project internship** — a graduation requirement, so every graduate leaves with a documented experiential credential. Notably the school has *no* community-service requirement, deliberately.',
+          '**Required 30-hour Senior Project internship** — every student must complete it to graduate, so every graduate leaves with documented work experience. The school deliberately has *no* community-service requirement.',
           '**Recruiting & arts tracks** — “Facts About Athletic Recruiting” and “Studying the Arts in College” sessions run in alternating years. The Class of 2026 sent 31 student-athletes to college sport, 13 at Division I.',
         ],
         note:
-          'The Entrepreneurial Studies Diploma is announced but its course requirements, capstone and internship structure are not published — inquiries are directed to an email address. Compare Global Studies, which publishes both requirements and a 375-graduate throughput.',
+          'The school has announced an Entrepreneurial Studies Diploma. But its course requirements, final project and internship setup are not published, and questions go to an email address. Global Studies, by contrast, publishes both its requirements and its count of 375 graduates.',
       },
       {
         title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
-          '**The Academic Profile as an instrument** — an unusually disclosive document, and that is the leverage. It volunteers a full per-subject AP distribution across 29 subjects, a quintile table with mean SAT and ACT per fifth, explicit AP-load norms, and the weighting formula with unweighted grades on the transcript. It converts a no-rank policy from a liability into context.',
-          '**Integrity signalling** — the school states it complies with the **NACAC Guide to Ethical Practice** and “reports all student behavioral probations, suspensions and expulsions through time of graduation” to any college that asks, backed by a student-run Honor Council of eight students, two per grade, plus two elected faculty members and a third appointed by the Head of School. Disclosure earns reader trust, and that credibility accrues to every applicant.',
-          '**Repeat pipelines, numbered rather than implied** — the Class of 2025 scholar was Providence Day’s **18th Morehead-Cain**, a decades-deep pipeline to North Carolina’s most selective merit award. Bolded institutions across the list function as the de facto pipeline map, and four of the five federal service academies appear.',
-          '**Two-way relationships and memberships** — NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** and the College Board, accredited by SAIS and SACS, plus Global Online Academy, and **81%** of Upper School faculty hold advanced degrees. ~150 reps hosted against 50+ campuses visited is a genuine two-way cadence, and a deep UK/Europe pipeline (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Bocconi, Toronto) matches the Global Studies identity.',
+          '**The Academic Profile as an instrument** — it shares far more than most school profiles, and that openness is what the school brings. It gives the full AP score spread for each of 29 subjects. Its quintile table shows the average SAT and ACT for each fifth of the class. It states the most APs a student may take in each grade. It also gives the weighting formula, with unweighted grades on the transcript. That turns the no-rank policy from a weakness into useful context.',
+          '**Integrity signalling** — the school states it follows the **NACAC Guide to Ethical Practice**. It also “reports all student behavioral probations, suspensions and expulsions through time of graduation” to any college that asks. A student-run Honor Council backs this up. It has eight students, two per grade, plus two elected faculty members and a third named by the Head of School. Being this open earns the trust of college readers, and every applicant gains from it.',
+          '**Repeat pipelines, numbered rather than implied** — the Class of 2025 scholar was Providence Day’s **18th Morehead-Cain**. That is a record going back decades with North Carolina’s most selective merit award. The colleges in bold across the list work as a practical map of the school’s pipelines. Four of the five federal service academies appear.',
+          '**Two-way relationships and memberships** — the school belongs to NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** and the College Board, plus Global Online Academy. It is accredited by SAIS and SACS, and **81%** of Upper School faculty hold advanced degrees. The school hosted ~150 college reps and visited 50+ campuses, a real two-way flow. A deep UK/Europe pipeline (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Bocconi, Toronto) fits its Global Studies focus.',
         ],
       },
     ],
@@ -814,7 +814,7 @@ export const providenceDay: CollegeSupportProgram = {
     headline:
       'No class rank — a published quintile table gives colleges rank-like context without pitting classmates against each other, so several students can present as top candidates.',
     subhead:
-      'It is also the most analytically honest table the school prints: a 338-point SAT gap between the top and bottom fifths shows a large, academically heterogeneous class rather than a uniformly elite one.',
+      'It is also the most revealing and honest table the school prints. A 338-point SAT gap between the top and bottom fifths shows a large class with a wide range of students, not one that is elite all the way through.',
     scoreTables: [
       {
         title: 'SAT score percentiles',
@@ -825,7 +825,7 @@ export const providenceDay: CollegeSupportProgram = {
           { label: 'SAT Math', values: ['—', '570', '—', '710', '—', '638'] },
         ],
         note:
-          'The profile publishes the mean and the middle 50% only. The middle-50% endpoints ARE the 25th and 75th percentiles, so those columns are real school figures; the 10th, 50th and 90th are shown as “—” rather than modelled, because the school does not publish them.',
+          'The profile publishes only the average and the middle 50%. The two ends of the middle 50% ARE the 25th and 75th percentiles, so those columns are real school figures. The 10th, 50th and 90th are shown as “—” rather than estimated, because the school does not publish them.',
       },
       {
         title: 'ACT score percentiles',
@@ -851,7 +851,7 @@ export const providenceDay: CollegeSupportProgram = {
       { label: 'Fifth', gpa: '3.204', detail: '1116 SAT · 21 ACT' },
     ],
     gpaNote:
-      'All five quintiles are the school’s own published figures — nothing here is interpolated. Read the spread: 4.507 → 3.204 is a 1.303 weighted-GPA gap and 1454 → 1116 a 338-point SAT gap. Because AP adds a full point, a 4.017 middle fifth is not a straight-A unweighted transcript — part of it is honours and AP weight. Note the quintiles describe the Class of 2027 while the test scores above describe the Class of 2026 — different cohorts, so do not blend them.',
+      'All five quintiles are the school’s own published figures — nothing here is estimated. Read the spread: 4.507 → 3.204 is a 1.303 weighted-GPA gap and 1454 → 1116 a 338-point SAT gap. Because AP adds a full point, a 4.017 middle fifth is not a straight-A unweighted transcript — part of it is honours and AP weight. Note the quintiles describe the Class of 2027 while the test scores above describe the Class of 2026 — different classes, so do not blend them.',
     support: [
       {
         label: 'Learning Specialists at every division',
@@ -863,13 +863,13 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: 'Where it stops',
-        text: 'This is a **consultative** model, not a structured learning-differences programme — there is no published LD track, resource room, or accommodations-course structure. On-site occupational therapy exists; speech-language services are not published.',
+        text: 'This is a **consultative** model. It is not a set programme for students with learning differences. No LD track, resource room or accommodations course is published. On-site occupational therapy exists, but speech-language services are not published.',
       },
     ],
     middle: [
       {
         label: 'The list matches the distribution',
-        text: 'The 383-institution list spans Williams, MIT and Harvard down through Catawba, Brevard, Lees-McRae, Pfeiffer and Central Piedmont Community College — and crucially many accessible options are **bolded** as enrolling: App State, East Carolina, UNC–Charlotte, UNC–Greensboro, Western Carolina, High Point, Wingate, Gardner-Webb, Belmont Abbey and Central Piedmont. The fourth and fifth quintiles are genuinely being placed, not just listed.',
+        text: 'The 383-institution list runs from Williams, MIT and Harvard down through Catawba, Brevard, Lees-McRae, Pfeiffer and Central Piedmont Community College. Just as important, many less selective options are **bolded**, meaning students enrolled there. They include App State, East Carolina, UNC–Charlotte, UNC–Greensboro, Western Carolina, High Point, Wingate, Gardner-Webb, Belmont Abbey and Central Piedmont. So students in the fourth and fifth quintiles really are enrolling, not just appearing on the list.',
       },
       {
         label: 'Fit over prestige',
@@ -877,13 +877,13 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: 'When direction changes',
-        text: 'Conservatories (Berklee, RISD, Parsons, SAIC, SCAD, School of Visual Arts, UNCSA), four of the five federal service academies, and a deep international roster (Oxford, St Andrews, Edinburgh, UCL, LSE, King’s College London, Trinity Dublin, Leiden, Amsterdam, Bocconi, Toronto).',
+        text: 'Conservatories: Berklee, RISD, Parsons, SAIC, SCAD, School of Visual Arts and UNCSA. Four of the five federal service academies. A deep international list: Oxford, St Andrews, Edinburgh, UCL, LSE, King’s College London, Trinity Dublin, Leiden, Amsterdam, Bocconi and Toronto.',
       },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'No breakdown of outcomes BY quintile is published — the table gives inputs (GPA, SAT, ACT per fifth) but never says where the middle and bottom fifths actually enroll. That is the single biggest gap in an otherwise unusually disclosive profile.',
+        text: 'No breakdown of outcomes BY quintile is published. The table gives inputs (GPA, SAT, ACT per fifth) but never says where the middle and bottom fifths actually enroll. That is the single biggest gap in a profile that otherwise shares unusually much.',
       },
     ],
     sources: [
@@ -905,7 +905,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: 'AP results strong and fully disclosed',
-        text: '1,282 exams at 93% scoring 3+ and 76% at 4–5, and 94% of the 497 students who sat them earned a 3 or higher — with the complete per-subject distribution printed, weak spots included. Because the exam is mandatory, those figures rest on a non-self-selected denominator.',
+        text: '1,282 exams, with 93% scoring 3+ and 76% scoring 4–5. And 94% of the 497 students who sat them earned a 3 or higher. The full score spread for each subject is printed, weak spots included. Because the exam is required, those figures count every AP student, not just the ones who chose to test.',
       },
       {
         label: 'A deep, veteran, high-touch office',
