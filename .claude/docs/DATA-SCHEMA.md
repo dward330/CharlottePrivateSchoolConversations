@@ -1191,7 +1191,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `run-prek12` | Pre-K through grade 12, at today’s rates | 10/13 | – Q C sub |
 | `run-ms12` | Middle School through grade 12, at today’s rates | 10/13 | – Q C sub |
 | `run-912` | Grades 9–12, at today’s rates | 11/13 | – Q C sub |
-| `pct-aid` | % receiving aid | 7/13 | Q |
+| `pct-aid` | % receiving aid | 5/13 | Q |
 | `aid-awarded` | Aid awarded / year | 4/13 | Q |
 | `avg-award` | Average award | 2/13 | Q |
 

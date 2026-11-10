@@ -997,20 +997,6 @@
       ]
     },
     {
-      "t": "INSIDIA DI NAVIGAZIONE",
-      "of": "4d99b319",
-      "at": [
-        "providence-day:sections[6].boxes[1].tag"
-      ]
-    },
-    {
-      "t": "Elenchi di terze parti molto diffusi riportano cifre delle rette che non concordano né tra loro né con la scuola. Mostrano una tariffa unica «≈$20,500», una tariffa massima 2024 di «$34,430», una forbice «$20,800–$29,620» e una forbice 2024–25 «$23,040–$32,810». **Nessuna** corrisponde alle fasce pubblicate dalla scuola per il 2026–27 di $25,510–$36,325. I siti che elencano le scuole (aggregatori) conservano cifre di anni passati e sono spesso obsoleti. Considerate la pagina delle rette della scuola stessa come l'unica autorità, anche quando un motore di ricerca mostra un sito di elenchi al di sopra di essa.",
-      "of": "c6c8e053",
-      "at": [
-        "providence-day:sections[6].boxes[1].body"
-      ]
-    },
-    {
       "t": "Ciascuna corrisponde a una lacuna di questo rapporto ed è ordinata in base a quanto è probabile che incida sul totale di una famiglia.",
       "of": "520e904d",
       "at": [
@@ -2626,8 +2612,8 @@
       ]
     },
     {
-      "t": "MACS pubblica il tariffario 2026-27 e nessuno storico. Fonti secondarie riportano cifre precedenti tra loro in contrasto ($13,348 e $9,366) senza un anno attendibile. Questo rapporto quindi non mostra alcun andamento delle rette, anziché costruirne uno da numeri che non può datare.",
-      "of": "8fe781e4",
+      "t": "MACS pubblica il tariffario 2026-27 e nessuno storico delle rette, quindi questo rapporto non mostra alcun andamento delle rette.",
+      "of": "a0614930",
       "at": [
         "charlotte-catholic:framing[1].body"
       ]
@@ -3120,7 +3106,8 @@
       "of": "8acff684",
       "at": [
         "charlotte-country-day:framing[1].body",
-        "cannon:framing[1].body"
+        "cannon:framing[1].body",
+        "hickory-grove-christian:framing[1].body"
       ]
     },
     {
@@ -4347,18 +4334,11 @@
       ]
     },
     {
-      "t": "degli studenti riceve aiuti — solo cifra di terze parti",
-      "of": "e248fc59",
-      "at": [
-        "covenant-day:sections[3].stats[0].label"
-      ]
-    },
-    {
       "t": "ministero ecclesiastico — esente IRS dalla presentazione",
       "of": "fd45ab9c",
       "at": [
-        "covenant-day:sections[3].stats[1].label",
-        "carmel-christian:sections[3].stats[1].label",
+        "covenant-day:sections[3].stats[0].label",
+        "carmel-christian:sections[3].stats[0].label",
         "hickory-grove-christian:sections[2].stats[0].label"
       ]
     },
@@ -4366,15 +4346,16 @@
       "t": "totali, medie o budget degli aiuti pubblicati",
       "of": "e75ea3c1",
       "at": [
-        "covenant-day:sections[3].stats[2].label",
-        "carmel-christian:sections[3].stats[2].label"
+        "covenant-day:sections[3].stats[1].label",
+        "carmel-christian:sections[3].stats[1].label"
       ]
     },
     {
-      "t": "La quota del ~20% proviene dagli aggregatori (PrivateSchoolReview, schooltuitions.org); la scuola stessa non pubblica alcuna percentuale, alcun totale assegnato, né alcuna assegnazione media.",
-      "of": "99fcdce6",
+      "t": "La scuola non pubblica alcuna quota di studenti che ricevono aiuti, alcun totale assegnato né alcuna assegnazione media.",
+      "of": "1f3fec6c",
       "at": [
-        "covenant-day:sections[3].figureNote"
+        "covenant-day:sections[3].figureNote",
+        "carmel-christian:sections[3].figureNote"
       ]
     },
     {
@@ -4627,10 +4608,11 @@
       ]
     },
     {
-      "t": "Quale quota di famiglie riceve aiuti, e qual è l'assegnazione media? (La cifra del ~20% è di terze parti.)",
-      "of": "c63baba4",
+      "t": "Quale quota di famiglie riceve aiuti, e qual è l'assegnazione media?",
+      "of": "52613baf",
       "at": [
-        "covenant-day:sections[6].questions[0]"
+        "covenant-day:sections[6].questions[0]",
+        "carmel-christian:sections[6].questions[0]"
       ]
     },
     {
@@ -5124,20 +5106,6 @@
       ]
     },
     {
-      "t": "UNA CIFRA DI TERZE PARTI, NON DELLA SCUOLA",
-      "of": "f17ac422",
-      "at": [
-        "davidson-day:sections[5].boxes[2].tag"
-      ]
-    },
-    {
-      "t": "Un servizio commerciale che digitalizza i depositi del Form 990 riporta **$742,270** in sovvenzioni e aiuti a persone fisiche per l'esercizio con chiusura a giugno 2024. Non abbiamo potuto aprire la dichiarazione depositata per verificarlo, è indietro di due anni rispetto all'anno 2026–27 e non è un budget per gli aiuti pubblicato dalla scuola. Non va letto come tale.",
-      "of": "782fd303",
-      "at": [
-        "davidson-day:sections[5].boxes[2].body"
-      ]
-    },
-    {
       "t": "Quale quota di studenti riceve aiuti alla retta, ed è una quota dell'iscrizione totale o delle famiglie che hanno presentato domanda?",
       "of": "35a96998",
       "at": [
@@ -5351,20 +5319,6 @@
       ]
     },
     {
-      "t": "degli studenti riceve aiuto — solo cifra di terza parte, verificare",
-      "of": "cd1edd3c",
-      "at": [
-        "carmel-christian:sections[3].stats[0].label"
-      ]
-    },
-    {
-      "t": "La quota di ~20% proviene da un aggregatore di terza parte (PrivateSchoolReview); la scuola stessa non pubblica alcuna percentuale, alcun totale erogato né alcun premio medio. Considerare il 20% come non verificato.",
-      "of": "da1d6ebe",
-      "at": [
-        "carmel-christian:sections[3].figureNote"
-      ]
-    },
-    {
       "t": "Carmel Christian è un ministero della Carmel Baptist Church. In quanto organizzazione affiliata a una chiesa, **non è tenuta a presentare il Form 990**, e ProPublica non restituisce alcuna dichiarazione per la scuola stessa. La maggior parte delle altre scuole di questo sito presenta un Form 990, per cui i loro totali di aiuto possono essere verificati rispetto a una dichiarazione. Qui **non c’è alcuna dichiarazione da verificare**. La lacuna deriva da come è costituita la scuola, non da una pagina ancora da trovare.",
       "of": "7b3ca2b3",
       "at": [
@@ -5486,13 +5440,6 @@
       ]
     },
     {
-      "t": "Quale quota di famiglie riceve aiuto, e qual è il premio medio? (La cifra di ~20% è di terza parte e non verificata.)",
-      "of": "03daf682",
-      "at": [
-        "carmel-christian:sections[6].questions[0]"
-      ]
-    },
-    {
       "t": "Su quante rate mensili si sviluppa il piano FACTS, e comporta un costo?",
       "of": "603b11a2",
       "at": [
@@ -5529,17 +5476,10 @@
       ]
     },
     {
-      "t": "Rette 2025–26 · dati aggiornati al 17 ago 2026",
-      "of": "aedac2ed",
+      "t": "Rette 2026–27 · dati aggiornati al 10 nov 2026",
+      "of": "96df4afe",
       "at": [
         "hickory-grove-christian:meta"
-      ]
-    },
-    {
-      "t": "Le fasce di retta sono le cifre attuali della scuola stessa, confermate su due mirror di terze parti perché la pagina delle rette della scuola genera le sue tabelle tramite un widget di portale incorporato. Le cifre prive di data sono segnalate, non ipotizzate.",
-      "of": "8ee48fa8",
-      "at": [
-        "hickory-grove-christian:framing[1].body"
       ]
     },
     {
@@ -5571,15 +5511,15 @@
       ]
     },
     {
-      "t": "Tre fasce vanno dalla transitional kindergarten fino alla grade 12, con uno scarto di $2,250 dalla più bassa alla più alta. La pagina tuition-and-fees della scuola stessa mostra le tabelle delle tariffe in un widget FACTS/portale incorporato. Perciò queste cifre sono confermate su due mirror indipendenti di terze parti (PrivateSchoolReview e un secondo sito che elenca le scuole), anziché essere riprese carattere per carattere da un PDF della scuola. Entrambi corrispondono alla fascia $11,500–$13,750 pubblicata dalla scuola.",
-      "of": "c31952a6",
+      "t": "Tre fasce vanno dalla transitional kindergarten fino alla grade 12, con uno scarto di $2,200 dalla più bassa alla più alta. Sono le tariffe annuali 2026–27 della scuola stessa, tratte dalla sua pagina Tuition and Fees.",
+      "of": "bd336122",
       "at": [
         "hickory-grove-christian:sections[0].figureNote"
       ]
     },
     {
-      "t": "Documenti separati sulle \"student services fees\" (2025-26 e 2026-27) sono richiamati nella pagina delle rette ma vengono generati tramite il portale e non sono stati acquisiti; tali importi non sono mostrati qui.",
-      "of": "f15809eb",
+      "t": "La stessa pagina indica un supplemento di $700 per lo Spanish Immersion K–8. I servizi facoltativi vengono aggiunti al piano di pagamento della famiglia: il trasporto in autobus dal campus di Mallard Creek ($1,000 l’anno) e il doposcuola ($2,600 l’anno per TK–5, $1,300 per le classi 6–12).",
+      "of": "611e7068",
       "at": [
         "hickory-grove-christian:sections[0].figureNote2"
       ]
@@ -6132,8 +6072,8 @@
       ]
     },
     {
-      "t": "Il 26% proviene dall’Academic Profile 2025-26 della scuola stessa. Un profilo di terze parti (Private School Review) riporta il 45%. È una divergenza ampia, ma probabilmente dovuta a ciò che viene conteggiato più che a un errore. Nel profilo della scuola, la “tuition assistance” è aiuto basato sul bisogno. La “percent on financial aid” di un sito che elenca le scuole include spesso anche le borse di merito e i beneficiari della NC Opportunity Scholarship. A Gaston Day, aiuti basati sul bisogno, borse di merito e NC Opportunity Scholarship sono tre canali distinti.",
-      "of": "33a60477",
+      "t": "Il 26% proviene dall’Academic Profile 2025-26 della scuola stessa, dove la “tuition assistance” indica l’aiuto basato sul bisogno. A Gaston Day, aiuti basati sul bisogno, borse di merito e NC Opportunity Scholarship sono tre canali distinti.",
+      "of": "25124e27",
       "at": [
         "gaston-day:sections[3].figureNote"
       ]
@@ -6167,8 +6107,8 @@
       ]
     },
     {
-      "t": "La scuola riporta **510** studenti. Private School Review indica **466**, e l’indagine federale NCES (2023-24) indica **448**. Questo sito usa ovunque la cifra attuale della scuola stessa. Ma qualunque dato per studente calcolato a partire da un conteggio di iscritti di terze parti differirà da uno calcolato su quello della scuola.",
-      "of": "fe0e816e",
+      "t": "La scuola riporta **510** studenti, e l’indagine federale NCES (2023-24) indica **448**. Questo sito usa ovunque la cifra attuale della scuola stessa. Qualunque dato per studente calcolato a partire dal conteggio NCES differirà da uno calcolato su quello della scuola.",
+      "of": "ee972e0f",
       "at": [
         "gaston-day:sections[3].boxes[2].body"
       ]
@@ -6343,52 +6283,45 @@
       ]
     },
     {
-      "t": "Perché la scuola riporta il 26% di studenti con aiuti sulla retta mentre Private School Review riporta il 45% — che cosa conta ciascuna delle due cifre?",
-      "of": "6ea1bc85",
-      "at": [
-        "gaston-day:sections[6].questions[1]"
-      ]
-    },
-    {
       "t": "Quali sono i piani di pagamento, in quante rate e quanto costano?",
       "of": "152601ad",
       "at": [
-        "gaston-day:sections[6].questions[2]"
+        "gaston-day:sections[6].questions[1]"
       ]
     },
     {
       "t": "Qual è il deposito di iscrizione, ed è rimborsabile o scomputato dalla retta?",
       "of": "0f0c40bf",
       "at": [
-        "gaston-day:sections[6].questions[3]"
+        "gaston-day:sections[6].questions[2]"
       ]
     },
     {
       "t": "Che cosa coprono esattamente i costi accessori — la colonna da $2,175 dei fees dell’Upper School non è dettagliata da nessuna parte?",
       "of": "2fc296f9",
       "at": [
-        "gaston-day:sections[6].questions[4]"
+        "gaston-day:sections[6].questions[3]"
       ]
     },
     {
       "t": "Gli aiuti basati sul bisogno, le borse Kimbrell e la NC Opportunity Scholarship si cumulano o si compensano a vicenda?",
       "of": "0d6b0ae3",
       "at": [
-        "gaston-day:sections[6].questions[5]"
+        "gaston-day:sections[6].questions[4]"
       ]
     },
     {
       "t": "Qual è l’importo della Kimbrell Family Scholarship e quando vengono decise entrambe le borse Kimbrell?",
       "of": "b99c7287",
       "at": [
-        "gaston-day:sections[6].questions[6]"
+        "gaston-day:sections[6].questions[5]"
       ]
     },
     {
       "t": "Considerata la scadenza continua e l’avvertimento sull’esaurimento dei fondi ad agosto, entro quale data dovrebbe realisticamente candidarsi una famiglia?",
       "of": "6aa7c747",
       "at": [
-        "gaston-day:sections[6].questions[7]"
+        "gaston-day:sections[6].questions[6]"
       ]
     },
     {

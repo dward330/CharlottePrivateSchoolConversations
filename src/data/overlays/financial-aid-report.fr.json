@@ -997,20 +997,6 @@
       ]
     },
     {
-      "t": "PIÈGE DE NAVIGATION",
-      "of": "4d99b319",
-      "at": [
-        "providence-day:sections[6].boxes[1].tag"
-      ]
-    },
-    {
-      "t": "Des fiches de tiers largement diffusées affichent des montants de frais de scolarité qui ne concordent ni entre eux ni avec ceux de l’école. Elles indiquent un tarif unique de « ≈$20,500 », un tarif maximal 2024 de « $34,430 », une fourchette « $20,800–$29,620 » et une fourchette 2024–25 « $23,040–$32,810 ». **Aucun** ne correspond aux tranches 2026–27 publiées par l’école, de $25,510–$36,325. Les sites de fiches d’écoles (agrégateurs) conservent des chiffres d’années antérieures et sont fréquemment obsolètes. Considérez la page des frais de scolarité de l’école elle-même comme la seule autorité, même lorsqu’un moteur de recherche affiche un site de fiches au-dessus d’elle.",
-      "of": "c6c8e053",
-      "at": [
-        "providence-day:sections[6].boxes[1].body"
-      ]
-    },
-    {
       "t": "Chacune correspond à une lacune de ce rapport et elles sont classées selon l’ampleur avec laquelle elles sont susceptibles de faire varier le total pour une famille.",
       "of": "520e904d",
       "at": [
@@ -2626,8 +2612,8 @@
       ]
     },
     {
-      "t": "MACS publie la grille 2026-27 et aucun historique. Des sources secondaires donnent des chiffres antérieurs contradictoires ($13,348 et $9,366) sans année fiable. Ce rapport ne présente donc aucune évolution des frais de scolarité, plutôt que d’en bâtir une à partir de chiffres qu’il ne peut pas dater.",
-      "of": "8fe781e4",
+      "t": "MACS publie la grille 2026-27 et aucun historique des frais de scolarité ; ce rapport ne présente donc aucune évolution des frais de scolarité.",
+      "of": "a0614930",
       "at": [
         "charlotte-catholic:framing[1].body"
       ]
@@ -3120,7 +3106,8 @@
       "of": "8acff684",
       "at": [
         "charlotte-country-day:framing[1].body",
-        "cannon:framing[1].body"
+        "cannon:framing[1].body",
+        "hickory-grove-christian:framing[1].body"
       ]
     },
     {
@@ -4347,18 +4334,11 @@
       ]
     },
     {
-      "t": "des élèves bénéficient d’une aide — chiffre tiers uniquement",
-      "of": "e248fc59",
-      "at": [
-        "covenant-day:sections[3].stats[0].label"
-      ]
-    },
-    {
       "t": "ministère d’église — exempté de dépôt par l’IRS",
       "of": "fd45ab9c",
       "at": [
-        "covenant-day:sections[3].stats[1].label",
-        "carmel-christian:sections[3].stats[1].label",
+        "covenant-day:sections[3].stats[0].label",
+        "carmel-christian:sections[3].stats[0].label",
         "hickory-grove-christian:sections[2].stats[0].label"
       ]
     },
@@ -4366,15 +4346,16 @@
       "t": "totaux d’aide, moyennes ou budgets publiés",
       "of": "e75ea3c1",
       "at": [
-        "covenant-day:sections[3].stats[2].label",
-        "carmel-christian:sections[3].stats[2].label"
+        "covenant-day:sections[3].stats[1].label",
+        "carmel-christian:sections[3].stats[1].label"
       ]
     },
     {
-      "t": "La part d’environ 20% provient d’agrégateurs (PrivateSchoolReview, schooltuitions.org) ; l’école elle-même ne publie aucun pourcentage, aucun total attribué et aucune aide moyenne.",
-      "of": "99fcdce6",
+      "t": "L’école ne publie ni la part des élèves bénéficiant d’une aide, ni le total attribué, ni l’aide moyenne.",
+      "of": "1f3fec6c",
       "at": [
-        "covenant-day:sections[3].figureNote"
+        "covenant-day:sections[3].figureNote",
+        "carmel-christian:sections[3].figureNote"
       ]
     },
     {
@@ -4627,10 +4608,11 @@
       ]
     },
     {
-      "t": "Quelle part des familles bénéficie d’une aide, et quelle est l’aide moyenne ? (Le chiffre d’environ 20% est tiers.)",
-      "of": "c63baba4",
+      "t": "Quelle part des familles bénéficie d’une aide, et quelle est l’aide moyenne ?",
+      "of": "52613baf",
       "at": [
-        "covenant-day:sections[6].questions[0]"
+        "covenant-day:sections[6].questions[0]",
+        "carmel-christian:sections[6].questions[0]"
       ]
     },
     {
@@ -5124,20 +5106,6 @@
       ]
     },
     {
-      "t": "UN CHIFFRE DE TIERS, ET NON UN CHIFFRE DE L’ÉCOLE",
-      "of": "f17ac422",
-      "at": [
-        "davidson-day:sections[5].boxes[2].tag"
-      ]
-    },
-    {
-      "t": "Un service commercial qui numérise les déclarations Form 990 fait état de **$742,270** d’aides et d’assistance à des particuliers pour l’exercice clos en juin 2024. Nous n’avons pas pu ouvrir la déclaration déposée pour le vérifier, ce chiffre a deux ans de retard sur l’année 2026–27, et il ne s’agit pas d’un budget d’aide publié par l’école. Il ne doit pas être lu comme tel.",
-      "of": "782fd303",
-      "at": [
-        "davidson-day:sections[5].boxes[2].body"
-      ]
-    },
-    {
       "t": "Quelle proportion d’élèves bénéficie d’une aide aux frais de scolarité, et cette proportion se rapporte-t-elle à l’effectif total ou aux familles ayant déposé un dossier ?",
       "of": "35a96998",
       "at": [
@@ -5351,20 +5319,6 @@
       ]
     },
     {
-      "t": "d'élèves bénéficiant d'une aide — chiffre tiers uniquement, à vérifier",
-      "of": "cd1edd3c",
-      "at": [
-        "carmel-christian:sections[3].stats[0].label"
-      ]
-    },
-    {
-      "t": "La part d'environ 20% provient d'un agrégateur tiers (PrivateSchoolReview) ; l'école elle-même ne publie aucun pourcentage, aucun total accordé et aucune aide moyenne. Traiter le 20% comme non vérifié.",
-      "of": "da1d6ebe",
-      "at": [
-        "carmel-christian:sections[3].figureNote"
-      ]
-    },
-    {
       "t": "Carmel Christian est un ministère de la Carmel Baptist Church. En tant qu'organisation affiliée à une église, elle **n'est pas tenue de déposer le Form 990**, et ProPublica ne renvoie aucune déclaration pour l'école elle-même. La plupart des autres écoles de ce site déposent un Form 990, si bien que leurs totaux d'aide peuvent être confrontés à une déclaration. Ici, il n'y a **aucune déclaration à confronter**. Le manque tient à la structure de l'école, et non à une page qui resterait à trouver.",
       "of": "7b3ca2b3",
       "at": [
@@ -5486,13 +5440,6 @@
       ]
     },
     {
-      "t": "Quelle part des familles bénéficie d'une aide, et quel est le montant moyen accordé ? (Le chiffre d'environ 20% est tiers et non vérifié.)",
-      "of": "03daf682",
-      "at": [
-        "carmel-christian:sections[6].questions[0]"
-      ]
-    },
-    {
       "t": "Sur combien de mensualités s'étale le plan FACTS, et comporte-t-il des frais ?",
       "of": "603b11a2",
       "at": [
@@ -5529,17 +5476,10 @@
       ]
     },
     {
-      "t": "Frais de scolarité 2025–26 · chiffres au 17 août 2026",
-      "of": "aedac2ed",
+      "t": "Frais de scolarité 2026–27 · chiffres au 10 novembre 2026",
+      "of": "96df4afe",
       "at": [
         "hickory-grove-christian:meta"
-      ]
-    },
-    {
-      "t": "Les tranches de frais de scolarité sont les chiffres actuels de l’école elle-même, confirmés par deux miroirs tiers, car la page des frais de scolarité de l’école affiche ses tableaux à travers un widget de portail intégré. Les chiffres non datés sont signalés, non devinés.",
-      "of": "8ee48fa8",
-      "at": [
-        "hickory-grove-christian:framing[1].body"
       ]
     },
     {
@@ -5571,15 +5511,15 @@
       ]
     },
     {
-      "t": "Trois tranches vont de la transitional kindergarten à la 12e année, avec un écart de $2,250 entre la plus basse et la plus haute. La page tuition-and-fees de l’école affiche ses tableaux de frais à travers un widget FACTS/portail intégré. Ces chiffres sont donc confirmés par deux miroirs tiers indépendants (PrivateSchoolReview et un second site de fiches d’écoles), plutôt que repris caractère par caractère d’un PDF de l’école. Tous deux concordent avec la fourchette $11,500–$13,750 publiée par l’école.",
-      "of": "c31952a6",
+      "t": "Trois tranches vont de la transitional kindergarten à la 12e année, avec un écart de $2,200 entre la plus basse et la plus haute. Il s’agit des tarifs annuels 2026–27 de l’école elle-même, tirés de sa page Tuition and Fees.",
+      "of": "bd336122",
       "at": [
         "hickory-grove-christian:sections[0].figureNote"
       ]
     },
     {
-      "t": "Des documents distincts de « student services fees » (2025-26 et 2026-27) sont mentionnés sur la page des frais de scolarité, mais ils s’affichent à travers le portail et n’ont pas pu être récupérés ; ces montants ne sont pas indiqués ici.",
-      "of": "f15809eb",
+      "t": "La même page indique un supplément de $700 pour le programme Spanish Immersion K–8. Des services optionnels s’ajoutent au plan de paiement de la famille : le transport en bus depuis le campus de Mallard Creek ($1,000 par an) et la garderie après l’école ($2,600 par an pour TK–5, $1,300 pour les niveaux 6–12).",
+      "of": "611e7068",
       "at": [
         "hickory-grove-christian:sections[0].figureNote2"
       ]
@@ -6132,8 +6072,8 @@
       ]
     },
     {
-      "t": "Les 26% proviennent de l’Academic Profile 2025-26 de l’école elle-même. Un profil tiers (Private School Review) annonce 45%. L’écart est considérable, mais il tient probablement à ce qui est compté plutôt qu’à une erreur. Dans le profil de l’école, la « tuition assistance » correspond à l’aide fondée sur les besoins. Le « percent on financial aid » d’un site de fiches d’écoles englobe souvent aussi les bourses au mérite et les bénéficiaires de la NC Opportunity Scholarship. À Gaston Day, l’aide fondée sur les besoins, les bourses au mérite et la NC Opportunity Scholarship constituent trois voies distinctes.",
-      "of": "33a60477",
+      "t": "Les 26% proviennent de l’Academic Profile 2025-26 de l’école elle-même, où la « tuition assistance » désigne l’aide fondée sur les besoins. À Gaston Day, l’aide fondée sur les besoins, les bourses au mérite et la NC Opportunity Scholarship constituent trois voies distinctes.",
+      "of": "25124e27",
       "at": [
         "gaston-day:sections[3].figureNote"
       ]
@@ -6167,8 +6107,8 @@
       ]
     },
     {
-      "t": "L’école déclare **510** élèves. Private School Review en annonce **466**, et l’enquête fédérale NCES (2023-24) en annonce **448**. Ce site retient partout le chiffre actuel de l’école elle-même. Mais tout chiffre par élève calculé à partir d’un effectif tiers différera d’un chiffre calculé à partir de celui de l’école.",
-      "of": "fe0e816e",
+      "t": "L’école déclare **510** élèves, et l’enquête fédérale NCES (2023-24) en annonce **448**. Ce site retient partout le chiffre actuel de l’école elle-même. Tout chiffre par élève calculé à partir de l’effectif NCES différera d’un chiffre calculé à partir de celui de l’école.",
+      "of": "ee972e0f",
       "at": [
         "gaston-day:sections[3].boxes[2].body"
       ]
@@ -6343,52 +6283,45 @@
       ]
     },
     {
-      "t": "Pourquoi l’école annonce-t-elle 26% d’élèves sous aide aux frais de scolarité quand Private School Review en annonce 45% — que compte chacun de ces chiffres ?",
-      "of": "6ea1bc85",
-      "at": [
-        "gaston-day:sections[6].questions[1]"
-      ]
-    },
-    {
       "t": "Quels sont les plans de paiement, combien de versements comportent-ils, et quel est leur coût ?",
       "of": "152601ad",
       "at": [
-        "gaston-day:sections[6].questions[2]"
+        "gaston-day:sections[6].questions[1]"
       ]
     },
     {
       "t": "Quel est le montant de l’acompte d’inscription, et est-il remboursable ou déduit des frais de scolarité ?",
       "of": "0f0c40bf",
       "at": [
-        "gaston-day:sections[6].questions[3]"
+        "gaston-day:sections[6].questions[2]"
       ]
     },
     {
       "t": "À quoi correspondent exactement les frais annexes — la colonne de $2,175 de frais annexes de l’Upper School n’est détaillée nulle part ?",
       "of": "2fc296f9",
       "at": [
-        "gaston-day:sections[6].questions[4]"
+        "gaston-day:sections[6].questions[3]"
       ]
     },
     {
       "t": "L’aide fondée sur les besoins, les bourses Kimbrell et la NC Opportunity Scholarship se cumulent-elles, ou se compensent-elles ?",
       "of": "0d6b0ae3",
       "at": [
-        "gaston-day:sections[6].questions[5]"
+        "gaston-day:sections[6].questions[4]"
       ]
     },
     {
       "t": "Quel est le montant de la Kimbrell Family Scholarship, et à quelle date les deux bourses Kimbrell sont-elles décidées ?",
       "of": "b99c7287",
       "at": [
-        "gaston-day:sections[6].questions[6]"
+        "gaston-day:sections[6].questions[5]"
       ]
     },
     {
       "t": "Compte tenu de la date limite au fil de l’eau et de l’avertissement sur les fonds en août, à quelle date une famille devrait-elle raisonnablement postuler ?",
       "of": "6aa7c747",
       "at": [
-        "gaston-day:sections[6].questions[7]"
+        "gaston-day:sections[6].questions[6]"
       ]
     },
     {

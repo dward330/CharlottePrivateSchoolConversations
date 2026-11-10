@@ -1091,7 +1091,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$17,790',
       'carmel-christian': '$14,400',
       'davidson-day': '$25,010',
-      'hickory-grove-christian': '$11,500',
+      'hickory-grove-christian': '$11,900',
       'gaston-day': '$19,500',
       'providence-day': '$32,960',
     },
@@ -1103,7 +1103,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '(2026–27 · grades 1–5)',
       'carmel-christian': '(2026–27 · grades 1–5)',
       'davidson-day': '(2026–27 · K–4)',
-      'hickory-grove-christian': '(2025–26 · TK–5)',
+      'hickory-grove-christian': '(2026–27 · TK–5)',
       'gaston-day': '(2025–26 · K–4)',
       'providence-day': '(2026–27 · grades 1–5)',
     },
@@ -1115,7 +1115,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': { kind: 'scope', text: 'The Grades 1–5 band. JK and K are $15,490.' },
       'carmel-christian': { kind: 'scope', text: 'The Grades 1–5 band. Kindergarten is $12,500; the school has no pre-K program.' },
       'davidson-day': { kind: 'scope', text: 'The Lower (K–4) band. The Early Childhood band, from two-year-olds through Junior Kindergarten, is $22,590.' },
-      'hickory-grove-christian': { kind: 'scope', text: 'One Elementary band covers TK through grade 5 ($11,500). The school’s tuition page renders through a portal widget, so this current figure is confirmed across two third-party mirrors rather than lifted from a school PDF; the exact school year is not stated.' },
+      'hickory-grove-christian': { kind: 'scope', text: 'One Elementary band covers TK through grade 5 ($11,900), the school’s own 2026–27 yearly rate.' },
       'gaston-day': { kind: 'scope', text: 'The Kindergarten–4th all-in band (tuition plus fees, as the school’s own schedule totals it). Preschool/Pre-K is $10,890 full day or $8,775 half day.' },
       'providence-day': { kind: 'scope', text: 'The Grades 1–5 band, which also prices grade 5 — the first Middle School year at Providence Day. Transitional Kindergarten is $25,510 and Kindergarten $28,010.' },
     },
@@ -1136,7 +1136,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$20,490',
       'carmel-christian': '$17,100',
       'davidson-day': '$26,320',
-      'hickory-grove-christian': '$12,500',
+      'hickory-grove-christian': '$12,900',
       'gaston-day': '$21,425',
       'providence-day': '$36,325',
     },
@@ -1148,13 +1148,13 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '(2026–27 · grades 6–8)',
       'carmel-christian': '(2026–27 · grades 6–8)',
       'davidson-day': '(2026–27 · grades 5–8)',
-      'hickory-grove-christian': '(2025–26 · grades 6–8)',
+      'hickory-grove-christian': '(2026–27 · grades 6–8)',
       'gaston-day': '(2025–26 · grades 5–8)',
       'providence-day': '(2026–27 · grades 6–12)',
     },
     quals: {
       'charlotte-latin': { kind: 'scope', text: 'The Grades 6–8 band. Latin’s Middle School begins in grade 5, which is priced in the Grades 1–5 band at $32,600.' },
-      'hickory-grove-christian': { kind: 'scope', text: 'The Grades 6–8 (Middle) band ($12,500). The school’s tuition page renders through a portal widget, so this current figure is confirmed across two third-party mirrors rather than lifted from a school PDF; the exact school year is not stated.' },
+      'hickory-grove-christian': { kind: 'scope', text: 'The Grades 6–8 (Middle) band ($12,900), the school’s own 2026–27 yearly rate.' },
       'gaston-day': { kind: 'scope', text: 'The 5th–8th all-in band (tuition plus fees, as the school’s own schedule totals it).' },
       'providence-day': { kind: 'scope', text: 'Providence Day’s top band spans Grades 6–12, so grade 8 is priced at the same rate as the Upper School. Its Middle School begins in grade 5, which is priced in the Grades 1–5 band at $32,960.' },
     },
@@ -1175,7 +1175,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$22,790', // Grades 9–12, 2026–27 (website table; the 2025-26 terms PDF shows $21,590)
       'carmel-christian': '$18,750', // Grades 9–12, 2026-27 (+$550 tech 9th, +$200 senior fee)
       'davidson-day': '$26,910', // Upper School 9–12, 2026–27
-      'hickory-grove-christian': '$13,750', // Grades 9–12; third-party-confirmed current band (portal-rendered page)
+      'hickory-grove-christian': '$14,100', // Grades 9–12; the school's own 2026–27 Tuition and Fees page (re-checked 2026-11-10)
       'gaston-day': '$22,390', // Grades 9-12 all-in, 2025-26: tuition $20,215 + fees $2,175, as the school's own schedule totals it
       'providence-day': '$36,325', // Grades 6–12, 2026–27
     },
@@ -1188,7 +1188,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '(2026–27 · grades 9–12)',
       'carmel-christian': '(2026–27 · grades 9–12)',
       'davidson-day': '(2026–27 · grades 9–12)',
-      'hickory-grove-christian': '(2025–26 · grades 9–12)',
+      'hickory-grove-christian': '(2026–27 · grades 9–12)',
       'gaston-day': '(2025–26 · grades 9–12)',
       'providence-day': '(2026–27 · grades 6–12)',
     },
@@ -1204,7 +1204,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'The Grades 9–12 band ($13,750). The school’s tuition page renders through a portal widget, so this current figure is confirmed across two third-party mirrors rather than lifted from a school PDF; the exact school year is not stated.',
+        text: 'The Grades 9–12 band ($14,100), the school’s own 2026–27 yearly rate.',
       },
     },
   },
@@ -1224,7 +1224,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$272,560',
       'carmel-christian': '$210,800',
       'davidson-day': '$360,560',
-      'hickory-grove-christian': '$173,000',
+      'hickory-grove-christian': '$178,400',
       'gaston-day': '$283,650',
       'providence-day': '$472,595',
     },
@@ -1236,7 +1236,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '(2026–27 rates · JK–12, 14 years)',
       'carmel-christian': '(2026–27 rates · K–12, 13 years)',
       'davidson-day': '(2026–27 rates · JK–12, 14 years)',
-      'hickory-grove-christian': '(2025–26 rates · TK–12, 14 years)',
+      'hickory-grove-christian': '(2026–27 rates · TK–12, 14 years)',
       'gaston-day': '(2025–26 rates · PK–12, 14 years)',
       'providence-day': '(2026–27 rates · TK–12, 14 years)',
     },
@@ -1248,7 +1248,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': { kind: 'scope', text: 'Two years at the JK & K band, five at Grades 1–5, three at Grades 6–8 and four at Grades 9–12, all at 2026–27 rates.' },
       'carmel-christian': { kind: 'scope', text: 'Thirteen years, not fourteen: Carmel Christian has no pre-K program, so this run starts at Kindergarten — one year at $12,500, five at Grades 1–5, three at Grades 6–8 and four at Grades 9–12, all at 2026–27 rates.' },
       'davidson-day': { kind: 'scope', text: 'One year at the Early Childhood band ($22,590), which is the school’s single published rate for two-year-olds through Junior Kindergarten, then five years at Lower (K–4), four at Middle and four at Upper, all at 2026–27 rates. The school’s Financial Aid report gives the K–12 run alone as $337,970.' },
-      'hickory-grove-christian': { kind: 'scope', text: 'Seven years at the TK–5 Elementary band, three at Grades 6–8 and four at Grades 9–12, at the current published rates. The school’s tuition page renders through a portal widget, so the figures are confirmed across two third-party mirrors rather than lifted from a school PDF; the exact school year is not stated.' },
+      'hickory-grove-christian': { kind: 'scope', text: 'Seven years at the TK–5 Elementary band, three at Grades 6–8 and four at Grades 9–12, at the school’s own 2026–27 rates.' },
       'gaston-day': { kind: 'scope', text: 'One year at the full-day Preschool/Pre-K rate ($10,890; the half-day rate is $8,775), five at Kindergarten–4th, four at 5th–8th and four at 9th–12th, using the school’s all-in bands (tuition plus fees) for 2025–26.' },
       'providence-day': { kind: 'scope', text: 'One year at Transitional Kindergarten, one at Kindergarten, five at Grades 1–5 and seven at Grades 6–12, all at 2026–27 rates. The same figure the school’s Financial Aid report gives as its full run.' },
     },
@@ -1269,7 +1269,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$152,630',
       'carmel-christian': '$126,300',
       'davidson-day': '$212,920',
-      'hickory-grove-christian': '$92,500',
+      'hickory-grove-christian': '$95,100',
       'gaston-day': '$175,260',
       'providence-day': '$287,235',
     },
@@ -1281,13 +1281,13 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '(2026–27 rates · grades 6–12)',
       'carmel-christian': '(2026–27 rates · grades 6–12)',
       'davidson-day': '(2026–27 rates · grades 5–12)',
-      'hickory-grove-christian': '(2025–26 rates · grades 6–12)',
+      'hickory-grove-christian': '(2026–27 rates · grades 6–12)',
       'gaston-day': '(2025–26 rates · grades 5–12)',
       'providence-day': '(2026–27 rates · grades 5–12)',
     },
     quals: {
       'charlotte-latin': { kind: 'scope', text: 'Eight years: grade 5 at the Grades 1–5 band ($32,600), three at Grades 6–8 and four at Grades 9–12, all at 2026–27 rates.' },
-      'hickory-grove-christian': { kind: 'scope', text: 'Seven years: three at Grades 6–8 and four at Grades 9–12, at the current published rates. The school’s tuition page renders through a portal widget, so the figures are confirmed across two third-party mirrors rather than lifted from a school PDF; the exact school year is not stated.' },
+      'hickory-grove-christian': { kind: 'scope', text: 'Seven years: three at Grades 6–8 and four at Grades 9–12, at the school’s own 2026–27 rates.' },
       'gaston-day': { kind: 'scope', text: 'Eight years: four at 5th–8th and four at 9th–12th, using the school’s all-in bands (tuition plus fees) for 2025–26.' },
       'providence-day': { kind: 'scope', text: 'Eight years: grade 5 at the Grades 1–5 band ($32,960) and seven at the Grades 6–12 band, all at 2026–27 rates.' },
     },
@@ -1308,7 +1308,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$91,160',
       'carmel-christian': '$75,000',
       'davidson-day': '$107,640',
-      'hickory-grove-christian': '$55,000',
+      'hickory-grove-christian': '$56,400',
       'gaston-day': '$89,560',
       'providence-day': '$145,300',
     },
@@ -1321,13 +1321,13 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '(2026–27 rates · grades 9–12)',
       'carmel-christian': '(2026–27 rates · grades 9–12)',
       'davidson-day': '(2026–27 rates · grades 9–12)',
-      'hickory-grove-christian': '(2025–26 rates · grades 9–12)',
+      'hickory-grove-christian': '(2026–27 rates · grades 9–12)',
       'gaston-day': '(2025–26 rates · grades 9–12)',
       'providence-day': '(2026–27 rates · grades 9–12)',
     },
     quals: {
       'charlotte-catholic': { kind: 'scope', text: 'Four years at the High International rate ($23,562), the figure the Upper School row shows. A community (non-parishioner) family would pay $86,248 and a participating Catholic family $60,164 over the same four years.' },
-      'hickory-grove-christian': { kind: 'scope', text: 'Four years at the Grades 9–12 band ($13,750). The school’s tuition page renders through a portal widget, so this current figure is confirmed across two third-party mirrors rather than lifted from a school PDF; the exact school year is not stated.' },
+      'hickory-grove-christian': { kind: 'scope', text: 'Four years at the Grades 9–12 band ($14,100), the school’s own 2026–27 rate.' },
       'gaston-day': { kind: 'scope', text: 'Four years at the 9th–12th all-in band (tuition plus fees, as the school’s own schedule totals it) for 2025–26.' },
       'providence-day': { kind: 'scope', text: 'Four years at the Grades 6–12 band ($36,325), the same figure the school’s Financial Aid report gives for a 9–12 run.' },
     },
@@ -1336,18 +1336,18 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'financial-aid-tuition',
     key: 'pct-aid',
     label: '% receiving aid',
-    note: 'Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian, Davidson Day & Hickory Grove Christian do not publish this.',
+    note: 'Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian, Covenant Day, Carmel Christian, Davidson Day & Hickory Grove Christian do not publish this.',
     values: {
       cannon: '24%', // 24% of students, 2025–26 · restated, undated, in the 2026–27 profile
       'charlotte-christian': null, // share receiving aid not published
       'charlotte-catholic': null, // MACS publishes aid diocese-wide only, never per school. No Form 990 exists either — EIN 56-1779865 is IRS-exempt as a religious organization. Permanent
       'charlotte-country-day': '~20%', // 20% of students receiving aid ($9.4M) — 2026–27 School Profile, undated within it
       'charlotte-latin': '14%', // 14% of students (strategic plan)
-      'covenant-day': '~20%', // third-party only (PrivateSchoolReview, schooltuitions.org); school publishes no share
-      'carmel-christian': '20%', // third-party (PrivateSchoolReview), not school-confirmed
+      'covenant-day': null, // school publishes no share; a third-party ~20% was removed 2026-11-10 (official sources only)
+      'carmel-christian': null, // school publishes no share; a third-party ~20% was removed 2026-11-10 (official sources only)
       'davidson-day': null, // share on aid not published
       'hickory-grove-christian': null, // church ministry (990-exempt) — no aid share published or derivable
-      'gaston-day': '26%', // the school's own 2025-26 Academic Profile; PSR reports 45%, likely counting merit + Opportunity Scholarship too
+      'gaston-day': '26%', // the school's own 2025-26 Academic Profile (need-based tuition assistance)
       'providence-day': '~21%', // ~21% of families (undated)
     },
     quals: {
@@ -1362,10 +1362,6 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': {
         kind: 'scope',
         text: '14% of students, from the school’s strategic plan.',
-      },
-      'covenant-day': {
-        kind: 'scope',
-        text: 'Approximately 20% of students, reported only by third-party aggregators — the school itself publishes no share, and as a church ministry it files no Form 990 to check it against. Verify with the school.',
       },
       'providence-day': {
         kind: 'scope',
