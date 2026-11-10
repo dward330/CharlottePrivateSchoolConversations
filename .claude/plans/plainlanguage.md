@@ -1,11 +1,11 @@
 ---
 name: plainlanguage
 title: Plain-language standard in CLAUDE.md + a PostToolUse hook that enforces its mechanical floor
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-09
 branch: feat/plainlanguage
-prs: []
+prs: [466]
 ---
 
 # Plain-language standard + enforcing hook
