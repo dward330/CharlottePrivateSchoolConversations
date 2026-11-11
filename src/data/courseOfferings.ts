@@ -5153,7 +5153,7 @@ const COVENANT_DAY: CourseOfferings = {
       title: 'High School Courses',
       grades: 'GRADES 9 – 12',
       teaser:
-        '90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department no other school here runs.',
+        '90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department, which is rare.',
       source:
         'Covenant Day High School academics page (department tiles), reconciled against the 2026-2027 High School Profile course matrix',
       sourceUrl: 'https://www.covenantday.org/academics/high-school',
@@ -8529,7 +8529,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
       source: 'tescharlotte.org — Lower School curriculum and enrichments; 2026-27 School Profile',
       sourceUrl: 'https://www.tescharlotte.org/academics/lower-school-curriculum.cfm',
       notPublished:
-        'Trinity publishes Lower School work as named curricula and weekly enrichment subjects rather than as named, individually-described courses. The rows below are those subjects and curricula as the school states them. No Lower School course catalog exists — the only PDF published site-wide is a philanthropy guide.',
+        'Trinity publishes Lower School work as named curricula and weekly enrichment subjects rather than as named, individually-described courses. The rows below are those subjects and curricula as the school states them. Trinity publishes no Lower School course catalog.',
       departments: [
         {
           name: 'Core Curriculum',
