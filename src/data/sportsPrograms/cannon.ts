@@ -220,7 +220,7 @@ export const cannon: SportsProgram = {
     headline:
       'Twenty-three documented college commitments across 2024–26, twelve of them Division I and four Power 4 — still a floor, because Cannon publishes no consolidated signing list.',
     subhead:
-      'Lacrosse leads the way: the three-time state champion Class of 2024 sent seven players on to college programs, five of them Division I, including North Carolina, Brown and St. John’s. Basketball follows with a Miami signee and East Carolina and Elon commits, and five current seniors already hold public Division I commitments — Princeton, Coastal Carolina, Ohio, Furman and Villanova.',
+      'Lacrosse leads the way. The three-time state champion Class of 2024 sent seven players on to college programs. Five of them went to Division I programs, including North Carolina, Brown and St. John’s. Basketball follows with a Miami signee and East Carolina and Elon commits. Five current seniors already hold public Division I commitments: Princeton, Coastal Carolina, Ohio, Furman and Villanova.',
     funnel: [
       {
         label: 'Committed to college athletics',
@@ -240,7 +240,7 @@ export const cannon: SportsProgram = {
       },
     ],
     funnelNote:
-      'Treat every figure on this card as a floor. Cannon publishes no "alumni at the next level" roster, so these names come from college rosters and recruiting services rather than from the school. Collegiate athlete is the standard here, not scholarship athlete: Hayes Galloway joined North Carolina as an early enrollee and later Clemson as a preferred walk-on, and Division III programs award no athletic scholarships.',
+      'Treat every figure on this card as a floor. Cannon publishes no "alumni at the next level" roster, so these names come from college rosters and recruiting services rather than from the school. This card counts collegiate athletes, with or without a scholarship. Hayes Galloway began classes at North Carolina a semester early and later joined Clemson as a preferred walk-on (promised a roster spot, without an athletic scholarship). Division III programs award no athletic scholarships.',
     sportBars: [
       { sport: 'Boys Lacrosse', count: 8, width: 1, p4Width: 0.13 },
       { sport: 'Boys Basketball', count: 5, width: 0.63, p4Width: 0.13 },
@@ -250,9 +250,9 @@ export const cannon: SportsProgram = {
       { sport: 'Swimming', count: 1, width: 0.13, p4Width: 0.13 },
     ],
     realityCheck:
-      'Lacrosse, not basketball, is Cannon’s deepest pipeline: eight of the twenty-three commitments and five of the twelve Division I places come from one sport, most of them from a single three-peat championship class. The four Power 4 commits are a swimmer to Notre Dame, an offensive lineman and a lacrosse attackman to North Carolina, and one basketball player to Miami — while the flagship basketball program’s other placements in this window are East Carolina, two Division III colleges and a junior college. Title-winning programs and recruiting pipelines are not the same thing.',
+      'Lacrosse, not basketball, is Cannon’s deepest pipeline. Eight of the twenty-three commitments and five of the twelve Division I places come from one sport. Most of them come from a single class that won three straight titles. The four Power 4 commits are a swimmer to Notre Dame, an offensive lineman and a lacrosse attackman to North Carolina, and one basketball player to Miami. The flagship basketball program’s other placements in this window are East Carolina, two Division III colleges and a junior college. Title-winning programs and recruiting pipelines are not the same thing.',
     rankedRecruits:
-      'Cannon’s strongest recruiting signal is its underclassmen. JaKaila Gaskin (’28, 6\'3" center) is ranked No. 30 nationally by Prep Girls Hoops and No. 3 in NC for her class, a four-star with a USA Basketball profile and offers from Ohio State, Tennessee, Alabama, Auburn, Florida and Louisville. Brooke Busby (’27) has committed to Princeton. Earlier: Jaden Bradley was a five-star, No. 18 nationally, and Reigan Richardson ’21 was a McDonald’s All-American.',
+      'Cannon’s strongest recruiting signal is its underclassmen. JaKaila Gaskin (’28, 6\'3" center) is ranked No. 30 nationally by Prep Girls Hoops and No. 3 in NC for her class. Gaskin is a four-star recruit with a USA Basketball profile and offers from Ohio State, Tennessee, Alabama, Auburn, Florida and Louisville. Brooke Busby (’27) has committed to Princeton. Earlier, Jaden Bradley was a five-star recruit, No. 18 nationally, and Reigan Richardson ’21 was a McDonald’s All-American.',
     roster: [
       // Class of 2026
       { cls: "'26", name: 'Michael Trojan', sport: 'Football', college: 'Hampden-Sydney', conf: 'ODAC', level: 'D3' },
@@ -305,7 +305,7 @@ export const cannon: SportsProgram = {
       { cls: "'27", name: 'Hudson Higbea', sport: 'Boys Lacrosse', college: 'Brown', conf: 'Ivy', level: 'D1' },
     ],
     rosterNote:
-      'The Class of 2027 rows are public verbal commitments and are listed because they are already announced; they are not counted in the funnel, the sport bars or on the Compare page until those athletes sign. Evan Ingram’s junior college is listed at the D3 tier for want of an NJCAA level in this table’s scale. Three athletes have since moved — Austin Swartz from Miami to Creighton, Hayes Galloway from North Carolina to Clemson as a preferred walk-on, and Jake Baker from East Carolina to Western Carolina — and the roster shows the college each committed to out of Cannon.',
+      'The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or on the Compare page until those athletes sign. Evan Ingram’s junior college is listed at the D3 level, because this table has no NJCAA level. Three athletes have since moved: Austin Swartz from Miami to Creighton, Hayes Galloway from North Carolina to Clemson and Jake Baker from East Carolina to Western Carolina. Galloway joined Clemson as a preferred walk-on. The roster shows the college each one committed to out of Cannon.',
     sources: [
       {
         label: 'Charlotte-area signing day roundup',
@@ -461,7 +461,7 @@ export const cannon: SportsProgram = {
           { value: '95–1', label: 'at Central Cabarrus, 2021–24' },
         ],
         detail:
-          'Twenty seasons as an NCAA head coach at Catawba — six SAC regular-season titles, six conference tournament titles and nine NCAA regional appearances — then back-to-back NCHSAA 3A state championships at Central Cabarrus with a 65-game winning streak. Very few high schools at any level hire a coach with a two-decade college head-coaching record. His 500th win came in January 2026.',
+          'He spent twenty seasons as an NCAA head coach at Catawba, with six SAC regular-season titles, six conference tournament titles and nine NCAA regional appearances. Then he won back-to-back NCHSAA 3A state championships at Central Cabarrus, with a 65-game winning streak. Very few high schools at any level hire a coach with a two-decade college head-coaching record. His 500th win came in January 2026.',
       },
       {
         kicker: 'The continuity anchor · Girls Basketball, 11 seasons',
@@ -485,7 +485,7 @@ export const cannon: SportsProgram = {
       { name: 'Jamaal Birch', role: 'Football Program Director', width: 0.08, since: 'since 2025' },
     ],
     worthKnowing:
-      'the football staff includes Haruki Nakamura as safeties coach — a former NFL safety who played for the Baltimore Ravens and Carolina Panthers. Head coach Jamaal Birch arrived in 2025 from Providence Day, First Baptist School of Charleston and Oceanside Collegiate, where he was part of back-to-back state championships and coached six wide receivers to Division I scholarships.',
+      'the football staff includes Haruki Nakamura as safeties coach. Nakamura is a former NFL safety who played for the Baltimore Ravens and Carolina Panthers. Head coach Jamaal Birch arrived in 2025 from Providence Day, First Baptist School of Charleston and Oceanside Collegiate, where he was part of back-to-back state championships. Birch also coached six wide receivers to Division I scholarships there.',
     sources: [
       { label: 'Cannon Athletics leadership', url: ATHLETICS },
       {
@@ -569,7 +569,7 @@ export const cannon: SportsProgram = {
       },
     ],
     careNote:
-      'Cannon is a clinical education site for UNC Charlotte’s Master’s in Athletic Training. Note the model worth probing on a tour: Cannon outsources its athletic trainers and team physicians to Novant. Seating capacities are not published for any Cannon venue.',
+      'Cannon is a clinical education site for UNC Charlotte’s Master’s in Athletic Training. Note the model worth asking about on a tour: Cannon outsources its athletic trainers and team doctors to Novant. Seating capacities are not published for any Cannon venue.',
     sources: [
       { label: 'Cannon — Athletic facilities', url: 'https://athletics.cannonschool.org/facilities' },
       { label: 'Cannon — Athletic training', url: 'https://athletics.cannonschool.org/training/athletic-training' },

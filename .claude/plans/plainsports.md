@@ -565,9 +565,10 @@ only after Batch 5.
 | 1 (tooling) | in the Batch 1 commit | — | — | — |
 | 1 | `72d80b8e` | [review-batch1.md](plainsports-data/review-batch1.md) | 3 (all fixed) | ruling: no comparisons with other schools (applied) |
 | 1 (ruling) | `c464a60f`, `785aeb6a`, `656a2a62` | [review-batch1-ruling.md](plainsports-data/review-batch1-ruling.md) | — | approved 2026-11-11, no further rulings |
-| 2 (fixes) | `bca18eee` | [review-batch2-fixes.md](plainsports-data/review-batch2-fixes.md) | — | awaiting review |
-| 2 | `plainsports: batch 2 English` (SHA in the commit log) | [review-batch2.md](plainsports-data/review-batch2.md) | 2 (all fixed) | awaiting review |
-| 3 | | | | |
+| 2 (fixes) | `bca18eee` | [review-batch2-fixes.md](plainsports-data/review-batch2-fixes.md) | — | approved 2026-11-11, no rulings |
+| 2 | `6ed32ae6` | [review-batch2.md](plainsports-data/review-batch2.md) | 2 (all fixed) | approved 2026-11-11, no rulings |
+| 3 (fixes) | `98153ade` | [review-batch3-fixes.md](plainsports-data/review-batch3-fixes.md) | — | awaiting review |
+| 3 | `plainsports: batch 3 English` (SHA in the commit log) | [review-batch3.md](plainsports-data/review-batch3.md) | 5 (all fixed) | awaiting review |
 | 4 (fixes) | | | | |
 | 4 | | | | |
 | 5 | | | | |
@@ -581,9 +582,9 @@ text here exactly.*
 |---|---|---|
 | T1 | The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign. | 1 (PD, Latin) |
 | T2 | rosterNote form: "This site added the level labels (P4 / D1 / D2 / D3) and conferences from each college’s NCAA status. These labels are not on the school’s list." (PD's parenthesis and second sentence are PD's own extras; the core is "This site added the level labels and conferences from each college’s NCAA status.") · subhead form: "This site added the division and conference labels from each college’s NCAA status." | 1 (PD) |
-| T3 | | |
+| T3 | Evan Ingram’s junior college is listed at the D3 level, because this table has no NJCAA level. (Pattern: "<X>’s junior college is listed at the D3 level, because this table has no NJCAA level." Gaston: "…no USCAA level." Covenant's plural form follows the same shape.) | 3 (Cannon) |
 | T4 | Three athletes have since moved: Jadyn Davis from Michigan to East Tennessee State, Trajan Thompson from Denver to West Florida and Chase Jackson from Gardner-Webb to Claflin. The roster shows the college each one committed to out of Providence Day. (Pattern: "Three athletes have since moved: A from X to Y, B from … and C from …. The roster shows the college each one committed to out of <School>.") | 1 (PD) |
-| T6 | | |
+| T6 | This card counts collegiate athletes, with or without a scholarship. (Cannon. DD keeps its own "Collegiate athlete is the school’s term" form, per the Near-repeats row. The walk-on sentence keeps its gloss: "a preferred walk-on (promised a roster spot, without an athletic scholarship)".) | 3 (Cannon) |
 
 ### Unit notes (things the drafter must not get wrong)
 
@@ -923,7 +924,8 @@ rulings placeholder unfilled, read as "approved, no rulings"); precedent for Bat
 - Physician / partnership may become doctor / partner to reach grade 10; "concussion
   protocol" stays.
 
-**Batch 2 choices (Christian + Catholic)** — awaiting the user's review; precedent once approved:
+**Batch 2 choices (Christian + Catholic)** — approved by the user 2026-11-11 (resume command with the
+rulings placeholder unfilled, read as "approved, no rulings"); precedent for Batches 3–5:
 - A comparison with other schools is rewritten as a hedged statement about the school ("the
   independent-school association many private schools join"; "unusually high") or deleted
   when even a hedge would overreach (Catholic's care-model subhead: other schools also use
@@ -936,6 +938,16 @@ rulings placeholder unfilled, read as "approved, no rulings"); precedent for Bat
 - A sentence-start word that is not in `NAME_STOP` stays ("Notably,").
 - "physician" → "doctor", "fixture" → "game", "consolidated" → "combined", "time base" →
   "span of years", "ledger" → "list" (one unit each).
+
+**Batch 3 choices (CCD + Cannon)** — awaiting the user's review; precedent once approved:
+- A care-model comparison becomes what the school's own `care` rows say: CCD "The OrthoCarolina partnership, which supplies the team doctor, is the thing to ask about on a tour"; Cannon "Cannon outsources its athletic trainers and team doctors to Novant".
+- A peer-group ranking with no point beyond the ranking is deleted (CCD's Ivy "matched by no other school", Cannon's "Unlike its CISAA peers"); a size claim takes a hedge with outside support (CCD subhead "an unusually large staff for a high school").
+- "early enrollee" → "began classes at … a semester early": the register's "enrolled … a semester early" enters ENROLLED, which does not match "enrollee" (reviewer finding).
+- A split keeps the scope of the sentence it came from ("For most families, the pipeline does not run through football and basketball"; reviewer finding).
+- "turned over" stays when one of the jobs is still unfilled; "changed head coaches" would claim a new coach in each (reviewer finding).
+- A list after "including … from the class of 2026" goes in a parenthesis when commas would let it read as the whole set's destination (reviewer finding).
+- "Power 4 engine" → "the biggest source of Power 4 commits"; "unambiguously" → "clearly"; "churn" → "turnover"; "multi-decade tenures" → "coaches who stay for decades".
+- A T4 site whose list runs past 30 words moves a per-athlete detail into its own sentence after the list ("Galloway joined Clemson as a preferred walk-on."), keeping the T4 pattern.
 
 *Rulings from later batches are added here by `/implement`.* If a resume command arrives with
 the `<, with these rulings: …>` placeholder unfilled, read it as "approved, no rulings", as
@@ -1454,6 +1466,7 @@ No skill or slash command changes, so `.claude/SKILLS.md` is not touched. No `CL
 |---|--:|---|
 | *(Batch 1: none — every rewritten PD and Latin unit is at grade ≤10)* | | |
 | *(Batch 2: none — every rewritten Christian and Catholic unit is at grade ≤10)* | | |
+| *(Batch 3: none — every rewritten CCD and Cannon unit is at grade ≤10)* | | |
 
 ## Implementation notes
 
@@ -1606,7 +1619,61 @@ Christian and Catholic at 1280px. The chrome labels read on ("Worth knowing: the
 not publish…"). There is no `*`, no headline changed, no overflow at 390px, and the Cup card
 is untouched.
 
+### Batch 3 — Charlotte Country Day + Cannon
+
+**Resume.** The command arrived with the rulings placeholder unfilled, read as "approved, no
+rulings". Batch 2's choices became precedent. `origin/main` had not moved.
+
+**Step 2a, fixes commit `98153ade`.** Under the Batch 1 ruling it removes five comparisons with
+other schools: CCD `facilities.subhead` (off-worklist; rewritten "an unusually large staff for a
+high school"), CCD `pipeline.funnelNote` (Ivy "matched by no other school", deleted), CCD
+`facilities.careNote` and Cannon `facilities.careNote` (the T9 care-model lists, rewritten from
+each school's own `care` rows), and Cannon `pipeline.funnelNote` ("Unlike its CISAA peers",
+deleted). Guards (h) ONLY and (p) fire there by design. The kept own-result rankings (CCD
+"more than any other school in the division", swimming records) are unchanged. Evidence in
+`review-batch3-fixes.md`.
+
+**Sweep.** Every hit is in the census or its known false positives. After the rewrite, the only
+hits in this batch are CCD `funnelNote` "shown here" (site mechanics) and the two kept
+swimming-record rankings.
+
+**Step 2b.** The regenerated worklist has CCD **8** and Cannon **7** (Context: 9 and 8). The fixes
+commit took both `facilities.careNote` units under the hook threshold. They are in
+`worklist-extra-batch3.json` with CCD `pipeline.rosterNote` (T2) and CCD `facilities.subhead`
+(for the record; no wording change after the fixes commit). 18 units changed in the wording pass.
+
+**Guards.** `--check` exits 0, every row `hook: pass`, no row above grade 10. Draft adjustments
+made against the guards before the review: "The two figures" → "Those figures" ((n) "two");
+"not only scholarship athletes" (ONLY) → "with or without a scholarship"; "that one sport"
+(ONLY) → "one sport"; the Cannon T4 sentence ran 31 words, so Galloway's walk-on became its own
+sentence.
+
+**Templates.** T1 identical at PD, Latin, Christian, Catholic and Cannon (Cannon's own tail). T2's
+core identical at Christian and CCD (PD's carries its parenthesis). T3 and T6 set here. T4
+identical in pattern at PD and Cannon. T5 and T8 byte-identical. The CCD swimming-records clause
+is identical at its two sites.
+
+**Ledger agreement.** Cannon "eight of the twenty-three … five of the twelve Division I … four
+Power 4" and CCD "five of the nine Power 4 … count of 48" match the funnels (23/12/4, 48/28/9).
+
+**Independent review:** 5 findings, all fixed (details in `review-batch3.md`).
+
+**Checks.** `npx tsc -b` clean; `npx vite build` succeeds; every Step 6 check and `test:plain`
+exit 0. `check:live`: 64 stale stamps per locale, all in `sports` (45 from Batches 1–2 plus 19
+here: 18 wording rows and CCD `facilities.subhead` from the fixes commit). No schema drift.
+
+**Browser** (headed Chrome, `vite preview`): all 19 changed units render on CCD and Cannon at
+1280px; "Worth knowing:" reads on into each opener (Cannon lowercase, CCD "Four Country Day…");
+no `*`; no headline or Cup field touched; no overflow at 390px.
+
 ### Candidates noticed, not acted on
+
+- **ENROLLED does not match "enrollee"** (`scripts/plain_review.mjs`), so the register's "early
+  enrollee" → "enrolled … a semester early" fails (h). Batch 3 used "began classes … a semester
+  early" instead. Adding `enrollees?` to the class would fix it; not done (no tooling change
+  outside Batch 1).
+- **CCD `facilities.subhead`**: two of the five trainers work at the Middle School, so "for a
+  school" would be slightly more exact than "for a high school" (reviewer nit, left).
 
 - **Off-worklist cross-school claims:** Gaston `facilities.careNote` "Every peer school on this
   roster publishes a venue list" (Carmel, DD, HG, Prep and Trinity have no Facilities card);

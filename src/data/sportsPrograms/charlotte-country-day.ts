@@ -79,7 +79,7 @@ export const charlotteCountryDay: SportsProgram = {
       },
     ],
     footnote:
-      'Middle School splits several sports into Green and White squads. The published "72 teams / 26 sports" figure counts boys’ and girls’ programs separately; enumerating the team directory yields roughly 65 — a counting convention difference, and both figures are the school’s own. Country Day runs two campuses: Cannon (Upper/Lower School and main athletics) and Bissell (Middle School).',
+      'Middle School splits several sports into Green and White squads. The published "72 teams / 26 sports" figure counts boys’ and girls’ programs separately. A count of the team directory gives roughly 65. Those figures count teams in different ways, and both are the school’s own. Country Day runs two campuses: Cannon (Upper/Lower School and main athletics) and Bissell (Middle School).',
     sources: [
       { label: 'charlottecountryday.org — Athletics', url: ATHLETICS },
       {
@@ -242,7 +242,7 @@ export const charlotteCountryDay: SportsProgram = {
       },
     ],
     funnelNote:
-      'Swimming supplies five of the nine Power 4 commits — including all three from the class of 2026, to Stanford, Florida and Purdue — while track and cross country supply the most Division I commits, nine. Five commitments went to Ivy League programs, consistent with Country Day’s academic profile. The school’s count of 48 includes one signee in college cheer, which sits outside the NCAA divisions shown here.',
+      'Swimming supplies five of the nine Power 4 commits, including all three from the class of 2026 (to Stanford, Florida and Purdue). Track and cross country supply the most Division I commits: nine. Five commitments went to Ivy League programs, consistent with Country Day’s academic profile. The school’s count of 48 includes one signee in college cheer, which sits outside the NCAA divisions shown here.',
     sportBars: [
       { sport: 'Track / XC', count: 9, width: 1, p4Width: 0.22 },
       { sport: 'Swimming', count: 7, width: 0.78, p4Width: 0.56 },
@@ -254,9 +254,9 @@ export const charlotteCountryDay: SportsProgram = {
       { sport: 'Other', count: 5, width: 0.56 },
     ],
     realityCheck:
-      'Swimming is unambiguously the Power 4 engine — five of nine P4 commits, and every 2026 P4 signee. Football and basketball, the sports that dominate national recruiting coverage, produced one D1 commit each across three classes. For most Country Day families the pipeline runs through Olympic and racquet sports into academically selective programs, not through the revenue sports.',
+      'Swimming is clearly the biggest source of Power 4 commits: five of nine P4 commits, and every 2026 P4 signee. Football and basketball, the sports that dominate national recruiting coverage, produced one D1 commit each across three classes. For most Country Day families, the pipeline runs through Olympic sports like swimming and track, and racquet sports like tennis. It leads into academically selective programs. For most families, the pipeline does not run through football and basketball.',
     rankedRecruits:
-      'No Country Day athlete appears in a national top-100 composite for football or basketball in the classes reviewed — consistent with a school whose elite output is swimming, tennis and distance running, which those databases do not rank. The school does hold 7 of the 22 NCISAA Division I state swimming records, more than any other school in the division, and recorded 13 USA Swimming All-American nominations from eight swimmers in a single state meet.',
+      'No Country Day athlete appears in a national top-100 composite for football or basketball in the classes on this card. That is consistent with a school whose best athletes compete in swimming, tennis and distance running, which those databases do not rank. But the school holds 7 of the 22 NCISAA Division I state swimming records, more than any other school in the division. The school also produced 13 USA Swimming All-American nominations from eight swimmers in a single state meet.',
     roster: [
       { cls: "'26", name: 'Taylor Klein', sport: 'Swimming', college: 'Stanford', conf: 'ACC', level: 'P4' },
       { cls: "'26", name: 'Santiago Alzate-Celin', sport: 'Swimming', college: 'Florida', conf: 'SEC', level: 'P4' },
@@ -308,7 +308,7 @@ export const charlotteCountryDay: SportsProgram = {
       { cls: "'24", name: 'Amare Bethel', sport: 'Boys Basketball', college: 'Metropolitan State', conf: 'RMAC', level: 'D2' },
     ],
     rosterNote:
-      'Level labels and conferences were added by the researcher from each college’s NCAA status; they are not on the school’s published roster. P4 = SEC · Big Ten · ACC · Big 12.',
+      'This site added the level labels and conferences from each college’s NCAA status. These labels are not on the school’s published roster. P4 = SEC · Big Ten · ACC · Big 12.',
     sources: [
       {
         label: 'charlottecountryday.org — Collegiate Athletics',
@@ -379,7 +379,7 @@ export const charlotteCountryDay: SportsProgram = {
       },
       {
         label: 'Swimming records & All-Americans',
-        text: 'Country Day holds 7 of the 22 NCISAA Division I state swimming records — more than any other school in the division — and produced 13 USA Swimming All-American nominations from eight swimmers in a single state meet.',
+        text: 'Country Day holds 7 of the 22 NCISAA Division I state swimming records, more than any other school in the division. The school also produced 13 USA Swimming All-American nominations from eight swimmers in a single state meet.',
         tag: 'National',
       },
       {
@@ -423,7 +423,7 @@ export const charlotteCountryDay: SportsProgram = {
           { value: '5×', label: 'PTR national Coach of the Year' },
         ],
         detail:
-          'Inducted into the North Carolina Tennis Hall of Fame in 2024, a USTA-NC Mary Milam Award winner, and named to the Charlotte Observer’s all-time top-10 Mecklenburg County coaches across all sports. He has coached four professionals, including a US Open doubles semifinalist, and the Rankin Courts scoreboard was dedicated in his name in 2022. His son C.C. Davis ’99 now coaches boys tennis alongside him.',
+          'He was inducted into the North Carolina Tennis Hall of Fame in 2024 and is a USTA-NC Mary Milam Award winner. The Charlotte Observer named him to its all-time top-10 Mecklenburg County coaches across all sports. He has coached four professionals, including a US Open doubles semifinalist. The Rankin Courts scoreboard was dedicated in his name in 2022. His son C.C. Davis ’99 now coaches boys tennis alongside him.',
       },
       {
         kicker: 'The continuity anchor · Boys Lacrosse, 1987–2026',
@@ -434,7 +434,7 @@ export const charlotteCountryDay: SportsProgram = {
           { value: '19', label: 'conference titles, 9 state titles' },
         ],
         detail:
-          'A 1983 Country Day graduate who helped organize North Carolina’s first high school lacrosse league in 1988 — five teams, now roughly 150 — and founded the Charlotte Lacrosse Jamboree for brain-tumor research in 1996. Inducted into the NILCA Hall of Fame in 2023, he has produced 200+ college players and 20+ USA All-Americans. He retires after the 2026 season, which passes the continuity-anchor role to Calvin Davis Jr.',
+          'A 1983 Country Day graduate, he helped organize North Carolina’s first high school lacrosse league in 1988. That league started with five teams and now has roughly 150. He founded the Charlotte Lacrosse Jamboree for brain-tumor research in 1996. He was inducted into the NILCA Hall of Fame in 2023, and he has produced 200+ college players and 20+ USA All-Americans. When he retires after the 2026 season, Calvin Davis Jr. takes over the continuity-anchor role.',
       },
     ],
     tenure: [
@@ -447,7 +447,7 @@ export const charlotteCountryDay: SportsProgram = {
       { name: 'Logan Smith', role: 'Baseball', width: 0.03, since: 'since 2026' },
     ],
     worthKnowing:
-      'Country Day turned over four head-coaching jobs in the 2025–26 cycle — boys basketball, girls basketball, boys tennis and baseball — with Brad Touma’s lacrosse retirement still to come and the girls basketball seat vacant as of this research. That is unusually high churn for a department otherwise defined by multi-decade tenures, and worth asking about on a tour. Track coach Alvin Pearman is a former NFL running back who returned to teach at his old school.',
+      'Four Country Day head-coaching jobs turned over in the 2025–26 cycle: boys basketball, girls basketball, boys tennis and baseball. Brad Touma’s lacrosse retirement is still to come, and the school has not yet named a girls basketball coach. That is unusually high turnover for a department otherwise known for coaches who stay for decades. The turnover is worth asking about on a tour. Track coach Alvin Pearman is a former NFL running back who returned to teach at his old school.',
     sources: [
       {
         label: 'Country Day — Touma NILCA Hall of Fame',
@@ -528,7 +528,7 @@ export const charlotteCountryDay: SportsProgram = {
       },
     ],
     careNote:
-      'The OrthoCarolina partnership, which supplies the team physician, is the thing to probe on a tour. The combined Klein and Harris project totaled 77,737 sq ft and roughly $30.5M, funded by a $10M lead gift from the Klein family, the Dowd Foundation and two anonymous donors.',
+      'The OrthoCarolina partnership, which supplies the team doctor, is the thing to ask about on a tour. The combined Klein and Harris project totaled 77,737 sq ft and roughly $30.5M. The project was funded by a $10M lead gift from the Klein family, the Dowd Foundation and two anonymous donors.',
     sources: [
       {
         label: 'charlottecountryday.org — Sports Medicine',
