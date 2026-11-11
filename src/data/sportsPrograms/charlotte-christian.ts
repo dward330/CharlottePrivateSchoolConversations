@@ -239,7 +239,7 @@ export const charlotteChristian: SportsProgram = {
       },
     ],
     funnelNote:
-      'The classes of 2024 and 2025 come from the school’s published "Knights in College" roster; the Class of 2026, which that list does not yet include, is confirmed on the colleges’ own rosters and in the school’s announcements. At 73%, the Division I share of commitments is the highest of any school in this comparison.',
+      'The classes of 2024 and 2025 come from the school’s published "Knights in College" roster; the Class of 2026, which that list does not yet include, is confirmed on the colleges’ own rosters and in the school’s announcements. At 73%, the Division I share of commitments is unusually high.',
     sportBars: [
       { sport: 'Football', count: 16, width: 1, p4Width: 0.25 },
       { sport: 'Baseball', count: 6, width: 0.38, p4Width: 0.06 },
@@ -541,7 +541,7 @@ export const charlotteChristian: SportsProgram = {
       },
     ],
     careNote:
-      'The hybrid model is the thing to probe on a tour: two employed trainers plus an Atrium-provided third sits between Providence Day’s fully in-house staff and Cannon’s fully outsourced Novant arrangement. Seating capacities are not published for any Charlotte Christian venue.',
+      'The hybrid model is the thing to probe on a tour: two employed trainers plus an Atrium-provided third, a mix of in-house and hospital-provided care. Seating capacities are not published for any Charlotte Christian venue.',
     sources: [
       {
         label: 'charlottechristian.com — Athletic Facilities',

@@ -101,7 +101,7 @@ export const charlotteCatholic: SportsProgram = {
       },
     ],
     footnote:
-      'The 20 sports and their names are exactly as the school lists them on its All Sports page — it publishes no gender split for Soccer, Golf, Tennis, Basketball or Lacrosse even though it fields both boys’ and girls’ teams in each, and it groups nothing by season. The season grouping above follows the standard NCHSAA calendar; the school itself publishes the list flat. Level splits are indicative for the same reason: the individual sport pages are navigation boilerplate carrying no rosters or schedules. CCHS has no middle school — it is a 9–12 school — so no team carries an MS level, unlike every PK/K–12 school on this roster.',
+      'The 20 sports and their names are exactly as the school lists them on its All Sports page — it publishes no gender split for Soccer, Golf, Tennis, Basketball or Lacrosse even though it fields both boys’ and girls’ teams in each, and it groups nothing by season. The season grouping above follows the standard NCHSAA calendar; the school itself publishes the list flat. Level splits are indicative for the same reason: the individual sport pages are navigation boilerplate carrying no rosters or schedules. CCHS has no middle school — it is a 9–12 school — so no team carries an MS level.',
     sources: [
       { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'NCHSAA all-time state cup winners', url: 'https://www.nchsaa.org/all-time-list-of-wells-fargo-state-cup-winners/' },
@@ -416,7 +416,7 @@ export const charlotteCatholic: SportsProgram = {
   facilities: {
     headline: 'Oddo Field at Keffer Stadium, and athletic training staffed by Atrium Health.',
     subhead:
-      'The care model is outsourced to a hospital system rather than run in house — a different structure from the independent schools on this roster.',
+      'The care model is outsourced to a hospital system rather than run in house.',
     venues: [
       { name: 'Oddo Field at Keffer Stadium', detail: 'approximately 3,500 seats; the field is named for Jim Oddo' },
       { name: 'Gymnasium', detail: 'basketball, volleyball and wrestling' },
@@ -457,7 +457,7 @@ export const charlotteCatholic: SportsProgram = {
       { opponent: 'A.C. Reynolds', detail: 'Shut out 27–0 in the opening round of the 2025 football playoffs' },
     ],
     scheduleNote:
-      'This is the real differentiator for a recruiting family: every other school in this app plays NCISAA, the independent-school association. A CCHS athlete’s record, rankings and championships are set against North Carolina’s public schools, which is a larger and differently-shaped competitive field — and it makes cross-comparison with the rest of this roster imprecise in both directions.',
+      'This is the real differentiator for a recruiting family: CCHS does not play in the NCISAA, the independent-school association many private schools join. A CCHS athlete’s record, rankings and championships are set against North Carolina’s public schools, which is a larger and differently-shaped competitive field — and it makes cross-comparison with NCISAA results imprecise in both directions.',
     nil: [
       { date: 'July 1, 2023', text: 'The NCHSAA’s name, image and likeness policy takes effect, covering every member school including CCHS.', highlight: true },
       { date: 'Current', text: 'No CCHS-specific NIL deal was found in any published source. The school itself publishes no NIL guidance of its own beyond the association policy it is bound by.' },
