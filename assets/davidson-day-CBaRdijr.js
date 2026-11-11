@@ -375,8 +375,14 @@ has not been updated for Huntley's NBA arrival.*
 **Honors:** Will Grier — **2× NC Gatorade POY**, Parade Magazine National Player of the Year,
 Army All-American. **150+ NCISAA All-State athletes** all-time. **37 individual state titles**
 (Melissa Zammitti '17 alone won ten). **Wells Fargo Cup** won 2019–20 and 2023–24.
-**Patriot Athletic Hall of Fame** created 2025; eight-person inaugural class; inducts biennially.
-https://www.davidsonday.org/athletics/patriot-athletic-hall-of-fame`},{subtopic:`5. Coaching`,source_file:null,preview:`AD: Chris Turner. - Gary Ellington, boys basketball since 2025 — 319–143 over 17 years at Weddington HS, 2 NCHSAA state championships, 9 conference titles, 9× conference COY, 2× NCBCA COY, 8 Sweet 16 appearances. Year one at DDS: 23–11, state semifinal, and a win over Oak Hill Academy. Also serves as Upper School…`,text:`**AD: Chris Turner.**
+**Patriot Athletic Hall of Fame** created 2025; eight inductees in the inaugural class; inducts biennially.
+https://www.davidsonday.org/athletics/patriot-athletic-hall-of-fame
+Re-checked 2026-11-11 against that page ("Class of 2025 Patriot Athletic Hall of Fame Inductees"),
+which lists eight entries: Lamar Briggs '14 · Maya Caldwell '17 · Rashun Davis '12 · Jenny Falcone '11 ·
+Will Grier '14 · Aaron Seward '13 · Melissa Zammitti '17 · Chuck and Karen Wolter. The Wolters are one
+joint entry with one bio, so the class is eight inductees but nine people. The page states no count of
+its own; "eight-person", used here before, was wrong. Page text: "The Patriot Athletic Hall of Fame was
+created and inducted its first class in 2025. The Hall of Fame will induct its next class in 2027."`},{subtopic:`5. Coaching`,source_file:null,preview:`AD: Chris Turner. - Gary Ellington, boys basketball since 2025 — 319–143 over 17 years at Weddington HS, 2 NCHSAA state championships, 9 conference titles, 9× conference COY, 2× NCBCA COY, 8 Sweet 16 appearances. Year one at DDS: 23–11, state semifinal, and a win over Oak Hill Academy. Also serves as Upper School…`,text:`**AD: Chris Turner.**
 - **Gary Ellington, boys basketball since 2025** — **319–143 over 17 years at Weddington HS**,
  2 NCHSAA state championships, 9 conference titles, 9× conference COY, 2× NCBCA COY, 8 Sweet
  16 appearances. Year one at DDS: **23–11**, state semifinal, and a **win over Oak Hill
