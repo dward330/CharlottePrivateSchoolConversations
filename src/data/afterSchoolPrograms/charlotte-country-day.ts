@@ -313,7 +313,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'The enrichment catalog is invisible to prospective families. The school advertises "more than 25 after-school enrichment classes" — music, art, science, chess, karate, cheerleading, field hockey, baseball, volleyball, SAT/ACT prep, coding, drama, robotics — but the class list lives behind the UltraCamp portal, which returned **zero results** when checked. No public page gives names with days, grades and fees.',
+        text: 'Families looking at the school cannot see the enrichment catalog. The school advertises "more than 25 after-school enrichment classes". Its examples: music · art · science · chess · karate · cheerleading · field hockey · baseball · volleyball · SAT/ACT prep · coding · drama · robotics. But the class list sits behind the UltraCamp registration portal, so it is not public. No public page gives names with days, grades and fees.',
       },
       {
         kind: 'verify',
@@ -326,6 +326,10 @@ export const charlotteCountryDay: AfterSchoolProgram = {
       {
         kind: 'gap',
         text: 'No hour-by-hour daily schedule is published, no Extended Day staff-to-child ratio is given, and Middle School is not described as a distinct program — grades 5–8 sit under the same JK–8 umbrella.',
+      },
+      {
+        kind: 'verify',
+        text: 'The UltraCamp portal returned **zero results** when the research checked it. Re-check it before relying on the "not public" line above.',
       },
     ],
     sources: [

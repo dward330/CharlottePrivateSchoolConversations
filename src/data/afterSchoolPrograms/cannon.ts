@@ -281,7 +281,7 @@ export const cannon: AfterSchoolProgram = {
       '**Early-dismissal days are covered**, 11:45 a.m.–4:00 p.m., which several peers here do not do at all.',
       '**True drop-in at $11.50 an hour with no contract.** A family needing two afternoons a month pays around $100 a year rather than committing to $1,904 — the most forgiving occasional-use model in this set.',
       '**A sharp price ladder** — five days costs only about 3.7× the one-day rate, so heavy users get a real discount rather than a linear bill.',
-      '**The deepest published enrichment catalog of the six** — 22 distinct classes in a single session spanning robotics, ballet, chess, pottery, golf and photography, each with a named provider and a real fee.',
+      '**The largest fully priced enrichment catalog on this site** — 22 distinct classes in a single session, from robotics, ballet and chess to pottery, golf and photography. Each has a named provider and a real fee.',
       '**Enrichment is modestly priced and transparent** — $18–$30 per class, mostly $144–$300 for a 10-week session, with full refunds for canceled classes and a make-up week.',
       '**An executive-function class for Middle School** ("Let’s Get Organized") — a genuinely unusual offering at this age.',
     ],
