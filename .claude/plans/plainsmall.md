@@ -1,12 +1,12 @@
 ---
 name: plainsmall
 title: Teach the plain-language checker to skip prose no parent sees (one shared flag-visibility rule read by the components and the checker, plus a build check that keeps them in agreement), then rewrite the five small areas' English prose (After School, Global Exposure, Summer Programs, Learning Support, High School Placement; 97 rendered sites) and the 5 jargon chrome labels in en.json; English in three reviewed batches, then all nine prose locales and nine chrome catalogs
-status: english-done
+status: implemented
 phases: 2
 batches: 3                     # Phase 1 Part 2 is built in three batches, each with its own review stop
 created: 2026-11-10
 branch: feat/plainsmall
-prs: []
+prs: [481]
 ---
 
 # Plain-language checker fix + rewrite of the five small areas
@@ -2197,6 +2197,86 @@ rows).
     because per-graduate lists are enrollment.
   - The new label is right, and it will show for a future K–8 school with an outcomes
     card and no class lists. No component change was made.
+
+### Phase 2 (2026-11-11)
+
+- **Approval.** The user: "All three English batches are approved. Run only Phase 2." Run
+  in a fresh window on `feat/plainsmall`.
+- **Splice:** identical in all nine locales, and exactly as Phase 1 predicted:
+
+  | Topic | Kept | Added | Dropped |
+  |---|--:|--:|--:|
+  | after-school | 1,016 | 50 | 49 |
+  | international-travel | 1,165 | 31 | 31 |
+  | summer-programs | 1,470 | 31 | 29 |
+  | learning-support | 479 | 10 | 10 |
+  | high-school-placement | 115 | 3 | 3 |
+
+  **125 new units per locale.** All 122 dropped units paired 1:1 by `at` with an added
+  unit. The 3 unpaired ones are the moved dev-only verify flags (CCD `dayInside.flags[4]`,
+  Latin `costPlanner.flags[1]` and Prep `costPlanner.flags[0]`). They were translated
+  fresh, reusing the reviewed wording of the units they were split from.
+- **Translation.** Three parallel subagents (es/fr/it, bn/hi/te, ht/fa/ar) each read only
+  their own task files and a shared brief, and wrote only their own output. Each revised
+  the reviewed `t`.
+- **Gate.** The plainclubs gate, plus a per-locale wrong-script scan (danda stripped; fa
+  rejects Arabic ي/ك, ar rejects Persian-only letters), a weekday scan, a single-`*`
+  count and `[[`. Result: **125/125 pass in all nine locales.**
+- **Predecessors corrected by the digit rule.** Agents changed predecessor forms that broke
+  digit parity with the new English:
+  - spelled-out grades ("sixth-grade", "8th and 5th graders") in fr/it/hi/fa/ar;
+  - "noon–1 p.m.", which several predecessors rendered as "12–1" or "13" (it, bn);
+  - English "March"/"April" left in Latin script (fa, hi, te `259edbc8`), now translated;
+  - it "1 maggio" → "1º maggio", and "12°" → "12º", per the NOTES.md rule;
+  - it "**9 months**", left in English by the predecessor, → "**9 mesi**";
+  - the old `*Focus*` italics are dropped in every locale, as in the English.
+- **Chrome: 5 values changed in seven catalogs, 3 in `ht` and `ar`.** The plan said
+  "exactly five". In ht and ar, two predecessors already said what the new English says:
+  `metrics.matriculation` (ht "Enskripsyon…", ar "الالتحاق…" both mean enrollment) and
+  `learning.need.social` (ht "Sosyal ak emosyonèl", ar "الجانب الاجتماعي والعاطفي"). They
+  were left unchanged rather than reworded for its own sake. Keys are unchanged
+  everywhere. Where a predecessor's "matriculation" label meant admission or entry (es
+  "Ingreso", bn/hi/te/fa admission words, fr "Admissions"), it now uses the same
+  enrollment word as the locale's `ACCEPTED ≠ ENROLLED` chip.
+- **Integrity, by stamp against the `main` snapshots:** every kept stamp is
+  byte-identical (`text` and `t`), and all 125 new stamps are non-blank, in every locale.
+  `check_work_integrity` reports 90 positional "violations" per locale (810 total), all
+  of the `text/of/at mutated` / `existing translation overwritten` kind a splice produces
+  (memory `comparerows-shipped`). None is a wrong-language finding.
+- **Checks:**
+  - `check:live` ✓ and `check:runtime` ✓ (all 9 locales);
+  - `check:digits`: **1,125 units compared · 0 to review**;
+  - `check:dates`, `check:moneytext`, `check:currency`, `check:fr`, `check:hi`,
+    `check:fa`, `check:bidi`, `check:chrome`: ✓;
+  - `check:sepdrift`: 0 drifted, ×9;
+  - `check_figures.py`: intact for all 5 topics ×9;
+  - `i18n:leaks`: **0 flags on the 125 rewritten paths** in all nine locales (the output
+    uses the same `slug:path` form, so the zero is not vacuous);
+  - `npm run build`: green end to end, including `check:flags`.
+- **Browser** (headed Chrome, `vite preview`, every card open, every LS need tab
+  clicked; bidi isolates stripped and Persian digits normalized):
+  - **Pages:** all 34 school × topic pages holding a new unit (a superset of the plan's
+    five), in `es`, `fa` and `hi`.
+  - **Units:** **122/122 parent-visible units render translated** in each locale. The 3
+    not found are the dev-only verify flags, correctly absent on preview. es first
+    reported 3 more misses (Covenant `cost.flags[0]`, Gaston `cost.aside`, Prep
+    `costPlanner.fees[2].label`). These were probe artifacts: es re-formats `$744` →
+    `744 US$` at render, and all three were confirmed rendering translated.
+  - **Asterisks:** no page shows a stray `*`.
+  - **Compare:** "College Connections" and "D1 / Top-College Enrollment" show their new
+    label in each of the three locales.
+  - **LS tabs at 320px (CCD):** `scrollWidth` = `clientWidth` (305) in es, fa and hi. The
+    attention tab is 235 / 217 / 231px wide and fits the row.
+- **For a native reviewer:**
+  - **ht `f9b389d8`** (Trinity HSP boarding line): the predecessor's "pa yon wout maji"
+    for "not a minor path" now reads "se pa yon ti wout segondè".
+  - **ar `Extended Day`:** two units (`5856bd0a`, `0d0b28d3`) keep the predecessor's
+    translated "اليوم الممتد", where most ar units keep the English name.
+  - **it price units:** two units now read "/mese" where the predecessor kept "/month".
+    The shipped Italian already mixed both forms (17 "/month", 2 "/mese").
+  - **fa/ar a.m./p.m.:** mixed in the predecessors, and followed per unit rather than
+    unified.
+  - **bn `2c8f02e6`:** "three hours" is now a word, matching the English.
 
 ### Candidates noticed, not acted on
 - **`scripts/plain_language.json` jargon candidates** seen in Batch 1: "orphaned" (Cannon's
