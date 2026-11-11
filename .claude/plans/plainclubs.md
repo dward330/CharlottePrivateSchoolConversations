@@ -1760,6 +1760,69 @@ Compare values and tips match; 390px has no overflow.
 splice reveals. Expect *added* ≠ *dropped* for `student-clubs`, because the rebuilt
 catalogs have fewer entries than before.
 
+### Hickory Grove Arts refresh (2026-11-10, user request)
+
+**Request.** "can you fix that arts section for hickory grove now?" This follows the
+school-sources pass, which found that Hickory Grove's redesigned site no longer shows
+several items its Arts section cited. It was done on `feat/plainclubs`, so **Phase 2 now
+also covers the `the-arts` topic** (Hickory Grove's units only).
+
+**Evidence.** The live Arts, Performing Arts, Visual Arts and Digital Arts pages and the
+2026–27 Course Selection Catalog are recorded in
+`source-material/the-arts/hickory-grove-christian/Hickory Grove Christian - The Arts -
+Program Overview Web Check 2026-11-10.md` and ingested.
+- **Naming the file.** It is named for the Program Overview card on purpose: a first
+  version, "Live Site Check", slugified into an unmatched card key (a ⚠️ in
+  `DATA-SCHEMA.md`, the known redesign-notes slugify trap).
+- **Manifest.** `schools.json` gains only that one document, in HEAD order.
+
+**What changed** in `src/data/artsPrograms/hickory-grove-christian.ts` (43 prose units, all
+hook-clean, grade ≤10, [review-hg-arts.md](plainclubs-data/review-hg-arts.md)):
+
+| Before (old pages) | After (live pages / 2026–27 catalog) |
+|---|---|
+| Jazz Band; Tri-M Music Honor Society | Gone. High school ensembles are Concert Band, Chapel Band (by audition) and High School Choir; the honor society is the International Thespian Society. The catalog has no Jazz Band course. |
+| "Three productions a year, plus a biennial spring musical" | "two drama productions: a fall show and a spring musical"; the musical "takes part in the Blumey Awards each year" |
+| AP students "consistently score 3 or 4" | Removed (not published); AP 2D Studio Art is a 15-piece body of work; the verdict asks how students score |
+| General music to the National Standards, Orff, recorder in Grade 4 | Music class plus Elementary Choir |
+| Middle School band's superior ACSI ratings; choir at statewide festivals and on out-of-state tours | Concert Band performs at the ACSI Festival each spring; NCBA All-District, All-State and Solo & Ensemble auditions; choir "performances, tours, and community events" |
+| MS artist studies and mixed-media portraits; MS Choir | MS Bible Sketch (6th), Sewing (7th–8th); Praise Team; Theatre, Musical Theatre and Beginning Dance |
+| HS visual: Art I–IV, AP Studio Art 2D, Art Appreciation; Yearbook I and Honors Yearbook I–III | Art I–IV and AP 2D Studio Art, Ceramics I–II, Fiber Crafts I–II, Art Appreciation; Digital Arts: Yearbook I, II and III - Honors, Photography and Design, Digital Media (HG360), Communications Internship |
+
+The Blumey ledger (Blumenthal Arts' own records) is unchanged.
+
+**Compare.**
+- **Arts matrix** (`src/data/artsMatrix.ts`): Hickory Grove's cites now point at the new
+  text. The jazz row and the Middle School choir cell are gone; the worship-band row gains
+  Chapel Band (US), and the choir row gains Elementary Choir (LS). `check:matrices` passes.
+- **`metricValues.ts`:**
+  - `advanced-arts-coursework` is now 'AP 2D Studio Art' (the school's name for it), and
+    its tip drops the score quote;
+  - the `ensembles` tip names Chapel Band and High School Choir;
+  - the `program-span` tip says "music class".
+
+  The schema doc shows jazz at 4/11 schools, down from 5.
+
+**Browser.**
+- **The Arts section:** none of the removed items renders, and all the new ones do.
+- **Compare:** the tips match.
+- **Layout:** there is no overflow at 390px.
+
+**Chrome confirmation (user's Claude in Chrome extension).** WebFetch can miss content
+that a page loads into JavaScript tabs. So the key removals were re-checked against the
+full rendered DOM of each live page, hidden tabs included:
+- **HG Performing Arts:** no Tri-M. "Jazz" appears only as a dance style ("Jazz, tap,
+  singing and acting"). ITS, Chapel Band, Praise Team, High School Choir, ACSI, NCBA and
+  Blumey are all present.
+- **HG Visual Arts:** no score statement and no National Art Honor Society.
+- **HG High School:** no honor society, HOSA or club list; it names "Club Flex (Tuesdays
+  and Thursdays, 12:45–1:25)" as time for clubs.
+- **Covenant High School:** Mock Trial, Student Council and Covenant Crazies only.
+- **Davidson Day Middle and Upper School:** no clubs at all, and no Battle of the Books.
+
+**Phase 2 input now:** stale per locale **188 `student-clubs` + 43 `the-arts` + 12
+`metric-values`**, plus brand-new units that only the splice reveals.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
@@ -1799,7 +1862,7 @@ catalogs have fewer entries than before.
   Trinity has one, but no academic-clubs card appears. Whether to turn these cards on
   needs a look at the manifest and the UX gate. (Batch 3)
 - (Resolved 2026-11-10, school-sources rule.) **Third-party club rosters at four schools.**
-- **Hickory Grove's Arts area still cites Tri-M and a Jazz Band.** Neither appears on the
+- (Resolved 2026-11-10, Hickory Grove Arts refresh.) **Hickory Grove's Arts area still cites Tri-M and a Jazz Band.** Neither appears on the
   school's live Performing Arts pages (checked 2026-11-10). That is an Arts-area freshness
   fix, outside this plan.
 - **`metricValues` Carmel `us-organizations` tip reads at grade 13.7.** It predates this

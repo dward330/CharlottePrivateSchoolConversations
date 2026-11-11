@@ -179,16 +179,18 @@ export const ARTS_MATRIX: ArtsTable = {
     photography: { US: { course: 'Introduction to Photography and Design' } },
     graphicDesign: { MS: { course: 'Graphic Design' } },
     fiberFashion: { MS: { course: 'Sewing' }, US: { course: 'Fiber Crafts I' } },
-    worshipBand: { MS: { course: 'Praise Team' } },
+    // Refreshed 2026-11-10 against the redesigned live site (plan plainclubs): the
+    // MS choir, the Jazz Band and "three productions" are gone from the school's
+    // pages and its 2026–27 course catalog, so their cites are gone too.
+    worshipBand: { MS: { course: 'Praise Team' }, US: "'Chapel Band'" },
     dance: { MS: { course: 'Dance' } },
-    visualArt: { LS: 'Visual art at every level', MS: 'Visual arts: original artwork', US: 'Visual Arts (Art I–IV)' },
-    generalMusic: { LS: 'General music aligned to the National Standards' },
+    visualArt: { LS: 'Visual art: sketching and drawing first', MS: 'Visual arts: Bible Sketch (6th)', US: 'Art I–IV and AP 2D Studio Art' },
+    generalMusic: { LS: 'Music class, plus an Elementary Choir' },
     band: { MS: 'Band (6th-grade beginners', US: 'Concert Band' },
-    choir: { MS: 'Choir (open to all)', US: "'Choir'" },
-    jazz: { US: 'Jazz Band' },
-    plays: { MS: 'Theatre and Musical Theatre', US: 'Three productions' },
-    musicals: { MS: 'Theatre and Musical Theatre', US: 'Large-scale spring musical' },
-    technicalTheatre: { US: 'Technical Theatre' },
+    choir: { LS: 'Elementary Choir', US: "'High School Choir'" },
+    plays: { MS: 'Theatre, Musical Theatre and Beginning Dance', US: 'Two productions a year, a fall show and a spring musical' },
+    musicals: { MS: 'Theatre, Musical Theatre and Beginning Dance', US: 'Spring musical' },
+    technicalTheatre: { US: 'Technical Theatre & Management' },
   },
   'gaston-day': {
     visualArt: { LS: 'Music, art and drama coordinated with classroom units', MS: 'Electives chosen from art, drama, chorus and band', US: { course: 'Visual Art I, II, III' } },

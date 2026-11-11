@@ -1505,7 +1505,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'Arts are offered from Transitional Kindergarten (TK) through grade 12 — visual art and general music in the early grades, widening into band, choir, theatre and a leveled studio track by high school.',
+        text: 'Arts are offered from Transitional Kindergarten (TK) through grade 12. Visual art and music class come first, widening into band, choir, theatre and a leveled studio track by high school.',
       },
     },
   },
@@ -1590,7 +1590,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': 'AP Studio Art', // + Honors Studio Art and Honors Auditioned Theatre
       'carmel-christian': '3', // AP 2-D Art & Design, Honors Art III, Honors Art IV (curriculum guide)
       'davidson-day': null, // not detailed
-      'hickory-grove-christian': 'AP Studio Art 2D', // atop the Art I–IV studio sequence
+      'hickory-grove-christian': 'AP 2D Studio Art', // atop the Art I–IV studio sequence; the school's own course name (live Visual Arts page + 2026–27 catalog, checked 2026-11-10)
       'gaston-day': 'Visual Art IV (H)', // the terminal visual-arts course — there is no AP Studio Art or AP Art History in the profile's table
       'providence-day': '3 AP arts', // AP Studio Art, AP Art History, AP Music Theory
     },
@@ -1626,7 +1626,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'The advanced arts course the school names is AP Studio Art 2D (AP 2-D Art & Design), atop the Art I–IV studio sequence; students "consistently score 3 or 4."',
+        text: 'The advanced arts course the school names is AP 2D Studio Art (AP 2-D Art & Design), atop the Art I–IV studio sequence. It is a 15-piece body of work; the school publishes no AP score results.',
       },
     },
   },
@@ -1644,7 +1644,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '9 ensembles', // Children's Choir, MS Band/Choir/Worship, Symphonic Band, HS Choir/Worship/A Cappella + gr.5 intro
       'carmel-christian': '3', // Symphonic Band, Choir, Ignite Band
       'davidson-day': null, // no count stated
-      'hickory-grove-christian': '3 ensembles', // HS: Concert Band, Jazz Band, Choir (no orchestra)
+      'hickory-grove-christian': '3 ensembles', // HS: Concert Band, Chapel Band, High School Choir (no orchestra); Jazz Band dropped 2026-11-10 — not on the live site or the 2026–27 catalog
       'gaston-day': '3 ensembles', // US Vocal Performance Ensemble, MS Instrumental Ensemble, MS Chorus (Band and Concert Choir also run as courses)
       'providence-day': '4 ensembles', // Band, Orchestra, Chorus, Jazz
     },
@@ -1680,7 +1680,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'Three named high-school ensembles — Concert Band, Jazz Band and Choir. No orchestra is offered at any level.',
+        text: 'Three named high-school ensembles — Concert Band, Chapel Band and High School Choir. No orchestra is offered at any level.',
       },
     },
   },

@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 559 ingested research documents.
+**13 schools × 12 research areas**, 560 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -62,7 +62,7 @@ exists yet and **the section does not render at all** for that school.
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
 | Student Clubs | `student-clubs` | 11 | 2 | 2 | 10 | 12 | 9 | 3 | 6 | 11 | 2 | 1 | 9 | 4 |
-| The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 7 | 1 | 2 | 7 | 2 |
+| The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 7 | 1 | 3 | 7 | 2 |
 | Sports | `sports` | 19 | 6 | 6 | 20 | 20 | 20 | 2 | 19 | 21 | 5 | 6 | 22 | 2 |
 | College Support | `college-support` | 12 | 3 | 3 | 13 | 11 | 13 | — | 9 | 13 | 2 | 3 | 12 | — |
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
@@ -122,7 +122,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `overview` | Program Overview | 9/13 | 2 |
+| `overview` | Program Overview | 10/13 | 3 |
 | `awards` | Awards & Recognition | 6/13 | 2 |
 | `performing-arts` | Performing Arts | 2/13 | 1 |
 | `visual-arts` | Visual Arts | 9/13 | 5 |
@@ -1306,7 +1306,7 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 | `band` | 11/11 |
 | `orchestra` | 5/11 |
 | `choir` | 10/11 |
-| `jazz` | 5/11 |
+| `jazz` | 4/11 |
 | `aCappella` | 3/11 |
 | `percussion` | 3/11 |
 | `marchingBand` | 1/11 |

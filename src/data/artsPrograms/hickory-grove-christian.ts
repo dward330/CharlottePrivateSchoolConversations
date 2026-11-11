@@ -1,11 +1,18 @@
 // Hickory Grove Christian School — The Arts.
 //
-// Transcribed from source-material/the-arts/hickory-grove-christian/
-// "Hickory Grove Christian - The Arts - Deep Research.md", which carries source
-// URLs and a VERIFIED / NOT FOUND marker on the hard data. The Blumey ledger was
-// extracted from Blumenthal Arts' official 2025 nominees/finalists PDF (via
-// pdftotext) and its 2026 nominees news page, so the category→nominee→show
-// mapping is exact.
+// Refreshed 2026-11-10 against the school's REDESIGNED live site (plan plainclubs,
+// at the user's request): source-material/the-arts/hickory-grove-christian/
+// "Hickory Grove Christian - The Arts - Program Overview Web Check 2026-11-10.md", with the
+// 2026–27 Course Selection Catalog as the school's own course document. The
+// redesign dropped several things the earlier cards cited from the old pages — Tri-M,
+// a Jazz Band, "three productions a year", the AP "consistently score 3 or 4"
+// statement, Orff and recorder, the Middle School band's superior ACSI ratings — so
+// they are gone here too. The catalog confirms no Jazz Band course.
+//
+// The Blumey ledger is unchanged: it comes from Blumenthal Arts' official 2025
+// nominees/finalists PDF (via pdftotext) and its 2026 nominees news page, so the
+// category→nominee→show mapping is exact. Original research: "Hickory Grove
+// Christian - The Arts - Deep Research.md".
 //
 // Two honesty decisions, both driven by that research:
 //
@@ -19,9 +26,10 @@
 
 import type { ArtsProgram } from '../artsProgram.ts'
 
-const ARTS = 'https://www.hgchristian.org/arts'
-const PERFORMING = 'https://www.hgchristian.org/arts/performing-arts'
-const VISUAL = 'https://www.hgchristian.org/arts/visual-arts'
+const ARTS = 'https://hgchristian.org/arts-home'
+const PERFORMING = 'https://hgchristian.org/performing-arts'
+const VISUAL = 'https://hgchristian.org/visual-arts'
+const DIGITAL = 'https://hgchristian.org/digital-arts'
 const BLUMEY_2025 =
   'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf'
 const BLUMEY_2026 =
@@ -30,42 +38,41 @@ const BLUMEY_2026 =
 export const hickoryGroveChristian: ArtsProgram = {
   ladder: {
     headline:
-      'A TK–12 arts ladder — visual art and general music for every young student, widening into band, choir, theatre and a leveled studio track in the upper grades.',
+      'A TK–12 arts ladder — visual art and music for every young student, widening into band, choir, theatre, dance and a leveled studio track in the upper grades.',
     subhead:
       'Band- and choir-centered, with no orchestra at any level. The performing-arts headline is a run of Blumey Award nominations in 2025 and 2026.',
     stats: [
-      { value: 'TK–12', label: 'arts program, integrated in the early grades' },
+      { value: 'TK–12', label: 'arts program, from the Early Education Center up' },
       { value: '2026', label: 'a Blumey nominee from The Little Mermaid' },
-      { value: '3 / yr', label: 'theatre productions, plus a biennial spring musical' },
-      { value: 'Tri-M', label: 'music + Thespian (ITS) theatre honor societies' },
+      { value: '2 / yr', label: 'drama productions: a fall show and a spring musical' },
+      { value: 'ITS', label: 'International Thespian Society, the theatre honor society' },
     ],
     divisions: [
       {
         name: 'Early Education / Elementary',
         grades: 'TK–5',
         items: [
-          'Visual art at every level — foundation skills in shape, color, texture, value and 3D',
-          'General music aligned to the National Standards: singing, rhythm and Orff instruments',
-          'Recorder introduced in fourth grade; composing rhythmic patterns and melodies',
+          'Visual art: sketching and drawing first, then painting and other media, with the elements of art and the principles of design',
+          'Music class, plus an Elementary Choir with more chances to sing and perform',
         ],
       },
       {
         name: 'Middle School',
         grades: '6–8',
         items: [
-          'Band (6th-grade beginners, 7th–8th intermediate) · Choir (open to all)',
-          'Theatre and Musical Theatre — stage presence, speech, backstage, acting/singing/dance',
-          'Visual arts: original artwork, color mixing, artist studies (e.g. Picasso), mixed-media portraits',
-          'Christmas Chapel, Winter/Spring Performing Arts Concerts, ACSI band festivals',
+          'Band (6th-grade beginners, 7th–8th intermediate) · Praise Team (7th–8th)',
+          'Theatre, Musical Theatre and Beginning Dance (7th–8th) — each quarter of Theatre ends with a one-act play',
+          'Visual arts: Bible Sketch (6th) and Sewing (7th–8th)',
+          'Every course ends with a chance to perform',
         ],
       },
       {
         name: 'High School',
         grades: '9–12',
         items: [
-          'Concert Band · Jazz Band · Choir · Musical Theatre · Theatre · Technical Theatre',
-          'Visual Arts (Art I–IV), AP Studio Art 2D and Art Appreciation',
-          'Yearbook / Student Media — the Exodus yearbook (Yearbook I, Honors Yearbook I–III)',
+          'Concert Band · Chapel Band · High School Choir · Theatre · Musical Theatre · Technical Theatre & Management',
+          'Art I–IV and AP 2D Studio Art · Ceramics I–II · Fiber Crafts I–II · Art Appreciation',
+          'Digital Arts: the Exodus yearbook (Yearbook I, II and III - Honors) · Photography and Design · Digital Media (the HG360 weekly broadcast) · a Communications Internship',
         ],
       },
     ],
@@ -73,38 +80,39 @@ export const hickoryGroveChristian: ArtsProgram = {
     enrichment: [
       {
         label: 'Festivals & adjudication',
-        text: 'Band students take part in adjudicated festivals (where judges rate each group) every year. The Middle School band has earned superior ratings at ACSI band festivals. Choir performs at community events, statewide festivals and on out-of-state tours.',
+        text: 'Band students take part in at least one adjudicated band festival (where judges rate each group) each year. Each spring the Concert Band performs at the ACSI Festival. Students can also audition for NCBA All-District, All-State and Solo & Ensemble. Choir gives performances, goes on tours and sings at community events.',
       },
       {
         label: 'Competition',
-        text: 'Drama students compete in fall competitions, and visual-arts students display work throughout the year and compete in public and private competitions.',
+        text: 'The spring musical takes part in the Blumey Awards each year. Visual-arts students show their work around campus and at school events, in the Silent Auction and in competitions.',
       },
     ],
     sources: [
-      { label: 'hgchristian.org — Arts hub', url: ARTS },
+      { label: 'hgchristian.org — Arts', url: ARTS },
       { label: 'hgchristian.org — Performing Arts', url: PERFORMING },
       { label: 'hgchristian.org — Visual Arts', url: VISUAL },
+      { label: 'hgchristian.org — Digital Arts', url: DIGITAL },
     ],
   },
 
   theatre: {
     headline:
-      'Three productions a year and a biennial spring musical — with Blumey Award recognition in back-to-back seasons: Seussical in 2025 and Disney\'s The Little Mermaid in 2026.',
+      'Two productions a year, a fall show and a spring musical — with Blumey Award recognition in back-to-back seasons: Seussical in 2025 and Disney\'s The Little Mermaid in 2026.',
     subhead:
       'The Blumeys are Blumenthal Performing Arts\' regional high-school musical-theater awards. HGCS placed nominees and finalists across both years, though no outright win is published.',
     seasonTitle: 'The season rhythm',
     season: [
       {
-        season: 'Every year',
-        kind: 'Three productions',
+        season: 'Every fall',
+        kind: 'Fall show',
         detail:
-          'Drama students mount three productions per year and compete in fall competitions, drawing students across grade levels.',
+          'Drama students stage a fall show each year, the first of the year\'s two drama productions.',
       },
       {
-        season: 'Every other year',
-        kind: 'Large-scale spring musical',
+        season: 'Every spring',
+        kind: 'Spring musical',
         detail:
-          'A biennial spring musical is the marquee production — Seussical (2025) and Disney\'s The Little Mermaid (2026) are the two most recent, both Blumey-recognized.',
+          'The spring musical is the marquee production, and it takes part in the Blumey Awards each year. Seussical (2025) and Disney\'s The Little Mermaid (2026) are the two most recent, both Blumey-recognized.',
       },
     ],
     venueNote:
@@ -127,7 +135,7 @@ export const hickoryGroveChristian: ArtsProgram = {
     honestContext:
       'Two performers each appear in both years. So the program is a repeat producer of recognized performers. But no Blumey win is published for HGCS in either year. The school’s recognition came as nominees and finalists only. No director name, venue or recent non-Blumey show title is published either.',
     sources: [
-      { label: 'hgchristian.org — Arts hub (production cadence)', url: ARTS },
+      { label: 'hgchristian.org — Performing Arts (productions, Blumey participation)', url: PERFORMING },
       { label: 'Blumenthal Arts — 2026 Blumey nominees & finalists', url: BLUMEY_2026 },
       { label: 'Blumenthal Arts — 2025 Blumey all nominees & finalists (PDF)', url: BLUMEY_2025 },
     ],
@@ -135,78 +143,80 @@ export const hickoryGroveChristian: ArtsProgram = {
 
   music: {
     headline:
-      'Band and choir across the divisions — Concert Band, Jazz Band and Choir in High School — with no orchestra published at any level.',
+      'Band, choir and worship ensembles across the divisions — Concert Band, Chapel Band and High School Choir in High School — with no orchestra published at any level.',
     subhead:
-      'The ensemble slate is band- and choir-centered; the honors mark is the Tri-M Music Honor Society, and adjudicated festivals are a recurring fixture.',
+      'The ensemble list is band- and choir-centered, and adjudicated festivals are a yearly fixture. No music honor society is named.',
     tracks: [
       {
         label: 'High School',
-        ensembles: ['Concert Band', 'Jazz Band', 'Choir'],
+        ensembles: ['Concert Band', 'Chapel Band', 'High School Choir'],
       },
       {
         label: 'Middle School',
-        ensembles: ['Band (6–8)', 'Choir'],
+        ensembles: ['Beginner Band (6th)', 'Intermediate Band (7th–8th)', 'Praise Team (7th–8th)'],
       },
       {
         label: 'Elementary',
-        ensembles: ['General music', 'Orff', 'Recorder (Gr 4)'],
+        ensembles: ['Music class', 'Elementary Choir'],
       },
     ],
     boardNote:
-      'Middle School band is split into a 6th-grade beginner section and a 7th–8th intermediate section. In elementary school, music is a general-music class taught to the National Standards. The class uses Orff and rhythm instruments, adding recorder in Grade 4. No orchestra or strings ensemble is published at any level, and no a cappella group is named.',
+      'Middle School band is split into a 6th-grade beginner section and a 7th–8th intermediate section. Concert Band requires two years of middle school band or an audition, and Chapel Band is by audition. In elementary school, students take Music class and can join the Elementary Choir. No orchestra or strings ensemble is published at any level, and no a cappella group is named.',
     ladderTitle: 'The honors ladder — what is published',
     ladder: [
       {
         label: 'Join an ensemble',
-        text: 'band and choir run from the elementary grades through High School, with Christmas Chapel and Winter/Spring Performing Arts Concerts on the calendar.',
+        text: 'choir starts in the elementary grades and band in 6th grade, with chapel and end-of-semester concerts on the calendar.',
       },
       {
-        label: 'Earn a superior rating',
-        text: 'band students take part in adjudicated festivals annually, and the Middle School band has earned superior ratings at ACSI band festivals.',
+        label: 'Be adjudicated',
+        text: 'band students take part in at least one adjudicated band festival each year, and the Concert Band performs at the ACSI Festival each spring.',
       },
       {
         label: 'Be recognized',
-        text: 'the Tri-M Music Honor Society is the published music honor at HGCS; per-year selection or superior-rating counts are not published.',
+        text: 'students can audition for NCBA All-District, All-State and Solo & Ensemble. No music honor society is named, and selection counts are not published.',
       },
     ],
     ladderNote:
-      'Beyond Tri-M and the ACSI band festivals, no all-state selection, adjudication result count or festival placement is published.',
+      'Beyond the ACSI Festival and the NCBA auditions, no all-state selection, adjudication result or festival placement is published.',
     sources: [
-      { label: 'hgchristian.org — Arts hub (Concert & Jazz Band)', url: ARTS },
-      { label: 'hgchristian.org — Performing Arts (ensembles, festivals, Tri-M)', url: PERFORMING },
+      { label: 'hgchristian.org — Performing Arts (ensembles, festivals)', url: PERFORMING },
+      { label: 'hgchristian.org — Arts (adjudicated festivals, NCBA honor bands)', url: ARTS },
     ],
   },
 
   visual: {
     headline:
-      'A leveled studio sequence — Art I through Art IV to AP Studio Art 2D — plus Art Appreciation and the Exodus yearbook publications track.',
+      'A leveled studio sequence — Art I through Art IV to AP 2D Studio Art — plus Ceramics, Fiber Crafts, Art Appreciation and a Digital Arts track.',
     subhead:
-      'The visual-arts page names an actual leveled path (unlike the performing-arts page), and reports AP Studio Art students consistently scoring 3 or 4.',
+      'The visual-arts page lays out a leveled path to a college-level AP portfolio, built from a 15-piece body of work.',
     mediaTitle: 'Studio & media',
     media: [
-      { name: 'Visual Arts (Art I–IV)', detail: 'the core leveled studio strand' },
-      { name: 'Art Appreciation', detail: 'a High School survey course' },
-      { name: 'Yearbook (Exodus)', detail: 'Yearbook I and Honors Yearbook I–III' },
+      { name: 'Art I–IV', detail: 'the core leveled studio strand' },
+      { name: 'Ceramics I–II', detail: 'handbuilding, sgraffito and glazing, with the wheel in Ceramics II' },
+      { name: 'Fiber Crafts I–II', detail: 'crochet, cross stitch, sewing and quilting' },
+      { name: 'Art Appreciation', detail: 'open to all students, whatever their art background' },
+      { name: 'Digital Arts', detail: 'the Exodus yearbook, Photography and Design, and Digital Media (the HG360 broadcast)' },
     ],
     path: [
       { name: 'Art I / II' },
       { name: 'Art III / IV' },
-      { name: 'AP Studio Art 2D', terminal: true },
+      { name: 'AP 2D Studio Art', terminal: true },
     ],
     pathNote:
-      'This sequence is published on the visual-arts page. AP Studio Art students "consistently score 3 or 4 on the AP exam" (scores dipped during remote learning); no National Art Honor Society is published.',
+      'This sequence is published on the visual-arts page. AP 2D Studio Art is a 15-piece body of work driven by the student’s own essential question; no National Art Honor Society is published.',
     exhibits: [
       {
         when: 'Throughout the year',
         name: 'Student exhibitions & competitions',
-        detail: 'visual-arts students display work throughout the year and compete in public and private competitions',
+        detail: 'student artwork is displayed across campus, featured in the Silent Auction and entered in competitions',
       },
     ],
     footnote:
-      'None of these is published: a named gallery or exhibit event · a National Art Honor Society · external visual-arts recognition (Scholastic or otherwise). K–5 art covers shapes, colors and texture, and Middle School adds artist studies and mixed-media portraits. Both lead into the High School sequence.',
+      'None of these is published: a named gallery or exhibit event · a National Art Honor Society · external visual-arts recognition (Scholastic or otherwise). Elementary art builds from sketching and drawing to painting and other media. Middle School offers Bible Sketch (6th) and Sewing (7th–8th).',
     sources: [
-      { label: 'hgchristian.org — Visual Arts (Art I–IV, AP Studio Art 2D)', url: VISUAL },
-      { label: 'hgchristian.org — Arts hub (Exodus yearbook)', url: ARTS },
+      { label: 'hgchristian.org — Visual Arts (Art I–IV, AP 2D Studio Art, Ceramics, Fiber Crafts)', url: VISUAL },
+      { label: 'hgchristian.org — Digital Arts (Exodus yearbook, HG360)', url: DIGITAL },
     ],
   },
 
@@ -222,22 +232,22 @@ export const hickoryGroveChristian: ArtsProgram = {
       },
       {
         label: 'A studio path that reaches AP',
-        text: 'the visual-arts page publishes a leveled Art I → IV → AP Studio Art 2D sequence, with AP students consistently scoring 3 or 4.',
+        text: 'the visual-arts page publishes a leveled Art I → IV → AP 2D Studio Art sequence, ending in a college-level AP portfolio.',
       },
       {
         label: 'Adjudicated music',
-        text: 'band students take part in adjudicated festivals annually, the Middle School band has earned superior ACSI ratings, and Tri-M recognizes the strongest musicians.',
+        text: 'band students are judged at a festival at least once a year. The Concert Band plays at the ACSI Festival each spring, and students can try out for NCBA honor bands.',
       },
       {
         label: 'A full TK–12 ladder',
-        text: 'visual art and general music reach every young student, widening into band, choir, theatre, technical theatre and the Exodus yearbook by High School.',
+        text: 'visual art and music reach every young student, widening into band, choir, theatre, dance, ceramics, fiber crafts and a Digital Arts track by High School.',
       },
     ],
     ask: [
-      'Where do the biennial musicals stage — what is the venue, and how many seats? No performance space is named.',
+      'Where does the spring musical stage — what is the venue, and how many seats? No performance space is named.',
       'Who directs the Upper School theatre program, and who directed the Blumey-recognized Seussical and The Little Mermaid?',
-      'Is there any music beyond band and choir — an orchestra, a strings program, or an a cappella group? None is published.',
-      'What does the AP Studio Art 2D score distribution actually look like year to year, beyond "consistently 3 or 4"?',
+      'Is there any music beyond band, choir and the worship bands — an orchestra, a strings program, or an a cappella group? None is published.',
+      'How do AP 2D Studio Art students score on the AP exam year to year? The visual-arts page publishes no results.',
       'Is there a National Art Honor Society or any external visual-arts recognition (Scholastic) the page does not mention?',
     ],
     sources: [
