@@ -7473,7 +7473,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
                 'Honors African American Studies focuses on the historical, political, economic, and social figures and movements impacting Black Americans over the past 400+ years.',
             },
             {
-              title: 'Honors Latin American Influence',
+              title: 'Honors Latin American Influence in the United States',
               tag: 'Honors',
               description:
                 'This interdisciplinary course is designed for the students to explore the Latino influence in the United States in the last century.',
@@ -7651,85 +7651,85 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Options English 9',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills English course for grade 9 students in the Options Program.',
             },
             {
               title: 'Options English 10',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills English course for grade 10 students in the Options Program.',
             },
             {
               title: 'Options English 11',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills English course for grade 11 students in the Options Program.',
             },
             {
               title: 'Options English 12',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills English course for grade 12 students in the Options Program.',
             },
             {
               title: 'Options Year 1',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 9 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Options Year 2',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 10 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Options Year 3',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 11 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Options Year 4',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 12 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Options PE',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For students in grades 9–12 in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Math Life 1',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills math course for grade 9 students in the Options Program.',
             },
             {
               title: 'Math Life 2',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills math course for grade 10 students in the Options Program.',
             },
             {
               title: 'Options Personal Finance',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 11 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Options Financial Management',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 12 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Pathway Program',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A two-year extension of the Options Program beyond the traditional high school experience, building life skills, workplace and college readiness, and independence through classes, job training, internships and community experiences.',
             },
           ],
         },
@@ -7828,7 +7828,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Chemistry',
               tag: 'Honors',
               description:
-                'This rigorous course is designed for students who possess a strong work ethic and the ability to think critically.',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering the structure, properties and changes of matter: atomic structure · bonding · chemical names and formulas · periodic properties · chemical equations and types of reactions · stoichiometric calculations · acid-base theories · redox and equilibrium.',
             },
             {
               title: 'Oceanography',
@@ -7849,7 +7849,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Anatomy and Physiology',
               tag: 'Honors',
               description:
-                'This rigorous course is designed for students who possess a strong work ethic and the ability to think critically.',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering the digestive, circulatory, respiratory, locomotive (skeletal and muscular) and excretory systems · a dissection and a research paper are required.',
             },
             {
               title: 'Honors Nutritional Science',
@@ -7879,7 +7879,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement Physics 1: Algebra-Based',
               tag: 'AP',
               description:
-                'This course is a full year in-depth study of Newtonian mechanics. The content includes kinematics, Newton’s laws of motion, work, energy and power, systems of particles and linear momentum, circular motion and rotation, and oscillations…',
+                'An algebra-based, introductory college-level physics course; every student must take the AP Physics 1: Algebra-Based exam.',
             },
             {
               title: 'Advanced Placement Physics C: Mechanics',
@@ -8002,7 +8002,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement European History',
               tag: 'AP',
               description:
-                'This course begins with a brief orientation to philosophy and logic. The remainder of the course examines how God reveals himself to people.',
+                'Covers key events, figures and developments in Europe from 1450 to the present, with practice analyzing sources and forming arguments; every student must take the AP European History exam.',
             },
           ],
         },
@@ -8010,7 +8010,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
           name: 'Theology',
           courses: [
             {
-              title: 'Faith and Revelation: Knowing',
+              title: 'Faith and Revelation: Knowing God through Sacred Scripture',
               description:
                 'This course begins with a brief orientation to philosophy and logic. The remainder of the course examines how God reveals himself to people.',
             },
@@ -8026,7 +8026,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
                 'Sacred Scripture offers students a deep encounter with the Word of God through a traditional, liberal arts lens.',
             },
             {
-              title: 'The Mystery of Redemption and Christian',
+              title: 'The Mystery of Redemption and Christian Discipleship',
               description:
                 'This course examines the meaning of redemption; Original Sin; and how the salvific promise made to our first parents is fulfilled in the life, Death, Resurrection, and Ascension of Jesus Christ.',
             },
@@ -8134,7 +8134,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Introduction to Photography',
               description:
-                'Photography II is a continuation of Photography I and requires students to have a good working knowledge of DSLR camera controls and the fundamentals of composition.',
+                'An introduction to photographic composition and the controls of a digital SLR (DSLR) camera, with a focus on available light.',
             },
             {
               title: 'Photography II',
@@ -8227,7 +8227,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
                 'Begin your journey to stardom as a student of the craft of acting, directing, and movie making.',
             },
             {
-              title: 'Behind the Scenes: Set Design, Construction,',
+              title: 'Behind the Scenes: Set Design, Construction, Lighting, Sound and Costuming',
               description:
                 'Come see how we make it look easy. The world of stage craft is vast and can lend itself to numerous other career paths.',
             },
@@ -8383,7 +8383,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Latin II',
               tag: 'Advanced',
               description:
-                'This course is designed to continue the foundation learned in Latin I and build a greater understanding of complex sentence structures, increase vocabulary and help students prepare to read from well known authors from the ancient world.',
+                'This course is designed to continue the foundation learned in Latin I and build a greater understanding of complex sentence structures, increase vocabulary and help students prepare to read from well known authors from the ancient world. In the Advanced level, the linguistic level of instruction and communication will be more complex, the curriculum will move at a faster pace, and students will be held to more rigorous expectations.',
             },
             {
               title: 'Advanced Latin III',
