@@ -595,7 +595,7 @@ export const providenceDay: SportsProgram = {
       },
     ],
     careNote:
-      'Context: CMS public schools partner with Atrium Health and Charlotte Country Day uses OrthoCarolina. PD’s fully in-house model is the differentiator to probe on a tour. Seating capacities are not published for any PD venue.',
+      'Many schools partner with a hospital system for sports medicine. PD’s fully in-house model is the main difference to ask about on a tour. Seating capacities are not published for any PD venue.',
     sources: [
       {
         label: 'pdschargers.com — Athletic Facilities',

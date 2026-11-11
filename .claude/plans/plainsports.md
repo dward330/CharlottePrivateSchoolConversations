@@ -563,7 +563,7 @@ only after Batch 5.
 | Batch | Commit | Review file(s) | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
 | 1 (tooling) | in the Batch 1 commit | — | — | — |
-| 1 | `82639cc3` | [review-batch1.md](plainsports-data/review-batch1.md) | 3 (all fixed) | ruling: no comparisons with other schools (applied) |
+| 1 | `72d80b8e` | [review-batch1.md](plainsports-data/review-batch1.md) | 3 (all fixed) | ruling: no comparisons with other schools (applied) |
 | 1 (ruling) | `plainsports: batch 1 ruling` (SHA filled on resume) | [review-batch1-ruling.md](plainsports-data/review-batch1-ruling.md) | — | awaiting review |
 | 2 (fixes) | | | | |
 | 2 | | | | |
@@ -863,12 +863,30 @@ must survive"): a comparison with another school is **removed**, not corrected. 
 Batch 1 to Latin `facilities.care[4].text` ("unlike its CISAA peers who publish theirs") and
 Latin `facilities.careNote` (the "By contrast, Charlotte Country Day names OrthoCarolina, …"
 sentence), in its own commit with `review-batch1-ruling.md`. Guard (p) fails there by design
-(only other schools' names leave).
+(only other schools' names leave). PD `facilities.careNote` (off-worklist, found by the
+site-wide scan for plan `nocompare`) joined the same commit, rewritten under the approach below:
+"Many schools partner with a hospital system for sports medicine. PD’s fully in-house model is
+the main difference to ask about on a tour." (T8 sentence byte-identical).
 
-For the later batches, the default under this ruling (each removal in that batch's fixes
+**How to remove (user suggestion, 2026-11-11, written into plan `nocompare`): rewrite first,
+delete as the fallback.** Rewrite the comparison as a statement about this school that names no
+school and no site set, with a **hedged** general word ("few schools", "many schools",
+"unusually", "rare"), never an absolute one ("no school", "the only", "the most"). Delete when
+the comparison carries no point beyond the ranking, or when even the hedge would claim more than
+the evidence (a figure that is only the lowest of the 13 schools here). `nocompare.md` "How to
+remove" has the full rule and 78 worked examples.
+
+For the later batches, the default under this ruling (each change in that batch's fixes
 commit, recorded in `review-batch<N>-fixes.md`, so the wording-pass guards run on the
 trimmed text):
-- **Removed:** Catholic `national.scheduleNote` "every other school in this app plays NCISAA"
+- **Off-worklist Sports units the scan found** (add them to that batch's
+  `worklist-extra-batch<N>.json`): Catholic `facilities.subhead` "a different structure from
+  the independent schools on this roster" (B2); CCD `facilities.subhead` "more than any other
+  school in this comparison" (B3); DD `offered.subhead` "earlier than any other school in this
+  comparison" (B4); Gaston `facilities.careNote` "Every peer school on this roster publishes a
+  venue list" (B5). Latin `offered.subhead` "The largest campus among Charlotte-area
+  independent schools" is an own-result ranking and stays.
+- **Rewritten or removed:** Catholic `national.scheduleNote` "every other school in this app plays NCISAA"
   and `offered.footnote` "unlike every PK/K–12 school on this roster" (B2, replacing their
   planned fixes); Christian `funnelNote` "the highest of any school in this comparison" (B2;
   keep "At 73%, the Division I share …"); Christian, Cannon and CCD `careNote` care-model
