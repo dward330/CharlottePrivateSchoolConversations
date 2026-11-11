@@ -1,12 +1,12 @@
 ---
 name: plainclubs
 title: Plain-language rewrite of the Student Clubs area's English prose (13 clubsPrograms files + the shared clubClusters.ts and clubCatalog.ts; 101 rendered sites, the 25 never-rendered GAP/COUNT flags excluded by user decision), plus removal of one missed non-athlete student name at 3 rendered sites; English in three reviewed batches, then all nine prose locales
-status: english-done
+status: implemented
 phases: 2
 batches: 3                     # Phase 1 is built in three batches, each with its own review stop
 created: 2026-11-10
 branch: feat/plainclubs
-prs: []
+prs: [479]
 ---
 
 # Plain-language rewrite — Student Clubs
