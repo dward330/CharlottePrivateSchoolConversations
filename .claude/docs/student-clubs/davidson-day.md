@@ -1,5 +1,5 @@
 # Davidson Day School — Student Clubs
-> Distilled from 11 source document(s) in `source-material/student-clubs/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 11 source document(s) in `source-material/student-clubs/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
 **Documents:** AFAR Archaeology and Global Studies, Academic Recognition and Competition, Club Catalog and Overview, Community Engagement Web Check 2026, Diversity Belonging and Student Leadership, Honor Societies Web Check 2026, NotebookLM Prompt, Publications and Student Media, Service and Community Engagement, Signature Traditions and Student Life, Clubs Redesign Deep Research
 
 
@@ -168,6 +168,29 @@ aggregator-listed and unverified; the school's own documented structures are pro
 and councils, not a club roster.
 
 Source: PrivateSchoolReview — Davidson Day School profile (privateschoolreview.com/davidson-day-school-profile; single-source, unverified). Davidson Day School — Upper School, Middle School, and Community & Culture pages (davidsonday.org). Wikipedia — Davidson Day School.
+
+---
+
+## School-sources update 2026-11-10
+
+Retrieved by Claude (Claude Code agent) on 2026-11-10, from the school's own live pages, after the user ruled that **every school's club list comes only from the school's own website and documents** (the rule first applied to Gaston Day in plan `thespianname`). Applied in plan `plainclubs`.
+
+**None of the nine PrivateSchoolReview club names appears on davidsonday.org**, so all
+nine were removed (Chess, Debate, Science, Math Olympiad, Environmental, Outdoor, Creative
+Writing, Film, Community Service). The Upper School, Middle School, Student Life and
+"Student Life at Davidson Day" pages name no clubs. The groups the school names itself:
+
+- **Student Belonging Council:** "Developed by students, the Student Belonging Council started hosting monthly belonging forums in 2020." → https://www.davidsonday.org/student-life/belonging
+- **Upper School Belonging Council:** a podcast with "the Upper School Belonging Council leadership and faculty sponsor Steve McGill" (same page).
+- **Upper School Community Engagement Council:** "Our Community Engagement Council demonstrates a deep commitment to service and leadership" → https://www.davidsonday.org/student-life/community-and-culture
+- **National Honor Society:** "National Honor Society Members" — 28 (Class of 2025) → https://www.davidsonday.org/academics/college-counseling
+
+**Battle of the Books** (Middle School, regional first place): no Davidson Day page names
+it (site-restricted and open web searches, 2026-11-10), so the cluster row and the Compare
+flagship-result cell were removed; flagship-result is now null. Kept, each on the school's
+own pages: the Global Studies Diploma and the Scholars Research Conference (Diploma
+Distinctions pages) and the Acclaim Scholars program (Tuition & Affordability page, a
+tuition scholarship for the class of 2030). Compare `us-organizations`: ≥9 → **≥3**.
 
 
 ---
@@ -627,6 +650,20 @@ davidsonday.org and the list appears stale, so it is **not ingested as club data
  School Service Days, Patriot Pals, Social-Emotional Learning, Upper School Community
  Engagement Council) are **unlinked** — only Belonging has a live detail page. The card
  summaries quoted above are the full extent of published detail.
+
+---
+
+## Web check 2026-11-10 (plan `plainclubs`)
+
+Retrieved by Claude (Claude Code agent) on 2026-11-10. **Correction: 7 community partners
+are named, not 8.** The "Community Partnerships" section ("Davidson Day School partners
+with local organizations to create meaningful experiential learning") names exactly
+seven: Champions House of Care · The Kindness Closet · Food for Days · Beds for Kids ·
+American Foreign Academic Research (AFAR) · Davidson Public Library · Davidson College
+Deliberative Citizenship Initiative. The "8 named" heading above miscounted its own list.
+The page also has an "Upper School Community Engagement Council" section ("Our Community
+Engagement Council demonstrates a deep commitment to service and leadership").
+→ https://www.davidsonday.org/student-life/community-and-culture
 
 
 ---

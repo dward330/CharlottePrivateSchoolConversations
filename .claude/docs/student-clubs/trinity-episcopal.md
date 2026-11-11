@@ -1,5 +1,5 @@
 # Trinity Episcopal School — Student Clubs
-> Distilled from 4 source document(s) in `source-material/student-clubs/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 4 source document(s) in `source-material/student-clubs/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
 **Documents:** Academic and Competitive Clubs, Affinity and Identity Groups, Club Catalog and Traditions, Service and Civic Engagement
 
 
@@ -10,6 +10,13 @@
 *Source file: `Trinity Episcopal School - Student Clubs - Academic and Competitive Clubs.md`*
 
 # Trinity Episcopal School — Student Clubs — Academic and Competitive Clubs
+
+**Summary (added 2026-11-10, plan `plainclubs`; summarizes the findings below, no new
+sources).** Trinity's academic and competitive record rests on two state titles: the
+Middle School Mock Trial team's three consecutive North Carolina Bar Foundation state
+championships, and a Speech & Debate state championship. Students also elect an Honor
+Council. No National Junior Honor Society or Student Council appears on the school's
+site or in either School Profile. Details and sources follow.
 
 ## Provenance
 

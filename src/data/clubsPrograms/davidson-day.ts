@@ -63,7 +63,7 @@ export const davidsonDay: ClubsProgram = {
         valueLabel: 'minimum hours · per diploma distinction',
         name: 'Diploma Distinctions Practicum',
         detail:
-          'Every Diploma Distinction requires an immersive practicum of at least 100 hours — an internship, civic engagement, nonprofit leadership, medical shadowing or pre-collegiate program — plus quarterly Ethics Labs and a capstone at the Davidson Day Scholars Research Conference. Students apply at the end of sophomore year. Outside the distinctions, the school’s 2026–27 profile states that “Service is encouraged, but not required.”',
+          'Every Diploma Distinction requires an immersive practicum (a hands-on learning experience) of at least 100 hours. It can be one of these: an internship · civic engagement · nonprofit leadership · medical shadowing · a pre-college program. Each distinction also requires Ethics Labs every quarter and a capstone at the Davidson Day Scholars Research Conference. Students apply at the end of sophomore year. Outside the distinctions, the school’s 2026–27 profile states that “Service is encouraged, but not required.”',
         source: { label: 'Diploma Distinctions', url: DIPLOMA_DISTINCTIONS },
       },
       {
@@ -71,7 +71,7 @@ export const davidsonDay: ClubsProgram = {
         valueLabel: 'students · a national first',
         name: 'Davidson College Deliberative Citizenship Initiative',
         detail:
-          'Davidson Day is the first high school ever to collaborate with the program. Thirteen Upper Schoolers completed two deliberation modules on social safety nets and constitutional rights, attending expert panels and two-hour small-group deliberations built around civil discourse rather than debate-to-win.',
+          'Davidson Day is the first high school ever to work with the program. Thirteen Upper Schoolers completed two deliberation modules, on social safety nets and on constitutional rights. The students went to expert panels and two-hour small-group talks. The talks were built around respectful discussion rather than debating to win.',
         source: { label: 'School blog', url: DELIBERATIVE_BLOG },
       },
       {
@@ -85,11 +85,11 @@ export const davidsonDay: ClubsProgram = {
     ],
     footnoteTitle: 'The partner network',
     footnote:
-      'Eight community partners are named: Champions House of Care, The Kindness Closet, Food for Days, Beds for Kids, American Foreign Academic Research (AFAR), the Davidson Public Library and the Davidson College Deliberative Citizenship Initiative. An Upper School Community Engagement Council is also described, though no roster or founding year is published for it.',
+      'Seven community partners are named: Champions House of Care · The Kindness Closet · Food for Days · Beds for Kids · American Foreign Academic Research (AFAR) · the Davidson Public Library · the Davidson College Deliberative Citizenship Initiative. The school also describes an Upper School Community Engagement Council. No roster or founding year is published for it.',
     flags: [
       {
         kind: 'not-a-club',
-        text: 'Two of the school’s most striking service stories are explicitly not clubs. Longevity LKN is a student-founded 501(c)(3) nonprofit — not a school club — that has screened over 100 community members for blood pressure across Lake Norman. The AFAR archaeology work, in which 13 students excavated the Adam Spach Rock House alongside professional archaeologists as the first high schoolers to work with the North Carolina State Historic Preservation Office, is never defined as a club on the school’s own page. The Deliberative Citizenship partnership is a structured program, and Patriot Pals is a peer-mentorship tradition.',
+        text: 'Two of the school’s most striking service stories are explicitly not clubs. Longevity LKN is a student-founded 501(c)(3) nonprofit, not a school club. The nonprofit has screened over 100 community members for blood pressure across Lake Norman. In the AFAR archaeology work, 13 students excavated the Adam Spach Rock House alongside professional archaeologists. Those students were the first high schoolers to work with the North Carolina State Historic Preservation Office. The school’s own page never defines that work as a club. The Deliberative Citizenship partnership is a structured program, and Patriot Pals is a peer-mentorship tradition.',
       },
       {
         kind: 'gap',

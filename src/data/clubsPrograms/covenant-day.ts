@@ -19,7 +19,6 @@ import type { ClubsProgram } from '../clubsProgram.ts'
 const SERVICE = 'https://www.covenantday.org/campus-life/service'
 const DISCIPLESHIP = 'https://www.covenantday.org/campus-life/discipleship'
 const STUDENT_LIFE = 'https://www.covenantday.org/campus-life/student-life'
-const PSR = 'https://www.privateschoolreview.com/covenant-day-school-profile'
 
 export const covenantDay: ClubsProgram = {
   service: {
@@ -49,13 +48,13 @@ export const covenantDay: ClubsProgram = {
         valueLabel: 'teens to be housed · Pine Ridge',
         name: 'ContainIt',
         detail:
-          'High school students "use their different talents to transform used shipping containers" into housing for the Pine Ridge Reservation in South Dakota, aiming to provide housing for more than 30 teens — a multi-year design-and-trades build, with Restore525 as the Restoration & Sustainability department’s companion program (and a credit-bearing course).',
+          'High school students "use their different talents to transform used shipping containers" into housing for the Pine Ridge Reservation in South Dakota. The goal is housing for more than 30 teens. The project runs over several years and uses design and skilled-trades work. Restore525 is the Restoration & Sustainability department’s companion program, and it is also a course that earns credit.',
         source: { label: 'Service', url: SERVICE },
       },
     ],
     footnoteTitle: 'The partner network',
     footnote:
-      'Named partners: Matthews HELP Center, Matthews Habitat for Humanity, Operation Christmas Child, Brookstone Schools, Jackson Park, Alexander Children’s Home, and Love INC. Missions trips run to Spain, Haiti, Belize, and Pine Ridge, with a Lower School Missions Week of missionary speakers and cultural education.',
+      'Named partners: Matthews HELP Center · Matthews Habitat for Humanity · Operation Christmas Child · Brookstone Schools · Jackson Park · Alexander Children’s Home · Love INC. Missions trips go to Spain, Haiti, Belize and Pine Ridge. The Lower School also holds a Missions Week of missionary speakers and cultural education.',
     flags: [
       {
         kind: 'gap',
@@ -70,27 +69,21 @@ export const covenantDay: ClubsProgram = {
 
   honors: {
     headline:
-      'Six documented societies — but only the two arts chapters are confirmed on the school’s own pages.',
+      'Five honor societies, each named on the school’s own pages, including three arts chapters.',
     subhead:
-      'The school publishes no honor-society page: divisions, induction criteria and sponsors are unstated for every chapter.',
+      'The school publishes no honor-society page, so induction criteria and sponsors are unstated for most chapters.',
     societies: [
       {
         name: 'National Honor Society',
-        division: 'Upper School*',
+        division: 'Upper School',
         recognizes: 'Scholarship, service, leadership, character',
-        feedsFrom: 'Third-party roster only — not confirmed on a school page',
+        feedsFrom: 'School news — juniors and seniors, chosen on its four pillars',
       },
       {
         name: 'National Art Honor Society',
-        division: 'Upper School*',
+        division: 'Upper School',
         recognizes: 'Visual-arts achievement',
-        feedsFrom: 'Third-party roster; the visual-arts program it would sit atop is school-documented',
-      },
-      {
-        name: 'Spanish Honor Society',
-        division: 'Upper School*',
-        recognizes: 'Spanish-language achievement',
-        feedsFrom: 'Third-party roster; Spanish runs 1–4 plus AP in the course matrix',
+        feedsFrom: 'Named as a co-curricular on the visual-arts page',
       },
       {
         name: 'International Thespian Society',
@@ -106,9 +99,9 @@ export const covenantDay: ClubsProgram = {
       },
       {
         name: 'Beta Club',
-        division: 'Unstated*',
+        division: 'High School',
         recognizes: 'Academic achievement and service (national organization)',
-        feedsFrom: 'Third-party roster only',
+        feedsFrom: 'Named on the service page — members start school-wide service projects',
       },
     ],
     adjacent: [
@@ -118,19 +111,16 @@ export const covenantDay: ClubsProgram = {
       },
       {
         label: 'Mock Trial',
-        text: 'Courtroom artist Cornelia Knight (Covenant Day Blue) won her regional and finished 2025 state runner-up — the best-documented statewide result in this area.',
+        text: 'A courtroom artist on the Covenant Day Blue team won her regional and finished 2025 state runner-up — the best-documented statewide result in this area.',
       },
     ],
-    flags: [
-      {
-        kind: 'gap',
-        text: 'Entries marked * rest on a third-party roster (privateschoolreview.com) — the school publishes no honor-society directory, so divisions, induction criteria, member counts and faculty sponsors are unpublished for every society, and the four non-arts chapters are unconfirmed on any school-owned page.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'covenantday.org — Theater (Thespian Society)', url: 'https://www.covenantday.org/arts/theater' },
       { label: 'covenantday.org — Music (Tri-M)', url: 'https://www.covenantday.org/arts/music' },
-      { label: 'PrivateSchoolReview — activities roster (third-party)', url: PSR },
+      { label: 'covenantday.org — Service (Beta Club)', url: 'https://www.covenantday.org/campus-life/service' },
+      { label: 'covenantday.org — Visual Arts (National Art Honor Society)', url: 'https://www.covenantday.org/arts/visual-arts' },
+      { label: 'covenantday.org — News (National Honor Society inductees)', url: 'https://www.covenantday.org/about-us/news' },
       { label: 'covenantday.org — Student Life', url: STUDENT_LIFE },
     ],
   },

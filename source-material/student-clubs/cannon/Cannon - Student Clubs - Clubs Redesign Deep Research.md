@@ -176,3 +176,33 @@ that role.
 - **No Middle School honor societies** of any kind.
 - The one news article about a Cannon honor society induction
   (lakenormanpublications.com) is **dead — HTTP 404**.
+
+---
+
+## Web check 2026-11-10 (plan `plainclubs`)
+
+Retrieved by Claude (Claude Code agent) on 2026-11-10, from the school's live pages.
+
+- **Service hours.** The Upper School page still says: "Although service is not a
+  graduation requirement at Cannon, students' deep sense of commitment and personal
+  responsibility is evidenced by the collective completion of almost 10,000 service hours
+  each year". It sits in the Upper School section, under "Partnership". The app's
+  Club Catalog row that still said "~15,000 school-wide hours" is corrected to this
+  figure and scope. → https://www.cannonschool.org/academics/upper-school
+- **Winterm tracks.** The Winterm page says the week is "broken into four experiences"
+  but names three headings: "The First & Second Year Experience:" (the first two years),
+  "The Junior Experience:" (11th grade) and "Trips and Certifications:" (9th through 11th
+  grade). The "4" on the card is the school's own count; the card now quotes that framing
+  and names the three. Program sentence: "Winterm challenges students to think critically
+  and practically, to serve others". Food bank: "We will also spend time serving at a
+  local food bank and discuss social issues such as food insecurity and food waste."
+  → https://www.cannonschool.org/academics/upper-school/winterm
+
+---
+
+## School-sources update 2026-11-10
+
+Retrieved by Claude (Claude Code agent) on 2026-11-10, from the school's own live pages, after the user ruled that **every school's club list comes only from the school's own website and documents** (the rule first applied to Gaston Day in plan `thespianname`). Applied in plan `plainclubs`. Cannon's catalog already listed only organizations Cannon names directly; Niche (cited
+in the Upper School catalog dossier for Cannon School Gaming and the student-initiated
+model) was dropped from the source line. Cannon's own Esports and Upper School Student Life
+pages carry both.

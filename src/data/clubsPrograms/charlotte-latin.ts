@@ -95,7 +95,7 @@ export const charlotteLatin: ClubsProgram = {
         valueLabel: 'hours to be inducted · since 1997-98',
         name: 'Latin Service Society',
         detail:
-          'A recognition society, not a requirement: it "recognizes students who make significant contributions to the community through service" using a reflection-based model across all four Upper School years. Four-year students need 150 hours, prorated for transfers, and are inducted at the end of senior year.',
+          'A recognition society, not a requirement. It "recognizes students who make significant contributions to the community through service" and uses a reflection-based model across all four Upper School years. Four-year students need 150 hours, with the total reduced in proportion for transfer students. Qualifying students are inducted at the end of senior year.',
         source: { label: 'Service · Family Handbook', url: SERVICE },
       },
       {
@@ -111,17 +111,17 @@ export const charlotteLatin: ClubsProgram = {
         valueLabel: 'hours · Class of 2023 by end of junior year',
         name: 'Community Partners & the Service Council',
         detail:
-          'Three school-wide partners — Baby Bundles, Special Olympics and Habitat for Humanity of the Charlotte Region — anchor a program governed by six Principles of Good Practice. The Upper School Service Council organizes service activities available every week of the year.',
+          'Three school-wide partners anchor the program: Baby Bundles, Special Olympics and Habitat for Humanity of the Charlotte Region. The program follows six Principles of Good Practice. Every week of the year, the Upper School Service Council organizes service activities students can join.',
         source: { label: 'Upper School Profile', url: US_PROFILE },
       },
     ],
     footnoteTitle: 'On the numbers',
     footnote:
-      'An earlier profile recorded 5,485 hours for the Class of 2018 by the end of junior year, with five class members qualifying for the Service Society and seven students earning a Presidential Volunteer Service Award in 2016-17. A fourth initiative, Good Neighbors, lends campus gym space to community organizations.',
+      'An earlier profile recorded 5,485 hours for the Class of 2018 by the end of junior year. Five members of that class qualified for the Service Society, and seven students earned a Presidential Volunteer Service Award in 2016-17. A fourth program, Good Neighbors, lends campus gym space to community groups.',
     flags: [
       {
         kind: 'not-a-club',
-        text: 'The school lists Blessings in a Backpack — which meets every Wednesday to pack weekend food for students on free lunch — and Student Council separately from its club roster, as standing activities rather than open-enrollment clubs. Service Council–organized weekly activities are likewise individual service activity, not club membership.',
+        text: 'The school lists Blessings in a Backpack and Student Council apart from its club roster. It treats both as standing activities rather than open-enrollment clubs. Blessings in a Backpack meets every Wednesday to pack weekend food for students on free lunch. The weekly activities the Service Council organizes are also individual service, not club membership.',
       },
     ],
     sources: [
@@ -162,7 +162,7 @@ export const charlotteLatin: ClubsProgram = {
     adjacent: [
       {
         label: 'Named subject prizes',
-        text: 'The Victor Hugo Award (French), Homer Award (Greek), Petrarch Award (Latin), Cervantes Award (Spanish), Bausch + Lomb Honorary Science Award and Rensselaer Medal. This is where world-language and subject achievement is recognized here — as prizes, not chapters.',
+        text: 'The Victor Hugo Award (French) · Homer Award (Greek) · Petrarch Award (Latin) · Cervantes Award (Spanish) · Bausch + Lomb Honorary Science Award · Rensselaer Medal. Here, world-language and subject achievement is recognized as prizes, not chapters.',
       },
       {
         label: 'Headmaster’s List & Junior Marshals',

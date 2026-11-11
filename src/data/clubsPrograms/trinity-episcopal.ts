@@ -133,7 +133,7 @@ export const trinityEpiscopal: ClubsProgram = {
     ],
     leadershipTitle: 'Who runs it',
     leadership:
-      'Ayeola Elias is Director of Diversity, Equity, and Belonging. No student diversity leadership council is published, and no attendance at a national student diversity conference appears anywhere on the site — which is consistent with a K–8 school, where those conferences are pitched at high schoolers.',
+      'Ayeola Elias is Director of Diversity, Equity, and Belonging. No student diversity leadership council is published. No attendance at a national student diversity conference appears anywhere on the site either. Both absences are consistent with a K–8 school, since those conferences are aimed at high schoolers.',
     flags: [
       {
         kind: 'count',
@@ -177,7 +177,7 @@ export const trinityEpiscopal: ClubsProgram = {
         valueLabel: 'eighth-graders on the 2024 advocacy trip',
         name: 'Advocacy and Social Action — the 8th-grade capstone',
         detail:
-          'Eighth grade maps its community, researches an issue all year in the Social Issues Seminar, then travels to Washington, DC to advocate on it. The 2024 group met Rep. Jeff Jackson at the Capitol and carried five issues: gun-violence victim resources, economic mobility, minimum wage, affordable housing and healthcare cost transparency. Assistant Head of School Stephanie Griffin: "This is a trip, at its heart and soul, that’s all about advocacy."',
+          'Eighth grade maps its community and researches an issue all year in the Social Issues Seminar. Then the class travels to Washington, DC to advocate on it. The 2024 group met Rep. Jeff Jackson at the Capitol and carried five issues: gun-violence victim resources · economic mobility · minimum wage · affordable housing · healthcare cost transparency. Assistant Head of School Stephanie Griffin: "This is a trip, at its heart and soul, that’s all about advocacy."',
         source: { label: 'tescharlotte.org — the 8th grade in Washington, DC', url: DC_TRIP },
       },
     ],
@@ -202,7 +202,7 @@ export const trinityEpiscopal: ClubsProgram = {
     headline:
       'Two state championships in one year, and a three-peat: the Middle School Mock Trial team won the North Carolina Bar Foundation competition in 2023, 2024 and 2025.',
     subhead:
-      'Trinity’s recognition record is competitive and civic rather than chartered — there is no honor-society chapter here, there is a courtroom, a debate circuit, and an Honor Council its own students elect.',
+      'Trinity’s recognition record is competitive and civic, not built on chartered societies. There is no honor-society chapter here. Instead there is a courtroom, a debate circuit, and an Honor Council its own students elect.',
     societies: [
       {
         name: 'Mock Trial — NC Bar Foundation state champions, 2023 · 2024 · 2025',
@@ -212,7 +212,7 @@ export const trinityEpiscopal: ClubsProgram = {
         // sentence in a table cell under a "Division" header, and ships English.
         division: 'Middle School',
         recognizes:
-          'Three consecutive state championships in the North Carolina Bar Foundation’s Middle School competition, coached by Jennifer Bader. The second title was won at the Mecklenburg County Courthouse against five other middle school teams.',
+          'Three state championships in a row in the North Carolina Bar Foundation’s Middle School competition, coached by Jennifer Bader. The second title was won at the Mecklenburg County Courthouse against five other middle school teams.',
         feedsFrom: 'the classroom',
       },
       {
@@ -234,7 +234,7 @@ export const trinityEpiscopal: ClubsProgram = {
     adjacent: [
       {
         label: 'Written by students, 2002',
-        text: 'The Honor Code was created by students in 2002 and carries six pledges: responsibility, doing one’s best, respecting others’ uniqueness, kindness, celebrating joy and beauty, and refraining from dishonesty or theft. The whole school recites it together at Greet the Week each Monday morning.',
+        text: 'The Honor Code was created by students in 2002. The code carries six pledges: responsibility · doing one’s best · respecting others’ uniqueness · kindness · celebrating joy and beauty · refraining from dishonesty or theft. The whole school recites it together at Greet the Week each Monday morning.',
       },
       {
         label: 'The Middle School Honor Pledge, adopted 2012',

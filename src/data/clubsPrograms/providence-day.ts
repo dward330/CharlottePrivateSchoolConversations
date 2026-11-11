@@ -50,7 +50,7 @@ const TRI_M_NEWS =
 export const providenceDay: ClubsProgram = {
   affinity: {
     headline:
-      'Nine Upper School affinity groups with a documented founding year apiece, plus Middle and Lower School groups, faculty and alumni networks, and three parent groups — all under a staffed DEI office.',
+      'Nine Upper School affinity groups, each with a documented founding year. There are also Middle and Lower School groups, faculty and alumni networks, and three parent groups. All of them sit under a staffed DEI office.',
     subhead:
       'The deepest published affinity structure in this comparison set, built out steadily from 1995 onward — though the school’s own live site no longer lists it.',
     umbrella: {
@@ -93,7 +93,7 @@ export const providenceDay: ClubsProgram = {
       },
     ],
     leadership:
-      'The Student Diversity Council, established 2017, is the formal liaison between students and Upper School administrators. Faculty attend the NAIS People of Color Conference for professional development; no student attendance at the national Student Diversity Leadership Conference is published.',
+      'The Student Diversity Council, established 2017, is the formal link between students and Upper School administrators. Faculty go to the NAIS People of Color Conference to train. No student attendance is published for the national Student Diversity Leadership Conference.',
     flags: [
       {
         kind: 'gap',
@@ -123,7 +123,7 @@ export const providenceDay: ClubsProgram = {
         valueLabel: 'scholars each summer · since 2012',
         name: 'Providence Day Freedom School',
         detail:
-          'A summer literacy program for K–8 Charlotte scholars run with Freedom School Partners. Providence Day was the first independent school in the country to host a CDF Freedom School, and remains the only one hosting a program every summer; the community collects supplies for all 18 Charlotte sites.',
+          'A summer literacy program for K–8 Charlotte scholars, run with Freedom School Partners. Providence Day was the first independent school in the country to host a CDF Freedom School. It is still the only one hosting a program every summer. The school community collects supplies for all 18 Charlotte sites.',
         source: { label: 'Freedom School', url: FREEDOM_SCHOOL },
       },
       {
@@ -139,17 +139,17 @@ export const providenceDay: ClubsProgram = {
         valueLabel: 'schools · 50 countries · joined 2016',
         name: 'Round Square',
         detail:
-          'The only member school in North Carolina. The global network is built on the IDEALS framework — International understanding, Democracy, Environmental stewardship, Adventure, Leadership and Service — and carries international service projects ("Big Builds") and exchanges.',
+          'The only member school in North Carolina. The global network is built on the IDEALS framework: International understanding · Democracy · Environmental stewardship · Adventure · Leadership · Service. It includes service projects abroad ("Big Builds") and exchanges.',
         source: { label: 'Global Education', url: GLOBAL_ED },
       },
     ],
     footnoteTitle: 'Beyond the big three',
     footnote:
-      'The school also advertises over 30 student-run service clubs, and each division carries its own partnership: 6th grade with Movement School, 7th with Winterfield Elementary, 8th with Wilson STEM Academy, and a 9th-grade Charger Impact Challenge. The school has no community service requirement.',
+      'The school also advertises over 30 student-run service clubs. Each division has its own partnership: 6th grade with Movement School · 7th with Winterfield Elementary · 8th with Wilson STEM Academy · a 9th-grade Charger Impact Challenge. The school has no community service requirement.',
     flags: [
       {
         kind: 'not-a-club',
-        text: 'The grade-level partnerships and the Charger Impact Challenge are curricular initiatives rather than clubs, and the President’s Volunteer Service Award is an individual recognition of logged hours, not a membership. The Community Engagement Portal is an opportunity-listing tool. The catalog card lists only confirmed organizations.',
+        text: 'The grade-level partnerships and the Charger Impact Challenge are part of the curriculum rather than clubs. The President’s Volunteer Service Award is an award for a student’s own logged hours, not a membership. The Community Engagement Portal is a tool that lists service opportunities. The catalog card lists only confirmed organizations.',
       },
     ],
     sources: [

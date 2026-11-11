@@ -41,7 +41,7 @@ export const charlotteCatholic: ClubsProgram = {
     umbrella: {
       name: 'Campus Ministry',
       detail:
-        'The clubs directory sits under Campus Ministry rather than student activities, which shapes the mix: faith-formation and service clubs are the largest blocks, and the Campus Ministry Club itself runs monthly formation, fellowship and faith events with altar server, sacristan and peer ministry roles.',
+        'The clubs directory sits under Campus Ministry, not student activities, and that shapes the mix. Service is the largest block, with 23 of the 76 clubs, and several clubs in other categories have a faith focus. The Campus Ministry Club itself runs monthly formation, fellowship and faith events. The club has altar server, sacristan and peer ministry roles.',
     },
     groups: [
       { name: 'Achievers Club', detail: 'Creates an intentional space for sharing among Black students. Advisor Dr. Sigwald, Room 225.' },
@@ -64,20 +64,20 @@ export const charlotteCatholic: ClubsProgram = {
       {
         title: 'Culture is the smallest category',
         hint: '4 of 76',
-        text: 'Achievers, Asian American Pacific Islander, German and Spanish clubs. For a school of ~1,171 in a diverse metro, four identity-and-culture groups is a thin roster relative to the 23 service clubs — worth asking about on a visit.',
+        text: 'Achievers, Asian American Pacific Islander, German and Spanish clubs. For a school of ~1,171 in a diverse metro area, four identity-and-culture groups is a short list next to the 23 service clubs. That balance is worth asking about on a visit.',
       },
       {
         title: 'Sports clubs are a real second tier',
         hint: '15 clubs',
-        text: 'Climbing, figure skating, girls’ rugby, men’s rugby, golf, lacrosse, pickleball, ping pong, sailing, skateboarding, soccer, wakeboarding and more — several meeting off campus at Inner Peaks, Davie Park, Renaissance Skate Park and the Carolina Sports Complex. A student who does not make a 6A varsity team still has somewhere to play.',
+        text: 'Climbing · figure skating · girls’ rugby · men’s rugby · golf · lacrosse · pickleball · ping pong · sailing · skateboarding · soccer · wakeboarding and more. Several meet off campus, at Inner Peaks, Davie Park, Renaissance Skate Park and the Carolina Sports Complex. A student who does not make a 6A varsity team still has somewhere to play.',
       },
       {
         title: 'Advisors are named, rooms are published',
-        text: 'Almost every one of the 76 entries carries a staff advisor and a meeting room — an unusual level of published operational detail, and a practical way for a family to ask who actually runs a group.',
+        text: 'Almost every one of the 76 entries lists a staff advisor and a meeting room. That is an unusual amount of published detail about how clubs run. The list also gives a family a practical way to ask who actually runs a group.',
       },
     ],
     leadership:
-      'The school profile says CCHS "encourages all students to participate in school-sponsored clubs". The directory publishes advisors and rooms but no application process, no membership caps and no meeting schedule, so how selective any given club is — if at all — is not disclosed.',
+      'The school profile says CCHS "encourages all students to participate in school-sponsored clubs". The directory publishes advisors and rooms but no application process, no membership caps and no meeting schedule. So the school does not say how selective any club is, if at all.',
     flags: [
       {
         kind: 'count',
@@ -129,7 +129,7 @@ export const charlotteCatholic: ClubsProgram = {
         valueLabel: 'service clubs',
         name: 'The service block',
         detail:
-          'The largest of the six club categories: Best Buddies, Habitat for Humanity, Red Cross, Ronald McDonald House, Caritas, Mel’s Diner, Muffin Ministry, Beds for Kids, Helping Moms in Need, Golden Hearts, Live Like Bryant, Wayfinders Ambassadors and the U.S. Service Academy Club among them. Several meet off campus — at the Habitat ReStore, at St. Matthew’s Parish Center.',
+          'The largest of the six club categories. Its clubs include Best Buddies · Habitat for Humanity · Red Cross · Ronald McDonald House · Caritas · Mel’s Diner · Muffin Ministry · Beds for Kids · Helping Moms in Need · Golden Hearts · Live Like Bryant · Wayfinders Ambassadors · the U.S. Service Academy Club. Several meet off campus, at the Habitat ReStore and at St. Matthew’s Parish Center.',
         source: { label: 'Clubs directory', url: CLUBS },
       },
       {
@@ -143,7 +143,7 @@ export const charlotteCatholic: ClubsProgram = {
     ],
     footnoteTitle: 'What this means for a family',
     footnote:
-      'Because every graduate completes 70 hours, service hours do not differentiate one CCHS applicant from another — the parish requirement and the leadership roles behind the hours are what a college reader can actually distinguish. A family should also note the practical load: 20 hours a year from sophomore year, with a hard March 1 cutoff, on top of a seven-class timetable.',
+      'Every graduate completes 70 hours. So service hours do not set one CCHS applicant apart from another. What sets students apart for a college reader is the parish requirement and the leadership roles behind the hours. A family should also note the practical load: 20 hours a year from sophomore year, with a hard March 1 cutoff, on top of a seven-class schedule.',
     flags: [],
     sources: [
       { label: 'charlottecatholic.org — Student Handbook 2025-2026 (PDF)', url: HANDBOOK },
@@ -171,7 +171,7 @@ export const charlotteCatholic: ClubsProgram = {
       { label: 'National Merit', text: '2 Finalists and 11 Commended Students in 2025.' },
       { label: 'Service academies', text: 'Three US Naval Academy appointments in 2025, plus an Army ROTC scholarship at Cornell.' },
       { label: 'The decile chart', text: 'CCHS does not rank students, so there is no valedictorian or class-rank distinction — a 10-decile GPA chart stands in its place.' },
-      { label: 'St. Augustine Scholars Program', text: 'A selective four-year classical pathway begun with a 9th-grade cohort in 2025-26 — a program rather than a society, but the school’s most selective academic designation.' },
+      { label: 'St. Augustine Scholars Program', text: 'A selective four-year classical pathway, begun in 2025-26 with a group of 9th graders. It is a program, not a society. But it is the school’s most selective academic designation.' },
       { label: 'Blumey finalists', text: 'Five finalists in 2025 and five further placements in 2026 — the school’s strongest recent external competitive recognition.' },
     ],
     flags: [
@@ -181,7 +181,7 @@ export const charlotteCatholic: ClubsProgram = {
       },
       {
         kind: 'not-a-club',
-        text: 'CCHS runs a school newspaper, a literary magazine, a yearbook and a podcast — but as ENGLISH COURSES (Journalism 234 and Yearbook 235), not as clubs, which is why none appears in the 76-club directory. Both are year-long electives for grades 10–12 requiring a B average in English and a teacher recommendation; Yearbook additionally requires an application and an interview.',
+        text: 'CCHS runs a school newspaper, a literary magazine, a yearbook and a podcast. But they run as ENGLISH COURSES (Journalism 234 and Yearbook 235), not as clubs, which is why none appears in the 76-club directory. Both are year-long electives for grades 10–12. Each requires a B average in English and a teacher recommendation. Yearbook also requires an application and an interview.',
       },
     ],
     sources: [

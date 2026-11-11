@@ -87,7 +87,7 @@ export const charlotteChristian: ClubsProgram = {
       },
     ],
     leadership:
-      'A nine-member prefect system of faculty-mentored student leaders — Head, Academic, Admissions, Athletic, Global Awareness, Fine Arts, Service, Spiritual Life and Student Life. The Global Awareness Prefect is the identity and global leadership role; the Service Prefect is the civic one.',
+      'A nine-member prefect system: student leaders mentored by faculty. The roles are Head · Academic · Admissions · Athletic · Global Awareness · Fine Arts · Service · Spiritual Life · Student Life. The Global Awareness Prefect is the identity and global leadership role. The Service Prefect is the civic one.',
     flags: [
       {
         kind: 'count',
@@ -116,7 +116,7 @@ export const charlotteChristian: ClubsProgram = {
         valueLabel: 'credit to graduate · 0.25 each year',
         name: 'Winterim',
         detail:
-          'A week-long experiential program every March mixing mission trips, cultural travel, internships and on-campus options — 19+ offerings in 2026, each embedding service. Graded pass/fail outside the GPA, and it appears on the report card every year.',
+          'A week-long hands-on program every March, mixing mission trips, cultural travel, internships and on-campus options. The program had 19+ offerings in 2026, and each one builds in service. It is graded pass/fail outside the GPA and appears on the report card every year.',
         source: { label: '2026 Winterim packet', url: WINTERIM_PACKET },
       },
       {
@@ -138,11 +138,11 @@ export const charlotteChristian: ClubsProgram = {
     ],
     footnoteTitle: 'Named partners inside Winterim',
     footnote:
-      'Individual 2026 trips carry their own partners — SCORE International in the Dominican Republic, Samaritan’s Feet at Camp Harrison, Give Kids the World and Make-A-Wish at Disney, Surfrider Foundation and Save Your Hood in Greece, Crossroads Christian Academy in Panama, and Nourish Up, Crisis Assistance and Congregations for Kids on Serve Charlotte.',
+      'Individual 2026 trips have their own partners: SCORE International in the Dominican Republic · Samaritan’s Feet at Camp Harrison · Give Kids the World and Make-A-Wish at Disney · Surfrider Foundation and Save Your Hood in Greece · Crossroads Christian Academy in Panama · Nourish Up, Crisis Assistance and Congregations for Kids on Serve Charlotte.',
     flags: [
       {
         kind: 'not-a-club',
-        text: 'Winterim trips are a graduation requirement and a travel program, Kingdom Impact Day is a division-wide service day, and the Multicultural Festival is an annual all-school event. Cross-Cultural Communications service is a class doing service; Vocational Shadowing and the Alternative Winterim Experience are individually arranged and family-brokered. None is a club.',
+        text: 'Winterim trips are a graduation requirement and a travel program. Kingdom Impact Day is a service day for a whole division. The Multicultural Festival is a yearly all-school event. Cross-Cultural Communications service is a class doing service. Vocational Shadowing and the Alternative Winterim Experience are arranged for each student, through the family. None is a club.',
       },
       {
         kind: 'gap',

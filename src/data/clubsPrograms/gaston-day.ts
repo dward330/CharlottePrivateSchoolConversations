@@ -46,7 +46,7 @@ export const gastonDay: ClubsProgram = {
         valueLabel: 'minimum, required of every senior',
         name: 'Capstone Project',
         detail:
-          'Every senior completes an approved internship, research or community-service project of no less than 40 hours, focused either on preparation for a professional career or on advancing one of the school’s core values. It begins in the second semester of junior year and completes in the first semester of senior year, with documentation and reporting throughout — and carries 0.25 credit.',
+          'Every senior completes an approved internship, research or community-service project of no less than 40 hours. The project focuses either on preparing for a professional career or on advancing one of the school’s core values. It begins in the second semester of junior year and ends in the first semester of senior year. Students document and report on it throughout. The project carries 0.25 credit.',
         source: { label: 'gastonday.org — Academic Profile 2025-2026', url: PROFILE },
       },
       {
@@ -54,7 +54,7 @@ export const gastonDay: ClubsProgram = {
         valueLabel: 'juniors & seniors mentoring 4th graders',
         name: 'Sunship Earth & Peer Mentoring',
         detail:
-          'Selected juniors and seniors spend several days each fall in the mountains with the fourth-grade class, leading activities on the relationship between the environment and the human race. The relationships formed become a mentoring program: each eleventh- and twelfth-grade student continues to meet and work with their fourth-grade mentee throughout the school year.',
+          'Selected juniors and seniors spend several days each fall in the mountains with the fourth-grade class. They lead activities on how people and the environment affect each other. The bonds they form become a mentoring program. Each eleventh- and twelfth-grade student keeps meeting and working with their fourth-grade mentee throughout the school year.',
         source: { label: 'gastonday.org — Academic Profile 2025-2026', url: PROFILE },
       },
       {
@@ -62,18 +62,18 @@ export const gastonDay: ClubsProgram = {
         valueLabel: 'per year, every Upper School student',
         name: 'Community Service Requirement',
         detail:
-          'All Upper School students must complete a minimum of 25 hours of volunteer service each year, rising to 40 hours for National Honor Society members. Juniors additionally plan, organize and execute their own community-service project.',
+          'All Upper School students must complete a minimum of 25 hours of volunteer service each year. The minimum rises to 40 hours for National Honor Society members. Juniors also plan, organize and carry out their own community-service project.',
         source: { label: 'gastonday.org — Upper School', url: UPPER },
       },
     ],
     footnoteTitle: 'The recognition ladder above the requirement',
     footnote:
-      'Beyond the 25-hour floor, the President’s Service Award recognizes Upper School students who have served 100 or more hours, and the Middle School runs its own Spartan Strong Volunteer Service Award at 50+ hours a year. So there is a documented ladder at three levels — 25 required, 50 recognized in the Middle School, 100 recognized in the Upper School — plus the 40-hour NHS threshold sitting alongside.',
+      'Beyond the 25-hour floor, the President’s Service Award recognizes Upper School students who have served 100 or more hours. The Middle School runs its own Spartan Strong Volunteer Service Award at 50+ hours a year. So there is a documented ladder at three levels: 25 required · 50 recognized in the Middle School · 100 recognized in the Upper School. The 40-hour NHS threshold sits alongside it.',
     flags: [
       {
         kind: 'not-a-club',
         label: 'REQUIREMENT',
-        text: 'The Capstone and the 25-hour service obligation are graduation requirements rather than clubs — they are listed here because they are where most Gaston Day service actually happens, and because every graduate has one.',
+        text: 'The Capstone and the 25-hour service obligation are graduation requirements rather than clubs. The card lists them because most Gaston Day service actually happens through them. The card also lists them because every graduate has one.',
       },
       {
         kind: 'gap',

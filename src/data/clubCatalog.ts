@@ -334,7 +334,7 @@ const CANNON: ClubCatalog = {
     { name: 'Habitat Club', cat: 'svc', note: 'Upper School service club; Habitat for Humanity builds incl. Winterm trips' },
     { name: 'Special Olympics Team (MS)', cat: 'svc', note: 'Middle School team coordinating volunteers for the Special Olympics of Cabarrus County' },
     // Affinity
-    { name: 'Affinity Groups', cat: 'aff', note: 'Flagship category of Upper School club life under the DBE framework; no named roster published (Black affinity groups cited in reviews)' },
+    { name: 'Affinity Groups', cat: 'aff', note: 'Flagship category of Upper School club life under the DBE framework; no named roster published' },
     // Publications
     { name: 'Yearbook (The Flashback)', cat: 'media', note: 'Active Upper School publication with student editors and a dedication ceremony' },
     // Interest
@@ -343,22 +343,22 @@ const CANNON: ClubCatalog = {
   divisions: [
     {
       label: 'Student-initiated model',
-      text: 'Cannon frames club life as student-led and faculty-supported, meeting during and after school (Middle School clubs meet at lunch or a designated club time). Students may found new clubs when their interests aren’t represented, so the active roster changes annually.',
+      text: 'Cannon frames club life as student-led and faculty-supported, meeting during and after school. Middle School clubs meet at lunch or at a set club time. Students may start new clubs when their interests aren’t represented, so the active roster changes every year.',
       tag: 'School-reported',
     },
     {
       label: 'Lower School (JrK–4)',
-      text: 'Runs on elected student leadership, signature traditions, Adaptive Expertise (AE) “passion class” days, and after-school enrichment (After School Program + Beyond the Bell) rather than a roster of standing interest clubs — a structural difference, not a gap.',
+      text: 'Instead of a roster of standing interest clubs, this division runs on: elected student leadership · signature traditions · Adaptive Expertise (AE) “passion class” days · after-school enrichment (After School Program + Beyond the Bell). That is a difference in structure, not a gap.',
       tag: 'Structural',
     },
     {
       label: 'Service & belonging',
-      text: 'Service runs deep — ~15,000 school-wide hours a year (not a graduation requirement), Senior Capstone philanthropy projects, and a House Day of Service — but as frameworks/traditions rather than standing clubs. Affinity work sits under the Diversity, Belongingness & Engagement (DBE) commitment.',
+      text: 'Service runs deep: almost 10,000 Upper School service hours a year (not a graduation requirement), Senior Capstone charity projects, and a House Day of Service. But it runs through frameworks and traditions rather than standing clubs. Affinity work sits under the Diversity, Belongingness & Engagement (DBE) commitment.',
       tag: 'School-reported',
     },
   ],
   source:
-    'cannonschool.org — Upper / Middle / Lower School Student Life · Esports · Student Profile · Deans’ Daily Download · Niche (named orgs only; no public chartered directory)',
+    'cannonschool.org — Upper / Middle / Lower School Student Life · Esports · Student Profile · Deans’ Daily Download (named orgs only; no public chartered directory)',
 }
 
 // ── Charlotte Christian ── the fullest enumerated roster of the honest-gap set:
@@ -418,12 +418,12 @@ const CHARLOTTE_CHRISTIAN: ClubCatalog = {
     },
     {
       label: 'Lower School (JK–4)',
-      text: 'Named minimum: eight rotating after-school enrichment clubs — Art, Coding, Flag Football, Lacrosse, Running, Soccer, STEM, and a Robotics Team (representative). Enrichment rotates weekly and the public list is explicitly partial.',
+      text: 'Named minimum: eight rotating after-school enrichment clubs. Art · Coding · Flag Football · Lacrosse · Running · Soccer · STEM · a Robotics Team (representative). Enrichment rotates weekly, and the school says its public list is partial.',
       tag: 'Named minimum',
     },
     {
       label: 'Count & scope',
-      text: '35 named in-scope organizations JK–12 (23 Upper + 4 Middle + 8 Lower); no single published directory. Excluded as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent/community bodies (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.',
+      text: '35 named organizations counted here, JK–12 (23 Upper + 4 Middle + 8 Lower). There is no single published directory. Left out as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent and community groups (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.',
       tag: 'School-reported',
     },
   ],
@@ -431,95 +431,87 @@ const CHARLOTTE_CHRISTIAN: ClubCatalog = {
     'charlottechristian.com — Upper School · Middle School · Extended Day & After School Clubs · Diversity & Belonging · CCS News (roster assembled from several pages; no single directory)',
 }
 
-// ── Davidson Day ── the thinnest slate. Student life also runs through programs,
-// councils, and traditions (AFAR, Community Engagement Councils, House System,
-// Patriot Pals), carried in the division note.
-//
-// MAINTAINER NOTE (not surfaced in the public app): the individual club names
-// below come from the third-party aggregator PrivateSchoolReview — single-source,
-// undated, no division breakdown, and uncorroborated against davidsonday.org,
-// which publishes no enumerated roster of its own. Only genuine non-athletic /
-// non-arts interest & academic clubs from that source are listed; art, guitar,
-// and photography are excluded as fine-arts, and SGA / Honor Council / Student
-// Ambassadors as governance. No clubs, counts, or divisions are invented. From
-// source-material/student-clubs/davidson-day/Davidson Day - Clubs - Club Catalog
-// and Overview.md (web research, 2026-07-26).
-// ── Covenant Day ── the school publishes no club directory of its own; this
-// is the documented floor after filtering the third-party roster for division
-// and type (paid lessons, curricular ensembles and club sports excluded from
-// the count, carried in the divisions note instead).
+// ── Davidson Day ── the thinnest slate. Davidson Day publishes no club roster,
+// and none of the nine club names that came from PrivateSchoolReview appears on
+// davidsonday.org, so they were removed (user, 2026-11-10: school sources only for every club list; plan plainclubs). What the school's own pages name
+// are student councils and an honor society: the Student and Upper School
+// Belonging Councils (Belonging page), the Upper School Community Engagement
+// Council (Community & Culture page) and the National Honor Society (College
+// Counseling page). Student life also runs through programs and traditions,
+// carried in the division note.
+// ── Covenant Day ── the school publishes no club directory of its own. Every
+// entry below is named on covenantday.org (user, 2026-11-10: school sources only for every club list; plan plainclubs): the High School page (Mock
+// Trial, Student Council, Covenant Crazies), the Service page (Beta Club, the
+// ContainIt team), the Music page (Tri-M, High School A Cappella), the Theater
+// page (Thespian Society), the Visual Arts page (National Art Honor Society) and
+// school news (National Honor Society). The third-party-only entries (Robotics,
+// Sustainability Engineering, Latin/JCL, French, Book Club, Spanish Honor
+// Society, MS Board Game Club) were removed.
 const COVENANT_DAY: ClubCatalog = {
   verdict:
-    'A documented floor of Upper School clubs and honor societies — the school publishes no directory, so this is what public sources confirm.',
+    'A documented floor of Upper School clubs and honor societies — the school publishes no directory, so this is what its own pages confirm.',
   verdictHint: 'Filter by category to see the clubs in each area.',
   countNoun: 'documented orgs',
   categories: [
     { key: 'acad', short: 'Academic', full: 'Academic / competition' },
     { key: 'honor', short: 'Honor', full: 'Honor societies' },
+    { key: 'svc', short: 'Service', full: 'Service' },
+    { key: 'arts', short: 'Arts', full: 'Arts / music club' },
     { key: 'spirit', short: 'Spirit', full: 'Spirit / leadership' },
   ],
   clubs: [
     { name: 'Mock Trial', cat: 'acad', note: 'Flagship — 2025 state runner-up courtroom artist' },
-    { name: 'Robotics (First Lego League)', cat: 'acad', note: 'FLL competition robotics' },
-    { name: 'Sustainability Engineering', cat: 'acad', note: 'The R&S department’s club arm' },
-    { name: 'Latin (JCL) Club', cat: 'acad', note: 'Junior Classical League chapter' },
-    { name: 'French Club', cat: 'acad', note: 'Language club' },
-    { name: 'Book Club', cat: 'acad', note: 'Reading / literary club' },
-    { name: 'Beta Club', cat: 'honor', note: 'National academic honor + service organization' },
-    { name: 'National Honor Society', cat: 'honor', note: 'Scholarship, service, leadership, character' },
-    { name: 'National Art Honor Society', cat: 'honor', note: 'Visual-arts achievement' },
-    { name: 'Spanish Honor Society', cat: 'honor', note: 'Spanish-language achievement' },
-    { name: 'International Thespian Society', cat: 'honor', note: 'Theatre honor society (school-confirmed)' },
-    { name: 'Tri-M Music Honor Society', cat: 'honor', note: 'Music honor society (school-confirmed)' },
+    { name: 'National Honor Society', cat: 'honor', note: 'Juniors and seniors, chosen for scholarship, leadership, service and character' },
+    { name: 'Beta Club', cat: 'honor', note: 'Members start projects that get the whole high school giving back' },
+    { name: 'National Art Honor Society', cat: 'honor', note: 'Visual-arts honor society' },
+    { name: 'International Thespian Society', cat: 'honor', note: 'Theatre honor society' },
+    { name: 'Tri-M Music Honor Society', cat: 'honor', note: 'Music honor society' },
+    { name: 'ContainIt team', cat: 'svc', note: 'High school students turn used shipping containers into housing for teens on the Pine Ridge Reservation' },
+    { name: 'High School A Cappella', cat: 'arts', note: 'A co-curricular singing group' },
     { name: 'Covenant Crazies', cat: 'spirit', note: 'The student spirit section' },
     { name: 'Student Council', cat: 'spirit', note: 'Student leadership' },
   ],
   divisions: [
     {
       label: 'Middle & Lower School',
-      text: 'Junior First Lego League, the MS Board Game Club, the CDS Children’s Choir (grades 3–5), Goodness Gorillas (the 4th-grade service program), and the Kanuga fifth-grade retreat.',
+      text: 'The Middle School Outreach Committee · Doulos Day, a middle school service day held twice a year · Goodness Gorillas, the 4th-grade service program at nearly twenty sites · the CDS Children’s Choir (grades 3–5).',
       tag: 'Documented',
     },
     {
-      label: 'Beyond the club roster',
-      text: 'The third-party roster also lists paid enrichment (piano/guitar/voice lessons, painting), curricular ensembles (band, choir, theater, worship team), and boys volleyball — a club sport. Those are excluded from the count above. Restore525 runs as both a service program and a credit-bearing course.',
+      label: 'Not counted here',
+      text: 'The school’s curricular ensembles (Symphonic Band, High School Choir, and the High School and Middle School Worship Bands) are not counted as clubs.',
       tag: 'Filtered out',
     },
   ],
   source:
-    'privateschoolreview.com — Covenant Day profile (third-party roster) · covenantday.org — academics/high-school, arts/theater, arts/music · ncmocktrial.org',
+    'covenantday.org — High School · Service · Music · Theater · Visual Arts · News · ncmocktrial.org',
 }
 
 const DAVIDSON_DAY: ClubCatalog = {
   verdict:
-    'A compact slate of academic, interest, and service clubs, alongside student life run through programs, councils, and traditions.',
-  verdictHint: 'Filter by category to see the clubs in each area.',
-  countNoun: 'clubs',
+    'A short list of student councils and an honor society, alongside student life run through programs and traditions. The school publishes no club roster.',
+  verdictHint: 'Filter by category; each group is named on davidsonday.org.',
+  countNoun: 'school-named groups',
   categories: [
-    { key: 'acad', short: 'Academic', full: 'Academic / competition' },
-    { key: 'interest', short: 'Interest', full: 'Interest' },
-    { key: 'svc', short: 'Service', full: 'Service / environmental' },
+    { key: 'lead', short: 'Leadership', full: 'Student leadership' },
+    { key: 'svc', short: 'Service', full: 'Service' },
+    { key: 'honor', short: 'Honor', full: 'Honor society' },
   ],
   clubs: [
-    { name: 'Debate Club', cat: 'acad', note: 'Academic / competition club' },
-    { name: 'Science Club', cat: 'acad', note: 'Academic / competition club' },
-    { name: 'Math Olympiad', cat: 'acad', note: 'Academic-competition club' },
-    { name: 'Chess Club', cat: 'interest', note: 'Strategy / interest club' },
-    { name: 'Film Club', cat: 'interest', note: 'Interest club' },
-    { name: 'Creative Writing Club', cat: 'interest', note: 'Literary interest club' },
-    { name: 'Outdoor Club', cat: 'interest', note: 'Outdoor / interest club' },
-    { name: 'Environmental Club', cat: 'svc', note: 'Environmental / service club' },
-    { name: 'Community Service Club', cat: 'svc', note: 'Service club' },
+    { name: 'Student Belonging Council', cat: 'lead', note: 'Developed by students; started hosting monthly belonging forums in 2020' },
+    { name: 'Upper School Belonging Council', cat: 'lead', note: 'Upper School student leaders with a faculty sponsor' },
+    { name: 'Upper School Community Engagement Council', cat: 'svc', note: 'The school says it “demonstrates a deep commitment to service and leadership”' },
+    { name: 'National Honor Society', cat: 'honor', note: '28 members in the Class of 2025' },
   ],
   divisions: [
     {
       label: 'Beyond the club roster',
-      text: 'School-run structures alongside the clubs: AFAR archaeology field research, the Community Engagement Councils and Patriot Week service framework, the Student Diversity Council, National Honor Society, the Middle School Battle of the Books team, and traditions like the House System and Patriot Pals.',
+      text: 'School-run structures alongside these groups: AFAR archaeology field research · the Patriot Week service framework and Middle School Service Days · traditions like the House System and Patriot Pals.',
       tag: 'School-reported',
     },
   ],
   source:
-    'privateschoolreview.com — Davidson Day profile · davidsonday.org — Upper/Middle School, Community & Culture',
+    'davidsonday.org — Belonging · Community & Culture · College Counseling · Upper and Middle School',
 }
 
 // ── Carmel Christian ── the thinnest, and honestly so: clubs are
@@ -554,88 +546,65 @@ const CARMEL_CHRISTIAN: ClubCatalog = {
   divisions: [
     {
       label: 'Student-initiated model',
-      text: 'Carmel frames clubs as student-led: a student interested in creating a club requests a form from the High School or Middle School office and applies, and the administration reviews and may accept or deny it. This explains the small standing roster — the active list depends on who applies each year and is not published.',
+      text: 'Carmel frames clubs as student-led. A student who wants to create a club asks the High School or Middle School office for a form and applies. The administration reviews the request and may accept or deny it. That process explains the small standing roster: the active list depends on who applies each year, and it is not published.',
       tag: 'School-reported',
     },
     {
       label: 'Middle School (6–8)',
-      text: 'Two named organizations: the Student Government Association (President/VP/Secretary plus two representatives per grade, nine students — Charlotte Rescue Mission project, banquet, Spirit Week) and, for 8th grade, the National Junior Honor Society (GPA 3.8+, October inductions).',
+      text: 'Two named organizations. The Student Government Association has a President, VP and Secretary plus two representatives per grade, nine students in all. The SGA runs a Charlotte Rescue Mission project, a banquet and Spirit Week. For 8th grade, there is the National Junior Honor Society (GPA 3.8+, October inductions).',
       tag: 'School-reported',
     },
     {
       label: 'Spiritual life & traditions',
-      text: 'Chapel and tradition rather than clubs: the Ignite Praise Band leads Thursday chapel worship, and the school year runs on the Windy Gap retreat, See You at the Pole (led by the MS SGA and HS Student Council), Spirit Week / Homecoming, J-Term (a graduation-requirement week that can include mission trips), and international missions trips.',
+      text: 'Chapel and tradition rather than clubs. The Ignite Praise Band leads Thursday chapel worship. The school year runs on these traditions: the Windy Gap retreat · See You at the Pole (led by the MS SGA and HS Student Council) · Spirit Week / Homecoming · J-Term (a graduation-requirement week that can include mission trips) · international missions trips.',
       tag: 'School-reported',
     },
   ],
   source:
-    'carmelchristian.org — Family Handbook (2021–22 ed., pp. 74–75) · The Timothy Project page · privateschoolreview.com profile (no single published club directory)',
+    'carmelchristian.org — Family Handbook (2021–22 ed., pp. 74–75) · The Timothy Project page (no single published club directory)',
 }
 
-// Hickory Grove Christian — the full 27-organization non-sports roster, from
-// source-material/student-clubs/hickory-grove-christian/. THE WHOLE ROSTER IS
-// SINGLE-SOURCE: it rides on one aggregator (PrivateSchoolReview) because the
-// school's own site has no clubs/activities page. A subset is individually
-// corroborated by the school site (Discipleship, Choir, Drama, Jazz Band, the
-// mission trips, the HGBC food-pantry partnership, and the Exodus yearbook);
-// every other club rests on the aggregator alone. That single-source status is
-// stated in the verdict, a division note, and the source line — it is the
-// catalog's defining caveat, not a hidden one.
+// Hickory Grove Christian — the school's own site has no clubs or activities
+// page. Every group below is named on hgchristian.org (user, 2026-11-10: school sources only for every club list; plan plainclubs): the Performing
+// Arts page (International Thespian Society, Chapel Band, Praise Team), the High
+// School and Middle School pages (discipleship groups, Grove Groups), the Arts
+// page (the Exodus yearbook and a weekly student broadcast). The International
+// Culture Club was left out: its only mention now survives in an archived copy of a
+// retired alumni page, not on the live site.
+// The 27-organization PrivateSchoolReview roster was removed.
 const HICKORY_GROVE_CHRISTIAN: ClubCatalog = {
   verdict:
-    '27 non-sports organizations across interest clubs, arts clubs and five honor societies — a broad roster, but one that rides entirely on a single third-party aggregator.',
-  verdictHint:
-    'The school publishes no clubs page; this list is from PrivateSchoolReview, with a subset confirmed on the school site.',
-  countNoun: 'named orgs',
+    'Six student groups named on the school’s own pages — the school publishes no clubs page or full list.',
+  verdictHint: 'Filter by category; each group is named on hgchristian.org.',
+  countNoun: 'school-named groups',
   categories: [
-    { key: 'honor', short: 'Honor societies', full: 'Honor society' },
-    { key: 'interest', short: 'Interest & academic', full: 'Interest / academic club' },
-    { key: 'faith', short: 'Faith & service', full: 'Faith / service / leadership' },
-    { key: 'arts', short: 'Arts & music', full: 'Arts / music club' },
+    { key: 'faith', short: 'Faith & service', full: 'Service / discipleship' },
+    { key: 'arts', short: 'Worship & arts', full: 'Arts / music club' },
+    { key: 'media', short: 'Media', full: 'Publications & media' },
+    { key: 'honor', short: 'Honor society', full: 'Honor society' },
   ],
   clubs: [
-    { name: 'National Honor Society', cat: 'honor', note: 'High School — scholarship, leadership, service and character' },
-    { name: 'National Junior Honor Society', cat: 'honor', note: 'Middle School' },
-    { name: 'National Science Honor Society', cat: 'honor', note: 'Achievement in the sciences' },
-    { name: 'Quill and Scroll Honor Society', cat: 'honor', note: 'International high-school journalism honor society' },
-    { name: 'Rho Kappa', cat: 'honor', note: 'National Social Studies Honor Society (juniors/seniors)' },
-    { name: 'Apologetics Club', cat: 'interest', note: 'Aggregator-listed; apologetics is taught school-wide' },
-    { name: 'Public Speaking Club', cat: 'interest', note: 'Aggregator-listed' },
-    { name: 'Health Occupations Students of America', cat: 'interest', note: 'HOSA — aggregator-listed' },
-    { name: 'International Culture Club', cat: 'interest', note: 'Aggregator-listed' },
-    { name: 'Spanish Club', cat: 'interest', note: 'Aggregator-listed; the school confirms a Spanish program' },
-    { name: 'Spanish Reading/Conversation Club', cat: 'interest', note: 'Aggregator-listed' },
-    { name: 'Venture Club', cat: 'interest', note: 'Aggregator-listed' },
-    { name: 'Guidance Session', cat: 'interest', note: 'Aggregator-listed' },
-    { name: 'Student Council', cat: 'interest', note: 'Aggregator-listed' },
-    { name: 'Spirit Club', cat: 'interest', note: 'Aggregator-listed' },
-    { name: 'Discipleship', cat: 'faith', note: 'Confirmed on the school site — small-group discipleship' },
-    { name: 'Chick-fil-A Leadership Academy', cat: 'faith', note: 'Aggregator-listed leadership program' },
-    { name: 'Global Ambassadors', cat: 'faith', note: 'Aggregator-listed leadership/international program' },
-    { name: 'Art Club', cat: 'arts', note: 'Aggregator-listed; the school confirms a Visual Arts program' },
-    { name: 'Choir Club', cat: 'arts', note: 'Confirmed on the school site — Choir' },
-    { name: 'Drama Club', cat: 'arts', note: 'Confirmed on the school site — Theatre / Musical Theatre' },
-    { name: 'Jazz Band', cat: 'arts', note: 'Confirmed on the school site — Jazz Band' },
-    { name: 'Pep Band', cat: 'arts', note: 'Aggregator-listed' },
-    { name: 'Praise Band', cat: 'arts', note: 'Aggregator-listed' },
-    { name: 'Guitar Club', cat: 'arts', note: 'Aggregator-listed' },
-    { name: 'Ukulele Club', cat: 'arts', note: 'Aggregator-listed' },
-    { name: 'Fiber Club', cat: 'arts', note: 'Aggregator-listed' },
+    { name: 'Discipleship groups', cat: 'faith', note: 'High School — groups that serve together on campus, such as making encouragement cards for elementary students' },
+    { name: 'Grove Groups', cat: 'faith', note: 'Middle School — monthly grade-level gatherings that break into small discipleship groups' },
+    { name: 'Chapel Band', cat: 'arts', note: 'High School — students audition, rehearse and help the worship pastors lead student-led chapel' },
+    { name: 'Praise Team', cat: 'arts', note: 'Grades 7–8 — for students who want to use their musical gifts to lead others in worship' },
+    { name: 'Exodus yearbook and school broadcast', cat: 'media', note: 'Produced by students: the annual yearbook and a weekly broadcast' },
+    { name: 'International Thespian Society', cat: 'honor', note: 'High School — eligible theatre students can be inducted' },
   ],
   divisions: [
     {
-      label: 'Single-source roster',
-      text: 'This 27-organization list comes entirely from PrivateSchoolReview — the school\'s own site publishes no clubs or activities page, and no second source enumerates these clubs. A subset is individually corroborated by the school site (Discipleship, Choir, Drama, Jazz Band); the rest rest on the aggregator alone, and some (HOSA, Chick-fil-A Leadership Academy, the honor societies) are national programs whose active HGCS chapter is not independently confirmed.',
-      tag: 'Single-source',
+      label: 'No published club list',
+      text: 'The school’s site has no clubs or activities page. Its High School page sets aside “time during the school day for student clubs to meet,” but no list of those clubs is published.',
+      tag: 'Not published',
     },
     {
-      label: 'Faith & service beyond the roster',
-      text: 'The school\'s own site confirms international mission trips to the Dominican Republic, Ecuador, Haiti and Kenya, and an aquaponics program supplying the Hickory Grove Baptist Church food pantry — service channels that run through the church ministry rather than as listed clubs.',
+      label: 'Missions & service',
+      text: 'Seniors serve together each year on a mission trip to the Dominican Republic, while the rest of the high school serves locally during Mission Week. Spanish Immersion students interpret each week at the Hickory Grove Baptist Church food pantry.',
       tag: 'School-reported',
     },
   ],
   source:
-    'privateschoolreview.com — HGCS profile (the only source naming all 27 non-sports orgs) · hgchristian.org — Academics & Arts pages (corroborating Discipleship, Choir, Drama, Jazz Band, mission trips, food-pantry partnership, and the Exodus yearbook)',
+    'hgchristian.org — Performing Arts · High School · Middle School · Arts · Missions & Service',
 }
 
 // ── Gaston Day ── SCHOOL-NAMED ONLY (user ruling, 2026-11-10: the Gaston club
@@ -736,7 +705,7 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
     { name: 'Beds for Kids Club', cat: 'svc', note: 'Listed in the school’s clubs directory — advisor Mrs. Montague, 310' },
     { name: 'Best Buddies', cat: 'svc', note: 'Is dedicated to establishing a global volunteer movement that creates opportunities for 1:1 friendships — advisor Ms. Reynolds, 229' },
     { name: 'Caritas Club', cat: 'svc', note: 'Our club\'s very name is the Latin word for "love for all" or charity, the Christian love for humankind, so we embrace occasion to be the hands and… — advisor Dr. Leahy, 219' },
-    { name: 'Change Lives Together Club', cat: 'svc', note: 'The purpose of CLT Foundation is to enrich and change the lives of special needs kids as well as kids with life altering medical circumstances — advisor Mrs. Taylor, Dance Room' },
+    { name: 'Change Lives Together Club', cat: 'svc', note: 'The purpose of CLT Foundation is to enrich and change the lives of special needs kids as well as kids with life altering medical circumstances. Advisor: Mrs. Taylor, Dance Room.' },
     { name: 'Clash Club', cat: 'svc', note: 'Bring together students who share an interest in a popular video game — advisor Ms. El Fahsi, 208' },
     { name: 'Create 4 Kids', cat: 'svc', note: 'This club meets once per month, in room 300, typically after school — advisor Mr. Goodier, 300' },
     { name: 'Environmental Club', cat: 'svc', note: 'Establish a physical connection of stewardship for God’s creation with service projects that improve our treatment of ecosystems and resources — advisor Mrs. Albertson, 325' },
@@ -745,9 +714,9 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
     { name: 'Habitat for Humanity', cat: 'svc', note: 'Focuses on service opportunities revolving around the construction of houses as well as volunteer work within various restore departments around… — advisor Mr. Smith' },
     { name: 'Happy Holiday Club', cat: 'svc', note: 'Help underprivileged people during the holidays — advisor Dr. Sigwald, 225' },
     { name: 'Helping Moms in Need', cat: 'svc', note: 'The Helping with Mom\'s in Needs Club is a club that partners with the Walking With Mom\'s in Need organization at St — advisor Mrs. Crainer, 319' },
-    { name: 'Letters to Little Buddies', cat: 'svc', note: 'Each member of the Letters to Little Buddies Club will have a pen pal from a MACS elementary school and write letters to them and do different… — advisor Mrs. Finnegan, 223' },
+    { name: 'Letters to Little Buddies', cat: 'svc', note: 'Advisor: Mrs. Finnegan, 223. Each member of the Letters to Little Buddies Club will have a pen pal from a MACS elementary school and write letters to them and do different…' },
     { name: 'Live Like Bryant', cat: 'svc', note: 'Is to raise money for the LLB foundation and help underprivileged children — advisor Mr. Chuttey, Library' },
-    { name: 'Mel\'s Diner', cat: 'svc', note: 'The Mel’s Diner Club will work to provide food for people in need such as the homeless in our community and refugees one Saturday per month — advisor Mrs. Kosanovich, St. Matthew\'s Parish Center' },
+    { name: 'Mel\'s Diner', cat: 'svc', note: "The Mel’s Diner Club will work to provide food for people in need such as the homeless in our community and refugees one Saturday per month. Advisor: Mrs. Kosanovich, St. Matthew's Parish Center." },
     { name: 'Muffin Ministry', cat: 'svc', note: 'Muffin Ministry is a club where students can bake muffins to be delivered to ministries serving the homeless at St — advisor Ms. El Fahsi, 208' },
     { name: 'Passion for Fashion', cat: 'svc', note: 'Collect gently used clothes to sell second hand and donate the proceeds to women’s charities — advisor Mrs. Simpson, 514' },
     { name: 'Pawsitive Impact Society', cat: 'svc', note: 'The purpose of Pawsitive Impact Society is to help support the humane society of Charlotte by making toys, donating food, and volunteering at the… — advisor Mrs. Bick, 318' },
@@ -769,18 +738,20 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
     { name: 'German Club', cat: 'cult', note: 'Works to promote the German language and culture through educational meetings, events, and service projects — advisor Mrs. Schmid-Rankin, 527' },
     { name: 'Spanish Club', cat: 'cult', note: 'The mission of the Spanish Club is to further educate our students by sharing experiences of Spanish-speaking communities by bringing in Spanish… — advisor Ms. Palomino, 204' },
     { name: 'Climbing Club', cat: 'sport', note: 'In the Climbing Club we will meet monthly or bi-monthly to climb at one of the three Inner Peaks locations in Charlotte — advisor Mr. Kalbaugh, 211' },
-    { name: 'Fellowship of Christian Atheletes', cat: 'sport', note: 'The purpose of the Fellowship of Christian Athletes is to help athletes to know and grow in Christ and lead others to do the same through… — advisor Mr. Christmas, AD Office' },
+    // The directory heading misspells this 'Atheletes'; its own purpose text and the
+    // national organization spell it 'Athletes' (plan plainclubs, 2026-11-10).
+    { name: 'Fellowship of Christian Athletes', cat: 'sport', note: 'Advisor: Mr. Christmas, AD Office. The purpose of the Fellowship of Christian Athletes is to help athletes to know and grow in Christ and lead others to do the same through…' },
     { name: 'Figure Skating Club', cat: 'sport', note: 'Connect students who share a passion for figure skating and to help those interested learn how to skate — advisor Ms. El Fahsi, 208' },
     { name: 'Girls\' Rugby Team', cat: 'sport', note: 'Listed in the school’s clubs directory — advisor Mr. Zenmke, Carolina Sports Complex' },
     { name: 'Golf Club', cat: 'sport', note: 'Is a group of service-oriented students who strive to have a positive impact on the community while enjoying the game of golf — advisor Mr. Panther, 214' },
-    { name: 'Lacrosse Club', cat: 'sport', note: 'The Lacrosse Club\'s purpose is to get people together to learn about and play lacrosse in a fun and relaxed setting while also making new friends — advisor Mr. Kalbaugh, Davie Park' },
+    { name: 'Lacrosse Club', cat: 'sport', note: "The Lacrosse Club's purpose is to get people together to learn about and play lacrosse in a fun and relaxed setting while also making new friends. Advisor: Mr. Kalbaugh, Davie Park." },
     { name: 'Men\'s Rugby Club', cat: 'sport', note: 'Represent CCHS and our catholic faith against other rugby teams while displaying virtue, loyalty and bringing honor to Charlotte Catholic — advisor Mr. Kuhn, 219' },
     { name: 'Pickleball Club', cat: 'sport', note: 'Allow students to participate in a very fun sport and make lasting connections with other students — advisor Mrs. Best, Campus Ministry' },
     { name: 'Ping Pong Club', cat: 'sport', note: 'The Ping Pong Club’s goal is to establish a community of new or existing ping pong players — advisor Mr. Needham, Commons' },
     { name: 'Running for a Reason', cat: 'sport', note: 'Help raise awareness for different charities in charlotte by attending 5ks that are supporting them — advisor Mr. Georges, 316' },
     { name: 'Sailing Club', cat: 'sport', note: 'Have fun sailing with friends and learn how to sail — advisor Mrs. Tripp, 324' },
     { name: 'Skateboarding Club', cat: 'sport', note: 'Make Friends through skating and promote skating in the community by cleaning skate parks — advisor Mr. Whitsell, Renaissance Skate Park' },
-    { name: 'Soccer Souls', cat: 'sport', note: 'The mission of Soccer Souls is to spread the joy of soccer to others who either don’t know the game or don’t have the resources to play — advisor Mrs. Yarussi, 311' },
+    { name: 'Soccer Souls', cat: 'sport', note: 'The mission of Soccer Souls is to spread the joy of soccer to others who either don’t know the game or don’t have the resources to play. Advisor: Mrs. Yarussi, 311.' },
     { name: 'Sports Medicine', cat: 'sport', note: 'Works to provide the best healthcare for athletes at CCHS while also educating students in methods of sports medicine and athletic care — advisor Mr. Wisocki, Training Room' },
     { name: 'Wakeboard Club', cat: 'sport', note: 'Offers students an opportunity to experience the sport of wakeboarding — advisor Mr. Hage, South Town Waterpark' },
     { name: 'Art Club', cat: 'gen', note: 'Work to build a community with a shared common love for art and learn and improve drawing, painting, and 3D art skills — advisor Mrs. Parks, 621' },
@@ -796,7 +767,7 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
   divisions: [
     {
       label: 'Publications',
-      text: 'The school newspaper, literary magazine, yearbook and a student podcast all exist, but they run as English courses — Journalism (234) and Yearbook (235) — rather than as clubs, which is why none appears in this roster.',
+      text: 'The school newspaper, literary magazine, yearbook and a student podcast all exist. But they run as English courses, Journalism (234) and Yearbook (235), rather than as clubs. That is why none appears in this roster.',
       tag: 'Structural',
     },
     {
@@ -893,7 +864,7 @@ const TRINITY_EPISCOPAL: ClubCatalog = {
     {
       name: 'Invisible Differences',
       cat: 'aff',
-      note: 'Listed among Middle School student clubs in the School Profile, but the school’s own affinity-groups page describes it as one of four PARENT groups, for families of children with learning differences',
+      note: 'Listed among Middle School student clubs in the School Profile. But the school’s own affinity-groups page describes it as one of four PARENT groups, for families of children with learning differences',
     },
     {
       name: 'Mock Trial',
@@ -948,7 +919,7 @@ const TRINITY_EPISCOPAL: ClubCatalog = {
     {
       name: 'Chess Club',
       cat: 'spec',
-      note: 'Listed as a Lower School club in the School Profile, but corroborated on the site only as a paid Trinity Extended Day enrichment offered "for an additional fee" — alongside music lessons, karate and cheer club',
+      note: 'Listed as a Lower School club in the School Profile. But it is confirmed on the site only as a paid Trinity Extended Day enrichment offered "for an additional fee", alongside music lessons, karate and cheer club',
     },
     {
       name: 'Radagast Rabies',
