@@ -51,7 +51,7 @@ export const davidsonDay: SportsProgram = {
     headline:
       '35 teams across 13 sports on a 15-acre campus, with about 90% of students in grades 5–12 playing.',
     subhead:
-      'Athletics start in grade 5 here — earlier than any other school in this comparison — and the school fields rowing on Lake Davidson. The school counts more than 200 Middle and Upper School athletes.',
+      'Athletics start in grade 5 here, and the school fields rowing on Lake Davidson. The school counts more than 200 Middle and Upper School athletes.',
     stats: [
       { value: '13', label: 'distinct sports' },
       { value: '35', label: 'teams across V · JV · MS' },
@@ -97,7 +97,7 @@ export const davidsonDay: SportsProgram = {
       },
     ],
     footnote:
-      'Davidson Day moved up from 1A to 2A to 3A as enrollment grew, reaching 3A for 2024–25. It fields no wrestling, softball, field hockey or boys lacrosse — MaxPreps lists some of these, but the school’s own teams page does not, and the school’s page is treated as authoritative. Eight of the campus’s fifteen acres are given to fields and a wooded park with waterfront access to the Lake Davidson Nature Preserve, which supports the rowing program. Football and baseball are fielded in partnership with SouthLake Christian Academy, per the 2026–27 School Profile.',
+      'Davidson Day moved up from 1A to 2A to 3A as enrollment grew, reaching 3A for 2024–25. It fields no wrestling, softball, field hockey or boys lacrosse. MaxPreps lists some of these, but the school’s own teams page does not, so this page follows the school. Eight of the campus’s fifteen acres are given to fields and a wooded park. The park has waterfront access to the Lake Davidson Nature Preserve, which supports the rowing program. Football and baseball are fielded in partnership with SouthLake Christian Academy, per the 2026–27 School Profile.',
     sources: [
       { label: 'davidsonday.org — Patriot Teams', url: 'https://www.davidsonday.org/athletics/patriot-teams' },
       { label: 'School Profile 2026–27 (athlete count, SouthLake partnership)', url: PROFILE },
@@ -245,11 +245,11 @@ export const davidsonDay: SportsProgram = {
         // phrase left here ships English to every locale. Same fix shape as the
         // Gaston Day `ensembles` case in src/data/overlays/NOTES.md.
         program: '2023–24',
-        text: 'The peak. Seven state titles in one year — boys and girls soccer, volleyball, boys and girls cross country, boys basketball and boys tennis — the most of any 2A school in the NCISAA, plus the Wells Fargo Cup for all-sports excellence.',
+        text: 'The peak. Seven state titles in one year, the most of any 2A school in the NCISAA: boys and girls soccer, volleyball, boys and girls cross country, boys basketball and boys tennis. That year also brought the Wells Fargo Cup for all-sports excellence.',
       },
       {
         program: 'Boys Basketball',
-        text: 'The historic peak was 2019–20: 30–1, ranked No. 5 in North Carolina, and the NCISAA 2A championship, led by senior C.J. Huntley. In 2025–26 the Patriots went 23–11 under new coach Gary Ellington and beat Oak Hill Academy 86–79 — handing that national program its first loss of the season — before losing the state semifinal to Greensboro Day.',
+        text: 'The historic peak was 2019–20: 30–1, ranked No. 5 in North Carolina, and the NCISAA 2A championship, led by senior C.J. Huntley. In 2025–26 the Patriots went 23–11 under new coach Gary Ellington. They beat Oak Hill Academy 86–79, handing that national program its first loss of the season. They then lost the state semifinal to Greensboro Day.',
       },
       {
         program: '2025–26',
@@ -279,7 +279,7 @@ export const davidsonDay: SportsProgram = {
     headline:
       'Twenty-one documented commitments across 2024–26, thirteen of them Division I and five Power 4 — a high conversion rate for a 565-student school.',
     subhead:
-      'Basketball leads with seven commits — signees to North Carolina, Clemson, Dayton, Furman and Wofford and a preferred walk-on at Duke — and soccer has six, from NC State and Villanova to three Division III programs. The Class of 2026 also sent two lacrosse players to Division II and two track athletes to Division III.',
+      'Basketball leads with seven commits: signees to North Carolina, Clemson, Dayton, Furman and Wofford, and a preferred walk-on (promised a roster spot, without athletic aid) at Duke. Soccer has six, from NC State and Villanova to three Division III programs. The Class of 2026 also sent two lacrosse players to Division II and two track athletes to Division III.',
     funnel: [
       {
         label: 'Committed to college athletics',
@@ -299,7 +299,7 @@ export const davidsonDay: SportsProgram = {
       },
     ],
     funnelNote:
-      'These are documented floors, not a census. The school published a seven-athlete signing list for the Class of 2025, and its 2025–26 Athletics Recap names all eight collegiate athletes in the Class of 2026; every other row here is confirmed on the college’s own roster. The school published no list for the Class of 2024, so that class may still be understated. Collegiate athlete is the school’s term, not scholarship athlete: Nick Arnold joined Duke as a preferred walk-on, and Division III programs such as Chicago, Roanoke, Sewanee, Emory and Berry award no athletic scholarships. The school states that more than 100 Davidson Day athletes have gone on to compete at 80 different colleges.',
+      'These are documented floors, not a census. The school published a seven-athlete signing list for the Class of 2025. Its 2025–26 Athletics Recap names all eight collegiate athletes in the Class of 2026. Every other row on this card is confirmed on the college’s own roster. The school published no list for the Class of 2024, so that class may still be understated. Collegiate athlete is the school’s term. This card counts collegiate athletes, with or without a scholarship. Nick Arnold joined Duke as a preferred walk-on. Division III programs such as Chicago, Roanoke, Sewanee, Emory and Berry award no athletic scholarships. The school states that more than 100 Davidson Day athletes have gone on to compete at 80 different colleges.',
     sportBars: [
       { sport: 'Basketball', count: 7, width: 1, p4Width: 0.43 },
       { sport: 'Soccer', count: 6, width: 0.86, p4Width: 0.14 },
@@ -310,7 +310,7 @@ export const davidsonDay: SportsProgram = {
       { sport: 'Equestrian', count: 1, width: 0.14, p4Width: 0.14 },
     ],
     realityCheck:
-      'The unusual thing here is still the ratio: thirteen of twenty-one documented commitments are Division I, where larger peer schools convert closer to a third. Basketball remains the engine, with seven college signees in three classes, but soccer is close behind with six, including a Big East defender at Villanova and an ACC signee at NC State. The Class of 2026 added two lacrosse players bound for Division II and two track athletes bound for Division III, so the experience for an athlete outside basketball now has examples of its own.',
+      'The unusual thing about this pipeline is still the ratio: thirteen of twenty-one documented commitments are Division I. Basketball remains the biggest source, with seven college signees in three classes. Soccer is close behind with six, including a Big East defender at Villanova and an ACC signee at NC State. The Class of 2026 added two lacrosse players bound for Division II and two track athletes bound for Division III. So athletes outside basketball now have examples of their own.',
     rankedRecruits:
       'Three four-star basketball recruits in consecutive classes. Cody Peck ’26 is ranked No. 82 nationally by 247Sports and No. 99 by ESPN — he transferred in from IMG Academy for his senior year and chose Dayton over Creighton, Tennessee and Miami. Isaiah Denis ’25 was No. 56 in the On3 Industry ranking and the No. 1 recruit in North Carolina before signing with UNC. Will Stevens ’26, a 6-foot-10 center, was No. 1 in NC per On3 and committed to Clemson over Vanderbilt and South Carolina.',
     roster: [
@@ -340,7 +340,7 @@ export const davidsonDay: SportsProgram = {
       { cls: "'24", name: 'Chase Perry', sport: 'Boys Soccer', college: 'Chicago', conf: 'UAA', level: 'D3' },
     ],
     rosterNote:
-      'The Class of 2024 is listed from college rosters, because the school published no signing list for that year. The Class of 2026 is complete: the school’s 2025–26 Athletics Recap names all eight. Each college is the one the athlete signed with out of Davidson Day; Levon Jacobs played his freshman season at the University of Charleston in West Virginia. Level labels and conferences were added by the researcher from each college’s NCAA status; Flagler competes in the Peach Belt Conference through 2026–27 and joins the Sunshine State Conference in 2027–28.',
+      'The Class of 2024 is listed from college rosters, because the school published no signing list for that year. The Class of 2026 is complete: the school’s 2025–26 Athletics Recap names all eight. Each college is the one the athlete signed with out of Davidson Day. Levon Jacobs played his freshman season at the University of Charleston in West Virginia. This site added the level labels and conferences from each college’s NCAA status. Flagler competes in the Peach Belt Conference through 2026–27 and joins the Sunshine State Conference in 2027–28.',
     sources: [
       {
         label: 'davidsonday.org — seven athletes sign letters of intent',
@@ -439,7 +439,7 @@ export const davidsonDay: SportsProgram = {
       },
       {
         label: 'Patriot Athletic Hall of Fame',
-        text: 'Created in 2025 with an eight-person inaugural class — Lamar Briggs, Maya Caldwell, Rashun Davis, Jenny Falcone, Will Grier, Aaron Seward, Melissa Zammitti and contributors Chuck and Karen Wolter. It inducts biennially, next in 2027.',
+        text: 'Created in 2025 with eight inductees in its inaugural class: Lamar Briggs · Maya Caldwell · Rashun Davis · Jenny Falcone · Will Grier · Aaron Seward · Melissa Zammitti · contributors Chuck and Karen Wolter, inducted together. It inducts a class every other year, next in 2027.',
         tag: 'School culture signal',
         tagStyle: 'outline',
       },
@@ -478,7 +478,7 @@ export const davidsonDay: SportsProgram = {
           { value: '9×', label: 'conference Coach of the Year' },
         ],
         detail:
-          'A genuinely significant hire for a school this size — two state titles, nine conference championships, eight Sweet 16 appearances and two North Carolina Basketball Coaches Association Coach of the Year awards. In year one at Davidson Day he went 23–11, reached the state semifinal and beat Oak Hill Academy. He also serves as the Upper School Strength Teacher, which is the only documented strength-training role on campus.',
+          'A genuinely significant hire for a school this size. His record: two state titles, nine conference championships, eight Sweet 16 appearances and two North Carolina Basketball Coaches Association Coach of the Year awards. In year one at Davidson Day he went 23–11, reached the state semifinal and beat Oak Hill Academy. He also serves as the Upper School Strength Teacher, the only documented strength-training role on campus.',
       },
       {
         kicker: 'The continuity anchor · Soccer, since 2017',
@@ -489,7 +489,7 @@ export const davidsonDay: SportsProgram = {
           { value: '63–15–1', label: 'boys record across four title-era seasons' },
         ],
         detail:
-          'The longest verified head-coaching tenure at the school, and the clearest illustration of what continuity buys: he rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning three straight titles, while girls soccer took two more under him. Both programs collapsed in 2025–26 — girls soccer from 14–2 to 3–11 — the season after his departure.',
+          'The longest verified head-coaching tenure at the school, and the clearest example of what continuity brings. He rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning three straight titles. Girls soccer won two more titles under him. Both programs collapsed in 2025–26, the season after he left. Girls soccer went from 14–2 to 3–11.',
       },
     ],
     tenure: [
@@ -501,7 +501,7 @@ export const davidsonDay: SportsProgram = {
       { name: 'P. Letourneau', role: 'Soccer — succeeded Laatsch', width: 0.12, since: 'since 2025' },
     ],
     worthKnowing:
-      'the school publishes no coaching directory, so head coaches for eight of its thirteen sports are undocumented — a consequence of its official athletics website being offline. Volleyball’s Catherine Glass and soccer’s Brad Laatsch represent long, title-producing tenures; basketball is the opposite, with at least seven boys head coaches since 2008 and seven girls head coaches in eight documented seasons. The 2024 title-winning coach, James Long, left for the college ranks a season later.',
+      'the school publishes no coaching directory, so head coaches for eight of its thirteen sports are undocumented. That is because its official athletics website is offline. Volleyball’s Catherine Glass and soccer’s Brad Laatsch have had long tenures that produced titles. Basketball is the opposite, with at least seven boys head coaches since 2008 and seven girls head coaches in eight documented seasons. The 2024 title-winning coach, James Long, left for the college ranks a season later.',
     sources: [
       { label: 'davidsonday.org — Athletics', url: ATHLETICS },
       {

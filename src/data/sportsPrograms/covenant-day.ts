@@ -84,7 +84,7 @@ export const covenantDay: SportsProgram = {
       },
     ],
     footnote:
-      'The 18-team figure and season groupings are the school’s own. The per-sport V / JV / MS chips are taken from each team’s "Additional Levels" listing on the school site: 8 sports field a JV team and every sport but Girls Golf fields a middle-school team. Boys volleyball runs as a club sport, and a combined lacrosse program appears in the school’s signing coverage. MaxPreps counts 21 varsity sports and 50 total teams by splitting genders and levels the school aggregates.',
+      'The 18-team figure and season groupings are the school’s own. The per-sport V / JV / MS chips are taken from each team’s "Additional Levels" listing on the school site. On that listing, 8 sports field a JV team, and every sport but Girls Golf fields a middle-school team. Boys volleyball runs as a club sport, and a combined lacrosse program appears in the school’s signing coverage. MaxPreps counts 21 varsity sports and 50 total teams by splitting genders and levels that the school combines.',
     sources: [
       { label: 'covenantday.org — Teams', url: TEAMS },
       { label: 'covenantday.org — Athletics', url: ATHLETICS },
@@ -159,18 +159,18 @@ export const covenantDay: SportsProgram = {
     seasonDetail: [
       {
         program: 'Softball',
-        text: 'The 2025–26 team captured the first-ever softball CISAA Conference and NCISAA State Championship — and the first CDS team state title of any kind since 2017 — going 10–1 in conference and defeating Cannon in the final. Senior Avery Houseton was Conference Player of the Year and All-State before signing with UNC Charlotte.',
+        text: 'The 2025–26 team captured the first-ever softball CISAA Conference and NCISAA State Championship. It was also the first CDS team state title of any kind since 2017. The team went 10–1 in conference and beat Cannon in the final. Senior Avery Houseton was Conference Player of the Year and All-State before signing with UNC Charlotte.',
       },
       {
         program: 'Boys Soccer',
-        text: 'Made the program’s first NCISAA 4A final in 2024–25, then earned the #1 overall seed in 2025–26, hosted the championship game for a second consecutive year, and was "ranked first in the nation" during an 8-game unbeaten streak before falling 2–1 to Christ School.',
+        text: 'Made the program’s first NCISAA 4A final in 2024–25. In 2025–26 the team earned the #1 overall seed and hosted the championship game for a second consecutive year. That season, the team was "ranked first in the nation" during an 8-game unbeaten streak before falling 2–1 to Christ School.',
       },
       {
         // `program` values are skipped as sport-name identifiers by the i18n
         // extractor — keep them sport-name-shaped, never editorial phrases
         // (the recorded seven-string defect is exactly that shape).
         program: 'Boys Basketball · Baseball',
-        text: 'Boys basketball earned the #4 overall seed in the 2024–25 NCISAA playoffs behind an All-State senior pair; baseball took the #8 seed in 2025–26 at 12–14 (5–5 in conference). Neither reached the semifinal, so they sit outside the title matrix above.',
+        text: 'Boys basketball earned the #4 overall seed in the 2024–25 NCISAA playoffs, behind a pair of All-State seniors. Baseball took the #8 seed in 2025–26 at 12–14 (5–5 in conference). Neither reached the semifinal, so they sit outside the title table above.',
       },
       {
         program: 'Girls Basketball · XC · Tennis',
@@ -211,7 +211,7 @@ export const covenantDay: SportsProgram = {
       },
     ],
     funnelNote:
-      'Documented minimums from the school’s own signing posts, which name every signee in the classes of 2024–26, and from the Lions Beyond CDS lists of alumni playing in college that each team page publishes. Elijah Green ’24 is listed from William Peace’s roster. The school’s cumulative claim is 175+ collegiate athletes since 2006.',
+      'These are documented minimums. They come from the school’s own signing posts, which name every signee in the classes of 2024–26. They also come from the Lions Beyond CDS lists of alumni playing in college, which each team page publishes. Elijah Green ’24 is listed from William Peace’s roster. The school’s cumulative claim is 175+ collegiate athletes since 2006.',
     sportBars: [
       { sport: 'Soccer', count: 9, width: 1 },
       { sport: 'Baseball', count: 7, width: 0.78 },
@@ -223,9 +223,9 @@ export const covenantDay: SportsProgram = {
       { sport: 'Field Hockey', count: 1, width: 0.11, p4Width: 0.11 },
     ],
     realityCheck:
-      'The pipeline is broad rather than tall: commitments span eleven sports, but the ceiling outside field hockey is Division I mid-major — Louisiana Tech, East Carolina, UNC Charlotte in softball and football, Appalachian State in basketball and baseball, Queens, Gardner-Webb and Wofford. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.',
+      'The pipeline reaches many sports, but rarely the top levels. Commitments span eleven sports. But outside field hockey, the highest level is Division I mid-major (Division I programs outside the biggest conferences). Those placements: Louisiana Tech · East Carolina · UNC Charlotte in softball and football · Appalachian State in basketball and baseball · Queens · Gardner-Webb · Wofford. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.',
     rankedRecruits:
-      'No nationally top-100-ranked recruit is documented. The two best-covered recruits are Emily Eaton ’24 — 2023 NCISAA Player of the Year and NC Player of the Year per Max Field Hockey, signed by a top-10-ranked Louisville program — and 6′9″ forward Michael Marcus Jr ’24, who chose Appalachian State after NC state-level coverage.',
+      'No nationally top-100-ranked recruit is documented. The two best-covered recruits are Emily Eaton ’24 and Michael Marcus Jr ’24. Eaton was 2023 NCISAA Player of the Year and NC Player of the Year per Max Field Hockey, and signed with a top-10-ranked Louisville program. Marcus, a 6′9″ forward, chose Appalachian State after NC state-level coverage.',
     roster: [
       { cls: "'24", name: 'Emily Eaton', sport: 'Field Hockey', college: 'Louisville', conf: 'ACC', level: 'P4' },
       { cls: "'24", name: 'Michael Marcus Jr', sport: 'Basketball', college: 'Appalachian State', conf: 'Sun Belt', level: 'D1' },
@@ -264,7 +264,7 @@ export const covenantDay: SportsProgram = {
       { cls: "'26", name: 'Matthew Dorsey', sport: 'Baseball', college: 'Wake Tech CC', conf: 'NJCAA', level: 'D3' },
     ],
     rosterNote:
-      'Compiled from the school’s own Lions News signing articles (September 2024 through April 2026) and its Lions Beyond CDS alumni lists. Each row shows the college the athlete went to out of Covenant Day: Grant Gardner signed with Davidson and enrolled at Appalachian State, and Chris Rivens signed with Guilford for basketball and joined UNC Charlotte’s football roster. Levels and conferences were verified per college by the researcher; the three junior-college signees are listed at the D3 tier for want of an NJCAA level in this table’s scale. Since enrolling, Emily Eaton has transferred from Louisville to Virginia — also ACC — and Michael Marcus Jr from Appalachian State to George Mason.',
+      'Compiled from the school’s own Lions News signing articles (September 2024 through April 2026) and its Lions Beyond CDS alumni lists. Each row shows the college the athlete went to out of Covenant Day. Grant Gardner signed with Davidson and enrolled at Appalachian State. Chris Rivens signed with Guilford for basketball and joined UNC Charlotte’s football roster. This site confirmed the levels and conferences for each college. The three junior-college signees are listed at the D3 level, because this table has no NJCAA level. Since enrolling, Emily Eaton has transferred from Louisville to Virginia, also ACC. Michael Marcus Jr has transferred from Appalachian State to George Mason.',
     sources: [
       {
         label: 'covenantday.org — 2 student-athletes commit to D1 schools (Eaton, Marcus)',
@@ -364,7 +364,7 @@ export const covenantDay: SportsProgram = {
           { value: '2003', label: 'at Covenant Day since' },
         ],
         detail:
-          'The Director of Guidance and College Counseling doubles as the varsity volleyball head coach — a two-decade tenure that produced three consecutive NCISAA state runner-up finishes and, in 2025, a 1,000-dig and a 1,000-assist senior in the same rotation.',
+          'The Director of Guidance and College Counseling is also the varsity volleyball head coach. That two-decade tenure produced three consecutive NCISAA state runner-up finishes. In 2025, the team had a 1,000-dig and a 1,000-assist senior in the same rotation.',
       },
       {
         kicker: 'The internal promotion · Athletic Director',
@@ -375,7 +375,7 @@ export const covenantDay: SportsProgram = {
           { value: "'25", label: 'son Sean signed to play college soccer' },
         ],
         detail:
-          'Freace moved from High School Principal to Athletic Director — an internal promotion announced on the school’s own news feed rather than an outside hire. The department around him: Aja Teich (Assistant AD / Sports Information Director), Michael Laney (Assistant AD for Middle School Athletics and head basketball coach), Chad Smith (strength & conditioning), plus an operations manager and transportation coordinator.',
+          'Freace moved from High School Principal to Athletic Director. It was an internal promotion, not an outside hire, announced on the school’s own news feed. The department around him: Aja Teich (Assistant AD / Sports Information Director) · Michael Laney (Assistant AD for Middle School Athletics and head basketball coach) · Chad Smith (strength & conditioning) · an operations manager and transportation coordinator.',
       },
     ],
     tenure: [
@@ -387,7 +387,7 @@ export const covenantDay: SportsProgram = {
       { name: 'Katie Johnson', role: 'Girls Soccer — dated hire', width: 0.15, since: 'announced on Lions News' },
     ],
     worthKnowing:
-      'the school publishes no coaching directory with tenure dates — the two dated head-coach announcements (Langs for football, Johnson for girls soccer) and Mills’ 22-season milestone are the documented anchors. Program coaches named in school coverage include David Houseton (baseball, father of softball signee Avery), Vanessa Laney, Rachael Klohr, Julius Klohr, Mike Hawks and Bobby Wehane.',
+      'the school publishes no coaching directory with tenure dates. The dates on record come from two head-coach announcements (Langs for football, Johnson for girls soccer) and Mills’ 22-season milestone. Program coaches named in school news include: David Houseton (baseball, father of softball signee Avery) · Vanessa Laney · Rachael Klohr · Julius Klohr · Mike Hawks · Bobby Wehane.',
     sources: [
       { label: 'covenantday.org — Athletics staff', url: ATHLETICS },
       {
@@ -416,7 +416,7 @@ export const covenantDay: SportsProgram = {
     care: [
       {
         label: 'Strength & conditioning',
-        text: 'A dedicated faculty position — Chad Smith, HS Strength and Conditioning Teacher and Coach. Programming is age-appropriate with integrated speed and agility work; progress is tracked daily, and athletes lift after school and through summers.',
+        text: 'A dedicated faculty position: Chad Smith, HS Strength and Conditioning Teacher and Coach. The programming is age-appropriate and includes speed and agility work. Progress is tracked daily, and athletes lift after school and through summers.',
       },
       {
         label: 'Strength as curriculum',

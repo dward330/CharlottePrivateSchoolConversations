@@ -1,0 +1,41 @@
+{
+  "generated": "2026-11-11",
+  "dir": "src/data/sportsPrograms",
+  "note": "Off-worklist units added by hand (plan plainsports, Batch 1 ruling: no comparisons with other schools)",
+  "slugs": [
+    "charlotte-christian",
+    "charlotte-catholic"
+  ],
+  "match": null,
+  "total": 2,
+  "counts": {
+    "charlotte-christian": 1,
+    "charlotte-catholic": 1
+  },
+  "units": [
+    {
+      "at": "charlotte-catholic:facilities.subhead",
+      "slug": "charlotte-catholic",
+      "path": "facilities.subhead",
+      "words": 24,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "ruling": "user 2026-11-11: no comparisons with other schools",
+      "text": "The care model is outsourced to a hospital system rather than run in house — a different structure from the independent schools on this roster."
+    },
+    {
+      "at": "charlotte-christian:facilities.careNote",
+      "slug": "charlotte-christian",
+      "path": "facilities.careNote",
+      "words": 41,
+      "grade": 11.4,
+      "rules": [
+        "long"
+      ],
+      "extra": true,
+      "ruling": "on the planning worklist (main); the Batch 2 fixes commit took it under the hook threshold, so the regenerated list dropped it. Rewritten in the wording pass (\"probe\" → \"ask about\", as PD and Latin)",
+      "text": "The hybrid model is the thing to probe on a tour: two employed trainers plus an Atrium-provided third, a mix of in-house and hospital-provided care. Seating capacities are not published for any Charlotte Christian venue."
+    }
+  ]
+}

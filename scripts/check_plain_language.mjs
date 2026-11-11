@@ -419,6 +419,11 @@ export const wordsOf = (s) => s.split(/\s+/).filter(isWord)
 
 const DOT = '․' // one-dot leader stands in for a protected period
 const ABBR = /\b(?:a\.m|p\.m|A\.M|P\.M|U\.S|Ph\.D|e\.g|i\.e|St|Dr|Mr|Mrs|Ms|No|vs|etc|Jr|Sr|Inc|approx)\./g
+// A lone capital before a period is an initial ("C.J. Huntley", "J. Smith") and
+// does not end a sentence, except after a designator word, where it is a level
+// or numeral that can end one: "… as well as Division I. The school …" was read
+// as a single 35-word sentence (plan plainsports, Batch 5).
+const INITIAL = /(?<!\b(?:Division|Phase|Level|Tier|Title|Part|War|Class)\s)\b([A-Z])\.(?=\s)/g
 
 /**
  * Split normalized text into sentences. Semicolons never split; a ` · `
@@ -428,7 +433,7 @@ const ABBR = /\b(?:a\.m|p\.m|A\.M|P\.M|U\.S|Ph\.D|e\.g|i\.e|St|Dr|Mr|Mrs|Ms|No|v
 export function sentences(text) {
   const protectedText = text
     .replace(ABBR, (m) => m.replace(/\./g, DOT))
-    .replace(/\b([A-Z])\.(?=\s)/g, `$1${DOT}`)
+    .replace(INITIAL, `$1${DOT}`)
   return protectedText
     .split(/(?<=[.!?]["”’)\]]*)\s+|\s+·\s+/)
     .map((s) => s.replaceAll(DOT, '.').trim())

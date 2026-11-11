@@ -1,0 +1,61 @@
+{
+  "generated": "2026-11-11",
+  "dir": "src/data/sportsPrograms",
+  "note": "Off-worklist units added by hand (plan plainsports, Batch 3)",
+  "slugs": [
+    "charlotte-country-day",
+    "cannon"
+  ],
+  "match": null,
+  "total": 4,
+  "counts": {
+    "charlotte-country-day": 3,
+    "cannon": 1
+  },
+  "units": [
+    {
+      "at": "charlotte-country-day:pipeline.rosterNote",
+      "slug": "charlotte-country-day",
+      "path": "pipeline.rosterNote",
+      "words": 33,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "ruling": "plan census: T2 research bookkeeping (off-worklist)",
+      "text": "Level labels and conferences were added by the researcher from each college’s NCAA status; they are not on the school’s published roster. P4 = SEC · Big Ten · ACC · Big 12."
+    },
+    {
+      "at": "charlotte-country-day:facilities.subhead",
+      "slug": "charlotte-country-day",
+      "path": "facilities.subhead",
+      "words": 16,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "ruling": "user 2026-11-11: no comparisons with other schools (rewritten in the Batch 3 fixes commit; no wording change)",
+      "text": "Five named certified athletic trainers across two campuses, an unusually large staff for a high school."
+    },
+    {
+      "at": "charlotte-country-day:facilities.careNote",
+      "slug": "charlotte-country-day",
+      "path": "facilities.careNote",
+      "words": 46,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "ruling": "on the planning worklist (main); the Batch 3 fixes commit took it under the hook threshold, so the regenerated list dropped it. Rewritten in the wording pass",
+      "text": "The OrthoCarolina partnership, which supplies the team physician, is the thing to probe on a tour. The combined Klein and Harris project totaled 77,737 sq ft and roughly $30.5M, funded by a $10M lead gift from the Klein family, the Dowd Foundation and two anonymous donors."
+    },
+    {
+      "at": "cannon:facilities.careNote",
+      "slug": "cannon",
+      "path": "facilities.careNote",
+      "words": 40,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "ruling": "on the planning worklist (main); the Batch 3 fixes commit took it under the hook threshold, so the regenerated list dropped it. Rewritten in the wording pass",
+      "text": "Cannon is a clinical education site for UNC Charlotte’s Master’s in Athletic Training. Note the model worth probing on a tour: Cannon outsources its athletic trainers and team physicians to Novant. Seating capacities are not published for any Cannon venue."
+    }
+  ]
+}

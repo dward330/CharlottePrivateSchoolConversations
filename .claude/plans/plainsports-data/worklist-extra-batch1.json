@@ -1,0 +1,56 @@
+{
+  "generated": "2026-11-11",
+  "dir": "src/data/sportsPrograms",
+  "note": "Off-worklist units added by hand (plan plainsports, Research bookkeeping / Near-repeats)",
+  "slugs": [
+    "providence-day",
+    "charlotte-latin"
+  ],
+  "match": null,
+  "total": 4,
+  "counts": {
+    "providence-day": 3,
+    "charlotte-latin": 1
+  },
+  "units": [
+    {
+      "at": "providence-day:pipeline.subhead",
+      "slug": "providence-day",
+      "path": "pipeline.subhead",
+      "words": 21,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "text": "Built from the school’s official \"Alumni at the Next Level\" list; division and conference labels were added by the researcher from each college’s NCAA status."
+    },
+    {
+      "at": "providence-day:record.seasonDetail[2].text",
+      "slug": "providence-day",
+      "path": "record.seasonDetail[2].text",
+      "words": 21,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "text": "2026: beat Carmel Christian 2–0 for a third straight title, finishing 18–4–1, with Grayson Dudley scoring both goals. The 2024–25 season record is still unconfirmed."
+    },
+    {
+      "at": "charlotte-latin:facilities.care[4].text",
+      "slug": "charlotte-latin",
+      "path": "facilities.care[4].text",
+      "words": 16,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "text": "Not published as a policy document — a genuine gap, unlike its CISAA peers who publish theirs",
+      "ruling": "user 2026-11-11: no comparisons with other schools"
+    },
+    {
+      "at": "providence-day:facilities.careNote",
+      "slug": "providence-day",
+      "path": "facilities.careNote",
+      "extra": true,
+      "ruling": "user 2026-11-11: no comparisons with other schools (rewrite first)",
+      "text": "Context: CMS public schools partner with Atrium Health and Charlotte Country Day uses OrthoCarolina. PD’s fully in-house model is the differentiator to probe on a tour. Seating capacities are not published for any PD venue."
+    }
+  ]
+}

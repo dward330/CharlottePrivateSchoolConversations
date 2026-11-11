@@ -80,7 +80,7 @@ export const providenceDay: SportsProgram = {
       },
     ],
     footnote:
-      'Counting boys’ and girls’ editions separately, this is 27 varsity programs; the remaining ~39 of 66 teams are the JV and Middle School squads beneath them. Middle School splits larger sports into "Blue" and "Red" squads to widen participation. As of 2025–26, football competes in the new NCISAA "Big South" conference with Charlotte Latin, Charlotte Christian and Charlotte Country Day — PD went 3–0 and finished first.',
+      'Counting boys’ and girls’ teams separately, PD has 27 varsity programs. The other ~39 of its 66 teams are JV and Middle School squads. Middle School splits larger sports into "Blue" and "Red" squads so more students can play. As of 2025–26, football plays in the new NCISAA "Big South" conference with Charlotte Latin, Charlotte Christian and Charlotte Country Day. PD went 3–0 and finished first.',
     sources: [
       { label: 'pdschargers.com Athletics Directory', url: PDS },
       {
@@ -199,7 +199,7 @@ export const providenceDay: SportsProgram = {
       },
       {
         program: 'Girls Soccer',
-        text: '2026: beat Carmel Christian 2–0 for a third straight title, finishing 18–4–1, with Grayson Dudley scoring both goals. The 2024–25 season record is still unconfirmed.',
+        text: '2026: beat Carmel Christian 2–0 for a third straight title, finishing 18–4–1, with Grayson Dudley scoring both goals. No public source confirms the 2024–25 season record yet.',
       },
       {
         program: 'Girls Swimming',
@@ -228,7 +228,7 @@ export const providenceDay: SportsProgram = {
     headline:
       '39 Division I commits across the classes of 2024–26, 16 of them Power 4 — and an honest map of which sports feed which level.',
     subhead:
-      'Built from the school’s official "Alumni at the Next Level" list; division and conference labels were added by the researcher from each college’s NCAA status.',
+      'Built from the school’s official "Alumni at the Next Level" list. This site added the division and conference labels from each college’s NCAA status.',
     funnel: [
       {
         label: 'Committed to college athletics',
@@ -247,7 +247,7 @@ export const providenceDay: SportsProgram = {
       },
     ],
     funnelNote:
-      'Treat the D1 tally as a floor, not a ceiling: the school’s own single-class graphic claims 31 future NCAA student-athletes across 15 sports and 24 colleges in one senior class; the 2026–27 profile puts the Class of 2026 at 31 college athletes, 13 of them at Division I. An offer also differs from a commitment — one elite recruit can hold 7–8 Power 4 offers but makes a single commitment. Of the 16 P4 commits, the ACC takes 9, the Big Ten 4 and the SEC 3; the Big 12 is not represented in this window.',
+      'Treat the D1 count as a floor, not a ceiling. The school’s own graphic for a single senior class claims 31 future NCAA student-athletes across 15 sports and 24 colleges. The 2026–27 profile puts the Class of 2026 at 31 college athletes, 13 of them at Division I. An offer is also not a commitment. One top recruit can hold 7–8 Power 4 offers but makes one commitment. Of the 16 P4 commits, the ACC has 9, the Big Ten 4 and the SEC 3. The Big 12 has none in this window.',
     sportBars: [
       { sport: 'Football', count: 14, width: 1, p4Width: 0.79 },
       { sport: 'Swimming', count: 4, width: 0.29, p4Width: 0.21 },
@@ -259,9 +259,9 @@ export const providenceDay: SportsProgram = {
       { sport: 'Other', count: 4, width: 0.29 },
     ],
     realityCheck:
-      'Baseball, lacrosse, golf, tennis, softball and both basketballs send commits overwhelmingly to NCAA Division III — Denison, Hampden-Sydney, Tufts, Emory, Kenyon, Hamilton and Washington & Lee recur heavily. That pattern matches PD’s academically selective identity: for many families, a D3 offer from a top academic college is the win.',
+      'Baseball, lacrosse, golf, tennis, softball and boys and girls basketball send commits overwhelmingly to NCAA Division III. These colleges recur heavily: Denison · Hampden-Sydney · Tufts · Emory · Kenyon · Hamilton · Washington & Lee. That pattern fits PD’s identity as an academically selective school. For many families, a D3 offer from a top academic college is the win.',
     rankedRecruits:
-      'Seven PD players made NC Football News’ 53-man consensus list for the class of 2027 (blending 247Sports, Rivals and ESPN), led by safety Robert Geathers III. Recent blue-chips: David Sanders ’25 (five-star, the No. 1 offensive tackle and No. 4 recruit nationally, to Tennessee) and Jadyn Davis ’24 (NC Mr. Football, to Michigan). PD fielded one five-star and seven four-stars in the 2025 football class alone.',
+      'Seven PD players made NC Football News’ 53-man consensus list for the class of 2027, which blends 247Sports, Rivals and ESPN. Safety Robert Geathers III leads them. Recent top-rated recruits: David Sanders ’25 (five-star, the No. 1 offensive tackle and No. 4 recruit nationally, to Tennessee) and Jadyn Davis ’24 (NC Mr. Football, to Michigan). PD had one five-star and seven four-stars in the 2025 football class alone.',
     roster: [
       { cls: "'26", name: 'Gordon Sellars', sport: 'Football', college: 'Clemson', conf: 'ACC', level: 'P4',
         rank247: { national: 177, state: 10, url: 'https://247sports.com/player/gordon-sellars-iii-46142814/' } },
@@ -374,7 +374,7 @@ export const providenceDay: SportsProgram = {
       { cls: "'27", name: 'Justin Abanquah', sport: 'Football', college: 'Elon', conf: 'Southern', level: 'D1' },
     ],
     rosterNote:
-      'Level labels (P4 / D1 / D2 / D3) and conferences were added by the researcher from each college’s NCAA status — they are not on the school’s list. P4 = SEC · Big Ten · ACC · Big 12. The Class of 2027 rows are public verbal commitments, listed because they are already announced and not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign. Three athletes have since moved — Jadyn Davis from Michigan to East Tennessee State, Trajan Thompson from Denver to West Florida and Chase Jackson from Gardner-Webb to Claflin — and the roster shows the college each committed to out of Providence Day. Zach Makemson is listed by the school as a Tennessee commit but enrolled at Appalachian State, which is the college shown here.',
+      'This site added the level labels (P4 / D1 / D2 / D3) and conferences from each college’s NCAA status. These labels are not on the school’s list. P4 = SEC · Big Ten · ACC · Big 12. The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign. Three athletes have since moved: Jadyn Davis from Michigan to East Tennessee State, Trajan Thompson from Denver to West Florida and Chase Jackson from Gardner-Webb to Claflin. The roster shows the college each one committed to out of Providence Day. Zach Makemson is listed by the school as a Tennessee commit but enrolled at Appalachian State, which is the college shown here.',
     sources: [
       { label: 'pdschargers.com — Alumni at the Next Level', url: NEXT_LEVEL },
       { label: 'providenceday.org — 2026–27 profile (Class of 2026: 31 college athletes, 13 at Division I)', url: PROFILE_2627 },
@@ -504,7 +504,7 @@ export const providenceDay: SportsProgram = {
           { value: '20', label: 'consecutive CISAA XC titles, 2000–20' },
         ],
         detail:
-          'A former PD runner who took over from the founding coach and built a perennial power — 2023 Charlotte Observer Boys Track Coach of the Year, having won a fourth straight state title (nine of the prior ten).',
+          'A former PD runner who took over from the founding coach and built a perennial power. He was the 2023 Charlotte Observer Boys Track Coach of the Year, after winning a fourth straight state title (nine of the prior ten).',
       },
     ],
     tenure: [
@@ -518,7 +518,7 @@ export const providenceDay: SportsProgram = {
       { name: 'Dan Dudley', role: 'Girls Soccer — 3 straight state titles', width: 0.17, since: 'tenure', toVerify: true },
     ],
     worthKnowing:
-      'boys basketball’s staff includes Shane Battier — Duke national champion, 13-year NBA veteran and two-time NBA champion — as an assistant coach; his son Zeke plays for the Chargers. Also on staff is Brian Field, the former PD head coach who led the 2016 state title team to the national tournament in New York.',
+      'boys basketball’s staff includes Shane Battier as an assistant coach. Battier is a Duke national champion, a 13-year NBA veteran and a two-time NBA champion. His son Zeke plays for the Chargers. Also on staff is Brian Field, the former PD head coach who led the 2016 state title team to the national tournament in New York.',
     sources: [
       { label: 'pdschargers.com Athletics Directory', url: PDS },
       { label: 'G7 Football — Chad Grier bio', url: 'https://www.g7football.com/copy-of-mission-statement' },
@@ -571,7 +571,7 @@ export const providenceDay: SportsProgram = {
       { name: 'Sports Weight Room', detail: 'Overcash Field House — 2nd S&C space' },
     ],
     broadcast:
-      'Hudl TV live streams, the PD Sports Network on YouTube, a Bahakel Sports partnership (PD–Charlotte Christian has been its Game of the Week), GoFan ticketing, and a dedicated Sports Information Director.',
+      'Hudl TV live streams · the PD Sports Network on YouTube · a Bahakel Sports partnership (PD–Charlotte Christian has been its Game of the Week) · GoFan ticketing · a dedicated Sports Information Director.',
     care: [
       {
         label: 'Athletic trainers',
@@ -595,7 +595,7 @@ export const providenceDay: SportsProgram = {
       },
     ],
     careNote:
-      'Context: CMS public schools partner with Atrium Health and Charlotte Country Day uses OrthoCarolina. PD’s fully in-house model is the differentiator to probe on a tour. Seating capacities are not published for any PD venue.',
+      'Many schools partner with a hospital system for sports medicine. PD’s fully in-house model is the main difference to ask about on a tour. Seating capacities are not published for any PD venue.',
     sources: [
       {
         label: 'pdschargers.com — Athletic Facilities',
@@ -634,7 +634,7 @@ export const providenceDay: SportsProgram = {
       },
     ],
     scheduleNote:
-      'Scheduling up is the tell of a program chasing national recognition — it also means a harder week-to-week slate for your athlete. Note the tension: PD went 13–0 and won state in 2025 yet MaxPreps still ranked it #3 in NC, because the algorithm weights strength of schedule against large public programs.',
+      'Scheduling up (playing stronger opponents) shows a program is chasing national recognition. It also means a harder week-to-week schedule for your athlete. Note the tension: PD went 13–0 and won state in 2025. Yet MaxPreps still ranked it #3 in NC, because the algorithm weights strength of schedule against large public programs.',
     nil: [
       {
         date: 'May 2023',
@@ -643,7 +643,7 @@ export const providenceDay: SportsProgram = {
       { date: 'June 2024', text: 'The State Board of Education bans public-school NIL outright.' },
       {
         date: '2024–25',
-        text: "NCISAA's NIL policy takes effect. For roughly a full year, private-school athletes can sign while public-school rivals cannot — On3 named PD's David Sanders as the direct beneficiary, and he signed with WME Sports and released his own merchandise line.",
+        text: "NCISAA's NIL policy takes effect. For roughly a full year, private-school athletes can sign NIL deals while public-school rivals cannot. On3 named PD's David Sanders as the direct beneficiary. He signed with WME Sports and released his own merchandise line.",
         highlight: true,
         tag: "PD'S WINDOW",
       },

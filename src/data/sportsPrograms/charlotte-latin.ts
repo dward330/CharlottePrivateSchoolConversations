@@ -79,7 +79,7 @@ export const charlotteLatin: SportsProgram = {
       },
     ],
     footnote:
-      'The school publishes "17 sports / 66 teams" while its athletics directory lists 24 varsity programs counting boys’ and girls’ editions separately — both figures are the school’s own and are reproduced as published. JV and Middle School levels are confirmed only for the eight sports with distinct team pages; Latin does not publish a level-by-level breakdown of all 66 teams. Latin competes in NCISAA 4A and the CISAA, with football in the new "Big South" conference.',
+      'The school publishes "17 sports / 66 teams" while its athletics directory lists 24 varsity programs. The directory counts boys’ and girls’ teams separately. Both figures are the school’s own. JV and Middle School levels are confirmed only for the eight sports with their own team pages. Latin does not publish a level-by-level breakdown of all 66 teams. Latin competes in NCISAA 4A and the CISAA, with football in the new "Big South" conference.',
     sources: [
       { label: 'charlottelatin.org — Athletic Teams', url: TEAMS },
       { label: 'clshawks.com — About Athletics', url: 'https://clshawks.com/sports/2024/10/16/about.aspx' },
@@ -200,7 +200,7 @@ export const charlotteLatin: SportsProgram = {
     seasonDetail: [
       {
         program: 'Volleyball',
-        text: 'The clearest upward arc at the school: 13–11 and ranked 128th in NC, then 18–6 and 35th, then 29–2 and 17th with a state-final appearance — the 2025 team won 22 straight before its first loss, under Caitlin Peters.',
+        text: 'The clearest rise at the school: 13–11 and ranked 128th in NC, then 18–6 and 35th, then 29–2 and 17th with a state-final appearance. Under Caitlin Peters, the 2025 team won 22 straight before its first loss.',
       },
       {
         program: 'Wrestling',
@@ -252,7 +252,7 @@ export const charlotteLatin: SportsProgram = {
       },
     ],
     funnelNote:
-      'Thirty-four of the 63 commitments — roughly 54% — are to NCAA Division III programs, concentrated in academically selective conferences (NESCAC, UAA, ODAC, NCAC). Latin celebrates its signees at three events each year and publishes every name; the Class of 2026’s 25 commitments are the most of any Latin class since at least 2008. The count includes three signees to college dance and cheer teams, which sit outside the NCAA divisions shown here.',
+      'Thirty-four of the 63 commitments, roughly 54%, are to NCAA Division III programs. They are concentrated in academically selective conferences (NESCAC, UAA, ODAC, NCAC). Latin celebrates its signees at three events each year and publishes every name. The Class of 2026’s 25 commitments are the most of any Latin class since at least 2008. The count includes three signees to college dance and cheer teams, which sit outside the NCAA divisions shown here.',
     sportBars: [
       { sport: 'Swimming', count: 8, width: 1, p4Width: 0.5 },
       { sport: 'Lacrosse', count: 4, width: 0.5, p4Width: 0.25 },
@@ -265,9 +265,9 @@ export const charlotteLatin: SportsProgram = {
       { sport: 'Basketball', count: 1, width: 0.125 },
     ],
     realityCheck:
-      'Latin’s Division I pipeline runs through the pool and the girls’ lacrosse field: swimming produced eight D1 commits and girls’ lacrosse four, between them six of the eight Power 4 signees. Football, despite the program’s eleven historic state titles, produced two. For most Latin families the realistic outcome is still a Division III place at an academically strong college — Washington & Lee, Emory, Case Western, Denison and Hampden-Sydney recur on the signing lists.',
+      'Latin’s Division I pipeline runs through the pool and the girls’ lacrosse field. Swimming produced eight D1 commits and girls’ lacrosse four. Between them, swimming and girls’ lacrosse account for six of the eight Power 4 signees. Football produced two Division I commits, despite the program’s eleven historic state titles. For most Latin families, the realistic outcome is still a Division III place at an academically strong college. These colleges recur on the signing lists: Washington & Lee · Emory · Case Western · Denison · Hampden-Sydney.',
     rankedRecruits:
-      'Wrestling supplies the genuine national credential: Spear Gorelick ’26 was a 2025 National Prep All-American and was pre-seeded No. 6 nationally at 150 lbs for the 2026 National Prep Championships, reaching 100 career wins before signing with Davidson. Freshman Jack Gilson also reached the national bracket at 138 lbs. In golf, Griffin Cheatwood was NCISAA medalist and Charlotte Observer Golfer of the Year; Aston Lee was CISAA Golfer of the Year. No Latin athlete currently appears in a 247Sports/On3/Rivals national top-100 for football or basketball.',
+      'Wrestling supplies the real national credential. Spear Gorelick ’26 was a 2025 National Prep All-American. He was seeded No. 6 nationally at 150 lbs before the 2026 National Prep Championships, and he reached 100 career wins before signing with Davidson. Freshman Jack Gilson also reached the national bracket at 138 lbs. In golf, Griffin Cheatwood was NCISAA medalist and Charlotte Observer Golfer of the Year. Aston Lee was CISAA Golfer of the Year. No Latin athlete currently appears in a 247Sports/On3/Rivals national top-100 for football or basketball.',
     roster: [
       { cls: "'26", name: 'Aston Lee', sport: 'Golf', college: 'NC State', conf: 'ACC', level: 'P4' },
       { cls: "'26", name: 'Harrison Short', sport: 'Swimming', college: 'Villanova', conf: 'Big East', level: 'D1' },
@@ -333,7 +333,7 @@ export const charlotteLatin: SportsProgram = {
       { cls: "'27", name: 'Thomas Greathouse', sport: 'Swimming', college: 'George Washington', conf: 'Atlantic 10', level: 'D1' },
     ],
     rosterNote:
-      'P4 = SEC · Big Ten · ACC · Big 12. Three Class of 2025 signees to college dance and cheer teams are counted in the funnel but not listed, because neither is an NCAA-sponsored sport. The Class of 2027 rows are public verbal commitments, listed because they are already announced and not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
+      'P4 = SEC · Big Ten · ACC · Big 12. Three Class of 2025 signees to college dance and cheer teams are counted in the funnel but not listed, because neither is an NCAA-sponsored sport. The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
     sources: [
       {
         label: 'clshawks.com — 2026 signing day',
@@ -401,7 +401,7 @@ export const charlotteLatin: SportsProgram = {
       },
       {
         label: 'National Prep All-American',
-        text: 'Spear Gorelick earned wrestling All-American honors at the 2025 National Prep Tournament, and three Hawks — Davis Jones, Liam McConaughy and Banks Cutter — each won three consecutive individual NCISAA state titles from 2024 to 2026.',
+        text: 'Spear Gorelick earned wrestling All-American honors at the 2025 National Prep Tournament. Three Hawks — Davis Jones, Liam McConaughy and Banks Cutter — each won three consecutive individual NCISAA state titles, from 2024 to 2026.',
         tag: 'National',
       },
       {
@@ -447,7 +447,7 @@ export const charlotteLatin: SportsProgram = {
           { value: '2015–20', label: 'head of program at Cannon School' },
         ],
         detail:
-          'One of the most recognizable former professional athletes coaching in Charlotte-area high school sports. Hoover played a full decade in the NFL for the Panthers, then led Cannon School’s program for six years before joining Latin in 2023. He also serves as Middle School baseball head coach and a PE teacher — a pro pedigree embedded in the daily life of the school rather than a figurehead appointment.',
+          'One of the most recognizable former professional athletes coaching in Charlotte-area high school sports. Hoover played a full decade in the NFL for the Panthers. He then led Cannon School’s program for six years before joining Latin in 2023. He also serves as Middle School baseball head coach and a PE teacher. That puts a former pro in the daily life of the school, not just a name on the staff list.',
       },
       {
         kicker: 'The continuity anchor · Basketball & Golf, since 1994',
@@ -458,7 +458,7 @@ export const charlotteLatin: SportsProgram = {
           { value: '4×', label: 'Observer Boys’ Golf Coach of the Year' },
         ],
         detail:
-          'A Latin graduate who was All-Conference and All-State as a student, played at Queens University, and returned in 1994 as Jerry Faulkner’s varsity assistant. He ran JV for a decade before taking over boys basketball in 2009 and golf in 2014, and now heads two varsity programs while serving as Assistant AD for Equipment and Grounds — an unbroken coaching lineage from Faulkner’s 515–157 era to today.',
+          'A Latin graduate who was All-Conference and All-State as a student and played at Queens University. In 1994 he returned to Latin as Jerry Faulkner’s varsity assistant. He ran JV for a decade before taking over boys basketball in 2009 and golf in 2014. He now heads two varsity programs and serves as Assistant AD for Equipment and Grounds. That makes an unbroken coaching line from Faulkner’s 515–157 era to today.',
       },
     ],
     tenure: [
@@ -473,7 +473,7 @@ export const charlotteLatin: SportsProgram = {
       { name: 'Giavonni Mack', role: 'Girls Basketball', width: 0.06, since: 'head coach 2024' },
     ],
     worthKnowing:
-      'Latin’s strength & conditioning department is four people deep — and every one of them also runs a varsity program (Paige/wrestling, Mack/girls basketball, Peters/volleyball, Dayton/football), so strength programming is delivered by the same coaches who run the teams. Volleyball coach Caitlin Peters played twelve years professionally, finishing her final season left-handed after shoulder injuries; girls basketball coach Giavonni Mack played professionally in Istanbul.',
+      'Latin’s strength & conditioning department is four people deep, and every one of them also runs a varsity program: Paige (wrestling) · Mack (girls basketball) · Peters (volleyball) · Dayton (football). So the same coaches who run the teams also deliver the strength training. Volleyball coach Caitlin Peters played twelve years professionally and finished her final season left-handed after shoulder injuries. Girls basketball coach Giavonni Mack played professionally in Istanbul.',
     sources: [
       { label: 'charlottelatin.org — Meet the Staff', url: STAFF },
       { label: 'clshawks.com — About Athletics', url: 'https://clshawks.com/sports/2024/10/16/about.aspx' },
@@ -541,11 +541,11 @@ export const charlotteLatin: SportsProgram = {
       },
       {
         label: 'Concussion protocol',
-        text: 'Not published as a policy document — a genuine gap, unlike its CISAA peers who publish theirs',
+        text: 'Not published as a policy document — a genuine gap',
       },
     ],
     careNote:
-      'Worth probing on a tour: Latin publishes no team physician, hospital partnership or concussion protocol, where Charlotte Country Day names OrthoCarolina, Cannon names Novant, Charlotte Christian names Atrium and Providence Day details a full in-house model. The pool is also owned and operated by SwimMAC Carolina, a third-party club, not the school.',
+      'Worth asking about on a tour: Latin publishes no team doctor, hospital partner or concussion protocol. The pool is also owned and run by SwimMAC Carolina, a third-party club, not the school.',
     sources: [
       {
         label: 'charlottelatin.org — Athletics Facilities',

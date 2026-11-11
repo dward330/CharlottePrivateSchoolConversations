@@ -107,12 +107,12 @@ export const gastonDay: SportsProgram = {
       },
     ],
     footnote:
-      'Levels shown are what the sources actually publish. Volleyball is the one sport whose ladder is documented — MaxPreps lists varsity, JV and freshman teams — so it is the only row carrying a JV chip; every other sport shows V alone because the athletics site that would list its ladder is JavaScript-rendered and exposes nothing to a fetch. The Middle School fields its own teams in soccer, basketball, track & field and swimming (grades 6–8, subject to academic standing and behavior), but the school does not publish a full MS roster, so no MS chips are claimed. Cheering and track & field come from Private School Review rather than the MaxPreps season grid.',
+      'Levels shown are what the sources actually publish. Volleyball is the one sport whose team levels are documented: MaxPreps lists varsity, JV and freshman teams. So it is the only row carrying a JV chip. Every other sport shows V alone, because the school’s athletics site does not list its other levels in a form this page can show. The Middle School fields its own teams in soccer, basketball, track & field and swimming (grades 6–8, subject to academic standing and behavior). But the school does not publish a full MS roster, so no MS chips are claimed. Cheering and track & field come from Private School Review rather than the MaxPreps season grid.',
     sources: [
       { label: 'MaxPreps — Gaston Day Spartans (sport list by gender and season)', url: MAXPREPS },
       { label: 'MaxPreps — Gaston Day volleyball (varsity / JV / freshman levels, 2A classification)', url: MAXPREPS_VB },
       { label: 'gastonday.org — Academic Profile 2025-2026 (Athletic Director)', url: PROFILE },
-      { label: 'gastondayathletics.com — Spartan Athletics (JS-rendered; no extractable roster data)', url: ATHLETICS },
+      { label: 'gastondayathletics.com — Spartan Athletics', url: ATHLETICS },
     ],
   },
 
@@ -208,12 +208,12 @@ export const gastonDay: SportsProgram = {
       },
     ],
     didNotWin:
-      'every other program. The 14 titles since 2021 sit in six sports — girls tennis, volleyball, boys soccer, boys golf, boys track and girls swimming — and the school publishes no championship history of its own, so this ledger rests on association results and local coverage.',
+      'every other program. The 14 titles since 2021 sit in six sports: girls tennis, volleyball, boys soccer, boys golf, boys track and girls swimming. The school publishes no championship history of its own, so this list rests on association results and local coverage.',
     bars: [],
     seasonDetail: [
       {
         program: 'Girls Tennis',
-        text: 'The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win over Epiphany School was described in coverage as the program’s third state championship in four years and fourth overall; the 2025 win over the same opponent made it three straight.',
+        text: 'The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win over Epiphany School was described in coverage as the program’s third state championship in four years and fourth overall. The 2025 win over the same opponent made it three straight.',
       },
       {
         program: 'Volleyball',
@@ -221,7 +221,7 @@ export const gastonDay: SportsProgram = {
       },
       {
         program: 'Boys Soccer',
-        text: 'Won the NCISAA 2A title in 2021, 2022 and 2024, and lost the 2025 final 1–4 to Caldwell Academy. The 2024 win was a shutout of Westchester Country Day, completing a three-title school year alongside volleyball and girls tennis — the run local coverage headlined as "Déjà vu".',
+        text: 'Won the NCISAA 2A title in 2021, 2022 and 2024, and lost the 2025 final 1–4 to Caldwell Academy. The 2024 win was a shutout of Westchester Country Day. It completed a three-title school year alongside volleyball and girls tennis, the run local coverage headlined as "Déjà vu".',
       },
       {
         program: 'Boys Golf',
@@ -265,13 +265,13 @@ export const gastonDay: SportsProgram = {
       { label: 'Power 4', hint: '(SEC · Big Ten · ACC · Big 12)', count: '1', width: 0.33, shade: 'full' },
     ],
     funnelNote:
-      'Both Division I commits are volleyball players: Megan Brown (’24) at Wofford in the Southern Conference, and Anne Bradley Bing (’25) at South Carolina in the SEC — Gaston Day’s one Power 4 commitment in this window.',
+      'Both Division I commits are volleyball players. One is Megan Brown (’24), at Wofford in the Southern Conference. The other is Anne Bradley Bing (’25), at South Carolina in the SEC, Gaston Day’s one Power 4 commitment in this window.',
     sportBars: [
       { sport: 'Volleyball', count: 2, width: 1, p4Width: 0.5 },
       { sport: 'Boys Basketball', count: 1, width: 0.5 },
     ],
     realityCheck:
-      'Volleyball, Gaston Day’s state-championship program, produced both Division I commits; Braylen Todd (’26) went on to play basketball at Johnson & Wales in Charlotte. The school publishes no signing list or signing-day announcements, so the count is a documented minimum. Bree Smith (’27), a 50 and 100 freestyle swimmer, has committed to swim at Stanford.',
+      'Volleyball, Gaston Day’s state-championship program, produced both Division I commits. Braylen Todd (’26) went on to play basketball at Johnson & Wales in Charlotte. The school publishes no signing list or signing-day announcements, so the count is a documented minimum. Bree Smith (’27), a 50 and 100 freestyle swimmer, has committed to swim at Stanford.',
     roster: [
       { cls: "'26", name: 'Braylen Todd', sport: 'Boys Basketball', college: 'Johnson & Wales (Charlotte)', conf: 'USCAA', level: 'D3' },
       { cls: "'25", name: 'Anne Bradley Bing', sport: 'Volleyball', college: 'South Carolina', conf: 'SEC', level: 'P4' },
@@ -280,7 +280,7 @@ export const gastonDay: SportsProgram = {
       { cls: "'27", name: 'Bree Smith', sport: 'Swimming', college: 'Stanford', conf: 'ACC', level: 'P4' },
     ],
     rosterNote:
-      'Each row is the college the athlete went to out of Gaston Day, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. Johnson & Wales in Charlotte competes in the USCAA rather than the NCAA, so Braylen Todd is listed at the D3 tier for want of a USCAA level in this table’s scale. The Class of 2027 row is a public commitment, listed because it is already announced; it is not counted in the funnel, the sport bars or on the Compare page until the athlete signs.',
+      'Each row is the college the athlete went to out of Gaston Day, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. Johnson & Wales in Charlotte competes in the USCAA rather than the NCAA. Braylen Todd is listed at the D3 level, because this table has no USCAA level. The Class of 2027 row is a public commitment, listed because it is already announced. This row is not counted in the funnel, the sport bars or on the Compare page until the athlete signs.',
     sources: [
       { label: 'HighSchoolOT — NC volleyball recruiting tracker (Brown, Bing)', url: 'https://www.highschoolot.com/story/north-carolina-high-school-volleyball-recruiting-tracker/21031942/' },
       { label: 'Wofford — volleyball inks five signees, December 2023 (Megan Brown)', url: 'https://woffordterriers.com/news/2023/12/14/volleyball-inks-five-signees.aspx' },
@@ -348,7 +348,7 @@ export const gastonDay: SportsProgram = {
     headline:
       'A 60-acre campus supporting 19 sports, with the athletics department run by a single named director.',
     subhead:
-      'Venue-level detail is the weakest part of the public record here — the school publishes no facility inventory, and the athletics site is JavaScript-rendered.',
+      'Venue-level detail is the weakest part of the school’s public record: the school publishes no facility inventory.',
     venues: [
       {
         name: 'Campus',
@@ -381,15 +381,15 @@ export const gastonDay: SportsProgram = {
       },
       {
         label: 'Governing documents',
-        text: 'The athletics site references an Athletic Department Handbook 2026-2027 and tryout information, but both sit behind the JS-rendered layer and could not be retrieved.',
+        text: 'The athletics site references an Athletic Department Handbook 2026-2027 and tryout information, but not in a form this page can show.',
       },
     ],
     careNote:
-      'This card is deliberately short. Every peer school on this roster publishes a venue list; Gaston Day does not, and the one document that would carry it (the Athletic Handbook) is not reachable. That is a publication gap, not an absence of facilities — a campus fielding 19 sports plainly has them.',
+      'This card is short because Gaston Day publishes no venue list. The one document that would carry that list, the Athletic Handbook, is mentioned on the school’s athletics site, but not in a form this page can show. That is a gap in what the school publishes, not a lack of facilities. A campus that fields 19 sports clearly has them.',
     sources: [
       { label: 'gastonday.org — Academic Profile 2025-2026 (Athletic Director, five-county draw)', url: PROFILE },
       { label: 'Private School Review — Gaston Day School profile (60-acre campus)', url: 'https://www.privateschoolreview.com/gaston-day-school-profile' },
-      { label: 'gastondayathletics.com — Spartan Athletics (handbook referenced; JS-rendered)', url: ATHLETICS },
+      { label: 'gastondayathletics.com — Spartan Athletics (handbook referenced)', url: ATHLETICS },
       { label: 'gastonday.org — Middle School (grades 6-8 athletics and eligibility)', url: 'https://www.gastonday.org/middle-school/' },
     ],
   },

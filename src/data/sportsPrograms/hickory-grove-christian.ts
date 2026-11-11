@@ -84,7 +84,7 @@ export const hickoryGroveChristian: SportsProgram = {
       },
     ],
     footnote:
-      'The athletics page states "30 teams participating in 12 different sports" (Wikipedia says 14 sports / 28 teams). Tennis (boys & girls), Wrestling and Field Hockey appear in MaxPreps\' sport inventory but list no head coach on the school\'s Coaches & Teams page, so a level chip is not drawn for them. Athletic Director Jim Rhodes; Assistant AD Crystal Rhodes.',
+      'The athletics page states "30 teams participating in 12 different sports" (Wikipedia says 14 sports / 28 teams). Tennis (boys & girls), Wrestling and Field Hockey appear in MaxPreps\' sport inventory but list no head coach on the school\'s Coaches & Teams page. So no level chip is drawn for them. Athletic Director Jim Rhodes; Assistant AD Crystal Rhodes.',
     sources: [
       { label: 'hgchristian.org — Athletics Home (30 teams / 12 sports, NCISAA + MAC)', url: ATHLETICS },
       { label: 'hgchristian.org — 2026–27 High School Profile (15 varsity teams)', url: PROFILE_26 },
@@ -211,13 +211,13 @@ export const hickoryGroveChristian: SportsProgram = {
       { label: 'Power 4', hint: '(SEC · Big Ten · ACC · Big 12)', count: '0', width: 0.04, shade: 'full' },
     ],
     funnelNote:
-      'Three of the four Division I commits are baseball players — Conner Barozzino (’24) at Appalachian State in the Sun Belt, and Davis Cabbage and Ben Green (’25) at UNC Wilmington and UNC Asheville. The fourth is a football player, Jahzir Dukes (’24), a defensive back at North Carolina Central in the MEAC. There are no Power 4 commits in this window.',
+      'Three of the four Division I commits are baseball players. They are Conner Barozzino (’24), at Appalachian State in the Sun Belt, and Davis Cabbage and Ben Green (’25), at UNC Wilmington and UNC Asheville. The fourth is a football player, Jahzir Dukes (’24), a defensive back at North Carolina Central in the MEAC. There are no Power 4 commits in this window.',
     sportBars: [
       { sport: 'Baseball', count: 6, width: 1 },
       { sport: 'Football', count: 1, width: 0.17 },
     ],
     realityCheck:
-      'Baseball — the program behind two of HGCS’s recent state titles — accounts for six of the seven commits, reaching Division II at Wingate and Mars Hill and junior college at Gaston College as well as Division I. The school publishes no all-sport signing list, so the count is a documented minimum.',
+      'Baseball, the program behind two of HGCS’s recent state titles, accounts for six of the seven commits. Those commits reach Division II at Wingate and Mars Hill and junior college at Gaston College, as well as Division I programs. The school publishes no all-sport signing list, so the count is a documented minimum.',
     roster: [
       { cls: "'25", name: 'Davis Cabbage', sport: 'Baseball', college: 'UNC Wilmington', conf: 'CAA', level: 'D1' },
       { cls: "'25", name: 'Ben Green', sport: 'Baseball', college: 'UNC Asheville', conf: 'Big South', level: 'D1' },
@@ -228,7 +228,7 @@ export const hickoryGroveChristian: SportsProgram = {
       { cls: "'24", name: 'Colby Vanhook', sport: 'Baseball', college: 'Gaston College', conf: 'NJCAA', level: 'D3' },
     ],
     rosterNote:
-      'Each row is the college the athlete went to out of Hickory Grove, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. Colby Vanhook’s junior college is listed at the D3 tier for want of an NJCAA level in this table’s scale.',
+      'Each row is the college the athlete went to out of Hickory Grove, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. Colby Vanhook’s junior college is listed at the D3 level, because this table has no NJCAA level.',
     sources: [
       { label: 'HighSchoolOT — NC baseball recruiting tracker (Barozzino, Cabbage, Green, Vanhook)', url: RECRUIT_TRACKER },
       { label: 'HighSchoolOT — Building the Fence: Class of 2024 in-state football commits (Dukes)', url: 'https://www.highschoolot.com/story/building-the-fence-class-of-2024-in-state-football-commits/20968251/' },
@@ -299,7 +299,7 @@ export const hickoryGroveChristian: SportsProgram = {
       { name: 'Hannah Griffin', role: 'Volleyball (V & JV)', width: 1, since: 'head coach', toVerify: true },
     ],
     worthKnowing:
-      'The Coaches & Teams page names a head coach for nearly every varsity, JV and Middle School squad (Cross Country and Golf coaches Elizabeth Hamilton, Keith White and Todd Staples; Swimming Sam Cox; Cheer Carmen Costner among them), but publishes no bios, career records or tenure lengths — so no pedigree or continuity claim can be made from public sources.',
+      'The Coaches & Teams page names a head coach for nearly every varsity, JV and Middle School squad. Among them are Cross Country and Golf coaches Elizabeth Hamilton, Keith White and Todd Staples; Swimming coach Sam Cox; and Cheer coach Carmen Costner. The Coaches & Teams page publishes no bios, career records or tenure lengths, so this card makes no claim about the coaches’ experience or how long they have coached.',
     sources: [
       { label: 'hgchristian.org — Fall Sports (named head coaches)', url: FALL_SPORTS },
       { label: 'hgchristian.org — Winter Sports (named head coaches)', url: WINTER_SPORTS },

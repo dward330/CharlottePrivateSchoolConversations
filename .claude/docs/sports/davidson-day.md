@@ -1,5 +1,5 @@
 # Davidson Day School — Sports
-> Distilled from 21 source document(s) in `source-material/sports/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
+> Distilled from 21 source document(s) in `source-material/sports/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-11.
 **Documents:** 247Sports Recruiting Rankings, Athletics Recap 2025-2026, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, School Profile 2026-2027, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Awards and Honors, Championships, Coaches Pedigree and Continuity, D1 and Top-50 Academic Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, WinLoss Records
 
 
@@ -606,8 +606,14 @@ has not been updated for Huntley's NBA arrival.*
 **Honors:** Will Grier — **2× NC Gatorade POY**, Parade Magazine National Player of the Year,
 Army All-American. **150+ NCISAA All-State athletes** all-time. **37 individual state titles**
 (Melissa Zammitti '17 alone won ten). **Wells Fargo Cup** won 2019–20 and 2023–24.
-**Patriot Athletic Hall of Fame** created 2025; eight-person inaugural class; inducts biennially.
+**Patriot Athletic Hall of Fame** created 2025; eight inductees in the inaugural class; inducts biennially.
 https://www.davidsonday.org/athletics/patriot-athletic-hall-of-fame
+Re-checked 2026-11-11 against that page ("Class of 2025 Patriot Athletic Hall of Fame Inductees"),
+which lists eight entries: Lamar Briggs '14 · Maya Caldwell '17 · Rashun Davis '12 · Jenny Falcone '11 ·
+Will Grier '14 · Aaron Seward '13 · Melissa Zammitti '17 · Chuck and Karen Wolter. The Wolters are one
+joint entry with one bio, so the class is eight inductees but nine people. The page states no count of
+its own; "eight-person", used here before, was wrong. Page text: "The Patriot Athletic Hall of Fame was
+created and inducted its first class in 2025. The Hall of Fame will induct its next class in 2027."
 
 ## 5. Coaching
 **AD: Chris Turner.**
