@@ -439,7 +439,7 @@ export const davidsonDay: SportsProgram = {
       },
       {
         label: 'Patriot Athletic Hall of Fame',
-        text: 'Created in 2025 with an eight-person inaugural class: Lamar Briggs · Maya Caldwell · Rashun Davis · Jenny Falcone · Will Grier · Aaron Seward · Melissa Zammitti · contributors Chuck and Karen Wolter. It inducts a class every other year, next in 2027.',
+        text: 'Created in 2025 with eight inductees in its inaugural class: Lamar Briggs · Maya Caldwell · Rashun Davis · Jenny Falcone · Will Grier · Aaron Seward · Melissa Zammitti · contributors Chuck and Karen Wolter, inducted together. It inducts a class every other year, next in 2027.',
         tag: 'School culture signal',
         tagStyle: 'outline',
       },

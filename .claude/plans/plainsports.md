@@ -1742,9 +1742,13 @@ from its label; no `*`; no headline or Cup field touched; no overflow at 390px.
 - **Guard (p) singular/plural:** "Levels" → "level" fails as "name gone". (p) could compare
   sentence-start words case- and number-insensitively. Not changed (no tooling change outside
   Batch 1).
-- **DD `honors.honors[4].text`** says "eight-person inaugural class" but lists seven names plus
-  "contributors Chuck and Karen Wolter" (reviewer; predates this plan). Check against the
-  school's Hall of Fame page in a freshness pass.
+- **DD `honors.honors[4].text` — RESOLVED 2026-11-11** (user asked for it; own commit on this
+  branch). The school's Hall of Fame page lists eight inductee entries, and Chuck and Karen
+  Wolter are one joint entry with one bio. So "eight inductees" is right and "eight-person" was
+  wrong (nine people). The page states no count of its own. Now: "Created in 2025 with eight
+  inductees in its inaugural class: … · contributors Chuck and Karen Wolter, inducted together."
+  Names unchanged; guards pass, grade 6.5→6.7. The research record (`Redesign Research 2026.md`)
+  is corrected with the verbatim roster. Phase 2 translates this unit's new English.
 
 - **ENROLLED does not match "enrollee"** (`scripts/plain_review.mjs`), so the register's "early
   enrollee" → "enrolled … a semester early" fails (h). Batch 3 used "began classes … a semester
