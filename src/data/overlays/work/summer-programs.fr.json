@@ -3869,12 +3869,12 @@
       "t": "**Les $495.00/semaine du Camp Victor comprennent le déjeuner** : ajouter l’option déjeuner ci-dessus le compterait donc deux fois. Tous les autres stages facturent le déjeuner à part, $65.00/semaine, préparé par FLIK, le service de restauration de l’école."
     },
     {
-      "text": "The bus runs round-trip from Westminster Presbyterian Church on Colville Road for **$70.00/week, per rider**; riders must be at least 4 years old, and the school does not pro-rate it for a late registration.",
-      "of": "9fa3cda8",
+      "text": "The bus runs round-trip from Westminster Presbyterian Church on Colville Road for **$70.00/week, per rider**. Riders must be at least 4 years old. The school does not pro-rate the bus fee for a late registration.",
+      "of": "7913b3c6",
       "at": [
         "charlotte-latin:costPlanner.fees[3].label"
       ],
-      "t": "Le bus effectue l’aller-retour depuis la Westminster Presbyterian Church, sur Colville Road, pour **$70.00/semaine et par passager** ; les passagers doivent avoir au moins 4 ans, et l’école n’applique aucun prorata en cas d’inscription tardive."
+      "t": "Le bus effectue l’aller-retour depuis la Westminster Presbyterian Church, sur Colville Road, pour **$70.00/semaine et par passager**. Les passagers doivent avoir au moins 4 ans. L’école n’applique aucun prorata sur le tarif du bus en cas d’inscription tardive."
     },
     {
       "text": "Registration opened January 7 at 8:00pm.",
@@ -3885,20 +3885,28 @@
       "t": "Les inscriptions ont ouvert le 7 janvier à 8:00pm."
     },
     {
-      "text": "Weekly registration closes at 12:00pm on the Wednesday before each session, and camps must be **paid in full at registration** — there is no deposit. Canceling costs $50.00 per camp in March and $100.00 in April; from **May 1 nothing is refundable**, even if the camp has a waitlist.",
-      "of": "80450382",
+      "text": "Weekly registration closes at 12:00pm on the Wednesday before each session. Camps must be **paid in full at registration**, and there is no deposit. Canceling costs $50.00 per camp in March and $100.00 in April, and from **May 1 nothing is refundable**, even if the camp has a waitlist.",
+      "of": "259edbc8",
       "at": [
         "charlotte-latin:costPlanner.aside.text"
       ],
-      "t": "Les inscriptions hebdomadaires ferment à 12:00pm le mercredi précédant chaque session, et les stages doivent être **réglés en totalité à l’inscription** — il n’y a pas d’acompte. Une annulation coûte $50.00 par stage en mars et $100.00 en avril ; à partir du **1er mai, plus rien n’est remboursable**, même si le stage a une liste d’attente."
+      "t": "Les inscriptions hebdomadaires ferment à 12:00pm le mercredi précédant chaque session. Les stages doivent être **réglés en totalité à l’inscription**, et il n’y a pas d’acompte. Une annulation coûte $50.00 par stage en mars et $100.00 en avril, et à partir du **1er mai, plus rien n’est remboursable**, même si le stage a une liste d’attente."
     },
     {
-      "text": "Latin publishes **no sibling discount and no multi-week discount**, and no camp financial aid. The site was searched for all four terms; the only thing it calls a discount is the Super Care bundle.",
-      "of": "f34c41db",
+      "text": "Latin publishes **no sibling discount and no multi-week discount**, and no camp financial aid. The only thing the school’s site calls a discount is the Super Care bundle.",
+      "of": "d436fa08",
       "at": [
         "charlotte-latin:costPlanner.flags[0].text"
       ],
-      "t": "Latin ne publie **aucune réduction fratrie ni réduction multi-semaines**, et aucune aide financière pour les stages. Le site a été passé en revue pour ces quatre termes ; la seule chose qu’il qualifie de réduction est la formule groupée Super Care."
+      "t": "Latin ne publie **aucune réduction fratrie ni réduction multi-semaines**, et aucune aide financière pour les stages. La seule chose que le site de l’école qualifie de réduction est la formule groupée Super Care."
+    },
+    {
+      "text": "The site was searched for all four terms; the only thing it calls a discount is the Super Care bundle.",
+      "of": "00bfdccf",
+      "at": [
+        "charlotte-latin:costPlanner.flags[1].text"
+      ],
+      "t": "Le site a été passé en revue pour ces quatre termes ; la seule chose qu’il qualifie de réduction est la formule groupée Super Care."
     },
     {
       "text": "133 camp sessions across six weeks — and every single one is a three-hour half-day. There is no full-day camp.",
@@ -5870,12 +5878,12 @@
       "t": "Un stage de jeux généraliste dans la semaine de clôture."
     },
     {
-      "text": "Charlotte Christian publishes **no full-day camp**. Every session is three hours, so a working parent needing full-day coverage pairs a morning and an afternoon camp — two separate registrations, though the noon–1 p.m. bridge care between them is free.",
-      "of": "27770e04",
+      "text": "Charlotte Christian publishes **no full-day camp**. Every session is three hours. So a working parent who needs full-day coverage pairs a morning and an afternoon camp. That means two separate registrations, though the noon–1 p.m. bridge care between them is free.",
+      "of": "2c8f02e6",
       "at": [
         "charlotte-christian:catalog.flags[0].text"
       ],
-      "t": "Charlotte Christian ne publie **aucun stage à la journée complète**. Chaque session dure trois heures : un parent qui travaille et a besoin d’une couverture sur la journée entière associe donc un stage du matin et un stage de l’après-midi — deux inscriptions distinctes, même si la garde de transition de midi à 1 p.m. entre les deux est gratuite."
+      "t": "Charlotte Christian ne publie **aucun stage à la journée complète**. Chaque session dure trois heures. Un parent qui travaille et a besoin d’une couverture sur la journée entière associe donc un stage du matin et un stage de l’après-midi. Cela fait deux inscriptions distinctes, même si la garde de transition de midi à 1 p.m. entre les deux est gratuite."
     },
     {
       "text": "The school does not state whether camps are **open to non-Charlotte-Christian families** — neither its PDF nor its web page says either way. An aggregator asserts they are open to the general public, but that is unconfirmed. Grades are given as \"rising 2026-27\" generally rather than by enrollment, which is suggestive but not a statement of policy.",
@@ -6112,12 +6120,12 @@
       "t": "Les inscriptions ont ouvert le 5 janvier."
     },
     {
-      "text": "Camps are **non-refundable within two weeks** of their start date unless the school cancels, and canceling costs a $25 fee. Unusually, the published risk here is the opposite of selling out: every camp has a minimum enrollment and the school reserves the right to cancel one that does not meet it.",
-      "of": "fd362f4b",
+      "text": "Camps are **non-refundable within two weeks** of their start date unless the school cancels, and canceling costs a $25 fee. Unusually, the published risk here is the opposite of selling out. Every camp has a minimum enrollment, and the school may cancel a camp that does not reach it.",
+      "of": "d1a28a97",
       "at": [
         "charlotte-christian:costPlanner.aside.text"
       ],
-      "t": "Les stages ne sont **pas remboursables dans les deux semaines** précédant leur date de début, sauf annulation par l’école, et une annulation entraîne des frais de $25. Fait inhabituel, le risque publié ici est l’inverse d’un remplissage complet : chaque stage a un effectif minimum et l’école se réserve le droit d’annuler celui qui ne l’atteint pas."
+      "t": "Les stages ne sont **pas remboursables dans les deux semaines** précédant leur date de début, sauf annulation par l’école, et une annulation entraîne des frais de $25. Fait inhabituel, le risque publié ici est l’inverse d’un remplissage complet. Chaque stage a un effectif minimum, et l’école peut annuler un stage qui ne l’atteint pas."
     },
     {
       "text": "The school’s **own PDF and its web-page summary disagree** on two figures: the registration-fee cutoff (May 17 vs May 18) and the cancellation fee ($25 vs $50). The PDF’s figures are used here because it is the school’s own document, but both are worth confirming.",
@@ -6216,12 +6224,12 @@
       "t": "Entrée en 2e–5e : 9:00 AM–12:00 PM · entrée en 6e–8e : 1:00 PM–4:00 PM"
     },
     {
-      "text": "Multi-session baseball camp with dynamic warm-ups, baserunning, offensive and defensive station work and age-grouped gameplay. Held at Freedom Park (Dilworth LL Ballfields) rather than on the CCHS campus; campers bring their own lunch.",
-      "of": "d0a1583b",
+      "text": "Multi-session baseball camp with dynamic warm-ups, baserunning, offensive and defensive station work and age-grouped gameplay. It is held at Freedom Park (Dilworth LL Ballfields), not on the CCHS campus. Campers bring their own lunch.",
+      "of": "f8e03b15",
       "at": [
         "charlotte-catholic:catalog.camps[1].desc"
       ],
-      "t": "Stage de baseball en plusieurs sessions, avec échauffements dynamiques, courses sur les bases, ateliers offensifs et défensifs et matchs par tranche d’âge. Il se tient à Freedom Park (Dilworth LL Ballfields) et non sur le campus de CCHS ; les participants apportent leur repas."
+      "t": "Stage de baseball en plusieurs sessions, avec échauffements dynamiques, courses sur les bases, ateliers offensifs et défensifs et matchs par tranche d’âge. Il se tient à Freedom Park (Dilworth LL Ballfields), et non sur le campus de CCHS. Les participants apportent leur repas."
     },
     {
       "text": "Ages 6–13",
@@ -6249,12 +6257,12 @@
       "t": "9:00 AM–1:00 PM (accueil à 8:45 AM)"
     },
     {
-      "text": "Youth football fundamentals with the CCHS football staff. The published flyer is a 2024 document that has not been refreshed, so both the price and the dates below are what the school currently publishes rather than a confirmed 2026 slate.",
-      "of": "69bb3862",
+      "text": "Youth football fundamentals with the CCHS football staff. The published flyer is a 2024 document that has not been updated. So both the price and the dates below are what the school currently publishes, not a confirmed 2026 list.",
+      "of": "cb4dc48e",
       "at": [
         "charlotte-catholic:catalog.camps[2].desc"
       ],
-      "t": "Initiation au football américain avec l’encadrement football de CCHS. Le prospectus publié est un document de 2024 qui n’a pas été actualisé : le tarif comme les dates ci-dessous correspondent donc à ce que l’école publie actuellement, et non à un calendrier 2026 confirmé."
+      "t": "Initiation au football américain avec l’encadrement football de CCHS. Le prospectus publié est un document de 2024 qui n’a pas été actualisé. Le tarif comme les dates ci-dessous correspondent donc à ce que l’école publie actuellement, et non à une liste 2026 confirmée."
     },
     {
       "text": "Rising grades 3–9",
@@ -6299,20 +6307,20 @@
       "t": "Non publié"
     },
     {
-      "text": "Three of the four camps publish no price on a school page. Eddie Hull Baseball handles fees entirely through a third-party registration site, and the basketball and soccer camps publish none at all — which is why the Cost Planner card is omitted rather than modeled.",
-      "of": "57ddb105",
+      "text": "Three of the four camps publish no price on a school page. Eddie Hull Baseball handles fees entirely through a third-party registration site. The basketball and soccer camps publish none at all. So this page leaves out the cost planner instead of estimating prices.",
+      "of": "0081d377",
       "at": [
         "charlotte-catholic:catalog.flags[0].text"
       ],
-      "t": "Trois des quatre stages ne publient aucun tarif sur une page de l’école. Eddie Hull Baseball gère entièrement les frais via un site d’inscription tiers, et les stages de basketball et de soccer n’en publient aucun — raison pour laquelle la fiche Planificateur de coûts est omise plutôt que modélisée."
+      "t": "Trois des quatre stages ne publient aucun tarif sur une page de l’école. Eddie Hull Baseball gère entièrement les frais via un site d’inscription tiers. Les stages de basketball et de soccer n’en publient aucun. Cette page omet donc le planificateur de coûts au lieu d’estimer les prix."
     },
     {
-      "text": "The Cougar Football Camp flyer is a 2024 artifact still linked from the current site; its $160 price and grade range are reproduced as published, not confirmed for 2026.",
-      "of": "34908750",
+      "text": "The Cougar Football Camp flyer is from 2024, but the current site still links to it. Its $160 price and grade range are shown as the flyer lists them, and the school has not confirmed them for 2026.",
+      "of": "14c6dfd3",
       "at": [
         "charlotte-catholic:catalog.flags[1].text"
       ],
-      "t": "Le prospectus du Cougar Football Camp est un document de 2024 toujours accessible depuis le site actuel ; son tarif de $160 et sa tranche de niveaux sont reproduits tels que publiés, sans confirmation pour 2026."
+      "t": "Le prospectus du Cougar Football Camp date de 2024, mais le site actuel y renvoie toujours. Son tarif de $160 et sa tranche de niveaux sont présentés tels que le prospectus les indique, et l’école ne les a pas confirmés pour 2026."
     },
     {
       "text": "The baseball camp page lists its sessions under a 2025 heading. The dates are recorded verbatim as published rather than rolled forward, because a re-typed date would assert a schedule the school has not announced.",
@@ -8149,12 +8157,12 @@
       "t": "Deux pages officielles se contredisent au sujet de la **Lunch Care à $30/semaine** : la page des stages d’été la présente comme une simple surveillance, les participants apportant leur propre repas, tandis que la page Camp Ready indique qu’un déjeuner au réfectoire est fourni à ces mêmes inscrits. Un appel téléphonique s’impose avant de retenir l’une ou l’autre version."
     },
     {
-      "text": "No **sibling or multi-week discount** is published for 2026. A 2020 brochure offered 10% for pairing a morning and an afternoon camp with Super Care; nothing like it appears in any current source, so it should not be assumed to still exist.",
-      "of": "eae3912b",
+      "text": "No **sibling or multi-week discount** is published for 2026. A 2020 brochure offered 10% for pairing a morning and an afternoon camp with Super Care. No current school page offers it, so do not count on it.",
+      "of": "b1b07c36",
       "at": [
         "charlotte-country-day:costPlanner.flags[1].text"
       ],
-      "t": "Aucune **réduction fratrie ni multi-semaines** n’est publiée pour 2026. Une brochure de 2020 proposait 10% pour l’association d’un stage du matin et d’un stage de l’après-midi avec Super Care ; rien de tel n’apparaît dans les sources actuelles, et il ne faut donc pas supposer que cela existe encore."
+      "t": "Aucune **réduction fratrie ni multi-semaines** n’est publiée pour 2026. Une brochure de 2020 proposait 10% pour l’association d’un stage du matin et d’un stage de l’après-midi avec Super Care. Aucune page actuelle de l’école ne la propose : n’y comptez donc pas."
     },
     {
       "text": "The school publishes nothing about **refunds after June 5** — only that withdrawals before it are refunded in full.",
@@ -9798,12 +9806,12 @@
       "t": "Un **acompte de 50%** réserve une place, le solde étant dû le 15 mai 2026 — la seule formule avec acompte parmi ces cinq programmes. Les acomptes sont intégralement remboursés avant le 15 mai ; **à partir de cette date, plus aucun remboursement n’est possible.** L’école indique clairement que « some popular camps fill very shortly after registration opens »."
     },
     {
-      "text": "Two things changed between 2024 and 2026 that older camp-directory listings still get wrong: the **lunch hour itself is now a paid add-on** (it used to be free, with only the food charged), and the $25 \"registration fee\" became a **$50 membership fee**.",
-      "of": "8e5c0132",
+      "text": "Two things changed between 2024 and 2026, and older camp-directory listings still get them wrong. The **lunch hour itself is now a paid add-on**; it used to be free, with only the food charged. And the $25 \"registration fee\" became a **$50 membership fee**.",
+      "of": "d1656336",
       "at": [
         "cannon:costPlanner.flags[0].text"
       ],
-      "t": "Deux choses ont changé entre 2024 et 2026, que d’anciennes fiches d’annuaires de stages présentent encore de façon erronée : **l’heure du déjeuner elle-même est désormais une option payante** (elle était auparavant gratuite, seul le repas étant facturé), et les « registration fee » de $25 sont devenus des **frais d’adhésion de $50**."
+      "t": "Deux choses ont changé entre 2024 et 2026, et d’anciennes fiches d’annuaires de stages les présentent encore de façon erronée. **L’heure du déjeuner elle-même est désormais une option payante** ; elle était auparavant gratuite, seul le repas étant facturé. Et les « registration fee » de $25 sont devenus des **frais d’adhésion de $50**."
     },
     {
       "text": "Cannon publishes **no sibling discount, no multi-week discount and no camp financial aid**. The only price break in the 2026 brochure is the structural one for the four-day Week 2.",
@@ -9830,12 +9838,12 @@
       "t": "L’inscription se fait sur le portail CampBrain avec des réductions pour inscription anticipée jusqu’au 27 février. L’école annonce « 29 camps » ; 20 sont dénombrables sur la page publique."
     },
     {
-      "text": "All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**, so prices below are estimates from the third-party current range ($170–$325/week) and the school’s own 2018 catalog — the care add-on rates on the Cost Planner are the school’s own current figures.",
-      "of": "f61120ce",
+      "text": "All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**. So the prices below are estimates, from the third-party current range ($170–$325/week) and the school’s own 2018 catalog. The care add-on rates on the Cost Planner are the school’s own current figures.",
+      "of": "07ba6457",
       "at": [
         "covenant-day:catalog.intro"
       ],
-      "t": "Les 20 stages nommés publiquement sont tous listés. **Les tarifs et horaires actuels par stage sont réservés au portail**, de sorte que les prix ci-dessous sont des estimations issues de la fourchette actuelle d’un tiers ($170–$325/semaine) et du propre catalogue 2018 de l’école — les tarifs de la garde en option indiqués sur le Cost Planner sont les chiffres actuels de l’école elle-même."
+      "t": "Les 20 stages nommés publiquement sont tous listés. **Les tarifs et horaires actuels par stage sont réservés au portail**. Les prix ci-dessous sont donc des estimations, issues de la fourchette actuelle d’un tiers ($170–$325/semaine) et du propre catalogue 2018 de l’école. Les tarifs de la garde en option indiqués sur le Cost Planner sont les chiffres actuels de l’école elle-même."
     },
     {
       "text": "Day Camps",
@@ -10197,12 +10205,12 @@
       "t": "HS"
     },
     {
-      "text": "Per-camp prices and hours are **estimates**: current figures are gated behind the CampBrain registration portal, so the range shown is the third-party current figure ($170–$325/week), with hours patterned on the school’s own 2018 catalog where the same camp existed.",
-      "of": "bed818fc",
+      "text": "Per-camp prices and hours are **estimates**. Current figures are gated behind the CampBrain registration portal. So the range shown is the third-party current figure ($170–$325/week). Hours are patterned on the school’s own 2018 catalog, where the same camp existed.",
+      "of": "3a4c72f6",
       "at": [
         "covenant-day:catalog.flags[0].text"
       ],
-      "t": "Les tarifs et horaires par stage sont des **estimations** : les chiffres actuels sont réservés au portail d’inscription CampBrain, de sorte que la fourchette indiquée correspond au chiffre actuel d’un tiers ($170–$325/semaine), avec des horaires calqués sur le propre catalogue 2018 de l’école là où le même stage existait."
+      "t": "Les tarifs et horaires par stage sont des **estimations**. Les chiffres actuels sont réservés au portail d’inscription CampBrain. La fourchette indiquée correspond donc au chiffre actuel d’un tiers ($170–$325/semaine). Les horaires sont calqués sur le propre catalogue 2018 de l’école, là où le même stage existait."
     },
     {
       "text": "The school markets \"**29 camps**\"; the public page enumerates 20 (a 21st listing, \"Splash Squad,\" is a staff position). Per-week variants and portal-only camps likely account for the difference.",
@@ -11316,12 +11324,12 @@
       "t": "Les stages académiques se déroulent de 9 a.m. à 1 p.m. et les stages sportifs de 9 a.m. à 12 p.m. (le football en soirée), du lundi au jeudi, sur environ huit blocs hebdomadaires de fin mai à fin juillet."
     },
     {
-      "text": "This is the **Summer 2023 catalog, recovered from the Internet Archive** — a representative slate, not the live 2026 list, because HGCS now hides camp names and prices behind the Brushfire platform. The live 2026 page confirms eight session windows consistent with the week-blocks below. **Prices are not published anywhere** (Brushfire-only), so no cost is shown. Grades are **rising** grades.",
-      "of": "bc546344",
+      "text": "This is the **Summer 2023 catalog, from saved copies of the school’s old pages**. It is a representative list, not the live 2026 list, because HGCS now hides camp names and prices behind the Brushfire platform. The live 2026 page confirms eight session windows consistent with the week-blocks below. **Prices are not published anywhere** (Brushfire-only), so no cost is shown. Grades are **rising** grades.",
+      "of": "e18209dc",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ],
-      "t": "Il s’agit du **catalogue Summer 2023, récupéré depuis l’Internet Archive** — une programmation représentative, et non la liste 2026 en vigueur, car HGCS masque désormais les noms et les tarifs des stages derrière la plateforme Brushfire. La page 2026 en ligne confirme huit fenêtres de session cohérentes avec les blocs hebdomadaires ci-dessous. **Les tarifs ne sont publiés nulle part** (uniquement dans Brushfire), aucun coût n’est donc affiché. Les niveaux indiqués sont ceux de la **rentrée**."
+      "t": "Il s’agit du **catalogue Summer 2023, tiré de copies sauvegardées des anciennes pages de l’école**. C’est une liste représentative, et non la liste 2026 en vigueur, car HGCS masque désormais les noms et les tarifs des stages derrière la plateforme Brushfire. La page 2026 en ligne confirme huit fenêtres de session cohérentes avec les blocs hebdomadaires ci-dessous. **Les tarifs ne sont publiés nulle part** (uniquement dans Brushfire), aucun coût n’est donc affiché. Les niveaux indiqués sont ceux de la **rentrée**."
     },
     {
       "text": "Reading & Fluency",
@@ -11637,20 +11645,20 @@
       "t": "24–27 juillet 2023"
     },
     {
-      "text": "This is the Summer 2023 slate, recovered from Internet Archive snapshots. The live 2026 catalog is hidden behind the Brushfire registration platform, so the exact 2026 camp names were not recoverable; the live page does confirm eight session windows consistent with these week-blocks.",
-      "of": "c0a7d868",
+      "text": "This is the Summer 2023 list, from saved copies of the school’s old pages on the Internet Archive. The live 2026 catalog is hidden behind the Brushfire registration platform, so the exact 2026 camp names sit inside that platform. The live page does confirm eight session windows consistent with these week-blocks.",
+      "of": "8b8fe821",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ],
-      "t": "Il s’agit de la programmation Summer 2023, récupérée depuis des captures de l’Internet Archive. Le catalogue 2026 en vigueur est masqué derrière la plateforme d’inscription Brushfire, si bien que les noms exacts des stages 2026 n’ont pas pu être récupérés ; la page en ligne confirme toutefois huit fenêtres de session cohérentes avec ces blocs hebdomadaires."
+      "t": "Il s’agit de la liste Summer 2023, tirée de copies sauvegardées des anciennes pages de l’école sur l’Internet Archive. Le catalogue 2026 en vigueur est masqué derrière la plateforme d’inscription Brushfire : les noms exacts des stages 2026 se trouvent donc dans cette plateforme. La page en ligne confirme toutefois huit fenêtres de session cohérentes avec ces blocs hebdomadaires."
     },
     {
-      "text": "No per-camp price is published on any live or archived page — pricing exists only inside the Brushfire checkout — so no Cost Planner card is built and the summer-cost figures are N/A. There is also no summer wrap-around care: camps are half-day and the after-school program is closed in summer.",
-      "of": "5a13c375",
+      "text": "No per-camp price is published on any live or archived page. Pricing exists only inside the Brushfire checkout. So this page has no cost planner for these camps, and the summer-cost figures show N/A. There is also no summer wrap-around care. Camps are half-day, and the after-school program is closed in summer.",
+      "of": "0ce646d3",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ],
-      "t": "Aucun tarif par stage n’est publié sur une page en ligne ou archivée — les prix n’existent qu’à l’intérieur du tunnel de paiement Brushfire — aucune fiche Cost Planner n’est donc construite et les montants du coût de l’été sont N/A. Il n’existe pas non plus de garde d’été en complément : les stages ne durent qu’une demi-journée et le programme périscolaire est fermé l’été."
+      "t": "Aucun tarif par stage n’est publié sur une page en ligne ou archivée. Les prix n’existent qu’à l’intérieur du tunnel de paiement Brushfire. Cette page n’a donc pas de Cost Planner pour ces stages, et les montants du coût de l’été indiquent N/A. Il n’existe pas non plus de garde d’été en complément. Les stages ne durent qu’une demi-journée, et le programme périscolaire est fermé l’été."
     },
     {
       "text": "Eight weeks from June 1 to July 31, spanning full-day Camp Spartan, half-day enrichment camps, four partner providers and Nike Sports Camps — open to non-students.",
@@ -12119,12 +12127,12 @@
       "t": "Futurs K–2nd"
     },
     {
-      "text": "Formations, jumps, dance, stunting and tumbling, ending in a family showcase. Registration closed at the time of this research.",
-      "of": "32e50150",
+      "text": "Formations, jumps, dance, stunting and tumbling, ending in a family showcase. The school lists registration as closed.",
+      "of": "e1de4d07",
       "at": [
         "gaston-day:catalog.camps[17].desc"
       ],
-      "t": "Formations, sauts, danse, portés et acrobaties, avec un spectacle familial en fin de semaine. Inscriptions closes au moment de cette recherche."
+      "t": "Formations, sauts, danse, portés et acrobaties, avec un spectacle familial en fin de semaine. L’école indique que les inscriptions sont closes."
     },
     {
       "text": "Rising K–4th",
@@ -12152,44 +12160,44 @@
       "t": "9:00am-12:00"
     },
     {
-      "text": "Vault, beam, bars and floor, ending in a family showcase. Registration closed at the time of this research.",
-      "of": "c74128bd",
+      "text": "Vault, beam, bars and floor, ending in a family showcase. The school lists registration as closed.",
+      "of": "8defa478",
       "at": [
         "gaston-day:catalog.camps[18].desc"
       ],
-      "t": "Saut de cheval, poutre, barres et sol, avec un spectacle familial en fin de semaine. Inscriptions closes au moment de cette recherche."
+      "t": "Saut de cheval, poutre, barres et sol, avec un spectacle familial en fin de semaine. L’école indique que les inscriptions sont closes."
     },
     {
-      "text": "A new princess each day with stories, props and crafts. Registration closed at the time of this research.",
-      "of": "543a4835",
+      "text": "A new princess each day with stories, props and crafts. The school lists registration as closed.",
+      "of": "50461740",
       "at": [
         "gaston-day:catalog.camps[19].desc"
       ],
-      "t": "Une nouvelle princesse chaque jour, avec des histoires, des accessoires et des travaux manuels. Inscriptions closes au moment de cette recherche."
+      "t": "Une nouvelle princesse chaque jour, avec des histoires, des accessoires et des travaux manuels. L’école indique que les inscriptions sont closes."
     },
     {
-      "text": "Ballet blended with skill-building gymnastics through imaginative movement and storytelling. Registration closed at the time of this research.",
-      "of": "9cbf7afe",
+      "text": "Ballet blended with skill-building gymnastics through imaginative movement and storytelling. The school lists registration as closed.",
+      "of": "df4be249",
       "at": [
         "gaston-day:catalog.camps[20].desc"
       ],
-      "t": "Ballet mêlé à une gymnastique de perfectionnement, par le mouvement imaginatif et la narration. Inscriptions closes au moment de cette recherche."
+      "t": "Ballet mêlé à une gymnastique de perfectionnement, par le mouvement imaginatif et la narration. L’école indique que les inscriptions sont closes."
     },
     {
-      "text": "Jazz, ballet and tumbling foundations building to an end-of-week performance. No experience necessary. Registration closed at the time of this research.",
-      "of": "2dc39dad",
+      "text": "Jazz, ballet and tumbling foundations building to an end-of-week performance. No experience necessary. The school lists registration as closed.",
+      "of": "ea424608",
       "at": [
         "gaston-day:catalog.camps[21].desc"
       ],
-      "t": "Bases de jazz, de ballet et d’acrobatie, débouchant sur un spectacle en fin de semaine. Aucune expérience requise. Inscriptions closes au moment de cette recherche."
+      "t": "Bases de jazz, de ballet et d’acrobatie, débouchant sur un spectacle en fin de semaine. Aucune expérience requise. L’école indique que les inscriptions sont closes."
     },
     {
-      "text": "Plié, tendu, pirouette, grand jeté and reverence, plus ballet stories and pointe shoes. Registration closed at the time of this research.",
-      "of": "3d0e7d51",
+      "text": "Plié, tendu, pirouette, grand jeté and reverence, plus ballet stories and pointe shoes. The school lists registration as closed.",
+      "of": "ea95c2b4",
       "at": [
         "gaston-day:catalog.camps[22].desc"
       ],
-      "t": "Plié, tendu, pirouette, grand jeté et révérence, avec en plus des histoires de ballet et des chaussons de pointes. Inscriptions closes au moment de cette recherche."
+      "t": "Plié, tendu, pirouette, grand jeté et révérence, avec en plus des histoires de ballet et des chaussons de pointes. L’école indique que les inscriptions sont closes."
     },
     {
       "text": "Week 8 — July 27-31",
@@ -12322,12 +12330,12 @@
       "t": "Le catalogue indique \"CHECK BACK FREQUENTLY AS MORE ENRICHMENT CAMPS ARE BEING ADDED\" : la liste d’enrichissement est donc un instantané qui s’étoffe plutôt qu’une programmation définitive. Les états COMPLET/liste d’attente et annulé sont reproduits tels que publiés et auront changé depuis."
     },
     {
-      "text": "Partner-camp prices (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 and Nike) are set and billed by each provider, not by Gaston Day, and are not published in the school’s catalog — they show as \"—\" rather than being estimated.",
-      "of": "c5567d01",
+      "text": "Partner-camp prices (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 and Nike) are set and billed by each provider, not by Gaston Day. They are not published in the school’s catalog, so they show as \"—\" rather than being estimated.",
+      "of": "242ef4b0",
       "at": [
         "gaston-day:catalog.flags[1].text"
       ],
-      "t": "Les tarifs des stages partenaires (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 et Nike) sont fixés et facturés par chaque prestataire, non par Gaston Day, et ne sont pas publiés dans le catalogue de l’école — ils s’affichent comme \"—\" plutôt que d’être estimés."
+      "t": "Les tarifs des stages partenaires (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 et Nike) sont fixés et facturés par chaque prestataire, non par Gaston Day. Ils ne sont pas publiés dans le catalogue de l’école : ils s’affichent donc comme \"—\" plutôt que d’être estimés."
     },
     {
       "text": "There is no camp in week 4 (the week of June 22) for Camp Spartan, and no camp at all the week of June 29 or on June 19 — the catalog’s week numbering skips accordingly, so \"8 weeks\" spans June 1 to July 31 rather than eight consecutive weeks.",
@@ -12524,12 +12532,12 @@
       "t": "Soutien scolaire d’été — heure complète"
     },
     {
-      "text": "Lunch Care is REQUIRED for campers staying on campus between a morning and an afternoon camp, and includes lunch from Sparty’s Dining Service. It is already included in full-day Camp Spartan and Camp Spartan Jr tuition, so add it only when combining two half-day camps.",
-      "of": "ec6bcc6e",
+      "text": "Lunch Care is REQUIRED for campers staying on campus between a morning and an afternoon camp. It includes lunch from Sparty’s Dining Service. Lunch Care is already included in full-day Camp Spartan and Camp Spartan Jr tuition. So add it only when combining two half-day camps.",
+      "of": "8f8ff386",
       "at": [
         "gaston-day:costPlanner.fees[2].label"
       ],
-      "t": "La Lunch Care est OBLIGATOIRE pour les campeurs qui restent sur le campus entre un stage du matin et un stage de l’après-midi, et comprend le déjeuner assuré par Sparty’s Dining Service. Elle est déjà comprise dans les frais de Camp Spartan et de Camp Spartan Jr à la journée complète : ne l’ajoutez donc qu’en combinant deux stages en demi-journée."
+      "t": "La Lunch Care est OBLIGATOIRE pour les campeurs qui restent sur le campus entre un stage du matin et un stage de l’après-midi. Elle comprend le déjeuner assuré par Sparty’s Dining Service. La Lunch Care est déjà comprise dans les frais de Camp Spartan et de Camp Spartan Jr à la journée complète. Ne l’ajoutez donc qu’en combinant deux stages en demi-journée."
     },
     {
       "text": "Full tuition is payable at the time of enrollment through the Popsicle app. Refunds: 50% if canceled three or more weeks before the camp starts; nothing after that, and nothing for arriving late or leaving early. If Gaston Day cancels a camp for insufficient enrollment it gives at least two weeks’ notice and refunds in full.",
@@ -12580,12 +12588,12 @@
       "t": "Aucune réduction fratrie, réduction multi-semaines, aide financière ni tarif préférentiel pour inscription anticipée n’est publié pour les camps d’été, et aucun frais d’inscription n’est publié."
     },
     {
-      "text": "75 named camps across six weeks for rising K–8, from a $225 half-day craft camp to a $785 three-week academic session — and open to any child in the community, not only Trinity families.",
-      "of": "250f3cb9",
+      "text": "75 named camps across six weeks for rising K–8, from a $225 half-day craft camp to a $785 three-week academic session. Camps are open to any child in the community, not only Trinity families.",
+      "of": "c491adf0",
       "at": [
         "trinity-episcopal:catalog.headline"
       ],
-      "t": "75 stages nommés répartis sur six semaines pour les futurs élèves K–8, d'un stage d'artisanat en demi-journée à $225 à une session scolaire de trois semaines à $785 — et ouverts à tout enfant de la communauté, pas seulement aux familles de Trinity."
+      "t": "75 stages nommés répartis sur six semaines pour les futurs élèves K–8, d'un stage d'artisanat en demi-journée à $225 à une session scolaire de trois semaines à $785. Les stages sont ouverts à tout enfant de la communauté, pas seulement aux familles de Trinity."
     },
     {
       "text": "Camps run 15 June to 24 July 2026 on the uptown campus. Half days are 9 a.m.–12 p.m. or 1–4 p.m., full days 9 a.m.–4 p.m., and two of the six weeks are four-day weeks.",
@@ -13476,12 +13484,12 @@
       "t": "**4ORMORE fait baisser chaque stage de $25** à partir de **quatre semaines ou plus de stages en journée complète** (8 demi-journées comptent pour l'équivalent). ⚠️ **Par participant, et non par famille** — deux enfants ayant chacun deux semaines n'y ont pas droit."
     },
     {
-      "text": "**Financial aid excludes CAMMP, TES Academy and Black Rocket camps** — most of the coding slate and the whole academic strand. Aid is first-come, first-served; non-Trinity families submit two most recent tax statements.",
-      "of": "7ca82e6f",
+      "text": "**Financial aid excludes CAMMP, TES Academy and Black Rocket camps**. Those are most of the coding list and the whole academic strand. Aid is first-come, first-served. Non-Trinity families submit their two most recent tax statements.",
+      "of": "66f1310e",
       "at": [
         "trinity-episcopal:costPlanner.fees[4].label"
       ],
-      "t": "**L'aide financière exclut les stages CAMMP, TES Academy et Black Rocket** — soit l'essentiel de l'offre de code et toute la filière scolaire. L'aide est attribuée au premier arrivé, premier servi ; les familles extérieures à Trinity fournissent leurs deux derniers avis d'imposition."
+      "t": "**L'aide financière exclut les stages CAMMP, TES Academy et Black Rocket**. Ils représentent l'essentiel de l'offre de code et toute la filière scolaire. L'aide est attribuée au premier arrivé, premier servi. Les familles extérieures à Trinity fournissent leurs deux derniers avis d'imposition."
     },
     {
       "text": "**Lunch is bring-your-own** — no FLIK option, unlike the school year. A camper stacking two half-days **stays on campus for lunch and recess** before the 1:00 session. The camp \"strives to be nut-free\"; snacks required, one per half day.",
@@ -13508,12 +13516,12 @@
       "t": "Les inscriptions deviennent définitives le 1er mai."
     },
     {
-      "text": "The balance is due and withdrawn from the account on file that day; registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session, and a **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a canceled registration's deposit and fee can be transferred to another camp.",
-      "of": "e461327c",
+      "text": "The balance is due and withdrawn from the account on file that day. Registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session. A **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a canceled registration's deposit and fee can be transferred to another camp.",
+      "of": "6e758fac",
       "at": [
         "trinity-episcopal:costPlanner.aside.text"
       ],
-      "t": "Le solde est dû et prélevé ce jour-là sur le compte enregistré ; s'inscrire le 1er mai ou après implique de payer l'intégralité. **Tous les stages de la TES Academy exigent le paiement intégral à l'inscription.** Les inscriptions en ligne ferment une semaine avant chaque session, et des **frais administratifs de $25** peuvent être appliqués en cas d'inscription tardive ou de changement de stage. Les remboursements ne sont en principe plus accordés après le 1er mai, même si l'acompte et les frais d'une inscription annulée peuvent être transférés vers un autre stage."
+      "t": "Le solde est dû et prélevé ce jour-là sur le compte enregistré. S'inscrire le 1er mai ou après implique de payer l'intégralité. **Tous les stages de la TES Academy exigent le paiement intégral à l'inscription.** Les inscriptions en ligne ferment une semaine avant chaque session. Des **frais administratifs de $25** peuvent être appliqués en cas d'inscription tardive ou de changement de stage. Les remboursements ne sont en principe plus accordés après le 1er mai, même si l'acompte et les frais d'une inscription annulée peuvent être transférés vers un autre stage."
     },
     {
       "text": "Summer 2026 ran seven weeks, June 8 to July 31, for campers from the Early School through 8th grade — a traditional day camp plus a specialty or sports camp almost every week.",
@@ -13671,12 +13679,12 @@
       "t": "9:00–4:00"
     },
     {
-      "text": "An add-on for Traditional campers, taught by Charlotte Prep teachers in \"small groups of 6 or less\": literacy, math and social-skills sessions for rising MK–2 (Mon–Wed), reading and writing, math and critical-thinking sessions for rising 3–5 (Thu–Fri).",
-      "of": "53362b15",
+      "text": "An add-on for Traditional campers, taught by Charlotte Prep teachers in \"small groups of 6 or less\". Rising MK–2 (Mon–Wed): literacy, math and social-skills sessions. Rising 3–5 (Thu–Fri): reading and writing, math and critical-thinking sessions.",
+      "of": "a4b3ec1f",
       "at": [
         "charlotte-prep:catalog.camps[3].desc"
       ],
-      "t": "Une option complémentaire pour les campeurs du Traditional Camp, assurée par des enseignants de Charlotte Prep en \"small groups of 6 or less\" : séances de lecture-écriture, de mathématiques et de compétences sociales pour les futurs MK–2 (lun.–mer.), séances de lecture et d’écriture, de mathématiques et d’esprit critique pour les futurs 3–5 (jeu.–ven.)."
+      "t": "Une option complémentaire pour les campeurs du Traditional Camp, assurée par des enseignants de Charlotte Prep en \"small groups of 6 or less\". Futurs MK–2 (lun.–mer.) : séances de lecture-écriture, de mathématiques et de compétences sociales. Futurs 3–5 (jeu.–ven.) : séances de lecture et d’écriture, de mathématiques et d’esprit critique."
     },
     {
       "text": "Rising MK–5",
@@ -14142,12 +14150,12 @@
       "t": "**Le soutien scolaire Midsummer Tune-Up coûte $60 par séance et par semaine, ou $150 pour les trois** — l’option chiffre une seule séance."
     },
     {
-      "text": "**Early bird: \"$25 savings per week now through January 15, 2026.\"** The registration form showed several prices $25 below the brochure, consistent with that saving, but two of its cells were higher than the brochure, so the brochure is used here as the regular price list.",
-      "of": "f73fc16c",
+      "text": "**Early bird: \"$25 savings per week now through January 15, 2026.\"** The prices shown are the brochure’s regular prices.",
+      "of": "8f5a234a",
       "at": [
         "charlotte-prep:costPlanner.fees[2].label"
       ],
-      "t": "**Tarif préférentiel : \"$25 savings per week now through January 15, 2026.\"** Le formulaire d’inscription affichait plusieurs prix inférieurs de $25 à ceux de la brochure, ce qui concorde avec cette réduction, mais deux de ses cases étaient plus élevées que la brochure ; c’est donc la brochure qui sert ici de grille tarifaire normale."
+      "t": "**Tarif préférentiel : \"$25 savings per week now through January 15, 2026.\"** Les prix affichés sont les prix normaux de la brochure."
     },
     {
       "text": "**Refunds:** \"Refunds are available up to two weeks before camp starts. A refund fee of $150 will apply per camper.\"",
@@ -14180,6 +14188,14 @@
         "charlotte-prep:costPlanner.aside.text"
       ],
       "t": "Les inscriptions pour l’été 2026 se faisaient sur le formulaire en ligne de l’école elle-même, avec paiement par carte, et ont été clôturées le vendredi 29 mai 2026. Les enfants inscrits à l’Extended-Day Program de l’année scolaire n’étaient pas inscrits automatiquement — ils devaient être inscrits au camp comme tout le monde. Aucun programme pour l’été 2027 n’a encore été publié."
+    },
+    {
+      "text": "The registration form showed several prices $25 below the brochure, consistent with that saving, but two of its cells were higher than the brochure, so the brochure is used here as the regular price list.",
+      "of": "42349848",
+      "at": [
+        "charlotte-prep:costPlanner.flags[0].text"
+      ],
+      "t": "Le formulaire d’inscription affichait plusieurs prix inférieurs de $25 à ceux de la brochure, ce qui concorde avec cette réduction, mais deux de ses cases étaient plus élevées que la brochure ; c’est donc la brochure qui sert ici de grille tarifaire normale."
     }
   ]
 }

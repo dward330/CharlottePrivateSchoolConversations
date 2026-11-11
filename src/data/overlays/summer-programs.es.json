@@ -3487,8 +3487,8 @@
       ]
     },
     {
-      "t": "El autobús hace el trayecto de ida y vuelta desde Westminster Presbyterian Church, en Colville Road, por **$70.00/semana y pasajero**; los pasajeros deben tener al menos 4 años y el colegio no prorratea la tarifa por una inscripción tardía.",
-      "of": "9fa3cda8",
+      "t": "El autobús hace el trayecto de ida y vuelta desde Westminster Presbyterian Church, en Colville Road, por **$70.00/semana y pasajero**. Los pasajeros deben tener al menos 4 años. El colegio no prorratea la tarifa del autobús por una inscripción tardía.",
+      "of": "7913b3c6",
       "at": [
         "charlotte-latin:costPlanner.fees[3].label"
       ]
@@ -3501,17 +3501,24 @@
       ]
     },
     {
-      "t": "La inscripción semanal cierra a las 12:00pm del miércoles anterior a cada sesión, y los campamentos deben **pagarse íntegros al inscribirse**: no hay depósito. Cancelar cuesta $50.00 por campamento en marzo y $100.00 en abril; a partir del **1 de mayo no se reembolsa nada**, aunque el campamento tenga lista de espera.",
-      "of": "80450382",
+      "t": "La inscripción semanal cierra a las 12:00pm del miércoles anterior a cada sesión. Los campamentos deben **pagarse íntegros al inscribirse**, y no hay depósito. Cancelar cuesta $50.00 por campamento en marzo y $100.00 en abril, y a partir del **1 de mayo no se reembolsa nada**, aunque el campamento tenga lista de espera.",
+      "of": "259edbc8",
       "at": [
         "charlotte-latin:costPlanner.aside.text"
       ]
     },
     {
-      "t": "Latin **no publica ningún descuento por hermanos ni por varias semanas**, ni ayuda financiera para los campamentos. Se buscaron los cuatro términos en el sitio; lo único que llama descuento es el paquete Super Care.",
-      "of": "f34c41db",
+      "t": "Latin **no publica ningún descuento por hermanos ni por varias semanas**, ni ayuda financiera para los campamentos. Lo único que el sitio del colegio llama descuento es el paquete Super Care.",
+      "of": "d436fa08",
       "at": [
         "charlotte-latin:costPlanner.flags[0].text"
+      ]
+    },
+    {
+      "t": "Se buscaron los cuatro términos en el sitio; lo único que llama descuento es el paquete Super Care.",
+      "of": "00bfdccf",
+      "at": [
+        "charlotte-latin:costPlanner.flags[1].text"
       ]
     },
     {
@@ -5288,8 +5295,8 @@
       ]
     },
     {
-      "t": "Charlotte Christian **no publica ningún campamento de día completo**. Todas las sesiones son de tres horas, así que un padre o madre que trabaja y necesita cobertura de jornada completa combina un campamento de mañana y otro de tarde: dos inscripciones distintas, aunque el cuidado puente del mediodía a la 1 p.m. entre ambos sea gratuito.",
-      "of": "27770e04",
+      "t": "Charlotte Christian **no publica ningún campamento de día completo**. Todas las sesiones son de tres horas. Así que un padre o madre que trabaja y necesita cobertura de jornada completa combina un campamento de mañana y otro de tarde. Eso supone dos inscripciones distintas, aunque el cuidado puente del mediodía a la 1 p.m. entre ambos sea gratuito.",
+      "of": "2c8f02e6",
       "at": [
         "charlotte-christian:catalog.flags[0].text"
       ]
@@ -5500,8 +5507,8 @@
       ]
     },
     {
-      "t": "Los campamentos **no son reembolsables dentro de las dos semanas** previas a su fecha de inicio salvo que el colegio los cancele, y cancelar cuesta una cuota de $25. Curiosamente, el riesgo publicado aquí es el contrario al de agotar plazas: todos los campamentos tienen una matrícula mínima y el colegio se reserva el derecho de cancelar el que no la alcance.",
-      "of": "fd362f4b",
+      "t": "Los campamentos **no son reembolsables dentro de las dos semanas** previas a su fecha de inicio salvo que el colegio los cancele, y cancelar cuesta una cuota de $25. Curiosamente, el riesgo publicado aquí es el contrario al de agotar plazas. Todos los campamentos tienen una matrícula mínima, y el colegio puede cancelar un campamento que no la alcance.",
+      "of": "d1a28a97",
       "at": [
         "charlotte-christian:costPlanner.aside.text"
       ]
@@ -5591,8 +5598,8 @@
       ]
     },
     {
-      "t": "Campamento de béisbol de varias sesiones con calentamientos dinámicos, corrido de bases, trabajo por estaciones de ataque y defensa y partidos por grupos de edad. Se celebra en Freedom Park (Dilworth LL Ballfields) y no en el campus de CCHS; los participantes llevan su propia comida.",
-      "of": "d0a1583b",
+      "t": "Campamento de béisbol de varias sesiones con calentamientos dinámicos, corrido de bases, trabajo por estaciones de ataque y defensa y partidos por grupos de edad. Se celebra en Freedom Park (Dilworth LL Ballfields), no en el campus de CCHS. Los participantes llevan su propia comida.",
+      "of": "f8e03b15",
       "at": [
         "charlotte-catholic:catalog.camps[1].desc"
       ]
@@ -5620,8 +5627,8 @@
       ]
     },
     {
-      "t": "Fundamentos de fútbol americano para jóvenes con el cuerpo técnico de fútbol americano de CCHS. El folleto publicado es un documento de 2024 que no se ha actualizado, así que tanto el precio como las fechas de abajo son los que el centro publica actualmente y no una programación confirmada para 2026.",
-      "of": "69bb3862",
+      "t": "Fundamentos de fútbol americano para jóvenes con el cuerpo técnico de fútbol americano de CCHS. El folleto publicado es un documento de 2024 que no se ha actualizado. Así que tanto el precio como las fechas de abajo son los que el centro publica actualmente, no una lista confirmada para 2026.",
+      "of": "cb4dc48e",
       "at": [
         "charlotte-catholic:catalog.camps[2].desc"
       ]
@@ -5664,15 +5671,15 @@
       ]
     },
     {
-      "t": "Tres de los cuatro campamentos no publican precio en ninguna página del centro. Eddie Hull Baseball gestiona las tarifas íntegramente a través de una web de inscripción externa, y los campamentos de baloncesto y de fútbol no publican ninguna — por eso la ficha de planificación de costes se omite en vez de estimarse.",
-      "of": "57ddb105",
+      "t": "Tres de los cuatro campamentos no publican precio en ninguna página del centro. Eddie Hull Baseball gestiona las tarifas íntegramente a través de una web de inscripción externa. Los campamentos de baloncesto y de fútbol no publican ninguna. Por eso esta página omite el planificador de costes en vez de estimar los precios.",
+      "of": "0081d377",
       "at": [
         "charlotte-catholic:catalog.flags[0].text"
       ]
     },
     {
-      "t": "El folleto del Cougar Football Camp es un documento de 2024 todavía enlazado desde la web actual; su precio de $160 y su franja de grados se reproducen tal como están publicados, sin confirmar para 2026.",
-      "of": "34908750",
+      "t": "El folleto del Cougar Football Camp es de 2024, pero la web actual todavía lo enlaza. Su precio de $160 y su franja de grados se muestran tal como los indica el folleto, y el colegio no los ha confirmado para 2026.",
+      "of": "14c6dfd3",
       "at": [
         "charlotte-catholic:catalog.flags[1].text"
       ]
@@ -7322,8 +7329,8 @@
       ]
     },
     {
-      "t": "No se publica **ningún descuento por hermanos ni por varias semanas** para 2026. Un folleto de 2020 ofrecía un 10% por combinar un campamento de mañana y otro de tarde con Super Care; nada parecido aparece en ninguna fuente actual, así que no conviene dar por hecho que siga existiendo.",
-      "of": "eae3912b",
+      "t": "No se publica **ningún descuento por hermanos ni por varias semanas** para 2026. Un folleto de 2020 ofrecía un 10% por combinar un campamento de mañana y otro de tarde con Super Care. Ninguna página actual del colegio lo ofrece, así que no cuentes con él.",
+      "of": "b1b07c36",
       "at": [
         "charlotte-country-day:costPlanner.flags[1].text"
       ]
@@ -8792,8 +8799,8 @@
       ]
     },
     {
-      "t": "Dos cosas cambiaron entre 2024 y 2026 que los listados más antiguos de directorios de campamentos siguen dando mal: la **hora del almuerzo en sí es ahora un extra de pago** (antes era gratuita y solo se cobraba la comida), y la \"cuota de inscripción\" de $25 pasó a ser una **cuota de membresía de $50**.",
-      "of": "8e5c0132",
+      "t": "Dos cosas cambiaron entre 2024 y 2026, y los listados más antiguos de directorios de campamentos siguen dándolas mal. La **hora del almuerzo en sí es ahora un extra de pago**; antes era gratuita y solo se cobraba la comida. Y la \"cuota de inscripción\" de $25 pasó a ser una **cuota de membresía de $50**.",
+      "of": "d1656336",
       "at": [
         "cannon:costPlanner.flags[0].text"
       ]
@@ -8820,8 +8827,8 @@
       ]
     },
     {
-      "t": "Se enumeran los 20 campamentos nombrados públicamente. **Los precios y horarios actuales por campamento están tras el portal**, así que los precios de abajo son estimaciones a partir del rango actual de terceros ($170–$325/semana) y del propio catálogo de 2018 del colegio — las tarifas de cuidado adicional del Cost Planner son cifras actuales propias del colegio.",
-      "of": "f61120ce",
+      "t": "Se enumeran los 20 campamentos nombrados públicamente. **Los precios y horarios actuales por campamento están tras el portal**. Así que los precios de abajo son estimaciones, a partir del rango actual de terceros ($170–$325/semana) y del propio catálogo de 2018 del colegio. Las tarifas de cuidado adicional del Cost Planner son cifras actuales propias del colegio.",
+      "of": "07ba6457",
       "at": [
         "covenant-day:catalog.intro"
       ]
@@ -9145,8 +9152,8 @@
       ]
     },
     {
-      "t": "Los precios y horarios por campamento son **estimaciones**: las cifras actuales están tras el portal de inscripción CampBrain, así que el rango mostrado es la cifra actual de terceros ($170–$325/semana), con los horarios modelados según el propio catálogo de 2018 del colegio allí donde existía el mismo campamento.",
-      "of": "bed818fc",
+      "t": "Los precios y horarios por campamento son **estimaciones**. Las cifras actuales están tras el portal de inscripción CampBrain. Así que el rango mostrado es la cifra actual de terceros ($170–$325/semana). Los horarios están modelados según el propio catálogo de 2018 del colegio, allí donde existía el mismo campamento.",
+      "of": "3a4c72f6",
       "at": [
         "covenant-day:catalog.flags[0].text"
       ]
@@ -10147,8 +10154,8 @@
       ]
     },
     {
-      "t": "Este es el **catálogo de verano de 2023, recuperado del Internet Archive**: una oferta representativa, no la lista de 2026 en vigor, porque HGCS ahora oculta los nombres y los precios de los campamentos tras la plataforma Brushfire. La página de 2026 en vigor confirma ocho ventanas de sesión coherentes con los bloques semanales de abajo. **Los precios no se publican en ningún sitio** (solo en Brushfire), por lo que no se muestra ningún coste. Los grados son los grados a los que **pasa** el alumno.",
-      "of": "bc546344",
+      "t": "Este es el **catálogo de verano de 2023, a partir de copias guardadas de las páginas antiguas del colegio**. Es una oferta representativa, no la lista de 2026 en vigor, porque HGCS ahora oculta los nombres y los precios de los campamentos tras la plataforma Brushfire. La página de 2026 en vigor confirma ocho ventanas de sesión coherentes con los bloques semanales de abajo. **Los precios no se publican en ningún sitio** (solo en Brushfire), por lo que no se muestra ningún coste. Los grados son los grados a los que **pasa** el alumno.",
+      "of": "e18209dc",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ]
@@ -10431,15 +10438,15 @@
       ]
     },
     {
-      "t": "Esta es la oferta de verano de 2023, recuperada de instantáneas del Internet Archive. El catálogo de 2026 en vigor está oculto tras la plataforma de inscripción Brushfire, por lo que no fue posible recuperar los nombres exactos de los campamentos de 2026; la página en vigor sí confirma ocho ventanas de sesión coherentes con estos bloques semanales.",
-      "of": "c0a7d868",
+      "t": "Esta es la lista de verano de 2023, a partir de copias guardadas de las páginas antiguas del colegio en el Internet Archive. El catálogo de 2026 en vigor está oculto tras la plataforma de inscripción Brushfire, así que los nombres exactos de los campamentos de 2026 están dentro de esa plataforma. La página en vigor sí confirma ocho ventanas de sesión coherentes con estos bloques semanales.",
+      "of": "8b8fe821",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ]
     },
     {
-      "t": "No se publica ningún precio por campamento en ninguna página en vigor ni archivada — el precio solo existe dentro del proceso de pago de Brushfire —, por lo que no se construye ninguna tarjeta de planificación de costes y las cifras de coste de verano figuran como N/A. Tampoco hay cuidado ampliado en verano: los campamentos son de medio día y el programa extraescolar está cerrado en verano.",
-      "of": "5a13c375",
+      "t": "No se publica ningún precio por campamento en ninguna página en vigor ni archivada. El precio solo existe dentro del proceso de pago de Brushfire. Por eso esta página no tiene un planificador de costes para estos campamentos, y las cifras de coste de verano figuran como N/A. Tampoco hay cuidado ampliado en verano. Los campamentos son de medio día, y el programa extraescolar está cerrado en verano.",
+      "of": "0ce646d3",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ]
@@ -10859,8 +10866,8 @@
       ]
     },
     {
-      "t": "Formaciones, saltos, baile, acrobacias y volteretas, con una exhibición familiar al final. La inscripción estaba cerrada en el momento de esta investigación.",
-      "of": "32e50150",
+      "t": "Formaciones, saltos, baile, acrobacias y volteretas, con una exhibición familiar al final. El colegio indica que la inscripción está cerrada.",
+      "of": "e1de4d07",
       "at": [
         "gaston-day:catalog.camps[17].desc"
       ]
@@ -10889,36 +10896,36 @@
       ]
     },
     {
-      "t": "Potro, barra de equilibrio, barras asimétricas y suelo, con una exhibición familiar al final. La inscripción estaba cerrada en el momento de esta investigación.",
-      "of": "c74128bd",
+      "t": "Potro, barra de equilibrio, barras asimétricas y suelo, con una exhibición familiar al final. El colegio indica que la inscripción está cerrada.",
+      "of": "8defa478",
       "at": [
         "gaston-day:catalog.camps[18].desc"
       ]
     },
     {
-      "t": "Una princesa nueva cada día, con cuentos, atrezo y manualidades. La inscripción estaba cerrada en el momento de esta investigación.",
-      "of": "543a4835",
+      "t": "Una princesa nueva cada día, con cuentos, atrezo y manualidades. El colegio indica que la inscripción está cerrada.",
+      "of": "50461740",
       "at": [
         "gaston-day:catalog.camps[19].desc"
       ]
     },
     {
-      "t": "Ballet combinado con gimnasia para desarrollar destrezas a través del movimiento imaginativo y la narración. La inscripción estaba cerrada en el momento de esta investigación.",
-      "of": "9cbf7afe",
+      "t": "Ballet combinado con gimnasia para desarrollar destrezas a través del movimiento imaginativo y la narración. El colegio indica que la inscripción está cerrada.",
+      "of": "df4be249",
       "at": [
         "gaston-day:catalog.camps[20].desc"
       ]
     },
     {
-      "t": "Fundamentos de jazz, ballet y volteretas que desembocan en una actuación a final de semana. No hace falta experiencia previa. La inscripción estaba cerrada en el momento de esta investigación.",
-      "of": "2dc39dad",
+      "t": "Fundamentos de jazz, ballet y volteretas que desembocan en una actuación a final de semana. No hace falta experiencia previa. El colegio indica que la inscripción está cerrada.",
+      "of": "ea424608",
       "at": [
         "gaston-day:catalog.camps[21].desc"
       ]
     },
     {
-      "t": "Plié, tendu, pirouette, grand jeté y reverence, además de cuentos de ballet y zapatillas de punta. La inscripción estaba cerrada en el momento de esta investigación.",
-      "of": "3d0e7d51",
+      "t": "Plié, tendu, pirouette, grand jeté y reverence, además de cuentos de ballet y zapatillas de punta. El colegio indica que la inscripción está cerrada.",
+      "of": "ea95c2b4",
       "at": [
         "gaston-day:catalog.camps[22].desc"
       ]
@@ -11038,8 +11045,8 @@
       ]
     },
     {
-      "t": "Los precios de los campamentos colaboradores (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 y Nike) los fija y factura cada proveedor, no Gaston Day, y no se publican en el catálogo del colegio — figuran como \"—\" en lugar de estimarse.",
-      "of": "c5567d01",
+      "t": "Los precios de los campamentos colaboradores (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 y Nike) los fija y factura cada proveedor, no Gaston Day. No se publican en el catálogo del colegio, así que figuran como \"—\" en lugar de estimarse.",
+      "of": "242ef4b0",
       "at": [
         "gaston-day:catalog.flags[1].text"
       ]
@@ -11215,8 +11222,8 @@
       ]
     },
     {
-      "t": "El Lunch Care es OBLIGATORIO para los campistas que se quedan en el campus entre un campamento de mañana y uno de tarde, e incluye la comida de Sparty’s Dining Service. Ya está incluido en la matrícula de Camp Spartan y Camp Spartan Jr de jornada completa, así que solo hay que añadirlo cuando se combinan dos campamentos de media jornada.",
-      "of": "ec6bcc6e",
+      "t": "El Lunch Care es OBLIGATORIO para los campistas que se quedan en el campus entre un campamento de mañana y uno de tarde. Incluye la comida de Sparty’s Dining Service. El Lunch Care ya está incluido en la matrícula de Camp Spartan y Camp Spartan Jr de jornada completa. Así que solo hay que añadirlo cuando se combinan dos campamentos de media jornada.",
+      "of": "8f8ff386",
       "at": [
         "gaston-day:costPlanner.fees[2].label"
       ]
@@ -11264,8 +11271,8 @@
       ]
     },
     {
-      "t": "75 campamentos con nombre propio a lo largo de seis semanas para quienes pasan a K–8, desde un campamento de manualidades de medio día por $225 hasta una sesión académica de tres semanas por $785 — y abiertos a cualquier niño de la comunidad, no solo a las familias de Trinity.",
-      "of": "250f3cb9",
+      "t": "75 campamentos con nombre propio a lo largo de seis semanas para quienes pasan a K–8, desde un campamento de manualidades de medio día por $225 hasta una sesión académica de tres semanas por $785. Los campamentos están abiertos a cualquier niño de la comunidad, no solo a las familias de Trinity.",
+      "of": "c491adf0",
       "at": [
         "trinity-episcopal:catalog.headline"
       ]
@@ -12059,8 +12066,8 @@
       ]
     },
     {
-      "t": "**La ayuda financiera excluye los campamentos de CAMMP, TES Academy y Black Rocket** — la mayor parte de la oferta de programación y toda la línea académica. La ayuda se concede por orden de llegada; las familias ajenas a Trinity presentan las dos declaraciones de impuestos más recientes.",
-      "of": "7ca82e6f",
+      "t": "**La ayuda financiera excluye los campamentos de CAMMP, TES Academy y Black Rocket**. Son la mayor parte de la oferta de programación y toda la línea académica. La ayuda se concede por orden de llegada. Las familias ajenas a Trinity presentan sus dos declaraciones de impuestos más recientes.",
+      "of": "66f1310e",
       "at": [
         "trinity-episcopal:costPlanner.fees[4].label"
       ]
@@ -12087,8 +12094,8 @@
       ]
     },
     {
-      "t": "El saldo vence y se carga ese mismo día en la cuenta registrada; inscribirse el 1 de mayo o después implica pagar el importe completo. **Todos los campamentos de TES Academy exigen el pago íntegro en el momento de la inscripción.** La inscripción en línea cierra una semana antes de cada sesión, y puede aplicarse una **cuota administrativa de $25** por una inscripción tardía o por un cambio de campamento. Por lo general no se emiten reembolsos después del 1 de mayo, aunque el depósito y la cuota de una inscripción cancelada pueden transferirse a otro campamento.",
-      "of": "e461327c",
+      "t": "El saldo vence y se carga ese mismo día en la cuenta registrada. Inscribirse el 1 de mayo o después implica pagar el importe completo. **Todos los campamentos de TES Academy exigen el pago íntegro en el momento de la inscripción.** La inscripción en línea cierra una semana antes de cada sesión. Puede aplicarse una **cuota administrativa de $25** por una inscripción tardía o por un cambio de campamento. Por lo general no se emiten reembolsos después del 1 de mayo, aunque el depósito y la cuota de una inscripción cancelada pueden transferirse a otro campamento.",
+      "of": "6e758fac",
       "at": [
         "trinity-episcopal:costPlanner.aside.text"
       ]
@@ -12233,8 +12240,8 @@
       ]
     },
     {
-      "t": "Un complemento para los campistas del Traditional Camp, impartido por docentes de Charlotte Prep en \"small groups of 6 or less\": sesiones de lectoescritura, matemáticas y habilidades sociales para quienes pasan a MK–2 (lun–mié), y de lectura y escritura, matemáticas y pensamiento crítico para quienes pasan a 3–5 (jue–vie).",
-      "of": "53362b15",
+      "t": "Un complemento para los campistas del Traditional Camp, impartido por docentes de Charlotte Prep en \"small groups of 6 or less\". Quienes pasan a MK–2 (lun–mié): sesiones de lectoescritura, matemáticas y habilidades sociales. Quienes pasan a 3–5 (jue–vie): sesiones de lectura y escritura, matemáticas y pensamiento crítico.",
+      "of": "a4b3ec1f",
       "at": [
         "charlotte-prep:catalog.camps[3].desc"
       ]
@@ -12646,8 +12653,8 @@
       ]
     },
     {
-      "t": "**Pronto pago: \"$25 savings per week now through January 15, 2026.\"** El formulario de inscripción mostraba varios precios $25 por debajo del folleto, en línea con ese ahorro, pero dos de sus celdas eran más altas que el folleto, así que aquí se usa el folleto como lista de precios normal.",
-      "of": "f73fc16c",
+      "t": "**Pronto pago: \"$25 savings per week now through January 15, 2026.\"** Los precios mostrados son los precios normales del folleto.",
+      "of": "8f5a234a",
       "at": [
         "charlotte-prep:costPlanner.fees[2].label"
       ]
@@ -12678,6 +12685,13 @@
       "of": "49f88697",
       "at": [
         "charlotte-prep:costPlanner.aside.text"
+      ]
+    },
+    {
+      "t": "El formulario de inscripción mostraba varios precios $25 por debajo del folleto, en línea con ese ahorro, pero dos de sus celdas eran más altas que el folleto, así que aquí se usa el folleto como lista de precios normal.",
+      "of": "42349848",
+      "at": [
+        "charlotte-prep:costPlanner.flags[0].text"
       ]
     }
   ]

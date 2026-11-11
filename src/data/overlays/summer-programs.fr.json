@@ -3487,8 +3487,8 @@
       ]
     },
     {
-      "t": "Le bus effectue l’aller-retour depuis la Westminster Presbyterian Church, sur Colville Road, pour **$70.00/semaine et par passager** ; les passagers doivent avoir au moins 4 ans, et l’école n’applique aucun prorata en cas d’inscription tardive.",
-      "of": "9fa3cda8",
+      "t": "Le bus effectue l’aller-retour depuis la Westminster Presbyterian Church, sur Colville Road, pour **$70.00/semaine et par passager**. Les passagers doivent avoir au moins 4 ans. L’école n’applique aucun prorata sur le tarif du bus en cas d’inscription tardive.",
+      "of": "7913b3c6",
       "at": [
         "charlotte-latin:costPlanner.fees[3].label"
       ]
@@ -3501,17 +3501,24 @@
       ]
     },
     {
-      "t": "Les inscriptions hebdomadaires ferment à 12:00pm le mercredi précédant chaque session, et les stages doivent être **réglés en totalité à l’inscription** — il n’y a pas d’acompte. Une annulation coûte $50.00 par stage en mars et $100.00 en avril ; à partir du **1er mai, plus rien n’est remboursable**, même si le stage a une liste d’attente.",
-      "of": "80450382",
+      "t": "Les inscriptions hebdomadaires ferment à 12:00pm le mercredi précédant chaque session. Les stages doivent être **réglés en totalité à l’inscription**, et il n’y a pas d’acompte. Une annulation coûte $50.00 par stage en mars et $100.00 en avril, et à partir du **1er mai, plus rien n’est remboursable**, même si le stage a une liste d’attente.",
+      "of": "259edbc8",
       "at": [
         "charlotte-latin:costPlanner.aside.text"
       ]
     },
     {
-      "t": "Latin ne publie **aucune réduction fratrie ni réduction multi-semaines**, et aucune aide financière pour les stages. Le site a été passé en revue pour ces quatre termes ; la seule chose qu’il qualifie de réduction est la formule groupée Super Care.",
-      "of": "f34c41db",
+      "t": "Latin ne publie **aucune réduction fratrie ni réduction multi-semaines**, et aucune aide financière pour les stages. La seule chose que le site de l’école qualifie de réduction est la formule groupée Super Care.",
+      "of": "d436fa08",
       "at": [
         "charlotte-latin:costPlanner.flags[0].text"
+      ]
+    },
+    {
+      "t": "Le site a été passé en revue pour ces quatre termes ; la seule chose qu’il qualifie de réduction est la formule groupée Super Care.",
+      "of": "00bfdccf",
+      "at": [
+        "charlotte-latin:costPlanner.flags[1].text"
       ]
     },
     {
@@ -5288,8 +5295,8 @@
       ]
     },
     {
-      "t": "Charlotte Christian ne publie **aucun stage à la journée complète**. Chaque session dure trois heures : un parent qui travaille et a besoin d’une couverture sur la journée entière associe donc un stage du matin et un stage de l’après-midi — deux inscriptions distinctes, même si la garde de transition de midi à 1 p.m. entre les deux est gratuite.",
-      "of": "27770e04",
+      "t": "Charlotte Christian ne publie **aucun stage à la journée complète**. Chaque session dure trois heures. Un parent qui travaille et a besoin d’une couverture sur la journée entière associe donc un stage du matin et un stage de l’après-midi. Cela fait deux inscriptions distinctes, même si la garde de transition de midi à 1 p.m. entre les deux est gratuite.",
+      "of": "2c8f02e6",
       "at": [
         "charlotte-christian:catalog.flags[0].text"
       ]
@@ -5500,8 +5507,8 @@
       ]
     },
     {
-      "t": "Les stages ne sont **pas remboursables dans les deux semaines** précédant leur date de début, sauf annulation par l’école, et une annulation entraîne des frais de $25. Fait inhabituel, le risque publié ici est l’inverse d’un remplissage complet : chaque stage a un effectif minimum et l’école se réserve le droit d’annuler celui qui ne l’atteint pas.",
-      "of": "fd362f4b",
+      "t": "Les stages ne sont **pas remboursables dans les deux semaines** précédant leur date de début, sauf annulation par l’école, et une annulation entraîne des frais de $25. Fait inhabituel, le risque publié ici est l’inverse d’un remplissage complet. Chaque stage a un effectif minimum, et l’école peut annuler un stage qui ne l’atteint pas.",
+      "of": "d1a28a97",
       "at": [
         "charlotte-christian:costPlanner.aside.text"
       ]
@@ -5591,8 +5598,8 @@
       ]
     },
     {
-      "t": "Stage de baseball en plusieurs sessions, avec échauffements dynamiques, courses sur les bases, ateliers offensifs et défensifs et matchs par tranche d’âge. Il se tient à Freedom Park (Dilworth LL Ballfields) et non sur le campus de CCHS ; les participants apportent leur repas.",
-      "of": "d0a1583b",
+      "t": "Stage de baseball en plusieurs sessions, avec échauffements dynamiques, courses sur les bases, ateliers offensifs et défensifs et matchs par tranche d’âge. Il se tient à Freedom Park (Dilworth LL Ballfields), et non sur le campus de CCHS. Les participants apportent leur repas.",
+      "of": "f8e03b15",
       "at": [
         "charlotte-catholic:catalog.camps[1].desc"
       ]
@@ -5620,8 +5627,8 @@
       ]
     },
     {
-      "t": "Initiation au football américain avec l’encadrement football de CCHS. Le prospectus publié est un document de 2024 qui n’a pas été actualisé : le tarif comme les dates ci-dessous correspondent donc à ce que l’école publie actuellement, et non à un calendrier 2026 confirmé.",
-      "of": "69bb3862",
+      "t": "Initiation au football américain avec l’encadrement football de CCHS. Le prospectus publié est un document de 2024 qui n’a pas été actualisé. Le tarif comme les dates ci-dessous correspondent donc à ce que l’école publie actuellement, et non à une liste 2026 confirmée.",
+      "of": "cb4dc48e",
       "at": [
         "charlotte-catholic:catalog.camps[2].desc"
       ]
@@ -5664,15 +5671,15 @@
       ]
     },
     {
-      "t": "Trois des quatre stages ne publient aucun tarif sur une page de l’école. Eddie Hull Baseball gère entièrement les frais via un site d’inscription tiers, et les stages de basketball et de soccer n’en publient aucun — raison pour laquelle la fiche Planificateur de coûts est omise plutôt que modélisée.",
-      "of": "57ddb105",
+      "t": "Trois des quatre stages ne publient aucun tarif sur une page de l’école. Eddie Hull Baseball gère entièrement les frais via un site d’inscription tiers. Les stages de basketball et de soccer n’en publient aucun. Cette page omet donc le planificateur de coûts au lieu d’estimer les prix.",
+      "of": "0081d377",
       "at": [
         "charlotte-catholic:catalog.flags[0].text"
       ]
     },
     {
-      "t": "Le prospectus du Cougar Football Camp est un document de 2024 toujours accessible depuis le site actuel ; son tarif de $160 et sa tranche de niveaux sont reproduits tels que publiés, sans confirmation pour 2026.",
-      "of": "34908750",
+      "t": "Le prospectus du Cougar Football Camp date de 2024, mais le site actuel y renvoie toujours. Son tarif de $160 et sa tranche de niveaux sont présentés tels que le prospectus les indique, et l’école ne les a pas confirmés pour 2026.",
+      "of": "14c6dfd3",
       "at": [
         "charlotte-catholic:catalog.flags[1].text"
       ]
@@ -7322,8 +7329,8 @@
       ]
     },
     {
-      "t": "Aucune **réduction fratrie ni multi-semaines** n’est publiée pour 2026. Une brochure de 2020 proposait 10% pour l’association d’un stage du matin et d’un stage de l’après-midi avec Super Care ; rien de tel n’apparaît dans les sources actuelles, et il ne faut donc pas supposer que cela existe encore.",
-      "of": "eae3912b",
+      "t": "Aucune **réduction fratrie ni multi-semaines** n’est publiée pour 2026. Une brochure de 2020 proposait 10% pour l’association d’un stage du matin et d’un stage de l’après-midi avec Super Care. Aucune page actuelle de l’école ne la propose : n’y comptez donc pas.",
+      "of": "b1b07c36",
       "at": [
         "charlotte-country-day:costPlanner.flags[1].text"
       ]
@@ -8792,8 +8799,8 @@
       ]
     },
     {
-      "t": "Deux choses ont changé entre 2024 et 2026, que d’anciennes fiches d’annuaires de stages présentent encore de façon erronée : **l’heure du déjeuner elle-même est désormais une option payante** (elle était auparavant gratuite, seul le repas étant facturé), et les « registration fee » de $25 sont devenus des **frais d’adhésion de $50**.",
-      "of": "8e5c0132",
+      "t": "Deux choses ont changé entre 2024 et 2026, et d’anciennes fiches d’annuaires de stages les présentent encore de façon erronée. **L’heure du déjeuner elle-même est désormais une option payante** ; elle était auparavant gratuite, seul le repas étant facturé. Et les « registration fee » de $25 sont devenus des **frais d’adhésion de $50**.",
+      "of": "d1656336",
       "at": [
         "cannon:costPlanner.flags[0].text"
       ]
@@ -8820,8 +8827,8 @@
       ]
     },
     {
-      "t": "Les 20 stages nommés publiquement sont tous listés. **Les tarifs et horaires actuels par stage sont réservés au portail**, de sorte que les prix ci-dessous sont des estimations issues de la fourchette actuelle d’un tiers ($170–$325/semaine) et du propre catalogue 2018 de l’école — les tarifs de la garde en option indiqués sur le Cost Planner sont les chiffres actuels de l’école elle-même.",
-      "of": "f61120ce",
+      "t": "Les 20 stages nommés publiquement sont tous listés. **Les tarifs et horaires actuels par stage sont réservés au portail**. Les prix ci-dessous sont donc des estimations, issues de la fourchette actuelle d’un tiers ($170–$325/semaine) et du propre catalogue 2018 de l’école. Les tarifs de la garde en option indiqués sur le Cost Planner sont les chiffres actuels de l’école elle-même.",
+      "of": "07ba6457",
       "at": [
         "covenant-day:catalog.intro"
       ]
@@ -9145,8 +9152,8 @@
       ]
     },
     {
-      "t": "Les tarifs et horaires par stage sont des **estimations** : les chiffres actuels sont réservés au portail d’inscription CampBrain, de sorte que la fourchette indiquée correspond au chiffre actuel d’un tiers ($170–$325/semaine), avec des horaires calqués sur le propre catalogue 2018 de l’école là où le même stage existait.",
-      "of": "bed818fc",
+      "t": "Les tarifs et horaires par stage sont des **estimations**. Les chiffres actuels sont réservés au portail d’inscription CampBrain. La fourchette indiquée correspond donc au chiffre actuel d’un tiers ($170–$325/semaine). Les horaires sont calqués sur le propre catalogue 2018 de l’école, là où le même stage existait.",
+      "of": "3a4c72f6",
       "at": [
         "covenant-day:catalog.flags[0].text"
       ]
@@ -10147,8 +10154,8 @@
       ]
     },
     {
-      "t": "Il s’agit du **catalogue Summer 2023, récupéré depuis l’Internet Archive** — une programmation représentative, et non la liste 2026 en vigueur, car HGCS masque désormais les noms et les tarifs des stages derrière la plateforme Brushfire. La page 2026 en ligne confirme huit fenêtres de session cohérentes avec les blocs hebdomadaires ci-dessous. **Les tarifs ne sont publiés nulle part** (uniquement dans Brushfire), aucun coût n’est donc affiché. Les niveaux indiqués sont ceux de la **rentrée**.",
-      "of": "bc546344",
+      "t": "Il s’agit du **catalogue Summer 2023, tiré de copies sauvegardées des anciennes pages de l’école**. C’est une liste représentative, et non la liste 2026 en vigueur, car HGCS masque désormais les noms et les tarifs des stages derrière la plateforme Brushfire. La page 2026 en ligne confirme huit fenêtres de session cohérentes avec les blocs hebdomadaires ci-dessous. **Les tarifs ne sont publiés nulle part** (uniquement dans Brushfire), aucun coût n’est donc affiché. Les niveaux indiqués sont ceux de la **rentrée**.",
+      "of": "e18209dc",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ]
@@ -10431,15 +10438,15 @@
       ]
     },
     {
-      "t": "Il s’agit de la programmation Summer 2023, récupérée depuis des captures de l’Internet Archive. Le catalogue 2026 en vigueur est masqué derrière la plateforme d’inscription Brushfire, si bien que les noms exacts des stages 2026 n’ont pas pu être récupérés ; la page en ligne confirme toutefois huit fenêtres de session cohérentes avec ces blocs hebdomadaires.",
-      "of": "c0a7d868",
+      "t": "Il s’agit de la liste Summer 2023, tirée de copies sauvegardées des anciennes pages de l’école sur l’Internet Archive. Le catalogue 2026 en vigueur est masqué derrière la plateforme d’inscription Brushfire : les noms exacts des stages 2026 se trouvent donc dans cette plateforme. La page en ligne confirme toutefois huit fenêtres de session cohérentes avec ces blocs hebdomadaires.",
+      "of": "8b8fe821",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ]
     },
     {
-      "t": "Aucun tarif par stage n’est publié sur une page en ligne ou archivée — les prix n’existent qu’à l’intérieur du tunnel de paiement Brushfire — aucune fiche Cost Planner n’est donc construite et les montants du coût de l’été sont N/A. Il n’existe pas non plus de garde d’été en complément : les stages ne durent qu’une demi-journée et le programme périscolaire est fermé l’été.",
-      "of": "5a13c375",
+      "t": "Aucun tarif par stage n’est publié sur une page en ligne ou archivée. Les prix n’existent qu’à l’intérieur du tunnel de paiement Brushfire. Cette page n’a donc pas de Cost Planner pour ces stages, et les montants du coût de l’été indiquent N/A. Il n’existe pas non plus de garde d’été en complément. Les stages ne durent qu’une demi-journée, et le programme périscolaire est fermé l’été.",
+      "of": "0ce646d3",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ]
@@ -10859,8 +10866,8 @@
       ]
     },
     {
-      "t": "Formations, sauts, danse, portés et acrobaties, avec un spectacle familial en fin de semaine. Inscriptions closes au moment de cette recherche.",
-      "of": "32e50150",
+      "t": "Formations, sauts, danse, portés et acrobaties, avec un spectacle familial en fin de semaine. L’école indique que les inscriptions sont closes.",
+      "of": "e1de4d07",
       "at": [
         "gaston-day:catalog.camps[17].desc"
       ]
@@ -10889,36 +10896,36 @@
       ]
     },
     {
-      "t": "Saut de cheval, poutre, barres et sol, avec un spectacle familial en fin de semaine. Inscriptions closes au moment de cette recherche.",
-      "of": "c74128bd",
+      "t": "Saut de cheval, poutre, barres et sol, avec un spectacle familial en fin de semaine. L’école indique que les inscriptions sont closes.",
+      "of": "8defa478",
       "at": [
         "gaston-day:catalog.camps[18].desc"
       ]
     },
     {
-      "t": "Une nouvelle princesse chaque jour, avec des histoires, des accessoires et des travaux manuels. Inscriptions closes au moment de cette recherche.",
-      "of": "543a4835",
+      "t": "Une nouvelle princesse chaque jour, avec des histoires, des accessoires et des travaux manuels. L’école indique que les inscriptions sont closes.",
+      "of": "50461740",
       "at": [
         "gaston-day:catalog.camps[19].desc"
       ]
     },
     {
-      "t": "Ballet mêlé à une gymnastique de perfectionnement, par le mouvement imaginatif et la narration. Inscriptions closes au moment de cette recherche.",
-      "of": "9cbf7afe",
+      "t": "Ballet mêlé à une gymnastique de perfectionnement, par le mouvement imaginatif et la narration. L’école indique que les inscriptions sont closes.",
+      "of": "df4be249",
       "at": [
         "gaston-day:catalog.camps[20].desc"
       ]
     },
     {
-      "t": "Bases de jazz, de ballet et d’acrobatie, débouchant sur un spectacle en fin de semaine. Aucune expérience requise. Inscriptions closes au moment de cette recherche.",
-      "of": "2dc39dad",
+      "t": "Bases de jazz, de ballet et d’acrobatie, débouchant sur un spectacle en fin de semaine. Aucune expérience requise. L’école indique que les inscriptions sont closes.",
+      "of": "ea424608",
       "at": [
         "gaston-day:catalog.camps[21].desc"
       ]
     },
     {
-      "t": "Plié, tendu, pirouette, grand jeté et révérence, avec en plus des histoires de ballet et des chaussons de pointes. Inscriptions closes au moment de cette recherche.",
-      "of": "3d0e7d51",
+      "t": "Plié, tendu, pirouette, grand jeté et révérence, avec en plus des histoires de ballet et des chaussons de pointes. L’école indique que les inscriptions sont closes.",
+      "of": "ea95c2b4",
       "at": [
         "gaston-day:catalog.camps[22].desc"
       ]
@@ -11038,8 +11045,8 @@
       ]
     },
     {
-      "t": "Les tarifs des stages partenaires (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 et Nike) sont fixés et facturés par chaque prestataire, non par Gaston Day, et ne sont pas publiés dans le catalogue de l’école — ils s’affichent comme \"—\" plutôt que d’être estimés.",
-      "of": "c5567d01",
+      "t": "Les tarifs des stages partenaires (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 et Nike) sont fixés et facturés par chaque prestataire, non par Gaston Day. Ils ne sont pas publiés dans le catalogue de l’école : ils s’affichent donc comme \"—\" plutôt que d’être estimés.",
+      "of": "242ef4b0",
       "at": [
         "gaston-day:catalog.flags[1].text"
       ]
@@ -11215,8 +11222,8 @@
       ]
     },
     {
-      "t": "La Lunch Care est OBLIGATOIRE pour les campeurs qui restent sur le campus entre un stage du matin et un stage de l’après-midi, et comprend le déjeuner assuré par Sparty’s Dining Service. Elle est déjà comprise dans les frais de Camp Spartan et de Camp Spartan Jr à la journée complète : ne l’ajoutez donc qu’en combinant deux stages en demi-journée.",
-      "of": "ec6bcc6e",
+      "t": "La Lunch Care est OBLIGATOIRE pour les campeurs qui restent sur le campus entre un stage du matin et un stage de l’après-midi. Elle comprend le déjeuner assuré par Sparty’s Dining Service. La Lunch Care est déjà comprise dans les frais de Camp Spartan et de Camp Spartan Jr à la journée complète. Ne l’ajoutez donc qu’en combinant deux stages en demi-journée.",
+      "of": "8f8ff386",
       "at": [
         "gaston-day:costPlanner.fees[2].label"
       ]
@@ -11264,8 +11271,8 @@
       ]
     },
     {
-      "t": "75 stages nommés répartis sur six semaines pour les futurs élèves K–8, d'un stage d'artisanat en demi-journée à $225 à une session scolaire de trois semaines à $785 — et ouverts à tout enfant de la communauté, pas seulement aux familles de Trinity.",
-      "of": "250f3cb9",
+      "t": "75 stages nommés répartis sur six semaines pour les futurs élèves K–8, d'un stage d'artisanat en demi-journée à $225 à une session scolaire de trois semaines à $785. Les stages sont ouverts à tout enfant de la communauté, pas seulement aux familles de Trinity.",
+      "of": "c491adf0",
       "at": [
         "trinity-episcopal:catalog.headline"
       ]
@@ -12059,8 +12066,8 @@
       ]
     },
     {
-      "t": "**L'aide financière exclut les stages CAMMP, TES Academy et Black Rocket** — soit l'essentiel de l'offre de code et toute la filière scolaire. L'aide est attribuée au premier arrivé, premier servi ; les familles extérieures à Trinity fournissent leurs deux derniers avis d'imposition.",
-      "of": "7ca82e6f",
+      "t": "**L'aide financière exclut les stages CAMMP, TES Academy et Black Rocket**. Ils représentent l'essentiel de l'offre de code et toute la filière scolaire. L'aide est attribuée au premier arrivé, premier servi. Les familles extérieures à Trinity fournissent leurs deux derniers avis d'imposition.",
+      "of": "66f1310e",
       "at": [
         "trinity-episcopal:costPlanner.fees[4].label"
       ]
@@ -12087,8 +12094,8 @@
       ]
     },
     {
-      "t": "Le solde est dû et prélevé ce jour-là sur le compte enregistré ; s'inscrire le 1er mai ou après implique de payer l'intégralité. **Tous les stages de la TES Academy exigent le paiement intégral à l'inscription.** Les inscriptions en ligne ferment une semaine avant chaque session, et des **frais administratifs de $25** peuvent être appliqués en cas d'inscription tardive ou de changement de stage. Les remboursements ne sont en principe plus accordés après le 1er mai, même si l'acompte et les frais d'une inscription annulée peuvent être transférés vers un autre stage.",
-      "of": "e461327c",
+      "t": "Le solde est dû et prélevé ce jour-là sur le compte enregistré. S'inscrire le 1er mai ou après implique de payer l'intégralité. **Tous les stages de la TES Academy exigent le paiement intégral à l'inscription.** Les inscriptions en ligne ferment une semaine avant chaque session. Des **frais administratifs de $25** peuvent être appliqués en cas d'inscription tardive ou de changement de stage. Les remboursements ne sont en principe plus accordés après le 1er mai, même si l'acompte et les frais d'une inscription annulée peuvent être transférés vers un autre stage.",
+      "of": "6e758fac",
       "at": [
         "trinity-episcopal:costPlanner.aside.text"
       ]
@@ -12233,8 +12240,8 @@
       ]
     },
     {
-      "t": "Une option complémentaire pour les campeurs du Traditional Camp, assurée par des enseignants de Charlotte Prep en \"small groups of 6 or less\" : séances de lecture-écriture, de mathématiques et de compétences sociales pour les futurs MK–2 (lun.–mer.), séances de lecture et d’écriture, de mathématiques et d’esprit critique pour les futurs 3–5 (jeu.–ven.).",
-      "of": "53362b15",
+      "t": "Une option complémentaire pour les campeurs du Traditional Camp, assurée par des enseignants de Charlotte Prep en \"small groups of 6 or less\". Futurs MK–2 (lun.–mer.) : séances de lecture-écriture, de mathématiques et de compétences sociales. Futurs 3–5 (jeu.–ven.) : séances de lecture et d’écriture, de mathématiques et d’esprit critique.",
+      "of": "a4b3ec1f",
       "at": [
         "charlotte-prep:catalog.camps[3].desc"
       ]
@@ -12646,8 +12653,8 @@
       ]
     },
     {
-      "t": "**Tarif préférentiel : \"$25 savings per week now through January 15, 2026.\"** Le formulaire d’inscription affichait plusieurs prix inférieurs de $25 à ceux de la brochure, ce qui concorde avec cette réduction, mais deux de ses cases étaient plus élevées que la brochure ; c’est donc la brochure qui sert ici de grille tarifaire normale.",
-      "of": "f73fc16c",
+      "t": "**Tarif préférentiel : \"$25 savings per week now through January 15, 2026.\"** Les prix affichés sont les prix normaux de la brochure.",
+      "of": "8f5a234a",
       "at": [
         "charlotte-prep:costPlanner.fees[2].label"
       ]
@@ -12678,6 +12685,13 @@
       "of": "49f88697",
       "at": [
         "charlotte-prep:costPlanner.aside.text"
+      ]
+    },
+    {
+      "t": "Le formulaire d’inscription affichait plusieurs prix inférieurs de $25 à ceux de la brochure, ce qui concorde avec cette réduction, mais deux de ses cases étaient plus élevées que la brochure ; c’est donc la brochure qui sert ici de grille tarifaire normale.",
+      "of": "42349848",
+      "at": [
+        "charlotte-prep:costPlanner.flags[0].text"
       ]
     }
   ]

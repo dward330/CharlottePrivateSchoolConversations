@@ -3869,12 +3869,12 @@
       "t": "**Camp Victor की $495.00/week दर में दोपहर का भोजन शामिल है**, इसलिए ऊपर का भोजन विकल्प जोड़ने पर वह दो बार गिना जाएगा। बाक़ी हर कैंप भोजन के लिए अलग से $65.00/week लेता है, जिसे स्कूल की अपनी डाइनिंग सेवा FLIK तैयार करती है।"
     },
     {
-      "text": "The bus runs round-trip from Westminster Presbyterian Church on Colville Road for **$70.00/week, per rider**; riders must be at least 4 years old, and the school does not pro-rate it for a late registration.",
-      "of": "9fa3cda8",
+      "text": "The bus runs round-trip from Westminster Presbyterian Church on Colville Road for **$70.00/week, per rider**. Riders must be at least 4 years old. The school does not pro-rate the bus fee for a late registration.",
+      "of": "7913b3c6",
       "at": [
         "charlotte-latin:costPlanner.fees[3].label"
       ],
-      "t": "बस Colville Road स्थित Westminster Presbyterian Church से आने-जाने के लिए **$70.00/week प्रति यात्री** चलती है; यात्रियों की उम्र कम से कम 4 वर्ष होनी चाहिए, और देर से पंजीकरण पर स्कूल इसका आनुपातिक शुल्क नहीं लेता।"
+      "t": "बस Colville Road स्थित Westminster Presbyterian Church से आने-जाने के लिए **$70.00/week प्रति यात्री** चलती है। यात्रियों की उम्र कम से कम 4 वर्ष होनी चाहिए। देर से पंजीकरण पर स्कूल बस शुल्क को अनुपात में कम नहीं करता।"
     },
     {
       "text": "Registration opened January 7 at 8:00pm.",
@@ -3885,20 +3885,28 @@
       "t": "पंजीकरण 7 जनवरी को 8:00pm पर खुला।"
     },
     {
-      "text": "Weekly registration closes at 12:00pm on the Wednesday before each session, and camps must be **paid in full at registration** — there is no deposit. Canceling costs $50.00 per camp in March and $100.00 in April; from **May 1 nothing is refundable**, even if the camp has a waitlist.",
-      "of": "80450382",
+      "text": "Weekly registration closes at 12:00pm on the Wednesday before each session. Camps must be **paid in full at registration**, and there is no deposit. Canceling costs $50.00 per camp in March and $100.00 in April, and from **May 1 nothing is refundable**, even if the camp has a waitlist.",
+      "of": "259edbc8",
       "at": [
         "charlotte-latin:costPlanner.aside.text"
       ],
-      "t": "साप्ताहिक पंजीकरण हर सत्र से पहले वाले बुधवार को 12:00pm पर बंद हो जाता है, और कैंपों का **पंजीकरण के समय पूरा भुगतान** करना होता है — जमा-राशि का विकल्प नहीं है। रद्द करने पर March में प्रति कैंप $50.00 और April में $100.00 लगता है; **1 मई से कुछ भी वापस नहीं मिलता**, भले ही कैंप में प्रतीक्षा-सूची हो।"
+      "t": "साप्ताहिक पंजीकरण हर सत्र से पहले वाले बुधवार को 12:00pm पर बंद हो जाता है। कैंपों का **पंजीकरण के समय पूरा भुगतान** करना होता है, और कोई जमा-राशि नहीं है। रद्द करने पर मार्च में प्रति कैंप $50.00 और अप्रैल में $100.00 लगता है, और **1 मई से कुछ भी वापस नहीं मिलता**, भले ही कैंप में प्रतीक्षा-सूची हो।"
     },
     {
-      "text": "Latin publishes **no sibling discount and no multi-week discount**, and no camp financial aid. The site was searched for all four terms; the only thing it calls a discount is the Super Care bundle.",
-      "of": "f34c41db",
+      "text": "Latin publishes **no sibling discount and no multi-week discount**, and no camp financial aid. The only thing the school’s site calls a discount is the Super Care bundle.",
+      "of": "d436fa08",
       "at": [
         "charlotte-latin:costPlanner.flags[0].text"
       ],
-      "t": "Latin **न भाई-बहन छूट प्रकाशित करता है, न कई-सप्ताह की छूट**, और न कैंप के लिए कोई वित्तीय सहायता। साइट पर चारों शब्द खोजे गए; वह केवल Super Care संयोजन को ही छूट कहता है।"
+      "t": "Latin **न भाई-बहन छूट प्रकाशित करता है, न कई-सप्ताह की छूट**, और न कैंप के लिए कोई वित्तीय सहायता। स्कूल की साइट केवल Super Care संयोजन को ही छूट कहती है।"
+    },
+    {
+      "text": "The site was searched for all four terms; the only thing it calls a discount is the Super Care bundle.",
+      "of": "00bfdccf",
+      "at": [
+        "charlotte-latin:costPlanner.flags[1].text"
+      ],
+      "t": "साइट पर चारों शब्द खोजे गए; वह केवल Super Care संयोजन को ही छूट कहती है।"
     },
     {
       "text": "133 camp sessions across six weeks — and every single one is a three-hour half-day. There is no full-day camp.",
@@ -5870,12 +5878,12 @@
       "t": "समापन सप्ताह में एक सामान्य गेम्स कैंप।"
     },
     {
-      "text": "Charlotte Christian publishes **no full-day camp**. Every session is three hours, so a working parent needing full-day coverage pairs a morning and an afternoon camp — two separate registrations, though the noon–1 p.m. bridge care between them is free.",
-      "of": "27770e04",
+      "text": "Charlotte Christian publishes **no full-day camp**. Every session is three hours. So a working parent who needs full-day coverage pairs a morning and an afternoon camp. That means two separate registrations, though the noon–1 p.m. bridge care between them is free.",
+      "of": "2c8f02e6",
       "at": [
         "charlotte-christian:catalog.flags[0].text"
       ],
-      "t": "Charlotte Christian **पूरे दिन का कोई कैंप प्रकाशित नहीं करता**। हर सत्र तीन घंटे का है, इसलिए पूरे दिन की देखभाल चाहने वाला कामकाजी अभिभावक सुबह और दोपहर के दो कैंप जोड़ता है — दो अलग पंजीकरण, हालाँकि उनके बीच दोपहर 12 से 1 p.m. की bridge care निःशुल्क है।"
+      "t": "Charlotte Christian **पूरे दिन का कोई कैंप प्रकाशित नहीं करता**। हर सत्र तीन घंटे का है। इसलिए पूरे दिन की देखभाल चाहने वाला कामकाजी अभिभावक सुबह और दोपहर के दो कैंप जोड़ता है। इसका मतलब है दो अलग पंजीकरण, हालाँकि उनके बीच दोपहर से 1 p.m. तक की bridge care निःशुल्क है।"
     },
     {
       "text": "The school does not state whether camps are **open to non-Charlotte-Christian families** — neither its PDF nor its web page says either way. An aggregator asserts they are open to the general public, but that is unconfirmed. Grades are given as \"rising 2026-27\" generally rather than by enrollment, which is suggestive but not a statement of policy.",
@@ -6112,12 +6120,12 @@
       "t": "पंजीकरण 5 जनवरी को खुला।"
     },
     {
-      "text": "Camps are **non-refundable within two weeks** of their start date unless the school cancels, and canceling costs a $25 fee. Unusually, the published risk here is the opposite of selling out: every camp has a minimum enrollment and the school reserves the right to cancel one that does not meet it.",
-      "of": "fd362f4b",
+      "text": "Camps are **non-refundable within two weeks** of their start date unless the school cancels, and canceling costs a $25 fee. Unusually, the published risk here is the opposite of selling out. Every camp has a minimum enrollment, and the school may cancel a camp that does not reach it.",
+      "of": "d1a28a97",
       "at": [
         "charlotte-christian:costPlanner.aside.text"
       ],
-      "t": "कैंप उनकी आरंभ तिथि से **दो सप्ताह के भीतर वापसी-योग्य नहीं** होते, बशर्ते स्कूल स्वयं रद्द न करे, और रद्द करने पर $25 शुल्क लगता है। असामान्य रूप से, यहाँ प्रकाशित जोखिम सीटें भर जाने का उल्टा है: हर कैंप के लिए न्यूनतम नामांकन तय है और स्कूल उस कैंप को रद्द करने का अधिकार सुरक्षित रखता है जो उसे पूरा न करे।"
+      "t": "कैंप उनकी आरंभ तिथि से **दो सप्ताह के भीतर वापसी-योग्य नहीं** होते, बशर्ते स्कूल स्वयं रद्द न करे, और रद्द करने पर $25 शुल्क लगता है। असामान्य रूप से, यहाँ प्रकाशित जोखिम सीटें भर जाने का उल्टा है। हर कैंप के लिए न्यूनतम नामांकन तय है, और जो कैंप उस तक न पहुँचे, स्कूल उसे रद्द कर सकता है।"
     },
     {
       "text": "The school’s **own PDF and its web-page summary disagree** on two figures: the registration-fee cutoff (May 17 vs May 18) and the cancellation fee ($25 vs $50). The PDF’s figures are used here because it is the school’s own document, but both are worth confirming.",
@@ -6216,12 +6224,12 @@
       "t": "2–5 में जाने वाले: 9:00 AM–12:00 PM · 6–8 में जाने वाले: 1:00 PM–4:00 PM"
     },
     {
-      "text": "Multi-session baseball camp with dynamic warm-ups, baserunning, offensive and defensive station work and age-grouped gameplay. Held at Freedom Park (Dilworth LL Ballfields) rather than on the CCHS campus; campers bring their own lunch.",
-      "of": "d0a1583b",
+      "text": "Multi-session baseball camp with dynamic warm-ups, baserunning, offensive and defensive station work and age-grouped gameplay. It is held at Freedom Park (Dilworth LL Ballfields), not on the CCHS campus. Campers bring their own lunch.",
+      "of": "f8e03b15",
       "at": [
         "charlotte-catholic:catalog.camps[1].desc"
       ],
-      "t": "कई सत्रों वाला baseball कैंप, जिसमें गतिशील warm-up, baserunning, आक्रमण तथा रक्षा के station का काम और उम्र के अनुसार समूहों में खेल शामिल हैं। यह CCHS कैंपस के बजाय Freedom Park (Dilworth LL Ballfields) में होता है; campers अपना खाना ख़ुद लाते हैं।"
+      "t": "कई सत्रों वाला baseball कैंप, जिसमें गतिशील warm-up, baserunning, आक्रमण तथा रक्षा के station का काम और उम्र के अनुसार समूहों में खेल शामिल हैं। यह CCHS कैंपस पर नहीं, Freedom Park (Dilworth LL Ballfields) में होता है। campers अपना खाना ख़ुद लाते हैं।"
     },
     {
       "text": "Ages 6–13",
@@ -6249,12 +6257,12 @@
       "t": "9:00 AM–1:00 PM (चेक-इन 8:45 AM)"
     },
     {
-      "text": "Youth football fundamentals with the CCHS football staff. The published flyer is a 2024 document that has not been refreshed, so both the price and the dates below are what the school currently publishes rather than a confirmed 2026 slate.",
-      "of": "69bb3862",
+      "text": "Youth football fundamentals with the CCHS football staff. The published flyer is a 2024 document that has not been updated. So both the price and the dates below are what the school currently publishes, not a confirmed 2026 list.",
+      "of": "cb4dc48e",
       "at": [
         "charlotte-catholic:catalog.camps[2].desc"
       ],
-      "t": "CCHS के football स्टाफ़ के साथ युवा football की बुनियादी बातें। प्रकाशित flyer 2024 का दस्तावेज़ है जिसे बदला नहीं गया, इसलिए नीचे दी गई क़ीमत और तारीख़ें, दोनों वही हैं जो स्कूल इस समय प्रकाशित करता है, न कि 2026 का कोई पुष्ट कार्यक्रम।"
+      "t": "CCHS के football स्टाफ़ के साथ युवा football की बुनियादी बातें। प्रकाशित flyer 2024 का दस्तावेज़ है जिसे बदला नहीं गया। इसलिए नीचे दी गई क़ीमत और तारीख़ें, दोनों वही हैं जो स्कूल इस समय प्रकाशित करता है, न कि 2026 की कोई पुष्ट सूची।"
     },
     {
       "text": "Rising grades 3–9",
@@ -6299,20 +6307,20 @@
       "t": "प्रकाशित नहीं"
     },
     {
-      "text": "Three of the four camps publish no price on a school page. Eddie Hull Baseball handles fees entirely through a third-party registration site, and the basketball and soccer camps publish none at all — which is why the Cost Planner card is omitted rather than modeled.",
-      "of": "57ddb105",
+      "text": "Three of the four camps publish no price on a school page. Eddie Hull Baseball handles fees entirely through a third-party registration site. The basketball and soccer camps publish none at all. So this page leaves out the cost planner instead of estimating prices.",
+      "of": "0081d377",
       "at": [
         "charlotte-catholic:catalog.flags[0].text"
       ],
-      "t": "चार में से तीन कैंप स्कूल के किसी पृष्ठ पर क़ीमत प्रकाशित नहीं करते। Eddie Hull Baseball शुल्क पूरी तरह किसी तीसरे पक्ष की पंजीकरण साइट से लेता है, और basketball तथा soccer कैंप कोई क़ीमत बताते ही नहीं — इसीलिए Cost Planner कार्ड अनुमान लगाने के बजाय छोड़ दिया गया है।"
+      "t": "चार में से तीन कैंप स्कूल के किसी पृष्ठ पर क़ीमत प्रकाशित नहीं करते। Eddie Hull Baseball शुल्क पूरी तरह किसी तीसरे पक्ष की पंजीकरण साइट से लेता है। basketball तथा soccer कैंप कोई क़ीमत बताते ही नहीं। इसलिए यह पृष्ठ क़ीमतों का अनुमान लगाने के बजाय Cost Planner छोड़ देता है।"
     },
     {
-      "text": "The Cougar Football Camp flyer is a 2024 artifact still linked from the current site; its $160 price and grade range are reproduced as published, not confirmed for 2026.",
-      "of": "34908750",
+      "text": "The Cougar Football Camp flyer is from 2024, but the current site still links to it. Its $160 price and grade range are shown as the flyer lists them, and the school has not confirmed them for 2026.",
+      "of": "14c6dfd3",
       "at": [
         "charlotte-catholic:catalog.flags[1].text"
       ],
-      "t": "Cougar Football Camp का flyer 2024 का दस्तावेज़ है, जो अब भी मौजूदा साइट से जुड़ा है; उसकी $160 क़ीमत और कक्षा-श्रेणी जैसे प्रकाशित हैं वैसे ही दी गई हैं, 2026 के लिए इनकी पुष्टि नहीं है।"
+      "t": "Cougar Football Camp का flyer 2024 का है, पर मौजूदा साइट अब भी उसका लिंक देती है। उसकी $160 क़ीमत और कक्षा-श्रेणी वैसे ही दिखाई गई हैं जैसे flyer में हैं, और स्कूल ने 2026 के लिए इनकी पुष्टि नहीं की है।"
     },
     {
       "text": "The baseball camp page lists its sessions under a 2025 heading. The dates are recorded verbatim as published rather than rolled forward, because a re-typed date would assert a schedule the school has not announced.",
@@ -8149,12 +8157,12 @@
       "t": "दो आधिकारिक पेज **$30/week वाली Lunch Care** पर असहमत हैं: समर पेज इसे केवल देखरेख बताता है जिसमें कैंपर अपना भोजन साथ लाते हैं, जबकि Camp Ready पेज कहता है कि उन्हीं नामांकित बच्चों को डाइनिंग-हॉल का भोजन दिया जाता है। किसी एक को मान लेने से पहले एक फ़ोन कॉल कर लेना उचित है।"
     },
     {
-      "text": "No **sibling or multi-week discount** is published for 2026. A 2020 brochure offered 10% for pairing a morning and an afternoon camp with Super Care; nothing like it appears in any current source, so it should not be assumed to still exist.",
-      "of": "eae3912b",
+      "text": "No **sibling or multi-week discount** is published for 2026. A 2020 brochure offered 10% for pairing a morning and an afternoon camp with Super Care. No current school page offers it, so do not count on it.",
+      "of": "b1b07c36",
       "at": [
         "charlotte-country-day:costPlanner.flags[1].text"
       ],
-      "t": "2026 के लिए कोई **भाई-बहन या कई-सप्ताह की छूट** प्रकाशित नहीं है। 2020 के एक ब्रोशर में Super Care के साथ सुबह और दोपहर का कैंप जोड़ने पर 10% की छूट थी; किसी भी मौजूदा स्रोत में इस जैसा कुछ नहीं मिलता, इसलिए यह नहीं मान लेना चाहिए कि यह अब भी उपलब्ध है।"
+      "t": "2026 के लिए कोई **भाई-बहन या कई-सप्ताह की छूट** प्रकाशित नहीं है। 2020 के एक ब्रोशर में Super Care के साथ सुबह और दोपहर का कैंप जोड़ने पर 10% की छूट थी। स्कूल का कोई मौजूदा पृष्ठ यह छूट नहीं देता, इसलिए इस पर भरोसा न करें।"
     },
     {
       "text": "The school publishes nothing about **refunds after June 5** — only that withdrawals before it are refunded in full.",
@@ -9798,12 +9806,12 @@
       "t": "**50% जमा-राशि** से सीट सुरक्षित होती है, और शेष राशि 15 मई 2026 को देय होती है — इन पाँच कार्यक्रमों में यही एकमात्र जमा-राशि व्यवस्था है। 15 मई से पहले जमा-राशि पूरी लौटा दी जाती है; **उस तिथि को या उसके बाद कोई धन-वापसी नहीं होती।** स्कूल साफ़ कहता है कि \"some popular camps fill very shortly after registration opens.\""
     },
     {
-      "text": "Two things changed between 2024 and 2026 that older camp-directory listings still get wrong: the **lunch hour itself is now a paid add-on** (it used to be free, with only the food charged), and the $25 \"registration fee\" became a **$50 membership fee**.",
-      "of": "8e5c0132",
+      "text": "Two things changed between 2024 and 2026, and older camp-directory listings still get them wrong. The **lunch hour itself is now a paid add-on**; it used to be free, with only the food charged. And the $25 \"registration fee\" became a **$50 membership fee**.",
+      "of": "d1656336",
       "at": [
         "cannon:costPlanner.flags[0].text"
       ],
-      "t": "2024 और 2026 के बीच दो चीज़ें बदलीं, जिन्हें पुरानी कैंप-डायरेक्ट्री सूचियाँ अब भी ग़लत बताती हैं: **भोजन का समय अब स्वयं एक सशुल्क अतिरिक्त सुविधा है** (पहले यह निःशुल्क था और केवल भोजन का शुल्क लगता था), और $25 का \"registration fee\" अब **$50 का सदस्यता शुल्क** बन गया है।"
+      "t": "2024 और 2026 के बीच दो चीज़ें बदलीं, और पुरानी कैंप-डायरेक्ट्री सूचियाँ इन्हें अब भी ग़लत बताती हैं। **भोजन का समय अब स्वयं एक सशुल्क अतिरिक्त सुविधा है**; पहले यह निःशुल्क था और केवल भोजन का शुल्क लगता था। और $25 का \"registration fee\" अब **$50 का सदस्यता शुल्क** बन गया है।"
     },
     {
       "text": "Cannon publishes **no sibling discount, no multi-week discount and no camp financial aid**. The only price break in the 2026 brochure is the structural one for the four-day Week 2.",
@@ -9830,12 +9838,12 @@
       "t": "पंजीकरण CampBrain portal पर चलता है, 27 फ़रवरी तक early-bird छूट के साथ। स्कूल \"29 camps\" का प्रचार करता है; सार्वजनिक पेज पर 20 गिने जा सकते हैं।"
     },
     {
-      "text": "All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**, so prices below are estimates from the third-party current range ($170–$325/week) and the school’s own 2018 catalog — the care add-on rates on the Cost Planner are the school’s own current figures.",
-      "of": "f61120ce",
+      "text": "All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**. So the prices below are estimates, from the third-party current range ($170–$325/week) and the school’s own 2018 catalog. The care add-on rates on the Cost Planner are the school’s own current figures.",
+      "of": "07ba6457",
       "at": [
         "covenant-day:catalog.intro"
       ],
-      "t": "सभी 20 सार्वजनिक रूप से नामित कैंप सूचीबद्ध हैं। **मौजूदा प्रति-कैंप कीमतें और घंटे portal-सीमित हैं**, इसलिए नीचे की कीमतें तृतीय-पक्ष की मौजूदा सीमा ($170–$325/week) और स्कूल के अपने 2018 कैटलॉग से अनुमान हैं — Cost Planner पर देखभाल add-on दरें स्कूल के अपने मौजूदा आँकड़े हैं।"
+      "t": "सभी 20 सार्वजनिक रूप से नामित कैंप सूचीबद्ध हैं। **मौजूदा प्रति-कैंप कीमतें और घंटे portal-सीमित हैं**। इसलिए नीचे की कीमतें अनुमान हैं, जो तृतीय-पक्ष की मौजूदा सीमा ($170–$325/week) और स्कूल के अपने 2018 कैटलॉग से ली गई हैं। Cost Planner पर देखभाल add-on दरें स्कूल के अपने मौजूदा आँकड़े हैं।"
     },
     {
       "text": "Day Camps",
@@ -10197,12 +10205,12 @@
       "t": "HS"
     },
     {
-      "text": "Per-camp prices and hours are **estimates**: current figures are gated behind the CampBrain registration portal, so the range shown is the third-party current figure ($170–$325/week), with hours patterned on the school’s own 2018 catalog where the same camp existed.",
-      "of": "bed818fc",
+      "text": "Per-camp prices and hours are **estimates**. Current figures are gated behind the CampBrain registration portal. So the range shown is the third-party current figure ($170–$325/week). Hours are patterned on the school’s own 2018 catalog, where the same camp existed.",
+      "of": "3a4c72f6",
       "at": [
         "covenant-day:catalog.flags[0].text"
       ],
-      "t": "प्रति-कैंप कीमतें और घंटे **अनुमान** हैं: मौजूदा आँकड़े CampBrain पंजीकरण portal के पीछे सीमित हैं, इसलिए दिखाई गई सीमा तृतीय-पक्ष का मौजूदा आँकड़ा ($170–$325/week) है, घंटे स्कूल के अपने 2018 कैटलॉग पर आधारित जहाँ वही कैंप मौजूद था।"
+      "t": "प्रति-कैंप कीमतें और घंटे **अनुमान** हैं। मौजूदा आँकड़े CampBrain पंजीकरण portal के पीछे सीमित हैं। इसलिए दिखाई गई सीमा तृतीय-पक्ष का मौजूदा आँकड़ा ($170–$325/week) है। घंटे स्कूल के अपने 2018 कैटलॉग पर आधारित हैं, जहाँ वही कैंप मौजूद था।"
     },
     {
       "text": "The school markets \"**29 camps**\"; the public page enumerates 20 (a 21st listing, \"Splash Squad,\" is a staff position). Per-week variants and portal-only camps likely account for the difference.",
@@ -11316,12 +11324,12 @@
       "t": "शैक्षणिक camps 9 a.m.–1 p.m. और खेल camps 9 a.m.–12 p.m. चलते हैं (Football शाम को), सोमवार–गुरुवार, May के अंत से July के अंत तक लगभग आठ सप्ताह-खंडों में।"
     },
     {
-      "text": "This is the **Summer 2023 catalog, recovered from the Internet Archive** — a representative slate, not the live 2026 list, because HGCS now hides camp names and prices behind the Brushfire platform. The live 2026 page confirms eight session windows consistent with the week-blocks below. **Prices are not published anywhere** (Brushfire-only), so no cost is shown. Grades are **rising** grades.",
-      "of": "bc546344",
+      "text": "This is the **Summer 2023 catalog, from saved copies of the school’s old pages**. It is a representative list, not the live 2026 list, because HGCS now hides camp names and prices behind the Brushfire platform. The live 2026 page confirms eight session windows consistent with the week-blocks below. **Prices are not published anywhere** (Brushfire-only), so no cost is shown. Grades are **rising** grades.",
+      "of": "e18209dc",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ],
-      "t": "यह **Summer 2023 की सूची है, जो Internet Archive से प्राप्त हुई** — एक प्रतिनिधि सूची, न कि 2026 की मौजूदा सूची, क्योंकि HGCS अब camp के नाम और क़ीमतें Brushfire platform के पीछे छिपाता है। 2026 का मौजूदा पेज आठ सत्र-अवधियों की पुष्टि करता है, जो नीचे दिए सप्ताह-खंडों से मेल खाती हैं। **क़ीमतें कहीं भी प्रकाशित नहीं हैं** (केवल Brushfire पर), इसलिए कोई लागत नहीं दिखाई गई है। कक्षाएँ **rising** कक्षाएँ हैं।"
+      "t": "यह **Summer 2023 की सूची है, जो स्कूल के पुराने पेजों की सहेजी गई प्रतियों से ली गई है**। यह एक प्रतिनिधि सूची है, न कि 2026 की मौजूदा सूची, क्योंकि HGCS अब camp के नाम और क़ीमतें Brushfire platform के पीछे छिपाता है। 2026 का मौजूदा पेज आठ सत्र-अवधियों की पुष्टि करता है, जो नीचे दिए सप्ताह-खंडों से मेल खाती हैं। **क़ीमतें कहीं भी प्रकाशित नहीं हैं** (केवल Brushfire पर), इसलिए कोई लागत नहीं दिखाई गई है। कक्षाएँ **rising** कक्षाएँ हैं।"
     },
     {
       "text": "Reading & Fluency",
@@ -11637,20 +11645,20 @@
       "t": "24–27 जुलाई 2023"
     },
     {
-      "text": "This is the Summer 2023 slate, recovered from Internet Archive snapshots. The live 2026 catalog is hidden behind the Brushfire registration platform, so the exact 2026 camp names were not recoverable; the live page does confirm eight session windows consistent with these week-blocks.",
-      "of": "c0a7d868",
+      "text": "This is the Summer 2023 list, from saved copies of the school’s old pages on the Internet Archive. The live 2026 catalog is hidden behind the Brushfire registration platform, so the exact 2026 camp names sit inside that platform. The live page does confirm eight session windows consistent with these week-blocks.",
+      "of": "8b8fe821",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ],
-      "t": "यह Summer 2023 की सूची है, जो Internet Archive के snapshots से प्राप्त हुई। 2026 की मौजूदा सूची Brushfire registration platform के पीछे छिपी है, इसलिए 2026 के camps के सटीक नाम प्राप्त नहीं हो सके; मौजूदा पेज आठ सत्र-अवधियों की पुष्टि ज़रूर करता है, जो इन सप्ताह-खंडों से मेल खाती हैं।"
+      "t": "यह Summer 2023 की सूची है, जो Internet Archive पर स्कूल के पुराने पेजों की सहेजी गई प्रतियों से ली गई है। 2026 की मौजूदा सूची Brushfire registration platform के पीछे छिपी है, इसलिए 2026 के camps के सटीक नाम उसी platform के भीतर हैं। मौजूदा पेज आठ सत्र-अवधियों की पुष्टि ज़रूर करता है, जो इन सप्ताह-खंडों से मेल खाती हैं।"
     },
     {
-      "text": "No per-camp price is published on any live or archived page — pricing exists only inside the Brushfire checkout — so no Cost Planner card is built and the summer-cost figures are N/A. There is also no summer wrap-around care: camps are half-day and the after-school program is closed in summer.",
-      "of": "5a13c375",
+      "text": "No per-camp price is published on any live or archived page. Pricing exists only inside the Brushfire checkout. So this page has no cost planner for these camps, and the summer-cost figures show N/A. There is also no summer wrap-around care. Camps are half-day, and the after-school program is closed in summer.",
+      "of": "0ce646d3",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ],
-      "t": "किसी भी मौजूदा या संग्रहित पेज पर प्रति-camp क़ीमत प्रकाशित नहीं है — क़ीमतें केवल Brushfire checkout के भीतर मौजूद हैं — इसलिए कोई Cost Planner कार्ड नहीं बनाया गया और गर्मियों की लागत के आँकड़े N/A हैं। गर्मियों में कोई wrap-around देखभाल भी नहीं है: camps आधे दिन के होते हैं और after-school कार्यक्रम गर्मियों में बंद रहता है।"
+      "t": "किसी भी मौजूदा या संग्रहित पेज पर प्रति-camp क़ीमत प्रकाशित नहीं है। क़ीमतें केवल Brushfire checkout के भीतर मौजूद हैं। इसलिए इस पेज पर इन camps के लिए कोई Cost Planner नहीं है, और गर्मियों की लागत के आँकड़े N/A दिखाते हैं। गर्मियों में कोई wrap-around देखभाल भी नहीं है। camps आधे दिन के होते हैं, और after-school कार्यक्रम गर्मियों में बंद रहता है।"
     },
     {
       "text": "Eight weeks from June 1 to July 31, spanning full-day Camp Spartan, half-day enrichment camps, four partner providers and Nike Sports Camps — open to non-students.",
@@ -12119,12 +12127,12 @@
       "t": "K–2 में जाने वाले"
     },
     {
-      "text": "Formations, jumps, dance, stunting and tumbling, ending in a family showcase. Registration closed at the time of this research.",
-      "of": "32e50150",
+      "text": "Formations, jumps, dance, stunting and tumbling, ending in a family showcase. The school lists registration as closed.",
+      "of": "e1de4d07",
       "at": [
         "gaston-day:catalog.camps[17].desc"
       ],
-      "t": "Formations, jumps, नृत्य, stunting और tumbling, जो परिवार के सामने एक प्रदर्शन पर ख़त्म होते हैं। इस शोध के समय पंजीकरण बंद था।"
+      "t": "Formations, jumps, नृत्य, stunting और tumbling, जो परिवार के सामने एक प्रदर्शन पर ख़त्म होते हैं। स्कूल पंजीकरण को बंद बताता है।"
     },
     {
       "text": "Rising K–4th",
@@ -12152,44 +12160,44 @@
       "t": "9:00am-12:00"
     },
     {
-      "text": "Vault, beam, bars and floor, ending in a family showcase. Registration closed at the time of this research.",
-      "of": "c74128bd",
+      "text": "Vault, beam, bars and floor, ending in a family showcase. The school lists registration as closed.",
+      "of": "8defa478",
       "at": [
         "gaston-day:catalog.camps[18].desc"
       ],
-      "t": "Vault, beam, bars और floor, जो परिवार के सामने एक प्रदर्शन पर ख़त्म होते हैं। इस शोध के समय पंजीकरण बंद था।"
+      "t": "Vault, beam, bars और floor, जो परिवार के सामने एक प्रदर्शन पर ख़त्म होते हैं। स्कूल पंजीकरण को बंद बताता है।"
     },
     {
-      "text": "A new princess each day with stories, props and crafts. Registration closed at the time of this research.",
-      "of": "543a4835",
+      "text": "A new princess each day with stories, props and crafts. The school lists registration as closed.",
+      "of": "50461740",
       "at": [
         "gaston-day:catalog.camps[19].desc"
       ],
-      "t": "हर दिन एक नई राजकुमारी, कहानियों, props और शिल्प के साथ। इस शोध के समय पंजीकरण बंद था।"
+      "t": "हर दिन एक नई राजकुमारी, कहानियों, props और शिल्प के साथ। स्कूल पंजीकरण को बंद बताता है।"
     },
     {
-      "text": "Ballet blended with skill-building gymnastics through imaginative movement and storytelling. Registration closed at the time of this research.",
-      "of": "9cbf7afe",
+      "text": "Ballet blended with skill-building gymnastics through imaginative movement and storytelling. The school lists registration as closed.",
+      "of": "df4be249",
       "at": [
         "gaston-day:catalog.camps[20].desc"
       ],
-      "t": "कल्पनाशील गति और क़िस्सागोई के ज़रिए ballet को कौशल बढ़ाने वाले gymnastics के साथ मिलाया गया। इस शोध के समय पंजीकरण बंद था।"
+      "t": "कल्पनाशील गति और क़िस्सागोई के ज़रिए ballet को कौशल बढ़ाने वाले gymnastics के साथ मिलाया गया। स्कूल पंजीकरण को बंद बताता है।"
     },
     {
-      "text": "Jazz, ballet and tumbling foundations building to an end-of-week performance. No experience necessary. Registration closed at the time of this research.",
-      "of": "2dc39dad",
+      "text": "Jazz, ballet and tumbling foundations building to an end-of-week performance. No experience necessary. The school lists registration as closed.",
+      "of": "ea424608",
       "at": [
         "gaston-day:catalog.camps[21].desc"
       ],
-      "t": "Jazz, ballet और tumbling की बुनियाद, जो सप्ताह के अंत की प्रस्तुति तक ले जाती है। किसी अनुभव की ज़रूरत नहीं। इस शोध के समय पंजीकरण बंद था।"
+      "t": "Jazz, ballet और tumbling की बुनियाद, जो सप्ताह के अंत की प्रस्तुति तक ले जाती है। किसी अनुभव की ज़रूरत नहीं। स्कूल पंजीकरण को बंद बताता है।"
     },
     {
-      "text": "Plié, tendu, pirouette, grand jeté and reverence, plus ballet stories and pointe shoes. Registration closed at the time of this research.",
-      "of": "3d0e7d51",
+      "text": "Plié, tendu, pirouette, grand jeté and reverence, plus ballet stories and pointe shoes. The school lists registration as closed.",
+      "of": "ea95c2b4",
       "at": [
         "gaston-day:catalog.camps[22].desc"
       ],
-      "t": "Plié, tendu, pirouette, grand jeté और reverence, साथ में ballet की कहानियाँ और pointe shoes। इस शोध के समय पंजीकरण बंद था।"
+      "t": "Plié, tendu, pirouette, grand jeté और reverence, साथ में ballet की कहानियाँ और pointe shoes। स्कूल पंजीकरण को बंद बताता है।"
     },
     {
       "text": "Week 8 — July 27-31",
@@ -12322,12 +12330,12 @@
       "t": "कैटलॉग कहता है \"CHECK BACK FREQUENTLY AS MORE ENRICHMENT CAMPS ARE BEING ADDED\", इसलिए संवर्धन की यह सूची अंतिम नहीं, बल्कि बढ़ता हुआ एक स्नैपशॉट है। FULL/प्रतीक्षा-सूची और रद्द की स्थितियाँ जैसी प्रकाशित थीं वैसी ही रखी गई हैं और अब तक बदल चुकी होंगी।"
     },
     {
-      "text": "Partner-camp prices (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 and Nike) are set and billed by each provider, not by Gaston Day, and are not published in the school’s catalog — they show as \"—\" rather than being estimated.",
-      "of": "c5567d01",
+      "text": "Partner-camp prices (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 and Nike) are set and billed by each provider, not by Gaston Day. They are not published in the school’s catalog, so they show as \"—\" rather than being estimated.",
+      "of": "242ef4b0",
       "at": [
         "gaston-day:catalog.flags[1].text"
       ],
-      "t": "साझेदार कैंप की क़ीमतें (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 और Nike) हर प्रदाता ख़ुद तय करता है और उन्हीं का बिल बनता है, Gaston Day का नहीं, और वे स्कूल के कैटलॉग में प्रकाशित नहीं हैं — इसलिए उनका अनुमान लगाने के बजाय \"—\" दिखाया गया है।"
+      "t": "साझेदार कैंप की क़ीमतें (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 और Nike) हर प्रदाता ख़ुद तय करता है और उन्हीं का बिल बनता है, Gaston Day का नहीं। वे स्कूल के कैटलॉग में प्रकाशित नहीं हैं, इसलिए उनका अनुमान लगाने के बजाय \"—\" दिखाया गया है।"
     },
     {
       "text": "There is no camp in week 4 (the week of June 22) for Camp Spartan, and no camp at all the week of June 29 or on June 19 — the catalog’s week numbering skips accordingly, so \"8 weeks\" spans June 1 to July 31 rather than eight consecutive weeks.",
@@ -12524,12 +12532,12 @@
       "t": "गर्मियों की ट्यूशन — पूरा घंटा"
     },
     {
-      "text": "Lunch Care is REQUIRED for campers staying on campus between a morning and an afternoon camp, and includes lunch from Sparty’s Dining Service. It is already included in full-day Camp Spartan and Camp Spartan Jr tuition, so add it only when combining two half-day camps.",
-      "of": "ec6bcc6e",
+      "text": "Lunch Care is REQUIRED for campers staying on campus between a morning and an afternoon camp. It includes lunch from Sparty’s Dining Service. Lunch Care is already included in full-day Camp Spartan and Camp Spartan Jr tuition. So add it only when combining two half-day camps.",
+      "of": "8f8ff386",
       "at": [
         "gaston-day:costPlanner.fees[2].label"
       ],
-      "t": "जो कैंपर सुबह और दोपहर के कैंप के बीच कैंपस पर रुकते हैं, उनके लिए Lunch Care अनिवार्य है, और उसमें Sparty’s Dining Service का भोजन शामिल है। यह पहले से ही पूरे दिन के Camp Spartan और Camp Spartan Jr की फ़ीस में शामिल है, इसलिए इसे केवल तब जोड़ें जब आधे-आधे दिन के दो कैंप मिला रहे हों।"
+      "t": "जो कैंपर सुबह और दोपहर के कैंप के बीच कैंपस पर रुकते हैं, उनके लिए Lunch Care अनिवार्य है। उसमें Sparty’s Dining Service का भोजन शामिल है। Lunch Care पहले से ही पूरे दिन के Camp Spartan और Camp Spartan Jr की फ़ीस में शामिल है। इसलिए इसे केवल तब जोड़ें जब आधे-आधे दिन के दो कैंप मिला रहे हों।"
     },
     {
       "text": "Full tuition is payable at the time of enrollment through the Popsicle app. Refunds: 50% if canceled three or more weeks before the camp starts; nothing after that, and nothing for arriving late or leaving early. If Gaston Day cancels a camp for insufficient enrollment it gives at least two weeks’ notice and refunds in full.",
@@ -12580,12 +12588,12 @@
       "t": "गर्मियों के कैंप के लिए न कोई भाई-बहन छूट, न कई सप्ताहों की छूट, न वित्तीय सहायता और न कोई early-bird दर प्रकाशित है, और न ही कोई प्रकाशित पंजीकरण शुल्क है।"
     },
     {
-      "text": "75 named camps across six weeks for rising K–8, from a $225 half-day craft camp to a $785 three-week academic session — and open to any child in the community, not only Trinity families.",
-      "of": "250f3cb9",
+      "text": "75 named camps across six weeks for rising K–8, from a $225 half-day craft camp to a $785 three-week academic session. Camps are open to any child in the community, not only Trinity families.",
+      "of": "c491adf0",
       "at": [
         "trinity-episcopal:catalog.headline"
       ],
-      "t": "कक्षा K–8 में जाने वाले बच्चों के लिए छह सप्ताह में 75 नामित camp, $225 वाले आधे दिन के craft camp से लेकर $785 वाले तीन-सप्ताह के शैक्षणिक सत्र तक — और ये समुदाय के किसी भी बच्चे के लिए खुले हैं, केवल Trinity के परिवारों के लिए नहीं।"
+      "t": "कक्षा K–8 में जाने वाले बच्चों के लिए छह सप्ताह में 75 नामित camp, $225 वाले आधे दिन के craft camp से लेकर $785 वाले तीन-सप्ताह के शैक्षणिक सत्र तक। ये camp समुदाय के किसी भी बच्चे के लिए खुले हैं, केवल Trinity के परिवारों के लिए नहीं।"
     },
     {
       "text": "Camps run 15 June to 24 July 2026 on the uptown campus. Half days are 9 a.m.–12 p.m. or 1–4 p.m., full days 9 a.m.–4 p.m., and two of the six weeks are four-day weeks.",
@@ -13476,12 +13484,12 @@
       "t": "**4ORMORE हर camp पर $25 की छूट देता है**, जब **पूरे दिन के चार या उससे अधिक सप्ताह** लिए जाएँ (8 आधे दिन इसके बराबर गिने जाते हैं)। ⚠️ **यह प्रति बच्चा है, प्रति परिवार नहीं** — दो बच्चे दो-दो सप्ताह लेकर इसके पात्र नहीं होते।"
     },
     {
-      "text": "**Financial aid excludes CAMMP, TES Academy and Black Rocket camps** — most of the coding slate and the whole academic strand. Aid is first-come, first-served; non-Trinity families submit two most recent tax statements.",
-      "of": "7ca82e6f",
+      "text": "**Financial aid excludes CAMMP, TES Academy and Black Rocket camps**. Those are most of the coding list and the whole academic strand. Aid is first-come, first-served. Non-Trinity families submit their two most recent tax statements.",
+      "of": "66f1310e",
       "at": [
         "trinity-episcopal:costPlanner.fees[4].label"
       ],
-      "t": "**आर्थिक सहायता CAMMP, TES Academy और Black Rocket के camp पर लागू नहीं होती** — यानी coding की ज़्यादातर सूची और पूरी शैक्षणिक धारा। सहायता पहले आओ-पहले पाओ के आधार पर है; Trinity से बाहर के परिवार अपने दो सबसे हालिया कर विवरण देते हैं।"
+      "t": "**आर्थिक सहायता CAMMP, TES Academy और Black Rocket के camp पर लागू नहीं होती**। यही coding की ज़्यादातर सूची और पूरी शैक्षणिक धारा हैं। सहायता पहले आओ-पहले पाओ के आधार पर है। Trinity से बाहर के परिवार अपने दो सबसे हालिया कर विवरण देते हैं।"
     },
     {
       "text": "**Lunch is bring-your-own** — no FLIK option, unlike the school year. A camper stacking two half-days **stays on campus for lunch and recess** before the 1:00 session. The camp \"strives to be nut-free\"; snacks required, one per half day.",
@@ -13508,12 +13516,12 @@
       "t": "पंजीकरण 1 मई को अंतिम हो जाते हैं।"
     },
     {
-      "text": "The balance is due and withdrawn from the account on file that day; registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session, and a **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a canceled registration's deposit and fee can be transferred to another camp.",
-      "of": "e461327c",
+      "text": "The balance is due and withdrawn from the account on file that day. Registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session. A **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a canceled registration's deposit and fee can be transferred to another camp.",
+      "of": "6e758fac",
       "at": [
         "trinity-episcopal:costPlanner.aside.text"
       ],
-      "t": "बाक़ी राशि उसी दिन देय हो जाती है और दर्ज खाते से काट ली जाती है; 1 मई को या उसके बाद पंजीकरण कराने का मतलब है पूरी राशि देना। **TES Academy के सभी camp के लिए पंजीकरण के समय पूरी राशि देनी होती है।** ऑनलाइन पंजीकरण हर सत्र से एक सप्ताह पहले बंद हो जाता है, और देर से पंजीकरण या camp बदलने पर **$25 का प्रशासनिक शुल्क** लग सकता है। 1 मई के बाद आमतौर पर पैसे वापस नहीं किए जाते, हालाँकि रद्द किए गए पंजीकरण की जमा राशि और शुल्क किसी दूसरे camp में स्थानांतरित किए जा सकते हैं।"
+      "t": "बाक़ी राशि उसी दिन देय हो जाती है और दर्ज खाते से काट ली जाती है। 1 मई को या उसके बाद पंजीकरण कराने का मतलब है पूरी राशि देना। **TES Academy के सभी camp के लिए पंजीकरण के समय पूरी राशि देनी होती है।** ऑनलाइन पंजीकरण हर सत्र से एक सप्ताह पहले बंद हो जाता है। देर से पंजीकरण या camp बदलने पर **$25 का प्रशासनिक शुल्क** लग सकता है। 1 मई के बाद आमतौर पर पैसे वापस नहीं किए जाते, हालाँकि रद्द किए गए पंजीकरण की जमा राशि और शुल्क किसी दूसरे camp में स्थानांतरित किए जा सकते हैं।"
     },
     {
       "text": "Summer 2026 ran seven weeks, June 8 to July 31, for campers from the Early School through 8th grade — a traditional day camp plus a specialty or sports camp almost every week.",
@@ -13671,12 +13679,12 @@
       "t": "9:00–4:00"
     },
     {
-      "text": "An add-on for Traditional campers, taught by Charlotte Prep teachers in \"small groups of 6 or less\": literacy, math and social-skills sessions for rising MK–2 (Mon–Wed), reading and writing, math and critical-thinking sessions for rising 3–5 (Thu–Fri).",
-      "of": "53362b15",
+      "text": "An add-on for Traditional campers, taught by Charlotte Prep teachers in \"small groups of 6 or less\". Rising MK–2 (Mon–Wed): literacy, math and social-skills sessions. Rising 3–5 (Thu–Fri): reading and writing, math and critical-thinking sessions.",
+      "of": "a4b3ec1f",
       "at": [
         "charlotte-prep:catalog.camps[3].desc"
       ],
-      "t": "Traditional कैंपर्स के लिए एक अतिरिक्त विकल्प, जिसे Charlotte Prep के शिक्षक \"small groups of 6 or less\" में पढ़ाते हैं: MK–2 में जाने वालों के लिए साक्षरता, गणित और सामाजिक कौशल के सत्र (सोम–बुध), 3–5 में जाने वालों के लिए पढ़ना-लिखना, गणित और आलोचनात्मक सोच के सत्र (गुरु–शुक्र)।"
+      "t": "Traditional कैंपर्स के लिए एक अतिरिक्त विकल्प, जिसे Charlotte Prep के शिक्षक \"small groups of 6 or less\" में पढ़ाते हैं। MK–2 में जाने वाले (सोम–बुध): साक्षरता, गणित और सामाजिक कौशल के सत्र। 3–5 में जाने वाले (गुरु–शुक्र): पढ़ना-लिखना, गणित और आलोचनात्मक सोच के सत्र।"
     },
     {
       "text": "Rising MK–5",
@@ -14142,12 +14150,12 @@
       "t": "**Midsummer Tune-Up ट्यूशन $60 प्रति सत्र प्रति सप्ताह है, या तीनों के लिए $150** — टॉगल एक सत्र की कीमत दिखाता है।"
     },
     {
-      "text": "**Early bird: \"$25 savings per week now through January 15, 2026.\"** The registration form showed several prices $25 below the brochure, consistent with that saving, but two of its cells were higher than the brochure, so the brochure is used here as the regular price list.",
-      "of": "f73fc16c",
+      "text": "**Early bird: \"$25 savings per week now through January 15, 2026.\"** The prices shown are the brochure’s regular prices.",
+      "of": "8f5a234a",
       "at": [
         "charlotte-prep:costPlanner.fees[2].label"
       ],
-      "t": "**Early bird: \"$25 savings per week now through January 15, 2026.\"** पंजीकरण फ़ॉर्म में कई कीमतें ब्रोशर से $25 कम थीं, जो उस बचत से मेल खाता है, लेकिन उसके दो खाने ब्रोशर से ज़्यादा थे, इसलिए यहाँ ब्रोशर को ही नियमित कीमत-सूची माना गया है।"
+      "t": "**Early bird: \"$25 savings per week now through January 15, 2026.\"** दिखाई गई कीमतें ब्रोशर की नियमित कीमतें हैं।"
     },
     {
       "text": "**Refunds:** \"Refunds are available up to two weeks before camp starts. A refund fee of $150 will apply per camper.\"",
@@ -14180,6 +14188,14 @@
         "charlotte-prep:costPlanner.aside.text"
       ],
       "t": "गर्मी 2026 का पंजीकरण स्कूल के अपने वेब फ़ॉर्म पर हुआ, कार्ड से भुगतान के साथ, और शुक्रवार, 29 मई 2026 को बंद हुआ। स्कूल-वर्ष के Extended-Day Program वाले बच्चों का नामांकन अपने-आप नहीं हुआ — उन्हें भी बाक़ी सबकी तरह कैंप के लिए पंजीकृत करना पड़ा। गर्मी 2027 का कोई कार्यक्रम अभी पोस्ट नहीं हुआ है।"
+    },
+    {
+      "text": "The registration form showed several prices $25 below the brochure, consistent with that saving, but two of its cells were higher than the brochure, so the brochure is used here as the regular price list.",
+      "of": "42349848",
+      "at": [
+        "charlotte-prep:costPlanner.flags[0].text"
+      ],
+      "t": "पंजीकरण फ़ॉर्म में कई कीमतें ब्रोशर से $25 कम थीं, जो उस बचत से मेल खाता है, लेकिन उसके दो खाने ब्रोशर से ज़्यादा थे, इसलिए यहाँ ब्रोशर को ही नियमित कीमत-सूची माना गया है।"
     }
   ]
 }
