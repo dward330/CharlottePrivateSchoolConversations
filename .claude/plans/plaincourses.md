@@ -1,12 +1,12 @@
 ---
 name: plaincourses
 title: Plain-language rewrite of the Course Offerings area's English prose in src/data/courseOfferings.ts (106 worklist units across 11 schools, 98 hook-flagged + 8 at grade 10–12, ~2,990 before-words; Charlotte Catholic alone 53) plus 27 extra units, with every course title, tag, department, grade band, prerequisite, credit and AP/Honors/Advanced level unchanged, "rigorous" replaced by what makes the course hard, one sentence per description, and Charlotte Catholic's 17 descriptions attached to the wrong course, 2 duplicate descriptions and 4 truncated titles fixed from the school's own 2026–27 guide in their own commit; the filter's hardcoded English no-match message moved into two context-aware chrome keys; new `--courses-markers` guard set in plain_review.mjs; English in four reviewed batches, then all nine prose locales
-status: english-done
+status: implemented
 phases: 2
 batches: 4                     # Phase 1 is built in four batches, each with its own review stop
 created: 2026-11-11
 branch: feat/plaincourses
-prs: []
+prs: [485]
 ---
 
 # Plain-language rewrite of the Course Offerings area
