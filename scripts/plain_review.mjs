@@ -63,6 +63,12 @@
  *                     the arts classes, THIRDPARTY, ESTIMATE, BOUND and NOTACLUB,
  *                     ELECTED, APPLICATION, RESULT, ADVANCED, ONLY, FIRST (and minimums
  *                     counted as BOUND); enables guard (n)
+ *   --sports-markers  add the Sports marker classes to guard (h) (plan plainsports): COMMIT,
+ *                     SIGNED, VERBAL, OFFER, WALKON, SCHOLARSHIP, TRANSFER, TITLE, RUNNERUP,
+ *                     FINAL, SEMIFINAL, LOSS, RANKED, PRO, HEDGE, plus ESTIMATE / BOUND (with
+ *                     floors, minimums, "not a census" and "understated" counted as BOUND) and
+ *                     the borrowed THIRDPARTY, DERIVED, WIN, CLAIM, VERIFIED, NOTFOUND, ONLY,
+ *                     FIRST, STALE, ENROLLED, EXCLUDED, FREE; enables guards (n) and (p)
  *
  * GUARDS (fail --check), compared per school across base and working tree:
  *   (a) the set of prose paths differs            — a structural change
@@ -84,7 +90,8 @@
  *       NOTFOUND, THEATRE, THEATER, plus ESTIMATE and BOUND (plan plainarts);
  *       with --clubs-markers the arts classes, THIRDPARTY, ESTIMATE, BOUND and the
  *       clubs classes NOTACLUB, ELECTED, APPLICATION, RESULT, ADVANCED, ONLY, FIRST,
- *       with a published minimum counted as BOUND (plan plainclubs).
+ *       with a published minimum counted as BOUND (plan plainclubs);
+ *       with --sports-markers the Sports classes (plan plainsports).
  *       Synonyms within a class are free; a count change inside a class is a note.
  *   (j) units that held the SAME text at base (within one file) now differ
  *   (k) with --allow: a changed leaf (prose or not) is on none of the worklists
@@ -93,10 +100,15 @@
  *   (m) the multiset of money, percent and year tokens differs, char-for-char
  *       (`$3.25M` → `$3.25 million`, `~4.5%` → `4.5%`, `2026-27` → `2026–27`
  *       all pass (b) and fail here). See MONEY_RE / PCT_RE / YEARTOK_RE.
- *   (n) with --arts-, --clubs- or --small-markers: the multiset of count words ("five", "twice",
+ *   (n) with --arts-, --clubs-, --small- or --sports-markers: the multiset of count words ("five", "twice",
  *       "eighth") and "N+" figures (`3,500+`) differs. See COUNTWORD_RE / PLUS_RE.
  *   (o) with --no-md: a changed unit's after-text holds a `*` (it would ship a literal
  *       asterisk). Pair it with `--md-paths '^$'` so (l) fails any `**` change too.
+ *   (p) with --sports-markers: a name was added or removed. Per changed unit, every
+ *       capitalized token (NAME_RE, trailing `.` / `’s` stripped, NAME_STOP left out) of
+ *       the before-text must appear in the after-text, in its own case or lowercase, and
+ *       the reverse. Recasing a word at a sentence start passes; dropping or adding a
+ *       person, college or source fails (plan plainsports: "never add or remove a name").
  * Reported in the row's notes, never failing: capitalized words of the
  * before-text missing from the after-text (proper-noun drift), a change in the
  * number of `**` (inside --md-paths, or when --md-paths is absent), a change in
@@ -247,11 +259,32 @@ const MARKERS = {
   // schools" (Clubs and Arts calibration). Only "went to … schools" is an enrollment claim.
   ENROLLED: /\benroll(?:ed|s|ing|ment|ments)?\b|\bmatriculat\w+|\bwent (?:on )?to (?:boarding|high|day|independent|public|private|other high) schools?\b/gi,
   SPONSORED: /\bschool-(?:sponsored|run|led)\b|\bfaculty-led\b|\bsponsored by\b|\btravel partner\b/gi,
+  // Sports classes (plan plainsports, --sports-markers): recruiting status (offer ≠
+  // commitment ≠ signing; verbal; walk-on vs scholarship; transfers), result tiers (title
+  // vs runner-up vs final vs semifinal vs loss), rankings, pros, and hedged attributions.
+  COMMIT: /\bcommit(?:s|ted|ment|ments)?\b/gi,
+  SIGNED: /\bsign(?:s|ed|ing|ee|ees)?\b/gi,
+  VERBAL: /\bverbal(?:ly)?\b/gi,
+  OFFER: /\boffers?\b|\boffered\b/gi,
+  WALKON: /\bwalk-?ons?\b/gi,
+  SCHOLARSHIP: /\bscholarships?\b/gi,
+  TRANSFER: /\btransfer\w*|\bhave since moved\b|\bmoved (?:from|to)\b/gi,
+  TITLE: /\bchampion(?:s|ship|ships)?\b|\btitles?\b|\bthree-peat\w*/gi,
+  RUNNERUP: /\brunner-?ups?\b/gi,
+  FINAL: /\bfinals?\b(?! (?:season|year)\b)/gi,
+  SEMIFINAL: /\bsemi-?finals?\b/gi,
+  LOSS: /\blos(?:e|es|ing|t|s|ses)\b|\bfell\b|\bfalling\b|\bdefeated by\b|\bshut \w+ out\b/gi,
+  RANKED: /\branked\b|\brank(?:s|ing|ings)?\b|\btop-?\d+\b|\bseed(?:s|ed)?\b/gi,
+  PRO: /\bprofessional(?:ly)?\b|\bpros?\b|\bdraft\w*|\bprospects?\b/gi,
+  HEDGE: /\bappear(?:s|ed)?\b|\bdescribed (?:as|in)\b|\bconsistent with\b|\bby (?:his|her|their|its) count\b|\boften linked\b|\bindicative\b|\breported(?:ly)?\b/gi,
 }
 /** --clubs-markers counts a published minimum as BOUND ("a minimum two weeks" → "at least
  *  two weeks" is one claim; College Support calibration). "floor" only after an hour figure
  *  ("the 25-hour floor"): a stage "floor" is not a bound (Arts calibration). */
 const CLUBS_BOUND_EXTRA = /\bminimums?\b|\bno less than\b|\b\d+-\w+ floor\b/gi
+/** --sports-markers counts a floor as BOUND: "Treat every figure on this card as a floor",
+ *  "documented minimums", "not a census", "may still be understated" (plan plainsports). */
+const SPORTS_BOUND_EXTRA = /\bfloors?\b|\bminimums?\b|\bnot a census\b|\bunderstated\b/gi
 /** The financial-aid classes run only with --aid-markers (plan plainaid): in other areas
  *  "covers", "leaves out", "average" and "worked out" describe tables and methods, not
  *  costs, so they would fail approved rewrites there (College Support calibration:
@@ -268,13 +301,18 @@ const CLUBS_CLASSES = new Set(['NOTACLUB', 'ELECTED', 'APPLICATION', 'RESULT', '
  *  borrows SMALL_BORROWS from the aid, arts and clubs sets (and the shared ESTIMATE / BOUND). */
 const SMALL_CLASSES = new Set(['STALE', 'GATED', 'CAPACITY', 'EXTRA', 'INCLUDED', 'EXCLUDED', 'FREE', 'REFERRAL', 'DOCUMENTATION', 'ACCOMMODATION', 'MODIFICATION', 'SCOPE', 'ACCEPTED', 'ENROLLED', 'SPONSORED'])
 const SMALL_BORROWS = new Set(['THIRDPARTY', 'DERIVED', 'DISCOUNT', 'AVERAGE', 'TYPICAL', 'CLAIM', 'VERIFIED', 'NOTFOUND', 'ONLY', 'FIRST', 'APPLICATION'])
+/** The Sports classes run only with --sports-markers (plan plainsports), which also borrows
+ *  SPORTS_BORROWS from the aid, arts, clubs and small sets (and the shared ESTIMATE / BOUND). */
+const SPORTS_CLASSES = new Set(['COMMIT', 'SIGNED', 'VERBAL', 'OFFER', 'WALKON', 'SCHOLARSHIP', 'TRANSFER', 'TITLE', 'RUNNERUP', 'FINAL', 'SEMIFINAL', 'LOSS', 'RANKED', 'PRO', 'HEDGE'])
+const SPORTS_BORROWS = new Set(['THIRDPARTY', 'DERIVED', 'WIN', 'CLAIM', 'VERIFIED', 'NOTFOUND', 'ONLY', 'FIRST', 'STALE', 'ENROLLED', 'EXCLUDED', 'FREE'])
 const classOn = (k) => {
-  const borrowed = smallMarkers && SMALL_BORROWS.has(k)
-  if (SHARED_CLASSES.has(k)) return aidMarkers || artsMarkers || clubsMarkers || smallMarkers
+  const borrowed = (smallMarkers && SMALL_BORROWS.has(k)) || (sportsMarkers && SPORTS_BORROWS.has(k))
+  if (SHARED_CLASSES.has(k)) return aidMarkers || artsMarkers || clubsMarkers || smallMarkers || sportsMarkers
   if (AID_CLASSES.has(k)) return aidMarkers || (clubsMarkers && k === 'THIRDPARTY') || borrowed
   if (ARTS_CLASSES.has(k)) return artsMarkers || clubsMarkers || borrowed
   if (CLUBS_CLASSES.has(k)) return clubsMarkers || borrowed
-  if (SMALL_CLASSES.has(k)) return smallMarkers
+  if (SMALL_CLASSES.has(k)) return smallMarkers || borrowed
+  if (SPORTS_CLASSES.has(k)) return sportsMarkers
   return true
 }
 const markerCounts = (s) => {
@@ -285,6 +323,7 @@ const markerCounts = (s) => {
     const src = k === 'REQUIRED' ? t.replace(MARKERS.OPTIONAL, ' ') : k === 'COVERED' ? t.replace(MARKERS.NOTCOVERED, ' ') : k === 'AUDITION' ? t.replace(MARKERS.OPEN, ' ') : t
     out[k] = (src.match(re) ?? []).length
     if (k === 'BOUND' && clubsMarkers) out[k] += (t.match(CLUBS_BOUND_EXTRA) ?? []).length
+    if (k === 'BOUND' && sportsMarkers) out[k] += (t.match(SPORTS_BOUND_EXTRA) ?? []).length
   }
   return out
 }
@@ -295,6 +334,24 @@ const markerCounts = (s) => {
 const COUNTWORD_RE = /\b(?:two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred|dozen|twice|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth)\b(?![- ]part)/gi
 const PLUS_RE = /\d+(?:,\d{3})*\+(?!\d)/g
 const countTokens = (s) => [...(s.match(COUNTWORD_RE) ?? []).map((w) => w.toLowerCase()), ...(s.match(PLUS_RE) ?? [])]
+/* Guard (p), --sports-markers: names added or removed (plan plainsports). The stoplist is
+ * the words that start sentences, so a split or a reordered sentence does not read as a
+ * name gone or new. A token passes if the other side holds it in its own case or lowercase. */
+const NAME_RE = /\b[A-Z][\w’'.&-]*/g
+const NAME_STOP = new Set(('The A An It Its He His She Her They Their This That These Those There Then First Also And But So ' +
+  'Both Each Every No Not Only Most Many Some All In On At As By For From Of To With While When Where After Before ' +
+  'Since Earlier Today Here What Which Who One Two Three Four Five Six Seven Eight Nine Ten Treat Ask Note Selected ' +
+  'Recent Among Even Because If Until Unlike Like Neither Including Plus').split(' '))
+const nameTokens = (s) => {
+  const out = new Set()
+  for (const m of s.matchAll(NAME_RE)) {
+    const t = m[0].replace(/[’']s$/, '').replace(/[.’'&-]+$/, '')
+    if (t && !NAME_STOP.has(t)) out.add(t)
+  }
+  return out
+}
+const escRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+const holdsWord = (text, w) => [w, w.toLowerCase()].some((v) => new RegExp(`(?<![A-Za-z0-9])${escRe(v)}(?![A-Za-z0-9])`).test(text))
 const dateTokens = (s) => (s.replace(/\*\*/g, '').match(DATE_RE) ?? []).map((m) => m.replace(/\s+/g, ' ').trim())
 
 /* -------------------------------------------------------------- args -- */
@@ -343,6 +400,7 @@ const skipFlagKinds = new Set([
 ])
 const clubsMarkers = argv.includes('--clubs-markers')
 const smallMarkers = argv.includes('--small-markers')
+const sportsMarkers = argv.includes('--sports-markers')
 const outFile = opt('--out', null)
 const worklistFile = opt('--worklist', null)
 const matchRe = opt('--match', null) ? new RegExp(opt('--match')) : null
@@ -358,7 +416,7 @@ const allSlugs = accessor ? accessor.slugs : readdirSync(join(ROOT, dir)).filter
 const slugs = opt('--slugs', null) ? opt('--slugs').split(',').map((s) => s.trim()).filter(Boolean) : allSlugs
 for (const s of slugs) if (!allSlugs.includes(s)) { console.error(accessor ? `plain_review: ${topic} has no entry for ${s}` : `plain_review: no ${dir}/${s}.ts`); process.exit(2) }
 if (!outFile && !worklistFile && !flag('--check')) {
-  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d [--layers] | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re] [--aid-markers] [--arts-markers] [--clubs-markers] [--small-markers] [--no-md] [--skip-flag-kinds a,b]')
+  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d [--layers] | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re] [--aid-markers] [--arts-markers] [--clubs-markers] [--small-markers] [--sports-markers] [--no-md] [--skip-flag-kinds a,b]')
   process.exit(2)
 }
 const cfg = loadConfig()
@@ -520,11 +578,15 @@ async function main() {
         if (dd) failures.push(`(g) ${at}: date/time tokens differ ${dd}`)
         const dm = diffList(moneyTokens(b), moneyTokens(a))
         if (dm) failures.push(`(m) ${at}: money/percent/year tokens differ ${dm}`)
-        if (artsMarkers || clubsMarkers || smallMarkers) {
+        if (artsMarkers || clubsMarkers || smallMarkers || sportsMarkers) {
           const dn = diffList(countTokens(b), countTokens(a))
           if (dn) failures.push(`(n) ${at}: count words differ ${dn}`)
         }
         if (noMd && a.includes('*')) failures.push(`(o) ${at}: "*" in a field that renders no markdown`)
+        if (sportsMarkers) {
+          for (const w of nameTokens(b)) if (!holdsWord(a, w)) failures.push(`(p) ${at}: name gone "${w}"`)
+          for (const w of nameTokens(a)) if (!holdsWord(b, w)) failures.push(`(p) ${at}: name new "${w}"`)
+        }
         const mb = markerCounts(b), ma = markerCounts(a)
         const markerNotes = []
         for (const k of Object.keys(mb)) {
