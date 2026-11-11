@@ -101,7 +101,7 @@ export const charlotteCatholic: SportsProgram = {
       },
     ],
     footnote:
-      'The 20 sports and their names are exactly as the school lists them on its All Sports page — it publishes no gender split for Soccer, Golf, Tennis, Basketball or Lacrosse even though it fields both boys’ and girls’ teams in each, and it groups nothing by season. The season grouping above follows the standard NCHSAA calendar; the school itself publishes the list flat. Level splits are indicative for the same reason: the individual sport pages are navigation boilerplate carrying no rosters or schedules. CCHS has no middle school — it is a 9–12 school — so no team carries an MS level.',
+      'The 20 sports and their names are exactly as the school lists them on its All Sports page. The school publishes no gender split for Soccer, Golf, Tennis, Basketball or Lacrosse, even though it fields both boys’ and girls’ teams in each. It also groups nothing by season. The season grouping above follows the standard NCHSAA calendar, because the school publishes one flat list. Level splits are indicative for the same reason: the individual sport pages carry menu links but no rosters or schedules. CCHS is a 9–12 school with no middle school, so no team carries an MS level.',
     sources: [
       { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
       { label: 'NCHSAA all-time state cup winners', url: 'https://www.nchsaa.org/all-time-list-of-wells-fargo-state-cup-winners/' },
@@ -191,7 +191,7 @@ export const charlotteCatholic: SportsProgram = {
       },
     ],
     didNotWin:
-      'The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season title ledger, so a blank cell means "no title found for that year", not a verified loss — the 79-title total since 2000 is the school’s own figure and spans far more sports than these four.',
+      'The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season list of titles, so a blank cell means "no title found for that year", not a verified loss. The 79-title total since 2000 is the school’s own figure and spans far more sports than these four.',
     bars: [
       { program: 'Boys lacrosse (2026)', record: '21–3', pct: 0.875, tag: 'STATE' },
       { program: 'Baseball (2025)', record: '22–6–1', pct: 0.776 },
@@ -230,7 +230,7 @@ export const charlotteCatholic: SportsProgram = {
       { label: 'Power Four', hint: 'ACC · Big Ten · Big 12 · SEC', count: '15', width: 0.13, shade: 'full' },
     ],
     funnelNote:
-      'The 1000+ figure is the school’s own all-time count and is not restricted to these three classes, so it sits on a different time base from the rows beneath it. The three classes below are a documented minimum: CCHS holds separate fall, winter and spring signing days and publishes no consolidated list, so athletes appear here once a signing article, a newspaper signing list or the college’s own roster names them.',
+      'The 1000+ figure is the school’s own all-time count. It is not limited to these three classes, so it counts a different span of years from the rows beneath it. The three classes below are a documented minimum. CCHS holds separate fall, winter and spring signing days and publishes no combined list. So athletes appear here once a signing article, a newspaper signing list or the college’s own roster names them.',
     sportBars: [
       { sport: 'Baseball', count: 13, width: 1.0 },
       { sport: 'Football', count: 11, width: 0.85 },
@@ -245,9 +245,9 @@ export const charlotteCatholic: SportsProgram = {
       { sport: 'Field hockey', count: 1, width: 0.08 },
     ],
     realityCheck:
-      'Baseball is now the deepest pipeline here — 13 of 54 documented athletes, including Power Four signees at Duke, North Carolina, Virginia Tech, Arizona and NC State in three classes. Football and lacrosse follow with 11 each, and both lacrosse programs won state titles in 2026.',
+      'Baseball is now the school’s deepest pipeline, with 13 of 54 documented athletes. They include Power Four signees at Duke, North Carolina, Virginia Tech, Arizona and NC State across three classes. Football and lacrosse follow with 11 each, and both lacrosse programs won state titles in 2026.',
     rankedRecruits:
-      'Three football signees carry 247Sports Composite ranks — Jack Larsen (Notre Dame) was No. 15 in North Carolina in the Class of 2024 — and no CCHS athlete in these classes was a national top-100 recruit.',
+      'Three football signees carry 247Sports Composite ranks. Among them, Jack Larsen (Notre Dame) was No. 15 in North Carolina in the Class of 2024. No CCHS athlete in these classes was a national top-100 recruit.',
     roster: [
       { cls: "'26", name: 'Alex Hoffman', sport: 'Baseball', college: 'Virginia Tech', conf: 'ACC', level: 'P4' },
       { cls: "'26", name: 'Quinn O’Rourke', sport: 'Baseball', college: 'University of Arizona', conf: 'Big 12', level: 'P4' },
@@ -315,7 +315,7 @@ export const charlotteCatholic: SportsProgram = {
       { cls: "'27", name: 'Emmett Drensek', sport: 'Soccer', college: 'Bucknell University', conf: 'Patriot', level: 'D1' },
     ],
     rosterNote:
-      'Cannon Ridinger graduated from CCHS after earlier attending Charlotte Country Day (also in this app) and Hotchkiss; he is attributed here by graduating school and must not be double-counted. Evan MacIntyre is counted P4 at commitment time and has since transferred to Belmont Abbey via JUCO. Three athletes named on signing lists or by recruiting sites — Mary Catherine Farley (Wofford), Audrey Pardue (Georgetown) and Conor Clendenin (Ithaca) — have not appeared on those colleges’ rosters and are excluded from every count. The Class of 2027 rows are public verbal commitments, listed because they are already announced and not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
+      'Cannon Ridinger graduated from CCHS after earlier attending Charlotte Country Day (also on this site) and Hotchkiss. He is counted once, under CCHS, the school he graduated from. Evan MacIntyre is counted as P4, based on his commitment. He has since transferred to Belmont Abbey through a junior college (JUCO). Three athletes were named on signing lists or by recruiting sites: Mary Catherine Farley (Wofford), Audrey Pardue (Georgetown) and Conor Clendenin (Ithaca). They have not appeared on those colleges’ rosters and are excluded from every count. The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
     sources: [
       { label: 'catholicnewsherald.com — 15 CCHS student-athletes commit (Nov 2023, Class of 2024)', url: SIGN24 },
       { label: 'Charlotte Observer — National Signing Day roundup (Nov 2024, Class of 2025)', url: SIGN25 },
@@ -406,7 +406,7 @@ export const charlotteCatholic: SportsProgram = {
       { name: 'Mike Hazel, NSCA CSCS', role: 'Strength & Conditioning Coach', width: 0.6, since: 'not published', toVerify: true },
     ],
     worthKnowing:
-      'The disclosure gap here is unusually sharp. Baseball’s staff page carries eight coaches with full bios including start years, coaching records and professional or draft history, while the other nineteen sports publish nav boilerplate with no named coach at all.',
+      'The gap in what the school publishes about its coaches is unusually sharp. Baseball’s staff page lists eight coaches with full bios, including start years, coaching records and professional or draft history. The pages for the other nineteen sports carry menu links but no named coach at all.',
     sources: [
       { label: 'charlottecatholic.org — Athletics', url: 'https://www.charlottecatholic.org/athletics/all-sports' },
       { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
@@ -431,7 +431,7 @@ export const charlotteCatholic: SportsProgram = {
       { label: 'Student pathway', text: 'Sports Medicine runs as both a curriculum course (851) and a student club, so an interested athlete can study the field as well as be treated by it.' },
     ],
     careNote:
-      'Atrium Health provision is a genuine structural difference: coverage and continuity come from a hospital system’s staffing model. The school publishes no concussion protocol, no team-physician name and no coverage schedule by sport, so what is available at a given practice or away fixture is not disclosed.',
+      'Atrium Health provides the athletic trainers. That is a real difference in how care is organized, because coverage and continuity come from a hospital system’s staff. The school publishes no concussion protocol, no team doctor’s name and no coverage schedule by sport. So what is available at a given practice or away game is not disclosed.',
     sources: [
       { label: 'charlottecatholic.org — Athletics', url: 'https://www.charlottecatholic.org/athletics/all-sports' },
       { label: 'charlottecatholic.org — School Profile 2026-2027 (PDF)', url: PROFILE_2627 },
@@ -457,7 +457,7 @@ export const charlotteCatholic: SportsProgram = {
       { opponent: 'A.C. Reynolds', detail: 'Shut out 27–0 in the opening round of the 2025 football playoffs' },
     ],
     scheduleNote:
-      'This is the real differentiator for a recruiting family: CCHS does not play in the NCISAA, the independent-school association many private schools join. A CCHS athlete’s record, rankings and championships are set against North Carolina’s public schools, which is a larger and differently-shaped competitive field — and it makes cross-comparison with NCISAA results imprecise in both directions.',
+      'This is the main difference for a recruiting family: CCHS does not play in the NCISAA, the independent-school association many private schools join. A CCHS athlete’s record, rankings and championships are set against North Carolina’s public schools. That field is larger and shaped differently. So comparing CCHS results with NCISAA results is imprecise in both directions.',
     nil: [
       { date: 'July 1, 2023', text: 'The NCHSAA’s name, image and likeness policy takes effect, covering every member school including CCHS.', highlight: true },
       { date: 'Current', text: 'No CCHS-specific NIL deal was found in any published source. The school itself publishes no NIL guidance of its own beyond the association policy it is bound by.' },

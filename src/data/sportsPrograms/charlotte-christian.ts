@@ -76,7 +76,7 @@ export const charlotteChristian: SportsProgram = {
       },
     ],
     footnote:
-      'The school’s published figure of 22 sports counts boys’ and girls’ editions separately and includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA; its Head of School, Barry Giller, is president of the NCISAA Board of Directors.',
+      'The school’s published figure of 22 sports counts the boys’ and girls’ versions of a sport separately. The figure includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA. Its Head of School, Barry Giller, is president of the NCISAA Board of Directors.',
     sources: [
       { label: 'charlottechristian.com — Knights Accolades', url: ACCOLADES },
       { label: 'charlottechristian.com — Teams & Schedules', url: 'https://www.charlottechristian.com/athletics/teams' },
@@ -239,7 +239,7 @@ export const charlotteChristian: SportsProgram = {
       },
     ],
     funnelNote:
-      'The classes of 2024 and 2025 come from the school’s published "Knights in College" roster; the Class of 2026, which that list does not yet include, is confirmed on the colleges’ own rosters and in the school’s announcements. At 73%, the Division I share of commitments is unusually high.',
+      'The classes of 2024 and 2025 come from the school’s published "Knights in College" roster. That list does not yet include the Class of 2026, which is confirmed on the colleges’ own rosters and in the school’s announcements. At 73%, the Division I share of commitments is unusually high.',
     sportBars: [
       { sport: 'Football', count: 16, width: 1, p4Width: 0.25 },
       { sport: 'Baseball', count: 6, width: 0.38, p4Width: 0.06 },
@@ -250,9 +250,9 @@ export const charlotteChristian: SportsProgram = {
       { sport: 'Other', count: 4, width: 0.25 },
     ],
     realityCheck:
-      'Football is the volume engine at sixteen Division I commits — Jamal Rule to Nebraska and two service-academy signees, Henry Hulbert to Army and Vincent Rosen to Air Force, among them — but the Power 4 placements are spread unusually wide: wrestling to NC State, softball to Florida State, lacrosse to Penn State and track to Kentucky each produced a P4 signee from a single athlete. Charlotte Christian converts across many sports rather than concentrating in one.',
+      'Football is the biggest source of college commits, with sixteen Division I commits. Among them are Jamal Rule to Nebraska and two service-academy signees: Henry Hulbert to Army and Vincent Rosen to Air Force. But the Power 4 signees are spread unusually wide across sports. Wrestling to NC State, softball to Florida State, lacrosse to Penn State and track to Kentucky each produced one P4 signee. Charlotte Christian sends athletes to college from many sports, not mostly from one.',
     rankedRecruits:
-      'Bryce Young (’24, Notre Dame) was the No. 73 national recruit in the 247Sports Composite, and Jamal Rule (’26, Nebraska) the No. 31 prospect in North Carolina. The instructive case is the inverse: Stephen Curry left in 2006 with no major-conference scholarship offer and 31 point guards ranked ahead of him, and Virginia Tech — his father’s alma mater — offered only a walk-on spot.',
+      'Bryce Young (’24, Notre Dame) was the No. 73 national recruit in the 247Sports Composite. Jamal Rule (’26, Nebraska) was the No. 31 prospect in North Carolina. The opposite case is the most useful one. Stephen Curry left in 2006 with no major-conference scholarship offer and 31 point guards ranked ahead of him. Virginia Tech, the college his father attended, offered him only a walk-on spot.',
     roster: [
       // Class of 2026
       { cls: "'26", name: 'Jamal Rule', sport: 'Football', college: 'Nebraska', conf: 'Big Ten', level: 'P4',
@@ -311,7 +311,7 @@ export const charlotteChristian: SportsProgram = {
       { cls: "'27", name: 'Will Parrish', sport: 'Baseball', college: 'NC State', conf: 'ACC', level: 'P4' },
     ],
     rosterNote:
-      'The school’s published commitment list runs through the Class of 2025; the Class of 2026 rows are confirmed on the colleges’ own rosters and in the school’s announcements. Level labels and conferences were added by the researcher from each college’s NCAA status. The Class of 2027 rows are public verbal commitments, listed because they are already announced and not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
+      'The school’s published commitment list runs through the Class of 2025. The Class of 2026 rows are confirmed on the colleges’ own rosters and in the school’s announcements. This site added the level labels and conferences from each college’s NCAA status. The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
     sources: [
       { label: 'charlottechristian.com — Knights in College', url: ACCOLADES },
       {
@@ -344,7 +344,7 @@ export const charlotteChristian: SportsProgram = {
         kicker: "NBA · Class of '06",
         name: 'Stephen Curry',
         detail:
-          '4× NBA champion, 2× MVP — the first unanimous winner — 12× All-Star, the NBA’s all-time three-point leader, and a 2024 Olympic gold medallist. He left Charlotte Christian as its all-time leading scorer with no major-conference offer.',
+          'A 4× NBA champion, 2× MVP (the first unanimous winner) and 12× All-Star. He is the NBA’s all-time three-point leader and a 2024 Olympic gold medalist. He left Charlotte Christian as its all-time leading scorer with no major-conference offer.',
         path: 'CCS → Davidson → Golden State Warriors',
       },
       {
@@ -427,7 +427,7 @@ export const charlotteChristian: SportsProgram = {
           { value: 'D-II', label: 'national champion as a coordinator' },
         ],
         detail:
-          'A Wake Forest star receiver with 184 career catches who played professionally for the Washington Redskins and in the Arena and indoor leagues. He was offensive coordinator at West Florida for its NCAA Division II national title, then went 49–21 at Forest Hills with two fourth-round playoff runs, the school’s first winning season since 2015, and 2025 Union County Coach of the Year. The most credentialed outside hire in the department’s recent history.',
+          'A Wake Forest star receiver with 184 career catches. He played professionally for the Washington Redskins and in the Arena and indoor leagues. He was offensive coordinator at West Florida for its NCAA Division II national title. Then he went 49–21 at Forest Hills, with two fourth-round playoff runs and Forest Hills’ first winning season since 2015. He was also 2025 Union County Coach of the Year. The most credentialed outside hire in the department’s recent history.',
       },
       {
         kicker: 'The tenure that just ended · Boys Basketball, 2000–2025',
@@ -451,7 +451,7 @@ export const charlotteChristian: SportsProgram = {
       { name: 'Hank Suhr', role: "Softball — won the '25 state title", width: 0.12, since: 'tenure', toVerify: true },
     ],
     worthKnowing:
-      'the school does not publish coach names for roughly fifteen of its sports, so this ledger covers only the programs with documented leadership. Baseball’s Reid Fronk is a 2004 graduate who pitched in the Tampa Bay Rays organization before returning to win the 2026 state title, and the late Greg Simmons — who built the 17-title baseball dynasty and died in 2023 — has the baseball field named for him.',
+      'the school does not publish coach names for roughly fifteen of its sports, so this list covers only the programs with named coaches. Baseball’s Reid Fronk is a 2004 graduate who pitched in the Tampa Bay Rays organization. He then returned to win the 2026 state title. The baseball field is named for the late Greg Simmons, who built the 17-title baseball dynasty and died in 2023.',
     sources: [
       {
         label: 'HighSchoolOT — Deese hired',
@@ -513,7 +513,7 @@ export const charlotteChristian: SportsProgram = {
       { name: 'Hitting & Pitching Facility', detail: 'indoor cages' },
     ],
     broadcast:
-      'Events stream on the school’s YouTube channel, with NCISAA events also on the NFHS Network, and tickets run through HomeTown Fan. Notably, the school charges admission only for varsity football, varsity basketball and NCISAA playoff events — every other contest is free. Football uses Division I-grade wireless sideline communications.',
+      'Events stream on the school’s YouTube channel, and NCISAA events also stream on the NFHS Network. Tickets are sold through HomeTown Fan. Notably, the school charges admission only for varsity football, varsity basketball and NCISAA playoff events. Every other event is free. Football uses Division I-grade wireless sideline communications.',
     care: [
       {
         label: 'Athletic trainers',
@@ -541,7 +541,7 @@ export const charlotteChristian: SportsProgram = {
       },
     ],
     careNote:
-      'The hybrid model is the thing to probe on a tour: two employed trainers plus an Atrium-provided third, a mix of in-house and hospital-provided care. Seating capacities are not published for any Charlotte Christian venue.',
+      'The hybrid model is the thing to ask about on a tour: two trainers employed by the school, plus an Atrium-provided third. Seating capacities are not published for any Charlotte Christian venue.',
     sources: [
       {
         label: 'charlottechristian.com — Athletic Facilities',

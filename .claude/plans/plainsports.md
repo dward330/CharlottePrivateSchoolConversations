@@ -564,9 +564,9 @@ only after Batch 5.
 |---|---|---|---|---|
 | 1 (tooling) | in the Batch 1 commit | — | — | — |
 | 1 | `72d80b8e` | [review-batch1.md](plainsports-data/review-batch1.md) | 3 (all fixed) | ruling: no comparisons with other schools (applied) |
-| 1 (ruling) | `plainsports: batch 1 ruling` (SHA filled on resume) | [review-batch1-ruling.md](plainsports-data/review-batch1-ruling.md) | — | awaiting review |
-| 2 (fixes) | | | | |
-| 2 | | | | |
+| 1 (ruling) | `c464a60f`, `785aeb6a`, `656a2a62` | [review-batch1-ruling.md](plainsports-data/review-batch1-ruling.md) | — | approved 2026-11-11, no further rulings |
+| 2 (fixes) | `bca18eee` | [review-batch2-fixes.md](plainsports-data/review-batch2-fixes.md) | — | awaiting review |
+| 2 | `plainsports: batch 2 English` (SHA in the commit log) | [review-batch2.md](plainsports-data/review-batch2.md) | 2 (all fixed) | awaiting review |
 | 3 | | | | |
 | 4 (fixes) | | | | |
 | 4 | | | | |
@@ -907,7 +907,8 @@ trimmed text):
 - Conference membership that names other schools (PD and Latin "Big South" footnotes) is a
   fact about the school's own league and stays.
 
-**Batch 1 choices (PD + Latin)** — awaiting the user's review; precedent once approved:
+**Batch 1 choices (PD + Latin)** — approved by the user 2026-11-11 (resume command with the
+rulings placeholder unfilled, read as "approved, no rulings"); precedent for Batches 2–5:
 - "sign" as a noun is SIGNED: "is a sign of" → "shows". "only one" enters ONLY: "a single
   commitment" → "one commitment". "appears" enters HEDGE: "is not represented" → "has none".
 - "unconfirmed" (no VERIFIED match) → "No public source confirms … yet"; never "No published
@@ -921,6 +922,20 @@ trimmed text):
   "pre-seeded … for" → "seeded … before"; "Scheduling up (playing stronger opponents)".
 - Physician / partnership may become doctor / partner to reach grade 10; "concussion
   protocol" stays.
+
+**Batch 2 choices (Christian + Catholic)** — awaiting the user's review; precedent once approved:
+- A comparison with other schools is rewritten as a hedged statement about the school ("the
+  independent-school association many private schools join"; "unusually high") or deleted
+  when even a hedge would overreach (Catholic's care-model subhead: other schools also use
+  hospital partners).
+- "nav/navigation boilerplate" → "carry menu links but no …" (the register's "only menu links"
+  enters ONLY).
+- An acronym the register replaces keeps its token in a parenthesis: "through a junior college
+  (JUCO)".
+- A within-school "here" becomes "the school’s", so it cannot read as "this site".
+- A sentence-start word that is not in `NAME_STOP` stays ("Notably,").
+- "physician" → "doctor", "fixture" → "game", "consolidated" → "combined", "time base" →
+  "span of years", "ledger" → "list" (one unit each).
 
 *Rulings from later batches are added here by `/implement`.* If a resume command arrives with
 the `<, with these rulings: …>` placeholder unfilled, read it as "approved, no rulings", as
@@ -1438,6 +1453,7 @@ No skill or slash command changes, so `.claude/SKILLS.md` is not touched. No `CL
 | Path | After-grade | Reason |
 |---|--:|---|
 | *(Batch 1: none — every rewritten PD and Latin unit is at grade ≤10)* | | |
+| *(Batch 2: none — every rewritten Christian and Catholic unit is at grade ≤10)* | | |
 
 ## Implementation notes
 
@@ -1519,11 +1535,87 @@ confirms…" enters UNPUBLISHED, which is the class the Treatment says to avoid,
 matched "unconfirmed"). PD `national.scheduleNote`: "a sign of" enters SIGNED, so it became
 "shows a program is chasing…".
 
+### Batch 2 — Charlotte Christian + Charlotte Catholic
+
+**Resume.** The command arrived with the rulings placeholder unfilled, read as "approved, no
+rulings" (Style rulings). Batch 1's choices became precedent. `origin/main` had not moved, so
+the rebase was a no-op.
+
+**Step 2a, fixes commit `bca18eee`.** Under the Batch 1 ruling, the commit removes five
+comparisons with other schools instead of the two planned Catholic fact fixes. It rewrites
+three: Catholic `national.scheduleNote` ("CCHS does not play in the NCISAA, the
+independent-school association many private schools join"; "cross-comparison with NCISAA
+results"), Christian `pipeline.funnelNote` ("unusually high") and Christian
+`facilities.careNote` (the PD/Cannon contrast). It deletes two: Catholic `offered.footnote` and
+Catholic `facilities.subhead` (off-worklist, so it is in `worklist-extra-batch2.json`). Guards
+(b) and (p) fire there by design. Before and after for each unit, with the evidence, are in
+`review-batch2-fixes.md`. Re-measured: Christian 72.9% vs Catholic 72.2% Division I. The
+ranking is no longer stated, so the open question about the thin margin is moot.
+
+**Sweep.** The bookkeeping hits in this batch were Christian and Catholic `rosterNote`, both
+fixed. After the rewrite, the comparison scan finds only Christian `facilities.broadcast`
+"Every other event is free" (within the school) and Catholic `rosterNote` "(also on this
+site)". That is a cross-reference explaining why Ridinger is not on Country Day's card, not a
+comparison, and the plan's Treatment keeps it.
+
+**Step 2b.** The regenerated worklist has Christian **9** (Context said 10) and Catholic 9. The
+fixes commit took Christian `facilities.careNote` under the hook threshold, so it dropped off.
+It is in `worklist-extra-batch2.json` and rewritten anyway ("probe" → "ask about", as PD and
+Latin did). So Batch 2 has an extra file, not none as Step 2b expected: Catholic
+`facilities.subhead` and Christian `facilities.careNote`.
+
+**Guards.** `--check` exits 1 on exactly one by-design finding: (h) REQUIRED lost on Catholic
+`pipeline.rosterNote`. The "must" was in "must not be double-counted", the research
+instruction the bookkeeping Treatment replaces with "He is counted once, under CCHS, the
+school he graduated from." Nothing was loosened. Every row reads `hook: pass`, and no row is
+above grade 10.
+
+**Adapted wording, measured against the guards.**
+- The register's "only menu links" for Catholic's "navigation/nav boilerplate" enters ONLY. It
+  became "carry menu links but no rosters or schedules" / "carry menu links but no named coach
+  at all".
+- "via JUCO" → "through a junior college (JUCO)": a plain "junior college" would drop the
+  JUCO token and fail guard (p).
+- Christian `facilities.broadcast` keeps "Notably,": dropping it fails (p), because the word is
+  not in `NAME_STOP`.
+- "Baseball is now the deepest pipeline here" → "the school’s deepest pipeline", so "here" is
+  not read as this site.
+
+**Spelling.** `medallist` and `medallists` are in `spelling.map`. `check:spelling` passes. The
+negative test (Christian `honors.pros[0].detail` set back to "medallist") exited 1, naming
+`charlotte-christian.ts:347 honors.pros[0].detail`, and the file was restored `cmp`-clean.
+
+**Templates.** T1 is identical at PD, Latin, Christian and Catholic. T2's core is identical at PD
+and Christian. T5 and T8 are byte-identical. The Christian within-school repeat ("confirmed on
+the colleges’ own rosters and in the school’s announcements", 2 sites) and the Giller sentence
+(2 sites) are identical.
+
+**Independent review:** 2 findings, both fixed: a bare "It" after the Catholic
+`scheduleNote` split, and Christian `offered.footnote`, where "teams" could read as V/JV
+teams, so it now says "the boys’ and girls’ versions of a sport". The details are in
+`review-batch2.md`.
+
+**Checks.** `npx tsc -b` is clean and `npx vite build` succeeds. Every check in the Step 6
+list exits 0, as does `test:plain`. `check:live` finds 45 stale stamps per locale, all in
+`sports`: Batch 1's 25 units plus Batch 2's 20 (the 19 wording rows plus Catholic
+`facilities.subhead` from the fixes commit). That is Phase 2's input so far. No schema
+drift.
+
+**Browser** (headed Chrome, `vite preview`): every one of the 24 changed units renders on
+Christian and Catholic at 1280px. The chrome labels read on ("Worth knowing: the school does
+not publish…"). There is no `*`, no headline changed, no overflow at 390px, and the Cup card
+is untouched.
+
 ### Candidates noticed, not acted on
 
 - **Off-worklist cross-school claims:** Gaston `facilities.careNote` "Every peer school on this
   roster publishes a venue list" (Carmel, DD, HG, Prep and Trinity have no Facilities card);
   CCD `facilities.subhead` "more than any other school in this comparison"; DD
   `offered.subhead` "earlier than any other school in this comparison".
+- **Christian peer-group rankings** (found by the Batch 2 reviewer, off-worklist, kept for the
+  user's call): `record.subhead` "the deepest single-sport dynasty in the Charlotte
+  private-school field" and `pipeline.subhead` "one of the deepest sustained pipelines in the
+  Charlotte private-school field". Both read as rankings of the school's own result, like
+  Latin's kept "largest campus among Charlotte-area independent schools".
 - **Gaston `facilities.careNote`** also holds "is not reachable" (research bookkeeping) and
   "This card is deliberately short" (site mechanics).
