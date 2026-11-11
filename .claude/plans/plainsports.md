@@ -877,11 +877,15 @@ trimmed text):
   and `careNote` "the differentiator among Charlotte private schools" (B3); Cannon `funnelNote`
   "Unlike its CISAA peers" (B3); DD `realityCheck` "where larger peer schools convert closer to
   a third" (B4, replacing its planned fix). Guard (n) or (p) may fire on these by design.
-- **Kept unless the user says otherwise (ask at the Batch 2 review):** a third-party ranking
-  of the school's **own** result, with its attribution — DD "the most of any 2A school in the
-  NCISAA", CCD "more than any other school in the division" (swimming records), Carmel
-  "described as among the first Charlotte high-school graduates" (NIL). These describe what
-  the school achieved, not what others lack.
+- **Kept (user, 2026-11-11):** a ranking of the school's **own** result, with its
+  attribution — DD "the most of any 2A school in the NCISAA", CCD "more than any other school
+  in the division" (swimming records), Carmel "described as among the first Charlotte
+  high-school graduates" (NIL). These describe what the school achieved, not what others lack.
+- **Kept (user, 2026-11-11): implicit comparisons** that name no other school and do not
+  point at this site's set ("unusually deep for a high school", "few schools publish …").
+  Removed: a comparison that names another school, or says "on this site" / "in this app" /
+  "in this comparison" / "on this roster" / "peers here", or names a peer group ("its CISAA
+  peers", as in Latin `care[4]` and Cannon `funnelNote`).
 - Conference membership that names other schools (PD and Latin "Big South" footnotes) is a
   fact about the school's own league and stays.
 
