@@ -432,3 +432,52 @@ required/elective, prerequisites, quality points); **Description** is the guide'
 - **App path:** `departments[10].courses[26].description`
 - **Eligibility:** Language and Culture Grade: 11th, 12th Elective Prerequisites: Honors Spanish IV with a minimum B average or Honors Spanish III with a minimum A average. Rising seniors in Advanced Spanish III with a minimum A- average. AP course placement is determined through an application process that considers academic credentials. Quality Points: A = 5
 - **Description:** The Advanced Placement Spanish Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in Spanish within a culturally rich and content-based framework. The course develops students’ abilities to understand spoken Spanish in a variety of contexts; to read and interpret authentic materials such as newspapers, literary texts, and other media with increasing independence; and to express ideas clearly and accurately in both written and spoken Spanish. All class discussion and oral practice are conducted exclusively in Spanish. Students develop proficiency across all communication modes- interpersonal, interpretive, and presentational- through content-based instruction and meaningful practice. On a cultural level, students deepen their understanding of the geographical, historical, artistic, religious and everyday life and societal practices of the Spanish-speaking world. All students are required to take the College Board AP Spanish Language and Culture exam in May. This course meets for a full year.
+
+## D. Added 2026-11-11 (plan `plaincourses`, Batch 4 amendment)
+
+Seven more entries from the same guide (S1, re-downloaded 2026-11-11, SHA-256 unchanged:
+`6db5f418…a3a5`), for the courses whose app text kept the catalog's first- or second-person
+voice. Same cleanup as above (U+200B read as a space, runs of spaces collapsed, split `i`/`l`/`j`
+rejoined); wording otherwise the guide's own.
+
+### Introduction to STEM — 579
+
+- **App path:** `departments[1].courses[15].description`
+- **Eligibility:** Grade: 9th, 10th Elective Prerequisites: None Quality Points: A = 4
+- **Description:** Do you like building things? Do you tend to be curious how things work? Are you interested in how technology is used to advance our society? Come visit the world of STEM to learn more about fulfilling careers in science, technology, engineering, and math. This course is designed to help students discern career interests in the world of STEM. Students will rotate through various STEM fields while completing hands-on activities and gaining understanding in a variety of fields of study. Students will research and present on various topics related to STEM, including career pathways available based on their interests. This course meets for a semester.
+
+### The Sacraments: Source of Our Life in Christ — 034
+
+- **App path:** `departments[8].courses[6].description`
+- **Eligibility:** Grade: 11th Required: 1st Semester Prerequisites: None Quality Points: A = 4
+- **Description:** This course recognizes how Jesus Christ, through his great love for us, instituted the Sacraments as the ordinary means of receiving salvation and entrusted them to the Church. It examines each Sacrament as a primary source of grace and an intimate encounter with Jesus Christ. Each of the Seven Sacraments is presented in its own chapter. It includes an investigation of major symbols associated with each sacrament and how each sacrament enables us more fully to be holy as Christ is holy. This course meets for a semester.
+
+### Honors Costume Design and Production — 367
+
+- **App path:** `departments[9].courses[22].description`
+- **Eligibility:** Grade: 11th, 12th Elective Prerequisites: Department Approval and demonstration of skill set Quality Points: A = 5
+- **Description:** The clothes look great, but why do they look great? Learn about color theory and aesthetics to perfect your skills that can launch your career in the industry. Take what you’ve learned to the next level by assembling your portfolio, showcasing what you do in class for a broader audience. This class will support the needs of school performances but will also leave room for students to design and make clothes that they might actually wear. We will focus on particular styles and choices that can reaffirm a theatrical vision and tell a designer’s particular story. Students will design, develop, and create costume pieces for all shows while collaborating with directors, designers, and actors to fulfill the intended artistic vision. They will also create a professional portfolio and presentation showcasing their work. This course meets for a semester.
+
+### Theatre: Design and Tech — 368
+
+- **App path:** `departments[9].courses[23].description`
+- **Eligibility:** Grade: 10th Elective Prerequisites: None Quality Points: A = 4
+- **Description:** Interested in the craft of technical theatre? This program allows students the chance to design, build, rig, and engineer all the technical elements of our theatre performances. From sound design to lighting, from pencil-to-page design to actually measuring, cutting, and assembling our award-winning sets, students will quickly learn about design and construction through hands-on training. Students will study the basic principles of backstage work and techniques for achieving effects within a budget. They will analyze plays for cues that inform staging, explore the use of lighting, sound, and scenery to support the director’s vision, learn the principles of design, and develop the skills to work appropriately and efficiently as a technical crew. This course meets for a semester.
+
+### On The Stage: Acting, Directing, Movie Making — 308
+
+- **App path:** `departments[9].courses[25].description`
+- **Eligibility:** Grades: 9th Elective: Prerequisite: None Quality Points: A = 4
+- **Description:** Begin your journey to stardom as a student of the craft of acting, directing, and movie making. Students will learn what it takes to command an audience through performance. Why move here? Why was that line said just like that? Why am I now crying, laughing, confused? It’s because someone applied the techniques you’ll learn in this course. Students will also create their own digital shorts that can be submitted for contests all across the country. They will have the opportunity to participate in an annual theatre play festival. Students will learn what it takes to perform in front of an audience, whether on stage or on camera, and how to collaborate with actors to tell a compelling story. They will also develop the skills needed to effectively work on film projects, including filming, lighting, sound, editing, and marketing. This course meets for a semester.
+
+### Behind the Scenes: Set Design, Construction, Lighting, Sound and Costuming — 309
+
+- **App path:** `departments[9].courses[26].description`
+- **Eligibility:** Grades: 9th Elective Prerequisite: None Quality Points: A = 4
+- **Description:** Come see how we make it look easy. The world of stage craft is vast and can lend itself to numerous other career paths. Students will learn about the ins and outs of the stage, what it takes to engineer working structures, and how the elements of design are actually put to use. Students will be responsible for learning about all the audio/visual needs of a production and will apply that knowledge in a hands-on approach. Students will be able to design sets from the script to the stage and select costumes that enhance the story. They will assist in building school productions and events, use lighting, sound, and overall production elements to tell a story through their design, and support productions through backstage setup. This course meets for a semester.
+
+### Costume Design and Production — 366
+
+- **App path:** `departments[9].courses[21].description`
+- **Eligibility:** Grade: 10th Elective Prerequisites: None Quality Points: A = 4
+- **Description:** Join this award-winning class that will lay the groundwork for hands-on experience in the world of clothing design and application. Interested in fashion? Want to learn to make clothes that can be worn? No sewing experience is required. This class will support the needs of school performances but will also leave room for students to design and make clothes that they might actually wear. We will focus on particular styles and choices that can reaffirm a theatrical vision and tell a designer’s particular story. Students will learn to use sewing machines, design clothes, and work with other technicians to achieve the final look. Students will learn how to sew effectively and efficiently while designing costumes that enhance the vision of the design team. They will collaborate with other designers, directors, and actors to achieve a final product that is completed on budget and on time. This course meets for a semester.

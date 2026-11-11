@@ -477,7 +477,8 @@ only after Batch 4.
 | 3 (source + fixes) | ingest `dd903093`; fixes `22d43e1e` | `review-batch3-fixes.md`, `titles-batch3.json` | — | — |
 | 3 | `a7b37d1d` | `review-batch3.md` | 5 (all from the rewrite or fixes text; none pre-existing) + 1 judgment call acted on | **approved** 2026-11-11, no rulings |
 | 4 (fixes) | `a9048da4` | `review-batch4-fixes.md` | — | — |
-| 4 | (Batch 4 English commit) | `review-batch4.md` | 8 (all from the rewrite; none pre-existing) | pending |
+| 4 | `a5d47550` | `review-batch4.md` | 8 (all from the rewrite; none pre-existing) | **approved** 2026-11-11, with one request: fix the first/second-person catalog voice in this plan |
+| 4 (amendment) | (amendment commit) | `review-batch4b.md` | 5 + 1 more unit found | pending |
 
 ### Template wordings (as built)
 
@@ -1491,9 +1492,29 @@ Honors French III ("Honors French IV"), Mystery of Redemption ("Original Sin"), 
 ("audition"), Wisdom of the Fathers ("Sacred Tradition"), Digital Art ("anime"); both no-match
 messages correct; 390px no overflow.
 
-**Candidates for a later pass (not in scope):** three off-worklist Catholic units keep
-first/second-person catalog voice ("through his great love for us", "Come see how we make it look
-easy", "Begin your journey to stardom").
+**Amendment, at the user's request (2026-11-11): the catalog's first- and second-person voice.**
+The three units flagged by the Batch 4 reviewer were fixed in this plan, together with every other
+Course Offerings description a scan found in the same class: **8 units**, Charlotte Catholic
+Introduction to STEM, The Sacraments: Source of Our Life in Christ, Costume Design and Production,
+Honors Costume Design and Production, Theatre: Design and Tech, On The Stage, Behind the Scenes, and
+Charlotte Latin's Lower School History / Social Studies ("our country" → "the United States"). Left
+on purpose: quoted school lines (Latin 7, Charlotte Prep), the curriculum unit title "Regions of
+Our Country" (Cannon), "US" meaning the country. The guide was re-downloaded (SHA-256 unchanged)
+and the seven Catholic entries saved as **section D** of the full-descriptions source file
+(data provenance); the re-ingest changes no generated file (the note builder truncates each
+document at 45,000 characters, before section D) and `schools.json` was restored after it
+reordered. Introduction to STEM's old text described nothing ("Do you like building things?…"),
+so its new text comes from its own entry. School promotional claims are attributed ("the school
+says", "the school calls award-winning"). Stoplist additions, with reason: `Do Learn Begin Come
+Join Lays` (dropped second-person openers and one new opener). `--check` exits 1 on 3 by-design
+(p) hits only ("United", "States", "STEM"); 8/8 `hook: pass`; the hook reports the file clean.
+Independent review: 5 findings on the 7 drafted rows, all fixed, and it surfaced the eighth (non-
+honors Costume Design). Build, the Step 6 checks and `test:plain` pass; `check:live` 121 stale
+entries per locale, all `course-offerings`. Real Chrome: Charlotte Catholic and Charlotte Latin
+render every description; searches find the four probed rows; 390px no overflow. Review file:
+`review-batch4b.md`; units: `worklist-extra-batch4b.json`. Total changed leaves vs `main`: **140**
+(the plan's 132 + these 8). (`check:metrics` exits 1 on `main` and here for a Charlotte Christian
+sports subtopic outside this plan; Course Offerings has no finding.)
 
 ### Candidates noticed while planning, not acted on
 

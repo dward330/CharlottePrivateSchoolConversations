@@ -395,7 +395,10 @@ const COURSES_NAME_STOP = new Set(('Students Student Course Courses Class Classe
   // Batch 4: the school's own opener verb kept ("This course will immerse students…" →
   // "Immerses students…", SASP Wisdom of the Fathers) and a dropped slogan opener ("Perfect the
   // craft…", Honors Theatre: Design and Tech). Neither is a name.
-  'Immerses Perfect').split(' '))
+  'Immerses Perfect ' +
+  // Batch 4 amendment: second-person catalog openers removed with the school's voice ("Do you
+  // like…", "Learn about…", "Begin your journey…", "Come see how we…"). Never names.
+  'Do Learn Begin Come Join Lays').split(' '))
 const nameTokens = (s) => {
   const out = new Set()
   for (const m of s.matchAll(NAME_RE)) {

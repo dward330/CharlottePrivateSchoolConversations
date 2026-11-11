@@ -1501,7 +1501,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
               title: 'History / Social Studies',
               tag: 'TK–Gr 5',
               description:
-                'Students discover the story of our country and world from varied perspectives.',
+                'Students discover the story of the United States and the world from varied perspectives.',
             },
             {
               title: 'STEAM',
@@ -7514,7 +7514,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Introduction to STEM',
               description:
-                'Do you like building things? Do you tend to be curious how things work?',
+                'For students who like to build and wonder how things work: a hands-on rotation through STEM fields, plus research and presentations on STEM topics, including careers that suit them.',
             },
             {
               title: 'Introduction to Engineering',
@@ -8044,7 +8044,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'The Sacraments: Source of Our Life in Christ',
               description:
-                'This course recognizes how Jesus Christ, through his great love for us, instituted the Sacraments as the ordinary means of receiving salvation and entrusted them to the Church.',
+                'Studies how Jesus Christ, out of his great love for humanity, instituted the Sacraments as the ordinary means of receiving salvation and entrusted them to the Church.',
             },
             {
               title: 'Our Moral Life in Christ',
@@ -8202,18 +8202,18 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Costume Design and Production',
               description:
-                'Join this award-winning class that will lay the groundwork for hands-on experience in the world of clothing design and application.',
+                'Lays the groundwork for hands-on experience in the world of clothing design and application, in a class the school calls award-winning.',
             },
             {
               title: 'Honors Costume Design and Production',
               tag: 'Honors',
               description:
-                'The clothes look great, but why do they look great? Learn about color theory and aesthetics to perfect your skills that can launch your career in the industry.',
+                'Uses color theory and aesthetics to show why costumes look great, building skills that the school says can launch a career in the industry.',
             },
             {
               title: 'Theatre: Design and Tech',
               description:
-                'Interested in the craft of technical theatre? This program allows students the chance to design, build, rig, and engineer all the technical elements of our theatre performances.',
+                'For students interested in the craft of technical theatre: a chance to design, build, rig, and engineer all the technical elements of the school’s theatre performances.',
             },
             {
               title: 'Honors Theatre: Design and Tech',
@@ -8224,12 +8224,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'On The Stage: Acting, Directing, Movie Making',
               description:
-                'Begin your journey to stardom as a student of the craft of acting, directing, and movie making.',
+                'A beginning course in the craft of acting, directing, and movie making, where students learn what it takes to command an audience through performance.',
             },
             {
               title: 'Behind the Scenes: Set Design, Construction, Lighting, Sound and Costuming',
               description:
-                'Come see how we make it look easy. The world of stage craft is vast and can lend itself to numerous other career paths.',
+                'Covers stage craft, a vast field that the school says can lend itself to numerous other career paths.',
             },
             {
               title: 'Acting',
