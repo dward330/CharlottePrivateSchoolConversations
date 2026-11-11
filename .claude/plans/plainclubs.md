@@ -1823,6 +1823,80 @@ full rendered DOM of each live page, hidden tabs included:
 **Phase 2 input now:** stale per locale **188 `student-clubs` + 43 `the-arts` + 12
 `metric-values`**, plus brand-new units that only the splice reveals.
 
+### Phase 2 (2026-11-10)
+
+- **Approval.** The user: "All three English batches are approved. Run only Phase 2." That
+  covers the batches, the open-issue fixes, the school-sources rebuild and the Hickory
+  Grove Arts refresh. It ran in the same window, on `feat/plainclubs`.
+- **Scope: three overlay topics × nine locales.** `student-clubs` (all three layers),
+  `the-arts` (Hickory Grove's units only) and `metric-values`.
+- **Splice.** `i18n_splice_work.mjs` gave, identically in every locale:
+  - `student-clubs`: 865 kept / **150 added** / 189 dropped;
+  - `the-arts`: 1,132 / **45** / 44;
+  - `metric-values`: 891 / **11** / 13.
+
+  That is **206 new units per locale**. `student-clubs` has fewer added than dropped
+  because the rebuilt catalogs (Hickory Grove, Covenant, Davidson Day) are shorter.
+- **Translation.**
+  - **Pairing:** 193 of the 206 units pair with their reviewed predecessor by `at`; 13 are
+    new strings.
+  - **Agents:** three parallel subagents translated three locales each (es/fr/it,
+    bn/hi/te, ht/fa/ar), each reading only its own task file and writing only its own
+    output.
+  - **Method:** each revised the reviewed `t` where the item was the same. Where the
+    rebuilt catalogs' shifted positions paired different items, it translated fresh.
+- **Gate.** A scratch gate checked every unit before applying:
+  - the digit-token multiset, money/%/year/`N+` tokens, and the ` · ` count;
+  - no `*`/`**`, no bidi controls, no non-Western digits, no Cyrillic/Greek;
+  - `t` ≠ English except figures and title-like names; the 0.4–2.5 length ratio;
+  - English months only inside quotes; no "Cornelia".
+
+  All nine locales passed 206/206. One manual change was made before applying: ar
+  "Quarterly" "كل فصل" (فصل reads as term or season) became "ربع سنوي".
+- **Predecessors corrected by the digit rule.** Several reviewed translations put a digit
+  where the English spells a grade out ("sophomore", "Eighth graders", "second graders"),
+  or the reverse. The revisions now follow the English form. es "más de 19/50" became
+  `19+`/`50+`, because the English now carries the `N+` token.
+- **Integrity, by stamp against the `main` snapshots:** kept stamps 865 / 1,132 / 891 are
+  byte-identical (`text` and `t`), the 150 / 45 / 11 new ones are all non-blank, and this
+  holds in every locale. The rebuilt overlays hold 1,015 / 1,177 / 902 entries.
+- **Checks:**
+  - `check:live` ✓ and `check:runtime` ✓;
+  - `check:digits`: **1,854 units compared · 0 to review**;
+  - `check:dates`, `check:moneytext`, `check:currency`, `check:fr`, `check:hi`,
+    `check:fa`, `check:bidi`: ✓;
+  - `check:sepdrift`: 0 drifted, ×9;
+  - `check_figures.py`: intact for all 3 topics ×9;
+  - "Cornelia": in no overlay or work file;
+  - `npm run build`: green end to end.
+  - `i18n:leaks`: **1 flag on a new path** across nine locales. It is it Hickory Grove
+    `catalog.categories[2].short` "Media", a legitimate keep, since "media" is the same
+    word in Italian.
+- **Browser** (headed Chrome, `vite preview`, every card and cluster row open; bidi
+  isolates stripped and Persian digits normalized before probing):
+  - **Pages:** `?lang=es|fa|hi` on PD, Catholic, Covenant, Davidson Day, Hickory Grove and
+    Trinity (Student Clubs), and Hickory Grove (The Arts).
+  - **Units:** **127/127** new longer units render translated in each locale. The one
+    English-looking match is Hickory Grove's ensemble and course list, all proper names
+    kept in Latin by convention.
+  - **Compare:** the four new `us-organizations` tips render translated in all three, and
+    "Cornelia" is absent.
+- **Render audit:** `audit:daterender` (es, fa, hi) is clean: no English-form date on any
+  school, Compare or checklist page.
+- **For a native reviewer:**
+  - **New labels:** "Not counted here", "school-named groups", Yearly / Weekly / Quarterly,
+    "Media", "Be adjudicated".
+  - **The unnamed courtroom artist:** feminine forms follow the English "her".
+  - **Terms:**
+    - "documented floor";
+    - the ceramics and fiber-crafts terms (sgraffito, handbuilding, quilting);
+    - ht "klib" (now used throughout, over "klèb");
+    - ar "جمعية تكريم" for honor society (Hickory Grove's older text used "جمعية شرف");
+    - fa keeps "chapel" in Latin script, as its predecessor did.
+  - **Quotes:** each school keeps its reviewed choice to translate or not.
+  - **Italian grade labels:** Hickory Grove's Italian keeps English labels ("6th grade"),
+    following its reviewed style; other schools use "6ª classe".
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
