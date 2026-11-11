@@ -1,0 +1,139 @@
+{
+  "generated": "2026-11-10",
+  "dir": "src/data/afterSchoolPrograms",
+  "note": "Off-worklist research-bookkeeping units (plan plainsmall, Bookkeeping fixes), rewritten in the Batch 1 wording pass",
+  "slugs": [
+    "cannon",
+    "davidson-day",
+    "charlotte-country-day"
+  ],
+  "total": 11,
+  "counts": {
+    "cannon": 1,
+    "davidson-day": 8,
+    "charlotte-country-day": 2
+  },
+  "units": [
+    {
+      "at": "cannon:dayInside.catalogIntro",
+      "slug": "cannon",
+      "path": "dayInside.catalogIntro",
+      "words": 65,
+      "grade": 5.700833333333335,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "Three 10-week sessions run each year for JrK–grade 8, plus private music lessons. The 22 classes below are the most recent published catalog, **9 March to 22 May 2026** — recovered from the school’s own session brochure. Fees are shown per class and per session. Note that Beyond the Bell is a **separate purchase from ASP**: a 3:00–4:00 class does not cover you to 6:00."
+    },
+    {
+      "at": "davidson-day:coverage.subhead",
+      "slug": "davidson-day",
+      "path": "coverage.subhead",
+      "words": 35,
+      "grade": 7.698823529411765,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "The dismissal times below are current and live. The program hours are recovered from a 2020 archive of a page that no longer exists, and they no longer line up with the current bell schedule."
+    },
+    {
+      "at": "davidson-day:coverage.facts[1].text",
+      "slug": "davidson-day",
+      "path": "coverage.facts[1].text",
+      "words": 20,
+      "grade": null,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "7:15–7:40 a.m., staffed by full-time Davidson Day teachers at a **7:1** ratio — from the 2020 archive, unconfirmed for 2026-27"
+    },
+    {
+      "at": "davidson-day:coverage.flags[0].text",
+      "slug": "davidson-day",
+      "path": "coverage.flags[0].text",
+      "words": 60,
+      "grade": 7.962307692307693,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "The archived After School Care window of **2:45–6:00 p.m. for TT–8** comes from a capture dated **18 May 2020 — six years old**. It no longer matches the current schedule: 2:45 p.m. is now only the Early Preschool–JK dismissal, while K–4 dismisses at 3:05 and grades 5–8 at 3:25. Whether older students are covered from their own dismissal is unknown."
+    },
+    {
+      "at": "davidson-day:dayInside.headline",
+      "slug": "davidson-day",
+      "path": "dayInside.headline",
+      "words": 28,
+      "grade": null,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "The program describes itself as \"a safe, engaging, and nurturing environment for supervised play and homework completion\" — in words captured from a page that no longer exists."
+    },
+    {
+      "at": "davidson-day:dayInside.flags[0].text",
+      "slug": "davidson-day",
+      "path": "dayInside.flags[0].text",
+      "words": 33,
+      "grade": null,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "Every quotation above comes from an archived capture dated **May 2020**. The live site carries no program description at all, so none of it is confirmed for 2026-27 — including the 15:1 ratio."
+    },
+    {
+      "at": "davidson-day:verdict.watchouts[6]",
+      "slug": "davidson-day",
+      "path": "verdict.watchouts[6]",
+      "words": 20,
+      "grade": null,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "**No enrichment catalog survives at all** — not a single class name, day or fee is recoverable from any source."
+    },
+    {
+      "at": "charlotte-country-day:dayInside.flags[0].text",
+      "slug": "charlotte-country-day",
+      "path": "dayInside.flags[0].text",
+      "words": 73,
+      "grade": 4.739285714285714,
+      "rules": [
+        "near-repeat: restore the shared watchouts[6] wording"
+      ],
+      "text": "Families looking at the school cannot see the enrichment catalog. The school advertises \"more than 25 after-school enrichment classes\". Its examples: music · art · science · chess · karate · cheerleading · field hockey · baseball · volleyball · SAT/ACT prep · coding · drama · robotics. But the class list sits behind the UltraCamp registration portal, so it is not public. No public page gives names with days, grades and fees."
+    },
+    {
+      "at": "charlotte-country-day:verdict.watchouts[6]",
+      "slug": "charlotte-country-day",
+      "path": "verdict.watchouts[6]",
+      "words": 16,
+      "grade": null,
+      "rules": [
+        "bookkeeping (reviewer find)"
+      ],
+      "text": "**The enrichment catalog is invisible** to prospective families — behind a portal that currently shows nothing."
+    },
+    {
+      "at": "davidson-day:coverage.flags[1].text",
+      "slug": "davidson-day",
+      "path": "coverage.flags[1].text",
+      "words": 44,
+      "grade": 9.910000000000004,
+      "rules": [
+        "bookkeeping (reviewer find)"
+      ],
+      "text": "The **Extended Care and After School Programs pages have been removed from the live site entirely** — both re-verified as 404 in July 2026, and neither appears in the current site map. A 2026-27 family has no published description of the program at all."
+    },
+    {
+      "at": "davidson-day:coverage.flags[2].text",
+      "slug": "davidson-day",
+      "path": "coverage.flags[2].text",
+      "words": 37,
+      "grade": 8.474444444444444,
+      "rules": [
+        "bookkeeping (reviewer find)"
+      ],
+      "text": "No summer program is published on the live site, and no summer page exists in the site map. An archived 2019 camp page and a third-party aggregator listing exist but neither is confirmed on any school-owned page."
+    }
+  ]
+}

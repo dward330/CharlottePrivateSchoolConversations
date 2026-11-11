@@ -1,0 +1,427 @@
+{
+  "generated": "2026-11-11",
+  "dir": "src/data/afterSchoolPrograms",
+  "slugs": [
+    "cannon",
+    "carmel-christian",
+    "charlotte-christian",
+    "charlotte-country-day",
+    "charlotte-latin",
+    "charlotte-prep",
+    "covenant-day",
+    "davidson-day",
+    "gaston-day",
+    "hickory-grove-christian",
+    "providence-day",
+    "trinity-episcopal"
+  ],
+  "match": null,
+  "total": 36,
+  "counts": {
+    "cannon": 2,
+    "carmel-christian": 2,
+    "charlotte-christian": 5,
+    "charlotte-country-day": 4,
+    "charlotte-latin": 3,
+    "charlotte-prep": 1,
+    "covenant-day": 4,
+    "davidson-day": 2,
+    "gaston-day": 4,
+    "hickory-grove-christian": 3,
+    "providence-day": 4,
+    "trinity-episcopal": 2
+  },
+  "units": [
+    {
+      "at": "cannon:cost.flags[1].text",
+      "slug": "cannon",
+      "path": "cost.flags[1].text",
+      "words": 61,
+      "grade": 14.9,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The pricing is effectively hidden from prospective families. The rate card exists only on an orphaned backup URL inside a collapsed accordion; the program page, the tuition page and the official Non-Tuition Fees PDF all omit it — that PDF even lists \"After School Program\" and \"Beyond the Bell\" as fee-bearing while assigning them no amount, though it prices everything else down to a $98 AP exam."
+    },
+    {
+      "at": "cannon:dayInside.flags[2].text",
+      "slug": "cannon",
+      "path": "dayInside.flags[2].text",
+      "words": 31,
+      "grade": 15.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "No hour-by-hour daily rhythm and no staff-to-child ratios are published for the After School Program itself, and Middle School has no separate program description — grades 5–8 sit inside the same JrK–8 program."
+    },
+    {
+      "at": "carmel-christian:coverage.flags[1].text",
+      "slug": "carmel-christian",
+      "path": "coverage.flags[1].text",
+      "words": 33,
+      "grade": 15.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The 2026-2027 web overview shows Extended Day as **“Registration for 2026-2027 is now full.”** That is an operational capacity status, not a change to the published hours or prices, but it means a mid-year applicant may face a waitlist."
+    },
+    {
+      "at": "carmel-christian:dayInside.catalogIntro",
+      "slug": "carmel-christian",
+      "path": "dayInside.catalogIntro",
+      "words": 37,
+      "grade": 14.5,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Extended Day offers Enrichment Classes and Music Enrichment Lessons within the program, but the **2026-2027 offerings are not yet published** — the school lists them as “coming August 2026,” so no class names, days, grades or fees exist to show yet."
+    },
+    {
+      "at": "charlotte-christian:dayInside.subhead",
+      "slug": "charlotte-christian",
+      "path": "dayInside.subhead",
+      "words": 8,
+      "grade": null,
+      "rules": [
+        "jargon:cohort"
+      ],
+      "text": "The Middle School program is deliberately cohort-differentiated, \"tailored to the developmental needs of our two distinct cohorts — grades 5 and 6, and grades 7 and 8.\""
+    },
+    {
+      "at": "charlotte-christian:dayInside.wordsText",
+      "slug": "charlotte-christian",
+      "path": "dayInside.wordsText",
+      "words": 44,
+      "grade": 10.7,
+      "rules": [],
+      "text": "\"Through organized activities and supervised free time, the Extended Day program is designed to enrich the intellectual, spiritual, social, and physical development of students.\" Middle School runs the same shape on a compressed clock — attendance and snack 3:00–3:30, activity 3:30–4:00, homework and reading 4:00–4:30, then free play to 5:00. **Snack is not provided in either program**: \"Please send your student with a snack and water bottle.\" Pickup authorization is explicit and enforced — \"We will not release your child to anyone other than the parents or those authorized,\" with ID checks early in the year."
+    },
+    {
+      "at": "charlotte-christian:dayInside.flags[0].text",
+      "slug": "charlotte-christian",
+      "path": "dayInside.flags[0].text",
+      "words": 68,
+      "grade": 16.8,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The after-school club catalog is **deliberately private**: descriptions and registration go out only through the parents’ weekly *Focus* email. The school names the clubs — art, coding, flag football, lacrosse, running, soccer and STEM in Lower School; mountain biking, wrestling, chess, baseball, cheer and esports in Middle School; plus Junior Knights basketball and intramural cheerleading — but publishes **no day, no grade range and no fee** for any of them."
+    },
+    {
+      "at": "charlotte-christian:verdict.strengths[3]",
+      "slug": "charlotte-christian",
+      "path": "verdict.strengths[3]",
+      "words": 25,
+      "grade": null,
+      "rules": [
+        "jargon:cohort"
+      ],
+      "text": "**The MS program is cohort-differentiated** between grades 5–6 and 7–8 — a real developmental consideration, since 8th and 5th graders in one room is a common failure mode."
+    },
+    {
+      "at": "charlotte-christian:verdict.checklist[8]",
+      "slug": "charlotte-christian",
+      "path": "verdict.checklist[8]",
+      "words": 19,
+      "grade": null,
+      "rules": [
+        "jargon:cohort"
+      ],
+      "text": "For Middle School: how are the 5–6 and 7–8 cohorts physically separated, and what happens between 5:00 p.m. and a later pickup?"
+    },
+    {
+      "at": "charlotte-country-day:cost.flags[1].text",
+      "slug": "charlotte-country-day",
+      "path": "cost.flags[1].text",
+      "words": 47,
+      "grade": 13.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists: it is billed as an **incidental charge**, which places it outside the tuition-assistance envelope even though about 30% of students receive tuition aid. Summer programs, by contrast, do have their own aid application."
+    },
+    {
+      "at": "charlotte-country-day:dayInside.subhead",
+      "slug": "charlotte-country-day",
+      "path": "dayInside.subhead",
+      "words": 34,
+      "grade": 10.1,
+      "rules": [],
+      "text": "The school publishes the components of the afternoon but never sequences them with clock times. What it does publish precisely is the enrichment structure: each division’s class begins exactly at its own dismissal bell."
+    },
+    {
+      "at": "charlotte-country-day:dayInside.flags[3].text",
+      "slug": "charlotte-country-day",
+      "path": "dayInside.flags[3].text",
+      "words": 30,
+      "grade": 15,
+      "rules": [
+        "grade"
+      ],
+      "text": "No hour-by-hour daily schedule is published, no Extended Day staff-to-child ratio is given, and Middle School is not described as a distinct program — grades 5–8 sit under the same JK–8 umbrella."
+    },
+    {
+      "at": "charlotte-country-day:verdict.watchouts[2]",
+      "slug": "charlotte-country-day",
+      "path": "verdict.watchouts[2]",
+      "words": 37,
+      "grade": 11.1,
+      "rules": [],
+      "text": "**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 30% of students receive tuition assistance — and summer programs do have their own aid application."
+    },
+    {
+      "at": "charlotte-latin:coverage.basisNote",
+      "slug": "charlotte-latin",
+      "path": "coverage.basisNote",
+      "words": 48,
+      "grade": 10.5,
+      "rules": [],
+      "text": "Prices on the bars are the **full-time PER-SEMESTER rate — 5 days a week**, and Latin bills twice a year rather than monthly, so double them for a school year. Pricing is otherwise linear, so 1–4 days a week costs proportionally less; open **The Cost Planner** below to price any combination."
+    },
+    {
+      "at": "charlotte-latin:cost.flags[1].text",
+      "slug": "charlotte-latin",
+      "path": "cost.flags[1].text",
+      "words": 55,
+      "grade": 13.4,
+      "rules": [
+        "grade"
+      ],
+      "text": "Almost every ancillary fee is unpublished — registration, late pickup, schedule changes, cancellation and refunds, and any drop-in or occasional-use rate. No drop-in option is described anywhere; the model appears to be pre-registered fixed days only. Latin’s summer camp publishes all of these equivalents, so the school clearly can be transparent — the school-year program simply isn’t."
+    },
+    {
+      "at": "charlotte-latin:dayInside.catalogIntro",
+      "slug": "charlotte-latin",
+      "path": "dayInside.catalogIntro",
+      "words": 48,
+      "grade": 10,
+      "rules": [
+        "long"
+      ],
+      "text": "Latin publishes six-, eight- and ten-week enrichment classes \"open to all Lower School students\", taught by professional instructors. The **class names below are exactly as published** — but the school publishes no day, no grade range and no fee for any of them, so those columns are shown as not published rather than guessed."
+    },
+    {
+      "at": "charlotte-prep:coverage.summer.text",
+      "slug": "charlotte-prep",
+      "path": "coverage.summer.text",
+      "words": 31,
+      "grade": 11.3,
+      "rules": [
+        "long"
+      ],
+      "text": "**Summer Adventures at Prep** ran seven weeks in 2026, June 8 to July 31, for campers from the Early School through 8th grade, with Before Care 8:00–9:00 a.m. and After Care 4:00–5:00 p.m. at **$60/week** each."
+    },
+    {
+      "at": "covenant-day:coverage.flags[0].text",
+      "slug": "covenant-day",
+      "path": "coverage.flags[0].text",
+      "words": 32,
+      "grade": 11.3,
+      "rules": [],
+      "text": "No enrichment-class catalog is public — LionsWeb registration is login-gated, so class names, days, grades and fees are not published. Third-party listings name piano/guitar/voice lessons, painting, and an After School Children’s Choir (grades 3–5)."
+    },
+    {
+      "at": "covenant-day:cost.fees[4].label",
+      "slug": "covenant-day",
+      "path": "cost.fees[4].label",
+      "words": 30,
+      "grade": 15.8,
+      "rules": [
+        "grade"
+      ],
+      "text": "The multi-session rows above are the per-session ladder **summed by the researcher** — the school prices sessions individually ($20 drop-in to $248/month) and publishes the stacked totals only on its annual table."
+    },
+    {
+      "at": "covenant-day:cost.flags[0].text",
+      "slug": "covenant-day",
+      "path": "cost.flags[0].text",
+      "words": 33,
+      "grade": 10.5,
+      "rules": [],
+      "text": "Multi-session monthly totals (e.g. **$744/mo** for JK/K to 6:00) are derived by stacking the school’s published per-session rates; the school’s own published figure for that arrangement is the annual **$6,696**. The single-session column is verbatim."
+    },
+    {
+      "at": "covenant-day:verdict.watchouts[0]",
+      "slug": "covenant-day",
+      "path": "verdict.watchouts[0]",
+      "words": 34,
+      "grade": 14.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "**The session system compounds for JK/K**: a 1:30 dismissal means three stacked sessions to reach 6:00 — $744 a month at the monthly rate, against a single-session headline of $248 that is easy to misread as the full cost."
+    },
+    {
+      "at": "davidson-day:dayInside.wordsText",
+      "slug": "davidson-day",
+      "path": "dayInside.wordsText",
+      "words": 34,
+      "grade": 14.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Students are \"subdivided into age- and attendance-appropriate groups as determined by Extended Care staff\" and \"must be signed out… by a parent or other authorized persons as listed on the Extended Care Application.\" Notably candid, and unusual to see in writing: the school itself described the roughly **15:1** after-school ratio as \"significantly higher than comparable Davidson Day classroom student-to-staff ratios,\" while noting it \"complies with State of North Carolina standards.\" All of this is from the 2020 capture."
+    },
+    {
+      "at": "davidson-day:verdict.watchouts[0]",
+      "slug": "davidson-day",
+      "path": "verdict.watchouts[0]",
+      "words": 31,
+      "grade": 10.1,
+      "rules": [],
+      "text": "**Total pricing opacity.** No registration fee, no daily or hourly rate, no late-pickup fee, no billing method — nothing, anywhere, including in the 2020 archive. This is long-standing policy, not a broken page."
+    },
+    {
+      "at": "gaston-day:coverage.basisNote",
+      "slug": "gaston-day",
+      "path": "coverage.basisNote",
+      "words": 46,
+      "grade": 11.3,
+      "rules": [
+        "long"
+      ],
+      "text": "Prices shown are the published WEEKLY rates from the school’s 2025-26 Schedule of Tuition and Fees, which assume regular enrollment; the drop-in alternative is billed per day and is listed in the facts below. See the flags below — the program web page labels near-identical figures as monthly."
+    },
+    {
+      "at": "gaston-day:cost.aside.text",
+      "slug": "gaston-day",
+      "path": "cost.aside.text",
+      "words": 58,
+      "grade": 12.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The published $95 and $55 figures are weekly enrollment rates that do not vary by how many afternoons a child attends — which is why those two rows show the same price in every column. Drop-in is the alternative that scales: at Lower School rates, drop-in beats weekly enrollment up to three days a week ($90 vs $95) and loses from four ($120 vs $95)."
+    },
+    {
+      "at": "gaston-day:cost.fees[8].label",
+      "slug": "gaston-day",
+      "path": "cost.fees[8].label",
+      "words": 39,
+      "grade": 12.3,
+      "rules": [
+        "grade"
+      ],
+      "text": "The 36-week year is this project’s standard planning assumption for comparability across schools, not a figure Gaston Day publishes. The school states no annual aftercare total, no registration fee, no sibling discount and no tuition-insurance terms for the program."
+    },
+    {
+      "at": "gaston-day:dayInside.wordsText",
+      "slug": "gaston-day",
+      "path": "dayInside.wordsText",
+      "words": 55,
+      "grade": 14.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The program is framed around a decompression-then-structure rhythm: students arrive to unstructured play, move into a separated homework and snack window, come together for a STEAM-and-collaboration block, then return to choice. Middle School students waiting for music lessons may work on homework at no charge, which is the one explicit interlock with another school program."
+    },
+    {
+      "at": "hickory-grove-christian:coverage.flags[0].text",
+      "slug": "hickory-grove-christian",
+      "path": "coverage.flags[0].text",
+      "words": 47,
+      "grade": 10.6,
+      "rules": [
+        "long"
+      ],
+      "text": "The recurring TK–5 Afterschool monthly/annual rate is not published on the Afterschool Program page or the Tuition and Fees page — the amounts live behind the school's \"student services fees\" documents / FACTS Family Portal. So no Cost Planner card is built, and the aftercare-cost Compare row is N/A for HGCS."
+    },
+    {
+      "at": "hickory-grove-christian:dayInside.flags[0].text",
+      "slug": "hickory-grove-christian",
+      "path": "dayInside.flags[0].text",
+      "words": 33,
+      "grade": 17.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "No staff-to-child ratio, group size, or hour-by-hour schedule is published beyond the activity lists above; the enrichment activities are named but not run as a filterable class catalog with days, grades or fees."
+    },
+    {
+      "at": "hickory-grove-christian:verdict.watchouts[0]",
+      "slug": "hickory-grove-christian",
+      "path": "verdict.watchouts[0]",
+      "words": 33,
+      "grade": 14.8,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "**The recurring price is not published** — neither the Afterschool page nor the Tuition and Fees page states a monthly or annual rate; families must go through the student-services fee documents or FACTS portal."
+    },
+    {
+      "at": "providence-day:coverage.flags[0].text",
+      "slug": "providence-day",
+      "path": "coverage.flags[0].text",
+      "words": 35,
+      "grade": 10.5,
+      "rules": [],
+      "text": "The Activity Day fee is never stated. The school says a separate fee applies on teacher workdays and holidays but publishes no amount — an unbudgetable line item on exactly the days families most need coverage."
+    },
+    {
+      "at": "providence-day:cost.flags[0].text",
+      "slug": "providence-day",
+      "path": "cost.flags[0].text",
+      "words": 39,
+      "grade": 9.9,
+      "rules": [
+        "long"
+      ],
+      "text": "The number of billing months is never stated. The fee document publishes monthly rates but not how many months are billed, so an annual total cannot be computed exactly — the school-year figures here assume **9 months** and should be confirmed."
+    },
+    {
+      "at": "providence-day:dayInside.subhead",
+      "slug": "providence-day",
+      "path": "dayInside.subhead",
+      "words": 35,
+      "grade": 13.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The enrichment afternoon is published step by step, and it changes by division: TK and K are collected from their classrooms, grades 1–2 are walked to the Dining Hall, and grades 3–5 make their own way there."
+    },
+    {
+      "at": "providence-day:dayInside.wordsText",
+      "slug": "providence-day",
+      "path": "dayInside.wordsText",
+      "words": 58,
+      "grade": 12.9,
+      "rules": [
+        "grade"
+      ],
+      "text": "A drop-in destination for every Middle Schooler, every school day, with no sign-up. Students may **self-register and sign themselves in and out** for practices, games, music lessons and rehearsals — a meaningfully more autonomous model than Lower School. In Lower School, study hall runs for grades 3–5 only, Monday–Thursday, 3:15–4:00 p.m., and is explicitly independent study with no one-on-one academic help."
+    },
+    {
+      "at": "trinity-episcopal:coverage.basisNote",
+      "slug": "trinity-episcopal",
+      "path": "coverage.basisNote",
+      "words": 54,
+      "grade": 10.2,
+      "rules": [],
+      "text": "The price on the bar is the **monthly rate for a household over $90,000** — the top of four income bands, which start at **$105/month** under $30,000. Trinity does **not** price TED by days per week, so there is no days-per-week ladder to open; the full income table and the per-day rates are in the facts below."
+    },
+    {
+      "at": "trinity-episcopal:dayInside.catalogIntro",
+      "slug": "trinity-episcopal",
+      "path": "dayInside.catalogIntro",
+      "words": 58,
+      "grade": 10.8,
+      "rules": [
+        "long"
+      ],
+      "text": "TED \"also offers enrichment programs, **for an additional fee**, several days a week\", led by \"a combination of Trinity faculty/staff and independent contractors\". The school gives these four as **examples** and adds \"and more\", so this is **not the full roster** — and it states no fee for any of them. Note that Trinity uses \"enrichments\" for two different things: these are the **paid** after-school add-ons, while the Lower and Middle School \"Enrichments\" pages list free curricular subjects."
+    }
+  ]
+}

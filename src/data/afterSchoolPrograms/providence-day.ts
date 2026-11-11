@@ -102,7 +102,7 @@ export const providenceDay: AfterSchoolProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'The Activity Day fee is never stated. The school says a separate fee applies on teacher workdays and holidays but publishes no amount — an unbudgetable line item on exactly the days families most need coverage.',
+        text: 'The Activity Day fee is never stated. The school says a separate fee applies on teacher workdays and holidays, but it publishes no amount. So families cannot budget for it, on exactly the days they most need coverage.',
       },
       {
         kind: 'verify',
@@ -209,7 +209,7 @@ export const providenceDay: AfterSchoolProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'The number of billing months is never stated. The fee document publishes monthly rates but not how many months are billed, so an annual total cannot be computed exactly — the school-year figures here assume **9 months** and should be confirmed.',
+        text: 'The number of billing months is never stated. The fee document publishes monthly rates but not how many months are billed, so an annual total cannot be computed exactly. The school-year figures here assume **9 months**. The school has not confirmed that number, so ask how many months it bills.',
       },
       {
         kind: 'gap',
@@ -248,7 +248,7 @@ export const providenceDay: AfterSchoolProgram = {
     headline:
       'Extended Day is a child-development program, not a waiting room — nurturing relationships, flexible scheduling and child-led choice are the school’s own framing.',
     subhead:
-      'The enrichment afternoon is published step by step, and it changes by division: TK and K are collected from their classrooms, grades 1–2 are walked to the Dining Hall, and grades 3–5 make their own way there.',
+      'The school publishes the enrichment afternoon step by step, and it changes by division. TK and K are picked up from their classrooms. Grades 1–2 are walked to the Dining Hall, and grades 3–5 make their own way there.',
     rhythmTitle: 'The enrichment afternoon, division by division',
     rhythm: [
       {
@@ -277,7 +277,7 @@ export const providenceDay: AfterSchoolProgram = {
     wordsTitle: 'The Clubhouse, in the school’s words',
     words: ['study', 'catch up with friends', 'unwind', 'play', 'eat', 'safe & supervised'],
     wordsText:
-      'A drop-in destination for every Middle Schooler, every school day, with no sign-up. Students may **self-register and sign themselves in and out** for practices, games, music lessons and rehearsals — a meaningfully more autonomous model than Lower School. In Lower School, study hall runs for grades 3–5 only, Monday–Thursday, 3:15–4:00 p.m., and is explicitly independent study with no one-on-one academic help.',
+      'A drop-in spot for every Middle Schooler, every school day, with no sign-up. Students may **self-register and sign themselves in and out** for practices, games, music lessons and rehearsals. So Middle Schoolers get much more freedom than younger students. In Lower School, study hall runs for grades 3–5 only, Monday–Thursday, 3:15–4:00 p.m., and is explicitly independent study with no one-on-one academic help.',
     catalogTitle: 'Fall 2026 enrichment classes',
     catalogIntro:
       'The school’s own Fall 2026 packet — real fees, days and grade bands. All classes run **10 sessions**; TK/K classes are $200 and grades 1–5 are $220. Students may take only **one** enrichment program per day, and enrollment in Extended Day is required to attend any of them.',

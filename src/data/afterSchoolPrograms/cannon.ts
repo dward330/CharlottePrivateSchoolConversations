@@ -163,7 +163,7 @@ export const cannon: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'The pricing is effectively hidden from prospective families. The rate card exists only on an orphaned backup URL inside a collapsed accordion; the program page, the tuition page and the official Non-Tuition Fees PDF all omit it — that PDF even lists "After School Program" and "Beyond the Bell" as fee-bearing while assigning them no amount, though it prices everything else down to a $98 AP exam.',
+        text: 'The pricing is effectively hidden from families looking at the school. The rate card exists only on an orphaned backup URL inside a collapsed accordion. The program page, the tuition page and the official Non-Tuition Fees PDF all omit it. That PDF even lists "After School Program" and "Beyond the Bell" as fee-bearing, but gives them no amount. Yet the PDF prices everything else, down to a $98 AP exam.',
       },
       {
         kind: 'gap',
@@ -210,7 +210,7 @@ export const cannon: AfterSchoolProgram = {
       '"Cannon School’s After School Program (ASP) provides students in grades JrK - 8 with a safe, nurturing environment. Students have the opportunity to receive assistance with their homework, play sports, participate in art activities, cook, discover and explore nature, and experience cultivating and observing our garden." The school adds that experiences "foster their individual, developmental, social, and emotional needs" so that "the students truly become adaptive experts". The Admission FAQs stress the flexibility: care "can be used on an as-needed, drop-in basis".',
     catalogTitle: 'Beyond the Bell — Session 3, spring 2026',
     catalogIntro:
-      'Three 10-week sessions run each year for JrK–grade 8, plus private music lessons. The 22 classes below are the most recent published catalog, **9 March to 22 May 2026** — recovered from the school’s own session brochure. Fees are shown per class and per session. Note that Beyond the Bell is a **separate purchase from ASP**: a 3:00–4:00 class does not cover you to 6:00.',
+      'Three 10-week sessions run each year for JrK–grade 8, plus private music lessons. The 22 classes below are the most recent published catalog, **9 March to 22 May 2026** — taken from the school’s own session brochure. Fees are shown per class and per session. Note that Beyond the Bell is a **separate purchase from ASP**: a 3:00–4:00 class does not cover you to 6:00.',
     dayFilters: ['All', 'Mon', 'Tue', 'Wed', 'Thu'],
     gradeFilters: ['All', 'JrK', 'K', '1', '2', '3', '4', '5', '6', '7', '8'],
     classes: [
@@ -248,7 +248,7 @@ export const cannon: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'No hour-by-hour daily rhythm and no staff-to-child ratios are published for the After School Program itself, and Middle School has no separate program description — grades 5–8 sit inside the same JrK–8 program.',
+        text: 'No hour-by-hour daily rhythm and no staff-to-child ratios are published for the After School Program itself. Middle School has no separate program description: grades 5–8 sit inside the same JrK–8 program.',
       },
     ],
     sources: [

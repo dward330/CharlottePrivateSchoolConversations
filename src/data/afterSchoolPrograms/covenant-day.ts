@@ -96,7 +96,7 @@ export const covenantDay: AfterSchoolProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'No enrichment-class catalog is public — LionsWeb registration is login-gated, so class names, days, grades and fees are not published. Third-party listings name piano/guitar/voice lessons, painting, and an After School Children’s Choir (grades 3–5).',
+        text: 'No enrichment-class catalog is public. Registration runs through LionsWeb, which needs a login, so class names, days, grades and fees are not published. Third-party listings name piano/guitar/voice lessons, painting, and an After School Children’s Choir (grades 3–5).',
       },
     ],
     sources: [
@@ -146,14 +146,14 @@ export const covenantDay: AfterSchoolProgram = {
       { label: 'Registration fee', value: 'none published' },
       { label: 'Late-pickup fee', value: 'none published' },
       {
-        label: 'The multi-session rows above are the per-session ladder **summed by the researcher** — the school prices sessions individually ($20 drop-in to $248/month) and publishes the stacked totals only on its annual table.',
+        label: 'The multi-session rows above are the school’s per-session prices, **added up on this page**. The school prices each session on its own ($20 drop-in to $248/month). It publishes the stacked totals only on its annual table.',
         note: true,
       },
     ],
     flags: [
       {
         kind: 'estimate',
-        text: 'Multi-session monthly totals (e.g. **$744/mo** for JK/K to 6:00) are derived by stacking the school’s published per-session rates; the school’s own published figure for that arrangement is the annual **$6,696**. The single-session column is verbatim.',
+        text: 'Multi-session monthly totals (e.g. **$744/mo** for JK/K to 6:00) are derived by adding together the school’s published per-session rates. The school’s own published figure for that arrangement is the annual **$6,696**. The single-session prices are the school’s own published figures.',
       },
       {
         kind: 'verify',
@@ -180,7 +180,7 @@ export const covenantDay: AfterSchoolProgram = {
       '**The published pricing is complete and current-looking** — monthly and annual tables both, on a live page, with the August/December rule stated in plain words.',
     ],
     watchouts: [
-      '**The session system compounds for JK/K**: a 1:30 dismissal means three stacked sessions to reach 6:00 — $744 a month at the monthly rate, against a single-session headline of $248 that is easy to misread as the full cost.',
+      '**The session system compounds for JK/K**: a 1:30 dismissal means three stacked sessions to reach 6:00. That is $744 a month at the monthly rate. The single-session headline is $248, which is easy to misread as the full cost.',
       '**No aftercare for grades 9–12** — high schoolers dismiss at 3:15 into athletics or activities, not a supervised program.',
       '**The enrichment catalog is invisible** — five category names and a login wall. No class, day, grade band or fee is public.',
       '**No late-pickup fee is published**, which usually means one exists in the parent handbook — ask.',

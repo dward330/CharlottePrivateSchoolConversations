@@ -209,7 +209,7 @@ export const charlotteChristian: AfterSchoolProgram = {
     headline:
       'Charlotte Christian is the only school here that publishes an actual timed daily schedule — and it protects a 45-minute homework block in both divisions.',
     subhead:
-      'The Middle School program is deliberately cohort-differentiated, "tailored to the developmental needs of our two distinct cohorts — grades 5 and 6, and grades 7 and 8."',
+      'The Middle School program deliberately splits students into separate age groups. The school says it is "tailored to the developmental needs of our two distinct cohorts — grades 5 and 6, and grades 7 and 8."',
     rhythmTitle: 'The Lower School afternoon, as published',
     rhythm: [
       {
@@ -243,14 +243,14 @@ export const charlotteChristian: AfterSchoolProgram = {
       'supervised free time',
     ],
     wordsText:
-      '"Through organized activities and supervised free time, the Extended Day program is designed to enrich the intellectual, spiritual, social, and physical development of students." Middle School runs the same shape on a compressed clock — attendance and snack 3:00–3:30, activity 3:30–4:00, homework and reading 4:00–4:30, then free play to 5:00. **Snack is not provided in either program**: "Please send your student with a snack and water bottle." Pickup authorization is explicit and enforced — "We will not release your child to anyone other than the parents or those authorized," with ID checks early in the year.',
+      '"Through organized activities and supervised free time, the Extended Day program is designed to enrich the intellectual, spiritual, social, and physical development of students." Middle School follows the same pattern on a shorter clock: attendance and snack 3:00–3:30 · activity 3:30–4:00 · homework and reading 4:00–4:30 · then free play to 5:00. **Snack is not provided in either program**: "Please send your student with a snack and water bottle." Pickup rules are clearly stated and enforced — "We will not release your child to anyone other than the parents or those authorized," with ID checks early in the year.',
     dayFilters: [],
     gradeFilters: [],
     classes: [],
     flags: [
       {
         kind: 'gap',
-        text: 'The after-school club catalog is **deliberately private**: descriptions and registration go out only through the parents’ weekly *Focus* email. The school names the clubs — art, coding, flag football, lacrosse, running, soccer and STEM in Lower School; mountain biking, wrestling, chess, baseball, cheer and esports in Middle School; plus Junior Knights basketball and intramural cheerleading — but publishes **no day, no grade range and no fee** for any of them.',
+        text: 'The after-school club catalog is **deliberately private**: descriptions and registration go out only through the parents’ weekly Focus email. The school does name the clubs. Lower School: art · coding · flag football · lacrosse · running · soccer · STEM. Middle School: mountain biking · wrestling · chess · baseball · cheer · esports. Plus: Junior Knights basketball and intramural cheerleading. But the school publishes **no day, no grade range and no fee** for any of them.',
       },
       {
         kind: 'verify',
@@ -290,7 +290,7 @@ export const charlotteChristian: AfterSchoolProgram = {
       '**A published, structured daily rhythm** for both divisions, with a protected 45-minute homework and reading block. No other school in this set publishes its schedule at all.',
       '**Bridge Care is a real cost innovation** — $125/month to bridge the JK-K 2:20 bell to the grades 1–4 bell, instead of forcing a family onto a full $325 plan.',
       '**Middle School is pay-as-you-go at $8/hour with automatic registration** — no commitment, no form, no minimum. For occasional users this is far friendlier than a monthly tier.',
-      '**The MS program is cohort-differentiated** between grades 5–6 and 7–8 — a real developmental consideration, since 8th and 5th graders in one room is a common failure mode.',
+      '**The MS program splits into separate age groups**: grades 5–6 and 7–8. The split matters at these ages, since putting 8th and 5th graders in one room often goes badly.',
       '**Coverage to 6:00 p.m. for JK–4** is among the later end times in this market, and it is a hard, clearly stated cutoff.',
       '**Explicit, enforced pickup authorization** with ID checks early in the year.',
       '**A deep summer bench** — roughly 100 distinct camps across six weeks, JK–12, including an Orton-Gillingham literacy intervention.',
@@ -314,7 +314,7 @@ export const charlotteChristian: AfterSchoolProgram = {
       'Can I switch tiers mid-year, and is there proration when we do?',
       'Is there any before-school care beyond free 7:15 a.m. campus access?',
       'How much homework actually gets finished in the 45-minute block — is there active help, or is it supervision only?',
-      'For Middle School: how are the 5–6 and 7–8 cohorts physically separated, and what happens between 5:00 p.m. and a later pickup?',
+      'For Middle School: how are the 5–6 and 7–8 groups physically separated, and what happens between 5:00 p.m. and a later pickup?',
       'Does Extended Day run on early-dismissal days automatically, or must we opt in for the $25?',
     ],
     flags: [],

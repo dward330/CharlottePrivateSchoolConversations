@@ -30,7 +30,7 @@ export const davidsonDay: AfterSchoolProgram = {
     headline:
       'After-school care exists for Traditional Toddler through grade 8 — but the pages describing it have been removed from the school’s site, and no rate has ever been published.',
     subhead:
-      'The dismissal times below are current and live. The program hours are recovered from a 2020 archive of a page that no longer exists, and they no longer line up with the current bell schedule.',
+      'The dismissal times below are current and live. The program hours come from a saved copy of a 2020 page that no longer exists, and they no longer line up with the current bell schedule.',
     hours: ['2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
     rows: [
       {
@@ -74,7 +74,7 @@ export const davidsonDay: AfterSchoolProgram = {
       },
       {
         label: 'Before School Care',
-        text: '7:15–7:40 a.m., staffed by full-time Davidson Day teachers at a **7:1** ratio — from the 2020 archive, unconfirmed for 2026-27',
+        text: '7:15–7:40 a.m., staffed by full-time Davidson Day teachers at a **7:1** ratio — from a saved copy of the school’s 2020 page, so it may have changed for 2026-27',
       },
       {
         label: 'Staggered dismissal',
@@ -84,15 +84,15 @@ export const davidsonDay: AfterSchoolProgram = {
     flags: [
       {
         kind: 'stale',
-        text: 'The archived After School Care window of **2:45–6:00 p.m. for TT–8** comes from a capture dated **18 May 2020 — six years old**. It no longer matches the current schedule: 2:45 p.m. is now only the Early Preschool–JK dismissal, while K–4 dismisses at 3:05 and grades 5–8 at 3:25. Whether older students are covered from their own dismissal is unknown.',
+        text: 'The archived After School Care window of **2:45–6:00 p.m. for TT–8** comes from a saved copy of the page dated **18 May 2020 — six years old**. It no longer matches the current schedule: 2:45 p.m. is now only the Early Preschool–JK dismissal, while K–4 dismisses at 3:05 and grades 5–8 at 3:25. Whether older students are covered from their own dismissal is unknown.',
       },
       {
         kind: 'gap',
-        text: 'The **Extended Care and After School Programs pages have been removed from the live site entirely** — both re-verified as 404 in July 2026, and neither appears in the current site map. A 2026-27 family has no published description of the program at all.',
+        text: 'The **Extended Care and After School Programs pages have been removed from the live site entirely**. Both now show a 404 page-not-found error, confirmed in July 2026, and neither appears in the current site map. A 2026-27 family has no published description of the program at all.',
       },
       {
         kind: 'gap',
-        text: 'No summer program is published on the live site, and no summer page exists in the site map. An archived 2019 camp page and a third-party aggregator listing exist but neither is confirmed on any school-owned page.',
+        text: 'No summer program is published on the live site, and no summer page exists in the site map. An archived 2019 camp page and a third-party listing site exist, but the school has not confirmed either one on its own pages.',
       },
       {
         kind: 'gap',
@@ -124,21 +124,21 @@ export const davidsonDay: AfterSchoolProgram = {
 
   dayInside: {
     headline:
-      'The program describes itself as "a safe, engaging, and nurturing environment for supervised play and homework completion" — in words captured from a page that no longer exists.',
+      'The program describes itself as "a safe, engaging, and nurturing environment for supervised play and homework completion" — in words from a page that no longer exists.',
     subhead:
       'No daily schedule, no current program description, and no enrichment catalog is published anywhere on the live site.',
     rhythm: [],
     wordsTitle: 'The program, in its own (archived) words',
     words: ['safe', 'engaging', 'nurturing', 'supervised play', 'homework completion'],
     wordsText:
-      'Students are "subdivided into age- and attendance-appropriate groups as determined by Extended Care staff" and "must be signed out… by a parent or other authorized persons as listed on the Extended Care Application." Notably candid, and unusual to see in writing: the school itself described the roughly **15:1** after-school ratio as "significantly higher than comparable Davidson Day classroom student-to-staff ratios," while noting it "complies with State of North Carolina standards." All of this is from the 2020 capture.',
+      'Students are "subdivided into age- and attendance-appropriate groups as determined by Extended Care staff". They "must be signed out… by a parent or other authorized persons as listed on the Extended Care Application." The next point is unusual to see in writing. The school itself described the roughly **15:1** after-school ratio as "significantly higher than comparable Davidson Day classroom student-to-staff ratios," while noting it "complies with State of North Carolina standards." All of this comes from a saved copy of the school’s 2020 page.',
     dayFilters: [],
     gradeFilters: [],
     classes: [],
     flags: [
       {
         kind: 'stale',
-        text: 'Every quotation above comes from an archived capture dated **May 2020**. The live site carries no program description at all, so none of it is confirmed for 2026-27 — including the 15:1 ratio.',
+        text: 'Every quotation above comes from an archived copy of the page dated **May 2020**. The live site carries no program description at all, so the school has not confirmed any of it for 2026-27, including the 15:1 ratio.',
       },
       {
         kind: 'verify',
@@ -177,13 +177,13 @@ export const davidsonDay: AfterSchoolProgram = {
       '**A long-running program with a real operating history** — the archived material describes an established operation with sign-out procedures and age-appropriate grouping.',
     ],
     watchouts: [
-      '**Total pricing opacity.** No registration fee, no daily or hourly rate, no late-pickup fee, no billing method — nothing, anywhere, including in the 2020 archive. This is long-standing policy, not a broken page.',
+      '**Total pricing opacity.** No registration fee, no daily or hourly rate, no late-pickup fee, no billing method. Nothing appears anywhere, including in the 2020 archive. It appears to be long-standing, not a broken page.',
       '**The program pages have been deleted from the live site.** Both the Extended Care and After School Programs URLs return 404 and neither appears in the site map, so there is no current published description to read.',
       '**Extended care is excluded from financial aid** — "Financial Aid does not cover extended care" — making it a pure out-of-pocket add-on on top of $22,590–$26,910 tuition. Maximum aid still requires families to pay $3,000 a year per student.',
       '**The school itself flagged the ratio.** A roughly 15:1 after-school ratio was described in its own words as "significantly higher than comparable Davidson Day classroom student-to-staff ratios."',
       '**Sign-ups are not released until mid-July**, which is late for families arranging childcare around a work schedule.',
       '**No Upper School coverage**, and a 40-minute spread of staggered dismissals for families with children in more than one division.',
-      '**No enrichment catalog survives at all** — not a single class name, day or fee is recoverable from any source.',
+      '**No enrichment catalog survives at all** — not a single class name, day or fee appears in any source, old or new.',
     ],
     checklist: [
       'What are the actual 2026-27 rates and structure — an annual contract, or drop-in? This is the first question, because nothing is published.',

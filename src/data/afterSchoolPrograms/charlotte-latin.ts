@@ -28,7 +28,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       'Coverage then stops dead: there is no paid after-school care for Middle or Upper School at all, and Middle School is the worst served — its library closes at dismissal.',
     hours: ['1 pm', '2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
     basisNote:
-      'Prices on the bars are the **full-time PER-SEMESTER rate — 5 days a week**, and Latin bills twice a year rather than monthly, so double them for a school year. Pricing is otherwise linear, so 1–4 days a week costs proportionally less; open **The Cost Planner** below to price any combination.',
+      'Prices on the bars are the **full-time PER-SEMESTER rate — 5 days a week**. Latin bills twice a year rather than monthly, so double them for a school year. Otherwise the price goes up evenly with each day, so 1–4 days a week costs proportionally less. Open **The Cost Planner** below to price any combination.',
     rows: [
       {
         division: 'TK & Kindergarten',
@@ -189,7 +189,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'Almost every ancillary fee is unpublished — registration, late pickup, schedule changes, cancellation and refunds, and any drop-in or occasional-use rate. No drop-in option is described anywhere; the model appears to be pre-registered fixed days only. Latin’s summer camp publishes all of these equivalents, so the school clearly can be transparent — the school-year program simply isn’t.',
+        text: 'Almost every other fee is unpublished: registration · late pickup · schedule changes · cancellation and refunds · any drop-in or occasional-use rate. No drop-in option is described anywhere. The model appears to be pre-registered fixed days only. Latin’s summer camp publishes its own version of each one, so the school clearly can publish them. The school-year program simply does not.',
       },
       {
         kind: 'gap',
@@ -256,7 +256,7 @@ export const charlotteLatin: AfterSchoolProgram = {
     catalogTitle: 'The enrichment catalog — 27 classes',
     catalogEstimated: false,
     catalogIntro:
-      'Latin publishes six-, eight- and ten-week enrichment classes "open to all Lower School students", taught by professional instructors. The **class names below are exactly as published** — but the school publishes no day, no grade range and no fee for any of them, so those columns are shown as not published rather than guessed.',
+      'Latin publishes six-, eight- and ten-week enrichment classes "open to all Lower School students", taught by professional instructors. The **class names below are exactly as published**. But the school publishes no day, no grade range and no fee for any of them, so those columns say not published.',
     dayFilters: [],
     gradeFilters: [],
     classes: [

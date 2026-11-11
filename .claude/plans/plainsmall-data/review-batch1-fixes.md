@@ -49,7 +49,7 @@ counting a field as published only when it is not the `—` placeholder:
 |---|--:|--:|--:|--:|
 | cannon | 22 | 22 | 22 | 22 |
 | providence-day | 15 | 15 | 15 | 15 |
-| charlotte-latin | 27 | 0 | 0 | 27 |
+| charlotte-latin | 27 | 0 | 0 | 27, all `'LS'` (the whole Lower School, so no per-class range) |
 | charlotte-prep | 9 | 0 | 0 | 9 |
 | trinity-episcopal | 4 | 0 | 0 | 4 |
 | carmel-christian, charlotte-christian, charlotte-country-day, davidson-day, gaston-day, hickory-grove-christian | 0 | — | — | — |

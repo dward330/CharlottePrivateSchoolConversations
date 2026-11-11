@@ -609,10 +609,10 @@ not committed). The rules are plainclubs':
 `verify` skipped) in the five dirs, using this pattern. `/implement` reruns it at Step 2a:
 
 ```
-BOOKKEEPING_RE = /\bresearcher\b|\bthis project\b|\bour (?:research|search|check)\b|\bwhen checked\b|\bwe (?:found|could|checked|searched)\b|\bcapture[ds]?\b|\brecoverable\b|\brecovered\b|\bsnapshots?\b|\bWayback\b|\bcard is (?:built|omitted)\b|\bis omitted rather than\b|\bshould be confirmed\b|\bused here as\b|\bshown here\b|\bfor comparability\b|\bplanning assumption\b|\bverbatim\b|\bnot independently\b|\bcould not (?:be )?(?:confirm|verify|find|locate)\w*|\bunconfirmed\b|\bto verify\b|\bthe research\b|\bprovenance\b|\bscraped\b|\bshould not be assumed\b|\brather than guessed\b/i
+BOOKKEEPING_RE = /\bresearcher\b|\bthis project\b|\bour (?:research|search|check)\b|\bwhen checked\b|\bwe (?:found|could|checked|searched)\b|\bcapture[ds]?\b|\brecoverable\b|\brecovered\b|\bsnapshots?\b|\bWayback\b|\bcard is (?:built|omitted)\b|\bis omitted rather than\b|\bshould be confirmed\b|\bused here as\b|\bshown here\b|\bfor comparability\b|\bplanning assumption\b|\bverbatim\b|\bnot independently\b|\bcould not (?:be )?(?:confirm|verify|find|locate)\w*|\bunconfirmed\b|\bto verify\b|\bthe research\b|\bprovenance\b|\bscraped\b|\bshould not be assumed\b|\brather than guessed\b|\bre-?verified\b|\bcurrently shows nothing\b/i
 ```
 
-The last two alternatives were added after the sweep, to catch the two units it missed.
+The last four alternatives were added after the sweep. `should not be assumed` and `rather than guessed` catch the two units it missed. `re-?verified` and `currently shows nothing` catch two the Batch 1 reviewer found.
 Global Exposure, Learning Support and High School Placement have **no hits**.
 
 **W** = on the worklist (rewritten in its batch's wording pass). **+** = off the worklist
@@ -851,9 +851,9 @@ shipped*) only after Batch 3.
 
 | Batch | Commit | Review file(s) | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
-| 1 (Part 1) | "plainsmall: skip never-rendered flags in the plain-language checker" | — | — | — |
-| 1 (fixes) | "plainsmall: batch 1 fixes — Cannon catalog claim, CCD UltraCamp note to verify" (SHA: ) | review-batch1-fixes.md | — | |
-| 1 | "plainsmall: batch 1 English — After School" | review-batch1.md | | |
+| 1 (Part 1) | "plainsmall: skip never-rendered flags in the plain-language checker" (`68cf86e6`) | — | — | — |
+| 1 (fixes) | "plainsmall: batch 1 fixes — Cannon catalog claim, CCD UltraCamp note to verify" (SHA: `dcebb7f2`) | [review-batch1-fixes.md](plainsmall-data/review-batch1-fixes.md) | — | |
+| 1 | "plainsmall: batch 1 English — After School" | [review-batch1.md](plainsmall-data/review-batch1.md) | 15 in 11 rows, all fixed (mostly bare referents after a split, plus one weakened and one strengthened claim, and three lines that still sounded unsure); plus 5 issues outside the rows, all fixed (3 bookkeeping lines the sweep missed, 1 unhedged inference, 1 not-found form) | |
 | 2 | "plainsmall: batch 2 English — Global Exposure" | review-batch2.md | | |
 | 3 (fixes) | "plainsmall: batch 3 fixes — Prep price note to verify" (SHA: ) | review-batch3-fixes.md | — | |
 | 3 | "plainsmall: batch 3 English — Summer, Learning Support, HSP, chrome" | review-batch3-{summer,learning,hsp}.md | | |
@@ -1787,8 +1787,187 @@ No skill or slash command changes, so `.claude/SKILLS.md` is not touched.
 
 | Path | After-grade | Reason |
 |---|--:|---|
+| — | — | **Batch 1: none.** All 47 changed After School units are at grade ≤10, and the 2 fixes-commit units too. |
 
 ## Implementation notes
 
 *Filled in by `/implement`, one section per batch, then Phase 2. Batch 1 opens with the
 Part 1 baseline table (`npm run check:plain`, per area) and the calibration results.*
+
+### Batch 1 — Part 1, the checker fix (2026-11-10, `68cf86e6`)
+
+**Built as designed.** `src/lib/flagVisibility.ts` holds `DEV_ONLY_FLAG_KINDS` and
+`HIDDEN_FLAG_KINDS`. `toVerify.ts` `visibleFlags(topic, flags)` delegates to it, and the
+five components pass their topic slug. `check_plain_language.mjs` gained
+`hiddenFlagPredicate()`, passed into `proseUnits()` as an optional 4th argument, so the
+walk is unchanged without it. `plain_review.mjs` worklists leave the topic's hidden kinds
+out by default. `scripts/check_flag_visibility.mjs` is `npm run check:flags`, chained after
+`check:spelling`. CLAUDE.md's plain-language Scope paragraph names the module and the
+check.
+
+**Proof.**
+- **Tests:** `npm run test:plain` 32/32 (26 before; tests A–F added). With
+  `HIDDEN_FLAG_KINDS` emptied for one run, A, D and E fail, as they should. F's six
+  fixtures each fail with their own message.
+  - One fixture lesson: a report test needs **two different texts**, because `--report`
+    de-duplicates units by text. With one shared text, E passed vacuously.
+  - Flags must sit **under a card** in a fixture, since `*.flags[].kind` is a pinned
+    non-prose path only below a prefix.
+- **Default skip:** with the hidden list emptied, `plain_review --dir clubsPrograms --layers
+  --worklist` lists 22 hidden flags. With it restored, 0.
+- **`check:flags`:** "5 flag-rendering component(s), 5 visibleFlags() call(s)".
+- **Rendering unchanged:** `vite preview` vs the live site (= `main`), on 8 pages, gave the
+  same flag chips: Clubs PD/Cannon/Christian/CCD (1 NOT-A-CLUB chip each), After School
+  CCD 5 and Covenant 2, College Support PD 3, Summer Covenant 3. On `vite` dev, Davidson
+  Day After School still shows its 2 TO VERIFY chips, and Clubs still shows no GAP or
+  COUNT chip.
+- **Clubs hook loop:** 0 issues (was 20, all on hidden flags).
+
+**`npm run check:plain` baseline after Part 1** (every row but student-clubs is identical
+to the Context table):
+
+| Area | Prose units | Flagged | Jargon | >30-word sentence | Grade >10 | Grade >12 |
+|---|--:|--:|--:|--:|--:|--:|
+| admissions | 1353 | 0 | 0 | 0 | 0 | 0 |
+| sports | 1307 | 79 | 0 | 70 | 85 | 46 |
+| the-arts | 1280 | 0 | 0 | 0 | 0 | 0 |
+| **student-clubs** | **1030** (was 1063) | **0** (was 16) | 0 | **0** (was 10) | **0** (was 19) | **0** (was 10) |
+| college-support | 2042 | 0 | 0 | 0 | 8 | 0 |
+| after-school | 1097 | 29 | 3 | 21 | 33 | 19 |
+| high-school-placement | 131 | 2 | 0 | 2 | 3 | 1 |
+| summer-programs | 1590 | 13 | 0 | 12 | 17 | 8 |
+| international-travel | 1296 | 22 | 1 | 16 | 26 | 18 |
+| learning-support | 630 | 8 | 2 | 3 | 8 | 5 |
+| course-offerings | 3173 | 95 | 37 | 46 | 68 | 58 |
+| financial-aid-report | 966 | 0 | 0 | 0 | 0 | 0 |
+| metric-values | 902 | 37 | 7 | 26 | 51 | 19 |
+| chrome | 803 | 5 | 5 | 0 | 1 | 0 |
+| financial-aid-tuition | 45 | 2 | 0 | 2 | 4 | 2 |
+| **Total** | **17645** | **292** | 55 | 198 | 304 | 176 |
+
+**One consequence not spelled out in the plan.** `check:spelling` reads units through the
+same loader, so hidden clubs flags now leave the spelling gate too, as `verify` flags
+always have. It is the same definition of parent-facing prose. All 33 hidden flags pass
+spelling today (`check:spelling`: 0 British forms in 17,600 units).
+
+### Batch 1 — tooling: `--small-markers` (2026-11-10)
+
+**Classes as built** (Step 1e, then narrowed by calibration; each narrowing is commented
+in the script):
+- `EXTRA` drops bare "paid" ("paid in full" is a payment rule).
+- The borrowed aid `COVERED` / `NOTCOVERED` are **replaced** by narrow `INCLUDED` and
+  `EXCLUDED`. "includes" / "covers" fire on lists and tables outside Financial Aid: 25+
+  approved College Support hits. `EXCLUDED` also counts "leaves out", "left out", "not
+  counted", "omit…" and "absent".
+- `DOCUMENTATION` drops bare "documented", which means "on record" in Clubs and Arts.
+- `ENROLLED` drops "attend", and limits "went to" to "went (on) to … schools". Faculty
+  "attend" conferences; awards "went to other schools".
+- `ACCEPTED` adds "got into" and "offer(s) of admission".
+- `STALE` gained "archived?", "saved copy/copies" and "old page(s)" for the bookkeeping
+  rewrites.
+
+**Negative tests (8):** STALE, GATED, EXTRA, CAPACITY, FREE, DERIVED, (n) and (l). Each
+exited 1 naming its class and `slug:path`, and each file was restored `cmp`-clean. Two
+fault choices had to move:
+- **EXTRA's planted fault was inside a school quote** (Trinity "for an additional fee"),
+  and Trinity's "**paid** … add-ons" kept the class present. It moved to Cannon
+  "fee-bearing".
+- **CAPACITY's Carmel unit also says "now full"**, so the class stayed present (the guard
+  tracks presence, not counts). It moved to Carmel `cost.fees[7]` "first-come".
+
+**Calibration** (worktrees at each merge; the new `plain_review.mjs` and
+`src/lib/flagVisibility.ts` copied in, then removed):
+
+| Area | Without `--small-markers` | With | New (h) | New (n) |
+|---|--:|--:|--:|--:|
+| College Support | 3 (matches) | 33 | 21 | 9 |
+| Admissions | 16 (matches) | 30 | 8 | 6 |
+| Financial Aid | 2 (matches) | 15 | 3 | 10 |
+| The Arts | 0 (matches) | 3 | 3 | 0 |
+| Student Clubs | 295 (the #479 club-list rebuild and its structural changes) | 297 | 2 | 0 |
+
+- **Every remaining hit was read; none is a past slip.**
+  - The (n) hits are College, Admissions and Aid splits made before guard (n) existed.
+  - Most (h) hits are borrowed classes (CLAIM, VERIFIED, ONLY, FIRST, DERIVED, BOUND,
+    THIRDPARTY) in plans written before those classes existed.
+  - The rest are approved synonym swaps: "verifiable" → "can check", "attested" →
+    "appear", "excluded" → "leaves out", "attend" → "went to". The four that looked like
+    slips (Latin `scholarshipsNote`, PD `edge.headline`, Cannon `mechanicsNote`, PD
+    clubs `affinity.leadership`) were read in full: all are synonyms.
+- **Default mode is unchanged:** the old and new script on the Arts row give identical
+  `--out` files (157 lines, 0 diff lines).
+
+### Batch 1 — After School English (2026-11-10)
+
+**Fixes commit `dcebb7f2`** (Step 2a), as the plan describes:
+- the Cannon fact fix, with the catalog counts re-measured the same day;
+- the CCD UltraCamp move, with its verify flag appended at `dayInside.flags[4]`.
+
+Guards without `--check` gave exactly the 4 expected hits ((n) "six"; (f) ×2 for the new
+flag's leaves; (l) the bold moving with it). Evidence is in
+[review-batch1-fixes.md](plainsmall-data/review-batch1-fixes.md). The reviewer later
+corrected one fact there: Latin's 27 grade labels are all `'LS'`.
+
+**Worklist:** 36, as predicted (38 − Cannon − CCD). The bookkeeping allow file
+(`worklist-bookkeeping-batch1.json`) grew from 7 to 11 units:
+- +1 restoring a near-repeat: CCD `dayInside.flags[0]` keeps the lead "The enrichment
+  catalog is invisible to prospective families", shared with `verdict.watchouts[6]`;
+- +3 bookkeeping lines the reviewer found and the sweep missed: CCD
+  `verdict.watchouts[6]`, Davidson Day `coverage.flags[1]` and `[2]`.
+
+That made **47 rows** in `review-batch1.md`, all `hook: pass`, 0 above grade 10, and
+`--check` exits 0. The After School hook loop reports **0 issues** (29 flagged units
+before).
+
+**Deviations from the plan's wording, each forced by a guard class or a reviewer
+finding:**
+- **"saved 2020 copy" misses the STALE pattern** (the year splits "saved copy"). Davidson
+  Day now reads "a saved copy of a 2020 page" / "a saved copy of the school's 2020 page".
+  **Batch 3 (Hickory Grove Summer): use "saved copy/copies of …", never "saved 2020 copy".**
+- **Davidson Day `dayInside.flags[0]` keeps VERIFIED** as "the school has not confirmed
+  any of it for 2026-27". The plan's "has not published" would swap VERIFIED for
+  UNPUBLISHED.
+- **Davidson Day `coverage.facts[1]`:** "unconfirmed for 2026-27" became "so it may have
+  changed for 2026-27" (the drafter), then "a saved copy of the school's 2020 page"
+  (the reviewer).
+- **Davidson Day `verdict.watchouts[6]`:** "no source, old or new, names…" read as
+  not-published. It now follows plainclubs' not-found form ("…appears in any source, old
+  or new").
+- **Providence Day `cost.flags[0]`** keeps VERIFIED: "The school has not confirmed that
+  number, so ask how many months it bills."
+- **Charlotte Latin `cost.flags[1]`:** "ancillary" → "other", not "extra", since "extra
+  fee" would add the EXTRA class.
+
+**Checks:**
+- **Build:** `npx tsc -b` and `npx vite build` are clean.
+- **Step 6 list:** all green. That is `check:schema`, `check:spelling`, `check:flags`,
+  `check:travelrows`, `check:matrices`, `check:schoolurls`, `check:chrome`,
+  `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`, `check:photos` and
+  `test:plain`.
+- **`check:live`:** **40 stale `after-school` stamps per locale**, and no other topic.
+  This is Phase 2's input.
+
+**Browser** (headed Chrome, `vite preview`, `?topic=after-school&lang=en`, every card open):
+- **47 of 48 changed units render with their bold** (the 47 rows plus Cannon's fixes-commit
+  unit). No literal `*` appears in any After School section. Christian's "Focus" now
+  renders plain, and the 390px view shows no overflow.
+- **The CCD verify note** shows on `vite` dev and is absent on preview.
+- **The one miss is a pre-existing render gap, not a defect of this batch.**
+  `AfterSchool.tsx` (~line 760) renders the enrichment catalog **only when
+  `dayInside.classes` is non-empty**, and `catalogIntro` sits inside it. So
+  `catalogIntro` never renders for **Carmel Christian** ("the 2026-2027 offerings are not
+  yet published") or **Gaston Day** ("coming soon"). Both are parent-relevant
+  not-published notes that no reader sees.
+  - Part 1's field sweep missed this: it looked for field names the component never
+    references, not for conditional renders. `check:plain` still counts both units.
+  - Showing the intro without a catalog is a component change, so it goes under
+    Candidates for the user, not into this diff.
+  - **Batch 3:** check Summer's `catalog.intro` for the same pattern before rewriting.
+
+### Candidates noticed, not acted on
+- **The After School `catalogIntro` render gap** (above), for Carmel Christian and Gaston
+  Day. Either render the intro when `classes` is empty, or move the note into a rendered
+  field. Both need the UX gate.
+- **`scripts/plain_language.json` jargon candidates** seen in Batch 1: "orphaned" (Cannon's
+  "orphaned backup URL", kept because the clause is shared byte-identically) and
+  "opacity" (Davidson Day's bold "Total pricing opacity.", kept as a bold span).
