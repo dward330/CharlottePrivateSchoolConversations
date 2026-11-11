@@ -353,7 +353,7 @@ the research verb goes, and the marker class stays.
 Step 2a (plainsmall's pattern plus the Sports additions after `un-researched`):
 
 ```
-BOOKKEEPING_RE = /\bresearcher\b|\bthis project\b|\bour (?:research|search|check)\b|\bwhen checked\b|\bwe (?:found|could|checked|searched)\b|\bcapture[ds]?\b|\brecoverable\b|\brecovered\b|\bsnapshots?\b|\bWayback\b|\bcard is (?:built|omitted)\b|\bis omitted rather than\b|\bshould be confirmed\b|\bused here as\b|\bshown here\b|\bfor comparability\b|\bplanning assumption\b|\bverbatim\b|\bnot independently\b|\bcould not (?:be )?(?:confirm|verify|find|locate)\w*|\bunconfirmed\b|\bto verify\b|\bthe research\b|\bprovenance\b|\bscraped\b|\bshould not be assumed\b|\brather than guessed\b|\bre-?verified\b|\bcurrently shows nothing\b|\bthis research\b|\bun-researched\b|\bfetch(?:ed)?\b|\bdeeper pass\b|\bclasses reviewed\b|\bdouble-counted\b|\bshould be carried\b|\breproduced as published\b|\btreated as authoritative\b|\bwould be needed\b|\bnot reachable\b/i
+BOOKKEEPING_RE = /\bresearcher\b|\bthis project\b|\bour (?:research|search|check)\b|\bwhen checked\b|\bwe (?:found|could|checked|searched)\b|\bcapture[ds]?\b|\brecoverable\b|\brecovered\b|\bsnapshots?\b|\bWayback\b|\bcard is (?:built|omitted)\b|\bis omitted rather than\b|\bshould be confirmed\b|\bused here as\b|\bshown here\b|\bfor comparability\b|\bplanning assumption\b|\bverbatim\b|\bnot independently\b|\bcould not (?:be )?(?:confirm|verify|find|locate|retriev)\w*|\bunconfirmed\b|\bto verify\b|\bthe research\b|\bprovenance\b|\bscraped\b|\bshould not be assumed\b|\brather than guessed\b|\bre-?verified\b|\bcurrently shows nothing\b|\bthis research\b|\bun-researched\b|\bfetch(?:ed)?\b|\bdeeper pass\b|\bclasses reviewed\b|\bdouble-counted\b|\bshould be carried\b|\breproduced as published\b|\btreated as authoritative\b|\bwould be needed\b|\bnot reachable\b/i
 ```
 
 Known false positive: Covenant `record.seasonDetail[0].text` "**captured** the first-ever
@@ -1816,12 +1816,22 @@ re-checked in the browser.
 
 ### Candidates noticed, not acted on
 
-- **Gaston `facilities.care[3].text`** (off-worklist, not on the census): "…but both sit behind
-  the JS-rendered layer and could not be retrieved." is research bookkeeping that
-  `BOOKKEEPING_RE` misses ("could not be retrieved"). Left for a later pass.
-- **Hook sentence splitter:** "Division I." at a sentence end is read as an initial, so the next
-  sentence is joined to it. Worked around in HG `realityCheck`; a splitter fix would be a tooling
-  change outside this plan.
+- **Gaston `facilities.care[3].text` — FIXED 2026-11-11 at the user's request** (own commit after
+  Batch 5). "…but both sit behind the JS-rendered layer and could not be retrieved." → "…but not
+  in a form this page can show." (the Gaston `offered.footnote` / `careNote` wording). Guard (p)
+  fires on "JS-rendered" by design, as at the footnote. `BOOKKEEPING_RE` above now also matches
+  "could not be retrieved" (`retriev`).
+- **Hook sentence splitter — FIXED 2026-11-11 at the user's request** (same commit).
+  `sentences()` in `scripts/check_plain_language.mjs` protected every lone capital before a
+  period as an initial, so "Division I. The school …" read as one sentence. A lone capital after
+  a designator word (Division, Phase, Level, Tier, Title, Part, War, Class) now ends a sentence;
+  initials ("C.J. Huntley", "J. Smith") still do not. Two assertions in
+  `check_plain_language.test.mjs`; the negative test (old regex restored) fails on "Division I.
+  ends a sentence", and `cmp` was clean after restore. `npm run check:plain` is byte-identical
+  before and after across the whole corpus, so no other unit's result moves. HG `realityCheck`
+  keeps "Division I programs." (plain either way).
+- After these two fixes, `check:live` reads **114** stale stamps per locale, all in `sports`
+  (113 + Gaston `care[3]`). This is Phase 2's input.
 
 - **Guard (p) singular/plural:** "Levels" → "level" fails as "name gone". (p) could compare
   sentence-start words case- and number-insensitively. Not changed (no tooling change outside

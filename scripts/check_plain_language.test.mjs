@@ -116,6 +116,8 @@ test('8. sentence splitting', () => {
   assert.equal(sentences('Doors open at 7:30 a.m. on weekdays. Aftercare runs to 6 p.m.').length, 2)
   assert.equal(sentences('The GPA scale tops out at 4.33 for AP courses.').length, 1)
   assert.equal(sentences('Dr. Smith and St. Mary’s, e.g. the U.S. teams, joined.').length, 1)
+  assert.equal(sentences('C.J. Huntley led the team. J. Smith coached.').length, 2, 'initials do not split')
+  assert.equal(sentences('Commits reach Division II as well as Division I. The school publishes no list.').length, 2, 'Division I. ends a sentence')
 })
 
 test('8b. a spaced middle dot separates list items', () => {

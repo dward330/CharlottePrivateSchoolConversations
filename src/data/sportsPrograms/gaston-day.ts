@@ -381,7 +381,7 @@ export const gastonDay: SportsProgram = {
       },
       {
         label: 'Governing documents',
-        text: 'The athletics site references an Athletic Department Handbook 2026-2027 and tryout information, but both sit behind the JS-rendered layer and could not be retrieved.',
+        text: 'The athletics site references an Athletic Department Handbook 2026-2027 and tryout information, but not in a form this page can show.',
       },
     ],
     careNote:
