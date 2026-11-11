@@ -1830,8 +1830,17 @@ re-checked in the browser.
   ends a sentence", and `cmp` was clean after restore. `npm run check:plain` is byte-identical
   before and after across the whole corpus, so no other unit's result moves. HG `realityCheck`
   keeps "Division I programs." (plain either way).
-- After these two fixes, `check:live` reads **114** stale stamps per locale, all in `sports`
-  (113 + Gaston `care[3]`). This is Phase 2's input.
+- **Gaston "JavaScript-rendered" wording — FIXED 2026-11-11 at the user's request** (own commit,
+  before Phase 2 began translating). `facilities.subhead` "…the weakest part of the public
+  record here — the school publishes no facility inventory, and the athletics site is
+  JavaScript-rendered." → "…the weakest part of the school’s public record: the school publishes
+  no facility inventory." Two source labels lose their research notes: "(JS-rendered; no
+  extractable roster data)" is dropped and "(handbook referenced; JS-rendered)" becomes
+  "(handbook referenced)". Source labels are not extracted (no overlay change); the subhead is.
+  Guards (f) on the two labels and (p) on "JavaScript-rendered" fire by design. No
+  JavaScript wording is left on any rendered Sports unit or label.
+- After these fixes, `check:live` reads **115** stale stamps per locale, all in `sports`
+  (113 + Gaston `care[3]` + Gaston `facilities.subhead`). This is Phase 2's input.
 
 - **Guard (p) singular/plural:** "Levels" → "level" fails as "name gone". (p) could compare
   sentence-start words case- and number-insensitively. Not changed (no tooling change outside

@@ -112,7 +112,7 @@ export const gastonDay: SportsProgram = {
       { label: 'MaxPreps — Gaston Day Spartans (sport list by gender and season)', url: MAXPREPS },
       { label: 'MaxPreps — Gaston Day volleyball (varsity / JV / freshman levels, 2A classification)', url: MAXPREPS_VB },
       { label: 'gastonday.org — Academic Profile 2025-2026 (Athletic Director)', url: PROFILE },
-      { label: 'gastondayathletics.com — Spartan Athletics (JS-rendered; no extractable roster data)', url: ATHLETICS },
+      { label: 'gastondayathletics.com — Spartan Athletics', url: ATHLETICS },
     ],
   },
 
@@ -348,7 +348,7 @@ export const gastonDay: SportsProgram = {
     headline:
       'A 60-acre campus supporting 19 sports, with the athletics department run by a single named director.',
     subhead:
-      'Venue-level detail is the weakest part of the public record here — the school publishes no facility inventory, and the athletics site is JavaScript-rendered.',
+      'Venue-level detail is the weakest part of the school’s public record: the school publishes no facility inventory.',
     venues: [
       {
         name: 'Campus',
@@ -389,7 +389,7 @@ export const gastonDay: SportsProgram = {
     sources: [
       { label: 'gastonday.org — Academic Profile 2025-2026 (Athletic Director, five-county draw)', url: PROFILE },
       { label: 'Private School Review — Gaston Day School profile (60-acre campus)', url: 'https://www.privateschoolreview.com/gaston-day-school-profile' },
-      { label: 'gastondayathletics.com — Spartan Athletics (handbook referenced; JS-rendered)', url: ATHLETICS },
+      { label: 'gastondayathletics.com — Spartan Athletics (handbook referenced)', url: ATHLETICS },
       { label: 'gastonday.org — Middle School (grades 6-8 athletics and eligibility)', url: 'https://www.gastonday.org/middle-school/' },
     ],
   },
