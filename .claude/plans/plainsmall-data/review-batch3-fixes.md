@@ -45,4 +45,12 @@ the verify flag.
 - gaston-day summer `catalog.camps[17..22].desc` (6 camps): "Registration closed at the time
   of this research." The census predates the `this research` alternative.
 - charlotte-latin summer `costPlanner.flags[0].text`: "The site was searched for all four
-  terms" (our search process), found by the wider first-person sweep.
+  terms" (our search process), found by the wider first-person sweep. **Moved in a second
+  fixes commit** (below), because the rewrite dropped the count word "four" and guard (n)
+  fails on that in the wording pass.
+
+## Second fixes commit — Latin search note to verify
+
+| Unit | Treatment | Reason |
+|---|---|---|
+| charlotte-latin summer `costPlanner.flags[0].text` | **Move** | "The site was searched for all four terms" describes this site's search, not what the school publishes. The sentence moved verbatim into a dev-only `{ kind: 'verify' }` flag appended to `costPlanner.flags` (it becomes `flags[1]`; `flags[0]` keeps its index). The gap flag keeps the parent point: "Latin publishes **no sibling discount and no multi-week discount**, and no camp financial aid. The only thing the school’s site calls a discount is the Super Care bundle." UNPUBLISHED and ONLY stay; "four" survives in the verify flag. |

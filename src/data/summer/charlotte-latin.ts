@@ -1050,7 +1050,11 @@ export const charlotteLatin: SummerProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'Latin publishes **no sibling discount and no multi-week discount**, and no camp financial aid. The site was searched for all four terms; the only thing it calls a discount is the Super Care bundle.',
+        text: 'Latin publishes **no sibling discount and no multi-week discount**, and no camp financial aid. The only thing the school’s site calls a discount is the Super Care bundle.',
+      },
+      {
+        kind: 'verify',
+        text: 'The site was searched for all four terms; the only thing it calls a discount is the Super Care bundle.',
       },
     ],
     sources: [
