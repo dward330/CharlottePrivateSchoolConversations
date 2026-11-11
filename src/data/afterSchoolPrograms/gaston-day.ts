@@ -230,7 +230,7 @@ export const gastonDay: AfterSchoolProgram = {
       'The school frames the afternoon as play first, then structure. First: students arrive to unstructured play. Then they move into a separate homework and snack time, come together for a STEAM-and-collaboration block, and return to their own choice of activity. Middle School students waiting for music lessons may work on homework at no charge. That arrangement is the one stated link with another school program.',
     catalogTitle: 'Enrichment classes',
     catalogIntro:
-      'The school lists enrichment programs as **“coming soon”** at the time of this research, so there is no class catalog to show. This is a genuine absence rather than an un-researched gap — the section exists on the page with no offerings in it.',
+      'The school lists enrichment programs as **“coming soon”**, so there is no class catalog to show. The section is on the school’s page, but it lists no offerings yet.',
     dayFilters: [],
     gradeFilters: [],
     classes: [],

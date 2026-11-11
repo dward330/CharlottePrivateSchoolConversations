@@ -5,13 +5,15 @@
   "slugs": [
     "cannon",
     "davidson-day",
-    "charlotte-country-day"
+    "charlotte-country-day",
+    "gaston-day"
   ],
-  "total": 11,
+  "total": 12,
   "counts": {
     "cannon": 1,
     "davidson-day": 8,
-    "charlotte-country-day": 2
+    "charlotte-country-day": 2,
+    "gaston-day": 1
   },
   "units": [
     {
@@ -134,6 +136,17 @@
         "bookkeeping (reviewer find)"
       ],
       "text": "No summer program is published on the live site, and no summer page exists in the site map. An archived 2019 camp page and a third-party aggregator listing exist but neither is confirmed on any school-owned page."
+    },
+    {
+      "at": "gaston-day:dayInside.catalogIntro",
+      "slug": "gaston-day",
+      "path": "dayInside.catalogIntro",
+      "words": 44,
+      "grade": 8.614285714285717,
+      "rules": [
+        "bookkeeping (renders since the catalogIntro component fix)"
+      ],
+      "text": "The school lists enrichment programs as **“coming soon”** at the time of this research, so there is no class catalog to show. This is a genuine absence rather than an un-researched gap — the section exists on the page with no offerings in it."
     }
   ]
 }

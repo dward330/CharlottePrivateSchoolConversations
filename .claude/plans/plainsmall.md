@@ -609,10 +609,10 @@ not committed). The rules are plainclubs':
 `verify` skipped) in the five dirs, using this pattern. `/implement` reruns it at Step 2a:
 
 ```
-BOOKKEEPING_RE = /\bresearcher\b|\bthis project\b|\bour (?:research|search|check)\b|\bwhen checked\b|\bwe (?:found|could|checked|searched)\b|\bcapture[ds]?\b|\brecoverable\b|\brecovered\b|\bsnapshots?\b|\bWayback\b|\bcard is (?:built|omitted)\b|\bis omitted rather than\b|\bshould be confirmed\b|\bused here as\b|\bshown here\b|\bfor comparability\b|\bplanning assumption\b|\bverbatim\b|\bnot independently\b|\bcould not (?:be )?(?:confirm|verify|find|locate)\w*|\bunconfirmed\b|\bto verify\b|\bthe research\b|\bprovenance\b|\bscraped\b|\bshould not be assumed\b|\brather than guessed\b|\bre-?verified\b|\bcurrently shows nothing\b/i
+BOOKKEEPING_RE = /\bresearcher\b|\bthis project\b|\bour (?:research|search|check)\b|\bwhen checked\b|\bwe (?:found|could|checked|searched)\b|\bcapture[ds]?\b|\brecoverable\b|\brecovered\b|\bsnapshots?\b|\bWayback\b|\bcard is (?:built|omitted)\b|\bis omitted rather than\b|\bshould be confirmed\b|\bused here as\b|\bshown here\b|\bfor comparability\b|\bplanning assumption\b|\bverbatim\b|\bnot independently\b|\bcould not (?:be )?(?:confirm|verify|find|locate)\w*|\bunconfirmed\b|\bto verify\b|\bthe research\b|\bprovenance\b|\bscraped\b|\bshould not be assumed\b|\brather than guessed\b|\bre-?verified\b|\bcurrently shows nothing\b|\bthis research\b|\bun-researched\b/i
 ```
 
-The last four alternatives were added after the sweep. `should not be assumed` and `rather than guessed` catch the two units it missed. `re-?verified` and `currently shows nothing` catch two the Batch 1 reviewer found.
+The last four alternatives were added after the sweep. `should not be assumed` and `rather than guessed` catch the two units it missed. `re-?verified` and `currently shows nothing` catch two the Batch 1 reviewer found. `this research` and `un-researched` catch Gaston's catalog intro, which renders only since the component fix.
 Global Exposure, Learning Support and High School Placement have **no hits**.
 
 **W** = on the worklist (rewritten in its batch's wording pass). **+** = off the worklist
@@ -1964,10 +1964,39 @@ finding:**
     Candidates for the user, not into this diff.
   - **Batch 3:** check Summer's `catalog.intro` for the same pattern before rewriting.
 
+### Batch 1 — the `catalogIntro` render fix (2026-11-10, user approval)
+
+The user approved the component change after the Batch 1 report: "You have my ok on
+changing the component".
+- **The change.** `AfterSchool.tsx` now renders `dayInside.catalogIntro` as a plain
+  `as-note` paragraph when `classes` is empty. Before, it was dropped along with the empty
+  catalog. There is no "Enrichment Classes" heading over an empty list, per CLAUDE.md's
+  no-empty-shell rule. Schools with classes are unchanged, since the intro still renders
+  inside `EnrichmentCatalog`.
+- **Browser** (`vite preview`):
+  - Carmel Christian and Gaston Day now show their intro in `en`. `es` falls back to
+    English for Carmel's rewritten intro until Phase 2; Gaston's shows its old
+    translation, which goes stale with the edit below.
+  - Neither page draws a catalog table.
+  - Cannon and Latin still draw theirs, with the intro inside.
+  - Carmel at 390px: `scrollWidth` = `clientWidth` (375).
+- **Gaston's intro now renders, so its bookkeeping became parent-facing.** "at the time of
+  this research … a genuine absence rather than an un-researched gap" →
+  "The school lists enrichment programs as **“coming soon”**, so there is no class catalog
+  to show. The section is on the school’s page, but it lists no offerings yet." It is the
+  12th unit in `worklist-bookkeeping-batch1.json`, making 48 rows, all `hook: pass`, and
+  guards exit 0.
+- **Summer checked for the same gap:** no Summer school has an empty `catalog.camps`, so
+  `catalog.intro` always renders.
+- `check:plain` still counts `catalogIntro` everywhere. It now renders everywhere it is
+  set, so the count is right.
+
 ### Candidates noticed, not acted on
-- **The After School `catalogIntro` render gap** (above), for Carmel Christian and Gaston
-  Day. Either render the intro when `classes` is empty, or move the note into a rendered
-  field. Both need the UX gate.
 - **`scripts/plain_language.json` jargon candidates** seen in Batch 1: "orphaned" (Cannon's
   "orphaned backup URL", kept because the clause is shared byte-identically) and
   "opacity" (Davidson Day's bold "Total pricing opacity.", kept as a bold span).
+- **A hardcoded English string in `AfterSchool.tsx`** (~line 705): "No classes match — try
+  clearing the search or filters." is bare JSX, so it renders in English in every locale.
+  Moving it to a `src/locales` key is a separate i18n fix.
+- **Other hardcoded hint:** `EnrichmentCatalog`'s `'— illustrative catalog'` heading hint is
+  also bare English (it shows only when `catalogEstimated` is set).
