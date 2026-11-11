@@ -5809,7 +5809,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'Early Childhood Program',
               tag: 'Age 2 – JK',
               description:
-                'Early Preschool (2s/3s), Preschool (3s/4s), and Junior Kindergarten (4s/5s) target cognitive skills, language development, motor skills, executive functioning, and social-emotional wellness.',
+                'Early Preschool (2s/3s), Preschool (3s/4s), and Junior Kindergarten (4s/5s) target cognitive skills, language development, fine and gross motor skills, executive functioning, and social-emotional wellness.',
             },
             {
               title: 'Specials',
@@ -5932,7 +5932,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'English II Honors',
               tag: 'Honors',
               description:
-                'Reads A Long Way Gone, Much Ado About Nothing, and Predictably Irrational, extending English II skills through scaffolded responses.',
+                'Reads fiction and nonfiction such as A Long Way Gone, Much Ado About Nothing, and Predictably Irrational, extending English II skills through scaffolded responses and added writing.',
             },
             {
               title: 'English III Honors',
@@ -6073,7 +6073,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'Civics Honors',
               tag: 'Honors',
               description:
-                'The Civics course with added analytical rigor, primary-source interpretation, and AP-style writing prompts.',
+                'The Civics course with added analytical rigor, primary-source interpretation, and AP-style writing prompts to prepare for AP World History.',
             },
             {
               title: 'World History Honors',
