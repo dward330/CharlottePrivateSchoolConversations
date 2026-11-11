@@ -58,7 +58,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Davidson Day School](course-offerings/davidson-day.md) — 1 docs
 - [Gaston Day School](course-offerings/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](course-offerings/hickory-grove-christian.md) — 3 docs
-- [Providence Day School](course-offerings/providence-day.md) — 1 docs
+- [Providence Day School](course-offerings/providence-day.md) — 2 docs
 - [Trinity Episcopal School](course-offerings/trinity-episcopal.md) — 2 docs
 
 ### Financial Aid & Tuition (`financial-aid-tuition/`)
@@ -164,4 +164,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 563 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 564 documents across 12 topics and 13 schools.
