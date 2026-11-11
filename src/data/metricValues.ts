@@ -1749,7 +1749,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       // charlotte-latin deliberately absent — exact in-scope count, no caveat
       'carmel-christian': {
         kind: 'minimum',
-        text: 'Standing high-school student organizations: National Honor Society, National Beta Club, Spanish Honor Society, Student Council, and the Timothy Project. Clubs are otherwise student-initiated by application, so no fixed roster is published.',
+        text: 'The high school’s standing student groups: National Honor Society, National Beta Club, Spanish Honor Society, Student Council and the Timothy Project. Other clubs are started by students, who apply to form them, so no fixed list is published.',
       },
       'hickory-grove-christian': {
         kind: 'minimum',
