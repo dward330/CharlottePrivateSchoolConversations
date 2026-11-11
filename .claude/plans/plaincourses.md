@@ -469,9 +469,9 @@ only after Batch 4.
 
 | Batch | Commit | Review file(s) | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
-| 1 (tooling) | — | — | — | — |
-| 1 (fixes) | — | — | — | — |
-| 1 | — | — | — | — |
+| 1 (tooling) | in the Batch 1 English commit; Step 1b `7bf52ecb` | — | — | — |
+| 1 (fixes) | `bdd0e8c0`; reviewer fact fixes `db076885` | `review-batch1-fixes.md`, `review-batch1-fixes2.md` | — | — |
+| 1 | (Batch 1 English commit) | `review-batch1.md` | 4 (1 gloss; 3 pre-existing Davidson Day catalog drifts, fixed in `db076885`) | pending |
 | 2 (fixes) | — | — | — | — |
 | 2 | — | — | — | — |
 | 3 (source + fixes) | — | — | — | — |
@@ -1197,6 +1197,114 @@ No skill or slash command changes, so `.claude/SKILLS.md` is not touched. No `CL
 ## Implementation notes
 
 *Filled in by `/implement`, one section per batch, then Phase 2.*
+
+### Batch 1 — tooling, the no-match message, PD + Latin + CCD + Cannon + DD
+
+**Deviation: the staged source file was committed at the start** (`31747ed0`, with the plan and
+its INDEX row) rather than in Batch 3, so it cannot be lost from an uncommitted tree between
+windows. It is **not ingested yet**; Batch 3 Step 2a skips its "commit the staged source file"
+line and runs only the ingest and the census re-run.
+
+**Step 1 as built.** `scripts/plain_review.mjs` gains `--courses-markers`: the 8 new classes
+exactly as listed in Step 1(a) (`COURSES_CLASSES`), the borrowed `COURSES_BORROWS` set (CLAIM,
+VERIFIED, NOTFOUND, AUDITION, OPEN, APPLICATION, ADVANCED, ONLY, FIRST, THIRDPARTY) plus the
+shared ESTIMATE / BOUND, guard (n), guard (p) with `COURSES_NAME_STOP` (applied only under the
+flag, so Sports' (p) is unchanged), guard (q) (`IDENTITY_RE`, whole file, every school, before
+the in-batch filter) with `--allow-titles <file.json>` (`{ "slug:path": "exact new title" }`),
+and guard (r) (`sentenceCount`: the hook's own `sentences()`, now imported, over the text with
+` · ` folded to a comma). The new classes return `false` without the flag. No class was
+loosened. **Stoplist additions, with reason:** `Interdisciplinary`, `Scaffolded`, `Built`, the
+openers of PD `[1].departments[4].courses[7]` and CCD `[1].departments[2].courses[4]` before and
+after their jargon was replaced (comment in the script).
+
+**Negative tests** (13 + `--allow-titles`, each on the real file backed up to the scratchpad,
+run with the Batch 1 arguments plus `--slugs <school>` and `--base HEAD`, file restored and
+`cmp`-clean). Every one exited 1 with its own class or guard and `slug:path`, and nothing else.
+Three of the plan's faults could not isolate their class and were replaced:
+
+| Class | Plan's fault | Why it could not isolate | Fault used |
+|---|---|---|---|
+| LEVEL | Latin `[2].departments[1].courses[7]` "An honors course" → "A course" | the unit also holds "AP" (LEVEL stays 2→1) | Latin `[2].departments[1].courses[8]` "An honors seminar" → "A seminar" |
+| EXAM | PD `[2].departments[6].courses[6]` delete " for the AP Spanish Language Exam" | it also drops LEVEL ("AP") and fires (p) on "Language", "Exam" | Cannon `[2].departments[1].courses[10]` "for the AP exam" → "for the AP test" |
+| (q) | change one `'AP'` tag | `'AP'` is shared by ~250 courses, so (j) fires too | PD's unique tag `'Gateway'` → `'Gateway '` |
+
+The four "pick on the day" classes used units holding exactly one lowercase token: DURATION
+Cannon `[2].departments[2].courses[10]` "A year-long" → "A"; GRADELEVEL Cannon
+`[2].departments[0].courses[2]` "sophomore" removed; ELECTIVE CCD `[2].departments[0].courses[8]`
+"elective" → "class"; IMMERSION Cannon `[1].departments[2].courses[1]` "target language" → "new
+language". PACE (PD "Moves faster and is more mathematically rigorous than" → "Moves beside")
+lost both tokens (2→0). (p) printed all four of "Much", "Ado", "About", "Nothing". `--allow-titles`:
+a Catholic title restored with no file fails (q); with the exact string passes (exit 0); with a
+near-miss string fails, naming the allowed string.
+
+**Calibration** (worktrees at each merge with the new script copied in, plus
+`src/lib/flagVisibility.ts` where #481 predates them; all removed afterwards):
+
+| Area | Without `--courses-markers` | With | New hits |
+|---|--:|--:|---|
+| The Arts (`7c2f73df`) | 0 (matches) | 33 | (p) 30 — the same 30 plainsports recorded on this row; (h) 3 |
+| Financial Aid (`8a4fdbec`) | 2 (matches: plainaid's approved Charlotte Christian `-62`/`-62%` fix, (b) + (m)) | 37 | (n) 10, (p) 24, (q) 1 |
+| Sports (`df4dd5c9`) | 48 (plainsports' approved by-design hits) | 51 | (h) 3 |
+| Course Offerings, no change (`HEAD`) | — | **0 rows, exit 0** | — |
+
+Every new hit was read; **none is a past slip.** Arts (h): CCD `theatre.whoRunsIt` "elective
+demand" → "how many students choose drama" (ELECTIVE lost) and "externally corroborated" → "An
+outside source" (THIRDPARTY added); Christian `ladder.enrichment[3].text` "only an inference"
+(ONLY added). Aid: (n) and (p) never ran on plainaid; they fire on split sentences ("two",
+"second", new openers "Examples", "None", "How") and on the approved removal of other schools'
+names (Covenant Day, Carmel); (q) fires on a Financial Aid box `title`, which that area may
+rewrite — (q) is meant for Course Offerings only. Sports (h): Cannon `pipeline.funnelNote` "a
+semester early" (DURATION, moved into an approved new note), Catholic `offered.footnote` and
+`pipeline.rosterNote` "junior college" (GRADELEVEL out and in). **Default mode is unchanged:**
+the old and new script on the Arts row write identical `--out` files apart from the date line.
+
+**Step 1b.** As planned (`7bf52ecb`): `courses.noMatch` / `courses.noMatchInDept` in `en.json`, the
+JSX reads them with the query in FSI…PDI. `tsc -b` clean, `check:spelling` 0, hook passed the
+`en.json` edit.
+
+**Step 2a.** The sweep matched the Context table for the Batch 1 schools (Latin `verbatim`, DD
+`exists`; Cannon "peer-critiqued" and DD's "the only Middle School courses Davidson Day
+publishes" are the known false positives). Fixes commit `bdd0e8c0`: DD
+`divisions[1].notPublished`, evidence line 205 of the DD record.
+
+**Step 2b.** The regenerated worklist matches the Context table (PD 6, Latin 1, CCD 2, Cannon 7,
+DD 5 = 21). Extras: Latin and DD `notPublished`.
+
+**Step 3–4.** 22 units applied by exact-literal script and measured: `--check` exits 0, 22/22
+`hook: pass`, after-grade >10: 0 (every unit is under 30 words, so none has a grade), longest
+after-text 26 words. Hook: 143 → **120** issues (the 23 the five schools held). No
+"rigor"/"rigorous" left in any Batch 1 school. FROZEN identifiers: 0 lost across 22 changed
+literals. Identity grep: 0 changed identity lines. No template is set in Batch 1 (the plan's
+N1/N2 and C1–C7 sit in later batches).
+
+**Step 5, independent review: 4 findings, all fixed.** One gloss (Cannon AP Spanish
+"advanced-low", reviewer's edit). Three were **pre-existing** drifts from the Davidson Day
+catalog, made when the descriptions were first condensed: English II Honors showed the
+catalog's example books as the full list ("such as" and "and added writing" dropped), Civics
+Honors dropped "to prepare for AP World History", and Early Childhood narrowed "fine and gross
+motor skills". **Deviation:** they were fixed as a second fixes commit (`db076885`, against the
+original text: the reworded file was set aside, the three facts committed with
+`review-batch1-fixes2.md`, then the rewording restored on top), so the wording-pass base moved
+from `bdd0e8c0` to `db076885` and the wording-pass guards still pass with `--check`. This is the
+Decisions rule "a new problem found while drafting is fixed the same way". The Step 4 review
+command for Batch 1 is therefore `--base db076885`.
+
+**Step 6.** `tsc -b` clean, `vite build` succeeds. `check:schema`, `check:spelling`,
+`check:flags`, `check:matrices`, `check:schoolurls`, `check:chrome`, `check:runtime`,
+`check:moneytext`, `check:dates`, `check:spans`, `check:photos` all exit 0; `test:plain` 32/32.
+`check:matrices` output is byte-identical to `main`'s. `check:live` fails only in
+`course-offerings`: **23 stale entries per locale** (the 22 wording units + the DD note).
+
+**Step 7, real Chrome** (`npx vite preview`; script kept in the scratchpad between batches): all
+15 division cards of the five schools render every description exactly as the module holds it,
+every teaser and `notPublished` note matches, every department tab shows courses, no literal
+`*`. Search probes found English II Honors ("Much Ado"), AP African American Studies ("African
+American"), Wellness and Long-term Athletic Development ("kinesiology"), Honors American Studies
+("U.S. History") and Civics Honors ("AP World History"). The no-match message reads "No courses
+match “zzqx”. Try a shorter search." on PD's All tab and DD's one-department Lower School card,
+and "…Try a shorter search or the All tab." on a PD department tab. 390px: no overflow on any
+of the five pages. **Selector note for later batches:** every topic's report cards are on the
+page whatever `?topic=` says, so scope to `.note-card-report:has(.courses)`.
 
 ### Candidates noticed while planning, not acted on
 

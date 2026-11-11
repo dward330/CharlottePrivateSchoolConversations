@@ -400,7 +400,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
             {
               title: 'Social Entrepreneurship: Incubation & Acceleration',
               tag: 'Gr 7–8',
-              description: 'Interdisciplinary innovation work through entrepreneurial sprints.',
+              description: 'Innovation projects that combine subjects, run as short entrepreneurial sprints.',
             },
             {
               title: 'Engineering the Future',
@@ -620,7 +620,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'AP African American Studies',
               tag: 'AP',
               description:
-                'An interdisciplinary AP course reaching into literature, arts, political science, geography, and science to explore African American experience.',
+                'An AP course that draws on literature, arts, political science, geography, and science to explore African American experience.',
             },
             {
               title: 'AP English Language and Composition',
@@ -804,7 +804,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Geometry (Advanced)',
               tag: 'Advanced',
               description:
-                'Offers rigorous treatment and in-depth development of direct and indirect proofs across congruence, similarity, circles, and triangle trigonometry.',
+                'Develops direct and indirect proofs carefully and in depth across congruence, similarity, circles, and triangle trigonometry.',
             },
             {
               title: 'Algebra II',
@@ -905,7 +905,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Physics I Accelerated',
               tag: 'Accelerated',
               description:
-                'Moves faster and is more mathematically rigorous than Physics I, adding circular motion and waves.',
+                'Moves faster than Physics I and uses more math, adding circular motion and waves.',
             },
             {
               title: 'Chemistry I',
@@ -1101,7 +1101,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Social Entrepreneurship',
               tag: 'Gr 10–12',
               description:
-                'An experiential course guiding students to launch businesses creating social value, rapidly testing ideas against customer and marketplace feedback.',
+                'A hands-on course guiding students to launch businesses that create social value, testing ideas quickly against customer and marketplace feedback.',
             },
             {
               title: 'STEM Research and Design',
@@ -1160,7 +1160,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'AP Spanish Language',
               tag: 'AP',
               description:
-                'Prepares seniors for the AP Spanish Language Exam with a holistic proficiency approach and Spanish-only classroom conversation.',
+                'Prepares seniors for the AP Spanish Language Exam by building all-around language skills, with Spanish-only classroom conversation.',
             },
             {
               title: 'Latin 1',
@@ -1737,7 +1737,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
       source: 'Charlotte Latin Upper School course offerings',
       sourceUrl: 'https://www.charlottelatin.org/academics/upper-school/course-offerings',
       notPublished:
-        'Charlotte Latin publishes Upper School course titles without per-course descriptions. Titles here are verbatim; descriptions are drawn from the school’s department-level framing.',
+        'Charlotte Latin publishes Upper School course titles without per-course descriptions. The course titles are the school’s own; each description comes from how the school describes that department.',
       departments: [
         {
           name: 'English',
@@ -1842,7 +1842,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
               title: 'Honors American Studies',
               tag: 'Honors',
               description:
-                'An honors course the school’s profile describes as equivalent in rigor to AP U.S. History.',
+                'An honors course that the school’s profile says is as demanding as AP U.S. History.',
             },
             {
               title: 'History of Music Seminar',
@@ -2242,7 +2242,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'Mathematics',
               tag: 'JK–Gr 4',
               description:
-                'Develops number sense, spatial awareness, and math language through active exploration and hands-on games toward rigorous problem solving.',
+                'Develops number sense, spatial awareness, and math language through active exploration and hands-on games, building toward harder problem solving.',
             },
             {
               title: 'Science',
@@ -2439,7 +2439,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Engineering',
               tag: 'Gr 5–8',
-              description: 'Scaffolded across the Middle School with design-thinking and prototyping work.',
+              description: 'Built up step by step across the Middle School with design-thinking and prototyping work.',
             },
           ],
         },
@@ -3194,7 +3194,7 @@ const CANNON: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 1–4',
               description:
-                'A literacy block integrating whole-class and small-group differentiated instruction across phonics, fluency, vocabulary, and comprehension.',
+                'A literacy block that mixes whole-class and small-group teaching, adjusted to each student’s level, across phonics, fluency, vocabulary, and comprehension.',
             },
             {
               title: 'Mathematics',
@@ -3218,7 +3218,7 @@ const CANNON: CourseOfferings = {
               title: 'Early Childhood Program',
               tag: 'JrK–K',
               description:
-                'Curriculum builds a strong academic foundation in reading, writing, and math through hands-on, collaborative, experiential, and multi-sensory learning.',
+                'The curriculum builds a strong academic foundation in reading, writing, and math through hands-on, collaborative, and multi-sensory learning.',
             },
           ],
         },
@@ -3509,7 +3509,7 @@ const CANNON: CourseOfferings = {
               title: 'Honors Accelerated Geometry',
               tag: 'Accelerated',
               description:
-                'Euclidean geometry with heavy emphasis on notation, justification, and proof at greater rigor and depth than Honors Geometry.',
+                'Euclidean geometry with heavy emphasis on notation, justification, and proof, in more depth and at a harder level than Honors Geometry.',
             },
             {
               title: 'Honors Algebra II',
@@ -3569,7 +3569,7 @@ const CANNON: CourseOfferings = {
               title: 'Advanced Placement Calculus AB',
               tag: 'AP',
               description:
-                'A rigorous course covering a semester of college calculus through limits, differential calculus, and integral calculus.',
+                'A demanding course covering a semester of college calculus through limits, differential calculus, and integral calculus.',
             },
             {
               title: 'Advanced Placement Calculus BC',
@@ -3688,7 +3688,7 @@ const CANNON: CourseOfferings = {
               title: 'Honors Seminar: Contemporary Issues in Science',
               tag: 'Online',
               description:
-                'An asynchronous fully online course building appreciation for scientific phenomena relevant to scientifically literate adults.',
+                'A fully online course, taken on the student’s own schedule, building appreciation for scientific phenomena relevant to scientifically literate adults.',
             },
           ],
         },
@@ -3799,7 +3799,7 @@ const CANNON: CourseOfferings = {
               title: 'AP Spanish Language and Culture: Advanced',
               tag: 'AP',
               description:
-                'A rigorous interdisciplinary course taught exclusively in Spanish, building proficiency toward advanced-low.',
+                'A demanding course that combines subjects, taught only in Spanish, building students’ proficiency toward advanced-low (a level on a standard language-proficiency scale).',
             },
             {
               title: 'Honors French I: Novice',
@@ -4065,7 +4065,7 @@ const CANNON: CourseOfferings = {
               title: 'Wellness and Long-term Athletic Development',
               tag: 'Gr 11–12',
               description:
-                'A holistic wellness and athletic development course informed by kinesiology, exercise physiology, and biomechanics.',
+                'A whole-person wellness and athletic development course informed by kinesiology, exercise physiology, and biomechanics.',
             },
           ],
         },
@@ -5809,7 +5809,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'Early Childhood Program',
               tag: 'Age 2 – JK',
               description:
-                'Early Preschool (2s/3s), Preschool (3s/4s), and Junior Kindergarten (4s/5s) target cognitive skills, language development, fine and gross motor skills, executive functioning, and social-emotional wellness.',
+                'Early Preschool (2s/3s), Preschool (3s/4s), and Junior Kindergarten (4s/5s) work on cognitive skills, language development, fine and gross motor skills, planning and focus skills, and emotional and social well-being.',
             },
             {
               title: 'Specials',
@@ -5932,7 +5932,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'English II Honors',
               tag: 'Honors',
               description:
-                'Reads fiction and nonfiction such as A Long Way Gone, Much Ado About Nothing, and Predictably Irrational, extending English II skills through scaffolded responses and added writing.',
+                'Reads fiction and nonfiction such as A Long Way Gone, Much Ado About Nothing, and Predictably Irrational, extending English II skills through guided, step-by-step responses and added writing.',
             },
             {
               title: 'English III Honors',
@@ -6073,7 +6073,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'Civics Honors',
               tag: 'Honors',
               description:
-                'The Civics course with added analytical rigor, primary-source interpretation, and AP-style writing prompts to prepare for AP World History.',
+                'The Civics course with harder analysis, primary-source interpretation, and AP-style writing prompts to prepare for AP World History.',
             },
             {
               title: 'World History Honors',
@@ -6190,7 +6190,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'Biology Honors',
               tag: 'Honors',
               description:
-                'Biology with greater depth and rigor, adding inquiry learning with current research data and independent experiment design.',
+                'Biology in greater depth and at a harder level, adding inquiry learning with current research data and independent experiment design.',
             },
             {
               title: 'AP Biology',
@@ -6437,7 +6437,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: "Middle School TA",
               tag: 'Gr 10–12',
               description:
-                'Upper School students serve as instructional partners in middle-school classrooms and lead mini-lessons, with monthly pedagogy seminars.',
+                'Upper School students serve as instructional partners in middle-school classrooms and lead mini-lessons, with monthly seminars on teaching.',
             },
             {
               title: 'Research Methods Honors',
