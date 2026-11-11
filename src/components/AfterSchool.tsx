@@ -95,7 +95,7 @@ const FLAG_LABEL_KEY: Record<AsFlagKind, string> = {
  */
 function Flags({ flags }: { flags: AsFlag[] }) {
   const { t } = useTranslation()
-  const shown = visibleFlags(flags)
+  const shown = visibleFlags('after-school', flags)
   if (shown.length === 0) return null
   return (
     <>

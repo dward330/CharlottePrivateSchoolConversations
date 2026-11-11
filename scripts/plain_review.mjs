@@ -48,8 +48,10 @@
  *                     and (k) visit every school in each layer module, and (j) groups
  *                     repeats ACROSS schools within it (plan plainclubs).
  *   --skip-flag-kinds a,b  worklist only: leave out `….flags[i].text` units whose flag
- *                     has one of these `kind`s (Student Clubs' GAP/COUNT flags never
- *                     render). Rows and guards still see them, so an edit fails (k).
+ *                     has one of these `kind`s, IN ADDITION to the topic's
+ *                     HIDDEN_FLAG_KINDS (src/lib/flagVisibility.ts), which the worklist
+ *                     always leaves out (plan plainsmall; Student Clubs' GAP/COUNT flags
+ *                     never render). Rows and guards still see them, so an edit fails (k).
  *   --clubs-markers   add the Student Clubs marker classes to guard (h) (plan plainclubs):
  *                     the arts classes, THIRDPARTY, ESTIMATE, BOUND and NOTACLUB,
  *                     ELECTED, APPLICATION, RESULT, ADVANCED, ONLY, FIRST (and minimums
@@ -285,7 +287,15 @@ const partsOf = (slug, withLayers = true) => [
   { slug, prefix: '', relPath: relPathOf(slug) },
   ...(withLayers ? layerSpecs.map((l) => ({ slug, prefix: l.prefix, relPath: l.relFile, fn: l.fn })) : []),
 ]
-const skipFlagKinds = new Set((opt('--skip-flag-kinds', '') ?? '').split(',').map((s) => s.trim()).filter(Boolean))
+/* The worklist leaves out flags no parent sees: the topic's HIDDEN_FLAG_KINDS from
+ * src/lib/flagVisibility.ts (the components and check_plain_language.mjs read the same
+ * file; plan plainsmall), plus any --skip-flag-kinds. Rows and guards still see them. */
+const reviewTopic = topic ?? Object.keys(TOPICS).find((k) => TOPICS[k] === dir.split('/').pop())
+const { HIDDEN_FLAG_KINDS } = await import(pathToFileURL(join(ROOT, 'src/lib/flagVisibility.ts')).href)
+const skipFlagKinds = new Set([
+  ...(HIDDEN_FLAG_KINDS[reviewTopic] ?? []),
+  ...(opt('--skip-flag-kinds', '') ?? '').split(',').map((s) => s.trim()).filter(Boolean),
+])
 const clubsMarkers = argv.includes('--clubs-markers')
 const outFile = opt('--out', null)
 const worklistFile = opt('--worklist', null)

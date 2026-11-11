@@ -18,6 +18,7 @@
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
 import { localizeMoneyText } from '../lib/format.ts'
+import { visibleFlags } from '../lib/toVerify.ts'
 import type {
   Affinity,
   ClubsFlag,
@@ -34,8 +35,9 @@ import type {
  * per flag. Chrome, for the same reason as `afterSchool.flag_*`: one fixed
  * word per kind, identical for every school.
  *
- * Only `not-a-club` can reach the screen (see Flags below), and no school's
- * data sets a `label` for it — so this constant, not the overlay, is what a
+ * Only `not-a-club` can reach the screen (`HIDDEN_FLAG_KINDS` in
+ * `lib/flagVisibility.ts` hides the other two), and no school's data sets a
+ * `label` for it — so this constant, not the overlay, is what a
  * reader actually sees. `count` and `gap` are kept for type completeness.
  */
 const FLAG_LABEL_KEY: Record<FlagKind, string> = {
@@ -53,13 +55,17 @@ const FLAG_LABEL_KEY: Record<FlagKind, string> = {
  * disagree on a number — which reads as research bookkeeping rather than
  * something a parent can act on. They stay in the data: every one is sourced in
  * the per-school files and in source-material/, so the research is preserved and
- * can be surfaced again by relaxing this filter. Only INDIVIDUAL — NOT A CLUB
- * still renders, because it corrects how a reader would otherwise MISCOUNT what
- * is on the card — a program or an individual activity read as a club.
+ * can be surfaced again. Only INDIVIDUAL — NOT A CLUB still renders, because it
+ * corrects how a reader would otherwise MISCOUNT what is on the card — a program
+ * or an individual activity read as a club.
+ *
+ * The rule lives in `HIDDEN_FLAG_KINDS` (`lib/flagVisibility.ts`), not here, so
+ * the plain-language checker skips exactly what this hides. `npm run
+ * check:flags` fails a literal kind filter in this file.
  */
 function Flags({ flags }: { flags: ClubsFlag[] }) {
   const { t } = useTranslation()
-  const shown = flags.filter((f) => f.kind === 'not-a-club')
+  const shown = visibleFlags('student-clubs', flags)
   if (shown.length === 0) return null
   return (
     <>

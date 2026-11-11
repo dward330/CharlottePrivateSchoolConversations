@@ -9,8 +9,13 @@
  * "Parent-facing prose" is defined by the i18n extractor, not re-invented:
  * every src/data string field that classifyField() (scripts/i18n_fields.mjs)
  * calls `prose`, in the modules scripts/i18n_topics.mjs lays out, plus every
- * value in src/locales/en.json. `kind: 'verify'` flag objects are dev-only and
- * skipped — the one place this walk deliberately differs from the extractor's.
+ * value in src/locales/en.json. Flag objects no parent sees are skipped — the
+ * one place this walk deliberately differs from the extractor's: `kind: 'verify'`
+ * anywhere (dev-only), and inside a `flags` array any kind that
+ * src/lib/flagVisibility.ts marks hidden for the file's topic (Student Clubs'
+ * GAP and COUNT). That file is also what the components filter through, and
+ * `npm run check:flags` keeps them on it, so this skip cannot drift from what
+ * renders (plan plainsmall).
  *
  * Modes:
  *   --hook (default)   PostToolUse hook. Reads the Claude Code payload on stdin,
@@ -69,6 +74,7 @@ export async function getLayout() {
   if (layout) return layout
   const topics = await import(pathToFileURL(join(HERE, 'i18n_topics.mjs')).href)
   const fields = await import(pathToFileURL(join(HERE, 'i18n_fields.mjs')).href)
+  const flagVis = await import(pathToFileURL(join(HERE, '..', 'src', 'lib', 'flagVisibility.ts')).href)
   const repoRel = (spec) => toPosix(relative(resolve(HERE, '..'), resolve(HERE, spec)))
   // repo-relative module path -> [{ topic, fn, prefix }]
   const accessors = new Map()
@@ -80,7 +86,7 @@ export async function getLayout() {
   for (const [topic, specs] of Object.entries(topics.EXTRA_LAYERS)) {
     for (const [prefix, mod, fn] of specs) add(repoRel(mod), { topic, fn, prefix })
   }
-  layout = { ...topics, classifyField: fields.classifyField, accessors }
+  layout = { ...topics, classifyField: fields.classifyField, accessors, hiddenFlag: hiddenFlagPredicate(flagVis) }
   return layout
 }
 
@@ -109,8 +115,25 @@ export async function scopeOf(relPath) {
 
 /* ------------------------------------------------------------- units -- */
 
-/** Collect prose string leaves, skipping dev-only `kind: 'verify'` flags. */
-export function proseUnits(entry, prefix, classifyField) {
+const FLAG_PATH = /(?:^|\.)flags\[\d+\]$/
+
+/**
+ * Build `topic -> isHidden(path, node)` from src/lib/flagVisibility.ts: true for
+ * an object sitting inside a `flags` array whose kind never reaches a parent.
+ * Scoped to flags on purpose — `steps[].kind` (High School Placement) and
+ * `season[].kind` (The Arts) are display strings, not flag kinds.
+ */
+export function hiddenFlagPredicate(flagVis) {
+  return (topic) => (path, node) =>
+    FLAG_PATH.test(path) && typeof node.kind === 'string' && !flagVis.isParentFacingFlag(topic, node.kind)
+}
+
+/**
+ * Collect prose string leaves, skipping dev-only `kind: 'verify'` flags anywhere
+ * and, when `isHidden(path, node)` is given, the objects it marks hidden (see
+ * hiddenFlagPredicate). Without it the walk is unchanged.
+ */
+export function proseUnits(entry, prefix, classifyField, isHidden) {
   const out = []
   const walk = (node, path) => {
     if (node == null) return
@@ -123,6 +146,7 @@ export function proseUnits(entry, prefix, classifyField) {
     if (Array.isArray(node)) { node.forEach((v, i) => walk(v, `${path}[${i}]`)); return }
     if (typeof node === 'object') {
       if (node.kind === 'verify') return
+      if (isHidden && isHidden(path, node)) return
       for (const [k, v] of Object.entries(node)) walk(v, path ? `${path}.${k}` : k)
     }
   }
@@ -149,18 +173,19 @@ async function unitsFromModule(m, scope) {
   const L = await getLayout()
   if (scope.kind === 'module') {
     const entry = m[L.EXPORTS[scope.slug]]
-    return dedupe(entry ? proseUnits(entry, '', L.classifyField) : [])
+    return dedupe(entry ? proseUnits(entry, '', L.classifyField, L.hiddenFlag(scope.topic)) : [])
   }
   const out = []
-  for (const { fn, prefix } of scope.specs) {
+  for (const { fn, prefix, topic } of scope.specs) {
     const got = m[fn]
     if (got == null) continue
-    if (typeof got !== 'function') { out.push(...proseUnits(got, prefix, L.classifyField)); continue }
+    const isHidden = L.hiddenFlag(topic)
+    if (typeof got !== 'function') { out.push(...proseUnits(got, prefix, L.classifyField, isHidden)); continue }
     for (const slug of L.SLUGS) {
       const entry = got(slug)
       // Classify on the extractor's own path (prefix only); the slug is added
       // afterwards for messages and `allow` entries.
-      if (entry) out.push(...proseUnits(entry, prefix, L.classifyField).map((u) => ({ ...u, path: `${slug}:${u.path}` })))
+      if (entry) out.push(...proseUnits(entry, prefix, L.classifyField, isHidden).map((u) => ({ ...u, path: `${slug}:${u.path}` })))
     }
   }
   return dedupe(out)

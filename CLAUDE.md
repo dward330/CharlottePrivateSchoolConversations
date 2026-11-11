@@ -1093,9 +1093,16 @@ becomes nine unclear sentences nobody here can read to fix.
 **Scope: parent-facing English prose only.** That means the `src/data/**` fields the i18n
 extractor classifies as prose (`classifyField` in `scripts/i18n_fields.mjs`), the live
 `src/content` blocks, and `src/locales/en.json`. It does not cover code, comments,
-dev-only text (`kind: 'verify'` flags, `toVerify` cells), plans, `.claude/docs/`,
-`source-material/` research records or non-English locales. A verbatim school quote
-stays in the school's words.
+dev-only text (`kind: 'verify'` flags, `toVerify` cells), flag kinds that never render
+(Student Clubs' GAP and COUNT), plans, `.claude/docs/`, `source-material/` research
+records or non-English locales. A verbatim school quote stays in the school's words.
+
+**Which flag kinds render is decided in one file, `src/lib/flagVisibility.ts`.** The
+components filter through it (`visibleFlags(topic, flags)`), and the checker and
+`plain_review.mjs` skip through it. So the report and the hook never count a flag no
+parent sees. `npm run check:flags` (in the build) fails any component that filters flags
+another way, so a component cannot start rendering a kind the checker skips (plan
+`plainsmall`).
 
 **A hook enforces the floor.** After each Edit/Write/MultiEdit on an in-scope file,
 `.claude/settings.json` runs `scripts/check_plain_language.mjs` on **only the changed

@@ -78,7 +78,7 @@ const FLAG_LABEL_KEY: Record<CsFlagKind, string> = {
 
 function Flags({ flags }: { flags: CsFlag[] }) {
   const { t } = useTranslation()
-  const shown = visibleFlags(flags)
+  const shown = visibleFlags('high-school-placement', flags)
   if (shown.length === 0) return null
   return (
     <>

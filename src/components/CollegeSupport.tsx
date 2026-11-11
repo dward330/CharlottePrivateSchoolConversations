@@ -66,9 +66,9 @@ const FLAG_LABEL_KEY: Record<CsFlagKind, string> = {
 /**
  * Evidence qualifiers: TO VERIFY / DISCREPANCY / PUBLICATION GAP.
  *
- * Unlike the Student Clubs cards — where GAP and COUNT flags are filtered out at
- * render as research bookkeeping — these render, except TO VERIFY, which is
- * dev-only (see `lib/toVerify.ts`). In College Support the
+ * Unlike the Student Clubs cards — where GAP and COUNT flags are hidden as
+ * research bookkeeping (`HIDDEN_FLAG_KINDS` in `lib/flagVisibility.ts`) — these
+ * render, except TO VERIFY, which is dev-only (see `lib/toVerify.ts`). In College Support the
  * qualifier IS the parent-facing content: whether a school publishes its
  * counseling guarantees, and whether its own sources agree on a National Merit
  * count, is exactly the kind of thing a parent is deciding on. The handoff makes
@@ -77,7 +77,7 @@ const FLAG_LABEL_KEY: Record<CsFlagKind, string> = {
  */
 function Flags({ flags }: { flags: CsFlag[] }) {
   const { t } = useTranslation()
-  const shown = visibleFlags(flags)
+  const shown = visibleFlags('college-support', flags)
   if (shown.length === 0) return null
   return (
     <>
