@@ -388,7 +388,10 @@ const COURSES_NAME_STOP = new Set(('Students Student Course Courses Class Classe
   'Interdisciplinary Scaffolded Built ' +
   // Batch 2: the same case ("Rigorous literary analysis…" → "In-depth literary analysis…",
   // Covenant Day 8th-grade English Honors). Both are level words, never names.
-  'Rigorous In-depth').split(' '))
+  'Rigorous In-depth ' +
+  // Batch 3: a catalog sentence opener dropped with the boilerplate ("Evaluation is based on…",
+  // Charlotte Catholic Assistants). Never a name in this area.
+  'Evaluation').split(' '))
 const nameTokens = (s) => {
   const out = new Set()
   for (const m of s.matchAll(NAME_RE)) {

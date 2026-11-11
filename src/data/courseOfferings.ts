@@ -7349,13 +7349,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'English 10',
               description:
-                'This course includes the study of World Literature through novels, short stories, drama, and poetry; grammar fundamentals and the reinforcement of these essential grammar skills within the context of writing assignments; introduction to…',
+                'World Literature through novels, short stories, drama and poetry · grammar fundamentals, practiced in writing assignments · an introduction to evaluative and analytical essays using secondary sources.',
             },
             {
               title: 'Advanced English 10',
               tag: 'Advanced',
               description:
-                'This course includes the study of World Literature through novels, short stories drama, and poetry; grammar fundamentals and the reinforcement of these essential grammar skills within the context of writing assignments; introduction to…',
+                'World Literature through novels, short stories, drama and poetry · grammar fundamentals, practiced in writing assignments · an introduction to evaluative and analytical essays using secondary sources.',
             },
             {
               title: 'Honors English 10',
@@ -7372,13 +7372,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'English 11',
               description:
-                'This course includes writing skills techniques (e.g., prewriting, organization, drafting, revisions, etc.); documented essays using primary and, in some cases, secondary sources; concentrated practice in literary analysis; reading…',
+                'Writing skills such as prewriting, organization, drafting and revision · documented essays using primary and, in some cases, secondary sources · concentrated practice in literary analysis · reading comprehension.',
             },
             {
               title: 'Honors English 11',
               tag: 'Honors',
               description:
-                'This course includes writing skills techniques (e.g., prewriting, organization, drafting, revision, etc.,); documented essays using primary and secondary resources; concentrated practice in writing analytical essays; reading…',
+                'Writing skills such as prewriting, organization, drafting and revision · documented essays using primary and secondary resources · concentrated practice in writing analytical essays · reading comprehension.',
             },
             {
               title: 'Advanced Placement English 11: English Language and Composition',
@@ -7389,7 +7389,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'English 12',
               description:
-                'This course includes a survey of British Literature; review and practice of paragraph and essay structure; reinforcement of essential grammar skills within the context of writing assignments; reading comprehension, summary and analysis;…',
+                'A survey of British Literature · review and practice of paragraph and essay structure · grammar practiced in writing assignments · reading comprehension, summary and analysis.',
             },
             {
               title: 'Honors English 12',
@@ -7428,7 +7428,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
           ],
         },
         {
-          name: 'Interdisciplinary Studies',
+          name: 'Interdisciplinary Studies', // plain-ok: interdisciplinary
           courses: [
             {
               title: 'Academic Skills 9-10, 11-12',
@@ -7443,7 +7443,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Assistants',
               description:
-                'Assistants will be assigned tasks for the office, counselors, alumni and campus ministry. Evaluation is based on their willingness to learn, initiative and performance of assigned tasks, and demonstrated competencies within the area…',
+                'Assistants do tasks for the office, counselors, alumni and campus ministry, and are evaluated on willingness to learn, initiative, performance of assigned tasks and skill in their assigned area.',
             },
             {
               title: 'Study Hall',
@@ -7454,7 +7454,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Options Scholars',
               tag: 'Options',
               description:
-                'Students will serve as academic peer mentors for those enrolled in the Options Program. In this role, Options Scholars will develop meaningful peer relationships while learning about various intellectual and developmental disabilities.',
+                'Options Scholars serve as academic peer mentors for students enrolled in the Options Program, building meaningful peer relationships while learning about various intellectual and developmental disabilities.',
             },
             {
               title: 'SAT Prep',
@@ -7476,12 +7476,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Latin American Influence in the United States',
               tag: 'Honors',
               description:
-                'This interdisciplinary course is designed for the students to explore the Latino influence in the United States in the last century.',
+                'Combines several subjects to explore the Latino influence in the United States in the last century.',
             },
             {
               title: 'Personal Finance',
               description:
-                'This course is designed to provide students with personal skills needed daily. Topics of study include establishing a bank account and maintaining a checkbook and debit card, computing personal income tax and analyzing employment taxes.',
+                'Teaches personal skills needed daily, including opening a bank account, managing a checkbook and debit card, computing personal income tax and analyzing employment taxes.',
             },
             {
               title: 'Marketing Principles',
@@ -7531,7 +7531,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Civil and Construction Engineering',
               tag: 'Honors',
               description:
-                'This course is designed to prepare students for college level courses in these fields. Students will explore design concepts including building systems, building materials, structures and loads, transportation, and environmental…',
+                'Prepares students for college level courses in civil and construction engineering, exploring design concepts such as building systems and materials, structures and loads, transportation and environmental concepts.',
             },
             {
               title: 'Honors Engineering Capstone',
@@ -7547,13 +7547,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Algebra I',
               description:
-                'This course includes a review of operations with integers, fractions, and decimals; solving equations and inequalities in one variable; introduction to functions; linear functions; systems of linear equations and systems of linear…',
+                'A review of operations with integers, fractions and decimals · solving equations and inequalities in one variable · an introduction to functions · linear functions · systems of linear equations and inequalities.',
             },
             {
               title: 'Advanced Algebra I',
               tag: 'Advanced',
               description:
-                'This course includes a brief review of operations with integers, fractions, and decimals; solving equations and inequalities in one variable; introduction to functions; linear functions; systems of linear equations and systems of linear…',
+                'A brief review of operations with integers, fractions and decimals · solving equations and inequalities in one variable · an introduction to functions · linear functions · systems of linear equations and inequalities.',
             },
             {
               title: 'Geometry',
@@ -7570,7 +7570,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Geometry',
               tag: 'Honors',
               description:
-                'This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the in depth study of basic terms and symbols; congruence and similarity of polygons and circles; parallel and…',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering in depth: basic terms and symbols · congruence and similarity of polygons and circles · parallel and perpendicular lines · transformations and proofs.',
             },
             {
               title: 'Algebra II',
@@ -7587,7 +7587,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Algebra II',
               tag: 'Honors',
               description:
-                'This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the in depth study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions;…',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions in depth.',
             },
             {
               title: 'Advanced Algebra 3/Statistics',
@@ -7616,7 +7616,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Pre-Calculus',
               tag: 'Honors',
               description:
-                'This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the further development and analysis of functions including polynomial, rational, exponential, and logarithmic…',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering further development and analysis of functions, including polynomial, rational, exponential, logarithmic and trigonometric functions.',
             },
             {
               title: 'Honors Calculus',
@@ -7640,7 +7640,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement Calculus BC',
               tag: 'AP',
               description:
-                'Advanced Placement Calculus BC is roughly equivalent to both first and second semester college calculus courses and includes the content learned in Calculus AB while extending it to different types of equations and introduces the topic…',
+                'Advanced Placement Calculus BC is roughly equivalent to both first and second semester college calculus courses, covering Calculus AB, extended to different types of equations, plus sequences and series.',
             },
           ],
         },
@@ -7729,7 +7729,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Pathway Program',
               tag: 'Options',
               description:
-                'A two-year extension of the Options Program beyond the traditional high school experience, building life skills, workplace and college readiness, and independence through classes, job training, internships and community experiences.',
+                'A two-year extension of the Options Program beyond the traditional high school experience · classes, job training, internships and community experiences build life skills, workplace and college readiness, and independence.',
             },
           ],
         },
@@ -7749,7 +7749,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Logic',
               description:
-                'Logic is the art of habitually reasoning from true premises to true conclusions. The purpose of this course is to cultivate a student’s ability to think critically and apply logical reasoning across a variety of subject matters.',
+                'Logic builds students’ ability to think critically and apply logical reasoning across many subjects, identifying proper logical forms and exposing fallacies.',
             },
           ],
         },
@@ -7759,7 +7759,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Health',
               description:
-                'The Health course aims to foster a holistic understanding of health, emphasizing the connection between physical, mental, emotional, and spiritual well-being.',
+                'The Health course aims to build a whole-person understanding of health, stressing the connection between physical, mental, emotional and spiritual well-being.',
             },
             {
               title: 'Physical Education',
@@ -7774,12 +7774,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Men’s Weightlifting',
               description:
-                'This course is designed to educate students on the proper techniques of weightlifting, how to target specific muscle groups and the design and implementation of using a lifting schedule specifically to the needs of the male population.',
+                'Teaches proper weightlifting technique, how to target specific muscle groups and how to design and follow a lifting schedule suited to male students.',
             },
             {
               title: 'Women’s Weightlifting',
               description:
-                'This course is designed to educate students on the proper techniques of weightlifting, how to target specific muscle groups and the design and implementation of using a lifting schedule specifically to the needs of the female population.',
+                'Teaches proper weightlifting technique, how to target specific muscle groups and how to design and follow a lifting schedule suited to female students.',
             },
             {
               title: 'Jazzercise',
@@ -7805,7 +7805,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Biology',
               description:
-                'The primary objective of this course is to introduce the student to a broad, general understanding of the fundamental principles of biology through a study of humans and their interaction with other organisms and their mutually shared…',
+                'A broad introduction to the basic principles of biology through the study of humans and their interaction with other organisms and their shared environment.',
             },
             {
               title: 'Advanced Biology',
@@ -7822,7 +7822,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Chemistry',
               tag: 'Advanced',
               description:
-                'This course covers the fundamentals of chemistry. Topics will include, but are not limited to, atomic structure, writing chemical names and formulas, balancing chemical equations, solving stoichiometric problems, behavior of gases,…',
+                'Covers the fundamentals of chemistry, including atomic structure · writing chemical names and formulas · balancing chemical equations · solving stoichiometric problems · the behavior of gases · properties of solutions · acid-base chemistry.',
             },
             {
               title: 'Honors Chemistry',
@@ -7849,7 +7849,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Anatomy and Physiology',
               tag: 'Honors',
               description:
-                'A demanding course for students with a strong work ethic and critical-thinking skills, covering the digestive, circulatory, respiratory, locomotive (skeletal and muscular) and excretory systems · a dissection and a research paper are required.',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering the systems of the human body: digestive · circulatory · respiratory · locomotive (skeletal and muscular) · excretory · dissection and a research paper are required.',
             },
             {
               title: 'Honors Nutritional Science',
@@ -7885,7 +7885,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement Physics C: Mechanics',
               tag: 'AP',
               description:
-                'This course is a full year in-depth study of Newtonian mechanics. The content includes kinematics, Newton’s laws of motion, work, energy and power, systems of particles and linear momentum, circular motion and rotation, and oscillations…',
+                'A full-year, in-depth study of Newtonian mechanics: kinematics · Newton’s laws of motion · work, energy and power · systems of particles and linear momentum · circular motion and rotation · oscillations and gravitation.',
             },
             {
               title: 'Sports Medicine',

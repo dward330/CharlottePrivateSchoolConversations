@@ -473,9 +473,9 @@ only after Batch 4.
 | 1 (fixes) | `bdd0e8c0`; reviewer fact fixes `db076885` | `review-batch1-fixes.md`, `review-batch1-fixes2.md` | — | — |
 | 1 | `33388ab2` | `review-batch1.md` | 4 (1 gloss; 3 pre-existing Davidson Day catalog drifts, fixed in `db076885`) | **approved** 2026-11-11, no rulings |
 | 2 (fixes) | `b6eecc1f`; reviewer fact fix `796ac752` | `review-batch2-fixes.md`, `review-batch2-fixes2.md` | — | — |
-| 2 | (Batch 2 English commit) | `review-batch2.md` | 2 (1 gloss; 1 pre-existing Covenant Day fact drift, fixed in `796ac752`) | pending |
-| 3 (source + fixes) | — | — | — | — |
-| 3 | — | — | — | — |
+| 2 | `54ca667c` | `review-batch2.md` | 2 (1 gloss; 1 pre-existing Covenant Day fact drift, fixed in `796ac752`) | **approved** 2026-11-11, no rulings (Trinity keeps the ` · ` version) |
+| 3 (source + fixes) | ingest `dd903093`; fixes `22d43e1e` | `review-batch3-fixes.md`, `titles-batch3.json` | — | — |
+| 3 | (Batch 3 English commit) | `review-batch3.md` | 5 (all from the rewrite or fixes text; none pre-existing) + 1 judgment call acted on | pending |
 | 4 | — | — | — | — |
 
 ### Template wordings (as built)
@@ -486,6 +486,10 @@ text here exactly.*
 | Id | Final wording | Set in batch |
 |---|---|---|
 | N1 | "<School> publishes <X> as <Y>, not as separate courses with their own descriptions. The rows below are those <Z>, as the school states them." (Trinity adds its fixes-commit sentence "Trinity publishes no Lower School course catalog.") | 2 |
+| C1 | "A demanding course for students with a strong work ethic and critical-thinking skills, covering …" + the course's own topics (Geometry and Algebra II add "in depth"). "Demanding", not the draft "in-depth", because Honors Chemistry's entry never says in-depth | 3 (fixes commit) |
+| C5 | "Teaches proper weightlifting technique, how to target specific muscle groups and how to design and follow a lifting schedule suited to <male/female> students." | 3 |
+| C6 | "World Literature through novels, short stories, drama and poetry · grammar fundamentals, practiced in writing assignments · an introduction to evaluative and analytical essays using secondary sources." (the guide's missing comma not carried; the cut clause completed, the "continuation of …" clause dropped to stay under the limits) | 3 |
+| C7 | "<A review / A brief review> of operations with integers, fractions and decimals · solving equations and inequalities in one variable · an introduction to functions · linear functions · systems of linear equations and inequalities." (cut clause completed; later clauses dropped) | 3 |
 | N2 | Sentence 1 unchanged; sentence 2 ends at the old semicolon ("…are the school’s own named courses."); sentence 3, identical at both sites: "The other rows are short summaries of what the school publishes for each grade and subject." | 2 |
 
 ### Unit notes (things the drafter must not get wrong)
@@ -640,6 +644,17 @@ every earlier plan did, and record that batch's choices here as precedent.
   "in more depth and at a harder level than Honors Geometry"), else "demanding".
 - Register as built: "whole-person wellness", "all-around language skills", "taken on the
   student’s own schedule", "built up step by step", "seminars on teaching", "combine subjects".
+
+**Batch 2 (approved 2026-11-11, no rulings), so these are now precedent:**
+- A list-shaped description is a ` · ` run of lowercase items in the original order; the
+  original grouping is kept where it carries meaning ("an introduction to fractions,
+  multiplication and division" stays one item).
+- A description that is two clauses and cannot fit one ≤30-word sentence may join them with
+  ` · ` (Trinity Spanish) rather than split.
+- A count teaser may split into sentences; "These include …" / "They include …" keeps a sample a
+  sample.
+- A gloss in parentheses right after the term (subitizing, intertestamental, morphology,
+  heritage speakers "children from Spanish-speaking homes", CP "college prep").
 - The ACTFL gloss: "the advanced-low level (a standard language-proficiency level)".
 - A school claim keeps its attribution in the sentence ("that the school’s profile says is as
   demanding as AP U.S. History").
@@ -1206,6 +1221,7 @@ No skill or slash command changes, so `.claude/SKILLS.md` is not touched. No `CL
 | `covenant-day:divisions[2].departments[5].courses[0].description` (Gr 4 Language Arts) | 11.0 | Subject vocabulary the grade teaches (glossaries, thesauruses, morphology, comprehension, inference); already split into six items |
 | `covenant-day:divisions[2].departments[5].courses[1].description` (Gr 4 Math) | 11.4 | Subject vocabulary (quadrilaterals, congruence, symmetry, operations); nine items, each already alone |
 | `trinity-episcopal:divisions[0].departments[1].courses[0].description` (Spanish) | 10.4 | One-sentence rule: two clauses joined by ` · `, with the "National World Language Standards" name and a gloss for "heritage speakers". A two-sentence version would be lower; offered at the Batch 2 review |
+| `charlotte-catholic:divisions[0].departments[6].courses[8].description` (Honors Anatomy and Physiology) | 11.3 | Template C1's lead plus five body systems (circulatory, respiratory, locomotive, excretory) and the requirement; every item already alone |
 
 ## Implementation notes
 
@@ -1365,6 +1381,60 @@ teaser and `notPublished` note exactly as the module holds them, every departmen
 courses, no literal `*`. Search probes found Bible ("Jesse Tree", "Heroes of the Faith"), Math
 ("subitizing"), Language Arts ("Orton-Gillingham"), Spanish ("Anthologia") and Algebra II -
 Honors ("Precalculus"). 390px: no overflow on any of the six pages.
+
+### Batch 3 — Charlotte Catholic, departments 0–6, plus the Catholic fixes
+
+**Resume.** Batch 2 approved 2026-11-11 with no rulings (Trinity keeps the ` · ` version;
+precedent recorded in "Style rulings"). `origin/main` had not moved.
+
+**Ingest (`dd903093`). Deviation: the source file was renamed** from "… - Full Descriptions
+2026-2027.md" to "… - Curriculum Guide Full Descriptions 2026-2027.md". Under its planned name the
+subtopic matched no `RULES` entry in `src/lib/metrics.ts`, so `check:metrics` reported an
+unmatched subtopic and `DATA-SCHEMA.md` gained a ⚠️ card key `full-descriptions-2026-2027`.
+`metrics.ts` is out of scope, so the file name was changed to match the existing `curriculum`
+pattern instead (now 12 phrasings on that key, no ⚠️). The ingest otherwise went as planned:
+the 12 other schools' date-only doc rebuilds were reverted, `schools.json` reordered and was
+restored to `HEAD` order with the one new document, and `npm run schema` was committed.
+
+**Census re-run:** 199 courses, none changed since `df4dd5c9`, **17 mismatches**, both pairs
+still identical — so the fixes went ahead.
+
+**Fixes (`22d43e1e`).** The 24 leaves as planned (17 census rows, Honors Chemistry, Honors Anatomy
+and Physiology, Advanced Latin II, 4 titles), applied by a title-anchored script (the Options text
+held 15 identical literals) and checked leaf by leaf (exactly 24 changed). Introduction to
+Photography keeps "DSLR" (the guide uses both forms; a parent may search either). **Template C1's
+lead is "A demanding course …", not the plan's draft "An in-depth course …"**, because Honors
+Chemistry's own entry never says in-depth. `check:matrices` differs from `main` by one
+informational line only: the restored "Honors Latin American Influence in the United States" has
+no `TITLE_ALIASES` entry, exactly as the cut title had none (still not counted).
+
+**Wording pass.** The regenerated worklist is 24 units (the plan's 24, but its make-up moved
+with the fixes: Pathway and Honors Anatomy and Physiology joined it from the fixes text; AP
+Physics 1's fixed sentence is short and dropped off). Extras: English 11, Honors English 11, AP
+Physics 1 and the 14 Options/Pathway rows. 25 units changed. Truncations: the cut clause is
+completed from the guide and later clauses dropped (C6, C7, English 12, English 11, Honors
+English 11). Logic drops the school's definition for the course's purpose (allowed by the Unit
+notes). The department name gets `// plain-ok: interdisciplinary` (the marker takes the bare
+term; a reason in parentheses breaks the match). Stoplist addition, with reason: `Evaluation`
+(Assistants' dropped boilerplate opener). `--check` exits 1 on **2 by-design hits** only
+(THIRDPARTY: English 10 / Advanced English 10's completed "secondary sources" clause, listed in
+the review file). 25/25 `hook: pass`; 1 residual. Hook file-wide: 78 → **45**, all in departments
+7–10. FROZEN: 0 lost. Identity: only the 4 titles. Templates C1 (5 sites), C5, C6, C7 identical.
+
+**Independent review: 5 findings, all fixed, none pre-existing** (Assistants' fourth criterion,
+Pre-Calculus sample kept a sample, Calculus BC "includes" AB, Health "aims to", "dissection"
+not "a dissection"). One judgment call acted on: English 11 and Honors English 11 had been carried
+past their cut point while the other truncations stopped at it; both now stop at the cut, and
+"concentrated practice in" / "review and practice of" are restored.
+
+**Step 6.** `tsc -b` clean, `vite build` succeeds; the 11 later checks and `test:plain` exit 0.
+`check:live` fails only in `course-offerings`: **85 stale entries per locale**.
+
+**Step 7, real Chrome:** the Upper School card renders all 199 descriptions exactly as the module
+holds them, 12 department tabs show courses, no literal `*`, and no other course card appeared
+(the ingest adds no card). Searches found AP Calculus BC ("Calculus AB"), Options English 9
+("Options Program"), Introduction to Photography ("DSLR"), and all four restored titles in full
+("Sacred Scripture", "Costuming", "Discipleship", "in the United States"). 390px: no overflow.
 
 ### Candidates noticed while planning, not acted on
 
