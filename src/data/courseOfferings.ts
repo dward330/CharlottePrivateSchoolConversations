@@ -5680,7 +5680,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Math',
               tag: 'Gr 4',
               description:
-                'Multi-digit operations, common multiples and factors, mean, median, mode and range, fractions and decimals across all four operations, customary and metric measurement, perimeter and area, lines and angles, quadrilaterals, congruence and symmetry, and multi-step bar models.',
+                'Multi-digit operations, common multiples and factors, mean, median, mode and range, adding and subtracting fractions, decimals across all four operations, customary and metric measurement, perimeter and area, lines and angles, quadrilaterals, congruence and symmetry, and multi-step bar models.',
             },
             {
               title: 'Bible',
