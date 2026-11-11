@@ -1816,9 +1816,13 @@ No skill or slash command changes, so `.claude/SKILLS.md` is not touched.
 
 ## Open questions
 
-- **`metrics.matriculation` wording.** **Default:** "D1 / Top-College Enrollment", which
-  keeps the meaning. Alternative: "D1 / Top-College Commitments", which describes 25 of
-  the 28 docs behind the row better. The user picks at the Batch 3 review.
+- **`metrics.matriculation` wording.** **Resolved 2026-11-11 (user: "go with your
+  recommendation"): "D1 / Top-College Enrollment"**, which keeps the meaning. The
+  alternative "D1 / Top-College Commitments" was declined.
+- **The HSP `acceptanceNotMatriculation` chip renders for no shipped school** (Batch 3
+  notes). **Resolved 2026-11-11 (user, same instruction): no component change.** The new
+  label stays in `en.json` and translates in Phase 2. It will show for a future K–8 school
+  with an outcomes card and no class lists.
 - **The Cannon fact-fix wording** ("largest fully priced enrichment catalog on this
   site"). **Default:** as in Decisions. An alternative that keeps the word "deepest" is
   "the deepest fully priced catalog". It is shown at the Batch 1 review.
@@ -2213,7 +2217,7 @@ rows).
     Day and Latin) and "inaugural" (kept in Cannon, because "first" would enter FIRST).
 - **Batch 3:**
   - `highSchoolPlacement.acceptanceNotMatriculation` renders for no shipped school
-    (above). If that is not intended, the fix is a component change and needs the user.
+    (above). The user chose no component change (2026-11-11).
   - Jargon candidates for `plain_language.json`: "psychoeducational" (glossed, kept as the
     school's term), "pro-rate" (kept per the Unit note) and "portal-gated" (kept: it is a
     bold span).
