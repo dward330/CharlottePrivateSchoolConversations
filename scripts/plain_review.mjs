@@ -391,7 +391,11 @@ const COURSES_NAME_STOP = new Set(('Students Student Course Courses Class Classe
   'Rigorous In-depth ' +
   // Batch 3: a catalog sentence opener dropped with the boilerplate ("Evaluation is based on…",
   // Charlotte Catholic Assistants). Never a name in this area.
-  'Evaluation').split(' '))
+  'Evaluation ' +
+  // Batch 4: the school's own opener verb kept ("This course will immerse students…" →
+  // "Immerses students…", SASP Wisdom of the Fathers) and a dropped slogan opener ("Perfect the
+  // craft…", Honors Theatre: Design and Tech). Neither is a name.
+  'Immerses Perfect').split(' '))
 const nameTokens = (s) => {
   const out = new Set()
   for (const m of s.matchAll(NAME_RE)) {

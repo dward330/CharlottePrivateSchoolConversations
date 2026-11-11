@@ -7916,13 +7916,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced World History',
               tag: 'Advanced',
               description:
-                'Students will explore this broad scope by reading actively and creatively, evaluating historical evidence using primary and secondary sources, analyzing visual materials, interpreting data, and recognizing point of view and bias.',
+                'Students read actively and creatively, evaluating historical evidence from primary and secondary sources, analyzing visual materials, interpreting data, and recognizing point of view and bias.',
             },
             {
               title: 'Honors World History',
               tag: 'Honors',
               description:
-                'Honors World History is the highest-level World History class at Charlotte Catholic. Deadlines for assignments are often given days and even weeks in advance, so students must plan their work and manage their time to be successful in…',
+                'Honors World History is the highest-level World History class at Charlotte Catholic · assignment deadlines are often given days or even weeks in advance, so students must plan their work and manage their time to succeed.',
             },
             {
               title: 'SASP World History: Icon of Christian Art',
@@ -7939,7 +7939,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors U.S. History',
               tag: 'Honors',
               description:
-                'This course examines the major topics of United States history in greater depth and with more rigor than college prep U.S.',
+                'Covers the major topics of United States history in greater depth than college prep U.S. History, with more independent reading, source analysis and historical writing.',
             },
             {
               title: 'Advanced Placement U.S. History',
@@ -7967,7 +7967,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Politics',
               tag: 'Honors',
               description:
-                'This course covers the same foundational topics as the college prep level U.S. Government course, but with greater depth, pace, and academic rigor.',
+                'Covers the same foundational topics as the college prep level U.S. Government course, but in greater depth, at a faster pace and with more extensive reading and writing.',
             },
             {
               title: 'Advanced Placement United States Government',
@@ -7984,7 +7984,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Economics',
               tag: 'Honors',
               description:
-                'This class provides students with a thorough understanding of the principles of economics that apply to the behavior of individual decision makers, including consumers and producers, within the larger economic system.',
+                'Builds a thorough understanding of the principles of economics that apply to how individual decision makers, including consumers and producers, behave within the larger economic system.',
             },
             {
               title: 'Advanced Placement Microeconomics',
@@ -8028,18 +8028,18 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'The Mystery of Redemption and Christian Discipleship',
               description:
-                'This course examines the meaning of redemption; Original Sin; and how the salvific promise made to our first parents is fulfilled in the life, Death, Resurrection, and Ascension of Jesus Christ.',
+                'Covers the meaning of redemption, Original Sin, and how the promise of salvation to the first parents is fulfilled in the life, Death, Resurrection, and Ascension of Jesus Christ.',
             },
             {
               title: 'The Church: Sacrament of Salvation',
               description:
-                'The Church, which is established by Jesus Christ and guided by the Holy Spirit, continues the salvific ministry of Christ in the world today; thus, the Church is both the Sacrament of Communion and the Sacrament of Salvation.',
+                'Studies how the Church, established by Jesus Christ and guided by the Holy Spirit, carries on Christ’s saving work as the Sacrament of Communion and the Sacrament of Salvation.',
             },
             {
               title: 'SASP Theology 10: Wisdom of the Fathers',
               tag: 'SASP',
               description:
-                'This course will immerse students in the works of the major Fathers of the Church and discuss their influence on the theological development of the Church and its understanding of Divine Revelation (Sacred Tradition and Sacred Scripture).',
+                'Immerses students in the works of the major Fathers of the Church and how they shaped its theology and understanding of Divine Revelation (Sacred Tradition and Sacred Scripture).',
             },
             {
               title: 'The Sacraments: Source of Our Life in Christ',
@@ -8059,12 +8059,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Vocations and the Universal Call to Holiness',
               description:
-                'This course explores the vocations of life that spring from our Baptism and how God calls each of us to holiness on earth and to eternal life with him in heaven.',
+                'Explores the vocations of life that spring from Baptism, and how God calls each person to holiness on earth and to eternal life with him in heaven.',
             },
             {
               title: 'The Social Doctrine of the Catholic Church',
               description:
-                'This course introduces students to the social teachings of the Catholic Church, a rich body of thought covering love and family, law and justice, war and peace, wealth and poverty, rights and duties, and freedom and obligation.',
+                'Introduces the social teachings of the Catholic Church: love and family · law and justice · war and peace · wealth and poverty · rights and duties · freedom and obligation.',
             },
             {
               title: 'History of the Church',
@@ -8154,7 +8154,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Digital Art, Graphics, and Anime',
               description:
-                'How digital art and graphics including anime took over the world. Students in this course will take a visual romp through the evolution of comics and advertising graphics, including the current anime craze, over the past century.',
+                'A visual tour of how comics and advertising graphics, including the current anime craze, evolved over the past century into a dominant force in the culture.',
             },
             {
               title: 'Freshman Men’s Chorus',
@@ -8219,7 +8219,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Theatre: Design and Tech',
               tag: 'Honors',
               description:
-                'Perfect the craft, create and apply the vision. This advanced element of the course not only allows students to create the sets but gives them the tools to work in a professional setting, where all the concepts of design and aesthetics…',
+                'An advanced course in which students not only create the sets but gain the tools to work in a professional setting, applying all the concepts of design and aesthetics.',
             },
             {
               title: 'On The Stage: Acting, Directing, Movie Making',
@@ -8251,23 +8251,23 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Dance I',
               description:
-                'Dance I is an introductory course for incoming freshmen with little or no formal dance instruction, but offered to those interested in learning and possibly furthering their dance knowledge and technique.',
+                'Dance I is an introductory course for incoming freshmen with little or no formal dance instruction · the course is also open to those who want to learn and possibly grow their dance knowledge and technique.',
             },
             {
               title: 'Dance II',
               description:
-                'Dance II is an intermediate to advanced level dance class in which students with previous dance experience either outside of school or through Dance I freshman year can continue to improve their dance techniques and performance skills.',
+                'Dance II is an intermediate to advanced dance class · students with previous dance experience, outside school or through Dance I freshman year, keep improving their technique and performance skills.',
             },
             {
               title: 'Honors Dance III',
               tag: 'Honors',
               description:
-                'Dance III is an honors level performance course which highlights the advanced technique skills of students through the application of choreography The class meets the full year and two staged recitals are required including the use of…',
+                'Dance III is an honors level performance course that highlights students’ advanced technique through applying choreography · the class meets the full year · two staged recitals are required, including student-choreographed pieces.',
             },
             {
               title: 'Concert Band',
               description:
-                'Students with playing experience are eligible for this class through an audition. Students accepted into this ensemble are expected to be proficient on their instrument, have a basic knowledge of music theory, and be fluent in reading…',
+                'Students with playing experience join through an audition and are expected to be proficient on their instrument, know basic music theory and read music fluently.',
             },
             {
               title: 'Honors Wind Ensemble',
@@ -8278,7 +8278,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Percussion',
               description:
-                'This class is for members of the symphonic band who play percussion instruments. The class will cover the fundamentals of playing percussion instruments and application of musicianship skills to the genre.',
+                'For members of the symphonic band who play percussion instruments, covering the fundamentals of playing percussion and applying musicianship skills to the genre.',
             },
             {
               title: 'Honors Percussion',
@@ -8294,7 +8294,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Guitar II',
               description:
-                'This course is designed for the intermediate-advanced guitar student. The course will be a continuation of the material covered in Guitar I with more emphasis on improving the fundamentals with sight reading, scales, chord spellings,…',
+                'For the intermediate-advanced guitar student, continuing Guitar I with more emphasis on improving the fundamentals through sight reading, scales, chord spellings, modes and finger picking.',
             },
           ],
         },
@@ -8321,13 +8321,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced French III',
               tag: 'Advanced',
               description:
-                'This course is an advanced course designed to develop in the students a greater understanding and comprehension of the French language, by continuing the development and application of the language on reading, writing, listening and…',
+                'An advanced course that builds understanding of the French language by continuing to develop and apply it in reading, writing, listening and speaking.',
             },
             {
               title: 'Honors French III',
               tag: 'Honors',
               description:
-                'This course is designed to prepare the student for Honors French IV or AP French Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
+                'Prepares students for Honors French IV or AP French Language and Culture by building a deeper understanding of more complex reading, writing, listening and speaking.',
             },
             {
               title: 'Honors French IV',
@@ -8339,7 +8339,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement French V',
               tag: 'AP',
               description:
-                'The Advanced Placement French Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in French within a culturally rich and content-based framework.',
+                'The Advanced Placement French Language and Culture course is equivalent to an introductory college-level course and builds students’ ability to communicate in French through cultural content.',
             },
             {
               title: 'German I',
@@ -8355,7 +8355,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors German III',
               tag: 'Honors',
               description:
-                'This course is designed to prepare the student for Honors German IV or AP German Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
+                'Prepares students for Honors German IV or AP German Language and Culture by building a deeper understanding of more complex reading, writing, listening and speaking.',
             },
             {
               title: 'Honors German IV',
@@ -8367,7 +8367,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement German V',
               tag: 'AP',
               description:
-                'The Advanced Placement German Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in German within a culturally rich and content-based framework.',
+                'The Advanced Placement German Language and Culture course is equivalent to an introductory college-level course and builds students’ ability to communicate in German through cultural content.',
             },
             {
               title: 'Latin I',
@@ -8377,19 +8377,19 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Latin II',
               description:
-                'This course is designed to continue the foundation learned in Latin I and build a greater understanding of complex sentence structures, increase vocabulary and help students prepare to read from well known authors from the ancient world.',
+                'Builds on Latin I with more complex sentence structures and a larger vocabulary, preparing students to read well-known authors from the ancient world.',
             },
             {
               title: 'Advanced Latin II',
               tag: 'Advanced',
               description:
-                'This course is designed to continue the foundation learned in Latin I and build a greater understanding of complex sentence structures, increase vocabulary and help students prepare to read from well known authors from the ancient world. In the Advanced level, the linguistic level of instruction and communication will be more complex, the curriculum will move at a faster pace, and students will be held to more rigorous expectations.',
+                'Builds on Latin I with more complex sentence structures and a larger vocabulary, preparing students to read well-known authors from the ancient world · at the Advanced level, the language is more complex, the pace faster and the expectations higher.',
             },
             {
               title: 'Advanced Latin III',
               tag: 'Advanced',
               description:
-                'Advanced Latin III will further review and apply Latin vocabulary and grammar. Students will explore readings in adapted and authentic Latin literature, while learning to read and interpret prose and poetry.',
+                'Advanced Latin III further reviews and applies Latin vocabulary and grammar, through readings in adapted and authentic Latin literature and practice reading and interpreting prose and poetry.',
             },
             {
               title: 'Honors Latin III',
@@ -8429,7 +8429,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Spanish III',
               tag: 'Advanced',
               description:
-                'This course is an advanced course designed to develop in the students a greater understanding and comprehension of the Spanish language, by continuing the development and application of the language on reading, writing, listening and…',
+                'An advanced course that builds understanding of the Spanish language by continuing to develop and apply it in reading, writing, listening and speaking.',
             },
             {
               title: 'Advanced Spanish III - Native Speaker',
@@ -8441,7 +8441,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Spanish III',
               tag: 'Honors',
               description:
-                'This course is designed to prepare the student for Honors Spanish IV or AP Spanish Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
+                'Prepares students for Honors Spanish IV or AP Spanish Language and Culture by building a deeper understanding of more complex reading, writing, listening and speaking.',
             },
             {
               title: 'Honors Spanish IV',
@@ -8453,7 +8453,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement Spanish V: Language and Culture',
               tag: 'AP',
               description:
-                'The Advanced Placement Spanish Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in Spanish within a culturally rich and content-based framework.',
+                'The Advanced Placement Spanish Language and Culture course is equivalent to an introductory college-level course and builds students’ ability to communicate in Spanish through cultural content.',
             },
             {
               title: 'Advanced Placement Spanish VI: Literature and Culture',

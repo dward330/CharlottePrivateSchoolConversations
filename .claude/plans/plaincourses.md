@@ -1,7 +1,7 @@
 ---
 name: plaincourses
 title: Plain-language rewrite of the Course Offerings area's English prose in src/data/courseOfferings.ts (106 worklist units across 11 schools, 98 hook-flagged + 8 at grade 10–12, ~2,990 before-words; Charlotte Catholic alone 53) plus 27 extra units, with every course title, tag, department, grade band, prerequisite, credit and AP/Honors/Advanced level unchanged, "rigorous" replaced by what makes the course hard, one sentence per description, and Charlotte Catholic's 17 descriptions attached to the wrong course, 2 duplicate descriptions and 4 truncated titles fixed from the school's own 2026–27 guide in their own commit; the filter's hardcoded English no-match message moved into two context-aware chrome keys; new `--courses-markers` guard set in plain_review.mjs; English in four reviewed batches, then all nine prose locales
-status: in-progress
+status: english-done
 phases: 2
 batches: 4                     # Phase 1 is built in four batches, each with its own review stop
 created: 2026-11-11
@@ -475,8 +475,9 @@ only after Batch 4.
 | 2 (fixes) | `b6eecc1f`; reviewer fact fix `796ac752` | `review-batch2-fixes.md`, `review-batch2-fixes2.md` | — | — |
 | 2 | `54ca667c` | `review-batch2.md` | 2 (1 gloss; 1 pre-existing Covenant Day fact drift, fixed in `796ac752`) | **approved** 2026-11-11, no rulings (Trinity keeps the ` · ` version) |
 | 3 (source + fixes) | ingest `dd903093`; fixes `22d43e1e` | `review-batch3-fixes.md`, `titles-batch3.json` | — | — |
-| 3 | (Batch 3 English commit) | `review-batch3.md` | 5 (all from the rewrite or fixes text; none pre-existing) + 1 judgment call acted on | pending |
-| 4 | — | — | — | — |
+| 3 | `a7b37d1d` | `review-batch3.md` | 5 (all from the rewrite or fixes text; none pre-existing) + 1 judgment call acted on | **approved** 2026-11-11, no rulings |
+| 4 (fixes) | `a9048da4` | `review-batch4-fixes.md` | — | — |
+| 4 | (Batch 4 English commit) | `review-batch4.md` | 8 (all from the rewrite; none pre-existing) | pending |
 
 ### Template wordings (as built)
 
@@ -655,6 +656,17 @@ every earlier plan did, and record that batch's choices here as precedent.
   sample.
 - A gloss in parentheses right after the term (subitizing, intertestamental, morphology,
   heritage speakers "children from Spanish-speaking homes", CP "college prep").
+
+**Batch 3 (approved 2026-11-11, no rulings), so these are now precedent:**
+- A description cut off with "…" is completed to the end of its cut clause from the course's own
+  guide entry, and later clauses are dropped (English 11 / Honors English 11 brought in line).
+- Catalog boilerplate ("This course is designed to…", "Students will…", "The purpose of this
+  course is…") is dropped and the description leads with its subject or verb.
+- A school's stated aim stays an aim ("aims to build"); a school's definition is either
+  attributed or dropped, never restated as ours.
+- A sample stays a sample ("including …").
+- Template C1's lead: "A demanding course for students with a strong work ethic and
+  critical-thinking skills, covering …".
 - The ACTFL gloss: "the advanced-low level (a standard language-proficiency level)".
 - A school claim keeps its attribution in the sentence ("that the school’s profile says is as
   demanding as AP U.S. History").
@@ -1222,6 +1234,8 @@ No skill or slash command changes, so `.claude/SKILLS.md` is not touched. No `CL
 | `covenant-day:divisions[2].departments[5].courses[1].description` (Gr 4 Math) | 11.4 | Subject vocabulary (quadrilaterals, congruence, symmetry, operations); nine items, each already alone |
 | `trinity-episcopal:divisions[0].departments[1].courses[0].description` (Spanish) | 10.4 | One-sentence rule: two clauses joined by ` · `, with the "National World Language Standards" name and a gloss for "heritage speakers". A two-sentence version would be lower; offered at the Batch 2 review |
 | `charlotte-catholic:divisions[0].departments[6].courses[8].description` (Honors Anatomy and Physiology) | 11.3 | Template C1's lead plus five body systems (circulatory, respiratory, locomotive, excretory) and the requirement; every item already alone |
+| `charlotte-catholic:divisions[0].departments[6].courses[4].description` (Honors Chemistry) | 10.4 | Set in the Batch 3 fixes commit (template C1 + its eight content items); unchanged by the wording pass |
+| `charlotte-catholic:divisions[0].departments[10].courses[14].description` (Advanced Latin II) | 11.1 | The shared Latin II clause plus the guide's three Advanced-level items, joined by ` · ` to stay one sentence |
 
 ## Implementation notes
 
@@ -1435,6 +1449,51 @@ holds them, 12 department tabs show courses, no literal `*`, and no other course
 (the ingest adds no card). Searches found AP Calculus BC ("Calculus AB"), Options English 9
 ("Options Program"), Introduction to Photography ("DSLR"), and all four restored titles in full
 ("Sacred Scripture", "Costuming", "Discipleship", "in the United States"). 390px: no overflow.
+
+### Batch 4 — Charlotte Catholic, departments 7–10 (Phase 1 complete)
+
+**Resume.** Batch 3 approved 2026-11-11 with no rulings (precedent recorded in "Style rulings").
+`origin/main` had not moved.
+
+**Fixes (`a9048da4`).** Honors French III's "Honors Spanish IV" → "Honors French IV" (the plan's
+default). **Correction to the Unit notes:** the evidence is not a Honors French IV entry (none is in
+section C) but course 441's existence and AP French V's prerequisite "Honors French IV … or Honors
+French III …".
+
+**Wording pass.** The regenerated worklist is 28 units, as planned; the extra is Honors World
+History (cut off). AP European History and Introduction to Photography were not changed again.
+Templates C2, C3, C4 set (table); the drafts dropped "at a fast pace" from C3 and the "strong
+emphasis on grammatical concepts and oral communication" clause from C2, because neither is in the
+before-text and the latter is a later clause (Batch 3 truncation precedent). Latin II and Advanced
+Latin II share their opening clause. First-person catalog voice ("our first parents", "each of
+us") is removed where it would read as the site speaking. Stoplist additions, with reason:
+`Immerses` (the school's own opener verb kept) and `Perfect` (a dropped slogan opener). Several
+(h) markers fired on false triggers ("in advance" → ADVANCED, "apply" → APPLICATION, "not only" →
+ONLY); the words were kept rather than the classes loosened. `--check` exits 0, 29/29
+`hook: pass`.
+
+**Independent review: 8 findings, all fixed, none pre-existing** (four bare pronouns after a ` · `
+split, a reordered list, "given" vs "come" in advance, "with him" restored, a course made the
+subject of "reads").
+
+**Phase 1 result.** Hook: `src/data/courseOfferings.ts: clean` (143 → 0). `check:plain`:
+course-offerings **Flagged 0** (was 95), **Jargon 0** (was 37), sentences >30 words 0 (was 46),
+Grade >12 0 (was 58), Grade >10 **7** (was 68), and all 7 are rewritten units listed in "Residual
+units above grade 10". Every other area's row is identical to `main`'s (chrome gains the 2
+Step 1b units). No "rigor" anywhere in the file. **132 leaves changed** against `main`, the plan's
+count (it includes the Covenant teaser taken from nocompare). FROZEN: 0 lost in any batch.
+Identity: only the four restored titles (plus the `plain-ok` comment on the department name).
+`tsc -b` clean, `vite build` succeeds, the 11 later checks and `test:plain` exit 0;
+`check:matrices` differs from `main` by the one restored-title line. `check:live`: **113 stale
+entries per locale, all `course-offerings`** (Phase 2's input). Real Chrome: Charlotte Catholic,
+Providence Day and Covenant Day render every description as the module holds it; searches found
+Honors French III ("Honors French IV"), Mystery of Redemption ("Original Sin"), Concert Band
+("audition"), Wisdom of the Fathers ("Sacred Tradition"), Digital Art ("anime"); both no-match
+messages correct; 390px no overflow.
+
+**Candidates for a later pass (not in scope):** three off-worklist Catholic units keep
+first/second-person catalog voice ("through his great love for us", "Come see how we make it look
+easy", "Begin your journey to stardom").
 
 ### Candidates noticed while planning, not acted on
 
