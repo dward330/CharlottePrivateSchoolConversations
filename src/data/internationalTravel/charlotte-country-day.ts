@@ -711,7 +711,7 @@ export const charlotteCountryDay: InternationalTravelProgram = {
       "Where the program stands out, and eleven questions the school's website doesn't answer yet — Upper School prices, aid, selection and safety.",
     standsOut: {
       summary:
-        'Among Charlotte private schools, Country Day stands out for how early and how concretely travel begins — six published Middle School experiences from 6th grade — and for sister-school exchanges running since 1991.',
+        'Among the schools on this site, Country Day publishes the most Middle School travel: six experiences from 6th grade. Its sister-school exchanges have run since 1991.',
       points: [
         'A 6th-grade start, with grade, group size and selection published for every Middle School trip',
         'Three sister schools, with homestays both ways',

@@ -298,7 +298,7 @@ export const cannon: InternationalTravelProgram = {
       "Where the program stands out, and eleven questions the school's website doesn't answer yet — trip costs, aid, selection and safety.",
     standsOut: {
       summary:
-        "Cannon's global program is small and centred on the Upper School, but it offers something most Charlotte schools do not — a Global Studies Certificate with published requirements — and global language learning from Junior Kindergarten.",
+        "Cannon's global program is small and centered on the Upper School. But it offers a Global Studies Certificate with published requirements. Among the other schools on this site, only Providence Day and Davidson Day publish a global studies credential. Cannon also offers global language learning from Junior Kindergarten.",
       points: [
         'A certificate awarded at Senior Night, with a required senior capstone course',
         'Spanish from Junior Kindergarten and a three-language choice in 5th grade',
