@@ -1,0 +1,257 @@
+{
+  "generated": "2026-11-11",
+  "topic": "course-offerings",
+  "file": "src/data/courseOfferings.ts",
+  "slugs": [
+    "providence-day",
+    "charlotte-latin",
+    "charlotte-country-day",
+    "cannon",
+    "davidson-day"
+  ],
+  "match": null,
+  "paths": "(?:description|teaser|notPublished)$",
+  "total": 21,
+  "counts": {
+    "providence-day": 6,
+    "charlotte-latin": 1,
+    "charlotte-country-day": 2,
+    "cannon": 7,
+    "davidson-day": 5
+  },
+  "units": [
+    {
+      "at": "providence-day:divisions[1].departments[4].courses[7].description",
+      "slug": "providence-day",
+      "path": "divisions[1].departments[4].courses[7].description",
+      "words": 6,
+      "grade": null,
+      "rules": [
+        "jargon:interdisciplinary"
+      ],
+      "text": "Interdisciplinary innovation work through entrepreneurial sprints."
+    },
+    {
+      "at": "providence-day:divisions[2].departments[0].courses[13].description",
+      "slug": "providence-day",
+      "path": "divisions[2].departments[0].courses[13].description",
+      "words": 18,
+      "grade": null,
+      "rules": [
+        "jargon:interdisciplinary"
+      ],
+      "text": "An interdisciplinary AP course reaching into literature, arts, political science, geography, and science to explore African American experience."
+    },
+    {
+      "at": "providence-day:divisions[2].departments[2].courses[3].description",
+      "slug": "providence-day",
+      "path": "divisions[2].departments[2].courses[3].description",
+      "words": 18,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "Offers rigorous treatment and in-depth development of direct and indirect proofs across congruence, similarity, circles, and triangle trigonometry."
+    },
+    {
+      "at": "providence-day:divisions[2].departments[3].courses[1].description",
+      "slug": "providence-day",
+      "path": "divisions[2].departments[3].courses[1].description",
+      "words": 15,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "Moves faster and is more mathematically rigorous than Physics I, adding circular motion and waves."
+    },
+    {
+      "at": "providence-day:divisions[2].departments[5].courses[3].description",
+      "slug": "providence-day",
+      "path": "divisions[2].departments[5].courses[3].description",
+      "words": 19,
+      "grade": null,
+      "rules": [
+        "jargon:experiential learning"
+      ],
+      "text": "An experiential course guiding students to launch businesses creating social value, rapidly testing ideas against customer and marketplace feedback."
+    },
+    {
+      "at": "providence-day:divisions[2].departments[6].courses[6].description",
+      "slug": "providence-day",
+      "path": "divisions[2].departments[6].courses[6].description",
+      "words": 17,
+      "grade": null,
+      "rules": [
+        "jargon:holistic review"
+      ],
+      "text": "Prepares seniors for the AP Spanish Language Exam with a holistic proficiency approach and Spanish-only classroom conversation."
+    },
+    {
+      "at": "charlotte-latin:divisions[2].departments[1].courses[7].description",
+      "slug": "charlotte-latin",
+      "path": "divisions[2].departments[1].courses[7].description",
+      "words": 15,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "An honors course the school’s profile describes as equivalent in rigor to AP U.S. History."
+    },
+    {
+      "at": "charlotte-country-day:divisions[0].departments[0].courses[2].description",
+      "slug": "charlotte-country-day",
+      "path": "divisions[0].departments[0].courses[2].description",
+      "words": 18,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "Develops number sense, spatial awareness, and math language through active exploration and hands-on games toward rigorous problem solving."
+    },
+    {
+      "at": "charlotte-country-day:divisions[1].departments[2].courses[4].description",
+      "slug": "charlotte-country-day",
+      "path": "divisions[1].departments[2].courses[4].description",
+      "words": 10,
+      "grade": null,
+      "rules": [
+        "jargon:scaffolding"
+      ],
+      "text": "Scaffolded across the Middle School with design-thinking and prototyping work."
+    },
+    {
+      "at": "cannon:divisions[0].departments[0].courses[0].description",
+      "slug": "cannon",
+      "path": "divisions[0].departments[0].courses[0].description",
+      "words": 15,
+      "grade": null,
+      "rules": [
+        "jargon:differentiated instruction"
+      ],
+      "text": "A literacy block integrating whole-class and small-group differentiated instruction across phonics, fluency, vocabulary, and comprehension."
+    },
+    {
+      "at": "cannon:divisions[0].departments[0].courses[4].description",
+      "slug": "cannon",
+      "path": "divisions[0].departments[0].courses[4].description",
+      "words": 18,
+      "grade": null,
+      "rules": [
+        "jargon:experiential learning"
+      ],
+      "text": "Curriculum builds a strong academic foundation in reading, writing, and math through hands-on, collaborative, experiential, and multi-sensory learning."
+    },
+    {
+      "at": "cannon:divisions[2].departments[1].courses[2].description",
+      "slug": "cannon",
+      "path": "divisions[2].departments[1].courses[2].description",
+      "words": 18,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "Euclidean geometry with heavy emphasis on notation, justification, and proof at greater rigor and depth than Honors Geometry."
+    },
+    {
+      "at": "cannon:divisions[2].departments[1].courses[12].description",
+      "slug": "cannon",
+      "path": "divisions[2].departments[1].courses[12].description",
+      "words": 16,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "A rigorous course covering a semester of college calculus through limits, differential calculus, and integral calculus."
+    },
+    {
+      "at": "cannon:divisions[2].departments[2].courses[16].description",
+      "slug": "cannon",
+      "path": "divisions[2].departments[2].courses[16].description",
+      "words": 15,
+      "grade": null,
+      "rules": [
+        "jargon:synchronous / asynchronous"
+      ],
+      "text": "An asynchronous fully online course building appreciation for scientific phenomena relevant to scientifically literate adults."
+    },
+    {
+      "at": "cannon:divisions[2].departments[4].courses[5].description",
+      "slug": "cannon",
+      "path": "divisions[2].departments[4].courses[5].description",
+      "words": 12,
+      "grade": null,
+      "rules": [
+        "jargon:rigor",
+        "jargon:interdisciplinary"
+      ],
+      "text": "A rigorous interdisciplinary course taught exclusively in Spanish, building proficiency toward advanced-low."
+    },
+    {
+      "at": "cannon:divisions[2].departments[7].courses[0].description",
+      "slug": "cannon",
+      "path": "divisions[2].departments[7].courses[0].description",
+      "words": 14,
+      "grade": null,
+      "rules": [
+        "jargon:holistic review"
+      ],
+      "text": "A holistic wellness and athletic development course informed by kinesiology, exercise physiology, and biomechanics."
+    },
+    {
+      "at": "davidson-day:divisions[0].departments[0].courses[0].description",
+      "slug": "davidson-day",
+      "path": "divisions[0].departments[0].courses[0].description",
+      "words": 21,
+      "grade": null,
+      "rules": [
+        "jargon:executive function",
+        "jargon:social-emotional learning"
+      ],
+      "text": "Early Preschool (2s/3s), Preschool (3s/4s), and Junior Kindergarten (4s/5s) target cognitive skills, language development, motor skills, executive functioning, and social-emotional wellness."
+    },
+    {
+      "at": "davidson-day:divisions[2].departments[0].courses[3].description",
+      "slug": "davidson-day",
+      "path": "divisions[2].departments[0].courses[3].description",
+      "words": 19,
+      "grade": null,
+      "rules": [
+        "jargon:scaffolding"
+      ],
+      "text": "Reads A Long Way Gone, Much Ado About Nothing, and Predictably Irrational, extending English II skills through scaffolded responses."
+    },
+    {
+      "at": "davidson-day:divisions[2].departments[2].courses[1].description",
+      "slug": "davidson-day",
+      "path": "divisions[2].departments[2].courses[1].description",
+      "words": 13,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "The Civics course with added analytical rigor, primary-source interpretation, and AP-style writing prompts."
+    },
+    {
+      "at": "davidson-day:divisions[2].departments[3].courses[8].description",
+      "slug": "davidson-day",
+      "path": "divisions[2].departments[3].courses[8].description",
+      "words": 17,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "Biology with greater depth and rigor, adding inquiry learning with current research data and independent experiment design."
+    },
+    {
+      "at": "davidson-day:divisions[2].departments[8].courses[4].description",
+      "slug": "davidson-day",
+      "path": "divisions[2].departments[8].courses[4].description",
+      "words": 17,
+      "grade": null,
+      "rules": [
+        "jargon:pedagogy"
+      ],
+      "text": "Upper School students serve as instructional partners in middle-school classrooms and lead mini-lessons, with monthly pedagogy seminars."
+    }
+  ]
+}

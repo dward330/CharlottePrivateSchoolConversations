@@ -502,6 +502,14 @@ No skill or command changes, so `.claude/SKILLS.md` is not touched.
 
 *Filled in by `/implement`.*
 
+### Row 36 is already done (by plan `plaincourses`)
+
+`covenant-day:divisions[0].teaser` (course-offerings) was fixed in plan `plaincourses` Batch 2's
+fixes commit on `feat/plaincourses`, 2026-11-11, using row 36's wording exactly ("…and a
+Restoration & Sustainability department, which is rare."). **Skip row 36** in Batch A; the
+`--slugs covenant-day` Course Offerings run will find nothing left to change in that unit. Evidence
+is in `.claude/plans/plaincourses-data/review-batch2-fixes.md`.
+
 ### Candidates noticed, not acted on
 
 - Christian Financial Aid `sections[2].boxes[0].body` holds research bookkeeping: "(retrieved

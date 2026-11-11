@@ -400,7 +400,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
             {
               title: 'Social Entrepreneurship: Incubation & Acceleration',
               tag: 'Gr 7–8',
-              description: 'Interdisciplinary innovation work through entrepreneurial sprints.',
+              description: 'Innovation projects that combine subjects, run as short entrepreneurial sprints.',
             },
             {
               title: 'Engineering the Future',
@@ -620,7 +620,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'AP African American Studies',
               tag: 'AP',
               description:
-                'An interdisciplinary AP course reaching into literature, arts, political science, geography, and science to explore African American experience.',
+                'An AP course that draws on literature, arts, political science, geography, and science to explore African American experience.',
             },
             {
               title: 'AP English Language and Composition',
@@ -804,7 +804,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Geometry (Advanced)',
               tag: 'Advanced',
               description:
-                'Offers rigorous treatment and in-depth development of direct and indirect proofs across congruence, similarity, circles, and triangle trigonometry.',
+                'Develops direct and indirect proofs carefully and in depth across congruence, similarity, circles, and triangle trigonometry.',
             },
             {
               title: 'Algebra II',
@@ -905,7 +905,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Physics I Accelerated',
               tag: 'Accelerated',
               description:
-                'Moves faster and is more mathematically rigorous than Physics I, adding circular motion and waves.',
+                'Moves faster than Physics I and uses more math, adding circular motion and waves.',
             },
             {
               title: 'Chemistry I',
@@ -1101,7 +1101,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Social Entrepreneurship',
               tag: 'Gr 10–12',
               description:
-                'An experiential course guiding students to launch businesses creating social value, rapidly testing ideas against customer and marketplace feedback.',
+                'A hands-on course guiding students to launch businesses that create social value, testing ideas quickly against customer and marketplace feedback.',
             },
             {
               title: 'STEM Research and Design',
@@ -1160,7 +1160,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'AP Spanish Language',
               tag: 'AP',
               description:
-                'Prepares seniors for the AP Spanish Language Exam with a holistic proficiency approach and Spanish-only classroom conversation.',
+                'Prepares seniors for the AP Spanish Language Exam by building all-around language skills, with Spanish-only classroom conversation.',
             },
             {
               title: 'Latin 1',
@@ -1501,7 +1501,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
               title: 'History / Social Studies',
               tag: 'TK–Gr 5',
               description:
-                'Students discover the story of our country and world from varied perspectives.',
+                'Students discover the story of the United States and the world from varied perspectives.',
             },
             {
               title: 'STEAM',
@@ -1737,7 +1737,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
       source: 'Charlotte Latin Upper School course offerings',
       sourceUrl: 'https://www.charlottelatin.org/academics/upper-school/course-offerings',
       notPublished:
-        'Charlotte Latin publishes Upper School course titles without per-course descriptions. Titles here are verbatim; descriptions are drawn from the school’s department-level framing.',
+        'Charlotte Latin publishes Upper School course titles without per-course descriptions. The course titles are the school’s own; each description comes from how the school describes that department.',
       departments: [
         {
           name: 'English',
@@ -1842,7 +1842,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
               title: 'Honors American Studies',
               tag: 'Honors',
               description:
-                'An honors course the school’s profile describes as equivalent in rigor to AP U.S. History.',
+                'An honors course that the school’s profile says is as demanding as AP U.S. History.',
             },
             {
               title: 'History of Music Seminar',
@@ -2242,7 +2242,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'Mathematics',
               tag: 'JK–Gr 4',
               description:
-                'Develops number sense, spatial awareness, and math language through active exploration and hands-on games toward rigorous problem solving.',
+                'Develops number sense, spatial awareness, and math language through active exploration and hands-on games, building toward harder problem solving.',
             },
             {
               title: 'Science',
@@ -2439,7 +2439,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Engineering',
               tag: 'Gr 5–8',
-              description: 'Scaffolded across the Middle School with design-thinking and prototyping work.',
+              description: 'Built up step by step across the Middle School with design-thinking and prototyping work.',
             },
           ],
         },
@@ -3194,7 +3194,7 @@ const CANNON: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 1–4',
               description:
-                'A literacy block integrating whole-class and small-group differentiated instruction across phonics, fluency, vocabulary, and comprehension.',
+                'A literacy block that mixes whole-class and small-group teaching, adjusted to each student’s level, across phonics, fluency, vocabulary, and comprehension.',
             },
             {
               title: 'Mathematics',
@@ -3218,7 +3218,7 @@ const CANNON: CourseOfferings = {
               title: 'Early Childhood Program',
               tag: 'JrK–K',
               description:
-                'Curriculum builds a strong academic foundation in reading, writing, and math through hands-on, collaborative, experiential, and multi-sensory learning.',
+                'The curriculum builds a strong academic foundation in reading, writing, and math through hands-on, collaborative, and multi-sensory learning.',
             },
           ],
         },
@@ -3509,7 +3509,7 @@ const CANNON: CourseOfferings = {
               title: 'Honors Accelerated Geometry',
               tag: 'Accelerated',
               description:
-                'Euclidean geometry with heavy emphasis on notation, justification, and proof at greater rigor and depth than Honors Geometry.',
+                'Euclidean geometry with heavy emphasis on notation, justification, and proof, in more depth and at a harder level than Honors Geometry.',
             },
             {
               title: 'Honors Algebra II',
@@ -3569,7 +3569,7 @@ const CANNON: CourseOfferings = {
               title: 'Advanced Placement Calculus AB',
               tag: 'AP',
               description:
-                'A rigorous course covering a semester of college calculus through limits, differential calculus, and integral calculus.',
+                'A demanding course covering a semester of college calculus through limits, differential calculus, and integral calculus.',
             },
             {
               title: 'Advanced Placement Calculus BC',
@@ -3688,7 +3688,7 @@ const CANNON: CourseOfferings = {
               title: 'Honors Seminar: Contemporary Issues in Science',
               tag: 'Online',
               description:
-                'An asynchronous fully online course building appreciation for scientific phenomena relevant to scientifically literate adults.',
+                'A fully online course, taken on the student’s own schedule, building appreciation for scientific phenomena relevant to scientifically literate adults.',
             },
           ],
         },
@@ -3799,7 +3799,7 @@ const CANNON: CourseOfferings = {
               title: 'AP Spanish Language and Culture: Advanced',
               tag: 'AP',
               description:
-                'A rigorous interdisciplinary course taught exclusively in Spanish, building proficiency toward advanced-low.',
+                'A demanding course that combines subjects, taught only in Spanish, building students’ proficiency toward advanced-low (a level on a standard language-proficiency scale).',
             },
             {
               title: 'Honors French I: Novice',
@@ -4065,7 +4065,7 @@ const CANNON: CourseOfferings = {
               title: 'Wellness and Long-term Athletic Development',
               tag: 'Gr 11–12',
               description:
-                'A holistic wellness and athletic development course informed by kinesiology, exercise physiology, and biomechanics.',
+                'A whole-person wellness and athletic development course informed by kinesiology, exercise physiology, and biomechanics.',
             },
           ],
         },
@@ -4101,7 +4101,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Bible',
               tag: 'JK–Gr 3',
               description:
-                'JK covers Heroes of the Faith, God’s Love for All, and the Truth of God’s Word; K a Survey of the Bible; Gr 1 Creation through the Promised Land; Gr 2 The Gospels; Gr 3 Israel.',
+                'JK: Heroes of the Faith, God’s Love for All, and the Truth of God’s Word · K: a Survey of the Bible · Gr 1: Creation through the Promised Land · Gr 2: The Gospels · Gr 3: Israel.',
             },
             {
               title: 'Acts and the Early Church + Case for Christ',
@@ -4443,7 +4443,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Poetry Workshop, Honors',
               tag: 'Honors',
               description:
-                'A rigorous course in both the creation and critical analysis of poetry, covering rhythm, imagery, metaphor, and structure.',
+                'A demanding course in both writing and critically analyzing poetry, covering rhythm, imagery, metaphor, and structure.',
             },
           ],
         },
@@ -4466,7 +4466,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Geometry Honors',
               tag: 'Honors',
               description:
-                'Covers Euclidean geometry in a more formal, proof-centered approach at a more rigorous and faster pace.',
+                'Covers Euclidean geometry with a more formal, proof-centered approach and at a faster pace.',
             },
             {
               title: 'Algebra II',
@@ -4603,13 +4603,13 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Advanced Placement Environmental Science',
               tag: 'AP',
               description:
-                'An interdisciplinary college-level course on ecosystems, human population dynamics, resource use, pollution, and climate change.',
+                'A college-level course that combines subjects to study ecosystems, human population dynamics, resource use, pollution, and climate change.',
             },
             {
               title: 'Environmental Science Honors',
               tag: 'Honors',
               description:
-                'A hands-on interdisciplinary elective on the interrelationships of the natural world, identifying environmental problems and evaluating solutions.',
+                'A hands-on elective that combines subjects to study how the parts of the natural world connect, identifying environmental problems and evaluating solutions.',
             },
             {
               title: 'Astronomy',
@@ -5153,7 +5153,7 @@ const COVENANT_DAY: CourseOfferings = {
       title: 'High School Courses',
       grades: 'GRADES 9 – 12',
       teaser:
-        '90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department no other school here runs.',
+        '90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department, which is rare.',
       source:
         'Covenant Day High School academics page (department tiles), reconciled against the 2026-2027 High School Profile course matrix',
       sourceUrl: 'https://www.covenantday.org/academics/high-school',
@@ -5303,7 +5303,7 @@ const COVENANT_DAY: CourseOfferings = {
       source: 'Covenant Day Middle School Curriculum (academics page)',
       sourceUrl: 'https://www.covenantday.org/academics/middle-school',
       notPublished:
-        'Covenant Day publishes per-grade subject areas and competencies for grades 6–8 rather than a full course catalog. The honors tracks and electives below are the school’s own named courses; the remaining rows carry each grade’s published subject description.',
+        'Covenant Day publishes per-grade subject areas and competencies for grades 6–8 rather than a full course catalog. The honors tracks and electives below are the school’s own named courses. The other rows are short summaries of what the school publishes for each grade and subject.',
       departments: [
         {
           name: '6th Grade',
@@ -5424,7 +5424,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'English Honors',
               tag: 'Honors',
               description:
-                'Rigorous literary analysis across major literary themes, history and culture, with formal and informal responses, analytical essays and creative pieces; syntax awareness and vocabulary expand throughout.',
+                'In-depth literary analysis across major literary themes, history and culture, with formal and informal responses, analytical essays and creative pieces, while students build syntax awareness and vocabulary.',
             },
             {
               title: 'Math',
@@ -5488,11 +5488,11 @@ const COVENANT_DAY: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'JUNIOR KINDERGARTEN – GRADE 5',
       teaser:
-        'Five to six subject areas described for each of seven grades, plus six named Specials — CREATE Junior, Spanish from Junior Kindergarten, and recorder in 4th before band instruments in 5th.',
+        'Five to six subject areas described for each of seven grades, plus six named Specials. These include CREATE Junior, Spanish from Junior Kindergarten, and recorder in 4th grade before band instruments in 5th.',
       source: 'Covenant Day Lower School Curriculum (academics page)',
       sourceUrl: 'https://www.covenantday.org/academics/lower-school',
       notPublished:
-        'Covenant Day publishes per-grade subject areas and competencies for JK–5 rather than a named-course catalog. The Specials below are the school’s own named courses; the per-grade rows condense that grade’s published competency description.',
+        'Covenant Day publishes per-grade subject areas and competencies for JK–5 rather than a named-course catalog. The Specials below are the school’s own named courses. The other rows are short summaries of what the school publishes for each grade and subject.',
       departments: [
         {
           name: 'Junior Kindergarten',
@@ -5507,7 +5507,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Math',
               tag: 'JK',
               description:
-                'Positional relationships and 2D shapes, comparing length, weight and capacity; counting to 20 and backward from 10, number bonds to 5, doubles to 10, subitizing to 5; and repeating patterns, sorting, and comparing quantities to 10.',
+                'Positional relationships and 2D shapes · comparing length, weight and capacity · counting to 20 and backward from 10 · number bonds to 5 and doubles to 10 · subitizing (knowing how many are in a small group without counting) to 5 · repeating patterns, sorting, and comparing quantities to 10.',
             },
             {
               title: 'Bible',
@@ -5571,19 +5571,19 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 1',
               description:
-                'Phonics and spelling through decoding and fluency; grammar covering parts of speech, capitalization and sentence types; comprehension from retelling to cause/effect and fact/opinion; and personal narrative, opinion and informational writing.',
+                'Phonics and spelling through decoding and fluency · grammar covering parts of speech, capitalization and sentence types · comprehension from retelling to cause/effect and fact/opinion · personal narrative, opinion and informational writing.',
             },
             {
               title: 'Math',
               tag: 'Gr 1',
               description:
-                'Place value to 100 and numbers to 120, number bonds, addition and subtraction to 100, ordinal numbers, 2D and 3D shapes, mental math, customary length and weight, picture and bar graphs, money, calendar and time.',
+                'Place value to 100 and numbers to 120 · number bonds · addition and subtraction to 100 · ordinal numbers · 2D and 3D shapes · mental math · customary length and weight · picture and bar graphs · money · calendar and time.',
             },
             {
               title: 'Bible',
               tag: 'Gr 1',
               description:
-                'Abraham, Isaac and Jacob, Joseph, Moses, Israel and the Promised Land, then Judges and Ruth, Samuel and Saul, David and Solomon, the divided kingdom, exile and return, Psalms and Proverbs.',
+                'Abraham, Isaac and Jacob, Joseph, Moses, Israel and the Promised Land · then Judges and Ruth, Samuel and Saul, David and Solomon · the divided kingdom, exile and return · Psalms and Proverbs.',
             },
             {
               title: 'Science',
@@ -5605,19 +5605,19 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 2',
               description:
-                'Decoding and encoding short, long-vowel and multi-syllabic words; grammar through contractions and sentence types; comprehension including sequencing and verbal reasoning; and expanded narrative and informational writing in print and cursive.',
+                'Decoding and encoding short, long-vowel and multi-syllabic words · grammar through contractions and sentence types · comprehension including sequencing and verbal reasoning · expanded narrative and informational writing in print and cursive.',
             },
             {
               title: 'Math',
               tag: 'Gr 2',
               description:
-                'Fact families to 20, mental math and estimation, place value to 1,000, 2- and 3-digit addition and subtraction, an introduction to fractions, multiplication and division, time, money, customary and metric measurement, and bar-model problem solving.',
+                'Fact families to 20 · mental math and estimation · place value to 1,000 · 2- and 3-digit addition and subtraction · an introduction to fractions, multiplication and division · time · money · customary and metric measurement · bar-model problem solving.',
             },
             {
               title: 'Bible',
               tag: 'Gr 2',
               description:
-                'An Old Testament review via the Jesse Tree and the intertestamental period, then the New Testament — Jesus’ birth, ministry, miracles, parables, crucifixion and resurrection — closing with the early church and Paul’s journeys.',
+                'An Old Testament review via the Jesse Tree and the intertestamental period (the years between the Old Testament and the New Testament) · then the New Testament: Jesus’ birth, ministry, miracles, parables, crucifixion and resurrection · closing with the early church and Paul’s journeys.',
             },
             {
               title: 'Science',
@@ -5640,19 +5640,19 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 3',
               description:
-                'Spelling patterns, rules and syllable division; grammar across synonyms, antonyms, homonyms, prepositions and irregular verbs; comprehension through inference and author’s purpose; and simple, compound and four sentence types in composition.',
+                'Spelling patterns, rules and syllable division · grammar across synonyms, antonyms, homonyms, prepositions and irregular verbs · comprehension through inference and author’s purpose · simple, compound and four sentence types in composition.',
             },
             {
               title: 'Math',
               tag: 'Gr 3',
               description:
-                'Place value to 10,000, rounding, mental math and estimation, bar models for word problems, multiplication facts 0–12, 1- and 2-digit multiplication and division, fractions and decimals, angles and lines, area and perimeter, and measurement conversions.',
+                'Place value to 10,000, rounding, mental math and estimation · bar models for word problems · multiplication facts 0–12 · 1- and 2-digit multiplication and division · fractions and decimals · angles and lines · area and perimeter · measurement conversions.',
             },
             {
               title: 'Bible',
               tag: 'Gr 3',
               description:
-                'Creation, the fall, Noah, the Tower of Babel, Abraham, Isaac, Jacob, Joseph, the Exodus, the ten commandments, the wilderness and the Promised Land, closing with a book study of Ephesians.',
+                'Creation, the fall, Noah, the Tower of Babel, Abraham, Isaac, Jacob and Joseph · the Exodus, the ten commandments, the wilderness and the Promised Land · closing with a book study of Ephesians.',
             },
             {
               title: 'Science',
@@ -5674,13 +5674,13 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 4',
               description:
-                'Word analysis, fluency and vocabulary using glossaries, dictionaries and thesauruses; morphology and spelling rules with sentence parts and subject-verb agreement; comprehension through inference and author’s viewpoint; and writing for different purposes and audiences.',
+                'Word analysis and fluency · vocabulary built with glossaries, dictionaries and thesauruses · morphology (word parts) and spelling rules · sentence parts and subject-verb agreement · comprehension through inference and the author’s viewpoint · writing for different purposes and audiences.',
             },
             {
               title: 'Math',
               tag: 'Gr 4',
               description:
-                'Multi-digit operations, common multiples and factors, mean, median, mode and range, fractions and decimals across all four operations, customary and metric measurement, perimeter and area, lines and angles, quadrilaterals, congruence and symmetry, and multi-step bar models.',
+                'Multi-digit operations · common multiples and factors · mean, median, mode and range · adding and subtracting fractions · decimals across all four operations · customary and metric measurement · perimeter and area · lines and angles · quadrilaterals, congruence and symmetry · multi-step bar models.',
             },
             {
               title: 'Bible',
@@ -5709,13 +5709,13 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 5',
               description:
-                'Parts of speech, analogies, subjects and predicates, prepositional phrases and clauses; comprehension across fiction, fantasy, biography, historical fiction, non-fiction and poetry; and descriptive, narrative, expository and persuasive writing plus literary analysis.',
+                'Parts of speech · analogies · subjects and predicates · prepositional phrases and clauses · comprehension across fiction, fantasy, biography, historical fiction, non-fiction and poetry · descriptive, narrative, expository and persuasive writing · literary analysis.',
             },
             {
               title: 'Math',
               tag: 'Gr 5',
               description:
-                'Place value to 10,000,000, mental math and estimation, multi-digit multiplication and division, fractions, bar-graph problem-solving models, algebraic thinking, area and perimeter, ratios, decimals and percents, graphs, probability and types of angles.',
+                'Place value to 10,000,000 · mental math and estimation · multi-digit multiplication and division · fractions · bar-graph problem-solving models · algebraic thinking · area and perimeter · ratios · decimals and percents · graphs · probability · types of angles.',
             },
             {
               title: 'Bible',
@@ -5750,7 +5750,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Music',
               tag: 'JK–Gr 5',
               description:
-                'Vocal, instrumental and percussion music across classical and modern composers; 4th grade learns recorder and 5th grade band instruments, with a children’s choir and private piano, vocal and guitar lessons available.',
+                'Vocal, instrumental and percussion music by classical and modern composers · 4th grade learns recorder and 5th grade band instruments · a children’s choir and private piano, vocal and guitar lessons are available.',
             },
             {
               title: 'CREATE Junior',
@@ -5809,7 +5809,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'Early Childhood Program',
               tag: 'Age 2 – JK',
               description:
-                'Early Preschool (2s/3s), Preschool (3s/4s), and Junior Kindergarten (4s/5s) target cognitive skills, language development, motor skills, executive functioning, and social-emotional wellness.',
+                'Early Preschool (2s/3s), Preschool (3s/4s), and Junior Kindergarten (4s/5s) work on cognitive skills, language development, fine and gross motor skills, planning and focus skills, and emotional and social well-being.',
             },
             {
               title: 'Specials',
@@ -5829,7 +5829,7 @@ const DAVIDSON_DAY: CourseOfferings = {
       source: "Davidson Day Upper School Course Catalog '26–27, math progression (p.28)",
       sourceUrl: 'https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog',
       notPublished:
-        'No Middle School course catalog or curriculum guide exists. The math courses below come from the Upper School catalog’s progression chart; everything else on the Middle School page is marketing prose.',
+        'Davidson Day publishes no Middle School course catalog or curriculum guide. The math courses below come from the Upper School catalog’s progression chart; the rest of the Middle School page describes the program in general terms.',
       departments: [
         {
           name: 'Mathematics',
@@ -5932,7 +5932,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'English II Honors',
               tag: 'Honors',
               description:
-                'Reads A Long Way Gone, Much Ado About Nothing, and Predictably Irrational, extending English II skills through scaffolded responses.',
+                'Reads fiction and nonfiction such as A Long Way Gone, Much Ado About Nothing, and Predictably Irrational, extending English II skills through guided, step-by-step responses and added writing.',
             },
             {
               title: 'English III Honors',
@@ -6073,7 +6073,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'Civics Honors',
               tag: 'Honors',
               description:
-                'The Civics course with added analytical rigor, primary-source interpretation, and AP-style writing prompts.',
+                'The Civics course with harder analysis, primary-source interpretation, and AP-style writing prompts to prepare for AP World History.',
             },
             {
               title: 'World History Honors',
@@ -6190,7 +6190,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'Biology Honors',
               tag: 'Honors',
               description:
-                'Biology with greater depth and rigor, adding inquiry learning with current research data and independent experiment design.',
+                'Biology in greater depth and at a harder level, adding inquiry learning with current research data and independent experiment design.',
             },
             {
               title: 'AP Biology',
@@ -6437,7 +6437,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: "Middle School TA",
               tag: 'Gr 10–12',
               description:
-                'Upper School students serve as instructional partners in middle-school classrooms and lead mini-lessons, with monthly pedagogy seminars.',
+                'Upper School students serve as instructional partners in middle-school classrooms and lead mini-lessons, with monthly seminars on teaching.',
             },
             {
               title: 'Research Methods Honors',
@@ -6747,14 +6747,14 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
       sourceUrl:
         'https://www.carmelchristian.org/academics-elementary',
       notPublished:
-        'The elementary guide describes each subject by grade (e.g. "Math" per grade) rather than as distinctly-titled courses, which is normal for K–5; the rows below carry the guide’s own per-grade descriptions.',
+        'The elementary guide describes each subject by grade (for example, "Math" for each grade) rather than as separately titled courses, which is normal for K–5. The rows below carry the guide’s own descriptions for each grade.',
       departments: [
         {
           name: 'Core Curriculum',
           courses: [
             { title: 'Bible', tag: 'K–Gr 5', description: 'Who God is through Creation and the Old and New Testaments, Bible-study skills and Christian living, with weekly scripture memorization and chapel reinforcing a biblical worldview across every subject.' },
             { title: 'Math', tag: 'K–Gr 5', description: 'Foundational number sense in Kindergarten building through Grade 5 fraction operations, volume, measurement, decimals, geometry and coordinate planes — visual models, hands-on activities and word-problem reasoning throughout.' },
-            { title: 'Language Arts', tag: 'K–Gr 5', description: 'A multisensory literacy block rooted in the Science of Reading with Orton-Gillingham phonics; strands span phonemic awareness, phonics and morphology, reading (Accelerated Reader from Grade 1), grammar (Analytical Grammar by Grade 5), composition and handwriting.' },
+            { title: 'Language Arts', tag: 'K–Gr 5', description: 'A multisensory literacy block rooted in the Science of Reading, with Orton-Gillingham phonics and these strands: phonemic awareness · phonics and morphology · reading (Accelerated Reader from Grade 1) · grammar (Analytical Grammar by Grade 5) · composition and handwriting.' },
             { title: 'Science', tag: 'K–Gr 5', description: 'Inquiry-based, hands-on study of God’s creation across life, physical and earth/space science, advancing by grade from plants and matter to water and climate, energy and environments, and living systems.' },
             { title: 'Social Studies', tag: 'K–Gr 5', description: 'Civics, culture, economics, geography and history from a biblical worldview, progressing from community themes through US history, North Carolina history (Grade 4) and early American history to the 1880s (Grade 5).' },
           ],
@@ -6765,7 +6765,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
             { title: 'Art', tag: 'K–Gr 5', description: 'Foundational construction skills — painting, drawing, cutting, collage — with the elements of art, art vocabulary and self-assessment, framing creativity as an expression of God’s design.' },
             { title: 'Spanish', tag: 'K–Gr 5', description: 'Language development through songs, games, literature, art and technology across the three modes of communication — interpretive, interpersonal and presentational.' },
             { title: 'Media / Technology', tag: 'K–Gr 5', description: 'Digital resources, Google Classroom and Chrome, and basic keyboarding and coding, taught with the Media Specialist and Technology Specialist.' },
-            { title: 'Music', tag: 'K–Gr 5', description: 'Music literacy, response and relevance as a form of worship — the elements of music and foundational skills on hand drums, kazoos and boomwhackers, with interdisciplinary connections.' },
+            { title: 'Music', tag: 'K–Gr 5', description: 'Music literacy, response and relevance as a form of worship — the elements of music and basic skills on hand drums, kazoos and boomwhackers, with links to other subjects.' },
             { title: 'Physical Education', tag: 'K–Gr 5', description: 'Spatial awareness, games, fitness challenges, fine- and large-motor development, teamwork and the foundations of personal and social responsibility.' },
             { title: 'STEM', tag: 'K–Gr 5', description: 'The STEM Lab — engineering builds, Dash-robot coding, codable Lego kits and 3D-printer designs, often tied directly to the classroom science curriculum.' },
           ],
@@ -6826,7 +6826,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '112 courses across 12 departments — 17 Advanced Placement including the full AP Capstone track, a four-year Bible sequence taught at CP and Honors levels, and an aquaponics internship run on the school’s own working system.',
+        '112 courses across 12 departments. They include 17 Advanced Placement courses, among them the full AP Capstone track. A four-year Bible sequence is taught at CP (college prep) and Honors levels. An aquaponics internship runs on the school’s own working system.',
       source: 'HGCS 2026-2027 Course Selection Catalog (92 pp.)',
       sourceUrl:
         'https://hgchristian.org/course-selection-guide',
@@ -6869,7 +6869,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'Geometry - College Preparatory', tag: 'CP', description: 'Plane and solid Euclidean geometry with inductive and deductive reasoning, including an Algebra I review.' },
             { title: 'Geometry - Honors', tag: 'Honors', description: 'The honors geometry course; eighth-graders must pass a proficiency exam and score at grade level on the Terra Nova to enter.' },
             { title: 'Algebra II - College Preparatory', tag: 'CP', description: 'Problem-solving methods across applications — systems, polynomials, radicals, quadratics, sequences and probability.' },
-            { title: 'Algebra II - Honors', tag: 'Honors', description: 'The honors track, introducing functions as preparation for Precalculus and Calculus at a rigorous pace.' },
+            { title: 'Algebra II - Honors', tag: 'Honors', description: 'The honors track, introducing functions as preparation for Precalculus and Calculus at a fast pace.' },
             { title: 'Advanced Functions & Trigonometry', tag: 'Gr 11–12', description: 'Further skill development for Precalculus or college mathematics; deliberately not a path directly into Calculus.' },
             { title: 'Precalculus - Honors', tag: 'Honors', description: 'Detailed analysis of functions and a unit-circle approach to trigonometry, with a heavy and essential homework load.' },
             { title: 'Calculus  - Honors', tag: 'Honors', description: 'Differential and integral calculus building the foundation for AP Calculus, and a prerequisite for it.' },
@@ -7009,7 +7009,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'Grades 6 – 8',
       teaser:
-        '41 courses across 9 departments — a Summit Ministries worldview sequence in Bible, Algebra 1 for qualifying 8th-grade honors students, and a quarterly enrichment rotation running from sign language and coding to a 5K running course.',
+        '41 courses across 9 departments. They include a Summit Ministries worldview sequence in Bible and Algebra 1 for qualifying 8th-grade honors students. A quarterly enrichment rotation runs from sign language and coding to a 5K running course.',
       source: 'HGCS Middle School 2026-2027 Course Selection Catalog (17 pp.)',
       sourceUrl: 'https://hgchristian.org/ms-courses',
       departments: [
@@ -7130,7 +7130,7 @@ const GASTON_DAY: CourseOfferings = {
       source: 'gastonday.org — Middle School',
       sourceUrl: 'https://www.gastonday.org/middle-school/',
       notPublished:
-        'Gaston Day publishes Middle School curriculum as per-grade subject strands rather than as named, individually-described courses. The rows below are those strands as the school states them.',
+        'Gaston Day publishes Middle School curriculum as subject strands for each grade, not as separate courses with their own descriptions. The rows below are those strands, as the school states them.',
       departments: [
         {
           name: 'Core',
@@ -7349,13 +7349,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'English 10',
               description:
-                'This course includes the study of World Literature through novels, short stories, drama, and poetry; grammar fundamentals and the reinforcement of these essential grammar skills within the context of writing assignments; introduction to…',
+                'World Literature through novels, short stories, drama and poetry · grammar fundamentals, practiced in writing assignments · an introduction to evaluative and analytical essays using secondary sources.',
             },
             {
               title: 'Advanced English 10',
               tag: 'Advanced',
               description:
-                'This course includes the study of World Literature through novels, short stories drama, and poetry; grammar fundamentals and the reinforcement of these essential grammar skills within the context of writing assignments; introduction to…',
+                'World Literature through novels, short stories, drama and poetry · grammar fundamentals, practiced in writing assignments · an introduction to evaluative and analytical essays using secondary sources.',
             },
             {
               title: 'Honors English 10',
@@ -7372,13 +7372,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'English 11',
               description:
-                'This course includes writing skills techniques (e.g., prewriting, organization, drafting, revisions, etc.); documented essays using primary and, in some cases, secondary sources; concentrated practice in literary analysis; reading…',
+                'Writing skills such as prewriting, organization, drafting and revision · documented essays using primary and, in some cases, secondary sources · concentrated practice in literary analysis · reading comprehension.',
             },
             {
               title: 'Honors English 11',
               tag: 'Honors',
               description:
-                'This course includes writing skills techniques (e.g., prewriting, organization, drafting, revision, etc.,); documented essays using primary and secondary resources; concentrated practice in writing analytical essays; reading…',
+                'Writing skills such as prewriting, organization, drafting and revision · documented essays using primary and secondary resources · concentrated practice in writing analytical essays · reading comprehension.',
             },
             {
               title: 'Advanced Placement English 11: English Language and Composition',
@@ -7389,7 +7389,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'English 12',
               description:
-                'This course includes a survey of British Literature; review and practice of paragraph and essay structure; reinforcement of essential grammar skills within the context of writing assignments; reading comprehension, summary and analysis;…',
+                'A survey of British Literature · review and practice of paragraph and essay structure · grammar practiced in writing assignments · reading comprehension, summary and analysis.',
             },
             {
               title: 'Honors English 12',
@@ -7428,7 +7428,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
           ],
         },
         {
-          name: 'Interdisciplinary Studies',
+          name: 'Interdisciplinary Studies', // plain-ok: interdisciplinary
           courses: [
             {
               title: 'Academic Skills 9-10, 11-12',
@@ -7443,7 +7443,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Assistants',
               description:
-                'Assistants will be assigned tasks for the office, counselors, alumni and campus ministry. Evaluation is based on their willingness to learn, initiative and performance of assigned tasks, and demonstrated competencies within the area…',
+                'Assistants do tasks for the office, counselors, alumni and campus ministry, and are evaluated on willingness to learn, initiative, performance of assigned tasks and skill in their assigned area.',
             },
             {
               title: 'Study Hall',
@@ -7454,7 +7454,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Options Scholars',
               tag: 'Options',
               description:
-                'Students will serve as academic peer mentors for those enrolled in the Options Program. In this role, Options Scholars will develop meaningful peer relationships while learning about various intellectual and developmental disabilities.',
+                'Options Scholars serve as academic peer mentors for students enrolled in the Options Program, building meaningful peer relationships while learning about various intellectual and developmental disabilities.',
             },
             {
               title: 'SAT Prep',
@@ -7473,15 +7473,15 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
                 'Honors African American Studies focuses on the historical, political, economic, and social figures and movements impacting Black Americans over the past 400+ years.',
             },
             {
-              title: 'Honors Latin American Influence',
+              title: 'Honors Latin American Influence in the United States',
               tag: 'Honors',
               description:
-                'This interdisciplinary course is designed for the students to explore the Latino influence in the United States in the last century.',
+                'Combines several subjects to explore the Latino influence in the United States in the last century.',
             },
             {
               title: 'Personal Finance',
               description:
-                'This course is designed to provide students with personal skills needed daily. Topics of study include establishing a bank account and maintaining a checkbook and debit card, computing personal income tax and analyzing employment taxes.',
+                'Teaches personal skills needed daily, including opening a bank account, managing a checkbook and debit card, computing personal income tax and analyzing employment taxes.',
             },
             {
               title: 'Marketing Principles',
@@ -7514,7 +7514,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Introduction to STEM',
               description:
-                'Do you like building things? Do you tend to be curious how things work?',
+                'For students who like to build and wonder how things work: a hands-on rotation through STEM fields, plus research and presentations on STEM topics, including careers that suit them.',
             },
             {
               title: 'Introduction to Engineering',
@@ -7531,7 +7531,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Civil and Construction Engineering',
               tag: 'Honors',
               description:
-                'This course is designed to prepare students for college level courses in these fields. Students will explore design concepts including building systems, building materials, structures and loads, transportation, and environmental…',
+                'Prepares students for college level courses in civil and construction engineering, exploring design concepts such as building systems and materials, structures and loads, transportation and environmental concepts.',
             },
             {
               title: 'Honors Engineering Capstone',
@@ -7547,13 +7547,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Algebra I',
               description:
-                'This course includes a review of operations with integers, fractions, and decimals; solving equations and inequalities in one variable; introduction to functions; linear functions; systems of linear equations and systems of linear…',
+                'A review of operations with integers, fractions and decimals · solving equations and inequalities in one variable · an introduction to functions · linear functions · systems of linear equations and inequalities.',
             },
             {
               title: 'Advanced Algebra I',
               tag: 'Advanced',
               description:
-                'This course includes a brief review of operations with integers, fractions, and decimals; solving equations and inequalities in one variable; introduction to functions; linear functions; systems of linear equations and systems of linear…',
+                'A brief review of operations with integers, fractions and decimals · solving equations and inequalities in one variable · an introduction to functions · linear functions · systems of linear equations and inequalities.',
             },
             {
               title: 'Geometry',
@@ -7570,7 +7570,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Geometry',
               tag: 'Honors',
               description:
-                'This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the in depth study of basic terms and symbols; congruence and similarity of polygons and circles; parallel and…',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering in depth: basic terms and symbols · congruence and similarity of polygons and circles · parallel and perpendicular lines · transformations and proofs.',
             },
             {
               title: 'Algebra II',
@@ -7587,7 +7587,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Algebra II',
               tag: 'Honors',
               description:
-                'This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the in depth study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions;…',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions in depth.',
             },
             {
               title: 'Advanced Algebra 3/Statistics',
@@ -7616,7 +7616,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Pre-Calculus',
               tag: 'Honors',
               description:
-                'This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the further development and analysis of functions including polynomial, rational, exponential, and logarithmic…',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering further development and analysis of functions, including polynomial, rational, exponential, logarithmic and trigonometric functions.',
             },
             {
               title: 'Honors Calculus',
@@ -7640,7 +7640,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement Calculus BC',
               tag: 'AP',
               description:
-                'Advanced Placement Calculus BC is roughly equivalent to both first and second semester college calculus courses and includes the content learned in Calculus AB while extending it to different types of equations and introduces the topic…',
+                'Advanced Placement Calculus BC is roughly equivalent to both first and second semester college calculus courses, covering Calculus AB, extended to different types of equations, plus sequences and series.',
             },
           ],
         },
@@ -7651,85 +7651,85 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Options English 9',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills English course for grade 9 students in the Options Program.',
             },
             {
               title: 'Options English 10',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills English course for grade 10 students in the Options Program.',
             },
             {
               title: 'Options English 11',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills English course for grade 11 students in the Options Program.',
             },
             {
               title: 'Options English 12',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills English course for grade 12 students in the Options Program.',
             },
             {
               title: 'Options Year 1',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 9 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Options Year 2',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 10 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Options Year 3',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 11 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Options Year 4',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 12 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Options PE',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For students in grades 9–12 in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Math Life 1',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills math course for grade 9 students in the Options Program.',
             },
             {
               title: 'Math Life 2',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A life-skills math course for grade 10 students in the Options Program.',
             },
             {
               title: 'Options Personal Finance',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 11 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Options Financial Management',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'For grade 12 students in the Options Program; the school’s guide gives no other description.',
             },
             {
               title: 'Pathway Program',
               tag: 'Options',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'A two-year extension of the Options Program beyond the traditional high school experience · classes, job training, internships and community experiences build life skills, workplace and college readiness, and independence.',
             },
           ],
         },
@@ -7749,7 +7749,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Logic',
               description:
-                'Logic is the art of habitually reasoning from true premises to true conclusions. The purpose of this course is to cultivate a student’s ability to think critically and apply logical reasoning across a variety of subject matters.',
+                'Logic builds students’ ability to think critically and apply logical reasoning across many subjects, identifying proper logical forms and exposing fallacies.',
             },
           ],
         },
@@ -7759,7 +7759,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Health',
               description:
-                'The Health course aims to foster a holistic understanding of health, emphasizing the connection between physical, mental, emotional, and spiritual well-being.',
+                'The Health course aims to build a whole-person understanding of health, stressing the connection between physical, mental, emotional and spiritual well-being.',
             },
             {
               title: 'Physical Education',
@@ -7774,12 +7774,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Men’s Weightlifting',
               description:
-                'This course is designed to educate students on the proper techniques of weightlifting, how to target specific muscle groups and the design and implementation of using a lifting schedule specifically to the needs of the male population.',
+                'Teaches proper weightlifting technique, how to target specific muscle groups and how to design and follow a lifting schedule suited to male students.',
             },
             {
               title: 'Women’s Weightlifting',
               description:
-                'This course is designed to educate students on the proper techniques of weightlifting, how to target specific muscle groups and the design and implementation of using a lifting schedule specifically to the needs of the female population.',
+                'Teaches proper weightlifting technique, how to target specific muscle groups and how to design and follow a lifting schedule suited to female students.',
             },
             {
               title: 'Jazzercise',
@@ -7805,7 +7805,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Biology',
               description:
-                'The primary objective of this course is to introduce the student to a broad, general understanding of the fundamental principles of biology through a study of humans and their interaction with other organisms and their mutually shared…',
+                'A broad introduction to the basic principles of biology through the study of humans and their interaction with other organisms and their shared environment.',
             },
             {
               title: 'Advanced Biology',
@@ -7822,13 +7822,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Chemistry',
               tag: 'Advanced',
               description:
-                'This course covers the fundamentals of chemistry. Topics will include, but are not limited to, atomic structure, writing chemical names and formulas, balancing chemical equations, solving stoichiometric problems, behavior of gases,…',
+                'Covers the fundamentals of chemistry, including atomic structure · writing chemical names and formulas · balancing chemical equations · solving stoichiometric problems · the behavior of gases · properties of solutions · acid-base chemistry.',
             },
             {
               title: 'Honors Chemistry',
               tag: 'Honors',
               description:
-                'This rigorous course is designed for students who possess a strong work ethic and the ability to think critically.',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering the structure, properties and changes of matter: atomic structure · bonding · chemical names and formulas · periodic properties · chemical equations and types of reactions · stoichiometric calculations · acid-base theories · redox and equilibrium.',
             },
             {
               title: 'Oceanography',
@@ -7849,7 +7849,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Anatomy and Physiology',
               tag: 'Honors',
               description:
-                'This rigorous course is designed for students who possess a strong work ethic and the ability to think critically.',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering the systems of the human body: digestive · circulatory · respiratory · locomotive (skeletal and muscular) · excretory · dissection and a research paper are required.',
             },
             {
               title: 'Honors Nutritional Science',
@@ -7879,13 +7879,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement Physics 1: Algebra-Based',
               tag: 'AP',
               description:
-                'This course is a full year in-depth study of Newtonian mechanics. The content includes kinematics, Newton’s laws of motion, work, energy and power, systems of particles and linear momentum, circular motion and rotation, and oscillations…',
+                'An algebra-based, introductory college-level physics course; every student must take the AP Physics 1: Algebra-Based exam.',
             },
             {
               title: 'Advanced Placement Physics C: Mechanics',
               tag: 'AP',
               description:
-                'This course is a full year in-depth study of Newtonian mechanics. The content includes kinematics, Newton’s laws of motion, work, energy and power, systems of particles and linear momentum, circular motion and rotation, and oscillations…',
+                'A full-year, in-depth study of Newtonian mechanics: kinematics · Newton’s laws of motion · work, energy and power · systems of particles and linear momentum · circular motion and rotation · oscillations and gravitation.',
             },
             {
               title: 'Sports Medicine',
@@ -7916,13 +7916,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced World History',
               tag: 'Advanced',
               description:
-                'Students will explore this broad scope by reading actively and creatively, evaluating historical evidence using primary and secondary sources, analyzing visual materials, interpreting data, and recognizing point of view and bias.',
+                'Students read actively and creatively, evaluating historical evidence from primary and secondary sources, analyzing visual materials, interpreting data, and recognizing point of view and bias.',
             },
             {
               title: 'Honors World History',
               tag: 'Honors',
               description:
-                'Honors World History is the highest-level World History class at Charlotte Catholic. Deadlines for assignments are often given days and even weeks in advance, so students must plan their work and manage their time to be successful in…',
+                'Honors World History is the highest-level World History class at Charlotte Catholic · assignment deadlines are often given days or even weeks in advance, so students must plan their work and manage their time to succeed.',
             },
             {
               title: 'SASP World History: Icon of Christian Art',
@@ -7939,7 +7939,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors U.S. History',
               tag: 'Honors',
               description:
-                'This course examines the major topics of United States history in greater depth and with more rigor than college prep U.S.',
+                'Covers the major topics of United States history in greater depth than college prep U.S. History, with more independent reading, source analysis and historical writing.',
             },
             {
               title: 'Advanced Placement U.S. History',
@@ -7967,7 +7967,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Politics',
               tag: 'Honors',
               description:
-                'This course covers the same foundational topics as the college prep level U.S. Government course, but with greater depth, pace, and academic rigor.',
+                'Covers the same foundational topics as the college prep level U.S. Government course, but in greater depth, at a faster pace and with more extensive reading and writing.',
             },
             {
               title: 'Advanced Placement United States Government',
@@ -7984,7 +7984,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Economics',
               tag: 'Honors',
               description:
-                'This class provides students with a thorough understanding of the principles of economics that apply to the behavior of individual decision makers, including consumers and producers, within the larger economic system.',
+                'Builds a thorough understanding of the principles of economics that apply to how individual decision makers, including consumers and producers, behave within the larger economic system.',
             },
             {
               title: 'Advanced Placement Microeconomics',
@@ -8002,7 +8002,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement European History',
               tag: 'AP',
               description:
-                'This course begins with a brief orientation to philosophy and logic. The remainder of the course examines how God reveals himself to people.',
+                'Covers key events, figures and developments in Europe from 1450 to the present, with practice analyzing sources and forming arguments; every student must take the AP European History exam.',
             },
           ],
         },
@@ -8010,7 +8010,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
           name: 'Theology',
           courses: [
             {
-              title: 'Faith and Revelation: Knowing',
+              title: 'Faith and Revelation: Knowing God through Sacred Scripture',
               description:
                 'This course begins with a brief orientation to philosophy and logic. The remainder of the course examines how God reveals himself to people.',
             },
@@ -8026,25 +8026,25 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
                 'Sacred Scripture offers students a deep encounter with the Word of God through a traditional, liberal arts lens.',
             },
             {
-              title: 'The Mystery of Redemption and Christian',
+              title: 'The Mystery of Redemption and Christian Discipleship',
               description:
-                'This course examines the meaning of redemption; Original Sin; and how the salvific promise made to our first parents is fulfilled in the life, Death, Resurrection, and Ascension of Jesus Christ.',
+                'Covers the meaning of redemption, Original Sin, and how the promise of salvation to the first parents is fulfilled in the life, Death, Resurrection, and Ascension of Jesus Christ.',
             },
             {
               title: 'The Church: Sacrament of Salvation',
               description:
-                'The Church, which is established by Jesus Christ and guided by the Holy Spirit, continues the salvific ministry of Christ in the world today; thus, the Church is both the Sacrament of Communion and the Sacrament of Salvation.',
+                'Studies how the Church, established by Jesus Christ and guided by the Holy Spirit, carries on Christ’s saving work as the Sacrament of Communion and the Sacrament of Salvation.',
             },
             {
               title: 'SASP Theology 10: Wisdom of the Fathers',
               tag: 'SASP',
               description:
-                'This course will immerse students in the works of the major Fathers of the Church and discuss their influence on the theological development of the Church and its understanding of Divine Revelation (Sacred Tradition and Sacred Scripture).',
+                'Immerses students in the works of the major Fathers of the Church and how they shaped its theology and understanding of Divine Revelation (Sacred Tradition and Sacred Scripture).',
             },
             {
               title: 'The Sacraments: Source of Our Life in Christ',
               description:
-                'This course recognizes how Jesus Christ, through his great love for us, instituted the Sacraments as the ordinary means of receiving salvation and entrusted them to the Church.',
+                'Studies how Jesus Christ, out of his great love for humanity, instituted the Sacraments as the ordinary means of receiving salvation and entrusted them to the Church.',
             },
             {
               title: 'Our Moral Life in Christ',
@@ -8059,12 +8059,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Vocations and the Universal Call to Holiness',
               description:
-                'This course explores the vocations of life that spring from our Baptism and how God calls each of us to holiness on earth and to eternal life with him in heaven.',
+                'Explores the vocations of life that spring from Baptism, and how God calls each person to holiness on earth and to eternal life with him in heaven.',
             },
             {
               title: 'The Social Doctrine of the Catholic Church',
               description:
-                'This course introduces students to the social teachings of the Catholic Church, a rich body of thought covering love and family, law and justice, war and peace, wealth and poverty, rights and duties, and freedom and obligation.',
+                'Introduces the social teachings of the Catholic Church: love and family · law and justice · war and peace · wealth and poverty · rights and duties · freedom and obligation.',
             },
             {
               title: 'History of the Church',
@@ -8134,7 +8134,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Introduction to Photography',
               description:
-                'Photography II is a continuation of Photography I and requires students to have a good working knowledge of DSLR camera controls and the fundamentals of composition.',
+                'An introduction to photographic composition and the controls of a digital SLR (DSLR) camera, with a focus on available light.',
             },
             {
               title: 'Photography II',
@@ -8154,7 +8154,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Digital Art, Graphics, and Anime',
               description:
-                'How digital art and graphics including anime took over the world. Students in this course will take a visual romp through the evolution of comics and advertising graphics, including the current anime craze, over the past century.',
+                'A visual tour of how comics and advertising graphics, including the current anime craze, evolved over the past century into a dominant force in the culture.',
             },
             {
               title: 'Freshman Men’s Chorus',
@@ -8202,34 +8202,34 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Costume Design and Production',
               description:
-                'Join this award-winning class that will lay the groundwork for hands-on experience in the world of clothing design and application.',
+                'Lays the groundwork for hands-on experience in the world of clothing design and application, in a class the school calls award-winning.',
             },
             {
               title: 'Honors Costume Design and Production',
               tag: 'Honors',
               description:
-                'The clothes look great, but why do they look great? Learn about color theory and aesthetics to perfect your skills that can launch your career in the industry.',
+                'Uses color theory and aesthetics to show why costumes look great, building skills that the school says can launch a career in the industry.',
             },
             {
               title: 'Theatre: Design and Tech',
               description:
-                'Interested in the craft of technical theatre? This program allows students the chance to design, build, rig, and engineer all the technical elements of our theatre performances.',
+                'For students interested in the craft of technical theatre: a chance to design, build, rig, and engineer all the technical elements of the school’s theatre performances.',
             },
             {
               title: 'Honors Theatre: Design and Tech',
               tag: 'Honors',
               description:
-                'Perfect the craft, create and apply the vision. This advanced element of the course not only allows students to create the sets but gives them the tools to work in a professional setting, where all the concepts of design and aesthetics…',
+                'An advanced course in which students not only create the sets but gain the tools to work in a professional setting, applying all the concepts of design and aesthetics.',
             },
             {
               title: 'On The Stage: Acting, Directing, Movie Making',
               description:
-                'Begin your journey to stardom as a student of the craft of acting, directing, and movie making.',
+                'A beginning course in the craft of acting, directing, and movie making, where students learn what it takes to command an audience through performance.',
             },
             {
-              title: 'Behind the Scenes: Set Design, Construction,',
+              title: 'Behind the Scenes: Set Design, Construction, Lighting, Sound and Costuming',
               description:
-                'Come see how we make it look easy. The world of stage craft is vast and can lend itself to numerous other career paths.',
+                'Covers stage craft, a vast field that the school says can lend itself to numerous other career paths.',
             },
             {
               title: 'Acting',
@@ -8251,23 +8251,23 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Dance I',
               description:
-                'Dance I is an introductory course for incoming freshmen with little or no formal dance instruction, but offered to those interested in learning and possibly furthering their dance knowledge and technique.',
+                'Dance I is an introductory course for incoming freshmen with little or no formal dance instruction · the course is also open to those who want to learn and possibly grow their dance knowledge and technique.',
             },
             {
               title: 'Dance II',
               description:
-                'Dance II is an intermediate to advanced level dance class in which students with previous dance experience either outside of school or through Dance I freshman year can continue to improve their dance techniques and performance skills.',
+                'Dance II is an intermediate to advanced dance class · students with previous dance experience, outside school or through Dance I freshman year, keep improving their technique and performance skills.',
             },
             {
               title: 'Honors Dance III',
               tag: 'Honors',
               description:
-                'Dance III is an honors level performance course which highlights the advanced technique skills of students through the application of choreography The class meets the full year and two staged recitals are required including the use of…',
+                'Dance III is an honors level performance course that highlights students’ advanced technique through applying choreography · the class meets the full year · two staged recitals are required, including student-choreographed pieces.',
             },
             {
               title: 'Concert Band',
               description:
-                'Students with playing experience are eligible for this class through an audition. Students accepted into this ensemble are expected to be proficient on their instrument, have a basic knowledge of music theory, and be fluent in reading…',
+                'Students with playing experience join through an audition and are expected to be proficient on their instrument, know basic music theory and read music fluently.',
             },
             {
               title: 'Honors Wind Ensemble',
@@ -8278,7 +8278,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Percussion',
               description:
-                'This class is for members of the symphonic band who play percussion instruments. The class will cover the fundamentals of playing percussion instruments and application of musicianship skills to the genre.',
+                'For members of the symphonic band who play percussion instruments, covering the fundamentals of playing percussion and applying musicianship skills to the genre.',
             },
             {
               title: 'Honors Percussion',
@@ -8294,7 +8294,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Guitar II',
               description:
-                'This course is designed for the intermediate-advanced guitar student. The course will be a continuation of the material covered in Guitar I with more emphasis on improving the fundamentals with sight reading, scales, chord spellings,…',
+                'For the intermediate-advanced guitar student, continuing Guitar I with more emphasis on improving the fundamentals through sight reading, scales, chord spellings, modes and finger picking.',
             },
           ],
         },
@@ -8321,13 +8321,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced French III',
               tag: 'Advanced',
               description:
-                'This course is an advanced course designed to develop in the students a greater understanding and comprehension of the French language, by continuing the development and application of the language on reading, writing, listening and…',
+                'An advanced course that builds understanding of the French language by continuing to develop and apply it in reading, writing, listening and speaking.',
             },
             {
               title: 'Honors French III',
               tag: 'Honors',
               description:
-                'This course is designed to prepare the student for Honors Spanish IV or AP French Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
+                'Prepares students for Honors French IV or AP French Language and Culture by building a deeper understanding of more complex reading, writing, listening and speaking.',
             },
             {
               title: 'Honors French IV',
@@ -8339,7 +8339,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement French V',
               tag: 'AP',
               description:
-                'The Advanced Placement French Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in French within a culturally rich and content-based framework.',
+                'The Advanced Placement French Language and Culture course is equivalent to an introductory college-level course and builds students’ ability to communicate in French through cultural content.',
             },
             {
               title: 'German I',
@@ -8355,7 +8355,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors German III',
               tag: 'Honors',
               description:
-                'This course is designed to prepare the student for Honors German IV or AP German Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
+                'Prepares students for Honors German IV or AP German Language and Culture by building a deeper understanding of more complex reading, writing, listening and speaking.',
             },
             {
               title: 'Honors German IV',
@@ -8367,7 +8367,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement German V',
               tag: 'AP',
               description:
-                'The Advanced Placement German Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in German within a culturally rich and content-based framework.',
+                'The Advanced Placement German Language and Culture course is equivalent to an introductory college-level course and builds students’ ability to communicate in German through cultural content.',
             },
             {
               title: 'Latin I',
@@ -8377,19 +8377,19 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Latin II',
               description:
-                'This course is designed to continue the foundation learned in Latin I and build a greater understanding of complex sentence structures, increase vocabulary and help students prepare to read from well known authors from the ancient world.',
+                'Builds on Latin I with more complex sentence structures and a larger vocabulary, preparing students to read well-known authors from the ancient world.',
             },
             {
               title: 'Advanced Latin II',
               tag: 'Advanced',
               description:
-                'This course is designed to continue the foundation learned in Latin I and build a greater understanding of complex sentence structures, increase vocabulary and help students prepare to read from well known authors from the ancient world.',
+                'Builds on Latin I with more complex sentence structures and a larger vocabulary, preparing students to read well-known authors from the ancient world · at the Advanced level, the language is more complex, the pace faster and the expectations higher.',
             },
             {
               title: 'Advanced Latin III',
               tag: 'Advanced',
               description:
-                'Advanced Latin III will further review and apply Latin vocabulary and grammar. Students will explore readings in adapted and authentic Latin literature, while learning to read and interpret prose and poetry.',
+                'Advanced Latin III further reviews and applies Latin vocabulary and grammar, through readings in adapted and authentic Latin literature and practice reading and interpreting prose and poetry.',
             },
             {
               title: 'Honors Latin III',
@@ -8429,7 +8429,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Spanish III',
               tag: 'Advanced',
               description:
-                'This course is an advanced course designed to develop in the students a greater understanding and comprehension of the Spanish language, by continuing the development and application of the language on reading, writing, listening and…',
+                'An advanced course that builds understanding of the Spanish language by continuing to develop and apply it in reading, writing, listening and speaking.',
             },
             {
               title: 'Advanced Spanish III - Native Speaker',
@@ -8441,7 +8441,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Spanish III',
               tag: 'Honors',
               description:
-                'This course is designed to prepare the student for Honors Spanish IV or AP Spanish Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
+                'Prepares students for Honors Spanish IV or AP Spanish Language and Culture by building a deeper understanding of more complex reading, writing, listening and speaking.',
             },
             {
               title: 'Honors Spanish IV',
@@ -8453,7 +8453,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement Spanish V: Language and Culture',
               tag: 'AP',
               description:
-                'The Advanced Placement Spanish Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in Spanish within a culturally rich and content-based framework.',
+                'The Advanced Placement Spanish Language and Culture course is equivalent to an introductory college-level course and builds students’ ability to communicate in Spanish through cultural content.',
             },
             {
               title: 'Advanced Placement Spanish VI: Literature and Culture',
@@ -8529,7 +8529,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
       source: 'tescharlotte.org — Lower School curriculum and enrichments; 2026-27 School Profile',
       sourceUrl: 'https://www.tescharlotte.org/academics/lower-school-curriculum.cfm',
       notPublished:
-        'Trinity publishes Lower School work as named curricula and weekly enrichment subjects rather than as named, individually-described courses. The rows below are those subjects and curricula as the school states them. No Lower School course catalog exists — the only PDF published site-wide is a philanthropy guide.',
+        'Trinity publishes Lower School work as named curricula and weekly enrichment subjects, not as separate courses with their own descriptions. The rows below are those subjects and curricula, as the school states them. Trinity publishes no Lower School course catalog.',
       departments: [
         {
           name: 'Core Curriculum',
@@ -8567,7 +8567,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Spanish — Descubre el Español',
               tag: 'K–Gr 5',
               description:
-                'All students take Spanish as an enrichment class, learning through the five Cs of the National World Language Standards and exploring the culture of 20 Spanish-speaking countries; heritage speakers in grades 4-5 access the Anthologia program at school and at home.',
+                'All students take Spanish as an enrichment class, learning through the five Cs of the National World Language Standards and exploring the culture of 20 Spanish-speaking countries · heritage speakers (children from Spanish-speaking homes) in grades 4-5 also use the Anthologia program at school and at home.',
             },
             {
               title: 'IDEA (STEM) Lab',

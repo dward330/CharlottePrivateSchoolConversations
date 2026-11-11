@@ -69,6 +69,13 @@
  *                     floors, minimums, "not a census" and "understated" counted as BOUND) and
  *                     the borrowed THIRDPARTY, DERIVED, WIN, CLAIM, VERIFIED, NOTFOUND, ONLY,
  *                     FIRST, STALE, ENROLLED, EXCLUDED, FREE; enables guards (n) and (p)
+ *   --courses-markers add the Course Offerings marker classes to guard (h) (plan plaincourses):
+ *                     LEVEL, COLLEGE, PACE, EXAM, DURATION, GRADELEVEL, ELECTIVE, IMMERSION, plus
+ *                     ESTIMATE / BOUND and the borrowed CLAIM, VERIFIED, NOTFOUND, AUDITION, OPEN,
+ *                     APPLICATION, ADVANCED, ONLY, FIRST, THIRDPARTY; enables guards (n), (p)
+ *                     (with a course-description stoplist), (q) and (r)
+ *   --allow-titles <f.json>  with --courses-markers: `{ "slug:path": "new title" }` — title
+ *                     leaves guard (q) lets change, each only to that exact string
  *
  * GUARDS (fail --check), compared per school across base and working tree:
  *   (a) the set of prose paths differs            — a structural change
@@ -91,7 +98,8 @@
  *       with --clubs-markers the arts classes, THIRDPARTY, ESTIMATE, BOUND and the
  *       clubs classes NOTACLUB, ELECTED, APPLICATION, RESULT, ADVANCED, ONLY, FIRST,
  *       with a published minimum counted as BOUND (plan plainclubs);
- *       with --sports-markers the Sports classes (plan plainsports).
+ *       with --sports-markers the Sports classes (plan plainsports);
+ *       with --courses-markers the Course Offerings classes (plan plaincourses).
  *       Synonyms within a class are free; a count change inside a class is a note.
  *   (j) units that held the SAME text at base (within one file) now differ
  *   (k) with --allow: a changed leaf (prose or not) is on none of the worklists
@@ -109,6 +117,15 @@
  *       the before-text must appear in the after-text, in its own case or lowercase, and
  *       the reverse. Recasing a word at a sentence start passes; dropping or adding a
  *       person, college or source fails (plan plainsports: "never add or remove a name").
+ *       Also with --courses-markers (books, curricula, programs; plan plaincourses).
+ *   (q) with --courses-markers: a course-identity leaf changed — any leaf whose path ends
+ *       in `.title`, `.tag`, `departments[N].name`, `divisions[N].grades`, `guideYear`,
+ *       `.source` or `.sourceUrl` (these are classified as PROSE, so (f) cannot see them).
+ *       Whole file, every school. --allow-titles exempts named title leaves, each only
+ *       when it changed to exactly the listed string.
+ *   (r) with --courses-markers: a changed `….description` has more sentences after than
+ *       before (a ` · ` run counts as one sentence; plan plaincourses: "one sentence per
+ *       description"). An after-count above 1 is a note.
  * Reported in the row's notes, never failing: capitalized words of the
  * before-text missing from the after-text (proper-noun drift), a change in the
  * number of `**` (inside --md-paths, or when --md-paths is absent), a change in
@@ -125,7 +142,7 @@ import { execSync } from 'node:child_process'
 import { tmpdir } from 'node:os'
 import { join, resolve, dirname, relative } from 'node:path'
 import { pathToFileURL, fileURLToPath } from 'node:url'
-import { proseUnits, analyze, filterAllowed, locateLine, loadConfig } from './check_plain_language.mjs'
+import { proseUnits, analyze, filterAllowed, locateLine, loadConfig, sentences } from './check_plain_language.mjs'
 import { classifyField } from './i18n_fields.mjs'
 import { EXPORTS, ACCESSORS, SLUGS, TOPICS, EXTRA_LAYERS } from './i18n_topics.mjs'
 
@@ -277,6 +294,18 @@ const MARKERS = {
   RANKED: /\branked\b|\brank(?:s|ing|ings)?\b|\btop-?\d+\b|\bseed(?:s|ed)?\b/gi,
   PRO: /\bprofessional(?:ly)?\b|\bpros?\b|\bdraft\w*|\bprospects?\b/gi,
   HEDGE: /\bappear(?:s|ed)?\b|\bdescribed (?:as|in)\b|\bconsistent with\b|\bby (?:his|her|their|its) count\b|\boften linked\b|\bindicative\b|\breported(?:ly)?\b/gi,
+  // Course Offerings classes (plan plaincourses, --courses-markers): the course's level, a
+  // college-level claim, what makes it hard (so "rigorous" → "faster pace" stays inside
+  // PACE, while dropping the demand or inventing one fails), exams, duration, who may take
+  // it, elective status, and the language of instruction.
+  LEVEL: /\bAP\b|\bAdvanced Placement\b|\bhonors?\b|\bpost-AP\b|\bIB\b|\bcollege[- ]prep\b|\bCP\b/gi,
+  COLLEGE: /\bcollege[- ]level\b|\bcollege (?:credit|courses?|calculus)\b|\bsemesters? of college\b|\bdual[- ]enroll\w*|\b(?:introductory|first[- ]year|first[- ]semester) college\b|\buniversity\b|\bCPCC\b/gi,
+  PACE: /\bfaster\b|\bfast\b|\bpace\b|\baccelerated\b|\bin[- ]depth\b|\bdepth\b|\bdemanding\b|\bharder\b|\bchalleng\w*|\brigou?r\w*|\bintensive\b|\bwork ethic\b|\bworkload\b/gi,
+  EXAM: /\bexams?\b|\bexamination\b/gi,
+  DURATION: /\bsemesters?\b|\bfull[- ]year\b|\byear[- ]long\b|\byearlong\b|\bquarter(?:ly|s)?\b|\btrimester\b|\bweekly\b|\bmonthly\b|\bdaily\b/gi,
+  GRADELEVEL: /\bgrades? \d|\b\d+(?:st|nd|rd|th)[- ]grade\w*|\bfreshm[ae]n\b|\bsophomores?\b|\bjuniors?\b(?! kindergarten)|\bseniors?\b|\bkindergarten\b|\b(?:JK|TK|PK)\b/gi,
+  ELECTIVE: /\belectives?\b/gi,
+  IMMERSION: /\btaught (?:entirely |exclusively |only )?in\b|\b\w+-only\b|\bimmersion\b|\btarget language\b/gi,
 }
 /** --clubs-markers counts a published minimum as BOUND ("a minimum two weeks" → "at least
  *  two weeks" is one claim; College Support calibration). "floor" only after an hour figure
@@ -305,9 +334,14 @@ const SMALL_BORROWS = new Set(['THIRDPARTY', 'DERIVED', 'DISCOUNT', 'AVERAGE', '
  *  SPORTS_BORROWS from the aid, arts, clubs and small sets (and the shared ESTIMATE / BOUND). */
 const SPORTS_CLASSES = new Set(['COMMIT', 'SIGNED', 'VERBAL', 'OFFER', 'WALKON', 'SCHOLARSHIP', 'TRANSFER', 'TITLE', 'RUNNERUP', 'FINAL', 'SEMIFINAL', 'LOSS', 'RANKED', 'PRO', 'HEDGE'])
 const SPORTS_BORROWS = new Set(['THIRDPARTY', 'DERIVED', 'WIN', 'CLAIM', 'VERIFIED', 'NOTFOUND', 'ONLY', 'FIRST', 'STALE', 'ENROLLED', 'EXCLUDED', 'FREE'])
+/** The Course Offerings classes run only with --courses-markers (plan plaincourses), which
+ *  also borrows COURSES_BORROWS from the aid, arts and clubs sets (and the shared ESTIMATE / BOUND). */
+const COURSES_CLASSES = new Set(['LEVEL', 'COLLEGE', 'PACE', 'EXAM', 'DURATION', 'GRADELEVEL', 'ELECTIVE', 'IMMERSION'])
+const COURSES_BORROWS = new Set(['CLAIM', 'VERIFIED', 'NOTFOUND', 'AUDITION', 'OPEN', 'APPLICATION', 'ADVANCED', 'ONLY', 'FIRST', 'THIRDPARTY'])
 const classOn = (k) => {
-  const borrowed = (smallMarkers && SMALL_BORROWS.has(k)) || (sportsMarkers && SPORTS_BORROWS.has(k))
-  if (SHARED_CLASSES.has(k)) return aidMarkers || artsMarkers || clubsMarkers || smallMarkers || sportsMarkers
+  const borrowed = (smallMarkers && SMALL_BORROWS.has(k)) || (sportsMarkers && SPORTS_BORROWS.has(k)) || (coursesMarkers && COURSES_BORROWS.has(k))
+  if (COURSES_CLASSES.has(k)) return coursesMarkers
+  if (SHARED_CLASSES.has(k)) return aidMarkers || artsMarkers || clubsMarkers || smallMarkers || sportsMarkers || coursesMarkers
   if (AID_CLASSES.has(k)) return aidMarkers || (clubsMarkers && k === 'THIRDPARTY') || borrowed
   if (ARTS_CLASSES.has(k)) return artsMarkers || clubsMarkers || borrowed
   if (CLUBS_CLASSES.has(k)) return clubsMarkers || borrowed
@@ -342,14 +376,41 @@ const NAME_STOP = new Set(('The A An It Its He His She Her They Their This That 
   'Both Each Every No Not Only Most Many Some All In On At As By For From Of To With While When Where After Before ' +
   'Since Earlier Today Here What Which Who One Two Three Four Five Six Seven Eight Nine Ten Treat Ask Note Selected ' +
   'Recent Among Even Because If Until Unlike Like Neither Including Plus').split(' '))
+/* --courses-markers adds the words that start course descriptions (plan plaincourses), so
+ * dropping "Students will …" or leading with "Covers …" does not read as a name change. */
+const COURSES_NAME_STOP = new Set(('Students Student Course Courses Class Classes Topics Content Covers Covering Uses Offers ' +
+  'Moves Develops Reads Prepares Builds Explores Introduces Includes Designed Focuses Emphasis Through Using Learning ' +
+  'Teaching Taught Open Required Elective Daily Weekly Monthly Teaches Studies Continues Combines Innovation Positional ' +
+  'Phonics Place ' +
+  // Batch 1 drafts: jargon words that open a description and are being replaced, and the
+  // replacement's opener ("Interdisciplinary innovation work…", "Scaffolded across…" →
+  // "Built up step by step…"). They are never names in this area.
+  'Interdisciplinary Scaffolded Built ' +
+  // Batch 2: the same case ("Rigorous literary analysis…" → "In-depth literary analysis…",
+  // Covenant Day 8th-grade English Honors). Both are level words, never names.
+  'Rigorous In-depth ' +
+  // Batch 3: a catalog sentence opener dropped with the boilerplate ("Evaluation is based on…",
+  // Charlotte Catholic Assistants). Never a name in this area.
+  'Evaluation ' +
+  // Batch 4: the school's own opener verb kept ("This course will immerse students…" →
+  // "Immerses students…", SASP Wisdom of the Fathers) and a dropped slogan opener ("Perfect the
+  // craft…", Honors Theatre: Design and Tech). Neither is a name.
+  'Immerses Perfect ' +
+  // Batch 4 amendment: second-person catalog openers removed with the school's voice ("Do you
+  // like…", "Learn about…", "Begin your journey…", "Come see how we…"). Never names.
+  'Do Learn Begin Come Join Lays').split(' '))
 const nameTokens = (s) => {
   const out = new Set()
   for (const m of s.matchAll(NAME_RE)) {
     const t = m[0].replace(/[’']s$/, '').replace(/[.’'&-]+$/, '')
-    if (t && !NAME_STOP.has(t)) out.add(t)
+    if (t && !NAME_STOP.has(t) && !(coursesMarkers && COURSES_NAME_STOP.has(t))) out.add(t)
   }
   return out
 }
+/* Guard (q), --courses-markers: course-identity leaves (classified as prose, so (f) misses them). */
+const IDENTITY_RE = /(?:\.title|\.tag|departments\[\d+\]\.name|divisions\[\d+\]\.grades|(?:^|\.)guideYear|\.source|\.sourceUrl|^source|^sourceUrl)$/
+/* Guard (r), --courses-markers: sentences, with a ` · ` run counted as one. */
+const sentenceCount = (s) => sentences(s.replace(/\s+·\s+/g, ', ')).length
 const escRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 const holdsWord = (text, w) => [w, w.toLowerCase()].some((v) => new RegExp(`(?<![A-Za-z0-9])${escRe(v)}(?![A-Za-z0-9])`).test(text))
 const dateTokens = (s) => (s.replace(/\*\*/g, '').match(DATE_RE) ?? []).map((m) => m.replace(/\s+/g, ' ').trim())
@@ -401,6 +462,9 @@ const skipFlagKinds = new Set([
 const clubsMarkers = argv.includes('--clubs-markers')
 const smallMarkers = argv.includes('--small-markers')
 const sportsMarkers = argv.includes('--sports-markers')
+const coursesMarkers = argv.includes('--courses-markers')
+const allowTitles = opt('--allow-titles', null) ? JSON.parse(readFileSync(resolve(ROOT, opt('--allow-titles')), 'utf8')) : {}
+if (opt('--allow-titles', null) && !coursesMarkers) { console.error('plain_review: --allow-titles needs --courses-markers'); process.exit(2) }
 const outFile = opt('--out', null)
 const worklistFile = opt('--worklist', null)
 const matchRe = opt('--match', null) ? new RegExp(opt('--match')) : null
@@ -416,7 +480,7 @@ const allSlugs = accessor ? accessor.slugs : readdirSync(join(ROOT, dir)).filter
 const slugs = opt('--slugs', null) ? opt('--slugs').split(',').map((s) => s.trim()).filter(Boolean) : allSlugs
 for (const s of slugs) if (!allSlugs.includes(s)) { console.error(accessor ? `plain_review: ${topic} has no entry for ${s}` : `plain_review: no ${dir}/${s}.ts`); process.exit(2) }
 if (!outFile && !worklistFile && !flag('--check')) {
-  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d [--layers] | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re] [--aid-markers] [--arts-markers] [--clubs-markers] [--small-markers] [--sports-markers] [--no-md] [--skip-flag-kinds a,b]')
+  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d [--layers] | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re] [--aid-markers] [--arts-markers] [--clubs-markers] [--small-markers] [--sports-markers] [--courses-markers [--allow-titles f.json]] [--no-md] [--skip-flag-kinds a,b]')
   process.exit(2)
 }
 const cfg = loadConfig()
@@ -540,6 +604,18 @@ async function main() {
       for (const [p, t] of nb) if (na.get(p) !== t) failures.push(`(f) ${slug}:${p}: non-prose leaf changed`)
       for (const p of na.keys()) if (!nb.has(p)) failures.push(`(f) ${slug}:${p}: non-prose leaf added`)
 
+      // (q) course identity unchanged — whole file, every school (--courses-markers)
+      if (coursesMarkers) {
+        const lb = new Map(allLeaves(before, prefix).map((l) => [l.path, l.text]))
+        const la = new Map(allLeaves(after, prefix).map((l) => [l.path, l.text]))
+        for (const [p, t] of lb) {
+          if (!IDENTITY_RE.test(p) || la.get(p) === t) continue
+          const want = allowTitles[`${slug}:${p}`]
+          if (want != null && /\.title$/.test(p) && la.get(p) === want) continue
+          failures.push(`(q) ${slug}:${p}: course-identity leaf changed${want != null ? ` (allowed only as "${want}")` : ''}`)
+        }
+      }
+
       // (k) every changed leaf, prose or not, must be on a worklist — whole file
       if (allowed) {
         const lb = new Map(allLeaves(before, prefix).map((l) => [l.path, l.text]))
@@ -578,12 +654,18 @@ async function main() {
         if (dd) failures.push(`(g) ${at}: date/time tokens differ ${dd}`)
         const dm = diffList(moneyTokens(b), moneyTokens(a))
         if (dm) failures.push(`(m) ${at}: money/percent/year tokens differ ${dm}`)
-        if (artsMarkers || clubsMarkers || smallMarkers || sportsMarkers) {
+        if (artsMarkers || clubsMarkers || smallMarkers || sportsMarkers || coursesMarkers) {
           const dn = diffList(countTokens(b), countTokens(a))
           if (dn) failures.push(`(n) ${at}: count words differ ${dn}`)
         }
         if (noMd && a.includes('*')) failures.push(`(o) ${at}: "*" in a field that renders no markdown`)
-        if (sportsMarkers) {
+        const sentNote = []
+        if (coursesMarkers && /(?:^|\.)description$/.test(path)) {
+          const sb = sentenceCount(b), sa = sentenceCount(a)
+          if (sa > sb) failures.push(`(r) ${at}: description has more sentences (${sb}→${sa})`)
+          else if (sa > 1) sentNote.push(`sentences ${sb}→${sa}`)
+        }
+        if (sportsMarkers || coursesMarkers) {
           for (const w of nameTokens(b)) if (!holdsWord(a, w)) failures.push(`(p) ${at}: name gone "${w}"`)
           for (const w of nameTokens(a)) if (!holdsWord(b, w)) failures.push(`(p) ${at}: name new "${w}"`)
         }
@@ -607,7 +689,7 @@ async function main() {
         }
         const ab = (b.match(/→/g) ?? []).length, aa = (a.match(/→/g) ?? []).length
         if (ab !== aa) notes.push(`→ ${ab}→${aa}`)
-        notes.push(...markerNotes)
+        notes.push(...markerNotes, ...sentNote)
         const ga = analyze(a, cfg).grade, gb = analyze(b, cfg).grade
         if (ga != null && ga > cfg.targetGrade) notes.push(`grade ${ga.toFixed(1)} > ${cfg.targetGrade}`)
         const hk = hookIssues(a, relPath, path, source, slug, part)
