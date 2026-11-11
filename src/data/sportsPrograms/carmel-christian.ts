@@ -146,7 +146,7 @@ export const carmelChristian: SportsProgram = {
       },
     ],
     didNotWin:
-      "Christ School took the boys basketball 4A titles Carmel lost in 2023 (48–53) and 2025 (50–73, as Christ School three-peated), and Cannon took the 2021 final (85–94); Rabun Gap-Nacoochee beat Carmel in the 2021 (1–0) and 2022 (1–0) boys soccer 4A finals, and Coastal Christian in the 2019 3A final; Providence Day shut Carmel out for the 2026 girls soccer 4A title (0–2).",
+      "Christ School took the boys basketball 4A titles Carmel lost in 2023 (48–53) and 2025 (50–73, as Christ School took three straight titles). Cannon took the 2021 boys basketball final (85–94). Rabun Gap-Nacoochee beat Carmel in the 2021 (1–0) and 2022 (1–0) boys soccer 4A finals, and Coastal Christian beat Carmel in the 2019 3A final. Providence Day shut Carmel out for the 2026 girls soccer 4A title (0–2).",
     bars: [
       { program: 'Boys Basketball', record: '26–3', pct: 0.897, tag: "'21–22 SEASON" },
       { program: 'Boys Soccer', record: '14–1', pct: 0.933, tag: '2020 TITLE RUN' },
@@ -197,7 +197,7 @@ export const carmelChristian: SportsProgram = {
     headline:
       '20 documented college commitments across the classes of 2024–26 — six Division I and one Power 4, a South Carolina tennis signee.',
     subhead:
-      'Built from the school’s own "Next Steps" list of college signees and its signing-day posts; division and conference labels were added by the researcher from each college’s NCAA or NAIA status.',
+      'Built from the school’s own "Next Steps" list of college signees and its signing-day posts. This site added the division and conference labels from each college’s NCAA or NAIA status.',
     funnel: [
       {
         label: 'Committed to college athletics',
@@ -216,15 +216,15 @@ export const carmelChristian: SportsProgram = {
       },
     ],
     funnelNote:
-      'Four of the six Division I commits are basketball players who signed with mid-major programs in the Big South, Sun Belt and Southern conferences; the other two are tennis players, one of them Carmel’s Power 4 signee, Gabe Avram (’24), at South Carolina in the SEC. Kam Taylor reached the ACC (Florida State) only later, through the transfer portal, not as a Carmel commit.',
+      'Four of the six Division I commits are basketball players. They signed with mid-major programs (Division I programs outside the biggest conferences) in the Big South, Sun Belt and Southern conferences. The other two are tennis players. One of them is Carmel’s Power 4 signee, Gabe Avram (’24), at South Carolina in the SEC. Kam Taylor reached the ACC (Florida State) only later, through the transfer portal, not as a Carmel commit.',
     sportBars: [
       { sport: 'Basketball', count: 4, width: 1 },
       { sport: 'Tennis', count: 2, width: 0.5, p4Width: 0.25 },
     ],
     realityCheck:
-      'Most Carmel signees land in NCAA Division II and III: baseball to Lander, USC Aiken, Bluefield State and Ferrum; basketball to Fayetteville State and Johnson & Wales, and to WVU Tech in the NAIA; golf to North Greenville and Randolph-Macon; volleyball to Winston-Salem State. Tennis is the program’s second pipeline — six signees in the classes of 2024 and 2025, from the SEC to Johns Hopkins. The school’s list also includes a dance-team signee, who is not counted here as an athletic commitment.',
+      'Most Carmel signees land in NCAA Division II and III. Baseball: Lander, USC Aiken, Bluefield State and Ferrum. Basketball: Fayetteville State and Johnson & Wales, and WVU Tech in the NAIA. Golf: North Greenville and Randolph-Macon. Volleyball: Winston-Salem State. Tennis is the program’s second pipeline, with six signees in the classes of 2024 and 2025, from the SEC to Johns Hopkins. The school’s list also includes a dance-team signee, who is not counted here as an athletic commitment.',
     rankedRecruits:
-      'Cade Tyson (’22) was 2022 NC Mr. Basketball and left as the program’s recruiting headliner (Belmont → UNC → Minnesota; a 2026 NBA G League Draft Combine / Portsmouth invitee). Jaeden Mustaf, all-state at Carmel and son of ex-NBA Jerrod Mustaf, led the 2022–23 team to 28–4 and the state final before Georgia Tech → Indiana. Cody Peck (6\'10", four-star, top-100 → Dayton) is often linked to Carmel but played only two seasons there and graduated elsewhere — he is not a Carmel commit.',
+      'Cade Tyson (’22) was 2022 NC Mr. Basketball and left as the program’s recruiting headliner. His path: Belmont → UNC → Minnesota; a 2026 NBA G League Draft Combine and Portsmouth invitee. Jaeden Mustaf, all-state at Carmel and son of ex-NBA Jerrod Mustaf, led the 2022–23 team to 28–4 and the state final before Georgia Tech → Indiana. Cody Peck (6\'10", four-star, top-100 → Dayton) is often linked to Carmel but played only two seasons there and graduated elsewhere. He is not a Carmel commit.',
     roster: [
       { cls: "'26", name: 'Logan Johnson', sport: 'Basketball', college: 'UNC Asheville', conf: 'Big South', level: 'D1' },
       { cls: "'26", name: 'Caden Tarr', sport: 'Baseball', college: 'Lander', conf: 'Peach Belt', level: 'D2' },
@@ -248,7 +248,7 @@ export const carmelChristian: SportsProgram = {
       { cls: "'24", name: 'Cole Bryant', sport: 'Golf', college: 'Randolph-Macon', conf: 'ODAC', level: 'D3' },
     ],
     rosterNote:
-      'Every row is from the school’s own "Next Steps" signee list or its signing-day and news posts; level labels (P4 / D1 / D2 / D3 / NAIA) and conferences were added by the researcher from each college’s status. P4 = SEC · Big Ten · ACC · Big 12. The Class of 2026 rows are the signees the school has announced so far; its list for that class is not yet published.',
+      'Every row is from the school’s own "Next Steps" signee list or its signing-day and news posts. This site added the level labels (P4 / D1 / D2 / D3 / NAIA) and conferences from each college’s status. P4 = SEC · Big Ten · ACC · Big 12. The Class of 2026 rows are the signees the school has announced so far. The school’s list for that class is not yet published.',
     sources: [
       { label: 'carmelchristianathletics.org — Next Steps (college commits)', url: NEXT_STEPS },
       {
@@ -271,13 +271,13 @@ export const carmelChristian: SportsProgram = {
     honors: [
       {
         label: 'NC Mr. Basketball',
-        text: 'Cade Tyson (’22) — 2022 North Carolina Mr. Basketball, averaging 24.0 ppg as a senior and scoring 31 in the state-title win over Greensboro Day. Belmont → UNC → Minnesota; a 2026 NBA G League Draft Combine and Portsmouth invitee (a draft prospect, not yet a pro).',
+        text: 'Cade Tyson (’22) — 2022 North Carolina Mr. Basketball. He averaged 24.0 points per game as a senior and scored 31 in the state-title win over Greensboro Day. Belmont → UNC → Minnesota; a 2026 NBA G League Draft Combine and Portsmouth invitee (a draft prospect, not yet a pro).',
         tag: 'Statewide, 1 per year',
         tagStyle: 'accent',
       },
       {
         label: 'High-major recruiting',
-        text: 'Jaeden Mustaf — all-state at Carmel, led the 2022–23 team to 28–4 and the state final, and the son of ex-NBA player Jerrod Mustaf. Georgia Tech → Indiana (April 2026). He transferred in from DeMatha; whether he graduated from Carmel is unconfirmed.',
+        text: 'Jaeden Mustaf — all-state at Carmel, led the 2022–23 team to 28–4 and the state final, and the son of ex-NBA player Jerrod Mustaf. Georgia Tech → Indiana (April 2026). He transferred in from DeMatha. No public source confirms yet whether he graduated from Carmel.',
         tag: 'National recruit',
         tagStyle: 'accent',
       },
@@ -302,7 +302,7 @@ export const carmelChristian: SportsProgram = {
     featured: [],
     tenure: [],
     worthKnowing:
-      'Carmel’s athletics pages reference a coaches directory but list no head-coach names, tenures or career records. Those details are unpublished on the pages fetched — a deeper pass (school directory, press) would be needed to populate a coaching ledger.',
+      'Carmel’s athletics pages reference a coaches directory but list no head-coach names, tenures or career records. The school does not publish them.',
     sources: [
       { label: 'carmelchristianathletics.org — Inside Athletics (AD contact)', url: INSIDE },
     ],
@@ -323,7 +323,7 @@ export const carmelChristian: SportsProgram = {
     nil: [
       {
         date: 'August 12, 2025',
-        text: 'Class of 2025 basketball alumnus Bryce Slay signed his first NIL deal — with College HUNKS (College Hunks Hauling Junk & Moving) — described as among the first Charlotte high-school graduates to secure such an agreement. No dollar figure was disclosed; the deal was initiated by his parents, Tamar (ex-Charlotte Bobcats) and Celeste Slay. Slay had committed to Marshall.',
+        text: 'Class of 2025 basketball alumnus Bryce Slay signed his first NIL deal, with College HUNKS (College Hunks Hauling Junk & Moving). He was described as among the first Charlotte high-school graduates to secure such an agreement. No dollar figure was disclosed. His parents, Tamar (ex-Charlotte Bobcats) and Celeste Slay, initiated the deal. Slay had committed to Marshall.',
         highlight: true,
         tag: "CARMEL'S FIRST",
       },

@@ -1,7 +1,7 @@
 ---
 name: plainsports
 title: Plain-language rewrite of the Sports area's English prose across src/data/sportsPrograms/ (12 of 13 schools; 101 worklist units, 79 hook-flagged + 22 at grade 10–12, ~5,990 before-words) plus 6 off-worklist research-bookkeeping units, with every sport, team, league, association, division, record, score, ranking, title, season, coach, college, commitment and athlete name unchanged, the Wells Fargo Cup and Compare commit figures left agreeing, three false cross-school claims fixed in their own commits, and a new `--sports-markers` guard set (incl. a no-name-added-or-removed guard) in plain_review.mjs; English in five reviewed school batches, then all nine prose locales
-status: in-progress
+status: english-done
 phases: 2
 batches: 5                     # Phase 1 is built in five batches, each with its own review stop
 created: 2026-11-11
@@ -569,9 +569,10 @@ only after Batch 5.
 | 2 | `6ed32ae6` | [review-batch2.md](plainsports-data/review-batch2.md) | 2 (all fixed) | approved 2026-11-11, no rulings |
 | 3 (fixes) | `98153ade` | [review-batch3-fixes.md](plainsports-data/review-batch3-fixes.md) | — | approved 2026-11-11, no rulings |
 | 3 | `3d79b69c` | [review-batch3.md](plainsports-data/review-batch3.md) | 5 (all fixed) | approved 2026-11-11, no rulings |
-| 4 (fixes) | `db3cad74` | [review-batch4-fixes.md](plainsports-data/review-batch4-fixes.md) | — | awaiting review |
-| 4 | `plainsports: batch 4 English` (SHA in the commit log) | [review-batch4.md](plainsports-data/review-batch4.md) | 3 (all fixed) | awaiting review |
-| 5 | | | | |
+| 4 (fixes) | `db3cad74` | [review-batch4-fixes.md](plainsports-data/review-batch4-fixes.md) | — | approved 2026-11-11, no rulings |
+| 4 | `2b71ca74` (+ `a7878155` Hall of Fame count, user request) | [review-batch4.md](plainsports-data/review-batch4.md) | 3 (all fixed) | approved 2026-11-11, no rulings |
+| 5 (fixes) | `b8943fe0` | [review-batch5-fixes.md](plainsports-data/review-batch5-fixes.md) | — | awaiting review |
+| 5 | `plainsports: batch 5 English` (SHA in the commit log) | [review-batch5.md](plainsports-data/review-batch5.md) | 3 (all fixed) | awaiting review |
 
 ### Template wordings (as built)
 
@@ -580,9 +581,9 @@ text here exactly.*
 
 | Id | Final wording | Set in batch |
 |---|---|---|
-| T1 | The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign. | 1 (PD, Latin) |
-| T2 | Covenant form (Batch 4): "This site confirmed the levels and conferences for each college." (the plan's "each college’s level and conference" fails (p) on "Levels"). rosterNote form: "This site added the level labels (P4 / D1 / D2 / D3) and conferences from each college’s NCAA status. These labels are not on the school’s list." (PD's parenthesis and second sentence are PD's own extras; the core is "This site added the level labels and conferences from each college’s NCAA status.") · subhead form: "This site added the division and conference labels from each college’s NCAA status." | 1 (PD) |
-| T3 | Evan Ingram’s junior college is listed at the D3 level, because this table has no NJCAA level. (Pattern: "<X>’s junior college is listed at the D3 level, because this table has no NJCAA level." Gaston: "…no USCAA level." Covenant's plural form follows the same shape.) | 3 (Cannon) |
+| T1 | The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign. (Cannon tail: "…the sport bars or on the Compare page until those athletes sign." Gaston singular, Batch 5: "The Class of 2027 row is a public commitment, listed because it is already announced. This row is not counted in the funnel, the sport bars or on the Compare page until the athlete signs.") | 1 (PD, Latin) |
+| T2 | Covenant form (Batch 4): "This site confirmed the levels and conferences for each college." (the plan's "each college’s level and conference" fails (p) on "Levels"). rosterNote form: "This site added the level labels (P4 / D1 / D2 / D3) and conferences from each college’s NCAA status. These labels are not on the school’s list." (PD's parenthesis and second sentence are PD's own extras; the core is "This site added the level labels and conferences from each college’s NCAA status.") · subhead form: "This site added the division and conference labels from each college’s NCAA status." · Carmel (Batch 5): subhead "This site added the division and conference labels from each college’s NCAA or NAIA status."; rosterNote "This site added the level labels (P4 / D1 / D2 / D3 / NAIA) and conferences from each college’s status." (no "NCAA": the before-text lacked it there, and (p) would fail) | 1 (PD) |
+| T3 | Evan Ingram’s junior college is listed at the D3 level, because this table has no NJCAA level. (Pattern: "<X>’s junior college is listed at the D3 level, because this table has no NJCAA level." Gaston: "…no USCAA level." Covenant's plural form follows the same shape. Batch 5: HG "Colby Vanhook’s junior college is listed at the D3 level, because this table has no NJCAA level."; Gaston "Johnson & Wales in Charlotte competes in the USCAA rather than the NCAA. Braylen Todd is listed at the D3 level, because this table has no USCAA level.") | 3 (Cannon) |
 | T4 | Three athletes have since moved: Jadyn Davis from Michigan to East Tennessee State, Trajan Thompson from Denver to West Florida and Chase Jackson from Gardner-Webb to Claflin. The roster shows the college each one committed to out of Providence Day. (Pattern: "Three athletes have since moved: A from X to Y, B from … and C from …. The roster shows the college each one committed to out of <School>.") | 1 (PD) |
 | T6 | This card counts collegiate athletes, with or without a scholarship. (Cannon. DD keeps its own "Collegiate athlete is the school’s term" form, per the Near-repeats row. The walk-on sentence keeps its gloss: "a preferred walk-on (promised a roster spot, without an athletic scholarship)".) | 3 (Cannon) |
 
@@ -950,7 +951,8 @@ read as "approved, no rulings"); precedent for Batches 4–5:
 - "Power 4 engine" → "the biggest source of Power 4 commits"; "unambiguously" → "clearly"; "churn" → "turnover"; "multi-decade tenures" → "coaches who stay for decades".
 - A T4 site whose list runs past 30 words moves a per-athlete detail into its own sentence after the list ("Galloway joined Clemson as a preferred walk-on."), keeping the T4 pattern.
 
-**Batch 4 choices (DD + Covenant)** — awaiting the user's review; precedent once approved:
+**Batch 4 choices (DD + Covenant)** — approved by the user 2026-11-11 (rulings placeholder unfilled,
+read as "approved, no rulings"); precedent for Batch 5:
 - A comparison whose point the school's own fact already carries is deleted, with no hedge (DD
   "where larger peer schools convert closer to a third"; "earlier than any other school in this
   comparison").
@@ -968,6 +970,30 @@ read as "approved, no rulings"); precedent for Batches 4–5:
 - "won" is avoided where the before-text had no WIN word ("That year also brought the Wells Fargo
   Cup"); "the college ranks" stays (RANKED); a capitalized sentence-start word stays when its
   plural/singular form would trip (p) ("Programming", "Program coaches", "levels").
+
+**Batch 5 choices (Carmel, Gaston, HG, Trinity)** — awaiting the user's review:
+- A register or Unit-note wording that trips a marker guard yields to one that keeps the class:
+  "three-peated" → "took three straight titles" (the unit's own verb; "won" would add WIN);
+  "unconfirmed" → "No public source confirms yet whether …" (Batch 1 precedent; "has not
+  confirmed" would add VERIFIED).
+- A site-mechanics reason with no parent use leaves the page even though guard (p) fires on it
+  ("JavaScript-rendered", Gaston `offered.footnote`, per the plan's census treatment). This is the
+  batch's one guard failure, by design.
+- "This card is deliberately short" → "This card is short because Gaston Day publishes no venue
+  list"; "is not reachable" → "is mentioned on the school’s athletics site, but not in a form this
+  page can show" (the Gaston `offered.footnote` wording).
+- A bare "at <college>" after a commit count stays "at", never "committed to" (which adds
+  COMMIT): "One is Megan Brown (’24), at Wofford …" (Gaston), "They are …, at …" (HG; reviewer
+  finding).
+- A `·` run needs 4+ items; three take semicolons ("Among them are …; …; and …"; reviewer
+  finding).
+- A split names a final's sport when the next sentence is about another sport ("Cannon took the
+  2021 boys basketball final"; reviewer finding).
+- A per-sport college list becomes "Baseball: A, B and C." sentences after a short lead (Carmel
+  `realityCheck`).
+- "ppg" → "points per game" (figure unchanged); "helmed" → "led".
+- A sentence ending in "Division I." is followed by a noun ("Division I programs."): the hook's
+  splitter reads "I." as an initial and joins the next sentence.
 
 *Rulings from later batches are added here by `/implement`.* If a resume command arrives with
 the `<, with these rulings: …>` placeholder unfilled, read it as "approved, no rulings", as
@@ -1488,6 +1514,7 @@ No skill or slash command changes, so `.claude/SKILLS.md` is not touched. No `CL
 | *(Batch 2: none — every rewritten Christian and Catholic unit is at grade ≤10)* | | |
 | *(Batch 3: none — every rewritten CCD and Cannon unit is at grade ≤10)* | | |
 | *(Batch 4: none — every rewritten DD and Covenant unit is at grade ≤10)* | | |
+| *(Batch 5: none — every rewritten Carmel, Gaston, HG and Trinity unit is at grade ≤10)* | | |
 
 ## Implementation notes
 
@@ -1737,7 +1764,64 @@ here: 23 wording rows and DD `offered.subhead` from the fixes commit). No schema
 1280px; "Worth knowing:" reads on into both lowercase openers; DD's "2023–24: The peak." reads
 from its label; no `*`; no headline or Cup field touched; no overflow at 390px.
 
+### Batch 5 — Carmel Christian, Gaston Day, Hickory Grove Christian, Trinity Episcopal
+
+**Resume.** The command arrived with the rulings placeholder unfilled, read as "approved, no
+rulings". Batch 4's choices became precedent. `origin/main` had not moved. Between Batches 4
+and 5, at the user's request, commit `a7878155` fixed the DD Hall of Fame count ("eight
+inductees", the Wolters being one joint entry; see Candidates).
+
+**Step 2a, fixes commit `b8943fe0`.** Under the Batch 1 ruling, Gaston `facilities.careNote`
+(off-worklist) "Every peer school on this roster publishes a venue list; Gaston Day does not"
+becomes "Gaston Day publishes no venue list". Guard (h) fires on UNPUBLISHED (0→1) by design (the
+before-text elided the verb). Evidence in `review-batch5-fixes.md`.
+
+**Sweep.** Every hit was in the census. After the rewrite, the bookkeeping sweep returns **no hit
+anywhere in Sports**. The remaining comparison-pattern hits are all judged keeps (within-school
+"every other", own-result rankings, Prep's hedged "few schools").
+
+**Step 2b.** The regenerated worklist matches the Context table (Carmel 9, Gaston 7, HG 4,
+Trinity 2). `worklist-extra-batch5.json` holds Carmel `honors.honors[1].text` (bookkeeping), HG
+`pipeline.rosterNote` (T3) and Gaston `facilities.careNote` (the ruling unit, which also held "not
+reachable" and "deliberately short"). 25 units changed in the wording pass.
+
+**Guards.** 25/25 `hook: pass`, none above grade 10 (before: up to 23.7). `--check` exits 1 on
+**one by-design failure**: (p) "JavaScript-rendered" leaves Gaston `offered.footnote`, as the
+census treatment intends. Draft adjustments against the guards: "won three straight" (WIN added)
+→ "took three straight titles"; "Carmel has not confirmed" (VERIFIED added) → "No public source
+confirms yet whether …"; "as well as Division I." → "Division I programs." (the hook's splitter
+reads "I." as an initial and joined two sentences into 35 words).
+
+**Hook loop.** `check_plain_language.mjs` over every `src/data/sportsPrograms/*.ts`: **0 issues**
+remain in the area.
+
+**Templates.** T1 (Gaston singular), T2 (Carmel subhead and rosterNote forms), T3 (Gaston USCAA,
+HG NJCAA) as in "Template wordings"; T5, T7, T8 byte-identical at every site.
+
+**Ledger agreement.** Gaston `didNotWin` (14 titles, six sports, same order), girls tennis
+2021/2023/2024/2025, boys soccer 2021/2022/2024 and "lost the 2025 final 1–4 to Caldwell
+Academy" (byte-identical with `record.rows[2].note`); Carmel finals 2021/2023/2025 and 2021/2022.
+Funnel counts unchanged.
+
+**Independent review:** 3 findings, all fixed (`review-batch5.md`).
+
+**Checks.** `npx tsc -b` clean; `npx vite build` succeeds; every Step 6 check and `test:plain`
+exit 0. `check:live`: **113 stale stamps per locale**, all in `sports` (88 from Batches 1–4,
+including the Hall of Fame fix, plus 25 here). No schema drift. This is Phase 2's input.
+
+**Browser** (headed Chrome, `vite preview`): all 25 changed units render on the four schools with
+every card open; "What they didn't win:" and "Worth knowing:" read on from their labels; no `*`;
+no headline or Cup field touched; no overflow at 390px (Carmel). The three reviewer fixes were
+re-checked in the browser.
+
 ### Candidates noticed, not acted on
+
+- **Gaston `facilities.care[3].text`** (off-worklist, not on the census): "…but both sit behind
+  the JS-rendered layer and could not be retrieved." is research bookkeeping that
+  `BOOKKEEPING_RE` misses ("could not be retrieved"). Left for a later pass.
+- **Hook sentence splitter:** "Division I." at a sentence end is read as an initial, so the next
+  sentence is joined to it. Worked around in HG `realityCheck`; a splitter fix would be a tooling
+  change outside this plan.
 
 - **Guard (p) singular/plural:** "Levels" → "level" fails as "name gone". (p) could compare
   sentence-start words case- and number-insensitively. Not changed (no tooling change outside

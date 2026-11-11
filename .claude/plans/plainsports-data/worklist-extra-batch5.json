@@ -1,0 +1,53 @@
+{
+  "generated": "2026-11-11",
+  "dir": "src/data/sportsPrograms",
+  "note": "Off-worklist units added by hand (plan plainsports, Batch 5)",
+  "slugs": [
+    "carmel-christian",
+    "gaston-day",
+    "hickory-grove-christian",
+    "trinity-episcopal"
+  ],
+  "match": null,
+  "total": 3,
+  "counts": {
+    "carmel-christian": 1,
+    "gaston-day": 1,
+    "hickory-grove-christian": 1
+  },
+  "units": [
+    {
+      "at": "carmel-christian:honors.honors[1].text",
+      "slug": "carmel-christian",
+      "path": "honors.honors[1].text",
+      "words": 42,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "ruling": "plan census: research bookkeeping \"unconfirmed\" (off-worklist)",
+      "text": "Jaeden Mustaf — all-state at Carmel, led the 2022–23 team to 28–4 and the state final, and the son of ex-NBA player Jerrod Mustaf. Georgia Tech → Indiana (April 2026). He transferred in from DeMatha; whether he graduated from Carmel is unconfirmed."
+    },
+    {
+      "at": "gaston-day:facilities.careNote",
+      "slug": "gaston-day",
+      "path": "facilities.careNote",
+      "words": 44,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "ruling": "user ruling 2026-11-11: comparison with other schools removed in the fixes commit; also holds \"not reachable\" and \"deliberately short\" (off-worklist)",
+      "text": "This card is deliberately short. Gaston Day publishes no venue list, and the one document that would carry it (the Athletic Handbook) is not reachable. That is a publication gap, not an absence of facilities — a campus fielding 19 sports plainly has them."
+    },
+    {
+      "at": "hickory-grove-christian:pipeline.rosterNote",
+      "slug": "hickory-grove-christian",
+      "path": "pipeline.rosterNote",
+      "words": 51,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "ruling": "plan Near-repeats: T3 template site (off-worklist)",
+      "text": "Each row is the college the athlete went to out of Hickory Grove, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. Colby Vanhook’s junior college is listed at the D3 tier for want of an NJCAA level in this table’s scale."
+    }
+  ]
+}
