@@ -5829,7 +5829,7 @@ const DAVIDSON_DAY: CourseOfferings = {
       source: "Davidson Day Upper School Course Catalog '26–27, math progression (p.28)",
       sourceUrl: 'https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog',
       notPublished:
-        'No Middle School course catalog or curriculum guide exists. The math courses below come from the Upper School catalog’s progression chart; everything else on the Middle School page is marketing prose.',
+        'Davidson Day publishes no Middle School course catalog or curriculum guide. The math courses below come from the Upper School catalog’s progression chart; the rest of the Middle School page describes the program in general terms.',
       departments: [
         {
           name: 'Mathematics',
