@@ -274,7 +274,14 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
         ))}
         {shown.length === 0 && (
           <p className="courses-empty text-muted">
-            No courses match “{q}” — try a shorter term or another department.
+            {/* On the All tab (and in a one-department division, which never leaves
+                it) every department is already searched, so only a shorter search
+                can help; inside one department, the All tab can. The query is
+                wrapped in FSI…PDI so a Latin query keeps its order inside an
+                RTL sentence (fa, ar). */}
+            {showingAll
+              ? t('courses.noMatch', { query: `⁨${q}⁩` })
+              : t('courses.noMatchInDept', { query: `⁨${q}⁩`, allTab: t('courses.allTab') })}
           </p>
         )}
       </div>
