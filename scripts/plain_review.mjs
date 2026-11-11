@@ -385,7 +385,10 @@ const COURSES_NAME_STOP = new Set(('Students Student Course Courses Class Classe
   // Batch 1 drafts: jargon words that open a description and are being replaced, and the
   // replacement's opener ("Interdisciplinary innovation work…", "Scaffolded across…" →
   // "Built up step by step…"). They are never names in this area.
-  'Interdisciplinary Scaffolded Built').split(' '))
+  'Interdisciplinary Scaffolded Built ' +
+  // Batch 2: the same case ("Rigorous literary analysis…" → "In-depth literary analysis…",
+  // Covenant Day 8th-grade English Honors). Both are level words, never names.
+  'Rigorous In-depth').split(' '))
 const nameTokens = (s) => {
   const out = new Set()
   for (const m of s.matchAll(NAME_RE)) {

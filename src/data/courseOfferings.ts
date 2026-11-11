@@ -4101,7 +4101,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Bible',
               tag: 'JK–Gr 3',
               description:
-                'JK covers Heroes of the Faith, God’s Love for All, and the Truth of God’s Word; K a Survey of the Bible; Gr 1 Creation through the Promised Land; Gr 2 The Gospels; Gr 3 Israel.',
+                'JK: Heroes of the Faith, God’s Love for All, and the Truth of God’s Word · K: a Survey of the Bible · Gr 1: Creation through the Promised Land · Gr 2: The Gospels · Gr 3: Israel.',
             },
             {
               title: 'Acts and the Early Church + Case for Christ',
@@ -4443,7 +4443,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Poetry Workshop, Honors',
               tag: 'Honors',
               description:
-                'A rigorous course in both the creation and critical analysis of poetry, covering rhythm, imagery, metaphor, and structure.',
+                'A demanding course in both writing and critically analyzing poetry, covering rhythm, imagery, metaphor, and structure.',
             },
           ],
         },
@@ -4466,7 +4466,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Geometry Honors',
               tag: 'Honors',
               description:
-                'Covers Euclidean geometry in a more formal, proof-centered approach at a more rigorous and faster pace.',
+                'Covers Euclidean geometry with a more formal, proof-centered approach and at a faster pace.',
             },
             {
               title: 'Algebra II',
@@ -4603,13 +4603,13 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Advanced Placement Environmental Science',
               tag: 'AP',
               description:
-                'An interdisciplinary college-level course on ecosystems, human population dynamics, resource use, pollution, and climate change.',
+                'A college-level course that combines subjects to study ecosystems, human population dynamics, resource use, pollution, and climate change.',
             },
             {
               title: 'Environmental Science Honors',
               tag: 'Honors',
               description:
-                'A hands-on interdisciplinary elective on the interrelationships of the natural world, identifying environmental problems and evaluating solutions.',
+                'A hands-on elective that combines subjects to study how the parts of the natural world connect, identifying environmental problems and evaluating solutions.',
             },
             {
               title: 'Astronomy',
@@ -5303,7 +5303,7 @@ const COVENANT_DAY: CourseOfferings = {
       source: 'Covenant Day Middle School Curriculum (academics page)',
       sourceUrl: 'https://www.covenantday.org/academics/middle-school',
       notPublished:
-        'Covenant Day publishes per-grade subject areas and competencies for grades 6–8 rather than a full course catalog. The honors tracks and electives below are the school’s own named courses; the remaining rows carry each grade’s published subject description.',
+        'Covenant Day publishes per-grade subject areas and competencies for grades 6–8 rather than a full course catalog. The honors tracks and electives below are the school’s own named courses. The other rows are short summaries of what the school publishes for each grade and subject.',
       departments: [
         {
           name: '6th Grade',
@@ -5424,7 +5424,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'English Honors',
               tag: 'Honors',
               description:
-                'Rigorous literary analysis across major literary themes, history and culture, with formal and informal responses, analytical essays and creative pieces; syntax awareness and vocabulary expand throughout.',
+                'In-depth literary analysis across major literary themes, history and culture, with formal and informal responses, analytical essays and creative pieces, while students build syntax awareness and vocabulary.',
             },
             {
               title: 'Math',
@@ -5488,11 +5488,11 @@ const COVENANT_DAY: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'JUNIOR KINDERGARTEN – GRADE 5',
       teaser:
-        'Five to six subject areas described for each of seven grades, plus six named Specials — CREATE Junior, Spanish from Junior Kindergarten, and recorder in 4th before band instruments in 5th.',
+        'Five to six subject areas described for each of seven grades, plus six named Specials. These include CREATE Junior, Spanish from Junior Kindergarten, and recorder in 4th grade before band instruments in 5th.',
       source: 'Covenant Day Lower School Curriculum (academics page)',
       sourceUrl: 'https://www.covenantday.org/academics/lower-school',
       notPublished:
-        'Covenant Day publishes per-grade subject areas and competencies for JK–5 rather than a named-course catalog. The Specials below are the school’s own named courses; the per-grade rows condense that grade’s published competency description.',
+        'Covenant Day publishes per-grade subject areas and competencies for JK–5 rather than a named-course catalog. The Specials below are the school’s own named courses. The other rows are short summaries of what the school publishes for each grade and subject.',
       departments: [
         {
           name: 'Junior Kindergarten',
@@ -5507,7 +5507,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Math',
               tag: 'JK',
               description:
-                'Positional relationships and 2D shapes, comparing length, weight and capacity; counting to 20 and backward from 10, number bonds to 5, doubles to 10, subitizing to 5; and repeating patterns, sorting, and comparing quantities to 10.',
+                'Positional relationships and 2D shapes · comparing length, weight and capacity · counting to 20 and backward from 10 · number bonds to 5 and doubles to 10 · subitizing (knowing how many are in a small group without counting) to 5 · repeating patterns, sorting, and comparing quantities to 10.',
             },
             {
               title: 'Bible',
@@ -5571,19 +5571,19 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 1',
               description:
-                'Phonics and spelling through decoding and fluency; grammar covering parts of speech, capitalization and sentence types; comprehension from retelling to cause/effect and fact/opinion; and personal narrative, opinion and informational writing.',
+                'Phonics and spelling through decoding and fluency · grammar covering parts of speech, capitalization and sentence types · comprehension from retelling to cause/effect and fact/opinion · personal narrative, opinion and informational writing.',
             },
             {
               title: 'Math',
               tag: 'Gr 1',
               description:
-                'Place value to 100 and numbers to 120, number bonds, addition and subtraction to 100, ordinal numbers, 2D and 3D shapes, mental math, customary length and weight, picture and bar graphs, money, calendar and time.',
+                'Place value to 100 and numbers to 120 · number bonds · addition and subtraction to 100 · ordinal numbers · 2D and 3D shapes · mental math · customary length and weight · picture and bar graphs · money · calendar and time.',
             },
             {
               title: 'Bible',
               tag: 'Gr 1',
               description:
-                'Abraham, Isaac and Jacob, Joseph, Moses, Israel and the Promised Land, then Judges and Ruth, Samuel and Saul, David and Solomon, the divided kingdom, exile and return, Psalms and Proverbs.',
+                'Abraham, Isaac and Jacob, Joseph, Moses, Israel and the Promised Land · then Judges and Ruth, Samuel and Saul, David and Solomon · the divided kingdom, exile and return · Psalms and Proverbs.',
             },
             {
               title: 'Science',
@@ -5605,19 +5605,19 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 2',
               description:
-                'Decoding and encoding short, long-vowel and multi-syllabic words; grammar through contractions and sentence types; comprehension including sequencing and verbal reasoning; and expanded narrative and informational writing in print and cursive.',
+                'Decoding and encoding short, long-vowel and multi-syllabic words · grammar through contractions and sentence types · comprehension including sequencing and verbal reasoning · expanded narrative and informational writing in print and cursive.',
             },
             {
               title: 'Math',
               tag: 'Gr 2',
               description:
-                'Fact families to 20, mental math and estimation, place value to 1,000, 2- and 3-digit addition and subtraction, an introduction to fractions, multiplication and division, time, money, customary and metric measurement, and bar-model problem solving.',
+                'Fact families to 20 · mental math and estimation · place value to 1,000 · 2- and 3-digit addition and subtraction · an introduction to fractions, multiplication and division · time · money · customary and metric measurement · bar-model problem solving.',
             },
             {
               title: 'Bible',
               tag: 'Gr 2',
               description:
-                'An Old Testament review via the Jesse Tree and the intertestamental period, then the New Testament — Jesus’ birth, ministry, miracles, parables, crucifixion and resurrection — closing with the early church and Paul’s journeys.',
+                'An Old Testament review via the Jesse Tree and the intertestamental period (the years between the Old Testament and the New Testament) · then the New Testament: Jesus’ birth, ministry, miracles, parables, crucifixion and resurrection · closing with the early church and Paul’s journeys.',
             },
             {
               title: 'Science',
@@ -5640,19 +5640,19 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 3',
               description:
-                'Spelling patterns, rules and syllable division; grammar across synonyms, antonyms, homonyms, prepositions and irregular verbs; comprehension through inference and author’s purpose; and simple, compound and four sentence types in composition.',
+                'Spelling patterns, rules and syllable division · grammar across synonyms, antonyms, homonyms, prepositions and irregular verbs · comprehension through inference and author’s purpose · simple, compound and four sentence types in composition.',
             },
             {
               title: 'Math',
               tag: 'Gr 3',
               description:
-                'Place value to 10,000, rounding, mental math and estimation, bar models for word problems, multiplication facts 0–12, 1- and 2-digit multiplication and division, fractions and decimals, angles and lines, area and perimeter, and measurement conversions.',
+                'Place value to 10,000, rounding, mental math and estimation · bar models for word problems · multiplication facts 0–12 · 1- and 2-digit multiplication and division · fractions and decimals · angles and lines · area and perimeter · measurement conversions.',
             },
             {
               title: 'Bible',
               tag: 'Gr 3',
               description:
-                'Creation, the fall, Noah, the Tower of Babel, Abraham, Isaac, Jacob, Joseph, the Exodus, the ten commandments, the wilderness and the Promised Land, closing with a book study of Ephesians.',
+                'Creation, the fall, Noah, the Tower of Babel, Abraham, Isaac, Jacob and Joseph · the Exodus, the ten commandments, the wilderness and the Promised Land · closing with a book study of Ephesians.',
             },
             {
               title: 'Science',
@@ -5674,13 +5674,13 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 4',
               description:
-                'Word analysis, fluency and vocabulary using glossaries, dictionaries and thesauruses; morphology and spelling rules with sentence parts and subject-verb agreement; comprehension through inference and author’s viewpoint; and writing for different purposes and audiences.',
+                'Word analysis and fluency · vocabulary built with glossaries, dictionaries and thesauruses · morphology (word parts) and spelling rules · sentence parts and subject-verb agreement · comprehension through inference and the author’s viewpoint · writing for different purposes and audiences.',
             },
             {
               title: 'Math',
               tag: 'Gr 4',
               description:
-                'Multi-digit operations, common multiples and factors, mean, median, mode and range, adding and subtracting fractions, decimals across all four operations, customary and metric measurement, perimeter and area, lines and angles, quadrilaterals, congruence and symmetry, and multi-step bar models.',
+                'Multi-digit operations · common multiples and factors · mean, median, mode and range · adding and subtracting fractions · decimals across all four operations · customary and metric measurement · perimeter and area · lines and angles · quadrilaterals, congruence and symmetry · multi-step bar models.',
             },
             {
               title: 'Bible',
@@ -5709,13 +5709,13 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Language Arts',
               tag: 'Gr 5',
               description:
-                'Parts of speech, analogies, subjects and predicates, prepositional phrases and clauses; comprehension across fiction, fantasy, biography, historical fiction, non-fiction and poetry; and descriptive, narrative, expository and persuasive writing plus literary analysis.',
+                'Parts of speech · analogies · subjects and predicates · prepositional phrases and clauses · comprehension across fiction, fantasy, biography, historical fiction, non-fiction and poetry · descriptive, narrative, expository and persuasive writing · literary analysis.',
             },
             {
               title: 'Math',
               tag: 'Gr 5',
               description:
-                'Place value to 10,000,000, mental math and estimation, multi-digit multiplication and division, fractions, bar-graph problem-solving models, algebraic thinking, area and perimeter, ratios, decimals and percents, graphs, probability and types of angles.',
+                'Place value to 10,000,000 · mental math and estimation · multi-digit multiplication and division · fractions · bar-graph problem-solving models · algebraic thinking · area and perimeter · ratios · decimals and percents · graphs · probability · types of angles.',
             },
             {
               title: 'Bible',
@@ -5750,7 +5750,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Music',
               tag: 'JK–Gr 5',
               description:
-                'Vocal, instrumental and percussion music across classical and modern composers; 4th grade learns recorder and 5th grade band instruments, with a children’s choir and private piano, vocal and guitar lessons available.',
+                'Vocal, instrumental and percussion music by classical and modern composers · 4th grade learns recorder and 5th grade band instruments · a children’s choir and private piano, vocal and guitar lessons are available.',
             },
             {
               title: 'CREATE Junior',
@@ -6747,14 +6747,14 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
       sourceUrl:
         'https://www.carmelchristian.org/academics-elementary',
       notPublished:
-        'The elementary guide describes each subject by grade (e.g. "Math" per grade) rather than as distinctly-titled courses, which is normal for K–5; the rows below carry the guide’s own per-grade descriptions.',
+        'The elementary guide describes each subject by grade (for example, "Math" for each grade) rather than as separately titled courses, which is normal for K–5. The rows below carry the guide’s own descriptions for each grade.',
       departments: [
         {
           name: 'Core Curriculum',
           courses: [
             { title: 'Bible', tag: 'K–Gr 5', description: 'Who God is through Creation and the Old and New Testaments, Bible-study skills and Christian living, with weekly scripture memorization and chapel reinforcing a biblical worldview across every subject.' },
             { title: 'Math', tag: 'K–Gr 5', description: 'Foundational number sense in Kindergarten building through Grade 5 fraction operations, volume, measurement, decimals, geometry and coordinate planes — visual models, hands-on activities and word-problem reasoning throughout.' },
-            { title: 'Language Arts', tag: 'K–Gr 5', description: 'A multisensory literacy block rooted in the Science of Reading with Orton-Gillingham phonics; strands span phonemic awareness, phonics and morphology, reading (Accelerated Reader from Grade 1), grammar (Analytical Grammar by Grade 5), composition and handwriting.' },
+            { title: 'Language Arts', tag: 'K–Gr 5', description: 'A multisensory literacy block rooted in the Science of Reading, with Orton-Gillingham phonics and these strands: phonemic awareness · phonics and morphology · reading (Accelerated Reader from Grade 1) · grammar (Analytical Grammar by Grade 5) · composition and handwriting.' },
             { title: 'Science', tag: 'K–Gr 5', description: 'Inquiry-based, hands-on study of God’s creation across life, physical and earth/space science, advancing by grade from plants and matter to water and climate, energy and environments, and living systems.' },
             { title: 'Social Studies', tag: 'K–Gr 5', description: 'Civics, culture, economics, geography and history from a biblical worldview, progressing from community themes through US history, North Carolina history (Grade 4) and early American history to the 1880s (Grade 5).' },
           ],
@@ -6765,7 +6765,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
             { title: 'Art', tag: 'K–Gr 5', description: 'Foundational construction skills — painting, drawing, cutting, collage — with the elements of art, art vocabulary and self-assessment, framing creativity as an expression of God’s design.' },
             { title: 'Spanish', tag: 'K–Gr 5', description: 'Language development through songs, games, literature, art and technology across the three modes of communication — interpretive, interpersonal and presentational.' },
             { title: 'Media / Technology', tag: 'K–Gr 5', description: 'Digital resources, Google Classroom and Chrome, and basic keyboarding and coding, taught with the Media Specialist and Technology Specialist.' },
-            { title: 'Music', tag: 'K–Gr 5', description: 'Music literacy, response and relevance as a form of worship — the elements of music and foundational skills on hand drums, kazoos and boomwhackers, with interdisciplinary connections.' },
+            { title: 'Music', tag: 'K–Gr 5', description: 'Music literacy, response and relevance as a form of worship — the elements of music and basic skills on hand drums, kazoos and boomwhackers, with links to other subjects.' },
             { title: 'Physical Education', tag: 'K–Gr 5', description: 'Spatial awareness, games, fitness challenges, fine- and large-motor development, teamwork and the foundations of personal and social responsibility.' },
             { title: 'STEM', tag: 'K–Gr 5', description: 'The STEM Lab — engineering builds, Dash-robot coding, codable Lego kits and 3D-printer designs, often tied directly to the classroom science curriculum.' },
           ],
@@ -6826,7 +6826,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '112 courses across 12 departments — 17 Advanced Placement including the full AP Capstone track, a four-year Bible sequence taught at CP and Honors levels, and an aquaponics internship run on the school’s own working system.',
+        '112 courses across 12 departments. They include 17 Advanced Placement courses, among them the full AP Capstone track. A four-year Bible sequence is taught at CP (college prep) and Honors levels. An aquaponics internship runs on the school’s own working system.',
       source: 'HGCS 2026-2027 Course Selection Catalog (92 pp.)',
       sourceUrl:
         'https://hgchristian.org/course-selection-guide',
@@ -6869,7 +6869,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'Geometry - College Preparatory', tag: 'CP', description: 'Plane and solid Euclidean geometry with inductive and deductive reasoning, including an Algebra I review.' },
             { title: 'Geometry - Honors', tag: 'Honors', description: 'The honors geometry course; eighth-graders must pass a proficiency exam and score at grade level on the Terra Nova to enter.' },
             { title: 'Algebra II - College Preparatory', tag: 'CP', description: 'Problem-solving methods across applications — systems, polynomials, radicals, quadratics, sequences and probability.' },
-            { title: 'Algebra II - Honors', tag: 'Honors', description: 'The honors track, introducing functions as preparation for Precalculus and Calculus at a rigorous pace.' },
+            { title: 'Algebra II - Honors', tag: 'Honors', description: 'The honors track, introducing functions as preparation for Precalculus and Calculus at a fast pace.' },
             { title: 'Advanced Functions & Trigonometry', tag: 'Gr 11–12', description: 'Further skill development for Precalculus or college mathematics; deliberately not a path directly into Calculus.' },
             { title: 'Precalculus - Honors', tag: 'Honors', description: 'Detailed analysis of functions and a unit-circle approach to trigonometry, with a heavy and essential homework load.' },
             { title: 'Calculus  - Honors', tag: 'Honors', description: 'Differential and integral calculus building the foundation for AP Calculus, and a prerequisite for it.' },
@@ -7009,7 +7009,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'Grades 6 – 8',
       teaser:
-        '41 courses across 9 departments — a Summit Ministries worldview sequence in Bible, Algebra 1 for qualifying 8th-grade honors students, and a quarterly enrichment rotation running from sign language and coding to a 5K running course.',
+        '41 courses across 9 departments. They include a Summit Ministries worldview sequence in Bible and Algebra 1 for qualifying 8th-grade honors students. A quarterly enrichment rotation runs from sign language and coding to a 5K running course.',
       source: 'HGCS Middle School 2026-2027 Course Selection Catalog (17 pp.)',
       sourceUrl: 'https://hgchristian.org/ms-courses',
       departments: [
@@ -7130,7 +7130,7 @@ const GASTON_DAY: CourseOfferings = {
       source: 'gastonday.org — Middle School',
       sourceUrl: 'https://www.gastonday.org/middle-school/',
       notPublished:
-        'Gaston Day publishes Middle School curriculum as per-grade subject strands rather than as named, individually-described courses. The rows below are those strands as the school states them.',
+        'Gaston Day publishes Middle School curriculum as subject strands for each grade, not as separate courses with their own descriptions. The rows below are those strands, as the school states them.',
       departments: [
         {
           name: 'Core',
@@ -8529,7 +8529,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
       source: 'tescharlotte.org — Lower School curriculum and enrichments; 2026-27 School Profile',
       sourceUrl: 'https://www.tescharlotte.org/academics/lower-school-curriculum.cfm',
       notPublished:
-        'Trinity publishes Lower School work as named curricula and weekly enrichment subjects rather than as named, individually-described courses. The rows below are those subjects and curricula as the school states them. Trinity publishes no Lower School course catalog.',
+        'Trinity publishes Lower School work as named curricula and weekly enrichment subjects, not as separate courses with their own descriptions. The rows below are those subjects and curricula, as the school states them. Trinity publishes no Lower School course catalog.',
       departments: [
         {
           name: 'Core Curriculum',
@@ -8567,7 +8567,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Spanish — Descubre el Español',
               tag: 'K–Gr 5',
               description:
-                'All students take Spanish as an enrichment class, learning through the five Cs of the National World Language Standards and exploring the culture of 20 Spanish-speaking countries; heritage speakers in grades 4-5 access the Anthologia program at school and at home.',
+                'All students take Spanish as an enrichment class, learning through the five Cs of the National World Language Standards and exploring the culture of 20 Spanish-speaking countries · heritage speakers (children from Spanish-speaking homes) in grades 4-5 also use the Anthologia program at school and at home.',
             },
             {
               title: 'IDEA (STEM) Lab',

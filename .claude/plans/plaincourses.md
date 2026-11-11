@@ -471,9 +471,9 @@ only after Batch 4.
 |---|---|---|---|---|
 | 1 (tooling) | in the Batch 1 English commit; Step 1b `7bf52ecb` | — | — | — |
 | 1 (fixes) | `bdd0e8c0`; reviewer fact fixes `db076885` | `review-batch1-fixes.md`, `review-batch1-fixes2.md` | — | — |
-| 1 | (Batch 1 English commit) | `review-batch1.md` | 4 (1 gloss; 3 pre-existing Davidson Day catalog drifts, fixed in `db076885`) | pending |
-| 2 (fixes) | — | — | — | — |
-| 2 | — | — | — | — |
+| 1 | `33388ab2` | `review-batch1.md` | 4 (1 gloss; 3 pre-existing Davidson Day catalog drifts, fixed in `db076885`) | **approved** 2026-11-11, no rulings |
+| 2 (fixes) | `b6eecc1f`; reviewer fact fix `796ac752` | `review-batch2-fixes.md`, `review-batch2-fixes2.md` | — | — |
+| 2 | (Batch 2 English commit) | `review-batch2.md` | 2 (1 gloss; 1 pre-existing Covenant Day fact drift, fixed in `796ac752`) | pending |
 | 3 (source + fixes) | — | — | — | — |
 | 3 | — | — | — | — |
 | 4 | — | — | — | — |
@@ -485,7 +485,8 @@ text here exactly.*
 
 | Id | Final wording | Set in batch |
 |---|---|---|
-| | | |
+| N1 | "<School> publishes <X> as <Y>, not as separate courses with their own descriptions. The rows below are those <Z>, as the school states them." (Trinity adds its fixes-commit sentence "Trinity publishes no Lower School course catalog.") | 2 |
+| N2 | Sentence 1 unchanged; sentence 2 ends at the old semicolon ("…are the school’s own named courses."); sentence 3, identical at both sites: "The other rows are short summaries of what the school publishes for each grade and subject." | 2 |
 
 ### Unit notes (things the drafter must not get wrong)
 
@@ -633,6 +634,15 @@ bare pronoun after a split.
 *Rulings from later batches are added here by `/implement`.* If a resume command arrives with
 the `<, with these rulings: …>` placeholder unfilled, read it as "approved, no rulings", as
 every earlier plan did, and record that batch's choices here as precedent.
+
+**Batch 1 (approved 2026-11-11, no rulings), so these are now precedent:**
+- "Rigorous" became the demand the unit already names ("moves faster … and uses more math",
+  "in more depth and at a harder level than Honors Geometry"), else "demanding".
+- Register as built: "whole-person wellness", "all-around language skills", "taken on the
+  student’s own schedule", "built up step by step", "seminars on teaching", "combine subjects".
+- The ACTFL gloss: "the advanced-low level (a standard language-proficiency level)".
+- A school claim keeps its attribution in the sentence ("that the school’s profile says is as
+  demanding as AP U.S. History").
 
 ### plain-ok register
 
@@ -1192,7 +1202,10 @@ No skill or slash command changes, so `.claude/SKILLS.md` is not touched. No `CL
 
 | Path | After-grade | Reason |
 |---|--:|---|
-| | | |
+| `covenant-day:divisions[2].departments[3].courses[1].description` (Gr 2 Math) | 10.5 | A ` · ` run of the school's own math topics ("customary and metric measurement", "multiplication and division"); every item already stands alone |
+| `covenant-day:divisions[2].departments[5].courses[0].description` (Gr 4 Language Arts) | 11.0 | Subject vocabulary the grade teaches (glossaries, thesauruses, morphology, comprehension, inference); already split into six items |
+| `covenant-day:divisions[2].departments[5].courses[1].description` (Gr 4 Math) | 11.4 | Subject vocabulary (quadrilaterals, congruence, symmetry, operations); nine items, each already alone |
+| `trinity-episcopal:divisions[0].departments[1].courses[0].description` (Spanish) | 10.4 | One-sentence rule: two clauses joined by ` · `, with the "National World Language Standards" name and a gloss for "heritage speakers". A two-sentence version would be lower; offered at the Batch 2 review |
 
 ## Implementation notes
 
@@ -1305,6 +1318,53 @@ match “zzqx”. Try a shorter search." on PD's All tab and DD's one-department
 and "…Try a shorter search or the All tab." on a PD department tab. 390px: no overflow on any
 of the five pages. **Selector note for later batches:** every topic's report cards are on the
 page whatever `?topic=` says, so scope to `.note-card-report:has(.courses)`.
+
+### Batch 2 — Charlotte Christian, Covenant Day, Carmel, Hickory Grove, Trinity, Gaston Day
+
+**Resume.** Batch 1 approved 2026-11-11 with no rulings (recorded in "Style rulings" and "Batch
+progress"). `origin/main` had not moved (`df4dd5c9`), so no rebase was needed. Plan `nocompare`
+had not landed (only its plan commits #482/#483), so this plan took its row 36.
+
+**Step 2a.** The sweep matched the Context table and its known false positives for all six
+schools. Fixes commit `b6eecc1f`: Trinity `divisions[0].notPublished` ("Trinity publishes no
+Lower School course catalog."; the philanthropy-guide clause removed) and Covenant
+`divisions[0].teaser` (nocompare row 36's wording verbatim, with an Implementation note added to
+`nocompare.md` so that plan skips the row). Evidence: `review-batch2-fixes.md`.
+
+**Step 2b.** The regenerated worklist matches the Context table (Christian 5, Covenant 19, Carmel
+3, HG 3, Trinity 2 = 32). Extras: Gaston `notPublished` (N1) and the Covenant teaser (listed so a
+wording touch stays allowed; the wording pass left it as fixed).
+
+**Steps 3–4.** 33 units applied by exact-literal script. Covenant's JK–5 rows, Carmel's literacy
+block, Christian's JK–Gr 3 Bible row and Covenant's Music row became ` · ` runs with every item
+in order; the HG and Covenant teasers split into sentences; Trinity's Spanish row is two clauses
+joined by ` · ` (one sentence, 44 words, grade 10.4; a two-sentence version is the alternative
+offered at review). Glosses added: subitizing, intertestamental, morphology (Covenant only),
+heritage speakers, CP (college prep). **Stoplist additions, with reason:** `Rigorous`, `In-depth`
+(the opener of Covenant 8th-grade English Honors before and after; level words, never names). A
+draft gloss "(the time between the Old and New Testaments)" tripped (p) on the new plural
+"Testaments" and was reworded rather than stoplisted. `--check` exits 0 with `--base 796ac752`,
+33/33 `hook: pass`; 4 residuals (table). Hook: 120 → **78** issues, all Charlotte Catholic. No
+"rigor"/"rigorous" left outside Catholic. FROZEN: 0 lost across 33 changed literals. Identity
+grep: 0 changed identity lines. Templates N1 and N2 set (table) and identical at both sites each.
+
+**Step 5, independent review: 2 findings, both fixed.** The heritage-speakers gloss implied
+fluency (now "children from Spanish-speaking homes"). Covenant Gr 4 Math said fractions get all
+four operations, a **pre-existing** drift (the school lists adding and subtracting only).
+**Deviation, as Batch 1:** fixed against the original text in a second fixes commit
+(`796ac752`, `review-batch2-fixes2.md`), then the rewording restored on top, so the Step 4 base
+for Batch 2 is `796ac752`.
+
+**Step 6.** `tsc -b` clean, `vite build` succeeds; the 11 later checks and `test:plain` exit 0;
+`check:matrices` output byte-identical to `main`'s. `check:live` fails only in
+`course-offerings`: **57 stale entries per locale** (Batch 1's 23 + Batch 2's 34: 33 wording
+units and the Covenant teaser).
+
+**Step 7, real Chrome:** all 15 division cards of the six schools render every description,
+teaser and `notPublished` note exactly as the module holds them, every department tab shows
+courses, no literal `*`. Search probes found Bible ("Jesse Tree", "Heroes of the Faith"), Math
+("subitizing"), Language Arts ("Orton-Gillingham"), Spanish ("Anthologia") and Algebra II -
+Honors ("Precalculus"). 390px: no overflow on any of the six pages.
 
 ### Candidates noticed while planning, not acted on
 

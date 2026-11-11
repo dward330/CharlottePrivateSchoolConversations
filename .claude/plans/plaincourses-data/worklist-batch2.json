@@ -1,0 +1,384 @@
+{
+  "generated": "2026-11-11",
+  "topic": "course-offerings",
+  "file": "src/data/courseOfferings.ts",
+  "slugs": [
+    "charlotte-christian",
+    "covenant-day",
+    "carmel-christian",
+    "hickory-grove-christian",
+    "trinity-episcopal",
+    "gaston-day"
+  ],
+  "match": null,
+  "paths": "(?:description|teaser|notPublished)$",
+  "total": 32,
+  "counts": {
+    "charlotte-christian": 5,
+    "covenant-day": 19,
+    "carmel-christian": 3,
+    "hickory-grove-christian": 3,
+    "trinity-episcopal": 2
+  },
+  "units": [
+    {
+      "at": "charlotte-christian:divisions[0].departments[0].courses[0].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[0].departments[0].courses[0].description",
+      "words": 33,
+      "grade": 11.9,
+      "rules": [
+        "long"
+      ],
+      "text": "JK covers Heroes of the Faith, God’s Love for All, and the Truth of God’s Word; K a Survey of the Bible; Gr 1 Creation through the Promised Land; Gr 2 The Gospels; Gr 3 Israel."
+    },
+    {
+      "at": "charlotte-christian:divisions[2].departments[1].courses[15].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[2].departments[1].courses[15].description",
+      "words": 18,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "A rigorous course in both the creation and critical analysis of poetry, covering rhythm, imagery, metaphor, and structure."
+    },
+    {
+      "at": "charlotte-christian:divisions[2].departments[2].courses[2].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[2].departments[2].courses[2].description",
+      "words": 16,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "Covers Euclidean geometry in a more formal, proof-centered approach at a more rigorous and faster pace."
+    },
+    {
+      "at": "charlotte-christian:divisions[2].departments[3].courses[9].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[2].departments[3].courses[9].description",
+      "words": 15,
+      "grade": null,
+      "rules": [
+        "jargon:interdisciplinary"
+      ],
+      "text": "An interdisciplinary college-level course on ecosystems, human population dynamics, resource use, pollution, and climate change."
+    },
+    {
+      "at": "charlotte-christian:divisions[2].departments[3].courses[10].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[2].departments[3].courses[10].description",
+      "words": 17,
+      "grade": null,
+      "rules": [
+        "jargon:interdisciplinary"
+      ],
+      "text": "A hands-on interdisciplinary elective on the interrelationships of the natural world, identifying environmental problems and evaluating solutions."
+    },
+    {
+      "at": "covenant-day:divisions[1].notPublished",
+      "slug": "covenant-day",
+      "path": "divisions[1].notPublished",
+      "words": 37,
+      "grade": 10.8,
+      "rules": [],
+      "text": "Covenant Day publishes per-grade subject areas and competencies for grades 6–8 rather than a full course catalog. The honors tracks and electives below are the school’s own named courses; the remaining rows carry each grade’s published subject description."
+    },
+    {
+      "at": "covenant-day:divisions[1].departments[2].courses[1].description",
+      "slug": "covenant-day",
+      "path": "divisions[1].departments[2].courses[1].description",
+      "words": 26,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "Rigorous literary analysis across major literary themes, history and culture, with formal and informal responses, analytical essays and creative pieces; syntax awareness and vocabulary expand throughout."
+    },
+    {
+      "at": "covenant-day:divisions[2].teaser",
+      "slug": "covenant-day",
+      "path": "divisions[2].teaser",
+      "words": 30,
+      "grade": 13.4,
+      "rules": [
+        "grade"
+      ],
+      "text": "Five to six subject areas described for each of seven grades, plus six named Specials — CREATE Junior, Spanish from Junior Kindergarten, and recorder in 4th before band instruments in 5th."
+    },
+    {
+      "at": "covenant-day:divisions[2].notPublished",
+      "slug": "covenant-day",
+      "path": "divisions[2].notPublished",
+      "words": 33,
+      "grade": 11.2,
+      "rules": [],
+      "text": "Covenant Day publishes per-grade subject areas and competencies for JK–5 rather than a named-course catalog. The Specials below are the school’s own named courses; the per-grade rows condense that grade’s published competency description."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[0].courses[1].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[0].courses[1].description",
+      "words": 30,
+      "grade": 18.1,
+      "rules": [
+        "grade"
+      ],
+      "text": "Positional relationships and 2D shapes, comparing length, weight and capacity; counting to 20 and backward from 10, number bonds to 5, doubles to 10, subitizing to 5; and repeating patterns, sorting, and comparing quantities to 10."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[2].courses[0].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[2].courses[0].description",
+      "words": 30,
+      "grade": 21.7,
+      "rules": [
+        "grade"
+      ],
+      "text": "Phonics and spelling through decoding and fluency; grammar covering parts of speech, capitalization and sentence types; comprehension from retelling to cause/effect and fact/opinion; and personal narrative, opinion and informational writing."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[2].courses[1].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[2].courses[1].description",
+      "words": 32,
+      "grade": 15.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Place value to 100 and numbers to 120, number bonds, addition and subtraction to 100, ordinal numbers, 2D and 3D shapes, mental math, customary length and weight, picture and bar graphs, money, calendar and time."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[2].courses[2].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[2].courses[2].description",
+      "words": 30,
+      "grade": 14.2,
+      "rules": [
+        "grade"
+      ],
+      "text": "Abraham, Isaac and Jacob, Joseph, Moses, Israel and the Promised Land, then Judges and Ruth, Samuel and Saul, David and Solomon, the divided kingdom, exile and return, Psalms and Proverbs."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[3].courses[0].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[3].courses[0].description",
+      "words": 30,
+      "grade": 20.9,
+      "rules": [
+        "grade"
+      ],
+      "text": "Decoding and encoding short, long-vowel and multi-syllabic words; grammar through contractions and sentence types; comprehension including sequencing and verbal reasoning; and expanded narrative and informational writing in print and cursive."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[3].courses[1].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[3].courses[1].description",
+      "words": 32,
+      "grade": 21.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Fact families to 20, mental math and estimation, place value to 1,000, 2- and 3-digit addition and subtraction, an introduction to fractions, multiplication and division, time, money, customary and metric measurement, and bar-model problem solving."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[3].courses[2].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[3].courses[2].description",
+      "words": 32,
+      "grade": 17.9,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "An Old Testament review via the Jesse Tree and the intertestamental period, then the New Testament — Jesus’ birth, ministry, miracles, parables, crucifixion and resurrection — closing with the early church and Paul’s journeys."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[4].courses[0].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[4].courses[0].description",
+      "words": 30,
+      "grade": 21.3,
+      "rules": [
+        "grade"
+      ],
+      "text": "Spelling patterns, rules and syllable division; grammar across synonyms, antonyms, homonyms, prepositions and irregular verbs; comprehension through inference and author’s purpose; and simple, compound and four sentence types in composition."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[4].courses[1].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[4].courses[1].description",
+      "words": 32,
+      "grade": 20.5,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Place value to 10,000, rounding, mental math and estimation, bar models for word problems, multiplication facts 0–12, 1- and 2-digit multiplication and division, fractions and decimals, angles and lines, area and perimeter, and measurement conversions."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[4].courses[2].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[4].courses[2].description",
+      "words": 30,
+      "grade": 14.2,
+      "rules": [
+        "grade"
+      ],
+      "text": "Creation, the fall, Noah, the Tower of Babel, Abraham, Isaac, Jacob, Joseph, the Exodus, the ten commandments, the wilderness and the Promised Land, closing with a book study of Ephesians."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[5].courses[0].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[5].courses[0].description",
+      "words": 33,
+      "grade": 22.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Word analysis, fluency and vocabulary using glossaries, dictionaries and thesauruses; morphology and spelling rules with sentence parts and subject-verb agreement; comprehension through inference and author’s viewpoint; and writing for different purposes and audiences."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[5].courses[1].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[5].courses[1].description",
+      "words": 36,
+      "grade": 23.4,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Multi-digit operations, common multiples and factors, mean, median, mode and range, fractions and decimals across all four operations, customary and metric measurement, perimeter and area, lines and angles, quadrilaterals, congruence and symmetry, and multi-step bar models."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[6].courses[0].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[6].courses[0].description",
+      "words": 31,
+      "grade": 24.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Parts of speech, analogies, subjects and predicates, prepositional phrases and clauses; comprehension across fiction, fantasy, biography, historical fiction, non-fiction and poetry; and descriptive, narrative, expository and persuasive writing plus literary analysis."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[6].courses[1].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[6].courses[1].description",
+      "words": 30,
+      "grade": 22.1,
+      "rules": [
+        "grade"
+      ],
+      "text": "Place value to 10,000,000, mental math and estimation, multi-digit multiplication and division, fractions, bar-graph problem-solving models, algebraic thinking, area and perimeter, ratios, decimals and percents, graphs, probability and types of angles."
+    },
+    {
+      "at": "covenant-day:divisions[2].departments[7].courses[1].description",
+      "slug": "covenant-day",
+      "path": "divisions[2].departments[7].courses[1].description",
+      "words": 31,
+      "grade": 18.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Vocal, instrumental and percussion music across classical and modern composers; 4th grade learns recorder and 5th grade band instruments, with a children’s choir and private piano, vocal and guitar lessons available."
+    },
+    {
+      "at": "carmel-christian:divisions[2].notPublished",
+      "slug": "carmel-christian",
+      "path": "divisions[2].notPublished",
+      "words": 31,
+      "grade": 14.8,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The elementary guide describes each subject by grade (e.g. \"Math\" per grade) rather than as distinctly-titled courses, which is normal for K–5; the rows below carry the guide’s own per-grade descriptions."
+    },
+    {
+      "at": "carmel-christian:divisions[2].departments[0].courses[2].description",
+      "slug": "carmel-christian",
+      "path": "divisions[2].departments[0].courses[2].description",
+      "words": 33,
+      "grade": 19.8,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "A multisensory literacy block rooted in the Science of Reading with Orton-Gillingham phonics; strands span phonemic awareness, phonics and morphology, reading (Accelerated Reader from Grade 1), grammar (Analytical Grammar by Grade 5), composition and handwriting."
+    },
+    {
+      "at": "carmel-christian:divisions[2].departments[1].courses[3].description",
+      "slug": "carmel-christian",
+      "path": "divisions[2].departments[1].courses[3].description",
+      "words": 26,
+      "grade": null,
+      "rules": [
+        "jargon:interdisciplinary"
+      ],
+      "text": "Music literacy, response and relevance as a form of worship — the elements of music and foundational skills on hand drums, kazoos and boomwhackers, with interdisciplinary connections."
+    },
+    {
+      "at": "hickory-grove-christian:divisions[0].teaser",
+      "slug": "hickory-grove-christian",
+      "path": "divisions[0].teaser",
+      "words": 32,
+      "grade": 16.4,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "112 courses across 12 departments — 17 Advanced Placement including the full AP Capstone track, a four-year Bible sequence taught at CP and Honors levels, and an aquaponics internship run on the school’s own working system."
+    },
+    {
+      "at": "hickory-grove-christian:divisions[0].departments[2].courses[4].description",
+      "slug": "hickory-grove-christian",
+      "path": "divisions[0].departments[2].courses[4].description",
+      "words": 15,
+      "grade": null,
+      "rules": [
+        "jargon:rigor"
+      ],
+      "text": "The honors track, introducing functions as preparation for Precalculus and Calculus at a rigorous pace."
+    },
+    {
+      "at": "hickory-grove-christian:divisions[1].teaser",
+      "slug": "hickory-grove-christian",
+      "path": "divisions[1].teaser",
+      "words": 32,
+      "grade": 17.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "41 courses across 9 departments — a Summit Ministries worldview sequence in Bible, Algebra 1 for qualifying 8th-grade honors students, and a quarterly enrichment rotation running from sign language and coding to a 5K running course."
+    },
+    {
+      "at": "trinity-episcopal:divisions[0].notPublished",
+      "slug": "trinity-episcopal",
+      "path": "divisions[0].notPublished",
+      "words": 38,
+      "grade": 10.2,
+      "rules": [],
+      "text": "Trinity publishes Lower School work as named curricula and weekly enrichment subjects rather than as named, individually-described courses. The rows below are those subjects and curricula as the school states them. Trinity publishes no Lower School course catalog."
+    },
+    {
+      "at": "trinity-episcopal:divisions[0].departments[1].courses[0].description",
+      "slug": "trinity-episcopal",
+      "path": "divisions[0].departments[1].courses[0].description",
+      "words": 39,
+      "grade": 17.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "All students take Spanish as an enrichment class, learning through the five Cs of the National World Language Standards and exploring the culture of 20 Spanish-speaking countries; heritage speakers in grades 4-5 access the Anthologia program at school and at home."
+    }
+  ]
+}
