@@ -1,12 +1,12 @@
 ---
 name: plainsports
 title: Plain-language rewrite of the Sports area's English prose across src/data/sportsPrograms/ (12 of 13 schools; 101 worklist units, 79 hook-flagged + 22 at grade 10–12, ~5,990 before-words) plus 6 off-worklist research-bookkeeping units, with every sport, team, league, association, division, record, score, ranking, title, season, coach, college, commitment and athlete name unchanged, the Wells Fargo Cup and Compare commit figures left agreeing, three false cross-school claims fixed in their own commits, and a new `--sports-markers` guard set (incl. a no-name-added-or-removed guard) in plain_review.mjs; English in five reviewed school batches, then all nine prose locales
-status: english-done
+status: implemented
 phases: 2
 batches: 5                     # Phase 1 is built in five batches, each with its own review stop
 created: 2026-11-11
 branch: feat/plainsports
-prs: []
+prs: [484]
 ---
 
 # Plain-language rewrite of the Sports area
@@ -571,8 +571,8 @@ only after Batch 5.
 | 3 | `3d79b69c` | [review-batch3.md](plainsports-data/review-batch3.md) | 5 (all fixed) | approved 2026-11-11, no rulings |
 | 4 (fixes) | `db3cad74` | [review-batch4-fixes.md](plainsports-data/review-batch4-fixes.md) | — | approved 2026-11-11, no rulings |
 | 4 | `2b71ca74` (+ `a7878155` Hall of Fame count, user request) | [review-batch4.md](plainsports-data/review-batch4.md) | 3 (all fixed) | approved 2026-11-11, no rulings |
-| 5 (fixes) | `b8943fe0` | [review-batch5-fixes.md](plainsports-data/review-batch5-fixes.md) | — | awaiting review |
-| 5 | `plainsports: batch 5 English` (SHA in the commit log) | [review-batch5.md](plainsports-data/review-batch5.md) | 3 (all fixed) | awaiting review |
+| 5 (fixes) | `b8943fe0` | [review-batch5-fixes.md](plainsports-data/review-batch5-fixes.md) | — | approved 2026-11-11, no rulings |
+| 5 | `plainsports: batch 5 English` (SHA in the commit log) | [review-batch5.md](plainsports-data/review-batch5.md) | 3 (all fixed) | approved 2026-11-11, no rulings |
 
 ### Template wordings (as built)
 
@@ -971,7 +971,7 @@ read as "approved, no rulings"); precedent for Batch 5:
   Cup"); "the college ranks" stays (RANKED); a capitalized sentence-start word stays when its
   plural/singular form would trip (p) ("Programming", "Program coaches", "levels").
 
-**Batch 5 choices (Carmel, Gaston, HG, Trinity)** — awaiting the user's review:
+**Batch 5 choices (Carmel, Gaston, HG, Trinity)** — approved by the user 2026-11-11 ("All five English batches are approved"):
 - A register or Unit-note wording that trips a marker guard yields to one that keeps the class:
   "three-peated" → "took three straight titles" (the unit's own verb; "won" would add WIN);
   "unconfirmed" → "No public source confirms yet whether …" (Batch 1 precedent; "has not
