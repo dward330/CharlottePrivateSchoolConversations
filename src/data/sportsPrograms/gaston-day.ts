@@ -385,7 +385,7 @@ export const gastonDay: SportsProgram = {
       },
     ],
     careNote:
-      'This card is deliberately short. Every peer school on this roster publishes a venue list; Gaston Day does not, and the one document that would carry it (the Athletic Handbook) is not reachable. That is a publication gap, not an absence of facilities — a campus fielding 19 sports plainly has them.',
+      'This card is deliberately short. Gaston Day publishes no venue list, and the one document that would carry it (the Athletic Handbook) is not reachable. That is a publication gap, not an absence of facilities — a campus fielding 19 sports plainly has them.',
     sources: [
       { label: 'gastonday.org — Academic Profile 2025-2026 (Athletic Director, five-county draw)', url: PROFILE },
       { label: 'Private School Review — Gaston Day School profile (60-acre campus)', url: 'https://www.privateschoolreview.com/gaston-day-school-profile' },
