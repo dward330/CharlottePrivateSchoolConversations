@@ -478,7 +478,7 @@ only after Batch 4.
 | 3 | `a7b37d1d` | `review-batch3.md` | 5 (all from the rewrite or fixes text; none pre-existing) + 1 judgment call acted on | **approved** 2026-11-11, no rulings |
 | 4 (fixes) | `a9048da4` | `review-batch4-fixes.md` | — | — |
 | 4 | `a5d47550` | `review-batch4.md` | 8 (all from the rewrite; none pre-existing) | **approved** 2026-11-11, with one request: fix the first/second-person catalog voice in this plan |
-| 4 (amendment) | (amendment commit) | `review-batch4b.md` | 5 + 1 more unit found | pending |
+| 4 (amendment) | `c640cb2d` | `review-batch4b.md` | 5 + 1 more unit found | **approved** 2026-11-11 ("All four English batches are approved") |
 
 ### Template wordings (as built)
 
@@ -1515,6 +1515,73 @@ render every description; searches find the four probed rows; 390px no overflow.
 `review-batch4b.md`; units: `worklist-extra-batch4b.json`. Total changed leaves vs `main`: **140**
 (the plan's 132 + these 8). (`check:metrics` exits 1 on `main` and here for a Charlotte Christian
 sports subtopic outside this plan; Course Offerings has no finding.)
+
+### Phase 2 (2026-11-11)
+
+- **Approval.** The user: "All four English batches are approved. Run only Phase 2." Run in the
+  same window on `feat/plaincourses`; `origin/main` had not moved.
+- **Step 0, chrome keys (`b2d5ac7a`).** `courses.noMatch` / `courses.noMatchInDept` in the nine
+  catalogs beside `countMatch`, each in its catalog's own quote marks (fr « … » with a plain space,
+  fa « », the rest “ ”) and its filter word (es "filtro", fr "filtre", hi "छाँटकर", fa "پالایش"…),
+  `{{query}}` / `{{allTab}}` kept. The plan's one-liner prints nothing; `check:chrome` ✓.
+- **Splice:** identical in all nine locales — **3,052 kept, 137 added, 121 dropped** (3,189
+  total). Both numbers were computed independently from the live module and the `main` snapshot
+  before splicing, and matched. (The plan's 132-site estimate became 140 sites with the Batch 4
+  amendment; 140 sites hold 137 distinct new texts.)
+- **Translation.** Three parallel `general-purpose` subagents (es/fr/it, bn/hi/te, ht/fa/ar), each
+  reading only its own task files and a shared brief (scratch `p3/BRIEF.md`), writing only its own
+  `out.json`. Each unit was paired by `at` with its reviewed predecessor; the 16 whose predecessor
+  described another course (the Options/Pathway rows, AP Physics 1, AP European History,
+  Introduction to Photography, Introduction to STEM) were translated fresh with only terminology
+  carried over. Templates (C1–C7, the Latin pair, the Options rows, N1, N2) use one wording per
+  locale at every site.
+- **Gate** (scratch `p3/gate.mjs`, the plainsports gate retargeted): numeric-token and
+  money/percent/year/`N+` multisets; no `*`; ` · ` count; no bidi controls or non-Western digits;
+  `t` ≠ English (except a course title whose predecessor kept it English — the four restored
+  titles, NOTES.md Stage 6) and a 0.4–2.5 ratio; no English month/weekday outside a quote; the
+  per-locale wrong-script scan; capitalized Latin name tokens. **137/137 pass in all nine.**
+  Remaining name warnings are sentence-start words ("Innovation", "In-depth") and words the
+  predecessors already translated ("United States"; the subject "English" in the Options rows).
+  One shared unit sampled per locale confirms each file holds its own language.
+- **Integrity, by stamp against the `main` snapshots:** every kept stamp byte-identical (`text` and
+  `t`), all 137 new stamps non-blank and (titles aside) not English, in every locale.
+  `check_work_integrity` reports 1 violation per locale, the string-count change 3,173 → 3,189
+  from the splice; no wrong-language finding.
+- **Checks:** `npm run build` green end to end (incl. `check:live`, red through Phase 1);
+  `check:runtime`, `check:fr`, `check:dates`, `check:moneytext`, `check:currency`, `check:hi`,
+  `check:fa`, `check:bidi`, `check:chrome` ✓; `check:sepdrift` 0 drifted ×9;
+  `check_figures.py --topic course-offerings` intact ×9; `check:digits` 1,233 units compared, 2 to
+  review — both Davidson Day's age bands, where fr "(2/3 ans)" and ar "(2/3 سنوات)" keep their
+  reviewed predecessors' rendering of "(2s/3s)" (left, deliberate); `i18n:leaks` **0 flags on the
+  140 rewritten paths** in all nine locales (the log uses the same `slug:path` form);
+  `audit:daterender` es/fa/hi ✓; `audit:moneyrender` es ✓, fr's one finding is a fetched Latest
+  News headline on CCD ("…Raises $19,500…"), never translated by design.
+- **Browser** (headed Chrome, `vite preview`, every card open, bidi isolates stripped, digits
+  normalized): all twelve schools with a rewritten unit, in **all nine locales** (a superset of the
+  plan's es/fa/hi on four schools): **140/140 sites render their translation** in each, no `*`; the
+  no-match message (All tab and a department tab) is the locale's own in all nine. RTL: every
+  digit–digit range on the Covenant Day, Trinity and Charlotte Catholic pages renders in order in
+  fa and ar (glyph x-positions).
+- **For a native reviewer:**
+  - **"demanding"** (replacing "rigorous") is new wording in every locale (es "exigente", fr
+    "exigeant", it "impegnativo", ht "egzijan", bn কঠিন, hi चुनौतीपूर्ण, te శ్రమతో కూడిన, fa
+    پرچالش, ar عالية المتطلّبات); it, fa and ar dropped their old words for "rigorous".
+  - **Predecessor figures restored to the English form:** fr/it "5 km" → "5K"; bn দ্বিমাত্রিক and
+    fa/ar spelled-out "2D/3D" → "2D"/"3D"; ar spelled-out "2- and 3-digit"; fa/ar ordinal "Grade 1"
+    → digits; bn Bangla digits in HG's teaser → Western; fr "9e année" (a digit the English lacks)
+    → "première année de lycée".
+  - **bn "compound" sentence types** were জটিল (complex); now যৌগিক.
+  - **Honors French III → Honors French IV** in every locale (the guide's error, fixed in English
+    in `a9048da4`).
+  - **ar "الصفوف"** means both "rows" and "grades" in Covenant Day's notes; the predecessor's usage
+    is kept.
+  - **hi keeps "Europe" in Latin script** (its habit with names); a reviewer may prefer यूरोप.
+  - **te స్వరలిపి** for math "notation" kept from the predecessor (it reads like musical
+    notation; సంకేతనం may be better).
+  - **fa writes "0 تا 12"** for "0–12" in Covenant Gr 3 Math, as its reviewed predecessor did (32
+    other fa units keep the dash).
+  - **es N1** uses "el colegio" for both Trinity and Gaston Day (Trinity's predecessor said "la
+    escuela").
 
 ### Candidates noticed while planning, not acted on
 
