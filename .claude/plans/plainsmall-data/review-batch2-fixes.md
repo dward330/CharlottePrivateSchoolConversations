@@ -36,3 +36,8 @@ hook pass), so it leaves the wording pass's worklist.
 **Checked and kept:** davidson-day `verdict.standsOut.summary` "unlike any other school's
 here: its travel is archaeological research". No other file describes research travel;
 Providence Day's one hit is a Greece trip theme ("Mythology · archaeology · philosophy").
+
+**Reviewer re-check (Batch 2 independent review):** both claims true. Counting Middle
+School trips across every trip year, not only the latest: Country Day 6, Latin 5,
+Providence Day 4, Cannon 1, Davidson Day and Charlotte Christian 0. Country Day still
+publishes the most.

@@ -64,7 +64,7 @@ const TRIP_SWITZERLAND_27 = 'https://www.providenceday.org/switzerland-2026-ms'
 export const providenceDay: InternationalTravelProgram = {
   lead: {
     strong:
-      'One TK–12 Global Education program — "Inward. Outward. Forward." — with student travel abroad in Middle and Upper School, reciprocal exchanges with partner schools, and what the school calls the first Global Studies Diploma in the nation.',
+      'One TK–12 Global Education program: "Inward. Outward. Forward." It offers student travel abroad in Middle and Upper School, and exchanges both ways with partner schools. It also has what the school calls the first Global Studies Diploma in the nation.',
     muted:
       'The school\'s Strategic Framework counts Providence Day as one of just six schools nationwide to offer a Global Studies Diploma and to be a Round Square school.',
   },
@@ -73,7 +73,7 @@ export const providenceDay: InternationalTravelProgram = {
     {
       value: '~19',
       label: 'countries & territories',
-      note: "reached by student trips and exchanges, 2021–25 — our count from the school's Global Map",
+      note: "reached by student trips and exchanges, 2021–25 — counted from the school's Global Map",
     },
     {
       value: '8',
@@ -95,7 +95,7 @@ export const providenceDay: InternationalTravelProgram = {
   /* ----------------------------------------------------- where they go -- */
   trips: {
     headline:
-      'Nineteen trips abroad across the 2022–23 to 2026–27 school years — including four trips planned for summer 2027, three in Upper School and one in Middle School — from Round Square conferences and service projects to language-immersion trips with host-family stays and science expeditions. Filter by division.',
+      'Nineteen trips abroad across the 2022–23 to 2026–27 school years, from Round Square conferences and service projects to language-immersion trips with host-family stays and science expeditions. Four of the trips are planned for summer 2027, three in Upper School and one in Middle School. Filter by division.',
     intro: {
       strong:
         'Trips run from one-week conferences to summer immersions, with groups of 2 to 16 students.',
@@ -288,7 +288,7 @@ export const providenceDay: InternationalTravelProgram = {
       },
       {
         lead: 'Earlier years.',
-        text: 'A 2014 school news post describes one teacher\'s three summer art history trips — Italy, France, and Greece and Turkey — and student trips to Southeast Asia, Cambodia, Thailand, South Africa and Morocco.',
+        text: 'A 2014 school news post describes one teacher\'s three summer art history trips: Italy, France, and Greece and Turkey. It also describes student trips to Southeast Asia, Cambodia, Thailand, South Africa and Morocco.',
       },
     ],
     sources: [
@@ -524,7 +524,7 @@ export const providenceDay: InternationalTravelProgram = {
     rows: [
       {
         label: 'Faculty who travel',
-        text: 'Since 2006, the Global Educator Certificate has involved language study, travel to at least two different countries and cultures, and sharing what was learned with the school. Faculty trips on the Global Map include Uruguay, South Korea, Switzerland, Israel, Italy and Central Europe, Germany, Morocco, Japan and Thailand.',
+        text: 'Since 2006, the Global Educator Certificate has involved language study and travel to at least two different countries and cultures. It also involves sharing what was learned with the school. Faculty trips on the Global Map include: Uruguay · South Korea · Switzerland · Israel · Italy and Central Europe · Germany · Morocco · Japan · Thailand',
       },
       {
         label: 'Also a member of',
@@ -661,11 +661,11 @@ export const providenceDay: InternationalTravelProgram = {
       },
       {
         name: 'Families from abroad',
-        text: 'A school podcast episode features PD mothers who moved to Charlotte from other countries. The Bhandari Mehta Endowment, established in 2020, makes its awards first to students whose families are first- or second-generation immigrants to the US, or who are students of color.',
+        text: 'A school podcast episode features PD mothers who moved to Charlotte from other countries. The Bhandari Mehta Endowment was established in 2020. It makes its awards first to students whose families are first- or second-generation immigrants to the US, or who are students of color.',
       },
       {
         name: 'Intercultural dialogue',
-        text: 'Upper School students can earn the Institute for Global Learning\'s Intercultural Dialogue Facilitator Certificate; the first cohort completed it in 2025–26.',
+        text: 'Upper School students can earn the Institute for Global Learning\'s Intercultural Dialogue Facilitator Certificate. The first group completed it in 2025–26.',
       },
     ],
     sources: [
@@ -792,7 +792,7 @@ export const providenceDay: InternationalTravelProgram = {
       {
         topic: 'Safety.',
         question:
-          'Each 2027 trip has two PD study tour leaders, travel partner Envoys and emergency medical and evacuation insurance. What are the emergency protocols, and who manages medical needs on the trip?',
+          'Each 2027 trip has two PD study tour leaders, travel partner Envoys, and emergency medical and evacuation insurance. What are the emergency protocols? And who manages medical needs on the trip?',
       },
       {
         topic: 'Exchanges.',

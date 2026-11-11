@@ -62,7 +62,7 @@ const AFAR_BZ = 'https://www.goafar.org/belize-campus'
 export const davidsonDay: InternationalTravelProgram = {
   lead: {
     strong:
-      "Davidson Day's travel is AFAR, the American Foreign Academic Research archaeology field school, which sends students each summer to dig alongside professional archaeologists in Spain, Portugal and Belize, and to present their research at university conferences.",
+      "Davidson Day's travel is AFAR, the American Foreign Academic Research archaeology field school. Each summer, students go with AFAR to Spain, Portugal and Belize. They dig alongside professional archaeologists there. They also present their research at university conferences.",
     muted:
       "It pairs with the Global Studies Diploma Distinction, an Upper School pathway offered since 2021, in which most students take part in AFAR. The school's 2026–27 profile says over a quarter of its students take part in international research.",
   },
@@ -198,7 +198,7 @@ export const davidsonDay: InternationalTravelProgram = {
     alsoOnRecord: [
       {
         lead: 'Middle School, Spain & France.',
-        text: "In early 2026 the school's travel page described a summer language and cultural immersion trip to Madrid, Toledo and Paris, with a Flamenco evening and a Paris cooking class; it is gone from later copies of the page.",
+        text: "In early 2026, the school's travel page described a summer language and cultural immersion trip to Madrid, Toledo and Paris. The page listed a Flamenco evening and a Paris cooking class. The trip is gone from later copies of the page.",
       },
       {
         lead: 'Greece, 2017–18.',
@@ -206,7 +206,7 @@ export const davidsonDay: InternationalTravelProgram = {
       },
       {
         lead: 'North Carolina, November 2024.',
-        text: '13 students worked on the Adam Spach Rock House excavation in Winston-Salem, the first high school students to work on a site with the North Carolina State Historic Preservation Office, per the school.',
+        text: '13 students worked on the Adam Spach Rock House excavation in Winston-Salem. Per the school, they were the first high school students to work on a site with the North Carolina State Historic Preservation Office.',
       },
     ],
     sources: [
@@ -321,7 +321,7 @@ export const davidsonDay: InternationalTravelProgram = {
     conferences: [
       {
         year: '2025–26',
-        text: "Opportunities offered this school year: Mount Royal University's archaeology conference in Calgary and Banff · a Maya-themed conference at Disney's Coronado Springs Resort in Florida, hosted by AFAR and other archaeologists · excavations in Friedberg, North Carolina",
+        text: "Offered this school year: Mount Royal University's archaeology conference in Calgary and Banff · a Maya-themed conference at Disney's Coronado Springs Resort in Florida, hosted by AFAR and other archaeologists · excavations in Friedberg, North Carolina",
       },
       {
         year: '2024–25',
@@ -438,7 +438,7 @@ export const davidsonDay: InternationalTravelProgram = {
       "Where the program stands out, and thirteen questions the school's website doesn't answer yet — trip costs, aid, grades and safety.",
     standsOut: {
       summary:
-        "Davidson Day's global program is unlike any other school's here: its travel is archaeological research rather than touring. Students dig alongside professionals in Spain, Portugal and Belize, and present their findings at university conferences, inside a two-year Upper School research distinction.",
+        "Davidson Day's global program is unlike any other school's here: its travel is archaeology research, not touring. Students dig with professionals in Spain, Portugal and Belize. They present their findings at university conferences. The digs and conferences are part of a two-year Upper School research distinction.",
       points: [
         'Summer field research at three active sites, one of them on record for 20 seasons',
         'Student research presented at Mount Royal University — 10 students in fall 2024',

@@ -853,8 +853,9 @@ shipped*) only after Batch 3.
 |---|---|---|---|---|
 | 1 (Part 1) | "plainsmall: skip never-rendered flags in the plain-language checker" (`68cf86e6`) | — | — | — |
 | 1 (fixes) | "plainsmall: batch 1 fixes — Cannon catalog claim, CCD UltraCamp note to verify" (SHA: `dcebb7f2`) | [review-batch1-fixes.md](plainsmall-data/review-batch1-fixes.md) | — | |
-| 1 | "plainsmall: batch 1 English — After School" | [review-batch1.md](plainsmall-data/review-batch1.md) | 15 in 11 rows, all fixed (mostly bare referents after a split, plus one weakened and one strengthened claim, and three lines that still sounded unsure); plus 5 issues outside the rows, all fixed (3 bookkeeping lines the sweep missed, 1 unhedged inference, 1 not-found form) | |
-| 2 | "plainsmall: batch 2 English — Global Exposure" | review-batch2.md | | |
+| 1 | "plainsmall: batch 1 English — After School" (`b197f8a3`), then the user-approved `catalogIntro` render fix (`992b963b`) | [review-batch1.md](plainsmall-data/review-batch1.md) | 15 in 11 rows, all fixed (mostly bare referents after a split, plus one weakened and one strengthened claim, and three lines that still sounded unsure); plus 5 issues outside the rows, all fixed (3 bookkeeping lines the sweep missed, 1 unhedged inference, 1 not-found form) | approved 2026-11-10, no rulings |
+| 2 (fixes) | "plainsmall: batch 2 fixes — Cannon and Country Day cross-school claims" (SHA: `7360b3b5`) | [review-batch2-fixes.md](plainsmall-data/review-batch2-fixes.md) | — (the reviewer re-checked both claims: true) | |
+| 2 | "plainsmall: batch 2 English — Global Exposure" | [review-batch2.md](plainsmall-data/review-batch2.md) | 6 in 6 rows, all fixed (2 split referents that lost a scope, 2 strengthened claims, 1 packet listing turned into a plain fact, 1 "has seven partners" read as current) | |
 | 3 (fixes) | "plainsmall: batch 3 fixes — Prep price note to verify" (SHA: ) | review-batch3-fixes.md | — | |
 | 3 | "plainsmall: batch 3 English — Summer, Learning Support, HSP, chrome" | review-batch3-{summer,learning,hsp}.md | | |
 
@@ -1090,7 +1091,33 @@ the reviewer gets it. In short:
   - a full list turned into a sample;
   - a false cross-school claim.
 
-*Rulings from this plan's Batch 1 onward are added here by `/implement`.* If a resume
+**From this plan** (each batch was approved with no rulings, so its choices stand as
+precedent):
+- **Batch 1 (After School):**
+  - A STALE rewrite uses "saved copy/copies of …", never "saved 2020 copy" (the year
+    splits the pattern).
+  - "unconfirmed" keeps VERIFIED ("the school has not confirmed"), never becomes "has not
+    published".
+  - A derived total reads "added up on this page".
+  - "ancillary" → "other", since "extra fee" enters EXTRA.
+- **Batch 2 (Global Exposure):**
+  - "our count" on a derived figure → "counted from the school's list / Global Map / …"
+    (no first person; the figure stays visibly derived).
+  - A cross-school "most … do not" / "stands out for" is checked against every file in
+    the area. A false one becomes a concrete, checkable statement ("only Providence Day
+    and Davidson Day publish …", "publishes the most Middle School travel"), in its own
+    fixes commit.
+  - "inaugural" stays: "first" would enter FIRST.
+  - "oversubscribed" → "more students sign up than there are spots"; never "apply"
+    (enters APPLICATION).
+  - A split keeps each clause's scope: "That year, …", "The Middle School trips to
+    France and Italy …".
+  - "has had seven partners since 1989", never "has seven": a since-year count is not a
+    current count.
+  - A sentence never ends on a month name ("March."), because guard (g) reads the
+    period as part of the date token.
+
+*Rulings from later batches are added here by `/implement`.* If a resume
 command arrives with the `<, with these rulings: …>` placeholder unfilled, read it as
 "approved, no rulings", as every earlier plan did, and record that batch's choices here as
 precedent.
@@ -1788,6 +1815,8 @@ No skill or slash command changes, so `.claude/SKILLS.md` is not touched.
 | Path | After-grade | Reason |
 |---|--:|---|
 | — | — | **Batch 1: none.** All 47 changed After School units are at grade ≤10, and the 2 fixes-commit units too. |
+| GE davidson-day `lead.strong` | 10.8 | AFAR's own expansion, "the American Foreign Academic Research archaeology field school" (the file's wording, kept), plus the place names. Every sentence is ≤15 words. |
+| GE davidson-day `network.conferences[0].text` | 10.3 | A `·` list of conference and place names (Mount Royal University, Coronado Springs Resort, Friedberg). Per the Unit note, only the lead was shortened. |
 
 ## Implementation notes
 
@@ -1944,8 +1973,9 @@ finding:**
   `check:travelrows`, `check:matrices`, `check:schoolurls`, `check:chrome`,
   `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`, `check:photos` and
   `test:plain`.
-- **`check:live`:** **40 stale `after-school` stamps per locale**, and no other topic.
-  This is Phase 2's input.
+- **`check:live`:** **49 stale `after-school` stamps per locale**, and no other topic.
+  This is Phase 2's input. (First recorded as 40: `check:live` caps its display, and the
+  count was read off the display. `--verbose` gives the true total. Corrected in Batch 2.)
 
 **Browser** (headed Chrome, `vite preview`, `?topic=after-school&lang=en`, every card open):
 - **47 of 48 changed units render with their bold** (the 47 rows plus Cannon's fixes-commit
@@ -1991,6 +2021,66 @@ changing the component".
 - `check:plain` still counts `catalogIntro` everywhere. It now renders everywhere it is
   set, so the count is right.
 
+### Batch 2 — Global Exposure English (2026-11-10)
+
+**A fixes commit the plan did not expect (`7360b3b5`).** The plan said Batch 2 had none.
+Checking the three cross-school verdict claims (Content item 14) found two that the other
+files contradict, so they were fixed by the Decisions rule for a new fact problem, in their
+own commit before the worklist:
+- **Cannon** "something most Charlotte schools do not — a Global Studies Certificate":
+  Providence Day and Davidson Day also publish a global credential with its requirements
+  (3 of the 6 schools). It now names them. "centred" → "centered" landed here too.
+- **Country Day** "stands out for how early … and for sister-school exchanges running
+  since 1991": Latin's travel also opens in 6th grade, and its sister schools date to
+  1989. What holds is the count: it now says Country Day "publishes the most Middle
+  School travel: six experiences from 6th grade". The reviewer re-counted across every
+  trip year: Country Day 6, Latin 5, Providence Day 4, Cannon 1.
+- **Davidson Day** "unlike any other school's here" was checked and kept.
+
+Evidence is in [review-batch2-fixes.md](plainsmall-data/review-batch2-fixes.md).
+Guards without `--check` gave the one expected hit: (h) ONLY added in Cannon.
+
+**Worklist:** 25 (27 − the two fixed units). The bookkeeping sweep (`BOOKKEEPING_RE`)
+found 0. A wider first-person sweep found **4 "our count" units** on derived figures.
+They follow the Batch 1 "summed by the researcher" precedent: the figure stays visibly
+derived, and the first person goes. The 4 are Cannon `stats[2].note` and
+`network.cells[2].text`, Charlotte Christian `stats[1].note`, and Providence Day
+`stats[0].note`. They are listed in `worklist-bookkeeping-batch2.json`. That made **29
+rows** in `review-batch2.md`: all `hook: pass`, and `--check` exits 0. Two rows sit above
+grade 10, and both are name-driven (see Residuals). The Global Exposure hook loop
+reports **0 issues** (22 flagged units before).
+
+**Spelling:** `centred` / `centring` added to `spelling.map`. `check:spelling` passes. For
+the negative test, "centred" was put back in Cannon: it exited 1 naming
+`cannon.ts:301 verdict.standsOut.summary`, and the file was restored `cmp`-clean.
+
+**Independent review: 6 findings, all fixed** (see the review file):
+- Cannon: "Both build on" assigned language study to the certificate and the trips.
+- Cannon: "In 2026" stopped covering the Kimbrough award after the split, and "joined
+  that teacher" dropped Finland.
+- Christian: "Each trip has a grade band" turned what the packets list into a plain
+  fact.
+- Country Day: "France and Italy use a lottery" lost its Middle School scope (Upper School
+  lists Italy and France trips too).
+- Latin: "has seven partners since 1989" read as seven current partners.
+- Davidson Day: "All of this sits inside" the distinction overstated it, since the digs
+  are optional "beyond" items.
+
+The reviewer judged Latin's "depth of its sister-school network" still true. Providence
+Day's 8 partners are individual Round Square exchanges logged 2022–25; Latin's go back to
+1989, with hosting both ways.
+
+**Checks:**
+- **Build:** `npx tsc -b` and `npx vite build` are clean.
+- **Step 6 list:** all green. `test:plain` passes 32/32.
+- **`check:live` (`--verbose`, per locale):** **31 stale `international-travel` stamps**
+  (29 rows + the 2 fixes) and **49 `after-school`**. No other topic.
+- **Browser** (headed Chrome, `vite preview`, `?topic=international-travel&lang=en`, every
+  card open):
+  - **31 of 31 changed units render**, with 0 literal `*` in any section.
+  - Providence Day's collapsed teaser shows the new `trips.headline`.
+  - Latin at 390px: `scrollWidth` = `clientWidth` (390).
+
 ### Candidates noticed, not acted on
 - **`scripts/plain_language.json` jargon candidates** seen in Batch 1: "orphaned" (Cannon's
   "orphaned backup URL", kept because the clause is shared byte-identically) and
@@ -2000,3 +2090,11 @@ changing the component".
   Moving it to a `src/locales` key is a separate i18n fix.
 - **Other hardcoded hint:** `EnrichmentCatalog`'s `'— illustrative catalog'` heading hint is
   also bare English (it shows only when `catalogEstimated` is set).
+- **Batch 2, Global Exposure:**
+  - Cannon's `trips.sources` label "Travel Abroad (Wayback, Dec 2019)" is a citation
+    label, outside the prose units. It is the bookkeeping word the rule targets, if
+    source labels ever count as prose.
+  - Country Day's `start.intro.strong` "…discuss the world beyond our borders" is the
+    school's own voice, unquoted (a detached school description).
+  - Jargon candidates for `plain_language.json`: "oversubscribed" (rewritten in Country
+    Day and Latin) and "inaugural" (kept in Cannon, because "first" would enter FIRST).

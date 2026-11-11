@@ -64,7 +64,7 @@ const V1213 = `${VOICE}/Voice_1213_Issue2.pdf`
 export const charlotteChristian: InternationalTravelProgram = {
   lead: {
     strong:
-      'Upper School students at Charlotte Christian take part in Winterim, a week each year at the turn of February and March, with six to eight trips abroad offered each year from 9th grade.',
+      'Upper School students at Charlotte Christian take part in Winterim, a week at the turn of February and March each year. Six to eight trips abroad are offered each year, from 9th grade.',
     muted:
       "Most trips pair travel with a mission or service partner, from SCORE International in the Dominican Republic, on record since 2009–10, to Samaritan's Feet in Portugal.",
   },
@@ -78,7 +78,7 @@ export const charlotteChristian: InternationalTravelProgram = {
     {
       value: '17',
       label: 'countries',
-      note: 'our count from five Winterims, 2023–2027',
+      note: 'counted from five Winterims, 2023–2027',
     },
     {
       value: '1.0',
@@ -98,7 +98,7 @@ export const charlotteChristian: InternationalTravelProgram = {
       'Thirty-five trips abroad offered across five Winterims, 2023 to 2027, each with a published grade band and group size, and most with a mission or service partner.',
     intro: {
       strong:
-        'Winterim trips abroad are open to Upper School students, some from 9th grade and most from 10th, and each year\'s packet gives every trip its grade band, group size and theme.',
+        'Winterim trips abroad are open to Upper School students, some from 9th grade and most from 10th. Each year\'s packet gives every trip its grade band, group size and theme.',
       muted:
         'The packets list the trips offered, and final offerings depend on registrations. Winterim also offers local and domestic experiences, so going abroad is one choice among many.',
     },
@@ -740,7 +740,7 @@ export const charlotteChristian: InternationalTravelProgram = {
       "Where the program stands out, and eleven questions the school's website doesn't answer yet — trip costs, aid, which trips ran, and safety.",
     standsOut: {
       summary:
-        'Charlotte Christian has no global diploma or exchange program, but every Upper School year includes Winterim, and its packets publish six to eight trips abroad a year, each with a grade band, group size and, for most, a mission or service partner.',
+        'Charlotte Christian has no global diploma or exchange program. But every Upper School year includes Winterim, and its packets publish six to eight trips abroad a year. The packets list each trip with a grade band and group size, and most with a mission or service partner.',
       points: [
         'A required Winterim every Upper School year',
         'Trips abroad from 9th grade, published with grade bands and group sizes',
