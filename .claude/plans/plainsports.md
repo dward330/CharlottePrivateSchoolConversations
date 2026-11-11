@@ -1814,6 +1814,81 @@ every card open; "What they didn't win:" and "Worth knowing:" read on from their
 no headline or Cup field touched; no overflow at 390px (Carmel). The three reviewer fixes were
 re-checked in the browser.
 
+### Phase 2 (2026-11-11)
+
+- **Approval.** The user: "All five English batches are approved. Run only Phase 2." Run in
+  the same window on `feat/plainsports`, after the user's two requested follow-ups (Gaston
+  `care[3]` + the hook splitter, `b39cbe6f`; Gaston "JavaScript-rendered", `9dcb8968`).
+- **Splice:** identical in all nine locales — **926 kept, 115 added, 115 dropped** (the plan
+  predicted 107; the Batch 4 ruling unit, the Hall of Fame fix, Gaston `care[3]` and Gaston
+  `facilities.subhead` make up the rest, plus the extra-file units). Every added unit paired
+  1:1 by `at` with a dropped predecessor; no unpaired unit.
+- **Translation.** Three parallel `general-purpose` subagents (es/fr/it, bn/hi/te, ht/fa/ar),
+  each reading only its own task files and a shared brief, writing only its own `out.json`.
+  Each revised the reviewed `t`. Templates (T1–T6, walk-on and mid-major glosses, "in a form
+  this page can show") use one wording per locale at every site.
+- **Gate** (scratch `gate.mjs`): the numeric-token multiset and the money/percent/year/`N+`
+  multiset against the new English; no `*`; ` · ` and `→` counts; no bidi controls, no
+  non-Western digits; `t` ≠ English and a 0.4–2.5 ratio; no English month/weekday outside a
+  quote; the per-locale wrong-script scan (danda stripped; fa rejects ي/ك, ar rejects
+  Persian-only letters); and every capitalized Latin name token of the English present in `t`
+  (tokens the predecessor itself translated, and sentence-start common words, exempt).
+  **115/115 pass in all nine locales.** The one remaining name warning per locale is
+  "Progress" (a sentence-start word).
+- **Predecessors corrected** (the new English or a hard rule required it):
+  - figures the predecessors spelled out or reworded are back in the English form: `4×`
+    (es "4 veces", bn "4 বার"), `7–8` (es "7 u 8"), `13` (fr "treize"), `top-10`, `200+` /
+    `20+` / `175+` / `1000+` ("más de 200", "plus de 175"), `#1` (es "primer cabeza de serie"
+    had no digit), grades `6–8` / `8th Grade`, and fa's spelled-out ranks, seeds and `6'3"`;
+  - units stay as the English writes them (`150 lbs`, `138 lbs`, `77,737 sq ft`); several
+    predecessors had translated the unit word (fr "pieds carrés", bn পাউন্ড, fa پوند, ar
+    رطلًا, ht "pye kare"). Not a conversion either way; this follows the char-for-char rule;
+  - ar: "commit" had been rendered التحاق (enrollment) or تعاقد (contracting) in Carmel,
+    Gaston and HG units; now التزام, so commitment and enrollment stay separate tiers;
+  - ar: the old `←` arrows in Carmel's college paths (`Belmont ← UNC ← Minnesota`) rendered
+    backward in the Latin left-to-right run; now `→`, as in fa and the English;
+  - it `ed17d0fc`: "un'ex safety" (feminine) → "un ex safety" for Haruki Nakamura;
+  - fr `38925a8e`: boys soccer is "soccer" (the predecessor's "football" means American
+    football in this corpus);
+  - names restored in full where a predecessor shortened or translated them: te/bn "North
+    Carolina", te "PD", bn "CISAA Conference … NCISAA State Championship", "School Profile",
+    es "Lake Davidson Nature Preserve", it "North Carolina Mr. Basketball".
+- **Integrity, by stamp against the `main` snapshots:** every kept stamp is byte-identical
+  (`text` and `t`), and all 115 new stamps are non-blank and differ from the English, in every
+  locale. `check_work_integrity` reports 230 positional "violations" per locale (2,070 total),
+  all `text/of/at mutated` / `existing translation overwritten` from the splice (memory
+  `comparerows-shipped`); none is a wrong-language finding.
+- **Checks:**
+  - `check:live` ✓ (clean for the first time since Batch 1) and `check:runtime` ✓;
+  - `check:digits`: **1,035 units compared · 0 to review**;
+  - `check:dates`, `check:moneytext`, `check:currency`, `check:fr`, `check:hi`, `check:fa`,
+    `check:bidi`, `check:chrome`: ✓;
+  - `check:sepdrift`: 0 drifted ×9; `check_figures.py --topic sports`: intact ×9;
+  - `i18n:leaks`: **0 flags on the 115 rewritten paths** in all nine locales (the log uses the
+    same `slug:path` form, so the zero is not vacuous);
+  - `npm run build`: green end to end;
+  - `audit:moneyrender`: es clean; fr's one finding is a Latest News headline on CCD
+    ("…Raises $19,500…"), which is fetched, never translated or re-formatted by design, and
+    not Sports;
+  - `audit:daterender` (es, fa, hi): ✓ in all three, no English-form date on any school, Compare or checklist page.
+- **Browser** (headed Chrome, `vite preview`, every Sports card open, bidi isolates stripped):
+  all twelve schools with a rewritten unit (a superset of the plan's four), in `es`, `fa` and
+  `hi`: **345/345 units render translated**, no `*`. Score ranges in Carmel's `didNotWin`
+  (`48–53`, `50–73`, `85–94`) read in order in fa and ar (glyph x-positions). No Cup field or
+  kept unit changed.
+- **For a native reviewer:**
+  - **Hall of Fame (`45cf6584`)**: "eight inductees" is rendered as induction places, not
+    people, in every locale (es "ocho incorporaciones", fr "huit intronisations", hi "आठ
+    सम्मानित", ar "ثمانية مُكرَّمين"), since the Wolters were inducted together;
+  - **unit words** now follow the English token (`150 lbs`, `77,737 sq ft`) where seven
+    predecessors had translated the word; revisit only as a site-wide decision;
+  - **ht "kawo tè" / fa "جریب" (acres)** kept as the predecessors had them; the acre-word
+    question stays open site-wide (memory `plaincollege-shipped`);
+  - **bn/hi/te Class of 20XX**: the predecessors' ব্যাচ / बैच / బ్యాచ్ kept, including in T1;
+    "Compare" stays translated as the page name (তুলনা পাতা / तुलना पृष्ठ / పోలిక పేజీ);
+  - **Gaston T1 (`ba25fdcb`)**: "until the athlete signs" is gender-neutral in es, hi and te;
+  - **fr `27acbef0`**: Catholic's sport list is capitalized as the school lists it.
+
 ### Candidates noticed, not acted on
 
 - **Gaston `facilities.care[3].text` — FIXED 2026-11-11 at the user's request** (own commit after
