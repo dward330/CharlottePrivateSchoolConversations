@@ -242,7 +242,7 @@ export const charlotteCountryDay: SportsProgram = {
       },
     ],
     funnelNote:
-      'Swimming supplies five of the nine Power 4 commits — including all three from the class of 2026, to Stanford, Florida and Purdue — while track and cross country supply the most Division I commits, nine. Five commitments went to Ivy League programs, a share matched by no other school in this comparison and consistent with Country Day’s academic profile. The school’s count of 48 includes one signee in college cheer, which sits outside the NCAA divisions shown here.',
+      'Swimming supplies five of the nine Power 4 commits — including all three from the class of 2026, to Stanford, Florida and Purdue — while track and cross country supply the most Division I commits, nine. Five commitments went to Ivy League programs, consistent with Country Day’s academic profile. The school’s count of 48 includes one signee in college cheer, which sits outside the NCAA divisions shown here.',
     sportBars: [
       { sport: 'Track / XC', count: 9, width: 1, p4Width: 0.22 },
       { sport: 'Swimming', count: 7, width: 0.78, p4Width: 0.56 },
@@ -469,7 +469,7 @@ export const charlotteCountryDay: SportsProgram = {
     headline:
       'A $30.5M athletics build opened in 2022 — a 700-seat natatorium and a 1,200-seat performance gym — anchored by an OrthoCarolina sports-medicine partnership.',
     subhead:
-      'Five named certified athletic trainers across two campuses, more than any other school in this comparison.',
+      'Five named certified athletic trainers across two campuses, an unusually large staff for a high school.',
     photos: [
       {
         src: '/facilities/charlotte-country-day-belk-stadium.jpg',
@@ -528,7 +528,7 @@ export const charlotteCountryDay: SportsProgram = {
       },
     ],
     careNote:
-      'The OrthoCarolina partnership is the differentiator among Charlotte private schools — Cannon uses Novant, Charlotte Christian uses Atrium, and Providence Day keeps care fully in-house. The combined Klein and Harris project totaled 77,737 sq ft and roughly $30.5M, funded by a $10M lead gift from the Klein family, the Dowd Foundation and two anonymous donors.',
+      'The OrthoCarolina partnership, which supplies the team physician, is the thing to probe on a tour. The combined Klein and Harris project totaled 77,737 sq ft and roughly $30.5M, funded by a $10M lead gift from the Klein family, the Dowd Foundation and two anonymous donors.',
     sources: [
       {
         label: 'charlottecountryday.org — Sports Medicine',

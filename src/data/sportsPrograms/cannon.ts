@@ -240,7 +240,7 @@ export const cannon: SportsProgram = {
       },
     ],
     funnelNote:
-      'Treat every figure on this card as a floor. Unlike its CISAA peers, Cannon publishes no "alumni at the next level" roster, so these names come from college rosters and recruiting services rather than from the school. Collegiate athlete is the standard here, not scholarship athlete: Hayes Galloway joined North Carolina as an early enrollee and later Clemson as a preferred walk-on, and Division III programs award no athletic scholarships.',
+      'Treat every figure on this card as a floor. Cannon publishes no "alumni at the next level" roster, so these names come from college rosters and recruiting services rather than from the school. Collegiate athlete is the standard here, not scholarship athlete: Hayes Galloway joined North Carolina as an early enrollee and later Clemson as a preferred walk-on, and Division III programs award no athletic scholarships.',
     sportBars: [
       { sport: 'Boys Lacrosse', count: 8, width: 1, p4Width: 0.13 },
       { sport: 'Boys Basketball', count: 5, width: 0.63, p4Width: 0.13 },
@@ -569,7 +569,7 @@ export const cannon: SportsProgram = {
       },
     ],
     careNote:
-      'Cannon is a clinical education site for UNC Charlotte’s Master’s in Athletic Training. Note the contrast worth probing on a tour: Cannon and Charlotte Christian outsource to Novant and Atrium respectively, Charlotte Country Day uses OrthoCarolina, and Providence Day keeps care fully in-house. Seating capacities are not published for any Cannon venue.',
+      'Cannon is a clinical education site for UNC Charlotte’s Master’s in Athletic Training. Note the model worth probing on a tour: Cannon outsources its athletic trainers and team physicians to Novant. Seating capacities are not published for any Cannon venue.',
     sources: [
       { label: 'Cannon — Athletic facilities', url: 'https://athletics.cannonschool.org/facilities' },
       { label: 'Cannon — Athletic training', url: 'https://athletics.cannonschool.org/training/athletic-training' },
