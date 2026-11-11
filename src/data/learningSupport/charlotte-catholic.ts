@@ -148,7 +148,7 @@ export const charlotteCatholic: LearningSupportProgram = {
         body: 'Program teachers provide “individual, small group, and/or push-in support.” No reading-intervention method is named for Academic Achievement students; Options Program students take “Specialized English and Mathematics courses.”',
       },
       attn: {
-        head: 'A one-semester Academic Skills course in executive function, then Guided Academic Support.',
+        head: 'A one-semester Academic Skills course in executive function (planning, organizing and focus skills), then Guided Academic Support.',
         body: 'Academic Skills (508, 509) teaches “executive function strategies and self-advocacy.” Guided Academic Support (511) follows in grades 10–12 for Academic Achievement students “with a GPA 2.9 or below.”',
       },
       math: {
@@ -402,7 +402,7 @@ export const charlotteCatholic: LearningSupportProgram = {
     ],
     note: {
       strong: 'To begin, contact an Academic Achievement Specialist or complete the program application.',
-      muted: 'Counselors are assigned by last name (A–De, Di–Ho, Hu–Mi, Mo–She, Shi–Z) and stay the same for all four years; the Director of Counseling counsels students new to the school in grades 10–12.',
+      muted: 'Counselors are assigned by last name (A–De, Di–Ho, Hu–Mi, Mo–She, Shi–Z) and stay the same for all four years. The Director of Counseling counsels students new to the school in grades 10–12.',
     },
     sources: [AASTAFF, OPTSTAFF, ADMIN, HANDBOOK, COUNSEL, HEALTH],
   },

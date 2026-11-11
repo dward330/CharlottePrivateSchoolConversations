@@ -77,7 +77,7 @@ export const carmelChristian: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'The 2026-2027 web overview shows Extended Day as **“Registration for 2026-2027 is now full.”** That is an operational capacity status, not a change to the published hours or prices, but it means a mid-year applicant may face a waitlist.',
+        text: 'The 2026-2027 web overview shows Extended Day as **“Registration for 2026-2027 is now full.”** That is a note about space in the program, not a change to the published hours or prices. But a family that wants to join mid-year may face a waitlist.',
       },
     ],
     sources: [
@@ -227,7 +227,7 @@ export const carmelChristian: AfterSchoolProgram = {
     catalogTitle: 'Enrichment & music lessons',
     catalogEstimated: false,
     catalogIntro:
-      'Extended Day offers Enrichment Classes and Music Enrichment Lessons within the program, but the **2026-2027 offerings are not yet published** — the school lists them as “coming August 2026,” so no class names, days, grades or fees exist to show yet.',
+      'Extended Day offers Enrichment Classes and Music Enrichment Lessons within the program. But the **2026-2027 offerings are not yet published**. The school lists them as “coming August 2026,” so there are no class names, days, grades or fees to show yet.',
     dayFilters: [],
     gradeFilters: [],
     classes: [],

@@ -1,0 +1,43 @@
+{
+  "generated": "2026-11-11",
+  "file": "src/locales/en.json",
+  "note": "The five chrome labels (plan plainsmall, Decisions → The five chrome labels). Hand-edited; Phase 2 revises them in the nine other catalogs.",
+  "total": 5,
+  "units": [
+    {
+      "key": "metrics.institutional-leverage",
+      "before": "Institutional Leverage",
+      "after": "College Connections",
+      "renders": "Compare → College Support, research-coverage row label",
+      "reason": "\"Leverage\" is on the jargon list. The cards behind the row are the ties a school can use with colleges (memberships, dual-enrollment partners, a long-serving director's standing). src/lib/metrics.ts label untouched, so the row does not move."
+    },
+    {
+      "key": "metrics.matriculation",
+      "before": "D1 / Top-College Matriculation",
+      "after": "D1 / Top-College Enrollment",
+      "renders": "Compare → Sports, research-coverage row label",
+      "reason": "The jargon map's own replacement for \"matriculation\"; same meaning. \"D1\" stays (the recruiting term). Open question: \"Commitments\" would fit 25 of the 28 docs better but changes the meaning."
+    },
+    {
+      "key": "highSchoolPlacement.acceptanceNotMatriculation",
+      "before": "ACCEPTANCE ≠ MATRICULATION",
+      "after": "ACCEPTED ≠ ENROLLED",
+      "renders": "HSP destinations card, bold caps lead before the …Text sentence",
+      "reason": "Same meaning and caps chip style; matches the sentence after it (\"per-school enrollment counts\"). Key name unchanged."
+    },
+    {
+      "key": "learning.need.attn",
+      "before": "Attention & executive function",
+      "after": "Attention & planning (executive function)",
+      "renders": "Learning Support need-filter tab, all 5 LS schools",
+      "reason": "Keep-and-explain: the term is the one on the evaluation report, 504 or IEP; plain words lead. The checker accepts a parenthesis wrapping the term."
+    },
+    {
+      "key": "learning.need.social",
+      "before": "Social-emotional",
+      "after": "Social & emotional",
+      "renders": "Learning Support need-filter tab",
+      "reason": "Replace: the two plain words carry the whole meaning, no gloss and no longer tab."
+    }
+  ]
+}

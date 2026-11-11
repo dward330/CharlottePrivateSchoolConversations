@@ -54,7 +54,7 @@ const WB_TA_2019 =
 export const cannon: InternationalTravelProgram = {
   lead: {
     strong:
-      "Cannon's global program centers on the Upper School, with a Global Studies Certificate awarded at Senior Night and Winterm trips abroad for grades 9–11, on a base of world-language study that begins in Junior Kindergarten.",
+      "Cannon's global program centers on the Upper School. It has a Global Studies Certificate, awarded at Senior Night, and Winterm trips abroad for grades 9–11. The program builds on world-language study that begins in Junior Kindergarten.",
     muted:
       'Recent travel includes TECHO service builds in Costa Rica and the Dominican Republic, a summer in China, and a Middle School trip to Costa Rica in summer 2026.',
   },
@@ -73,7 +73,7 @@ export const cannon: InternationalTravelProgram = {
     {
       value: '21',
       label: 'teachers with the Global Education Badge',
-      note: "our count from the school's list, 2017–2024",
+      note: "counted from the school's list, 2017–2024",
     },
   ],
 
@@ -275,13 +275,13 @@ export const cannon: InternationalTravelProgram = {
       },
       {
         name: 'Global Education Badge',
-        text: 'Teachers earn it with at least 100 hours of global professional development and a capstone, such as a new Winterm course or a student travel program. It is sponsored by the North Carolina Global Education Benchmark Group; 21 teachers earned it from 2017 to 2024, our count.',
+        text: 'Teachers earn it with at least 100 hours of global professional development and a capstone, such as a new Winterm course or a student travel program. It is sponsored by the North Carolina Global Education Benchmark Group. The school\'s list shows 21 teachers who earned it from 2017 to 2024.',
       },
     ],
     rows: [
       {
         label: 'Faculty who travel',
-        text: 'In 2026, the inaugural Helfrich Catalyst Fellowship sent a sixth-grade social studies teacher to Peru, and a Kimbrough award sent an Upper School English teacher to Finland, joined by a colleague with a World Affairs Council grant.',
+        text: 'In 2026, the inaugural Helfrich Catalyst Fellowship sent a sixth-grade social studies teacher to Peru. That year, a Kimbrough award sent an Upper School English teacher to Finland. A colleague with a World Affairs Council grant joined the English teacher there.',
       },
     ],
     sources: [
@@ -298,7 +298,7 @@ export const cannon: InternationalTravelProgram = {
       "Where the program stands out, and eleven questions the school's website doesn't answer yet — trip costs, aid, selection and safety.",
     standsOut: {
       summary:
-        "Cannon's global program is small and centred on the Upper School, but it offers something most Charlotte schools do not — a Global Studies Certificate with published requirements — and global language learning from Junior Kindergarten.",
+        "Cannon's global program is small and centered on the Upper School. But it offers a Global Studies Certificate with published requirements. Among the other schools on this site, only Providence Day and Davidson Day publish a global studies credential. Cannon also offers global language learning from Junior Kindergarten.",
       points: [
         'A certificate awarded at Senior Night, with a required senior capstone course',
         'Spanish from Junior Kindergarten and a three-language choice in 5th grade',

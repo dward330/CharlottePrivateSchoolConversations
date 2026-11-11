@@ -71,7 +71,7 @@ export const charlottePrep: AfterSchoolProgram = {
     ],
     summer: {
       season: 'JUN–JUL',
-      text: '**Summer Adventures at Prep** ran seven weeks in 2026, June 8 to July 31, for campers from the Early School through 8th grade, with Before Care 8:00–9:00 a.m. and After Care 4:00–5:00 p.m. at **$60/week** each.',
+      text: '**Summer Adventures at Prep** ran seven weeks in 2026, June 8 to July 31, for campers from the Early School through 8th grade. The camp offered Before Care 8:00–9:00 a.m. and After Care 4:00–5:00 p.m., at **$60/week** each.',
     },
     facts: [
       {

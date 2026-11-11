@@ -40,7 +40,7 @@ export const gastonDay: AfterSchoolProgram = {
       'Both tiers land in the same room by mid-afternoon; the difference is when each division’s day ends, not what the program offers.',
     hours: ['3 pm', '3:30', '4 pm', '4:30', '5 pm', '5:30', '6 pm'],
     basisNote:
-      'Prices shown are the published WEEKLY rates from the school’s 2025-26 Schedule of Tuition and Fees, which assume regular enrollment; the drop-in alternative is billed per day and is listed in the facts below. See the flags below — the program web page labels near-identical figures as monthly.',
+      'Prices shown are the published WEEKLY rates from the school’s 2025-26 Schedule of Tuition and Fees. They assume regular enrollment. Drop-in is billed per day instead and is listed in the facts below. See the flags below: the program web page labels near-identical figures as monthly.',
     rows: [
       {
         division: 'Lower School',
@@ -155,7 +155,7 @@ export const gastonDay: AfterSchoolProgram = {
     defaultDays: 5,
     aside: {
       title: 'The weekly rate is flat, so it does not scale with days',
-      text: 'The published $95 and $55 figures are weekly enrollment rates that do not vary by how many afternoons a child attends — which is why those two rows show the same price in every column. Drop-in is the alternative that scales: at Lower School rates, drop-in beats weekly enrollment up to three days a week ($90 vs $95) and loses from four ($120 vs $95).',
+      text: 'The published $95 and $55 figures are weekly enrollment rates. They stay the same however many afternoons a child attends, which is why those two rows show the same price in every column. Drop-in is the option whose cost grows with use. At Lower School rates, drop-in costs less than weekly enrollment up to three days a week ($90 vs $95). From four days, it costs more ($120 vs $95).',
     },
     fees: [
       { label: 'Lower School · weekly enrollment', value: '$95/week' },
@@ -168,7 +168,7 @@ export const gastonDay: AfterSchoolProgram = {
       { label: 'Late pickup — each further 5 minutes', value: '$5' },
       {
         label:
-          'The 36-week year is this project’s standard planning assumption for comparability across schools, not a figure Gaston Day publishes. The school states no annual aftercare total, no registration fee, no sibling discount and no tuition-insurance terms for the program.',
+          'This page assumes a 36-week school year so schools can be compared. Gaston Day does not publish that figure. The school states no annual aftercare total, no registration fee, no sibling discount and no tuition-insurance terms for the program.',
         note: true,
       },
     ],
@@ -227,10 +227,10 @@ export const gastonDay: AfterSchoolProgram = {
       'grade-level groups',
     ],
     wordsText:
-      'The program is framed around a decompression-then-structure rhythm: students arrive to unstructured play, move into a separated homework and snack window, come together for a STEAM-and-collaboration block, then return to choice. Middle School students waiting for music lessons may work on homework at no charge, which is the one explicit interlock with another school program.',
+      'The school frames the afternoon as play first, then structure. First: students arrive to unstructured play. Then they move into a separate homework and snack time, come together for a STEAM-and-collaboration block, and return to their own choice of activity. Middle School students waiting for music lessons may work on homework at no charge. That arrangement is the one stated link with another school program.',
     catalogTitle: 'Enrichment classes',
     catalogIntro:
-      'The school lists enrichment programs as **“coming soon”** at the time of this research, so there is no class catalog to show. This is a genuine absence rather than an un-researched gap — the section exists on the page with no offerings in it.',
+      'The school lists enrichment programs as **“coming soon”**, so there is no class catalog to show. The section is on the school’s page, but it lists no offerings yet.',
     dayFilters: [],
     gradeFilters: [],
     classes: [],

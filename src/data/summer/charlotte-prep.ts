@@ -101,7 +101,7 @@ export const charlottePrep: SummerProgram = {
       },
       {
         name: 'Midsummer Tune-Up tutoring',
-        desc: 'An add-on for Traditional campers, taught by Charlotte Prep teachers in "small groups of 6 or less": literacy, math and social-skills sessions for rising MK–2 (Mon–Wed), reading and writing, math and critical-thinking sessions for rising 3–5 (Thu–Fri).',
+        desc: 'An add-on for Traditional campers, taught by Charlotte Prep teachers in "small groups of 6 or less". Rising MK–2 (Mon–Wed): literacy, math and social-skills sessions. Rising 3–5 (Thu–Fri): reading and writing, math and critical-thinking sessions.',
         category: 'academic',
         categoryLabel: 'Tutoring',
         grades: ['mk', 'k', '1', '2', '3', '4', '5'],
@@ -363,7 +363,7 @@ export const charlottePrep: SummerProgram = {
       },
       {
         label:
-          '**Early bird: "$25 savings per week now through January 15, 2026."** The registration form showed several prices $25 below the brochure, consistent with that saving, but two of its cells were higher than the brochure, so the brochure is used here as the regular price list.',
+          '**Early bird: "$25 savings per week now through January 15, 2026."** The prices shown are the brochure’s regular prices.',
         note: true,
       },
       {
@@ -381,7 +381,12 @@ export const charlottePrep: SummerProgram = {
       title: 'Payment is due at registration.',
       text: 'Registration for summer 2026 ran on the school\'s own web form, paid by card, and closed Friday, May 29, 2026. Children in the school-year Extended-Day Program were not enrolled automatically — they had to be registered for camp like everyone else. No summer 2027 program has been posted yet.',
     },
-    flags: [],
+    flags: [
+      {
+        kind: 'verify',
+        text: 'The registration form showed several prices $25 below the brochure, consistent with that saving, but two of its cells were higher than the brochure, so the brochure is used here as the regular price list.',
+      },
+    ],
     sources: [
       { label: 'Summer Adventures 2026 brochure (Issuu, 12 pages)', url: BROCHURE },
       { label: 'charlotteprep.org — summer camp registration (archived Feb 26 2026)', url: FORM },

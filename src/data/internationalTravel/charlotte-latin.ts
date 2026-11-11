@@ -68,7 +68,7 @@ const WB_GAPP_2510 =
 export const charlotteLatin: InternationalTravelProgram = {
   lead: {
     strong:
-      'Global Studies travel is open to as young as 6th grade and is built around seven sister schools on four continents, with homestays both ways in Argentina, France, Italy and South Africa.',
+      'Global Studies travel is open to students as young as 6th grade. It is built around seven sister schools on four continents, with homestays both ways in Argentina, France, Italy and South Africa.',
     muted:
       'In 2026–27 there are eight summer programs, from a credit-bearing leadership course in South Africa to two weeks in England with the Independent Schools Cultural Alliance.',
   },
@@ -339,7 +339,7 @@ export const charlotteLatin: InternationalTravelProgram = {
       'Seven sister schools since 1989 — five of them visiting Charlotte in 2026–27 — with homestays both ways in Argentina, France, Italy and South Africa.',
     intro: {
       strong:
-        'Latin welcomes sister-school groups for two- or six-week exchanges: the visitors stay with Latin families and attend classes with their host siblings, and Latin returns the visit with summer programs.',
+        'Latin hosts sister-school groups for two- or six-week exchanges. The visitors stay with Latin families and attend classes with their host siblings. Latin returns the visit with summer programs.',
       muted: "The school's sister-school exchange relationships date back more than 30 years.",
     },
     partners: [
@@ -447,7 +447,7 @@ export const charlotteLatin: InternationalTravelProgram = {
       strong:
         'One online application covers every program, reviewed by the Global Studies office and senior administration.',
       muted:
-        'Upper School applicants interview and name a faculty or staff reference; Middle School applicants name a reference and interview only if a program is oversubscribed. A full program keeps a waitlist.',
+        'Upper School applicants interview and name a faculty or staff reference. Middle School applicants name a reference, and they interview only if a program has more applicants than spots. A full program keeps a waitlist.',
     },
     groups: [
       {
@@ -646,7 +646,7 @@ export const charlotteLatin: InternationalTravelProgram = {
       },
       {
         name: 'Semester schools',
-        text: 'A school-approved list — the Alzar School, High Mountain Institute, The Island School, The Mountain School, the School for Ethics and Global Leadership and The Outdoor Academy — with SYA and semester-school campus visits each fall.',
+        text: 'A school-approved list: the Alzar School · High Mountain Institute · The Island School · The Mountain School · the School for Ethics and Global Leadership · The Outdoor Academy. SYA and semester-school campus visits take place each fall.',
       },
       {
         name: 'Independent Schools Cultural Alliance',
@@ -656,7 +656,7 @@ export const charlotteLatin: InternationalTravelProgram = {
     rows: [
       {
         label: 'Faculty who travel',
-        text: 'Recent faculty travel includes AP training in Seville, a language-acquisition workshop in Agen, a Lower School visit to the Argentine sister school, the World Leadership School educator program in Peru, the Lapland International Forum for Education in Finland, and a presentation at the Institute for Global Learning Conference in Canada.',
+        text: 'Recent faculty travel includes: AP training in Seville · a language-learning workshop in Agen · a Lower School visit to the Argentine sister school · the World Leadership School educator program in Peru · the Lapland International Forum for Education in Finland · a presentation at the Institute for Global Learning Conference in Canada',
       },
       {
         label: "Educators' conferences",
@@ -754,7 +754,7 @@ export const charlotteLatin: InternationalTravelProgram = {
       "Where the program stands out, and ten questions the school's website doesn't answer yet — on 2025–26 trips, aid, chaperones and scale.",
     standsOut: {
       summary:
-        'Latin stands out for the depth of its sister-school network — seven partners since 1989, with homestays both ways and reciprocal hosting — and for publishing how travel works: eligibility, selection, a sign-up calendar and its safety provider.',
+        'Latin stands out for the depth of its sister-school network. It has had seven partners since 1989, with homestays both ways and hosting in return. It also publishes how travel works: who can go, how students are chosen, a sign-up calendar and its safety provider.',
       points: [
         'Seven sister schools on four continents, the oldest from 1989',
         'A credit-bearing leadership course taught in South Africa',

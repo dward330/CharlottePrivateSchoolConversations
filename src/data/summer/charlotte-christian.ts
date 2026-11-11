@@ -1312,7 +1312,7 @@ export const charlotteChristian: SummerProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'Charlotte Christian publishes **no full-day camp**. Every session is three hours, so a working parent needing full-day coverage pairs a morning and an afternoon camp — two separate registrations, though the noon–1 p.m. bridge care between them is free.',
+        text: 'Charlotte Christian publishes **no full-day camp**. Every session is three hours. So a working parent who needs full-day coverage pairs a morning and an afternoon camp. That means two separate registrations, though the noon–1 p.m. bridge care between them is free.',
       },
       {
         kind: 'verify',
@@ -1418,7 +1418,7 @@ export const charlotteChristian: SummerProgram = {
     ],
     aside: {
       title: 'Registration opened January 5.',
-      text: 'Camps are **non-refundable within two weeks** of their start date unless the school cancels, and canceling costs a $25 fee. Unusually, the published risk here is the opposite of selling out: every camp has a minimum enrollment and the school reserves the right to cancel one that does not meet it.',
+      text: 'Camps are **non-refundable within two weeks** of their start date unless the school cancels, and canceling costs a $25 fee. Unusually, the published risk here is the opposite of selling out. Every camp has a minimum enrollment, and the school may cancel a camp that does not reach it.',
     },
     flags: [
       {

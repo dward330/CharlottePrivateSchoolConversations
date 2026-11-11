@@ -59,7 +59,7 @@ const H_CUBA = `${HIST_ITEM}/first-nc-school-to-visit-cuba`
 export const charlotteCountryDay: InternationalTravelProgram = {
   lead: {
     strong:
-      'Travel begins in 6th grade, run by an Office of International Studies the school dates to 1988, with sister-school exchanges and homestays in Québec City, Arequipa and Southampton, and faculty-led Upper School trips over spring break and in the summer.',
+      'Travel begins in 6th grade. It is run by an Office of International Studies, which the school dates to 1988. There are sister-school exchanges and homestays in Québec City, Arequipa and Southampton, and faculty-led Upper School trips over spring break and in the summer.',
     muted:
       'The school counts 27 countries visited by students on its global travel experiences since 2015, across six continents.',
   },
@@ -397,7 +397,7 @@ export const charlotteCountryDay: InternationalTravelProgram = {
       strong:
         'Trip financial aid requires a Parents\' Financial Statement on file with Admissions, plus the Global Programs Financial Aid Application by the trip\'s deadline.',
       muted:
-        'Upper School trips give priority to students of the matching language and are open to all. In the Middle School, the Southampton exchange selects by project proposal and interview, and France and Italy use a lottery if oversubscribed.',
+        'Upper School trips are open to all, with priority to students of the matching language. In the Middle School, the Southampton exchange selects by project proposal and interview. The Middle School trips to France and Italy use a lottery if more students sign up than there are spots.',
     },
     groups: [
       {
@@ -711,7 +711,7 @@ export const charlotteCountryDay: InternationalTravelProgram = {
       "Where the program stands out, and eleven questions the school's website doesn't answer yet — Upper School prices, aid, selection and safety.",
     standsOut: {
       summary:
-        'Among Charlotte private schools, Country Day stands out for how early and how concretely travel begins — six published Middle School experiences from 6th grade — and for sister-school exchanges running since 1991.',
+        'Among the schools on this site, Country Day publishes the most Middle School travel: six experiences from 6th grade. Its sister-school exchanges have run since 1991.',
       points: [
         'A 6th-grade start, with grade, group size and selection published for every Middle School trip',
         'Three sister schools, with homestays both ways',

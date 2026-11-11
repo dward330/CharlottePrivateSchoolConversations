@@ -76,7 +76,7 @@ export const davidsonDay: LearningSupportProgram = {
     headline:
       'The Learning Enrichment Center is open to students at every grade, by request. The school publishes no eligibility criteria and does not mention 504 plans or IEPs.',
     eligible:
-      'Each LEC service is “available to students at all grade levels,” and the center supports “students ages two through grade 12.” Families “submit our request form,” and the Director of Learning Services “will then call you to discuss the kind of academic support your child needs.” The 2026-2027 request form asks for no diagnosis, evaluation or other documentation.',
+      'Each LEC service is “available to students at all grade levels,” and the center supports “students ages two through grade 12.” Families “submit our request form,” and the Director of Learning Services “will then call you to discuss the kind of academic support your child needs.” The 2026-2027 request form asks for no diagnosis. The form also asks for no evaluation or other documentation.',
     plan:
       'The school’s pages do not mention 504 plans, IEPs or accommodations, and the LEC request form does not ask about them.',
     scope:
@@ -94,7 +94,7 @@ export const davidsonDay: LearningSupportProgram = {
         body: 'LEC tutoring can “address specific academic difficulties (reading fluency and comprehension or math skills).” Ask which reading approach the specialists use.',
       },
       attn: {
-        head: 'One-on-one academic coaching for executive function, at every grade.',
+        head: 'One-on-one academic coaching for executive function (planning, organizing and focus skills), at every grade.',
         body: 'Coaching helps students “develop organizational and time management skills, learning techniques, and self-advocacy,” and every Middle School student takes a study skills course each year.',
       },
       math: {

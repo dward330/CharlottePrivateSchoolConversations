@@ -77,7 +77,7 @@ export const hickoryGroveChristian: LearningSupportProgram = {
 
   eligibility: {
     headline:
-      'ESS serves students with identified learning differences, including any student who arrives with a 504, an IEP or a prior school’s accommodations plan. Emotional and behavioral intervention is outside its scope.',
+      'ESS serves students with identified learning differences. That includes any student who arrives with a 504, an IEP or a prior school’s accommodations plan. Emotional and behavioral intervention is outside its scope.',
     intro: {
       strong: 'ESS is open to students with documented needs.',
       muted: 'Eligibility is often the fact that decides it for a family, so it comes first.',

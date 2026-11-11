@@ -67,7 +67,7 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'The recurring TK–5 Afterschool monthly/annual rate is not published on the Afterschool Program page or the Tuition and Fees page — the amounts live behind the school\'s "student services fees" documents / FACTS Family Portal. So no Cost Planner card is built, and the aftercare-cost Compare row is N/A for HGCS.',
+        text: 'The recurring TK–5 Afterschool monthly/annual rate is not published on the Afterschool Program page or the Tuition and Fees page. The amounts sit behind the school\'s "student services fees" documents / FACTS Family Portal. So this page has no cost planner for it, and the Compare row for aftercare cost shows N/A for HGCS.',
       },
       {
         kind: 'verify',
@@ -124,7 +124,7 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'No staff-to-child ratio, group size, or hour-by-hour schedule is published beyond the activity lists above; the enrichment activities are named but not run as a filterable class catalog with days, grades or fees.',
+        text: 'No staff-to-child ratio, group size, or hour-by-hour schedule is published beyond the activity lists above. The enrichment activities are named, but they are not set up as a class catalog with days, grades or fees.',
       },
     ],
     sources: [
@@ -144,7 +144,7 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
       '**A named director** — Belinda Jackson, with a direct phone line, runs the program.',
     ],
     watchouts: [
-      '**The recurring price is not published** — neither the Afterschool page nor the Tuition and Fees page states a monthly or annual rate; families must go through the student-services fee documents or FACTS portal.',
+      '**The recurring price is not published**. Neither the Afterschool page nor the Tuition and Fees page states a monthly or annual rate. Families must go through the student-services fee documents or FACTS portal.',
       '**No single-day drop-ins** — both tracks are full-year commitments billed annually, so occasional-need families have no flexible option (the only drop-in is the separate $35/day out-of-session Adventure Days).',
       '**No summer coverage** — the program is closed during the summer; there is no summer wrap-around care, and summer camps are half-day only.',
       '**No staff-to-child ratio** is published for either track.',

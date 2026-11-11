@@ -95,7 +95,7 @@ const FLAG_LABEL_KEY: Record<AsFlagKind, string> = {
  */
 function Flags({ flags }: { flags: AsFlag[] }) {
   const { t } = useTranslation()
-  const shown = visibleFlags(flags)
+  const shown = visibleFlags('after-school', flags)
   if (shown.length === 0) return null
   return (
     <>
@@ -757,7 +757,21 @@ export function DayInsideBody({ data }: { data: DayInside }) {
         </p>
       )}
 
-      {data.classes.length > 0 && <EnrichmentCatalog data={data} />}
+      {/* With no classes there is no catalog to render — but the intro can still
+          carry a parent-facing note ("the 2026-2027 offerings are not yet
+          published", "coming soon"), which used to be dropped along with the
+          empty catalog (Carmel Christian, Gaston Day; plan plainsmall, user
+          approval 2026-11-10). It renders as a plain note, with no "Enrichment
+          Classes" heading over an empty list (CLAUDE.md: no empty shells). */}
+      {data.classes.length > 0 ? (
+        <EnrichmentCatalog data={data} />
+      ) : (
+        data.catalogIntro && (
+          <p className="as-note text-muted">
+            <RichText text={data.catalogIntro} />
+          </p>
+        )
+      )}
 
       <Flags flags={data.flags} />
       <SourceRow sources={data.sources} className="as-src" />

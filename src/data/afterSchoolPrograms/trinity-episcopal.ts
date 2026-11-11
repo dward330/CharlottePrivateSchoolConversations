@@ -48,7 +48,7 @@ export const trinityEpiscopal: AfterSchoolProgram = {
       'Four income bands run $105 to $380 a month, every drop-in tier has a reduced rate for families receiving financial support, and half days are free to monthly attendees. There is no morning care.',
     hours: ['8 am', '10 am', '12 pm', '2 pm', '4 pm', '6 pm'],
     basisNote:
-      'The price on the bar is the **monthly rate for a household over $90,000** — the top of four income bands, which start at **$105/month** under $30,000. Trinity does **not** price TED by days per week, so there is no days-per-week ladder to open; the full income table and the per-day rates are in the facts below.',
+      'The price on the bar is the **monthly rate for a household over $90,000**. That band is the top of four income bands, which start at **$105/month** under $30,000. Trinity does **not** price TED by days per week, so there is no days-per-week ladder to open. The full income table and the per-day rates are in the facts below.',
     rows: [
       {
         division: 'K – Grade 8',
@@ -164,7 +164,7 @@ export const trinityEpiscopal: AfterSchoolProgram = {
       '"Building character, enriching lives, and having fun describe our Trinity Extended Day (TED) program" — "a safe, well-structured environment for every Trinity student." It offers "dedicated homework time" plus group projects and activities such as art, board games and Fun Friday, and students "are expected to adhere to the Trinity Honor Code while participating in Extended Day."',
     catalogTitle: 'Enrichments — named, and unpriced',
     catalogIntro:
-      'TED "also offers enrichment programs, **for an additional fee**, several days a week", led by "a combination of Trinity faculty/staff and independent contractors". The school gives these four as **examples** and adds "and more", so this is **not the full roster** — and it states no fee for any of them. Note that Trinity uses "enrichments" for two different things: these are the **paid** after-school add-ons, while the Lower and Middle School "Enrichments" pages list free curricular subjects.',
+      'TED "also offers enrichment programs, **for an additional fee**, several days a week", led by "a combination of Trinity faculty/staff and independent contractors". The school gives these four as **examples** and adds "and more", so this is **not the full roster**. It also states no fee for any of them. Note that Trinity uses "enrichments" for two different things. The ones named here are the **paid** after-school add-ons. The Lower and Middle School "Enrichments" pages list free subjects taught during the school day.',
     dayFilters: [],
     gradeFilters: [],
     classes: [

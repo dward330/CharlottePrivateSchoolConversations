@@ -1,0 +1,62 @@
+{
+  "generated": "2026-11-11",
+  "dir": "src/data/internationalTravel",
+  "note": "Off-worklist research-bookkeeping units (plan plainsmall, Bookkeeping fixes): \"our count\" on derived figures, rewritten in the Batch 2 wording pass",
+  "slugs": [
+    "cannon",
+    "charlotte-christian",
+    "providence-day"
+  ],
+  "total": 4,
+  "counts": {
+    "cannon": 2,
+    "charlotte-christian": 1,
+    "providence-day": 1
+  },
+  "units": [
+    {
+      "at": "cannon:stats[2].note",
+      "slug": "cannon",
+      "path": "stats[2].note",
+      "words": 7,
+      "grade": null,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "our count from the school's list, 2017–2024"
+    },
+    {
+      "at": "cannon:network.cells[2].text",
+      "slug": "cannon",
+      "path": "network.cells[2].text",
+      "words": 47,
+      "grade": null,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "Teachers earn it with at least 100 hours of global professional development and a capstone, such as a new Winterm course or a student travel program. It is sponsored by the North Carolina Global Education Benchmark Group; 21 teachers earned it from 2017 to 2024, our count."
+    },
+    {
+      "at": "charlotte-christian:stats[1].note",
+      "slug": "charlotte-christian",
+      "path": "stats[1].note",
+      "words": 6,
+      "grade": null,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "our count from five Winterims, 2023–2027"
+    },
+    {
+      "at": "providence-day:stats[0].note",
+      "slug": "providence-day",
+      "path": "stats[0].note",
+      "words": 15,
+      "grade": null,
+      "rules": [
+        "bookkeeping"
+      ],
+      "text": "reached by student trips and exchanges, 2021–25 — our count from the school's Global Map"
+    }
+  ]
+}

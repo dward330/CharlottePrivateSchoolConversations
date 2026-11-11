@@ -245,7 +245,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists: it is billed as an **incidental charge**, which places it outside the tuition-assistance envelope even though about 30% of students receive tuition aid. Summer programs, by contrast, do have their own aid application.',
+        text: 'No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 30% of students receive tuition aid. Summer programs, by contrast, do have their own aid application.',
       },
       {
         kind: 'verify',
@@ -272,7 +272,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
     headline:
       'Extended Day is framed around working families — "more than 50 percent of our two-parent families are dual income," and the program is built to match.',
     subhead:
-      'The school publishes the components of the afternoon but never sequences them with clock times. What it does publish precisely is the enrichment structure: each division’s class begins exactly at its own dismissal bell.',
+      'The school publishes the parts of the afternoon but never puts them in order with clock times. What it does publish in detail is how enrichment works: each division’s class begins exactly at its own dismissal bell.',
     rhythmTitle: 'Enrichment starts at the bell — published slots and ratios',
     rhythm: [
       {
@@ -313,7 +313,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'The enrichment catalog is invisible to prospective families. The school advertises "more than 25 after-school enrichment classes" — music, art, science, chess, karate, cheerleading, field hockey, baseball, volleyball, SAT/ACT prep, coding, drama, robotics — but the class list lives behind the UltraCamp portal, which returned **zero results** when checked. No public page gives names with days, grades and fees.',
+        text: 'The enrichment catalog is invisible to prospective families. The school advertises "more than 25 after-school enrichment classes". Its examples: music · art · science · chess · karate · cheerleading · field hockey · baseball · volleyball · SAT/ACT prep · coding · drama · robotics. But the class list sits behind the UltraCamp registration portal, so it is not public. No public page gives names with days, grades and fees.',
       },
       {
         kind: 'verify',
@@ -325,7 +325,11 @@ export const charlotteCountryDay: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'No hour-by-hour daily schedule is published, no Extended Day staff-to-child ratio is given, and Middle School is not described as a distinct program — grades 5–8 sit under the same JK–8 umbrella.',
+        text: 'No hour-by-hour daily schedule is published, and no Extended Day staff-to-child ratio is given. Middle School is not described as a separate program: grades 5–8 sit under the same JK–8 umbrella.',
+      },
+      {
+        kind: 'verify',
+        text: 'The UltraCamp portal returned **zero results** when the research checked it. Re-check it before relying on the "not public" line above.',
       },
     ],
     sources: [
@@ -366,11 +370,11 @@ export const charlotteCountryDay: AfterSchoolProgram = {
     watchouts: [
       '**No Upper School coverage.** Extended Day stops at grade 8; grades 9–12 get an enrichment slot and nothing else.',
       '**Cost compounds steeply** — JK at 6:00 p.m. five days a week is $900/month, roughly $8,100 a year on top of $24,515 tuition, about a third again over sticker.',
-      '**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 30% of students receive tuition assistance — and summer programs do have their own aid application.',
+      '**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 30% of students receive tuition assistance. Summer programs, by contrast, do have their own aid application.',
       '**Contract rigidity** — one change per semester, $50 for any additional change, and no changes at all in August or December.',
       '**The 2026-27 registration deadline has already passed** (5 June 2026), so a family enrolling now may face drop-in rates or a waitlist.',
       '**No published daily schedule.** Components are listed but never sequenced, and there is no homework-help staffing model.',
-      '**The enrichment catalog is invisible** to prospective families — behind a portal that currently shows nothing.',
+      '**The enrichment catalog is invisible** to prospective families — it sits behind a registration portal.',
       '**Three portals, three logins** — Extended Day on Veracross, enrichment and summer on UltraCamp, swim on Jackrabbit.',
     ],
     checklist: [

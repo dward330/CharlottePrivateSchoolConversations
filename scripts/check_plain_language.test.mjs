@@ -361,3 +361,132 @@ test('24. --spelling gate exits 1 on a British form, 0 when clean', () => {
     assert.match(r.stdout, /0 British forms/)
   } finally { rmSync(root, { recursive: true, force: true }) }
 })
+
+/* ------------------------------------- never-rendered flags (plainsmall) -- */
+/* The checker skips flag kinds src/lib/flagVisibility.ts hides for a topic
+ * (Student Clubs' GAP and COUNT), and check_flag_visibility.mjs keeps every
+ * component on that one rule. Each test asserts which message printed. */
+
+const CLUBS = 'src/data/clubsPrograms/cannon.ts'
+const AFTER = 'src/data/afterSchoolPrograms/cannon.ts'
+const JARGON = 'A rigorous pedagogy note.'
+const flagLine = (kind) => `  flags: [{ kind: '${kind}', text: '${JARGON}' }],`
+function flagEdit(root, rel, body) {
+  mkdirSync(join(root, dirname(rel)), { recursive: true })
+  writeFileSync(join(root, rel), tsModule("  headline: 'Teams.',"))
+  return runEdit(root, rel, tsModule(`  headline: 'Teams.',\n${body}`), "  headline: 'Teams.',", `  headline: 'Teams.',\n${body}`)
+}
+
+test('A. clubs GAP and COUNT flags are skipped by the hook; NOT-A-CLUB is checked', () => {
+  const root = fixtureRoot()
+  try {
+    for (const kind of ['gap', 'count']) {
+      const r = flagEdit(root, CLUBS, flagLine(kind))
+      assert.equal(r.code, 0, `${kind}: ${r.stderr}`)
+      assert.equal(r.stderr, '', `${kind} printed: ${r.stderr}`)
+    }
+    const r = flagEdit(root, CLUBS, flagLine('not-a-club'))
+    assert.equal(r.code, 2, r.stderr)
+    assert.match(r.stderr, /flags\[0\]\.text/)
+    assert.match(r.stderr, /jargon "rigou?r/)
+  } finally { rmSync(root, { recursive: true, force: true }) }
+})
+
+test('B. a GAP flag outside Student Clubs is still checked (it renders there)', () => {
+  const root = fixtureRoot()
+  try {
+    for (const rel of [CANNON, AFTER]) {
+      const r = flagEdit(root, rel, flagLine('gap'))
+      assert.equal(r.code, 2, `${rel}: ${r.stderr}`)
+      assert.match(r.stderr, /flags\[0\]\.text/)
+    }
+  } finally { rmSync(root, { recursive: true, force: true }) }
+})
+
+test('C. in clubs, a kind:gap object NOT inside a flags array is still checked', () => {
+  const root = fixtureRoot()
+  try {
+    const r = flagEdit(root, CLUBS, `  honors: { note: { kind: 'gap', text: '${JARGON}' } },`)
+    assert.equal(r.code, 2, r.stderr)
+    assert.match(r.stderr, /honors\.note\.text/)
+  } finally { rmSync(root, { recursive: true, force: true }) }
+})
+
+test('D. proseUnits: the topic predicate skips hidden flags only; verify is skipped either way', async () => {
+  const { hiddenFlagPredicate } = await import('./check_plain_language.mjs')
+  const flagVis = await import('../src/lib/flagVisibility.ts')
+  const isHidden = hiddenFlagPredicate(flagVis)
+  const entry = {
+    flags: [{ kind: 'gap', text: 'Gap.' }, { kind: 'not-a-club', text: 'Not a club.' }, { kind: 'verify', text: 'Verify.' }],
+    note: { kind: 'verify', text: 'Deep verify.' },
+  }
+  const textOnly = (_generic, leaf) => (leaf === 'text' ? 'prose' : 'skip')
+  const paths = (pred) => proseUnits(entry, '', textOnly, pred).map((u) => u.path)
+  assert.deepEqual(paths(isHidden('student-clubs')), ['flags[1].text'])
+  assert.deepEqual(paths(isHidden('after-school')), ['flags[0].text', 'flags[1].text'])
+  assert.deepEqual(paths(undefined), ['flags[0].text', 'flags[1].text'])
+})
+
+test('E. --report does not count a hidden clubs flag', () => {
+  const root = fixtureRoot()
+  try {
+    mkdirSync(join(root, 'src/data/clubsPrograms'), { recursive: true })
+    writeFileSync(join(root, 'src/locales/en.json'), JSON.stringify({ a: 'Hello' }))
+    // Under a card, as in the real data: `*.flags[].kind` is a pinned non-prose path.
+    // Two different texts: the report de-duplicates units by text.
+    writeFileSync(join(root, CLUBS), tsModule(`  headline: 'Teams.',\n  honors: { flags: [{ kind: 'gap', text: '${JARGON}' }, { kind: 'not-a-club', text: 'Another rigorous pedagogy note.' }] },`))
+    const r = spawnSync(process.execPath, [SCRIPT, '--report'], { env: { ...process.env, PLAIN_LANGUAGE_ROOT: root }, encoding: 'utf8' })
+    assert.equal(r.status, 0, r.stderr)
+    const row = r.stdout.split('\n').find((l) => l.startsWith('| student-clubs |'))
+    assert.ok(row, r.stdout)
+    const [, , units, flagged] = row.split('|').map((c) => c.trim())
+    assert.equal(units, '2', row)
+    assert.equal(flagged, '1', row)
+  } finally { rmSync(root, { recursive: true, force: true }) }
+})
+
+/* F — the drift guard, on fixture trees. */
+const FLAGCHECK = join(dirname(fileURLToPath(import.meta.url)), 'check_flag_visibility.mjs')
+const GOOD_COMPONENT = [
+  "import type { ClubsFlag } from '../data/clubsProgram.ts'",
+  "import { visibleFlags } from '../lib/toVerify.ts'",
+  "export function Flags({ flags }: { flags: ClubsFlag[] }) { return visibleFlags('student-clubs', flags) }",
+].join('\n')
+const GOOD_RULE = "export const DEV_ONLY_FLAG_KINDS = ['verify']\nexport const HIDDEN_FLAG_KINDS = { 'student-clubs': ['gap', 'count'] }\n"
+function flagFixture({ component = GOOD_COMPONENT, rule = GOOD_RULE, extra = {} } = {}) {
+  const root = mkdtempSync(join(tmpdir(), 'flagvis-test-'))
+  for (const d of ['src/components', 'src/lib', 'src/data', 'scripts']) mkdirSync(join(root, d), { recursive: true })
+  writeFileSync(join(root, 'src/components/ClubsProgram.tsx'), component)
+  writeFileSync(join(root, 'src/lib/flagVisibility.ts'), rule)
+  writeFileSync(join(root, 'src/data/clubsProgram.ts'), "export type FlagKind = 'count' | 'gap' | 'not-a-club'\n")
+  for (const [rel, body] of Object.entries(extra)) writeFileSync(join(root, rel), body)
+  const r = spawnSync(process.execPath, [FLAGCHECK], { env: { ...process.env, FLAG_VIS_ROOT: root }, encoding: 'utf8' })
+  rmSync(root, { recursive: true, force: true })
+  return r
+}
+
+test('F. check:flags passes a clean tree and fails each drift with its own message', () => {
+  let r = flagFixture()
+  assert.equal(r.status, 0, r.stderr)
+  assert.match(r.stdout, /1 flag-rendering component/)
+
+  r = flagFixture({ component: GOOD_COMPONENT.replace("visibleFlags('student-clubs', flags)", "flags.filter((f) => f.kind === 'not-a-club') && visibleFlags('student-clubs', flags)") })
+  assert.equal(r.status, 1)
+  assert.match(r.stderr, /compares a flag's \.kind to a literal/)
+
+  r = flagFixture({ component: GOOD_COMPONENT.replace("return visibleFlags('student-clubs', flags)", 'return flags') })
+  assert.equal(r.status, 1)
+  assert.match(r.stderr, /imports a flag type but never calls visibleFlags/)
+
+  r = flagFixture({ component: GOOD_COMPONENT.replace("'student-clubs', flags", "'afterschool', flags") })
+  assert.equal(r.status, 1)
+  assert.match(r.stderr, /"afterschool" is not a topic/)
+
+  r = flagFixture({ rule: GOOD_RULE.replace("['gap', 'count']", "['gaps', 'count']") })
+  assert.equal(r.status, 1)
+  assert.match(r.stderr, /lists "gaps", which is not a member of FlagKind/)
+
+  r = flagFixture({ extra: { 'src/components/Other.tsx': "const HIDDEN_FLAG_KINDS = { x: ['gap'] }\n" } })
+  assert.equal(r.status, 1)
+  assert.match(r.stderr, /Other\.tsx:1 — declares its own HIDDEN_FLAG_KINDS/)
+})

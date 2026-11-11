@@ -1,0 +1,48 @@
+{
+  "generated": "2026-11-11",
+  "dir": "src/data/highSchoolPlacementPrograms",
+  "slugs": [
+    "charlotte-prep",
+    "trinity-episcopal"
+  ],
+  "match": null,
+  "total": 3,
+  "counts": {
+    "charlotte-prep": 2,
+    "trinity-episcopal": 1
+  },
+  "units": [
+    {
+      "at": "charlotte-prep:outcomes.headline",
+      "slug": "charlotte-prep",
+      "path": "outcomes.headline",
+      "words": 30,
+      "grade": 10.3,
+      "rules": [],
+      "text": "97% of the Class of 2026 were accepted into one or both of their top two high school choices — and Charlotte Prep has published a rate like it for every class since 2023."
+    },
+    {
+      "at": "charlotte-prep:placement.steps[3].text",
+      "slug": "charlotte-prep",
+      "path": "placement.steps[3].text",
+      "words": 35,
+      "grade": 15.9,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The team meets individually with each 8th grader and separately with each student's parents \"to discuss their plans, their objectives for their child, and appropriate placement opportunities.\" Families are encouraged to visit open houses and tours, and students make day visits to the schools on their list."
+    },
+    {
+      "at": "trinity-episcopal:placement.steps[1].text",
+      "slug": "trinity-episcopal",
+      "path": "placement.steps[1].text",
+      "words": 41,
+      "grade": 11.1,
+      "rules": [
+        "long"
+      ],
+      "text": "Boarding placement is handled separately and by a different person. It is not a marginal path here: 12% of all graduates since 2004 went to boarding schools, and the destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School."
+    }
+  ]
+}

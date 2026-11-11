@@ -1039,18 +1039,22 @@ export const charlotteLatin: SummerProgram = {
       },
       {
         label:
-          'The bus runs round-trip from Westminster Presbyterian Church on Colville Road for **$70.00/week, per rider**; riders must be at least 4 years old, and the school does not pro-rate it for a late registration.',
+          'The bus runs round-trip from Westminster Presbyterian Church on Colville Road for **$70.00/week, per rider**. Riders must be at least 4 years old. The school does not pro-rate the bus fee for a late registration.',
         note: true,
       },
     ],
     aside: {
       title: 'Registration opened January 7 at 8:00pm.',
-      text: 'Weekly registration closes at 12:00pm on the Wednesday before each session, and camps must be **paid in full at registration** — there is no deposit. Canceling costs $50.00 per camp in March and $100.00 in April; from **May 1 nothing is refundable**, even if the camp has a waitlist.',
+      text: 'Weekly registration closes at 12:00pm on the Wednesday before each session. Camps must be **paid in full at registration**, and there is no deposit. Canceling costs $50.00 per camp in March and $100.00 in April, and from **May 1 nothing is refundable**, even if the camp has a waitlist.',
     },
     flags: [
       {
         kind: 'gap',
-        text: 'Latin publishes **no sibling discount and no multi-week discount**, and no camp financial aid. The site was searched for all four terms; the only thing it calls a discount is the Super Care bundle.',
+        text: 'Latin publishes **no sibling discount and no multi-week discount**, and no camp financial aid. The only thing the school’s site calls a discount is the Super Care bundle.',
+      },
+      {
+        kind: 'verify',
+        text: 'The site was searched for all four terms; the only thing it calls a discount is the Super Care bundle.',
       },
     ],
     sources: [

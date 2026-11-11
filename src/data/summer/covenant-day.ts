@@ -28,7 +28,7 @@ export const covenantDay: SummerProgram = {
     subhead:
       'Registration runs on the CampBrain portal with early-bird discounts through February 27. The school markets "29 camps"; 20 are enumerable on the public page.',
     intro:
-      'All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**, so prices below are estimates from the third-party current range ($170–$325/week) and the school’s own 2018 catalog — the care add-on rates on the Cost Planner are the school’s own current figures.',
+      'All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**. So the prices below are estimates, from the third-party current range ($170–$325/week) and the school’s own 2018 catalog. The care add-on rates on the Cost Planner are the school’s own current figures.',
     categoryFilters: [
       { token: 'All', label: 'All' },
       { token: 'daycamp', label: 'Day Camps' },
@@ -308,7 +308,7 @@ export const covenantDay: SummerProgram = {
     flags: [
       {
         kind: 'estimate',
-        text: 'Per-camp prices and hours are **estimates**: current figures are gated behind the CampBrain registration portal, so the range shown is the third-party current figure ($170–$325/week), with hours patterned on the school’s own 2018 catalog where the same camp existed.',
+        text: 'Per-camp prices and hours are **estimates**. Current figures are gated behind the CampBrain registration portal. So the range shown is the third-party current figure ($170–$325/week). Hours are patterned on the school’s own 2018 catalog, where the same camp existed.',
       },
       {
         kind: 'verify',

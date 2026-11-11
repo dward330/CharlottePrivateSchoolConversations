@@ -48,8 +48,17 @@
  *                     and (k) visit every school in each layer module, and (j) groups
  *                     repeats ACROSS schools within it (plan plainclubs).
  *   --skip-flag-kinds a,b  worklist only: leave out `….flags[i].text` units whose flag
- *                     has one of these `kind`s (Student Clubs' GAP/COUNT flags never
- *                     render). Rows and guards still see them, so an edit fails (k).
+ *                     has one of these `kind`s, IN ADDITION to the topic's
+ *                     HIDDEN_FLAG_KINDS (src/lib/flagVisibility.ts), which the worklist
+ *                     always leaves out (plan plainsmall; Student Clubs' GAP/COUNT flags
+ *                     never render). Rows and guards still see them, so an edit fails (k).
+ *   --small-markers   add the small-area marker classes to guard (h) (plan plainsmall:
+ *                     After School, Global Exposure, Summer, Learning Support, High School
+ *                     Placement): STALE, GATED, CAPACITY, EXTRA, INCLUDED, EXCLUDED, FREE,
+ *                     REFERRAL, DOCUMENTATION, ACCOMMODATION, MODIFICATION, SCOPE, ACCEPTED,
+ *                     ENROLLED, SPONSORED, plus ESTIMATE / BOUND and the borrowed THIRDPARTY,
+ *                     DERIVED, DISCOUNT, AVERAGE, TYPICAL, CLAIM, VERIFIED, NOTFOUND, ONLY,
+ *                     FIRST, APPLICATION; enables guard (n)
  *   --clubs-markers   add the Student Clubs marker classes to guard (h) (plan plainclubs):
  *                     the arts classes, THIRDPARTY, ESTIMATE, BOUND and NOTACLUB,
  *                     ELECTED, APPLICATION, RESULT, ADVANCED, ONLY, FIRST (and minimums
@@ -84,7 +93,7 @@
  *   (m) the multiset of money, percent and year tokens differs, char-for-char
  *       (`$3.25M` → `$3.25 million`, `~4.5%` → `4.5%`, `2026-27` → `2026–27`
  *       all pass (b) and fail here). See MONEY_RE / PCT_RE / YEARTOK_RE.
- *   (n) with --arts-markers or --clubs-markers: the multiset of count words ("five", "twice",
+ *   (n) with --arts-, --clubs- or --small-markers: the multiset of count words ("five", "twice",
  *       "eighth") and "N+" figures (`3,500+`) differs. See COUNTWORD_RE / PLUS_RE.
  *   (o) with --no-md: a changed unit's after-text holds a `*` (it would ship a literal
  *       asterisk). Pair it with `--md-paths '^$'` so (l) fails any `**` change too.
@@ -210,6 +219,34 @@ const MARKERS = {
   // A lead "First," / "First:" and an enumeration's "The first is …" are free: approved
   // splits add both (plainarts Batch 1; Admissions calibration).
   FIRST: /\bfirst\b(?!\s*[,:])(?! (?:is|are|was)\b)/gi,
+  // The five small areas (plan plainsmall, --small-markers): After School, Global
+  // Exposure, Summer, Learning Support, High School Placement. Stale and gated sources,
+  // capacity, paid add-ons vs free, the Learning Support eligibility line, accepted vs
+  // enrolled, and school-run vs a travel partner. "saved copy" / "old pages" are the
+  // bookkeeping rewrites' STALE words for "capture" / "archive" (plan "Bookkeeping fixes").
+  STALE: /\bno longer\b|\bused to\b|\bformerly\b|\bpreviously\b|\b(?:is|are) gone\b|\bgone from\b|\bsnapshots?\b|\b(?:20\d\d )?captur(?:e|ed)\b|\barchived?\b|\bsaved cop(?:y|ies)\b|\bold pages?\b|\b(?:older|earlier|prior|later) (?:copies|listings?|brochures?|catalogs?|pages?|versions?)\b/gi,
+  GATED: /\bportal(?:-gated)?\b|\blog-?in(?:-gated)?\b|\bgated\b|\bcheckout\b|\bregistration (?:site|platform|portal)\b/gi,
+  CAPACITY: /\bwait-?lists?\b|\bnow full\b|\bsell(?:s|ing)? out\b|\bfirst-come\b|\blottery\b|\boversubscribed\b|\bminimum enrollment\b|\bpriority\b/gi,
+  // Not bare "paid": "paid in full at registration" is a payment rule, not an extra cost
+  // (Admissions calibration: 3 approved hits).
+  EXTRA: /\badd-?ons?\b|\badditional fee\b|\bextra (?:fee|cost|charge)\b|\bfee-bearing\b|\bincidental charge\b|\bpaid (?:add-?ons?|extras?|separately)\b/gi,
+  // Narrow stand-ins for the aid set's COVERED / NOTCOVERED, which fire on "includes" /
+  // "covers" describing lists and tables (College Support calibration: 25+ approved hits).
+  INCLUDED: /\b(?:is|are|already) included\b|\bincluded (?:in|with)\b/gi,
+  // "leaves out" / "left out" are the approved plain synonyms (College Support, Clubs).
+  EXCLUDED: /\bexclud(?:e|es|ed|ing)\b|\bnot included\b|\bdoes(?: not|n[’']t) (?:cover|include)\b|\bleaves? out\b|\bleft out\b|\bnot counted\b|\bomit(?:s|ted|ting)?\b|\babsent\b/gi,
+  FREE: /\bfree\b(?! (?:play|time)\b)|\bno charge\b|\bat no (?:extra |additional )?(?:cost|charge)\b/gi,
+  REFERRAL: /\brefer(?:s|red|ral|rals|ring)?\b|\boutside (?:provider|professional|specialist|therapist|evaluator)s?\b/gi,
+  // Not bare "documented": elsewhere it means "on record" (Clubs and Arts calibration).
+  DOCUMENTATION: /\bdiagnos\w+|\bpsycho-?educational\b|\bevaluations?\b|\bdocumentation\b|\bdocumented (?:disabilit\w+|diagnos\w+|needs?|learning)\b|\bformal testing\b/gi,
+  ACCOMMODATION: /\baccommodations?\b/gi,
+  MODIFICATION: /\bmodifications?\b/gi,
+  SCOPE: /\boutside (?:its|the|our) scope\b|\bout of scope\b/gi,
+  ACCEPTED: /\baccept(?:ed|ance|ances)\b|\badmit(?:ted)?\b|\bgot into\b|\boffers? of admission\b/gi,
+  // Not "attend" / bare "went to": students "went to" panels and awards "went to other
+  // schools" (Clubs and Arts calibration). Only "went to … schools" is an enrollment claim.
+  ENROLLED: /\benroll(?:ed|s|ing|ment|ments)?\b|\bmatriculat\w+|\bwent (?:on )?to (?:boarding|high|day|independent|public|private|other high) schools?\b/gi,
+  SPONSORED: /\bschool-(?:sponsored|run|led)\b|\bfaculty-led\b|\bsponsored by\b|\btravel partner\b/gi,
 }
 /** --clubs-markers counts a published minimum as BOUND ("a minimum two weeks" → "at least
  *  two weeks" is one claim; College Support calibration). "floor" only after an hour figure
@@ -227,14 +264,24 @@ const SHARED_CLASSES = new Set(['ESTIMATE', 'BOUND'])
 /** The Student Clubs classes run only with --clubs-markers (plan plainclubs), which also
  *  turns on the arts classes, THIRDPARTY and the shared ESTIMATE / BOUND. */
 const CLUBS_CLASSES = new Set(['NOTACLUB', 'ELECTED', 'APPLICATION', 'RESULT', 'ADVANCED', 'ONLY', 'FIRST'])
+/** The small-area classes run only with --small-markers (plan plainsmall), which also
+ *  borrows SMALL_BORROWS from the aid, arts and clubs sets (and the shared ESTIMATE / BOUND). */
+const SMALL_CLASSES = new Set(['STALE', 'GATED', 'CAPACITY', 'EXTRA', 'INCLUDED', 'EXCLUDED', 'FREE', 'REFERRAL', 'DOCUMENTATION', 'ACCOMMODATION', 'MODIFICATION', 'SCOPE', 'ACCEPTED', 'ENROLLED', 'SPONSORED'])
+const SMALL_BORROWS = new Set(['THIRDPARTY', 'DERIVED', 'DISCOUNT', 'AVERAGE', 'TYPICAL', 'CLAIM', 'VERIFIED', 'NOTFOUND', 'ONLY', 'FIRST', 'APPLICATION'])
+const classOn = (k) => {
+  const borrowed = smallMarkers && SMALL_BORROWS.has(k)
+  if (SHARED_CLASSES.has(k)) return aidMarkers || artsMarkers || clubsMarkers || smallMarkers
+  if (AID_CLASSES.has(k)) return aidMarkers || (clubsMarkers && k === 'THIRDPARTY') || borrowed
+  if (ARTS_CLASSES.has(k)) return artsMarkers || clubsMarkers || borrowed
+  if (CLUBS_CLASSES.has(k)) return clubsMarkers || borrowed
+  if (SMALL_CLASSES.has(k)) return smallMarkers
+  return true
+}
 const markerCounts = (s) => {
   const t = s.replace(/\*\*/g, '').replace(/\s+/g, ' ')
   const out = {}
   for (const [k, re] of Object.entries(MARKERS)) {
-    if (SHARED_CLASSES.has(k)) { if (!aidMarkers && !artsMarkers && !clubsMarkers) continue }
-    else if (AID_CLASSES.has(k) && !aidMarkers && !(clubsMarkers && k === 'THIRDPARTY')) continue
-    if (ARTS_CLASSES.has(k) && !artsMarkers && !clubsMarkers) continue
-    if (CLUBS_CLASSES.has(k) && !clubsMarkers) continue
+    if (!classOn(k)) continue
     const src = k === 'REQUIRED' ? t.replace(MARKERS.OPTIONAL, ' ') : k === 'COVERED' ? t.replace(MARKERS.NOTCOVERED, ' ') : k === 'AUDITION' ? t.replace(MARKERS.OPEN, ' ') : t
     out[k] = (src.match(re) ?? []).length
     if (k === 'BOUND' && clubsMarkers) out[k] += (t.match(CLUBS_BOUND_EXTRA) ?? []).length
@@ -285,8 +332,17 @@ const partsOf = (slug, withLayers = true) => [
   { slug, prefix: '', relPath: relPathOf(slug) },
   ...(withLayers ? layerSpecs.map((l) => ({ slug, prefix: l.prefix, relPath: l.relFile, fn: l.fn })) : []),
 ]
-const skipFlagKinds = new Set((opt('--skip-flag-kinds', '') ?? '').split(',').map((s) => s.trim()).filter(Boolean))
+/* The worklist leaves out flags no parent sees: the topic's HIDDEN_FLAG_KINDS from
+ * src/lib/flagVisibility.ts (the components and check_plain_language.mjs read the same
+ * file; plan plainsmall), plus any --skip-flag-kinds. Rows and guards still see them. */
+const reviewTopic = topic ?? Object.keys(TOPICS).find((k) => TOPICS[k] === dir.split('/').pop())
+const { HIDDEN_FLAG_KINDS } = await import(pathToFileURL(join(ROOT, 'src/lib/flagVisibility.ts')).href)
+const skipFlagKinds = new Set([
+  ...(HIDDEN_FLAG_KINDS[reviewTopic] ?? []),
+  ...(opt('--skip-flag-kinds', '') ?? '').split(',').map((s) => s.trim()).filter(Boolean),
+])
 const clubsMarkers = argv.includes('--clubs-markers')
+const smallMarkers = argv.includes('--small-markers')
 const outFile = opt('--out', null)
 const worklistFile = opt('--worklist', null)
 const matchRe = opt('--match', null) ? new RegExp(opt('--match')) : null
@@ -302,7 +358,7 @@ const allSlugs = accessor ? accessor.slugs : readdirSync(join(ROOT, dir)).filter
 const slugs = opt('--slugs', null) ? opt('--slugs').split(',').map((s) => s.trim()).filter(Boolean) : allSlugs
 for (const s of slugs) if (!allSlugs.includes(s)) { console.error(accessor ? `plain_review: ${topic} has no entry for ${s}` : `plain_review: no ${dir}/${s}.ts`); process.exit(2) }
 if (!outFile && !worklistFile && !flag('--check')) {
-  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d [--layers] | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re] [--aid-markers] [--arts-markers] [--clubs-markers] [--no-md] [--skip-flag-kinds a,b]')
+  console.error('usage: plain_review.mjs [--worklist f.json] [--out f.md] [--check] [--base ref] [--dir d [--layers] | --topic t] [--slugs a,b] [--match re] [--paths re] [--allow a.json,b.json] [--md-paths re] [--aid-markers] [--arts-markers] [--clubs-markers] [--small-markers] [--no-md] [--skip-flag-kinds a,b]')
   process.exit(2)
 }
 const cfg = loadConfig()
@@ -464,7 +520,7 @@ async function main() {
         if (dd) failures.push(`(g) ${at}: date/time tokens differ ${dd}`)
         const dm = diffList(moneyTokens(b), moneyTokens(a))
         if (dm) failures.push(`(m) ${at}: money/percent/year tokens differ ${dm}`)
-        if (artsMarkers || clubsMarkers) {
+        if (artsMarkers || clubsMarkers || smallMarkers) {
           const dn = diffList(countTokens(b), countTokens(a))
           if (dn) failures.push(`(n) ${at}: count words differ ${dn}`)
         }
