@@ -69,13 +69,30 @@ stop.
   figure to compare against other schools' published tuition", "the like-for-like figure
   against other schools" (Catholic, Gaston Financial Aid).
 
-**How to remove.** Delete the comparing clause and keep the rest unchanged. When a headline,
-label or caption is *built around* the comparison ("The most X program here — …"), reword it
-to an absolute statement about the school ("A flexible program …", "An operationally
-transparent program …"). **Never fact-check and keep** a REMOVE comparison: true or false, it
-goes. If deleting the clause would lose the parent's point, an implicit form ("than many
-schools", "some schools use …") is allowed, because the KEEP rule covers it. Each case is
-recorded in the review file.
+**How to remove — rewrite first, delete as the fallback** (user suggestion, 2026-11-11:
+*"rewrite those problematic comparison statements in a way not to be a comparison to a named
+school"*).
+
+1. **Preferred: rewrite to a statement about this school** that keeps the parent's point
+   without naming any school or pointing at this site's set, using a hedged general term the
+   KEEP rule allows: "unusually", "few schools", "many schools", "rare", "a common standard".
+   "No other school in this set publishes its schedule at all" → "Few schools publish their
+   after-school schedule at all." "The most transparent pricing in this set" → "unusually
+   transparent pricing".
+2. **The rewrite must not claim more than the evidence.** The old claim covered the 13
+   schools on this site; a general claim covers schools at large. Use a **hedged** word
+   ("few", "many", "unusually"), never an absolute one ("no school", "the only", "the most").
+   Where even the hedged form is a stretch (a price "unusually low" only because it is the
+   lowest of thirteen), **delete the clause instead.**
+3. **Delete** when the comparison carries no parent point beyond the ranking ("— the heaviest
+   caseload in this comparison" after "for 85 seniors"), or per item 2.
+4. A headline, label or caption *built around* the comparison ("The most X program here —
+   …") becomes an absolute or hedged statement about the school ("An unusually flexible
+   program …").
+
+**Never fact-check and keep** a REMOVE comparison as it stands: true or false, the
+named-school or this-site framing goes. Each unit's choice (rewrite or delete) is recorded
+in the review file.
 
 ## Context
 
@@ -93,49 +110,49 @@ The scans are a **lower bound** (memory `unit-conversion-allowlist-is-a-lower-bo
 Step 2 re-runs them with the patterns in "Scan patterns" and classifies any new hit.
 
 `at` = the unit label `plain_review.mjs` and the overlay work files use: `slug:path` (Clubs
-layers prefix the path with `clusters.` / `catalog.`). Default treatments are the planner's;
-measure each against the guards before use.
+layers prefix the path with `clusters.` / `catalog.`). Default treatments are the planner's
+(rewrite first, per "How to remove"); measure each against the guards and the evidence before use.
 
 **Batch A — After School, Summer, Global Exposure, Course Offerings (36 units)**
 
 | # | at | Comparison today | Default treatment |
 |--:|---|---|---|
-| 1 | `providence-day:verdict.headline` (afterSchool) | "with the most transparent pricing in this set" | "with clearly published pricing"; keep "many peers don’t offer" (implicit) |
-| 2 | `charlotte-christian:coverage.headline` | ", and one of the sharpest split deadlines in this set" | delete; end "— a full hour earlier." |
-| 3 | `charlotte-christian:dayInside.headline` | "is the only school here that publishes an actual timed daily schedule — and it protects" | "Charlotte Christian publishes an actual timed daily schedule, and it protects …" |
-| 4 | `charlotte-christian:verdict.strengths[0]` | "No other school in this set publishes its schedule at all." | delete the sentence |
-| 5 | `charlotte-christian:verdict.watchouts[4]` | ", unlike most peers here" | "**Snack is not provided** in either program." |
-| 6 | `charlotte-christian:verdict.headline` | "The most operationally transparent program here" | "An operationally transparent program — …" |
-| 7 | `charlotte-country-day:coverage.headline` | "— the finest-grained coverage ladder of any school here" | delete; end "with five separate pickup tiers." |
-| 8 | `charlotte-country-day:verdict.headline` | "The most flexible and most transparently priced after-school program in this set — and the one whose enrichment offering you cannot actually see before you enroll." | "A flexible, transparently priced after-school program, but its enrichment offering cannot be seen before you enroll." |
-| 9 | `cannon:cost.aside.text` | "— the most forgiving occasional-use option in this set" | delete; end "instead of $1,904." |
-| 10 | `cannon:verdict.strengths[1]` | ", which several peers here do not do at all" | "**Early-dismissal days are covered**: care runs 11:45 a.m.–4:00 p.m. on those days." (`p.m.` off the sentence end) |
-| 11 | `cannon:verdict.strengths[2]` | "— the most forgiving occasional-use model in this set" | delete; end "rather than committing to $1,904." |
-| 12 | `cannon:verdict.strengths[4]` | bold "**The largest fully priced enrichment catalog on this site**" | "**A large, fully priced enrichment catalog**" (same `**` count) |
-| 13 | `cannon:verdict.headline` | "The most flexible program here for occasional users, with the deepest published enrichment catalog" | "A flexible program for occasional users, with a deep published enrichment catalog — …" |
-| 14 | `covenant-day:coverage.facts[0].text` | "— the only free morning care in this comparison" | delete; end "school-wide" |
-| 15 | `covenant-day:verdict.headline` | "The most parent-friendly entry price in this set" | "A parent-friendly entry price — free morning care, $20 drop-ins — …" |
-| 16 | `covenant-day:verdict.subhead` | "matches the 6:00 p.m. peer standard" | "Coverage runs to 6:00 p.m.; the catalog opacity is the one real gap." |
-| 17 | `covenant-day:verdict.strengths[0]` | "— every peer here charges for morning care." | "**Free before-school care from 7:30 a.m., school-wide**. The Wednesday 8:50 late start is absorbed free too." |
-| 18 | `covenant-day:verdict.strengths[2]` | "matches the best pickup time in this comparison" | "**Coverage to 6:00 p.m. for JK–8.**" (same `**` count) |
-| 19 | `davidson-day:verdict.strengths[0]` | "— including a toddler tier most schools here do not cover at all" | "— including a toddler tier."; keep "competitive with peers" (implicit) |
-| 20 | `gaston-day:coverage.facts[5].text` | ", which is normal on this roster but worth stating" | delete; end "grades 9–12." |
-| 21 | `gaston-day:dayInside.subhead` | "Unusually for this roster, " | "Gaston Day prints the actual clock rather than describing the program in general terms." |
-| 22 | `trinity-episcopal:verdict.headline` | "The most deliberately affordable after-school program on this roster" | "A deliberately affordable after-school program — …" |
-| 23 | `trinity-episcopal:verdict.strengths[0]` | "No other school in this set prices after-school care on ability to pay at all." | delete the sentence |
-| 24 | `trinity-episcopal:verdict.strengths[4]` | ", the latest close on this roster" | delete |
-| 25 | `providence-day:catalog.headline` (summer) | "The largest published slate of the six schools — " | "A large published slate: 170 priced camps across nine sessions, …" |
-| 26 | `providence-day:catalog.camps[1].desc` | "— the longest published camp day at any of these schools." | "The same camp on extended hours." |
-| 27 | `charlotte-country-day:catalog.headline` (summer) | "tier no other school here offers" | "…including a dedicated farm campus tier." |
-| 28 | `charlotte-country-day:costPlanner.tiers[6].detail` | "— a tier no other school here has." | "The farm campus premium." |
-| 29 | `charlotte-country-day:catalog.camps[0].desc` | "— the tier that sets Country Day apart from the other five schools here." | "On the school’s own farm." (guard (n): "five" leaves, by design) |
-| 30 | `cannon:costPlanner.headline` | "is the only one of these programs that takes a deposit" | "Camp Cannon takes a deposit: 50% at registration, the balance due May 15." (ONLY leaves, by design) |
-| 31 | `covenant-day:catalog.camps[19].desc` | "— the rare HS academic camp in this set." | delete; end at "calendar." |
-| 32 | `providence-day:verdict.standsOut.summary` (internationalTravel) | "Among Charlotte private schools, " | "Providence Day stands out for …" |
-| 33 | `charlotte-country-day:verdict.standsOut.summary` | "Among the schools on this site, Country Day publishes the most Middle School travel: six experiences from 6th grade." | "Country Day publishes six Middle School travel experiences, starting in 6th grade." |
-| 34 | `cannon:verdict.standsOut.summary` | "Among the other schools on this site, only Providence Day and Davidson Day publish a global studies credential." | delete the sentence |
-| 35 | `davidson-day:verdict.standsOut.summary` | "is unlike any other school's here: its travel is" | "Davidson Day's global travel is archaeology research, not touring." |
-| 36 | `covenant-day:divisions[0].teaser` (course-offerings) | "a Restoration & Sustainability department no other school here runs" | "…and a Restoration & Sustainability department." |
+| 1 | `providence-day:verdict.headline` (afterSchool) | "with the most transparent pricing in this set" | "with unusually transparent pricing"; keep "many peers don’t offer" (implicit) |
+| 2 | `charlotte-christian:coverage.headline` | ", and one of the sharpest split deadlines in this set" | "— a full hour earlier, an unusually sharp split." |
+| 3 | `charlotte-christian:dayInside.headline` | "is the only school here that publishes an actual timed daily schedule — and it protects" | "Charlotte Christian publishes an actual timed daily schedule, which few schools do, and it protects …" |
+| 4 | `charlotte-christian:verdict.strengths[0]` | "No other school in this set publishes its schedule at all." | "Few schools publish their after-school schedule at all." |
+| 5 | `charlotte-christian:verdict.watchouts[4]` | ", unlike most peers here" | "**Snack is not provided** in either program, though many schools provide one." |
+| 6 | `charlotte-christian:verdict.headline` | "The most operationally transparent program here" | "An unusually transparent program — a published schedule, …" |
+| 7 | `charlotte-country-day:coverage.headline` | "— the finest-grained coverage ladder of any school here" | "— an unusually fine-grained coverage ladder." |
+| 8 | `charlotte-country-day:verdict.headline` | "The most flexible and most transparently priced after-school program in this set — and the one whose enrichment offering you cannot actually see before you enroll." | "An unusually flexible, transparently priced after-school program, but its enrichment offering cannot be seen before you enroll." |
+| 9 | `cannon:cost.aside.text` | "— the most forgiving occasional-use option in this set" | "— an unusually forgiving option for occasional use." |
+| 10 | `cannon:verdict.strengths[1]` | ", which several peers here do not do at all" | "…, 11:45 a.m.–4:00 p.m., which many schools do not do at all." |
+| 11 | `cannon:verdict.strengths[2]` | "— the most forgiving occasional-use model in this set" | "— an unusually forgiving model for occasional use." |
+| 12 | `cannon:verdict.strengths[4]` | bold "**The largest fully priced enrichment catalog on this site**" | "**An unusually large, fully priced enrichment catalog**" (same `**` count) |
+| 13 | `cannon:verdict.headline` | "The most flexible program here for occasional users, with the deepest published enrichment catalog" | "An unusually flexible program for occasional users, with a deep published enrichment catalog — …" |
+| 14 | `covenant-day:coverage.facts[0].text` | "— the only free morning care in this comparison" | "— free morning care, which few schools offer" |
+| 15 | `covenant-day:verdict.headline` | "The most parent-friendly entry price in this set" | "An unusually parent-friendly entry price — free morning care, $20 drop-ins — …" |
+| 16 | `covenant-day:verdict.subhead` | "matches the 6:00 p.m. peer standard" | "Coverage runs to the common 6:00 p.m. close; the catalog opacity is the one real gap." |
+| 17 | `covenant-day:verdict.strengths[0]` | "— every peer here charges for morning care." | "— most schools charge for morning care." |
+| 18 | `covenant-day:verdict.strengths[2]` | "matches the best pickup time in this comparison" | "**Coverage to 6:00 p.m. for JK–8** matches the latest pickup most schools offer." |
+| 19 | `davidson-day:verdict.strengths[0]` | "— including a toddler tier most schools here do not cover at all" | "— including a toddler tier many schools do not cover at all."; keep "competitive with peers" |
+| 20 | `gaston-day:coverage.facts[5].text` | ", which is normal on this roster but worth stating" | ", which is common but worth stating" |
+| 21 | `gaston-day:dayInside.subhead` | "Unusually for this roster, " | "Unusually, Gaston Day prints the actual clock rather than describing the program in general terms." |
+| 22 | `trinity-episcopal:verdict.headline` | "The most deliberately affordable after-school program on this roster" | "An unusually affordable after-school program, by design — …" |
+| 23 | `trinity-episcopal:verdict.strengths[0]` | "No other school in this set prices after-school care on ability to pay at all." | "Few schools price after-school care on ability to pay at all." |
+| 24 | `trinity-episcopal:verdict.strengths[4]` | ", the latest close on this roster" | ", a late close," |
+| 25 | `providence-day:catalog.headline` (summer) | "The largest published slate of the six schools — " | "An unusually large published slate: 170 priced camps across nine sessions, …" |
+| 26 | `providence-day:catalog.camps[1].desc` | "— the longest published camp day at any of these schools." | "— an unusually long published camp day." |
+| 27 | `charlotte-country-day:catalog.headline` (summer) | "tier no other school here offers" | "…including a dedicated farm campus tier, which is rare." |
+| 28 | `charlotte-country-day:costPlanner.tiers[6].detail` | "— a tier no other school here has." | "The farm campus premium — a rare tier." |
+| 29 | `charlotte-country-day:catalog.camps[0].desc` | "— the tier that sets Country Day apart from the other five schools here." | "On the school’s own farm, a rare setting for a summer camp." (guard (n): "five" leaves, by design) |
+| 30 | `cannon:costPlanner.headline` | "is the only one of these programs that takes a deposit" | **delete** the comparison: "Camp Cannon takes a deposit: 50% at registration, the balance due May 15." ("unusual" would overreach; ONLY leaves, by design) |
+| 31 | `covenant-day:catalog.camps[19].desc` | "— the rare HS academic camp in this set." | "— a rare high-school academic camp." |
+| 32 | `providence-day:verdict.standsOut.summary` (internationalTravel) | "Among Charlotte private schools, " | "Providence Day stands out for …" ("stands out" is implicit) |
+| 33 | `charlotte-country-day:verdict.standsOut.summary` | "Among the schools on this site, Country Day publishes the most Middle School travel: six experiences from 6th grade." | "Country Day publishes an unusually full Middle School travel program: six experiences from 6th grade." |
+| 34 | `cannon:verdict.standsOut.summary` | "Among the other schools on this site, only Providence Day and Davidson Day publish a global studies credential." | "Few schools publish a global studies credential." |
+| 35 | `davidson-day:verdict.standsOut.summary` | "is unlike any other school's here: its travel is" | "Davidson Day's global program is unusual: its travel is archaeology research, not touring." |
+| 36 | `covenant-day:divisions[0].teaser` (course-offerings) | "a Restoration & Sustainability department no other school here runs" | "…and a Restoration & Sustainability department, which is rare." |
 
 Rows 1–24 are `src/data/afterSchoolPrograms/`, 25–31 `src/data/summer/`, 32–35
 `src/data/internationalTravel/`, 36 `src/data/courseOfferings.ts`.
@@ -144,48 +161,48 @@ Rows 1–24 are `src/data/afterSchoolPrograms/`, 25–31 `src/data/summer/`, 32�
 
 | # | at | Comparison today | Default treatment |
 |--:|---|---|---|
-| 37 | `charlotte-christian:counseling.timeline[2].note` (collegeSupport) | "The most structured junior-year requirement in this set" | "A highly structured junior-year requirement" |
-| 38 | `charlotte-christian:verdict.headline` | "It comes with the thinnest learning-support disclosure among the schools on this site." | "It publishes little about learning support." |
-| 39 | `charlotte-catholic:transcript.flags[0].text` (kind `gap`, renders) | "the Scholar/Scholar with Distinction ledger other schools show cannot be built here" | "But it means this page cannot show a Scholar/Scholar with Distinction ledger for the school." |
-| 40 | `charlotte-catholic:verdict.subhead` | "the tuition structure answers one no other school on this roster raises" | "The profile answers the questions a family actually asks, and its parish-based tuition structure raises one more." |
-| 41 | `charlotte-country-day:wholeClass.support[2].text` | "Uniquely among the schools here, " | "The ERP explicitly **“assists …”** — …" (bold span byte-identical) |
-| 42 | `cannon:wholeClass.support[0].text` | "It is also some of the best-documented learning support of the schools on this site." | delete the sentence |
-| 43 | `cannon:verdict.headline` | "But it shares less about outcomes than its larger peers." | "But it shares less about outcomes than many larger schools do." (implicit, KEEP form) |
-| 44 | `covenant-day:counseling.headline` | ", the heaviest caseload in this comparison" | delete; end "for 85 seniors." |
-| 45 | `covenant-day:edge.headline` | "a department no other school has" | "a named department with its own director" |
-| 46 | `covenant-day:edge.levers[0].items[0]` | " — unique among these schools" | delete |
+| 37 | `charlotte-christian:counseling.timeline[2].note` (collegeSupport) | "The most structured junior-year requirement in this set" | "An unusually structured junior-year requirement" |
+| 38 | `charlotte-christian:verdict.headline` | "It comes with the thinnest learning-support disclosure among the schools on this site." | "It publishes unusually little about learning support." |
+| 39 | `charlotte-catholic:transcript.flags[0].text` (kind `gap`, renders) | "the Scholar/Scholar with Distinction ledger other schools show cannot be built here" | "But it means the Scholar/Scholar with Distinction ledger many school profiles show cannot be shown for this school." |
+| 40 | `charlotte-catholic:verdict.subhead` | "the tuition structure answers one no other school on this roster raises" | "…— and the tuition structure answers one few schools raise." |
+| 41 | `charlotte-country-day:wholeClass.support[2].text` | "Uniquely among the schools here, " | "Unusually, the ERP explicitly **“assists …”** — …" (bold span byte-identical) |
+| 42 | `cannon:wholeClass.support[0].text` | "It is also some of the best-documented learning support of the schools on this site." | "It is also unusually well-documented learning support." |
+| 43 | `cannon:verdict.headline` | "But it shares less about outcomes than its larger peers." | "But it shares less about outcomes than many larger schools do." |
+| 44 | `covenant-day:counseling.headline` | ", the heaviest caseload in this comparison" | **delete**; end "for 85 seniors." (no point beyond the ranking) |
+| 45 | `covenant-day:edge.headline` | "a department no other school has" | "a department few schools have" |
+| 46 | `covenant-day:edge.levers[0].items[0]` | " — unique among these schools" | " — an unusual structure" |
 | 47 | `covenant-day:verdict.points[1].label` | "The heaviest caseload in this comparison" | "A heavy caseload" (its `text` already says "One dedicated college counselor for 85 seniors") |
-| 48 | `davidson-day:verdict.subhead` | "will find less here than anywhere else in this set" | "…will find little here, which puts the burden of verification on the tour." |
-| 49 | `gaston-day:verdict.points[2].text` | "is among the lowest on this roster" | "…, and the senior caseload is ~18:1." |
-| 50 | `charlotte-christian:guide.bands[0].steps[3].detail` (admissions) | "— a document the other Charlotte schools do not ask for up front." | delete; the quote stays byte-identical, period outside it |
-| 51 | `covenant-day:guide.aid.text` | ", and it is unique among the Charlotte schools" | "There is also one step you must complete first." |
-| 52 | `providence-day:sections[0].figureNote` (financial-aid-report) | "Among the schools on this site, this kind of list is published less consistently than any other item these reports track." | delete the sentence |
-| 53 | `charlotte-christian:sections[2].boxes[0].body` | "No other school on this site made its own aid application depend on a state application." | delete the sentence |
-| 54 | `charlotte-catholic:sections[0].figureNote` | "No other school on this site prices tuition this way: " | "Tuition here works differently: **price depends on parish participation, …**" |
+| 48 | `davidson-day:verdict.subhead` | "will find less here than anywhere else in this set" | "…will find less here than at most schools, which puts the burden of verification on the tour." |
+| 49 | `gaston-day:verdict.points[2].text` | "is among the lowest on this roster" | "…, and the ~18:1 senior caseload is unusually low." |
+| 50 | `charlotte-christian:guide.bands[0].steps[3].detail` (admissions) | "— a document the other Charlotte schools do not ask for up front." | "— a document many schools do not ask for up front." (the quote stays byte-identical) |
+| 51 | `covenant-day:guide.aid.text` | ", and it is unique among the Charlotte schools" | "There is also one unusual step you must complete first." |
+| 52 | `providence-day:sections[0].figureNote` (financial-aid-report) | "Among the schools on this site, this kind of list is published less consistently than any other item these reports track." | "Schools publish this kind of list less consistently than most other cost details." |
+| 53 | `charlotte-christian:sections[2].boxes[0].body` | "No other school on this site made its own aid application depend on a state application." | "Few schools make their own aid application depend on a state application." |
+| 54 | `charlotte-catholic:sections[0].figureNote` | "No other school on this site prices tuition this way: " | "Few schools price tuition this way: **price depends on parish participation, …**" |
 | 55 | `charlotte-catholic:sections[2].boxes[0].body` | "because some other schools on this site use FACTS Grant & Aid" | "because some schools use FACTS Grant & Aid to assess need." (implicit) |
-| 56 | `covenant-day:sections[0].figureCaption` | " — the lowest top rate in this comparison" | "Published tuition by grade band" |
-| 57 | `covenant-day:sections[0].figureNote2` | "Several other schools on this site do not publish a list like this." | delete the sentence |
-| 58 | `covenant-day:sections[2].timeline[1].detail` | " — a hard gate no peer school here imposes" | delete; end "considered" |
+| 56 | `covenant-day:sections[0].figureCaption` | " — the lowest top rate in this comparison" | **delete**: "Published tuition by grade band" ("unusually low" would overreach: it is the lowest of 13) |
+| 57 | `covenant-day:sections[0].figureNote2` | "Several other schools on this site do not publish a list like this." | "Many schools do not publish a list like this." |
+| 58 | `covenant-day:sections[2].timeline[1].detail` | " — a hard gate no peer school here imposes" | " — a hard gate few schools impose" |
 | 59 | `covenant-day:sections[3].boxes[0].body` | "Most other schools on this site file a Form 990, so their aid totals can be checked against a return." | "When a school files a Form 990, its aid totals can be checked against a return." (keeps `990`) |
-| 60 | `covenant-day:sections[6].stats[1].label` | " — the lowest top tuition in this comparison" | "top band" |
-| 61 | `davidson-day:sections[5].boxes[0].body` | ", one of the steadiest patterns among the schools on this site" | delete |
+| 60 | `covenant-day:sections[6].stats[1].label` | " — the lowest top tuition in this comparison" | **delete**: "top band" (as #56) |
+| 61 | `davidson-day:sections[5].boxes[0].body` | ", one of the steadiest patterns among the schools on this site" | ", an unusually steady pattern" |
 | 62 | `carmel-christian:sections[3].boxes[0].body` | same 990 sentence as #59 | same treatment, byte-identical to #59 |
 | 63 | `hickory-grove-christian:sections[2].boxes[0].body` | same 990 sentence as #59 | same treatment, byte-identical to #59 |
-| 64 | `gaston-day:sections[2].timeline[0].detail` | "Clarity is the aid platform most schools on this site use." | delete the sentence |
-| 65 | `gaston-day:sections[3].boxes[0].body` | ", and few schools on this roster publish one at all" | delete; end "plan against." |
-| 66 | `gaston-day:sections[5].boxes[0].body` | "Most other schools on this site publish at least the number of installments." | delete the sentence |
-| 67 | `trinity-episcopal:sections[1].figureNote` | ", one of very few schools on this roster to do so" | "Trinity prices the activity fee **per grade**." |
-| 68 | `trinity-episcopal:sections[3].figureNote` | ", which few schools on this roster publish" | "A genuine three-point series: **26% / …**" |
-| 69 | `charlotte-country-day:verdict.headline` (artsPrograms) | "The deepest arts facilities of any school in this set" | "Extensive arts facilities, a dual AP-and-IB ceiling, …" |
-| 70 | `covenant-day:ladder.subhead` | " — a rung no other school here has" | delete; end "at both middle and high school." |
-| 71 | `carmel-christian:verdict.headline` | "a leaner music and visual-arts footprint than its regional peers" | "…Blumey win, alongside a lean music and visual-arts program." |
-| 72 | `providence-day:affinity.subhead` (clubsPrograms) | "The deepest published affinity structure in this comparison set" | "A deep published affinity structure, built out steadily from 1995 onward — …" |
-| 73 | `charlotte-latin:affinity.subhead` | "publishes markedly less on this than its peers" | "Charlotte Latin publishes little on this: no roster page, no counts, and no divisional breakout." |
-| 74 | `charlotte-latin:honors.headline` | ", uniquely in this comparison," | "…— and published induction criteria and a published induction count." |
+| 64 | `gaston-day:sections[2].timeline[0].detail` | "Clarity is the aid platform most schools on this site use." | "Clarity is a widely used aid platform." |
+| 65 | `gaston-day:sections[3].boxes[0].body` | ", and few schools on this roster publish one at all" | ", and few schools publish one at all." |
+| 66 | `gaston-day:sections[5].boxes[0].body` | "Most other schools on this site publish at least the number of installments." | "Many schools publish at least the number of installments." |
+| 67 | `trinity-episcopal:sections[1].figureNote` | ", one of very few schools on this roster to do so" | "Trinity prices the activity fee **per grade**, which few schools do." |
+| 68 | `trinity-episcopal:sections[3].figureNote` | ", which few schools on this roster publish" | "A genuine three-point series, which few schools publish: **26% / …**" |
+| 69 | `charlotte-country-day:verdict.headline` (artsPrograms) | "The deepest arts facilities of any school in this set" | "Unusually deep arts facilities, a dual AP-and-IB ceiling, …" |
+| 70 | `covenant-day:ladder.subhead` | " — a rung no other school here has" | " — a rung few schools have." |
+| 71 | `carmel-christian:verdict.headline` | "a leaner music and visual-arts footprint than its regional peers" | "…a leaner music and visual-arts footprint than many schools in the region." (no school named) |
+| 72 | `providence-day:affinity.subhead` (clubsPrograms) | "The deepest published affinity structure in this comparison set" | "An unusually deep published affinity structure, built out steadily from 1995 onward — …" |
+| 73 | `charlotte-latin:affinity.subhead` | "publishes markedly less on this than its peers" | "Charlotte Latin publishes markedly less on this than many schools: no roster page, no counts, and no divisional breakout." |
+| 74 | `charlotte-latin:honors.headline` | ", uniquely in this comparison," | ", unusually," |
 | 75 | `charlotte-catholic:affinity.subhead` | "is one of the most transparent on this roster" | "The directory is unusually transparent: most entries publish …" (implicit) |
-| 76 | `cannon:honors.headline` | " — the widest span in this comparison," | "Twelve honor societies, reaching social studies, …" |
-| 77 | `davidson-day:service.subhead` | "The smallest school in this comparison publishes the least overall" | "The school publishes little overall, but its civic programming is …" |
-| 78 | `charlotte-catholic:clusters.rows[0].note` (clubClusters layer) | ", older than any competitive result shipped for another school here," | "That coverage is from 2017, so no current standing can be claimed." |
+| 76 | `cannon:honors.headline` | " — the widest span in this comparison," | "Twelve honor societies — an unusually wide span, reaching social studies, …" |
+| 77 | `davidson-day:service.subhead` | "The smallest school in this comparison publishes the least overall" | "A small school that publishes little overall — but its civic programming is …" |
+| 78 | `charlotte-catholic:clusters.rows[0].note` (clubClusters layer) | ", older than any competitive result shipped for another school here," | "That coverage is from 2017, so no current standing can be claimed." (nothing to rewrite: the comparison was the site's own bookkeeping) |
 
 Rows 37–49 are `src/data/collegeSupportPrograms/`, 50–51 `src/data/admissionsPrograms/`,
 52–68 `src/data/financialAidReports.ts`, 69–71 `src/data/artsPrograms/`, 72–77
@@ -248,6 +265,9 @@ Exclude `src/data/sportsPrograms/` and `src/data/metricValues.ts` (Out of scope)
 ## Decisions
 
 - **Remove, never fact-check and keep** — the user's rule; a true comparison goes too.
+- **Rewrite to a hedged, school-focused statement first; delete only as the fallback** — the
+  user's suggestion while this plan was written. It keeps the parent's point; the hedge keeps
+  the claim inside the evidence ("How to remove").
 - **Implicit comparisons and own-result rankings stay** — the user's two follow-up rulings.
 - **Sports and the Compare page are out of scope** — Sports belongs to plainsports; the
   Compare page cell tips (`metricValues.ts`) are comparative by design.
@@ -330,7 +350,8 @@ then Phase 1 → 2.
    removed; meaning drift in what is left; a dropped hedge, condition or figure; a `**` span
    changed; a reworded headline that now overclaims ("A deep catalog" where the school's
    own data does not support "deep"); a by-design guard failure whose token is **not**
-   inside the removed span. It fixes findings with Edit and re-runs Step 4. Append its
+   inside the removed span; a rewrite that generalizes past the evidence or uses an absolute
+   ("no school", "the only", "the most") where a hedge belongs ("How to remove"). It fixes findings with Edit and re-runs Step 4. Append its
    findings under `## Independent review` in the first review file of the batch.
 
 6. **Checks.**
@@ -458,7 +479,8 @@ No skill or command changes, so `.claude/SKILLS.md` is not touched.
 
 | Risk | Mitigation |
 |---|---|
-| A reworded headline overclaims ("deep", "large") | Reviewer item; prefer deleting the clause; the school's own data must support the adjective |
+| A reworded headline overclaims ("deep", "large") | Reviewer item; the school's own data must support the adjective |
+| A rewrite generalizes past the evidence (a claim about 13 schools becomes one about all schools) | Hedged words only ("few", "many", "unusually"), never "no school" / "the only"; delete where even the hedge is a stretch; reviewer item |
 | A KEEP case gets removed (implicit comparison, own ranking, student "peers") | Rulings list with examples; reviewer item |
 | The scans miss a comparison | Two patterns plus the "here" grep; re-run at each batch; reviewer looks for leftovers |
 | A by-design guard failure hides a real slip | Each failure listed with its removed span; reviewer checks the token is inside it |
@@ -466,8 +488,10 @@ No skill or command changes, so `.claude/SKILLS.md` is not touched.
 
 ## Open questions
 
-- **"A heavy caseload" (#47) and "A deep published affinity structure" (#72) keep an
-  adjective of the site's.** **Default:** use them. If the user prefers, #47 can echo its
+- **The hedged rewrites ("unusually", "few schools") are the site's judgment, not the school's
+  claim.** They follow the KEEP rule for implicit comparisons. **Default:** use them, and
+  delete where even the hedge is a stretch (#30, #44, #56, #60). The Batch A review is the
+  place to overrule the style. #47 "A heavy caseload" likewise. If the user prefers, #47 can echo its
   text ("One counselor for 85 seniors", which adds digits to the label and trips guard (b)
   by design).
 - **Cannon College Support headline (#43)** uses the implicit KEEP form ("than many larger
