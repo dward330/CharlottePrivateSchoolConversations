@@ -8327,7 +8327,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors French III',
               tag: 'Honors',
               description:
-                'This course is designed to prepare the student for Honors Spanish IV or AP French Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
+                'This course is designed to prepare the student for Honors French IV or AP French Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
             },
             {
               title: 'Honors French IV',
