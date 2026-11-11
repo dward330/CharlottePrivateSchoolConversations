@@ -5,10 +5,21 @@ Base `main` → working tree. Generated 2026-11-11 by `scripts/plain_review.mjs`
 | School | Changed units |
 |---|--:|
 | providence-day | 12 |
-| charlotte-latin | 11 |
-| **Total** | **23** |
+| charlotte-latin | 12 |
+| **Total** | **24** |
 
-Guards: all pass (paths, digits, URLs/emails, quotes, year spans, non-prose leaves, dates/times, money/percent/year tokens, markers, repeats, worklist-only edits, markdown fields).
+Guards: **10 FAILED**.
+
+- (p) charlotte-latin:facilities.care[4].text: name gone "CISAA"
+- (p) charlotte-latin:facilities.careNote: name gone "Charlotte"
+- (p) charlotte-latin:facilities.careNote: name gone "Country"
+- (p) charlotte-latin:facilities.careNote: name gone "Day"
+- (p) charlotte-latin:facilities.careNote: name gone "OrthoCarolina"
+- (p) charlotte-latin:facilities.careNote: name gone "Cannon"
+- (p) charlotte-latin:facilities.careNote: name gone "Novant"
+- (p) charlotte-latin:facilities.careNote: name gone "Christian"
+- (p) charlotte-latin:facilities.careNote: name gone "Atrium"
+- (p) charlotte-latin:facilities.careNote: name gone "Providence"
 
 | # | school | path | before | after | words b→a | grade b→a | hook | notes |
 |--:|---|---|---|---|---|---|---|---|
@@ -34,7 +45,8 @@ Guards: all pass (paths, digits, URLs/emails, quotes, year spans, non-prose leav
 | 20 | charlotte-latin | `coaching.featured[0].detail` | One of the most recognizable former professional athletes coaching in Charlotte-area high school sports. Hoover played a full decade in the NFL for the Panthers, then led Cannon School’s program for six years before joining Latin in 2023. He also serves as Middle School baseball head coach and a PE teacher — a pro pedigree embedded in the daily life of the school rather than a figurehead appointment. | One of the most recognizable former professional athletes coaching in Charlotte-area high school sports. Hoover played a full decade in the NFL for the Panthers. He then led Cannon School’s program for six years before joining Latin in 2023. He also serves as Middle School baseball head coach and a PE teacher. That puts a former pro in the daily life of the school, not just a name on the staff list. | 66→71 | 11.0→6.2 | pass |  |
 | 21 | charlotte-latin | `coaching.featured[1].detail` | A Latin graduate who was All-Conference and All-State as a student, played at Queens University, and returned in 1994 as Jerry Faulkner’s varsity assistant. He ran JV for a decade before taking over boys basketball in 2009 and golf in 2014, and now heads two varsity programs while serving as Assistant AD for Equipment and Grounds — an unbroken coaching lineage from Faulkner’s 515–157 era to today. | A Latin graduate who was All-Conference and All-State as a student and played at Queens University. In 1994 he returned to Latin as Jerry Faulkner’s varsity assistant. He ran JV for a decade before taking over boys basketball in 2009 and golf in 2014. He now heads two varsity programs and serves as Assistant AD for Equipment and Grounds. That makes an unbroken coaching line from Faulkner’s 515–157 era to today. | 62→67 | 14.8→7.1 | pass |  |
 | 22 | charlotte-latin | `coaching.worthKnowing` | Latin’s strength & conditioning department is four people deep — and every one of them also runs a varsity program (Paige/wrestling, Mack/girls basketball, Peters/volleyball, Dayton/football), so strength programming is delivered by the same coaches who run the teams. Volleyball coach Caitlin Peters played twelve years professionally, finishing her final season left-handed after shoulder injuries; girls basketball coach Giavonni Mack played professionally in Istanbul. | Latin’s strength & conditioning department is four people deep, and every one of them also runs a varsity program: Paige (wrestling) · Mack (girls basketball) · Peters (volleyball) · Dayton (football). So the same coaches who run the teams also deliver the strength training. Volleyball coach Caitlin Peters played twelve years professionally and finished her final season left-handed after shoulder injuries. Girls basketball coach Giavonni Mack played professionally in Istanbul. | 61→66 | 17.8→9.0 | pass |  |
-| 23 | charlotte-latin | `facilities.careNote` | Worth probing on a tour: Latin publishes no team physician, hospital partnership or concussion protocol, where Charlotte Country Day names OrthoCarolina, Cannon names Novant, Charlotte Christian names Atrium and Providence Day details a full in-house model. The pool is also owned and operated by SwimMAC Carolina, a third-party club, not the school. | Worth asking about on a tour: Latin publishes no team doctor, hospital partner or concussion protocol. By contrast, Charlotte Country Day names OrthoCarolina, Cannon names Novant, Charlotte Christian names Atrium and Providence Day details a full in-house model. The pool is also owned and run by SwimMAC Carolina, a third-party club, not the school. | 52→54 | 13.6→9.8 | pass |  |
+| 23 | charlotte-latin | `facilities.care[4].text` | Not published as a policy document — a genuine gap, unlike its CISAA peers who publish theirs | Not published as a policy document — a genuine gap | 16→9 | —→— | pass | caps gone: CISAA |
+| 24 | charlotte-latin | `facilities.careNote` | Worth probing on a tour: Latin publishes no team physician, hospital partnership or concussion protocol, where Charlotte Country Day names OrthoCarolina, Cannon names Novant, Charlotte Christian names Atrium and Providence Day details a full in-house model. The pool is also owned and operated by SwimMAC Carolina, a third-party club, not the school. | Worth asking about on a tour: Latin publishes no team doctor, hospital partner or concussion protocol. The pool is also owned and run by SwimMAC Carolina, a third-party club, not the school. | 52→32 | 13.6→8.7 | pass | caps gone: Charlotte, Country, Day, OrthoCarolina, Cannon, Novant, Christian, Atrium, Providence |
 
 ## Independent review
 

@@ -563,7 +563,8 @@ only after Batch 5.
 | Batch | Commit | Review file(s) | Reviewer findings (fixed) | User verdict |
 |---|---|---|---|---|
 | 1 (tooling) | in the Batch 1 commit | — | — | — |
-| 1 | `plainsports: batch 1 English` (SHA filled on resume) | [review-batch1.md](plainsports-data/review-batch1.md) | 3 (all fixed) | awaiting review |
+| 1 | `82639cc3` | [review-batch1.md](plainsports-data/review-batch1.md) | 3 (all fixed) | ruling: no comparisons with other schools (applied) |
+| 1 (ruling) | `plainsports: batch 1 ruling` (SHA filled on resume) | [review-batch1-ruling.md](plainsports-data/review-batch1-ruling.md) | — | awaiting review |
 | 2 (fixes) | | | | |
 | 2 | | | | |
 | 3 | | | | |
@@ -852,6 +853,37 @@ plainclubs' before Batch 1, and the reviewer gets both. In short:
 - The template defaults T1–T7 (Near-repeats).
 - Each unit's opening case after a chrome label stays.
 - "three-peat" becomes "three straight", never "third".
+
+**USER RULING at the Batch 1 review (2026-11-11) — no comparisons with other schools.**
+"School pages should be focused on the school and not trying to mention what others don't do."
+A unit says what **this** school publishes, does or has won. It does not say what other
+schools do, don't do or publish. This **overrides** the plan's "keep a true cross-school claim"
+and "fix a false one" defaults (Decisions, "Cross-school claims", item 11 of "Content that
+must survive"): a comparison with another school is **removed**, not corrected. Applied in
+Batch 1 to Latin `facilities.care[4].text` ("unlike its CISAA peers who publish theirs") and
+Latin `facilities.careNote` (the "By contrast, Charlotte Country Day names OrthoCarolina, …"
+sentence), in its own commit with `review-batch1-ruling.md`. Guard (p) fails there by design
+(only other schools' names leave).
+
+For the later batches, the default under this ruling (each removal in that batch's fixes
+commit, recorded in `review-batch<N>-fixes.md`, so the wording-pass guards run on the
+trimmed text):
+- **Removed:** Catholic `national.scheduleNote` "every other school in this app plays NCISAA"
+  and `offered.footnote` "unlike every PK/K–12 school on this roster" (B2, replacing their
+  planned fixes); Christian `funnelNote` "the highest of any school in this comparison" (B2;
+  keep "At 73%, the Division I share …"); Christian, Cannon and CCD `careNote` care-model
+  lists of other schools, incl. the shared "and Providence Day keeps care fully in-house"
+  (T9 is dropped); CCD `funnelNote` "a share matched by no other school in this comparison"
+  and `careNote` "the differentiator among Charlotte private schools" (B3); Cannon `funnelNote`
+  "Unlike its CISAA peers" (B3); DD `realityCheck` "where larger peer schools convert closer to
+  a third" (B4, replacing its planned fix). Guard (n) or (p) may fire on these by design.
+- **Kept unless the user says otherwise (ask at the Batch 2 review):** a third-party ranking
+  of the school's **own** result, with its attribution — DD "the most of any 2A school in the
+  NCISAA", CCD "more than any other school in the division" (swimming records), Carmel
+  "described as among the first Charlotte high-school graduates" (NIL). These describe what
+  the school achieved, not what others lack.
+- Conference membership that names other schools (PD and Latin "Big South" footnotes) is a
+  fact about the school's own league and stays.
 
 **Batch 1 choices (PD + Latin)** — awaiting the user's review; precedent once approved:
 - "sign" as a noun is SIGNED: "is a sign of" → "shows". "only one" enters ONLY: "a single

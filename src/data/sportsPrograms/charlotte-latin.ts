@@ -541,11 +541,11 @@ export const charlotteLatin: SportsProgram = {
       },
       {
         label: 'Concussion protocol',
-        text: 'Not published as a policy document — a genuine gap, unlike its CISAA peers who publish theirs',
+        text: 'Not published as a policy document — a genuine gap',
       },
     ],
     careNote:
-      'Worth asking about on a tour: Latin publishes no team doctor, hospital partner or concussion protocol. By contrast, Charlotte Country Day names OrthoCarolina, Cannon names Novant, Charlotte Christian names Atrium and Providence Day details a full in-house model. The pool is also owned and run by SwimMAC Carolina, a third-party club, not the school.',
+      'Worth asking about on a tour: Latin publishes no team doctor, hospital partner or concussion protocol. The pool is also owned and run by SwimMAC Carolina, a third-party club, not the school.',
     sources: [
       {
         label: 'charlottelatin.org — Athletics Facilities',

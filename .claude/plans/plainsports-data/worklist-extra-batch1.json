@@ -3,12 +3,14 @@
   "dir": "src/data/sportsPrograms",
   "note": "Off-worklist units added by hand (plan plainsports, Research bookkeeping / Near-repeats)",
   "slugs": [
-    "providence-day"
+    "providence-day",
+    "charlotte-latin"
   ],
   "match": null,
-  "total": 2,
+  "total": 3,
   "counts": {
-    "providence-day": 2
+    "providence-day": 2,
+    "charlotte-latin": 1
   },
   "units": [
     {
@@ -30,6 +32,17 @@
       "rules": [],
       "extra": true,
       "text": "2026: beat Carmel Christian 2–0 for a third straight title, finishing 18–4–1, with Grayson Dudley scoring both goals. The 2024–25 season record is still unconfirmed."
+    },
+    {
+      "at": "charlotte-latin:facilities.care[4].text",
+      "slug": "charlotte-latin",
+      "path": "facilities.care[4].text",
+      "words": 16,
+      "grade": null,
+      "rules": [],
+      "extra": true,
+      "text": "Not published as a policy document — a genuine gap, unlike its CISAA peers who publish theirs",
+      "ruling": "user 2026-11-11: no comparisons with other schools"
     }
   ]
 }
