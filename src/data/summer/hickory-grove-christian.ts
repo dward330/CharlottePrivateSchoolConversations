@@ -34,7 +34,7 @@ export const hickoryGroveChristian: SummerProgram = {
     subhead:
       'Academic camps run 9 a.m.–1 p.m. and athletic camps 9 a.m.–12 p.m. (Football in the evening), Monday–Thursday, across roughly eight week-blocks from late May through late July.',
     intro:
-      'This is the **Summer 2023 catalog, recovered from the Internet Archive** — a representative slate, not the live 2026 list, because HGCS now hides camp names and prices behind the Brushfire platform. The live 2026 page confirms eight session windows consistent with the week-blocks below. **Prices are not published anywhere** (Brushfire-only), so no cost is shown. Grades are **rising** grades.',
+      'This is the **Summer 2023 catalog, from saved copies of the school’s old pages**. It is a representative list, not the live 2026 list, because HGCS now hides camp names and prices behind the Brushfire platform. The live 2026 page confirms eight session windows consistent with the week-blocks below. **Prices are not published anywhere** (Brushfire-only), so no cost is shown. Grades are **rising** grades.',
     categoryFilters: [
       { token: 'All', label: 'All' },
       { token: 'stem', label: 'STEM' },
@@ -255,11 +255,11 @@ export const hickoryGroveChristian: SummerProgram = {
     flags: [
       {
         kind: 'stale',
-        text: 'This is the Summer 2023 slate, recovered from Internet Archive snapshots. The live 2026 catalog is hidden behind the Brushfire registration platform, so the exact 2026 camp names were not recoverable; the live page does confirm eight session windows consistent with these week-blocks.',
+        text: 'This is the Summer 2023 list, from saved copies of the school’s old pages on the Internet Archive. The live 2026 catalog is hidden behind the Brushfire registration platform, so the exact 2026 camp names sit inside that platform. The live page does confirm eight session windows consistent with these week-blocks.',
       },
       {
         kind: 'gap',
-        text: 'No per-camp price is published on any live or archived page — pricing exists only inside the Brushfire checkout — so no Cost Planner card is built and the summer-cost figures are N/A. There is also no summer wrap-around care: camps are half-day and the after-school program is closed in summer.',
+        text: 'No per-camp price is published on any live or archived page. Pricing exists only inside the Brushfire checkout. So this page has no cost planner for these camps, and the summer-cost figures show N/A. There is also no summer wrap-around care. Camps are half-day, and the after-school program is closed in summer.',
       },
     ],
     sources: [

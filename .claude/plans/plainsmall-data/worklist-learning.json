@@ -1,0 +1,129 @@
+{
+  "generated": "2026-11-11",
+  "dir": "src/data/learningSupport",
+  "slugs": [
+    "cannon",
+    "charlotte-catholic",
+    "charlotte-country-day",
+    "davidson-day",
+    "hickory-grove-christian"
+  ],
+  "match": null,
+  "total": 10,
+  "counts": {
+    "charlotte-catholic": 2,
+    "charlotte-country-day": 5,
+    "davidson-day": 2,
+    "hickory-grove-christian": 1
+  },
+  "units": [
+    {
+      "at": "charlotte-catholic:services.verdicts.attn.head",
+      "slug": "charlotte-catholic",
+      "path": "services.verdicts.attn.head",
+      "words": 12,
+      "grade": null,
+      "rules": [
+        "jargon:executive function"
+      ],
+      "text": "A one-semester Academic Skills course in executive function, then Guided Academic Support."
+    },
+    {
+      "at": "charlotte-catholic:staff.note.muted",
+      "slug": "charlotte-catholic",
+      "path": "staff.note.muted",
+      "words": 31,
+      "grade": 11.7,
+      "rules": [
+        "long"
+      ],
+      "text": "Counselors are assigned by last name (A–De, Di–Ho, Hu–Mi, Mo–She, Shi–Z) and stay the same for all four years; the Director of Counseling counsels students new to the school in grades 10–12."
+    },
+    {
+      "at": "charlotte-country-day:lead.strong",
+      "slug": "charlotte-country-day",
+      "path": "lead.strong",
+      "words": 30,
+      "grade": 18.1,
+      "rules": [
+        "grade"
+      ],
+      "text": "Country Day’s Educational Resource Program “assists students in grades junior kindergarten through grade 12,” with one-on-one learning support in the Lower and Middle Schools, academic coaching in the Upper School, and accommodations for students with a documented disability."
+    },
+    {
+      "at": "charlotte-country-day:eligibility.eligible",
+      "slug": "charlotte-country-day",
+      "path": "eligibility.eligible",
+      "words": 33,
+      "grade": 18.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Accommodations are for “students with documented disabilities,” which a licensed service provider must document “through a full psychoeducational evaluation.” Learning-support sessions are different: the Lower School says a psychoeducational evaluation “is not required for services,” and Middle School support is open to students “both with and without formal testing.”"
+    },
+    {
+      "at": "charlotte-country-day:services.groups[0].rows[10].detail",
+      "slug": "charlotte-country-day",
+      "path": "services.groups[0].rows[10].detail",
+      "words": 34,
+      "grade": 12.6,
+      "rules": [
+        "grade"
+      ],
+      "text": "Formal accommodations need a full psychoeducational evaluation, reviewed every three years in Lower and Middle School and every four in Upper School, and submitted through the ERP’s secure online form. Learning-support sessions need none."
+    },
+    {
+      "at": "charlotte-country-day:testing.headline",
+      "slug": "charlotte-country-day",
+      "path": "testing.headline",
+      "words": 30,
+      "grade": 11.1,
+      "rules": [],
+      "text": "Lower School students are screened three times a year, and the Educational Resource Program tiers support from the results. Formal accommodations need a full psychoeducational evaluation from an outside provider."
+    },
+    {
+      "at": "charlotte-country-day:testing.entries[3].muted",
+      "slug": "charlotte-country-day",
+      "path": "testing.entries[3].muted",
+      "words": 33,
+      "grade": 15.2,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The accommodations page says evaluations are reviewed every three years in Lower and Middle School and every four in Upper School; the linked policy says three years through grade 5 and four from grade 6."
+    },
+    {
+      "at": "davidson-day:eligibility.eligible",
+      "slug": "davidson-day",
+      "path": "eligibility.eligible",
+      "words": 30,
+      "grade": 15,
+      "rules": [
+        "grade"
+      ],
+      "text": "Each LEC service is “available to students at all grade levels,” and the center supports “students ages two through grade 12.” Families “submit our request form,” and the Director of Learning Services “will then call you to discuss the kind of academic support your child needs.” The 2026-2027 request form asks for no diagnosis, evaluation or other documentation."
+    },
+    {
+      "at": "davidson-day:services.verdicts.attn.head",
+      "slug": "davidson-day",
+      "path": "services.verdicts.attn.head",
+      "words": 9,
+      "grade": null,
+      "rules": [
+        "jargon:executive function"
+      ],
+      "text": "One-on-one academic coaching for executive function, at every grade."
+    },
+    {
+      "at": "hickory-grove-christian:eligibility.headline",
+      "slug": "hickory-grove-christian",
+      "path": "eligibility.headline",
+      "words": 30,
+      "grade": 11.9,
+      "rules": [],
+      "text": "ESS serves students with identified learning differences, including any student who arrives with a 504, an IEP or a prior school’s accommodations plan. Emotional and behavioral intervention is outside its scope."
+    }
+  ]
+}

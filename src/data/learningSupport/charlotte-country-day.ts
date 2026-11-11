@@ -107,7 +107,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
   colors: { brand: '#00664A', gold: '#FFC757' },
   lead: {
     strong:
-      'Country Day’s Educational Resource Program “assists students in grades junior kindergarten through grade 12,” with one-on-one learning support in the Lower and Middle Schools, academic coaching in the Upper School, and accommodations for students with a documented disability.',
+      'Country Day’s Educational Resource Program “assists students in grades junior kindergarten through grade 12,” the school says. The program gives one-on-one learning support in the Lower and Middle Schools and academic coaching in the Upper School. Students with a documented disability can get accommodations.',
     muted: 'Sessions are billed to the student’s account: $82 for 45 minutes in the Lower School, $85 a session in the Middle and Upper Schools.',
   },
   stats: [
@@ -121,7 +121,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
     headline:
       'Country Day gives school-based accommodations to students with a documented disability, from its own approved list. Learning-support sessions need no testing.',
     eligible:
-      'Accommodations are for “students with documented disabilities,” which a licensed service provider must document “through a full psychoeducational evaluation.” Learning-support sessions are different: the Lower School says a psychoeducational evaluation “is not required for services,” and Middle School support is open to students “both with and without formal testing.”',
+      'Accommodations are for “students with documented disabilities,” which a licensed service provider must document “through a full psychoeducational evaluation.” Learning-support sessions are different. A psychoeducational evaluation (testing of how a child learns) “is not required for services,” the Lower School says. Middle School support is open to students “both with and without formal testing.”',
     plan:
       'The school’s pages do not mention 504 plans or IEPs. A full psychoeducational evaluation is the only evaluation accepted for formal accommodations: “A simple doctor’s note or medical diagnosis (e.g., ADHD or anxiety) does not provide enough information to justify accommodations.” Supports an outside provider suggests “are considered recommendations and are not mandated.”',
     scope:
@@ -230,7 +230,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
           {
             service: 'Eligibility documentation',
             code: 'REQUIRED',
-            detail: 'Formal accommodations need a full psychoeducational evaluation, reviewed every three years in Lower and Middle School and every four in Upper School, and submitted through the ERP’s secure online form. Learning-support sessions need none.',
+            detail: 'Formal accommodations need a full psychoeducational evaluation (testing of how a child learns). The evaluation is submitted through the ERP’s secure online form. It is reviewed every three years in Lower and Middle School and every four in Upper School. Learning-support sessions need none.',
             needs: ['read', 'attn', 'math', 'speech', 'motor', 'social'],
           },
         ],
@@ -341,7 +341,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
 
   testing: {
     headline:
-      'Lower School students are screened three times a year, and the Educational Resource Program tiers support from the results. Formal accommodations need a full psychoeducational evaluation from an outside provider.',
+      'Lower School students are screened three times a year. The Educational Resource Program uses the results to decide how much support each student gets. Formal accommodations need a full psychoeducational evaluation from an outside provider.',
     entries: [
       {
         code: 'IH',
@@ -363,7 +363,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
         code: 'RF',
         title: 'Psychoeducational evaluation',
         text: '“A licensed service provider must document disabilities through a full psychoeducational evaluation,” at the family’s cost. The school publishes a preferred-provider list, updated January 2026.',
-        muted: 'The accommodations page says evaluations are reviewed every three years in Lower and Middle School and every four in Upper School; the linked policy says three years through grade 5 and four from grade 6.',
+        muted: 'The accommodations page says evaluations are reviewed every three years in Lower and Middle School and every four in Upper School. But the linked policy says three years through grade 5 and four from grade 6.',
       },
       {
         code: 'IH',

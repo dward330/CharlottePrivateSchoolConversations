@@ -1112,7 +1112,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         kind: 'gap',
-        text: 'No **sibling or multi-week discount** is published for 2026. A 2020 brochure offered 10% for pairing a morning and an afternoon camp with Super Care; nothing like it appears in any current source, so it should not be assumed to still exist.',
+        text: 'No **sibling or multi-week discount** is published for 2026. A 2020 brochure offered 10% for pairing a morning and an afternoon camp with Super Care. No current school page offers it, so do not count on it.',
       },
       {
         kind: 'gap',

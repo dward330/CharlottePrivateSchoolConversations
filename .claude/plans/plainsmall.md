@@ -1,7 +1,7 @@
 ---
 name: plainsmall
 title: Teach the plain-language checker to skip prose no parent sees (one shared flag-visibility rule read by the components and the checker, plus a build check that keeps them in agreement), then rewrite the five small areas' English prose (After School, Global Exposure, Summer Programs, Learning Support, High School Placement; 97 rendered sites) and the 5 jargon chrome labels in en.json; English in three reviewed batches, then all nine prose locales and nine chrome catalogs
-status: in-progress
+status: english-done
 phases: 2
 batches: 3                     # Phase 1 Part 2 is built in three batches, each with its own review stop
 created: 2026-11-10
@@ -641,7 +641,10 @@ commit.
 | 3 | Summer charlotte-prep `costPlanner.fees[2].label` | W | "The registration form showed several prices $25 below the brochure, consistent with that saving, but two of its cells were higher than the brochure, so the brochure is used here as the regular price list." | **Move.** Prose keeps the bold quote and becomes "The prices below are the brochure’s regular prices." Append to `costPlanner.flags` (empty today, so it becomes `flags[0]`): `{ kind: 'verify', text: '<the removed sentence, verbatim>' }`. Guard (m) on the prose unit loses `$25`: expected, because the unit is in the move commit |
 | 3 | Summer hickory-grove-christian `catalog.intro` | + | "**Summer 2023 catalog, recovered from the Internet Archive**" | Rewrite, bold kept around new words: "**Summer 2023 catalog, from saved copies of the school’s old pages**". Keep "a representative slate" → "a representative list" (sample kept) |
 | 3 | Summer hickory-grove-christian `catalog.flags[0].text` | W | "recovered from Internet Archive snapshots … the exact 2026 camp names were not recoverable" | Rewrite: "from saved copies of the school’s old pages on the Internet Archive … the school does not publish the 2026 camp names outside Brushfire" |
-| 3 | Summer hickory-grove-christian `catalog.flags[1].text` | W | "so no Cost Planner card is built and the summer-cost figures are N/A" | Rewrite with the Batch 1 HG wording: "so this page has no cost planner for it, and the summer-cost figures show N/A" |
+| 3 | Summer hickory-grove-christian `catalog.flags[1].text` | W | "so no Cost Planner card is built and the summer-cost figures are N/A" | Rewrite with the Batch 1 HG wording: "so this page has no cost planner for it, and the summer-cost figures show N/A" (as built: "for these camps", so the referent names its noun after the split) |
+| 3 | Summer gaston-day `catalog.camps[17..22].desc` (6) | + | "Registration closed at the time of this research." | **Found by the Batch 3 re-sweep.** Rewrite: "The school lists registration as closed." (the school's catalog marks them "(reg. closed)") |
+| 3 | Summer charlotte-latin `costPlanner.flags[0].text` | + | "The site was searched for all four terms" | **Found by the wider first-person sweep. Move** (second fixes commit, `b11f2a86`): the sentence goes verbatim into an appended verify flag (`flags[1]`); the prose keeps "The only thing the school’s site calls a discount is the Super Care bundle." |
+| 3 | Summer charlotte-catholic `catalog.flags[1].text`, `catalog.camps[2].desc` | + | "a 2024 artifact … reproduced as published, not confirmed for 2026"; "rather than a confirmed 2026 slate" | **Found by the Batch 3 reviewer.** Rewrite: "The Cougar Football Camp flyer is from 2024, but the current site still links to it. Its $160 price and grade range are shown as the flyer lists them, and the school has not confirmed them for 2026."; "…not a confirmed 2026 list." (VERIFIED kept) |
 
 **Marker classes.** "capture", "snapshots", "recovered" and "archive" carry STALE or
 THIRDPARTY today. So each rewrite keeps a word of the same class: "saved copy" / "saved
@@ -855,9 +858,9 @@ shipped*) only after Batch 3.
 | 1 (fixes) | "plainsmall: batch 1 fixes — Cannon catalog claim, CCD UltraCamp note to verify" (SHA: `dcebb7f2`) | [review-batch1-fixes.md](plainsmall-data/review-batch1-fixes.md) | — | |
 | 1 | "plainsmall: batch 1 English — After School" (`b197f8a3`), then the user-approved `catalogIntro` render fix (`992b963b`) | [review-batch1.md](plainsmall-data/review-batch1.md) | 15 in 11 rows, all fixed (mostly bare referents after a split, plus one weakened and one strengthened claim, and three lines that still sounded unsure); plus 5 issues outside the rows, all fixed (3 bookkeeping lines the sweep missed, 1 unhedged inference, 1 not-found form) | approved 2026-11-10, no rulings |
 | 2 (fixes) | "plainsmall: batch 2 fixes — Cannon and Country Day cross-school claims" (SHA: `7360b3b5`) | [review-batch2-fixes.md](plainsmall-data/review-batch2-fixes.md) | — (the reviewer re-checked both claims: true) | |
-| 2 | "plainsmall: batch 2 English — Global Exposure" | [review-batch2.md](plainsmall-data/review-batch2.md) | 6 in 6 rows, all fixed (2 split referents that lost a scope, 2 strengthened claims, 1 packet listing turned into a plain fact, 1 "has seven partners" read as current) | |
-| 3 (fixes) | "plainsmall: batch 3 fixes — Prep price note to verify" (SHA: ) | review-batch3-fixes.md | — | |
-| 3 | "plainsmall: batch 3 English — Summer, Learning Support, HSP, chrome" | review-batch3-{summer,learning,hsp}.md | | |
+| 2 | "plainsmall: batch 2 English — Global Exposure" (`a6106619`) | [review-batch2.md](plainsmall-data/review-batch2.md) | 6 in 6 rows, all fixed (2 split referents that lost a scope, 2 strengthened claims, 1 packet listing turned into a plain fact, 1 "has seven partners" read as current) | approved 2026-11-11, no rulings |
+| 3 (fixes) | "plainsmall: batch 3 fixes — Prep price note to verify" (SHA: `9a97b103`), then "plainsmall: batch 3 fixes — Latin summer search note to verify" (SHA: `b11f2a86`) | [review-batch3-fixes.md](plainsmall-data/review-batch3-fixes.md) | — (the reviewer checked both moves: the prose still says what the school publishes) | |
+| 3 | "plainsmall: batch 3 English — Summer, Learning Support, HSP, chrome" | [summer](plainsmall-data/review-batch3-summer.md), [learning](plainsmall-data/review-batch3-learning.md), [hsp](plainsmall-data/review-batch3-hsp.md) | 6, all fixed (1 meaning change: Catholic "the cost planner for these camps" implied one exists for the fourth camp; 1 dropped estimate word, Covenant "based on" → back to "patterned on"; 4 bare pronouns after a split); plus 2 Catholic bookkeeping lines outside the rows, rewritten | |
 
 ### Unit notes (things the drafter must not get wrong)
 
@@ -1116,6 +1119,22 @@ precedent):
     current count.
   - A sentence never ends on a month name ("March."), because guard (g) reads the
     period as part of the date token.
+
+- **Batch 3 (Summer, Learning Support, HSP, chrome)** — awaiting the user's review:
+  - A whole-card omission stays whole: "this page leaves out the cost planner", never "the
+    cost planner for these camps" when another camp has a price (Catholic).
+  - "omitted rather than modeled" keeps both classes: "leaves out … instead of estimating"
+    (EXCLUDED + ESTIMATE).
+  - "patterned on" stays: "based on" drops the estimate.
+  - A quote's inner punctuation is part of the quote (guard (d)). Split around it ("…grade
+    12,” the school says."), never inside it.
+  - A since-research timestamp ("closed at the time of this research") becomes what the
+    school lists ("The school lists registration as closed.").
+  - A research step that holds a count word ("searched for all four terms") is a move to a
+    verify flag in a fixes commit, not a rewrite: deleting it trips guard (n).
+  - The two glosses: "executive function (planning, organizing and focus skills)" and
+    "psychoeducational evaluation (testing of how a child learns)", the latter on the first
+    unquoted occurrence in a unit.
 
 *Rulings from later batches are added here by `/implement`.* If a resume
 command arrives with the `<, with these rulings: …>` placeholder unfilled, read it as
@@ -2081,6 +2100,100 @@ Day's 8 partners are individual Round Square exchanges logged 2022–25; Latin's
   - Providence Day's collapsed teaser shows the new `trips.headline`.
   - Latin at 390px: `scrollWidth` = `clientWidth` (390).
 
+### Batch 3 — Summer, Learning Support, HSP and chrome English (2026-11-11)
+
+**Two fixes commits.**
+- **`9a97b103`, the Prep move, as planned:** the reconciliation sentence moved verbatim
+  into `costPlanner.flags[0]` (the array was empty).
+- **`b11f2a86`, a Latin move the plan did not list:** the wording pass first rewrote "The
+  site was searched for all four terms" away, and guard (n) failed on the lost "four". A
+  research step carrying a count is evidence, so it became a move. The sentence is now
+  `costPlanner.flags[1]`, and the gap flag keeps its not-published finding and its ONLY.
+- The Summer guards run with `--base b11f2a86`. Learning Support and HSP are unchanged
+  between the two SHAs.
+
+**Negative tests (Step 1e, Batch 3 part):** each exited 1 naming its class and path, and
+each file was restored `cmp`-clean.
+- LS Country Day `testing.headline` "outside provider" → "provider": REFERRAL lost.
+  DOCUMENTATION stays present through "psychoeducational evaluation", as it should.
+- HSP Prep `outcomes.headline` "accepted into" → "enrolled at": ACCEPTED lost and ENROLLED
+  added.
+
+**Worklists:** Summer 18 (19 − Prep), Learning Support 10, HSP 3, as predicted.
+Bookkeeping allow file: 9 units.
+- Hickory Grove `catalog.intro`, from the census.
+- **Gaston Day ×6** camp descriptions ("at the time of this research"), from the re-sweep.
+  The census predates the `this research` alternative.
+- **Catholic ×2** football-flyer lines, found by the reviewer.
+
+**Rows and checks:**
+- **Rows:** Summer 27, Learning Support 10, HSP 3. All pass the hook, every `--check`
+  exits 0, and none is above grade 10.
+- **Hook loops:** every one of the five areas' dirs, plus `en.json`, reports 0 issues.
+- **en.json:** `git diff` shows exactly the five values.
+
+**Independent review: 6 findings, all fixed.**
+- Catholic: "the cost planner for these camps" implied the planner exists for the fourth,
+  priced camp.
+- Covenant: "based on" dropped the estimate, so it is back to "patterned on".
+- Four bare pronouns after a split: Country Day ×2, Davidson Day, Prep HSP.
+
+The reviewer checked and kept the "for these camps" referent in Hickory Grove, both glosses,
+the CCD two-statement contradiction, all five chrome labels and both moves.
+
+**`npm run check:plain` after Batch 3** (Flagged):
+
+| Area | Before plan | Now | Grade >10 now |
+|---|--:|--:|--:|
+| after-school | 29 | **0** | 0 |
+| international-travel | 22 | **0** | 2 (the Batch 2 residuals) |
+| summer-programs | 13 | **0** | 0 |
+| learning-support | 8 | **0** | 0 |
+| high-school-placement | 2 | **0** | 0 |
+| chrome | 5 | **0** | 1 (pre-existing, under 30 words) |
+| **All areas** | **292** (after Part 1) | **213** | — |
+
+Every other area matches the Part 1 baseline (the 79-unit drop is exactly these six
+rows).
+
+**Checks:**
+- **Build:** `npx tsc -b` and `npx vite build` are clean.
+- **Step 6 list:** green, and `test:plain` passes 32/32.
+- **`check:live` (`--verbose`, es), Phase 2's input:**
+  - after-school 49;
+  - international-travel 31;
+  - summer-programs 29 (27 rows + the 2 moved units);
+  - learning-support 10;
+  - high-school-placement 3;
+  - no other topic.
+
+  The two new verify flags are new units, so they do not appear as stale. Phase 2 Step 2
+  must translate both fresh.
+
+**Browser** (headed Chrome, `vite preview` unless noted):
+- **Rendering:** all 42 changed Summer, LS and HSP units render, and no section shows a
+  literal `*`. The two LS `verdicts.attn.head` lines render once the Attention tab is
+  selected (`need === 'all'` shows no verdict).
+- **Verify notes:** both new ones (Prep, Latin) show on `vite` dev and are absent on
+  preview.
+- **NOT STATED chips, preview vs the live site:** Catholic 15/15, Country Day 8/8,
+  Davidson Day 17/17, Hickory Grove 13/13, Cannon 11/11.
+- **LS tabs:** they read "Attention & planning (executive function)" and "Social &
+  emotional". At 320px, page `scrollWidth` = `clientWidth` (305), and the tab row does not
+  overflow.
+- **Compare:** "College Connections" sits at row 27/30 of College Support, after "Fit &
+  Rank", where "Institutional Leverage" sits live. "D1 / Top-College Enrollment" sits at
+  32/47 of Sports, as live.
+- **390px:** Trinity Summer, every card open: 375 = 375.
+- **The HSP chip ("ACCEPTED ≠ ENROLLED") renders on no page, and neither did the old
+  label: this is the same on `main`.** Step 7's expectation was wrong.
+  - Trinity has no `outcomes` card (user decision 2026-09-16), and the chip lives in
+    `OutcomesBody`.
+  - Prep publishes `classTallies`, and the component drops the chip there on purpose,
+    because per-graduate lists are enrollment.
+  - The new label is right, and it will show for a future K–8 school with an outcomes
+    card and no class lists. No component change was made.
+
 ### Candidates noticed, not acted on
 - **`scripts/plain_language.json` jargon candidates** seen in Batch 1: "orphaned" (Cannon's
   "orphaned backup URL", kept because the clause is shared byte-identically) and
@@ -2098,3 +2211,9 @@ Day's 8 partners are individual Round Square exchanges logged 2022–25; Latin's
     school's own voice, unquoted (a detached school description).
   - Jargon candidates for `plain_language.json`: "oversubscribed" (rewritten in Country
     Day and Latin) and "inaugural" (kept in Cannon, because "first" would enter FIRST).
+- **Batch 3:**
+  - `highSchoolPlacement.acceptanceNotMatriculation` renders for no shipped school
+    (above). If that is not intended, the fix is a component change and needs the user.
+  - Jargon candidates for `plain_language.json`: "psychoeducational" (glossed, kept as the
+    school's term), "pro-rate" (kept per the Unit note) and "portal-gated" (kept: it is a
+    bold span).

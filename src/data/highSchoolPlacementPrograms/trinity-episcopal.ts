@@ -75,7 +75,7 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
       {
         when: 'Middle School — the boarding track, if a family wants it',
         kind: 'A distinct route',
-        text: 'Boarding placement is handled separately and by a different person. It is not a marginal path here: 12% of all graduates since 2004 went to boarding schools, and the destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School.',
+        text: 'Boarding placement is handled separately and by a different person. It is not a minor path here: 12% of all graduates since 2004 went to boarding schools. The destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School.',
       },
       {
         when: 'Grade 8 — the decision',

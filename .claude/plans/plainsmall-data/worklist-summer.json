@@ -1,0 +1,226 @@
+{
+  "generated": "2026-11-11",
+  "dir": "src/data/summer",
+  "slugs": [
+    "cannon",
+    "carmel-christian",
+    "charlotte-catholic",
+    "charlotte-christian",
+    "charlotte-country-day",
+    "charlotte-latin",
+    "charlotte-prep",
+    "covenant-day",
+    "gaston-day",
+    "hickory-grove-christian",
+    "providence-day",
+    "trinity-episcopal"
+  ],
+  "match": null,
+  "total": 18,
+  "counts": {
+    "cannon": 1,
+    "charlotte-catholic": 2,
+    "charlotte-christian": 2,
+    "charlotte-country-day": 1,
+    "charlotte-latin": 2,
+    "charlotte-prep": 1,
+    "covenant-day": 2,
+    "gaston-day": 2,
+    "hickory-grove-christian": 2,
+    "trinity-episcopal": 3
+  },
+  "units": [
+    {
+      "at": "cannon:costPlanner.flags[0].text",
+      "slug": "cannon",
+      "path": "costPlanner.flags[0].text",
+      "words": 38,
+      "grade": 15.1,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Two things changed between 2024 and 2026 that older camp-directory listings still get wrong: the **lunch hour itself is now a paid add-on** (it used to be free, with only the food charged), and the $25 \"registration fee\" became a **$50 membership fee**."
+    },
+    {
+      "at": "charlotte-catholic:catalog.camps[1].desc",
+      "slug": "charlotte-catholic",
+      "path": "catalog.camps[1].desc",
+      "words": 33,
+      "grade": 11.9,
+      "rules": [],
+      "text": "Multi-session baseball camp with dynamic warm-ups, baserunning, offensive and defensive station work and age-grouped gameplay. Held at Freedom Park (Dilworth LL Ballfields) rather than on the CCHS campus; campers bring their own lunch."
+    },
+    {
+      "at": "charlotte-catholic:catalog.flags[0].text",
+      "slug": "charlotte-catholic",
+      "path": "catalog.flags[0].text",
+      "words": 45,
+      "grade": 10.5,
+      "rules": [
+        "long"
+      ],
+      "text": "Three of the four camps publish no price on a school page. Eddie Hull Baseball handles fees entirely through a third-party registration site, and the basketball and soccer camps publish none at all — which is why the Cost Planner card is omitted rather than modeled."
+    },
+    {
+      "at": "charlotte-christian:catalog.flags[0].text",
+      "slug": "charlotte-christian",
+      "path": "catalog.flags[0].text",
+      "words": 38,
+      "grade": 10.5,
+      "rules": [
+        "long"
+      ],
+      "text": "Charlotte Christian publishes **no full-day camp**. Every session is three hours, so a working parent needing full-day coverage pairs a morning and an afternoon camp — two separate registrations, though the noon–1 p.m. bridge care between them is free."
+    },
+    {
+      "at": "charlotte-christian:costPlanner.aside.text",
+      "slug": "charlotte-christian",
+      "path": "costPlanner.aside.text",
+      "words": 50,
+      "grade": 11.6,
+      "rules": [
+        "long"
+      ],
+      "text": "Camps are **non-refundable within two weeks** of their start date unless the school cancels, and canceling costs a $25 fee. Unusually, the published risk here is the opposite of selling out: every camp has a minimum enrollment and the school reserves the right to cancel one that does not meet it."
+    },
+    {
+      "at": "charlotte-country-day:costPlanner.flags[1].text",
+      "slug": "charlotte-country-day",
+      "path": "costPlanner.flags[1].text",
+      "words": 39,
+      "grade": 9,
+      "rules": [
+        "long"
+      ],
+      "text": "No **sibling or multi-week discount** is published for 2026. A 2020 brochure offered 10% for pairing a morning and an afternoon camp with Super Care; nothing like it appears in any current source, so it should not be assumed to still exist."
+    },
+    {
+      "at": "charlotte-latin:costPlanner.fees[3].label",
+      "slug": "charlotte-latin",
+      "path": "costPlanner.fees[3].label",
+      "words": 33,
+      "grade": 12.7,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "The bus runs round-trip from Westminster Presbyterian Church on Colville Road for **$70.00/week, per rider**; riders must be at least 4 years old, and the school does not pro-rate it for a late registration."
+    },
+    {
+      "at": "charlotte-latin:costPlanner.aside.text",
+      "slug": "charlotte-latin",
+      "path": "costPlanner.aside.text",
+      "words": 45,
+      "grade": 10.5,
+      "rules": [],
+      "text": "Weekly registration closes at 12:00pm on the Wednesday before each session, and camps must be **paid in full at registration** — there is no deposit. Canceling costs $50.00 per camp in March and $100.00 in April; from **May 1 nothing is refundable**, even if the camp has a waitlist."
+    },
+    {
+      "at": "charlotte-prep:catalog.camps[3].desc",
+      "slug": "charlotte-prep",
+      "path": "catalog.camps[3].desc",
+      "words": 31,
+      "grade": 16.3,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "An add-on for Traditional campers, taught by Charlotte Prep teachers in \"small groups of 6 or less\": literacy, math and social-skills sessions for rising MK–2 (Mon–Wed), reading and writing, math and critical-thinking sessions for rising 3–5 (Thu–Fri)."
+    },
+    {
+      "at": "covenant-day:catalog.intro",
+      "slug": "covenant-day",
+      "path": "catalog.intro",
+      "words": 43,
+      "grade": 9.5,
+      "rules": [
+        "long"
+      ],
+      "text": "All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**, so prices below are estimates from the third-party current range ($170–$325/week) and the school’s own 2018 catalog — the care add-on rates on the Cost Planner are the school’s own current figures."
+    },
+    {
+      "at": "covenant-day:catalog.flags[0].text",
+      "slug": "covenant-day",
+      "path": "catalog.flags[0].text",
+      "words": 38,
+      "grade": 16.9,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Per-camp prices and hours are **estimates**: current figures are gated behind the CampBrain registration portal, so the range shown is the third-party current figure ($170–$325/week), with hours patterned on the school’s own 2018 catalog where the same camp existed."
+    },
+    {
+      "at": "gaston-day:catalog.flags[1].text",
+      "slug": "gaston-day",
+      "path": "catalog.flags[1].text",
+      "words": 38,
+      "grade": 16.6,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "Partner-camp prices (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 and Nike) are set and billed by each provider, not by Gaston Day, and are not published in the school’s catalog — they show as \"—\" rather than being estimated."
+    },
+    {
+      "at": "gaston-day:costPlanner.fees[2].label",
+      "slug": "gaston-day",
+      "path": "costPlanner.fees[2].label",
+      "words": 45,
+      "grade": 11,
+      "rules": [],
+      "text": "Lunch Care is REQUIRED for campers staying on campus between a morning and an afternoon camp, and includes lunch from Sparty’s Dining Service. It is already included in full-day Camp Spartan and Camp Spartan Jr tuition, so add it only when combining two half-day camps."
+    },
+    {
+      "at": "hickory-grove-christian:catalog.flags[0].text",
+      "slug": "hickory-grove-christian",
+      "path": "catalog.flags[0].text",
+      "words": 40,
+      "grade": 11.7,
+      "rules": [],
+      "text": "This is the Summer 2023 slate, recovered from Internet Archive snapshots. The live 2026 catalog is hidden behind the Brushfire registration platform, so the exact 2026 camp names were not recoverable; the live page does confirm eight session windows consistent with these week-blocks."
+    },
+    {
+      "at": "hickory-grove-christian:catalog.flags[1].text",
+      "slug": "hickory-grove-christian",
+      "path": "catalog.flags[1].text",
+      "words": 49,
+      "grade": 20.6,
+      "rules": [
+        "long",
+        "grade"
+      ],
+      "text": "No per-camp price is published on any live or archived page — pricing exists only inside the Brushfire checkout — so no Cost Planner card is built and the summer-cost figures are N/A. There is also no summer wrap-around care: camps are half-day and the after-school program is closed in summer."
+    },
+    {
+      "at": "trinity-episcopal:catalog.headline",
+      "slug": "trinity-episcopal",
+      "path": "catalog.headline",
+      "words": 30,
+      "grade": 14.2,
+      "rules": [
+        "grade"
+      ],
+      "text": "75 named camps across six weeks for rising K–8, from a $225 half-day craft camp to a $785 three-week academic session — and open to any child in the community, not only Trinity families."
+    },
+    {
+      "at": "trinity-episcopal:costPlanner.fees[4].label",
+      "slug": "trinity-episcopal",
+      "path": "costPlanner.fees[4].label",
+      "words": 32,
+      "grade": 10.2,
+      "rules": [],
+      "text": "**Financial aid excludes CAMMP, TES Academy and Black Rocket camps** — most of the coding slate and the whole academic strand. Aid is first-come, first-served; non-Trinity families submit two most recent tax statements."
+    },
+    {
+      "at": "trinity-episcopal:costPlanner.aside.text",
+      "slug": "trinity-episcopal",
+      "path": "costPlanner.aside.text",
+      "words": 75,
+      "grade": 10.6,
+      "rules": [],
+      "text": "The balance is due and withdrawn from the account on file that day; registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session, and a **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a canceled registration's deposit and fee can be transferred to another camp."
+    }
+  ]
+}

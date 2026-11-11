@@ -1158,7 +1158,7 @@ export const cannon: SummerProgram = {
     flags: [
       {
         kind: 'stale',
-        text: 'Two things changed between 2024 and 2026 that older camp-directory listings still get wrong: the **lunch hour itself is now a paid add-on** (it used to be free, with only the food charged), and the $25 "registration fee" became a **$50 membership fee**.',
+        text: 'Two things changed between 2024 and 2026, and older camp-directory listings still get them wrong. The **lunch hour itself is now a paid add-on**; it used to be free, with only the food charged. And the $25 "registration fee" became a **$50 membership fee**.',
       },
       {
         kind: 'gap',

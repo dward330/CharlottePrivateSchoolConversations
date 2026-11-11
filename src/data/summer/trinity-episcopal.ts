@@ -30,7 +30,7 @@ import type { SummerProgram } from '../summerPrograms.ts'
 export const trinityEpiscopal: SummerProgram = {
   catalog: {
     headline:
-      '75 named camps across six weeks for rising K–8, from a $225 half-day craft camp to a $785 three-week academic session — and open to any child in the community, not only Trinity families.',
+      '75 named camps across six weeks for rising K–8, from a $225 half-day craft camp to a $785 three-week academic session. Camps are open to any child in the community, not only Trinity families.',
     subhead:
       'Camps run 15 June to 24 July 2026 on the uptown campus. Half days are 9 a.m.–12 p.m. or 1–4 p.m., full days 9 a.m.–4 p.m., and two of the six weeks are four-day weeks.',
     // No intro (user, 2026-09-16) — it explained the SAMPLING (33 of 85 rows)
@@ -610,7 +610,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         label:
-          '**Financial aid excludes CAMMP, TES Academy and Black Rocket camps** — most of the coding slate and the whole academic strand. Aid is first-come, first-served; non-Trinity families submit two most recent tax statements.',
+          '**Financial aid excludes CAMMP, TES Academy and Black Rocket camps**. Those are most of the coding list and the whole academic strand. Aid is first-come, first-served. Non-Trinity families submit their two most recent tax statements.',
         note: true,
       },
       {
@@ -626,7 +626,7 @@ export const trinityEpiscopal: SummerProgram = {
     ],
     aside: {
       title: 'Registrations become final on May 1.',
-      text: 'The balance is due and withdrawn from the account on file that day; registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session, and a **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a canceled registration\'s deposit and fee can be transferred to another camp.',
+      text: 'The balance is due and withdrawn from the account on file that day. Registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session. A **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a canceled registration\'s deposit and fee can be transferred to another camp.',
     },
     // No flags (user, 2026-09-16) — research apparatus about the camp
     // catalog (sampling, source precedence, unpublished capacity and dates).

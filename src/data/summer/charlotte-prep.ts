@@ -101,7 +101,7 @@ export const charlottePrep: SummerProgram = {
       },
       {
         name: 'Midsummer Tune-Up tutoring',
-        desc: 'An add-on for Traditional campers, taught by Charlotte Prep teachers in "small groups of 6 or less": literacy, math and social-skills sessions for rising MK–2 (Mon–Wed), reading and writing, math and critical-thinking sessions for rising 3–5 (Thu–Fri).',
+        desc: 'An add-on for Traditional campers, taught by Charlotte Prep teachers in "small groups of 6 or less". Rising MK–2 (Mon–Wed): literacy, math and social-skills sessions. Rising 3–5 (Thu–Fri): reading and writing, math and critical-thinking sessions.',
         category: 'academic',
         categoryLabel: 'Tutoring',
         grades: ['mk', 'k', '1', '2', '3', '4', '5'],

@@ -68,7 +68,7 @@ export const charlottePrep: HighSchoolPlacementProgram = {
   /* -------------------------------------------- 2a where graduates go -- */
   outcomes: {
     headline:
-      '97% of the Class of 2026 were accepted into one or both of their top two high school choices — and Charlotte Prep has published a rate like it for every class since 2023.',
+      '97% of the Class of 2026 were accepted into one or both of their top two high school choices. Charlotte Prep has published a rate like it for every class since 2023.',
     subhead:
       'Fifteen members of the Class of 2026 were accepted to every school they applied to, the school says.',
     stats: [
@@ -147,7 +147,7 @@ export const charlottePrep: HighSchoolPlacementProgram = {
       {
         when: 'Fall of 8th grade — meetings and school visits',
         kind: 'Fit',
-        text: 'The team meets individually with each 8th grader and separately with each student\'s parents "to discuss their plans, their objectives for their child, and appropriate placement opportunities." Families are encouraged to visit open houses and tours, and students make day visits to the schools on their list.',
+        text: 'The team meets individually with each 8th grader. The team also meets separately with each student\'s parents "to discuss their plans, their objectives for their child, and appropriate placement opportunities." Families are encouraged to visit open houses and tours. Students make day visits to the schools on their list.',
       },
       {
         when: 'Grade 8 — interviews',

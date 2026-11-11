@@ -278,7 +278,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         name: 'Cheer Fundamentals — Legends Sports Academy',
-        desc: 'Formations, jumps, dance, stunting and tumbling, ending in a family showcase. Registration closed at the time of this research.',
+        desc: 'Formations, jumps, dance, stunting and tumbling, ending in a family showcase. The school lists registration as closed.',
         category: 'sports',
         categoryLabel: 'Sports',
         grades: ['lower'],
@@ -291,7 +291,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         name: 'Gymnastics Fundamentals — Legends Sports Academy',
-        desc: 'Vault, beam, bars and floor, ending in a family showcase. Registration closed at the time of this research.',
+        desc: 'Vault, beam, bars and floor, ending in a family showcase. The school lists registration as closed.',
         category: 'sports',
         categoryLabel: 'Sports',
         grades: ['lower'],
@@ -304,7 +304,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         name: 'Disney Princess Camp — Studio Elite',
-        desc: 'A new princess each day with stories, props and crafts. Registration closed at the time of this research.',
+        desc: 'A new princess each day with stories, props and crafts. The school lists registration as closed.',
         category: 'dance',
         categoryLabel: 'Dance',
         grades: ['lower'],
@@ -317,7 +317,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         name: 'Enchanted Mermaid Academy — Studio Elite',
-        desc: 'Ballet blended with skill-building gymnastics through imaginative movement and storytelling. Registration closed at the time of this research.',
+        desc: 'Ballet blended with skill-building gymnastics through imaginative movement and storytelling. The school lists registration as closed.',
         category: 'dance',
         categoryLabel: 'Dance',
         grades: ['lower'],
@@ -330,7 +330,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         name: 'Dance and Tumble — Studio Elite',
-        desc: 'Jazz, ballet and tumbling foundations building to an end-of-week performance. No experience necessary. Registration closed at the time of this research.',
+        desc: 'Jazz, ballet and tumbling foundations building to an end-of-week performance. No experience necessary. The school lists registration as closed.',
         category: 'dance',
         categoryLabel: 'Dance',
         grades: ['lower'],
@@ -343,7 +343,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         name: 'Beginning Ballet — Studio Elite',
-        desc: 'Plié, tendu, pirouette, grand jeté and reverence, plus ballet stories and pointe shoes. Registration closed at the time of this research.',
+        desc: 'Plié, tendu, pirouette, grand jeté and reverence, plus ballet stories and pointe shoes. The school lists registration as closed.',
         category: 'dance',
         categoryLabel: 'Dance',
         grades: ['lower'],
@@ -413,7 +413,7 @@ export const gastonDay: SummerProgram = {
       },
       {
         kind: 'gap',
-        text: 'Partner-camp prices (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 and Nike) are set and billed by each provider, not by Gaston Day, and are not published in the school’s catalog — they show as "—" rather than being estimated.',
+        text: 'Partner-camp prices (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 and Nike) are set and billed by each provider, not by Gaston Day. They are not published in the school’s catalog, so they show as "—" rather than being estimated.',
       },
       {
         kind: 'verify',
@@ -503,7 +503,7 @@ export const gastonDay: SummerProgram = {
       { label: 'Summer tutoring — full hour', value: '$60' },
       {
         label:
-          'Lunch Care is REQUIRED for campers staying on campus between a morning and an afternoon camp, and includes lunch from Sparty’s Dining Service. It is already included in full-day Camp Spartan and Camp Spartan Jr tuition, so add it only when combining two half-day camps.',
+          'Lunch Care is REQUIRED for campers staying on campus between a morning and an afternoon camp. It includes lunch from Sparty’s Dining Service. Lunch Care is already included in full-day Camp Spartan and Camp Spartan Jr tuition. So add it only when combining two half-day camps.',
         note: true,
       },
       {

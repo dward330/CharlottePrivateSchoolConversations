@@ -69,7 +69,7 @@ export const charlotteCatholic: SummerProgram = {
       },
       {
         name: 'Eddie Hull Baseball Camp',
-        desc: 'Multi-session baseball camp with dynamic warm-ups, baserunning, offensive and defensive station work and age-grouped gameplay. Held at Freedom Park (Dilworth LL Ballfields) rather than on the CCHS campus; campers bring their own lunch.',
+        desc: 'Multi-session baseball camp with dynamic warm-ups, baserunning, offensive and defensive station work and age-grouped gameplay. It is held at Freedom Park (Dilworth LL Ballfields), not on the CCHS campus. Campers bring their own lunch.',
         category: 'sports',
         categoryLabel: 'Sports',
         grades: ['elementary', 'middle'],
@@ -81,7 +81,7 @@ export const charlotteCatholic: SummerProgram = {
       },
       {
         name: 'Cougar Football Camp',
-        desc: 'Youth football fundamentals with the CCHS football staff. The published flyer is a 2024 document that has not been refreshed, so both the price and the dates below are what the school currently publishes rather than a confirmed 2026 slate.',
+        desc: 'Youth football fundamentals with the CCHS football staff. The published flyer is a 2024 document that has not been updated. So both the price and the dates below are what the school currently publishes, not a confirmed 2026 list.',
         category: 'sports',
         categoryLabel: 'Sports',
         grades: ['elementary', 'middle'],
@@ -108,11 +108,11 @@ export const charlotteCatholic: SummerProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'Three of the four camps publish no price on a school page. Eddie Hull Baseball handles fees entirely through a third-party registration site, and the basketball and soccer camps publish none at all — which is why the Cost Planner card is omitted rather than modeled.',
+        text: 'Three of the four camps publish no price on a school page. Eddie Hull Baseball handles fees entirely through a third-party registration site. The basketball and soccer camps publish none at all. So this page leaves out the cost planner instead of estimating prices.',
       },
       {
         kind: 'stale',
-        text: 'The Cougar Football Camp flyer is a 2024 artifact still linked from the current site; its $160 price and grade range are reproduced as published, not confirmed for 2026.',
+        text: 'The Cougar Football Camp flyer is from 2024, but the current site still links to it. Its $160 price and grade range are shown as the flyer lists them, and the school has not confirmed them for 2026.',
       },
       {
         kind: 'verify',
