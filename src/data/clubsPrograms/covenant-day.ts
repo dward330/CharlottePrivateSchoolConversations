@@ -19,7 +19,6 @@ import type { ClubsProgram } from '../clubsProgram.ts'
 const SERVICE = 'https://www.covenantday.org/campus-life/service'
 const DISCIPLESHIP = 'https://www.covenantday.org/campus-life/discipleship'
 const STUDENT_LIFE = 'https://www.covenantday.org/campus-life/student-life'
-const PSR = 'https://www.privateschoolreview.com/covenant-day-school-profile'
 
 export const covenantDay: ClubsProgram = {
   service: {
@@ -70,27 +69,21 @@ export const covenantDay: ClubsProgram = {
 
   honors: {
     headline:
-      'Six documented societies — but only the two arts chapters are confirmed on the school’s own pages.',
+      'Five honor societies, each named on the school’s own pages, including three arts chapters.',
     subhead:
-      'The school publishes no honor-society page: divisions, induction criteria and sponsors are unstated for every chapter.',
+      'The school publishes no honor-society page, so induction criteria and sponsors are unstated for most chapters.',
     societies: [
       {
         name: 'National Honor Society',
         division: 'Upper School',
         recognizes: 'Scholarship, service, leadership, character',
-        feedsFrom: 'Third-party roster only — not confirmed on a school page',
+        feedsFrom: 'School news — juniors and seniors, chosen on its four pillars',
       },
       {
         name: 'National Art Honor Society',
         division: 'Upper School',
         recognizes: 'Visual-arts achievement',
-        feedsFrom: 'Third-party roster; the visual-arts program it would sit atop is school-documented',
-      },
-      {
-        name: 'Spanish Honor Society',
-        division: 'Upper School',
-        recognizes: 'Spanish-language achievement',
-        feedsFrom: 'Third-party roster; Spanish runs 1–4 plus AP in the course matrix',
+        feedsFrom: 'Named as a co-curricular on the visual-arts page',
       },
       {
         name: 'International Thespian Society',
@@ -106,9 +99,9 @@ export const covenantDay: ClubsProgram = {
       },
       {
         name: 'Beta Club',
-        division: 'Unstated',
+        division: 'High School',
         recognizes: 'Academic achievement and service (national organization)',
-        feedsFrom: 'Third-party roster only',
+        feedsFrom: 'Named on the service page — members start school-wide service projects',
       },
     ],
     adjacent: [
@@ -121,16 +114,13 @@ export const covenantDay: ClubsProgram = {
         text: 'A courtroom artist on the Covenant Day Blue team won her regional and finished 2025 state runner-up — the best-documented statewide result in this area.',
       },
     ],
-    flags: [
-      {
-        kind: 'gap',
-        text: 'Entries marked * rest on a third-party roster (privateschoolreview.com) — the school publishes no honor-society directory, so divisions, induction criteria, member counts and faculty sponsors are unpublished for every society, and the four non-arts chapters are unconfirmed on any school-owned page.',
-      },
-    ],
+    flags: [],
     sources: [
       { label: 'covenantday.org — Theater (Thespian Society)', url: 'https://www.covenantday.org/arts/theater' },
       { label: 'covenantday.org — Music (Tri-M)', url: 'https://www.covenantday.org/arts/music' },
-      { label: 'PrivateSchoolReview — activities roster (third-party)', url: PSR },
+      { label: 'covenantday.org — Service (Beta Club)', url: 'https://www.covenantday.org/campus-life/service' },
+      { label: 'covenantday.org — Visual Arts (National Art Honor Society)', url: 'https://www.covenantday.org/arts/visual-arts' },
+      { label: 'covenantday.org — News (National Honor Society inductees)', url: 'https://www.covenantday.org/about-us/news' },
       { label: 'covenantday.org — Student Life', url: STUDENT_LIFE },
     ],
   },

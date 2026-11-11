@@ -1709,10 +1709,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': '76', // counted from the clubs directory's raw HTML — 6 categories: Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. The school profile's 'over 50' is a round prose figure
       'charlotte-country-day': '~45–50', // school publishes a range; only 7 confirmed by name
       'charlotte-latin': '25', // exact, in-scope US clubs across six interest areas
-      'covenant-day': '≥14', // documented floor; school publishes no roster, third-party 27-item list filtered for division/type
+      'covenant-day': '≥10', // school-named Upper School groups only (user, 2026-11-10, plan plainclubs): 5 clubs/teams + 5 honor societies; the third-party roster was removed
       'carmel-christian': '~5', // standing HS bodies: NHS, Beta, Spanish Honor Society, Student Council, Timothy Project
-      'davidson-day': '≥9', // confirmed clubs only; no US roster published
-      'hickory-grove-christian': '27', // aggregator roster (18 clubs/orgs + 9 arts/music), single-source
+      'davidson-day': '≥3', // school-named Upper School groups only (user, 2026-11-10, plan plainclubs); the 9 PrivateSchoolReview clubs were removed
+      'hickory-grove-christian': '≥4', // school-named high school groups only (user, 2026-11-10, plan plainclubs); the 27-org PrivateSchoolReview roster was removed
       'gaston-day': '≥10', // school-named only (user ruling 2026-11-10, plan thespianname): 9 clubs/organizations + NHS named on gastonday.org and the Academic Profiles; the 20 third-party-only entries were removed. A floor — students may start clubs
       'providence-day': '77', // official 25–26 US list, 5 arts clubs excluded
     },
@@ -1736,11 +1736,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'minimum',
-        text: 'Covenant Day publishes no club directory of its own, so this is a documented floor: 14 Upper School organizations and honor societies confirmed across school pages and a third-party roster, after filtering out Middle/Lower School entries, paid lesson programs, and curricular ensembles.',
+        text: 'Covenant Day publishes no club directory of its own, so this is a documented floor. It counts the 10 Upper School groups named on the school’s own pages: Mock Trial, Student Council, Covenant Crazies, the ContainIt team, High School A Cappella and five honor societies.',
       },
       'davidson-day': {
         kind: 'minimum',
-        text: 'Davidson Day publishes no Upper School club roster, so this counts only the clubs confirmed in public sources — a documented floor, not a total.',
+        text: 'Davidson Day publishes no Upper School club roster, so this is a documented floor, not a total. It counts the Upper School groups named on the school’s own pages: the Upper School Belonging Council, the Upper School Community Engagement Council and the National Honor Society.',
       },
       'providence-day': {
         kind: 'official',
@@ -1752,8 +1752,8 @@ export const VALUE_METRICS: ValueMetric[] = [
         text: 'Standing high-school student organizations: National Honor Society, National Beta Club, Spanish Honor Society, Student Council, and the Timothy Project. Clubs are otherwise student-initiated by application, so no fixed roster is published.',
       },
       'hickory-grove-christian': {
-        kind: 'scope',
-        text: '27 non-sports organizations (18 clubs/organizations + 9 arts/music) from a single aggregator (PrivateSchoolReview) — the school\'s own site has no clubs page, so this is a single-source count. Five are honor societies; a subset (Choir, Drama, Jazz Band, Discipleship) is corroborated on the school site.',
+        kind: 'minimum',
+        text: 'Hickory Grove publishes no club list, so this is a documented floor. It counts the 4 high school groups the school’s own pages name: the International Thespian Society, Chapel Band, discipleship groups and the yearbook and broadcast.',
       },
       // Added by plan plainclubs (2026-11-10): the ≥10 floor shipped in #478 without a tip.
       'gaston-day': {
@@ -1781,7 +1781,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': 'Debate top-20 US', // NSDA Schools of Excellence — top 20 nationally
       'covenant-day': 'Mock Trial art 2nd NC', // courtroom artist: regional champion, 2025 state runner-up
       'carmel-christian': '2022 NCISAA 4A basketball title', // def. Greensboro Day 71-66 (Cade Tyson 31 pts)
-      'davidson-day': 'Battle of Books 1st', // MS team 1st in regional competition
+      'davidson-day': null, // no school-published competitive club result; the Battle of the Books regional first place appears on no davidsonday.org page (removed 2026-11-10, plan plainclubs)
       'hickory-grove-christian': null, // no competitive club result published in any source (confirmed null)
       'gaston-day': 'iGEM gold medal', // school's 2023-24 Academic Profile: iGEM Silver, Gold and Bronze awards over a decade; plus TSA VEX Nationals qualification in 2023 (2025-26 profile)
       'providence-day': 'DECA → ICDC ’26', // DECA advanced to national ICDC 2026
@@ -1815,10 +1815,6 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': {
         kind: 'scope',
         text: 'A courtroom artist on the Covenant Day Blue Mock Trial team won the NC Mock Trial courtroom-artist regional (Hickory). The same student was the 2025 State Champion Courtroom Artist runner-up, the program’s best-documented statewide result.',
-      },
-      'davidson-day': {
-        kind: 'scope',
-        text: 'The Middle School Battle of the Books team placed 1st in its regional competition.',
       },
       'providence-day': {
         kind: 'scope',

@@ -198,3 +198,11 @@ Retrieved by Claude (Claude Code agent) on 2026-11-10, from the school's live pa
   local food bank and discuss social issues such as food insecurity and food waste."
   → https://www.cannonschool.org/academics/upper-school/winterm
 
+---
+
+## School-sources update 2026-11-10
+
+Retrieved by Claude (Claude Code agent) on 2026-11-10, from the school's own live pages, after the user ruled that **every school's club list comes only from the school's own website and documents** (the rule first applied to Gaston Day in plan `thespianname`). Applied in plan `plainclubs`. Cannon's catalog already listed only organizations Cannon names directly; Niche (cited
+in the Upper School catalog dossier for Cannon School Gaming and the student-initiated
+model) was dropped from the source line. Cannon's own Esports and Upper School Student Life
+pages carry both.

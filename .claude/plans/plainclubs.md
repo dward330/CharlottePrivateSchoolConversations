@@ -1698,6 +1698,68 @@ Compare tip shows, and Trinity at 390px has `scrollWidth` 390.
   see; the splice adds it.
 - Student Clubs has no content overlay, so the new research sections need no translation.
 
+### School-sources-only rule for every club list (2026-11-10, user ruling)
+
+**Ruling.** The user: "We should extend the school sources only rules to all schools for
+the clubs list." This is the Gaston Day rule from plan `thespianname`, now applied to every
+school. It was applied on `feat/plainclubs` before Phase 2.
+
+**Interpretation.** The rule covers *which clubs exist*: a club, group or honor society
+must be named on the school's own website or documents. A result published by the body
+that runs a competition (NC Mock Trial, NSDA, Science Olympiad) is that event's own
+official record and stays, as Wells Fargo Cup results do.
+
+**Census.** Only five schools relied on third-party listings. The other eight (PD, Latin,
+Christian, Catholic, CCD, Gaston, Trinity, Prep) were already school-sourced.
+
+| School | Before | After (each item quoted, with its URL, in the research file's "School-sources update 2026-11-10") |
+|---|---|---|
+| Hickory Grove | 27-organization PrivateSchoolReview roster; 5 roster-only honor societies; two roster-only cluster rows; service card citing four-country trips and aquaponics on an old Academics page | Catalog: **6** school-named groups (discipleship groups, Grove Groups, Chapel Band, Praise Team, the Exodus yearbook and broadcast, International Thespian Society). Honors: ITS only. Academic & Competitive Clubs card **omitted** (no school-named academic or competitive club; zero-items rule; research heading renamed so the null record no longer maps there). Service card rebuilt from the live Missions & Service page. Compare `us-organizations` 27 → **≥4**. |
+| Covenant Day | Catalog from the third-party roster (≥14); Spanish Honor Society, NHS, NAHS, Beta all roster-based; two roster-only cluster rows | Catalog: **10** groups, each on a school page (Mock Trial, NHS, Beta, NAHS, ITS, Tri-M, the ContainIt team, High School A Cappella, Covenant Crazies, Student Council). Honors: 5 societies, all school-confirmed; Spanish Honor Society removed. STEM and language cluster rows removed. Orphaned roster flag removed. Compare ≥14 → **≥10**. |
+| Davidson Day | 9 PrivateSchoolReview club names; Battle of the Books result with no source | Catalog: **4** school-named groups (Student and Upper School Belonging Councils, Upper School Community Engagement Council, NHS). Battle of the Books cluster row and Compare `flagship-result` removed (now null). Compare ≥9 → **≥3**. |
+| Carmel | PrivateSchoolReview cited beside the handbook for an absence claim | Citation dropped; the claim rests on the handbook and live site. |
+| Cannon | Niche in the catalog source line; "(Black affinity groups cited in reviews)" | Both dropped (Cannon's own pages carry every listed organization). |
+
+`CLUB_OVERRIDES` (`src/lib/clubsMatrix.ts`) lost every override naming a removed club.
+`DATA-SCHEMA.md` regenerated. The Compare club-category rows now cover fewer schools:
+academic/competition 10 → 8, leadership 11 → 10, culture/language 7 → 5, special
+interest 10 → 7, recreation 5 → 4, STEM 9 → 7. Flagship result is filled for 9/13 schools,
+down from 10.
+
+**Independent review: 10 findings, all fixed.** They were overstatements against the quotes:
+- "has hosted … since 2020" became "started hosting … in 2020";
+- ITS "are inducted" became "can be inducted";
+- HG "small" discipleship groups lost "small";
+- "run with the school’s church" was dropped from the HG headline;
+- the Middle School Worship Band (a course) moved to "not counted";
+- Cannon's review-site affinity parenthetical was removed;
+- Davidson Day's archaeology-conference source now cites the blog;
+- a stale comment, the HG Compare tip's wording, and the HG service subhead were fixed.
+
+The reviewer also found that the **International Culture Club** now exists only in a
+Wayback capture of a retired alumni page. It was removed per the live-pages-only rule, and
+the research record was corrected.
+
+**Checks.**
+- `tsc -b`, `vite build`, `check:schema`, `spelling`, `matrices` (clubs 12 rows),
+  `schoolurls`, `chrome`, `runtime`, `moneytext`, `dates`, `spans`, `photos` and `quals`
+  are all green.
+- `plain_review --base HEAD`: 92/92 `hook: pass`, 0 above grade 10. Its guard failures are
+  the rebuild itself ([review-sources.md](plainclubs-data/review-sources.md)): removed
+  paths, re-indexed arrays, changed counts.
+- An exact diff confirmed no other school's block changed. A first-match slip had removed
+  Providence Day's "STEM clubs →" row; it was caught and restored byte-identical.
+
+**Browser.** None of the 13 clubs sections renders PrivateSchoolReview, aggregator,
+third-party-roster, Niche or review-site text. Hickory Grove shows 3 cards (catalog 6,
+service, honors 1); Covenant 10 / 2 rows / 5 societies; Davidson Day 4 / 2 rows. The
+Compare values and tips match; 390px has no overflow.
+
+**Phase 2 input now:** `check:live` stale per locale is **188 `student-clubs` + 8
+`metric-values`**, plus brand-new units (new catalog entries, the new tips) that only the
+splice reveals. Expect *added* ≠ *dropped* for `student-clubs`, because the rebuilt
+catalogs have fewer entries than before.
+
 ### Candidates noticed, not acted on
 
 *Seeded at planning time. `/implement` adds to this list.*
@@ -1736,6 +1798,12 @@ Compare tip shows, and Trinity at 390px has `scrollWidth` 390.
   page shows the card. Carmel has no matching `source-material/student-clubs/` file;
   Trinity has one, but no academic-clubs card appears. Whether to turn these cards on
   needs a look at the manifest and the UX gate. (Batch 3)
+- (Resolved 2026-11-10, school-sources rule.) **Third-party club rosters at four schools.**
+- **Hickory Grove's Arts area still cites Tri-M and a Jazz Band.** Neither appears on the
+  school's live Performing Arts pages (checked 2026-11-10). That is an Arts-area freshness
+  fix, outside this plan.
+- **`metricValues` Carmel `us-organizations` tip reads at grade 13.7.** It predates this
+  plan (Compare tips are outside its scope).
 - **The thespianname census missed a student name.** It reported 63 strings, but missed
   Cornelia Knight at 3 rendered sites. A non-athlete name scan of the other non-sports
   areas' `src/data` and Compare quals may be worth one more pass (not in this plan).

@@ -1120,7 +1120,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
 | `us-organizations` | Upper School student organizations | 11/13 | Q |
-| `flagship-result` | Flagship result | 10/13 | – Q |
+| `flagship-result` | Flagship result | 9/13 | – Q |
 | `participation` | Participation signal | 5/13 | Q |
 
 ### The Arts `the-arts`
@@ -1364,17 +1364,17 @@ counts (a label mapping to two rows cannot attribute its clubs; `us-organization
 | Club row | Schools |
 |---|--:|
 | `service` | 11/11 |
-| `academicCompetition` | 10/11 |
-| `leadership` | 11/11 |
+| `academicCompetition` | 8/11 |
+| `leadership` | 10/11 |
 | `publicationsMedia` | 7/11 |
 | `affinity` | 5/11 |
-| `cultureLanguage` | 7/11 |
+| `cultureLanguage` | 5/11 |
 | `artsPerformance` | 8/11 |
 | `faith` | 6/11 |
 | `honorSocieties` | 10/11 |
-| `specialInterest` | 10/11 |
-| `recreationSports` | 5/11 |
-| `stem` | 9/11 |
+| `specialInterest` | 7/11 |
+| `recreationSports` | 4/11 |
+| `stem` | 7/11 |
 
 **Camp categories** (Summer Programs topic, `src/lib/summerMatrix.ts` → `CompareSummerRows.tsx`):
 10 rows. Each school's `catalog.categoryFilters[].label` maps through `SUMMER_CATEGORY_ALIASES`

@@ -3,13 +3,12 @@
 // Transcribed from source-material/student-clubs/hickory-grove-christian/
 // "Hickory Grove Christian - Student Clubs - Deep Research.md".
 //
-// Provenance caveat that shapes every card: the full 27-organization non-sports
-// roster rides on ONE aggregator (PrivateSchoolReview) — the school's own site
-// has no clubs/activities page. The school site DOES individually corroborate a
-// subset (Discipleship, Choir, Drama, Jazz Band, the DR/Ecuador/Haiti/Kenya
-// mission trips, the HGBC food-pantry partnership, and the Exodus yearbook); the
-// rest rest on the aggregator alone. That single-source status is flagged on the
-// cards and on the standalone club catalog.
+// Every card below is built from hgchristian.org only (user, 2026-11-10: school sources only for every club list; plan plainclubs). The earlier
+// 27-organization PrivateSchoolReview roster, its five honor societies and its two
+// leadership programs were removed. The school's redesigned site (checked
+// 2026-11-10) also no longer shows the four-country mission trips or the
+// aquaponics program the earlier cards cited, so the service card now follows
+// the live Missions & Service page.
 //
 // THE 1a AFFINITY CARD IS OMITTED, and that is the research finding rather than a
 // hole in it: HGCS's grouping model is faith-based (discipleship, worship,
@@ -21,101 +20,62 @@
 
 import type { ClubsProgram } from '../clubsProgram.ts'
 
-const PSR = 'https://www.privateschoolreview.com/hickory-grove-christian-school-profile'
-const ACADEMICS = 'https://www.hgchristian.org/academics/'
+const MISSIONS = 'https://hgchristian.org/missions-and-service'
+const PERFORMING = 'https://hgchristian.org/performing-arts'
 
 export const hickoryGroveChristian: ClubsProgram = {
   service: {
     headline:
-      'A faith-and-service spine built on international mission trips and a working food-pantry partnership — the service programs the school\'s own site confirms.',
+      'A missions-and-service program: a yearly senior mission trip, a high school Mission Week and a weekly food-pantry role.',
     subhead:
-      'Service here runs through the church ministry rather than a single logged club. Its channels are mission trips to four countries, an aquaponics program (raising fish and plants together) that feeds a church food pantry, and named leadership programs.',
+      'Service here is built into school programs rather than a single logged club. The school’s own Missions & Service page names each program.',
     programs: [
       {
-        value: '4',
-        valueLabel: 'countries · international mission trips',
-        name: 'Mission trips',
+        value: 'Yearly',
+        valueLabel: 'senior trip · Dominican Republic',
+        name: 'Senior Mission Trip',
         detail:
-          'The school names international outreach and mission trips to the Dominican Republic, Ecuador, Haiti and Kenya — the clearest published service commitment, corroborated on the school\'s own Academics page.',
-        source: { label: 'hgchristian.org — Academics', url: ACADEMICS },
+          'Seniors serve together each year on a mission trip to the Dominican Republic. While they are away, the rest of the high school serves the local community through Mission Week.',
+        source: { label: 'hgchristian.org — Missions & Service', url: MISSIONS },
       },
       {
-        value: 'HGBC',
-        valueLabel: 'food pantry · via aquaponics',
-        name: 'Food-pantry partnership',
+        value: 'Weekly',
+        valueLabel: 'HGBC food pantry',
+        name: 'Food-pantry interpreters',
         detail:
-          'HGCS runs an aquaponics program that supplies the Hickory Grove Baptist Church food pantry — a standing, school-confirmed community-service channel rather than an opt-in club.',
-        source: { label: 'hgchristian.org — Academics', url: ACADEMICS },
+          'Spanish Immersion students serve as interpreters each week at the Hickory Grove Baptist Church food pantry, as the church’s pastors share the Gospel with the community.',
+        source: { label: 'hgchristian.org — Missions & Service', url: MISSIONS },
       },
       {
-        value: '2',
-        valueLabel: 'named leadership programs',
-        name: 'Leadership programs',
+        value: 'Quarterly',
+        valueLabel: 'missions collection',
+        name: 'Quarterly Missions Collection',
         detail:
-          'The aggregator roster names a Chick-fil-A Leadership Academy chapter and a Global Ambassadors program, alongside small-group discipleship; the school site confirms discipleship but not the two named programs individually.',
-        source: { label: 'privateschoolreview.com — HGCS profile', url: PSR },
+          'Each quarter, the school family gives to support a local ministry or cause. The page names XChange, Operation Christmas Child and a Baby Bottle Drive among them.',
+        source: { label: 'hgchristian.org — Missions & Service', url: MISSIONS },
       },
     ],
-    footnoteTitle: 'The broader roster',
+    footnoteTitle: 'Also on the page',
     footnote:
-      'PrivateSchoolReview lists 27 non-sports organizations. They include interest clubs (Apologetics, Public Speaking, Spanish, International Culture, Venture, Spirit) and arts clubs (Art, Guitar, Ukulele, Fiber, Pep Band, Praise Band). The full list is on the Club Catalog card, which notes that it comes from a single site. In all, PrivateSchoolReview counts 18 "Clubs and Organizations" and 9 "Arts and Music".',
-    flags: [
-      {
-        kind: 'gap',
-        text: 'The 27-organization roster is single-source (PrivateSchoolReview) — the school publishes no clubs/activities page. The mission trips, food-pantry partnership, discipleship, choir, drama and jazz band are individually corroborated on the school site; the other named clubs rest on the aggregator alone.',
-      },
-    ],
-    sources: [
-      { label: 'hgchristian.org — Academics (mission trips, food pantry, discipleship)', url: ACADEMICS },
-      { label: 'privateschoolreview.com — HGCS profile (full roster)', url: PSR },
-    ],
+      'Discipleship groups serve together on campus. For example, high schoolers make encouragement cards for elementary students. Student on Mission is a middle school course on how students can serve Charlotte. The Global Missions & Language Certificate requires a mission trip abroad.',
+    flags: [],
+    sources: [{ label: 'hgchristian.org — Missions & Service', url: MISSIONS }],
   },
 
   honors: {
     headline:
-      'Five honor societies span academics, science, journalism and social studies — from the middle-school NJHS to four high-school chapters.',
+      'One honor society is named on the school’s own pages: the International Thespian Society.',
     subhead:
-      'PrivateSchoolReview lists an explicit "Honor Societies" grouping of exactly these five; no induction dates, GPA thresholds, chapter names or advisor names are published anywhere.',
+      'The school publishes no honor-society page, and its site names no academic honor society.',
     societies: [
       {
-        name: 'National Honor Society',
+        name: 'International Thespian Society',
         division: 'High School',
-        recognizes: 'Scholarship, leadership, service and character (NHS)',
-        feedsFrom: 'the classroom',
-      },
-      {
-        name: 'National Junior Honor Society',
-        division: 'Middle School',
-        recognizes: 'Scholarship and character for middle-school students (NJHS)',
-        feedsFrom: 'the classroom',
-      },
-      {
-        name: 'National Science Honor Society',
-        division: 'High School',
-        recognizes: 'Achievement in the sciences',
-        feedsFrom: 'science',
-      },
-      {
-        name: 'Quill and Scroll Honor Society',
-        division: 'High School',
-        recognizes: 'The international high-school journalism honor society',
-        feedsFrom: 'student media',
-      },
-      {
-        name: 'Rho Kappa',
-        division: 'High School',
-        recognizes: 'The National Social Studies Honor Society (juniors/seniors)',
-        feedsFrom: 'social studies',
+        recognizes: 'The honor society for high school theatre students',
+        feedsFrom: 'theatre',
       },
     ],
-    flags: [
-      {
-        kind: 'gap',
-        text: 'The five societies appear in PrivateSchoolReview\'s roster; the school publishes no honor-society page, so induction windows, GPA thresholds, chapter names, advisor names and member counts are all unstated. Some are national programs whose active HGCS chapter is not independently confirmed.',
-      },
-    ],
-    sources: [
-      { label: 'privateschoolreview.com — HGCS profile (Honor Societies grouping)', url: PSR },
-    ],
+    flags: [],
+    sources: [{ label: 'hgchristian.org — Performing Arts', url: PERFORMING }],
   },
 }

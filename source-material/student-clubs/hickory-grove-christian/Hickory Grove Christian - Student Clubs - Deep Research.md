@@ -115,7 +115,7 @@ Corroborated by the school's own site (S2) except where noted:
 - **Discipleship / small-group discipleship** — ✓ S2 ("small-group discipleship opportunities";
   monthly worship/chapels). Church-side D-Groups / mission trips context in S7.
 
-## Flagship competitive result — null (NOT FOUND)
+## Flagship result — null (NOT FOUND)
 
 No competitive placement, championship, or titled result for any academic/arts club was
 found in any source (S1–S8). Sports championships exist (NCISAA / Metrolina Athletic
@@ -142,3 +142,52 @@ opinion-survey satisfaction figure, not a participation percentage. **Confirmed 
 - **NOT PUBLISHED anywhere found:** current-year (2025-26) active roster, advisor names,
   membership sizes, honor-society GPA thresholds / induction dates, and any student-life or
   activities landing page on hgchristian.org.
+
+---
+
+## School-sources update 2026-11-10
+
+Retrieved by Claude (Claude Code agent) on 2026-11-10, from the school's own live pages, after the user ruled that **every school's club list comes only from the school's own website and documents** (the rule first applied to Gaston Day in plan `thespianname`). Applied in plan `plainclubs`.
+
+**Result: the 27-organization PrivateSchoolReview roster (S1) is no longer used.** The
+school's redesigned site has no clubs or activities page. The High School page says only
+that the bell schedule has "time during the school day for student clubs to meet, so every
+student has a way to get involved". The student groups the school names itself:
+
+| Group | Where the school names it |
+|---|---|
+| International Thespian Society | Performing Arts: "Eligible theatre students can be inducted into the International Thespian Society" → https://hgchristian.org/performing-arts |
+| Chapel Band | Performing Arts: "Students audition, rehearse and help our worship pastors lead student-led chapel." |
+| Praise Team (7th–8th) | Performing Arts: "For students who want to use their musical gifts to lead others in worship." |
+| Discipleship groups (High School) | Missions & Service: "Discipleship groups serve together on campus, like high schoolers making encouragement cards for elementary students." → https://hgchristian.org/missions-and-service |
+| Grove Groups (Middle School) | Middle School: "On the first Thursday of each month, Grove Groups bring boys and girls together by grade level", then "break into small discipleship groups" → https://hgchristian.org/middle-school-home |
+| Exodus yearbook and weekly school broadcast | Arts: "The annual Exodus yearbook and a weekly school broadcast produced by students" → https://www.hgchristian.org/arts |
+
+**Not on any school page (removed from the app):** National Honor Society, National Junior
+Honor Society, National Science Honor Society, Quill and Scroll, Rho Kappa, HOSA,
+Chick-fil-A Leadership Academy, Global Ambassadors, and every S1-only interest and arts
+club. Curricular ensembles (Concert Band, High School Choir) are classes and are not
+counted. Neither copy of the Performing Arts page names Tri-M or a Jazz Band any more
+(the Arts area still cites both; see plan `plainclubs` Candidates).
+
+**Service (Missions & Service page, live).** "Our seniors serve together annually on a
+mission trip to the Dominican Republic." "While the seniors are away, the rest of the high
+school serves the local community through Mission Week." "Each quarter, our school family
+gives to support a local ministry or cause" (XChange, Operation Christmas Child, Baby
+Bottle Drive). At the HGBC Food Pantry, "Spanish Immersion students serve as interpreters
+each week as our pastors share the Gospel with our community." Student on Mission is "A
+middle school course that studies what God is doing around the world and how students can
+serve Charlotte." The Global Missions & Language Certificate requires an international
+mission trip. **The page no longer names Ecuador, Haiti, Kenya or an aquaponics program**,
+so those were removed from the Service card.
+
+**Academic & Competitive Clubs:** no school-named academic or competitive club, so the
+card is omitted. The heading above was renamed from "Flagship competitive result" so this
+null record no longer lands on that card.
+
+**Correction (same day, independent review).** The International Culture Club is **not**
+on the live site. The International Student Alumni URL now redirects to the admissions home,
+and the new alumni page has no content. The quote ("now called the International Culture
+Club … which remains an active club today") survives only in a Wayback capture
+(2026-05-20), inside a profile of a 2015 graduate. Per the live-pages-only rule, the club
+was left out of the app (catalog: six groups; Compare `us-organizations`: ≥4).

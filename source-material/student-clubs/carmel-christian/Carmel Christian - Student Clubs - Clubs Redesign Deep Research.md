@@ -101,3 +101,12 @@ as an Extended-Day enrichment class.
   still active (last evidence is the 2021-22 cords table); faculty advisor names; membership
   sizes beyond MS SGA's 9.
 - Handbook is the 2021-22 edition (newest published) — date-sensitive.
+
+---
+
+## School-sources update 2026-11-10
+
+Retrieved by Claude (Claude Code agent) on 2026-11-10, from the school's own live pages, after the user ruled that **every school's club list comes only from the school's own website and documents** (the rule first applied to Gaston Day in plan `thespianname`). Applied in plan `plainclubs`. Carmel's club data already came from the Family Handbook (S1) and the Timothy Project
+page (S2). PrivateSchoolReview (S3) was cited only alongside them for the confirmed absence
+of academic-competition clubs; that citation was dropped from the app's cluster row and
+catalog source line, which now rest on the handbook and live site alone.

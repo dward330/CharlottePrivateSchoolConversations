@@ -140,25 +140,24 @@ export const CLUB_OVERRIDES: Record<string, Partial<Record<ClubRowKey, ClubOverr
     honorSocieties: [{ source: 'Charlotte Latin - Clubs - Club Catalog Web Check 2026.md', quote: 'International Thespian Society' }],
     stem: [{ source: 'Charlotte Latin - Clubs - Club Catalog Web Check 2026.md', quote: 'Robotics Club' }],
   },
+  // covenant-day: the JCL / French / Book Club / Robotics / Sustainability
+  // Engineering overrides went with the third-party roster (user, 2026-11-10,
+  // plan plainclubs: every club list comes only from the school's own pages).
   'covenant-day': {
     service: ['Beta Club'],
-    cultureLanguage: ['Latin (JCL) Club', 'French Club'],
     artsPerformance: ['International Thespian Society', 'Tri-M Music Honor Society', 'National Art Honor Society'],
-    specialInterest: ['Book Club'],
-    stem: ['Robotics (First Lego League)', 'Sustainability Engineering'],
   },
+  // davidson-day: the Outdoor / Science / Math Olympiad overrides went with the
+  // PrivateSchoolReview club names (plan plainclubs, 2026-11-10).
   'davidson-day': {
-    recreationSports: ['Outdoor Club'],
-    stem: ['Science Club', 'Math Olympiad'],
     leadership: [{ source: 'Davidson Day - Clubs - Community Engagement Web Check 2026.md', quote: 'Our Community Engagement Council demonstrates a deep commitment to service and leadership' }],
     honorSocieties: [{ source: 'Davidson Day - Clubs - Honor Societies Web Check 2026.md', quote: 'National Honor Society Members' }],
   },
   // gaston-day: the FCA override was removed with the third-party roster (plan
   // thespianname, 2026-11-10 — Gaston clubs come only from the school's own pages).
-  'hickory-grove-christian': {
-    publicationsMedia: ['Quill and Scroll Honor Society'],
-    cultureLanguage: ['International Culture Club', 'Spanish Club'],
-  },
+  // hickory-grove-christian: its overrides (Quill and Scroll, Spanish Club) went
+  // with the PrivateSchoolReview roster; its catalog categories now carry the
+  // school-named groups (plan plainclubs, 2026-11-10).
   'providence-day': {
     service: ['Random Acts of Kindness', 'Wing Haven', 'Lower School Buddies'],
     artsPerformance: [{ source: 'Providence Day - Clubs - Middle School Clubs Web Check 2026.md', quote: 'From Model U.N. and Science Olympiad to Street Soccer and Art Club' }],

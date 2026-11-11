@@ -12,8 +12,8 @@
 // src/content/student-clubs/<school>.json) — nothing is inferred, averaged, or
 // carried across schools. The schools' slates genuinely differ (Latin's flagship
 // is a top-20 NSDA debate program; Country Day's is Model UN; Cannon's is an
-// FLL robotics team; Davidson Day's competitive footprint is a Middle School
-// Battle of the Books team), so each entry names its own real clusters, flagship,
+// FLL robotics team; Davidson Day publishes no competitive club result at all),
+// so each entry names its own real clusters, flagship,
 // and verified events. A school with no entry falls back to the standard prose
 // card.
 
@@ -263,28 +263,21 @@ const CHARLOTTE_COUNTRY_DAY: ClubClusters = {
   ],
 }
 
-// ── Davidson Day ── a small school; the competitive footprint is a Middle School
-// Battle of the Books team (regional first place), plus honor-society and
-// academic-distinction programs. From src/content/student-clubs/davidson-day.json.
+// ── Davidson Day ── a small school with no published competitive club result.
+// The Middle School Battle of the Books row was removed (user, 2026-11-10: school sources only for every club list; plan plainclubs): its regional
+// first place appears on no Davidson Day page. What remains is the school's
+// honor society and diploma programs, each named on davidsonday.org.
 const DAVIDSON_DAY: ClubClusters = {
-  verdict: 'A compact slate; Battle of the Books took regional first place.',
+  verdict: 'No competitive club result is published; the school’s academic distinctions are its honor society and diploma programs.',
   verdictHint: 'Open any row for the full research note and its source.',
   rows: [
-    {
-      name: 'Battle of the Books',
-      oneLiner: 'Middle School reading-quiz team — regional first place (documented)',
-      evidence: 'verified',
-      evidenceLabel: 'Verified — event',
-      note: 'A reading quiz competition. Davidson Day’s Middle School team is documented taking first place in a regional competition against several area schools. That first place is the school’s clearest competitive result in this area.',
-      source: 'Davidson Day School — Academic Recognition & Competition dossier',
-    },
     {
       name: 'Honors & distinctions →',
       oneLiner: 'National Honor Society (28 in ’25), Global Studies Diploma, Acclaim Scholars',
       evidence: 'reported',
       evidenceLabel: 'School-reported',
       note: 'Davidson Day has a confirmed National Honor Society chapter (28 members, Class of 2025). It also has a Global Studies Diploma that recognizes research and international study, and the Acclaim Scholars merit program. Chapter details are not published.',
-      source: 'Davidson Day School — Academic Recognition & Competition dossier',
+      source: 'davidsonday.org — College Counseling; Diploma Distinctions; Tuition & Affordability',
     },
     {
       name: 'Research showcase',
@@ -292,7 +285,7 @@ const DAVIDSON_DAY: ClubClusters = {
       evidence: 'reported',
       evidenceLabel: 'School-reported',
       note: 'The venue where Global Studies Diploma seniors present capstone research; some students also present at a collegiate archaeology conference.',
-      source: 'Davidson Day School — Academic Recognition & Competition dossier',
+      source: 'davidsonday.org — Diploma Distinctions; school blog (AFAR conference presentations)',
     },
   ],
 }
@@ -300,7 +293,8 @@ const DAVIDSON_DAY: ClubClusters = {
 // ── Covenant Day ── the flagship is Mock Trial, whose courtroom artist won a
 // regional and finished 2025 state runner-up — the program's best-documented
 // statewide result. The school publishes no club directory, so the slate is a
-// documented floor. From src/content/student-clubs/covenant-day.json.
+// documented floor. The two third-party-roster rows (STEM clubs, language
+// clubs) were removed (user, 2026-11-10: school sources only for every club list; plan plainclubs). From src/content/student-clubs/covenant-day.json.
 const COVENANT_DAY: ClubClusters = {
   verdict: 'A documented floor of a slate; Mock Trial carries the statewide result.',
   verdictHint: 'Open any row for the full research note and its source.',
@@ -312,22 +306,6 @@ const COVENANT_DAY: ClubClusters = {
       evidenceLabel: 'Verified — NC Mock Trial',
       note: 'The school’s flagship competitive club, named on its own high-school page. NC Mock Trial Program records show a "Covenant Day School Blue" team. The suffix implies more than one team. A courtroom artist on that team won the courtroom-artist regional in Hickory and finished as 2025 State Champion Courtroom Artist runner-up.',
       source: 'ncmocktrial.org — regional & state courtroom-artist results',
-    },
-    {
-      name: 'STEM clubs →',
-      oneLiner: 'Robotics (First Lego League), Junior FLL, Sustainability Engineering',
-      evidence: 'reported',
-      evidenceLabel: 'Third-party roster',
-      note: 'First Lego League robotics at two levels plus a Sustainability Engineering club — the club expression of the school’s Restoration & Sustainability department. Competition results are not published.',
-      source: 'privateschoolreview.com roster; covenantday.org academics',
-    },
-    {
-      name: 'Language & letters clubs →',
-      oneLiner: 'Latin (JCL) Club, French Club, Book Club, Beta Club',
-      evidence: 'reported',
-      evidenceLabel: 'Third-party roster',
-      note: 'Language clubs feed the Latin and French course sequences (both run to level 4 plus AP Latin). Chapter activity and event results are not published.',
-      source: 'privateschoolreview.com roster',
     },
     {
       name: 'Academic signatures',
@@ -368,40 +346,16 @@ const CARMEL_CHRISTIAN: ClubClusters = {
       oneLiner: 'No standing robotics, debate, Model UN, mock trial, quiz bowl, or DECA club',
       evidence: 'reported',
       evidenceLabel: 'Confirmed absent',
-      note: 'The handbook, the live site and third-party listing sites confirmed that none of the usual academic-competition clubs runs as a standing Upper School organization. Clubs are started by students through an application. So any such club would depend on students applying to start it in a given year. Chess appears only as an Extended-Day enrichment class.',
-      source: 'carmelchristian.org — Family Handbook (2021–22 ed.); privateschoolreview.com',
+      note: 'The handbook and the live site confirmed that none of the usual academic-competition clubs runs as a standing Upper School organization. Clubs are started by students through an application. So any such club would depend on students applying to start it in a given year. Chess appears only as an Extended-Day enrichment class.',
+      source: 'carmelchristian.org — Family Handbook (2021–22 ed.) and live site',
     },
   ],
 }
 
-// Hickory Grove Christian — the academic-recognition spine runs through five
-// honor societies; the interest/competition clubs (HOSA, Public Speaking,
-// Apologetics, Venture) appear on a single aggregator with no published
-// competition result, so no flagship placement can be claimed. From
-// source-material/student-clubs/hickory-grove-christian/. The whole 27-org roster
-// is single-source (PrivateSchoolReview); the school publishes no clubs page.
-const HICKORY_GROVE_CHRISTIAN: ClubClusters = {
-  verdict: 'Five honor societies anchor academic recognition; the competition-oriented clubs carry no published result.',
-  verdictHint: 'Open any row for the full research note and its source. The full roster is single-source.',
-  rows: [
-    {
-      name: 'Honor societies →',
-      oneLiner: 'National Honor Society, National Science Honor Society, Quill & Scroll, Rho Kappa (+ NJHS in the MS)',
-      evidence: 'reported',
-      evidenceLabel: 'Aggregator',
-      note: 'Five honor societies span the subjects: National Honor Society · National Science Honor Society (achievement in the sciences) · Quill and Scroll (journalism and student media) · Rho Kappa (National Social Studies Honor Society) · the National Junior Honor Society in the Middle School. These are the school’s academic distinctions in this area. The school publishes no GPA thresholds, induction windows or advisor names.',
-      source: 'privateschoolreview.com — HGCS profile (Honor Societies grouping)',
-    },
-    {
-      name: 'Competition-oriented clubs',
-      oneLiner: 'HOSA, Public Speaking, Apologetics and Venture appear on the roster — but no competition result is published',
-      evidence: 'reported',
-      evidenceLabel: 'Single-source',
-      note: "The third-party roster names Health Occupations Students of America (HOSA), a Public Speaking Club, an Apologetics Club and a Venture Club. Clubs like these usually compete. But no title or placement result for any of them is published in any source. The roster comes from one third-party site (PrivateSchoolReview), and the school's own site has no clubs page. So it is confirmed that the school has no published competition result.",
-      source: 'privateschoolreview.com — HGCS profile (single-source roster)',
-    },
-  ],
-}
+// Hickory Grove Christian — NO ENTRY. Both former rows (five honor societies,
+// and HOSA / Public Speaking / Apologetics / Venture) rested on the
+// PrivateSchoolReview roster, and the school's own pages name no academic or
+// competitive club, so the card is omitted rather than shipped empty (user, 2026-11-10: school sources only for every club list; plan plainclubs).
 
 // ── Gaston Day ── school-named only (user ruling, 2026-11-10). The two
 // flagship results are both in the school's own Academic Profiles: iGEM awards
@@ -575,7 +529,6 @@ const CLUSTERS: Record<string, ClubClusters> = {
   'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
-  'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
   'gaston-day': GASTON_DAY,
   'trinity-episcopal': TRINITY_EPISCOPAL,
 }
