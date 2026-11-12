@@ -39,6 +39,7 @@
 | S12 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/sixth-grade | Middle School, sixth-grade |
 | S13 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/seventh-grade | Middle School, seventh-grade |
 | S14 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/eighth-grade | Middle School, eighth-grade |
+| S15 | https://www.charlottecountryday.org/cd-education/middle-school | Middle School overview (language options, math classes); added during the Batch 1 census |
 
 ## Index — every app course, in app order
 
@@ -1450,6 +1451,40 @@ All Middle School students participate in daily physical education. Focusing on 
 ## Health
 
 Eighth grade health focuses on human growth and development and decision making. Students review the male and female reproductive systems, followed by discussions about consequences of sexual activity. Students learn about decision making skills, communication, consent, and sexually transmitted diseases.
+
+### Middle School overview (S15)
+
+# Middle School
+
+### Fifth–Eighth Grade
+
+On its own distinct campus, Middle School students are guided by teachers who specialize in adolescent education and how to encourage student development through a time of great change.
+
+As they navigate the emotional, physical, and social transition from childhood to adolescence, we prepare our students to take on more responsibility, make good decisions, and see the world through a wider lens.
+
+Learn About Our Integrated Curriculum
+
+Michael RinehartHead of Middle School
+
+One of the unique things about Country Day is our separate Middle School campus. While this provides our very own athletic fields and facilities, more importantly, it allows us to elongate childhood for our students in a space where kids can be kids with access to faculty who are specifically focused on the needs of Middle Schoolers in a spacious campus. All of this allows students to gain the skills needed not only to be successful in Upper School but to be great kids.”
+
+As a member of the Country Day Middle School community, each student:
+
+- Develops leadership, respect, perseverance, and talent by participating in service clubs, special-interest groups, and academic competitions.
+
+- Attends gender-specific math classes that offer the opportunity to learn in an environment free from stereotypes.
+
+- Works with an advisor who serves as mentor and advocate, providing both academic and personal guidance.
+
+- Participates in French, Spanish, and Latin language options.
+
+- Enjoys a unique opportunity to participate in travel and study exchanges with sister schools in locations throughout the world.
+
+- Gains hands-on experience with the arts, participating in visual arts, drama, band, orchestra, choir, or general music.
+
+- Is prepared for a seamless transition to Upper School, carefully facilitated by Middle and Upper School faculty members working in close collaboration.
+
+- Cultivates time-management, study skills, and self-discipline.
 
 ## Upper School — 2025-26 Academic Policies and Course Guide, full text (S1)
 
