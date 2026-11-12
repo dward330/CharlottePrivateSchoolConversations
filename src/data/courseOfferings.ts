@@ -626,7 +626,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'AP English Language and Composition',
               tag: 'AP',
               description:
-                'College-level expository, analytical, and argumentative writing drawn from non-fiction genres, with focus on rhetorical technique and logic.',
+                'College-level expository, analytical, and argumentative writing, with readings from non-fiction genres and a focus on rhetorical technique and logic.',
             },
             {
               title: 'AP English Literature and Composition',
@@ -775,7 +775,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Global Leadership',
               tag: 'Advanced',
               description:
-                'Seniors in the Global Studies Diploma become effective global collaborators and leaders, completing a research project and exit interview process.',
+                'Required for seniors in the Global Studies Diploma; aims to make students more effective global collaborators and leaders, with a research project and an exit interview.',
             },
           ],
         },
@@ -1673,21 +1673,21 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'Latin I',
               tag: 'Gr 8',
-              description: 'The Upper School Latin I credit taken in Middle School.',
+              description: 'Latin I taught in Middle School, introducing elementary Latin vocabulary and grammar and simple Latin stories.',
             },
             { title: 'French 6', tag: 'Gr 6', description: 'The sixth-grade French course.' },
             { title: 'French 7', tag: 'Gr 7', description: 'The seventh-grade French course.' },
             {
               title: 'French I (MS)',
               tag: 'Gr 8',
-              description: 'The Upper School French I credit taken in Middle School.',
+              description: 'French I taught in Middle School, with tasks targeting the Novice High level of proficiency.',
             },
             { title: 'Spanish 6', tag: 'Gr 6', description: 'The sixth-grade Spanish course.' },
             { title: 'Spanish 7', tag: 'Gr 7', description: 'The seventh-grade Spanish course.' },
             {
               title: 'Spanish I (MS)',
               tag: 'Gr 8',
-              description: 'The Upper School Spanish I credit taken in Middle School.',
+              description: 'Spanish I taught in Middle School, with tasks targeting the Novice High level of proficiency.',
             },
           ],
         },
@@ -1804,7 +1804,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'Visions of the Future',
               tag: 'Semester',
-              description: 'A semester elective, open mainly to seniors, on speculative and futurist literature.',
+              description: 'A semester elective, open mainly to seniors, on dystopian fiction.',
             },
           ],
         },
@@ -2148,7 +2148,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'Stagecraft I',
               tag: 'Elective',
-              description: 'The introductory technical theatre course.',
+              description: 'An introductory technical theatre course.',
             },
             {
               title: 'Stagecraft II',
@@ -2352,13 +2352,13 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'Algebra 8A',
               tag: 'Gr 8',
               description:
-                'Foundations of expressions and equations, linear equations and inequalities, systems, exponents and polynomials; students then move to Algebra 1 in 9th grade.',
+                'Foundations of expressions and equations, properties of real numbers, linear equations and inequalities, systems, exponents and polynomials; students then move to Algebra 1 in 9th grade.',
             },
             {
               title: 'Algebra 1',
               tag: 'Gr 8',
               description:
-                'Algebra I covering linear functions and systems, exponents, polynomials, quadratics, and radicals.',
+                'Algebra I covering algebra foundations, linear functions and systems, exponents, polynomials, quadratics, radicals, and an introduction to geometry.',
             },
             {
               title: 'Geometry',
@@ -2645,7 +2645,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Honors Algebra II',
               tag: 'Honors',
-              description: 'Accelerated Algebra II; requires 90 in Geometry or 83 in Honors Geometry, plus teacher recommendation.',
+              description: 'A more in-depth Algebra II with more theory, plus trigonometry and rational functions; requires 90 in Geometry or 83 in Honors Geometry, plus teacher recommendation.',
             },
             {
               title: 'Honors Algebra II/Precalculus',
@@ -2663,7 +2663,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Honors Pre-calculus',
               tag: 'Honors',
-              description: 'Accelerated precalculus; requires 90 in Algebra II or 83 in Honors Algebra II, plus teacher recommendation.',
+              description: 'An in-depth precalculus course that prepares students for AP Calculus; requires 90 in Algebra II or 83 in Honors Algebra II, plus teacher recommendation.',
             },
             {
               title: 'Introduction to Calculus & Statistics',
@@ -2725,7 +2725,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'AP Biology',
               tag: 'AP',
-              description: 'College-level biology; prerequisites Biology I and Chemistry I, plus 90 in the current full-year science course (85 in Honors, 83 in AP).',
+              description: 'College-level biology; prerequisites Biology I and Chemistry I or Honors Chemistry I, plus 90 in the current full-year science course (85 in Honors, 83 in AP).',
             },
             { title: 'IB Biology SL', tag: 'IB SL', description: 'IB biology at standard level.' },
             { title: 'IB Biology HL', tag: 'IB HL', description: 'IB biology at higher level.' },
@@ -2781,7 +2781,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Honors Physics I',
               tag: 'Honors',
-              description: 'A more analytical physics course; requires 87 in the current full-year science course and 87 in math (83 in Honors), plus previous or concurrent Precalculus.',
+              description: 'A more analytical physics course; requires 87 in the current full-year science course and 87 in math (83 in Honors for each), plus previous or concurrent Precalculus.',
             },
             {
               title: 'AP Physics C: Mechanics, E&M',
