@@ -285,7 +285,7 @@ record.
 
 | Batch | Sources commit | Census table | Fixes commit | Wording commit | Reviewer findings | User verdict |
 |---|---|---|---|---|---|---|
-| 1 | — | — | — | — | — | — |
+| 1 | `2066da3c`, `ab89d799`, `a95a9584` (ingest `6b882c9a`, `19c1fb7b`, `39408ece`) | `census-{providence-day,charlotte-latin,charlotte-country-day}.md` (`4ee6078e`) | `4ee6078e` (54), `647257fb` (13) | `9ee41278` | 7 wording edits, 5 fact findings, 3 of 25 `OK` re-checks overturned | pending |
 | 2 | — | — | — | — | — | — |
 | 3 | — | — | — | — | — | — |
 | 4 | — | — | — | — | — | — |
@@ -645,3 +645,100 @@ No skill or command changes, so `.claude/SKILLS.md` is not touched. No `CLAUDE.m
 ## Implementation notes
 
 *Filled in by `/implement`, one section per batch, then Phase 2.*
+
+### Batch 1 — Providence Day, Charlotte Latin, Charlotte Country Day
+
+**Deviation 1: Providence Day was re-sourced too.** The Context table says its record holds
+"fuller catalog prose"; it holds one-line condensations like the app's, so it could not show what
+the catalog says. Its 2025-2026 Upper and Middle School Course of Study PDFs (URLs from the
+record, SHA-256 in the new file's header) and its Lower School and Global Education pages were
+saved as `Providence Day - Course Offerings - Curriculum Guide Full Descriptions 2025-2026.md`
+(`ab89d799`) and ingested (`19c1fb7b`).
+
+**Deviation 2: Charlotte Latin publishes per-course Upper School descriptions.** Every title on its
+course-offerings page is a Finalsite click-to-open post (element `fsEl_31330`, 136 posts: 122
+courses plus department introductions), invisible to a plain fetch — the trap recorded for Covenant
+Day in memory `finalsite-popup-tiles-hide-data`. The posts were fetched from the popup endpoint and
+the census judged each Upper School row against **its own post**, not department framing as the
+Context section planned. The Lower and Middle School pages' 8 posts were fetched too. Consequence,
+reported at review and not changed (out of scope): Latin's Upper School `notPublished` ("titles
+without per-course descriptions … each description comes from how the school describes that
+department") is false, and its teaser's "129 courses" does not match the 122 course posts.
+
+**Sources.** Country Day: the 2025-26 guide PDF, SHA-256
+`b777a4f809f4a527938cc1801f6c6c15575bf2df71b584b7244bee971382af0d` (unchanged from the record's
+URL; the PDF's `Subject` metadata still says 2023-24, its cover and footers 2025-26), extracted
+column by column with `pdfplumber` because `pdftotext -layout` interleaves the two columns; plus the
+Lower and Middle School hub and grade pages. The Middle School overview page (the only page naming
+its Latin option) was left out of the first commit and added in `a95a9584` / `39408ece`. All three
+ingests: other schools' date-only note rebuilds reverted, `schools.json` restored to HEAD order plus
+the new documents, `npm run schema` run, no ⚠️ card key.
+
+**Census.** Three fresh `general-purpose` subagents, one per school, with a common brief (verdicts,
+evidence rule, minimal one-sentence fixes); no pre-filter list was available (the planning scratch
+is gone), so every row was read. Every non-OK row was re-checked against the source; one OK was
+upgraded (Latin Chemistry II (AP): "college-level second-year chemistry" reads as second-year
+college chemistry; the school says it equals first-year college general chemistry) and one fix
+widened (Country Day Honors Physics I: "accelerated" is not in the guide). Verdicts after the
+review below:
+
+| School | Rows | OK | SITE-WRITTEN-OK | Rows fixed | `4ee6078e` edits | `647257fb` edits |
+|---|--:|--:|--:|--:|--:|--:|
+| providence-day | 213 | 191 | 9 | 13 | 11 | 2 (both new rows) |
+| charlotte-latin | 145 | 117 | 4 | 24 | 20 | 5 (4 new rows, Visions of the Future again) |
+| charlotte-country-day | 169 | 141 | 5 | 23 | 23 | 6 (all rows already fixed once) |
+| **Total** | **527** | **449** | **18** | **60** | **54** | **13** |
+
+(Counts in the committed `census-*.md` files are the first-round verdicts; the second-round rows are
+in `review-batch1-fixes2.md`.) What the fixes correct: Country Day's entry requirements cut short
+against the guide's p. 8 qualification table (recommendations, second grade routes, prerequisite
+courses), "accelerated" where the guide says depth, Algebra III/Trigonometry called a bridge,
+Orchestra called a full orchestra, the Lower School language choice; Latin's claims its posts do not
+support (grades, "senior semester", "honors pace", "nationally ranked", Fab Lab, Git), "primarily
+seniors" narrowed, seminars with an honors option called honors courses, Stagecraft II not a sequel,
+a Middle School "Upper School credit" claim with no source on three rows; Providence Day's samples
+shown as full lists (plays, novels, religions, countries, authors), a dropped "the loss of", dropped
+prerequisites, an aim stated as an outcome.
+
+**Independent review.** All 54 first-round fixes confirmed. 7 wording edits made in place. 5 fact
+findings plus 3 overturned `OK` rows (12% of the 25-row sample) and 2 related rows: fixed in a
+second fixes commit against the committed text (`647257fb`, plaincourses `db076885` pattern), the
+wording restored on top, so the Step 5 review base for Batch 1 is `647257fb`.
+
+**Wording (item 2).** Country Day Ancient Empires counted as three sentences only because guard
+(r)'s `sentences()` splits at "c." (circa); "c. 3000 BCE to c. 1000 CE" → "about 3000 BCE to about
+1000 CE" (the guide: "c. 3000 BCE … around 1000 CE"). `--check` exits 1 on one by-design hit,
+(p) "I" from "Physics I" in a reviewer edit (recorded in `review-batch1.md`). A second
+multi-sentence row, Latin `divisions[1].departments[4].courses[0]` (Latin 7), counts two only
+because it quotes the school's own question ("Are you ready to travel back in time?"); quoted spans
+are protected, so it is left and raised at review. Guard note: IMMERSION matches "taught in Middle
+School" (a false match on the "taught only in Spanish" pattern; no language-of-instruction claim).
+
+**Checks.** `tsc -b` clean; `vite build` succeeds; `check:schema`, `check:spelling`,
+`check:flags`, `check:schoolurls`, `check:chrome`, `check:runtime`, `check:moneytext`,
+`check:dates`, `check:spans`, `check:photos` exit 0; `test:plain` 32/32; `check:matrices` output
+byte-identical to `main`'s. Hook clean; `check:plain` course-offerings Flagged 0 / Jargon 0 /
+Grade >10 7 (unchanged; no new residual). `check:live` fails only in `course-offerings`: **61
+stale entries per locale** (every Batch 1 changed description).
+
+**Browser** (real Chrome via Playwright, `vite preview`): all 9 division cards of the three schools
+render every description (213 + 145 + 169 rows) and every `notPublished` note exactly as the module
+holds them; no literal `*`; searches found Modern Dramatic Literature ("loss of individualism"),
+Visions of the Future ("dystopian") and Honors Algebra II ("teacher recommendation"); no overflow at
+390px.
+
+**Reported at review, not changed** (identity fields and notes are out of scope): Latin
+`notPublished` and teaser above; Providence Day's Lower School teaser "Singapore Math … from TK"
+(the school says kindergarten–5) and note "There is no … guide" (does-not-exist form); Country Day's
+Lower and Middle School notes ("There is no … catalog") and Middle School teaser and Geometry tag
+("high-school credit", unsupported by its pages); Latin tags contradicting the posts (two seminars
+tagged `Honors`, Engineering I/II `Year` vs semester, Middle School Engineering `Gr 6` vs Grades
+6–8, four English electives `Semester` with no semester line).
+
+**Popup scan of the other nine schools (user question, 2026-11-11).** The 48 web pages their
+records cite were scanned for Finalsite click-to-open posts. Nothing needs re-sourcing: Cannon's
+posts are division prose and honor societies (no courses); Davidson Day's are links; Covenant Day's
+course posts are already in its records; Charlotte Christian, Hickory Grove, Gaston Day and
+Charlotte Prep have none; Carmel's gap is its known JS-gated Calaméo guide. **Trinity Episcopal's
+four cited pages now return 404** (site moved): its Batch 3 census reads the record of the version
+the app was built from, and the move is a freshness candidate.
