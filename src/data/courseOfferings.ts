@@ -5179,7 +5179,7 @@ const COVENANT_DAY: CourseOfferings = {
             { title: 'Geometry Honors', tag: 'Honors', description: 'The honors geometry year.' },
             { title: 'Algebra 2', tag: 'CP', description: 'Second-year algebra.' },
             { title: 'Algebra 2 Honors', tag: 'Honors', description: 'Honors second-year algebra.' },
-            { title: 'Liberal Arts Math', tag: 'CP', description: 'The alternative senior-year math for students not continuing to pre-calculus.' },
+            { title: 'Liberal Arts Math', tag: 'CP', description: 'A college-preparatory math course.' },
             { title: 'Pre-Calculus', tag: 'CP', description: 'Functions and trigonometry before calculus.' },
             { title: 'Pre-Calculus Honors', tag: 'Honors', description: 'The honors pre-calculus year.' },
             { title: 'Calculus Honors', tag: 'Honors', description: 'Honors calculus — available for dual enrollment with Covenant College.' },
@@ -5268,7 +5268,7 @@ const COVENANT_DAY: CourseOfferings = {
             { title: 'Digital Photography', tag: 'CP', description: 'Digital photography.' },
             { title: 'Graphic Design', tag: 'CP', description: 'Design coursework.' },
             { title: 'Yearbook', tag: 'CP', description: 'Producing the school yearbook.' },
-            { title: 'Yearbook Honors', tag: 'Honors', description: 'Leadership roles on the yearbook staff.' },
+            { title: 'Yearbook Honors', tag: 'Honors', description: 'Producing the school yearbook at the honors level.' },
             { title: 'Studio Art Honors', tag: 'Honors', description: 'The pre-AP studio year.' },
             { title: 'AP Studio Art', tag: 'AP', description: 'The AP portfolio year, shown at the Art Talk exhibit.' },
           ],
@@ -5276,11 +5276,11 @@ const COVENANT_DAY: CourseOfferings = {
         {
           name: 'Restoration & Sustainability',
           courses: [
-            { title: 'Augustine Literacy Project', tag: 'CP', description: 'Training students as literacy tutors for the community.' },
-            { title: 'ContainIt', tag: 'CP', description: 'The department’s student-run enterprise course.' },
+            { title: 'Augustine Literacy Project', tag: 'CP', description: 'A college-preparatory course in the Restoration & Sustainability department.' },
+            { title: 'ContainIt', tag: 'CP', description: 'The department’s course in which students transform used shipping containers into livable space.' },
             { title: 'Intercultural Practicum', tag: 'CP', description: 'Applied cross-cultural engagement.' },
             { title: 'Intro to Engineering', tag: 'CP', description: 'The department’s engineering entry.' },
-            { title: 'Restore525', tag: 'CP', description: 'The department’s service-build program as a credit course.' },
+            { title: 'Restore525', tag: 'CP', description: 'The department’s service program as a credit course.' },
           ],
         },
         {
@@ -5297,7 +5297,7 @@ const COVENANT_DAY: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'GRADES 6 – 8',
       teaser:
-        'Seven subject areas per grade plus three named honors tracks and a seven-course elective slate — Latin from 6th grade, Applied English in 6th and 7th.',
+        'Seven subject areas per grade plus four named honors courses and a seven-course elective slate — Latin from 6th grade, Applied English in 6th and 7th.',
       source: 'Covenant Day Middle School Curriculum (academics page)',
       sourceUrl: 'https://www.covenantday.org/academics/middle-school',
       notPublished:
@@ -5399,7 +5399,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Latin IA',
               tag: 'Gr 7',
               description:
-                'The first half of the middle school Latin sequence; Spanish is offered as an elective.',
+                'Continues the middle school Latin sequence that begins in 6th grade; Spanish is offered as an elective.',
             },
             {
               title: 'Physical Education',
@@ -5434,7 +5434,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Math Honors (Algebra)',
               tag: 'Honors',
               description:
-                'The real number system, expressions, linear and quadratic equations and their graphs, inequalities, systems of equations, polynomials, relations, functions, and radical and rational expressions.',
+                'The real number system, expressions, linear and quadratic equations and their graphs, inequalities, systems of equations, polynomials, relations, functions, radical expressions and equations, and rational expressions.',
             },
             {
               title: 'Bible',
@@ -5486,7 +5486,7 @@ const COVENANT_DAY: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'JUNIOR KINDERGARTEN – GRADE 5',
       teaser:
-        'Five to six subject areas described for each of seven grades, plus six named Specials. These include CREATE Junior, Spanish from Junior Kindergarten, and recorder in 4th grade before band instruments in 5th.',
+        'Five to six subject areas described for each of seven grades, plus six named Specials. These include CREATE Junior, Spanish, and recorder in 4th grade before band instruments in 5th.',
       source: 'Covenant Day Lower School Curriculum (academics page)',
       sourceUrl: 'https://www.covenantday.org/academics/lower-school',
       notPublished:
@@ -5644,7 +5644,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Math',
               tag: 'Gr 3',
               description:
-                'Place value to 10,000, rounding, mental math and estimation · bar models for word problems · multiplication facts 0–12 · 1- and 2-digit multiplication and division · fractions and decimals · angles and lines · area and perimeter · measurement conversions.',
+                'Place value to 10,000, rounding, mental math and estimation · addition and subtraction to 10,000 · bar models for word problems · multiplication facts 0–12 · 1- and 2-digit multiplication and division · fractions and decimals · angles and lines · area and perimeter · measurement conversions.',
             },
             {
               title: 'Bible',
@@ -5742,13 +5742,13 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Art',
               tag: 'JK–Gr 5',
               description:
-                'Skill, craftsmanship, beauty, clarity and balance practiced through painting, sketching, ceramics, printmaking, landscapes and portraits, shown at the annual spring Art Walk.',
+                'Skill, craftsmanship, beauty, clarity, balance and other timeless elements practiced through painting, sketching, ceramics, printmaking, landscapes, portraits and many other projects, shown at the annual spring Art Walk.',
             },
             {
               title: 'Music',
               tag: 'JK–Gr 5',
               description:
-                'Vocal, instrumental and percussion music by classical and modern composers · 4th grade learns recorder and 5th grade band instruments · a children’s choir and private piano, vocal and guitar lessons are available.',
+                'Vocal, instrumental and percussion music by classical and modern composers · 4th grade learns recorder and 5th grade band instruments · a children’s choir for 4th and 5th graders and private piano, vocal and guitar lessons are available.',
             },
             {
               title: 'CREATE Junior',
@@ -6479,7 +6479,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
       title: 'High School Courses',
       grades: 'GRADES 9 – 12',
       teaser:
-        '78 course titles across 9 departments — including 16 Advanced Placement courses — from the 2026-27 High School Curriculum Guide.',
+        '77 course titles across 9 departments — including 16 Advanced Placement courses — from the school’s 2026-27 course listings and graduation requirements.',
       source: 'Carmel Christian HS Course Descriptions & 2026-27 Graduation Requirements',
       sourceUrl:
         'https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487133&type=d&pREC_ID=935891',
@@ -6490,7 +6490,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
             { title: 'Old Testament', tag: 'Gr 9–12', description: 'A Biblical Studies course in the four-credit Bible sequence.' },
             { title: 'New Testament', tag: 'Gr 9–12', description: 'A Biblical Studies course in the four-credit Bible sequence.' },
             { title: 'Understanding the Faith & Culture', tag: 'Gr 9–12', description: 'A Biblical Studies course examining faith in cultural context.' },
-            { title: 'Understanding the Times', tag: 'Gr 9–12', description: 'A worldview capstone in the Biblical Studies sequence.' },
+            { title: 'Understanding the Times', tag: 'Gr 9–12', description: 'A Biblical Studies course in the four-credit Bible sequence.' },
           ],
         },
         {
@@ -6522,7 +6522,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
             { title: 'Algebra II', tag: 'Standard', description: 'The standard track of second-year algebra.' },
             { title: 'Algebra II', tag: 'Honors', description: 'The honors track of second-year algebra.' },
             { title: 'Math 4 (Algebra III & Trigonometry)', tag: 'Pathways', description: 'The Pathways fourth-year course covering Algebra III and trigonometry.' },
-            { title: 'Honors Precalculus', tag: 'Honors', description: 'Honors precalculus — functions and trigonometry before calculus.' },
+            { title: 'Honors Precalculus', tag: 'Honors', description: 'Precalculus at the honors level.' },
             { title: 'AP Precalculus', tag: 'AP', description: 'College-level precalculus.' },
             { title: 'Probability & Statistics', tag: 'Standard', description: 'The standard track of probability and statistics.' },
             { title: 'Probability & Statistics', tag: 'Honors', description: 'The honors track of probability and statistics.' },
@@ -6579,13 +6579,13 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
             { title: 'Spanish III', tag: 'Honors', description: 'The honors track of third-year Spanish.' },
             { title: 'Honors Spanish IV', tag: 'Honors', description: 'Fourth-year Spanish at honors level.' },
             { title: 'AP Spanish (Language & Culture)', tag: 'AP', description: 'College-level Spanish language and culture.' },
-            { title: 'World Language (Online)', tag: 'Gr 9–12', description: 'An online world-language option for languages beyond Spanish.' },
+            { title: 'World Language (Online)', tag: 'Gr 9–12', description: 'An online world-language option.' },
           ],
         },
         {
           name: 'Health & Fitness',
           courses: [
-            { title: 'Health', tag: 'Gr 9–12', description: 'The health requirement.' },
+            { title: 'Health', tag: 'Gr 9–12', description: 'A health course that counts toward the 1 Health & PE credit needed to graduate.' },
             { title: 'Physical Education', tag: 'Gr 9–12', description: 'Physical education.' },
             { title: 'Ladies Athletic Conditioning', tag: 'Gr 9–12', description: 'Athletic conditioning for female students.' },
             { title: 'Team Sports', tag: 'Gr 9–12', description: 'A team-sports fitness course.' },
@@ -6603,7 +6603,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
             { title: 'Symphonic Band', tag: 'Gr 9–12', description: 'The concert band as a credit course.' },
             { title: 'IGNITE Praise Band', tag: 'Gr 9–12', description: 'The school praise band as a credit course.' },
             { title: 'Choir', tag: 'Gr 9–12', description: 'The choral ensemble as a credit course.' },
-            { title: 'Theatrical Studies', tag: 'Gr 9–12', description: 'An introductory theatre course.' },
+            { title: 'Theatrical Studies', tag: 'Gr 9–12', description: 'A theatre course.' },
             { title: 'Honors Acting Studio', tag: 'Honors', description: 'The honors acting course.' },
             { title: 'Digital Photography I', tag: 'Gr 9–12', description: 'First-level digital photography.' },
             { title: 'Digital Photography II', tag: 'Gr 9–12', description: 'Second-level digital photography.' },
@@ -6631,7 +6631,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'GRADES 6 – 8',
       teaser:
-        'The Middle School publishes its own named-course list — a full academic core plus an unusually broad elective slate — from the 2024-25 Middle School Curriculum Guide.',
+        'The Middle School publishes its own named-course list — a full academic core plus an unusually broad elective slate — on its curriculum page, which links the 2024-25 Middle School Curriculum Guide.',
       source: 'Carmel Christian Middle School Curriculum',
       sourceUrl:
         'https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487132&type=d&pREC_ID=935888',
@@ -6662,7 +6662,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
             { title: 'Math 7', tag: 'Gr 7', description: 'The grade-7 mathematics course.' },
             { title: 'Pre-Algebra', tag: 'Gr 7–8', description: 'The pre-algebra course.' },
             { title: 'Pre-Algebra Honors', tag: 'Honors', description: 'The honors pre-algebra course.' },
-            { title: 'Algebra I Honors', tag: 'Honors', description: 'High-school Algebra I taken for honors credit in middle school.' },
+            { title: 'Algebra I Honors', tag: 'Honors', description: 'The honors Algebra I course.' },
             { title: 'Advanced Seminar Courses', tag: 'CCS Pathways', description: 'Advanced-seminar math through CCS Pathways, grades 6–8.' },
           ],
         },
@@ -6705,11 +6705,11 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
             { title: 'Digital Photography', tag: 'Gr 6–8', description: 'A visual-art elective in digital photography.' },
             { title: 'Carmel Christian Choir', tag: 'Gr 6–8', description: 'The middle-school choir.' },
             { title: 'Middle School Band', tag: 'Gr 6–8', description: 'The middle-school band.' },
-            { title: 'Ignite Praise Band', tag: 'Gr 7–8', description: 'The audition-based chapel worship band.' },
+            { title: 'Ignite Praise Band', tag: 'Gr 7–8', description: 'The middle-school praise band.' },
             { title: 'Beginning Theatre', tag: 'Gr 6', description: 'The entry theatre elective.' },
             { title: 'Theatre Arts', tag: 'Gr 7–8', description: 'The continuing theatre elective.' },
             { title: 'Dance Foundations', tag: 'Gr 6–8', description: 'A movement/dance elective.' },
-            { title: 'Studio Theatre', tag: 'Gr 7–8', description: 'An advanced theatre elective.' },
+            { title: 'Studio Theatre', tag: 'Gr 7–8', description: 'A theatre elective.' },
           ],
         },
         {
@@ -6733,20 +6733,20 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'KINDERGARTEN – GRADE 5',
       teaser:
-        'Five core subjects plus six Special Areas, each described per grade in the 2026-27 Elementary Course Description Guide — structured literacy (Orton-Gillingham) and a hands-on STEM lab from Kindergarten.',
+        'Five core subjects described per grade and six Special Areas for all grades, from the 2026-27 Elementary Course Description Guide. It includes structured literacy (Orton-Gillingham) and a hands-on STEM lab from Kindergarten.',
       source: 'Carmel Christian 2026-27 Elementary School Course Description Guide',
       sourceUrl:
         'https://www.carmelchristian.org/academics-elementary',
       notPublished:
-        'The elementary guide describes each subject by grade (for example, "Math" for each grade) rather than as separately titled courses, which is normal for K–5. The rows below carry the guide’s own descriptions for each grade.',
+        'The elementary guide describes each subject by grade (for example, "Math" for each grade) rather than as separately titled courses, which is normal for K–5. Each row below sums up the guide’s text for one subject, from Kindergarten to Grade 5.',
       departments: [
         {
           name: 'Core Curriculum',
           courses: [
             { title: 'Bible', tag: 'K–Gr 5', description: 'Who God is through Creation and the Old and New Testaments, Bible-study skills and Christian living, with weekly scripture memorization and chapel reinforcing a biblical worldview across every subject.' },
             { title: 'Math', tag: 'K–Gr 5', description: 'Foundational number sense in Kindergarten building through Grade 5 fraction operations, volume, measurement, decimals, geometry and coordinate planes — visual models, hands-on activities and word-problem reasoning throughout.' },
-            { title: 'Language Arts', tag: 'K–Gr 5', description: 'A multisensory literacy block rooted in the Science of Reading, with Orton-Gillingham phonics and these strands: phonemic awareness · phonics and morphology · reading (Accelerated Reader from Grade 1) · grammar (Analytical Grammar by Grade 5) · composition and handwriting.' },
-            { title: 'Science', tag: 'K–Gr 5', description: 'Inquiry-based, hands-on study of God’s creation across life, physical and earth/space science, advancing by grade from plants and matter to water and climate, energy and environments, and living systems.' },
+            { title: 'Language Arts', tag: 'K–Gr 5', description: 'A multisensory literacy block rooted in the Science of Reading, with Orton-Gillingham phonics and these strands: phonemic awareness · phonics and morphology · decoding · reading (Accelerated Reader from Grade 1) · grammar (Analytical Grammar by Grade 5) · composition and handwriting.' },
+            { title: 'Science', tag: 'K–Gr 5', description: 'Inquiry-based, hands-on study of God’s creation across life, physical and earth/space science, advancing by grade through water and climate, motion and matter, energy and environments, and living systems.' },
             { title: 'Social Studies', tag: 'K–Gr 5', description: 'Civics, culture, economics, geography and history from a biblical worldview, progressing from community themes through US history, North Carolina history (Grade 4) and early American history to the 1880s (Grade 5).' },
           ],
         },
@@ -6835,7 +6835,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'Introduction to Ethics - Honors', tag: 'Honors', description: 'Classical ethical thought from Plato to Aquinas, developed into a biblically grounded framework for contemporary questions.' },
             { title: 'Systematic Theology', tag: 'Gr 12', description: 'The doctrines essential to orthodox Christian faith, and how worldviews shape belief.' },
             { title: 'Systematic Theology - Honors', tag: 'Honors', description: 'The honors senior theology course, adding analysis of theologians through history; offered for dual enrollment through Judson College.' },
-            { title: 'Introduction to Bible', tag: 'Gr 9–12', description: 'A general introduction to the Bible’s authorship, structure and storyline, recommended for students new to Christian schooling.' },
+            { title: 'Introduction to Bible', tag: 'Gr 9–12', description: 'A general introduction to the Bible’s authorship, structure and storyline, recommended for students new to Christian schooling or to HGCS, with enrollment by administrative recommendation.' },
           ],
         },
         {
@@ -6849,7 +6849,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'English III - Honors', tag: 'Honors', description: 'The honors American-literature year, requiring more independent analysis than the standard course.' },
             { title: 'English IV - College Preparatory', tag: 'CP', description: 'College-level freshman writing alongside novels, plays and poems, introducing the literary theories students meet in college.' },
             { title: 'English IV - Honors', tag: 'Honors', description: 'The honors senior year, focused on personal narrative and argumentation to prepare for college writing.' },
-            { title: 'Advanced Placement English Language and Composition', tag: 'AP', description: 'Rhetorical analysis across mostly nonfiction genres, at the pace of a semester of college English.' },
+            { title: 'Advanced Placement English Language and Composition', tag: 'AP', description: 'Rhetorical analysis across mostly nonfiction genres, the equivalent of a semester of college English.' },
             { title: 'Advanced Placement English Literature and Composition', tag: 'AP', description: 'In-depth literary analysis of fiction, poetry, drama and full-length novels, with an extensive summer reading assignment.' },
           ],
         },
@@ -6859,14 +6859,14 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'Algebra I', tag: 'Gr 9', description: 'The in-depth study of variables, expressions and equations that prepares students for upper-level high school mathematics.' },
             { title: 'Geometry - College Preparatory', tag: 'CP', description: 'Plane and solid Euclidean geometry with inductive and deductive reasoning, including an Algebra I review.' },
             { title: 'Geometry - Honors', tag: 'Honors', description: 'The honors geometry course; eighth-graders must pass a proficiency exam and score at grade level on the Terra Nova to enter.' },
-            { title: 'Algebra II - College Preparatory', tag: 'CP', description: 'Problem-solving methods across applications — systems, polynomials, radicals, quadratics, sequences and probability.' },
+            { title: 'Algebra II - College Preparatory', tag: 'CP', description: 'Problem-solving methods across applications — fractional equations, lines and slope, systems, polynomials, radicals, quadratics, sequences, series and probability.' },
             { title: 'Algebra II - Honors', tag: 'Honors', description: 'The honors track, introducing functions as preparation for Precalculus and Calculus at a fast pace.' },
             { title: 'Advanced Functions & Trigonometry', tag: 'Gr 11–12', description: 'Further skill development for Precalculus or college mathematics; deliberately not a path directly into Calculus.' },
             { title: 'Precalculus - Honors', tag: 'Honors', description: 'Detailed analysis of functions and a unit-circle approach to trigonometry, with a heavy and essential homework load.' },
             { title: 'Calculus  - Honors', tag: 'Honors', description: 'Differential and integral calculus building the foundation for AP Calculus, and a prerequisite for it.' },
             { title: 'Advanced Placement Calculus AB', tag: 'AP', description: 'College-level limits, differentiation and integration; double-blocked with Honors Calculus, with the AP exam required.' },
-            { title: 'Advanced Placement Calculus BC', tag: 'AP', description: 'The faster track through series, power series, Taylor polynomials and parametric, vector and polar calculus; offered second semester only.' },
-            { title: 'Advanced Placement Statistics', tag: 'AP', description: 'Collecting, analyzing and drawing conclusions from data — exploration, probability, inference and regression.' },
+            { title: 'Advanced Placement Calculus BC', tag: 'AP', description: 'Series, power series, Taylor polynomials and parametric, vector and polar calculus as new topics, with limits, differentiation and integration reviewed; offered second semester only.' },
+            { title: 'Advanced Placement Statistics', tag: 'AP', description: 'Collecting, analyzing and drawing conclusions from data — exploration, probability and random variables, inference, binomial and geometric distributions, estimations, chi-square procedures and regression.' },
           ],
         },
         {
@@ -6874,7 +6874,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
           courses: [
             { title: 'Biology - College Preparatory', tag: 'CP', description: 'The introductory life-science course, from biochemistry and cellular physiology through genetics, Creation, evolution and ecology.' },
             { title: 'Biology - Honors', tag: 'Honors', description: 'The honors ninth-grade biology course, moving faster and adding research writing and analysis.' },
-            { title: 'Biology II - Honors', tag: 'Honors', description: 'Organic chemistry, cellular energetics, photosynthesis and DNA — the prerequisite that makes a student eligible for AP Biology.' },
+            { title: 'Biology II - Honors', tag: 'Honors', description: 'Major biological themes including organic chemistry, cellular energetics, photosynthesis, cellular reproduction and DNA — the prerequisite that makes a student eligible for AP Biology.' },
             { title: 'Principles of Chemistry and Physics - College Preparatory', tag: 'CP', description: 'The introductory core science split between physics and chemistry; replaces College Preparatory Chemistry.' },
             { title: 'Chemistry - Honors', tag: 'Honors', description: 'Applications rather than memorization — atomic structure, the periodic table, reactions, gas laws and solutions, with extensive lab work.' },
             { title: 'Chemistry II - Honors', tag: 'Honors', description: 'Covers the first half of the AP Chemistry curriculum; students who do well may enroll in AP Chemistry the same spring.' },
@@ -6882,7 +6882,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'Anatomy & Physiology II - Honors', tag: 'Honors', description: 'The remaining body systems — digestive, excretory, special senses, endocrine, lymphatic and reproductive — concluding with a fetal pig dissection.' },
             { title: 'Human Anatomy & Wellness', tag: 'Gr 10–12', description: 'Body systems paired with the principles of wellness — nutrition, physical activity, sleep and stress management.' },
             { title: 'Health Sciences', tag: 'Gr 10–12', description: 'For students interested in the medical field: healthcare careers, medical terminology, CPR certification, first aid and hands-on labs.' },
-            { title: 'Earth Science', tag: 'Gr 11–12', description: 'A lab-based course centered on weather and climate — the atmosphere, severe storms, plate tectonics and space exploration.' },
+            { title: 'Earth Science', tag: 'Gr 11–12', description: 'A lab-based course centered on weather and climate, investigating topics such as the atmosphere, severe storms, plate tectonics and space exploration.' },
             { title: 'Horticulture', tag: 'Gr 10–12', description: 'Renewable and nonrenewable energy, food sustainability and water distribution, with hands-on work in the campus aquaponics facility.' },
             { title: 'Aquaponics Internship', tag: 'Gr 11–12', description: 'Hands-on work in a functioning aquaponics system — water quality, fish care and crop production — integrating biology, chemistry and engineering.' },
             { title: 'Advanced Placement Biology', tag: 'AP', description: 'College-level biology, double-blocked with Honors Biology II to accommodate the mandated College Board labs.' },
@@ -6902,7 +6902,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'Government/Economics - College Preparatory', tag: 'CP', description: 'The required senior civics course — the Constitution and three branches — paired with microeconomics from biblical principles.' },
             { title: 'Government/Economics - Honors', tag: 'Honors', description: 'The honors senior civics-and-economics course, with more depth and analytical work.' },
             { title: 'Advanced Placement United States History', tag: 'AP', description: 'A college-level survey from the colonial period to the present, built on document-based and free-response essay writing.' },
-            { title: 'Advanced Placement Government and Politics', tag: 'AP', description: 'College-level American national government — institutions, political behavior, public policy, civil liberties and civil rights. Recommended for seniors.' },
+            { title: 'Advanced Placement Government and Politics', tag: 'AP', description: 'College-level American national government — its development, political beliefs and behaviors, parties, interest groups, the media, institutions, public policy, civil liberties and civil rights · recommended for seniors only.' },
             { title: 'Advanced Placement Human Geography and Environment', tag: 'AP', description: 'Population, cultural patterns, political organization of space, land use and economic development, themed on globalization versus cultural diversity.' },
           ],
         },
@@ -6938,7 +6938,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
           courses: [
             { title: 'Choir/Ensemble I & II', tag: 'Gr 9–12', description: 'An introduction to choral singing in two to four parts, with two to three performances a semester counting toward the grade.' },
             { title: 'Choir/Ensemble III & IV', tag: 'Gr 10–12', description: 'Advanced choral technique and leadership, with duet and solo performance and participation in every choral performance.' },
-            { title: 'Concert Band (I-IV)', tag: 'Gr 9–12', description: 'Concert band repertoire with formal music theory and history, and auditions for NCBA All-District, All-State and the Solo & Ensemble Festival.' },
+            { title: 'Concert Band (I-IV)', tag: 'Gr 9–12', description: 'Concert band repertoire with formal music theory and history, and auditions for NCBA All-District, All-State and the Solo & Ensemble Festival · entry is by middle school band or audition.' },
             { title: 'Theatre I & II', tag: 'Gr 9–12', description: 'Theatre history and acting technique, with audition skills, confidence and stage presence, and critical response to performance.' },
             { title: 'Theatre III & IV', tag: 'Gr 10–12', description: 'Deeper theatre history, Shakespearean and advanced acting, playwriting and student directing; Theatre IV may include a theatre-for-missions project.' },
             { title: 'Musical Theatre I & II', tag: 'Gr 9–12', description: 'An introduction rotating through jazz, tap, singing and acting, with end-of-semester performance opportunities by audition.' },
@@ -6954,7 +6954,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'Yearbook II', tag: 'Gr 9–12', description: 'Advanced design, feature writing and photography, with students beginning to specialize in one of those areas.' },
             { title: 'Yearbook III - Honors', tag: 'Honors', description: 'An editor-and-leader role over the yearbook staff — content development, design consistency, mentoring and project management.' },
             { title: 'Digital Media', tag: 'Gr 10–12', description: 'Video production and broadcast journalism anchored by the weekly school broadcast, rotating through filming, editing, on-camera and segment writing.' },
-            { title: 'Digital Media II', tag: 'Gr 11–12', description: 'Lead editor or producer of the weekly broadcast, plus podcast production, documentary features and promotional campaigns.' },
+            { title: 'Digital Media II', tag: 'Gr 11–12', description: 'A chance to serve as lead editor or producer of the weekly broadcast, plus podcast production, documentary features and promotional campaigns.' },
             { title: 'Communications Internship', tag: 'Gr 11–12', description: 'An application-based capstone working alongside the Director of Media & Communications on real school-wide content and live events.' },
           ],
         },
@@ -6980,18 +6980,18 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
         {
           name: 'Electives',
           courses: [
-            { title: 'Advanced Placement Seminar', tag: 'AP', description: 'The first AP Capstone course — cross-curricular inquiry, synthesis from multiple sources, and written and oral argument.' },
-            { title: 'Advanced Placement Research', tag: 'AP', description: 'The second AP Capstone course — a year-long investigation culminating in a 4,000–5,000-word paper and oral defense.' },
+            { title: 'Advanced Placement Seminar', tag: 'AP', description: 'The first AP Capstone course, entered by application — cross-curricular inquiry, synthesis from multiple sources, and written and oral argument.' },
+            { title: 'Advanced Placement Research', tag: 'AP', description: 'The second AP Capstone course, entered by application after AP Seminar — a year-long investigation culminating in a 4,000–5,000-word paper and oral defense.' },
             { title: 'Advanced Placement Psychology', tag: 'AP', description: 'The systematic, scientific study of behavior and mental processes across the major subfields of psychology.' },
-            { title: 'Psychology', tag: 'Gr 9–12', description: 'A survey of the major principles — human development, learning and memory, personality, stress, and abnormal behavior and treatment.' },
+            { title: 'Psychology', tag: 'Gr 9–12', description: 'A survey of the major principles of psychology, including human development, learning and memory, personality, stress, and abnormal behavior and treatment.' },
             { title: 'Personal Finance and Accounting', tag: 'Gr 10–12', description: 'A graduation requirement covering income, budgeting, credit, saving and investing, insurance and taxes.' },
             { title: 'Creative Writing', tag: 'Gr 9–12', description: 'Expressive writing across poetry, short stories, plays and comic strips, with strategies for getting past writer’s block.' },
             { title: 'Critical Thinking and Reasoning through Current Affairs', tag: 'Gr 9–12', description: 'Analysis of the political, economic, social and cultural issues shaping the United States and the world, through a biblical perspective.' },
             { title: 'Biblical Manhood', tag: 'Gr 10–12', description: 'The biblical understanding of masculinity and the role of men in family, church and society, open to young men.' },
             { title: 'Biblical Womanhood', tag: 'Gr 10–12', description: 'The biblical understanding of femininity and the role of women in family, church and society, open to young women.' },
-            { title: 'SOAR', tag: 'Gr 9–12', description: 'Critical thinking, organization, time management and career exploration — aimed at students transitioning into high school.' },
+            { title: 'SOAR', tag: 'Gr 9–12', description: 'Critical thinking, organization, time management, communication and career exploration — ideal for students transitioning into high school or wanting to strengthen their high school journey.' },
             { title: 'Student Intern', tag: 'Gr 9–12', description: 'A graded, application-based internship serving others through direct observation, hands-on work and reflection.' },
-            { title: 'Work Release', tag: 'Gr 12', description: 'For seniors with a 3.0 GPA and an employer letter who leave school early for work; not available in a sport’s season.' },
+            { title: 'Work Release', tag: 'Gr 12', description: 'For seniors with a 3.0 GPA and an employer letter who leave school early for work · not available to a student during the season of a sport they play with after-school practices.' },
           ],
         },
       ],
@@ -7032,9 +7032,9 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
           name: 'Math',
           courses: [
             { title: '6th Grade Math', tag: 'Gr 6', description: 'Reveal Math Course 1: fraction and decimal division, negative numbers, ratios and rates, expressions and equations, area and volume, and statistical reasoning.' },
-            { title: '7th Grade Math', tag: 'Gr 7', description: 'Reveal Math Course 2: proportional relationships, rational numbers, scale drawings and geometric constructions, and inferences from samples.' },
+            { title: '7th Grade Math', tag: 'Gr 7', description: 'Reveal Math Course 2: proportional relationships, rational numbers, scale drawings and geometric constructions, area, surface area and volume, and inferences from samples.' },
             { title: '8th Grade Math', tag: 'Gr 8', description: 'Reveal Math Course 3: linear equations in one or two variables, functions, and the Pythagorean Theorem applied to similarity and congruence.' },
-            { title: '8th Grade - Algebra 1', tag: 'Honors', description: 'Offered to qualifying 8th Grade Honors students — equations, inequalities, polynomials, factoring, graphing and radicals, with nightly homework.' },
+            { title: '8th Grade - Algebra 1', tag: 'Honors', description: 'Offered to qualifying 8th Grade Honors students — equations, expressions, order of operations, properties, signed numbers, inequalities, proportions, polynomials, factoring, graphing and radicals, with nightly homework.' },
           ],
         },
         {
@@ -7117,7 +7117,7 @@ const GASTON_DAY: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'Grades 5 – 8',
       teaser:
-        'Five subject strands by grade, plus required LEAD courses and arts electives. (The Early/Lower School, PS–4, publishes no named courses or subject list at all.)',
+        'Five subject strands by grade, plus required LEAD courses and arts electives. (The Early/Lower School, PS–4, publishes no named courses or per-grade subject list.)',
       source: 'gastonday.org — Middle School',
       sourceUrl: 'https://www.gastonday.org/middle-school/',
       notPublished:
@@ -7159,7 +7159,7 @@ const GASTON_DAY: CourseOfferings = {
             {
               title: 'LEAD',
               tag: 'Required',
-              description: 'A required course sequence carrying digital citizenship and life-skills instruction alongside advisory.',
+              description: 'A required course sequence carrying digital citizenship instruction alongside advisory.',
             },
             {
               title: 'Art',
@@ -7174,7 +7174,7 @@ const GASTON_DAY: CourseOfferings = {
             {
               title: 'Chorus',
               tag: 'Elective',
-              description: 'The Middle School Chorus, which performs alongside the instrumental ensemble.',
+              description: 'The Middle School Chorus, one of four fine-arts electives Middle School students choose between.',
             },
             {
               title: 'Band',
@@ -7212,11 +7212,11 @@ const GASTON_DAY: CourseOfferings = {
             { title: 'Geometry', tag: 'Honors', description: 'Required for graduation, offered at the Honors level.' },
             { title: 'Algebra II', tag: 'Honors', description: 'Required for graduation, offered at the Honors level.' },
             { title: 'PreCalculus', tag: 'Honors', description: 'Bridge course into the calculus sequence.' },
-            { title: 'Advanced Functions and Models', description: 'A fourth-year mathematics option for students not continuing to calculus.' },
+            { title: 'Advanced Functions and Models', description: 'An Upper School mathematics course; the school publishes no description of it.' },
             { title: 'Calculus', tag: 'Honors', description: 'Honors calculus, offered alongside the two AP calculus courses.' },
             { title: 'Statistics', tag: 'Honors', description: 'Honors statistics as a fourth-year mathematics option.' },
-            { title: 'Calculus AB', tag: 'AP', description: 'First-semester college calculus; all AP students must sit the exam.' },
-            { title: 'Calculus BC', tag: 'AP', description: 'Extends AB through series and further integration techniques.' },
+            { title: 'Calculus AB', tag: 'AP', description: 'An AP calculus course; all AP students must sit the exam.' },
+            { title: 'Calculus BC', tag: 'AP', description: 'One of two AP calculus courses, alongside Calculus AB.' },
           ],
         },
         {
@@ -7225,8 +7225,8 @@ const GASTON_DAY: CourseOfferings = {
             { title: 'Biology', tag: 'Honors / AP', description: 'Required lab science, offered at both Honors and AP level.' },
             { title: 'Chemistry', tag: 'Honors / AP', description: 'Required lab science, offered at both Honors and AP level.' },
             { title: 'Environmental Science', tag: 'Honors', description: 'A third-year lab science option at the Honors level.' },
-            { title: 'Physics', tag: 'Honors', description: 'Honors physics, the prerequisite tier beneath AP Physics II.' },
-            { title: 'Physics II', tag: 'AP', description: 'The AP physics offering, implying a two-year physics sequence.' },
+            { title: 'Physics', tag: 'Honors', description: 'Honors physics; Physics II is offered at the AP level.' },
+            { title: 'Physics II', tag: 'AP', description: 'The one AP physics course in the Upper School curriculum.' },
           ],
         },
         {
@@ -7240,18 +7240,18 @@ const GASTON_DAY: CourseOfferings = {
         {
           name: 'World Language',
           courses: [
-            { title: 'Spanish I, II, III', description: 'Completion through Level III is required for graduation; the requirement may also be met in French.' },
+            { title: 'Spanish I, II, III', description: 'Completion through Level III, in Spanish or French, is required for graduation, except for international students for whom English is a second language.' },
             { title: 'Spanish IV', tag: 'Honors', description: 'The terminal Spanish course, beyond the graduation requirement.' },
           ],
         },
         {
           name: 'Fine Arts',
           courses: [
-            { title: 'Band', description: 'One of four fine-arts courses counting toward the two-year requirement.' },
+            { title: 'Band', description: 'One of the fine-arts courses counting toward the two-year requirement.' },
             { title: 'Concert Choir', description: 'Vocal ensemble carrying fine-arts credit.' },
             { title: 'Drama', description: 'Theatre course; the school stages two major productions a year including a spring musical.' },
             { title: 'Visual Art I, II, III', description: 'A three-step sequence covering drawing, painting, ceramics, printmaking and portfolio development.' },
-            { title: 'Visual Art IV', tag: 'Honors', description: 'The terminal visual-arts course — there is no AP Studio Art.' },
+            { title: 'Visual Art IV', tag: 'Honors', description: 'The final course in the visual-arts sequence; the school\'s curriculum table lists no AP Studio Art.' },
           ],
         },
         {
@@ -7266,10 +7266,10 @@ const GASTON_DAY: CourseOfferings = {
           courses: [
             { title: 'AP Computer Science', tag: 'AP', description: 'The tenth AP course, supported by a makerspace with 3-D printers, laser cutters and CNC machines.' },
             { title: 'Engineering', tag: 'Honors', description: 'Honors engineering, taught alongside the makerspace facilities.' },
-            { title: 'Robotics', tag: 'Honors', description: 'Feeds the VEX Robotics team that reached TSA VEX Nationals in 2023.' },
+            { title: 'Robotics', tag: 'Honors', description: 'Honors robotics; the school also runs a VEX Robotics Club, which qualified for Technology Student Association VEX Nationals in 2023.' },
             { title: 'Intro to Business', tag: 'Honors / DE', description: 'The one dual-enrollment course taught by Gaston Day faculty; DE credit is not calculated into the GPA.' },
-            { title: 'Creative Writing', tag: 'Honors', description: 'Feeds Blutopia, the student literary and art magazine.' },
-            { title: 'Speech & Debate', description: 'Supports the Public Debate Club and Mock Trial.' },
+            { title: 'Creative Writing', tag: 'Honors', description: 'A creative-writing elective offered at the Honors level.' },
+            { title: 'Speech & Debate', description: 'A general elective in speech and debate.' },
             { title: 'Psychology', description: 'Social-science elective.' },
             { title: 'Human Geography', description: 'Social-science elective; also taught in Middle School at grade level.' },
             { title: 'Human Health and Medicine', description: 'Pre-health elective.' },
@@ -8516,7 +8516,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'K – Grade 5',
       teaser:
-        'Named curricula rather than named courses — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plus six weekly enrichments and a K–5 Spanish program.',
+        'Named curricula rather than named courses — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plus six weekly enrichments, including a K–5 Spanish program.',
       source: 'tescharlotte.org — Lower School curriculum and enrichments; 2026-27 School Profile',
       sourceUrl: 'https://www.tescharlotte.org/academics/lower-school-curriculum.cfm',
       notPublished:
@@ -8585,7 +8585,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Faith Studies',
               tag: 'K–Gr 5',
               description:
-                'Bible lessons and the study of world religions, taught K–8 and running weekly in the Lower School.',
+                'Bible lessons, the study of world religions and more, taught K–8 and running weekly in the Lower School.',
             },
           ],
         },
@@ -8666,7 +8666,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Geometry',
               tag: 'Gr 8',
               description:
-                'The furthest of the five 8th-grade mathematics courses. The school states no credit arrangement for it.',
+                'One of five distinct 8th-grade mathematics courses, with no credit arrangement stated by the school.',
             },
           ],
         },
@@ -8954,7 +8954,7 @@ const CHARLOTTE_PREP: CourseOfferings = {
               title: 'Reading & Writing',
               tag: 'K–2',
               description:
-                'Daily instruction in "decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process."',
+                'Daily instruction in reading, writing, speaking and listening skills, "including decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process."',
             },
             {
               title: 'Reading & Writing',
