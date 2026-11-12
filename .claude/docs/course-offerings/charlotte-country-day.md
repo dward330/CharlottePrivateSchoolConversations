@@ -1,6 +1,635 @@
 # Charlotte Country Day School — Course Offerings
-> Distilled from 1 source document(s) in `source-material/course-offerings/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Curriculum Guide
+> Distilled from 2 source document(s) in `source-material/course-offerings/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-11.
+**Documents:** Curriculum Guide Full Descriptions 2025-2026, Curriculum Guide
+
+
+---
+
+## Curriculum Guide Full Descriptions 2025-2026
+
+*Source file: `Charlotte Country Day - Course Offerings - Curriculum Guide Full Descriptions 2025-2026.md`*
+
+# Charlotte Country Day School — Course Offerings — Curriculum Guide Full Descriptions 2025-26
+**Provenance**
+
+- **Compiled by:** Claude Code, plan `coursecensus` Batch 1, at Derrick's request
+- **Date fetched:** 2026-11-11
+- **Why:** the earlier record (`Charlotte Country Day - Course Offerings - Curriculum Guide.md`)
+ holds the app's own condensed descriptions word for word for 92% of courses, so it cannot
+ catch a description that drifted from the catalog. This file holds the school's own text,
+ for the description-to-catalog census.
+- **Upper School method:** the 2025-26 Upper School Academic Policies and Course Guide PDF
+ ("August update", 44 pp.) was re-downloaded from S1 and its text extracted column by column
+ with `pdfplumber` (each two-column page is read left column, then right column; a page heading
+ that spans both columns can be split across them, e.g. "Engli" … "ish as a Second Language").
+ U+200B was read as a space and runs of spaces collapsed. No other change.
+ - PDF SHA-256: `b777a4f809f4a527938cc1801f6c6c15575bf2df71b584b7244bee971382af0d`
+ - PDF metadata: created 2025-08-19; the PDF's `Subject` field still reads "Academic Policies and
+ Course Guide: 2023-24", a leftover from an older file; the cover and every page footer read
+ 2025-26 / "August 2025".
+- **Lower and Middle School method:** each division's live curriculum hub and grade pages
+ (S3–S15) were fetched as HTML and converted to text; site navigation, news and footer
+ blocks were removed. The pages have no click-to-open tiles (checked for `fsPostLink`).
+- **Catalog year:** the app was built from this same 2025-26 guide (record, 2026-07-26). No
+ newer Upper School guide was looked for or used (freshness is out of scope for the census).
+## Source URLs
+
+| Ref | URL | What it covers |
+| --- | --- | --- |
+| S1 | https://resources.finalsite.net/images/v1755633363/charlottecds/kt72slq7bqecmr1hswmm/2025-26CourseCatalogueAugustupdate.pdf | 2025-26 Upper School Academic Policies and Course Guide (44 pp.), every Upper School course entry |
+| S2 | https://www.charlottecountryday.org/fs/resource-manager/view/bc87ead7-8dee-4694-ab5b-b04ebf5710de | School-hosted permalink to the current guide (the app's citation link) |
+| S3 | https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum | Lower School curriculum hub |
+| S4 | https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/jk | Lower School, jk |
+| S5 | https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/kindergarten | Lower School, kindergarten |
+| S6 | https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/first-grade | Lower School, first-grade |
+| S7 | https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/second-grade | Lower School, second-grade |
+| S8 | https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/third-grade | Lower School, third-grade |
+| S9 | https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/fourth-grade | Lower School, fourth-grade |
+| S10 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum | Middle School curriculum hub |
+| S11 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/fifth-grade | Middle School, fifth-grade |
+| S12 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/sixth-grade | Middle School, sixth-grade |
+| S13 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/seventh-grade | Middle School, seventh-grade |
+| S14 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/eighth-grade | Middle School, eighth-grade |
+| S15 | https://www.charlottecountryday.org/cd-education/middle-school | Middle School overview (language options, math classes); added during the Batch 1 census |
+
+## Index — every app course, in app order
+
+Where each app row's own text sits below. Upper School rows point to the guide page (PDF page number, as `===== PAGE N =====` below); Lower and Middle School rows point to the division section.
+
+| App path | Division | Department | Title | Where |
+| --- | --- | --- | --- | --- |
+| `divisions[0].departments[0].courses[0]` | Lower School Courses | Core Academics | Units of Inquiry | Lower School pages |
+| `divisions[0].departments[0].courses[1]` | Lower School Courses | Core Academics | Language Arts / Literacy | Lower School pages |
+| `divisions[0].departments[0].courses[2]` | Lower School Courses | Core Academics | Mathematics | Lower School pages |
+| `divisions[0].departments[0].courses[3]` | Lower School Courses | Core Academics | Science | Lower School pages |
+| `divisions[0].departments[0].courses[4]` | Lower School Courses | Core Academics | Social Studies | Lower School pages |
+| `divisions[0].departments[1].courses[0]` | Lower School Courses | Modern Languages | French & Spanish | Lower School pages |
+| `divisions[0].departments[2].courses[0]` | Lower School Courses | Arts, PE & Design | Fine Arts (Art, Music, Drama) | Lower School pages |
+| `divisions[0].departments[2].courses[1]` | Lower School Courses | Arts, PE & Design | Physical Education | Lower School pages |
+| `divisions[0].departments[2].courses[2]` | Lower School Courses | Arts, PE & Design | Design Lab | Lower School pages |
+| `divisions[0].departments[2].courses[3]` | Lower School Courses | Arts, PE & Design | Library / Information Literacy | Lower School pages |
+| `divisions[1].departments[0].courses[0]` | Middle School Courses | Mathematics | Fifth Grade Math | Middle School pages |
+| `divisions[1].departments[0].courses[1]` | Middle School Courses | Mathematics | Sixth Grade Math | Middle School pages |
+| `divisions[1].departments[0].courses[2]` | Middle School Courses | Mathematics | Sixth Grade Pre-Algebra | Middle School pages |
+| `divisions[1].departments[0].courses[3]` | Middle School Courses | Mathematics | Pre-Algebra | Middle School pages |
+| `divisions[1].departments[0].courses[4]` | Middle School Courses | Mathematics | Honors Pre-Algebra | Middle School pages |
+| `divisions[1].departments[0].courses[5]` | Middle School Courses | Mathematics | Honors Algebra 1 | Middle School pages |
+| `divisions[1].departments[0].courses[6]` | Middle School Courses | Mathematics | Algebra 8A | Middle School pages |
+| `divisions[1].departments[0].courses[7]` | Middle School Courses | Mathematics | Algebra 1 | Middle School pages |
+| `divisions[1].departments[0].courses[8]` | Middle School Courses | Mathematics | Geometry | Middle School pages |
+| `divisions[1].departments[1].courses[0]` | Middle School Courses | English & Social Studies | Language Arts & Social Studies (integrated) | Middle School pages |
+| `divisions[1].departments[1].courses[1]` | Middle School Courses | English & Social Studies | Language Arts & Social Studies (integrated) | Middle School pages |
+| `divisions[1].departments[1].courses[2]` | Middle School Courses | English & Social Studies | English | Middle School pages |
+| `divisions[1].departments[1].courses[3]` | Middle School Courses | English & Social Studies | Social Studies | Middle School pages |
+| `divisions[1].departments[1].courses[4]` | Middle School Courses | English & Social Studies | English | Middle School pages |
+| `divisions[1].departments[1].courses[5]` | Middle School Courses | English & Social Studies | Social Studies | Middle School pages |
+| `divisions[1].departments[2].courses[0]` | Middle School Courses | Science & Engineering | Science | Middle School pages |
+| `divisions[1].departments[2].courses[1]` | Middle School Courses | Science & Engineering | Science: Forces of Change | Middle School pages |
+| `divisions[1].departments[2].courses[2]` | Middle School Courses | Science & Engineering | Science | Middle School pages |
+| `divisions[1].departments[2].courses[3]` | Middle School Courses | Science & Engineering | Science | Middle School pages |
+| `divisions[1].departments[2].courses[4]` | Middle School Courses | Science & Engineering | Engineering | Middle School pages |
+| `divisions[1].departments[3].courses[0]` | Middle School Courses | Modern & Classical Languages | Spanish | Middle School pages |
+| `divisions[1].departments[3].courses[1]` | Middle School Courses | Modern & Classical Languages | French | Middle School pages |
+| `divisions[1].departments[3].courses[2]` | Middle School Courses | Modern & Classical Languages | Latin | Middle School pages |
+| `divisions[1].departments[4].courses[0]` | Middle School Courses | Fine Arts | Visual Art | Middle School pages |
+| `divisions[1].departments[4].courses[1]` | Middle School Courses | Fine Arts | Band | Middle School pages |
+| `divisions[1].departments[4].courses[2]` | Middle School Courses | Fine Arts | Choir | Middle School pages |
+| `divisions[1].departments[4].courses[3]` | Middle School Courses | Fine Arts | Orchestra | Middle School pages |
+| `divisions[1].departments[4].courses[4]` | Middle School Courses | Fine Arts | Drama | Middle School pages |
+| `divisions[1].departments[4].courses[5]` | Middle School Courses | Fine Arts | General Music | Middle School pages |
+| `divisions[1].departments[5].courses[0]` | Middle School Courses | PE, Health & Advisory | Physical Education | Middle School pages |
+| `divisions[1].departments[5].courses[1]` | Middle School Courses | PE, Health & Advisory | Health | Middle School pages |
+| `divisions[1].departments[5].courses[2]` | Middle School Courses | PE, Health & Advisory | Health | Middle School pages |
+| `divisions[1].departments[5].courses[3]` | Middle School Courses | PE, Health & Advisory | Health | Middle School pages |
+| `divisions[1].departments[5].courses[4]` | Middle School Courses | PE, Health & Advisory | Health | Middle School pages |
+| `divisions[1].departments[5].courses[5]` | Middle School Courses | PE, Health & Advisory | Counseling | Middle School pages |
+| `divisions[1].departments[5].courses[6]` | Middle School Courses | PE, Health & Advisory | Counseling: Too Good For Drugs | Middle School pages |
+| `divisions[1].departments[5].courses[7]` | Middle School Courses | PE, Health & Advisory | Information Literacy | Middle School pages |
+| `divisions[1].departments[5].courses[8]` | Middle School Courses | PE, Health & Advisory | Advisory | Middle School pages |
+| `divisions[2].departments[0].courses[0]` | Upper School Courses | English | English 9: Foundations in English | guide p. 9, 10 |
+| `divisions[2].departments[0].courses[1]` | Upper School Courses | English | English 10: Foundations in English II: The Individual in Society | guide p. 10 |
+| `divisions[2].departments[0].courses[2]` | Upper School Courses | English | English 11: American Literature | guide p. 9, 10, 11 |
+| `divisions[2].departments[0].courses[3]` | Upper School Courses | English | AP English 11: Language & Composition | guide p. 9, 11 |
+| `divisions[2].departments[0].courses[4]` | Upper School Courses | English | AP English 12: Literature & Composition | guide p. 9, 11 |
+| `divisions[2].departments[0].courses[5]` | Upper School Courses | English | IB English 11 (HL) | guide p. 11, 37 |
+| `divisions[2].departments[0].courses[6]` | Upper School Courses | English | IB English 12 (HL) | guide p. 11, 37 |
+| `divisions[2].departments[0].courses[7]` | Upper School Courses | English | English 12 | guide p. 9, 10, 11, 37 |
+| `divisions[2].departments[0].courses[8]` | Upper School Courses | English | Creative Writing | guide p. 9 |
+| `divisions[2].departments[0].courses[9]` | Upper School Courses | English | Intermediate & Advanced ESL | guide p. 12 |
+| `divisions[2].departments[1].courses[0]` | Upper School Courses | Mathematics | Algebra I | guide p. 9, 13 |
+| `divisions[2].departments[1].courses[1]` | Upper School Courses | Mathematics | Geometry | guide p. 9, 13, 14 |
+| `divisions[2].departments[1].courses[2]` | Upper School Courses | Mathematics | Honors Geometry | guide p. 9, 13 |
+| `divisions[2].departments[1].courses[3]` | Upper School Courses | Mathematics | Algebra II | guide p. 9, 13, 14, 17 |
+| `divisions[2].departments[1].courses[4]` | Upper School Courses | Mathematics | Honors Algebra II | guide p. 9, 13, 14 |
+| `divisions[2].departments[1].courses[5]` | Upper School Courses | Mathematics | Honors Algebra II/Precalculus | guide p. 9 |
+| `divisions[2].departments[1].courses[6]` | Upper School Courses | Mathematics | Algebra III/Trigonometry | guide p. 9, 13, 14 |
+| `divisions[2].departments[1].courses[7]` | Upper School Courses | Mathematics | Dynamic Math | guide p. 9, 14 |
+| `divisions[2].departments[1].courses[8]` | Upper School Courses | Mathematics | Pre-calculus | guide p. 9, 13, 14, 15 |
+| `divisions[2].departments[1].courses[9]` | Upper School Courses | Mathematics | Honors Pre-calculus | guide p. 9, 14, 15, 34 |
+| `divisions[2].departments[1].courses[10]` | Upper School Courses | Mathematics | Introduction to Calculus & Statistics | guide p. 9 |
+| `divisions[2].departments[1].courses[11]` | Upper School Courses | Mathematics | AP Statistics | guide p. 9, 14 |
+| `divisions[2].departments[1].courses[12]` | Upper School Courses | Mathematics | Advanced AP Statistics with R and R Studio | guide p. 9, 14 |
+| `divisions[2].departments[1].courses[13]` | Upper School Courses | Mathematics | AP Calculus AB | guide p. 9, 14 |
+| `divisions[2].departments[1].courses[14]` | Upper School Courses | Mathematics | AP Calculus BC | guide p. 9, 14, 15, 39 |
+| `divisions[2].departments[1].courses[15]` | Upper School Courses | Mathematics | IB Applications SL | guide p. 9, 15, 39 |
+| `divisions[2].departments[1].courses[16]` | Upper School Courses | Mathematics | IB Analysis SL | guide p. 9, 15, 39 |
+| `divisions[2].departments[1].courses[17]` | Upper School Courses | Mathematics | Calculus III/IB Analysis HL | guide p. 15 |
+| `divisions[2].departments[2].courses[0]` | Upper School Courses | Sciences | Inquiries in Biological and Physical Science | guide p. 9, 16 |
+| `divisions[2].departments[2].courses[1]` | Upper School Courses | Sciences | Biology I | guide p. 9, 16, 17, 18 |
+| `divisions[2].departments[2].courses[2]` | Upper School Courses | Sciences | AP Biology | guide p. 9, 16, 19, 21 |
+| `divisions[2].departments[2].courses[3]` | Upper School Courses | Sciences | IB Biology SL | guide p. 9, 16, 38, 40 |
+| `divisions[2].departments[2].courses[4]` | Upper School Courses | Sciences | IB Biology HL | guide p. 9, 16, 38 |
+| `divisions[2].departments[2].courses[5]` | Upper School Courses | Sciences | AP Environmental Science | guide p. 9, 17 |
+| `divisions[2].departments[2].courses[6]` | Upper School Courses | Sciences | Environmental Issues | guide p. 9, 17, 43 |
+| `divisions[2].departments[2].courses[7]` | Upper School Courses | Sciences | Marine Biology | guide p. 9, 17 |
+| `divisions[2].departments[2].courses[8]` | Upper School Courses | Sciences | Human Anatomy: External Structural Systems | guide p. 17 |
+| `divisions[2].departments[2].courses[9]` | Upper School Courses | Sciences | Human Anatomy: Internal Structural Systems | guide p. 9, 17 |
+| `divisions[2].departments[2].courses[10]` | Upper School Courses | Sciences | Chemistry I | guide p. 9, 16, 17, 18 |
+| `divisions[2].departments[2].courses[11]` | Upper School Courses | Sciences | Honors Chemistry I | guide p. 16, 17, 18 |
+| `divisions[2].departments[2].courses[12]` | Upper School Courses | Sciences | AP Chemistry | guide p. 9, 18, 19 |
+| `divisions[2].departments[2].courses[13]` | Upper School Courses | Sciences | IB Chemistry SL | guide p. 9, 18, 38, 39 |
+| `divisions[2].departments[2].courses[14]` | Upper School Courses | Sciences | IB Chemistry HL | guide p. 9, 18, 39 |
+| `divisions[2].departments[2].courses[15]` | Upper School Courses | Sciences | Physics I | guide p. 9, 18, 19 |
+| `divisions[2].departments[2].courses[16]` | Upper School Courses | Sciences | Honors Physics I | guide p. 18 |
+| `divisions[2].departments[2].courses[17]` | Upper School Courses | Sciences | AP Physics C: Mechanics, E&M | guide p. 9 |
+| `divisions[2].departments[2].courses[18]` | Upper School Courses | Sciences | Astronomy: Solar Systems | guide p. 9, 18 |
+| `divisions[2].departments[2].courses[19]` | Upper School Courses | Sciences | Forensic Science: Biochemical Applications | guide p. 18 |
+| `divisions[2].departments[2].courses[20]` | Upper School Courses | Sciences | Forensic Science: Physical Applications | guide p. 9, 19 |
+| `divisions[2].departments[2].courses[21]` | Upper School Courses | Sciences | Organic Chemistry | guide p. 9, 19, 38 |
+| `divisions[2].departments[2].courses[22]` | Upper School Courses | Sciences | Honors Principles of Engineering | guide p. 19 |
+| `divisions[2].departments[2].courses[23]` | Upper School Courses | Sciences | Physical Computational Biochemistry | guide p. 19 |
+| `divisions[2].departments[3].courses[0]` | Upper School Courses | History & Social Studies | 9th Grade History | guide p. 20 |
+| `divisions[2].departments[3].courses[1]` | Upper School Courses | History & Social Studies | Modern World History | guide p. 9, 20 |
+| `divisions[2].departments[3].courses[2]` | Upper School Courses | History & Social Studies | Honors Modern World History | guide p. 9, 20 |
+| `divisions[2].departments[3].courses[3]` | Upper School Courses | History & Social Studies | IB World History SL | guide p. 20, 38 |
+| `divisions[2].departments[3].courses[4]` | Upper School Courses | History & Social Studies | United States History | guide p. 9, 20, 38 |
+| `divisions[2].departments[3].courses[5]` | Upper School Courses | History & Social Studies | AP United States History | guide p. 9, 20 |
+| `divisions[2].departments[3].courses[6]` | Upper School Courses | History & Social Studies | IB History of the Americas HL | guide p. 21, 38 |
+| `divisions[2].departments[3].courses[7]` | Upper School Courses | History & Social Studies | AP Psychology | guide p. 9, 21 |
+| `divisions[2].departments[3].courses[8]` | Upper School Courses | History & Social Studies | IB Psychology SL | guide p. 21, 38, 41 |
+| `divisions[2].departments[3].courses[9]` | Upper School Courses | History & Social Studies | AP Human Geography | guide p. 9, 21 |
+| `divisions[2].departments[3].courses[10]` | Upper School Courses | History & Social Studies | AP European History | guide p. 9, 21 |
+| `divisions[2].departments[3].courses[11]` | Upper School Courses | History & Social Studies | AP US Government and Politics | guide p. 9, 21 |
+| `divisions[2].departments[3].courses[12]` | Upper School Courses | History & Social Studies | Ancient Empires | guide p. 9, 22 |
+| `divisions[2].departments[3].courses[13]` | Upper School Courses | History & Social Studies | Adolescent Psychology and Behavior | guide p. 9, 22 |
+| `divisions[2].departments[3].courses[14]` | Upper School Courses | History & Social Studies | African American History: From Slavery to Civil Rights | guide p. 22 |
+| `divisions[2].departments[3].courses[15]` | Upper School Courses | History & Social Studies | Education for Social Justice | guide p. 22 |
+| `divisions[2].departments[3].courses[16]` | Upper School Courses | History & Social Studies | IB Digital Society | guide p. 8 |
+| `divisions[2].departments[4].courses[0]` | Upper School Courses | Modern & Classical Languages | Honors Chinese I–V | guide p. 23 |
+| `divisions[2].departments[4].courses[1]` | Upper School Courses | Modern & Classical Languages | Chinese II | guide p. 9, 23 |
+| `divisions[2].departments[4].courses[2]` | Upper School Courses | Modern & Classical Languages | IB Chinese | guide p. 9, 23, 37 |
+| `divisions[2].departments[4].courses[3]` | Upper School Courses | Modern & Classical Languages | French I–V | guide p. 24 |
+| `divisions[2].departments[4].courses[4]` | Upper School Courses | Modern & Classical Languages | Honors French II, III, IV | guide p. 9 |
+| `divisions[2].departments[4].courses[5]` | Upper School Courses | Modern & Classical Languages | AP French Language & Culture | guide p. 9, 25 |
+| `divisions[2].departments[4].courses[6]` | Upper School Courses | Modern & Classical Languages | IB French HL | guide p. 9, 37 |
+| `divisions[2].departments[4].courses[7]` | Upper School Courses | Modern & Classical Languages | Spanish I–V | guide p. 25 |
+| `divisions[2].departments[4].courses[8]` | Upper School Courses | Modern & Classical Languages | Honors Spanish II, III, IV | guide p. 9 |
+| `divisions[2].departments[4].courses[9]` | Upper School Courses | Modern & Classical Languages | AP Spanish Language & Culture | guide p. 9, 26 |
+| `divisions[2].departments[4].courses[10]` | Upper School Courses | Modern & Classical Languages | IB Spanish HL | guide p. 9, 37 |
+| `divisions[2].departments[4].courses[11]` | Upper School Courses | Modern & Classical Languages | Latin I–V | guide p. 26 |
+| `divisions[2].departments[4].courses[12]` | Upper School Courses | Modern & Classical Languages | Honors Latin II, III, IV | guide p. 9 |
+| `divisions[2].departments[4].courses[13]` | Upper School Courses | Modern & Classical Languages | AP Latin | guide p. 9, 27 |
+| `divisions[2].departments[4].courses[14]` | Upper School Courses | Modern & Classical Languages | IB Latin | guide p. 9, 27, 37 |
+| `divisions[2].departments[5].courses[0]` | Upper School Courses | Fine Arts | Concert Choir | guide p. 9, 28 |
+| `divisions[2].departments[5].courses[1]` | Upper School Courses | Fine Arts | Honors Concert Choir | guide p. 9, 28 |
+| `divisions[2].departments[5].courses[2]` | Upper School Courses | Fine Arts | Honors Chamber Choir | guide p. 9, 28 |
+| `divisions[2].departments[5].courses[3]` | Upper School Courses | Fine Arts | Symphonic Band | guide p. 9, 28, 29 |
+| `divisions[2].departments[5].courses[4]` | Upper School Courses | Fine Arts | Honors Symphonic Band | guide p. 9, 28, 29 |
+| `divisions[2].departments[5].courses[5]` | Upper School Courses | Fine Arts | Orchestra | guide p. 9, 29, 40 |
+| `divisions[2].departments[5].courses[6]` | Upper School Courses | Fine Arts | Honors Orchestra | guide p. 9, 29 |
+| `divisions[2].departments[5].courses[7]` | Upper School Courses | Fine Arts | Introduction to Piano | guide p. 9, 29 |
+| `divisions[2].departments[5].courses[8]` | Upper School Courses | Fine Arts | Supersonic: Percussion Ensemble | guide p. 9, 29 |
+| `divisions[2].departments[5].courses[9]` | Upper School Courses | Fine Arts | AP Music Theory | guide p. 9, 29 |
+| `divisions[2].departments[5].courses[10]` | Upper School Courses | Fine Arts | Acting/Directing I | guide p. 9, 29, 30 |
+| `divisions[2].departments[5].courses[11]` | Upper School Courses | Fine Arts | Acting/Directing II | guide p. 9, 30 |
+| `divisions[2].departments[5].courses[12]` | Upper School Courses | Fine Arts | Theater Workshop | guide p. 9 |
+| `divisions[2].departments[5].courses[13]` | Upper School Courses | Fine Arts | Improvisation I | guide p. 9, 30 |
+| `divisions[2].departments[5].courses[14]` | Upper School Courses | Fine Arts | Improvisation II | guide p. 30 |
+| `divisions[2].departments[5].courses[15]` | Upper School Courses | Fine Arts | IB Theatre Arts (SL, HL) | guide p. 9, 29, 30, 40 |
+| `divisions[2].departments[5].courses[16]` | Upper School Courses | Fine Arts | 2-D Art I–IV | guide p. 9, 30 |
+| `divisions[2].departments[5].courses[17]` | Upper School Courses | Fine Arts | Design/Photography I–IV | guide p. 31 |
+| `divisions[2].departments[5].courses[18]` | Upper School Courses | Fine Arts | Sculpture I–IV | guide p. 9, 31 |
+| `divisions[2].departments[5].courses[19]` | Upper School Courses | Fine Arts | Architectural Design Studio | guide p. 32 |
+| `divisions[2].departments[5].courses[20]` | Upper School Courses | Fine Arts | Special Projects in Visual Arts | guide p. 32 |
+| `divisions[2].departments[5].courses[21]` | Upper School Courses | Fine Arts | AP Studio: 2D Art | guide p. 9, 32 |
+| `divisions[2].departments[5].courses[22]` | Upper School Courses | Fine Arts | AP Studio: Design/Photography | guide p. 9, 32 |
+| `divisions[2].departments[5].courses[23]` | Upper School Courses | Fine Arts | AP Studio: Sculpture | guide p. 9, 33 |
+| `divisions[2].departments[5].courses[24]` | Upper School Courses | Fine Arts | AP Art History | guide p. 9, 33 |
+| `divisions[2].departments[5].courses[25]` | Upper School Courses | Fine Arts | IB Art I & II (SL, HL) | guide p. 9 |
+| `divisions[2].departments[5].courses[26]` | Upper School Courses | Fine Arts | Yearbook | guide p. 9, 33 |
+| `divisions[2].departments[5].courses[27]` | Upper School Courses | Fine Arts | Yearbook Editor, Honors | guide p. 33 |
+| `divisions[2].departments[6].courses[0]` | Upper School Courses | Technology & Computer Science | Exploring Computer Science | guide p. 9, 34 |
+| `divisions[2].departments[6].courses[1]` | Upper School Courses | Technology & Computer Science | AP Computer Science A | guide p. 9, 34 |
+| `divisions[2].departments[6].courses[2]` | Upper School Courses | Technology & Computer Science | Advanced Topics in Computer Science | guide p. 9, 34 |
+| `divisions[2].departments[7].courses[0]` | Upper School Courses | Non-Departmental | 9th Grade Seminar | guide p. 9, 35 |
+| `divisions[2].departments[7].courses[1]` | Upper School Courses | Non-Departmental | IB Theory of Knowledge | guide p. 9, 36 |
+| `divisions[2].departments[7].courses[2]` | Upper School Courses | Non-Departmental | Public Speaking and Professional Communication | guide p. 35 |
+| `divisions[2].departments[7].courses[3]` | Upper School Courses | Non-Departmental | IB Extended Essay & CAS | guide p. 36 |
+| `divisions[2].departments[8].courses[0]` | Upper School Courses | Physical Education | Strength Training | guide p. 9, 35, 42 |
+| `divisions[2].departments[8].courses[1]` | Upper School Courses | Physical Education | Ultimate Frisbee | guide p. 42 |
+
+## Lower School — curriculum pages (S3–S9)
+
+### Lower School curriculum hub (S3)
+
+# Lower School Curriculum
+
+In Lower School, we value social, emotional, physical, and academic growth and development. Each classroom includes two full-time instructional teachers who work to build a solid foundation of underlying skills and conceptual understanding to develop deep, critical thinkers and problem solvers.
+
+In addition to a strong academic program, students gain skills to cultivate self-knowledge, develop empathy, and make responsible decisions. Experiences across the Lower School encourage and develop creativity, collaboration, and communication to foster lifelong, curious, joyful learners.
+
+- Special area classes include science, design lab, physical education, modern languages (French and Spanish), music, art, drama, and library.
+
+- Guest speakers, visiting performers and artists, and curriculum-related field trips help expand our student’s knowledge and help them grow in awareness, expression, and appreciation.
+
+### jk (lower-school/ls-curriculum/jk)
+
+# Junior Kindergarten Experience
+
+Our Junior Kindergarten (JK) program was designed with best practices in early childhood education in mind, and it fosters each child’s growth in the following areas: social, emotional, academic, and physical.
+
+The curriculum is student-centered, differentiated and designed to engage and inspire students through inquiry, direct instruction, and play. The curriculum is comprehensive and covers literacy, motor development, oral language development, math, themed inquiry work, and social-emotional learning.
+
+## Curriculum
+
+►Click to learn more
+
+-
+Units of Inquiry
+
+-
+Literacy
+
+-
+Mathematics
+
+-
+Science
+
+-
+Modern Languages
+
+-
+Physical Education
+
+-
+Fine Arts
+
+-
+Library
+
+-
+Design Lab
+
+## Units of Inquiry
+
+Our Units of Inquiry intentionally weave together literacy, math, science, and social studies instruction to build a strong academic foundation for our junior kindergarten students.
+
+My Place in the World
+
+This unit is designed to build community, build a healthy sense of identity for each child, celebrate and understand similarities and differences, understand the roles and responsibilities of community members and teach children to care for one another and for the environment.
+
+Full STEAM Ahead
+
+In this design and engineering unit, students learn to create blueprint plans and models to create structures, and they study different kinds of structures around the world. Fairy tales and folktales are the literacy focus of this unit. Students name problems that arise in the stories and work together to find solutions as they cycle through the engineering design process. This unit aims to develop social-emotional learning skills as students learn to work together as a group and to practice persevering when projects don’t go as planned.
+
+Nursery Rhymes
+
+In this literacy/dramatic play unit, students develop emergent reading and writing skills. Students practice the art of retelling and create their own nursery rhymes using the literary techniques they learn. Puppeteering, art, and drama are utilized to bring nursery rhymes to life! At the end of the unit, each class takes the stage to perform their favorite nursery rhyme!
+
+Backyard Scientists
+
+Students focus on the concept of change over time by examining the seasons. The unit aims to develop close observation skills, understanding what makes something living vs nonliving, and beginning to see growth/change over time. Students also examine their role in stewarding the environment.
+
+## Literacy
+
+Our junior kindergarteners are immersed in joyful, literacy-rich classroom environments where reading and writing are intentionally embedded in all parts of the day. Our JK literacy program is designed to foster a love of literature, to offer students many opportunities to engage in purposeful reading and writing attempts, and to develop students’ background knowledge and vocabulary. Teachers provide explicit, differentiated instruction in phonological awareness, the alphabet, and phonics.
+
+Areas of Focus
+
+- Fostering a love of reading and writing
+
+- Developing vocabulary
+
+- Hearing, segmenting, and manipulating individual sounds in spoken words
+
+- Learning to recognize letters and sounds
+
+- Engaging with a variety of literary genres: poetry, fiction, nonfiction, folktales
+
+- Participating in story dramatizations
+
+- Expressing oneself through drawing, story dictation, and emergent writing
+
+- Building comprehension skills in retelling, comparing and contrasting, sequencing, asking questions, and analyzing characters
+
+## Mathematics
+
+Country Day’s math program is designed to build fluent mathematicians, skilled and perseverant problem solvers and creative thinkers. JK students develop number sense, spatial awareness, and math language skills through active exploration and playing hands-on games. Rather than being taught in isolation, math in JK is integrated throughout the day.
+
+Skills and Concepts
+
+- Developing number sense
+
+- Identifying, sorting and classifying objects by common attributes
+
+- Describing and extending repeating patterns
+
+- Identifying, categorizing and describing 2-dimensional shapes
+
+## Science
+
+Lower School science focuses on engaging in investigation and discovery through the scientific method in Country Day’s state-of-the-art science lab. An integrated STEM program brings together engineering and inquisitive minds to design innovative, sustainable solutions to real world problems.
+
+In JK, students learn the basics of observation skills and what it means to be a scientist. They cover the physical, life, and earth sciences, specifically related to seasonal changes, the color spectrum, and the human body.
+
+## Modern Languages
+
+Our goals are to expose students to language and culture, instill a love for the language, develop an appreciation for the larger world, and build cultural competencies that will help them thrive in our global world.
+
+All junior kindergarten students are exposed to the language and culture of both French and Spanish. Our goals are for students to become familiar with the sound of both languages and explore it by playing with basic vocabulary.
+
+## Physical Education
+
+The physical education curriculum focuses on the physical, mental, and social emotional growth of our students. Our PE program provides every Lower School student with a daily opportunity to move, play and learn! The curriculum focuses on developing and maintaining a physically active and healthy lifestyle in addition to developing gross motor, body control, and spatial awareness skills. Fundamental athletic skills are introduced, while students develop problem-solving strategies and sportsmanship through an environment of cooperative learning.
+
+## Fine Arts
+
+Students are immersed in art, music, and drama every week. Our goals are to instill a love of arts in our students, to build design-thinking skills, and to find joy in the creative process.
+
+Art
+
+Student artists explore the fundamental elements of art including line, shape, pattern, and color through drawing, painting, collage, printmaking and clay. Using a variety of materials and creative process lays the foundation of artistic expression.
+
+Drama
+
+For our youngest students, drama class is an exploration of their imagination through movement, voice, and emotions. Junior Kindergarteners also perform in an end-of-the-year play with songs highlighting the alphabet—an important foundation for reading and literacy development.
+
+Music
+
+JK students explore music by practicing steady beat, repeating rhythm patterns, singing solfege patterns (do-mi-sol), composing their own rhythms, playing percussion instruments, and singing fun songs.
+
+## Library
+
+The library is a critical component of our junior kindergarten year. The librarians help students learn to engage with pictures and text, and support a growing love of reading. In addition, the librarians teach emerging literacy skills in their regularly scheduled classes to further support the literacy instruction in the classroom.
+
+## Design Lab
+
+Our youngest learners enter our Design Lab ready to explore and impact the world around them. Through purposeful play and guided exploration, junior kindergarten students begin their engineering and design journey with meaningful experiences that set the stage for skill development moving forward.
+
+### kindergarten (lower-school/ls-curriculum/kindergarten)
+
+# Kindergarten Experience
+
+## Curriculum at a Glance
+
+►Click to learn more
+
+-
+Language Arts
+
+-
+Mathematics
+
+-
+Social Studies
+
+-
+Science
+
+-
+Physical Education
+
+-
+Modern Languages
+
+-
+Design Lab
+
+-
+Library
+
+-
+Fine Arts
+
+## Language Arts
+
+Our Lower School literacy curriculum focuses on the Five Pillars of Reading: phonics, phonological awareness, fluency, vocabulary, and comprehension.
+
+Instruction is grounded in scientific evidence about how the brain acquires language, and it is designed to inspire a love of reading and writing for learning and pleasure. Instruction is delivered through two programs: IMSE (Institute for Multi-Sensory Education) and Wit & Wisdom. Both programs align with the Science of Reading, have a clear scope and sequence, and explicitly teach literacy skills. IMSE is an Orton-Gillingham approach to teaching phonics. Wit & Wisdom is a knowledge-based language arts curriculum designed to help students build the knowledge and skills they need to be successful readers, writers, and effective communicators. It intentionally builds knowledge across grade levels, integrates writing into the unit modules, and provides rich text sets that align with our LS SEL and DEIB goals. Literacy instruction in kindergarten is differentiated to provide students with appropriate enrichment and support. Students work in small groups, in partnerships, and one-on-one with teachers.
+
+Our early-reading curriculum focuses on the explicit, systematic instruction of the following skills:
+
+- Awareness of speech sounds, segmentation, manipulation of sounds
+
+- Letter formation and writing by hand
+
+- Phoneme-grapheme correspondence
+
+- Spelling patterns
+
+- Meaningful word parts (morphemes)
+
+Kindergarten Modules:
+
+Module 1: The Five Senses
+
+Module 2: Once Upon a Farm
+
+Module 3: American, Then and Now
+
+Module 4: The Continents
+
+## Mathematics
+
+Country Day’s math program is designed to build fluent mathematicians, skilled and perseverant problem solvers, and creative thinkers. The Developing Roots program is designed to build a foundation for our Math in Focus program through child-centered, hands-on experiences. The core focus in math in the Lower School is building a deep understanding of number sense, operations, and computation. Our students learn not just how to solve rote problems, but how to think mathematically and tackle real-world, rigorous mathematical problems.
+
+Skills and Concepts
+
+- Counting to 100 by 1s, 5s and 10s
+
+- Composing and decomposing numbers 1–10
+
+- Reading and writing 2-digit numbers
+
+- Identifying, describing, sorting, and classifying 2- and 3- dimensional shapes
+
+- Representing and solving addition and subtraction stories (within 10)
+
+- Classifying objects based on attributes
+
+- Measuring and comparing length and weight
+
+## Social Studies
+
+The Lower School social studies program focuses on the study of people in relation to their past, present, and future, their environment, and their society. Our curriculum encourages curiosity and helps students develop an understanding of a rapidly changing world. Students become aware of their personal and cultural identities, and they acquire the skills and knowledge needed to actively participate in their classroom, school, community, and world.
+
+Units of Study
+
+- Unit 1: Civic Ideals and Rules
+
+- Unit 2: Getting to Know “Me” and “Us”
+
+- Unit 3: Maps and Globes
+
+- Unit 4: Wants and Needs
+
+## Science
+
+Lower School science focuses on engaging in investigation and discovery through the scientific method in Country Day’s state-of-the-art science lab. An integrated STEM program brings together engineering and inquisitive minds to design innovative, sustainable solutions to real world problems.
+
+In kindergarten, students continue to hone their observation skills and learn to make predictions. They explore the physical, life, and earth sciences, specifically magnetism, life cycles, and environmental stewardship.
+
+## Physical Education
+
+The physical education curriculum focuses on the physical, mental, and social emotional growth of our students. Our PE program provides every Lower School student with a daily opportunity to move, play and learn. The curriculum focuses on developing and maintaining a physically active and healthy lifestyle in addition to developing gross motor, body control, and spatial awareness skills. Fundamental athletic skills are introduced, while students develop problem-solving strategies and sportsmanship through an environment of cooperative learning.
+
+## Modern Languages
+
+Our goals in Lower School are to expose students to language and culture, instill a love for the language, develop an appreciation for the larger world, and build cultural competencies. Students are exposed to French and Spanish in JK through first grade. In second grade, students choose one target language with the goal of developing a Novice Low proficiency level (based on ACTFL Standards) by the end of fourth grade.
+
+All kindergarten students are exposed to the language and culture of both French and Spanish. They practice basic words, respond to simple commands in both languages, and explore the cultures of people who speak French and Spanish around the world.
+
+## Design Lab
+
+Our kindergarten Design Lab learning experiences are created to develop skill, allow for application of new learning, and set design challenges that work to empower students to creatively communicate and solve problems with empathy.
+
+Skills in engineering, coding, robotics, and multi-media design are reinforced in mini projects and authentic design challenges throughout the year.
+
+## Library
+
+Through the library curriculum, we strive to instill the joy and value of reading, provide access to diverse information and ideas, and equip students with the skills and knowledge necessary to access, evaluate, and apply new learning in both personal and academic pursuits. Students receive whole-class, small-group, and one-on-one instruction and practice their skills through authentic activities and research.
+
+In kindergarten, students learn about book care, the parts of a book, how to browse books, about authors, illustrators, and characters, the difference between fiction and non-fiction, how to sequence a story, and how to question when reading. Children also explore award-winning books, and learn to listen, share their thinking, and engage in dramatic play.
+
+## Fine Arts
+
+Art
+
+Kindergarten artists explore the fundamental elements of art: line, shape, pattern and color. Design concepts of emphasis, contrast, and balance give students visual structures to express ideas. A variety of techniques such as painting, drawing, collage and sculpture enable students to build creative confidence and experience the joy of hands-on materials.
+
+Drama
+
+Kindergarten students explore using their bodies, voices, emotions, and imaginations through the lens of children’s literature and storytelling. Our Kindergarteners also perform a play we created titled K is for Kindness which features songs about the power of friendship, kindness, and impacting the world for good.
+
+Music
+
+Kindergarten students explore music by practicing steady beat, repeating rhythm patterns, singing solfege patterns, composing rhythms, playing unpitched percussion and Orff instruments, learning music theory, and singing songs.
+
+### first-grade (lower-school/ls-curriculum/first-grade)
+
+# First Grade Experience
+
+## Curriculum at a Glance
+
+►Click to learn more
+
+-
+Language Arts
+
+-
+Mathematics
+
+-
+Social Studies
+
+-
+Science
+
+-
+Physical Education
+
+-
+Modern Languages
+
+-
+Design Lab
+
+-
+Library
+
+-
+Fine Arts
+
+## Language Arts
+
+Our Lower School literacy curriculum focuses on the 5 Pillars of Reading: phonics, phonological awareness, fluency, vocabulary, and comprehension. Instruction is grounded in scientific evidence about how the brain acquires language, and it is designed to inspire a love of reading and writing for learning and pleasure. Instruction is delivered through two programs: IMSE (Institute for Multi-Sensory Education) and Wit & Wisdom. Both programs align with the Science of Reading, have a clear scope and sequence, and explicitly teach literacy skills. IMSE is an Orton-Gillingham approach to teaching phonics. Wit & Wisdom is a knowledge-based language arts curriculum designed to help students build the knowledge and skills they need to be successful readers and writers, and effective communicators. It intentionally builds knowledge across grade levels, integrates writing into the unit modules, and provides rich text sets that align with our LS SEL and DEIB goals. Literacy instruction in first grade is differentiated to provide students with appropriate enrichment and support. Students work in small groups, in partnerships, and one-on-one with teachers.
+
+First Grade Modules:
+
+Module 1: A World of Books
+
+Module 2: Creature Features
+
+Module 3: Powerful Forces
+
+Module 4: Cinderella Stories
+
+## Mathematics
+
+Country Day’s math program is designed to build fluent mathematicians, skilled and perseverant problem solvers, and creative thinkers. Our teaching is based on the Math in Focus program, and the core focus in the Lower School is on building a deep understanding of number sense, operations, and computation. Our students learn not just how to solve rote problems, but how to think mathematically and tackle real-world, rigorous mathematical problems.
+
+Skills and Concepts
+
+-
+
+Counting by 1s, 2s, 5s, and 10s forward and backward to 100
+
+-
+
+Identifying and relating coin values
+
+-
+
+Describing and extending patterns
+
+-
+
+Reading, writing, and explaining expressions and number sentences
+
+-
+
+Fluently adding and subtracting to 10
+
+-
+
+Adding and subtracting 2-digit numbers
+
+-
+
+Identifying, describing, sorting, and classifying 2-and 3- dimensional shapes
+
+-
+
+Measuring and comparing length and weight
+
+-
+
+Interpreting data in charts and graphs
+
+-
+
+Telling time to the half hour
+
+## Social Studies
+
+The Lower School social studies program focuses on the study of people in relation to their past, present, and future, their environment, and their society. Our curriculum encourages curiosity and helps students develop an understanding of a rapidly changing world. Students become aware of their personal and cultural identities, and they acquire the skills and knowledge needed to actively participate in their classroom, school, community, and world.
+
+Units of Study
+
+- Unit 1: Family History
+
+- Unit 2: Economic Choices
+
+- Unit 3: Roles in Our Community & Citizenship
+
+- Unit 4: Urban, Suburban, and Rural Geography
+
+## Science
+
+Lower School science focuses on engaging in investigation and discovery through the scientific method in Country Day’s state-of-the-art science lab. An integrated STEM program brings together engineering and inquisitive minds 
+
+…[truncated]
 
 
 ---
@@ -351,6 +980,9 @@ correct grain for this division. Each classroom has two full-time instructional 
 - https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/first-grade
 - https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/fourth-grade
 - https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/jk
+- https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/kindergarten
+- https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/second-grade
+- https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum/third-grade
 - https://www.charlottecountryday.org/cd-education/middle-school
 - https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum
 - https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/eighth-grade

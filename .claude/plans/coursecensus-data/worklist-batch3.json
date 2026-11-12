@@ -1,0 +1,85 @@
+{
+  "generated": "2026-11-12",
+  "topic": "course-offerings",
+  "file": "src/data/courseOfferings.ts",
+  "slugs": [
+    "trinity-episcopal",
+    "carmel-christian",
+    "hickory-grove-christian",
+    "gaston-day"
+  ],
+  "note": "coursecensus Batch 3 wording units: item 2, Trinity Episcopal's multi-sentence rows condensed to one sentence each. The plan's nine plus Music Ensembles (a leading quoted sentence; the quote is kept byte-identical and moved to the end, the Batch 2 precedent). Algebra 1 takes the one-sentence wording the census fix gave Geometry. Research bookkeeping in two rows ('it appears on no /academics/ page', 'the phrase appears in the profile PDF and on no page of the website') and the IDEA Lab's 'only named academic facility' (the record's own research summary) are dropped, per the dev-only bookkeeping standard. Computer Science drops its announced 6th Grade technology class (a different course) and takes its siblings' enrichment wording. Hickory Grove AP Government and Politics was condensed by its census fix (c18faa90). Charlotte Prep Math (divisions[1].departments[0].courses[2]) is left: it is one quoted school passage of two sentences; raised at review. Plus the independent reviewer's 5 wording edits to census fixes (Carmel Honors Precalculus restores the FROZEN 'Honors'; Carmel Lower School teaser's bare 'It'; Hickory Grove Work Release and 8th Grade Algebra 1; Gaston Day LEAD), and its rewording of Trinity's K–8 Technology Program and IDEA (STEM) Lab rows.",
+  "total": 14,
+  "units": [
+    {
+      "at": "trinity-episcopal:divisions[0].departments[1].courses[1].description",
+      "slug": "trinity-episcopal",
+      "path": "divisions[0].departments[1].courses[1].description"
+    },
+    {
+      "at": "trinity-episcopal:divisions[0].departments[2].courses[0].description",
+      "slug": "trinity-episcopal",
+      "path": "divisions[0].departments[2].courses[0].description"
+    },
+    {
+      "at": "trinity-episcopal:divisions[1].departments[0].courses[0].description",
+      "slug": "trinity-episcopal",
+      "path": "divisions[1].departments[0].courses[0].description"
+    },
+    {
+      "at": "trinity-episcopal:divisions[1].departments[0].courses[2].description",
+      "slug": "trinity-episcopal",
+      "path": "divisions[1].departments[0].courses[2].description"
+    },
+    {
+      "at": "trinity-episcopal:divisions[1].departments[0].courses[5].description",
+      "slug": "trinity-episcopal",
+      "path": "divisions[1].departments[0].courses[5].description"
+    },
+    {
+      "at": "trinity-episcopal:divisions[1].departments[3].courses[1].description",
+      "slug": "trinity-episcopal",
+      "path": "divisions[1].departments[3].courses[1].description"
+    },
+    {
+      "at": "trinity-episcopal:divisions[1].departments[4].courses[3].description",
+      "slug": "trinity-episcopal",
+      "path": "divisions[1].departments[4].courses[3].description"
+    },
+    {
+      "at": "trinity-episcopal:divisions[1].departments[4].courses[9].description",
+      "slug": "trinity-episcopal",
+      "path": "divisions[1].departments[4].courses[9].description"
+    },
+    {
+      "at": "trinity-episcopal:divisions[1].departments[5].courses[0].description",
+      "slug": "trinity-episcopal",
+      "path": "divisions[1].departments[5].courses[0].description"
+    },
+    {
+      "at": "carmel-christian:divisions[0].departments[2].courses[7].description",
+      "slug": "carmel-christian",
+      "path": "divisions[0].departments[2].courses[7].description"
+    },
+    {
+      "at": "carmel-christian:divisions[2].teaser",
+      "slug": "carmel-christian",
+      "path": "divisions[2].teaser"
+    },
+    {
+      "at": "hickory-grove-christian:divisions[0].departments[11].courses[11].description",
+      "slug": "hickory-grove-christian",
+      "path": "divisions[0].departments[11].courses[11].description"
+    },
+    {
+      "at": "hickory-grove-christian:divisions[1].departments[3].courses[3].description",
+      "slug": "hickory-grove-christian",
+      "path": "divisions[1].departments[3].courses[3].description"
+    },
+    {
+      "at": "gaston-day:divisions[0].departments[1].courses[0].description",
+      "slug": "gaston-day",
+      "path": "divisions[0].departments[1].courses[0].description"
+    }
+  ]
+}

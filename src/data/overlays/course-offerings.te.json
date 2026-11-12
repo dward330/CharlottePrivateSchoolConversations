@@ -36,15 +36,15 @@
       ]
     },
     {
-      "t": "నాలుగు ప్రధాన పాఠ్యప్రణాళిక రంగాలు మరియు 11 Special Area Classes — TK నుంచే Singapore Math మరియు వ్యవస్థీకృత అక్షరాస్యత.",
-      "of": "525e1ce3",
+      "t": "నాలుగు ప్రధాన పాఠ్యప్రణాళిక రంగాలు మరియు 11 Special Area Classes — TK నుంచే వ్యవస్థీకృత అక్షరాస్యత, Kindergarten నుంచి Singapore Math.",
+      "of": "2ceeadc7",
       "at": [
         "providence-day:divisions[0].teaser"
       ]
     },
     {
-      "t": "Providence Day TK–5కు పేరున్న కోర్సులు కాక నాలుగు ప్రధాన పాఠ్యప్రణాళిక రంగాలను మరియు Special Area Class జాబితాను ప్రచురిస్తుంది. Lower School కోర్సుల మార్గదర్శిని ఏదీ లేదు.",
-      "of": "c0852b6e",
+      "t": "Providence Day TK–5కు పేరున్న కోర్సులు కాక నాలుగు ప్రధాన పాఠ్యప్రణాళిక రంగాలను మరియు Special Area Class జాబితాను ప్రచురిస్తుంది. ఇది Lower School కోర్సుల మార్గదర్శినిని ప్రచురించదు.",
+      "of": "0162c5de",
       "at": [
         "providence-day:divisions[0].notPublished"
       ]
@@ -462,8 +462,8 @@
       ]
     },
     {
-      "t": "వ్యక్తిగత అభ్యసనకు తోడ్పడే ఒక Lower School special area తరగతి.",
-      "of": "a55655ab",
+      "t": "ఒక Lower School special area తరగతి; పాఠశాల దాని పేరును మాత్రమే ప్రచురిస్తుంది.",
+      "of": "074d145f",
       "at": [
         "providence-day:divisions[0].departments[2].courses[8].description"
       ]
@@ -569,7 +569,6 @@
         "charlotte-latin:divisions[1].departments[4].courses[2].tag",
         "charlotte-latin:divisions[1].departments[4].courses[5].tag",
         "charlotte-latin:divisions[1].departments[5].courses[0].tag",
-        "charlotte-latin:divisions[1].departments[5].courses[1].tag",
         "charlotte-christian:divisions[1].departments[0].courses[1].tag",
         "charlotte-christian:divisions[1].departments[1].courses[1].tag",
         "charlotte-christian:divisions[1].departments[2].courses[1].tag",
@@ -725,6 +724,7 @@
         "charlotte-christian:divisions[1].departments[4].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[6].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[7].tag",
+        "charlotte-country-day:divisions[1].departments[0].courses[8].tag",
         "charlotte-country-day:divisions[1].departments[1].courses[4].tag",
         "charlotte-country-day:divisions[1].departments[1].courses[5].tag",
         "charlotte-country-day:divisions[1].departments[2].courses[3].tag",
@@ -850,14 +850,14 @@
         "providence-day:divisions[2].departments[9].courses[4].tag",
         "providence-day:divisions[2].departments[9].courses[5].tag",
         "providence-day:divisions[2].departments[9].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[5].tag",
         "charlotte-latin:divisions[2].departments[0].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[7].tag",
         "charlotte-latin:divisions[2].departments[0].courses[8].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[9].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[10].tag",
         "charlotte-latin:divisions[2].departments[0].courses[11].tag",
+        "charlotte-latin:divisions[2].departments[1].courses[8].tag",
+        "charlotte-latin:divisions[2].departments[1].courses[9].tag",
         "charlotte-latin:divisions[2].departments[2].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[1].tag",
         "charlotte-christian:divisions[2].departments[1].courses[10].tag",
         "charlotte-christian:divisions[2].departments[1].courses[11].tag",
         "charlotte-christian:divisions[2].departments[1].courses[12].tag",
@@ -906,8 +906,7 @@
         "charlotte-country-day:divisions[2].departments[5].courses[20].tag",
         "charlotte-country-day:divisions[2].departments[6].courses[0].tag",
         "charlotte-country-day:divisions[2].departments[7].courses[2].tag",
-        "charlotte-country-day:divisions[2].departments[8].courses[0].tag",
-        "davidson-day:divisions[2].departments[7].courses[1].tag"
+        "charlotte-country-day:divisions[2].departments[8].courses[0].tag"
       ]
     },
     {
@@ -1449,6 +1448,7 @@
         "providence-day:divisions[1].departments[5].courses[5].tag",
         "providence-day:divisions[1].departments[5].courses[6].tag",
         "providence-day:divisions[1].departments[6].courses[11].tag",
+        "charlotte-latin:divisions[1].departments[5].courses[1].tag",
         "covenant-day:divisions[1].departments[3].courses[0].tag",
         "covenant-day:divisions[1].departments[3].courses[1].tag",
         "covenant-day:divisions[1].departments[3].courses[2].tag",
@@ -1589,8 +1589,8 @@
       ]
     },
     {
-      "t": "Upper School Latin II కోర్సు, 8వ తరగతి నుంచి అందుబాటులో.",
-      "of": "4f87cf22",
+      "t": "Upper School Latin II కోర్సు, Latin 1లో “B-” (80) లేదా అంతకంటే మెరుగైన గ్రేడ్ పొందిన తర్వాత 8వ తరగతి నుంచి అందుబాటులో.",
+      "of": "80467a8a",
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].description"
       ]
@@ -1645,8 +1645,8 @@
       ]
     },
     {
-      "t": "మూడు స్థాయిల Middle School German క్రమం.",
-      "of": "5fdebd53",
+      "t": "మూడు స్థాయిల Middle School German క్రమం; 2 మరియు ఆపై స్థాయిలకు ముందస్తు అనుమతి అవసరం.",
+      "of": "a21c64fa",
       "at": [
         "providence-day:divisions[1].departments[5].courses[6].description"
       ]
@@ -1699,8 +1699,6 @@
         "charlotte-latin:divisions[2].departments[5].courses[0].tag",
         "charlotte-latin:divisions[2].departments[5].courses[3].tag",
         "charlotte-latin:divisions[2].departments[5].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[1].tag",
         "charlotte-latin:divisions[2].departments[7].courses[6].tag",
         "charlotte-latin:divisions[2].departments[8].courses[6].tag",
         "charlotte-latin:divisions[2].departments[8].courses[7].tag",
@@ -1749,7 +1747,8 @@
         "davidson-day:divisions[2].departments[5].courses[3].tag",
         "davidson-day:divisions[2].departments[5].courses[9].tag",
         "davidson-day:divisions[2].departments[5].courses[10].tag",
-        "davidson-day:divisions[2].departments[7].courses[0].tag"
+        "davidson-day:divisions[2].departments[7].courses[0].tag",
+        "davidson-day:divisions[2].departments[7].courses[1].tag"
       ]
     },
     {
@@ -1879,8 +1878,8 @@
       ]
     },
     {
-      "t": "మూడు స్థాయిల Middle School నటనా క్రమం.",
-      "of": "cc507a55",
+      "t": "7 మరియు 8 తరగతుల కోసం సెమిస్టర్ పొడవునా సాగే మూడు నటనా కోర్సులు; Acting 3కు ముందస్తు రంగస్థల అనుభవం అవసరం.",
+      "of": "55e536d2",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].description"
       ]
@@ -2180,8 +2179,8 @@
       ]
     },
     {
-      "t": "reader's theater ద్వారా వ్యక్తివాదం, సహానుభూతి మరియు అర్థవంతమైన సంభాషణను అన్వేషిస్తూ Ibsen నుంచి Ionesco వరకు ఆధునిక నాటక రంగంపై సర్వేక్షణ.",
-      "of": "144e4759",
+      "t": "reader's theater ద్వారా వ్యక్తివాదం, సహానుభూతి మరియు అర్థవంతమైన సంభాషణ కోల్పోవడాన్ని అన్వేషిస్తూ Ibsen నుంచి Ionesco వరకు ఆధునిక నాటక రంగంపై సర్వేక్షణ.",
+      "of": "550c433c",
       "at": [
         "providence-day:divisions[2].departments[0].courses[9].description"
       ]
@@ -2194,8 +2193,8 @@
       ]
     },
     {
-      "t": "విద్యార్థులు The Merchant of Venice, Othello, The Tempest, Measure for Measure మరియు Richard IIIను అధ్యయనం చేస్తారు, నాటకాలను బిగ్గరగా చదువుతూ చలనచిత్ర రూపాలను విశ్లేషిస్తారు.",
-      "of": "c81ace83",
+      "t": "విద్యార్థులు The Merchant of Venice, Othello, The Tempest, Measure for Measure మరియు Richard III సహా విస్తృత శ్రేణి నాటకాలను అధ్యయనం చేస్తారు, వాటిని బిగ్గరగా చదువుతూ చలనచిత్ర రూపాలను విశ్లేషిస్తారు.",
+      "of": "f057375d",
       "at": [
         "providence-day:divisions[2].departments[0].courses[10].description"
       ]
@@ -2475,8 +2474,8 @@
       ]
     },
     {
-      "t": "వాక్చాతుర్య పద్ధతి మరియు తర్కంపై దృష్టితో, కల్పనేతర ప్రక్రియల నుంచి తీసుకున్న కళాశాల స్థాయి వివరణాత్మక, విశ్లేషణాత్మక మరియు వాదనాత్మక రచన.",
-      "of": "ec0d4f1d",
+      "t": "వాక్చాతుర్య పద్ధతి మరియు తర్కంపై దృష్టితో, కల్పనేతర ప్రక్రియల నుంచి పఠనాలతో కూడిన కళాశాల స్థాయి వివరణాత్మక, విశ్లేషణాత్మక మరియు వాదనాత్మక రచన.",
+      "of": "15323bb8",
       "at": [
         "providence-day:divisions[2].departments[0].courses[14].description"
       ]
@@ -2490,8 +2489,8 @@
       ]
     },
     {
-      "t": "Moby-Dick, Invisible Man మరియు Mrs. Dalloway, అదనంగా Dickinson, Frost మరియు Shakespeare ద్వారా సాహిత్య విశ్లేషణను మెరుగుపరుస్తుంది, బయట చదవవలసిన జాబితాతో.",
-      "of": "d81816ef",
+      "t": "Moby-Dick, Invisible Man మరియు Mrs. Dalloway వంటి క్రమం తప్పకుండా బోధించే నవలలు, అదనంగా Dickinson, Frost మరియు Shakespeare ద్వారా సాహిత్య విశ్లేషణను మెరుగుపరుస్తుంది, బయట చదవవలసిన జాబితాతో.",
+      "of": "8f8725b8",
       "at": [
         "providence-day:divisions[2].departments[0].courses[15].description"
       ]
@@ -2777,8 +2776,8 @@
       ]
     },
     {
-      "t": "ప్రాథమిక మరియు ద్వితీయ రచనలు, తాత్విక చర్చల ద్వారా క్రైస్తవం, యూదు మతం, ఇస్లాం, హిందూ మతం మరియు బౌద్ధం గురించి అవగాహనను పెంచుతుంది.",
-      "of": "c740cf5c",
+      "t": "ప్రాథమిక మరియు ద్వితీయ రచనలు, తాత్విక చర్చల ద్వారా క్రైస్తవం, యూదు మతం, ఇస్లాం, హిందూ మతం మరియు బౌద్ధం వంటి మతాల గురించి అవగాహనను పెంచుతుంది.",
+      "of": "236d76c9",
       "at": [
         "providence-day:divisions[2].departments[1].courses[18].description"
       ]
@@ -2791,8 +2790,8 @@
       ]
     },
     {
-      "t": "దక్షిణాఫ్రికా, DRC, Rwanda మరియు Nigeriaపై లోతైన అధ్యయనంతో సహారా దిగువ ఆఫ్రికాపై విభాగాల మధ్య అన్వేషణ.",
-      "of": "329ca2c1",
+      "t": "దక్షిణాఫ్రికా, DRC, Rwanda మరియు Nigeria సహా పలు దేశాలపై లోతైన అధ్యయనంతో సహారా దిగువ ఆఫ్రికాపై విభాగాల మధ్య అన్వేషణ.",
+      "of": "2b88e022",
       "at": [
         "providence-day:divisions[2].departments[1].courses[19].description"
       ]
@@ -2805,8 +2804,8 @@
       ]
     },
     {
-      "t": "China మరియు Koreasపై లోతైన పరిశీలనలతో ఆసియాపై విభాగాల మధ్య అన్వేషణ.",
-      "of": "e73a1a59",
+      "t": "China మరియు Koreas సహా పలు దేశాలపై లోతైన పరిశీలనలతో ఆసియాపై విభాగాల మధ్య అన్వేషణ.",
+      "of": "375e1ed2",
       "at": [
         "providence-day:divisions[2].departments[1].courses[20].description"
       ]
@@ -2833,8 +2832,8 @@
       ]
     },
     {
-      "t": "Global Studies Diplomaలోని చివరి సంవత్సరం విద్యార్థులు సమర్థ ప్రపంచ సహకారులుగా, నాయకులుగా మారతారు, ఒక పరిశోధన ప్రాజెక్టు మరియు నిష్క్రమణ ముఖాముఖి ప్రక్రియను పూర్తి చేస్తారు.",
-      "of": "1e493a29",
+      "t": "Global Studies Diplomaలోని చివరి సంవత్సరం విద్యార్థులకు తప్పనిసరి; విద్యార్థులను మరింత సమర్థ ప్రపంచ సహకారులుగా, నాయకులుగా తీర్చిదిద్దడం దీని లక్ష్యం, ఒక పరిశోధన ప్రాజెక్టు మరియు నిష్క్రమణ ముఖాముఖితో.",
+      "of": "88893d67",
       "at": [
         "providence-day:divisions[2].departments[1].courses[22].description"
       ]
@@ -3845,8 +3844,8 @@
       ]
     },
     {
-      "t": "Vergil, Pliny, Catullus, Ovid, Vespucci మరియు Boccaccio వరకు విస్తరించే ప్రాజెక్టు ఆధారిత తులనాత్మక పాఠ్య భాగంతో గద్య, పద్య సాహిత్య కోర్సు.",
-      "of": "5975ad2d",
+      "t": "ప్రాజెక్టు ఆధారిత తులనాత్మక పాఠ్య భాగం మరియు Vergil, Pliny, Catullus, Ovid, Vespucci, Boccaccio వంటి రచయితల పఠనాలతో గద్య, పద్య సాహిత్య కోర్సు.",
+      "of": "c300258c",
       "at": [
         "providence-day:divisions[2].departments[6].courses[11].description"
       ]
@@ -4309,8 +4308,6 @@
         "providence-day:divisions[2].departments[8].courses[14].tag",
         "charlotte-latin:divisions[2].departments[0].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[1].courses[8].tag",
-        "charlotte-latin:divisions[2].departments[1].courses[9].tag",
         "charlotte-latin:divisions[2].departments[2].courses[2].tag",
         "charlotte-latin:divisions[2].departments[3].courses[3].tag",
         "charlotte-latin:divisions[2].departments[3].courses[5].tag",
@@ -4497,7 +4494,7 @@
         "davidson-day:divisions[2].departments[5].courses[4].tag",
         "davidson-day:divisions[2].departments[8].courses[0].tag",
         "davidson-day:divisions[2].departments[8].courses[2].tag",
-        "davidson-day:divisions[2].departments[8].courses[7].tag",
+        "davidson-day:divisions[2].departments[8].courses[8].tag",
         "carmel-christian:divisions[0].departments[1].courses[2].tag",
         "carmel-christian:divisions[0].departments[1].courses[5].tag",
         "carmel-christian:divisions[0].departments[1].courses[8].tag",
@@ -4813,8 +4810,8 @@
       ]
     },
     {
-      "t": "Charlotte Latin పేరున్న కోర్సులు కాక Lower School సబ్జెక్టు రంగాలను ప్రచురిస్తుంది. /academics/lower-school/curriculum మార్గం ప్రచురించని ఖాళీ పేజీ.",
-      "of": "fc40bbc2",
+      "t": "Charlotte Latin పేరున్న కోర్సులు కాక Lower School సబ్జెక్టు రంగాలను ప్రచురిస్తుంది.",
+      "of": "6b2aab5b",
       "at": [
         "charlotte-latin:divisions[0].notPublished"
       ]
@@ -4972,8 +4969,8 @@
       ]
     },
     {
-      "t": "5వ తరగతిలో విద్యార్థులు Band లేదా Strings కోసం ఒక వాయిద్యాన్ని ఎంచుకుంటారు, Choir కూడా అందుబాటులో ఉంటుంది.",
-      "of": "1ce8ef7b",
+      "t": "5వ తరగతిలో విద్యార్థులు Band లేదా Strings కోసం ఒక వాయిద్యాన్ని ఎంచుకుంటారు, Choirలో కూడా పాల్గొంటారు.",
+      "of": "82dd625c",
       "at": [
         "charlotte-latin:divisions[0].departments[2].courses[2].description"
       ]
@@ -4993,8 +4990,8 @@
       ]
     },
     {
-      "t": "5 విభాగాలలో ప్రచురిత వివరణలతో 22 కోర్సులు — అదనంగా Fab Lab STEAM మరియు Speech & Debate ప్రవేశ మార్గం.",
-      "of": "1e360cf6",
+      "t": "5 విభాగాలలో ప్రచురిత వివరణలతో 23 కోర్సులు — అదనంగా Fab Lab STEAM మరియు Speech & Debate ప్రవేశ మార్గం.",
+      "of": "2c9d5427",
       "at": [
         "charlotte-latin:divisions[1].teaser"
       ]
@@ -5184,8 +5181,8 @@
       ]
     },
     {
-      "t": "\"Are you ready to travel back in time?\" — Latinకు Middle School పరిచయం.",
-      "of": "378443cb",
+      "t": "Latin మరియు దానిని మాట్లాడిన ప్రజల చరిత్ర, పురాణాలు, దైనందిన జీవితానికి ఏడాది పొడవునా సాగే పరిచయం; ఇది Latin Iకు ముందస్తు అర్హత కాదు.",
+      "of": "66c97029",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[0].description"
       ]
@@ -5201,8 +5198,8 @@
       ]
     },
     {
-      "t": "Middle Schoolలో తీసుకునే Upper School Latin I క్రెడిట్.",
-      "of": "e562dbb7",
+      "t": "Middle Schoolలో బోధించే Latin I, ప్రాథమిక Latin పదజాలం, వ్యాకరణం మరియు సరళమైన Latin కథలను పరిచయం చేస్తుంది.",
+      "of": "7b7606af",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[1].description"
       ]
@@ -5243,8 +5240,8 @@
       ]
     },
     {
-      "t": "Middle Schoolలో తీసుకునే Upper School French I క్రెడిట్.",
-      "of": "cdf42d49",
+      "t": "Middle Schoolలో బోధించే French I, Novice High ప్రావీణ్య స్థాయిని లక్ష్యంగా చేసుకున్న పనులతో.",
+      "of": "c4ad863f",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[4].description"
       ]
@@ -5285,8 +5282,8 @@
       ]
     },
     {
-      "t": "Middle Schoolలో తీసుకునే Upper School Spanish I క్రెడిట్.",
-      "of": "3d9e2319",
+      "t": "Middle Schoolలో బోధించే Spanish I, Novice High ప్రావీణ్య స్థాయిని లక్ష్యంగా చేసుకున్న పనులతో.",
+      "of": "7e5a8c71",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[7].description"
       ]
@@ -5327,8 +5324,8 @@
       ]
     },
     {
-      "t": "పాఠశాల Fab Lab ఆధారంగా ఒక 6వ తరగతి ఐచ్ఛిక కోర్సు.",
-      "of": "953acb22",
+      "t": "6, 7 మరియు 8 తరగతులలో ఒక ఐచ్ఛిక కోర్సు; పాఠశాల వివరణ లేకుండా దాని పేరును మాత్రమే ప్రచురిస్తుంది.",
+      "of": "da11b8f7",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[1].description"
       ]
@@ -5370,24 +5367,17 @@
       ]
     },
     {
-      "t": "Charlotte Latin జాతీయ స్థాయిలో ర్యాంకు పొందిన Speech and Debate కార్యక్రమానికి Middle School ప్రవేశ మార్గం.",
-      "of": "ede013f0",
+      "t": "Charlotte Latin Speech and Debate కార్యక్రమానికి Middle School ప్రవేశ మార్గం.",
+      "of": "747242d4",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[5].description"
       ]
     },
     {
-      "t": "13 విభాగాలలో 129 కోర్సులు — 22 AP సబ్జెక్టులు, రెండో భాషగా Greek, మరియు MIT నెట్‌వర్క్ Fab Lab.",
-      "of": "f3b36715",
+      "t": "13 విభాగాలలో 122 కోర్సులు — 23 AP కోర్సులు, రెండో భాషగా Greek, మరియు MIT నెట్‌వర్క్ Fab Lab.",
+      "of": "73c56078",
       "at": [
         "charlotte-latin:divisions[2].teaser"
-      ]
-    },
-    {
-      "t": "Charlotte Latin Upper School కోర్సు పేర్లను ఒక్కో కోర్సు వివరణ లేకుండా ప్రచురిస్తుంది. కోర్సు పేర్లు పాఠశాలవే; ప్రతి వివరణ పాఠశాల ఆ విభాగాన్ని ఎలా వర్ణిస్తుందో దాని నుంచి తీసుకోబడింది.",
-      "of": "d03c7e41",
-      "at": [
-        "charlotte-latin:divisions[2].notPublished"
       ]
     },
     {
@@ -5464,8 +5454,8 @@
       ]
     },
     {
-      "t": "American Literature క్రమం honors వేగం మరియు లోతుతో.",
-      "of": "eee86ff7",
+      "t": "honors స్థాయిలో అమెరికన్ సాహిత్యంపై కాలక్రమానుసార సర్వేక్షణ.",
+      "of": "02491529",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[3].description"
       ]
@@ -5492,8 +5482,52 @@
       ]
     },
     {
-      "t": "యుద్ధ సాహిత్యంపై చివరి సంవత్సరం సెమిస్టర్ ఐచ్ఛిక కోర్సు.",
-      "of": "edd7dc9b",
+      "t": "ఐచ్ఛికం",
+      "of": "e81c880a",
+      "at": [
+        "charlotte-latin:divisions[2].departments[0].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[7].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[9].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[10].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[12].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[13].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[14].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[15].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[2].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[6].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[10].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[4].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[7].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[1].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[2].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[9].tag",
+        "charlotte-latin:divisions[2].departments[9].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[9].courses[1].tag",
+        "charlotte-latin:divisions[2].departments[10].courses[1].tag",
+        "cannon:divisions[2].departments[0].courses[8].tag",
+        "cannon:divisions[2].departments[0].courses[9].tag",
+        "cannon:divisions[2].departments[2].courses[14].tag",
+        "cannon:divisions[2].departments[2].courses[15].tag",
+        "cannon:divisions[2].departments[3].courses[6].tag",
+        "cannon:divisions[2].departments[3].courses[7].tag",
+        "davidson-day:divisions[2].departments[0].courses[9].tag",
+        "gaston-day:divisions[0].departments[1].courses[1].tag",
+        "gaston-day:divisions[0].departments[1].courses[2].tag",
+        "gaston-day:divisions[0].departments[1].courses[3].tag",
+        "gaston-day:divisions[0].departments[1].courses[4].tag"
+      ]
+    },
+    {
+      "t": "యుద్ధ సాహిత్యంపై ఒక ఆంగ్ల ఐచ్ఛిక కోర్సు.",
+      "of": "bc1620d7",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[5].description"
       ]
@@ -5506,8 +5540,8 @@
       ]
     },
     {
-      "t": "పాశ్చాత్య సాహిత్యంలో భయానకత మరియు పరాయితనంపై చివరి సంవత్సరం సెమిస్టర్ ఐచ్ఛిక కోర్సు.",
-      "of": "3fe509a3",
+      "t": "పాశ్చాత్య సాహిత్యంలో భయానకత మరియు పరాయితనంపై సెమిస్టర్ ఐచ్ఛిక కోర్సు, ప్రధానంగా చివరి సంవత్సరం విద్యార్థులకు అందుబాటులో.",
+      "of": "69db3fc7",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[6].description"
       ]
@@ -5520,8 +5554,8 @@
       ]
     },
     {
-      "t": "సాహిత్య రచనలను వాటి చలనచిత్ర రూపాలతో పోల్చే చివరి సంవత్సరం సెమిస్టర్ ఐచ్ఛిక కోర్సు.",
-      "of": "1da78b09",
+      "t": "సాహిత్య రచనలను వాటి చలనచిత్ర రూపాలతో పోల్చే ఒక ఆంగ్ల ఐచ్ఛిక కోర్సు.",
+      "of": "1cea7955",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[7].description"
       ]
@@ -5534,8 +5568,8 @@
       ]
     },
     {
-      "t": "మానవ స్థితిని Shakespeare ఎలా చిత్రించారనే దానిపై చివరి సంవత్సరం సెమిస్టర్ ఐచ్ఛిక కోర్సు.",
-      "of": "e8ec1a78",
+      "t": "మానవ స్థితిని Shakespeare ఎలా చిత్రించారనే దానిపై సెమిస్టర్ ఐచ్ఛిక కోర్సు, ప్రధానంగా చివరి సంవత్సరం విద్యార్థులకు అందుబాటులో.",
+      "of": "169f24bc",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[8].description"
       ]
@@ -5548,8 +5582,8 @@
       ]
     },
     {
-      "t": "కల్పనా సాహిత్యంలో ప్రపంచ నిర్మాణంపై చివరి సంవత్సరం సెమిస్టర్ ఐచ్ఛిక కోర్సు.",
-      "of": "7f68f665",
+      "t": "కల్పనా సాహిత్యంలో ప్రపంచ నిర్మాణంపై ఒక ఆంగ్ల ఐచ్ఛిక కోర్సు.",
+      "of": "92180351",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[9].description"
       ]
@@ -5562,8 +5596,8 @@
       ]
     },
     {
-      "t": "తొలి బ్రిటిష్ సాహిత్యంపై చివరి సంవత్సరం సెమిస్టర్ ఐచ్ఛిక కోర్సు.",
-      "of": "1f97d6b9",
+      "t": "తొలి బ్రిటిష్ సాహిత్యంపై ఒక ఆంగ్ల ఐచ్ఛిక కోర్సు.",
+      "of": "dc262a1d",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[10].description"
       ]
@@ -5576,8 +5610,8 @@
       ]
     },
     {
-      "t": "ఊహాజనిత మరియు భవిష్యత్ సాహిత్యంపై చివరి సంవత్సరం సెమిస్టర్ ఐచ్ఛిక కోర్సు.",
-      "of": "205195eb",
+      "t": "dystopian కాల్పనిక సాహిత్యంపై సెమిస్టర్ ఐచ్ఛిక కోర్సు, ప్రధానంగా చివరి సంవత్సరం విద్యార్థులకు అందుబాటులో.",
+      "of": "6cf03a03",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[11].description"
       ]
@@ -5696,8 +5730,8 @@
       ]
     },
     {
-      "t": "సంగీత చరిత్రపై ఒక honors seminar.",
-      "of": "ac28dad6",
+      "t": "చరిత్ర గమనాన్ని సంగీతం ఎలా ప్రభావితం చేసిందనే దానిపై సెమిస్టర్ seminar, honors ఎంపికతో.",
+      "of": "97c2b7f4",
       "at": [
         "charlotte-latin:divisions[2].departments[1].courses[8].description"
       ]
@@ -5710,8 +5744,8 @@
       ]
     },
     {
-      "t": "ప్రపంచ వలసలు మరియు స్థానచలనంపై ఒక honors కోర్సు.",
-      "of": "c4656fcf",
+      "t": "ప్రపంచ వలసలు మరియు స్థానచలనంపై సెమిస్టర్ seminar, honors ఎంపికతో.",
+      "of": "1b44fd2d",
       "at": [
         "charlotte-latin:divisions[2].departments[1].courses[9].description"
       ]
@@ -5817,8 +5851,8 @@
       ]
     },
     {
-      "t": "జ్యామితి honors వేగం మరియు లోతుతో.",
-      "of": "23904aac",
+      "t": "honors లోతుతో జ్యామితి, తర్కం, సంకేత తర్కం మరియు రూపాంతర జ్యామితి నుంచి అదనపు అంశాలతో.",
+      "of": "0ff6c0d9",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[3].description"
       ]
@@ -5889,8 +5923,8 @@
       ]
     },
     {
-      "t": "Pre-calculus honors వేగం మరియు లోతుతో.",
-      "of": "fd0baaa0",
+      "t": "honors లోతుతో Pre-calculus, గణితంలో చాలా బలమైన సామర్థ్యం ఉన్న విద్యార్థుల కోసం.",
+      "of": "3ac2ab30",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[8].description"
       ]
@@ -6068,8 +6102,8 @@
       ]
     },
     {
-      "t": "కళాశాల స్థాయి రెండో సంవత్సరం రసాయన శాస్త్రం.",
-      "of": "297df355",
+      "t": "కళాశాల మొదటి సంవత్సరం సాధారణ రసాయన శాస్త్ర కోర్సు స్థాయిలో రెండో సంవత్సరం రసాయన శాస్త్రం.",
+      "of": "3b4e6b79",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[4].description"
       ]
@@ -6181,46 +6215,6 @@
       "of": "5919718d",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[11].description"
-      ]
-    },
-    {
-      "t": "ఐచ్ఛికం",
-      "of": "e81c880a",
-      "at": [
-        "charlotte-latin:divisions[2].departments[4].courses[12].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[13].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[14].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[15].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[2].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[10].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[4].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[1].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[2].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[9].tag",
-        "charlotte-latin:divisions[2].departments[9].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[9].courses[1].tag",
-        "charlotte-latin:divisions[2].departments[10].courses[1].tag",
-        "cannon:divisions[2].departments[0].courses[8].tag",
-        "cannon:divisions[2].departments[0].courses[9].tag",
-        "cannon:divisions[2].departments[2].courses[14].tag",
-        "cannon:divisions[2].departments[2].courses[15].tag",
-        "cannon:divisions[2].departments[3].courses[6].tag",
-        "cannon:divisions[2].departments[3].courses[7].tag",
-        "davidson-day:divisions[2].departments[0].courses[9].tag",
-        "gaston-day:divisions[0].departments[1].courses[1].tag",
-        "gaston-day:divisions[0].departments[1].courses[2].tag",
-        "gaston-day:divisions[0].departments[1].courses[3].tag",
-        "gaston-day:divisions[0].departments[1].courses[4].tag"
       ]
     },
     {
@@ -6477,8 +6471,8 @@
       ]
     },
     {
-      "t": "రెండో సంవత్సరం ఇంజినీరింగ్ కోర్సు.",
-      "of": "3254b19c",
+      "t": "ఎలక్ట్రానిక్స్ మరియు microcontrollersపై దృష్టి పెట్టే రెండో ఇంజినీరింగ్ కోర్సు.",
+      "of": "70939965",
       "at": [
         "charlotte-latin:divisions[2].departments[6].courses[1].description"
       ]
@@ -6617,8 +6611,8 @@
       ]
     },
     {
-      "t": "Git మరియు GitHub ఉపయోగించి బోధించే Javaలో honors స్థాయి సమాచార నిర్మాణాలు.",
-      "of": "6b52f6b5",
+      "t": "Javaలో honors స్థాయి సమాచార నిర్మాణాలు.",
+      "of": "fc61681a",
       "at": [
         "charlotte-latin:divisions[2].departments[6].courses[11].description"
       ]
@@ -6772,8 +6766,8 @@
       ]
     },
     {
-      "t": "పరిచయ సాంకేతిక రంగస్థల కోర్సు.",
-      "of": "6e0b5e6b",
+      "t": "ఒక పరిచయ సాంకేతిక రంగస్థల కోర్సు.",
+      "of": "b2e8aedd",
       "at": [
         "charlotte-latin:divisions[2].departments[8].courses[2].description"
       ]
@@ -6786,8 +6780,8 @@
       ]
     },
     {
-      "t": "రెండో స్థాయి సాంకేతిక రంగస్థల కోర్సు.",
-      "of": "23c92bf6",
+      "t": "Stagecraft I కంటే భిన్నమైన అంశాలను కలిగిన సాంకేతిక రంగస్థల కోర్సు; ఈ రెండింటినీ వరుస క్రమంలో తీసుకోవలసిన అవసరం లేదు.",
+      "of": "f9ebfea4",
       "at": [
         "charlotte-latin:divisions[2].departments[8].courses[3].description"
       ]
@@ -6907,8 +6901,8 @@
       ]
     },
     {
-      "t": "Upper School శారీరక విద్య మరియు ఆరోగ్య నిబంధన; క్రీడల ద్వారా సగం మినహాయింపు పొందవచ్చు.",
-      "of": "e77a4177",
+      "t": "Upper School శారీరక విద్య మరియు ఆరోగ్య నిబంధన; పాఠశాల జట్టులో ఆడటం లేదా జట్టును నిర్వహించడం ద్వారా, లేదా ఆమోదిత musicalలో నృత్యం చేయడం ద్వారా సగం మినహాయింపు పొందవచ్చు.",
+      "of": "0637caec",
       "at": [
         "charlotte-latin:divisions[2].departments[10].courses[0].description"
       ]
@@ -6950,15 +6944,15 @@
       ]
     },
     {
-      "t": "11 సబ్జెక్టు విభాగాలు — JK నుంచి 4వ తరగతిలో Case for Christ apologetics ముగింపు వరకు Bible, అదనంగా ఆరు సుసంపన్న తరగతులు.",
-      "of": "711fa658",
+      "t": "5 ప్రధాన సబ్జెక్టు విభాగాలు — JK నుంచి 4వ తరగతిలో Case for Christ apologetics ముగింపు వరకు Bible — అదనంగా ఆరు సుసంపన్న తరగతులు.",
+      "of": "a523846e",
       "at": [
         "charlotte-christian:divisions[0].teaser"
       ]
     },
     {
-      "t": "Charlotte Christian పేరున్న కోర్సులు కాక తరగతి శ్రేణుల వారీ విషయ పట్టికలతో Lower School సబ్జెక్టు విభాగాలను ప్రచురిస్తుంది. Lower School కోర్సుల జాబితా ఏదీ లేదు.",
-      "of": "aaeb7508",
+      "t": "Charlotte Christian పేరున్న కోర్సులు కాక తరగతి శ్రేణుల వారీ విషయ పట్టికలతో Lower School సబ్జెక్టు విభాగాలను ప్రచురిస్తుంది. ఇది Lower School కోర్సుల జాబితాను ప్రచురించదు.",
+      "of": "a8ccf65c",
       "at": [
         "charlotte-christian:divisions[0].notPublished"
       ]
@@ -7181,8 +7175,8 @@
       ]
     },
     {
-      "t": "6 రంగాలలో తరగతుల వారీ క్రమాలు, అదనంగా మూడు ఐచ్ఛిక మార్గాలు — ఇక్కడ Middle School 5వ తరగతిలో మొదలవుతుంది, Lower Schoolలో కాదు.",
-      "of": "4e644967",
+      "t": "5 రంగాలలో తరగతుల వారీ క్రమాలు, అదనంగా మూడు ఐచ్ఛిక మార్గాలు — ఇక్కడ Middle School 5వ తరగతిలో మొదలవుతుంది, Lower Schoolలో కాదు.",
+      "of": "2379799c",
       "at": [
         "charlotte-christian:divisions[1].teaser"
       ]
@@ -7286,8 +7280,8 @@
       ]
     },
     {
-      "t": "పూర్తి ఉన్నత పాఠశాల Algebra 1 వరకు మూడు ఏడో తరగతి కేటాయింపు మార్గాలు.",
-      "of": "5418d548",
+      "t": "Algebra 1 వరకు మూడు ఏడో తరగతి కేటాయింపు మార్గాలు.",
+      "of": "63c30f08",
       "at": [
         "charlotte-christian:divisions[1].departments[1].courses[2].description"
       ]
@@ -7444,8 +7438,8 @@
       ]
     },
     {
-      "t": "విద్యార్థులు పరిచయం కోసం French, Latin లేదా Spanishలో ఒకదాన్ని ఎంచుకుంటారు.",
-      "of": "a2f02fba",
+      "t": "విద్యార్థులు ప్రారంభించడానికి French, Latin లేదా Spanishలో ఒకదాన్ని ఎంచుకుంటారు.",
+      "of": "14ed8636",
       "at": [
         "charlotte-christian:divisions[1].departments[4].courses[1].description"
       ]
@@ -7524,8 +7518,8 @@
       ]
     },
     {
-      "t": "5వ తరగతిలో Music మరియు Visual Art; 7–8 తరగతులలో అదనంగా ACT 2, Creative Media, Digital Music, Exploratory Art, Guitar, MidKnight Knews, Stagecraft మరియు Ukulele.",
-      "of": "d3f13e97",
+      "t": "5వ తరగతి: Music (Band, Choir లేదా Orchestra) మరియు Visual Art · 6వ తరగతి: ACT 2, Art, Band, Choir, Orchestra మరియు Theatre · 7–8 తరగతులు: ACT 2, Art, Band, Choir, Creative Media, Digital Music, Exploratory Art, Guitar, MidKnight Knews, Orchestra, Stagecraft మరియు Ukulele.",
+      "of": "cbacf375",
       "at": [
         "charlotte-christian:divisions[1].departments[5].courses[0].description"
       ]
@@ -7552,8 +7546,8 @@
       ]
     },
     {
-      "t": "5వ తరగతిలో Global Knights; 6వ తరగతిలో Leadership మరియు Study Skills; 7–8 తరగతులలో అదనంగా Public Speaking, Game Changers, Kingdom Council, Multicultural Studies మరియు Speech & Debate.",
-      "of": "8f55c91f",
+      "t": "5వ తరగతి: Global Knights, Leadership మరియు Study Skills · 6వ తరగతి: Public Speaking మరియు Study Skills · 7–8 తరగతులు: Game Changers, Kingdom Council, Multicultural Studies, Speech & Debate, Study Hall మరియు The 24/7 Project.",
+      "of": "e3a26052",
       "at": [
         "charlotte-christian:divisions[1].departments[5].courses[2].description"
       ]
@@ -7745,8 +7739,8 @@
       ]
     },
     {
-      "t": "Latin America, ఆఫ్రికా మరియు ఆసియా సాహిత్యం ద్వారా \"భాగస్వామ్య ప్రపంచ పౌరుడిగా ఉండటం అంటే ఏమిటి?\" అని ప్రశ్నించే ప్రపంచ సాహిత్య సర్వేక్షణ.",
-      "of": "8bba8958",
+      "t": "\"భాగస్వామ్య ప్రపంచ పౌరుడిగా ఉండటం అంటే ఏమిటి?\" అనే ప్రశ్న చుట్టూ Latin America, ఆఫ్రికా మరియు ఆసియా సాహిత్యాన్ని చదివే ప్రపంచ సాహిత్య సర్వేక్షణ.",
+      "of": "8e35496a",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[4].description"
       ]
@@ -7775,8 +7769,8 @@
       ]
     },
     {
-      "t": "గ్రీకు మరియు రోమన్ ప్రాచీన రచనల నుంచి ఆధునిక Europe వరకు యుక్తవయస్సు, ఎంపికలు మరియు పర్యవసానాలను పరిశీలించే యూరోపియన్ సాహిత్యం మరియు వారసత్వ సర్వేక్షణ.",
-      "of": "2e1638ab",
+      "t": "గ్రీకు మరియు రోమన్ ప్రాచీన రచనల నుంచి ఆధునిక Europe మరియు వలసవాద వారసత్వం వరకు యుక్తవయస్సు, ఎంపికలు మరియు పర్యవసానాలను పరిశీలించే యూరోపియన్ సాహిత్యం మరియు వారసత్వ సర్వేక్షణ.",
+      "of": "86da2363",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[6].description"
       ]
@@ -7855,8 +7849,8 @@
       ]
     },
     {
-      "t": "కవిత్వం, చిన్న కథ, హాస్యం మరియు వ్యంగ్యం, వ్యక్తిగత వ్యాసం, జ్ఞాపకాలు మరియు సృజనాత్మక కల్పనేతర రచనలను కలిగిన కార్యశాల కోర్సు.",
-      "of": "476a8329",
+      "t": "కవిత్వం, చిన్న కథ, హాస్యం మరియు వ్యంగ్యం, వ్యక్తిగత వ్యాసం, జ్ఞాపకాలు మరియు సృజనాత్మక కల్పనేతర రచన వంటి ప్రక్రియలలో కార్యశాల కోర్సు.",
+      "of": "2774f4ab",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[12].description"
       ]
@@ -7998,8 +7992,8 @@
       ]
     },
     {
-      "t": "ప్రమేయాలు, విశ్లేషణాత్మక త్రికోణమితి, సదిశలు మరియు అవిచ్ఛిన్న గణితంపై లోతైన అధ్యయనంతో మొదటి సంవత్సర కళాశాల బీజగణిత కోర్సు అంశాలను కలిగి ఉంటుంది.",
-      "of": "28c3f336",
+      "t": "మొదటి సంవత్సర కళాశాల బీజగణిత కోర్సు అంశాలను కలిగి ఉంటుంది: ప్రమేయాలపై లోతైన అధ్యయనం · విశ్లేషణాత్మక త్రికోణమితి · సదిశలు · parametric మరియు polar సమీకరణాలు · విశ్లేషణాత్మక జ్యామితి · విచ్ఛిన్న గణితం · విద్యార్థులు మేలో AP పరీక్ష తప్పనిసరిగా రాయాలి.",
+      "of": "84e3ac1c",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[8].description"
       ]
@@ -8182,8 +8176,8 @@
       ]
     },
     {
-      "t": "బీజగణిత ఆధారిత పద్ధతిని ఉపయోగించి యాంత్రిక శాస్త్రం మరియు ద్రవాలను కలిగి ఉంటుంది, ఇది పరిచయ కళాశాల భౌతిక శాస్త్రం మొదటి సెమిస్టర్‌కు సమానం.",
-      "of": "af070022",
+      "t": "బీజగణిత ఆధారిత పద్ధతిని ఉపయోగించి యాంత్రిక శాస్త్రం మరియు ద్రవాలను కలిగి ఉంటుంది, ఇది సైన్స్‌ను ప్రధాన విషయంగా తీసుకోని విద్యార్థుల కోసం పరిచయ కళాశాల భౌతిక శాస్త్ర కోర్సు మొదటి సెమిస్టర్‌కు సమానం.",
+      "of": "408be7a1",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[6].description"
       ]
@@ -8337,8 +8331,8 @@
       ]
     },
     {
-      "t": "సుమారు 1200 నుంచి సర్వేక్షిస్తుంది, ఆధునిక ప్రపంచాన్ని తీర్చిదిద్దిన రాజకీయ, మత, సామాజిక మరియు సైద్ధాంతిక శక్తులను అన్వేషిస్తుంది.",
-      "of": "fdc5b680",
+      "t": "సుమారు 1200 నుంచి ఉన్న కాలాన్ని సర్వేక్షిస్తుంది, ఆధునిక ప్రపంచాన్ని తీర్చిదిద్దిన రాజకీయ, మత, సామాజిక మరియు సైద్ధాంతిక శక్తులను అన్వేషిస్తుంది.",
+      "of": "234416d0",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[2].description"
       ]
@@ -8366,7 +8360,7 @@
     },
     {
       "t": "సుమారు 1200 నుంచి ఇరవయ్యో శతాబ్దం ముగింపు వరకు ప్రధాన నాగరికతలు, సంఘటనలు, మతాలు మరియు సిద్ధాంతాలపై కళాశాల స్థాయి సర్వేక్షణ.",
-      "of": "7d1c9ca1",
+      "of": "c1acef4d",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[4].description"
       ]
@@ -8402,7 +8396,7 @@
     },
     {
       "t": "సుమారు 1491 నుంచి నేటి వరకు అమెరికాను తీర్చిదిద్దిన సాంస్కృతిక, ఆర్థిక, రాజకీయ మరియు సామాజిక పరిణామాలను అధ్యయనం చేస్తుంది.",
-      "of": "d3f5a648",
+      "of": "0d82f8d6",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[7].description"
       ]
@@ -8548,8 +8542,8 @@
       ]
     },
     {
-      "t": "బైబిల్ దృక్కోణం నుంచి ఐదు National World Language Standardsను నొక్కి చెప్పే French క్రమం; III మరియు ఆపై స్థాయిలకు AAPPL ప్రావీణ్య పరీక్ష ఉంటుంది.",
-      "of": "8989603f",
+      "t": "బైబిల్ దృక్కోణం నుంచి ఐదు National World Language Standardsను నొక్కి చెప్పే French క్రమం; French III విద్యార్థులు AAPPL ప్రావీణ్య పరీక్ష రాస్తారు.",
+      "of": "02d38ddb",
       "at": [
         "charlotte-christian:divisions[2].departments[5].courses[0].description"
       ]
@@ -8605,8 +8599,8 @@
       ]
     },
     {
-      "t": "Vergil Aeneid మరియు Pliny the Younger Lettersను చదువుతారు.",
-      "of": "b7228ec7",
+      "t": "Vergil Aeneid, Pliny the Younger Letters మరియు ఇతర ప్రాచీన, మధ్యయుగ, పునరుజ్జీవన కాలపు రచనల నుంచి ఎంపిక చేసిన భాగాలను చదువుతారు.",
+      "of": "b0ad8251",
       "at": [
         "charlotte-christian:divisions[2].departments[5].courses[5].description"
       ]
@@ -8866,8 +8860,8 @@
       ]
     },
     {
-      "t": "College Board మార్గదర్శకాల ప్రకారం 2D కళ, 3D కళ లేదా గీయడంలో portfolio, వేసవిలోనే కృషి మొదలవుతుంది.",
-      "of": "0dee7738",
+      "t": "College Board మార్గదర్శకాల ప్రకారం 2D కళ, 3D కళ లేదా గీయడంలో portfolio, వేసవిలోనే కృషి మొదలవుతుంది; అర్హులైన మూడో, చివరి సంవత్సరం విద్యార్థుల కోసం.",
+      "of": "e07d31cf",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[3].description"
       ]
@@ -8894,8 +8888,8 @@
       ]
     },
     {
-      "t": "మట్టి, plaster, తీగ, లోహం, కలప, వస్త్రాలు, వాస్తు నమూనాలు మరియు దొరికిన వస్తువులలో త్రిమితీయ ఆకృతులు.",
-      "of": "1f643022",
+      "t": "మట్టి, plaster, తీగ, లోహం, కలప, వస్త్రాలు, వాస్తు నమూనాలు మరియు దొరికిన వస్తువులు సహా వివిధ పదార్థాలలో త్రిమితీయ ఆకృతులు.",
+      "of": "8996e2ba",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[5].description"
       ]
@@ -9324,8 +9318,8 @@
       ]
     },
     {
-      "t": "రెండో సెమిస్టర్‌లో ఒక వారం సంప్రదాయేతర సుసంపన్న కోర్సులు, mission మరియు సేవా పర్యటనలు, మరియు వృత్తి పరిశీలన.",
-      "of": "6e97232d",
+      "t": "రెండో సెమిస్టర్‌లో ఒక వారం సంప్రదాయేతర సుసంపన్న కోర్సులు, mission మరియు సేవా పర్యటనలు, మరియు వృత్తి పరిశీలన (మూడో, చివరి సంవత్సరం విద్యార్థులకు మాత్రమే).",
+      "of": "b7c483d2",
       "at": [
         "charlotte-christian:divisions[2].departments[8].courses[7].description"
       ]
@@ -9393,8 +9387,8 @@
       ]
     },
     {
-      "t": "NFHS నియమాలు, ఆట నిర్వహణ, మరియు 2 మంది బృంద పద్ధతులు, ధ్రువీకరణ కోసం విద్యార్థులను సన్నద్ధం చేస్తాయి.",
-      "of": "4047f91a",
+      "t": "NFHS నియమాలు, ఆట నిర్వహణ, ఘర్షణలను పరిష్కరించడం, మరియు 2 మంది బృంద పద్ధతులు, ధ్రువీకరణ కోసం విద్యార్థులను సన్నద్ధం చేస్తాయి.",
+      "of": "0d427ecd",
       "at": [
         "charlotte-christian:divisions[2].departments[9].courses[2].description",
         "charlotte-christian:divisions[2].departments[9].courses[3].description"
@@ -9466,8 +9460,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో వ్యాకరణ ప్రాథమిక అంశాల పునశ్చరణ మరియు వ్యాస రచన ప్రాథమిక పద్ధతులు ఉంటాయి.",
-      "of": "78d62dd8",
+      "t": "వ్యాకరణ ప్రాథమిక అంశాల పునశ్చరణ మరియు వ్యాస రచన ప్రాథమిక పద్ధతులు.",
+      "of": "48138164",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[0].description"
       ]
@@ -9480,8 +9474,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో వ్యాకరణ ప్రాథమిక అంశాలు మరియు వ్యాస రచన ప్రాథమిక పద్ధతుల సమగ్ర పరిచయం మరియు వేగవంతమైన పునశ్చరణ ఉంటాయి.",
-      "of": "f1a7bab0",
+      "t": "వ్యాకరణ ప్రాథమిక అంశాలు మరియు వ్యాస రచన ప్రాథమిక పద్ధతుల సమగ్ర పరిచయం మరియు వేగవంతమైన పునశ్చరణ.",
+      "of": "99c2da8a",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[1].description"
       ]
@@ -9527,8 +9521,8 @@
       ]
     },
     {
-      "t": "నవలలు, కథలు, నాటకం మరియు కవిత్వం ద్వారా ప్రపంచ సాహిత్యం · రచనా పనుల్లో అభ్యసించే వ్యాకరణ ప్రాథమిక అంశాలు · ద్వితీయ మూలాలను ఉపయోగించి మూల్యాంకన మరియు విశ్లేషణాత్మక వ్యాసాలకు పరిచయం.",
-      "of": "d2836f86",
+      "t": "నవలలు, కథలు, నాటకం మరియు కవిత్వం ద్వారా ప్రపంచ సాహిత్యం · రచనా పనుల్లో అభ్యసించే వ్యాకరణ ప్రాథమికాంశాలు · ద్వితీయ మూలాలను ఉపయోగించి మూల్యాంకనం చేసే, విశ్లేషించే వ్యాసాలకు పరిచయం · పదజాలం, పఠన అవగాహన మరియు సాహిత్య పదాలపై మరింత కృషి.",
+      "of": "9f10e881",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[4].description",
         "charlotte-catholic:divisions[0].departments[0].courses[5].description"
@@ -9549,8 +9543,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో Advanced English 10లో బోధించే అనేక అంశాలే ఉంటాయి, కానీ ప్రపంచ సాహిత్యంపై మరింత సమగ్రమైన దృష్టి మరియు అదనపు బాహ్య పఠనం ఉంటాయి.",
-      "of": "19122635",
+      "t": "Advanced English 10లోని అనేక అంశాలనే కలిగి ఉంటుంది, ప్రపంచ సాహిత్యంపై మరింత లోతైన దృష్టి మరియు మరింత బాహ్య పఠనంతో.",
+      "of": "b83100a8",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[6].description"
       ]
@@ -9570,8 +9564,8 @@
       ]
     },
     {
-      "t": "ముందస్తు రచన, క్రమబద్ధీకరణ, ముసాయిదా మరియు సవరణ వంటి రచనా నైపుణ్యాలు · ప్రాథమిక మరియు కొన్ని సందర్భాల్లో ద్వితీయ మూలాలను ఉపయోగించి రాసిన ఆధార సహిత వ్యాసాలు · సాహిత్య విశ్లేషణలో కేంద్రీకృత అభ్యాసం · పఠన అవగాహన.",
-      "of": "d36bd157",
+      "t": "ముందస్తు రచన, క్రమబద్ధీకరణ, ముసాయిదా మరియు సవరణ వంటి రచనా నైపుణ్యాలు · ప్రాథమిక మరియు కొన్ని సందర్భాల్లో ద్వితీయ మూలాలను ఉపయోగించి రాసిన ఆధార సహిత వ్యాసాలు · సాహిత్య విశ్లేషణలో కేంద్రీకృత అభ్యాసం · పఠన అవగాహన · పదజాలంపై కొనసాగే కృషి · American Literature కాలాలు మరియు ప్రక్రియల సాధారణ సర్వేక్షణ, వాటి చారిత్రక, సామాజిక నేపథ్యంపై దృష్టితో.",
+      "of": "44e82cb2",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[8].description"
       ]
@@ -9584,8 +9578,8 @@
       ]
     },
     {
-      "t": "ముందస్తు రచన, క్రమబద్ధీకరణ, ముసాయిదా మరియు సవరణ వంటి రచనా నైపుణ్యాలు · ప్రాథమిక మరియు ద్వితీయ వనరులను ఉపయోగించి రాసిన ఆధార సహిత వ్యాసాలు · విశ్లేషణాత్మక వ్యాసాల రచనలో కేంద్రీకృత అభ్యాసం · పఠన అవగాహన.",
-      "of": "aa92cd5c",
+      "t": "ముందస్తు రచన, క్రమబద్ధీకరణ, ముసాయిదా మరియు సవరణ వంటి రచనా నైపుణ్యాలు · ప్రాథమిక మరియు ద్వితీయ వనరులను ఉపయోగించి రాసిన ఆధార సహిత వ్యాసాలు · విశ్లేషణాత్మక వ్యాసాల రచనలో కేంద్రీకృత అభ్యాసం · పఠన అవగాహన · పదజాలంపై కొనసాగే కృషి · American Literature కాలాలు మరియు ప్రక్రియల సాధారణ సర్వేక్షణ · తప్పనిసరి అదనపు పఠనం మరియు తరచూ చిన్న పత్రాలు.",
+      "of": "fc0fa370",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[9].description"
       ]
@@ -9598,15 +9592,15 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో Honors English 11లో కవర్ చేసే చాలా అంశాలతో పాటు వాక్చాతుర్యం మరియు వాదన సూత్రాలు ఉంటాయి.",
-      "of": "a5083a33",
+      "t": "Honors English 11లోని చాలా అంశాలతో పాటు వాక్చాతుర్యం మరియు వాదన సూత్రాలను కలిగి ఉంటుంది.",
+      "of": "19c08f9c",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[10].description"
       ]
     },
     {
-      "t": "బ్రిటిష్ సాహిత్య సమగ్ర పరిచయం · పేరా మరియు వ్యాస నిర్మాణ పునశ్చరణ మరియు అభ్యాసం · రచనా పనుల్లో వ్యాకరణ అభ్యాసం · పఠన అవగాహన, సారాంశం మరియు విశ్లేషణ.",
-      "of": "07a9b2a2",
+      "t": "బ్రిటిష్ సాహిత్య సమగ్ర పరిచయం · పేరా మరియు వ్యాస నిర్మాణ పునశ్చరణ మరియు అభ్యాసం · రచనా పనుల్లో వ్యాకరణ అభ్యాసం · పఠన అవగాహన, సారాంశం మరియు విశ్లేషణ · ప్రాథమిక మరియు కొన్ని సందర్భాల్లో ద్వితీయ మూలాలు రెండింటినీ ఉపయోగించి ఆధార సహిత వ్యాసాల రచన · పదజాలంపై కృషి.",
+      "of": "00e131e3",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[11].description"
       ]
@@ -9619,8 +9613,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో నిశిత పఠనం మరియు చర్చ ద్వారా బ్రిటిష్ సాహిత్యంపై లోతైన అధ్యయనం; ప్రాథమిక మరియు కొన్ని సందర్భాల్లో ఇతర మూలాలను ఉపయోగించి పలు ఆధార సహిత సాహిత్య విశ్లేషణలకు దారితీసే ఉన్నత స్థాయి రచన.",
-      "of": "459deaf1",
+      "t": "నిశిత పఠనం మరియు చర్చ ద్వారా బ్రిటిష్ సాహిత్యంపై లోతైన అధ్యయనం · ప్రాథమిక మరియు కొన్ని సందర్భాల్లో ద్వితీయ మూలాలను ఉపయోగించి పలు ఆధార సహిత సాహిత్య విశ్లేషణలకు దారితీసే ఉన్నత స్థాయి రచన · పదజాల వికాసం.",
+      "of": "6a443116",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[12].description"
       ]
@@ -9633,8 +9627,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో Honors English 12లోని అన్ని కీలక అంశాలతో పాటు పలు సంక్లిష్టమైన గ్రంథాలు ఉంటాయి.",
-      "of": "49e16eeb",
+      "t": "Honors English 12లోని అన్ని కీలక అంశాలు, అదనంగా పలు సంక్లిష్టమైన గ్రంథాలు.",
+      "of": "f09dd11b",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[13].description"
       ]
@@ -9647,8 +9641,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో Honors English 12లో కవర్ చేసే చాలా అంశాలతో పాటు వాక్చాతుర్యం మరియు వాదన సూత్రాలు ఉంటాయి.",
-      "of": "0bc63a29",
+      "t": "Honors English 12లోని చాలా అంశాలతో పాటు వాక్చాతుర్యం మరియు వాదన సూత్రాలను కలిగి ఉంటుంది.",
+      "of": "4db6d283",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[14].description"
       ]
@@ -9661,8 +9655,8 @@
       ]
     },
     {
-      "t": "ఈ తరగతి ఇంటర్వ్యూ మరియు రచనా పద్ధతులు (వార్తలు, ఫీచర్లు, సంపాదకీయాలు, క్రీడల కథనాలు మరియు సాంస్కృతిక కార్యక్రమాల సమీక్షలు), photography మరియు layoutలో ఆచరణాత్మక అనుభవాన్ని అందించేలా రూపొందించబడింది.",
-      "of": "24ad2dab",
+      "t": "ఇంటర్వ్యూ మరియు రచనా పద్ధతులు (వార్తలు, ఫీచర్లు, సంపాదకీయాలు, క్రీడల కథనాలు మరియు సాంస్కృతిక కార్యక్రమాల సమీక్షలు), photography మరియు layoutలో ఆచరణాత్మక అనుభవం.",
+      "of": "71045252",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[15].description"
       ]
@@ -9717,8 +9711,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు 2.9 లేదా అంతకంటే తక్కువ GPA ఉన్న 10, 11 మరియు 12వ తరగతుల Academic Achievement విద్యార్థుల కోసం ప్రత్యేకంగా రూపొందించబడింది.",
-      "of": "a09da7c3",
+      "t": "2.9 లేదా అంతకంటే తక్కువ GPA ఉన్న 10, 11 మరియు 12వ తరగతుల Academic Achievement విద్యార్థుల కోసం.",
+      "of": "13d7a6f9",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[1].description"
       ]
@@ -9731,8 +9725,8 @@
       ]
     },
     {
-      "t": "Assistants కార్యాలయం, counselors, పూర్వ విద్యార్థులు మరియు campus ministry కోసం పనులు చేస్తారు, నేర్చుకోవాలనే ఆసక్తి, చొరవ, కేటాయించిన పనుల నిర్వహణ మరియు తమకు కేటాయించిన రంగంలో నైపుణ్యం ఆధారంగా వారి మూల్యాంకనం జరుగుతుంది.",
-      "of": "5fad789b",
+      "t": "Assistants కార్యాలయం, counselors, పూర్వ విద్యార్థులు మరియు campus ministry కోసం పనులు చేస్తారు · నేర్చుకోవాలనే ఆసక్తి, చొరవ, కేటాయించిన పనుల నిర్వహణ మరియు కేటాయించిన రంగంలో నైపుణ్యం ఆధారంగా మూల్యాంకనం జరుగుతుంది · ఈ కోర్సును ఒక్కసారి మాత్రమే తీసుకోవచ్చు.",
+      "of": "16528847",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[2].description"
       ]
@@ -9746,8 +9740,8 @@
       ]
     },
     {
-      "t": "విద్యార్థులు పర్యవేక్షణలో ఉన్న వాతావరణంలో తమ కోర్సు పనిపై స్వతంత్రంగా పనిచేస్తూ సమయాన్ని గడుపుతారు.",
-      "of": "126b46c0",
+      "t": "విద్యార్థులు తమ కోర్సు పనిపై స్వతంత్రంగా పనిచేసేందుకు పర్యవేక్షణలో ఉండే సమయం.",
+      "of": "853af355",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[3].description"
       ]
@@ -9795,8 +9789,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు విద్యార్థులు SAT కోసం సమర్థవంతంగా సిద్ధమయ్యేందుకు సహాయపడేలా రూపొందించబడింది. బోధన రెండు ప్రధాన భాగాలుగా విభజించబడింది: Evidence-Based Reading & Writing మరియు గణితం.",
-      "of": "66820258",
+      "t": "విద్యార్థులను SAT కోసం సిద్ధం చేస్తుంది, బోధన రెండు ప్రధాన భాగాలుగా ఉంటుంది: Evidence-Based Reading & Writing మరియు గణితం.",
+      "of": "c747763a",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[5].description"
       ]
@@ -9809,8 +9803,8 @@
       ]
     },
     {
-      "t": "విద్యార్థులు నైతిక మరియు తాత్విక దృక్కోణం నుంచి క్రీడల లోతైన అర్థాన్ని అన్వేషిస్తారు.",
-      "of": "abea03c6",
+      "t": "నైతిక మరియు తాత్విక దృక్కోణం నుంచి క్రీడల లోతైన అర్థాన్ని అన్వేషిస్తుంది.",
+      "of": "2dcc624c",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[6].description"
       ]
@@ -9880,8 +9874,8 @@
       ]
     },
     {
-      "t": "వ్యాపార సంస్థలకు వర్తించే Accounting Cycle ప్రాథమిక సూత్రాలపై అవగాహన కల్పించేలా ఈ తరగతి రూపొందించబడింది.",
-      "of": "a7b074f0",
+      "t": "వ్యాపారాలకు వర్తించే Accounting Cycle ప్రాథమిక సూత్రాలను బోధిస్తుంది.",
+      "of": "12b72e65",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[11].description"
       ]
@@ -9966,8 +9960,8 @@
       ]
     },
     {
-      "t": "electrical మరియు computing engineering రంగాల్లో ఉన్నత స్థాయి కోర్సులకు విద్యార్థులను సిద్ధం చేసేలా ఈ కోర్సు రూపొందించబడింది.",
-      "of": "e2038a46",
+      "t": "electrical మరియు computing engineeringలో ఉన్నత స్థాయి కోర్సులకు విద్యార్థులను సిద్ధం చేస్తుంది.",
+      "of": "6a0d4d3b",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[17].description"
       ]
@@ -9980,8 +9974,8 @@
       ]
     },
     {
-      "t": "సివిల్ మరియు నిర్మాణ ఇంజనీరింగ్‌లో కళాశాల స్థాయి కోర్సులకు విద్యార్థులను సిద్ధం చేస్తుంది, భవన వ్యవస్థలు మరియు సామగ్రి, నిర్మాణాలు మరియు భారాలు, రవాణా మరియు పర్యావరణ భావనలు వంటి design భావనలను అన్వేషిస్తుంది.",
-      "of": "85c1abf7",
+      "t": "సివిల్ మరియు నిర్మాణ ఇంజనీరింగ్‌లో కళాశాల స్థాయి కోర్సులకు విద్యార్థులను సిద్ధం చేస్తుంది · భవన వ్యవస్థలు మరియు సామగ్రి, నిర్మాణాలు మరియు భారాలు, రవాణా మరియు పర్యావరణ భావనలు వంటి design భావనలు · వంతెనల రకాలు మరియు నిర్మాణ విశ్లేషణ ప్రాథమికాంశాలు · నగర మౌలిక సదుపాయాల రూపకల్పన మరియు నగర ప్రణాళికలో అభ్యాసం.",
+      "of": "09c7bc4e",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[18].description"
       ]
@@ -10001,22 +9995,22 @@
       ]
     },
     {
-      "t": "పూర్ణాంకాలు, భిన్నాలు మరియు దశాంశాలతో ప్రక్రియల పునశ్చరణ · ఒక చరరాశిలో సమీకరణాలు మరియు అసమానతల సాధన · ప్రమేయాల పరిచయం · రేఖీయ ప్రమేయాలు · రేఖీయ సమీకరణాలు మరియు అసమానతల వ్యవస్థలు.",
-      "of": "bbbf2d3c",
+      "t": "పూర్ణాంకాలు, భిన్నాలు మరియు దశాంశాలతో ప్రక్రియల పునశ్చరణ · ఒక చరరాశిలో సమీకరణాలు మరియు అసమానతల సాధన · ప్రమేయాల పరిచయం · రేఖీయ ప్రమేయాలు · రేఖీయ సమీకరణాలు మరియు అసమానతల వ్యవస్థలు · బహుపదులతో పని · బహుపదుల కారణాంక విభజన · వర్గ ప్రమేయాలు · సమాచారాన్ని చూపించడం మరియు దాన్ని సంఖ్యలలో సంగ్రహించడం.",
+      "of": "9a9dd2e0",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[0].description"
       ]
     },
     {
-      "t": "పూర్ణాంకాలు, భిన్నాలు మరియు దశాంశాలతో ప్రక్రియల సంక్షిప్త పునశ్చరణ · ఒక చరరాశిలో సమీకరణాలు మరియు అసమానతల సాధన · ప్రమేయాల పరిచయం · రేఖీయ ప్రమేయాలు · రేఖీయ సమీకరణాలు మరియు అసమానతల వ్యవస్థలు.",
-      "of": "ee6606f4",
+      "t": "పూర్ణాంకాలు, భిన్నాలు మరియు దశాంశాలతో ప్రక్రియల సంక్షిప్త పునశ్చరణ · ఒక చరరాశిలో సమీకరణాలు మరియు అసమానతల సాధన · ప్రమేయాల పరిచయం · రేఖీయ ప్రమేయాలు · రేఖీయ సమీకరణాలు మరియు అసమానతల వ్యవస్థలు · బహుపదులతో పని · బహుపదుల కారణాంక విభజన · వర్గ ప్రమేయాలు · సమాచారాన్ని చూపించడం మరియు దాన్ని సంఖ్యలలో సంగ్రహించడం.",
+      "of": "31f7b5a8",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[1].description"
       ]
     },
     {
-      "t": "ఈ కోర్సులో ప్రాథమిక పదాలు మరియు సంకేతాలు; బహుభుజులు మరియు వృత్తాల సర్వసమానత్వం మరియు సారూప్యత; వైశాల్యం మరియు ఘనపరిమాణం; సమాంతర మరియు లంబ రేఖలు; రూపాంతరాలు; మరియు నిరూపణ పరిచయం ఉంటాయి.",
-      "of": "d2651304",
+      "t": "ప్రాథమిక పదాలు మరియు సంకేతాలు · బహుభుజులు మరియు వృత్తాల సర్వసమానత్వం మరియు సారూప్యత · వైశాల్యం మరియు ఘనపరిమాణం · సమాంతర మరియు లంబ రేఖలు · రూపాంతరాలు · నిరూపణ పరిచయం.",
+      "of": "b7c49ec5",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[2].description"
       ]
@@ -10029,8 +10023,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో ప్రాథమిక పదాలు మరియు సంకేతాలు; బహుభుజులు మరియు వృత్తాల సర్వసమానత్వం మరియు సారూప్యత; వైశాల్యం మరియు ఘనపరిమాణం; సమాంతర మరియు లంబ రేఖలు; రూపాంతరాలు మరియు నిరూపణల అధ్యయనం ఉంటాయి.",
-      "of": "568449b3",
+      "t": "ప్రాథమిక పదాలు మరియు సంకేతాలు · బహుభుజులు మరియు వృత్తాల సర్వసమానత్వం మరియు సారూప్యత · వైశాల్యం మరియు ఘనపరిమాణం · సమాంతర మరియు లంబ రేఖలు · రూపాంతరాలు మరియు నిరూపణలు.",
+      "of": "2a79374c",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[3].description"
       ]
@@ -10052,8 +10046,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన, కరణీయ, అకరణీయ మరియు త్రికోణమితి ప్రమేయాల అధ్యయనం; సంకీర్ణ సంఖ్యలు; సహసంబంధం మరియు తిరోగమనం ఉంటాయి.",
-      "of": "b5cfa283",
+      "t": "రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన, కరణీయ, అకరణీయ మరియు త్రికోణమితి ప్రమేయాలు · సంకీర్ణ సంఖ్యలు · సహసంబంధం మరియు తిరోగమనం.",
+      "of": "a46d624e",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[5].description"
       ]
@@ -10066,8 +10060,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన, కరణీయ, అకరణీయ మరియు త్రికోణమితి ప్రమేయాల అధ్యయనం; సంకీర్ణ సంఖ్యలు; సహసంబంధం మరియు తిరోగమనం; సాధారణ నమూనాలు; మరియు నిష్పత్తులు, సగటుల కోసం విశ్వాస అంతరాలు ఉంటాయి.",
-      "of": "9c1c5de8",
+      "t": "రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన, కరణీయ, అకరణీయ మరియు త్రికోణమితి ప్రమేయాలు · సంకీర్ణ సంఖ్యలు · సహసంబంధం మరియు తిరోగమనం · సాధారణ నమూనాలు · నిష్పత్తులు, సగటుల కోసం విశ్వాస అంతరాలు.",
+      "of": "632c0bce",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[6].description"
       ]
@@ -10082,8 +10076,8 @@
       ]
     },
     {
-      "t": "బలమైన పని నిబద్ధత మరియు విమర్శనాత్మక ఆలోచనా నైపుణ్యాలు ఉన్న విద్యార్థుల కోసం శ్రమతో కూడిన కోర్సు, ఇందులో రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన, కరణీయ, అకరణీయ మరియు త్రికోణమితి ప్రమేయాల లోతైన అధ్యయనం ఉంటుంది.",
-      "of": "f298dbfc",
+      "t": "బలమైన పని నిబద్ధత మరియు విమర్శనాత్మక ఆలోచనా నైపుణ్యాలు ఉన్న విద్యార్థుల కోసం శ్రమతో కూడిన కోర్సు, ఇందులో లోతుగా ఉండేవి: రేఖీయ, వర్గ మరియు ఘాతాంక ప్రమేయాలు · సంవర్గమాన, కరణీయ, అకరణీయ మరియు త్రికోణమితి ప్రమేయాలు · సంకీర్ణ సంఖ్యలు · సహసంబంధం మరియు తిరోగమనం · సాధారణ నమూనాలు · నిష్పత్తులు, సగటుల కోసం విశ్వాస అంతరాలు.",
+      "of": "529283cd",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[7].description"
       ]
@@ -10096,8 +10090,8 @@
       ]
     },
     {
-      "t": "విశ్వవిద్యాలయ స్థాయిలో Algebra, Statistics లేదా Pre-Calculus కోర్సు కోసం విద్యార్థులను సిద్ధం చేయడం ఈ కోర్సు ఉద్దేశం.",
-      "of": "08efbcd2",
+      "t": "విశ్వవిద్యాలయ స్థాయిలో Algebra, Statistics లేదా Pre-Calculus కోర్సు కోసం విద్యార్థులను సిద్ధం చేస్తుంది.",
+      "of": "d5bdf4a2",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[8].description"
       ]
@@ -10110,8 +10104,8 @@
       ]
     },
     {
-      "t": "విశ్వవిద్యాలయ స్థాయిలో Algebra, Statistics, Pre-Calculus లేదా Calculus కోర్సు కోసం విద్యార్థులను సిద్ధం చేయడం ఈ కోర్సు ఉద్దేశం.",
-      "of": "0a1b706a",
+      "t": "విశ్వవిద్యాలయ స్థాయిలో Algebra, Statistics, Pre-Calculus లేదా Calculus కోర్సు కోసం విద్యార్థులను సిద్ధం చేస్తుంది.",
+      "of": "af0ee692",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[9].description"
       ]
@@ -10124,8 +10118,8 @@
       ]
     },
     {
-      "t": "రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన మరియు త్రికోణమితి ప్రమేయాలను మరింత లోతుగా అధ్యయనం చేసే అవకాశాన్ని ఈ కోర్సు విద్యార్థులకు అందిస్తుంది.",
-      "of": "73e22d33",
+      "t": "రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన మరియు త్రికోణమితి ప్రమేయాలపై మరింత అధ్యయనం.",
+      "of": "addb02e0",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[10].description"
       ]
@@ -10138,8 +10132,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సులో బహుపది, అకరణీయ, ఘాతాంక, సంవర్గమాన మరియు త్రికోణమితి ప్రమేయాలతో సహా ప్రమేయాల మరింత అభివృద్ధి మరియు విశ్లేషణ ఉంటాయి.",
-      "of": "35f390f8",
+      "t": "బహుపది, అకరణీయ, ఘాతాంక, సంవర్గమాన మరియు త్రికోణమితి ప్రమేయాలతో సహా ప్రమేయాల మరింత అభివృద్ధి మరియు విశ్లేషణ.",
+      "of": "21e29d26",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[11].description"
       ]
@@ -10152,8 +10146,8 @@
       ]
     },
     {
-      "t": "బలమైన పని నిబద్ధత మరియు విమర్శనాత్మక ఆలోచనా నైపుణ్యాలు ఉన్న విద్యార్థుల కోసం శ్రమతో కూడిన కోర్సు, ఇందులో బహుపది, అకరణీయ, ఘాతాంక, సంవర్గమాన మరియు త్రికోణమితి ప్రమేయాలతో సహా ప్రమేయాల మరింత అభివృద్ధి మరియు విశ్లేషణ ఉంటాయి.",
-      "of": "3413d082",
+      "t": "బలమైన పని నిబద్ధత మరియు విమర్శనాత్మక ఆలోచనా నైపుణ్యాలు ఉన్న విద్యార్థుల కోసం శ్రమతో కూడిన కోర్సు, ఇందులో ఉండేవి: బహుపది, అకరణీయ, ఘాతాంక, సంవర్గమాన మరియు త్రికోణమితి ప్రమేయాల వంటి ప్రమేయాల మరింత అభివృద్ధి మరియు విశ్లేషణ · సంభావ్యత · గణన · అనుక్రమాలు మరియు శ్రేణులు · శాంకవ ఛేదనాలు · సంకీర్ణ సంఖ్యా వ్యవస్థ · సగటులు మరియు నిష్పత్తుల కోసం పరికల్పన పరీక్షలు.",
+      "of": "14fc3faf",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[12].description"
       ]
@@ -10189,8 +10183,8 @@
       ]
     },
     {
-      "t": "Advanced Placement Calculus BC కళాశాల తొలి మరియు రెండో సెమిస్టర్ calculus కోర్సులు రెండింటికీ దాదాపు సమానం, ఇందులో Calculus AB విషయాలను వేర్వేరు రకాల సమీకరణాలకు విస్తరిస్తారు, దానితో పాటు అనుక్రమాలు మరియు శ్రేణులు ఉంటాయి.",
-      "of": "9852095d",
+      "t": "Advanced Placement Calculus BC కళాశాల తొలి మరియు రెండో సెమిస్టర్ calculus కోర్సులు రెండింటికీ దాదాపు సమానం · ఈ కోర్సులో Calculus AB విషయాలను వేర్వేరు రకాల సమీకరణాలకు విస్తరిస్తారు, దానితో పాటు అనుక్రమాలు మరియు శ్రేణులు ఉంటాయి · అవకలన మరియు సమాకలన calculus అంశాలలో అవధులు, అవకలజాలు, నిశ్చిత సమాకలనాలు, Fundamental Theorem of Calculus మరియు శ్రేణులు ఉన్నాయి · ప్రతి విద్యార్థి AP Calculus BC పరీక్ష తప్పనిసరిగా రాయాలి.",
+      "of": "68048f34",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[16].description"
       ]
@@ -10380,8 +10374,8 @@
       ]
     },
     {
-      "t": "సాంప్రదాయ హైస్కూల్ అనుభవానికి మించి Options Program యొక్క రెండేళ్ల పొడిగింపు · తరగతులు, ఉద్యోగ శిక్షణ, ఇంటర్న్‌షిప్‌లు మరియు సమాజ అనుభవాలు జీవన నైపుణ్యాలు, ఉద్యోగ స్థలం మరియు కళాశాలకు సన్నద్ధత, స్వతంత్రతను పెంపొందిస్తాయి.",
-      "of": "2875a0cd",
+      "t": "సాంప్రదాయ హైస్కూల్ అనుభవానికి మించి Options Program యొక్క రెండేళ్ల పొడిగింపు · జీవన నైపుణ్యాలలో వ్యక్తిగత బోధన · ఉద్యోగ స్థలానికి సన్నద్ధత · సామాజిక సంభాషణ · సమాజంలో స్వయంగా రాకపోకలు సాగించడం · కళాశాలకు సన్నద్ధత · ఉద్యోగ శిక్షణ, ఇంటర్న్‌షిప్‌లు, మార్గదర్శక సమాజ అనుభవాలు మరియు మరింత విద్యా కృషి వంటి వాస్తవ ప్రపంచ అభ్యాసం · స్వతంత్ర జీవనం దిశగా ఎదుగుదలకు తోడ్పడటం ఈ కార్యక్రమం లక్ష్యం.",
+      "of": "992966d5",
       "at": [
         "charlotte-catholic:divisions[0].departments[3].courses[13].description"
       ]
@@ -10401,8 +10395,8 @@
       ]
     },
     {
-      "t": "మనుషులు వ్యక్తులు (అంటే స్వేచ్ఛ మరియు తెలుసుకోగల, ప్రేమించగల అంతరంగ జీవితం కలిగిన జీవులు) అని చెప్పడం అంటే ఏమిటో ఈ కోర్సు అధ్యయనం చేస్తుంది.",
-      "of": "078dacf5",
+      "t": "మనుషులను వ్యక్తులు (స్వేచ్ఛ మరియు తెలుసుకోగల, ప్రేమించగల అంతరంగ జీవితం కలిగిన జీవులు) అని పిలవడం అంటే ఏమిటో అధ్యయనం చేస్తుంది.",
+      "of": "53e6f9bc",
       "at": [
         "charlotte-catholic:divisions[0].departments[4].courses[0].description"
       ]
@@ -10415,8 +10409,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు కాథలిక్ దృక్కోణం నుంచి నైతికతపై శాస్త్రీయ తత్వశాస్త్ర దృక్పథాన్ని విద్యార్థులకు పరిచయం చేస్తుంది.",
-      "of": "6371b8ed",
+      "t": "కాథలిక్ దృక్కోణం నుంచి నైతికతపై శాస్త్రీయ తత్వశాస్త్ర దృక్పథాన్ని పరిచయం చేస్తుంది.",
+      "of": "c358e2d3",
       "at": [
         "charlotte-catholic:divisions[0].departments[4].courses[1].description"
       ]
@@ -10470,8 +10464,8 @@
       ]
     },
     {
-      "t": "శారీరక సామర్థ్యాలను పెంచేందుకు ఈ కోర్సు సాధారణ ఓర్పు మరియు aerobic కదలికలపై దృష్టి పెడుతుంది.",
-      "of": "193f5c87",
+      "t": "శారీరక సామర్థ్యాలను పెంచేందుకు సాధారణ ఓర్పు మరియు aerobic కదలికలపై దృష్టి పెడుతుంది.",
+      "of": "00e9c559",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[2].description"
       ]
@@ -10512,8 +10506,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు cardio కదలికల వ్యాయామాలతో కూడిన నృత్య అంశాలపై దృష్టి పెడుతుంది. Pilates మరియు సాగదీత వ్యాయామాలు కూడా ఉంటాయి.",
-      "of": "98779b03",
+      "t": "cardio కదలికల వ్యాయామాలతో నృత్య అంశాలపై దృష్టి పెడుతుంది, దానితో పాటు Pilates మరియు సాగదీత వ్యాయామాలు.",
+      "of": "62d8b544",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[5].description"
       ]
@@ -10526,8 +10520,8 @@
       ]
     },
     {
-      "t": "విద్యార్థులు సమూహ మరియు వ్యక్తిగత ఎంపికకు, అలాగే జీవితాంతం కొనసాగే కార్యకలాపాలకు ప్రాధాన్యమిస్తూ వివిధ జట్టు కార్యకలాపాలలో పాల్గొంటారు.",
-      "of": "53094926",
+      "t": "సమూహ మరియు వ్యక్తిగత ఎంపికకు, అలాగే జీవితాంతం కొనసాగే కార్యకలాపాలకు ప్రాధాన్యమిస్తూ వివిధ జట్టు కార్యకలాపాలు.",
+      "of": "78dcdd5b",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[6].description"
       ]
@@ -10547,8 +10541,8 @@
       ]
     },
     {
-      "t": "మనుషులు, ఇతర జీవులతో వారి పరస్పర చర్య మరియు వారు పంచుకునే పర్యావరణం అధ్యయనం ద్వారా జీవశాస్త్ర మౌలిక సూత్రాలకు విస్తృత పరిచయం.",
-      "of": "694041aa",
+      "t": "మనుషులు, ఇతర జీవులతో వారి పరస్పర చర్య మరియు వారు పంచుకునే పర్యావరణం అధ్యయనం ద్వారా జీవశాస్త్ర మౌలిక సూత్రాలకు విస్తృత పరిచయం · కణ నిర్మాణం మరియు విధి · మొక్కలు మరియు జంతువుల నిర్మాణం మరియు విధి (వ్యవస్థల అధ్యయనం) · పునరుత్పత్తి · జన్యుశాస్త్రం · పరిణామం · జీవావరణ శాస్త్రం · ప్రయోగశాల అభ్యాసాలు, dissection మరియు ప్రయోగశాల నివేదికలు గ్రేడ్‌లో ముఖ్యమైన భాగం.",
+      "of": "f64aae18",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[0].description"
       ]
@@ -10561,8 +10555,8 @@
       ]
     },
     {
-      "t": "జీవ ప్రక్రియల ప్రాథమిక సూత్రాలపై లోతైన అధ్యయనాన్ని విద్యార్థికి పరిచయం చేయడమే ఈ కోర్సు ఉద్దేశం.",
-      "of": "60b9b8e4",
+      "t": "జీవ ప్రక్రియల ప్రాథమిక సూత్రాలపై లోతైన అధ్యయనాన్ని పరిచయం చేస్తుంది.",
+      "of": "5d773e2a",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[1].description"
       ]
@@ -10670,8 +10664,8 @@
       ]
     },
     {
-      "t": "మానవ పోషణ, ఆరోగ్యం మరియు సమాజంపై వాటి ప్రభావాలకు పరిచయాన్ని అందించేలా ఈ కోర్సు రూపొందించబడింది.",
-      "of": "88455d3f",
+      "t": "మానవ పోషణ, ఆరోగ్యం మరియు సమాజంపై వాటి ప్రభావాలకు పరిచయం.",
+      "of": "c2ac2d95",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[9].description"
       ]
@@ -10684,15 +10678,15 @@
       ]
     },
     {
-      "t": "Advanced Placement Chemistry రెండో సంవత్సర రసాయన శాస్త్ర కోర్సుగా రూపొందించబడింది. ఇది సాధారణంగా కళాశాల తొలి సంవత్సర రసాయన శాస్త్ర కోర్సులో ఉండే అంశాలను కవర్ చేసే అత్యంత సాంద్రమైన ఐచ్ఛిక విజ్ఞాన కోర్సు.",
-      "of": "3f2ac5cc",
+      "t": "Advanced Placement Chemistry రెండో సంవత్సర రసాయన శాస్త్ర కోర్సు, సాధారణంగా కళాశాల తొలి సంవత్సర రసాయన శాస్త్ర కోర్సులో ఉండే అంశాలను కవర్ చేసే అత్యంత సాంద్రమైన ఐచ్ఛిక విజ్ఞాన కోర్సు.",
+      "of": "c56f9ac1",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[11].description"
       ]
     },
     {
-      "t": "పర్యావరణ శాస్త్రంలో కళాశాల తొలి సంవత్సర కోర్సులో సాధారణంగా ఉండే అంశాలను ఈ కోర్సు కవర్ చేస్తుంది.",
-      "of": "56716f95",
+      "t": "పర్యావరణ శాస్త్రంలో కళాశాల తొలి సంవత్సర కోర్సులో సాధారణంగా ఉండే అంశాలను కవర్ చేస్తుంది.",
+      "of": "16e37238",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[12].description"
       ]
@@ -10705,8 +10699,8 @@
       ]
     },
     {
-      "t": "బీజగణిత ఆధారిత, కళాశాల స్థాయి ప్రారంభ భౌతిక శాస్త్ర కోర్సు; ప్రతి విద్యార్థి AP Physics 1: Algebra-Based పరీక్ష రాయాలి.",
-      "of": "19af0536",
+      "t": "ఈ విషయ రంగాలను కవర్ చేసే బీజగణిత ఆధారిత, కళాశాల స్థాయి ప్రారంభ భౌతిక శాస్త్ర కోర్సు: Kinematics · Forces and Translational Dynamics · Work, Energy, and Power · Linear Momentum · Torque and Rotational Dynamics · Energy and Momentum of Rotating Systems · Oscillations · Fluids · ప్రతి విద్యార్థి AP Physics 1: Algebra-Based పరీక్ష తప్పనిసరిగా రాయాలి.",
+      "of": "17ad53d8",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[13].description"
       ]
@@ -10719,8 +10713,8 @@
       ]
     },
     {
-      "t": "న్యూటోనియన్ మెకానిక్స్‌పై పూర్తి సంవత్సరం లోతైన అధ్యయనం: గతిశాస్త్రం · న్యూటన్ చలన నియమాలు · పని, శక్తి మరియు సామర్థ్యం · కణ వ్యవస్థలు మరియు రేఖీయ ద్రవ్యవేగం · వృత్తాకార చలనం మరియు భ్రమణం · డోలనాలు మరియు గురుత్వాకర్షణ.",
-      "of": "8e073378",
+      "t": "న్యూటోనియన్ మెకానిక్స్‌పై పూర్తి సంవత్సరం లోతైన అధ్యయనం: గతిశాస్త్రం · న్యూటన్ చలన నియమాలు · పని, శక్తి మరియు సామర్థ్యం · కణ వ్యవస్థలు మరియు రేఖీయ ద్రవ్యవేగం · వృత్తాకార చలనం మరియు భ్రమణం · డోలనాలు మరియు గురుత్వాకర్షణ · ఈ కోర్సు ఎక్కువగా ప్రయోగశాల ఆధారితం, తప్పనిసరి ప్రయోగశాల నోట్‌బుక్ మరియు calculus ఉపయోగించే సమస్యా పరిష్కారంతో · ప్రతి విద్యార్థి AP Physics C: Mechanics పరీక్ష తప్పనిసరిగా రాయాలి.",
+      "of": "3e437ca1",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[14].description"
       ]
@@ -10754,8 +10748,8 @@
       ]
     },
     {
-      "t": "biotechnology రంగంలో ప్రస్తుతం ఉపయోగిస్తున్న శాస్త్రీయ భావనలు మరియు ప్రయోగశాల పరిశోధన పద్ధతులపై ఈ కోర్సు విద్యార్థులకు సమగ్ర పరిచయాన్ని అందిస్తుంది.",
-      "of": "17608f26",
+      "t": "నేడు biotechnologyలో ఉపయోగిస్తున్న శాస్త్రీయ భావనలు మరియు ప్రయోగశాల పరిశోధన పద్ధతులకు సమగ్ర పరిచయం.",
+      "of": "a859781f",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[17].description"
       ]
@@ -10790,8 +10784,8 @@
       ]
     },
     {
-      "t": "Charlotte Catholicలో Honors World History అత్యున్నత స్థాయి World History తరగతి · పనుల గడువులు తరచుగా కొన్ని రోజులు, కొన్నిసార్లు వారాల ముందుగానే ఇవ్వబడతాయి, కాబట్టి విద్యార్థులు విజయవంతం కావాలంటే తమ పనిని ప్రణాళిక చేసుకుని సమయాన్ని నిర్వహించుకోవాలి.",
-      "of": "9117a0bd",
+      "t": "Charlotte Catholicలో Honors World History అత్యున్నత స్థాయి World History తరగతి · పనుల గడువులు తరచుగా కొన్ని రోజులు, కొన్నిసార్లు వారాల ముందుగానే ఇవ్వబడతాయి, కాబట్టి విద్యార్థులు విజయవంతం కావాలంటే తమ పనిని ప్రణాళిక చేసుకుని సమయాన్ని నిర్వహించుకోవాలి · ఈ కోర్సు ప్రాచీన ప్రపంచ చరిత్ర నుంచి (మతాలు, సామ్రాజ్యాలు మరియు ప్రారంభ నైపుణ్యాలపై దృష్టితో) తొలి China మీదుగా ప్రచ్ఛన్న యుద్ధం వరకు సాగుతుంది · ఆలోచన మరియు రచనా నైపుణ్యాలపై బలమైన ప్రాధాన్యం వల్ల కేటాయించిన పఠనం తప్పనిసరి · ఇది యూరప్ కేంద్రిత తరగతి కాదు: విద్యార్థులు యూరోపియన్ చరిత్రతో పాటు ఆఫ్రికా, ఆసియా మరియు Latin America గురించి ఎంతో నేర్చుకుంటారు.",
+      "of": "a83348cf",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[2].description"
       ]
@@ -10804,8 +10798,8 @@
       ]
     },
     {
-      "t": "క్రైస్తవ మతం చారిత్రక మరియు కళాత్మక ప్రభావం ద్వారా పాశ్చాత్య మరియు సమీప ప్రాచ్య నాగరికతల వికాసాన్ని ఈ కోర్సు పరిశీలిస్తుంది.",
-      "of": "9b914725",
+      "t": "క్రైస్తవ మతం చారిత్రక మరియు కళాత్మక ప్రభావం ద్వారా పాశ్చాత్య మరియు సమీప ప్రాచ్య నాగరికతలు ఎలా వికసించాయో పరిశీలిస్తుంది.",
+      "of": "710c3f53",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[3].description"
       ]
@@ -10854,15 +10848,15 @@
       ]
     },
     {
-      "t": "మానవ ప్రవర్తన మరియు మానసిక ప్రక్రియల శాస్త్రీయ అధ్యయనానికి ఈ కోర్సు విద్యార్థులను పరిచయం చేస్తుంది.",
-      "of": "0396eb47",
+      "t": "మానవ ప్రవర్తన మరియు మానసిక ప్రక్రియల శాస్త్రీయ అధ్యయనానికి పరిచయం.",
+      "of": "4af526a9",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[7].description"
       ]
     },
     {
-      "t": "ఇది కళాశాల స్థాయి కోర్సు, ఇది మానవ ప్రవర్తన మరియు మానసిక ప్రక్రియల క్రమబద్ధమైన, శాస్త్రీయ అధ్యయనానికి విద్యార్థులను పరిచయం చేస్తుంది.",
-      "of": "43a5d41d",
+      "t": "మానవ ప్రవర్తన మరియు మానసిక ప్రక్రియల క్రమబద్ధమైన, శాస్త్రీయ అధ్యయనానికి కళాశాల స్థాయి పరిచయం.",
+      "of": "e81b5742",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[8].description"
       ]
@@ -10875,8 +10869,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు అమెరికా రాజకీయ వ్యవస్థ పునాదులు, నిర్మాణాలు మరియు ప్రక్రియలకు విద్యార్థులను పరిచయం చేసే college prep స్థాయి U.S. Government తరగతి.",
-      "of": "5ac83c77",
+      "t": "అమెరికా రాజకీయ వ్యవస్థ పునాదులు, నిర్మాణాలు మరియు ప్రక్రియలను పరిచయం చేసే college prep స్థాయి U.S. Government తరగతి.",
+      "of": "c499cfc4",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[9].description"
       ]
@@ -10903,15 +10897,15 @@
       ]
     },
     {
-      "t": "అమెరికా రాజ్యాంగ వ్యవస్థ మరియు రాజకీయ సంస్కృతిని నిర్వచించే కీలక రాజకీయ భావనలు, ఆలోచనలు, సంస్థలు, విధానాలు, పరస్పర చర్యలు, పాత్రలు మరియు ప్రవర్తనలకు ఈ కోర్సు కళాశాల స్థాయి పరిచయాన్ని అందిస్తుంది.",
-      "of": "d8b1836b",
+      "t": "అమెరికా రాజ్యాంగ వ్యవస్థ మరియు రాజకీయ సంస్కృతిని నిర్వచించే కీలక రాజకీయ భావనలు, ఆలోచనలు, సంస్థలు, విధానాలు, పరస్పర చర్యలు, పాత్రలు మరియు ప్రవర్తనలకు కళాశాల స్థాయి పరిచయం.",
+      "of": "7bdce14b",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[11].description"
       ]
     },
     {
-      "t": "ఇది ప్రధానంగా అమెరికా ఆర్థిక వ్యవస్థపై దృష్టి పెట్టి ఆర్థిక శాస్త్ర మౌలిక సూత్రాలకు విద్యార్థులను పరిచయం చేసే college prep స్థాయి ఆర్థిక శాస్త్ర కోర్సు.",
-      "of": "bdde45a3",
+      "t": "ప్రధానంగా అమెరికా ఆర్థిక వ్యవస్థపై దృష్టితో, ఆర్థిక శాస్త్ర మౌలిక సూత్రాలను పరిచయం చేసే college prep స్థాయి కోర్సు.",
+      "of": "653a0acf",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[12].description"
       ]
@@ -10938,8 +10932,8 @@
       ]
     },
     {
-      "t": "ఇది కళాశాల స్థాయి కోర్సు, ఇది వ్యక్తిగత వినియోగదారులు, సంస్థలు మరియు వనరుల యజమానుల ప్రవర్తనకు వర్తించే ఆర్థిక సూత్రాలకు విద్యార్థులను పరిచయం చేస్తుంది.",
-      "of": "43a6df4c",
+      "t": "వ్యక్తిగత వినియోగదారులు, సంస్థలు మరియు వనరుల యజమానుల ప్రవర్తనకు వర్తించే ఆర్థిక సూత్రాలకు కళాశాల స్థాయి పరిచయం.",
+      "of": "eefd305e",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[14].description"
       ]
@@ -10952,8 +10946,8 @@
       ]
     },
     {
-      "t": "ఈ తరగతిలో macroeconomics మరియు microeconomics రెండింటి అంశాలూ ఉంటాయి. ఈ కోర్సు macroeconomic సిద్ధాంతం మరియు microeconomic సిద్ధాంతంలో రెండు సెమిస్టర్ కోర్సులకు సమానం.",
-      "of": "ea8d26ae",
+      "t": "macroeconomics మరియు microeconomics రెండింటినీ కవర్ చేస్తుంది, ఇది రెండు సెమిస్టర్ కోర్సులకు సమానం: ఒకటి macroeconomic సిద్ధాంతంలో, మరొకటి microeconomic సిద్ధాంతంలో.",
+      "of": "109df2a5",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[15].description"
       ]
@@ -10987,8 +10981,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు తత్వశాస్త్రం మరియు తర్కానికి సంక్షిప్త పరిచయంతో మొదలవుతుంది. మిగిలిన కోర్సు దేవుడు మనుషులకు తనను తాను ఎలా వెల్లడించుకుంటాడో పరిశీలిస్తుంది.",
-      "of": "0bb97eaf",
+      "t": "తత్వశాస్త్రం మరియు తర్కానికి సంక్షిప్త పరిచయం, ఆ తర్వాత దేవుడు మనుషులకు తనను తాను ఎలా వెల్లడించుకుంటాడో అధ్యయనం.",
+      "of": "0454085b",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[0].description"
       ]
@@ -11001,8 +10995,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు క్రైస్తవ విశ్వాసానికి కేంద్ర రహస్యమైన పరిశుద్ధ త్రిత్వాన్ని — తండ్రి, కుమారుడు మరియు పరిశుద్ధాత్మ అనే ముగ్గురు దైవ వ్యక్తులలో ఒకే దేవుడు — పరిచయం చేస్తుంది.",
-      "of": "09259e9d",
+      "t": "క్రైస్తవ విశ్వాసానికి కేంద్ర రహస్యమైన పరిశుద్ధ త్రిత్వాన్ని — తండ్రి, కుమారుడు మరియు పరిశుద్ధాత్మ అనే ముగ్గురు దైవ వ్యక్తులలో ఒకే దేవుడు — అధ్యయనం చేస్తుంది.",
+      "of": "d5b8cf1e",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[1].description"
       ]
@@ -11099,8 +11093,8 @@
       ]
     },
     {
-      "t": "బహిరంగ వేదికలో కాథలిక్కులు కాని వారితో చురుకైన సంభాషణకు ఈ కోర్సు విద్యార్థులను సిద్ధం చేస్తుంది.",
-      "of": "f567ced1",
+      "t": "ప్రజా జీవితంలో కాథలిక్కులు కాని వారితో చురుకైన సంభాషణకు విద్యార్థులను సిద్ధం చేస్తుంది.",
+      "of": "19ce45ba",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[8].description"
       ]
@@ -11141,8 +11135,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు తన కుమారుని రూపంలో మానవ చరిత్రలో దేవుని నిర్ణాయక ప్రవేశ కథతో మొదలై, ఆయన చర్చి ద్వారా నేటి వరకు కొనసాగుతుంది.",
-      "of": "16e347be",
+      "t": "తన కుమారుని రూపంలో మానవ చరిత్రలో దేవుని నిర్ణాయక ప్రవేశం నుంచి, ఆయన చర్చి ద్వారా, నేటి వరకు సాగిన కథను కవర్ చేస్తుంది.",
+      "of": "07f88455",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[11].description"
       ]
@@ -11155,8 +11149,8 @@
       ]
     },
     {
-      "t": "సినిమాలో తాము చూసే చిత్రణను విశ్లేషించడానికి ఒక ప్రమాణాన్ని రూపొందించుకునేలా ఈ కోర్సు విద్యార్థులకు తోడ్పడుతుంది.",
-      "of": "1385fa2f",
+      "t": "సినిమాల్లో తాము చూసే చిత్రణను విశ్లేషించడానికి ఒక ప్రమాణాన్ని రూపొందించుకోవడం విద్యార్థులకు నేర్పుతుంది.",
+      "of": "ed4a56b9",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[12].description"
       ]
@@ -11169,8 +11163,8 @@
       ]
     },
     {
-      "t": "యూదు మతం, క్రైస్తవ మతం, ఇస్లాం, హిందూ మతం మరియు బౌద్ధ మతంతో సహా ప్రపంచ మతాల సమగ్ర పరిచయాన్ని ఈ కోర్సు అందిస్తుంది.",
-      "of": "548d4bba",
+      "t": "యూదు మతం, క్రైస్తవ మతం, ఇస్లాం, హిందూ మతం మరియు బౌద్ధ మతంతో సహా ప్రపంచ మతాల సమగ్ర పరిచయం.",
+      "of": "7818f03b",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[13].description"
       ]
@@ -11183,8 +11177,8 @@
       ]
     },
     {
-      "t": "Art I అనేది మౌలిక కళా నైపుణ్యాలపై దృష్టి పెట్టే ప్రాథమిక కోర్సు. చిత్రలేఖనం, గీయడం మరియు శిల్పకళతో సహా వివిధ మాధ్యమాలు, పరికరాలను అన్వేషిస్తారు.",
-      "of": "0a151589",
+      "t": "Art I అనేది మౌలిక కళా నైపుణ్యాలపై దృష్టి పెట్టే ప్రాథమిక కోర్సు, ఇందులో చిత్రలేఖనం, గీయడం మరియు శిల్పకళతో సహా వివిధ మాధ్యమాలు, పరికరాలను అన్వేషిస్తారు.",
+      "of": "5f6d46fc",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[0].description"
       ]
@@ -11365,8 +11359,8 @@
       ]
     },
     {
-      "t": "గాన బృంద గానం, సరైన శ్వాస పద్ధతులు, sight singing మరియు స్వర ఉత్పత్తి పద్ధతుల ద్వారా తమ గాన స్వరాలను అభివృద్ధి చేసుకునే అవకాశాన్ని ఈ కోర్సు కొత్తగా చేరిన freshman విద్యార్థులకు అందిస్తుంది.",
-      "of": "9ea6724e",
+      "t": "గాన బృంద గానం, సరైన శ్వాస పద్ధతులు, sight singing మరియు స్వర ఉత్పత్తి పద్ధతుల ద్వారా తమ గాన స్వరాలను అభివృద్ధి చేసుకునే అవకాశాన్ని కొత్తగా చేరే freshman విద్యార్థులకు అందిస్తుంది.",
+      "of": "0fb278fc",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[13].description"
       ]
@@ -11379,8 +11373,8 @@
       ]
     },
     {
-      "t": "గాన బృంద గానం, సరైన శ్వాస పద్ధతులు, sight singing మరియు స్వర ఉత్పత్తి పద్ధతుల ద్వారా తమ గాన స్వరాలను అభివృద్ధి చేసుకునే అవకాశాన్ని ఈ కోర్సు కొత్తగా చేరిన freshman విద్యార్థినులకు అందిస్తుంది.",
-      "of": "30121c3c",
+      "t": "గాన బృంద గానం, సరైన శ్వాస పద్ధతులు, sight singing మరియు స్వర ఉత్పత్తి పద్ధతుల ద్వారా తమ గాన స్వరాలను అభివృద్ధి చేసుకునే అవకాశాన్ని కొత్తగా చేరే freshman విద్యార్థినులకు అందిస్తుంది.",
+      "of": "f72bce2e",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[14].description"
       ]
@@ -11407,8 +11401,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు గతంలో గాన అనుభవం ఉన్న మహిళల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య స్థాయి గాన బృందం.",
-      "of": "9f34af36",
+      "t": "గతంలో గాన అనుభవం ఉన్న మహిళల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య స్థాయి గాన బృందం.",
+      "of": "cbadd3fd",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[16].description"
       ]
@@ -11421,8 +11415,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు గతంలో గాన అనుభవం ఉన్న మహిళల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య మరియు ఉన్నత స్థాయి గాన బృందం.",
-      "of": "035360d3",
+      "t": "గతంలో గాన అనుభవం ఉన్న మహిళల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య మరియు ఉన్నత స్థాయి గాన బృందం.",
+      "of": "21829186",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[17].description"
       ]
@@ -11435,8 +11429,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు గతంలో గాన అనుభవం ఉన్న పురుషుల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య స్థాయి గాన బృందం.",
-      "of": "ce946530",
+      "t": "గతంలో గాన అనుభవం ఉన్న పురుషుల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య స్థాయి గాన బృందం.",
+      "of": "c6bf2747",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[18].description"
       ]
@@ -11449,8 +11443,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు గతంలో గాన అనుభవం ఉన్న పురుషుల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య మరియు ఉన్నత స్థాయి గాన బృందం.",
-      "of": "6b9a427d",
+      "t": "గతంలో గాన అనుభవం ఉన్న పురుషుల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య మరియు ఉన్నత స్థాయి గాన బృందం.",
+      "of": "e96a1160",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[19].description"
       ]
@@ -11464,8 +11458,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు గతంలో గణనీయమైన గాన అనుభవం ఉన్న పురుషులు మరియు మహిళల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ఉన్నత స్థాయి మిశ్రమ గాన బృందం.",
-      "of": "53180152",
+      "t": "గతంలో గణనీయమైన గాన అనుభవం ఉన్న పురుషులు మరియు మహిళల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ఉన్నత స్థాయి మిశ్రమ గాన బృందం.",
+      "of": "ac21d443",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[20].description"
       ]
@@ -11520,8 +11514,8 @@
       ]
     },
     {
-      "t": "విద్యార్థులు sets రూపొందించడమే కాకుండా, design మరియు సౌందర్య భావనలన్నింటినీ అన్వయిస్తూ వృత్తిపరమైన వాతావరణంలో పనిచేసేందుకు అవసరమైన సాధనాలను కూడా పొందే ఉన్నత స్థాయి కోర్సు.",
-      "of": "ecfbfa73",
+      "t": "విద్యార్థులు sets రూపొందించడమే కాకుండా, design మరియు సౌందర్య భావనలన్నింటినీ అన్వయిస్తూ వృత్తిపరమైన వాతావరణంలో పనిచేసేందుకు అవసరమైన సాధనాలను కూడా పొందే ఉన్నత స్థాయి కోర్సు · విద్యార్థులు పాఠశాల మరియు దాని సౌకర్యాలన్నింటికీ lighting మరియు soundను నిర్వహిస్తారు, పాఠశాల Masses మరియు కార్యక్రమాల కోసం ఏర్పాటు చేయడానికి, తొలగించడానికి అదనపు సమయం కేటాయిస్తారు · ఈ కోర్సులోని విద్యార్థులు అన్ని నాటక ప్రదర్శనలలో నాయకత్వ పాత్రలు కూడా చేపడతారు.",
+      "of": "af089538",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[24].description"
       ]
@@ -11555,8 +11549,8 @@
       ]
     },
     {
-      "t": "రంగస్థలం మరియు తెరపై నటనా పద్ధతులన్నింటినీ తీవ్రంగా అభ్యసించాలనుకునే విద్యార్థులకు ఈ కోర్సు అందించబడుతుంది.",
-      "of": "10b9628e",
+      "t": "రంగస్థలం మరియు తెర కోసం నటనా పద్ధతులన్నింటినీ తీవ్రంగా అభ్యసించాలనుకునే విద్యార్థుల కోసం.",
+      "of": "0bab2e9f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[27].description"
       ]
@@ -11583,8 +11577,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు టెలివిజన్/web series నిర్మాణ సూత్రాలు, పద్ధతులు మరియు ప్రక్రియలపై అవగాహనను మరింత పెంచుతుంది.",
-      "of": "fddd3045",
+      "t": "టెలివిజన్/web series నిర్మాణ సూత్రాలు, పద్ధతులు మరియు ప్రక్రియలపై విద్యార్థుల జ్ఞానాన్ని మరింత పెంచుతుంది.",
+      "of": "52e1109f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[29].description"
       ]
@@ -11625,8 +11619,8 @@
       ]
     },
     {
-      "t": "Dance III అనేది honors స్థాయి ప్రదర్శన కోర్సు, ఇది నృత్య రచన అనువర్తనం ద్వారా విద్యార్థుల ఉన్నత స్థాయి పద్ధతిని ప్రదర్శిస్తుంది · ఈ తరగతి పూర్తి సంవత్సరం జరుగుతుంది · రెండు రంగస్థల ప్రదర్శనలు తప్పనిసరి, విద్యార్థులు స్వయంగా రూపొందించిన నృత్య రచనలతో సహా.",
-      "of": "f9e5edfa",
+      "t": "Dance III అనేది honors స్థాయి ప్రదర్శన కోర్సు, ఇది నృత్య రచన అనువర్తనం ద్వారా విద్యార్థుల ఉన్నత స్థాయి పద్ధతిని ప్రదర్శిస్తుంది · ఈ తరగతి పూర్తి సంవత్సరం జరుగుతుంది · రెండు రంగస్థల ప్రదర్శనలు తప్పనిసరి, విద్యార్థులు స్వయంగా రూపొందించిన నృత్య రచనలతో సహా · తగిన నృత్య బూట్లు కొనుగోలు చేయడం తప్పనిసరి.",
+      "of": "7c96437b",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[32].description"
       ]
@@ -11639,8 +11633,8 @@
       ]
     },
     {
-      "t": "వాయిద్య అనుభవం ఉన్న విద్యార్థులు ఆడిషన్ ద్వారా చేరతారు, వారు తమ వాయిద్యంలో ప్రావీణ్యం కలిగి, ప్రాథమిక సంగీత సిద్ధాంతం తెలిసి, సంగీత స్వరలిపిని సాఫీగా చదవగలగాలని ఆశిస్తారు.",
-      "of": "be73b04a",
+      "t": "వాయిద్య అనుభవం ఉన్న విద్యార్థులు ఆడిషన్ ద్వారా చేరతారు, వారు తమ వాయిద్యంలో ప్రావీణ్యం కలిగి, ప్రాథమిక సంగీత సిద్ధాంతం తెలిసి, సంగీత స్వరలిపిని సాఫీగా చదవగలగాలని ఆశిస్తారు · స్వర నాణ్యత, శ్రుతి శుద్ధత మరియు ఉన్నత లేదా విస్తృత పద్ధతులపై ప్రాధాన్యం · విద్యార్థులు పాఠశాల తర్వాత జరిగే rehearsals మరియు ప్రదర్శనలకు హాజరు కావాలని ఆశిస్తారు · సభ్యులు శరదృతువులో marching bandలో ఉండాలని ఆశిస్తారు · wind వాయిద్యకారులు ఈ కోర్సులో నమోదు చేసుకోవాలి · ఇంట్లో సాధన తప్పనిసరి · ప్రదర్శన కార్యక్రమాలు తప్పనిసరి.",
+      "of": "45a3083b",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[33].description"
       ]
@@ -11653,8 +11647,8 @@
       ]
     },
     {
-      "t": "ఒక సంవత్సరం Concert Band పూర్తి చేసి, band లో తమ భాగస్వామ్యానికి honors credit పొందాలనుకునే juniors మరియు seniors కోసం ఈ తరగతి.",
-      "of": "ef41ca4c",
+      "t": "ఒక సంవత్సరం Concert Band పూర్తి చేసి, bandలో తమ భాగస్వామ్యానికి honors credit పొందాలనుకునే మూడో, చివరి సంవత్సరం విద్యార్థుల కోసం.",
+      "of": "e0d46e5f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[34].description"
       ]
@@ -11681,15 +11675,15 @@
       ]
     },
     {
-      "t": "bandలో తమ భాగస్వామ్యానికి honors credit పొందాలనుకునే percussion బృంద సభ్యుల కోసం ఈ తరగతి.",
-      "of": "eeccefc2",
+      "t": "bandలో తమ భాగస్వామ్యానికి honors credit పొందాలనుకునే percussion బృంద సభ్యుల కోసం.",
+      "of": "a0c617e9",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[36].description"
       ]
     },
     {
-      "t": "acoustic guitar వాయించడంలో మౌలిక అంశాలపై అవగాహన కల్పించేందుకు ఈ కోర్సు ప్రదర్శన ఆధారిత తరగతిగా రూపొందించబడింది.",
-      "of": "9c317d08",
+      "t": "acoustic guitar వాయించడంలో మౌలిక అంశాలపై ప్రదర్శన ఆధారిత తరగతి.",
+      "of": "a0fb9c2e",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[37].description"
       ]
@@ -11702,8 +11696,8 @@
       ]
     },
     {
-      "t": "మధ్య నుంచి ఉన్నత స్థాయి guitar విద్యార్థి కోసం, Guitar I కొనసాగింపు, sight reading, స్వరమాలికలు, chord రచనలు, modes మరియు finger picking ద్వారా మౌలిక అంశాలను మెరుగుపరచడంపై మరింత ప్రాధాన్యంతో.",
-      "of": "cb3af940",
+      "t": "మధ్య నుంచి ఉన్నత స్థాయి guitar విద్యార్థి కోసం · sight reading, స్వరమాలికలు, chord రచనలు, modes మరియు finger picking ద్వారా మౌలిక అంశాలను మెరుగుపరచడంపై మరింత ప్రాధాన్యంతో Guitar Iను కొనసాగిస్తుంది · విద్యార్థులు బృందాలుగా మరియు ఒంటరిగా కూడా ప్రదర్శిస్తారు.",
+      "of": "7451e9b3",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[38].description"
       ]
@@ -11732,11 +11726,10 @@
       ]
     },
     {
-      "t": "French Iలో నేర్చుకున్న పునాదిని కొనసాగించి, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై మరింత అవగాహనను పెంపొందించేలా ఈ కోర్సు రూపొందించబడింది.",
-      "of": "d9bf2f32",
+      "t": "French Iలో నేర్చిన పునాదిపై నిర్మిస్తూ, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై అవగాహనను మరింత లోతుగా చేస్తుంది.",
+      "of": "787b5a7e",
       "at": [
-        "charlotte-catholic:divisions[0].departments[10].courses[1].description",
-        "charlotte-catholic:divisions[0].departments[10].courses[2].description"
+        "charlotte-catholic:divisions[0].departments[10].courses[1].description"
       ]
     },
     {
@@ -11747,6 +11740,13 @@
       ]
     },
     {
+      "t": "French Iలో నేర్చిన పునాదిపై నిర్మిస్తూ, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై అవగాహనను మరింత లోతుగా చేస్తుంది · Advanced స్థాయిలో తరగతిలో ఉపయోగించే భాష మరింత సంక్లిష్టంగా ఉంటుంది, వేగం ఎక్కువగా ఉంటుంది, అంచనాలు మరింత శ్రమతో కూడినవిగా ఉంటాయి.",
+      "of": "5e7aa552",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[2].description"
+      ]
+    },
+    {
       "t": "Advanced French III",
       "of": "5c23973c",
       "at": [
@@ -11754,8 +11754,8 @@
       ]
     },
     {
-      "t": "చదవడం, రాయడం, వినడం మరియు మాట్లాడటంలో భాషను మరింత అభివృద్ధి చేసి అన్వయిస్తూ ఫ్రెంచ్ భాషపై అవగాహనను పెంపొందించే ఉన్నత స్థాయి కోర్సు.",
-      "of": "782c6013",
+      "t": "చదవడం, రాయడం, వినడం మరియు మాట్లాడటంలో భాషను మరింత అభివృద్ధి చేసి అన్వయిస్తూ ఫ్రెంచ్ భాషపై అవగాహనను పెంపొందించే ఉన్నత స్థాయి కోర్సు · వ్యాకరణం మరియు మాట్లాడటంపై బలమైన ప్రాధాన్యం.",
+      "of": "c92c1237",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[3].description"
       ]
@@ -11826,8 +11826,8 @@
       ]
     },
     {
-      "t": "German Iలో నేర్చుకున్న పునాదిని కొనసాగించి, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై మరింత అవగాహనను పెంపొందించేలా ఈ కోర్సు రూపొందించబడింది.",
-      "of": "a1cbc734",
+      "t": "German Iలో నేర్చిన పునాదిపై నిర్మిస్తూ, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై అవగాహనను మరింత లోతుగా చేస్తుంది.",
+      "of": "569add6c",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[8].description"
       ]
@@ -11924,8 +11924,8 @@
       ]
     },
     {
-      "t": "లాటిన్ మౌలిక అంశాలపై ప్రదర్శించిన ప్రావీణ్యం మౌలిక సాహిత్య గ్రంథాలకు సంసిద్ధతను సూచించే విద్యార్థుల కోసం ఈ కోర్సు రూపొందించబడింది.",
-      "of": "087ba19a",
+      "t": "లాటిన్ మౌలిక అంశాలపై పట్టు చూపి, అసలైన సాహిత్య గ్రంథాలకు సిద్ధంగా ఉన్న విద్యార్థుల కోసం.",
+      "of": "916c2ed1",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[16].description"
       ]
@@ -11938,8 +11938,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు ఇతిహాస మరియు గీత కవిత్వంలోని వాక్చాతుర్య, ఛందస్సు మరియు సాంస్కృతిక సంప్రదాయాలకు ప్రాధాన్యమిస్తుంది.",
-      "of": "807d2322",
+      "t": "ఇతిహాస మరియు గీత కవిత్వంలోని వాక్చాతుర్య, ఛందస్సు మరియు సాంస్కృతిక సంప్రదాయాలపై దృష్టి పెడుతుంది.",
+      "of": "4ec7889d",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[17].description"
       ]
@@ -11981,11 +11981,10 @@
       ]
     },
     {
-      "t": "Spanish 1లో నేర్చుకున్న పునాదిని కొనసాగించి, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై మరింత అవగాహనను పెంపొందించేలా ఈ కోర్సు రూపొందించబడింది.",
-      "of": "5ff21440",
+      "t": "Spanish 1లో నేర్చిన పునాదిపై నిర్మిస్తూ, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై అవగాహనను మరింత లోతుగా చేస్తుంది.",
+      "of": "c793c230",
       "at": [
-        "charlotte-catholic:divisions[0].departments[10].courses[20].description",
-        "charlotte-catholic:divisions[0].departments[10].courses[21].description"
+        "charlotte-catholic:divisions[0].departments[10].courses[20].description"
       ]
     },
     {
@@ -11996,6 +11995,13 @@
       ]
     },
     {
+      "t": "Spanish 1లో నేర్చిన పునాదిపై నిర్మిస్తూ, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై అవగాహనను మరింత లోతుగా చేస్తుంది · Advanced స్థాయిలో తరగతిలో ఉపయోగించే భాష మరింత సంక్లిష్టంగా ఉంటుంది, వేగం ఎక్కువగా ఉంటుంది, అంచనాలు మరింత శ్రమతో కూడినవిగా ఉంటాయి.",
+      "of": "ef4e166c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[21].description"
+      ]
+    },
+    {
       "t": "Advanced Spanish III",
       "of": "003720ba",
       "at": [
@@ -12003,8 +12009,8 @@
       ]
     },
     {
-      "t": "చదవడం, రాయడం, వినడం మరియు మాట్లాడటంలో భాషను మరింత అభివృద్ధి చేసి అన్వయిస్తూ స్పానిష్ భాషపై అవగాహనను పెంపొందించే ఉన్నత స్థాయి కోర్సు.",
-      "of": "e2650971",
+      "t": "చదవడం, రాయడం, వినడం మరియు మాట్లాడటంలో భాషను మరింత అభివృద్ధి చేసి అన్వయిస్తూ స్పానిష్ భాషపై అవగాహనను పెంపొందించే ఉన్నత స్థాయి కోర్సు · వ్యాకరణం మరియు మాట్లాడటంపై బలమైన ప్రాధాన్యం.",
+      "of": "0133447d",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[22].description"
       ]
@@ -12017,8 +12023,8 @@
       ]
     },
     {
-      "t": "ఇంట్లో లేదా తమ సముదాయాల్లో ఇప్పటికే స్పానిష్ మాట్లాడే విద్యార్థుల కోసం రూపొందించిన ఉన్నత స్థాయి కోర్సు ఇది.",
-      "of": "a440afa1",
+      "t": "ఇంట్లో లేదా తమ సముదాయాల్లో ఇప్పటికే స్పానిష్ మాట్లాడే విద్యార్థుల కోసం ఉన్నత స్థాయి కోర్సు.",
+      "of": "1f0d0c19",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[23].description"
       ]
@@ -12091,8 +12097,8 @@
       ]
     },
     {
-      "t": "బహిరంగ వేదికపై ప్రసంగాల తయారీ, ప్రదర్శన మరియు సమూహ చర్చలో ఈ కోర్సు బోధన మరియు అనుభవాన్ని అందిస్తుంది.",
-      "of": "dfae0ace",
+      "t": "బహిరంగ వేదికపై మరియు సమూహ చర్చలో ప్రసంగాలను ఎలా సిద్ధం చేసి అందించాలో సాధనతో సహా బోధిస్తుంది.",
+      "of": "f70f9a57",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[0].description"
       ]
@@ -12105,8 +12111,8 @@
       ]
     },
     {
-      "t": "మానవ సమాజం, సంస్కృతి మరియు సామాజిక పరస్పర చర్యల శాస్త్రీయ అధ్యయనాన్ని ఈ కోర్సు పరిచయం చేస్తుంది.",
-      "of": "ef3b3870",
+      "t": "మానవ సమాజం, సంస్కృతి మరియు సామాజిక పరస్పర చర్యల శాస్త్రీయ అధ్యయనానికి పరిచయం.",
+      "of": "4d61a339",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[1].description"
       ]
@@ -12119,8 +12125,8 @@
       ]
     },
     {
-      "t": "ఈ కోర్సు కళ యొక్క మూలాలను మరియు చారిత్రక వికాసాన్ని పరిచయం చేస్తుంది.",
-      "of": "f51aadb4",
+      "t": "కళ యొక్క మూలాలు మరియు చారిత్రక వికాసానికి పరిచయం.",
+      "of": "9ad5e015",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[2].description"
       ]
@@ -12133,8 +12139,8 @@
       ]
     },
     {
-      "t": "Charlotte Country Day పేరున్న కోర్సులు కాక, ఒక్కో తరగతికి వర్ణనాత్మకంగా వివరించిన పది Lower School సబ్జెక్టు రంగాలను ప్రచురిస్తుంది. Lower School కోర్సుల జాబితా ఏదీ లేదు.",
-      "of": "829d91ce",
+      "t": "Charlotte Country Day పేరున్న కోర్సులు కాక, ఒక్కో తరగతికి వర్ణనాత్మకంగా వివరించిన పది Lower School సబ్జెక్టు రంగాలను ప్రచురిస్తుంది. ఇది Lower School కోర్సుల జాబితాను ప్రచురించదు.",
+      "of": "25238106",
       "at": [
         "charlotte-country-day:divisions[0].notPublished"
       ]
@@ -12215,8 +12221,8 @@
       ]
     },
     {
-      "t": "విద్యార్థులందరికీ French మరియు Spanish రెండూ పరిచయం చేయబడతాయి, ఒక్కో భాష ధ్వని నుంచి 4వ తరగతి నాటికి నాలుగు భాషా నైపుణ్యాలు మరియు ప్రాథమిక రచన వరకు సాగుతుంది.",
-      "of": "5c130948",
+      "t": "JK నుంచి 1వ తరగతి వరకు విద్యార్థులకు French మరియు Spanish రెండూ పరిచయం చేయబడతాయి, ఆ తర్వాత 2వ తరగతిలో ఒకదాన్ని ఎంచుకుంటారు, 4వ తరగతి నాటికి నాలుగు భాషా నైపుణ్యాలు మరియు ప్రాథమిక రచనను పెంపొందించుకుంటారు.",
+      "of": "5d18a511",
       "at": [
         "charlotte-country-day:divisions[0].departments[1].courses[0].description"
       ]
@@ -12293,15 +12299,15 @@
       ]
     },
     {
-      "t": "6 రంగాలలో తరగతుల వారీ సబ్జెక్టులతో పాటు తొమ్మిది పేరున్న గణిత మార్గాలు — 8వ తరగతిలోనే ఉన్నత పాఠశాల క్రెడిట్ కోసం Geometry.",
-      "of": "b130706f",
+      "t": "6 రంగాలలో తరగతుల వారీ సబ్జెక్టులతో పాటు తొమ్మిది పేరున్న గణిత మార్గాలు — 8వ తరగతిలోనే Geometry.",
+      "of": "85b6204c",
       "at": [
         "charlotte-country-day:divisions[1].teaser"
       ]
     },
     {
-      "t": "Country Day గణితానికి మాత్రమే పేరున్న Middle School కోర్సులను ప్రచురిస్తుంది; ఇతర శాఖలు తరగతుల వారీ సబ్జెక్టులుగా ప్రచురించబడతాయి. Middle School కోర్సుల జాబితా ఏదీ లేదు.",
-      "of": "ebab57a8",
+      "t": "Country Day గణితానికి మాత్రమే పేరున్న Middle School కోర్సులను ప్రచురిస్తుంది; ఇతర శాఖలు తరగతుల వారీ సబ్జెక్టులుగా ప్రచురించబడతాయి. ఇది Middle School కోర్సుల జాబితాను ప్రచురించదు.",
+      "of": "37377640",
       "at": [
         "charlotte-country-day:divisions[1].notPublished"
       ]
@@ -12392,8 +12398,8 @@
       ]
     },
     {
-      "t": "అదనపు సన్నద్ధత అవసరమైన విద్యార్థుల కోసం పునాది వ్యక్తీకరణలు, సమీకరణాలు మరియు రేఖీయ ప్రమేయాలు.",
-      "of": "54b4f2d1",
+      "t": "వ్యక్తీకరణలు మరియు సమీకరణాల పునాదులు, వాస్తవ సంఖ్యల ధర్మాలు, రేఖీయ సమీకరణాలు మరియు అసమానతలు, వ్యవస్థలు, ఘాతాంకాలు మరియు బహుపదులు; ఆ తర్వాత విద్యార్థులు 9వ తరగతిలో Algebra 1కు వెళ్తారు.",
+      "of": "65ec0efd",
       "at": [
         "charlotte-country-day:divisions[1].departments[0].courses[6].description"
       ]
@@ -12408,17 +12414,10 @@
       ]
     },
     {
-      "t": "రేఖీయ ప్రమేయాలు మరియు వ్యవస్థలు, ఘాతాంకాలు, బహుపదులు, వర్గ సమీకరణాలు మరియు కరణులను కలిగిన పూర్తి ఉన్నత పాఠశాల Algebra I.",
-      "of": "4c35c1ea",
+      "t": "బీజగణిత పునాదులు, రేఖీయ ప్రమేయాలు మరియు వ్యవస్థలు, ఘాతాంకాలు, బహుపదులు, వర్గ సమీకరణాలు, కరణులు మరియు జ్యామితి పరిచయాన్ని కలిగిన Algebra I.",
+      "of": "546b2984",
       "at": [
         "charlotte-country-day:divisions[1].departments[0].courses[7].description"
-      ]
-    },
-    {
-      "t": "హైస్కూల్ క్రెడిట్",
-      "of": "d99674c1",
-      "at": [
-        "charlotte-country-day:divisions[1].departments[0].courses[8].tag"
       ]
     },
     {
@@ -12892,8 +12891,8 @@
       ]
     },
     {
-      "t": "వేగవంతమైన జ్యామితి; Algebra Iలో 90 మరియు ఉపాధ్యాయుడి సిఫారసు అవసరం.",
-      "of": "b74d8e2d",
+      "t": "మరింత సిద్ధాంతంతో, మరింత లోతుగా జ్యామితి; Algebra Iలో 90 మరియు ఉపాధ్యాయుడి సిఫారసు అవసరం.",
+      "of": "53e21465",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[2].description"
       ]
@@ -12906,8 +12905,8 @@
       ]
     },
     {
-      "t": "వేగవంతమైన Algebra II; Geometryలో 90 లేదా Honors Geometryలో 83 అవసరం.",
-      "of": "c934a32f",
+      "t": "మరింత సిద్ధాంతంతో, అదనంగా త్రికోణమితి మరియు అకరణీయ ప్రమేయాలతో మరింత లోతైన Algebra II; Geometryలో 90 లేదా Honors Geometryలో 83, అదనంగా ఉపాధ్యాయుడి సిఫారసు అవసరం.",
+      "of": "5e9109ad",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[4].description"
       ]
@@ -12927,8 +12926,8 @@
       ]
     },
     {
-      "t": "తొమ్మిదో తరగతిలో Honors Geometry పూర్తి చేసిన రెండో సంవత్సరం విద్యార్థులకు మాత్రమే అందుబాటులో ఉండే కుదించిన రెండు సబ్జెక్టుల కోర్సు.",
-      "of": "75ab770e",
+      "t": "తొమ్మిదో తరగతిలో Honors Geometry పూర్తి చేసి, విభాగం సిఫారసు పొందిన రెండో సంవత్సరం విద్యార్థులకు మాత్రమే అందుబాటులో ఉండే కుదించిన రెండు సబ్జెక్టుల కోర్సు.",
+      "of": "ad197a7a",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[5].description"
       ]
@@ -12941,8 +12940,8 @@
       ]
     },
     {
-      "t": "బీజగణితాన్ని త్రికోణమితిలోకి విస్తరించే వారధి కోర్సు.",
-      "of": "92a4584b",
+      "t": "Pre-calculusకు ప్రత్యామ్నాయం, ఇది త్రికోణమితి సహా Algebra II అంశాలను నెమ్మదిగా పునశ్చరణ చేసి విస్తరిస్తుంది; దీనిని తీసుకున్న విద్యార్థులు Pre-calculus లేదా AP Calculusకు వెళ్లలేరు.",
+      "of": "7819cc79",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[6].description"
       ]
@@ -12983,8 +12982,8 @@
       ]
     },
     {
-      "t": "వేగవంతమైన precalculus; Algebra IIలో 90 లేదా Honors Algebra IIలో 83 అవసరం.",
-      "of": "72cd7a7a",
+      "t": "విద్యార్థులను AP Calculus కోసం సిద్ధం చేసే లోతైన precalculus కోర్సు; Algebra IIలో 90 లేదా Honors Algebra IIలో 83, అదనంగా ఉపాధ్యాయుడి సిఫారసు అవసరం.",
+      "of": "ca8f5006",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[9].description"
       ]
@@ -13004,8 +13003,8 @@
       ]
     },
     {
-      "t": "కళాశాల స్థాయి గణాంకాలు; అర్హత గల విద్యార్థులు AP Calculus AB లేదా AP Statisticsలో ఒకదాన్ని ఎంచుకోవాలి, రెండింటినీ కాదు.",
-      "of": "a30a9fae",
+      "t": "కళాశాల స్థాయి గణాంకాలు; అర్హత గల Precalculus విద్యార్థులు AP Calculus AB లేదా AP Statisticsలో ఒకదాన్ని ఎంచుకోవాలి, రెండింటినీ కాదు.",
+      "of": "362dd493",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[11].description"
       ]
@@ -13072,8 +13071,8 @@
       ]
     },
     {
-      "t": "ప్రామాణిక స్థాయిలో IB Mathematics: Analysis and Approaches; Honors Precalculusలో 83 అవసరం.",
-      "of": "8bac72c2",
+      "t": "ప్రామాణిక స్థాయిలో IB Mathematics: Analysis and Approaches; Honors Precalculus లేదా Honors Algebra II/Precalculusలో 83 అవసరం.",
+      "of": "f2f410e4",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[16].description"
       ]
@@ -13121,8 +13120,8 @@
       ]
     },
     {
-      "t": "కళాశాల స్థాయి జీవశాస్త్రం; ముందస్తు అర్హతలు Biology I మరియు Chemistry I.",
-      "of": "7964e9d2",
+      "t": "కళాశాల స్థాయి జీవశాస్త్రం; ముందస్తు అర్హతలు Biology I మరియు Chemistry I లేదా Honors Chemistry I, అదనంగా ప్రస్తుత పూర్తి సంవత్సర సైన్స్ కోర్సులో 90 (Honorsలో 85, APలో 83).",
+      "of": "ef4dcbaa",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[2].description"
       ]
@@ -13233,15 +13232,15 @@
       ]
     },
     {
-      "t": "వేగవంతమైన రసాయన శాస్త్రం; Biologyలో 87 మరియు ఒక గణిత కోర్సులో 87 అవసరం.",
-      "of": "2c12a7fb",
+      "t": "వేగవంతమైన రసాయన శాస్త్రం; Biologyలో 87 మరియు ఒక గణిత కోర్సులో 87 (Honorsలో 83), అదనంగా ముందుగా లేదా ఏకకాలంలో Algebra II అవసరం.",
+      "of": "0edaff1c",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[11].description"
       ]
     },
     {
-      "t": "కళాశాల స్థాయి రసాయన శాస్త్రం; ముందుగా లేదా ఏకకాలంలో Precalculus అవసరం.",
-      "of": "de4b217c",
+      "t": "కళాశాల స్థాయి రసాయన శాస్త్రం; Chemistry Iలో 90 లేదా Honors Chemistryలో 85, అదనంగా ముందుగా లేదా ఏకకాలంలో Precalculus అవసరం.",
+      "of": "e965809b",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[12].description"
       ]
@@ -13289,8 +13288,8 @@
       ]
     },
     {
-      "t": "వేగవంతమైన భౌతిక శాస్త్రం; ముందుగా లేదా ఏకకాలంలో Precalculus అవసరం.",
-      "of": "5f2b87c2",
+      "t": "Physics I యొక్క మరింత విశ్లేషణాత్మక రూపం; ప్రస్తుత పూర్తి సంవత్సర సైన్స్ కోర్సులో 87 మరియు గణితంలో 87 (ఒక్కోదానికి Honorsలో 83), అదనంగా ముందుగా లేదా ఏకకాలంలో Precalculus అవసరం.",
+      "of": "63ff169a",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[16].description"
       ]
@@ -13303,8 +13302,8 @@
       ]
     },
     {
-      "t": "యాంత్రిక శాస్త్రం మరియు విద్యుత్, అయస్కాంతత్వంలో calculus ఆధారిత కళాశాల భౌతిక శాస్త్రం; ముందుగా లేదా ఏకకాలంలో AP లేదా IB Calculus అవసరం.",
-      "of": "01eaff08",
+      "t": "యాంత్రిక శాస్త్రం మరియు విద్యుత్, అయస్కాంతత్వంలో calculus ఆధారిత కళాశాల భౌతిక శాస్త్రం; Physics Iలో 90 లేదా Honors Physicsలో 85, అదనంగా ముందుగా లేదా ఏకకాలంలో AP లేదా IB Calculus అవసరం.",
+      "of": "8152288f",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[17].description"
       ]
@@ -13359,8 +13358,8 @@
       ]
     },
     {
-      "t": "పూర్తి సంశ్లేషణ ప్రయోగశాల భాగంతో ఒక సెమిస్టర్ అండర్‌గ్రాడ్యుయేట్ organic chemistryను పునఃసృష్టిస్తుంది; AP లేదా IB Chemistry అవసరం.",
-      "of": "1e9b6642",
+      "t": "పూర్తి సంశ్లేషణ ప్రయోగశాల భాగంతో ఒక సెమిస్టర్ అండర్‌గ్రాడ్యుయేట్ organic chemistryను పునఃసృష్టిస్తుంది; AP లేదా IB Chemistryలో 83 అవసరం.",
+      "of": "e35ca3b6",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[21].description"
       ]
@@ -13444,8 +13443,8 @@
       ]
     },
     {
-      "t": "వేగవంతమైన Modern World History; 9th Grade Historyలో 87 అవసరం.",
-      "of": "520601aa",
+      "t": "మరిన్ని ప్రాథమిక ఆధారాలు, మరింత పఠనం మరియు మరింత తరచుగా, మరింత లోతైన రచనతో Modern World History; 9th Grade Historyలో 87 అవసరం.",
+      "of": "1be2b996",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[2].description"
       ]
@@ -13472,8 +13471,8 @@
       ]
     },
     {
-      "t": "ఉత్తీర్ణతా నిబంధనను తీర్చే కళాశాల స్థాయి US History; Modern World Historyలో 87 అవసరం.",
-      "of": "7d3122a0",
+      "t": "ఉత్తీర్ణతా నిబంధనను తీర్చే కళాశాల స్థాయి US History; Modern World Historyలో 87 లేదా Honors Modern World Historyలో 80 అవసరం.",
+      "of": "52933b46",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[5].description"
       ]
@@ -13550,8 +13549,8 @@
       ]
     },
     {
-      "t": "ప్రాథమిక ఆధారాలు మరియు పురావస్తు ఆవిష్కరణలను ఉపయోగించి సుమారు 3000 BCE నుంచి 1000 CE వరకు ప్రాచీన నాగరికతల మూలాలు, పరిణామం మరియు రకాలు.",
-      "of": "ab788014",
+      "t": "ప్రాథమిక ఆధారాలు మరియు పురావస్తు ఆవిష్కరణలను ఉపయోగించి సుమారు 3000 BCE నుంచి సుమారు 1000 CE వరకు ప్రాచీన నాగరికతల మూలాలు, పరిణామం మరియు రకాలు.",
+      "of": "f6f422a0",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[12].description"
       ]
@@ -13617,8 +13616,8 @@
       ]
     },
     {
-      "t": "IB మరియు IB కాని విద్యార్థులకు అందుబాటులో; ముందుగా లేదా ఏకకాలంలో Precalculus అవసరం.",
-      "of": "38c748e4",
+      "t": "11, 12 తరగతులలోని IB మరియు IB కాని విద్యార్థులకు అందుబాటులో; ప్రస్తుత చరిత్ర కోర్సులో 87 (honorsలో 80) మరియు ముందుగా లేదా ఏకకాలంలో Precalculus అవసరం.",
+      "of": "1f86656f",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[16].description"
       ]
@@ -13631,8 +13630,8 @@
       ]
     },
     {
-      "t": "ఐదు స్థాయిల Honors మాత్రమే Mandarin క్రమం; ప్రవేశానికి ప్రస్తుత French, Spanish లేదా Latin తరగతిలో 87 అవసరం.",
-      "of": "41d90b58",
+      "t": "ఐదు స్థాయిల Honors Mandarin క్రమం; ప్రవేశానికి ప్రస్తుత French, Spanish లేదా Latin తరగతిలో 87, లేదా ప్రస్తుత Honors తరగతిలో 80 అవసరం.",
+      "of": "f07c6966",
       "at": [
         "charlotte-country-day:divisions[2].departments[4].courses[0].description"
       ]
@@ -13813,8 +13812,8 @@
       ]
     },
     {
-      "t": "ఆడిషన్ ద్వారా ప్రవేశం ఉండే ఎంపిక గాన బృందం, 10–12 తరగతులకు అందుబాటులో.",
-      "of": "f35be1fc",
+      "t": "10–12 తరగతుల కోసం ఎంపిక గాన బృందం, ఒక సంవత్సరం Concert Choir లేదా దానికి సమానమైనది పూర్తి చేసిన తర్వాత ఆడిషన్ ద్వారా ప్రవేశం.",
+      "of": "cad51b87",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[2].description"
       ]
@@ -13843,15 +13842,15 @@
       ]
     },
     {
-      "t": "ఆడిషన్ ద్వారా ప్రవేశం ఉండే honors wind band.",
-      "of": "f2dd1205",
+      "t": "ఇప్పటికే Middle లేదా Upper School Symphonic Bandలో ఉన్న విద్యార్థుల కోసం ఆడిషన్ ద్వారా ప్రవేశం ఉండే honors wind band.",
+      "of": "1acabd3e",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[4].description"
       ]
     },
     {
-      "t": "తీగ వాయిద్యాలు మరియు పూర్తి orchestra బృందం.",
-      "of": "bdb96a05",
+      "t": "violin, viola, cello, double bass మరియు pianoతో కూడిన తీగ వాయిద్యాల orchestra బృందం.",
+      "of": "db2710d9",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[5].description"
       ]
@@ -13892,8 +13891,8 @@
       ]
     },
     {
-      "t": "రాగం, స్వర సమన్వయం, ఆకృతి, లయ, రూపం, చరిత్ర మరియు శైలిని గుర్తించి వర్ణించే సామర్థ్యాన్ని పెంపొందిస్తుంది; ప్రవేశ ప్రావీణ్య పరీక్ష అవసరం.",
-      "of": "56f65304",
+      "t": "రాగం, స్వర సమన్వయం, ఆకృతి, లయ, రూపం, చరిత్ర మరియు శైలిని గుర్తించి వర్ణించే సామర్థ్యాన్ని పెంపొందిస్తుంది; ప్రస్తుత సంగీత తరగతిలో 87 మరియు ప్రవేశ ప్రావీణ్య పరీక్ష అవసరం.",
+      "of": "8fc985dc",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[9].description"
       ]
@@ -14173,8 +14172,8 @@
       ]
     },
     {
-      "t": "Javaలో సమాచార నిర్మాణాలు, ఆపై విద్యా మండలి ముందు ప్రదర్శించే విద్యార్థుల సొంత ప్రాజెక్టులు; AP Computer Science అవసరం.",
-      "of": "ee90340b",
+      "t": "Javaలో సమాచార నిర్మాణాలు, ఆపై విద్యా మండలి ముందు ప్రదర్శించే విద్యార్థుల సొంత ప్రాజెక్టులు; AP Computer Science మరియు నమోదు సమయంలో ఆమోదించిన ప్రాజెక్టు ప్రతిపాదన అవసరం.",
+      "of": "61b7c02b",
       "at": [
         "charlotte-country-day:divisions[2].departments[6].courses[2].description"
       ]
@@ -14293,15 +14292,15 @@
       ]
     },
     {
-      "t": "13 పేరున్న పాఠ్యప్రణాళిక రంగాలు — Reveal Math, TAB కళ, Orff పద్ధతి, Scratch 3.0 coding, మరియు CHAMP దృఢత్వ పరీక్ష.",
-      "of": "204cb66e",
+      "t": "12 పేరున్న పాఠ్యప్రణాళిక రంగాలు — Reveal Math, TAB కళ, Orff పద్ధతి, Scratch 3.0 coding, మరియు CHAMP దృఢత్వ పరీక్ష.",
+      "of": "ef870e7d",
       "at": [
         "cannon:divisions[0].teaser"
       ]
     },
     {
-      "t": "Cannon JrK–4కు కోర్సుల జాబితా కాక ఒక్కో తరగతికి 12 పేరున్న పాఠ్యప్రణాళిక రంగాలను ప్రచురిస్తుంది. /academics/lower-school/curriculum మార్గం 404 చూపుతుంది.",
-      "of": "1f2c2269",
+      "t": "Cannon JrK–4కు కోర్సుల జాబితా కాక ఒక్కో తరగతికి గరిష్ఠంగా 12 పేరున్న పాఠ్యప్రణాళిక రంగాలను ప్రచురిస్తుంది.",
+      "of": "c88967f9",
       "at": [
         "cannon:divisions[0].notPublished"
       ]
@@ -14390,8 +14389,8 @@
       ]
     },
     {
-      "t": "3వ తరగతి నుంచి TAB (Teaching for Artistic Behavior) నమూనాను ఉపయోగిస్తుంది, తద్వారా విద్యార్థులు కళాకారులుగా పనిచేసి ఆలోచిస్తారు.",
-      "of": "94cf7f71",
+      "t": "2వ తరగతి నుంచి TAB (Teaching for Artistic Behavior) నమూనాను అనుసరిస్తుంది, 3వ తరగతి నాటికి విద్యార్థులు కళాకారులుగా పనిచేసి ఆలోచిస్తారు.",
+      "of": "0c92a574",
       "at": [
         "cannon:divisions[0].departments[2].courses[0].description"
       ]
@@ -14453,22 +14452,22 @@
       ]
     },
     {
-      "t": "వయసు మరియు వికాస దశల వారీగా పిల్లల సాధారణ సవాళ్లు మరియు లక్షణాలను చర్చిస్తుంది.",
-      "of": "910db73d",
+      "t": "వయసు మరియు వికాస దశల వారీగా పిల్లల సాధారణ సవాళ్లు మరియు లక్షణాల కోసం పాఠశాల తరగతి పేజీలు కుటుంబాలను School Counseling వెబ్‌పేజీకి సూచిస్తాయి.",
+      "of": "1e3e8c84",
       "at": [
         "cannon:divisions[0].departments[3].courses[3].description"
       ]
     },
     {
-      "t": "ఆరు ప్రధాన సబ్జెక్టులు మరియు నాలుగు గణిత మార్గాలు — 5వ తరగతిలో మూడు ప్రపంచ భాషల వంతుల క్రమం, మరియు ThinkTank makerspace.",
-      "of": "48460261",
+      "t": "ఒక్కో తరగతికి ఏడు సబ్జెక్టు రంగాలు, 5వ తరగతిలో మూడు ప్రపంచ భాషల వంతుల క్రమం, మరియు ThinkTank makerspace. ఎంపికైన బృందం 6వ తరగతిలో Pre-Algebra, 7వ తరగతిలో Algebra I, 8వ తరగతిలో Geometry తీసుకుంటుంది.",
+      "of": "224aa8e9",
       "at": [
         "cannon:divisions[1].teaser"
       ]
     },
     {
-      "t": "Cannon Middle School పాఠ్యప్రణాళికను పేరున్న కోర్సుల జాబితాగా కాక ఒక్కో తరగతికి సబ్జెక్టు వివరణలుగా ప్రచురిస్తుంది. 44 పేజీల Upper School జాబితాకు Middle Schoolలో సమానమైనది లేదు.",
-      "of": "75748668",
+      "t": "Cannon Middle School పాఠ్యప్రణాళికను పేరున్న కోర్సుల జాబితాగా కాక ఒక్కో తరగతికి సబ్జెక్టు వివరణలుగా ప్రచురిస్తుంది. 44 పేజీల Upper School జాబితాకు సమానమైన Middle School జాబితాను ఇది ప్రచురించదు.",
+      "of": "f2f08aa0",
       "at": [
         "cannon:divisions[1].notPublished"
       ]
@@ -14549,8 +14548,8 @@
       ]
     },
     {
-      "t": "ఏడో తరగతి విద్యార్థులు Algebra I తీసుకునేందుకు వీలు కల్పించే వేగవంతమైన ఎంపిక.",
-      "of": "4f2371ef",
+      "t": "ఎంపికైన ఏడో తరగతి విద్యార్థుల బృందం Algebra I తీసుకునేందుకు వీలు కల్పించే వేగవంతమైన కార్యక్రమం.",
+      "of": "f8de9288",
       "at": [
         "cannon:divisions[1].departments[1].courses[2].description"
       ]
@@ -14675,15 +14674,15 @@
       ]
     },
     {
-      "t": "ThinkTank makerspaceలో 3D printing, virtual reality, డ్రోన్‌లు, robotics, CAD డిజైన్ మరియు కంప్యూటర్ ప్రోగ్రామింగ్‌ను కలుపుతుంది.",
-      "of": "6e09c575",
+      "t": "ThinkTank makerspaceలో 3D printing, virtual reality, డ్రోన్‌లు, robotics, CAD డిజైన్ మరియు కంప్యూటర్ ప్రోగ్రామింగ్ సహా కార్యకలాపాలను కలుపుతుంది.",
+      "of": "8f15913d",
       "at": [
         "cannon:divisions[1].departments[3].courses[3].description"
       ]
     },
     {
-      "t": "8 విభాగాలలో 104 కోర్సులు — 14 AP మరియు 13 అధ్యాపక రూపకల్పన Advanced Topics కోర్సులు, ఒక్కొక్కటీ ఒక Signature Learning Experienceతో ముగుస్తుంది.",
-      "of": "23eb7684",
+      "t": "8 విభాగాలలో 104 కోర్సులు — 14 AP మరియు 13 అధ్యాపక రూపకల్పన Advanced Topics కోర్సులు, ఒక్కొక్కటీ ఒక Signature Learning Experience లేదా తుది సంచిత పరీక్షతో ముగుస్తుంది.",
+      "of": "a56b67f0",
       "at": [
         "cannon:divisions[2].teaser"
       ]
@@ -14696,8 +14695,8 @@
       ]
     },
     {
-      "t": "జ్ఞాపకాలు, నాటకాలు, నవలలు, కవిత్వం మరియు చిన్న కథల అంతటా విమర్శనాత్మక ఆలోచన, విశ్లేషణా నైపుణ్యాలు మరియు సృజనాత్మక వ్యక్తీకరణను పెంపొందించే పునాది కోర్సు.",
-      "of": "12947dfc",
+      "t": "జ్ఞాపకాలు, నాటకాలు, నవలలు, కవిత్వం మరియు చిన్న కథలు సహా వివిధ ప్రక్రియలలో విమర్శనాత్మక ఆలోచన, విశ్లేషణా నైపుణ్యాలు మరియు సృజనాత్మక వ్యక్తీకరణను పెంపొందించే పునాది కోర్సు.",
+      "of": "d196f2af",
       "at": [
         "cannon:divisions[2].departments[0].courses[0].description"
       ]
@@ -14932,8 +14931,8 @@
       ]
     },
     {
-      "t": "కళాశాల స్థాయి గణితానికి విద్యార్థులను సన్నద్ధం చేస్తుంది మరియు AP Calculusకు ముందస్తు అర్హతగా పనిచేస్తుంది.",
-      "of": "8b1f27ba",
+      "t": "కళాశాల స్థాయి గణితానికి విద్యార్థులను సన్నద్ధం చేస్తుంది, ఇది AP Calculusకు ముందస్తు అర్హత.",
+      "of": "7a5977a8",
       "at": [
         "cannon:divisions[2].departments[1].courses[6].description"
       ]
@@ -14946,8 +14945,8 @@
       ]
     },
     {
-      "t": "వాస్తవ ప్రపంచ దృగ్విషయాలకు నమూనాగా నిలిచే ప్రమేయ రకాలపై పరిశోధన ఆధారిత అన్వేషణ, AP Calculus BC దిశగా వెళ్తున్న విద్యార్థులకు అత్యంత అనుకూలం.",
-      "of": "61505b39",
+      "t": "వాస్తవ ప్రపంచ దృగ్విషయాలకు నమూనాగా నిలిచే ప్రమేయ రకాలపై పరిశోధన ఆధారిత అన్వేషణ, AP Calculus BC దిశగా వెళ్తున్న లేదా కళాశాలలో పలు స్థాయిల calculus చదవాలని అనుకుంటున్న విద్యార్థులకు అత్యంత అనుకూలం.",
+      "of": "e6d44b91",
       "at": [
         "cannon:divisions[2].departments[1].courses[7].description"
       ]
@@ -15093,8 +15092,8 @@
       ]
     },
     {
-      "t": "Honors Chemistryను వేగవంతమైన గతిలో, అదనంగా అణు జ్యామితి, ఆవర్తనత మరియు ఆమ్ల-క్షార రసాయన శాస్త్రాన్ని కలిగి ఉంటుంది.",
-      "of": "4ecd131b",
+      "t": "Honors Chemistryను వేగవంతమైన గతిలో కవర్ చేస్తుంది, అదనంగా అణు జ్యామితి, ఆవర్తనత మరియు ఆమ్ల-క్షార రసాయన శాస్త్రం వంటి అదనపు అంశాలు.",
+      "of": "ee7fcc14",
       "at": [
         "cannon:divisions[2].departments[2].courses[5].description"
       ]
@@ -15721,8 +15720,8 @@
       ]
     },
     {
-      "t": "శిల్పాలు, installations మరియు ఉపయోగకర రూపకల్పనలను సృష్టించేందుకు మట్టి, తీగ, కలప, plaster మరియు దొరికిన వస్తువులతో ప్రయోగాత్మక అన్వేషణ.",
-      "of": "a8f00551",
+      "t": "శిల్పాలు, installations మరియు ఉపయోగకర రూపకల్పనలను సృష్టించేందుకు మట్టి, తీగ, కలప, plaster మరియు దొరికిన వస్తువుల వంటి పదార్థాలతో ప్రయోగాత్మక అన్వేషణ.",
+      "of": "12c6d0ea",
       "at": [
         "cannon:divisions[2].departments[5].courses[2].description"
       ]
@@ -15819,8 +15818,8 @@
       ]
     },
     {
-      "t": "Fall One-Acts మరియు Arts Jamతో సహా బహిరంగ నటన, దర్శకత్వం లేదా నిర్మాణ రూపకల్పనకు నిబద్ధత చూపే అనుభవజ్ఞులైన విద్యార్థుల కోసం.",
-      "of": "0dff9581",
+      "t": "Fall One-Acts మరియు Arts Jam సహా, బహిరంగ నటన, దర్శకత్వం లేదా నిర్మాణ రూపకల్పనకు నిబద్ధత చూపే అనుభవజ్ఞులైన విద్యార్థుల కోసం.",
+      "of": "58335509",
       "at": [
         "cannon:divisions[2].departments[5].courses[9].description"
       ]
@@ -15868,8 +15867,8 @@
       ]
     },
     {
-      "t": "Concert Band, Big Band మరియు చిన్న సంప్రదాయ Chamber Ensembles అంతటా middle school bandపై నిర్మిస్తుంది.",
-      "of": "93f629ff",
+      "t": "Concert Band, Big Band మరియు చిన్న సంప్రదాయ Chamber Ensembles అంతటా middle school bandపై నిర్మిస్తుంది; middle school bandలో రెండేళ్ల కంటే తక్కువ అనుభవం ఉన్న విద్యార్థులు నమోదుకు ముందు ఆడిషన్ ఇవ్వాలి.",
+      "of": "4598c226",
       "at": [
         "cannon:divisions[2].departments[5].courses[12].description"
       ]
@@ -15952,8 +15951,8 @@
       ]
     },
     {
-      "t": "కలప పని, కుట్టుపని, electronics మరియు CAD అంతటా Iterative Design Engineering ప్రక్రియపై ప్రాజెక్టు ఆధారిత అన్వేషణ.",
-      "of": "aaa38c9a",
+      "t": "కలప పని, కుట్టుపని, ప్రాథమిక electronics మరియు CAD వంటి రంగాల్లో సాధనాలను ఉపయోగిస్తూ Iterative Design Engineering ప్రక్రియపై ప్రాజెక్టు ఆధారిత అన్వేషణ.",
+      "of": "67efad98",
       "at": [
         "cannon:divisions[2].departments[5].courses[18].description"
       ]
@@ -16015,8 +16014,8 @@
       ]
     },
     {
-      "t": "సమాచార నిర్మాణాలు మరియు అల్గారిథమ్‌లతో సహా Javaలో వస్తు ఆధారిత రూపకల్పన ద్వారా computer science ప్రాథమికాంశాలు.",
-      "of": "4d4a492f",
+      "t": "సమాచార నిర్మాణాలు మరియు అల్గారిథమ్‌లతో సహా Javaలో వస్తు ఆధారిత రూపకల్పన ద్వారా computer science ప్రాథమికాంశాలు; మూడో, చివరి సంవత్సరం విద్యార్థులకు మాత్రమే అందుబాటులో.",
+      "of": "e524f723",
       "at": [
         "cannon:divisions[2].departments[6].courses[1].description"
       ]
@@ -16392,8 +16391,8 @@
       ]
     },
     {
-      "t": "ప్రీ-కాలిక్యులస్‌కు కొనసాగని విద్యార్థుల కోసం చివరి సంవత్సరపు ప్రత్యామ్నాయ గణిత కోర్సు.",
-      "of": "9bb80e16",
+      "t": "కళాశాల సన్నద్ధతా గణిత కోర్సు.",
+      "of": "4110ae16",
       "at": [
         "covenant-day:divisions[0].departments[1].courses[5].description"
       ]
@@ -17099,8 +17098,8 @@
       ]
     },
     {
-      "t": "yearbook సిబ్బందిలో నాయకత్వ పాత్రలు.",
-      "of": "4baf69b3",
+      "t": "honors స్థాయిలో పాఠశాల yearbook రూపొందించడం.",
+      "of": "344bcb90",
       "at": [
         "covenant-day:divisions[0].departments[6].courses[14].description"
       ]
@@ -17141,8 +17140,8 @@
       ]
     },
     {
-      "t": "community కోసం విద్యార్థులను literacy tutorsగా శిక్షణ ఇవ్వడం.",
-      "of": "a133cf4a",
+      "t": "Restoration & Sustainability విభాగంలో కళాశాల సన్నద్ధతా కోర్సు.",
+      "of": "184e3d97",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[0].description"
       ]
@@ -17155,8 +17154,8 @@
       ]
     },
     {
-      "t": "విభాగానికి చెందిన, విద్యార్థులే నడిపే వ్యాపార కోర్సు.",
-      "of": "2ebc9521",
+      "t": "విభాగానికి చెందిన ContainIt కోర్సు; పాఠశాల ContainIt బృందం వాడిన shipping containersను నివాసయోగ్య స్థలంగా మారుస్తుంది.",
+      "of": "1ae97fa7",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[1].description"
       ]
@@ -17197,8 +17196,8 @@
       ]
     },
     {
-      "t": "credit courseగా విభాగం service-build కార్యక్రమం.",
-      "of": "1a98bd31",
+      "t": "credit courseగా విభాగం సేవా కార్యక్రమం.",
+      "of": "a2ea2bd4",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[4].description"
       ]
@@ -17261,8 +17260,8 @@
       ]
     },
     {
-      "t": "ప్రతి తరగతికీ ఏడు విషయ రంగాలు, వాటితో పాటు పేరున్న మూడు ఆనర్స్ మార్గాలు మరియు ఏడు ఐచ్ఛిక కోర్సుల జాబితా — 6వ తరగతి నుంచే లాటిన్, 6, 7 తరగతుల్లో Applied English.",
-      "of": "f84d89ac",
+      "t": "ప్రతి తరగతికీ ఏడు విషయ రంగాలు, వాటితో పాటు పేరున్న నాలుగు Honors కోర్సులు మరియు ఏడు ఐచ్ఛిక కోర్సుల జాబితా — 6వ తరగతి నుంచే లాటిన్, 6, 7 తరగతుల్లో Applied English.",
+      "of": "4ce9491e",
       "at": [
         "covenant-day:divisions[1].teaser"
       ]
@@ -17410,8 +17409,8 @@
       ]
     },
     {
-      "t": "మిడిల్ స్కూల్ లాటిన్ క్రమంలో మొదటి సగం; స్పానిష్ ఐచ్ఛికంగా అందిస్తారు.",
-      "of": "bc5a2dff",
+      "t": "6వ తరగతిలో మొదలయ్యే Middle School లాటిన్ క్రమాన్ని కొనసాగిస్తుంది; స్పానిష్ ఐచ్ఛికంగా అందిస్తారు.",
+      "of": "9ae52e79",
       "at": [
         "covenant-day:divisions[1].departments[1].courses[7].description"
       ]
@@ -17452,8 +17451,8 @@
       ]
     },
     {
-      "t": "వాస్తవ సంఖ్యా వ్యవస్థ, సమాసాలు, రేఖీయ మరియు వర్గ సమీకరణాలు వాటి గ్రాఫులు, అసమానతలు, సమీకరణ వ్యవస్థలు, బహుపదులు, సంబంధాలు, ప్రమేయాలు, కరణీయ మరియు అకరణీయ సమాసాలు.",
-      "of": "9322bae1",
+      "t": "వాస్తవ సంఖ్యా వ్యవస్థ, సమాసాలు, రేఖీయ మరియు వర్గ సమీకరణాలు, వాటి గ్రాఫులు, అసమానతలు, సమీకరణ వ్యవస్థలు, బహుపదులు, సంబంధాలు, ప్రమేయాలు, కరణీయ సమాసాలు మరియు సమీకరణాలు, మరియు అకరణీయ సమాసాలు.",
+      "of": "1d1a628f",
       "at": [
         "covenant-day:divisions[1].departments[2].courses[3].description"
       ]
@@ -17534,8 +17533,8 @@
       ]
     },
     {
-      "t": "ఏడు తరగతుల్లో ప్రతి దానికీ ఐదు నుంచి ఆరు విషయ రంగాల వివరణ, వాటితో పాటు పేరున్న ఆరు Specials. వీటిలో CREATE Junior, Junior Kindergarten నుంచే స్పానిష్, 5వ తరగతిలో బ్యాండ్ వాయిద్యాలకు ముందు 4వ తరగతిలో రికార్డర్ ఉన్నాయి.",
-      "of": "f33f8618",
+      "t": "ఏడు తరగతుల్లో ప్రతి దానికీ ఐదు విషయ రంగాల వివరణ, వాటితో పాటు పేరున్న ఆరు Specials. వీటిలో CREATE Junior, స్పానిష్, మరియు 5వ తరగతిలో బ్యాండ్ వాయిద్యాలకు ముందు 4వ తరగతిలో రికార్డర్ ఉన్నాయి.",
+      "of": "29752e20",
       "at": [
         "covenant-day:divisions[2].teaser"
       ]
@@ -17781,8 +17780,8 @@
       ]
     },
     {
-      "t": "10,000 వరకు స్థాన విలువ, సవరణ, మానసిక గణితం, అంచనా · పద సమస్యలకు కమ్మీ నమూనాలు · 0–12 ఎక్కాలు · 1-, 2-అంకెల గుణకారం భాగహారం · భిన్నాలు, దశాంశాలు · కోణాలు, రేఖలు · వైశాల్యం, చుట్టుకొలత · కొలత మార్పిడులు.",
-      "of": "c4fdbffb",
+      "t": "10,000 వరకు స్థాన విలువ, రౌండింగ్, మానసిక గణితం, అంచనా · 10,000 వరకు కూడిక మరియు తీసివేత · పద సమస్యలకు కమ్మీ నమూనాలు · 0–12 ఎక్కాలు · 1-, 2-అంకెల గుణకారం భాగహారం · భిన్నాలు, దశాంశాలు · కోణాలు, రేఖలు · వైశాల్యం, చుట్టుకొలత · కొలత మార్పిడులు.",
+      "of": "7b7af205",
       "at": [
         "covenant-day:divisions[2].departments[4].courses[1].description"
       ]
@@ -17897,7 +17896,6 @@
       "of": "244e8099",
       "at": [
         "covenant-day:divisions[2].departments[7].name",
-        "davidson-day:divisions[0].departments[0].courses[1].title",
         "charlotte-prep:divisions[0].departments[2].name"
       ]
     },
@@ -17914,15 +17912,15 @@
       ]
     },
     {
-      "t": "చిత్రలేఖనం, గీత చిత్రాలు, మృణ్మయ కళ, ముద్రణ కళ, ప్రకృతి దృశ్యాలు, ముఖ చిత్రాల ద్వారా నైపుణ్యం, హస్తకళా నైపుణ్యం, సౌందర్యం, స్పష్టత, సమతుల్యత సాధన; ఏటా వసంతంలో జరిగే Art Walk‌లో ప్రదర్శన.",
-      "of": "c401dd07",
+      "t": "చిత్రలేఖనం, గీత చిత్రాలు, మృణ్మయ కళ, ముద్రణ కళ, ప్రకృతి దృశ్యాలు, ముఖ చిత్రాలు మరియు ఇంకా అనేక ప్రాజెక్టుల ద్వారా నైపుణ్యం, హస్తకళా నైపుణ్యం, సౌందర్యం, స్పష్టత, సమతుల్యత మరియు ఇతర శాశ్వత అంశాల సాధన; ఏటా వసంతంలో జరిగే Art Walkలో ప్రదర్శన.",
+      "of": "bb1f09c1",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[0].description"
       ]
     },
     {
-      "t": "శాస్త్రీయ, ఆధునిక స్వరకర్తల గాత్ర, వాయిద్య, తాళ వాద్య సంగీతం · 4వ తరగతి రికార్డర్, 5వ తరగతి బ్యాండ్ వాయిద్యాలు నేర్చుకుంటాయి · పిల్లల గాయక బృందం, పియానో, గాత్రం, గిటార్ ప్రైవేటు పాఠాలు అందుబాటులో ఉన్నాయి.",
-      "of": "eba018f6",
+      "t": "శాస్త్రీయ, ఆధునిక స్వరకర్తల గాత్ర, వాయిద్య, తాళ వాద్య సంగీతం · 4వ తరగతి రికార్డర్, 5వ తరగతి బ్యాండ్ వాయిద్యాలు నేర్చుకుంటాయి · 4వ, 5వ తరగతి విద్యార్థుల కోసం పిల్లల గాయక బృందం, పియానో, గాత్రం, గిటార్ ప్రైవేటు పాఠాలు అందుబాటులో ఉన్నాయి.",
+      "of": "96360919",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[1].description"
       ]
@@ -18002,20 +18000,6 @@
       "of": "846b20e9",
       "at": [
         "davidson-day:divisions[0].departments[0].courses[0].description"
-      ]
-    },
-    {
-      "t": "K–Gr 4",
-      "of": "4d15b9a6",
-      "at": [
-        "davidson-day:divisions[0].departments[0].courses[1].tag"
-      ]
-    },
-    {
-      "t": "కళ, ప్రపంచ భాష, గ్రంథాలయం, శారీరక విద్య మరియు సంగీతం, అదనంగా ప్రయోగాత్మక పరిశోధన కోసం Lower School విజ్ఞాన మరియు సాంకేతిక ప్రయోగశాలలు.",
-      "of": "1ad6c211",
-      "at": [
-        "davidson-day:divisions[0].departments[0].courses[1].description"
       ]
     },
     {
@@ -18128,8 +18112,8 @@
       ]
     },
     {
-      "t": "Honors Algebra 1కు ముందు వచ్చే వేగవంతమైన కోర్సు.",
-      "of": "b80cc5b1",
+      "t": "Algebra 1 లేదా Honors Algebra 1కు దారితీసే వేగవంతమైన కోర్సు.",
+      "of": "f526b2dd",
       "at": [
         "davidson-day:divisions[1].departments[0].courses[6].description"
       ]
@@ -18198,27 +18182,6 @@
       ]
     },
     {
-      "t": "AFAR International Research",
-      "of": "d06fab36",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].title"
-      ]
-    },
-    {
-      "t": "Gr 7+",
-      "of": "728b4736",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].tag"
-      ]
-    },
-    {
-      "t": "గుర్తింపు పొందిన పురావస్తు క్షేత్ర కృషి 7వ తరగతిలో మొదలవుతుంది, Maya, మధ్యయుగ స్పానిష్ మరియు రోమన్ పోర్చుగీస్ ప్రదేశాలలో.",
-      "of": "f36fcceb",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].description"
-      ]
-    },
-    {
       "t": "9 విభాగాలలో ~75 నమోదిత కోర్సులు — 26 AP కోర్సులు, AP అనంతర Calculus III, మరియు మూడు Diploma Distinction మార్గాలు.",
       "of": "4f147650",
       "at": [
@@ -18275,8 +18238,8 @@
       ]
     },
     {
-      "t": "1984, The Stranger, The Great Gatsby మరియు Frankensteinపై సాహిత్య ఆధారిత కోర్సు, సాహిత్య విశ్లేషణ మరియు వాదన నిర్మాణాన్ని పెంపొందిస్తుంది.",
-      "of": "64240e58",
+      "t": "1984, The Stranger, The Great Gatsby మరియు Frankenstein వంటి నవలలను చదివే సాహిత్య ఆధారిత కోర్సు, సాహిత్య విశ్లేషణ మరియు వాదన నిర్మాణాన్ని పెంపొందిస్తుంది.",
+      "of": "f1904d3f",
       "at": [
         "davidson-day:divisions[2].departments[0].courses[4].description"
       ]
@@ -18442,8 +18405,8 @@
       ]
     },
     {
-      "t": "బహుపది ప్రమేయాలపై లోతైన అధ్యయనం, అదనంగా అకరణీయ, వర్గమూల, సంవర్గమాన మరియు ఘాతాంక నమూనాలు, graphing calculator కృషి అంతర్భాగంగా.",
-      "of": "cad608ff",
+      "t": "బహుపది ప్రమేయాలపై లోతైన అధ్యయనం, అదనంగా అకరణీయ మరియు వర్గమూల ప్రమేయాలు, సంకీర్ణ సంఖ్యలు, సంవర్గమాన మరియు ఘాతాంక నమూనాలు, graphing calculator కృషి అంతర్భాగంగా.",
+      "of": "fc8008ee",
       "at": [
         "davidson-day:divisions[2].departments[1].courses[4].description"
       ]
@@ -18562,8 +18525,8 @@
       ]
     },
     {
-      "t": "తప్పనిసరి రెండో సంవత్సరం ప్రపంచ చరిత్ర సర్వేక్షణ.",
-      "of": "33355f2e",
+      "t": "రెండో సంవత్సరం World History నిబంధనను తీరుస్తుంది, AP World History (Modern) కూడా దీన్ని తీరుస్తుంది; ఈ Honors కోర్సుకు పాఠశాల ఎలాంటి వివరణనూ ప్రచురించదు.",
+      "of": "c1ebf9a1",
       "at": [
         "davidson-day:divisions[2].departments[2].courses[2].description"
       ]
@@ -19214,43 +19177,57 @@
       ]
     },
     {
+      "t": "AFAR International Research",
+      "of": "d06fab36",
+      "at": [
+        "davidson-day:divisions[2].departments[8].courses[7].title"
+      ]
+    },
+    {
+      "t": "Maya, మధ్యయుగ స్పానిష్ మరియు రోమన్ కాలపు పోర్చుగీస్ ప్రదేశాలలో, గుర్తింపు పొందిన, నిపుణుల నేతృత్వంలో విదేశాల్లో పురావస్తు క్షేత్ర పరిశోధన.",
+      "of": "36ecd3ba",
+      "at": [
+        "davidson-day:divisions[2].departments[8].courses[7].description"
+      ]
+    },
+    {
       "t": "Forensics & Zoology Honors",
       "of": "d2e8ab1f",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[7].title"
+        "davidson-day:divisions[2].departments[8].courses[8].title"
       ]
     },
     {
       "t": "STEMM Distinction ప్రధాన ఎంపికగా మరియు పాఠశాల profile కోర్సుల పట్టికలో పేర్కొనబడింది; ఎలాంటి కోర్సు వివరణా ప్రచురించబడలేదు.",
       "of": "efd17fd5",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[7].description"
+        "davidson-day:divisions[2].departments[8].courses[8].description"
       ]
     },
     {
       "t": "Independent Study",
       "of": "0185de38",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].title"
+        "davidson-day:divisions[2].departments[8].courses[9].title"
       ]
     },
     {
       "t": "పాస్/ఫెయిల్",
       "of": "7ced76bd",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].tag"
+        "davidson-day:divisions[2].departments[8].courses[9].tag"
       ]
     },
     {
       "t": "అధ్యాపక పర్యవేక్షకుడితో విద్యార్థి స్వయంగా రూపొందించుకునే అధ్యయన క్రమం, ఆమోదిత సారాంశం మరియు పాఠ్యప్రణాళిక అవసరం; GPA నుంచి మినహాయించబడుతుంది.",
       "of": "75301aca",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].description"
+        "davidson-day:divisions[2].departments[8].courses[9].description"
       ]
     },
     {
-      "t": "2026-27 High School Curriculum Guide నుండి 9 విభాగాలలో 78 కోర్సు శీర్షికలు — 16 Advanced Placement కోర్సులతో సహా.",
-      "of": "f1b73320",
+      "t": "పాఠశాల 2026-27 కోర్సు జాబితాలు మరియు పట్టభద్రత నిబంధనల నుంచి 9 విభాగాలలో 77 కోర్సు శీర్షికలు — 16 Advanced Placement కోర్సులతో సహా.",
+      "of": "b6302f41",
       "at": [
         "carmel-christian:divisions[0].teaser"
       ]
@@ -19267,7 +19244,8 @@
       "of": "4072c999",
       "at": [
         "carmel-christian:divisions[0].departments[0].courses[0].description",
-        "carmel-christian:divisions[0].departments[0].courses[1].description"
+        "carmel-christian:divisions[0].departments[0].courses[1].description",
+        "carmel-christian:divisions[0].departments[0].courses[3].description"
       ]
     },
     {
@@ -19296,13 +19274,6 @@
       "of": "94436114",
       "at": [
         "carmel-christian:divisions[0].departments[0].courses[3].title"
-      ]
-    },
-    {
-      "t": "Biblical Studies క్రమంలో ఒక ప్రపంచదృక్పథ క్యాప్‌స్టోన్.",
-      "of": "19fdf8d8",
-      "at": [
-        "carmel-christian:divisions[0].departments[0].courses[3].description"
       ]
     },
     {
@@ -19509,8 +19480,8 @@
       ]
     },
     {
-      "t": "Honors precalculus — calculus కు ముందు functions మరియు trigonometry.",
-      "of": "9b7144a1",
+      "t": "Honors స్థాయి precalculus.",
+      "of": "4be9c15d",
       "at": [
         "carmel-christian:divisions[0].departments[2].courses[7].description"
       ]
@@ -19837,8 +19808,8 @@
       ]
     },
     {
-      "t": "Spanish మించి భాషల కోసం ఒక ఆన్‌లైన్ world-language ఎంపిక.",
-      "of": "2300f410",
+      "t": "ఒక ఆన్‌లైన్ world-language ఎంపిక.",
+      "of": "de88952b",
       "at": [
         "carmel-christian:divisions[0].departments[5].courses[7].description"
       ]
@@ -19851,8 +19822,8 @@
       ]
     },
     {
-      "t": "health అవసరం.",
-      "of": "9a426895",
+      "t": "పట్టభద్రతకు అవసరమైన 1 Health & PE క్రెడిట్‌లో లెక్కకు వచ్చే ఆరోగ్య కోర్సు.",
+      "of": "e5250942",
       "at": [
         "carmel-christian:divisions[0].departments[6].courses[0].description"
       ]
@@ -19999,8 +19970,8 @@
       ]
     },
     {
-      "t": "ఒక పరిచయ theatre కోర్సు.",
-      "of": "112dd5f2",
+      "t": "ఒక theatre కోర్సు.",
+      "of": "1228458a",
       "at": [
         "carmel-christian:divisions[0].departments[7].courses[8].description"
       ]
@@ -20196,8 +20167,8 @@
       ]
     },
     {
-      "t": "Middle School తన స్వంత పేరు పెట్టబడిన-కోర్సు జాబితాను ప్రచురిస్తుంది — ఒక పూర్తి విద్యా కోర్ ప్లస్ ఒక అసాధారణంగా విస్తృత ఐచ్ఛిక శ్రేణి — 2024-25 Middle School Curriculum Guide నుండి.",
-      "of": "c86aa979",
+      "t": "Middle School తన సొంత పేరున్న కోర్సుల జాబితాను — పూర్తి ప్రధాన విద్యా కోర్సులతో పాటు అసాధారణంగా విస్తృతమైన ఐచ్ఛిక కోర్సుల శ్రేణిని — తన పాఠ్యప్రణాళిక పేజీలో ప్రచురిస్తుంది, ఆ పేజీ 2024-25 Middle School Curriculum Guideకు లింక్ ఇస్తుంది.",
+      "of": "84a9097e",
       "at": [
         "carmel-christian:divisions[1].teaser"
       ]
@@ -20373,8 +20344,8 @@
       ]
     },
     {
-      "t": "middle school లో honors క్రెడిట్ కోసం తీసుకున్న high-school Algebra I.",
-      "of": "003b87af",
+      "t": "honors Algebra I కోర్సు.",
+      "of": "a89fc10b",
       "at": [
         "carmel-christian:divisions[1].departments[2].courses[5].description"
       ]
@@ -20597,8 +20568,8 @@
       ]
     },
     {
-      "t": "ఆడిషన్-ఆధారిత chapel worship band.",
-      "of": "54a220a1",
+      "t": "middle school praise band.",
+      "of": "c0bfd0cb",
       "at": [
         "carmel-christian:divisions[1].departments[7].courses[5].description"
       ]
@@ -20653,8 +20624,8 @@
       ]
     },
     {
-      "t": "ఒక అధునాతన theatre ఐచ్ఛికం.",
-      "of": "cf630518",
+      "t": "ఒక theatre ఐచ్ఛికం.",
+      "of": "a751a3a4",
       "at": [
         "carmel-christian:divisions[1].departments[7].courses[9].description"
       ]
@@ -20779,15 +20750,15 @@
       ]
     },
     {
-      "t": "ఐదు core సబ్జెక్టులు ప్లస్ ఆరు Special Areas, ఒక్కొక్కటి 2026-27 Elementary Course Description Guide లో గ్రేడ్ వారీగా వర్ణించబడ్డాయి — నిర్మాణాత్మక అక్షరాస్యత (Orton-Gillingham) మరియు కిండర్‌గార్టెన్ నుండి ఒక చేతితో-చేసే STEM lab.",
-      "of": "300044c7",
+      "t": "2026-27 Elementary Course Description Guide ప్రకారం, ఒక్కో తరగతికి వివరించిన ఐదు ప్రధాన సబ్జెక్టులు, అన్ని తరగతులకు ఆరు Special Areas. ఈ guide Kindergarten నుంచి వ్యవస్థీకృత అక్షరాస్యత (Orton-Gillingham) మరియు ప్రయోగాత్మక STEM labను వివరిస్తుంది.",
+      "of": "2dedd0b1",
       "at": [
         "carmel-christian:divisions[2].teaser"
       ]
     },
     {
-      "t": "elementary guide ప్రతి సబ్జెక్టును భిన్నంగా-శీర్షికలు కలిగిన కోర్సులుగా కాకుండా గ్రేడ్ వారీగా (ఉదాహరణకు, ప్రతి గ్రేడ్‌కు \"Math\") వర్ణిస్తుంది, ఇది K–5 కు సాధారణం. కింద ఉన్న వరుసలు ప్రతి గ్రేడ్‌కు guide యొక్క స్వంత వర్ణనలను మోస్తాయి.",
-      "of": "037ca082",
+      "t": "elementary guide ప్రతి సబ్జెక్టును వేర్వేరు శీర్షికలున్న కోర్సులుగా కాకుండా తరగతి వారీగా (ఉదాహరణకు, ప్రతి తరగతికి \"Math\") వివరిస్తుంది, ఇది K–5కు సాధారణం. కింద ఉన్న ప్రతి వరుస Kindergarten నుంచి 5వ తరగతి వరకు ఒక సబ్జెక్టుపై guide పాఠాన్ని సంగ్రహిస్తుంది.",
+      "of": "a5ae5000",
       "at": [
         "carmel-christian:divisions[2].notPublished"
       ]
@@ -20834,15 +20805,15 @@
       ]
     },
     {
-      "t": "Orton-Gillingham phonics తో, ఈ strands తో Science of Reading లో పాతుకుపోయిన ఒక బహుళ-ఇంద్రియ అక్షరాస్యత బ్లాక్: phonemic awareness · phonics మరియు morphology · reading (Grade 1 నుండి Accelerated Reader) · grammar (Grade 5 కల్లా Analytical Grammar) · composition మరియు handwriting.",
-      "of": "6ab0057a",
+      "t": "Science of Readingలో పాతుకుపోయిన బహుళ-ఇంద్రియ అక్షరాస్యత బ్లాక్, Orton-Gillingham phonicsతో మరియు ఈ విభాగాలతో: phonemic awareness · phonics మరియు morphology · decoding · reading (1వ తరగతి నుంచి Accelerated Reader) · grammar (5వ తరగతి నాటికి Analytical Grammar) · composition మరియు handwriting.",
+      "of": "53aeec38",
       "at": [
         "carmel-christian:divisions[2].departments[0].courses[2].description"
       ]
     },
     {
-      "t": "life, physical మరియు earth/space science అంతటా దేవుని సృష్టిపై పరిశోధన-ఆధారిత, చేతితో-చేసే అధ్యయనం, గ్రేడ్ వారీగా మొక్కలు మరియు పదార్థం నుండి నీరు మరియు వాతావరణం, శక్తి మరియు పర్యావరణాలు, మరియు జీవన వ్యవస్థల వైపు ముందుకు సాగుతుంది.",
-      "of": "b804c69b",
+      "t": "life, physical మరియు earth/space science అంతటా దేవుని సృష్టిపై అన్వేషణ ఆధారిత, ప్రయోగాత్మక అధ్యయనం, తరగతి వారీగా నీరు మరియు వాతావరణం, చలనం మరియు పదార్థం, శక్తి మరియు పర్యావరణాలు, జీవన వ్యవస్థల ద్వారా ముందుకు సాగుతుంది.",
+      "of": "e39770db",
       "at": [
         "carmel-christian:divisions[2].departments[0].courses[3].description"
       ]
@@ -21072,8 +21043,8 @@
       ]
     },
     {
-      "t": "బైబిల్ రచయిత, నిర్మాణం మరియు కథాక్రమంపై సాధారణ పరిచయం, క్రైస్తవ పాఠశాలకు కొత్తగా వచ్చిన విద్యార్థులకు సిఫార్సు చేయబడింది.",
-      "of": "e78b749a",
+      "t": "బైబిల్ రచయిత, నిర్మాణం మరియు కథాక్రమంపై సాధారణ పరిచయం, క్రైస్తవ పాఠశాలకు లేదా HGCSకు కొత్తగా వచ్చిన విద్యార్థులకు సిఫార్సు చేయబడింది; పరిపాలనా విభాగం సిఫార్సుతో నమోదు.",
+      "of": "3433b00d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[0].courses[10].description"
       ]
@@ -21191,8 +21162,8 @@
       ]
     },
     {
-      "t": "ప్రధానంగా కల్పనేతర ప్రక్రియల్లో అలంకారిక విశ్లేషణ, కళాశాల ఇంగ్లిష్ ఒక సెమిస్టర్ వేగంతో.",
-      "of": "ddde440b",
+      "t": "ప్రధానంగా కల్పనేతర ప్రక్రియల్లో అలంకారిక విశ్లేషణ, కళాశాల ఇంగ్లిష్ ఒక సెమిస్టర్‌కు సమానం.",
+      "of": "4dc5a8db",
       "at": [
         "hickory-grove-christian:divisions[0].departments[1].courses[8].description"
       ]
@@ -21247,8 +21218,8 @@
       ]
     },
     {
-      "t": "అనువర్తనాల్లో సమస్యా పరిష్కార పద్ధతులు — సమీకరణ వ్యవస్థలు, బహుపదులు, కరణులు, వర్గ సమీకరణాలు, శ్రేఢులు మరియు సంభావ్యత.",
-      "of": "7f9ea31a",
+      "t": "అనువర్తనాల్లో సమస్యా పరిష్కార పద్ధతులు — భిన్న సమీకరణాలు, రేఖలు మరియు వాలు, సమీకరణ వ్యవస్థలు, బహుపదులు, కరణులు, వర్గ సమీకరణాలు, శ్రేఢులు, శ్రేణులు మరియు సంభావ్యత.",
+      "of": "97ddabea",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[3].description"
       ]
@@ -21317,15 +21288,15 @@
       ]
     },
     {
-      "t": "వేగవంతమైన మార్గం — శ్రేఢులు, ఘాత శ్రేఢులు, టేలర్ బహుపదులు మరియు పారామెట్రిక్, సదిశ, ధ్రువ కలనగణితం వరకు; రెండవ సెమిస్టర్‌లో మాత్రమే అందిస్తారు.",
-      "of": "e69112f9",
+      "t": "కొత్త అంశాలుగా శ్రేణులు, ఘాత శ్రేణులు, టేలర్ బహుపదులు మరియు పారామెట్రిక్, సదిశ, ధ్రువ కలనగణితం, అవధులు, అవకలనం మరియు సమాకలనం పునశ్చరణతో; రెండవ సెమిస్టర్‌లో మాత్రమే అందిస్తారు.",
+      "of": "f4cb98b0",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[9].description"
       ]
     },
     {
-      "t": "డేటా నుంచి సేకరించడం, విశ్లేషించడం మరియు నిర్ధారణలు తీయడం — అన్వేషణ, సంభావ్యత, అనుమితి మరియు తిరోగమనం.",
-      "of": "05e09daa",
+      "t": "డేటాను సేకరించడం, విశ్లేషించడం మరియు దాని నుంచి నిర్ధారణలు తీయడం — అన్వేషణ, సంభావ్యత మరియు యాదృచ్ఛిక చరరాశులు, అనుమితి, ద్విపద మరియు గుణశ్రేఢి విభాజనాలు, అంచనాలు, chi-square పద్ధతులు మరియు తిరోగమనం.",
+      "of": "004fbf8d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[10].description"
       ]
@@ -21366,8 +21337,8 @@
       ]
     },
     {
-      "t": "కర్బన రసాయనం, కణ శక్తిశాస్త్రం, కిరణజన్య సంయోగక్రియ మరియు DNA — విద్యార్థిని AP Biology కు అర్హుడిని చేసే పూర్వ అవసరం.",
-      "of": "88fa3f54",
+      "t": "కర్బన రసాయనం, కణ శక్తిశాస్త్రం, కిరణజన్య సంయోగక్రియ, కణ పునరుత్పత్తి మరియు DNA సహా ప్రధాన జీవశాస్త్ర అంశాలు — విద్యార్థిని AP Biologyకు అర్హుడిని చేసే పూర్వ అవసరం.",
+      "of": "f46fc08f",
       "at": [
         "hickory-grove-christian:divisions[0].departments[3].courses[2].description"
       ]
@@ -21471,8 +21442,8 @@
       ]
     },
     {
-      "t": "వాతావరణం మరియు శీతోష్ణస్థితిపై కేంద్రీకృతమైన ప్రయోగశాల ఆధారిత కోర్సు — వాతావరణం, తీవ్ర తుఫానులు, పలక చలనం మరియు అంతరిక్ష అన్వేషణ.",
-      "of": "8bdec85a",
+      "t": "వాతావరణం మరియు శీతోష్ణస్థితిపై కేంద్రీకృతమైన ప్రయోగశాల ఆధారిత కోర్సు, వాయుమండలం, తీవ్ర తుఫానులు, పలక చలనం మరియు అంతరిక్ష అన్వేషణ వంటి అంశాలను పరిశోధిస్తుంది.",
+      "of": "5ffc8447",
       "at": [
         "hickory-grove-christian:divisions[0].departments[3].courses[10].description"
       ]
@@ -21653,8 +21624,8 @@
       ]
     },
     {
-      "t": "కళాశాల స్థాయి అమెరికన్ జాతీయ ప్రభుత్వం — సంస్థలు, రాజకీయ ప్రవర్తన, ప్రజా విధానం, పౌర స్వేచ్ఛలు మరియు పౌర హక్కులు. చివరి సంవత్సర విద్యార్థులకు సిఫార్సు.",
-      "of": "3becdd77",
+      "t": "కళాశాల స్థాయి అమెరికన్ జాతీయ ప్రభుత్వం — దాని వికాసం, రాజకీయ విశ్వాసాలు మరియు ప్రవర్తనలు, పార్టీలు, ప్రయోజన సమూహాలు, మీడియా, సంస్థలు, ప్రజా విధానం, పౌర స్వేచ్ఛలు మరియు పౌర హక్కులు · చివరి సంవత్సర విద్యార్థులకు మాత్రమే సిఫార్సు.",
+      "of": "fafbcbac",
       "at": [
         "hickory-grove-christian:divisions[0].departments[4].courses[9].description"
       ]
@@ -21905,8 +21876,8 @@
       ]
     },
     {
-      "t": "అధికారిక సంగీత సిద్ధాంతం, చరిత్రతో కచేరీ బ్యాండ్ కృతులు, మరియు NCBA All-District, All-State, Solo & Ensemble Festival కు ఆడిషన్‌లు.",
-      "of": "c6f08e40",
+      "t": "అధికారిక సంగీత సిద్ధాంతం, చరిత్రతో కచేరీ బ్యాండ్ కృతులు, మరియు NCBA All-District, All-State, Solo & Ensemble Festivalకు ఆడిషన్‌లు · middle school band ద్వారా లేదా ఆడిషన్ ద్వారా ప్రవేశం.",
+      "of": "d2e474c6",
       "at": [
         "hickory-grove-christian:divisions[0].departments[7].courses[2].description"
       ]
@@ -22052,8 +22023,8 @@
       ]
     },
     {
-      "t": "వారపు ప్రసారానికి ప్రధాన సంపాదకుడు లేదా నిర్మాత, అదనంగా పాడ్‌కాస్ట్ నిర్మాణం, డాక్యుమెంటరీ ఫీచర్లు మరియు ప్రచార ప్రచారాలు.",
-      "of": "73ee379e",
+      "t": "వారపు ప్రసారానికి ప్రధాన సంపాదకుడిగా లేదా నిర్మాతగా పనిచేసే అవకాశం, అదనంగా పాడ్‌కాస్ట్ నిర్మాణం, డాక్యుమెంటరీ ఫీచర్లు మరియు ప్రచార కార్యక్రమాలు.",
+      "of": "c458fb23",
       "at": [
         "hickory-grove-christian:divisions[0].departments[8].courses[5].description"
       ]
@@ -22158,8 +22129,8 @@
       ]
     },
     {
-      "t": "విద్యార్థికి కేటాయించిన క్రీడా సీజన్‌లో బలం, పరిమాణం మరియు వేగం పెంచేందుకు బరువులెత్తడం.",
-      "of": "3f1573f0",
+      "t": "విద్యార్థికి కేటాయించిన క్రీడా సీజన్‌లో బలం, పరిమాణం మరియు వేగం పెంచేందుకు బరువులెత్తడం · దీన్ని మళ్లీ తీసుకోవచ్చు, కానీ పట్టభద్రతకు ఒక క్రెడిట్ మాత్రమే లెక్కకు వస్తుంది.",
+      "of": "a13189f9",
       "at": [
         "hickory-grove-christian:divisions[0].departments[10].courses[3].description"
       ]
@@ -22200,8 +22171,8 @@
       ]
     },
     {
-      "t": "AP Capstone మొదటి కోర్సు — పాఠ్యాంశాల మధ్య అన్వేషణ, పలు మూలాల నుంచి సంశ్లేషణ, మరియు లిఖిత, మౌఖిక వాదన.",
-      "of": "a5409f77",
+      "t": "AP Capstone మొదటి కోర్సు, దరఖాస్తు ద్వారా ప్రవేశం — పాఠ్యాంశాల మధ్య అన్వేషణ, పలు మూలాల నుంచి సంశ్లేషణ, మరియు లిఖిత, మౌఖిక వాదన.",
+      "of": "6e795975",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[0].description"
       ]
@@ -22214,8 +22185,8 @@
       ]
     },
     {
-      "t": "AP Capstone రెండవ కోర్సు — ఏడాది పొడవునా సాగే పరిశోధన, 4,000–5,000 పదాల పత్రం మరియు మౌఖిక సమర్థనతో ముగుస్తుంది.",
-      "of": "95aadd81",
+      "t": "AP Capstone రెండవ కోర్సు, AP Seminar తర్వాత దరఖాస్తు ద్వారా ప్రవేశం — ఏడాది పొడవునా సాగే పరిశోధన, 4,000–5,000 పదాల పత్రం మరియు మౌఖిక సమర్థనతో ముగుస్తుంది.",
+      "of": "5e68b615",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[1].description"
       ]
@@ -22228,8 +22199,8 @@
       ]
     },
     {
-      "t": "ప్రధాన సూత్రాలపై ఒక సర్వేక్షణ — మానవ వికాసం, అభ్యసనం మరియు జ్ఞాపకశక్తి, వ్యక్తిత్వం, ఒత్తిడి, మరియు అసాధారణ ప్రవర్తన, దాని చికిత్స.",
-      "of": "1608abf8",
+      "t": "మానవ వికాసం, అభ్యసనం మరియు జ్ఞాపకశక్తి, వ్యక్తిత్వం, ఒత్తిడి, మరియు అసాధారణ ప్రవర్తన, దాని చికిత్స సహా మనస్తత్వశాస్త్ర ప్రధాన సూత్రాలపై సర్వేక్షణ.",
+      "of": "81786a4d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[3].description"
       ]
@@ -22305,8 +22276,8 @@
       ]
     },
     {
-      "t": "విమర్శనాత్మక ఆలోచన, వ్యవస్థీకరణ, సమయ నిర్వహణ మరియు వృత్తి అన్వేషణ — ఉన్నత పాఠశాలలోకి ప్రవేశిస్తున్న విద్యార్థుల కోసం.",
-      "of": "eb500ce1",
+      "t": "విమర్శనాత్మక ఆలోచన, వ్యవస్థీకరణ, సమయ నిర్వహణ, సంభాషణ మరియు వృత్తి అన్వేషణ — ఉన్నత పాఠశాలలోకి ప్రవేశిస్తున్న లేదా తమ ఉన్నత పాఠశాల ప్రయాణాన్ని బలోపేతం చేసుకోవాలనుకునే విద్యార్థులకు అనువైనది.",
+      "of": "b428fa2a",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[9].description"
       ]
@@ -22333,8 +22304,8 @@
       ]
     },
     {
-      "t": "3.0 GPA మరియు యజమాని లేఖ కలిగి పని కోసం పాఠశాలను ముందుగా వదిలే చివరి సంవత్సర విద్యార్థుల కోసం; తమ క్రీడా సీజన్‌లో ఇది అందుబాటులో ఉండదు.",
-      "of": "4b951c2c",
+      "t": "3.0 GPA మరియు యజమాని లేఖ కలిగి పని కోసం పాఠశాలను ముందుగా వదిలే చివరి సంవత్సర విద్యార్థుల కోసం · విద్యార్థి ఆడే, పాఠశాల తర్వాత సాధన ఉండే ఏ క్రీడ సీజన్‌లోనైనా ఇది అందుబాటులో ఉండదు.",
+      "of": "32e6c09a",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[11].description"
       ]
@@ -22480,8 +22451,8 @@
       ]
     },
     {
-      "t": "Reveal Math Course 1: భిన్నాలు, దశాంశాల భాగహారం, రుణ సంఖ్యలు, నిష్పత్తులు, రేట్లు, సమాసాలు, సమీకరణాలు, వైశాల్యం, ఘనపరిమాణం, సాంఖ్యిక తార్కికం.",
-      "of": "de54da9f",
+      "t": "Reveal Math Course 1: భిన్నాలు, దశాంశాల భాగహారం, రుణ సంఖ్యలు, నిష్పత్తులు, రేట్లు, సమాసాలు, సమీకరణాలు, వైశాల్యం, ఉపరితల వైశాల్యం, ఘనపరిమాణం, సాంఖ్యిక తార్కికం.",
+      "of": "72e3a827",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[0].description"
       ]
@@ -22494,8 +22465,8 @@
       ]
     },
     {
-      "t": "Reveal Math Course 2: అనుపాత సంబంధాలు, అకరణీయ సంఖ్యలు, స్కేల్ డ్రాయింగ్‌లు, జ్యామితీయ నిర్మాణాలు, నమూనాల నుంచి అనుమితులు.",
-      "of": "99212e70",
+      "t": "Reveal Math Course 2: అనుపాత సంబంధాలు, అకరణీయ సంఖ్యలు, స్కేల్ డ్రాయింగ్‌లు, జ్యామితీయ నిర్మాణాలు, వైశాల్యం, ఉపరితల వైశాల్యం, ఘనపరిమాణం, నమూనాల నుంచి అనుమితులు.",
+      "of": "57becf1a",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[1].description"
       ]
@@ -22522,8 +22493,8 @@
       ]
     },
     {
-      "t": "అర్హత ఉన్న 8వ తరగతి Honors విద్యార్థులకు అందిస్తారు — సమీకరణాలు, అసమానతలు, బహుపదులు, కారణాంకాలు, గ్రాఫ్‌లు, కరణులు, ప్రతి రాత్రి హోంవర్క్‌తో.",
-      "of": "9a2c56a3",
+      "t": "అర్హత ఉన్న 8వ తరగతి Honors విద్యార్థులకు అందిస్తారు — సమీకరణాలు, సమాసాలు, ప్రక్రియల క్రమం, ధర్మాలు, ధన మరియు రుణ సంఖ్యలు, అసమానతలు, అనుపాతాలు, బహుపదులు, కారణాంకాలు, గ్రాఫ్‌లు, కరణులు, ప్రతి రాత్రి హోంవర్క్‌తో.",
+      "of": "95bec834",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[3].description"
       ]
@@ -22886,8 +22857,8 @@
       ]
     },
     {
-      "t": "తరగతుల వారీగా ఐదు విషయ శ్రేణులు, అదనంగా తప్పనిసరి LEAD కోర్సులు మరియు కళల ఐచ్ఛికాలు. (Early/Lower School, PS–4, పేరు పెట్టిన కోర్సులు గానీ విషయ జాబితా గానీ ఏదీ ప్రచురించదు.)",
-      "of": "9992b6dd",
+      "t": "తరగతుల వారీగా ఐదు విషయ శ్రేణులు, అదనంగా తప్పనిసరి LEAD కోర్సులు మరియు కళల ఐచ్ఛికాలు. (Early/Lower School, PS–4, పేరున్న కోర్సులను గానీ తరగతి వారీ విషయ జాబితాను గానీ ప్రచురించదు.)",
+      "of": "8cc0bd50",
       "at": [
         "gaston-day:divisions[0].teaser"
       ]
@@ -22956,8 +22927,8 @@
       ]
     },
     {
-      "t": "advisory తో పాటు డిజిటల్ పౌరసత్వం మరియు జీవన నైపుణ్యాల బోధనను కలిగిన తప్పనిసరి కోర్సు క్రమం.",
-      "of": "b69b590d",
+      "t": "advisoryతో పాటు డిజిటల్ పౌరసత్వాన్ని బోధించే తప్పనిసరి కోర్సులు.",
+      "of": "9a283e10",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[0].description"
       ]
@@ -22970,15 +22941,15 @@
       ]
     },
     {
-      "t": "Lower Schoolలో రెండో తరగతిలో మొదలయ్యే నాటక క్రమాన్ని కొనసాగిస్తుంది.",
-      "of": "ad25f1c8",
+      "t": "Lower Schoolలో రెండో తరగతి నుంచే మొదలయ్యే నాటక తరగతులను కొనసాగిస్తుంది.",
+      "of": "45a2d4d4",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[2].description"
       ]
     },
     {
-      "t": "Middle School Chorus, ఇది instrumental ensemble తో కలిసి ప్రదర్శనలు ఇస్తుంది.",
-      "of": "add8a04e",
+      "t": "Middle School Chorus, Middle School విద్యార్థులు ఎంచుకునే నాలుగు fine-arts ఐచ్ఛికాలలో ఒకటి.",
+      "of": "f22d5135",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[3].description"
       ]
@@ -23085,8 +23056,8 @@
       ]
     },
     {
-      "t": "calculusకు కొనసాగని విద్యార్థులకు నాలుగో సంవత్సరం గణిత ఎంపిక.",
-      "of": "2f3648c2",
+      "t": "పాఠశాల పాఠ్యప్రణాళిక పట్టికలోని Upper School గణిత కోర్సులలో ఒకటి.",
+      "of": "09b4ecf8",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[4].description"
       ]
@@ -23113,8 +23084,8 @@
       ]
     },
     {
-      "t": "మొదటి సెమిస్టర్ కళాశాల calculus; AP విద్యార్థులందరూ పరీక్ష రాయాలి.",
-      "of": "e3870c8f",
+      "t": "ఒక AP calculus కోర్సు; AP విద్యార్థులందరూ పరీక్ష రాయాలి.",
+      "of": "a7491208",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[7].description"
       ]
@@ -23127,8 +23098,8 @@
       ]
     },
     {
-      "t": "శ్రేణులు మరియు మరిన్ని సమాకలన పద్ధతుల ద్వారా ABని విస్తరిస్తుంది.",
-      "of": "3a3064cb",
+      "t": "Calculus ABతో పాటు ఉన్న రెండు AP calculus కోర్సులలో ఒకటి.",
+      "of": "238e55c2",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[8].description"
       ]
@@ -23159,8 +23130,8 @@
       ]
     },
     {
-      "t": "Honors భౌతిక శాస్త్రం, AP Physics II కి కింద ఉన్న ముందస్తు అర్హత స్థాయి.",
-      "of": "d5eeb4f3",
+      "t": "Honors భౌతిక శాస్త్రం; Physics II AP స్థాయిలో అందుబాటులో ఉంది.",
+      "of": "05eabaaf",
       "at": [
         "gaston-day:divisions[1].departments[2].courses[3].description"
       ]
@@ -23173,8 +23144,8 @@
       ]
     },
     {
-      "t": "AP భౌతిక శాస్త్ర కోర్సు, ఇది రెండు సంవత్సరాల భౌతిక శాస్త్ర క్రమాన్ని సూచిస్తుంది.",
-      "of": "864db0ae",
+      "t": "Upper School పాఠ్యప్రణాళికలోని ఏకైక AP భౌతిక శాస్త్ర కోర్సు.",
+      "of": "a98f03d2",
       "at": [
         "gaston-day:divisions[1].departments[2].courses[4].description"
       ]
@@ -23195,8 +23166,8 @@
       ]
     },
     {
-      "t": "Level III వరకు పూర్తి చేయడం పట్టభద్రతకు తప్పనిసరి; ఈ నిబంధనను Frenchలో కూడా తీర్చుకోవచ్చు.",
-      "of": "713afca6",
+      "t": "Spanish లేదా Frenchలో Level III వరకు పూర్తి చేయడం పట్టభద్రతకు తప్పనిసరి, ఇంగ్లీష్ రెండో భాషగా ఉన్న అంతర్జాతీయ విద్యార్థులకు తప్ప.",
+      "of": "37ea1ab6",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[0].description"
       ]
@@ -23209,15 +23180,15 @@
       ]
     },
     {
-      "t": "చివరి Spanish కోర్సు, పట్టభద్రత నిబంధనకు మించినది.",
-      "of": "74478fea",
+      "t": "Spanish క్రమంలో చివరి కోర్సు, పట్టభద్రత నిబంధనకు మించినది.",
+      "of": "d8cbd093",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[1].description"
       ]
     },
     {
-      "t": "రెండు సంవత్సరాల నిబంధనకు లెక్కకు వచ్చే నాలుగు fine-arts కోర్సుల్లో ఒకటి.",
-      "of": "b2a9983b",
+      "t": "రెండు సంవత్సరాల నిబంధనకు లెక్కకు వచ్చే fine-arts కోర్సుల్లో ఒకటి.",
+      "of": "25ec31ec",
       "at": [
         "gaston-day:divisions[1].departments[5].courses[0].description"
       ]
@@ -23258,8 +23229,8 @@
       ]
     },
     {
-      "t": "చివరి దృశ్య కళల కోర్సు — AP Studio Art లేదు.",
-      "of": "5cffc833",
+      "t": "దృశ్య కళల క్రమంలో చివరి కోర్సు; పాఠశాల పాఠ్యప్రణాళిక పట్టికలో AP Studio Art లేదు.",
+      "of": "6d7e3320",
       "at": [
         "gaston-day:divisions[1].departments[5].courses[4].description"
       ]
@@ -23308,8 +23279,8 @@
       ]
     },
     {
-      "t": "2023లో TSA VEX Nationalsకు చేరిన VEX Robotics జట్టుకు ఆధారం.",
-      "of": "97424e67",
+      "t": "Honors robotics; పాఠశాల VEX Robotics Clubను కూడా నిర్వహిస్తుంది, ఇది 2023లో Technology Student Association VEX Nationalsకు అర్హత సాధించింది.",
+      "of": "4811d17d",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[2].description"
       ]
@@ -23336,8 +23307,8 @@
       ]
     },
     {
-      "t": "విద్యార్థుల సాహిత్య మరియు కళల పత్రిక Blutopia కు ఆధారం.",
-      "of": "5e090e4c",
+      "t": "Honors స్థాయిలో అందించే సృజనాత్మక రచన ఐచ్ఛికం.",
+      "of": "e2c7127d",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[4].description"
       ]
@@ -23351,8 +23322,8 @@
       ]
     },
     {
-      "t": "Public Debate Club మరియు Mock Trialకు ఆధారంగా నిలుస్తుంది.",
-      "of": "f82c4f41",
+      "t": "speech మరియు debateలో ఒక సాధారణ ఐచ్ఛికం.",
+      "of": "b19dc6f0",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[5].description"
       ]
@@ -23463,8 +23434,8 @@
       ]
     },
     {
-      "t": "పేరున్న కోర్సుల కంటే పేరున్న పాఠ్యప్రణాళికలు — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — వీటితో పాటు ఆరు వారపు సుసంపన్న కార్యక్రమాలు మరియు ఒక K–5 Spanish కార్యక్రమం.",
-      "of": "0b6e3ce5",
+      "t": "పేరున్న కోర్సుల కంటే పేరున్న పాఠ్యప్రణాళికలు — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — వీటితో పాటు ఒక K–5 Spanish కార్యక్రమం సహా ఆరు వారపు సుసంపన్న కార్యక్రమాలు.",
+      "of": "7379846b",
       "at": [
         "trinity-episcopal:divisions[0].teaser"
       ]
@@ -23555,8 +23526,8 @@
       ]
     },
     {
-      "t": "పాఠశాలకున్న ఏకైక పేరున్న విద్యా సదుపాయం, మరియు ఒక వారపు Lower School సుసంపన్న కార్యక్రమం. ఇది ఒక STEM స్థలం, కళల స్థలం కాదు.",
-      "of": "0099fe3b",
+      "t": "STEMలో ఒక వారపు Lower School సుసంపన్న కార్యక్రమం.",
+      "of": "684190a7",
       "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[1].description"
       ]
@@ -23591,8 +23562,8 @@
       ]
     },
     {
-      "t": "Bible పాఠాలు మరియు ప్రపంచ మతాల అధ్యయనం, K–8 బోధిస్తారు మరియు Lower Schoolలో వారానికొకసారి నడుస్తుంది.",
-      "of": "8b34bf6d",
+      "t": "Bible పాఠాలు, ప్రపంచ మతాల అధ్యయనం మరియు మరిన్ని, K–8 బోధిస్తారు, Lower Schoolలో వారానికొకసారి నడుస్తుంది.",
+      "of": "297ef5d2",
       "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[5].description"
       ]
@@ -23612,15 +23583,15 @@
       ]
     },
     {
-      "t": "Profile PDFలో మాత్రమే",
-      "of": "093ec54a",
+      "t": "K–8",
+      "of": "5892cb59",
       "at": [
         "trinity-episcopal:divisions[0].departments[2].courses[0].tag"
       ]
     },
     {
-      "t": "Digital Learning Catalysts దీన్ని నిర్వహిస్తారు, K-1 విద్యార్థులందరికీ 1:1 iPads మరియు 2-8 తరగతుల విద్యార్థులందరికీ 1:1 Chromebooks. ఇది School Profileలో మాత్రమే ప్రచురితమైంది — ఏ /academics/ పేజీలోనూ కనిపించదు.",
-      "of": "6f111dc0",
+      "t": "School Profile ప్రకారం Digital Learning Catalysts ఈ కార్యక్రమాన్ని నిర్వహిస్తారు, K-1 విద్యార్థులందరికీ 1:1 iPads మరియు 2-8 తరగతుల విద్యార్థులందరికీ 1:1 Chromebooks ఉంటాయి.",
+      "of": "eafedffc",
       "at": [
         "trinity-episcopal:divisions[0].departments[2].courses[0].description"
       ]
@@ -23661,8 +23632,8 @@
       ]
     },
     {
-      "t": "ఆరో తరగతి కోర్సు. ఈ విభాగం అంతటా బోధన \"grounded in a problem-based core curriculum rooted in content and practice standards.\"",
-      "of": "005b7901",
+      "t": "6వ తరగతి కోర్సు; ఈ విభాగంలో బోధన \"grounded in a problem-based core curriculum rooted in content and practice standards.\"",
+      "of": "98d2c64d",
       "at": [
         "trinity-episcopal:divisions[1].departments[0].courses[0].description"
       ]
@@ -23675,8 +23646,8 @@
       ]
     },
     {
-      "t": "ఏడో తరగతికి వేగవంతమైన కోర్సు. విద్యార్థులను తరగతి-స్థాయి మరియు వేగవంతమైన కోర్సుల్లో \"based on specific performance criteria\" చేరుస్తారు — ఆ ప్రమాణాలను మాత్రం ప్రచురించలేదు.",
-      "of": "e789d153",
+      "t": "వేగవంతమైన 7వ తరగతి కోర్సు; విద్యార్థులను తరగతి-స్థాయి మరియు వేగవంతమైన కోర్సుల్లో \"based on specific performance criteria\" చేరుస్తారు, ఆ ప్రమాణాలను పాఠశాల ప్రచురించదు.",
+      "of": "d6226f59",
       "at": [
         "trinity-episcopal:divisions[1].departments[0].courses[2].description"
       ]
@@ -23698,16 +23669,10 @@
       ]
     },
     {
-      "t": "ఐదు వేర్వేరు 8వ తరగతి గణిత కోర్సుల్లో ఒకటి. దీనికి ఎలాంటి credit ఏర్పాటునూ పాఠశాల చెప్పలేదు.",
-      "of": "a4e5383f",
+      "t": "ఐదు వేర్వేరు 8వ తరగతి గణిత కోర్సుల్లో ఒకటి; దీనికి ఎలాంటి credit ఏర్పాటునూ పాఠశాల చెప్పలేదు.",
+      "of": "a1e663f7",
       "at": [
-        "trinity-episcopal:divisions[1].departments[0].courses[5].description"
-      ]
-    },
-    {
-      "t": "ఐదు 8వ తరగతి గణిత కోర్సుల్లో అత్యంత ముందున్నది. దీనికి ఎలాంటి credit ఏర్పాటునూ పాఠశాల చెప్పలేదు.",
-      "of": "d95bc060",
-      "at": [
+        "trinity-episcopal:divisions[1].departments[0].courses[5].description",
         "trinity-episcopal:divisions[1].departments[0].courses[7].description"
       ]
     },
@@ -23790,8 +23755,8 @@
       ]
     },
     {
-      "t": "6-8 తరగతుల్లో ఒక సమీకృత science కార్యక్రమం. ఒక్కో తరగతికి కోర్సు పేర్లు ప్రచురించలేదు.",
-      "of": "52f1e9bc",
+      "t": "6-8 తరగతుల్లో ఒక సమీకృత science కార్యక్రమం; ఒక్కో తరగతికి కోర్సు పేర్లు ప్రచురించలేదు.",
+      "of": "afc548ca",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[1].description"
       ]
@@ -23810,6 +23775,7 @@
         "trinity-episcopal:divisions[1].departments[4].courses[0].description",
         "trinity-episcopal:divisions[1].departments[4].courses[1].description",
         "trinity-episcopal:divisions[1].departments[4].courses[2].description",
+        "trinity-episcopal:divisions[1].departments[4].courses[3].description",
         "trinity-episcopal:divisions[1].departments[4].courses[4].description",
         "trinity-episcopal:divisions[1].departments[4].courses[5].description",
         "trinity-episcopal:divisions[1].departments[4].courses[6].description",
@@ -23831,13 +23797,6 @@
       "of": "82574932",
       "at": [
         "trinity-episcopal:divisions[1].departments[4].courses[3].title"
-      ]
-    },
-    {
-      "t": "ఒక వారపు సుసంపన్న కార్యక్రమం. అదనంగా ఒక 6వ తరగతి technology తరగతిని ప్రకటించారు, \"as digital learning catalysts teach students how to use AI to create code and build, not just how to input questions.\"",
-      "of": "f2331b71",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[3].description"
       ]
     },
     {
@@ -23876,8 +23835,8 @@
       ]
     },
     {
-      "t": "School Profile సుసంపన్న జాబితాలో పేర్కొన్నారు. వీటి విషయాలను ఎక్కడా ప్రచురించలేదు — ఈ పదబంధం profile PDFలో కనిపిస్తుంది, వెబ్‌సైట్‌లోని ఏ పేజీలోనూ కనిపించదు.",
-      "of": "315f7a14",
+      "t": "School Profile తన సుసంపన్న జాబితాలో వీటిని పేర్కొంటుంది, కానీ వీటిలో ఏమి ఉంటుందో వివరించదు.",
+      "of": "a8c6e6ee",
       "at": [
         "trinity-episcopal:divisions[1].departments[4].courses[9].description"
       ]
@@ -23904,8 +23863,8 @@
       ]
     },
     {
-      "t": "\"6th Grade students choose from one of two ensembles: choir or band.\" Ensembles chapelsలో, commencementలో మరియు పాఠశాల వెలుపలి వేదికలపై ప్రదర్శనలు ఇస్తాయి.",
-      "of": "41e16e7d",
+      "t": "Ensembles chapelsలో, commencementలో మరియు పాఠశాల వెలుపలి వేదికలపై ప్రదర్శనలు ఇస్తాయి, మరియు \"6th Grade students choose from one of two ensembles: choir or band.\"",
+      "of": "9f987f9e",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[0].description"
       ]
@@ -23981,8 +23940,8 @@
       ]
     },
     {
-      "t": "Early School వేర్వేరు కోర్సుల ద్వారా కాకుండా, మిశ్రమ వయస్సు తరగతి గదుల్లో Montessori పద్ధతిలో బోధిస్తుంది. క్రింది వరుసలు పాఠశాల పేర్కొన్న దశలు, మైలురాళ్లు మరియు ప్రత్యేక తరగతులు, పాఠశాల సొంత మాటల్లో.",
-      "of": "628e38e1",
+      "t": "Early School వేర్వేరు కోర్సుల ద్వారా కాకుండా, మిశ్రమ వయస్సు తరగతి గదుల్లో Montessori పద్ధతిలో బోధిస్తుంది. క్రింది వరుసలు పాఠశాల పేర్కొన్న దశలు, మైలురాళ్లు మరియు ప్రత్యేక తరగతులు; పాఠశాల సొంత మాటలు ఉద్ధరణ చిహ్నాలలో ఉన్నాయి.",
+      "of": "1cbb7949",
       "at": [
         "charlotte-prep:divisions[0].notPublished"
       ]
@@ -24194,8 +24153,8 @@
       ]
     },
     {
-      "t": "Charlotte Prep, Lower School కోసం సబ్జెక్టులు మరియు పేరున్న కార్యక్రమాలను ప్రచురిస్తుంది, ఒక్కో కోర్సు వివరణను కాదు. క్రింది వరుసలు అవే, పాఠశాల మాటల్లో.",
-      "of": "368adc89",
+      "t": "Charlotte Prep, Lower School కోసం సబ్జెక్టులు మరియు పేరున్న కార్యక్రమాలను ప్రచురిస్తుంది, ఒక్కో కోర్సు వివరణను కాదు. క్రింది వరుసలు అవే; పాఠశాల సొంత మాటలు ఉద్ధరణ చిహ్నాలలో ఉన్నాయి.",
+      "of": "99c93ee7",
       "at": [
         "charlotte-prep:divisions[1].notPublished"
       ]
@@ -24225,8 +24184,8 @@
       ]
     },
     {
-      "t": "\"decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process.\" — వీటిలో రోజువారీ బోధన.",
-      "of": "cb91d23a",
+      "t": "చదవడం, రాయడం, మాట్లాడటం మరియు వినడం నైపుణ్యాలలో రోజువారీ బోధన, \"including decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process.\"",
+      "of": "c764611d",
       "at": [
         "charlotte-prep:divisions[1].departments[0].courses[0].description"
       ]
@@ -24260,8 +24219,8 @@
       ]
     },
     {
-      "t": "\"Grounded in a global philosophy. A balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge.\"",
-      "of": "b89ff712",
+      "t": "గణితం \"grounded in a global philosophy,\" — ఇందులో \"a balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge.\"",
+      "of": "815de1c9",
       "at": [
         "charlotte-prep:divisions[1].departments[0].courses[2].description"
       ]
@@ -24397,8 +24356,8 @@
       ]
     },
     {
-      "t": "Charlotte Prep కోర్సు కేటలాగ్ లేదా program of studies ను ప్రచురించదు. ఇవి పాఠశాల స్వయంగా పేర్కొన్న సబ్జెక్టులు, కార్యక్రమాలు మరియు ఐచ్ఛికాలు, దాని సొంత మాటల్లో.",
-      "of": "824f5a2e",
+      "t": "Charlotte Prep కోర్సు కేటలాగ్ లేదా program of studiesను ప్రచురించదు. ఇవి పాఠశాల స్వయంగా పేర్కొన్న సబ్జెక్టులు, కార్యక్రమాలు మరియు ఐచ్ఛికాలు; పాఠశాల సొంత మాటలు ఉద్ధరణ చిహ్నాలలో ఉన్నాయి.",
+      "of": "f4441810",
       "at": [
         "charlotte-prep:divisions[2].notPublished"
       ]

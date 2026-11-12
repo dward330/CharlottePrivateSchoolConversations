@@ -1,0 +1,74 @@
+{
+  "generated": "2026-11-11",
+  "topic": "course-offerings",
+  "file": "src/data/courseOfferings.ts",
+  "slugs": [
+    "cannon",
+    "charlotte-christian",
+    "davidson-day"
+  ],
+  "note": "coursecensus Batch 2 wording units: item 2, three Charlotte Christian rows that counted as more than one sentence only because guard (r) splits at 'c.' (circa); 'c.' becomes 'about', the Batch 1 Ancient Empires precedent. Cannon Social Studies (divisions[0].departments[0].courses[3]) is left: its split is the '!' in the curriculum name 'Social Studies Alive!'. Charlotte Christian English 11 (World Literature) also counted two sentences because its quoted question sat mid-sentence; the quote is kept byte-identical and moved to the end (found at Batch 2; not in the plan's list of 21). Plus the independent reviewer's 8 wording edits (3 census fixes, 2 notes, 1 teaser, 2 OK-sample rows).",
+  "total": 12,
+  "units": [
+    {
+      "at": "charlotte-christian:divisions[2].departments[4].courses[2].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[2].departments[4].courses[2].description"
+    },
+    {
+      "at": "charlotte-christian:divisions[2].departments[4].courses[4].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[2].departments[4].courses[4].description"
+    },
+    {
+      "at": "charlotte-christian:divisions[2].departments[4].courses[7].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[2].departments[4].courses[7].description"
+    },
+    {
+      "at": "charlotte-christian:divisions[2].departments[1].courses[4].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[2].departments[1].courses[4].description"
+    },
+    {
+      "at": "cannon:divisions[0].departments[3].courses[3].description",
+      "slug": "cannon",
+      "path": "divisions[0].departments[3].courses[3].description"
+    },
+    {
+      "at": "cannon:divisions[1].teaser",
+      "slug": "cannon",
+      "path": "divisions[1].teaser"
+    },
+    {
+      "at": "cannon:divisions[1].notPublished",
+      "slug": "cannon",
+      "path": "divisions[1].notPublished"
+    },
+    {
+      "at": "cannon:divisions[2].departments[5].courses[9].description",
+      "slug": "cannon",
+      "path": "divisions[2].departments[5].courses[9].description"
+    },
+    {
+      "at": "charlotte-christian:divisions[0].notPublished",
+      "slug": "charlotte-christian",
+      "path": "divisions[0].notPublished"
+    },
+    {
+      "at": "charlotte-christian:divisions[1].departments[4].courses[1].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[1].departments[4].courses[1].description"
+    },
+    {
+      "at": "charlotte-christian:divisions[2].departments[8].courses[7].description",
+      "slug": "charlotte-christian",
+      "path": "divisions[2].departments[8].courses[7].description"
+    },
+    {
+      "at": "davidson-day:divisions[2].departments[2].courses[2].description",
+      "slug": "davidson-day",
+      "path": "divisions[2].departments[2].courses[2].description"
+    }
+  ]
+}

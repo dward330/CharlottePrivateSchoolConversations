@@ -1,6 +1,614 @@
 # Cannon School — Course Offerings
-> Distilled from 1 source document(s) in `source-material/course-offerings/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Curriculum Guide
+> Distilled from 2 source document(s) in `source-material/course-offerings/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-11.
+**Documents:** Curriculum Guide Full Descriptions 2026-2027, Curriculum Guide
+
+
+---
+
+## Curriculum Guide Full Descriptions 2026-2027
+
+*Source file: `Cannon - Course Offerings - Curriculum Guide Full Descriptions 2026-2027.md`*
+
+# Cannon School — Course Offerings — Curriculum Guide Full Descriptions 2026-2027
+**Provenance**
+
+- **Compiled by:** Claude Code, plan `coursecensus` Batch 2, at Derrick's request
+- **Date fetched:** 2026-11-11
+- **Why:** the earlier record (`Cannon - Course Offerings - Curriculum Guide.md`) holds the app's
+ own condensed descriptions word for word for 83% of courses, so it cannot catch a description
+ that drifted from the catalog. This file holds the school's own text, for the
+ description-to-catalog census.
+- **Upper School method:** the 2026-2027 Upper School Course Catalog PDF (44 pp.) was
+ re-downloaded from S1 with `curl` and its text extracted column by column with `pdfplumber`
+ (each two-column page is read left column, then right column). Runs of spaces were collapsed.
+ No other change. `pdfplumber` does not reproduce the "ONL Y" / "T opics" spacing that the
+ earlier `pypdf` extraction showed.
+ - PDF SHA-256: `e0c12815e6d6d8d6a9ae8407dc5de02f78b005823e2e67b4e76e1bb250a21f53`
+ - PDF metadata: created and modified 2026-01-13; cover "Upper School Course Catalog 2026-2027".
+- **Lower and Middle School method:** each division's live landing page and per-grade pages
+ (S3–S15) and the Academic Technology curriculum page (S16) were fetched as HTML and converted
+ to text; site navigation, staff lists and footer blocks were removed. The Junior Kindergarten
+ and Kindergarten pages (S5, S6) are linked from S4 and were added for the Early Childhood row.
+ The per-grade pages have no click-to-open tiles; the Middle and Upper School landing pages'
+ tiles are division prose and honor societies (no courses), per the Batch 1 popup scan.
+- **Catalog year:** the app was built from this same 2026-27 catalog (record, 2026-07-26).
+## Source URLs
+
+| Ref | URL | What it covers |
+| --- | --- | --- |
+| S1 | https://resources.finalsite.net/images/v1769529893/cannonschoolorg/ihl0lzuqgs9loqntga7z/CannonAcademicCourseCatalog2026-2027.pdf | Upper School Course Catalog 2026-2027 (44 pp.), every Upper School course entry |
+| S2 | https://www.cannonschool.org/academics/upper-school/curriculum | Upper School Curriculum page (graduation requirements; context only) |
+| S3 | https://www.cannonschool.org/academics/lower-school | Lower School landing |
+| S4 | https://www.cannonschool.org/academics/lower-school/early-childhood-jrkk | Early Childhood: JrK and Kindergarten |
+| S5 | https://www.cannonschool.org/academics/lower-school/early-childhood-jrkk/jr-kindergarten | Junior Kindergarten |
+| S6 | https://www.cannonschool.org/academics/lower-school/early-childhood-jrkk/kindergarten | Kindergarten |
+| S7 | https://www.cannonschool.org/academics/lower-school/first-grade | First Grade |
+| S8 | https://www.cannonschool.org/academics/lower-school/second-grade | Second Grade |
+| S9 | https://www.cannonschool.org/academics/lower-school/third-grade | Third Grade |
+| S10 | https://www.cannonschool.org/academics/lower-school/fourth-grade | Fourth Grade |
+| S11 | https://www.cannonschool.org/academics/middle-school | Middle School landing |
+| S12 | https://www.cannonschool.org/academics/middle-school/fifth-grade | Fifth Grade |
+| S13 | https://www.cannonschool.org/academics/middle-school/sixth-grade | Sixth Grade |
+| S14 | https://www.cannonschool.org/academics/middle-school/seventh-grade | Seventh Grade |
+| S15 | https://www.cannonschool.org/academics/middle-school/eighth-grade | Eighth Grade |
+| S16 | https://www.cannonschool.org/academics/academic-technology/academic-technology-curriculum | Academic Technology Curriculum (all divisions) |
+
+## Index — every app course, in app order
+
+Where each app row's own text sits below. Upper School rows point to the catalog page (PDF page number, as `===== PAGE N =====` below; found by title search, so confirm it). Lower and Middle School rows point to the division section.
+
+| App path | Division | Department | Title | Where |
+| --- | --- | --- | --- | --- |
+| `divisions[0].departments[0].courses[0]` | Lower School Courses | Core Academics | Language Arts | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[0].courses[1]` | Lower School Courses | Core Academics | Mathematics | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[0].courses[2]` | Lower School Courses | Core Academics | Science | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[0].courses[3]` | Lower School Courses | Core Academics | Social Studies | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[0].courses[4]` | Lower School Courses | Core Academics | Early Childhood Program | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[1].courses[0]` | Lower School Courses | World Language | Spanish | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[2].courses[0]` | Lower School Courses | Arts & PE | Art | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[2].courses[1]` | Lower School Courses | Arts & PE | Music | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[2].courses[2]` | Lower School Courses | Arts & PE | Physical Education | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[3].courses[0]` | Lower School Courses | Technology & Makers | Technology | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[3].courses[1]` | Lower School Courses | Technology & Makers | Makers | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[3].courses[2]` | Lower School Courses | Technology & Makers | Library | Lower School pages (S3–S10, S16) |
+| `divisions[0].departments[3].courses[3]` | Lower School Courses | Technology & Makers | School Counseling | Lower School pages (S3–S10, S16) |
+| `divisions[1].departments[0].courses[0]` | Middle School Courses | Core Academics | English | Middle School pages (S11–S16) |
+| `divisions[1].departments[0].courses[1]` | Middle School Courses | Core Academics | Science | Middle School pages (S11–S16) |
+| `divisions[1].departments[0].courses[2]` | Middle School Courses | Core Academics | Social Studies | Middle School pages (S11–S16) |
+| `divisions[1].departments[0].courses[3]` | Middle School Courses | Core Academics | Physical Education | Middle School pages (S11–S16) |
+| `divisions[1].departments[0].courses[4]` | Middle School Courses | Core Academics | Health Education | Middle School pages (S11–S16) |
+| `divisions[1].departments[1].courses[0]` | Middle School Courses | Mathematics | Mathematics | Middle School pages (S11–S16) |
+| `divisions[1].departments[1].courses[1]` | Middle School Courses | Mathematics | Pre-Algebra | Middle School pages (S11–S16) |
+| `divisions[1].departments[1].courses[2]` | Middle School Courses | Mathematics | Seventh-Grade Algebra I | Middle School pages (S11–S16) |
+| `divisions[1].departments[1].courses[3]` | Middle School Courses | Mathematics | Algebra I | Middle School pages (S11–S16) |
+| `divisions[1].departments[1].courses[4]` | Middle School Courses | Mathematics | Accelerated Geometry | Middle School pages (S11–S16) |
+| `divisions[1].departments[2].courses[0]` | Middle School Courses | World Languages | World Language Rotation | Middle School pages (S11–S16) |
+| `divisions[1].departments[2].courses[1]` | Middle School Courses | World Languages | World Language (daily) | Middle School pages (S11–S16) |
+| `divisions[1].departments[2].courses[2]` | Middle School Courses | World Languages | Spanish I / French I / Mandarin I | Middle School pages (S11–S16) |
+| `divisions[1].departments[3].courses[0]` | Middle School Courses | Arts & Technology | Major Art: Strings, Band, or Chorus | Middle School pages (S11–S16) |
+| `divisions[1].departments[3].courses[1]` | Middle School Courses | Arts & Technology | Arts Rotation | Middle School pages (S11–S16) |
+| `divisions[1].departments[3].courses[2]` | Middle School Courses | Arts & Technology | Arts Electives (choose two) | Middle School pages (S11–S16) |
+| `divisions[1].departments[3].courses[3]` | Middle School Courses | Arts & Technology | Academic Technology | Middle School pages (S11–S16) |
+| `divisions[2].departments[0].courses[0]` | Upper School Courses | English | Honors English I | catalog p. 16, 17, 18 |
+| `divisions[2].departments[0].courses[1]` | Upper School Courses | English | Honors English II: Reading and Discourse | catalog p. 16 |
+| `divisions[2].departments[0].courses[2]` | Upper School Courses | English | Honors English II: Reading and Composition | catalog p. 16 |
+| `divisions[2].departments[0].courses[3]` | Upper School Courses | English | Honors English III | catalog p. 16, 17, 18 |
+| `divisions[2].departments[0].courses[4]` | Upper School Courses | English | Advanced Topics: English Language and Composition | catalog p. 17 |
+| `divisions[2].departments[0].courses[5]` | Upper School Courses | English | Advanced Topics: English Seminar and Inquiry | catalog p. 17 |
+| `divisions[2].departments[0].courses[6]` | Upper School Courses | English | Honors English IV | catalog p. 17, 18 |
+| `divisions[2].departments[0].courses[7]` | Upper School Courses | English | Advanced Topics: English Literature and Composition | catalog p. 17 |
+| `divisions[2].departments[0].courses[8]` | Upper School Courses | English | Honors Creative Writing: Fiction, Poetry and Screenwriting | catalog p. 18 |
+| `divisions[2].departments[0].courses[9]` | Upper School Courses | English | Honors History of Film | catalog p. 18 |
+| `divisions[2].departments[1].courses[0]` | Upper School Courses | Mathematics | Honors Algebra I | catalog p. 24, 25, 26, 29 |
+| `divisions[2].departments[1].courses[1]` | Upper School Courses | Mathematics | Honors Principles of Geometry and Algebra | catalog p. 24 |
+| `divisions[2].departments[1].courses[2]` | Upper School Courses | Mathematics | Honors Accelerated Geometry | catalog p. 24 |
+| `divisions[2].departments[1].courses[3]` | Upper School Courses | Mathematics | Honors Algebra II | catalog p. 24, 25, 26, 29 |
+| `divisions[2].departments[1].courses[4]` | Upper School Courses | Mathematics | Honors Accelerated Algebra II | catalog p. 24, 25, 26, 29 |
+| `divisions[2].departments[1].courses[5]` | Upper School Courses | Mathematics | Honors Precalculus | catalog p. 25, 26 |
+| `divisions[2].departments[1].courses[6]` | Upper School Courses | Mathematics | Honors Accelerated Precalculus | catalog p. 25, 26 |
+| `divisions[2].departments[1].courses[7]` | Upper School Courses | Mathematics | Advanced Placement Precalculus | catalog p. 25 |
+| `divisions[2].departments[1].courses[8]` | Upper School Courses | Mathematics | Honors Calculus | catalog p. 25, 26 |
+| `divisions[2].departments[1].courses[9]` | Upper School Courses | Mathematics | Honors Statistics | catalog p. 25 |
+| `divisions[2].departments[1].courses[10]` | Upper School Courses | Mathematics | Advanced Placement Statistics | catalog p. 26 |
+| `divisions[2].departments[1].courses[11]` | Upper School Courses | Mathematics | Honors Discrete Mathematics and Personal Finance | catalog p. 26 |
+| `divisions[2].departments[1].courses[12]` | Upper School Courses | Mathematics | Advanced Placement Calculus AB | catalog p. 26, 29 |
+| `divisions[2].departments[1].courses[13]` | Upper School Courses | Mathematics | Advanced Placement Calculus BC | catalog p. 26, 29 |
+| `divisions[2].departments[1].courses[14]` | Upper School Courses | Mathematics | Advanced Topics in Mathematics and Calculus | catalog p. 26 |
+| `divisions[2].departments[2].courses[0]` | Upper School Courses | Science | Honors Principles of Chemistry and Physics | catalog p. 27, 28 |
+| `divisions[2].departments[2].courses[1]` | Upper School Courses | Science | Honors Accelerated Principles of Chemistry and Physics | catalog p. 27, 28 |
+| `divisions[2].departments[2].courses[2]` | Upper School Courses | Science | Honors Principles of Life Science | catalog p. 27 |
+| `divisions[2].departments[2].courses[3]` | Upper School Courses | Science | Honors Accelerated Principles of Life Science | catalog p. 27 |
+| `divisions[2].departments[2].courses[4]` | Upper School Courses | Science | Honors Chemistry | catalog p. 27, 28, 29, 30 |
+| `divisions[2].departments[2].courses[5]` | Upper School Courses | Science | Honors Accelerated Chemistry | catalog p. 28, 29, 30 |
+| `divisions[2].departments[2].courses[6]` | Upper School Courses | Science | Honors Chemistry and Physics II | catalog p. 28 |
+| `divisions[2].departments[2].courses[7]` | Upper School Courses | Science | Honors Biology | catalog p. 28 |
+| `divisions[2].departments[2].courses[8]` | Upper School Courses | Science | Honors Accelerated Biology | catalog p. 28, 29 |
+| `divisions[2].departments[2].courses[9]` | Upper School Courses | Science | Advanced Topics: Environmental Science | catalog p. 28 |
+| `divisions[2].departments[2].courses[10]` | Upper School Courses | Science | Advanced Placement Chemistry | catalog p. 28 |
+| `divisions[2].departments[2].courses[11]` | Upper School Courses | Science | Advanced Placement Biology | catalog p. 29 |
+| `divisions[2].departments[2].courses[12]` | Upper School Courses | Science | Advanced Placement Physics 1 | catalog p. 29 |
+| `divisions[2].departments[2].courses[13]` | Upper School Courses | Science | Advanced Placement Physics C | catalog p. 29 |
+| `divisions[2].departments[2].courses[14]` | Upper School Courses | Science | Honors Marine Science | catalog p. 30 |
+| `divisions[2].departments[2].courses[15]` | Upper School Courses | Science | Honors Anatomy and Physiology | catalog p. 30 |
+| `divisions[2].departments[2].courses[16]` | Upper School Courses | Science | Honors Seminar: Contemporary Issues in Science | catalog p. 30 |
+| `divisions[2].departments[3].courses[0]` | Upper School Courses | Social Studies | Honors World History | catalog p. 31 |
+| `divisions[2].departments[3].courses[1]` | Upper School Courses | Social Studies | Honors Accelerated World History I | catalog p. 31 |
+| `divisions[2].departments[3].courses[2]` | Upper School Courses | Social Studies | Honors Civics: Foundations of Democracy and Citizenship | catalog p. 31 |
+| `divisions[2].departments[3].courses[3]` | Upper School Courses | Social Studies | Advanced Topics: World History II | catalog p. 31, 32, 34 |
+| `divisions[2].departments[3].courses[4]` | Upper School Courses | Social Studies | Honors United States History | catalog p. 32 |
+| `divisions[2].departments[3].courses[5]` | Upper School Courses | Social Studies | Advanced Topics: United States History | catalog p. 32, 34 |
+| `divisions[2].departments[3].courses[6]` | Upper School Courses | Social Studies | Honors Practicum: Civil Discourse and the Social Sciences | catalog p. 33 |
+| `divisions[2].departments[3].courses[7]` | Upper School Courses | Social Studies | Honors Psychology | catalog p. 33 |
+| `divisions[2].departments[3].courses[8]` | Upper School Courses | Social Studies | Advanced Placement Psychology | catalog p. 33 |
+| `divisions[2].departments[3].courses[9]` | Upper School Courses | Social Studies | Advanced Topics: United States Government and Politics | catalog p. 34 |
+| `divisions[2].departments[3].courses[10]` | Upper School Courses | Social Studies | Advanced Topics: European History | catalog p. 34 |
+| `divisions[2].departments[4].courses[0]` | Upper School Courses | World Languages | Honors Spanish I: Novice | catalog p. 35 |
+| `divisions[2].departments[4].courses[1]` | Upper School Courses | World Languages | Honors Spanish II: Intermediate Foundations | catalog p. 35 |
+| `divisions[2].departments[4].courses[2]` | Upper School Courses | World Languages | Honors Spanish III: Intermediate Mid A | catalog p. 35 |
+| `divisions[2].departments[4].courses[3]` | Upper School Courses | World Languages | Honors Spanish IV: Intermediate Mid B | catalog p. 35 |
+| `divisions[2].departments[4].courses[4]` | Upper School Courses | World Languages | Honors Spanish V: Language with a Purpose | catalog p. 36 |
+| `divisions[2].departments[4].courses[5]` | Upper School Courses | World Languages | AP Spanish Language and Culture: Advanced | not found by title search |
+| `divisions[2].departments[4].courses[6]` | Upper School Courses | World Languages | Honors French I: Novice | catalog p. 36 |
+| `divisions[2].departments[4].courses[7]` | Upper School Courses | World Languages | Honors French II: Intermediate Foundations | catalog p. 36 |
+| `divisions[2].departments[4].courses[8]` | Upper School Courses | World Languages | Honors French III: Intermediate Mid A | catalog p. 37 |
+| `divisions[2].departments[4].courses[9]` | Upper School Courses | World Languages | Honors French IV: Intermediate Mid B | catalog p. 37 |
+| `divisions[2].departments[4].courses[10]` | Upper School Courses | World Languages | Honors French V: Intermediate High | catalog p. 37 |
+| `divisions[2].departments[4].courses[11]` | Upper School Courses | World Languages | Advanced Placement French Language: Advanced | catalog p. 37 |
+| `divisions[2].departments[4].courses[12]` | Upper School Courses | World Languages | Honors Chinese I: Novice | catalog p. 37 |
+| `divisions[2].departments[4].courses[13]` | Upper School Courses | World Languages | Honors Chinese II: Novice Mid A | catalog p. 38 |
+| `divisions[2].departments[4].courses[14]` | Upper School Courses | World Languages | Honors Chinese III: Novice Mid B | catalog p. 38 |
+| `divisions[2].departments[4].courses[15]` | Upper School Courses | World Languages | Honors Chinese IV: Intermediate Foundations | catalog p. 38 |
+| `divisions[2].departments[4].courses[16]` | Upper School Courses | World Languages | Honors Chinese V: Intermediate Mid A | catalog p. 38 |
+| `divisions[2].departments[4].courses[17]` | Upper School Courses | World Languages | Advanced Placement Chinese Language and Culture | catalog p. 39 |
+| `divisions[2].departments[5].courses[0]` | Upper School Courses | Arts | Honors Visual Foundations | catalog p. 19 |
+| `divisions[2].departments[5].courses[1]` | Upper School Courses | Arts | Honors Studio-2D | catalog p. 19 |
+| `divisions[2].departments[5].courses[2]` | Upper School Courses | Arts | Honors Studio-3D | catalog p. 19 |
+| `divisions[2].departments[5].courses[3]` | Upper School Courses | Arts | Honors Studio Arts II | catalog p. 19 |
+| `divisions[2].departments[5].courses[4]` | Upper School Courses | Arts | Honors Studio Arts III | catalog p. 19 |
+| `divisions[2].departments[5].courses[5]` | Upper School Courses | Arts | Advanced Placement Studio Art | catalog p. 19 |
+| `divisions[2].departments[5].courses[6]` | Upper School Courses | Arts | Advanced Topics: Art History | catalog p. 20 |
+| `divisions[2].departments[5].courses[7]` | Upper School Courses | Arts | Honors Theater I | catalog p. 20 |
+| `divisions[2].departments[5].courses[8]` | Upper School Courses | Arts | Honors Theater II | catalog p. 20 |
+| `divisions[2].departments[5].courses[9]` | Upper School Courses | Arts | Honors Theater in Performance | catalog p. 20 |
+| `divisions[2].departments[5].courses[10]` | Upper School Courses | Arts | Honors Concert Chorus | catalog p. 20 |
+| `divisions[2].departments[5].courses[11]` | Upper School Courses | Arts | Honors String Ensemble I–IV | not found by title search |
+| `divisions[2].departments[5].courses[12]` | Upper School Courses | Arts | Honors Upper School Band | catalog p. 21 |
+| `divisions[2].departments[5].courses[13]` | Upper School Courses | Arts | Honors Cannon School Jazz Combo | catalog p. 21 |
+| `divisions[2].departments[5].courses[14]` | Upper School Courses | Arts | Honors Modern Ensemble | catalog p. 21 |
+| `divisions[2].departments[5].courses[15]` | Upper School Courses | Arts | Honors Music Technology I | catalog p. 22 |
+| `divisions[2].departments[5].courses[16]` | Upper School Courses | Arts | Honors Music Technology II | catalog p. 22 |
+| `divisions[2].departments[5].courses[17]` | Upper School Courses | Arts | Honors Music Technology III: Music Production | catalog p. 22 |
+| `divisions[2].departments[5].courses[18]` | Upper School Courses | Arts | Honors Creative Design and Engineering I | catalog p. 22, 23 |
+| `divisions[2].departments[5].courses[19]` | Upper School Courses | Arts | Honors Creative Design and Engineering II | catalog p. 23 |
+| `divisions[2].departments[5].courses[20]` | Upper School Courses | Arts | Honors Creative Design and Engineering Studio | catalog p. 23 |
+| `divisions[2].departments[6].courses[0]` | Upper School Courses | Innovation & Enterprise | Advanced Topics: Principles of Computer Science and Coding | catalog p. 40 |
+| `divisions[2].departments[6].courses[1]` | Upper School Courses | Innovation & Enterprise | Advanced Placement Computer Science A | catalog p. 40 |
+| `divisions[2].departments[6].courses[2]` | Upper School Courses | Innovation & Enterprise | Advanced Topics: Microeconomics: Politics and Policy | catalog p. 41 |
+| `divisions[2].departments[6].courses[3]` | Upper School Courses | Innovation & Enterprise | Advanced Topics: Business and Entrepreneurship with Personal Finance | catalog p. 41 |
+| `divisions[2].departments[6].courses[4]` | Upper School Courses | Innovation & Enterprise | Honors Business of Esports | catalog p. 41 |
+| `divisions[2].departments[6].courses[5]` | Upper School Courses | Innovation & Enterprise | Honors Glocal Perspectives | catalog p. 40 |
+| `divisions[2].departments[6].courses[6]` | Upper School Courses | Innovation & Enterprise | Senior Colloquium: Leadership | catalog p. 40 |
+| `divisions[2].departments[6].courses[7]` | Upper School Courses | Innovation & Enterprise | Honors Yearbook | catalog p. 41 |
+| `divisions[2].departments[7].courses[0]` | Upper School Courses | Physical Education | Wellness and Long-term Athletic Development | catalog p. 42 |
+
+## Lower School — division and grade pages (S3–S10)
+
+### Lower School landing (S3, academics/lower-school)
+
+Lower School
+
+## Welcome to Lower School!
+
+Greetings Lower School Community,
+
+I am ecstatic to serve as the Head of Lower School at Cannon School. To this role, I bring my experience in working with curriculum and teachers from lower and middle school, my enthusiasm in partnering with parents, and my love for educating students.
+
+As you continue to learn more about our school community, we believe you will find that what makes our Lower School a place where your child can grow is summarized in the words of Cannon’s mission statement:
+
+Cannon School nurtures relationships at the heart of learning and engages the learner in a journey of growth.
+
+In fact, I encourage you to test us by looking for how we can bring these hallmarks of the Lower School experience, and Cannon’s mission, to life for your family:
+
+- My child will thrive at this school and be known at this school.
+
+- My child will grow and mature and fulfill potential at this school.
+
+- My child will develop emotionally and socially in a healthy environment at this school.
+
+- My child will cultivate natural and developed talents at this school. Intellectual curiosity and a love of learning will be developed through in-class activities, co-curricular classes like science, music, library, art, Spanish, physical education, technology, and STEM experiences.
+
+I hope there will be many opportunities for us to talk and learn from one another as we move through this year. I am honored and humbled to lead and learn from the Lower School community at Cannon School.
+
+Best,
+
+Regina Nixon
+
+Head of Lower School
+
+## In This Section
+
+- Welcome to Lower School
+
+- Early Childhood: JrK and Kindergarten
+
+- Junior Kindergarten
+
+- Kindergarten
+
+- First Grade
+
+- Second Grade
+
+- Third Grade
+
+- Fourth Grade
+
+- LS Student Life
+
+###
+Dr. Regina Nixon
+
+View Profile
+for Dr. Regina Nixon
+
+Our incredible educators are dedicated to truly knowing and understanding every child,
+
+both as learners and individuals.
+
+### Early Childhood: JrK and Kindergarten (S4, academics/lower-school/early-childhood-jrkk)
+
+Early Childhood: JrK and Kindergarten
+
+## Hallmarks of Early Childhood Education at Cannon School
+
+At Cannon School, a strong early childhood education has been a benchmark of our school's philosophy since our founding in 1969. Junior Kindergarten and Kindergarten are the foundation of a child's development and help set the stage for all future learning. Knowing this, our approach to these early years is purposeful, thoughtful, child-centered, and research-based.
+
+### Nurturing curiosity, cultivating autonomy, inspiring learning, and celebrating each child—
+
+These are the hallmarks of the early childhood experience at Cannon School.
+
+-
+Nurturing Curiosity
+
+-
+Cultivating Autonomy
+
+-
+Inspiring Learning
+
+-
+Celebrating Each Child
+
+## Nurturing Curiosity
+
+JrK and K children love to ask the question, "why?" As they observe the world around them, they are working to find meaning and understand everything’s inner-workings. We celebrate this natural part of who they are by encouraging questions, valuing their wonderings, and affirming that their inquisitiveness is a vital part of the learning experience. Cultivating this curiosity early creates children who are invested in the learning experience and who make the most out of every learning opportunity.
+
+Curiosity = Engagement
+
+## Cultivating Autonomy
+
+Autonomy occurs when students feel a level of ownership in their learning and classroom environment. This is honed through self-direction, choice and voice. Our children are given a set of responsibilities that can be as simple as independently completing their morning routines to freely navigating the learning centers. They have choices in how they tackle their work, how they demonstrate their learning, and of course, in how they play. By celebrating the choices they make, JrK and K students feel their voices are heard within the classroom environment. It builds self-assurance, motivation, and an understanding of one's abilities.
+
+Autonomy = Motivation and Responsibility
+
+## Inspiring Learning
+
+There is a joy that comes from learning. It spurs the imagination, engenders excitement, and leaves one thirsty for more. It is our responsibility to nurture this joy in every one of our students, and present them with the gift of learning that they cannot wait to unwrap. Therefore, we create unique learning experiences that are child-centered and meet the needs of different types of learners. Many of our learning activities are hands-on, collaborative, experiential, and multi-sensory.
+
+Our curriculum builds a strong academic foundation in reading, writing, and math. Students are challenged with the proper support which promotes their growth as learners and critical thinkers.
+
+Inspiration = Excitement
+
+## Celebrating Each Child
+
+Each child is unique. Therefore, we do not take a one-size-fits-all approach to teaching and learning. Our teachers are dedicated to knowing and understanding each child, both as a learner and as an individual. We know that children develop at different paces and grasp concepts in a myriad of ways. We celebrate these differences, building children’s confidence so they feel comfortable handling the new things that come their way.
+
+Celebration = Knowing and Understanding
+
+## Requirements for Admission
+
+In addition to the standard readiness and entrance evaluations, the following criteria must be met:
+
+- Junior Kindergarten students need to be 4 years old by the first day of school.
+
+- Kindergarten students need to be 5 years old by the first day of school.
+
+- Children must be able to use the bathroom independently before enrolling in Cannon School.
+
+## In This Section
+
+- Welcome to Lower School
+
+- Early Childhood: JrK and Kindergarten
+
+- Junior Kindergarten
+
+- Kindergarten
+
+- First Grade
+
+- Second Grade
+
+- Third Grade
+
+- Fourth Grade
+
+- LS Student Life
+
+## What to look for:
+
+## Explore Cannon's Junior Kindergarten and Kindergarten Programs
+
+Junior Kindergarten
+
+Students work towards becoming self-governing in Junior Kindergarten by progressively becoming more independent when completing workshops.
+
+Learn more.
+
+Kindergarten
+
+In kindergarten, we focus and guide students to become confident communicators while being self-reliant and self-governing.
+
+Learn more.
+
+### Junior Kindergarten (S5, academics/lower-school/early-childhood-jrkk/jr-kindergarten)
+
+Junior Kindergarten
+
+## Welcome to Junior Kindergarten
+
+In Junior Kindergarten, students begin to develop the habits of adaptive expertise. Junior Kindergarten students learn to be strategic and metacognitive about their work when approaching a project and are then reflective about their work upon completion.
+
+Students work towards becoming self-governing in Junior Kindergarten by progressively becoming more independent when completing workshops.
+
+Free play time allows the children to develop their communication skills as they relate to others and learn more about themselves. We foster risk-taking in our students during whole group instruction and workshops by providing an environment where it is safe to take a chance.
+
+## Choose a subject to learn more about Cannon's JrK curriculum:
+
+-
+Art
+
+-
+Language Arts
+
+-
+Library
+
+-
+Makers
+
+-
+Math
+
+-
+Music
+
+-
+Physical Education
+
+-
+School Counseling
+
+-
+Science
+
+-
+Social Studies
+
+-
+Technology
+
+## Art
+
+In Junior Kindergarten, students work in table centers where they begin to develop their artistic skills and vocabulary, while learning to make choices about the kinds of art they are interested in creating. Elements of art are infused into each center, providing the foundation for future artistic endeavors. Centers include collage, drawing, painting, building, printmaking, and 3-D sculpting.
+
+## Language Arts
+
+The Junior Kindergarten literacy program develops phonological and phonemic awareness skills daily. Students garner an understanding of rhyme, phoneme isolation, blending, segmenting, and phoneme manipulation. Students will also practice early literacy skills including building alphabet knowledge and language awareness. We have a rich language environment that includes read-alouds, nursery rhymes, poetry, and morning messages.
+
+Our beginning handwriting skills start with activities to strengthen the fine motor muscles needed for writing. We teach handwriting through a multisensory, systematic program and students are encouraged to write uppercase letters for learned sounds.
+
+## Library
+
+Junior kindergarteners enjoy an introduction to the library setting. They learn the role of the librarian and learn how to borrow, use, and care for library materials properly. Our ultimate goal is to cultivate a love of books and reading. During their library visits, students enjoy Read-Alouds and retell stories through drama, music, movement, and making projects.
+
+## Makers
+
+In Junior Kindergarten, students tackle design projects and building challenges related to the content being taught in the classroom. We often pick a topic in the classroom curriculum to explore with greater depth. For example, when studying transportation over water, students built sailboats and experimented with making sails of different shapes to see which boats sailed the best. Students primarily use fabrication materials, such as play-dough, popsicle sticks, and modeling clay over tools. The makerspace is also a great place for the development of fine motor skills such as tearing, pouring, cutting, pasting, and stacking.
+
+## Math
+
+Our Jr Kindergarten math program is rooted in Building Blocks: Number Worlds. This developmentally appropriate and research-based curriculum builds a strong foundation in number sense through playful exploration and hands-on learning. Children engage in counting, comparing quantities, recognizing shapes, and sequencing events in time—all through games, stories, songs, and manipulatives.
+
+Through thoughtful conversations and active learning, students begin to notice patterns, make predictions, and solve simple problems using numbers and logic. Emphasis is placed on exploring mathematical thinking in real-world contexts, helping students build confidence, curiosity, and early reasoning skills.
+
+## Music
+
+The Junior Kindergarten music program emphasizes speech and singing along with moving and playing instruments. Basic musical concepts of beat, rhythm, instrument play and movement are introduced using songs and games, ostinato patterns, and activities to enhance musical experiences. The methodology of Carl Orff plays a major role in this program, helping each student relate to music in a natural child-centered way. Students are encouraged to sing in unison as well as individually and to recognize differences in pitch, timbre, tempo, mood, and dynamics. Junior Kindergarten students perform at the Teddy Bear Picnic in the fall.
+
+## Physical Education
+
+The focus for our junior kindergarteners is to provide fun, child-centered activities that focus on locomotor and balance skills. By providing stations for fitness, freeze dance, tag games and gymnastics, junior kindergarteners have the opportunity to hone their gross motor skill set through play. What better way is there to learn, than by having fun! Our goal as a Lower School Physical Education Department is for all students to be equipped with appropriate knowledge of varying sports and to develop a lifelong love for fitness.
+
+## School Counseling
+
+The Lower School years are ones of rapid growth and development. Each new birthday brings tremendous change. Typical challenges and characteristics of children, by age and developmental stage, can be found on the School Counseling webpage along with recommended resources.
+
+## Science
+
+Junior kindergarteners are encouraged to use their natural curiosities to develop into young scientists. The students are engaged by many discovery units covering topics such as space, plants, animals, weather, and healthy bodies.
+
+## Social Studies
+
+Our Junior Kindergarten Social Studies curriculum consists of students gaining insight on areas consisting of personal knowledge, family, getting along with others, making friends, problem solving socially, lending a helping hand, and the importance of taking care of the environment. Geography and mapping skills are implemented to allow for connections between home and the broader community.
+
+## Technology
+
+In Lower School, our learning design involves high engagement, structured so that students are drawn into appropriate levels of challenge. Curiosity and creativity are nurtured, along with consistent encouragement for teamwork and partner work. Students are encouraged to try new things, and to think and talk through problem-solving steps.
+
+During the Junior Kindergarten year, students participate in a variety of hands-on challenges. At
+
+the start, we primarily use “unplugged” resources, as students build confidence and
+
+collaboration. As the year progresses, students use quality learning software appropriate to their
+
+developmental level in the areas of literacy, reading, counting, patterns, and more.
+
+## In This Section
+
+- Welcome to Lower School
+
+- Early Childhood: JrK and Kindergarten
+
+- Junior Kindergarten
+
+- Kindergarten
+
+- First Grade
+
+- Second Grade
+
+- Third Grade
+
+- Fourth Grade
+
+- LS Student Life
+
+### Kindergarten (S6, academics/lower-school/early-childhood-jrkk/kindergarten)
+
+Kindergarten
+
+## Welcome to Kindergarten
+
+At Cannon School, we believe in fostering a lifelong love of learning supported through the habits of adaptive expertise. In kindergarten, we focus and guide students to become confident communicators while being self-reliant and self-governing.
+
+We offer a challenging, caring, and motivating environment where students can grow and mature intellectually, socially, emotionally, and physically.
+
+Daily lessons include individual, whole, and small group learning. The goal we have for our students is that they arrive to school each day excited to be fully engaged in the experience of learning at their individual developmental level. Co-curricular classes of music, art, makers, computer, science, technology, library, Spanish, wellness, and physical education complement our curriculum. The kindergarten year is one of tremendous growth, and educating the whole child is our primary focus.
+
+## Choose a subject to learn more about Cannon's Kindergarten curriculum
+
+-
+Art
+
+-
+Language Arts
+
+-
+Library
+
+-
+Makers
+
+-
+Math
+
+-
+Music
+
+-
+Physical Education
+
+-
+School Counseling
+
+-
+Science
+
+-
+Social Studies
+
+-
+Spanish
+
+-
+Technology
+
+## Art
+
+The kindergarten art program continues with centers that offer choice and autonomy for students, allowing them to begin taking ownership over their own learning. Elements and principles of art are reinforced and reviewed from the previous year. Within each of the centers, students are exposed to a variety of different materials and are able to compare and make decisions about which media will be the best fit for their artwork. Students are encouraged to discuss their work with one another and offer suggestions or compliments.
+
+## Language Arts
+
+The kindergarten literacy program builds a solid foundation for all future reading and writing skills. A multisensory approach is used to help children build phonemic awareness and develop letter-sound recognition. Students learn to decode and encode (spell) words using explicit, systematic instruction during whole-group and small-group time. Students will apply these skills during small group time by reading developmentally appropriate texts. Comprehension skills are taught through read-alouds that are authentic, diverse, and rich in vocabulary and themes.
+
+In our kindergarten program, we focus on laying the essential groundwork for your child to become a confident and skilled writer. We begin by immersing them in engaging stories, and encouraging discussions about the elements present in these stories. Your child will be exposed to shared and guided writing activities with the whole class as they begin their writing journey.
+
+Throughout the year, your child will explore various writing genres such as non-fiction, opinion pieces, and poetry. We guide them through different stages of writing, starting with labeling and progressing to forming sentences. By the end of the year, your child will confidently write multiple sentences about specific topics. We foster a supportive and creative environment by meeting each student where they are in the writing process and growing their writing abilities.
+
+Handwriting skills continue to be developed systematically using the Handwriting Without Tears curriculum. Students have a variety of opportunities to write at their developmental level through guided writing experiences.
+
+## Library
+
+Our kindergarteners explore diversity through literature, learn how to compare and contrast different versions of stories, and learn to differentiate between fiction and non-fiction. Kindergarteners learn basic research skills, becoming familiar with the library as a primary source of materials and develop their own literature preferences. The foundation for proper use of resources is reinforced extensively during their kindergarten year.
+
+## Makers
+
+In Kindergarten, students engage in hands-on learning experiences when visiting the maker space. The problems they explore are integrated with the existing curriculum, allowing for a greater depth of exploration and understanding. As students learned about arctic animals, they replicated their fur with fabrication materials such as cotton balls and felt sheets to see how well the fur was insulated under a heating pad. Students primarily use fabrication materials as opposed to tools at this age.
+
+## Math
+
+Kindergarten students use the Reveal Math curriculum to build strong number sense and a joy for mathematical discovery. Through hands-on activities, guided discussions, and purposeful play, students learn to recognize, count, and compare numbers, understand simple addition and subtraction, identify and build shapes, and measure using informal and formal tools.
+
+Teachers use games, manipulatives, and interactive technology to foster an environment where students take risks, talk through their thinking, and explore different ways to solve problems. Concepts are revisited throughout the year, deepening understanding and allowing students to develop flexibility with early math strategies.
+
+## Music
+
+In music, kindergarten students are encouraged to sing in unison as well as individually and to recognize differences in pitch, rhythm, beat, timbre, tempo, mood, and dynamics. Expression of the beat and the playing of simple rhythm patterns using classroom percussion instruments increases the understanding of beat and rhythm. Emphasis is placed on helping each student experience the confidence and enjoyment of producing music vocally and instrumentally as well as moving and listening to many different kinds of music. Basic musical concepts are introduced using songs, speech, games, patterning, and activities designed to begin developing listening, reading and writing skills. The methodology of Carl Orff plays a major role in this program, helping each student relate to music in a natural, child-centered way. Kindergarten students perform at the Mother's Day Tea and at their Moving Up Ceremony.
+
+## Physical Education
+
+In kindergarten, our students fine tune their locomotor skills by increasing the intensity of their play from that of the junior kindergarten level. Students improve hand/eye coordination through throwing and catching skills, jump rope, parachute fun, beach ball, and bean bag games. As we continue to improve coordination and fine motor control, students progress to activities such as rock climbing, gymnastics and tumbling, as well as age appropriate sports drills. While all of this sounds like a lot of fun (and it is!), we nurture the gross motor development of each child through these varying activities. Our goal as a Lower School Physical Education Department is for all students to be equipped with appropriate knowledge of varying sports and to develop a lifelong love for fitness.
+
+## School Counseling
+
+The Lower School years are ones of rapid growth and development. Each new birthday brings tremendous change. Typical challenges and characteristics of children, by age and developmental stage, can be found on the School Counseling webpage along with recommended resources.
+
+## Science
+
+Kindergarteners are naturally curious and inquisitive with all of the science topics we study. A real goal of this year in science is to help them form predictions and then eventually conclusions based on what they observe. This is done through mini units of study covering space, weather, layers of Earth, animals, and seed germinations.
+
+## Social Studies
+
+Kindergarten focuses on "My School and Family" through our social studies curriculum. Students are active participants, experiencing social studies through innovative teaching practices that include role-playing, creative simulations, dynamic group projects, and other interactive activities. Some of the topics include: How do we get along in school? Why is it important to learn from each other? Why do schools have rules? Who works at your school? How are we good helpers at school?
+
+## Spanish
+
+The program is a marriage of the Communicative Language Approach (CLT) and the Foreign Language in the Elementary School (FLES) approach. Both approaches encourage self-expression and communication. Furthermore, the FLES approach emphasizes cross-curricular content and tasks at grade level.
+
+Kindergarten students are introduced to Spanish in a friendly, hands-on, interactive way through songs, chants, choral repetitions, stories, games, and crafty activities. They go from simple units on greetings, colors, shapes, numbers, that are reviewed throughout the year, to more complex units on fruits, foods, toys, and farm animals. They learn to form sentences with basic verbs such as is, want, love, there is/are. They go on imaginary trips to South America, covering three major habitats and six animals.
+
+## Technology
+
+In Lower School, our learning design involves high engagement, structured so that students are drawn into appropriate levels of challenge. Curiosity and creativity are nurtured, along with consistent encouragement for teamwork and partner work. Students are encouraged to try new things, and to think and talk through problem-solving steps.
+
+During the kindergarten year, students are introduced to coding, robotics, and computational thinking through the use of developmentally appropriate resources, both “plugged” and “unplugged.” They participate in a variety of hands-on maker challenges.
+
+Technology is integrated into classroom curriculum units to promote information literacy, creative work, and critical thinking. Students also use quality learning software appropriate to their developmental level in the areas of literacy and reading, and in math and problem solving.
+
+## In This Section
+
+- Welcome to Lower School
+
+- Early Childhood: JrK and Kindergarten
+
+- Junior Kindergarten
+
+- Kindergarten
+
+- First Grade
+
+- Second Grade
+
+- Third Grade
+
+- Fourth Grade
+
+- LS Student Life
+
+### First Grade (S7, aca
+
+…[truncated]
 
 
 ---
@@ -354,6 +962,8 @@ keyboarding, creative mixed media, presentations, and research skills.
 - https://www.cannonschool.org/academics/academic-technology/academic-technology-curriculum
 - https://www.cannonschool.org/academics/lower-school
 - https://www.cannonschool.org/academics/lower-school/early-childhood-jrkk
+- https://www.cannonschool.org/academics/lower-school/early-childhood-jrkk/jr-kindergarten
+- https://www.cannonschool.org/academics/lower-school/early-childhood-jrkk/kindergarten
 - https://www.cannonschool.org/academics/lower-school/first-grade
 - https://www.cannonschool.org/academics/lower-school/fourth-grade
 - https://www.cannonschool.org/academics/lower-school/second-grade

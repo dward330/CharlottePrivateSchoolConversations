@@ -1,6 +1,865 @@
 # Davidson Day School — Course Offerings
-> Distilled from 1 source document(s) in `source-material/course-offerings/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
-**Documents:** Curriculum Guide
+> Distilled from 2 source document(s) in `source-material/course-offerings/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-11.
+**Documents:** Curriculum Guide Full Descriptions 2026-2027, Curriculum Guide
+
+
+---
+
+## Curriculum Guide Full Descriptions 2026-2027
+
+*Source file: `Davidson Day - Course Offerings - Curriculum Guide Full Descriptions 2026-2027.md`*
+
+# Davidson Day School — Course Offerings — Curriculum Guide Full Descriptions 2026-2027
+**Provenance**
+
+- **Compiled by:** Claude Code, plan `coursecensus` Batch 2, at Derrick's request
+- **Date fetched:** 2026-11-11
+- **Why:** the earlier record (`Davidson Day - Course Offerings - Curriculum Guide.md`) holds the
+ app's own condensed descriptions word for word for 60% of courses, so it cannot catch a
+ description that drifted from the catalog. This file holds the school's own text, for the
+ description-to-catalog census.
+- **Upper School method (the earlier record's path):** Issuu serves no text, so all 71 page images
+ of the 2026-2027 Upper School Course Catalog were downloaded from
+ `https://image.isu.pub/260402123341-cdbc20014618b50dcafae1b78b43224f/jpg/page_N.jpg`
+ (N = 1–71, 2312 × 2992 px; page 72 returns HTTP 403) and OCR'd with the macOS Vision framework
+ (`VNRecognizeTextRequest`, accurate level, language correction on). Two-column pages are read
+ left column, then right column; text fragments on one baseline are joined left to right.
+ - SHA-256 over the 71 page-image hashes, in page order: `da2da90950e650867e36dd412b8debe2ebd5d575fb672b045c98e0438dca3939`
+ - Page 1 image SHA-256: `94fd3e34ba2dd1f1807dbb3433e68ff61fbb1e1fb42a61a74f8d38d77d5ae2ed`
+- **OCR limits.** Prose pages read cleanly; the course descriptions were spot-checked against the
+ page images. Known OCR slips: Roman numeral "II" often reads "Il" or "11" ("Algebra Il",
+ "Honors Algebra 11"), and "5th" can read "Sth". Read them as the catalog's own "II" and "5th".
+ **Table and chart pages do not OCR usefully** (p. 8 graduation requirements, p. 28 math
+ progression chart, p. 70 offerings by year): p. 11 was checked against its image and matches;
+ p. 28 is given below as a hand transcription read from the image; for pp. 8 and 70 the OCR is
+ kept as-is and the image is the authority.
+- **Middle School, Lower School and Early Childhood:** the live division pages (S5–S7), the
+ Academics overview (S8) and the Diploma Distinctions and Global Studies pages (S9, S10) were
+ fetched as HTML and converted to text; navigation and footer removed.
+- **Catalog year:** the app was built from this same 2026-2027 catalog (record, 2026-07-26).
+## Source URLs
+
+| Ref | URL | What it covers |
+| --- | --- | --- |
+| S1 | https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog | 2026-2027 Upper School Course Catalog (71 pp.), every Upper School course entry; p. 28 math progression from 5th grade |
+| S1i | https://image.isu.pub/260402123341-cdbc20014618b50dcafae1b78b43224f/jpg/page_N.jpg | The catalog's page images (N = 1–71), the text source for S1 |
+| S4 | https://www.davidsonday.org/academics/upper-school | Upper School page |
+| S5 | https://www.davidsonday.org/academics/middle-school | Middle School page |
+| S6 | https://www.davidsonday.org/academics/lower-school | Lower School page |
+| S7 | https://www.davidsonday.org/academics/early-childhood | Early Childhood page |
+| S8 | https://www.davidsonday.org/academics/academics-at-davidson-day | Academics overview |
+| S9 | https://www.davidsonday.org/academics/diploma-distinctions | Diploma Distinctions hub |
+| S10 | https://www.davidsonday.org/academics/diploma-distinctions/global-studies | Global Studies Diploma page |
+
+## Index — every app course, in app order
+
+Where each app row's own text sits below. Upper School rows point to the catalog page (`===== PAGE N =====` below; found by title search on the OCR text, so confirm it). Middle and Lower School rows point to the sections that hold their text.
+
+| App path | Division | Department | Title | Where |
+| --- | --- | --- | --- | --- |
+| `divisions[0].departments[0].courses[0]` | Lower School Courses | What is published | Early Childhood Program | Lower School page (S6) / Early Childhood page (S7) |
+| `divisions[0].departments[0].courses[1]` | Lower School Courses | What is published | Specials | Lower School page (S6) / Early Childhood page (S7) |
+| `divisions[1].departments[0].courses[0]` | Middle School Courses | Mathematics | 5th Grade Math | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[0].courses[1]` | Middle School Courses | Mathematics | Accelerated Math 1 | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[0].courses[2]` | Middle School Courses | Mathematics | Math 1 | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[0].courses[3]` | Middle School Courses | Mathematics | Accelerated Math 2 | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[0].courses[4]` | Middle School Courses | Mathematics | Accelerated Math 2/3 | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[0].courses[5]` | Middle School Courses | Mathematics | Math 2 | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[0].courses[6]` | Middle School Courses | Mathematics | Accelerated Math 3 | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[0].courses[7]` | Middle School Courses | Mathematics | Math 3 | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[0].courses[8]` | Middle School Courses | Mathematics | Honors Algebra 1 | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[0].courses[9]` | Middle School Courses | Mathematics | Honors Geometry | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[1].courses[0]` | Middle School Courses | Other published detail | Study Skills | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[1].courses[1]` | Middle School Courses | Other published detail | Upper School course access | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[1].departments[1].courses[2]` | Middle School Courses | Other published detail | AFAR International Research | catalog p. 28 (chart, hand transcription) / Middle School page (S5) |
+| `divisions[2].departments[0].courses[0]` | Upper School Courses | English | English I | catalog p. 21, 22, 23, 24 |
+| `divisions[2].departments[0].courses[1]` | Upper School Courses | English | English I Honors | catalog p. 21, 22 |
+| `divisions[2].departments[0].courses[2]` | Upper School Courses | English | English II | catalog p. 22, 23, 24 |
+| `divisions[2].departments[0].courses[3]` | Upper School Courses | English | English II Honors | catalog p. 22 |
+| `divisions[2].departments[0].courses[4]` | Upper School Courses | English | English III Honors | catalog p. 23, 24 |
+| `divisions[2].departments[0].courses[5]` | Upper School Courses | English | English IV Honors | catalog p. 23 |
+| `divisions[2].departments[0].courses[6]` | Upper School Courses | English | AP English Language and Composition | catalog p. 24 |
+| `divisions[2].departments[0].courses[7]` | Upper School Courses | English | AP English Literature and Composition | catalog p. 24 |
+| `divisions[2].departments[0].courses[8]` | Upper School Courses | English | Creative Writing Honors | catalog p. 23, 70 |
+| `divisions[2].departments[0].courses[9]` | Upper School Courses | English | Introduction to Yearbook | catalog p. 25 |
+| `divisions[2].departments[0].courses[10]` | Upper School Courses | English | Yearbook Honors | catalog p. 25, 70 |
+| `divisions[2].departments[1].courses[0]` | Upper School Courses | Mathematics | Algebra I | catalog p. 27, 29, 30, 41 |
+| `divisions[2].departments[1].courses[1]` | Upper School Courses | Mathematics | Algebra I Honors | not found by title search |
+| `divisions[2].departments[1].courses[2]` | Upper School Courses | Mathematics | Geometry | catalog p. 12, 28, 29, 30 |
+| `divisions[2].departments[1].courses[3]` | Upper School Courses | Mathematics | Geometry Honors | catalog p. 28, 29, 70 |
+| `divisions[2].departments[1].courses[4]` | Upper School Courses | Mathematics | Algebra II | catalog p. 29, 70 |
+| `divisions[2].departments[1].courses[5]` | Upper School Courses | Mathematics | Algebra II/Trigonometry Honors | catalog p. 29 |
+| `divisions[2].departments[1].courses[6]` | Upper School Courses | Mathematics | Precalculus | catalog p. 28, 30, 31, 70 |
+| `divisions[2].departments[1].courses[7]` | Upper School Courses | Mathematics | AP Precalculus | catalog p. 28, 30, 31, 70 |
+| `divisions[2].departments[1].courses[8]` | Upper School Courses | Mathematics | Honors Calculus | catalog p. 28, 30 |
+| `divisions[2].departments[1].courses[9]` | Upper School Courses | Mathematics | AP Calculus AB | catalog p. 17, 31, 70 |
+| `divisions[2].departments[1].courses[10]` | Upper School Courses | Mathematics | AP Calculus BC | catalog p. 31, 70 |
+| `divisions[2].departments[1].courses[11]` | Upper School Courses | Mathematics | Calculus III Honors: Multivariable Calculus and Linear Algebra | not found by title search |
+| `divisions[2].departments[1].courses[12]` | Upper School Courses | Mathematics | AP Statistics | catalog p. 17, 19, 29, 70 |
+| `divisions[2].departments[2].courses[0]` | Upper School Courses | History & Social Sciences | Civics and Deliberative Democracy | catalog p. 33, 34 |
+| `divisions[2].departments[2].courses[1]` | Upper School Courses | History & Social Sciences | Civics Honors | catalog p. 34, 35 |
+| `divisions[2].departments[2].courses[2]` | Upper School Courses | History & Social Sciences | World History Honors | catalog p. 70 |
+| `divisions[2].departments[2].courses[3]` | Upper School Courses | History & Social Sciences | AP World History (Modern) | catalog p. 15, 34, 35 |
+| `divisions[2].departments[2].courses[4]` | Upper School Courses | History & Social Sciences | U.S. History Honors | catalog p. 35, 70 |
+| `divisions[2].departments[2].courses[5]` | Upper School Courses | History & Social Sciences | AP U.S. History | catalog p. 36, 70 |
+| `divisions[2].departments[2].courses[6]` | Upper School Courses | History & Social Sciences | AP European History | catalog p. 15, 37, 70 |
+| `divisions[2].departments[2].courses[7]` | Upper School Courses | History & Social Sciences | AP Microeconomics | catalog p. 19, 36, 70 |
+| `divisions[2].departments[2].courses[8]` | Upper School Courses | History & Social Sciences | AP Macroeconomics | catalog p. 15, 19 |
+| `divisions[2].departments[2].courses[9]` | Upper School Courses | History & Social Sciences | AP Psychology | catalog p. 15, 17, 37, 70 |
+| `divisions[2].departments[2].courses[10]` | Upper School Courses | History & Social Sciences | AP U.S. Government and Politics | not found by title search |
+| `divisions[2].departments[2].courses[11]` | Upper School Courses | History & Social Sciences | Anthropology Honors | catalog p. 34, 70 |
+| `divisions[2].departments[3].courses[0]` | Upper School Courses | Science | Conceptual Physics | catalog p. 39, 70 |
+| `divisions[2].departments[3].courses[1]` | Upper School Courses | Science | Physics Honors | catalog p. 39, 40, 42, 70 |
+| `divisions[2].departments[3].courses[2]` | Upper School Courses | Science | AP Physics 1 | catalog p. 40 |
+| `divisions[2].departments[3].courses[3]` | Upper School Courses | Science | AP Physics 2 | catalog p. 40 |
+| `divisions[2].departments[3].courses[4]` | Upper School Courses | Science | Chemistry | catalog p. 17, 39, 41, 42 |
+| `divisions[2].departments[3].courses[5]` | Upper School Courses | Science | Chemistry Honors | catalog p. 41, 70 |
+| `divisions[2].departments[3].courses[6]` | Upper School Courses | Science | AP Chemistry | catalog p. 17, 41, 70 |
+| `divisions[2].departments[3].courses[7]` | Upper School Courses | Science | Biology | catalog p. 17, 39, 42, 43 |
+| `divisions[2].departments[3].courses[8]` | Upper School Courses | Science | Biology Honors | catalog p. 42, 43, 70 |
+| `divisions[2].departments[3].courses[9]` | Upper School Courses | Science | AP Biology | catalog p. 17, 42, 70 |
+| `divisions[2].departments[3].courses[10]` | Upper School Courses | Science | AP Environmental Science | catalog p. 15, 42, 70 |
+| `divisions[2].departments[3].courses[11]` | Upper School Courses | Science | Human Anatomy and Physiology Honors | catalog p. 43 |
+| `divisions[2].departments[4].courses[0]` | Upper School Courses | World Languages | French I | catalog p. 45, 46, 70 |
+| `divisions[2].departments[4].courses[1]` | Upper School Courses | World Languages | French II | catalog p. 45 |
+| `divisions[2].departments[4].courses[2]` | Upper School Courses | World Languages | French III Honors | catalog p. 45 |
+| `divisions[2].departments[4].courses[3]` | Upper School Courses | World Languages | French IV Honors | catalog p. 46 |
+| `divisions[2].departments[4].courses[4]` | Upper School Courses | World Languages | French V Honors | catalog p. 46 |
+| `divisions[2].departments[4].courses[5]` | Upper School Courses | World Languages | AP French Language and Culture | catalog p. 15, 46 |
+| `divisions[2].departments[4].courses[6]` | Upper School Courses | World Languages | Spanish I | catalog p. 47, 48, 49, 70 |
+| `divisions[2].departments[4].courses[7]` | Upper School Courses | World Languages | Spanish II | catalog p. 47, 48 |
+| `divisions[2].departments[4].courses[8]` | Upper School Courses | World Languages | Spanish III Honors | catalog p. 48 |
+| `divisions[2].departments[4].courses[9]` | Upper School Courses | World Languages | Spanish IV Honors | catalog p. 48, 49 |
+| `divisions[2].departments[4].courses[10]` | Upper School Courses | World Languages | Spanish V Honors: Cultural Topics | not found by title search |
+| `divisions[2].departments[4].courses[11]` | Upper School Courses | World Languages | AP Spanish Language and Culture | catalog p. 15, 49 |
+| `divisions[2].departments[4].courses[12]` | Upper School Courses | World Languages | AP Spanish Literature and Culture | not found by title search |
+| `divisions[2].departments[5].courses[0]` | Upper School Courses | Participation in the Arts | Photography I | catalog p. 52, 53, 70 |
+| `divisions[2].departments[5].courses[1]` | Upper School Courses | Participation in the Arts | Photography II | catalog p. 53 |
+| `divisions[2].departments[5].courses[2]` | Upper School Courses | Participation in the Arts | Photography III | catalog p. 53 |
+| `divisions[2].departments[5].courses[3]` | Upper School Courses | Participation in the Arts | Studio I | catalog p. 54 |
+| `divisions[2].departments[5].courses[4]` | Upper School Courses | Participation in the Arts | Studio II Honors | not found by title search |
+| `divisions[2].departments[5].courses[5]` | Upper School Courses | Participation in the Arts | Portfolio | catalog p. 23, 52, 53, 54 |
+| `divisions[2].departments[5].courses[6]` | Upper School Courses | Participation in the Arts | AP Studio Art | catalog p. 54, 70 |
+| `divisions[2].departments[5].courses[7]` | Upper School Courses | Participation in the Arts | Performance Ensemble | catalog p. 56, 70 |
+| `divisions[2].departments[5].courses[8]` | Upper School Courses | Participation in the Arts | Contemporary Ensemble | catalog p. 56, 70 |
+| `divisions[2].departments[5].courses[9]` | Upper School Courses | Participation in the Arts | Modern Music | catalog p. 57, 70 |
+| `divisions[2].departments[5].courses[10]` | Upper School Courses | Participation in the Arts | Film Studies & Production | catalog p. 57, 70 |
+| `divisions[2].departments[6].courses[0]` | Upper School Courses | Technology & Computer Science | Introduction to Computer Coding | catalog p. 60 |
+| `divisions[2].departments[6].courses[1]` | Upper School Courses | Technology & Computer Science | AP Computer Science Principles | catalog p. 60 |
+| `divisions[2].departments[6].courses[2]` | Upper School Courses | Technology & Computer Science | AP Computer Science A | catalog p. 17, 60 |
+| `divisions[2].departments[7].courses[0]` | Upper School Courses | Physical Education | Weight Training | catalog p. 62, 70 |
+| `divisions[2].departments[7].courses[1]` | Upper School Courses | Physical Education | Intro to Sports Medicine | catalog p. 62, 70 |
+| `divisions[2].departments[8].courses[0]` | Upper School Courses | Electives & Distinctions | Financial Literacy Honors | catalog p. 63 |
+| `divisions[2].departments[8].courses[1]` | Upper School Courses | Electives & Distinctions | AP Business w/ Personal Finance | catalog p. 63 |
+| `divisions[2].departments[8].courses[2]` | Upper School Courses | Electives & Distinctions | Honors Social Entrepreneurship | catalog p. 63 |
+| `divisions[2].departments[8].courses[3]` | Upper School Courses | Electives & Distinctions | AP with WE Service | catalog p. 15, 19, 63, 64 |
+| `divisions[2].departments[8].courses[4]` | Upper School Courses | Electives & Distinctions | Middle School TA | catalog p. 64 |
+| `divisions[2].departments[8].courses[5]` | Upper School Courses | Electives & Distinctions | Research Methods Honors | catalog p. 15, 17, 19 |
+| `divisions[2].departments[8].courses[6]` | Upper School Courses | Electives & Distinctions | Capstone Research Honors | catalog p. 15, 17, 19 |
+| `divisions[2].departments[8].courses[7]` | Upper School Courses | Electives & Distinctions | Forensics & Zoology Honors | catalog p. 17 |
+| `divisions[2].departments[8].courses[8]` | Upper School Courses | Electives & Distinctions | Independent Study | catalog p. 60, 65, 69 |
+
+## Middle School page (S5)
+
+# Middle School
+
+## Content Knowledge and Character Development
+
+At Davidson Day, we understand that Middle School is among the most formative years of a student’s life. That’s why our program is designed to support both academic growth and personal development, helping students become confident learners and compassionate individuals.
+
+Character matters just as much as what you know.
+
+Service-Learning Program
+
+In Davidson Day's Middle School, we know that character matters just as much as what you know. Every Middle School student takes part in our hands-on service-learning program, partnering with local organizations and making a real impact in the community. They don’t just learn about service—they live it.
+
+Access to High School Courses
+
+Davidson Day Middle School students are not limited to just traditional Middle School courses. Students ready to learn at the next level have the ability to learn and challenge themselves alongside Upper School students by taking world language and mathematics classes in our Upper School.
+
+Study Skills Classes
+
+At Davidson Day, every Middle School student takes a study skills course each year—four years of building the tools for success. These classes go beyond organization; they help students understand how they learn, take ownership of their growth and develop the independence and confidence needed to thrive in Upper School and beyond.
+
+House System
+
+At the beginning of their Middle School tenure, each Davidson Day Middle School student is sorted into a “house.” Throughout the year, houses compete for the coveted House Cup, earning points through acts of character and friendly competitions. Our house system is a proud Davidson Day Middle School tradition and encourages team building, school spirit, unity and fun.
+
+## Head of Middle & Upper School
+
+###
+Andrew Griffith
+
+## Assistant Head of Middle School
+
+###
+Jeff Haddock
+
+<>
+
+The Arts
+
+The arts take Davidson Day students beyond the bounds of a screenplay, a canvas, a screen, or the stage, and we immerse all students in our arts curriculum.
+
+Patriot Athletics
+
+Patriot student-athletes see every practice, game, class, and exam as an opportunity to push beyond boundaries.
+
+## Lower School page (S6)
+
+# Lower School
+
+## Cultivating and Inspiring Potential
+
+Lower School students are constantly discovering and acquiring new skills and knowledge.
+
+At the same time, they’re beginning to express their independence and share their strengths with their community.
+
+Lower School is a time of hands-on exploration—of academics, of social relationships, of new experiences, and of personal character.
+
+At Davidson Day, Lower School provides enriching experiences and student support services that ensure all students exceed their potential.
+
+Patriots work in their classrooms, in their school, and beyond our campus, learning how to advocate for themselves and others, how to collaborate as a leader or part of a team, and how to express their natural creativity, whether in art, music, academic projects, or student clubs.
+
+With our 8:1 student-to-faculty ratio, our teachers provide individualized attention, foster strengths, and ensure students are both challenged and supported as they prepare for academics beyond Lower School.
+
+## Head of Early Childhood & Lower School
+
+###
+Liz McAlister
+
+<>
+
+## Early Childhood page (S7)
+
+# Early Childhood
+
+## Beyond Kindergarten Readiness
+
+Davidson Day’s Early Childhood program—the only independent school in Lake Norman to offer a developmentally-appropriate, integrated curriculum for children as young as two years old—teaches skills and content in context to help young learners understand the world around them and their role in it.
+
+Our teachers possess decades of experience in fostering meaningful connections with young students, cultivating curiosity through immersive play and safe exploration, manipulation, and discovery.
+
+In addition to academic work, our Early Childhood program focuses on all aspects of child development: cognitive skills, language development, fine motor skills, gross motor skills, executive functioning, and social-emotional wellness.
+
+Because children thrive in this secure, supportive environment, our Early Preschool (2s and 3s), Preschool (3s and 4s), and Junior Kindergarten (4s and 5s) students prepare for Kindergarten—and beyond.
+
+## Head of Early Childhood & Lower School
+
+###
+Liz McAlister
+
+<>
+
+## Academics overview (S8)
+
+# Academics at Davidson Day
+
+## Why Davidson Day?
+
+## With an 8:1 student-to-faculty ratio, Davidson Day ensures that every student is well-positioned for long-term academic success.
+
+<>
+
+Our faculty provides the individualized attention each student deserves, getting to know each child and how they prefer to learn.
+
+In the classroom, students work individually and collaboratively while receiving tailored academic support so they’re challenged but not overwhelmed.
+
+Beyond the classroom, faculty help students explore their interests and discover new passions. Our faculty are advisors, coaches, and mentors who shape and inspire the lives of our students every single day.
+
+Our integrated Early Childhood through 12th Grade curriculum results in strong relationships and meaningful connections between students and with faculty and is designed to empower students to embrace challenge, live with character, and lead with purpose.
+
+## Explore Our Divisions!
+
+Early Childhood (opens in new window/tab)
+
+Lower School (opens in new window/tab)
+
+Middle School (opens in new window/tab)
+
+Upper School (opens in new window/tab)
+
+## Upper School page (S4)
+
+# Upper School
+
+## Prepared for College and the Real World
+
+Our academic curriculum is designed to prepare students for the academic rigor and individual responsibility expected throughout a collegiate education—while also equipping students with real-world-ready skills so they’ll be prepared to lead on the global stage.
+
+Upper School begins in 9th Grade at Davidson Day, as does our college counseling program for students and their families. One-on-one personalized assistance with every aspect of the college application and enrollment process ensures that every Patriot is knowledgeable, prepared, and excited to identify institutions of higher learning that are the best fit for their strengths, interests, and potential.
+
+The most important skill we cultivate is responsible self-advocacy.
+
+We expect every student to engage in every class every day. And, in each class, whether AP Psychology, Conceptual Physics, or Big History, knowing how to ask the right question at the right time is just as critical as knowing the right answer.
+
+With our 8:1 student-to-faculty ratio, each classroom is arranged for student collaboration and discussion. We structure our classes such that the majority of discussion is student-generated and student-led. This ensures that students, regardless of academic discipline, deconstruct complex academic material, then reconstruct that material cogently in written work or in classroom discussion, adding to their theoretical and practical understanding.
+
+## Head of Middle & Upper School
+
+###
+Andrew Griffith
+
+## Assistant Head of Upper School
+
+###
+Luke Diamond
+
+Click here to view the brochure.
+
+Diploma Distinctions
+
+Through immersive practicums, original research, and sustained ethical inquiry, students graduate with something no transcript can fully capture: the habits of mind, real-world experience, and intellectual confidence.
+
+The Arts
+
+The arts take Davidson Day students beyond the bounds of a screenplay, a canvas, a screen, or the stage, and we immerse all students in our arts curriculum.
+
+Patriot Athletics
+
+Patriot student-athletes see every practice, game, class, and exam as an opportunity to push beyond boundaries.
+
+<>
+
+## Diploma Distinctions hub (S9)
+
+# Diploma Distinctions
+
+Not more classes. More purpose.
+
+At Davidson Day, our mission is to empower students to embrace challenge, live with character, and lead with purpose — and the Diploma Distinctions are designed to build exactly that foundation. Through immersive practicums, original research, and sustained ethical inquiry, students graduate with something no transcript can fully capture: the habits of mind, real-world experience, and intellectual confidence that carry them not just into college, but through it and beyond, emerging as world and work-ready leaders.
+
+Parents and students will value the program because it:
+
+- Signals sustained intellectual commitment to colleges
+
+- Builds independence and executive functioning
+
+- Connects learning to real-world application
+
+- Develops confidence through professional experiences
+
+- Encourages clarity about future academic and career goals
+
+Students don’t simply take advanced classes—they apply their learning in authentic settings and produce original scholarship before graduation.
+
+## Choose Your Pathway
+
+Click here to view the brochure.
+
+#### Click the images below to learn more:
+
+## How The Program Works
+
+Students apply at the end of sophomore year and, upon acceptance, enter a structured and mentored pathway beginning junior year, guided by experienced faculty whose expertise is directly aligned to their field of study.
+
+#### Each Diploma Distinction includes:
+
+-
+Focused Advanced Coursework
+
+-
+Immersive Practicum (Minimum 100 Hours)
+
+-
+Ethics Labs
+
+-
+Scholars Research Program (The Culminating Experience)
+
+## Focused Advanced Coursework
+
+AP and Honors classes aligned to a specific academic track, building the intellectual foundation for original inquiry.
+
+## Immersive Practicum (Minimum 100 Hours)
+
+Internships, international travel, laboratory research, medical shadowing, civic engagement, engineering placements, nonprofit leadership, or pre-collegiate programs. The practicum is not a standalone requirement — it becomes the lived experience that anchors and drives the student’s original research.
+
+## Ethics Labs
+
+Ethics Labs are structured, discussion-centered experiences in which students analyze complex real-world dilemmas through the lenses of philosophy, civic responsibility, and public leadership. Drawing on seminar-style inquiry models such as those used at Davidson College, students examine contemporary issues in bioethics, political philosophy and public policy, international ethics, and business ethics.
+
+## Scholars Research Program (The Culminating Experience)
+
+Junior Year – Research Methods Honors
+
+Students learn collegiate-level research skills, conduct academic database searches, synthesize scholarship, and develop a research question grounded directly in their practicum experience.
+Senior Year – Capstone Research Honors
+
+Under close faculty mentorship, students design and execute an original research project — collecting and analyzing data, constructing sustained academic arguments, and presenting their findings at the Davidson Day Scholars Research Conference. Many also present at collegiate conferences.
+
+Here, Davidson Day's CORE Values become a lived experience.
+
+Courage: Embracing challenge and pursuing ambitious questions
+
+Ownership: Taking responsibility for intellectual growth and scholarly integrity
+
+Resilience: Persisting through challenge, complexity, and critique
+
+Empathy: Recognizing the human impact of ideas and decisions
+
+What I love about the Diploma Distinctions is that they give students a structured way to go deeper — and that kind of real-world experience and original research doesn’t just strengthen a college application, it gives students a genuine edge in a competitive process.
+
+Tia Hill, Director of College Counseling
+
+Questions About Diploma Distinctions? Click Here.
+
+750 Jetton Street
+
+Davidson
+
+NC
+
+28036
+
+(704) 237-5200
+
+Davidson Day School is an independent school for students two years old through 12th grade in the beautiful Lake Norman region of North Carolina.
+
+- Instagram(opens in new window/tab)
+
+- Facebook(opens in new window/tab)
+
+- Flickr(opens in new window/tab)
+
+- SiteMap
+
+- Accessibility
+
+- About(opens in new window/tab)
+
+- Admissions(opens in new window/tab)
+
+- Academics(opens in new window/tab)
+
+- Student Life(opens in new window/tab)
+
+- Athletics(opens in new window/tab)
+
+- Get Involved
+
+Non-Discriminatory Policy: Davidson Day School does not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, or any other category or characteristic protected by law, in administration of its educational policies, admissions policies, financial aid policies, employment practices, and athletic and other school-administered programs.
+
+Powered by Finalsite
+
+## Global Studies Diploma page (S10)
+
+# Global Studies Diploma
+
+For students drawn to international relations, environmental policy, cultural research, global public policy, or any field that requires crossing borders — geographic, cultural, or intellectual. Students develop cultural fluency and the ability to navigate complex global systems with discernment.
+
+The Global Studies Diploma Distinction prepares students to understand an increasingly interconnected world through rigorous academic study, language immersion, and transformative international experiences, helping them develop the perspective and fluency needed to engage thoughtfully with the wider world.
+
+This Diploma Distinction has existed at Davidson Day School since 2021, with most students taking advantage of the AFAR research trips to Spain, Portugal, and Belize to ground their research in collegiate-level archaeological research and international travel experience. As the Global Studies pathway matures, students will have additional opportunities to participate in international service trips, language immersion programs, or find their own international opportunities to ground their research and explore their interests.
+
+Practicum experiences—often including international travel, research initiatives, language immersion, or cross-cultural service—become the foundation for sustained academic inquiry. Through their Capstone research, students investigate questions that emerge from lived global experience, whether in areas such as international development, environmental sustainability, archaeology, cultural identity, or global public health.
+
+STEMM Diploma Distinction
+
+Business & Civic Engagement Diploma Distinction
+
+Return to Diploma Distinctions Homepage
+
+Click Here To View The Program Brochure
+
+## Global Studies Diploma Requirements
+
+-
+Core Course
+
+-
+Elective Courses
+
+-
+Language Competency Requirement
+
+-
+Practicum
+
+-
+Scholars Research Program
+
+-
+Culminating Diploma Experience
+
+## Core Course
+
+Honors Anthropology
+
+## Elective Courses
+
+Choose Four:
+
+AP World History or AP European History
+AP Environmental Science
+
+AP Psychology
+AP Macroeconomics
+
+AP with WE Service Recognition
+AP Spanish Language & Culture or AP French Language & Culture
+
+## Language Competency Requirement
+
+Completion of Level IV or 3 levels of the same language in Upper School.
+
+## Practicum
+
+- At least 100 hours of an approved internship, volunteer opportunity, or pre-collegiate program
+
+- Quarterly Ethics Labs
+
+## Scholars Research Program
+
+- Research Methods Honors Course (11th Grade)
+
+- Capstone Research Honors Mentorship (12th Grade)
+
+## Culminating Diploma Experience
+
+Seniors present their capstone research project at the Davidson Day Scholars Research Conference.
+
+## Catalog p. 28 — Upper School Mathematics Course Progression (hand transcription)
+
+Hand transcription of the progression chart (read from the page image; the OCR of this page
+is unusable). Each line is one box and the box(es) its arrow leads to.
+
+Left chart (starts at 5th Grade Math):
+- 5th grade: 5th Grade Math → 6th grade Math 1, or 6th grade Accelerated Math 1
+- Math 1 (6th) → Math 2 (7th) → Math 3 (8th) → Algebra 1 (9th)
+- Accelerated Math 1 (6th) → Accelerated Math 2 (7th) → Accelerated Math 3 (8th) → Algebra 1 or Honors Algebra 1 (9th)
+- Algebra 1 (9th) → Geometry (10th) → Algebra 2 (11th) → Precalculus (12th)
+- Honors Algebra 1 (9th) → Honors Geometry (10th), or Honors Geometry & Honors Algebra 2 (10th)
+- Honors Geometry (10th) → Honors Algebra 2 (11th) → Precalculus or AP Precalculus (12th)
+- Honors Geometry & Honors Algebra 2 (10th) → AP Precalculus (11th) → Honors Calculus, AB Calculus or BC Calculus (12th)
+
+Right chart (starts at Accelerated Math 1 in 5th grade):
+- Accelerated Math 1 (5th) → Accelerated Math 2 (6th), or Accelerated Math 2/3 (6th)
+- Accelerated Math 2 (6th) → Accelerated Math 3 (7th) → Honors Algebra 1 (8th)
+- Accelerated Math 2/3 (6th) → Honors Algebra 1 (7th) → Honors Geometry (8th)
+- Honors Algebra 1 (8th) → Honors Geometry (9th), or Honors Geometry & Honors Algebra 2 (9th)
+- Honors Geometry (8th) → Honors Algebra 2 (9th)
+- Honors Geometry (9th) → Honors Algebra 2 (10th) → AP Precalculus (11th)
+- Honors Geometry & Honors Algebra 2 (9th) and Honors Algebra 2 (9th) → AP Precalculus (10th)
+- AP Precalculus (10th) → AB Calculus or BC Calculus (11th) → AP Statistics, BC Calculus or Calculus 3 (12th)
+
+## Upper School — 2026-2027 Course Catalog, full OCR text (S1)
+
+Page numbers are the Issuu page numbers.
+
+===== PAGE 1 =====
+
+```text
+U PERSCHOOL
+COURSE CATALOG
+COURAGE ~ OWNERSHIP ~ RESILIENCE ~ EMPATHY
+DAVIDSON DAY SCI POL
+RESIDSON DAY
+SCHOOL
+```
+
+===== PAGE 2 =====
+
+```text
+GATSON DAL
+SCHOOL
+Davidson Day School's Mission:
+Together, we empower students to embrace challenge, live with character, and
+lead with purpose.
+DAVIDSON DAY
+PIONSHIPS
+YAU VOLLEY BALL
+LACROSSE 23
+```
+
+===== PAGE 3 =====
+
+```text
+PATIBSON DAL
+SCHOOL
+Davidson Day's values:
+• COURAGE. We face challenges with integrity, speak up for what is right,
+and step boldly into new experiences.
+• OWNERSHIP: We take responsibility for our learning, our actions, and
+the impact we have on our community.
+• RESILIENCE: We persevere through adversity with resourcefulness,
+learning from setbacks to grow stronger.
+• EMPATHY: We seek to understand others with compassion and commit
+ourselves to acts of kindness and service.
+Davidson Day graduates are:
+• Critical thinkers who are enthusiastic problem solvers
+• Engaged students who take intellectual risks
+• Independent thinkers who articulate their ideas with confidence
+• Lifelong learners who chart their own paths in college and in life
+• Respectful, ethical citizens who are adept at addressing global challenges
+• Advocates for themselves and others.
+```
+
+===== PAGE 4 =====
+
+```text
+CONTENTS
+7-12 COURSE SELECTION
+Course Registration Information - 7
+Minimum Graduation Requirements - 8
+Course Selection - 9
+Honors: Challenge & Motivation - 10
+Advanced Placement: College-Level Work - 11
+Clarification on Credits - 12
+Eighth Grade Credits - 12
+NEW DIPLOMA TRACKS
+13-19
+Global Studies - 14-15
+STEMM-16-17
+Business and Civic Engagement-18-19
+ENGLISH
+20-25
+English I/English I Honors - 21
+English Il/English ll Honors - 22
+English Ill Honors/English IV Honors- 23
+Creative Writing - 23
+AP English Language and Composition - 24
+AP English Literature and Composition - 24
+Introduction to Yearbook -25
+Yearbook Honors-25
+MATHEMATICS
+26-31 Upper School Mathematics: Course Progression - 28
+Algebra l - 29
+Geometry/Geometry Honors - 29
+Algebra I|/Algebra I| & Trigonometry (Honors) - 29
+AP Statistics - 29
+Pre-Calculus - 30
+AP Pre-Calculus - 30
+Honors Calc-30
+AP Calculus AB - 31
+AP Calculus BC - 31
+Calculus Ill (Post-AP) Honors - 31
+HISTORY & SOCIAL SCIENCES
+32-37
+Civics/ Civics Honors - 33-34
+Anthropology Honors - 34
+AP World History (Modern) - 35
+U.S. History Honors - 35
+AP U.S. History - 36
+AP Microeconomics/AP Macroeconomics - 36
+AP European History - 37
+AP Psychology - 37
+AP United States Government & Politics - 37
+```
+
+===== PAGE 5 =====
+
+```text
+CONTENTS
+38-43 SCIENCE
+Conceptual Physics/Physics Honors - 39
+AP Physics 1 - 40
+AP Physics 2 - 40
+Chemistry/Chemistry Honors - 41
+AP Chemistry - 41
+Biology/Biology Honors - 42
+AP Biology - 42
+AP Environmental Science - 42
+Human Anatomy and Physiology Honors - 43
+44-49 WORLD LANGUAGES
+French 1 - 45
+French 1l -45
+French Ill Honors - 45
+French IV Honors - 45
+French V Honors - 46
+AP French Language and Culture - 46
+Spanish I - 47
+Spanish I| - 47
+Spanish Ill/Spanish Ill Honors - 48
+Spanish IV /Spanish IV Honors - 48
+Spanish V Honors: Cultural Topics- 49
+Spanish V Honors (Pre-AP)/AP Spanish Language and
+Culture - 49
+AP Spanish Literature and Culture - 49
+50-57 PARTICIPATION IN THE ARTS
+Visual Arts - 52
+Photography 1 - 52
+Photography Il - 53
+Photography Ill - 54
+Portfolio - 54
+Studio 1-54
+Studio 2-54
+AP Studio Art - 54
+Music and Performing Arts - 55
+Performance Ensemble - 56
+Contemporary Ensemble - 56
+Modern Music - 57
+Film and Production - 57
+```
+
+===== PAGE 6 =====
+
+```text
+CONTENTS
+58-60 TECHNOLOGY AND COMPUTER SCIENCE
+Introduction to Computer Coding - 60
+AP Computer Science Principles - 60
+AP Computer Science A - 60
+61-62 PHYSICAL EDUCATION
+Weight Training - 62
+intro to Sports Medicine-62
+ELECTIVES
+63-64 Honors Financial Literacy-63
+AP Business w Personal Finance-63
+Honors Social Entrepreneurism-63
+AP W/ WE Service-64
+Middle School TA-64
+65 ONLINE AND INDEPENDENT STUDY
+Online Courses - 65
+Other Courses - 65
+Independent Study - 65
+INTERNATIONAL RESEARCH PROJECTS:
+66
+AFAR
+Belize - 67
+Spain - 67
+Portugal - 67
+68 COLLEGE COUNSELING
+69 GPA CALCULATOR & DAILY SCHEDULE
+70 UPPER SCHOOL COURSE OFFERINGS BY
+YEAR
+```
+
+===== PAGE 7 =====
+
+```text
+COURSE REGISTRATION INFORMATION
+AME IMPALA
+AN PALA
+LA
+LA
+LA
+TAME ALA
+ALA
+adidas - IMPAI
+TO THE STUDENT:
+This booklet provides information about course selection and registration. Please
+acquaint yourself with the graduation requirements and review the descriptions of
+courses available to you based on your grade level and your completion of the
+necessary prerequisites.
+Give your course selection careful thought and seek the advice of your teachers,
+advisor, and parents as you design your schedule. The Davidson Day Upper School
+student experience encompasses more than academics; please carefully consider
+your other priorities and commitments (i.e., participation in athletics, performing
+arts, community service, etc.) as you decide on an overall course load that will
+challenge you yet not overwhelm you.
+This course guide is intended to give a total picture of the curricular offerings
+available at Davidson Day School. Not every course will be offered in every academic
+year. Refer to the course registration sheets distributed to students each spring for a
+full list of the courses that will be offered in the upcoming academic year.
+```
+
+===== PAGE 8 =====
+
+```text
+MINIMUM GRADUATION REQUIREMENTS
+COURSES CREDITS NOTES
+Students must be enrolled in a core English
+ENGLISH 4
+class (English 1/11/III/IV, AP English Language, or
+AP English Literature) each year of Upper School.
+At minimum: Algebra I, Geometry,
+MATHEMATICS 4 Algebra Il, and one class beyond Algebra lI
+(typically Pre-Calculus).
+Three years of laboratory science are required:
+SCIENCE 3
+Physics, Chemistry, and Biology.
+Three years of History are required. Students
+must take Civics (or Big History if enrolled in the
+Upper School before 2024-2025), World History
+HISTORY 3
+(or Anthropology if enrolled in the Upper
+School before 2024-2025), and U.S. History.
+Students must earn at least 2 credits in the
+WORLD LANGUAGE 2 same language; at least 2 of those credits must
+be earned in Upper School.
+Students must take at least one course in the
+FINE ARTS 1
+Visual Arts or Performing Arts.
+A student may request a Physical Education
+PHYSICAL EDUCATION 1 credit for participating in varsity athletics, theater,
+or another approved extracurricular activity.
+Any course taken beyond the requirements
+ELECTIVES 3
+listed above will be counted as an elective.
+```
+
+===== PAGE 9 =====
+
+```text
+COURSE SELECTION
+FRESHMEN are required to take English I (or Honors), Civics (or Honors) (or Big
+History if enrolled in the Upper School before 2024-2025), and either Conceptual
+Physics or Physics Honors. Students should consult their 8th-grade teachers and the
+curriculum guide to choose the math, world language, and elective courses that
+best fit their needs. In total, freshmen should be enrolled in eight courses, including
+five academic classes and no more than one study hall.
+SOPHOMORES are required to take English II (or Honors), World History (or Honors
+or AP) (or Anthropology if enrolled in the Upper School before 2024-2025), and
+Chemistry. Students should consult their freshman-year teachers, college
+counselors, and the curriculum guide to choose the math, world language, and
+elective courses that best fit their needs. In total, sophomores should be enrolled in
+eight courses, including five academic classes and no more than one study hall.
+JUNIORS are required to take English III (or Honors), U.S. History (or Honors or AP),
+and Biology (or Honors). AP Language and Composition may be substituted for
+English Ill. Students should consult their sophomore-year teachers, college
+counselors, and the curriculum guide to choose the math, world language, and
+elective courses that best fit their needs. In total, juniors should be enrolled in eight
+courses, including five academic classes and no more than one study hall. However,
+students enrolled in two or more AP-level courses may choose to take a second
+study hall.
+SENIORS are required to take English IV (or Honors); AP Language and Composition
+or AP Literature and Composition may be substituted for English IV. Students
+should consult their junior-year teachers, college counselors, and the curriculum
+guide to choose the math, science, history/social science, world language, and
+elective courses that best fit their needs; rising seniors must take particular care to
+ensure that they have met the minimum requirements for graduation. In total,
+seniors should be enrolled in eight courses, with five academic classes and no more
+than one study hall. However, students enrolled in two or more AP-level courses
+may choose to take a second study hall.
+Students' course registration will be processed once they have officially enrolled for
+the next academic year. Please note that some courses fill up quickly due to high
+demand. See chart on page 70 for a full list of courses available to students at each
+grade level.
+```
+
+===== PAGE 10 =====
+
+```text
+HONORS:
+CHALLENGE & MOTIVATION
+Challenging Honors courses are offered to students who have demonstrated the
+aptitude, work ethic, and previous academic performance to be successful. In order
+to enroll in an Honors course, a student must satisfy its academic requirements and
+be recommended by the appropriate department. Interested students should
+consult with their current teachers about appropriate course placement.
+Students who wish to enroll in an Honors course must have finished the non-
+Honors prerequisite with a minimum final grade of A- In order for students to
+remain in an Honors course of study from year to year, they must maintain at least a
+B- (final grade). Honors courses receive a .50 weighting when GPA is calculated.
+nard
+i'll sep
+ne day
+GARBLINA
+```
+
+===== PAGE 11 =====
+
+```text
+ADVANCED PLACEMENT:
+COLLEGE-LEVEL WORK
+Students who choose to enroll in Advanced Placement (AP) courses are often
+motivated by a passion for and intellectual interest in the subject matter of the
+course. Student success in AP courses is usually driven by a strong aptitude for the
+subject matter, combined with excellent preparation and a willingness to do all of
+the work associated with the co
+
+…[truncated]
 
 
 ---
@@ -297,6 +1156,8 @@ the live HTML — treat it as weaker than S1-grade evidence.
 
 ## Sources referenced across these documents
 
+- https://image.isu.pub/260402123341-cdbc20014618b50dcafae1b78b43224f/jpg/page_N.jpg
+- https://image.isu.pub/260402123341-cdbc20014618b50dcafae1b78b43224f/jpg/page_N.jpg`
 - https://issuu.com/davidsondayschool
 - https://issuu.com/davidsondayschool/docs/2023_upper_school_course_catalogue
 - https://issuu.com/davidsondayschool/docs/2024-2025_upper_school_course_catalogue
@@ -305,6 +1166,7 @@ the live HTML — treat it as weaker than S1-grade evidence.
 - https://issuu.com/davidsondayschool/docs/25-26_davidson_day_school_profile
 - https://www.davidsonday.org/academics/academics-at-davidson-day
 - https://www.davidsonday.org/academics/diploma-distinctions
+- https://www.davidsonday.org/academics/diploma-distinctions/global-studies
 - https://www.davidsonday.org/academics/early-childhood
 - https://www.davidsonday.org/academics/lower-school
 - https://www.davidsonday.org/academics/middle-school
