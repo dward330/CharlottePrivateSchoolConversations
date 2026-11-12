@@ -1,12 +1,12 @@
 ---
 name: coursecensus
 title: Course Offerings follow-up to plaincourses (#485) — a description-to-catalog census of every school but Charlotte Catholic (1,531 descriptions, checked against each school's own catalog, re-downloaded where the committed record only mirrors the app), the one-sentence design applied to the 68 Charlotte Catholic boilerplate openers and 21 multi-sentence descriptions, the 24 formerly cut-off Charlotte Catholic descriptions completed with the topics plaincourses dropped, and four small narrowings; English in four reviewed batches, then all nine prose locales
-status: english-done
+status: implemented
 phases: 2
 batches: 4
 created: 2026-11-11
 branch: feat/coursecensus
-prs: []
+prs: [486]
 ---
 
 # Course Offerings: census and completion (follow-up to plaincourses)
@@ -288,7 +288,7 @@ record.
 | 1 | `2066da3c`, `ab89d799`, `a95a9584` (ingest `6b882c9a`, `19c1fb7b`, `39408ece`) | `census-{providence-day,charlotte-latin,charlotte-country-day}.md` (`4ee6078e`) | `4ee6078e` (54), `647257fb` (13) | `9ee41278` | 7 wording edits, 5 fact findings, 3 of 25 `OK` re-checks overturned | **approved** 2026-11-11, after the rulings commit `29ce4a19` |
 | 2 | `345024a4` (ingest `481de37c`) | `census-{cannon,charlotte-christian,davidson-day}.md` (`6624057f`) | `6624057f` (24 + 7 teasers/notes + 1 tag), `9d29ea5d` (5) | this batch's English commit | 8 wording edits, 0 fact findings in the fixes, 4 of 20 `OK` re-checks overturned (5 rows), 2 structural reports | **approved** 2026-11-11, with the rulings commit (`review-batch2-rulings.md`) |
 | 3 | — (records only) | `census-{covenant-day,carmel-christian,hickory-grove-christian,gaston-day,trinity-episcopal,charlotte-prep}.md` (`c18faa90`) | `c18faa90` (53 + 8 teasers/notes, item 8 ×2), `eb5cdac7` (6) | this batch's English commit | 6 wording edits, 3 fact findings in the fixes, 2 of 40 `OK` re-checks overturned, 1 decision raised | **approved** 2026-11-11, after the rulings commit `897244d6` (`review-batch3-rulings.md`) |
-| 4 | `3455c6e4` (ingest `896a8aec`) | — (censused by plaincourses) | — (no fact error in committed text) | this batch's English commit | 13 wording edits, 2 restored facts in the draft, 1 decision raised | **ruling** 2026-11-12 (`review-batch4-rulings.md`); awaiting final approval |
+| 4 | `3455c6e4` (ingest `896a8aec`) | — (censused by plaincourses) | — (no fact error in committed text) | this batch's English commit | 13 wording edits, 2 restored facts in the draft, 1 decision raised | **approved** 2026-11-12, after the rulings commit `357608dd` (`review-batch4-rulings.md`) |
 
 ### Item 3 rows (defaults; the drafter confirms each against section C)
 
