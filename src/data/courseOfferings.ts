@@ -182,7 +182,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
             {
               title: 'Learning Loft',
               tag: 'TK–Gr 5',
-              description: 'A Lower School special area class supporting individualized learning.',
+              description: 'A Lower School special area class; the school publishes only its name.',
             },
             {
               title: 'Library',
@@ -424,7 +424,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               description: 'A semester introduction to Latin through the myths of the classical world.',
             },
             { title: 'Latin 1', tag: 'Gr 7–12', description: 'The Upper School Latin I course, open from Grade 7.' },
-            { title: 'Latin 2', tag: 'Gr 8–12', description: 'The Upper School Latin II course, open from Grade 8.' },
+            { title: 'Latin 2', tag: 'Gr 8–12', description: 'The Upper School Latin II course, open from Grade 8 after Latin 1 with a “B-” (80) or better.' },
             {
               title: 'Spanish 1–4',
               tag: 'Gr 6–8',
@@ -443,7 +443,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
             {
               title: 'German 1–3',
               tag: 'Gr 6–8',
-              description: 'A three-level Middle School German sequence.',
+              description: 'A three-level Middle School German sequence; levels 2+ require prerequisite approval.',
             },
           ],
         },
@@ -498,7 +498,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
             {
               title: 'Acting 1, 2 & 3',
               tag: 'Semester',
-              description: 'A three-level Middle School acting sequence.',
+              description: 'Three semester acting courses for Grades 7 and 8; Acting 3 requires prior theatre experience.',
             },
             {
               title: 'Middle School Stagecraft',
@@ -596,13 +596,13 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Modern Dramatic Literature',
               tag: 'Semester',
               description:
-                'A survey of modern drama from Ibsen to Ionesco exploring individualism, empathy, and meaningful communication through reader’s theater.',
+                'A survey of modern drama from Ibsen to Ionesco exploring the loss of individualism, empathy, and meaningful communication through reader’s theater.',
             },
             {
               title: 'Shakespeare',
               tag: 'Semester',
               description:
-                'Students study The Merchant of Venice, Othello, The Tempest, Measure for Measure, and Richard III, reading plays aloud and analyzing film versions.',
+                'Students study a broad sampling of plays, including The Merchant of Venice, Othello, The Tempest, Measure for Measure, and Richard III, reading them aloud and analyzing film versions.',
             },
             {
               title: 'War Literature',
@@ -632,7 +632,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'AP English Literature and Composition',
               tag: 'AP',
               description:
-                'Refines literary analysis via Moby-Dick, Invisible Man, and Mrs. Dalloway, plus Dickinson, Frost, and Shakespeare, with an outside-reading list.',
+                'Refines literary analysis through regularly taught novels such as Moby-Dick, Invisible Man, and Mrs. Dalloway, plus Dickinson, Frost, and Shakespeare, with an outside-reading list.',
             },
           ],
         },
@@ -751,19 +751,19 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Global Studies: Comparative Religions',
               tag: 'Semester',
               description:
-                'Enhances understanding of Christianity, Judaism, Islam, Hinduism, and Buddhism through primary and secondary readings and philosophical discussion.',
+                'Enhances understanding of religions such as Christianity, Judaism, Islam, Hinduism, and Buddhism through primary and secondary readings and philosophical discussion.',
             },
             {
               title: 'Global Studies: Africa',
               tag: 'Semester',
               description:
-                'A multi-disciplinary exploration of Sub-Saharan Africa with in-depth study of South Africa, the DRC, Rwanda, and Nigeria.',
+                'A multi-disciplinary exploration of Sub-Saharan Africa with in-depth study of several countries, including South Africa, the DRC, Rwanda, and Nigeria.',
             },
             {
               title: 'Global Studies: Asia',
               tag: 'Semester',
               description:
-                'A multi-disciplinary exploration of Asia with in-depth examinations of China and the Koreas.',
+                'A multi-disciplinary exploration of Asia with in-depth examinations of several countries, including China and the Koreas.',
             },
             {
               title: 'Global Studies: Middle East and North Africa',
@@ -1190,7 +1190,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Latin 5 (Advanced)',
               tag: 'Advanced',
               description:
-                'A prose and poetry literature course with a project-based comparative-texts component spanning Vergil, Pliny, Catullus, Ovid, Vespucci, and Boccaccio.',
+                'A prose and poetry literature course with a project-based comparative-texts component, reading authors such as Vergil, Pliny, Catullus, Ovid, Vespucci, and Boccaccio.',
             },
             {
               title: 'AP Latin',
@@ -1530,7 +1530,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
               title: 'Band / Strings / Choir',
               tag: 'Gr 5',
               description:
-                'In Grade 5 students choose an instrument for Band or Strings, with Choir also available.',
+                'In Grade 5 students choose an instrument for Band or Strings, and they also take part in Choir.',
             },
             {
               title: 'Physical Education',
@@ -1702,7 +1702,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'Engineering',
               tag: 'Gr 6',
-              description: 'A Grade 6 elective anchored by the school’s Fab Lab.',
+              description: 'An elective in Grades 6, 7 and 8; the school publishes the title without a description.',
             },
             {
               title: 'Computer Programming',
@@ -1723,7 +1723,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
               title: 'Speech and Debate',
               tag: 'Gr 7–8',
               description:
-                'The Middle School on-ramp to Charlotte Latin’s nationally ranked Speech and Debate program.',
+                'The Middle School on-ramp to Charlotte Latin’s Speech and Debate program.',
             },
           ],
         },
@@ -1762,7 +1762,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'American Literature (Honors)',
               tag: 'Honors',
-              description: 'The American Literature sequence at honors pace and depth.',
+              description: 'A chronological survey of American literature at the honors level.',
             },
             {
               title: 'English 12 AP: Literature and Composition',
@@ -1772,39 +1772,39 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'Literature of War — Stories, Secrets, and Survival',
               tag: 'Semester',
-              description: 'A senior semester elective on the literature of war.',
+              description: 'An English elective on the literature of war.',
             },
             {
               title: 'Horror & The Other in Western Literature',
               tag: 'Semester',
-              description: 'A senior semester elective on horror and otherness in the Western canon.',
+              description: 'A semester elective, open mainly to seniors, on horror and otherness in the Western canon.',
             },
             {
               title: 'From Book To Box Office',
               tag: 'Semester',
               description:
-                'A senior semester elective comparing literary works with their film adaptations.',
+                'An English elective comparing literary works with their film adaptations.',
             },
             {
               title: 'Shakespeare and the Human Condition',
               tag: 'Semester',
               description:
-                'A senior semester elective on Shakespeare’s treatment of the human condition.',
+                'A semester elective, open mainly to seniors, on Shakespeare’s treatment of the human condition.',
             },
             {
               title: 'Exploring Imaginary Worlds in Fantasy Literature',
               tag: 'Semester',
-              description: 'A senior semester elective on world-building in fantasy literature.',
+              description: 'An English elective on world-building in fantasy literature.',
             },
             {
               title: 'Early British Literature — Heroes, Myths, & Monsters',
               tag: 'Semester',
-              description: 'A senior semester elective on early British literature.',
+              description: 'An English elective on early British literature.',
             },
             {
               title: 'Visions of the Future',
               tag: 'Semester',
-              description: 'A senior semester elective on speculative and futurist literature.',
+              description: 'A semester elective, open mainly to seniors, on speculative and futurist literature.',
             },
           ],
         },
@@ -1847,12 +1847,12 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'History of Music Seminar',
               tag: 'Honors',
-              description: 'An honors seminar on the history of music.',
+              description: 'A semester seminar, with an honors option, on how music has influenced the course of history.',
             },
             {
               title: 'Strangers in a Common Land: Global Immigration and Migration',
               tag: 'Honors',
-              description: 'An honors course on global immigration and migration.',
+              description: 'A semester seminar, with an honors option, on global immigration and migration.',
             },
           ],
         },
@@ -1884,7 +1884,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             { title: 'Algebra I', tag: 'Year', description: 'The first-year algebra course.' },
             { title: 'Algebra IB', tag: 'Year', description: 'A second entry point in the algebra sequence.' },
             { title: 'Geometry', tag: 'Year', description: 'The standard geometry course.' },
-            { title: 'Geometry (Honors)', tag: 'Honors', description: 'Geometry at honors pace and depth.' },
+            { title: 'Geometry (Honors)', tag: 'Honors', description: 'Geometry at honors depth, with added topics from logic, symbolic logic and transformational geometry.' },
             {
               title: 'Algebra II/Trigonometry',
               tag: 'Year',
@@ -1904,7 +1904,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'Pre-Calculus (Honors)',
               tag: 'Honors',
-              description: 'Pre-calculus at honors pace and depth.',
+              description: 'Pre-calculus at honors depth, for students with very strong math ability.',
             },
             { title: 'Calculus', tag: 'Year', description: 'A non-AP calculus course.' },
             {
@@ -1954,7 +1954,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'Chemistry II (AP)',
               tag: 'AP',
-              description: 'College-level second-year chemistry.',
+              description: 'Second-year chemistry at the level of a first-year college general chemistry course.',
             },
             { title: 'Biology', tag: 'Gr 11', description: 'The junior-year biology course.' },
             { title: 'Biology (Honors)', tag: 'Honors', description: 'Biology at honors pace and depth.' },
@@ -2053,7 +2053,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
           name: 'Innovation & Design',
           courses: [
             { title: 'Engineering I', tag: 'Year', description: 'The introductory engineering course.' },
-            { title: 'Engineering II', tag: 'Year', description: 'The second-year engineering course.' },
+            { title: 'Engineering II', tag: 'Year', description: 'The second engineering course, focused on electronics and microcontrollers.' },
             {
               title: 'Introduction to Civil Engineering',
               tag: 'Elective',
@@ -2102,7 +2102,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'Java Data Structures',
               tag: 'Honors',
-              description: 'Honors-level data structures in Java, taught using Git and GitHub.',
+              description: 'Honors-level data structures in Java.',
             },
           ],
         },
@@ -2153,7 +2153,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             {
               title: 'Stagecraft II',
               tag: 'Elective',
-              description: 'The second-level technical theatre course.',
+              description: 'A technical theatre course covering different topics from Stagecraft I; the two need not be taken in order.',
             },
             { title: 'Advanced Design', tag: 'Advanced', description: 'Advanced theatrical design.' },
             {
@@ -2190,7 +2190,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
               title: 'Physical Education/Health',
               tag: 'Required',
               description:
-                'The Upper School physical education and health requirement; half is waivable via athletics.',
+                'The Upper School physical education and health requirement; half can be waived by playing on or managing a school team, or by a dance role in an approved musical.',
             },
             {
               title: 'Introduction to Sports Medicine',
@@ -2265,7 +2265,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'French & Spanish',
               tag: 'JK–Gr 4',
               description:
-                'All students are exposed to both French and Spanish, progressing from the sound of each language to the four language skills plus basic writing by Grade 4.',
+                'Students are exposed to both French and Spanish from JK through Grade 1, then choose one in Grade 2, building the four language skills plus basic writing by Grade 4.',
             },
           ],
         },
@@ -2352,13 +2352,13 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'Algebra 8A',
               tag: 'Gr 8',
               description:
-                'Foundational expressions, equations, and linear functions for students needing additional preparation.',
+                'Foundations of expressions and equations, linear equations and inequalities, systems, exponents and polynomials; students then move to Algebra 1 in 9th grade.',
             },
             {
               title: 'Algebra 1',
               tag: 'Gr 8',
               description:
-                'Full high-school Algebra I covering linear functions and systems, exponents, polynomials, quadratics, and radicals.',
+                'Algebra I covering linear functions and systems, exponents, polynomials, quadratics, and radicals.',
             },
             {
               title: 'Geometry',
@@ -2645,25 +2645,25 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Honors Algebra II',
               tag: 'Honors',
-              description: 'Accelerated Algebra II; requires 90 in Geometry or 83 in Honors Geometry.',
+              description: 'Accelerated Algebra II; requires 90 in Geometry or 83 in Honors Geometry, plus teacher recommendation.',
             },
             {
               title: 'Honors Algebra II/Precalculus',
               tag: 'Gr 10 only',
               description:
-                'A compressed two-subject course open only to sophomores who completed Honors Geometry in ninth grade.',
+                'A compressed two-subject course open only to sophomores who completed Honors Geometry in ninth grade and are recommended by the department.',
             },
             {
               title: 'Algebra III/Trigonometry',
               tag: 'Year',
-              description: 'A bridge course extending algebra into trigonometry.',
+              description: 'An alternative to Pre-calculus that reviews and extends Algebra II topics, including trigonometry, at a slower pace; it does not lead to Pre-calculus or AP Calculus.',
             },
             { title: 'Dynamic Math', tag: 'Year', description: 'An alternative mathematics pathway.' },
             { title: 'Pre-calculus', tag: 'Year', description: 'Standard precalculus.' },
             {
               title: 'Honors Pre-calculus',
               tag: 'Honors',
-              description: 'Accelerated precalculus; requires 90 in Algebra II or 83 in Honors Algebra II.',
+              description: 'Accelerated precalculus; requires 90 in Algebra II or 83 in Honors Algebra II, plus teacher recommendation.',
             },
             {
               title: 'Introduction to Calculus & Statistics',
@@ -2674,7 +2674,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'AP Statistics',
               tag: 'AP',
               description:
-                'College-level statistics; qualifying students should choose either AP Calculus AB or AP Statistics, not both.',
+                'College-level statistics; Precalculus students who qualify should choose either AP Calculus AB or AP Statistics, not both.',
             },
             {
               title: 'Advanced AP Statistics with R and R Studio',
@@ -2698,7 +2698,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'IB Analysis SL',
               tag: 'IB SL',
               description:
-                'IB Mathematics: Analysis and Approaches at standard level; requires 83 in Honors Precalculus.',
+                'IB Mathematics: Analysis and Approaches at standard level; requires 83 in Honors Precalculus or Honors Algebra II/Precalculus.',
             },
             {
               title: 'Calculus III/IB Analysis HL',
@@ -2725,7 +2725,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'AP Biology',
               tag: 'AP',
-              description: 'College-level biology; prerequisites Biology I and Chemistry I.',
+              description: 'College-level biology; prerequisites Biology I and Chemistry I, plus 90 in the current full-year science course (85 in Honors, 83 in AP).',
             },
             { title: 'IB Biology SL', tag: 'IB SL', description: 'IB biology at standard level.' },
             { title: 'IB Biology HL', tag: 'IB HL', description: 'IB biology at higher level.' },
@@ -2768,12 +2768,12 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Honors Chemistry I',
               tag: 'Honors',
-              description: 'Accelerated chemistry; requires 87 in Biology and 87 in a math course.',
+              description: 'Accelerated chemistry; requires 87 in Biology and 87 in a math course (83 in Honors), plus previous or concurrent Algebra II.',
             },
             {
               title: 'AP Chemistry',
               tag: 'AP',
-              description: 'College-level chemistry; requires previous or concurrent Precalculus.',
+              description: 'College-level chemistry; requires 90 in Chemistry I or 85 in Honors Chemistry, plus previous or concurrent Precalculus.',
             },
             { title: 'IB Chemistry SL', tag: 'IB SL', description: 'IB chemistry at standard level.' },
             { title: 'IB Chemistry HL', tag: 'IB HL', description: 'IB chemistry at higher level.' },
@@ -2781,13 +2781,13 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Honors Physics I',
               tag: 'Honors',
-              description: 'Accelerated physics; requires previous or concurrent Precalculus.',
+              description: 'A more analytical physics course; requires 87 in the current full-year science course and 87 in math (83 in Honors), plus previous or concurrent Precalculus.',
             },
             {
               title: 'AP Physics C: Mechanics, E&M',
               tag: 'AP',
               description:
-                'Calculus-based college physics in mechanics and electricity and magnetism; requires previous or concurrent AP or IB Calculus.',
+                'Calculus-based college physics in mechanics and electricity and magnetism; requires 90 in Physics I or 85 in Honors Physics, plus previous or concurrent AP or IB Calculus.',
             },
             {
               title: 'Astronomy: Solar Systems',
@@ -2811,7 +2811,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'Organic Chemistry',
               tag: 'Post-AP',
               description:
-                'Replicates a semester of undergraduate organic chemistry with a full synthetic lab component; requires AP or IB Chemistry.',
+                'Replicates a semester of undergraduate organic chemistry with a full synthetic lab component; requires 83 in AP or IB Chemistry.',
             },
             {
               title: 'Honors Principles of Engineering',
@@ -2855,7 +2855,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'AP United States History',
               tag: 'AP',
               description:
-                'College-level US History satisfying the graduation requirement; requires 87 in Modern World History.',
+                'College-level US History satisfying the graduation requirement; requires 87 in Modern World History or 80 in Honors Modern World History.',
             },
             {
               title: 'IB History of the Americas HL',
@@ -2909,7 +2909,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'IB Digital Society',
               tag: 'IB',
               description:
-                'Open to IB and non-IB students; requires previous or concurrent Precalculus.',
+                'Open to IB and non-IB students in 11th and 12th grade; requires 87 in current history (80 in honors) and previous or concurrent Precalculus.',
             },
           ],
         },
@@ -2920,7 +2920,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'Honors Chinese I–V',
               tag: 'Honors',
               description:
-                'A five-level Honors-only Mandarin sequence; entry requires 87 in a current French, Spanish, or Latin class.',
+                'A five-level Honors Mandarin sequence; entry requires 87 in a current French, Spanish, or Latin class or 80 in a current Honors class.',
             },
             { title: 'Chinese II', tag: 'Year', description: 'Non-honors second-level Mandarin.' },
             { title: 'IB Chinese', tag: 'IB', description: 'The IB Mandarin course.' },
@@ -2963,15 +2963,15 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Honors Chamber Choir',
               tag: 'Audition',
-              description: 'A select choral ensemble admitted by audition, open to Grades 10–12.',
+              description: 'A select choral ensemble for Grades 10–12, admitted by audition after one year of Concert Choir or an equivalent.',
             },
             { title: 'Symphonic Band', tag: 'Year', description: 'The concert wind band.' },
             {
               title: 'Honors Symphonic Band',
               tag: 'Audition',
-              description: 'Honors wind band admitted by audition.',
+              description: 'Honors wind band for students already in Middle or Upper School Symphonic Band, admitted by audition.',
             },
-            { title: 'Orchestra', tag: 'Year', description: 'The string and full orchestra ensemble.' },
+            { title: 'Orchestra', tag: 'Year', description: 'The string orchestra ensemble of violin, viola, cello, double bass, and piano.' },
             {
               title: 'Honors Orchestra',
               tag: 'Audition',
@@ -2991,7 +2991,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'AP Music Theory',
               tag: 'AP',
               description:
-                'Develops the ability to recognize and describe melody, harmony, texture, rhythm, form, history, and style; requires an entrance proficiency exam.',
+                'Develops the ability to recognize and describe melody, harmony, texture, rhythm, form, history, and style; requires 87 in the current music class and an entrance proficiency exam.',
             },
             {
               title: 'Acting/Directing I',
@@ -3112,7 +3112,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'Advanced Topics in Computer Science',
               tag: 'Honors',
               description:
-                'Data structures in Java, then student-designed projects presented before the academic council; requires AP Computer Science.',
+                'Data structures in Java, then student-designed projects presented before the academic council; requires AP Computer Science and a project proposal approved at registration.',
             },
           ],
         },
