@@ -288,7 +288,7 @@ record.
 | 1 | `2066da3c`, `ab89d799`, `a95a9584` (ingest `6b882c9a`, `19c1fb7b`, `39408ece`) | `census-{providence-day,charlotte-latin,charlotte-country-day}.md` (`4ee6078e`) | `4ee6078e` (54), `647257fb` (13) | `9ee41278` | 7 wording edits, 5 fact findings, 3 of 25 `OK` re-checks overturned | **approved** 2026-11-11, after the rulings commit `29ce4a19` |
 | 2 | `345024a4` (ingest `481de37c`) | `census-{cannon,charlotte-christian,davidson-day}.md` (`6624057f`) | `6624057f` (24 + 7 teasers/notes + 1 tag), `9d29ea5d` (5) | this batch's English commit | 8 wording edits, 0 fact findings in the fixes, 4 of 20 `OK` re-checks overturned (5 rows), 2 structural reports | **approved** 2026-11-11, with the rulings commit (`review-batch2-rulings.md`) |
 | 3 | — (records only) | `census-{covenant-day,carmel-christian,hickory-grove-christian,gaston-day,trinity-episcopal,charlotte-prep}.md` (`c18faa90`) | `c18faa90` (53 + 8 teasers/notes, item 8 ×2), `eb5cdac7` (6) | this batch's English commit | 6 wording edits, 3 fact findings in the fixes, 2 of 40 `OK` re-checks overturned, 1 decision raised | **approved** 2026-11-11, after the rulings commit `897244d6` (`review-batch3-rulings.md`) |
-| 4 | `3455c6e4` (ingest `896a8aec`) | — (censused by plaincourses) | — (no fact error in committed text) | this batch's English commit | 13 wording edits, 2 restored facts in the draft, 1 decision raised | awaiting review |
+| 4 | `3455c6e4` (ingest `896a8aec`) | — (censused by plaincourses) | — (no fact error in committed text) | this batch's English commit | 13 wording edits, 2 restored facts in the draft, 1 decision raised | **ruling** 2026-11-12 (`review-batch4-rulings.md`); awaiting final approval |
 
 ### Item 3 rows (defaults; the drafter confirms each against section C)
 
@@ -652,6 +652,8 @@ No skill or command changes, so `.claude/SKILLS.md` is not touched. No `CLAUDE.m
 | `charlotte-catholic:divisions[0].departments[2].courses[12].description` (Honors Pre-Calculus) | 11.9 | Template C1 lead plus the later sentence's six topics |
 | `charlotte-catholic:divisions[0].departments[2].courses[16].description` (AP Calculus BC) | 11.6 | Completed with the calculus topics and the required exam; "Fundamental Theorem of Calculus" kept |
 | `charlotte-catholic:divisions[0].departments[3].courses[13].description` (Pathway Program) | 10.5 | Item 8: the two restored skills and the "such as" sample; eight items |
+| `charlotte-catholic:divisions[0].departments[10].courses[2].description` (Advanced French II) | 10.1 | Batch 4 ruling: the shared language-II clause plus the guide's Advanced-level sentence, joined by ` · ` |
+| `charlotte-catholic:divisions[0].departments[10].courses[21].description` (Advanced Spanish II) | 10.4 | The same as Advanced French II |
 
 ## Implementation notes
 
@@ -1166,3 +1168,26 @@ French II and Spanish II. Their guide entries add "In the Advanced level, the li
 instruction and communication will be more complex, the curriculum will move at a faster pace, and
 students will be held to more rigorous expectations." The before-text never carried it, and item 2
 adds nothing.
+
+**User ruling at the Batch 4 review (2026-11-12): "For the one decision you have for me, lets go
+with your recommendation."** The recommendation was to add the guide's Advanced-level sentence,
+following the Batch 2 precedent (a dropped fact a parent would act on is `NARROWS`). Applied as
+one commit, with evidence in `review-batch4-rulings.md`:
+- **Advanced French II and Advanced Spanish II** gain "· at the Advanced level, the language used in
+  class is more complex, the pace is faster and expectations are more demanding." The guide's
+  sentence is "In the Advanced level, the linguistic level of instruction and communication will
+  be more complex, the curriculum will move at a faster pace, and students will be held to more
+  rigorous expectations"; "rigorous" becomes "demanding", per the register.
+- The shared language-II clause is unchanged, so French II, German II and Spanish II are not
+  touched.
+- `--check` exits 1 on 8 by-design hits: the level and pace words, and the two pairs no longer
+  sharing a text.
+
+Effects of the commit:
+- Both rows are added to the residuals (grade 10.1 and 10.4). `check:plain` course-offerings:
+  Grade >10 **20**, Flagged 0, Jargon 0.
+- `check:matrices` is unchanged. `check:live` stays at **290 stale entries per locale**, because
+  the old shared stamps were already gone.
+- Build and the Step 7 checks pass.
+- Real Chrome: all 199 rows match the module, "faster" finds both rows, and there is no overflow
+  at 390px.

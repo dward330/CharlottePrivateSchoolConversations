@@ -8306,7 +8306,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced French II',
               tag: 'Advanced',
               description:
-                'Builds on the foundation from French I and deepens understanding of reading, writing, listening and speaking.',
+                'Builds on the foundation from French I and deepens understanding of reading, writing, listening and speaking · at the Advanced level, the language used in class is more complex, the pace is faster and expectations are more demanding.',
             },
             {
               title: 'Advanced French III',
@@ -8414,7 +8414,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Spanish II',
               tag: 'Advanced',
               description:
-                'Builds on the foundation from Spanish 1 and deepens understanding of reading, writing, listening and speaking.',
+                'Builds on the foundation from Spanish 1 and deepens understanding of reading, writing, listening and speaking · at the Advanced level, the language used in class is more complex, the pace is faster and expectations are more demanding.',
             },
             {
               title: 'Advanced Spanish III',
