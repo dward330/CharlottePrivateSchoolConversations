@@ -96,11 +96,11 @@ const PROVIDENCE_DAY: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'TK – Grade 5',
       teaser:
-        'Four core curriculum areas plus 11 Special Area Classes — Singapore Math and structured literacy from TK.',
+        'Four core curriculum areas plus 11 Special Area Classes — structured literacy from TK and Singapore Math from kindergarten.',
       source: "PDS Lower School curriculum & Global Education pages",
       sourceUrl: 'https://www.providenceday.org/lower-school',
       notPublished:
-        'Providence Day publishes four core curriculum areas and a Special Area Class list for TK–5, not named courses. There is no Lower School course-of-study guide.',
+        'Providence Day publishes four core curriculum areas and a Special Area Class list for TK–5, not named courses. It publishes no Lower School course-of-study guide.',
       departments: [
         {
           name: 'Core Curriculum',
@@ -1460,11 +1460,11 @@ const PROVIDENCE_DAY: CourseOfferings = {
 }
 
 /* ── Charlotte Latin School ─────────────────────────────────────────────────
-   Live Upper School course-offerings page (129 courses, 13 departments, 22 AP
-   subjects per the school's own profile). Middle School is the one division
-   where Latin publishes real per-course prose; Upper School publishes titles
-   only, so Upper descriptions are department-level framing (see the research
-   file's gap note). Lower School publishes subject areas. */
+   Live Upper School course-offerings page (122 course posts, 13 departments,
+   23 AP courses). Every Upper School title opens a click-to-open description
+   post that a plain fetch does not return (found 2026-11-11, plan
+   coursecensus; saved in the "Full Descriptions" source file). Middle School
+   descriptions come from its page; Lower School publishes subject areas. */
 const CHARLOTTE_LATIN: CourseOfferings = {
   guideYear: 'current listing',
   divisions: [
@@ -1476,7 +1476,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
       source: 'Charlotte Latin Lower School curriculum page',
       sourceUrl: 'https://www.charlottelatin.org/academics/lower-school',
       notPublished:
-        'Charlotte Latin publishes Lower School subject areas, not named courses. The /academics/lower-school/curriculum path is an unpublished placeholder.',
+        'Charlotte Latin publishes Lower School subject areas, not named courses.',
       departments: [
         {
           name: 'Core Academics',
@@ -1551,7 +1551,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'Grades 6 – 8',
       teaser:
-        '22 courses with published descriptions across 5 departments — plus Fab Lab STEAM and the Speech & Debate on-ramp.',
+        '23 courses with published descriptions across 5 departments — plus Fab Lab STEAM and the Speech & Debate on-ramp.',
       source: 'Charlotte Latin Middle School page',
       sourceUrl: 'https://www.charlottelatin.org/academics/middle-school',
       departments: [
@@ -1668,7 +1668,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
               title: 'Latin 7',
               tag: 'Gr 7',
               description:
-                '"Are you ready to travel back in time?" — the Middle School introduction to Latin.',
+                'A year-long introduction to Latin and to the history, myths and daily life of the people who spoke it; it is not a prerequisite for Latin I.',
             },
             {
               title: 'Latin I',
@@ -1701,7 +1701,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             },
             {
               title: 'Engineering',
-              tag: 'Gr 6',
+              tag: 'Gr 6–8',
               description: 'An elective in Grades 6, 7 and 8; the school publishes the title without a description.',
             },
             {
@@ -1733,11 +1733,9 @@ const CHARLOTTE_LATIN: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '129 courses across 13 departments — 22 AP subjects, Greek as a second language, and an MIT-network Fab Lab.',
+        '122 courses across 13 departments — 23 AP courses, Greek as a second language, and an MIT-network Fab Lab.',
       source: 'Charlotte Latin Upper School course offerings',
       sourceUrl: 'https://www.charlottelatin.org/academics/upper-school/course-offerings',
-      notPublished:
-        'Charlotte Latin publishes Upper School course titles without per-course descriptions. The course titles are the school’s own; each description comes from how the school describes that department.',
       departments: [
         {
           name: 'English',
@@ -1771,7 +1769,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             },
             {
               title: 'Literature of War — Stories, Secrets, and Survival',
-              tag: 'Semester',
+              tag: 'Elective',
               description: 'An English elective on the literature of war.',
             },
             {
@@ -1781,7 +1779,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             },
             {
               title: 'From Book To Box Office',
-              tag: 'Semester',
+              tag: 'Elective',
               description:
                 'An English elective comparing literary works with their film adaptations.',
             },
@@ -1793,12 +1791,12 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             },
             {
               title: 'Exploring Imaginary Worlds in Fantasy Literature',
-              tag: 'Semester',
+              tag: 'Elective',
               description: 'An English elective on world-building in fantasy literature.',
             },
             {
               title: 'Early British Literature — Heroes, Myths, & Monsters',
-              tag: 'Semester',
+              tag: 'Elective',
               description: 'An English elective on early British literature.',
             },
             {
@@ -1846,12 +1844,12 @@ const CHARLOTTE_LATIN: CourseOfferings = {
             },
             {
               title: 'History of Music Seminar',
-              tag: 'Honors',
+              tag: 'Semester',
               description: 'A semester seminar, with an honors option, on how music has influenced the course of history.',
             },
             {
               title: 'Strangers in a Common Land: Global Immigration and Migration',
-              tag: 'Honors',
+              tag: 'Semester',
               description: 'A semester seminar, with an honors option, on global immigration and migration.',
             },
           ],
@@ -2052,8 +2050,8 @@ const CHARLOTTE_LATIN: CourseOfferings = {
         {
           name: 'Innovation & Design',
           courses: [
-            { title: 'Engineering I', tag: 'Year', description: 'The introductory engineering course.' },
-            { title: 'Engineering II', tag: 'Year', description: 'The second engineering course, focused on electronics and microcontrollers.' },
+            { title: 'Engineering I', tag: 'Semester', description: 'The introductory engineering course.' },
+            { title: 'Engineering II', tag: 'Semester', description: 'The second engineering course, focused on electronics and microcontrollers.' },
             {
               title: 'Introduction to Civil Engineering',
               tag: 'Elective',
@@ -2221,7 +2219,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
       source: 'Country Day Lower School curriculum pages',
       sourceUrl: 'https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum',
       notPublished:
-        'Charlotte Country Day publishes ten Lower School subject areas, described narratively per grade, rather than named courses. There is no Lower School course catalog.',
+        'Charlotte Country Day publishes ten Lower School subject areas, described narratively per grade, rather than named courses. It publishes no Lower School course catalog.',
       departments: [
         {
           name: 'Core Academics',
@@ -2304,11 +2302,11 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'Grades 5 – 8',
       teaser:
-        'Nine named math tracks plus grade-level subjects across 6 areas — Geometry for high-school credit as early as Grade 8.',
+        'Nine named math tracks plus grade-level subjects across 6 areas — Geometry as early as Grade 8.',
       source: 'Country Day Middle School curriculum pages',
       sourceUrl: 'https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum',
       notPublished:
-        'Country Day publishes named Middle School courses only for mathematics; other disciplines are published as grade-level subjects. There is no Middle School course catalog.',
+        'Country Day publishes named Middle School courses only for mathematics; other disciplines are published as grade-level subjects. It publishes no Middle School course catalog.',
       departments: [
         {
           name: 'Mathematics',
@@ -2362,7 +2360,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             },
             {
               title: 'Geometry',
-              tag: 'HS credit',
+              tag: 'Gr 8',
               description:
                 'Placement for students who completed Honors Algebra I, studying deductive reasoning, proofs, trigonometry, and coordinate geometry.',
             },
@@ -2639,7 +2637,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Honors Geometry',
               tag: 'Honors',
-              description: 'Accelerated geometry; requires 90 in Algebra I plus teacher recommendation.',
+              description: 'Geometry with more theory and in greater depth; requires 90 in Algebra I plus teacher recommendation.',
             },
             { title: 'Algebra II', tag: 'Year', description: 'The second-year algebra course.' },
             {
@@ -2843,7 +2841,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Honors Modern World History',
               tag: 'Honors',
-              description: 'Accelerated Modern World History; requires 87 in 9th Grade History.',
+              description: 'Modern World History with more primary sources, more reading and more frequent, deeper writing; requires 87 in 9th Grade History.',
             },
             { title: 'IB World History SL', tag: 'IB SL', description: 'IB history at standard level.' },
             {

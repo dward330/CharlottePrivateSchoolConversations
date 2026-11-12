@@ -735,6 +735,24 @@ Lower and Middle School notes ("There is no … catalog") and Middle School teas
 tagged `Honors`, Engineering I/II `Year` vs semester, Middle School Engineering `Gr 6` vs Grades
 6–8, four English electives `Semester` with no semester line).
 
+**User ruling at the Batch 1 review (2026-11-11): "fix all the things you listed under 'your call'
+with your recommendation".** Applied as one commit, evidence in `review-batch1-rulings.md`. It
+lifts this plan's identity and note scope for the listed leaves only: Latin's Upper School
+`notPublished` removed (also removes its false Compare tooltip), Latin's Upper and Middle School
+teaser counts (122 courses, 23 AP; 23 Middle School courses), 10 Latin and Country Day tags (two
+seminars `Honors` → `Semester`, Engineering I/II `Year` → `Semester`, Middle School Engineering
+`Gr 6` → `Gr 6–8`, four English electives `Semester` → `Elective`, Country Day Middle School
+Geometry `HS credit` → `Gr 8`), Country Day's Middle School teaser ("for high-school credit"
+dropped), three does-not-exist notes → "publishes no …", Providence Day's Singapore Math teaser,
+and Latin 7's quoted opener rewritten as one sentence. Found while doing it and fixed in the same
+commit: Latin's Lower School note carried research bookkeeping ("… is an unpublished
+placeholder"), and Country Day Honors Geometry and Honors Modern World History still said
+"Accelerated" where the guide says depth. **Precedent for later batches:** a site claim the
+census finds false in a teaser, note or tag is fixed in that batch, with evidence, rather than
+only reported. `check:matrices` output still byte-identical to `main`'s; `check:live`'s Batch 1
+stale count rises from 61 to **74 entries per locale** (3 descriptions, 4 teasers, 5 notes and
+the tags whose new text no other course already carries). The Latin code comment above `CHARLOTTE_LATIN` was corrected too.
+
 **Popup scan of the other nine schools (user question, 2026-11-11).** The 48 web pages their
 records cite were scanned for Finalsite click-to-open posts. Nothing needs re-sourcing: Cannon's
 posts are division prose and honor societies (no courses); Davidson Day's are links; Covenant Day's
