@@ -3277,7 +3277,7 @@ const CANNON: CourseOfferings = {
               title: 'School Counseling',
               tag: 'Gr 1–4',
               description:
-                'The grade pages point families to the School Counseling webpage for typical challenges and characteristics of children by age and developmental stage.',
+                'The school’s grade pages point families to the School Counseling webpage for typical challenges and characteristics of children by age and developmental stage.',
             },
           ],
         },
@@ -3287,11 +3287,11 @@ const CANNON: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'Grades 5 – 8',
       teaser:
-        'Seven subject areas per grade, with select-group Pre-Algebra, Algebra I and Geometry options — a Grade 5 rotation through all three world languages, and the ThinkTank makerspace.',
+        'Seven subject areas per grade, a Grade 5 rotation through all three world languages, and the ThinkTank makerspace. A select group takes Pre-Algebra in Grade 6, Algebra I in Grade 7 and Geometry in Grade 8.',
       source: 'Cannon Middle School per-grade curriculum pages',
       sourceUrl: 'https://www.cannonschool.org/academics/middle-school',
       notPublished:
-        'Cannon publishes Middle School curriculum as per-grade subject descriptions, not a named-course catalog. Cannon publishes no Middle School equivalent of the 44-page Upper School catalog.',
+        'Cannon publishes Middle School curriculum as per-grade subject descriptions, not a named-course catalog. It publishes no Middle School equivalent of the 44-page Upper School catalog.',
       departments: [
         {
           name: 'Core Academics',
@@ -3934,7 +3934,7 @@ const CANNON: CourseOfferings = {
               title: 'Honors Theater in Performance',
               tag: 'Repeatable',
               description:
-                'For experienced students committing to public acting, directing, or production design including Fall One-Acts and Arts Jam.',
+                'For experienced students committing to public acting, directing, or production design, including Fall One-Acts and Arts Jam.',
             },
             {
               title: 'Honors Concert Chorus',
@@ -4090,7 +4090,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
       sourceUrl:
         'https://www.charlottechristian.com/fs/resource-manager/view/94f7a8dc-97a5-4798-aeeb-bb83410b4312',
       notPublished:
-        'Charlotte Christian publishes Lower School subject strands with grade-band content tables, not named courses, and publishes no Lower School course catalog.',
+        'Charlotte Christian publishes Lower School subject strands with grade-band content tables, not named courses. It publishes no Lower School course catalog.',
       departments: [
         {
           name: 'Bible',
@@ -4263,7 +4263,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
             {
               title: 'Introduction (French, Latin, or Spanish)',
               tag: 'Gr 6',
-              description: 'Students choose one of French, Latin, or Spanish to introduce.',
+              description: 'Students choose one of French, Latin, or Spanish to begin.',
             },
             { title: 'Level 1A', tag: 'Gr 7', description: 'The first half of Level 1 in the chosen language.' },
             { title: 'Level 1B', tag: 'Gr 8', description: 'The second half of Level 1 in the chosen language.' },
@@ -4375,7 +4375,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'English 11',
               tag: 'Gr 11',
               description:
-                'A Survey of World Literature asking "What does it mean to be an engaged global citizen?" through literature of Latin America, Africa, and Asia.',
+                'A Survey of World Literature that reads literature of Latin America, Africa, and Asia around the question "What does it mean to be an engaged global citizen?"',
             },
             {
               title: 'English 11 Honors',
@@ -4654,7 +4654,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'World History II: The World and the West',
               tag: 'Year',
               description:
-                'Surveys c. 1200 onward, exploring the political, religious, social, and ideological forces that shaped the modern world.',
+                'Surveys the period from about 1200 onward, exploring the political, religious, social, and ideological forces that shaped the modern world.',
             },
             {
               title: 'World History II Honors: The World and the West',
@@ -4666,7 +4666,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Advanced Placement World History: Modern',
               tag: 'AP',
               description:
-                'A college-level survey of major civilizations, events, religions, and ideologies from c. 1200 through the end of the twentieth century.',
+                'A college-level survey of major civilizations, events, religions, and ideologies from about 1200 through the end of the twentieth century.',
             },
             {
               title: 'United States History',
@@ -4684,7 +4684,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Advanced Placement United States History',
               tag: 'AP',
               description:
-                'Studies cultural, economic, political, and social developments shaping the U.S. from c. 1491 to the present.',
+                'Studies cultural, economic, political, and social developments shaping the U.S. from about 1491 to the present.',
             },
             {
               title: 'American Government',
@@ -5068,7 +5068,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Winterim',
               tag: 'Required',
               description:
-                'One week in second semester of nontraditional enrichment courses, mission and service trips, and career shadowing for juniors and seniors.',
+                'One week in second semester of nontraditional enrichment courses, mission and service trips, and career shadowing (juniors and seniors only).',
             },
           ],
         },
@@ -6075,7 +6075,7 @@ const DAVIDSON_DAY: CourseOfferings = {
             {
               title: 'World History Honors',
               tag: 'Gr 10',
-              description: 'Meets the sophomore World History requirement, which AP World History (Modern) also meets; the school publishes no course description for it.',
+              description: 'Meets the sophomore World History requirement, which AP World History (Modern) also meets; the school publishes no description of this Honors course.',
             },
             {
               title: 'AP World History (Modern)',

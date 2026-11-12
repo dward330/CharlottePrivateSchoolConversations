@@ -286,7 +286,7 @@ record.
 | Batch | Sources commit | Census table | Fixes commit | Wording commit | Reviewer findings | User verdict |
 |---|---|---|---|---|---|---|
 | 1 | `2066da3c`, `ab89d799`, `a95a9584` (ingest `6b882c9a`, `19c1fb7b`, `39408ece`) | `census-{providence-day,charlotte-latin,charlotte-country-day}.md` (`4ee6078e`) | `4ee6078e` (54), `647257fb` (13) | `9ee41278` | 7 wording edits, 5 fact findings, 3 of 25 `OK` re-checks overturned | **approved** 2026-11-11, after the rulings commit `29ce4a19` |
-| 2 | — | — | — | — | — | — |
+| 2 | `345024a4` (ingest `481de37c`) | `census-{cannon,charlotte-christian,davidson-day}.md` (`6624057f`) | `6624057f` (24 + 7 teasers/notes + 1 tag), `9d29ea5d` (5) | this batch's English commit | 8 wording edits, 0 fact findings in the fixes, 4 of 20 `OK` re-checks overturned (5 rows), 2 structural reports | pending |
 | 3 | — | — | — | — | — | — |
 | 4 | — | — | — | — | — | — |
 
@@ -760,3 +760,112 @@ course posts are already in its records; Charlotte Christian, Hickory Grove, Gas
 Charlotte Prep have none; Carmel's gap is its known JS-gated Calaméo guide. **Trinity Episcopal's
 four cited pages now return 404** (site moved): its Batch 3 census reads the record of the version
 the app was built from, and the move is a freshness candidate.
+
+### Batch 2 — Cannon, Charlotte Christian, Davidson Day
+
+**Sources** (`345024a4`, ingest `481de37c`). All three re-sourced from the URLs in their records
+(`… Curriculum Guide Full Descriptions 2026-2027.md`, SHA-256s in each header):
+- **Cannon:** the 2026-2027 catalog PDF, extracted column by column with `pdfplumber`, plus the
+  Lower and Middle School division and grade pages and the Academic Technology page. The
+  Junior Kindergarten and Kindergarten pages were added for the Early Childhood row.
+- **Charlotte Christian:** the Upper School guide and the Middle and Lower School brochures, via
+  `pdftotext -layout`. The brochures keep their column spacing, because their grade tables only
+  read correctly with it. Also the curriculum hub page, which describes the Lower School
+  enrichment classes.
+- **Davidson Day:** OCR of the 71 Issuu page images with macOS Vision, plus a hand
+  transcription of the p. 28 math chart. Fragments on one baseline are joined, because
+  justified lines otherwise scramble. Known slips: "II" reads as "Il" or "11", "5th" as "Sth".
+  Table pages 8 and 70 are kept as OCR, with the image as the authority. Page 72 returns 403.
+
+Ingest cleanup was as in Batch 1, with one addition: the manifest's original lack of a trailing
+newline was restored. No ⚠️ card key appeared.
+
+**Census.** One fresh subagent per school, using Batch 1's brief plus a "Lessons from Batch 1"
+section (the overturned `OK` patterns and the teaser/note/tag ruling). Every non-`OK` row was
+re-checked against the source. One proposed fix was corrected: AFAR. The subagent's fix kept a
+"Grades 7–12 catalog" claim. On the contents page (p. 4), "7-12" is the **page range** of the
+Course Selection section, not a grade band. The old record's "Grades 7-12" and "AFAR research
+from Grade 7" came from that misreading.
+
+| School | Rows | OK | SITE-WRITTEN-OK | Rows fixed `6624057f` | Rows fixed `9d29ea5d` |
+|---|--:|--:|--:|--:|--:|
+| cannon | 131 | 121 | 0 | 10 | 0 |
+| charlotte-christian | 166 | 137 | 20 | 9 | 4 |
+| davidson-day | 101 | 96 | 0 | 5 | 1 |
+| **Total** | **398** | **354** | **20** | **24** | **5** |
+
+What the fixes correct:
+- **Cannon:** TAB art from Grade 2, not 3; a School Counseling row that described the
+  counseling webpage as the class; "a select group" dropped from Seventh-Grade Algebra I;
+  "the prerequisite" where the catalog says "a prerequisite"; AP Precalculus's second
+  audience; five "such as" samples shown as full lists.
+- **Charlotte Christian:** "full high-school Algebra 1" (the guide says Upper School still
+  requires four math credits); Fine Arts and Personal Skills electives placed in the wrong
+  grades, from a column misreading the old record shares; AAPPL credited to French III+
+  when only French III names it; "for non-science majors"; "juniors and seniors only" on
+  Winterim career shadowing; AP Latin's "and other … works"; two samples shown as lists.
+- **Davidson Day:** an unverifiable Lower School specials list (from a search snippet; no
+  page lists specials); Accelerated Math 3's Algebra 1 route; AFAR's grade; English III
+  Honors' "such as"; World History Honors called "the required" course (the requirement is
+  World History at any level).
+
+**Teasers, notes, tag** (Batch 1 ruling, in `6624057f`, table in `review-batch2-fixes.md`):
+- **Cannon:** Lower School 13 → 12 curriculum areas, and its 404 sentence (research
+  bookkeeping) removed; Middle School "six core subjects plus four math tracks" → seven
+  subject areas plus the select-group courses; the "There is no …" note → "publishes no";
+  the Upper School teaser's Signature Learning Experience → "or a final cumulative exam".
+- **Charlotte Christian:** the Lower School "There is no …" note; the Middle School teaser's
+  6 → 5 grade-sequence areas.
+- **Davidson Day:** AFAR's `Gr 7+` tag removed. Guard (q) fails on that leaf by design.
+
+**Item 2.** Three Charlotte Christian rows counted two sentences only because of "c." (circa):
+"c." → "about", the Ancient Empires precedent. A fourth row, which the plan's list of 21 did
+not name, counted two because a quoted question sat mid-sentence: Charlotte Christian English
+11 (World Literature). The quote is kept byte-identical and moved to the end. **Cannon Social
+Studies is left as two "sentences":** the split is the "!" in the curriculum's own name,
+"Social Studies Alive!" (guard (p): names exactly as printed). Raised at review.
+
+**Independent review.** All 31 fixes and the 4 wording rows were confirmed, and 8 wording
+edits were made in place. The reviewer's 20-row `OK` re-check overturned 4 rows (5 with the
+twin Refereeing row):
+- AP Pre-Calculus (the required AP exam and two list items dropped);
+- Basketball Refereeing ×2 ("conflict navigation" dropped);
+- Davidson Day Algebra II (complex numbers dropped);
+- English 12 (period list cut short).
+
+These were fixed in `9d29ea5d` against the committed text, with the wording restored on top.
+That makes `9d29ea5d` the Step 5 review base. The AP Pre-Calculus fix uses "discrete math" so
+it stays under grade 10 (9.0). `--check` exits 1 on 3 by-design hits, listed in
+`review-batch2.md`.
+
+**Checks.**
+- `tsc -b` clean; `vite build` succeeds.
+- Exit 0: `check:schema`, `check:spelling`, `check:flags`, `check:schoolurls`,
+  `check:chrome`, `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`,
+  `check:photos`.
+- `test:plain` passes.
+- `check:matrices` output is byte-identical to `main`'s.
+- The hook is clean. `check:plain` course-offerings: Flagged 0, Jargon 0, Grade >10 7
+  (unchanged; no new residual).
+- `check:live` fails only in `course-offerings`: **116 stale entries per locale** (Batch 1's 74
+  plus 42).
+
+**Browser** (real Chrome via Playwright, `vite preview`):
+- All 9 division cards render every description (131 + 166 + 101), and every teaser and note
+  matches the module.
+- Searches found Seventh-Grade Algebra I ("select group"), both Refereeing rows ("handling
+  conflict"), AP Pre-Calculus ("AP exam in May") and Algebra II ("complex numbers").
+- The AFAR row renders with no tag. No literal `*`. No overflow at 390px.
+
+**Reported at review, not changed:**
+- Structural: Davidson Day AFAR sits in the Middle School division although no source places
+  it there; Davidson Day Specials now holds no course.
+- Tag: Davidson Day Intro to Sports Medicine is tagged `Semester`, but the catalog says "two
+  separate semesters".
+- Teaser: Charlotte Christian's Lower School teaser is ambiguous ("11 subject strands … plus
+  six enrichment classes").
+- Three true-but-shorter rows drop a selection or grade rule: Cannon Honors Upper School Band,
+  Cannon AP Computer Science A, Charlotte Christian AP Art and Design.
+- Freshness candidates: Davidson Day Forensics & Zoology Honors is absent from the 2026-27
+  offerings grid (p. 70); Charlotte Christian's Grade 5 Leadership is in the brochure but not
+  on the live hub page.
