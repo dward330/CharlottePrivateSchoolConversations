@@ -1,10 +1,11 @@
 ---
 name: nocompare
-title: Remove cross-school comparisons from every school page outside Sports (78 units across After School, Summer, Global Exposure, Course Offerings, College Support, Admissions, Financial Aid, The Arts and Student Clubs), so each page says what that school publishes or does; English in two reviewed batches, then all nine prose locales
+title: Remove cross-school comparisons from every school page outside Sports (84 units across After School, Summer, Global Exposure, College Support, Admissions, Financial Aid, The Arts and Student Clubs), so each page says what that school publishes or does; English in two reviewed batches, then all nine prose locales
 status: not-implemented
 phases: 2
 batches: 2                     # Phase 1 is built in two batches, each with its own review stop
 created: 2026-11-11
+refreshed: 2026-11-12            # census re-scanned on main at 7e4be0b9 (after plaincourses #485, coursecensus #486)
 branch: feat/nocompare
 prs: []
 ---
@@ -15,7 +16,7 @@ prs: []
 
 A school's page should be about that school. The user ruled on 2026-11-11, at the plainsports
 Batch 1 review: *"school pages should be focused on the school and not trying to mention what
-others dont do."* Today about 78 rendered prose units outside Sports compare the school with
+others dont do."* Today 84 rendered prose units outside Sports compare the school with
 other schools on this site ("the most transparent pricing in this set", "No other school on
 this site prices tuition this way", "every peer here charges for morning care"). This plan
 removes each comparison and keeps what the school itself publishes or does.
@@ -102,18 +103,69 @@ Two scans ran over every rendered prose unit: the `check_plain_language.mjs` `co
 list (each `src/data/<dir>/<slug>.ts`, the accessor modules and the Student Clubs layers),
 loaded with `loadUnits()`, which applies the flag-visibility skip. They found 234 distinct
 units outside `sportsPrograms/` and `metricValues.ts`. Each was classified under the Rulings,
-and **78 are REMOVE**: the table below. The other 156 are KEEP (implicit, own-result
+and **78 were REMOVE** at that scan. The 2026-11-12 refresh (below) closed one and added seven, so **84 are open now**. The other 156 are KEEP (implicit, own-result
 ranking, within-school, student "peers", opponent results, quotes, guidance) or false
 positives ("compared with the Class of 2025 table", "relative to the admission decision").
 
 The scans are a **lower bound** (memory `unit-conversion-allowlist-is-a-lower-bound`), so
 Step 2 re-runs them with the patterns in "Scan patterns" and classifies any new hit.
 
+### Refresh (re-scanned 2026-11-12 on `main` at `7e4be0b9`)
+
+Since `19f63d0e`, the only in-scope file that changed is `src/data/courseOfferings.ts`
+(plaincourses #485, coursecensus #486). Sports changed too (plainsports #484), but Sports is
+out of scope. The refresh:
+
+- **Re-checked all 78 census rows against the live text.** 77 still hold their comparison
+  word for word. **Row 36 is gone**: plaincourses already applied its treatment (see
+  Implementation notes). The Course Offerings re-scan finds **no other comparison**. Its
+  six pattern hits are student "peers", a quote ("most other schools", Charlotte Prep), a
+  history skill ("comparison") and "Middle School here" meaning at Charlotte Christian. The
+  other comparison wording is in code comments, which never render. **Course Offerings
+  leaves the plan.**
+- **Patterns 1 and 2 plus the "here" grep** hit 244 units. That is 77 census rows plus 167
+  others: **3 new REMOVE** (rows 79, 80, 82) and 164 KEEP.
+- **New Pattern 3** (below) hit 111 more units: **4 new REMOVE** (rows 81, 83, 84, 85) and
+  107 KEEP. Most hits are "typically", "none of", "rare" and "first in the nation, per the
+  school".
+- **Open units: 84** (Batch A 37, Batch B 47). Rows keep their numbers. New rows are 79–85,
+  each listed in its own area's block.
+- **Every treatment was measured with the hook's own `analyze()`** on the full proposed
+  text: 0 issues; longest sentence 26 words. The 23 units long enough to be graded (30+
+  words) all sit at grade 9.9 or below. Rows 11 and 12 were reworded to get there (15.8 →
+  9.5 and 10.2 → 9.1). Many short headlines grade high as fragments. The hook does not
+  grade units under 30 words, and their excess comes from the untouched text around the
+  removed clause, which this plan does not rewrite.
+
+**Edge cases the refresh classified** (apply them the same way in Step 2):
+
+- **KEEP: "here" meaning this school's own catalog, ladder or page.** "The widest grade
+  span of any (sports) camp here" (PD and Christian Summer `camps[].desc`); "the highest
+  bar of any society here" (Catholic Clubs); "the largest single funding layer available
+  here" (Catholic Financial Aid); "the only named open house here" (CCD Admissions); "Two
+  steps that exist only here" (HG Admissions, the band). Also "Here there is no filing to
+  check" (#59, #62, #63).
+- **KEEP: "this series' questions"** (PD and Latin Financial Aid lead boxes). This is the
+  report's own question set, not a set of schools. **"nowhere else on the site"** (Trinity
+  Club Catalog) means the school's own site.
+- **KEEP: unqualified "peers" / "peer schools"** with no "its" and no site pointer: "Uncommon
+  among peers", "later than several peers", "most peer offices do not staff", "almost no
+  peer K–12 program", "more context than peers", "peers rarely offer". All are implicit.
+- **KEEP: own-result rankings and firsts with their source**: "the first … in Charlotte, per
+  the school", "out of every K-12 theatre teacher in the state", "the most competitive
+  individual honor in the region" (the award, not the school).
+- **REMOVE: an absolute claim about Charlotte-area schools** (#82, "no other Charlotte-area
+  applicant carries"). This follows #32 ("Among Charlotte private schools") and #50 ("the
+  other Charlotte schools"). Naming the city's schools as a set is the site's set by
+  another name.
+- **REMOVE: "the others", "this series" and "the four schools in this series"** when they
+  mean the schools this site covers (#81, #83, #84).
+
 `at` = the unit label `plain_review.mjs` and the overlay work files use: `slug:path` (Clubs
 layers prefix the path with `clusters.` / `catalog.`). Default treatments are the planner's
 (rewrite first, per "How to remove"); measure each against the guards and the evidence before use.
 
-**Batch A — After School, Summer, Global Exposure, Course Offerings (36 units)**
+**Batch A — After School, Summer, Global Exposure (37 open units: rows 1–35, 79, 80; row 36 done)**
 
 | # | at | Comparison today | Default treatment |
 |--:|---|---|---|
@@ -127,8 +179,8 @@ layers prefix the path with `clusters.` / `catalog.`). Default treatments are th
 | 8 | `charlotte-country-day:verdict.headline` | "The most flexible and most transparently priced after-school program in this set — and the one whose enrichment offering you cannot actually see before you enroll." | "An unusually flexible, transparently priced after-school program, but its enrichment offering cannot be seen before you enroll." |
 | 9 | `cannon:cost.aside.text` | "— the most forgiving occasional-use option in this set" | "— an unusually forgiving option for occasional use." |
 | 10 | `cannon:verdict.strengths[1]` | ", which several peers here do not do at all" | "…, 11:45 a.m.–4:00 p.m., which many schools do not do at all." |
-| 11 | `cannon:verdict.strengths[2]` | "— the most forgiving occasional-use model in this set" | "— an unusually forgiving model for occasional use." |
-| 12 | `cannon:verdict.strengths[4]` | bold "**The largest fully priced enrichment catalog on this site**" | "**An unusually large, fully priced enrichment catalog**" (same `**` count) |
+| 11 | `cannon:verdict.strengths[2]` | "— the most forgiving occasional-use model in this set" | Split the sentence: "…rather than committing to $1,904. For occasional use, that is unusually forgiving." (refresh: the one-sentence form is 30 words at grade 15.8; split, 9.5) |
+| 12 | `cannon:verdict.strengths[4]` | bold "**The largest fully priced enrichment catalog on this site**" | "**A large, fully priced enrichment catalog**" (same `**` count; the 22 classes support "large"; refresh: "unusually large" measured grade 10.2, this 9.1) |
 | 13 | `cannon:verdict.headline` | "The most flexible program here for occasional users, with the deepest published enrichment catalog" | "An unusually flexible program for occasional users, with a deep published enrichment catalog — …" |
 | 14 | `covenant-day:coverage.facts[0].text` | "— the only free morning care in this comparison" | "— free morning care, which few schools offer" |
 | 15 | `covenant-day:verdict.headline` | "The most parent-friendly entry price in this set" | "An unusually parent-friendly entry price — free morning care, $20 drop-ins — …" |
@@ -141,6 +193,8 @@ layers prefix the path with `clusters.` / `catalog.`). Default treatments are th
 | 22 | `trinity-episcopal:verdict.headline` | "The most deliberately affordable after-school program on this roster" | "An unusually affordable after-school program, by design — …" |
 | 23 | `trinity-episcopal:verdict.strengths[0]` | "No other school in this set prices after-school care on ability to pay at all." | "Few schools price after-school care on ability to pay at all." |
 | 24 | `trinity-episcopal:verdict.strengths[4]` | ", the latest close on this roster" | ", a late close," |
+| 79 | `charlotte-country-day:verdict.strengths[0]` (refresh) | bold "**The most granular pricing ladder here**" | "**An unusually granular pricing ladder**" (same `**` count; as #7 on the same page) |
+| 80 | `gaston-day:verdict.strengths[0]` (refresh) | bold "**The price is the lowest here.**" | "**The price is low.**" (same `**` count; "unusually low" would overreach, as #56: it is the lowest of 13; the $95/$55 a week figures that follow carry the point) |
 | 25 | `providence-day:catalog.headline` (summer) | "The largest published slate of the six schools — " | "An unusually large published slate: 170 priced camps across nine sessions, …" |
 | 26 | `providence-day:catalog.camps[1].desc` | "— the longest published camp day at any of these schools." | "— an unusually long published camp day." |
 | 27 | `charlotte-country-day:catalog.headline` (summer) | "tier no other school here offers" | "…including a dedicated farm campus tier, which is rare." |
@@ -152,12 +206,13 @@ layers prefix the path with `clusters.` / `catalog.`). Default treatments are th
 | 33 | `charlotte-country-day:verdict.standsOut.summary` | "Among the schools on this site, Country Day publishes the most Middle School travel: six experiences from 6th grade." | "Country Day publishes an unusually full Middle School travel program: six experiences from 6th grade." |
 | 34 | `cannon:verdict.standsOut.summary` | "Among the other schools on this site, only Providence Day and Davidson Day publish a global studies credential." | "Few schools publish a global studies credential." |
 | 35 | `davidson-day:verdict.standsOut.summary` | "is unlike any other school's here: its travel is" | "Davidson Day's global program is unusual: its travel is archaeology research, not touring." |
-| 36 | `covenant-day:divisions[0].teaser` (course-offerings) | "a Restoration & Sustainability department no other school here runs" | "…and a Restoration & Sustainability department, which is rare." |
+| ~~36~~ | `covenant-day:divisions[0].teaser` (course-offerings) | ~~"a Restoration & Sustainability department no other school here runs"~~ | **Done on `main`** by plaincourses #485 with this treatment ("…, which is rare."). Skip. |
 
-Rows 1–24 are `src/data/afterSchoolPrograms/`, 25–31 `src/data/summer/`, 32–35
-`src/data/internationalTravel/`, 36 `src/data/courseOfferings.ts`.
+Rows 1–24 and 79–80 are `src/data/afterSchoolPrograms/`, 25–31 `src/data/summer/`, 32–35
+`src/data/internationalTravel/`. Row 36 (`src/data/courseOfferings.ts`) is done, so Batch A
+edits no Course Offerings file.
 
-**Batch B — College Support, Admissions, Financial Aid, The Arts, Student Clubs (42 units)**
+**Batch B — College Support, Admissions, Financial Aid, The Arts, Student Clubs (47 units: rows 37–78, 81–85)**
 
 | # | at | Comparison today | Default treatment |
 |--:|---|---|---|
@@ -174,10 +229,14 @@ Rows 1–24 are `src/data/afterSchoolPrograms/`, 25–31 `src/data/summer/`, 32�
 | 47 | `covenant-day:verdict.points[1].label` | "The heaviest caseload in this comparison" | "A heavy caseload" (its `text` already says "One dedicated college counselor for 85 seniors") |
 | 48 | `davidson-day:verdict.subhead` | "will find less here than anywhere else in this set" | "…will find less here than at most schools, which puts the burden of verification on the tour." |
 | 49 | `gaston-day:verdict.points[2].text` | "is among the lowest on this roster" | "…, and the ~18:1 senior caseload is unusually low." |
+| 81 | `charlotte-christian:verdict.points[5].label` (refresh) | "A distinctive network the others do not have" | "A distinctive network few schools have" |
+| 82 | `covenant-day:edge.levers[0].items[2]` (refresh) | "— a transcript line no other Charlotte-area applicant carries" | "— a transcript line few applicants carry" |
 | 50 | `charlotte-christian:guide.bands[0].steps[3].detail` (admissions) | "— a document the other Charlotte schools do not ask for up front." | "— a document many schools do not ask for up front." (the quote stays byte-identical) |
 | 51 | `covenant-day:guide.aid.text` | ", and it is unique among the Charlotte schools" | "There is also one unusual step you must complete first." |
 | 52 | `providence-day:sections[0].figureNote` (financial-aid-report) | "Among the schools on this site, this kind of list is published less consistently than any other item these reports track." | "Schools publish this kind of list less consistently than most other cost details." |
 | 53 | `charlotte-christian:sections[2].boxes[0].body` | "No other school on this site made its own aid application depend on a state application." | "Few schools make their own aid application depend on a state application." |
+| 83 | `charlotte-christian:sections[2].boxes[0].title` (refresh) | "A requirement unique in this series — and since withdrawn" | "An unusual requirement — and since withdrawn" (the title of #53's box) |
+| 84 | `charlotte-christian:sections[5].boxes[0].body` (refresh) | "The strongest tuition history of the four schools in this series." | "A steady tuition history." The flat $850 / $1,500 / $950 steps that follow carry the point (guard (n): "four" leaves, by design) |
 | 54 | `charlotte-catholic:sections[0].figureNote` | "No other school on this site prices tuition this way: " | "Few schools price tuition this way: **price depends on parish participation, …**" |
 | 55 | `charlotte-catholic:sections[2].boxes[0].body` | "because some other schools on this site use FACTS Grant & Aid" | "because some schools use FACTS Grant & Aid to assess need." (implicit) |
 | 56 | `covenant-day:sections[0].figureCaption` | " — the lowest top rate in this comparison" | **delete**: "Published tuition by grade band" ("unusually low" would overreach: it is the lowest of 13) |
@@ -195,6 +254,7 @@ Rows 1–24 are `src/data/afterSchoolPrograms/`, 25–31 `src/data/summer/`, 32�
 | 68 | `trinity-episcopal:sections[3].figureNote` | ", which few schools on this roster publish" | "A genuine three-point series, which few schools publish: **26% / …**" |
 | 69 | `charlotte-country-day:verdict.headline` (artsPrograms) | "The deepest arts facilities of any school in this set" | "Unusually deep arts facilities, a dual AP-and-IB ceiling, …" |
 | 70 | `covenant-day:ladder.subhead` | " — a rung no other school here has" | " — a rung few schools have." |
+| 85 | `covenant-day:verdict.holdsUp[2].label` (refresh) | "The worship-music spine is unique here" | "A worship-music spine few schools have" (as #70, on the same page) |
 | 71 | `carmel-christian:verdict.headline` | "a leaner music and visual-arts footprint than its regional peers" | "…a leaner music and visual-arts footprint than many schools in the region." (no school named) |
 | 72 | `providence-day:affinity.subhead` (clubsPrograms) | "The deepest published affinity structure in this comparison set" | "An unusually deep published affinity structure, built out steadily from 1995 onward — …" |
 | 73 | `charlotte-latin:affinity.subhead` | "publishes markedly less on this than its peers" | "Charlotte Latin publishes markedly less on this than many schools: no roster page, no counts, and no divisional breakout." |
@@ -204,14 +264,14 @@ Rows 1–24 are `src/data/afterSchoolPrograms/`, 25–31 `src/data/summer/`, 32�
 | 77 | `davidson-day:service.subhead` | "The smallest school in this comparison publishes the least overall" | "A small school that publishes little overall — but its civic programming is …" |
 | 78 | `charlotte-catholic:clusters.rows[0].note` (clubClusters layer) | ", older than any competitive result shipped for another school here," | "That coverage is from 2017, so no current standing can be claimed." (nothing to rewrite: the comparison was the site's own bookkeeping) |
 
-Rows 37–49 are `src/data/collegeSupportPrograms/`, 50–51 `src/data/admissionsPrograms/`,
-52–68 `src/data/financialAidReports.ts`, 69–71 `src/data/artsPrograms/`, 72–77
-`src/data/clubsPrograms/`, 78 `src/data/clubClusters.ts`.
+Rows 37–49 and 81–82 are `src/data/collegeSupportPrograms/`, 50–51
+`src/data/admissionsPrograms/`, 52–68 and 83–84 `src/data/financialAidReports.ts`, 69–71 and 85
+`src/data/artsPrograms/`, 72–77 `src/data/clubsPrograms/`, 78 `src/data/clubClusters.ts`.
 
 **Repeats.** #59, #62 and #63 share one sentence and stay byte-identical after the rewrite
 (guard (j) groups repeats only within one school, so check these by grep).
 
-### Scan patterns (Step 2 re-runs both)
+### Scan patterns (Step 2 re-runs all three, plus the "here" grep)
 
 The scanner loads every unit the way `npm run check:plain` does:
 
@@ -235,6 +295,14 @@ Pattern 2 (wider; found 8 more):
 /\b(?:schools?|programs?|peers?|offices?|profiles?) (?:here|beside it|on this (?:site|roster)|in this (?:set|comparison|app))\b|\bhere (?:does|do|offers?|has|publishes)\b|\bany (?:other )?(?:school|peer)s?\b|\bother (?:Charlotte|independent|private|K–12|local|area) (?:schools?|programs?)\b|\bCharlotte(?:-area)? (?:independent|private) schools\b|\bits (?:larger |regional |CISAA |local )?peers\b|\bthan (?:its|their) (?:larger |regional )?peers\b|\bthe (?:six|seven|eight|nine|ten|eleven|twelve|thirteen) schools\b|\b(?:of|among|across) (?:the|these) (?:schools|programs)\b|\bpeer (?:schools?|programs?|offices?|K–12|profiles?|standard)\b|\bthis (?:set|comparison|roster)\b|\bthe other schools\b|\buniquely\b|\bunique among\b|\bthe only (?:school|program|one)\b|\bnone of the other\b/i
 ```
 
+Pattern 3 (added at the 2026-11-12 refresh; found rows 81, 83, 84, 85, which Patterns 1–2
+miss because they say "unique here", "the others" and "in this series"). Most of its hits are
+KEEP ("typically", "none of", "first in the nation, per the school"), so classify every one:
+
+```
+/\bunique\b|\bCharlotte-area\b|\bin (?:the )?Charlotte\b|\bin the (?:region|area|state|city|country|nation)\b|\bother (?:\w+ )?schools?\b|\bnone of\b|\bsets? (?:\w+ )?apart\b|\bnowhere else\b|\banywhere else\b|\brare(?:ly)?\b|\bdistinctive\b|\bstandard (?:for|among)\b|\bthe norm\b|\bmore than most\b|\bfewer than\b|\btypical(?:ly)?\b|\bstands? alone\b|\bexceptional\b|\boutlier\b|\bthe others\b|\bthis series\b/i
+```
+
 Also grep by hand for "here" superlatives the patterns miss: `/\b(?:most|least|largest|smallest|deepest|widest|heaviest|lowest|highest|latest|earliest|best|only)\b[^.;]{0,60}\bhere\b/i`.
 Exclude `src/data/sportsPrograms/` and `src/data/metricValues.ts` (Out of scope).
 
@@ -256,9 +324,11 @@ Exclude `src/data/sportsPrograms/` and `src/data/metricValues.ts` (Out of scope)
 
 ### Related work
 
-- **Plan `plainsports`** (branch `feat/plainsports`, in progress) owns Sports and removes its
-  comparisons batch by batch under the same ruling. Its list is in its "Style rulings". This
-  plan never edits `src/data/sportsPrograms/`.
+- **Plan `plainsports`** (merged, #484) owned Sports and removed its comparisons under the
+  same ruling. Its list is in its "Style rulings". This plan never edits
+  `src/data/sportsPrograms/`.
+- **Plans `plaincourses` (#485) and `coursecensus` (#486)** rewrote Course Offerings after
+  this plan's first scan. plaincourses applied row 36; neither left a comparison (refresh).
 - **Precedent** for the review machinery: `plainsmall.md` (fixes commits, review files,
   `plain_review.mjs` guards, the Phase 2 revise-predecessor pipeline).
 
@@ -271,7 +341,7 @@ Exclude `src/data/sportsPrograms/` and `src/data/metricValues.ts` (Out of scope)
 - **Implicit comparisons and own-result rankings stay** — the user's two follow-up rulings.
 - **Sports and the Compare page are out of scope** — Sports belongs to plainsports; the
   Compare page cell tips (`metricValues.ts`) are comparative by design.
-- **Two batches by area**, ~36 and ~42 short edits, each reviewable in one sitting.
+- **Two batches by area**, 37 and 47 short edits, each reviewable in one sitting.
 - **One branch, one PR, opened after Phase 2.** Each batch is its own commit on
   `feat/nocompare`.
 - **No new tooling.** `plain_review.mjs` already has every guard needed. Guards (h), (n), (b)
@@ -309,7 +379,7 @@ then Phase 1 → 2.
    status to `in-progress` here and in `INDEX.md`.
 
 2. **Re-scan and lock the batch's worklist.**
-   - Run both "Scan patterns" plus the "here" grep over the batch's areas. Classify every hit
+   - Run the three "Scan patterns" plus the "here" grep over the batch's areas. Classify every hit
      not in the Census under the Rulings. A new REMOVE hit joins the batch (add its row to
      the Census here, with a treatment). A hit whose unit no longer exists or no longer
      compares (`main` moved) leaves it; note both in Implementation notes.
@@ -328,7 +398,6 @@ then Phase 1 → 2.
    - After School: `node scripts/plain_review.mjs --dir src/data/afterSchoolPrograms --base <b> --allow .claude/plans/nocompare-data/worklist-batchA.json --md-paths '^$' --small-markers --out .claude/plans/nocompare-data/review-batchA-after-school.md --check`
    - Summer: the same with `--dir src/data/summer` and `review-batchA-summer.md`.
    - Global Exposure: `--dir src/data/internationalTravel`, `review-batchA-global.md`.
-   - Course Offerings: `--topic course-offerings --slugs covenant-day`, `review-batchA-courses.md`.
    - College Support: `--dir src/data/collegeSupportPrograms --md-paths '^$'`, `review-batchB-college.md`.
    - Admissions: `--dir src/data/admissionsPrograms --md-paths '^$'`, `review-batchB-admissions.md`.
    - Financial Aid: `--topic financial-aid-report --md-paths '^$' --aid-markers`, `review-batchB-aid.md`.
@@ -342,7 +411,7 @@ then Phase 1 → 2.
    - **Hook loop:** `for f in <the batch's files>; do node scripts/check_plain_language.mjs --file $f; done` → clean.
    - **Stray edits:** `git diff --name-only main -- src/ scripts/` lists only the batch's files
      (and Batch A's, for Batch B).
-   - **Re-scan:** both patterns return no REMOVE hit in the batch's areas.
+   - **Re-scan:** the three patterns return no REMOVE hit in the batch's areas.
 
 5. **Independent review.** Spawn one fresh `general-purpose` subagent (it never sees this
    conversation). Give it the batch's review files, this plan's "Rulings" and "Census", and
@@ -367,7 +436,7 @@ then Phase 1 → 2.
      `headed-chrome-via-playwright`; script in the repo root as a dotfile, removed after).
      For each school in the batch, open `/school/<slug>/?topic=<topic>&lang=en` for each
      changed topic (topic slugs: `after-school`, `summer-programs`, `international-travel`,
-     `course-offerings`, `college-support`, `admissions`, `financial-aid-report`,
+     `college-support`, `admissions`, `financial-aid-report`,
      `the-arts`, `student-clubs`), open every `<details>`, and confirm with `textContent`
      that each changed unit renders its new text, that each changed headline is the new
      teaser, and that no removed comparison phrase remains.
@@ -392,9 +461,10 @@ user confirms both batches.
 
 **Scope:** the prose overlays of the changed topics, in the nine `PROSE_TRANSLATED` locales
 (`es`, `bn`, `ht`, `te`, `fr`, `fa`, `it`, `hi`, `ar`; read the list from `src/lib/i18n.ts`).
-Topics: `after-school`, `summer-programs`, `international-travel`, `course-offerings`,
+Topics: `after-school`, `summer-programs`, `international-travel`,
 `college-support`, `admissions`, `financial-aid-report`, `the-arts`, `student-clubs` (the
-Clubs layers live in the `student-clubs` overlay). No chrome catalog, no `metric-values`.
+Clubs layers live in the `student-clubs` overlay). No chrome catalog, no `metric-values`, no
+`course-offerings` (row 36 shipped in plaincourses, translations included).
 Mechanism: `.claude/docs/prose-translation-architecture.md`; precedent: the plainsmall Phase 2
 implementation note (revise the reviewed predecessor).
 
@@ -415,7 +485,11 @@ implementation note (revise the reviewed predecessor).
    English; money/percent/year tokens; the `**` count; no bidi controls, no non-Western
    digits; `t` ≠ English and a 0.4–2.5 length ratio; no English month outside a quote; the
    wrong-script scan (Bangla danda is the known false positive; `fa` rejects Arabic ي/ك, `ar`
-   rejects Persian-only letters).
+   rejects Persian-only letters). **Tell the agents which rules fail and which only print a
+   note, and make the gate do the same** (memory `coursecensus-shipped`). In coursecensus a
+   heuristic shown as a hard rule (own-script share) was gamed: the agent translated kept
+   titles and glossed verbatim quotes to pass it. Here, the share of kept Latin names
+   (`FACTS`, `Clarity`, `NACCAP`, `Form 990`) is a note, never a failure.
 4. **Rebuild** each overlay: `node scripts/i18n_build_overlay.mjs --topic <topic> --lang <code>`.
 5. **Verify by stamp.** `check_work_integrity` reports false violations after a splice
    (memory `comparerows-shipped`); prove against the snapshot instead that every kept stamp
@@ -430,16 +504,15 @@ implementation note (revise the reviewed predecessor).
 
 | File | Change |
 |---|---|
-| `src/data/afterSchoolPrograms/{providence-day,charlotte-christian,charlotte-country-day,cannon,covenant-day,davidson-day,gaston-day,trinity-episcopal}.ts` | edit (Batch A) |
+| `src/data/afterSchoolPrograms/{providence-day,charlotte-christian,charlotte-country-day,cannon,covenant-day,davidson-day,gaston-day,trinity-episcopal}.ts` | edit (Batch A; rows 79–80 are in files already listed) |
 | `src/data/summer/{providence-day,charlotte-country-day,cannon,covenant-day}.ts` | edit (Batch A) |
 | `src/data/internationalTravel/{providence-day,charlotte-country-day,cannon,davidson-day}.ts` | edit (Batch A) |
-| `src/data/courseOfferings.ts` | edit (Batch A, Covenant Day teaser) |
 | `src/data/collegeSupportPrograms/{charlotte-christian,charlotte-catholic,charlotte-country-day,cannon,covenant-day,davidson-day,gaston-day}.ts` | edit (Batch B) |
 | `src/data/admissionsPrograms/{charlotte-christian,covenant-day}.ts` | edit (Batch B) |
 | `src/data/financialAidReports.ts` | edit (Batch B) |
 | `src/data/artsPrograms/{charlotte-country-day,covenant-day,carmel-christian}.ts` | edit (Batch B) |
 | `src/data/clubsPrograms/{providence-day,charlotte-latin,charlotte-catholic,cannon,davidson-day}.ts`, `src/data/clubClusters.ts` | edit (Batch B) |
-| `src/data/overlays/work/<topic>.<lang>.json`, `src/data/overlays/<topic>.<lang>.json` (9 topics × 9 locales) | edit (Phase 2) |
+| `src/data/overlays/work/<topic>.<lang>.json`, `src/data/overlays/<topic>.<lang>.json` (8 topics × 9 locales) | edit (Phase 2) |
 | `.claude/plans/nocompare-data/worklist-batch{A,B}.json`, `review-batch*.md` | new |
 | `.claude/plans/nocompare.md`, `.claude/plans/INDEX.md` | edit: status, notes |
 
@@ -490,7 +563,8 @@ No skill or command changes, so `.claude/SKILLS.md` is not touched.
 
 - **The hedged rewrites ("unusually", "few schools") are the site's judgment, not the school's
   claim.** They follow the KEEP rule for implicit comparisons. **Default:** use them, and
-  delete where even the hedge is a stretch (#30, #44, #56, #60). The Batch A review is the
+  delete where even the hedge is a stretch (#30, #44, #56, #60), or state the fact plainly
+  (#80 "The price is low.", #84 "A steady tuition history."). The Batch A review is the
   place to overrule the style. #47 "A heavy caseload" likewise. If the user prefers, #47 can echo its
   text ("One counselor for 85 seniors", which adds digits to the label and trips guard (b)
   by design).
@@ -506,9 +580,24 @@ No skill or command changes, so `.claude/SKILLS.md` is not touched.
 
 `covenant-day:divisions[0].teaser` (course-offerings) was fixed in plan `plaincourses` Batch 2's
 fixes commit on `feat/plaincourses`, 2026-11-11, using row 36's wording exactly ("…and a
-Restoration & Sustainability department, which is rare."). **Skip row 36** in Batch A; the
-`--slugs covenant-day` Course Offerings run will find nothing left to change in that unit. Evidence
+Restoration & Sustainability department, which is rare."). **Skip row 36** in Batch A. The
+refresh confirmed it on `main` and dropped the Course Offerings run from Step 4 and the topic
+from Phase 2. Evidence
 is in `.claude/plans/plaincourses-data/review-batch2-fixes.md`.
+
+### Plan refresh, 2026-11-12 (plan edit only, before implementation)
+
+The plan was re-scanned on `main` at `7e4be0b9` (see "Refresh" under Context). Changes:
+
+- Row 36 is done, and Course Offerings leaves Batch A, Step 4, Phase 2 and Files touched.
+- Seven new REMOVE rows: 79 and 80 (After School), 81 and 82 (College Support), 83 and 84
+  (Financial Aid), 85 (The Arts).
+- New scan Pattern 3, and a list of edge cases the refresh classified.
+- Rows 11 and 12 were reworded to stay at or under grade 10.
+- Phase 2 gate: hard rules and notes are now separate (coursecensus lesson).
+
+The proposed full texts were measured with the hook's `analyze()`; the scripts are not
+committed. Step 2 still re-scans at each batch.
 
 ### Candidates noticed, not acted on
 
