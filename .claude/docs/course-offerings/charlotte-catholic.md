@@ -459,7 +459,9 @@ are correct and are not in conflict.
  removed here: U+200B is deleted, runs of spaces collapse to one, and every lowercase `i`/`l`/`j`
  standing alone before a word is joined to it. **Nothing else is changed**: the spelling,
  punctuation and wording below are the guide's own, including its errors (a missing period in
- Dance III, "Honors Spanish IV" in the Honors French III entry).
+ Dance III, "Honors Spanish IV" in the Honors French III entry, and "the Spanish-speaking world" in
+ the Honors German III entry, 436, where the course is German; recorded 2026-11-11, plan
+ `coursecensus`, and not carried into the app, whose German III text never held that sentence).
 - **Why this file exists.** `src/data/courseOfferings.ts` holds, for Charlotte Catholic, the first
  ~35 words of each catalog description, and 24 of them stop mid-sentence with "…". The plain-
  language rewrite (plan `plaincourses`) condenses each description into one short sentence, which
@@ -777,7 +779,7 @@ required/elective, prerequisites, quality points); **Description** is the guide'
 
 - **App path:** `departments[9].courses[24].description`
 - **Eligibility:** Grade: 11th, 12th Elective Prerequisites: Department Approval and demonstration of skill set Quality Points: A = 5
-- **Description:** Perfect the craft, create and apply the vision. This advanced element of the course not only allows students to create the sets but gives them the tools to work in a professional setting, where all the concepts of design and aesthetics come to fruition. Students now have the ability to create art through advanced woodworking. Students in this course are in charge of all lighting and sound requiremen
+- **Description:** Perfect the craft, create and apply the vision. This advanced element of the course not only allows students to create the sets but gives them the tools to work in a professional set
 
 …[truncated]
 
