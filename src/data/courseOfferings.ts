@@ -5277,7 +5277,7 @@ const COVENANT_DAY: CourseOfferings = {
           name: 'Restoration & Sustainability',
           courses: [
             { title: 'Augustine Literacy Project', tag: 'CP', description: 'A college-preparatory course in the Restoration & Sustainability department.' },
-            { title: 'ContainIt', tag: 'CP', description: 'The department’s course in which students transform used shipping containers into livable space.' },
+            { title: 'ContainIt', tag: 'CP', description: 'The department’s ContainIt course; the school’s ContainIt team transforms used shipping containers into livable space.' },
             { title: 'Intercultural Practicum', tag: 'CP', description: 'Applied cross-cultural engagement.' },
             { title: 'Intro to Engineering', tag: 'CP', description: 'The department’s engineering entry.' },
             { title: 'Restore525', tag: 'CP', description: 'The department’s service program as a credit course.' },
@@ -6972,7 +6972,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'Lifetime Fitness/Health', tag: 'Gr 9–10', description: 'The graduation-requirement course — health topics from nutrition to mental health, paired with daily aerobic, flexibility and strength work.' },
             { title: 'Team Sports', tag: 'Gr 9–12', description: 'Intermediate skill in selected team sports, with leadership development and athletics as a platform to share the Gospel.' },
             { title: 'Strength Training/Conditioning', tag: 'Gr 10–12', description: 'Weight training for major muscle groups plus conditioning routines; varsity athletes get priority for class spots.' },
-            { title: 'In-Season Weight Training', tag: 'Gr 9–12', description: 'Lifting during a student’s designated sport season to gain strength, size and speed.' },
+            { title: 'In-Season Weight Training', tag: 'Gr 9–12', description: 'Lifting during a student’s designated sport season to gain strength, size and speed · it may be repeated, but only one credit counts toward graduation.' },
             { title: 'Speed and Agility Training, Beginning/Intermediate', tag: 'Gr 9–12', description: 'Targeted work on foot speed, leg turnover, sprint endurance and competitive balance for athletes.' },
             { title: 'Flexibility Training', tag: 'Gr 9–12', description: 'Students design their own flexibility program across static, isometric and dynamic stretching, with yoga and Pilates elements.' },
           ],
@@ -7031,7 +7031,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
         {
           name: 'Math',
           courses: [
-            { title: '6th Grade Math', tag: 'Gr 6', description: 'Reveal Math Course 1: fraction and decimal division, negative numbers, ratios and rates, expressions and equations, area and volume, and statistical reasoning.' },
+            { title: '6th Grade Math', tag: 'Gr 6', description: 'Reveal Math Course 1: fraction and decimal division, negative numbers, ratios and rates, expressions and equations, area, surface area and volume, and statistical reasoning.' },
             { title: '7th Grade Math', tag: 'Gr 7', description: 'Reveal Math Course 2: proportional relationships, rational numbers, scale drawings and geometric constructions, area, surface area and volume, and inferences from samples.' },
             { title: '8th Grade Math', tag: 'Gr 8', description: 'Reveal Math Course 3: linear equations in one or two variables, functions, and the Pythagorean Theorem applied to similarity and congruence.' },
             { title: '8th Grade - Algebra 1', tag: 'Honors', description: 'Offered to qualifying 8th Grade Honors students — equations, expressions, order of operations, properties, signed numbers, inequalities, proportions, polynomials, factoring, graphing and radicals, with nightly homework.' },
@@ -7169,7 +7169,7 @@ const GASTON_DAY: CourseOfferings = {
             {
               title: 'Drama',
               tag: 'Elective',
-              description: 'Continues the drama sequence that begins in second grade in the Lower School.',
+              description: 'Continues the drama classes that begin as early as second grade in the Lower School.',
             },
             {
               title: 'Chorus',
@@ -7212,7 +7212,7 @@ const GASTON_DAY: CourseOfferings = {
             { title: 'Geometry', tag: 'Honors', description: 'Required for graduation, offered at the Honors level.' },
             { title: 'Algebra II', tag: 'Honors', description: 'Required for graduation, offered at the Honors level.' },
             { title: 'PreCalculus', tag: 'Honors', description: 'Bridge course into the calculus sequence.' },
-            { title: 'Advanced Functions and Models', description: 'An Upper School mathematics course; the school publishes no description of it.' },
+            { title: 'Advanced Functions and Models', description: 'One of the Upper School mathematics courses in the school\'s curriculum table.' },
             { title: 'Calculus', tag: 'Honors', description: 'Honors calculus, offered alongside the two AP calculus courses.' },
             { title: 'Statistics', tag: 'Honors', description: 'Honors statistics as a fourth-year mathematics option.' },
             { title: 'Calculus AB', tag: 'AP', description: 'An AP calculus course; all AP students must sit the exam.' },
@@ -8594,7 +8594,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
           courses: [
             {
               title: 'K–8 Technology Program',
-              tag: 'Profile PDF only',
+              tag: 'K–8',
               description:
                 'Facilitated by Digital Learning Catalysts, with 1:1 iPads for all students K-1 and 1:1 Chromebooks for all students Gr. 2-8. Published in the School Profile only — it appears on no /academics/ page.',
             },
