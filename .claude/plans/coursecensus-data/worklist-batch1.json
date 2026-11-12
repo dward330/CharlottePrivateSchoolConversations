@@ -1,0 +1,54 @@
+{
+  "generated": "2026-11-11",
+  "topic": "course-offerings",
+  "file": "src/data/courseOfferings.ts",
+  "slugs": [
+    "providence-day",
+    "charlotte-latin",
+    "charlotte-country-day"
+  ],
+  "note": "coursecensus Batch 1 wording units: item 2 (Ancient Empires: 'c.' read as a sentence end) plus the independent reviewer's 7 wording edits to census fixes.",
+  "total": 8,
+  "units": [
+    {
+      "at": "providence-day:divisions[1].departments[6].courses[9].description",
+      "slug": "providence-day",
+      "path": "divisions[1].departments[6].courses[9].description"
+    },
+    {
+      "at": "providence-day:divisions[2].departments[6].courses[11].description",
+      "slug": "providence-day",
+      "path": "divisions[2].departments[6].courses[11].description"
+    },
+    {
+      "at": "charlotte-latin:divisions[2].departments[10].courses[0].description",
+      "slug": "charlotte-latin",
+      "path": "divisions[2].departments[10].courses[0].description"
+    },
+    {
+      "at": "charlotte-country-day:divisions[2].departments[1].courses[6].description",
+      "slug": "charlotte-country-day",
+      "path": "divisions[2].departments[1].courses[6].description"
+    },
+    {
+      "at": "charlotte-country-day:divisions[2].departments[2].courses[16].description",
+      "slug": "charlotte-country-day",
+      "path": "divisions[2].departments[2].courses[16].description"
+    },
+    {
+      "at": "charlotte-country-day:divisions[2].departments[3].courses[12].description",
+      "slug": "charlotte-country-day",
+      "path": "divisions[2].departments[3].courses[12].description"
+    },
+    {
+      "at": "charlotte-country-day:divisions[2].departments[3].courses[16].description",
+      "slug": "charlotte-country-day",
+      "path": "divisions[2].departments[3].courses[16].description"
+    },
+    {
+      "at": "charlotte-country-day:divisions[2].departments[4].courses[0].description",
+      "slug": "charlotte-country-day",
+      "path": "divisions[2].departments[4].courses[0].description"
+    }
+  ]
+}

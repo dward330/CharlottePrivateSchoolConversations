@@ -498,7 +498,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
             {
               title: 'Acting 1, 2 & 3',
               tag: 'Semester',
-              description: 'Three semester acting courses for Grades 7 and 8; Acting 3 requires prior theatre experience.',
+              description: 'Three semester-long acting courses for Grades 7 and 8; Acting 3 requires prior theatre experience.',
             },
             {
               title: 'Middle School Stagecraft',
@@ -1190,7 +1190,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Latin 5 (Advanced)',
               tag: 'Advanced',
               description:
-                'A prose and poetry literature course with a project-based comparative-texts component, reading authors such as Vergil, Pliny, Catullus, Ovid, Vespucci, and Boccaccio.',
+                'A prose and poetry literature course with a project-based comparative-texts component and readings from authors such as Vergil, Pliny, Catullus, Ovid, Vespucci, and Boccaccio.',
             },
             {
               title: 'AP Latin',
@@ -2190,7 +2190,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
               title: 'Physical Education/Health',
               tag: 'Required',
               description:
-                'The Upper School physical education and health requirement; half can be waived by playing on or managing a school team, or by a dance role in an approved musical.',
+                'The Upper School physical education and health requirement; half can be waived by playing on or managing a school team, or by dancing in an approved musical.',
             },
             {
               title: 'Introduction to Sports Medicine',
@@ -2656,7 +2656,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Algebra III/Trigonometry',
               tag: 'Year',
-              description: 'An alternative to Pre-calculus that reviews and extends Algebra II topics, including trigonometry, at a slower pace; it does not lead to Pre-calculus or AP Calculus.',
+              description: 'An alternative to Pre-calculus that reviews and extends Algebra II topics, including trigonometry, at a slower pace; students who take it cannot go on to Pre-calculus or AP Calculus.',
             },
             { title: 'Dynamic Math', tag: 'Year', description: 'An alternative mathematics pathway.' },
             { title: 'Pre-calculus', tag: 'Year', description: 'Standard precalculus.' },
@@ -2781,7 +2781,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
             {
               title: 'Honors Physics I',
               tag: 'Honors',
-              description: 'A more analytical physics course; requires 87 in the current full-year science course and 87 in math (83 in Honors for each), plus previous or concurrent Precalculus.',
+              description: 'A more analytical version of Physics I; requires 87 in the current full-year science course and 87 in math (83 in Honors for each), plus previous or concurrent Precalculus.',
             },
             {
               title: 'AP Physics C: Mechanics, E&M',
@@ -2885,7 +2885,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'Ancient Empires',
               tag: 'Gr 11–12',
               description:
-                'The origins, evolution, and varieties of ancient civilizations from c. 3000 BCE to c. 1000 CE using primary sources and archaeological findings.',
+                'The origins, evolution, and varieties of ancient civilizations from about 3000 BCE to about 1000 CE, using primary sources and archaeological findings.',
             },
             {
               title: 'Adolescent Psychology and Behavior',
@@ -2909,7 +2909,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'IB Digital Society',
               tag: 'IB',
               description:
-                'Open to IB and non-IB students in 11th and 12th grade; requires 87 in current history (80 in honors) and previous or concurrent Precalculus.',
+                'Open to IB and non-IB students in 11th and 12th grade; requires 87 in the current history course (80 in honors) and previous or concurrent Precalculus.',
             },
           ],
         },
@@ -2920,7 +2920,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
               title: 'Honors Chinese I–V',
               tag: 'Honors',
               description:
-                'A five-level Honors Mandarin sequence; entry requires 87 in a current French, Spanish, or Latin class or 80 in a current Honors class.',
+                'A five-level Honors Mandarin sequence; entry requires 87 in a current French, Spanish, or Latin class, or 80 in a current Honors class.',
             },
             { title: 'Chinese II', tag: 'Year', description: 'Non-honors second-level Mandarin.' },
             { title: 'IB Chinese', tag: 'IB', description: 'The IB Mandarin course.' },
