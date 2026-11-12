@@ -4387,7 +4387,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'English 12',
               tag: 'Gr 12',
               description:
-                'A Survey of European Literature and Legacy examining adulthood, choices, and consequences from Greek and Roman classics through modern Europe.',
+                'A Survey of European Literature and Legacy examining adulthood, choices, and consequences from Greek and Roman classics through modern Europe and the colonial legacy.',
             },
             {
               title: 'English 12 Honors',
@@ -4500,7 +4500,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Advanced Placement Pre-Calculus',
               tag: 'AP',
               description:
-                'Covers the topics of a freshman college algebra course with in-depth study of functions, analytic trigonometry, vectors, and discrete mathematics.',
+                'Covers the topics of a freshman college algebra course: functions in depth · analytic trigonometry · vectors · parametric and polar equations · analytic geometry · discrete math · students must take the AP exam in May.',
             },
             {
               title: 'Advanced Placement Calculus AB',
@@ -5090,13 +5090,13 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Refereeing: Basketball I — Male',
               tag: 'Fall',
               description:
-                'NFHS rules, game management, and 2-person crew mechanics preparing students for certification.',
+                'NFHS rules, game management, handling conflict, and 2-person crew mechanics preparing students for certification.',
             },
             {
               title: 'Refereeing: Basketball I — Female',
               tag: 'Fall',
               description:
-                'NFHS rules, game management, and 2-person crew mechanics preparing students for certification.',
+                'NFHS rules, game management, handling conflict, and 2-person crew mechanics preparing students for certification.',
             },
             {
               title: 'Refereeing: Basketball II',
@@ -6006,7 +6006,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'Algebra II',
               tag: 'Gr 10–12',
               description:
-                'Polynomial functions in depth plus rational, square-root, logarithmic, and exponential models, with graphing-calculator work integral.',
+                'Polynomial functions in depth plus rational and square-root functions, complex numbers, and logarithmic and exponential models, with graphing-calculator work integral.',
             },
             {
               title: 'Algebra II/Trigonometry Honors',
