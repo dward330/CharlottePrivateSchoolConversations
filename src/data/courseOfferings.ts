@@ -7317,13 +7317,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'English 9',
               description:
-                'The course includes a review of grammar fundamentals and basic conventions of essay writing.',
+                'A review of grammar fundamentals and the basic conventions of essay writing.',
             },
             {
               title: 'Advanced English 9',
               tag: 'Advanced',
               description:
-                'The course includes an overview and fast-paced review of grammar fundamentals and basic conventions of essay writing.',
+                'An overview and fast-paced review of grammar fundamentals and the basic conventions of essay writing.',
             },
             {
               title: 'SASP English 9: The Art of Language',
@@ -7340,19 +7340,19 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'English 10',
               description:
-                'World Literature through novels, short stories, drama and poetry · grammar fundamentals, practiced in writing assignments · an introduction to evaluative and analytical essays using secondary sources.',
+                'World Literature through novels, short stories, drama and poetry · grammar basics, practiced in writing assignments · an introduction to essays that evaluate and analyze, using secondary sources · more work on vocabulary, reading comprehension and literary terms.',
             },
             {
               title: 'Advanced English 10',
               tag: 'Advanced',
               description:
-                'World Literature through novels, short stories, drama and poetry · grammar fundamentals, practiced in writing assignments · an introduction to evaluative and analytical essays using secondary sources.',
+                'World Literature through novels, short stories, drama and poetry · grammar basics, practiced in writing assignments · an introduction to essays that evaluate and analyze, using secondary sources · more work on vocabulary, reading comprehension and literary terms.',
             },
             {
               title: 'Honors English 10',
               tag: 'Honors',
               description:
-                'This course includes many of the same topics taught in Advanced English 10, but involves a more comprehensive focus on World Literature and additional outside reading.',
+                'Covers many of the same topics as Advanced English 10, with a more thorough focus on World Literature and more outside reading.',
             },
             {
               title: 'SASP English 10: Quest Seminar',
@@ -7363,47 +7363,47 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'English 11',
               description:
-                'Writing skills such as prewriting, organization, drafting and revision · documented essays using primary and, in some cases, secondary sources · concentrated practice in literary analysis · reading comprehension.',
+                'Writing skills such as prewriting, organization, drafting and revision · documented essays using primary and, in some cases, secondary sources · concentrated practice in literary analysis · reading comprehension · continued vocabulary work · a general survey of the periods and genres of American Literature, with attention to their historical and social setting.',
             },
             {
               title: 'Honors English 11',
               tag: 'Honors',
               description:
-                'Writing skills such as prewriting, organization, drafting and revision · documented essays using primary and secondary resources · concentrated practice in writing analytical essays · reading comprehension.',
+                'Writing skills such as prewriting, organization, drafting and revision · documented essays using primary and secondary resources · concentrated practice in writing analytical essays · reading comprehension · continued vocabulary work · a general survey of the periods and genres of American Literature · required extra reading and frequent short papers.',
             },
             {
               title: 'Advanced Placement English 11: English Language and Composition',
               tag: 'AP',
               description:
-                'This course comprises much of the material covered in Honors English 11 Honors as well as the principles of rhetoric and argument.',
+                'Covers much of the material in Honors English 11, plus the principles of rhetoric and argument.',
             },
             {
               title: 'English 12',
               description:
-                'A survey of British Literature · review and practice of paragraph and essay structure · grammar practiced in writing assignments · reading comprehension, summary and analysis.',
+                'A survey of British Literature · review and practice of paragraph and essay structure · grammar practiced in writing assignments · reading comprehension, summary and analysis · writing documented essays using both primary and, in some cases, secondary sources · vocabulary work.',
             },
             {
               title: 'Honors English 12',
               tag: 'Honors',
               description:
-                'This course includes an in-depth study of British Literature through close reading and discussion; advanced composition resulting in several documented literary analyses using primary and, in some cases.',
+                'An in-depth study of British Literature through close reading and discussion · advanced composition leading to several documented literary analyses using primary and, in some cases, secondary sources · vocabulary development.',
             },
             {
               title: 'Advanced Placement English 12: English Literature and Composition',
               tag: 'AP',
               description:
-                'This course includes all the essentials of Honors English 12 with the addition of several sophisticated texts.',
+                'All the essentials of Honors English 12, plus several sophisticated texts.',
             },
             {
               title: 'Advanced Placement English 12: English Language and Composition',
               tag: 'AP',
               description:
-                'This course comprises much of the material covered in Honors English 12 as well as the principles of rhetoric and argument.',
+                'Covers much of the material in Honors English 12, plus the principles of rhetoric and argument.',
             },
             {
               title: 'Journalism',
               description:
-                'This class is designed to give practical experience in interviewing and writing techniques ( news, features, editorials, sports coverage, and reviews of cultural events ), photography, and layout.',
+                'Practical experience in interviewing and writing techniques (news, features, editorials, sports coverage and reviews of cultural events), photography and layout.',
             },
             {
               title: 'Yearbook',
@@ -7429,17 +7429,17 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Guided Academic Support',
               description:
-                'This course is tailored for 10th, 11th, and 12th grade Academic Achievement students with a GPA 2.9 or below.',
+                'For 10th, 11th and 12th grade Academic Achievement students with a GPA of 2.9 or below.',
             },
             {
               title: 'Assistants',
               description:
-                'Assistants do tasks for the office, counselors, alumni and campus ministry, and are evaluated on willingness to learn, initiative, performance of assigned tasks and skill in their assigned area.',
+                'Assistants do tasks for the office, counselors, alumni and campus ministry · evaluation is based on willingness to learn, initiative, performance of assigned tasks and skill in the assigned area · the course may only be taken one time.',
             },
             {
               title: 'Study Hall',
               description:
-                'Students will spend their time working independently on their coursework in a supervised environment.',
+                'Supervised time for students to work independently on their coursework.',
             },
             {
               title: 'Options Scholars',
@@ -7450,12 +7450,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'SAT Prep',
               description:
-                'This course is designed to help students prepare effectively for the SAT. Instruction is divided into two main components: Evidence-Based Reading & Writing and Mathematics.',
+                'Prepares students for the SAT, with instruction split into two main parts: Evidence-Based Reading & Writing and Mathematics.',
             },
             {
               title: 'Sports Ethics',
               description:
-                'Students will explore the deeper meaning of sport through an ethical and philosophical lens.',
+                'Explores the deeper meaning of sport from an ethical and philosophical point of view.',
             },
             {
               title: 'Honors African American Studies',
@@ -7482,7 +7482,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Introduction to Accounting',
               description:
-                'This class is designed to provide an understanding of the basic principles of the Accounting Cycle as it applies to business entities.',
+                'Teaches the basic principles of the Accounting Cycle as it applies to businesses.',
             },
             {
               title: 'Advanced Placement Computer Science A',
@@ -7516,13 +7516,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Electrical and Computing Engineering',
               tag: 'Honors',
               description:
-                'This course is designed to prepare students for advanced courses in electrical and computing engineering fields.',
+                'Prepares students for advanced courses in electrical and computing engineering.',
             },
             {
               title: 'Honors Civil and Construction Engineering',
               tag: 'Honors',
               description:
-                'Prepares students for college level courses in civil and construction engineering, exploring design concepts such as building systems and materials, structures and loads, transportation and environmental concepts.',
+                'Prepares students for college level courses in civil and construction engineering · design concepts such as building systems and materials, structures and loads, transportation and environmental concepts · kinds of bridges and the basics of structural analysis · designing city infrastructure and practicing city planning.',
             },
             {
               title: 'Honors Engineering Capstone',
@@ -7538,24 +7538,24 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Algebra I',
               description:
-                'A review of operations with integers, fractions and decimals · solving equations and inequalities in one variable · an introduction to functions · linear functions · systems of linear equations and inequalities.',
+                'A review of operations with integers, fractions and decimals · solving equations and inequalities in one variable · an introduction to functions · linear functions · systems of linear equations and inequalities · working with polynomials · factoring polynomials · quadratic functions · showing data and summing it up in numbers.',
             },
             {
               title: 'Advanced Algebra I',
               tag: 'Advanced',
               description:
-                'A brief review of operations with integers, fractions and decimals · solving equations and inequalities in one variable · an introduction to functions · linear functions · systems of linear equations and inequalities.',
+                'A brief review of operations with integers, fractions and decimals · solving equations and inequalities in one variable · an introduction to functions · linear functions · systems of linear equations and inequalities · working with polynomials · factoring polynomials · quadratic functions · showing data and summing it up in numbers.',
             },
             {
               title: 'Geometry',
               description:
-                'This course includes basic terms and symbols; congruence and similarity of polygons and circles; area and volume; parallel and perpendicular lines; transformations; and an introduction to proof.',
+                'Basic terms and symbols · congruence and similarity of polygons and circles · area and volume · parallel and perpendicular lines · transformations · an introduction to proof.',
             },
             {
               title: 'Advanced Geometry',
               tag: 'Advanced',
               description:
-                'This course includes the study of basic terms and symbols; congruence and similarity of polygons and circles; area and volume; parallel and perpendicular lines; transformations and proofs.',
+                'Basic terms and symbols · congruence and similarity of polygons and circles · area and volume · parallel and perpendicular lines · transformations and proofs.',
             },
             {
               title: 'Honors Geometry',
@@ -7566,48 +7566,48 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Algebra II',
               description:
-                'This course includes the study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions; complex numbers; correlation and regression.',
+                'Linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions · complex numbers · correlation and regression.',
             },
             {
               title: 'Advanced Algebra II',
               tag: 'Advanced',
               description:
-                'This course includes the study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions; complex numbers; correlation and regression; normal models; and confidence intervals for proportions and means.',
+                'Linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions · complex numbers · correlation and regression · normal models · confidence intervals for proportions and means.',
             },
             {
               title: 'Honors Algebra II',
               tag: 'Honors',
               description:
-                'A demanding course for students with a strong work ethic and critical-thinking skills, covering linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions in depth.',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering in depth: linear, quadratic and exponential functions · logarithmic, radical, rational and trigonometric functions · complex numbers · correlation and regression · normal models · confidence intervals for proportions and means.',
             },
             {
               title: 'Advanced Algebra 3/Statistics',
               tag: 'Advanced',
               description:
-                'This course is intended to prepare students for an Algebra, Statistics, or Pre-Calculus course at the university level.',
+                'Prepares students for an Algebra, Statistics or Pre-Calculus course at the university level.',
             },
             {
               title: 'Advanced Algebra 4/Trigonometry',
               tag: 'Advanced',
               description:
-                'This course is intended to prepare students for an Algebra, Statistics, Pre-Calculus, or Calculus course at the university level.',
+                'Prepares students for an Algebra, Statistics, Pre-Calculus or Calculus course at the university level.',
             },
             {
               title: 'Functions and Modeling',
               description:
-                'This course provides students the opportunity to further study linear, quadratic, exponential, logarithmic and trigonometric functions.',
+                'Further study of linear, quadratic, exponential, logarithmic and trigonometric functions.',
             },
             {
               title: 'Advanced Pre-Calculus',
               tag: 'Advanced',
               description:
-                'This course includes the further development and analysis of functions including polynomial, rational, exponential, and logarithmic and trigonometric functions.',
+                'Further development and analysis of functions, including polynomial, rational, exponential, logarithmic and trigonometric functions.',
             },
             {
               title: 'Honors Pre-Calculus',
               tag: 'Honors',
               description:
-                'A demanding course for students with a strong work ethic and critical-thinking skills, covering further development and analysis of functions, including polynomial, rational, exponential, logarithmic and trigonometric functions.',
+                'A demanding course for students with a strong work ethic and critical-thinking skills, covering further development and analysis of functions, such as polynomial, rational, exponential, logarithmic and trigonometric functions · probability · counting · sequences and series · conic sections · the complex number system · hypothesis tests for means and proportions.',
             },
             {
               title: 'Honors Calculus',
@@ -7631,7 +7631,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement Calculus BC',
               tag: 'AP',
               description:
-                'Advanced Placement Calculus BC is roughly equivalent to both first and second semester college calculus courses, covering Calculus AB, extended to different types of equations, plus sequences and series.',
+                'Advanced Placement Calculus BC is roughly equivalent to both first and second semester college calculus courses · the course covers Calculus AB, extended to different types of equations, plus sequences and series · topics in differential and integral calculus include limits, derivatives, definite integrals, the Fundamental Theorem of Calculus and series · every student must take the AP Calculus BC exam.',
             },
           ],
         },
@@ -7720,7 +7720,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Pathway Program',
               tag: 'Options',
               description:
-                'A two-year extension of the Options Program beyond the traditional high school experience · classes, job training, internships and community experiences build life skills, workplace and college readiness, and independence.',
+                'A two-year extension of the Options Program beyond the traditional high school experience · individualized teaching in life skills · workplace readiness · social communication · getting around in the community · college readiness · real-world practice such as job training, internships, guided community experiences and more academic work · the program aims to support growth toward independent living.',
             },
           ],
         },
@@ -7730,12 +7730,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Introduction to Philosophy: Human Person',
               description:
-                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+                'Studies what it means to call human beings persons (beings with freedom and an inner life capable of knowing and loving).',
             },
             {
               title: 'Ethics',
               description:
-                'This course introduces students to classical philosophy’s approach to ethics through a Catholic lens.',
+                'Introduces classical philosophy’s approach to ethics through a Catholic lens.',
             },
             {
               title: 'Logic',
@@ -7760,7 +7760,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Aerobics',
               description:
-                'This course will focus on simple endurance and aerobic movements in order to increase physical abilities.',
+                'Focuses on simple endurance and aerobic movements to increase physical abilities.',
             },
             {
               title: 'Men’s Weightlifting',
@@ -7775,12 +7775,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Jazzercise',
               description:
-                'This course will focus on the elements of dance with cardio movement exercises. Pilates and stretching will also be implemented.',
+                'Focuses on the elements of dance with cardio movement exercises, plus Pilates and stretching.',
             },
             {
               title: 'Team Sports: Upperclassmen PE',
               description:
-                'Students will participate in various team activities with emphasis on group and individual choice and carry-over activities.',
+                'Various team activities, with emphasis on group and individual choice and carry-over activities.',
             },
             {
               title: 'Honors Weightlifting & Wellness',
@@ -7796,13 +7796,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Biology',
               description:
-                'A broad introduction to the basic principles of biology through the study of humans and their interaction with other organisms and their shared environment.',
+                'A broad introduction to the basic principles of biology through the study of humans and their interaction with other organisms and their shared environment · cell structure and function · the structure and function of plants and animals (systems study) · reproduction · genetics · evolution · ecology · laboratory exercises, dissection and lab reports are significant factors in the grade.',
             },
             {
               title: 'Advanced Biology',
               tag: 'Advanced',
               description:
-                'The purpose of this course is to introduce the student to an in-depth study of the basic principles of biological processes.',
+                'Introduces the in-depth study of the basic principles of biological processes.',
             },
             {
               title: 'Integrated Chemistry and Physics',
@@ -7846,7 +7846,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Nutritional Science',
               tag: 'Honors',
               description:
-                'This course is designed to provide an introduction to human nutrition, health, and its impacts on society.',
+                'An introduction to human nutrition, health and their impacts on society.',
             },
             {
               title: 'Advanced Placement Biology',
@@ -7858,25 +7858,25 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement Chemistry',
               tag: 'AP',
               description:
-                'Advanced Placement Chemistry is designed as a second-year chemistry course. This is a highly intensive elective science covering the topics usually included in a first-year college level chemistry course.',
+                'Advanced Placement Chemistry is a second-year chemistry course, a highly intensive science elective covering the topics usually included in a first-year college level chemistry course.',
             },
             {
               title: 'Advanced Placement Environmental Science',
               tag: 'AP',
               description:
-                'This course covers topics usually included in a first year college course in environmental science.',
+                'Covers topics usually included in a first year college course in environmental science.',
             },
             {
               title: 'Advanced Placement Physics 1: Algebra-Based',
               tag: 'AP',
               description:
-                'An algebra-based, introductory college-level physics course; every student must take the AP Physics 1: Algebra-Based exam.',
+                'An algebra-based, introductory college-level physics course covering these content areas: Kinematics · Forces and Translational Dynamics · Work, Energy, and Power · Linear Momentum · Torque and Rotational Dynamics · Energy and Momentum of Rotating Systems · Oscillations · Fluids · every student must take the AP Physics 1: Algebra-Based exam.',
             },
             {
               title: 'Advanced Placement Physics C: Mechanics',
               tag: 'AP',
               description:
-                'A full-year, in-depth study of Newtonian mechanics: kinematics · Newton’s laws of motion · work, energy and power · systems of particles and linear momentum · circular motion and rotation · oscillations and gravitation.',
+                'A full-year, in-depth study of Newtonian mechanics: kinematics · Newton’s laws of motion · work, energy and power · systems of particles and linear momentum · circular motion and rotation · oscillations and gravitation · the course is heavily lab based, with a required lab notebook and problem solving that uses calculus · every student must take the AP Physics C: Mechanics exam.',
             },
             {
               title: 'Sports Medicine',
@@ -7891,7 +7891,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Biotechnology',
               description:
-                'This course will provide students with a comprehensive introduction to the scientific concepts and laboratory research techniques currently used in the field of biotechnology.',
+                'A comprehensive introduction to the scientific concepts and laboratory research techniques used in biotechnology today.',
             },
           ],
         },
@@ -7913,13 +7913,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors World History',
               tag: 'Honors',
               description:
-                'Honors World History is the highest-level World History class at Charlotte Catholic · assignment deadlines are often given days or even weeks in advance, so students must plan their work and manage their time to succeed.',
+                'Honors World History is the highest-level World History class at Charlotte Catholic · assignment deadlines are often given days or even weeks in advance, so students must plan their work and manage their time to succeed · the course runs from Ancient World history, focusing on religions, empires and introductory skills, through early China to the Cold War · a strong emphasis on thinking and writing skills makes the assigned reading essential · not a Eurocentric class: students learn European history and a great deal about Africa, Asia and Latin America.',
             },
             {
               title: 'SASP World History: Icon of Christian Art',
               tag: 'SASP',
               description:
-                'This course examines the development of Western and Near Eastern civilizations through the historical and artistic influence of Christianity.',
+                'Examines how Western and Near Eastern civilizations developed through the historical and artistic influence of Christianity.',
             },
             {
               title: 'U.S. History',
@@ -7941,18 +7941,18 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Psychology',
               description:
-                'This course introduces students to the scientific study of human behavior and mental processes.',
+                'An introduction to the scientific study of human behavior and mental processes.',
             },
             {
               title: 'Advanced Placement Psychology',
               tag: 'AP',
               description:
-                'This course is a college-level course that introduces students to the systematic and scientific study of human behavior and mental processes.',
+                'A college-level introduction to the systematic and scientific study of human behavior and mental processes.',
             },
             {
               title: 'Politics',
               description:
-                'This course is a college prep level U.S. Government class that introduces students to the foundations, structures, and processes of the American political system.',
+                'A college prep level U.S. Government class introducing the foundations, structures and processes of the American political system.',
             },
             {
               title: 'Honors Politics',
@@ -7964,12 +7964,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement United States Government',
               tag: 'AP',
               description:
-                'This course provides a college-level introduction to key political concepts, ideas, institutions, policies, interactions, roles, and behaviors that characterize the constitutional system and political culture of the United States.',
+                'A college-level introduction to the key political concepts, ideas, institutions, policies, interactions, roles and behaviors that characterize the constitutional system and political culture of the United States.',
             },
             {
               title: 'Economics',
               description:
-                'This course is a college prep level economics course that introduces students to the fundamental principles of economics with a primary focus on the American economic system.',
+                'A college prep level course in the basic principles of economics, with a main focus on the American economic system.',
             },
             {
               title: 'Honors Economics',
@@ -7981,13 +7981,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Advanced Placement Microeconomics',
               tag: 'AP',
               description:
-                'This class is a college-level course that introduces students to the principles of economics that apply to the behavior of individual consumers, firms, and resource owners.',
+                'A college-level introduction to the principles of economics that apply to the behavior of individual consumers, firms and resource owners.',
             },
             {
               title: 'Advanced Placement Microeconomics & Macroeconomics',
               tag: 'AP',
               description:
-                'This class includes topics in both macroeconomics and microeconomics. This course is equivalent to two semester-long courses in macroeconomic theory and microeconomic theory.',
+                'Covers both macroeconomics and microeconomics and is equivalent to two semester-long courses, one in macroeconomic theory and one in microeconomic theory.',
             },
             {
               title: 'Advanced Placement European History',
@@ -8003,12 +8003,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Faith and Revelation: Knowing God through Sacred Scripture',
               description:
-                'This course begins with a brief orientation to philosophy and logic. The remainder of the course examines how God reveals himself to people.',
+                'A brief orientation to philosophy and logic, then a study of how God reveals himself to people.',
             },
             {
               title: 'The Blessed Trinity and Our Christian Vocation',
               description:
-                'This course presents the Blessed Trinity – one God in three divine Persons: Father, Son, and Holy Spirit – which is the central mystery of the Christian Faith.',
+                'Studies the Blessed Trinity – one God in three divine Persons: Father, Son, and Holy Spirit – the central mystery of the Christian Faith.',
             },
             {
               title: 'SASP Theology 9: Sacred Scripture',
@@ -8045,7 +8045,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Catholic Apologetics',
               description:
-                'This course prepares students for active dialogue with non-Catholics in the public sphere.',
+                'Prepares students for active dialogue with non-Catholics in public life.',
             },
             {
               title: 'Vocations and the Universal Call to Holiness',
@@ -8060,19 +8060,19 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'History of the Church',
               description:
-                'This course begins with the story of God’s definitive intervention into human history in the Person of his Son and continues through his Church to the present day.',
+                'Covers the story from God’s definitive intervention into human history in the Person of his Son, through his Church, to the present day.',
             },
             {
               title: 'Honors Gospel and Film',
               tag: 'Honors',
               description:
-                'This course will enable students to develop a standard for analyzing what they see portrayed in the cinema.',
+                'Teaches students to develop a standard for analyzing what they see portrayed in movies.',
             },
             {
               title: 'Honors Ecumenical and Interreligious Studies',
               tag: 'Honors',
               description:
-                'This course presents an overview of world religions including Judaism, Christianity, Islam, Hinduism and Buddhism.',
+                'An overview of world religions, including Judaism, Christianity, Islam, Hinduism and Buddhism.',
             },
           ],
         },
@@ -8082,7 +8082,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Art I',
               description:
-                'Art I is an introductory course focusing on fundamental art skills. Various media and tools are explored including painting, drawing, and sculpture.',
+                'Art I is an introductory course focusing on fundamental art skills, exploring various media and tools, including painting, drawing and sculpture.',
             },
             {
               title: 'Art II',
@@ -8150,12 +8150,12 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Freshman Men’s Chorus',
               description:
-                'This course offers incoming freshmen men an opportunity to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.',
+                'Offers incoming freshman men a chance to develop their singing voices through choral singing, correct breathing, sight singing and vocal production techniques.',
             },
             {
               title: 'Freshman Women’s Chorus',
               description:
-                'This course offers incoming freshmen women an opportunity to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.',
+                'Offers incoming freshman women a chance to develop their singing voices through choral singing, correct breathing, sight singing and vocal production techniques.',
             },
             {
               title: 'Choral Ensemble',
@@ -8165,30 +8165,30 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Women’s Chamber Ensemble',
               description:
-                'This course is an auditioned proficient level choir for women with previous singing experience.',
+                'An auditioned, proficient level choir for women with previous singing experience.',
             },
             {
               title: 'Honors Women’s Chamber Ensemble',
               tag: 'Honors',
               description:
-                'This course is an auditioned proficient and advanced level choir for women with previous singing experience.',
+                'An auditioned, proficient and advanced level choir for women with previous singing experience.',
             },
             {
               title: 'Men’s Chamber Ensemble',
               description:
-                'This course is an auditioned proficient level choir for men with previous singing experience.',
+                'An auditioned, proficient level choir for men with previous singing experience.',
             },
             {
               title: 'Honors Men’s Chamber Ensemble',
               tag: 'Honors',
               description:
-                'This course is an auditioned proficient and advanced level choir for men with previous singing experience.',
+                'An auditioned, proficient and advanced level choir for men with previous singing experience.',
             },
             {
               title: 'Honors Concert Choir',
               tag: 'Honors',
               description:
-                'This course is an auditioned, advanced level mixed choir for men and women with significant previous singing experience.',
+                'An auditioned, advanced level mixed choir for men and women with significant previous singing experience.',
             },
             {
               title: 'Costume Design and Production',
@@ -8210,7 +8210,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Theatre: Design and Tech',
               tag: 'Honors',
               description:
-                'An advanced course in which students not only create the sets but gain the tools to work in a professional setting, applying all the concepts of design and aesthetics.',
+                'An advanced course in which students not only create the sets but gain the tools to work in a professional setting, applying all the concepts of design and aesthetics · students run all lighting and sound for the school and its facilities, and take extra time to set up and break down for school Masses and events · students in this course also take leadership roles in all theatrical productions.',
             },
             {
               title: 'On The Stage: Acting, Directing, Movie Making',
@@ -8225,7 +8225,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Acting',
               description:
-                'This course is offered to students who desire to seriously pursue all acting techniques for the stage as well as screen.',
+                'For students who want to seriously pursue all acting techniques, for the stage as well as the screen.',
             },
             {
               title: 'Honors Acting',
@@ -8237,7 +8237,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors TV, Film, and Production',
               tag: 'Honors',
               description:
-                'This course furthers the knowledge of the principles, procedures, and techniques of television/web series production.',
+                'Builds on students’ knowledge of the principles, procedures and techniques of television/web series production.',
             },
             {
               title: 'Dance I',
@@ -8253,18 +8253,18 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Dance III',
               tag: 'Honors',
               description:
-                'Dance III is an honors level performance course that highlights students’ advanced technique through applying choreography · the class meets the full year · two staged recitals are required, including student-choreographed pieces.',
+                'Dance III is an honors level performance course that highlights students’ advanced technique through applying choreography · the class meets the full year · two staged recitals are required, including student-choreographed pieces · the purchase of appropriate dance shoes is required.',
             },
             {
               title: 'Concert Band',
               description:
-                'Students with playing experience join through an audition and are expected to be proficient on their instrument, know basic music theory and read music fluently.',
+                'Students with playing experience join through an audition and are expected to be proficient on their instrument, know basic music theory and read music fluently · emphasis on tone quality, intonation and advanced or extended techniques · students are expected to attend after-school rehearsals and performances · members are expected to be in the marching band in the fall · wind players should sign up for this course · at-home practice is required · performance events are mandatory.',
             },
             {
               title: 'Honors Wind Ensemble',
               tag: 'Honors',
               description:
-                'This class is for juniors and seniors who have completed one year of Concert Band and who wish to receive honors credit for their participation in band.',
+                'For juniors and seniors who have completed one year of Concert Band and want honors credit for their participation in band.',
             },
             {
               title: 'Percussion',
@@ -8275,17 +8275,17 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Percussion',
               tag: 'Honors',
               description:
-                'This class is for members of the percussion group who wish to receive honors credit for their participation in band.',
+                'For members of the percussion group who want honors credit for their participation in band.',
             },
             {
               title: 'Introduction to Guitar',
               description:
-                'This course is designed as a performance based class to give an understanding of the fundamentals of acoustic guitar playing.',
+                'A performance-based class in the fundamentals of acoustic guitar playing.',
             },
             {
               title: 'Guitar II',
               description:
-                'For the intermediate-advanced guitar student, continuing Guitar I with more emphasis on improving the fundamentals through sight reading, scales, chord spellings, modes and finger picking.',
+                'For the intermediate-advanced guitar student · continues Guitar I with more emphasis on improving the fundamentals through sight reading, scales, chord spellings, modes and finger picking · students perform in groups as well as solo.',
             },
           ],
         },
@@ -8300,19 +8300,19 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'French II',
               description:
-                'This course is designed to continue the foundation learned in French I and build a greater understanding and comprehension of reading, writing, listening, and speaking.',
+                'Builds on the foundation from French I and deepens understanding of reading, writing, listening and speaking.',
             },
             {
               title: 'Advanced French II',
               tag: 'Advanced',
               description:
-                'This course is designed to continue the foundation learned in French I and build a greater understanding and comprehension of reading, writing, listening, and speaking.',
+                'Builds on the foundation from French I and deepens understanding of reading, writing, listening and speaking.',
             },
             {
               title: 'Advanced French III',
               tag: 'Advanced',
               description:
-                'An advanced course that builds understanding of the French language by continuing to develop and apply it in reading, writing, listening and speaking.',
+                'An advanced course that builds understanding of the French language by continuing to develop and apply it in reading, writing, listening and speaking · a strong emphasis on grammar and speaking.',
             },
             {
               title: 'Honors French III',
@@ -8340,7 +8340,7 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'German II',
               description:
-                'This course is designed to continue the foundation learned in German I and build a greater understanding and comprehension of reading, writing, listening, and speaking.',
+                'Builds on the foundation from German I and deepens understanding of reading, writing, listening and speaking.',
             },
             {
               title: 'Honors German III',
@@ -8386,13 +8386,13 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Honors Latin III',
               tag: 'Honors',
               description:
-                'This course is designed for students whose demonstrated mastery of Latin fundamentals indicates readiness for authentic literary texts.',
+                'For students who have shown mastery of Latin fundamentals and are ready for authentic literary texts.',
             },
             {
               title: 'Honors Latin lV',
               tag: 'Honors',
               description:
-                'This course emphasizes the rhetorical, metrical, and cultural conventions of epic and lyric poetry.',
+                'Focuses on the rhetorical, metrical and cultural conventions of epic and lyric poetry.',
             },
             {
               title: 'Advanced Placement Latin',
@@ -8408,25 +8408,25 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
             {
               title: 'Spanish II',
               description:
-                'This course is designed to continue the foundation learned in Spanish 1 and build a greater understanding and comprehension of reading, writing, listening, and speaking.',
+                'Builds on the foundation from Spanish 1 and deepens understanding of reading, writing, listening and speaking.',
             },
             {
               title: 'Advanced Spanish II',
               tag: 'Advanced',
               description:
-                'This course is designed to continue the foundation learned in Spanish 1 and build a greater understanding and comprehension of reading, writing, listening, and speaking.',
+                'Builds on the foundation from Spanish 1 and deepens understanding of reading, writing, listening and speaking.',
             },
             {
               title: 'Advanced Spanish III',
               tag: 'Advanced',
               description:
-                'An advanced course that builds understanding of the Spanish language by continuing to develop and apply it in reading, writing, listening and speaking.',
+                'An advanced course that builds understanding of the Spanish language by continuing to develop and apply it in reading, writing, listening and speaking · a strong emphasis on grammar and speaking.',
             },
             {
               title: 'Advanced Spanish III - Native Speaker',
               tag: 'Advanced',
               description:
-                'This course is an advanced course designed for students who already speak Spanish at home or in their communities.',
+                'An advanced course for students who already speak Spanish at home or in their communities.',
             },
             {
               title: 'Honors Spanish III',
@@ -8461,19 +8461,19 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
               title: 'Dual Enrollment: Public Speaking',
               tag: 'Dual Enrollment',
               description:
-                'This course provides instruction and experience in preparation and delivery of speeches within a public setting and group discussion.',
+                'Teaches, with practice, how to prepare and deliver speeches in a public setting and in group discussion.',
             },
             {
               title: 'Dual Enrollment: Introduction to Sociology',
               tag: 'Dual Enrollment',
               description:
-                'This course introduces the scientific study of human society, culture, and social interactions.',
+                'An introduction to the scientific study of human society, culture and social interactions.',
             },
             {
               title: 'Dual Enrollment: Art Appreciation',
               tag: 'Dual Enrollment',
               description:
-                'This course introduces the origins and historical development of art.',
+                'An introduction to the origins and historical development of art.',
             },
           ],
         },

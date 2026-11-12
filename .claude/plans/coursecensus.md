@@ -1,7 +1,7 @@
 ---
 name: coursecensus
 title: Course Offerings follow-up to plaincourses (#485) — a description-to-catalog census of every school but Charlotte Catholic (1,531 descriptions, checked against each school's own catalog, re-downloaded where the committed record only mirrors the app), the one-sentence design applied to the 68 Charlotte Catholic boilerplate openers and 21 multi-sentence descriptions, the 24 formerly cut-off Charlotte Catholic descriptions completed with the topics plaincourses dropped, and four small narrowings; English in four reviewed batches, then all nine prose locales
-status: in-progress
+status: english-done
 phases: 2
 batches: 4
 created: 2026-11-11
@@ -287,8 +287,8 @@ record.
 |---|---|---|---|---|---|---|
 | 1 | `2066da3c`, `ab89d799`, `a95a9584` (ingest `6b882c9a`, `19c1fb7b`, `39408ece`) | `census-{providence-day,charlotte-latin,charlotte-country-day}.md` (`4ee6078e`) | `4ee6078e` (54), `647257fb` (13) | `9ee41278` | 7 wording edits, 5 fact findings, 3 of 25 `OK` re-checks overturned | **approved** 2026-11-11, after the rulings commit `29ce4a19` |
 | 2 | `345024a4` (ingest `481de37c`) | `census-{cannon,charlotte-christian,davidson-day}.md` (`6624057f`) | `6624057f` (24 + 7 teasers/notes + 1 tag), `9d29ea5d` (5) | this batch's English commit | 8 wording edits, 0 fact findings in the fixes, 4 of 20 `OK` re-checks overturned (5 rows), 2 structural reports | **approved** 2026-11-11, with the rulings commit (`review-batch2-rulings.md`) |
-| 3 | — (records only) | `census-{covenant-day,carmel-christian,hickory-grove-christian,gaston-day,trinity-episcopal,charlotte-prep}.md` (`c18faa90`) | `c18faa90` (53 + 8 teasers/notes, item 8 ×2), `eb5cdac7` (6) | this batch's English commit | 6 wording edits, 3 fact findings in the fixes, 2 of 40 `OK` re-checks overturned, 1 decision raised | **rulings** 2026-11-12 (`review-batch3-rulings.md`); awaiting final approval |
-| 4 | — | — | — | — | — | — |
+| 3 | — (records only) | `census-{covenant-day,carmel-christian,hickory-grove-christian,gaston-day,trinity-episcopal,charlotte-prep}.md` (`c18faa90`) | `c18faa90` (53 + 8 teasers/notes, item 8 ×2), `eb5cdac7` (6) | this batch's English commit | 6 wording edits, 3 fact findings in the fixes, 2 of 40 `OK` re-checks overturned, 1 decision raised | **approved** 2026-11-11, after the rulings commit `897244d6` (`review-batch3-rulings.md`) |
+| 4 | `3455c6e4` (ingest `896a8aec`) | — (censused by plaincourses) | — (no fact error in committed text) | this batch's English commit | 13 wording edits, 2 restored facts in the draft, 1 decision raised | awaiting review |
 
 ### Item 3 rows (defaults; the drafter confirms each against section C)
 
@@ -640,7 +640,18 @@ No skill or command changes, so `.claude/SKILLS.md` is not touched. No `CLAUDE.m
 
 | Path | After-grade | Reason |
 |---|--:|---|
-| | | |
+| `charlotte-catholic:divisions[0].departments[0].courses[4].description` (English 10) | 11.1 | Template C6 completed with the cut clause (vocabulary, reading comprehension, literary terms); four items, each alone |
+| `charlotte-catholic:divisions[0].departments[0].courses[5].description` (Advanced English 10) | 11.1 | The same C6 text as English 10 |
+| `charlotte-catholic:divisions[0].departments[0].courses[8].description` (English 11) | 11.9 | Completed with the American Literature survey; six items of subject vocabulary |
+| `charlotte-catholic:divisions[0].departments[0].courses[9].description` (Honors English 11) | 11.8 | Completed with the survey and the required extra reading; seven items |
+| `charlotte-catholic:divisions[0].departments[0].courses[11].description` (English 12) | 10.4 | Completed with documented essays and vocabulary; six items |
+| `charlotte-catholic:divisions[0].departments[1].courses[18].description` (Honors Civil and Construction Engineering) | 11.8 | Completed with bridges and city planning; engineering terms the course teaches |
+| `charlotte-catholic:divisions[0].departments[2].courses[0].description` (Algebra I) | 11.2 | Template C7 completed with polynomials, quadratic functions and data; nine items |
+| `charlotte-catholic:divisions[0].departments[2].courses[1].description` (Advanced Algebra I) | 11.0 | The same C7 text ("A brief review") |
+| `charlotte-catholic:divisions[0].departments[2].courses[7].description` (Honors Algebra II) | 11.8 | Template C1 lead plus the completed topic list; the function list split into two items |
+| `charlotte-catholic:divisions[0].departments[2].courses[12].description` (Honors Pre-Calculus) | 11.9 | Template C1 lead plus the later sentence's six topics |
+| `charlotte-catholic:divisions[0].departments[2].courses[16].description` (AP Calculus BC) | 11.6 | Completed with the calculus topics and the required exam; "Fundamental Theorem of Calculus" kept |
+| `charlotte-catholic:divisions[0].departments[3].courses[13].description` (Pathway Program) | 10.5 | Item 8: the two restored skills and the "such as" sample; eight items |
 
 ## Implementation notes
 
@@ -1035,7 +1046,7 @@ in Batch 1. `--check` exits 1 on 15 by-design hits, listed in `review-batch3.md`
 - **Gaston Day Spanish IV:** "terminal" (Visual Art IV's was replaced).
 - **Hickory Grove tags:** six `Gr 9–12` tags the record does not state.
 
-**User ruling at the Batch 3 review (2026-11-12): "for everything listed and decisions for me
+**User ruling at the Batch 3 review (2026-11-11): "for everything listed and decisions for me
 let's go with your recommendations".** Applied as one commit, with evidence in
 `review-batch3-rulings.md`:
 - Charlotte Prep Math becomes one sentence (the Latin 7 precedent). The school's words are kept,
@@ -1052,3 +1063,106 @@ schools is more than one sentence.
 Effects of the commit: `check:matrices` is unchanged. `check:live` is at **200 stale entries per
 locale**. Browser: Charlotte Prep, Gaston Day and Covenant Day render every row, teaser and note
 as the module holds them, with no overflow at 390px.
+
+**Batch 3 approved** (2026-11-11, at the Batch 4 resume: "Batch 3 English is approved"), after the
+rulings commit `897244d6`. No further rulings. `origin/main` had not moved.
+
+### Batch 4 — Charlotte Catholic (items 2, 3 and 8)
+
+**Sources** (`3455c6e4`, ingest `896a8aec`). The guide was re-downloaded (SHA-256 unchanged,
+`6db5f418…a3a5`) and **section E** appended to the full-descriptions file: the guide entries for
+**70** courses. The plan's "68 + 6" overlap by four, so 68 boilerplate openers plus two rows that are
+multi-sentence with no opener (Advanced Placement Chemistry, Art I). A wrapped title is given in
+full, two-paragraph entries are joined, and the Dual Enrollment entries carry their CPCC codes. The
+provenance header now records the guide's Honors German III error ("the Spanish-speaking world").
+The ingest changed only Charlotte Catholic's note and content file; the six other schools' date-only
+rebuilds were reverted, and `schools.json`, which only reordered (identical apart from order), was
+restored to `HEAD`. `check:schema` passes, with no ⚠️ card key.
+
+**No fixes commit.** There is no census in this batch, and the reviewer found no fact error in the
+committed text.
+
+**Wording** (93 units, `worklist-batch4.json`, `review-batch4.md`):
+- **Item 2, 70 rows:** each is one sentence with the same facts. The boilerplate is dropped, and the
+  row leads with its subject or verb.
+- **Item 3, 22 rows** completed under rule (a)/(b)/(c). Honors Geometry and Advanced Chemistry were
+  confirmed complete and left.
+- **Pathway.**
+- **Deviations from the "Item 3 rows" table:**
+  - AP Physics C adds the required lab notebook (a later requirement, rule (b)).
+  - Honors World History adds "a strong emphasis on thinking and writing skills makes the assigned
+    reading essential" (the guide: "imperative").
+  - Honors Theatre: Design and Tech adds the extra set-up and break-down time for school Masses and
+    events.
+  - Concert Band adds the emphasis list (tone quality, intonation, advanced/extended techniques)
+    and "wind players should sign up for this course".
+  - All four are rule (b) cases the table did not list.
+- **Honors English 12** (an item 2 row) stopped at the guide's own typo ("in some cases.
+  secondary sources"). It is completed to the end of that sentence.
+- **Simplified to pass the hook** (each row was above grade 12 in the guide's own words):
+  - C7: "showing data and summing it up in numbers" (for "displays of categorical and
+    quantitative data and numerical summaries of quantitative data") and "working with
+    polynomials";
+  - C6: "grammar basics" and "essays that evaluate and analyze";
+  - C2: "grammar and speaking";
+  - Honors Pre-Calculus: "such as" (still a sample) and "hypothesis tests";
+  - Pathway: "getting around in the community".
+  The reviewer judged that none loses meaning a parent needs.
+
+**Template wordings set in this batch** (the plaincourses table stays as the record of what it
+shipped):
+
+| Id | Final wording |
+|---|---|
+| C1 | Lead unchanged at all five sites. Honors Algebra II: "…covering in depth: linear, quadratic and exponential functions · logarithmic, radical, rational and trigonometric functions · complex numbers · correlation and regression · normal models · confidence intervals for proportions and means." Honors Pre-Calculus: "…covering further development and analysis of functions, such as polynomial, rational, exponential, logarithmic and trigonometric functions · probability · counting · sequences and series · conic sections · the complex number system · hypothesis tests for means and proportions." |
+| C2 | "An advanced course that builds understanding of the <French/Spanish> language by continuing to develop and apply it in reading, writing, listening and speaking · a strong emphasis on grammar and speaking." |
+| C6 | "World Literature through novels, short stories, drama and poetry · grammar basics, practiced in writing assignments · an introduction to essays that evaluate and analyze, using secondary sources · more work on vocabulary, reading comprehension and literary terms." |
+| C7 | "<A review / A brief review> of operations with integers, fractions and decimals · solving equations and inequalities in one variable · an introduction to functions · linear functions · systems of linear equations and inequalities · working with polynomials · factoring polynomials · quadratic functions · showing data and summing it up in numbers." |
+| Language II | "Builds on the foundation from <French I / German I / Spanish 1> and deepens understanding of reading, writing, listening and speaking." (French II, Advanced French II, German II, Spanish II, Advanced Spanish II) |
+
+**Guards.** `--check` exits 1 on 48 by-design hits, each listed in `review-batch4.md` with its guide
+sentence:
+- 47 come from item 3 completions: capitalized names, EXAM, REQUIRED, ONLY, LEVEL, ADVANCED and
+  THIRDPARTY ("secondary sources").
+- 1 is a false IMMERSION trigger ("taught in Advanced English 10").
+
+93/93 `hook: pass`. Guard (q) passes: no identity leaf changed.
+
+**Independent review.** It checked all 93 rows:
+- **13 wording edits**, including the shared language-II sentence (five sites), C7 (two sites),
+  "characterize" restored, and History of the Church's start-to-present order.
+- **2 restored facts in the draft:** Honors Theatre's "extra time", and Pathway's "aims to
+  support" (the guide's "is designed to").
+- **1 decision raised** (below).
+
+**Checks.**
+- `tsc -b` clean; `vite build` succeeds.
+- Exit 0: the Step 7 list (`check:schema`, `check:spelling`, `check:flags`, `check:matrices`,
+  `check:schoolurls`, `check:chrome`, `check:runtime`, `check:moneytext`, `check:dates`,
+  `check:spans`, `check:photos`) and `test:plain`.
+- `check:matrices` output is byte-identical to the batch's `HEAD`.
+- The hook is clean. `check:plain` course-offerings: Flagged 0, Jargon 0, Grade >12 0, Grade >10
+  **18**. That is the 7 plaincourses residuals plus the 12 above, with English 10 and Advanced
+  English 10 sharing one text, so 18 units.
+- `check:live` fails only in `course-offerings`: **290 stale entries per locale** (Batch 3's 200,
+  plus 90 distinct old texts).
+
+**After Batch 4, file-wide** (1,729 descriptions):
+- No description opens with boilerplate.
+- One counts two sentences: Cannon Social Studies, whose "!" is in the curriculum's own name
+  ("Social Studies Alive!"), left by the Batch 2 ruling.
+- The 22 item 3 rows carry their additions.
+
+**Browser** (real Chrome via Playwright, `vite preview`):
+- All 199 Charlotte Catholic rows render exactly as the module holds them, with no literal `*`.
+  Still one course card (no new card from the ingest).
+- Searches found every restored item: "quadratic" (Algebra I), "American Literature" (English 11),
+  "Eurocentric", "Kinematics", "social communication" (Pathway), "dance shoes", "marching band",
+  "secondary sources" (English 12, Honors English 12).
+- No overflow at 390px.
+
+**Raised at review, not changed:** Advanced French II and Advanced Spanish II now read exactly like
+French II and Spanish II. Their guide entries add "In the Advanced level, the linguistic level of
+instruction and communication will be more complex, the curriculum will move at a faster pace, and
+students will be held to more rigorous expectations." The before-text never carried it, and item 2
+adds nothing.
