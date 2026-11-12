@@ -50,6 +50,7 @@
 | S12 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/sixth-grade | Middle School, sixth-grade |
 | S13 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/seventh-grade | Middle School, seventh-grade |
 | S14 | https://www.charlottecountryday.org/cd-education/middle-school/ms-curriculum/eighth-grade | Middle School, eighth-grade |
+| S15 | https://www.charlottecountryday.org/cd-education/middle-school | Middle School overview (language options, math classes); added during the Batch 1 census |
 
 ## Index — every app course, in app order
 
@@ -626,9 +627,7 @@ Units of Study
 
 ## Science
 
-Lower School science focuses on engaging in investigation and discovery through the scientific method in Country Day’s state-of-the-art science lab. An integrated STEM program brings together engineering and inquisitive minds to design innovative, sustainable solutions to real world problems.
-
-In first grade, students practice observing, predicting, inferring, data collection and analysi
+Lower School science focuses on engaging in investigation and discovery through the scientific method in Country Day’s state-of-the-art science lab. An integrated STEM program brings together engineering and inquisitive minds 
 
 …[truncated]
 
