@@ -3952,7 +3952,7 @@ const CANNON: CourseOfferings = {
               title: 'Honors Upper School Band',
               tag: 'Repeatable',
               description:
-                'Builds on middle school band across Concert Band, Big Band, and small classical Chamber Ensembles.',
+                'Builds on middle school band across Concert Band, Big Band, and small classical Chamber Ensembles; students with fewer than two years of middle school band audition before registering.',
             },
             {
               title: 'Honors Cannon School Jazz Combo',
@@ -4016,7 +4016,7 @@ const CANNON: CourseOfferings = {
               title: 'Advanced Placement Computer Science A',
               tag: 'AP',
               description:
-                'Fundamentals of computer science through object-oriented design in Java, including data structures and algorithms.',
+                'Fundamentals of computer science through object-oriented design in Java, including data structures and algorithms; open to juniors and seniors only.',
             },
             {
               title: 'Advanced Topics: Microeconomics: Politics and Policy',
@@ -4085,7 +4085,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'JK – Grade 4',
       teaser:
-        '11 subject strands — Bible from JK through a Grade 4 Case for Christ apologetics capstone, plus six enrichment classes.',
+        '5 core subject strands — Bible from JK through a Grade 4 Case for Christ apologetics capstone — plus six enrichment classes.',
       source: 'Charlotte Christian Lower School Curriculum brochure',
       sourceUrl:
         'https://www.charlottechristian.com/fs/resource-manager/view/94f7a8dc-97a5-4798-aeeb-bb83410b4312',
@@ -4891,7 +4891,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Advanced Placement Art and Design',
               tag: 'AP',
               description:
-                'A portfolio in 2D art, 3D art, or drawing per College Board guidelines, with work beginning in summer.',
+                'A portfolio in 2D art, 3D art, or drawing per College Board guidelines, with work beginning in summer; for eligible juniors and seniors.',
             },
             {
               title: 'Advanced Placement Art History',
@@ -5809,12 +5809,6 @@ const DAVIDSON_DAY: CourseOfferings = {
               description:
                 'Early Preschool (2s/3s), Preschool (3s/4s), and Junior Kindergarten (4s/5s) work on cognitive skills, language development, fine and gross motor skills, planning and focus skills, and emotional and social well-being.',
             },
-            {
-              title: 'Specials',
-              tag: 'K–Gr 4',
-              description:
-                'Davidson Day publishes no list of Lower School specials; its Lower School page says students express their creativity in art, music, academic projects, or student clubs.',
-            },
           ],
         },
       ],
@@ -5886,11 +5880,6 @@ const DAVIDSON_DAY: CourseOfferings = {
               tag: 'Gr 7–8',
               description:
                 'Middle School students may take Upper School world language and mathematics courses; those credits count toward graduation but are excluded from Upper School GPA.',
-            },
-            {
-              title: 'AFAR International Research',
-              description:
-                'Accredited, expert-led archaeological fieldwork abroad at Maya, medieval Spanish, and Roman Portuguese sites.',
             },
           ],
         },
@@ -6397,7 +6386,7 @@ const DAVIDSON_DAY: CourseOfferings = {
             },
             {
               title: 'Intro to Sports Medicine',
-              tag: 'Semester',
+              tag: 'Year',
               description:
                 'Fundamentals of sports medicine and its careers, covering anatomy, injuries, evaluation, and taping across two semesters.',
             },
@@ -6447,6 +6436,11 @@ const DAVIDSON_DAY: CourseOfferings = {
               tag: 'Gr 12',
               description:
                 'The senior-year component of the Diploma Distinctions program supporting the Senior Capstone Research Project.',
+            },
+            {
+              title: 'AFAR International Research',
+              description:
+                'Accredited, expert-led archaeological fieldwork abroad at Maya, medieval Spanish, and Roman Portuguese sites.',
             },
             {
               title: 'Forensics & Zoology Honors',

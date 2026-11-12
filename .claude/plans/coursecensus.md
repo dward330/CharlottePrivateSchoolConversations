@@ -286,7 +286,7 @@ record.
 | Batch | Sources commit | Census table | Fixes commit | Wording commit | Reviewer findings | User verdict |
 |---|---|---|---|---|---|---|
 | 1 | `2066da3c`, `ab89d799`, `a95a9584` (ingest `6b882c9a`, `19c1fb7b`, `39408ece`) | `census-{providence-day,charlotte-latin,charlotte-country-day}.md` (`4ee6078e`) | `4ee6078e` (54), `647257fb` (13) | `9ee41278` | 7 wording edits, 5 fact findings, 3 of 25 `OK` re-checks overturned | **approved** 2026-11-11, after the rulings commit `29ce4a19` |
-| 2 | `345024a4` (ingest `481de37c`) | `census-{cannon,charlotte-christian,davidson-day}.md` (`6624057f`) | `6624057f` (24 + 7 teasers/notes + 1 tag), `9d29ea5d` (5) | this batch's English commit | 8 wording edits, 0 fact findings in the fixes, 4 of 20 `OK` re-checks overturned (5 rows), 2 structural reports | pending |
+| 2 | `345024a4` (ingest `481de37c`) | `census-{cannon,charlotte-christian,davidson-day}.md` (`6624057f`) | `6624057f` (24 + 7 teasers/notes + 1 tag), `9d29ea5d` (5) | this batch's English commit | 8 wording edits, 0 fact findings in the fixes, 4 of 20 `OK` re-checks overturned (5 rows), 2 structural reports | **approved** 2026-11-11, with the rulings commit (`review-batch2-rulings.md`) |
 | 3 | — | — | — | — | — | — |
 | 4 | — | — | — | — | — | — |
 
@@ -869,3 +869,30 @@ it stays under grade 10 (9.0). `--check` exits 1 on 3 by-design hits, listed in
 - Freshness candidates: Davidson Day Forensics & Zoology Honors is absent from the 2026-27
   offerings grid (p. 70); Charlotte Christian's Grade 5 Leadership is in the brochure but not
   on the live hub page.
+
+**User ruling at the Batch 2 review (2026-11-11): "fix all the things you listed in 'Decisions
+for you' with your recommendations".** Applied as one commit, with evidence in
+`review-batch2-rulings.md`. As in Batch 1, it lifts this plan's identity and structure scope
+for the listed leaves only:
+- Cannon Social Studies is left unchanged (the "!" is the curriculum's name).
+- Davidson Day AFAR moved from Middle School "Other published detail" to Upper School
+  "Electives & Distinctions", after Capstone Research Honors.
+- Davidson Day Specials row removed. Its Lower School card keeps the Early Childhood row.
+- Davidson Day Intro to Sports Medicine tag `Semester` → `Year`.
+- Charlotte Christian Lower School teaser "11 subject strands … plus six" → "5 core subject
+  strands … plus six".
+- Three selection and grade rules added: Cannon Honors Upper School Band's audition, Cannon
+  AP Computer Science A's "juniors and seniors only", Charlotte Christian AP Art and Design's
+  "eligible juniors and seniors".
+- The two freshness candidates are recorded only.
+
+Effects of the commit:
+- `check:matrices`: only the informational "no TITLE_ALIASES entry (not counted)" lines change
+  (Specials gone; AFAR now listed under Upper School). No matrix value changes.
+- `check:live`: **121 stale entries per locale**.
+- Browser: Davidson Day renders 100 rows. AFAR renders under Upper School, and Sports Medicine
+  shows `Year`. All six new texts are found by search.
+
+**Precedent for Batch 3:** a true-but-shorter description that drops a selection or grade
+rule a parent would act on (an audition, "juniors and seniors only") is now treated as
+`NARROWS` and fixed, not left `OK`.
