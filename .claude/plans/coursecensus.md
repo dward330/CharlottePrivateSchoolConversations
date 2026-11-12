@@ -287,7 +287,7 @@ record.
 |---|---|---|---|---|---|---|
 | 1 | `2066da3c`, `ab89d799`, `a95a9584` (ingest `6b882c9a`, `19c1fb7b`, `39408ece`) | `census-{providence-day,charlotte-latin,charlotte-country-day}.md` (`4ee6078e`) | `4ee6078e` (54), `647257fb` (13) | `9ee41278` | 7 wording edits, 5 fact findings, 3 of 25 `OK` re-checks overturned | **approved** 2026-11-11, after the rulings commit `29ce4a19` |
 | 2 | `345024a4` (ingest `481de37c`) | `census-{cannon,charlotte-christian,davidson-day}.md` (`6624057f`) | `6624057f` (24 + 7 teasers/notes + 1 tag), `9d29ea5d` (5) | this batch's English commit | 8 wording edits, 0 fact findings in the fixes, 4 of 20 `OK` re-checks overturned (5 rows), 2 structural reports | **approved** 2026-11-11, with the rulings commit (`review-batch2-rulings.md`) |
-| 3 | — | — | — | — | — | — |
+| 3 | — (records only) | `census-{covenant-day,carmel-christian,hickory-grove-christian,gaston-day,trinity-episcopal,charlotte-prep}.md` (`c18faa90`) | `c18faa90` (53 + 8 teasers/notes, item 8 ×2), `eb5cdac7` (6) | this batch's English commit | 6 wording edits, 3 fact findings in the fixes, 2 of 40 `OK` re-checks overturned, 1 decision raised | awaiting review |
 | 4 | — | — | — | — | — | — |
 
 ### Item 3 rows (defaults; the drafter confirms each against section C)
@@ -896,3 +896,141 @@ Effects of the commit:
 **Precedent for Batch 3:** a true-but-shorter description that drops a selection or grade
 rule a parent would act on (an audition, "juniors and seniors only") is now treated as
 `NARROWS` and fixed, not left `OK`.
+
+### Batch 3 — Covenant Day, Carmel, Hickory Grove, Gaston Day, Trinity, Charlotte Prep
+
+**Sources.** Records only, as planned: no school was re-sourced. Each census read every committed
+`source-material/course-offerings/<slug>/` file. Two agents also read the same school's other
+committed records made from its own pages (Covenant Day's College Support, Arts and Clubs
+records; Gaston Day's Arts and Clubs records). That is accepted: the evidence rule is "the
+school's own text", not one folder. Trinity's cited pages now 404, so it was censused against
+the version the app was built from.
+
+**Census.** One fresh subagent per school, using Batch 2's brief plus "Lessons from Batch 2" (the
+overturned `OK` patterns, the dropped-selection-rule precedent, the page-range misread, and the
+strict site-written test). Every non-`OK` row was re-checked against the record
+(`census-<slug>.md`).
+
+| School | Rows | OK | SITE-WRITTEN-OK | Rows fixed `c18faa90` | Rows fixed `eb5cdac7` |
+|---|--:|--:|--:|--:|--:|
+| covenant-day | 163 | 81 | 72 | 10 (2 are item 8) | 1 (tightened) |
+| carmel-christian | 153 | 9 | 134 | 10 | 0 |
+| hickory-grove-christian | 153 | 136 | 0 | 17 | 2 |
+| gaston-day | 56 | 15 | 28 | 13 | 2 |
+| trinity-episcopal | 44 | 24 | 18 | 2 | 0 |
+| charlotte-prep | 37 | 36 | 0 | 1 | 0 |
+| **Total** | **606** | **301** | **252** | **53** | **5** |
+
+What the fixes correct:
+- **Site-written claims with no source** (most of Carmel, Gaston Day and the Covenant Day
+  High School). Examples: "audition-based chapel worship band", "introductory" and "advanced"
+  theatre, "for languages beyond Spanish", "worldview capstone", "Feeds" a club or magazine,
+  "the prerequisite tier", and "for students not continuing to calculus". Also "student-run
+  enterprise", "service-build", and "the furthest of the five" (Trinity Geometry).
+- **Gaston Day Speech & Debate** named the Public Debate Club and Mock Trial. Both were removed
+  from the app on 2026-11-10 because no school source names them.
+- **Samples shown as full lists:** Covenant Day Art; Carmel Language Arts (Decoding dropped);
+  Trinity Faith Studies ("etc."); Charlotte Prep Reading & Writing (speaking and listening).
+  At Hickory Grove: Biology II, Earth Science and Psychology.
+- **Topic lists cut short so the course reads smaller,** all at Hickory Grove: Algebra II CP,
+  AP Statistics, AP Government and Politics, and 7th Grade Math.
+- **Selection rules dropped** (the Batch 2 precedent), all at Hickory Grove: Introduction to
+  Bible (administrative recommendation), Concert Band (entry audition), and AP Seminar and AP
+  Research (application).
+- **Other dropped conditions:** Gaston Day Spanish's ESL exemption, and Hickory Grove Digital
+  Media II's "eligible to".
+- **Misstatements:**
+  - Hickory Grove AP English Language: "pace" where the catalog says "the equivalent of".
+  - Hickory Grove AP Calculus BC: "faster track".
+  - Hickory Grove Work Release: the sport-season rule.
+  - Covenant Day Latin IA: called the first half of the sequence, but it continues it.
+  - Gaston Day Band: four fine-arts courses, not five.
+  - Gaston Day Visual Art IV: a does-not-exist form.
+- **Item 8:** Covenant Day Grade 3 Math gains "addition and subtraction to 10,000" (the school's
+  "10.000" is a typo beside its own "10,000"). Covenant Day Music's choir is "for 4th and 5th
+  graders".
+
+**Implementer's verdict changes.** Trinity Foundations in Algebra, Math 1, Algebra 1 and Math 2
+were downgraded from `NARROWS` to `OK`. The agent flagged a dropped placement rule, but that
+rule is department-wide and the department states it once, on Advanced Pre-Algebra. This is
+raised at review. Gaston Day Advanced Functions and Models: the agent's fix kept an unsupported
+"fourth-year".
+
+**Teasers and notes** (Batch 1 ruling, in `c18faa90`):
+- Carmel's High School teaser named the unreadable guide as its source and said 78 titles. The
+  app holds 77; the titles come from the course listings and graduation requirements.
+- Carmel's Middle School teaser: the list comes from the curriculum page, which links the
+  guide.
+- Carmel's Lower School teaser and note: the Special Areas are not described per grade, and the
+  rows are K–5 summaries.
+- Gaston Day's Middle School teaser: "no … subject list at all" → "no … per-grade subject list".
+- Covenant Day's Middle School teaser: three honors tracks → four honors courses.
+- Covenant Day's Lower School teaser: "Spanish from Junior Kindergarten" is unsupported.
+- Trinity's Lower School teaser: Spanish is one of the six enrichments, not a seventh.
+
+**Item 2** (wording commit). Trinity's nine plus Music Ensembles are condensed to one sentence
+each. The Ensembles quote is kept byte-identical and moved to the end, the Batch 2 precedent.
+Research bookkeeping was dropped from three rows:
+- "it appears on no /academics/ page";
+- "the phrase appears in the profile PDF and on no page of the website";
+- the IDEA Lab's "only named academic facility" (the record's own research summary).
+
+Computer Science dropped its second sentence, which described a different, announced course,
+and takes its siblings' enrichment wording. Hickory Grove AP Government and Politics was
+condensed by its census fix. **Charlotte Prep Math (`divisions[1].departments[0].courses[2]`) is
+left at two sentences:** it is one quoted school passage. It is raised at review, like Latin 7
+in Batch 1. `--check` exits 1 on 15 by-design hits, listed in `review-batch3.md`.
+
+**Independent review.**
+- **Wording:** 6 edits in place. One restores a FROZEN `Honors` that a census fix had lowercased
+  (Carmel Honors Precalculus).
+- **Fact findings:** Hickory Grove 6th Grade Math ("surface area", the sibling of a census fix);
+  Gaston Day Advanced Functions and Models (the fix singled out one course as undescribed);
+  Trinity IDEA Lab.
+- **`OK` re-check:** 40 rows, 2 overturned (Gaston Day Middle School Drama's "as early as";
+  Hickory Grove In-Season Weight Training's one-credit rule).
+- **Also:** Covenant Day ContainIt tightened, and Trinity's "Profile PDF only" tag (research
+  bookkeeping) → `K–8`.
+- **Where it landed:** fact fixes in `eb5cdac7` against the committed text, with the wording
+  restored on top, so `eb5cdac7` is the Step 5 review base. Guard (q) fails on that one tag by
+  design.
+
+**Checks.**
+- `tsc -b` clean; `vite build` succeeds.
+- Exit 0: `check:schema`, `check:spelling`, `check:flags`, `check:schoolurls`, `check:chrome`,
+  `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`, `check:photos`.
+- `test:plain` passes.
+- `check:matrices` is unchanged from Batch 2. It differs from `main` only in Batch 2's
+  informational Davidson Day lines.
+- The hook is clean. `check:plain` course-offerings: Flagged 0, Jargon 0, Grade >10 7
+  (unchanged; no new residual).
+- `check:live` fails only in `course-offerings`: **195 stale entries per locale** (Batch 2's
+  121 plus 74).
+
+**Browser** (real Chrome via Playwright, `vite preview`):
+- All 15 division cards of the six schools render every row (163 + 153 + 153 + 56 + 44 + 37).
+  Each row's title, tag and description, and each teaser (read from `textContent`, since it is
+  hidden when a card is open) and note, match the module.
+- Searches found 6th and 7th Grade Math ("surface area"), In-Season Weight Training ("only one
+  credit"), Drama ("as early as"), Language Arts ("decoding"), Grade 3 Math ("10,000"), ContainIt,
+  IDEA (STEM) Lab and Reading & Writing.
+- No literal `*`. No overflow at 390px.
+
+**Raised at review, not changed:**
+- **Prerequisites, "Approval Required" and the required AP exam.** Hickory Grove prints
+  "Approval Required" on ~45 Upper School entries and requires the exam for every AP course;
+  15 of 17 AP rows do not say so. Gaston Day has the same AP-exam rule. The reviewer flagged
+  Hickory Grove AP Calculus BC, AP Statistics and AP Government and Politics. Is this a
+  selection rule (`NARROWS`, a wider pass) or school-wide policy (`OK`)?
+- **Trinity's 8th-grade placement rule:** one row or five (above).
+- **Charlotte Prep Math:** a two-sentence quote.
+- **Covenant Day Lower School teaser:** "Five to six subject areas" (JK's combined "Science and
+  Social Studies" heading).
+- **Covenant Day children's choir:** the course record says grades 4–5; the Arts and Clubs
+  records say 3–5.
+- **Charlotte Prep's three notes** say "in the school's own words", but about half the rows
+  paraphrase.
+- **Carmel:** duplicate honors rows (Biology/Honors Biology, Chemistry/Honors Chemistry) and Bible
+  titles the record marks TO VERIFY.
+- **Gaston Day Spanish IV:** "terminal" (Visual Art IV's was replaced).
+- **Hickory Grove tags:** six `Gr 9–12` tags the record does not state.

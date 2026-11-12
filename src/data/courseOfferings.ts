@@ -6522,7 +6522,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
             { title: 'Algebra II', tag: 'Standard', description: 'The standard track of second-year algebra.' },
             { title: 'Algebra II', tag: 'Honors', description: 'The honors track of second-year algebra.' },
             { title: 'Math 4 (Algebra III & Trigonometry)', tag: 'Pathways', description: 'The Pathways fourth-year course covering Algebra III and trigonometry.' },
-            { title: 'Honors Precalculus', tag: 'Honors', description: 'Precalculus at the honors level.' },
+            { title: 'Honors Precalculus', tag: 'Honors', description: 'Honors precalculus.' },
             { title: 'AP Precalculus', tag: 'AP', description: 'College-level precalculus.' },
             { title: 'Probability & Statistics', tag: 'Standard', description: 'The standard track of probability and statistics.' },
             { title: 'Probability & Statistics', tag: 'Honors', description: 'The honors track of probability and statistics.' },
@@ -6733,7 +6733,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'KINDERGARTEN – GRADE 5',
       teaser:
-        'Five core subjects described per grade and six Special Areas for all grades, from the 2026-27 Elementary Course Description Guide. It includes structured literacy (Orton-Gillingham) and a hands-on STEM lab from Kindergarten.',
+        'Five core subjects described per grade and six Special Areas for all grades, from the 2026-27 Elementary Course Description Guide. The guide describes structured literacy (Orton-Gillingham) and a hands-on STEM lab from Kindergarten.',
       source: 'Carmel Christian 2026-27 Elementary School Course Description Guide',
       sourceUrl:
         'https://www.carmelchristian.org/academics-elementary',
@@ -6991,7 +6991,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: 'Biblical Womanhood', tag: 'Gr 10–12', description: 'The biblical understanding of femininity and the role of women in family, church and society, open to young women.' },
             { title: 'SOAR', tag: 'Gr 9–12', description: 'Critical thinking, organization, time management, communication and career exploration — ideal for students transitioning into high school or wanting to strengthen their high school journey.' },
             { title: 'Student Intern', tag: 'Gr 9–12', description: 'A graded, application-based internship serving others through direct observation, hands-on work and reflection.' },
-            { title: 'Work Release', tag: 'Gr 12', description: 'For seniors with a 3.0 GPA and an employer letter who leave school early for work · not available to a student during the season of a sport they play with after-school practices.' },
+            { title: 'Work Release', tag: 'Gr 12', description: 'For seniors with a 3.0 GPA and an employer letter who leave school early for work · not available during the season of any sport the student plays that has after-school practices.' },
           ],
         },
       ],
@@ -7034,7 +7034,7 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
             { title: '6th Grade Math', tag: 'Gr 6', description: 'Reveal Math Course 1: fraction and decimal division, negative numbers, ratios and rates, expressions and equations, area, surface area and volume, and statistical reasoning.' },
             { title: '7th Grade Math', tag: 'Gr 7', description: 'Reveal Math Course 2: proportional relationships, rational numbers, scale drawings and geometric constructions, area, surface area and volume, and inferences from samples.' },
             { title: '8th Grade Math', tag: 'Gr 8', description: 'Reveal Math Course 3: linear equations in one or two variables, functions, and the Pythagorean Theorem applied to similarity and congruence.' },
-            { title: '8th Grade - Algebra 1', tag: 'Honors', description: 'Offered to qualifying 8th Grade Honors students — equations, expressions, order of operations, properties, signed numbers, inequalities, proportions, polynomials, factoring, graphing and radicals, with nightly homework.' },
+            { title: '8th Grade - Algebra 1', tag: 'Honors', description: 'Offered to qualifying 8th Grade Honors students — equations, expressions, order of operations, properties, positive and negative numbers, inequalities, proportions, polynomials, factoring, graphing and radicals, with nightly homework.' },
           ],
         },
         {
@@ -7159,7 +7159,7 @@ const GASTON_DAY: CourseOfferings = {
             {
               title: 'LEAD',
               tag: 'Required',
-              description: 'A required course sequence carrying digital citizenship instruction alongside advisory.',
+              description: 'Required courses that, along with advisory, teach digital citizenship.',
             },
             {
               title: 'Art',
@@ -8564,7 +8564,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'IDEA (STEM) Lab',
               tag: 'K–Gr 5',
               description:
-                'The school\'s only named academic facility, and a weekly Lower School enrichment. It is a STEM space, not an arts space.',
+                'A weekly Lower School enrichment in STEM.',
             },
             {
               title: 'Healthful Living (PE & Wellness)',
@@ -8596,7 +8596,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'K–8 Technology Program',
               tag: 'K–8',
               description:
-                'Facilitated by Digital Learning Catalysts, with 1:1 iPads for all students K-1 and 1:1 Chromebooks for all students Gr. 2-8. Published in the School Profile only — it appears on no /academics/ page.',
+                'The School Profile says the program is facilitated by Digital Learning Catalysts, with 1:1 iPads for all students K-1 and 1:1 Chromebooks for all students in grades 2-8.',
             },
             {
               title: 'K–8 Service Learning',
@@ -8628,7 +8628,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Math 6',
               tag: 'Gr 6',
               description:
-                'The 6th-grade course. Instruction across the department is "grounded in a problem-based core curriculum rooted in content and practice standards."',
+                'The 6th-grade course, in a department whose instruction is "grounded in a problem-based core curriculum rooted in content and practice standards."',
             },
             {
               title: 'Pre-Algebra',
@@ -8639,7 +8639,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Advanced Pre-Algebra',
               tag: 'Gr 7',
               description:
-                'The accelerated 7th-grade course. Students are placed in grade-level and accelerated courses "based on specific performance criteria" — the criteria themselves are not published.',
+                'The accelerated 7th-grade course, with students placed in grade-level and accelerated courses "based on specific performance criteria" that the school does not publish.',
             },
             {
               title: 'Foundations in Algebra',
@@ -8655,7 +8655,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Algebra 1',
               tag: 'Gr 8',
               description:
-                'One of five distinct 8th-grade mathematics courses. The school states no credit arrangement for it.',
+                'One of five distinct 8th-grade mathematics courses, with no credit arrangement stated by the school.',
             },
             {
               title: 'Math 2',
@@ -8720,7 +8720,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Science',
               tag: 'Gr 6–8',
               description:
-                'An integrated science program across grades 6-8. No per-grade course names are published.',
+                'An integrated science program across grades 6-8, with no per-grade course names published.',
             },
           ],
         },
@@ -8746,7 +8746,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Computer Science',
               tag: 'Gr 7',
               description:
-                'A weekly enrichment. A 6th Grade technology class has been announced as an addition, "as digital learning catalysts teach students how to use AI to create code and build, not just how to input questions."',
+                'One of the 13 weekly Middle School enrichments listed in the School Profile.',
             },
             {
               title: 'Learning Lab',
@@ -8777,7 +8777,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Choice Electives',
               tag: 'Gr 7–8',
               description:
-                'Named in the School Profile\'s enrichment list. Their contents are published nowhere — the phrase appears in the profile PDF and on no page of the website.',
+                'The School Profile names them in its enrichment list but does not describe what they cover.',
             },
             {
               title: 'Art',
@@ -8798,7 +8798,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Music Ensembles — Choir or Band',
               tag: 'Gr 6',
               description:
-                '"6th Grade students choose from one of two ensembles: choir or band." Ensembles perform at chapels, commencement, and venues outside of school.',
+                'Ensembles perform at chapels, commencement, and venues outside of school, and "6th Grade students choose from one of two ensembles: choir or band."',
             },
             {
               title: 'Advanced Band / Advanced Choir',
