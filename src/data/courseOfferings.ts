@@ -3179,11 +3179,11 @@ const CANNON: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'JrK – Grade 4',
       teaser:
-        '13 named curriculum areas — Reveal Math, TAB art, the Orff Approach, Scratch 3.0 coding, and the CHAMP fitness test.',
+        '12 named curriculum areas — Reveal Math, TAB art, the Orff Approach, Scratch 3.0 coding, and the CHAMP fitness test.',
       source: 'Cannon Lower School per-grade curriculum pages',
       sourceUrl: 'https://www.cannonschool.org/academics/lower-school',
       notPublished:
-        'Cannon publishes 12 named curriculum areas per grade for JrK–4 rather than a course catalog. The /academics/lower-school/curriculum path returns a 404.',
+        'Cannon publishes up to 12 named curriculum areas per grade for JrK–4 rather than a course catalog.',
       departments: [
         {
           name: 'Core Academics',
@@ -3238,7 +3238,7 @@ const CANNON: CourseOfferings = {
               title: 'Art',
               tag: 'Gr 1–4',
               description:
-                'Grade 3 onward uses the TAB (Teaching for Artistic Behavior) model so students work and think as artists.',
+                'Grade 2 onward follows the TAB (Teaching for Artistic Behavior) model, and by Grade 3 students work and think as artists.',
             },
             {
               title: 'Music',
@@ -3277,7 +3277,7 @@ const CANNON: CourseOfferings = {
               title: 'School Counseling',
               tag: 'Gr 1–4',
               description:
-                'Addresses typical challenges and characteristics of children by age and developmental stage.',
+                'The grade pages point families to the School Counseling webpage for typical challenges and characteristics of children by age and developmental stage.',
             },
           ],
         },
@@ -3287,11 +3287,11 @@ const CANNON: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'Grades 5 – 8',
       teaser:
-        'Six core subjects plus four math tracks — a Grade 5 rotation through all three world languages, and the ThinkTank makerspace.',
+        'Seven subject areas per grade, with select-group Pre-Algebra, Algebra I and Geometry options — a Grade 5 rotation through all three world languages, and the ThinkTank makerspace.',
       source: 'Cannon Middle School per-grade curriculum pages',
       sourceUrl: 'https://www.cannonschool.org/academics/middle-school',
       notPublished:
-        'Cannon publishes Middle School curriculum as per-grade subject descriptions, not a named-course catalog. There is no Middle School equivalent of the 44-page Upper School catalog.',
+        'Cannon publishes Middle School curriculum as per-grade subject descriptions, not a named-course catalog. Cannon publishes no Middle School equivalent of the 44-page Upper School catalog.',
       departments: [
         {
           name: 'Core Academics',
@@ -3346,7 +3346,7 @@ const CANNON: CourseOfferings = {
             {
               title: 'Seventh-Grade Algebra I',
               tag: 'Accelerated',
-              description: 'An accelerated option allowing seventh graders to take Algebra I.',
+              description: 'An accelerated program that lets a select group of seventh graders take Algebra I.',
             },
             {
               title: 'Algebra I',
@@ -3409,7 +3409,7 @@ const CANNON: CourseOfferings = {
               title: 'Academic Technology',
               tag: 'Gr 5–8',
               description:
-                'Blends 3D printing, virtual reality, drones, robotics, CAD design, and computer programming in the ThinkTank makerspace.',
+                'Blends activities including 3D printing, virtual reality, drones, robotics, CAD design, and computer programming in the ThinkTank makerspace.',
             },
           ],
         },
@@ -3419,7 +3419,7 @@ const CANNON: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '104 courses across 8 departments — 14 AP plus 13 faculty-designed Advanced Topics courses, each capped by a Signature Learning Experience.',
+        '104 courses across 8 departments — 14 AP plus 13 faculty-designed Advanced Topics courses, each capped by a Signature Learning Experience or a final cumulative exam.',
       source: "Cannon Upper School Course Catalog '26–27",
       sourceUrl:
         'https://resources.finalsite.net/images/v1769529893/cannonschoolorg/ihl0lzuqgs9loqntga7z/CannonAcademicCourseCatalog2026-2027.pdf',
@@ -3431,7 +3431,7 @@ const CANNON: CourseOfferings = {
               title: 'Honors English I',
               tag: 'Gr 9',
               description:
-                'A foundational course cultivating critical thinking, analytical skills, and creative expression across memoirs, plays, novels, poetry, and short stories.',
+                'A foundational course cultivating critical thinking, analytical skills, and creative expression across genres including memoirs, plays, novels, poetry, and short stories.',
             },
             {
               title: 'Honors English II: Reading and Discourse',
@@ -3531,13 +3531,13 @@ const CANNON: CourseOfferings = {
               title: 'Honors Accelerated Precalculus',
               tag: 'Accelerated',
               description:
-                'Prepares students for college-level mathematics and serves as the prerequisite for AP Calculus.',
+                'Prepares students for college-level mathematics and is a prerequisite for AP Calculus.',
             },
             {
               title: 'Advanced Placement Precalculus',
               tag: 'AP',
               description:
-                'A research-based exploration of function types modeling real-world phenomena, best suited to students on track for AP Calculus BC.',
+                'A research-based exploration of function types modeling real-world phenomena, best suited to students on track for AP Calculus BC or planning several levels of calculus in college.',
             },
             {
               title: 'Honors Calculus',
@@ -3620,7 +3620,7 @@ const CANNON: CourseOfferings = {
               title: 'Honors Accelerated Chemistry',
               tag: 'Accelerated',
               description:
-                'Covers Honors Chemistry at a faster pace plus molecular geometry, periodicity, and acid-base chemistry.',
+                'Covers Honors Chemistry at a faster pace plus added topics such as molecular geometry, periodicity, and acid-base chemistry.',
             },
             {
               title: 'Honors Chemistry and Physics II',
@@ -3892,7 +3892,7 @@ const CANNON: CourseOfferings = {
               title: 'Honors Studio-3D',
               tag: 'Honors',
               description:
-                'Hands-on exploration of clay, wire, wood, plaster, and found objects to create sculptures, installations, and functional designs.',
+                'Hands-on exploration of materials such as clay, wire, wood, plaster, and found objects to create sculptures, installations, and functional designs.',
             },
             {
               title: 'Honors Studio Arts II',
@@ -3987,7 +3987,7 @@ const CANNON: CourseOfferings = {
               title: 'Honors Creative Design and Engineering I',
               tag: 'Honors',
               description:
-                'Project-based exploration of the Iterative Design Engineering process across woodworking, sewing, electronics, and CAD.',
+                'Project-based exploration of the Iterative Design Engineering process, using tools in areas such as woodworking, sewing, basic electronics, and CAD.',
             },
             {
               title: 'Honors Creative Design and Engineering II',
@@ -4090,7 +4090,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
       sourceUrl:
         'https://www.charlottechristian.com/fs/resource-manager/view/94f7a8dc-97a5-4798-aeeb-bb83410b4312',
       notPublished:
-        'Charlotte Christian publishes Lower School subject strands with grade-band content tables, not named courses. There is no Lower School course catalog.',
+        'Charlotte Christian publishes Lower School subject strands with grade-band content tables, not named courses, and publishes no Lower School course catalog.',
       departments: [
         {
           name: 'Bible',
@@ -4173,7 +4173,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'Grades 5 – 8',
       teaser:
-        'Grade-by-grade sequences across 6 areas plus three elective tracks — Grade 5 begins Middle School here, not Lower.',
+        'Grade-by-grade sequences across 5 areas plus three elective tracks — Grade 5 begins Middle School here, not Lower.',
       source: 'Charlotte Christian Middle School Curriculum brochure',
       sourceUrl:
         'https://resources.finalsite.net/images/v1740582395/charlotte/avxqip1tnakoukzjqeew/MiddleSchoolCourseCurriculumoverview.pdf',
@@ -4217,7 +4217,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
             {
               title: 'Math 7 / Pre-Algebra / Algebra 1',
               tag: 'Gr 7',
-              description: 'Three seventh-grade placement tracks, up to full high-school Algebra 1.',
+              description: 'Three seventh-grade placement tracks, up to Algebra 1.',
             },
             {
               title: 'Pre-Algebra / Algebra 1 / Geometry',
@@ -4276,7 +4276,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Fine Arts electives',
               tag: 'Gr 5–8',
               description:
-                'Grade 5 Music and Visual Art; Grades 7–8 add ACT 2, Creative Media, Digital Music, Exploratory Art, Guitar, MidKnight Knews, Stagecraft, and Ukulele.',
+                'Grade 5: Music (Band, Choir or Orchestra) and Visual Art · Grade 6: ACT 2, Art, Band, Choir, Orchestra, and Theatre · Grades 7–8: ACT 2, Art, Band, Choir, Creative Media, Digital Music, Exploratory Art, Guitar, MidKnight Knews, Orchestra, Stagecraft, and Ukulele.',
             },
             {
               title: 'Innovation electives',
@@ -4288,7 +4288,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Personal Skills electives',
               tag: 'Gr 5–8',
               description:
-                'Grade 5 Global Knights; Grade 6 Leadership and Study Skills; Grades 7–8 add Public Speaking, Game Changers, Kingdom Council, Multicultural Studies, and Speech & Debate.',
+                'Grade 5: Global Knights, Leadership, and Study Skills · Grade 6: Public Speaking and Study Skills · Grades 7–8: Game Changers, Kingdom Council, Multicultural Studies, Speech & Debate, Study Hall, and The 24/7 Project.',
             },
             {
               title: 'Language Arts & Life Fitness',
@@ -4423,7 +4423,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Creative Writing',
               tag: 'Semester',
               description:
-                'A workshop course spanning poetry, short story, humor and satire, personal essay, memoir, and creative nonfiction.',
+                'A workshop course in genres such as poetry, short story, humor and satire, personal essay, memoir, and creative nonfiction.',
             },
             {
               title: 'Sci-Fi and Fantasy: Literature and Film through a Biblical Lens',
@@ -4583,7 +4583,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Advanced Placement Physics I',
               tag: 'AP',
               description:
-                'Covers mechanics and fluids using an algebra-based approach, equivalent to the first semester of introductory college physics.',
+                'Covers mechanics and fluids using an algebra-based approach, equivalent to the first semester of an introductory college physics course for non-science majors.',
             },
             {
               title: 'Advanced Placement Biology',
@@ -4749,7 +4749,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'French I – IV Honors',
               tag: 'Year',
               description:
-                'The French sequence emphasizing the five National World Language Standards from a biblical perspective; levels III+ add the AAPPL proficiency test.',
+                'The French sequence emphasizing the five National World Language Standards from a biblical perspective; French III students take the AAPPL proficiency test.',
             },
             {
               title: 'Advanced Placement French Language and Culture',
@@ -4775,7 +4775,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
             {
               title: 'Advanced Placement Latin',
               tag: 'AP',
-              description: 'Reads Vergil’s Aeneid and Pliny the Younger’s Letters.',
+              description: 'Reads selections from Vergil’s Aeneid, Pliny the Younger’s Letters, and other classical, medieval, and Renaissance works.',
             },
             {
               title: 'Spanish I – IV Honors',
@@ -4902,7 +4902,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: '3D Art and Design',
               tag: 'Semester',
               description:
-                'Three-dimensional forms in clay, plaster, wire, metal, wood, textiles, architectural models, and found objects.',
+                'Three-dimensional forms in a range of materials, including clay, plaster, wire, metal, wood, textiles, architectural models, and found objects.',
             },
             {
               title: 'Oil Painting',
@@ -5068,7 +5068,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
               title: 'Winterim',
               tag: 'Required',
               description:
-                'One week in second semester of nontraditional enrichment courses, mission and service trips, and career shadowing.',
+                'One week in second semester of nontraditional enrichment courses, mission and service trips, and career shadowing for juniors and seniors.',
             },
           ],
         },
@@ -5813,7 +5813,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'Specials',
               tag: 'K–Gr 4',
               description:
-                'Art, world language, library, physical education, and music, plus Lower School science and technology labs for hands-on experimentation.',
+                'Davidson Day publishes no list of Lower School specials; its Lower School page says students express their creativity in art, music, academic projects, or student clubs.',
             },
           ],
         },
@@ -5857,7 +5857,7 @@ const DAVIDSON_DAY: CourseOfferings = {
             {
               title: 'Accelerated Math 3',
               tag: 'Gr 7–8',
-              description: 'The accelerated course preceding Honors Algebra 1.',
+              description: 'The accelerated course leading to Algebra 1 or Honors Algebra 1.',
             },
             { title: 'Math 3', tag: 'Gr 8', description: 'The standard eighth-grade course leading to Algebra 1.' },
             {
@@ -5889,9 +5889,8 @@ const DAVIDSON_DAY: CourseOfferings = {
             },
             {
               title: 'AFAR International Research',
-              tag: 'Gr 7+',
               description:
-                'Accredited archaeological fieldwork opens in Grade 7, at Maya, medieval Spanish, and Roman Portuguese sites.',
+                'Accredited, expert-led archaeological fieldwork abroad at Maya, medieval Spanish, and Roman Portuguese sites.',
             },
           ],
         },
@@ -5936,7 +5935,7 @@ const DAVIDSON_DAY: CourseOfferings = {
               title: 'English III Honors',
               tag: 'Honors',
               description:
-                'A literature-based course on 1984, The Stranger, The Great Gatsby, and Frankenstein, building literary analysis and argument construction.',
+                'A literature-based course reading novels such as 1984, The Stranger, The Great Gatsby, and Frankenstein, building literary analysis and argument construction.',
             },
             {
               title: 'English IV Honors',
@@ -6076,7 +6075,7 @@ const DAVIDSON_DAY: CourseOfferings = {
             {
               title: 'World History Honors',
               tag: 'Gr 10',
-              description: 'The required sophomore world-history survey.',
+              description: 'Meets the sophomore World History requirement, which AP World History (Modern) also meets; the school publishes no course description for it.',
             },
             {
               title: 'AP World History (Modern)',
