@@ -36,15 +36,15 @@
       ]
     },
     {
-      "t": "أربعة مجالات منهج أساسية إضافةً إلى 11 حصّة Special Area — Singapore Math ومحو أمية منظَّم من TK.",
-      "of": "525e1ce3",
+      "t": "أربعة مجالات منهج أساسية إضافةً إلى 11 حصّة Special Area — محو أمية منظَّم من TK وSingapore Math من رياض الأطفال.",
+      "of": "2ceeadc7",
       "at": [
         "providence-day:divisions[0].teaser"
       ]
     },
     {
-      "t": "تنشر Providence Day أربعة مجالات منهج أساسية وقائمة حصص Special Area لـ TK–5، لا حصصًا مُسمّاة. ولا يوجد دليل مسار دراسي لـ Lower School.",
-      "of": "c0852b6e",
+      "t": "تنشر Providence Day أربعة مجالات منهج أساسية وقائمة حصص Special Area لـ TK–5، لا حصصًا مُسمّاة. ولا تنشر دليل مسار دراسي لـ Lower School.",
+      "of": "0162c5de",
       "at": [
         "providence-day:divisions[0].notPublished"
       ]
@@ -462,8 +462,8 @@
       ]
     },
     {
-      "t": "حصّة Special Area في Lower School تدعم التعلّم الفردي.",
-      "of": "a55655ab",
+      "t": "حصّة Special Area في Lower School؛ ولا تنشر المدرسة سوى اسمها.",
+      "of": "074d145f",
       "at": [
         "providence-day:divisions[0].departments[2].courses[8].description"
       ]
@@ -569,7 +569,6 @@
         "charlotte-latin:divisions[1].departments[4].courses[2].tag",
         "charlotte-latin:divisions[1].departments[4].courses[5].tag",
         "charlotte-latin:divisions[1].departments[5].courses[0].tag",
-        "charlotte-latin:divisions[1].departments[5].courses[1].tag",
         "charlotte-christian:divisions[1].departments[0].courses[1].tag",
         "charlotte-christian:divisions[1].departments[1].courses[1].tag",
         "charlotte-christian:divisions[1].departments[2].courses[1].tag",
@@ -725,6 +724,7 @@
         "charlotte-christian:divisions[1].departments[4].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[6].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[7].tag",
+        "charlotte-country-day:divisions[1].departments[0].courses[8].tag",
         "charlotte-country-day:divisions[1].departments[1].courses[4].tag",
         "charlotte-country-day:divisions[1].departments[1].courses[5].tag",
         "charlotte-country-day:divisions[1].departments[2].courses[3].tag",
@@ -850,14 +850,14 @@
         "providence-day:divisions[2].departments[9].courses[4].tag",
         "providence-day:divisions[2].departments[9].courses[5].tag",
         "providence-day:divisions[2].departments[9].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[5].tag",
         "charlotte-latin:divisions[2].departments[0].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[7].tag",
         "charlotte-latin:divisions[2].departments[0].courses[8].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[9].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[10].tag",
         "charlotte-latin:divisions[2].departments[0].courses[11].tag",
+        "charlotte-latin:divisions[2].departments[1].courses[8].tag",
+        "charlotte-latin:divisions[2].departments[1].courses[9].tag",
         "charlotte-latin:divisions[2].departments[2].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[1].tag",
         "charlotte-christian:divisions[2].departments[1].courses[10].tag",
         "charlotte-christian:divisions[2].departments[1].courses[11].tag",
         "charlotte-christian:divisions[2].departments[1].courses[12].tag",
@@ -906,8 +906,7 @@
         "charlotte-country-day:divisions[2].departments[5].courses[20].tag",
         "charlotte-country-day:divisions[2].departments[6].courses[0].tag",
         "charlotte-country-day:divisions[2].departments[7].courses[2].tag",
-        "charlotte-country-day:divisions[2].departments[8].courses[0].tag",
-        "davidson-day:divisions[2].departments[7].courses[1].tag"
+        "charlotte-country-day:divisions[2].departments[8].courses[0].tag"
       ]
     },
     {
@@ -1449,6 +1448,7 @@
         "providence-day:divisions[1].departments[5].courses[5].tag",
         "providence-day:divisions[1].departments[5].courses[6].tag",
         "providence-day:divisions[1].departments[6].courses[11].tag",
+        "charlotte-latin:divisions[1].departments[5].courses[1].tag",
         "covenant-day:divisions[1].departments[3].courses[0].tag",
         "covenant-day:divisions[1].departments[3].courses[1].tag",
         "covenant-day:divisions[1].departments[3].courses[2].tag",
@@ -1589,8 +1589,8 @@
       ]
     },
     {
-      "t": "حصّة Latin II في Upper School، مفتوحة من الصف 8.",
-      "of": "4f87cf22",
+      "t": "حصّة Latin II في Upper School، مفتوحة من الصف 8 بعد Latin 1 بدرجة “B-” (80) أو أعلى.",
+      "of": "80467a8a",
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].description"
       ]
@@ -1645,8 +1645,8 @@
       ]
     },
     {
-      "t": "تسلسل ألماني من ثلاثة مستويات في Middle School.",
-      "of": "5fdebd53",
+      "t": "تسلسل ألماني من ثلاثة مستويات في Middle School؛ وتتطلّب المستويات 2+ موافقةً على المتطلّب المسبق.",
+      "of": "a21c64fa",
       "at": [
         "providence-day:divisions[1].departments[5].courses[6].description"
       ]
@@ -1699,8 +1699,6 @@
         "charlotte-latin:divisions[2].departments[5].courses[0].tag",
         "charlotte-latin:divisions[2].departments[5].courses[3].tag",
         "charlotte-latin:divisions[2].departments[5].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[1].tag",
         "charlotte-latin:divisions[2].departments[7].courses[6].tag",
         "charlotte-latin:divisions[2].departments[8].courses[6].tag",
         "charlotte-latin:divisions[2].departments[8].courses[7].tag",
@@ -1749,7 +1747,8 @@
         "davidson-day:divisions[2].departments[5].courses[3].tag",
         "davidson-day:divisions[2].departments[5].courses[9].tag",
         "davidson-day:divisions[2].departments[5].courses[10].tag",
-        "davidson-day:divisions[2].departments[7].courses[0].tag"
+        "davidson-day:divisions[2].departments[7].courses[0].tag",
+        "davidson-day:divisions[2].departments[7].courses[1].tag"
       ]
     },
     {
@@ -1879,8 +1878,8 @@
       ]
     },
     {
-      "t": "تسلسل تمثيل من ثلاثة مستويات في Middle School.",
-      "of": "cc507a55",
+      "t": "ثلاث حصص تمثيل، مدّة كلٍّ منها فصل دراسي، للصفّين 7 و8؛ وتتطلّب Acting 3 خبرة مسرحية سابقة.",
+      "of": "55e536d2",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].description"
       ]
@@ -2180,8 +2179,8 @@
       ]
     },
     {
-      "t": "مسح للدراما الحديثة من Ibsen إلى Ionesco يستكشف الفردانية والتعاطف والتواصل ذي المعنى عبر مسرح القارئ.",
-      "of": "144e4759",
+      "t": "مسح للدراما الحديثة من Ibsen إلى Ionesco يستكشف فقدان الفردانية والتعاطف والتواصل ذي المعنى عبر مسرح القارئ.",
+      "of": "550c433c",
       "at": [
         "providence-day:divisions[2].departments[0].courses[9].description"
       ]
@@ -2194,8 +2193,8 @@
       ]
     },
     {
-      "t": "يدرس الطلاب The Merchant of Venice وOthello وThe Tempest وMeasure for Measure وRichard III، قارئين المسرحيات بصوت مرتفع ومحلّلين نسخها السينمائية.",
-      "of": "c81ace83",
+      "t": "يدرس الطلاب عيّنة واسعة من المسرحيات، منها The Merchant of Venice وOthello وThe Tempest وMeasure for Measure وRichard III، فيقرؤونها بصوت مرتفع ويحلّلون نسخها السينمائية.",
+      "of": "f057375d",
       "at": [
         "providence-day:divisions[2].departments[0].courses[10].description"
       ]
@@ -2475,8 +2474,8 @@
       ]
     },
     {
-      "t": "كتابة توضيحية وتحليلية وحجاجية بمستوى جامعي مستمَدّة من الأنواع غير الروائية، بتركيز على التقنية البلاغية والمنطق.",
-      "of": "ec0d4f1d",
+      "t": "كتابة توضيحية وتحليلية وحجاجية بمستوى جامعي، بقراءات من الأنواع غير الروائية وتركيز على التقنية البلاغية والمنطق.",
+      "of": "15323bb8",
       "at": [
         "providence-day:divisions[2].departments[0].courses[14].description"
       ]
@@ -2490,8 +2489,8 @@
       ]
     },
     {
-      "t": "يصقل التحليل الأدبي عبر Moby-Dick وInvisible Man وMrs. Dalloway، إضافةً إلى Dickinson وFrost وShakespeare، بقائمة قراءة خارجية.",
-      "of": "d81816ef",
+      "t": "يصقل التحليل الأدبي عبر روايات تُدرَّس بانتظام مثل Moby-Dick وInvisible Man وMrs. Dalloway، إضافةً إلى Dickinson وFrost وShakespeare، بقائمة قراءة خارجية.",
+      "of": "8f8725b8",
       "at": [
         "providence-day:divisions[2].departments[0].courses[15].description"
       ]
@@ -2777,8 +2776,8 @@
       ]
     },
     {
-      "t": "يعزّز فهم المسيحية واليهودية والإسلام والهندوسية والبوذية عبر القراءات الأوّلية والثانوية والنقاش الفلسفي.",
-      "of": "c740cf5c",
+      "t": "يعزّز فهم أديان مثل المسيحية واليهودية والإسلام والهندوسية والبوذية عبر القراءات الأوّلية والثانوية والنقاش الفلسفي.",
+      "of": "236d76c9",
       "at": [
         "providence-day:divisions[2].departments[1].courses[18].description"
       ]
@@ -2791,8 +2790,8 @@
       ]
     },
     {
-      "t": "استكشاف متعدّد التخصّصات لأفريقيا جنوب الصحراء بدراسة معمّقة لجنوب أفريقيا وجمهورية الكونغو الديمقراطية ورواندا ونيجيريا.",
-      "of": "329ca2c1",
+      "t": "استكشاف متعدّد التخصّصات لأفريقيا جنوب الصحراء بدراسة معمّقة لعدّة بلدان، منها جنوب أفريقيا وجمهورية الكونغو الديمقراطية ورواندا ونيجيريا.",
+      "of": "2b88e022",
       "at": [
         "providence-day:divisions[2].departments[1].courses[19].description"
       ]
@@ -2805,8 +2804,8 @@
       ]
     },
     {
-      "t": "استكشاف متعدّد التخصّصات لآسيا بفحوص معمّقة للصين والكوريتين.",
-      "of": "e73a1a59",
+      "t": "استكشاف متعدّد التخصّصات لآسيا بفحوص معمّقة لعدّة بلدان، منها الصين والكوريتان.",
+      "of": "375e1ed2",
       "at": [
         "providence-day:divisions[2].departments[1].courses[20].description"
       ]
@@ -2833,8 +2832,8 @@
       ]
     },
     {
-      "t": "يصبح طلاب السنة الأخيرة في Global Studies Diploma متعاونين وقادةً عالميين فعّالين، مكمِّلين مشروع بحث وعملية مقابلة خروج.",
-      "of": "1e493a29",
+      "t": "مطلوبة لطلاب السنة الأخيرة في Global Studies Diploma؛ وتهدف إلى جعل الطلاب متعاونين وقادةً عالميين أكثر فعالية، مع مشروع بحث ومقابلة خروج.",
+      "of": "88893d67",
       "at": [
         "providence-day:divisions[2].departments[1].courses[22].description"
       ]
@@ -3845,8 +3844,8 @@
       ]
     },
     {
-      "t": "حصّة أدب نثري وشعري بمكوّن نصوص مقارنة قائم على المشاريع يمتدّ عبر Vergil وPliny وCatullus وOvid وVespucci وBoccaccio.",
-      "of": "5975ad2d",
+      "t": "حصّة أدب نثري وشعري بمكوّن نصوص مقارنة قائم على المشاريع، وقراءات لمؤلّفين مثل Vergil وPliny وCatullus وOvid وVespucci وBoccaccio.",
+      "of": "c300258c",
       "at": [
         "providence-day:divisions[2].departments[6].courses[11].description"
       ]
@@ -4309,8 +4308,6 @@
         "providence-day:divisions[2].departments[8].courses[14].tag",
         "charlotte-latin:divisions[2].departments[0].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[1].courses[8].tag",
-        "charlotte-latin:divisions[2].departments[1].courses[9].tag",
         "charlotte-latin:divisions[2].departments[2].courses[2].tag",
         "charlotte-latin:divisions[2].departments[3].courses[3].tag",
         "charlotte-latin:divisions[2].departments[3].courses[5].tag",
@@ -4497,7 +4494,7 @@
         "davidson-day:divisions[2].departments[5].courses[4].tag",
         "davidson-day:divisions[2].departments[8].courses[0].tag",
         "davidson-day:divisions[2].departments[8].courses[2].tag",
-        "davidson-day:divisions[2].departments[8].courses[7].tag",
+        "davidson-day:divisions[2].departments[8].courses[8].tag",
         "carmel-christian:divisions[0].departments[1].courses[2].tag",
         "carmel-christian:divisions[0].departments[1].courses[5].tag",
         "carmel-christian:divisions[0].departments[1].courses[8].tag",
@@ -4813,8 +4810,8 @@
       ]
     },
     {
-      "t": "تنشر Charlotte Latin مجالات مواد Lower School، لا حصصًا مُسمّاة. ومسار /academics/lower-school/curriculum عنصر نائب غير منشور.",
-      "of": "fc40bbc2",
+      "t": "تنشر Charlotte Latin مجالات مواد Lower School، لا حصصًا مُسمّاة.",
+      "of": "6b2aab5b",
       "at": [
         "charlotte-latin:divisions[0].notPublished"
       ]
@@ -4972,8 +4969,8 @@
       ]
     },
     {
-      "t": "في الصف 5 يختار الطلاب آلة لـ Band أو Strings، مع توفّر Choir أيضًا.",
-      "of": "1ce8ef7b",
+      "t": "في الصف 5 يختار الطلاب آلة لـ Band أو Strings، ويشاركون أيضًا في Choir.",
+      "of": "82dd625c",
       "at": [
         "charlotte-latin:divisions[0].departments[2].courses[2].description"
       ]
@@ -4993,8 +4990,8 @@
       ]
     },
     {
-      "t": "22 حصّة بأوصاف منشورة عبر 5 أقسام — إضافةً إلى Fab Lab STEAM ومدخل Speech & Debate.",
-      "of": "1e360cf6",
+      "t": "23 حصّة بأوصاف منشورة عبر 5 أقسام — إضافةً إلى Fab Lab STEAM ومدخل Speech & Debate.",
+      "of": "2c9d5427",
       "at": [
         "charlotte-latin:divisions[1].teaser"
       ]
@@ -5184,8 +5181,8 @@
       ]
     },
     {
-      "t": "\"هل أنت مستعدّ للسفر عبر الزمن؟\" — مقدّمة Middle School للاتينية.",
-      "of": "378443cb",
+      "t": "مقدّمة على مدار عام إلى اللاتينية وإلى تاريخ الناطقين بها وأساطيرهم وحياتهم اليومية؛ وهي ليست متطلّبًا مسبقًا لـ Latin I.",
+      "of": "66c97029",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[0].description"
       ]
@@ -5201,8 +5198,8 @@
       ]
     },
     {
-      "t": "رصيد Latin I في Upper School المأخوذ في Middle School.",
-      "of": "e562dbb7",
+      "t": "حصّة Latin I تُدرَّس في Middle School، وتقدّم المفردات والقواعد اللاتينية الأولية وقصصًا لاتينية بسيطة.",
+      "of": "7b7606af",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[1].description"
       ]
@@ -5243,8 +5240,8 @@
       ]
     },
     {
-      "t": "رصيد French I في Upper School المأخوذ في Middle School.",
-      "of": "cdf42d49",
+      "t": "حصّة French I تُدرَّس في Middle School، بمهامّ تستهدف مستوى الكفاءة Novice High.",
+      "of": "c4ad863f",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[4].description"
       ]
@@ -5285,8 +5282,8 @@
       ]
     },
     {
-      "t": "رصيد Spanish I في Upper School المأخوذ في Middle School.",
-      "of": "3d9e2319",
+      "t": "حصّة Spanish I تُدرَّس في Middle School، بمهامّ تستهدف مستوى الكفاءة Novice High.",
+      "of": "7e5a8c71",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[7].description"
       ]
@@ -5327,8 +5324,8 @@
       ]
     },
     {
-      "t": "مادة اختيارية للصف 6 يرسّخها Fab Lab في المدرسة.",
-      "of": "953acb22",
+      "t": "مادة اختيارية في الصفوف 6 و7 و8؛ وتنشر المدرسة العنوان دون وصف.",
+      "of": "da11b8f7",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[1].description"
       ]
@@ -5370,24 +5367,17 @@
       ]
     },
     {
-      "t": "مدخل Middle School إلى برنامج Speech and Debate المصنَّف وطنيًّا في Charlotte Latin.",
-      "of": "ede013f0",
+      "t": "مدخل Middle School إلى برنامج Speech and Debate في Charlotte Latin.",
+      "of": "747242d4",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[5].description"
       ]
     },
     {
-      "t": "129 حصّة عبر 13 قسمًا — 22 مادة AP، واليونانية لغةً ثانية، وFab Lab من شبكة MIT.",
-      "of": "f3b36715",
+      "t": "122 حصّة عبر 13 قسمًا — 23 حصّة AP، واليونانية لغةً ثانية، وFab Lab من شبكة MIT.",
+      "of": "73c56078",
       "at": [
         "charlotte-latin:divisions[2].teaser"
-      ]
-    },
-    {
-      "t": "تنشر Charlotte Latin عناوين حصص Upper School دون أوصاف لكل حصّة. والعناوين هي عناوين المدرسة نفسها؛ وكل وصف مستمَدّ من طريقة وصف المدرسة لذلك القسم.",
-      "of": "d03c7e41",
-      "at": [
-        "charlotte-latin:divisions[2].notPublished"
       ]
     },
     {
@@ -5464,8 +5454,8 @@
       ]
     },
     {
-      "t": "تسلسل American Literature بوتيرة وعمق honors.",
-      "of": "eee86ff7",
+      "t": "مسح زمني للأدب الأمريكي بمستوى honors.",
+      "of": "02491529",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[3].description"
       ]
@@ -5492,8 +5482,52 @@
       ]
     },
     {
-      "t": "مادة اختيارية فصلية للسنة الأخيرة عن أدب الحرب.",
-      "of": "edd7dc9b",
+      "t": "مادة اختيارية",
+      "of": "e81c880a",
+      "at": [
+        "charlotte-latin:divisions[2].departments[0].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[7].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[9].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[10].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[12].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[13].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[14].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[15].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[2].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[6].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[10].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[4].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[7].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[1].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[2].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[9].tag",
+        "charlotte-latin:divisions[2].departments[9].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[9].courses[1].tag",
+        "charlotte-latin:divisions[2].departments[10].courses[1].tag",
+        "cannon:divisions[2].departments[0].courses[8].tag",
+        "cannon:divisions[2].departments[0].courses[9].tag",
+        "cannon:divisions[2].departments[2].courses[14].tag",
+        "cannon:divisions[2].departments[2].courses[15].tag",
+        "cannon:divisions[2].departments[3].courses[6].tag",
+        "cannon:divisions[2].departments[3].courses[7].tag",
+        "davidson-day:divisions[2].departments[0].courses[9].tag",
+        "gaston-day:divisions[0].departments[1].courses[1].tag",
+        "gaston-day:divisions[0].departments[1].courses[2].tag",
+        "gaston-day:divisions[0].departments[1].courses[3].tag",
+        "gaston-day:divisions[0].departments[1].courses[4].tag"
+      ]
+    },
+    {
+      "t": "مادة اختيارية في الإنجليزية عن أدب الحرب.",
+      "of": "bc1620d7",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[5].description"
       ]
@@ -5506,8 +5540,8 @@
       ]
     },
     {
-      "t": "مادة اختيارية فصلية للسنة الأخيرة عن الرعب والغيرية في المتن الغربي.",
-      "of": "3fe509a3",
+      "t": "مادة اختيارية فصلية، مفتوحة أساسًا لطلاب السنة الأخيرة، عن الرعب والغيرية في المتن الغربي.",
+      "of": "69db3fc7",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[6].description"
       ]
@@ -5520,8 +5554,8 @@
       ]
     },
     {
-      "t": "مادة اختيارية فصلية للسنة الأخيرة تقارن الأعمال الأدبية باقتباساتها السينمائية.",
-      "of": "1da78b09",
+      "t": "مادة اختيارية في الإنجليزية تقارن الأعمال الأدبية باقتباساتها السينمائية.",
+      "of": "1cea7955",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[7].description"
       ]
@@ -5534,8 +5568,8 @@
       ]
     },
     {
-      "t": "مادة اختيارية فصلية للسنة الأخيرة عن معالجة Shakespeare للحالة الإنسانية.",
-      "of": "e8ec1a78",
+      "t": "مادة اختيارية فصلية، مفتوحة أساسًا لطلاب السنة الأخيرة، عن معالجة Shakespeare للحالة الإنسانية.",
+      "of": "169f24bc",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[8].description"
       ]
@@ -5548,8 +5582,8 @@
       ]
     },
     {
-      "t": "مادة اختيارية فصلية للسنة الأخيرة عن بناء العوالم في أدب الخيال.",
-      "of": "7f68f665",
+      "t": "مادة اختيارية في الإنجليزية عن بناء العوالم في أدب الخيال.",
+      "of": "92180351",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[9].description"
       ]
@@ -5562,8 +5596,8 @@
       ]
     },
     {
-      "t": "مادة اختيارية فصلية للسنة الأخيرة عن الأدب البريطاني المبكّر.",
-      "of": "1f97d6b9",
+      "t": "مادة اختيارية في الإنجليزية عن الأدب البريطاني المبكّر.",
+      "of": "dc262a1d",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[10].description"
       ]
@@ -5576,8 +5610,8 @@
       ]
     },
     {
-      "t": "مادة اختيارية فصلية للسنة الأخيرة عن الأدب التأمّلي والمستقبلي.",
-      "of": "205195eb",
+      "t": "مادة اختيارية فصلية، مفتوحة أساسًا لطلاب السنة الأخيرة، عن أدب الديستوبيا.",
+      "of": "6cf03a03",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[11].description"
       ]
@@ -5696,8 +5730,8 @@
       ]
     },
     {
-      "t": "ندوة honors عن تاريخ الموسيقى.",
-      "of": "ac28dad6",
+      "t": "ندوة فصلية، بخيار honors، عن تأثير الموسيقى في مجرى التاريخ.",
+      "of": "97c2b7f4",
       "at": [
         "charlotte-latin:divisions[2].departments[1].courses[8].description"
       ]
@@ -5710,8 +5744,8 @@
       ]
     },
     {
-      "t": "حصّة honors عن الهجرة والنزوح عالميًّا.",
-      "of": "c4656fcf",
+      "t": "ندوة فصلية، بخيار honors، عن الهجرة والنزوح عالميًّا.",
+      "of": "1b44fd2d",
       "at": [
         "charlotte-latin:divisions[2].departments[1].courses[9].description"
       ]
@@ -5817,8 +5851,8 @@
       ]
     },
     {
-      "t": "الهندسة بوتيرة وعمق honors.",
-      "of": "23904aac",
+      "t": "الهندسة بعمق honors، مع موضوعات إضافية من المنطق والمنطق الرمزي والهندسة التحويلية.",
+      "of": "0ff6c0d9",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[3].description"
       ]
@@ -5889,8 +5923,8 @@
       ]
     },
     {
-      "t": "ما قبل حساب التفاضل والتكامل بوتيرة وعمق honors.",
-      "of": "fd0baaa0",
+      "t": "ما قبل حساب التفاضل والتكامل بعمق honors، للطلاب ذوي القدرة الرياضية القوية جدًّا.",
+      "of": "3ac2ab30",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[8].description"
       ]
@@ -6068,8 +6102,8 @@
       ]
     },
     {
-      "t": "كيمياء السنة الثانية بمستوى جامعي.",
-      "of": "297df355",
+      "t": "كيمياء السنة الثانية بمستوى حصّة كيمياء عامّة جامعية للسنة الأولى.",
+      "of": "3b4e6b79",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[4].description"
       ]
@@ -6181,46 +6215,6 @@
       "of": "5919718d",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[11].description"
-      ]
-    },
-    {
-      "t": "مادة اختيارية",
-      "of": "e81c880a",
-      "at": [
-        "charlotte-latin:divisions[2].departments[4].courses[12].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[13].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[14].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[15].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[2].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[10].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[4].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[1].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[2].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[9].tag",
-        "charlotte-latin:divisions[2].departments[9].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[9].courses[1].tag",
-        "charlotte-latin:divisions[2].departments[10].courses[1].tag",
-        "cannon:divisions[2].departments[0].courses[8].tag",
-        "cannon:divisions[2].departments[0].courses[9].tag",
-        "cannon:divisions[2].departments[2].courses[14].tag",
-        "cannon:divisions[2].departments[2].courses[15].tag",
-        "cannon:divisions[2].departments[3].courses[6].tag",
-        "cannon:divisions[2].departments[3].courses[7].tag",
-        "davidson-day:divisions[2].departments[0].courses[9].tag",
-        "gaston-day:divisions[0].departments[1].courses[1].tag",
-        "gaston-day:divisions[0].departments[1].courses[2].tag",
-        "gaston-day:divisions[0].departments[1].courses[3].tag",
-        "gaston-day:divisions[0].departments[1].courses[4].tag"
       ]
     },
     {
@@ -6477,8 +6471,8 @@
       ]
     },
     {
-      "t": "حصّة الهندسة للسنة الثانية.",
-      "of": "3254b19c",
+      "t": "حصّة الهندسة الثانية، بتركيز على الإلكترونيات والمتحكّمات الدقيقة.",
+      "of": "70939965",
       "at": [
         "charlotte-latin:divisions[2].departments[6].courses[1].description"
       ]
@@ -6617,8 +6611,8 @@
       ]
     },
     {
-      "t": "هياكل بيانات بمستوى honors في Java، تُدرَّس باستخدام Git وGitHub.",
-      "of": "6b52f6b5",
+      "t": "هياكل بيانات بمستوى honors في Java.",
+      "of": "fc61681a",
       "at": [
         "charlotte-latin:divisions[2].departments[6].courses[11].description"
       ]
@@ -6772,8 +6766,8 @@
       ]
     },
     {
-      "t": "حصّة المسرح التقني التمهيدية.",
-      "of": "6e0b5e6b",
+      "t": "حصّة تمهيدية في المسرح التقني.",
+      "of": "b2e8aedd",
       "at": [
         "charlotte-latin:divisions[2].departments[8].courses[2].description"
       ]
@@ -6786,8 +6780,8 @@
       ]
     },
     {
-      "t": "حصّة المسرح التقني للمستوى الثاني.",
-      "of": "23c92bf6",
+      "t": "حصّة في المسرح التقني تغطّي موضوعات مختلفة عن Stagecraft I؛ ولا يلزم أخذ الحصّتين بالترتيب.",
+      "of": "f9ebfea4",
       "at": [
         "charlotte-latin:divisions[2].departments[8].courses[3].description"
       ]
@@ -6907,8 +6901,8 @@
       ]
     },
     {
-      "t": "متطلّب التربية البدنية والصحّة في Upper School؛ ونصفه قابل للإعفاء عبر الرياضة.",
-      "of": "e77a4177",
+      "t": "متطلّب التربية البدنية والصحّة في Upper School؛ ويمكن الإعفاء من نصفه باللعب في فريق مدرسي أو إدارته، أو بالرقص في مسرحية موسيقية معتمَدة.",
+      "of": "0637caec",
       "at": [
         "charlotte-latin:divisions[2].departments[10].courses[0].description"
       ]
@@ -6950,15 +6944,15 @@
       ]
     },
     {
-      "t": "11 مسار مادّة — Bible من JK حتى مشروع Case for Christ الختامي للدفاعيات في الصف 4، إضافةً إلى ستّ حصص إثراء.",
-      "of": "711fa658",
+      "t": "5 مسارات مواد أساسية — Bible من JK حتى مشروع Case for Christ الختامي للدفاعيات في الصف 4 — إضافةً إلى ستّ حصص إثراء.",
+      "of": "a523846e",
       "at": [
         "charlotte-christian:divisions[0].teaser"
       ]
     },
     {
-      "t": "تنشر Charlotte Christian مسارات مواد Lower School بجداول محتوى للنطاقات الصفّية، لا حصصًا مُسمّاة. ولا يوجد دليل حصص لـ Lower School.",
-      "of": "aaeb7508",
+      "t": "تنشر Charlotte Christian مسارات مواد Lower School بجداول محتوى للنطاقات الصفّية، لا حصصًا مُسمّاة. ولا تنشر دليل حصص لـ Lower School.",
+      "of": "a8ccf65c",
       "at": [
         "charlotte-christian:divisions[0].notPublished"
       ]
@@ -7181,8 +7175,8 @@
       ]
     },
     {
-      "t": "تسلسلات صفًّا بصفٍّ عبر 6 مجالات إضافةً إلى ثلاثة مسارات اختيارية — يبدأ الصف 5 Middle School هنا، لا Lower.",
-      "of": "4e644967",
+      "t": "تسلسلات صفًّا بصفٍّ عبر 5 مجالات إضافةً إلى ثلاثة مسارات اختيارية — يبدأ الصف 5 Middle School هنا، لا Lower.",
+      "of": "2379799c",
       "at": [
         "charlotte-christian:divisions[1].teaser"
       ]
@@ -7286,8 +7280,8 @@
       ]
     },
     {
-      "t": "ثلاثة مسارات وضع للصف السابع، حتى Algebra 1 كاملة للمرحلة الثانوية.",
-      "of": "5418d548",
+      "t": "ثلاثة مسارات وضع للصف السابع، حتى Algebra 1.",
+      "of": "63c30f08",
       "at": [
         "charlotte-christian:divisions[1].departments[1].courses[2].description"
       ]
@@ -7445,7 +7439,7 @@
     },
     {
       "t": "يختار الطلاب واحدة من الفرنسية أو اللاتينية أو الإسبانية للبدء بها.",
-      "of": "a2f02fba",
+      "of": "14ed8636",
       "at": [
         "charlotte-christian:divisions[1].departments[4].courses[1].description"
       ]
@@ -7524,8 +7518,8 @@
       ]
     },
     {
-      "t": "الصف 5 Music وVisual Art؛ ويضيف الصفّان 7–8 ACT 2 وCreative Media وDigital Music وExploratory Art وGuitar وMidKnight Knews وStagecraft وUkulele.",
-      "of": "d3f13e97",
+      "t": "الصف 5: Music (Band أو Choir أو Orchestra) وVisual Art · الصف 6: ACT 2 وArt وBand وChoir وOrchestra وTheatre · الصفّان 7–8: ACT 2 وArt وBand وChoir وCreative Media وDigital Music وExploratory Art وGuitar وMidKnight Knews وOrchestra وStagecraft وUkulele.",
+      "of": "cbacf375",
       "at": [
         "charlotte-christian:divisions[1].departments[5].courses[0].description"
       ]
@@ -7552,8 +7546,8 @@
       ]
     },
     {
-      "t": "الصف 5 Global Knights؛ والصف 6 Leadership وStudy Skills؛ ويضيف الصفّان 7–8 Public Speaking وGame Changers وKingdom Council وMulticultural Studies وSpeech & Debate.",
-      "of": "8f55c91f",
+      "t": "الصف 5: Global Knights وLeadership وStudy Skills · الصف 6: Public Speaking وStudy Skills · الصفّان 7–8: Game Changers وKingdom Council وMulticultural Studies وSpeech & Debate وStudy Hall وThe 24/7 Project.",
+      "of": "e3a26052",
       "at": [
         "charlotte-christian:divisions[1].departments[5].courses[2].description"
       ]
@@ -7745,8 +7739,8 @@
       ]
     },
     {
-      "t": "مسح للأدب العالمي يسأل \"ماذا يعني أن تكون مواطنًا عالميًّا منخرطًا؟\" عبر أدب أمريكا اللاتينية وأفريقيا وآسيا.",
-      "of": "8bba8958",
+      "t": "مسح للأدب العالمي يقرأ أدب أمريكا اللاتينية وأفريقيا وآسيا حول السؤال \"ماذا يعني أن تكون مواطنًا عالميًّا منخرطًا؟\"",
+      "of": "8e35496a",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[4].description"
       ]
@@ -7775,8 +7769,8 @@
       ]
     },
     {
-      "t": "مسح للأدب الأوروبي وإرثه يفحص الرشد والخيارات والعواقب من كلاسيكيات اليونان وروما حتى أوروبا الحديثة.",
-      "of": "2e1638ab",
+      "t": "مسح للأدب الأوروبي وإرثه يفحص الرشد والخيارات والعواقب من كلاسيكيات اليونان وروما حتى أوروبا الحديثة والإرث الاستعماري.",
+      "of": "86da2363",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[6].description"
       ]
@@ -7855,8 +7849,8 @@
       ]
     },
     {
-      "t": "حصّة ورشة تمتدّ عبر الشعر والقصّة القصيرة والفكاهة والسخرية والمقال الشخصي والمذكّرات والأدب غير الروائي الإبداعي.",
-      "of": "476a8329",
+      "t": "حصّة ورشة في أنواع مثل الشعر والقصّة القصيرة والفكاهة والسخرية والمقال الشخصي والمذكّرات والأدب غير الروائي الإبداعي.",
+      "of": "2774f4ab",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[12].description"
       ]
@@ -7998,8 +7992,8 @@
       ]
     },
     {
-      "t": "يغطّي موضوعات حصّة جبر جامعية للسنة الأولى بدراسة معمّقة للدوال وحساب المثلّثات التحليلي والمتّجهات والرياضيات المتقطّعة.",
-      "of": "28c3f336",
+      "t": "يغطّي موضوعات حصّة جبر جامعية للسنة الأولى: الدوال بتعمّق · حساب المثلّثات التحليلي · المتّجهات · المعادلات الوسيطية والقطبية · الهندسة التحليلية · الرياضيات المتقطّعة · ويجب على الطلاب أداء اختبار AP في مايو.",
+      "of": "84e3ac1c",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[8].description"
       ]
@@ -8182,8 +8176,8 @@
       ]
     },
     {
-      "t": "يغطّي الميكانيكا والموائع بنهج قائم على الجبر، مكافئ للفصل الأول من الفيزياء الجامعية التمهيدية.",
-      "of": "af070022",
+      "t": "يغطّي الميكانيكا والموائع بنهج قائم على الجبر، مكافئ للفصل الأول من حصّة فيزياء جامعية تمهيدية لغير المتخصّصين في العلوم.",
+      "of": "408be7a1",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[6].description"
       ]
@@ -8337,8 +8331,8 @@
       ]
     },
     {
-      "t": "يمسح من نحو 1200 فصاعدًا، مستكشفًا القوى السياسية والدينية والاجتماعية والأيديولوجية التي شكّلت العالم الحديث.",
-      "of": "fdc5b680",
+      "t": "يمسح الحقبة من نحو 1200 فصاعدًا، مستكشفًا القوى السياسية والدينية والاجتماعية والأيديولوجية التي شكّلت العالم الحديث.",
+      "of": "234416d0",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[2].description"
       ]
@@ -8366,7 +8360,7 @@
     },
     {
       "t": "مسح بمستوى جامعي للحضارات والأحداث والأديان والأيديولوجيات الكبرى من نحو 1200 حتى نهاية القرن العشرين.",
-      "of": "7d1c9ca1",
+      "of": "c1acef4d",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[4].description"
       ]
@@ -8402,7 +8396,7 @@
     },
     {
       "t": "يدرس التطوّرات الثقافية والاقتصادية والسياسية والاجتماعية التي تشكّل الولايات المتحدة من نحو 1491 إلى الحاضر.",
-      "of": "d3f5a648",
+      "of": "0d82f8d6",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[7].description"
       ]
@@ -8548,8 +8542,8 @@
       ]
     },
     {
-      "t": "تسلسل الفرنسية بتأكيد المعايير الوطنية الخمسة للغات العالمية من منظور كتابي؛ وتضيف المستويات III فأعلى اختبار كفاءة AAPPL.",
-      "of": "8989603f",
+      "t": "تسلسل الفرنسية بتأكيد المعايير الوطنية الخمسة للغات العالمية من منظور كتابي؛ ويؤدّي طلاب French III اختبار كفاءة AAPPL.",
+      "of": "02d38ddb",
       "at": [
         "charlotte-christian:divisions[2].departments[5].courses[0].description"
       ]
@@ -8605,8 +8599,8 @@
       ]
     },
     {
-      "t": "يقرأ Aeneid لـ Vergil ورسائل Pliny the Younger.",
-      "of": "b7228ec7",
+      "t": "يقرأ مختارات من Aeneid لـ Vergil ورسائل Pliny the Younger وأعمالًا أخرى كلاسيكية ومن العصور الوسطى وعصر النهضة.",
+      "of": "b0ad8251",
       "at": [
         "charlotte-christian:divisions[2].departments[5].courses[5].description"
       ]
@@ -8866,8 +8860,8 @@
       ]
     },
     {
-      "t": "ملفّ أعمال في الفنّ ثنائي الأبعاد أو ثلاثي الأبعاد أو الرسم بحسب إرشادات College Board، بعمل يبدأ في الصيف.",
-      "of": "0dee7738",
+      "t": "ملفّ أعمال في فنّ 2D أو فنّ 3D أو الرسم بحسب إرشادات College Board، بعمل يبدأ في الصيف؛ للطلاب المؤهّلين في السنتين الثالثة والأخيرة.",
+      "of": "e07d31cf",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[3].description"
       ]
@@ -8894,8 +8888,8 @@
       ]
     },
     {
-      "t": "أشكال ثلاثية الأبعاد في الطين والجصّ والسلك والمعدن والخشب والنسيج والنماذج المعمارية والأشياء الموجودة.",
-      "of": "1f643022",
+      "t": "أشكال ثلاثية الأبعاد في مجموعة من الموادّ، منها الطين والجصّ والسلك والمعدن والخشب والنسيج والنماذج المعمارية والأشياء الموجودة.",
+      "of": "8996e2ba",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[5].description"
       ]
@@ -9324,8 +9318,8 @@
       ]
     },
     {
-      "t": "أسبوع واحد في الفصل الثاني من حصص إثراء غير تقليدية ورحلات إرساليات وخدمة ومرافقة مهنية.",
-      "of": "6e97232d",
+      "t": "أسبوع واحد في الفصل الثاني من حصص إثراء غير تقليدية ورحلات إرساليات وخدمة ومرافقة مهنية (لطلاب السنتين الثالثة والأخيرة فقط).",
+      "of": "b7c483d2",
       "at": [
         "charlotte-christian:divisions[2].departments[8].courses[7].description"
       ]
@@ -9393,8 +9387,8 @@
       ]
     },
     {
-      "t": "قواعد NFHS وإدارة المباراة وآليات طاقم من شخصين تُعدّ الطلاب للشهادة.",
-      "of": "4047f91a",
+      "t": "قواعد NFHS وإدارة المباراة والتعامل مع النزاعات وآليات طاقم تحكيم من 2 حكّام تُعدّ الطلاب للشهادة.",
+      "of": "0d427ecd",
       "at": [
         "charlotte-christian:divisions[2].departments[9].courses[2].description",
         "charlotte-christian:divisions[2].departments[9].courses[3].description"
@@ -9466,8 +9460,8 @@
       ]
     },
     {
-      "t": "تتضمّن الحصّة مراجعة لأساسيات القواعد والأعراف الأساسية لكتابة المقال.",
-      "of": "78d62dd8",
+      "t": "مراجعة لأساسيات القواعد والأعراف الأساسية لكتابة المقال.",
+      "of": "48138164",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[0].description"
       ]
@@ -9480,8 +9474,8 @@
       ]
     },
     {
-      "t": "تتضمّن الحصّة عرضًا عامًّا ومراجعة سريعة الإيقاع لأساسيات القواعد والأعراف الأساسية لكتابة المقال.",
-      "of": "f1a7bab0",
+      "t": "عرض عامّ ومراجعة سريعة الإيقاع لأساسيات القواعد والأعراف الأساسية لكتابة المقال.",
+      "of": "99c2da8a",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[1].description"
       ]
@@ -9527,8 +9521,8 @@
       ]
     },
     {
-      "t": "الأدب العالمي عبر الروايات والقصص القصيرة والدراما والشعر · أساسيات القواعد، مع التدرّب عليها في الواجبات الكتابية · مقدّمة إلى المقالات التقييمية والتحليلية باستخدام مصادر ثانوية.",
-      "of": "d2836f86",
+      "t": "الأدب العالمي عبر الروايات والقصص القصيرة والدراما والشعر · أساسيات القواعد، مع التدرّب عليها في الواجبات الكتابية · مقدّمة إلى المقالات التي تقيّم وتحلّل باستخدام مصادر ثانوية · مزيد من العمل على المفردات والفهم القرائي والمصطلحات الأدبية.",
+      "of": "9f10e881",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[4].description",
         "charlotte-catholic:divisions[0].departments[0].courses[5].description"
@@ -9549,8 +9543,8 @@
       ]
     },
     {
-      "t": "تتضمّن هذه الحصّة كثيرًا من الموضوعات نفسها التي تُدرَّس في Advanced English 10، لكنها تنطوي على تركيز أشمل على الأدب العالمي وقراءات خارجية إضافية.",
-      "of": "19122635",
+      "t": "تغطّي كثيرًا من الموضوعات نفسها التي تغطّيها Advanced English 10، مع تركيز أشمل على الأدب العالمي وقراءات خارجية أكثر.",
+      "of": "b83100a8",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[6].description"
       ]
@@ -9570,8 +9564,8 @@
       ]
     },
     {
-      "t": "مهارات الكتابة مثل ما قبل الكتابة والتنظيم وكتابة المسوّدات والمراجعة · مقالات موثَّقة تستخدم مصادر أوّلية، وفي بعض الحالات ثانوية · تدريب مركَّز على التحليل الأدبي · الفهم القرائي.",
-      "of": "d36bd157",
+      "t": "مهارات الكتابة مثل ما قبل الكتابة والتنظيم وكتابة المسوّدات والمراجعة · مقالات موثَّقة تستخدم مصادر أوّلية، وفي بعض الحالات ثانوية · تدريب مركَّز على التحليل الأدبي · الفهم القرائي · مواصلة العمل على المفردات · مسح عامّ لحقب الأدب الأمريكي وأنواعه، مع الاهتمام بسياقها التاريخي والاجتماعي.",
+      "of": "44e82cb2",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[8].description"
       ]
@@ -9584,8 +9578,8 @@
       ]
     },
     {
-      "t": "مهارات الكتابة مثل ما قبل الكتابة والتنظيم وكتابة المسوّدات والمراجعة · مقالات موثَّقة تستخدم مصادر أوّلية وثانوية · تدريب مركَّز على كتابة المقالات التحليلية · الفهم القرائي.",
-      "of": "aa92cd5c",
+      "t": "مهارات الكتابة مثل ما قبل الكتابة والتنظيم وكتابة المسوّدات والمراجعة · مقالات موثَّقة تستخدم مصادر أوّلية وثانوية · تدريب مركَّز على كتابة المقالات التحليلية · الفهم القرائي · مواصلة العمل على المفردات · مسح عامّ لحقب الأدب الأمريكي وأنواعه · قراءات إضافية مطلوبة وأوراق قصيرة متكرّرة.",
+      "of": "fc0fa370",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[9].description"
       ]
@@ -9598,15 +9592,15 @@
       ]
     },
     {
-      "t": "تضمّ هذه الحصّة كثيرًا من المادة التي تغطّيها Honors English 11 إضافةً إلى مبادئ البلاغة والحجاج.",
-      "of": "a5083a33",
+      "t": "تغطّي كثيرًا من مادة Honors English 11، إضافةً إلى مبادئ البلاغة والحجاج.",
+      "of": "19c08f9c",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[10].description"
       ]
     },
     {
-      "t": "مسح للأدب البريطاني · مراجعة وتدريب على بنية الفقرة والمقال · القواعد مع التدرّب عليها في الواجبات الكتابية · الفهم القرائي والتلخيص والتحليل.",
-      "of": "07a9b2a2",
+      "t": "مسح للأدب البريطاني · مراجعة وتدريب على بنية الفقرة والمقال · القواعد مع التدرّب عليها في الواجبات الكتابية · الفهم القرائي والتلخيص والتحليل · كتابة مقالات موثَّقة تستخدم مصادر أوّلية، وفي بعض الحالات ثانوية · العمل على المفردات.",
+      "of": "00e131e3",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[11].description"
       ]
@@ -9619,8 +9613,8 @@
       ]
     },
     {
-      "t": "تشمل هذه الحصّة دراسة معمّقة للأدب البريطاني عبر القراءة المتأنّية والنقاش؛ وكتابةً متقدّمة تُثمر عدّة تحليلات أدبية موثَّقة تستخدم مصادر أوّلية، وفي بعض الحالات.",
-      "of": "459deaf1",
+      "t": "دراسة معمّقة للأدب البريطاني عبر القراءة المتأنّية والنقاش · كتابة متقدّمة تُثمر عدّة تحليلات أدبية موثَّقة تستخدم مصادر أوّلية، وفي بعض الحالات ثانوية · تنمية المفردات.",
+      "of": "6a443116",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[12].description"
       ]
@@ -9633,8 +9627,8 @@
       ]
     },
     {
-      "t": "تشمل هذه الحصّة كل أساسيات Honors English 12 مع إضافة عدّة نصوص متقدّمة.",
-      "of": "49e16eeb",
+      "t": "كل أساسيات Honors English 12، إضافةً إلى عدّة نصوص متقدّمة.",
+      "of": "f09dd11b",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[13].description"
       ]
@@ -9647,8 +9641,8 @@
       ]
     },
     {
-      "t": "تضمّ هذه الحصّة كثيرًا من المادة التي تغطّيها Honors English 12 إضافةً إلى مبادئ البلاغة والحجاج.",
-      "of": "0bc63a29",
+      "t": "تغطّي كثيرًا من مادة Honors English 12، إضافةً إلى مبادئ البلاغة والحجاج.",
+      "of": "4db6d283",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[14].description"
       ]
@@ -9661,8 +9655,8 @@
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة لمنح خبرة عملية في تقنيات المقابلة والكتابة (الأخبار والتحقيقات والافتتاحيات والتغطية الرياضية ومراجعات الفعاليات الثقافية) والتصوير والإخراج الصفحي.",
-      "of": "24ad2dab",
+      "t": "خبرة عملية في تقنيات المقابلة والكتابة (الأخبار والتحقيقات والافتتاحيات والتغطية الرياضية ومراجعات الفعاليات الثقافية) والتصوير والإخراج الصفحي.",
+      "of": "71045252",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[15].description"
       ]
@@ -9717,8 +9711,8 @@
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة خصّيصًا لطلاب Academic Achievement في الصفوف 10 و11 و12 ممّن معدّلهم GPA 2.9 أو أقل.",
-      "of": "a09da7c3",
+      "t": "لطلاب Academic Achievement في الصفوف 10 و11 و12 ممّن معدّلهم GPA 2.9 أو أقل.",
+      "of": "13d7a6f9",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[1].description"
       ]
@@ -9731,8 +9725,8 @@
       ]
     },
     {
-      "t": "يؤدّي المساعدون مهام لصالح الإدارة والمرشدين وشؤون الخريجين وCampus Ministry، ويُقيَّمون على استعدادهم للتعلّم ومبادرتهم وأدائهم للمهام المسنَدة ومهارتهم في المجال المسنَد إليهم.",
-      "of": "5fad789b",
+      "t": "يؤدّي المساعدون مهام لصالح الإدارة والمرشدين وشؤون الخريجين وCampus Ministry · يقوم التقييم على الاستعداد للتعلّم والمبادرة وأداء المهام المسنَدة والمهارة في المجال المسنَد · لا يمكن أخذ الحصّة إلا مرّة واحدة.",
+      "of": "16528847",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[2].description"
       ]
@@ -9746,8 +9740,8 @@
       ]
     },
     {
-      "t": "يقضي الطلاب وقتهم في العمل باستقلالية على مقرّراتهم في بيئة خاضعة للإشراف.",
-      "of": "126b46c0",
+      "t": "وقت خاضع للإشراف يعمل فيه الطلاب باستقلالية على مقرّراتهم.",
+      "of": "853af355",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[3].description"
       ]
@@ -9795,8 +9789,8 @@
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة لمساعدة الطلاب على الاستعداد لاختبار SAT بفعالية. ويُقسَم التدريس إلى مكوّنين رئيسين: Evidence-Based Reading & Writing وMathematics.",
-      "of": "66820258",
+      "t": "تُعدّ الطلاب لاختبار SAT، ويُقسَم التدريس إلى جزأين رئيسين: Evidence-Based Reading & Writing وMathematics.",
+      "of": "c747763a",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[5].description"
       ]
@@ -9809,8 +9803,8 @@
       ]
     },
     {
-      "t": "يستكشف الطلاب المعنى الأعمق للرياضة من خلال عدسة أخلاقية وفلسفية.",
-      "of": "abea03c6",
+      "t": "تستكشف المعنى الأعمق للرياضة من منظور أخلاقي وفلسفي.",
+      "of": "2dcc624c",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[6].description"
       ]
@@ -9880,8 +9874,8 @@
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة لتقديم فهم للمبادئ الأساسية لدورة المحاسبة كما تنطبق على كيانات الأعمال.",
-      "of": "a7b074f0",
+      "t": "تعلّم المبادئ الأساسية لدورة المحاسبة (Accounting Cycle) كما تنطبق على الأعمال.",
+      "of": "12b72e65",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[11].description"
       ]
@@ -9966,8 +9960,8 @@
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة لتهيئة الطلاب لحصص متقدّمة في مجالَي الهندسة الكهربائية وهندسة الحوسبة.",
-      "of": "e2038a46",
+      "t": "تهيّئ الطلاب لحصص متقدّمة في الهندسة الكهربائية وهندسة الحوسبة.",
+      "of": "6a0d4d3b",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[17].description"
       ]
@@ -9980,8 +9974,8 @@
       ]
     },
     {
-      "t": "يهيّئ الطلاب لحصص جامعية المستوى في الهندسة المدنية وهندسة البناء، مستكشفًا مفاهيم التصميم مثل أنظمة المباني وموادّها، والمنشآت والأحمال، والنقل، والمفاهيم البيئية.",
-      "of": "85c1abf7",
+      "t": "تهيّئ الطلاب لحصص جامعية المستوى في الهندسة المدنية وهندسة البناء · مفاهيم التصميم مثل أنظمة المباني وموادّها، والمنشآت والأحمال، والنقل، والمفاهيم البيئية · أنواع الجسور وأساسيات التحليل الإنشائي · تصميم البنية التحتية للمدن والتدرّب على تخطيطها.",
+      "of": "09c7bc4e",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[18].description"
       ]
@@ -10001,22 +9995,22 @@
       ]
     },
     {
-      "t": "مراجعة للعمليات على الأعداد الصحيحة والكسور والأعداد العشرية · حلّ المعادلات والمتباينات في متغيّر واحد · مقدّمة إلى الدوالّ · الدوالّ الخطية · أنظمة المعادلات والمتباينات الخطية.",
-      "of": "bbbf2d3c",
+      "t": "مراجعة للعمليات على الأعداد الصحيحة والكسور والأعداد العشرية · حلّ المعادلات والمتباينات في متغيّر واحد · مقدّمة إلى الدوالّ · الدوالّ الخطية · أنظمة المعادلات والمتباينات الخطية · التعامل مع كثيرات الحدود · تحليل كثيرات الحدود إلى عوامل · الدوالّ التربيعية · عرض البيانات وتلخيصها بالأرقام.",
+      "of": "9a9dd2e0",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[0].description"
       ]
     },
     {
-      "t": "مراجعة موجزة للعمليات على الأعداد الصحيحة والكسور والأعداد العشرية · حلّ المعادلات والمتباينات في متغيّر واحد · مقدّمة إلى الدوالّ · الدوالّ الخطية · أنظمة المعادلات والمتباينات الخطية.",
-      "of": "ee6606f4",
+      "t": "مراجعة موجزة للعمليات على الأعداد الصحيحة والكسور والأعداد العشرية · حلّ المعادلات والمتباينات في متغيّر واحد · مقدّمة إلى الدوالّ · الدوالّ الخطية · أنظمة المعادلات والمتباينات الخطية · التعامل مع كثيرات الحدود · تحليل كثيرات الحدود إلى عوامل · الدوالّ التربيعية · عرض البيانات وتلخيصها بالأرقام.",
+      "of": "31f7b5a8",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[1].description"
       ]
     },
     {
-      "t": "تشمل هذه الحصّة المصطلحات والرموز الأساسية؛ وتطابق المضلّعات والدوائر وتشابهها؛ والمساحة والحجم؛ والمستقيمات المتوازية والمتعامدة؛ والتحويلات؛ ومقدّمة إلى البرهان.",
-      "of": "d2651304",
+      "t": "المصطلحات والرموز الأساسية · تطابق المضلّعات والدوائر وتشابهها · المساحة والحجم · المستقيمات المتوازية والمتعامدة · التحويلات · مقدّمة إلى البرهان.",
+      "of": "b7c49ec5",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[2].description"
       ]
@@ -10029,8 +10023,8 @@
       ]
     },
     {
-      "t": "تشمل هذه الحصّة دراسة المصطلحات والرموز الأساسية؛ وتطابق المضلّعات والدوائر وتشابهها؛ والمساحة والحجم؛ والمستقيمات المتوازية والمتعامدة؛ والتحويلات والبراهين.",
-      "of": "568449b3",
+      "t": "المصطلحات والرموز الأساسية · تطابق المضلّعات والدوائر وتشابهها · المساحة والحجم · المستقيمات المتوازية والمتعامدة · التحويلات والبراهين.",
+      "of": "2a79374c",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[3].description"
       ]
@@ -10052,8 +10046,8 @@
       ]
     },
     {
-      "t": "تشمل هذه الحصّة دراسة الدوالّ الخطية والتربيعية والأُسّية واللوغاريتمية والجذرية والنسبية والمثلثية؛ والأعداد المركّبة؛ والارتباط والانحدار.",
-      "of": "b5cfa283",
+      "t": "الدوالّ الخطية والتربيعية والأُسّية واللوغاريتمية والجذرية والنسبية والمثلثية · الأعداد المركّبة · الارتباط والانحدار.",
+      "of": "a46d624e",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[5].description"
       ]
@@ -10066,8 +10060,8 @@
       ]
     },
     {
-      "t": "تشمل هذه الحصّة دراسة الدوالّ الخطية والتربيعية والأُسّية واللوغاريتمية والجذرية والنسبية والمثلثية؛ والأعداد المركّبة؛ والارتباط والانحدار؛ والنماذج الطبيعية؛ وفترات الثقة للنسب والمتوسّطات.",
-      "of": "9c1c5de8",
+      "t": "الدوالّ الخطية والتربيعية والأُسّية واللوغاريتمية والجذرية والنسبية والمثلثية · الأعداد المركّبة · الارتباط والانحدار · النماذج الطبيعية · فترات الثقة للنسب والمتوسّطات.",
+      "of": "632c0bce",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[6].description"
       ]
@@ -10082,8 +10076,8 @@
       ]
     },
     {
-      "t": "حصّة عالية المتطلّبات للطلاب الذين يتمتّعون بأخلاقيات عمل قوية ومهارات في التفكير النقدي، تغطّي بتعمّق الدوالّ الخطية والتربيعية والأُسّية واللوغاريتمية والجذرية والنسبية والمثلثية.",
-      "of": "f298dbfc",
+      "t": "حصّة عالية المتطلّبات للطلاب الذين يتمتّعون بأخلاقيات عمل قوية ومهارات في التفكير النقدي، تغطّي بتعمّق: الدوالّ الخطية والتربيعية والأُسّية · الدوالّ اللوغاريتمية والجذرية والنسبية والمثلثية · الأعداد المركّبة · الارتباط والانحدار · النماذج الطبيعية · فترات الثقة للنسب والمتوسّطات.",
+      "of": "529283cd",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[7].description"
       ]
@@ -10096,8 +10090,8 @@
       ]
     },
     {
-      "t": "تهدف هذه الحصّة إلى تهيئة الطلاب لحصّة في الجبر أو الإحصاء أو Pre-Calculus على المستوى الجامعي.",
-      "of": "08efbcd2",
+      "t": "تهيّئ الطلاب لحصّة في الجبر أو الإحصاء أو Pre-Calculus على المستوى الجامعي.",
+      "of": "d5bdf4a2",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[8].description"
       ]
@@ -10110,8 +10104,8 @@
       ]
     },
     {
-      "t": "تهدف هذه الحصّة إلى تهيئة الطلاب لحصّة في الجبر أو الإحصاء أو Pre-Calculus أو Calculus على المستوى الجامعي.",
-      "of": "0a1b706a",
+      "t": "تهيّئ الطلاب لحصّة في الجبر أو الإحصاء أو Pre-Calculus أو Calculus على المستوى الجامعي.",
+      "of": "af0ee692",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[9].description"
       ]
@@ -10124,8 +10118,8 @@
       ]
     },
     {
-      "t": "تتيح هذه الحصّة للطلاب فرصة مواصلة دراسة الدوالّ الخطية والتربيعية والأُسّية واللوغاريتمية والمثلثية.",
-      "of": "73e22d33",
+      "t": "مواصلة دراسة الدوالّ الخطية والتربيعية والأُسّية واللوغاريتمية والمثلثية.",
+      "of": "addb02e0",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[10].description"
       ]
@@ -10138,8 +10132,8 @@
       ]
     },
     {
-      "t": "تشمل هذه الحصّة مزيدًا من تطوير الدوالّ وتحليلها، بما فيها الدوالّ كثيرة الحدود والنسبية والأُسّية واللوغاريتمية والمثلثية.",
-      "of": "35f390f8",
+      "t": "مزيد من تطوير الدوالّ وتحليلها، بما فيها الدوالّ كثيرة الحدود والنسبية والأُسّية واللوغاريتمية والمثلثية.",
+      "of": "21e29d26",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[11].description"
       ]
@@ -10152,8 +10146,8 @@
       ]
     },
     {
-      "t": "حصّة عالية المتطلّبات للطلاب الذين يتمتّعون بأخلاقيات عمل قوية ومهارات في التفكير النقدي، تغطّي مزيدًا من تطوير الدوالّ وتحليلها، بما فيها الدوالّ كثيرة الحدود والنسبية والأُسّية واللوغاريتمية والمثلثية.",
-      "of": "3413d082",
+      "t": "حصّة عالية المتطلّبات للطلاب الذين يتمتّعون بأخلاقيات عمل قوية ومهارات في التفكير النقدي، تغطّي مزيدًا من تطوير الدوالّ وتحليلها، مثل الدوالّ كثيرة الحدود والنسبية والأُسّية واللوغاريتمية والمثلثية · الاحتمالات · العدّ · المتتاليات والمتسلسلات · القطوع المخروطية · نظام الأعداد المركّبة · اختبارات الفرضيات للمتوسّطات والنسب.",
+      "of": "14fc3faf",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[12].description"
       ]
@@ -10189,8 +10183,8 @@
       ]
     },
     {
-      "t": "تعادل Advanced Placement Calculus BC تقريبًا حصّتَي التفاضل والتكامل الجامعيتين في الفصلين الأول والثاني معًا، وتغطّي Calculus AB موسَّعةً لتشمل أنواعًا مختلفة من المعادلات، إضافة إلى المتتاليات والمتسلسلات.",
-      "of": "9852095d",
+      "t": "تعادل Advanced Placement Calculus BC تقريبًا حصّتَي التفاضل والتكامل الجامعيتين في الفصلين الأول والثاني معًا · تغطّي الحصّة Calculus AB موسَّعةً لتشمل أنواعًا مختلفة من المعادلات، إضافةً إلى المتتاليات والمتسلسلات · من موضوعات حساب التفاضل والتكامل: النهايات والمشتقّات والتكاملات المحدّدة وFundamental Theorem of Calculus والمتسلسلات · يجب على كل طالب أداء اختبار AP Calculus BC.",
+      "of": "68048f34",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[16].description"
       ]
@@ -10380,8 +10374,8 @@
       ]
     },
     {
-      "t": "امتداد لمدة سنتين لـ Options Program بعد تجربة المدرسة الثانوية التقليدية · تبني الحصص والتدريب المهني والتدريب العملي والتجارب المجتمعية المهارات الحياتية والجاهزية لبيئة العمل والجامعة والاستقلالية.",
-      "of": "2875a0cd",
+      "t": "امتداد لمدة سنتين لـ Options Program بعد تجربة المدرسة الثانوية التقليدية · تعليم فردي في المهارات الحياتية · الجاهزية لبيئة العمل · التواصل الاجتماعي · التنقّل في المجتمع · الجاهزية للجامعة · تطبيق واقعي مثل التدريب المهني والتدريب العملي والتجارب المجتمعية الموجَّهة ومزيد من العمل الأكاديمي · يهدف البرنامج إلى دعم النموّ نحو العيش المستقلّ.",
+      "of": "992966d5",
       "at": [
         "charlotte-catholic:divisions[0].departments[3].courses[13].description"
       ]
@@ -10401,8 +10395,8 @@
       ]
     },
     {
-      "t": "تدرس هذه الحصّة ما يعنيه القول إن البشر أشخاص (أي كائنات وُهبت الحرية وحياةً داخلية قادرة على المعرفة والمحبّة).",
-      "of": "078dacf5",
+      "t": "تدرس ما يعنيه وصف البشر بأنهم أشخاص (كائنات تتمتّع بالحرية وبحياة داخلية قادرة على المعرفة والمحبّة).",
+      "of": "53e6f9bc",
       "at": [
         "charlotte-catholic:divisions[0].departments[4].courses[0].description"
       ]
@@ -10415,8 +10409,8 @@
       ]
     },
     {
-      "t": "تعرّف هذه الحصّة الطلاب بمقاربة الفلسفة الكلاسيكية للأخلاق من خلال عدسة كاثوليكية.",
-      "of": "6371b8ed",
+      "t": "تعرّف بمقاربة الفلسفة الكلاسيكية للأخلاق من خلال عدسة كاثوليكية.",
+      "of": "c358e2d3",
       "at": [
         "charlotte-catholic:divisions[0].departments[4].courses[1].description"
       ]
@@ -10470,8 +10464,8 @@
       ]
     },
     {
-      "t": "تركّز هذه الحصّة على حركات التحمّل البسيطة والحركات الهوائية بهدف زيادة القدرات البدنية.",
-      "of": "193f5c87",
+      "t": "تركّز على حركات التحمّل البسيطة والحركات الهوائية لزيادة القدرات البدنية.",
+      "of": "00e9c559",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[2].description"
       ]
@@ -10512,8 +10506,8 @@
       ]
     },
     {
-      "t": "تركّز هذه الحصّة على عناصر الرقص مع تمارين حركة القلب. كما تُدمَج فيها تمارين البيلاتس والإطالة.",
-      "of": "98779b03",
+      "t": "تركّز على عناصر الرقص مع تمارين حركة القلب، إضافةً إلى البيلاتس والإطالة.",
+      "of": "62d8b544",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[5].description"
       ]
@@ -10526,8 +10520,8 @@
       ]
     },
     {
-      "t": "يشارك الطلاب في أنشطة جماعية متنوّعة مع التركيز على الاختيار الجماعي والفردي والأنشطة القابلة للاستمرار مدى الحياة.",
-      "of": "53094926",
+      "t": "أنشطة جماعية متنوّعة، مع التركيز على الاختيار الجماعي والفردي والأنشطة القابلة للاستمرار مدى الحياة.",
+      "of": "78dcdd5b",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[6].description"
       ]
@@ -10547,8 +10541,8 @@
       ]
     },
     {
-      "t": "مقدّمة واسعة إلى المبادئ الأساسية في علم الأحياء عبر دراسة البشر وتفاعلهم مع الكائنات الأخرى ومع البيئة التي يتشاركونها.",
-      "of": "694041aa",
+      "t": "مقدّمة واسعة إلى المبادئ الأساسية في علم الأحياء عبر دراسة البشر وتفاعلهم مع الكائنات الأخرى ومع البيئة التي يتشاركونها · بنية الخلية ووظيفتها · بنية النباتات والحيوانات ووظيفتها (دراسة الأجهزة) · التكاثر · علم الوراثة · التطوّر · علم البيئة · التمارين المخبرية والتشريح والتقارير المخبرية عوامل مهمّة في الدرجة.",
+      "of": "f64aae18",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[0].description"
       ]
@@ -10561,8 +10555,8 @@
       ]
     },
     {
-      "t": "غرض هذه الحصّة هو تعريف الطالب بدراسة معمّقة للمبادئ الأساسية للعمليات البيولوجية.",
-      "of": "60b9b8e4",
+      "t": "تعرّف بدراسة معمّقة للمبادئ الأساسية للعمليات البيولوجية.",
+      "of": "5d773e2a",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[1].description"
       ]
@@ -10670,8 +10664,8 @@
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة لتقديم مقدّمة في التغذية البشرية والصحة وأثرهما في المجتمع.",
-      "of": "88455d3f",
+      "t": "مقدّمة في التغذية البشرية والصحة وأثرهما في المجتمع.",
+      "of": "c2ac2d95",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[9].description"
       ]
@@ -10684,15 +10678,15 @@
       ]
     },
     {
-      "t": "صُمّمت Advanced Placement Chemistry بوصفها حصّة كيمياء للسنة الثانية. وهي مادة علوم اختيارية مكثّفة جدًّا تغطّي الموضوعات المدرَجة عادةً في حصّة كيمياء جامعية للسنة الأولى.",
-      "of": "3f2ac5cc",
+      "t": "تُعدّ Advanced Placement Chemistry حصّة كيمياء للسنة الثانية، وهي مادة علوم اختيارية مكثّفة جدًّا تغطّي الموضوعات المدرَجة عادةً في حصّة كيمياء جامعية للسنة الأولى.",
+      "of": "c56f9ac1",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[11].description"
       ]
     },
     {
-      "t": "تغطّي هذه الحصّة الموضوعات المدرَجة عادةً في حصّة جامعية للسنة الأولى في العلوم البيئية.",
-      "of": "56716f95",
+      "t": "تغطّي الموضوعات المدرَجة عادةً في حصّة جامعية للسنة الأولى في العلوم البيئية.",
+      "of": "16e37238",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[12].description"
       ]
@@ -10705,8 +10699,8 @@
       ]
     },
     {
-      "t": "حصّة فيزياء تمهيدية بمستوى جامعي قائمة على الجبر؛ ويجب على كل طالب أداء اختبار AP Physics 1: Algebra-Based.",
-      "of": "19af0536",
+      "t": "حصّة فيزياء تمهيدية بمستوى جامعي قائمة على الجبر، تغطّي مجالات المحتوى التالية: علم الحركة (Kinematics) · القوى والديناميكا الانتقالية (Forces and Translational Dynamics) · الشغل والطاقة والقدرة (Work, Energy, and Power) · الزخم الخطي (Linear Momentum) · العزم والديناميكا الدورانية (Torque and Rotational Dynamics) · طاقة الأنظمة الدوّارة وزخمها (Energy and Momentum of Rotating Systems) · الاهتزازات (Oscillations) · الموائع (Fluids) · ويجب على كل طالب أداء اختبار AP Physics 1: Algebra-Based.",
+      "of": "17ad53d8",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[13].description"
       ]
@@ -10719,8 +10713,8 @@
       ]
     },
     {
-      "t": "دراسة معمّقة على مدى سنة كاملة للميكانيكا النيوتونية: علم الحركة · قوانين نيوتن للحركة · الشغل والطاقة والقدرة · أنظمة الجسيمات والزخم الخطي · الحركة الدائرية والدوران · الاهتزازات والجاذبية.",
-      "of": "8e073378",
+      "t": "دراسة معمّقة على مدى سنة كاملة للميكانيكا النيوتونية: علم الحركة · قوانين نيوتن للحركة · الشغل والطاقة والقدرة · أنظمة الجسيمات والزخم الخطي · الحركة الدائرية والدوران · الاهتزازات والجاذبية · تعتمد الحصّة كثيرًا على المختبر، مع دفتر مختبر مطلوب وحلّ مسائل يستخدم التفاضل والتكامل · يجب على كل طالب أداء اختبار AP Physics C: Mechanics.",
+      "of": "3e437ca1",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[14].description"
       ]
@@ -10754,8 +10748,8 @@
       ]
     },
     {
-      "t": "ستزوّد هذه الحصّة الطلاب بمقدّمة شاملة للمفاهيم العلمية وتقنيات البحث المخبري المستخدَمة حاليًّا في مجال التقنية الحيوية.",
-      "of": "17608f26",
+      "t": "مقدّمة شاملة للمفاهيم العلمية وتقنيات البحث المخبري المستخدَمة اليوم في التقنية الحيوية.",
+      "of": "a859781f",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[17].description"
       ]
@@ -10790,8 +10784,8 @@
       ]
     },
     {
-      "t": "Honors World History هي أعلى مستويات حصص World History في Charlotte Catholic · تُحدَّد مواعيد تسليم الواجبات في الغالب قبل أيام أو حتى أسابيع، فعلى الطلاب تخطيط عملهم وإدارة وقتهم لينجحوا.",
-      "of": "9117a0bd",
+      "t": "Honors World History هي أعلى مستويات حصص World History في Charlotte Catholic · تُحدَّد مواعيد تسليم الواجبات في الغالب قبل أيام أو حتى أسابيع، فعلى الطلاب تخطيط عملهم وإدارة وقتهم لينجحوا · تمتدّ الحصّة من تاريخ العالم القديم، بتركيز على الأديان والإمبراطوريات والمهارات التمهيدية، مرورًا بالصين المبكّرة وحتى الحرب الباردة · يجعل التركيز القوي على مهارات التفكير والكتابة القراءةَ المقرَّرة أساسية · ليست حصّة متمركزة حول أوروبا: يتعلّم الطلاب تاريخ أوروبا والكثير عن أفريقيا وآسيا وأمريكا اللاتينية.",
+      "of": "a83348cf",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[2].description"
       ]
@@ -10804,8 +10798,8 @@
       ]
     },
     {
-      "t": "تدرس هذه الحصّة تطوّر الحضارات الغربية والشرق أدنوية عبر الأثر التاريخي والفنّي للمسيحية.",
-      "of": "9b914725",
+      "t": "تدرس كيف تطوّرت الحضارات الغربية والشرق أدنوية عبر الأثر التاريخي والفنّي للمسيحية.",
+      "of": "710c3f53",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[3].description"
       ]
@@ -10854,15 +10848,15 @@
       ]
     },
     {
-      "t": "تعرّف هذه الحصّة الطلاب بالدراسة العلمية للسلوك البشري والعمليات الذهنية.",
-      "of": "0396eb47",
+      "t": "مقدّمة إلى الدراسة العلمية للسلوك البشري والعمليات الذهنية.",
+      "of": "4af526a9",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[7].description"
       ]
     },
     {
-      "t": "هذه الحصّة حصّة بمستوى جامعي تعرّف الطلاب بالدراسة المنهجية والعلمية للسلوك البشري والعمليات الذهنية.",
-      "of": "43a5d41d",
+      "t": "مقدّمة بمستوى جامعي إلى الدراسة المنهجية والعلمية للسلوك البشري والعمليات الذهنية.",
+      "of": "e81b5742",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[8].description"
       ]
@@ -10875,8 +10869,8 @@
       ]
     },
     {
-      "t": "هذه الحصّة حصّة في U.S. Government بمستوى الإعداد للجامعة تعرّف الطلاب بأسس النظام السياسي الأمريكي وبنياته وعملياته.",
-      "of": "5ac83c77",
+      "t": "حصّة U.S. Government بمستوى الإعداد للجامعة تعرّف بأسس النظام السياسي الأمريكي وبنياته وعملياته.",
+      "of": "c499cfc4",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[9].description"
       ]
@@ -10903,15 +10897,15 @@
       ]
     },
     {
-      "t": "تقدّم هذه الحصّة مقدّمة بمستوى جامعي للمفاهيم والأفكار والمؤسسات والسياسات والتفاعلات والأدوار والسلوكيات السياسية الرئيسة التي تميّز النظام الدستوري والثقافة السياسية في الولايات المتحدة.",
-      "of": "d8b1836b",
+      "t": "مقدّمة بمستوى جامعي إلى المفاهيم والأفكار والمؤسسات والسياسات والتفاعلات والأدوار والسلوكيات السياسية الرئيسة التي تميّز النظام الدستوري والثقافة السياسية في الولايات المتحدة.",
+      "of": "7bdce14b",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[11].description"
       ]
     },
     {
-      "t": "هذه الحصّة حصّة اقتصاد بمستوى الإعداد للجامعة تعرّف الطلاب بالمبادئ الأساسية للاقتصاد مع تركيز أساسي على النظام الاقتصادي الأمريكي.",
-      "of": "bdde45a3",
+      "t": "حصّة بمستوى الإعداد للجامعة في المبادئ الأساسية للاقتصاد، مع تركيز أساسي على النظام الاقتصادي الأمريكي.",
+      "of": "653a0acf",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[12].description"
       ]
@@ -10938,8 +10932,8 @@
       ]
     },
     {
-      "t": "هذه الحصّة حصّة بمستوى جامعي تعرّف الطلاب بمبادئ الاقتصاد التي تنطبق على سلوك المستهلكين الأفراد والشركات وأصحاب الموارد.",
-      "of": "43a6df4c",
+      "t": "مقدّمة بمستوى جامعي إلى مبادئ الاقتصاد التي تنطبق على سلوك المستهلكين الأفراد والشركات وأصحاب الموارد.",
+      "of": "eefd305e",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[14].description"
       ]
@@ -10952,8 +10946,8 @@
       ]
     },
     {
-      "t": "تتناول هذه الحصّة موضوعات في الاقتصاد الكلّي والاقتصاد الجزئي معًا. وتعادل حصّتين مدّة كلٍّ منهما فصل دراسي في نظرية الاقتصاد الكلّي ونظرية الاقتصاد الجزئي.",
-      "of": "ea8d26ae",
+      "t": "تغطّي الاقتصاد الكلّي والاقتصاد الجزئي معًا، وتعادل حصّتين مدّة كلٍّ منهما فصل دراسي، إحداهما في نظرية الاقتصاد الكلّي والأخرى في نظرية الاقتصاد الجزئي.",
+      "of": "109df2a5",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[15].description"
       ]
@@ -10987,8 +10981,8 @@
       ]
     },
     {
-      "t": "تبدأ هذه الحصّة بتوجيه موجز إلى الفلسفة والمنطق. أما بقيّتها فتدرس كيف يعلن الله عن نفسه للناس.",
-      "of": "0bb97eaf",
+      "t": "توجيه موجز إلى الفلسفة والمنطق، ثم دراسة لكيفية إعلان الله عن نفسه للناس.",
+      "of": "0454085b",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[0].description"
       ]
@@ -11001,8 +10995,8 @@
       ]
     },
     {
-      "t": "تعرض هذه الحصّة الثالوث الأقدس — إله واحد في ثلاثة أقانيم إلهية: الآب والابن والروح القدس — وهو السرّ المركزي في الإيمان المسيحي.",
-      "of": "09259e9d",
+      "t": "تدرس الثالوث الأقدس — إله واحد في ثلاثة أقانيم إلهية: الآب والابن والروح القدس — وهو السرّ المركزي في الإيمان المسيحي.",
+      "of": "d5b8cf1e",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[1].description"
       ]
@@ -11099,8 +11093,8 @@
       ]
     },
     {
-      "t": "تهيّئ هذه الحصّة الطلاب للحوار الفاعل مع غير الكاثوليك في المجال العام.",
-      "of": "f567ced1",
+      "t": "تهيّئ الطلاب للحوار الفاعل مع غير الكاثوليك في الحياة العامة.",
+      "of": "19ce45ba",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[8].description"
       ]
@@ -11141,8 +11135,8 @@
       ]
     },
     {
-      "t": "تبدأ هذه الحصّة بقصة تدخّل الله الحاسم في التاريخ البشري في شخص ابنه، وتستمرّ عبر كنيسته حتى يومنا هذا.",
-      "of": "16e347be",
+      "t": "تتناول القصة من تدخّل الله الحاسم في التاريخ البشري في شخص ابنه، مرورًا بكنيسته، حتى يومنا هذا.",
+      "of": "07f88455",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[11].description"
       ]
@@ -11155,8 +11149,8 @@
       ]
     },
     {
-      "t": "ستمكّن هذه الحصّة الطلاب من تطوير معيار لتحليل ما يرونه معروضًا في السينما.",
-      "of": "1385fa2f",
+      "t": "تعلّم الطلاب تطوير معيار لتحليل ما يرونه معروضًا في الأفلام.",
+      "of": "ed4a56b9",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[12].description"
       ]
@@ -11169,8 +11163,8 @@
       ]
     },
     {
-      "t": "تقدّم هذه الحصّة عرضًا عامًّا لأديان العالم بما فيها اليهودية والمسيحية والإسلام والهندوسية والبوذية.",
-      "of": "548d4bba",
+      "t": "عرض عامّ لأديان العالم، منها اليهودية والمسيحية والإسلام والهندوسية والبوذية.",
+      "of": "7818f03b",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[13].description"
       ]
@@ -11183,8 +11177,8 @@
       ]
     },
     {
-      "t": "Art I حصّة تمهيدية تركّز على المهارات الفنية الأساسية. وتُستكشَف فيها وسائط وأدوات متنوّعة تشمل التلوين والرسم والنحت.",
-      "of": "0a151589",
+      "t": "Art I حصّة تمهيدية تركّز على المهارات الفنية الأساسية، وتستكشف وسائط وأدوات متنوّعة، منها التلوين والرسم والنحت.",
+      "of": "5f6d46fc",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[0].description"
       ]
@@ -11365,8 +11359,8 @@
       ]
     },
     {
-      "t": "تتيح هذه الحصّة لطلاب السنة الأولى الذكور فرصة تنمية أصواتهم الغنائية عبر الغناء الكورالي والتنفّس السليم والقراءة النغمية وتقنيات إنتاج الصوت.",
-      "of": "9ea6724e",
+      "t": "تتيح لطلاب السنة الأولى الذكور الجدد فرصة تنمية أصواتهم الغنائية عبر الغناء الكورالي والتنفّس السليم والقراءة النغمية وتقنيات إنتاج الصوت.",
+      "of": "0fb278fc",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[13].description"
       ]
@@ -11379,8 +11373,8 @@
       ]
     },
     {
-      "t": "تتيح هذه الحصّة لطالبات السنة الأولى فرصة تنمية أصواتهنّ الغنائية عبر الغناء الكورالي والتنفّس السليم والقراءة النغمية وتقنيات إنتاج الصوت.",
-      "of": "30121c3c",
+      "t": "تتيح لطالبات السنة الأولى الجديدات فرصة تنمية أصواتهنّ الغنائية عبر الغناء الكورالي والتنفّس السليم والقراءة النغمية وتقنيات إنتاج الصوت.",
+      "of": "f72bce2e",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[14].description"
       ]
@@ -11407,8 +11401,8 @@
       ]
     },
     {
-      "t": "هذه الحصّة كورال نسائي بمستوى متمكّن يُلتحَق به بالاختبار، لصاحبات خبرة غنائية سابقة.",
-      "of": "9f34af36",
+      "t": "كورال نسائي بمستوى متمكّن يُلتحَق به بالاختبار، لصاحبات خبرة غنائية سابقة.",
+      "of": "cbadd3fd",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[16].description"
       ]
@@ -11421,8 +11415,8 @@
       ]
     },
     {
-      "t": "هذه الحصّة كورال نسائي بمستويَي المتمكّن والمتقدّم يُلتحَق به بالاختبار، لصاحبات خبرة غنائية سابقة.",
-      "of": "035360d3",
+      "t": "كورال نسائي بمستويَي المتمكّن والمتقدّم يُلتحَق به بالاختبار، لصاحبات خبرة غنائية سابقة.",
+      "of": "21829186",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[17].description"
       ]
@@ -11435,8 +11429,8 @@
       ]
     },
     {
-      "t": "هذه الحصّة كورال رجالي بمستوى متمكّن يُلتحَق به بالاختبار، لأصحاب خبرة غنائية سابقة.",
-      "of": "ce946530",
+      "t": "كورال رجالي بمستوى متمكّن يُلتحَق به بالاختبار، لأصحاب خبرة غنائية سابقة.",
+      "of": "c6bf2747",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[18].description"
       ]
@@ -11449,8 +11443,8 @@
       ]
     },
     {
-      "t": "هذه الحصّة كورال رجالي بمستويَي المتمكّن والمتقدّم يُلتحَق به بالاختبار، لأصحاب خبرة غنائية سابقة.",
-      "of": "6b9a427d",
+      "t": "كورال رجالي بمستويَي المتمكّن والمتقدّم يُلتحَق به بالاختبار، لأصحاب خبرة غنائية سابقة.",
+      "of": "e96a1160",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[19].description"
       ]
@@ -11464,8 +11458,8 @@
       ]
     },
     {
-      "t": "هذه الحصّة كورال مختلط بمستوى متقدّم يُلتحَق به بالاختبار، للرجال والنساء ذوي خبرة غنائية سابقة كبيرة.",
-      "of": "53180152",
+      "t": "كورال مختلط بمستوى متقدّم يُلتحَق به بالاختبار، للرجال والنساء ذوي خبرة غنائية سابقة كبيرة.",
+      "of": "ac21d443",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[20].description"
       ]
@@ -11520,8 +11514,8 @@
       ]
     },
     {
-      "t": "حصّة متقدّمة لا يصنع فيها الطلاب الديكورات فحسب، بل يكتسبون أيضًا أدوات العمل في بيئة احترافية، مطبّقين كل مفاهيم التصميم والجماليات.",
-      "of": "ecfbfa73",
+      "t": "حصّة متقدّمة لا يصنع فيها الطلاب الديكورات فحسب، بل يكتسبون أيضًا أدوات العمل في بيئة احترافية، مطبّقين كل مفاهيم التصميم والجماليات · يتولّى الطلاب كل الإضاءة والصوت للمدرسة ومرافقها، ويخصّصون وقتًا إضافيًّا للتجهيز والتفكيك في القداديس والفعاليات المدرسية · ويتولّى طلاب هذه الحصّة أيضًا أدوارًا قيادية في كل العروض المسرحية.",
+      "of": "af089538",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[24].description"
       ]
@@ -11555,8 +11549,8 @@
       ]
     },
     {
-      "t": "تُقدَّم هذه الحصّة للطلاب الراغبين في السعي الجادّ وراء كل تقنيات التمثيل للمسرح والشاشة على السواء.",
-      "of": "10b9628e",
+      "t": "للطلاب الراغبين في السعي الجادّ وراء كل تقنيات التمثيل، للمسرح والشاشة على السواء.",
+      "of": "0bab2e9f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[27].description"
       ]
@@ -11583,8 +11577,8 @@
       ]
     },
     {
-      "t": "تعمّق هذه الحصّة المعرفة بمبادئ إنتاج البرامج التلفزيونية والمسلسلات الشبكية وإجراءاته وتقنياته.",
-      "of": "fddd3045",
+      "t": "تبني على معرفة الطلاب بمبادئ إنتاج البرامج التلفزيونية والمسلسلات الشبكية وإجراءاته وتقنياته.",
+      "of": "52e1109f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[29].description"
       ]
@@ -11625,8 +11619,8 @@
       ]
     },
     {
-      "t": "Dance III حصّة أداء بمستوى honors تُبرِز التقنية المتقدّمة للطلاب عبر تطبيق التصميم الحركي · تُعقد الحصّة على مدى السنة كاملة · يُشترَط تقديم عرضين على المسرح، بما فيهما قطع من تصميم الطلاب الحركي.",
-      "of": "f9e5edfa",
+      "t": "Dance III حصّة أداء بمستوى honors تُبرِز التقنية المتقدّمة للطلاب عبر تطبيق التصميم الحركي · تُعقد الحصّة على مدى السنة كاملة · يُشترَط تقديم عرضين على المسرح، بما فيهما قطع من تصميم الطلاب الحركي · يُشترَط شراء أحذية رقص مناسبة.",
+      "of": "7c96437b",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[32].description"
       ]
@@ -11639,8 +11633,8 @@
       ]
     },
     {
-      "t": "ينضمّ الطلاب ذوو الخبرة في العزف عبر اختبار، ويُتوقَّع منهم أن يكونوا متمكّنين من آلاتهم، وأن يعرفوا أساسيات نظرية الموسيقى، وأن يقرؤوا النوتة الموسيقية بطلاقة.",
-      "of": "be73b04a",
+      "t": "ينضمّ الطلاب ذوو الخبرة في العزف عبر اختبار، ويُتوقَّع منهم أن يكونوا متمكّنين من آلاتهم، وأن يعرفوا أساسيات نظرية الموسيقى، وأن يقرؤوا النوتة الموسيقية بطلاقة · التركيز على جودة النغمة وضبط الطبقة والتقنيات المتقدّمة أو الموسَّعة · يُتوقَّع من الطلاب حضور التدريبات والعروض بعد اليوم الدراسي · يُتوقَّع من الأعضاء الانضمام إلى فرقة المارشينغ في الخريف · ينبغي لعازفي آلات النفخ التسجيل في هذه الحصّة · التدرّب في المنزل مطلوب · فعاليات الأداء إلزامية.",
+      "of": "45a3083b",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[33].description"
       ]
@@ -11653,8 +11647,8 @@
       ]
     },
     {
-      "t": "هذه الحصّة لطلاب السنتين الثالثة والرابعة الذين أنجزوا سنة واحدة من Concert Band ويرغبون في الحصول على رصيد honors مقابل مشاركتهم في الفرقة الموسيقية.",
-      "of": "ef41ca4c",
+      "t": "لطلاب السنتين الثالثة والرابعة الذين أنجزوا سنة واحدة من Concert Band ويرغبون في الحصول على رصيد honors مقابل مشاركتهم في الفرقة الموسيقية.",
+      "of": "e0d46e5f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[34].description"
       ]
@@ -11681,15 +11675,15 @@
       ]
     },
     {
-      "t": "هذه الحصّة لأعضاء مجموعة الإيقاع الراغبين في الحصول على رصيد honors مقابل مشاركتهم في الفرقة الموسيقية.",
-      "of": "eeccefc2",
+      "t": "لأعضاء مجموعة الإيقاع الراغبين في الحصول على رصيد honors مقابل مشاركتهم في الفرقة الموسيقية.",
+      "of": "a0c617e9",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[36].description"
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة بوصفها حصّة قائمة على الأداء لتقديم فهم لأساسيات العزف على الغيتار الصوتي.",
-      "of": "9c317d08",
+      "t": "حصّة قائمة على الأداء في أساسيات العزف على الغيتار الصوتي.",
+      "of": "a0fb9c2e",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[37].description"
       ]
@@ -11702,8 +11696,8 @@
       ]
     },
     {
-      "t": "لطالب الغيتار من المستوى المتوسّط إلى المتقدّم، استمرارًا لـ Guitar I مع تركيز أكبر على تحسين الأساسيات عبر القراءة النغمية والسلالم وتهجئة الأوتار والأنماط اللحنية والعزف بالأصابع.",
-      "of": "cb3af940",
+      "t": "لطالب الغيتار من المستوى المتوسّط إلى المتقدّم · استمرار لـ Guitar I مع تركيز أكبر على تحسين الأساسيات عبر القراءة النغمية والسلالم وتهجئة الأوتار والأنماط اللحنية والعزف بالأصابع · يؤدّي الطلاب في مجموعات وفرادى.",
+      "of": "7451e9b3",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[38].description"
       ]
@@ -11732,11 +11726,10 @@
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة لمواصلة الأساس المكتسَب في French I وبناء فهم واستيعاب أعمق في القراءة والكتابة والاستماع والتحدّث.",
-      "of": "d9bf2f32",
+      "t": "تبني على الأساس المكتسَب في French I وتعمّق فهم القراءة والكتابة والاستماع والتحدّث.",
+      "of": "787b5a7e",
       "at": [
-        "charlotte-catholic:divisions[0].departments[10].courses[1].description",
-        "charlotte-catholic:divisions[0].departments[10].courses[2].description"
+        "charlotte-catholic:divisions[0].departments[10].courses[1].description"
       ]
     },
     {
@@ -11747,6 +11740,13 @@
       ]
     },
     {
+      "t": "تبني على الأساس المكتسَب في French I وتعمّق فهم القراءة والكتابة والاستماع والتحدّث · في المستوى Advanced، تكون لغة الحصّة أكثر تعقيدًا، والوتيرة أسرع، والمتطلّبات أعلى.",
+      "of": "5e7aa552",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[2].description"
+      ]
+    },
+    {
       "t": "Advanced French III",
       "of": "5c23973c",
       "at": [
@@ -11754,8 +11754,8 @@
       ]
     },
     {
-      "t": "حصّة متقدّمة تبني فهم اللغة الفرنسية بمواصلة تطويرها وتطبيقها في القراءة والكتابة والاستماع والتحدّث.",
-      "of": "782c6013",
+      "t": "حصّة متقدّمة تبني فهم اللغة الفرنسية بمواصلة تطويرها وتطبيقها في القراءة والكتابة والاستماع والتحدّث · تركيز قوي على القواعد والتحدّث.",
+      "of": "c92c1237",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[3].description"
       ]
@@ -11826,8 +11826,8 @@
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة لمواصلة الأساس المكتسَب في German I وبناء فهم واستيعاب أعمق في القراءة والكتابة والاستماع والتحدّث.",
-      "of": "a1cbc734",
+      "t": "تبني على الأساس المكتسَب في German I وتعمّق فهم القراءة والكتابة والاستماع والتحدّث.",
+      "of": "569add6c",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[8].description"
       ]
@@ -11924,8 +11924,8 @@
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة للطلاب الذين يدلّ إتقانهم المُثبَت لأساسيات اللاتينية على جاهزيتهم للنصوص الأدبية الأصلية.",
-      "of": "087ba19a",
+      "t": "للطلاب الذين أثبتوا إتقانهم لأساسيات اللاتينية وأصبحوا جاهزين للنصوص الأدبية الأصلية.",
+      "of": "916c2ed1",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[16].description"
       ]
@@ -11938,8 +11938,8 @@
       ]
     },
     {
-      "t": "تركّز هذه الحصّة على الأعراف البلاغية والعروضية والثقافية للشعر الملحمي والغنائي.",
-      "of": "807d2322",
+      "t": "تركّز على الأعراف البلاغية والعروضية والثقافية للشعر الملحمي والغنائي.",
+      "of": "4ec7889d",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[17].description"
       ]
@@ -11981,11 +11981,10 @@
       ]
     },
     {
-      "t": "صُمّمت هذه الحصّة لمواصلة الأساس المكتسَب في Spanish 1 وبناء فهم واستيعاب أعمق في القراءة والكتابة والاستماع والتحدّث.",
-      "of": "5ff21440",
+      "t": "تبني على الأساس المكتسَب في Spanish 1 وتعمّق فهم القراءة والكتابة والاستماع والتحدّث.",
+      "of": "c793c230",
       "at": [
-        "charlotte-catholic:divisions[0].departments[10].courses[20].description",
-        "charlotte-catholic:divisions[0].departments[10].courses[21].description"
+        "charlotte-catholic:divisions[0].departments[10].courses[20].description"
       ]
     },
     {
@@ -11996,6 +11995,13 @@
       ]
     },
     {
+      "t": "تبني على الأساس المكتسَب في Spanish 1 وتعمّق فهم القراءة والكتابة والاستماع والتحدّث · في المستوى Advanced، تكون لغة الحصّة أكثر تعقيدًا، والوتيرة أسرع، والمتطلّبات أعلى.",
+      "of": "ef4e166c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[21].description"
+      ]
+    },
+    {
       "t": "Advanced Spanish III",
       "of": "003720ba",
       "at": [
@@ -12003,8 +12009,8 @@
       ]
     },
     {
-      "t": "حصّة متقدّمة تبني فهم اللغة الإسبانية بمواصلة تطويرها وتطبيقها في القراءة والكتابة والاستماع والتحدّث.",
-      "of": "e2650971",
+      "t": "حصّة متقدّمة تبني فهم اللغة الإسبانية بمواصلة تطويرها وتطبيقها في القراءة والكتابة والاستماع والتحدّث · تركيز قوي على القواعد والتحدّث.",
+      "of": "0133447d",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[22].description"
       ]
@@ -12017,8 +12023,8 @@
       ]
     },
     {
-      "t": "هذه حصّة متقدّمة صُمّمت للطلاب الذين يتحدّثون الإسبانية أصلًا في بيوتهم أو في مجتمعاتهم.",
-      "of": "a440afa1",
+      "t": "حصّة متقدّمة للطلاب الذين يتحدّثون الإسبانية أصلًا في بيوتهم أو في مجتمعاتهم.",
+      "of": "1f0d0c19",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[23].description"
       ]
@@ -12091,8 +12097,8 @@
       ]
     },
     {
-      "t": "تقدّم هذه الحصّة تدريبًا وخبرةً في إعداد الخطب وإلقائها في محيط عامّ وفي النقاش الجماعي.",
-      "of": "dfae0ace",
+      "t": "تعلّم، مع التطبيق، كيفية إعداد الخطب وإلقائها في محيط عامّ وفي النقاش الجماعي.",
+      "of": "f70f9a57",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[0].description"
       ]
@@ -12105,8 +12111,8 @@
       ]
     },
     {
-      "t": "تعرّف هذه الحصّة بالدراسة العلمية للمجتمع البشري والثقافة والتفاعلات الاجتماعية.",
-      "of": "ef3b3870",
+      "t": "مقدّمة إلى الدراسة العلمية للمجتمع البشري والثقافة والتفاعلات الاجتماعية.",
+      "of": "4d61a339",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[1].description"
       ]
@@ -12119,8 +12125,8 @@
       ]
     },
     {
-      "t": "تعرّف هذه الحصّة بأصول الفن وتطوّره التاريخي.",
-      "of": "f51aadb4",
+      "t": "مقدّمة إلى أصول الفن وتطوّره التاريخي.",
+      "of": "9ad5e015",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[2].description"
       ]
@@ -12133,8 +12139,8 @@
       ]
     },
     {
-      "t": "تنشر Charlotte Country Day عشرة مجالات مادّة في Lower School، موصوفة سرديًّا لكل صف، لا حصصًا مُسمّاة. ولا يوجد دليل حصص لـ Lower School.",
-      "of": "829d91ce",
+      "t": "تنشر Charlotte Country Day عشرة مجالات مادّة في Lower School، موصوفة سرديًّا لكل صف، لا حصصًا مُسمّاة. ولا تنشر دليل حصص لـ Lower School.",
+      "of": "25238106",
       "at": [
         "charlotte-country-day:divisions[0].notPublished"
       ]
@@ -12215,8 +12221,8 @@
       ]
     },
     {
-      "t": "يتعرّض كل الطلاب للفرنسية والإسبانية معًا، متقدّمين من صوت كل لغة إلى المهارات اللغوية الأربع إضافةً إلى الكتابة الأساسية بحلول الصف 4.",
-      "of": "5c130948",
+      "t": "يتعرّض الطلاب للفرنسية والإسبانية معًا من JK حتى الصف 1، ثم يختارون إحداهما في الصف 2، فيبنون المهارات اللغوية الأربع إضافةً إلى الكتابة الأساسية بحلول الصف 4.",
+      "of": "5d18a511",
       "at": [
         "charlotte-country-day:divisions[0].departments[1].courses[0].description"
       ]
@@ -12293,15 +12299,15 @@
       ]
     },
     {
-      "t": "تسعة مسارات رياضيات مُسمّاة إضافةً إلى مواد صفّية عبر 6 مجالات — Geometry برصيد المرحلة الثانوية في وقت مبكّر يبلغ الصف 8.",
-      "of": "b130706f",
+      "t": "تسعة مسارات رياضيات مُسمّاة إضافةً إلى مواد صفّية عبر 6 مجالات — Geometry بدءًا من الصف 8.",
+      "of": "85b6204c",
       "at": [
         "charlotte-country-day:divisions[1].teaser"
       ]
     },
     {
-      "t": "تنشر Country Day حصصًا مُسمّاة في Middle School للرياضيات فقط؛ وتُنشَر التخصّصات الأخرى مواد صفّية. ولا يوجد دليل حصص لـ Middle School.",
-      "of": "ebab57a8",
+      "t": "تنشر Country Day حصصًا مُسمّاة في Middle School للرياضيات فقط؛ وتُنشَر التخصّصات الأخرى مواد صفّية. ولا تنشر دليل حصص لـ Middle School.",
+      "of": "37377640",
       "at": [
         "charlotte-country-day:divisions[1].notPublished"
       ]
@@ -12392,8 +12398,8 @@
       ]
     },
     {
-      "t": "تعابير ومعادلات ودوال خطّية تأسيسية للطلاب المحتاجين إلى إعداد إضافي.",
-      "of": "54b4f2d1",
+      "t": "أسس التعابير والمعادلات، وخواصّ الأعداد الحقيقية، والمعادلات والمتباينات الخطّية، والأنظمة، والأُسُس وكثيرات الحدود؛ ثم ينتقل الطلاب إلى Algebra 1 في الصف 9.",
+      "of": "65ec0efd",
       "at": [
         "charlotte-country-day:divisions[1].departments[0].courses[6].description"
       ]
@@ -12408,17 +12414,10 @@
       ]
     },
     {
-      "t": "Algebra I كاملة للمرحلة الثانوية تغطّي الدوال والأنظمة الخطّية والأُسُس وكثيرات الحدود والتربيعيات والجذور.",
-      "of": "4c35c1ea",
+      "t": "Algebra I تغطّي أسس الجبر، والدوال والأنظمة الخطّية، والأُسُس، وكثيرات الحدود، والتربيعيات، والجذور، ومقدّمة إلى الهندسة.",
+      "of": "546b2984",
       "at": [
         "charlotte-country-day:divisions[1].departments[0].courses[7].description"
-      ]
-    },
-    {
-      "t": "رصيد المرحلة الثانوية",
-      "of": "d99674c1",
-      "at": [
-        "charlotte-country-day:divisions[1].departments[0].courses[8].tag"
       ]
     },
     {
@@ -12892,8 +12891,8 @@
       ]
     },
     {
-      "t": "هندسة مُسرَّعة؛ تتطلّب 90 في Algebra I إضافةً إلى توصية معلّم.",
-      "of": "b74d8e2d",
+      "t": "هندسة بنظرية أكثر وعمق أكبر؛ تتطلّب 90 في Algebra I إضافةً إلى توصية معلّم.",
+      "of": "53e21465",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[2].description"
       ]
@@ -12906,8 +12905,8 @@
       ]
     },
     {
-      "t": "Algebra II مُسرَّعة؛ تتطلّب 90 في Geometry أو 83 في Honors Geometry.",
-      "of": "c934a32f",
+      "t": "Algebra II أكثر عمقًا ونظرية، إضافةً إلى حساب المثلّثات والدوال النسبية؛ تتطلّب 90 في Geometry أو 83 في Honors Geometry، إضافةً إلى توصية معلّم.",
+      "of": "5e9109ad",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[4].description"
       ]
@@ -12927,8 +12926,8 @@
       ]
     },
     {
-      "t": "حصّة مضغوطة من مادّتين مفتوحة فقط لطلاب السنة الثانية الذين أكملوا Honors Geometry في الصف التاسع.",
-      "of": "75ab770e",
+      "t": "حصّة مضغوطة من مادّتين مفتوحة فقط لطلاب السنة الثانية الذين أكملوا Honors Geometry في الصف التاسع ويوصي بهم القسم.",
+      "of": "ad197a7a",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[5].description"
       ]
@@ -12941,8 +12940,8 @@
       ]
     },
     {
-      "t": "حصّة جسر تمدّ الجبر إلى حساب المثلّثات.",
-      "of": "92a4584b",
+      "t": "بديل لـ Pre-calculus يراجع موضوعات Algebra II ويوسّعها، بما فيها حساب المثلّثات، بوتيرة أبطأ؛ ولا يمكن لمن يأخذه الانتقال إلى Pre-calculus أو AP Calculus.",
+      "of": "7819cc79",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[6].description"
       ]
@@ -12983,8 +12982,8 @@
       ]
     },
     {
-      "t": "ما قبل حساب التفاضل والتكامل مُسرَّع؛ يتطلّب 90 في Algebra II أو 83 في Honors Algebra II.",
-      "of": "72cd7a7a",
+      "t": "حصّة معمّقة في ما قبل حساب التفاضل والتكامل تهيّئ الطلاب لـ AP Calculus؛ تتطلّب 90 في Algebra II أو 83 في Honors Algebra II، إضافةً إلى توصية معلّم.",
+      "of": "ca8f5006",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[9].description"
       ]
@@ -13004,8 +13003,8 @@
       ]
     },
     {
-      "t": "إحصاء بمستوى جامعي؛ وينبغي للطلاب المؤهَّلين اختيار AP Calculus AB أو AP Statistics، لا كليهما.",
-      "of": "a30a9fae",
+      "t": "إحصاء بمستوى جامعي؛ وينبغي لطلاب Precalculus المؤهَّلين اختيار AP Calculus AB أو AP Statistics، لا كليهما.",
+      "of": "362dd493",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[11].description"
       ]
@@ -13072,8 +13071,8 @@
       ]
     },
     {
-      "t": "IB Mathematics: Analysis and Approaches بمستوى قياسي؛ تتطلّب 83 في Honors Precalculus.",
-      "of": "8bac72c2",
+      "t": "حصّة الرياضيات IB Mathematics: Analysis and Approaches بالمستوى القياسي؛ ويُشترَط للالتحاق بها الحصول على درجة 83 في Honors Precalculus أو في Honors Algebra II/Precalculus.",
+      "of": "f2f410e4",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[16].description"
       ]
@@ -13121,8 +13120,8 @@
       ]
     },
     {
-      "t": "أحياء بمستوى جامعي؛ المتطلّبان السابقان Biology I وChemistry I.",
-      "of": "7964e9d2",
+      "t": "أحياء بمستوى جامعي؛ المتطلّبات السابقة Biology I وChemistry I أو Honors Chemistry I، إضافةً إلى 90 في حصّة العلوم الحالية الممتدّة طوال العام (85 في Honors، و83 في AP).",
+      "of": "ef4dcbaa",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[2].description"
       ]
@@ -13233,15 +13232,15 @@
       ]
     },
     {
-      "t": "كيمياء مُسرَّعة؛ تتطلّب 87 في Biology و87 في حصّة رياضيات.",
-      "of": "2c12a7fb",
+      "t": "كيمياء مُسرَّعة؛ تتطلّب 87 في Biology و87 في حصّة رياضيات (83 في Honors)، إضافةً إلى Algebra II سابقة أو متزامنة.",
+      "of": "0edaff1c",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[11].description"
       ]
     },
     {
-      "t": "كيمياء بمستوى جامعي؛ تتطلّب Precalculus سابقة أو متزامنة.",
-      "of": "de4b217c",
+      "t": "كيمياء بمستوى جامعي؛ تتطلّب 90 في Chemistry I أو 85 في Honors Chemistry، إضافةً إلى Precalculus سابقة أو متزامنة.",
+      "of": "e965809b",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[12].description"
       ]
@@ -13289,8 +13288,8 @@
       ]
     },
     {
-      "t": "فيزياء مُسرَّعة؛ تتطلّب Precalculus سابقة أو متزامنة.",
-      "of": "5f2b87c2",
+      "t": "نسخة أكثر تحليلًا من Physics I؛ تتطلّب 87 في حصّة العلوم الحالية الممتدّة طوال العام و87 في الرياضيات (83 في Honors لكلٍّ منهما)، إضافةً إلى Precalculus سابقة أو متزامنة.",
+      "of": "63ff169a",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[16].description"
       ]
@@ -13303,8 +13302,8 @@
       ]
     },
     {
-      "t": "فيزياء جامعية قائمة على حساب التفاضل والتكامل في الميكانيكا والكهرباء والمغناطيسية؛ تتطلّب AP أو IB Calculus سابقة أو متزامنة.",
-      "of": "01eaff08",
+      "t": "فيزياء جامعية قائمة على حساب التفاضل والتكامل في الميكانيكا والكهرباء والمغناطيسية؛ تتطلّب 90 في Physics I أو 85 في Honors Physics، إضافةً إلى AP أو IB Calculus سابقة أو متزامنة.",
+      "of": "8152288f",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[17].description"
       ]
@@ -13359,8 +13358,8 @@
       ]
     },
     {
-      "t": "يحاكي فصلًا من الكيمياء العضوية الجامعية بمكوّن مختبر اصطناعي كامل؛ يتطلّب AP أو IB Chemistry.",
-      "of": "1e9b6642",
+      "t": "يحاكي فصلًا من الكيمياء العضوية الجامعية بمكوّن مختبر تخليق كيميائي كامل؛ يتطلّب 83 في AP أو IB Chemistry.",
+      "of": "e35ca3b6",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[21].description"
       ]
@@ -13444,8 +13443,8 @@
       ]
     },
     {
-      "t": "Modern World History مُسرَّعة؛ تتطلّب 87 في 9th Grade History.",
-      "of": "520601aa",
+      "t": "Modern World History بمصادر أوّلية أكثر وقراءة أكثر وكتابة أكثر تواترًا وعمقًا؛ تتطلّب 87 في 9th Grade History.",
+      "of": "1be2b996",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[2].description"
       ]
@@ -13472,8 +13471,8 @@
       ]
     },
     {
-      "t": "US History بمستوى جامعي تفي بمتطلّب التخرّج؛ تتطلّب 87 في Modern World History.",
-      "of": "7d3122a0",
+      "t": "US History بمستوى جامعي تفي بمتطلّب التخرّج؛ تتطلّب 87 في Modern World History أو 80 في Honors Modern World History.",
+      "of": "52933b46",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[5].description"
       ]
@@ -13550,8 +13549,8 @@
       ]
     },
     {
-      "t": "أصول الحضارات القديمة وتطوّرها وأنواعها من نحو 3000 ق.م إلى نحو 1000 م باستخدام المصادر الأوّلية والاكتشافات الأثرية.",
-      "of": "ab788014",
+      "t": "أصول الحضارات القديمة وتطوّرها وأنواعها من نحو 3000 ق.م إلى نحو 1000 م، باستخدام المصادر الأوّلية والاكتشافات الأثرية.",
+      "of": "f6f422a0",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[12].description"
       ]
@@ -13617,8 +13616,8 @@
       ]
     },
     {
-      "t": "مفتوحة لطلاب IB وغير IB؛ تتطلّب Precalculus سابقة أو متزامنة.",
-      "of": "38c748e4",
+      "t": "مفتوحة لطلاب IB وغير IB في الصفّين 11 و12؛ تتطلّب 87 في حصّة التاريخ الحالية (80 في honors) وPrecalculus سابقة أو متزامنة.",
+      "of": "1f86656f",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[16].description"
       ]
@@ -13631,8 +13630,8 @@
       ]
     },
     {
-      "t": "تسلسل ماندرين من خمسة مستويات بـ honors فقط؛ ويتطلّب الدخول 87 في حصّة فرنسية أو إسبانية أو لاتينية حالية.",
-      "of": "41d90b58",
+      "t": "تسلسل Honors في الماندرين من خمسة مستويات؛ ويتطلّب الدخول 87 في حصّة فرنسية أو إسبانية أو لاتينية حالية، أو 80 في حصّة Honors حالية.",
+      "of": "f07c6966",
       "at": [
         "charlotte-country-day:divisions[2].departments[4].courses[0].description"
       ]
@@ -13813,8 +13812,8 @@
       ]
     },
     {
-      "t": "فرقة جوقية منتقاة تُقبَل بالاختبار، مفتوحة للصفوف 10–12.",
-      "of": "f35be1fc",
+      "t": "فرقة جوقية منتقاة للصفوف 10–12، تُقبَل بالاختبار بعد سنة واحدة من Concert Choir أو ما يعادلها.",
+      "of": "cad51b87",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[2].description"
       ]
@@ -13843,15 +13842,15 @@
       ]
     },
     {
-      "t": "فرقة نفخية بـ honors تُقبَل بالاختبار.",
-      "of": "f2dd1205",
+      "t": "فرقة نفخية بـ honors للطلاب المنتسبين أصلًا إلى Symphonic Band في Middle School أو Upper School، تُقبَل بالاختبار.",
+      "of": "1acabd3e",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[4].description"
       ]
     },
     {
-      "t": "فرقة الوتريات والأوركسترا الكاملة.",
-      "of": "bdb96a05",
+      "t": "فرقة أوركسترا الوتريات المؤلّفة من الكمان والفيولا والتشيلو والكونترباص والبيانو.",
+      "of": "db2710d9",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[5].description"
       ]
@@ -13892,8 +13891,8 @@
       ]
     },
     {
-      "t": "يطوّر القدرة على التعرّف على اللحن والهارموني والنسيج والإيقاع والشكل والتاريخ والأسلوب ووصفها؛ يتطلّب اختبار كفاءة دخول.",
-      "of": "56f65304",
+      "t": "يطوّر القدرة على التعرّف على اللحن والهارموني والنسيج والإيقاع والشكل والتاريخ والأسلوب ووصفها؛ يتطلّب 87 في حصّة الموسيقى الحالية واختبار كفاءة دخول.",
+      "of": "8fc985dc",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[9].description"
       ]
@@ -14173,8 +14172,8 @@
       ]
     },
     {
-      "t": "هياكل بيانات في Java، ثم مشاريع يصمّمها الطلاب تُعرَض أمام المجلس الأكاديمي؛ تتطلّب AP Computer Science.",
-      "of": "ee90340b",
+      "t": "هياكل بيانات في Java، ثم مشاريع يصمّمها الطلاب تُعرَض أمام المجلس الأكاديمي؛ تتطلّب AP Computer Science ومقترح مشروع معتمَدًا عند التسجيل.",
+      "of": "61b7c02b",
       "at": [
         "charlotte-country-day:divisions[2].departments[6].courses[2].description"
       ]
@@ -14293,15 +14292,15 @@
       ]
     },
     {
-      "t": "13 مجال منهج مُسمّى — Reveal Math وفنّ TAB وThe Orff Approach وبرمجة Scratch 3.0 واختبار CHAMP للياقة.",
-      "of": "204cb66e",
+      "t": "12 مجال منهج مُسمّى — Reveal Math وفنّ TAB وThe Orff Approach وبرمجة Scratch 3.0 واختبار CHAMP للياقة.",
+      "of": "ef870e7d",
       "at": [
         "cannon:divisions[0].teaser"
       ]
     },
     {
-      "t": "تنشر Cannon 12 مجال منهج مُسمّى لكل صف لـ JrK–4 لا دليل حصص. ويُعيد مسار /academics/lower-school/curriculum الخطأ 404.",
-      "of": "1f2c2269",
+      "t": "تنشر Cannon ما يصل إلى 12 مجال منهج مُسمّى لكل صف لـ JrK–4، لا دليل حصص.",
+      "of": "c88967f9",
       "at": [
         "cannon:divisions[0].notPublished"
       ]
@@ -14390,8 +14389,8 @@
       ]
     },
     {
-      "t": "يستخدم الصف 3 فصاعدًا نموذج TAB (Teaching for Artistic Behavior) ليعمل الطلاب ويفكّروا كفنّانين.",
-      "of": "94cf7f71",
+      "t": "يتّبع الصف 2 فصاعدًا نموذج TAB (Teaching for Artistic Behavior)، وبحلول الصف 3 يعمل الطلاب ويفكّرون كفنّانين.",
+      "of": "0c92a574",
       "at": [
         "cannon:divisions[0].departments[2].courses[0].description"
       ]
@@ -14453,22 +14452,22 @@
       ]
     },
     {
-      "t": "يتناول التحدّيات والخصائص النموذجية للأطفال بحسب العمر والمرحلة التطوّرية.",
-      "of": "910db73d",
+      "t": "توجّه صفحات الصفوف في المدرسة الأسر إلى صفحة School Counseling للاطّلاع على التحدّيات والخصائص النموذجية للأطفال بحسب العمر والمرحلة التطوّرية.",
+      "of": "1e3e8c84",
       "at": [
         "cannon:divisions[0].departments[3].courses[3].description"
       ]
     },
     {
-      "t": "ستّ مواد أساسية إضافةً إلى أربعة مسارات رياضيات — تناوب الصف 5 عبر اللغات العالمية الثلاث كلها، وفضاء الصنع ThinkTank.",
-      "of": "48460261",
+      "t": "سبعة مجالات مواد لكل صف، وتناوب في الصف 5 عبر اللغات العالمية الثلاث كلها، وفضاء الصنع ThinkTank. وتأخذ مجموعة منتقاة Pre-Algebra في الصف 6، وAlgebra I في الصف 7، وGeometry في الصف 8.",
+      "of": "224aa8e9",
       "at": [
         "cannon:divisions[1].teaser"
       ]
     },
     {
-      "t": "تنشر Cannon منهج Middle School أوصاف مواد لكل صف، لا دليل حصص مُسمّاة. ولا يوجد مكافئ في Middle School لدليل Upper School المكوَّن من 44 صفحة.",
-      "of": "75748668",
+      "t": "تنشر Cannon منهج Middle School أوصاف مواد لكل صف، لا دليل حصص مُسمّاة. ولا تنشر مكافئًا في Middle School لدليل Upper School المكوَّن من 44 صفحة.",
+      "of": "f2f08aa0",
       "at": [
         "cannon:divisions[1].notPublished"
       ]
@@ -14549,8 +14548,8 @@
       ]
     },
     {
-      "t": "خيار مُسرَّع يتيح لطلاب الصف السابع أخذ Algebra I.",
-      "of": "4f2371ef",
+      "t": "برنامج مُسرَّع يتيح لمجموعة منتقاة من طلاب الصف السابع أخذ Algebra I.",
+      "of": "f8de9288",
       "at": [
         "cannon:divisions[1].departments[1].courses[2].description"
       ]
@@ -14675,15 +14674,15 @@
       ]
     },
     {
-      "t": "يمزج الطباعة ثلاثية الأبعاد والواقع الافتراضي والطائرات المسيّرة والروبوتات وتصميم CAD وبرمجة الحاسوب في فضاء الصنع ThinkTank.",
-      "of": "6e09c575",
+      "t": "يمزج أنشطة منها طباعة 3D والواقع الافتراضي والطائرات المسيّرة والروبوتات وتصميم CAD وبرمجة الحاسوب في فضاء الصنع ThinkTank.",
+      "of": "8f15913d",
       "at": [
         "cannon:divisions[1].departments[3].courses[3].description"
       ]
     },
     {
-      "t": "104 حصص عبر 8 أقسام — 14 AP إضافةً إلى 13 حصّة Advanced Topics صمّمها أعضاء هيئة التدريس، تُتوَّج كلٌّ منها بـ Signature Learning Experience.",
-      "of": "23eb7684",
+      "t": "104 حصص عبر 8 أقسام — 14 AP إضافةً إلى 13 حصّة Advanced Topics صمّمها أعضاء هيئة التدريس، تُتوَّج كلٌّ منها بـ Signature Learning Experience أو باختبار نهائي تراكمي.",
+      "of": "a56b67f0",
       "at": [
         "cannon:divisions[2].teaser"
       ]
@@ -14696,8 +14695,8 @@
       ]
     },
     {
-      "t": "حصّة تأسيسية تصقل التفكير النقدي والمهارات التحليلية والتعبير الإبداعي عبر المذكّرات والمسرحيات والروايات والشعر والقصص القصيرة.",
-      "of": "12947dfc",
+      "t": "حصّة تأسيسية تصقل التفكير النقدي والمهارات التحليلية والتعبير الإبداعي عبر أنواع منها المذكّرات والمسرحيات والروايات والشعر والقصص القصيرة.",
+      "of": "d196f2af",
       "at": [
         "cannon:divisions[2].departments[0].courses[0].description"
       ]
@@ -14932,8 +14931,8 @@
       ]
     },
     {
-      "t": "يُعدّ الطلاب للرياضيات بمستوى جامعي ويعمل متطلّبًا سابقًا لـ AP Calculus.",
-      "of": "8b1f27ba",
+      "t": "يُعدّ الطلاب للرياضيات بمستوى جامعي، وهو متطلّب سابق لـ AP Calculus.",
+      "of": "7a5977a8",
       "at": [
         "cannon:divisions[2].departments[1].courses[6].description"
       ]
@@ -14946,8 +14945,8 @@
       ]
     },
     {
-      "t": "استكشاف قائم على البحث لأنواع الدوال التي تنمذج ظواهر واقعية، أنسب للطلاب المتّجهين نحو AP Calculus BC.",
-      "of": "61505b39",
+      "t": "استكشاف قائم على البحث لأنواع الدوال التي تنمذج ظواهر واقعية، أنسب للطلاب المتّجهين نحو AP Calculus BC أو الذين يخطّطون لعدّة مستويات من التفاضل والتكامل في الجامعة.",
+      "of": "e6d44b91",
       "at": [
         "cannon:divisions[2].departments[1].courses[7].description"
       ]
@@ -15093,8 +15092,8 @@
       ]
     },
     {
-      "t": "يغطّي Honors Chemistry بوتيرة أسرع إضافةً إلى الهندسة الجزيئية والدورية وكيمياء الحمض-القاعدة.",
-      "of": "4ecd131b",
+      "t": "يغطّي Honors Chemistry بوتيرة أسرع، إضافةً إلى موضوعات أخرى مثل الهندسة الجزيئية والدورية وكيمياء الحمض-القاعدة.",
+      "of": "ee7fcc14",
       "at": [
         "cannon:divisions[2].departments[2].courses[5].description"
       ]
@@ -15721,8 +15720,8 @@
       ]
     },
     {
-      "t": "استكشاف عملي للطين والسلك والخشب والجصّ والأشياء الموجودة لإنشاء منحوتات وتركيبات وتصاميم وظيفية.",
-      "of": "a8f00551",
+      "t": "استكشاف عملي لموادّ مثل الطين والسلك والخشب والجصّ والأشياء الموجودة لإنشاء منحوتات وتركيبات وتصاميم وظيفية.",
+      "of": "12c6d0ea",
       "at": [
         "cannon:divisions[2].departments[5].courses[2].description"
       ]
@@ -15819,8 +15818,8 @@
       ]
     },
     {
-      "t": "للطلاب ذوي الخبرة الملتزمين بالتمثيل العلني أو الإخراج أو تصميم الإنتاج بما في ذلك Fall One-Acts وArts Jam.",
-      "of": "0dff9581",
+      "t": "للطلاب ذوي الخبرة الملتزمين بالتمثيل العلني أو الإخراج أو تصميم الإنتاج، بما في ذلك Fall One-Acts وArts Jam.",
+      "of": "58335509",
       "at": [
         "cannon:divisions[2].departments[5].courses[9].description"
       ]
@@ -15868,8 +15867,8 @@
       ]
     },
     {
-      "t": "يبني على فرقة المرحلة المتوسطة عبر Concert Band وBig Band وفرق Chamber كلاسيكية صغيرة.",
-      "of": "93f629ff",
+      "t": "يبني على فرقة المرحلة المتوسطة عبر Concert Band وBig Band وفرق Chamber كلاسيكية صغيرة؛ ويؤدّي الطلاب الذين قضوا أقلّ من سنتين في فرقة المرحلة المتوسطة اختبار أداء قبل التسجيل.",
+      "of": "4598c226",
       "at": [
         "cannon:divisions[2].departments[5].courses[12].description"
       ]
@@ -15952,8 +15951,8 @@
       ]
     },
     {
-      "t": "استكشاف قائم على المشاريع لعملية Iterative Design Engineering عبر النجارة والخياطة والإلكترونيات وCAD.",
-      "of": "aaa38c9a",
+      "t": "استكشاف قائم على المشاريع لعملية Iterative Design Engineering، باستخدام أدوات في مجالات مثل النجارة والخياطة والإلكترونيات الأساسية وCAD.",
+      "of": "67efad98",
       "at": [
         "cannon:divisions[2].departments[5].courses[18].description"
       ]
@@ -16015,8 +16014,8 @@
       ]
     },
     {
-      "t": "أساسيات علوم الحاسوب عبر التصميم كائني التوجّه في Java، بما في ذلك هياكل البيانات والخوارزميات.",
-      "of": "4d4a492f",
+      "t": "أساسيات علوم الحاسوب عبر التصميم كائني التوجّه في Java، بما في ذلك هياكل البيانات والخوارزميات؛ مفتوحة لطلاب السنتين الثالثة والرابعة فقط.",
+      "of": "e524f723",
       "at": [
         "cannon:divisions[2].departments[6].courses[1].description"
       ]
@@ -16392,8 +16391,8 @@
       ]
     },
     {
-      "t": "مادّة الرياضيات البديلة في السنة الأخيرة، للطلاب الذين لا يواصلون إلى ما قبل التفاضل والتكامل.",
-      "of": "9bb80e16",
+      "t": "مادّة رياضيات للإعداد الجامعي.",
+      "of": "4110ae16",
       "at": [
         "covenant-day:divisions[0].departments[1].courses[5].description"
       ]
@@ -17099,8 +17098,8 @@
       ]
     },
     {
-      "t": "أدوار قيادية في فريق الكتاب السنوي.",
-      "of": "4baf69b3",
+      "t": "إنتاج الكتاب السنوي للمدرسة بمستوى honors.",
+      "of": "344bcb90",
       "at": [
         "covenant-day:divisions[0].departments[6].courses[14].description"
       ]
@@ -17141,8 +17140,8 @@
       ]
     },
     {
-      "t": "تدريب الطلاب مدرّسي محو أمية للمجتمع.",
-      "of": "a133cf4a",
+      "t": "مادّة للإعداد الجامعي في قسم Restoration & Sustainability.",
+      "of": "184e3d97",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[0].description"
       ]
@@ -17155,8 +17154,8 @@
       ]
     },
     {
-      "t": "مادّة المشروع التجاري الذي يديره طلاب القسم.",
-      "of": "2ebc9521",
+      "t": "مادّة ContainIt في القسم؛ إذ يحوّل فريق ContainIt في المدرسة حاويات الشحن المستعملة إلى مساحات صالحة للسكن.",
+      "of": "1ae97fa7",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[1].description"
       ]
@@ -17197,8 +17196,8 @@
       ]
     },
     {
-      "t": "برنامج البناء الخدمي في القسم بوصفه مادة تُحتسب لها ساعات معتمدة.",
-      "of": "1a98bd31",
+      "t": "برنامج الخدمة في القسم بوصفه مادة تُحتسب لها ساعات معتمدة.",
+      "of": "a2ea2bd4",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[4].description"
       ]
@@ -17261,8 +17260,8 @@
       ]
     },
     {
-      "t": "سبعة مجالات دراسيّة لكلّ صفّ، إضافة إلى ثلاثة مسارات honors مُسمّاة وقائمة من سبع موادّ اختياريّة — اللاتينيّة من الصفّ 6، وApplied English في الصفّين 6 و7.",
-      "of": "f84d89ac",
+      "t": "سبعة مجالات دراسيّة لكلّ صفّ، إضافة إلى أربع موادّ honors مُسمّاة وقائمة من سبع موادّ اختياريّة — اللاتينيّة من الصفّ 6، وApplied English في الصفّين 6 و7.",
+      "of": "4ce9491e",
       "at": [
         "covenant-day:divisions[1].teaser"
       ]
@@ -17410,8 +17409,8 @@
       ]
     },
     {
-      "t": "النصف الأوّل من تسلسل اللاتينيّة في Middle School؛ وتُقدَّم الإسبانيّة مادّةً اختياريّة.",
-      "of": "bc5a2dff",
+      "t": "يواصل تسلسل اللاتينيّة في Middle School الذي يبدأ في الصفّ 6؛ وتُقدَّم الإسبانيّة مادّةً اختياريّة.",
+      "of": "9ae52e79",
       "at": [
         "covenant-day:divisions[1].departments[1].courses[7].description"
       ]
@@ -17452,8 +17451,8 @@
       ]
     },
     {
-      "t": "نظام الأعداد الحقيقيّة، والمقادير، والمعادلات الخطّيّة والتربيعيّة ورسومها البيانيّة، والمتباينات، وأنظمة المعادلات، وكثيرات الحدود، والعلاقات، والدوالّ، والمقادير الجذريّة والنسبيّة.",
-      "of": "9322bae1",
+      "t": "نظام الأعداد الحقيقيّة، والمقادير، والمعادلات الخطّيّة والتربيعيّة ورسومها البيانيّة، والمتباينات، وأنظمة المعادلات، وكثيرات الحدود، والعلاقات، والدوالّ، والمقادير والمعادلات الجذريّة، والمقادير النسبيّة.",
+      "of": "1d1a628f",
       "at": [
         "covenant-day:divisions[1].departments[2].courses[3].description"
       ]
@@ -17534,8 +17533,8 @@
       ]
     },
     {
-      "t": "من خمسة إلى ستّة مجالات دراسيّة موصوفة لكلّ صفّ من الصفوف السبعة، إضافة إلى ستّ موادّ Specials مُسمّاة. ومنها CREATE Junior، والإسبانيّة من Junior Kindergarten، والمزمار في الصفّ 4 قبل آلات الفرقة الموسيقيّة في الصفّ 5.",
-      "of": "f33f8618",
+      "t": "خمسة مجالات دراسيّة موصوفة لكلّ صفّ من الصفوف السبعة، إضافة إلى ستّ موادّ Specials مُسمّاة. ومنها CREATE Junior، والإسبانيّة، والمزمار في الصفّ 4 قبل آلات الفرقة الموسيقيّة في الصفّ 5.",
+      "of": "29752e20",
       "at": [
         "covenant-day:divisions[2].teaser"
       ]
@@ -17781,8 +17780,8 @@
       ]
     },
     {
-      "t": "القيمة المكانيّة حتى 10,000، والتقريب، والحساب الذهني والتقدير · نماذج الأعمدة للمسائل الكلاميّة · جداول الضرب 0–12 · الضرب والقسمة بأعداد من 1 و2 منزلة · الكسور والأعداد العشريّة · الزوايا والخطوط · المساحة والمحيط · تحويلات القياس.",
-      "of": "c4fdbffb",
+      "t": "القيمة المكانيّة حتى 10,000، والتقريب، والحساب الذهني والتقدير · الجمع والطرح حتى 10,000 · نماذج الأعمدة للمسائل الكلاميّة · جداول الضرب 0–12 · الضرب والقسمة بأعداد من 1 و2 منزلة · الكسور والأعداد العشريّة · الزوايا والخطوط · المساحة والمحيط · تحويلات القياس.",
+      "of": "7b7af205",
       "at": [
         "covenant-day:divisions[2].departments[4].courses[1].description"
       ]
@@ -17897,7 +17896,6 @@
       "of": "244e8099",
       "at": [
         "covenant-day:divisions[2].departments[7].name",
-        "davidson-day:divisions[0].departments[0].courses[1].title",
         "charlotte-prep:divisions[0].departments[2].name"
       ]
     },
@@ -17914,15 +17912,15 @@
       ]
     },
     {
-      "t": "المهارة وإتقان الصنعة والجمال والوضوح والتوازن، تُمارَس عبر الرسم والتخطيط والخزف وفنّ الطباعة والمناظر الطبيعيّة والبورتريه، وتُعرَض في Art Walk السنوي في الربيع.",
-      "of": "c401dd07",
+      "t": "المهارة وإتقان الصنعة والجمال والوضوح والتوازن وعناصر خالدة أخرى، تُمارَس عبر الرسم والتخطيط والخزف وفنّ الطباعة والمناظر الطبيعيّة والبورتريه ومشاريع أخرى كثيرة، وتُعرَض في Art Walk السنوي في الربيع.",
+      "of": "bb1f09c1",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[0].description"
       ]
     },
     {
-      "t": "الموسيقى الغنائيّة والآليّة والإيقاعيّة لملحّنين كلاسيكيّين ومعاصرين · يتعلّم الصفّ 4 المزمار والصفّ 5 آلات الفرقة الموسيقيّة · تتوفّر جوقة أطفال ودروس خاصّة في البيانو والغناء والغيتار.",
-      "of": "eba018f6",
+      "t": "الموسيقى الغنائيّة والآليّة والإيقاعيّة لملحّنين كلاسيكيّين ومعاصرين · يتعلّم الصفّ 4 المزمار والصفّ 5 آلات الفرقة الموسيقيّة · تتوفّر جوقة أطفال لطلاب الصفّين 4 و5، ودروس خاصّة في البيانو والغناء والغيتار.",
+      "of": "96360919",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[1].description"
       ]
@@ -18002,20 +18000,6 @@
       "of": "846b20e9",
       "at": [
         "davidson-day:divisions[0].departments[0].courses[0].description"
-      ]
-    },
-    {
-      "t": "K–الصف 4",
-      "of": "4d15b9a6",
-      "at": [
-        "davidson-day:divisions[0].departments[0].courses[1].tag"
-      ]
-    },
-    {
-      "t": "الفنّ واللغة العالمية والمكتبة والتربية البدنية والموسيقى، إضافةً إلى مختبرات علوم وتقنية Lower School للتجريب العملي.",
-      "of": "1ad6c211",
-      "at": [
-        "davidson-day:divisions[0].departments[0].courses[1].description"
       ]
     },
     {
@@ -18128,8 +18112,8 @@
       ]
     },
     {
-      "t": "الحصّة المُسرَّعة السابقة لـ Honors Algebra 1.",
-      "of": "b80cc5b1",
+      "t": "الحصّة المُسرَّعة التي تؤدّي إلى Algebra 1 أو Honors Algebra 1.",
+      "of": "f526b2dd",
       "at": [
         "davidson-day:divisions[1].departments[0].courses[6].description"
       ]
@@ -18198,27 +18182,6 @@
       ]
     },
     {
-      "t": "AFAR International Research",
-      "of": "d06fab36",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].title"
-      ]
-    },
-    {
-      "t": "Gr 7+",
-      "of": "728b4736",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].tag"
-      ]
-    },
-    {
-      "t": "يُفتَح العمل الميداني الأثري المعتمَد في الصف 7، في مواقع مايا وإسبانية وسيطة ورومانية برتغالية.",
-      "of": "f36fcceb",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].description"
-      ]
-    },
-    {
       "t": "نحو 75 حصّة مُفهرَسة عبر 9 أقسام — 26 حصّة AP، وCalculus III ما بعد AP، وثلاثة مسارات Diploma Distinction.",
       "of": "4f147650",
       "at": [
@@ -18275,8 +18238,8 @@
       ]
     },
     {
-      "t": "حصّة قائمة على الأدب عن 1984 وThe Stranger وThe Great Gatsby وFrankenstein، تبني التحليل الأدبي وبناء الحجّة.",
-      "of": "64240e58",
+      "t": "حصّة قائمة على الأدب تقرأ روايات مثل 1984 وThe Stranger وThe Great Gatsby وFrankenstein، وتبني التحليل الأدبي وبناء الحجّة.",
+      "of": "f1904d3f",
       "at": [
         "davidson-day:divisions[2].departments[0].courses[4].description"
       ]
@@ -18442,8 +18405,8 @@
       ]
     },
     {
-      "t": "الدوال الكثيرة الحدود بعمق إضافةً إلى النماذج النسبية والجذرية واللوغاريتمية والأُسّية، مع كون عمل الحاسبة البيانية جزءًا لا يتجزّأ.",
-      "of": "cad608ff",
+      "t": "الدوال الكثيرة الحدود بعمق، إضافةً إلى الدوال النسبية ودوال الجذر التربيعي، والأعداد المركّبة، والنماذج اللوغاريتمية والأُسّية، مع كون عمل الحاسبة البيانية جزءًا لا يتجزّأ.",
+      "of": "fc8008ee",
       "at": [
         "davidson-day:divisions[2].departments[1].courses[4].description"
       ]
@@ -18562,8 +18525,8 @@
       ]
     },
     {
-      "t": "مسح تاريخ العالم المطلوب للسنة الثانية.",
-      "of": "33355f2e",
+      "t": "تفي بمتطلّب World History للسنة الثانية، الذي تفي به أيضًا AP World History (Modern)؛ ولا تنشر المدرسة وصفًا لحصّة Honors هذه.",
+      "of": "c1ebf9a1",
       "at": [
         "davidson-day:divisions[2].departments[2].courses[2].description"
       ]
@@ -19214,43 +19177,57 @@
       ]
     },
     {
+      "t": "AFAR International Research",
+      "of": "d06fab36",
+      "at": [
+        "davidson-day:divisions[2].departments[8].courses[7].title"
+      ]
+    },
+    {
+      "t": "عمل ميداني أثري معتمَد في الخارج بقيادة خبراء، في مواقع للمايا وأخرى إسبانية من العصور الوسطى وأخرى رومانية في البرتغال.",
+      "of": "36ecd3ba",
+      "at": [
+        "davidson-day:divisions[2].departments[8].courses[7].description"
+      ]
+    },
+    {
       "t": "Forensics & Zoology Honors",
       "of": "d2e8ab1f",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[7].title"
+        "davidson-day:divisions[2].departments[8].courses[8].title"
       ]
     },
     {
       "t": "مُدرَجة خيار نواة STEMM Distinction وفي شبكة حصص ملفّ المدرسة؛ ولا يُنشَر وصف حصّة.",
       "of": "efd17fd5",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[7].description"
+        "davidson-day:divisions[2].departments[8].courses[8].description"
       ]
     },
     {
       "t": "Independent Study",
       "of": "0185de38",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].title"
+        "davidson-day:divisions[2].departments[8].courses[9].title"
       ]
     },
     {
       "t": "نجاح/رسوب",
       "of": "7ced76bd",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].tag"
+        "davidson-day:divisions[2].departments[8].courses[9].tag"
       ]
     },
     {
       "t": "مسار دراسي يصمّمه الطالب بمشرف من هيئة التدريس، يتطلّب ملخّصًا ومنهجًا معتمَدين؛ مستبعَد من GPA.",
       "of": "75301aca",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].description"
+        "davidson-day:divisions[2].departments[8].courses[9].description"
       ]
     },
     {
-      "t": "78 عنوان مقرّر عبر 9 أقسام — بما فيها 16 مقرّر Advanced Placement — من High School Curriculum Guide لعام 2026-27.",
-      "of": "f1b73320",
+      "t": "77 عنوان مقرّر عبر 9 أقسام — بما فيها 16 مقرّر Advanced Placement — من قوائم مقرّرات المدرسة لعام 2026-27 ومتطلّبات التخرّج.",
+      "of": "b6302f41",
       "at": [
         "carmel-christian:divisions[0].teaser"
       ]
@@ -19267,7 +19244,8 @@
       "of": "4072c999",
       "at": [
         "carmel-christian:divisions[0].departments[0].courses[0].description",
-        "carmel-christian:divisions[0].departments[0].courses[1].description"
+        "carmel-christian:divisions[0].departments[0].courses[1].description",
+        "carmel-christian:divisions[0].departments[0].courses[3].description"
       ]
     },
     {
@@ -19296,13 +19274,6 @@
       "of": "94436114",
       "at": [
         "carmel-christian:divisions[0].departments[0].courses[3].title"
-      ]
-    },
-    {
-      "t": "مقرّر ختامي في الرؤية الكونية ضمن تسلسل Biblical Studies.",
-      "of": "19fdf8d8",
-      "at": [
-        "carmel-christian:divisions[0].departments[0].courses[3].description"
       ]
     },
     {
@@ -19509,8 +19480,8 @@
       ]
     },
     {
-      "t": "حساب تفاضلي تمهيدي بمستوى honors — الدوال وحساب المثلثات قبل التفاضل والتكامل.",
-      "of": "9b7144a1",
+      "t": "حساب تفاضلي تمهيدي بمستوى honors.",
+      "of": "4be9c15d",
       "at": [
         "carmel-christian:divisions[0].departments[2].courses[7].description"
       ]
@@ -19837,8 +19808,8 @@
       ]
     },
     {
-      "t": "خيار World Language عبر الإنترنت للغات غير Spanish.",
-      "of": "2300f410",
+      "t": "خيار World Language عبر الإنترنت.",
+      "of": "de88952b",
       "at": [
         "carmel-christian:divisions[0].departments[5].courses[7].description"
       ]
@@ -19851,8 +19822,8 @@
       ]
     },
     {
-      "t": "متطلّب الصحّة.",
-      "of": "9a426895",
+      "t": "مقرّر صحّة يُحتسب ضمن الرصيد 1 في Health & PE المطلوب للتخرّج.",
+      "of": "e5250942",
       "at": [
         "carmel-christian:divisions[0].departments[6].courses[0].description"
       ]
@@ -19999,8 +19970,8 @@
       ]
     },
     {
-      "t": "مقرّر مسرح تمهيدي.",
-      "of": "112dd5f2",
+      "t": "مقرّر مسرح.",
+      "of": "1228458a",
       "at": [
         "carmel-christian:divisions[0].departments[7].courses[8].description"
       ]
@@ -20196,8 +20167,8 @@
       ]
     },
     {
-      "t": "تنشر Middle School قائمة مقرّرات مسمّاة خاصّة بها — نواة أكاديمية كاملة إضافةً إلى لائحة مواد اختيارية واسعة بشكل غير معتاد — من Middle School Curriculum Guide لعام 2024-25.",
-      "of": "c86aa979",
+      "t": "تنشر Middle School قائمة مقرّرات مسمّاة خاصّة بها — نواة أكاديمية كاملة إضافةً إلى لائحة مواد اختيارية واسعة بشكل غير معتاد — على صفحة منهجها، التي تربط بـ Middle School Curriculum Guide لعام 2024-25.",
+      "of": "84a9097e",
       "at": [
         "carmel-christian:divisions[1].teaser"
       ]
@@ -20373,8 +20344,8 @@
       ]
     },
     {
-      "t": "Algebra I في المرحلة الثانوية يُدرَس لنيل ساعة honors في المرحلة المتوسطة.",
-      "of": "003b87af",
+      "t": "مقرّر Algebra I بمستوى honors.",
+      "of": "a89fc10b",
       "at": [
         "carmel-christian:divisions[1].departments[2].courses[5].description"
       ]
@@ -20597,8 +20568,8 @@
       ]
     },
     {
-      "t": "فرقة التسبيح للمصلّى القائمة على تجربة أداء.",
-      "of": "54a220a1",
+      "t": "فرقة التسبيح في المرحلة المتوسطة.",
+      "of": "c0bfd0cb",
       "at": [
         "carmel-christian:divisions[1].departments[7].courses[5].description"
       ]
@@ -20653,8 +20624,8 @@
       ]
     },
     {
-      "t": "مادّة اختيارية متقدّمة في المسرح.",
-      "of": "cf630518",
+      "t": "مادّة اختيارية في المسرح.",
+      "of": "a751a3a4",
       "at": [
         "carmel-christian:divisions[1].departments[7].courses[9].description"
       ]
@@ -20779,15 +20750,15 @@
       ]
     },
     {
-      "t": "خمس مواد أساسية إضافةً إلى ستّ مجالات خاصّة (Special Areas)، مشروحة لكل صفّ في Elementary Course Description Guide لعام 2026-27 — محو أميّة مُهيكَل (Orton-Gillingham) ومختبر STEM عملي منذ الروضة.",
-      "of": "300044c7",
+      "t": "خمس مواد أساسية مشروحة لكل صفّ، وستّ مجالات خاصّة (Special Areas) لكل الصفوف، من Elementary Course Description Guide لعام 2026-27. ويصف الدليل محو أميّة مُهيكَلًا (Orton-Gillingham) ومختبر STEM عمليًّا منذ الروضة.",
+      "of": "2dedd0b1",
       "at": [
         "carmel-christian:divisions[2].teaser"
       ]
     },
     {
-      "t": "يصف الدليل الابتدائي كل مادّة حسب الصفّ (مثلًا \"Math\" لكل صفّ) بدلًا من كونها مقرّرات ذات عناوين منفصلة، وهو أمر طبيعي للصفوف K–5. وتحمل الصفوف أدناه أوصاف الدليل ذاته لكل صفّ.",
-      "of": "037ca082",
+      "t": "يصف الدليل الابتدائي كل مادّة حسب الصفّ (مثلًا \"Math\" لكل صفّ) بدلًا من كونها مقرّرات ذات عناوين منفصلة، وهو أمر طبيعي للصفوف K–5. ويلخّص كلُّ سطر في الجدول أدناه نصّ الدليل لمادّة واحدة، من الروضة إلى الصف 5.",
+      "of": "a5ae5000",
       "at": [
         "carmel-christian:divisions[2].notPublished"
       ]
@@ -20834,15 +20805,15 @@
       ]
     },
     {
-      "t": "كتلة محو أميّة متعدّدة الحواسّ متجذّرة في Science of Reading، مع صوتيات Orton-Gillingham وهذه المسارات: الوعي الصوتي · الصوتيات والصرف · القراءة (Accelerated Reader من الصف 1) · القواعد (Analytical Grammar بحلول الصف 5) · الإنشاء والخطّ.",
-      "of": "6ab0057a",
+      "t": "كتلة محو أميّة متعدّدة الحواسّ متجذّرة في Science of Reading، مع صوتيات Orton-Gillingham وهذه المسارات: الوعي الصوتي · الصوتيات والصرف · فكّ الترميز · القراءة (Accelerated Reader من الصف 1) · القواعد (Analytical Grammar بحلول الصف 5) · الإنشاء والخطّ.",
+      "of": "53aeec38",
       "at": [
         "carmel-christian:divisions[2].departments[0].courses[2].description"
       ]
     },
     {
-      "t": "دراسة قائمة على الاستقصاء وعملية لخلق الله عبر علوم الحياة والفيزياء والأرض/الفضاء، تتقدّم حسب الصفّ من النبات والمادّة إلى الماء والمناخ والطاقة والبيئات والأنظمة الحيّة.",
-      "of": "b804c69b",
+      "t": "دراسة قائمة على الاستقصاء وعملية لخلق الله عبر علوم الحياة والفيزياء والأرض/الفضاء، تتقدّم حسب الصفّ عبر الماء والمناخ، والحركة والمادّة، والطاقة والبيئات، والأنظمة الحيّة.",
+      "of": "e39770db",
       "at": [
         "carmel-christian:divisions[2].departments[0].courses[3].description"
       ]
@@ -21072,8 +21043,8 @@
       ]
     },
     {
-      "t": "مدخل عام إلى تأليف الكتاب المقدَّس وبنيته وخطه السردي، يُوصى به للطلاب الجدد على التعليم المسيحي.",
-      "of": "e78b749a",
+      "t": "مدخل عام إلى تأليف الكتاب المقدَّس وبنيته وخطه السردي، يُوصى به للطلاب الجدد على التعليم المسيحي أو على HGCS، ويكون التسجيل فيه بتوصية من الإدارة.",
+      "of": "3433b00d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[0].courses[10].description"
       ]
@@ -21191,8 +21162,8 @@
       ]
     },
     {
-      "t": "تحليل بلاغي في أجناس غير روائية في معظمها، بوتيرة فصل دراسي من الإنجليزية الجامعية.",
-      "of": "ddde440b",
+      "t": "تحليل بلاغي في أجناس غير روائية في معظمها، يعادل فصلًا دراسيًّا من الإنجليزية الجامعية.",
+      "of": "4dc5a8db",
       "at": [
         "hickory-grove-christian:divisions[0].departments[1].courses[8].description"
       ]
@@ -21247,8 +21218,8 @@
       ]
     },
     {
-      "t": "طرائق حل المسائل في التطبيقات — أنظمة المعادلات وكثيرات الحدود والجذور والمعادلات التربيعية والمتتاليات والاحتمال.",
-      "of": "7f9ea31a",
+      "t": "طرائق حل المسائل في التطبيقات — المعادلات الكسرية والمستقيمات والميل وأنظمة المعادلات وكثيرات الحدود والجذور والمعادلات التربيعية والمتتاليات والمتسلسلات والاحتمال.",
+      "of": "97ddabea",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[3].description"
       ]
@@ -21317,15 +21288,15 @@
       ]
     },
     {
-      "t": "المسار الأسرع، وصولًا إلى المتسلسلات ومتسلسلات القوى وكثيرات حدود تايلور وحساب التفاضل البارامتري والمتجهي والقطبي؛ يُقدَّم في الفصل الثاني فقط.",
-      "of": "e69112f9",
+      "t": "المتسلسلات ومتسلسلات القوى وكثيرات حدود تايلور وحساب التفاضل البارامتري والمتجهي والقطبي بوصفها موضوعات جديدة، مع مراجعة النهايات والاشتقاق والتكامل؛ يُقدَّم في الفصل الثاني فقط.",
+      "of": "f4cb98b0",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[9].description"
       ]
     },
     {
-      "t": "جمع البيانات وتحليلها واستخلاص النتائج منها — الاستكشاف والاحتمال والاستدلال والانحدار.",
-      "of": "05e09daa",
+      "t": "جمع البيانات وتحليلها واستخلاص النتائج منها — الاستكشاف، والاحتمال والمتغيّرات العشوائية، والاستدلال، والتوزيعات ذات الحدّين والهندسية، والتقديرات، وإجراءات مربّع كاي، والانحدار.",
+      "of": "004fbf8d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[10].description"
       ]
@@ -21366,8 +21337,8 @@
       ]
     },
     {
-      "t": "الكيمياء العضوية وطاقة الخلية والتمثيل الضوئي والحمض النووي — المتطلَّب السابق الذي يؤهِّل الطالب لـ AP Biology.",
-      "of": "88fa3f54",
+      "t": "موضوعات بيولوجية كبرى منها الكيمياء العضوية وطاقة الخلية والتمثيل الضوئي وتكاثر الخلية والحمض النووي — المتطلَّب السابق الذي يؤهِّل الطالب لـ AP Biology.",
+      "of": "f46fc08f",
       "at": [
         "hickory-grove-christian:divisions[0].departments[3].courses[2].description"
       ]
@@ -21471,8 +21442,8 @@
       ]
     },
     {
-      "t": "مقرَّر مخبري يتمحور حول الطقس والمناخ — الغلاف الجوي والعواصف الشديدة وتكتونية الصفائح واستكشاف الفضاء.",
-      "of": "8bdec85a",
+      "t": "مقرَّر مخبري يتمحور حول الطقس والمناخ، ويبحث موضوعات مثل الغلاف الجوي والعواصف الشديدة وتكتونية الصفائح واستكشاف الفضاء.",
+      "of": "5ffc8447",
       "at": [
         "hickory-grove-christian:divisions[0].departments[3].courses[10].description"
       ]
@@ -21653,8 +21624,8 @@
       ]
     },
     {
-      "t": "الحكومة الوطنية الأمريكية بمستوى جامعي — المؤسسات والسلوك السياسي والسياسات العامة والحريات المدنية والحقوق المدنية. يُوصى به لطلاب السنة الأخيرة.",
-      "of": "3becdd77",
+      "t": "الحكومة الوطنية الأمريكية بمستوى جامعي — نشأتها والمعتقدات والسلوكيات السياسية والأحزاب وجماعات المصالح والإعلام والمؤسسات والسياسات العامة والحريات المدنية والحقوق المدنية · يُوصى به لطلاب السنة الأخيرة فقط.",
+      "of": "fafbcbac",
       "at": [
         "hickory-grove-christian:divisions[0].departments[4].courses[9].description"
       ]
@@ -21905,8 +21876,8 @@
       ]
     },
     {
-      "t": "ذخيرة فرقة الحفلات مع نظرية موسيقية وتاريخ موسيقي رسميين، واختبارات أداء لـ NCBA All-District وAll-State وSolo & Ensemble Festival.",
-      "of": "c6f08e40",
+      "t": "ذخيرة فرقة الحفلات مع نظرية موسيقية وتاريخ موسيقي رسميين، واختبارات أداء لـ NCBA All-District وAll-State وSolo & Ensemble Festival · يكون الالتحاق عبر فرقة المرحلة المتوسطة أو اختبار أداء.",
+      "of": "d2e474c6",
       "at": [
         "hickory-grove-christian:divisions[0].departments[7].courses[2].description"
       ]
@@ -22052,8 +22023,8 @@
       ]
     },
     {
-      "t": "رئيس تحرير النشرة الأسبوعية أو منتجها، إضافةً إلى إنتاج البودكاست والتحقيقات الوثائقية والحملات الترويجية.",
-      "of": "73ee379e",
+      "t": "فرصة للعمل رئيسًا لتحرير النشرة الأسبوعية أو منتجًا لها، إضافةً إلى إنتاج البودكاست والتحقيقات الوثائقية والحملات الترويجية.",
+      "of": "c458fb23",
       "at": [
         "hickory-grove-christian:divisions[0].departments[8].courses[5].description"
       ]
@@ -22158,8 +22129,8 @@
       ]
     },
     {
-      "t": "رفع الأثقال خلال موسم الرياضة المخصَّصة للطالب، لاكتساب القوة والحجم والسرعة.",
-      "of": "3f1573f0",
+      "t": "رفع الأثقال خلال موسم الرياضة المخصَّصة للطالب، لاكتساب القوة والحجم والسرعة · يمكن تكراره، لكن رصيدًا واحدًا فقط يُحتسَب للتخرّج.",
+      "of": "a13189f9",
       "at": [
         "hickory-grove-christian:divisions[0].departments[10].courses[3].description"
       ]
@@ -22200,8 +22171,8 @@
       ]
     },
     {
-      "t": "المقرَّر الأول في AP Capstone — بحث عابر للمناهج، وتوليف من مصادر متعددة، وحجاج كتابي وشفهي.",
-      "of": "a5409f77",
+      "t": "المقرَّر الأول في AP Capstone، ويُلتحَق به بطلب — بحث عابر للمناهج، وتوليف من مصادر متعددة، وحجاج كتابي وشفهي.",
+      "of": "6e795975",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[0].description"
       ]
@@ -22214,8 +22185,8 @@
       ]
     },
     {
-      "t": "المقرَّر الثاني في AP Capstone — بحث يمتد سنة كاملة ويتوَّج بورقة من 4,000–5,000 كلمة ومناقشة شفهية.",
-      "of": "95aadd81",
+      "t": "المقرَّر الثاني في AP Capstone، ويُلتحَق به بطلب بعد AP Seminar — بحث يمتد سنة كاملة ويتوَّج بورقة من 4,000–5,000 كلمة ومناقشة شفهية.",
+      "of": "5e68b615",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[1].description"
       ]
@@ -22228,8 +22199,8 @@
       ]
     },
     {
-      "t": "مسح للمبادئ الكبرى — النمو الإنساني والتعلُّم والذاكرة والشخصية والتوتر، والسلوك غير السوي وعلاجه.",
-      "of": "1608abf8",
+      "t": "مسح للمبادئ الكبرى في علم النفس، منها النمو الإنساني والتعلُّم والذاكرة والشخصية والتوتر، والسلوك غير السوي وعلاجه.",
+      "of": "81786a4d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[3].description"
       ]
@@ -22305,8 +22276,8 @@
       ]
     },
     {
-      "t": "التفكير النقدي والتنظيم وإدارة الوقت واستكشاف المسارات المهنية — موجَّه للطلاب المنتقلين إلى المرحلة الثانوية.",
-      "of": "eb500ce1",
+      "t": "التفكير النقدي والتنظيم وإدارة الوقت والتواصل واستكشاف المسارات المهنية — مثالي للطلاب المنتقلين إلى المرحلة الثانوية أو الراغبين في تعزيز مسيرتهم فيها.",
+      "of": "b428fa2a",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[9].description"
       ]
@@ -22333,8 +22304,8 @@
       ]
     },
     {
-      "t": "لطلاب السنة الأخيرة الحاصلين على معدَّل 3.0 وخطاب من جهة العمل ممن يغادرون المدرسة مبكرًا للعمل؛ وغير متاح خلال موسم رياضتهم.",
-      "of": "4b951c2c",
+      "t": "لطلاب السنة الأخيرة الحاصلين على معدَّل GPA 3.0 وخطاب من جهة العمل ممن يغادرون المدرسة مبكرًا للعمل · غير متاح خلال موسم أي رياضة يمارسها الطالب ولها تدريبات بعد اليوم الدراسي.",
+      "of": "32e6c09a",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[11].description"
       ]
@@ -22480,8 +22451,8 @@
       ]
     },
     {
-      "t": "Reveal Math Course 1: قسمة الكسور والأعداد العشرية، والأعداد السالبة، والنسب والمعدلات، والعبارات والمعادلات، والمساحة والحجم، والاستدلال الإحصائي.",
-      "of": "de54da9f",
+      "t": "Reveal Math Course 1: قسمة الكسور والأعداد العشرية، والأعداد السالبة، والنسب والمعدلات، والعبارات والمعادلات، والمساحة ومساحة السطح والحجم، والاستدلال الإحصائي.",
+      "of": "72e3a827",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[0].description"
       ]
@@ -22494,8 +22465,8 @@
       ]
     },
     {
-      "t": "Reveal Math Course 2: العلاقات التناسبية، والأعداد النسبية، والرسوم بمقياس رسم والإنشاءات الهندسية، والاستنتاج من العيّنات.",
-      "of": "99212e70",
+      "t": "Reveal Math Course 2: العلاقات التناسبية، والأعداد النسبية، والرسوم بمقياس رسم والإنشاءات الهندسية، والمساحة ومساحة السطح والحجم، والاستنتاج من العيّنات.",
+      "of": "57becf1a",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[1].description"
       ]
@@ -22522,8 +22493,8 @@
       ]
     },
     {
-      "t": "يُقدَّم لطلاب Honors المؤهَّلين في الصف 8 — المعادلات والمتباينات وكثيرات الحدود والتحليل إلى عوامل والتمثيل البياني والجذور، مع واجبات منزلية كل ليلة.",
-      "of": "9a2c56a3",
+      "t": "يُقدَّم لطلاب Honors المؤهَّلين في الصف 8 — المعادلات والعبارات وترتيب العمليات والخواصّ والأعداد الموجبة والسالبة والمتباينات والتناسب وكثيرات الحدود والتحليل إلى عوامل والتمثيل البياني والجذور، مع واجبات منزلية كل ليلة.",
+      "of": "95bec834",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[3].description"
       ]
@@ -22886,8 +22857,8 @@
       ]
     },
     {
-      "t": "خمسة مسارات مادّية بحسب الصف، إضافةً إلى حصص LEAD المطلوبة والمواد الفنية الاختيارية. (أما Early/Lower School، من PS إلى 4، فلا تنشر أي حصص مسمّاة ولا قائمة موادّ إطلاقًا.)",
-      "of": "9992b6dd",
+      "t": "خمسة مسارات مادّية بحسب الصف، إضافةً إلى حصص LEAD المطلوبة والمواد الفنية الاختيارية. (أما Early/Lower School، من PS إلى 4، فلا تنشر أي حصص مسمّاة ولا قائمة موادّ لكل صف.)",
+      "of": "8cc0bd50",
       "at": [
         "gaston-day:divisions[0].teaser"
       ]
@@ -22956,8 +22927,8 @@
       ]
     },
     {
-      "t": "تسلسل حصص مطلوب يحمل تعليم المواطنة الرقمية والمهارات الحياتية إلى جانب الإرشاد.",
-      "of": "b69b590d",
+      "t": "حصص مطلوبة تعلّم المواطنة الرقمية، إلى جانب الإرشاد.",
+      "of": "9a283e10",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[0].description"
       ]
@@ -22970,15 +22941,15 @@
       ]
     },
     {
-      "t": "يواصل تسلسل الدراما الذي يبدأ في الصف الثاني في Lower School.",
-      "of": "ad25f1c8",
+      "t": "يواصل حصص الدراما التي تبدأ منذ الصف الثاني في Lower School.",
+      "of": "45a2d4d4",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[2].description"
       ]
     },
     {
-      "t": "جوقة Middle School، التي تؤدّي إلى جانب الفرقة الآلية.",
-      "of": "add8a04e",
+      "t": "جوقة Middle School، وهي إحدى أربع مواد اختيارية في الفنون الجميلة يختار بينها طلاب Middle School.",
+      "of": "f22d5135",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[3].description"
       ]
@@ -23085,8 +23056,8 @@
       ]
     },
     {
-      "t": "خيار رياضيات لسنة رابعة للطلاب غير المواصلين إلى حساب التفاضل والتكامل.",
-      "of": "2f3648c2",
+      "t": "إحدى حصص الرياضيات في Upper School ضمن جدول منهج المدرسة.",
+      "of": "09b4ecf8",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[4].description"
       ]
@@ -23113,8 +23084,8 @@
       ]
     },
     {
-      "t": "حساب تفاضل وتكامل جامعي للفصل الأول؛ وعلى كل طلاب AP أداء الامتحان.",
-      "of": "e3870c8f",
+      "t": "حصّة AP في حساب التفاضل والتكامل؛ وعلى كل طلاب AP أداء الامتحان.",
+      "of": "a7491208",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[7].description"
       ]
@@ -23127,8 +23098,8 @@
       ]
     },
     {
-      "t": "يمدّد AB عبر المتسلسلات وتقنيات تكامل إضافية.",
-      "of": "3a3064cb",
+      "t": "إحدى حصّتَي AP في حساب التفاضل والتكامل، إلى جانب Calculus AB.",
+      "of": "238e55c2",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[8].description"
       ]
@@ -23159,8 +23130,8 @@
       ]
     },
     {
-      "t": "فيزياء بمستوى Honors، وهي المستوى المطلوب سابقًا لـ AP Physics II.",
-      "of": "d5eeb4f3",
+      "t": "فيزياء بمستوى Honors؛ وتُقدَّم Physics II بمستوى AP.",
+      "of": "05eabaaf",
       "at": [
         "gaston-day:divisions[1].departments[2].courses[3].description"
       ]
@@ -23173,8 +23144,8 @@
       ]
     },
     {
-      "t": "عرض AP في الفيزياء، بما يعني تسلسل فيزياء من سنتين.",
-      "of": "864db0ae",
+      "t": "حصّة AP الوحيدة في الفيزياء ضمن منهج Upper School.",
+      "of": "a98f03d2",
       "at": [
         "gaston-day:divisions[1].departments[2].courses[4].description"
       ]
@@ -23195,8 +23166,8 @@
       ]
     },
     {
-      "t": "إكمالها حتى Level III مطلوب للتخرّج؛ ويجوز الوفاء بالمتطلّب بالفرنسية أيضًا.",
-      "of": "713afca6",
+      "t": "إكمال المستويات حتى Level III، بالإسبانية أو الفرنسية، مطلوب للتخرّج، باستثناء الطلاب الدوليين الذين تكون الإنجليزية لغتهم الثانية.",
+      "of": "37ea1ab6",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[0].description"
       ]
@@ -23209,15 +23180,15 @@
       ]
     },
     {
-      "t": "حصّة الإسبانية الختامية، بعد متطلّب التخرّج.",
-      "of": "74478fea",
+      "t": "الحصّة الأخيرة في تسلسل الإسبانية، بعد متطلّب التخرّج.",
+      "of": "d8cbd093",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[1].description"
       ]
     },
     {
-      "t": "إحدى أربع حصص في الفنون الجميلة تُحتسَب ضمن متطلّب السنتين.",
-      "of": "b2a9983b",
+      "t": "إحدى حصص الفنون الجميلة التي تُحتسَب ضمن متطلّب السنتين.",
+      "of": "25ec31ec",
       "at": [
         "gaston-day:divisions[1].departments[5].courses[0].description"
       ]
@@ -23258,8 +23229,8 @@
       ]
     },
     {
-      "t": "حصّة الفنون البصرية الختامية — ولا وجود لـ AP Studio Art.",
-      "of": "5cffc833",
+      "t": "الحصّة الأخيرة في تسلسل الفنون البصرية؛ ولا يدرج جدول منهج المدرسة AP Studio Art.",
+      "of": "6d7e3320",
       "at": [
         "gaston-day:divisions[1].departments[5].courses[4].description"
       ]
@@ -23308,8 +23279,8 @@
       ]
     },
     {
-      "t": "تُغذّي فريق VEX Robotics الذي بلغ TSA VEX Nationals في 2023.",
-      "of": "97424e67",
+      "t": "روبوتات بمستوى Honors؛ وتدير المدرسة أيضًا VEX Robotics Club، الذي تأهّل إلى VEX Nationals التابعة لـ Technology Student Association في 2023.",
+      "of": "4811d17d",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[2].description"
       ]
@@ -23336,8 +23307,8 @@
       ]
     },
     {
-      "t": "تُغذّي Blutopia، مجلّة الطلاب الأدبية والفنية.",
-      "of": "5e090e4c",
+      "t": "مادة اختيارية في الكتابة الإبداعية تُقدَّم بمستوى Honors.",
+      "of": "e2c7127d",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[4].description"
       ]
@@ -23351,8 +23322,8 @@
       ]
     },
     {
-      "t": "تدعم Public Debate Club وMock Trial.",
-      "of": "f82c4f41",
+      "t": "مادة اختيارية عامة في الخطابة والمناظرة.",
+      "of": "b19dc6f0",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[5].description"
       ]
@@ -23463,8 +23434,8 @@
       ]
     },
     {
-      "t": "مناهج مذكورة بالاسم بدلًا من حصص مذكورة بالاسم — Math in Focus 2020 (Singapore) وAmplify Science وStorypaths — إضافة إلى ستة أنشطة إثراء أسبوعية وبرنامج Spanish للصفوف K–5.",
-      "of": "0b6e3ce5",
+      "t": "مناهج مذكورة بالاسم بدلًا من حصص مذكورة بالاسم — Math in Focus 2020 (Singapore) وAmplify Science وStorypaths — إضافة إلى ستة أنشطة إثراء أسبوعية، منها برنامج Spanish للصفوف K–5.",
+      "of": "7379846b",
       "at": [
         "trinity-episcopal:divisions[0].teaser"
       ]
@@ -23555,8 +23526,8 @@
       ]
     },
     {
-      "t": "المرفق الأكاديمي الوحيد المذكور بالاسم في المدرسة، وهو نشاط إثراء أسبوعي في Lower School. وهو مساحة STEM لا مساحة فنون.",
-      "of": "0099fe3b",
+      "t": "نشاط إثراء أسبوعي في STEM في Lower School.",
+      "of": "684190a7",
       "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[1].description"
       ]
@@ -23591,8 +23562,8 @@
       ]
     },
     {
-      "t": "دروس في الكتاب المقدّس ودراسة ديانات العالم، تُدرَّس من K–8 وتُقام أسبوعيًّا في Lower School.",
-      "of": "8b34bf6d",
+      "t": "دروس في الكتاب المقدّس ودراسة ديانات العالم وغير ذلك، تُدرَّس من K–8 وتُقام أسبوعيًّا في Lower School.",
+      "of": "297ef5d2",
       "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[5].description"
       ]
@@ -23612,15 +23583,15 @@
       ]
     },
     {
-      "t": "ملفّ Profile فقط",
-      "of": "093ec54a",
+      "t": "K–8",
+      "of": "5892cb59",
       "at": [
         "trinity-episcopal:divisions[0].departments[2].courses[0].tag"
       ]
     },
     {
-      "t": "بتيسير من Digital Learning Catalysts، مع جهاز iPad لكل طالب في الصفّين K-1 وChromebook لكل طالب في الصفوف Gr. 2-8. منشور في School Profile فقط — ولا يظهر في أي صفحة ضمن /academics/.",
-      "of": "6f111dc0",
+      "t": "يذكر School Profile أن البرنامج يُدار بتيسير من Digital Learning Catalysts، مع أجهزة iPad بنظام 1:1 لكل الطلاب في K-1، وأجهزة Chromebook بنظام 1:1 لكل الطلاب في الصفوف 2-8.",
+      "of": "eafedffc",
       "at": [
         "trinity-episcopal:divisions[0].departments[2].courses[0].description"
       ]
@@ -23661,8 +23632,8 @@
       ]
     },
     {
-      "t": "حصّة الصف السادس. والتدريس في القسم كلّه \"grounded in a problem-based core curriculum rooted in content and practice standards.\"",
-      "of": "005b7901",
+      "t": "حصّة الصف 6، في قسم تصف المدرسة تدريسه بأنه \"grounded in a problem-based core curriculum rooted in content and practice standards.\"",
+      "of": "98d2c64d",
       "at": [
         "trinity-episcopal:divisions[1].departments[0].courses[0].description"
       ]
@@ -23675,8 +23646,8 @@
       ]
     },
     {
-      "t": "حصّة الصف السابع المتسارعة. ويُوضَع الطلاب في الحصص الاعتيادية والمتسارعة \"based on specific performance criteria\" — والمعايير نفسها غير منشورة.",
-      "of": "e789d153",
+      "t": "حصّة الصف 7 المتسارعة، ويُوضَع الطلاب في الحصص الاعتيادية والمتسارعة \"based on specific performance criteria\" لا تنشرها المدرسة.",
+      "of": "d6226f59",
       "at": [
         "trinity-episcopal:divisions[1].departments[0].courses[2].description"
       ]
@@ -23698,16 +23669,10 @@
       ]
     },
     {
-      "t": "إحدى خمس حصص رياضيات متمايزة للصف الثامن. ولا تذكر المدرسة أي ترتيب لاحتساب ساعات معتمدة لها.",
-      "of": "a4e5383f",
+      "t": "إحدى خمس حصص رياضيات متمايزة للصف 8، ولا تذكر المدرسة أي ترتيب لاحتساب ساعات معتمدة لها.",
+      "of": "a1e663f7",
       "at": [
-        "trinity-episcopal:divisions[1].departments[0].courses[5].description"
-      ]
-    },
-    {
-      "t": "أبعد حصص الرياضيات الخمس للصف الثامن. ولا تذكر المدرسة أي ترتيب لاحتساب ساعات معتمدة لها.",
-      "of": "d95bc060",
-      "at": [
+        "trinity-episcopal:divisions[1].departments[0].courses[5].description",
         "trinity-episcopal:divisions[1].departments[0].courses[7].description"
       ]
     },
@@ -23790,8 +23755,8 @@
       ]
     },
     {
-      "t": "برنامج علوم متكامل عبر الصفوف 6-8. ولا تُنشر أسماء حصص لكل صف.",
-      "of": "52f1e9bc",
+      "t": "برنامج علوم متكامل عبر الصفوف 6-8، دون نشر أسماء حصص لكل صف.",
+      "of": "afc548ca",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[1].description"
       ]
@@ -23810,6 +23775,7 @@
         "trinity-episcopal:divisions[1].departments[4].courses[0].description",
         "trinity-episcopal:divisions[1].departments[4].courses[1].description",
         "trinity-episcopal:divisions[1].departments[4].courses[2].description",
+        "trinity-episcopal:divisions[1].departments[4].courses[3].description",
         "trinity-episcopal:divisions[1].departments[4].courses[4].description",
         "trinity-episcopal:divisions[1].departments[4].courses[5].description",
         "trinity-episcopal:divisions[1].departments[4].courses[6].description",
@@ -23831,13 +23797,6 @@
       "of": "82574932",
       "at": [
         "trinity-episcopal:divisions[1].departments[4].courses[3].title"
-      ]
-    },
-    {
-      "t": "نشاط إثراء أسبوعي. وقد أُعلِن عن إضافة حصّة تقنية للصف السادس، \"as digital learning catalysts teach students how to use AI to create code and build, not just how to input questions.\"",
-      "of": "f2331b71",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[3].description"
       ]
     },
     {
@@ -23876,8 +23835,8 @@
       ]
     },
     {
-      "t": "مذكورة في قائمة الإثراء ضمن School Profile. ومحتوياتها غير منشورة في أي موضع — فالعبارة ترد في ملفّ Profile ولا ترد في أي صفحة من صفحات الموقع.",
-      "of": "315f7a14",
+      "t": "يذكرها School Profile في قائمة الإثراء لكنه لا يصف ما تغطّيه.",
+      "of": "a8c6e6ee",
       "at": [
         "trinity-episcopal:divisions[1].departments[4].courses[9].description"
       ]
@@ -23904,8 +23863,8 @@
       ]
     },
     {
-      "t": "\"6th Grade students choose from one of two ensembles: choir or band.\" وتؤدّي الفرق في القدّاسات وحفل التخرّج وأماكن خارج المدرسة.",
-      "of": "41e16e7d",
+      "t": "تؤدّي الفرق في القدّاسات وحفل التخرّج وأماكن خارج المدرسة، و\"6th Grade students choose from one of two ensembles: choir or band.\"",
+      "of": "9f987f9e",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[0].description"
       ]
@@ -23981,8 +23940,8 @@
       ]
     },
     {
-      "t": "يدرّس Early School بطريقة Montessori في فصول مختلطة الأعمار بدلًا من مقرّرات منفصلة. والصفوف أدناه هي المراحل والمحطّات والمواد التخصّصية التي تسمّيها المدرسة، بكلماتها هي.",
-      "of": "628e38e1",
+      "t": "يدرّس Early School بطريقة Montessori في فصول مختلطة الأعمار بدلًا من مقرّرات منفصلة. والصفوف أدناه هي المراحل والمحطّات والمواد التخصّصية التي تسمّيها المدرسة، مع كلماتها هي بين علامتَي تنصيص.",
+      "of": "1cbb7949",
       "at": [
         "charlotte-prep:divisions[0].notPublished"
       ]
@@ -24194,8 +24153,8 @@
       ]
     },
     {
-      "t": "تنشر Charlotte Prep المواد والبرامج المسمّاة في Lower School، لا مقرّرات موصوفة كلًّا على حدة. والصفوف أدناه هي تلك، بكلمات المدرسة.",
-      "of": "368adc89",
+      "t": "تنشر Charlotte Prep المواد والبرامج المسمّاة في Lower School، لا مقرّرات موصوفة كلًّا على حدة. والصفوف أدناه هي تلك، مع كلمات المدرسة نفسها بين علامتَي تنصيص.",
+      "of": "99c93ee7",
       "at": [
         "charlotte-prep:divisions[1].notPublished"
       ]
@@ -24225,8 +24184,8 @@
       ]
     },
     {
-      "t": "تعليم يومي في \"decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process.\"",
-      "of": "cb91d23a",
+      "t": "تعليم يومي في مهارات القراءة والكتابة والتحدّث والاستماع، \"including decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process.\"",
+      "of": "c764611d",
       "at": [
         "charlotte-prep:divisions[1].departments[0].courses[0].description"
       ]
@@ -24260,8 +24219,8 @@
       ]
     },
     {
-      "t": "\"Grounded in a global philosophy. A balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge.\"",
-      "of": "b89ff712",
+      "t": "الرياضيات \"grounded in a global philosophy,\" حيث \"a balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge.\"",
+      "of": "815de1c9",
       "at": [
         "charlotte-prep:divisions[1].departments[0].courses[2].description"
       ]
@@ -24397,8 +24356,8 @@
       ]
     },
     {
-      "t": "لا تنشر Charlotte Prep دليل مقرّرات ولا برنامجًا دراسيًا. وهذه هي المواد والبرامج والمواد الاختيارية التي تسمّيها المدرسة نفسها، بكلماتها هي.",
-      "of": "824f5a2e",
+      "t": "لا تنشر Charlotte Prep دليل مقرّرات ولا برنامجًا دراسيًا. وهذه هي المواد والبرامج والمواد الاختيارية التي تسمّيها المدرسة نفسها، مع كلماتها هي بين علامتَي تنصيص.",
+      "of": "f4441810",
       "at": [
         "charlotte-prep:divisions[2].notPublished"
       ]

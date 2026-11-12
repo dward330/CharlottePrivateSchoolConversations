@@ -1191,3 +1191,81 @@ Effects of the commit:
 - Build and the Step 7 checks pass.
 - Real Chrome: all 199 rows match the module, "faster" finds both rows, and there is no overflow
   at 390px.
+
+**Batch 4 approved** (2026-11-12, at the Phase 2 resume: "All four English batches are approved").
+
+### Phase 2 (2026-11-12)
+
+- **Approval and branch.** The user: "All four English batches are approved. Run only Phase 2." It
+  ran in the same window on `feat/coursecensus`, and `origin/main` had not moved.
+- **Splice:** identical in all nine locales, **2,899 kept, 284 added, 290 dropped** (3,183 total).
+  The numbers were computed first from a fresh extract (`--lang xx --out` to scratch) compared by
+  stamp with the `main` snapshot, and the `--dry-run` matched. 284 distinct new texts sit at 287
+  sites.
+- **Tasks.** Each added unit was paired by `at` with its reviewed predecessor, and every unit had
+  one. No census row was `NOT-ABOUT-COURSE`, so nothing had to be translated from scratch; where a
+  census fix changed a fact, the brief said to follow the new English and treat the predecessor as
+  a terminology source only. Template groups (C1 with the kept C1 lead as reference, C2, C7, the
+  language-II clause, the choirs, the paired introductions) were listed per unit.
+- **Deviation: nine translators, not three.** One `general-purpose` subagent per locale, each in its
+  own scratch subdirectory, reading only its task file and the shared brief and writing only its
+  `out.json`. The batch was twice the size of plaincourses' 137, so three locales per agent would
+  have meant ~850 units each.
+- **Gate** (scratch `gate.mjs`):
+  - numeric-token multiset equal to the English, in Western digits;
+  - ` · ` count equal; no `*`; no bidi controls;
+  - no English month or weekday outside a quote;
+  - `t` ≠ English (except the bare `K–8` tag, kept as every locale keeps grade-band tags), and the
+    0.4–2.5 length ratio;
+  - fa/ar letter checks; no other script in a Latin locale.
+
+  **284/284 pass in all nine.**
+- **Correction to the gate during the run.** Its own-script-share rule (<40%) was meant as a
+  warning, but two translators treated it as a hard rule. The Arabic agent padded six units to pass
+  it, translating course titles the predecessors keep in English and adding Arabic glosses after
+  verbatim school quotes. Those six were put back on the predecessors' conventions by hand, and the
+  rule now prints a note for review instead of failing. Every low-share unit in every locale was
+  reviewed. They are elective lists of kept course titles, verbatim school quotes, and the College
+  Board unit names in AP Physics 1.
+- **Hand fixes after the gate:**
+  - it "classe 8" → "8ª classe" (the form the kept units use);
+  - it "aspettative più impegnative" → "più elevate";
+  - ht "juniors and seniors" → "twazyèm ak dènye ane" (the corpus form);
+  - fa "college prep" left English → «آماده‌ساز دانشگاه» (the kept rendering of
+    "college-preparatory").
+- **Integrity.** By stamp against the `main` snapshots: every kept stamp byte-identical (`text`
+  and `t`), and all 284 new stamps non-blank and not English, in every locale.
+  `check_work_integrity` reports 1 violation per locale, the string-count change 3,189 → 3,183 from
+  the splice, and no wrong-language finding. One shared unit sampled per locale (Jazzercise)
+  confirms each file holds its own language.
+- **Checks:**
+  - `npm run build` green end to end, including `check:live`, red through Phase 1.
+  - `check:runtime`, `check:fr`, `check:hi`, `check:fa`, `check:bidi`, `check:dates`,
+    `check:moneytext`, `check:currency` and `check:chrome` all pass.
+  - `check:sepdrift`: 0 drifted ×9. `check_figures.py --topic course-offerings`: intact ×9.
+  - `check:digits`: 2,556 units compared, 0 to review.
+  - `i18n:leaks`: **0 flags on the 287 changed sites** in all nine locales.
+- **Browser** (headed Chrome, `vite preview`, every card open, bidi isolates stripped):
+  - All 13 schools with a changed site, in **all nine locales**: **287/287 sites render their
+    translation** in each (2,583 checks), no `*`.
+  - RTL: every digit–digit range on the changed schools' Course Offerings cards renders in order
+    (glyph x-positions): fa 130 ranges, ar 175, 0 reversed.
+  - `audit:daterender` es/fa/hi: no finding. `audit:moneyrender`: one finding in es and fr, a fetched
+    Latest News headline on Charlotte Country Day ("…Raises $19,500…"). It is never translated, by
+    design (CLAUDE.md), and is the same finding plaincourses recorded. No Course Offerings finding.
+- **For a native reviewer:**
+  - **Predecessor figure fixes**, where a reviewed predecessor had dropped or spelled out a figure:
+    "2-person" (es, fr, fa, ar); "2D/3D" (fa, ar); "1:1" (fa); ordinal grade words → digits (fa, ar,
+    it); "juniors and seniors" written "11e et 12e année" (fr, which added digits). They now follow
+    the English figures.
+  - **Honors in Latin script** where the predecessor had transliterated it (bn অনার্স, hi ऑनर्स, te
+    ఆనర్స్; es "vías de honores"), per the Stage 6 policy.
+  - **te corrected four predecessor meanings:** "discrete math" (was "continuous"), "rounding"
+    (was "revision"), "authentic texts" (was "fundamental") and "atmosphere" (was the word for
+    "weather").
+  - **"Accounting Cycle"** is written "<translation> (Accounting Cycle)" in es, fr, it and fa, so it
+    stays searchable.
+  - **ar AP Physics 1:** each College Board unit name has an Arabic gloss with the English in
+    parentheses. The other locales keep the English names alone.
+  - **The Advanced French II / Spanish II item** follows each locale's kept Advanced Latin II
+    wording ("au niveau Advanced", "Advanced स्तर पर").

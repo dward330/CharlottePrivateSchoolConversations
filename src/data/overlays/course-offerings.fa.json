@@ -36,15 +36,15 @@
       ]
     },
     {
-      "t": "چهار حوزهٔ اصلی برنامهٔ درسی به‌علاوهٔ 11 کلاس حوزهٔ ویژه — Singapore Math و سوادآموزی ساختارمند از TK.",
-      "of": "525e1ce3",
+      "t": "چهار حوزهٔ اصلی برنامهٔ درسی به‌علاوهٔ 11 کلاس حوزهٔ ویژه — سوادآموزی ساختارمند از TK و Singapore Math از کودکستان.",
+      "of": "2ceeadc7",
       "at": [
         "providence-day:divisions[0].teaser"
       ]
     },
     {
-      "t": "مدرسهٔ Providence Day چهار حوزهٔ اصلی برنامهٔ درسی و یک فهرست از کلاس‌های حوزهٔ ویژه را برای TK تا 5 منتشر می‌کند، و نه درس‌های نام‌برده. هیچ راهنمای دورهٔ تحصیلی برای Lower School وجود ندارد.",
-      "of": "c0852b6e",
+      "t": "مدرسهٔ Providence Day چهار حوزهٔ اصلی برنامهٔ درسی و یک فهرست از کلاس‌های حوزهٔ ویژه را برای TK تا 5 منتشر می‌کند، و نه درس‌های نام‌برده. این مدرسه هیچ راهنمای دورهٔ تحصیلی برای Lower School منتشر نمی‌کند.",
+      "of": "0162c5de",
       "at": [
         "providence-day:divisions[0].notPublished"
       ]
@@ -462,8 +462,8 @@
       ]
     },
     {
-      "t": "یک کلاس حوزهٔ ویژهٔ Lower School که از یادگیری فردی‌سازی‌شده پشتیبانی می‌کند.",
-      "of": "a55655ab",
+      "t": "یک کلاس حوزهٔ ویژهٔ Lower School؛ مدرسه تنها نام آن را منتشر می‌کند.",
+      "of": "074d145f",
       "at": [
         "providence-day:divisions[0].departments[2].courses[8].description"
       ]
@@ -569,7 +569,6 @@
         "charlotte-latin:divisions[1].departments[4].courses[2].tag",
         "charlotte-latin:divisions[1].departments[4].courses[5].tag",
         "charlotte-latin:divisions[1].departments[5].courses[0].tag",
-        "charlotte-latin:divisions[1].departments[5].courses[1].tag",
         "charlotte-christian:divisions[1].departments[0].courses[1].tag",
         "charlotte-christian:divisions[1].departments[1].courses[1].tag",
         "charlotte-christian:divisions[1].departments[2].courses[1].tag",
@@ -725,6 +724,7 @@
         "charlotte-christian:divisions[1].departments[4].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[6].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[7].tag",
+        "charlotte-country-day:divisions[1].departments[0].courses[8].tag",
         "charlotte-country-day:divisions[1].departments[1].courses[4].tag",
         "charlotte-country-day:divisions[1].departments[1].courses[5].tag",
         "charlotte-country-day:divisions[1].departments[2].courses[3].tag",
@@ -850,14 +850,14 @@
         "providence-day:divisions[2].departments[9].courses[4].tag",
         "providence-day:divisions[2].departments[9].courses[5].tag",
         "providence-day:divisions[2].departments[9].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[5].tag",
         "charlotte-latin:divisions[2].departments[0].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[7].tag",
         "charlotte-latin:divisions[2].departments[0].courses[8].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[9].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[10].tag",
         "charlotte-latin:divisions[2].departments[0].courses[11].tag",
+        "charlotte-latin:divisions[2].departments[1].courses[8].tag",
+        "charlotte-latin:divisions[2].departments[1].courses[9].tag",
         "charlotte-latin:divisions[2].departments[2].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[1].tag",
         "charlotte-christian:divisions[2].departments[1].courses[10].tag",
         "charlotte-christian:divisions[2].departments[1].courses[11].tag",
         "charlotte-christian:divisions[2].departments[1].courses[12].tag",
@@ -906,8 +906,7 @@
         "charlotte-country-day:divisions[2].departments[5].courses[20].tag",
         "charlotte-country-day:divisions[2].departments[6].courses[0].tag",
         "charlotte-country-day:divisions[2].departments[7].courses[2].tag",
-        "charlotte-country-day:divisions[2].departments[8].courses[0].tag",
-        "davidson-day:divisions[2].departments[7].courses[1].tag"
+        "charlotte-country-day:divisions[2].departments[8].courses[0].tag"
       ]
     },
     {
@@ -1449,6 +1448,7 @@
         "providence-day:divisions[1].departments[5].courses[5].tag",
         "providence-day:divisions[1].departments[5].courses[6].tag",
         "providence-day:divisions[1].departments[6].courses[11].tag",
+        "charlotte-latin:divisions[1].departments[5].courses[1].tag",
         "covenant-day:divisions[1].departments[3].courses[0].tag",
         "covenant-day:divisions[1].departments[3].courses[1].tag",
         "covenant-day:divisions[1].departments[3].courses[2].tag",
@@ -1589,8 +1589,8 @@
       ]
     },
     {
-      "t": "درس Latin II در Upper School، باز از پایهٔ 8.",
-      "of": "4f87cf22",
+      "t": "درس Latin II در Upper School، باز از پایهٔ 8 پس از گذراندن Latin 1 با نمرهٔ «B-» (80) یا بالاتر.",
+      "of": "80467a8a",
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].description"
       ]
@@ -1645,8 +1645,8 @@
       ]
     },
     {
-      "t": "یک توالی سه‌سطحی آلمانی در Middle School.",
-      "of": "5fdebd53",
+      "t": "یک توالی سه‌سطحی آلمانی در Middle School؛ سطح 2 به بالا نیازمند تأیید پیش‌نیاز است.",
+      "of": "a21c64fa",
       "at": [
         "providence-day:divisions[1].departments[5].courses[6].description"
       ]
@@ -1699,8 +1699,6 @@
         "charlotte-latin:divisions[2].departments[5].courses[0].tag",
         "charlotte-latin:divisions[2].departments[5].courses[3].tag",
         "charlotte-latin:divisions[2].departments[5].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[1].tag",
         "charlotte-latin:divisions[2].departments[7].courses[6].tag",
         "charlotte-latin:divisions[2].departments[8].courses[6].tag",
         "charlotte-latin:divisions[2].departments[8].courses[7].tag",
@@ -1749,7 +1747,8 @@
         "davidson-day:divisions[2].departments[5].courses[3].tag",
         "davidson-day:divisions[2].departments[5].courses[9].tag",
         "davidson-day:divisions[2].departments[5].courses[10].tag",
-        "davidson-day:divisions[2].departments[7].courses[0].tag"
+        "davidson-day:divisions[2].departments[7].courses[0].tag",
+        "davidson-day:divisions[2].departments[7].courses[1].tag"
       ]
     },
     {
@@ -1879,8 +1878,8 @@
       ]
     },
     {
-      "t": "یک توالی سه‌سطحی بازیگری در Middle School.",
-      "of": "cc507a55",
+      "t": "سه درس نیم‌سالی بازیگری برای پایه‌های 7 و 8؛ Acting 3 نیازمند تجربهٔ پیشین تئاتر است.",
+      "of": "55e536d2",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].description"
       ]
@@ -2180,8 +2179,8 @@
       ]
     },
     {
-      "t": "مروری بر نمایش مدرن از Ibsen تا Ionesco که فردگرایی، همدلی و ارتباط معنادار را از راه تئاتر خوانشی کاوش می‌کند.",
-      "of": "144e4759",
+      "t": "مروری بر نمایش مدرن از Ibsen تا Ionesco که از دست رفتن فردگرایی، همدلی و ارتباط معنادار را از راه تئاتر خوانشی کاوش می‌کند.",
+      "of": "550c433c",
       "at": [
         "providence-day:divisions[2].departments[0].courses[9].description"
       ]
@@ -2194,8 +2193,8 @@
       ]
     },
     {
-      "t": "دانش‌آموزان The Merchant of Venice، Othello، The Tempest، Measure for Measure و Richard III را می‌خوانند، نمایشنامه‌ها را بلند می‌خوانند و نسخه‌های سینمایی را تحلیل می‌کنند.",
-      "of": "c81ace83",
+      "t": "دانش‌آموزان نمونه‌ای گسترده از نمایشنامه‌ها، از جمله The Merchant of Venice، Othello، The Tempest، Measure for Measure و Richard III را مطالعه می‌کنند، آن‌ها را بلند می‌خوانند و نسخه‌های سینمایی‌شان را تحلیل می‌کنند.",
+      "of": "f057375d",
       "at": [
         "providence-day:divisions[2].departments[0].courses[10].description"
       ]
@@ -2475,8 +2474,8 @@
       ]
     },
     {
-      "t": "نویسندگی توضیحی، تحلیلی و استدلالی در سطح دانشگاهی برگرفته از ژانرهای ناداستان، با تمرکز بر فن بلاغت و منطق.",
-      "of": "ec0d4f1d",
+      "t": "نویسندگی توضیحی، تحلیلی و استدلالی در سطح دانشگاهی، با خواندنی‌هایی از ژانرهای ناداستان و تمرکز بر فن بلاغت و منطق.",
+      "of": "15323bb8",
       "at": [
         "providence-day:divisions[2].departments[0].courses[14].description"
       ]
@@ -2490,8 +2489,8 @@
       ]
     },
     {
-      "t": "تحلیل ادبی را از راه Moby-Dick، Invisible Man و Mrs. Dalloway، به‌علاوهٔ Dickinson، Frost و Shakespeare پالایش می‌کند، همراه با فهرستی از خواندنی‌های بیرون از کلاس.",
-      "of": "d81816ef",
+      "t": "تحلیل ادبی را از راه رمان‌هایی که به‌طور منظم تدریس می‌شوند، مانند Moby-Dick، Invisible Man و Mrs. Dalloway، به‌علاوهٔ Dickinson، Frost و Shakespeare پالایش می‌کند، همراه با فهرستی از خواندنی‌های بیرون از کلاس.",
+      "of": "8f8725b8",
       "at": [
         "providence-day:divisions[2].departments[0].courses[15].description"
       ]
@@ -2777,8 +2776,8 @@
       ]
     },
     {
-      "t": "درک مسیحیت، یهودیت، اسلام، هندوئیسم و بودیسم را از راه خواندنی‌های دست‌اول و دست‌دوم و گفت‌وگوی فلسفی ژرف‌تر می‌کند.",
-      "of": "c740cf5c",
+      "t": "درک ادیانی مانند مسیحیت، یهودیت، اسلام، هندوئیسم و بودیسم را از راه خواندنی‌های دست‌اول و دست‌دوم و گفت‌وگوی فلسفی ژرف‌تر می‌کند.",
+      "of": "236d76c9",
       "at": [
         "providence-day:divisions[2].departments[1].courses[18].description"
       ]
@@ -2791,8 +2790,8 @@
       ]
     },
     {
-      "t": "کاوشی چندرشته‌ای در آفریقای زیرصحرا با مطالعهٔ ژرف آفریقای جنوبی، جمهوری دموکراتیک کنگو، رواندا و نیجریه.",
-      "of": "329ca2c1",
+      "t": "کاوشی چندرشته‌ای در آفریقای زیرصحرا با مطالعهٔ ژرف چند کشور، از جمله آفریقای جنوبی، جمهوری دموکراتیک کنگو، رواندا و نیجریه.",
+      "of": "2b88e022",
       "at": [
         "providence-day:divisions[2].departments[1].courses[19].description"
       ]
@@ -2805,8 +2804,8 @@
       ]
     },
     {
-      "t": "کاوشی چندرشته‌ای در آسیا با بررسی ژرف چین و دو کره.",
-      "of": "e73a1a59",
+      "t": "کاوشی چندرشته‌ای در آسیا با بررسی ژرف چند کشور، از جمله چین و دو کره.",
+      "of": "375e1ed2",
       "at": [
         "providence-day:divisions[2].departments[1].courses[20].description"
       ]
@@ -2833,8 +2832,8 @@
       ]
     },
     {
-      "t": "دانش‌آموزان سال آخر در Global Studies Diploma به همکاران و رهبرانی اثربخش در سطح جهانی بدل می‌شوند، و یک پروژهٔ پژوهشی و فرایند مصاحبهٔ پایانی را به انجام می‌رسانند.",
-      "of": "1e493a29",
+      "t": "برای دانش‌آموزان سال آخر در Global Studies Diploma الزامی است؛ هدف آن این است که دانش‌آموزان همکاران و رهبرانی اثربخش‌تر در سطح جهانی شوند، همراه با یک پروژهٔ پژوهشی و یک مصاحبهٔ پایانی.",
+      "of": "88893d67",
       "at": [
         "providence-day:divisions[2].departments[1].courses[22].description"
       ]
@@ -3845,8 +3844,8 @@
       ]
     },
     {
-      "t": "درسی ادبی در نثر و شعر با بخشی پروژه‌محور از متون تطبیقی که Vergil، Pliny، Catullus، Ovid، Vespucci و Boccaccio را در بر می‌گیرد.",
-      "of": "5975ad2d",
+      "t": "درسی ادبی در نثر و شعر با بخشی پروژه‌محور از متون تطبیقی و خواندنی‌هایی از نویسندگانی مانند Vergil، Pliny، Catullus، Ovid، Vespucci و Boccaccio.",
+      "of": "c300258c",
       "at": [
         "providence-day:divisions[2].departments[6].courses[11].description"
       ]
@@ -4309,8 +4308,6 @@
         "providence-day:divisions[2].departments[8].courses[14].tag",
         "charlotte-latin:divisions[2].departments[0].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[1].courses[8].tag",
-        "charlotte-latin:divisions[2].departments[1].courses[9].tag",
         "charlotte-latin:divisions[2].departments[2].courses[2].tag",
         "charlotte-latin:divisions[2].departments[3].courses[3].tag",
         "charlotte-latin:divisions[2].departments[3].courses[5].tag",
@@ -4497,7 +4494,7 @@
         "davidson-day:divisions[2].departments[5].courses[4].tag",
         "davidson-day:divisions[2].departments[8].courses[0].tag",
         "davidson-day:divisions[2].departments[8].courses[2].tag",
-        "davidson-day:divisions[2].departments[8].courses[7].tag",
+        "davidson-day:divisions[2].departments[8].courses[8].tag",
         "carmel-christian:divisions[0].departments[1].courses[2].tag",
         "carmel-christian:divisions[0].departments[1].courses[5].tag",
         "carmel-christian:divisions[0].departments[1].courses[8].tag",
@@ -4813,8 +4810,8 @@
       ]
     },
     {
-      "t": "مدرسهٔ Charlotte Latin حوزه‌های درسی Lower School را منتشر می‌کند و نه درس‌های نام‌برده. نشانی /academics/lower-school/curriculum یک جای‌نگهدار منتشرنشده است.",
-      "of": "fc40bbc2",
+      "t": "مدرسهٔ Charlotte Latin حوزه‌های درسی Lower School را منتشر می‌کند و نه درس‌های نام‌برده.",
+      "of": "6b2aab5b",
       "at": [
         "charlotte-latin:divisions[0].notPublished"
       ]
@@ -4972,8 +4969,8 @@
       ]
     },
     {
-      "t": "در پایهٔ 5 دانش‌آموزان سازی را برای گروه سازی یا سازهای زهی برمی‌گزینند، و گروه کر نیز در دسترس است.",
-      "of": "1ce8ef7b",
+      "t": "در پایهٔ 5 دانش‌آموزان سازی را برای گروه سازی یا سازهای زهی برمی‌گزینند، و در گروه کر نیز شرکت می‌کنند.",
+      "of": "82dd625c",
       "at": [
         "charlotte-latin:divisions[0].departments[2].courses[2].description"
       ]
@@ -4993,8 +4990,8 @@
       ]
     },
     {
-      "t": "22 درس با توصیف منتشرشده در 5 گروه آموزشی — به‌علاوهٔ Fab Lab STEAM و مسیر ورودی Speech & Debate.",
-      "of": "1e360cf6",
+      "t": "23 درس با توصیف منتشرشده در 5 گروه آموزشی — به‌علاوهٔ Fab Lab STEAM و مسیر ورودی Speech & Debate.",
+      "of": "2c9d5427",
       "at": [
         "charlotte-latin:divisions[1].teaser"
       ]
@@ -5184,8 +5181,8 @@
       ]
     },
     {
-      "t": "«آماده‌اید به گذشته سفر کنید؟» — مقدمهٔ Middle School بر زبان لاتین.",
-      "of": "378443cb",
+      "t": "آشنایی یک‌ساله با زبان لاتین و با تاریخ، اسطوره‌ها و زندگی روزمرهٔ مردمی که به آن سخن می‌گفتند؛ این درس پیش‌نیاز Latin I نیست.",
+      "of": "66c97029",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[0].description"
       ]
@@ -5201,8 +5198,8 @@
       ]
     },
     {
-      "t": "واحد Latin I در Upper School که در Middle School گذرانده می‌شود.",
-      "of": "e562dbb7",
+      "t": "درس Latin I که در Middle School تدریس می‌شود و واژگان و دستور مقدماتی لاتین و داستان‌های سادهٔ لاتین را معرفی می‌کند.",
+      "of": "7b7606af",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[1].description"
       ]
@@ -5243,8 +5240,8 @@
       ]
     },
     {
-      "t": "واحد French I در Upper School که در Middle School گذرانده می‌شود.",
-      "of": "cdf42d49",
+      "t": "درس French I که در Middle School تدریس می‌شود، با تکالیفی که سطح تسلط Novice High را هدف می‌گیرند.",
+      "of": "c4ad863f",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[4].description"
       ]
@@ -5285,8 +5282,8 @@
       ]
     },
     {
-      "t": "واحد Spanish I در Upper School که در Middle School گذرانده می‌شود.",
-      "of": "3d9e2319",
+      "t": "درس Spanish I که در Middle School تدریس می‌شود، با تکالیفی که سطح تسلط Novice High را هدف می‌گیرند.",
+      "of": "7e5a8c71",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[7].description"
       ]
@@ -5327,8 +5324,8 @@
       ]
     },
     {
-      "t": "یک درس اختیاری پایهٔ 6 با پشتوانهٔ Fab Lab مدرسه.",
-      "of": "953acb22",
+      "t": "یک درس اختیاری در پایه‌های 6، 7 و 8؛ مدرسه عنوان آن را بدون توصیف منتشر می‌کند.",
+      "of": "da11b8f7",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[1].description"
       ]
@@ -5370,24 +5367,17 @@
       ]
     },
     {
-      "t": "مسیر ورودی Middle School به برنامهٔ Speech and Debate با رتبهٔ کشوری مدرسهٔ Charlotte Latin.",
-      "of": "ede013f0",
+      "t": "مسیر ورودی Middle School به برنامهٔ Speech and Debate مدرسهٔ Charlotte Latin.",
+      "of": "747242d4",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[5].description"
       ]
     },
     {
-      "t": "129 درس در 13 گروه آموزشی — 22 موضوع AP، یونانی به‌عنوان زبان دوم، و یک Fab Lab در شبکهٔ MIT.",
-      "of": "f3b36715",
+      "t": "122 درس در 13 گروه آموزشی — 23 درس AP، یونانی به‌عنوان زبان دوم، و یک Fab Lab در شبکهٔ MIT.",
+      "of": "73c56078",
       "at": [
         "charlotte-latin:divisions[2].teaser"
-      ]
-    },
-    {
-      "t": "مدرسهٔ Charlotte Latin عنوان درس‌های Upper School را بدون توصیف هر درس منتشر می‌کند. عنوان درس‌ها از خود مدرسه است؛ هر توصیف از شیوه‌ای برگرفته شده که مدرسه آن گروه آموزشی را توصیف می‌کند.",
-      "of": "d03c7e41",
-      "at": [
-        "charlotte-latin:divisions[2].notPublished"
       ]
     },
     {
@@ -5464,8 +5454,8 @@
       ]
     },
     {
-      "t": "توالی American Literature با آهنگ و ژرفای سطح honors.",
-      "of": "eee86ff7",
+      "t": "مروری به ترتیب زمانی بر ادبیات آمریکا در سطح honors.",
+      "of": "02491529",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[3].description"
       ]
@@ -5492,8 +5482,52 @@
       ]
     },
     {
-      "t": "یک درس اختیاری نیم‌سالی در سال آخر دربارهٔ ادبیات جنگ.",
-      "of": "edd7dc9b",
+      "t": "اختیاری",
+      "of": "e81c880a",
+      "at": [
+        "charlotte-latin:divisions[2].departments[0].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[7].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[9].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[10].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[12].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[13].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[14].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[15].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[2].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[6].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[10].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[4].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[7].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[1].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[2].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[9].tag",
+        "charlotte-latin:divisions[2].departments[9].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[9].courses[1].tag",
+        "charlotte-latin:divisions[2].departments[10].courses[1].tag",
+        "cannon:divisions[2].departments[0].courses[8].tag",
+        "cannon:divisions[2].departments[0].courses[9].tag",
+        "cannon:divisions[2].departments[2].courses[14].tag",
+        "cannon:divisions[2].departments[2].courses[15].tag",
+        "cannon:divisions[2].departments[3].courses[6].tag",
+        "cannon:divisions[2].departments[3].courses[7].tag",
+        "davidson-day:divisions[2].departments[0].courses[9].tag",
+        "gaston-day:divisions[0].departments[1].courses[1].tag",
+        "gaston-day:divisions[0].departments[1].courses[2].tag",
+        "gaston-day:divisions[0].departments[1].courses[3].tag",
+        "gaston-day:divisions[0].departments[1].courses[4].tag"
+      ]
+    },
+    {
+      "t": "یک درس اختیاری انگلیسی دربارهٔ ادبیات جنگ.",
+      "of": "bc1620d7",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[5].description"
       ]
@@ -5506,8 +5540,8 @@
       ]
     },
     {
-      "t": "یک درس اختیاری نیم‌سالی در سال آخر دربارهٔ وحشت و دیگری‌بودگی در سنت ادبی غرب.",
-      "of": "3fe509a3",
+      "t": "یک درس اختیاری نیم‌سالی، بیشتر برای دانش‌آموزان سال آخر، دربارهٔ وحشت و دیگری‌بودگی در سنت ادبی غرب.",
+      "of": "69db3fc7",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[6].description"
       ]
@@ -5520,8 +5554,8 @@
       ]
     },
     {
-      "t": "یک درس اختیاری نیم‌سالی در سال آخر که آثار ادبی را با اقتباس‌های سینمایی‌شان می‌سنجد.",
-      "of": "1da78b09",
+      "t": "یک درس اختیاری انگلیسی که آثار ادبی را با اقتباس‌های سینمایی‌شان می‌سنجد.",
+      "of": "1cea7955",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[7].description"
       ]
@@ -5534,8 +5568,8 @@
       ]
     },
     {
-      "t": "یک درس اختیاری نیم‌سالی در سال آخر دربارهٔ پرداخت Shakespeare به وضعیت انسانی.",
-      "of": "e8ec1a78",
+      "t": "یک درس اختیاری نیم‌سالی، بیشتر برای دانش‌آموزان سال آخر، دربارهٔ پرداخت Shakespeare به وضعیت انسانی.",
+      "of": "169f24bc",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[8].description"
       ]
@@ -5548,8 +5582,8 @@
       ]
     },
     {
-      "t": "یک درس اختیاری نیم‌سالی در سال آخر دربارهٔ جهان‌سازی در ادبیات فانتزی.",
-      "of": "7f68f665",
+      "t": "یک درس اختیاری انگلیسی دربارهٔ جهان‌سازی در ادبیات فانتزی.",
+      "of": "92180351",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[9].description"
       ]
@@ -5562,8 +5596,8 @@
       ]
     },
     {
-      "t": "یک درس اختیاری نیم‌سالی در سال آخر دربارهٔ ادبیات کهن بریتانیا.",
-      "of": "1f97d6b9",
+      "t": "یک درس اختیاری انگلیسی دربارهٔ ادبیات کهن بریتانیا.",
+      "of": "dc262a1d",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[10].description"
       ]
@@ -5576,8 +5610,8 @@
       ]
     },
     {
-      "t": "یک درس اختیاری نیم‌سالی در سال آخر دربارهٔ ادبیات گمانه‌زن و آینده‌نگر.",
-      "of": "205195eb",
+      "t": "یک درس اختیاری نیم‌سالی، بیشتر برای دانش‌آموزان سال آخر، دربارهٔ داستان‌های ویران‌شهری.",
+      "of": "6cf03a03",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[11].description"
       ]
@@ -5696,8 +5730,8 @@
       ]
     },
     {
-      "t": "یک سمینار honors دربارهٔ تاریخ موسیقی.",
-      "of": "ac28dad6",
+      "t": "یک سمینار نیم‌سالی، با گزینهٔ honors، دربارهٔ اینکه موسیقی چگونه بر مسیر تاریخ اثر گذاشته است.",
+      "of": "97c2b7f4",
       "at": [
         "charlotte-latin:divisions[2].departments[1].courses[8].description"
       ]
@@ -5710,8 +5744,8 @@
       ]
     },
     {
-      "t": "یک درس honors دربارهٔ مهاجرت و کوچ در سطح جهانی.",
-      "of": "c4656fcf",
+      "t": "یک سمینار نیم‌سالی، با گزینهٔ honors، دربارهٔ مهاجرت و کوچ در سطح جهانی.",
+      "of": "1b44fd2d",
       "at": [
         "charlotte-latin:divisions[2].departments[1].courses[9].description"
       ]
@@ -5817,8 +5851,8 @@
       ]
     },
     {
-      "t": "هندسه با آهنگ و ژرفای سطح honors.",
-      "of": "23904aac",
+      "t": "هندسه با ژرفای سطح honors، همراه با مباحث افزوده از منطق، منطق نمادین و هندسهٔ تبدیلی.",
+      "of": "0ff6c0d9",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[3].description"
       ]
@@ -5889,8 +5923,8 @@
       ]
     },
     {
-      "t": "پیش‌حسابان با آهنگ و ژرفای سطح honors.",
-      "of": "fd0baaa0",
+      "t": "پیش‌حسابان با ژرفای سطح honors، برای دانش‌آموزانی با توانایی بسیار قوی در ریاضی.",
+      "of": "3ac2ab30",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[8].description"
       ]
@@ -6068,8 +6102,8 @@
       ]
     },
     {
-      "t": "شیمی سال دوم در سطح دانشگاهی.",
-      "of": "297df355",
+      "t": "شیمی سال دوم در سطح یک درس شیمی عمومی سال نخست دانشگاه.",
+      "of": "3b4e6b79",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[4].description"
       ]
@@ -6181,46 +6215,6 @@
       "of": "5919718d",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[11].description"
-      ]
-    },
-    {
-      "t": "اختیاری",
-      "of": "e81c880a",
-      "at": [
-        "charlotte-latin:divisions[2].departments[4].courses[12].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[13].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[14].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[15].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[2].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[10].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[4].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[1].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[2].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[9].tag",
-        "charlotte-latin:divisions[2].departments[9].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[9].courses[1].tag",
-        "charlotte-latin:divisions[2].departments[10].courses[1].tag",
-        "cannon:divisions[2].departments[0].courses[8].tag",
-        "cannon:divisions[2].departments[0].courses[9].tag",
-        "cannon:divisions[2].departments[2].courses[14].tag",
-        "cannon:divisions[2].departments[2].courses[15].tag",
-        "cannon:divisions[2].departments[3].courses[6].tag",
-        "cannon:divisions[2].departments[3].courses[7].tag",
-        "davidson-day:divisions[2].departments[0].courses[9].tag",
-        "gaston-day:divisions[0].departments[1].courses[1].tag",
-        "gaston-day:divisions[0].departments[1].courses[2].tag",
-        "gaston-day:divisions[0].departments[1].courses[3].tag",
-        "gaston-day:divisions[0].departments[1].courses[4].tag"
       ]
     },
     {
@@ -6477,8 +6471,8 @@
       ]
     },
     {
-      "t": "درس مهندسی سال دوم.",
-      "of": "3254b19c",
+      "t": "دومین درس مهندسی، با تمرکز بر الکترونیک و ریزکنترل‌گرها.",
+      "of": "70939965",
       "at": [
         "charlotte-latin:divisions[2].departments[6].courses[1].description"
       ]
@@ -6617,8 +6611,8 @@
       ]
     },
     {
-      "t": "ساختمان داده در سطح honors با Java، که با Git و GitHub تدریس می‌شود.",
-      "of": "6b52f6b5",
+      "t": "ساختمان داده در سطح honors با Java.",
+      "of": "fc61681a",
       "at": [
         "charlotte-latin:divisions[2].departments[6].courses[11].description"
       ]
@@ -6772,8 +6766,8 @@
       ]
     },
     {
-      "t": "درس مقدماتی فناوری تئاتر.",
-      "of": "6e0b5e6b",
+      "t": "یک درس مقدماتی فناوری تئاتر.",
+      "of": "b2e8aedd",
       "at": [
         "charlotte-latin:divisions[2].departments[8].courses[2].description"
       ]
@@ -6786,8 +6780,8 @@
       ]
     },
     {
-      "t": "درس سطح دوم فناوری تئاتر.",
-      "of": "23c92bf6",
+      "t": "یک درس فناوری تئاتر که مباحثی متفاوت با Stagecraft I را در بر می‌گیرد؛ لازم نیست این دو به ترتیب گذرانده شوند.",
+      "of": "f9ebfea4",
       "at": [
         "charlotte-latin:divisions[2].departments[8].courses[3].description"
       ]
@@ -6907,8 +6901,8 @@
       ]
     },
     {
-      "t": "الزام تربیت بدنی و سلامت Upper School؛ نیمی از آن از راه ورزش قابل بخشش است.",
-      "of": "e77a4177",
+      "t": "الزام تربیت بدنی و سلامت Upper School؛ نیمی از آن با بازی در یکی از تیم‌های مدرسه یا مدیریت آن، یا با رقص در یک موزیکال تأییدشده، قابل بخشش است.",
+      "of": "0637caec",
       "at": [
         "charlotte-latin:divisions[2].departments[10].courses[0].description"
       ]
@@ -6950,15 +6944,15 @@
       ]
     },
     {
-      "t": "11 رشتهٔ درسی — کتاب‌مقدس از JK تا یک پروژهٔ پایانی دفاعیه‌نویسی با عنوان Case for Christ در پایهٔ 4، به‌علاوهٔ شش کلاس غنی‌سازی.",
-      "of": "711fa658",
+      "t": "5 رشتهٔ درسی اصلی — کتاب‌مقدس از JK تا یک پروژهٔ پایانی دفاعیه‌نویسی با عنوان Case for Christ در پایهٔ 4 — به‌علاوهٔ شش کلاس غنی‌سازی.",
+      "of": "a523846e",
       "at": [
         "charlotte-christian:divisions[0].teaser"
       ]
     },
     {
-      "t": "مدرسهٔ Charlotte Christian رشته‌های درسی Lower School را همراه با جدول محتوای هر طیف پایه منتشر می‌کند و نه درس‌های نام‌برده. هیچ فهرست درسی برای Lower School وجود ندارد.",
-      "of": "aaeb7508",
+      "t": "مدرسهٔ Charlotte Christian رشته‌های درسی Lower School را همراه با جدول محتوای هر طیف پایه منتشر می‌کند و نه درس‌های نام‌برده. این مدرسه هیچ فهرست درسی برای Lower School منتشر نمی‌کند.",
+      "of": "a8ccf65c",
       "at": [
         "charlotte-christian:divisions[0].notPublished"
       ]
@@ -7181,8 +7175,8 @@
       ]
     },
     {
-      "t": "توالی‌های پایه‌به‌پایه در 6 حوزه به‌علاوهٔ سه مسیر اختیاری — پایهٔ 5 در اینجا آغاز Middle School است و نه Lower School.",
-      "of": "4e644967",
+      "t": "توالی‌های پایه‌به‌پایه در 5 حوزه به‌علاوهٔ سه مسیر اختیاری — پایهٔ 5 در اینجا آغاز Middle School است و نه Lower School.",
+      "of": "2379799c",
       "at": [
         "charlotte-christian:divisions[1].teaser"
       ]
@@ -7286,8 +7280,8 @@
       ]
     },
     {
-      "t": "سه مسیر جای‌دهی در پایهٔ هفتم، تا Algebra 1 کامل دبیرستانی.",
-      "of": "5418d548",
+      "t": "سه مسیر جای‌دهی در پایهٔ هفتم، تا Algebra 1.",
+      "of": "63c30f08",
       "at": [
         "charlotte-christian:divisions[1].departments[1].courses[2].description"
       ]
@@ -7444,8 +7438,8 @@
       ]
     },
     {
-      "t": "دانش‌آموزان یکی از فرانسه، لاتین یا اسپانیایی را برای معرفی برمی‌گزینند.",
-      "of": "a2f02fba",
+      "t": "دانش‌آموزان یکی از زبان‌های فرانسه، لاتین یا اسپانیایی را برای آغاز برمی‌گزینند.",
+      "of": "14ed8636",
       "at": [
         "charlotte-christian:divisions[1].departments[4].courses[1].description"
       ]
@@ -7524,8 +7518,8 @@
       ]
     },
     {
-      "t": "پایهٔ 5 Music و Visual Art؛ پایه‌های 7 و 8 نیز ACT 2، Creative Media، Digital Music، Exploratory Art، Guitar، MidKnight Knews، Stagecraft و Ukulele را می‌افزایند.",
-      "of": "d3f13e97",
+      "t": "پایهٔ 5: Music (Band، Choir یا Orchestra) و Visual Art · پایهٔ 6: ACT 2، Art، Band، Choir، Orchestra و Theatre · پایه‌های 7 و 8: ACT 2، Art، Band، Choir، Creative Media، Digital Music، Exploratory Art، Guitar، MidKnight Knews، Orchestra، Stagecraft و Ukulele.",
+      "of": "cbacf375",
       "at": [
         "charlotte-christian:divisions[1].departments[5].courses[0].description"
       ]
@@ -7552,8 +7546,8 @@
       ]
     },
     {
-      "t": "پایهٔ 5 Global Knights؛ پایهٔ 6 Leadership and Study Skills؛ پایه‌های 7 و 8 نیز Public Speaking، Game Changers، Kingdom Council، Multicultural Studies و Speech & Debate را می‌افزایند.",
-      "of": "8f55c91f",
+      "t": "پایهٔ 5: Global Knights، Leadership و Study Skills · پایهٔ 6: Public Speaking و Study Skills · پایه‌های 7 و 8: Game Changers، Kingdom Council، Multicultural Studies، Speech & Debate، Study Hall و The 24/7 Project.",
+      "of": "e3a26052",
       "at": [
         "charlotte-christian:divisions[1].departments[5].courses[2].description"
       ]
@@ -7745,8 +7739,8 @@
       ]
     },
     {
-      "t": "مروری بر ادبیات جهان که می‌پرسد «شهروند جهانی درگیر بودن یعنی چه؟» از راه ادبیات آمریکای لاتین، آفریقا و آسیا.",
-      "of": "8bba8958",
+      "t": "مروری بر ادبیات جهان که ادبیات آمریکای لاتین، آفریقا و آسیا را حول این پرسش می‌خواند: «شهروند جهانی درگیر بودن یعنی چه؟»",
+      "of": "8e35496a",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[4].description"
       ]
@@ -7775,8 +7769,8 @@
       ]
     },
     {
-      "t": "مروری بر ادبیات و میراث اروپا که بزرگسالی، انتخاب‌ها و پیامدها را از آثار کلاسیک یونان و روم تا اروپای مدرن بررسی می‌کند.",
-      "of": "2e1638ab",
+      "t": "مروری بر ادبیات و میراث اروپا که بزرگسالی، انتخاب‌ها و پیامدها را از آثار کلاسیک یونان و روم تا اروپای مدرن و میراث استعمار بررسی می‌کند.",
+      "of": "86da2363",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[6].description"
       ]
@@ -7855,8 +7849,8 @@
       ]
     },
     {
-      "t": "درسی کارگاهی که شعر، داستان کوتاه، طنز و هجو، جستار شخصی، خاطره‌نگاری و ناداستان خلاق را در بر می‌گیرد.",
-      "of": "476a8329",
+      "t": "درسی کارگاهی در ژانرهایی مانند شعر، داستان کوتاه، طنز و هجو، جستار شخصی، خاطره‌نگاری و ناداستان خلاق.",
+      "of": "2774f4ab",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[12].description"
       ]
@@ -7998,8 +7992,8 @@
       ]
     },
     {
-      "t": "مباحث درس جبر سال نخست دانشگاه را با مطالعهٔ ژرف توابع، مثلثات تحلیلی، بردارها و ریاضیات گسسته در بر می‌گیرد.",
-      "of": "28c3f336",
+      "t": "مباحث درس جبر سال نخست دانشگاه را در بر می‌گیرد: مطالعهٔ ژرف توابع · مثلثات تحلیلی · بردارها · معادلات پارامتری و قطبی · هندسهٔ تحلیلی · ریاضیات گسسته · دانش‌آموزان باید در ماه مه در آزمون AP شرکت کنند.",
+      "of": "84e3ac1c",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[8].description"
       ]
@@ -8182,8 +8176,8 @@
       ]
     },
     {
-      "t": "مکانیک و سیالات را با رویکردی مبتنی بر جبر در بر می‌گیرد، هم‌ارز نیم‌سال نخست فیزیک مقدماتی دانشگاهی.",
-      "of": "af070022",
+      "t": "مکانیک و سیالات را با رویکردی مبتنی بر جبر در بر می‌گیرد، هم‌ارز نیم‌سال نخست یک درس فیزیک مقدماتی دانشگاهی برای دانشجویان رشته‌های غیرعلمی.",
+      "of": "408be7a1",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[6].description"
       ]
@@ -8337,8 +8331,8 @@
       ]
     },
     {
-      "t": "از حدود 1200 به بعد را مرور می‌کند و نیروهای سیاسی، دینی، اجتماعی و ایدئولوژیک شکل‌دهندهٔ جهان مدرن را می‌کاود.",
-      "of": "fdc5b680",
+      "t": "دوره‌ای از حدود 1200 به بعد را مرور می‌کند و نیروهای سیاسی، دینی، اجتماعی و ایدئولوژیک شکل‌دهندهٔ جهان مدرن را می‌کاود.",
+      "of": "234416d0",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[2].description"
       ]
@@ -8366,7 +8360,7 @@
     },
     {
       "t": "مروری در سطح دانشگاهی بر تمدن‌ها، رویدادها، ادیان و ایدئولوژی‌های مهم از حدود 1200 تا پایان سدهٔ بیستم.",
-      "of": "7d1c9ca1",
+      "of": "c1acef4d",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[4].description"
       ]
@@ -8402,7 +8396,7 @@
     },
     {
       "t": "تحولات فرهنگی، اقتصادی، سیاسی و اجتماعی شکل‌دهندهٔ ایالات متحده را از حدود 1491 تا امروز مطالعه می‌کند.",
-      "of": "d3f5a648",
+      "of": "0d82f8d6",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[7].description"
       ]
@@ -8548,8 +8542,8 @@
       ]
     },
     {
-      "t": "توالی فرانسه با تأکید بر پنج استاندارد ملی زبان‌های جهان از منظری کتاب‌مقدسی؛ سطح III به بالا آزمون مهارت AAPPL را نیز می‌افزاید.",
-      "of": "8989603f",
+      "t": "توالی فرانسه با تأکید بر پنج استاندارد ملی زبان‌های جهان از منظری کتاب‌مقدسی؛ دانش‌آموزان French III در آزمون مهارت AAPPL شرکت می‌کنند.",
+      "of": "02d38ddb",
       "at": [
         "charlotte-christian:divisions[2].departments[5].courses[0].description"
       ]
@@ -8605,8 +8599,8 @@
       ]
     },
     {
-      "t": "Aeneid اثر Vergil و نامه‌های Pliny the Younger را می‌خواند.",
-      "of": "b7228ec7",
+      "t": "گزیده‌هایی از Aeneid اثر Vergil، نامه‌های Pliny the Younger و دیگر آثار کلاسیک، سده‌های میانه و رنسانس را می‌خواند.",
+      "of": "b0ad8251",
       "at": [
         "charlotte-christian:divisions[2].departments[5].courses[5].description"
       ]
@@ -8866,8 +8860,8 @@
       ]
     },
     {
-      "t": "یک نمونه‌کار در هنر دوبعدی، سه‌بعدی یا طراحی بر پایهٔ راهنمای College Board، که کار آن از تابستان آغاز می‌شود.",
-      "of": "0dee7738",
+      "t": "یک نمونه‌کار در هنر 2D، هنر 3D یا طراحی بر پایهٔ راهنمای College Board، که کار آن از تابستان آغاز می‌شود؛ برای دانش‌آموزان واجد شرایط سال سوم و چهارم.",
+      "of": "e07d31cf",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[3].description"
       ]
@@ -8894,8 +8888,8 @@
       ]
     },
     {
-      "t": "فرم‌های سه‌بعدی در رس، گچ، مفتول، فلز، چوب، منسوجات، مدل‌های معماری و اشیای یافته.",
-      "of": "1f643022",
+      "t": "فرم‌های سه‌بعدی در طیفی از مواد، از جمله رس، گچ، مفتول، فلز، چوب، منسوجات، مدل‌های معماری و اشیای یافته.",
+      "of": "8996e2ba",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[5].description"
       ]
@@ -9324,8 +9318,8 @@
       ]
     },
     {
-      "t": "یک هفته در نیم‌سال دوم از درس‌های غنی‌سازی نامتعارف، سفرهای مأموریتی و خدماتی، و همراهی شغلی.",
-      "of": "6e97232d",
+      "t": "یک هفته در نیم‌سال دوم از درس‌های غنی‌سازی نامتعارف، سفرهای مأموریتی و خدماتی، و همراهی شغلی (تنها برای دانش‌آموزان سال سوم و چهارم).",
+      "of": "b7c483d2",
       "at": [
         "charlotte-christian:divisions[2].departments[8].courses[7].description"
       ]
@@ -9393,8 +9387,8 @@
       ]
     },
     {
-      "t": "قوانین NFHS، مدیریت بازی و مکانیک گروه دونفره که دانش‌آموزان را برای گواهی‌نامه آماده می‌کند.",
-      "of": "4047f91a",
+      "t": "قوانین NFHS، مدیریت بازی، مدیریت تعارض و مکانیک گروه 2 نفره که دانش‌آموزان را برای گواهی‌نامه آماده می‌کند.",
+      "of": "0d427ecd",
       "at": [
         "charlotte-christian:divisions[2].departments[9].courses[2].description",
         "charlotte-christian:divisions[2].departments[9].courses[3].description"
@@ -9466,8 +9460,8 @@
       ]
     },
     {
-      "t": "این درس شامل مرور مبانی دستور زبان و قراردادهای پایهٔ مقاله‌نویسی است.",
-      "of": "78d62dd8",
+      "t": "مرور مبانی دستور زبان و قراردادهای پایهٔ مقاله‌نویسی.",
+      "of": "48138164",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[0].description"
       ]
@@ -9480,8 +9474,8 @@
       ]
     },
     {
-      "t": "این درس شامل مروری کلی و پرشتاب بر مبانی دستور زبان و قراردادهای پایهٔ مقاله‌نویسی است.",
-      "of": "f1a7bab0",
+      "t": "مروری کلی و پرشتاب بر مبانی دستور زبان و قراردادهای پایهٔ مقاله‌نویسی.",
+      "of": "99c2da8a",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[1].description"
       ]
@@ -9527,8 +9521,8 @@
       ]
     },
     {
-      "t": "ادبیات جهان از راه رمان، داستان کوتاه، نمایشنامه و شعر · مبانی دستور زبان، با تمرین در تکالیف نوشتاری · آشنایی با مقاله‌های ارزیابانه و تحلیلی با بهره‌گیری از منابع دست دوم.",
-      "of": "d2836f86",
+      "t": "ادبیات جهان از راه رمان، داستان کوتاه، نمایشنامه و شعر · مبانی دستور زبان، با تمرین در تکالیف نوشتاری · آشنایی با مقاله‌هایی که با بهره‌گیری از منابع دست دوم ارزیابی و تحلیل می‌کنند · کار بیشتر روی واژگان، درک مطلب و اصطلاحات ادبی.",
+      "of": "9f10e881",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[4].description",
         "charlotte-catholic:divisions[0].departments[0].courses[5].description"
@@ -9549,8 +9543,8 @@
       ]
     },
     {
-      "t": "این درس بسیاری از همان موضوعاتی را در بر می‌گیرد که در Advanced English 10 تدریس می‌شود، اما تمرکزی جامع‌تر بر ادبیات جهان و مطالعهٔ بیرونی افزوده دارد.",
-      "of": "19122635",
+      "t": "بسیاری از همان موضوعات Advanced English 10 را در بر می‌گیرد، با تمرکزی جامع‌تر بر ادبیات جهان و مطالعهٔ بیرونی بیشتر.",
+      "of": "b83100a8",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[6].description"
       ]
@@ -9570,8 +9564,8 @@
       ]
     },
     {
-      "t": "مهارت‌های نوشتن مانند پیش‌نویسی، سازمان‌دهی، نگارش پیش‌نویس و بازنویسی · مقاله‌های مستند با بهره‌گیری از منابع دست اول و در برخی موارد دست دوم · تمرین فشرده در تحلیل ادبی · درک مطلب.",
-      "of": "d36bd157",
+      "t": "مهارت‌های نوشتن مانند پیش‌نویسی، سازمان‌دهی، نگارش پیش‌نویس و بازنویسی · مقاله‌های مستند با بهره‌گیری از منابع دست اول و در برخی موارد دست دوم · تمرین فشرده در تحلیل ادبی · درک مطلب · ادامهٔ کار روی واژگان · مروری کلی بر دوره‌ها و ژانرهای ادبیات آمریکا، با توجه به زمینهٔ تاریخی و اجتماعی آن‌ها.",
+      "of": "44e82cb2",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[8].description"
       ]
@@ -9584,8 +9578,8 @@
       ]
     },
     {
-      "t": "مهارت‌های نوشتن مانند پیش‌نویسی، سازمان‌دهی، نگارش پیش‌نویس و بازنویسی · مقاله‌های مستند با بهره‌گیری از منابع دست اول و دست دوم · تمرین فشرده در نگارش مقاله‌های تحلیلی · درک مطلب.",
-      "of": "aa92cd5c",
+      "t": "مهارت‌های نوشتن مانند پیش‌نویسی، سازمان‌دهی، نگارش پیش‌نویس و بازنویسی · مقاله‌های مستند با بهره‌گیری از منابع دست اول و دست دوم · تمرین فشرده در نگارش مقاله‌های تحلیلی · درک مطلب · ادامهٔ کار روی واژگان · مروری کلی بر دوره‌ها و ژانرهای ادبیات آمریکا · خواندن اضافی الزامی و نگارش مکرر مقاله‌های کوتاه.",
+      "of": "fc0fa370",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[9].description"
       ]
@@ -9598,15 +9592,15 @@
       ]
     },
     {
-      "t": "این درس بیشتر مطالبی را که در Honors English 11 پوشش داده می‌شود و نیز اصول بلاغت و استدلال را در بر می‌گیرد.",
-      "of": "a5083a33",
+      "t": "بیشتر مطالب Honors English 11 را به‌علاوهٔ اصول بلاغت و استدلال در بر می‌گیرد.",
+      "of": "19c08f9c",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[10].description"
       ]
     },
     {
-      "t": "مروری بر ادبیات بریتانیا · مرور و تمرین ساختار بند و مقاله · دستور زبان با تمرین در تکالیف نوشتاری · درک مطلب، خلاصه‌نویسی و تحلیل.",
-      "of": "07a9b2a2",
+      "t": "مروری بر ادبیات بریتانیا · مرور و تمرین ساختار بند و مقاله · دستور زبان با تمرین در تکالیف نوشتاری · درک مطلب، خلاصه‌نویسی و تحلیل · نگارش مقاله‌های مستند با بهره‌گیری از منابع دست اول و در برخی موارد دست دوم · کار روی واژگان.",
+      "of": "00e131e3",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[11].description"
       ]
@@ -9619,8 +9613,8 @@
       ]
     },
     {
-      "t": "این درس شامل مطالعه‌ای ژرف از ادبیات بریتانیا از راه خوانش دقیق و گفت‌وگو است؛ نگارش پیشرفته که به چند تحلیل ادبی مستند با بهره‌گیری از منابع دست اول و در برخی موارد می‌انجامد.",
-      "of": "459deaf1",
+      "t": "مطالعه‌ای ژرف از ادبیات بریتانیا از راه خوانش دقیق و گفت‌وگو · نگارش پیشرفته که به چند تحلیل ادبی مستند با بهره‌گیری از منابع دست اول و در برخی موارد دست دوم می‌انجامد · پرورش واژگان.",
+      "of": "6a443116",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[12].description"
       ]
@@ -9633,8 +9627,8 @@
       ]
     },
     {
-      "t": "این درس همهٔ مطالب ضروری Honors English 12 را به‌علاوهٔ چند متن پیچیده‌تر در بر می‌گیرد.",
-      "of": "49e16eeb",
+      "t": "همهٔ مطالب ضروری Honors English 12، به‌علاوهٔ چند متن پیچیده‌تر.",
+      "of": "f09dd11b",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[13].description"
       ]
@@ -9647,8 +9641,8 @@
       ]
     },
     {
-      "t": "این درس بیشتر مطالبی را که در Honors English 12 پوشش داده می‌شود و نیز اصول بلاغت و استدلال را در بر می‌گیرد.",
-      "of": "0bc63a29",
+      "t": "بیشتر مطالب Honors English 12 را به‌علاوهٔ اصول بلاغت و استدلال در بر می‌گیرد.",
+      "of": "4db6d283",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[14].description"
       ]
@@ -9661,8 +9655,8 @@
       ]
     },
     {
-      "t": "این کلاس برای فراهم کردن تجربهٔ عملی در فنون مصاحبه و نگارش (خبر، گزارش، سرمقاله، پوشش ورزشی و نقد رویدادهای فرهنگی)، عکاسی و صفحه‌آرایی طراحی شده است.",
-      "of": "24ad2dab",
+      "t": "تجربهٔ عملی در فنون مصاحبه و نگارش (خبر، گزارش، سرمقاله، پوشش ورزشی و نقد رویدادهای فرهنگی)، عکاسی و صفحه‌آرایی.",
+      "of": "71045252",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[15].description"
       ]
@@ -9717,8 +9711,8 @@
       ]
     },
     {
-      "t": "این درس ویژهٔ دانش‌آموزان Academic Achievement در پایه‌های 10، 11 و 12 با معدل 2.9 یا پایین‌تر طراحی شده است.",
-      "of": "a09da7c3",
+      "t": "ویژهٔ دانش‌آموزان Academic Achievement در پایه‌های 10، 11 و 12 با معدل 2.9 یا پایین‌تر.",
+      "of": "13d7a6f9",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[1].description"
       ]
@@ -9731,8 +9725,8 @@
       ]
     },
     {
-      "t": "دستیاران وظایفی برای دفتر، مشاوران، امور فارغ‌التحصیلان و campus ministry انجام می‌دهند و بر پایهٔ اشتیاق به یادگیری، ابتکار عمل، انجام وظایف محول‌شده و مهارت در حوزهٔ محول‌شده ارزیابی می‌شوند.",
-      "of": "5fad789b",
+      "t": "دستیاران وظایفی برای دفتر، مشاوران، امور فارغ‌التحصیلان و campus ministry انجام می‌دهند · ارزیابی بر پایهٔ اشتیاق به یادگیری، ابتکار عمل، انجام وظایف محول‌شده و مهارت در حوزهٔ محول‌شده است · این درس را تنها یک بار می‌توان گذراند.",
+      "of": "16528847",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[2].description"
       ]
@@ -9746,8 +9740,8 @@
       ]
     },
     {
-      "t": "دانش‌آموزان وقت خود را در محیطی تحت نظارت به کار مستقل روی واحدهای درسی خود می‌گذرانند.",
-      "of": "126b46c0",
+      "t": "زمانی تحت نظارت برای کار مستقل دانش‌آموزان روی واحدهای درسی خود.",
+      "of": "853af355",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[3].description"
       ]
@@ -9795,8 +9789,8 @@
       ]
     },
     {
-      "t": "این درس برای کمک به دانش‌آموزان در آمادگی مؤثر برای SAT طراحی شده است. آموزش به دو بخش اصلی تقسیم می‌شود: Evidence-Based Reading & Writing و Mathematics.",
-      "of": "66820258",
+      "t": "دانش‌آموزان را برای SAT آماده می‌کند، و آموزش به دو بخش اصلی تقسیم می‌شود: Evidence-Based Reading & Writing و Mathematics.",
+      "of": "c747763a",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[5].description"
       ]
@@ -9809,8 +9803,8 @@
       ]
     },
     {
-      "t": "دانش‌آموزان معنای ژرف‌تر ورزش را از دریچه‌ای اخلاقی و فلسفی کاوش می‌کنند.",
-      "of": "abea03c6",
+      "t": "معنای ژرف‌تر ورزش را از دیدگاهی اخلاقی و فلسفی کاوش می‌کند.",
+      "of": "2dcc624c",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[6].description"
       ]
@@ -9880,8 +9874,8 @@
       ]
     },
     {
-      "t": "این کلاس برای فراهم کردن درکی از اصول پایهٔ چرخهٔ حسابداری در کاربرد آن برای بنگاه‌های اقتصادی طراحی شده است.",
-      "of": "a7b074f0",
+      "t": "اصول پایهٔ چرخهٔ حسابداری (Accounting Cycle) را در کاربرد آن برای کسب‌وکارها آموزش می‌دهد.",
+      "of": "12b72e65",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[11].description"
       ]
@@ -9966,8 +9960,8 @@
       ]
     },
     {
-      "t": "این درس برای آماده کردن دانش‌آموزان برای درس‌های پیشرفته در حوزه‌های مهندسی برق و کامپیوتر طراحی شده است.",
-      "of": "e2038a46",
+      "t": "دانش‌آموزان را برای درس‌های پیشرفته در مهندسی برق و کامپیوتر آماده می‌کند.",
+      "of": "6a0d4d3b",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[17].description"
       ]
@@ -9980,8 +9974,8 @@
       ]
     },
     {
-      "t": "دانش‌آموزان را برای درس‌های سطح دانشگاه در مهندسی عمران و مهندسی ساخت آماده می‌کند و مفاهیم طراحی مانند سامانه‌ها و مصالح ساختمانی، سازه‌ها و بارها، حمل‌ونقل و مفاهیم زیست‌محیطی را کاوش می‌کند.",
-      "of": "85c1abf7",
+      "t": "دانش‌آموزان را برای درس‌های سطح دانشگاه در مهندسی عمران و مهندسی ساخت آماده می‌کند · مفاهیم طراحی مانند سامانه‌ها و مصالح ساختمانی، سازه‌ها و بارها، حمل‌ونقل و مفاهیم زیست‌محیطی · انواع پل‌ها و مبانی تحلیل سازه · طراحی زیرساخت‌های شهری و تمرین برنامه‌ریزی شهری.",
+      "of": "09c7bc4e",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[18].description"
       ]
@@ -10001,22 +9995,22 @@
       ]
     },
     {
-      "t": "مرور عملیات با اعداد صحیح، کسرها و اعشار · حل معادلات و نامعادلات یک‌مجهولی · آشنایی با توابع · توابع خطی · دستگاه‌های معادلات و نامعادلات خطی.",
-      "of": "bbbf2d3c",
+      "t": "مرور عملیات با اعداد صحیح، کسرها و اعشار · حل معادلات و نامعادلات یک‌مجهولی · آشنایی با توابع · توابع خطی · دستگاه‌های معادلات و نامعادلات خطی · کار با چندجمله‌ای‌ها · تجزیهٔ چندجمله‌ای‌ها · توابع درجه دوم · نمایش داده‌ها و خلاصه کردن آن‌ها با عدد.",
+      "of": "9a9dd2e0",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[0].description"
       ]
     },
     {
-      "t": "مروری کوتاه بر عملیات با اعداد صحیح، کسرها و اعشار · حل معادلات و نامعادلات یک‌مجهولی · آشنایی با توابع · توابع خطی · دستگاه‌های معادلات و نامعادلات خطی.",
-      "of": "ee6606f4",
+      "t": "مروری کوتاه بر عملیات با اعداد صحیح، کسرها و اعشار · حل معادلات و نامعادلات یک‌مجهولی · آشنایی با توابع · توابع خطی · دستگاه‌های معادلات و نامعادلات خطی · کار با چندجمله‌ای‌ها · تجزیهٔ چندجمله‌ای‌ها · توابع درجه دوم · نمایش داده‌ها و خلاصه کردن آن‌ها با عدد.",
+      "of": "31f7b5a8",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[1].description"
       ]
     },
     {
-      "t": "این درس شامل اصطلاحات و نمادهای پایه است؛ همنهشتی و تشابه چندضلعی‌ها و دایره‌ها؛ مساحت و حجم؛ خطوط موازی و عمود؛ تبدیل‌ها؛ و آشنایی با اثبات.",
-      "of": "d2651304",
+      "t": "اصطلاحات و نمادهای پایه · همنهشتی و تشابه چندضلعی‌ها و دایره‌ها · مساحت و حجم · خطوط موازی و عمود · تبدیل‌ها · آشنایی با اثبات.",
+      "of": "b7c49ec5",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[2].description"
       ]
@@ -10029,8 +10023,8 @@
       ]
     },
     {
-      "t": "این درس شامل مطالعهٔ اصطلاحات و نمادهای پایه است؛ همنهشتی و تشابه چندضلعی‌ها و دایره‌ها؛ مساحت و حجم؛ خطوط موازی و عمود؛ تبدیل‌ها و اثبات‌ها.",
-      "of": "568449b3",
+      "t": "اصطلاحات و نمادهای پایه · همنهشتی و تشابه چندضلعی‌ها و دایره‌ها · مساحت و حجم · خطوط موازی و عمود · تبدیل‌ها و اثبات‌ها.",
+      "of": "2a79374c",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[3].description"
       ]
@@ -10052,8 +10046,8 @@
       ]
     },
     {
-      "t": "این درس شامل مطالعهٔ توابع خطی، درجه دوم، نمایی، لگاریتمی، رادیکالی، گویا و مثلثاتی است؛ اعداد مختلط؛ همبستگی و رگرسیون.",
-      "of": "b5cfa283",
+      "t": "توابع خطی، درجه دوم، نمایی، لگاریتمی، رادیکالی، گویا و مثلثاتی · اعداد مختلط · همبستگی و رگرسیون.",
+      "of": "a46d624e",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[5].description"
       ]
@@ -10066,8 +10060,8 @@
       ]
     },
     {
-      "t": "این درس شامل مطالعهٔ توابع خطی، درجه دوم، نمایی، لگاریتمی، رادیکالی، گویا و مثلثاتی است؛ اعداد مختلط؛ همبستگی و رگرسیون؛ مدل‌های نرمال؛ و بازه‌های اطمینان برای نسبت‌ها و میانگین‌ها.",
-      "of": "9c1c5de8",
+      "t": "توابع خطی، درجه دوم، نمایی، لگاریتمی، رادیکالی، گویا و مثلثاتی · اعداد مختلط · همبستگی و رگرسیون · مدل‌های نرمال · بازه‌های اطمینان برای نسبت‌ها و میانگین‌ها.",
+      "of": "632c0bce",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[6].description"
       ]
@@ -10082,8 +10076,8 @@
       ]
     },
     {
-      "t": "درسی پرچالش برای دانش‌آموزانی با پشتکار نیرومند و مهارت اندیشیدن انتقادی، شامل مطالعهٔ ژرف توابع خطی، درجه دوم، نمایی، لگاریتمی، رادیکالی، گویا و مثلثاتی.",
-      "of": "f298dbfc",
+      "t": "درسی پرچالش برای دانش‌آموزانی با پشتکار نیرومند و مهارت اندیشیدن انتقادی، شامل مطالعهٔ ژرف: توابع خطی، درجه دوم و نمایی · توابع لگاریتمی، رادیکالی، گویا و مثلثاتی · اعداد مختلط · همبستگی و رگرسیون · مدل‌های نرمال · بازه‌های اطمینان برای نسبت‌ها و میانگین‌ها.",
+      "of": "529283cd",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[7].description"
       ]
@@ -10096,8 +10090,8 @@
       ]
     },
     {
-      "t": "این درس برای آماده کردن دانش‌آموزان برای درسی در سطح دانشگاه در جبر، آمار یا Pre-Calculus در نظر گرفته شده است.",
-      "of": "08efbcd2",
+      "t": "دانش‌آموزان را برای درسی در سطح دانشگاه در جبر، آمار یا Pre-Calculus آماده می‌کند.",
+      "of": "d5bdf4a2",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[8].description"
       ]
@@ -10110,8 +10104,8 @@
       ]
     },
     {
-      "t": "این درس برای آماده کردن دانش‌آموزان برای درسی در سطح دانشگاه در جبر، آمار، Pre-Calculus یا Calculus در نظر گرفته شده است.",
-      "of": "0a1b706a",
+      "t": "دانش‌آموزان را برای درسی در سطح دانشگاه در جبر، آمار، Pre-Calculus یا Calculus آماده می‌کند.",
+      "of": "af0ee692",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[9].description"
       ]
@@ -10124,8 +10118,8 @@
       ]
     },
     {
-      "t": "این درس به دانش‌آموزان فرصت می‌دهد مطالعهٔ خود را در توابع خطی، درجه دوم، نمایی، لگاریتمی و مثلثاتی ادامه دهند.",
-      "of": "73e22d33",
+      "t": "مطالعهٔ بیشتر توابع خطی، درجه دوم، نمایی، لگاریتمی و مثلثاتی.",
+      "of": "addb02e0",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[10].description"
       ]
@@ -10138,8 +10132,8 @@
       ]
     },
     {
-      "t": "این درس شامل گسترش و تحلیل بیشتر توابع، از جمله توابع چندجمله‌ای، گویا، نمایی، لگاریتمی و مثلثاتی است.",
-      "of": "35f390f8",
+      "t": "گسترش و تحلیل بیشتر توابع، از جمله توابع چندجمله‌ای، گویا، نمایی، لگاریتمی و مثلثاتی.",
+      "of": "21e29d26",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[11].description"
       ]
@@ -10152,8 +10146,8 @@
       ]
     },
     {
-      "t": "درسی پرچالش برای دانش‌آموزانی با پشتکار نیرومند و مهارت اندیشیدن انتقادی، شامل گسترش و تحلیل بیشتر توابع، از جمله توابع چندجمله‌ای، گویا، نمایی، لگاریتمی و مثلثاتی.",
-      "of": "3413d082",
+      "t": "درسی پرچالش برای دانش‌آموزانی با پشتکار نیرومند و مهارت اندیشیدن انتقادی، شامل گسترش و تحلیل بیشتر توابع، مانند توابع چندجمله‌ای، گویا، نمایی، لگاریتمی و مثلثاتی · احتمال · شمارش · دنباله‌ها و سری‌ها · مقاطع مخروطی · دستگاه اعداد مختلط · آزمون‌های فرض برای میانگین‌ها و نسبت‌ها.",
+      "of": "14fc3faf",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[12].description"
       ]
@@ -10189,8 +10183,8 @@
       ]
     },
     {
-      "t": "Advanced Placement Calculus BC تقریباً معادل درس‌های حساب دیفرانسیل و انتگرال ترم اول و دوم دانشگاه است و Calculus AB را، با گسترش آن به انواع دیگر معادلات، به‌همراه دنباله‌ها و سری‌ها در بر می‌گیرد.",
-      "of": "9852095d",
+      "t": "Advanced Placement Calculus BC تقریباً معادل درس‌های حساب دیفرانسیل و انتگرال ترم اول و دوم دانشگاه است · این درس Calculus AB را، با گسترش آن به انواع دیگر معادلات، به‌همراه دنباله‌ها و سری‌ها در بر می‌گیرد · مباحث حساب دیفرانسیل و انتگرال شامل حد، مشتق، انتگرال معین، قضیهٔ بنیادی حسابان (Fundamental Theorem of Calculus) و سری‌ها است · هر دانش‌آموز باید در آزمون AP Calculus BC شرکت کند.",
+      "of": "68048f34",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[16].description"
       ]
@@ -10380,8 +10374,8 @@
       ]
     },
     {
-      "t": "تمدیدی دوساله از برنامهٔ Options فراتر از تجربهٔ سنتی دبیرستان · کلاس‌ها، آموزش شغلی، کارآموزی‌ها و تجربه‌های اجتماعی، مهارت‌های زندگی، آمادگی برای محیط کار و دانشگاه، و استقلال را می‌سازند.",
-      "of": "2875a0cd",
+      "t": "تمدیدی دوساله از برنامهٔ Options فراتر از تجربهٔ سنتی دبیرستان · آموزش فردی‌سازی‌شده در مهارت‌های زندگی · آمادگی برای محیط کار · ارتباط اجتماعی · رفت‌وآمد در جامعه · آمادگی برای دانشگاه · تمرین در دنیای واقعی مانند آموزش شغلی، کارآموزی، تجربه‌های اجتماعی هدایت‌شده و کار درسی بیشتر · هدف برنامه پشتیبانی از رشد به سوی زندگی مستقل است.",
+      "of": "992966d5",
       "at": [
         "charlotte-catholic:divisions[0].departments[3].courses[13].description"
       ]
@@ -10401,8 +10395,8 @@
       ]
     },
     {
-      "t": "این درس به مطالعهٔ این می‌پردازد که گفتن اینکه انسان‌ها «شخص» هستند چه معنایی دارد (یعنی موجوداتی برخوردار از آزادی و زندگی درونی که توان شناختن و دوست داشتن دارند).",
-      "of": "078dacf5",
+      "t": "به این می‌پردازد که شخص نامیدن انسان‌ها چه معنایی دارد (موجوداتی برخوردار از آزادی و زندگی درونی که توان شناختن و دوست داشتن دارند).",
+      "of": "53e6f9bc",
       "at": [
         "charlotte-catholic:divisions[0].departments[4].courses[0].description"
       ]
@@ -10415,8 +10409,8 @@
       ]
     },
     {
-      "t": "این درس دانش‌آموزان را با رویکرد فلسفهٔ کلاسیک به اخلاق از دریچه‌ای کاتولیک آشنا می‌کند.",
-      "of": "6371b8ed",
+      "t": "رویکرد فلسفهٔ کلاسیک به اخلاق را از دریچه‌ای کاتولیک معرفی می‌کند.",
+      "of": "c358e2d3",
       "at": [
         "charlotte-catholic:divisions[0].departments[4].courses[1].description"
       ]
@@ -10470,8 +10464,8 @@
       ]
     },
     {
-      "t": "این درس بر حرکات سادهٔ استقامتی و هوازی تمرکز دارد تا توانایی‌های بدنی افزایش یابد.",
-      "of": "193f5c87",
+      "t": "بر حرکات سادهٔ استقامتی و هوازی برای افزایش توانایی‌های بدنی تمرکز دارد.",
+      "of": "00e9c559",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[2].description"
       ]
@@ -10512,8 +10506,8 @@
       ]
     },
     {
-      "t": "این درس بر عناصر رقص همراه با تمرین‌های حرکتی هوازی تمرکز دارد. پیلاتس و حرکات کششی نیز اجرا می‌شود.",
-      "of": "98779b03",
+      "t": "بر عناصر رقص همراه با تمرین‌های حرکتی هوازی، به‌علاوهٔ پیلاتس و حرکات کششی تمرکز دارد.",
+      "of": "62d8b544",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[5].description"
       ]
@@ -10526,8 +10520,8 @@
       ]
     },
     {
-      "t": "دانش‌آموزان در فعالیت‌های گوناگون تیمی شرکت می‌کنند، با تأکید بر انتخاب گروهی و فردی و فعالیت‌هایی که به بیرون از مدرسه هم ادامه می‌یابد.",
-      "of": "53094926",
+      "t": "فعالیت‌های گوناگون تیمی، با تأکید بر انتخاب گروهی و فردی و فعالیت‌هایی که به بیرون از مدرسه هم ادامه می‌یابد.",
+      "of": "78dcdd5b",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[6].description"
       ]
@@ -10547,8 +10541,8 @@
       ]
     },
     {
-      "t": "آشنایی گسترده با اصول پایهٔ زیست‌شناسی از راه مطالعهٔ انسان و تعامل او با دیگر جانداران و محیط مشترکشان.",
-      "of": "694041aa",
+      "t": "آشنایی گسترده با اصول پایهٔ زیست‌شناسی از راه مطالعهٔ انسان و تعامل او با دیگر جانداران و محیط مشترکشان · ساختار و کارکرد سلول · ساختار و کارکرد گیاهان و جانوران (مطالعهٔ دستگاه‌ها) · تولیدمثل · ژنتیک · تکامل · بوم‌شناسی · تمرین‌های آزمایشگاهی، تشریح و گزارش‌های آزمایشگاهی سهم مهمی در نمره دارند.",
+      "of": "f64aae18",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[0].description"
       ]
@@ -10561,8 +10555,8 @@
       ]
     },
     {
-      "t": "هدف این درس آشنا کردن دانش‌آموز با مطالعه‌ای ژرف از اصول پایهٔ فرایندهای زیستی است.",
-      "of": "60b9b8e4",
+      "t": "دانش‌آموز را با مطالعهٔ ژرف اصول پایهٔ فرایندهای زیستی آشنا می‌کند.",
+      "of": "5d773e2a",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[1].description"
       ]
@@ -10670,8 +10664,8 @@
       ]
     },
     {
-      "t": "این درس برای ارائهٔ آشنایی با تغذیهٔ انسان، سلامت و اثرهای آن بر جامعه طراحی شده است.",
-      "of": "88455d3f",
+      "t": "آشنایی با تغذیهٔ انسان، سلامت و اثرهای آن‌ها بر جامعه.",
+      "of": "c2ac2d95",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[9].description"
       ]
@@ -10684,15 +10678,15 @@
       ]
     },
     {
-      "t": "Advanced Placement Chemistry به‌عنوان درس شیمی سال دوم طراحی شده است. این یک درس اختیاری علمی بسیار فشرده است که موضوعاتی را پوشش می‌دهد که معمولاً در درس شیمی سال اول دانشگاه گنجانده می‌شود.",
-      "of": "3f2ac5cc",
+      "t": "Advanced Placement Chemistry درس شیمی سال دوم است؛ درسی اختیاری، علمی و بسیار فشرده که موضوعاتی را پوشش می‌دهد که معمولاً در درس شیمی سال اول دانشگاه گنجانده می‌شود.",
+      "of": "c56f9ac1",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[11].description"
       ]
     },
     {
-      "t": "این درس موضوعاتی را پوشش می‌دهد که معمولاً در درس سال اول دانشگاه در علوم محیطی گنجانده می‌شود.",
-      "of": "56716f95",
+      "t": "موضوعاتی را پوشش می‌دهد که معمولاً در درس سال اول دانشگاه در علوم محیطی گنجانده می‌شود.",
+      "of": "16e37238",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[12].description"
       ]
@@ -10705,8 +10699,8 @@
       ]
     },
     {
-      "t": "درس مقدماتی فیزیک در سطح دانشگاهی و مبتنی بر جبر؛ هر دانش‌آموز باید در آزمون AP Physics 1: Algebra-Based شرکت کند.",
-      "of": "19af0536",
+      "t": "درس مقدماتی فیزیک در سطح دانشگاهی و مبتنی بر جبر که این حوزه‌های محتوایی را در بر می‌گیرد: Kinematics · Forces and Translational Dynamics · Work, Energy, and Power · Linear Momentum · Torque and Rotational Dynamics · Energy and Momentum of Rotating Systems · Oscillations · Fluids · هر دانش‌آموز باید در آزمون AP Physics 1: Algebra-Based شرکت کند.",
+      "of": "17ad53d8",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[13].description"
       ]
@@ -10719,8 +10713,8 @@
       ]
     },
     {
-      "t": "مطالعهٔ ژرف یک‌سالهٔ مکانیک نیوتنی: سینماتیک · قوانین حرکت نیوتن · کار، انرژی و توان · دستگاه‌های ذرات و تکانهٔ خطی · حرکت دایره‌ای و دورانی · نوسان‌ها و گرانش.",
-      "of": "8e073378",
+      "t": "مطالعهٔ ژرف یک‌سالهٔ مکانیک نیوتنی: سینماتیک · قوانین حرکت نیوتن · کار، انرژی و توان · دستگاه‌های ذرات و تکانهٔ خطی · حرکت دایره‌ای و دورانی · نوسان‌ها و گرانش · درس به‌شدت آزمایشگاه‌محور است، با دفتر آزمایشگاه الزامی و حل مسئله با بهره‌گیری از حساب دیفرانسیل و انتگرال · هر دانش‌آموز باید در آزمون AP Physics C: Mechanics شرکت کند.",
+      "of": "3e437ca1",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[14].description"
       ]
@@ -10754,8 +10748,8 @@
       ]
     },
     {
-      "t": "این درس آشنایی جامعی با مفاهیم علمی و فنون پژوهش آزمایشگاهی که هم‌اکنون در حوزهٔ زیست‌فناوری به کار می‌روند در اختیار دانش‌آموزان می‌گذارد.",
-      "of": "17608f26",
+      "t": "آشنایی جامع با مفاهیم علمی و فنون پژوهش آزمایشگاهی که امروزه در زیست‌فناوری به کار می‌روند.",
+      "of": "a859781f",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[17].description"
       ]
@@ -10790,8 +10784,8 @@
       ]
     },
     {
-      "t": "Honors World History بالاترین سطح کلاس تاریخ جهان در Charlotte Catholic است · مهلت تکالیف اغلب روزها یا حتی هفته‌ها پیشتر اعلام می‌شود، پس دانش‌آموزان برای موفقیت باید کار خود را برنامه‌ریزی و زمانشان را مدیریت کنند.",
-      "of": "9117a0bd",
+      "t": "Honors World History بالاترین سطح کلاس تاریخ جهان در Charlotte Catholic است · مهلت تکالیف اغلب روزها یا حتی هفته‌ها پیشتر اعلام می‌شود، پس دانش‌آموزان برای موفقیت باید کار خود را برنامه‌ریزی و زمانشان را مدیریت کنند · درس از تاریخ جهان باستان، با تمرکز بر ادیان، امپراتوری‌ها و مهارت‌های مقدماتی، آغاز می‌شود و از چین کهن تا جنگ سرد پیش می‌رود · تأکید قوی بر مهارت‌های اندیشیدن و نوشتن، خواندنی‌های تعیین‌شده را ضروری می‌کند · کلاسی اروپامحور نیست: دانش‌آموزان تاریخ اروپا و نیز مطالب فراوانی دربارهٔ آفریقا، آسیا و آمریکای لاتین می‌آموزند.",
+      "of": "a83348cf",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[2].description"
       ]
@@ -10804,8 +10798,8 @@
       ]
     },
     {
-      "t": "این درس شکل‌گیری تمدن‌های غربی و خاور نزدیک را از راه تأثیر تاریخی و هنری مسیحیت بررسی می‌کند.",
-      "of": "9b914725",
+      "t": "بررسی می‌کند که تمدن‌های غربی و خاور نزدیک چگونه از راه تأثیر تاریخی و هنری مسیحیت شکل گرفتند.",
+      "of": "710c3f53",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[3].description"
       ]
@@ -10854,15 +10848,15 @@
       ]
     },
     {
-      "t": "این درس دانش‌آموزان را با مطالعهٔ علمی رفتار و فرایندهای ذهنی انسان آشنا می‌کند.",
-      "of": "0396eb47",
+      "t": "آشنایی با مطالعهٔ علمی رفتار و فرایندهای ذهنی انسان.",
+      "of": "4af526a9",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[7].description"
       ]
     },
     {
-      "t": "این درسی در سطح دانشگاه است که دانش‌آموزان را با مطالعهٔ نظام‌مند و علمی رفتار و فرایندهای ذهنی انسان آشنا می‌کند.",
-      "of": "43a5d41d",
+      "t": "آشنایی در سطح دانشگاه با مطالعهٔ نظام‌مند و علمی رفتار و فرایندهای ذهنی انسان.",
+      "of": "e81b5742",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[8].description"
       ]
@@ -10875,8 +10869,8 @@
       ]
     },
     {
-      "t": "این درس کلاسی در سطح college prep دربارهٔ U.S. Government است که دانش‌آموزان را با بنیادها، ساختارها و فرایندهای نظام سیاسی آمریکا آشنا می‌کند.",
-      "of": "5ac83c77",
+      "t": "کلاسی در سطح college prep دربارهٔ U.S. Government که بنیادها، ساختارها و فرایندهای نظام سیاسی آمریکا را معرفی می‌کند.",
+      "of": "c499cfc4",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[9].description"
       ]
@@ -10903,15 +10897,15 @@
       ]
     },
     {
-      "t": "این درس آشنایی در سطح دانشگاه با مفاهیم، ایده‌ها، نهادها، سیاست‌ها، تعامل‌ها، نقش‌ها و رفتارهای کلیدی سیاسی ارائه می‌دهد که نظام قانون اساسی و فرهنگ سیاسی ایالات متحده را مشخص می‌کنند.",
-      "of": "d8b1836b",
+      "t": "آشنایی در سطح دانشگاه با مفاهیم، ایده‌ها، نهادها، سیاست‌ها، تعامل‌ها، نقش‌ها و رفتارهای کلیدی سیاسی که نظام قانون اساسی و فرهنگ سیاسی ایالات متحده را مشخص می‌کنند.",
+      "of": "7bdce14b",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[11].description"
       ]
     },
     {
-      "t": "این درس اقتصادی در سطح college prep است که دانش‌آموزان را با اصول بنیادین اقتصاد و با تمرکز اصلی بر نظام اقتصادی آمریکا آشنا می‌کند.",
-      "of": "bdde45a3",
+      "t": "درسی در سطح college prep دربارهٔ اصول پایهٔ اقتصاد، با تمرکز اصلی بر نظام اقتصادی آمریکا.",
+      "of": "653a0acf",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[12].description"
       ]
@@ -10938,8 +10932,8 @@
       ]
     },
     {
-      "t": "این کلاس درسی در سطح دانشگاه است که دانش‌آموزان را با اصول اقتصادی حاکم بر رفتار مصرف‌کنندگان منفرد، بنگاه‌ها و صاحبان منابع آشنا می‌کند.",
-      "of": "43a6df4c",
+      "t": "آشنایی در سطح دانشگاه با اصول اقتصادی حاکم بر رفتار مصرف‌کنندگان منفرد، بنگاه‌ها و صاحبان منابع.",
+      "of": "eefd305e",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[14].description"
       ]
@@ -10952,8 +10946,8 @@
       ]
     },
     {
-      "t": "این کلاس مباحث اقتصاد کلان و اقتصاد خرد هر دو را در بر می‌گیرد. این درس معادل دو درس یک‌نیم‌ساله در نظریهٔ اقتصاد کلان و نظریهٔ اقتصاد خرد است.",
-      "of": "ea8d26ae",
+      "t": "اقتصاد کلان و اقتصاد خرد هر دو را در بر می‌گیرد و معادل دو درس یک‌نیم‌ساله است، یکی در نظریهٔ اقتصاد کلان و یکی در نظریهٔ اقتصاد خرد.",
+      "of": "109df2a5",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[15].description"
       ]
@@ -10987,8 +10981,8 @@
       ]
     },
     {
-      "t": "این درس با آشنایی کوتاهی با فلسفه و منطق آغاز می‌شود. باقی درس بررسی می‌کند که خداوند چگونه خود را بر مردم آشکار می‌کند.",
-      "of": "0bb97eaf",
+      "t": "آشنایی کوتاهی با فلسفه و منطق، سپس بررسی اینکه خداوند چگونه خود را بر مردم آشکار می‌کند.",
+      "of": "0454085b",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[0].description"
       ]
@@ -11001,8 +10995,8 @@
       ]
     },
     {
-      "t": "این درس تثلیث مقدس را معرفی می‌کند — یک خدا در سه شخص الهی: پدر، پسر و روح‌القدس — که راز مرکزی ایمان مسیحی است.",
-      "of": "09259e9d",
+      "t": "تثلیث مقدس را مطالعه می‌کند — یک خدا در سه شخص الهی: پدر، پسر و روح‌القدس — که راز مرکزی ایمان مسیحی است.",
+      "of": "d5b8cf1e",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[1].description"
       ]
@@ -11099,8 +11093,8 @@
       ]
     },
     {
-      "t": "این درس دانش‌آموزان را برای گفت‌وگوی فعال با غیرکاتولیک‌ها در عرصهٔ عمومی آماده می‌کند.",
-      "of": "f567ced1",
+      "t": "دانش‌آموزان را برای گفت‌وگوی فعال با غیرکاتولیک‌ها در زندگی عمومی آماده می‌کند.",
+      "of": "19ce45ba",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[8].description"
       ]
@@ -11141,8 +11135,8 @@
       ]
     },
     {
-      "t": "این درس با داستان مداخلهٔ قطعی خداوند در تاریخ بشر در شخص پسرش آغاز می‌شود و از راه کلیسای او تا امروز ادامه می‌یابد.",
-      "of": "16e347be",
+      "t": "داستان را از مداخلهٔ قطعی خداوند در تاریخ بشر در شخص پسرش، از راه کلیسای او، تا امروز در بر می‌گیرد.",
+      "of": "07f88455",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[11].description"
       ]
@@ -11155,8 +11149,8 @@
       ]
     },
     {
-      "t": "این درس دانش‌آموزان را توانمند می‌کند تا معیاری برای تحلیل آنچه در سینما به تصویر کشیده می‌شود بپرورانند.",
-      "of": "1385fa2f",
+      "t": "به دانش‌آموزان می‌آموزد معیاری برای تحلیل آنچه در فیلم‌ها به تصویر کشیده می‌شود بپرورانند.",
+      "of": "ed4a56b9",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[12].description"
       ]
@@ -11169,8 +11163,8 @@
       ]
     },
     {
-      "t": "این درس مروری کلی بر ادیان جهان از جمله یهودیت، مسیحیت، اسلام، هندوئیسم و بودیسم ارائه می‌دهد.",
-      "of": "548d4bba",
+      "t": "مروری کلی بر ادیان جهان، از جمله یهودیت، مسیحیت، اسلام، هندوئیسم و بودیسم.",
+      "of": "7818f03b",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[13].description"
       ]
@@ -11183,8 +11177,8 @@
       ]
     },
     {
-      "t": "Art I درسی مقدماتی است که بر مهارت‌های بنیادین هنری تمرکز دارد. رسانه‌ها و ابزارهای گوناگون از جمله نقاشی، طراحی و مجسمه‌سازی کاوش می‌شوند.",
-      "of": "0a151589",
+      "t": "Art I درسی مقدماتی است که بر مهارت‌های بنیادین هنری تمرکز دارد و رسانه‌ها و ابزارهای گوناگون، از جمله نقاشی، طراحی و مجسمه‌سازی را می‌کاود.",
+      "of": "5f6d46fc",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[0].description"
       ]
@@ -11365,8 +11359,8 @@
       ]
     },
     {
-      "t": "این درس به مردان تازه‌وارد سال اول فرصت می‌دهد صدای آواز خود را از راه آواز گروهی، تنفس درست، خواندن از روی نت و فنون تولید صدا بپرورانند.",
-      "of": "9ea6724e",
+      "t": "به مردان تازه‌وارد سال اول فرصت می‌دهد صدای آواز خود را از راه آواز گروهی، تنفس درست، خواندن از روی نت و فنون تولید صدا بپرورانند.",
+      "of": "0fb278fc",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[13].description"
       ]
@@ -11379,8 +11373,8 @@
       ]
     },
     {
-      "t": "این درس به زنان تازه‌وارد سال اول فرصت می‌دهد صدای آواز خود را از راه آواز گروهی، تنفس درست، خواندن از روی نت و فنون تولید صدا بپرورانند.",
-      "of": "30121c3c",
+      "t": "به زنان تازه‌وارد سال اول فرصت می‌دهد صدای آواز خود را از راه آواز گروهی، تنفس درست، خواندن از روی نت و فنون تولید صدا بپرورانند.",
+      "of": "f72bce2e",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[14].description"
       ]
@@ -11407,8 +11401,8 @@
       ]
     },
     {
-      "t": "این درس یک گروه کر با آزمون ورودی در سطح ماهر برای زنانی است که پیشتر تجربهٔ آواز داشته‌اند.",
-      "of": "9f34af36",
+      "t": "یک گروه کر با آزمون ورودی در سطح ماهر برای زنانی که پیشتر تجربهٔ آواز داشته‌اند.",
+      "of": "cbadd3fd",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[16].description"
       ]
@@ -11421,8 +11415,8 @@
       ]
     },
     {
-      "t": "این درس یک گروه کر با آزمون ورودی در سطح ماهر و پیشرفته برای زنانی است که پیشتر تجربهٔ آواز داشته‌اند.",
-      "of": "035360d3",
+      "t": "یک گروه کر با آزمون ورودی در سطح ماهر و پیشرفته برای زنانی که پیشتر تجربهٔ آواز داشته‌اند.",
+      "of": "21829186",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[17].description"
       ]
@@ -11435,8 +11429,8 @@
       ]
     },
     {
-      "t": "این درس یک گروه کر با آزمون ورودی در سطح ماهر برای مردانی است که پیشتر تجربهٔ آواز داشته‌اند.",
-      "of": "ce946530",
+      "t": "یک گروه کر با آزمون ورودی در سطح ماهر برای مردانی که پیشتر تجربهٔ آواز داشته‌اند.",
+      "of": "c6bf2747",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[18].description"
       ]
@@ -11449,8 +11443,8 @@
       ]
     },
     {
-      "t": "این درس یک گروه کر با آزمون ورودی در سطح ماهر و پیشرفته برای مردانی است که پیشتر تجربهٔ آواز داشته‌اند.",
-      "of": "6b9a427d",
+      "t": "یک گروه کر با آزمون ورودی در سطح ماهر و پیشرفته برای مردانی که پیشتر تجربهٔ آواز داشته‌اند.",
+      "of": "e96a1160",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[19].description"
       ]
@@ -11464,8 +11458,8 @@
       ]
     },
     {
-      "t": "این درس یک گروه کر مختلط با آزمون ورودی در سطح پیشرفته برای مردان و زنانی است که پیشتر تجربهٔ چشمگیری در آواز داشته‌اند.",
-      "of": "53180152",
+      "t": "یک گروه کر مختلط با آزمون ورودی در سطح پیشرفته برای مردان و زنانی که پیشتر تجربهٔ چشمگیری در آواز داشته‌اند.",
+      "of": "ac21d443",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[20].description"
       ]
@@ -11520,8 +11514,8 @@
       ]
     },
     {
-      "t": "درسی پیشرفته که در آن دانش‌آموزان نه‌تنها دکور را می‌سازند، بلکه ابزار کار در محیطی حرفه‌ای را به دست می‌آورند و همهٔ مفاهیم طراحی و زیبایی‌شناسی را به کار می‌بندند.",
-      "of": "ecfbfa73",
+      "t": "درسی پیشرفته که در آن دانش‌آموزان نه‌تنها دکور را می‌سازند، بلکه ابزار کار در محیطی حرفه‌ای را به دست می‌آورند و همهٔ مفاهیم طراحی و زیبایی‌شناسی را به کار می‌بندند · دانش‌آموزان همهٔ نورپردازی و صدای مدرسه و تأسیسات آن را اداره می‌کنند و برای برپایی و جمع‌آوری مراسم عشای ربانی و رویدادهای مدرسه وقت اضافه می‌گذارند · دانش‌آموزان این درس در همهٔ تولیدهای نمایشی نیز نقش‌های رهبری بر عهده می‌گیرند.",
+      "of": "af089538",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[24].description"
       ]
@@ -11555,8 +11549,8 @@
       ]
     },
     {
-      "t": "این درس به دانش‌آموزانی ارائه می‌شود که می‌خواهند همهٔ فنون بازیگری برای صحنه و نیز پرده را به‌طور جدی دنبال کنند.",
-      "of": "10b9628e",
+      "t": "برای دانش‌آموزانی که می‌خواهند همهٔ فنون بازیگری را، برای صحنه و نیز پرده، به‌طور جدی دنبال کنند.",
+      "of": "0bab2e9f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[27].description"
       ]
@@ -11583,8 +11577,8 @@
       ]
     },
     {
-      "t": "این درس دانش دربارهٔ اصول، رویه‌ها و فنون تولید برنامهٔ تلویزیونی/سریال وب را گسترش می‌دهد.",
-      "of": "fddd3045",
+      "t": "دانش دانش‌آموزان را دربارهٔ اصول، رویه‌ها و فنون تولید برنامهٔ تلویزیونی/سریال وب گسترش می‌دهد.",
+      "of": "52e1109f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[29].description"
       ]
@@ -11625,8 +11619,8 @@
       ]
     },
     {
-      "t": "Dance III درسی اجرایی در سطح honors است که فن پیشرفتهٔ دانش‌آموزان را از راه به‌کارگیری طراحی رقص برجسته می‌کند · کلاس در تمام سال برگزار می‌شود · دو اجرای صحنه‌ای الزامی است، از جمله قطعه‌هایی با طراحی رقص خود دانش‌آموزان.",
-      "of": "f9e5edfa",
+      "t": "Dance III درسی اجرایی در سطح honors است که فن پیشرفتهٔ دانش‌آموزان را از راه به‌کارگیری طراحی رقص برجسته می‌کند · کلاس در تمام سال برگزار می‌شود · دو اجرای صحنه‌ای الزامی است، از جمله قطعه‌هایی با طراحی رقص خود دانش‌آموزان · خرید کفش رقص مناسب الزامی است.",
+      "of": "7c96437b",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[32].description"
       ]
@@ -11639,8 +11633,8 @@
       ]
     },
     {
-      "t": "دانش‌آموزانی که تجربهٔ نوازندگی دارند از راه آزمون ورودی به این کلاس می‌پیوندند و از آنان انتظار می‌رود در ساز خود ماهر باشند، نظریهٔ پایهٔ موسیقی را بدانند و نت را روان بخوانند.",
-      "of": "be73b04a",
+      "t": "دانش‌آموزانی که تجربهٔ نوازندگی دارند از راه آزمون ورودی به این کلاس می‌پیوندند و از آنان انتظار می‌رود در ساز خود ماهر باشند، نظریهٔ پایهٔ موسیقی را بدانند و نت را روان بخوانند · تأکید بر کیفیت صدا، کوک و فنون پیشرفته یا گسترش‌یافته · از دانش‌آموزان انتظار می‌رود در تمرین‌ها و اجراهای پس از مدرسه حاضر شوند · از اعضا انتظار می‌رود در پاییز در گروه موزیک رژه باشند · نوازندگان سازهای بادی باید در این درس ثبت‌نام کنند · تمرین در خانه الزامی است · شرکت در اجراها اجباری است.",
+      "of": "45a3083b",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[33].description"
       ]
@@ -11653,8 +11647,8 @@
       ]
     },
     {
-      "t": "این کلاس برای سال سومی‌ها و سال آخری‌هایی است که یک سال Concert Band را گذرانده‌اند و می‌خواهند برای مشارکت خود در گروه سازی واحد honors بگیرند.",
-      "of": "ef41ca4c",
+      "t": "برای دانش‌آموزان سال سوم و چهارمی که یک سال Concert Band را گذرانده‌اند و می‌خواهند برای مشارکت خود در گروه سازی واحد honors بگیرند.",
+      "of": "e0d46e5f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[34].description"
       ]
@@ -11681,15 +11675,15 @@
       ]
     },
     {
-      "t": "این کلاس برای اعضای گروه کوبه‌ای است که می‌خواهند برای مشارکت خود در گروه سازی واحد honors بگیرند.",
-      "of": "eeccefc2",
+      "t": "برای اعضای گروه کوبه‌ای که می‌خواهند برای مشارکت خود در گروه سازی واحد honors بگیرند.",
+      "of": "a0c617e9",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[36].description"
       ]
     },
     {
-      "t": "این درس به‌عنوان کلاسی اجرامحور طراحی شده است تا درکی از مبانی نواختن گیتار آکوستیک فراهم کند.",
-      "of": "9c317d08",
+      "t": "کلاسی اجرامحور در مبانی نواختن گیتار آکوستیک.",
+      "of": "a0fb9c2e",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[37].description"
       ]
@@ -11702,8 +11696,8 @@
       ]
     },
     {
-      "t": "برای دانش‌آموز گیتار در سطح میانی تا پیشرفته، در ادامهٔ Guitar I، با تأکید بیشتر بر بهبود مبانی از راه خواندن از روی نت، گام‌ها، ساختار آکوردها، مُدها و نوازندگی با انگشت.",
-      "of": "cb3af940",
+      "t": "برای دانش‌آموز گیتار در سطح میانی تا پیشرفته · در ادامهٔ Guitar I، با تأکید بیشتر بر بهبود مبانی از راه خواندن از روی نت، گام‌ها، ساختار آکوردها، مُدها و نوازندگی با انگشت · دانش‌آموزان به‌صورت گروهی و نیز تکی اجرا می‌کنند.",
+      "of": "7451e9b3",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[38].description"
       ]
@@ -11732,11 +11726,10 @@
       ]
     },
     {
-      "t": "این درس برای ادامهٔ بنیانی که در French I آموخته شده و ساختن درک و دریافت ژرف‌تر در خواندن، نوشتن، شنیدن و سخن گفتن طراحی شده است.",
-      "of": "d9bf2f32",
+      "t": "بر پایهٔ بنیان French I بنا می‌شود و درک خواندن، نوشتن، شنیدن و سخن گفتن را ژرف‌تر می‌کند.",
+      "of": "787b5a7e",
       "at": [
-        "charlotte-catholic:divisions[0].departments[10].courses[1].description",
-        "charlotte-catholic:divisions[0].departments[10].courses[2].description"
+        "charlotte-catholic:divisions[0].departments[10].courses[1].description"
       ]
     },
     {
@@ -11747,6 +11740,13 @@
       ]
     },
     {
+      "t": "بر پایهٔ بنیان French I بنا می‌شود و درک خواندن، نوشتن، شنیدن و سخن گفتن را ژرف‌تر می‌کند · در سطح Advanced، زبان به‌کاررفته در کلاس پیچیده‌تر، آهنگ درس تندتر و انتظارات پرچالش‌تر است.",
+      "of": "5e7aa552",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[2].description"
+      ]
+    },
+    {
       "t": "Advanced French III",
       "of": "5c23973c",
       "at": [
@@ -11754,8 +11754,8 @@
       ]
     },
     {
-      "t": "درسی پیشرفته که درک زبان فرانسه را با ادامهٔ پرورش و به‌کارگیری آن در خواندن، نوشتن، شنیدن و سخن گفتن می‌سازد.",
-      "of": "782c6013",
+      "t": "درسی پیشرفته که درک زبان فرانسه را با ادامهٔ پرورش و به‌کارگیری آن در خواندن، نوشتن، شنیدن و سخن گفتن می‌سازد · تأکیدی قوی بر دستور زبان و سخن گفتن.",
+      "of": "c92c1237",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[3].description"
       ]
@@ -11826,8 +11826,8 @@
       ]
     },
     {
-      "t": "این درس برای ادامهٔ بنیانی که در German I آموخته شده و ساختن درک و دریافت ژرف‌تر در خواندن، نوشتن، شنیدن و سخن گفتن طراحی شده است.",
-      "of": "a1cbc734",
+      "t": "بر پایهٔ بنیان German I بنا می‌شود و درک خواندن، نوشتن، شنیدن و سخن گفتن را ژرف‌تر می‌کند.",
+      "of": "569add6c",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[8].description"
       ]
@@ -11924,8 +11924,8 @@
       ]
     },
     {
-      "t": "این درس برای دانش‌آموزانی طراحی شده است که تسلط نشان‌داده‌شدهٔ آنان بر مبانی لاتین حاکی از آمادگی برای متن‌های ادبی اصیل است.",
-      "of": "087ba19a",
+      "t": "برای دانش‌آموزانی که تسلط خود را بر مبانی لاتین نشان داده‌اند و برای متن‌های ادبی اصیل آماده‌اند.",
+      "of": "916c2ed1",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[16].description"
       ]
@@ -11938,8 +11938,8 @@
       ]
     },
     {
-      "t": "این درس بر قراردادهای بلاغی، وزنی و فرهنگی شعر حماسی و غنایی تأکید دارد.",
-      "of": "807d2322",
+      "t": "بر قراردادهای بلاغی، وزنی و فرهنگی شعر حماسی و غنایی تمرکز دارد.",
+      "of": "4ec7889d",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[17].description"
       ]
@@ -11981,11 +11981,10 @@
       ]
     },
     {
-      "t": "این درس برای ادامهٔ بنیانی که در Spanish 1 آموخته شده و ساختن درک و دریافت ژرف‌تر در خواندن، نوشتن، شنیدن و سخن گفتن طراحی شده است.",
-      "of": "5ff21440",
+      "t": "بر پایهٔ بنیان Spanish 1 بنا می‌شود و درک خواندن، نوشتن، شنیدن و سخن گفتن را ژرف‌تر می‌کند.",
+      "of": "c793c230",
       "at": [
-        "charlotte-catholic:divisions[0].departments[10].courses[20].description",
-        "charlotte-catholic:divisions[0].departments[10].courses[21].description"
+        "charlotte-catholic:divisions[0].departments[10].courses[20].description"
       ]
     },
     {
@@ -11996,6 +11995,13 @@
       ]
     },
     {
+      "t": "بر پایهٔ بنیان Spanish 1 بنا می‌شود و درک خواندن، نوشتن، شنیدن و سخن گفتن را ژرف‌تر می‌کند · در سطح Advanced، زبان به‌کاررفته در کلاس پیچیده‌تر، آهنگ درس تندتر و انتظارات پرچالش‌تر است.",
+      "of": "ef4e166c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[21].description"
+      ]
+    },
+    {
       "t": "Advanced Spanish III",
       "of": "003720ba",
       "at": [
@@ -12003,8 +12009,8 @@
       ]
     },
     {
-      "t": "درسی پیشرفته که درک زبان اسپانیایی را با ادامهٔ پرورش و به‌کارگیری آن در خواندن، نوشتن، شنیدن و سخن گفتن می‌سازد.",
-      "of": "e2650971",
+      "t": "درسی پیشرفته که درک زبان اسپانیایی را با ادامهٔ پرورش و به‌کارگیری آن در خواندن، نوشتن، شنیدن و سخن گفتن می‌سازد · تأکیدی قوی بر دستور زبان و سخن گفتن.",
+      "of": "0133447d",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[22].description"
       ]
@@ -12017,8 +12023,8 @@
       ]
     },
     {
-      "t": "این درسی پیشرفته است که برای دانش‌آموزانی طراحی شده که پیشتر در خانه یا در جامعهٔ خود اسپانیایی سخن می‌گویند.",
-      "of": "a440afa1",
+      "t": "درسی پیشرفته برای دانش‌آموزانی که پیشتر در خانه یا در جامعهٔ خود اسپانیایی سخن می‌گویند.",
+      "of": "1f0d0c19",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[23].description"
       ]
@@ -12091,8 +12097,8 @@
       ]
     },
     {
-      "t": "این درس آموزش و تجربهٔ آماده‌سازی و ایراد سخنرانی در محیط عمومی و گفت‌وگوی گروهی را فراهم می‌کند.",
-      "of": "dfae0ace",
+      "t": "با تمرین، آماده‌سازی و ایراد سخنرانی در محیط عمومی و در گفت‌وگوی گروهی را آموزش می‌دهد.",
+      "of": "f70f9a57",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[0].description"
       ]
@@ -12105,8 +12111,8 @@
       ]
     },
     {
-      "t": "این درس مطالعهٔ علمی جامعهٔ انسانی، فرهنگ و تعامل‌های اجتماعی را معرفی می‌کند.",
-      "of": "ef3b3870",
+      "t": "آشنایی با مطالعهٔ علمی جامعهٔ انسانی، فرهنگ و تعامل‌های اجتماعی.",
+      "of": "4d61a339",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[1].description"
       ]
@@ -12119,8 +12125,8 @@
       ]
     },
     {
-      "t": "این درس خاستگاه‌ها و تحول تاریخی هنر را معرفی می‌کند.",
-      "of": "f51aadb4",
+      "t": "آشنایی با خاستگاه‌ها و تحول تاریخی هنر.",
+      "of": "9ad5e015",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[2].description"
       ]
@@ -12133,8 +12139,8 @@
       ]
     },
     {
-      "t": "مدرسهٔ Charlotte Country Day ده حوزهٔ درسی Lower School را منتشر می‌کند که برای هر پایه به‌صورت روایی توصیف شده‌اند، و نه درس‌های نام‌برده. هیچ فهرست درسی برای Lower School وجود ندارد.",
-      "of": "829d91ce",
+      "t": "مدرسهٔ Charlotte Country Day ده حوزهٔ درسی Lower School را منتشر می‌کند که برای هر پایه به‌صورت روایی توصیف شده‌اند، و نه درس‌های نام‌برده. این مدرسه هیچ فهرست درسی برای Lower School منتشر نمی‌کند.",
+      "of": "25238106",
       "at": [
         "charlotte-country-day:divisions[0].notPublished"
       ]
@@ -12215,8 +12221,8 @@
       ]
     },
     {
-      "t": "همهٔ دانش‌آموزان با هر دو زبان فرانسه و اسپانیایی آشنا می‌شوند و تا پایهٔ 4 از آوای هر زبان تا چهار مهارت زبانی به‌علاوهٔ نگارش پایه پیش می‌روند.",
-      "of": "5c130948",
+      "t": "دانش‌آموزان از JK تا پایهٔ 1 با هر دو زبان فرانسه و اسپانیایی آشنا می‌شوند، سپس در پایهٔ 2 یکی را برمی‌گزینند و تا پایهٔ 4 چهار مهارت زبانی به‌علاوهٔ نگارش پایه را می‌سازند.",
+      "of": "5d18a511",
       "at": [
         "charlotte-country-day:divisions[0].departments[1].courses[0].description"
       ]
@@ -12293,15 +12299,15 @@
       ]
     },
     {
-      "t": "نه مسیر نام‌بردهٔ ریاضی به‌علاوهٔ درس‌های سطح پایه در 6 حوزه — هندسه با واحد دبیرستانی از همان پایهٔ 8.",
-      "of": "b130706f",
+      "t": "نه مسیر نام‌بردهٔ ریاضی به‌علاوهٔ درس‌های سطح پایه در 6 حوزه — هندسه از همان پایهٔ 8.",
+      "of": "85b6204c",
       "at": [
         "charlotte-country-day:divisions[1].teaser"
       ]
     },
     {
-      "t": "مدرسهٔ Country Day درس‌های نام‌بردهٔ Middle School را تنها برای ریاضیات منتشر می‌کند؛ رشته‌های دیگر به‌صورت موضوع‌های سطح پایه منتشر می‌شوند. هیچ فهرست درسی برای Middle School وجود ندارد.",
-      "of": "ebab57a8",
+      "t": "مدرسهٔ Country Day درس‌های نام‌بردهٔ Middle School را تنها برای ریاضیات منتشر می‌کند؛ رشته‌های دیگر به‌صورت موضوع‌های سطح پایه منتشر می‌شوند. این مدرسه هیچ فهرست درسی برای Middle School منتشر نمی‌کند.",
+      "of": "37377640",
       "at": [
         "charlotte-country-day:divisions[1].notPublished"
       ]
@@ -12392,8 +12398,8 @@
       ]
     },
     {
-      "t": "عبارت‌ها، معادلات و توابع خطی پایه برای دانش‌آموزانی که به آمادگی افزوده نیاز دارند.",
-      "of": "54b4f2d1",
+      "t": "مبانی عبارت‌ها و معادلات، ویژگی‌های اعداد حقیقی، معادلات و نامعادلات خطی، دستگاه‌ها، توان‌ها و چندجمله‌ای‌ها؛ دانش‌آموزان سپس در پایهٔ 9 به Algebra 1 می‌روند.",
+      "of": "65ec0efd",
       "at": [
         "charlotte-country-day:divisions[1].departments[0].courses[6].description"
       ]
@@ -12408,17 +12414,10 @@
       ]
     },
     {
-      "t": "Algebra I کامل دبیرستانی که توابع و دستگاه‌های خطی، توان‌ها، چندجمله‌ای‌ها، معادلات درجه دوم و رادیکال‌ها را در بر می‌گیرد.",
-      "of": "4c35c1ea",
+      "t": "Algebra I که مبانی جبر، توابع و دستگاه‌های خطی، توان‌ها، چندجمله‌ای‌ها، معادلات درجه دوم، رادیکال‌ها و آشنایی با هندسه را در بر می‌گیرد.",
+      "of": "546b2984",
       "at": [
         "charlotte-country-day:divisions[1].departments[0].courses[7].description"
-      ]
-    },
-    {
-      "t": "واحد دبیرستانی",
-      "of": "d99674c1",
-      "at": [
-        "charlotte-country-day:divisions[1].departments[0].courses[8].tag"
       ]
     },
     {
@@ -12892,8 +12891,8 @@
       ]
     },
     {
-      "t": "هندسهٔ شتاب‌یافته؛ نیازمند نمرهٔ 90 در Algebra I به‌علاوهٔ توصیهٔ معلم.",
-      "of": "b74d8e2d",
+      "t": "هندسه با نظریهٔ بیشتر و ژرفای بیشتر؛ نیازمند نمرهٔ 90 در Algebra I به‌علاوهٔ توصیهٔ معلم.",
+      "of": "53e21465",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[2].description"
       ]
@@ -12906,8 +12905,8 @@
       ]
     },
     {
-      "t": "Algebra II شتاب‌یافته؛ نیازمند نمرهٔ 90 در Geometry یا 83 در Honors Geometry.",
-      "of": "c934a32f",
+      "t": "Algebra II ژرف‌تر با نظریهٔ بیشتر، به‌علاوهٔ مثلثات و توابع گویا؛ نیازمند نمرهٔ 90 در Geometry یا 83 در Honors Geometry، به‌علاوهٔ توصیهٔ معلم.",
+      "of": "5e9109ad",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[4].description"
       ]
@@ -12927,8 +12926,8 @@
       ]
     },
     {
-      "t": "درسی فشرده و دوموضوعی که تنها برای دانش‌آموزان سال دومی باز است که Honors Geometry را در پایهٔ نهم گذرانده‌اند.",
-      "of": "75ab770e",
+      "t": "درسی فشرده و دوموضوعی که تنها برای دانش‌آموزان سال دومی باز است که Honors Geometry را در پایهٔ نهم گذرانده‌اند و گروه آموزشی آنان را توصیه کرده است.",
+      "of": "ad197a7a",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[5].description"
       ]
@@ -12941,8 +12940,8 @@
       ]
     },
     {
-      "t": "درسی پل‌مانند که جبر را به مثلثات گسترش می‌دهد.",
-      "of": "92a4584b",
+      "t": "جایگزینی برای Pre-calculus که مباحث Algebra II، از جمله مثلثات، را با آهنگی کندتر مرور و گسترش می‌دهد؛ دانش‌آموزانی که این درس را می‌گذرانند نمی‌توانند به Pre-calculus یا AP Calculus بروند.",
+      "of": "7819cc79",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[6].description"
       ]
@@ -12983,8 +12982,8 @@
       ]
     },
     {
-      "t": "Precalculus شتاب‌یافته؛ نیازمند نمرهٔ 90 در Algebra II یا 83 در Honors Algebra II.",
-      "of": "72cd7a7a",
+      "t": "یک درس Precalculus با ژرفای بیشتر که دانش‌آموزان را برای AP Calculus آماده می‌کند؛ نیازمند نمرهٔ 90 در Algebra II یا 83 در Honors Algebra II، به‌علاوهٔ توصیهٔ معلم.",
+      "of": "ca8f5006",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[9].description"
       ]
@@ -13004,8 +13003,8 @@
       ]
     },
     {
-      "t": "آمار در سطح دانشگاهی؛ دانش‌آموزان واجد شرایط باید یا AP Calculus AB یا AP Statistics را برگزینند، نه هر دو را.",
-      "of": "a30a9fae",
+      "t": "آمار در سطح دانشگاهی؛ دانش‌آموزان Precalculus که واجد شرایط‌اند باید یا AP Calculus AB یا AP Statistics را برگزینند، نه هر دو را.",
+      "of": "362dd493",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[11].description"
       ]
@@ -13072,8 +13071,8 @@
       ]
     },
     {
-      "t": "ریاضیات IB: تحلیل و رویکردها در سطح استاندارد؛ نیازمند نمرهٔ 83 در Honors Precalculus.",
-      "of": "8bac72c2",
+      "t": "ریاضیات IB: تحلیل و رویکردها در سطح استاندارد؛ نیازمند نمرهٔ 83 در Honors Precalculus یا Honors Algebra II/Precalculus.",
+      "of": "f2f410e4",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[16].description"
       ]
@@ -13121,8 +13120,8 @@
       ]
     },
     {
-      "t": "زیست‌شناسی در سطح دانشگاهی؛ پیش‌نیازها Biology I و Chemistry I.",
-      "of": "7964e9d2",
+      "t": "زیست‌شناسی در سطح دانشگاهی؛ پیش‌نیازها Biology I و Chemistry I یا Honors Chemistry I، به‌علاوهٔ نمرهٔ 90 در درس علوم یک‌سالهٔ جاری (85 در Honors، 83 در AP).",
+      "of": "ef4dcbaa",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[2].description"
       ]
@@ -13233,15 +13232,15 @@
       ]
     },
     {
-      "t": "شیمی شتاب‌یافته؛ نیازمند نمرهٔ 87 در زیست‌شناسی و 87 در یک درس ریاضی.",
-      "of": "2c12a7fb",
+      "t": "شیمی شتاب‌یافته؛ نیازمند نمرهٔ 87 در زیست‌شناسی و 87 در یک درس ریاضی (83 در Honors)، به‌علاوهٔ گذراندن پیشین یا هم‌زمان Algebra II.",
+      "of": "0edaff1c",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[11].description"
       ]
     },
     {
-      "t": "شیمی در سطح دانشگاهی؛ نیازمند گذراندن پیشین یا هم‌زمان Precalculus.",
-      "of": "de4b217c",
+      "t": "شیمی در سطح دانشگاهی؛ نیازمند نمرهٔ 90 در Chemistry I یا 85 در Honors Chemistry، به‌علاوهٔ گذراندن پیشین یا هم‌زمان Precalculus.",
+      "of": "e965809b",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[12].description"
       ]
@@ -13289,8 +13288,8 @@
       ]
     },
     {
-      "t": "فیزیک شتاب‌یافته؛ نیازمند گذراندن پیشین یا هم‌زمان Precalculus.",
-      "of": "5f2b87c2",
+      "t": "نسخه‌ای تحلیلی‌تر از Physics I؛ نیازمند نمرهٔ 87 در درس علوم یک‌سالهٔ جاری و 87 در ریاضی (83 در Honors برای هر یک)، به‌علاوهٔ گذراندن پیشین یا هم‌زمان Precalculus.",
+      "of": "63ff169a",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[16].description"
       ]
@@ -13303,8 +13302,8 @@
       ]
     },
     {
-      "t": "فیزیک دانشگاهی بر پایهٔ حسابان در مکانیک و الکتریسیته و مغناطیس؛ نیازمند گذراندن پیشین یا هم‌زمان AP یا IB Calculus.",
-      "of": "01eaff08",
+      "t": "فیزیک دانشگاهی بر پایهٔ حسابان در مکانیک و الکتریسیته و مغناطیس؛ نیازمند نمرهٔ 90 در Physics I یا 85 در Honors Physics، به‌علاوهٔ گذراندن پیشین یا هم‌زمان AP یا IB Calculus.",
+      "of": "8152288f",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[17].description"
       ]
@@ -13359,8 +13358,8 @@
       ]
     },
     {
-      "t": "یک نیم‌سال شیمی آلی دورهٔ کارشناسی را با بخش کامل آزمایشگاه سنتز بازآفرینی می‌کند؛ نیازمند AP یا IB Chemistry.",
-      "of": "1e9b6642",
+      "t": "یک نیم‌سال شیمی آلی دورهٔ کارشناسی را با بخش کامل آزمایشگاه سنتز بازآفرینی می‌کند؛ نیازمند نمرهٔ 83 در AP یا IB Chemistry.",
+      "of": "e35ca3b6",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[21].description"
       ]
@@ -13444,8 +13443,8 @@
       ]
     },
     {
-      "t": "تاریخ جهان مدرن شتاب‌یافته؛ نیازمند نمرهٔ 87 در تاریخ پایهٔ نهم.",
-      "of": "520601aa",
+      "t": "تاریخ جهان مدرن با منابع دست‌اول بیشتر، خواندن بیشتر و نوشتن مکررتر و ژرف‌تر؛ نیازمند نمرهٔ 87 در تاریخ پایهٔ 9.",
+      "of": "1be2b996",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[2].description"
       ]
@@ -13472,8 +13471,8 @@
       ]
     },
     {
-      "t": "تاریخ ایالات متحده در سطح دانشگاهی که الزام فارغ‌التحصیلی را برآورده می‌کند؛ نیازمند نمرهٔ 87 در Modern World History.",
-      "of": "7d3122a0",
+      "t": "تاریخ ایالات متحده در سطح دانشگاهی که الزام فارغ‌التحصیلی را برآورده می‌کند؛ نیازمند نمرهٔ 87 در Modern World History یا 80 در Honors Modern World History.",
+      "of": "52933b46",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[5].description"
       ]
@@ -13551,7 +13550,7 @@
     },
     {
       "t": "خاستگاه‌ها، تحول و گونه‌های تمدن‌های باستان از حدود 3000 پیش از میلاد تا حدود 1000 میلادی با بهره‌گیری از منابع دست‌اول و یافته‌های باستان‌شناسی.",
-      "of": "ab788014",
+      "of": "f6f422a0",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[12].description"
       ]
@@ -13617,8 +13616,8 @@
       ]
     },
     {
-      "t": "باز برای دانش‌آموزان IB و غیر IB؛ نیازمند گذراندن پیشین یا هم‌زمان Precalculus.",
-      "of": "38c748e4",
+      "t": "باز برای دانش‌آموزان IB و غیر IB در پایه‌های 11 و 12؛ نیازمند نمرهٔ 87 در درس تاریخ جاری (80 در honors) و گذراندن پیشین یا هم‌زمان Precalculus.",
+      "of": "1f86656f",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[16].description"
       ]
@@ -13631,8 +13630,8 @@
       ]
     },
     {
-      "t": "یک توالی پنج‌سطحی ماندارین تنها در سطح Honors؛ ورود نیازمند نمرهٔ 87 در کلاس جاری فرانسه، اسپانیایی یا لاتین است.",
-      "of": "41d90b58",
+      "t": "یک توالی پنج‌سطحی ماندارین در سطح Honors؛ ورود نیازمند نمرهٔ 87 در کلاس جاری فرانسه، اسپانیایی یا لاتین، یا 80 در یک کلاس Honors جاری است.",
+      "of": "f07c6966",
       "at": [
         "charlotte-country-day:divisions[2].departments[4].courses[0].description"
       ]
@@ -13813,8 +13812,8 @@
       ]
     },
     {
-      "t": "یک گروه کر گزینشی با پذیرش از راه آزمون، باز برای پایه‌های 10 تا 12.",
-      "of": "f35be1fc",
+      "t": "یک گروه کر گزینشی برای پایه‌های 10 تا 12، با پذیرش از راه آزمون پس از یک سال Concert Choir یا معادل آن.",
+      "of": "cad51b87",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[2].description"
       ]
@@ -13843,15 +13842,15 @@
       ]
     },
     {
-      "t": "گروه سازهای بادی سطح honors با پذیرش از راه آزمون.",
-      "of": "f2dd1205",
+      "t": "گروه سازهای بادی سطح honors برای دانش‌آموزانی که هم‌اکنون در Symphonic Band دورهٔ Middle School یا Upper School هستند، با پذیرش از راه آزمون.",
+      "of": "1acabd3e",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[4].description"
       ]
     },
     {
-      "t": "گروه سازهای زهی و ارکستر کامل.",
-      "of": "bdb96a05",
+      "t": "گروه ارکستر زهی شامل ویولن، ویولا، ویولنسل، کنترباس و پیانو.",
+      "of": "db2710d9",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[5].description"
       ]
@@ -13892,8 +13891,8 @@
       ]
     },
     {
-      "t": "توانایی تشخیص و توصیف ملودی، هارمونی، بافت، ریتم، فرم، تاریخ و سبک را می‌پروراند؛ نیازمند یک آزمون مهارت ورودی است.",
-      "of": "56f65304",
+      "t": "توانایی تشخیص و توصیف ملودی، هارمونی، بافت، ریتم، فرم، تاریخ و سبک را می‌پروراند؛ نیازمند نمرهٔ 87 در کلاس موسیقی جاری و یک آزمون مهارت ورودی است.",
+      "of": "8fc985dc",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[9].description"
       ]
@@ -14173,8 +14172,8 @@
       ]
     },
     {
-      "t": "ساختمان داده در Java، و سپس پروژه‌هایی که خود دانش‌آموزان طراحی می‌کنند و در برابر شورای آموزشی ارائه می‌دهند؛ نیازمند AP Computer Science.",
-      "of": "ee90340b",
+      "t": "ساختمان داده در Java، و سپس پروژه‌هایی که خود دانش‌آموزان طراحی می‌کنند و در برابر شورای آموزشی ارائه می‌دهند؛ نیازمند AP Computer Science و یک طرح پیشنهادی پروژه که هنگام ثبت‌نام تأیید شده باشد.",
+      "of": "61b7c02b",
       "at": [
         "charlotte-country-day:divisions[2].departments[6].courses[2].description"
       ]
@@ -14293,15 +14292,15 @@
       ]
     },
     {
-      "t": "13 حوزهٔ نام‌بردهٔ برنامهٔ درسی — Reveal Math، هنر TAB، رویکرد Orff، برنامه‌نویسی Scratch 3.0، و آزمون آمادگی جسمانی CHAMP.",
-      "of": "204cb66e",
+      "t": "12 حوزهٔ نام‌بردهٔ برنامهٔ درسی — Reveal Math، هنر TAB، رویکرد Orff، برنامه‌نویسی Scratch 3.0، و آزمون آمادگی جسمانی CHAMP.",
+      "of": "ef870e7d",
       "at": [
         "cannon:divisions[0].teaser"
       ]
     },
     {
-      "t": "مدرسهٔ Cannon به‌جای فهرست درس‌ها، 12 حوزهٔ نام‌بردهٔ برنامهٔ درسی را برای هر پایه از JrK تا 4 منتشر می‌کند. نشانی /academics/lower-school/curriculum خطای 404 برمی‌گرداند.",
-      "of": "1f2c2269",
+      "t": "مدرسهٔ Cannon به‌جای فهرست درس‌ها، تا 12 حوزهٔ نام‌بردهٔ برنامهٔ درسی را برای هر پایه از JrK تا 4 منتشر می‌کند.",
+      "of": "c88967f9",
       "at": [
         "cannon:divisions[0].notPublished"
       ]
@@ -14390,8 +14389,8 @@
       ]
     },
     {
-      "t": "از پایهٔ 3 به بعد از الگوی TAB (آموزش برای رفتار هنری) بهره می‌گیرد تا دانش‌آموزان مانند هنرمندان کار کنند و بیندیشند.",
-      "of": "94cf7f71",
+      "t": "از پایهٔ 2 به بعد از الگوی TAB (آموزش برای رفتار هنری) بهره می‌گیرد، و تا پایهٔ 3 دانش‌آموزان مانند هنرمندان کار می‌کنند و می‌اندیشند.",
+      "of": "0c92a574",
       "at": [
         "cannon:divisions[0].departments[2].courses[0].description"
       ]
@@ -14453,22 +14452,22 @@
       ]
     },
     {
-      "t": "به چالش‌ها و ویژگی‌های معمول کودکان بر حسب سن و مرحلهٔ رشد می‌پردازد.",
-      "of": "910db73d",
+      "t": "صفحه‌های پایه‌های مدرسه، خانواده‌ها را برای آشنایی با چالش‌ها و ویژگی‌های معمول کودکان بر حسب سن و مرحلهٔ رشد به صفحهٔ School Counseling ارجاع می‌دهند.",
+      "of": "1e3e8c84",
       "at": [
         "cannon:divisions[0].departments[3].courses[3].description"
       ]
     },
     {
-      "t": "شش درس اصلی به‌علاوهٔ چهار مسیر ریاضی — یک چرخش در پایهٔ 5 میان هر سه زبان جهانی، و کارگاه ساخت ThinkTank.",
-      "of": "48460261",
+      "t": "هفت حوزهٔ درسی برای هر پایه، یک چرخش در پایهٔ 5 میان هر سه زبان جهانی، و کارگاه ساخت ThinkTank. گروهی برگزیده در پایهٔ 6 Pre-Algebra، در پایهٔ 7 Algebra I و در پایهٔ 8 Geometry را می‌گذرانند.",
+      "of": "224aa8e9",
       "at": [
         "cannon:divisions[1].teaser"
       ]
     },
     {
-      "t": "مدرسهٔ Cannon برنامهٔ درسی Middle School را به‌صورت توصیف موضوعی هر پایه منتشر می‌کند و نه فهرستی از درس‌های نام‌برده. هیچ معادلی برای فهرست 44 صفحه‌ای Upper School در Middle School وجود ندارد.",
-      "of": "75748668",
+      "t": "مدرسهٔ Cannon برنامهٔ درسی Middle School را به‌صورت توصیف موضوعی هر پایه منتشر می‌کند و نه فهرستی از درس‌های نام‌برده. این مدرسه برای Middle School هیچ معادلی از فهرست 44 صفحه‌ای Upper School منتشر نمی‌کند.",
+      "of": "f2f08aa0",
       "at": [
         "cannon:divisions[1].notPublished"
       ]
@@ -14549,8 +14548,8 @@
       ]
     },
     {
-      "t": "گزینه‌ای شتاب‌یافته که به دانش‌آموزان پایهٔ هفتم امکان می‌دهد Algebra I را بردارند.",
-      "of": "4f2371ef",
+      "t": "برنامه‌ای شتاب‌یافته که به گروهی برگزیده از دانش‌آموزان پایهٔ هفتم امکان می‌دهد Algebra I را بگذرانند.",
+      "of": "f8de9288",
       "at": [
         "cannon:divisions[1].departments[1].courses[2].description"
       ]
@@ -14675,15 +14674,15 @@
       ]
     },
     {
-      "t": "چاپ سه‌بعدی، واقعیت مجازی، پهپاد، رباتیک، طراحی CAD و برنامه‌نویسی رایانه‌ای را در کارگاه ساخت ThinkTank در هم می‌آمیزد.",
-      "of": "6e09c575",
+      "t": "فعالیت‌هایی از جمله چاپ 3D، واقعیت مجازی، پهپاد، رباتیک، طراحی CAD و برنامه‌نویسی رایانه‌ای را در کارگاه ساخت ThinkTank در هم می‌آمیزد.",
+      "of": "8f15913d",
       "at": [
         "cannon:divisions[1].departments[3].courses[3].description"
       ]
     },
     {
-      "t": "104 درس در 8 گروه آموزشی — 14 درس AP به‌علاوهٔ 13 درس Advanced Topics طراحی‌شده توسط هیئت علمی، که هر یک با یک Signature Learning Experience به اوج می‌رسد.",
-      "of": "23eb7684",
+      "t": "104 درس در 8 گروه آموزشی — 14 درس AP به‌علاوهٔ 13 درس Advanced Topics طراحی‌شده توسط هیئت علمی، که هر یک با یک Signature Learning Experience یا یک آزمون پایانی جامع به اوج می‌رسد.",
+      "of": "a56b67f0",
       "at": [
         "cannon:divisions[2].teaser"
       ]
@@ -14696,8 +14695,8 @@
       ]
     },
     {
-      "t": "درسی پایه‌ای که تفکر نقادانه، مهارت‌های تحلیلی و بیان خلاق را در خاطره‌نگاری، نمایشنامه، رمان، شعر و داستان کوتاه می‌پرورد.",
-      "of": "12947dfc",
+      "t": "درسی پایه‌ای که تفکر نقادانه، مهارت‌های تحلیلی و بیان خلاق را در ژانرهایی از جمله خاطره‌نگاری، نمایشنامه، رمان، شعر و داستان کوتاه می‌پرورد.",
+      "of": "d196f2af",
       "at": [
         "cannon:divisions[2].departments[0].courses[0].description"
       ]
@@ -14933,7 +14932,7 @@
     },
     {
       "t": "دانش‌آموزان را برای ریاضیات سطح دانشگاهی آماده می‌کند و پیش‌نیاز AP Calculus است.",
-      "of": "8b1f27ba",
+      "of": "7a5977a8",
       "at": [
         "cannon:divisions[2].departments[1].courses[6].description"
       ]
@@ -14946,8 +14945,8 @@
       ]
     },
     {
-      "t": "کاوشی پژوهش‌محور در گونه‌های توابع که پدیده‌های واقعی را مدل می‌کنند، مناسب‌تر برای دانش‌آموزانی که در مسیر AP Calculus BC هستند.",
-      "of": "61505b39",
+      "t": "کاوشی پژوهش‌محور در گونه‌های توابع که پدیده‌های واقعی را مدل می‌کنند، مناسب‌تر برای دانش‌آموزانی که در مسیر AP Calculus BC هستند یا قصد دارند چند سطح حسابان را در دانشگاه بگذرانند.",
+      "of": "e6d44b91",
       "at": [
         "cannon:divisions[2].departments[1].courses[7].description"
       ]
@@ -15093,8 +15092,8 @@
       ]
     },
     {
-      "t": "Honors Chemistry را با آهنگ سریع‌تر به‌علاوهٔ هندسهٔ مولکولی، تناوب و شیمی اسید و باز در بر می‌گیرد.",
-      "of": "4ecd131b",
+      "t": "Honors Chemistry را با آهنگ سریع‌تر به‌علاوهٔ مباحث افزوده‌ای مانند هندسهٔ مولکولی، تناوب و شیمی اسید و باز در بر می‌گیرد.",
+      "of": "ee7fcc14",
       "at": [
         "cannon:divisions[2].departments[2].courses[5].description"
       ]
@@ -15721,8 +15720,8 @@
       ]
     },
     {
-      "t": "کاوش عملی رس، مفتول، چوب، گچ و اشیای یافته برای ساخت مجسمه، چیدمان و طرح‌های کاربردی.",
-      "of": "a8f00551",
+      "t": "کاوش عملی موادی مانند رس، مفتول، چوب، گچ و اشیای یافته برای ساخت مجسمه، چیدمان و طرح‌های کاربردی.",
+      "of": "12c6d0ea",
       "at": [
         "cannon:divisions[2].departments[5].courses[2].description"
       ]
@@ -15820,7 +15819,7 @@
     },
     {
       "t": "برای دانش‌آموزان باتجربه که به بازیگری عمومی، کارگردانی یا طراحی تولید متعهد می‌شوند، از جمله Fall One-Acts و Arts Jam.",
-      "of": "0dff9581",
+      "of": "58335509",
       "at": [
         "cannon:divisions[2].departments[5].courses[9].description"
       ]
@@ -15868,8 +15867,8 @@
       ]
     },
     {
-      "t": "بر پایهٔ گروه سازی دورهٔ راهنمایی در Concert Band، Big Band و گروه‌های کوچک مجلسی کلاسیک.",
-      "of": "93f629ff",
+      "t": "بر پایهٔ گروه سازی دورهٔ راهنمایی در Concert Band، Big Band و گروه‌های کوچک مجلسی کلاسیک بنا می‌شود؛ دانش‌آموزانی که کمتر از دو سال در گروه سازی دورهٔ راهنمایی بوده‌اند پیش از ثبت‌نام آزمون می‌دهند.",
+      "of": "4598c226",
       "at": [
         "cannon:divisions[2].departments[5].courses[12].description"
       ]
@@ -15952,8 +15951,8 @@
       ]
     },
     {
-      "t": "کاوش پروژه‌محور در فرایند مهندسی طراحی تکرارشونده در نجاری، خیاطی، الکترونیک و CAD.",
-      "of": "aaa38c9a",
+      "t": "کاوش پروژه‌محور در فرایند مهندسی طراحی تکرارشونده، با بهره‌گیری از ابزارهایی در حوزه‌هایی مانند نجاری، خیاطی، الکترونیک پایه و CAD.",
+      "of": "67efad98",
       "at": [
         "cannon:divisions[2].departments[5].courses[18].description"
       ]
@@ -16015,8 +16014,8 @@
       ]
     },
     {
-      "t": "مبانی علوم کامپیوتر از راه طراحی شیءگرا در Java، از جمله ساختمان داده و الگوریتم.",
-      "of": "4d4a492f",
+      "t": "مبانی علوم کامپیوتر از راه طراحی شیءگرا در Java، از جمله ساختمان داده و الگوریتم؛ تنها برای دانش‌آموزان سال سوم و چهارم.",
+      "of": "e524f723",
       "at": [
         "cannon:divisions[2].departments[6].courses[1].description"
       ]
@@ -16392,8 +16391,8 @@
       ]
     },
     {
-      "t": "درس ریاضی جایگزین سال آخر، برای دانش‌آموزانی که به پیش‌حساب ادامه نمی‌دهند.",
-      "of": "9bb80e16",
+      "t": "یک درس ریاضی در سطح college prep.",
+      "of": "4110ae16",
       "at": [
         "covenant-day:divisions[0].departments[1].courses[5].description"
       ]
@@ -17099,8 +17098,8 @@
       ]
     },
     {
-      "t": "نقش‌های رهبری در کادر سالنامه.",
-      "of": "4baf69b3",
+      "t": "تولید سالنامهٔ مدرسه در سطح honors.",
+      "of": "344bcb90",
       "at": [
         "covenant-day:divisions[0].departments[6].courses[14].description"
       ]
@@ -17141,8 +17140,8 @@
       ]
     },
     {
-      "t": "آموزش دانش‌آموزان به‌عنوان مربیان سوادآموزی برای جامعه.",
-      "of": "a133cf4a",
+      "t": "درسی آماده‌ساز دانشگاه در گروه آموزشی Restoration & Sustainability.",
+      "of": "184e3d97",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[0].description"
       ]
@@ -17155,8 +17154,8 @@
       ]
     },
     {
-      "t": "درس کسب‌وکار این گروه که دانش‌آموزان آن را اداره می‌کنند.",
-      "of": "2ebc9521",
+      "t": "درس ContainIt این گروه آموزشی؛ تیم ContainIt مدرسه کانتینرهای حمل‌ونقل کارکرده را به فضای قابل سکونت تبدیل می‌کند.",
+      "of": "1ae97fa7",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[1].description"
       ]
@@ -17197,8 +17196,8 @@
       ]
     },
     {
-      "t": "برنامهٔ خدمت-ساخت این گروه آموزشی به‌عنوان یک درس واحددار.",
-      "of": "1a98bd31",
+      "t": "برنامهٔ خدمت این گروه آموزشی به‌عنوان یک درس واحددار.",
+      "of": "a2ea2bd4",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[4].description"
       ]
@@ -17261,8 +17260,8 @@
       ]
     },
     {
-      "t": "هفت حوزهٔ درسی برای هر پایه، به‌همراه سه مسیر نام‌دار honors و مجموعه‌ای از هفت درس اختیاری — لاتین از پایهٔ 6 و Applied English در پایه‌های 6 و 7.",
-      "of": "f84d89ac",
+      "t": "هفت حوزهٔ درسی برای هر پایه، به‌همراه چهار درس نام‌دار honors و مجموعه‌ای از هفت درس اختیاری — لاتین از پایهٔ 6 و Applied English در پایه‌های 6 و 7.",
+      "of": "4ce9491e",
       "at": [
         "covenant-day:divisions[1].teaser"
       ]
@@ -17410,8 +17409,8 @@
       ]
     },
     {
-      "t": "نیمهٔ نخست توالی لاتین Middle School؛ اسپانیایی به‌عنوان درس اختیاری ارائه می‌شود.",
-      "of": "bc5a2dff",
+      "t": "ادامهٔ توالی لاتین Middle School که از پایهٔ 6 آغاز می‌شود؛ اسپانیایی به‌عنوان درس اختیاری ارائه می‌شود.",
+      "of": "9ae52e79",
       "at": [
         "covenant-day:divisions[1].departments[1].courses[7].description"
       ]
@@ -17452,8 +17451,8 @@
       ]
     },
     {
-      "t": "دستگاه اعداد حقیقی، عبارت‌ها، معادله‌های خطی و درجه‌دوم و نمودارهایشان، نامعادله‌ها، دستگاه‌های معادلات، چندجمله‌ای‌ها، روابط، توابع، و عبارت‌های رادیکالی و گویا.",
-      "of": "9322bae1",
+      "t": "دستگاه اعداد حقیقی، عبارت‌ها، معادله‌های خطی و درجه‌دوم و نمودارهایشان، نامعادله‌ها، دستگاه‌های معادلات، چندجمله‌ای‌ها، روابط، توابع، عبارت‌ها و معادله‌های رادیکالی، و عبارت‌های گویا.",
+      "of": "1d1a628f",
       "at": [
         "covenant-day:divisions[1].departments[2].courses[3].description"
       ]
@@ -17534,8 +17533,8 @@
       ]
     },
     {
-      "t": "پنج تا شش حوزهٔ درسی برای هر یک از هفت پایه، به‌همراه شش درس نام‌دار Specials. از جملهٔ آن‌ها CREATE Junior، اسپانیایی از Junior Kindergarten، و فلوت‌ریکوردر در پایهٔ 4 پیش از سازهای بادی گروه در پایهٔ 5 است.",
-      "of": "f33f8618",
+      "t": "پنج حوزهٔ درسی برای هر یک از هفت پایه، به‌همراه شش درس نام‌دار Specials. از جملهٔ آن‌ها CREATE Junior، اسپانیایی، و فلوت‌ریکوردر در پایهٔ 4 پیش از سازهای بادی گروه در پایهٔ 5 است.",
+      "of": "29752e20",
       "at": [
         "covenant-day:divisions[2].teaser"
       ]
@@ -17781,8 +17780,8 @@
       ]
     },
     {
-      "t": "ارزش مکانی تا 10,000، گردکردن، محاسبهٔ ذهنی و تخمین · مدل میله‌ای برای مسئله‌های کلامی · جدول ضرب 0 تا 12 · ضرب و تقسیم 1 و 2 رقمی · کسرها و اعشار · زاویه‌ها و خط‌ها · مساحت و محیط · تبدیل یکاهای اندازه‌گیری.",
-      "of": "c4fdbffb",
+      "t": "ارزش مکانی تا 10,000، گردکردن، محاسبهٔ ذهنی و تخمین · جمع و تفریق تا 10,000 · مدل میله‌ای برای مسئله‌های کلامی · جدول ضرب 0 تا 12 · ضرب و تقسیم 1 و 2 رقمی · کسرها و اعشار · زاویه‌ها و خط‌ها · مساحت و محیط · تبدیل یکاهای اندازه‌گیری.",
+      "of": "7b7af205",
       "at": [
         "covenant-day:divisions[2].departments[4].courses[1].description"
       ]
@@ -17897,7 +17896,6 @@
       "of": "244e8099",
       "at": [
         "covenant-day:divisions[2].departments[7].name",
-        "davidson-day:divisions[0].departments[0].courses[1].title",
         "charlotte-prep:divisions[0].departments[2].name"
       ]
     },
@@ -17914,15 +17912,15 @@
       ]
     },
     {
-      "t": "مهارت، ظرافت کار دست، زیبایی، وضوح و توازن که از راه نقاشی، طراحی، سفالگری، چاپ‌دستی، منظره و چهره‌نگاری تمرین می‌شود و در Art Walk سالانهٔ بهار به نمایش درمی‌آید.",
-      "of": "c401dd07",
+      "t": "مهارت، ظرافت کار دست، زیبایی، وضوح، توازن و دیگر عناصر ماندگار که از راه نقاشی، طراحی، سفالگری، چاپ‌دستی، منظره، چهره‌نگاری و بسیاری پروژه‌های دیگر تمرین می‌شود و در Art Walk سالانهٔ بهار به نمایش درمی‌آید.",
+      "of": "bb1f09c1",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[0].description"
       ]
     },
     {
-      "t": "موسیقی آوازی، سازی و کوبه‌ای از آهنگ‌سازان کلاسیک و مدرن · پایهٔ 4 فلوت‌ریکوردر و پایهٔ 5 سازهای بادی گروه را می‌آموزد · گروه کر کودکان و کلاس‌های خصوصی پیانو، آواز و گیتار در دسترس است.",
-      "of": "eba018f6",
+      "t": "موسیقی آوازی، سازی و کوبه‌ای از آهنگ‌سازان کلاسیک و مدرن · پایهٔ 4 فلوت‌ریکوردر و پایهٔ 5 سازهای بادی گروه را می‌آموزد · گروه کر کودکان برای پایه‌های 4 و 5 و کلاس‌های خصوصی پیانو، آواز و گیتار در دسترس است.",
+      "of": "96360919",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[1].description"
       ]
@@ -18002,20 +18000,6 @@
       "of": "846b20e9",
       "at": [
         "davidson-day:divisions[0].departments[0].courses[0].description"
-      ]
-    },
-    {
-      "t": "K–Gr 4",
-      "of": "4d15b9a6",
-      "at": [
-        "davidson-day:divisions[0].departments[0].courses[1].tag"
-      ]
-    },
-    {
-      "t": "هنر، زبان جهانی، کتابخانه، تربیت بدنی و موسیقی، به‌علاوهٔ آزمایشگاه‌های علوم و فناوری Lower School برای آزمایش عملی.",
-      "of": "1ad6c211",
-      "at": [
-        "davidson-day:divisions[0].departments[0].courses[1].description"
       ]
     },
     {
@@ -18128,8 +18112,8 @@
       ]
     },
     {
-      "t": "درس شتاب‌یافته پیش از Honors Algebra 1.",
-      "of": "b80cc5b1",
+      "t": "درس شتاب‌یافته‌ای که به Algebra 1 یا Honors Algebra 1 می‌انجامد.",
+      "of": "f526b2dd",
       "at": [
         "davidson-day:divisions[1].departments[0].courses[6].description"
       ]
@@ -18198,27 +18182,6 @@
       ]
     },
     {
-      "t": "AFAR International Research",
-      "of": "d06fab36",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].title"
-      ]
-    },
-    {
-      "t": "Gr 7+",
-      "of": "728b4736",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].tag"
-      ]
-    },
-    {
-      "t": "کار میدانی باستان‌شناسی دارای اعتبار از پایهٔ 7 آغاز می‌شود، در محوطه‌های مایا، اسپانیای سده‌های میانه و پرتغال رومی.",
-      "of": "f36fcceb",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].description"
-      ]
-    },
-    {
       "t": "حدود 75 درس فهرست‌شده در 9 گروه آموزشی — 26 درس AP، درس Calculus III پس از AP، و سه مسیر Diploma Distinction.",
       "of": "4f147650",
       "at": [
@@ -18275,8 +18238,8 @@
       ]
     },
     {
-      "t": "درسی ادبیات‌محور بر پایهٔ 1984، The Stranger، The Great Gatsby و Frankenstein، که تحلیل ادبی و ساخت استدلال را می‌پرورد.",
-      "of": "64240e58",
+      "t": "درسی ادبیات‌محور با خواندن رمان‌هایی مانند 1984، The Stranger، The Great Gatsby و Frankenstein، که تحلیل ادبی و ساخت استدلال را می‌پرورد.",
+      "of": "f1904d3f",
       "at": [
         "davidson-day:divisions[2].departments[0].courses[4].description"
       ]
@@ -18442,8 +18405,8 @@
       ]
     },
     {
-      "t": "توابع چندجمله‌ای به‌صورت ژرف به‌علاوهٔ مدل‌های گویا، رادیکالی، لگاریتمی و نمایی، که کار با ماشین‌حساب نمودارساز بخش جدایی‌ناپذیر آن است.",
-      "of": "cad608ff",
+      "t": "توابع چندجمله‌ای به‌صورت ژرف به‌علاوهٔ توابع گویا و رادیکالی، اعداد مختلط، و مدل‌های لگاریتمی و نمایی، که کار با ماشین‌حساب نمودارساز بخش جدایی‌ناپذیر آن است.",
+      "of": "fc8008ee",
       "at": [
         "davidson-day:divisions[2].departments[1].courses[4].description"
       ]
@@ -18562,8 +18525,8 @@
       ]
     },
     {
-      "t": "مرور الزامی تاریخ جهان در سال دوم.",
-      "of": "33355f2e",
+      "t": "الزام تاریخ جهان در سال دوم را برآورده می‌کند، که AP World History (Modern) نیز آن را برآورده می‌کند؛ مدرسه هیچ توصیفی از این درس Honors منتشر نمی‌کند.",
+      "of": "c1ebf9a1",
       "at": [
         "davidson-day:divisions[2].departments[2].courses[2].description"
       ]
@@ -19214,43 +19177,57 @@
       ]
     },
     {
+      "t": "AFAR International Research",
+      "of": "d06fab36",
+      "at": [
+        "davidson-day:divisions[2].departments[8].courses[7].title"
+      ]
+    },
+    {
+      "t": "کار میدانی باستان‌شناسی معتبر و با هدایت متخصصان در خارج از کشور، در محوطه‌های مایا، اسپانیای سده‌های میانه و پرتغال رومی.",
+      "of": "36ecd3ba",
+      "at": [
+        "davidson-day:divisions[2].departments[8].courses[7].description"
+      ]
+    },
+    {
       "t": "Forensics & Zoology Honors",
       "of": "d2e8ab1f",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[7].title"
+        "davidson-day:divisions[2].departments[8].courses[8].title"
       ]
     },
     {
       "t": "به‌عنوان یکی از گزینه‌های اصلی STEMM Distinction و در جدول درس‌های نمایهٔ مدرسه فهرست شده است؛ هیچ توصیف درسی منتشر نشده است.",
       "of": "efd17fd5",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[7].description"
+        "davidson-day:divisions[2].departments[8].courses[8].description"
       ]
     },
     {
       "t": "Independent Study",
       "of": "0185de38",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].title"
+        "davidson-day:divisions[2].departments[8].courses[9].title"
       ]
     },
     {
       "t": "قبول/مردود",
       "of": "7ced76bd",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].tag"
+        "davidson-day:divisions[2].departments[8].courses[9].tag"
       ]
     },
     {
       "t": "دوره‌ای تحصیلی که خود دانش‌آموز طراحی می‌کند با یک ناظر از هیئت علمی، و نیازمند چکیده و سرفصل تأییدشده است؛ از معدل کنار گذاشته می‌شود.",
       "of": "75301aca",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].description"
+        "davidson-day:divisions[2].departments[8].courses[9].description"
       ]
     },
     {
-      "t": "78 عنوان درس در سرتاسر 9 دپارتمان — از جمله 16 دورهٔ Advanced Placement — از High School Curriculum Guide سال 2026-27.",
-      "of": "f1b73320",
+      "t": "77 عنوان درس در سرتاسر 9 دپارتمان — از جمله 16 دورهٔ Advanced Placement — برگرفته از فهرست درس‌های سال 2026-27 مدرسه و الزامات فارغ‌التحصیلی.",
+      "of": "b6302f41",
       "at": [
         "carmel-christian:divisions[0].teaser"
       ]
@@ -19267,7 +19244,8 @@
       "of": "4072c999",
       "at": [
         "carmel-christian:divisions[0].departments[0].courses[0].description",
-        "carmel-christian:divisions[0].departments[0].courses[1].description"
+        "carmel-christian:divisions[0].departments[0].courses[1].description",
+        "carmel-christian:divisions[0].departments[0].courses[3].description"
       ]
     },
     {
@@ -19296,13 +19274,6 @@
       "of": "94436114",
       "at": [
         "carmel-christian:divisions[0].departments[0].courses[3].title"
-      ]
-    },
-    {
-      "t": "یک درس نهاییِ جهان‌بینی در توالی Biblical Studies.",
-      "of": "19fdf8d8",
-      "at": [
-        "carmel-christian:divisions[0].departments[0].courses[3].description"
       ]
     },
     {
@@ -19509,8 +19480,8 @@
       ]
     },
     {
-      "t": "precalculus honors — توابع و مثلثات پیش از حساب دیفرانسیل و انتگرال.",
-      "of": "9b7144a1",
+      "t": "Precalculus در سطح honors.",
+      "of": "4be9c15d",
       "at": [
         "carmel-christian:divisions[0].departments[2].courses[7].description"
       ]
@@ -19837,8 +19808,8 @@
       ]
     },
     {
-      "t": "یک گزینهٔ آنلاین زبان جهانی برای زبان‌هایی فراتر از اسپانیایی.",
-      "of": "2300f410",
+      "t": "یک گزینهٔ آنلاین زبان جهانی.",
+      "of": "de88952b",
       "at": [
         "carmel-christian:divisions[0].departments[5].courses[7].description"
       ]
@@ -19851,8 +19822,8 @@
       ]
     },
     {
-      "t": "الزام سلامت.",
-      "of": "9a426895",
+      "t": "یک درس سلامت که جزو 1 واحد Health & PE لازم برای فارغ‌التحصیلی حساب می‌شود.",
+      "of": "e5250942",
       "at": [
         "carmel-christian:divisions[0].departments[6].courses[0].description"
       ]
@@ -19999,8 +19970,8 @@
       ]
     },
     {
-      "t": "یک درس مقدماتی تئاتر.",
-      "of": "112dd5f2",
+      "t": "یک درس تئاتر.",
+      "of": "1228458a",
       "at": [
         "carmel-christian:divisions[0].departments[7].courses[8].description"
       ]
@@ -20196,8 +20167,8 @@
       ]
     },
     {
-      "t": "Middle School فهرست درس‌های نام‌گذاری‌شدهٔ خودش را منتشر می‌کند — یک هستهٔ درسی کامل به‌همراه مجموعهٔ اختیاری‌های به‌طور غیرمعمول گسترده — از Middle School Curriculum Guide سال 2024-25.",
-      "of": "c86aa979",
+      "t": "Middle School فهرست درس‌های نام‌گذاری‌شدهٔ خودش را — یک هستهٔ درسی کامل به‌همراه مجموعهٔ اختیاری‌های به‌طور غیرمعمول گسترده — در صفحهٔ برنامهٔ درسی‌اش منتشر می‌کند که به Middle School Curriculum Guide سال 2024-25 پیوند می‌دهد.",
+      "of": "84a9097e",
       "at": [
         "carmel-christian:divisions[1].teaser"
       ]
@@ -20373,8 +20344,8 @@
       ]
     },
     {
-      "t": "Algebra I دبیرستان که برای واحد honors در دورهٔ راهنمایی گرفته می‌شود.",
-      "of": "003b87af",
+      "t": "درس Algebra I در سطح honors.",
+      "of": "a89fc10b",
       "at": [
         "carmel-christian:divisions[1].departments[2].courses[5].description"
       ]
@@ -20597,8 +20568,8 @@
       ]
     },
     {
-      "t": "گروه پرستش chapel با گزینش از راه آزمون.",
-      "of": "54a220a1",
+      "t": "گروه موسیقی پرستشی دورهٔ راهنمایی.",
+      "of": "c0bfd0cb",
       "at": [
         "carmel-christian:divisions[1].departments[7].courses[5].description"
       ]
@@ -20653,8 +20624,8 @@
       ]
     },
     {
-      "t": "یک درس اختیاری تئاتر پیشرفته.",
-      "of": "cf630518",
+      "t": "یک درس اختیاری تئاتر.",
+      "of": "a751a3a4",
       "at": [
         "carmel-christian:divisions[1].departments[7].courses[9].description"
       ]
@@ -20779,15 +20750,15 @@
       ]
     },
     {
-      "t": "پنج درس هسته‌ای به‌همراه شش Special Areas، که هر کدام به‌تفکیک مقطع در Elementary Course Description Guide سال 2026-27 توصیف شده‌اند — سوادآموزی ساختارمند (Orton-Gillingham) و یک آزمایشگاه STEM عملی از مهدکودک.",
-      "of": "300044c7",
+      "t": "پنج درس هسته‌ای که به‌تفکیک مقطع توصیف شده‌اند و شش Special Areas برای همهٔ مقطع‌ها، برگرفته از Elementary Course Description Guide سال 2026-27. این راهنما سوادآموزی ساختارمند (Orton-Gillingham) و یک آزمایشگاه STEM عملی از مهدکودک را توصیف می‌کند.",
+      "of": "2dedd0b1",
       "at": [
         "carmel-christian:divisions[2].teaser"
       ]
     },
     {
-      "t": "راهنمای دبستان هر درس را به‌تفکیک مقطع توصیف می‌کند (برای نمونه «Math» برای هر مقطع) نه به‌عنوان درس‌هایی با عنوان‌های جداگانه، که برای K–5 عادی است. ردیف‌های زیر توصیف‌های خودِ راهنما را برای هر مقطع در بر دارند.",
-      "of": "037ca082",
+      "t": "راهنمای دبستان هر درس را به‌تفکیک مقطع توصیف می‌کند (برای نمونه «Math» برای هر مقطع) نه به‌عنوان درس‌هایی با عنوان‌های جداگانه، که برای K–5 عادی است. هر ردیف زیر متن راهنما را برای یک درس، از مهدکودک تا کلاس 5، خلاصه می‌کند.",
+      "of": "a5ae5000",
       "at": [
         "carmel-christian:divisions[2].notPublished"
       ]
@@ -20834,15 +20805,15 @@
       ]
     },
     {
-      "t": "یک بلوک سوادآموزی چندحسی ریشه‌گرفته در Science of Reading، با آواشناسی Orton-Gillingham و این رشته‌ها: آگاهی واجی · آواشناسی و صرف · خواندن (Accelerated Reader از کلاس 1) · دستور زبان (Analytical Grammar تا کلاس 5) · نگارش و خوشنویسی.",
-      "of": "6ab0057a",
+      "t": "یک بلوک سوادآموزی چندحسی ریشه‌گرفته در Science of Reading، با آواشناسی Orton-Gillingham و این رشته‌ها: آگاهی واجی · آواشناسی و صرف · رمزگشایی · خواندن (Accelerated Reader از کلاس 1) · دستور زبان (Analytical Grammar تا کلاس 5) · نگارش و خوشنویسی.",
+      "of": "53aeec38",
       "at": [
         "carmel-christian:divisions[2].departments[0].courses[2].description"
       ]
     },
     {
-      "t": "مطالعهٔ عملی و پرسش‌محور آفرینش خدا در سرتاسر علوم زیستی، فیزیکی و زمین/فضا، که به‌تفکیک مقطع از گیاهان و ماده به آب و آب‌وهوا، انرژی و محیط‌ها، و سامانه‌های زنده پیش می‌رود.",
-      "of": "b804c69b",
+      "t": "مطالعهٔ عملی و پرسش‌محور آفرینش خدا در سرتاسر علوم زیستی، فیزیکی و زمین/فضا، که به‌تفکیک مقطع از راه آب و آب‌وهوا، حرکت و ماده، انرژی و محیط‌ها، و سامانه‌های زنده پیش می‌رود.",
+      "of": "e39770db",
       "at": [
         "carmel-christian:divisions[2].departments[0].courses[3].description"
       ]
@@ -21072,8 +21043,8 @@
       ]
     },
     {
-      "t": "آشنایی کلی با نویسندگی، ساختار و خط روایی کتاب‌مقدس، توصیه‌شده برای دانش‌آموزانی که تازه به مدرسهٔ مسیحی آمده‌اند.",
-      "of": "e78b749a",
+      "t": "آشنایی کلی با نویسندگی، ساختار و خط روایی کتاب‌مقدس، توصیه‌شده برای دانش‌آموزانی که تازه به مدرسهٔ مسیحی یا HGCS آمده‌اند، با ثبت‌نام بر پایهٔ توصیهٔ مدیریت مدرسه.",
+      "of": "3433b00d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[0].courses[10].description"
       ]
@@ -21191,8 +21162,8 @@
       ]
     },
     {
-      "t": "تحلیل بلاغی در گونه‌هایی که بیشتر غیرداستانی‌اند، با آهنگ یک نیم‌سال انگلیسی دانشگاهی.",
-      "of": "ddde440b",
+      "t": "تحلیل بلاغی در گونه‌هایی که بیشتر غیرداستانی‌اند، معادل یک نیم‌سال انگلیسی دانشگاهی.",
+      "of": "4dc5a8db",
       "at": [
         "hickory-grove-christian:divisions[0].departments[1].courses[8].description"
       ]
@@ -21247,8 +21218,8 @@
       ]
     },
     {
-      "t": "روش‌های حل مسئله در کاربردها — دستگاه معادلات، چندجمله‌ای‌ها، رادیکال‌ها، معادلات درجه دو، دنباله‌ها و احتمال.",
-      "of": "7f9ea31a",
+      "t": "روش‌های حل مسئله در کاربردها — معادلات کسری، خط و شیب، دستگاه معادلات، چندجمله‌ای‌ها، رادیکال‌ها، معادلات درجه دو، دنباله‌ها، سری‌ها و احتمال.",
+      "of": "97ddabea",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[3].description"
       ]
@@ -21317,15 +21288,15 @@
       ]
     },
     {
-      "t": "مسیر سریع‌تر، تا سری‌ها، سری‌های توانی، چندجمله‌ای‌های تیلور و حساب پارامتری، برداری و قطبی؛ تنها در نیم‌سال دوم ارائه می‌شود.",
-      "of": "e69112f9",
+      "t": "سری‌ها، سری‌های توانی، چندجمله‌ای‌های تیلور و حساب پارامتری، برداری و قطبی به‌عنوان مباحث تازه، همراه با مرور حد، مشتق‌گیری و انتگرال‌گیری؛ تنها در نیم‌سال دوم ارائه می‌شود.",
+      "of": "f4cb98b0",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[9].description"
       ]
     },
     {
-      "t": "گردآوری، تحلیل و نتیجه‌گیری از داده — کاوش، احتمال، استنباط و رگرسیون.",
-      "of": "05e09daa",
+      "t": "گردآوری، تحلیل و نتیجه‌گیری از داده — کاوش، احتمال و متغیرهای تصادفی، استنباط، توزیع‌های دوجمله‌ای و هندسی، برآوردها، روش‌های خی‌دو و رگرسیون.",
+      "of": "004fbf8d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[10].description"
       ]
@@ -21366,8 +21337,8 @@
       ]
     },
     {
-      "t": "شیمی آلی، انرژی‌شناسی سلولی، فتوسنتز و DNA — پیش‌نیازی که دانش‌آموز را واجد شرایط AP Biology می‌کند.",
-      "of": "88fa3f54",
+      "t": "مضمون‌های اصلی زیست‌شناسی از جمله شیمی آلی، انرژی‌شناسی سلولی، فتوسنتز، تولیدمثل سلولی و DNA — پیش‌نیازی که دانش‌آموز را واجد شرایط AP Biology می‌کند.",
+      "of": "f46fc08f",
       "at": [
         "hickory-grove-christian:divisions[0].departments[3].courses[2].description"
       ]
@@ -21471,8 +21442,8 @@
       ]
     },
     {
-      "t": "درسی آزمایشگاه‌محور با تمرکز بر آب‌وهوا و اقلیم — جو، توفان‌های شدید، زمین‌ساخت ورقه‌ای و کاوش فضایی.",
-      "of": "8bdec85a",
+      "t": "درسی آزمایشگاه‌محور با تمرکز بر آب‌وهوا و اقلیم، که مباحثی مانند جو، توفان‌های شدید، زمین‌ساخت ورقه‌ای و کاوش فضایی را بررسی می‌کند.",
+      "of": "5ffc8447",
       "at": [
         "hickory-grove-christian:divisions[0].departments[3].courses[10].description"
       ]
@@ -21653,8 +21624,8 @@
       ]
     },
     {
-      "t": "دولت ملی آمریکا در سطح دانشگاهی — نهادها، رفتار سیاسی، سیاست عمومی، آزادی‌های مدنی و حقوق مدنی. توصیه‌شده برای دانش‌آموزان سال آخر.",
-      "of": "3becdd77",
+      "t": "دولت ملی آمریکا در سطح دانشگاهی — شکل‌گیری آن، باورها و رفتارهای سیاسی، احزاب، گروه‌های ذی‌نفع، رسانه‌ها، نهادها، سیاست عمومی، آزادی‌های مدنی و حقوق مدنی · تنها برای دانش‌آموزان سال آخر توصیه می‌شود.",
+      "of": "fafbcbac",
       "at": [
         "hickory-grove-christian:divisions[0].departments[4].courses[9].description"
       ]
@@ -21905,8 +21876,8 @@
       ]
     },
     {
-      "t": "رپرتوار ارکستر بادی با نظریه و تاریخ موسیقی رسمی، و آزمون ورودی برای NCBA All-District، All-State و Solo & Ensemble Festival.",
-      "of": "c6f08e40",
+      "t": "رپرتوار ارکستر بادی با نظریه و تاریخ موسیقی رسمی، و آزمون ورودی برای NCBA All-District، All-State و Solo & Ensemble Festival · ورود از راه گروه سازی دورهٔ راهنمایی یا آزمون ورودی است.",
+      "of": "d2e474c6",
       "at": [
         "hickory-grove-christian:divisions[0].departments[7].courses[2].description"
       ]
@@ -22052,8 +22023,8 @@
       ]
     },
     {
-      "t": "سردبیر یا تهیه‌کنندهٔ برنامهٔ هفتگی، به‌علاوهٔ تولید پادکست، گزارش‌های مستند و کارزارهای تبلیغاتی.",
-      "of": "73ee379e",
+      "t": "فرصتی برای فعالیت به‌عنوان سردبیر یا تهیه‌کنندهٔ برنامهٔ هفتگی، به‌علاوهٔ تولید پادکست، گزارش‌های مستند و کارزارهای تبلیغاتی.",
+      "of": "c458fb23",
       "at": [
         "hickory-grove-christian:divisions[0].departments[8].courses[5].description"
       ]
@@ -22158,8 +22129,8 @@
       ]
     },
     {
-      "t": "وزنه‌برداری در فصل ورزشی تعیین‌شدهٔ دانش‌آموز، برای افزایش قدرت، حجم و سرعت.",
-      "of": "3f1573f0",
+      "t": "وزنه‌برداری در فصل ورزشی تعیین‌شدهٔ دانش‌آموز، برای افزایش قدرت، حجم و سرعت · می‌توان آن را تکرار کرد، اما تنها یک واحد برای فارغ‌التحصیلی حساب می‌شود.",
+      "of": "a13189f9",
       "at": [
         "hickory-grove-christian:divisions[0].departments[10].courses[3].description"
       ]
@@ -22200,8 +22171,8 @@
       ]
     },
     {
-      "t": "نخستین درس AP Capstone — کاوش میان‌رشته‌ای، ترکیب چند منبع، و استدلال نوشتاری و شفاهی.",
-      "of": "a5409f77",
+      "t": "نخستین درس AP Capstone، با ورود از راه درخواست — کاوش میان‌رشته‌ای، ترکیب چند منبع، و استدلال نوشتاری و شفاهی.",
+      "of": "6e795975",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[0].description"
       ]
@@ -22214,8 +22185,8 @@
       ]
     },
     {
-      "t": "دومین درس AP Capstone — پژوهشی یک‌ساله که به مقاله‌ای 4,000–5,000 کلمه‌ای و دفاع شفاهی می‌انجامد.",
-      "of": "95aadd81",
+      "t": "دومین درس AP Capstone، با ورود از راه درخواست پس از AP Seminar — پژوهشی یک‌ساله که به مقاله‌ای 4,000–5,000 کلمه‌ای و دفاع شفاهی می‌انجامد.",
+      "of": "5e68b615",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[1].description"
       ]
@@ -22228,8 +22199,8 @@
       ]
     },
     {
-      "t": "مروری بر اصول اصلی — رشد انسان، یادگیری و حافظه، شخصیت، استرس، و رفتار نابهنجار و درمان آن.",
-      "of": "1608abf8",
+      "t": "مروری بر اصول اصلی روان‌شناسی، از جمله رشد انسان، یادگیری و حافظه، شخصیت، استرس، و رفتار نابهنجار و درمان آن.",
+      "of": "81786a4d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[3].description"
       ]
@@ -22305,8 +22276,8 @@
       ]
     },
     {
-      "t": "تفکر انتقادی، سازمان‌دهی، مدیریت زمان و کاوش مسیر شغلی — برای دانش‌آموزانی که به دبیرستان وارد می‌شوند.",
-      "of": "eb500ce1",
+      "t": "تفکر انتقادی، سازمان‌دهی، مدیریت زمان، ارتباط و کاوش مسیر شغلی — مناسب برای دانش‌آموزانی که به دبیرستان وارد می‌شوند یا می‌خواهند مسیر دبیرستانی خود را تقویت کنند.",
+      "of": "b428fa2a",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[9].description"
       ]
@@ -22333,8 +22304,8 @@
       ]
     },
     {
-      "t": "برای دانش‌آموزان سال آخر با معدل 3.0 و نامهٔ کارفرما که برای کار زودتر مدرسه را ترک می‌کنند؛ در فصل ورزشی خودشان در دسترس نیست.",
-      "of": "4b951c2c",
+      "t": "برای دانش‌آموزان سال آخر با معدل 3.0 و نامهٔ کارفرما که برای کار زودتر مدرسه را ترک می‌کنند · در فصل هر رشتهٔ ورزشی که دانش‌آموز در آن بازی می‌کند و تمرین پس از مدرسه دارد، در دسترس نیست.",
+      "of": "32e6c09a",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[11].description"
       ]
@@ -22480,8 +22451,8 @@
       ]
     },
     {
-      "t": "Reveal Math Course 1: تقسیم کسر و اعشار، اعداد منفی، نسبت‌ها و نرخ‌ها، عبارت‌ها و معادله‌ها، مساحت و حجم، و استدلال آماری.",
-      "of": "de54da9f",
+      "t": "Reveal Math Course 1: تقسیم کسر و اعشار، اعداد منفی، نسبت‌ها و نرخ‌ها، عبارت‌ها و معادله‌ها، مساحت، مساحت رویه و حجم، و استدلال آماری.",
+      "of": "72e3a827",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[0].description"
       ]
@@ -22494,8 +22465,8 @@
       ]
     },
     {
-      "t": "Reveal Math Course 2: روابط تناسبی، اعداد گویا، نقشه‌های مقیاس‌دار و ترسیم‌های هندسی، و استنباط از نمونه‌ها.",
-      "of": "99212e70",
+      "t": "Reveal Math Course 2: روابط تناسبی، اعداد گویا، نقشه‌های مقیاس‌دار و ترسیم‌های هندسی، مساحت، مساحت رویه و حجم، و استنباط از نمونه‌ها.",
+      "of": "57becf1a",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[1].description"
       ]
@@ -22522,8 +22493,8 @@
       ]
     },
     {
-      "t": "برای دانش‌آموزان Honors پایهٔ 8 که شرایط را دارند — معادله‌ها، نامعادله‌ها، چندجمله‌ای‌ها، تجزیه، نمودار و رادیکال‌ها، با تکلیف شبانه.",
-      "of": "9a2c56a3",
+      "t": "برای دانش‌آموزان Honors پایهٔ 8 که شرایط را دارند — معادله‌ها، عبارت‌ها، ترتیب عملیات، ویژگی‌ها، اعداد مثبت و منفی، نامعادله‌ها، تناسب‌ها، چندجمله‌ای‌ها، تجزیه، نمودار و رادیکال‌ها، با تکلیف شبانه.",
+      "of": "95bec834",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[3].description"
       ]
@@ -22886,8 +22857,8 @@
       ]
     },
     {
-      "t": "پنج رشتهٔ درسی به تفکیک پایه، به‌علاوهٔ درس‌های الزامی LEAD و درس‌های اختیاری هنر. (Early/Lower School، از PS تا 4، اصلاً هیچ درس نام‌برده یا فهرست موضوعی منتشر نمی‌کند.)",
-      "of": "9992b6dd",
+      "t": "پنج رشتهٔ درسی به تفکیک پایه، به‌علاوهٔ درس‌های الزامی LEAD و درس‌های اختیاری هنر. (Early/Lower School، از PS تا 4، هیچ درس نام‌برده یا فهرست موضوعی به تفکیک پایه منتشر نمی‌کند.)",
+      "of": "8cc0bd50",
       "at": [
         "gaston-day:divisions[0].teaser"
       ]
@@ -22956,8 +22927,8 @@
       ]
     },
     {
-      "t": "یک زنجیرهٔ درسی الزامی که در کنار مشاورهٔ تحصیلی، آموزش شهروندی دیجیتال و مهارت‌های زندگی را در بر می‌گیرد.",
-      "of": "b69b590d",
+      "t": "درس‌هایی الزامی که در کنار مشاورهٔ تحصیلی، شهروندی دیجیتال را آموزش می‌دهند.",
+      "of": "9a283e10",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[0].description"
       ]
@@ -22970,15 +22941,15 @@
       ]
     },
     {
-      "t": "زنجیرهٔ درام را ادامه می‌دهد که در Lower School از پایهٔ دوم آغاز می‌شود.",
-      "of": "ad25f1c8",
+      "t": "کلاس‌های درام را ادامه می‌دهد که در Lower School از همان پایهٔ دوم آغاز می‌شوند.",
+      "of": "45a2d4d4",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[2].description"
       ]
     },
     {
-      "t": "Middle School Chorus، که در کنار گروه سازی اجرا می‌کند.",
-      "of": "add8a04e",
+      "t": "Middle School Chorus، یکی از چهار درس اختیاری هنرهای زیبا که دانش‌آموزان Middle School از میان آن‌ها برمی‌گزینند.",
+      "of": "f22d5135",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[3].description"
       ]
@@ -23085,8 +23056,8 @@
       ]
     },
     {
-      "t": "یک گزینهٔ ریاضی سال چهارم برای دانش‌آموزانی که به حساب دیفرانسیل و انتگرال ادامه نمی‌دهند.",
-      "of": "2f3648c2",
+      "t": "یکی از درس‌های ریاضی Upper School در جدول برنامهٔ درسی مدرسه.",
+      "of": "09b4ecf8",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[4].description"
       ]
@@ -23113,8 +23084,8 @@
       ]
     },
     {
-      "t": "حساب دیفرانسیل و انتگرال دانشگاهی نیم‌سال اول؛ همهٔ دانش‌آموزان AP باید در آزمون شرکت کنند.",
-      "of": "e3870c8f",
+      "t": "یک درس AP حساب دیفرانسیل و انتگرال؛ همهٔ دانش‌آموزان AP باید در آزمون شرکت کنند.",
+      "of": "a7491208",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[7].description"
       ]
@@ -23127,8 +23098,8 @@
       ]
     },
     {
-      "t": "AB را با سری‌ها و تکنیک‌های انتگرال‌گیری بیشتر گسترش می‌دهد.",
-      "of": "3a3064cb",
+      "t": "یکی از دو درس AP حساب دیفرانسیل و انتگرال، در کنار Calculus AB.",
+      "of": "238e55c2",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[8].description"
       ]
@@ -23159,8 +23130,8 @@
       ]
     },
     {
-      "t": "فیزیک در سطح Honors، ردهٔ پیش‌نیاز زیر AP Physics II.",
-      "of": "d5eeb4f3",
+      "t": "فیزیک در سطح Honors؛ Physics II در سطح AP ارائه می‌شود.",
+      "of": "05eabaaf",
       "at": [
         "gaston-day:divisions[1].departments[2].courses[3].description"
       ]
@@ -23173,8 +23144,8 @@
       ]
     },
     {
-      "t": "درس AP در فیزیک، که بر یک زنجیرهٔ دوسالهٔ فیزیک دلالت دارد.",
-      "of": "864db0ae",
+      "t": "تنها درس AP فیزیک در برنامهٔ درسی Upper School.",
+      "of": "a98f03d2",
       "at": [
         "gaston-day:divisions[1].departments[2].courses[4].description"
       ]
@@ -23195,8 +23166,8 @@
       ]
     },
     {
-      "t": "گذراندن تا Level III برای فارغ‌التحصیلی الزامی است؛ این الزام را می‌توان با French نیز برآورده کرد.",
-      "of": "713afca6",
+      "t": "گذراندن تا Level III، به Spanish یا French، برای فارغ‌التحصیلی الزامی است، به‌جز برای دانش‌آموزان بین‌المللی که انگلیسی زبان دوم آنان است.",
+      "of": "37ea1ab6",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[0].description"
       ]
@@ -23209,15 +23180,15 @@
       ]
     },
     {
-      "t": "درس پایانی Spanish، فراتر از الزام فارغ‌التحصیلی.",
-      "of": "74478fea",
+      "t": "درس پایانی توالی Spanish، فراتر از الزام فارغ‌التحصیلی.",
+      "of": "d8cbd093",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[1].description"
       ]
     },
     {
-      "t": "یکی از چهار درس هنرهای زیبا که به الزام دوساله احتساب می‌شود.",
-      "of": "b2a9983b",
+      "t": "یکی از درس‌های هنرهای زیبا که به الزام دوساله احتساب می‌شود.",
+      "of": "25ec31ec",
       "at": [
         "gaston-day:divisions[1].departments[5].courses[0].description"
       ]
@@ -23258,8 +23229,8 @@
       ]
     },
     {
-      "t": "درس پایانی هنرهای تجسمی — هیچ AP Studio Art وجود ندارد.",
-      "of": "5cffc833",
+      "t": "درس پایانی توالی هنرهای تجسمی؛ جدول برنامهٔ درسی مدرسه هیچ AP Studio Art را فهرست نمی‌کند.",
+      "of": "6d7e3320",
       "at": [
         "gaston-day:divisions[1].departments[5].courses[4].description"
       ]
@@ -23308,8 +23279,8 @@
       ]
     },
     {
-      "t": "به تیم VEX Robotics خوراک می‌دهد که در 2023 به TSA VEX Nationals رسید.",
-      "of": "97424e67",
+      "t": "رباتیک در سطح Honors؛ مدرسه همچنین یک VEX Robotics Club دارد که در 2023 برای Technology Student Association VEX Nationals پذیرفته شد.",
+      "of": "4811d17d",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[2].description"
       ]
@@ -23336,8 +23307,8 @@
       ]
     },
     {
-      "t": "به Blutopia، مجلهٔ ادبی و هنری دانش‌آموزان، خوراک می‌دهد.",
-      "of": "5e090e4c",
+      "t": "یک درس اختیاری نویسندگی خلاق که در سطح Honors ارائه می‌شود.",
+      "of": "e2c7127d",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[4].description"
       ]
@@ -23351,8 +23322,8 @@
       ]
     },
     {
-      "t": "از Public Debate Club و Mock Trial پشتیبانی می‌کند.",
-      "of": "f82c4f41",
+      "t": "یک درس اختیاری عمومی در سخنوری و مناظره.",
+      "of": "b19dc6f0",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[5].description"
       ]
@@ -23463,8 +23434,8 @@
       ]
     },
     {
-      "t": "برنامه‌های درسی نام‌دار به‌جای درس‌های نام‌دار — Math in Focus 2020 (سنگاپور)، Amplify Science، Storypaths — به‌علاوهٔ شش برنامهٔ غنی‌سازی هفتگی و یک برنامهٔ Spanish برای K–5.",
-      "of": "0b6e3ce5",
+      "t": "برنامه‌های درسی نام‌دار به‌جای درس‌های نام‌دار — Math in Focus 2020 (سنگاپور)، Amplify Science، Storypaths — به‌علاوهٔ شش برنامهٔ غنی‌سازی هفتگی، از جمله یک برنامهٔ Spanish برای K–5.",
+      "of": "7379846b",
       "at": [
         "trinity-episcopal:divisions[0].teaser"
       ]
@@ -23555,8 +23526,8 @@
       ]
     },
     {
-      "t": "تنها فضای آموزشی نام‌دار مدرسه، و یک برنامهٔ غنی‌سازی هفتگی در Lower School. این فضایی برای STEM است، نه برای هنر.",
-      "of": "0099fe3b",
+      "t": "یک برنامهٔ غنی‌سازی هفتگی STEM در Lower School.",
+      "of": "684190a7",
       "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[1].description"
       ]
@@ -23591,8 +23562,8 @@
       ]
     },
     {
-      "t": "درس‌های کتاب‌مقدس و مطالعهٔ ادیان جهان، که K–8 تدریس می‌شود و در Lower School هفتگی برگزار می‌گردد.",
-      "of": "8b34bf6d",
+      "t": "درس‌های کتاب‌مقدس، مطالعهٔ ادیان جهان و موارد دیگر، که K–8 تدریس می‌شود و در Lower School هفتگی برگزار می‌گردد.",
+      "of": "297ef5d2",
       "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[5].description"
       ]
@@ -23612,15 +23583,15 @@
       ]
     },
     {
-      "t": "فقط در PDF نمایه",
-      "of": "093ec54a",
+      "t": "K–8",
+      "of": "5892cb59",
       "at": [
         "trinity-episcopal:divisions[0].departments[2].courses[0].tag"
       ]
     },
     {
-      "t": "با تسهیل‌گری Digital Learning Catalysts، با iPad به‌ازای هر دانش‌آموز در K-1 و Chromebook به‌ازای هر دانش‌آموز در Gr. 2-8. تنها در School Profile منتشر شده است — در هیچ صفحهٔ /academics/ دیده نمی‌شود.",
-      "of": "6f111dc0",
+      "t": "به گفتهٔ School Profile، این برنامه با تسهیل‌گری Digital Learning Catalysts اجرا می‌شود، با iPad به‌صورت 1:1 برای همهٔ دانش‌آموزان K-1 و Chromebook به‌صورت 1:1 برای همهٔ دانش‌آموزان پایه‌های 2-8.",
+      "of": "eafedffc",
       "at": [
         "trinity-episcopal:divisions[0].departments[2].courses[0].description"
       ]
@@ -23661,8 +23632,8 @@
       ]
     },
     {
-      "t": "درس پایهٔ ششم. آموزش در سراسر این گروه درسی \"grounded in a problem-based core curriculum rooted in content and practice standards.\"",
-      "of": "005b7901",
+      "t": "درس پایهٔ 6، در گروه درسی‌ای که دربارهٔ آموزش آن می‌گوید: \"grounded in a problem-based core curriculum rooted in content and practice standards.\"",
+      "of": "98d2c64d",
       "at": [
         "trinity-episcopal:divisions[1].departments[0].courses[0].description"
       ]
@@ -23675,8 +23646,8 @@
       ]
     },
     {
-      "t": "درس شتاب‌یافتهٔ پایهٔ هفتم. دانش‌آموزان \"based on specific performance criteria\" در درس‌های سطح پایه و شتاب‌یافته جای می‌گیرند — خودِ معیارها منتشر نشده‌اند.",
-      "of": "e789d153",
+      "t": "درس شتاب‌یافتهٔ پایهٔ 7؛ دانش‌آموزان \"based on specific performance criteria\" در درس‌های سطح پایه و شتاب‌یافته جای می‌گیرند، معیارهایی که مدرسه منتشر نمی‌کند.",
+      "of": "d6226f59",
       "at": [
         "trinity-episcopal:divisions[1].departments[0].courses[2].description"
       ]
@@ -23698,16 +23669,10 @@
       ]
     },
     {
-      "t": "یکی از پنج درس متمایز ریاضی پایهٔ هشتم. مدرسه هیچ ترتیبی برای واحد درسی آن بیان نمی‌کند.",
-      "of": "a4e5383f",
+      "t": "یکی از پنج درس متمایز ریاضی پایهٔ 8، که مدرسه هیچ ترتیبی برای واحد درسی آن بیان نمی‌کند.",
+      "of": "a1e663f7",
       "at": [
-        "trinity-episcopal:divisions[1].departments[0].courses[5].description"
-      ]
-    },
-    {
-      "t": "پیشرفته‌ترین درس از پنج درس ریاضی پایهٔ هشتم. مدرسه هیچ ترتیبی برای واحد درسی آن بیان نمی‌کند.",
-      "of": "d95bc060",
-      "at": [
+        "trinity-episcopal:divisions[1].departments[0].courses[5].description",
         "trinity-episcopal:divisions[1].departments[0].courses[7].description"
       ]
     },
@@ -23790,8 +23755,8 @@
       ]
     },
     {
-      "t": "یک برنامهٔ یکپارچهٔ علوم در سراسر پایه‌های 6-8. هیچ نام درسی به‌تفکیک پایه منتشر نشده است.",
-      "of": "52f1e9bc",
+      "t": "یک برنامهٔ یکپارچهٔ علوم در سراسر پایه‌های 6-8، که هیچ نام درسی به‌تفکیک پایه برای آن منتشر نشده است.",
+      "of": "afc548ca",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[1].description"
       ]
@@ -23810,6 +23775,7 @@
         "trinity-episcopal:divisions[1].departments[4].courses[0].description",
         "trinity-episcopal:divisions[1].departments[4].courses[1].description",
         "trinity-episcopal:divisions[1].departments[4].courses[2].description",
+        "trinity-episcopal:divisions[1].departments[4].courses[3].description",
         "trinity-episcopal:divisions[1].departments[4].courses[4].description",
         "trinity-episcopal:divisions[1].departments[4].courses[5].description",
         "trinity-episcopal:divisions[1].departments[4].courses[6].description",
@@ -23831,13 +23797,6 @@
       "of": "82574932",
       "at": [
         "trinity-episcopal:divisions[1].departments[4].courses[3].title"
-      ]
-    },
-    {
-      "t": "یک برنامهٔ غنی‌سازی هفتگی. افزوده شدن یک کلاس فناوری در پایهٔ ششم اعلام شده است، \"as digital learning catalysts teach students how to use AI to create code and build, not just how to input questions.\"",
-      "of": "f2331b71",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[3].description"
       ]
     },
     {
@@ -23876,8 +23835,8 @@
       ]
     },
     {
-      "t": "در فهرست غنی‌سازی School Profile نام برده شده است. محتوای آن‌ها در هیچ جا منتشر نشده — این عبارت در PDF نمایه آمده و در هیچ صفحه‌ای از وب‌سایت نیست.",
-      "of": "315f7a14",
+      "t": "School Profile آن‌ها را در فهرست غنی‌سازی‌اش نام می‌برد، اما توضیح نمی‌دهد چه چیزی را در بر می‌گیرند.",
+      "of": "a8c6e6ee",
       "at": [
         "trinity-episcopal:divisions[1].departments[4].courses[9].description"
       ]
@@ -23904,8 +23863,8 @@
       ]
     },
     {
-      "t": "\"6th Grade students choose from one of two ensembles: choir or band.\" گروه‌های اجرایی در مراسم نیایش، جشن فارغ‌التحصیلی و مکان‌هایی بیرون از مدرسه اجرا می‌کنند.",
-      "of": "41e16e7d",
+      "t": "گروه‌های اجرایی در مراسم نیایش، جشن فارغ‌التحصیلی و مکان‌هایی بیرون از مدرسه اجرا می‌کنند، و \"6th Grade students choose from one of two ensembles: choir or band.\"",
+      "of": "9f987f9e",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[0].description"
       ]
@@ -23981,8 +23940,8 @@
       ]
     },
     {
-      "t": "Early School به روش Montessori و در کلاس‌هایی با سنین درهم آموزش می‌دهد، نه در قالب درس‌های جداگانه. ردیف‌های زیر مرحله‌ها، نقطه‌عطف‌ها و درس‌های ویژه‌ای هستند که مدرسه، به زبان خودش، نام می‌برد.",
-      "of": "628e38e1",
+      "t": "Early School به روش Montessori و در کلاس‌هایی با سنین درهم آموزش می‌دهد، نه در قالب درس‌های جداگانه. ردیف‌های زیر مرحله‌ها، نقطه‌عطف‌ها و درس‌های ویژه‌ای هستند که مدرسه نام می‌برد، و سخنان خود مدرسه در گیومه آمده است.",
+      "of": "1cbb7949",
       "at": [
         "charlotte-prep:divisions[0].notPublished"
       ]
@@ -24194,8 +24153,8 @@
       ]
     },
     {
-      "t": "Charlotte Prep برای Lower School موضوع‌های درسی و برنامه‌های نام‌دار را منتشر می‌کند، نه درس‌هایی با توصیف جداگانه. ردیف‌های زیر همان‌ها هستند، به زبان خود مدرسه.",
-      "of": "368adc89",
+      "t": "Charlotte Prep برای Lower School موضوع‌های درسی و برنامه‌های نام‌دار را منتشر می‌کند، نه درس‌هایی با توصیف جداگانه. ردیف‌های زیر همان‌ها هستند، و سخنان خود مدرسه در گیومه آمده است.",
+      "of": "99c93ee7",
       "at": [
         "charlotte-prep:divisions[1].notPublished"
       ]
@@ -24225,8 +24184,8 @@
       ]
     },
     {
-      "t": "آموزش روزانه در \"decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process.\"",
-      "of": "cb91d23a",
+      "t": "آموزش روزانه در مهارت‌های خواندن، نوشتن، سخن گفتن و شنیدن، \"including decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process.\"",
+      "of": "c764611d",
       "at": [
         "charlotte-prep:divisions[1].departments[0].courses[0].description"
       ]
@@ -24260,8 +24219,8 @@
       ]
     },
     {
-      "t": "\"Grounded in a global philosophy. A balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge.\"",
-      "of": "b89ff712",
+      "t": "ریاضیات \"grounded in a global philosophy,\" که در آن \"a balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge.\"",
+      "of": "815de1c9",
       "at": [
         "charlotte-prep:divisions[1].departments[0].courses[2].description"
       ]
@@ -24397,8 +24356,8 @@
       ]
     },
     {
-      "t": "Charlotte Prep هیچ کاتالوگ درسی یا برنامهٔ تحصیلی منتشر نمی‌کند. این‌ها موضوع‌ها، برنامه‌ها و درس‌های اختیاری‌ای هستند که خود مدرسه، به زبان خودش، نام می‌برد.",
-      "of": "824f5a2e",
+      "t": "Charlotte Prep هیچ کاتالوگ درسی یا برنامهٔ تحصیلی منتشر نمی‌کند. این‌ها موضوع‌ها، برنامه‌ها و درس‌های اختیاری‌ای هستند که خود مدرسه نام می‌برد، و سخنان خود مدرسه در گیومه آمده است.",
+      "of": "f4441810",
       "at": [
         "charlotte-prep:divisions[2].notPublished"
       ]

@@ -36,15 +36,15 @@
       ]
     },
     {
-      "t": "Cuatro áreas del plan de estudios básico más 11 asignaturas especiales — Singapore Math y alfabetización estructurada desde TK.",
-      "of": "525e1ce3",
+      "t": "Cuatro áreas del plan de estudios básico más 11 asignaturas especiales — alfabetización estructurada desde TK y Singapore Math desde Kindergarten.",
+      "of": "2ceeadc7",
       "at": [
         "providence-day:divisions[0].teaser"
       ]
     },
     {
-      "t": "Providence Day publica cuatro áreas del plan de estudios básico y una lista de asignaturas especiales para TK–5, no asignaturas con nombre propio. No existe ninguna guía de estudios de Lower School.",
-      "of": "c0852b6e",
+      "t": "Providence Day publica cuatro áreas del plan de estudios básico y una lista de asignaturas especiales para TK–5, no asignaturas con nombre propio. No publica ninguna guía de estudios de Lower School.",
+      "of": "0162c5de",
       "at": [
         "providence-day:divisions[0].notPublished"
       ]
@@ -462,8 +462,8 @@
       ]
     },
     {
-      "t": "Una asignatura especial de Lower School de apoyo al aprendizaje individualizado.",
-      "of": "a55655ab",
+      "t": "Una asignatura especial de Lower School; el colegio solo publica su nombre.",
+      "of": "074d145f",
       "at": [
         "providence-day:divisions[0].departments[2].courses[8].description"
       ]
@@ -569,7 +569,6 @@
         "charlotte-latin:divisions[1].departments[4].courses[2].tag",
         "charlotte-latin:divisions[1].departments[4].courses[5].tag",
         "charlotte-latin:divisions[1].departments[5].courses[0].tag",
-        "charlotte-latin:divisions[1].departments[5].courses[1].tag",
         "charlotte-christian:divisions[1].departments[0].courses[1].tag",
         "charlotte-christian:divisions[1].departments[1].courses[1].tag",
         "charlotte-christian:divisions[1].departments[2].courses[1].tag",
@@ -725,6 +724,7 @@
         "charlotte-christian:divisions[1].departments[4].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[6].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[7].tag",
+        "charlotte-country-day:divisions[1].departments[0].courses[8].tag",
         "charlotte-country-day:divisions[1].departments[1].courses[4].tag",
         "charlotte-country-day:divisions[1].departments[1].courses[5].tag",
         "charlotte-country-day:divisions[1].departments[2].courses[3].tag",
@@ -850,14 +850,14 @@
         "providence-day:divisions[2].departments[9].courses[4].tag",
         "providence-day:divisions[2].departments[9].courses[5].tag",
         "providence-day:divisions[2].departments[9].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[5].tag",
         "charlotte-latin:divisions[2].departments[0].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[7].tag",
         "charlotte-latin:divisions[2].departments[0].courses[8].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[9].tag",
-        "charlotte-latin:divisions[2].departments[0].courses[10].tag",
         "charlotte-latin:divisions[2].departments[0].courses[11].tag",
+        "charlotte-latin:divisions[2].departments[1].courses[8].tag",
+        "charlotte-latin:divisions[2].departments[1].courses[9].tag",
         "charlotte-latin:divisions[2].departments[2].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[1].tag",
         "charlotte-christian:divisions[2].departments[1].courses[10].tag",
         "charlotte-christian:divisions[2].departments[1].courses[11].tag",
         "charlotte-christian:divisions[2].departments[1].courses[12].tag",
@@ -906,8 +906,7 @@
         "charlotte-country-day:divisions[2].departments[5].courses[20].tag",
         "charlotte-country-day:divisions[2].departments[6].courses[0].tag",
         "charlotte-country-day:divisions[2].departments[7].courses[2].tag",
-        "charlotte-country-day:divisions[2].departments[8].courses[0].tag",
-        "davidson-day:divisions[2].departments[7].courses[1].tag"
+        "charlotte-country-day:divisions[2].departments[8].courses[0].tag"
       ]
     },
     {
@@ -1449,6 +1448,7 @@
         "providence-day:divisions[1].departments[5].courses[5].tag",
         "providence-day:divisions[1].departments[5].courses[6].tag",
         "providence-day:divisions[1].departments[6].courses[11].tag",
+        "charlotte-latin:divisions[1].departments[5].courses[1].tag",
         "covenant-day:divisions[1].departments[3].courses[0].tag",
         "covenant-day:divisions[1].departments[3].courses[1].tag",
         "covenant-day:divisions[1].departments[3].courses[2].tag",
@@ -1589,8 +1589,8 @@
       ]
     },
     {
-      "t": "La asignatura Latin II de Upper School, disponible desde el grado 8.",
-      "of": "4f87cf22",
+      "t": "La asignatura Latin II de Upper School, disponible desde el grado 8 tras aprobar Latin 1 con una “B-” (80) o más.",
+      "of": "80467a8a",
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].description"
       ]
@@ -1645,8 +1645,8 @@
       ]
     },
     {
-      "t": "Una secuencia de tres niveles de alemán en Middle School.",
-      "of": "5fdebd53",
+      "t": "Una secuencia de tres niveles de alemán en Middle School; los niveles 2 y superiores requieren autorización previa.",
+      "of": "a21c64fa",
       "at": [
         "providence-day:divisions[1].departments[5].courses[6].description"
       ]
@@ -1699,8 +1699,6 @@
         "charlotte-latin:divisions[2].departments[5].courses[0].tag",
         "charlotte-latin:divisions[2].departments[5].courses[3].tag",
         "charlotte-latin:divisions[2].departments[5].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[1].tag",
         "charlotte-latin:divisions[2].departments[7].courses[6].tag",
         "charlotte-latin:divisions[2].departments[8].courses[6].tag",
         "charlotte-latin:divisions[2].departments[8].courses[7].tag",
@@ -1749,7 +1747,8 @@
         "davidson-day:divisions[2].departments[5].courses[3].tag",
         "davidson-day:divisions[2].departments[5].courses[9].tag",
         "davidson-day:divisions[2].departments[5].courses[10].tag",
-        "davidson-day:divisions[2].departments[7].courses[0].tag"
+        "davidson-day:divisions[2].departments[7].courses[0].tag",
+        "davidson-day:divisions[2].departments[7].courses[1].tag"
       ]
     },
     {
@@ -1879,8 +1878,8 @@
       ]
     },
     {
-      "t": "Una secuencia de tres niveles de interpretación en Middle School.",
-      "of": "cc507a55",
+      "t": "Tres asignaturas semestrales de interpretación para los grados 7 y 8; Acting 3 requiere experiencia teatral previa.",
+      "of": "55e536d2",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].description"
       ]
@@ -2180,8 +2179,8 @@
       ]
     },
     {
-      "t": "Un recorrido por el teatro moderno de Ibsen a Ionesco que explora el individualismo, la empatía y la comunicación significativa mediante teatro leído.",
-      "of": "144e4759",
+      "t": "Un recorrido por el teatro moderno de Ibsen a Ionesco que explora la pérdida del individualismo, la empatía y la comunicación significativa mediante teatro leído.",
+      "of": "550c433c",
       "at": [
         "providence-day:divisions[2].departments[0].courses[9].description"
       ]
@@ -2194,8 +2193,8 @@
       ]
     },
     {
-      "t": "Los estudiantes estudian The Merchant of Venice, Othello, The Tempest, Measure for Measure y Richard III, leyendo las obras en voz alta y analizando sus versiones cinematográficas.",
-      "of": "c81ace83",
+      "t": "Los estudiantes estudian una amplia selección de obras, entre ellas The Merchant of Venice, Othello, The Tempest, Measure for Measure y Richard III, leyéndolas en voz alta y analizando sus versiones cinematográficas.",
+      "of": "f057375d",
       "at": [
         "providence-day:divisions[2].departments[0].courses[10].description"
       ]
@@ -2475,8 +2474,8 @@
       ]
     },
     {
-      "t": "Escritura expositiva, analítica y argumentativa de nivel universitario a partir de géneros de no ficción, centrada en la técnica retórica y la lógica.",
-      "of": "ec0d4f1d",
+      "t": "Escritura expositiva, analítica y argumentativa de nivel universitario, con lecturas de géneros de no ficción y centrada en la técnica retórica y la lógica.",
+      "of": "15323bb8",
       "at": [
         "providence-day:divisions[2].departments[0].courses[14].description"
       ]
@@ -2490,8 +2489,8 @@
       ]
     },
     {
-      "t": "Perfecciona el análisis literario con Moby-Dick, Invisible Man y Mrs. Dalloway, además de Dickinson, Frost y Shakespeare, con una lista de lecturas complementarias.",
-      "of": "d81816ef",
+      "t": "Perfecciona el análisis literario con novelas que se leen habitualmente, como Moby-Dick, Invisible Man y Mrs. Dalloway, además de Dickinson, Frost y Shakespeare, con una lista de lecturas complementarias.",
+      "of": "8f8725b8",
       "at": [
         "providence-day:divisions[2].departments[0].courses[15].description"
       ]
@@ -2777,8 +2776,8 @@
       ]
     },
     {
-      "t": "Profundiza en la comprensión del cristianismo, el judaísmo, el islam, el hinduismo y el budismo mediante lecturas primarias y secundarias y debate filosófico.",
-      "of": "c740cf5c",
+      "t": "Profundiza en la comprensión de religiones como el cristianismo, el judaísmo, el islam, el hinduismo y el budismo mediante lecturas primarias y secundarias y debate filosófico.",
+      "of": "236d76c9",
       "at": [
         "providence-day:divisions[2].departments[1].courses[18].description"
       ]
@@ -2791,8 +2790,8 @@
       ]
     },
     {
-      "t": "Una exploración multidisciplinar del África subsahariana con estudio en profundidad de Sudáfrica, la RD del Congo, Ruanda y Nigeria.",
-      "of": "329ca2c1",
+      "t": "Una exploración multidisciplinar del África subsahariana con estudio en profundidad de varios países, entre ellos Sudáfrica, la RD del Congo, Ruanda y Nigeria.",
+      "of": "2b88e022",
       "at": [
         "providence-day:divisions[2].departments[1].courses[19].description"
       ]
@@ -2805,8 +2804,8 @@
       ]
     },
     {
-      "t": "Una exploración multidisciplinar de Asia con estudios en profundidad de China y las dos Coreas.",
-      "of": "e73a1a59",
+      "t": "Una exploración multidisciplinar de Asia con estudios en profundidad de varios países, entre ellos China y las dos Coreas.",
+      "of": "375e1ed2",
       "at": [
         "providence-day:divisions[2].departments[1].courses[20].description"
       ]
@@ -2833,8 +2832,8 @@
       ]
     },
     {
-      "t": "Los alumnos de último curso del Global Studies Diploma se forman como colaboradores y líderes globales eficaces, y completan un proyecto de investigación y una entrevista final.",
-      "of": "1e493a29",
+      "t": "Obligatoria para los alumnos de último curso del Global Studies Diploma; busca que el alumnado sea un colaborador y un líder global más eficaz, con un proyecto de investigación y una entrevista final.",
+      "of": "88893d67",
       "at": [
         "providence-day:divisions[2].departments[1].courses[22].description"
       ]
@@ -3845,8 +3844,8 @@
       ]
     },
     {
-      "t": "Una asignatura de literatura en prosa y verso con un componente de textos comparados basado en proyectos, que abarca a Virgilio, Plinio, Catulo, Ovidio, Vespucio y Boccaccio.",
-      "of": "5975ad2d",
+      "t": "Una asignatura de literatura en prosa y verso con un componente de textos comparados basado en proyectos y lecturas de autores como Virgilio, Plinio, Catulo, Ovidio, Vespucio y Boccaccio.",
+      "of": "c300258c",
       "at": [
         "providence-day:divisions[2].departments[6].courses[11].description"
       ]
@@ -4309,8 +4308,6 @@
         "providence-day:divisions[2].departments[8].courses[14].tag",
         "charlotte-latin:divisions[2].departments[0].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[1].courses[8].tag",
-        "charlotte-latin:divisions[2].departments[1].courses[9].tag",
         "charlotte-latin:divisions[2].departments[2].courses[2].tag",
         "charlotte-latin:divisions[2].departments[3].courses[3].tag",
         "charlotte-latin:divisions[2].departments[3].courses[5].tag",
@@ -4497,7 +4494,7 @@
         "davidson-day:divisions[2].departments[5].courses[4].tag",
         "davidson-day:divisions[2].departments[8].courses[0].tag",
         "davidson-day:divisions[2].departments[8].courses[2].tag",
-        "davidson-day:divisions[2].departments[8].courses[7].tag",
+        "davidson-day:divisions[2].departments[8].courses[8].tag",
         "carmel-christian:divisions[0].departments[1].courses[2].tag",
         "carmel-christian:divisions[0].departments[1].courses[5].tag",
         "carmel-christian:divisions[0].departments[1].courses[8].tag",
@@ -4813,8 +4810,8 @@
       ]
     },
     {
-      "t": "Charlotte Latin publica áreas de conocimiento de Lower School, no asignaturas con nombre propio. La ruta /academics/lower-school/curriculum es un marcador de posición sin contenido publicado.",
-      "of": "fc40bbc2",
+      "t": "Charlotte Latin publica áreas de conocimiento de Lower School, no asignaturas con nombre propio.",
+      "of": "6b2aab5b",
       "at": [
         "charlotte-latin:divisions[0].notPublished"
       ]
@@ -4972,8 +4969,8 @@
       ]
     },
     {
-      "t": "En grado 5 los estudiantes eligen un instrumento para banda o cuerda, con el coro también disponible.",
-      "of": "1ce8ef7b",
+      "t": "En grado 5 los estudiantes eligen un instrumento para banda o cuerda, y también participan en el coro.",
+      "of": "82dd625c",
       "at": [
         "charlotte-latin:divisions[0].departments[2].courses[2].description"
       ]
@@ -4993,8 +4990,8 @@
       ]
     },
     {
-      "t": "22 asignaturas con descripción publicada en 5 departamentos — además del STEAM del Fab Lab y la vía de acceso a Speech & Debate.",
-      "of": "1e360cf6",
+      "t": "23 asignaturas con descripción publicada en 5 departamentos — además del STEAM del Fab Lab y la vía de acceso a Speech & Debate.",
+      "of": "2c9d5427",
       "at": [
         "charlotte-latin:divisions[1].teaser"
       ]
@@ -5184,8 +5181,8 @@
       ]
     },
     {
-      "t": "“¿Listo para viajar al pasado?” — la introducción al latín en Middle School.",
-      "of": "378443cb",
+      "t": "Una introducción de un año al latín y a la historia, los mitos y la vida cotidiana de quienes lo hablaban; no es requisito previo para Latin I.",
+      "of": "66c97029",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[0].description"
       ]
@@ -5201,8 +5198,8 @@
       ]
     },
     {
-      "t": "El crédito de Latin I de Upper School cursado en Middle School.",
-      "of": "e562dbb7",
+      "t": "Latin I impartido en Middle School, que introduce el vocabulario y la gramática elementales del latín y relatos sencillos en latín.",
+      "of": "7b7606af",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[1].description"
       ]
@@ -5243,8 +5240,8 @@
       ]
     },
     {
-      "t": "El crédito de French I de Upper School cursado en Middle School.",
-      "of": "cdf42d49",
+      "t": "French I impartido en Middle School, con tareas orientadas al nivel de competencia Novice High.",
+      "of": "c4ad863f",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[4].description"
       ]
@@ -5285,8 +5282,8 @@
       ]
     },
     {
-      "t": "El crédito de Spanish I de Upper School cursado en Middle School.",
-      "of": "3d9e2319",
+      "t": "Spanish I impartido en Middle School, con tareas orientadas al nivel de competencia Novice High.",
+      "of": "7e5a8c71",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[7].description"
       ]
@@ -5327,8 +5324,8 @@
       ]
     },
     {
-      "t": "Una optativa de grado 6 apoyada en el Fab Lab del colegio.",
-      "of": "953acb22",
+      "t": "Una optativa en los grados 6, 7 y 8; el colegio publica el título sin descripción.",
+      "of": "da11b8f7",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[1].description"
       ]
@@ -5370,24 +5367,17 @@
       ]
     },
     {
-      "t": "La vía de acceso desde Middle School al programa de oratoria y debate de Charlotte Latin, entre los mejores del país.",
-      "of": "ede013f0",
+      "t": "La vía de acceso desde Middle School al programa de oratoria y debate de Charlotte Latin.",
+      "of": "747242d4",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[5].description"
       ]
     },
     {
-      "t": "129 asignaturas en 13 departamentos — 22 materias AP, griego como segunda lengua y un Fab Lab de la red del MIT.",
-      "of": "f3b36715",
+      "t": "122 asignaturas en 13 departamentos — 23 asignaturas AP, griego como segunda lengua y un Fab Lab de la red del MIT.",
+      "of": "73c56078",
       "at": [
         "charlotte-latin:divisions[2].teaser"
-      ]
-    },
-    {
-      "t": "Charlotte Latin publica los títulos de las asignaturas de Upper School sin descripciones individuales. Los títulos de las asignaturas son los del propio colegio; cada descripción procede de cómo el colegio describe ese departamento.",
-      "of": "d03c7e41",
-      "at": [
-        "charlotte-latin:divisions[2].notPublished"
       ]
     },
     {
@@ -5464,8 +5454,8 @@
       ]
     },
     {
-      "t": "La secuencia de literatura estadounidense con el ritmo y la profundidad de Honors.",
-      "of": "eee86ff7",
+      "t": "Un recorrido cronológico por la literatura estadounidense de nivel Honors.",
+      "of": "02491529",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[3].description"
       ]
@@ -5492,8 +5482,52 @@
       ]
     },
     {
-      "t": "Una optativa semestral de último curso sobre la literatura de guerra.",
-      "of": "edd7dc9b",
+      "t": "Optativa",
+      "of": "e81c880a",
+      "at": [
+        "charlotte-latin:divisions[2].departments[0].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[7].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[9].tag",
+        "charlotte-latin:divisions[2].departments[0].courses[10].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[12].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[13].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[14].tag",
+        "charlotte-latin:divisions[2].departments[4].courses[15].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[2].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[6].tag",
+        "charlotte-latin:divisions[2].departments[6].courses[10].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[4].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[7].courses[7].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[1].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[2].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[3].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[5].tag",
+        "charlotte-latin:divisions[2].departments[8].courses[9].tag",
+        "charlotte-latin:divisions[2].departments[9].courses[0].tag",
+        "charlotte-latin:divisions[2].departments[9].courses[1].tag",
+        "charlotte-latin:divisions[2].departments[10].courses[1].tag",
+        "cannon:divisions[2].departments[0].courses[8].tag",
+        "cannon:divisions[2].departments[0].courses[9].tag",
+        "cannon:divisions[2].departments[2].courses[14].tag",
+        "cannon:divisions[2].departments[2].courses[15].tag",
+        "cannon:divisions[2].departments[3].courses[6].tag",
+        "cannon:divisions[2].departments[3].courses[7].tag",
+        "davidson-day:divisions[2].departments[0].courses[9].tag",
+        "gaston-day:divisions[0].departments[1].courses[1].tag",
+        "gaston-day:divisions[0].departments[1].courses[2].tag",
+        "gaston-day:divisions[0].departments[1].courses[3].tag",
+        "gaston-day:divisions[0].departments[1].courses[4].tag"
+      ]
+    },
+    {
+      "t": "Una optativa de inglés sobre la literatura de guerra.",
+      "of": "bc1620d7",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[5].description"
       ]
@@ -5506,8 +5540,8 @@
       ]
     },
     {
-      "t": "Una optativa semestral de último curso sobre el terror y la otredad en el canon occidental.",
-      "of": "3fe509a3",
+      "t": "Una optativa semestral, abierta sobre todo a alumnos de último curso, sobre el terror y la otredad en el canon occidental.",
+      "of": "69db3fc7",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[6].description"
       ]
@@ -5520,8 +5554,8 @@
       ]
     },
     {
-      "t": "Una optativa semestral de último curso que compara obras literarias con sus adaptaciones cinematográficas.",
-      "of": "1da78b09",
+      "t": "Una optativa de inglés que compara obras literarias con sus adaptaciones cinematográficas.",
+      "of": "1cea7955",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[7].description"
       ]
@@ -5534,8 +5568,8 @@
       ]
     },
     {
-      "t": "Una optativa semestral de último curso sobre el tratamiento de la condición humana en Shakespeare.",
-      "of": "e8ec1a78",
+      "t": "Una optativa semestral, abierta sobre todo a alumnos de último curso, sobre el tratamiento de la condición humana en Shakespeare.",
+      "of": "169f24bc",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[8].description"
       ]
@@ -5548,8 +5582,8 @@
       ]
     },
     {
-      "t": "Una optativa semestral de último curso sobre la construcción de mundos en la literatura fantástica.",
-      "of": "7f68f665",
+      "t": "Una optativa de inglés sobre la construcción de mundos en la literatura fantástica.",
+      "of": "92180351",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[9].description"
       ]
@@ -5562,8 +5596,8 @@
       ]
     },
     {
-      "t": "Una optativa semestral de último curso sobre la literatura británica temprana.",
-      "of": "1f97d6b9",
+      "t": "Una optativa de inglés sobre la literatura británica temprana.",
+      "of": "dc262a1d",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[10].description"
       ]
@@ -5576,8 +5610,8 @@
       ]
     },
     {
-      "t": "Una optativa semestral de último curso sobre literatura especulativa y futurista.",
-      "of": "205195eb",
+      "t": "Una optativa semestral, abierta sobre todo a alumnos de último curso, sobre la ficción distópica.",
+      "of": "6cf03a03",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[11].description"
       ]
@@ -5696,8 +5730,8 @@
       ]
     },
     {
-      "t": "Un seminario Honors sobre la historia de la música.",
-      "of": "ac28dad6",
+      "t": "Un seminario semestral, con opción Honors, sobre cómo la música ha influido en el curso de la historia.",
+      "of": "97c2b7f4",
       "at": [
         "charlotte-latin:divisions[2].departments[1].courses[8].description"
       ]
@@ -5710,8 +5744,8 @@
       ]
     },
     {
-      "t": "Una asignatura Honors sobre la inmigración y la migración globales.",
-      "of": "c4656fcf",
+      "t": "Un seminario semestral, con opción Honors, sobre la inmigración y la migración globales.",
+      "of": "1b44fd2d",
       "at": [
         "charlotte-latin:divisions[2].departments[1].courses[9].description"
       ]
@@ -5817,8 +5851,8 @@
       ]
     },
     {
-      "t": "Geometría con el ritmo y la profundidad de Honors.",
-      "of": "23904aac",
+      "t": "Geometría con la profundidad de Honors, con temas añadidos de lógica, lógica simbólica y geometría de transformaciones.",
+      "of": "0ff6c0d9",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[3].description"
       ]
@@ -5889,8 +5923,8 @@
       ]
     },
     {
-      "t": "Precálculo con el ritmo y la profundidad de Honors.",
-      "of": "fd0baaa0",
+      "t": "Precálculo con la profundidad de Honors, para alumnos con una capacidad matemática muy alta.",
+      "of": "3ac2ab30",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[8].description"
       ]
@@ -6068,8 +6102,8 @@
       ]
     },
     {
-      "t": "Química de segundo año de nivel universitario.",
-      "of": "297df355",
+      "t": "Química de segundo año al nivel de una asignatura universitaria de química general de primer año.",
+      "of": "3b4e6b79",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[4].description"
       ]
@@ -6181,46 +6215,6 @@
       "of": "5919718d",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[11].description"
-      ]
-    },
-    {
-      "t": "Optativa",
-      "of": "e81c880a",
-      "at": [
-        "charlotte-latin:divisions[2].departments[4].courses[12].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[13].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[14].tag",
-        "charlotte-latin:divisions[2].departments[4].courses[15].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[2].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[6].tag",
-        "charlotte-latin:divisions[2].departments[6].courses[10].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[4].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[7].courses[7].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[1].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[2].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[3].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[5].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[9].tag",
-        "charlotte-latin:divisions[2].departments[9].courses[0].tag",
-        "charlotte-latin:divisions[2].departments[9].courses[1].tag",
-        "charlotte-latin:divisions[2].departments[10].courses[1].tag",
-        "cannon:divisions[2].departments[0].courses[8].tag",
-        "cannon:divisions[2].departments[0].courses[9].tag",
-        "cannon:divisions[2].departments[2].courses[14].tag",
-        "cannon:divisions[2].departments[2].courses[15].tag",
-        "cannon:divisions[2].departments[3].courses[6].tag",
-        "cannon:divisions[2].departments[3].courses[7].tag",
-        "davidson-day:divisions[2].departments[0].courses[9].tag",
-        "gaston-day:divisions[0].departments[1].courses[1].tag",
-        "gaston-day:divisions[0].departments[1].courses[2].tag",
-        "gaston-day:divisions[0].departments[1].courses[3].tag",
-        "gaston-day:divisions[0].departments[1].courses[4].tag"
       ]
     },
     {
@@ -6477,8 +6471,8 @@
       ]
     },
     {
-      "t": "La asignatura de ingeniería de segundo año.",
-      "of": "3254b19c",
+      "t": "La segunda asignatura de ingeniería, centrada en la electrónica y los microcontroladores.",
+      "of": "70939965",
       "at": [
         "charlotte-latin:divisions[2].departments[6].courses[1].description"
       ]
@@ -6617,8 +6611,8 @@
       ]
     },
     {
-      "t": "Estructuras de datos en Java a nivel Honors, impartidas con Git y GitHub.",
-      "of": "6b52f6b5",
+      "t": "Estructuras de datos en Java a nivel Honors.",
+      "of": "fc61681a",
       "at": [
         "charlotte-latin:divisions[2].departments[6].courses[11].description"
       ]
@@ -6772,8 +6766,8 @@
       ]
     },
     {
-      "t": "La asignatura introductoria de teatro técnico.",
-      "of": "6e0b5e6b",
+      "t": "Una asignatura introductoria de teatro técnico.",
+      "of": "b2e8aedd",
       "at": [
         "charlotte-latin:divisions[2].departments[8].courses[2].description"
       ]
@@ -6786,8 +6780,8 @@
       ]
     },
     {
-      "t": "La asignatura de teatro técnico de segundo nivel.",
-      "of": "23c92bf6",
+      "t": "Una asignatura de teatro técnico con temas distintos de los de Stagecraft I; no es necesario cursarlas en orden.",
+      "of": "f9ebfea4",
       "at": [
         "charlotte-latin:divisions[2].departments[8].courses[3].description"
       ]
@@ -6907,8 +6901,8 @@
       ]
     },
     {
-      "t": "El requisito de educación física y salud de Upper School; la mitad puede convalidarse con la práctica deportiva.",
-      "of": "e77a4177",
+      "t": "El requisito de educación física y salud de Upper School; la mitad puede convalidarse jugando en un equipo del colegio o haciendo de mánager, o bailando en un musical aprobado.",
+      "of": "0637caec",
       "at": [
         "charlotte-latin:divisions[2].departments[10].courses[0].description"
       ]
@@ -6950,15 +6944,15 @@
       ]
     },
     {
-      "t": "11 ramas de conocimiento — Bible desde JK hasta un trabajo final de apologética Case for Christ en grado 4, más seis asignaturas de enriquecimiento.",
-      "of": "711fa658",
+      "t": "5 ramas de conocimiento básicas — Bible desde JK hasta un trabajo final de apologética Case for Christ en grado 4 — más seis asignaturas de enriquecimiento.",
+      "of": "a523846e",
       "at": [
         "charlotte-christian:divisions[0].teaser"
       ]
     },
     {
-      "t": "Charlotte Christian publica las ramas de conocimiento de Lower School con tablas de contenidos por franja de curso, no asignaturas con nombre propio. No existe ningún catálogo de asignaturas de Lower School.",
-      "of": "aaeb7508",
+      "t": "Charlotte Christian publica las ramas de conocimiento de Lower School con tablas de contenidos por franja de curso, no asignaturas con nombre propio. No publica ningún catálogo de asignaturas de Lower School.",
+      "of": "a8ccf65c",
       "at": [
         "charlotte-christian:divisions[0].notPublished"
       ]
@@ -7181,8 +7175,8 @@
       ]
     },
     {
-      "t": "Secuencias curso por curso en 6 áreas más tres itinerarios de optativas — aquí Middle School empieza en grado 5, no en Lower.",
-      "of": "4e644967",
+      "t": "Secuencias curso por curso en 5 áreas más tres itinerarios de optativas — aquí Middle School empieza en grado 5, no en Lower.",
+      "of": "2379799c",
       "at": [
         "charlotte-christian:divisions[1].teaser"
       ]
@@ -7286,8 +7280,8 @@
       ]
     },
     {
-      "t": "Tres itinerarios de nivel en séptimo grado, hasta el Algebra 1 completo de secundaria.",
-      "of": "5418d548",
+      "t": "Tres itinerarios de nivel en séptimo grado, hasta Algebra 1.",
+      "of": "63c30f08",
       "at": [
         "charlotte-christian:divisions[1].departments[1].courses[2].description"
       ]
@@ -7444,8 +7438,8 @@
       ]
     },
     {
-      "t": "Los estudiantes eligen entre francés, latín o español para iniciarse.",
-      "of": "a2f02fba",
+      "t": "Los estudiantes eligen entre francés, latín o español para empezar.",
+      "of": "14ed8636",
       "at": [
         "charlotte-christian:divisions[1].departments[4].courses[1].description"
       ]
@@ -7524,8 +7518,8 @@
       ]
     },
     {
-      "t": "Música y artes visuales en grado 5; en los grados 7–8 se añaden ACT 2, Creative Media, Digital Music, Exploratory Art, Guitar, MidKnight Knews, Stagecraft y Ukulele.",
-      "of": "d3f13e97",
+      "t": "Grado 5: música (Band, Choir u Orchestra) y artes visuales · Grado 6: ACT 2, Art, Band, Choir, Orchestra y Theatre · Grados 7–8: ACT 2, Art, Band, Choir, Creative Media, Digital Music, Exploratory Art, Guitar, MidKnight Knews, Orchestra, Stagecraft y Ukulele.",
+      "of": "cbacf375",
       "at": [
         "charlotte-christian:divisions[1].departments[5].courses[0].description"
       ]
@@ -7552,8 +7546,8 @@
       ]
     },
     {
-      "t": "Global Knights en grado 5; Leadership y Study Skills en grado 6; en los grados 7–8 se añaden Public Speaking, Game Changers, Kingdom Council, Multicultural Studies y Speech & Debate.",
-      "of": "8f55c91f",
+      "t": "Grado 5: Global Knights, Leadership y Study Skills · Grado 6: Public Speaking y Study Skills · Grados 7–8: Game Changers, Kingdom Council, Multicultural Studies, Speech & Debate, Study Hall y The 24/7 Project.",
+      "of": "e3a26052",
       "at": [
         "charlotte-christian:divisions[1].departments[5].courses[2].description"
       ]
@@ -7745,8 +7739,8 @@
       ]
     },
     {
-      "t": "Un recorrido por la literatura universal que se pregunta “¿qué significa ser un ciudadano global comprometido?” a través de la literatura de Latinoamérica, África y Asia.",
-      "of": "8bba8958",
+      "t": "Un recorrido por la literatura universal que lee literatura de Latinoamérica, África y Asia en torno a la pregunta “¿qué significa ser un ciudadano global comprometido?”",
+      "of": "8e35496a",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[4].description"
       ]
@@ -7775,8 +7769,8 @@
       ]
     },
     {
-      "t": "Un recorrido por la literatura y el legado europeos que examina la vida adulta, las decisiones y sus consecuencias, desde los clásicos griegos y romanos hasta la Europa moderna.",
-      "of": "2e1638ab",
+      "t": "Un recorrido por la literatura y el legado europeos que examina la vida adulta, las decisiones y sus consecuencias, desde los clásicos griegos y romanos hasta la Europa moderna y el legado colonial.",
+      "of": "86da2363",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[6].description"
       ]
@@ -7855,8 +7849,8 @@
       ]
     },
     {
-      "t": "Una asignatura de taller que abarca poesía, relato breve, humor y sátira, ensayo personal, memorias y no ficción creativa.",
-      "of": "476a8329",
+      "t": "Una asignatura de taller en géneros como la poesía, el relato breve, el humor y la sátira, el ensayo personal, las memorias y la no ficción creativa.",
+      "of": "2774f4ab",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[12].description"
       ]
@@ -7998,8 +7992,8 @@
       ]
     },
     {
-      "t": "Cubre los contenidos de un curso universitario de primer año de álgebra, con estudio en profundidad de las funciones, la trigonometría analítica, los vectores y la matemática discreta.",
-      "of": "28c3f336",
+      "t": "Cubre los contenidos de un curso universitario de primer año de álgebra: las funciones en profundidad · la trigonometría analítica · los vectores · las ecuaciones paramétricas y polares · la geometría analítica · la matemática discreta · el alumnado debe presentarse al examen AP en mayo.",
+      "of": "84e3ac1c",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[8].description"
       ]
@@ -8182,8 +8176,8 @@
       ]
     },
     {
-      "t": "Cubre la mecánica y los fluidos con un enfoque basado en el álgebra, equivalente al primer semestre de física universitaria introductoria.",
-      "of": "af070022",
+      "t": "Cubre la mecánica y los fluidos con un enfoque basado en el álgebra, equivalente al primer semestre de un curso universitario introductorio de física para estudiantes que no se especializan en ciencias.",
+      "of": "408be7a1",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[6].description"
       ]
@@ -8338,7 +8332,7 @@
     },
     {
       "t": "Recorre la historia desde aproximadamente el año 1200 y explora las fuerzas políticas, religiosas, sociales e ideológicas que dieron forma al mundo moderno.",
-      "of": "fdc5b680",
+      "of": "234416d0",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[2].description"
       ]
@@ -8366,7 +8360,7 @@
     },
     {
       "t": "Un recorrido de nivel universitario por las grandes civilizaciones, acontecimientos, religiones e ideologías desde aproximadamente 1200 hasta el final del siglo XX.",
-      "of": "7d1c9ca1",
+      "of": "c1acef4d",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[4].description"
       ]
@@ -8402,7 +8396,7 @@
     },
     {
       "t": "Estudia los procesos culturales, económicos, políticos y sociales que dieron forma a Estados Unidos desde aproximadamente 1491 hasta hoy.",
-      "of": "d3f5a648",
+      "of": "0d82f8d6",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[7].description"
       ]
@@ -8548,8 +8542,8 @@
       ]
     },
     {
-      "t": "La secuencia de francés, centrada en los cinco National World Language Standards desde una perspectiva bíblica; a partir del nivel III se añade la prueba de competencia AAPPL.",
-      "of": "8989603f",
+      "t": "La secuencia de francés, centrada en los cinco National World Language Standards desde una perspectiva bíblica; el alumnado de French III realiza la prueba de competencia AAPPL.",
+      "of": "02d38ddb",
       "at": [
         "charlotte-christian:divisions[2].departments[5].courses[0].description"
       ]
@@ -8605,8 +8599,8 @@
       ]
     },
     {
-      "t": "Se leen la Eneida de Virgilio y las Cartas de Plinio el Joven.",
-      "of": "b7228ec7",
+      "t": "Se leen fragmentos de la Eneida de Virgilio, de las Cartas de Plinio el Joven y de otras obras clásicas, medievales y renacentistas.",
+      "of": "b0ad8251",
       "at": [
         "charlotte-christian:divisions[2].departments[5].courses[5].description"
       ]
@@ -8866,8 +8860,8 @@
       ]
     },
     {
-      "t": "Un portafolio de arte 2D, arte 3D o dibujo según las pautas del College Board, cuyo trabajo comienza en verano.",
-      "of": "0dee7738",
+      "t": "Un portafolio de arte 2D, arte 3D o dibujo según las pautas del College Board, cuyo trabajo comienza en verano; para alumnos de tercer y último curso que cumplan los requisitos.",
+      "of": "e07d31cf",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[3].description"
       ]
@@ -8894,8 +8888,8 @@
       ]
     },
     {
-      "t": "Formas tridimensionales en arcilla, escayola, alambre, metal, madera, textiles, maquetas arquitectónicas y objetos encontrados.",
-      "of": "1f643022",
+      "t": "Formas tridimensionales en materiales diversos, como arcilla, escayola, alambre, metal, madera, textiles, maquetas arquitectónicas y objetos encontrados.",
+      "of": "8996e2ba",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[5].description"
       ]
@@ -9324,8 +9318,8 @@
       ]
     },
     {
-      "t": "Una semana en el segundo semestre con asignaturas de enriquecimiento no convencionales, viajes de misión y servicio y acompañamiento profesional.",
-      "of": "6e97232d",
+      "t": "Una semana en el segundo semestre con asignaturas de enriquecimiento no convencionales, viajes de misión y servicio y acompañamiento profesional (solo para alumnos de tercer y último curso).",
+      "of": "b7c483d2",
       "at": [
         "charlotte-christian:divisions[2].departments[8].courses[7].description"
       ]
@@ -9393,8 +9387,8 @@
       ]
     },
     {
-      "t": "Reglamento de la NFHS, gestión del partido y mecánica de arbitraje con dos árbitros, como preparación para la certificación.",
-      "of": "4047f91a",
+      "t": "Reglamento de la NFHS, gestión del partido, manejo de conflictos y mecánica de un equipo arbitral de 2 personas, como preparación para la certificación.",
+      "of": "0d427ecd",
       "at": [
         "charlotte-christian:divisions[2].departments[9].courses[2].description",
         "charlotte-christian:divisions[2].departments[9].courses[3].description"
@@ -9466,8 +9460,8 @@
       ]
     },
     {
-      "t": "La asignatura incluye un repaso de los fundamentos de gramática y de las convenciones básicas de la redacción de ensayos.",
-      "of": "78d62dd8",
+      "t": "Un repaso de los fundamentos de gramática y de las convenciones básicas de la redacción de ensayos.",
+      "of": "48138164",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[0].description"
       ]
@@ -9480,8 +9474,8 @@
       ]
     },
     {
-      "t": "La asignatura incluye una visión general y un repaso ágil de los fundamentos de gramática y de las convenciones básicas de la redacción de ensayos.",
-      "of": "f1a7bab0",
+      "t": "Una visión general y un repaso ágil de los fundamentos de gramática y de las convenciones básicas de la redacción de ensayos.",
+      "of": "99c2da8a",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[1].description"
       ]
@@ -9527,8 +9521,8 @@
       ]
     },
     {
-      "t": "La literatura universal a través de novelas, relatos breves, teatro y poesía · los fundamentos de gramática, practicados en los trabajos escritos · una introducción a los ensayos valorativos y analíticos con fuentes secundarias.",
-      "of": "d2836f86",
+      "t": "La literatura universal a través de novelas, relatos breves, teatro y poesía · las nociones básicas de gramática, practicadas en los trabajos escritos · una introducción a los ensayos que valoran y analizan, con fuentes secundarias · más trabajo de vocabulario, comprensión lectora y términos literarios.",
+      "of": "9f10e881",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[4].description",
         "charlotte-catholic:divisions[0].departments[0].courses[5].description"
@@ -9549,8 +9543,8 @@
       ]
     },
     {
-      "t": "Esta asignatura incluye muchos de los mismos contenidos que se imparten en Advanced English 10, pero con un enfoque más completo en la literatura universal y lecturas adicionales fuera del aula.",
-      "of": "19122635",
+      "t": "Trata muchos de los mismos contenidos que Advanced English 10, con un enfoque más completo en la literatura universal y más lecturas fuera del aula.",
+      "of": "b83100a8",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[6].description"
       ]
@@ -9570,8 +9564,8 @@
       ]
     },
     {
-      "t": "Competencias de escritura como la preescritura, la organización, los borradores y la revisión · ensayos documentados con fuentes primarias y, en algunos casos, secundarias · práctica intensiva de análisis literario · comprensión lectora.",
-      "of": "d36bd157",
+      "t": "Competencias de escritura como la preescritura, la organización, los borradores y la revisión · ensayos documentados con fuentes primarias y, en algunos casos, secundarias · práctica intensiva de análisis literario · comprensión lectora · trabajo continuado de vocabulario · un panorama general de las épocas y los géneros de la literatura estadounidense, atendiendo a su contexto histórico y social.",
+      "of": "44e82cb2",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[8].description"
       ]
@@ -9584,8 +9578,8 @@
       ]
     },
     {
-      "t": "Competencias de escritura como la preescritura, la organización, los borradores y la revisión · ensayos documentados con fuentes primarias y secundarias · práctica intensiva de redacción de ensayos analíticos · comprensión lectora.",
-      "of": "aa92cd5c",
+      "t": "Competencias de escritura como la preescritura, la organización, los borradores y la revisión · ensayos documentados con fuentes primarias y secundarias · práctica intensiva de redacción de ensayos analíticos · comprensión lectora · trabajo continuado de vocabulario · un panorama general de las épocas y los géneros de la literatura estadounidense · lecturas adicionales obligatorias y trabajos breves frecuentes.",
+      "of": "fc0fa370",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[9].description"
       ]
@@ -9598,15 +9592,15 @@
       ]
     },
     {
-      "t": "Esta asignatura comprende buena parte del material que se ve en Honors English 11, además de los principios de la retórica y la argumentación.",
-      "of": "a5083a33",
+      "t": "Cubre buena parte del material de Honors English 11, además de los principios de la retórica y la argumentación.",
+      "of": "19c08f9c",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[10].description"
       ]
     },
     {
-      "t": "Un panorama de la literatura británica · repaso y práctica de la estructura del párrafo y del ensayo · gramática practicada en los trabajos escritos · comprensión lectora, resumen y análisis.",
-      "of": "07a9b2a2",
+      "t": "Un panorama de la literatura británica · repaso y práctica de la estructura del párrafo y del ensayo · gramática practicada en los trabajos escritos · comprensión lectora, resumen y análisis · redacción de ensayos documentados con fuentes primarias y, en algunos casos, secundarias · trabajo de vocabulario.",
+      "of": "00e131e3",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[11].description"
       ]
@@ -9619,8 +9613,8 @@
       ]
     },
     {
-      "t": "Esta asignatura incluye un estudio en profundidad de la literatura británica mediante la lectura atenta y el debate; composición avanzada que da lugar a varios análisis literarios documentados con fuentes primarias y, en algunos casos.",
-      "of": "459deaf1",
+      "t": "Un estudio en profundidad de la literatura británica mediante la lectura atenta y el debate · composición avanzada que da lugar a varios análisis literarios documentados con fuentes primarias y, en algunos casos, secundarias · desarrollo del vocabulario.",
+      "of": "6a443116",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[12].description"
       ]
@@ -9633,8 +9627,8 @@
       ]
     },
     {
-      "t": "Esta asignatura incluye todo lo esencial de Honors English 12 con la adición de varios textos más complejos.",
-      "of": "49e16eeb",
+      "t": "Todo lo esencial de Honors English 12, además de varios textos más complejos.",
+      "of": "f09dd11b",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[13].description"
       ]
@@ -9647,8 +9641,8 @@
       ]
     },
     {
-      "t": "Esta asignatura comprende buena parte del material que se ve en Honors English 12, además de los principios de la retórica y la argumentación.",
-      "of": "0bc63a29",
+      "t": "Cubre buena parte del material de Honors English 12, además de los principios de la retórica y la argumentación.",
+      "of": "4db6d283",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[14].description"
       ]
@@ -9661,8 +9655,8 @@
       ]
     },
     {
-      "t": "Esta clase está pensada para dar experiencia práctica en técnicas de entrevista y de escritura (noticias, reportajes, editoriales, cobertura deportiva y reseñas de actos culturales), fotografía y maquetación.",
-      "of": "24ad2dab",
+      "t": "Experiencia práctica en técnicas de entrevista y de escritura (noticias, reportajes, editoriales, cobertura deportiva y reseñas de actos culturales), fotografía y maquetación.",
+      "of": "71045252",
       "at": [
         "charlotte-catholic:divisions[0].departments[0].courses[15].description"
       ]
@@ -9717,8 +9711,8 @@
       ]
     },
     {
-      "t": "Esta asignatura está pensada para el alumnado de Academic Achievement de los grados 10.º, 11.º y 12.º con un GPA de 2.9 o inferior.",
-      "of": "a09da7c3",
+      "t": "Para el alumnado de Academic Achievement de los grados 10, 11 y 12 con un GPA de 2.9 o inferior.",
+      "of": "13d7a6f9",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[1].description"
       ]
@@ -9731,8 +9725,8 @@
       ]
     },
     {
-      "t": "Los assistants realizan tareas para la secretaría, el departamento de orientación, exalumnos y campus ministry, y se les evalúa por su disposición a aprender, su iniciativa, su desempeño en las tareas asignadas y su competencia en el ámbito asignado.",
-      "of": "5fad789b",
+      "t": "Los assistants realizan tareas para la secretaría, el departamento de orientación, exalumnos y campus ministry · se les evalúa por su disposición a aprender, su iniciativa, su desempeño en las tareas asignadas y su competencia en el ámbito asignado · la asignatura solo puede cursarse una vez.",
+      "of": "16528847",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[2].description"
       ]
@@ -9746,8 +9740,8 @@
       ]
     },
     {
-      "t": "El alumnado dedicará su tiempo a trabajar de forma autónoma en sus tareas en un entorno supervisado.",
-      "of": "126b46c0",
+      "t": "Tiempo supervisado para que el alumnado trabaje de forma autónoma en sus tareas.",
+      "of": "853af355",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[3].description"
       ]
@@ -9795,8 +9789,8 @@
       ]
     },
     {
-      "t": "Esta asignatura está pensada para ayudar al alumnado a prepararse con eficacia para el SAT. La enseñanza se divide en dos bloques principales: Evidence-Based Reading & Writing y Mathematics.",
-      "of": "66820258",
+      "t": "Prepara al alumnado para el SAT, con una enseñanza dividida en dos bloques principales: Evidence-Based Reading & Writing y Mathematics.",
+      "of": "c747763a",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[5].description"
       ]
@@ -9809,8 +9803,8 @@
       ]
     },
     {
-      "t": "El alumnado explorará el sentido más profundo del deporte desde una mirada ética y filosófica.",
-      "of": "abea03c6",
+      "t": "Explora el sentido más profundo del deporte desde una mirada ética y filosófica.",
+      "of": "2dcc624c",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[6].description"
       ]
@@ -9880,8 +9874,8 @@
       ]
     },
     {
-      "t": "Esta clase está pensada para dar a entender los principios básicos del ciclo contable aplicados a las entidades empresariales.",
-      "of": "a7b074f0",
+      "t": "Enseña los principios básicos del ciclo contable (Accounting Cycle) aplicados a las empresas.",
+      "of": "12b72e65",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[11].description"
       ]
@@ -9966,8 +9960,8 @@
       ]
     },
     {
-      "t": "Esta asignatura está pensada para preparar al alumnado para asignaturas avanzadas en los campos de la ingeniería eléctrica e informática.",
-      "of": "e2038a46",
+      "t": "Prepara al alumnado para asignaturas avanzadas de ingeniería eléctrica e informática.",
+      "of": "6a0d4d3b",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[17].description"
       ]
@@ -9980,8 +9974,8 @@
       ]
     },
     {
-      "t": "Prepara al alumnado para asignaturas de nivel universitario de ingeniería civil y de la construcción, y explora conceptos de diseño como los sistemas y materiales constructivos, las estructuras y las cargas, el transporte y los conceptos ambientales.",
-      "of": "85c1abf7",
+      "t": "Prepara al alumnado para asignaturas de nivel universitario de ingeniería civil y de la construcción · conceptos de diseño como los sistemas y materiales constructivos, las estructuras y las cargas, el transporte y los conceptos ambientales · los tipos de puentes y los fundamentos del análisis estructural · el diseño de infraestructuras urbanas y la práctica del urbanismo.",
+      "of": "09c7bc4e",
       "at": [
         "charlotte-catholic:divisions[0].departments[1].courses[18].description"
       ]
@@ -10001,22 +9995,22 @@
       ]
     },
     {
-      "t": "Un repaso de las operaciones con números enteros, fracciones y decimales · la resolución de ecuaciones e inecuaciones de una variable · una introducción a las funciones · las funciones lineales · los sistemas de ecuaciones e inecuaciones lineales.",
-      "of": "bbbf2d3c",
+      "t": "Un repaso de las operaciones con números enteros, fracciones y decimales · la resolución de ecuaciones e inecuaciones de una variable · una introducción a las funciones · las funciones lineales · los sistemas de ecuaciones e inecuaciones lineales · el trabajo con polinomios · la factorización de polinomios · las funciones cuadráticas · la representación de datos y su resumen numérico.",
+      "of": "9a9dd2e0",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[0].description"
       ]
     },
     {
-      "t": "Un breve repaso de las operaciones con números enteros, fracciones y decimales · la resolución de ecuaciones e inecuaciones de una variable · una introducción a las funciones · las funciones lineales · los sistemas de ecuaciones e inecuaciones lineales.",
-      "of": "ee6606f4",
+      "t": "Un breve repaso de las operaciones con números enteros, fracciones y decimales · la resolución de ecuaciones e inecuaciones de una variable · una introducción a las funciones · las funciones lineales · los sistemas de ecuaciones e inecuaciones lineales · el trabajo con polinomios · la factorización de polinomios · las funciones cuadráticas · la representación de datos y su resumen numérico.",
+      "of": "31f7b5a8",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[1].description"
       ]
     },
     {
-      "t": "Esta asignatura incluye los términos y símbolos básicos; la congruencia y la semejanza de polígonos y circunferencias; el área y el volumen; las rectas paralelas y perpendiculares; las transformaciones; y una introducción a la demostración.",
-      "of": "d2651304",
+      "t": "Los términos y símbolos básicos · la congruencia y la semejanza de polígonos y circunferencias · el área y el volumen · las rectas paralelas y perpendiculares · las transformaciones · una introducción a la demostración.",
+      "of": "b7c49ec5",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[2].description"
       ]
@@ -10029,8 +10023,8 @@
       ]
     },
     {
-      "t": "Esta asignatura incluye el estudio de los términos y símbolos básicos; la congruencia y la semejanza de polígonos y circunferencias; el área y el volumen; las rectas paralelas y perpendiculares; las transformaciones y las demostraciones.",
-      "of": "568449b3",
+      "t": "Los términos y símbolos básicos · la congruencia y la semejanza de polígonos y circunferencias · el área y el volumen · las rectas paralelas y perpendiculares · las transformaciones y las demostraciones.",
+      "of": "2a79374c",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[3].description"
       ]
@@ -10052,8 +10046,8 @@
       ]
     },
     {
-      "t": "Esta asignatura incluye el estudio de las funciones lineales, cuadráticas, exponenciales, logarítmicas, radicales, racionales y trigonométricas; los números complejos; la correlación y la regresión.",
-      "of": "b5cfa283",
+      "t": "Las funciones lineales, cuadráticas, exponenciales, logarítmicas, radicales, racionales y trigonométricas · los números complejos · la correlación y la regresión.",
+      "of": "a46d624e",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[5].description"
       ]
@@ -10066,8 +10060,8 @@
       ]
     },
     {
-      "t": "Esta asignatura incluye el estudio de las funciones lineales, cuadráticas, exponenciales, logarítmicas, radicales, racionales y trigonométricas; los números complejos; la correlación y la regresión; los modelos normales; y los intervalos de confianza para proporciones y medias.",
-      "of": "9c1c5de8",
+      "t": "Las funciones lineales, cuadráticas, exponenciales, logarítmicas, radicales, racionales y trigonométricas · los números complejos · la correlación y la regresión · los modelos normales · los intervalos de confianza para proporciones y medias.",
+      "of": "632c0bce",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[6].description"
       ]
@@ -10082,8 +10076,8 @@
       ]
     },
     {
-      "t": "Una asignatura exigente para el alumnado con una fuerte ética de trabajo y capacidad de pensamiento crítico, que aborda en profundidad las funciones lineales, cuadráticas, exponenciales, logarítmicas, radicales, racionales y trigonométricas.",
-      "of": "f298dbfc",
+      "t": "Una asignatura exigente para el alumnado con una fuerte ética de trabajo y capacidad de pensamiento crítico, que aborda en profundidad: las funciones lineales, cuadráticas y exponenciales · las funciones logarítmicas, radicales, racionales y trigonométricas · los números complejos · la correlación y la regresión · los modelos normales · los intervalos de confianza para proporciones y medias.",
+      "of": "529283cd",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[7].description"
       ]
@@ -10096,8 +10090,8 @@
       ]
     },
     {
-      "t": "Esta asignatura pretende preparar al alumnado para una asignatura universitaria de álgebra, estadística o precálculo.",
-      "of": "08efbcd2",
+      "t": "Prepara al alumnado para una asignatura universitaria de álgebra, estadística o precálculo.",
+      "of": "d5bdf4a2",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[8].description"
       ]
@@ -10110,8 +10104,8 @@
       ]
     },
     {
-      "t": "Esta asignatura pretende preparar al alumnado para una asignatura universitaria de álgebra, estadística, precálculo o cálculo.",
-      "of": "0a1b706a",
+      "t": "Prepara al alumnado para una asignatura universitaria de álgebra, estadística, precálculo o cálculo.",
+      "of": "af0ee692",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[9].description"
       ]
@@ -10124,8 +10118,8 @@
       ]
     },
     {
-      "t": "Esta asignatura ofrece al alumnado la oportunidad de seguir estudiando las funciones lineales, cuadráticas, exponenciales, logarítmicas y trigonométricas.",
-      "of": "73e22d33",
+      "t": "Profundiza en el estudio de las funciones lineales, cuadráticas, exponenciales, logarítmicas y trigonométricas.",
+      "of": "addb02e0",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[10].description"
       ]
@@ -10138,8 +10132,8 @@
       ]
     },
     {
-      "t": "Esta asignatura incluye el desarrollo y análisis más amplio de las funciones, incluidas las polinómicas, racionales, exponenciales, logarítmicas y trigonométricas.",
-      "of": "35f390f8",
+      "t": "Un desarrollo y análisis más amplio de las funciones, incluidas las polinómicas, racionales, exponenciales, logarítmicas y trigonométricas.",
+      "of": "21e29d26",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[11].description"
       ]
@@ -10152,8 +10146,8 @@
       ]
     },
     {
-      "t": "Una asignatura exigente para el alumnado con una fuerte ética de trabajo y capacidad de pensamiento crítico, que aborda el desarrollo y análisis más amplio de las funciones, incluidas las polinómicas, racionales, exponenciales, logarítmicas y trigonométricas.",
-      "of": "3413d082",
+      "t": "Una asignatura exigente para el alumnado con una fuerte ética de trabajo y capacidad de pensamiento crítico, que aborda el desarrollo y análisis más amplio de las funciones, como las polinómicas, racionales, exponenciales, logarítmicas y trigonométricas · la probabilidad · el recuento · las sucesiones y series · las secciones cónicas · el sistema de los números complejos · las pruebas de hipótesis para medias y proporciones.",
+      "of": "14fc3faf",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[12].description"
       ]
@@ -10189,8 +10183,8 @@
       ]
     },
     {
-      "t": "Advanced Placement Calculus BC equivale aproximadamente a las asignaturas universitarias de cálculo de primer y segundo semestre, y abarca Calculus AB, ampliado a distintos tipos de ecuaciones, además de sucesiones y series.",
-      "of": "9852095d",
+      "t": "Advanced Placement Calculus BC equivale aproximadamente a las asignaturas universitarias de cálculo de primer y segundo semestre · la asignatura abarca Calculus AB, ampliado a distintos tipos de ecuaciones, además de sucesiones y series · los temas de cálculo diferencial e integral incluyen los límites, las derivadas, las integrales definidas, el teorema fundamental del cálculo y las series · todo el alumnado debe presentarse al examen AP Calculus BC.",
+      "of": "68048f34",
       "at": [
         "charlotte-catholic:divisions[0].departments[2].courses[16].description"
       ]
@@ -10380,8 +10374,8 @@
       ]
     },
     {
-      "t": "Una prolongación de dos años del Options Program más allá de la etapa tradicional de secundaria · las clases, la formación laboral, las prácticas y las experiencias en la comunidad desarrollan las habilidades para la vida, la preparación para el trabajo y la universidad, y la autonomía.",
-      "of": "2875a0cd",
+      "t": "Una prolongación de dos años del Options Program más allá de la etapa tradicional de secundaria · enseñanza individualizada de habilidades para la vida · preparación para el trabajo · comunicación social · desplazarse por la comunidad · preparación para la universidad · práctica en situaciones reales, como la formación laboral, las prácticas, las experiencias guiadas en la comunidad y más trabajo académico · el programa busca apoyar el avance hacia una vida autónoma.",
+      "of": "992966d5",
       "at": [
         "charlotte-catholic:divisions[0].departments[3].courses[13].description"
       ]
@@ -10401,8 +10395,8 @@
       ]
     },
     {
-      "t": "Esta asignatura estudia qué significa afirmar que los seres humanos son personas (es decir, seres dotados de libertad y de una vida interior capaz de conocer y de amar).",
-      "of": "078dacf5",
+      "t": "Estudia qué significa llamar personas a los seres humanos (seres con libertad y con una vida interior capaz de conocer y de amar).",
+      "of": "53e6f9bc",
       "at": [
         "charlotte-catholic:divisions[0].departments[4].courses[0].description"
       ]
@@ -10415,8 +10409,8 @@
       ]
     },
     {
-      "t": "Esta asignatura introduce al alumnado en el enfoque de la ética de la filosofía clásica desde una mirada católica.",
-      "of": "6371b8ed",
+      "t": "Introduce el enfoque de la ética de la filosofía clásica desde una mirada católica.",
+      "of": "c358e2d3",
       "at": [
         "charlotte-catholic:divisions[0].departments[4].courses[1].description"
       ]
@@ -10470,8 +10464,8 @@
       ]
     },
     {
-      "t": "Esta asignatura se centrará en movimientos sencillos de resistencia y aeróbicos con el fin de aumentar las capacidades físicas.",
-      "of": "193f5c87",
+      "t": "Se centra en movimientos sencillos de resistencia y aeróbicos para aumentar las capacidades físicas.",
+      "of": "00e9c559",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[2].description"
       ]
@@ -10512,8 +10506,8 @@
       ]
     },
     {
-      "t": "Esta asignatura se centrará en los elementos de la danza con ejercicios de movimiento cardiovascular. También se incorporarán pilates y estiramientos.",
-      "of": "98779b03",
+      "t": "Se centra en los elementos de la danza con ejercicios de movimiento cardiovascular, además de pilates y estiramientos.",
+      "of": "62d8b544",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[5].description"
       ]
@@ -10526,8 +10520,8 @@
       ]
     },
     {
-      "t": "El alumnado participará en diversas actividades de equipo con énfasis en la elección grupal e individual y en actividades que se puedan mantener más adelante.",
-      "of": "53094926",
+      "t": "Diversas actividades de equipo, con énfasis en la elección grupal e individual y en actividades que se puedan mantener más adelante.",
+      "of": "78dcdd5b",
       "at": [
         "charlotte-catholic:divisions[0].departments[5].courses[6].description"
       ]
@@ -10547,8 +10541,8 @@
       ]
     },
     {
-      "t": "Una introducción amplia a los principios básicos de la biología mediante el estudio del ser humano y de su interacción con otros organismos y con el entorno que comparten.",
-      "of": "694041aa",
+      "t": "Una introducción amplia a los principios básicos de la biología mediante el estudio del ser humano y de su interacción con otros organismos y con el entorno que comparten · la estructura y la función de la célula · la estructura y la función de plantas y animales (estudio de sistemas) · la reproducción · la genética · la evolución · la ecología · los ejercicios de laboratorio, la disección y los informes de laboratorio pesan mucho en la nota.",
+      "of": "f64aae18",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[0].description"
       ]
@@ -10561,8 +10555,8 @@
       ]
     },
     {
-      "t": "El propósito de esta asignatura es introducir al alumnado en un estudio en profundidad de los principios básicos de los procesos biológicos.",
-      "of": "60b9b8e4",
+      "t": "Introduce el estudio en profundidad de los principios básicos de los procesos biológicos.",
+      "of": "5d773e2a",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[1].description"
       ]
@@ -10670,8 +10664,8 @@
       ]
     },
     {
-      "t": "Esta asignatura está pensada para ofrecer una introducción a la nutrición humana, la salud y su impacto en la sociedad.",
-      "of": "88455d3f",
+      "t": "Una introducción a la nutrición humana, la salud y su impacto en la sociedad.",
+      "of": "c2ac2d95",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[9].description"
       ]
@@ -10684,15 +10678,15 @@
       ]
     },
     {
-      "t": "Advanced Placement Chemistry está concebida como una asignatura de química de segundo año. Es una optativa científica muy intensiva que cubre los temas que suelen incluirse en una asignatura universitaria de química de primer año.",
-      "of": "3f2ac5cc",
+      "t": "Advanced Placement Chemistry es una asignatura de química de segundo año, una optativa científica muy intensiva que cubre los temas que suelen incluirse en una asignatura universitaria de química de primer año.",
+      "of": "c56f9ac1",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[11].description"
       ]
     },
     {
-      "t": "Esta asignatura cubre los temas que suelen incluirse en una asignatura universitaria de primer año de ciencias ambientales.",
-      "of": "56716f95",
+      "t": "Cubre los temas que suelen incluirse en una asignatura universitaria de primer año de ciencias ambientales.",
+      "of": "16e37238",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[12].description"
       ]
@@ -10705,8 +10699,8 @@
       ]
     },
     {
-      "t": "Una asignatura introductoria de física de nivel universitario basada en el álgebra; todo el alumnado debe presentarse al examen AP Physics 1: Algebra-Based.",
-      "of": "19af0536",
+      "t": "Una asignatura introductoria de física de nivel universitario basada en el álgebra, que cubre estas áreas de contenido: Kinematics · Forces and Translational Dynamics · Work, Energy, and Power · Linear Momentum · Torque and Rotational Dynamics · Energy and Momentum of Rotating Systems · Oscillations · Fluids · todo el alumnado debe presentarse al examen AP Physics 1: Algebra-Based.",
+      "of": "17ad53d8",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[13].description"
       ]
@@ -10719,8 +10713,8 @@
       ]
     },
     {
-      "t": "Un estudio anual en profundidad de la mecánica newtoniana: la cinemática · las leyes del movimiento de Newton · el trabajo, la energía y la potencia · los sistemas de partículas y el momento lineal · el movimiento circular y la rotación · las oscilaciones y la gravitación.",
-      "of": "8e073378",
+      "t": "Un estudio anual en profundidad de la mecánica newtoniana: la cinemática · las leyes del movimiento de Newton · el trabajo, la energía y la potencia · los sistemas de partículas y el momento lineal · el movimiento circular y la rotación · las oscilaciones y la gravitación · la asignatura se basa en gran medida en el laboratorio, con un cuaderno de laboratorio obligatorio y resolución de problemas con cálculo · todo el alumnado debe presentarse al examen AP Physics C: Mechanics.",
+      "of": "3e437ca1",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[14].description"
       ]
@@ -10754,8 +10748,8 @@
       ]
     },
     {
-      "t": "Esta asignatura ofrecerá al alumnado una introducción completa a los conceptos científicos y a las técnicas de investigación de laboratorio que se emplean actualmente en el campo de la biotecnología.",
-      "of": "17608f26",
+      "t": "Una introducción completa a los conceptos científicos y a las técnicas de investigación de laboratorio que se emplean hoy en la biotecnología.",
+      "of": "a859781f",
       "at": [
         "charlotte-catholic:divisions[0].departments[6].courses[17].description"
       ]
@@ -10790,8 +10784,8 @@
       ]
     },
     {
-      "t": "Honors World History es la asignatura de historia universal del nivel más alto de Charlotte Catholic · los plazos de entrega se comunican a menudo con días o incluso semanas de antelación, así que el alumnado debe planificar su trabajo y gestionar su tiempo para tener éxito.",
-      "of": "9117a0bd",
+      "t": "Honors World History es la asignatura de historia universal del nivel más alto de Charlotte Catholic · los plazos de entrega se comunican a menudo con días o incluso semanas de antelación, así que el alumnado debe planificar su trabajo y gestionar su tiempo para tener éxito · la asignatura va desde la historia del mundo antiguo, centrada en las religiones, los imperios y las destrezas iniciales, pasando por la antigua China, hasta la Guerra Fría · el fuerte énfasis en el pensamiento y la escritura hace imprescindible la lectura asignada · no es una clase eurocéntrica: el alumnado estudia la historia de Europa y mucho sobre África, Asia y Latinoamérica.",
+      "of": "a83348cf",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[2].description"
       ]
@@ -10804,8 +10798,8 @@
       ]
     },
     {
-      "t": "Esta asignatura examina el desarrollo de las civilizaciones occidentales y del Próximo Oriente a través de la influencia histórica y artística del cristianismo.",
-      "of": "9b914725",
+      "t": "Examina cómo se desarrollaron las civilizaciones occidentales y del Próximo Oriente a través de la influencia histórica y artística del cristianismo.",
+      "of": "710c3f53",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[3].description"
       ]
@@ -10854,15 +10848,15 @@
       ]
     },
     {
-      "t": "Esta asignatura introduce al alumnado en el estudio científico del comportamiento humano y de los procesos mentales.",
-      "of": "0396eb47",
+      "t": "Una introducción al estudio científico del comportamiento humano y de los procesos mentales.",
+      "of": "4af526a9",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[7].description"
       ]
     },
     {
-      "t": "Esta asignatura es de nivel universitario e introduce al alumnado en el estudio sistemático y científico del comportamiento humano y de los procesos mentales.",
-      "of": "43a5d41d",
+      "t": "Una introducción de nivel universitario al estudio sistemático y científico del comportamiento humano y de los procesos mentales.",
+      "of": "e81b5742",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[8].description"
       ]
@@ -10875,8 +10869,8 @@
       ]
     },
     {
-      "t": "Esta asignatura es una clase de gobierno estadounidense de nivel college prep que introduce al alumnado en los fundamentos, las estructuras y los procesos del sistema político estadounidense.",
-      "of": "5ac83c77",
+      "t": "Una asignatura de gobierno estadounidense de nivel college prep que presenta los fundamentos, las estructuras y los procesos del sistema político estadounidense.",
+      "of": "c499cfc4",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[9].description"
       ]
@@ -10903,15 +10897,15 @@
       ]
     },
     {
-      "t": "Esta asignatura ofrece una introducción de nivel universitario a los conceptos, ideas, instituciones, políticas, interacciones, funciones y comportamientos políticos clave que caracterizan el sistema constitucional y la cultura política de Estados Unidos.",
-      "of": "d8b1836b",
+      "t": "Una introducción de nivel universitario a los conceptos, ideas, instituciones, políticas, interacciones, funciones y comportamientos políticos clave que caracterizan el sistema constitucional y la cultura política de Estados Unidos.",
+      "of": "7bdce14b",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[11].description"
       ]
     },
     {
-      "t": "Esta asignatura de economía es de nivel college prep e introduce al alumnado en los principios fundamentales de la economía, con especial atención al sistema económico estadounidense.",
-      "of": "bdde45a3",
+      "t": "Una asignatura de nivel college prep sobre los principios básicos de la economía, con especial atención al sistema económico estadounidense.",
+      "of": "653a0acf",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[12].description"
       ]
@@ -10938,8 +10932,8 @@
       ]
     },
     {
-      "t": "Esta clase es una asignatura de nivel universitario que introduce al alumnado en los principios económicos que se aplican al comportamiento de consumidores, empresas y propietarios de recursos individuales.",
-      "of": "43a6df4c",
+      "t": "Una introducción de nivel universitario a los principios económicos que se aplican al comportamiento de los consumidores individuales, las empresas y los propietarios de recursos.",
+      "of": "eefd305e",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[14].description"
       ]
@@ -10952,8 +10946,8 @@
       ]
     },
     {
-      "t": "Esta clase abarca contenidos tanto de macroeconomía como de microeconomía. La asignatura equivale a dos cursos semestrales de teoría macroeconómica y teoría microeconómica.",
-      "of": "ea8d26ae",
+      "t": "Abarca tanto la macroeconomía como la microeconomía y equivale a dos asignaturas semestrales, una de teoría macroeconómica y otra de teoría microeconómica.",
+      "of": "109df2a5",
       "at": [
         "charlotte-catholic:divisions[0].departments[7].courses[15].description"
       ]
@@ -10987,8 +10981,8 @@
       ]
     },
     {
-      "t": "Esta asignatura comienza con una breve orientación sobre filosofía y lógica. El resto de la asignatura examina cómo Dios se revela a las personas.",
-      "of": "0bb97eaf",
+      "t": "Una breve orientación sobre filosofía y lógica y, después, un estudio de cómo Dios se revela a las personas.",
+      "of": "0454085b",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[0].description"
       ]
@@ -11001,8 +10995,8 @@
       ]
     },
     {
-      "t": "Esta asignatura presenta la Santísima Trinidad — un solo Dios en tres personas divinas: Padre, Hijo y Espíritu Santo — que es el misterio central de la fe cristiana.",
-      "of": "09259e9d",
+      "t": "Estudia la Santísima Trinidad — un solo Dios en tres personas divinas: Padre, Hijo y Espíritu Santo —, el misterio central de la fe cristiana.",
+      "of": "d5b8cf1e",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[1].description"
       ]
@@ -11099,8 +11093,8 @@
       ]
     },
     {
-      "t": "Esta asignatura prepara al alumnado para el diálogo activo con quienes no son católicos en el ámbito público.",
-      "of": "f567ced1",
+      "t": "Prepara al alumnado para el diálogo activo con quienes no son católicos en la vida pública.",
+      "of": "19ce45ba",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[8].description"
       ]
@@ -11141,8 +11135,8 @@
       ]
     },
     {
-      "t": "Esta asignatura comienza con el relato de la intervención definitiva de Dios en la historia humana en la persona de su Hijo y continúa a través de su Iglesia hasta nuestros días.",
-      "of": "16e347be",
+      "t": "Recorre el relato desde la intervención definitiva de Dios en la historia humana en la persona de su Hijo, pasando por su Iglesia, hasta nuestros días.",
+      "of": "07f88455",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[11].description"
       ]
@@ -11155,8 +11149,8 @@
       ]
     },
     {
-      "t": "Esta asignatura permitirá al alumnado desarrollar un criterio para analizar lo que ve representado en el cine.",
-      "of": "1385fa2f",
+      "t": "Enseña al alumnado a desarrollar un criterio para analizar lo que ve representado en las películas.",
+      "of": "ed4a56b9",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[12].description"
       ]
@@ -11169,8 +11163,8 @@
       ]
     },
     {
-      "t": "Esta asignatura ofrece un panorama de las religiones del mundo, incluidos el judaísmo, el cristianismo, el islam, el hinduismo y el budismo.",
-      "of": "548d4bba",
+      "t": "Un panorama de las religiones del mundo, incluidos el judaísmo, el cristianismo, el islam, el hinduismo y el budismo.",
+      "of": "7818f03b",
       "at": [
         "charlotte-catholic:divisions[0].departments[8].courses[13].description"
       ]
@@ -11183,8 +11177,8 @@
       ]
     },
     {
-      "t": "Art I es una asignatura introductoria centrada en las destrezas artísticas fundamentales. Se exploran distintos medios y herramientas, entre ellos la pintura, el dibujo y la escultura.",
-      "of": "0a151589",
+      "t": "Art I es una asignatura introductoria centrada en las destrezas artísticas fundamentales, que explora distintos medios y herramientas, entre ellos la pintura, el dibujo y la escultura.",
+      "of": "5f6d46fc",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[0].description"
       ]
@@ -11365,8 +11359,8 @@
       ]
     },
     {
-      "t": "Esta asignatura ofrece a los chicos que entran en primer curso la oportunidad de desarrollar su voz mediante el canto coral, la respiración correcta, la lectura a primera vista y técnicas de emisión vocal.",
-      "of": "9ea6724e",
+      "t": "Ofrece a los chicos que entran en primer curso la oportunidad de desarrollar su voz mediante el canto coral, la respiración correcta, la lectura a primera vista y técnicas de emisión vocal.",
+      "of": "0fb278fc",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[13].description"
       ]
@@ -11379,8 +11373,8 @@
       ]
     },
     {
-      "t": "Esta asignatura ofrece a las chicas que entran en primer curso la oportunidad de desarrollar su voz mediante el canto coral, la respiración correcta, la lectura a primera vista y técnicas de emisión vocal.",
-      "of": "30121c3c",
+      "t": "Ofrece a las chicas que entran en primer curso la oportunidad de desarrollar su voz mediante el canto coral, la respiración correcta, la lectura a primera vista y técnicas de emisión vocal.",
+      "of": "f72bce2e",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[14].description"
       ]
@@ -11407,8 +11401,8 @@
       ]
     },
     {
-      "t": "Esta asignatura es un coro femenino de nivel avanzado con audición previa para quienes tienen experiencia previa en canto.",
-      "of": "9f34af36",
+      "t": "Un coro femenino de nivel avanzado, con audición, para quienes tienen experiencia previa en canto.",
+      "of": "cbadd3fd",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[16].description"
       ]
@@ -11421,8 +11415,8 @@
       ]
     },
     {
-      "t": "Esta asignatura es un coro femenino de nivel avanzado y superior con audición previa para quienes tienen experiencia previa en canto.",
-      "of": "035360d3",
+      "t": "Un coro femenino de nivel avanzado y superior, con audición, para quienes tienen experiencia previa en canto.",
+      "of": "21829186",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[17].description"
       ]
@@ -11435,8 +11429,8 @@
       ]
     },
     {
-      "t": "Esta asignatura es un coro masculino de nivel avanzado con audición previa para quienes tienen experiencia previa en canto.",
-      "of": "ce946530",
+      "t": "Un coro masculino de nivel avanzado, con audición, para quienes tienen experiencia previa en canto.",
+      "of": "c6bf2747",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[18].description"
       ]
@@ -11449,8 +11443,8 @@
       ]
     },
     {
-      "t": "Esta asignatura es un coro masculino de nivel avanzado y superior con audición previa para quienes tienen experiencia previa en canto.",
-      "of": "6b9a427d",
+      "t": "Un coro masculino de nivel avanzado y superior, con audición, para quienes tienen experiencia previa en canto.",
+      "of": "e96a1160",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[19].description"
       ]
@@ -11464,8 +11458,8 @@
       ]
     },
     {
-      "t": "Esta asignatura es un coro mixto de nivel superior con audición previa, para chicos y chicas con una experiencia previa importante en canto.",
-      "of": "53180152",
+      "t": "Un coro mixto de nivel superior, con audición, para chicos y chicas con una experiencia previa importante en canto.",
+      "of": "ac21d443",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[20].description"
       ]
@@ -11520,8 +11514,8 @@
       ]
     },
     {
-      "t": "Una asignatura avanzada en la que el alumnado no solo crea los decorados, sino que adquiere las herramientas para trabajar en un entorno profesional, aplicando todos los conceptos de diseño y estética.",
-      "of": "ecfbfa73",
+      "t": "Una asignatura avanzada en la que el alumnado no solo crea los decorados, sino que adquiere las herramientas para trabajar en un entorno profesional, aplicando todos los conceptos de diseño y estética · el alumnado se encarga de toda la iluminación y el sonido del colegio y sus instalaciones, y dedica tiempo extra a montar y desmontar para las misas y los actos del colegio · el alumnado de esta asignatura también asume funciones de liderazgo en todas las producciones teatrales.",
+      "of": "af089538",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[24].description"
       ]
@@ -11555,8 +11549,8 @@
       ]
     },
     {
-      "t": "Esta asignatura se ofrece al alumnado que desea profundizar en serio en todas las técnicas de interpretación, tanto para el escenario como para la pantalla.",
-      "of": "10b9628e",
+      "t": "Para el alumnado que desea profundizar en serio en todas las técnicas de interpretación, tanto para el escenario como para la pantalla.",
+      "of": "0bab2e9f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[27].description"
       ]
@@ -11583,8 +11577,8 @@
       ]
     },
     {
-      "t": "Esta asignatura amplía el conocimiento de los principios, procedimientos y técnicas de la producción de televisión y de series web.",
-      "of": "fddd3045",
+      "t": "Amplía los conocimientos del alumnado sobre los principios, procedimientos y técnicas de la producción de televisión y de series web.",
+      "of": "52e1109f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[29].description"
       ]
@@ -11625,8 +11619,8 @@
       ]
     },
     {
-      "t": "Dance III es una asignatura de interpretación de nivel honors que destaca la técnica avanzada del alumnado mediante la aplicación de la coreografía · la clase se imparte todo el año · se exigen dos recitales escenificados, que incluyen piezas coreografiadas por el alumnado.",
-      "of": "f9e5edfa",
+      "t": "Dance III es una asignatura de interpretación de nivel honors que destaca la técnica avanzada del alumnado mediante la aplicación de la coreografía · la clase se imparte todo el año · se exigen dos recitales escenificados, que incluyen piezas coreografiadas por el alumnado · es obligatorio comprar un calzado de danza adecuado.",
+      "of": "7c96437b",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[32].description"
       ]
@@ -11639,8 +11633,8 @@
       ]
     },
     {
-      "t": "El alumnado con experiencia tocando accede mediante audición, y se espera que domine su instrumento, tenga conocimientos básicos de teoría musical y lea música con soltura.",
-      "of": "be73b04a",
+      "t": "El alumnado con experiencia tocando accede mediante audición, y se espera que domine su instrumento, tenga conocimientos básicos de teoría musical y lea música con soltura · se hace hincapié en la calidad del sonido, la afinación y las técnicas avanzadas o extendidas · se espera que el alumnado asista a los ensayos y actuaciones después de clase · se espera que los integrantes formen parte de la banda de desfile en otoño · los instrumentistas de viento deben inscribirse en esta asignatura · es obligatorio practicar en casa · las actuaciones son obligatorias.",
+      "of": "45a3083b",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[33].description"
       ]
@@ -11653,8 +11647,8 @@
       ]
     },
     {
-      "t": "Esta clase es para el alumnado de tercero y cuarto que ha completado un año de Concert Band y desea obtener crédito de honors por su participación en la banda.",
-      "of": "ef41ca4c",
+      "t": "Para el alumnado de tercero y cuarto que ha completado un año de Concert Band y desea obtener crédito de honors por su participación en la banda.",
+      "of": "e0d46e5f",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[34].description"
       ]
@@ -11681,15 +11675,15 @@
       ]
     },
     {
-      "t": "Esta clase es para los integrantes del grupo de percusión que desean obtener crédito de honors por su participación en la banda.",
-      "of": "eeccefc2",
+      "t": "Para los integrantes del grupo de percusión que desean obtener crédito de honors por su participación en la banda.",
+      "of": "a0c617e9",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[36].description"
       ]
     },
     {
-      "t": "Esta asignatura está concebida como una clase basada en la interpretación para dar a entender los fundamentos de tocar la guitarra acústica.",
-      "of": "9c317d08",
+      "t": "Una clase basada en la interpretación sobre los fundamentos de tocar la guitarra acústica.",
+      "of": "a0fb9c2e",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[37].description"
       ]
@@ -11702,8 +11696,8 @@
       ]
     },
     {
-      "t": "Para el alumnado de guitarra de nivel intermedio-avanzado; continúa Guitar I con más énfasis en mejorar los fundamentos mediante la lectura a primera vista, las escalas, la construcción de acordes, los modos y el punteo con los dedos.",
-      "of": "cb3af940",
+      "t": "Para el alumnado de guitarra de nivel intermedio-avanzado · continúa Guitar I con más énfasis en mejorar los fundamentos mediante la lectura a primera vista, las escalas, la construcción de acordes, los modos y el punteo con los dedos · el alumnado toca en grupo y también como solista.",
+      "of": "7451e9b3",
       "at": [
         "charlotte-catholic:divisions[0].departments[9].courses[38].description"
       ]
@@ -11732,11 +11726,10 @@
       ]
     },
     {
-      "t": "Esta asignatura está pensada para continuar los cimientos adquiridos en French I y construir una mayor comprensión y dominio de la lectura, la escritura, la comprensión oral y la expresión oral.",
-      "of": "d9bf2f32",
+      "t": "Parte de la base adquirida en French I y profundiza en la lectura, la escritura, la comprensión oral y la expresión oral.",
+      "of": "787b5a7e",
       "at": [
-        "charlotte-catholic:divisions[0].departments[10].courses[1].description",
-        "charlotte-catholic:divisions[0].departments[10].courses[2].description"
+        "charlotte-catholic:divisions[0].departments[10].courses[1].description"
       ]
     },
     {
@@ -11747,6 +11740,13 @@
       ]
     },
     {
+      "t": "Parte de la base adquirida en French I y profundiza en la lectura, la escritura, la comprensión oral y la expresión oral · en el nivel Advanced, la lengua que se usa en clase es más compleja, el ritmo es más rápido y las expectativas son más exigentes.",
+      "of": "5e7aa552",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[2].description"
+      ]
+    },
+    {
       "t": "Advanced French III",
       "of": "5c23973c",
       "at": [
@@ -11754,8 +11754,8 @@
       ]
     },
     {
-      "t": "Una asignatura avanzada que desarrolla la comprensión del francés, continuando el desarrollo y la aplicación de la lengua en la lectura, la escritura, la comprensión oral y la expresión oral.",
-      "of": "782c6013",
+      "t": "Una asignatura avanzada que desarrolla la comprensión del francés, continuando su desarrollo y aplicación en la lectura, la escritura, la comprensión oral y la expresión oral · con un fuerte énfasis en la gramática y la expresión oral.",
+      "of": "c92c1237",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[3].description"
       ]
@@ -11826,8 +11826,8 @@
       ]
     },
     {
-      "t": "Esta asignatura está pensada para continuar los cimientos adquiridos en German I y construir una mayor comprensión y dominio de la lectura, la escritura, la comprensión oral y la expresión oral.",
-      "of": "a1cbc734",
+      "t": "Parte de la base adquirida en German I y profundiza en la lectura, la escritura, la comprensión oral y la expresión oral.",
+      "of": "569add6c",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[8].description"
       ]
@@ -11924,8 +11924,8 @@
       ]
     },
     {
-      "t": "Esta asignatura está pensada para el alumnado cuyo dominio demostrado de los fundamentos del latín indica que está preparado para abordar textos literarios auténticos.",
-      "of": "087ba19a",
+      "t": "Para el alumnado que ha demostrado dominar los fundamentos del latín y está preparado para abordar textos literarios auténticos.",
+      "of": "916c2ed1",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[16].description"
       ]
@@ -11938,8 +11938,8 @@
       ]
     },
     {
-      "t": "Esta asignatura pone el acento en las convenciones retóricas, métricas y culturales de la poesía épica y lírica.",
-      "of": "807d2322",
+      "t": "Se centra en las convenciones retóricas, métricas y culturales de la poesía épica y lírica.",
+      "of": "4ec7889d",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[17].description"
       ]
@@ -11981,11 +11981,10 @@
       ]
     },
     {
-      "t": "Esta asignatura está pensada para continuar los cimientos adquiridos en Spanish 1 y construir una mayor comprensión y dominio de la lectura, la escritura, la comprensión oral y la expresión oral.",
-      "of": "5ff21440",
+      "t": "Parte de la base adquirida en Spanish 1 y profundiza en la lectura, la escritura, la comprensión oral y la expresión oral.",
+      "of": "c793c230",
       "at": [
-        "charlotte-catholic:divisions[0].departments[10].courses[20].description",
-        "charlotte-catholic:divisions[0].departments[10].courses[21].description"
+        "charlotte-catholic:divisions[0].departments[10].courses[20].description"
       ]
     },
     {
@@ -11996,6 +11995,13 @@
       ]
     },
     {
+      "t": "Parte de la base adquirida en Spanish 1 y profundiza en la lectura, la escritura, la comprensión oral y la expresión oral · en el nivel Advanced, la lengua que se usa en clase es más compleja, el ritmo es más rápido y las expectativas son más exigentes.",
+      "of": "ef4e166c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[21].description"
+      ]
+    },
+    {
       "t": "Advanced Spanish III",
       "of": "003720ba",
       "at": [
@@ -12003,8 +12009,8 @@
       ]
     },
     {
-      "t": "Una asignatura avanzada que desarrolla la comprensión del español, continuando el desarrollo y la aplicación de la lengua en la lectura, la escritura, la comprensión oral y la expresión oral.",
-      "of": "e2650971",
+      "t": "Una asignatura avanzada que desarrolla la comprensión del español, continuando su desarrollo y aplicación en la lectura, la escritura, la comprensión oral y la expresión oral · con un fuerte énfasis en la gramática y la expresión oral.",
+      "of": "0133447d",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[22].description"
       ]
@@ -12017,8 +12023,8 @@
       ]
     },
     {
-      "t": "Esta asignatura es de nivel avanzado y está pensada para el alumnado que ya habla español en casa o en su comunidad.",
-      "of": "a440afa1",
+      "t": "Una asignatura avanzada para el alumnado que ya habla español en casa o en su comunidad.",
+      "of": "1f0d0c19",
       "at": [
         "charlotte-catholic:divisions[0].departments[10].courses[23].description"
       ]
@@ -12091,8 +12097,8 @@
       ]
     },
     {
-      "t": "Esta asignatura ofrece formación y experiencia en la preparación y exposición de discursos en un ámbito público y en el debate en grupo.",
-      "of": "dfae0ace",
+      "t": "Enseña, con práctica, a preparar y pronunciar discursos en un ámbito público y en el debate en grupo.",
+      "of": "f70f9a57",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[0].description"
       ]
@@ -12105,8 +12111,8 @@
       ]
     },
     {
-      "t": "Esta asignatura introduce en el estudio científico de la sociedad humana, la cultura y las interacciones sociales.",
-      "of": "ef3b3870",
+      "t": "Una introducción al estudio científico de la sociedad humana, la cultura y las interacciones sociales.",
+      "of": "4d61a339",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[1].description"
       ]
@@ -12119,8 +12125,8 @@
       ]
     },
     {
-      "t": "Esta asignatura introduce los orígenes y el desarrollo histórico del arte.",
-      "of": "f51aadb4",
+      "t": "Una introducción a los orígenes y al desarrollo histórico del arte.",
+      "of": "9ad5e015",
       "at": [
         "charlotte-catholic:divisions[0].departments[11].courses[2].description"
       ]
@@ -12133,8 +12139,8 @@
       ]
     },
     {
-      "t": "Charlotte Country Day publica diez áreas de conocimiento de Lower School, descritas de forma narrativa por curso, y no asignaturas con nombre propio. No existe ningún catálogo de asignaturas de Lower School.",
-      "of": "829d91ce",
+      "t": "Charlotte Country Day publica diez áreas de conocimiento de Lower School, descritas de forma narrativa por curso, y no asignaturas con nombre propio. No publica ningún catálogo de asignaturas de Lower School.",
+      "of": "25238106",
       "at": [
         "charlotte-country-day:divisions[0].notPublished"
       ]
@@ -12215,8 +12221,8 @@
       ]
     },
     {
-      "t": "Todos los estudiantes tienen contacto con el francés y el español, y progresan desde la sonoridad de cada lengua hasta las cuatro destrezas lingüísticas y la escritura básica en grado 4.",
-      "of": "5c130948",
+      "t": "Los estudiantes tienen contacto con el francés y el español desde JK hasta grado 1; en grado 2 eligen una de las dos lenguas y llegan en grado 4 a las cuatro destrezas lingüísticas y la escritura básica.",
+      "of": "5d18a511",
       "at": [
         "charlotte-country-day:divisions[0].departments[1].courses[0].description"
       ]
@@ -12293,15 +12299,15 @@
       ]
     },
     {
-      "t": "Nueve itinerarios de matemáticas con nombre propio, más las asignaturas por curso en 6 áreas — con Geometry por créditos de secundaria ya en grado 8.",
-      "of": "b130706f",
+      "t": "Nueve itinerarios de matemáticas con nombre propio, más las asignaturas por curso en 6 áreas — con Geometry ya en grado 8.",
+      "of": "85b6204c",
       "at": [
         "charlotte-country-day:divisions[1].teaser"
       ]
     },
     {
-      "t": "Country Day publica asignaturas de Middle School con nombre propio solo en matemáticas; el resto de disciplinas se publican como materias por curso. No existe ningún catálogo de asignaturas de Middle School.",
-      "of": "ebab57a8",
+      "t": "Country Day publica asignaturas de Middle School con nombre propio solo en matemáticas; el resto de disciplinas se publican como materias por curso. No publica ningún catálogo de asignaturas de Middle School.",
+      "of": "37377640",
       "at": [
         "charlotte-country-day:divisions[1].notPublished"
       ]
@@ -12392,8 +12398,8 @@
       ]
     },
     {
-      "t": "Expresiones, ecuaciones y funciones lineales fundamentales, para estudiantes que necesitan una preparación adicional.",
-      "of": "54b4f2d1",
+      "t": "Las bases de las expresiones y ecuaciones, las propiedades de los números reales, las ecuaciones e inecuaciones lineales, los sistemas, los exponentes y los polinomios; después, el alumnado pasa a Algebra 1 en grado 9.",
+      "of": "65ec0efd",
       "at": [
         "charlotte-country-day:divisions[1].departments[0].courses[6].description"
       ]
@@ -12408,17 +12414,10 @@
       ]
     },
     {
-      "t": "El Algebra I completo de secundaria, con funciones y sistemas lineales, exponentes, polinomios, cuadráticas y radicales.",
-      "of": "4c35c1ea",
+      "t": "Algebra I con las bases del álgebra, las funciones y sistemas lineales, los exponentes, los polinomios, las cuadráticas, los radicales y una introducción a la geometría.",
+      "of": "546b2984",
       "at": [
         "charlotte-country-day:divisions[1].departments[0].courses[7].description"
-      ]
-    },
-    {
-      "t": "Crédito de secundaria",
-      "of": "d99674c1",
-      "at": [
-        "charlotte-country-day:divisions[1].departments[0].courses[8].tag"
       ]
     },
     {
@@ -12892,8 +12891,8 @@
       ]
     },
     {
-      "t": "Geometría acelerada; requiere un 90 en Algebra I y la recomendación del profesorado.",
-      "of": "b74d8e2d",
+      "t": "Geometría con más teoría y mayor profundidad; requiere un 90 en Algebra I y la recomendación del profesorado.",
+      "of": "53e21465",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[2].description"
       ]
@@ -12906,8 +12905,8 @@
       ]
     },
     {
-      "t": "Algebra II acelerada; requiere un 90 en Geometry o un 83 en Honors Geometry.",
-      "of": "c934a32f",
+      "t": "Un Algebra II más profundo, con más teoría, además de trigonometría y funciones racionales; requiere un 90 en Geometry o un 83 en Honors Geometry, y la recomendación del profesorado.",
+      "of": "5e9109ad",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[4].description"
       ]
@@ -12927,8 +12926,8 @@
       ]
     },
     {
-      "t": "Una asignatura comprimida de dos materias, abierta solo a alumnos de segundo año que hayan cursado Honors Geometry en noveno grado.",
-      "of": "75ab770e",
+      "t": "Una asignatura comprimida de dos materias, abierta solo a alumnos de segundo año que hayan cursado Honors Geometry en noveno grado y cuenten con la recomendación del departamento.",
+      "of": "ad197a7a",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[5].description"
       ]
@@ -12941,8 +12940,8 @@
       ]
     },
     {
-      "t": "Una asignatura puente que extiende el álgebra hacia la trigonometría.",
-      "of": "92a4584b",
+      "t": "Una alternativa a Pre-calculus que repasa y amplía los temas de Algebra II, incluida la trigonometría, a un ritmo más lento; quienes la cursan no pueden pasar después a Pre-calculus ni a AP Calculus.",
+      "of": "7819cc79",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[6].description"
       ]
@@ -12983,8 +12982,8 @@
       ]
     },
     {
-      "t": "Precálculo acelerado; requiere un 90 en Algebra II o un 83 en Honors Algebra II.",
-      "of": "72cd7a7a",
+      "t": "Una asignatura de precálculo en profundidad que prepara para AP Calculus; requiere un 90 en Algebra II o un 83 en Honors Algebra II, y la recomendación del profesorado.",
+      "of": "ca8f5006",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[9].description"
       ]
@@ -13004,8 +13003,8 @@
       ]
     },
     {
-      "t": "Estadística de nivel universitario; quienes cumplan los requisitos deben elegir entre AP Calculus AB o AP Statistics, no ambas.",
-      "of": "a30a9fae",
+      "t": "Estadística de nivel universitario; el alumnado de Precalculus que cumpla los requisitos debe elegir entre AP Calculus AB o AP Statistics, no ambas.",
+      "of": "362dd493",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[11].description"
       ]
@@ -13072,8 +13071,8 @@
       ]
     },
     {
-      "t": "IB Mathematics: Analysis and Approaches de nivel medio; requiere un 83 en Honors Precalculus.",
-      "of": "8bac72c2",
+      "t": "IB Mathematics: Analysis and Approaches de nivel medio; requiere un 83 en Honors Precalculus o en Honors Algebra II/Precalculus.",
+      "of": "f2f410e4",
       "at": [
         "charlotte-country-day:divisions[2].departments[1].courses[16].description"
       ]
@@ -13121,8 +13120,8 @@
       ]
     },
     {
-      "t": "Biología de nivel universitario; requisitos previos: Biology I y Chemistry I.",
-      "of": "7964e9d2",
+      "t": "Biología de nivel universitario; requisitos previos: Biology I y Chemistry I o Honors Chemistry I, además de un 90 en la asignatura anual de ciencias que se esté cursando (85 en Honors, 83 en AP).",
+      "of": "ef4dcbaa",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[2].description"
       ]
@@ -13233,15 +13232,15 @@
       ]
     },
     {
-      "t": "Química acelerada; requiere un 87 en Biology y un 87 en una asignatura de matemáticas.",
-      "of": "2c12a7fb",
+      "t": "Química acelerada; requiere un 87 en Biology y un 87 en una asignatura de matemáticas (83 en Honors), además de haber cursado Algebra II o cursarlo simultáneamente.",
+      "of": "0edaff1c",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[11].description"
       ]
     },
     {
-      "t": "Química de nivel universitario; requiere haber cursado Precalculus o cursarlo simultáneamente.",
-      "of": "de4b217c",
+      "t": "Química de nivel universitario; requiere un 90 en Chemistry I o un 85 en Honors Chemistry, además de haber cursado Precalculus o cursarlo simultáneamente.",
+      "of": "e965809b",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[12].description"
       ]
@@ -13289,8 +13288,8 @@
       ]
     },
     {
-      "t": "Física acelerada; requiere haber cursado Precalculus o cursarlo simultáneamente.",
-      "of": "5f2b87c2",
+      "t": "Una versión más analítica de Physics I; requiere un 87 en la asignatura anual de ciencias que se esté cursando y un 87 en matemáticas (83 en Honors en cada caso), además de haber cursado Precalculus o cursarlo simultáneamente.",
+      "of": "63ff169a",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[16].description"
       ]
@@ -13303,8 +13302,8 @@
       ]
     },
     {
-      "t": "Física universitaria basada en el cálculo, en mecánica y en electricidad y magnetismo; requiere haber cursado AP o IB Calculus o cursarlo simultáneamente.",
-      "of": "01eaff08",
+      "t": "Física universitaria basada en el cálculo, en mecánica y en electricidad y magnetismo; requiere un 90 en Physics I o un 85 en Honors Physics, además de haber cursado AP o IB Calculus o cursarlo simultáneamente.",
+      "of": "8152288f",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[17].description"
       ]
@@ -13359,8 +13358,8 @@
       ]
     },
     {
-      "t": "Reproduce un semestre de química orgánica universitaria con un componente completo de laboratorio de síntesis; requiere AP o IB Chemistry.",
-      "of": "1e9b6642",
+      "t": "Reproduce un semestre de química orgánica universitaria con un componente completo de laboratorio de síntesis; requiere un 83 en AP o IB Chemistry.",
+      "of": "e35ca3b6",
       "at": [
         "charlotte-country-day:divisions[2].departments[2].courses[21].description"
       ]
@@ -13444,8 +13443,8 @@
       ]
     },
     {
-      "t": "Modern World History acelerada; requiere un 87 en 9th Grade History.",
-      "of": "520601aa",
+      "t": "Modern World History con más fuentes primarias, más lectura y una escritura más frecuente y profunda; requiere un 87 en 9th Grade History.",
+      "of": "1be2b996",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[2].description"
       ]
@@ -13472,8 +13471,8 @@
       ]
     },
     {
-      "t": "Historia de Estados Unidos de nivel universitario, que cumple el requisito de graduación; requiere un 87 en Modern World History.",
-      "of": "7d3122a0",
+      "t": "Historia de Estados Unidos de nivel universitario, que cumple el requisito de graduación; requiere un 87 en Modern World History o un 80 en Honors Modern World History.",
+      "of": "52933b46",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[5].description"
       ]
@@ -13550,8 +13549,8 @@
       ]
     },
     {
-      "t": "El origen, la evolución y la diversidad de las civilizaciones antiguas desde aproximadamente el 3000 a. C. hasta el 1000 d. C., con fuentes primarias y hallazgos arqueológicos.",
-      "of": "ab788014",
+      "t": "El origen, la evolución y la diversidad de las civilizaciones antiguas desde aproximadamente el 3000 a. C. hasta aproximadamente el 1000 d. C., con fuentes primarias y hallazgos arqueológicos.",
+      "of": "f6f422a0",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[12].description"
       ]
@@ -13617,8 +13616,8 @@
       ]
     },
     {
-      "t": "Abierta a estudiantes del IB y ajenos al IB; requiere haber cursado Precalculus o cursarlo simultáneamente.",
-      "of": "38c748e4",
+      "t": "Abierta a estudiantes del IB y ajenos al IB en los grados 11 y 12; requiere un 87 en la asignatura de historia que se esté cursando (80 en Honors) y haber cursado Precalculus o cursarlo simultáneamente.",
+      "of": "1f86656f",
       "at": [
         "charlotte-country-day:divisions[2].departments[3].courses[16].description"
       ]
@@ -13631,8 +13630,8 @@
       ]
     },
     {
-      "t": "Una secuencia de cinco niveles de mandarín, solo en modalidad Honors; para acceder se requiere un 87 en la asignatura actual de francés, español o latín.",
-      "of": "41d90b58",
+      "t": "Una secuencia de cinco niveles de mandarín en modalidad Honors; para acceder se requiere un 87 en la asignatura actual de francés, español o latín, o un 80 en una asignatura Honors actual.",
+      "of": "f07c6966",
       "at": [
         "charlotte-country-day:divisions[2].departments[4].courses[0].description"
       ]
@@ -13813,8 +13812,8 @@
       ]
     },
     {
-      "t": "Un conjunto coral selecto, con acceso por audición, abierto a los grados 10–12.",
-      "of": "f35be1fc",
+      "t": "Un conjunto coral selecto para los grados 10–12, con acceso por audición tras un año de Concert Choir o equivalente.",
+      "of": "cad51b87",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[2].description"
       ]
@@ -13843,15 +13842,15 @@
       ]
     },
     {
-      "t": "Banda de viento Honors, con acceso por audición.",
-      "of": "f2dd1205",
+      "t": "Banda de viento Honors para el alumnado que ya forma parte de la Symphonic Band de Middle o Upper School, con acceso por audición.",
+      "of": "1acabd3e",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[4].description"
       ]
     },
     {
-      "t": "El conjunto de cuerda y de orquesta completa.",
-      "of": "bdb96a05",
+      "t": "El conjunto de orquesta de cuerda, con violín, viola, violonchelo, contrabajo y piano.",
+      "of": "db2710d9",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[5].description"
       ]
@@ -13892,8 +13891,8 @@
       ]
     },
     {
-      "t": "Desarrolla la capacidad de reconocer y describir la melodía, la armonía, la textura, el ritmo, la forma, la historia y el estilo; requiere una prueba de nivel de acceso.",
-      "of": "56f65304",
+      "t": "Desarrolla la capacidad de reconocer y describir la melodía, la armonía, la textura, el ritmo, la forma, la historia y el estilo; requiere un 87 en la asignatura de música que se esté cursando y una prueba de nivel de acceso.",
+      "of": "8fc985dc",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[9].description"
       ]
@@ -14173,8 +14172,8 @@
       ]
     },
     {
-      "t": "Estructuras de datos en Java y, después, proyectos diseñados por los propios estudiantes y presentados ante el consejo académico; requiere AP Computer Science.",
-      "of": "ee90340b",
+      "t": "Estructuras de datos en Java y, después, proyectos diseñados por los propios estudiantes y presentados ante el consejo académico; requiere AP Computer Science y una propuesta de proyecto aprobada en la matrícula.",
+      "of": "61b7c02b",
       "at": [
         "charlotte-country-day:divisions[2].departments[6].courses[2].description"
       ]
@@ -14293,15 +14292,15 @@
       ]
     },
     {
-      "t": "13 áreas curriculares con nombre propio — Reveal Math, arte TAB, el enfoque Orff, programación en Scratch 3.0 y la prueba de condición física CHAMP.",
-      "of": "204cb66e",
+      "t": "12 áreas curriculares con nombre propio — Reveal Math, arte TAB, el enfoque Orff, programación en Scratch 3.0 y la prueba de condición física CHAMP.",
+      "of": "ef870e7d",
       "at": [
         "cannon:divisions[0].teaser"
       ]
     },
     {
-      "t": "Cannon publica 12 áreas curriculares con nombre propio por curso para JrK–4, en lugar de un catálogo de asignaturas. La ruta /academics/lower-school/curriculum devuelve un 404.",
-      "of": "1f2c2269",
+      "t": "Cannon publica hasta 12 áreas curriculares con nombre propio por curso para JrK–4, en lugar de un catálogo de asignaturas.",
+      "of": "c88967f9",
       "at": [
         "cannon:divisions[0].notPublished"
       ]
@@ -14390,8 +14389,8 @@
       ]
     },
     {
-      "t": "A partir de grado 3 se aplica el modelo TAB (Teaching for Artistic Behavior), de modo que los estudiantes trabajan y piensan como artistas.",
-      "of": "94cf7f71",
+      "t": "A partir de grado 2 se sigue el modelo TAB (Teaching for Artistic Behavior), y en grado 3 los estudiantes ya trabajan y piensan como artistas.",
+      "of": "0c92a574",
       "at": [
         "cannon:divisions[0].departments[2].courses[0].description"
       ]
@@ -14453,22 +14452,22 @@
       ]
     },
     {
-      "t": "Aborda los retos y características habituales de los niños según su edad y etapa de desarrollo.",
-      "of": "910db73d",
+      "t": "Las páginas de cada curso del colegio remiten a las familias a la página web de School Counseling para conocer los retos y características habituales de los niños según su edad y etapa de desarrollo.",
+      "of": "1e3e8c84",
       "at": [
         "cannon:divisions[0].departments[3].courses[3].description"
       ]
     },
     {
-      "t": "Seis materias troncales más cuatro itinerarios de matemáticas — con una rotación en grado 5 por las tres lenguas extranjeras y el makerspace ThinkTank.",
-      "of": "48460261",
+      "t": "Siete áreas de conocimiento por curso, una rotación en grado 5 por las tres lenguas extranjeras y el makerspace ThinkTank. Un grupo selecto cursa Pre-Algebra en grado 6, Algebra I en grado 7 y Geometry en grado 8.",
+      "of": "224aa8e9",
       "at": [
         "cannon:divisions[1].teaser"
       ]
     },
     {
-      "t": "Cannon publica el currículo de Middle School como descripciones de materias por curso, no como un catálogo de asignaturas con nombre propio. No existe un equivalente de Middle School al catálogo de 44 páginas de Upper School.",
-      "of": "75748668",
+      "t": "Cannon publica el currículo de Middle School como descripciones de materias por curso, no como un catálogo de asignaturas con nombre propio. No publica ningún equivalente de Middle School al catálogo de 44 páginas de Upper School.",
+      "of": "f2f08aa0",
       "at": [
         "cannon:divisions[1].notPublished"
       ]
@@ -14549,8 +14548,8 @@
       ]
     },
     {
-      "t": "Una opción acelerada que permite a los alumnos de séptimo grado cursar Algebra I.",
-      "of": "4f2371ef",
+      "t": "Un programa acelerado que permite a un grupo selecto de alumnos de séptimo grado cursar Algebra I.",
+      "of": "f8de9288",
       "at": [
         "cannon:divisions[1].departments[1].courses[2].description"
       ]
@@ -14675,15 +14674,15 @@
       ]
     },
     {
-      "t": "Combina impresión 3D, realidad virtual, drones, robótica, diseño CAD y programación informática en el makerspace ThinkTank.",
-      "of": "6e09c575",
+      "t": "Combina actividades como la impresión 3D, la realidad virtual, los drones, la robótica, el diseño CAD y la programación informática en el makerspace ThinkTank.",
+      "of": "8f15913d",
       "at": [
         "cannon:divisions[1].departments[3].courses[3].description"
       ]
     },
     {
-      "t": "104 asignaturas en 8 departamentos — 14 AP más 13 asignaturas Advanced Topics diseñadas por el profesorado, cada una culminada por una Signature Learning Experience.",
-      "of": "23eb7684",
+      "t": "104 asignaturas en 8 departamentos — 14 AP más 13 asignaturas Advanced Topics diseñadas por el profesorado, cada una culminada por una Signature Learning Experience o un examen final acumulativo.",
+      "of": "a56b67f0",
       "at": [
         "cannon:divisions[2].teaser"
       ]
@@ -14696,8 +14695,8 @@
       ]
     },
     {
-      "t": "Una asignatura fundamental que cultiva el pensamiento crítico, la capacidad analítica y la expresión creativa a través de memorias, teatro, novela, poesía y relato breve.",
-      "of": "12947dfc",
+      "t": "Una asignatura fundamental que cultiva el pensamiento crítico, la capacidad analítica y la expresión creativa a través de géneros como las memorias, el teatro, la novela, la poesía y el relato breve.",
+      "of": "d196f2af",
       "at": [
         "cannon:divisions[2].departments[0].courses[0].description"
       ]
@@ -14932,8 +14931,8 @@
       ]
     },
     {
-      "t": "Prepara para las matemáticas de nivel universitario y es el requisito previo de AP Calculus.",
-      "of": "8b1f27ba",
+      "t": "Prepara para las matemáticas de nivel universitario y es requisito previo de AP Calculus.",
+      "of": "7a5977a8",
       "at": [
         "cannon:divisions[2].departments[1].courses[6].description"
       ]
@@ -14946,8 +14945,8 @@
       ]
     },
     {
-      "t": "Una exploración basada en la investigación de los tipos de funciones que modelan fenómenos reales, especialmente indicada para quienes se encaminan a AP Calculus BC.",
-      "of": "61505b39",
+      "t": "Una exploración basada en la investigación de los tipos de funciones que modelan fenómenos reales, especialmente indicada para quienes se encaminan a AP Calculus BC o piensan cursar varios niveles de cálculo en la universidad.",
+      "of": "e6d44b91",
       "at": [
         "cannon:divisions[2].departments[1].courses[7].description"
       ]
@@ -15093,8 +15092,8 @@
       ]
     },
     {
-      "t": "Cubre Honors Chemistry a más ritmo, y añade la geometría molecular, la periodicidad y la química ácido-base.",
-      "of": "4ecd131b",
+      "t": "Cubre Honors Chemistry a más ritmo y añade temas como la geometría molecular, la periodicidad y la química ácido-base.",
+      "of": "ee7fcc14",
       "at": [
         "cannon:divisions[2].departments[2].courses[5].description"
       ]
@@ -15721,8 +15720,8 @@
       ]
     },
     {
-      "t": "Exploración práctica de la arcilla, el alambre, la madera, la escayola y los objetos encontrados para crear esculturas, instalaciones y diseños funcionales.",
-      "of": "a8f00551",
+      "t": "Exploración práctica de materiales como la arcilla, el alambre, la madera, la escayola y los objetos encontrados para crear esculturas, instalaciones y diseños funcionales.",
+      "of": "12c6d0ea",
       "at": [
         "cannon:divisions[2].departments[5].courses[2].description"
       ]
@@ -15820,7 +15819,7 @@
     },
     {
       "t": "Para estudiantes con experiencia que se comprometen con la interpretación, la dirección o el diseño de producción en público, incluidos los Fall One-Acts y el Arts Jam.",
-      "of": "0dff9581",
+      "of": "58335509",
       "at": [
         "cannon:divisions[2].departments[5].courses[9].description"
       ]
@@ -15868,8 +15867,8 @@
       ]
     },
     {
-      "t": "Parte de la banda de Middle School con la banda de concierto, la big band y pequeños conjuntos clásicos de cámara.",
-      "of": "93f629ff",
+      "t": "Parte de la banda de Middle School con la banda de concierto, la big band y pequeños conjuntos clásicos de cámara; quienes tengan menos de dos años de banda en Middle School hacen una audición antes de matricularse.",
+      "of": "4598c226",
       "at": [
         "cannon:divisions[2].departments[5].courses[12].description"
       ]
@@ -15952,8 +15951,8 @@
       ]
     },
     {
-      "t": "Exploración basada en proyectos del proceso de diseño iterativo en ingeniería, con carpintería, costura, electrónica y CAD.",
-      "of": "aaa38c9a",
+      "t": "Exploración basada en proyectos del proceso de diseño iterativo en ingeniería (Iterative Design Engineering), con herramientas de ámbitos como la carpintería, la costura, la electrónica básica y el CAD.",
+      "of": "67efad98",
       "at": [
         "cannon:divisions[2].departments[5].courses[18].description"
       ]
@@ -16015,8 +16014,8 @@
       ]
     },
     {
-      "t": "Los fundamentos de la informática mediante el diseño orientado a objetos en Java, con estructuras de datos y algoritmos.",
-      "of": "4d4a492f",
+      "t": "Los fundamentos de la informática mediante el diseño orientado a objetos en Java, con estructuras de datos y algoritmos; solo para alumnos de tercer y último curso.",
+      "of": "e524f723",
       "at": [
         "cannon:divisions[2].departments[6].courses[1].description"
       ]
@@ -16392,8 +16391,8 @@
       ]
     },
     {
-      "t": "La asignatura alternativa de matemáticas de último año para quienes no continúan a precálculo.",
-      "of": "9bb80e16",
+      "t": "Una asignatura de matemáticas de preparación universitaria.",
+      "of": "4110ae16",
       "at": [
         "covenant-day:divisions[0].departments[1].courses[5].description"
       ]
@@ -17099,8 +17098,8 @@
       ]
     },
     {
-      "t": "Funciones de liderazgo en el equipo del anuario.",
-      "of": "4baf69b3",
+      "t": "La elaboración del anuario del colegio a nivel Honors.",
+      "of": "344bcb90",
       "at": [
         "covenant-day:divisions[0].departments[6].courses[14].description"
       ]
@@ -17141,8 +17140,8 @@
       ]
     },
     {
-      "t": "Formación de estudiantes como tutores de alfabetización para la comunidad.",
-      "of": "a133cf4a",
+      "t": "Una asignatura de preparación universitaria del departamento de Restoration & Sustainability.",
+      "of": "184e3d97",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[0].description"
       ]
@@ -17155,8 +17154,8 @@
       ]
     },
     {
-      "t": "La asignatura de empresa gestionada por los estudiantes del departamento.",
-      "of": "2ebc9521",
+      "t": "La asignatura ContainIt del departamento; el equipo ContainIt del colegio transforma contenedores de transporte usados en espacios habitables.",
+      "of": "1ae97fa7",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[1].description"
       ]
@@ -17197,8 +17196,8 @@
       ]
     },
     {
-      "t": "El programa de construcción solidaria del departamento como asignatura con crédito.",
-      "of": "1a98bd31",
+      "t": "El programa de servicio del departamento como asignatura con crédito.",
+      "of": "a2ea2bd4",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[4].description"
       ]
@@ -17261,8 +17260,8 @@
       ]
     },
     {
-      "t": "Siete áreas de conocimiento por curso más tres vías de honores con nombre propio y una oferta de siete optativas — latín desde 6.º curso y Applied English en 6.º y 7.º.",
-      "of": "f84d89ac",
+      "t": "Siete áreas de conocimiento por curso más cuatro asignaturas Honors con nombre propio y una oferta de siete optativas — latín desde 6.º curso y Applied English en 6.º y 7.º.",
+      "of": "4ce9491e",
       "at": [
         "covenant-day:divisions[1].teaser"
       ]
@@ -17410,8 +17409,8 @@
       ]
     },
     {
-      "t": "La primera mitad de la secuencia de latín de Middle School; el español se ofrece como optativa.",
-      "of": "bc5a2dff",
+      "t": "Continúa la secuencia de latín de Middle School, que empieza en 6.º curso; el español se ofrece como optativa.",
+      "of": "9ae52e79",
       "at": [
         "covenant-day:divisions[1].departments[1].courses[7].description"
       ]
@@ -17452,8 +17451,8 @@
       ]
     },
     {
-      "t": "El sistema de los números reales, expresiones, ecuaciones lineales y cuadráticas y sus gráficas, inecuaciones, sistemas de ecuaciones, polinomios, relaciones, funciones y expresiones radicales y racionales.",
-      "of": "9322bae1",
+      "t": "El sistema de los números reales, expresiones, ecuaciones lineales y cuadráticas y sus gráficas, inecuaciones, sistemas de ecuaciones, polinomios, relaciones, funciones, expresiones y ecuaciones radicales, y expresiones racionales.",
+      "of": "1d1a628f",
       "at": [
         "covenant-day:divisions[1].departments[2].courses[3].description"
       ]
@@ -17534,8 +17533,8 @@
       ]
     },
     {
-      "t": "De cinco a seis áreas de conocimiento descritas para cada uno de los siete cursos, más seis asignaturas especiales con nombre propio. Entre ellas están CREATE Junior, español desde Junior Kindergarten y flauta dulce en 4.º curso antes de los instrumentos de banda en 5.º.",
-      "of": "f33f8618",
+      "t": "Cinco áreas de conocimiento descritas para cada uno de los siete cursos, más seis asignaturas especiales con nombre propio. Entre ellas están CREATE Junior, español y flauta dulce en 4.º curso antes de los instrumentos de banda en 5.º.",
+      "of": "29752e20",
       "at": [
         "covenant-day:divisions[2].teaser"
       ]
@@ -17781,8 +17780,8 @@
       ]
     },
     {
-      "t": "Valor posicional hasta 10,000, redondeo, cálculo mental y estimación · modelos de barras para problemas verbales · tablas de multiplicar del 0 al 12 · multiplicación y división por 1 y 2 cifras · fracciones y decimales · ángulos y rectas · área y perímetro · conversión de medidas.",
-      "of": "c4fdbffb",
+      "t": "Valor posicional hasta 10,000, redondeo, cálculo mental y estimación · suma y resta hasta 10,000 · modelos de barras para problemas verbales · tablas de multiplicar 0–12 · multiplicación y división por 1 y 2 cifras · fracciones y decimales · ángulos y rectas · área y perímetro · conversión de medidas.",
+      "of": "7b7af205",
       "at": [
         "covenant-day:divisions[2].departments[4].courses[1].description"
       ]
@@ -17897,7 +17896,6 @@
       "of": "244e8099",
       "at": [
         "covenant-day:divisions[2].departments[7].name",
-        "davidson-day:divisions[0].departments[0].courses[1].title",
         "charlotte-prep:divisions[0].departments[2].name"
       ]
     },
@@ -17914,15 +17912,15 @@
       ]
     },
     {
-      "t": "La destreza, la maestría artesanal, la belleza, la claridad y el equilibrio practicados mediante la pintura, el dibujo, la cerámica, el grabado, los paisajes y los retratos, que se exponen en el Art Walk anual de primavera.",
-      "of": "c401dd07",
+      "t": "La destreza, la maestría artesanal, la belleza, la claridad, el equilibrio y otros elementos atemporales, practicados mediante la pintura, el dibujo, la cerámica, el grabado, los paisajes, los retratos y muchos otros proyectos, que se exponen en el Art Walk anual de primavera.",
+      "of": "bb1f09c1",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[0].description"
       ]
     },
     {
-      "t": "Música vocal, instrumental y de percusión de compositores clásicos y modernos · en 4.º curso se aprende la flauta dulce y en 5.º los instrumentos de banda · se ofrecen un coro infantil y clases particulares de piano, canto y guitarra.",
-      "of": "eba018f6",
+      "t": "Música vocal, instrumental y de percusión de compositores clásicos y modernos · en 4.º curso se aprende la flauta dulce y en 5.º los instrumentos de banda · se ofrecen un coro infantil para 4.º y 5.º y clases particulares de piano, canto y guitarra.",
+      "of": "96360919",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[1].description"
       ]
@@ -18002,20 +18000,6 @@
       "of": "846b20e9",
       "at": [
         "davidson-day:divisions[0].departments[0].courses[0].description"
-      ]
-    },
-    {
-      "t": "K–Gr 4",
-      "of": "4d15b9a6",
-      "at": [
-        "davidson-day:divisions[0].departments[0].courses[1].tag"
-      ]
-    },
-    {
-      "t": "Arte, lengua extranjera, biblioteca, educación física y música, además de los laboratorios de ciencias y tecnología de Lower School para la experimentación práctica.",
-      "of": "1ad6c211",
-      "at": [
-        "davidson-day:divisions[0].departments[0].courses[1].description"
       ]
     },
     {
@@ -18128,8 +18112,8 @@
       ]
     },
     {
-      "t": "La asignatura acelerada previa a Honors Algebra 1.",
-      "of": "b80cc5b1",
+      "t": "La asignatura acelerada que da paso a Algebra 1 o a Honors Algebra 1.",
+      "of": "f526b2dd",
       "at": [
         "davidson-day:divisions[1].departments[0].courses[6].description"
       ]
@@ -18198,27 +18182,6 @@
       ]
     },
     {
-      "t": "Investigación internacional AFAR",
-      "of": "d06fab36",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].title"
-      ]
-    },
-    {
-      "t": "Gr 7+",
-      "of": "728b4736",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].tag"
-      ]
-    },
-    {
-      "t": "El trabajo de campo arqueológico acreditado se abre en grado 7, en yacimientos mayas, medievales españoles y romanos portugueses.",
-      "of": "f36fcceb",
-      "at": [
-        "davidson-day:divisions[1].departments[1].courses[2].description"
-      ]
-    },
-    {
       "t": "~75 asignaturas catalogadas en 9 departamentos — 26 asignaturas AP, Calculus III post-AP y tres itinerarios de Diploma con Distinción.",
       "of": "4f147650",
       "at": [
@@ -18275,8 +18238,8 @@
       ]
     },
     {
-      "t": "Una asignatura basada en la literatura sobre 1984, El extranjero, El gran Gatsby y Frankenstein, que desarrolla el análisis literario y la construcción de argumentos.",
-      "of": "64240e58",
+      "t": "Una asignatura basada en la literatura con la lectura de novelas como 1984, El extranjero, El gran Gatsby y Frankenstein, que desarrolla el análisis literario y la construcción de argumentos.",
+      "of": "f1904d3f",
       "at": [
         "davidson-day:divisions[2].departments[0].courses[4].description"
       ]
@@ -18442,8 +18405,8 @@
       ]
     },
     {
-      "t": "Las funciones polinómicas en profundidad, más los modelos racionales, con raíces, logarítmicos y exponenciales, con la calculadora gráfica como herramienta esencial.",
-      "of": "cad608ff",
+      "t": "Las funciones polinómicas en profundidad, más las funciones racionales y con raíz cuadrada, los números complejos y los modelos logarítmicos y exponenciales, con la calculadora gráfica como herramienta esencial.",
+      "of": "fc8008ee",
       "at": [
         "davidson-day:divisions[2].departments[1].courses[4].description"
       ]
@@ -18562,8 +18525,8 @@
       ]
     },
     {
-      "t": "El recorrido obligatorio de historia universal de segundo año.",
-      "of": "33355f2e",
+      "t": "Cumple el requisito de historia universal de segundo año, que también cumple AP World History (Modern); el colegio no publica ninguna descripción de esta asignatura Honors.",
+      "of": "c1ebf9a1",
       "at": [
         "davidson-day:divisions[2].departments[2].courses[2].description"
       ]
@@ -19214,43 +19177,57 @@
       ]
     },
     {
+      "t": "Investigación internacional AFAR",
+      "of": "d06fab36",
+      "at": [
+        "davidson-day:divisions[2].departments[8].courses[7].title"
+      ]
+    },
+    {
+      "t": "Trabajo de campo arqueológico en el extranjero, acreditado y dirigido por expertos, en yacimientos mayas, de la España medieval y del Portugal romano.",
+      "of": "36ecd3ba",
+      "at": [
+        "davidson-day:divisions[2].departments[8].courses[7].description"
+      ]
+    },
+    {
       "t": "Ciencia forense y zoología Honors",
       "of": "d2e8ab1f",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[7].title"
+        "davidson-day:divisions[2].departments[8].courses[8].title"
       ]
     },
     {
       "t": "Figura como opción troncal de la STEMM Distinction y en el cuadro de asignaturas del profile del colegio; no se publica ninguna descripción de la asignatura.",
       "of": "efd17fd5",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[7].description"
+        "davidson-day:divisions[2].departments[8].courses[8].description"
       ]
     },
     {
       "t": "Estudio independiente",
       "of": "0185de38",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].title"
+        "davidson-day:divisions[2].departments[8].courses[9].title"
       ]
     },
     {
       "t": "Apto/no apto",
       "of": "7ced76bd",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].tag"
+        "davidson-day:divisions[2].departments[8].courses[9].tag"
       ]
     },
     {
       "t": "Un plan de estudio diseñado por el estudiante con un supervisor del profesorado, que exige un resumen y un programa aprobados; excluido del promedio.",
       "of": "75301aca",
       "at": [
-        "davidson-day:divisions[2].departments[8].courses[8].description"
+        "davidson-day:divisions[2].departments[8].courses[9].description"
       ]
     },
     {
-      "t": "78 títulos de cursos en 9 departamentos — incluidos 16 cursos Advanced Placement — de la 2026-27 High School Curriculum Guide.",
-      "of": "f1b73320",
+      "t": "77 títulos de cursos en 9 departamentos — incluidos 16 cursos Advanced Placement — según las listas de cursos 2026-27 y los requisitos de graduación del colegio.",
+      "of": "b6302f41",
       "at": [
         "carmel-christian:divisions[0].teaser"
       ]
@@ -19267,7 +19244,8 @@
       "of": "4072c999",
       "at": [
         "carmel-christian:divisions[0].departments[0].courses[0].description",
-        "carmel-christian:divisions[0].departments[0].courses[1].description"
+        "carmel-christian:divisions[0].departments[0].courses[1].description",
+        "carmel-christian:divisions[0].departments[0].courses[3].description"
       ]
     },
     {
@@ -19296,13 +19274,6 @@
       "of": "94436114",
       "at": [
         "carmel-christian:divisions[0].departments[0].courses[3].title"
-      ]
-    },
-    {
-      "t": "Un capstone de cosmovisión dentro de la secuencia de Biblical Studies.",
-      "of": "19fdf8d8",
-      "at": [
-        "carmel-christian:divisions[0].departments[0].courses[3].description"
       ]
     },
     {
@@ -19509,8 +19480,8 @@
       ]
     },
     {
-      "t": "Precálculo honors — funciones y trigonometría antes del cálculo.",
-      "of": "9b7144a1",
+      "t": "Precálculo honors.",
+      "of": "4be9c15d",
       "at": [
         "carmel-christian:divisions[0].departments[2].courses[7].description"
       ]
@@ -19837,8 +19808,8 @@
       ]
     },
     {
-      "t": "Una opción de idioma del mundo en línea para lenguas distintas del español.",
-      "of": "2300f410",
+      "t": "Una opción en línea de lengua extranjera.",
+      "of": "de88952b",
       "at": [
         "carmel-christian:divisions[0].departments[5].courses[7].description"
       ]
@@ -19851,8 +19822,8 @@
       ]
     },
     {
-      "t": "El requisito de salud.",
-      "of": "9a426895",
+      "t": "Una asignatura de salud que cuenta para el 1 crédito de Health & PE que se exige para graduarse.",
+      "of": "e5250942",
       "at": [
         "carmel-christian:divisions[0].departments[6].courses[0].description"
       ]
@@ -19999,8 +19970,8 @@
       ]
     },
     {
-      "t": "Un curso introductorio de teatro.",
-      "of": "112dd5f2",
+      "t": "Un curso de teatro.",
+      "of": "1228458a",
       "at": [
         "carmel-christian:divisions[0].departments[7].courses[8].description"
       ]
@@ -20196,8 +20167,8 @@
       ]
     },
     {
-      "t": "El Middle School publica su propia lista de cursos con nombre — un núcleo académico completo más una gama de optativas inusualmente amplia — de la 2024-25 Middle School Curriculum Guide.",
-      "of": "c86aa979",
+      "t": "El Middle School publica su propia lista de cursos con nombre propio — un núcleo académico completo más una gama de optativas inusualmente amplia — en su página de currículo, que enlaza a la 2024-25 Middle School Curriculum Guide.",
+      "of": "84a9097e",
       "at": [
         "carmel-christian:divisions[1].teaser"
       ]
@@ -20373,8 +20344,8 @@
       ]
     },
     {
-      "t": "Algebra I de secundaria cursada por crédito honors en middle school.",
-      "of": "003b87af",
+      "t": "El curso honors de Algebra I.",
+      "of": "a89fc10b",
       "at": [
         "carmel-christian:divisions[1].departments[2].courses[5].description"
       ]
@@ -20597,8 +20568,8 @@
       ]
     },
     {
-      "t": "La banda de adoración de capilla con audición.",
-      "of": "54a220a1",
+      "t": "La banda de alabanza de Middle School.",
+      "of": "c0bfd0cb",
       "at": [
         "carmel-christian:divisions[1].departments[7].courses[5].description"
       ]
@@ -20653,8 +20624,8 @@
       ]
     },
     {
-      "t": "Una optativa de teatro avanzada.",
-      "of": "cf630518",
+      "t": "Una optativa de teatro.",
+      "of": "a751a3a4",
       "at": [
         "carmel-christian:divisions[1].departments[7].courses[9].description"
       ]
@@ -20779,15 +20750,15 @@
       ]
     },
     {
-      "t": "Cinco materias centrales más seis Special Areas, cada una descrita por grado en la 2026-27 Elementary Course Description Guide — alfabetización estructurada (Orton-Gillingham) y un laboratorio STEM práctico desde Kindergarten.",
-      "of": "300044c7",
+      "t": "Cinco materias centrales descritas por grado y seis Special Areas para todos los grados, según la 2026-27 Elementary Course Description Guide. La guía describe la alfabetización estructurada (Orton-Gillingham) y un laboratorio STEM práctico desde Kindergarten.",
+      "of": "2dedd0b1",
       "at": [
         "carmel-christian:divisions[2].teaser"
       ]
     },
     {
-      "t": "La guía de primaria describe cada materia por grado (por ejemplo, \"Math\" para cada grado) en lugar de como cursos con títulos distintos, lo cual es normal para K–5. Las filas a continuación llevan las propias descripciones de la guía para cada grado.",
-      "of": "037ca082",
+      "t": "La guía de primaria describe cada materia por grado (por ejemplo, \"Math\" para cada grado) en lugar de como cursos con títulos distintos, lo cual es normal para K–5. Cada fila a continuación resume el texto de la guía para una materia, desde Kindergarten hasta grado 5.",
+      "of": "a5ae5000",
       "at": [
         "carmel-christian:divisions[2].notPublished"
       ]
@@ -20834,15 +20805,15 @@
       ]
     },
     {
-      "t": "Un bloque de alfabetización multisensorial arraigado en la Science of Reading, con fonética Orton-Gillingham y estas líneas: conciencia fonémica · fonética y morfología · lectura (Accelerated Reader desde Grade 1) · gramática (Analytical Grammar para Grade 5) · composición y caligrafía.",
-      "of": "6ab0057a",
+      "t": "Un bloque de alfabetización multisensorial arraigado en la Science of Reading, con fonética Orton-Gillingham y estas líneas: conciencia fonémica · fonética y morfología · decodificación · lectura (Accelerated Reader desde grado 1) · gramática (Analytical Grammar para grado 5) · composición y caligrafía.",
+      "of": "53aeec38",
       "at": [
         "carmel-christian:divisions[2].departments[0].courses[2].description"
       ]
     },
     {
-      "t": "Estudio práctico y basado en la indagación de la creación de Dios a través de las ciencias de la vida, físicas y de la tierra/el espacio, avanzando por grado desde las plantas y la materia hasta el agua y el clima, la energía y los entornos, y los sistemas vivos.",
-      "of": "b804c69b",
+      "t": "Estudio práctico y basado en la indagación de la creación de Dios a través de las ciencias de la vida, físicas y de la tierra/el espacio, que avanza por grado a través del agua y el clima, el movimiento y la materia, la energía y los entornos, y los sistemas vivos.",
+      "of": "e39770db",
       "at": [
         "carmel-christian:divisions[2].departments[0].courses[3].description"
       ]
@@ -21072,8 +21043,8 @@
       ]
     },
     {
-      "t": "Una introducción general a la autoría, la estructura y el hilo narrativo de la Biblia, recomendada para alumnos nuevos en la enseñanza cristiana.",
-      "of": "e78b749a",
+      "t": "Una introducción general a la autoría, la estructura y el hilo narrativo de la Biblia, recomendada para alumnos nuevos en la enseñanza cristiana o en HGCS, con matrícula por recomendación de la administración.",
+      "of": "3433b00d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[0].courses[10].description"
       ]
@@ -21191,8 +21162,8 @@
       ]
     },
     {
-      "t": "Análisis retórico en géneros principalmente de no ficción, al ritmo de un semestre de inglés universitario.",
-      "of": "ddde440b",
+      "t": "Análisis retórico en géneros principalmente de no ficción, equivalente a un semestre de inglés universitario.",
+      "of": "4dc5a8db",
       "at": [
         "hickory-grove-christian:divisions[0].departments[1].courses[8].description"
       ]
@@ -21247,8 +21218,8 @@
       ]
     },
     {
-      "t": "Métodos de resolución de problemas aplicados a sistemas, polinomios, radicales, cuadráticas, sucesiones y probabilidad.",
-      "of": "7f9ea31a",
+      "t": "Métodos de resolución de problemas aplicados — ecuaciones fraccionarias, rectas y pendiente, sistemas, polinomios, radicales, cuadráticas, sucesiones, series y probabilidad.",
+      "of": "97ddabea",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[3].description"
       ]
@@ -21317,15 +21288,15 @@
       ]
     },
     {
-      "t": "La vía más rápida, que llega a las series, las series de potencias, los polinomios de Taylor y el cálculo paramétrico, vectorial y polar; solo se ofrece en el segundo semestre.",
-      "of": "e69112f9",
+      "t": "Las series, las series de potencias, los polinomios de Taylor y el cálculo paramétrico, vectorial y polar como temas nuevos, con un repaso de los límites, la derivación y la integración; solo se ofrece en el segundo semestre.",
+      "of": "f4cb98b0",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[9].description"
       ]
     },
     {
-      "t": "Recoger, analizar y extraer conclusiones de los datos: exploración, probabilidad, inferencia y regresión.",
-      "of": "05e09daa",
+      "t": "Recoger, analizar y extraer conclusiones de los datos: exploración, probabilidad y variables aleatorias, inferencia, distribuciones binomial y geométrica, estimaciones, pruebas de chi cuadrado y regresión.",
+      "of": "004fbf8d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[2].courses[10].description"
       ]
@@ -21366,8 +21337,8 @@
       ]
     },
     {
-      "t": "Química orgánica, energética celular, fotosíntesis y ADN: el requisito previo que habilita al alumno para AP Biology.",
-      "of": "88fa3f54",
+      "t": "Grandes temas de la biología, como la química orgánica, la energética celular, la fotosíntesis, la reproducción celular y el ADN: el requisito previo que habilita al alumno para AP Biology.",
+      "of": "f46fc08f",
       "at": [
         "hickory-grove-christian:divisions[0].departments[3].courses[2].description"
       ]
@@ -21471,8 +21442,8 @@
       ]
     },
     {
-      "t": "Un curso de laboratorio centrado en el tiempo y el clima: la atmósfera, las tormentas severas, la tectónica de placas y la exploración espacial.",
-      "of": "8bdec85a",
+      "t": "Un curso de laboratorio centrado en el tiempo y el clima, que investiga temas como la atmósfera, las tormentas severas, la tectónica de placas y la exploración espacial.",
+      "of": "5ffc8447",
       "at": [
         "hickory-grove-christian:divisions[0].departments[3].courses[10].description"
       ]
@@ -21653,8 +21624,8 @@
       ]
     },
     {
-      "t": "Gobierno nacional estadounidense de nivel universitario: instituciones, comportamiento político, políticas públicas, libertades civiles y derechos civiles. Recomendado para alumnos de último año.",
-      "of": "3becdd77",
+      "t": "Gobierno nacional estadounidense de nivel universitario: su desarrollo, las creencias y los comportamientos políticos, los partidos, los grupos de interés, los medios de comunicación, las instituciones, las políticas públicas, las libertades civiles y los derechos civiles · recomendado solo para alumnos de último año.",
+      "of": "fafbcbac",
       "at": [
         "hickory-grove-christian:divisions[0].departments[4].courses[9].description"
       ]
@@ -21905,8 +21876,8 @@
       ]
     },
     {
-      "t": "Repertorio de banda sinfónica con teoría e historia de la música formales, y audiciones para la NCBA All-District, la All-State y el Solo & Ensemble Festival.",
-      "of": "c6f08e40",
+      "t": "Repertorio de banda sinfónica con teoría e historia de la música formales, y audiciones para la NCBA All-District, la All-State y el Solo & Ensemble Festival · se accede desde la banda de Middle School o mediante audición.",
+      "of": "d2e474c6",
       "at": [
         "hickory-grove-christian:divisions[0].departments[7].courses[2].description"
       ]
@@ -22052,8 +22023,8 @@
       ]
     },
     {
-      "t": "Editor jefe o productor del informativo semanal, además de producción de pódcast, reportajes documentales y campañas promocionales.",
-      "of": "73ee379e",
+      "t": "La oportunidad de ser editor jefe o productor del informativo semanal, además de producción de pódcast, reportajes documentales y campañas promocionales.",
+      "of": "c458fb23",
       "at": [
         "hickory-grove-christian:divisions[0].departments[8].courses[5].description"
       ]
@@ -22158,8 +22129,8 @@
       ]
     },
     {
-      "t": "Levantamiento de pesas durante la temporada del deporte asignado al alumno, para ganar fuerza, volumen y velocidad.",
-      "of": "3f1573f0",
+      "t": "Levantamiento de pesas durante la temporada del deporte asignado al alumno, para ganar fuerza, volumen y velocidad · puede repetirse, pero solo un crédito cuenta para la graduación.",
+      "of": "a13189f9",
       "at": [
         "hickory-grove-christian:divisions[0].departments[10].courses[3].description"
       ]
@@ -22200,8 +22171,8 @@
       ]
     },
     {
-      "t": "El primer curso de AP Capstone: indagación interdisciplinar, síntesis de múltiples fuentes y argumentación escrita y oral.",
-      "of": "a5409f77",
+      "t": "El primer curso de AP Capstone, con acceso por solicitud: indagación interdisciplinar, síntesis de múltiples fuentes y argumentación escrita y oral.",
+      "of": "6e795975",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[0].description"
       ]
@@ -22214,8 +22185,8 @@
       ]
     },
     {
-      "t": "El segundo curso de AP Capstone: una investigación de un año que culmina en un trabajo de 4,000–5,000 palabras y una defensa oral.",
-      "of": "95aadd81",
+      "t": "El segundo curso de AP Capstone, con acceso por solicitud tras AP Seminar: una investigación de un año que culmina en un trabajo de 4,000–5,000 palabras y una defensa oral.",
+      "of": "5e68b615",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[1].description"
       ]
@@ -22228,8 +22199,8 @@
       ]
     },
     {
-      "t": "Un recorrido por los principios fundamentales: desarrollo humano, aprendizaje y memoria, personalidad, estrés, y comportamiento anómalo y su tratamiento.",
-      "of": "1608abf8",
+      "t": "Un recorrido por los principios fundamentales de la psicología, como el desarrollo humano, el aprendizaje y la memoria, la personalidad, el estrés, y el comportamiento anómalo y su tratamiento.",
+      "of": "81786a4d",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[3].description"
       ]
@@ -22305,8 +22276,8 @@
       ]
     },
     {
-      "t": "Pensamiento crítico, organización, gestión del tiempo y exploración de carreras, dirigido a alumnos que empiezan la etapa de secundaria superior.",
-      "of": "eb500ce1",
+      "t": "Pensamiento crítico, organización, gestión del tiempo, comunicación y exploración de carreras: ideal para alumnos que empiezan la etapa de secundaria superior o que quieren reforzar su recorrido en ella.",
+      "of": "b428fa2a",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[9].description"
       ]
@@ -22333,8 +22304,8 @@
       ]
     },
     {
-      "t": "Para alumnos de último año con una media de 3.0 y una carta del empleador que salen antes del colegio para trabajar; no disponible durante la temporada de su deporte.",
-      "of": "4b951c2c",
+      "t": "Para alumnos de último año con una media (GPA) de 3.0 y una carta del empleador que salen antes del colegio para trabajar · no disponible durante la temporada de ningún deporte que practique el alumno con entrenamientos después de clase.",
+      "of": "32e6c09a",
       "at": [
         "hickory-grove-christian:divisions[0].departments[11].courses[11].description"
       ]
@@ -22480,8 +22451,8 @@
       ]
     },
     {
-      "t": "Reveal Math Course 1: división de fracciones y decimales, números negativos, razones y tasas, expresiones y ecuaciones, área y volumen, y razonamiento estadístico.",
-      "of": "de54da9f",
+      "t": "Reveal Math Course 1: división de fracciones y decimales, números negativos, razones y tasas, expresiones y ecuaciones, área, área superficial y volumen, y razonamiento estadístico.",
+      "of": "72e3a827",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[0].description"
       ]
@@ -22494,8 +22465,8 @@
       ]
     },
     {
-      "t": "Reveal Math Course 2: relaciones proporcionales, números racionales, dibujos a escala y construcciones geométricas, e inferencias a partir de muestras.",
-      "of": "99212e70",
+      "t": "Reveal Math Course 2: relaciones proporcionales, números racionales, dibujos a escala y construcciones geométricas, área, área superficial y volumen, e inferencias a partir de muestras.",
+      "of": "57becf1a",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[1].description"
       ]
@@ -22522,8 +22493,8 @@
       ]
     },
     {
-      "t": "Se ofrece a los estudiantes de honores de 8.º grado que reúnan los requisitos: ecuaciones, desigualdades, polinomios, factorización, gráficas y radicales, con tareas cada noche.",
-      "of": "9a2c56a3",
+      "t": "Se ofrece a los estudiantes Honors de 8.º grado que reúnan los requisitos: ecuaciones, expresiones, orden de las operaciones, propiedades, números positivos y negativos, desigualdades, proporciones, polinomios, factorización, gráficas y radicales, con tareas cada noche.",
+      "of": "95bec834",
       "at": [
         "hickory-grove-christian:divisions[1].departments[3].courses[3].description"
       ]
@@ -22886,8 +22857,8 @@
       ]
     },
     {
-      "t": "Cinco ramas de conocimiento por curso, más las asignaturas obligatorias LEAD y las optativas de artes. (Early/Lower School, PS–4, no publica ninguna asignatura con nombre propio ni lista de materias.)",
-      "of": "9992b6dd",
+      "t": "Cinco ramas de conocimiento por curso, más las asignaturas obligatorias LEAD y las optativas de artes. (Early/Lower School, PS–4, no publica ninguna asignatura con nombre propio ni lista de materias por curso.)",
+      "of": "8cc0bd50",
       "at": [
         "gaston-day:divisions[0].teaser"
       ]
@@ -22956,8 +22927,8 @@
       ]
     },
     {
-      "t": "Una secuencia de asignaturas obligatorias que imparte ciudadanía digital y habilidades para la vida junto con la tutoría.",
-      "of": "b69b590d",
+      "t": "Asignaturas obligatorias que, junto con la tutoría, enseñan ciudadanía digital.",
+      "of": "9a283e10",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[0].description"
       ]
@@ -22970,15 +22941,15 @@
       ]
     },
     {
-      "t": "Continúa la secuencia de teatro que empieza en segundo grado en Lower School.",
-      "of": "ad25f1c8",
+      "t": "Continúa las clases de teatro que empiezan ya en segundo grado en Lower School.",
+      "of": "45a2d4d4",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[2].description"
       ]
     },
     {
-      "t": "El Middle School Chorus, que actúa junto al conjunto instrumental.",
-      "of": "add8a04e",
+      "t": "El Middle School Chorus, una de las cuatro optativas de bellas artes entre las que elige el alumnado de Middle School.",
+      "of": "f22d5135",
       "at": [
         "gaston-day:divisions[0].departments[1].courses[3].description"
       ]
@@ -23085,8 +23056,8 @@
       ]
     },
     {
-      "t": "Una opción de matemáticas de cuarto curso para el alumnado que no continúa hacia el cálculo.",
-      "of": "2f3648c2",
+      "t": "Una de las asignaturas de matemáticas de Upper School que figuran en el cuadro curricular del colegio.",
+      "of": "09b4ecf8",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[4].description"
       ]
@@ -23113,8 +23084,8 @@
       ]
     },
     {
-      "t": "Cálculo universitario de primer semestre; todos los estudiantes de AP deben presentarse al examen.",
-      "of": "e3870c8f",
+      "t": "Una asignatura AP de cálculo; todos los estudiantes de AP deben presentarse al examen.",
+      "of": "a7491208",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[7].description"
       ]
@@ -23127,8 +23098,8 @@
       ]
     },
     {
-      "t": "Amplía AB con series y más técnicas de integración.",
-      "of": "3a3064cb",
+      "t": "Una de las dos asignaturas AP de cálculo, junto con Calculus AB.",
+      "of": "238e55c2",
       "at": [
         "gaston-day:divisions[1].departments[1].courses[8].description"
       ]
@@ -23159,8 +23130,8 @@
       ]
     },
     {
-      "t": "Física Honors, el nivel de requisito previo por debajo de AP Physics II.",
-      "of": "d5eeb4f3",
+      "t": "Física Honors; Physics II se ofrece en nivel AP.",
+      "of": "05eabaaf",
       "at": [
         "gaston-day:divisions[1].departments[2].courses[3].description"
       ]
@@ -23173,8 +23144,8 @@
       ]
     },
     {
-      "t": "La oferta de física AP, lo que implica una secuencia de física de dos años.",
-      "of": "864db0ae",
+      "t": "La única asignatura AP de física del currículo de Upper School.",
+      "of": "a98f03d2",
       "at": [
         "gaston-day:divisions[1].departments[2].courses[4].description"
       ]
@@ -23195,8 +23166,8 @@
       ]
     },
     {
-      "t": "Completar hasta el nivel III es obligatorio para graduarse; el requisito también puede cumplirse en francés.",
-      "of": "713afca6",
+      "t": "Completar hasta el nivel III, en español o en francés, es obligatorio para graduarse, excepto para los estudiantes internacionales cuya segunda lengua es el inglés.",
+      "of": "37ea1ab6",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[0].description"
       ]
@@ -23209,15 +23180,15 @@
       ]
     },
     {
-      "t": "La última asignatura de español, más allá del requisito de graduación.",
-      "of": "74478fea",
+      "t": "La última asignatura de la secuencia de español, más allá del requisito de graduación.",
+      "of": "d8cbd093",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[1].description"
       ]
     },
     {
-      "t": "Una de las cuatro asignaturas de bellas artes que cuentan para el requisito de dos años.",
-      "of": "b2a9983b",
+      "t": "Una de las asignaturas de bellas artes que cuentan para el requisito de dos años.",
+      "of": "25ec31ec",
       "at": [
         "gaston-day:divisions[1].departments[5].courses[0].description"
       ]
@@ -23258,8 +23229,8 @@
       ]
     },
     {
-      "t": "La última asignatura de artes visuales — no hay AP Studio Art.",
-      "of": "5cffc833",
+      "t": "La última asignatura de la secuencia de artes visuales; el cuadro curricular del colegio no incluye AP Studio Art.",
+      "of": "6d7e3320",
       "at": [
         "gaston-day:divisions[1].departments[5].courses[4].description"
       ]
@@ -23308,8 +23279,8 @@
       ]
     },
     {
-      "t": "Alimenta el equipo VEX Robotics que llegó a las TSA VEX Nationals en 2023.",
-      "of": "97424e67",
+      "t": "Robótica Honors; el colegio también tiene un VEX Robotics Club, que se clasificó para las VEX Nationals de la Technology Student Association en 2023.",
+      "of": "4811d17d",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[2].description"
       ]
@@ -23336,8 +23307,8 @@
       ]
     },
     {
-      "t": "Alimenta Blutopia, la revista estudiantil de literatura y arte.",
-      "of": "5e090e4c",
+      "t": "Una optativa de escritura creativa que se ofrece en nivel Honors.",
+      "of": "e2c7127d",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[4].description"
       ]
@@ -23351,8 +23322,8 @@
       ]
     },
     {
-      "t": "Da apoyo al Public Debate Club y a Mock Trial.",
-      "of": "f82c4f41",
+      "t": "Una optativa general de oratoria y debate.",
+      "of": "b19dc6f0",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[5].description"
       ]
@@ -23463,8 +23434,8 @@
       ]
     },
     {
-      "t": "Planes de estudio con nombre propio en lugar de asignaturas con nombre propio — Math in Focus 2020 (Singapur), Amplify Science, Storypaths — más seis enriquecimientos semanales y un programa de español de K–5.",
-      "of": "0b6e3ce5",
+      "t": "Planes de estudio con nombre propio en lugar de asignaturas con nombre propio — Math in Focus 2020 (Singapur), Amplify Science, Storypaths — más seis enriquecimientos semanales, entre ellos un programa de español de K–5.",
+      "of": "7379846b",
       "at": [
         "trinity-episcopal:divisions[0].teaser"
       ]
@@ -23555,8 +23526,8 @@
       ]
     },
     {
-      "t": "La única instalación académica con nombre propio de la escuela, y un enriquecimiento semanal de Lower School. Es un espacio STEM, no un espacio artístico.",
-      "of": "0099fe3b",
+      "t": "Un enriquecimiento semanal de STEM en Lower School.",
+      "of": "684190a7",
       "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[1].description"
       ]
@@ -23591,8 +23562,8 @@
       ]
     },
     {
-      "t": "Lecciones bíblicas y estudio de las religiones del mundo, impartido de K a 8 y con periodicidad semanal en la Lower School.",
-      "of": "8b34bf6d",
+      "t": "Lecciones bíblicas, estudio de las religiones del mundo y más, impartido en K–8 y con periodicidad semanal en la Lower School.",
+      "of": "297ef5d2",
       "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[5].description"
       ]
@@ -23612,15 +23583,15 @@
       ]
     },
     {
-      "t": "Solo en el PDF del profile",
-      "of": "093ec54a",
+      "t": "K–8",
+      "of": "5892cb59",
       "at": [
         "trinity-episcopal:divisions[0].departments[2].courses[0].tag"
       ]
     },
     {
-      "t": "Facilitado por Digital Learning Catalysts, con iPads 1:1 para todos los estudiantes de K-1 y Chromebooks 1:1 para todos los de Gr. 2-8. Publicado únicamente en el School Profile — no aparece en ninguna página de /academics/.",
-      "of": "6f111dc0",
+      "t": "Según el School Profile, el programa lo facilitan los Digital Learning Catalysts, con iPads 1:1 para todos los estudiantes de K-1 y Chromebooks 1:1 para todos los de los grados 2-8.",
+      "of": "eafedffc",
       "at": [
         "trinity-episcopal:divisions[0].departments[2].courses[0].description"
       ]
@@ -23661,8 +23632,8 @@
       ]
     },
     {
-      "t": "La asignatura de 6.º grado. La enseñanza en todo el departamento está \"grounded in a problem-based core curriculum rooted in content and practice standards.\"",
-      "of": "005b7901",
+      "t": "La asignatura de 6.º grado, en un departamento cuya enseñanza está \"grounded in a problem-based core curriculum rooted in content and practice standards.\"",
+      "of": "98d2c64d",
       "at": [
         "trinity-episcopal:divisions[1].departments[0].courses[0].description"
       ]
@@ -23675,8 +23646,8 @@
       ]
     },
     {
-      "t": "La asignatura acelerada de 7.º grado. Los estudiantes se asignan a las asignaturas de nivel ordinario y aceleradas \"based on specific performance criteria\" — los criterios en sí no están publicados.",
-      "of": "e789d153",
+      "t": "La asignatura acelerada de 7.º grado; los estudiantes se asignan a las asignaturas de nivel ordinario y aceleradas \"based on specific performance criteria\", que la escuela no publica.",
+      "of": "d6226f59",
       "at": [
         "trinity-episcopal:divisions[1].departments[0].courses[2].description"
       ]
@@ -23698,16 +23669,10 @@
       ]
     },
     {
-      "t": "Una de las cinco asignaturas distintas de matemáticas de 8.º grado. La escuela no indica ningún régimen de créditos para ella.",
-      "of": "a4e5383f",
+      "t": "Una de las cinco asignaturas distintas de matemáticas de 8.º grado; la escuela no indica ningún régimen de créditos para ella.",
+      "of": "a1e663f7",
       "at": [
-        "trinity-episcopal:divisions[1].departments[0].courses[5].description"
-      ]
-    },
-    {
-      "t": "La más avanzada de las cinco asignaturas de matemáticas de 8.º grado. La escuela no indica ningún régimen de créditos para ella.",
-      "of": "d95bc060",
-      "at": [
+        "trinity-episcopal:divisions[1].departments[0].courses[5].description",
         "trinity-episcopal:divisions[1].departments[0].courses[7].description"
       ]
     },
@@ -23790,8 +23755,8 @@
       ]
     },
     {
-      "t": "Un programa integrado de ciencias en los grados 6-8. No se publican nombres de asignaturas por grado.",
-      "of": "52f1e9bc",
+      "t": "Un programa integrado de ciencias en los grados 6-8, sin nombres de asignaturas publicados por grado.",
+      "of": "afc548ca",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[1].description"
       ]
@@ -23810,6 +23775,7 @@
         "trinity-episcopal:divisions[1].departments[4].courses[0].description",
         "trinity-episcopal:divisions[1].departments[4].courses[1].description",
         "trinity-episcopal:divisions[1].departments[4].courses[2].description",
+        "trinity-episcopal:divisions[1].departments[4].courses[3].description",
         "trinity-episcopal:divisions[1].departments[4].courses[4].description",
         "trinity-episcopal:divisions[1].departments[4].courses[5].description",
         "trinity-episcopal:divisions[1].departments[4].courses[6].description",
@@ -23831,13 +23797,6 @@
       "of": "82574932",
       "at": [
         "trinity-episcopal:divisions[1].departments[4].courses[3].title"
-      ]
-    },
-    {
-      "t": "Un enriquecimiento semanal. Se ha anunciado como novedad una clase de tecnología de 6.º grado, \"as digital learning catalysts teach students how to use AI to create code and build, not just how to input questions.\"",
-      "of": "f2331b71",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[3].description"
       ]
     },
     {
@@ -23876,8 +23835,8 @@
       ]
     },
     {
-      "t": "Aparece nombrado en la lista de enriquecimientos del School Profile. Su contenido no está publicado en ningún sitio — la expresión aparece en el PDF del profile y en ninguna página del sitio web.",
-      "of": "315f7a14",
+      "t": "El School Profile los nombra en su lista de enriquecimientos, pero no describe qué abarcan.",
+      "of": "a8c6e6ee",
       "at": [
         "trinity-episcopal:divisions[1].departments[4].courses[9].description"
       ]
@@ -23904,8 +23863,8 @@
       ]
     },
     {
-      "t": "\"6th Grade students choose from one of two ensembles: choir or band.\" Los conjuntos actúan en las capillas, en la graduación y en espacios fuera de la escuela.",
-      "of": "41e16e7d",
+      "t": "Los conjuntos actúan en las capillas, en la graduación y en espacios fuera de la escuela, y \"6th Grade students choose from one of two ensembles: choir or band.\"",
+      "of": "9f987f9e",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[0].description"
       ]
@@ -23981,8 +23940,8 @@
       ]
     },
     {
-      "t": "La Early School enseña según el método Montessori en aulas de edades mixtas, no en cursos separados. Las filas siguientes son las etapas, los hitos y las asignaturas especiales que nombra la escuela, con sus propias palabras.",
-      "of": "628e38e1",
+      "t": "La Early School enseña según el método Montessori en aulas de edades mixtas, no en cursos separados. Las filas siguientes son las etapas, los hitos y las asignaturas especiales que nombra la escuela, con sus propias palabras entre comillas.",
+      "of": "1cbb7949",
       "at": [
         "charlotte-prep:divisions[0].notPublished"
       ]
@@ -24194,8 +24153,8 @@
       ]
     },
     {
-      "t": "Charlotte Prep publica asignaturas y programas con nombre propio para la Lower School, no cursos descritos uno por uno. Las filas siguientes son esos, con las palabras de la escuela.",
-      "of": "368adc89",
+      "t": "Charlotte Prep publica asignaturas y programas con nombre propio para la Lower School, no cursos descritos uno por uno. Las filas siguientes recogen esos elementos, con las palabras de la propia escuela entre comillas.",
+      "of": "99c93ee7",
       "at": [
         "charlotte-prep:divisions[1].notPublished"
       ]
@@ -24225,8 +24184,8 @@
       ]
     },
     {
-      "t": "Instrucción diaria en \"decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process.\"",
-      "of": "cb91d23a",
+      "t": "Instrucción diaria en lectura, escritura, expresión oral y comprensión oral, \"including decoding knowledge, word attack strategies, fluency, literal and inferential comprehension skills, and essential skills in the writing process.\"",
+      "of": "c764611d",
       "at": [
         "charlotte-prep:divisions[1].departments[0].courses[0].description"
       ]
@@ -24260,8 +24219,8 @@
       ]
     },
     {
-      "t": "\"Grounded in a global philosophy. A balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge.\"",
-      "of": "b89ff712",
+      "t": "Matemáticas \"grounded in a global philosophy,\" donde \"a balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge.\"",
+      "of": "815de1c9",
       "at": [
         "charlotte-prep:divisions[1].departments[0].courses[2].description"
       ]
@@ -24397,8 +24356,8 @@
       ]
     },
     {
-      "t": "Charlotte Prep no publica ningún catálogo de cursos ni programa de estudios. Estas son las asignaturas, los programas y las optativas que nombra la propia escuela, con sus propias palabras.",
-      "of": "824f5a2e",
+      "t": "Charlotte Prep no publica ningún catálogo de cursos ni programa de estudios. Estas son las asignaturas, los programas y las optativas que nombra la propia escuela, con sus propias palabras entre comillas.",
+      "of": "f4441810",
       "at": [
         "charlotte-prep:divisions[2].notPublished"
       ]
