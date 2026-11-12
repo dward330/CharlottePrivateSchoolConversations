@@ -5486,7 +5486,7 @@ const COVENANT_DAY: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'JUNIOR KINDERGARTEN – GRADE 5',
       teaser:
-        'Five to six subject areas described for each of seven grades, plus six named Specials. These include CREATE Junior, Spanish, and recorder in 4th grade before band instruments in 5th.',
+        'Five subject areas described for each of seven grades, plus six named Specials. These include CREATE Junior, Spanish, and recorder in 4th grade before band instruments in 5th.',
       source: 'Covenant Day Lower School Curriculum (academics page)',
       sourceUrl: 'https://www.covenantday.org/academics/lower-school',
       notPublished:
@@ -7241,7 +7241,7 @@ const GASTON_DAY: CourseOfferings = {
           name: 'World Language',
           courses: [
             { title: 'Spanish I, II, III', description: 'Completion through Level III, in Spanish or French, is required for graduation, except for international students for whom English is a second language.' },
-            { title: 'Spanish IV', tag: 'Honors', description: 'The terminal Spanish course, beyond the graduation requirement.' },
+            { title: 'Spanish IV', tag: 'Honors', description: 'The final course in the Spanish sequence, beyond the graduation requirement.' },
           ],
         },
         {
@@ -8857,7 +8857,7 @@ const CHARLOTTE_PREP: CourseOfferings = {
         'charlotteprep.org — Montessori Early School; Montessori Three-Year Cycle guide (2025); Fall 2025 Admissions Packet',
       sourceUrl: PREP_ES,
       notPublished:
-        'The Early School teaches by the Montessori method in mixed-age classrooms rather than in separate courses. The rows below are the stages, milestones and specials the school names, in its own words.',
+        'The Early School teaches by the Montessori method in mixed-age classrooms rather than in separate courses. The rows below are the stages, milestones and specials the school names, with its own words in quotation marks.',
       departments: [
         {
           name: 'Montessori Stages',
@@ -8945,7 +8945,7 @@ const CHARLOTTE_PREP: CourseOfferings = {
       source: 'charlotteprep.org — Lower School; The Prep Fund',
       sourceUrl: PREP_LS,
       notPublished:
-        'Charlotte Prep publishes subjects and named programs for the Lower School, not individually described courses. The rows below are those, in the school’s words.',
+        'Charlotte Prep publishes subjects and named programs for the Lower School, not individually described courses. The rows below are those, with the school’s own words in quotation marks.',
       departments: [
         {
           name: 'Core Subjects',
@@ -8966,7 +8966,7 @@ const CHARLOTTE_PREP: CourseOfferings = {
               title: 'Mathematics',
               tag: 'K–4',
               description:
-                '"Grounded in a global philosophy. A balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge."',
+                'Math "grounded in a global philosophy," where "a balanced approach is used to build and apply computational, conceptual, and problem-solving knowledge."',
             },
           ],
         },
@@ -9016,7 +9016,7 @@ const CHARLOTTE_PREP: CourseOfferings = {
       source: 'charlotteprep.org — Middle School; Leadership; Fall 2025 Admissions Packet; "Testing at Charlotte Prep" (April 2026)',
       sourceUrl: PREP_MS,
       notPublished:
-        'Charlotte Prep publishes no course catalog or program of studies. These are the subjects, programs and electives the school itself names, in its own words.',
+        'Charlotte Prep publishes no course catalog or program of studies. These are the subjects, programs and electives the school itself names, with its own words in quotation marks.',
       departments: [
         {
           name: 'Core Subjects',

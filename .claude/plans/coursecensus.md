@@ -287,7 +287,7 @@ record.
 |---|---|---|---|---|---|---|
 | 1 | `2066da3c`, `ab89d799`, `a95a9584` (ingest `6b882c9a`, `19c1fb7b`, `39408ece`) | `census-{providence-day,charlotte-latin,charlotte-country-day}.md` (`4ee6078e`) | `4ee6078e` (54), `647257fb` (13) | `9ee41278` | 7 wording edits, 5 fact findings, 3 of 25 `OK` re-checks overturned | **approved** 2026-11-11, after the rulings commit `29ce4a19` |
 | 2 | `345024a4` (ingest `481de37c`) | `census-{cannon,charlotte-christian,davidson-day}.md` (`6624057f`) | `6624057f` (24 + 7 teasers/notes + 1 tag), `9d29ea5d` (5) | this batch's English commit | 8 wording edits, 0 fact findings in the fixes, 4 of 20 `OK` re-checks overturned (5 rows), 2 structural reports | **approved** 2026-11-11, with the rulings commit (`review-batch2-rulings.md`) |
-| 3 | — (records only) | `census-{covenant-day,carmel-christian,hickory-grove-christian,gaston-day,trinity-episcopal,charlotte-prep}.md` (`c18faa90`) | `c18faa90` (53 + 8 teasers/notes, item 8 ×2), `eb5cdac7` (6) | this batch's English commit | 6 wording edits, 3 fact findings in the fixes, 2 of 40 `OK` re-checks overturned, 1 decision raised | awaiting review |
+| 3 | — (records only) | `census-{covenant-day,carmel-christian,hickory-grove-christian,gaston-day,trinity-episcopal,charlotte-prep}.md` (`c18faa90`) | `c18faa90` (53 + 8 teasers/notes, item 8 ×2), `eb5cdac7` (6) | this batch's English commit | 6 wording edits, 3 fact findings in the fixes, 2 of 40 `OK` re-checks overturned, 1 decision raised | **rulings** 2026-11-12 (`review-batch3-rulings.md`); awaiting final approval |
 | 4 | — | — | — | — | — | — |
 
 ### Item 3 rows (defaults; the drafter confirms each against section C)
@@ -1034,3 +1034,21 @@ in Batch 1. `--check` exits 1 on 15 by-design hits, listed in `review-batch3.md`
   titles the record marks TO VERIFY.
 - **Gaston Day Spanish IV:** "terminal" (Visual Art IV's was replaced).
 - **Hickory Grove tags:** six `Gr 9–12` tags the record does not state.
+
+**User ruling at the Batch 3 review (2026-11-12): "for everything listed and decisions for me
+let's go with your recommendations".** Applied as one commit, with evidence in
+`review-batch3-rulings.md`:
+- Charlotte Prep Math becomes one sentence (the Latin 7 precedent). The school's words are kept,
+  split at its own sentence break.
+- Charlotte Prep's three notes: "in its own words" → "with its own words in quotation marks".
+- Gaston Day Spanish IV: "terminal" → "final course in the Spanish sequence".
+- Covenant Day's Lower School teaser: "Five to six" → "Five".
+
+Everything else was left as it was, which was the recommendation: the prerequisite, approval
+and AP-exam lines; Trinity's placement rule and Computer Science; Covenant Day's choir grades;
+Carmel's duplicate honors rows; Hickory Grove's `Gr 9–12` tags. No description at the six
+schools is more than one sentence.
+
+Effects of the commit: `check:matrices` is unchanged. `check:live` is at **200 stale entries per
+locale**. Browser: Charlotte Prep, Gaston Day and Covenant Day render every row, teaser and note
+as the module holds them, with no overflow at 390px.
