@@ -341,7 +341,7 @@ required/elective, prerequisites, quality points); **Description** is the guide'
 
 - **App path:** \`departments[9].courses[24].description\`
 - **Eligibility:** Grade: 11th, 12th Elective Prerequisites: Department Approval and demonstration of skill set Quality Points: A = 5
-- **Description:** Perfect the craft, create and apply the vision. This advanced element of the course not only allows students to create the sets but gives them the tools to work in a professional setting, where all the concepts of design and aesthetics come to fruition. Students now have the ability to create art through advanced woodworking. Students in this course are in charge of all lighting and sound requiremen
+- **Description:** Perfect the craft, create and apply the vision. This advanced element of the course not only allows students to create the sets but gives them the tools to work in a professional set
 
 …[truncated]
 
