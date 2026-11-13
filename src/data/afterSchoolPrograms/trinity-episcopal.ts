@@ -224,14 +224,14 @@ export const trinityEpiscopal: AfterSchoolProgram = {
 
   verdict: {
     headline:
-      'The most deliberately affordable after-school program on this roster — income-scaled monthly rates, a reduced rate on every drop-in tier, and free half days for monthly families.',
+      'An unusually affordable after-school program, by design — income-scaled monthly rates, a reduced rate on every drop-in tier, and free half days for monthly families.',
     // No subhead (user, 2026-09-16) — it listed what TED does not publish.
     strengths: [
-      '**Rates scale with household income** — $105 a month under $30,000, rising through $135 and $195 to $380 over $90,000. No other school in this set prices after-school care on ability to pay at all.',
+      '**Rates scale with household income** — $105 a month under $30,000, rising through $135 and $195 to $380 over $90,000. Few schools price after-school care on ability to pay at all.',
       '**Every per-day tier has a reduced rate for families receiving financial support** — drop-in falls from $31 to $25, a full day from $72 to $45 (first child) and a half day from $51 to $30. The discount is not confined to the monthly contract.',
       '**Half days are complimentary to monthly attendees.** Early-dismissal days are where care is hardest to arrange and where several peers charge a premium.',
       '**A sibling rate is published** in the top income band — $355 against $380 — so the discount is stated rather than implied.',
-      '**Coverage runs to 6:00 p.m.**, the latest close on this roster, and it is one uniform program across the whole K–8 span rather than a split Lower/Middle arrangement.',
+      '**Coverage runs to 6:00 p.m.**, a late close, and it is one uniform program across the whole K–8 span rather than a split Lower/Middle arrangement.',
       '**Days when school is closed are covered** — TED runs 8:00 a.m. to 5:30 p.m. at $72/day — which several peers do not address at all.',
       '**The program has a stated purpose beyond supervision**: dedicated homework time, group projects, and the Trinity Honor Code explicitly extended past dismissal.',
     ],

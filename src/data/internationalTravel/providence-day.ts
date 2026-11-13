@@ -760,7 +760,7 @@ export const providenceDay: InternationalTravelProgram = {
       "Where the program stands out, and eight questions the school's website doesn't answer yet — Middle School trips, aid, selection and safety.",
     standsOut: {
       summary:
-        'Among Charlotte private schools, Providence Day stands out for its credential (the GSD), its Round Square network and the breadth of its reciprocal exchanges.',
+        'Providence Day stands out for its credential (the GSD), its Round Square network and the breadth of its reciprocal exchanges.',
       points: [
         'A named second diploma, running since the mid-2000s, with published requirements',
         'Eight exchange partners, with durations and reciprocity documented year by year',

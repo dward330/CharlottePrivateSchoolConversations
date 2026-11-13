@@ -1,7 +1,7 @@
 ---
 name: nocompare
 title: Remove cross-school comparisons from every school page outside Sports (84 units across After School, Summer, Global Exposure, College Support, Admissions, Financial Aid, The Arts and Student Clubs), so each page says what that school publishes or does; English in two reviewed batches, then all nine prose locales
-status: not-implemented
+status: in-progress
 phases: 2
 batches: 2                     # Phase 1 is built in two batches, each with its own review stop
 created: 2026-11-11
@@ -195,6 +195,8 @@ layers prefix the path with `clusters.` / `catalog.`). Default treatments are th
 | 24 | `trinity-episcopal:verdict.strengths[4]` | ", the latest close on this roster" | ", a late close," |
 | 79 | `charlotte-country-day:verdict.strengths[0]` (refresh) | bold "**The most granular pricing ladder here**" | "**An unusually granular pricing ladder**" (same `**` count; as #7 on the same page) |
 | 80 | `gaston-day:verdict.strengths[0]` (refresh) | bold "**The price is the lowest here.**" | "**The price is low.**" (same `**` count; "unusually low" would overreach, as #56: it is the lowest of 13; the $95/$55 a week figures that follow carry the point) |
+| 86 | `gaston-day:cost.headline` (Batch A review) | "this is among the least expensive aftercare on the roster" | **delete** (as #80): "Aftercare costs $95 a week for the Lower School and $55 for the Middle School." |
+| 87 | `gaston-day:verdict.subhead` (Batch A review) | "this is the least expensive option on the roster" | "…, the price is low; confirm the window before relying on it." (as #80) |
 | 25 | `providence-day:catalog.headline` (summer) | "The largest published slate of the six schools — " | "An unusually large published slate: 170 priced camps across nine sessions, …" |
 | 26 | `providence-day:catalog.camps[1].desc` | "— the longest published camp day at any of these schools." | "— an unusually long published camp day." |
 | 27 | `charlotte-country-day:catalog.headline` (summer) | "tier no other school here offers" | "…including a dedicated farm campus tier, which is rare." |
@@ -598,6 +600,25 @@ The plan was re-scanned on `main` at `7e4be0b9` (see "Refresh" under Context). C
 
 The proposed full texts were measured with the hook's `analyze()`; the scripts are not
 committed. Step 2 still re-scans at each batch.
+
+### Batch A (built 2026-11-13 on `feat/nocompare`, base `df9848ca`)
+
+- **Re-scan (Step 2):** all 37 open rows present word for word; 51 other hits, all KEEP
+  (implicit, own-result "first in the nation, per the school", within-school "every other
+  row", student "peers", "here" meaning the school's own catalog). No new REMOVE from the
+  patterns.
+- **Two comparisons the patterns missed, found by the independent reviewer: rows 86 and 87**
+  (Gaston Day After School, "least expensive … on the roster"). Patterns 1–3 match "this
+  roster" / "on this roster" but not "**on the roster**". Both deleted to a plain statement,
+  as #80. **Batch B's Step 2 must also grep `\bthe roster\b`.** 39 units in Batch A.
+- **Reviewer also fixed 7 dropped spaces** after an em dash or a closing `**` in rewritten
+  headlines/strengths (the Edit tool trimmed a trailing space in `new_string`). Batch B:
+  never end an Edit `new_string` with a space.
+- **By-design guard failures:** 11 ((h) ONLY ×9, (n) count ×2), each listed with its removed
+  span in the review files. CCD `verdict.headline` "the one whose" was the second half of the
+  "in this set" superlative.
+- **`check:live` stale (Phase 2 input):** after-school 28, summer-programs 7,
+  international-travel 4 per locale (39); no other topic.
 
 ### Candidates noticed, not acted on
 

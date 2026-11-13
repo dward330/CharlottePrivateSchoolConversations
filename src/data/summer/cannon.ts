@@ -1066,7 +1066,7 @@ export const cannon: SummerProgram = {
 
   costPlanner: {
     headline:
-      'Camp Cannon is the only one of these programs that takes a deposit — 50% at registration, the balance due May 15.',
+      'Camp Cannon takes a deposit: 50% at registration, the balance due May 15.',
     subhead:
       'Seven weeks are available. Week 2 is a four-day week and every tier drops for it: $180.00 and $196.00 half-day, $392.00 all-day.',
     maxWeeks: 7,

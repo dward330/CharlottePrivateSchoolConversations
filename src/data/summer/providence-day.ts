@@ -21,7 +21,7 @@ import type { SummerProgram } from '../summerPrograms.ts'
 export const providenceDay: SummerProgram = {
   catalog: {
     headline:
-      'The largest published slate of the six schools — 170 priced camps across nine sessions, from a $255 four-day half-day to a $1,275 three-week musical production.',
+      'An unusually large published slate: 170 priced camps across nine sessions, from a $255 four-day half-day to a $1,275 three-week musical production.',
     subhead:
       'Nine sessions run June 1 to July 31, 2026. Two of them are four-day weeks (no camps June 19 or July 3) and are priced down accordingly.',
     intro:
@@ -63,7 +63,7 @@ export const providenceDay: SummerProgram = {
       },
       {
         name: 'Charger Chill Day Camp (8am-5pm)',
-        desc: 'The same camp on extended hours — the longest published camp day at any of these schools.',
+        desc: 'The same camp on extended hours — an unusually long published camp day.',
         category: 'daycamp',
         categoryLabel: 'Traditional Day Camp',
         grades: ['tk', 'g12', 'g35'],

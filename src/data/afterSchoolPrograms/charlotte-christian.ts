@@ -23,7 +23,7 @@ const frac = (hour: number, minute = 0) => (hour + minute / 60 - 14) / 4
 export const charlotteChristian: AfterSchoolProgram = {
   coverage: {
     headline:
-      'Lower School is covered to 6:00 p.m. and Middle School only to 5:00 p.m. — a full hour earlier, and one of the sharpest split deadlines in this set.',
+      'Lower School is covered to 6:00 p.m. and Middle School only to 5:00 p.m. — a full hour earlier, an unusually sharp split.',
     subhead:
       'Two cheap "Bridge Care" tiers exist purely to close the gap between the JK-K bell and the grades 1–4 bell. Upper School has no after-school care at all.',
     hours: ['2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
@@ -207,7 +207,7 @@ export const charlotteChristian: AfterSchoolProgram = {
 
   dayInside: {
     headline:
-      'Charlotte Christian is the only school here that publishes an actual timed daily schedule — and it protects a 45-minute homework block in both divisions.',
+      'Charlotte Christian publishes an actual timed daily schedule, which few schools do, and it protects a 45-minute homework block in both divisions.',
     subhead:
       'The Middle School program deliberately splits students into separate age groups. The school says it is "tailored to the developmental needs of our two distinct cohorts — grades 5 and 6, and grades 7 and 8."',
     rhythmTitle: 'The Lower School afternoon, as published',
@@ -283,11 +283,11 @@ export const charlotteChristian: AfterSchoolProgram = {
 
   verdict: {
     headline:
-      'The most operationally transparent program here — a published schedule, a protected homework block, and a genuinely clever Bridge Care tier — wrapped around rates that have risen very fast.',
+      'An unusually transparent program — a published schedule, a protected homework block, and a genuinely clever Bridge Care tier — wrapped around rates that have risen very fast.',
     subhead:
       'The two hard edges are the split 5:00/6:00 deadlines between divisions and a club catalog you cannot see until you are already a parent.',
     strengths: [
-      '**A published, structured daily rhythm** for both divisions, with a protected 45-minute homework and reading block. No other school in this set publishes its schedule at all.',
+      '**A published, structured daily rhythm** for both divisions, with a protected 45-minute homework and reading block. Few schools publish their after-school schedule at all.',
       '**Bridge Care is a real cost innovation** — $125/month to bridge the JK-K 2:20 bell to the grades 1–4 bell, instead of forcing a family onto a full $325 plan.',
       '**Middle School is pay-as-you-go at $8/hour with automatic registration** — no commitment, no form, no minimum. For occasional users this is far friendlier than a monthly tier.',
       '**The MS program splits into separate age groups**: grades 5–6 and 7–8. The split matters at these ages, since putting 8th and 5th graders in one room often goes badly.',
@@ -300,7 +300,7 @@ export const charlotteChristian: AfterSchoolProgram = {
       '**The 3:05 p.m. auto-billing rule is punitive** — 25 minutes late off the 2:40 bell costs a $50 drop-in, with no grace tier.',
       '**Middle School ends at 5:00 p.m., a full hour before Lower School.** A family with a 3rd grader and a 6th grader manages two different hard deadlines, and the MS late fee starts at 5:01.',
       '**No Upper School after-school care at all** — grades 9–12 dismiss at 3:20 with athletics, arts, or nothing.',
-      '**Snack is not provided** in either program, unlike most peers here.',
+      '**Snack is not provided** in either program, though many schools provide one.',
       '**The sibling discount is thin** — third child only, on the lowest rate. Two-child families get nothing.',
       '**Club fees are invisible before enrollment.** You cannot price the 8-week club sessions without already receiving the parent Focus email.',
       '**Half days cost an extra $25**, so the monthly figure is a floor rather than a ceiling — and no teacher-workday or holiday care is published at all.',

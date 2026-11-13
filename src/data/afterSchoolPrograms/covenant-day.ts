@@ -82,7 +82,7 @@ export const covenantDay: AfterSchoolProgram = {
     facts: [
       {
         label: 'Free before-care',
-        text: 'from **7:30 a.m.** until the start of school, at no charge, school-wide — the only free morning care in this comparison',
+        text: 'from **7:30 a.m.** until the start of school, at no charge, school-wide — free morning care, which few schools offer',
       },
       {
         label: 'Wednesday late start',
@@ -170,13 +170,13 @@ export const covenantDay: AfterSchoolProgram = {
 
   verdict: {
     headline:
-      'The most parent-friendly entry price in this set — free morning care, $20 drop-ins — with a session system that quietly triples for the youngest families.',
+      'An unusually parent-friendly entry price — free morning care, $20 drop-ins — with a session system that quietly triples for the youngest families.',
     subhead:
-      'Coverage matches the 6:00 p.m. peer standard; the catalog opacity is the one real gap.',
+      'Coverage runs to the common 6:00 p.m. close; the catalog opacity is the one real gap.',
     strengths: [
-      '**Free before-school care from 7:30 a.m., school-wide** — every peer here charges for morning care. The Wednesday 8:50 late start is absorbed free too.',
+      '**Free before-school care from 7:30 a.m., school-wide** — most schools charge for morning care. The Wednesday 8:50 late start is absorbed free too.',
       '**Genuine flexibility**: $20 drop-ins, day-count tiers from one to five days, and an annual table with the half-rate months already priced in.',
-      '**Coverage to 6:00 p.m. for JK–8** matches the best pickup time in this comparison.',
+      '**Coverage to 6:00 p.m. for JK–8** matches the latest pickup most schools offer.',
       '**The published pricing is complete and current-looking** — monthly and annual tables both, on a live page, with the August/December rule stated in plain words.',
     ],
     watchouts: [

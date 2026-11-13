@@ -94,7 +94,7 @@ export const gastonDay: AfterSchoolProgram = {
       },
       {
         label: 'No Upper School care',
-        text: 'The program covers **Pre-K through 8th grade only**. No after-school care is published for grades 9–12, which is normal on this roster but worth stating.',
+        text: 'The program covers **Pre-K through 8th grade only**. No after-school care is published for grades 9–12, which is common but worth stating.',
       },
     ],
     flags: [
@@ -116,7 +116,7 @@ export const gastonDay: AfterSchoolProgram = {
   /* ------------------------------------------------------------- 4b cost -- */
   cost: {
     headline:
-      'At $95 a week for the Lower School and $55 for the Middle School, this is among the least expensive aftercare on the roster.',
+      'Aftercare costs $95 a week for the Lower School and $55 for the Middle School.',
     subhead:
       'A full school year of five-day Lower School care comes to roughly $3,420 across 36 weeks — before any drop-in days or late fees.',
     basis: 'monthly',
@@ -193,7 +193,7 @@ export const gastonDay: AfterSchoolProgram = {
     headline:
       'A published minute-by-minute afternoon: choice time, then snack and homework by grade level, then a STEAM group activity, then choice time again.',
     subhead:
-      'Unusually for this roster, Gaston Day prints the actual clock rather than describing the program in general terms.',
+      'Unusually, Gaston Day prints the actual clock rather than describing the program in general terms.',
     rhythmTitle: 'The published afternoon',
     rhythm: [
       {
@@ -259,10 +259,10 @@ export const gastonDay: AfterSchoolProgram = {
     headline:
       'Cheap, published in detail, and genuinely structured — but with an unresolved conflict between the school’s two own sources on both hours and billing period.',
     subhead:
-      'For a family that needs care to 6:00 pm, this is the least expensive option on the roster; confirm the window before relying on it.',
+      'For a family that needs care to 6:00 pm, the price is low; confirm the window before relying on it.',
     strengthsTitle: 'What holds up',
     strengths: [
-      '**The price is the lowest here.** $95/week for Lower School and $55/week for Middle School, with drop-in at $30 and $15 — no registration fee published.',
+      '**The price is low.** $95/week for Lower School and $55/week for Middle School, with drop-in at $30 and $15 — no registration fee published.',
       '**The afternoon is published minute by minute.** Four named blocks with times, rather than a general description of "supervision and activities".',
       '**Homework is a scheduled block, not an afterthought** — 4:00–4:25, separated by grade level, with snack alongside.',
       '**There is a structured group activity every day** built around STEAM and collaboration, so the afternoon is not purely custodial.',
