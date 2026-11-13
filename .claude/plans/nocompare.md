@@ -1,7 +1,7 @@
 ---
 name: nocompare
 title: Remove cross-school comparisons from every school page outside Sports (84 units across After School, Summer, Global Exposure, College Support, Admissions, Financial Aid, The Arts and Student Clubs), so each page says what that school publishes or does; English in two reviewed batches, then all nine prose locales
-status: in-progress
+status: english-done
 phases: 2
 batches: 2                     # Phase 1 is built in two batches, each with its own review stop
 created: 2026-11-11
@@ -233,6 +233,7 @@ edits no Course Offerings file.
 | 49 | `gaston-day:verdict.points[2].text` | "is among the lowest on this roster" | "…, and the ~18:1 senior caseload is unusually low." |
 | 81 | `charlotte-christian:verdict.points[5].label` (refresh) | "A distinctive network the others do not have" | "A distinctive network few schools have" |
 | 82 | `covenant-day:edge.levers[0].items[2]` (refresh) | "— a transcript line no other Charlotte-area applicant carries" | "— a transcript line few applicants carry" |
+| 88 | `gaston-day:counseling.timeline[0].intensity` (Batch B re-scan) | "Earliest start on the roster" | "Early start" (the grade-8 row; the sibling labels are plain, e.g. "Light touch"; "unusually early" would rank against the roster) |
 | 50 | `charlotte-christian:guide.bands[0].steps[3].detail` (admissions) | "— a document the other Charlotte schools do not ask for up front." | "— a document many schools do not ask for up front." (the quote stays byte-identical) |
 | 51 | `covenant-day:guide.aid.text` | ", and it is unique among the Charlotte schools" | "There is also one unusual step you must complete first." |
 | 52 | `providence-day:sections[0].figureNote` (financial-aid-report) | "Among the schools on this site, this kind of list is published less consistently than any other item these reports track." | "Schools publish this kind of list less consistently than most other cost details." |
@@ -266,7 +267,7 @@ edits no Course Offerings file.
 | 77 | `davidson-day:service.subhead` | "The smallest school in this comparison publishes the least overall" | "A small school that publishes little overall — but its civic programming is …" |
 | 78 | `charlotte-catholic:clusters.rows[0].note` (clubClusters layer) | ", older than any competitive result shipped for another school here," | "That coverage is from 2017, so no current standing can be claimed." (nothing to rewrite: the comparison was the site's own bookkeeping) |
 
-Rows 37–49 and 81–82 are `src/data/collegeSupportPrograms/`, 50–51
+Rows 37–49, 81–82 and 88 are `src/data/collegeSupportPrograms/`, 50–51
 `src/data/admissionsPrograms/`, 52–68 and 83–84 `src/data/financialAidReports.ts`, 69–71 and 85
 `src/data/artsPrograms/`, 72–77 `src/data/clubsPrograms/`, 78 `src/data/clubClusters.ts`.
 
@@ -620,9 +621,54 @@ committed. Step 2 still re-scans at each batch.
 - **`check:live` stale (Phase 2 input):** after-school 28, summer-programs 7,
   international-travel 4 per locale (39); no other topic.
 
+### Batch A review (user, 2026-11-13)
+
+Approved as built, with no extra rulings (the `/implement` handoff's "with these rulings" slot came back unfilled).
+
+### Batch B (built 2026-11-13 on `feat/nocompare`, base `041fa929`)
+
+- **Re-scan (Step 2):** all 47 open rows present word for word; 194 other hits, all KEEP
+  except **row 88** (Gaston Day College Support "Earliest start on the roster", the
+  `\bthe roster\b` grep Batch A asked for). 48 units in Batch B.
+- **Edits applied by one script, not one Edit call per unit** (deviation from Step 3). Each
+  old span had to match exactly the expected number of times (the 990 sentence: 3) or nothing
+  was written. The hook loop over every changed file (Step 4) ran the same plain-language
+  check on the whole file, and the script avoids Batch A's trailing-space Edit slips.
+- **By-design guard failures:** 8 ((h) ONLY ×5, (h) BOUND added ×1 — Davidson Day "at most
+  schools", the plan's own hedge — and (n) "four" ×1), each listed in the review files.
+- **Independent review (Step 5) changed three Financial Aid rows from their default
+  treatment** (findings in `review-batchB-college.md`):
+  - **#52** (PD `figureNote`) → "Many schools do not publish this kind of list." The default
+    ("less consistently than most other cost details") still ranked one item against the rest,
+    now about all schools. It matches #57.
+  - **#61** (DD rate history) → the clause is **deleted** ("… since 2023–24."): "unusually
+    steady" stretched a rank among 13 schools to schools at large, the "How to remove" item 2
+    case.
+  - **#84** (Christian tuition history) → the sentence is **deleted**. "A steady tuition
+    history" drifted: the box title is "Four consecutive years recovered", so "strongest"
+    meant the most complete record, and the $850 / $1,500 / $950 steps are not steady.
+  - Not acted on: Charlotte Latin Clubs has a `gap` flag with "unlike its peers". Clubs gap
+    flags never render (`flagVisibility.ts`), so it is out of scope.
+
+- **Checks (Step 6):** `tsc -b` clean, `vite build` ok, the Step 6 list and `test:plain`
+  green. `check:live` stale only in the batch topics, per locale: college-support 16,
+  financial-aid-report 19, student-clubs 7, the-arts 4, admissions 2 (Batch B 48), plus
+  Batch A's 39 — 87 per locale, no other topic.
+- **Browser (Step 7):** all 48 units render their new text on 26 school/topic pages in headed
+  Chrome; no removed span remains. A whole-page sweep of all 13 school pages (every
+  `<details>` open, Sports included) found **two site-set comparisons outside this plan's
+  scope**, left for the user to rule on:
+  - Gaston Day Financial Aid teaser, "a 100%-of-tuition merit award is uncommon on this
+    roster", from `src/content/financial-aid-tuition/gaston-day.json` (out of scope here; this
+    generic-prose topic does render, and its translations live in the content overlay).
+  - Charlotte Catholic Sports, "Charlotte Country Day (also on this site)" (plan `plainsports`).
+
 ### Candidates noticed, not acted on
 
 - Christian Financial Aid `sections[2].boxes[0].body` holds research bookkeeping: "(retrieved
   14 Sep 2026)".
 - Davidson Day Financial Aid `sections[5].boxes[0].body` "But archived copies show 2022–23
   onward" (archive provenance in prose).
+- Davidson Day Arts `theatre.honestContext`: "earlier research credited a production of
+  "Matilda Jr." to this school by mistake" (research bookkeeping in prose).
+- Cannon College Support `verdict.headline` "defences" (British spelling, outside the removed clause).

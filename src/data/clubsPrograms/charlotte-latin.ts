@@ -48,7 +48,7 @@ export const charlotteLatin: ClubsProgram = {
     headline:
       'One student-led umbrella club, Mosaic, carrying two named sub-groups — the identity structure here runs through the club roster rather than a separate affinity program.',
     subhead:
-      'Charlotte Latin publishes markedly less on this than its peers: no roster page, no counts, and no divisional breakout.',
+      'Charlotte Latin publishes markedly less on this than many schools: no roster page, no counts, and no divisional breakout.',
     umbrella: {
       name: 'Mosaic',
       detail:
@@ -133,7 +133,7 @@ export const charlotteLatin: ClubsProgram = {
 
   honors: {
     headline:
-      'Two recognition societies plus a theatre society — and, uniquely in this comparison, published induction criteria and a published induction count.',
+      'Two recognition societies plus a theatre society — and, unusually, published induction criteria and a published induction count.',
     subhead:
       'Charlotte Latin recognizes subject-area and world-language achievement through named prizes rather than honor societies, so the ledger is short by design.',
     societies: [

@@ -56,7 +56,7 @@ export const davidsonDay: ClubsProgram = {
     headline:
       'A 100-hour immersive practicum behind every diploma distinction, and the first high school ever to partner with Davidson College’s Deliberative Citizenship Initiative.',
     subhead:
-      'The smallest school in this comparison publishes the least overall — but its civic programming is specific, externally validated and genuinely unusual.',
+      'A small school that publishes little overall — but its civic programming is specific, externally validated and genuinely unusual.',
     programs: [
       {
         value: '100',

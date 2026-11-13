@@ -326,7 +326,7 @@ export const charlotteCountryDay: ArtsProgram = {
 
   verdict: {
     headline:
-      'The deepest arts facilities of any school in this set, a dual AP-and-IB ceiling, and a statewide-honored theatre director — with a Blumey record that has cooled sharply.',
+      'Unusually deep arts facilities, a dual AP-and-IB ceiling, and a statewide-honored theatre director — with a Blumey record that has cooled sharply.',
     subhead:
       'The open questions are about the undocumented NCTC championship count and the 2026 nomination shutout — both good tour material.',
     holdsUp: [

@@ -194,7 +194,7 @@ export const covenantDay: CollegeSupportProgram = {
   /* -------------------------------------------------------- 3b counseling -- */
   counseling: {
     headline:
-      'One dedicated college counseling director — in her 23rd year at the school — for 85 seniors, the heaviest caseload in this comparison.',
+      'One dedicated college counseling director — in her 23rd year at the school — for 85 seniors.',
     subhead:
       'The office is relational rather than productized: a NACCAP Professional of the Year with thirty years in guidance, meeting juniors and seniors throughout.',
     stats: [
@@ -547,7 +547,7 @@ export const covenantDay: CollegeSupportProgram = {
   /* -------------------------------------------------------------- 3d edge -- */
   edge: {
     headline:
-      'The differentiators are depth stories: a department no other school has, a housing build on Pine Ridge, and college credit from the PCA’s own college.',
+      'The differentiators are depth stories: a department few schools have, a housing build on Pine Ridge, and college credit from the PCA’s own college.',
     subhead:
       'No research-program or Olympiad credentials — the edge here is distinctiveness and legibility, not national competition results.',
     levers: [
@@ -556,9 +556,9 @@ export const covenantDay: CollegeSupportProgram = {
         hint: 'a department of one’s own',
         glyph: '◆',
         items: [
-          'A named high-school department with its own director (Dr. Rebeca Burnett) — unique among these schools',
+          'A named high-school department with its own director (Dr. Rebeca Burnett) — an unusual structure',
           'Course ladder: Augustine Literacy Project, Intercultural Practicum, Introduction to Engineering, Restore525',
-          'The profile gives it a stand-alone descriptive block — a transcript line no other Charlotte-area applicant carries',
+          'The profile gives it a stand-alone descriptive block — a transcript line few applicants carry',
         ],
       },
       {
@@ -676,7 +676,7 @@ export const covenantDay: CollegeSupportProgram = {
         text: '96% of exams at 3+, 78% at 4–5, with a required-exam policy that makes the number honest, and a five-year rising line to back it.',
       },
       {
-        label: 'The heaviest caseload in this comparison',
+        label: 'A heavy caseload',
         text: 'One dedicated college counselor for 85 seniors — cushioned by a 23-year director with NACCAP standing, but a ratio a parent should ask about directly.',
       },
       {

@@ -751,7 +751,7 @@ export const cannon: CollegeSupportProgram = {
     support: [
       {
         label: 'Two named Upper School learning-support staff',
-        text: '**Michelle Donah**, Upper School Learning Specialist, and **Jennifer Ridenhour**, Upper School Dean of Academic Support. That is substantial staffing for 421 Upper School students. It is also some of the best-documented learning support of the schools on this site.',
+        text: '**Michelle Donah**, Upper School Learning Specialist, and **Jennifer Ridenhour**, Upper School Dean of Academic Support. That is substantial staffing for 421 Upper School students. It is also unusually well-documented learning support.',
       },
       {
         label: 'The student owns the plan',
@@ -790,7 +790,7 @@ export const cannon: CollegeSupportProgram = {
 
   verdict: {
     headline:
-      'A stable program that is honest by design. Students keep the same counselor for all four years. It also has a published course-load ceiling, real research defences and a genuine list of where graduates enrolled. But it shares less about outcomes than its larger peers.',
+      'A stable program that is honest by design. Students keep the same counselor for all four years. It also has a published course-load ceiling, real research defences and a genuine list of where graduates enrolled. But it shares less about outcomes than many larger schools do.',
     subhead:
       'Most of what is missing here is publication rather than practice, which makes almost every gap a question a tour can answer.',
     points: [

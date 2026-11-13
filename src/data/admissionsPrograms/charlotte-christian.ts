@@ -208,7 +208,7 @@ export const charlotteChristian: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'outline',
             detail:
-              'Uploaded to myCCS. "For families with two households, please upload a copy of your custody agreements" — a document the other Charlotte schools do not ask for up front.',
+              'Uploaded to myCCS. "For families with two households, please upload a copy of your custody agreements" — a document many schools do not ask for up front.',
           },
           {
             title: 'Request the teacher recommendation',
