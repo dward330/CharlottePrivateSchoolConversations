@@ -418,7 +418,7 @@ const CHARLOTTE_CATHOLIC: ClubClusters = {
       oneLiner: 'The one club with a documented competitive record — but it is from 2017',
       evidence: 'reported',
       evidenceLabel: 'School news — stale',
-      note: 'Diocesan coverage records a North Carolina state runner-up finish and a Program Oral Interpretation state champion. That coverage is from 2017, older than any competitive result shipped for another school here, so no current standing can be claimed. The club meets in the CCHS Media Center under Mrs. Jennifer Taylor.',
+      note: 'Diocesan coverage records a North Carolina state runner-up finish and a Program Oral Interpretation state champion. That coverage is from 2017, so no current standing can be claimed. The club meets in the CCHS Media Center under Mrs. Jennifer Taylor.',
       source: 'catholicnewsherald.com (2017); clubs directory',
     },
     {

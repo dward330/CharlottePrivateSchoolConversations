@@ -438,7 +438,7 @@ export const providenceDay: AfterSchoolProgram = {
 
   verdict: {
     headline:
-      'A strong TK–8 story: a nationally recognized Lower School program with the most transparent pricing in this set, plus a dedicated Middle School drop-in model many peers don’t offer.',
+      'A strong TK–8 story: a nationally recognized Lower School program with unusually transparent pricing, plus a dedicated Middle School drop-in model many peers don’t offer.',
     subhead:
       'The open questions are ratios, the Upper School gap, and the unpublished Activity Day fee — exactly what a visit answers.',
     strengths: [

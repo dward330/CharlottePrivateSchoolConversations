@@ -252,7 +252,7 @@ export const carmelChristian: ArtsProgram = {
 
   verdict: {
     headline:
-      'A theatre program with a genuine, recently converted Blumey win, sitting on a leaner music and visual-arts footprint than its regional peers.',
+      'A theatre program with a genuine, recently converted Blumey win, sitting on a leaner music and visual-arts footprint than many schools in the region.',
     subhead:
       'The 2026 Best Actress win and its Jimmy Awards advancement are the real, verified headline; the open questions are about the undocumented venue, director and honors circuits.',
     holdsUp: [

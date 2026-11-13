@@ -493,7 +493,7 @@ export const gastonDay: CollegeSupportProgram = {
     timeline: [
       {
         grade: '8',
-        intensity: 'Earliest start on the roster',
+        intensity: 'Early start',
         items: ['Individual meetings to build a **preliminary four-year course plan**'],
         note: 'Course planning precedes college planning by four years',
       },
@@ -735,7 +735,7 @@ export const gastonDay: CollegeSupportProgram = {
     points: [
       { label: 'The AP trend is real and rising', text: 'The 3+ rate went 72% → 76% → 86% → 89% → **95%** across 2021–2025, and because **every AP student must sit the exam**, that rate is not flattered by opting out.' },
       { label: 'Rank is replaced, not merely omitted', text: 'Most no-rank schools stop there. Gaston Day publishes a **five-band GPA quintile table**, a **grade distribution by department**, and **defined AP maxima** — three separate substitutes.' },
-      { label: 'Counseling starts in eighth grade', text: 'Course planning begins four years before applications, and the ~18:1 senior caseload is among the lowest on this roster.' },
+      { label: 'Counseling starts in eighth grade', text: 'Course planning begins four years before applications, and the ~18:1 senior caseload is unusually low.' },
       { label: 'The spike is institutional', text: 'A **gold-medal iGEM** team, **TSA VEX Nationals in year one**, and a **required 40-hour Capstone** mean distinctiveness is built into the program rather than left to the individual student.' },
       { label: 'The acceptance breadth is genuine', text: '**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 24 top-75 liberal arts colleges — wide range for classes of ~35.' },
       { label: 'The money is disclosed', text: 'Four years of merit-scholarship totals are published — **$3.76M for 21 students in 2025** — where many schools publish none.' },

@@ -52,7 +52,7 @@ export const providenceDay: ClubsProgram = {
     headline:
       'Nine Upper School affinity groups, each with a documented founding year. There are also Middle and Lower School groups, faculty and alumni networks, and three parent groups. All of them sit under a staffed DEI office.',
     subhead:
-      'The deepest published affinity structure in this comparison set, built out steadily from 1995 onward — though the school’s own live site no longer lists it.',
+      'An unusually deep published affinity structure, built out steadily from 1995 onward — though the school’s own live site no longer lists it.',
     umbrella: {
       name: 'Office of Equity, Inclusion & Belonging (EIB)',
       detail:

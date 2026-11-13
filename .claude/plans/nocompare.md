@@ -1,13 +1,13 @@
 ---
 name: nocompare
 title: Remove cross-school comparisons from every school page outside Sports (84 units across After School, Summer, Global Exposure, College Support, Admissions, Financial Aid, The Arts and Student Clubs), so each page says what that school publishes or does; English in two reviewed batches, then all nine prose locales
-status: not-implemented
+status: implemented
 phases: 2
 batches: 2                     # Phase 1 is built in two batches, each with its own review stop
 created: 2026-11-11
 refreshed: 2026-11-12            # census re-scanned on main at 7e4be0b9 (after plaincourses #485, coursecensus #486)
 branch: feat/nocompare
-prs: []
+prs: [488]
 ---
 
 # Remove cross-school comparisons from school pages
@@ -195,6 +195,8 @@ layers prefix the path with `clusters.` / `catalog.`). Default treatments are th
 | 24 | `trinity-episcopal:verdict.strengths[4]` | ", the latest close on this roster" | ", a late close," |
 | 79 | `charlotte-country-day:verdict.strengths[0]` (refresh) | bold "**The most granular pricing ladder here**" | "**An unusually granular pricing ladder**" (same `**` count; as #7 on the same page) |
 | 80 | `gaston-day:verdict.strengths[0]` (refresh) | bold "**The price is the lowest here.**" | "**The price is low.**" (same `**` count; "unusually low" would overreach, as #56: it is the lowest of 13; the $95/$55 a week figures that follow carry the point) |
+| 86 | `gaston-day:cost.headline` (Batch A review) | "this is among the least expensive aftercare on the roster" | **delete** (as #80): "Aftercare costs $95 a week for the Lower School and $55 for the Middle School." |
+| 87 | `gaston-day:verdict.subhead` (Batch A review) | "this is the least expensive option on the roster" | "…, the price is low; confirm the window before relying on it." (as #80) |
 | 25 | `providence-day:catalog.headline` (summer) | "The largest published slate of the six schools — " | "An unusually large published slate: 170 priced camps across nine sessions, …" |
 | 26 | `providence-day:catalog.camps[1].desc` | "— the longest published camp day at any of these schools." | "— an unusually long published camp day." |
 | 27 | `charlotte-country-day:catalog.headline` (summer) | "tier no other school here offers" | "…including a dedicated farm campus tier, which is rare." |
@@ -231,6 +233,7 @@ edits no Course Offerings file.
 | 49 | `gaston-day:verdict.points[2].text` | "is among the lowest on this roster" | "…, and the ~18:1 senior caseload is unusually low." |
 | 81 | `charlotte-christian:verdict.points[5].label` (refresh) | "A distinctive network the others do not have" | "A distinctive network few schools have" |
 | 82 | `covenant-day:edge.levers[0].items[2]` (refresh) | "— a transcript line no other Charlotte-area applicant carries" | "— a transcript line few applicants carry" |
+| 88 | `gaston-day:counseling.timeline[0].intensity` (Batch B re-scan) | "Earliest start on the roster" | "Early start" (the grade-8 row; the sibling labels are plain, e.g. "Light touch"; "unusually early" would rank against the roster) |
 | 50 | `charlotte-christian:guide.bands[0].steps[3].detail` (admissions) | "— a document the other Charlotte schools do not ask for up front." | "— a document many schools do not ask for up front." (the quote stays byte-identical) |
 | 51 | `covenant-day:guide.aid.text` | ", and it is unique among the Charlotte schools" | "There is also one unusual step you must complete first." |
 | 52 | `providence-day:sections[0].figureNote` (financial-aid-report) | "Among the schools on this site, this kind of list is published less consistently than any other item these reports track." | "Schools publish this kind of list less consistently than most other cost details." |
@@ -264,7 +267,7 @@ edits no Course Offerings file.
 | 77 | `davidson-day:service.subhead` | "The smallest school in this comparison publishes the least overall" | "A small school that publishes little overall — but its civic programming is …" |
 | 78 | `charlotte-catholic:clusters.rows[0].note` (clubClusters layer) | ", older than any competitive result shipped for another school here," | "That coverage is from 2017, so no current standing can be claimed." (nothing to rewrite: the comparison was the site's own bookkeeping) |
 
-Rows 37–49 and 81–82 are `src/data/collegeSupportPrograms/`, 50–51
+Rows 37–49, 81–82 and 88 are `src/data/collegeSupportPrograms/`, 50–51
 `src/data/admissionsPrograms/`, 52–68 and 83–84 `src/data/financialAidReports.ts`, 69–71 and 85
 `src/data/artsPrograms/`, 72–77 `src/data/clubsPrograms/`, 78 `src/data/clubClusters.ts`.
 
@@ -447,7 +450,7 @@ then Phase 1 → 2.
    - Report to the user: the review file paths, the changed units per area, the reviewer's
      findings, the by-design guard failures, the re-scan's new hits, and the pages to look at.
      After Batch A give `/implement nocompare — Batch B. Batch A English is approved<, with
-     these rulings: …>.`; after Batch B set `status: english-done` (INDEX *English shipped*)
+     these rulings: …>.`; after Batch B set `status: implemented` (INDEX *English shipped*)
      and give `/implement nocompare — Phase 2. Both English batches are approved. Run only
      Phase 2.`
 
@@ -599,9 +602,130 @@ The plan was re-scanned on `main` at `7e4be0b9` (see "Refresh" under Context). C
 The proposed full texts were measured with the hook's `analyze()`; the scripts are not
 committed. Step 2 still re-scans at each batch.
 
+### Batch A (built 2026-11-13 on `feat/nocompare`, base `df9848ca`)
+
+- **Re-scan (Step 2):** all 37 open rows present word for word; 51 other hits, all KEEP
+  (implicit, own-result "first in the nation, per the school", within-school "every other
+  row", student "peers", "here" meaning the school's own catalog). No new REMOVE from the
+  patterns.
+- **Two comparisons the patterns missed, found by the independent reviewer: rows 86 and 87**
+  (Gaston Day After School, "least expensive … on the roster"). Patterns 1–3 match "this
+  roster" / "on this roster" but not "**on the roster**". Both deleted to a plain statement,
+  as #80. **Batch B's Step 2 must also grep `\bthe roster\b`.** 39 units in Batch A.
+- **Reviewer also fixed 7 dropped spaces** after an em dash or a closing `**` in rewritten
+  headlines/strengths (the Edit tool trimmed a trailing space in `new_string`). Batch B:
+  never end an Edit `new_string` with a space.
+- **By-design guard failures:** 11 ((h) ONLY ×9, (n) count ×2), each listed with its removed
+  span in the review files. CCD `verdict.headline` "the one whose" was the second half of the
+  "in this set" superlative.
+- **`check:live` stale (Phase 2 input):** after-school 28, summer-programs 7,
+  international-travel 4 per locale (39); no other topic.
+
+### Batch A review (user, 2026-11-13)
+
+Approved as built, with no extra rulings (the `/implement` handoff's "with these rulings" slot came back unfilled).
+
+### Batch B (built 2026-11-13 on `feat/nocompare`, base `041fa929`)
+
+- **Re-scan (Step 2):** all 47 open rows present word for word; 194 other hits, all KEEP
+  except **row 88** (Gaston Day College Support "Earliest start on the roster", the
+  `\bthe roster\b` grep Batch A asked for). 48 units in Batch B.
+- **Edits applied by one script, not one Edit call per unit** (deviation from Step 3). Each
+  old span had to match exactly the expected number of times (the 990 sentence: 3) or nothing
+  was written. The hook loop over every changed file (Step 4) ran the same plain-language
+  check on the whole file, and the script avoids Batch A's trailing-space Edit slips.
+- **By-design guard failures:** 8 ((h) ONLY ×5, (h) BOUND added ×1 — Davidson Day "at most
+  schools", the plan's own hedge — and (n) "four" ×1), each listed in the review files.
+- **Independent review (Step 5) changed three Financial Aid rows from their default
+  treatment** (findings in `review-batchB-college.md`):
+  - **#52** (PD `figureNote`) → "Many schools do not publish this kind of list." The default
+    ("less consistently than most other cost details") still ranked one item against the rest,
+    now about all schools. It matches #57.
+  - **#61** (DD rate history) → the clause is **deleted** ("… since 2023–24."): "unusually
+    steady" stretched a rank among 13 schools to schools at large, the "How to remove" item 2
+    case.
+  - **#84** (Christian tuition history) → the sentence is **deleted**. "A steady tuition
+    history" drifted: the box title is "Four consecutive years recovered", so "strongest"
+    meant the most complete record, and the $850 / $1,500 / $950 steps are not steady.
+  - Not acted on: Charlotte Latin Clubs has a `gap` flag with "unlike its peers". Clubs gap
+    flags never render (`flagVisibility.ts`), so it is out of scope.
+
+- **Checks (Step 6):** `tsc -b` clean, `vite build` ok, the Step 6 list and `test:plain`
+  green. `check:live` stale only in the batch topics, per locale: college-support 16,
+  financial-aid-report 19, student-clubs 7, the-arts 4, admissions 2 (Batch B 48), plus
+  Batch A's 39 — 87 per locale, no other topic.
+- **Browser (Step 7):** all 48 units render their new text on 26 school/topic pages in headed
+  Chrome; no removed span remains. A whole-page sweep of all 13 school pages (every
+  `<details>` open, Sports included) found **two site-set comparisons outside this plan's
+  scope**, left for the user to rule on:
+  - Gaston Day Financial Aid teaser, "a 100%-of-tuition merit award is uncommon on this
+    roster", from `src/content/financial-aid-tuition/gaston-day.json` (out of scope here; this
+    generic-prose topic does render, and its translations live in the content overlay).
+  - Charlotte Catholic Sports, "Charlotte Country Day (also on this site)" (plan `plainsports`).
+
+### Batch B review and Phase 2 (2026-11-13)
+
+- **Approval.** The user: "Both English batches are approved. Run only Phase 2." Run in the
+  same window as Batch B. The Gaston Day `src/content` teaser (Batch B notes) was not ruled
+  on, so it stays out of this PR as a follow-up candidate.
+- **Splice:** identical in all nine locales. Kept stamps byte-identical everywhere.
+
+  | Topic | Kept | Added | Dropped |
+  |---|--:|--:|--:|
+  | after-school | 1,038 | 28 | 28 |
+  | summer-programs | 1,494 | 7 | 7 |
+  | international-travel | 1,192 | 4 | 4 |
+  | college-support | 1,743 | 16 | 16 |
+  | admissions | 1,131 | 2 | 2 |
+  | financial-aid-report | 947 | 18 | 19 |
+  | the-arts | 1,173 | 4 | 4 |
+  | student-clubs | 1,008 | 7 | 7 |
+
+  **86 new units per locale** (87 changed English units). The one lopsided count is by design:
+  #56's new caption "Published tuition by grade band" is byte-identical to Hickory Grove's
+  existing caption (`b0b84fdc`), so Covenant Day now shares that reviewed unit and its `at`
+  list. Every added unit paired 1:1 by `at` with its dropped predecessor.
+- **Translation.** Three parallel subagents (es/fr/it, bn/hi/te, ht/fa/ar), each in its own
+  scratch directory, revised the reviewed predecessor. The Form 990 sentence is identical
+  across its three units in each locale.
+- **Gate (hard rules vs notes, per the coursecensus lesson).** Two gate bugs were found and
+  fixed during the run, both of the "a correct translation fails" kind:
+  - the money pattern `\$[\d,.]+` swallowed trailing punctuation (`$30,000,`), which pushed the
+    ht/fa/ar agent to put a Latin comma in fa/ar `874b3341` and to reorder fa `d4e28caf`. Both
+    were restored by hand (native `،`; the predecessor's word order). The pattern is now
+    `\$\d{1,3}(?:,\d{3})*(?:\.\d+)?`;
+  - the Devanagari range matched the Bangla danda `।` (memory `danda-false-positive-trap`);
+    the script scan now strips U+0964/0965. The bn agent rightly refused to change correct
+    punctuation to pass. No bn unit holds a real Devanagari character.
+
+  Final: **86/86 pass in all nine locales.**
+- **Predecessors corrected for digit parity:** es/fa/ar "23rd" spelled as a word
+  (`2bb5afaf`), fa/ar "8th grade" spelled as a word (`71077a7e`); bn `27560d8a` had digits
+  where the English has words. One leftover English phrase fixed: fr `71077a7e` "en 8th grade"
+  → "au niveau 8", matching "au niveau 4 / 6" in the same unit.
+- **Integrity, by stamp against the `main` snapshots:** every kept stamp byte-identical (`text`
+  and `t`); all 774 new stamps non-blank. `check_work_integrity` reports 137 per locale (1,233),
+  all positional `text/of/at mutated` / `existing translation overwritten` plus the
+  `966 → 965` count from the merged caption; no foreign-script entry.
+- **Checks:** `check:live` ✓ and `check:runtime` ✓; `check:digits` 774 compared · 0 to review;
+  `check:dates`, `check:moneytext`, `check:currency`, `check:fr`, `check:hi`, `check:fa`,
+  `check:bidi`, `check:chrome` ✓; `check:sepdrift` 0 drifted ×9; `check_figures.py` intact for
+  all 8 topics ×9; `i18n:leaks` 0 flags on the 86 changed paths in every locale; `npm run
+  build` green end to end.
+- **Browser** (headed Chrome, `vite preview`, every `<details>` open, bidi isolates stripped
+  and Persian digits normalized): **86/86 units render translated in es, fa and hi**, on 42
+  school × topic pages each (a superset of the plan's four).
+- **For a native reviewer:** ht `d03c7146` ("an unusually sharp split") and `71770cc2`
+  ("mwens pase dabitid"); `81311d2f` "unusually affordable, by design" stacks two adverbs in
+  bn/hi/te; es renders the 990 sentence with "centro" because its predecessors mix "colegio"
+  and "escuela"; it `4fc5b6d3`/`cf5ef55e` keep the predecessors' "/month" and "/week".
+
 ### Candidates noticed, not acted on
 
 - Christian Financial Aid `sections[2].boxes[0].body` holds research bookkeeping: "(retrieved
   14 Sep 2026)".
 - Davidson Day Financial Aid `sections[5].boxes[0].body` "But archived copies show 2022–23
   onward" (archive provenance in prose).
+- Davidson Day Arts `theatre.honestContext`: "earlier research credited a production of
+  "Matilda Jr." to this school by mistake" (research bookkeeping in prose).
+- Cannon College Support `verdict.headline` "defences" (British spelling, outside the removed clause).

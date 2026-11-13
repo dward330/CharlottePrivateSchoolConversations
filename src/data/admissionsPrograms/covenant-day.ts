@@ -523,7 +523,7 @@ export const covenantDay: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid is **need-based** and runs through **FACTS**, with **a new application required each year**. There is also one step you must complete first, and it is unique among the Charlotte schools. To be eligible for aid from Covenant Day, **families must first provide proof of application for the NC Opportunity Scholarship**. File the aid application **at the same time as the admissions application**, not after a decision. Enrollment carries a **$1,000 non-refundable deposit** per student, applied toward tuition. **The FACTS application fee and any reduced deposit for aid applicants are not published**.',
+      text: 'Aid is **need-based** and runs through **FACTS**, with **a new application required each year**. There is also one unusual step you must complete first. To be eligible for aid from Covenant Day, **families must first provide proof of application for the NC Opportunity Scholarship**. File the aid application **at the same time as the admissions application**, not after a decision. Enrollment carries a **$1,000 non-refundable deposit** per student, applied toward tuition. **The FACTS application fee and any reduced deposit for aid applicants are not published**.',
       button: 'Financial Aid & Tuition',
     },
 

@@ -860,7 +860,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'Where it reaches the application',
-        text: 'Uniquely among the schools here, the ERP explicitly **“assists in requesting accommodations with the College Board, ACT, and IB”** — the hand-off into admissions testing is stated rather than left implicit.',
+        text: 'Unusually, the ERP explicitly **“assists in requesting accommodations with the College Board, ACT, and IB”** — the hand-off into admissions testing is stated rather than left implicit.',
       },
     ],
     middle: [

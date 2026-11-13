@@ -744,8 +744,8 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       ],
       boxes: [
         {
-          title: 'A requirement unique in this series — and since withdrawn',
-          body: 'Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**. Applications for that state program opened 2 February. No other school on this site made its own aid application depend on a state application. **It no longer applies**: the school\'s live tuition page (retrieved 14 Sep 2026) does not mention it. That fits the school\'s own note that NC Opportunity Scholarship participation ends after 2025–26.',
+          title: 'An unusual requirement — and since withdrawn',
+          body: 'Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**. Applications for that state program opened 2 February. Few schools make their own aid application depend on a state application. **It no longer applies**: the school\'s live tuition page (retrieved 14 Sep 2026) does not mention it. That fits the school\'s own note that NC Opportunity Scholarship participation ends after 2025–26.',
         },
         {
           tag: 'DOCUMENTATION HAZARD',
@@ -853,7 +853,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           title: 'Four consecutive years recovered',
-          body: 'The strongest tuition history of the four schools in this series. Every band rose **$850** into 2024–25, **$1,500** into 2025–26 and **$950** into 2026–27 — a flat dollar increment each time, totaling **+$3,300** per band, or 18.33% at the lowest band against 13.89% at the highest.',
+          body: 'Every band rose **$850** into 2024–25, **$1,500** into 2025–26 and **$950** into 2026–27 — a flat dollar increment each time, totaling **+$3,300** per band, or 18.33% at the lowest band against 13.89% at the highest.',
         },
         {
           tag: 'THE REACH GAP',
@@ -909,7 +909,7 @@ const COVENANT_DAY: FinancialAidReport = {
       navTitle: 'Tuition by Band',
       title: 'Tuition by Grade Level',
       confidence: 95,
-      figureCaption: 'Published tuition by grade band — the lowest top rate in this comparison',
+      figureCaption: 'Published tuition by grade band',
       bands: [
         { label: 'JK & K', amount: 15490, prior: 14290, delta: '+8.4%' },
         { label: 'Grades 1–5', amount: 17790, prior: 16590, delta: '+7.2%' },
@@ -919,7 +919,7 @@ const COVENANT_DAY: FinancialAidReport = {
       figureNote:
         'Four bands from junior kindergarten through grade 12, a $7,300 spread. The rise from 2025–26 was a flat $1,200 at every band — a dollar increase, not a percentage one, which is why the youngest band shows the steepest percent change.',
       figureNote2:
-        'The school states what tuition includes: on-campus computers/iPads · technology expenses · school retreats and required field trips · science lab and elective fees · most athletic expenses. Several other schools on this site do not publish a list like this.',
+        'The school states what tuition includes: on-campus computers/iPads · technology expenses · school retreats and required field trips · science lab and elective fees · most athletic expenses. Many schools do not publish a list like this.',
       source:
         'covenantday.org — Tuition & Financial Aid (2026-27 table); 2025-2026 Tuition Payment Terms and Conditions PDF, retrieved 15 Aug 2026',
     },
@@ -961,7 +961,7 @@ const COVENANT_DAY: FinancialAidReport = {
         },
         {
           when: 'Prerequisite',
-          detail: 'Proof of application for the **NC Opportunity Scholarship** is mandatory before any CDS aid is considered — a hard gate no peer school here imposes',
+          detail: 'Proof of application for the **NC Opportunity Scholarship** is mandatory before any CDS aid is considered — a hard gate few schools impose',
           emphasis: true,
         },
         {
@@ -1000,7 +1000,7 @@ const COVENANT_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
+          body: 'Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. When a school files a Form 990, its aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
         },
       ],
       source:
@@ -1080,7 +1080,7 @@ const COVENANT_DAY: FinancialAidReport = {
       confidence: 60,
       stats: [
         { value: '+$1,200', label: 'flat increase at every band, 2025–26 → 2026–27' },
-        { value: '$22,790', label: 'top band — the lowest top tuition in this comparison' },
+        { value: '$22,790', label: 'top band' },
         { value: '2 yrs', label: 'of published rates (website + terms PDF)' },
       ],
       questionsTitle: 'Questions the public record cannot answer',
@@ -1319,7 +1319,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'FOUR YEARS, FROM THE ARCHIVE',
-          body: 'The school publishes no rate history, because each year\'s table replaces the one before. But archived copies show 2022–23 onward. Every division has risen a near-flat **~4.5% a year** since 2023–24, one of the steadiest patterns among the schools on this site. Early Childhood years are left out of the run above, because the number of years a child spends in that band varies.',
+          body: 'The school publishes no rate history, because each year\'s table replaces the one before. But archived copies show 2022–23 onward. Every division has risen a near-flat **~4.5% a year** since 2023–24. Early Childhood years are left out of the run above, because the number of years a child spends in that band varies.',
         },
         {
           tag: 'A COMPARISON TRAP IN THE EARLY YEARS',
@@ -1681,7 +1681,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Grades 6–12', amount: 36325 },
       ],
       figureNote:
-        'Four bands cover all fourteen grade levels from TK through Grade 12, with no gap and no overlap. TK and Kindergarten each have their own price, Grades 1–5 share one rate, and Grades 6–12 share another. The school lists what tuition includes: student iPads and all technology · all textbooks (including A.P. textbooks) · A.P. exam fees · most class field trips · all Lower School student supplies. Among the schools on this site, this kind of list is published less consistently than any other item these reports track.',
+        'Four bands cover all fourteen grade levels from TK through Grade 12, with no gap and no overlap. TK and Kindergarten each have their own price, Grades 1–5 share one rate, and Grades 6–12 share another. The school lists what tuition includes: student iPads and all technology · all textbooks (including A.P. textbooks) · A.P. exam fees · most class field trips · all Lower School student supplies. Many schools do not publish this kind of list.',
       figureNote2:
         'The page notes tuition is subject to change for 2027–28.',
       boxes: [{ tag: 'NOT PUBLISHED', title: 'Tuition-table specifics', body: '' }],
@@ -2059,7 +2059,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Carmel Christian is a ministry of Carmel Baptist Church. As a church-affiliated organization, it is **not required to file Form 990**, and ProPublica returns no filing for the school itself. Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
+          body: 'Carmel Christian is a ministry of Carmel Baptist Church. As a church-affiliated organization, it is **not required to file Form 990**, and ProPublica returns no filing for the school itself. When a school files a Form 990, its aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
         },
         {
           tag: 'A RELATED ENTITY — NOT SCHOOL AID',
@@ -2254,7 +2254,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
-          body: 'Hickory Grove Christian is a ministry of **Hickory Grove Baptist Church**. As a church-affiliated organization, it is **not required to file Form 990**, and ProPublica returns no filing for the church as a school operator. Most other schools on this site file a Form 990, so their aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
+          body: 'Hickory Grove Christian is a ministry of **Hickory Grove Baptist Church**. As a church-affiliated organization, it is **not required to file Form 990**, and ProPublica returns no filing for the church as a school operator. When a school files a Form 990, its aid totals can be checked against a return. Here there is **no filing to check**. The gap comes from how the school is set up, not from a page that has yet to be found.',
         },
         {
           tag: 'STATE VOUCHERS — NOT SCHOOL AID',
@@ -2432,7 +2432,7 @@ const GASTON_DAY: FinancialAidReport = {
       timeline: [
         {
           when: 'Step 1',
-          detail: 'Create an account with **Clarity**, not FACTS or SSS. Clarity is the aid platform most schools on this site use.',
+          detail: 'Create an account with **Clarity**, not FACTS or SSS. Clarity is a widely used aid platform.',
         },
         {
           when: 'Step 2',
@@ -2484,7 +2484,7 @@ const GASTON_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'The 80% ceiling is the most useful published number',
-          body: 'The school states aid of **up to 80% of tuition** for Kindergarten through grade 12. That is a real ceiling a family can plan against, and few schools on this roster publish one at all.',
+          body: 'The school states aid of **up to 80% of tuition** for Kindergarten through grade 12. That is a real ceiling a family can plan against, and few schools publish one at all.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -2554,7 +2554,7 @@ const GASTON_DAY: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'This is the thinnest section of Gaston Day’s public record. None of these appears anywhere on the public site: plan names · an installment schedule · plan fees · a card-processing surcharge · a deposit amount · a late-payment policy · withdrawal or refund terms · a tuition-insurance or refund-plan option. Most other schools on this site publish at least the number of installments.',
+          body: 'This is the thinnest section of Gaston Day’s public record. None of these appears anywhere on the public site: plan names · an installment schedule · plan fees · a card-processing surcharge · a deposit amount · a late-payment policy · withdrawal or refund terms · a tuition-insurance or refund-plan option. Many schools publish at least the number of installments.',
         },
       ],
       source:
@@ -2621,7 +2621,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         { label: 'High International', amount: 23562 },
       ],
       figureNote:
-        'No other school on this site prices tuition this way: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041**, and a community family pays **$21,562**, for the same seat in the same classroom. That is a **$6,521 difference, roughly 30%**. CCHS is a 9–12 school, so there is no ladder of grade bands at all. These three rows are the entire schedule.',
+        'Few schools price tuition this way: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041**, and a community family pays **$21,562**, for the same seat in the same classroom. That is a **$6,521 difference, roughly 30%**. CCHS is a 9–12 school, so there is no ladder of grade bands at all. These three rows are the entire schedule.',
       figureNote2:
         'The International rate applies to students requiring an I-20. The **$21,562** community rate is the figure to compare against other schools\' published tuition, since it is the price to a family with no parish affiliation.',
       source: 'discovermacs.org — Tuition & Affordability, retrieved 18 Aug 2026',
@@ -2674,7 +2674,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       boxes: [
         {
           title: 'Platform — Clarity, not FACTS',
-          body: 'Need is assessed through the **Clarity** application (**$65** fee). **FACTS appears in this system only as the payment processor**, not as the tool that assesses need. That is an easy mix-up with real consequences, because some other schools on this site use FACTS Grant & Aid to assess need. **TADS is not used.**',
+          body: 'Need is assessed through the **Clarity** application (**$65** fee). **FACTS appears in this system only as the payment processor**, not as the tool that assesses need. That is an easy mix-up with real consequences, because some schools use FACTS Grant & Aid to assess need. **TADS is not used.**',
         },
         {
           title: 'Family Individualized Tuition (FIT)',
@@ -2869,7 +2869,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         { label: 'Grade 8', amount: 1045 },
       ],
       figureNote:
-        'Trinity prices the activity fee **per grade**, one of very few schools on this roster to do so. It runs from **$210** in Kindergarten to **$1,045** in 8th grade, rising at grade 4 (**$545**) and again at grade 6 (**$965**). What the fee buys is not stated.',
+        'Trinity prices the activity fee **per grade**, which few schools do. It runs from **$210** in Kindergarten to **$1,045** in 8th grade, rising at grade 4 (**$545**) and again at grade 6 (**$965**). What the fee buys is not stated.',
       componentsTitle: 'What sits outside tuition',
       components: [
         { label: 'Activity fee — per grade · $210 to $1,045', status: 'priced' },
@@ -2955,7 +2955,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         { value: '$11.09M', label: 'operating budget, 2026-27' },
       ],
       figureNote:
-        'A genuine three-point series, which few schools on this roster publish: **26% / $2.1 million in 2023-24**, **29% / $2 million in 2025-26**, and **31% / $2,139,114 in 2026-27**. The share has risen steadily while the dollar total dipped and recovered. The 2026-27 figures carry the school\'s own qualifier, "**(excludes Tuition Remission)**" — employee tuition benefits sit outside this number.',
+        'A genuine three-point series, which few schools publish: **26% / $2.1 million in 2023-24**, **29% / $2 million in 2025-26**, and **31% / $2,139,114 in 2026-27**. The share has risen steadily while the dollar total dipped and recovered. The 2026-27 figures carry the school\'s own qualifier, "**(excludes Tuition Remission)**" — employee tuition benefits sit outside this number.',
       figureNote2:
         'The 2025-26 School Profile says "28.9%" where the tuition page said "29%" for the same year; the whole-number form is used here. Reported aid is school-wide only — there is no split by grade band, and no separate figure for K–5 against 6–8.',
       // No boxes (user, 2026-09-17). All three were apparatus about the

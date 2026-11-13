@@ -23,7 +23,7 @@ import type { SummerProgram } from '../summerPrograms.ts'
 export const charlotteCountryDay: SummerProgram = {
   catalog: {
     headline:
-      '132 priced camps across eight weeks, including a dedicated farm campus tier no other school here offers.',
+      '132 priced camps across eight weeks, including a dedicated farm campus tier, which is rare.',
     subhead:
       'The season runs June 1 to July 24, 2026. Two of the eight weeks are shortened — for Juneteenth and for July 3 — and are priced down.',
     intro:
@@ -50,7 +50,7 @@ export const charlotteCountryDay: SummerProgram = {
       /* --------------------------------------------------- the farm campus -- */
       {
         name: 'Farm Camp',
-        desc: 'On the school’s own farm — the tier that sets Country Day apart from the other five schools here.',
+        desc: 'On the school’s own farm, a rare setting for a summer camp.',
         category: 'farm',
         categoryLabel: 'Full Day - Farm',
         grades: ['k2', 'g35'],
@@ -1076,7 +1076,7 @@ export const charlotteCountryDay: SummerProgram = {
         label: 'Full day — Farm',
         panelLabel: 'Farm campus camp · 9 am–4 pm',
         price: 600,
-        detail: 'The farm campus premium — a tier no other school here has.',
+        detail: 'The farm campus premium — a rare tier.',
       },
     ],
     addons: [

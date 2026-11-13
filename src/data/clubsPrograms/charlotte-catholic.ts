@@ -37,7 +37,7 @@ export const charlotteCatholic: ClubsProgram = {
   affinity: {
     headline: '76 clubs in six categories, nearly all with a named advisor and a room.',
     subhead:
-      'The directory is one of the most transparent on this roster — most entries publish a written purpose, a staff advisor and where the club actually meets.',
+      'The directory is unusually transparent: most entries publish a written purpose, a staff advisor and where the club actually meets.',
     umbrella: {
       name: 'Campus Ministry',
       detail:

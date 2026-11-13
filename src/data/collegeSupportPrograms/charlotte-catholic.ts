@@ -432,7 +432,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'No AP Scholar tier counts are published. Instead, the profile gives results by exam (94% scoring 3+ across 1,184 exams in 2026). That tells you more. But it means the Scholar/Scholar with Distinction ledger other schools show cannot be built here.',
+        text: 'No AP Scholar tier counts are published. Instead, the profile gives results by exam (94% scoring 3+ across 1,184 exams in 2026). That tells you more. But it means the Scholar/Scholar with Distinction ledger many school profiles show cannot be shown for this school.',
       },
       {
         kind: 'verify',
@@ -703,7 +703,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
   verdict: {
     headline: 'A large, transparent, athletically dominant Catholic high school that publishes more than most.',
     subhead:
-      'The profile answers the questions a family actually asks — and the tuition structure answers one no other school on this roster raises.',
+      'The profile answers the questions a family actually asks — and the tuition structure answers one few schools raise.',
     points: [
       { label: 'The disclosure is genuinely strong', text: 'A **10-decile GPA chart including the bottom decile**, stated load norms, an explicit no-rank policy and exam-level AP performance. Most schools publish less and frame it more favorably.' },
       { label: 'The AP rate cannot be flattered', text: '**94% of scores at 3+** across **1,184 exams** in 2026 covers every AP student, because **the exam is mandatory in every AP course**. Weaker students cannot be quietly left out of the count.' },

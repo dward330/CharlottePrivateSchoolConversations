@@ -23,7 +23,7 @@ export const covenantDay: ArtsProgram = {
     headline:
       'A JK–12 ladder with a worship-music spine: art integrated from junior kindergarten, sequential from grade 1, ensembles from grade 6.',
     subhead:
-      'One Fine Arts credit is required to graduate, and worship bands run at both middle and high school — a rung no other school here has.',
+      'One Fine Arts credit is required to graduate, and worship bands run at both middle and high school — a rung few schools have.',
     stats: [
       { value: 'JK–12', label: 'program span' },
       { value: '9', label: 'named ensembles' },
@@ -182,7 +182,7 @@ export const covenantDay: ArtsProgram = {
         text: 'Intro → Art 2/3 → Honors Studio → AP Studio Art, with the AP exhibit (Art Talk) and an all-school show (ArtWalk) where the work is actually seen.',
       },
       {
-        label: 'The worship-music spine is unique here',
+        label: 'A worship-music spine few schools have',
         text: 'Credit-bearing Worship Leadership plus worship bands in both divisions — the school’s church-ministry identity expressed in the curriculum itself.',
       },
       {

@@ -438,7 +438,7 @@ export const davidsonDay: InternationalTravelProgram = {
       "Where the program stands out, and thirteen questions the school's website doesn't answer yet — trip costs, aid, grades and safety.",
     standsOut: {
       summary:
-        "Davidson Day's global program is unlike any other school's here: its travel is archaeology research, not touring. Students dig with professionals in Spain, Portugal and Belize. They present their findings at university conferences. The digs and conferences are part of a two-year Upper School research distinction.",
+        "Davidson Day's global program is unusual: its travel is archaeology research, not touring. Students dig with professionals in Spain, Portugal and Belize. They present their findings at university conferences. The digs and conferences are part of a two-year Upper School research distinction.",
       points: [
         'Summer field research at three active sites, one of them on record for 20 seasons',
         'Student research presented at Mount Royal University — 10 students in fall 2024',

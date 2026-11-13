@@ -21,7 +21,7 @@ const frac = (hour: number, minute = 0) => (hour + minute / 60 - 13) / 5
 export const charlotteCountryDay: AfterSchoolProgram = {
   coverage: {
     headline:
-      'Extended Day covers JK through grade 8 to 6:00 p.m., with five separate pickup tiers — the finest-grained coverage ladder of any school here.',
+      'Extended Day covers JK through grade 8 to 6:00 p.m., with five separate pickup tiers — an unusually fine-grained coverage ladder.',
     subhead:
       'Upper School has no Extended Day at all, and no before-school care is published for the school year. The unusually early 1:15 p.m. JK dismissal is backstopped by its own 2:00 p.m. tier.',
     hours: ['1 pm', '2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
@@ -354,11 +354,11 @@ export const charlotteCountryDay: AfterSchoolProgram = {
 
   verdict: {
     headline:
-      'The most flexible and most transparently priced after-school program in this set — and the one whose enrichment offering you cannot actually see before you enroll.',
+      'An unusually flexible, transparently priced after-school program, but its enrichment offering cannot be seen before you enroll.',
     subhead:
       'Coverage stops hard at grade 8, the cost curve is steep at the top, and Extended Day appears to sit outside financial aid.',
     strengths: [
-      '**The most granular pricing ladder here** — 13 rows across five pickup times and five day-counts. A JK family needing 2:00 p.m. coverage twice a week pays $115/month, not a flat care fee.',
+      '**An unusually granular pricing ladder** — 13 rows across five pickup times and five day-counts. A JK family needing 2:00 p.m. coverage twice a week pays $115/month, not a flat care fee.',
       '**A full rate card on the open web.** Contract, drop-in, late and change fees are all published — no "call for pricing".',
       '**Built for working parents by design**, and the school says so: "more than 50 percent of our two-parent families are dual income".',
       '**Enrichment starts at the dismissal bell** for every division, with published per-grade ratios — no dead gap between school and activity.',

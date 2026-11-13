@@ -293,7 +293,7 @@ export const covenantDay: SummerProgram = {
       },
       {
         name: 'College Admissions',
-        desc: 'A high-school week run against the guidance office’s calendar — the rare HS academic camp in this set.',
+        desc: 'A high-school week run against the guidance office’s calendar — a rare high-school academic camp.',
         category: 'academic',
         categoryLabel: 'STEM & Academics',
         grades: ['hs'],

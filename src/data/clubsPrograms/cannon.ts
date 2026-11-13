@@ -134,7 +134,7 @@ export const cannon: ClubsProgram = {
 
   honors: {
     headline:
-      'Twelve honor societies — the widest span in this comparison, reaching social studies, mathematics, English, journalism, three arts and three world languages.',
+      'Twelve honor societies — an unusually wide span, reaching social studies, mathematics, English, journalism, three arts and three world languages.',
     subhead:
       'These are outcomes of achievement elsewhere in the program — a student earns their way in; nobody signs up.',
     societies: [

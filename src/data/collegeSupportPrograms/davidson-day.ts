@@ -803,7 +803,7 @@ export const davidsonDay: CollegeSupportProgram = {
     headline:
       'A small, program-rich school whose strengths are process, access and spike-building — and whose weakness is disclosure.',
     subhead:
-      'Every verdict point below is about what the school does. A family that evaluates schools on published outcome metrics will find less here than anywhere else in this set, which puts the burden of verification on the tour.',
+      'Every verdict point below is about what the school does. A family that evaluates schools on published outcome metrics will find less here than at most schools, which puts the burden of verification on the tour.',
     points: [
       {
         label: 'The spike machinery is real and credited',

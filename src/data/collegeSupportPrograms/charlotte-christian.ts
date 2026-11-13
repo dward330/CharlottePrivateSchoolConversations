@@ -543,7 +543,7 @@ export const charlotteChristian: CollegeSupportProgram = {
         grade: '11',
         intensity: 'In earnest',
         items: ['**Junior Seminar** — a required, graded 0.5-credit course', '**Mock admission committee** exercise inside the course', '**Two mandatory college visits**'],
-        note: 'The most structured junior-year requirement in this set',
+        note: 'An unusually structured junior-year requirement',
       },
       {
         grade: '12',
@@ -737,7 +737,7 @@ export const charlotteChristian: CollegeSupportProgram = {
 
   verdict: {
     headline:
-      'A demanding, open transcript: required AP exams, a full published quintile table, and published AP exam and Scholar counts. It comes with the thinnest learning-support disclosure among the schools on this site.',
+      'A demanding, open transcript: required AP exams, a full published quintile table, and published AP exam and Scholar counts. It publishes unusually little about learning support.',
     subhead:
       'The academic reporting is unusually honest. The gaps are concentrated in exactly one place, which makes the tour questions easy to aim.',
     points: [
@@ -762,7 +762,7 @@ export const charlotteChristian: CollegeSupportProgram = {
         text: 'it is noted on the transcript, so the credential lands in the admissions file rather than only on a résumé.',
       },
       {
-        label: 'A distinctive network the others do not have',
+        label: 'A distinctive network few schools have',
         text: 'NACCAP membership plus named Christian-college and HBCU tiers, with 14% of graduates actually enrolling at a Christian college and confirmed pipelines to Wheaton, Liberty, Samford and Baylor.',
       },
     ],
