@@ -7,7 +7,7 @@ batches: 2                     # Phase 1 is built in two batches, each with its 
 created: 2026-11-11
 refreshed: 2026-11-12            # census re-scanned on main at 7e4be0b9 (after plaincourses #485, coursecensus #486)
 branch: feat/nocompare
-prs: []
+prs: [488]
 ---
 
 # Remove cross-school comparisons from school pages
