@@ -5,12 +5,12 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
-      "text": "The largest published slate of the six schools — 170 priced camps across nine sessions, from a $255 four-day half-day to a $1,275 three-week musical production.",
-      "of": "bc27ba30",
+      "text": "An unusually large published slate: 170 priced camps across nine sessions, from a $255 four-day half-day to a $1,275 three-week musical production.",
+      "of": "27560d8a",
       "at": [
         "providence-day:catalog.headline"
       ],
-      "t": "ছয়টি স্কুলের মধ্যে সবচেয়ে বড় প্রকাশিত তালিকা — নয়টি সেশনজুড়ে দাম দেওয়া 170টি ক্যাম্প, $255-এর 4 দিনের অর্ধদিবস থেকে শুরু করে $1,275-এর 3 সপ্তাহের সংগীত-নাট্য প্রযোজনা পর্যন্ত।"
+      "t": "অস্বাভাবিক রকম বড় একটি প্রকাশিত তালিকা: নয়টি সেশনজুড়ে দাম দেওয়া 170টি ক্যাম্প, $255-এর চার দিনের অর্ধদিবস থেকে শুরু করে $1,275-এর তিন সপ্তাহের সংগীত-নাট্য প্রযোজনা পর্যন্ত।"
     },
     {
       "text": "Nine sessions run June 1 to July 31, 2026. Two of them are four-day weeks (no camps June 19 or July 3) and are priced down accordingly.",
@@ -649,12 +649,12 @@
       "t": "সেশন S1, S2, S6, S8, S9"
     },
     {
-      "text": "The same camp on extended hours — the longest published camp day at any of these schools.",
-      "of": "c92a0a38",
+      "text": "The same camp on extended hours — an unusually long published camp day.",
+      "of": "9bec07cc",
       "at": [
         "providence-day:catalog.camps[1].desc"
       ],
-      "t": "একই ক্যাম্প, বর্ধিত সময়ে — এই স্কুলগুলোর মধ্যে সবচেয়ে দীর্ঘ প্রকাশিত ক্যাম্প-দিবস।"
+      "t": "একই ক্যাম্প, বর্ধিত সময়ে — অস্বাভাবিক রকম দীর্ঘ একটি প্রকাশিত ক্যাম্প-দিবস।"
     },
     {
       "text": "8am–5pm",
@@ -6339,12 +6339,12 @@
       "t": "সারাদিনের বা আগে-পরে মিলিয়ে কোনো সেবার ব্যবস্থা নেই: প্রতিটি ক্যাম্পই তিন থেকে চার ঘণ্টার অর্ধদিবস। MACS-এর 8am–5pm গ্রীষ্মকালীন ক্যাম্পটি অন্য স্কুলের কর্মসূচি (St. Matthew ও St. Patrick, 5 বছর থেকে উত্তীর্ণ 6ষ্ঠ শ্রেণি) এবং তা CCHS-এর বলে ধরা হয়নি।"
     },
     {
-      "text": "132 priced camps across eight weeks, including a dedicated farm campus tier no other school here offers.",
-      "of": "d30992bb",
+      "text": "132 priced camps across eight weeks, including a dedicated farm campus tier, which is rare.",
+      "of": "c744e910",
       "at": [
         "charlotte-country-day:catalog.headline"
       ],
-      "t": "আট সপ্তাহজুড়ে দাম দেওয়া 132টি ক্যাম্প, যার মধ্যে আছে খামার ক্যাম্পাসের আলাদা একটি ধরন — এখানকার আর কোনো স্কুলে যা নেই।"
+      "t": "আট সপ্তাহজুড়ে দাম দেওয়া 132টি ক্যাম্প, যার মধ্যে আছে খামার ক্যাম্পাসের আলাদা একটি ধরন — যা বিরল।"
     },
     {
       "text": "The season runs June 1 to July 24, 2026. Two of the eight weeks are shortened — for Juneteenth and for July 3 — and are priced down.",
@@ -6473,12 +6473,12 @@
       "t": "K–2"
     },
     {
-      "text": "On the school’s own farm — the tier that sets Country Day apart from the other five schools here.",
-      "of": "3fd03b72",
+      "text": "On the school’s own farm, a rare setting for a summer camp.",
+      "of": "2c4a26b2",
       "at": [
         "charlotte-country-day:catalog.camps[0].desc"
       ],
-      "t": "স্কুলের নিজস্ব খামারে — এই ধরনটিই Country Day-কে এখানকার বাকি পাঁচটি স্কুল থেকে আলাদা করে।"
+      "t": "স্কুলের নিজস্ব খামারে — গ্রীষ্মকালীন ক্যাম্পের জন্য বিরল একটি পরিবেশ।"
     },
     {
       "text": "Full Day - Farm",
@@ -8077,12 +8077,12 @@
       "t": "খামার ক্যাম্পাসের ক্যাম্প · 9 am–4 pm"
     },
     {
-      "text": "The farm campus premium — a tier no other school here has.",
-      "of": "de7f8936",
+      "text": "The farm campus premium — a rare tier.",
+      "of": "9618dcbf",
       "at": [
         "charlotte-country-day:costPlanner.tiers[6].detail"
       ],
-      "t": "খামার ক্যাম্পাসের প্রিমিয়াম — এখানকার আর কোনো স্কুলে এই ধরনটি নেই।"
+      "t": "খামার ক্যাম্পাসের প্রিমিয়াম — একটি বিরল ধরন।"
     },
     {
       "text": "Morning Care 7:30–9 am",
@@ -9566,12 +9566,12 @@
       "t": "বিবরণপত্রে *Adventure Camp*-এর উল্লেখ আছে, তবে 2026 সালে কোথায় যাওয়া হবে তার নাম নেই। 2024 সালে এটি গিয়েছিল US National Whitewater Center ও Crowders Mountain-এ; **সেগুলোই 2026 সালের গন্তব্য কি না, তা নিশ্চিত নয়।**"
     },
     {
-      "text": "Camp Cannon is the only one of these programs that takes a deposit — 50% at registration, the balance due May 15.",
-      "of": "edfc850f",
+      "text": "Camp Cannon takes a deposit: 50% at registration, the balance due May 15.",
+      "of": "80151100",
       "at": [
         "cannon:costPlanner.headline"
       ],
-      "t": "এই কর্মসূচিগুলোর মধ্যে একমাত্র Camp Cannon-ই অগ্রিম জমা নেয় — নিবন্ধনের সময় 50%, বাকিটা 15 মে-এর মধ্যে।"
+      "t": "Camp Cannon অগ্রিম জমা নেয়: নিবন্ধনের সময় 50%, বাকিটা 15 মে-এর মধ্যে।"
     },
     {
       "text": "Seven weeks are available. Week 2 is a four-day week and every tier drops for it: $180.00 and $196.00 half-day, $392.00 all-day.",
@@ -10189,12 +10189,12 @@
       "t": "STEM সপ্তাহ।"
     },
     {
-      "text": "A high-school week run against the guidance office’s calendar — the rare HS academic camp in this set.",
-      "of": "84c5fdd7",
+      "text": "A high-school week run against the guidance office’s calendar — a rare high-school academic camp.",
+      "of": "86fd317c",
       "at": [
         "covenant-day:catalog.camps[19].desc"
       ],
-      "t": "guidance অফিসের ক্যালেন্ডার ধরে চলা একটি হাই-স্কুল সপ্তাহ — এই তালিকায় বিরল HS একাডেমিক ক্যাম্প।"
+      "t": "guidance অফিসের ক্যালেন্ডার ধরে চলা একটি হাই-স্কুল সপ্তাহ — একটি বিরল হাই-স্কুল একাডেমিক ক্যাম্প।"
     },
     {
       "text": "HS",

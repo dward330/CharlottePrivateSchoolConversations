@@ -1,7 +1,7 @@
 ---
 name: nocompare
 title: Remove cross-school comparisons from every school page outside Sports (84 units across After School, Summer, Global Exposure, College Support, Admissions, Financial Aid, The Arts and Student Clubs), so each page says what that school publishes or does; English in two reviewed batches, then all nine prose locales
-status: english-done
+status: implemented
 phases: 2
 batches: 2                     # Phase 1 is built in two batches, each with its own review stop
 created: 2026-11-11
@@ -450,7 +450,7 @@ then Phase 1 → 2.
    - Report to the user: the review file paths, the changed units per area, the reviewer's
      findings, the by-design guard failures, the re-scan's new hits, and the pages to look at.
      After Batch A give `/implement nocompare — Batch B. Batch A English is approved<, with
-     these rulings: …>.`; after Batch B set `status: english-done` (INDEX *English shipped*)
+     these rulings: …>.`; after Batch B set `status: implemented` (INDEX *English shipped*)
      and give `/implement nocompare — Phase 2. Both English batches are approved. Run only
      Phase 2.`
 
@@ -662,6 +662,63 @@ Approved as built, with no extra rulings (the `/implement` handoff's "with these
     roster", from `src/content/financial-aid-tuition/gaston-day.json` (out of scope here; this
     generic-prose topic does render, and its translations live in the content overlay).
   - Charlotte Catholic Sports, "Charlotte Country Day (also on this site)" (plan `plainsports`).
+
+### Batch B review and Phase 2 (2026-11-13)
+
+- **Approval.** The user: "Both English batches are approved. Run only Phase 2." Run in the
+  same window as Batch B. The Gaston Day `src/content` teaser (Batch B notes) was not ruled
+  on, so it stays out of this PR as a follow-up candidate.
+- **Splice:** identical in all nine locales. Kept stamps byte-identical everywhere.
+
+  | Topic | Kept | Added | Dropped |
+  |---|--:|--:|--:|
+  | after-school | 1,038 | 28 | 28 |
+  | summer-programs | 1,494 | 7 | 7 |
+  | international-travel | 1,192 | 4 | 4 |
+  | college-support | 1,743 | 16 | 16 |
+  | admissions | 1,131 | 2 | 2 |
+  | financial-aid-report | 947 | 18 | 19 |
+  | the-arts | 1,173 | 4 | 4 |
+  | student-clubs | 1,008 | 7 | 7 |
+
+  **86 new units per locale** (87 changed English units). The one lopsided count is by design:
+  #56's new caption "Published tuition by grade band" is byte-identical to Hickory Grove's
+  existing caption (`b0b84fdc`), so Covenant Day now shares that reviewed unit and its `at`
+  list. Every added unit paired 1:1 by `at` with its dropped predecessor.
+- **Translation.** Three parallel subagents (es/fr/it, bn/hi/te, ht/fa/ar), each in its own
+  scratch directory, revised the reviewed predecessor. The Form 990 sentence is identical
+  across its three units in each locale.
+- **Gate (hard rules vs notes, per the coursecensus lesson).** Two gate bugs were found and
+  fixed during the run, both of the "a correct translation fails" kind:
+  - the money pattern `\$[\d,.]+` swallowed trailing punctuation (`$30,000,`), which pushed the
+    ht/fa/ar agent to put a Latin comma in fa/ar `874b3341` and to reorder fa `d4e28caf`. Both
+    were restored by hand (native `،`; the predecessor's word order). The pattern is now
+    `\$\d{1,3}(?:,\d{3})*(?:\.\d+)?`;
+  - the Devanagari range matched the Bangla danda `।` (memory `danda-false-positive-trap`);
+    the script scan now strips U+0964/0965. The bn agent rightly refused to change correct
+    punctuation to pass. No bn unit holds a real Devanagari character.
+
+  Final: **86/86 pass in all nine locales.**
+- **Predecessors corrected for digit parity:** es/fa/ar "23rd" spelled as a word
+  (`2bb5afaf`), fa/ar "8th grade" spelled as a word (`71077a7e`); bn `27560d8a` had digits
+  where the English has words. One leftover English phrase fixed: fr `71077a7e` "en 8th grade"
+  → "au niveau 8", matching "au niveau 4 / 6" in the same unit.
+- **Integrity, by stamp against the `main` snapshots:** every kept stamp byte-identical (`text`
+  and `t`); all 774 new stamps non-blank. `check_work_integrity` reports 137 per locale (1,233),
+  all positional `text/of/at mutated` / `existing translation overwritten` plus the
+  `966 → 965` count from the merged caption; no foreign-script entry.
+- **Checks:** `check:live` ✓ and `check:runtime` ✓; `check:digits` 774 compared · 0 to review;
+  `check:dates`, `check:moneytext`, `check:currency`, `check:fr`, `check:hi`, `check:fa`,
+  `check:bidi`, `check:chrome` ✓; `check:sepdrift` 0 drifted ×9; `check_figures.py` intact for
+  all 8 topics ×9; `i18n:leaks` 0 flags on the 86 changed paths in every locale; `npm run
+  build` green end to end.
+- **Browser** (headed Chrome, `vite preview`, every `<details>` open, bidi isolates stripped
+  and Persian digits normalized): **86/86 units render translated in es, fa and hi**, on 42
+  school × topic pages each (a superset of the plan's four).
+- **For a native reviewer:** ht `d03c7146` ("an unusually sharp split") and `71770cc2`
+  ("mwens pase dabitid"); `81311d2f` "unusually affordable, by design" stacks two adverbs in
+  bn/hi/te; es renders the 990 sentence with "centro" because its predecessors mix "colegio"
+  and "escuela"; it `4fc5b6d3`/`cf5ef55e` keep the predecessors' "/month" and "/week".
 
 ### Candidates noticed, not acted on
 

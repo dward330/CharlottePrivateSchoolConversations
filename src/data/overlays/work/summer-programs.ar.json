@@ -5,12 +5,12 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
-      "text": "The largest published slate of the six schools — 170 priced camps across nine sessions, from a $255 four-day half-day to a $1,275 three-week musical production.",
-      "of": "bc27ba30",
+      "text": "An unusually large published slate: 170 priced camps across nine sessions, from a $255 four-day half-day to a $1,275 three-week musical production.",
+      "of": "27560d8a",
       "at": [
         "providence-day:catalog.headline"
       ],
-      "t": "أوسع قائمة منشورة بين المدارس الست — 170 مخيمًا مُسعّرًا موزّعة على تسع دورات، من نصف يوم لمدة أربعة أيام بـ $255 إلى إنتاج مسرحي غنائي لثلاثة أسابيع بـ $1,275."
+      "t": "قائمة منشورة واسعة على نحو غير معتاد: 170 مخيمًا مُسعّرًا موزّعة على تسع دورات، من نصف يوم لمدة أربعة أيام بـ $255 إلى إنتاج مسرحي غنائي لثلاثة أسابيع بـ $1,275."
     },
     {
       "text": "Nine sessions run June 1 to July 31, 2026. Two of them are four-day weeks (no camps June 19 or July 3) and are priced down accordingly.",
@@ -649,12 +649,12 @@
       "t": "S1, S2, S6, S8, S9"
     },
     {
-      "text": "The same camp on extended hours — the longest published camp day at any of these schools.",
-      "of": "c92a0a38",
+      "text": "The same camp on extended hours — an unusually long published camp day.",
+      "of": "9bec07cc",
       "at": [
         "providence-day:catalog.camps[1].desc"
       ],
-      "t": "المخيم نفسه بساعات ممتدة — أطول يوم مخيم منشور في أي من هذه المدارس."
+      "t": "المخيم نفسه بساعات ممتدة — يوم مخيم منشور طويل على نحو غير معتاد."
     },
     {
       "text": "8am–5pm",
@@ -6339,12 +6339,12 @@
       "t": "لا توجد رعاية ممتدّة ولا رعاية ليوم كامل: فكل مخيم كتلة نصف يومية من ثلاث إلى أربع ساعات. ومخيم MACS الصيفي من 8am إلى 5pm برنامج مدرسة أخرى (St. Matthew وSt. Patrick، من عمر 5 حتى الصاعدين إلى الصفّ السادس) ولا يُنسَب إلى CCHS."
     },
     {
-      "text": "132 priced camps across eight weeks, including a dedicated farm campus tier no other school here offers.",
-      "of": "d30992bb",
+      "text": "132 priced camps across eight weeks, including a dedicated farm campus tier, which is rare.",
+      "of": "c744e910",
       "at": [
         "charlotte-country-day:catalog.headline"
       ],
-      "t": "132 مخيمًا مُسعّرًا موزّعة على ثمانية أسابيع، منها شريحة حرم زراعي مخصّصة لا تقدّمها أي مدرسة أخرى هنا."
+      "t": "132 مخيمًا مُسعّرًا موزّعة على ثمانية أسابيع، منها شريحة حرم زراعي مخصّصة، وهذا نادر."
     },
     {
       "text": "The season runs June 1 to July 24, 2026. Two of the eight weeks are shortened — for Juneteenth and for July 3 — and are priced down.",
@@ -6473,12 +6473,12 @@
       "t": "K–2"
     },
     {
-      "text": "On the school’s own farm — the tier that sets Country Day apart from the other five schools here.",
-      "of": "3fd03b72",
+      "text": "On the school’s own farm, a rare setting for a summer camp.",
+      "of": "2c4a26b2",
       "at": [
         "charlotte-country-day:catalog.camps[0].desc"
       ],
-      "t": "في مزرعة المدرسة نفسها — الشريحة التي تميّز Country Day عن المدارس الخمس الأخرى هنا."
+      "t": "في مزرعة المدرسة نفسها، وهو مكان نادر لمخيم صيفي."
     },
     {
       "text": "Full Day - Farm",
@@ -8077,12 +8077,12 @@
       "t": "مخيم الحرم الزراعي · 9 am–4 pm"
     },
     {
-      "text": "The farm campus premium — a tier no other school here has.",
-      "of": "de7f8936",
+      "text": "The farm campus premium — a rare tier.",
+      "of": "9618dcbf",
       "at": [
         "charlotte-country-day:costPlanner.tiers[6].detail"
       ],
-      "t": "علاوة الحرم الزراعي — شريحة لا تملكها أي مدرسة أخرى هنا."
+      "t": "علاوة الحرم الزراعي — شريحة نادرة."
     },
     {
       "text": "Morning Care 7:30–9 am",
@@ -9566,12 +9566,12 @@
       "t": "يُدرِج الكُتيّب مخيم *Adventure Camp* دون تسمية وجهاته لعام 2026. وفي عام 2024 سافر إلى US National Whitewater Center وCrowders Mountain؛ و**ما إذا كانت تلك هي وجهات 2026 أمر غير مؤكَّد.**"
     },
     {
-      "text": "Camp Cannon is the only one of these programs that takes a deposit — 50% at registration, the balance due May 15.",
-      "of": "edfc850f",
+      "text": "Camp Cannon takes a deposit: 50% at registration, the balance due May 15.",
+      "of": "80151100",
       "at": [
         "cannon:costPlanner.headline"
       ],
-      "t": "Camp Cannon هو البرنامج الوحيد من هذه البرامج الذي يأخذ دفعة مقدَّمة — 50% عند التسجيل، والرصيد المتبقّي مستحق في 15 مايو."
+      "t": "يأخذ Camp Cannon دفعة مقدَّمة: 50% عند التسجيل، والرصيد المتبقّي مستحق في 15 مايو."
     },
     {
       "text": "Seven weeks are available. Week 2 is a four-day week and every tier drops for it: $180.00 and $196.00 half-day, $392.00 all-day.",
@@ -10189,12 +10189,12 @@
       "t": "أسبوع STEM."
     },
     {
-      "text": "A high-school week run against the guidance office’s calendar — the rare HS academic camp in this set.",
-      "of": "84c5fdd7",
+      "text": "A high-school week run against the guidance office’s calendar — a rare high-school academic camp.",
+      "of": "86fd317c",
       "at": [
         "covenant-day:catalog.camps[19].desc"
       ],
-      "t": "أسبوع للمرحلة الثانوية يُدار وفق تقويم مكتب التوجيه — المخيم الأكاديمي الثانوي النادر في هذه المجموعة."
+      "t": "أسبوع للمرحلة الثانوية يُدار وفق تقويم مكتب التوجيه — مخيم أكاديمي ثانوي نادر."
     },
     {
       "text": "HS",
