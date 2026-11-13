@@ -1,5 +1,5 @@
 # Gaston Day School — Financial Aid & Tuition
-> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-13.
 **Documents:** Schedule and Aid Programs 2026
 
 
@@ -132,7 +132,7 @@ publication; they are carried with that caveat and flagged for verification wher
 | **NC Opportunity Scholarship** | "approximately **$3,000 to $7,000**" | K–12 | State programme: NC resident, age-eligible, not graduated, not enrolled full-time post-secondary; household-income based | **February 1 – March 1** (later applicants waitlisted) |
 
 The W. Duke Kimbrell Scholarship is the school's **highest honor** and is full-tuition —
-notable because a 100%-of-tuition merit award is uncommon on this roster.
+notable because a 100%-of-tuition merit award is uncommon.
 
 
 ---
