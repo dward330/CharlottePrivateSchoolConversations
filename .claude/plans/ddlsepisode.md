@@ -1,11 +1,11 @@
 ---
 name: ddlsepisode
 title: Add the published Davidson Day Learning Support episode to the podcast table, so Davidson Day's Learning Support section shows its Listen strip
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-13
 branch: feat/ddlsepisode
-prs: []
+prs: [491]
 ---
 
 # Add the Davidson Day Learning Support episode to the podcast table
