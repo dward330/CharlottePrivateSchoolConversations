@@ -24,7 +24,7 @@
  */
 
 export type PodcastEpisode = {
-  /** Episode number in the show, 1–45. */
+  /** Episode number in the show, 1–46. */
   id: number
   /**
    * The condensed form, shown in the popover's episode list. The published
@@ -48,7 +48,7 @@ export const SHOW_APPLE_URL =
   'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555'
 
 /**
- * All 32 Season 1 episodes plus the Season 2 episodes (33–45), in id order.
+ * All 32 Season 1 episodes plus the Season 2 episodes (33–46), in id order.
  *
  * The mapping comes from each episode's own title and description in the show's
  * episode guide — every one names the schools it covers explicitly, so nothing
@@ -657,6 +657,20 @@ export const EPISODES: PodcastEpisode[] = [
   },
   {
     id: 45,
+    // The third `/learning-support-episode` production, giving Davidson Day's
+    // Learning Support & Student Services section its Listen strip.
+    title: 'Davidson Day: Learning Support',
+    // Published: "Davidson Day - Learning Support - One Request Form, a 13-Person Center and Therapy on Campus"
+    fullTitle:
+      'Davidson Day - Learning Support - One Request Form, a 13-Person Center and Therapy on Campus',
+    spotifyUrl: 'https://open.spotify.com/episode/1Th5lDxzBAG2DnLc0jb5YT',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000799798853',
+    schools: ['davidson-day'],
+    researchArea: 'learning-support',
+  },
+  {
+    id: 46,
     // The first `/cup-episode` production: one Wells Fargo Cup division, so the
     // row reaches all seven NCISAA 4A roster schools' Sports sections. Take 2
     // of the v2 prompt, which dropped take 1's invented cold open.
