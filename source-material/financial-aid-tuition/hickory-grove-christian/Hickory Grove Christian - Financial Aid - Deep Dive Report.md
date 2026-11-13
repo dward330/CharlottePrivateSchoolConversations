@@ -137,7 +137,11 @@ different thing from institutional aid and gets **no Compare row**.
   FACTS payment-plan installment count/fee (set inside the portal).
 - **Out of scope:** NCSEAA per-school voucher totals (state money, not institutional aid).
 
-## Update 2026-11-10 — tuition re-read from the school's own page
+## Method
+
+**Update 2026-11-10 — tuition re-read from the school's own page.** Kept under Method because
+it is research bookkeeping (retrieval, the sourcing ruling, what the app changed); the figures
+themselves render from `src/data/financialAidReports.ts`.
 
 - **Retrieved:** 2026-11-10 by Claude Code, in headed Chrome (Playwright), from the school's own page. The old `/admissions/tuition-and-fees` address now redirects to the admissions home page. The live page is linked from it as "Tuition and Fees".
 - **Source URL:** https://www.hgchristian.org/tuition-and-fees
