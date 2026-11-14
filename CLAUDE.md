@@ -954,6 +954,52 @@ Four things that are **not** automatic:
 keeps its hash branch and `src/main.tsx` rewrites legacy URLs to the path form on load.
 Never remove the hash fallback.
 
+### Card deep links
+
+**Every research card on every school page has a shareable link:
+`/school/<slug>/#<area name>/<card name>`.** It scrolls to that card and opens it. Live
+example: `/school/providence-day/#sports/the-college-pipeline`. The naming rule is a
+**HARD rule set by the user (2026-11-13)**:
+
+- Both halves are the **English name exactly as the page shows it** for that school,
+  per-school title variants included. The same English link works on every locale
+  (`?lang=es#sports/the-college-pipeline`).
+- `-` between words, `&` becomes `and`, apostrophes are removed, accents are stripped, and
+  all other punctuation is dropped. So `Coaching: Pedigree & Continuity` becomes
+  `#sports/coaching-pedigree-and-continuity`.
+- The area half is the area's **name**, never its slug: `#global-exposure/…`, not
+  `#international-travel/…`. `#<area name>` alone, or a card the school does not have,
+  lands on the area's section.
+- `linkName()` in `src/lib/cardLink.ts` defines the rule, and nothing else does. Each id
+  comes from the same label call that renders the title, given the English translator.
+
+**Read the hash, never write it.** The page reads `location.hash` once the research has
+rendered, and again on `hashchange`. It never calls `pushState`/`replaceState` and never
+sets `location.hash`. The Cloudflare beacon runs with `"spa": true` and logs a page-view
+on every History write. So a card-link visit logs as the plain `/school/<slug>/`, and
+opening or closing a card logs nothing. Never "helpfully" put the open card into the URL.
+
+**A renamed card or area keeps its old link, forever.** The name *is* the link, so a
+rename changes it. The old name goes into `src/lib/cardLinkAliases.ts` as a former name,
+and its entries are **never deleted**. `npm run check:cardlink` (in the build) snapshots
+every English name source in `scripts/card_link_names.json`. It fails on a rename with no
+former name, printing the exact line to paste. It also fails on an alias deleted since
+`main`, or on an `*_CARDS` / `TITLE_OVERRIDES` title with no `cards.*` key in `en.json`.
+After adding the alias, run `npm run check:cardlink -- --update`.
+
+**The `#topic-<slug>` section links stay working permanently**, as a second way in. The
+user shares `/school/providence-day/#topic-sports`. Never rename the `topic-<slug>`
+section ids, and never route a `topic-…` hash through `openFromHash`: the browser's own
+fragment scroll handles it. That native scroll is not perfectly stable. The first area,
+right under Latest News, can drift or fail to scroll, and it did so on `main` before card
+links existed. So `audit:cardlink` reports a legacy landing as a warning, not a failure.
+
+`npm run audit:cardlink` (needs `npm run build && npx vite preview`, not in the build) runs
+headed Chrome over every card on every school. It checks that the id equals the visible
+name, that the card opens in view, and that there are 0 History calls.
+`npm run audit:cardlink -- --list` prints every card link. Use headed Chrome:
+headless Chromium skips the post-load fragment scroll, so every legacy probe misses there.
+
 **A crawler check is a browser check.** Two defects here shipped past every source-level
 check because they were pure render-layer: pre-rendered English markup flashing to
 non-English readers (fixed by hiding `<body>` pre-paint — measure `visibility`, NOT the

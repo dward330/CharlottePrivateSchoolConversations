@@ -1036,6 +1036,9 @@ main { flex: 1; }
 .class-video-head .glyph { color: var(--brand); align-self: center; display: inline-flex; }
 
 .topic-section { scroll-margin-top: 80px; }
+/* A card deep link (#<area>/<card>, src/lib/cardLink.ts) lands the opened
+   card's title clear of the sticky header, like a section jump. */
+.note-card { scroll-margin-top: 80px; }
 .topic-section-head {
   display: flex;
   align-items: baseline;

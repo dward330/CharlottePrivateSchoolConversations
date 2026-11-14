@@ -217,6 +217,11 @@ missing that field simply does not render the card.
 Per-school data lives one file per school so each school's research stays reviewable on
 its own, and is merged with locale overlays at render time.
 
+**Every card has a shareable link, `#<area name>/<card name>`**, built from the English names
+the page shows by `linkName()` in `src/lib/cardLink.ts` (`#sports/the-college-pipeline`). A
+renamed card or area keeps its old link through `src/lib/cardLinkAliases.ts`; `check:cardlink`
+fails the build until it does.
+
 **Every research photo opens in the shared click-to-enlarge viewer.** The three photo
 fields — Sports `facilities.photos`, The Arts card `photo`, Summer Programs `photos` — are
 wired to it inside their components, so adding photo DATA to them needs no extra work. A

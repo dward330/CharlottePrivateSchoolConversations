@@ -1,0 +1,109 @@
+/**
+ * Card deep links: `/school/<slug>/#<area name>/<card name>` scrolls to one
+ * research card and opens it.
+ *
+ * THE NAMING RULE IS A HARD RULE, set by the user on 2026-11-13. Both halves of
+ * the link are the ENGLISH name exactly as the page shows it for that school
+ * (on every locale — one link works in every language), converted by
+ * `linkName()`:
+ *
+ *   1. `&` becomes the word `and`
+ *   2. apostrophes (`'` and `’`) are removed
+ *   3. accents are stripped (NFD, then combining marks dropped)
+ *   4. lower-cased
+ *   5. every run of characters outside [a-z0-9] becomes a single `-`
+ *   6. `-` is trimmed from both ends
+ *
+ *   Sports / The College Pipeline         → #sports/the-college-pipeline
+ *   Global Exposure / Verdict & Visit Checklist
+ *                                         → #global-exposure/verdict-and-visit-checklist
+ *
+ * The rule is defined here and nowhere else. A rename changes the link, and the
+ * old link keeps working through ./cardLinkAliases.ts (enforced by
+ * `npm run check:cardlink`). The older `#topic-<slug>` section links stay
+ * working too: the browser's own anchor scroll handles them, and this module
+ * deliberately ignores them.
+ */
+
+import { AREA_ALIASES, CARD_ALIASES } from './cardLinkAliases.ts'
+import { scrollToSection } from './scrollToSection.ts'
+
+/** The link form of a visible name. See the six-step rule above. */
+export function linkName(name: string): string {
+  return name
+    .replace(/&/g, ' and ')
+    .replace(/['’]/g, '')
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+/** The element id (and link hash) of one card: `<area>/<card>`. */
+export function cardLinkId(areaName: string, cardName: string): string {
+  return `${linkName(areaName)}/${linkName(cardName)}`
+}
+
+/**
+ * Act on an inbound card or area hash. Returns true when it scrolled.
+ *
+ * `areas` is this school's covered research areas, each with its `linkName()`
+ * form of the English area name.
+ *
+ * ⛔ READ THE HASH, NEVER WRITE IT. Nothing here (or in its caller) may call
+ * `history.pushState` / `replaceState` or assign `location.hash`. The Cloudflare
+ * beacon runs with `"spa": true` (index.html) and records a page-view on every
+ * History API change, so writing the URL when a card opens would log a phantom
+ * page-view per click and inflate the dashboard. Opening a card stays a pure DOM
+ * change; `npm run audit:cardlink` asserts 0 History calls.
+ */
+export function openFromHash(
+  hash: string,
+  areas: { slug: string; link: string }[],
+): boolean {
+  let h = hash.replace(/^#/, '')
+  try {
+    h = decodeURIComponent(h)
+  } catch {
+    /* A malformed escape: match on the raw text. */
+  }
+  h = h.toLowerCase()
+  /* `topic-…`, `welcome`, `news` and the legacy `#/…` routes belong to the
+     browser's own anchor scroll or to the router. */
+  if (!h || h.startsWith('/') || h.startsWith('topic-')) return false
+
+  const cut = h.indexOf('/')
+  const areaPart = cut === -1 ? h : h.slice(0, cut)
+  const cardPart = cut === -1 ? '' : h.slice(cut + 1)
+
+  let area = areas.find((a) => a.link === areaPart)
+  if (!area) {
+    const alias = AREA_ALIASES.find((a) => a.from === areaPart)
+    area = alias && areas.find((a) => a.slug === alias.topic)
+  }
+  if (!area) return false
+
+  if (cardPart) {
+    let el: HTMLElement | null = document.getElementById(`${area.link}/${cardPart}`)
+    if (!el) {
+      const slug = area.slug
+      const alias = CARD_ALIASES.find(
+        (a) => a.from === cardPart && (a.topic === undefined || a.topic === slug),
+      )
+      if (alias) {
+        el = document.querySelector<HTMLElement>(
+          `details.note-card[data-card="${CSS.escape(`${slug}:${alias.key}`)}"]`,
+        )
+      }
+    }
+    if (el && el.id) {
+      if (el instanceof HTMLDetailsElement) el.open = true
+      scrollToSection(el.id)
+      return true
+    }
+  }
+
+  scrollToSection(`topic-${area.slug}`)
+  return true
+}
