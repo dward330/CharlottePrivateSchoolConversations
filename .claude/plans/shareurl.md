@@ -1,11 +1,11 @@
 ---
 name: shareurl
 title: The address bar follows the reader — opening a card or clicking an area chip shows that deep link in the URL, with no reload, no new history entry and no extra Cloudflare page-view
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-14
 branch: feat/shareurl
-prs: []
+prs: [496]
 ---
 
 # The address bar shows the deep link for what the reader is looking at
