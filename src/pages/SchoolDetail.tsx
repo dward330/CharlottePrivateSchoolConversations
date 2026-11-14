@@ -391,9 +391,9 @@ function ExpandAllIcon({ up = false }: { up?: boolean }) {
 
 /* The chips call preventDefault() so a click never writes the hash: each
    History API change would log a Cloudflare page-view (the beacon runs with
-   "spa": true). An INBOUND hash is a different matter — a shared
-   `#topic-<slug>` link is left to the browser's own anchor scroll, and a card
-   link (`#<area>/<card>`) is read by openFromHash in src/lib/cardLink.ts. */
+   "spa": true). An INBOUND hash is a different matter: a shared
+   `#topic-<slug>` link and a card link (`#<area>/<card>`) are both read by
+   openFromHash in src/lib/cardLink.ts. */
 function scrollToTopic(e: React.MouseEvent, slug: string) {
   e.preventDefault()
   scrollToId(e, `topic-${slug}`)

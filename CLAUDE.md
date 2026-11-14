@@ -989,16 +989,17 @@ After adding the alias, run `npm run check:cardlink -- --update`.
 
 **The `#topic-<slug>` section links stay working permanently**, as a second way in. The
 user shares `/school/providence-day/#topic-sports`. Never rename the `topic-<slug>`
-section ids, and never route a `topic-…` hash through `openFromHash`: the browser's own
-fragment scroll handles it. That native scroll is not perfectly stable. The first area,
-right under Latest News, can drift or fail to scroll, and it did so on `main` before card
-links existed. So `audit:cardlink` reports a legacy landing as a warning, not a failure.
+section ids. These links also go through `openFromHash`, which re-aims them with
+`scrollToSection` once the research has rendered (user, 2026-11-13). The browser's own
+fragment scroll fires before that. Left alone, the first area under Latest News drifted
+340–640px as the news loaded, and some areas never scrolled at all. That was measured on
+the live site.
 
 `npm run audit:cardlink` (needs `npm run build && npx vite preview`, not in the build) runs
-headed Chrome over every card on every school. It checks that the id equals the visible
-name, that the card opens in view, and that there are 0 History calls.
-`npm run audit:cardlink -- --list` prints every card link. Use headed Chrome:
-headless Chromium skips the post-load fragment scroll, so every legacy probe misses there.
+headed Chrome over every card on every school, plus every area and `#topic-` link. It
+checks that the id equals the visible name, that the target lands in view (a card also
+opens), and that there are 0 History calls. `npm run audit:cardlink -- --list` prints
+every card link.
 
 **A crawler check is a browser check.** Two defects here shipped past every source-level
 check because they were pure render-layer: pre-rendered English markup flashing to

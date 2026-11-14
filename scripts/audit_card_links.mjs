@@ -32,19 +32,15 @@
  *   npm run audit:cardlink -- --only providence-day,cannon --base http://localhost:4319
  *   npm run audit:cardlink -- --list         # print every card link, no checks
  *
- * Runs the installed Google Chrome, HEADED, by default. Headless Chromium does
- * not re-apply the fragment scroll after load, so every legacy `#topic-<slug>`
- * probe lands 300–1,500px off there while real Chrome lands it at 80px — on the
- * live site as well as here (measured 2026-11-13). `--headless` exists for a
- * quick card-only pass; trust its legacy results only from headed Chrome.
+ * Runs the installed Google Chrome, HEADED, by default (`--headless` to
+ * override) — this repo's render checks are real-browser checks.
  *
- * A legacy `#topic-<slug>` landing position is a WARNING, not a failure. That
- * scroll is the browser's own fragment scroll, deliberately left alone (the plan
- * forbids routing `topic-…` through openFromHash), and it is not stable on
- * `main` either: on the live site, headed Chrome, /school/providence-day/
- * #topic-admissions did not scroll at all (2026-11-13), and locally it lands at
- * 80px and then drifts to 420px when Latest News loads above it. A legacy probe
- * still FAILS on a History call or a missing section.
+ * The legacy `#topic-<slug>` links are checked exactly like the others and fail
+ * the audit when they miss. Until 2026-11-13 they were left to the browser's own
+ * fragment scroll, which fires before the research renders: the first area
+ * drifted 340–640px as Latest News loaded above it, some areas never scrolled,
+ * and headless or background windows skipped it entirely, so the audit could
+ * only warn. openFromHash now re-aims them through scrollToSection (user's call).
  *
  * domcontentloaded plus a settle wait, never networkidle — school pages never go
  * idle. Exit 0 clean · 1 any failure · 2 bad usage or the server is unreachable.
@@ -84,9 +80,8 @@ if (!schools.length) {
 }
 
 const browser = await chromium.launch(HEADLESS ? { headless: true } : { channel: 'chrome', headless: false })
-/* One context — one WINDOW, headed — per worker. Tabs sharing a window sit in
-   the background, and a background tab skips the fragment scroll, which fails
-   every legacy probe it runs. Each page is also brought to the front. */
+/* One context (one window, headed) per worker, each page brought to the
+   front, so no probe runs in a background tab. */
 async function newCtx() {
   const c = await browser.newContext({ locale: 'en-US', viewport: { width: 1280, height: 900 } })
   /* Count History API writes from the very first script on the page. */
@@ -184,7 +179,6 @@ async function probe(c, path, targetId, toggle = false) {
 }
 
 const failures = []
-const warnings = []
 const fail = (slug, msg) => failures.push(`${slug}: ${msg}`)
 const inView = (top) => top != null && top >= 0 && top <= 200
 
@@ -228,7 +222,7 @@ for (const s of bySchool) {
   for (const a of s.areas) {
     const link = linkName(a.area)
     probes.push({ slug: s.slug, kind: 'area', path: `/school/${s.slug}/#${link}`, target: `topic-${a.topic}` })
-    probes.push({ slug: s.slug, kind: 'legacy', path: `/school/${s.slug}/#topic-${a.topic}`, target: `topic-${a.topic}` })
+    probes.push({ slug: s.slug, kind: 'legacy', path: `/school/${s.slug}/#topic-${a.topic}`, target: `topic-${a.topic}`, hash: `#topic-${a.topic}` })
   }
   if (s.areas[0]) {
     const a = s.areas[0]
@@ -253,12 +247,7 @@ if (bySchool.some((s) => s.slug === 'providence-day')) {
   }
 }
 
-/* Phase 3: run the probes. Card and area links run a few windows at a time:
-   openFromHash re-aims through scrollToSection, which works in any window. The
-   legacy `#topic-` links run ONE AT A TIME in a single foreground tab, because
-   the browser's own fragment scroll is skipped in a window that is not in front
-   — four concurrent windows turned ~50 of 130 legacy probes into false
-   warnings, which all landed at 80px when re-run one at a time (2026-11-13). */
+/* Phase 3: run the probes, a few windows at a time. */
 const counts = new Map()
 async function runAll(list, workers) {
   let next = 0
@@ -275,10 +264,7 @@ async function check(wctx, p) {
     const bad = []
     if (!r.found) bad.push('target not found')
     if (p.card && r.open !== true) bad.push('card not open')
-    if (!inView(r.top) && !(r.atBottom && r.top > 0)) {
-      if (p.kind === 'legacy') warnings.push(`${p.slug}: legacy ${p.path} → top ${r.top}px (browser fragment scroll)`)
-      else bad.push(`top ${r.top}px`)
-    }
+    if (!inView(r.top) && !(r.atBottom && r.top > 0)) bad.push(`top ${r.top}px`)
     if (r.hist !== 0) bad.push(`${r.hist} History call(s)`)
     if (r.toggleHist) bad.push(`closing/reopening the card made ${r.toggleHist} History call(s)`)
     if (p.hash && !r.href.endsWith(p.hash)) bad.push(`address bar now ${r.href}`)
@@ -286,17 +272,12 @@ async function check(wctx, p) {
     counts.set(p.slug, c)
   }
 }
-await runAll(probes.filter((p) => p.kind !== 'legacy'), WORKERS)
-await runAll(probes.filter((p) => p.kind === 'legacy'), 1)
+await runAll(probes, WORKERS)
 await browser.close()
 
 for (const s of bySchool) {
   const c = counts.get(s.slug) ?? { ok: 0, bad: 0 }
   console.log(`${c.bad ? '✗' : '✓'} ${s.slug.padEnd(26)} ${String(s.cards.length).padStart(3)} cards · ${c.ok}/${c.ok + c.bad} links ok`)
-}
-if (warnings.length) {
-  console.log(`\n${warnings.length} legacy landing warning(s) — the browser's own #topic- scroll, unchanged by card links:`)
-  for (const w of warnings) console.log(`  ! ${w}`)
 }
 if (failures.length) {
   console.error(`\naudit:cardlink — ${failures.length} failure(s):`)
