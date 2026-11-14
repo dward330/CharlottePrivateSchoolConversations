@@ -19,6 +19,10 @@
  *     counted. A last area that cannot scroll up to the header counts as landed
  *     when the page is scrolled to its bottom.
  *
+ * Every probe also asserts that the table of contents highlights the area the
+ * link landed in (one `.chip.is-active`, named like the area's h2), not the
+ * seeded Welcome Video entry.
+ *
  * Per school it also checks: `#<area>` alone for every area; the permanent
  * legacy `#topic-<slug>` form for every area (the user has shared
  * /school/providence-day/#topic-sports); an unknown card (`#<area>/does-not-exist`
@@ -159,6 +163,9 @@ async function probe(c, path, targetId, toggle = false) {
         top: el ? Math.round(el.getBoundingClientRect().top) : null,
         /* The last area on a short page cannot scroll up to the header. */
         atBottom: window.scrollY + innerHeight >= document.documentElement.scrollHeight - 2,
+        /* The table of contents must select the area the link landed in. */
+        area: (el?.closest('.topic-section') ?? el)?.querySelector('.topic-section-head h2')?.textContent.trim() ?? null,
+        chip: [...document.querySelectorAll('.chip.is-active')].map((c) => c.textContent.trim()).join(' | '),
         href: location.href,
       }
     }, targetId).then(async (r) => ({ ...r, hist: await page.evaluate(HIST) }))
@@ -265,6 +272,7 @@ async function check(wctx, p) {
     if (!r.found) bad.push('target not found')
     if (p.card && r.open !== true) bad.push('card not open')
     if (!inView(r.top) && !(r.atBottom && r.top > 0)) bad.push(`top ${r.top}px`)
+    if (r.found && r.chip !== r.area) bad.push(`highlighted chip "${r.chip}", expected "${r.area}"`)
     if (r.hist !== 0) bad.push(`${r.hist} History call(s)`)
     if (r.toggleHist) bad.push(`closing/reopening the card made ${r.toggleHist} History call(s)`)
     if (p.hash && !r.href.endsWith(p.hash)) bad.push(`address bar now ${r.href}`)
