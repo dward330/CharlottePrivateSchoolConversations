@@ -394,6 +394,12 @@ w()
 w('Per-school data lives one file per school so each school\'s research stays reviewable on')
 w('its own, and is merged with locale overlays at render time.')
 w()
+// Standing rule added 2026-11-13 with card deep links (plan cardlink).
+w('**Every card has a shareable link, `#<area name>/<card name>`**, built from the English names')
+w('the page shows by `linkName()` in `src/lib/cardLink.ts` (`#sports/the-college-pipeline`). A')
+w('renamed card or area keeps its old link through `src/lib/cardLinkAliases.ts`; `check:cardlink`')
+w('fails the build until it does.')
+w()
 // Standing rule added 2026-10-09 with the photo viewer (plan photolightbox).
 w('**Every research photo opens in the shared click-to-enlarge viewer.** The three photo')
 w('fields — Sports `facilities.photos`, The Arts card `photo`, Summer Programs `photos` — are')

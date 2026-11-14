@@ -168,6 +168,7 @@ import { useTranslation } from 'react-i18next'
 import { useScrollEdges } from '../lib/useScrollEdges.ts'
 import { scrollToSection } from '../lib/scrollToSection.ts'
 import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
+import { cardLinkId, linkName, openFromHash } from '../lib/cardLink.ts'
 import { localizeMoneyText } from '../lib/format.ts'
 
 type Loaded = Record<string, MetricGroup[]>
@@ -388,15 +389,17 @@ function ExpandAllIcon({ up = false }: { up?: boolean }) {
   )
 }
 
-/* The hash router owns location.hash, so a raw "#topic-…" anchor would be
-   parsed as an unknown route and bounce home. Scroll in place instead. */
+/* The chips call preventDefault() so a click never writes the hash: each
+   History API change would log a Cloudflare page-view (the beacon runs with
+   "spa": true). An INBOUND hash is a different matter — a shared
+   `#topic-<slug>` link is left to the browser's own anchor scroll, and a card
+   link (`#<area>/<card>`) is read by openFromHash in src/lib/cardLink.ts. */
 function scrollToTopic(e: React.MouseEvent, slug: string) {
   e.preventDefault()
   scrollToId(e, `topic-${slug}`)
 }
 
-/* Same reason as scrollToTopic: the hash router would treat a bare "#welcome"
-   as an unknown route. */
+/* Same reason as scrollToTopic: a click must never write the hash. */
 function scrollToId(e: React.MouseEvent, id: string) {
   e.preventDefault()
   scrollToSection(id)
@@ -405,6 +408,11 @@ function scrollToId(e: React.MouseEvent, id: string) {
 export function SchoolDetail({ slug }: { slug: string }) {
   const { t: tr, i18n } = useTranslation()
   const lang = i18n.resolvedLanguage ?? 'en'
+  /* The English translator, for card link ids only. A card link is built from
+     the English area and card names on EVERY locale (src/lib/cardLink.ts), so
+     each id comes from the same label call that renders the title, with `enT`
+     in place of `tr` — never from a second, hand-kept list of names. */
+  const enT = i18n.getFixedT('en')
   const navigate = useNavigate()
   const school = schoolBySlug(slug)
 
@@ -566,6 +574,34 @@ export function SchoolDetail({ slug }: { slug: string }) {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug, lang])
+
+  /* Card deep links: `#<area name>/<card name>` opens that card and scrolls to
+     it, once the research has rendered (the cards do not exist before `ready`).
+     READ-ONLY on the URL — see openFromHash for why nothing here may write the
+     hash or call the History API. `handled` keys on slug + hash, so a language
+     switch (which toggles `ready`) does not pull a reader back to the card
+     after they have scrolled away. */
+  const handledHash = useRef<string | null>(null)
+  useEffect(() => {
+    if (!ready) return
+    const areas = covered.map((t) => ({
+      slug: t.slug,
+      link: linkName(topicLabel(enT, t.slug, t.name)),
+    }))
+    const run = () => {
+      const key = slug + location.hash
+      if (handledHash.current === key) return
+      handledHash.current = key
+      openFromHash(location.hash, areas)
+    }
+    const frame = requestAnimationFrame(run)
+    window.addEventListener('hashchange', run)
+    return () => {
+      cancelAnimationFrame(frame)
+      window.removeEventListener('hashchange', run)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ready, slug])
 
   if (!school) {
     return (
@@ -836,6 +872,12 @@ export function SchoolDetail({ slug }: { slug: string }) {
                from `offerings` rather than the ingested metric groups. */
             const offerings =
               t.slug === 'course-offerings' ? courseOfferings(slug, lang) : undefined
+            /* English names behind the card link ids (`#<area>/<card>`). The
+               overlay translates divisions in place, so index i is the same
+               division in every locale. */
+            const offeringsEn =
+              t.slug === 'course-offerings' ? courseOfferings(slug, 'en') : undefined
+            const areaEn = topicLabel(enT, t.slug, t.name)
             /* Sports is thirteen ingested sub-sections but eight consolidated
                cards on the page (see data/sportsProgram.ts), so — like Course
                Offerings — it replaces the metric-group loop rather than
@@ -1090,6 +1132,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
               return (
                 <details
                   key={g.metric.key}
+                  id={cardLinkId(areaEn, metricLabel(enT, g.metric.key, g.metric.label, t.slug))}
+                  data-card={`${t.slug}:${g.metric.key}`}
                   className={`note-card${report || clusters || catalog ? ' note-card-report' : ''}`}
                 >
                   <summary>
@@ -1311,8 +1355,15 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     swapping a single card's body. */}
                 {ready && t.slug === 'course-offerings' && offerings && (
                   <div className="note-cards">
-                    {offerings.divisions.map((d) => (
-                      <details key={d.title} className="note-card note-card-report">
+                    {offerings.divisions.map((d, i) => {
+                      const titleEn = offeringsEn?.divisions[i]?.title ?? d.title
+                      return (
+                      <details
+                        key={d.title}
+                        id={cardLinkId(areaEn, titleEn)}
+                        data-card={`course-offerings:${linkName(titleEn)}`}
+                        className="note-card note-card-report"
+                      >
                         <summary>
                           <span className="note-card-head">
                             <span className="course-kicker">{d.grades}</span>
@@ -1325,7 +1376,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <CourseOfferingsBody division={d} />
                         </div>
                       </details>
-                    ))}
+                      )
+                    })}
                   </div>
                 )}
 
@@ -1338,6 +1390,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {sportsCards.map((card) => (
                       <details
                         key={card.key}
+                        id={cardLinkId(areaEn, cardTitle(enT, 'sports', card.key, card.title))}
+                        data-card={`sports:${card.key}`}
                         className="note-card note-card-report note-card-sports"
                       >
                         <summary>
@@ -1369,6 +1423,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {artsCards.map((card) => (
                       <details
                         key={card.key}
+                        id={cardLinkId(areaEn, cardTitle(enT, 'the-arts', card.key, artsCardTitle(slug, card), artsOverrideSlug(slug, card.key)))}
+                        data-card={`the-arts:${card.key}`}
                         className="note-card note-card-report note-card-arts"
                       >
                         <summary>
@@ -1403,6 +1459,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {csCards.map((card) => (
                       <details
                         key={card.key}
+                        id={cardLinkId(areaEn, cardTitle(enT, 'college-support', card.key, card.title))}
+                        data-card={`college-support:${card.key}`}
                         className="note-card note-card-report note-card-cs"
                       >
                         <summary>
@@ -1442,6 +1500,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {hspCards.map((card) => (
                       <details
                         key={card.key}
+                        id={cardLinkId(areaEn, cardTitle(enT, 'high-school-placement', card.key, card.title))}
+                        data-card={`high-school-placement:${card.key}`}
                         className="note-card note-card-report note-card-hsp"
                       >
                         <summary>
@@ -1493,6 +1553,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {asCards.map((card) => (
                       <details
                         key={card.key}
+                        id={cardLinkId(areaEn, cardTitle(enT, 'after-school', card.key, card.title))}
+                        data-card={`after-school:${card.key}`}
                         className="note-card note-card-report note-card-as"
                       >
                         <summary>
@@ -1535,6 +1597,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                       {suCards.map((card) => (
                         <details
                           key={card.key}
+                          id={cardLinkId(areaEn, cardTitle(enT, 'summer-programs', card.key, card.title))}
+                          data-card={`summer-programs:${card.key}`}
                           className="note-card note-card-report note-card-su"
                         >
                           <summary>
@@ -1569,6 +1633,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {adCards.map((card) => (
                       <details
                         key={card.key}
+                        id={cardLinkId(areaEn, cardTitle(enT, 'admissions', card.key, admissionsCardTitleFor(slug, card), admissionsOverrideSlug(slug, card.key)))}
+                        data-card={`admissions:${card.key}`}
                         className="note-card note-card-report note-card-adm"
                       >
                         <summary>
@@ -1604,6 +1670,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {itCards.map((card) => (
                       <details
                         key={card.key}
+                        id={cardLinkId(areaEn, cardTitle(enT, 'international-travel', card.key, internationalTravelCardTitleFor(slug, card), travelOverrideSlug(slug, card.key)))}
+                        data-card={`international-travel:${card.key}`}
                         className={`note-card note-card-report note-card-it${WIDE_TRAVEL_CARDS.has(card.key) ? ' note-card-wide' : ''}`}
                       >
                         <summary>
@@ -1637,6 +1705,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {lsCards.map((card) => (
                       <details
                         key={card.key}
+                        id={cardLinkId(areaEn, cardTitle(enT, 'learning-support', card.key, card.title))}
+                        data-card={`learning-support:${card.key}`}
                         className={`note-card note-card-report note-card-ls${WIDE_LEARNING_CARDS.has(card.key) ? ' note-card-wide' : ''}`}
                       >
                         <summary>
@@ -1677,6 +1747,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     clubsCards.map((card) => (
                       <details
                         key={card.key}
+                        id={cardLinkId(areaEn, cardTitle(enT, 'student-clubs', card.key, clubsCardTitle(slug, card), clubsOverrideSlug(slug, card.key)))}
+                        data-card={`student-clubs:${card.key}`}
                         className="note-card note-card-report note-card-clubs"
                       >
                         <summary>
