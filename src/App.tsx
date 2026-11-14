@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useRoute, toHome, useNavigate } from './lib/router.ts'
 import { setPageMeta } from './lib/head.ts'
+import { syncCanonicalHash } from './lib/canonicalHash.ts'
 import { assetUrl } from './lib/asset.ts'
 import { contactMailto, CONTACT_EMAIL } from './lib/contact.ts'
 import { trackEvent } from './lib/analytics.ts'
@@ -33,6 +34,12 @@ function App() {
   useEffect(() => {
     setPageMeta(JSON.parse(routeKey))
   }, [routeKey])
+  // A hash typed or pasted into the address bar moves the canonical's hash
+  // too, so a phone's share sheet shares what the reader sees (canonicalHash.ts).
+  useEffect(() => {
+    window.addEventListener('hashchange', syncCanonicalHash)
+    return () => window.removeEventListener('hashchange', syncCanonicalHash)
+  }, [])
 
   /* The printable checklist is a standalone one-page document that carries its
      own header, so on that route the app's nav and footer are hidden IN PRINT

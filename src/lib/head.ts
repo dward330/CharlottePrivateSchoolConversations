@@ -17,6 +17,7 @@ import type { Route } from './router.ts'
 import { schoolBySlug, topics, topicsForSchool, comparableTopics } from './manifest.ts'
 import { BRANDS } from '../data/brands.ts'
 import { TRANSLATED } from './i18n.ts'
+import { syncCanonicalHash } from './canonicalHash.ts'
 
 /**
  * The public origin. Social scrapers and search engines require ABSOLUTE URLs
@@ -349,4 +350,5 @@ export function setPageMeta(route: Route): void {
   setMeta('name', 'twitter:image', ogImage)
 
   setJsonLd(meta.jsonLd)
+  syncCanonicalHash()
 }

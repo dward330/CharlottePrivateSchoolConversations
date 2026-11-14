@@ -24,6 +24,10 @@
  *     question, measured against the real beacon by `npm run audit:pageviews`
  *     (this audit blocks the beacon entirely).
  *
+ * Every probe and click also asserts that <link rel="canonical"> carries the
+ * same hash as the address bar, because a phone's share sheet shares the
+ * canonical link, not the address bar (src/lib/canonicalHash.ts, 2026-11-14).
+ *
  * Every probe also asserts that the table of contents highlights the area the
  * link landed in (one `.chip.is-active`, named like the area's h2), not the
  * seeded Welcome Video entry.
@@ -203,6 +207,9 @@ async function chips(page, areas) {
     await page.waitForTimeout(120)
     const hash = await page.evaluate(() => location.hash)
     if (hash !== want) bad.push(`clicking ${label} left the hash "${hash}", expected "${want}"`)
+    /* A phone's share sheet shares the canonical link, not the address bar. */
+    const can = await page.evaluate(() => (document.querySelector('link[rel="canonical"]')?.getAttribute('href') ?? ''))
+    if (new URL(can).hash !== want) bad.push(`clicking ${label} left the canonical at ${can}`)
   }
   for (const a of areas) {
     const link = linkName(a.area)
@@ -239,6 +246,8 @@ async function probe(c, path, targetId, toggle = false) {
         area: (el?.closest('.topic-section') ?? el)?.querySelector('.topic-section-head h2')?.textContent.trim() ?? null,
         chip: [...document.querySelectorAll('.chip.is-active')].map((c) => c.textContent.trim()).join(' | '),
         href: location.href,
+        /* What a phone's share sheet shares (src/lib/canonicalHash.ts). */
+        canonical: (document.querySelector('link[rel="canonical"]')?.getAttribute('href') ?? ''),
       }
     }, targetId).then(async (r) => ({ ...r, hist: await page.evaluate(HIST) }))
     if (toggle && r.found) {
@@ -252,6 +261,7 @@ async function probe(c, path, targetId, toggle = false) {
       await summary.click()
       await page.waitForTimeout(150)
       r.reopenedHash = await page.evaluate(() => location.hash)
+      r.reopenedCanonical = await page.evaluate(() => (document.querySelector('link[rel="canonical"]')?.getAttribute('href') ?? ''))
       const after = await page.evaluate(HSTAT)
       r.togglePush = after.push - before.push
       r.toggleLen = after.len - before.len
@@ -356,10 +366,12 @@ async function check(wctx, p) {
       const area = `#${p.target.split('/')[0]}`
       if (r.closedHash !== area) bad.push(`closing the card left the hash "${r.closedHash}", expected "${area}"`)
       if (r.reopenedHash !== `#${p.target}`) bad.push(`reopening the card left the hash "${r.reopenedHash}"`)
+      if (!r.reopenedCanonical.endsWith(`#${p.target}`)) bad.push(`reopening the card left the canonical at ${r.reopenedCanonical}`)
       if (r.togglePush) bad.push(`closing/reopening the card made ${r.togglePush} pushState call(s)`)
       if (r.toggleLen) bad.push(`closing/reopening the card changed history.length by ${r.toggleLen}`)
     }
     if (p.hash && !r.href.endsWith(p.hash)) bad.push(`address bar now ${r.href}`)
+    if (p.hash && !r.canonical.endsWith(p.hash)) bad.push(`canonical now ${r.canonical}`)
     if (bad.length) { c.bad++; fail(p.slug, `${p.kind} ${p.path} → ${bad.join(', ')}`) } else c.ok++
     counts.set(p.slug, c)
   }
@@ -376,4 +388,4 @@ if (failures.length) {
   for (const f of failures) console.error(`  ✗ ${f}`)
   process.exit(1)
 }
-console.log(`\naudit:cardlink — ok: ${probes.length} links on ${bySchool.length} schools, URL follows clicks, 0 pushState`)
+console.log(`\naudit:cardlink — ok: ${probes.length} links on ${bySchool.length} schools, URL and canonical follow clicks, 0 pushState`)

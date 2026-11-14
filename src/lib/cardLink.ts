@@ -29,6 +29,7 @@
  */
 
 import { quietReplaceUrl } from './analytics.ts'
+import { syncCanonicalHash } from './canonicalHash.ts'
 import { AREA_ALIASES, CARD_ALIASES } from './cardLinkAliases.ts'
 import { scrollToSection } from './scrollToSection.ts'
 
@@ -70,6 +71,9 @@ export function areaOfCardId(id: string): string {
  *     writes that go through quietReplaceUrl. `npm run audit:pageviews` checks.
  *   - On user clicks only: never on load, scroll, openFromHash or "Expand all".
  *
+ * The canonical link's hash follows too (./canonicalHash.ts), so a
+ * phone's share sheet shares the card, not the bare school page.
+ *
  * A no-op when the URL already matches. Never throws: a URL write must never
  * break a click.
  */
@@ -80,6 +84,8 @@ export function showLinkInUrl(hash: string | null): void {
   if (target === pathname + search + current) return
   try {
     quietReplaceUrl(target)
+    /* The phone share sheet reads the canonical link, not the address bar. */
+    syncCanonicalHash()
   } catch {
     /* An exotic sandbox: the click still did its job. */
   }
