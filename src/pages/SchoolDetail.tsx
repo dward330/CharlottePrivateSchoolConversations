@@ -592,7 +592,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
       const key = slug + location.hash
       if (handledHash.current === key) return
       handledHash.current = key
-      openFromHash(location.hash, areas)
+      /* Select the area the link landed in, in both tables of contents, just
+         as clicking its chip would — otherwise the seeded Welcome Video entry
+         stays highlighted while the reader looks at Sports. */
+      const landed = openFromHash(location.hash, areas)
+      if (landed) setActiveKey(landed)
     }
     const frame = requestAnimationFrame(run)
     window.addEventListener('hashchange', run)

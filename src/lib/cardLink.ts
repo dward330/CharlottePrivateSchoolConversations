@@ -49,7 +49,9 @@ export function cardLinkId(areaName: string, cardName: string): string {
 }
 
 /**
- * Act on an inbound card or area hash. Returns true when it scrolled.
+ * Act on an inbound card or area hash. Returns the slug of the research area
+ * it scrolled to (so the caller can select that area in the table of
+ * contents), or null when the hash is not one of ours.
  *
  * `areas` is this school's covered research areas, each with its `linkName()`
  * form of the English area name.
@@ -64,7 +66,7 @@ export function cardLinkId(areaName: string, cardName: string): string {
 export function openFromHash(
   hash: string,
   areas: { slug: string; link: string }[],
-): boolean {
+): string | null {
   let h = hash.replace(/^#/, '')
   try {
     h = decodeURIComponent(h)
@@ -74,16 +76,16 @@ export function openFromHash(
   h = h.toLowerCase()
   /* `welcome`, `news` and the legacy `#/…` routes belong to the browser's own
      anchor scroll or to the router. */
-  if (!h || h.startsWith('/')) return false
+  if (!h || h.startsWith('/')) return null
 
   /* The original section links, `#topic-<slug>`: already shared, kept forever.
      The browser has made its own one-shot jump by now; re-aim so the section
      stays put while the page grows above it. */
   if (h.startsWith('topic-')) {
     const slug = h.slice('topic-'.length)
-    if (!areas.some((a) => a.slug === slug)) return false
+    if (!areas.some((a) => a.slug === slug)) return null
     scrollToSection(`topic-${slug}`)
-    return true
+    return slug
   }
 
   const cut = h.indexOf('/')
@@ -95,7 +97,7 @@ export function openFromHash(
     const alias = AREA_ALIASES.find((a) => a.from === areaPart)
     area = alias && areas.find((a) => a.slug === alias.topic)
   }
-  if (!area) return false
+  if (!area) return null
 
   if (cardPart) {
     let el: HTMLElement | null = document.getElementById(`${area.link}/${cardPart}`)
@@ -113,10 +115,10 @@ export function openFromHash(
     if (el && el.id) {
       if (el instanceof HTMLDetailsElement) el.open = true
       scrollToSection(el.id)
-      return true
+      return area.slug
     }
   }
 
   scrollToSection(`topic-${area.slug}`)
-  return true
+  return area.slug
 }
