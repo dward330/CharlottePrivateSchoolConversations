@@ -20,6 +20,7 @@ import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 
 import en from '../locales/en.json'
+import { quietReplaceUrl } from './analytics'
 
 export const FALLBACK_LANG = 'en'
 
@@ -258,6 +259,7 @@ function urlLang(): string | null {
  * the link stays shareable. English — the default — clears the param rather than
  * pinning `?lang=en`, keeping the common URL clean. The hash route is preserved
  * exactly. A no-op when the URL already matches, so it never churns history.
+ * Goes through quietReplaceUrl() so a language switch logs no page-view.
  */
 function syncUrl(code: string) {
   if (typeof window === 'undefined') return
@@ -268,7 +270,9 @@ function syncUrl(code: string) {
   if (want) url.searchParams.set(LANG_PARAM, want)
   else url.searchParams.delete(LANG_PARAM)
   try {
-    window.history.replaceState(window.history.state, '', url)
+    // Quiet: a raw replaceState is a phantom Cloudflare page-view wherever the
+    // Navigation API exists (see quietReplaceUrl in analytics.ts).
+    quietReplaceUrl(url)
   } catch {
     /* replaceState can throw in exotic sandboxes — the language still applied */
   }

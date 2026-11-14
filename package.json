@@ -70,6 +70,7 @@
     "check:photos": "node scripts/check_photo_viewer.mjs",
     "check:cardlink": "node scripts/check_card_link.mjs",
     "audit:cardlink": "node scripts/audit_card_links.mjs",
+    "audit:pageviews": "node scripts/audit_page_views.mjs",
     "gen:og": "node scripts/gen_og_images.mjs",
     "check:tuition": "node scripts/check_tuition_rows.mjs",
     "check:matrices": "node scripts/check_compare_matrices.mjs --quiet"

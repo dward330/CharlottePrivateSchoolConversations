@@ -973,11 +973,23 @@ example: `/school/providence-day/#sports/the-college-pipeline`. The naming rule 
 - `linkName()` in `src/lib/cardLink.ts` defines the rule, and nothing else does. Each id
   comes from the same label call that renders the title, given the English translator.
 
-**Read the hash, never write it.** The page reads `location.hash` once the research has
-rendered, and again on `hashchange`. It never calls `pushState`/`replaceState` and never
-sets `location.hash`. The Cloudflare beacon runs with `"spa": true` and logs a page-view
-on every History write. So a card-link visit logs as the plain `/school/<slug>/`, and
-opening or closing a card logs nothing. Never "helpfully" put the open card into the URL.
+**The address bar follows the reader's clicks, quietly** (user, 2026-11-14, replacing the
+earlier "read the hash, never write it" rule). Opening a card shows its link, closing it
+goes back to `#<area>`, an area chip shows `#<area>`, and Welcome Video / Latest News
+clear the hash. Every write goes through `showLinkInUrl()` → `quietReplaceUrl()`:
+`replaceState` only, never `pushState` (Back would step through every card) and never
+`location.hash` (a history entry plus a `hashchange`). A load and `openFromHash` still
+never write, and nor do scroll or "Expand all".
+
+**Never call a raw `replaceState` after startup.** The beacon (2026.10.1, `"spa": true`)
+counts every same-document navigation as a page-view wherever the Navigation API exists,
+`replaceState` included. The inline `<head>` guard in `index.html` stops only writes made
+through `quietReplaceUrl()` (src/lib/analytics.ts), and it works only because it registers
+before the beacon. The same helper fixed two older double counts: `pushRoute()`'s replace
+half (every in-app navigation to a URL with a query: `?lang=`, Compare) and the language
+switch. So the dashboard dropped there after the fix, which is the count becoming correct.
+`npm run audit:pageviews` counts real beacon POSTs (needs `npm run build && npx vite
+preview`): 1 per load, 0 per card/chip click or language switch, 1 per in-app navigation.
 
 **A renamed card or area keeps its old link, forever.** The name *is* the link, so a
 rename changes it. The old name goes into `src/lib/cardLinkAliases.ts` as a former name,
@@ -998,7 +1010,8 @@ the live site.
 `npm run audit:cardlink` (needs `npm run build && npx vite preview`, not in the build) runs
 headed Chrome over every card on every school, plus every area and `#topic-` link. It
 checks that the id equals the visible name, that the target lands in view (a card also
-opens), and that there are 0 History calls. `npm run audit:cardlink -- --list` prints
+opens), that the URL follows card and chip clicks, and that there are 0 `pushState` calls.
+`npm run audit:cardlink -- --list` prints
 every card link.
 
 **A crawler check is a browser check.** Two defects here shipped past every source-level
