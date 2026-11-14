@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-11-13
 branch: feat/cardlink
-prs: [493, 494]
+prs: [493, 494, 495]
 ---
 
 # Card deep links
@@ -487,3 +487,11 @@ card links. It is still read-only on the URL, and the `topic-<slug>` ids are unc
 schools, all landed, 0 History calls. (The 753 recorded above included 11 alias probes
 from the rename test's temporary alias, which was still in the file when that run
 started.)
+
+### Follow-up: the table of contents selects the landed area (#495)
+
+The user found `#sports` scrolled to Sports while the table of contents still highlighted
+the seeded Welcome Video entry. `openFromHash` now returns the slug of the area it
+scrolled to, and `SchoolDetail` calls `setActiveKey` with it, as a chip click does. The
+audit asserts that the highlighted chip names the landed area for every link (742 pass).
+With the fix removed, all 67 Providence Day links fail.
