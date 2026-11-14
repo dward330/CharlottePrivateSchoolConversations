@@ -21,8 +21,11 @@
  * The rule is defined here and nowhere else. A rename changes the link, and the
  * old link keeps working through ./cardLinkAliases.ts (enforced by
  * `npm run check:cardlink`). The older `#topic-<slug>` section links stay
- * working too: the browser's own anchor scroll handles them, and this module
- * deliberately ignores them.
+ * working permanently, and they go through here too (user, 2026-11-13). The
+ * browser's own fragment scroll handled them until then, and it was not
+ * stable: it fires before the research renders, so the first area drifted
+ * 340–640px as Latest News loaded above it, and some areas never scrolled at
+ * all (measured on the live site). Re-aiming through scrollToSection fixes both.
  */
 
 import { AREA_ALIASES, CARD_ALIASES } from './cardLinkAliases.ts'
@@ -69,9 +72,19 @@ export function openFromHash(
     /* A malformed escape: match on the raw text. */
   }
   h = h.toLowerCase()
-  /* `topic-…`, `welcome`, `news` and the legacy `#/…` routes belong to the
-     browser's own anchor scroll or to the router. */
-  if (!h || h.startsWith('/') || h.startsWith('topic-')) return false
+  /* `welcome`, `news` and the legacy `#/…` routes belong to the browser's own
+     anchor scroll or to the router. */
+  if (!h || h.startsWith('/')) return false
+
+  /* The original section links, `#topic-<slug>`: already shared, kept forever.
+     The browser has made its own one-shot jump by now; re-aim so the section
+     stays put while the page grows above it. */
+  if (h.startsWith('topic-')) {
+    const slug = h.slice('topic-'.length)
+    if (!areas.some((a) => a.slug === slug)) return false
+    scrollToSection(`topic-${slug}`)
+    return true
+  }
 
   const cut = h.indexOf('/')
   const areaPart = cut === -1 ? h : h.slice(0, cut)
