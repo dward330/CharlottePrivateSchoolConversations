@@ -12,12 +12,17 @@
  *   - loading `#<id>` in a fresh page opens that card, lands its top 0–200px
  *     from the viewport top, keeps the hash in the address bar, makes ZERO
  *     history.pushState calls and no History write that drops or changes the
- *     hash, and closing then reopening the card makes no History write of any
- *     kind (each History write can log a Cloudflare page-view: the beacon runs
- *     with "spa": true). The app's own startup rewrite of `?lang=`
- *     (src/main.tsx) is a replaceState that keeps the hash, so it is not
- *     counted. A last area that cannot scroll up to the header counts as landed
- *     when the page is scrolled to its bottom.
+ *     hash. The app's own startup rewrite of `?lang=` (src/main.tsx) is a
+ *     replaceState that keeps the hash, so it is not counted. A last area that
+ *     cannot scroll up to the header counts as landed when the page is
+ *     scrolled to its bottom;
+ *   - the URL FOLLOWS CLICKS (user, 2026-11-14): clicking the open card's
+ *     summary closes it and leaves `#<area>` in the address bar, clicking it
+ *     again reopens it and leaves `#<id>`, and both writes are replaceState —
+ *     0 pushState, history.length unchanged — so Back still leaves the page in
+ *     one press. Whether those writes log a Cloudflare page-view is a separate
+ *     question, measured against the real beacon by `npm run audit:pageviews`
+ *     (this audit blocks the beacon entirely).
  *
  * Every probe also asserts that the table of contents highlights the area the
  * link landed in (one `.chip.is-active`, named like the area's h2), not the
@@ -27,7 +32,11 @@
  * legacy `#topic-<slug>` form for every area (the user has shared
  * /school/providence-day/#topic-sports); an unknown card (`#<area>/does-not-exist`
  * lands on the area); every former name in src/lib/cardLinkAliases.ts that
- * applies to a card this school has; and that a plain load does not scroll.
+ * applies to a card this school has; that a plain load does not scroll; and the
+ * table-of-contents chips: every area chip in both tables of contents links to
+ * `#<area name>` (never `#topic-<slug>`), clicking each header chip leaves that
+ * hash in the address bar, one rail chip does the same, and Welcome Video /
+ * Latest News clear the hash — all by replaceState, 0 pushState.
  * Once, it checks `/school/providence-day/?lang=es#sports/the-college-pipeline`.
  *
  * Needs a built site being served (it is NOT part of `npm run build`):
@@ -143,9 +152,72 @@ async function collect(slug) {
       }))
       return { cards, areas, scrollY: window.scrollY }
     }).then(async (r) => ({ ...r, hist: await page.evaluate(HIST) }))
+      .then(async (r) => ({ ...r, chipBad: await chips(page, r.areas) }))
   } finally {
     await page.close()
   }
+}
+
+/** History bookkeeping for a click: pushState count and history.length. */
+const HSTAT = `({ push: window.__hist.filter((x) => x.m === 'pushState').length, len: history.length })`
+
+/**
+ * Click the table-of-contents chips on an already-settled page. Returns the
+ * list of failures (empty when clean).
+ */
+async function chips(page, areas) {
+  const bad = []
+  const before = await page.evaluate(HSTAT)
+  const hrefs = await page.evaluate(() => ({
+    header: [...document.querySelectorAll('.school-header-topics a.chip')].map((a) => a.getAttribute('href')),
+    rail: [...document.querySelectorAll('.dossier-nav a')].map((a) => a.getAttribute('href')),
+  }))
+  for (const where of ['header', 'rail']) {
+    const legacy = hrefs[where].filter((h) => h?.startsWith('#topic-'))
+    if (legacy.length) bad.push(`${where} chips still link to ${legacy.join(', ')}`)
+    for (const a of areas) {
+      if (!hrefs[where].includes(`#${linkName(a.area)}`)) bad.push(`${where} has no chip linking to #${linkName(a.area)}`)
+    }
+  }
+  /* Each chip click starts a re-aiming scroll (scrollToSection). Clicking the
+     next chip while the page still moves lands on whatever slid under the
+     pointer, so wait until scrollY has held still for 300ms first. */
+  const still = () => page.evaluate(() => new Promise((done) => {
+    let last = scrollY, same = 0
+    const t0 = performance.now()
+    const tick = () => {
+      same = scrollY === last ? same + 1 : 0
+      last = scrollY
+      if (same >= 6 || performance.now() - t0 > 5000) done()
+      else setTimeout(tick, 50)
+    }
+    tick()
+  }))
+  const click = async (sel, want, label) => {
+    const el = page.locator(sel).first()
+    if (!(await el.count())) return
+    await still()
+    await el.scrollIntoViewIfNeeded()
+    await still()
+    await el.click()
+    await page.waitForTimeout(120)
+    const hash = await page.evaluate(() => location.hash)
+    if (hash !== want) bad.push(`clicking ${label} left the hash "${hash}", expected "${want}"`)
+  }
+  for (const a of areas) {
+    const link = linkName(a.area)
+    await click(`.school-header-topics a.chip[href="#${link}"]`, `#${link}`, `the header ${a.area} chip`)
+  }
+  await click('.school-header-topics a.chip[href="#welcome"]', '', 'the header Welcome Video chip')
+  if (areas[0]) {
+    const link = linkName(areas[0].area)
+    await click(`.dossier-nav a[href="#${link}"]`, `#${link}`, `the rail ${areas[0].area} entry`)
+  }
+  await click('.dossier-nav a[href="#news"]', '', 'the rail Latest News entry')
+  const after = await page.evaluate(HSTAT)
+  if (after.push !== before.push) bad.push(`chip clicks made ${after.push - before.push} pushState call(s)`)
+  if (after.len !== before.len) bad.push(`chip clicks changed history.length ${before.len} → ${after.len}`)
+  return bad
 }
 
 /** Load `path`, then measure `targetId` (open state + top) and the History count. */
@@ -170,14 +242,19 @@ async function probe(c, path, targetId, toggle = false) {
       }
     }, targetId).then(async (r) => ({ ...r, hist: await page.evaluate(HIST) }))
     if (toggle && r.found) {
-      /* Close and reopen the card by its summary: no History write of any kind. */
-      const n0 = await page.evaluate(() => window.__hist.length)
+      /* Close and reopen the card by its summary: the URL follows, through
+         replaceState only. */
+      const before = await page.evaluate(HSTAT)
       const summary = page.locator(`[id="${targetId}"] > summary`)
       await summary.click()
       await page.waitForTimeout(150)
+      r.closedHash = await page.evaluate(() => location.hash)
       await summary.click()
       await page.waitForTimeout(150)
-      r.toggleHist = (await page.evaluate(() => window.__hist.length)) - n0
+      r.reopenedHash = await page.evaluate(() => location.hash)
+      const after = await page.evaluate(HSTAT)
+      r.togglePush = after.push - before.push
+      r.toggleLen = after.len - before.len
     }
     return r
   } finally {
@@ -213,6 +290,7 @@ if (LIST) {
 /* Phase 2: static assertions, then the probe list. */
 const probes = []
 for (const s of bySchool) {
+  for (const b of s.chipBad) fail(s.slug, b)
   if (s.scrollY !== 0) fail(s.slug, `a plain load scrolled to y=${s.scrollY}`)
   if (s.hist !== 0) fail(s.slug, `a plain load made ${s.hist} History call(s)`)
   if (!s.cards.length) fail(s.slug, 'no cards found')
@@ -274,7 +352,13 @@ async function check(wctx, p) {
     if (!inView(r.top) && !(r.atBottom && r.top > 0)) bad.push(`top ${r.top}px`)
     if (r.found && r.chip !== r.area) bad.push(`highlighted chip "${r.chip}", expected "${r.area}"`)
     if (r.hist !== 0) bad.push(`${r.hist} History call(s)`)
-    if (r.toggleHist) bad.push(`closing/reopening the card made ${r.toggleHist} History call(s)`)
+    if (p.kind === 'card' && r.found) {
+      const area = `#${p.target.split('/')[0]}`
+      if (r.closedHash !== area) bad.push(`closing the card left the hash "${r.closedHash}", expected "${area}"`)
+      if (r.reopenedHash !== `#${p.target}`) bad.push(`reopening the card left the hash "${r.reopenedHash}"`)
+      if (r.togglePush) bad.push(`closing/reopening the card made ${r.togglePush} pushState call(s)`)
+      if (r.toggleLen) bad.push(`closing/reopening the card changed history.length by ${r.toggleLen}`)
+    }
     if (p.hash && !r.href.endsWith(p.hash)) bad.push(`address bar now ${r.href}`)
     if (bad.length) { c.bad++; fail(p.slug, `${p.kind} ${p.path} → ${bad.join(', ')}`) } else c.ok++
     counts.set(p.slug, c)
@@ -292,4 +376,4 @@ if (failures.length) {
   for (const f of failures) console.error(`  ✗ ${f}`)
   process.exit(1)
 }
-console.log(`\naudit:cardlink — ok: ${probes.length} links on ${bySchool.length} schools, 0 History calls`)
+console.log(`\naudit:cardlink — ok: ${probes.length} links on ${bySchool.length} schools, URL follows clicks, 0 pushState`)

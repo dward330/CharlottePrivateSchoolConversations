@@ -4,7 +4,24 @@
 // The app now uses real PATH URLs (src/lib/router.ts), each one a pre-rendered
 // file in dist/. That is a much better fit for the Cloudflare beacon
 // (index.html, `"spa": true`), which records a page-view on History API
-// navigations and reports `new URL(u).pathname` — never the #hash. Under the
+// navigations and reports the path — never the #hash or the query.
+//
+// HOW THE BEACON SEES NAVIGATIONS (re-measured 2026-11-14, beacon 2026.10.1):
+//   - Where the Navigation API exists (`'navigation' in window`: Chrome/Edge,
+//     recent Safari and Firefox) it listens to `navigation`'s `navigate` event,
+//     so EVERY same-document navigation to a different URL counts as a view —
+//     pushState, hash changes AND replaceState. A raw replaceState is therefore
+//     a phantom second view of the same page. Every replaceState this app makes
+//     after startup goes through quietReplaceUrl() below, which the inline
+//     `<head>` guard in index.html silences. It must stay that way.
+//   - Otherwise it patches history.pushState and listens to `popstate`;
+//     replaceState is invisible there. KNOWN RESIDUAL, left on purpose: the
+//     synthetic `popstate` pushRoute() dispatches after its push is read by the
+//     beacon's popstate listener, which compares a URL that includes the query,
+//     so a navigation to a URL with a query (?lang=, Compare) still counts twice
+//     in those browsers. Fixing it means intercepting the beacon's window
+//     popstate listener; that share of browsers is small and shrinking.
+//   `npm run audit:pageviews` counts real beacon POSTs and is the check. Under the
 // old hash router every "page" shared one real path, so every visit logged as a
 // single view and the per-page breakdown was lost; this module existed to push
 // a SYNTHETIC path purely so the beacon had something to read, then replaceState
@@ -18,8 +35,8 @@
 // analyticsPath() and pushRoute() below.
 //
 // What this module does now: (a) one pushState per navigation, so the beacon
-// fires and the Back button takes exactly one press per step, (b) a replaceState
-// restoring the full shareable URL, (c) a dispatched `popstate` so the router
+// fires and the Back button takes exactly one press per step, (b) a QUIET
+// replaceState restoring the full shareable URL, (c) a dispatched `popstate` so the router
 // re-reads (pushState does not fire one), and (d) a delegated click handler so
 // plain <a href="/school/…"> links navigate in-app instead of refetching.
 //
@@ -145,6 +162,27 @@ export function analyticsPath(path: string): string {
 }
 
 /**
+ * replaceState that the Cloudflare beacon does not count as a page-view.
+ *
+ * Use this for EVERY replaceState made after startup (the two in src/main.tsx
+ * run before the beacon has registered anything, so they log nothing). A raw
+ * replaceState is a phantom page-view wherever the Navigation API exists; see
+ * the header comment and the `<head>` guard in index.html. The flag is read
+ * synchronously by that guard while replaceState dispatches `navigate`.
+ *
+ * A throw propagates — callers already wrap History calls in try/catch.
+ */
+export function quietReplaceUrl(url: string | URL, state: unknown = window.history.state): void {
+  const w = window as unknown as { __cscQuietUrl?: boolean }
+  w.__cscQuietUrl = true
+  try {
+    window.history.replaceState(state, '', url)
+  } finally {
+    w.__cscQuietUrl = false
+  }
+}
+
+/**
  * Navigate to an in-app route, adding exactly one history entry and logging a
  * Cloudflare page-view for the destination. `href` may be a path ('/school/…')
  * or a legacy hash ('#/school/…'). Falls back to a plain location assignment if
@@ -159,7 +197,10 @@ export function pushRoute(href: string): void {
   }
   try {
     // Two URLs, one history entry, because the address bar and the beacon want
-    // DIFFERENT things and only pushState triggers a page-view.
+    // DIFFERENT things. Only the pushState may count as a page-view: the
+    // replaceState goes through quietReplaceUrl(), or the beacon's Navigation
+    // API listener logs it as a second view (it did, for every URL with a
+    // query, until 2026-11-14).
     //
     //   pushState -> analyticsPath(path): bare path, no query. This is what the
     //     beacon reads (synchronously) and what you see in the Cloudflare
@@ -170,7 +211,7 @@ export function pushRoute(href: string): void {
     //
     // Both are RELATIVE, for the beacon-normaliser reason documented above.
     window.history.pushState(null, '', analyticsPath(path))
-    window.history.replaceState(null, '', path)
+    quietReplaceUrl(path, null)
   } catch {
     // Exotic sandbox: fall back to a plain assignment.
     window.location.assign(path)

@@ -92,6 +92,45 @@
         } catch (e) {}
       })()
     </script>
+
+    <!-- Keep the app's OWN address-bar writes from counting as Cloudflare
+         page-views. Must run BEFORE the beacon — which is why it is an inline
+         classic script here, not code in src/main.tsx.
+
+         The beacon (beacon.min.js 2026.10.1, `"spa": true`) listens to
+         `navigation`'s `navigate` event wherever the Navigation API exists
+         (Chrome/Edge, recent Safari and Firefox), and logs a page-view for
+         EVERY same-document navigation to a different URL — replaceState and
+         hash changes included, not just pushState. So opening a card (which
+         shows its deep link via replaceState), the replaceState half of
+         pushRoute(), and a language switch each logged a phantom second view
+         of the same page.
+
+         quietReplaceUrl() in src/lib/analytics.ts raises window.__cscQuietUrl
+         around its replaceState; the `navigate` event fires synchronously
+         inside that call, and this listener stops it reaching the beacon.
+         Measured 2026-11-14 against the live beacon: 1 phantom view without
+         the guard, 0 with it, URL still updated.
+
+         Two things that were measured NOT to work, so do not "simplify":
+         - Registering this later (src/main.tsx awaits the locale catalog at
+           top level, and the deferred beacon can run during that await).
+           Listener ORDER is the only thing that silences the beacon.
+         - `{ capture: true }`: it does not reorder listeners on `navigation`.
+         Never call preventDefault() here — that would cancel the URL change.
+         `npm run audit:pageviews` counts real beacon POSTs and is the check. -->
+    <script>
+      ;(function () {
+        try {
+          window.__cscQuietUrl = false
+          if (window.navigation && navigation.addEventListener) {
+            navigation.addEventListener('navigate', function (e) {
+              if (window.__cscQuietUrl) e.stopImmediatePropagation()
+            })
+          }
+        } catch (e) {}
+      })()
+    </script>
     <style>
       /* Paired with the script above. Only the pre-rendered body is hidden;
          the page keeps its background so this reads as a normal load, not a
@@ -123,6 +162,10 @@
          Dashboard: Cloudflare → Analytics → Web analytics, site
          charlotteschoolinsights.com. See src/lib/analytics.ts for the SPA
          page-view hook this app needs on top of the beacon.
+         Since 2026.10.1 the beacon counts same-document navigations through
+         the Navigation API (replaceState included); the `navigate` guard in
+         <head> is what keeps the app's own URL writes (quietReplaceUrl) from
+         counting. `npm run audit:pageviews` measures it.
          (Token was 1fd5db08… while the site lived at dward330.github.io; Cloudflare
          issues one token per site, so moving to the custom domain changed it.) -->
     <script

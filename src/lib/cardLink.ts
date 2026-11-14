@@ -28,6 +28,7 @@
  * all (measured on the live site). Re-aiming through scrollToSection fixes both.
  */
 
+import { quietReplaceUrl } from './analytics.ts'
 import { AREA_ALIASES, CARD_ALIASES } from './cardLinkAliases.ts'
 import { scrollToSection } from './scrollToSection.ts'
 
@@ -48,6 +49,42 @@ export function cardLinkId(areaName: string, cardName: string): string {
   return `${linkName(areaName)}/${linkName(cardName)}`
 }
 
+/** The area half of a card id: `sports/the-college-pipeline` → `sports`. */
+export function areaOfCardId(id: string): string {
+  return id.split('/')[0]
+}
+
+/**
+ * Show `hash` (no leading '#'; null clears it) in the address bar, quietly.
+ * The path and query (`?lang=es`) are kept, and so is `history.state`.
+ *
+ * The URL follows the reader (user, 2026-11-14, replacing the cardlink rule
+ * "read the hash, never write it"), under three constraints:
+ *
+ *   - replaceState ONLY — never pushState (Back would step through every card)
+ *     and never `location.hash = …` (a history entry, a `hashchange` that
+ *     re-runs openFromHash, and the browser's own fragment jump).
+ *   - Through quietReplaceUrl(), never a raw replaceState. The Cloudflare
+ *     beacon counts any same-document navigation as a page-view wherever the
+ *     Navigation API exists; the `<head>` guard in index.html silences only
+ *     writes that go through quietReplaceUrl. `npm run audit:pageviews` checks.
+ *   - On user clicks only: never on load, scroll, openFromHash or "Expand all".
+ *
+ * A no-op when the URL already matches. Never throws: a URL write must never
+ * break a click.
+ */
+export function showLinkInUrl(hash: string | null): void {
+  if (typeof window === 'undefined') return
+  const { pathname, search, hash: current } = window.location
+  const target = pathname + search + (hash ? `#${hash}` : '')
+  if (target === pathname + search + current) return
+  try {
+    quietReplaceUrl(target)
+  } catch {
+    /* An exotic sandbox: the click still did its job. */
+  }
+}
+
 /**
  * Act on an inbound card or area hash. Returns the slug of the research area
  * it scrolled to (so the caller can select that area in the table of
@@ -56,12 +93,9 @@ export function cardLinkId(areaName: string, cardName: string): string {
  * `areas` is this school's covered research areas, each with its `linkName()`
  * form of the English area name.
  *
- * ⛔ READ THE HASH, NEVER WRITE IT. Nothing here (or in its caller) may call
- * `history.pushState` / `replaceState` or assign `location.hash`. The Cloudflare
- * beacon runs with `"spa": true` (index.html) and records a page-view on every
- * History API change, so writing the URL when a card opens would log a phantom
- * page-view per click and inflate the dashboard. Opening a card stays a pure DOM
- * change; `npm run audit:cardlink` asserts 0 History calls.
+ * This only READS the hash. A load or a hashchange never writes the URL. The
+ * address bar follows the reader's own clicks instead (a card's summary, a
+ * table-of-contents chip), and only through `showLinkInUrl()` below.
  */
 export function openFromHash(
   hash: string,

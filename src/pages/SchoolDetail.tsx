@@ -168,7 +168,7 @@ import { useTranslation } from 'react-i18next'
 import { useScrollEdges } from '../lib/useScrollEdges.ts'
 import { scrollToSection } from '../lib/scrollToSection.ts'
 import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
-import { cardLinkId, linkName, openFromHash } from '../lib/cardLink.ts'
+import { areaOfCardId, cardLinkId, linkName, openFromHash, showLinkInUrl } from '../lib/cardLink.ts'
 import { localizeMoneyText } from '../lib/format.ts'
 
 type Loaded = Record<string, MetricGroup[]>
@@ -389,17 +389,19 @@ function ExpandAllIcon({ up = false }: { up?: boolean }) {
   )
 }
 
-/* The chips call preventDefault() so a click never writes the hash: each
-   History API change would log a Cloudflare page-view (the beacon runs with
-   "spa": true). An INBOUND hash is a different matter: a shared
-   `#topic-<slug>` link and a card link (`#<area>/<card>`) are both read by
-   openFromHash in src/lib/cardLink.ts. */
+/* The chips call preventDefault() so the browser does not make its own
+   fragment jump (or add a history entry). These helpers only scroll; the chip
+   handlers then show the link in the address bar through showLinkInUrl()
+   (src/lib/cardLink.ts), which is replaceState-only and quiet to the
+   Cloudflare beacon. The section ids stay `topic-<slug>` forever. An INBOUND
+   hash — a shared `#topic-<slug>` link or a card link (`#<area>/<card>`) — is
+   read by openFromHash. */
 function scrollToTopic(e: React.MouseEvent, slug: string) {
   e.preventDefault()
   scrollToId(e, `topic-${slug}`)
 }
 
-/* Same reason as scrollToTopic: a click must never write the hash. */
+/* Same as scrollToTopic: scroll only, no fragment jump. */
 function scrollToId(e: React.MouseEvent, id: string) {
   e.preventDefault()
   scrollToSection(id)
@@ -577,17 +579,19 @@ export function SchoolDetail({ slug }: { slug: string }) {
 
   /* Card deep links: `#<area name>/<card name>` opens that card and scrolls to
      it, once the research has rendered (the cards do not exist before `ready`).
-     READ-ONLY on the URL — see openFromHash for why nothing here may write the
-     hash or call the History API. `handled` keys on slug + hash, so a language
-     switch (which toggles `ready`) does not pull a reader back to the card
-     after they have scrolled away. */
+     READ-ONLY on the URL: a load or a hashchange never writes it. `handled`
+     keys on slug + hash, so a language switch (which toggles `ready`) does not
+     pull a reader back to the card after they have scrolled away. Every click
+     that writes the URL (cards and chips, below) updates `handledHash` too, so
+     the written hash never reads as a new inbound link. */
   const handledHash = useRef<string | null>(null)
+  /* An area's link form: `linkName()` of its ENGLISH name, never its slug. The
+     table-of-contents chips use it as their href and write it to the URL. */
+  const areaLink = (t: { slug: string; name: string }) =>
+    linkName(topicLabel(enT, t.slug, t.name))
   useEffect(() => {
     if (!ready) return
-    const areas = covered.map((t) => ({
-      slug: t.slug,
-      link: linkName(topicLabel(enT, t.slug, t.name)),
-    }))
+    const areas = covered.map((t) => ({ slug: t.slug, link: areaLink(t) }))
     const run = () => {
       const key = slug + location.hash
       if (handledHash.current === key) return
@@ -606,6 +610,77 @@ export function SchoolDetail({ slug }: { slug: string }) {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready, slug])
+
+  /* The address bar follows the reader (user, 2026-11-14). Show `hash` in the
+     URL and mark it handled, so the deep-link effect above does not treat our
+     own write as an inbound link on its next run. */
+  const showLink = (hash: string | null) => {
+    showLinkInUrl(hash)
+    handledHash.current = slug + location.hash
+  }
+
+  /* Opening a research card shows its deep link; closing it goes back to the
+     area link, but only if the URL still points at that card. One delegated
+     pair of listeners covers every card render site.
+
+     CLICK MARKS INTENT, TOGGLE COMMITS. The click records which top-level
+     card's <summary> the reader pressed (Enter/Space on a summary also fire
+     `click`); the `toggle` that follows writes the URL once `open` has really
+     changed. A toggle no click caused — openFromHash, the dev-only "Expand
+     all" — writes nothing, and neither does a click that did not toggle.
+     `toggle` does not bubble, so it is caught in the capture phase. Nested
+     <details> (club-cluster rows) are not cards and are ignored. */
+  const pendingCard = useRef<{ card: HTMLDetailsElement; at: number } | null>(null)
+  useEffect(() => {
+    const main = mainRef.current
+    if (!main) return
+    const onClick = (e: MouseEvent) => {
+      const target = e.target as Element | null
+      const summary = target?.closest?.('summary')
+      if (!summary || !main.contains(summary)) return
+      const inner = target?.closest('a, button')
+      if (inner && summary.contains(inner)) return
+      const card = summary.parentElement
+      if (
+        !(card instanceof HTMLDetailsElement) ||
+        !card.classList.contains('note-card') ||
+        !card.id.includes('/') ||
+        card.parentElement?.closest('.note-card')
+      ) {
+        return
+      }
+      pendingCard.current = { card, at: performance.now() }
+    }
+    const onToggle = (e: Event) => {
+      const pending = pendingCard.current
+      if (!pending || e.target !== pending.card) return
+      pendingCard.current = null
+      /* A click whose toggle was cancelled must not arm a later, unrelated
+         toggle of the same card. */
+      if (performance.now() - pending.at > 1000) return
+      const card = pending.card
+      if (card.open) {
+        showLink(card.id)
+        const section = card.closest('.topic-section')
+        if (section?.id.startsWith('topic-')) setActiveKey(section.id.slice('topic-'.length))
+      } else {
+        let current = location.hash.slice(1)
+        try {
+          current = decodeURIComponent(current)
+        } catch {
+          /* A malformed escape: compare the raw text. */
+        }
+        if (current.toLowerCase() === card.id) showLink(areaOfCardId(card.id))
+      }
+    }
+    main.addEventListener('click', onClick)
+    main.addEventListener('toggle', onToggle, true)
+    return () => {
+      main.removeEventListener('click', onClick)
+      main.removeEventListener('toggle', onToggle, true)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [slug])
 
   if (!school) {
     return (
@@ -683,7 +758,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
               <a
                 className={activeKey === 'welcome' ? 'chip is-active' : 'chip'}
                 href="#welcome"
-                onClick={(e) => { setActiveKey('welcome'); scrollToId(e, 'welcome') }}
+                onClick={(e) => { setActiveKey('welcome'); scrollToId(e, 'welcome'); showLink(null) }}
               >
                 <PlayIcon size={10} />
                 {tr('school.welcomeVideo')}
@@ -693,7 +768,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
               <a
                 className={activeKey === 'news' ? 'chip is-active' : 'chip'}
                 href="#news"
-                onClick={(e) => { setActiveKey('news'); scrollToId(e, 'news') }}
+                onClick={(e) => { setActiveKey('news'); scrollToId(e, 'news'); showLink(null) }}
               >
                 <NewspaperIcon size={10} />
                 {tr('news.tocLabel')}
@@ -703,10 +778,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
               <a
                 key={t.slug}
                 className={t.slug === activeKey ? 'chip is-active' : 'chip'}
-                href={`#topic-${t.slug}`}
+                href={`#${areaLink(t)}`}
                 onClick={(e) => {
                   setActiveKey(t.slug)
                   scrollToTopic(e, t.slug)
+                  showLink(areaLink(t))
                 }}
               >
                 {topicLabel(tr, t.slug, t.name)}
@@ -772,7 +848,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   : 'dossier-nav-welcome'
               }
               href="#welcome"
-              onClick={(e) => { setActiveKey('welcome'); scrollToId(e, 'welcome') }}
+              onClick={(e) => { setActiveKey('welcome'); scrollToId(e, 'welcome'); showLink(null) }}
             >
               <PlayIcon size={13} />
               {tr('school.welcomeVideo')}
@@ -784,7 +860,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 activeKey === 'news' ? 'dossier-nav-welcome is-active' : 'dossier-nav-welcome'
               }
               href="#news"
-              onClick={(e) => { setActiveKey('news'); scrollToId(e, 'news') }}
+              onClick={(e) => { setActiveKey('news'); scrollToId(e, 'news'); showLink(null) }}
             >
               <NewspaperIcon size={13} />
               {tr('news.tocLabel')}
@@ -795,10 +871,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
             <a
               key={t.slug}
               className={t.slug === activeKey ? 'is-active' : undefined}
-              href={`#topic-${t.slug}`}
+              href={`#${areaLink(t)}`}
               onClick={(e) => {
                 setActiveKey(t.slug)
                 scrollToTopic(e, t.slug)
+                showLink(areaLink(t))
               }}
             >
               {topicLabel(tr, t.slug, t.name)}
