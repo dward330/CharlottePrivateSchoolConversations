@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-11-13
 branch: feat/cardlink
-prs: [493]
+prs: [493, 494]
 ---
 
 # Card deep links
@@ -476,3 +476,14 @@ the URL alone with 0 History calls, Back returns to the previous page, `?lang=es
 "La cantera universitaria" at 80px, 390px lands at 80px, `#topic-sports` lands at 80px,
 `/#/school/cannon` rewrites to `/school/cannon/`, and a plain load stays at scrollY 0;
 `audit:mobile --only providence-day` clean.
+
+### Follow-up: `#topic-<slug>` links re-aimed (#494)
+
+After #493 the user chose the suggested fix (2026-11-13), overriding the plan's "never
+make `openFromHash` act on a `topic-…` hash". `openFromHash` now re-aims
+`#topic-<slug>` with `scrollToSection` once the research is ready, exactly as it does
+card links. It is still read-only on the URL, and the `topic-<slug>` ids are unchanged.
+`audit:cardlink` now fails a missed legacy landing instead of warning: 742 links on 13
+schools, all landed, 0 History calls. (The 753 recorded above included 11 alias probes
+from the rename test's temporary alias, which was still in the file when that run
+started.)
