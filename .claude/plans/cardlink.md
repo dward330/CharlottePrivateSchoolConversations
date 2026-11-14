@@ -1,11 +1,11 @@
 ---
 name: cardlink
 title: Shareable links that scroll to AND open one research card on a school page, named by the area and card names
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-13
 branch: feat/cardlink
-prs: []
+prs: [493]
 ---
 
 # Card deep links
