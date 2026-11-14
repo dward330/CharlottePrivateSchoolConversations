@@ -981,6 +981,14 @@ clear the hash. Every write goes through `showLinkInUrl()` → `quietReplaceUrl(
 `location.hash` (a history entry plus a `hashchange`). A load and `openFromHash` still
 never write, and nor do scroll or "Expand all".
 
+**The canonical link carries the hash too, at runtime.** The share sheet in iPhone
+Safari and Chrome (and Chrome on Android) shares `<link rel="canonical">`, not the address
+bar. So a card link shared from a phone used to land on the bare school page (user report,
+2026-11-14). `syncCanonicalHash()` in `src/lib/canonicalHash.ts` copies `location.hash` onto the
+canonical on load, after every `showLinkInUrl()` and on `hashchange`. The pre-rendered HTML
+keeps the bare canonical, so search and `check:seo` are unchanged. `audit:cardlink` asserts
+the canonical follows every load and click. Desktop copy-from-address-bar never showed it.
+
 **Never call a raw `replaceState` after startup.** The beacon (2026.10.1, `"spa": true`)
 counts every same-document navigation as a page-view wherever the Navigation API exists,
 `replaceState` included. The inline `<head>` guard in `index.html` stops only writes made
