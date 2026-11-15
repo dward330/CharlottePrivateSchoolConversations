@@ -1,11 +1,11 @@
 ---
 name: trinitycamps
 title: Trinity Episcopal Camp Catalog lists every 2026 camp session (83 rows), and the counts say what they count
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-15
 branch: feat/trinitycamps
-prs: []
+prs: [499]
 ---
 
 # Trinity Episcopal: list every 2026 camp session in the Camp Catalog
@@ -479,3 +479,17 @@ Category is our classification (D6).
   the profile.
   **Phase 2 therefore also covers the `after-school` topic:** one changed desc and one new
   source label, in all nine locales. Measure it the same way as step 9.
+
+## Implementation notes
+
+- **Phase 1 opened no PR.** Step 8 said to open one at the English stop. `/implement` keeps both phases in one PR opened after Phase 2, so the branch was pushed and PR #499 was opened in Phase 2.
+- **Phase 2 scope, measured by stamp:**
+  - summer-programs: 65 new strings and 11 retired per locale.
+  - after-school: 1 new string and 0 retired. The old run-clubs desc is shared by the other two TED rows, so it stays.
+  - Every new or retired stamp is a Trinity path. No other school's `at` path or `t` changed.
+- **`check:work` is not an npm script.** The integrity check is `node scripts/check_work_integrity.mjs`. After a splice it always fails assertion 3 (string count). All 18 of its violations were that.
+- **Translation choices changed centrally after the per-locale passes:**
+  - bn "Weekdays" became "শনি ও রবি বাদে" (except Saturday and Sunday). The draft said Mon–Fri, which is wrong for LEAP's four-day first week.
+  - ar "Weekdays" became "أيام الدوام", because "أيام الأسبوع" also reads "days of the week".
+  - ar's Farm to Fork desc was recast with the campers as subject. The draft had inferred the chef's gender from her name.
+- **fa/ar LEAP range:** "29 June-17 July" renders with 29 on the right, read first. That matches the shipped, reviewed "29 June-2 July" label, as confirmed by a glyph-x probe in Chrome. It is correct RTL order for a range with month words, unlike the bare-number ranges the RTL-reversal fix isolates.
