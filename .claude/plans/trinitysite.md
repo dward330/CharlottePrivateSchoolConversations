@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-14
 branch: fix/trinitysite
-prs: []
+prs: [498]
 ---
 
 # Re-source Trinity Episcopal to its redesigned website
