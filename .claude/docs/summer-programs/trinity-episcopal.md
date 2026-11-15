@@ -393,8 +393,11 @@ catalog tables below carry only the first line.
 > **Mad Science runs Spy Academy, and no other camp names it.** *Corrected 2026-11-15:* this
 > note used to say the name appears nowhere in the school's documents. The camp-descriptions
 > document calls Spy Academy "the Mad Science Spy Academy" twice (see the verbatim section at
-> the end of this file). The other science camps (Chemistry of Slime, Candy Chemistry, Crazy
-> Chemworks, Guts Goo & Gross Science) name no vendor.
+> the end of this file). The other science camps (Chemistry of Slime, Candy Chemistry,
+> Guts Goo & Gross Science) name no vendor. *Corrected 2026-11-15 (trinitycamps build):*
+> Crazy Chemworks' description ends "Each camper will take home a full set of Mad Science
+> lab gear!", so the document names Mad Science there too, as the source of the take-home
+> gear rather than as the camp's operator.
 
 **Two gender-restricted camps**, flagged in the CSV: **Pixels and Paints (girls only)**
 and **Kamp HUROP: Think Higher - The Level Up Leadership Lab (boys only)**.
@@ -826,7 +829,7 @@ Cost: $255
 Time: 1-4p
 
 Minecraft Designers
-If you love the game Minecraft and always wanted to design your own world, this class is for you! Learn how to create a custom map, design structures to share between worlds, build with Redstone and Command blocks, and create custom textures for you to import at home or share with friends. Projects from this class require the Java version of Minecraft. Tablet, phone, and game console versions of Minecraft are not compatible. Returning students can create more advanc
+If you love the game Minecraft and always wanted to design your own world, this class is for you! Learn how to create a custom map, design structures to share between worlds, build with Redstone and Command blocks, and 
 
 …[truncated]
 

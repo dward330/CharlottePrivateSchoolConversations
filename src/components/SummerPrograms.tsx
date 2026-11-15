@@ -336,9 +336,11 @@ export function CampCatalogBody({ data }: { data: CampCatalog }) {
                 five-day one). A bare name key made those collide, and React
                 silently rendered one row's content under the other's identity —
                 so a filtered list showed the wrong camps. Found in the browser;
-                no source-level check could see it. */}
+                no source-level check could see it. Grade band and week are in
+                the key too: the same camp can run as two grade sections at one
+                price and time (Trinity's Comic Creations - Manga). */}
             {shown.map((c) => (
-              <tr key={`${c.name}|${c.price}|${c.hours}`}>
+              <tr key={`${c.name}|${c.price}|${c.hours}|${c.gradeLabel}|${c.weeks ?? ''}`}>
                 <td className="as-td">
                   <strong className="as-class-name">{highlight(c.name, q)}</strong>
                   <span className="su-cat-tag tag-neutral">{c.categoryLabel}</span>

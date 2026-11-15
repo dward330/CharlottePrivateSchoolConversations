@@ -1,7 +1,7 @@
 ---
 name: trinitycamps
 title: Trinity Episcopal Camp Catalog lists every 2026 camp session (83 rows), and the counts say what they count
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-15
 branch: feat/trinitycamps
