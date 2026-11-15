@@ -297,7 +297,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: 'Theater and Improv',
-        desc: 'A full-day performing camp, and one of the three widest grade bands on the slate.',
+        desc: 'A full-day improv and acting camp built on the "Yes, And" technique, with some stage design. No experience is needed.',
         category: 'performing',
         categoryLabel: 'Performing arts',
         grades: ['2', '3', '4', '5', '6', '7', '8'],
@@ -678,7 +678,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: "Babysitting Bootcamp/ABC's of First Aid",
-        desc: 'The only camp on the slate with a mixed daily schedule — 9-12p Monday to Wednesday, a full day Thursday, and 9-12p Friday.',
+        desc: 'Babysitting skills, from changing diapers to rainy-day crafts, plus First Aid. Half days Monday to Wednesday and Friday, with a full day Thursday for First Aid.',
         category: 'enrichment',
         categoryLabel: 'Games & enrichment',
         grades: ['4', '5', '6', '7', '8'],
@@ -691,7 +691,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: 'Hogwarts Express',
-        desc: 'A full-day themed camp in the biggest week of the summer, which carries 17 camps.',
+        desc: 'A full-day Harry Potter camp of wand-making, safe "potions" and house challenges, in the busiest week of the summer.',
         category: 'enrichment',
         categoryLabel: 'Games & enrichment',
         grades: ['3', '4', '5', '6', '7', '8'],
@@ -888,7 +888,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: 'Farm to Fork',
-        desc: 'A cooking-and-growing camp, one of the three widest grade bands on the slate.',
+        desc: 'Chef Markayla Brooks, a member of Trinity’s own staff, teaches campers to turn fresh farm ingredients into favorite comfort-food dishes.',
         category: 'enrichment',
         categoryLabel: 'Games & enrichment',
         grades: ['2', '3', '4', '5', '6', '7', '8'],

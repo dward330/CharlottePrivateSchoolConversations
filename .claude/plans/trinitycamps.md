@@ -458,3 +458,14 @@ Category is our classification (D6).
   one row. The user asked for "all 85". Ask at the Phase 1 stop if it reads wrong. The
   alternative is two extra rows priced as "included", with a translated label for that
   word.
+- **Four more shipped descs rewritten at the user's review (2026-11-15).** Each was a
+  claim about the whole slate that the full list made false or unclear:
+  - Babysitting Bootcamp was called "the only camp with a mixed daily schedule", but both
+    Camp Independence rows also mix their days.
+  - Theater and Improv and Farm to Fork were each "one of the three widest grade bands",
+    but the two Wide World of Sports rows (K-6) are as wide.
+  - Hogwarts Express said its week "carries 17 camps", the grid's count with LEAP week 2,
+    where the table shows 16 rows. It now says "the busiest week of the summer", which
+    is true either way.
+  Each new desc is paraphrased from the school's own description. That brings Phase 2's
+  stale stamps to 11 per locale.
