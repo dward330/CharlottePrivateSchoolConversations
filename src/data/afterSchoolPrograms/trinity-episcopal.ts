@@ -179,7 +179,9 @@ export const trinityEpiscopal: AfterSchoolProgram = {
       },
       {
         name: 'Boys and girls run clubs',
-        desc: 'Named by the school as an example of a seasonal TED enrichment; day, grade band and fee are not published.',
+        // The school does not say these are the profile's two programs, so the
+        // desc names them as a separate listing, never as the same thing.
+        desc: 'Named by the school as an example of a seasonal TED enrichment; day, grade band and fee are not published. Separately, the 2026-27 School Profile lists Girls on the Run & Let Me Run as Lower School clubs.',
         day: '—',
         grades: [],
         gradeLabel: 'K–8',
@@ -211,6 +213,10 @@ export const trinityEpiscopal: AfterSchoolProgram = {
       {
         label: 'tescharlotte.org — Middle School',
         url: 'https://www.tescharlotte.org/academics/middle-school',
+      },
+      {
+        label: '2026-27 School Profile (PDF; Lower School clubs)',
+        url: PROFILE_2627,
       },
     ],
   },

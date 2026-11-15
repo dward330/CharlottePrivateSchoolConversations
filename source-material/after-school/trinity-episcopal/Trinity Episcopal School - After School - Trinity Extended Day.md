@@ -61,6 +61,19 @@ as Assistant Director (directory: "Assistant Director of Trinity Extended Day").
   activities"), "seasonal" enrichments, and "boys and girls run clubs". The named
   enrichments are now three: chess club, boys and girls run clubs, music lessons, "and much
   more".
+- **Is there a fuller enrichment list? No (rechecked 2026-11-15).** Claude (Claude Code
+  agent), on behalf of Derrick, during the `trinitycamps` review, in Chrome. The live TED
+  page (https://www.tescharlotte.org/community/trinity-extended-day) still names only those
+  three. The site's own search (https://www.tescharlotte.org/search-results?q=enrichment,
+  and `q=` chess, run club, music lessons, karate, cheer) finds no other page listing paid
+  after-school enrichments. Its other "enrichment" hits are school-day subjects: the
+  Lower School and Middle School pages, and "16 Enrichment courses (Lower and Middle
+  School)" on Trinity At a Glance. Karate and cheer club have zero hits.
+- **Run clubs and the profile.** The 2026-27 School Profile
+  (https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf)
+  lists "Student Clubs & Groups: Lower School- Chess Club, Girls on the Run & Let Me Run".
+  The school does **not** say these are TED's "boys and girls run clubs". So the card names
+  them as a separate profile listing, never as the same programs (user, 2026-11-15).
 - **Director's name:** the page's leadership block and the staff directory
   (https://www.tescharlotte.org/about-us/staculty) both read "**Jocelyn Anderson** /
   Director of Auxiliary Services", with email jpurdie@tescharlotte.org. The page's contact
