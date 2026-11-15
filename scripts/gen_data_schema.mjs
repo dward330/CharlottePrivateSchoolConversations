@@ -260,7 +260,7 @@ const { VALUE_METRICS } = await import('../src/data/metricValues.ts')
 
 const STANDALONE = [
   { file: 'courseOfferings.ts', root: 'CourseOfferings', title: 'Course offerings', note: 'Per-division course catalogs, transcribed from each school’s own curriculum guide.' },
-  { file: 'financialAidReports.ts', root: 'FinancialAidReport', title: 'Financial-aid deep-dive report', note: 'The structured tuition/aid card. Requires BOTH an `in-depth-report` metric key and a REPORTS entry.' },
+  { file: 'financialAidReports.ts', root: 'FinancialAidReport', title: 'Financial-aid deep-dive report', note: 'The structured tuition/aid card. Requires BOTH an `in-depth-report` metric key and a REPORTS entry. A `ScholarshipRung`\'s `share` is the share of TUITION that gift covers, drawn as a bar and printed as a bold percentage. Leave it off when the school publishes no such share, and the rung renders with its label and text only. Never type a placeholder bar width, and never use a different measure such as the share of students aided (Trinity Episcopal and Gaston Day review, 2026-11-14).' },
   { file: 'clubCatalog.ts', root: 'ClubCatalog', title: 'Club catalog', note: 'The full expandable club list behind the Student Clubs cards.' },
   { file: 'clubClusters.ts', root: 'ClubClusters', title: 'Club clusters', note: 'Hand-maintained rows for the Academic & Competitive Clubs card.' },
   { file: 'wellsFargoCup.ts', root: 'CupRecord', title: 'Wells Fargo Cup ledger', note: 'Official association standings shared by every Cup card, because one school’s table needs other schools’ rows. `CUP_DIVISION_LEADERS` holds places 1–2 in every division, on or off the roster.' },
