@@ -29,6 +29,94 @@ Two dead URLs still surfaced by search engines with **stale** content:
 `/academics/honor-code.cfm` (404). See the strings note below — this cost a real
 contradiction.
 
+### Live-site recheck, 2026-11-14
+
+Trinity moved to a new Finalsite site and both Enrichments pages now return 404. The whole
+new site was crawled on 2026-11-14, including the text of every click-to-open "popup" tile.
+Matching is by content. The school's new live pages override the findings below wherever
+they differ; the findings sections are left as written for the implementation pass. The
+Vimeo channel was not re-checked (not part of tescharlotte.org).
+
+**Where each source now lives**
+
+| Old URL | Now | Latest Wayback capture of the old URL |
+|---|---|---|
+| `/academics/lower-school-enrichments.cfm` | https://www.tescharlotte.org/academics/lower-school — popup tiles "Visual Arts" and "Performing Arts and Music Education" | https://web.archive.org/web/20260714061907/https://www.tescharlotte.org/academics/lower-school-enrichments.cfm |
+| `/academics/middle-school-enrichments.cfm` | https://www.tescharlotte.org/academics/middle-school — popup tiles "Visual Arts", "Performing Arts", "Middle School Electives" | https://web.archive.org/web/20251027202511/https://www.tescharlotte.org/academics/middle-school-enrichments.cfm |
+| `/editoruploads/files/26-27SchoolProfile.pdf` | https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf — same edition; "K- 8 Performing Arts Program: 4th Grade Musical; 5th Grade Shakespeare Review; Middle School fall play, winter musical, and choir and band concerts" unchanged | none (CDX returns no capture) |
+| `/academics/lower-school/ls-curriculum` | still dead (404 since 2021); content nowhere on the new site | 2021 captures only (see below) |
+
+**Confirmed verbatim — Lower School "Performing Arts and Music Education" tile**
+
+> "All students take general music, which emphasizes creativity, music appreciation, musical
+> literacy, and performance preparation. Each grade level in Lower School features a
+> dramatic or musical performance, such as Fairy Tale Plays in First Grade and Shakespeare in
+> Fifth Grade. The music program provides many opportunities for individual growth and
+> fosters every child's innate love of music. K-4 students participate in general music
+> classes. Beginning in 5th Grade, students may choose from one of two ensembles: chorus or
+> band. Ensembles perform at chapels, commencement, and venues outside of school."
+
+(The live page uses a curly apostrophe in "child’s".) The first sentence, "All students take
+general music…", is new.
+
+**Confirmed — Lower School "Visual Arts" tile:** "Trinity’s art curriculum follows the
+pedagogy of Teaching Artistic Behaviors (TAB), a methodology that is student-focused,
+choice-based, and teacher-facilitated." The centers / mini-art studios / painting, clay, or
+printmaking / Edmund Feldman passage is unchanged.
+
+**Changed — Middle School "Performing Arts" tile (verbatim):**
+
+> "Sixth-grade students choose from one of two ensembles: Choir or Band. Seventh and 8th
+> grade students who choose to continue in an ensemble can choose Advanced Band or Advanced
+> Choir. The music program provides many opportunities for individual growth and fosters
+> every child’s innate love of music. Ensembles may perform at chapels, commencement and
+> various venues outside of school. Middle School students may also choose to participate in
+> the after-school fall play or winter musical."
+
+- The quoted "6th Grade students choose from one of two ensembles: choir or band" and "7th
+  and 8th Grade students who decide to continue…" are no longer on the site.
+- The **drama elective** is no longer stated, and "winter play or spring musical" is now
+  **"after-school fall play or winter musical"**. That now agrees with the profile's
+  "Middle School fall play, winter musical". The Middle School half of the production-slate
+  conflict below is resolved; the Lower School half (profile "4th Grade Musical" vs web
+  "Fairy Tale Plays in First Grade") remains.
+- "Ensembles perform at chapels, commencement, and various venues…" is now "Ensembles **may**
+  perform at chapels, commencement and various venues outside of school."
+- The chorus / choir split still holds: Lower School says "chorus or band", Middle School
+  says "Choir or Band". The school calendar lists "Grades 5-8 Choir Concert".
+
+**Changed — Middle School "Visual Arts" tile:** it now names the pedagogy "Teaching for
+Artistic Behavior (TAB)". The Lower School tile still says "Teaching Artistic Behaviors
+(TAB)". The MS tile writes "mini art studios" / "art making", as before.
+
+**Newly stated**
+
+- Middle School Electives tile: "Beginning in 7th Grade, Middle School students opt into
+  electives… Electives offered include, but are not limited to: Advanced Band / Advanced
+  Choir / Studio Art / Mock Trial and Speech & Debate / Sports Activism / Intro to Digital
+  Media Literacy". So Advanced Band, Advanced Choir and Studio Art are year-long electives
+  that "run on alternating days for the entire academic year".
+- Arts staff are now named in the staff directory, https://www.tescharlotte.org/about-us/staculty:
+  David Wallace, "Band Director"; Leslie Cossor, "Director of Middle School Theatre Arts";
+  Matt Moorman, "Middle School Chaplain, Music Chaplain"; Sarah Sauder, "4th Grade
+  Instructional Assistant, Lower School Chapel Music Assistant"; Jen Rankey-Zona, "Visual Art
+  Director, Art Teacher"; Shelby Hawk, "Lower School Art Teacher, K-4". News post "2026 Light
+  the Fire Grants Announced" (Posted Mar 10 2026),
+  https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/2026-light-the-fire-grants-announced:
+  "Band Director and Grades 3-4 Music Teacher David Wallace" will "attend the Creative
+  Musicians Retreat in New Hampshire".
+- School calendar, https://www.tescharlotte.org/calendar (2026-27): "Grades 5-8 Choir Concert"
+  (Tuesday, November 10) and "Grades 5-8 Band Concert" (Thursday, November 19).
+- A named venue now exists: the admissions calendar lists the K-8 Open House at "CCA
+  Auditorium" (https://www.tescharlotte.org/admissions), and Admission Events & Tours says
+  "Join us in Trinity's Center for Community and the Arts…"
+  (https://www.tescharlotte.org/admissions/admission-events-tours). The "auditorium = 0 hits"
+  negative below no longer holds for the new site; `black box`, `strings` and `orchestra`
+  still return zero hits.
+- Beyond the Classroom, https://www.tescharlotte.org/academics/beyondclassroom: "Off campus,
+  Lower School students make regular walks to the ImaginOn library, Children's Theatre, and
+  Discovery Place."
+
 ## Source URLs
 
 - Lower School Enrichments — https://www.tescharlotte.org/academics/lower-school-enrichments.cfm

@@ -16,6 +16,85 @@ catalog.** This school offers **no AP courses** — `Advanced Placement` and `AP
 **zero hits** across its entire site, which is correct for K–8. Any AP course list
 attributed to "Trinity Episcopal" is the wrong school.
 
+### Live-site recheck, 2026-11-14
+
+Trinity moved to a new Finalsite site and every `.cfm` page cited below now returns 404.
+The whole new site was crawled on 2026-11-14, including the text of every click-to-open
+"popup" tile. Matching is by content. The school's new live pages override the findings
+below wherever they differ; the findings sections are left as written for the
+implementation pass.
+
+**Where each source now lives**
+
+| Old URL | Now | Latest Wayback capture of the old URL |
+|---|---|---|
+| `/academics/middle-school-curriculum.cfm` | https://www.tescharlotte.org/academics/middle-school — popup tiles "English / Language Arts", "Mathematics", "Social Studies", "Science", "World Language" | https://web.archive.org/web/20260608120700/https://www.tescharlotte.org/academics/middle-school-curriculum.cfm |
+| `/academics/middle-school-enrichments.cfm` | https://www.tescharlotte.org/academics/middle-school — popup tiles "Middle School Electives", "6th Grade Learning Lab", "6th Grade Digital Learning/Computer Science", "7th Grade Healthful Living", "7th Grade Computer Science", "7th Grade Speech and Debate", "8th Grade Social Issues Seminar", "Middle School Faith Studies", "Visual Arts", "Performing Arts", "Physical Education" | https://web.archive.org/web/20251027202511/https://www.tescharlotte.org/academics/middle-school-enrichments.cfm |
+| `/editoruploads/files/26-27SchoolProfile.pdf` | https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf — same 2026-2027 edition; the 13-item MS enrichment list matches verbatim | none (CDX returns no capture) |
+| AI task-force post | https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/preparing-trinity-students-for-the-changing-landscape-of-artificial-intelligence (Posted Jun 8 2026) | — |
+
+**Confirmed verbatim**
+
+- Mathematics tile: placement "based on specific performance criteria" (criteria still not
+  published), and "6th Grade: Math 6 / 7th Grade: Pre-Algebra and Advanced Pre-Algebra /
+  8th Grade: Foundations in Algebra, Math 1, Algebra 1, Math 2, Geometry". Still no credit
+  statement for any math course.
+- World Language tile: "Middle School students choose between Latin and Spanish, completing
+  Level 1, a high school course, by the end of their 8th Grade year." and "Students will
+  graduate from Trinity having completed Spanish I, a high school level course, and will be
+  ready for Spanish II should they choose to continue studying the language."
+- Social Studies tile: "The Social Studies course of study is 6th Grade Geography, Civics,
+  and Global Issues; 7th Grade Modern World History, and 8th Grade Modern United States
+  History."
+- "Advanced Placement" / "AP " still return zero hits across the crawl.
+
+**Changed or newly stated**
+
+- **Choice Electives are now described.** Middle School Electives tile: "Beginning in 7th
+  Grade, Middle School students opt into electives based on their academic or co-curricular
+  interests. These electives run on alternating days for the entire academic year… Electives
+  offered include, but are not limited to: Advanced Band / Advanced Choir / Studio Art /
+  Mock Trial and Speech & Debate / Sports Activism / Intro to Digital Media Literacy". The
+  "Exhaustively verified null" row below is superseded.
+- **The 6th-grade technology class now exists.** 6th Grade Digital Learning/Computer Science
+  tile: "Upon entering Middle School, 6th grade students take a trimester of Latin, a
+  trimester of Spanish, and a trimester of digital literacy to gain exposure to diverse areas
+  of study. Using the Code.org curriculum, students will spend one trimester learning the
+  language of coding and computer science to build on their LS technology foundation and to
+  serve as a precursor to the computer science trimester class they take in 7th grade." The
+  AI post's "A 6th Grade technology class will be added to Middle School…" is still live.
+- **Meeting pattern for the 7th-grade courses.** 7th Grade Speech and Debate tile: "Each of
+  these courses meets every other day for one trimester." (The profile still heads its list
+  "Weekly Enrichments".)
+- **Ensembles and drama.** Performing Arts tile: "Sixth-grade students choose from one of
+  two ensembles: Choir or Band. Seventh and 8th grade students who choose to continue in an
+  ensemble can choose Advanced Band or Advanced Choir… Ensembles may perform at chapels,
+  commencement and various venues outside of school. Middle School students may also choose
+  to participate in the after-school fall play or winter musical." The **drama elective**
+  and the **winter play or spring musical** wording are gone from the live site.
+- **Koinonia's detailed description is gone.** The "10-12 other Middle School students and
+  one adult leader… every morning for check-in and twice a week" passage appears nowhere on
+  the new site. Live: "Students step into greater leadership roles and deeper relationships
+  with peers and teachers in their Koinonia advisory groups." (Middle School landing text);
+  profile: "Community Life Groups: 12 Tribes of Trinity (Gr. 3-5) & Koinonia (Gr. 6-8)".
+- New per-course descriptions: English / Language Arts ("A balanced literacy instructional
+  approach continues in Middle School… students focus on narrative, informational, and
+  argumentative writing…"); each Social Studies year (6th "use geographic tools to understand
+  the world and its complex systems"; 7th "a thematic examination of 20th Century world
+  events"; 8th "a thematic examination of politically, socially, and culturally impactful
+  American events in the 20th century"); Science (no per-grade course names, still);
+  6th Grade Learning Lab (executive-function and organizational skills); 7th Grade
+  Healthful Living; 7th Grade Computer Science; 8th Grade Social Issues Seminar ("…implement
+  that plan during an advocacy trip to Washington, D.C., in May"); Middle School Spanish and
+  Middle School Latin.
+- Middle School Faith Studies tile, the worship rhythm: "Students participate in a worship
+  experience three times a week: Greet the Week on Mondays, a division-level chapel on
+  Wednesdays, and a community chapel every Friday morning where the entire school gathers
+  together." Hebrew Scriptures, Christian Narratives, World Religions and FOCUS Period are
+  named only in the profile PDF.
+- Trinity At a Glance, https://www.tescharlotte.org/about-us/trinity-at-a-glance:
+  "16 / Enrichment courses (Lower and Middle School)".
+
 ## Source URLs
 
 - Middle School curriculum — https://www.tescharlotte.org/academics/middle-school-curriculum.cfm

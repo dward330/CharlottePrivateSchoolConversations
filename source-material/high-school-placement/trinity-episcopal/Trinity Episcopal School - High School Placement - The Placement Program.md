@@ -16,6 +16,70 @@ school**; Austin TX and New Orleans also have schools of this name. Everything b
 from `tescharlotte.org` only. See the Placement Outcomes file for the full contamination
 sweep (0 hits for every foreign-school marker).
 
+### Live-site recheck, 2026-11-14
+
+Every source URL below now returns 404 (site moved to Finalsite). Checked against the local
+crawl of the new site (2026-11-14). **The new live pages override the facts below wherever
+they differ.**
+
+| Old URL | New URL or status | Wayback |
+|---|---|---|
+| `blog.cfm?threadid=6` (counselor article, Aug 2023) | GONE — not migrated | no capture found. The slug `/trinity-featured-in-qcitymetro/` (https://web.archive.org/web/20230923052909/https://www.tescharlotte.org/trinity-featured-in-qcitymetro/) holds the QCityMetro post, with no counselor text, so it does not preserve this body |
+| `/about/faculty-staff-directory.cfm` | https://www.tescharlotte.org/about-us/staculty | https://web.archive.org/web/20260608111055/https://www.tescharlotte.org/about/faculty-staff-directory.cfm |
+| `/admission/` | https://www.tescharlotte.org/admissions | https://web.archive.org/web/20260911064036/https://www.tescharlotte.org/admission/ |
+| `/admission/k-8-advantage.cfm` | https://www.tescharlotte.org/admissions/the-k-8-advantage | https://web.archive.org/web/20260714062335/https://www.tescharlotte.org/admission/k-8-advantage.cfm |
+| `blog.cfm?threadid=15` (8th Grade DC trip) | GONE | probable match by content: https://web.archive.org/web/20240618063141/https://www.tescharlotte.org/8th-grade-visits-dc-to-advocate-for-community-needs/ ("8th Grade Visits D.C. to Advocate for Community Needs / May 23, 2024 … 46 Trinity 8th Grade students traveled to Washington, D.C., in May as they capped weeks of work in their Seminar class on how to lobby for community needs.") |
+| `blog.cfm?threadid=40` (advocacy panel) | probable: https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/panel-encourages-8th-grade-to-advocate-for-charlotte ("Posted Jan 8 2026"; panel on Dec. 17, part of "the 8th Grade's Social Issues Seminar class") | old slug 301 captured 2026-01-08 |
+
+**"Two high school counselors" — confirmed verbatim** (the-k-8-advantage, "Choosing the
+Right High School" tile): "Trinity's two high school counselors work closely with families
+and students to sift through the many options available for the next chapter in their
+education, whether it's in a public school, another independent institution, or a
+boarding school. This ensures that Trinity graduates enroll in and are prepared for the
+high school that is their best fit."
+
+**Who holds the roles today (live):**
+
+| Person | Staculty directory (/about-us/staculty) | Other live page |
+|---|---|---|
+| Lilla Clark | "Middle School ELA Teacher, High School Counselor" | news post, Oct 8 2026: "Lilla Clark, 8th Grade Language Arts Teacher and High School Counselor" |
+| Rudy Wise | **"Director of Admission, Boarding School Counselor"** | /admissions: "Director of Admission and Boarding School Placement" |
+
+The Rudy Wise title conflict recorded below is **resolved**: the directory no longer says
+"Associate Director of Admission", and both live pages now name his boarding role. Benita
+Griffin appears on no live page (the "Griffin" in the directory is a different person,
+the Assistant Head of School for Academics). Ashtyn Giller ("Middle School Counselor") and
+Claire Walter ("K-4 Counselor") are still listed, still wellbeing roles.
+
+**Gone-source facts.** The 2023-24 start date ("Trinity this year added high school
+counselors"), the public/independent vs boarding split by person, and every counselor
+quote come only from the threadid=6 article, which is gone with no archive capture. The
+start date is historical. The split of duties is current-state, and only the boarding half
+is still confirmed live (Rudy Wise's titles). The live site gives Lilla Clark no scope
+beyond "High School Counselor".
+
+**New on the live site — the high school search, in the school's own words.** News post
+"Trinity Alumni Offer Advice to 8th Grade Students on High School Transition" (Posted Oct 8
+2026),
+https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/trinity-alumni-offer-advice-to-8th-grade-students-on-high-school-transition:
+"As Trinity Episcopal School 8th Grade students and families begin the process of picking a
+high school, Trinity alumni who have been in their shoes returned to campus on Sept. 21, to
+offer advice on this next chapter of their lives." The panel of five alumni (classes of
+2023–2025) was "moderated by Lilla Clark". It mentions "the in-person interview portion of
+the high school application". This dates the start of the search to the fall of 8th grade
+in the school's own words. (The alumni are minors and are not named here.)
+
+**DC advocacy trip — still live in summary.** the-k-8-advantage, "Leadership Opportunities
+Come Early" tile: "This leadership building culminates in the 8th Grade year, when students
+travel to Washington, D.C., to lobby members of Congress on topics such as affordable
+housing and the environment." The Jan 2026 panel post adds "upcoming class trips to Raleigh
+and Washington, D.C."
+
+**Outbound testing — still unpublished.** No SSAT, HSPT or outbound entrance test appears on
+any crawled page, news post or document. ISEE still appears only as Trinity's own inbound
+test ("Grades 5-8: Applicants take the ISEE"). The old checklist quote "Complete testing:
+CAIS (K-4) and ISEE (5-8)" is no longer on the site.
+
 ## Source URLs
 
 - **The counselor article** — https://www.tescharlotte.org/blog.cfm?threadid=6

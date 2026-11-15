@@ -8,6 +8,29 @@
   `pdftotext -layout`. Reproduced verbatim below.
 - **School:** Trinity Episcopal School, 750 E. 9th Street, Charlotte, NC 28202 — **K–8**.
 
+### Live-site recheck, 2026-11-14
+
+Both `editoruploads` URLs above now return 404 (site moved to Finalsite).
+
+- **2026-27 edition — still published, new URL, same file.** Linked as "School Profile"
+  from https://www.tescharlotte.org/about-us/trinity-at-a-glance (target
+  `/fs/resource-manager/view/580132e3-7a1d-4fe7-b44e-a086ea994817`); public file
+  https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf.
+  Downloaded 2026-11-14: **841,498 bytes — the same size as the 2026-09-16 capture** — and
+  its `pdftotext -layout` text is **identical, line for line,** to the verbatim block below
+  (`diff` returned no differences over the 76 lines before the destination lists). No fact
+  in the 2026-27 section needs changing. The old `editoruploads` URL was never archived.
+- **2025-26 edition — gone.** The new site links no 2025-26 profile. Latest Wayback
+  capture:
+  https://web.archive.org/web/20251001032830/https://www.tescharlotte.org/editoruploads/files/25-26SchoolProfile.pdf
+  Its figures are dated (2025-26), so they stay true as history.
+- The "linked from one place only — the Middle School page" note is out of date: on the new
+  site the profile is linked from the Trinity At a Glance page ("For a more complete look
+  at Trinity and its academic programming, community, and alumni high school and college
+  choices, please read our School Profile.").
+- Live tuition corroborates the profile: tuition-financial-support "Cost of Attending
+  Trinity (2026-27)" lists $26,670 for Kindergarten–5th Grade and $28,690 for 6th–8th Grade.
+
 ## Source URLs
 
 - **2026-27 edition** — https://www.tescharlotte.org/editoruploads/files/26-27SchoolProfile.pdf

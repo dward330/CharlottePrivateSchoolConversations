@@ -25,6 +25,62 @@ hits, `austintrinity` 0, `trinitynola` 0, `varsity` 0, `Advanced Placement` 0,
 `9th Grade` 0, `12th Grade` 0. The corpus self-identifies as 750 E. 9th Street 99 times
 and "K-8" 150 times.
 
+### Live-site recheck, 2026-11-14
+
+Trinity moved its whole site to Finalsite; every source URL below now returns 404.
+Checked against the local crawl of the new site (2026-11-14). Older blog posts were not
+migrated to the new news board, except the Class of 2026 post. **The new live pages
+override the facts below wherever they differ.**
+
+| Old URL | New URL or status | Wayback |
+|---|---|---|
+| `/editoruploads/files/26-27SchoolProfile.pdf` | https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf — same file (841,498 bytes), text identical | none captured |
+| `/editoruploads/files/25-26SchoolProfile.pdf` | GONE | https://web.archive.org/web/20251001032830/https://www.tescharlotte.org/editoruploads/files/25-26SchoolProfile.pdf |
+| `blog.cfm?threadid=48` (Class of 2026) | https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/tes-class-of-2026-commencement | old slug: https://web.archive.org/web/20260714073636/https://www.tescharlotte.org/tes-class-of-2026-celebrated-at-commencement/ |
+| `blog.cfm?threadid=29` (Class of 2025) | GONE | matched by title: https://web.archive.org/web/20250614205056/https://www.tescharlotte.org/congratulations-to-the-class-of-2025/ |
+| `blog.cfm?threadid=16` (Class of 2024) | GONE | matched by title: https://web.archive.org/web/20240618052851/https://www.tescharlotte.org/congratulations-to-the-trinity-class-of-2024/ |
+| `blog.cfm?threadid=3` (Class of 2023) | GONE | no capture found (CDX empty for the threadid route; no matching slug) |
+| `/admission/k-8-advantage.cfm` | https://www.tescharlotte.org/admissions/the-k-8-advantage (text now sits in pop-up tiles) | https://web.archive.org/web/20260714062335/https://www.tescharlotte.org/admission/k-8-advantage.cfm |
+
+**Cumulative split — unchanged.** The 2026-27 profile still reads: "A total of 1,060
+students have graduated over the past 23 years (Class of 2004-2026). … Independent
+Schools: 31% • Public Schools: 57% • Boarding Schools: 12%". The new Trinity At a Glance
+page adds "1,060 / Alumni since 2004".
+
+**Class of 2026 — the "lifer" count now conflicts on the school's own site.**
+
+- Post body (live, "Posted Jun 1 2026"): "…one of 30 Trinity “lifers" in the graduating
+  class." and "Fifty-one students received a graduation certificate from Head of School
+  Imana Sherrill and Board of Trustees Chair Eugene Brown…"
+- News-board teaser for the same post (https://www.tescharlotte.org/about-us/news):
+  "The 51 students in the Class of 2026 — including 31 "lifer" students — were remembered
+  for their tight-knit nature as they prepare for high school."
+
+So the school prints **30** in the article and **31** in its summary of that article. Our
+research figure, 30 (59% of 51), matches the article body, which is the fuller source. The
+31 is the school's own teaser. 31 of 51 would be 61%.
+
+The post's date is now shown as "Posted Jun 1 2026" (the commencement date: "on June 1,
+2026"); the old blog showed June 06, 2026. The 11-line destination list is unchanged,
+including the duplicate "Myers Park High School" (first and seventh lines) and "St
+Timothy's, Raleigh". The body still names Eugene Brown as board chair.
+
+**Classes of 2023, 2024 and 2025 — sources gone, facts historical.** Each is a dated
+commencement count (49 / 51 + 9 lifers + 17 schools / 54 + 28 lifers + 16 schools). They
+stay true of those classes even though the posts are no longer on the site.
+
+**K–8 thesis — confirmed verbatim** in the "Choosing the Right High School - At the Right
+Time" tile on the-k-8-advantage: "The result — parents feel more confident about finding
+the high school that's best suited for their child at the end of 8th Grade rather than at
+the beginning of Kindergarten." Also live: "9 uninterrupted years on one campus" and "By
+the time they begin high school, Trinity graduates have 9 years of leadership experience
+that sets them up to thrive in high school." The uncited "Research consistently shows K-8
+students outperform peers…" sentence is still published, in the "High Student
+Achievement" tile.
+
+**Placement success rate — still not published.** No "first choice", "top two" or similar
+figure appears on any crawled page, news post or document.
+
 ## Source URLs
 
 - 2026-27 School Profile (PDF) — https://www.tescharlotte.org/editoruploads/files/26-27SchoolProfile.pdf

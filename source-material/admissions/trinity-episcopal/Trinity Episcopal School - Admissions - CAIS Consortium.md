@@ -8,6 +8,64 @@
   and extracted with `pdftotext -layout` (301 lines). Quotes are char-for-char.
 - **School:** Trinity Episcopal School, 750 E. 9th Street, Charlotte, NC 28202 — **K–8**.
 
+### Live-site recheck, 2026-11-14
+
+The 2024-25 brochure URL above now returns 404. The new site links a **newer edition**, the
+**2027-2028** brochure, from the WISC-V and WPPSI-IV links on
+https://www.tescharlotte.org/admissions/applying-to-trinity (link target
+`/fs/resource-manager/view/cf130e00-ecf4-4f5e-8d50-e5d0274f2a8e`). Public file:
+https://resources.finalsite.net/images/v1790272603/tescharlotteorg/iwsznwbihbhflkundb91/CAIS2027-2028Upload1.pdf
+— extracted with `pdftotext -layout` on 2026-11-14. Wayback of the old 2024-25 file:
+https://web.archive.org/web/20240802163340/https://www.tescharlotte.org/editoruploads/files/CAIS2024-25final.pdf
+**The 2027-28 edition overrides the 2024-25 facts below wherever they differ.**
+
+**Unchanged (verbatim, 2027-28):** the same seven members ("Charlotte Christian School /
+Charlotte Country Day School / Charlotte Latin School / Charlotte Preparatory School /
+Covenant Day School / Providence Day School / Trinity Episcopal School"); the instruments
+("WPPSI-IV) for Pre-K, Kindergarten, and Grade 1 applicants; and the … (WISC-V) for rising
+Grades 2-4"); "children must be at least four years of age at the time of testing. Testing
+can be administered only once in a twelve month period."; the invalidation rule ("Psychologists
+will report to the schools any indication that a child has been coached, tutored, or
+re-tested. Any indication of the aforementioned will invalidate your application to any CAIS
+school. Parents will be asked to sign a Test Validity Verification Form at the psychologist's
+office…"); "Book an appointment with one psychologist ONLY."; the child interview
+"typically held November–February"; and "No contract for a CAIS school will be required
+prior to this deadline."
+
+**Changed:**
+
+- **Testing fees rose from $275 to $300.** "Testing Fees: $300 for WPPSI-IV / $300 for
+  WISC-V".
+- **Cancellation policy.** Old: no refund within 48 hours. New: "Once payment is made, a
+  nonrefundable $100 fee applies to all cancellations. Per CAIS guidelines, cancellations
+  within 72 hours of your scheduled appointment are not eligible for a re-fund. For Monday
+  appointments, cancellations must be made by the preceding Wednesday." Also: "Payments
+  must be made in full for appointments made after January 1, 2027 and are non-refundable."
+- **Trinity's contact.** Benita Griffin is gone. New: "Fé Vivas Patriciu, Chief Enrollment
+  Officer / 750 East 9th Street, Charlotte, NC 28202-3102 / 980-207-5898 fax: 704-358-9908 /
+  fpatriciu@tescharlotte.org".
+- **The dates now match Trinity's own calendar exactly**, so the "its dates do not carry
+  forward" caveat no longer applies to this edition: "TK/JK/K Application Deadline to CAIS
+  Schools-- January 2, 2027 / TK/JK/K CAIS Testing Complete by February 1, 2027 / Grades 1-4
+  Application Deadline for CAIS Schools-- January 15, 2027 / Grades 1-4 CAIS Testing
+  Completed by February 26, 2027".
+- **Common notification and reply dates for 2027:** "TK/JK/K for all CAIS schools:
+  Notification date is Friday, February 26, 2027. Contracts must be returned by Friday,
+  March 5, 2027." / "Grades 1-4 for all CAIS schools: Notification date is Thursday, April 9,
+  2027. Contracts must be returned by Thursday, April 16, 2027." ⚠️ April 9, 2027 and
+  April 16, 2027 are both **Fridays**; the brochure's "Thursday" is a weekday error in the
+  consortium's own copy. Trinity's page gives April 9, 2027 with no weekday.
+- **Percentile ranges are no longer stated.** The 2027-28 text reads: "Upon completion of
+  the evaluation, results will be sent to parents and designated schools. A more detailed
+  interpretation of results may be obtained by scheduling a feedback meeting with the
+  psychologist. This is optional for each family and will be billed to you at the
+  psychologist's hourly rate."
+
+**New in 2027-28:** "Appointments can be made the day after Labor Day."; "Once confirmed,
+payment via credit card or Zelle is due within 24 hours."; "For ESL students, an additional
+Nonverbal Index score will be provided. Please select a psychologist marked with an
+asterisk above."
+
 ## Source URL
 
 - https://www.tescharlotte.org/editoruploads/files/CAIS2024-25final.pdf

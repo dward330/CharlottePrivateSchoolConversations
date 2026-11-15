@@ -12,6 +12,18 @@
   so entry-order and spelling match the source exactly.
 - **School:** Trinity Episcopal School, 750 E. 9th Street, Charlotte, NC 28202 — **K–8**.
 
+### Live-site recheck, 2026-11-14
+
+The `editoruploads` URL below now returns 404 (site moved to Finalsite). The **same 2026-27
+profile is still published** at a new address, linked as "School Profile" from
+https://www.tescharlotte.org/about-us/trinity-at-a-glance:
+https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf
+(downloaded 2026-11-14, 841,498 bytes — the same size as the 2026-09-16 capture). Its
+"HIGH SCHOOL CHOICES (TES Classes of 2004-2026):" list is unchanged, including "Lake Normal
+High School *", "Woodberry Forest School, VA (7)", the two "Charlotte Catholic" lines and
+the trailing asterisks. No legend for the asterisk was added. The old URL was never
+captured by the Wayback Machine. No destination list changed.
+
 ## Source URL
 
 - https://www.tescharlotte.org/editoruploads/files/26-27SchoolProfile.pdf

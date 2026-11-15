@@ -9,6 +9,84 @@
   verbatim from a retrieved document.
 - **School:** Trinity Episcopal School, 750 E. 9th Street, Charlotte, NC 28202 — **K–8**.
 
+### Live-site recheck, 2026-11-14
+
+- **Rechecked by:** Claude (Claude Code agent), 2026-11-14, against a full local crawl of the
+  redesigned tescharlotte.org (Finalsite) taken the same day
+  (`reports/trinity-site-2026-11-14/`, gitignored), plus one direct export of the Cost of
+  Attendance Google Doc. Standing rule: **the school's new live pages override this file
+  wherever they differ.**
+
+**Source URL map:**
+
+| Old source | Now | Wayback of the old page |
+|---|---|---|
+| https://www.tescharlotte.org/community/trinity-extended-day.cfm | **https://www.tescharlotte.org/community/trinity-extended-day** | https://web.archive.org/web/20260714063744/https://www.tescharlotte.org/community/trinity-extended-day.cfm |
+| Cost of Attendance for 2026-27 Google Doc (https://docs.google.com/document/d/1jh3Oc1gO1ShFo7bDR6xGEXCwvjN8Gpn_Ylg3z6Igs0M/export?format=txt) | **Still resolves** (HTTP 200, 2026-11-14, content unchanged, income table included) but **no page on the new site links it**. The TED rates now appear on **https://www.tescharlotte.org/admissions/tuition-financial-support** under "Other Fees", without the income bands | n/a |
+| https://www.tescharlotte.org/academics/lower-school-enrichments.cfm | The "Lower School Enrichments" section of **https://www.tescharlotte.org/academics/lower-school** | https://web.archive.org/web/20260714061907/https://www.tescharlotte.org/academics/lower-school-enrichments.cfm |
+| https://www.tescharlotte.org/academics/middle-school-enrichments.cfm | The "Middle School Enrichments" section of **https://www.tescharlotte.org/academics/middle-school** | https://web.archive.org/web/20251027202511/https://www.tescharlotte.org/academics/middle-school-enrichments.cfm |
+| 26-27 School Profile (old editoruploads URL) | https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf, still "7 Extended Day & Support Staff" | none |
+
+**The live TED page, verbatim (whole body):**
+
+> "When the school day ends, there is still a space for students to engage in learning,
+> flex their activity, and get their bodies moving before heading home."
+
+> "Trinity Extended Day begins at dismissal and continues until 6:00 p.m., providing
+> students with dedicated time for homework and reading, outdoor play, and activities such
+> as art, board games, and Fun/Film Fridays."
+
+> "In addition to TED programming, seasonal enrichments are offered for an additional fee.
+> These include chess club, boys and girls run clubs, music lessons, and much more."
+
+> "Registration for monthly and drop-in care is currently closed. If you have questions,
+> please contact Jocelyn Purdie."
+
+> "TED Leadership / Jocelyn Anderson / Director of Auxiliary Services / Nancy Guerra /
+> Assistant Director, TED"
+
+Still **no dollar figure** on the TED page, and still **no morning or before-school care**.
+
+**Confirmed:** hours, "begins at dismissal and continues until 6:00 p.m."; homework time;
+art and board games; enrichments "for an additional fee" with no fee stated; Nancy Guerra
+as Assistant Director (directory: "Assistant Director of Trinity Extended Day").
+
+**Changed or no longer stated on the TED page:**
+
+- **No longer stated:** "Building character, enriching lives, and having fun"; "a safe,
+  well-structured environment for every Trinity student"; "group projects"; the **Trinity
+  Honor Code** sentence; "several days a week"; "a combination of Trinity faculty/staff and
+  independent contractors"; **karate** and **cheer club**.
+- **Newly stated:** "reading", "outdoor play", "Fun/Film Fridays" (was "Fun Friday
+  activities"), "seasonal" enrichments, and "boys and girls run clubs". The named
+  enrichments are now three: chess club, boys and girls run clubs, music lessons, "and much
+  more".
+- **Director's name:** the page's leadership block and the staff directory
+  (https://www.tescharlotte.org/about-us/staculty) both read "**Jocelyn Anderson** /
+  Director of Auxiliary Services", with email jpurdie@tescharlotte.org. The page's contact
+  line still says "Jocelyn Purdie".
+- **Registration status:** now "currently closed" (was open for 2026-27 on 2026-09-16).
+
+**TED rates on the live tuition page, verbatim** (heading "Cost of Attending Trinity
+(2026-27)", section "Other Fees"):
+
+> "Trinity Extended Day / Monthly Rate: $380 ($355 for each additional sibling) / Drop-In
+> Rate: $31/day ($25 for families receiving financial support) / Half-Day Rate*: $51/day
+> ($30 for families receiving financial support) / * Complimentary for monthly registered
+> students / Full-Day Rate*: $72/day, or $45/day for first sibling and $40/day for each
+> additional sibling for families receiving financial support / *Offered during
+> conferences"
+
+- **Confirmed:** $380, $355 sibling, $31 / $25, $51 / $30, half days complimentary to
+  monthly students, $72, $45 / $40. Still 2026-27; nothing has rolled to 2027-28.
+- **No longer stated on the live site:** the four **household-income bands** ("Less than
+  $30,000 $105 · $30,000 - $60,000 $135 · $60,000 - $90,000 $195 · Over $90,000 $380"),
+  and the "**Estimated** TED Monthly Cost" header. They survive only in the unlinked
+  Google Doc. The live page gives one monthly rate, $380.
+- **No longer stated:** full-day hours "8:00am-5:30pm" and "TES is closed, but TED is
+  open"; half-day close "early dismissal-5:30pm". **Newly stated:** the full-day rate is
+  "*Offered during conferences".
+
 ## Source URLs
 
 - Trinity Extended Day — https://www.tescharlotte.org/community/trinity-extended-day.cfm

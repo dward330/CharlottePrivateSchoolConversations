@@ -17,6 +17,78 @@
 Every result below is **middle-school conference** play. **Trinity Episcopal School,
 Richmond VA is a grades 8–12 high school** with varsity records — none of that is here.
 
+### Live-site recheck, 2026-11-14
+
+- **Rechecked by:** Claude (Claude Code agent), 2026-11-14, against a full local crawl of the
+  redesigned tescharlotte.org (Finalsite) taken the same day
+  (`reports/trinity-site-2026-11-14/`, gitignored). Standing rule: **the school's new live
+  pages override this file wherever they differ.** Student names, parent-coach names and
+  an alum-coach name are withheld below (K–8 minors and their families); staff are named.
+
+**Both source posts are GONE.** The new news board (`/about-us/news`) holds 14 posts,
+Jan–Oct 2026; the old `blog.cfm?threadid=N` posts were not migrated.
+
+| Old URL | Status | Wayback |
+|---|---|---|
+| https://www.tescharlotte.org/blog.cfm?threadid=10 (Fall 2023) | 404, no new-site equivalent | **No snapshot** (CDX and availability API both empty, 2026-11-14) |
+| https://www.tescharlotte.org/blog.cfm?threadid=12 (Winter 2024 basketball title) | 404, no new-site equivalent | **No snapshot** (CDX and availability API both empty, 2026-11-14) |
+
+So every quote in the Winter 2024 and Fall 2023 sections below, and the coaching quotes,
+now rests on this file alone. They are **historical** (dated past events) and stay true;
+nothing on the live site re-states them.
+
+**One NEW athletics post on the live site:**
+https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/trinity-sweeps-fall-sports-championships
+— "Trinity Sweeps Fall Sports Championships", **"Posted Oct 21 2026"**. Verbatim, with
+names withheld:
+
+> "The fall sports season concluded with Trinity Episcopal School's Middle School teams
+> sweeping their championships."
+
+> "7th and 8th Grade boys soccer capped its undefeated season with a victory in the Queen
+> City Athletic Association championship on Nov. 20, 2026. The team was coached by
+> [two Trinity parents], and [a Trinity alum, TES '23]."
+
+> "The soccer championship followed Trinity's first-ever win in the QCAA's volleyball
+> championship on Nov. 19, 2026. The 8th Grade girls team clinched the title and placed
+> runner-up in the regular season under the coaching of Trinity staculty members Rachel
+> Fuller and Claire Walter."
+
+> "While the volleyball team was securing its win, the boys and girls cross country teams
+> were collecting their championships in the QCAA's Championship Run-Off at McAlpine Creek
+> Park. The boys and girls teams both had three runners finish in the top 5 of the race,
+> with [an 8th Grade runner] placing first in the boys division. The team was coached by
+> Trinity staculty member Jason Martin and [a Trinity parent]."
+
+⚠️ **The post's own dates contradict each other.** It is posted **Oct 21 2026** but dates
+the games **Nov. 19** and **Nov. 20, 2026**, which are after the post date (and after this
+recheck). The old 51-post blog held no athletics post after February 2024 when it was
+enumerated on 2026-09-16, so this post reports the **Fall 2026** season. The printed game
+dates cannot both be right: quote the season and the post date, never the game dates.
+
+**Changed on the live site:**
+
+- **Conference name.** The gone posts said "Queen City Conference". The live post says
+  "**Queen City Athletic Association**" / "**QCAA**". "Queen City Conference" appears
+  nowhere on the new site.
+- **"Exactly two seasons on record — Fall 2023 and Winter 2024 … nothing athletic has been
+  published since February 2024"** is no longer true of the live site. The only season the
+  live site publishes is Fall 2026 (above). Fall 2023 and Winter 2024 survive only here.
+- **Grade bands, live:** "7th and 8th Grade boys soccer" and "The 8th Grade girls team"
+  (volleyball) are confirmed. "6th/7th Grade" is no longer stated anywhere on the live
+  site.
+- **Coaches, live** (staff directory https://www.tescharlotte.org/about-us/staculty):
+  "David Martin / Athletics Director, Healthful Living Teacher"; "Jason Martin / Healthful
+  Living Teacher"; "Jalen Haffaney / Assistant Athletics Director, PE Teacher". Jason
+  Martin is named in the live post as cross country coach. "Head basketball coach",
+  "since 2004", "~250 students" and Jason Martin as "Assistant Coach" on basketball were
+  stated only in threadid=12, which is gone: historical as of February 2024, not
+  re-confirmed. The only "2004" on the new site is the alumni figure ("Since our first 8th
+  Grade class in 2004", https://www.tescharlotte.org/community/alumni).
+- **Volleyball coaches** named in the live post are staff with non-athletics titles in the
+  directory: "Rachel Fuller / 3rd Grade Instructional Assistant"; "Claire Walter / K-4
+  Counselor".
+
 ## Source URLs
 
 - Fall 2023 results — https://www.tescharlotte.org/blog.cfm?threadid=10
