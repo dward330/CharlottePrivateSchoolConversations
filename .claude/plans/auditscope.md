@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-11-15
 branch: feat/auditscope
-prs: []
+prs: [500]
 ---
 
 # Scoped browser audits
