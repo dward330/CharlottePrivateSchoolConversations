@@ -179,7 +179,7 @@ export const trinityEpiscopal: ClubsProgram = {
         name: 'Advocacy and Social Action — the 8th-grade capstone',
         detail:
           'In the Social Issues Seminar, eighth graders pick a social issue, study it, and plan how to advocate for it. Then they "implement that plan during an advocacy trip to Washington, D.C., in May." In 2025-26 the class also studied a transit referendum that Charlotte voters approved. A Dec. 17 panel, with speakers from partners Roof Above and Galilee Ministries, helped students choose topics for "upcoming class trips to Raleigh and Washington, D.C."',
-        source: { label: 'tescharlotte.org — "Panel Encourages 8th Grade to Advocate for Charlotte", Jan 2026', url: ADVOCACY_PANEL },
+        source: { label: 'tescharlotte.org — "Panel Encourages 8th Grade to Advocate for Charlotte", 2026', url: ADVOCACY_PANEL },
       },
     ],
     // No footnote and no "not a club" flag (user, 2026-09-16). The
@@ -197,8 +197,8 @@ export const trinityEpiscopal: ClubsProgram = {
       { label: 'tescharlotte.org — Trinity At a Glance ("10 Service-learning partners")', url: AT_A_GLANCE },
       { label: 'tescharlotte.org — Beyond the Classroom ("the longest hallways")', url: BEYOND },
       { label: 'tescharlotte.org — Middle School page (8th Grade Social Issues Seminar)', url: MIDDLE_SCHOOL },
-      { label: 'tescharlotte.org — "Panel Encourages 8th Grade to Advocate for Charlotte", Jan 2026', url: ADVOCACY_PANEL },
-      { label: 'tescharlotte.org — "Students Witness Walk for Peace During Charlotte Visit", Jan 2026', url: WALK_FOR_PEACE },
+      { label: 'tescharlotte.org — "Panel Encourages 8th Grade to Advocate for Charlotte", 2026', url: ADVOCACY_PANEL },
+      { label: 'tescharlotte.org — "Students Witness Walk for Peace During Charlotte Visit", 2026', url: WALK_FOR_PEACE },
     ],
   },
 

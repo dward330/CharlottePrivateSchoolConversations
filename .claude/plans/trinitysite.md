@@ -1,7 +1,7 @@
 ---
 name: trinitysite
 title: Re-source every Trinity Episcopal fact to its redesigned website, and let the live site override the app
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-14
 branch: fix/trinitysite
@@ -721,12 +721,13 @@ Charlotte Prep's labels already use. They are in clubs (3), sports (2), arts (2)
 high-school-placement (1). A dry-run splice shows 0 added and 0 dropped stamps, so no
 translation is affected.
 
-**PAUSED 2026-11-14 (user request, going offline).** Everything above is committed on
-`fix/trinitysite`. Remaining:
-1. `npm run build`, then `npx vite preview --port 4173`.
-2. Re-run `npm run audit:daterender`. Expect 0 Trinity findings. The pre-fix run flagged
-   only the source label, in es/bn/ht/te/fr/fa/it/hi, and was stopped during `ar`.
-3. Run `npm run audit:moneyrender`. It has not run yet. Expect no new Trinity findings.
-4. Push, open the PR (`--body-file`), squash-merge, `git checkout main && git pull`.
-   Then set this plan to `implemented` with the PR number, and the INDEX row to
-   *Implemented*. **Do not deploy.**
+**Correction, 2026-11-15:** month and year is not enough. The audit's pattern matches
+`Month YYYY`, and the clubs card renders its per-program `source.label`. The three clubs
+labels therefore give the year alone (`", 2026"`), as Charlotte Prep's rendered
+science-fair label does. The sports, arts and high-school-placement labels keep month and
+year, and the audit does not flag them. Phase 2 paused overnight at the user's request and
+resumed on 2026-11-15.
+
+**Render audits (final build):** `audit:daterender` finds no English-form date on any
+school, Compare or checklist page in any of the 9 locales. `audit:moneyrender` finds no
+unlocalized `$` figure in es or fr. Both exit 0.
