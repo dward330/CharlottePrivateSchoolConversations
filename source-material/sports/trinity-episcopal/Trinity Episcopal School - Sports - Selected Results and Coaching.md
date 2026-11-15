@@ -93,6 +93,9 @@ dates cannot both be right: quote the season and the post date, never the game d
 
 - Fall 2023 results — https://www.tescharlotte.org/blog.cfm?threadid=10
 - Basketball championship — https://www.tescharlotte.org/blog.cfm?threadid=12
+- Fall 2026 results (live) — https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/trinity-sweeps-fall-sports-championships
+
+*Superseded 2026-11-14 — see Live-site recheck* (both 2023–24 posts above are gone, with no archived copy).
 
 ## ⚠️ Present these as SELECTED RESULTS, never a record table
 
@@ -100,7 +103,13 @@ dates cannot both be right: quote the season and the post date, never the game d
 athletic has been published since February 2024.** No win-loss series, no schedules and
 no rosters exist. A record table would imply a continuity the data does not have.
 
+*Superseded 2026-11-14 — see Live-site recheck* (the live site now publishes one season, Fall 2026, in a post dated Oct 21,
+2026). The conference is now named the Queen City Athletic Association (QCAA). The rule
+still holds: present selected results, never a record table.
+
 ## Winter 2024 — the first basketball championship in school history
+
+*Superseded 2026-11-14 — see Live-site recheck* (the source post is gone; kept as the record, no longer shown in the app).
 
 From "Wildcats Win Historic Basketball Championship", **February 13, 2024**, by Chris
 Miller. (⚠️ **Feb 8 is the game date; Feb 13 is the post date** — cite each correctly.)
@@ -125,6 +134,8 @@ Verbatim:
 | Significance | **First in school history** |
 
 ## Fall 2023 — four sports
+
+*Superseded 2026-11-14 — see Live-site recheck* (the source post is gone; kept as the record, no longer shown in the app).
 
 From "Congrats to Trinity's Fall Sports Teams", **November 03, 2023**, by Chris Miller.
 All verbatim:
@@ -151,6 +162,9 @@ four-year conference title run plus a statewide independent-school ranking.
 
 ## Teams are fielded by GRADE BAND, not A/B or varsity/JV
 
+*Superseded 2026-11-14 — see Live-site recheck* (the live site confirms 7th and 8th Grade boys soccer and the 8th Grade girls
+volleyball team; 6th/7th Grade is no longer stated).
+
 Evidenced directly by the two posts: **7th/8th Grade** boys soccer, **8th Grade**
 volleyball, **6th/7th Grade** volleyball and soccer, **8th Grade** boys basketball.
 
@@ -158,6 +172,10 @@ This is a structural fact about a K–8 athletics programme and should be stated
 what makes a record table inapplicable in the first place.
 
 ## Coaching — a twenty-year tenure
+
+*Superseded 2026-11-14 — see Live-site recheck* (the source post is gone; the live site lists David Martin as Athletic
+Director, Jason Martin as K-8 Healthful Living Teacher and cross country coach, and Jalen
+Haffaney as Assistant Athletic Director & P.E. Teacher).
 
 **David Martin**, Athletic Director **and head basketball coach**, verbatim:
 

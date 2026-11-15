@@ -82,6 +82,8 @@ notification-and-reply structure, and the no-contract-before-deadline guarantee.
 Dec 31 2023 and grades 1–4 Jan 15 2024, which **does not match** Trinity's current K Jan 2
 / 1–8 Jan 15 — a further reason not to reuse these dates as current.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ## The seven members
 
 Verbatim from the brochure's own eligibility list:
@@ -103,6 +105,8 @@ Financial Support**, 750 East 9th Street, Charlotte, NC 28202-3102, 704-358-8101
 > ⚠️ **Benita Griffin no longer appears in Trinity's staculty directory.** This brochure
 > is a 2024-25 document and its contact is stale. Do not cite her as current staff.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ## The testing instruments
 
 Verbatim:
@@ -115,6 +119,8 @@ Pre-K because other members enroll Pre-K; Trinity starts at Kindergarten.)
 
 **Testing fees**, verbatim:
 > "Testing Fees: **$275** for WPPSI-IV / **$275** for WISC-V"
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 ## ⚠️ The invalidation rule — the single most consequential policy here
 
@@ -143,8 +149,12 @@ at *every* CAIS school, which is materially different from a single school's rul
 > "test results that are **limited to percentile ranges** are sent to the parents and to
 > the designated schools"
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 > "There will be **no refund** if there is a cancellation **within 48 hours** of the
 > appointment."
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 ## Common notification and reply dates — the STRUCTURE
 
@@ -154,6 +164,8 @@ Verbatim (2024-25 edition dates — **stale, quoted for structure only**):
 > must be returned by Friday, March 1, 2024."
 > "Grades 1-4 for all CAIS schools: Notification date is Friday, March 28, 2024. Contracts
 > must be returned by Thursday, April 5, 2024."
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 And the guarantee that makes the consortium matter to a family:
 
@@ -170,6 +182,8 @@ hand before the others have replied.
 | **K–1** | WPPSI-IV | CAIS consortium psychologist | $275 |
 | **2–4** | WISC-V | CAIS consortium psychologist | $275 |
 | **5–8** | **ISEE** | **Not CAIS** — the ISEE is a separate exam | *(no CAIS fee)* |
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 **Grades 5–8 sit outside the CAIS testing arrangement entirely.** The consortium's
 instruments, fees, invalidation rule and common notification dates apply to **K–4

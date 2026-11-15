@@ -95,6 +95,11 @@ as Assistant Director (directory: "Assistant Director of Trinity Extended Day").
 > ⚠️ **Zero dollar figures appear on the TED page itself.** 100% of TED pricing lives in
 > the Cost of Attendance doc. **Cite the doc, not the page, for every number.**
 
+*Superseded 2026-11-14 — see Live-site recheck* (the TED page moved to https://www.tescharlotte.org/community/trinity-extended-day,
+and every TED rate is now printed on https://www.tescharlotte.org/admissions/tuition-financial-support
+under "Other Fees". The Cost of Attendance doc still opens but is no longer linked; cite the
+tuition page).
+
 ## What it is
 
 Verbatim:
@@ -111,6 +116,12 @@ Verbatim:
 > activities**, etc. Students are expected to adhere to the **Trinity Honor Code** while
 > participating in Extended Day."
 
+*Superseded 2026-11-14 — see Live-site recheck* (the live page now says: "When the school day ends, there is still a space for
+students to engage in learning, flex their activity, and get their bodies moving before
+heading home." TED provides "dedicated time for homework and reading, outdoor play, and
+activities such as art, board games, and Fun/Film Fridays." The character tagline, group
+projects and the Honor Code line are gone).
+
 ## Hours
 
 Verbatim:
@@ -122,6 +133,9 @@ Verbatim:
 
 The rate card does independently establish **8:00am–5:30pm** on full days (when school is
 closed but TED runs) and **"early dismissal–5:30pm"** on half days.
+
+*Superseded 2026-11-14 — see Live-site recheck* (the live rates give no hours for full or half days; the full-day rate is
+"Offered during conferences". The 6:00 p.m. close on regular days is confirmed).
 
 ## ⚠️ MORNING / BEFORE-SCHOOL CARE IS A CONFIRMED NULL
 
@@ -136,6 +150,13 @@ clearly knows how to offer and price morning care; it simply does not during the
 year.
 
 ## The rate card — income-scaled monthly rates
+
+*Superseded 2026-11-14 — see Live-site recheck* (the live tuition page prints one monthly rate: "Monthly Rate: $380 ($355 for
+each additional sibling)". The income bands and the "Estimated" header below survive only
+in the unlinked doc. Live per-day rates: drop-in $31/day ($25 with financial support);
+half-day $51/day ($30 with financial support), complimentary for monthly registered
+students; full-day $72/day, or $45/day for first sibling and $40/day for each additional
+sibling with financial support, offered during conferences).
 
 From the Cost of Attendance doc, section "Trinity Extended Day Fees - TED":
 
@@ -199,6 +220,10 @@ instances, not three — and it is both monetary and removal:
 | **Jocelyn Purdie** | **Director of Auxiliary Services** (jpurdie@tescharlotte.org) |
 | **Nancy Guerra** | **Assistant Director, TED** (nguerra@tescharlotte.org) |
 
+*Superseded 2026-11-14 — see Live-site recheck* (the live TED leadership block and the staff directory name the Director of
+Auxiliary Services as **Jocelyn Anderson**; the page's contact line still says "contact
+Jocelyn Purdie". The directory is followed).
+
 The profile PDF separately records **7 Extended Day & Support Staff**.
 
 ## Enrichments — named but UNPRICED
@@ -215,6 +240,10 @@ Verbatim:
 > ⚠️ "**Examples of** … **and more**" means this is **not an exhaustive list**. Do not
 > present these four as the complete enrichment roster.
 
+*Superseded 2026-11-14 — see Live-site recheck* (live: "In addition to TED programming, seasonal enrichments are offered for an
+additional fee. These include chess club, boys and girls run clubs, music lessons, and much
+more." Karate and cheer club are no longer named).
+
 ## ⚠️ "Enrichments" is overloaded at Trinity — do not cross-wire
 
 The **Lower/Middle School "Enrichments" pages** are **curricular subjects** (art, PE,
@@ -228,3 +257,5 @@ Extended Day for the **2026-27 school year**", with a "26-27 TED Registration" b
 linking a Google Form. **Registration is currently open.**
 
 **Quote rates and policies, never status** — it changes through the year.
+
+*Superseded 2026-11-14 — see Live-site recheck* (live: "Registration for monthly and drop-in care is currently closed.").

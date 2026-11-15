@@ -97,14 +97,18 @@ archived 2021. Its content appears nowhere on the new site.
 
 ## Source URLs
 
-- Lower School curriculum — https://www.tescharlotte.org/academics/lower-school-curriculum.cfm
-- Lower School enrichments — https://www.tescharlotte.org/academics/lower-school-enrichments.cfm
-- 2026-27 School Profile (PDF) — https://www.tescharlotte.org/editoruploads/files/26-27SchoolProfile.pdf
+- Lower School (curriculum and enrichment tiles) — https://www.tescharlotte.org/academics/lower-school
+- Student Support — https://www.tescharlotte.org/academics/student-support
+- Trinity At a Glance — https://www.tescharlotte.org/about-us/trinity-at-a-glance
+- 2026-27 School Profile (PDF) — https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf
+- Former addresses, 404 since the fall-2026 redesign (kept for the record): /academics/lower-school-curriculum.cfm · /academics/lower-school-enrichments.cfm · /editoruploads/files/26-27SchoolProfile.pdf
 
 > ⚠️ **A dead URL still surfaced by search engines:**
 > `/academics/lower-school/ls-curriculum` **404s** and was last archived in **2021**.
 > Its stale content contradicts the live pages (see the strings question in the Arts
 > file). Always fetch the live `-curriculum.cfm` path.
+
+*Superseded 2026-11-14 — see Live-site recheck: the `-curriculum.cfm` paths are gone too; the Lower School page is the live source.*
 
 ## Named curricula — the Lower School's strongest detail
 
@@ -113,10 +117,14 @@ Verbatim:
 > the **Math in Focus 2020 curriculum**, which is the U.S. edition of the highly effective
 > **Singapore Math** approach."
 
+*Superseded 2026-11-14 — see Live-site recheck: the live Mathematics tile hyphenates "highly-effective".*
+
 > "…utilizes the **Amplify Science** units of study as its core curriculum…"
 
 Social Studies uses **"Storypaths"** units. Literacy covers "phonemic and phonological
 awareness" in K–2, with **word study through Grade 5**.
+
+*Superseded 2026-11-14 — see Live-site recheck: the live tile says "Many of these units, especially in the lower grades, are known as Storypaths", not every unit.*
 
 **Naming a specific published curriculum is unusual** on this roster and is the clearest
 thing a parent can actually evaluate here.
@@ -150,6 +158,8 @@ Verbatim from the 2026-27 School Profile:
 Six enrichments, published as a fact.
 
 ## ⚠️ Technology — published ONLY in the profile PDF
+
+*Superseded 2026-11-14 — see Live-site recheck: the IDEA Lab and the Digital Learning Catalysts are now on the Student Support page and the staff directory, not only in the profile.*
 
 Verbatim from the 2026-27 School Profile:
 > "**K-8 Technology Program:** facilitated by **Digital Learning Catalysts**"

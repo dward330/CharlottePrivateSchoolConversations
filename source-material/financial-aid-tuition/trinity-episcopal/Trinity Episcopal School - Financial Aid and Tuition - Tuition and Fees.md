@@ -16,6 +16,8 @@ From "Cost of Attendance for 2026-27", verbatim:
 | 7 | $28,690 | $965 |
 | 8 | $28,690 | $1,045 |
 
+*Superseded 2026-11-14 — see Live-site recheck* — the Kindergarten activity fee is $215 on the live tuition page.
+
 ## Provenance
 
 ### Live-site recheck, 2026-11-14

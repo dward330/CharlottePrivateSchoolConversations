@@ -79,6 +79,10 @@
 > one line ("$295 (K); $465 (1-6)"), the CSV splits them into separate rows with their own
 > grade bands and times. The two sources also **disagree on two prices** — see below.
 
+*Superseded 2026-11-14 — see Live-site recheck* (the camp page moved to https://www.tescharlotte.org/community/wildcat-summer-camp.
+The CSV and docs above still open but are no longer linked; they hold the **2026 season**,
+which the app shows labeled as 2026).
+
 ## The camp is LIVE for 2026
 
 Established three ways: the page returns HTTP 200 with 2026 content, the catalogue is
@@ -88,6 +92,9 @@ Established three ways: the page returns HTTP 200 with 2026 content, the catalog
 
 > "Registration opens Jan 19, 2026" — **NOT FOUND.** Zero January dates appear on the camp
 > page or in any of the five documents. Do not publish it.
+
+*Superseded 2026-11-14 — see Live-site recheck* (the 2026 season is over. The live camp page says only "Check back in January
+2027 for Camp Registration!", and the CampBrain portal is no longer linked).
 
 ## Structure
 
@@ -110,6 +117,9 @@ Verbatim:
 
 Drop-off begins **8:45 a.m.** per the camp page — ⚠️ though the logistics doc says **8:40**
 and the FAQ says **8:40am**. A minor internal inconsistency in the school's own materials.
+
+*Superseded 2026-11-14 — see Live-site recheck* (the live page no longer gives the June 15–July 20, 2026 season dates; the hours
+and the 8:45 a.m. drop-off are confirmed, and it adds afternoon drop-off from 12:45 p.m.).
 
 ## ⚠️ TWO four-day weeks, not one
 
@@ -161,6 +171,10 @@ rising-8 option. Widest-band camps: **Master Chess Camp (K-8)**, **Theater and I
 | **Black Rocket** | The coding/game-design family (Roblox, Minecraft, A.I., Young Coders, Game Designers), ~12 rows. Named as a vendor only in the aid-exclusion sentence. |
 | **P3 Soccer** | Coach Pedro — 2 weeks |
 | **Venture Outdoor Leadership program at UNC-Charlotte** | Runs Camp Independence Sr. |
+
+Both Camp Independence sections (Sr. and The Next Level) run Monday–Friday in the CSV:
+"9-4p M-Tu", then "9a W-Th. (overnight)", then "9-12p Fri." with "Noon pick-up". The
+catalog tables below carry only the first line.
 
 > ⚠️ **"Mad Science" is NOT a vendor here.** The name appears **nowhere** in any of the
 > five documents or on the camp page. The science camps (Chemistry of Slime, Candy

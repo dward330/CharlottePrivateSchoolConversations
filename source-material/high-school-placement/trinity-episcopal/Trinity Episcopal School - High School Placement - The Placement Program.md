@@ -109,6 +109,8 @@ A second, independent title defect: **threadids 2 and 3 share the identical titl
 "Trinity Celebrates the Class of 2023" with completely different bodies — #3 is the real
 commencement story, #2 is a staff retirement tribute.
 
+*Superseded 2026-11-14 — see Live-site recheck* — the old blog and its threadid posts were not migrated to the new site.
+
 ## The program, as the school describes it
 
 From the school's own admission page (`/admission/k-8-advantage.cfm`), verbatim:
@@ -139,6 +141,8 @@ From the counselor article (threadid=6, Aug 23 2023), verbatim:
 "this year" dates the structure to the **2023-24 school year**. It is not a longstanding
 program and should not be presented as one.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ### What the counselors actually do — verbatim
 
 Lilla Clark:
@@ -154,6 +158,8 @@ On the boarding side (Benita Griffin, in 2023):
 > "for every 8th Grader at Trinity and their different personalities and different
 > strengths, there's a boarding school out there for their child if only they would
 > consider pursuing it and exploring it."
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 ## ⚠️ Who holds these roles TODAY — the 2023 article is stale on staffing
 
@@ -178,6 +184,8 @@ Current, as of the 2026-09-16 fetch:
 Attribute whichever is cited. The admission-page title is the one that carries placement
 meaning; the disagreement is real and unresolved by any third source.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 **Lilla Clark's title also varies across three sources:** "MS Language Arts Teacher &
 H.S. Counselor" (directory), "Middle School Language Arts Teacher" (threadid=6, no
 counselor title), "Middle School Language Arts Teacher **and High School Counselor**"
@@ -193,6 +201,8 @@ The 8th-grade year carries a Social Issues Seminar culminating in **an advocacy 
 Washington, D.C., in May** (threadid=15), and an advocacy panel for 8th graders
 (threadid=40). These are curricular/civic, **not** high-school placement steps — do not
 present them as part of the placement process.
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 ## ⚠️ Confirmed absent — the placement process is largely unpublished
 
@@ -210,6 +220,8 @@ Swept across all 100 sitemap pages + all 51 blog posts + both profile PDFs
 | "shadow day" | **0** | |
 | "placement timeline" / "timeline" | **0** | what grade the search starts is never stated |
 | "entrance test" / "placement test" / "standardized test" | **0** | |
+
+*Superseded 2026-11-14 — see Live-site recheck* — the timeline row: an Oct 8, 2026 post places the start of the search in the fall of 8th grade.
 
 **The outbound test question, specifically.** `ISEE` returns only **3 hits, all
 INBOUND** — Trinity's own entrance testing for applicants coming *in*:

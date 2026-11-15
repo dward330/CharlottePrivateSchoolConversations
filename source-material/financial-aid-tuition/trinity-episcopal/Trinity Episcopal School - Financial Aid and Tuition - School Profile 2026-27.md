@@ -48,6 +48,8 @@ ever archived.
 It is linked from **one place only** — the Middle School page — and is not in the
 sitemap's crawlable page set as content.
 
+*Superseded 2026-11-14 — see Live-site recheck* — the profile is now linked from Trinity At a Glance, at a new address.
+
 **Both currently-live editions were captured in full before any other work.** Everything
 downstream that cites enrollment, tuition, the cumulative placement split, the club list
 or the athletics-by-season list depends on this capture.

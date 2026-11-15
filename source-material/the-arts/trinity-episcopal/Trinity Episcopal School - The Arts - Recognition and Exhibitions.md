@@ -86,9 +86,10 @@ to the attacks."
 
 ## Source URLs
 
-- Trinity artists honored — https://www.tescharlotte.org/trinity-artists-honored-in-local-exhibits/
-- CATO teaching award — https://www.tescharlotte.org/jen-rankey-zona-receives-excellence-in-teaching-award/
-- Ghana art exchange — https://www.tescharlotte.org/fifth-grade-continues-art-exchange-with-ghana-students/
+- Trinity Artists Honored in Local Exhibits (Mar 7 2026) — https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/trinity-artists-honored-in-local-exhibits
+- 25 Years After 9/11, Trinity's Hands Still Touch Ground Zero (Sep 10 2026) — https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/25-years-after-911-trinitys-hands-still-touch-ground-zero
+- Staculty directory — https://www.tescharlotte.org/about-us/staculty
+- Gone since the fall-2026 redesign, Wayback only (kept for the record, never cited on the page): the CATO teaching-award post — https://web.archive.org/web/20260312110215/https://www.tescharlotte.org/jen-rankey-zona-receives-excellence-in-teaching-award/ · the Ghana art-exchange post — https://web.archive.org/web/20250909133038/https://www.tescharlotte.org/fifth-grade-continues-art-exchange-with-ghana-students/
 
 ## Student recognition — March 2026
 
@@ -116,6 +117,8 @@ Art teacher **Shelby Hawk**, verbatim:
 
 ## Faculty recognition — May 2025
 
+*Superseded 2026-11-14 — see Live-site recheck: the award post is gone from the live site (Wayback only). Per the live-site-only decision it is off the app; kept here as the record.*
+
 **Jen Rankey-Zona**, **Visual Arts Director** and a **founding teacher** of the school,
 received a **2025 CATO Excellence in Teaching Award** from the **Arts & Science Council** —
 **one of six educators** recognized across the Charlotte area.
@@ -127,6 +130,8 @@ Head of School **Imana Sherrill**:
 > "Her impact is felt deeply at Trinity and far beyond."
 
 ## An international art exchange — ongoing since 2023-24
+
+*Superseded 2026-11-14 — see Live-site recheck: the exchange post is gone and "Ghana" returns zero hits on the new site. Per the live-site-only decision it is off the app; kept here as the record.*
 
 From "Fifth Grade Continues Art Exchange with Ghana Students", **October 29, 2024**.
 
@@ -150,6 +155,8 @@ A student line from the water exchange, quoted without attribution per the rule 
 two external exhibition venues, a faculty teaching award, an international exchange,
 and student stipend awards, each with a count and a date.
 
+*Superseded 2026-11-14 — see Live-site recheck: the faculty award and the international exchange are no longer on the live site; the card now carries the two 2026 exhibitions, the stipend awards and the 2001 Ground Zero banners.*
+
 **Does NOT support** a separate awards card in the theatre sense. The roster's `theatre`
 card is titled "Theatre & the Blumeys" and carries a **year-by-year awards ledger** for
 the **Blumeys**, which are Blumenthal Performing Arts' **high-school** musical-theatre
@@ -160,3 +167,5 @@ them here. Trinity's recognition is **visual-arts**, not theatre, so it belongs 
 **Confirmed absent, still:** no named arts facilities (`auditorium`, `black box`,
 `art gallery` = 0 hits across all 98 pages). The only named campus facility is the
 **IDEA (STEM) Lab**, which is not an arts space.
+
+*Superseded 2026-11-14 — see Live-site recheck: the new site names the CCA Auditorium (see the Program Overview file).*

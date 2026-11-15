@@ -97,9 +97,11 @@ implementation pass.
 
 ## Source URLs
 
-- Middle School curriculum — https://www.tescharlotte.org/academics/middle-school-curriculum.cfm
-- Middle School enrichments — https://www.tescharlotte.org/academics/middle-school-enrichments.cfm
-- 2026-27 School Profile (PDF) — https://www.tescharlotte.org/editoruploads/files/26-27SchoolProfile.pdf
+- Middle School (curriculum and enrichment tiles) — https://www.tescharlotte.org/academics/middle-school
+- Tank to Table (aquaponics), The Voice 2026 (PDF) — https://resources.finalsite.net/images/v1789676561/tescharlotteorg/mnqsu6udulkaxofvygva/AquaponicsArticleTheVoice2026.pdf
+- Trinity At a Glance — https://www.tescharlotte.org/about-us/trinity-at-a-glance
+- 2026-27 School Profile (PDF) — https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf
+- Former addresses, 404 since the fall-2026 redesign (kept for the record): /academics/middle-school-curriculum.cfm · /academics/middle-school-enrichments.cfm · /editoruploads/files/26-27SchoolProfile.pdf
 
 ## The math track — a real published sequence with five 8th-grade endpoints
 
@@ -192,7 +194,11 @@ Social Issues Seminar (8) · FOCUS Period (6–8)
 **Plus:** Choice Electives (7–8) *(named, contents unpublished)* · a **drama elective** ·
 ensembles **choir/band (6)** and **Advanced Band / Advanced Choir (7–8)**
 
+*Superseded 2026-11-14 — see Live-site recheck: the Electives tile now lists the 7th–8th electives, a 6th Grade Digital Learning/Computer Science trimester exists, and the drama elective is no longer stated.*
+
 ### A forthcoming addition
+
+*Superseded 2026-11-14 — see Live-site recheck: the 6th Grade Digital Learning/Computer Science class is now live on the Middle School page.*
 
 From the school's AI task force post, verbatim:
 > "A **6th Grade technology class will be added to Middle School** as digital learning
@@ -202,6 +208,8 @@ From the school's AI task force post, verbatim:
 Attribute as **announced**, not current.
 
 ## Ensembles and drama, verbatim
+
+*Superseded 2026-11-14 — see Live-site recheck: the live Performing Arts tile is reworded ("Sixth-grade students choose…", "Ensembles may perform…") and now says "after-school fall play or winter musical"; no drama elective.*
 
 > "6th Grade students choose from one of two ensembles: **choir or band**. 7th and 8th
 > Grade students who decide to continue in an ensemble can choose **Advanced Band or
@@ -213,11 +221,15 @@ Attribute as **announced**, not current.
 
 ## Koinonia — the advisory structure, on the enrichments page
 
+*Superseded 2026-11-14 — see Live-site recheck: this passage is on no live page; the Middle School page says only "deeper relationships with peers and teachers in their Koinonia advisory groups".*
+
 > "each student belongs to a **Koinonia with 10-12 other Middle School students and one
 > adult leader**… Koinonia groups gather **every morning for check-in and twice a week for
 > activities**…"
 
 ## ⛔ Confirmed absent — all four verified, zero hits
+
+*Superseded 2026-11-14 — see Live-site recheck: per-course descriptions and the Choice Electives contents are now published (Middle School page tiles). Still absent: a curriculum guide and promotion or graduation requirements.*
 
 | Item | Evidence |
 |---|---|

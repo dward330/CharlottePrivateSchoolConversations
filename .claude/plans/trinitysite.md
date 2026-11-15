@@ -1,7 +1,7 @@
 ---
 name: trinitysite
 title: Re-source every Trinity Episcopal fact to its redesigned website, and let the live site override the app
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-14
 branch: fix/trinitysite
@@ -516,3 +516,95 @@ Mechanism: `.claude/docs/prose-translation-architecture.md`; per-locale traps in
   ignores them (test on one); otherwise leave them in `reports/trinity-site-2026-11-14/docs/`.
 - **A section D item that fits no existing field** — **default:** skip it and list it in
   Implementation notes for the user; never add UI.
+
+## Implementation notes
+
+### Phase 1 (English), 2026-11-14
+
+Built in three parallel passes, one per worklist, then ingested and verified together.
+
+**Deviations and judgment calls (all within existing cards, no new UI):**
+
+- **No PR opened yet.** Plan step 13 says open the PR in Phase 1. `/implement` keeps the
+  PR for after Phase 2, so Phase 1 is committed and pushed to `fix/trinitysite` only.
+- **PDFs not copied into `source-material/`** (open question 1). Every cited fact is
+  already transcribed there, so the copies would add nothing.
+- **After School timeline:** the "Full days (school closed)" bar was removed, because the
+  live site gives no hours for it. Its $72 rate stays in the facts, marked "offered during
+  conferences". The half-day bar now ends at TED's published 6:00 p.m. close (it used to
+  say 5:30, which is no longer stated). Added checklist question: "What hours does TED run
+  on half days and conference days?"
+- **Sports coaching tiles:** the old since-2004 / 20 yrs / ~250 tiles were replaced with
+  counts from live pages: "3 athletics staff on the Athletics page" and "4 QCAA titles in
+  Fall 2026" (soccer, volleyball, boys and girls cross country Run-Off). Volleyball coaches
+  are named by staff title. Parent and alum soccer coaches are unnamed.
+- **Summer Camp Independence:** `dayLabel` is `Mon–Fri` (an existing value, so no new
+  chrome key). `hours` is `9-4p M-Tu · 9a W-Th (overnight) · 9-12p Fri`, per the school's CSV.
+- **Course Offerings:** the Middle School department "Weekly Enrichments" was renamed
+  "Enrichments", to match the live heading. A department is not a card, so
+  `check:cardlink` passes. Added rows: Gr 6 "Digital Learning / Computer Science"
+  (Enrichments) and "Chapel" (Community Life). Drama Elective removed; Arts & Ensembles
+  keeps 2 rows. The four Faith Studies/FOCUS rows still say "one of the 13 weekly Middle
+  School enrichments listed in the School Profile", which is still true of the live profile.
+- **Financial Aid:** the prior-year tuition bars and % change were removed with the
+  tuition history (gone pages). The lunch "Aid does not reach the lunch line" box was
+  removed, so `fa-beyond` has no `boxes`. Added rows: Clarity fee $65, TED half-day $51,
+  TED conference full-day $72. Section and box titles were left unchanged so card links
+  hold. "$2.1 million" on Trinity At a Glance agrees with $2,139,114.
+- **Clubs:** the Mock Trial / Speech & Debate cluster evidence moved from
+  'verified'/"Verified — event" to 'reported'/"School-published". The service DC-trip row
+  was rebuilt from 2025-26 live material (value '2': Raleigh and Washington, D.C.).
+  Invisible Differences is off the affinity card (its only description came from the gone
+  page). The 2025-26 profile's MathCats/Book Club comparison was dropped as a gone-page
+  fact. The honors title "Competitions & Student Leadership" was kept: Mock Trial and
+  Speech & Debate still compete as coached electives, though no current result is
+  published.
+- **Arts:** added "Banners for Ground Zero" (September 2001) as a visual-arts exhibit
+  (its source post is live), a music "Who teaches it" row (Wallace, Moorman, the 2026
+  Light the Fire grant), the Nov 10 / Nov 19 concerts, and Leslie Cossor. The stipend
+  awards keep the post date, March 2026.
+- **HSP:** `steps[0]` says the search starts "in the fall of 8th grade", per the plan.
+  The Oct 8 post implies this but does not use that phrase.
+
+**Section D items skipped** (each would have needed a new field or block, or added
+nothing): the main phone and the "CCA Auditorium" room name in Admissions (already
+covered); the CAIS ESL nonverbal index and the non-refundable-after-Jan-1 booking rule
+(they would lengthen an already long step; easy to add if wanted); the Trinity Endowment
+line; the Jan 2026 Raleigh/D.C. mention in HSP (it sits on the clubs service card
+instead); the "What makes Wildcat Summer Camp stand out?" list (no field); TED
+"registration closed" (no field holds registration status; recorded in source-material);
+WOW Week, Science Buddies and 12 Tribes as course rows.
+
+**Ingest:** the per-topic `build_docs.py` runs reordered `schools.json` and re-dated every
+school's note. HEAD order was restored, and date-only note diffs were reverted, so only the
+nine Trinity notes, the nine Trinity content JSONs and the `generated` date changed.
+`check:metrics` reports no new unmatched subtopic. Its "branding file not ingested" line
+predates this branch: branding is not an ingested topic.
+
+**Phase 1 verification:**
+- `tsc -b` is clean.
+- `npm run build` passes every chained check up to `check:live`, which fails as expected:
+  454 findings per locale × 9 = 4,086. Mapped through the work files' `of` → `at`, all
+  454 are Trinity-only paths. Per topic (per locale): admissions 70, after-school 70,
+  course-offerings 32, financial-aid-report 44, high-school-placement 16, sports 30,
+  student-clubs 110, summer-programs 20, the-arts 62.
+- The checks after `check:live` in the chain were run on their own and all exit 0:
+  `check:chrome`, `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`,
+  `check:news`, `check:photos`, `check:cardlink`.
+- `check:schema` and `check:spelling` pass.
+- The step 12 greps found 0 stale terms in Trinity prose. The remaining hits are header
+  comments recording what was removed, plus 2026 summer camp prices of $275, which are
+  correct.
+- Link check: 43 unique URLs fetched 6s apart, and 42 returned 200. The welcome video
+  player returns 401 to a request with no referer; its oEmbed returns 200, and `brands.ts`
+  is unchanged.
+- The live spot-check on 2026-11-14 confirmed $215 K, $380/$355, the $100 fee, the $300
+  CAIS fee and the 72-hour rule.
+- Browser check (real Chrome, every `<details>` open, both band tabs): every expected
+  value is present and every removed one is absent. The "separate" / "12% since 2004"
+  matches were false positives. There are no empty cards and no literal `**`. The
+  admissions checklist route is correct.
+- `audit:mobile --only trinity-episcopal`: 0 broken cards and 0 page overflow.
+
+**Phase 2 scope:** the 454 retired stamps per locale above, plus whatever is new. Measure
+both from a fresh extract (step 14).

@@ -63,6 +63,11 @@ rule or late-pick-up rule.** Its only cost-and-policy content is an FAQ, verbati
 - FAQ — https://docs.google.com/document/d/1_xo5HoOEkunBn-BZj22o-jCTtnH9RPGMUXWeQ7AR2E8/export?format=txt
 - Camp page — https://www.tescharlotte.org/community/wildcat-summer-camp.cfm
 
+*Superseded 2026-11-14 — see Live-site recheck* (the camp page moved to https://www.tescharlotte.org/community/wildcat-summer-camp
+and now says only "Check back in January 2027 for Camp Registration!". The three docs above
+still open but are no longer linked, so every fee and policy below is the **2026 season's**
+terms; refresh when the 2027 terms post).
+
 ## Before- and after-camp care
 
 Verbatim (the fees doc states this twice):
@@ -159,6 +164,9 @@ Verbatim:
 > ⚠️ **There is no FLIK lunch option at camp** — a real contrast with the school year,
 > where FLIK is $11.50/meal.
 
+*Superseded 2026-11-14 — see Live-site recheck* (the $11.50 per-meal price is no longer on the live site; the tuition page lists
+only FLIK's annual and 20-meal plans).
+
 **Two-half-day campers bridge lunch on campus**, verbatim:
 > "Children participating in two separate camps (a morning camp and then an afternoon
 > camp) will **stay on campus for lunch and recess** before joining their afternoon camp"
@@ -170,6 +178,10 @@ camps into a full day workable**, and it is a genuinely useful planning fact.
 reusable water bottle (the camp is cup-free); snacks are required — **1 for half-day, 2 for
 full-day**, in labeled Ziploc bags.
 
+*Superseded 2026-11-14 — see Live-site recheck* (the live camp FAQ is firmer on nuts: "No. For the health and safety of all
+students, please do not send any snacks containing nuts to camp. We will also discourage
+the sharing of snacks for this reason.").
+
 ## ⛔ Confirmed absent
 
 | Item | Status |
@@ -177,3 +189,6 @@ full-day**, in labeled Ziploc bags.
 | **Per-camp capacity** | **Confirmed absent.** The docs assert capacity is limited ("Due to limited camp capacity, space cannot be held without payment"; "All camps are subject to a minimum enrollment") but **never state a number for any camp**. |
 | **Staff ratios** | **Confirmed absent.** The only ratio anywhere is Summer LEAP's "The number of students with each teacher will be **6-8**" — ⚠️ **that is one invitation-only academic programme, not a camp-wide ratio. Do not generalize it.** |
 | **Registration open date** | **Not found** — no January date appears anywhere. |
+
+*Superseded 2026-11-14 — see Live-site recheck* (registration date: the live camp page now says "Check back in January 2027 for
+Camp Registration!").

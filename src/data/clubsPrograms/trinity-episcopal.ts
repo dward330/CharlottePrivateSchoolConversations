@@ -8,32 +8,36 @@
 // ⚠️ NO STUDENT NAMES. Trinity is K–8, so every competitor, honor-council member
 // and award recipient is a minor. Per the project rule (user, 2026-09-16) the
 // RECOGNITION and the COUNTS ship and the children do not. Adults — coaches,
-// directors, assistant heads — are named in their professional capacity, which
-// is why Jennifer Bader, Ayeola Elias and Stephanie Griffin appear below and no
-// student does. The school's own blog posts DO name the students; that is the
-// school's call to make about its own families, not ours.
+// assistant heads — are named in their professional capacity, which is why
+// Jennifer Bader and Ayeola Elias appear below and no student does.
+//
+// ⚠️ LIVE SITE ONLY (user, 2026-11-14, plan trinitysite). Trinity's fall-2026
+// redesign dropped its affinity-groups page and every pre-2026 blog post. Per
+// the user's decision, what the live site no longer states came OUT of these
+// cards even where it was true: the Mock Trial state titles (2023–2025) and the
+// "both won state championships" line, the affinity groups' purpose statements
+// and grade ranges, the Pride and Sankofa chapels, the May 2024 Washington trip
+// (46 eighth graders) and the 954-pound food drive. The Wayback copies stay in
+// source-material/ as the record — never cite them on the page.
 //
 // Four research outcomes shaped this file:
 //
-//  1. THE AFFINITY CARD IS THE RICH ONE, which is unusual for a K–8 school and
-//     inverts the usual shape — most schools on this roster publish a bare list
-//     of group names, while Trinity publishes five student groups with grade
-//     ranges AND a full purpose statement apiece, plus four parent groups. So
-//     `groups` carries real `detail` on every cell rather than a name alone.
+//  1. THE AFFINITY CARD NOW RESTS ON THE PROFILE. The student group names
+//     survive only in the 2026-27 School Profile's club list, so `groups`
+//     carries each name with its division and nothing more. The parent groups
+//     and the chapel services come from the live Belonging and Chapel pages.
 //
-//  2. THE HONORS CARD IS A COMPETITION LEDGER, NOT A SOCIETY LEDGER. Trinity has
-//     no NHS/NJHS-style chartered society — it has a three-peat state
-//     championship and an elected Honor Council. `Society.recognizes` /
-//     `feedsFrom` are general enough to carry both, so the card ships with the
-//     achievements in the ledger rather than being omitted for want of a
-//     chartered chapter. The card's shared title still reads "Honor Societies";
-//     no TITLE_OVERRIDE is added here, because that is a UX change and needs the
-//     approval gate — raised at review instead.
+//  2. THE HONORS CARD IS A COMPETITION-AND-LEADERSHIP CARD, NOT A SOCIETY
+//     LEDGER. Trinity has no NHS/NJHS-style chartered society. It has an elected
+//     Honor Council and two competitive programs — Mock Trial and Speech &
+//     Debate — that the live site now presents as classes with a named coach.
+//     The card carries the TITLE_OVERRIDE "Competitions & Student Leadership"
+//     (clubsProgram.ts, user 2026-10-19).
 //
 //  3. NJHS AND STUDENT COUNCIL ARE DELIBERATELY ABSENT. Both return ZERO hits
-//     across all 98 sitemap pages and both profile PDFs, yet a web search
-//     returns confident prose about a Trinity NJHS chapter ("grades 6–8… faculty
-//     committee") and a Trinity Student Council ("Elected by their
+//     across the old 98-page site, the new site and both profile PDFs, yet a web
+//     search returns confident prose about a Trinity NJHS chapter ("grades 6–8…
+//     faculty committee") and a Trinity Student Council ("Elected by their
 //     classmates…"). That is the same contamination class that produced a bogus
 //     "NJHS GPA 3.6" detail — almost certainly another school's page, very
 //     likely Trinity Episcopal School in RICHMOND VA (trinityes.org), a grades
@@ -43,10 +47,10 @@
 //
 //  4. NO PUBLICATIONS CARD, AND THAT IS NOT THE SAME AS "NO YEARBOOK". The
 //     student newspaper and literary magazine are confirmed absent (0 hits
-//     each); the yearbook EXISTS but is a Parents' Association function, its
-//     single site-wide mention being on community/parents-association.cfm. So
-//     the zero-items rule omits a student-publications card entirely — and
-//     nothing here says the school has no yearbook, because it has one.
+//     each); the yearbook EXISTS (the Paw Print) but is a Parents' Association
+//     function. So the zero-items rule omits a student-publications card
+//     entirely — and nothing here says the school has no yearbook, because it
+//     has one.
 //
 // The school's own inconsistencies are PRESERVED, not normalized: "Nourish Up"
 // (grades K and 1) vs "NourishUp" (grade 6), and the grade-3 partner headed
@@ -55,113 +59,110 @@
 
 import type { ClubsProgram } from '../clubsProgram.ts'
 
-const AFFINITY = 'https://www.tescharlotte.org/diversity/affinity-groups.cfm'
-const SPIRIT_DIVERSITY =
-  'https://www.tescharlotte.org/spirituality-and-diversity-working-hand-in-hand-at-trinity/'
-const SERVICE_LEARNING = 'https://www.tescharlotte.org/spirituality/service-learning.cfm'
-const ABOUT = 'https://www.tescharlotte.org/about/'
-const DC_TRIP = 'https://www.tescharlotte.org/blog.cfm?threadid=15'
-const FOOD_DRIVE =
-  'https://www.tescharlotte.org/students-collect-954-pounds-of-food-for-nourish-up/'
-const THREE_PEAT =
-  'https://www.tescharlotte.org/three-peat-trinity-mock-trial-team-wins-third-consecutive-championship/'
-const SECOND_TITLE =
-  'https://www.tescharlotte.org/trinity-takes-mock-trial-championship-for-second-year/'
-const STACULTY = 'https://www.tescharlotte.org/celebrating-tes-staculty-achievements/'
-const HONOR_CODE = 'https://www.tescharlotte.org/spirituality/honor-code.cfm'
-const PROFILE = 'https://www.tescharlotte.org/editoruploads/files/26-27SchoolProfile.pdf'
+const K8_ADVANTAGE = 'https://www.tescharlotte.org/admissions/the-k-8-advantage'
+const LEADERSHIP = 'https://www.tescharlotte.org/about-us/school-leadership'
+const CELEBRATING = 'https://www.tescharlotte.org/belonging/celebrating-diversity'
+const CHAPEL = 'https://www.tescharlotte.org/spirituality/chapel'
+const CALENDAR = 'https://www.tescharlotte.org/calendar'
+const LOWER_SCHOOL = 'https://www.tescharlotte.org/academics/lower-school'
+const MIDDLE_SCHOOL = 'https://www.tescharlotte.org/academics/middle-school'
+const SERVICE_LEARNING = 'https://www.tescharlotte.org/spirituality/service-learning'
+const AT_A_GLANCE = 'https://www.tescharlotte.org/about-us/trinity-at-a-glance'
+const BEYOND = 'https://www.tescharlotte.org/academics/beyondclassroom'
+const NEWS = 'https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/'
+const ADVOCACY_PANEL = `${NEWS}panel-encourages-8th-grade-to-advocate-for-charlotte`
+const WALK_FOR_PEACE = `${NEWS}students-witness-walk-for-peace-during-charlotte-visit`
+const STACULTY = 'https://www.tescharlotte.org/about-us/staculty'
+const HONOR_CODE = 'https://www.tescharlotte.org/about-us/the-honor-code'
+const PROFILE =
+  'https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf'
 
 export const trinityEpiscopal: ClubsProgram = {
   affinity: {
     headline:
-      'Five named student affinity groups, each with its grade range and a published purpose statement, plus four parent groups — under a Director of Diversity, Equity, and Belonging.',
-    // No subhead: the removed line editorialised ("unusually well populated")
-    // rather than adding a fact, and the headline already carries the count,
-    // the grade ranges and the published purpose statements.
+      'Five student affinity groups, two parent affinity groups, and chapel services for the community\'s many traditions — led by an Assistant Head of School for Belonging and Community Engagement.',
+    // No subhead: the headline already carries the counts and the leadership.
     umbrella: {
-      name: 'Diversity, Equity, and Belonging',
+      name: 'Belonging and Community Engagement',
       detail:
-        'led by Ayeola Elias, Director of Diversity, Equity, and Belonging · groups exist "to foster kinship; to provide students and adults a place to celebrate their uniqueness, gifts and important role in our school community; and to affirm, protect and nurture the identities of the group"',
+        'led by Ayeola Elias, Assistant Head of School for Belonging and Community Engagement · "Affinity groups in Lower and Middle School are inclusive spaces for students and adults that are built around shared identities and experiences."',
     },
     groups: [
       {
         name: 'Young Children of Color (YCC)',
-        detail:
-          'grades K–5 · an affinity group and mentoring program for students of color; all students of color are invited, and the family decides whether to participate',
+        detail: 'Lower School',
       },
       {
         name: '12 Tribes of Trinity',
         detail:
-          'grades 3–5 · co-ed groups who "learn to build community, internalize and reinforce the Honor Code", each led by 2 adult staculty members',
+          'grades 3–5 · co-ed groups that let students from different grades get to know one another and build relationships · "Each Tribe is led by 2 adult staculty members."',
       },
       {
         name: 'Young People of Color (YPC)',
-        detail:
-          'Middle School · for students who self-identify as students of color; meets weekly on cultural sensitivity, academic success and socio-political issues, and on preparation for high school',
+        detail: 'Middle School',
       },
       {
         name: 'Young People for Social Justice (YPSJ)',
-        detail:
-          'Middle School · for students who self-identify as white, discussing unearned privilege and the actions they can take as allies — framed on Gandhi’s "Be the change you wish to see in the world"',
+        detail: 'Middle School',
       },
       {
         name: 'Gender Sexuality Alliance (GSA)',
-        detail:
-          'Middle School · human-rights discussion and activities with a focus on gay, lesbian, bisexual, questioning and transgender issues; has organized a Pride Chapel in recent years',
+        detail: 'Middle School',
       },
     ],
     strips: [
       {
         title: 'Lower School',
         hint: '· grades K–5',
-        text: 'Young Children of Color runs from Kindergarten through grade 5 · 12 Tribes of Trinity groups students across grades 3–5.',
+        text: 'Young Children of Color is a Lower School group · 12 Tribes of Trinity groups students across grades 3–5.',
       },
       {
         title: 'Middle School',
         hint: '· 3 groups',
-        text: 'Young People of Color · Young People for Social Justice · Gender Sexuality Alliance — all three are Middle School groups, and YPC meets weekly.',
+        text: 'Young People of Color · Young People for Social Justice · Gender Sexuality Alliance — all three are Middle School groups.',
       },
       {
         title: 'Parents',
-        hint: '· 4 groups',
-        text: 'Café con Padres for Hispanic/Latino families · KINDRED for African American/Black families · Invisible Differences for families of children with learning differences · the Diversity & Belonging Committee, open to all parents.',
+        hint: '· 2 groups',
+        text: 'Cafe Con Padres, the Hispanic parent affinity group, sponsors the Latino Festival · KINDRED, the African American/Black parent affinity group, sponsors the KINDRED Festival. Both work with the Parents\' Association.',
       },
       {
         title: 'In chapel',
-        text: 'The student GSA has organized a Pride Chapel. The school also holds a Sankofa Chapel each year during Black History Month, a Diwali chapel with song and dance, and Hispanic Heritage Month chapels led by Latino families.',
+        text: 'K-8 chapels celebrate the community\'s diversity "through services for Hispanic Heritage Month, Black History Month, the Jewish High Holy Days, and others." The 2026-27 calendar includes a K-8 Chapel for Diwali.',
       },
     ],
     leadershipTitle: 'Who runs it',
     leadership:
-      'Ayeola Elias is Director of Diversity, Equity, and Belonging. No student diversity leadership council is published. No attendance at a national student diversity conference appears anywhere on the site either. Both absences are consistent with a K–8 school, since those conferences are aimed at high schoolers.',
+      'Ayeola Elias is Assistant Head of School for Belonging and Community Engagement. Each January the school holds Freedom Fete, around Martin Luther King Jr. Day, with guest speakers on diversity and social justice. No student diversity leadership council is published.',
     flags: [
       {
         kind: 'count',
-        text: '**Invisible Differences is a PARENT group, not a student club.** The affinity-groups page lists it among the four parent groups; the 2026-27 School Profile lists it among the student clubs. The affinity page is the more specific source and is followed here — so the student roster is five groups, not six.',
+        text: '**Invisible Differences is left off this card.** The 2026-27 School Profile lists it among the Middle School clubs and groups. The old affinity-groups page called it a parent group for families of children with learning differences, but that page is gone (fall-2026 redesign) and no live page says what it is. So the student roster here is five groups, as before.',
       },
     ],
     sources: [
-      { label: 'tescharlotte.org — Affinity Groups', url: AFFINITY },
-      {
-        label: 'tescharlotte.org — Spirituality and diversity working hand in hand (Pride Chapel, Sankofa, Diwali)',
-        url: SPIRIT_DIVERSITY,
-      },
+      { label: 'tescharlotte.org — The K-8 Advantage (affinity groups)', url: K8_ADVANTAGE },
+      { label: 'tescharlotte.org — School Leadership', url: LEADERSHIP },
+      { label: 'tescharlotte.org — Celebrating Diversity (parent groups, festivals)', url: CELEBRATING },
+      { label: 'tescharlotte.org — Chapel', url: CHAPEL },
+      { label: 'tescharlotte.org — 2026-27 calendar (K-8 Chapel, Diwali)', url: CALENDAR },
+      { label: 'tescharlotte.org — Lower School page (12 Tribes of Trinity)', url: LOWER_SCHOOL },
       { label: 'tescharlotte.org — 2026-27 School Profile (PDF)', url: PROFILE },
     ],
   },
 
   service: {
     headline:
-      'Every grade from Kindergarten to 7 has a standing, year-long partnership with a named community organization — twelve of them — and 8th grade turns it into advocacy.',
+      'Every grade from Kindergarten to 7 partners with a named community organization — 10 partners in all — and 8th grade turns it into advocacy.',
     subhead:
-      'This is curricular rather than a volunteer club: "Each grade level partners with a community organization whose mission and services are related to curricular goals… Year-long partnerships create the possibility of relationship formation that transforms charity into mutual service among neighbors."',
+      'This is part of the curriculum, not a volunteer club: "Each grade partners with a community organization whose mission and services are related to curricular goals. Our students address real community needs in ways that are connected to and informed by their classroom learning."',
     programs: [
       {
-        value: '12',
-        valueLabel: 'named partner organizations · grades K–7',
+        value: '10',
+        valueLabel: 'service-learning partners · grades K–7',
         name: 'The grade-by-grade service ladder',
         detail:
-          'Kindergarten and grade 1 partner with Nourish Up — Kindergarten delivers Meals on Wheels weekly, grade 1 visits the food pantry at First Presbyterian Church and leads the school food drive each November. Grade 2 works with InReach, whose customers visit Trinity monthly for gardening, art, music and self-advocacy. Grade 3 partners with Roof Above / the Urban Ministry Center. Grade 4 with The Epiphany School of Charlotte, grade 5 with Galilee Ministries of East Charlotte. Grade 6 — "Feeding Our Neighbors" — works with the 8th Street Friendship Garden, the Charlotte Community ToolBank and NourishUp; grade 7 — "Understanding Our Neighbors" — with Crisis Assistance Ministry, Hope Haven and the First Ward Child Development Center.',
+          'Kindergarten and grade 1 partner with Nourish Up. Kindergarten delivers Meals on Wheels weekly, and grade 1 visits the food pantry at First Presbyterian Church and leads the school food drive each November. Grade 2 works with InReach, whose customers visit Trinity monthly for gardening, art, music and self-advocacy. Grade 3 partners with Roof Above / the Urban Ministry Center. Grade 4 partners with the Children of the World Learning Center, learning how preschoolers develop and how bilingual education works. Grade 5 partners with Galilee Ministries of East Charlotte. Grade 6 — "Feeding Our Neighbors" — works with the 8th Street Friendship Garden, the Charlotte Community ToolBank and NourishUp. Grade 7 — "Understanding Our Neighbors" — works with Crisis Assistance Ministry, Hope Haven and the First Ward Child Development Center.',
         source: { label: 'tescharlotte.org — Service Learning', url: SERVICE_LEARNING },
       },
       {
@@ -169,97 +170,100 @@ export const trinityEpiscopal: ClubsProgram = {
         valueLabel: 'walked to the partner, monthly · grade 3',
         name: 'Roof Above / Urban Ministry Center — on foot',
         detail:
-          'Third graders walk a mile to the Urban Ministry Center once a month for art, soccer, singing with the Urban Ministry Choir, and clothing drives. The walk is the point, and the school says so: "We like to say that Trinity has the longest hallways in Charlotte as our campus community extends into the heart of Uptown Charlotte. Each day you will see our students and teachers walking to and engaging with community organizations as part of our academic program and service-learning partnerships."',
-        source: { label: 'tescharlotte.org — Welcome from the Head of School', url: ABOUT },
+          'Third graders walk a mile to the Urban Ministry Center once a month for art, soccer, singing with the Urban Ministry Choir, and clothing drives. Walking is part of the point: "Trinity Episcopal School has the longest hallways of any school in Charlotte." Lower School students also make regular walks to the ImaginOn library, Children\'s Theatre and Discovery Place. In January 2026, students in grades 2-8 walked out to witness the Walk for Peace, a pilgrimage of Buddhist monks passing near the school.',
+        source: { label: 'tescharlotte.org — Beyond the Classroom', url: BEYOND },
       },
       {
-        value: '46',
-        valueLabel: 'eighth-graders on the 2024 advocacy trip',
+        value: '2',
+        valueLabel: 'advocacy trips in 2025-26 · Raleigh and Washington, D.C.',
         name: 'Advocacy and Social Action — the 8th-grade capstone',
         detail:
-          'Eighth grade maps its community and researches an issue all year in the Social Issues Seminar. Then the class travels to Washington, DC to advocate on it. The 2024 group met Rep. Jeff Jackson at the Capitol and carried five issues: gun-violence victim resources · economic mobility · minimum wage · affordable housing · healthcare cost transparency. Assistant Head of School Stephanie Griffin: "This is a trip, at its heart and soul, that’s all about advocacy."',
-        source: { label: 'tescharlotte.org — the 8th grade in Washington, DC', url: DC_TRIP },
+          'In the Social Issues Seminar, eighth graders pick a social issue, study it, and plan how to advocate for it. Then they "implement that plan during an advocacy trip to Washington, D.C., in May." In 2025-26 the class also studied a transit referendum that Charlotte voters approved. A Dec. 17 panel, with speakers from partners Roof Above and Galilee Ministries, helped students choose topics for "upcoming class trips to Raleigh and Washington, D.C."',
+        source: { label: 'tescharlotte.org — "Panel Encourages 8th Grade to Advocate for Charlotte", Jan 8 2026', url: ADVOCACY_PANEL },
       },
     ],
-    // No footnote and no "not a club" flag (user, 2026-09-16). The 954-pounds
-    // food-drive figure and the curricular-not-extracurricular framing are both
-    // still in source-material/ and in the sources below; they read as apparatus
-    // beside the grade partnerships themselves.
+    // No footnote and no "not a club" flag (user, 2026-09-16). The
+    // curricular-not-extracurricular framing reads as apparatus beside the grade
+    // partnerships themselves. (The 954-pound food drive came out 2026-11-14 —
+    // its post is gone; see the header.)
     flags: [
       {
         kind: 'gap',
-        text: 'The school’s own copy spells the same partner two ways and names the grade-3 partner twice: **"Nourish Up"** in grades K and 1 but **"NourishUp"** in grade 6, and grade 3 is **headed "Roof Above"** while its body says **"Urban Ministry of Charlotte" / "Urban Ministry Center"**. Roof Above is the renamed organization. Both spellings are reproduced as published rather than normalized.',
+        text: 'The school’s own copy spells the same partner two ways and names the grade-3 partner twice: **"Nourish Up"** in grades K and 1 but **"NourishUp"** in grade 6, and grade 3 is **headed "Roof Above"** while its body says **"Urban Ministry of Charlotte" / "Urban Ministry Center"**. Roof Above is the renamed organization. Both spellings are reproduced as published rather than normalized. The partner count (10) is the school\'s own figure on Trinity At a Glance and matches the 10 organizations the Service Learning page names.',
       },
     ],
     sources: [
       { label: 'tescharlotte.org — Service Learning (the full grade-by-grade ladder)', url: SERVICE_LEARNING },
-      { label: 'tescharlotte.org — "the longest hallways in Charlotte"', url: ABOUT },
-      { label: 'tescharlotte.org — 954 pounds of food for Nourish Up', url: FOOD_DRIVE },
+      { label: 'tescharlotte.org — Trinity At a Glance ("10 Service-learning partners")', url: AT_A_GLANCE },
+      { label: 'tescharlotte.org — Beyond the Classroom ("the longest hallways")', url: BEYOND },
+      { label: 'tescharlotte.org — Middle School page (8th Grade Social Issues Seminar)', url: MIDDLE_SCHOOL },
+      { label: 'tescharlotte.org — "Panel Encourages 8th Grade to Advocate for Charlotte", Jan 8 2026', url: ADVOCACY_PANEL },
+      { label: 'tescharlotte.org — "Students Witness Walk for Peace During Charlotte Visit", Jan 15 2026', url: WALK_FOR_PEACE },
     ],
   },
 
   honors: {
     headline:
-      'Two state championships in one year, and a three-peat: the Middle School Mock Trial team won the North Carolina Bar Foundation competition in 2023, 2024 and 2025.',
+      'An Honor Council students elect each fall, an Honor Code students wrote, and Mock Trial and Speech & Debate taught as classes with their own coach.',
     subhead:
-      'Trinity’s recognition record is competitive and civic, not built on chartered societies. There is no honor-society chapter here. Instead there is a courtroom, a debate circuit, and an Honor Council its own students elect.',
+      'Trinity has no honor-society chapter. Its student leadership runs through an elected Honor Council, and its competitive programs, Mock Trial and Speech & Debate, are part of the Middle School schedule.',
     societies: [
       {
-        name: 'Mock Trial — NC Bar Foundation state champions, 2023 · 2024 · 2025',
-        // Bare division name, as every other school's rows carry. The roster
-        // size, the 7th-grade class and the election all live in `recognizes`
-        // below, which is extracted prose — a qualifier in this field is a
-        // sentence in a table cell under a "Division" header, and ships English.
+        name: 'Mock Trial',
+        // Bare division name, as every other school's rows carry. The detail
+        // lives in `recognizes` below, which is extracted prose — a qualifier in
+        // this field is a sentence in a table cell under a "Division" header,
+        // and ships English.
         division: 'Middle School',
         recognizes:
-          'Three state championships in a row in the North Carolina Bar Foundation’s Middle School competition, coached by Jennifer Bader. The second title was won at the Mecklenburg County Courthouse against five other middle school teams.',
+          'A 7th–8th grade elective, listed as "Mock Trial and Speech & Debate", that runs "on alternating days for the entire academic year." Jennifer Bader is the Public Speaking Teacher and the Mock Trial and Speech and Debate Coach.',
         feedsFrom: 'the classroom',
       },
       {
-        name: 'Speech & Debate — state champions the same year',
+        name: 'Speech & Debate',
         division: 'Middle School',
         recognizes:
-          '"The speech and debate and mock trial teams both won their respective state championships this year." Speech & Debate is simultaneously a weekly 7th-grade enrichment and a competitive team, so it is both a class and a club.',
+          'A 7th-grade course in public speaking and building and defending an argument. It "meets every other day for one trimester," and students can continue in the 7th–8th Mock Trial and Speech & Debate elective.',
         feedsFrom: 'the classroom',
       },
       {
         name: 'Honor Council',
         division: 'Middle School',
         recognizes:
-          'Members are "elected by their grade level peers in Middle School" and are responsible for encouraging integrity, building a community of trust, and holding fellow students to the pledge. Eighth graders "often find themselves… leading honor councils".',
+          '"Each fall, Middle School students elect their peers to serve on the Honor Council." It encourages integrity, builds a community of trust, and holds classmates "to the expectations set out in the Middle School Pledge." Serving on it is one of the leadership roles Middle School students take on.',
         feedsFrom: 'the whole school',
       },
     ],
     adjacentTitle: 'The Honor Code itself',
     adjacent: [
       {
-        label: 'Written by students, 2002',
-        text: 'The Honor Code was created by students in 2002. The code carries six pledges: responsibility · doing one’s best · respecting others’ uniqueness · kindness · celebrating joy and beauty · refraining from dishonesty or theft. The whole school recites it together at Greet the Week each Monday morning.',
+        label: 'Written by students, adopted 2003',
+        text: '"Written by a group of Middle School students and adopted in 2003, the Honor Code is the only code of conduct the Trinity community has ever known and lived by." It carries six pledges: be responsible for my actions · always do my best · respect the uniqueness and gifts of others · practice kindness and consideration · celebrate the joyful, beautiful, and enduring · not lie, cheat, or steal.',
       },
       {
-        label: 'The Middle School Honor Pledge, adopted 2012',
+        label: 'Taught from Kindergarten',
+        text: 'Students learn the Honor Code "starting in Kindergarten," through activities matched to their age. As the school puts it: "The Honor Code follows you everywhere."',
+      },
+      {
+        label: 'The Middle School Pledge',
         text: '"As a child of God, I pledge that I have not cheated by giving or receiving help on this work, including plagiarizing. Moreover, I am unaware of any violation of this pledge by other students."',
-      },
-      {
-        label: 'The coach',
-        text: 'Jennifer Bader is Speech and Debate and Mock Trial Team Coach, and has served as Forensics Committee Chair and a board member of the North Carolina Association for Scholastic Activities. On the team: "I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections." And on why she does it: "I just love when the light bulb comes on for kids. It’s really challenging material, but they really get into it."',
       },
     ],
     flags: [
       {
         kind: 'gap',
-        text: '**There is no National Junior Honor Society and no Student Council at Trinity, despite what a web search will tell you.** "National Junior Honor Society", "Junior Honor Society", "NJHS" and "Student Council" each return **zero hits** across all 98 sitemap pages and both School Profile PDFs. A search nonetheless returns confident prose describing a Trinity NJHS chapter and a Trinity Student Council; not one word of it is corroborated on the school’s own site, and it is almost certainly another school’s page. Honor Council is the confirmed body.',
+        text: '**There is no National Junior Honor Society and no Student Council at Trinity, despite what a web search will tell you.** "National Junior Honor Society", "Junior Honor Society", "NJHS" and "Student Council" each return **zero hits** across the old 98-page site, the redesigned site and both School Profile PDFs. A search nonetheless returns confident prose describing a Trinity NJHS chapter and a Trinity Student Council; not one word of it is corroborated on the school’s own site, and it is almost certainly another school’s page. Honor Council is the confirmed body.',
       },
       {
         kind: 'gap',
-        text: 'The championships are documented only in the school’s blog — **neither appears in either School Profile PDF**, and individual student recognitions were published there but are omitted here because Trinity is a K–8 school and its competitors are minors. No membership criteria, selection process or team-size history is published for Mock Trial or Speech & Debate beyond the 15-student team figure.',
+        text: 'The 2023–2025 NC Bar Foundation Mock Trial titles and the Speech & Debate state title were published only in blog posts the fall-2026 redesign did not migrate. Per the live-site-only decision (user, 2026-11-14) they are off the card; the Wayback copies are in source-material/. No current competition result is published.',
       },
     ],
     sources: [
-      { label: 'tescharlotte.org — three-peat: a third consecutive Mock Trial championship', url: THREE_PEAT },
-      { label: 'tescharlotte.org — Mock Trial championship for a second year', url: SECOND_TITLE },
-      { label: 'tescharlotte.org — Celebrating TES Staculty Achievements', url: STACULTY },
-      { label: 'tescharlotte.org — Honor Code and the Middle School Honor Pledge', url: HONOR_CODE },
+      { label: 'tescharlotte.org — Middle School page (Electives; 7th Grade Speech and Debate)', url: MIDDLE_SCHOOL },
+      { label: 'tescharlotte.org — Staculty directory', url: STACULTY },
+      { label: 'tescharlotte.org — The Honor Code, Middle School Pledge and Honor Council', url: HONOR_CODE },
+      { label: 'tescharlotte.org — The K-8 Advantage (leadership roles)', url: K8_ADVANTAGE },
     ],
   },
 }

@@ -88,11 +88,16 @@ for the implementation pass.
 
 ## Source URLs
 
-- Middle School Enrichments — https://www.tescharlotte.org/academics/middle-school-enrichments.cfm
-- Lower School Enrichments — https://www.tescharlotte.org/academics/lower-school-enrichments.cfm
-- Middle School — https://www.tescharlotte.org/academics/middle-school.cfm
-- Chapel — https://www.tescharlotte.org/spirituality/chapel.cfm
-- 2026-27 School Profile (PDF) — https://www.tescharlotte.org/editoruploads/files/26-27SchoolProfile.pdf
+- Middle School — https://www.tescharlotte.org/academics/middle-school
+- Lower School — https://www.tescharlotte.org/academics/lower-school
+- Chapel — https://www.tescharlotte.org/spirituality/chapel
+- Trinity Extended Day — https://www.tescharlotte.org/community/trinity-extended-day
+- The Honor Code — https://www.tescharlotte.org/about-us/the-honor-code
+- The K-8 Advantage — https://www.tescharlotte.org/admissions/the-k-8-advantage
+- State of the School (Feb 11 2026) — https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/building-the-next-chapter-highlights-from-state-of-the-school
+- Class of 2026 Commencement (Jun 1 2026) — https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/tes-class-of-2026-commencement
+- 2026-27 School Profile (PDF) — https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf
+- Former addresses, 404 since the fall-2026 redesign (kept for the record): /academics/middle-school-enrichments.cfm · /academics/lower-school-enrichments.cfm · /academics/middle-school.cfm · /spirituality/chapel.cfm
 
 ## The catalog — and its single-source problem
 
@@ -106,6 +111,8 @@ for the implementation pass.
 > Invisible Differences, Spirituality and Chapel Music, Monday Math Mania"
 
 **15 named clubs** (3 Lower School, 12 Middle School). Corroboration status, checked against the whole site:
+
+*Superseded 2026-11-14 — see Live-site recheck: the affinity-groups page is gone, so the four identity groups and Invisible Differences are now profile-only; Girls on the Run has zero hits outside the profile; Spirituality and Chapel Music is now corroborated ("a Chapel Music Affinity Group in Middle School", State of the School post, Feb 11 2026).*
 
 | Club | Division | Corroborated on the site? |
 |---|---|---|
@@ -131,13 +138,19 @@ exists for any of them**. Cite the profile PDF and expect nothing further.
 **Year-over-year:** the 2025-26 profile also listed **MathCats** and **Book Club**; both
 are gone from the 26-27 edition.
 
+*Superseded 2026-11-14 — see Live-site recheck: the 2025-26 profile is no longer on the school's site, so this comparison is off the app.*
+
 ### Girls on the Run — the one LS club with real substance
+
+*Superseded 2026-11-14 — see Live-site recheck: these details are on no live page.*
 
 Trinity was the organization's **second independent-school chapter**, it "continues to be
 a popular program for students in **grades 3-5**", and founder **Molly Barker** is a
 Trinity alumni parent.
 
 ### Chess Club is a paid enrichment, not a club
+
+*Superseded 2026-11-14 — see Live-site recheck: the live TED page reads "seasonal enrichments are offered for an additional fee. These include chess club, boys and girls run clubs, music lessons, and much more." Karate and cheer club are no longer named.*
 
 From the TED page, verbatim:
 > "TED also offers enrichment programs, **for an additional fee**, several days a week…
@@ -153,6 +166,8 @@ These are the school's own named rituals, and several are structural rather than
 club-like.
 
 ### Koinonia — the Middle School advisory system
+
+*Superseded 2026-11-14 — see Live-site recheck: this description is on no live page; the Middle School page says "deeper relationships with peers and teachers in their Koinonia advisory groups".*
 
 From MS Enrichments, verbatim:
 > "each student belongs to a **Koinonia with 10-12 other Middle School students and one
@@ -177,6 +192,8 @@ From LS Enrichments (fuller than the affinity-groups version), verbatim:
 
 ### Science Buddies — 8th grade ↔ Kindergarten
 
+*Superseded 2026-11-14 — see Live-site recheck: reworded on the K-8 Advantage page: "Trinity traditions such as Science Buddies in Kindergarten and 8th Grade…".*
+
 From `/academics/middle-school.cfm`, verbatim:
 > "Our **8th Graders cherish the time they spend with our kindergartners as Science
 > Buddies** and look forward to their class trip to Washington, D. C., where they meet with
@@ -191,6 +208,8 @@ From LS Enrichments, verbatim:
 > the transition to Middle School."
 
 ### Greet the Week — Monday mornings
+
+*Superseded 2026-11-14 — see Live-site recheck: the Jamie's Courtyard sentence is gone from the Chapel page; the profile version is unchanged. Live chapel rhythm: biweekly Lower School chapels, a weekly Middle School chapel on Wednesdays, and the Friday K-8 Chapel in the Gym.*
 
 From `/spirituality/chapel.cfm`, verbatim:
 > "All staculty and students gather in **Jamie's Courtyard** each Monday morning to start

@@ -137,6 +137,8 @@ in the archive plus the current profile PDF — another reason the PDF capture m
 **This independently vindicates rejecting the third-party "over 25%" claim**: the school's
 own trajectory runs 26% → 29% → 31%.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ## How to apply
 
 **Platform: Clarity.** Verbatim:
@@ -146,6 +148,8 @@ own trajectory runs 26% → 29% → 31%.
 
 Portal: `app.clarityapp.com`. The school also links a "2026-27 Clarity Family Application
 Guide".
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 ### ⚠️ Deadlines differ by family type — returning families are due TWO MONTHS EARLIER
 
@@ -180,6 +184,8 @@ Two further details worth recording:
 
 **Trust the tuition page. Flag the discrepancy; do not silently fix it.**
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ## A separate funding route — NC Opportunity Scholarship
 
 Verbatim:
@@ -190,9 +196,13 @@ Verbatim:
 
 Promoted as a distinct route, not as part of the school's own aid.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ## ⛔ Confirmed absent
 
 - **Average award size** — no source anywhere.
 - **Enrollment deposit** — zero hits.
 - **Application fee amount** — zero dollar signs on the entire process page.
 - **Any aid figure for grades separately** — aid is reported school-wide only.
+
+*Superseded 2026-11-14 — see Live-site recheck* — the application fee row: the fee is now published as $100.

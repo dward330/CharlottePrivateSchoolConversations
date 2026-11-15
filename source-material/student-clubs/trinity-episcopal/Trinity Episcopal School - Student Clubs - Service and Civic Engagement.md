@@ -116,12 +116,17 @@ evidenced only by the Wayback capture above.
 
 ## Source URLs
 
-- Service learning — https://www.tescharlotte.org/spirituality/service-learning.cfm
-- Welcome from the Head of School — https://www.tescharlotte.org/about/
-- 8th Grade DC trip — https://www.tescharlotte.org/blog.cfm?threadid=15
-- Food drive — https://www.tescharlotte.org/students-collect-954-pounds-of-food-for-nourish-up/
+- Service Learning — https://www.tescharlotte.org/spirituality/service-learning
+- Trinity At a Glance — https://www.tescharlotte.org/about-us/trinity-at-a-glance
+- Beyond the Classroom — https://www.tescharlotte.org/academics/beyondclassroom
+- Middle School (8th Grade Social Issues Seminar) — https://www.tescharlotte.org/academics/middle-school
+- Panel Encourages 8th Grade to Advocate for Charlotte (Jan 8 2026) — https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/panel-encourages-8th-grade-to-advocate-for-charlotte
+- Students Witness Walk for Peace During Charlotte Visit (Jan 15 2026) — https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/students-witness-walk-for-peace-during-charlotte-visit
+- Gone since the fall-2026 redesign (kept for the record, never cited on the page): /spirituality/service-learning.cfm (moved) · /about/ · blog.cfm?threadid=15 (no capture) · the 954-pounds post — https://web.archive.org/web/20260509203008/https://www.tescharlotte.org/students-collect-954-pounds-of-food-for-nourish-up/
 
 ## A grade-by-grade service ladder with 12 named partners
+
+*Superseded 2026-11-14 — see Live-site recheck: the live page names 10 partner organizations, and Trinity At a Glance says "10 / Service-learning partners". Grade 4 now partners with the Children of the World Learning Center, not The Epiphany School of Charlotte.*
 
 This is a **curricular** programme, not a volunteer club — every grade has a standing
 partnership tied to its curriculum.
@@ -134,6 +139,8 @@ The school's framing, verbatim:
 > "Each grade level partners with a community organization whose mission and services are
 > related to curricular goals… **Year-long partnerships create the possibility of
 > relationship formation that transforms charity into mutual service among neighbors.**"
+
+*Superseded 2026-11-14 — see Live-site recheck: the live page reads "Each grade partners with a community organization whose mission and services are related to curricular goals. Our students address real community needs in ways that are connected to and informed by their classroom learning." The year-long-partnerships sentence is gone.*
 
 | Grade | Partner(s) | Theme / detail |
 |---|---|---|
@@ -158,6 +165,8 @@ The school's framing, verbatim:
 
 ## The uptown location is integral to the programme
 
+*Superseded 2026-11-14 — see Live-site recheck: this welcome-page quote is gone. Live, on Beyond the Classroom: "Trinity Episcopal School has the longest hallways of any school in Charlotte".*
+
 From the Head of School's welcome page, verbatim:
 
 > "We like to say that **Trinity has the longest hallways in Charlotte** as our campus
@@ -172,6 +181,8 @@ Ministry Center. A 4.5-acre uptown campus is what makes a walking service progra
 possible, and the school says so explicitly.
 
 ## The 8th-grade capstone — an advocacy trip to Washington, DC
+
+*Superseded 2026-11-14 — see Live-site recheck: the May 2024 account is gone, with no Wayback capture, so it is off the app. Live: the Social Issues Seminar tile (an advocacy trip to Washington, D.C., in May), and the Jan 8 2026 panel post (class trips to Raleigh and Washington, D.C.).*
 
 From the May 2024 account (threadid=15): **46 eighth-graders** travelled to Washington.
 
@@ -194,6 +205,8 @@ exercise giving 8th grade "a glimpse at the election process", and students witn
 **Walk for Peace** during a Charlotte visit.
 
 ## A measured service outcome
+
+*Superseded 2026-11-14 — see Live-site recheck: the food-drive post is gone from the live site (Wayback only), so the figure is off the app.*
 
 **954 pounds of food** collected for Nourish Up (November 2024) — a rare instance of this
 programme publishing a **number** rather than a description. Worth carrying precisely

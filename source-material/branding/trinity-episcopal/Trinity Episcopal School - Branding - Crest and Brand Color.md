@@ -75,6 +75,8 @@ magnitude ahead of any other color, and an exact match for the declared primary.
 The wordmark and the crest are both drawn in it. **There is no green anywhere in
 the mark**; `#006f51` is a UI accent for buttons, not part of the school's identity.
 
+*Superseded 2026-11-14 — see Live-site recheck* — both stylesheets and `logo.png` are gone. The new site declares the same two colors inline and serves the same crest from new files.
+
 ## The crest
 
 The right-hand element of the primary logo is a **shield crest**: a navy shield with

@@ -138,12 +138,16 @@ articles.
 is an outlier against the two later years. Always carry the denominator; never present a
 lifer trend as a smooth line.
 
+*Superseded 2026-11-14 — see Live-site recheck* — the 2023–2025 posts are gone from the school's site. The Class of 2026 post body says 30 lifers; the news-board teaser for the same post says 31.
+
 ### Verbatim sourcing for each class
 
 **Class of 2026** (threadid=48, June 06, 2026, by Chris Miller):
-> "'This moment felt like it was an eternity away,' said student Aleyah Whitaker, one of
+> "'This moment felt like it was an eternity away,' said [a graduating student], one of
 > **30** Trinity 'lifers' in the graduating class. **Fifty-one** students received a
 > graduation certificate…"
+
+*Superseded 2026-11-14 — see Live-site recheck* — the post now lives on the new news board, dated Jun 1 2026.
 
 **Class of 2025** (threadid=29, June 05, 2025, by Chris Miller):
 > "**Fifty-four** 8th Grade students, including **28** 'lifers' who have been at Trinity
@@ -151,7 +155,7 @@ lifer trend as a smooth line.
 > during the service."
 
 This class "brought the number of alumni to over 1,000" in Trinity's 25th school year.
-Commencement address by Lucy Lindvall TES '24.
+The commencement address was given by a Class of 2024 alum.
 
 **Class of 2024** (threadid=16, June 04, 2024):
 > "**Fifty-one** students, including **9** Trinity 'lifers,' received their certificates…"

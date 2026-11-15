@@ -124,6 +124,8 @@ simplifying sentence is false.
 **Verbatim, from the Admission Checklist sidebar:**
 > "Complete testing: **CAIS (K-4) and ISEE (5-8)**"
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ## The 2027-28 cycle — and the label agrees with the dates
 
 Verbatim:
@@ -141,6 +143,8 @@ Verbatim:
 The page also notes: "We are still accepting applications for the 2026-2027 school year
 in select grades."
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 > ⚠️ **Note the collision:** **February 26, 2027** is simultaneously the *grades 1–8
 > supporting-materials* deadline and the *Kindergarten decision* date. Both are correct.
 > Likewise **February 1, 2027** is both the K supporting-materials deadline and the
@@ -156,6 +160,8 @@ application fee". Site-wide navigation carries "FACTS Family Portal".
 > "Applicants will be invited to register to spend the day on campus (rising 1st-8th) or
 > attend a morning observation session (rising Kindergarten) beginning in **November**."
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 **Teacher recommendations**, verbatim:
 > "Teacher recommendations are required for all K-8 applicants. **Rising 6-8 applicants
 > are required to submit two teacher recommendations, an English teacher and math teacher
@@ -170,8 +176,12 @@ application fee". Site-wide navigation carries "FACTS Family Portal".
 > help the family discern how Trinity Episcopal School can best partner with the family in
 > support of their child."
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 **Spanish-language contact** is published: "Si su idioma principal es el español y
 prefiere comunicarse en español, póngase en contacto con Fé Patriciu."
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 ## Open houses — and two school-side errors
 
@@ -189,6 +199,8 @@ prefiere comunicarse en español, póngase en contacto con Fé Patriciu."
 
 **Preserve and flag both. Do not silently fix them.**
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 Open houses are held "in **Trinity's Center for Community and the Arts**".
 
 ## A third date error — the stale financial-aid deadline
@@ -204,6 +216,8 @@ never rolled forward. See the Financial Support file.
 
 **Every other date on the process page is correctly 2027.** Only the aid line is stale.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ## ⛔ Confirmed absent
 
 | Item | Status |
@@ -212,3 +226,5 @@ never rolled forward. See the Financial Support file.
 | **Acceptance rate** | **Confirmed absent** — not on the site, not in either profile PDF |
 | **Individual tour dates** | **Confirmed absent by policy** — "To schedule a tour, click on an admission team member below for their calendar, or contact the Admission office at admissions@tescharlotte.org or 980-207-5898." |
 | **Enrollment-contract deadline** | **Not published by Trinity.** It is reachable only via the CAIS brochure, and there it is a **CAIS-wide rule**, not a Trinity date. State it as a CAIS rule. |
+
+*Superseded 2026-11-14 — see Live-site recheck* — the application fee row: the fee is now published as $100.

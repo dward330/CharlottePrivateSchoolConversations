@@ -9,16 +9,17 @@
 //     requires `acceptedPct` + `acceptedCount`, and the component renders them
 //     under a chrome header reading "Accepted to a top-two choice" in all ten
 //     locales. Trinity publishes NO such figure — "first choice", "top two" and
-//     "97%" return zero hits across all 100 sitemap pages, all 51 blog posts and
-//     both profile PDFs. Putting its lifer rate in that column would print a
-//     false statement in ten languages.
+//     "97%" returned zero hits across the old site's 100 sitemap pages, its 51
+//     blog posts and both profile PDFs, and again across the new site's pages,
+//     news posts and documents at the 2026-11-14 recheck. Putting its lifer rate
+//     in that column would print a false statement in ten languages.
 //
-//     What Trinity publishes instead is MATRICULATION, per class: graduates,
+//     What Trinity published instead was MATRICULATION, per class: graduates,
 //     "lifers" (students enrolled since Kindergarten) and the count of distinct
-//     high schools. That four-year series is carried in `stats` and in the
-//     destinations card. A `lifers`/`distinctSchools` variant of PlacementClass
-//     would render it properly, but that changes a shared component and ten
-//     locale catalogs — a UX-gate change, raised at review rather than taken here.
+//     high schools. Only the Class of 2026 post survived the site move, and
+//     the series lives in source-material only. A `lifers`/`distinctSchools`
+//     variant of PlacementClass would render it, but that changes a shared
+//     component and ten locale catalogs — a UX-gate change, not taken here.
 //
 //  2. THE CUMULATIVE SPLIT IS NOT A PER-CLASS RATE. 31/57/12 is across 1,060
 //     graduates and 23 classes since 2004. It is labelled that way everywhere,
@@ -31,14 +32,25 @@
 //     absence is stated as a flag — publishing an interpretation of an unexplained
 //     marker would be inventing data.
 //
+//  4. LIVE-SITE RECHECK, 2026-11-14 (plan `trinitysite`). The site moved to
+//     Finalsite and every old URL here 404s. The 2023 counselor article on
+//     the old blog was not migrated and has no archive copy, so its
+//     "added in 2023-24" start date and its counselor quotes come OUT (user: a
+//     gone past source is not cited). The card now rests on the live K-8
+//     Advantage page ("Trinity's two high school counselors…"), the staff
+//     directory titles, and the Oct 8, 2026 alumni-panel post, which places the
+//     start of the search in the fall of 8th grade.
+//
 // Source material: source-material/high-school-placement/trinity-episcopal/
 
 import type { HighSchoolPlacementProgram } from '../highSchoolPlacement.ts'
 
 const PROFILE =
-  'https://www.tescharlotte.org/editoruploads/files/26-27SchoolProfile.pdf'
-const K8 = 'https://www.tescharlotte.org/admission/k-8-advantage.cfm'
-const COUNSELORS = 'https://www.tescharlotte.org/blog.cfm?threadid=6'
+  'https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf'
+const K8 = 'https://www.tescharlotte.org/admissions/the-k-8-advantage'
+const STAFF = 'https://www.tescharlotte.org/about-us/staculty'
+const ALUMNI_PANEL =
+  'https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/trinity-alumni-offer-advice-to-8th-grade-students-on-high-school-transition'
 
 export const trinityEpiscopal: HighSchoolPlacementProgram = {
   // NO `outcomes` CARD (user, 2026-09-16). It carried the cumulative
@@ -50,15 +62,15 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
   /* ------------------------------------------------ 2b the programme -- */
   placement: {
     headline:
-      'Two high school counselors, one for public and independent schools and one for boarding — a structure the school added in 2023-24.',
+      'Two high school counselors help each family weigh public, independent and boarding schools, and one of them leads boarding school placement.',
     // Second sentence removed 2026-09-16 (it graded the school's transparency).
     subhead:
       'Trinity frames the K–8 model as choosing a high school at the end of 8th grade rather than at the start of Kindergarten.',
     stats: [
       {
         value: '2',
-        denominator: 'public + independent · boarding',
-        caption: 'high school counselors, by published scope',
+        denominator: 'high school · boarding school',
+        caption: 'high school counselors, by published title',
       },
       {
         value: '9',
@@ -68,14 +80,14 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
     ],
     steps: [
       {
-        when: 'Throughout Middle School — knowing the schools',
+        when: 'Fall of 8th grade — the search begins',
         kind: 'Exposure',
-        text: 'The counselor for public and independent placement visits area schools and, in her words, gets “a feel for who might benefit from knowing this school,” then points families toward fits based on what they want: “Do they want big class sizes? Are sports important? Extracurricular?”',
+        text: 'Trinity’s two high school counselors “work closely with families and students to sift through the many options available for the next chapter in their education, whether it’s in a public school, another independent institution, or a boarding school.” The school says families “begin the process of picking a high school” in the fall of 8th grade. On Sept. 21, 2026, alumni came back to advise 8th graders, on a panel led by the high school counselor. They talked about touring schools and the in-person interview that is part of a high school application.',
       },
       {
         when: 'Middle School — the boarding track, if a family wants it',
         kind: 'A distinct route',
-        text: 'Boarding placement is handled separately and by a different person. It is not a minor path here: 12% of all graduates since 2004 went to boarding schools. The destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School.',
+        text: 'Boarding placement has its own counselor: Rudy Wise, the Director of Admission and Boarding School Placement. It is not a minor path here: 12% of all graduates since 2004 went to boarding schools. The destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School.',
       },
       {
         when: 'Grade 8 — the decision',
@@ -94,9 +106,10 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
     sources: [
       { label: 'tescharlotte.org — The K-8 Advantage', url: K8 },
       {
-        label: 'tescharlotte.org — how the counsellors work with families',
-        url: COUNSELORS,
+        label: 'tescharlotte.org — Trinity Alumni Offer Advice to 8th Grade Students on High School Transition (Oct 8, 2026)',
+        url: ALUMNI_PANEL,
       },
+      { label: 'tescharlotte.org — Staculty directory (counselor titles)', url: STAFF },
       { label: 'tescharlotte.org — 2026-27 School Profile (PDF)', url: PROFILE },
     ],
   },
@@ -312,8 +325,8 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
     checklist: [
       'What standardized test do your 8th graders sit for high school admission, and when? The school publishes nothing on this.',
       'What share of last year’s class got into their first-choice high school? No figure is published, so ask for it directly.',
-      'What does the placement calendar look like — when does the search start, and what happens each term?',
-      'The counselor roles began in 2023-24. How has the process changed since, and who holds each role now?',
+      'The search starts in the fall of 8th grade. What happens each term from there, and when do applications and interviews fall?',
+      'Trinity has a high school counselor and a boarding school counselor. How do the two share the work with a family weighing both kinds of school?',
       'Do graduates win merit scholarships at their high schools? No counts or dollars are published anywhere.',
       'The 2004–2026 destination list marks 41 of 99 schools with an asterisk and gives no legend — what does it mean?',
     ],

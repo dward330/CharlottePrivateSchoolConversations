@@ -119,10 +119,16 @@ Artistic Behavior (TAB)". The Lower School tile still says "Teaching Artistic Be
 
 ## Source URLs
 
-- Lower School Enrichments — https://www.tescharlotte.org/academics/lower-school-enrichments.cfm
-- Middle School Enrichments — https://www.tescharlotte.org/academics/middle-school-enrichments.cfm
-- 2026-27 School Profile (PDF) — https://www.tescharlotte.org/editoruploads/files/26-27SchoolProfile.pdf
+- Lower School (enrichment tiles) — https://www.tescharlotte.org/academics/lower-school
+- Middle School (enrichment and elective tiles) — https://www.tescharlotte.org/academics/middle-school
+- Staculty directory — https://www.tescharlotte.org/about-us/staculty
+- 2026 Light the Fire Grants Announced (Mar 10 2026) — https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/2026-light-the-fire-grants-announced
+- 2026-27 calendar — https://www.tescharlotte.org/calendar
+- Admission Events & Tours (Center for Community and the Arts) — https://www.tescharlotte.org/admissions/admission-events-tours
+- Beyond the Classroom — https://www.tescharlotte.org/academics/beyondclassroom
+- 2026-27 School Profile (PDF) — https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf
 - Vimeo channel API — https://vimeo.com/api/v2/tescharlotte/videos.json
+- Former addresses, 404 since the fall-2026 redesign (kept for the record): /academics/lower-school-enrichments.cfm · /academics/middle-school-enrichments.cfm · /editoruploads/files/26-27SchoolProfile.pdf
 
 > There is **no `/arts` page on this site** — it provably does not exist. The arts data
 > is published, but on the two Enrichments pages, in the profile PDF, and on Vimeo.
@@ -164,6 +170,8 @@ only in search-engine snippets.
 > students who decide to continue in an ensemble can choose Advanced Band or Advanced
 > Choir… Ensembles perform at chapels, commencement, and various venues outside of school."
 
+*Superseded 2026-11-14 — see Live-site recheck: the live Middle School tile reads "Sixth-grade students choose from one of two ensembles: Choir or Band. Seventh and 8th grade students who choose to continue…" and "Ensembles may perform…".*
+
 > ⚠️ **Note the school's own wording shift: "chorus" in 5th grade, "choir" in 6th.**
 > Copy each char-for-char per page; do not normalize them to one word.
 
@@ -177,6 +185,8 @@ only in search-engine snippets.
 > "Middle School students may also choose to take the **drama elective** within their
 > schedule, or participate in the **winter play or spring musical**."
 
+*Superseded 2026-11-14 — see Live-site recheck: the drama elective is no longer stated; Middle School now has an "after-school fall play or winter musical".*
+
 ### ⚠️ The production slate CONFLICTS between the PDF and the web pages
 
 **2026-27 School Profile PDF, verbatim:**
@@ -187,6 +197,8 @@ only in search-engine snippets.
 |---|---|---|
 | Lower School | 4th Grade Musical | 1st Grade Fairy Tale Plays, 5th Grade Shakespeare |
 | Middle School | fall play, winter musical | winter play, spring musical |
+
+*Superseded 2026-11-14 — see Live-site recheck: the Middle School row is resolved — the live page now matches the profile (fall play, winter musical). The Lower School row still conflicts.*
 
 The Vimeo record supports **both**: *4th Grade "Aladdin"* (2021) matches the PDF, while
 *1st Grade Fairy Tale Plays* (2025) and *Shakespeare 2025* match the web pages.
@@ -224,6 +236,8 @@ Smaller music pieces on the same channel: *TES Presents: Crowded Table* (2021),
 
 The identical passage appears on both the LS and MS Enrichments pages, verbatim:
 
+*Superseded 2026-11-14 — see Live-site recheck: the Middle School tile now says "Teaching for Artistic Behavior (TAB)"; the Lower School tile still says "Teaching Artistic Behaviors (TAB)".*
+
 > "Trinity's art curriculum follows the pedagogy of **Teaching Artistic Behaviors (TAB)**,
 > a methodology that is student-focused, choice-based, and teacher-facilitated. The
 > learning environment is designed to provide **centers or mini-art studios** complete
@@ -243,6 +257,8 @@ The identical passage appears on both the LS and MS Enrichments pages, verbatim:
 **Shelby Hawk**.
 
 ## ⚠️ Confirmed absent — named arts facilities
+
+*Superseded 2026-11-14 — see Live-site recheck: the new site names the "CCA Auditorium" in "Trinity's Center for Community and the Arts" (open-house venue). `black box` and `art gallery` still return zero hits.*
 
 `auditorium`, `black box` and `art gallery` return **ZERO hits** across all 98 pages.
 
