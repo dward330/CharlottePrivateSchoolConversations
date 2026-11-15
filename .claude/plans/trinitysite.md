@@ -608,3 +608,18 @@ predates this branch: branding is not an ingested topic.
 
 **Phase 2 scope:** the 454 retired stamps per locale above, plus whatever is new. Measure
 both from a fresh extract (step 14).
+
+### Review fix: unsourced ladder percentages (user-approved UX change, 2026-11-14)
+
+At the English review, the user asked what the 25% and 31% on Trinity's State Funding
+ladder meant. Neither was a share of tuition, which is what the field is defined as. The
+25% (State) had no source; it matched Gaston Day's State rung and was most likely copied
+as a bar width. The 31% (Need) is the share of *students* aided, a different measure.
+Both predate this plan; they shipped with #312. Gaston Day's Merit rung had the same
+defect (`share: 40` beside "The award amount is not published").
+
+With the user's approval, `ScholarshipRung.share` is now optional. A rung without it
+renders no bar and no percentage, and its label is top-aligned (`.fa-ladder-gift--nobar`).
+`share` was removed from Trinity State, Trinity Need and Gaston Day Merit. No rung text
+changed, so there is nothing new to translate. Verified in real Chrome on both schools,
+and `audit:mobile` finds 0 broken cards on either.

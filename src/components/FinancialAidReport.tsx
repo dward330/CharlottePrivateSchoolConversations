@@ -219,7 +219,7 @@ function Ladder({
   note,
   note2,
 }: {
-  rungs: { gift: string; share: number; detail: string }[]
+  rungs: { gift: string; share?: number; detail: string }[]
   caption?: string
   note?: string
   note2?: string
@@ -235,12 +235,16 @@ function Ladder({
       <div className="fa-ladder">
         {rungs.map((r) => (
           <div key={r.gift} className="fa-ladder-row">
-            <span className="fa-ladder-gift">{localizeMoneyText(r.gift)}</span>
-            <span className="fa-ladder-track">
-              <span className="fa-ladder-fill" style={{ width: `${r.share}%` }} />
-            </span>
+            <span className={r.share != null ? 'fa-ladder-gift' : 'fa-ladder-gift fa-ladder-gift--nobar'}>{localizeMoneyText(r.gift)}</span>
+            {/* No published share → no bar and no figure; the detail sits beside the label. */}
+            {r.share != null && (
+              <span className="fa-ladder-track">
+                <span className="fa-ladder-fill" style={{ width: `${r.share}%` }} />
+              </span>
+            )}
             <span className="fa-ladder-detail">
-              <strong>{r.share}%</strong> <RichText text={r.detail} />
+              {r.share != null && <><strong>{r.share}%</strong>{' '}</>}
+              <RichText text={r.detail} />
             </span>
           </div>
         ))}

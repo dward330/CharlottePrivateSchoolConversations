@@ -64,8 +64,11 @@ export type TimelineNode = {
 /** A gift level on the endowed-scholarship ladder. */
 export type ScholarshipRung = {
   gift: string
-  /** Share of tuition the gift is designed to cover, 0–100. */
-  share: number
+  /** Share of tuition the gift is designed to cover, 0–100. Leave it off when
+   *  the school publishes no such share: the rung then renders with no bar and
+   *  no percentage. Never put a placeholder or a different measure here (a share
+   *  of students is not a share of tuition). */
+  share?: number
   detail: string
 }
 
@@ -2512,7 +2515,6 @@ const GASTON_DAY: FinancialAidReport = {
         },
         {
           gift: 'Merit',
-          share: 40,
           detail: '**The Kimbrell Family Scholarship** — grades 5–11, for students with nationally normed test scores at the **90th percentile or higher** and/or an unweighted **GPA of 3.5 or higher**. Every admitted applicant is reviewed for it automatically. Nominated students may add extra materials and interview on campus. The award amount is not published.',
         },
         {
@@ -2982,12 +2984,10 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
       ladder: [
         {
           gift: 'State',
-          share: 25,
           detail: '**NC Opportunity Scholarship** — a state program. Trinity "has accepted the Opportunity Scholarship since the program\'s beginning in 2014," and **families seeking financial support from Trinity are required to also apply for one**. Applications for 2027-28 open on the first Monday of February 2027, and award notices begin in April 2027. The school does not state an amount or an eligibility threshold.',
         },
         {
           gift: 'Need',
-          share: 31,
           detail: '**Trinity\'s own financial support** — need-based, assessed by Clarity, reaching 31% of students with $2,139,114 awarded in 2026-27. This is the school\'s primary channel and the only one it publishes numbers for.',
         },
       ],
