@@ -469,3 +469,13 @@ Category is our classification (D6).
     is true either way.
   Each new desc is paraphrased from the school's own description. That brings Phase 2's
   stale stamps to 11 per locale.
+- **After School, added at the user's request (2026-11-15).** The user asked whether
+  Trinity's TED enrichment list really holds only 3. A Chrome recheck of the live TED page
+  and the site's own search found no fuller list, so the 3 stand (recorded in the
+  after-school source file). At the user's request, the "Boys and girls run clubs" row in
+  `src/data/afterSchoolPrograms/trinity-episcopal.ts` now adds that the 2026-27 School
+  Profile separately lists Girls on the Run & Let Me Run as Lower School clubs. It never
+  says they are the same programs, because the school does not. The card's sources gain
+  the profile.
+  **Phase 2 therefore also covers the `after-school` topic:** one changed desc and one new
+  source label, in all nine locales. Measure it the same way as step 9.
