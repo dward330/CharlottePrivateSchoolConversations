@@ -1880,6 +1880,9 @@ main { flex: 1; }
 .fa-ladder { grid-template-columns: 84px 1fr; row-gap: 6px; }
 .fa-ladder-row { display: contents; }
 .fa-ladder-gift { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+/* A rung with no published share has no bar, so its label sits beside the
+   detail; pin it to the first line rather than centering it on the paragraph. */
+.fa-ladder-gift--nobar { align-self: start; line-height: 1.45; }
 .fa-ladder-track { display: block; height: 15px; background: var(--neutral-100); }
 /* Sits in the track column so it lines up under the bar rather than under the
    label, and carries the row gap that row-gap no longer needs to supply. */

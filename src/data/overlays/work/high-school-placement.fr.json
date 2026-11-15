@@ -5,12 +5,12 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
-      "text": "Two high school counselors, one for public and independent schools and one for boarding — a structure the school added in 2023-24.",
-      "of": "489258d4",
+      "text": "Two high school counselors help each family weigh public, independent and boarding schools, and one of them leads boarding school placement.",
+      "of": "6e5d807f",
       "at": [
         "trinity-episcopal:placement.headline"
       ],
-      "t": "Deux conseillères d'orientation vers le secondaire, l'une pour les écoles publiques et indépendantes et l'autre pour les internats — une structure mise en place par l'école en 2023-24."
+      "t": "Deux conseillers d'orientation vers le secondaire aident chaque famille à comparer écoles publiques, écoles indépendantes et internats, et l'un d'eux dirige le placement en internat."
     },
     {
       "text": "Trinity frames the K–8 model as choosing a high school at the end of 8th grade rather than at the start of Kindergarten.",
@@ -21,20 +21,20 @@
       "t": "Trinity présente le modèle K–8 comme le fait de choisir son école secondaire à la fin de la 8th grade plutôt qu'au moment d'entrer en Kindergarten."
     },
     {
-      "text": "public + independent · boarding",
-      "of": "d9161b1a",
+      "text": "high school · boarding school",
+      "of": "9707301a",
       "at": [
         "trinity-episcopal:placement.stats[0].denominator"
       ],
-      "t": "publiques + indépendantes · internats"
+      "t": "secondaire · internat"
     },
     {
-      "text": "high school counselors, by published scope",
-      "of": "acca3b15",
+      "text": "high school counselors, by published title",
+      "of": "c842945f",
       "at": [
         "trinity-episcopal:placement.stats[0].caption"
       ],
-      "t": "conseillères d'orientation vers le secondaire, selon le périmètre publié"
+      "t": "conseillers d'orientation vers le secondaire, selon l'intitulé publié"
     },
     {
       "text": "Kindergarten through 8th grade",
@@ -53,12 +53,12 @@
       "t": "années sur un même campus avant le début de la recherche"
     },
     {
-      "text": "Throughout Middle School — knowing the schools",
-      "of": "ca583a86",
+      "text": "Fall of 8th grade — the search begins",
+      "of": "15ae11b3",
       "at": [
         "trinity-episcopal:placement.steps[0].when"
       ],
-      "t": "Tout au long du Middle School — connaître les écoles"
+      "t": "Automne de la 8th grade — la recherche commence"
     },
     {
       "text": "Exposure",
@@ -70,12 +70,12 @@
       "t": "Découverte"
     },
     {
-      "text": "The counselor for public and independent placement visits area schools and, in her words, gets “a feel for who might benefit from knowing this school,” then points families toward fits based on what they want: “Do they want big class sizes? Are sports important? Extracurricular?”",
-      "of": "2556aa06",
+      "text": "Trinity’s two high school counselors “work closely with families and students to sift through the many options available for the next chapter in their education, whether it’s in a public school, another independent institution, or a boarding school.” The school says families “begin the process of picking a high school” in the fall of 8th grade. On Sept. 21, 2026, alumni came back to advise 8th graders, on a panel led by the high school counselor. They talked about touring schools and the in-person interview that is part of a high school application.",
+      "of": "6f134110",
       "at": [
         "trinity-episcopal:placement.steps[0].text"
       ],
-      "t": "La conseillère chargée du placement en écoles publiques et indépendantes visite les établissements de la région et, selon ses propres mots, se fait “a feel for who might benefit from knowing this school,” puis oriente les familles vers ce qui leur convient en fonction de leurs attentes : “Do they want big class sizes? Are sports important? Extracurricular?”"
+      "t": "Les deux conseillers d'orientation vers le secondaire de Trinity “work closely with families and students to sift through the many options available for the next chapter in their education, whether it’s in a public school, another independent institution, or a boarding school.” L'école indique que les familles “begin the process of picking a high school” à l'automne de la 8th grade. Le 21 septembre 2026, d'anciens élèves sont revenus conseiller les élèves de 8th grade, lors d'un panel animé par la conseillère d'orientation vers le secondaire. Ils ont parlé de la visite des écoles et de l'entretien en personne qui fait partie d'une candidature au secondaire."
     },
     {
       "text": "Middle School — the boarding track, if a family wants it",
@@ -94,12 +94,12 @@
       "t": "Une voie distincte"
     },
     {
-      "text": "Boarding placement is handled separately and by a different person. It is not a minor path here: 12% of all graduates since 2004 went to boarding schools. The destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School.",
-      "of": "f9b389d8",
+      "text": "Boarding placement has its own counselor: Rudy Wise, the Director of Admission and Boarding School Placement. It is not a minor path here: 12% of all graduates since 2004 went to boarding schools. The destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School.",
+      "of": "8f48ecbc",
       "at": [
         "trinity-episcopal:placement.steps[1].text"
       ],
-      "t": "Le placement en internat est traité séparément et par une autre personne. Ce n'est pas ici une voie secondaire : 12% de l'ensemble des diplômés depuis 2004 sont partis en internat. La liste des destinations comprend Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s et The Taft School."
+      "t": "Le placement en internat a son propre conseiller : Rudy Wise, directeur des admissions et du placement en internat. Ce n'est pas ici une voie secondaire : 12% de l'ensemble des diplômés depuis 2004 sont partis en internat. La liste des destinations comprend Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s et The Taft School."
     },
     {
       "text": "Grade 8 — the decision",
@@ -429,20 +429,20 @@
       "t": "Quelle proportion de la promotion de l'an dernier a été admise dans l'école secondaire de son premier choix ? Aucun chiffre n'est publié : posez directement la question."
     },
     {
-      "text": "What does the placement calendar look like — when does the search start, and what happens each term?",
-      "of": "438fe510",
+      "text": "The search starts in the fall of 8th grade. What happens each term from there, and when do applications and interviews fall?",
+      "of": "e45ffe7c",
       "at": [
         "trinity-episcopal:verdict.checklist[2]"
       ],
-      "t": "À quoi ressemble le calendrier du placement — quand la recherche commence-t-elle, et que se passe-t-il à chaque trimestre ?"
+      "t": "La recherche commence à l'automne de la 8th grade. Que se passe-t-il ensuite à chaque trimestre, et quand ont lieu les candidatures et les entretiens ?"
     },
     {
-      "text": "The counselor roles began in 2023-24. How has the process changed since, and who holds each role now?",
-      "of": "eb9909cc",
+      "text": "Trinity has a high school counselor and a boarding school counselor. How do the two share the work with a family weighing both kinds of school?",
+      "of": "770326e9",
       "at": [
         "trinity-episcopal:verdict.checklist[3]"
       ],
-      "t": "Les postes de conseillère ont été créés en 2023-24. Comment le processus a-t-il évolué depuis, et qui occupe chacun de ces postes aujourd'hui ?"
+      "t": "Trinity dispose d'une conseillère d'orientation vers le secondaire et d'un conseiller pour les internats. Comment se partagent-ils le travail avec une famille qui envisage les deux types d'école ?"
     },
     {
       "text": "Do graduates win merit scholarships at their high schools? No counts or dollars are published anywhere.",

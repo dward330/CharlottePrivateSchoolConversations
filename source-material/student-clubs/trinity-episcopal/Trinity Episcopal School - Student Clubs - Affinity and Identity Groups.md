@@ -7,14 +7,75 @@
 - **Method:** Direct `curl` fetch of raw HTML; quotes are char-for-char from page source.
 - **School:** Trinity Episcopal School, 750 E. 9th Street, Charlotte, NC 28202 — **K–8**.
 
+### Live-site recheck, 2026-11-14
+
+Trinity moved to a new Finalsite site. **Both sources below are gone**: the new site has no
+affinity-groups page, and the old blog post was not migrated. The whole new site was
+crawled on 2026-11-14, including popup tiles. The school's new live pages override the
+findings below wherever they differ; the findings sections are left as written for the
+implementation pass.
+
+**Where each source now lives**
+
+| Old URL | Now | Latest Wayback capture of the old URL |
+|---|---|---|
+| `/diversity/affinity-groups.cfm` | **GONE** — no replacement page. The Belonging section (https://www.tescharlotte.org/belonging, `/belonging/our-essential-questions`, `/belonging/celebrating-diversity`) names no student affinity group | https://web.archive.org/web/20260608111028/https://www.tescharlotte.org/diversity/affinity-groups.cfm |
+| `/spirituality-and-diversity-working-hand-in-hand-at-trinity/` | **GONE** | https://web.archive.org/web/20260608114005/https://www.tescharlotte.org/spirituality-and-diversity-working-hand-in-hand-at-trinity/ |
+
+**What the live site still says**
+
+- The only general statement: "Affinity groups in Lower and Middle School are inclusive
+  spaces for students and adults that are built around shared identities and experiences."
+  — K-8 Advantage, "Strong Sense of Belonging" popup,
+  https://www.tescharlotte.org/admissions/the-k-8-advantage.
+- Group names survive **only in the 2026-27 School Profile**, now at
+  https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf:
+  "Young Children of Color" (Lower School), "Young People of Color", "Young People for Social
+  Justice Group", "Gender Sexuality Alliance Group", "Invisible Differences" (Middle School).
+  The purpose statements, grade ranges, YPC's weekly meeting and the framing quote are on no
+  live page. "GSA", "Pride" and "Sankofa" return zero hits.
+- Parent groups, Celebrating Diversity page,
+  https://www.tescharlotte.org/belonging/celebrating-diversity: "Latino Festival… Sponsored by
+  Trinity's Cafe Con Padres, Hispanic parent affinity group, along with the Parents'
+  Association" and "Sponsored by Trinity's KINDRED, African American/Black parent affinity
+  group, along with the Parents' Association, the KINDRED Festival…". The page also lists
+  **Freedom Fete**, "an annual celebration, occurring around Martin Luther King, Jr. Day in
+  January…". "Diversity & Belonging Committee" returns zero hits; the school calendar lists a
+  "Parents for Diversity, Equity, and Belonging" event (Tuesday, November 10, 2026).
+  Invisible Differences appears only in the profile's student-club list.
+- **Changed title.** School Leadership (https://www.tescharlotte.org/about-us/school-leadership)
+  and the staff directory both list "Ayeola Elias / Assistant Head of School for Belonging and
+  Community Engagement". The State of the School post (Posted Feb 11 2026) still says
+  "Director of Diversity, Equity, and Belonging Ayeola Elias"; the current pages win.
+- 12 Tribes of Trinity, Lower School page popup (https://www.tescharlotte.org/academics/lower-school),
+  verbatim: "Based on the Biblical 12 Tribes of Israel, Trinity Tribes are co-ed groups of
+  students in grades 3-5… Each Tribe is led by 2 adult staculty members." It is filed there
+  under "Lower School Enrichments", and the profile files it under "Community Life Groups:
+  12 Tribes of Trinity (Gr. 3-5) & Koinonia (Gr. 6-8)". The affinity-page phrase "learn to
+  build community, internalize and reinforce the Honor Code" is gone.
+- Chapel, https://www.tescharlotte.org/spirituality/chapel: "K-8 Chapels are also an
+  opportunity to celebrate the diversity of our Trinity community and the broader world
+  through services for Hispanic Heritage Month, Black History Month, the Jewish High Holy
+  Days, and others." The school calendar lists "K-8 Chapel (Diwali)" on Friday, November 6,
+  2026. The Pride Chapel, the "Sankofa" name and "led by Latino families" are no longer
+  stated.
+
 ## Source URLs
 
-- Affinity groups — https://www.tescharlotte.org/diversity/affinity-groups.cfm
-- Spirituality and diversity — https://www.tescharlotte.org/spirituality-and-diversity-working-hand-in-hand-at-trinity/
+- The K-8 Advantage ("Strong Sense of Belonging") — https://www.tescharlotte.org/admissions/the-k-8-advantage
+- Celebrating Diversity — https://www.tescharlotte.org/belonging/celebrating-diversity
+- School Leadership — https://www.tescharlotte.org/about-us/school-leadership
+- Chapel — https://www.tescharlotte.org/spirituality/chapel
+- 2026-27 calendar — https://www.tescharlotte.org/calendar
+- Lower School (12 Tribes of Trinity) — https://www.tescharlotte.org/academics/lower-school
+- 2026-27 School Profile (PDF) — https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf
+- Gone since the fall-2026 redesign, Wayback only (kept for the record, never cited on the page): /diversity/affinity-groups.cfm · /spirituality-and-diversity-working-hand-in-hand-at-trinity/
 
 > **This is an unusually well-populated area for a K–8 school** — five named student
 > groups with grade ranges and full purpose statements, plus four parent groups. Most
 > schools on this roster publish a bare list.
+
+*Superseded 2026-11-14 — see Live-site recheck: the affinity-groups page is gone. The group names now survive only in the 2026-27 School Profile, with no purpose statements or grade ranges.*
 
 ## The school's framing
 
@@ -26,7 +87,11 @@ Verbatim:
 
 **Director of Diversity, Equity, and Belonging: Ayeola Elias.**
 
+*Superseded 2026-11-14 — see Live-site recheck: her live title is "Assistant Head of School for Belonging and Community Engagement".*
+
 ## Student affinity groups — five, all with grade ranges
+
+*Superseded 2026-11-14 — see Live-site recheck: every quote in this section is on no live page; the app shows the names and divisions only. The 12 Tribes passage on the Lower School page is still live.*
 
 ### Lower School
 
@@ -74,6 +139,8 @@ Verbatim:
 
 ## Parent affinity groups — four
 
+*Superseded 2026-11-14 — see Live-site recheck: the live Celebrating Diversity page names two parent affinity groups, Cafe Con Padres and KINDRED; Invisible Differences and the Diversity & Belonging Committee are not named as parent groups.*
+
 | Group | Constituency |
 |---|---|
 | **Café con Padres** | Hispanic/Latino |
@@ -86,6 +153,8 @@ Verbatim:
 > page is the more specific source.
 
 ## The GSA organizes a Pride Chapel — confirmed, but not on the affinity page
+
+*Superseded 2026-11-14 — see Live-site recheck: this post is gone. The live Chapel page names "services for Hispanic Heritage Month, Black History Month, the Jewish High Holy Days, and others", and the calendar lists a K-8 Chapel (Diwali).*
 
 Found on `spirituality-and-diversity-working-hand-in-hand-at-trinity`, verbatim:
 

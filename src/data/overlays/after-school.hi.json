@@ -3223,7 +3223,8 @@
       "t": "बाहर खेल",
       "of": "ce659f13",
       "at": [
-        "charlotte-country-day:dayInside.words[1]"
+        "charlotte-country-day:dayInside.words[1]",
+        "trinity-episcopal:dayInside.words[4]"
       ]
     },
     {
@@ -6719,22 +6720,22 @@
       ]
     },
     {
-      "t": "एक ही K–8 कार्यक्रम, Trinity Extended Day, छुट्टी के बाद से शाम 6:00 बजे तक चलता है — और इसकी क़ीमत इस बात पर नहीं कि आप सप्ताह में कितने दिन इस्तेमाल करते हैं, बल्कि घरेलू आय पर तय होती है।",
-      "of": "50aecdfe",
+      "t": "एक ही K–8 कार्यक्रम, Trinity Extended Day, छुट्टी के बाद से शाम 6:00 बजे तक एक ही मासिक दर पर चलता है: $380, या हर अतिरिक्त भाई-बहन के लिए $355।",
+      "of": "8fd5235c",
       "at": [
         "trinity-episcopal:coverage.headline"
       ]
     },
     {
-      "t": "आय के चार बैंड $105 से $380 प्रति माह तक हैं, हर drop-in स्तर पर आर्थिक सहायता पाने वाले परिवारों के लिए घटी हुई दर है, और मासिक शुल्क देने वालों के लिए आधे दिन मुफ़्त हैं। सुबह की कोई देखभाल नहीं है।",
-      "of": "da9d1870",
+      "t": "प्रति-दिन की हर दर पर आर्थिक सहायता पाने वाले परिवारों के लिए घटी हुई क़ीमत है, और मासिक पंजीकृत छात्रों के लिए आधे दिन निःशुल्क हैं। सुबह की कोई देखभाल नहीं है।",
+      "of": "0f7ec02a",
       "at": [
         "trinity-episcopal:coverage.subhead"
       ]
     },
     {
-      "t": "बार पर दिखाई गई क़ीमत **$90,000 से ऊपर की आय वाले घर के लिए मासिक दर** है। यह आय के चार बैंडों में सबसे ऊपर वाला है, जो $30,000 से कम आय पर **$105/माह** से शुरू होते हैं। Trinity TED की क़ीमत सप्ताह में दिनों के हिसाब से **नहीं** रखता, इसलिए खोलने के लिए दिन-प्रति-सप्ताह की कोई सीढ़ी नहीं है। आय की पूरी तालिका और प्रति-दिन की दरें नीचे तथ्यों में हैं।",
-      "of": "cedef112",
+      "t": "बार पर दिखाई गई क़ीमत **मासिक दर** है: **$380** प्रति माह, या हर अतिरिक्त भाई-बहन के लिए **$355**। Trinity TED की क़ीमत सप्ताह में दिनों के हिसाब से **नहीं** रखता, इसलिए खोलने के लिए दिन-प्रति-सप्ताह की कोई सीढ़ी नहीं है। प्रति-दिन की दरें नीचे तथ्यों में हैं।",
+      "of": "a8b6f3bd",
       "at": [
         "trinity-episcopal:coverage.basisNote"
       ]
@@ -6777,43 +6778,29 @@
       ]
     },
     {
-      "t": "TED जल्दी छुट्टी से 5:30 तक चलता है · मासिक शुल्क देने वालों के लिए मुफ़्त, वरना $51/दिन",
-      "of": "fb32b359",
+      "t": "जल्दी छुट्टी से TED · मासिक छात्रों के लिए मुफ़्त, वरना $51/दिन",
+      "of": "e4e30777",
       "at": [
         "trinity-episcopal:coverage.rows[2].flatLabel"
       ]
     },
     {
-      "t": "TES बंद",
-      "of": "6edc8c59",
-      "at": [
-        "trinity-episcopal:coverage.rows[3].dismissal"
-      ]
-    },
-    {
-      "t": "जिन दिनों TES बंद रहता है, TED 8:00–5:30 चलता है · $72/दिन",
-      "of": "6f0363d2",
-      "at": [
-        "trinity-episcopal:coverage.rows[3].flatLabel"
-      ]
-    },
-    {
-      "t": "**Wildcat Summer Camp** — कक्षा K–8 में जाने वाले बच्चों के लिए छह सप्ताह के पूरे दिन और आधे दिन के camp, **15 जून से 24 जुलाई 2026** तक, जो समुदाय के किसी भी बच्चे के लिए खुले हैं। Camp से पहले सुबह 7:45–9:00 की देखभाल **$85/सप्ताह**, camp के बाद 4:00–5:30 की देखभाल **$90/सप्ताह**, या दोनों के लिए **$175/सप्ताह**।",
-      "of": "1c147d80",
+      "t": "**Wildcat Summer Camp, 2026 सीज़न** — कक्षा K–8 में जाने वाले बच्चों के लिए छह सप्ताह के पूरे दिन और आधे दिन के camp, **15 जून से 24 जुलाई 2026** तक, जो समुदाय के किसी भी बच्चे के लिए खुले हैं। 2026 में camp से पहले सुबह 7:45–9:00 की देखभाल **$85/सप्ताह** थी, camp के बाद शाम 4:00–5:30 की देखभाल **$90/सप्ताह**, या दोनों के लिए **$175/सप्ताह**। 2027 के camps के लिए पंजीकरण जनवरी 2027 में खुलता है।",
+      "of": "43060d1a",
       "at": [
         "trinity-episcopal:coverage.summer.text"
       ]
     },
     {
-      "t": "घरेलू आय के अनुसार मासिक दरें",
-      "of": "08e6717a",
+      "t": "मासिक दर",
+      "of": "cb1d9070",
       "at": [
         "trinity-episcopal:coverage.facts[0].label"
       ]
     },
     {
-      "t": "$30,000 से कम **$105** · $30,000–$60,000 **$135** · $60,000–$90,000 **$195** · $90,000 से अधिक **$380** (भाई-बहन के लिए $355) — स्कूल इस स्तंभ का शीर्षक \"**Estimated** TED Monthly Cost\" रखता है",
-      "of": "bef2ad58",
+      "t": "**$380** प्रति माह, या हर अतिरिक्त भाई-बहन के लिए **$355**",
+      "of": "84147d58",
       "at": [
         "trinity-episcopal:coverage.facts[0].text"
       ]
@@ -6833,8 +6820,8 @@
       ]
     },
     {
-      "t": "**$72/दिन**, या आर्थिक सहायता के साथ **पहले बच्चे के लिए $45/दिन (भाई-बहन के लिए $40)** — ये वे दिन हैं जब TES बंद रहता है पर TED सुबह 8:00 से शाम 5:30 तक चलता है",
-      "of": "8a811fef",
+      "t": "**$72/दिन**, या आर्थिक सहायता के साथ **पहले भाई-बहन के लिए $45/दिन और हर अतिरिक्त भाई-बहन के लिए $40/दिन** — conference के दिनों में उपलब्ध",
+      "of": "6d898b24",
       "at": [
         "trinity-episcopal:coverage.facts[2].text"
       ]
@@ -6847,8 +6834,8 @@
       ]
     },
     {
-      "t": "**TED के मासिक शुल्क देने वालों के लिए निःशुल्क**; अन्यथा **$51/दिन**, या आर्थिक सहायता के साथ **$30/दिन** — TED जल्दी छुट्टी से शाम 5:30 तक चलता है",
-      "of": "caf4fc97",
+      "t": "**मासिक पंजीकृत छात्रों के लिए निःशुल्क**; अन्यथा **$51/दिन**, या आर्थिक सहायता के साथ **$30/दिन**",
+      "of": "eba4d282",
       "at": [
         "trinity-episcopal:coverage.facts[3].text"
       ]
@@ -6876,85 +6863,78 @@
       ]
     },
     {
-      "t": "**Jocelyn Purdie**, Director of Auxiliary Services, और **Nancy Guerra**, Assistant Director, TED; School Profile में **7 Extended Day & Support Staff** दर्ज हैं",
-      "of": "3c378cc2",
+      "t": "**Jocelyn Anderson**, Director of Auxiliary Services, और **Nancy Guerra**, Assistant Director, TED; School Profile में **7 Extended Day & Support Staff** दर्ज हैं",
+      "of": "8d78f17f",
       "at": [
         "trinity-episcopal:coverage.facts[5].text"
       ]
     },
     {
-      "t": "गृहकार्य के लिए अलग से समय, कला, board games और Fun Friday — और Trinity Honor Code को स्पष्ट रूप से स्कूल के दिन की समाप्ति के बाद तक बढ़ाया गया है।",
-      "of": "68ffad9d",
+      "t": "गृहकार्य और पढ़ने के लिए अलग से समय, बाहर खेल, और कला, बोर्ड गेम तथा Fun/Film Fridays जैसी गतिविधियाँ, छुट्टी से शाम 6:00 बजे तक।",
+      "of": "1bcd7995",
       "at": [
         "trinity-episcopal:dayInside.headline"
       ]
     },
     {
-      "t": "शुल्क वाले enrichment सप्ताह में कई दिन चलते हैं, जिन्हें Trinity के faculty और बाहरी ठेकेदार मिलकर चलाते हैं। स्कूल चार उदाहरण गिनाता है और उनमें से किसी की क़ीमत नहीं बताता।",
-      "of": "6058e9f9",
+      "t": "मौसमी enrichment का शुल्क अलग से लगता है। स्कूल उदाहरण के तौर पर chess club, boys और girls run clubs और संगीत की कक्षाओं के नाम देता है, और उनमें से किसी की क़ीमत नहीं बताता।",
+      "of": "92a8eaac",
       "at": [
         "trinity-episcopal:dayInside.subhead"
       ]
     },
     {
-      "t": "चरित्र निर्माण",
-      "of": "db625236",
+      "t": "सीखने में जुटना",
+      "of": "c554d62d",
       "at": [
         "trinity-episcopal:dayInside.words[0]"
       ]
     },
     {
-      "t": "जीवन को समृद्ध करना",
-      "of": "5bfb0743",
+      "t": "सक्रिय रहना",
+      "of": "c54e29e3",
       "at": [
         "trinity-episcopal:dayInside.words[1]"
       ]
     },
     {
-      "t": "मज़े करना",
-      "of": "5153d815",
+      "t": "शरीर को हरकत में लाना",
+      "of": "4f494f45",
       "at": [
         "trinity-episcopal:dayInside.words[2]"
       ]
     },
     {
-      "t": "सुरक्षित, सुव्यवस्थित माहौल",
-      "of": "cdd6fbed",
+      "t": "गृहकार्य और पढ़ने के लिए अलग से समय",
+      "of": "19fcd08b",
       "at": [
         "trinity-episcopal:dayInside.words[3]"
       ]
     },
     {
-      "t": "गृहकार्य के लिए अलग से रखा गया समय",
-      "of": "3174648d",
-      "at": [
-        "trinity-episcopal:dayInside.words[4]"
-      ]
-    },
-    {
-      "t": "सामूहिक परियोजनाएँ",
-      "of": "51fa086e",
+      "t": "कला",
+      "of": "2f6f198a",
       "at": [
         "trinity-episcopal:dayInside.words[5]"
       ]
     },
     {
-      "t": "Fun Friday की गतिविधियाँ",
-      "of": "3cadab92",
+      "t": "बोर्ड गेम",
+      "of": "b72d77d8",
       "at": [
         "trinity-episcopal:dayInside.words[6]"
       ]
     },
     {
-      "t": "Trinity Honor Code",
-      "of": "fef9e484",
+      "t": "Fun/Film Fridays",
+      "of": "fa345f05",
       "at": [
         "trinity-episcopal:dayInside.words[7]"
       ]
     },
     {
-      "t": "\"Building character, enriching lives, and having fun describe our Trinity Extended Day (TED) program\" — \"a safe, well-structured environment for every Trinity student.\" यह \"dedicated homework time\" देता है, साथ ही सामूहिक परियोजनाएँ और कला, board games तथा Fun Friday जैसी गतिविधियाँ, और छात्रों से अपेक्षा है कि वे \"are expected to adhere to the Trinity Honor Code while participating in Extended Day.\"",
-      "of": "7e55f957",
+      "t": "\"When the school day ends, there is still a space for students to engage in learning, flex their activity, and get their bodies moving before heading home.\" TED यह देता है: \"dedicated time for homework and reading, outdoor play, and activities such as art, board games, and Fun/Film Fridays.\"",
+      "of": "b40c990a",
       "at": [
         "trinity-episcopal:dayInside.wordsText"
       ]
@@ -6967,20 +6947,19 @@
       ]
     },
     {
-      "t": "TED \"also offers enrichment programs, **for an additional fee**, several days a week\", जिन्हें \"a combination of Trinity faculty/staff and independent contractors\" चलाते हैं। स्कूल इन चारों को **उदाहरण** के तौर पर देता है और साथ में \"and more\" जोड़ता है, इसलिए यह **पूरी सूची नहीं है**। वह इनमें से किसी का शुल्क भी नहीं बताता। ध्यान दीजिए कि Trinity \"enrichments\" शब्द दो अलग चीज़ों के लिए इस्तेमाल करता है। यहाँ जिनके नाम हैं, वे **शुल्क वाले** after-school अतिरिक्त कार्यक्रम हैं। Lower और Middle School के \"Enrichments\" पृष्ठ स्कूल के दिन में पढ़ाए जाने वाले मुफ़्त विषयों की सूची देते हैं।",
-      "of": "ea22c29c",
+      "t": "TED के कार्यक्रमों के अलावा, \"seasonal enrichments are offered **for an additional fee**.\" स्कूल तीन के नाम देता है और साथ में \"and much more\" जोड़ता है, इसलिए यह **पूरी सूची नहीं है**। वह इनमें से किसी का शुल्क नहीं बताता। ध्यान दीजिए कि Trinity \"enrichments\" शब्द दो अलग चीज़ों के लिए इस्तेमाल करता है। यहाँ जिनके नाम हैं, वे **शुल्क वाले** after-school अतिरिक्त कार्यक्रम हैं। Lower और Middle School के पृष्ठ \"Enrichments\" शब्द स्कूल के दिन में पढ़ाए जाने वाले विषयों के लिए इस्तेमाल करते हैं।",
+      "of": "13d435a6",
       "at": [
         "trinity-episcopal:dayInside.catalogIntro"
       ]
     },
     {
-      "t": "स्कूल ने इसे TED enrichment के एक उदाहरण के रूप में गिनाया है; दिन, कक्षा-सीमा और शुल्क प्रकाशित नहीं हैं।",
-      "of": "32ed0c1c",
+      "t": "स्कूल ने इसे TED के एक मौसमी enrichment के उदाहरण के रूप में गिनाया है; दिन, कक्षा-सीमा और शुल्क प्रकाशित नहीं हैं।",
+      "of": "a48fc756",
       "at": [
         "trinity-episcopal:dayInside.classes[0].desc",
         "trinity-episcopal:dayInside.classes[1].desc",
-        "trinity-episcopal:dayInside.classes[2].desc",
-        "trinity-episcopal:dayInside.classes[3].desc"
+        "trinity-episcopal:dayInside.classes[2].desc"
       ]
     },
     {
@@ -6989,41 +6968,40 @@
       "at": [
         "trinity-episcopal:dayInside.classes[0].gradeLabel",
         "trinity-episcopal:dayInside.classes[1].gradeLabel",
-        "trinity-episcopal:dayInside.classes[2].gradeLabel",
-        "trinity-episcopal:dayInside.classes[3].gradeLabel"
+        "trinity-episcopal:dayInside.classes[2].gradeLabel"
       ]
     },
     {
-      "t": "सोच-समझकर असामान्य रूप से किफ़ायती बनाया गया after-school कार्यक्रम — आय के हिसाब से घटती-बढ़ती मासिक दरें, हर drop-in स्तर पर घटी हुई दर, और मासिक शुल्क देने वाले परिवारों के लिए मुफ़्त आधे दिन।",
-      "of": "81311d2f",
+      "t": "एक प्रकाशित मासिक दर, आर्थिक सहायता पाने वाले परिवारों के लिए प्रति-दिन की हर दर पर घटी हुई क़ीमत, और मासिक शुल्क देने वाले परिवारों के लिए मुफ़्त आधे दिन।",
+      "of": "50659330",
       "at": [
         "trinity-episcopal:verdict.headline"
       ]
     },
     {
-      "t": "**दरें घरेलू आय के साथ घटती-बढ़ती हैं** — $30,000 से कम पर $105 प्रति माह, जो $135 और $195 से होते हुए $90,000 से ऊपर $380 तक जाती हैं। कम ही स्कूल after-school देखभाल की क़ीमत भुगतान क्षमता के आधार पर रखते भी हैं।",
-      "of": "874b3341",
+      "t": "**मासिक दर ट्यूशन पृष्ठ पर प्रकाशित है** — $380 प्रति माह, जो ट्यूशन के साथ \"Other Fees\" के अंतर्गत दी गई है, इसलिए देखभाल की लागत आसानी से मिल जाती है।",
+      "of": "10100aa6",
       "at": [
         "trinity-episcopal:verdict.strengths[0]"
       ]
     },
     {
-      "t": "**प्रति-दिन के हर स्तर पर आर्थिक सहायता पाने वाले परिवारों के लिए घटी हुई दर है** — drop-in $31 से घटकर $25, पूरा दिन $72 से घटकर $45 (पहला बच्चा) और आधा दिन $51 से घटकर $30। यह छूट केवल मासिक अनुबंध तक सीमित नहीं है।",
-      "of": "9bcc7168",
+      "t": "**आर्थिक सहायता के साथ प्रति-दिन की हर दर कम है।** Drop-in $31 से घटकर $25 और आधा दिन $51 से घटकर $30 हो जाता है। पूरा दिन पहले भाई-बहन के लिए $72 से घटकर $45, या हर अतिरिक्त भाई-बहन के लिए $40 हो जाता है।",
+      "of": "cc6a72aa",
       "at": [
         "trinity-episcopal:verdict.strengths[1]"
       ]
     },
     {
-      "t": "**मासिक शुल्क देने वालों के लिए आधे दिन निःशुल्क हैं।** जल्दी छुट्टी वाले दिनों में देखभाल का इंतज़ाम सबसे मुश्किल होता है, और कई दूसरे स्कूल उन्हीं दिनों अतिरिक्त शुल्क लेते हैं।",
-      "of": "c91bfd2f",
+      "t": "**मासिक पंजीकृत छात्रों के लिए आधे दिन निःशुल्क हैं।** जल्दी छुट्टी वाले दिनों में देखभाल का इंतज़ाम सबसे मुश्किल होता है, और कई दूसरे स्कूल उन्हीं दिनों अतिरिक्त शुल्क लेते हैं।",
+      "of": "994d7fb6",
       "at": [
         "trinity-episcopal:verdict.strengths[2]"
       ]
     },
     {
-      "t": "**सबसे ऊपर वाले आय बैंड में भाई-बहन की दर प्रकाशित है** — $380 के मुक़ाबले $355 — यानी छूट इशारे में नहीं, साफ़ कहकर बताई गई है।",
-      "of": "19f6cf4e",
+      "t": "**भाई-बहन की दर प्रकाशित है** — हर अतिरिक्त भाई-बहन के लिए $380 के मुक़ाबले $355 — यानी छूट इशारे में नहीं, साफ़ कहकर बताई गई है।",
+      "of": "131fc770",
       "at": [
         "trinity-episcopal:verdict.strengths[3]"
       ]
@@ -7036,15 +7014,15 @@
       ]
     },
     {
-      "t": "**जिन दिनों स्कूल बंद रहता है उन्हें भी शामिल किया गया है** — TED सुबह 8:00 से शाम 5:30 तक $72/दिन पर चलता है — जिस पर कई दूसरे स्कूल कुछ कहते ही नहीं।",
-      "of": "430a9ff8",
+      "t": "**Conference के दिन भी शामिल हैं** — $72/दिन की पूरे दिन वाली दर \"offered during conferences\" है, जिस पर कई दूसरे स्कूल कुछ कहते ही नहीं।",
+      "of": "84cb2303",
       "at": [
         "trinity-episcopal:verdict.strengths[5]"
       ]
     },
     {
-      "t": "**कार्यक्रम का उद्देश्य केवल देखरेख से आगे बताया गया है**: गृहकार्य के लिए अलग समय, सामूहिक परियोजनाएँ, और Trinity Honor Code जिसे स्पष्ट रूप से छुट्टी के बाद तक बढ़ाया गया है।",
-      "of": "a3c63c84",
+      "t": "**कार्यक्रम का उद्देश्य केवल देखरेख से आगे बताया गया है**: गृहकार्य और पढ़ने के लिए अलग समय, बाहर खेल, और कला तथा board games जैसी गतिविधियाँ।",
+      "of": "b24a77e2",
       "at": [
         "trinity-episcopal:verdict.strengths[6]"
       ]
@@ -7057,8 +7035,8 @@
       ]
     },
     {
-      "t": "दर की तालिका \"Estimated\" कहती है — असल शुल्क क्या है, और वह किस वजह से बदलता है?",
-      "of": "8da9427b",
+      "t": "क्या $380 की मासिक दर वही रहती है, चाहे मेरा बच्चा सप्ताह में कितने भी दिन आए?",
+      "of": "e84f778a",
       "at": [
         "trinity-episcopal:verdict.checklist[1]"
       ]
@@ -7078,8 +7056,8 @@
       ]
     },
     {
-      "t": "Enrichment का ख़र्च कितना है — chess club, संगीत की कक्षाएँ, karate, cheer club — और इस समय पूरी सूची क्या है?",
-      "of": "7526a556",
+      "t": "Enrichment का ख़र्च कितना है — chess club, boys और girls run clubs, संगीत की कक्षाएँ — और इस समय पूरी सूची क्या है?",
+      "of": "22bc2394",
       "at": [
         "trinity-episcopal:verdict.checklist[4]"
       ]
@@ -7099,24 +7077,31 @@
       ]
     },
     {
-      "t": "बैंड तय करने के लिए कौन-सा आय आँकड़ा लिया जाता है — कुल घरेलू आय, समायोजित सकल आय, या Clarity का आकलन?",
-      "of": "067a562c",
+      "t": "क्या आर्थिक सहायता पाने वाले परिवारों के लिए कोई घटी हुई मासिक दर है, जैसी प्रति-दिन की हर दर पर है?",
+      "of": "79cbb7db",
       "at": [
         "trinity-episcopal:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "आधे दिनों और conference के दिनों में TED किस समय चलता है?",
+      "of": "e5a9a28a",
+      "at": [
+        "trinity-episcopal:verdict.checklist[8]"
       ]
     },
     {
       "t": "TED में स्टाफ़-प्रति-बच्चा अनुपात क्या है, और क्या वह kindergarten के बच्चे और कक्षा 8 के छात्र के लिए अलग होता है?",
       "of": "c0eef1c0",
       "at": [
-        "trinity-episcopal:verdict.checklist[8]"
+        "trinity-episcopal:verdict.checklist[9]"
       ]
     },
     {
       "t": "स्कूल से पहले किसी तरह का कोई देखरेख वाला विकल्प है क्या, चाहे बिना शुल्क के ही — और अगर नहीं, तो कामकाजी परिवार आमतौर पर क्या करते हैं?",
       "of": "9fb6faf4",
       "at": [
-        "trinity-episcopal:verdict.checklist[9]"
+        "trinity-episcopal:verdict.checklist[10]"
       ]
     },
     {

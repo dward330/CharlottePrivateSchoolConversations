@@ -8487,8 +8487,9 @@ const CHARLOTTE_CATHOLIC: CourseOfferings = {
    with no Upper School at all. There is no curriculum guide and no course
    catalog: the only PDF published site-wide is GuideToPhilanthropy.pdf, so the
    2026-27 School Profile substitutes, and it is a good substitute. Divisions are
-   drawn from the live `-curriculum.cfm` and `-enrichments.cfm` pages plus that
-   profile.
+   drawn from the /academics/lower-school and /academics/middle-school pages
+   (their text sits in click-to-open tiles; the old `-curriculum.cfm` and
+   `-enrichments.cfm` pages 404 since the fall-2026 redesign) plus that profile.
 
    TWO TRAPS, both easy to fall into from a distance.
 
@@ -8516,9 +8517,9 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'K – Grade 5',
       teaser:
-        'Named curricula rather than named courses — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plus six weekly enrichments, including a K–5 Spanish program.',
-      source: 'tescharlotte.org — Lower School curriculum and enrichments; 2026-27 School Profile',
-      sourceUrl: 'https://www.tescharlotte.org/academics/lower-school-curriculum.cfm',
+        'Named curricula rather than named courses — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plus weekly enrichments, including a K–5 Spanish program. The school counts 16 enrichment courses across Lower and Middle School.',
+      source: 'tescharlotte.org — Lower School page (curriculum and enrichments); 2026-27 School Profile',
+      sourceUrl: 'https://www.tescharlotte.org/academics/lower-school',
       notPublished:
         'Trinity publishes Lower School work as named curricula and weekly enrichment subjects, not as separate courses with their own descriptions. The rows below are those subjects and curricula, as the school states them. Trinity publishes no Lower School course catalog.',
       departments: [
@@ -8529,7 +8530,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Mathematics — Math in Focus 2020',
               tag: 'K–Gr 5',
               description:
-                'The school "develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly effective Singapore Math approach."',
+                'The school "develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly-effective Singapore Math approach."',
             },
             {
               title: 'Science — Amplify Science',
@@ -8541,7 +8542,7 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Social Studies — Storypaths',
               tag: 'K–Gr 5',
               description:
-                'Social Studies is taught through Storypaths units across the Lower School grades.',
+                'Students learn civics, economics, geography and history through problem-based units. "Many of these units, especially in the lower grades, are known as Storypaths," in which students take on roles as characters in a story.',
             },
             {
               title: 'Literacy',
@@ -8574,12 +8575,14 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
             {
               title: 'Visual Arts',
               tag: 'K–Gr 5',
-              description: 'One of the six weekly Lower School enrichments.',
+              description:
+                'Follows Teaching Artistic Behaviors (TAB), a choice-based approach: students move between centers, or mini art studios, for painting, clay or printmaking.',
             },
             {
               title: 'Music',
               tag: 'K–Gr 5',
-              description: 'One of the six weekly Lower School enrichments.',
+              description:
+                '"All students take general music, which emphasizes creativity, music appreciation, musical literacy, and performance preparation." Each Lower School grade puts on a play or musical performance.',
             },
             {
               title: 'Faith Studies',
@@ -8617,9 +8620,9 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'Grades 6 – 8',
       teaser:
-        'Five distinct 8th-grade math courses, a world language taken to a high-school Level 1 by the end of 8th grade, and 13 weekly enrichments.',
-      source: 'tescharlotte.org — Middle School curriculum and enrichments; 2026-27 School Profile',
-      sourceUrl: 'https://www.tescharlotte.org/academics/middle-school-curriculum.cfm',
+        'Five distinct 8th-grade math courses, a world language taken to a high-school Level 1 by the end of 8th grade, and year-long electives starting in 7th grade.',
+      source: 'tescharlotte.org — Middle School page (curriculum and enrichments); 2026-27 School Profile; "Tank to Table", The Voice 2026',
+      sourceUrl: 'https://www.tescharlotte.org/academics/middle-school',
       departments: [
         {
           name: 'Mathematics',
@@ -8693,17 +8696,20 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
             {
               title: 'Geography, Civics, and Global Issues',
               tag: 'Gr 6',
-              description: 'The 6th-grade year of the Social Studies course of study.',
+              description:
+                'The 6th-grade year, in which students "use geographic tools to understand the world and its complex systems."',
             },
             {
               title: 'Modern World History',
               tag: 'Gr 7',
-              description: 'The 7th-grade year of the Social Studies course of study.',
+              description:
+                'The 7th-grade year: "a thematic examination of 20th Century world events," taught through primary sources and current events.',
             },
             {
               title: 'Modern United States History',
               tag: 'Gr 8',
-              description: 'The 8th-grade year of the Social Studies course of study.',
+              description:
+                'The 8th-grade year: a look at the 20th-century American events that most shaped the country, through primary and secondary sources.',
             },
           ],
         },
@@ -8714,18 +8720,18 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'English / Language Arts',
               tag: 'Gr 6–8',
               description:
-                'Published as a subject strand across the three Middle School years; no per-grade course names are given.',
+                'Reading and writing units across the three Middle School years. Students choose their own reading, and in writing they "focus on narrative, informational, and argumentative writing." No per-grade course names are given.',
             },
             {
               title: 'Science',
               tag: 'Gr 6–8',
               description:
-                'An integrated science program across grades 6-8, with no per-grade course names published.',
+                'An integrated, hands-on science program across grades 6-8, with no per-grade course names published. The tilapia in the school\'s aquaponics system "have provided hands-on lessons for 7th and 8th Grade science units."',
             },
           ],
         },
         {
-          name: 'Weekly Enrichments',
+          name: 'Enrichments',
           courses: [
             {
               title: 'Hebrew Scriptures',
@@ -8743,30 +8749,40 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
             },
             {
+              title: 'Digital Learning / Computer Science',
+              tag: 'Gr 6',
+              description:
+                'Sixth graders take a trimester each of Latin, Spanish and digital literacy. The coding trimester uses the Code.org curriculum and leads into the 7th-grade computer science class.',
+            },
+            {
               title: 'Computer Science',
               tag: 'Gr 7',
               description:
-                'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+                'Core programming ideas and problem-solving. It meets every other day for one trimester.',
             },
             {
               title: 'Learning Lab',
               tag: 'Gr 6',
-              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+              description:
+                'Study and organizing skills: planning work, managing time and materials, and keeping focus, then using those skills in core classes.',
             },
             {
               title: 'Speech & Debate',
               tag: 'Gr 7',
-              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+              description:
+                'Public speaking, speech styles, and building and defending arguments. It meets every other day for one trimester.',
             },
             {
               title: 'Social Issues Seminar',
               tag: 'Gr 8',
-              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+              description:
+                'Students pick a social issue, study it, plan how to advocate for it, and then "implement that plan during an advocacy trip to Washington, D.C., in May." It is tied to the 8th-grade service-learning project.',
             },
             {
               title: 'Healthful Living',
               tag: 'Gr 7',
-              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+              description:
+                'Physical, social and emotional health: communication skills, conflict resolution and community wellness. It meets every other day for one trimester.',
             },
             {
               title: 'FOCUS Period',
@@ -8777,17 +8793,19 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Choice Electives',
               tag: 'Gr 7–8',
               description:
-                'The School Profile names them in its enrichment list but does not describe what they cover.',
+                '"Beginning in 7th Grade," students choose electives that run "on alternating days for the entire academic year." Options include Advanced Band, Advanced Choir, Studio Art, Mock Trial and Speech & Debate, Sports Activism, and Intro to Digital Media Literacy.',
             },
             {
               title: 'Art',
               tag: 'Gr 6–8',
-              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+              description:
+                'Follows Teaching for Artistic Behavior (TAB), a choice-based approach in which students move between mini art studios.',
             },
             {
               title: 'PE',
               tag: 'Gr 6–8',
-              description: 'One of the 13 weekly Middle School enrichments listed in the School Profile.',
+              description:
+                'Classes "teach lifelong exercise and fitness habits while developing skills for athletics."',
             },
           ],
         },
@@ -8798,19 +8816,13 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Music Ensembles — Choir or Band',
               tag: 'Gr 6',
               description:
-                'Ensembles perform at chapels, commencement, and venues outside of school, and "6th Grade students choose from one of two ensembles: choir or band."',
+                '"Sixth-grade students choose from one of two ensembles: Choir or Band." "Ensembles may perform at chapels, commencement and various venues outside of school."',
             },
             {
               title: 'Advanced Band / Advanced Choir',
               tag: 'Gr 7–8',
               description:
-                '"7th and 8th Grade students who decide to continue in an ensemble can choose Advanced Band or Advanced Choir."',
-            },
-            {
-              title: 'Drama Elective',
-              tag: 'Gr 6–8',
-              description:
-                'Middle School students "may also choose to take the drama elective within their schedule, or participate in the winter play or spring musical."',
+                '"Seventh and 8th grade students who choose to continue in an ensemble can choose Advanced Band or Advanced Choir." Both are also on the 7th–8th elective list.',
             },
           ],
         },
@@ -8821,7 +8833,13 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Koinonia',
               tag: 'Gr 6–8',
               description:
-                'Each student belongs to a Koinonia with 10-12 other Middle School students and one adult leader; groups gather every morning for check-in and twice a week for activities.',
+                'Middle School advisory groups, where students build "deeper relationships with peers and teachers."',
+            },
+            {
+              title: 'Chapel',
+              tag: 'Gr 6–8',
+              description:
+                'Worship three times a week: "Greet the Week on Mondays, a division-level chapel on Wednesdays, and a community chapel every Friday morning where the entire school gathers together."',
             },
           ],
         },

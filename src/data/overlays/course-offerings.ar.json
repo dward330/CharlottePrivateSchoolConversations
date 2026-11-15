@@ -310,7 +310,7 @@
         "carmel-christian:divisions[2].departments[1].courses[0].title",
         "hickory-grove-christian:divisions[1].departments[6].name",
         "gaston-day:divisions[0].departments[1].courses[1].title",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].title",
+        "trinity-episcopal:divisions[1].departments[4].courses[11].title",
         "charlotte-prep:divisions[0].departments[2].courses[1].title",
         "charlotte-prep:divisions[1].departments[2].courses[2].title"
       ]
@@ -612,7 +612,8 @@
         "trinity-episcopal:divisions[1].departments[0].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[0].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[4].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[3].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[5].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[0].tag",
         "charlotte-prep:divisions[2].departments[1].courses[1].tag"
       ]
@@ -679,9 +680,9 @@
         "trinity-episcopal:divisions[1].departments[0].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[1].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[3].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[7].tag"
+        "trinity-episcopal:divisions[1].departments[4].courses[4].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[6].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[8].tag"
       ]
     },
     {
@@ -756,7 +757,7 @@
         "trinity-episcopal:divisions[1].departments[0].courses[7].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[2].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[6].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[7].tag",
         "charlotte-prep:divisions[2].departments[0].courses[1].tag",
         "charlotte-prep:divisions[2].departments[1].courses[2].tag",
         "charlotte-prep:divisions[2].departments[1].courses[3].tag"
@@ -996,7 +997,7 @@
         "hickory-grove-christian:divisions[1].departments[8].courses[1].tag",
         "hickory-grove-christian:divisions[1].departments[8].courses[2].tag",
         "hickory-grove-christian:divisions[1].departments[8].courses[3].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[10].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[1].tag",
         "charlotte-prep:divisions[2].departments[2].courses[2].tag"
       ]
@@ -1466,11 +1467,11 @@
         "hickory-grove-christian:divisions[1].departments[7].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[1].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[8].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[11].tag",
-        "trinity-episcopal:divisions[1].departments[5].courses[2].tag",
-        "trinity-episcopal:divisions[1].departments[6].courses[0].tag"
+        "trinity-episcopal:divisions[1].departments[4].courses[12].tag",
+        "trinity-episcopal:divisions[1].departments[6].courses[0].tag",
+        "trinity-episcopal:divisions[1].departments[6].courses[1].tag"
       ]
     },
     {
@@ -23318,7 +23319,7 @@
       "of": "cd1e171a",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[5].title",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[6].title"
       ]
     },
     {
@@ -23434,8 +23435,8 @@
       ]
     },
     {
-      "t": "مناهج مذكورة بالاسم بدلًا من حصص مذكورة بالاسم — Math in Focus 2020 (Singapore) وAmplify Science وStorypaths — إضافة إلى ستة أنشطة إثراء أسبوعية، منها برنامج Spanish للصفوف K–5.",
-      "of": "7379846b",
+      "t": "مناهج مذكورة بالاسم بدلًا من حصص مذكورة بالاسم — Math in Focus 2020 (Singapore) وAmplify Science وStorypaths — إضافة إلى أنشطة إثراء أسبوعية، منها برنامج Spanish للصفوف K–5. وتحصي المدرسة 16 مادة إثراء عبر Lower School وMiddle School.",
+      "of": "16dd889e",
       "at": [
         "trinity-episcopal:divisions[0].teaser"
       ]
@@ -23455,8 +23456,8 @@
       ]
     },
     {
-      "t": "المدرسة \"develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly effective Singapore Math approach.\"",
-      "of": "c7410c3f",
+      "t": "المدرسة \"develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly-effective Singapore Math approach.\"",
+      "of": "cd693dfe",
       "at": [
         "trinity-episcopal:divisions[0].departments[0].courses[0].description"
       ]
@@ -23483,8 +23484,8 @@
       ]
     },
     {
-      "t": "تُدرَّس Social Studies عبر وحدات Storypaths في صفوف Lower School.",
-      "of": "73cabe8c",
+      "t": "يتعلّم الطلاب التربية المدنية والاقتصاد والجغرافيا والتاريخ عبر وحدات قائمة على حلّ المشكلات. و\"Many of these units, especially in the lower grades, are known as Storypaths,\" وفيها يؤدّي الطلاب أدوار شخصيات في قصة.",
+      "of": "eb04dbfc",
       "at": [
         "trinity-episcopal:divisions[0].departments[0].courses[2].description"
       ]
@@ -23500,8 +23501,7 @@
       "t": "أنشطة إثراء أسبوعية",
       "of": "b0bed8f4",
       "at": [
-        "trinity-episcopal:divisions[0].departments[1].name",
-        "trinity-episcopal:divisions[1].departments[4].name"
+        "trinity-episcopal:divisions[0].departments[1].name"
       ]
     },
     {
@@ -23547,10 +23547,16 @@
       ]
     },
     {
-      "t": "أحد أنشطة الإثراء الأسبوعية الستة في Lower School.",
-      "of": "dd0b375f",
+      "t": "يتبع Teaching Artistic Behaviors (TAB)، وهو نهج قائم على الاختيار: يتنقّل الطلاب بين مراكز، أو استوديوهات فنية صغيرة، للرسم بالألوان أو الصلصال أو الطباعة.",
+      "of": "908badcc",
       "at": [
-        "trinity-episcopal:divisions[0].departments[1].courses[3].description",
+        "trinity-episcopal:divisions[0].departments[1].courses[3].description"
+      ]
+    },
+    {
+      "t": "\"All students take general music, which emphasizes creativity, music appreciation, musical literacy, and performance preparation.\" ويقدّم كل صف في Lower School مسرحية أو عرضًا موسيقيًّا.",
+      "of": "d4146581",
+      "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[4].description"
       ]
     },
@@ -23625,8 +23631,8 @@
       ]
     },
     {
-      "t": "خمس حصص رياضيات متمايزة للصف الثامن، ولغة عالمية تصل إلى Level 1 من المرحلة الثانوية بنهاية الصف الثامن، و13 نشاط إثراء أسبوعيًّا.",
-      "of": "0e6e07c4",
+      "t": "خمس حصص رياضيات متمايزة للصف 8، ولغة عالمية تصل إلى Level 1 من المرحلة الثانوية بنهاية الصف 8، وموادّ اختيارية تمتدّ طوال العام تبدأ من الصف 7.",
+      "of": "d0b70e76",
       "at": [
         "trinity-episcopal:divisions[1].teaser"
       ]
@@ -23706,15 +23712,15 @@
       ]
     },
     {
-      "t": "سنة الصف السادس من مسار دراسة Social Studies.",
-      "of": "d8e3d8bc",
+      "t": "سنة الصف 6، التي يتعلّم فيها الطلاب كيف \"use geographic tools to understand the world and its complex systems.\"",
+      "of": "2f53b7a9",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[0].description"
       ]
     },
     {
-      "t": "سنة الصف السابع من مسار دراسة Social Studies.",
-      "of": "5ccbbfe3",
+      "t": "سنة الصف 7: \"a thematic examination of 20th Century world events,\" تُدرَّس عبر المصادر الأوّلية والأحداث الجارية.",
+      "of": "dce81fac",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[1].description"
       ]
@@ -23727,8 +23733,8 @@
       ]
     },
     {
-      "t": "سنة الصف الثامن من مسار دراسة Social Studies.",
-      "of": "4a496e0a",
+      "t": "سنة الصف 8: نظرة إلى الأحداث الأمريكية في القرن الـ20 التي كان لها الأثر الأكبر في تشكيل البلاد، عبر المصادر الأوّلية والثانوية.",
+      "of": "da98a57d",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[2].description"
       ]
@@ -23748,17 +23754,24 @@
       ]
     },
     {
-      "t": "منشورة بوصفها مسار مادّة عبر سنوات Middle School الثلاث؛ ولا تُذكر أسماء حصص لكل صف.",
-      "of": "899b67c6",
+      "t": "وحدات للقراءة والكتابة عبر سنوات Middle School الثلاث. يختار الطلاب قراءاتهم بأنفسهم، وفي الكتابة \"focus on narrative, informational, and argumentative writing.\" ولا تُذكر أسماء حصص لكل صف.",
+      "of": "cce83768",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[0].description"
       ]
     },
     {
-      "t": "برنامج علوم متكامل عبر الصفوف 6-8، دون نشر أسماء حصص لكل صف.",
-      "of": "afc548ca",
+      "t": "برنامج علوم متكامل وتطبيقي عبر الصفوف 6-8، دون نشر أسماء حصص لكل صف. وأسماك البلطي في نظام الزراعة المائية (aquaponics) بالمدرسة \"have provided hands-on lessons for 7th and 8th Grade science units.\"",
+      "of": "19f41b07",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[1].description"
+      ]
+    },
+    {
+      "t": "أنشطة الإثراء",
+      "of": "65a80afd",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].name"
       ]
     },
     {
@@ -23775,14 +23788,7 @@
         "trinity-episcopal:divisions[1].departments[4].courses[0].description",
         "trinity-episcopal:divisions[1].departments[4].courses[1].description",
         "trinity-episcopal:divisions[1].departments[4].courses[2].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[3].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[4].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[6].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[7].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[8].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[11].description"
+        "trinity-episcopal:divisions[1].departments[4].courses[9].description"
       ]
     },
     {
@@ -23793,59 +23799,122 @@
       ]
     },
     {
+      "t": "Digital Learning / Computer Science",
+      "of": "2ce06a95",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[3].title"
+      ]
+    },
+    {
+      "t": "يدرس طلاب الصف السادس فصلًا دراسيًا واحدًا (trimester) لكلٍّ من Latin وSpanish ومحو الأمية الرقمية. ويستخدم فصل البرمجة منهج Code.org ويمهّد لحصّة Computer Science في الصف 7.",
+      "of": "1bfa5fa0",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[3].description"
+      ]
+    },
+    {
       "t": "Computer Science",
       "of": "82574932",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[3].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[4].title"
+      ]
+    },
+    {
+      "t": "أفكار البرمجة الأساسية وحلّ المشكلات. وتُعقد يومًا بعد يوم لمدّة فصل دراسي واحد (trimester).",
+      "of": "a949e17e",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[4].description"
       ]
     },
     {
       "t": "Learning Lab",
       "of": "82b5f090",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[4].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[5].title"
+      ]
+    },
+    {
+      "t": "مهارات الدراسة والتنظيم: تخطيط العمل، وإدارة الوقت والأدوات، والحفاظ على التركيز، ثم استخدام هذه المهارات في الموادّ الأساسية.",
+      "of": "33033a41",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[5].description"
+      ]
+    },
+    {
+      "t": "الخطابة، وأساليب الإلقاء، وبناء الحجج والدفاع عنها. وتُعقد يومًا بعد يوم لمدّة فصل دراسي واحد (trimester).",
+      "of": "d414c24a",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[6].description"
       ]
     },
     {
       "t": "Social Issues Seminar",
       "of": "def38b61",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[6].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[7].title"
+      ]
+    },
+    {
+      "t": "يختار الطلاب قضية اجتماعية، ويدرسونها، ويخطّطون لكيفية مناصرتها، ثم \"implement that plan during an advocacy trip to Washington, D.C., in May.\" وترتبط المادة بمشروع التعلّم بالخدمة في الصف 8.",
+      "of": "325835a4",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[7].description"
       ]
     },
     {
       "t": "Healthful Living",
       "of": "2689b7c7",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[7].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[8].title"
+      ]
+    },
+    {
+      "t": "الصحة البدنية والاجتماعية والعاطفية: مهارات التواصل، وحلّ النزاعات، والعافية المجتمعية. وتُعقد يومًا بعد يوم لمدّة فصل دراسي واحد (trimester).",
+      "of": "3547d3c3",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[8].description"
       ]
     },
     {
       "t": "FOCUS Period",
       "of": "45d54c80",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[8].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[9].title"
       ]
     },
     {
       "t": "Choice Electives",
       "of": "2c03f5e6",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[9].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[10].title"
       ]
     },
     {
-      "t": "يذكرها School Profile في قائمة الإثراء لكنه لا يصف ما تغطّيه.",
-      "of": "a8c6e6ee",
+      "t": "\"Beginning in 7th Grade,\" يختار الطلاب موادّ اختيارية تُعقد \"on alternating days for the entire academic year.\" ومن الخيارات Advanced Band وAdvanced Choir وStudio Art وMock Trial and Speech & Debate وSports Activism وIntro to Digital Media Literacy.",
+      "of": "f324a087",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[9].description"
+        "trinity-episcopal:divisions[1].departments[4].courses[10].description"
+      ]
+    },
+    {
+      "t": "يتبع Teaching for Artistic Behavior (TAB)، وهو نهج قائم على الاختيار يتنقّل فيه الطلاب بين استوديوهات فنية صغيرة.",
+      "of": "0ed0a82c",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[11].description"
       ]
     },
     {
       "t": "PE",
       "of": "2c0000fe",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[11].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[12].title"
+      ]
+    },
+    {
+      "t": "الحصص \"teach lifelong exercise and fitness habits while developing skills for athletics.\"",
+      "of": "c4de4eb4",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[12].description"
       ]
     },
     {
@@ -23863,8 +23932,8 @@
       ]
     },
     {
-      "t": "تؤدّي الفرق في القدّاسات وحفل التخرّج وأماكن خارج المدرسة، و\"6th Grade students choose from one of two ensembles: choir or band.\"",
-      "of": "9f987f9e",
+      "t": "\"Sixth-grade students choose from one of two ensembles: Choir or Band.\" \"Ensembles may perform at chapels, commencement and various venues outside of school.\"",
+      "of": "f4d433bc",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[0].description"
       ]
@@ -23877,24 +23946,10 @@
       ]
     },
     {
-      "t": "\"7th and 8th Grade students who decide to continue in an ensemble can choose Advanced Band or Advanced Choir.\"",
-      "of": "86405cc1",
+      "t": "\"Seventh and 8th grade students who choose to continue in an ensemble can choose Advanced Band or Advanced Choir.\" وكلتاهما مدرجة أيضًا في قائمة الموادّ الاختيارية للصفّين 7th–8th.",
+      "of": "d5efadb5",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[1].description"
-      ]
-    },
-    {
-      "t": "Drama Elective",
-      "of": "18fee607",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[5].courses[2].title"
-      ]
-    },
-    {
-      "t": "طلاب Middle School \"may also choose to take the drama elective within their schedule, or participate in the winter play or spring musical.\"",
-      "of": "f3358490",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[5].courses[2].description"
       ]
     },
     {
@@ -23912,10 +23967,24 @@
       ]
     },
     {
-      "t": "ينتمي كل طالب إلى مجموعة Koinonia تضمّ 10-12 طالبًا آخر من Middle School وقائدًا بالغًا واحدًا؛ وتجتمع المجموعات كل صباح للتفقّد ومرّتين أسبوعيًّا للأنشطة.",
-      "of": "9a41ac21",
+      "t": "مجموعات الإرشاد في Middle School، حيث يبني الطلاب \"deeper relationships with peers and teachers.\"",
+      "of": "5b1a07cb",
       "at": [
         "trinity-episcopal:divisions[1].departments[6].courses[0].description"
+      ]
+    },
+    {
+      "t": "Chapel",
+      "of": "2b5c68ee",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[6].courses[1].title"
+      ]
+    },
+    {
+      "t": "عبادة ثلاث مرّات في الأسبوع: \"Greet the Week on Mondays, a division-level chapel on Wednesdays, and a community chapel every Friday morning where the entire school gathers together.\"",
+      "of": "bcae5633",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[6].courses[1].description"
       ]
     },
     {

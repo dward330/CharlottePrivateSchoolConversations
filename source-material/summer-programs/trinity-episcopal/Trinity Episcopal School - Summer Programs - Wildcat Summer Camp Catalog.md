@@ -9,6 +9,62 @@
   figures are **computed from it**, not transcribed — so counts and prices match source.
 - **School:** Trinity Episcopal School, 750 E. 9th Street, Charlotte, NC 28202 — **K–8**.
 
+### Live-site recheck, 2026-11-14
+
+- **Rechecked by:** Claude (Claude Code agent), 2026-11-14, against a full local crawl of the
+  redesigned tescharlotte.org (Finalsite) taken the same day
+  (`reports/trinity-site-2026-11-14/`, gitignored), plus one direct fetch of the camp
+  page's HTML and one export of the CSV grid. Standing rule: **the school's new live pages
+  override this file wherever they differ.**
+
+**Source URL map:**
+
+| Old source | Now | Wayback of the old page |
+|---|---|---|
+| https://www.tescharlotte.org/community/wildcat-summer-camp.cfm | **https://www.tescharlotte.org/community/wildcat-summer-camp** | https://web.archive.org/web/20260608120638/https://www.tescharlotte.org/community/wildcat-summer-camp.cfm |
+| Weekly grid CSV (1KkkMI4t…) | **Still resolves** (HTTP 200, 2026-11-14). It is still the **2026** grid, and all 85 rows match the catalog below. **No page on the new site links it** | n/a |
+| Camp descriptions, fees, logistics and FAQ Google Docs | **No page on the new site links them**. The fees doc still resolves unchanged; the rest were not re-fetched | n/a |
+| CampBrain portal (wildcatsummercamp.campbrainregistration.com) | **Not linked** from the new page | n/a |
+
+**The live camp page, verbatim:**
+
+> "Wildcat Summer Camp / Check back in January 2027 for Camp Registration!"
+
+> "Whether your child wants to explore the city on a bike, hone their soccer moves, learn
+> to bring robots to life through coding, or perform on the stage, there is a camp for
+> them! Each camp program is designed to offer unique and enriching experiences each
+> week."
+
+> "We offer six weeks of full- and half-day camps at our campus in the First Ward of
+> uptown Charlotte, NC. Wildcat Summer Camp is open to any child in the community in
+> rising grades K-8. You don't have to be a Trinity student to be a part of the summer
+> experience!"
+
+> "Half-day camps: 9 a.m. - 12 p.m., and 1–4 p.m. / Full-day camps: 9 a.m. - 4 p.m. / *
+> Please plan to drop off your child beginning at 8:45 a.m., or 12:45 p.m. if attending an
+> afternoon half-day camp. Campers should arrive no later than 5 minutes prior to camp."
+
+> "What makes Wildcat Summer Camp stand out? / Our Uptown location / Our daily/weekly
+> adventures to apply our learning outside of the classroom and often in Charlotte’s Center
+> City/the greater Charlotte area. / A continued focus on the health and safety of our camp
+> community / A wide variety of offerings each week to appeal to students’ interests / Our
+> focus on emerging trends in the summer camp space / A summer staff that is dedicated to
+> helping foster academic growth, experiential learning, and lots of fun"
+
+- **Confirmed:** six weeks; full- and half-day camps; First Ward, uptown campus; open to any
+  child in rising grades K-8; hours 9–12, 1–4 and 9–4; drop-off from 8:45 a.m.
+- **Newly stated:** afternoon drop-off from 12:45 p.m.; "Check back in January 2027 for
+  Camp Registration!" (the old "Registration opens Jan 19, 2026" stays NOT FOUND, but a
+  January opening is now the school's own statement, for 2027).
+- **No longer stated:** the season dates ("from the week of June 15, 2026, to the week of
+  July 20, 2026"); every camp name, grade band, time and price; the two four-day weeks.
+  The 2026 slate is a **past, dated season** (historical). As a current catalog it is
+  stale: no 2027 slate is published yet.
+- **Side finding in the school's own CSV** (not a live-site change): both Camp
+  Independence rows continue onto two more lines: "9a W-Th. (overnight)", then "9-12p
+  Fri." with "Noon pick-up" in the next column. So "9-4p M-Tu" is not the whole schedule.
+  The catalog table below carries only the first line.
+
 ## Source URLs
 
 - Wildcat Summer Camp — https://www.tescharlotte.org/community/wildcat-summer-camp.cfm
@@ -23,6 +79,10 @@
 > one line ("$295 (K); $465 (1-6)"), the CSV splits them into separate rows with their own
 > grade bands and times. The two sources also **disagree on two prices** — see below.
 
+*Superseded 2026-11-14 — see Live-site recheck* (the camp page moved to https://www.tescharlotte.org/community/wildcat-summer-camp.
+The CSV and docs above still open but are no longer linked; they hold the **2026 season**,
+which the app shows labeled as 2026).
+
 ## The camp is LIVE for 2026
 
 Established three ways: the page returns HTTP 200 with 2026 content, the catalogue is
@@ -32,6 +92,9 @@ Established three ways: the page returns HTTP 200 with 2026 content, the catalog
 
 > "Registration opens Jan 19, 2026" — **NOT FOUND.** Zero January dates appear on the camp
 > page or in any of the five documents. Do not publish it.
+
+*Superseded 2026-11-14 — see Live-site recheck* (the 2026 season is over. The live camp page says only "Check back in January
+2027 for Camp Registration!", and the CampBrain portal is no longer linked).
 
 ## Structure
 
@@ -54,6 +117,9 @@ Verbatim:
 
 Drop-off begins **8:45 a.m.** per the camp page — ⚠️ though the logistics doc says **8:40**
 and the FAQ says **8:40am**. A minor internal inconsistency in the school's own materials.
+
+*Superseded 2026-11-14 — see Live-site recheck* (the live page no longer gives the June 15–July 20, 2026 season dates; the hours
+and the 8:45 a.m. drop-off are confirmed, and it adds afternoon drop-off from 12:45 p.m.).
 
 ## ⚠️ TWO four-day weeks, not one
 
@@ -105,6 +171,10 @@ rising-8 option. Widest-band camps: **Master Chess Camp (K-8)**, **Theater and I
 | **Black Rocket** | The coding/game-design family (Roblox, Minecraft, A.I., Young Coders, Game Designers), ~12 rows. Named as a vendor only in the aid-exclusion sentence. |
 | **P3 Soccer** | Coach Pedro — 2 weeks |
 | **Venture Outdoor Leadership program at UNC-Charlotte** | Runs Camp Independence Sr. |
+
+Both Camp Independence sections (Sr. and The Next Level) run Monday–Friday in the CSV:
+"9-4p M-Tu", then "9a W-Th. (overnight)", then "9-12p Fri." with "Noon pick-up". The
+catalog tables below carry only the first line.
 
 > ⚠️ **"Mad Science" is NOT a vendor here.** The name appears **nowhere** in any of the
 > five documents or on the camp page. The science camps (Chemistry of Slime, Candy

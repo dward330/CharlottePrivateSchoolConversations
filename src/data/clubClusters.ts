@@ -457,14 +457,13 @@ const CHARLOTTE_CATHOLIC: ClubClusters = {
   ],
 }
 
-// ── Trinity Episcopal ── the only K–8 school in this set, and its competitive
-// record is stronger than several high schools': a Middle School Mock Trial team
-// that won the North Carolina Bar Foundation state championship three years
-// running, plus a Speech & Debate state title the same year. Both are documented
-// ONLY in the school's blog — neither appears in either School Profile PDF — so
-// the roster and the results come from different sources, which is why the
-// unverifiable profile-only clubs sit in their own 'reported' row rather than
-// being folded in with the champions.
+// ── Trinity Episcopal ── the only K–8 school in this set. Its Mock Trial
+// (2023–2025) and Speech & Debate state titles were published only in blog
+// posts the fall-2026 redesign did not migrate, so per the user's live-site-only
+// decision (2026-11-14, plan trinitysite) they are off this card; the Wayback
+// copies are in source-material/. What the live site states is that both are
+// taught as Middle School classes with a named coach. The unverifiable
+// profile-only clubs sit in their own 'reported' row.
 //
 // ⚠️ NO STUDENT NAMES. K–8 minors, per the project rule (user, 2026-09-16). The
 // school's own posts name individual competitors; the coach is named here and
@@ -474,32 +473,32 @@ const CHARLOTTE_CATHOLIC: ClubClusters = {
 // both profile PDFs, despite a web search returning confident prose about both.
 // See the header of clubsPrograms/trinity-episcopal.ts. Do not add them.
 const TRINITY_EPISCOPAL: ClubClusters = {
-  verdict: 'Mock Trial is a three-peat state champion, and Speech & Debate won state the same year.',
+  verdict: 'Mock Trial and Speech & Debate are taught as Middle School classes with their own coach, and students elect an Honor Council each fall.',
   verdictHint: 'Open any row for the full research note and its source.',
   rows: [
     {
       name: 'Mock Trial',
-      oneLiner: 'NC Bar Foundation Middle School state champions — 2023, 2024 and 2025',
-      evidence: 'verified',
-      evidenceLabel: 'Verified — event',
-      note: 'Trinity’s strongest competitive achievement is academic rather than athletic: three state championships in a row in the North Carolina Bar Foundation’s Middle School Mock Trial competition. The 15-student team is coached by Jennifer Bader. The second title was won at the Mecklenburg County Courthouse against five other middle school teams. Bader: "I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections."',
-      source: 'tescharlotte.org — school blog, three-peat and second-championship posts',
+      oneLiner: 'A 7th–8th grade elective with its own coach',
+      evidence: 'reported',
+      evidenceLabel: 'School-published',
+      note: 'Mock Trial is part of the Middle School schedule. 7th and 8th graders can choose "Mock Trial and Speech & Debate" as an elective. It runs "on alternating days for the entire academic year." Jennifer Bader is the Public Speaking Teacher and the Mock Trial and Speech and Debate Coach. No current competition result is published.',
+      source: 'tescharlotte.org — Middle School page (Middle School Electives); staff directory',
     },
     {
       name: 'Speech & Debate',
-      oneLiner: 'Also a state champion — and simultaneously a 7th-grade weekly class',
-      evidence: 'verified',
-      evidenceLabel: 'Verified — event',
-      note: 'The school states it plainly: "The speech and debate and mock trial teams both won their respective state championships this year." Speech & Debate is both a class and a club. The program runs as a weekly 7th-grade enrichment as well as a competitive team, so listing it only among the enrichments understates it. Coach Jennifer Bader has served as Forensics Committee Chair and a board member of the North Carolina Association for Scholastic Activities.',
-      source: 'tescharlotte.org — Celebrating TES Staculty Achievements; 2026-27 School Profile (PDF)',
+      oneLiner: 'A 7th-grade trimester course, and part of the 7th–8th elective',
+      evidence: 'reported',
+      evidenceLabel: 'School-published',
+      note: 'The 7th-grade course teaches "effective communication, critical thinking, and persuasive argumentation," and it "meets every other day for one trimester." Students can continue in the Mock Trial and Speech & Debate elective in 7th and 8th grade. Jennifer Bader coaches both.',
+      source: 'tescharlotte.org — Middle School page (7th Grade Speech and Debate; Middle School Electives); 2026-27 School Profile (PDF)',
     },
     {
       name: 'Honor Council',
-      oneLiner: 'Elected by grade-level peers in Middle School; Honor Code written by students in 2002',
+      oneLiner: 'Elected by Middle School students each fall; Honor Code written by students, adopted 2003',
       evidence: 'reported',
       evidenceLabel: 'School-published',
-      note: 'Members are "elected by their grade level peers in Middle School" and hold fellow students to the Honor Pledge adopted in 2012. The Honor Code was created by students in 2002. The Honor Council is the school’s only confirmed honor or leadership body. There is no National Junior Honor Society and no Student Council anywhere on the site or in either School Profile, despite third-party pages claiming both.',
-      source: 'tescharlotte.org — Honor Code (spirituality/honor-code.cfm)',
+      note: '"Each fall, Middle School students elect their peers to serve on the Honor Council." It holds classmates "to the expectations set out in the Middle School Pledge." The Honor Code was written by a group of Middle School students and adopted in 2003. The Honor Council is the school’s only confirmed honor or leadership body. There is no National Junior Honor Society and no Student Council anywhere on the site or in the School Profile, despite third-party pages claiming both.',
+      source: 'tescharlotte.org — The Honor Code (about-us/the-honor-code)',
     },
     {
       name: 'Profile-listed academic clubs →',
@@ -508,7 +507,7 @@ const TRINITY_EPISCOPAL: ClubClusters = {
       evidenceLabel: 'Single-source',
       // Zero-hit search framing removed 2026-09-16 (apparatus); the substantive
       // points — no competitive claim, and the two dropped clubs — remain.
-      note: 'Odyssey of the Mind is a national creative problem-solving competition at other schools. But no Trinity participation or result is published, so this row claims no competitive result. The 2025-26 profile also listed MathCats and Book Club. Both are gone from the 26-27 edition.',
+      note: 'Odyssey of the Mind is a national creative problem-solving competition at other schools. But no Trinity participation or result is published, so this row claims no competitive result.',
       source: 'tescharlotte.org — 2026-27 School Profile (PDF)',
     },
   ],

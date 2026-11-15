@@ -1,5 +1,5 @@
 # Trinity Episcopal School — Summer Programs
-> Distilled from 2 source document(s) in `source-material/summer-programs/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 2 source document(s) in `source-material/summer-programs/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-14.
 **Documents:** Summer Costs and Policies, Wildcat Summer Camp Catalog
 
 
@@ -19,12 +19,65 @@
  text. Every figure read verbatim.
 - **School:** Trinity Episcopal School, 750 E. 9th Street, Charlotte, NC 28202 — **K–8**.
 
+### Live-site recheck, 2026-11-14
+
+- **Rechecked by:** Claude (Claude Code agent), 2026-11-14, against a full local crawl of the
+ redesigned tescharlotte.org (Finalsite) taken the same day
+ (`reports/trinity-site-2026-11-14/`, gitignored). The camp page's collapsed FAQ answers
+ were read from one direct fetch of its HTML the same day. Standing rule: **the school's
+ new live pages override this file wherever they differ.**
+
+**Source URL map:**
+
+| Old source | Now | Wayback of the old page |
+|---|---|---|
+| https://www.tescharlotte.org/community/wildcat-summer-camp.cfm | **https://www.tescharlotte.org/community/wildcat-summer-camp** | https://web.archive.org/web/20260608120638/https://www.tescharlotte.org/community/wildcat-summer-camp.cfm |
+| Fees and policies Google Doc (14ZB0WDM…) | **Still resolves** (HTTP 200, 2026-11-14, text unchanged: $85 / $90 / $175, $50 deposit, $25 fee, 4ORMORE, May 1, $5/minute) but **no page on the new site links it** | n/a |
+| Logistics and FAQ Google Docs | Not re-fetched. **No page on the new site links them** | n/a |
+
+**The new camp page publishes no camp price, fee, deposit, discount, aid rule, refund
+rule or late-pick-up rule.** Its only cost-and-policy content is an FAQ, verbatim:
+
+> "Is extended day care offered during summer camp? / Before-camp care is available from
+> 7:45–9:00 a.m. After-camp care is provided from 4:00--5:30 p.m."
+
+> "What should my camper bring each day? / A snack (or two snacks if attending a full-day
+> camp or two half-day camps) and a water bottle. Snacks and water bottles should be
+> clearly labeled."
+
+> "What should my child bring to camp? / Each day, in a small lunch box/bag, your child
+> should bring a snack (Two snacks should be brought if attending a full-day camp or
+> separate morning and afternoon camps). Water bottles should be brought daily as well.
+> All items should be clearly-labeled. Any uneaten snacks must be disposed of at the end of
+> the day and non-disposable water bottles and containers must be brought home and washed
+> each evening."
+
+> "My child has specific food allergies. Are students allowed to bring snacks with nuts to
+> camp? / No. For the health and safety of all students, please do not send any snacks
+> containing nuts to camp. We will also discourage the sharing of snacks for this reason."
+
+- **Confirmed on the live page:** care hours 7:45–9:00 a.m. and 4:00–5:30 p.m.; snacks, one
+ per half day and two for a full day or two half days; labeled water bottles.
+- **Changed:** the nut rule. "Strives to be nut-free" is no longer stated. The live page
+ says plainly: "please do not send any snacks containing nuts to camp".
+- **No longer stated on the live site** (they survive only in the unlinked Google Docs):
+ the care prices $85/week, $90/week and $175/week; "there is no after-care for half-day
+ students"; the $50 deposit and $25 administrative fee; May 1 final date; 4ORMORE;
+ financial aid and its CAMMP / TES Academy / Black Rocket exclusions; refunds; the $5/minute
+ late-pick-up charge and the removal rule; bring-your-own lunch; staying on campus for
+ lunch between two half-day camps. All of these are **2026-season current-state** terms.
+
 ## Source URLs
 
 - Fees and policies — https://docs.google.com/document/d/14ZB0WDM6t513Z0VYqYbaZkyObFOHxXwXjypYaB1_yX0/export?format=txt
 - Logistics — https://docs.google.com/document/d/1Cl3nXtJdZBnKxaOfeY8wiSXgZ8xESIxbPVDU3X2wLzE/export?format=txt
 - FAQ — https://docs.google.com/document/d/1_xo5HoOEkunBn-BZj22o-jCTtnH9RPGMUXWeQ7AR2E8/export?format=txt
 - Camp page — https://www.tescharlotte.org/community/wildcat-summer-camp.cfm
+
+*Superseded 2026-11-14 — see Live-site recheck* (the camp page moved to https://www.tescharlotte.org/community/wildcat-summer-camp
+and now says only "Check back in January 2027 for Camp Registration!". The three docs above
+still open but are no longer linked, so every fee and policy below is the **2026 season's**
+terms; refresh when the 2027 terms post).
 
 ## Before- and after-camp care
 
@@ -122,6 +175,9 @@ Verbatim:
 > ⚠️ **There is no FLIK lunch option at camp** — a real contrast with the school year,
 > where FLIK is $11.50/meal.
 
+*Superseded 2026-11-14 — see Live-site recheck* (the $11.50 per-meal price is no longer on the live site; the tuition page lists
+only FLIK's annual and 20-meal plans).
+
 **Two-half-day campers bridge lunch on campus**, verbatim:
 > "Children participating in two separate camps (a morning camp and then an afternoon
 > camp) will **stay on campus for lunch and recess** before joining their afternoon camp"
@@ -133,6 +189,10 @@ camps into a full day workable**, and it is a genuinely useful planning fact.
 reusable water bottle (the camp is cup-free); snacks are required — **1 for half-day, 2 for
 full-day**, in labeled Ziploc bags.
 
+*Superseded 2026-11-14 — see Live-site recheck* (the live camp FAQ is firmer on nuts: "No. For the health and safety of all
+students, please do not send any snacks containing nuts to camp. We will also discourage
+the sharing of snacks for this reason.").
+
 ## ⛔ Confirmed absent
 
 | Item | Status |
@@ -140,6 +200,9 @@ full-day**, in labeled Ziploc bags.
 | **Per-camp capacity** | **Confirmed absent.** The docs assert capacity is limited ("Due to limited camp capacity, space cannot be held without payment"; "All camps are subject to a minimum enrollment") but **never state a number for any camp**. |
 | **Staff ratios** | **Confirmed absent.** The only ratio anywhere is Summer LEAP's "The number of students with each teacher will be **6-8**" — ⚠️ **that is one invitation-only academic programme, not a camp-wide ratio. Do not generalize it.** |
 | **Registration open date** | **Not found** — no January date appears anywhere. |
+
+*Superseded 2026-11-14 — see Live-site recheck* (registration date: the live camp page now says "Check back in January 2027 for
+Camp Registration!").
 
 
 ---
@@ -159,6 +222,62 @@ full-day**, in labeled Ziploc bags.
  figures are **computed from it**, not transcribed — so counts and prices match source.
 - **School:** Trinity Episcopal School, 750 E. 9th Street, Charlotte, NC 28202 — **K–8**.
 
+### Live-site recheck, 2026-11-14
+
+- **Rechecked by:** Claude (Claude Code agent), 2026-11-14, against a full local crawl of the
+ redesigned tescharlotte.org (Finalsite) taken the same day
+ (`reports/trinity-site-2026-11-14/`, gitignored), plus one direct fetch of the camp
+ page's HTML and one export of the CSV grid. Standing rule: **the school's new live pages
+ override this file wherever they differ.**
+
+**Source URL map:**
+
+| Old source | Now | Wayback of the old page |
+|---|---|---|
+| https://www.tescharlotte.org/community/wildcat-summer-camp.cfm | **https://www.tescharlotte.org/community/wildcat-summer-camp** | https://web.archive.org/web/20260608120638/https://www.tescharlotte.org/community/wildcat-summer-camp.cfm |
+| Weekly grid CSV (1KkkMI4t…) | **Still resolves** (HTTP 200, 2026-11-14). It is still the **2026** grid, and all 85 rows match the catalog below. **No page on the new site links it** | n/a |
+| Camp descriptions, fees, logistics and FAQ Google Docs | **No page on the new site links them**. The fees doc still resolves unchanged; the rest were not re-fetched | n/a |
+| CampBrain portal (wildcatsummercamp.campbrainregistration.com) | **Not linked** from the new page | n/a |
+
+**The live camp page, verbatim:**
+
+> "Wildcat Summer Camp / Check back in January 2027 for Camp Registration!"
+
+> "Whether your child wants to explore the city on a bike, hone their soccer moves, learn
+> to bring robots to life through coding, or perform on the stage, there is a camp for
+> them! Each camp program is designed to offer unique and enriching experiences each
+> week."
+
+> "We offer six weeks of full- and half-day camps at our campus in the First Ward of
+> uptown Charlotte, NC. Wildcat Summer Camp is open to any child in the community in
+> rising grades K-8. You don't have to be a Trinity student to be a part of the summer
+> experience!"
+
+> "Half-day camps: 9 a.m. - 12 p.m., and 1–4 p.m. / Full-day camps: 9 a.m. - 4 p.m. / *
+> Please plan to drop off your child beginning at 8:45 a.m., or 12:45 p.m. if attending an
+> afternoon half-day camp. Campers should arrive no later than 5 minutes prior to camp."
+
+> "What makes Wildcat Summer Camp stand out? / Our Uptown location / Our daily/weekly
+> adventures to apply our learning outside of the classroom and often in Charlotte’s Center
+> City/the greater Charlotte area. / A continued focus on the health and safety of our camp
+> community / A wide variety of offerings each week to appeal to students’ interests / Our
+> focus on emerging trends in the summer camp space / A summer staff that is dedicated to
+> helping foster academic growth, experiential learning, and lots of fun"
+
+- **Confirmed:** six weeks; full- and half-day camps; First Ward, uptown campus; open to any
+ child in rising grades K-8; hours 9–12, 1–4 and 9–4; drop-off from 8:45 a.m.
+- **Newly stated:** afternoon drop-off from 12:45 p.m.; "Check back in January 2027 for
+ Camp Registration!" (the old "Registration opens Jan 19, 2026" stays NOT FOUND, but a
+ January opening is now the school's own statement, for 2027).
+- **No longer stated:** the season dates ("from the week of June 15, 2026, to the week of
+ July 20, 2026"); every camp name, grade band, time and price; the two four-day weeks.
+ The 2026 slate is a **past, dated season** (historical). As a current catalog it is
+ stale: no 2027 slate is published yet.
+- **Side finding in the school's own CSV** (not a live-site change): both Camp
+ Independence rows continue onto two more lines: "9a W-Th. (overnight)", then "9-12p
+ Fri." with "Noon pick-up" in the next column. So "9-4p M-Tu" is not the whole schedule.
+ The catalog table below carries only the first line.
+
 ## Source URLs
 
 - Wildcat Summer Camp — https://www.tescharlotte.org/community/wildcat-summer-camp.cfm
@@ -173,6 +292,10 @@ full-day**, in labeled Ziploc bags.
 > one line ("$295 (K); $465 (1-6)"), the CSV splits them into separate rows with their own
 > grade bands and times. The two sources also **disagree on two prices** — see below.
 
+*Superseded 2026-11-14 — see Live-site recheck* (the camp page moved to https://www.tescharlotte.org/community/wildcat-summer-camp.
+The CSV and docs above still open but are no longer linked; they hold the **2026 season**,
+which the app shows labeled as 2026).
+
 ## The camp is LIVE for 2026
 
 Established three ways: the page returns HTTP 200 with 2026 content, the catalogue is
@@ -182,6 +305,9 @@ Established three ways: the page returns HTTP 200 with 2026 content, the catalog
 
 > "Registration opens Jan 19, 2026" — **NOT FOUND.** Zero January dates appear on the camp
 > page or in any of the five documents. Do not publish it.
+
+*Superseded 2026-11-14 — see Live-site recheck* (the 2026 season is over. The live camp page says only "Check back in January
+2027 for Camp Registration!", and the CampBrain portal is no longer linked).
 
 ## Structure
 
@@ -204,6 +330,9 @@ Verbatim:
 
 Drop-off begins **8:45 a.m.** per the camp page — ⚠️ though the logistics doc says **8:40**
 and the FAQ says **8:40am**. A minor internal inconsistency in the school's own materials.
+
+*Superseded 2026-11-14 — see Live-site recheck* (the live page no longer gives the June 15–July 20, 2026 season dates; the hours
+and the 8:45 a.m. drop-off are confirmed, and it adds afternoon drop-off from 12:45 p.m.).
 
 ## ⚠️ TWO four-day weeks, not one
 
@@ -255,6 +384,10 @@ rising-8 option. Widest-band camps: **Master Chess Camp (K-8)**, **Theater and I
 | **Black Rocket** | The coding/game-design family (Roblox, Minecraft, A.I., Young Coders, Game Designers), ~12 rows. Named as a vendor only in the aid-exclusion sentence. |
 | **P3 Soccer** | Coach Pedro — 2 weeks |
 | **Venture Outdoor Leadership program at UNC-Charlotte** | Runs Camp Independence Sr. |
+
+Both Camp Independence sections (Sr. and The Next Level) run Monday–Friday in the CSV:
+"9-4p M-Tu", then "9a W-Th. (overnight)", then "9-12p Fri." with "Noon pick-up". The
+catalog tables below carry only the first line.
 
 > ⚠️ **"Mad Science" is NOT a vendor here.** The name appears **nowhere** in any of the
 > five documents or on the camp page. The science camps (Chemistry of Slime, Candy
@@ -400,4 +533,7 @@ internally consistent, and disambiguates every multi-price camp.
 - https://docs.google.com/document/d/1_xo5HoOEkunBn-BZj22o-jCTtnH9RPGMUXWeQ7AR2E8/export?format=txt
 - https://docs.google.com/document/d/1phMvzNdyn2_EYf4TwGnuS2ZzI8virOrQCi3SBBtCn1k/export?format=txt
 - https://docs.google.com/spreadsheets/d/1KkkMI4t7nInLLNfDj1yhNgRo_Ajl7B99I_TZAaJpfHk/export?format=csv
+- https://web.archive.org/web/20260608120638/https://www.tescharlotte.org/community/wildcat-summer-camp.cfm
+- https://www.tescharlotte.org/community/wildcat-summer-camp
+- https://www.tescharlotte.org/community/wildcat-summer-camp**
 - https://www.tescharlotte.org/community/wildcat-summer-camp.cfm

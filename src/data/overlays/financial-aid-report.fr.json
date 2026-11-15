@@ -1610,7 +1610,7 @@
         "charlotte-latin:sections[5].plans[0].label",
         "charlotte-christian:sections[4].plans[0].label",
         "charlotte-country-day:sections[4].plans[0].label",
-        "trinity-episcopal:sections[1].components[12].label"
+        "trinity-episcopal:sections[1].components[14].label"
       ]
     },
     {
@@ -6129,8 +6129,8 @@
       ]
     },
     {
-      "t": "100%",
-      "of": "2f97df3b",
+      "t": "Mérite maximal",
+      "of": "7f035f15",
       "at": [
         "gaston-day:sections[4].ladder[0].gift"
       ]
@@ -6319,8 +6319,8 @@
       ]
     },
     {
-      "t": "Année scolaire 2026–27 · chiffres au 16 septembre 2026",
-      "of": "ec2d25a8",
+      "t": "Année scolaire 2026–27 · chiffres au 14 novembre 2026",
+      "of": "c570d97f",
       "at": [
         "trinity-episcopal:meta"
       ]
@@ -6361,8 +6361,8 @@
       ]
     },
     {
-      "t": "Frais de scolarité publiés par tranche, 2026-27 face à 2025-26",
-      "of": "2258964c",
+      "t": "Frais de scolarité publiés par tranche, 2026-27",
+      "of": "dea60331",
       "at": [
         "trinity-episcopal:sections[0].figureCaption"
       ]
@@ -6375,15 +6375,15 @@
       ]
     },
     {
-      "t": "Deux tranches couvrent les neuf niveaux. Quatre années d'historique de première main, récupérées sur la page de frais de scolarité archivée de l'école elle-même : 2023-24 $22,605* / $24,312*, 2024-25 $23,961 / $25,771, 2025-26 $25,400 / $27,320, et 2026-27 $26,670 / $28,690. D'une année sur l'autre, cela donne **+6.0% → +6.0% → +5.0%, à l'identique pour les deux tranches** — elles ont évolué au même rythme et n'ont jamais divergé. L'astérisque sur les chiffres de 2023-24 est celui de l'école ; la note à laquelle il renvoie n'a pas été capturée.",
-      "of": "e0672322",
+      "t": "Deux tranches couvrent les neuf niveaux : **$26,670** de la Kindergarten à la 5th Grade et **$28,690** de la 6th à la 8th Grade en 2026-27. Le School Profile 2026-27 de l'école donne les deux mêmes chiffres.",
+      "of": "c72a0e6c",
       "at": [
         "trinity-episcopal:sections[0].figureNote"
       ]
     },
     {
-      "t": "Chaque montant en dollars concernant Trinity se trouve dans un Google Doc intitulé \"Cost of Attendance for 2026-27\", et non sur la page des frais de scolarité elle-même. La page des frais de scolarité porte les tranches et les échéances ; le document porte les frais annexes.",
-      "of": "569a0d13",
+      "t": "La page des frais de scolarité présente le tableau complet des coûts pour chaque niveau : frais de scolarité, frais d'activités, tarifs de l'Extended Day (TED) et formules de déjeuner FLIK.",
+      "of": "b6f9e4e4",
       "at": [
         "trinity-episcopal:sections[0].figureNote2"
       ]
@@ -6473,8 +6473,8 @@
       ]
     },
     {
-      "t": "Trinity tarife les frais d'activités **par niveau**, ce que peu d'écoles font. Ils vont de **$210** en Kindergarten à **$1,045** au niveau 8, avec une hausse au niveau 4 (**$545**) puis de nouveau au niveau 6 (**$965**). Ce que ces frais couvrent n'est pas précisé.",
-      "of": "71077a7e",
+      "t": "Trinity tarife les frais d'activités **par niveau**, ce que peu d'écoles font. Ils vont de **$215** en Kindergarten à **$1,045** en 8th grade, avec une hausse au niveau 4 (**$545**) puis de nouveau au niveau 6 (**$965**). Ce que ces frais couvrent n'est pas précisé.",
+      "of": "2a690e97",
       "at": [
         "trinity-episcopal:sections[1].figureNote"
       ]
@@ -6488,127 +6488,120 @@
       ]
     },
     {
-      "t": "Frais d'activités — par niveau · $210 à $1,045",
-      "of": "ac5a39ff",
+      "t": "Frais d'activités — par niveau · $215 à $1,045",
+      "of": "0945c918",
       "at": [
         "trinity-episcopal:sections[1].components[0].label"
-      ]
-    },
-    {
-      "t": "Déjeuner (FLIK) — par repas · $11.50",
-      "of": "ec820788",
-      "at": [
-        "trinity-episcopal:sections[1].components[1].label"
       ]
     },
     {
       "t": "Déjeuner — forfait annuel, Lower School · $1,375",
       "of": "9db39523",
       "at": [
-        "trinity-episcopal:sections[1].components[2].label"
+        "trinity-episcopal:sections[1].components[1].label"
       ]
     },
     {
       "t": "Déjeuner — forfait annuel, Middle School · $1,520",
       "of": "e91367fd",
       "at": [
+        "trinity-episcopal:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "Déjeuner — formule de 20 repas · $195 LS / $210 MS",
+      "of": "185f123b",
+      "at": [
         "trinity-episcopal:sections[1].components[3].label"
       ]
     },
     {
-      "t": "Déjeuner — carnet de 20 repas · $195 LS / $210 MS",
-      "of": "fac98d73",
+      "t": "Trinity Extended Day — mensuel · $380 ($355 pour chaque frère ou sœur supplémentaire)",
+      "of": "bb763532",
       "at": [
         "trinity-episcopal:sections[1].components[4].label"
-      ]
-    },
-    {
-      "t": "Trinity Extended Day — mensuel, selon le revenu du foyer · $105–$380",
-      "of": "66323900",
-      "at": [
-        "trinity-episcopal:sections[1].components[5].label"
       ]
     },
     {
       "t": "Accès libre à l'Extended Day · $31/jour ($25 avec une aide)",
       "of": "c24f3650",
       "at": [
+        "trinity-episcopal:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "Demi-journée d'Extended Day · $51/jour ($30 avec aide ; gratuit pour les élèves au forfait mensuel)",
+      "of": "2637c428",
+      "at": [
         "trinity-episcopal:sections[1].components[6].label"
       ]
     },
     {
-      "t": "Camp d'été — Wildcat Summer Camp · $225–$785 par stage",
-      "of": "eed1332c",
+      "t": "Journée complète d'Extended Day, pendant les rencontres parents-enseignants · $72/jour ($45 premier frère ou sœur / $40 chaque suivant, avec aide)",
+      "of": "0cfe6a68",
       "at": [
         "trinity-episcopal:sections[1].components[7].label"
+      ]
+    },
+    {
+      "t": "Camp d'été — Wildcat Summer Camp, saison 2026 · $225–$785 par stage",
+      "of": "d7802363",
+      "at": [
+        "trinity-episcopal:sections[1].components[8].label"
       ]
     },
     {
       "t": "Manuels — aucun montant indiqué pour aucun niveau",
       "of": "0b0aa083",
       "at": [
-        "trinity-episcopal:sections[1].components[8].label"
+        "trinity-episcopal:sections[1].components[9].label"
       ]
     },
     {
       "t": "Assurance de remboursement des frais de scolarité (A.W.G. Dewar)",
       "of": "2c421ae6",
       "at": [
-        "trinity-episcopal:sections[1].components[9].label"
+        "trinity-episcopal:sections[1].components[10].label"
       ]
     },
     {
       "t": "Enrichissements de l'Extended Day — \"an additional fee\"",
       "of": "eeb2ac70",
       "at": [
-        "trinity-episcopal:sections[1].components[10].label"
-      ]
-    },
-    {
-      "t": "Frais de dossier",
-      "of": "b01f638d",
-      "at": [
         "trinity-episcopal:sections[1].components[11].label"
       ]
     },
     {
-      "t": "La colonne Books du document Cost of Attendance affiche une suite de tirets pour chaque niveau. Le document emploie des **mots** lorsqu'il veut dire qu'un coût figure ailleurs. Par exemple, les colonnes Lunch et TED indiquent \"Options in chart below\" et \"Based on income in chart below\", qui renvoient à un tableau plus bas. Le document emploie des tirets lorsqu'il veut dire qu'il n'y a rien, et il est intitulé \"Cost of Attendance\". Donc **aucun montant pour les manuels n'est indiqué** pour quelque niveau que ce soit. Le document n'écrit jamais le mot \"included\", et ce rapport ne l'écrit donc pas non plus.",
-      "of": "2e0fab8a",
+      "t": "Frais de dossier · $100",
+      "of": "6eaf0d5f",
+      "at": [
+        "trinity-episcopal:sections[1].components[12].label"
+      ]
+    },
+    {
+      "t": "Demande d'aide financière Clarity · $65",
+      "of": "760736e5",
+      "at": [
+        "trinity-episcopal:sections[1].components[13].label"
+      ]
+    },
+    {
+      "t": "La page des frais de scolarité indique les frais de scolarité et des frais d'activités pour chaque niveau, et aucun montant pour les manuels. Elle n'affirme jamais que les manuels sont inclus, et ce rapport ne l'affirme donc pas non plus. Les prix des camps d'été correspondent à la saison 2026. La page du camp invite à revenir en janvier 2027 pour les prochaines inscriptions.",
+      "of": "7d402ff3",
       "at": [
         "trinity-episcopal:sections[1].componentsNote"
       ]
     },
     {
-      "t": "L'école est assurée auprès d'**A.W.G. Dewar, Inc.** pour le remboursement des frais de scolarité et met en lien la brochure, mais ne publie aucun prix pour ce dispositif.",
-      "of": "25c81161",
+      "t": "L'école utilise le **Tuition Refund Plan** d'**A.W.G. Dewar, Inc.**, qui, selon elle, est \"used at more than 1,200 independent schools.\" Elle met en lien la brochure du plan 2026-2027 mais ne publie aucun prix pour ce dispositif.",
+      "of": "260aa03b",
       "at": [
         "trinity-episcopal:sections[1].componentsAside"
       ]
     },
     {
-      "t": "UNE VRAIE RÉSERVE SUR L'ACCESSIBILITÉ FINANCIÈRE",
-      "of": "7df837a0",
-      "at": [
-        "trinity-episcopal:sections[1].boxes[0].tag"
-      ]
-    },
-    {
-      "t": "L'aide ne s'étend pas à la cantine",
-      "of": "13361b1b",
-      "at": [
-        "trinity-episcopal:sections[1].boxes[0].title"
-      ]
-    },
-    {
-      "t": "Le document Cost of Attendance l'énonce sans détour : **\"FLIK is not reduced for families receiving financial support.\"** Un forfait repas annuel de Middle School coûte $1,520 plein tarif, quelle que soit l'aide accordée à la famille. L'école note tout de même qu'il \"is more economical to purchase a 20-meal block than pay $11.50 per lunch,\" et qu'au-delà de trois déjeuners par semaine, le forfait annuel revient le moins cher.",
-      "of": "dc9720a6",
-      "at": [
-        "trinity-episcopal:sections[1].boxes[0].body"
-      ]
-    },
-    {
-      "t": "Toutes les familles éligibles déposent leur demande via **Clarity** sur app.clarityapp.com ; l'école met en lien un \"2026-27 Clarity Family Application Guide\"",
-      "of": "a1b97339",
+      "t": "Toutes les familles éligibles déposent leur demande via **Clarity** sur app.clarityapp.com, ce qui prend environ 20 minutes. L'école met en lien un \"2027-28 Clarity Family Application Guide\". Les nouvelles familles qui demandent une aide doivent contacter l'Admission Office avant de déposer la candidature d'admission",
+      "of": "bbd03c8b",
       "at": [
         "trinity-episcopal:sections[2].timeline[0].detail"
       ]
@@ -6635,8 +6628,8 @@
       ]
     },
     {
-      "t": "Ouverture des candidatures d'admission pour les familles nouvelles à Trinity",
-      "of": "df50bd00",
+      "t": "Date limite des candidatures d'admission en Kindergarten pour 2027-28. Pour les Niveaux 1–8, la date limite est le 15 janvier 2027",
+      "of": "d49a1aa8",
       "at": [
         "trinity-episcopal:sections[2].timeline[2].detail"
       ]
@@ -6656,31 +6649,59 @@
       ]
     },
     {
+      "t": "Février 2027",
+      "of": "e9234cef",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[4].when"
+      ]
+    },
+    {
+      "t": "Les candidatures à la NC Opportunity Scholarship pour 2027-28 ouvrent le premier lundi de février 2027. Les familles qui demandent une aide à Trinity doivent aussi en faire la demande",
+      "of": "4b58f2b1",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[4].detail"
+      ]
+    },
+    {
       "t": "26 février 2027",
       "of": "09e2a001",
       "at": [
-        "trinity-episcopal:sections[2].timeline[4].when"
+        "trinity-episcopal:sections[2].timeline[5].when"
       ]
     },
     {
       "t": "Remise des pièces du dossier ; les premières décisions d'admission suivent",
       "of": "b38fc52b",
       "at": [
-        "trinity-episcopal:sections[2].timeline[4].detail"
+        "trinity-episcopal:sections[2].timeline[5].detail"
       ]
     },
     {
       "t": "9 avril 2027",
       "of": "e417d8a6",
       "at": [
-        "trinity-episcopal:sections[2].timeline[5].when"
+        "trinity-episcopal:sections[2].timeline[6].when"
       ]
     },
     {
       "t": "Décisions d'admission ultérieures",
       "of": "03db085f",
       "at": [
-        "trinity-episcopal:sections[2].timeline[5].detail"
+        "trinity-episcopal:sections[2].timeline[6].detail"
+      ]
+    },
+    {
+      "t": "À partir d'avril 2027",
+      "of": "d6fcc659",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[7].when"
+      ]
+    },
+    {
+      "t": "Début des notifications d'attribution de l'Opportunity Scholarship",
+      "of": "02e947db",
+      "at": [
+        "trinity-episcopal:sections[2].timeline[7].detail"
       ]
     },
     {
@@ -6726,15 +6747,15 @@
       ]
     },
     {
-      "t": "Une véritable série à trois points, que peu d'écoles publient : **26% / $2.1 million en 2023-24**, **29% / $2 million en 2025-26**, et **31% / $2,139,114 en 2026-27**. La part a augmenté régulièrement tandis que le montant total a fléchi puis s'est redressé. Les chiffres de 2026-27 portent la réserve de l'école elle-même, \"**(excludes Tuition Remission)**\" — les avantages accordés aux enfants du personnel se situent hors de ce chiffre.",
-      "of": "7044cf06",
+      "t": "Ces chiffres de 2026-27 proviennent du School Profile 2026-27 de l'école. Ils portent sa propre réserve, \"**(excludes Tuition Remission)**\" : les avantages accordés aux enfants du personnel se situent donc hors de ces chiffres. La page Trinity At a Glance de l'école arrondit le total à \"$2.1 million\" d'aide financière accordée pour 2026-27.",
+      "of": "dd325c27",
       "at": [
         "trinity-episcopal:sections[3].figureNote"
       ]
     },
     {
-      "t": "Le School Profile 2025-26 indique \"28.9%\" là où la page des frais de scolarité indiquait \"29%\" pour la même année ; c'est la forme en nombre entier qui est retenue ici. L'aide rapportée l'est uniquement à l'échelle de l'école — il n'y a pas de ventilation par tranche de niveaux, ni de chiffre distinct pour K–5 face à 6–8.",
-      "of": "d4a2015a",
+      "t": "L'aide rapportée l'est uniquement à l'échelle de l'école — il n'y a pas de ventilation par tranche de niveaux, ni de chiffre distinct pour K–5 face à 6–8.",
+      "of": "eb1bdced",
       "at": [
         "trinity-episcopal:sections[3].figureNote2"
       ]
@@ -6747,8 +6768,8 @@
       ]
     },
     {
-      "t": "**NC Opportunity Scholarship** — un programme de l'État administré par la **North Carolina State Education Assistance Authority**. Trinity le présente comme \"an **additional option** for you to explore beyond financial support.\" L'école renvoie vers le programme. Elle n'indique ni montant, ni seuil d'éligibilité, ni la façon dont le programme et sa propre aide s'articulent.",
-      "of": "239f1847",
+      "t": "**NC Opportunity Scholarship** — un programme de l'État. Trinity \"has accepted the Opportunity Scholarship since the program's beginning in 2014,\" et **les familles qui demandent une aide financière à Trinity doivent aussi en demander une**. Les candidatures pour 2027-28 ouvrent le premier lundi de février 2027, et les notifications d'attribution commencent en avril 2027. L'école n'indique ni montant ni seuil d'éligibilité.",
+      "of": "51f49108",
       "at": [
         "trinity-episcopal:sections[4].ladder[0].detail"
       ]
@@ -6775,8 +6796,8 @@
       ]
     },
     {
-      "t": "Trinity gère une aide fondée sur le besoin. Elle oriente aussi les familles vers la bourse d'État, présentée comme une option distincte. **Aucune bourse au mérite, aucune bourse dotée nominative et aucune récompense académique n'apparaît où que ce soit sur le site**. Chaque dollar de l'aide propre à l'école est fondé sur le besoin. L'école ne précise pas si une famille peut cumuler une Opportunity Scholarship et l'aide de Trinity, ni si l'une réduit l'autre.",
-      "of": "c4be2bc6",
+      "t": "Chaque dollar de l'aide propre à l'école est fondé sur le besoin, et aucune bourse au mérite n'apparaît où que ce soit sur le site. Une famille qui demande une aide à Trinity doit aussi demander une Opportunity Scholarship. L'école ne précise pas comment une bourse de l'État modifie une aide de Trinity. Sa page consacrée aux dons cite aussi la **Mayor Vi Lyles Endowed Scholarship**, créée \"to further Trinity's mission of allowing families from all socioeconomic backgrounds to experience a Trinity education.\" Elle n'en indique ni le montant, ni les critères, ni le nombre de bourses attribuées.",
+      "of": "eed24d7c",
       "at": [
         "trinity-episcopal:sections[4].boxes[0].body"
       ]

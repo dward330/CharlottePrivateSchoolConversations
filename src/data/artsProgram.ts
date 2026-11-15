@@ -334,8 +334,8 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>
   // school cannot enter. Both titles must change: the shared Blumey title on a
   // middle school's card would imply a circuit it is not eligible for. Its
   // recognition is real but visual-arts rather than theatre (Youth Art Month at
-  // the Carolina Theatre, "Deeply Rooted" at the VAPA Center, a CATO teaching
-  // award), so that lands on `visual` and the theatre card is titled for what it
+  // the Carolina Theatre, "Deeply Rooted" at the VAPA Center, two student
+  // stipend awards), so that lands on `visual` and the theatre card is titled for what it
   // actually holds: the grade-level production ladder.
   'trinity-episcopal': {
     ladder: 'The K–8 Arts Ladder',

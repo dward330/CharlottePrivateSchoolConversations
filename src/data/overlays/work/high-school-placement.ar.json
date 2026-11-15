@@ -5,12 +5,12 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
-      "text": "Two high school counselors, one for public and independent schools and one for boarding — a structure the school added in 2023-24.",
-      "of": "489258d4",
+      "text": "Two high school counselors help each family weigh public, independent and boarding schools, and one of them leads boarding school placement.",
+      "of": "6e5d807f",
       "at": [
         "trinity-episcopal:placement.headline"
       ],
-      "t": "مرشدتان لالتحاق طلاب المرحلة الثانوية، إحداهما للمدارس الحكومية والمستقلّة والأخرى للمدارس الداخلية — وهي بنية أضافتها المدرسة في 2023-24."
+      "t": "مرشدان لالتحاق طلاب المرحلة الثانوية يساعدان كل أسرة على الموازنة بين المدارس الحكومية والمستقلّة والداخلية، ويقود أحدهما الالتحاق بالمدارس الداخلية."
     },
     {
       "text": "Trinity frames the K–8 model as choosing a high school at the end of 8th grade rather than at the start of Kindergarten.",
@@ -21,20 +21,20 @@
       "t": "تطرح Trinity نموذج K–8 على أنه اختيار مدرسة ثانوية في نهاية الصف الثامن بدلًا من اختيارها في بداية رياض الأطفال."
     },
     {
-      "text": "public + independent · boarding",
-      "of": "d9161b1a",
+      "text": "high school · boarding school",
+      "of": "9707301a",
       "at": [
         "trinity-episcopal:placement.stats[0].denominator"
       ],
-      "t": "حكومية + مستقلّة · داخلية"
+      "t": "المرحلة الثانوية · المدارس الداخلية"
     },
     {
-      "text": "high school counselors, by published scope",
-      "of": "acca3b15",
+      "text": "high school counselors, by published title",
+      "of": "c842945f",
       "at": [
         "trinity-episcopal:placement.stats[0].caption"
       ],
-      "t": "مرشدتان للمرحلة الثانوية، بحسب النطاق المنشور"
+      "t": "مرشدان للمرحلة الثانوية، بحسب المسمّى المنشور"
     },
     {
       "text": "Kindergarten through 8th grade",
@@ -53,12 +53,12 @@
       "t": "سنوات في حرم واحد قبل أن يبدأ البحث"
     },
     {
-      "text": "Throughout Middle School — knowing the schools",
-      "of": "ca583a86",
+      "text": "Fall of 8th grade — the search begins",
+      "of": "15ae11b3",
       "at": [
         "trinity-episcopal:placement.steps[0].when"
       ],
-      "t": "طوال Middle School — التعرّف على المدارس"
+      "t": "خريف الصف 8 — يبدأ البحث"
     },
     {
       "text": "Exposure",
@@ -70,12 +70,12 @@
       "t": "الاطّلاع"
     },
     {
-      "text": "The counselor for public and independent placement visits area schools and, in her words, gets “a feel for who might benefit from knowing this school,” then points families toward fits based on what they want: “Do they want big class sizes? Are sports important? Extracurricular?”",
-      "of": "2556aa06",
+      "text": "Trinity’s two high school counselors “work closely with families and students to sift through the many options available for the next chapter in their education, whether it’s in a public school, another independent institution, or a boarding school.” The school says families “begin the process of picking a high school” in the fall of 8th grade. On Sept. 21, 2026, alumni came back to advise 8th graders, on a panel led by the high school counselor. They talked about touring schools and the in-person interview that is part of a high school application.",
+      "of": "6f134110",
       "at": [
         "trinity-episcopal:placement.steps[0].text"
       ],
-      "t": "تزور المرشدة المسؤولة عن الالتحاق بالمدارس الحكومية والمستقلّة مدارس المنطقة، وتكوّن على حدّ تعبيرها “a feel for who might benefit from knowing this school,” ثم توجّه الأسر إلى الخيارات المناسبة بحسب ما تريده: “Do they want big class sizes? Are sports important? Extracurricular?”"
+      "t": "مرشدا المرحلة الثانوية في Trinity “work closely with families and students to sift through the many options available for the next chapter in their education, whether it’s in a public school, another independent institution, or a boarding school.” وتقول المدرسة إن الأسر “begin the process of picking a high school” في خريف الصف 8. وفي 21 سبتمبر 2026، عاد خرّيجون لتقديم النصح لطلاب الصف 8، في ندوة قادتها مرشدة المرحلة الثانوية. وتحدّثوا عن زيارة المدارس والمقابلة الشخصية التي تُعدّ جزءًا من طلب الالتحاق بالمدرسة الثانوية."
     },
     {
       "text": "Middle School — the boarding track, if a family wants it",
@@ -94,12 +94,12 @@
       "t": "مسار مستقلّ"
     },
     {
-      "text": "Boarding placement is handled separately and by a different person. It is not a minor path here: 12% of all graduates since 2004 went to boarding schools. The destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School.",
-      "of": "f9b389d8",
+      "text": "Boarding placement has its own counselor: Rudy Wise, the Director of Admission and Boarding School Placement. It is not a minor path here: 12% of all graduates since 2004 went to boarding schools. The destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School.",
+      "of": "8f48ecbc",
       "at": [
         "trinity-episcopal:placement.steps[1].text"
       ],
-      "t": "يُدار الالتحاق بالمدارس الداخلية بشكل منفصل وعلى يد شخص آخر. وهو ليس مسارًا ثانويًا هنا: فـ 12% من جميع الخرّيجين منذ 2004 التحقوا بمدارس داخلية. وتضمّ قائمة الوجهات Deerfield وLawrenceville وMercersburg وWoodberry Forest وSt. Paul’s وThe Taft School."
+      "t": "للالتحاق بالمدارس الداخلية مرشد خاص به: Rudy Wise، مدير القبول وإلحاق الطلاب بالمدارس الداخلية. وهو ليس مسارًا ثانويًا هنا: فـ 12% من جميع الخرّيجين منذ 2004 التحقوا بمدارس داخلية. وتضمّ قائمة الوجهات Deerfield وLawrenceville وMercersburg وWoodberry Forest وSt. Paul’s وThe Taft School."
     },
     {
       "text": "Grade 8 — the decision",
@@ -429,20 +429,20 @@
       "t": "ما نسبة دفعة العام الماضي التي قُبلت في مدرستها الثانوية الأولى بالاختيار؟ لا يُنشر أي رقم، فاطلبه مباشرةً."
     },
     {
-      "text": "What does the placement calendar look like — when does the search start, and what happens each term?",
-      "of": "438fe510",
+      "text": "The search starts in the fall of 8th grade. What happens each term from there, and when do applications and interviews fall?",
+      "of": "e45ffe7c",
       "at": [
         "trinity-episcopal:verdict.checklist[2]"
       ],
-      "t": "كيف يبدو تقويم الالتحاق — متى يبدأ البحث، وماذا يحدث في كل فصل دراسي؟"
+      "t": "يبدأ البحث في خريف الصف 8. فماذا يحدث في كل فصل دراسي بعد ذلك، ومتى تحين مواعيد الطلبات والمقابلات؟"
     },
     {
-      "text": "The counselor roles began in 2023-24. How has the process changed since, and who holds each role now?",
-      "of": "eb9909cc",
+      "text": "Trinity has a high school counselor and a boarding school counselor. How do the two share the work with a family weighing both kinds of school?",
+      "of": "770326e9",
       "at": [
         "trinity-episcopal:verdict.checklist[3]"
       ],
-      "t": "بدأ دورا المرشدتين في 2023-24. كيف تغيّرت العملية منذ ذلك الحين، ومن يشغل كلًّا من الدورين الآن؟"
+      "t": "لدى Trinity مرشد/ة للمرحلة الثانوية ومرشد للمدارس الداخلية. فكيف يتقاسمان العمل مع أسرة توازن بين النوعين من المدارس؟"
     },
     {
       "text": "Do graduates win merit scholarships at their high schools? No counts or dollars are published anywhere.",

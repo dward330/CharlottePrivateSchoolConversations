@@ -1,5 +1,5 @@
 # Trinity Episcopal School — High School Placement
-> Distilled from 3 source document(s) in `source-material/high-school-placement/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 3 source document(s) in `source-material/high-school-placement/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-14.
 **Documents:** Placement Outcomes, The Placement Program, Where They Land
 
 
@@ -35,6 +35,62 @@ A contamination sweep over the full 1.64 MB retrieved corpus returned: `trinitye
 hits, `austintrinity` 0, `trinitynola` 0, `varsity` 0, `Advanced Placement` 0,
 `9th Grade` 0, `12th Grade` 0. The corpus self-identifies as 750 E. 9th Street 99 times
 and "K-8" 150 times.
+
+### Live-site recheck, 2026-11-14
+
+Trinity moved its whole site to Finalsite; every source URL below now returns 404.
+Checked against the local crawl of the new site (2026-11-14). Older blog posts were not
+migrated to the new news board, except the Class of 2026 post. **The new live pages
+override the facts below wherever they differ.**
+
+| Old URL | New URL or status | Wayback |
+|---|---|---|
+| `/editoruploads/files/26-27SchoolProfile.pdf` | https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf — same file (841,498 bytes), text identical | none captured |
+| `/editoruploads/files/25-26SchoolProfile.pdf` | GONE | https://web.archive.org/web/20251001032830/https://www.tescharlotte.org/editoruploads/files/25-26SchoolProfile.pdf |
+| `blog.cfm?threadid=48` (Class of 2026) | https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/tes-class-of-2026-commencement | old slug: https://web.archive.org/web/20260714073636/https://www.tescharlotte.org/tes-class-of-2026-celebrated-at-commencement/ |
+| `blog.cfm?threadid=29` (Class of 2025) | GONE | matched by title: https://web.archive.org/web/20250614205056/https://www.tescharlotte.org/congratulations-to-the-class-of-2025/ |
+| `blog.cfm?threadid=16` (Class of 2024) | GONE | matched by title: https://web.archive.org/web/20240618052851/https://www.tescharlotte.org/congratulations-to-the-trinity-class-of-2024/ |
+| `blog.cfm?threadid=3` (Class of 2023) | GONE | no capture found (CDX empty for the threadid route; no matching slug) |
+| `/admission/k-8-advantage.cfm` | https://www.tescharlotte.org/admissions/the-k-8-advantage (text now sits in pop-up tiles) | https://web.archive.org/web/20260714062335/https://www.tescharlotte.org/admission/k-8-advantage.cfm |
+
+**Cumulative split — unchanged.** The 2026-27 profile still reads: "A total of 1,060
+students have graduated over the past 23 years (Class of 2004-2026). … Independent
+Schools: 31% • Public Schools: 57% • Boarding Schools: 12%". The new Trinity At a Glance
+page adds "1,060 / Alumni since 2004".
+
+**Class of 2026 — the "lifer" count now conflicts on the school's own site.**
+
+- Post body (live, "Posted Jun 1 2026"): "…one of 30 Trinity “lifers" in the graduating
+ class." and "Fifty-one students received a graduation certificate from Head of School
+ Imana Sherrill and Board of Trustees Chair Eugene Brown…"
+- News-board teaser for the same post (https://www.tescharlotte.org/about-us/news):
+ "The 51 students in the Class of 2026 — including 31 "lifer" students — were remembered
+ for their tight-knit nature as they prepare for high school."
+
+So the school prints **30** in the article and **31** in its summary of that article. Our
+research figure, 30 (59% of 51), matches the article body, which is the fuller source. The
+31 is the school's own teaser. 31 of 51 would be 61%.
+
+The post's date is now shown as "Posted Jun 1 2026" (the commencement date: "on June 1,
+2026"); the old blog showed June 06, 2026. The 11-line destination list is unchanged,
+including the duplicate "Myers Park High School" (first and seventh lines) and "St
+Timothy's, Raleigh". The body still names Eugene Brown as board chair.
+
+**Classes of 2023, 2024 and 2025 — sources gone, facts historical.** Each is a dated
+commencement count (49 / 51 + 9 lifers + 17 schools / 54 + 28 lifers + 16 schools). They
+stay true of those classes even though the posts are no longer on the site.
+
+**K–8 thesis — confirmed verbatim** in the "Choosing the Right High School - At the Right
+Time" tile on the-k-8-advantage: "The result — parents feel more confident about finding
+the high school that's best suited for their child at the end of 8th Grade rather than at
+the beginning of Kindergarten." Also live: "9 uninterrupted years on one campus" and "By
+the time they begin high school, Trinity graduates have 9 years of leadership experience
+that sets them up to thrive in high school." The uncited "Research consistently shows K-8
+students outperform peers…" sentence is still published, in the "High Student
+Achievement" tile.
+
+**Placement success rate — still not published.** No "first choice", "top two" or similar
+figure appears on any crawled page, news post or document.
 
 ## Source URLs
 
@@ -93,12 +149,16 @@ articles.
 is an outlier against the two later years. Always carry the denominator; never present a
 lifer trend as a smooth line.
 
+*Superseded 2026-11-14 — see Live-site recheck* — the 2023–2025 posts are gone from the school's site. The Class of 2026 post body says 30 lifers; the news-board teaser for the same post says 31.
+
 ### Verbatim sourcing for each class
 
 **Class of 2026** (threadid=48, June 06, 2026, by Chris Miller):
-> "'This moment felt like it was an eternity away,' said student Aleyah Whitaker, one of
+> "'This moment felt like it was an eternity away,' said [a graduating student], one of
 > **30** Trinity 'lifers' in the graduating class. **Fifty-one** students received a
 > graduation certificate…"
+
+*Superseded 2026-11-14 — see Live-site recheck* — the post now lives on the new news board, dated Jun 1 2026.
 
 **Class of 2025** (threadid=29, June 05, 2025, by Chris Miller):
 > "**Fifty-four** 8th Grade students, including **28** 'lifers' who have been at Trinity
@@ -106,7 +166,7 @@ lifer trend as a smooth line.
 > during the service."
 
 This class "brought the number of alumni to over 1,000" in Trinity's 25th school year.
-Commencement address by Lucy Lindvall TES '24.
+The commencement address was given by a Class of 2024 alum.
 
 **Class of 2024** (threadid=16, June 04, 2024):
 > "**Fifty-one** students, including **9** Trinity 'lifers,' received their certificates…"
@@ -198,6 +258,70 @@ school**; Austin TX and New Orleans also have schools of this name. Everything b
 from `tescharlotte.org` only. See the Placement Outcomes file for the full contamination
 sweep (0 hits for every foreign-school marker).
 
+### Live-site recheck, 2026-11-14
+
+Every source URL below now returns 404 (site moved to Finalsite). Checked against the local
+crawl of the new site (2026-11-14). **The new live pages override the facts below wherever
+they differ.**
+
+| Old URL | New URL or status | Wayback |
+|---|---|---|
+| `blog.cfm?threadid=6` (counselor article, Aug 2023) | GONE — not migrated | no capture found. The slug `/trinity-featured-in-qcitymetro/` (https://web.archive.org/web/20230923052909/https://www.tescharlotte.org/trinity-featured-in-qcitymetro/) holds the QCityMetro post, with no counselor text, so it does not preserve this body |
+| `/about/faculty-staff-directory.cfm` | https://www.tescharlotte.org/about-us/staculty | https://web.archive.org/web/20260608111055/https://www.tescharlotte.org/about/faculty-staff-directory.cfm |
+| `/admission/` | https://www.tescharlotte.org/admissions | https://web.archive.org/web/20260911064036/https://www.tescharlotte.org/admission/ |
+| `/admission/k-8-advantage.cfm` | https://www.tescharlotte.org/admissions/the-k-8-advantage | https://web.archive.org/web/20260714062335/https://www.tescharlotte.org/admission/k-8-advantage.cfm |
+| `blog.cfm?threadid=15` (8th Grade DC trip) | GONE | probable match by content: https://web.archive.org/web/20240618063141/https://www.tescharlotte.org/8th-grade-visits-dc-to-advocate-for-community-needs/ ("8th Grade Visits D.C. to Advocate for Community Needs / May 23, 2024 … 46 Trinity 8th Grade students traveled to Washington, D.C., in May as they capped weeks of work in their Seminar class on how to lobby for community needs.") |
+| `blog.cfm?threadid=40` (advocacy panel) | probable: https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/panel-encourages-8th-grade-to-advocate-for-charlotte ("Posted Jan 8 2026"; panel on Dec. 17, part of "the 8th Grade's Social Issues Seminar class") | old slug 301 captured 2026-01-08 |
+
+**"Two high school counselors" — confirmed verbatim** (the-k-8-advantage, "Choosing the
+Right High School" tile): "Trinity's two high school counselors work closely with families
+and students to sift through the many options available for the next chapter in their
+education, whether it's in a public school, another independent institution, or a
+boarding school. This ensures that Trinity graduates enroll in and are prepared for the
+high school that is their best fit."
+
+**Who holds the roles today (live):**
+
+| Person | Staculty directory (/about-us/staculty) | Other live page |
+|---|---|---|
+| Lilla Clark | "Middle School ELA Teacher, High School Counselor" | news post, Oct 8 2026: "Lilla Clark, 8th Grade Language Arts Teacher and High School Counselor" |
+| Rudy Wise | **"Director of Admission, Boarding School Counselor"** | /admissions: "Director of Admission and Boarding School Placement" |
+
+The Rudy Wise title conflict recorded below is **resolved**: the directory no longer says
+"Associate Director of Admission", and both live pages now name his boarding role. Benita
+Griffin appears on no live page (the "Griffin" in the directory is a different person,
+the Assistant Head of School for Academics). Ashtyn Giller ("Middle School Counselor") and
+Claire Walter ("K-4 Counselor") are still listed, still wellbeing roles.
+
+**Gone-source facts.** The 2023-24 start date ("Trinity this year added high school
+counselors"), the public/independent vs boarding split by person, and every counselor
+quote come only from the threadid=6 article, which is gone with no archive capture. The
+start date is historical. The split of duties is current-state, and only the boarding half
+is still confirmed live (Rudy Wise's titles). The live site gives Lilla Clark no scope
+beyond "High School Counselor".
+
+**New on the live site — the high school search, in the school's own words.** News post
+"Trinity Alumni Offer Advice to 8th Grade Students on High School Transition" (Posted Oct 8
+2026),
+https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/trinity-alumni-offer-advice-to-8th-grade-students-on-high-school-transition:
+"As Trinity Episcopal School 8th Grade students and families begin the process of picking a
+high school, Trinity alumni who have been in their shoes returned to campus on Sept. 21, to
+offer advice on this next chapter of their lives." The panel of five alumni (classes of
+2023–2025) was "moderated by Lilla Clark". It mentions "the in-person interview portion of
+the high school application". This dates the start of the search to the fall of 8th grade
+in the school's own words. (The alumni are minors and are not named here.)
+
+**DC advocacy trip — still live in summary.** the-k-8-advantage, "Leadership Opportunities
+Come Early" tile: "This leadership building culminates in the 8th Grade year, when students
+travel to Washington, D.C., to lobby members of Congress on topics such as affordable
+housing and the environment." The Jan 2026 panel post adds "upcoming class trips to Raleigh
+and Washington, D.C."
+
+**Outbound testing — still unpublished.** No SSAT, HSPT or outbound entrance test appears on
+any crawled page, news post or document. ISEE still appears only as Trinity's own inbound
+test ("Grades 5-8: Applicants take the ISEE"). The old checklist quote "Complete testing:
+CAIS (K-4) and ISEE (5-8)" is no longer on the site.
+
 ## Source URLs
 
 - **The counselor article** — https://www.tescharlotte.org/blog.cfm?threadid=6
@@ -226,6 +350,8 @@ so that content is duplicated across 7 and 8.)
 A second, independent title defect: **threadids 2 and 3 share the identical title**
 "Trinity Celebrates the Class of 2023" with completely different bodies — #3 is the real
 commencement story, #2 is a staff retirement tribute.
+
+*Superseded 2026-11-14 — see Live-site recheck* — the old blog and its threadid posts were not migrated to the new site.
 
 ## The program, as the school describes it
 
@@ -257,6 +383,8 @@ From the counselor article (threadid=6, Aug 23 2023), verbatim:
 "this year" dates the structure to the **2023-24 school year**. It is not a longstanding
 program and should not be presented as one.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ### What the counselors actually do — verbatim
 
 Lilla Clark:
@@ -272,6 +400,8 @@ On the boarding side (Benita Griffin, in 2023):
 > "for every 8th Grader at Trinity and their different personalities and different
 > strengths, there's a boarding school out there for their child if only they would
 > consider pursuing it and exploring it."
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 ## ⚠️ Who holds these roles TODAY — the 2023 article is stale on staffing
 
@@ -296,6 +426,8 @@ Current, as of the 2026-09-16 fetch:
 Attribute whichever is cited. The admission-page title is the one that carries placement
 meaning; the disagreement is real and unresolved by any third source.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 **Lilla Clark's title also varies across three sources:** "MS Language Arts Teacher &
 H.S. Counselor" (directory), "Middle School Language Arts Teacher" (threadid=6, no
 counselor title), "Middle School Language Arts Teacher **and High School Counselor**"
@@ -311,6 +443,8 @@ The 8th-grade year carries a Social Issues Seminar culminating in **an advocacy 
 Washington, D.C., in May** (threadid=15), and an advocacy panel for 8th graders
 (threadid=40). These are curricular/civic, **not** high-school placement steps — do not
 present them as part of the placement process.
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 ## ⚠️ Confirmed absent — the placement process is largely unpublished
 
@@ -328,6 +462,8 @@ Swept across all 100 sitemap pages + all 51 blog posts + both profile PDFs
 | "shadow day" | **0** | |
 | "placement timeline" / "timeline" | **0** | what grade the search starts is never stated |
 | "entrance test" / "placement test" / "standardized test" | **0** | |
+
+*Superseded 2026-11-14 — see Live-site recheck* — the timeline row: an Oct 8, 2026 post places the start of the search in the fall of 8th grade.
 
 **The outbound test question, specifically.** `ISEE` returns only **3 hits, all
 INBOUND** — Trinity's own entrance testing for applicants coming *in*:
@@ -371,6 +507,18 @@ sitewide. Other `editoruploads` PDFs may exist unlinked from any crawled page.
  `School of the Arts *`). **The list below is a machine transcription, not hand-typed**,
  so entry-order and spelling match the source exactly.
 - **School:** Trinity Episcopal School, 750 E. 9th Street, Charlotte, NC 28202 — **K–8**.
+
+### Live-site recheck, 2026-11-14
+
+The `editoruploads` URL below now returns 404 (site moved to Finalsite). The **same 2026-27
+profile is still published** at a new address, linked as "School Profile" from
+https://www.tescharlotte.org/about-us/trinity-at-a-glance:
+https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf
+(downloaded 2026-11-14, 841,498 bytes — the same size as the 2026-09-16 capture). Its
+"HIGH SCHOOL CHOICES (TES Classes of 2004-2026):" list is unchanged, including "Lake Normal
+High School *", "Woodberry Forest School, VA (7)", the two "Charlotte Catholic" lines and
+the trailing asterisks. No legend for the asterisk was added. The old URL was never
+captured by the Wayback Machine. No destination list changed.
 
 ## Source URL
 
@@ -711,9 +859,27 @@ It is transcribed here for provenance completeness only.
 
 ## Sources referenced across these documents
 
+- https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf
+- https://web.archive.org/web/20230923052909/https://www.tescharlotte.org/trinity-featured-in-qcitymetro/
+- https://web.archive.org/web/20240618052851/https://www.tescharlotte.org/congratulations-to-the-trinity-class-of-2024/
+- https://web.archive.org/web/20240618063141/https://www.tescharlotte.org/8th-grade-visits-dc-to-advocate-for-community-needs/
+- https://web.archive.org/web/20250614205056/https://www.tescharlotte.org/congratulations-to-the-class-of-2025/
+- https://web.archive.org/web/20251001032830/https://www.tescharlotte.org/editoruploads/files/25-26SchoolProfile.pdf
+- https://web.archive.org/web/20260608111055/https://www.tescharlotte.org/about/faculty-staff-directory.cfm
+- https://web.archive.org/web/20260714062335/https://www.tescharlotte.org/admission/k-8-advantage.cfm
+- https://web.archive.org/web/20260714073636/https://www.tescharlotte.org/tes-class-of-2026-celebrated-at-commencement/
+- https://web.archive.org/web/20260911064036/https://www.tescharlotte.org/admission/
+- https://www.tescharlotte.org/about-us/news
+- https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/panel-encourages-8th-grade-to-advocate-for-charlotte
+- https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/tes-class-of-2026-commencement
+- https://www.tescharlotte.org/about-us/news/news-landing-page/~board/news/post/trinity-alumni-offer-advice-to-8th-grade-students-on-high-school-transition:
+- https://www.tescharlotte.org/about-us/staculty
+- https://www.tescharlotte.org/about-us/trinity-at-a-glance:
 - https://www.tescharlotte.org/about/faculty-staff-directory.cfm
 - https://www.tescharlotte.org/admission/
 - https://www.tescharlotte.org/admission/k-8-advantage.cfm
+- https://www.tescharlotte.org/admissions
+- https://www.tescharlotte.org/admissions/the-k-8-advantage
 - https://www.tescharlotte.org/blog.cfm?threadid=15
 - https://www.tescharlotte.org/blog.cfm?threadid=16
 - https://www.tescharlotte.org/blog.cfm?threadid=29

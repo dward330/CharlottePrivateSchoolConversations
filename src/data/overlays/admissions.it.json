@@ -7616,12 +7616,13 @@
       ]
     },
     {
-      "t": "$275",
-      "of": "3a87d95b",
+      "t": "$300",
+      "of": "b8ee2fe0",
       "at": [
         "trinity-episcopal:guide.stats[2].value",
         "trinity-episcopal:guide.bands[0].deadlines[3].value",
-        "trinity-episcopal:guide.bands[1].deadlines[3].value"
+        "trinity-episcopal:guide.bands[1].deadlines[3].value",
+        "charlotte-prep:guide.stats[3].value"
       ]
     },
     {
@@ -7653,8 +7654,8 @@
       ]
     },
     {
-      "t": "Entrambi i livelli seguono gli stessi passaggi principali: visita → domanda tramite FACTS con la quota → lettere di raccomandazione e certificati scolastici → prova → Wildcat Visit Day → decisione. Ciò che cambia è il calendario, quale prova sostiene tuo figlio e chi la somministra. Ogni famiglia che completa il processo viene invitata a una Follow-Up Conference con il team ammissioni, qualunque sia l’esito.",
-      "of": "4689e7be",
+      "t": "Entrambi i livelli seguono gli stessi passaggi principali: visita → domanda tramite FACTS con la quota → lettere di raccomandazione e certificati scolastici → prova → una giornata di visita o una sessione di osservazione → decisione. Ciò che cambia è il calendario, quale prova sostiene tuo figlio e chi la somministra. Ogni famiglia che completa il processo viene invitata a una Follow-Up Conference con il team ammissioni, qualunque sia l’esito.",
+      "of": "ff91126a",
       "at": [
         "trinity-episcopal:guide.spineNote"
       ]
@@ -7722,10 +7723,11 @@
       ]
     },
     {
-      "t": "Due open house riguardano il Kindergarten, entrambi nel **Trinity’s Center for Community and the Arts**: **martedì 29 settembre 2026** e **5 novembre 2026**, ciascuno dalle 9:30 alle 11:00 a.m. Un terzo si tiene il **1 dicembre 2026** — verifica l’orario di inizio, che le due pagine della scuola riportano in modo diverso. Le visite individuali non sono pubblicate per scelta: prenota dal calendario personale di un membro del team ammissioni, oppure rivolgiti all’Admission Office.",
-      "of": "d1c64fad",
+      "t": "Il prossimo open house è il **K–8 Open House** di **martedì 1º dicembre 2026**, dalle 9:30 alle 11:00 a.m., nel **Trinity’s Center for Community and the Arts**. Per scelta, le date delle visite individuali non sono indicate. Per prenotare una visita, apri il calendario di un membro dell’Admission Office sulla pagina degli eventi della scuola, oppure scrivi a admissions@tescharlotte.org o chiama il 980-207-5898.",
+      "of": "e5625065",
       "at": [
-        "trinity-episcopal:guide.bands[0].steps[0].detail"
+        "trinity-episcopal:guide.bands[0].steps[0].detail",
+        "trinity-episcopal:guide.bands[1].steps[0].detail"
       ]
     },
     {
@@ -7737,8 +7739,8 @@
       ]
     },
     {
-      "t": "Apri il tuo **account di ammissione FACTS**, quindi presenta da lì la domanda e la relativa quota. **L’importo della quota non è pubblicato da nessuna parte**. Sulla pagina del processo di ammissione non compare una sola cifra in dollari. Quindi verificalo con l’Admission Office prima di fare i conti. Il Kindergarten presenta domanda **due settimane prima di ogni altra classe**, e riceve risposta sei settimane prima.",
-      "of": "38827ad5",
+      "t": "Apri il tuo **account di ammissione FACTS**, quindi presenta da lì la domanda. Dopo aver cliccato su invio, ricevi le istruzioni per pagare la **quota di domanda di $100**. Se chiedi un sostegno economico, **contatta l’Admission Office prima di inviare la domanda**. Riceverai un’email separata con i passaggi successivi. Il Kindergarten presenta domanda **due settimane prima di ogni altra classe**, e riceve risposta sei settimane prima.",
+      "of": "d99ce3da",
       "at": [
         "trinity-episcopal:guide.bands[0].steps[1].detail"
       ]
@@ -7758,19 +7760,18 @@
       ]
     },
     {
-      "t": "I candidati al Kindergarten e alla classe 1 sostengono la **WPPSI-IV** tramite il **consorzio CAIS** — sette scuole, un unico accordo condiviso per le prove. **Prenota con un solo psicologo**, a **$275**, versati a lui anziché a Trinity. Tuo figlio deve avere **almeno quattro anni al momento della prova**, che può essere sostenuta **una sola volta ogni dodici mesi**; disdire **entro 48 ore comporta la perdita della quota**. Il CAIS richiede inoltre un **colloquio con ciascun bambino**, di norma tra **novembre e febbraio**. I risultati arrivano a te e alle scuole che indichi sotto forma di **fasce percentili**, non di punteggi grezzi.",
-      "of": "c7f6ed25",
+      "t": "I candidati al Kindergarten e alla classe 1 sostengono la **WPPSI-IV** tramite il **consorzio CAIS** — sette scuole, un unico accordo condiviso per le prove. **Prenota con un solo psicologo**, a **$300**, versati a lui anziché a Trinity. Le prenotazioni si aprono il giorno dopo il Labor Day, e il pagamento con carta di credito o Zelle va effettuato entro 24 ore. Tuo figlio deve avere **almeno quattro anni al momento della prova**, che può essere sostenuta **una sola volta ogni dodici mesi**. Ogni disdetta comporta una **quota non rimborsabile di $100**, e chi disdice **entro 72 ore** dall’appuntamento non riceve alcun rimborso. Il CAIS richiede inoltre un **colloquio con ciascun bambino**, di norma tra **novembre e febbraio**. I risultati vengono inviati a te e alle scuole che scegli.",
+      "of": "be4d59dc",
       "at": [
         "trinity-episcopal:guide.bands[0].steps[3].detail"
       ]
     },
     {
-      "t": "Wildcat Visit Day",
-      "of": "4762d87e",
+      "t": "Una sessione di osservazione mattutina",
+      "of": "05b4bb26",
       "at": [
         "trinity-episcopal:guide.bands[0].steps[4].title",
-        "trinity-episcopal:guide.bands[1].steps[4].title",
-        "trinity-episcopal:guide.comparison.rows[6].label"
+        "trinity-episcopal:guide.comparison.rows[6].cells.k"
       ]
     },
     {
@@ -7782,8 +7783,8 @@
       ]
     },
     {
-      "t": "I candidati sono invitati a iscriversi a partire da **novembre**. Chi entra in Kindergarten partecipa a una **sessione di osservazione mattutina** anziché a una giornata intera — la giornata intera sul campus è riservata a chi entra nelle classi 1ª–8ª.",
-      "of": "d407711d",
+      "t": "I candidati vengono invitati **a partire da novembre**. Chi entra in Kindergarten partecipa a una **sessione di osservazione mattutina** anziché a una giornata intera. La giornata intera sul campus è riservata a chi entra nelle classi 1ª–8ª.",
+      "of": "3c98be01",
       "at": [
         "trinity-episcopal:guide.bands[0].steps[4].detail"
       ]
@@ -7797,8 +7798,8 @@
       ]
     },
     {
-      "t": "Le decisioni vengono inviate via email **venerdì 26 febbraio 2027**. Trinity invita **ogni famiglia** che completa il processo di domanda — non solo quelle ammesse — a sedersi con il team ammissioni \"to share what we have learned about their child through the process and help the family discern how Trinity Episcopal School can best partner with the family in support of their child.\"",
-      "of": "0fd30e8f",
+      "t": "Le decisioni vengono inviate via email **venerdì 26 febbraio 2027**. In base alla data comune di risposta del CAIS, nessuna scuola CAIS richiede un contratto prima di **venerdì 5 marzo 2027**. Trinity invita **ogni famiglia** che completa il processo di domanda, non solo quelle ammesse, a un incontro: \"to meet with the Admission team to share what we have learned about their child through the process, and help the family discern how Trinity Episcopal School can best partner with the family in support of their child.\"",
+      "of": "364bf037",
       "at": [
         "trinity-episcopal:guide.bands[0].steps[5].detail"
       ]
@@ -7826,8 +7827,8 @@
       ]
     },
     {
-      "t": "Il Kindergarten presenta domanda entro il 2 gennaio e consegna i documenti di supporto entro il 1º febbraio. Le famiglie ricevono risposta venerdì 26 febbraio, sei settimane prima delle classi 1–8. La WPPSI-IV la prenoti tu con un unico psicologo CAIS, a $275. Preparazione mirata, ripetizioni private o una seconda prova invalidano la tua domanda in tutte e sette le scuole CAIS. L’importo della quota di domanda non è pubblicato; verificalo con l’ufficio.",
-      "of": "12a0eed2",
+      "t": "Il Kindergarten presenta domanda entro il 2 gennaio e consegna i documenti di supporto entro il 1º febbraio. Le famiglie ricevono risposta venerdì 26 febbraio, sei settimane prima delle classi 1–8. La WPPSI-IV la prenoti tu con un unico psicologo CAIS, a $300. Preparazione mirata, ripetizioni private o una seconda prova invalidano la tua domanda in tutte e sette le scuole CAIS. La quota di domanda è di $100.",
+      "of": "43b9a1be",
       "at": [
         "trinity-episcopal:guide.bands[0].checklistCallout.text"
       ]
@@ -7841,8 +7842,8 @@
       ]
     },
     {
-      "t": "Kindergarten Open House il 29 settembre 2026; K–8 il 5 novembre e il 1 dicembre 2026. Le date delle visite individuali non sono pubblicate — prenota dal calendario di un membro del team ammissioni.",
-      "of": "cc671c40",
+      "t": "K–8 Open House martedì 1º dicembre 2026, dalle 9:30 alle 11:00 a.m. Le date delle visite individuali non sono indicate — prenota dal calendario di un membro dell’Admission Office.",
+      "of": "1ee27731",
       "at": [
         "trinity-episcopal:guide.bands[0].checklistRows[0].detail"
       ]
@@ -7872,8 +7873,8 @@
       ]
     },
     {
-      "t": "L’importo della quota non è pubblicato — verificalo con l’Admission Office.",
-      "of": "d3ab4ca8",
+      "t": "La quota è di $100. Le istruzioni per il pagamento arrivano dopo aver cliccato su invio.",
+      "of": "0728ea76",
       "at": [
         "trinity-episcopal:guide.bands[0].checklistRows[2].detail",
         "trinity-episcopal:guide.bands[1].checklistRows[2].detail"
@@ -7894,8 +7895,8 @@
       ]
     },
     {
-      "t": "$275, versati allo psicologo. Un solo psicologo. Almeno quattro anni compiuti al momento della prova; una volta ogni dodici mesi.",
-      "of": "25c9f50c",
+      "t": "$300, versati allo psicologo. Un solo psicologo. Almeno quattro anni compiuti al momento della prova; una volta ogni dodici mesi. Ogni disdetta comporta una quota non rimborsabile di $100.",
+      "of": "4c582c1d",
       "at": [
         "trinity-episcopal:guide.bands[0].checklistRows[4].detail"
       ]
@@ -7923,15 +7924,15 @@
       ]
     },
     {
-      "t": "Iscriversi alla sessione di osservazione del Wildcat Visit Day",
-      "of": "f6a2a4ff",
+      "t": "Partecipare alla sessione di osservazione mattutina",
+      "of": "b7c0259c",
       "at": [
         "trinity-episcopal:guide.bands[0].checklistRows[6].action"
       ]
     },
     {
-      "t": "Chi entra in Kindergarten partecipa a un’osservazione mattutina anziché a una giornata intera.",
-      "of": "3eea1980",
+      "t": "Chi entra in Kindergarten è invitato a un’osservazione mattutina anziché a una giornata intera.",
+      "of": "d7b3588a",
       "at": [
         "trinity-episcopal:guide.bands[0].checklistRows[6].detail"
       ]
@@ -8019,15 +8020,8 @@
       ]
     },
     {
-      "t": "Due open house K–8 riguardano questo livello, entrambi nel **Trinity’s Center for Community and the Arts**: **giovedì 5 novembre 2026**, dalle 9:30 alle 11:00 a.m., e **1 dicembre 2026** — verifica l’orario di inizio di quest’ultimo, che le due pagine della scuola riportano in modo diverso. Le visite individuali non sono pubblicate per scelta: prenota dal calendario personale di un membro del team ammissioni, oppure scrivi ad admissions@tescharlotte.org o chiama il 980-207-5898.",
-      "of": "93ec9ecc",
-      "at": [
-        "trinity-episcopal:guide.bands[1].steps[0].detail"
-      ]
-    },
-    {
-      "t": "Apri il tuo **account di ammissione FACTS**, quindi presenta da lì la domanda e la relativa quota. **L’importo della quota non è pubblicato da nessuna parte** sulle pagine delle ammissioni. Verificalo con l’Admission Office. La scuola segnala inoltre che sta **ancora accettando domande per l’anno scolastico 2026-2027 in alcune classi**. Quindi una famiglia che voglia trasferirsi durante quell’anno scolastico dovrebbe informarsi anziché aspettare un anno.",
-      "of": "556c59b5",
+      "t": "Apri il tuo **account di ammissione FACTS**, quindi presenta da lì la domanda. Dopo aver cliccato su invio, ricevi le istruzioni per pagare la **quota di domanda di $100**. Se chiedi un sostegno economico, **contatta l’Admission Office prima di inviare la domanda**. Riceverai un’email separata con i passaggi successivi.",
+      "of": "484c0ba7",
       "at": [
         "trinity-episcopal:guide.bands[1].steps[1].detail"
       ]
@@ -8056,22 +8050,29 @@
       ]
     },
     {
-      "t": "**Verifica la classe di tuo figlio rispetto a tutte e tre.** La **classe 1** sostiene la **WPPSI-IV** insieme ai candidati al Kindergarten; le **classi 2–4** sostengono la **WISC-V**. Entrambe passano dal **consorzio CAIS**: **un solo psicologo**, **$275** versati a lui, un **colloquio con ciascun bambino** intorno a **novembre–febbraio**, e risultati sotto forma di **fasce percentili**. Le **classi 5–8 sostengono invece l’ISEE** — del tutto al di fuori del CAIS, quindi nessuna quota consortile, nessuno psicologo del consorzio, e l’iscrizione la fai tu. **\"Le classi 1–8 sostengono l’ISEE\" è l’errore che costa caro: si parte dalla classe 5.**",
-      "of": "c4b8868a",
+      "t": "**Verifica la classe di tuo figlio rispetto a tutte e tre.** La **classe 1** sostiene la **WPPSI-IV** insieme ai candidati al Kindergarten; le **classi 2–4** sostengono la **WISC-V**. Entrambe passano dal **consorzio CAIS**: **un solo psicologo**, **$300** versati a lui, un **colloquio con ciascun bambino** intorno a **novembre–febbraio**, e una **quota non rimborsabile di $100** per qualsiasi disdetta. Le **classi 5–8 sostengono invece l’ISEE** — del tutto al di fuori del CAIS, quindi nessuna quota consortile, nessuno psicologo del consorzio, e l’iscrizione la fai tu. **\"Le classi 1–8 sostengono l’ISEE\" è l’errore che costa caro: si parte dalla classe 5.**",
+      "of": "15fafddd",
       "at": [
         "trinity-episcopal:guide.bands[1].steps[3].detail"
       ]
     },
     {
-      "t": "I candidati sono invitati a iscriversi a partire da **novembre** per **trascorrere la giornata sul campus** — la giornata intera riguarda chi entra nelle classi 1ª–8ª.",
-      "of": "5c7d1711",
+      "t": "Una giornata sul campus",
+      "of": "f45f64e4",
+      "at": [
+        "trinity-episcopal:guide.bands[1].steps[4].title"
+      ]
+    },
+    {
+      "t": "I candidati vengono invitati **a partire da novembre** a **trascorrere una giornata sul campus**. La giornata intera riguarda chi entra nelle classi 1ª–8ª.",
+      "of": "cf1759f5",
       "at": [
         "trinity-episcopal:guide.bands[1].steps[4].detail"
       ]
     },
     {
-      "t": "Le decisioni vengono inviate via email **venerdì 9 aprile 2027**, sei settimane dopo il livello Kindergarten. Trinity invita **ogni famiglia** che completa il processo di domanda a incontrare il team ammissioni, non solo le famiglie il cui figlio è stato ammesso. L’incontro serve a condividere quanto il team ha appreso sul bambino e a \"help the family discern how Trinity Episcopal School can best partner with the family in support of their child.\"",
-      "of": "7beba7df",
+      "t": "Le decisioni vengono inviate via email **venerdì 9 aprile 2027**, sei settimane dopo il livello Kindergarten. Per le classi 1–4, nessuna scuola CAIS richiede un contratto prima del **16 aprile 2027**. Trinity invita **ogni famiglia** che completa il processo di domanda a incontrare il team ammissioni, non solo le famiglie il cui figlio è stato ammesso. L’incontro serve a condividere quanto il team ha appreso sul bambino e a \"help the family discern how Trinity Episcopal School can best partner with the family in support of their child.\"",
+      "of": "36971267",
       "at": [
         "trinity-episcopal:guide.bands[1].steps[5].detail"
       ]
@@ -8084,15 +8085,15 @@
       ]
     },
     {
-      "t": "La classe 1 sostiene la WPPSI-IV insieme ai candidati al Kindergarten, le classi 2–4 sostengono la WISC-V e le classi 5–8 sostengono l’ISEE. Le classi 1–4 prenotano tramite uno psicologo CAIS a $275, con annesse le regole del consorzio su preparazione mirata e ripetizione della prova; le classi 5–8 si iscrivono da sé all’ISEE, del tutto al di fuori del CAIS. Le domande scadono il 15 gennaio e le decisioni arrivano via email venerdì 9 aprile. Chi entra nelle classi 6–8 ha bisogno di due raccomandazioni — inglese e matematica.",
-      "of": "cc45f5c4",
+      "t": "La classe 1 sostiene la WPPSI-IV insieme ai candidati al Kindergarten, le classi 2–4 sostengono la WISC-V e le classi 5–8 sostengono l’ISEE. Le classi 1–4 prenotano tramite uno psicologo CAIS a $300, con annesse le regole del consorzio su preparazione mirata e ripetizione della prova; le classi 5–8 si iscrivono da sé all’ISEE, del tutto al di fuori del CAIS. Le domande scadono il 15 gennaio e le decisioni arrivano via email venerdì 9 aprile. Chi entra nelle classi 6–8 ha bisogno di due raccomandazioni — inglese e matematica.",
+      "of": "f2ae9075",
       "at": [
         "trinity-episcopal:guide.bands[1].checklistCallout.text"
       ]
     },
     {
-      "t": "Open house K–8 il 5 novembre e il 1 dicembre 2026. Le date delle visite individuali non sono pubblicate — prenota dal calendario di un membro del team ammissioni o chiama il 980-207-5898.",
-      "of": "77dc549e",
+      "t": "K–8 Open House martedì 1º dicembre 2026, dalle 9:30 alle 11:00 a.m. Le date delle visite individuali non sono indicate — prenota dal calendario di un membro dell’Admission Office o chiama il 980-207-5898.",
+      "of": "8b558880",
       "at": [
         "trinity-episcopal:guide.bands[1].checklistRows[0].detail"
       ]
@@ -8120,8 +8121,8 @@
       ]
     },
     {
-      "t": "Cl. 1: WPPSI-IV · Cl. 2–4: WISC-V, entrambe tramite uno psicologo CAIS a $275 · Cl. 5–8: l’ISEE, con iscrizione a tuo carico, fuori dal CAIS.",
-      "of": "4b8f5158",
+      "t": "Cl. 1: WPPSI-IV · Cl. 2–4: WISC-V, entrambe tramite uno psicologo CAIS a $300 · Cl. 5–8: l’ISEE, con iscrizione a tuo carico, fuori dal CAIS.",
+      "of": "34f8a165",
       "at": [
         "trinity-episcopal:guide.bands[1].checklistRows[4].detail"
       ]
@@ -8141,15 +8142,15 @@
       ]
     },
     {
-      "t": "Iscriversi al Wildcat Visit Day",
-      "of": "c76b4396",
+      "t": "Partecipare alla giornata sul campus",
+      "of": "52002b06",
       "at": [
         "trinity-episcopal:guide.bands[1].checklistRows[6].action"
       ]
     },
     {
-      "t": "Chi entra nelle classi 1ª–8ª trascorre la giornata sul campus.",
-      "of": "97736693",
+      "t": "Chi entra nelle classi 1ª–8ª è invitato a trascorrere una giornata sul campus.",
+      "of": "a3f3c891",
       "at": [
         "trinity-episcopal:guide.bands[1].checklistRows[6].detail"
       ]
@@ -8162,8 +8163,8 @@
       ]
     },
     {
-      "t": "Le famiglie candidate presentano domanda di sostegno economico entro il **1 febbraio 2027** — lo stesso giorno in cui scadono i documenti di supporto del Kindergarten. ⚠️ La pagina del processo di ammissione della scuola riporta ancora la data del 2026; la sua pagina sulle rette indica il 2027. **Verificala con l’ufficio.** Nota inoltre che la **quota di $275 per le prove CAIS va allo psicologo, non a Trinity**, quindi è dovuta prima di qualsiasi decisione sugli aiuti.",
-      "of": "76e964be",
+      "t": "Le famiglie candidate presentano domanda di sostegno economico entro il **1º febbraio 2027** — lo stesso giorno in cui scadono i documenti di supporto del Kindergarten. Se intendi chiedere un aiuto economico, **contatta l’Admission Office prima di inviare la domanda di ammissione**. La domanda di aiuto si compila online tramite **Clarity** e richiede circa 20 minuti. Nota inoltre che la **quota di $300 per le prove CAIS va allo psicologo, non a Trinity**, quindi è dovuta prima di qualsiasi decisione sugli aiuti.",
+      "of": "53cb793d",
       "at": [
         "trinity-episcopal:guide.aid.text"
       ]
@@ -8229,15 +8230,15 @@
       ]
     },
     {
-      "t": "Uno psicologo del consorzio CAIS — $275, con prenotazione a tuo carico",
-      "of": "b8857d81",
+      "t": "Uno psicologo del consorzio CAIS — $300, con prenotazione a tuo carico",
+      "of": "487280e0",
       "at": [
         "trinity-episcopal:guide.comparison.rows[4].cells.k"
       ]
     },
     {
-      "t": "Cl. 1–4: uno psicologo CAIS, $275 · Cl. 5–8: l’ISEE, fuori dal CAIS, con iscrizione a tuo carico",
-      "of": "8d009d21",
+      "t": "Cl. 1–4: uno psicologo CAIS, $300 · Cl. 5–8: l’ISEE, fuori dal CAIS, con iscrizione a tuo carico",
+      "of": "daf3c086",
       "at": [
         "trinity-episcopal:guide.comparison.rows[4].cells.g18"
       ]
@@ -8257,10 +8258,10 @@
       ]
     },
     {
-      "t": "Una sessione di osservazione mattutina",
-      "of": "05b4bb26",
+      "t": "La visita del candidato",
+      "of": "016049dd",
       "at": [
-        "trinity-episcopal:guide.comparison.rows[6].cells.k"
+        "trinity-episcopal:guide.comparison.rows[6].label"
       ]
     },
     {
@@ -8300,8 +8301,8 @@
       ]
     },
     {
-      "t": "Il portale FACTS · una quota di domanda il cui importo non è pubblicato da nessuna parte sul sito · le lettere di raccomandazione dei docenti · la Follow-Up Conference, offerta a ogni famiglia che completa il processo qualunque sia la decisione · e la garanzia CAIS che nessuna scuola aderente richieda un contratto prima della scadenza comune di risposta del consorzio",
-      "of": "272514a0",
+      "t": "Il portale FACTS · una quota di domanda di $100 · le lettere di raccomandazione dei docenti · la Follow-Up Conference, offerta a ogni famiglia che completa il processo qualunque sia la decisione · e la garanzia CAIS che nessuna scuola aderente richieda un contratto prima della scadenza comune di risposta del consorzio",
+      "of": "bfdda3c2",
       "at": [
         "trinity-episcopal:guide.comparison.rows[8].cells.all"
       ]
@@ -8321,17 +8322,31 @@
       ]
     },
     {
-      "t": "Le date delle visite individuali non sono pubblicate — scegli un membro del team ammissioni su tescharlotte.org/admission e prenota dal suo calendario personale, oppure chiama il 980-207-5898 · 980-207-5898",
-      "of": "40bea879",
+      "t": "Le date delle visite individuali non sono indicate. Scegli un membro dell’Admission Office sulla pagina degli eventi della scuola e prenota dal suo calendario personale, oppure chiama il 980-207-5898.",
+      "of": "5e54f7cb",
       "at": [
         "trinity-episcopal:guide.contacts.people[0].detail"
       ]
     },
     {
-      "t": "\"Si su idioma principal es el español y prefiere comunicarse en español, póngase en contacto con Fé Patriciu.\"",
-      "of": "c0dda069",
+      "t": "Responsabile principale delle iscrizioni · fpatriciu@tescharlotte.org",
+      "of": "bbad75b8",
       "at": [
         "trinity-episcopal:guide.contacts.people[1].detail"
+      ]
+    },
+    {
+      "t": "Responsabile delle ammissioni e del collocamento nei collegi · rwise@tescharlotte.org",
+      "of": "524a97ea",
+      "at": [
+        "trinity-episcopal:guide.contacts.people[2].detail"
+      ]
+    },
+    {
+      "t": "Responsabile della segreteria didattica · mhairston@tescharlotte.org",
+      "of": "35260708",
+      "at": [
+        "trinity-episcopal:guide.contacts.people[3].detail"
       ]
     },
     {
@@ -8349,22 +8364,22 @@
       ]
     },
     {
-      "t": "La pagina del processo di ammissione della scuola la riporta come \"Thursday, February 1, 2026\" — vecchia di un anno, e il 1 febbraio 2026 era una domenica. La sua pagina sulle rette indica il 1 febbraio 2027. Verifica con l’ufficio prima di fare affidamento sull’una o sull’altra.",
-      "of": "2ef61215",
+      "t": "Se chiedi un sostegno economico, contatta l’Admission Office prima di inviare la domanda di ammissione. La domanda di aiuto si compila online tramite Clarity e richiede circa 20 minuti.",
+      "of": "8ef9f071",
       "at": [
         "trinity-episcopal:guide.checklist.aidPanel.items[1]"
       ]
     },
     {
-      "t": "La quota di $275 per le prove CAIS va versata allo psicologo, non a Trinity, ed è dovuta prima di qualsiasi decisione sugli aiuti — mettila a bilancio separatamente.",
-      "of": "ba790b67",
+      "t": "La quota di $300 per le prove CAIS va versata allo psicologo, non a Trinity, ed è dovuta prima di qualsiasi decisione sugli aiuti — mettila a bilancio separatamente.",
+      "of": "b9e4f05a",
       "at": [
         "trinity-episcopal:guide.checklist.aidPanel.items[2]"
       ]
     },
     {
-      "t": "L’importo della quota di domanda non è pubblicato da nessuna parte sulle pagine delle ammissioni. Verificalo con l’Admission Office.",
-      "of": "c747932e",
+      "t": "La quota di domanda è di $100. Le istruzioni per il pagamento arrivano dopo l’invio della domanda.",
+      "of": "69b31737",
       "at": [
         "trinity-episcopal:guide.checklist.aidPanel.items[3]"
       ]
@@ -8391,22 +8406,22 @@
       ]
     },
     {
-      "t": "Le date delle visite individuali non sono pubblicate; prenota dal calendario personale di un membro del team ammissioni.",
-      "of": "3cd5e0a5",
+      "t": "Le date delle visite individuali non sono indicate; prenota dal calendario personale di un membro dell’Admission Office.",
+      "of": "8f630371",
       "at": [
         "trinity-episcopal:guide.checklist.contactPanel.lines[2]"
       ]
     },
     {
-      "t": "En español: Fé Patriciu.",
-      "of": "174dc2fb",
+      "t": "Responsabile principale delle iscrizioni: Fé Patriciu · fpatriciu@tescharlotte.org",
+      "of": "d4e0151e",
       "at": [
         "trinity-episcopal:guide.checklist.contactPanel.lines[3]"
       ]
     },
     {
-      "t": "Le date si riferiscono al ciclo di ingresso 2027–28 come pubblicato su tescharlotte.org e consultato a settembre 2026. Gli errori nei testi della scuola sono riprodotti così come sono, non corretti. La scadenza per il sostegno economico sulla pagina del processo riporta 1º febbraio 2026, mentre la pagina sulle rette indica 1º febbraio 2027. L’errore è segnalato dove compare. L’open house del 1º dicembre 2026 è indicato come \"Thursday\" mentre cade di martedì, e il suo orario di inizio differisce tra le due pagine delle ammissioni della scuola. I dettagli sul consorzio CAIS provengono dalla brochure 2024-25. La sua struttura resta valida, ma le sue date no, e qui non vengono riprodotte. Le date del ciclo cambiano di anno in anno, quindi verificale sulle pagine attive prima di agire. Compilato da Charlotte School Compare; non affiliato a Trinity Episcopal School.",
-      "of": "2d22472f",
+      "t": "Le date si riferiscono al ciclo di ingresso 2027–28 come pubblicato su tescharlotte.org e verificato il 14 novembre 2026. I dettagli sul consorzio CAIS provengono dalla sua brochure 2027-28, le cui date coincidono con quelle di Trinity. Le date del ciclo cambiano di anno in anno, quindi verificale sulle pagine attive prima di agire. Compilato da Charlotte School Compare; non affiliato a Trinity Episcopal School.",
+      "of": "5c52f6ce",
       "at": [
         "trinity-episcopal:guide.checklist.disclaimer"
       ]
@@ -8437,13 +8452,6 @@
       "of": "ab5167b7",
       "at": [
         "charlotte-prep:guide.stats[2].label"
-      ]
-    },
-    {
-      "t": "$300",
-      "of": "b8ee2fe0",
-      "at": [
-        "charlotte-prep:guide.stats[3].value"
       ]
     },
     {

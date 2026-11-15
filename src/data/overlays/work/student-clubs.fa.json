@@ -94,6 +94,9 @@
         "providence-day:catalog.divisions[0].label",
         "charlotte-christian:affinity.strips[1].title",
         "charlotte-country-day:affinity.strips[0].title",
+        "trinity-episcopal:affinity.groups[2].detail",
+        "trinity-episcopal:affinity.groups[3].detail",
+        "trinity-episcopal:affinity.groups[4].detail",
         "trinity-episcopal:affinity.strips[1].title"
       ],
       "t": "Middle School"
@@ -122,6 +125,7 @@
         "providence-day:affinity.strips[1].title",
         "charlotte-christian:affinity.strips[0].title",
         "charlotte-country-day:affinity.strips[1].title",
+        "trinity-episcopal:affinity.groups[0].detail",
         "trinity-episcopal:affinity.strips[0].title"
       ],
       "t": "Lower School"
@@ -506,9 +510,7 @@
         "charlotte-country-day:clusters.rows[0].evidenceLabel",
         "cannon:clusters.rows[1].evidenceLabel",
         "gaston-day:clusters.rows[0].evidenceLabel",
-        "gaston-day:clusters.rows[1].evidenceLabel",
-        "trinity-episcopal:clusters.rows[0].evidenceLabel",
-        "trinity-episcopal:clusters.rows[1].evidenceLabel"
+        "gaston-day:clusters.rows[1].evidenceLabel"
       ],
       "t": "تأییدشده — رویداد"
     },
@@ -7422,60 +7424,28 @@
       "t": "دانش‌آموزان Middle School جلسات الزامی LEAD را در کنار کر، گروه سازی، هنر یا درام می‌گذرانند. Spartan Strong Volunteer Service Award از 50+ ساعت خدمت در سال قدردانی می‌کند."
     },
     {
-      "text": "Five named student affinity groups, each with its grade range and a published purpose statement, plus four parent groups — under a Director of Diversity, Equity, and Belonging.",
-      "of": "1d29d031",
+      "text": "Five student affinity groups, two parent affinity groups, and chapel services for the community's many traditions — led by an Assistant Head of School for Belonging and Community Engagement.",
+      "of": "7b8f0b0e",
       "at": [
         "trinity-episcopal:affinity.headline"
       ],
-      "t": "پنج گروه هویتی نام‌بردهٔ دانش‌آموزی، هر یک با بازهٔ پایهٔ خود و بیانیهٔ هدف منتشرشده، به‌علاوهٔ چهار گروه والدین — زیر نظر یک Director of Diversity, Equity, and Belonging."
+      "t": "پنج گروه هویتی دانش‌آموزی، دو گروه هویتی والدین، و مراسم نیایش برای سنت‌های گوناگون جامعهٔ مدرسه — به رهبری معاون مدیر مدرسه در امور تعلق‌خاطر و مشارکت اجتماعی."
     },
     {
-      "text": "led by Ayeola Elias, Director of Diversity, Equity, and Belonging · groups exist \"to foster kinship; to provide students and adults a place to celebrate their uniqueness, gifts and important role in our school community; and to affirm, protect and nurture the identities of the group\"",
-      "of": "bee45adb",
+      "text": "led by Ayeola Elias, Assistant Head of School for Belonging and Community Engagement · \"Affinity groups in Lower and Middle School are inclusive spaces for students and adults that are built around shared identities and experiences.\"",
+      "of": "7122ce38",
       "at": [
         "trinity-episcopal:affinity.umbrella.detail"
       ],
-      "t": "به سرپرستی Ayeola Elias، Director of Diversity, Equity, and Belonging · این گروه‌ها برای آن‌اند که \"to foster kinship; to provide students and adults a place to celebrate their uniqueness, gifts and important role in our school community; and to affirm, protect and nurture the identities of the group\""
+      "t": "به سرپرستی Ayeola Elias، معاون مدیر مدرسه در امور تعلق‌خاطر و مشارکت اجتماعی · \"Affinity groups in Lower and Middle School are inclusive spaces for students and adults that are built around shared identities and experiences.\""
     },
     {
-      "text": "grades K–5 · an affinity group and mentoring program for students of color; all students of color are invited, and the family decides whether to participate",
-      "of": "370c1608",
-      "at": [
-        "trinity-episcopal:affinity.groups[0].detail"
-      ],
-      "t": "پایه‌های K–5 · یک گروه هویتی و برنامهٔ مربی‌گری برای دانش‌آموزان رنگین‌پوست؛ همهٔ دانش‌آموزان رنگین‌پوست دعوت می‌شوند و خانواده تصمیم می‌گیرد که شرکت کند یا نه"
-    },
-    {
-      "text": "grades 3–5 · co-ed groups who \"learn to build community, internalize and reinforce the Honor Code\", each led by 2 adult staculty members",
-      "of": "bb4fa0f1",
+      "text": "grades 3–5 · co-ed groups that let students from different grades get to know one another and build relationships · \"Each Tribe is led by 2 adult staculty members.\"",
+      "of": "5b9f384b",
       "at": [
         "trinity-episcopal:affinity.groups[1].detail"
       ],
-      "t": "پایه‌های 3–5 · گروه‌های مختلط که \"learn to build community, internalize and reinforce the Honor Code\"، و هر یک به سرپرستی 2 عضو بزرگسال staculty"
-    },
-    {
-      "text": "Middle School · for students who self-identify as students of color; meets weekly on cultural sensitivity, academic success and socio-political issues, and on preparation for high school",
-      "of": "030e8fd7",
-      "at": [
-        "trinity-episcopal:affinity.groups[2].detail"
-      ],
-      "t": "Middle School · برای دانش‌آموزانی که خود را دانش‌آموز رنگین‌پوست می‌دانند؛ هفتگی دربارهٔ حساسیت فرهنگی، موفقیت تحصیلی و مسائل اجتماعی-سیاسی، و دربارهٔ آمادگی برای دبیرستان تشکیل جلسه می‌دهد"
-    },
-    {
-      "text": "Middle School · for students who self-identify as white, discussing unearned privilege and the actions they can take as allies — framed on Gandhi’s \"Be the change you wish to see in the world\"",
-      "of": "5687ba10",
-      "at": [
-        "trinity-episcopal:affinity.groups[3].detail"
-      ],
-      "t": "Middle School · برای دانش‌آموزانی که خود را سفیدپوست می‌دانند، با گفت‌وگو دربارهٔ امتیاز ناکسب‌شده و کارهایی که می‌توانند به‌عنوان هم‌پیمان انجام دهند — با الهام از سخن Gandhi: \"Be the change you wish to see in the world\""
-    },
-    {
-      "text": "Middle School · human-rights discussion and activities with a focus on gay, lesbian, bisexual, questioning and transgender issues; has organized a Pride Chapel in recent years",
-      "of": "d2951e82",
-      "at": [
-        "trinity-episcopal:affinity.groups[4].detail"
-      ],
-      "t": "Middle School · گفت‌وگو و فعالیت در زمینهٔ حقوق بشر با تمرکز بر مسائل همجنس‌گرایان مرد و زن، دوجنس‌گرایان، افراد در حال پرسش از هویت و ترنس‌جندرها؛ در سال‌های اخیر یک Pride Chapel برگزار کرده است"
+      "t": "پایه‌های 3–5 · گروه‌های مختلط که به دانش‌آموزان پایه‌های مختلف امکان می‌دهند یکدیگر را بشناسند و با هم رابطه بسازند · \"Each Tribe is led by 2 adult staculty members.\""
     },
     {
       "text": "· grades K–5",
@@ -7486,36 +7456,36 @@
       "t": "· پایه‌های K–5"
     },
     {
-      "text": "Young Children of Color runs from Kindergarten through grade 5 · 12 Tribes of Trinity groups students across grades 3–5.",
-      "of": "3f5176e8",
+      "text": "Young Children of Color is a Lower School group · 12 Tribes of Trinity groups students across grades 3–5.",
+      "of": "018dbd2e",
       "at": [
         "trinity-episcopal:affinity.strips[0].text"
       ],
-      "t": "Young Children of Color از Kindergarten تا پایهٔ 5 برقرار است · 12 Tribes of Trinity دانش‌آموزان پایه‌های 3–5 را گروه‌بندی می‌کند."
+      "t": "Young Children of Color یک گروه Lower School است · 12 Tribes of Trinity دانش‌آموزان پایه‌های 3–5 را گروه‌بندی می‌کند."
     },
     {
-      "text": "Young People of Color · Young People for Social Justice · Gender Sexuality Alliance — all three are Middle School groups, and YPC meets weekly.",
-      "of": "f7295774",
+      "text": "Young People of Color · Young People for Social Justice · Gender Sexuality Alliance — all three are Middle School groups.",
+      "of": "15c65f9e",
       "at": [
         "trinity-episcopal:affinity.strips[1].text"
       ],
-      "t": "Young People of Color · Young People for Social Justice · Gender Sexuality Alliance — هر سه گروه‌های Middle School هستند، و YPC هفتگی تشکیل جلسه می‌دهد."
+      "t": "Young People of Color · Young People for Social Justice · Gender Sexuality Alliance — هر سه گروه‌های Middle School هستند."
     },
     {
-      "text": "· 4 groups",
-      "of": "300ca17e",
+      "text": "· 2 groups",
+      "of": "a8307820",
       "at": [
         "trinity-episcopal:affinity.strips[2].hint"
       ],
-      "t": "· 4 گروه"
+      "t": "· 2 گروه"
     },
     {
-      "text": "Café con Padres for Hispanic/Latino families · KINDRED for African American/Black families · Invisible Differences for families of children with learning differences · the Diversity & Belonging Committee, open to all parents.",
-      "of": "505de667",
+      "text": "Cafe Con Padres, the Hispanic parent affinity group, sponsors the Latino Festival · KINDRED, the African American/Black parent affinity group, sponsors the KINDRED Festival. Both work with the Parents' Association.",
+      "of": "1ab11aa4",
       "at": [
         "trinity-episcopal:affinity.strips[2].text"
       ],
-      "t": "Café con Padres برای خانواده‌های هیسپنیک/لاتین‌تبار · KINDRED برای خانواده‌های آفریقایی‌آمریکایی/سیاه‌پوست · Invisible Differences برای خانواده‌های کودکان دارای تفاوت‌های یادگیری · Diversity & Belonging Committee، باز برای همهٔ والدین."
+      "t": "Cafe Con Padres، گروه هویتی والدین هیسپنیک، حامی Latino Festival است · KINDRED، گروه هویتی والدین آفریقایی‌آمریکایی/سیاه‌پوست، حامی KINDRED Festival است. هر دو با Parents' Association همکاری می‌کنند."
     },
     {
       "text": "In chapel",
@@ -7526,12 +7496,12 @@
       "t": "در مراسم نیایش"
     },
     {
-      "text": "The student GSA has organized a Pride Chapel. The school also holds a Sankofa Chapel each year during Black History Month, a Diwali chapel with song and dance, and Hispanic Heritage Month chapels led by Latino families.",
-      "of": "d1969d81",
+      "text": "K-8 chapels celebrate the community's diversity \"through services for Hispanic Heritage Month, Black History Month, the Jewish High Holy Days, and others.\" The 2026-27 calendar includes a K-8 Chapel for Diwali.",
+      "of": "cb576837",
       "at": [
         "trinity-episcopal:affinity.strips[3].text"
       ],
-      "t": "GSA دانش‌آموزی یک Pride Chapel برگزار کرده است. مدرسه همچنین هر سال در Black History Month یک Sankofa Chapel، یک مراسم نیایش Diwali همراه با آواز و رقص، و مراسم‌های نیایش Hispanic Heritage Month به سرپرستی خانواده‌های لاتین‌تبار برگزار می‌کند."
+      "t": "مراسم‌های نیایش K-8 تنوع جامعهٔ مدرسه را \"through services for Hispanic Heritage Month, Black History Month, the Jewish High Holy Days, and others.\" گرامی می‌دارند. تقویم 2026-27 یک مراسم نیایش K-8 برای Diwali را در بر دارد."
     },
     {
       "text": "Who runs it",
@@ -7542,60 +7512,60 @@
       "t": "چه کسی آن را اداره می‌کند"
     },
     {
-      "text": "Ayeola Elias is Director of Diversity, Equity, and Belonging. No student diversity leadership council is published. No attendance at a national student diversity conference appears anywhere on the site either. Both absences are consistent with a K–8 school, since those conferences are aimed at high schoolers.",
-      "of": "6b9cf710",
+      "text": "Ayeola Elias is Assistant Head of School for Belonging and Community Engagement. Each January the school holds Freedom Fete, around Martin Luther King Jr. Day, with guest speakers on diversity and social justice. No student diversity leadership council is published.",
+      "of": "26eefedd",
       "at": [
         "trinity-episcopal:affinity.leadership"
       ],
-      "t": "Ayeola Elias مدیر Diversity, Equity, and Belonging است. هیچ شورای رهبری تنوع دانش‌آموزی منتشر نشده است. هیچ نشانی از شرکت در همایش کشوری تنوع دانش‌آموزی نیز در هیچ جای سایت دیده نمی‌شود. هر دو نبود با یک مدرسهٔ K–8 سازگار است، چون آن همایش‌ها برای دانش‌آموزان دبیرستانی طراحی شده‌اند."
+      "t": "Ayeola Elias معاون مدیر مدرسه در امور تعلق‌خاطر و مشارکت اجتماعی است. مدرسه هر ژانویه، هم‌زمان با Martin Luther King Jr. Day، Freedom Fete را با سخنرانان مهمان دربارهٔ تنوع و عدالت اجتماعی برگزار می‌کند. هیچ شورای رهبری تنوع دانش‌آموزی منتشر نشده است."
     },
     {
-      "text": "**Invisible Differences is a PARENT group, not a student club.** The affinity-groups page lists it among the four parent groups; the 2026-27 School Profile lists it among the student clubs. The affinity page is the more specific source and is followed here — so the student roster is five groups, not six.",
-      "of": "26d1bd11",
+      "text": "**Invisible Differences is left off this card.** The 2026-27 School Profile lists it among the Middle School clubs and groups. The old affinity-groups page called it a parent group for families of children with learning differences, but that page is gone (fall-2026 redesign) and no live page says what it is. So the student roster here is five groups, as before.",
+      "of": "8845ac6f",
       "at": [
         "trinity-episcopal:affinity.flags[0].text"
       ],
-      "t": "**Invisible Differences یک گروه والدین است، نه باشگاه دانش‌آموزی.** صفحهٔ گروه‌های هویتی آن را در میان چهار گروه والدین فهرست می‌کند؛ School Profile سال 2026-27 آن را در میان باشگاه‌های دانش‌آموزی می‌آورد. صفحهٔ گروه‌های هویتی منبع مشخص‌تری است و این‌جا همان مبنا قرار گرفته — پس فهرست دانش‌آموزی پنج گروه است، نه شش."
+      "t": "**Invisible Differences در این کارت آورده نشده است.** School Profile سال 2026-27 آن را در میان باشگاه‌ها و گروه‌های Middle School فهرست می‌کند. صفحهٔ قدیمی گروه‌های هویتی آن را گروهی از والدین برای خانواده‌های کودکان دارای تفاوت‌های یادگیری می‌نامید، اما آن صفحه دیگر وجود ندارد (بازطراحی پاییز 2026) و هیچ صفحهٔ فعالی نمی‌گوید این گروه چیست. پس فهرست دانش‌آموزی این‌جا، مانند پیش، پنج گروه است."
     },
     {
-      "text": "Every grade from Kindergarten to 7 has a standing, year-long partnership with a named community organization — twelve of them — and 8th grade turns it into advocacy.",
-      "of": "d9dab4cd",
+      "text": "Every grade from Kindergarten to 7 partners with a named community organization — 10 partners in all — and 8th grade turns it into advocacy.",
+      "of": "c44eb569",
       "at": [
         "trinity-episcopal:service.headline"
       ],
-      "t": "هر پایه از Kindergarten تا 7 یک همکاری دائمی و یک‌سالهٔ با یک سازمان اجتماعی نام‌برده دارد — دوازده سازمان — و پایهٔ هشتم آن را به کنشگری تبدیل می‌کند."
+      "t": "هر پایه از Kindergarten تا 7 با یک سازمان اجتماعی نام‌برده همکاری دارد — در مجموع 10 شریک — و پایهٔ 8 آن را به کنشگری تبدیل می‌کند."
     },
     {
-      "text": "This is curricular rather than a volunteer club: \"Each grade level partners with a community organization whose mission and services are related to curricular goals… Year-long partnerships create the possibility of relationship formation that transforms charity into mutual service among neighbors.\"",
-      "of": "9821c749",
+      "text": "This is part of the curriculum, not a volunteer club: \"Each grade partners with a community organization whose mission and services are related to curricular goals. Our students address real community needs in ways that are connected to and informed by their classroom learning.\"",
+      "of": "a5c69bd9",
       "at": [
         "trinity-episcopal:service.subhead"
       ],
-      "t": "این یک بخش درسی است و نه یک باشگاه داوطلبانه: \"Each grade level partners with a community organization whose mission and services are related to curricular goals… Year-long partnerships create the possibility of relationship formation that transforms charity into mutual service among neighbors.\""
+      "t": "این بخشی از برنامهٔ درسی است، نه یک باشگاه داوطلبانه: \"Each grade partners with a community organization whose mission and services are related to curricular goals. Our students address real community needs in ways that are connected to and informed by their classroom learning.\""
     },
     {
-      "text": "12",
-      "of": "1deb2d6a",
+      "text": "10",
+      "of": "1beb2a44",
       "at": [
         "trinity-episcopal:service.programs[0].value"
       ],
-      "t": "12"
+      "t": "10"
     },
     {
-      "text": "named partner organizations · grades K–7",
-      "of": "89888b00",
+      "text": "service-learning partners · grades K–7",
+      "of": "a13efe6c",
       "at": [
         "trinity-episcopal:service.programs[0].valueLabel"
       ],
-      "t": "سازمان شریک نام‌برده · پایه‌های K–7"
+      "t": "شریک یادگیری خدمت‌محور · پایه‌های K–7"
     },
     {
-      "text": "Kindergarten and grade 1 partner with Nourish Up — Kindergarten delivers Meals on Wheels weekly, grade 1 visits the food pantry at First Presbyterian Church and leads the school food drive each November. Grade 2 works with InReach, whose customers visit Trinity monthly for gardening, art, music and self-advocacy. Grade 3 partners with Roof Above / the Urban Ministry Center. Grade 4 with The Epiphany School of Charlotte, grade 5 with Galilee Ministries of East Charlotte. Grade 6 — \"Feeding Our Neighbors\" — works with the 8th Street Friendship Garden, the Charlotte Community ToolBank and NourishUp; grade 7 — \"Understanding Our Neighbors\" — with Crisis Assistance Ministry, Hope Haven and the First Ward Child Development Center.",
-      "of": "a6ec8b83",
+      "text": "Kindergarten and grade 1 partner with Nourish Up. Kindergarten delivers Meals on Wheels weekly, and grade 1 visits the food pantry at First Presbyterian Church and leads the school food drive each November. Grade 2 works with InReach, whose customers visit Trinity monthly for gardening, art, music and self-advocacy. Grade 3 partners with Roof Above / the Urban Ministry Center. Grade 4 partners with the Children of the World Learning Center, learning how preschoolers develop and how bilingual education works. Grade 5 partners with Galilee Ministries of East Charlotte. Grade 6 — \"Feeding Our Neighbors\" — works with the 8th Street Friendship Garden, the Charlotte Community ToolBank and NourishUp. Grade 7 — \"Understanding Our Neighbors\" — works with Crisis Assistance Ministry, Hope Haven and the First Ward Child Development Center.",
+      "of": "aa486a32",
       "at": [
         "trinity-episcopal:service.programs[0].detail"
       ],
-      "t": "Kindergarten و پایهٔ 1 با Nourish Up همکاری می‌کنند — Kindergarten هفتگی Meals on Wheels را تحویل می‌دهد، پایهٔ 1 از انبار غذای First Presbyterian Church بازدید می‌کند و هر نوامبر کمپین جمع‌آوری غذای مدرسه را رهبری می‌کند. پایهٔ 2 با InReach کار می‌کند، که مراجعانش ماهانه برای باغبانی، هنر، موسیقی و دفاع از حقوق خود به Trinity می‌آیند. پایهٔ 3 با Roof Above / Urban Ministry Center همکاری می‌کند. پایهٔ 4 با The Epiphany School of Charlotte، پایهٔ 5 با Galilee Ministries of East Charlotte. پایهٔ 6 — \"Feeding Our Neighbors\" — با 8th Street Friendship Garden، Charlotte Community ToolBank و NourishUp کار می‌کند؛ پایهٔ 7 — \"Understanding Our Neighbors\" — با Crisis Assistance Ministry، Hope Haven و First Ward Child Development Center."
+      "t": "Kindergarten و پایهٔ 1 با Nourish Up همکاری می‌کنند. Kindergarten هفتگی Meals on Wheels را تحویل می‌دهد، و پایهٔ 1 از انبار غذای First Presbyterian Church بازدید می‌کند و هر نوامبر کمپین جمع‌آوری غذای مدرسه را رهبری می‌کند. پایهٔ 2 با InReach کار می‌کند، که مراجعانش ماهانه برای باغبانی، هنر، موسیقی و دفاع از حقوق خود به Trinity می‌آیند. پایهٔ 3 با Roof Above / Urban Ministry Center همکاری می‌کند. پایهٔ 4 با Children of the World Learning Center همکاری می‌کند و می‌آموزد که کودکان پیش‌دبستانی چگونه رشد می‌کنند و آموزش دوزبانه چگونه کار می‌کند. پایهٔ 5 با Galilee Ministries of East Charlotte همکاری می‌کند. پایهٔ 6 — \"Feeding Our Neighbors\" — با 8th Street Friendship Garden، Charlotte Community ToolBank و NourishUp کار می‌کند. پایهٔ 7 — \"Understanding Our Neighbors\" — با Crisis Assistance Ministry، Hope Haven و First Ward Child Development Center کار می‌کند."
     },
     {
       "text": "a mile",
@@ -7614,84 +7584,85 @@
       "t": "پیاده تا سازمان شریک، ماهانه · پایهٔ 3"
     },
     {
-      "text": "Third graders walk a mile to the Urban Ministry Center once a month for art, soccer, singing with the Urban Ministry Choir, and clothing drives. The walk is the point, and the school says so: \"We like to say that Trinity has the longest hallways in Charlotte as our campus community extends into the heart of Uptown Charlotte. Each day you will see our students and teachers walking to and engaging with community organizations as part of our academic program and service-learning partnerships.\"",
-      "of": "dfe03647",
+      "text": "Third graders walk a mile to the Urban Ministry Center once a month for art, soccer, singing with the Urban Ministry Choir, and clothing drives. Walking is part of the point: \"Trinity Episcopal School has the longest hallways of any school in Charlotte.\" Lower School students also make regular walks to the ImaginOn library, Children's Theatre and Discovery Place. In January 2026, students in grades 2-8 walked out to witness the Walk for Peace, a pilgrimage of Buddhist monks passing near the school.",
+      "of": "91f94ca4",
       "at": [
         "trinity-episcopal:service.programs[1].detail"
       ],
-      "t": "دانش‌آموزان پایهٔ سوم ماهی یک بار یک مایل تا Urban Ministry Center پیاده می‌روند، برای هنر، فوتبال، آواز خواندن با Urban Ministry Choir و جمع‌آوری پوشاک. خودِ پیاده‌روی نکتهٔ اصلی است، و مدرسه همین را می‌گوید: \"We like to say that Trinity has the longest hallways in Charlotte as our campus community extends into the heart of Uptown Charlotte. Each day you will see our students and teachers walking to and engaging with community organizations as part of our academic program and service-learning partnerships.\""
+      "t": "دانش‌آموزان پایهٔ سوم ماهی یک بار یک مایل تا Urban Ministry Center پیاده می‌روند، برای هنر، فوتبال، آواز خواندن با Urban Ministry Choir و جمع‌آوری پوشاک. خودِ پیاده‌روی بخشی از هدف است: \"Trinity Episcopal School has the longest hallways of any school in Charlotte.\" دانش‌آموزان Lower School همچنین به‌طور منظم پیاده به کتابخانهٔ ImaginOn، Children's Theatre و Discovery Place می‌روند. در ژانویهٔ 2026، دانش‌آموزان پایه‌های 2-8 بیرون رفتند تا Walk for Peace را تماشا کنند، راهپیمایی زیارتی راهبان بودایی که از نزدیکی مدرسه می‌گذشت."
     },
     {
-      "text": "46",
-      "of": "8be38bcf",
+      "text": "2",
+      "of": "370cabd5",
       "at": [
-        "trinity-episcopal:service.programs[2].value"
+        "trinity-episcopal:service.programs[2].value",
+        "charlotte-prep:service.programs[0].value"
       ],
-      "t": "46"
+      "t": "2"
     },
     {
-      "text": "eighth-graders on the 2024 advocacy trip",
-      "of": "9e6a172a",
+      "text": "advocacy trips in 2025-26 · Raleigh and Washington, D.C.",
+      "of": "1e3b120f",
       "at": [
         "trinity-episcopal:service.programs[2].valueLabel"
       ],
-      "t": "دانش‌آموز پایهٔ هشتم در سفر کنشگری 2024"
+      "t": "سفر کنشگری در 2025-26 · Raleigh و Washington, D.C."
     },
     {
-      "text": "Eighth grade maps its community and researches an issue all year in the Social Issues Seminar. Then the class travels to Washington, DC to advocate on it. The 2024 group met Rep. Jeff Jackson at the Capitol and carried five issues: gun-violence victim resources · economic mobility · minimum wage · affordable housing · healthcare cost transparency. Assistant Head of School Stephanie Griffin: \"This is a trip, at its heart and soul, that’s all about advocacy.\"",
-      "of": "c3d3d823",
+      "text": "In the Social Issues Seminar, eighth graders pick a social issue, study it, and plan how to advocate for it. Then they \"implement that plan during an advocacy trip to Washington, D.C., in May.\" In 2025-26 the class also studied a transit referendum that Charlotte voters approved. A Dec. 17 panel, with speakers from partners Roof Above and Galilee Ministries, helped students choose topics for \"upcoming class trips to Raleigh and Washington, D.C.\"",
+      "of": "a4175ebf",
       "at": [
         "trinity-episcopal:service.programs[2].detail"
       ],
-      "t": "پایهٔ هشتم نقشهٔ جامعهٔ خود را می‌کشد و در Social Issues Seminar تمام سال دربارهٔ یک مسئله پژوهش می‌کند. سپس کلاس برای دفاع از آن به Washington, DC سفر می‌کند. گروه 2024 در Capitol با نمایندهٔ کنگره Jeff Jackson دیدار کرد و پنج مسئله را مطرح کرد: منابع حمایت از قربانیان خشونت با سلاح گرم · تحرک اقتصادی · حداقل دستمزد · مسکن مقرون‌به‌صرفه · شفافیت هزینه‌های درمان. Stephanie Griffin، معاون مدیر مدرسه: \"This is a trip, at its heart and soul, that’s all about advocacy.\""
+      "t": "در Social Issues Seminar، دانش‌آموزان پایهٔ هشتم یک مسئلهٔ اجتماعی را برمی‌گزینند، آن را بررسی می‌کنند و برنامه‌ای برای دفاع از آن می‌ریزند. سپس \"implement that plan during an advocacy trip to Washington, D.C., in May.\" در 2025-26، کلاس همچنین یک همه‌پرسی حمل‌ونقل عمومی را که رأی‌دهندگان شارلوت تصویب کردند بررسی کرد. یک نشست در 17 دسامبر، با سخنرانانی از سازمان‌های شریک Roof Above و Galilee Ministries، به دانش‌آموزان کمک کرد موضوع‌های خود را برای \"upcoming class trips to Raleigh and Washington, D.C.\" برگزینند."
     },
     {
-      "text": "The school’s own copy spells the same partner two ways and names the grade-3 partner twice: **\"Nourish Up\"** in grades K and 1 but **\"NourishUp\"** in grade 6, and grade 3 is **headed \"Roof Above\"** while its body says **\"Urban Ministry of Charlotte\" / \"Urban Ministry Center\"**. Roof Above is the renamed organization. Both spellings are reproduced as published rather than normalized.",
-      "of": "bb115202",
+      "text": "The school’s own copy spells the same partner two ways and names the grade-3 partner twice: **\"Nourish Up\"** in grades K and 1 but **\"NourishUp\"** in grade 6, and grade 3 is **headed \"Roof Above\"** while its body says **\"Urban Ministry of Charlotte\" / \"Urban Ministry Center\"**. Roof Above is the renamed organization. Both spellings are reproduced as published rather than normalized. The partner count (10) is the school's own figure on Trinity At a Glance and matches the 10 organizations the Service Learning page names.",
+      "of": "a0cbd982",
       "at": [
         "trinity-episcopal:service.flags[0].text"
       ],
-      "t": "متن خودِ مدرسه نام یک سازمان شریک را به دو شکل می‌نویسد و شریک پایهٔ 3 را با دو نام می‌آورد: **\"Nourish Up\"** در پایه‌های K و 1 اما **\"NourishUp\"** در پایهٔ 6، و عنوان پایهٔ 3 **\"Roof Above\"** است در حالی که متن آن **\"Urban Ministry of Charlotte\" / \"Urban Ministry Center\"** می‌گوید. Roof Above نام تازهٔ همان سازمان است. هر دو املا همان‌گونه که منتشر شده بازتولید شده‌اند و یکدست نشده‌اند."
+      "t": "متن خودِ مدرسه نام یک سازمان شریک را به دو شکل می‌نویسد و شریک پایهٔ 3 را با دو نام می‌آورد: **\"Nourish Up\"** در پایه‌های K و 1 اما **\"NourishUp\"** در پایهٔ 6، و عنوان پایهٔ 3 **\"Roof Above\"** است در حالی که متن آن **\"Urban Ministry of Charlotte\" / \"Urban Ministry Center\"** می‌گوید. Roof Above نام تازهٔ همان سازمان است. هر دو املا همان‌گونه که منتشر شده بازتولید شده‌اند و یکدست نشده‌اند. شمار شریکان (10) رقم خودِ مدرسه در Trinity At a Glance است و با 10 سازمانی که صفحهٔ Service Learning نام می‌برد هم‌خوانی دارد."
     },
     {
-      "text": "Two state championships in one year, and a three-peat: the Middle School Mock Trial team won the North Carolina Bar Foundation competition in 2023, 2024 and 2025.",
-      "of": "1298574e",
+      "text": "An Honor Council students elect each fall, an Honor Code students wrote, and Mock Trial and Speech & Debate taught as classes with their own coach.",
+      "of": "1e68bfbb",
       "at": [
         "trinity-episcopal:honors.headline"
       ],
-      "t": "دو قهرمانی ایالتی در یک سال، و سه قهرمانی پیاپی: تیم Mock Trial در Middle School رقابت North Carolina Bar Foundation را در 2023، 2024 و 2025 برد."
+      "t": "یک Honor Council که دانش‌آموزان هر پاییز انتخاب می‌کنند، یک Honor Code که خودِ دانش‌آموزان نوشته‌اند، و Mock Trial و Speech & Debate که به‌صورت کلاس و با مربی ویژهٔ خود آموزش داده می‌شوند."
     },
     {
-      "text": "Trinity’s recognition record is competitive and civic, not built on chartered societies. There is no honor-society chapter here. Instead there is a courtroom, a debate circuit, and an Honor Council its own students elect.",
-      "of": "ec1df793",
+      "text": "Trinity has no honor-society chapter. Its student leadership runs through an elected Honor Council, and its competitive programs, Mock Trial and Speech & Debate, are part of the Middle School schedule.",
+      "of": "aa98e2c8",
       "at": [
         "trinity-episcopal:honors.subhead"
       ],
-      "t": "کارنامهٔ افتخارات Trinity رقابتی و مدنی است و بر انجمن‌های دارای شعبهٔ رسمی بنا نشده است. این‌جا هیچ شعبه‌ای از انجمن افتخار وجود ندارد. در عوض، یک دادگاه شبیه‌سازی‌شده، یک مسیر رقابت‌های مناظره، و یک Honor Council هست که خودِ دانش‌آموزان اعضایش را انتخاب می‌کنند."
+      "t": "Trinity هیچ شعبه‌ای از انجمن افتخار ندارد. رهبری دانش‌آموزی آن از طریق یک Honor Council منتخب انجام می‌شود، و برنامه‌های رقابتی آن، Mock Trial و Speech & Debate، بخشی از برنامهٔ درسی Middle School هستند."
     },
     {
-      "text": "Three state championships in a row in the North Carolina Bar Foundation’s Middle School competition, coached by Jennifer Bader. The second title was won at the Mecklenburg County Courthouse against five other middle school teams.",
-      "of": "a0928569",
+      "text": "A 7th–8th grade elective, listed as \"Mock Trial and Speech & Debate\", that runs \"on alternating days for the entire academic year.\" Jennifer Bader is the Public Speaking Teacher and the Mock Trial and Speech and Debate Coach.",
+      "of": "18bdee3e",
       "at": [
         "trinity-episcopal:honors.societies[0].recognizes"
       ],
-      "t": "سه قهرمانی ایالتی پیاپی در رقابت Middle School مربوط به North Carolina Bar Foundation، با مربیگری Jennifer Bader. عنوان دوم در Mecklenburg County Courthouse برابر پنج تیم متوسطهٔ اول دیگر به دست آمد."
+      "t": "یک درس اختیاری پایه‌های 7–8، با عنوان \"Mock Trial and Speech & Debate\"، که \"on alternating days for the entire academic year.\" برگزار می‌شود. Jennifer Bader آموزگار سخنوری (Public Speaking Teacher) و مربی Mock Trial و Speech and Debate است."
     },
     {
-      "text": "\"The speech and debate and mock trial teams both won their respective state championships this year.\" Speech & Debate is simultaneously a weekly 7th-grade enrichment and a competitive team, so it is both a class and a club.",
-      "of": "a1c8f308",
+      "text": "A 7th-grade course in public speaking and building and defending an argument. It \"meets every other day for one trimester,\" and students can continue in the 7th–8th Mock Trial and Speech & Debate elective.",
+      "of": "1115d875",
       "at": [
         "trinity-episcopal:honors.societies[1].recognizes"
       ],
-      "t": "\"The speech and debate and mock trial teams both won their respective state championships this year.\" Speech & Debate هم‌زمان یک برنامهٔ غنی‌سازی هفتگی در پایهٔ هفتم و یک تیم رقابتی است، پس هم یک کلاس است و هم یک باشگاه."
+      "t": "یک درس پایهٔ 7 در سخنوری و ساختن و دفاع از یک استدلال. این درس \"meets every other day for one trimester,\"، و دانش‌آموزان می‌توانند در درس اختیاری Mock Trial and Speech & Debate پایه‌های 7–8 ادامه دهند."
     },
     {
-      "text": "Members are \"elected by their grade level peers in Middle School\" and are responsible for encouraging integrity, building a community of trust, and holding fellow students to the pledge. Eighth graders \"often find themselves… leading honor councils\".",
-      "of": "1e5686fb",
+      "text": "\"Each fall, Middle School students elect their peers to serve on the Honor Council.\" It encourages integrity, builds a community of trust, and holds classmates \"to the expectations set out in the Middle School Pledge.\" Serving on it is one of the leadership roles Middle School students take on.",
+      "of": "606aedf2",
       "at": [
         "trinity-episcopal:honors.societies[2].recognizes"
       ],
-      "t": "اعضا \"elected by their grade level peers in Middle School\" هستند و مسئول تشویق به درستکاری، ساختن جامعه‌ای بر پایهٔ اعتماد، و پایبند نگه داشتن هم‌کلاسی‌ها به تعهدنامه‌اند. دانش‌آموزان پایهٔ هشتم \"often find themselves… leading honor councils\"."
+      "t": "\"Each fall, Middle School students elect their peers to serve on the Honor Council.\" این شورا درستکاری را تشویق می‌کند، جامعه‌ای بر پایهٔ اعتماد می‌سازد، و هم‌کلاسی‌ها را \"to the expectations set out in the Middle School Pledge.\" پایبند نگه می‌دارد. عضویت در آن یکی از نقش‌های رهبری است که دانش‌آموزان Middle School بر عهده می‌گیرند."
     },
     {
       "text": "the whole school",
@@ -7711,108 +7682,118 @@
       "t": "خودِ Honor Code"
     },
     {
-      "text": "Written by students, 2002",
-      "of": "fa50bf8b",
+      "text": "Written by students, adopted 2003",
+      "of": "d9ea9a61",
       "at": [
         "trinity-episcopal:honors.adjacent[0].label"
       ],
-      "t": "نوشتهٔ دانش‌آموزان، 2002"
+      "t": "نوشتهٔ دانش‌آموزان، مصوب 2003"
     },
     {
-      "text": "The Honor Code was created by students in 2002. The code carries six pledges: responsibility · doing one’s best · respecting others’ uniqueness · kindness · celebrating joy and beauty · refraining from dishonesty or theft. The whole school recites it together at Greet the Week each Monday morning.",
-      "of": "d396d468",
+      "text": "\"Written by a group of Middle School students and adopted in 2003, the Honor Code is the only code of conduct the Trinity community has ever known and lived by.\" It carries six pledges: be responsible for my actions · always do my best · respect the uniqueness and gifts of others · practice kindness and consideration · celebrate the joyful, beautiful, and enduring · not lie, cheat, or steal.",
+      "of": "ec86e3e1",
       "at": [
         "trinity-episcopal:honors.adjacent[0].text"
       ],
-      "t": "Honor Code را دانش‌آموزان در 2002 پدید آوردند. این آیین‌نامه شش تعهد دارد: مسئولیت‌پذیری · تلاش در حد توان · احترام به یگانگی دیگران · مهربانی · پاسداشت شادی و زیبایی · پرهیز از ناراستی یا دزدی. کل مدرسه هر دوشنبه صبح در Greet the Week آن را با هم می‌خواند."
+      "t": "\"Written by a group of Middle School students and adopted in 2003, the Honor Code is the only code of conduct the Trinity community has ever known and lived by.\" این آیین‌نامه شش تعهد دارد: مسئولیت کارهای خود را بپذیرم · همیشه بهترین تلاشم را بکنم · به یگانگی و توانایی‌های دیگران احترام بگذارم · مهربانی و ملاحظه را به کار ببندم · آنچه شاد، زیبا و ماندگار است را پاس بدارم · دروغ نگویم، تقلب نکنم و دزدی نکنم."
     },
     {
-      "text": "The Middle School Honor Pledge, adopted 2012",
-      "of": "3a3c90a0",
+      "text": "Taught from Kindergarten",
+      "of": "d6dde226",
       "at": [
         "trinity-episcopal:honors.adjacent[1].label"
       ],
-      "t": "تعهدنامهٔ افتخار Middle School، مصوب 2012"
+      "t": "آموزش از Kindergarten"
+    },
+    {
+      "text": "Students learn the Honor Code \"starting in Kindergarten,\" through activities matched to their age. As the school puts it: \"The Honor Code follows you everywhere.\"",
+      "of": "5989c4ad",
+      "at": [
+        "trinity-episcopal:honors.adjacent[1].text"
+      ],
+      "t": "دانش‌آموزان Honor Code را \"starting in Kindergarten,\" از طریق فعالیت‌هایی متناسب با سنشان می‌آموزند. به گفتهٔ مدرسه: \"The Honor Code follows you everywhere.\""
+    },
+    {
+      "text": "The Middle School Pledge",
+      "of": "29a826c0",
+      "at": [
+        "trinity-episcopal:honors.adjacent[2].label"
+      ],
+      "t": "تعهدنامهٔ Middle School"
     },
     {
       "text": "\"As a child of God, I pledge that I have not cheated by giving or receiving help on this work, including plagiarizing. Moreover, I am unaware of any violation of this pledge by other students.\"",
       "of": "3c1bc375",
       "at": [
-        "trinity-episcopal:honors.adjacent[1].text"
+        "trinity-episcopal:honors.adjacent[2].text"
       ],
       "t": "\"As a child of God, I pledge that I have not cheated by giving or receiving help on this work, including plagiarizing. Moreover, I am unaware of any violation of this pledge by other students.\""
     },
     {
-      "text": "The coach",
-      "of": "1f153916",
-      "at": [
-        "trinity-episcopal:honors.adjacent[2].label"
-      ],
-      "t": "مربی"
-    },
-    {
-      "text": "Jennifer Bader is Speech and Debate and Mock Trial Team Coach, and has served as Forensics Committee Chair and a board member of the North Carolina Association for Scholastic Activities. On the team: \"I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections.\" And on why she does it: \"I just love when the light bulb comes on for kids. It’s really challenging material, but they really get into it.\"",
-      "of": "89eb6ef8",
-      "at": [
-        "trinity-episcopal:honors.adjacent[2].text"
-      ],
-      "t": "Jennifer Bader مربی تیم Speech and Debate و Mock Trial است، و پیش‌تر رئیس Forensics Committee و عضو هیئت‌مدیرهٔ North Carolina Association for Scholastic Activities بوده است. دربارهٔ تیم: \"I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections.\" و دربارهٔ انگیزه‌اش: \"I just love when the light bulb comes on for kids. It’s really challenging material, but they really get into it.\""
-    },
-    {
-      "text": "**There is no National Junior Honor Society and no Student Council at Trinity, despite what a web search will tell you.** \"National Junior Honor Society\", \"Junior Honor Society\", \"NJHS\" and \"Student Council\" each return **zero hits** across all 98 sitemap pages and both School Profile PDFs. A search nonetheless returns confident prose describing a Trinity NJHS chapter and a Trinity Student Council; not one word of it is corroborated on the school’s own site, and it is almost certainly another school’s page. Honor Council is the confirmed body.",
-      "of": "e75913a6",
+      "text": "**There is no National Junior Honor Society and no Student Council at Trinity, despite what a web search will tell you.** \"National Junior Honor Society\", \"Junior Honor Society\", \"NJHS\" and \"Student Council\" each return **zero hits** across the old 98-page site, the redesigned site and both School Profile PDFs. A search nonetheless returns confident prose describing a Trinity NJHS chapter and a Trinity Student Council; not one word of it is corroborated on the school’s own site, and it is almost certainly another school’s page. Honor Council is the confirmed body.",
+      "of": "265cba1f",
       "at": [
         "trinity-episcopal:honors.flags[0].text"
       ],
-      "t": "**در Trinity هیچ National Junior Honor Society و هیچ Student Council وجود ندارد، برخلاف آنچه یک جست‌وجوی وب به شما می‌گوید.** عبارت‌های \"National Junior Honor Society\"، \"Junior Honor Society\"، \"NJHS\" و \"Student Council\" هر یک در کل 98 صفحهٔ نقشهٔ سایت و هر دو PDF مربوط به School Profile **صفر نتیجه** برمی‌گردانند. با این حال جست‌وجو متنی با لحن قاطع دربارهٔ یک شعبهٔ NJHS در Trinity و یک Student Council در Trinity برمی‌گرداند؛ حتی یک کلمه از آن در سایت خودِ مدرسه تأیید نمی‌شود، و تقریباً بی‌تردید صفحهٔ مدرسه‌ای دیگر است. Honor Council نهاد تأییدشده است."
+      "t": "**در Trinity هیچ National Junior Honor Society و هیچ Student Council وجود ندارد، برخلاف آنچه یک جست‌وجوی وب به شما می‌گوید.** عبارت‌های \"National Junior Honor Society\"، \"Junior Honor Society\"، \"NJHS\" و \"Student Council\" هر یک در سایت قدیمی 98 صفحه‌ای، سایت بازطراحی‌شده و هر دو PDF مربوط به School Profile **صفر نتیجه** برمی‌گردانند. با این حال جست‌وجو متنی با لحن قاطع دربارهٔ یک شعبهٔ NJHS در Trinity و یک Student Council در Trinity برمی‌گرداند؛ حتی یک کلمه از آن در سایت خودِ مدرسه تأیید نمی‌شود، و تقریباً بی‌تردید صفحهٔ مدرسه‌ای دیگر است. Honor Council نهاد تأییدشده است."
     },
     {
-      "text": "The championships are documented only in the school’s blog — **neither appears in either School Profile PDF**, and individual student recognitions were published there but are omitted here because Trinity is a K–8 school and its competitors are minors. No membership criteria, selection process or team-size history is published for Mock Trial or Speech & Debate beyond the 15-student team figure.",
-      "of": "9222ff56",
+      "text": "The 2023–2025 NC Bar Foundation Mock Trial titles and the Speech & Debate state title were published only in blog posts the fall-2026 redesign did not migrate. Per the live-site-only decision (user, 2026-11-14) they are off the card; the Wayback copies are in source-material/. No current competition result is published.",
+      "of": "615e5377",
       "at": [
         "trinity-episcopal:honors.flags[1].text"
       ],
-      "t": "این قهرمانی‌ها تنها در وبلاگ مدرسه مستند شده‌اند — **هیچ‌یک در هیچ‌کدام از PDFهای School Profile نیامده است** — و تقدیرهای فردی دانش‌آموزان در آن‌جا منتشر شده بود اما این‌جا حذف شده است، چون Trinity یک مدرسهٔ K–8 است و رقابت‌کنندگانش زیر سن قانونی‌اند. برای Mock Trial یا Speech & Debate هیچ معیار عضویت، فرایند گزینش یا سابقهٔ اندازهٔ تیم، فراتر از رقم تیم 15 نفره، منتشر نشده است."
+      "t": "قهرمانی‌های Mock Trial مربوط به NC Bar Foundation در 2023–2025 و عنوان ایالتی Speech & Debate تنها در پست‌های وبلاگی منتشر شده بودند که در بازطراحی پاییز 2026 منتقل نشدند. بنا بر تصمیم «فقط سایت فعال» (کاربر، 2026-11-14)، این موارد از کارت حذف شده‌اند؛ نسخه‌های Wayback در source-material/ هستند. هیچ نتیجهٔ رقابتی فعلی منتشر نشده است."
     },
     {
-      "text": "Mock Trial is a three-peat state champion, and Speech & Debate won state the same year.",
-      "of": "67aa8414",
+      "text": "Mock Trial and Speech & Debate are taught as Middle School classes with their own coach, and students elect an Honor Council each fall.",
+      "of": "95657c4b",
       "at": [
         "trinity-episcopal:clusters.verdict"
       ],
-      "t": "Mock Trial سه دوره پیاپی قهرمان ایالتی است، و Speech & Debate در همان سال قهرمان ایالت شد."
+      "t": "Mock Trial و Speech & Debate به‌صورت کلاس‌های Middle School و با مربی ویژهٔ خود آموزش داده می‌شوند، و دانش‌آموزان هر پاییز یک Honor Council انتخاب می‌کنند."
     },
     {
-      "text": "NC Bar Foundation Middle School state champions — 2023, 2024 and 2025",
-      "of": "b7b46f3d",
+      "text": "A 7th–8th grade elective with its own coach",
+      "of": "047da9b4",
       "at": [
         "trinity-episcopal:clusters.rows[0].oneLiner"
       ],
-      "t": "قهرمانان ایالتی Middle School در NC Bar Foundation — 2023، 2024 و 2025"
+      "t": "یک درس اختیاری پایه‌های 7–8 با مربی ویژهٔ خود"
     },
     {
-      "text": "Trinity’s strongest competitive achievement is academic rather than athletic: three state championships in a row in the North Carolina Bar Foundation’s Middle School Mock Trial competition. The 15-student team is coached by Jennifer Bader. The second title was won at the Mecklenburg County Courthouse against five other middle school teams. Bader: \"I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections.\"",
-      "of": "43e72615",
+      "text": "School-published",
+      "of": "d9983c4e",
+      "at": [
+        "trinity-episcopal:clusters.rows[0].evidenceLabel",
+        "trinity-episcopal:clusters.rows[1].evidenceLabel",
+        "trinity-episcopal:clusters.rows[2].evidenceLabel"
+      ],
+      "t": "منتشرشده از سوی مدرسه"
+    },
+    {
+      "text": "Mock Trial is part of the Middle School schedule. 7th and 8th graders can choose \"Mock Trial and Speech & Debate\" as an elective. It runs \"on alternating days for the entire academic year.\" Jennifer Bader is the Public Speaking Teacher and the Mock Trial and Speech and Debate Coach. No current competition result is published.",
+      "of": "e5124af4",
       "at": [
         "trinity-episcopal:clusters.rows[0].note"
       ],
-      "t": "قوی‌ترین دستاورد رقابتی Trinity تحصیلی است نه ورزشی: سه قهرمانی ایالتی پیاپی در رقابت Mock Trial مقطع Middle School مربوط به North Carolina Bar Foundation. مربی این تیم 15 نفره Jennifer Bader است. عنوان دوم در Mecklenburg County Courthouse برابر پنج تیم متوسطهٔ اول دیگر به دست آمد. Bader: \"I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections.\""
+      "t": "Mock Trial بخشی از برنامهٔ درسی Middle School است. دانش‌آموزان پایه‌های 7 و 8 می‌توانند \"Mock Trial and Speech & Debate\" را به‌عنوان درس اختیاری برگزینند. این درس \"on alternating days for the entire academic year.\" برگزار می‌شود. Jennifer Bader آموزگار سخنوری و مربی Mock Trial و Speech and Debate است. هیچ نتیجهٔ رقابتی فعلی منتشر نشده است."
     },
     {
-      "text": "Also a state champion — and simultaneously a 7th-grade weekly class",
-      "of": "38846987",
+      "text": "A 7th-grade trimester course, and part of the 7th–8th elective",
+      "of": "841923f8",
       "at": [
         "trinity-episcopal:clusters.rows[1].oneLiner"
       ],
-      "t": "آن هم قهرمان ایالتی — و هم‌زمان یک کلاس هفتگی در پایهٔ هفتم"
+      "t": "یک درس یک‌ترمی (trimester) در پایهٔ 7، و بخشی از درس اختیاری پایه‌های 7–8"
     },
     {
-      "text": "The school states it plainly: \"The speech and debate and mock trial teams both won their respective state championships this year.\" Speech & Debate is both a class and a club. The program runs as a weekly 7th-grade enrichment as well as a competitive team, so listing it only among the enrichments understates it. Coach Jennifer Bader has served as Forensics Committee Chair and a board member of the North Carolina Association for Scholastic Activities.",
-      "of": "79a45f31",
+      "text": "The 7th-grade course teaches \"effective communication, critical thinking, and persuasive argumentation,\" and it \"meets every other day for one trimester.\" Students can continue in the Mock Trial and Speech & Debate elective in 7th and 8th grade. Jennifer Bader coaches both.",
+      "of": "867358e4",
       "at": [
         "trinity-episcopal:clusters.rows[1].note"
       ],
-      "t": "مدرسه آن را به‌روشنی بیان می‌کند: \"The speech and debate and mock trial teams both won their respective state championships this year.\" Speech & Debate هم یک کلاس است و هم یک باشگاه. این برنامه هم به‌صورت برنامهٔ غنی‌سازی هفتگی در پایهٔ 7 اجرا می‌شود و هم به‌صورت یک تیم رقابتی، پس آوردن آن تنها در میان برنامه‌های غنی‌سازی کم‌بها دادن به آن است. مربی Jennifer Bader پیش‌تر رئیس Forensics Committee و عضو هیئت‌مدیرهٔ North Carolina Association for Scholastic Activities بوده است."
+      "t": "درس پایهٔ 7 \"effective communication, critical thinking, and persuasive argumentation,\" را آموزش می‌دهد، و \"meets every other day for one trimester.\" دانش‌آموزان می‌توانند در پایه‌های 7 و 8 در درس اختیاری Mock Trial and Speech & Debate ادامه دهند. Jennifer Bader مربی هر دو است."
     },
     {
       "text": "Honor Council",
@@ -7823,28 +7804,20 @@
       "t": "Honor Council"
     },
     {
-      "text": "Elected by grade-level peers in Middle School; Honor Code written by students in 2002",
-      "of": "cc02bd0e",
+      "text": "Elected by Middle School students each fall; Honor Code written by students, adopted 2003",
+      "of": "5cb077f1",
       "at": [
         "trinity-episcopal:clusters.rows[2].oneLiner"
       ],
-      "t": "انتخاب‌شده به دست هم‌پایه‌ای‌ها در Middle School؛ Honor Code را دانش‌آموزان در 2002 نوشتند"
+      "t": "هر پاییز به دست دانش‌آموزان Middle School انتخاب می‌شود؛ Honor Code را دانش‌آموزان نوشتند، مصوب 2003"
     },
     {
-      "text": "School-published",
-      "of": "d9983c4e",
-      "at": [
-        "trinity-episcopal:clusters.rows[2].evidenceLabel"
-      ],
-      "t": "منتشرشده از سوی مدرسه"
-    },
-    {
-      "text": "Members are \"elected by their grade level peers in Middle School\" and hold fellow students to the Honor Pledge adopted in 2012. The Honor Code was created by students in 2002. The Honor Council is the school’s only confirmed honor or leadership body. There is no National Junior Honor Society and no Student Council anywhere on the site or in either School Profile, despite third-party pages claiming both.",
-      "of": "e8d98018",
+      "text": "\"Each fall, Middle School students elect their peers to serve on the Honor Council.\" It holds classmates \"to the expectations set out in the Middle School Pledge.\" The Honor Code was written by a group of Middle School students and adopted in 2003. The Honor Council is the school’s only confirmed honor or leadership body. There is no National Junior Honor Society and no Student Council anywhere on the site or in the School Profile, despite third-party pages claiming both.",
+      "of": "0df6ac63",
       "at": [
         "trinity-episcopal:clusters.rows[2].note"
       ],
-      "t": "اعضا \"elected by their grade level peers in Middle School\" هستند و هم‌کلاسی‌ها را به تعهدنامهٔ افتخار مصوب 2012 پایبند نگه می‌دارند. Honor Code را دانش‌آموزان در 2002 پدید آوردند. Honor Council تنها نهاد افتخار یا رهبری تأییدشدهٔ مدرسه است. هیچ National Junior Honor Society و هیچ Student Council در هیچ جای سایت یا در هیچ‌کدام از دو School Profile نیست، هرچند صفحه‌های شخص ثالث هر دو را ادعا می‌کنند."
+      "t": "\"Each fall, Middle School students elect their peers to serve on the Honor Council.\" این شورا هم‌کلاسی‌ها را \"to the expectations set out in the Middle School Pledge.\" پایبند نگه می‌دارد. Honor Code را گروهی از دانش‌آموزان Middle School نوشتند و در 2003 تصویب شد. Honor Council تنها نهاد افتخار یا رهبری تأییدشدهٔ مدرسه است. هیچ National Junior Honor Society و هیچ Student Council در هیچ جای سایت یا در School Profile نیست، هرچند صفحه‌های شخص ثالث هر دو را ادعا می‌کنند."
     },
     {
       "text": "Profile-listed academic clubs →",
@@ -7871,12 +7844,12 @@
       "t": "تک‌منبعی"
     },
     {
-      "text": "Odyssey of the Mind is a national creative problem-solving competition at other schools. But no Trinity participation or result is published, so this row claims no competitive result. The 2025-26 profile also listed MathCats and Book Club. Both are gone from the 26-27 edition.",
-      "of": "20e41298",
+      "text": "Odyssey of the Mind is a national creative problem-solving competition at other schools. But no Trinity participation or result is published, so this row claims no competitive result.",
+      "of": "4a2b74d8",
       "at": [
         "trinity-episcopal:clusters.rows[3].note"
       ],
-      "t": "Odyssey of the Mind در مدرسه‌های دیگر یک رقابت کشوری حل خلاقانهٔ مسئله است. اما هیچ شرکت یا نتیجه‌ای از Trinity منتشر نشده است، پس این ردیف هیچ نتیجهٔ رقابتی‌ای ادعا نمی‌کند. نمایهٔ 2025-26 همچنین MathCats و Book Club را فهرست کرده بود. هر دو از نسخهٔ 26-27 حذف شده‌اند."
+      "t": "Odyssey of the Mind در مدرسه‌های دیگر یک رقابت کشوری حل خلاقانهٔ مسئله است. اما هیچ شرکت یا نتیجه‌ای از Trinity منتشر نشده است، پس این ردیف هیچ نتیجهٔ رقابتی‌ای ادعا نمی‌کند."
     },
     {
       "text": "17 clubs across both divisions.",
@@ -7928,60 +7901,46 @@
       "t": "پرتحرک و فضای باز"
     },
     {
-      "text": "Lower School, grades K–5 — an affinity group and mentoring program for students of color; all students of color are invited and the family decides whether to take part",
-      "of": "6f550810",
+      "text": "Lower School — named in the 2026-27 School Profile. The school describes its affinity groups as \"inclusive spaces for students and adults that are built around shared identities and experiences\"",
+      "of": "b6352e8c",
       "at": [
         "trinity-episcopal:catalog.clubs[0].note"
       ],
-      "t": "Lower School، پایه‌های K–5 — یک گروه هویتی و برنامهٔ مربی‌گری برای دانش‌آموزان رنگین‌پوست؛ همهٔ دانش‌آموزان رنگین‌پوست دعوت می‌شوند و خانواده تصمیم می‌گیرد که شرکت کند یا نه"
+      "t": "Lower School — نام‌برده در School Profile سال 2026-27. مدرسه گروه‌های هویتی خود را \"inclusive spaces for students and adults that are built around shared identities and experiences\" توصیف می‌کند"
     },
     {
-      "text": "Middle School — for students who self-identify as students of color; meets weekly on cultural sensitivity, academic success, socio-political issues and preparation for high school",
-      "of": "98fdba28",
+      "text": "Middle School — named in the 2026-27 School Profile; no description is published",
+      "of": "ba595dc6",
       "at": [
-        "trinity-episcopal:catalog.clubs[1].note"
-      ],
-      "t": "Middle School — برای دانش‌آموزانی که خود را دانش‌آموز رنگین‌پوست می‌دانند؛ هفتگی دربارهٔ حساسیت فرهنگی، موفقیت تحصیلی، مسائل اجتماعی-سیاسی و آمادگی برای دبیرستان تشکیل جلسه می‌دهد"
-    },
-    {
-      "text": "Middle School — for students who self-identify as white; discusses unearned privilege and the actions students can take as allies",
-      "of": "86d25991",
-      "at": [
-        "trinity-episcopal:catalog.clubs[2].note"
-      ],
-      "t": "Middle School — برای دانش‌آموزانی که خود را سفیدپوست می‌دانند؛ دربارهٔ امتیاز ناکسب‌شده و کارهایی که دانش‌آموزان می‌توانند به‌عنوان هم‌پیمان انجام دهند گفت‌وگو می‌کند"
-    },
-    {
-      "text": "Middle School — human-rights discussion and activities with a focus on gay, lesbian, bisexual, questioning and transgender issues; has organized a Pride Chapel",
-      "of": "dfd7c1b3",
-      "at": [
+        "trinity-episcopal:catalog.clubs[1].note",
+        "trinity-episcopal:catalog.clubs[2].note",
         "trinity-episcopal:catalog.clubs[3].note"
       ],
-      "t": "Middle School — گفت‌وگو و فعالیت در زمینهٔ حقوق بشر با تمرکز بر مسائل همجنس‌گرایان مرد و زن، دوجنس‌گرایان، افراد در حال پرسش از هویت و ترنس‌جندرها؛ یک Pride Chapel برگزار کرده است"
+      "t": "Middle School — نام‌برده در School Profile سال 2026-27؛ هیچ توصیفی منتشر نشده است"
     },
     {
-      "text": "Listed among Middle School student clubs in the School Profile. But the school’s own affinity-groups page describes it as one of four PARENT groups, for families of children with learning differences",
-      "of": "c16f26cd",
+      "text": "Listed among Middle School clubs and groups in the 2026-27 School Profile and nowhere else on the site; no description is published",
+      "of": "13c21ed5",
       "at": [
         "trinity-episcopal:catalog.clubs[4].note"
       ],
-      "t": "در School Profile در میان باشگاه‌های دانش‌آموزی Middle School فهرست شده است. اما صفحهٔ گروه‌های هویتی خودِ مدرسه آن را یکی از چهار گروه والدین توصیف می‌کند، برای خانواده‌های کودکان دارای تفاوت‌های یادگیری"
+      "t": "در School Profile سال 2026-27 در میان باشگاه‌ها و گروه‌های Middle School فهرست شده و در هیچ جای دیگر سایت نیامده؛ هیچ توصیفی منتشر نشده است"
     },
     {
-      "text": "Middle School, 15 students, coached by Jennifer Bader — North Carolina Bar Foundation state champions in 2023, 2024 and 2025. Named in the school’s blog, not in either School Profile",
-      "of": "c62afe43",
+      "text": "Middle School — one of the 7th–8th grade electives, listed as \"Mock Trial and Speech & Debate\", running on alternating days all year. Coached by Jennifer Bader, the school’s Mock Trial and Speech and Debate Coach",
+      "of": "60f94103",
       "at": [
         "trinity-episcopal:catalog.clubs[5].note"
       ],
-      "t": "Middle School، 15 دانش‌آموز، با مربیگری Jennifer Bader — قهرمانان ایالتی North Carolina Bar Foundation در 2023، 2024 و 2025. در وبلاگ مدرسه نام برده شده، نه در هیچ‌کدام از دو School Profile"
+      "t": "Middle School — یکی از درس‌های اختیاری پایه‌های 7–8، با عنوان \"Mock Trial and Speech & Debate\"، که در تمام سال یک روز در میان برگزار می‌شود. با مربیگری Jennifer Bader، مربی Mock Trial و Speech and Debate مدرسه"
     },
     {
-      "text": "State champions the same year as Mock Trial, and simultaneously a weekly 7th-grade enrichment class — both a class and a team. Also coached by Jennifer Bader",
-      "of": "85b42704",
+      "text": "A 7th-grade course that meets every other day for one trimester, and part of the 7th–8th Mock Trial and Speech & Debate elective. Also coached by Jennifer Bader",
+      "of": "890e3145",
       "at": [
         "trinity-episcopal:catalog.clubs[6].note"
       ],
-      "t": "قهرمانان ایالتی در همان سالی که Mock Trial قهرمان شد، و هم‌زمان یک کلاس غنی‌سازی هفتگی در پایهٔ هفتم — هم یک کلاس و هم یک تیم. مربی آن نیز Jennifer Bader است"
+      "t": "یک درس پایهٔ 7 که به مدت یک ترم (trimester) یک روز در میان برگزار می‌شود، و بخشی از درس اختیاری Mock Trial and Speech & Debate پایه‌های 7–8. مربی آن نیز Jennifer Bader است"
     },
     {
       "text": "Named in the 2026-27 School Profile and nowhere else on the site; no description, advisor or competition result is published",
@@ -7992,12 +7951,12 @@
       "t": "در School Profile سال 2026-27 نام برده شده و در هیچ جای دیگر سایت نیامده؛ هیچ توصیف، سرپرست یا نتیجهٔ رقابتی منتشر نشده است"
     },
     {
-      "text": "Named in the 2026-27 School Profile and nowhere else on the site; no description is published. The 2025-26 profile also listed a MathCats club, which is absent from the 26-27 edition",
-      "of": "5ff4c723",
+      "text": "Named in the 2026-27 School Profile and nowhere else on the site; no description is published",
+      "of": "9b367476",
       "at": [
         "trinity-episcopal:catalog.clubs[8].note"
       ],
-      "t": "در School Profile سال 2026-27 نام برده شده و در هیچ جای دیگر سایت نیامده؛ هیچ توصیفی منتشر نشده است. نمایهٔ 2025-26 باشگاهی به نام MathCats را هم فهرست کرده بود که در نسخهٔ 26-27 وجود ندارد"
+      "t": "در School Profile سال 2026-27 نام برده شده و در هیچ جای دیگر سایت نیامده؛ هیچ توصیفی منتشر نشده است"
     },
     {
       "text": "Named in the 2026-27 School Profile as a Middle School club; the phrase appears elsewhere on the site only as a teacher’s conference topic, never as a club",
@@ -8008,20 +7967,20 @@
       "t": "در School Profile سال 2026-27 به‌عنوان یک باشگاه Middle School نام برده شده؛ این عبارت در جاهای دیگر سایت تنها به‌عنوان موضوع همایش یک معلم آمده است، و هرگز به‌عنوان یک باشگاه"
     },
     {
-      "text": "Middle School, elected by grade-level peers — encourages integrity and holds students to the Honor Pledge adopted in 2012. The Honor Code was written by students in 2002",
-      "of": "a621db8a",
+      "text": "Middle School — \"Each fall, Middle School students elect their peers to serve on the Honor Council,\" which holds classmates to the Middle School Pledge. The Honor Code was written by Middle School students and adopted in 2003",
+      "of": "c3e94cb9",
       "at": [
         "trinity-episcopal:catalog.clubs[10].note"
       ],
-      "t": "Middle School، انتخاب‌شده به دست هم‌پایه‌ای‌ها — به درستکاری تشویق می‌کند و دانش‌آموزان را به تعهدنامهٔ افتخار مصوب 2012 پایبند نگه می‌دارد. Honor Code را دانش‌آموزان در 2002 نوشتند"
+      "t": "Middle School — \"Each fall, Middle School students elect their peers to serve on the Honor Council,\"؛ این شورا هم‌کلاسی‌ها را به تعهدنامهٔ Middle School پایبند نگه می‌دارد. Honor Code را دانش‌آموزان Middle School نوشتند و در 2003 تصویب شد"
     },
     {
-      "text": "Middle School — representatives of the Koinonia advisory groups, each of 10–12 students and one adult leader, which meet every morning for check-in and twice a week for activities",
-      "of": "c875a84a",
+      "text": "Middle School — representatives of the Koinonia advisory groups. At commencement, 8th-grade Koinonia leaders present the graduating class’s banner, which hangs from the Gym rafters",
+      "of": "2edebebc",
       "at": [
         "trinity-episcopal:catalog.clubs[11].note"
       ],
-      "t": "Middle School — نمایندگان گروه‌های مشاورهٔ Koinonia، هر یک با 10–12 دانش‌آموز و یک سرپرست بزرگسال، که هر روز صبح برای حضور و غیاب و هفته‌ای دو بار برای فعالیت گرد هم می‌آیند"
+      "t": "Middle School — نمایندگان گروه‌های مشاورهٔ Koinonia. در مراسم فارغ‌التحصیلی، دانش‌آموزان رهبر Koinonia در پایهٔ 8 بنر دورهٔ فارغ‌التحصیلان را تقدیم می‌کنند که از تیرهای سقف Gym آویخته می‌شود"
     },
     {
       "text": "Named in the 2026-27 School Profile and nowhere else on the site; no description, advisor or activity is published",
@@ -8032,28 +7991,28 @@
       "t": "در School Profile سال 2026-27 نام برده شده و در هیچ جای دیگر سایت نیامده؛ هیچ توصیف، سرپرست یا فعالیتی منتشر نشده است"
     },
     {
-      "text": "Named in the 2026-27 School Profile and nowhere else on the site. The school’s chapel rhythm around it is published: bi-weekly K–2 and 3–5 chapels, a weekly 6–8 chapel, and a K–8 chapel every Friday in the Gym",
-      "of": "a2ba1f8f",
+      "text": "In February 2026 the school announced \"the creation of a Chapel Music Affinity Group in Middle School.\" Matt Moorman is Middle School Chaplain and Music Chaplain. Around it: biweekly Lower School chapels, a weekly Middle School chapel on Wednesdays, and a K–8 chapel every Friday in the Gym",
+      "of": "c818de56",
       "at": [
         "trinity-episcopal:catalog.clubs[13].note"
       ],
-      "t": "در School Profile سال 2026-27 نام برده شده و در هیچ جای دیگر سایت نیامده. آهنگ برگزاری مراسم نیایش پیرامون آن منتشر شده است: مراسم K–2 و 3–5 هر دو هفته یک بار، مراسم 6–8 هفتگی، و یک مراسم K–8 هر جمعه در Gym"
+      "t": "در فوریهٔ 2026 مدرسه \"the creation of a Chapel Music Affinity Group in Middle School.\" را اعلام کرد. Matt Moorman کشیش Middle School و کشیش موسیقی (Music Chaplain) است. پیرامون آن: مراسم نیایش Lower School هر دو هفته یک بار، یک مراسم نیایش هفتگی Middle School در روزهای چهارشنبه، و یک مراسم K–8 هر جمعه در Gym"
     },
     {
-      "text": "Lower School — Trinity was Girls on the Run’s second independent-school chapter and it \"continues to be a popular program for students in grades 3-5\"; founder Molly Barker is a Trinity alumni parent. Let Me Run, named in the same profile entry, returns no hits on the site",
-      "of": "5f736128",
+      "text": "Lower School — named as one entry, \"Girls on the Run & Let Me Run\", in the 2026-27 School Profile. Trinity Extended Day also offers \"boys and girls run clubs\" among its paid seasonal enrichments",
+      "of": "f247d025",
       "at": [
         "trinity-episcopal:catalog.clubs[14].note"
       ],
-      "t": "Lower School — Trinity دومین شعبهٔ Girls on the Run در مدارس مستقل بود و این برنامه \"continues to be a popular program for students in grades 3-5\"؛ بنیان‌گذار آن Molly Barker از والدین فارغ‌التحصیلان Trinity است. Let Me Run، که در همان مدخل نمایه نام برده شده، در سایت هیچ نتیجه‌ای برنمی‌گرداند"
+      "t": "Lower School — در School Profile سال 2026-27 به‌صورت یک مدخل واحد، \"Girls on the Run & Let Me Run\"، نام برده شده است. Trinity Extended Day نیز \"boys and girls run clubs\" را در میان برنامه‌های غنی‌سازی فصلی پولی خود ارائه می‌دهد"
     },
     {
-      "text": "Listed as a Lower School club in the School Profile. But it is confirmed on the site only as a paid Trinity Extended Day enrichment offered \"for an additional fee\", alongside music lessons, karate and cheer club",
-      "of": "3a6145d7",
+      "text": "Listed as a Lower School club in the School Profile. On the site it appears as a paid Trinity Extended Day enrichment: \"seasonal enrichments are offered for an additional fee. These include chess club, boys and girls run clubs, music lessons, and much more.\"",
+      "of": "a10ca580",
       "at": [
         "trinity-episcopal:catalog.clubs[15].note"
       ],
-      "t": "در School Profile به‌عنوان یک باشگاه Lower School فهرست شده است. اما در سایت تنها به‌عنوان یک برنامهٔ غنی‌سازی پولی Trinity Extended Day تأیید می‌شود که \"for an additional fee\" ارائه می‌گردد، در کنار کلاس موسیقی، کاراته و باشگاه تشویق"
+      "t": "در School Profile به‌عنوان یک باشگاه Lower School فهرست شده است. در سایت به‌عنوان یک برنامهٔ غنی‌سازی پولی Trinity Extended Day دیده می‌شود: \"seasonal enrichments are offered for an additional fee. These include chess club, boys and girls run clubs, music lessons, and much more.\""
     },
     {
       "text": "Named in the 2026-27 School Profile and nowhere else on the site; no description of any kind is published, and the name gives no clue to its purpose",
@@ -8078,14 +8037,6 @@
         "charlotte-prep:service.subhead"
       ],
       "t": "مدرسه پنج هدف برای آن برمی‌شمارد، از \"nurture compassion and empathy for others\" تا \"develop a life-long commitment to service and our society\". \"The leadership curriculum expounds on the idea of servant leadership and the importance of civic engagement.\""
-    },
-    {
-      "text": "2",
-      "of": "370cabd5",
-      "at": [
-        "charlotte-prep:service.programs[0].value"
-      ],
-      "t": "2"
     },
     {
       "text": "annual service days",

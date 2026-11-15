@@ -24,15 +24,22 @@
 // half-day morning campers cannot buy after-care at all.
 //
 // Trinity is K-8, and the camp is rising K-8: there is no high-school band here.
+//
+// THE 2026 SEASON, LABELED AS SUCH (user, 2026-11-14, trinitysite). After the
+// fall 2026 redesign the live camp page only says "Check back in January 2027
+// for Camp Registration!" — no dates, camps or prices. The 2026 CSV grid and
+// the fees doc still open (unlinked) and are the school's own, so the 2026
+// slate, prices and fees stay, with every headline and subhead saying plainly
+// that this is the 2026 season. Refresh when the 2027 catalog posts.
 
 import type { SummerProgram } from '../summerPrograms.ts'
 
 export const trinityEpiscopal: SummerProgram = {
   catalog: {
     headline:
-      '75 named camps across six weeks for rising K–8, from a $225 half-day craft camp to a $785 three-week academic session. Camps are open to any child in the community, not only Trinity families.',
+      'The 2026 season: 75 named camps across six weeks for rising K–8, from a $225 half-day craft camp to a $785 three-week academic session. Camps are open to any child in the community, not only Trinity families.',
     subhead:
-      'Camps run 15 June to 24 July 2026 on the uptown campus. Half days are 9 a.m.–12 p.m. or 1–4 p.m., full days 9 a.m.–4 p.m., and two of the six weeks are four-day weeks.',
+      'The 2026 camps ran 15 June to 24 July 2026 on the uptown campus, and two of the six weeks were four-day weeks. Registration for 2027 opens in January: "Check back in January 2027 for Camp Registration!" Half days are 9 a.m.–12 p.m. or 1–4 p.m., and full days 9 a.m.–4 p.m. Drop-off starts at 8:45 a.m., or 12:45 p.m. for an afternoon half-day camp.',
     // No intro (user, 2026-09-16) — it explained the SAMPLING (33 of 85 rows)
     // and restated slate statistics the headline and the catalog already give.
     // The TES-Academy-is-students-only caveat goes with it; both remain in
@@ -437,28 +444,28 @@ export const trinityEpiscopal: SummerProgram = {
       /* ------------------------------------------------------- July 20-24 -- */
       {
         name: 'Camp Independence Sr. - The Experience!',
-        desc: 'Run by the Venture Outdoor Leadership program at UNC-Charlotte, and the second-highest price on the slate. Runs Monday and Tuesday only.',
+        desc: 'Run by the Venture Outdoor Leadership program at UNC-Charlotte, and the second-highest price on the slate. Day camp Monday and Tuesday, an overnight Wednesday to Thursday, then Friday morning with noon pick-up.',
         category: 'sports',
         categoryLabel: 'Sports & outdoors',
         grades: ['6', '7', '8'],
         gradeLabel: 'Rising 6-8',
         days: [],
-        dayLabel: 'Mon–Tue',
+        dayLabel: 'Mon–Fri',
         price: '$595',
-        hours: '9-4p M-Tu',
+        hours: '9-4p M-Tu · 9a W-Th (overnight) · 9-12p Fri',
         weeks: 'July 20-24',
       },
       {
         name: 'Camp Independence - The Next Level!',
-        desc: 'The younger Venture Outdoor Leadership section, also Monday and Tuesday only.',
+        desc: 'The younger Venture Outdoor Leadership section, on the same schedule: day camp Monday and Tuesday, an overnight Wednesday to Thursday, then Friday morning with noon pick-up.',
         category: 'sports',
         categoryLabel: 'Sports & outdoors',
         grades: ['4', '5'],
         gradeLabel: 'Rising 4-5',
         days: [],
-        dayLabel: 'Mon–Tue',
+        dayLabel: 'Mon–Fri',
         price: '$525',
-        hours: '9-4p M-Tu',
+        hours: '9-4p M-Tu · 9a W-Th (overnight) · 9-12p Fri',
         weeks: 'July 20-24',
       },
       {
@@ -521,7 +528,7 @@ export const trinityEpiscopal: SummerProgram = {
     sources: [
       {
         label: 'tescharlotte.org — Wildcat Summer Camp',
-        url: 'https://www.tescharlotte.org/community/wildcat-summer-camp.cfm',
+        url: 'https://www.tescharlotte.org/community/wildcat-summer-camp',
       },
       {
         label: 'Weekly camp grid (the school\'s own CSV schedule — authoritative)',
@@ -540,9 +547,9 @@ export const trinityEpiscopal: SummerProgram = {
 
   costPlanner: {
     headline:
-      'Six weeks, and Trinity’s 83 priced camps fall into five clean bands — pick one, set the weeks, and add the care a working family needs.',
+      'In the 2026 season, Trinity’s 83 priced camps fell into five clean bands. Pick one, set the weeks, and add the care a working family needs.',
     subhead:
-      'Lunch is not sold at camp in any form: campers bring their own. And a half-day morning camper cannot buy after-care at all, which is the constraint most likely to break a plan.',
+      'These are the 2026 prices and terms. Lunch is not sold at camp in any form: campers bring their own. And a half-day morning camper cannot buy after-care at all, which is the constraint most likely to break a plan.',
     maxWeeks: 6,
     defaultWeeks: 3,
     defaultTier: 'mid',
@@ -615,7 +622,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         label:
-          '**Lunch is bring-your-own** — no FLIK option, unlike the school year. A camper stacking two half-days **stays on campus for lunch and recess** before the 1:00 session. The camp "strives to be nut-free"; snacks required, one per half day.',
+          '**Lunch is bring-your-own** — no FLIK option, unlike the school year. A camper stacking two half-days **stays on campus for lunch and recess** before the 1:00 session. Snacks are required, one per half day. **No nuts:** "please do not send any snacks containing nuts to camp. We will also discourage the sharing of snacks for this reason."',
         note: true,
       },
       {
@@ -625,7 +632,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
     ],
     aside: {
-      title: 'Registrations become final on May 1.',
+      title: '2026 terms: registrations become final on May 1.',
       text: 'The balance is due and withdrawn from the account on file that day. Registering on or after 1 May means paying in full. **All TES Academy camps require payment in full at registration.** Online registration closes a week before each session. A **$25 administration fee** may be assessed for a late registration or a camp switch. Refunds are generally not issued after 1 May, though a canceled registration\'s deposit and fee can be transferred to another camp.',
     },
     // No flags (user, 2026-09-16) — research apparatus about the camp
@@ -647,7 +654,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         label: 'tescharlotte.org — Wildcat Summer Camp',
-        url: 'https://www.tescharlotte.org/community/wildcat-summer-camp.cfm',
+        url: 'https://www.tescharlotte.org/community/wildcat-summer-camp',
       },
     ],
   },

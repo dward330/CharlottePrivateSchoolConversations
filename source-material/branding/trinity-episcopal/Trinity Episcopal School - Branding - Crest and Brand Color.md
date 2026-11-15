@@ -20,6 +20,37 @@ the Charlotte NC K–8 school at 750 E. 9th Street. Not to be confused with:
 - **Trinity Episcopal School, Austin TX** (`austintrinity.org`)
 - **Trinity Episcopal School, New Orleans LA** (`trinitynola.org`)
 
+### Live-site recheck, 2026-11-14
+
+Trinity moved its site to Finalsite. The homepage still answers 200
+(https://www.tescharlotte.org/, fetched 2026-11-14, `<title>Home - Trinity Episcopal
+School`). The other four source URLs above now return 404.
+
+| Old URL | Now | Wayback |
+|---|---|---|
+| `/implementation_colors.css` | GONE — colors now set inline on every page | https://web.archive.org/web/20260320130347/https://www.tescharlotte.org/implementation_colors.css?v=07032023090705 |
+| `/css.css` | GONE | https://web.archive.org/web/20260320130336/https://www.tescharlotte.org/css.css?v=07032023090705 |
+| `/editoruploads/images/Logos/logo.png` | GONE | https://web.archive.org/web/20260924003400/https://www.tescharlotte.org/editoruploads/images/Logos/logo.png |
+| `/editoruploads/images/Logos/footer_logo.png` | GONE | https://web.archive.org/web/20260924003400/https://www.tescharlotte.org/editoruploads/images/Logos/footer_logo.png |
+
+**Brand colors — confirmed unchanged.** The new homepage declares them in an inline
+`<style id="fsHSLColors">` block, verbatim: "--primary-color-h: 208.6;" … "--primary-color:
+#002D56;" … "--secondary-color: #006F51;". Same primary, same 208.6° hue, same secondary.
+The app's `#004a8e` derivation still holds.
+
+**Logos — same crest, new files.** The new site serves white (reversed) logos from the
+Finalsite CDN:
+https://resources.finalsite.net/images/v1784040965/tescharlotteorg/mszgeapwzln7lesz3qgi/secondary-logo.png
+(3179 × 1026, the TRINITY / EPISCOPAL / SCHOOL wordmark beside the shield crest) and
+https://resources.finalsite.net/images/v1784040965/tescharlotteorg/h3po2air3whcdr2xl9nw/primary-logo.png
+(207 × 293). The crest is the same design: a shield with a double outline, a cross with
+flared arms, and a central roundel with the "eTS" monogram. `public/logos/trinity-episcopal.png`
+still matches the school's mark. The navy `logo.png` it was cut from is no longer
+served (Wayback capture above).
+
+**Address** (footer of every page): "750 E. 9th Street / Charlotte NC 28202 / Phone:
+704.358.8101" — unchanged.
+
 ## Source URLs
 
 - Homepage — https://www.tescharlotte.org/
@@ -43,6 +74,8 @@ The school's CMS exposes a stylesheet whose own comments name the palette roles.
 magnitude ahead of any other color, and an exact match for the declared primary.
 The wordmark and the crest are both drawn in it. **There is no green anywhere in
 the mark**; `#006f51` is a UI accent for buttons, not part of the school's identity.
+
+*Superseded 2026-11-14 — see Live-site recheck* — both stylesheets and `logo.png` are gone. The new site declares the same two colors inline and serves the same crest from new files.
 
 ## The crest
 

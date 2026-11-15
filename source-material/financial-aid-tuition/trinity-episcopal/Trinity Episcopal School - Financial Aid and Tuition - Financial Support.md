@@ -9,6 +9,87 @@
   Every figure read verbatim from a retrieved document.
 - **School:** Trinity Episcopal School, 750 E. 9th Street, Charlotte, NC 28202 — **K–8**.
 
+### Live-site recheck, 2026-11-14
+
+Trinity moved its whole site to Finalsite; every source URL above except the Wayback
+TimeMap now returns 404. Checked against the local crawl of the new site (2026-11-14).
+**The new live pages override the facts below wherever they differ.**
+
+| Old URL | New URL | Wayback (latest 200 snapshot) |
+|---|---|---|
+| `/admission/tuition-affordability.cfm` | https://www.tescharlotte.org/admissions/tuition-financial-support | https://web.archive.org/web/20260714073615/https://www.tescharlotte.org/admission/tuition-affordability.cfm |
+| `/admission/admission-process.cfm` | https://www.tescharlotte.org/admissions/applying-to-trinity | https://web.archive.org/web/20260714070617/https://www.tescharlotte.org/admission/admission-process.cfm |
+| `/editoruploads/files/26-27SchoolProfile.pdf` | https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf (linked as "School Profile" from /about-us/trinity-at-a-glance) | none captured |
+
+**Confirmed unchanged (verbatim, tuition-financial-support):**
+
+> "All qualified families may apply for financial support through Clarity. Financial
+> awards are based on demonstrated need as assessed by Clarity. The application for
+> financial support has no bearing on admission."
+> "Dec. 1, 2026: Deadline for returning families seeking financial support for 2027-28.
+> This includes returning families that currently receive financial support and those that
+> do not but will seek it next year."
+> "Feb. 1, 2027: Financial support application deadline for families with a child
+> beginning at Trinity in fall 2027."
+
+The 2026-27 profile is unchanged (same 841,498 bytes; text identical): "Financial Support
+Recipients: 31% of students (excludes Tuition Remission)", "Financial Support Awards:
+$2,139,114", "Operating Budget ('26-'27): $11.09 million", "Enrollment: 419". The new
+Trinity At a Glance page rounds it: "$2.1 million / Financial support awarded (26-27)" and
+"419 / Total 26-27 enrollment (K-8)".
+
+**Changed:**
+
+- **The admission-process stale date is fixed.** applying-to-trinity now reads: "The
+  financial support application deadline for prospective families is February 1, 2027."
+  The "school-side error to preserve" below no longer exists on the live site (it is a
+  historical record of the old page only).
+- **The Clarity guide is the 2027-28 edition:** link text "2027-28 Clarity Family
+  Application Guide" →
+  https://drive.google.com/file/d/1DgVzX9VYJtoFMZiw8IWnYkPnhj5g2M22/preview. The guide
+  states: "The Clarity application fee is $65 and covers all the Clarity schools you're
+  applying to and any number of children in your household."
+- **NC Opportunity Scholarship is now REQUIRED for aid applicants, not "an additional
+  option".** Verbatim: "Trinity has accepted the Opportunity Scholarship since the
+  program's beginning in 2014. Families seeking financial support to attend Trinity are
+  required to also apply for an Opportunity Scholarship." / "For the 2027-28 school year:
+  Applications for Opportunity Scholarships for the 2027-28 school year will open on the
+  first Monday of February 2027. Families will be notified if they have been awarded a
+  scholarship beginning in April 2027." The old quote ("an additional option for you to
+  explore beyond financial support … North Carolina State Education Assistance
+  Authority") is not on the live site. The program link is
+  https://k12.ncseaa.edu/opportunity-scholarship/.
+- **The application fee is now published:** "you will receive instructions on paying the
+  $100 application fee" (applying-to-trinity). The "confirmed absent" row below is
+  superseded.
+
+**New on the live site:**
+
+- "If you are applying for financial support, contact the Admission Office before
+  submitting your application. You will receive a separate email with next steps on
+  completing your application." and "Financial support applications are conducted online
+  via Clarity and take about 20 minutes to complete." (applying-to-trinity)
+- "Trinity Episcopal School strives to attract and admit a student body that reflects the
+  greater Charlotte community, both socio-economically and culturally." and "Since our
+  founding, we have been committed to making a Trinity Episcopal School education possible
+  for families of all socio-economic means." (tuition-financial-support)
+
+- **A named endowed scholarship is now published** (https://www.tescharlotte.org/give/ways-to-give,
+  "Endowments"): "Mayor Vi Lyles Endowed Scholarship: In celebration of Mayor Vi Lyles'
+  service to Charlotte, an endowed scholarship at Trinity Episcopal School has been created
+  to further Trinity's mission of allowing families from all socioeconomic backgrounds to
+  experience a Trinity education." and "The Trinity Endowment: Supports the overall mission
+  of Trinity in perpetuity, through financial support to families and professional
+  development for faculty and staff." No amount, criteria or award count is given. "Merit"
+  appears nowhere on the new site.
+
+**Still absent:** enrollment deposit (0 hits for "deposit" across the crawl); average award
+size; any aid figure by grade band; any merit scholarship.
+
+**The three-point aid series is historical.** The 2023-24 and 2025-26 sentences came from
+archived tuition pages and remain true of those years; the new tuition page carries no
+"awarded" sentence either.
+
 ## Source URLs
 
 - Tuition & affordability — https://www.tescharlotte.org/admission/tuition-affordability.cfm
@@ -56,6 +137,8 @@ in the archive plus the current profile PDF — another reason the PDF capture m
 **This independently vindicates rejecting the third-party "over 25%" claim**: the school's
 own trajectory runs 26% → 29% → 31%.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ## How to apply
 
 **Platform: Clarity.** Verbatim:
@@ -65,6 +148,8 @@ own trajectory runs 26% → 29% → 31%.
 
 Portal: `app.clarityapp.com`. The school also links a "2026-27 Clarity Family Application
 Guide".
+
+*Superseded 2026-11-14 — see Live-site recheck*
 
 ### ⚠️ Deadlines differ by family type — returning families are due TWO MONTHS EARLIER
 
@@ -99,6 +184,8 @@ Two further details worth recording:
 
 **Trust the tuition page. Flag the discrepancy; do not silently fix it.**
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ## A separate funding route — NC Opportunity Scholarship
 
 Verbatim:
@@ -109,9 +196,13 @@ Verbatim:
 
 Promoted as a distinct route, not as part of the school's own aid.
 
+*Superseded 2026-11-14 — see Live-site recheck*
+
 ## ⛔ Confirmed absent
 
 - **Average award size** — no source anywhere.
 - **Enrollment deposit** — zero hits.
 - **Application fee amount** — zero dollar signs on the entire process page.
 - **Any aid figure for grades separately** — aid is reported school-wide only.
+
+*Superseded 2026-11-14 — see Live-site recheck* — the application fee row: the fee is now published as $100.

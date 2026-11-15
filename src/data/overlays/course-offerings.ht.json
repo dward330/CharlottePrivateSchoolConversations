@@ -310,7 +310,7 @@
         "carmel-christian:divisions[2].departments[1].courses[0].title",
         "hickory-grove-christian:divisions[1].departments[6].name",
         "gaston-day:divisions[0].departments[1].courses[1].title",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].title",
+        "trinity-episcopal:divisions[1].departments[4].courses[11].title",
         "charlotte-prep:divisions[0].departments[2].courses[1].title",
         "charlotte-prep:divisions[1].departments[2].courses[2].title"
       ]
@@ -612,7 +612,8 @@
         "trinity-episcopal:divisions[1].departments[0].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[0].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[4].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[3].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[5].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[0].tag",
         "charlotte-prep:divisions[2].departments[1].courses[1].tag"
       ]
@@ -679,9 +680,9 @@
         "trinity-episcopal:divisions[1].departments[0].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[1].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[3].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[7].tag"
+        "trinity-episcopal:divisions[1].departments[4].courses[4].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[6].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[8].tag"
       ]
     },
     {
@@ -756,7 +757,7 @@
         "trinity-episcopal:divisions[1].departments[0].courses[7].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[2].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[6].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[7].tag",
         "charlotte-prep:divisions[2].departments[0].courses[1].tag",
         "charlotte-prep:divisions[2].departments[1].courses[2].tag",
         "charlotte-prep:divisions[2].departments[1].courses[3].tag"
@@ -996,7 +997,7 @@
         "hickory-grove-christian:divisions[1].departments[8].courses[1].tag",
         "hickory-grove-christian:divisions[1].departments[8].courses[2].tag",
         "hickory-grove-christian:divisions[1].departments[8].courses[3].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[10].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[1].tag",
         "charlotte-prep:divisions[2].departments[2].courses[2].tag"
       ]
@@ -1466,11 +1467,11 @@
         "hickory-grove-christian:divisions[1].departments[7].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[1].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[8].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[11].tag",
-        "trinity-episcopal:divisions[1].departments[5].courses[2].tag",
-        "trinity-episcopal:divisions[1].departments[6].courses[0].tag"
+        "trinity-episcopal:divisions[1].departments[4].courses[12].tag",
+        "trinity-episcopal:divisions[1].departments[6].courses[0].tag",
+        "trinity-episcopal:divisions[1].departments[6].courses[1].tag"
       ]
     },
     {
@@ -23318,7 +23319,7 @@
       "of": "cd1e171a",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[5].title",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[6].title"
       ]
     },
     {
@@ -23434,8 +23435,8 @@
       ]
     },
     {
-      "t": "Pwogram akademik ki gen non yo olye ke kou ki gen non yo — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plis sis anrichisman chak semèn, tankou yon pwogram Panyòl K–5.",
-      "of": "7379846b",
+      "t": "Pwogram akademik ki gen non yo olye ke kou ki gen non yo — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plis anrichisman chak semèn, tankou yon pwogram Panyòl K–5. Lekòl la konte 16 kou anrichisman atravè Lower School ak Middle School.",
+      "of": "16dd889e",
       "at": [
         "trinity-episcopal:divisions[0].teaser"
       ]
@@ -23455,8 +23456,8 @@
       ]
     },
     {
-      "t": "Lekòl la \"develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly effective Singapore Math approach.\"",
-      "of": "c7410c3f",
+      "t": "Lekòl la \"develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly-effective Singapore Math approach.\"",
+      "of": "cd693dfe",
       "at": [
         "trinity-episcopal:divisions[0].departments[0].courses[0].description"
       ]
@@ -23483,8 +23484,8 @@
       ]
     },
     {
-      "t": "Yo anseye Syans Sosyal atravè inite Storypaths nan tout ane Lower School yo.",
-      "of": "73cabe8c",
+      "t": "Elèv yo aprann edikasyon sivik, ekonomi, jewografi ak istwa atravè inite ki baze sou rezoud pwoblèm. \"Many of these units, especially in the lower grades, are known as Storypaths,\" kote elèv yo jwe wòl pèsonaj nan yon istwa.",
+      "of": "eb04dbfc",
       "at": [
         "trinity-episcopal:divisions[0].departments[0].courses[2].description"
       ]
@@ -23500,8 +23501,7 @@
       "t": "Anrichisman Chak Semèn",
       "of": "b0bed8f4",
       "at": [
-        "trinity-episcopal:divisions[0].departments[1].name",
-        "trinity-episcopal:divisions[1].departments[4].name"
+        "trinity-episcopal:divisions[0].departments[1].name"
       ]
     },
     {
@@ -23547,10 +23547,16 @@
       ]
     },
     {
-      "t": "Youn nan sis anrichisman Lower School chak semèn yo.",
-      "of": "dd0b375f",
+      "t": "Swiv Teaching Artistic Behaviors (TAB), yon apwòch ki baze sou chwa: elèv yo deplase ant sant, oswa ti atelye atizay, pou penti, ajil oswa enpresyon.",
+      "of": "908badcc",
       "at": [
-        "trinity-episcopal:divisions[0].departments[1].courses[3].description",
+        "trinity-episcopal:divisions[0].departments[1].courses[3].description"
+      ]
+    },
+    {
+      "t": "\"All students take general music, which emphasizes creativity, music appreciation, musical literacy, and performance preparation.\" Chak ane Lower School prezante yon pyès teyat oswa yon espektak mizikal.",
+      "of": "d4146581",
+      "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[4].description"
       ]
     },
@@ -23625,8 +23631,8 @@
       ]
     },
     {
-      "t": "Senk kou matematik 8yèm ane diferan, yon lang etranje yo pran jiska yon Level 1 nivo high school anvan fen 8yèm ane, ak 13 anrichisman chak semèn.",
-      "of": "0e6e07c4",
+      "t": "Senk kou matematik 8yèm ane diferan, yon lang etranje yo pran jiska yon Level 1 nivo high school anvan fen 8yèm ane, ak kou opsyonèl pou tout ane a apati 7yèm ane.",
+      "of": "d0b70e76",
       "at": [
         "trinity-episcopal:divisions[1].teaser"
       ]
@@ -23706,15 +23712,15 @@
       ]
     },
     {
-      "t": "Ane 6yèm nan pwogram etid Syans Sosyal la.",
-      "of": "d8e3d8bc",
+      "t": "Ane 6yèm nan, kote elèv yo \"use geographic tools to understand the world and its complex systems.\"",
+      "of": "2f53b7a9",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[0].description"
       ]
     },
     {
-      "t": "Ane 7yèm nan pwogram etid Syans Sosyal la.",
-      "of": "5ccbbfe3",
+      "t": "Ane 7yèm nan: \"a thematic examination of 20th Century world events,\" yo anseye atravè sous primè ak evènman aktyèl.",
+      "of": "dce81fac",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[1].description"
       ]
@@ -23727,8 +23733,8 @@
       ]
     },
     {
-      "t": "Ane 8yèm nan pwogram etid Syans Sosyal la.",
-      "of": "4a496e0a",
+      "t": "Ane 8yèm nan: yon gade sou evènman Ameriken 20yèm syèk la ki plis fòme peyi a, atravè sous primè ak segondè.",
+      "of": "da98a57d",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[2].description"
       ]
@@ -23748,17 +23754,24 @@
       ]
     },
     {
-      "t": "Pibliye kòm yon matyè atravè twa ane Middle School yo; yo pa bay okenn non kou pa ane.",
-      "of": "899b67c6",
+      "t": "Inite lekti ak ekriti atravè twa ane Middle School yo. Elèv yo chwazi pwòp lekti yo, e nan ekriti yo \"focus on narrative, informational, and argumentative writing.\" Yo pa bay okenn non kou pa ane.",
+      "of": "cce83768",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[0].description"
       ]
     },
     {
-      "t": "Yon pwogram syans entegre atravè ane 6-8, san okenn non kou pa ane ki pibliye.",
-      "of": "afc548ca",
+      "t": "Yon pwogram syans entegre e pratik atravè ane 6-8, san okenn non kou pa ane ki pibliye. Tilapya ki nan sistèm akwaponik lekòl la \"have provided hands-on lessons for 7th and 8th Grade science units.\"",
+      "of": "19f41b07",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[1].description"
+      ]
+    },
+    {
+      "t": "Anrichisman",
+      "of": "65a80afd",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].name"
       ]
     },
     {
@@ -23775,14 +23788,7 @@
         "trinity-episcopal:divisions[1].departments[4].courses[0].description",
         "trinity-episcopal:divisions[1].departments[4].courses[1].description",
         "trinity-episcopal:divisions[1].departments[4].courses[2].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[3].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[4].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[6].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[7].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[8].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[11].description"
+        "trinity-episcopal:divisions[1].departments[4].courses[9].description"
       ]
     },
     {
@@ -23793,59 +23799,122 @@
       ]
     },
     {
+      "t": "Aprantisaj Dijital / Syans Enfòmatik",
+      "of": "2ce06a95",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[3].title"
+      ]
+    },
+    {
+      "t": "Elèv sizyèm ane pran yon trimès chak nan Laten, Panyòl ak alfabetizasyon dijital. Trimès kodaj la itilize pwogram Code.org e li mennen nan kou syans enfòmatik 7yèm ane a.",
+      "of": "1bfa5fa0",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[3].description"
+      ]
+    },
+    {
       "t": "Syans Enfòmatik",
       "of": "82574932",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[3].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[4].title"
+      ]
+    },
+    {
+      "t": "Lide debaz pwogramasyon ak rezolisyon pwoblèm. Li reyini yon jou sou de pandan yon trimès.",
+      "of": "a949e17e",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[4].description"
       ]
     },
     {
       "t": "Learning Lab",
       "of": "82b5f090",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[4].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[5].title"
+      ]
+    },
+    {
+      "t": "Konpetans pou etidye ak òganize: planifye travay, jere tan ak materyèl, e rete konsantre, apre sa itilize konpetans sa yo nan kou prensipal yo.",
+      "of": "33033a41",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[5].description"
+      ]
+    },
+    {
+      "t": "Pale an piblik, diferan estil diskou, ak kijan pou bati epi defann agiman. Li reyini yon jou sou de pandan yon trimès.",
+      "of": "d414c24a",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[6].description"
       ]
     },
     {
       "t": "Social Issues Seminar",
       "of": "def38b61",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[6].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[7].title"
+      ]
+    },
+    {
+      "t": "Elèv yo chwazi yon pwoblèm sosyal, etidye l, planifye kijan pou yo plede kòz li, epi apre sa yo \"implement that plan during an advocacy trip to Washington, D.C., in May.\" Li lye ak pwojè sèvis-aprantisaj 8yèm ane a.",
+      "of": "325835a4",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[7].description"
       ]
     },
     {
       "t": "Healthful Living",
       "of": "2689b7c7",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[7].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[8].title"
+      ]
+    },
+    {
+      "t": "Sante fizik, sosyal ak emosyonèl: konpetans kominikasyon, rezolisyon konfli ak byennèt kominote a. Li reyini yon jou sou de pandan yon trimès.",
+      "of": "3547d3c3",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[8].description"
       ]
     },
     {
       "t": "FOCUS Period",
       "of": "45d54c80",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[8].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[9].title"
       ]
     },
     {
       "t": "Kou Opsyonèl Chwazi",
       "of": "2c03f5e6",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[9].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[10].title"
       ]
     },
     {
-      "t": "School Profile la site yo nan lis anrichisman li, men li pa dekri sa yo kouvri.",
-      "of": "a8c6e6ee",
+      "t": "\"Beginning in 7th Grade,\" elèv yo chwazi kou opsyonèl ki fèt \"on alternating days for the entire academic year.\" Opsyon yo gen ladan yo Advanced Band, Advanced Choir, Studio Art, Mock Trial and Speech & Debate, Sports Activism, ak Intro to Digital Media Literacy.",
+      "of": "f324a087",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[9].description"
+        "trinity-episcopal:divisions[1].departments[4].courses[10].description"
+      ]
+    },
+    {
+      "t": "Swiv Teaching for Artistic Behavior (TAB), yon apwòch ki baze sou chwa kote elèv yo deplase ant ti atelye atizay.",
+      "of": "0ed0a82c",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[11].description"
       ]
     },
     {
       "t": "PE",
       "of": "2c0000fe",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[11].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[12].title"
+      ]
+    },
+    {
+      "t": "Kou yo \"teach lifelong exercise and fitness habits while developing skills for athletics.\"",
+      "of": "c4de4eb4",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[12].description"
       ]
     },
     {
@@ -23863,8 +23932,8 @@
       ]
     },
     {
-      "t": "Ansanm yo jwe nan chapèl, nan seremoni gradyasyon, ak nan lòt kote andeyò lekòl la, epi \"6th Grade students choose from one of two ensembles: choir or band.\"",
-      "of": "9f987f9e",
+      "t": "\"Sixth-grade students choose from one of two ensembles: Choir or Band.\" \"Ensembles may perform at chapels, commencement and various venues outside of school.\"",
+      "of": "f4d433bc",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[0].description"
       ]
@@ -23877,24 +23946,10 @@
       ]
     },
     {
-      "t": "\"7th and 8th Grade students who decide to continue in an ensemble can choose Advanced Band or Advanced Choir.\"",
-      "of": "86405cc1",
+      "t": "\"Seventh and 8th grade students who choose to continue in an ensemble can choose Advanced Band or Advanced Choir.\" Toude nan lis kou opsyonèl 7yèm–8yèm ane a tou.",
+      "of": "d5efadb5",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[1].description"
-      ]
-    },
-    {
-      "t": "Kou Opsyonèl Teyat",
-      "of": "18fee607",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[5].courses[2].title"
-      ]
-    },
-    {
-      "t": "Elèv Middle School \"may also choose to take the drama elective within their schedule, or participate in the winter play or spring musical.\"",
-      "of": "f3358490",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[5].courses[2].description"
       ]
     },
     {
@@ -23912,10 +23967,24 @@
       ]
     },
     {
-      "t": "Chak elèv fè pati yon Koinonia ak 10-12 lòt elèv Middle School ak yon lidè adilt; gwoup yo rasanble chak maten pou verifye prezans e de fwa pa semèn pou aktivite.",
-      "of": "9a41ac21",
+      "t": "Gwoup konsèy Middle School kote elèv yo bati \"deeper relationships with peers and teachers.\"",
+      "of": "5b1a07cb",
       "at": [
         "trinity-episcopal:divisions[1].departments[6].courses[0].description"
+      ]
+    },
+    {
+      "t": "Chapèl",
+      "of": "2b5c68ee",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[6].courses[1].title"
+      ]
+    },
+    {
+      "t": "Lapriyè twa fwa pa semèn: \"Greet the Week on Mondays, a division-level chapel on Wednesdays, and a community chapel every Friday morning where the entire school gathers together.\"",
+      "of": "bcae5633",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[6].courses[1].description"
       ]
     },
     {

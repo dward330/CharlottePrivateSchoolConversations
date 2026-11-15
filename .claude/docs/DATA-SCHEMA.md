@@ -1457,7 +1457,7 @@ Supporting types: `Course`, `Department`, `Division`
 
 `src/data/financialAidReports.ts` · root type `FinancialAidReport`
 
-The structured tuition/aid card. Requires BOTH an `in-depth-report` metric key and a REPORTS entry.
+The structured tuition/aid card. Requires BOTH an `in-depth-report` metric key and a REPORTS entry. A `ScholarshipRung`'s `share` is the share of TUITION that gift covers, drawn as a bar and printed as a bold percentage. Leave it off when the school publishes no such share, and the rung renders with its label and text only. Never type a placeholder bar width, and never use a different measure such as the share of students aided (Trinity Episcopal and Gaston Day review, 2026-11-14).
 
 | Field | Type | Required |
 |---|---|---|
