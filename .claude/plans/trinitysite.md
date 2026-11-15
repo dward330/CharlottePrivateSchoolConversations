@@ -636,3 +636,97 @@ Second pass on Gaston Day's ladder, also at the user's request:
 is `2f97df3b`). Step 14's "any non-Trinity stamp means stop" rule should expect exactly
 this one. Translate it in all nine locales, reusing each locale's existing rendering of
 the `Merit` gift label (`es` "Mérito").
+
+### Phase 2 (nine prose locales), 2026-11-14
+
+Run in a fresh window after the user approved the English.
+
+**Scope (step 14), measured from a fresh extract against the `es` work files:** 231 new
+and 232 retired stamps per locale, identical in all nine. Every one is a Trinity path,
+except the expected Gaston Day gift label (`7f035f15` "Top merit" replacing `2f97df3b`
+"100%"). Per topic, new/retired: admissions 37/36, sports 14/16, the-arts 27/31,
+student-clubs 50/57, after-school 33/35, high-school-placement 8/8, summer-programs 9/10,
+course-offerings 27/16, financial-aid-report 26/23. College Support, Global Exposure,
+Learning Support and metric-values were untouched (0/0). On `main` no locale had an
+untranslated entry, so every empty `t` after the splice was a new stamp.
+
+**Method.**
+- **Splice:** `i18n_splice_work.mjs --lang <code>` was run for all nine locales. 414 kept
+  entries per run had their `at` refreshed, and every refreshed path is a Trinity path.
+- **Translation:** nine parallel agents, one per locale, each with a private scratch
+  folder. Each agent wrote only an `of` → `t` map and touched no repo file (the
+  parallel-agents lesson).
+- **Applying:** a central script applied the maps. It refused to overwrite any existing
+  `t` and refused any bidi control character.
+- **Rebuild:** the overlays were rebuilt with `i18n:build` for all 81 topic × locale pairs.
+
+**Central corrections to agent output** (each at the agent's own flag or a leak finding):
+- **9/11:** fr, it and es now use the local name of the date ("du 11-Septembre",
+  "dell’11 settembre", "del 11 de septiembre"). ht and the non-Latin locales keep "9/11".
+- **20th century:** es "siglo XX" and it "XX secolo". fr keeps "20e siècle".
+- **"board games":** hi बोर्ड गेम and te బోర్డ్ ఆటలు. Both agents had left it in Latin script,
+  but each locale translates every other activity chip on the card.
+- **Admissions contact titles:** bn, it and hi had left the new Trinity titles in English
+  (Chief Enrollment Officer, Director of Admission and Boarding School Placement, and in
+  it also Registrar). All three locales translate these titles for other schools. The
+  titles are now translated, with gender-neutral forms in it ("Responsabile …").
+- **Sports role:** "Assistant Athletic Director & P.E. Teacher" now translates the P.E.
+  half in it and te and keeps "Athletic Director" in Latin script. That is how both
+  locales render the "Athletic Director · P.E. Teacher" titles already shipped.
+
+**Kept as-is** (listed by the agents or by `i18n:leaks`, judged correct):
+- Course titles stay English per the course-title policy: `Chapel`, `Computer Science`,
+  `Choice Electives`, `Digital Learning / Computer Science`. The last two show up as
+  "new" in the leak diff only because inserted rows shifted their paths.
+- The quote-only Choir/Band course description stays verbatim, as in 7 of 9 locales.
+- fa and ar write `←` in the admissions step chain (`ff91126a`). The chain is RTL
+  prose, so the arrow points in reading order. The `→` rule applies to Latin runs only.
+- Clubs flag `615e5377` keeps its bookkeeping wording. It is a Student Clubs `gap`
+  flag, so it never renders.
+
+**Phase 2 verification:**
+- `npm run build` exits **0**. `check:live` is green in all 9 locales (it was 4,086
+  findings at the end of Phase 1). `check:runtime` resolves 15,588 entries per locale.
+- Work files diffed against `main`: 2,079 new stamps (231 × 9), 2,088 retired
+  (232 × 9), 0 existing translations changed, and no non-Trinity `at` change.
+- `check_work_integrity --base main`: every violation is structural (string counts, and
+  the one reordered high-school-placement entry), as this plan predicted. There is no
+  foreign script in any locale, and fa/ar separate cleanly (77.8% vs 0% Persian-only
+  letters). A stopword check on the four Latin-script locales, read line by line, found
+  no cross-locale prose.
+- `check:sepdrift` is 0 drifted in all nine. `check:dates`, `check:moneytext`,
+  `check:currency`, `check:bidi`, `check:fa`, `check:hi`, `check:fr`, `check:script`,
+  `check:translations` and `check:hashes` are clean. `check_figures.py` passes all 81
+  topic × locale pairs.
+- `check:money` exits 1, **identically on `main`**: two Cup render sites in
+  `SportsProgram.tsx`. The failure predates this branch and is unrelated to it.
+- `check:digits`: 2,079 units compared, 5 to review. All 5 are the deliberate
+  9/11 and 20th-century rewordings above.
+- 0 duplicate `at` paths in the 81 rebuilt overlays.
+- `i18n:leaks` diffed against a `main` baseline: no new Trinity leak after the fixes
+  above, except the keeps listed.
+- Browser check in real Chrome on the preview build: `/school/trinity-episcopal/` with
+  every `<details>` open and every band tab clicked, both checklist bands, and the
+  Gaston Day page. In every locale all probeable new strings render. The only misses
+  are 4 Student Clubs `gap`/`count` flags, which are hidden by design. es, hi and fa
+  were eyeballed: the CAIS $300, TED $380/$355, K $26,670 and the Dec. 1 open house
+  render correctly, es localizes money (`300 US$`), and no literal `**` appears.
+
+**Source-label dates (found by `audit:daterender`, fixed in this phase).** In every
+locale the date audit flagged `Jan 8 2026` in a Trinity clubs `source.label`. Source
+labels are not extracted, so a full English date renders untranslated on every locale's
+page. Phase 1 introduced it. All six Trinity source labels that carried a full date now
+use month and year only (`Jan 2026`, `Oct 2026`, `Mar 2026`, `March 2026`), the form
+Charlotte Prep's labels already use. They are in clubs (3), sports (2), arts (2) and
+high-school-placement (1). A dry-run splice shows 0 added and 0 dropped stamps, so no
+translation is affected.
+
+**PAUSED 2026-11-14 (user request, going offline).** Everything above is committed on
+`fix/trinitysite`. Remaining:
+1. `npm run build`, then `npx vite preview --port 4173`.
+2. Re-run `npm run audit:daterender`. Expect 0 Trinity findings. The pre-fix run flagged
+   only the source label, in es/bn/ht/te/fr/fa/it/hi, and was stopped during `ar`.
+3. Run `npm run audit:moneyrender`. It has not run yet. Expect no new Trinity findings.
+4. Push, open the PR (`--body-file`), squash-merge, `git checkout main && git pull`.
+   Then set this plan to `implemented` with the PR number, and the INDEX row to
+   *Implemented*. **Do not deploy.**

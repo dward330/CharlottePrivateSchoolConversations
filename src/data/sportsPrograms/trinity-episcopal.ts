@@ -120,7 +120,7 @@ export const trinityEpiscopal: SportsProgram = {
       { label: '2026-27 School Profile (PDF) — flag football listed', url: PROFILE_2627 },
       { label: 'FMK Architects — Trinity Episcopal School project page', url: FMK },
       {
-        label: 'tescharlotte.org — "Trinity Sweeps Fall Sports Championships", Oct 21 2026',
+        label: 'tescharlotte.org — "Trinity Sweeps Fall Sports Championships", Oct 2026',
         url: FALL_2026,
       },
     ],
@@ -220,7 +220,7 @@ export const trinityEpiscopal: SportsProgram = {
       { label: 'tescharlotte.org — Athletics (athletics staff listing)', url: ATHLETICS },
       { label: 'tescharlotte.org — Staculty directory', url: STAFF },
       {
-        label: 'tescharlotte.org — "Trinity Sweeps Fall Sports Championships", Oct 21 2026',
+        label: 'tescharlotte.org — "Trinity Sweeps Fall Sports Championships", Oct 2026',
         url: FALL_2026,
       },
     ],

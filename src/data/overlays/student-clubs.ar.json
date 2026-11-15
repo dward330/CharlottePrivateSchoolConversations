@@ -82,6 +82,9 @@
         "providence-day:catalog.divisions[0].label",
         "charlotte-christian:affinity.strips[1].title",
         "charlotte-country-day:affinity.strips[0].title",
+        "trinity-episcopal:affinity.groups[2].detail",
+        "trinity-episcopal:affinity.groups[3].detail",
+        "trinity-episcopal:affinity.groups[4].detail",
         "trinity-episcopal:affinity.strips[1].title"
       ]
     },
@@ -107,6 +110,7 @@
         "providence-day:affinity.strips[1].title",
         "charlotte-christian:affinity.strips[0].title",
         "charlotte-country-day:affinity.strips[1].title",
+        "trinity-episcopal:affinity.groups[0].detail",
         "trinity-episcopal:affinity.strips[0].title"
       ]
     },
@@ -450,9 +454,7 @@
         "charlotte-country-day:clusters.rows[0].evidenceLabel",
         "cannon:clusters.rows[1].evidenceLabel",
         "gaston-day:clusters.rows[0].evidenceLabel",
-        "gaston-day:clusters.rows[1].evidenceLabel",
-        "trinity-episcopal:clusters.rows[0].evidenceLabel",
-        "trinity-episcopal:clusters.rows[1].evidenceLabel"
+        "gaston-day:clusters.rows[1].evidenceLabel"
       ]
     },
     {
@@ -6518,52 +6520,24 @@
       ]
     },
     {
-      "t": "خمس مجموعات انتماء طلابية مذكورة بالاسم، لكل منها نطاقها الصفّي وبيان غرض منشور، إضافة إلى أربع مجموعات لأولياء الأمور — تحت إشراف مديرة التنوّع والإنصاف والانتساب.",
-      "of": "1d29d031",
+      "t": "خمس مجموعات انتماء طلابية، ومجموعتا انتماء لأولياء الأمور، وقدّاسات تراعي تقاليد المجتمع المدرسي الكثيرة — بقيادة مساعدة مدير المدرسة لشؤون الانتماء والمشاركة المجتمعية.",
+      "of": "7b8f0b0e",
       "at": [
         "trinity-episcopal:affinity.headline"
       ]
     },
     {
-      "t": "بقيادة Ayeola Elias، مديرة التنوّع والإنصاف والانتساب · وتوجد المجموعات \"to foster kinship; to provide students and adults a place to celebrate their uniqueness, gifts and important role in our school community; and to affirm, protect and nurture the identities of the group\"",
-      "of": "bee45adb",
+      "t": "بقيادة Ayeola Elias، مساعدة مدير المدرسة لشؤون الانتماء والمشاركة المجتمعية · \"Affinity groups in Lower and Middle School are inclusive spaces for students and adults that are built around shared identities and experiences.\"",
+      "of": "7122ce38",
       "at": [
         "trinity-episcopal:affinity.umbrella.detail"
       ]
     },
     {
-      "t": "الصفوف K–5 · مجموعة انتماء وبرنامج إرشاد للطلاب من ذوي البشرة الملوّنة؛ وجميعهم مدعوّون، والأسرة هي من تقرّر المشاركة من عدمها",
-      "of": "370c1608",
-      "at": [
-        "trinity-episcopal:affinity.groups[0].detail"
-      ]
-    },
-    {
-      "t": "الصفوف 3–5 · مجموعات مختلطة \"learn to build community, internalize and reinforce the Honor Code\"، يقود كلًّا منها عضوان بالغان من الكادر",
-      "of": "bb4fa0f1",
+      "t": "الصفوف 3–5 · مجموعات مختلطة تتيح لطلاب من صفوف مختلفة أن يتعارفوا ويبنوا علاقات · \"Each Tribe is led by 2 adult staculty members.\"",
+      "of": "5b9f384b",
       "at": [
         "trinity-episcopal:affinity.groups[1].detail"
-      ]
-    },
-    {
-      "t": "Middle School · للطلاب الذين يعرّفون أنفسهم بأنهم من ذوي البشرة الملوّنة؛ وتجتمع أسبوعيًّا حول الحساسية الثقافية والنجاح الأكاديمي والقضايا الاجتماعية-السياسية، وحول الاستعداد للمرحلة الثانوية",
-      "of": "030e8fd7",
-      "at": [
-        "trinity-episcopal:affinity.groups[2].detail"
-      ]
-    },
-    {
-      "t": "Middle School · للطلاب الذين يعرّفون أنفسهم بأنهم بيض، وتناقش الامتياز غير المكتسَب والأفعال التي يمكنهم اتخاذها كحلفاء — في إطار قول غاندي \"Be the change you wish to see in the world\"",
-      "of": "5687ba10",
-      "at": [
-        "trinity-episcopal:affinity.groups[3].detail"
-      ]
-    },
-    {
-      "t": "Middle School · نقاش وأنشطة في حقوق الإنسان مع تركيز على قضايا المثليين والمثليات ومزدوجي الميل والمتسائلين والمتحوّلين جنسيًّا؛ ونظّمت Pride Chapel في السنوات الأخيرة",
-      "of": "d2951e82",
-      "at": [
-        "trinity-episcopal:affinity.groups[4].detail"
       ]
     },
     {
@@ -6574,29 +6548,29 @@
       ]
     },
     {
-      "t": "تمتدّ Young Children of Color من رياض الأطفال حتى الصف 5 · وتجمع 12 Tribes of Trinity الطلاب عبر الصفوف 3–5.",
-      "of": "3f5176e8",
+      "t": "Young Children of Color مجموعة في Lower School · وتجمع 12 Tribes of Trinity الطلاب عبر الصفوف 3–5.",
+      "of": "018dbd2e",
       "at": [
         "trinity-episcopal:affinity.strips[0].text"
       ]
     },
     {
-      "t": "Young People of Color · Young People for Social Justice · Gender Sexuality Alliance — الثلاث جميعًا مجموعات في Middle School، وتجتمع YPC أسبوعيًّا.",
-      "of": "f7295774",
+      "t": "Young People of Color · Young People for Social Justice · Gender Sexuality Alliance — الثلاث جميعًا مجموعات في Middle School.",
+      "of": "15c65f9e",
       "at": [
         "trinity-episcopal:affinity.strips[1].text"
       ]
     },
     {
-      "t": "· 4 مجموعات",
-      "of": "300ca17e",
+      "t": "· 2 مجموعتان",
+      "of": "a8307820",
       "at": [
         "trinity-episcopal:affinity.strips[2].hint"
       ]
     },
     {
-      "t": "Café con Padres للأسر من أصول إسبانية/لاتينية · KINDRED للأسر الأمريكية الأفريقية/السوداء · Invisible Differences لأسر الأطفال ذوي الفروق التعلّمية · وDiversity & Belonging Committee، المفتوحة لجميع أولياء الأمور.",
-      "of": "505de667",
+      "t": "Cafe Con Padres، مجموعة الانتماء لأولياء الأمور من أصول إسبانية، ترعى Latino Festival · وKINDRED، مجموعة الانتماء لأولياء الأمور الأمريكيين الأفارقة/السود، ترعى KINDRED Festival. وتعمل المجموعتان كلتاهما مع Parents' Association.",
+      "of": "1ab11aa4",
       "at": [
         "trinity-episcopal:affinity.strips[2].text"
       ]
@@ -6609,8 +6583,8 @@
       ]
     },
     {
-      "t": "نظّمت GSA الطلابية قدّاس Pride Chapel. كما تقيم المدرسة كل عام قدّاس Sankofa Chapel خلال Black History Month، وقدّاس ديوالي بالغناء والرقص، وقدّاسات Hispanic Heritage Month تقودها أسر لاتينية.",
-      "of": "d1969d81",
+      "t": "تحتفي قدّاسات مرحلة K-8 بتنوّع المجتمع المدرسي \"through services for Hispanic Heritage Month, Black History Month, the Jewish High Holy Days, and others.\" ويتضمّن تقويم 2026-27 قدّاسًا لمرحلة K-8 بمناسبة ديوالي (Diwali).",
+      "of": "cb576837",
       "at": [
         "trinity-episcopal:affinity.strips[3].text"
       ]
@@ -6623,50 +6597,50 @@
       ]
     },
     {
-      "t": "Ayeola Elias هي مديرة التنوّع والإنصاف والانتساب. ولا يُنشر أي مجلس قيادي طلابي للتنوّع. ولا تظهر أيضًا مشاركة في أي مؤتمر وطني للتنوّع الطلابي في أي مكان على الموقع. ويتّسق الغيابان كلاهما مع مدرسة K–8، إذ تستهدف تلك المؤتمرات طلاب المرحلة الثانوية.",
-      "of": "6b9cf710",
+      "t": "Ayeola Elias هي مساعدة مدير المدرسة لشؤون الانتماء والمشاركة المجتمعية. وفي كل يناير تقيم المدرسة Freedom Fete، في موعد قريب من Martin Luther King Jr. Day، مع متحدّثين ضيوف عن التنوّع والعدالة الاجتماعية. ولا يُنشر أي مجلس قيادي طلابي للتنوّع.",
+      "of": "26eefedd",
       "at": [
         "trinity-episcopal:affinity.leadership"
       ]
     },
     {
-      "t": "**Invisible Differences مجموعة لأولياء الأمور، لا نادٍ طلابي.** فصفحة مجموعات الانتماء تدرجها ضمن مجموعات أولياء الأمور الأربع؛ بينما يدرجها School Profile لعام 2026-27 ضمن الأندية الطلابية. وصفحة الانتماء هي المصدر الأكثر تحديدًا وهي المعتمَدة هنا — فقائمة الطلاب إذن خمس مجموعات لا ستّ.",
-      "of": "26d1bd11",
+      "t": "**Invisible Differences غير مُدرَجة في هذه البطاقة.** فـ School Profile لعام 2026-27 يدرجها ضمن أندية ومجموعات Middle School. وكانت صفحة مجموعات الانتماء القديمة تصفها بأنها مجموعة لأولياء الأمور لأسر الأطفال ذوي الفروق التعلّمية، لكن تلك الصفحة لم تعد موجودة (بعد إعادة تصميم الموقع في خريف 2026)، ولا توجد صفحة حالية تبيّن ماهيّتها. لذا تبقى قائمة الطلاب هنا خمس مجموعات، كما كانت.",
+      "of": "8845ac6f",
       "at": [
         "trinity-episcopal:affinity.flags[0].text"
       ]
     },
     {
-      "t": "لكل صف من رياض الأطفال حتى السابع شراكة قائمة تمتدّ العام كلّه مع منظمة مجتمعية مذكورة بالاسم — اثنتا عشرة منها — ويحوّلها الصف الثامن إلى مناصرة.",
-      "of": "d9dab4cd",
+      "t": "لكل صف من رياض الأطفال حتى الصف 7 شراكة مع منظمة مجتمعية مذكورة بالاسم — 10 شركاء إجمالًا — ويحوّلها الصف 8 إلى مناصرة.",
+      "of": "c44eb569",
       "at": [
         "trinity-episcopal:service.headline"
       ]
     },
     {
-      "t": "هذا نشاط منهجي لا نادٍ تطوّعي: \"Each grade level partners with a community organization whose mission and services are related to curricular goals… Year-long partnerships create the possibility of relationship formation that transforms charity into mutual service among neighbors.\"",
-      "of": "9821c749",
+      "t": "هذا جزء من المنهج، لا نادٍ تطوّعي: \"Each grade partners with a community organization whose mission and services are related to curricular goals. Our students address real community needs in ways that are connected to and informed by their classroom learning.\"",
+      "of": "a5c69bd9",
       "at": [
         "trinity-episcopal:service.subhead"
       ]
     },
     {
-      "t": "12",
-      "of": "1deb2d6a",
+      "t": "10",
+      "of": "1beb2a44",
       "at": [
         "trinity-episcopal:service.programs[0].value"
       ]
     },
     {
-      "t": "منظمات شريكة مذكورة بالاسم · الصفوف K–7",
-      "of": "89888b00",
+      "t": "شركاء في التعلّم بالخدمة · الصفوف K–7",
+      "of": "a13efe6c",
       "at": [
         "trinity-episcopal:service.programs[0].valueLabel"
       ]
     },
     {
-      "t": "ترتبط رياض الأطفال والصف 1 بشراكة مع Nourish Up — إذ توصّل رياض الأطفال وجبات Meals on Wheels أسبوعيًّا، ويزور الصف 1 مخزن الطعام في First Presbyterian Church ويقود حملة الطعام المدرسية كل نوفمبر. ويعمل الصف 2 مع InReach، الذين يزور مستفيدوهم Trinity شهريًّا للبستنة والفن والموسيقى والدفاع عن الذات. ويرتبط الصف 3 بشراكة مع Roof Above / Urban Ministry Center. والصف 4 مع The Epiphany School of Charlotte، والصف 5 مع Galilee Ministries of East Charlotte. والصف 6 — \"Feeding Our Neighbors\" — يعمل مع 8th Street Friendship Garden وCharlotte Community ToolBank وNourishUp؛ والصف 7 — \"Understanding Our Neighbors\" — مع Crisis Assistance Ministry وHope Haven وFirst Ward Child Development Center.",
-      "of": "a6ec8b83",
+      "t": "ترتبط رياض الأطفال والصف 1 بشراكة مع Nourish Up. إذ توصّل رياض الأطفال وجبات Meals on Wheels أسبوعيًّا، ويزور الصف 1 مخزن الطعام في First Presbyterian Church ويقود حملة الطعام المدرسية كل نوفمبر. ويعمل الصف 2 مع InReach، الذين يزور مستفيدوهم Trinity شهريًّا للبستنة والفن والموسيقى والدفاع عن الذات. ويرتبط الصف 3 بشراكة مع Roof Above / Urban Ministry Center. ويرتبط الصف 4 بشراكة مع Children of the World Learning Center، فيتعلّم الطلاب كيف ينمو أطفال ما قبل المدرسة وكيف يعمل التعليم ثنائي اللغة. ويرتبط الصف 5 بشراكة مع Galilee Ministries of East Charlotte. والصف 6 — \"Feeding Our Neighbors\" — يعمل مع 8th Street Friendship Garden وCharlotte Community ToolBank وNourishUp. والصف 7 — \"Understanding Our Neighbors\" — يعمل مع Crisis Assistance Ministry وHope Haven وFirst Ward Child Development Center.",
+      "of": "aa486a32",
       "at": [
         "trinity-episcopal:service.programs[0].detail"
       ]
@@ -6686,71 +6660,72 @@
       ]
     },
     {
-      "t": "يمشي طلاب الصف الثالث ميلًا إلى Urban Ministry Center مرّة في الشهر للفن وكرة القدم والغناء مع Urban Ministry Choir وحملات الملابس. والمشي نفسه هو المقصود، وتقول المدرسة ذلك صراحةً: \"We like to say that Trinity has the longest hallways in Charlotte as our campus community extends into the heart of Uptown Charlotte. Each day you will see our students and teachers walking to and engaging with community organizations as part of our academic program and service-learning partnerships.\"",
-      "of": "dfe03647",
+      "t": "يمشي طلاب الصف الثالث ميلًا إلى Urban Ministry Center مرّة في الشهر للفن وكرة القدم والغناء مع Urban Ministry Choir وحملات الملابس. والمشي جزء من المقصود: \"Trinity Episcopal School has the longest hallways of any school in Charlotte.\" كما يذهب طلاب Lower School بانتظام سيرًا على الأقدام إلى مكتبة ImaginOn وChildren's Theatre وDiscovery Place. وفي يناير 2026، خرج طلاب الصفوف 2-8 سيرًا لمشاهدة Walk for Peace، وهي مسيرة حجّ لرهبان بوذيين مرّت قرب المدرسة.",
+      "of": "91f94ca4",
       "at": [
         "trinity-episcopal:service.programs[1].detail"
       ]
     },
     {
-      "t": "46",
-      "of": "8be38bcf",
+      "t": "2",
+      "of": "370cabd5",
       "at": [
-        "trinity-episcopal:service.programs[2].value"
+        "trinity-episcopal:service.programs[2].value",
+        "charlotte-prep:service.programs[0].value"
       ]
     },
     {
-      "t": "طلاب الصف الثامن في رحلة المناصرة 2024",
-      "of": "9e6a172a",
+      "t": "رحلات مناصرة في 2025-26 · رالي وواشنطن العاصمة",
+      "of": "1e3b120f",
       "at": [
         "trinity-episcopal:service.programs[2].valueLabel"
       ]
     },
     {
-      "t": "يرسم الصف الثامن خريطة مجتمعه ويبحث قضيةً طوال العام ضمن Social Issues Seminar. ثم يسافر الصف إلى واشنطن العاصمة للمناصرة بشأنها. وقد التقت مجموعة 2024 النائب Jeff Jackson في الكابيتول وحملت خمس قضايا: موارد ضحايا العنف المسلّح · الحراك الاقتصادي · الحدّ الأدنى للأجور · السكن الميسور · شفافية تكاليف الرعاية الصحية. وتقول مساعدة مديرة المدرسة Stephanie Griffin: \"This is a trip, at its heart and soul, that’s all about advocacy.\"",
-      "of": "c3d3d823",
+      "t": "في Social Issues Seminar، يختار طلاب الصف الثامن قضية اجتماعية، ويدرسونها، ويخطّطون لكيفية مناصرتها. ثم \"implement that plan during an advocacy trip to Washington, D.C., in May.\" وفي 2025-26 درس الصف أيضًا استفتاءً على النقل العام وافق عليه ناخبو شارلوت. وفي 17 ديسمبر، ساعدت ندوة ضمّت متحدّثين من الشريكين Roof Above وGalilee Ministries الطلابَ على اختيار موضوعات لـ \"upcoming class trips to Raleigh and Washington, D.C.\"",
+      "of": "a4175ebf",
       "at": [
         "trinity-episcopal:service.programs[2].detail"
       ]
     },
     {
-      "t": "نصّ المدرسة نفسها يكتب اسم الشريك ذاته بطريقتين ويسمّي شريك الصف 3 مرّتين: **\"Nourish Up\"** في الصفّين K و1 لكن **\"NourishUp\"** في الصف 6، والصف 3 **معنون بـ \"Roof Above\"** بينما يقول متنه **\"Urban Ministry of Charlotte\" / \"Urban Ministry Center\"**. وRoof Above هو الاسم الجديد للمنظمة. وقد أُعيد إنتاج الكتابتين كما نُشرتا لا موحَّدتين.",
-      "of": "bb115202",
+      "t": "نصّ المدرسة نفسها يكتب اسم الشريك ذاته بطريقتين ويسمّي شريك الصف 3 مرّتين: **\"Nourish Up\"** في الصفّين K و1 لكن **\"NourishUp\"** في الصف 6، والصف 3 **معنون بـ \"Roof Above\"** بينما يقول متنه **\"Urban Ministry of Charlotte\" / \"Urban Ministry Center\"**. وRoof Above هو الاسم الجديد للمنظمة. وقد أُعيد إنتاج الكتابتين كما نُشرتا لا موحَّدتين. وعدد الشركاء (10) هو رقم المدرسة نفسها على Trinity At a Glance، ويطابق المنظمات الـ10 التي تذكرها صفحة Service Learning.",
+      "of": "a0cbd982",
       "at": [
         "trinity-episcopal:service.flags[0].text"
       ]
     },
     {
-      "t": "بطولتا ولاية في عام واحد، وثلاثية متتالية: فاز فريق Mock Trial في Middle School بمسابقة North Carolina Bar Foundation في 2023 و2024 و2025.",
-      "of": "1298574e",
+      "t": "Honor Council ينتخبه الطلاب كل خريف، وميثاق شرف كتبه الطلاب، وMock Trial وSpeech & Debate تُدرَّسان حصصًا بمدرّبة خاصة بهما.",
+      "of": "1e68bfbb",
       "at": [
         "trinity-episcopal:honors.headline"
       ]
     },
     {
-      "t": "سجلّ التكريم في Trinity تنافسي ومدني، ولا يقوم على جمعيات معتمَدة رسميًّا. فلا يوجد فرع لجمعية شرف هنا. بل توجد بدلًا من ذلك قاعة محكمة، ودورة مناظرات، وHonor Council ينتخبه طلابها أنفسهم.",
-      "of": "ec1df793",
+      "t": "لا يوجد في Trinity فرع لجمعية شرف. فالقيادة الطلابية فيها تمرّ عبر Honor Council منتخَب، وبرنامجاها التنافسيان، Mock Trial وSpeech & Debate، جزء من جدول Middle School.",
+      "of": "aa98e2c8",
       "at": [
         "trinity-episcopal:honors.subhead"
       ]
     },
     {
-      "t": "ثلاث بطولات ولاية متتالية في مسابقة Middle School التي تنظّمها North Carolina Bar Foundation، بتدريب Jennifer Bader. وقد أُحرز اللقب الثاني في Mecklenburg County Courthouse أمام خمسة فرق أخرى من المرحلة المتوسطة.",
-      "of": "a0928569",
+      "t": "مادة اختيارية للصفّين 7th–8th، مدرجة باسم \"Mock Trial and Speech & Debate\"، وتُعقد \"on alternating days for the entire academic year.\" وJennifer Bader هي معلّمة الخطابة ومدرّبة Mock Trial وSpeech and Debate.",
+      "of": "18bdee3e",
       "at": [
         "trinity-episcopal:honors.societies[0].recognizes"
       ]
     },
     {
-      "t": "\"The speech and debate and mock trial teams both won their respective state championships this year.\" وSpeech & Debate هو في آن واحد نشاط إثراء أسبوعي للصف السابع وفريق تنافسي، فهو إذن حصّة ونادٍ معًا.",
-      "of": "a1c8f308",
+      "t": "مادة للصف 7 في الخطابة وبناء الحجّة والدفاع عنها. وهي \"meets every other day for one trimester,\" ويمكن للطلاب المواصلة في المادة الاختيارية Mock Trial and Speech & Debate للصفّين 7th–8th.",
+      "of": "1115d875",
       "at": [
         "trinity-episcopal:honors.societies[1].recognizes"
       ]
     },
     {
-      "t": "الأعضاء \"elected by their grade level peers in Middle School\" ومسؤولون عن تشجيع النزاهة، وبناء مجتمع من الثقة، ومساءلة زملائهم أمام العهد. وطلاب الصف الثامن \"often find themselves… leading honor councils\".",
-      "of": "1e5686fb",
+      "t": "\"Each fall, Middle School students elect their peers to serve on the Honor Council.\" وهو يشجّع النزاهة، ويبني مجتمعًا من الثقة، ويساءل الزملاء \"to the expectations set out in the Middle School Pledge.\" والعضوية فيه أحد الأدوار القيادية التي يتولّاها طلاب Middle School.",
+      "of": "606aedf2",
       "at": [
         "trinity-episcopal:honors.societies[2].recognizes"
       ]
@@ -6771,92 +6746,101 @@
       ]
     },
     {
-      "t": "كتبه الطلاب، 2002",
-      "of": "fa50bf8b",
+      "t": "كتبه الطلاب، واعتُمد في 2003",
+      "of": "d9ea9a61",
       "at": [
         "trinity-episcopal:honors.adjacent[0].label"
       ]
     },
     {
-      "t": "وضع الطلاب ميثاق الشرف في 2002. ويحمل الميثاق ستة عهود: المسؤولية · بذل أفضل ما لدى المرء · احترام تفرّد الآخرين · اللطف · الاحتفاء بالفرح والجمال · الامتناع عن الغشّ أو السرقة. وتردّده المدرسة كلّها معًا في Greet the Week صباح كل اثنين.",
-      "of": "d396d468",
+      "t": "\"Written by a group of Middle School students and adopted in 2003, the Honor Code is the only code of conduct the Trinity community has ever known and lived by.\" ويحمل ستة عهود: أن أكون مسؤولًا عن أفعالي · أن أبذل دائمًا أفضل ما لديّ · أن أحترم تفرّد الآخرين ومواهبهم · أن أمارس اللطف ومراعاة الآخرين · أن أحتفي بما هو مُبهج وجميل وباقٍ · ألّا أكذب أو أغشّ أو أسرق.",
+      "of": "ec86e3e1",
       "at": [
         "trinity-episcopal:honors.adjacent[0].text"
       ]
     },
     {
-      "t": "عهد الشرف في Middle School، المعتمَد في 2012",
-      "of": "3a3c90a0",
+      "t": "يُدرَّس منذ رياض الأطفال",
+      "of": "d6dde226",
       "at": [
         "trinity-episcopal:honors.adjacent[1].label"
+      ]
+    },
+    {
+      "t": "يتعلّم الطلاب ميثاق الشرف \"starting in Kindergarten,\" عبر أنشطة تناسب أعمارهم. وكما تقول المدرسة: \"The Honor Code follows you everywhere.\"",
+      "of": "5989c4ad",
+      "at": [
+        "trinity-episcopal:honors.adjacent[1].text"
+      ]
+    },
+    {
+      "t": "عهد Middle School",
+      "of": "29a826c0",
+      "at": [
+        "trinity-episcopal:honors.adjacent[2].label"
       ]
     },
     {
       "t": "\"As a child of God, I pledge that I have not cheated by giving or receiving help on this work, including plagiarizing. Moreover, I am unaware of any violation of this pledge by other students.\"",
       "of": "3c1bc375",
       "at": [
-        "trinity-episcopal:honors.adjacent[1].text"
-      ]
-    },
-    {
-      "t": "المدرِّبة",
-      "of": "1f153916",
-      "at": [
-        "trinity-episcopal:honors.adjacent[2].label"
-      ]
-    },
-    {
-      "t": "Jennifer Bader هي مدرّبة فريقَي Speech and Debate وMock Trial، وقد شغلت رئاسة Forensics Committee وعضوية مجلس North Carolina Association for Scholastic Activities. وعن الفريق تقول: \"I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections.\" وعن سبب قيامها بذلك: \"I just love when the light bulb comes on for kids. It’s really challenging material, but they really get into it.\"",
-      "of": "89eb6ef8",
-      "at": [
         "trinity-episcopal:honors.adjacent[2].text"
       ]
     },
     {
-      "t": "**لا يوجد National Junior Honor Society ولا Student Council في Trinity، خلافًا لما سيخبرك به بحث على الويب.** فكلٌّ من \"National Junior Honor Society\" و\"Junior Honor Society\" و\"NJHS\" و\"Student Council\" يعطي **صفر نتائج** عبر صفحات خريطة الموقع الـ98 جميعها وملفَّي School Profile كليهما. ومع ذلك يعيد البحث نصًّا واثقًا يصف فرع NJHS في Trinity ومجلس طلاب في Trinity؛ ولا تُؤيَّد منه كلمة واحدة على موقع المدرسة نفسها، وهو على الأرجح صفحة مدرسة أخرى. وHonor Council هو الهيئة المؤكَّدة.",
-      "of": "e75913a6",
+      "t": "**لا يوجد National Junior Honor Society ولا Student Council في Trinity، خلافًا لما سيخبرك به بحث على الويب.** فكلٌّ من \"National Junior Honor Society\" و\"Junior Honor Society\" و\"NJHS\" و\"Student Council\" يعطي **صفر نتائج** عبر الموقع القديم المؤلَّف من 98 صفحة، والموقع بعد إعادة تصميمه، وملفَّي School Profile كليهما. ومع ذلك يعيد البحث نصًّا واثقًا يصف فرع NJHS في Trinity ومجلس طلاب في Trinity؛ ولا تُؤيَّد منه كلمة واحدة على موقع المدرسة نفسها، وهو على الأرجح صفحة مدرسة أخرى. وHonor Council هو الهيئة المؤكَّدة.",
+      "of": "265cba1f",
       "at": [
         "trinity-episcopal:honors.flags[0].text"
       ]
     },
     {
-      "t": "البطولات موثَّقة في مدوّنة المدرسة فقط — **ولا تظهر أيٌّ منهما في أيٍّ من ملفَّي School Profile**، وقد نُشرت هناك تكريمات فردية للطلاب لكنها محذوفة هنا لأن Trinity مدرسة K–8 ومتنافسوها قاصرون. ولا تُنشر أي معايير عضوية أو آلية اختيار أو تاريخ لحجم الفريق بشأن Mock Trial أو Speech & Debate فيما عدا رقم الفريق البالغ 15 طالبًا.",
-      "of": "9222ff56",
+      "t": "ألقاب Mock Trial لدى NC Bar Foundation للأعوام 2023–2025 ولقب الولاية في Speech & Debate نُشرت فقط في تدوينات لم تُنقل إلى الموقع بعد إعادة تصميمه في خريف 2026. وبموجب قرار الاعتماد على الموقع الحالي وحده (المستخدم، 2026-11-14) أُزيلت من البطاقة؛ ونُسخ Wayback محفوظة في source-material/. ولا تُنشر أي نتيجة حالية للمسابقات.",
+      "of": "615e5377",
       "at": [
         "trinity-episcopal:honors.flags[1].text"
       ]
     },
     {
-      "t": "Mock Trial بطل ولاية ثلاث مرّات متتالية، وفاز Speech & Debate ببطولة الولاية في العام نفسه.",
-      "of": "67aa8414",
+      "t": "تُدرَّس Mock Trial وSpeech & Debate حصصًا في Middle School بمدرّبة خاصة بهما، وينتخب الطلاب Honor Council كل خريف.",
+      "of": "95657c4b",
       "at": [
         "trinity-episcopal:clusters.verdict"
       ]
     },
     {
-      "t": "أبطال ولاية Middle School لدى NC Bar Foundation — 2023 و2024 و2025",
-      "of": "b7b46f3d",
+      "t": "مادة اختيارية للصفّين 7th–8th بمدرّبة خاصة بها",
+      "of": "047da9b4",
       "at": [
         "trinity-episcopal:clusters.rows[0].oneLiner"
       ]
     },
     {
-      "t": "أقوى إنجاز تنافسي لدى Trinity أكاديمي لا رياضي: ثلاث بطولات ولاية متتالية في مسابقة Middle School Mock Trial التي تنظّمها North Carolina Bar Foundation. وتدرّب Jennifer Bader الفريق المؤلَّف من 15 طالبًا. وقد أُحرز اللقب الثاني في Mecklenburg County Courthouse أمام خمسة فرق أخرى من المرحلة المتوسطة. وتقول Bader: \"I think one thing that sets our team apart is how well our attorneys can argue the rules of evidence and handle objections.\"",
-      "of": "43e72615",
+      "t": "منشور من المدرسة",
+      "of": "d9983c4e",
+      "at": [
+        "trinity-episcopal:clusters.rows[0].evidenceLabel",
+        "trinity-episcopal:clusters.rows[1].evidenceLabel",
+        "trinity-episcopal:clusters.rows[2].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Mock Trial جزء من جدول Middle School. ويمكن لطلاب الصفّين 7 و8 اختيار \"Mock Trial and Speech & Debate\" مادةً اختيارية. وهي تُعقد \"on alternating days for the entire academic year.\" وJennifer Bader هي معلّمة الخطابة ومدرّبة Mock Trial وSpeech and Debate. ولا تُنشر أي نتيجة حالية للمسابقات.",
+      "of": "e5124af4",
       "at": [
         "trinity-episcopal:clusters.rows[0].note"
       ]
     },
     {
-      "t": "بطل ولاية أيضًا — وفي الوقت نفسه حصّة أسبوعية للصف السابع",
-      "of": "38846987",
+      "t": "مادة للصف 7 مدّتها فصل دراسي واحد (trimester)، وجزء من المادة الاختيارية للصفّين 7th–8th",
+      "of": "841923f8",
       "at": [
         "trinity-episcopal:clusters.rows[1].oneLiner"
       ]
     },
     {
-      "t": "تذكر المدرسة ذلك صراحةً: \"The speech and debate and mock trial teams both won their respective state championships this year.\" وSpeech & Debate حصّة ونادٍ معًا. إذ يعمل البرنامج نشاطَ إثراء أسبوعيًّا للصف 7 وفريقًا تنافسيًّا في آن، فإدراجه ضمن أنشطة الإثراء وحدها يبخسه حقّه. وقد شغلت المدرّبة Jennifer Bader رئاسة Forensics Committee وعضوية مجلس North Carolina Association for Scholastic Activities.",
-      "of": "79a45f31",
+      "t": "تُدرِّس مادة الصف 7 \"effective communication, critical thinking, and persuasive argumentation,\" وهي \"meets every other day for one trimester.\" ويمكن للطلاب المواصلة في المادة الاختيارية Mock Trial and Speech & Debate في الصفّين 7 و8. وتدرّب Jennifer Bader كلتيهما.",
+      "of": "867358e4",
       "at": [
         "trinity-episcopal:clusters.rows[1].note"
       ]
@@ -6869,22 +6853,15 @@
       ]
     },
     {
-      "t": "يُنتخَب من أقران الصف في Middle School؛ وميثاق الشرف كتبه الطلاب في 2002",
-      "of": "cc02bd0e",
+      "t": "ينتخبه طلاب Middle School كل خريف؛ وميثاق الشرف كتبه الطلاب، واعتُمد في 2003",
+      "of": "5cb077f1",
       "at": [
         "trinity-episcopal:clusters.rows[2].oneLiner"
       ]
     },
     {
-      "t": "منشور من المدرسة",
-      "of": "d9983c4e",
-      "at": [
-        "trinity-episcopal:clusters.rows[2].evidenceLabel"
-      ]
-    },
-    {
-      "t": "الأعضاء \"elected by their grade level peers in Middle School\" ويساءلون زملاءهم أمام عهد الشرف المعتمَد في 2012. وقد وضع الطلاب ميثاق الشرف في 2002. وHonor Council هو هيئة الشرف أو القيادة المؤكَّدة الوحيدة في المدرسة. فلا وجود لـ National Junior Honor Society ولا Student Council في أي مكان على الموقع ولا في أيٍّ من ملفَّي School Profile، رغم ادّعاء صفحات طرف ثالث وجودهما.",
-      "of": "e8d98018",
+      "t": "\"Each fall, Middle School students elect their peers to serve on the Honor Council.\" وهو يساءل الزملاء \"to the expectations set out in the Middle School Pledge.\" وقد كتبت مجموعة من طلاب Middle School ميثاق الشرف، واعتُمد في 2003. وHonor Council هو هيئة الشرف أو القيادة المؤكَّدة الوحيدة في المدرسة. فلا وجود لـ National Junior Honor Society ولا Student Council في أي مكان على الموقع ولا في School Profile، رغم ادّعاء صفحات طرف ثالث وجودهما.",
+      "of": "0df6ac63",
       "at": [
         "trinity-episcopal:clusters.rows[2].note"
       ]
@@ -6911,8 +6888,8 @@
       ]
     },
     {
-      "t": "Odyssey of the Mind مسابقة وطنية في حلّ المشكلات الإبداعي في مدارس أخرى. لكن لا تُنشر أي مشاركة أو نتيجة لـ Trinity، لذا لا يدّعي هذا الصف أي نتيجة تنافسية. وقد أدرج ملفّ 2025-26 أيضًا MathCats وBook Club. وكلاهما اختفى من إصدار 26-27.",
-      "of": "20e41298",
+      "t": "Odyssey of the Mind مسابقة وطنية في حلّ المشكلات الإبداعي في مدارس أخرى. لكن لا تُنشر أي مشاركة أو نتيجة لـ Trinity، لذا لا يدّعي هذا الصف أي نتيجة تنافسية.",
+      "of": "4a2b74d8",
       "at": [
         "trinity-episcopal:clusters.rows[3].note"
       ]
@@ -6961,50 +6938,38 @@
       ]
     },
     {
-      "t": "Lower School، الصفوف K–5 — مجموعة انتماء وبرنامج إرشاد للطلاب من ذوي البشرة الملوّنة؛ وجميعهم مدعوّون والأسرة هي من تقرّر المشاركة من عدمها",
-      "of": "6f550810",
+      "t": "Lower School — مذكورة في School Profile لعام 2026-27. وتصف المدرسة مجموعات الانتماء لديها بأنها \"inclusive spaces for students and adults that are built around shared identities and experiences\"",
+      "of": "b6352e8c",
       "at": [
         "trinity-episcopal:catalog.clubs[0].note"
       ]
     },
     {
-      "t": "Middle School — للطلاب الذين يعرّفون أنفسهم بأنهم من ذوي البشرة الملوّنة؛ وتجتمع أسبوعيًّا حول الحساسية الثقافية والنجاح الأكاديمي والقضايا الاجتماعية-السياسية والاستعداد للمرحلة الثانوية",
-      "of": "98fdba28",
+      "t": "Middle School — مذكورة في School Profile لعام 2026-27؛ ولا يُنشر أي وصف",
+      "of": "ba595dc6",
       "at": [
-        "trinity-episcopal:catalog.clubs[1].note"
-      ]
-    },
-    {
-      "t": "Middle School — للطلاب الذين يعرّفون أنفسهم بأنهم بيض؛ وتناقش الامتياز غير المكتسَب والأفعال التي يمكن للطلاب اتخاذها كحلفاء",
-      "of": "86d25991",
-      "at": [
-        "trinity-episcopal:catalog.clubs[2].note"
-      ]
-    },
-    {
-      "t": "Middle School — نقاش وأنشطة في حقوق الإنسان مع تركيز على قضايا المثليين والمثليات ومزدوجي الميل والمتسائلين والمتحوّلين جنسيًّا؛ ونظّمت Pride Chapel",
-      "of": "dfd7c1b3",
-      "at": [
+        "trinity-episcopal:catalog.clubs[1].note",
+        "trinity-episcopal:catalog.clubs[2].note",
         "trinity-episcopal:catalog.clubs[3].note"
       ]
     },
     {
-      "t": "مدرجة ضمن أندية طلاب Middle School في School Profile. لكن صفحة مجموعات الانتماء الخاصة بالمدرسة تصفها بأنها إحدى أربع مجموعات لأولياء الأمور، لأسر الأطفال ذوي الفروق التعلّمية",
-      "of": "c16f26cd",
+      "t": "مدرجة ضمن أندية ومجموعات Middle School في School Profile لعام 2026-27 ولا في أي موضع آخر على الموقع؛ ولا يُنشر أي وصف",
+      "of": "13c21ed5",
       "at": [
         "trinity-episcopal:catalog.clubs[4].note"
       ]
     },
     {
-      "t": "Middle School، 15 طالبًا، بتدريب Jennifer Bader — أبطال ولاية لدى North Carolina Bar Foundation في 2023 و2024 و2025. مذكور في مدوّنة المدرسة، لا في أيٍّ من ملفَّي School Profile",
-      "of": "c62afe43",
+      "t": "Middle School — إحدى المواد الاختيارية للصفّين 7th–8th، مدرجة باسم \"Mock Trial and Speech & Debate\"، وتُعقد في أيام متناوبة طوال العام. بتدريب Jennifer Bader، مدرّبة Mock Trial وSpeech and Debate في المدرسة",
+      "of": "60f94103",
       "at": [
         "trinity-episcopal:catalog.clubs[5].note"
       ]
     },
     {
-      "t": "أبطال ولاية في العام نفسه الذي فاز فيه Mock Trial، وفي الوقت نفسه حصّة إثراء أسبوعية للصف السابع — فهو حصّة وفريق معًا. وتدرّبه أيضًا Jennifer Bader",
-      "of": "85b42704",
+      "t": "مادة للصف 7 تُعقد يومًا بعد يوم لمدّة فصل دراسي واحد (trimester)، وجزء من المادة الاختيارية Mock Trial and Speech & Debate للصفّين 7th–8th. وتدرّبه أيضًا Jennifer Bader",
+      "of": "890e3145",
       "at": [
         "trinity-episcopal:catalog.clubs[6].note"
       ]
@@ -7017,8 +6982,8 @@
       ]
     },
     {
-      "t": "مذكور في School Profile لعام 2026-27 ولا في أي موضع آخر على الموقع؛ ولا يُنشر أي وصف. وقد أدرج ملفّ 2025-26 أيضًا نادي MathCats، وهو غائب عن إصدار 26-27",
-      "of": "5ff4c723",
+      "t": "مذكور في School Profile لعام 2026-27 ولا في أي موضع آخر على الموقع؛ ولا يُنشر أي وصف",
+      "of": "9b367476",
       "at": [
         "trinity-episcopal:catalog.clubs[8].note"
       ]
@@ -7031,15 +6996,15 @@
       ]
     },
     {
-      "t": "Middle School، يُنتخَب من أقران الصف — يشجّع النزاهة ويساءل الطلاب أمام عهد الشرف المعتمَد في 2012. وميثاق الشرف كتبه الطلاب في 2002",
-      "of": "a621db8a",
+      "t": "Middle School — \"Each fall, Middle School students elect their peers to serve on the Honor Council,\" وهو يساءل الزملاء أمام Middle School Pledge. وقد كتب طلاب Middle School ميثاق الشرف، واعتُمد في 2003",
+      "of": "c3e94cb9",
       "at": [
         "trinity-episcopal:catalog.clubs[10].note"
       ]
     },
     {
-      "t": "Middle School — ممثّلو مجموعات الإرشاد Koinonia، وكلٌّ منها من 10–12 طالبًا وقائد بالغ واحد، وتجتمع كل صباح للتفقّد ومرّتين أسبوعيًّا للأنشطة",
-      "of": "c875a84a",
+      "t": "Middle School — ممثّلو مجموعات الإرشاد Koinonia. وفي حفل التخرّج، يقدّم قادة Koinonia من الصف 8 راية الدفعة المتخرّجة، التي تُعلَّق من عوارض سقف الصالة الرياضية (Gym)",
+      "of": "2edebebc",
       "at": [
         "trinity-episcopal:catalog.clubs[11].note"
       ]
@@ -7052,22 +7017,22 @@
       ]
     },
     {
-      "t": "مذكور في School Profile لعام 2026-27 ولا في أي موضع آخر على الموقع. لكن إيقاع القدّاسات في المدرسة منشور: قدّاسات كل أسبوعين للصفوف K–2 و3–5، وقدّاس أسبوعي للصفوف 6–8، وقدّاس K–8 كل جمعة في الصالة الرياضية",
-      "of": "a2ba1f8f",
+      "t": "في فبراير 2026 أعلنت المدرسة \"the creation of a Chapel Music Affinity Group in Middle School.\" وMatt Moorman هو قسّيس Middle School وقسّيس الموسيقى. ومن حولها: قدّاسات كل أسبوعين في Lower School، وقدّاس أسبوعي في Middle School أيام الأربعاء، وقدّاس K–8 كل جمعة في الصالة الرياضية",
+      "of": "c818de56",
       "at": [
         "trinity-episcopal:catalog.clubs[13].note"
       ]
     },
     {
-      "t": "Lower School — كانت Trinity ثاني فرع لـ Girls on the Run في مدرسة مستقلّة وهو \"continues to be a popular program for students in grades 3-5\"؛ ومؤسِّسته Molly Barker والدة خرّيج من Trinity. أما Let Me Run، المذكور في المدخل نفسه من الملفّ، فلا يعطي أي نتائج على الموقع",
-      "of": "5f736128",
+      "t": "Lower School — مذكورة مدخلًا واحدًا، \"Girls on the Run & Let Me Run\"، في School Profile لعام 2026-27. كما يقدّم Trinity Extended Day \"boys and girls run clubs\" ضمن أنشطة الإثراء الموسمية المدفوعة",
+      "of": "f247d025",
       "at": [
         "trinity-episcopal:catalog.clubs[14].note"
       ]
     },
     {
-      "t": "مدرج بوصفه ناديًا في Lower School ضمن School Profile. لكنه مؤكَّد على الموقع فقط بوصفه نشاط إثراء مدفوعًا ضمن Trinity Extended Day يُقدَّم \"for an additional fee\"، إلى جانب دروس الموسيقى والكاراتيه ونادي التشجيع",
-      "of": "3a6145d7",
+      "t": "مدرج بوصفه ناديًا في Lower School ضمن School Profile. ويظهر على الموقع بوصفه نشاط إثراء مدفوعًا ضمن Trinity Extended Day: \"seasonal enrichments are offered for an additional fee. These include chess club, boys and girls run clubs, music lessons, and much more.\"",
+      "of": "a10ca580",
       "at": [
         "trinity-episcopal:catalog.clubs[15].note"
       ]
@@ -7091,13 +7056,6 @@
       "of": "a17b67cb",
       "at": [
         "charlotte-prep:service.subhead"
-      ]
-    },
-    {
-      "t": "2",
-      "of": "370cabd5",
-      "at": [
-        "charlotte-prep:service.programs[0].value"
       ]
     },
     {

@@ -310,7 +310,7 @@
         "carmel-christian:divisions[2].departments[1].courses[0].title",
         "hickory-grove-christian:divisions[1].departments[6].name",
         "gaston-day:divisions[0].departments[1].courses[1].title",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].title",
+        "trinity-episcopal:divisions[1].departments[4].courses[11].title",
         "charlotte-prep:divisions[0].departments[2].courses[1].title",
         "charlotte-prep:divisions[1].departments[2].courses[2].title"
       ]
@@ -612,7 +612,8 @@
         "trinity-episcopal:divisions[1].departments[0].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[0].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[4].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[3].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[5].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[0].tag",
         "charlotte-prep:divisions[2].departments[1].courses[1].tag"
       ]
@@ -679,9 +680,9 @@
         "trinity-episcopal:divisions[1].departments[0].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[1].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[3].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[7].tag"
+        "trinity-episcopal:divisions[1].departments[4].courses[4].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[6].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[8].tag"
       ]
     },
     {
@@ -756,7 +757,7 @@
         "trinity-episcopal:divisions[1].departments[0].courses[7].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[2].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[6].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[7].tag",
         "charlotte-prep:divisions[2].departments[0].courses[1].tag",
         "charlotte-prep:divisions[2].departments[1].courses[2].tag",
         "charlotte-prep:divisions[2].departments[1].courses[3].tag"
@@ -996,7 +997,7 @@
         "hickory-grove-christian:divisions[1].departments[8].courses[1].tag",
         "hickory-grove-christian:divisions[1].departments[8].courses[2].tag",
         "hickory-grove-christian:divisions[1].departments[8].courses[3].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[10].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[1].tag",
         "charlotte-prep:divisions[2].departments[2].courses[2].tag"
       ]
@@ -1466,11 +1467,11 @@
         "hickory-grove-christian:divisions[1].departments[7].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[1].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[8].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[11].tag",
-        "trinity-episcopal:divisions[1].departments[5].courses[2].tag",
-        "trinity-episcopal:divisions[1].departments[6].courses[0].tag"
+        "trinity-episcopal:divisions[1].departments[4].courses[12].tag",
+        "trinity-episcopal:divisions[1].departments[6].courses[0].tag",
+        "trinity-episcopal:divisions[1].departments[6].courses[1].tag"
       ]
     },
     {
@@ -23318,7 +23319,7 @@
       "of": "cd1e171a",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[5].title",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[6].title"
       ]
     },
     {
@@ -23434,8 +23435,8 @@
       ]
     },
     {
-      "t": "Curricoli nominati anziché corsi nominati — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — più sei attività di arricchimento settimanali, tra cui un programma di spagnolo K–5.",
-      "of": "7379846b",
+      "t": "Curricoli nominati anziché corsi nominati — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — più attività di arricchimento settimanali, tra cui un programma di spagnolo K–5. La scuola conta 16 corsi di arricchimento tra Lower e Middle School.",
+      "of": "16dd889e",
       "at": [
         "trinity-episcopal:divisions[0].teaser"
       ]
@@ -23455,8 +23456,8 @@
       ]
     },
     {
-      "t": "La scuola \"develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly effective Singapore Math approach.\"",
-      "of": "c7410c3f",
+      "t": "La scuola \"develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly-effective Singapore Math approach.\"",
+      "of": "cd693dfe",
       "at": [
         "trinity-episcopal:divisions[0].departments[0].courses[0].description"
       ]
@@ -23483,8 +23484,8 @@
       ]
     },
     {
-      "t": "Gli studi sociali sono insegnati attraverso le unità Storypaths in tutte le classi della Lower School.",
-      "of": "73cabe8c",
+      "t": "Gli studenti imparano educazione civica, economia, geografia e storia attraverso unità basate su problemi. \"Many of these units, especially in the lower grades, are known as Storypaths,\" in cui gli studenti interpretano i personaggi di una storia.",
+      "of": "eb04dbfc",
       "at": [
         "trinity-episcopal:divisions[0].departments[0].courses[2].description"
       ]
@@ -23500,8 +23501,7 @@
       "t": "Arricchimenti settimanali",
       "of": "b0bed8f4",
       "at": [
-        "trinity-episcopal:divisions[0].departments[1].name",
-        "trinity-episcopal:divisions[1].departments[4].name"
+        "trinity-episcopal:divisions[0].departments[1].name"
       ]
     },
     {
@@ -23547,10 +23547,16 @@
       ]
     },
     {
-      "t": "Una delle sei attività di arricchimento settimanali della Lower School.",
-      "of": "dd0b375f",
+      "t": "Segue il metodo Teaching Artistic Behaviors (TAB), un approccio basato sulla scelta: gli studenti si spostano tra postazioni, o piccoli atelier d’arte, per pittura, argilla o incisione.",
+      "of": "908badcc",
       "at": [
-        "trinity-episcopal:divisions[0].departments[1].courses[3].description",
+        "trinity-episcopal:divisions[0].departments[1].courses[3].description"
+      ]
+    },
+    {
+      "t": "\"All students take general music, which emphasizes creativity, music appreciation, musical literacy, and performance preparation.\" Ogni classe della Lower School mette in scena una recita o uno spettacolo musicale.",
+      "of": "d4146581",
+      "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[4].description"
       ]
     },
@@ -23625,8 +23631,8 @@
       ]
     },
     {
-      "t": "Cinque distinti corsi di matematica per l’8ª classe, una lingua straniera portata fino al Level 1 delle superiori entro la fine dell’8ª, e 13 attività di arricchimento settimanali.",
-      "of": "0e6e07c4",
+      "t": "Cinque distinti corsi di matematica per l’8ª classe, una lingua straniera portata fino al Level 1 delle superiori entro la fine dell’8ª, e materie opzionali annuali a partire dalla 7ª classe.",
+      "of": "d0b70e76",
       "at": [
         "trinity-episcopal:divisions[1].teaser"
       ]
@@ -23706,15 +23712,15 @@
       ]
     },
     {
-      "t": "L’anno di 6ª classe del percorso di studi sociali.",
-      "of": "d8e3d8bc",
+      "t": "L’anno di 6ª classe, in cui gli studenti \"use geographic tools to understand the world and its complex systems.\"",
+      "of": "2f53b7a9",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[0].description"
       ]
     },
     {
-      "t": "L’anno di 7ª classe del percorso di studi sociali.",
-      "of": "5ccbbfe3",
+      "t": "L’anno di 7ª classe: \"a thematic examination of 20th Century world events,\" insegnato attraverso fonti primarie e attualità.",
+      "of": "dce81fac",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[1].description"
       ]
@@ -23727,8 +23733,8 @@
       ]
     },
     {
-      "t": "L’anno di 8ª classe del percorso di studi sociali.",
-      "of": "4a496e0a",
+      "t": "L’anno di 8ª classe: uno sguardo agli eventi americani del XX secolo che hanno segnato di più il paese, attraverso fonti primarie e secondarie.",
+      "of": "da98a57d",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[2].description"
       ]
@@ -23748,17 +23754,24 @@
       ]
     },
     {
-      "t": "Pubblicato come filone disciplinare lungo i tre anni della Middle School; non sono forniti nomi di corso per singola classe.",
-      "of": "899b67c6",
+      "t": "Unità di lettura e scrittura lungo i tre anni della Middle School. Gli studenti scelgono le proprie letture, e nella scrittura \"focus on narrative, informational, and argumentative writing.\" Non sono forniti nomi di corso per singola classe.",
+      "of": "cce83768",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[0].description"
       ]
     },
     {
-      "t": "Un programma scientifico integrato lungo le classi 6-8, senza nomi di corso pubblicati per singola classe.",
-      "of": "afc548ca",
+      "t": "Un programma scientifico integrato e pratico lungo le classi 6-8, senza nomi di corso pubblicati per singola classe. Le tilapie del sistema di acquaponica della scuola \"have provided hands-on lessons for 7th and 8th Grade science units.\"",
+      "of": "19f41b07",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[1].description"
+      ]
+    },
+    {
+      "t": "Arricchimenti",
+      "of": "65a80afd",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].name"
       ]
     },
     {
@@ -23775,14 +23788,7 @@
         "trinity-episcopal:divisions[1].departments[4].courses[0].description",
         "trinity-episcopal:divisions[1].departments[4].courses[1].description",
         "trinity-episcopal:divisions[1].departments[4].courses[2].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[3].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[4].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[6].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[7].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[8].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[11].description"
+        "trinity-episcopal:divisions[1].departments[4].courses[9].description"
       ]
     },
     {
@@ -23793,59 +23799,122 @@
       ]
     },
     {
+      "t": "Digital Learning / Computer Science",
+      "of": "2ce06a95",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[3].title"
+      ]
+    },
+    {
+      "t": "Gli studenti di sesta seguono un trimestre ciascuno di latino, spagnolo e alfabetizzazione digitale. Il trimestre di programmazione usa il curricolo Code.org e prepara al corso di informatica di 7ª classe.",
+      "of": "1bfa5fa0",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[3].description"
+      ]
+    },
+    {
       "t": "Computer Science",
       "of": "82574932",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[3].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[4].title"
+      ]
+    },
+    {
+      "t": "Concetti fondamentali di programmazione e problem solving. Si tiene a giorni alterni per un trimestre.",
+      "of": "a949e17e",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[4].description"
       ]
     },
     {
       "t": "Learning Lab",
       "of": "82b5f090",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[4].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[5].title"
+      ]
+    },
+    {
+      "t": "Capacità di studio e di organizzazione: pianificare il lavoro, gestire tempo e materiali e mantenere la concentrazione, per poi usare queste capacità nelle materie principali.",
+      "of": "33033a41",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[5].description"
+      ]
+    },
+    {
+      "t": "Parlare in pubblico, stili oratori, e costruire e difendere argomentazioni. Si tiene a giorni alterni per un trimestre.",
+      "of": "d414c24a",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[6].description"
       ]
     },
     {
       "t": "Social Issues Seminar",
       "of": "def38b61",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[6].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[7].title"
+      ]
+    },
+    {
+      "t": "Gli studenti scelgono un tema sociale, lo studiano, pianificano come sostenerlo e poi \"implement that plan during an advocacy trip to Washington, D.C., in May.\" È collegato al progetto di service learning dell’8ª classe.",
+      "of": "325835a4",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[7].description"
       ]
     },
     {
       "t": "Healthful Living",
       "of": "2689b7c7",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[7].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[8].title"
+      ]
+    },
+    {
+      "t": "Salute fisica, sociale ed emotiva: capacità di comunicazione, risoluzione dei conflitti e benessere della comunità. Si tiene a giorni alterni per un trimestre.",
+      "of": "3547d3c3",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[8].description"
       ]
     },
     {
       "t": "FOCUS Period",
       "of": "45d54c80",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[8].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[9].title"
       ]
     },
     {
       "t": "Choice Electives",
       "of": "2c03f5e6",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[9].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[10].title"
       ]
     },
     {
-      "t": "Lo School Profile le cita nel suo elenco degli arricchimenti, ma non descrive che cosa trattino.",
-      "of": "a8c6e6ee",
+      "t": "\"Beginning in 7th Grade,\" gli studenti scelgono materie opzionali che si svolgono \"on alternating days for the entire academic year.\" Le opzioni comprendono Advanced Band, Advanced Choir, Studio Art, Mock Trial and Speech & Debate, Sports Activism e Intro to Digital Media Literacy.",
+      "of": "f324a087",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[9].description"
+        "trinity-episcopal:divisions[1].departments[4].courses[10].description"
+      ]
+    },
+    {
+      "t": "Segue il metodo Teaching for Artistic Behavior (TAB), un approccio basato sulla scelta in cui gli studenti si spostano tra piccoli atelier d’arte.",
+      "of": "0ed0a82c",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[11].description"
       ]
     },
     {
       "t": "PE",
       "of": "2c0000fe",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[11].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[12].title"
+      ]
+    },
+    {
+      "t": "Le lezioni \"teach lifelong exercise and fitness habits while developing skills for athletics.\"",
+      "of": "c4de4eb4",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[12].description"
       ]
     },
     {
@@ -23863,8 +23932,8 @@
       ]
     },
     {
-      "t": "Gli ensemble si esibiscono alle cappelle, alla cerimonia di diploma e in sedi esterne alla scuola, e \"6th Grade students choose from one of two ensembles: choir or band.\"",
-      "of": "9f987f9e",
+      "t": "\"Sixth-grade students choose from one of two ensembles: Choir or Band.\" \"Ensembles may perform at chapels, commencement and various venues outside of school.\"",
+      "of": "f4d433bc",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[0].description"
       ]
@@ -23877,24 +23946,10 @@
       ]
     },
     {
-      "t": "\"7th and 8th Grade students who decide to continue in an ensemble can choose Advanced Band or Advanced Choir.\"",
-      "of": "86405cc1",
+      "t": "\"Seventh and 8th grade students who choose to continue in an ensemble can choose Advanced Band or Advanced Choir.\" Entrambi compaiono anche nell’elenco delle materie opzionali di 7ª–8ª.",
+      "of": "d5efadb5",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[1].description"
-      ]
-    },
-    {
-      "t": "Drama Elective",
-      "of": "18fee607",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[5].courses[2].title"
-      ]
-    },
-    {
-      "t": "Gli studenti della Middle School \"may also choose to take the drama elective within their schedule, or participate in the winter play or spring musical.\"",
-      "of": "f3358490",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[5].courses[2].description"
       ]
     },
     {
@@ -23912,10 +23967,24 @@
       ]
     },
     {
-      "t": "Ogni studente appartiene a una Koinonia con altri 10-12 studenti della Middle School e un adulto di riferimento; i gruppi si riuniscono ogni mattina per l’appello e due volte a settimana per le attività.",
-      "of": "9a41ac21",
+      "t": "Gruppi di orientamento della Middle School, in cui gli studenti costruiscono \"deeper relationships with peers and teachers.\"",
+      "of": "5b1a07cb",
       "at": [
         "trinity-episcopal:divisions[1].departments[6].courses[0].description"
+      ]
+    },
+    {
+      "t": "Chapel",
+      "of": "2b5c68ee",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[6].courses[1].title"
+      ]
+    },
+    {
+      "t": "Celebrazioni religiose tre volte a settimana: \"Greet the Week on Mondays, a division-level chapel on Wednesdays, and a community chapel every Friday morning where the entire school gathers together.\"",
+      "of": "bcae5633",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[6].courses[1].description"
       ]
     },
     {

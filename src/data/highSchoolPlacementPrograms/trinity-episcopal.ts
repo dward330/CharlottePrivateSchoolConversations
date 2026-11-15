@@ -106,7 +106,7 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
     sources: [
       { label: 'tescharlotte.org — The K-8 Advantage', url: K8 },
       {
-        label: 'tescharlotte.org — Trinity Alumni Offer Advice to 8th Grade Students on High School Transition (Oct 8, 2026)',
+        label: 'tescharlotte.org — Trinity Alumni Offer Advice to 8th Grade Students on High School Transition (Oct 2026)',
         url: ALUMNI_PANEL,
       },
       { label: 'tescharlotte.org — Staculty directory (counselor titles)', url: STAFF },

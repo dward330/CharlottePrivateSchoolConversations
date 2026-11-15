@@ -5,12 +5,12 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
-      "text": "Two high school counselors, one for public and independent schools and one for boarding — a structure the school added in 2023-24.",
-      "of": "489258d4",
+      "text": "Two high school counselors help each family weigh public, independent and boarding schools, and one of them leads boarding school placement.",
+      "of": "6e5d807f",
       "at": [
         "trinity-episcopal:placement.headline"
       ],
-      "t": "দুজন হাই স্কুল কাউন্সেলর — একজন পাবলিক ও ইনডিপেনডেন্ট স্কুলের জন্য, আরেকজন বোর্ডিংয়ের জন্য — এই কাঠামোটি স্কুল যোগ করেছে 2023-24 সালে।"
+      "t": "দুজন হাই স্কুল কাউন্সেলর প্রতিটি পরিবারকে পাবলিক, ইনডিপেনডেন্ট ও বোর্ডিং স্কুলের মধ্যে বিবেচনা করতে সাহায্য করেন, আর তাঁদের একজন বোর্ডিং স্কুল প্লেসমেন্টের নেতৃত্ব দেন।"
     },
     {
       "text": "Trinity frames the K–8 model as choosing a high school at the end of 8th grade rather than at the start of Kindergarten.",
@@ -21,20 +21,20 @@
       "t": "Trinity তার K–8 মডেলকে এভাবে উপস্থাপন করে: হাই স্কুল বেছে নেওয়ার সিদ্ধান্তটি Kindergarten-এর শুরুতে নয়, 8th grade-এর শেষে নেওয়া হয়।"
     },
     {
-      "text": "public + independent · boarding",
-      "of": "d9161b1a",
+      "text": "high school · boarding school",
+      "of": "9707301a",
       "at": [
         "trinity-episcopal:placement.stats[0].denominator"
       ],
-      "t": "পাবলিক + স্বাধীন · boarding"
+      "t": "হাই স্কুল · বোর্ডিং স্কুল"
     },
     {
-      "text": "high school counselors, by published scope",
-      "of": "acca3b15",
+      "text": "high school counselors, by published title",
+      "of": "c842945f",
       "at": [
         "trinity-episcopal:placement.stats[0].caption"
       ],
-      "t": "প্রকাশিত দায়িত্ব-পরিধি অনুযায়ী হাই স্কুল কাউন্সেলর"
+      "t": "প্রকাশিত পদবি অনুযায়ী হাই স্কুল কাউন্সেলর"
     },
     {
       "text": "Kindergarten through 8th grade",
@@ -53,12 +53,12 @@
       "t": "অনুসন্ধান শুরুর আগে একই ক্যাম্পাসে কাটানো বছর"
     },
     {
-      "text": "Throughout Middle School — knowing the schools",
-      "of": "ca583a86",
+      "text": "Fall of 8th grade — the search begins",
+      "of": "15ae11b3",
       "at": [
         "trinity-episcopal:placement.steps[0].when"
       ],
-      "t": "পুরো Middle School জুড়ে — স্কুলগুলোকে জানা"
+      "t": "8th grade-এর শরৎ — অনুসন্ধান শুরু"
     },
     {
       "text": "Exposure",
@@ -70,12 +70,12 @@
       "t": "পরিচিতি"
     },
     {
-      "text": "The counselor for public and independent placement visits area schools and, in her words, gets “a feel for who might benefit from knowing this school,” then points families toward fits based on what they want: “Do they want big class sizes? Are sports important? Extracurricular?”",
-      "of": "2556aa06",
+      "text": "Trinity’s two high school counselors “work closely with families and students to sift through the many options available for the next chapter in their education, whether it’s in a public school, another independent institution, or a boarding school.” The school says families “begin the process of picking a high school” in the fall of 8th grade. On Sept. 21, 2026, alumni came back to advise 8th graders, on a panel led by the high school counselor. They talked about touring schools and the in-person interview that is part of a high school application.",
+      "of": "6f134110",
       "at": [
         "trinity-episcopal:placement.steps[0].text"
       ],
-      "t": "পাবলিক ও ইনডিপেনডেন্ট প্লেসমেন্টের কাউন্সেলর এলাকার স্কুলগুলোতে যান এবং, তাঁর ভাষায়, “a feel for who might benefit from knowing this school,” তৈরি করেন; এরপর পরিবার কী চায় তার ভিত্তিতে তাদের মানানসই স্কুলের দিকে পরামর্শ দেন: “Do they want big class sizes? Are sports important? Extracurricular?”"
+      "t": "Trinity-র দুজন হাই স্কুল কাউন্সেলর “work closely with families and students to sift through the many options available for the next chapter in their education, whether it’s in a public school, another independent institution, or a boarding school.” স্কুল জানায়, পরিবারগুলো 8th grade-এর শরতে “begin the process of picking a high school”। 21 সেপ্টেম্বর 2026-এ প্রাক্তন শিক্ষার্থীরা ফিরে এসে 8th grade-এর শিক্ষার্থীদের পরামর্শ দেন, হাই স্কুল কাউন্সেলরের পরিচালনায় একটি প্যানেলে। তাঁরা স্কুল ঘুরে দেখা এবং হাই স্কুলে আবেদনের অংশ হিসেবে সামনাসামনি সাক্ষাৎকার নিয়ে কথা বলেন।"
     },
     {
       "text": "Middle School — the boarding track, if a family wants it",
@@ -94,12 +94,12 @@
       "t": "একটি আলাদা পথ"
     },
     {
-      "text": "Boarding placement is handled separately and by a different person. It is not a minor path here: 12% of all graduates since 2004 went to boarding schools. The destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School.",
-      "of": "f9b389d8",
+      "text": "Boarding placement has its own counselor: Rudy Wise, the Director of Admission and Boarding School Placement. It is not a minor path here: 12% of all graduates since 2004 went to boarding schools. The destination list includes Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s and The Taft School.",
+      "of": "8f48ecbc",
       "at": [
         "trinity-episcopal:placement.steps[1].text"
       ],
-      "t": "বোর্ডিং প্লেসমেন্ট আলাদাভাবে এবং ভিন্ন একজন ব্যক্তির মাধ্যমে পরিচালিত হয়। এখানে এটি কোনো ছোটখাটো পথ নয়: 2004 সাল থেকে সব গ্র্যাজুয়েটের 12% বোর্ডিং স্কুলে গেছেন। গন্তব্যের তালিকায় আছে Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s ও The Taft School।"
+      "t": "বোর্ডিং প্লেসমেন্টের জন্য আছেন আলাদা একজন কাউন্সেলর: Rudy Wise, Director of Admission and Boarding School Placement। এখানে এটি কোনো ছোটখাটো পথ নয়: 2004 সাল থেকে সব গ্র্যাজুয়েটের 12% বোর্ডিং স্কুলে গেছেন। গন্তব্যের তালিকায় আছে Deerfield, Lawrenceville, Mercersburg, Woodberry Forest, St. Paul’s ও The Taft School।"
     },
     {
       "text": "Grade 8 — the decision",
@@ -429,20 +429,20 @@
       "t": "গত বছরের ব্যাচের কত অংশ তাদের প্রথম পছন্দের হাই স্কুলে সুযোগ পেয়েছে? কোনো সংখ্যা প্রকাশিত নেই, তাই সরাসরি জিজ্ঞেস করে নিন।"
     },
     {
-      "text": "What does the placement calendar look like — when does the search start, and what happens each term?",
-      "of": "438fe510",
+      "text": "The search starts in the fall of 8th grade. What happens each term from there, and when do applications and interviews fall?",
+      "of": "e45ffe7c",
       "at": [
         "trinity-episcopal:verdict.checklist[2]"
       ],
-      "t": "প্লেসমেন্টের সময়সূচি কেমন — অনুসন্ধান কখন শুরু হয়, আর প্রতি টার্মে কী কী ঘটে?"
+      "t": "অনুসন্ধান শুরু হয় 8th grade-এর শরতে। এরপর প্রতি টার্মে কী কী ঘটে, আর আবেদন ও সাক্ষাৎকার কখন হয়?"
     },
     {
-      "text": "The counselor roles began in 2023-24. How has the process changed since, and who holds each role now?",
-      "of": "eb9909cc",
+      "text": "Trinity has a high school counselor and a boarding school counselor. How do the two share the work with a family weighing both kinds of school?",
+      "of": "770326e9",
       "at": [
         "trinity-episcopal:verdict.checklist[3]"
       ],
-      "t": "কাউন্সেলরের দায়িত্বগুলো শুরু হয়েছে 2023-24 সালে। তারপর থেকে প্রক্রিয়াটি কীভাবে বদলেছে, আর এখন কে কোন দায়িত্বে আছেন?"
+      "t": "Trinity-তে একজন হাই স্কুল কাউন্সেলর ও একজন বোর্ডিং স্কুল কাউন্সেলর আছেন। যে পরিবার দুই ধরনের স্কুলই বিবেচনা করছে, তাদের ক্ষেত্রে দুজন কীভাবে কাজ ভাগ করে নেন?"
     },
     {
       "text": "Do graduates win merit scholarships at their high schools? No counts or dollars are published anywhere.",

@@ -335,7 +335,7 @@
         "carmel-christian:divisions[2].departments[1].courses[0].title",
         "hickory-grove-christian:divisions[1].departments[6].name",
         "gaston-day:divisions[0].departments[1].courses[1].title",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].title",
+        "trinity-episcopal:divisions[1].departments[4].courses[11].title",
         "charlotte-prep:divisions[0].departments[2].courses[1].title",
         "charlotte-prep:divisions[1].departments[2].courses[2].title"
       ],
@@ -662,7 +662,8 @@
         "trinity-episcopal:divisions[1].departments[0].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[0].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[4].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[3].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[5].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[0].tag",
         "charlotte-prep:divisions[2].departments[1].courses[1].tag"
       ],
@@ -732,9 +733,9 @@
         "trinity-episcopal:divisions[1].departments[0].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[1].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[1].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[3].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[7].tag"
+        "trinity-episcopal:divisions[1].departments[4].courses[4].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[6].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[8].tag"
       ],
       "t": "कक्षा 7"
     },
@@ -812,7 +813,7 @@
         "trinity-episcopal:divisions[1].departments[0].courses[7].tag",
         "trinity-episcopal:divisions[1].departments[2].courses[2].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[2].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[6].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[7].tag",
         "charlotte-prep:divisions[2].departments[0].courses[1].tag",
         "charlotte-prep:divisions[2].departments[1].courses[2].tag",
         "charlotte-prep:divisions[2].departments[1].courses[3].tag"
@@ -1061,7 +1062,7 @@
         "hickory-grove-christian:divisions[1].departments[8].courses[1].tag",
         "hickory-grove-christian:divisions[1].departments[8].courses[2].tag",
         "hickory-grove-christian:divisions[1].departments[8].courses[3].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[10].tag",
         "trinity-episcopal:divisions[1].departments[5].courses[1].tag",
         "charlotte-prep:divisions[2].departments[2].courses[2].tag"
       ],
@@ -1581,11 +1582,11 @@
         "hickory-grove-christian:divisions[1].departments[7].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[0].tag",
         "trinity-episcopal:divisions[1].departments[3].courses[1].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[8].tag",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].tag",
+        "trinity-episcopal:divisions[1].departments[4].courses[9].tag",
         "trinity-episcopal:divisions[1].departments[4].courses[11].tag",
-        "trinity-episcopal:divisions[1].departments[5].courses[2].tag",
-        "trinity-episcopal:divisions[1].departments[6].courses[0].tag"
+        "trinity-episcopal:divisions[1].departments[4].courses[12].tag",
+        "trinity-episcopal:divisions[1].departments[6].courses[0].tag",
+        "trinity-episcopal:divisions[1].departments[6].courses[1].tag"
       ],
       "t": "कक्षा 6–8"
     },
@@ -26335,7 +26336,7 @@
       "of": "cd1e171a",
       "at": [
         "gaston-day:divisions[1].departments[7].courses[5].title",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[6].title"
       ],
       "t": "Speech & Debate"
     },
@@ -26468,12 +26469,12 @@
       "t": "K – कक्षा 5"
     },
     {
-      "text": "Named curricula rather than named courses — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plus six weekly enrichments, including a K–5 Spanish program.",
-      "of": "7379846b",
+      "text": "Named curricula rather than named courses — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plus weekly enrichments, including a K–5 Spanish program. The school counts 16 enrichment courses across Lower and Middle School.",
+      "of": "16dd889e",
       "at": [
         "trinity-episcopal:divisions[0].teaser"
       ],
-      "t": "नामित कोर्सों के बजाय नामित पाठ्यक्रम — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — साथ में छह साप्ताहिक enrichment, जिनमें एक K–5 Spanish कार्यक्रम भी है।"
+      "t": "नामित कोर्सों के बजाय नामित पाठ्यक्रम — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — साथ में साप्ताहिक enrichment, जिनमें एक K–5 Spanish कार्यक्रम भी है। स्कूल Lower और Middle School में मिलाकर 16 enrichment कोर्स गिनाता है।"
     },
     {
       "text": "Trinity publishes Lower School work as named curricula and weekly enrichment subjects, not as separate courses with their own descriptions. The rows below are those subjects and curricula, as the school states them. Trinity publishes no Lower School course catalog.",
@@ -26492,12 +26493,12 @@
       "t": "गणित — Math in Focus 2020"
     },
     {
-      "text": "The school \"develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly effective Singapore Math approach.\"",
-      "of": "c7410c3f",
+      "text": "The school \"develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly-effective Singapore Math approach.\"",
+      "of": "cd693dfe",
       "at": [
         "trinity-episcopal:divisions[0].departments[0].courses[0].description"
       ],
-      "t": "स्कूल \"develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly effective Singapore Math approach.\""
+      "t": "स्कूल \"develops mathematicians in Kindergarten through Grade 5 using the Math in Focus 2020 curriculum, which is the U.S. edition of the highly-effective Singapore Math approach.\""
     },
     {
       "text": "Science — Amplify Science",
@@ -26524,12 +26525,12 @@
       "t": "सामाजिक अध्ययन — Storypaths"
     },
     {
-      "text": "Social Studies is taught through Storypaths units across the Lower School grades.",
-      "of": "73cabe8c",
+      "text": "Students learn civics, economics, geography and history through problem-based units. \"Many of these units, especially in the lower grades, are known as Storypaths,\" in which students take on roles as characters in a story.",
+      "of": "eb04dbfc",
       "at": [
         "trinity-episcopal:divisions[0].departments[0].courses[2].description"
       ],
-      "t": "Lower School की सभी कक्षाओं में सामाजिक अध्ययन Storypaths की इकाइयों के ज़रिए पढ़ाया जाता है।"
+      "t": "छात्र समस्या-आधारित इकाइयों के ज़रिए नागरिक शास्त्र, अर्थशास्त्र, भूगोल और इतिहास सीखते हैं। \"Many of these units, especially in the lower grades, are known as Storypaths,\" जिनमें छात्र किसी कहानी के पात्रों की भूमिकाएँ निभाते हैं।"
     },
     {
       "text": "Covers phonemic and phonological awareness in Kindergarten through Grade 2, with word study continuing through Grade 5.",
@@ -26543,8 +26544,7 @@
       "text": "Weekly Enrichments",
       "of": "b0bed8f4",
       "at": [
-        "trinity-episcopal:divisions[0].departments[1].name",
-        "trinity-episcopal:divisions[1].departments[4].name"
+        "trinity-episcopal:divisions[0].departments[1].name"
       ],
       "t": "साप्ताहिक Enrichment"
     },
@@ -26597,13 +26597,20 @@
       "t": "Lower School का साप्ताहिक शारीरिक शिक्षा और स्वास्थ्य enrichment।"
     },
     {
-      "text": "One of the six weekly Lower School enrichments.",
-      "of": "dd0b375f",
+      "text": "Follows Teaching Artistic Behaviors (TAB), a choice-based approach: students move between centers, or mini art studios, for painting, clay or printmaking.",
+      "of": "908badcc",
       "at": [
-        "trinity-episcopal:divisions[0].departments[1].courses[3].description",
+        "trinity-episcopal:divisions[0].departments[1].courses[3].description"
+      ],
+      "t": "Teaching Artistic Behaviors (TAB) का पालन करता है, जो चुनाव पर आधारित तरीका है: छात्र चित्रकारी, मिट्टी के काम या printmaking के लिए अलग-अलग centers, यानी छोटे art studios, के बीच घूमते हैं।"
+    },
+    {
+      "text": "\"All students take general music, which emphasizes creativity, music appreciation, musical literacy, and performance preparation.\" Each Lower School grade puts on a play or musical performance.",
+      "of": "d4146581",
+      "at": [
         "trinity-episcopal:divisions[0].departments[1].courses[4].description"
       ],
-      "t": "Lower School के छह साप्ताहिक enrichment में से एक।"
+      "t": "\"All students take general music, which emphasizes creativity, music appreciation, musical literacy, and performance preparation.\" Lower School की हर कक्षा एक नाटक या संगीतमय प्रस्तुति देती है।"
     },
     {
       "text": "Faith Studies",
@@ -26686,12 +26693,12 @@
       "t": "कक्षा 5 के अंतिम त्रैमासिक में छात्र लिंग-आधारित छोटे समूहों में बँट जाते हैं ताकि Middle School में जाने के लिए व्यक्तिगत नेतृत्व कौशल विकसित कर सकें।"
     },
     {
-      "text": "Five distinct 8th-grade math courses, a world language taken to a high-school Level 1 by the end of 8th grade, and 13 weekly enrichments.",
-      "of": "0e6e07c4",
+      "text": "Five distinct 8th-grade math courses, a world language taken to a high-school Level 1 by the end of 8th grade, and year-long electives starting in 7th grade.",
+      "of": "d0b70e76",
       "at": [
         "trinity-episcopal:divisions[1].teaser"
       ],
-      "t": "कक्षा 8 के पाँच अलग-अलग गणित कोर्स, एक विश्व भाषा जो कक्षा 8 के अंत तक high school के Level 1 तक पहुँचती है, और 13 साप्ताहिक enrichment।"
+      "t": "कक्षा 8 के पाँच अलग-अलग गणित कोर्स, एक विश्व भाषा जो कक्षा 8 के अंत तक high school के Level 1 तक पहुँचती है, और कक्षा 7 से शुरू होने वाले साल भर के elective।"
     },
     {
       "text": "The 6th-grade course, in a department whose instruction is \"grounded in a problem-based core curriculum rooted in content and practice standards.\"",
@@ -26778,20 +26785,20 @@
       "t": "भूगोल, नागरिक शास्त्र और वैश्विक मुद्दे"
     },
     {
-      "text": "The 6th-grade year of the Social Studies course of study.",
-      "of": "d8e3d8bc",
+      "text": "The 6th-grade year, in which students \"use geographic tools to understand the world and its complex systems.\"",
+      "of": "2f53b7a9",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[0].description"
       ],
-      "t": "सामाजिक अध्ययन के क्रम का कक्षा 6 वाला वर्ष।"
+      "t": "कक्षा 6 वाला वर्ष, जिसमें छात्र \"use geographic tools to understand the world and its complex systems.\""
     },
     {
-      "text": "The 7th-grade year of the Social Studies course of study.",
-      "of": "5ccbbfe3",
+      "text": "The 7th-grade year: \"a thematic examination of 20th Century world events,\" taught through primary sources and current events.",
+      "of": "dce81fac",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[1].description"
       ],
-      "t": "सामाजिक अध्ययन के क्रम का कक्षा 7 वाला वर्ष।"
+      "t": "कक्षा 7 वाला वर्ष: \"a thematic examination of 20th Century world events,\" जिसे प्राथमिक स्रोतों और समसामयिक घटनाओं के ज़रिए पढ़ाया जाता है।"
     },
     {
       "text": "Modern United States History",
@@ -26802,12 +26809,12 @@
       "t": "आधुनिक संयुक्त राज्य अमेरिका का इतिहास"
     },
     {
-      "text": "The 8th-grade year of the Social Studies course of study.",
-      "of": "4a496e0a",
+      "text": "The 8th-grade year: a look at the 20th-century American events that most shaped the country, through primary and secondary sources.",
+      "of": "da98a57d",
       "at": [
         "trinity-episcopal:divisions[1].departments[2].courses[2].description"
       ],
-      "t": "सामाजिक अध्ययन के क्रम का कक्षा 8 वाला वर्ष।"
+      "t": "कक्षा 8 वाला वर्ष: 20वीं सदी की उन अमेरिकी घटनाओं पर एक नज़र जिन्होंने देश को सबसे ज़्यादा आकार दिया, प्राथमिक और द्वितीयक स्रोतों के ज़रिए।"
     },
     {
       "text": "English & Science",
@@ -26826,20 +26833,28 @@
       "t": "अंग्रेज़ी / भाषा-कला"
     },
     {
-      "text": "Published as a subject strand across the three Middle School years; no per-grade course names are given.",
-      "of": "899b67c6",
+      "text": "Reading and writing units across the three Middle School years. Students choose their own reading, and in writing they \"focus on narrative, informational, and argumentative writing.\" No per-grade course names are given.",
+      "of": "cce83768",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[0].description"
       ],
-      "t": "इसे Middle School के तीनों वर्षों में एक विषय-धारा के रूप में प्रकाशित किया गया है; प्रति-कक्षा कोई कोर्स नाम नहीं दिए गए।"
+      "t": "Middle School के तीनों वर्षों में पढ़ने और लिखने की इकाइयाँ। छात्र अपनी पढ़ाई की किताबें खुद चुनते हैं, और लेखन के बारे में स्कूल कहता है कि वे \"focus on narrative, informational, and argumentative writing.\" प्रति-कक्षा कोई कोर्स नाम नहीं दिए गए।"
     },
     {
-      "text": "An integrated science program across grades 6-8, with no per-grade course names published.",
-      "of": "afc548ca",
+      "text": "An integrated, hands-on science program across grades 6-8, with no per-grade course names published. The tilapia in the school's aquaponics system \"have provided hands-on lessons for 7th and 8th Grade science units.\"",
+      "of": "19f41b07",
       "at": [
         "trinity-episcopal:divisions[1].departments[3].courses[1].description"
       ],
-      "t": "कक्षा 6-8 में चलने वाला एक एकीकृत विज्ञान कार्यक्रम, जिसमें प्रति-कक्षा कोई कोर्स नाम प्रकाशित नहीं हैं।"
+      "t": "कक्षा 6-8 में चलने वाला एक एकीकृत, व्यावहारिक विज्ञान कार्यक्रम, जिसमें प्रति-कक्षा कोई कोर्स नाम प्रकाशित नहीं हैं। स्कूल बताता है कि उसके aquaponics सिस्टम की tilapia मछलियाँ \"have provided hands-on lessons for 7th and 8th Grade science units.\""
+    },
+    {
+      "text": "Enrichments",
+      "of": "65a80afd",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].name"
+      ],
+      "t": "Enrichment"
     },
     {
       "text": "Hebrew Scriptures",
@@ -26856,14 +26871,7 @@
         "trinity-episcopal:divisions[1].departments[4].courses[0].description",
         "trinity-episcopal:divisions[1].departments[4].courses[1].description",
         "trinity-episcopal:divisions[1].departments[4].courses[2].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[3].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[4].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[5].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[6].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[7].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[8].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[10].description",
-        "trinity-episcopal:divisions[1].departments[4].courses[11].description"
+        "trinity-episcopal:divisions[1].departments[4].courses[9].description"
       ],
       "t": "School Profile में सूचीबद्ध 13 साप्ताहिक Middle School enrichment में से एक।"
     },
@@ -26876,42 +26884,98 @@
       "t": "Christian Narratives"
     },
     {
-      "text": "Computer Science",
-      "of": "82574932",
+      "text": "Digital Learning / Computer Science",
+      "of": "2ce06a95",
       "at": [
         "trinity-episcopal:divisions[1].departments[4].courses[3].title"
       ],
+      "t": "Digital Learning / कंप्यूटर विज्ञान"
+    },
+    {
+      "text": "Sixth graders take a trimester each of Latin, Spanish and digital literacy. The coding trimester uses the Code.org curriculum and leads into the 7th-grade computer science class.",
+      "of": "1bfa5fa0",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[3].description"
+      ],
+      "t": "छठी कक्षा के छात्र Latin, Spanish और digital literacy, हर एक का एक-एक त्रैमासिक लेते हैं। Coding वाला त्रैमासिक Code.org पाठ्यक्रम इस्तेमाल करता है और कक्षा 7 की कंप्यूटर विज्ञान कक्षा की ओर ले जाता है।"
+    },
+    {
+      "text": "Computer Science",
+      "of": "82574932",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[4].title"
+      ],
       "t": "कंप्यूटर विज्ञान"
+    },
+    {
+      "text": "Core programming ideas and problem-solving. It meets every other day for one trimester.",
+      "of": "a949e17e",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[4].description"
+      ],
+      "t": "प्रोग्रामिंग के मूल विचार और समस्या-समाधान। यह एक त्रैमासिक तक हर दूसरे दिन चलता है।"
     },
     {
       "text": "Learning Lab",
       "of": "82b5f090",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[4].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[5].title"
       ],
       "t": "Learning Lab"
+    },
+    {
+      "text": "Study and organizing skills: planning work, managing time and materials, and keeping focus, then using those skills in core classes.",
+      "of": "33033a41",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[5].description"
+      ],
+      "t": "पढ़ाई और व्यवस्था के कौशल: काम की योजना बनाना, समय और सामग्री का प्रबंधन करना, और ध्यान बनाए रखना, फिर इन कौशलों का मुख्य कक्षाओं में इस्तेमाल करना।"
+    },
+    {
+      "text": "Public speaking, speech styles, and building and defending arguments. It meets every other day for one trimester.",
+      "of": "d414c24a",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[6].description"
+      ],
+      "t": "सार्वजनिक भाषण, भाषण की शैलियाँ, और तर्क गढ़ना तथा उसका बचाव करना। यह एक त्रैमासिक तक हर दूसरे दिन चलता है।"
     },
     {
       "text": "Social Issues Seminar",
       "of": "def38b61",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[6].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[7].title"
       ],
       "t": "Social Issues Seminar"
+    },
+    {
+      "text": "Students pick a social issue, study it, plan how to advocate for it, and then \"implement that plan during an advocacy trip to Washington, D.C., in May.\" It is tied to the 8th-grade service-learning project.",
+      "of": "325835a4",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[7].description"
+      ],
+      "t": "छात्र एक सामाजिक मुद्दा चुनते हैं, उसका अध्ययन करते हैं, उसकी पैरवी की योजना बनाते हैं, और फिर यह करते हैं: \"implement that plan during an advocacy trip to Washington, D.C., in May.\" यह कक्षा 8 के service-learning project से जुड़ा है।"
     },
     {
       "text": "Healthful Living",
       "of": "2689b7c7",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[7].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[8].title"
       ],
       "t": "Healthful Living"
+    },
+    {
+      "text": "Physical, social and emotional health: communication skills, conflict resolution and community wellness. It meets every other day for one trimester.",
+      "of": "3547d3c3",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[8].description"
+      ],
+      "t": "शारीरिक, सामाजिक और भावनात्मक स्वास्थ्य: बातचीत के कौशल, विवाद सुलझाना और सामुदायिक स्वास्थ्य। यह एक त्रैमासिक तक हर दूसरे दिन चलता है।"
     },
     {
       "text": "FOCUS Period",
       "of": "45d54c80",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[8].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[9].title"
       ],
       "t": "FOCUS Period"
     },
@@ -26919,25 +26983,41 @@
       "text": "Choice Electives",
       "of": "2c03f5e6",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[9].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[10].title"
       ],
       "t": "Choice Electives"
     },
     {
-      "text": "The School Profile names them in its enrichment list but does not describe what they cover.",
-      "of": "a8c6e6ee",
+      "text": "\"Beginning in 7th Grade,\" students choose electives that run \"on alternating days for the entire academic year.\" Options include Advanced Band, Advanced Choir, Studio Art, Mock Trial and Speech & Debate, Sports Activism, and Intro to Digital Media Literacy.",
+      "of": "f324a087",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[9].description"
+        "trinity-episcopal:divisions[1].departments[4].courses[10].description"
       ],
-      "t": "School Profile अपनी enrichment सूची में इनके नाम देता है, पर यह नहीं बताता कि इनमें क्या शामिल है।"
+      "t": "\"Beginning in 7th Grade,\" छात्र ऐसे elective चुनते हैं जो इस तरह चलते हैं: \"on alternating days for the entire academic year.\" विकल्पों में Advanced Band, Advanced Choir, Studio Art, Mock Trial and Speech & Debate, Sports Activism, और Intro to Digital Media Literacy शामिल हैं।"
+    },
+    {
+      "text": "Follows Teaching for Artistic Behavior (TAB), a choice-based approach in which students move between mini art studios.",
+      "of": "0ed0a82c",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[11].description"
+      ],
+      "t": "Teaching for Artistic Behavior (TAB) का पालन करता है, जो चुनाव पर आधारित तरीका है, जिसमें छात्र छोटे art studios के बीच घूमते हैं।"
     },
     {
       "text": "PE",
       "of": "2c0000fe",
       "at": [
-        "trinity-episcopal:divisions[1].departments[4].courses[11].title"
+        "trinity-episcopal:divisions[1].departments[4].courses[12].title"
       ],
       "t": "PE"
+    },
+    {
+      "text": "Classes \"teach lifelong exercise and fitness habits while developing skills for athletics.\"",
+      "of": "c4de4eb4",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[4].courses[12].description"
+      ],
+      "t": "स्कूल के अनुसार कक्षाएँ \"teach lifelong exercise and fitness habits while developing skills for athletics.\""
     },
     {
       "text": "Arts & Ensembles",
@@ -26956,12 +27036,12 @@
       "t": "संगीत Ensembles — Choir या Band"
     },
     {
-      "text": "Ensembles perform at chapels, commencement, and venues outside of school, and \"6th Grade students choose from one of two ensembles: choir or band.\"",
-      "of": "9f987f9e",
+      "text": "\"Sixth-grade students choose from one of two ensembles: Choir or Band.\" \"Ensembles may perform at chapels, commencement and various venues outside of school.\"",
+      "of": "f4d433bc",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[0].description"
       ],
-      "t": "संगीत-समूह chapel में, commencement पर और स्कूल के बाहर के स्थलों पर प्रस्तुति देते हैं, और \"6th Grade students choose from one of two ensembles: choir or band.\""
+      "t": "\"Sixth-grade students choose from one of two ensembles: Choir or Band.\" \"Ensembles may perform at chapels, commencement and various venues outside of school.\""
     },
     {
       "text": "Advanced Band / Advanced Choir",
@@ -26972,28 +27052,12 @@
       "t": "Advanced Band / Advanced Choir"
     },
     {
-      "text": "\"7th and 8th Grade students who decide to continue in an ensemble can choose Advanced Band or Advanced Choir.\"",
-      "of": "86405cc1",
+      "text": "\"Seventh and 8th grade students who choose to continue in an ensemble can choose Advanced Band or Advanced Choir.\" Both are also on the 7th–8th elective list.",
+      "of": "d5efadb5",
       "at": [
         "trinity-episcopal:divisions[1].departments[5].courses[1].description"
       ],
-      "t": "\"7th and 8th Grade students who decide to continue in an ensemble can choose Advanced Band or Advanced Choir.\""
-    },
-    {
-      "text": "Drama Elective",
-      "of": "18fee607",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[5].courses[2].title"
-      ],
-      "t": "Drama Elective"
-    },
-    {
-      "text": "Middle School students \"may also choose to take the drama elective within their schedule, or participate in the winter play or spring musical.\"",
-      "of": "f3358490",
-      "at": [
-        "trinity-episcopal:divisions[1].departments[5].courses[2].description"
-      ],
-      "t": "Middle School के छात्र \"may also choose to take the drama elective within their schedule, or participate in the winter play or spring musical.\""
+      "t": "\"Seventh and 8th grade students who choose to continue in an ensemble can choose Advanced Band or Advanced Choir.\" दोनों कक्षा 7–8 की elective सूची में भी हैं।"
     },
     {
       "text": "Community Life",
@@ -27012,12 +27076,28 @@
       "t": "Koinonia"
     },
     {
-      "text": "Each student belongs to a Koinonia with 10-12 other Middle School students and one adult leader; groups gather every morning for check-in and twice a week for activities.",
-      "of": "9a41ac21",
+      "text": "Middle School advisory groups, where students build \"deeper relationships with peers and teachers.\"",
+      "of": "5b1a07cb",
       "at": [
         "trinity-episcopal:divisions[1].departments[6].courses[0].description"
       ],
-      "t": "हर छात्र एक Koinonia का हिस्सा होता है जिसमें Middle School के 10-12 अन्य छात्र और एक वयस्क नेता होते हैं; ये समूह हर सुबह हाज़िरी के लिए और सप्ताह में दो बार गतिविधियों के लिए इकट्ठा होते हैं।"
+      "t": "Middle School के advisory समूह, जहाँ छात्र यह बनाते हैं: \"deeper relationships with peers and teachers.\""
+    },
+    {
+      "text": "Chapel",
+      "of": "2b5c68ee",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[6].courses[1].title"
+      ],
+      "t": "Chapel"
+    },
+    {
+      "text": "Worship three times a week: \"Greet the Week on Mondays, a division-level chapel on Wednesdays, and a community chapel every Friday morning where the entire school gathers together.\"",
+      "of": "bcae5633",
+      "at": [
+        "trinity-episcopal:divisions[1].departments[6].courses[1].description"
+      ],
+      "t": "सप्ताह में तीन बार उपासना: \"Greet the Week on Mondays, a division-level chapel on Wednesdays, and a community chapel every Friday morning where the entire school gathers together.\""
     },
     {
       "text": "Montessori Early School",

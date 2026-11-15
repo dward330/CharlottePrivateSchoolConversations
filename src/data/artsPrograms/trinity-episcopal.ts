@@ -251,7 +251,7 @@ export const trinityEpiscopal: ArtsProgram = {
       { label: 'tescharlotte.org — Lower School page (enrichments)', url: LS_ENRICH },
       { label: 'tescharlotte.org — Middle School page (Performing Arts, Electives)', url: MS_ENRICH },
       { label: 'tescharlotte.org — Staculty directory', url: STACULTY },
-      { label: 'tescharlotte.org — "2026 Light the Fire Grants Announced", Mar 10 2026', url: GRANT },
+      { label: 'tescharlotte.org — "2026 Light the Fire Grants Announced", Mar 2026', url: GRANT },
       { label: 'tescharlotte.org — 2026-27 calendar', url: CALENDAR },
       { label: 'Trinity\'s own Vimeo channel (API listing)', url: VIMEO },
       {
@@ -324,7 +324,7 @@ export const trinityEpiscopal: ArtsProgram = {
       'Faculty: Jen Rankey-Zona is Visual Art Director and an art teacher, and "a founding Trinity faculty member." Shelby Hawk is the K-4 art teacher: "I am truly so honored to teach these wonderful artists."',
     sources: [
       {
-        label: 'tescharlotte.org — "Trinity Artists Honored in Local Exhibits", March 7 2026',
+        label: 'tescharlotte.org — "Trinity Artists Honored in Local Exhibits", March 2026',
         url: HONORED,
       },
       {
