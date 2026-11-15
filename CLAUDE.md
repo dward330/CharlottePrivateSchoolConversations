@@ -508,7 +508,10 @@ page in real Chrome in all nine prose locales and reports every English-form dat
 quotes, the Latest News section and verbatim tables. It found 54 per locale in the
 admissions deadline strip, the stat tiles and one clubs service tile, all `value` fields now
 promoted by path in `PATH_OVERRIDES` (plan `figuredates`). Like `audit:moneyrender`, it
-needs `npm run build && npx vite preview`, so it is not in the build. Run it after adding a
+needs `npm run build && npx vite preview`, so it is not in the build. By default it now
+visits only what the branch changed since `main`, opening each changed card through its
+deep link, and it switches to the full sweep by itself on any render-code change (plan
+`auditscope`; `npm run audit:scope` prints the scope). Run `-- --all` after adding a
 render site or a skipped field.
 
 **Percent signs stay unspaced in every locale, French included.** French
@@ -769,9 +772,11 @@ Compare and checklist page in real Chrome in `es`/`fr` — where a localized fig
 never has a leading `$` — and reports every `$<digit>` that reached the screen. It
 found 316 across 26 sites that `check:money`'s identifier grep could not see,
 because the fields were called `label`, `text` or `detail` (Trinity's
-`Comida (FLIK) — por menú · $11.50` sat two lines from `11,50 US$`). Run it after
-adding a render site or a locale; it needs `npm run build && npx vite preview`,
-so it is not in the build.
+`Comida (FLIK) — por menú · $11.50` sat two lines from `11,50 US$`). Run it with
+`-- --all` after adding a render site or a locale; it needs `npm run build && npx vite
+preview`, so it is not in the build. By default it visits only what the branch changed
+since `main`, through card deep links, and falls back to the full sweep on any
+render-code change (`format.ts` included).
 
 **Telugu keeps native lakh/crore grouping** — it is deliberately absent from
 `FIGURE_SAFE_NUMBERS`, the opposite of the `bn` line, so `$3,250,000` renders
@@ -972,6 +977,10 @@ example: `/school/providence-day/#sports/the-college-pipeline`. The naming rule 
   lands on the area's section.
 - `linkName()` in `src/lib/cardLink.ts` defines the rule, and nothing else does. Each id
   comes from the same label call that renders the title, given the English translator.
+
+The browser audits (`audit:daterender`, `audit:moneyrender`, `audit:mobile`) navigate by
+these links: `scripts/audit_scope.mjs` maps a branch's changes to cards and loads each one
+as `/school/<slug>/#<area>/<card>`.
 
 **The address bar follows the reader's clicks, quietly** (user, 2026-11-14, replacing the
 earlier "read the hash, never write it" rule). Opening a card shows its link, closing it
@@ -1200,7 +1209,9 @@ a gate.
   closed the page was exactly viewport width, and once any card opened every school page
   scrolled sideways (a bare `1fr` grid track grows to its widest child — use
   `minmax(0, 1fr)`). `npm run audit:mobile` (needs `npm run build && npx vite preview`)
-  opens every card at 320/360/390px and fails on page overflow or clipped content.
+  opens every card at 320/360/390px and fails on page overflow or clipped content. By
+  default it visits only the cards the branch changed since `main`, through their deep
+  links, and falls back to the full sweep on any render-code change; `-- --all` forces it.
 - **A checker parked at a permanently non-zero count stops being read.** Three checkers in
   this repo reached that state (`check:sepdrift`, `check:live` at 4,646 phantom findings,
   and the identical-strings report). Either fix the findings or ship the check as a
