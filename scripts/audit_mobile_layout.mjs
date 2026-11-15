@@ -31,16 +31,30 @@
  * Labels come from the DOM: area = the section's <h2>, card = the outermost
  * `.note-card`'s `summary .topic-title`.
  *
+ * SCOPED BY DEFAULT (plan `auditscope`). A run visits only the school pages
+ * the branch changed since `main` (scripts/audit_scope.mjs), loads each through
+ * its card deep link, and opens and measures only the changed cards (or their
+ * whole areas). The doc-overflow check stays page-level, which still means
+ * something because only the scoped cards are open. Any render-code change
+ * (components, src/lib, CSS, locale catalogs…) or unrecognized src/ path
+ * switches to the FULL sweep by itself and prints the path that caused it.
+ * `--all` forces the full sweep: use it after adding a render site or a locale.
+ * `--only` intersects with the scope (with `--all` it means what it always did).
+ *
  * Needs a built site being served (it is not part of `npm run build`):
  *   npm run build && npx vite preview        # serves http://localhost:4173
- *   npm run audit:mobile                      # en at 320/360/390
+ *   npm run audit:mobile                      # scoped, en at 320/360/390
+ *   npm run audit:mobile -- --all             # every school page
+ *   npm run audit:mobile -- --since <ref>
  *   npm run audit:mobile -- --lang fr --lang ar --widths 360
- *   npm run audit:mobile -- --only cannon,gaston-day --base http://localhost:4319
+ *   npm run audit:mobile -- --all --only cannon,gaston-day --base http://localhost:4319
+ * It prints one progress line per page as it goes. Do NOT pipe it into `tail`:
+ * that buffers the whole run, and a slow run then looks hung.
  *
  * Playwright Chromium with `isMobile` + touch. domcontentloaded plus a settle
- * wait, never networkidle — school pages never go idle. Every <details> is
- * forced open and every admissions band tab clicked, because a collapsed panel
- * renders nothing a scan can see.
+ * wait, never networkidle — school pages never go idle. Every <details> in
+ * scope is forced open and every admissions band tab clicked, because a
+ * collapsed panel renders nothing a scan can see.
  *
  * Exit 0 clean · 1 broken findings or doc overflow · 2 bad usage or the server
  * is unreachable.
@@ -49,6 +63,7 @@ import { chromium } from 'playwright'
 import { readFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { hashFor, markRoots, printScope, progress, resolveScope, rootsFor, scopeFlags, settle } from './audit_scope.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const args = process.argv.slice(2)
@@ -63,6 +78,25 @@ if (WIDTHS.some((w) => !Number.isFinite(w) || w < 200)) {
   process.exit(2)
 }
 
+const roster = JSON.parse(readFileSync(join(ROOT, 'src/data/schools.json'), 'utf8')).schools
+const schools = roster.filter((s) => !ONLY || ONLY.includes(s.slug))
+if (!schools.length) {
+  console.error(`✗ --only ${ONLY.join(',')} matched no school slug`)
+  process.exit(2)
+}
+
+// No Compare or checklist loop here, so the scope's own are ignored.
+const scope = await resolveScope({ ...scopeFlags(args), compareTopics: [] })
+if (printScope(scope)) process.exit(0)
+const pages = scope.full
+  ? schools.map((s) => ({ slug: s.slug, whole: true, areas: {} }))
+  : scope.pages.filter((p) => schools.some((s) => s.slug === p.slug))
+if (!pages.length) {
+  console.log(`→ nothing in scope for --only ${ONLY.join(',')}, use --all for a full sweep`)
+  process.exit(0)
+}
+const nameOf = (slug) => roster.find((s) => s.slug === slug)?.name ?? slug
+
 try {
   const r = await fetch(`${BASE}/`)
   if (!r.ok) throw new Error(`HTTP ${r.status}`)
@@ -71,17 +105,11 @@ try {
   process.exit(2)
 }
 
-const schools = JSON.parse(readFileSync(join(ROOT, 'src/data/schools.json'), 'utf8')).schools
-  .filter((s) => !ONLY || ONLY.includes(s.slug))
-if (!schools.length) {
-  console.error(`✗ --only ${ONLY.join(',')} matched no school slug`)
-  process.exit(2)
-}
-
 // `vw` is passed in, never read from window.innerWidth: under isMobile emulation
 // Chrome widens the layout viewport to fit overflowing content, so innerWidth
-// grows with the very defect being measured.
-const scan = (page, vw) => page.evaluate((vw) => {
+// grows with the very defect being measured. `secIds` limits the measured
+// sections to the scoped areas (null = every .topic-section).
+const scan = (page, vw, secIds = null) => page.evaluate(([vw, secIds]) => {
   const out = []
   const visible = (el) => {
     const s = getComputedStyle(el)
@@ -131,6 +159,7 @@ const scan = (page, vw) => page.evaluate((vw) => {
     return null
   }
   for (const sec of document.querySelectorAll('.topic-section')) {
+    if (secIds && !secIds.includes(sec.id)) continue
     const area = sec.querySelector('h2')?.textContent.trim() || sec.id
     // The section's own box is the frame — never 0…vw. A block-level section
     // keeps the viewport's width even when its content overflows, but in RTL a
@@ -174,37 +203,60 @@ const scan = (page, vw) => page.evaluate((vw) => {
     }
   }
   return { out, docOverflow: document.documentElement.scrollWidth - vw }
-}, vw)
+}, [vw, secIds])
 
 const BROKEN = new Set(['page-overflow', 'text-overflow', 'clipped', 'clipped-text'])
 const browser = await chromium.launch({ headless: true })
 let broken = 0, docs = 0
+const prog = progress(LANGS.length * WIDTHS.length * pages.length)
 
 for (const lang of LANGS) {
   const findings = []
   for (const vw of WIDTHS) {
     const ctx = await browser.newContext({ viewport: { width: vw, height: 800 }, isMobile: true, hasTouch: true, deviceScaleFactor: 2 })
+    // Never log page-views from an audit.
+    await ctx.route(/cloudflareinsights\.com/, (r) => r.abort())
     const page = await ctx.newPage()
-    for (const s of schools) {
-      await page.goto(`${BASE}/school/${s.slug}/?lang=${lang}`, { waitUntil: 'domcontentloaded' })
-      await page.waitForTimeout(2500)
-      for (let y = 0; y < 40; y++) { await page.evaluate(() => window.scrollBy(0, 2500)); await page.waitForTimeout(60) }
-      await page.waitForTimeout(800)
-      const openAll = () => page.evaluate(() => document.querySelectorAll('details').forEach((d) => { d.open = true }))
+    for (const pg of pages) {
+      const t0 = Date.now()
+      const name = nameOf(pg.slug)
+      const hash = hashFor(pg)
+      const roots = pg.whole ? null : rootsFor(pg)
+      await page.goto(`${BASE}/school/${pg.slug}/?lang=${lang}${hash ? `#${hash}` : ''}`, { waitUntil: 'domcontentloaded' })
+      let sel = 'body', secIds = null, bands = '.adm-band'
+      if (roots) {
+        await settle(page)
+        for (const note of await page.evaluate(markRoots, roots)) console.log(`  note: /school/${pg.slug}/#${hash}: ${note}`)
+        sel = '[data-audit-root]'
+        secIds = Object.keys(pg.areas).map((t) => `topic-${t}`)
+        bands = '#topic-admissions .adm-band'
+      } else {
+        await page.waitForTimeout(2500)
+        for (let y = 0; y < 40; y++) { await page.evaluate(() => window.scrollBy(0, 2500)); await page.waitForTimeout(60) }
+        await page.waitForTimeout(800)
+      }
+      const openAll = () => page.evaluate((sel) => document.querySelectorAll(sel).forEach((r) => {
+        if (r.tagName === 'DETAILS') r.open = true
+        r.querySelectorAll('details').forEach((d) => { d.open = true })
+      }), sel)
       await openAll(); await page.waitForTimeout(400)
       const collect = async () => {
-        const { out, docOverflow } = await scan(page, vw)
-        for (const f of out) findings.push({ vw, school: s.name, ...f })
-        if (docOverflow > 0) findings.push({ vw, school: s.name, kind: 'doc-overflow', px: docOverflow })
+        const { out, docOverflow } = await scan(page, vw, secIds)
+        for (const f of out) findings.push({ vw, school: name, ...f })
+        if (docOverflow > 0) findings.push({ vw, school: name, kind: 'doc-overflow', px: docOverflow })
       }
       await collect()
-      const n = await page.locator('.adm-band').count()
-      for (let i = 1; i < n; i++) {
-        await page.locator('.adm-band').nth(i).click().catch(() => {})
-        await page.waitForTimeout(250); await openAll()
-        await collect()
+      if (!roots || 'admissions' in pg.areas) {
+        const n = await page.locator(bands).count()
+        for (let i = 1; i < n; i++) {
+          await page.locator(bands).nth(i).click().catch(() => {})
+          await page.waitForTimeout(250)
+          if (roots) await page.evaluate(markRoots, roots)
+          await openAll()
+          await collect()
+        }
       }
-      process.stderr.write(`  ${lang} ${vw}px ${s.slug}\n`)
+      prog.step(`${lang} ${vw}px /school/${pg.slug}/${hash ? `#${hash}` : ''}`, t0)
     }
     await ctx.close()
   }
@@ -234,7 +286,7 @@ for (const lang of LANGS) {
   }
   broken += nBroken; docs += dm.size
 
-  console.log(`\n=== ${lang} @ ${WIDTHS.join('/')}px — ${schools.length} school(s) ===`)
+  console.log(`\n=== ${lang} @ ${WIDTHS.join('/')}px — ${pages.length} school(s)${scope.full ? '' : ', scoped'} ===`)
   console.log(`\nBROKEN (${nBroken} card(s))`)
   for (const [k, o] of sorted) if (o.broken.size) console.log(`  ${k}\n      ${fmt(o.broken)}`)
   console.log(`\nSIDEWAYS SCROLL (${nScroll} card(s) — usable, not a failure)`)
@@ -243,6 +295,7 @@ for (const lang of LANGS) {
   console.log(dm.size ? '  ' + [...dm].map(([k, v]) => `${k}:+${v}`).join('  ') : '  none')
 }
 await browser.close()
+console.log(`\n${scope.full ? 'full sweep' : 'scoped run'}: ${prog.elapsed()}`)
 
 if (broken || docs) {
   console.log(`\n✗ ${broken} broken card finding(s), ${docs} doc-overflow page(s). A grid track that is a bare \`1fr\` grows to its widest child — use minmax(0, 1fr) and min-width: 0.`)
