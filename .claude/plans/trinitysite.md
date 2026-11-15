@@ -623,3 +623,16 @@ renders no bar and no percentage, and its label is top-aligned (`.fa-ladder-gift
 `share` was removed from Trinity State, Trinity Need and Gaston Day Merit. No rung text
 changed, so there is nothing new to translate. Verified in real Chrome on both schools,
 and `audit:mobile` finds 0 broken cards on either.
+
+Second pass on Gaston Day's ladder, also at the user's request:
+- **State (`share: 25`) removed.** Gaston Day publishes "approximately $3,000 to $7,000"
+  against tuition of $19,500–$22,390. That is roughly 13–36% depending on award and grade
+  band, which is a range rather than one share, and no source states 25%.
+- **The W. Duke Kimbrell rung keeps its published 100% bar.** Its label changed from
+  "100%" to **"Top merit"**, so the figure no longer appears three times in one row.
+
+**Phase 2 note:** this adds **one non-Trinity stamp** to `financial-aid-report`:
+`gaston-day:sections[4].ladder[0].gift`, `'100%'` → `'Top merit'` (the retired `es` stamp
+is `2f97df3b`). Step 14's "any non-Trinity stamp means stop" rule should expect exactly
+this one. Translate it in all nine locales, reusing each locale's existing rendering of
+the `Merit` gift label (`es` "Mérito").

@@ -2509,7 +2509,7 @@ const GASTON_DAY: FinancialAidReport = {
       tag: 'A FULL-TUITION MERIT AWARD EXISTS',
       ladder: [
         {
-          gift: '100%',
+          gift: 'Top merit',
           share: 100,
           detail: '**The W. Duke Kimbrell Scholarship** — the school’s highest honor, covering **100% of tuition**, for grades 8–11. It is awarded by invitation to qualified applicants. The school looks at five things: academic excellence · high moral character · family involvement · leadership · shown participation in the community or a hobby.',
         },
@@ -2519,7 +2519,6 @@ const GASTON_DAY: FinancialAidReport = {
         },
         {
           gift: 'State',
-          share: 25,
           detail: '**NC Opportunity Scholarship** — approximately **$3,000 to $7,000**, K–12, based on household income. The state window is **February 1 to March 1**; later applicants are waitlisted.',
         },
       ],
