@@ -1,7 +1,7 @@
 ---
 name: boardingranks
 title: Add Niche national boarding ranks to the 30 boarding destinations
-status: not-implemented
+status: implemented
 phases: 1
 created: 2026-09-17
 branch: feat/boarding-ranks
@@ -247,3 +247,30 @@ Nothing else. No component, no CSS, no locale catalogs.
   one on the page?** Default: no — both render with no rank, and the distinction
   lives in the companion doc. The Fletcher School already sets this precedent on
   the Niche K-12 side.
+
+## Implementation notes
+
+Built 2026-11-16.
+
+- **39 boarding records, not 30.** The master gained nine boarding schools for Charlotte
+  Prep (2026-10-19) after this plan was written: American Hebrew Academy, Baylor, Choate,
+  Currey Ingram, Interlochen, Peddie, Riverside Military, Suffield, Walnut Hill. All 39 were
+  looked up. **33 ranked, 1 listed-unranked (Currey Ingram), 5 absent** (Bishop England,
+  Cardinal Gibbons and Collegiate are day schools; La Paz is in Costa Rica; American Hebrew
+  Academy closed in 2019).
+- **Fetch path.** The step-1 curl probe returned the PerimeterX captcha (403), so no retry
+  was made. The 22 pages were read in the user's own Chrome through the Claude in Chrome
+  extension, one at a time, ~6s apart, with no captcha. Edition: "2027 Best Boarding High
+  Schools in America", 534 schools.
+- **Gaps:** #39, #290, #339, #348. **#14 is present** (Woodberry Forest). Numbered ranks
+  end at #365; the rest are listed without a badge.
+- **Christ School** is listed by Niche in Asheville, NC; the master says Arden, NC. Same
+  school (one Christ School boarding school in western NC), so the rank was taken.
+- **Charlotte Prep's St. Andrew's** is unconfirmed by that school (it never says which).
+  The single master record means Prep's chip shows the Delaware rank, as it already showed
+  the Delaware homepage. Recorded in the companion doc.
+- Browser check (headed Chrome, every `<details>` open, 1280px and 360px): Trinity shows 26
+  boarding labels and Charlotte Prep 15. None overflows its row, there is no page overflow,
+  and the other 52 / 32 labels still render.
+- Rank labels are a ranking code in `i18n_fields.mjs`, kept verbatim in every locale, so
+  the plan stays single-phase.
