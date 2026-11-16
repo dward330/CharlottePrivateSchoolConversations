@@ -24,7 +24,7 @@
  */
 
 export type PodcastEpisode = {
-  /** Episode number in the show, 1–46. */
+  /** Episode number in the show, 1–47. */
   id: number
   /**
    * The condensed form, shown in the popover's episode list. The published
@@ -48,7 +48,7 @@ export const SHOW_APPLE_URL =
   'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555'
 
 /**
- * All 32 Season 1 episodes plus the Season 2 episodes (33–46), in id order.
+ * All 32 Season 1 episodes plus the Season 2 episodes (33–47), in id order.
  *
  * The mapping comes from each episode's own title and description in the show's
  * episode guide — every one names the schools it covers explicitly, so nothing
@@ -690,6 +690,21 @@ export const EPISODES: PodcastEpisode[] = [
       'carmel-christian',
     ],
     researchArea: 'sports',
+  },
+  {
+    id: 47,
+    // A one-off High School Placement episode (user, 2026-11-15/16), one per
+    // K-8 school; Trinity Episcopal's follows. Take 4 of the v6 prompt: every
+    // class's destinations with counts and the national boarding ranks (#501).
+    title: 'Charlotte Prep: High School Placement',
+    // Published: "Charlotte Preparatory School - High School Placement - 97% Into a Top-Two Choice: How They Get There and Where Every Class Lands"
+    fullTitle:
+      'Charlotte Preparatory School - High School Placement - 97% Into a Top-Two Choice: How They Get There and Where Every Class Lands',
+    spotifyUrl: 'https://open.spotify.com/episode/2UqeCSLmXIgKzfx8EotGxN',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000802309695',
+    schools: ['charlotte-prep'],
+    researchArea: 'high-school-placement',
   },
 ]
 
