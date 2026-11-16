@@ -241,6 +241,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.ashevilleschool.org',
     city: 'Asheville',
     state: 'NC',
+    rankLabel: 'Boarding High School Niche National Rank #126',
     note: 'Cloudflare bot-blocks fetch; confirmed via Wikipedia official-website + indexed pages on its own domain',
   },
   'Bishop England High School': {
@@ -255,6 +256,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.blair.edu',
     city: 'Blairstown',
     state: 'NJ',
+    rankLabel: 'Boarding High School Niche National Rank #20',
     note: '2 Park St, coed NJ boarding school founded 1848',
   },
   'Brooklyn Friends School': {
@@ -283,6 +285,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.chathamhall.org',
     city: 'Chatham',
     state: 'VA',
+    rankLabel: 'Boarding High School Niche National Rank #145',
     note: 'Girls 9-12 boarding/day, Episcopal tradition',
   },
   'Christ School': {
@@ -290,6 +293,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.christschool.org',
     city: 'Arden',
     state: 'NC',
+    rankLabel: 'Boarding High School Niche National Rank #71',
     note: 'Boys boarding & day, founded 1900',
   },
   'Christchurch School': {
@@ -297,6 +301,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.christchurchschool.org',
     city: 'Christchurch',
     state: 'VA',
+    rankLabel: 'Boarding High School Niche National Rank #140',
     note: 'Episcopal 9-12 boarding/day on the Rappahannock',
   },
   'Collegiate School': {
@@ -311,6 +316,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://deerfield.edu',
     city: 'Deerfield',
     state: 'MA',
+    rankLabel: 'Boarding High School Niche National Rank #9',
     note: '7 Boyden Ln',
   },
   'Episcopal High School': {
@@ -318,6 +324,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.episcopalhighschool.org',
     city: 'Alexandria',
     state: 'VA',
+    rankLabel: 'Boarding High School Niche National Rank #19',
     note: '100% residential. The Alexandria VA school, not Houston/Baton Rouge/Jacksonville',
   },
   'Hargrave Military Academy': {
@@ -325,6 +332,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://hargrave.edu',
     city: 'Chatham',
     state: 'VA',
+    rankLabel: 'Boarding High School Niche National Rank #252',
     note: 'Boys 7-12 + postgrad, since 1909',
   },
   'Jackson-Reed High School': {
@@ -347,6 +355,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.lawrenceville.org',
     city: 'Lawrenceville',
     state: 'NJ',
+    rankLabel: 'Boarding High School Niche National Rank #8',
     note: 'Coed 9-12 boarding and day',
   },
   'Masters School': {
@@ -354,6 +363,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.mastersny.org',
     city: 'Dobbs Ferry',
     state: 'NY',
+    rankLabel: 'Boarding High School Niche National Rank #136',
     note: 'The Masters School NY, not the UK/West Hartford ones. Grades 5-12, boarding 9-12',
   },
   'Mercersburg Academy': {
@@ -361,6 +371,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.mercersburg.edu',
     city: 'Mercersburg',
     state: 'PA',
+    rankLabel: 'Boarding High School Niche National Rank #24',
     note: 'Coed 9-12 + PG boarding/day',
   },
   'Morristown High School': {
@@ -399,6 +410,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.putneyschool.org',
     city: 'Putney',
     state: 'VT',
+    rankLabel: 'Boarding High School Niche National Rank #65',
     note: 'Progressive coed boarding',
   },
   'Rabun Gap Nacoochee School': {
@@ -406,6 +418,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.rabungap.org',
     city: 'Rabun Gap',
     state: 'GA',
+    rankLabel: 'Boarding High School Niche National Rank #142',
     note: 'Boarding/day grades 5-12',
   },
   'Salem Academy': {
@@ -413,6 +426,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://salemacademy.com',
     city: 'Winston-Salem',
     state: 'NC',
+    rankLabel: 'Boarding High School Niche National Rank #124',
     note: 'All-girls boarding/day 9-12. Distinct from Salem College (salem.edu)',
   },
   'St. Mary’s School': {
@@ -420,6 +434,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.sms.edu',
     city: 'Raleigh',
     state: 'NC',
+    rankLabel: 'Boarding High School Niche National Rank #93',
     note: 'Episcopal all-girls boarding/day 9-12. Own spelling is Saint Mary\'s School',
   },
   'St. Timothy’s School': {
@@ -427,6 +442,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.stt.org',
     city: 'Stevenson',
     state: 'MD',
+    rankLabel: 'Boarding High School Niche National Rank #118',
     note: 'All-girls boarding/day 9-12, IB World School',
   },
   'Tampa Preparatory School': {
@@ -441,6 +457,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.cate.org',
     city: 'Carpinteria',
     state: 'CA',
+    rankLabel: 'Boarding High School Niche National Rank #10',
     note: 'Own name is Cate School (no The)',
   },
   'The McCallie School': {
@@ -448,6 +465,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.mccallie.org',
     city: 'Chattanooga',
     state: 'TN',
+    rankLabel: 'Boarding High School Niche National Rank #54',
     note: 'All-boys boarding/day 6-12',
   },
   'The Millbrook School': {
@@ -455,6 +473,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.millbrook.org',
     city: 'Millbrook',
     state: 'NY',
+    rankLabel: 'Boarding High School Niche National Rank #151',
     note: 'Own name is Millbrook School. Distinct from Millbrook High School (NY public)',
   },
   'The Taft School': {
@@ -462,6 +481,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.taftschool.org',
     city: 'Watertown',
     state: 'CT',
+    rankLabel: 'Boarding High School Niche National Rank #11',
     note: 'Distinct from the several public Taft High Schools',
   },
   'The Thacher School': {
@@ -469,6 +489,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.thacher.org',
     city: 'Ojai',
     state: 'CA',
+    rankLabel: 'Boarding High School Niche National Rank #28',
     note: 'Boarding 9-12',
   },
   'Virginia Episcopal School': {
@@ -476,6 +497,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.ves.org',
     city: 'Lynchburg',
     state: 'VA',
+    rankLabel: 'Boarding High School Niche National Rank #178',
     note: 'Coed boarding/day 9-12',
   },
   'Woodberry Forest School': {
@@ -483,6 +505,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.woodberry.org',
     city: 'Woodberry Forest',
     state: 'VA',
+    rankLabel: 'Boarding High School Niche National Rank #14',
     note: 'All-boys boarding 9-12',
   },
 
@@ -571,6 +594,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.standrews-de.org',
     city: 'Middletown',
     state: 'DE',
+    rankLabel: 'Boarding High School Niche National Rank #4',
     note: 'Trinity’s own note says Delaware, and research independently resolved the bare name to this school — all-boarding coed Episcopal 9-12',
   },
   'St. George’s School': {
@@ -578,6 +602,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.stgeorges.edu',
     city: 'Middletown',
     state: 'RI',
+    rankLabel: 'Boarding High School Niche National Rank #80',
     note: 'Trinity’s own note says Rhode Island, matching the independently-resolved Episcopal boarding school, 372 Purgatory Rd',
   },
   'St. Martin High School': {
@@ -593,6 +618,7 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
     url: 'https://www.sps.edu',
     city: 'Concord',
     state: 'NH',
+    rankLabel: 'Boarding High School Niche National Rank #5',
     note: 'Trinity’s own note says New Hampshire, matching the independently-resolved fully-residential Episcopal 9-12 school',
   },
 
@@ -704,14 +730,14 @@ export const HIGH_SCHOOLS: Record<string, HighSchoolRecord> = {
 
   /* Boarding. */
   'American Hebrew Academy': { kind: 'boarding', city: 'Greensboro', state: 'NC', status: 'closed', note: 'Closed June 2019; the domain now hosts a non-school page, never link it' },
-  'Baylor School': { kind: 'boarding', url: 'https://www.baylorschool.org', city: 'Chattanooga', state: 'TN' },
-  'Choate Rosemary Hall': { kind: 'boarding', url: 'https://www.choate.edu', city: 'Wallingford', state: 'CT' },
+  'Baylor School': { kind: 'boarding', url: 'https://www.baylorschool.org', city: 'Chattanooga', state: 'TN', rankLabel: 'Boarding High School Niche National Rank #228' },
+  'Choate Rosemary Hall': { kind: 'boarding', url: 'https://www.choate.edu', city: 'Wallingford', state: 'CT', rankLabel: 'Boarding High School Niche National Rank #6' },
   'Currey Ingram Academy': { kind: 'boarding', url: 'https://www.curreyingram.org', city: 'Brentwood', state: 'TN', note: 'K-12 for learning differences; residential life for grades 9-12' },
-  'Interlochen Arts Academy': { kind: 'boarding', url: 'https://www.interlochen.org/arts-boarding-school', city: 'Interlochen', state: 'MI' },
-  'Peddie School': { kind: 'boarding', url: 'https://peddie.org', city: 'Hightstown', state: 'NJ' },
-  'Riverside Military Academy': { kind: 'boarding', url: 'https://www.riversidemilitary.org', city: 'Gainesville', state: 'GA' },
-  'Suffield Academy': { kind: 'boarding', url: 'https://www.suffieldacademy.org', city: 'Suffield', state: 'CT' },
-  'Walnut Hill School for the Arts': { kind: 'boarding', url: 'https://www.walnuthillarts.org', city: 'Natick', state: 'MA' },
+  'Interlochen Arts Academy': { kind: 'boarding', url: 'https://www.interlochen.org/arts-boarding-school', city: 'Interlochen', state: 'MI', rankLabel: 'Boarding High School Niche National Rank #56' },
+  'Peddie School': { kind: 'boarding', url: 'https://peddie.org', city: 'Hightstown', state: 'NJ', rankLabel: 'Boarding High School Niche National Rank #26' },
+  'Riverside Military Academy': { kind: 'boarding', url: 'https://www.riversidemilitary.org', city: 'Gainesville', state: 'GA', rankLabel: 'Boarding High School Niche National Rank #87' },
+  'Suffield Academy': { kind: 'boarding', url: 'https://www.suffieldacademy.org', city: 'Suffield', state: 'CT', rankLabel: 'Boarding High School Niche National Rank #42' },
+  'Walnut Hill School for the Arts': { kind: 'boarding', url: 'https://www.walnuthillarts.org', city: 'Natick', state: 'MA', rankLabel: 'Boarding High School Niche National Rank #192' },
 
   /* Private day schools outside the Charlotte area. */
   'American School in London': { kind: 'day', url: 'https://www.asl.org', city: 'London', state: 'England' },

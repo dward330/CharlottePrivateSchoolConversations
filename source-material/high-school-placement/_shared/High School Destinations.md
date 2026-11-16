@@ -92,36 +92,36 @@ AutomationControlled and --disable-http2.
 
 | School | City | State | Homepage | Rank | Note |
 |---|---|---|---|---|---|
-| Asheville School | Asheville | NC | https://www.ashevilleschool.org | — | Cloudflare bot-blocks fetch; confirmed via Wikipedia official-website + indexed pages on its own domain |
+| Asheville School | Asheville | NC | https://www.ashevilleschool.org | Boarding High School Niche National Rank #126 | Cloudflare bot-blocks fetch; confirmed via Wikipedia official-website + indexed pages on its own domain |
 | Bishop England High School | Charleston | SC | https://www.behs.com | — | Catholic college-prep, 363 Seven Farms Dr, Daniel Island |
-| Blair Academy | Blairstown | NJ | https://www.blair.edu | — | 2 Park St, coed NJ boarding school founded 1848 |
+| Blair Academy | Blairstown | NJ | https://www.blair.edu | Boarding High School Niche National Rank #20 | 2 Park St, coed NJ boarding school founded 1848 |
 | Cardinal Gibbons High School | Raleigh | NC | https://www.cghsnc.org | — | The Raleigh NC school, NOT the same-named one in Fort Lauderdale FL |
-| Chatham Hall | Chatham | VA | https://www.chathamhall.org | — | Girls 9-12 boarding/day, Episcopal tradition |
-| Christ School | Arden | NC | https://www.christschool.org | — | Boys boarding & day, founded 1900 |
-| Christchurch School | Christchurch | VA | https://www.christchurchschool.org | — | Episcopal 9-12 boarding/day on the Rappahannock |
+| Chatham Hall | Chatham | VA | https://www.chathamhall.org | Boarding High School Niche National Rank #145 | Girls 9-12 boarding/day, Episcopal tradition |
+| Christ School | Arden | NC | https://www.christschool.org | Boarding High School Niche National Rank #71 | Boys boarding & day, founded 1900 |
+| Christchurch School | Christchurch | VA | https://www.christchurchschool.org | Boarding High School Niche National Rank #140 | Episcopal 9-12 boarding/day on the Rappahannock |
 | Collegiate School | Richmond | VA | https://www.collegiaterva.org | — | DOMAIN MOVED: old collegiate-va.org 308s here. The Richmond VA school, not NYC/Houston. JK-12 day |
-| Deerfield Academy | Deerfield | MA | https://deerfield.edu | — | 7 Boyden Ln |
-| Episcopal High School | Alexandria | VA | https://www.episcopalhighschool.org | — | 100% residential. The Alexandria VA school, not Houston/Baton Rouge/Jacksonville |
-| Hargrave Military Academy | Chatham | VA | https://hargrave.edu | — | Boys 7-12 + postgrad, since 1909 |
+| Deerfield Academy | Deerfield | MA | https://deerfield.edu | Boarding High School Niche National Rank #9 | 7 Boyden Ln |
+| Episcopal High School | Alexandria | VA | https://www.episcopalhighschool.org | Boarding High School Niche National Rank #19 | 100% residential. The Alexandria VA school, not Houston/Baton Rouge/Jacksonville |
+| Hargrave Military Academy | Chatham | VA | https://hargrave.edu | Boarding High School Niche National Rank #252 | Boys 7-12 + postgrad, since 1909 |
 | La Paz Community School | Guanacaste | Costa Rica | https://www.lapazschool.org | — | Bilingual preK-12 IB, two Guanacaste campuses |
-| Lawrenceville School | Lawrenceville | NJ | https://www.lawrenceville.org | — | Coed 9-12 boarding and day |
-| Masters School | Dobbs Ferry | NY | https://www.mastersny.org | — | The Masters School NY, not the UK/West Hartford ones. Grades 5-12, boarding 9-12 |
-| Mercersburg Academy | Mercersburg | PA | https://www.mercersburg.edu | — | Coed 9-12 + PG boarding/day |
-| Putney School | Putney | VT | https://www.putneyschool.org | — | Progressive coed boarding |
-| Rabun Gap Nacoochee School | Rabun Gap | GA | https://www.rabungap.org | — | Boarding/day grades 5-12 |
-| Salem Academy | Winston-Salem | NC | https://salemacademy.com | — | All-girls boarding/day 9-12. Distinct from Salem College (salem.edu) |
-| St. Mary’s School | Raleigh | NC | https://www.sms.edu | — | Episcopal all-girls boarding/day 9-12. Own spelling is Saint Mary's School |
-| St. Timothy’s School | Stevenson | MD | https://www.stt.org | — | All-girls boarding/day 9-12, IB World School |
-| The Cate School | Carpinteria | CA | https://www.cate.org | — | Own name is Cate School (no The) |
-| The McCallie School | Chattanooga | TN | https://www.mccallie.org | — | All-boys boarding/day 6-12 |
-| The Millbrook School | Millbrook | NY | https://www.millbrook.org | — | Own name is Millbrook School. Distinct from Millbrook High School (NY public) |
-| The Taft School | Watertown | CT | https://www.taftschool.org | — | Distinct from the several public Taft High Schools |
-| The Thacher School | Ojai | CA | https://www.thacher.org | — | Boarding 9-12 |
-| Virginia Episcopal School | Lynchburg | VA | https://www.ves.org | — | Coed boarding/day 9-12 |
-| Woodberry Forest School | Woodberry Forest | VA | https://www.woodberry.org | — | All-boys boarding 9-12 |
-| St. Andrew’s School | Middletown | DE | https://www.standrews-de.org | — | Trinity’s own note says Delaware, and research independently resolved the bare name to this school — all-boarding coed Episcopal 9-12 |
-| St. George’s School | Middletown | RI | https://www.stgeorges.edu | — | Trinity’s own note says Rhode Island, matching the independently-resolved Episcopal boarding school, 372 Purgatory Rd |
-| St. Paul’s | Concord | NH | https://www.sps.edu | — | Trinity’s own note says New Hampshire, matching the independently-resolved fully-residential Episcopal 9-12 school |
+| Lawrenceville School | Lawrenceville | NJ | https://www.lawrenceville.org | Boarding High School Niche National Rank #8 | Coed 9-12 boarding and day |
+| Masters School | Dobbs Ferry | NY | https://www.mastersny.org | Boarding High School Niche National Rank #136 | The Masters School NY, not the UK/West Hartford ones. Grades 5-12, boarding 9-12 |
+| Mercersburg Academy | Mercersburg | PA | https://www.mercersburg.edu | Boarding High School Niche National Rank #24 | Coed 9-12 + PG boarding/day |
+| Putney School | Putney | VT | https://www.putneyschool.org | Boarding High School Niche National Rank #65 | Progressive coed boarding |
+| Rabun Gap Nacoochee School | Rabun Gap | GA | https://www.rabungap.org | Boarding High School Niche National Rank #142 | Boarding/day grades 5-12 |
+| Salem Academy | Winston-Salem | NC | https://salemacademy.com | Boarding High School Niche National Rank #124 | All-girls boarding/day 9-12. Distinct from Salem College (salem.edu) |
+| St. Mary’s School | Raleigh | NC | https://www.sms.edu | Boarding High School Niche National Rank #93 | Episcopal all-girls boarding/day 9-12. Own spelling is Saint Mary's School |
+| St. Timothy’s School | Stevenson | MD | https://www.stt.org | Boarding High School Niche National Rank #118 | All-girls boarding/day 9-12, IB World School |
+| The Cate School | Carpinteria | CA | https://www.cate.org | Boarding High School Niche National Rank #10 | Own name is Cate School (no The) |
+| The McCallie School | Chattanooga | TN | https://www.mccallie.org | Boarding High School Niche National Rank #54 | All-boys boarding/day 6-12 |
+| The Millbrook School | Millbrook | NY | https://www.millbrook.org | Boarding High School Niche National Rank #151 | Own name is Millbrook School. Distinct from Millbrook High School (NY public) |
+| The Taft School | Watertown | CT | https://www.taftschool.org | Boarding High School Niche National Rank #11 | Distinct from the several public Taft High Schools |
+| The Thacher School | Ojai | CA | https://www.thacher.org | Boarding High School Niche National Rank #28 | Boarding 9-12 |
+| Virginia Episcopal School | Lynchburg | VA | https://www.ves.org | Boarding High School Niche National Rank #178 | Coed boarding/day 9-12 |
+| Woodberry Forest School | Woodberry Forest | VA | https://www.woodberry.org | Boarding High School Niche National Rank #14 | All-boys boarding 9-12 |
+| St. Andrew’s School | Middletown | DE | https://www.standrews-de.org | Boarding High School Niche National Rank #4 | Trinity’s own note says Delaware, and research independently resolved the bare name to this school — all-boarding coed Episcopal 9-12 |
+| St. George’s School | Middletown | RI | https://www.stgeorges.edu | Boarding High School Niche National Rank #80 | Trinity’s own note says Rhode Island, matching the independently-resolved Episcopal boarding school, 372 Purgatory Rd |
+| St. Paul’s | Concord | NH | https://www.sps.edu | Boarding High School Niche National Rank #5 | Trinity’s own note says New Hampshire, matching the independently-resolved fully-residential Episcopal 9-12 school |
 
 ## Public, charter and magnet (45)
 
@@ -376,3 +376,85 @@ The 44 schools below came with Davidson Day’s table, which brought in the rest
 | Chapel Hill High School | Chapel Hill | NC | public | https://chhs.chccs.org | Home - Chapel Hill High School |
 | Mount Tabor High School | Winston-Salem | NC | public | https://www.wsfcs.k12.nc.us/o/mths | Home \| Mount Tabor High School |
 | J.H. Rose High School | Greenville | NC | public | https://jhr.pitt.k12.nc.us | Home - J.H. Rose High School |
+
+## Boarding rank pass — 2026-11-16 (Niche 2027 Best Boarding High Schools in America)
+
+> **Provenance:** Claude Code, 2026-11-16, plan `boardingranks`, for both placement cards and
+> the two High School Placement podcast episodes. Source:
+> https://www.niche.com/k12/search/best-boarding-high-schools/ — titled "2027 Best Boarding
+> High Schools in America", **534 schools on 22 pages** (21 × 25 + 9; `?page=23` is empty).
+> **Method.** curl with the browser headers that worked in September returned the PerimeterX
+> captcha (403, `px-captcha`), so per the plan no retry was made. The pages were read in the
+> user's own Chrome via the Claude in Chrome extension, **one page at a time, ~6 seconds
+> apart**, no captcha on any page. Each rank was read from the badge **inside that school's
+> own card** (`data-testid="search-result-card--<name>"`, text "#N Best Boarding High Schools
+> in America"), never from list position, and every school was matched on **name AND city**.
+> Labels are stored whole in src/data/highSchools.ts as
+> `Boarding High School Niche National Rank #N`.
+
+**Coverage:** all 39 `kind: 'boarding'` records — the original 30 plus the 9 added for
+Charlotte Prep. **33 ranked, 1 listed-unranked, 5 absent.**
+
+| Master name | Niche rank | Niche name | Niche city | Why no rank |
+|---|---|---|---|---|
+| Asheville School | #126 | Asheville School | Asheville, NC |  |
+| Bishop England High School | ABSENT | — | — | a day school (Charleston SC); a boarding ranking does not cover it |
+| Blair Academy | #20 | Blair Academy | Blairstown, NJ |  |
+| Cardinal Gibbons High School | ABSENT | — | — | a day school (Raleigh NC); a boarding ranking does not cover it |
+| Chatham Hall | #145 | Chatham Hall | Chatham, VA |  |
+| Christ School | #71 | Christ School | Asheville, NC |  |
+| Christchurch School | #140 | Christchurch School | Christchurch, VA |  |
+| Collegiate School | ABSENT | — | — | a JK-12 day school (Richmond VA); a boarding ranking does not cover it |
+| Deerfield Academy | #9 | Deerfield Academy | Deerfield, MA |  |
+| Episcopal High School | #19 | Episcopal High School | Alexandria, VA |  |
+| Hargrave Military Academy | #252 | Hargrave Military Academy | Chatham, VA |  |
+| La Paz Community School | ABSENT | — | — | in Costa Rica; Niche ranks US schools only |
+| Lawrenceville School | #8 | The Lawrenceville School | Lawrenceville, NJ |  |
+| Masters School | #136 | The Masters School | Dobbs Ferry, NY |  |
+| Mercersburg Academy | #24 | Mercersburg Academy | Mercersburg, PA |  |
+| Putney School | #65 | The Putney School | Putney, VT |  |
+| Rabun Gap Nacoochee School | #142 | Rabun Gap-Nacoochee School | Rabun Gap, GA |  |
+| Salem Academy | #124 | Salem Academy | Winston-salem, NC |  |
+| St. Mary’s School | #93 | Saint Mary's School | Raleigh, NC |  |
+| St. Timothy’s School | #118 | St. Timothy's School | Stevenson, MD |  |
+| The Cate School | #10 | Cate School | Carpinteria, CA |  |
+| The McCallie School | #54 | McCallie School | Chattanooga, TN |  |
+| The Millbrook School | #151 | Millbrook School | Millbrook, NY |  |
+| The Taft School | #11 | The Taft School | Watertown, CT |  |
+| The Thacher School | #28 | The Thacher School | Ojai, CA |  |
+| Virginia Episcopal School | #178 | Virginia Episcopal School | Lynchburg, VA |  |
+| Woodberry Forest School | #14 | Woodberry Forest School | Woodberry Forest, VA |  |
+| St. Andrew’s School | #4 | St. Andrew's School | Middletown, DE |  |
+| St. George’s School | #80 | St. George's School | Middletown, RI |  |
+| St. Paul’s | #5 | St. Paul's School | Concord, NH |  |
+| American Hebrew Academy | ABSENT | — | — | closed June 2019 |
+| Baylor School | #228 | Baylor School | Chattanooga, TN |  |
+| Choate Rosemary Hall | #6 | Choate Rosemary Hall | Wallingford, CT |  |
+| Currey Ingram Academy | LISTED-UNRANKED | Currey Ingram Academy | Brentwood, TN |  |
+| Interlochen Arts Academy | #56 | Interlochen Arts Academy | Interlochen, MI |  |
+| Peddie School | #26 | The Peddie School | Hightstown, NJ |  |
+| Riverside Military Academy | #87 | Riverside Military Academy | Gainesville, GA |  |
+| Suffield Academy | #42 | Suffield Academy | Suffield, CT |  |
+| Walnut Hill School for the Arts | #192 | Walnut Hill School for the Arts | Natick, MA |  |
+
+**Gaps in Niche's sequence:** #39, #290, #339 and #348 are not on any card. Numbered ranks run
+#1–#365; the remaining 169 schools are listed without a rank badge. **#14 is present**
+(Woodberry Forest), so the 2026 lists' #14 skip does not recur here.
+
+**City checks for the saints.** St. Andrew's #4 is Middletown DE (Niche also lists a Saint
+Andrew's School in Boca Raton FL at #59 and a St. Andrew's School in Barrington RI at #176 —
+neither is ours). St. George's #80 is Middletown RI. St. Paul's #5 is Concord NH. Saint Mary's
+#93 is Raleigh NC (Niche's St. Mary's School, Medford OR #241, is a different school).
+**Christ School:** Niche gives Asheville, NC; the master says Arden, NC. It is the one
+Christ School boarding school in western NC (500 Christ School Rd, Arden, an Asheville
+mailing area), so the rank is taken.
+
+**Charlotte Prep's "St. Andrew's School" caveat.** Charlotte Prep does not say which St.
+Andrew's (see its row above). The app resolves every placement card's names through this one
+master record, so Prep's chip shows the Delaware school's rank, as it already shows that
+school's homepage. Trinity's entry is confirmed Delaware by its own note.
+
+**Ten Schools Admission Organization members on these lists** (https://www.tenschools.org/,
+fetched 2026-11-16): Choate #6 (Charlotte Prep); St. Paul's #5, Lawrenceville #8, Deerfield
+#9, Taft #11 (Trinity).
+
