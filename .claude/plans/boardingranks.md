@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-09-17
 branch: feat/boarding-ranks
-prs: []
+prs: [501]
 ---
 
 # Niche boarding ranks
