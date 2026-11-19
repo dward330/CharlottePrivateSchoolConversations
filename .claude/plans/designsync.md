@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-11-20
 branch: feat/designsync
-prs: []
+prs: [503]
 ---
 
 # Catch the Claude Design project up with the built app
