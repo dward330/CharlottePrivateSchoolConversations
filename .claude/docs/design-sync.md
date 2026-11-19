@@ -61,6 +61,14 @@ What a capture does (`scripts/design_capture.mjs` has the full rules):
   by every file. With the added newlines removed they reassemble byte for byte to
   `dist/assets/index-*.css`.
 - **Links and images** become absolute `https://charlotteschoolinsights.com/…` URLs.
+- **Format: editable by default.** `--format dc` (the default) writes Claude Design's
+  component format, the shape its own files use: the page inside `<x-dc>`, the fonts,
+  stylesheets and chrome styles in its `<helmet>`, the project's `./support.js` in the
+  head, and a `DCLogic` script whose `defaultTheme` prop is the Tweaks-panel Light/Dark
+  switch. Empty boolean attributes are spelled out (`open="open"`), because the runtime
+  is React-based and reads `open=""` as false. `--format plain` writes ordinary HTML,
+  which the preview renders but the editor treats as read-only; the first write round
+  used it by mistake.
 - **Chrome.** Each file opens with a small grey band: title, reference school(s), commit,
   capture date, trimmed count, what is interactive in the app, and a light/dark switch.
 
@@ -428,11 +436,29 @@ found six defects, all in the capture rather than the app, and each was fixed in
 Gaston Day's *Named scholarships* table draws very tall rows beside a short note, on the
 live page as well as in the capture.
 
+**Editable in Claude Design (follow-up, same day).** The first two write rounds produced
+plain HTML, which the editor treats as read-only. The user asked for editable files; a
+test conversion of Summer Programs was confirmed editable by the user, and all 24 page
+files were then rewritten in the component format (round 3) and byte-verified. Before
+writing, every converted file was rendered locally beside its plain version once fonts
+had loaded: identical element counts, text and height, with one exception. Compare's
+pinned header copy loses its `<colgroup>` (13 elements) in the runtime, and that copy is
+`visibility: hidden` until the table is scrolled, so nothing visible changes.
+The user then spotted dark bands in the editor: Claude Design injects
+`html,body{background:transparent}` into every page it shows, so the app's `body`
+background vanished and the editor's dark canvas showed through behind headings and
+plain text (cards with their own background stayed light). Screenshots never showed it,
+because a browser's own canvas is white. The chrome CSS now gives `.app` the page
+colours, and all 24 files were rewritten with that one line (round 4); checked against a
+simulated dark canvas in light and dark before writing.
+
+The test file, `Summer Programs Section (editable test).dc.html`, was then moved to
+`archive/2026-11 pre-designsync/` at the user's request (copied, then deleted from the
+root under a one-path delete approval). That is the only deletion this plan made.
+
 **Not represented, by design:** filters, tabs, hover tips, the photo viewer and the
 podcast and video players are static (players are labelled boxes); Latest News shows
-the headlines that were live at capture time; the files are plain HTML, so they render
-in Claude Design's preview but cannot be click-edited there (an editable file needs the
-`<x-dc>` component format, which a capture cannot produce).
+the headlines that were live at capture time.
 
 ## Index
 

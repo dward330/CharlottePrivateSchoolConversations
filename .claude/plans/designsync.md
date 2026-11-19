@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-11-20
 branch: feat/designsync
-prs: [503]
+prs: [503, 504]
 ---
 
 # Catch the Claude Design project up with the built app
@@ -527,7 +527,18 @@ topic), and the decision and spec records were left alone.
   disjoint paths, and every write was re-verified from the main thread.
 - **Index name.** The server stored `As Built — Index.md` as `As Built - Index.md`.
 
-**Not done, by design or out of scope.** Plain-HTML captures render in Claude Design's
-preview but are read-only in its editor (an editable file needs the `<x-dc>` component
-format). Standalone Claude Design closes by 2026-12-14; the files' future after the move
+**Follow-up the same day: editable files (PR #504).** The user asked to keep editing in
+Claude Design, and plain HTML is read-only in its editor. `design_capture.mjs` now writes
+Claude Design's component format by default (`--format dc`: `<x-dc>`, `./support.js`, a
+`DCLogic` script with a Light/Dark Tweaks prop; `--format plain` keeps the old output).
+The user confirmed a test file was editable, then all 24 page files were rewritten in
+place (round 3) and byte-verified, after a local render check showed identical element
+counts, text and height against the plain versions (the one loss, Compare's hidden
+pinned-header `<colgroup>`, is invisible). A fourth round added one chrome rule
+(`.app{background:var(--bg);color:var(--text)}`) after the user saw the editor's dark
+canvas through the page: Claude Design injects `html,body{background:transparent}`.
+The plan should have checked editability
+before the first write; it assumed a preview-correct file was enough.
+
+**Not done, by design or out of scope.** Standalone Claude Design closes by 2026-12-14; the files' future after the move
 into Claude is outside this plan. Not made into a `/design-sync` skill (default: no).
