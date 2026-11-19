@@ -21,7 +21,10 @@
  *   --page <route> --name <file name> --out <dir>
  *          [--area <slug>] [--cards closed|open] [--extra <slug>:<card-id>,…]
  *          [--refs "<reference school(s)>"] [--parts auto|1] [--drop "<css selectors>"]
- *          [--sha <commit the build came from>]
+ *          [--sha <commit the build came from>] [--format dc|plain]
+ *       --format dc (the default) writes Claude Design's editable component
+ *       format (<x-dc> + ./support.js + a DCLogic script); plain HTML renders
+ *       in the preview but is read-only in the Claude Design editor.
  *       Load <route>, open every <details> in scope (or close them all with
  *       --cards closed), take the scoped DOM — one #topic-<slug> section for
  *       --area, otherwise the whole app shell — trim it (see TRIMMING), and
@@ -583,7 +586,11 @@ tr.ds-trim{display:table-row}tr.ds-trim td{padding:6px 10px;font-style:italic;op
 span.ds-trim{display:inline-block}
 .ds-embed{display:flex;align-items:center;justify-content:center;background:#e2e8f0;color:#475569;font:13px system-ui,sans-serif;border:1px dashed #94a3b8}
 :root[data-theme=dark] .ds-embed{background:#1e293b;color:#94a3b8}
-.ds-extra-label{margin:28px 0 8px;font:600 12px/1.4 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.04em;opacity:.7}`
+.ds-extra-label{margin:28px 0 8px;font:600 12px/1.4 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.04em;opacity:.7}
+.app{background:var(--bg);color:var(--text)}`
+// The last rule: Claude Design injects html,body{background:transparent} into
+// every page it shows, which drops the app's body background and lets its dark
+// editor canvas show through. The app wrapper carries the page colours instead.
 
 const THEME_JS = `(function(){var b=document.getElementById('ds-theme');function s(){b.textContent=document.documentElement.dataset.theme==='dark'?'Light':'Dark'}b.addEventListener('click',function(){var r=document.documentElement;r.dataset.theme=r.dataset.theme==='dark'?'light':'dark';s()});s()})()`
 
@@ -600,6 +607,71 @@ const cssLinks = (() => {
   return Array.from({ length: n }, (_, k) => `<link rel="stylesheet" href="app-css/app-${k + 1}.css">`).join('\n')
 })()
 
+// Output format. "dc" (the default) is Claude Design's editable component
+// format: the page inside <x-dc>, loaded through the project's ./support.js,
+// with a DCLogic script. "plain" is ordinary HTML, which the preview renders
+// but the Claude Design editor treats as read-only.
+const FORMAT = val('--format', 'dc')
+if (!['dc', 'plain'].includes(FORMAT)) die(`--format must be dc or plain, not ${FORMAT}`)
+
+/** Wrap a plain capture in the component format, keeping its markup. */
+function toComponent(src) {
+  if (src.includes('{{')) die('the capture contains "{{", which the component template would treat as a hole', 1)
+  const head = src.slice(src.indexOf('<head>') + 6, src.indexOf('</head>'))
+  const title = (head.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || ''
+  // Everything in <head> except charset, viewport and title moves into <helmet>.
+  const helmet = head
+    .replace(/<meta\s+charset="utf-8">\n?/, '')
+    .replace(/<meta\s+name="viewport"[^>]*>\n?/, '')
+    .replace(/<title>[\s\S]*?<\/title>\n?/, '')
+    .trim()
+  let body = src.slice(src.indexOf('<body>') + 6, src.lastIndexOf('</body>'))
+  // The component runtime is React-based, and React reads an empty boolean
+  // attribute (open="") as false: spell each one out so cards stay open.
+  body = body.replace(/\b(open|checked|selected|disabled|hidden|multiple|readonly)=""/g, '$1="$1"')
+  // The plain theme script becomes component logic; the switch becomes a handler.
+  body = body.replace(/<script>\(function\(\)\{var b=document\.getElementById\('ds-theme'\)[\s\S]*?<\/script>\n?/, '')
+  body = body.replace(/<button\s+id="ds-theme" type="button">Dark<\/button>/, '<button type="button" onClick="{{ toggleTheme }}">{{ themeLabel }}</button>')
+  if (body.includes('ds-theme')) die('theme switch not converted', 1)
+  const props = { defaultTheme: { editor: 'enum', options: ['light', 'dark'], default: 'light', tsType: "'light' | 'dark'", section: 'Appearance' } }
+  const logic = `class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { theme: null } }
+  theme() { return this.state.theme || this.props.defaultTheme || 'light' }
+  apply() { document.documentElement.setAttribute('data-theme', this.theme()); document.documentElement.setAttribute('lang', 'en') }
+  componentDidMount() { this.apply() }
+  componentDidUpdate() { this.apply() }
+  renderVals() {
+    const t = this.theme()
+    return {
+      themeLabel: t === 'dark' ? 'Light' : 'Dark',
+      toggleTheme: () => this.setState({ theme: t === 'dark' ? 'light' : 'dark' }),
+    }
+  }
+}`
+  const attr = (x) => x.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+  return `<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light" data-prose="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${title}</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+${helmet}
+</helmet>
+${body.trim()}
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="${attr(JSON.stringify(props))}">
+${logic}
+</script>
+</body>
+</html>
+`
+}
+
 const INTERACTIVE = val('--interactive', 'filters, tabs, tooltips, the photo viewer and the podcast player')
 
 function skeleton(title, body, { part = null, trimmed, embeds, extrasNote }) {
@@ -612,7 +684,7 @@ function skeleton(title, body, { part = null, trimmed, embeds, extrasNote }) {
     `<span>Static capture: ${esc(INTERACTIVE)} are interactive in the app.</span>`,
     `<button id="ds-theme" type="button">Dark</button>`,
   ].filter(Boolean).join('')
-  return breakTags(`<!doctype html>
+  const plain = breakTags(`<!doctype html>
 <html lang="en" dir="ltr" data-theme="light" data-prose="en">
 <head>
 <meta charset="utf-8">
@@ -631,6 +703,7 @@ ${body}
 </body>
 </html>
 `)
+  return FORMAT === 'dc' ? toComponent(plain) : plain
 }
 
 function extrasBlock(list) {
