@@ -1,5 +1,10 @@
 # Claude Design — sync URLs for the design pages
 
+> **Superseded 2026-11 by the `designsync` capture workflow (`npm run design:capture`);
+> see [`design-sync.md`](design-sync.md).** The design project's files are now captured
+> from the built app and byte-verified, instead of being redrawn from these prompts. The
+> body below is kept as a historical record.
+
 Ready-to-paste messages for updating the Claude Design project
 ("Charlotte School Compare Website Design") so its `.dc.html` pages match the
 shipped app.
