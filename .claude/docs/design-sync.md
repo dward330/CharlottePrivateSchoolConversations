@@ -16,32 +16,62 @@ paste-a-prompt approach in [`design-sync-urls.md`](design-sync-urls.md).
 npm run build && npx vite preview              # serves http://localhost:4173
 npm run design:capture -- --css --out <dir>    # app-css/app-1.css … app-N.css
 npm run design:capture -- --page /school/providence-day/ --area sports \
-  --name "Sports Section Redesign" --refs "Providence Day" --out <dir>
-npm run design:capture -- --screens <url> --name <n> --out <dir>   # 1280 light/dark, 390 light
+  --name "Sports Section Redesign" --refs "Providence Day" --sha <build commit> --out <dir>
+npm run design:capture -- --screens <url> [--cards closed] --name <n> --out <dir>
+npm run design:verify -- --url '<serve_url>' --file <local file> --path '<project path>'
 ```
+
+Every file's exact command is under **Capture commands** below. Writing goes through the
+Claude Design MCP (`write_files`, inline data only), then `design:verify` fetches the
+file back and compares it byte for byte. The `serve_url` it needs carries a token: pass
+it on the command line, never into a file.
 
 What a capture does (`scripts/design_capture.mjs` has the full rules):
 
 - **Scope.** `--area <slug>` takes one `#topic-<slug>` section with every card open,
-  inside shallow copies of its ancestors so the app's descendant selectors still match.
+  inside shallow copies of its ancestors so the app's descendant selectors still match,
+  plus an **empty side rail** so the section sits in its real column at its real width.
   Without `--area` it takes the whole app shell. `--cards closed` closes every card and
   removes its body, because a closed card still carries its body in the DOM.
-- **Trimming,** so each file fits the inline write limit: scripts, comments, React ids,
-  `aria-*` and most `data-*` go; whitespace collapses; iframes become a labelled box of the
-  same size; closed native popovers (hover tips, `display: none` in every state) go. In a
-  run of more than 8 like siblings, or of more than 8 repeated rows of up to 12 flat grid
-  cells, the first 6 stay and one dashed `+N more in the app` line replaces the rest.
-  Cards, sections, table cells, SVG, navigation lists, stat strips and card grids are never
-  trimmed.
-- **Parts.** Over 40 KB, an area splits at card boundaries, a school page at section
-  boundaries and Compare at its row groups: `<name> (k of N).dc.html`. Every byte count is
-  measured on the assembled part.
+- **Loading.** Never `networkidle`. The page is scrolled end to end so every section
+  renders, then **Latest News is scrolled into view** (it fetches only when visible) and
+  the capture waits for its headlines and then for its preview lines, which arrive in a
+  second pass, one fetch per article.
+- **Cleaning,** always: scripts, comments, React ids and `aria-*` / `data-*` attributes
+  go, **except the ones the built CSS selects on** (scroll fades, chip tones, active tabs,
+  phone table labels; the list is read from the stylesheet). Whitespace collapses, iframes
+  become a labelled box of the same size, `loading="lazy"` goes so off-screen images load
+  in a static file, and closed native popovers (hover tips, `display: none` in every
+  state) go.
+- **Trimming, only when a file would be over 40 KB untrimmed.** In a run of more than 8
+  like siblings, or of more than 8 repeated rows of up to 12 flat grid cells, the first 6
+  stay and one dashed `+N more in the app` line replaces the rest. Never trimmed: cards,
+  sections, table cells, SVG, and the lists a reader navigates or counts (topic chips, the
+  side rail, stat strips, card grids, the Home school and topic grids, Compare's pickers,
+  the admissions staff grid, checklist rows, news rows).
+- **Parts.** Still over 40 KB after trimming, an area splits at card boundaries, a school
+  page at section boundaries and Compare at its row groups: `<name> (k of N).dc.html`.
+  Part 1 is written under the existing name. Every byte count is measured on the assembled
+  part.
+- **Line breaks** go only where a browser treats them as whitespace (after a CSS `}`,
+  after a selector-list comma on a very long line, and inside a start tag after its name),
+  so no line is too long to read and copy reliably.
 - **Shared CSS.** The built stylesheet is split at top-level rule boundaries into
-  `app-css/app-K.css` chunks of at most 38 KB, written once and linked by every file. The
-  chunks reassemble byte for byte to `dist/assets/index-*.css`.
+  `app-css/app-K.css` chunks of at most 38 KB before line breaks, written once and linked
+  by every file. With the added newlines removed they reassemble byte for byte to
+  `dist/assets/index-*.css`.
 - **Links and images** become absolute `https://charlotteschoolinsights.com/…` URLs.
 - **Chrome.** Each file opens with a small grey band: title, reference school(s), commit,
   capture date, trimmed count, what is interactive in the app, and a light/dark switch.
+
+**Verifying.** The preview server injects one `<style>`/`<script data-omelette-injected>`
+run after `<head>` into every HTML page it serves. `design:verify` removes exactly that run,
+and refuses to run if the local file contains the marker, so every byte that was written
+is still compared. CSS files come back untouched.
+
+**Screenshots.** `--screens` opens every `<details>` unless given `--cards closed`; a
+closed-card capture (the school pages, Shared Components) must be shot with it, or its
+empty cards render as open.
 
 ## Card coverage
 
@@ -226,6 +256,10 @@ Captured from **Cannon**, plus extra cards from Gaston Day (bus-services), Gasto
 
 ## Inventory
 
+The user confirmed this inventory on 2026-11-20: the app is primary wherever a file is
+both out of date and ahead of it, and every other recommendation (keep the existing
+names, Compare as its default view only, decision and spec records untouched) stands.
+
 Every root `.dc.html` in the design project, compared on 2026-11-20 with the built app
 (1280 px, light, every card open) by four read-only helpers, then classified in one pass
 here. Etags are from the step-1 listing; each helper's `read_file` saw the same etag.
@@ -242,14 +276,14 @@ it is not unbuilt work.
 | `Home.dc.html` | stale | Schools grid now comes before the topic grid; 13 compact school cards; "What you can compare" with 10 areas; one hero CTA. Retired: nav Compare link, per-topic chips on cards | replace |
 | `Compare Schools.dc.html` | stale | 11 columns with a frozen first column; side-by-side pickers; multi-figure SAT/ACT cells; year and denominator lines; 10 topics starting with College Support. Retired: blueprint corner marks, nav Compare link | replace (2 parts) |
 | `Admissions Checklist.dc.html` | stale | Site header and footer around it; inline toolbar; flat bordered sheet; two-line steps; bullet lists in the aid box | replace |
-| `Providence Day School.dc.html` (606 KB) | **stale + ahead** | Stale: International Travel name, no Wells Fargo Cup, old College Support and Clubs card sets, no Global Community / Firsts / Global Learning cards, inline sources. **Ahead (unbuilt):** "The Summer Campus" photo card, and photo slots in the Arts ladder, Theatre, Studio to Gallery, Where They Go, Exchanges & Homestays and A Day Inside. Retired: tenure bars, roster link-out, TO VERIFY markers | **your call** (see question 1) |
+| `Providence Day School.dc.html` (606 KB) | **stale + ahead** | Stale: International Travel name, no Wells Fargo Cup, old College Support and Clubs card sets, no Global Community / Firsts / Global Learning cards, inline sources. **Ahead (unbuilt):** "The Summer Campus" photo card, and photo slots in the Arts ladder, Theatre, Studio to Gallery, Where They Go, Exchanges & Homestays and A Day Inside. Retired: tenure bars, roster link-out, TO VERIFY markers | replace (3 parts) — user, 2026-11-20: "what the app shows is the primary, it overrides what the design has". The unbuilt photo-card ideas stay in the archive copy |
 | `Sports Section Redesign.dc.html` | stale | No stat strip or podcast bar; old depth chips (app ships 2c); Cup table now "every NCISAA 4A school" with dossier markers and links; 247 columns in the roster; Girls Basketball row. Retired: tenure bars (user, 2026-10-19), duotone photos, visible TO VERIFY | replace (2 parts) |
 | `College Support Section Redesign.dc.html` | stale | Nine-tile stat strip; new card order with Where Graduates Go first; renamed NC admissions card; counselor emails. Retired: parent-question subtitles, visible TO VERIFY / DISCREPANCY chips | replace (2 parts) |
 | `Arts Section Redesign.dc.html` | stale | Four-tile stat strip and podcast bar; Show sources toggles; card close control. Retired: student names in the Blumey ledger (no-minor-names rule) | replace |
 | `Clubs Section Redesign.dc.html` | stale | Club Catalog now first, Academic & Competitive last; stat strip; podcast bar; Faculty & Alumni strip in Affinity | replace |
 | `International Travel Section Redesign.dc.html` | stale | Renamed Global Exposure; adds Global Community on Campus and Firsts & Milestones; new card order; dated sign-up list. Retired: numbered kickers (no-kicker rule) | replace (2 parts) |
 | `Learning Support Section Redesign.dc.html` | stale | Testing & Evaluation moved second; RF/REQUIRED chip legend; email column. Retired: Compare button (area is off Compare), kickers. Possibly ahead: a "THIRD-PARTY · NOT CODED" chip and letter prefixes on service headers | replace |
-| `High School Placement Section Redesign.dc.html` | stale (some ahead?) | Where They Land merged into Where Graduates Go at Charlotte Prep; per-class rate tiles; class selector and school search; Visit Checklist; class video. Shown in the file but not rendered: the Class by Class table (component supports it, Charlotte Prep's data has none), "Why it holds up" / "Where it is thin" in the verdict | replace (see question 2) |
+| `High School Placement Section Redesign.dc.html` | stale (some ahead?) | Where They Land merged into Where Graduates Go at Charlotte Prep; per-class rate tiles; class selector and school search; Visit Checklist; class video. Shown in the file but not rendered: the Class by Class table (component supports it, Charlotte Prep's data has none), "Why it holds up" / "Where it is thin" in the verdict | replace (user accepted the recommendation, 2026-11-20) |
 | `After School Section Redesign.dc.html` | stale | Stat strip; podcast bar; "See Summer Programs →" link; Show sources toggles. Retired: visible TO VERIFY flags | replace |
 | `Financial Aid & Tuition.dc.html` | stale | The report now has 7 sections (new 04 "The Aid Numbers"); it lives inside the school page as an In-Depth Report card; 4 stat tiles; deposit sub-block. Retired: "CS" mock logo | replace |
 | `Charlotte Prep Course Offerings.dc.html` | spec record | Matches the app's three division cards; small differences (Show sources, per-card notes, course-count line). Current state is in `School Page (K-8)` and `Course Offerings Section` | leave |
@@ -266,102 +300,151 @@ it is not unbuilt work.
 Programs, the K–8 school page, Latest News, Welcome Video and the language picker (handoff
 `.md` files only), and the shared shell as a whole.
 
-## Write list (proposed, awaiting confirmation)
+## Write list (as written, 2026-11-20)
 
-Sizes are measured from a full local capture of `ff5ab214`; cap 40 KB per file. A
-replacement is copied to `archive/2026-11 pre-designsync/<same name>` before it is
-overwritten. An area that needs two parts keeps its existing name for part 1 and gains a
-`(2 of 2)` sibling.
+Every path below was written over its expected etag (`"0"` for a new path) and then
+fetched back and compared byte for byte by `design:verify` from the main thread: **29 of
+29 match** (24 page files, 4 CSS chunks, the index). Each replaced file's previous
+version is at `archive/2026-11 pre-designsync/<same name>`. Part 1 of a split page keeps
+the existing name.
 
-| Path in the design project | Kind | Captured from | Size |
-|---|---|---|--:|
-| `app-css/app-1.css` … `app-4.css` | new (shared CSS) | `dist/assets/index-CdL5IWL7.css` | 37.9 / 38.0 / 37.9 / 32.8 KB |
-| `Home.dc.html` | replace | `/` | 12.3 KB |
-| `Compare Schools.dc.html` + `Compare Schools (2 of 2).dc.html` | replace + new | Compare, College Support, all 11 high schools | 35.4 + 30.3 KB |
-| `Admissions Checklist.dc.html` | replace | Providence Day | 9.1 KB |
-| School page, K–12 (2 parts) | see question 1 | Providence Day, cards closed | 38.9 + 39.1 KB |
-| `School Page (K-8).dc.html` | new | Charlotte Prep, cards closed | 35.3 KB |
-| `Shared Components.dc.html` | new | Providence Day page chrome | 19.5 KB |
-| `Admissions Section.dc.html` | new | Providence Day | 17.9 KB |
-| `Course Offerings Section.dc.html` | new | Providence Day | 17.7 KB |
-| `International Travel Section Redesign.dc.html` + `(2 of 2)` | replace + new | Charlotte Country Day + Providence Day's credential card | 38.1 + 14.0 KB |
-| `Learning Support Section Redesign.dc.html` | replace | Charlotte Country Day | 30.1 KB |
-| `Clubs Section Redesign.dc.html` | replace | Providence Day | 25.2 KB |
-| `Arts Section Redesign.dc.html` | replace | Providence Day | 29.7 KB |
-| `Sports Section Redesign.dc.html` + `(2 of 2)` | replace + new | Providence Day | 33.0 + 36.3 KB |
-| `College Support Section Redesign.dc.html` + `(2 of 2)` | replace + new | Providence Day | 35.7 + 24.3 KB |
-| `High School Placement Section Redesign.dc.html` | replace | Charlotte Prep + Trinity Episcopal's Where They Land | 38.3 KB |
-| `After School Section Redesign.dc.html` | replace | Providence Day | 32.0 KB |
-| `Summer Programs Section.dc.html` | new (the pilot) | Providence Day | 17.3 KB |
-| `Financial Aid & Tuition.dc.html` | replace | Cannon + Gaston Day's Bus Services and Named Scholarships + Charlotte Catholic's Fees | 36.5 KB |
-| `As Built — Index.md` | new | this doc | — |
+| Path(s) in the design project | Kind | Captured from | Size | Verified |
+|---|---|---|--:|:-:|
+| `app-css/app-1.css` … `app-4.css` | new (shared CSS) | `dist/assets/index-CdL5IWL7.css` | 38.4 / 38.5 / 38.4 / 33.1 KB | ✓ |
+| `Home.dc.html` | replaced | Home page | 17.6 KB | ✓ |
+| `Compare Schools.dc.html` + `Compare Schools (2 of 2).dc.html` | replaced | every high school, College Support (the default Compare topic) | 36.2 KB + 31.0 KB | ✓ |
+| `Admissions Checklist.dc.html` | replaced | Providence Day | 9.9 KB | ✓ |
+| `Providence Day School.dc.html` + `Providence Day School (2 of 3).dc.html` + `Providence Day School (3 of 3).dc.html` | replaced | Providence Day (K-12 school page as first seen, every card closed) | 37.0 KB + 38.5 KB + 20.3 KB | ✓ |
+| `School Page (K-8).dc.html` | new | Charlotte Prep (K-8 school page as first seen, every card closed) | 35.4 KB | ✓ |
+| `Shared Components.dc.html` | new | Providence Day: header, school title, topic chips, side rail, Welcome Video, Latest News (live headlines, never translated), a section head with its podcast strip and stat tiles, More Schools, footer, back to top | 28.1 KB | ✓ |
+| `Admissions Section.dc.html` | new | Providence Day | 18.4 KB | ✓ |
+| `Course Offerings Section.dc.html` | new | Providence Day | 18.1 KB | ✓ |
+| `International Travel Section Redesign.dc.html` + `International Travel Section Redesign (2 of 2).dc.html` | replaced | Charlotte Country Day (Global Exposure standard) + Providence Day's credential card | 38.2 KB + 14.1 KB | ✓ |
+| `Learning Support Section Redesign.dc.html` | replaced | Charlotte Country Day (Learning Support depth reference) | 31.1 KB | ✓ |
+| `Clubs Section Redesign.dc.html` | replaced | Providence Day | 25.3 KB | ✓ |
+| `Arts Section Redesign.dc.html` | replaced | Providence Day | 30.8 KB | ✓ |
+| `Sports Section Redesign.dc.html` + `Sports Section Redesign (2 of 2).dc.html` | replaced | Providence Day | 33.1 KB + 36.4 KB | ✓ |
+| `College Support Section Redesign.dc.html` + `College Support Section Redesign (2 of 2).dc.html` | replaced | Providence Day | 36.5 KB + 24.4 KB | ✓ |
+| `High School Placement Section Redesign.dc.html` | replaced | Charlotte Prep + Trinity Episcopal's Where They Land card | 38.3 KB | ✓ |
+| `After School Section Redesign.dc.html` | replaced | Providence Day | 35.9 KB | ✓ |
+| `Summer Programs Section.dc.html` | new | Providence Day | 17.4 KB | ✓ |
+| `Financial Aid & Tuition.dc.html` | replaced | Cannon + Gaston Day's Bus Services and Named Scholarships cards + Charlotte Catholic's Fees card | 36.6 KB | ✓ |
+| `As Built - Index.md` | new | this doc's index | 5.2 KB | ✓ |
 
-Not on the list, and never touched: the decision records, the spec records,
-`Canvas.dc.html`, `_ds/`, `archive/` (other than the new subfolder), every
-`design_handoff_*/` folder, every `*-handoff-instructions.md`, `uploads/`, `public/`,
-`support.js`, `doc-page.js`, `image-slot.js`, `site-i18n.js`, `more-schools-row.js`,
-`github.md` and `.thumbnail`.
+The server stores the index as `As Built - Index.md` (it normalized the em dash in the
+name that was sent). Never touched: the decision records, the spec records,
+`Canvas.dc.html`, `_ds/`, the rest of `archive/`, every `design_handoff_*/` folder, every
+`*-handoff-instructions.md`, `uploads/`, `public/`, `support.js`, `doc-page.js`,
+`image-slot.js`, `site-i18n.js`, `more-schools-row.js`, `github.md` and `.thumbnail`.
 
 ## Capture commands
 
-Run from the repo root with the preview on `:4173`. `<out>` is any local folder.
+Run from the repo root with the preview on `:4173`. `<out>` is any local folder. `--sha`
+names the commit the served build came from.
 
 ```
 # Home
-npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'Home page' '--interactive' 'the school cards and the language menu'
+npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'Home page' '--sha' 'ff5ab214' '--interactive' 'the school cards and the language menu'
 
 # Compare Schools
-npm run design:capture -- '--page' '/compare/?topic=college-support&schools=cannon%2Ccarmel-christian%2Ccharlotte-catholic%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Ccovenant-day%2Cdavidson-day%2Cgaston-day%2Chickory-grove-christian%2Cprovidence-day' '--name' 'Compare Schools' '--out' <out> '--refs' 'every high school, College Support (the default Compare topic)' '--interactive' 'the topic and school pickers, row tips and the leader tint'
+npm run design:capture -- '--page' '/compare/?topic=college-support&schools=cannon%2Ccarmel-christian%2Ccharlotte-catholic%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Ccovenant-day%2Cdavidson-day%2Cgaston-day%2Chickory-grove-christian%2Cprovidence-day' '--name' 'Compare Schools' '--out' <out> '--refs' 'every high school, College Support (the default Compare topic)' '--sha' 'ff5ab214' '--interactive' 'the topic and school pickers, row tips and the leader tint'
 
 # Admissions Checklist
-npm run design:capture -- '--page' '/school/providence-day/admissions-checklist/' '--name' 'Admissions Checklist' '--out' <out> '--refs' 'Providence Day' '--interactive' 'the band switch and Print'
+npm run design:capture -- '--page' '/school/providence-day/admissions-checklist/' '--name' 'Admissions Checklist' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--interactive' 'the band switch and Print'
 
 # Providence Day School
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Providence Day School' '--out' <out> '--refs' 'Providence Day (K-12 school page as first seen, every card closed)' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Providence Day School' '--out' <out> '--refs' 'Providence Day (K-12 school page as first seen, every card closed)' '--sha' 'ff5ab214' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
 
 # School Page (K-8)
-npm run design:capture -- '--page' '/school/charlotte-prep/' '--name' 'School Page (K-8)' '--out' <out> '--refs' 'Charlotte Prep (K-8 school page as first seen, every card closed)' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
+npm run design:capture -- '--page' '/school/charlotte-prep/' '--name' 'School Page (K-8)' '--out' <out> '--refs' 'Charlotte Prep (K-8 school page as first seen, every card closed)' '--sha' 'ff5ab214' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
 
 # Shared Components
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Shared Components' '--out' <out> '--refs' 'Providence Day: header, school title, topic chips, side rail, Welcome Video, Latest News (live headlines, never translated), a section head with its podcast strip and stat tiles, More Schools, footer, back to top' '--cards' 'closed' '--drop' '.topic-section:not(#topic-admissions), #topic-admissions .note-cards' '--interactive' 'the language menu, theme toggle, Contact us, the video and podcast players'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Shared Components' '--out' <out> '--refs' 'Providence Day: header, school title, topic chips, side rail, Welcome Video, Latest News (live headlines, never translated), a section head with its podcast strip and stat tiles, More Schools, footer, back to top' '--sha' 'ff5ab214' '--cards' 'closed' '--drop' '.topic-section:not(#topic-admissions), #topic-admissions .note-cards' '--interactive' 'the language menu, theme toggle, Contact us, the video and podcast players'
 
 # Admissions Section
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Admissions Section' '--out' <out> '--refs' 'Providence Day' '--area' 'admissions'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Admissions Section' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'admissions'
 
 # Course Offerings Section
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Course Offerings Section' '--out' <out> '--refs' 'Providence Day' '--area' 'course-offerings'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Course Offerings Section' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'course-offerings'
 
 # International Travel Section Redesign
-npm run design:capture -- '--page' '/school/charlotte-country-day/' '--name' 'International Travel Section Redesign' '--out' <out> '--refs' 'Charlotte Country Day (Global Exposure standard) + Providence Day'\''s credential card' '--area' 'international-travel' '--extra' 'providence-day:global-exposure/the-global-studies-diploma'
+npm run design:capture -- '--page' '/school/charlotte-country-day/' '--name' 'International Travel Section Redesign' '--out' <out> '--refs' 'Charlotte Country Day (Global Exposure standard) + Providence Day'\''s credential card' '--sha' 'ff5ab214' '--area' 'international-travel' '--extra' 'providence-day:global-exposure/the-global-studies-diploma'
 
 # Learning Support Section Redesign
-npm run design:capture -- '--page' '/school/charlotte-country-day/' '--name' 'Learning Support Section Redesign' '--out' <out> '--refs' 'Charlotte Country Day (Learning Support depth reference)' '--area' 'learning-support'
+npm run design:capture -- '--page' '/school/charlotte-country-day/' '--name' 'Learning Support Section Redesign' '--out' <out> '--refs' 'Charlotte Country Day (Learning Support depth reference)' '--sha' 'ff5ab214' '--area' 'learning-support'
 
 # Clubs Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Clubs Section Redesign' '--out' <out> '--refs' 'Providence Day' '--area' 'student-clubs'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Clubs Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'student-clubs'
 
 # Arts Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Arts Section Redesign' '--out' <out> '--refs' 'Providence Day' '--area' 'the-arts'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Arts Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'the-arts'
 
 # Sports Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Sports Section Redesign' '--out' <out> '--refs' 'Providence Day' '--area' 'sports'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Sports Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'sports'
 
 # College Support Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'College Support Section Redesign' '--out' <out> '--refs' 'Providence Day' '--area' 'college-support'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'College Support Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'college-support'
 
 # High School Placement Section Redesign
-npm run design:capture -- '--page' '/school/charlotte-prep/' '--name' 'High School Placement Section Redesign' '--out' <out> '--refs' 'Charlotte Prep + Trinity Episcopal'\''s Where They Land card' '--area' 'high-school-placement' '--extra' 'trinity-episcopal:high-school-placement/where-they-land'
+npm run design:capture -- '--page' '/school/charlotte-prep/' '--name' 'High School Placement Section Redesign' '--out' <out> '--refs' 'Charlotte Prep + Trinity Episcopal'\''s Where They Land card' '--sha' 'ff5ab214' '--area' 'high-school-placement' '--extra' 'trinity-episcopal:high-school-placement/where-they-land'
 
 # After School Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'After School Section Redesign' '--out' <out> '--refs' 'Providence Day' '--area' 'after-school'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'After School Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'after-school'
 
 # Summer Programs Section
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Programs Section' '--out' <out> '--refs' 'Providence Day' '--area' 'summer-programs'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Programs Section' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'summer-programs'
 
 # Financial Aid & Tuition
-npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
+npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' 'ff5ab214' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
 ```
+
+The CSS chunks: `npm run design:capture -- --css --out <out>`.
 
 ## Results
 
-_Filled in after the writes (steps 7–12)._
+**Verified.** 29 of 29 written files match their local capture byte for byte, re-checked
+from the main thread after both write rounds (the helpers' own checks were not taken on
+trust). The final listing against the step-1 snapshot: 116 files before, 145 after; 13
+changed and 29 new, every one on the write list, under `app-css/` or under
+`archive/2026-11 pre-designsync/`; nothing outside that set changed and nothing was
+removed. All five decision records, the three spec records and `Canvas.dc.html` keep
+their original etags.
+
+**Visual review.** Every file was compared with the app at 1280 px light, with dark and
+390 px phone width checked on the school page, Compare and Summer Programs. The review
+found six defects, all in the capture rather than the app, and each was fixed in
+`design_capture.mjs` before a second write round re-wrote the 13 affected files:
+
+| Found in review | Cause | Fix |
+|---|---|---|
+| The pilot's section rendered in a 190 px column | an area capture kept the page grid but not its side rail, so the section fell into the rail's track | keep an empty copy of the rail |
+| Scroll fades, chip tones, active tabs and phone table labels missing | `data-*` attributes the app CSS selects on were stripped | keep every `data-*` / `aria-*` attribute the built CSS names |
+| Home showed 6 of 13 schools and 6 of 10 topics; Compare's pickers 6 pills; the checklist 6 of 9 steps; the admissions staff grid had a hole | the trim rule ran on files that never needed it, and on fixed-size lists | trim only a file that is over 40 KB untrimmed; never trim navigation, picker, staff, checklist or news lists (11 of 24 files now ship whole) |
+| Latest News was a loading skeleton, then headlines without previews | the section fetches only when scrolled into view, and previews arrive in a second pass | scroll it into view, then wait for the preview count to settle |
+| Facility and news photos grey | `loading="lazy"` never fires in a static file shot full-page | drop `loading` from captured images |
+| Closed-card school pages rendered as open, empty cards | the screenshot step opens every `<details>` | shoot closed-card captures with `--cards closed` (a review-tool fix; the files were right) |
+
+**Seen in the app, not the capture** (left as found, worth a look separately):
+Gaston Day's *Named scholarships* table draws very tall rows beside a short note, on the
+live page as well as in the capture.
+
+**Not represented, by design:** filters, tabs, hover tips, the photo viewer and the
+podcast and video players are static (players are labelled boxes); Latest News shows
+the headlines that were live at capture time; the files are plain HTML, so they render
+in Claude Design's preview but cannot be click-edited there (an editable file needs the
+`<x-dc>` component format, which a capture cannot produce).
+
+## Index
+
+The same table is in the design project as `As Built - Index.md`.
+
+| File | Status |
+|---|---|
+| Home, Compare Schools (2 parts), Admissions Checklist, Providence Day School (3 parts) | captured, replaced (archive copies in `archive/2026-11 pre-designsync/`) |
+| International Travel (2 parts), Learning Support, Clubs, Arts, Sports (2 parts), College Support (2 parts), High School Placement, After School, Financial Aid & Tuition | captured, replaced (archive copies in `archive/2026-11 pre-designsync/`) |
+| School Page (K-8), Shared Components, Admissions Section, Course Offerings Section, Summer Programs Section | captured, new |
+| Sports Compare Matrix, Depth Chips Redesign, Academic Clubs Expand Options, Club Catalog Expand Options, Podcast Deep Dive Options | decision records, untouched |
+| Charlotte Prep Course Offerings, High School Placement Class Video, More Schools Row | spec records, untouched |
+| Canvas | empty, untouched |
+
+All captured files: `main` at `ff5ab214`, captured 2026-11-20.

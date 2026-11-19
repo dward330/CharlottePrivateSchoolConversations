@@ -12,11 +12,16 @@
  *   --css --out <dir>
  *       Split dist/assets/index-*.css at top-level rule boundaries (never
  *       inside an @media/@supports block) into app-1.css … app-N.css, each
- *       ≤ 38 KB. Prints each chunk's size and sha256.
+ *       ≤ 38 KB before line breaks. Prints each chunk's size and sha256.
+ *       Every written file gets newlines only where they are whitespace to
+ *       the browser (after a CSS `}`, after a selector-list comma on a very
+ *       long line, inside a start tag after its name), so no line is too long
+ *       to read and copy reliably.
  *
  *   --page <route> --name <file name> --out <dir>
  *          [--area <slug>] [--cards closed|open] [--extra <slug>:<card-id>,…]
  *          [--refs "<reference school(s)>"] [--parts auto|1] [--drop "<css selectors>"]
+ *          [--sha <commit the build came from>]
  *       Load <route>, open every <details> in scope (or close them all with
  *       --cards closed), take the scoped DOM — one #topic-<slug> section for
  *       --area, otherwise the whole app shell — trim it (see TRIMMING), and
@@ -33,8 +38,10 @@
  *       ≤ 2000px-tall PNGs (<n>-<variant>-NN.png). With --area on an app URL
  *       only that section is shot; a design-file URL is shot whole.
  *
- * TRIMMING, in order: strip <script>/<noscript>/<template>, comments, React
- * ids and aria-* / data-* attributes (data-card and data-theme are kept);
+ * TRIMMING (repeated runs are trimmed only when the untrimmed file would be
+ * over the cap), in order: strip <script>/<noscript>/<template>, comments, React
+ * ids and aria-* / data-* attributes (data-card, data-theme and every one the
+ * built CSS selects on are kept);
  * collapse whitespace; replace iframes with a labelled box of the same size;
  * in any run of more than 8 like siblings keep the first 6 and add one
  * ".ds-trim" element reading "+N more in the app" (a run may be one repeated
@@ -101,6 +108,69 @@ function topLevelRules(css) {
   return rules
 }
 
+/**
+ * Line breaks that cannot change rendering, so a file has no line too long to
+ * read and copy reliably (the inline write path passes every byte through a
+ * model). CSS: a newline after each `}` outside strings and comments.
+ */
+function breakCss(css) {
+  let out = '', i = 0, depth = 0, line = 0
+  while (i < css.length) {
+    const c = css[i]
+    if (c === '/' && css[i + 1] === '*') { const e = css.indexOf('*/', i + 2); const j = e === -1 ? css.length : e + 2; out += css.slice(i, j); i = j; continue }
+    if (c === '"' || c === "'") {
+      let j = i + 1
+      while (j < css.length && css[j] !== c) j += css[j] === '\\' ? 2 : 1
+      out += css.slice(i, j + 1); i = j + 1; continue
+    }
+    out += c
+    if (c === '(' || c === '[') depth++
+    else if (c === ')' || c === ']') depth--
+    if (c === '}' && css[i + 1] !== '\n') { out += '\n'; line = 0 }
+    // A selector list too long to read in one line: break after a depth-0 comma.
+    else if (c === ',' && depth === 0 && line > 1000) { out += '\n'; line = 0 }
+    else line++
+    i++
+  }
+  return out
+}
+
+/**
+ * HTML: the first whitespace after a start tag's name becomes a newline. That
+ * whitespace separates attributes, so it never reaches the rendered page. Text
+ * `<` is always escaped by the serializer; quotes are tracked inside tags.
+ */
+function breakTags(html) {
+  let out = '', i = 0, raw = null
+  while (i < html.length) {
+    if (raw) {
+      const e = html.toLowerCase().indexOf(`</${raw}`, i)
+      const j = e === -1 ? html.length : e
+      out += html.slice(i, j); i = j; raw = null; continue
+    }
+    const c = html[i]
+    if (c === '<' && /[a-zA-Z]/.test(html[i + 1] || '')) {
+      let j = i + 1
+      while (j < html.length && /[\w-]/.test(html[j])) j++
+      const name = html.slice(i + 1, j).toLowerCase()
+      out += html.slice(i, j)
+      if (/\s/.test(html[j] || '')) { out += '\n'; j++ }
+      // Rest of the tag, honouring quoted attribute values.
+      let q = null
+      while (j < html.length) {
+        const d = html[j]
+        out += d; j++
+        if (q) { if (d === q) q = null } else if (d === '"' || d === "'") q = d
+        else if (d === '>') break
+      }
+      if (name === 'script' || name === 'style') raw = name
+      i = j; continue
+    }
+    out += c; i++
+  }
+  return out
+}
+
 if (has('--css')) {
   const dir = join(ROOT, 'dist/assets')
   const file = readdirSync(dir).find((f) => /^index-.*\.css$/.test(f))
@@ -118,8 +188,11 @@ if (has('--css')) {
   if (cur) chunks.push(cur)
   if (chunks.join('') !== css) die('chunks do not reassemble to the original stylesheet', 1)
   console.log(`source ${file} ${kb(Buffer.byteLength(css))} · ${rules.length} top-level rules · ${chunks.length} chunks`)
-  chunks.forEach((c, k) => {
+  chunks.forEach((raw, k) => {
     const name = `app-${k + 1}.css`
+    const c = breakCss(raw)
+    if (c.replace(/([},])\n/g, '$1') !== raw.replace(/([},])\n/g, '$1')) die(`${name}: line breaking changed more than whitespace after } or ,`, 1)
+    chunks[k] = c
     writeFileSync(join(OUT, name), c)
     console.log(`  ${name}  ${Buffer.byteLength(c)} bytes  sha256 ${sha(c)}`)
   })
@@ -147,13 +220,29 @@ async function newPage(browser, { width = 1280, theme = 'light' } = {}) {
 
 /** Load a route and let the lazily-rendered research and Latest News settle. */
 async function load(page, url, { isApp = true } = {}) {
-  await page.goto(url, { waitUntil: 'domcontentloaded' })
+  // The preview server stalls the odd request; one retry with a longer timeout.
+  try { await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60_000 }) }
+  catch { await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60_000 }) }
   if (isApp) {
     await page.waitForSelector('main > *', { timeout: 30_000 })
     await page.waitForTimeout(2000)
     for (let y = 0; y < 40; y++) { await page.evaluate(() => window.scrollBy(0, 2500)); await page.waitForTimeout(60) }
     await page.waitForFunction(() => !document.querySelector('.topic-section .loading, .topic-section-pending'), null, { timeout: 30_000 }).catch(() => {})
-    await page.waitForFunction(() => !document.querySelector('.news-loading'), null, { timeout: 8_000 }).catch(() => {})
+    // Latest News fetches only once it scrolls into view (IntersectionObserver),
+    // and the fast pass above skips past it: bring it into view, then wait.
+    await page.evaluate(() => { const n = document.querySelector('#news'); if (n) window.scrollTo(0, n.getBoundingClientRect().top + window.scrollY - 100) })
+    await page.waitForFunction(() => !document.querySelector('.news-loading'), null, { timeout: 20_000 }).catch(() => {})
+    // Previews arrive in a second pass, one fetch per article: wait until the
+    // count of preview lines stops changing (2 s steady, 15 s at most).
+    if (await page.$('#news')) {
+      let last = -1, steady = 0
+      for (let t = 0; t < 30 && steady < 4; t++) {
+        const n = await page.evaluate(() => document.querySelectorAll('#news .news-row-preview, #news .news-featured-preview').length)
+        steady = n === last ? steady + 1 : 0
+        last = n
+        await page.waitForTimeout(500)
+      }
+    }
     await page.evaluate(() => window.scrollTo(0, 0))
     await page.waitForTimeout(600)
   } else {
@@ -200,8 +289,12 @@ if (has('--screens')) {
     if (!box) { console.error(`✗ ${url}: #topic-${area} not found`); await ctx.close(); continue }
     let n = 0
     for (let y = box.y; y < box.y + box.h; y += TILE) {
+      // The page can change height after it was measured (late fonts, a
+      // preview script), so clamp every tile to the height it has now.
+      const pageH = await page.evaluate(() => document.documentElement.scrollHeight)
+      const h = Math.min(TILE, box.y + box.h - y, pageH - y)
+      if (h < 1) break
       n++
-      const h = Math.min(TILE, box.y + box.h - y)
       const file = join(OUT, `${name}-${v.w}-${v.t}-${String(n).padStart(2, '0')}.png`)
       await page.screenshot({ path: file, fullPage: true, clip: { x: 0, y, width: box.w, height: h } })
     }
@@ -228,8 +321,10 @@ const REFS = val('--refs', '')
 const DROP = val('--drop', '')
 const PARTS = val('--parts', 'auto')
 if (!(await reachable(`${BASE}/`))) die(`${BASE} is unreachable — run npm run build && npx vite preview first`)
-const SHA = execSync('git rev-parse --short HEAD', { cwd: ROOT }).toString().trim()
-const DATE = new Date().toISOString().slice(0, 10)
+// The commit the served build came from. Pass --sha when HEAD has moved since
+// `npm run build` (a branch commit that touched no src/ still names the wrong build).
+const SHA = val('--sha', '') || execSync('git rev-parse --short HEAD', { cwd: ROOT }).toString().trim()
+const DATE = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}` })()
 
 /**
  * Runs in the page. Clones the scope with its ancestor chain (so descendant
@@ -237,8 +332,8 @@ const DATE = new Date().toISOString().slice(0, 10)
  * returns { html, cards: [html…] | null, trimmed, embeds, brand }.
  * `cards` is set for an area capture so the caller can split at card edges.
  */
-function pageCapture({ areaSel, cards, live, cardSel, drop }) {
-  const KEEP_DATA = new Set(['data-card', 'data-theme'])
+function pageCapture({ areaSel, cards, live, cardSel, drop, keepAttrs, trimRuns }) {
+  const KEEP_DATA = new Set(['data-card', 'data-theme', ...keepAttrs])
   const NO_TRIM_TAGS = new Set(['TD', 'TH', 'OPTION', 'COL', 'DETAILS', 'SECTION', 'SUMMARY'])
   const INLINE = new Set(['SPAN', 'A', 'BUTTON', 'ABBR', 'EM', 'STRONG', 'CODE', 'IMG', 'B', 'I', 'SMALL', 'LABEL'])
   const absol = (u) => {
@@ -271,6 +366,13 @@ function pageCapture({ areaSel, cards, live, cardSel, drop }) {
     for (const a of chain) {
       const c = a.cloneNode(false)
       if (parent) parent.appendChild(c); else rootClone = c
+      // The school page is a two-track grid (side rail | content). Keep an
+      // EMPTY rail so the section lands in its real column at its real width;
+      // the app hides the rail at phone widths, and so does this copy.
+      if (a.classList.contains('dossier-layout')) {
+        const rail = a.querySelector(':scope > .dossier-nav')
+        if (rail) c.appendChild(rail.cloneNode(false))
+      }
       parent = c
     }
     parent.appendChild(scope.cloneNode(true))
@@ -325,9 +427,9 @@ function pageCapture({ areaSel, cards, live, cardSel, drop }) {
   for (const el of all) {
     for (const a of [...el.attributes]) {
       const n = a.name
-      if (n.startsWith('aria-') || (n.startsWith('data-') && !KEEP_DATA.has(n))) el.removeAttribute(n)
+      if ((n.startsWith('aria-') || n.startsWith('data-')) && !KEEP_DATA.has(n)) el.removeAttribute(n)
       else if (n === 'id' && /^(:|«|radix-|headlessui-)/.test(a.value)) el.removeAttribute(n)
-      else if (n === 'srcset' || n === 'sizes' || n === 'tabindex' || n === 'role' || n === 'focusable') el.removeAttribute(n)
+      else if (n === 'srcset' || n === 'sizes' || n === 'tabindex' || n === 'role' || n === 'focusable' || n === 'loading') el.removeAttribute(n)
       else if (n === 'src' || n === 'href' || n === 'poster') el.setAttribute(n, absol(a.value))
     }
   }
@@ -337,7 +439,7 @@ function pageCapture({ areaSel, cards, live, cardSel, drop }) {
   const sig = (e) => `${e.tagName}|${e.getAttribute('class') || ''}`
   // Navigation lists and stat strips are shown whole: a topic-chip row or
   // side rail cut to six reads as a page with six areas.
-  const WHOLE = 'nav, .dossier-nav, .school-header-topics, .stat-strip, .note-cards, .more-schools-grid'
+  const WHOLE = 'nav, .dossier-nav, .school-header-topics, .stat-strip, .note-cards, .more-schools-grid, .school-grid, .topic-grid, .pill-row, .adm-people, .adx-rows, .news-rows'
   const trim = (el) => {
     if (el.namespaceURI === 'http://www.w3.org/2000/svg') return
     if (el.matches(WHOLE)) { [...el.children].forEach(trim); return }
@@ -395,7 +497,7 @@ function pageCapture({ areaSel, cards, live, cardSel, drop }) {
       }
     }
   }
-  trim(rootClone)
+  if (trimRuns) trim(rootClone)
 
   // Whitespace.
   const tw = document.createTreeWalker(rootClone, NodeFilter.SHOW_TEXT)
@@ -433,24 +535,37 @@ function pageCapture({ areaSel, cards, live, cardSel, drop }) {
   return { html: rootClone.outerHTML, units, pre, post, trimmed, embeds, brand }
 }
 
+// aria-* / data-* attributes the app's CSS selects on (scroll fades, chip
+// tones, active tabs, phone table labels…) are styling, not noise: keep them.
+const KEEP_ATTRS = (() => {
+  const css = readFileSync(join(ROOT, 'dist/assets', readdirSync(join(ROOT, 'dist/assets')).find((f) => /^index-.*\.css$/.test(f))), 'utf8')
+  return [...new Set([...css.matchAll(/\[((?:data|aria)-[a-z-]+)|attr\(((?:data|aria)-[a-z-]+)/g)].map((m) => m[1] || m[2]))]
+})()
+
 const browser = await openBrowser()
 const { ctx, page } = await newPage(browser, { width: 1280, theme: 'light' })
 const routeUrl = `${BASE}${route.startsWith('/') ? '' : '/'}${route}`
 await load(page, routeUrl)
 const scopeSel = AREA ? `#topic-${AREA}` : 'body'
 await setCards(page, scopeSel, CARDS)
-const main = await page.evaluate(pageCapture, { areaSel: AREA ? `#topic-${AREA}` : null, cards: CARDS, live: LIVE, cardSel: null, drop: DROP })
-if (main.error) die(`${routeUrl}: ${main.error}`, 1)
+const capArgs = { areaSel: AREA ? `#topic-${AREA}` : null, cards: CARDS, live: LIVE, cardSel: null, drop: DROP, keepAttrs: KEEP_ATTRS }
+const mainFull = await page.evaluate(pageCapture, { ...capArgs, trimRuns: false })
+const mainTrim = await page.evaluate(pageCapture, { ...capArgs, trimRuns: true })
+if (mainFull.error) die(`${routeUrl}: ${mainFull.error}`, 1)
+let main = mainFull
 
-const extras = []
+let extras = []
+const extrasTrim = []
 for (const ex of EXTRAS) {
   await load(page, `${BASE}/school/${ex.slug}/`)
   await page.evaluate((id) => { const d = document.getElementById(id); if (d) d.open = true; d?.querySelectorAll('details').forEach((x) => { x.open = true }) }, ex.id)
   await page.waitForTimeout(500)
   const school = await page.evaluate(() => document.querySelector('#school-title')?.textContent?.trim() || '')
-  const r = await page.evaluate(pageCapture, { areaSel: null, cards: 'open', live: LIVE, cardSel: ex.id, drop: '' })
+  const exArgs = { areaSel: null, cards: 'open', live: LIVE, cardSel: ex.id, drop: '', keepAttrs: KEEP_ATTRS }
+  const r = await page.evaluate(pageCapture, { ...exArgs, trimRuns: false })
   if (r.error) die(`/school/${ex.slug}/: ${r.error}`, 1)
   extras.push({ ...ex, school, ...r })
+  extrasTrim.push({ ...ex, school, ...(await page.evaluate(pageCapture, { ...exArgs, trimRuns: true })) })
 }
 await ctx.close()
 await browser.close()
@@ -497,7 +612,7 @@ function skeleton(title, body, { part = null, trimmed, embeds, extrasNote }) {
     `<span>Static capture: ${esc(INTERACTIVE)} are interactive in the app.</span>`,
     `<button id="ds-theme" type="button">Dark</button>`,
   ].filter(Boolean).join('')
-  return `<!doctype html>
+  return breakTags(`<!doctype html>
 <html lang="en" dir="ltr" data-theme="light" data-prose="en">
 <head>
 <meta charset="utf-8">
@@ -515,7 +630,7 @@ ${body}
 <script>${THEME_JS}</script>
 </body>
 </html>
-`
+`)
 }
 
 function extrasBlock(list) {
@@ -524,6 +639,13 @@ function extrasBlock(list) {
 }
 
 const outputs = []
+// Ship a page whole when it fits in one file; trim repeated runs only in a
+// file that would not (a 9 KB checklist cut to six steps hides content for no
+// reason, and a cut fixed-size grid leaves holes).
+{
+  const untrimmed = skeleton(NAME, assemble((main.units || []).map((_, k) => k)), { part: null, trimmed: 0, embeds: 0, extrasNote: '' })
+  if (Buffer.byteLength(untrimmed) > FILE_CAP) { main = mainTrim; extras = extrasTrim }
+}
 const trimmedTotal = main.trimmed + extras.reduce((s, e) => s + e.trimmed, 0)
 const embedsTotal = main.embeds + extras.reduce((s, e) => s + e.embeds, 0)
 const extrasNote = extras.length ? `Extra cards: ${extras.map((e) => `${e.id} (${e.school})`).join(', ')}` : ''

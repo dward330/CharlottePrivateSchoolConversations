@@ -1,7 +1,7 @@
 ---
 name: designsync
 title: Catch the Claude Design project up with every page type, research area and shared component the app has today, captured from the built app
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-20
 branch: feat/designsync
@@ -483,3 +483,51 @@ Single-phase: this adds no user-facing text.
   the user knows them by name, and ask at the step-5 review.
 - **Compare as one file or one file per area.** **Default:** one file if it fits the
   cap, otherwise `Compare Schools — <Area>.dc.html` files plus a small overview file.
+
+## Implementation notes
+
+Built and written 2026-11-20 from `main` at `ff5ab214`. Results, the confirmed inventory
+and the as-written file list are in [`.claude/docs/design-sync.md`](../docs/design-sync.md).
+
+**Decisions at the step-5 review (user).** The app is primary: a file that was both out of
+date and ahead of the app is replaced, so `Providence Day School.dc.html` (606 KB, with
+unbuilt photo-card ideas) was archived and replaced. High School Placement and Learning
+Support were replaced after archiving. Existing names were kept (part 1 of a split page
+keeps the name), Compare is its default College Support view only (not one file per
+topic), and the decision and spec records were left alone.
+
+**Deviations from the plan, and why.**
+
+- **More files than planned, in parts.** The K–12 school page is 3 parts and Compare,
+  Sports, College Support and Global Exposure are 2 each, measured on the assembled part.
+  Compare splits at its table's row groups and a school page at section boundaries.
+- **Trimming only when needed.** The plan trimmed every run over 8; the review showed that
+  hid content in small pages (Home 6 of 13 schools, the checklist 6 of 9 steps). A file
+  is now trimmed only if it is over 40 KB untrimmed, and navigation, picker, staff,
+  checklist and news lists are never trimmed. 11 of 24 files ship whole.
+- **More cleaning rules.** `data-*` / `aria-*` attributes the built CSS selects on are
+  kept (the plan stripped them all), closed native popovers and `loading="lazy"` are
+  dropped, and an area capture keeps an empty side rail so it sits in its real column.
+- **Line breaks in every written file.** The write path copies every byte through a
+  model, and a reader cuts lines at 2,000 characters; newlines go only where a browser
+  treats them as whitespace. The CSS chunks therefore reassemble to the built stylesheet
+  with those newlines removed rather than byte for byte.
+- **`design:verify` strips the preview server's injection.** Served HTML carries one
+  `<style>`/`<script data-omelette-injected>` run after `<head>`; exactly that run is
+  removed before comparing, and the check refuses a local file that contains the marker.
+  The token in a `serve_url` is project-wide, which is how the main thread re-verified
+  every file from one preview link.
+- **Latest News** needed a scroll into view (it is lazy) and a wait for its second-pass
+  previews; the plan's 8 s wait captured a loading skeleton.
+- **Extra script options:** `--sha` (HEAD had moved to the branch commit), `--drop` (the
+  Shared Components file), `--variants` (one-variant screenshots for the inventory) and
+  `--cards closed` on `--screens`.
+- **Two write rounds.** Round 1 wrote 24 files; the main-thread review found the defects
+  above, and round 2 re-wrote the 13 files they changed. Each round used 5 helpers with
+  disjoint paths, and every write was re-verified from the main thread.
+- **Index name.** The server stored `As Built — Index.md` as `As Built - Index.md`.
+
+**Not done, by design or out of scope.** Plain-HTML captures render in Claude Design's
+preview but are read-only in its editor (an editable file needs the `<x-dc>` component
+format). Standalone Claude Design closes by 2026-12-14; the files' future after the move
+into Claude is outside this plan. Not made into a `/design-sync` skill (default: no).
