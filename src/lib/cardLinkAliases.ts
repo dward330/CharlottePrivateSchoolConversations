@@ -23,4 +23,9 @@
 export const AREA_ALIASES: { from: string; topic: string; since: string }[] = []
 
 /** Former card names → card key. `topic` absent = any topic. Never delete an entry. */
-export const CARD_ALIASES: { from: string; topic?: string; key: string; since: string }[] = []
+export const CARD_ALIASES: { from: string; topic?: string; key: string; since: string }[] = [
+  // Covenant Day and Carmel Christian took per-school Arts card titles ("The JK–12
+  // Arts Ladder", "The K–12 Arts Ladder") in plan `consistency` COV-25; both had
+  // shown the shared "The TK–12 Arts Ladder".
+  { from: 'the-tk-12-arts-ladder', topic: 'the-arts', key: 'ladder', since: '2026-11-20' },
+]

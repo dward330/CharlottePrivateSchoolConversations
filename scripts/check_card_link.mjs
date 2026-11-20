@@ -231,10 +231,30 @@ for (const a of AREA_ALIASES) {
   if (areaLinks.has(a.from)) errors.push(`AREA_ALIASES: "${a.from}" is a current area name, so it would never be used`)
   if (a.from !== linkName(a.from)) errors.push(`AREA_ALIASES: "${a.from}" is not in linkName() form`)
 }
+/* Names per card key, across the shared title and every per-school override
+   (`card:<topic>:<key>@<slug>`). A per-school title (plan `consistency`
+   COV-25) leaves the shared name current at other schools, and the alias still
+   matters on the renamed school's page: openFromHash tries the exact card id
+   first and only then the alias, page by page. */
+const namesByKey = new Map() // `${topic}:${key}` → Set(link)
+for (const [id, link] of Object.entries(current)) {
+  const [kind, topic, rest] = id.split(':')
+  if (kind !== 'card' || !rest) continue
+  const k = `${topic}:${rest.split('@')[0]}`
+  if (!namesByKey.has(k)) namesByKey.set(k, new Set())
+  namesByKey.get(k).add(link)
+}
 for (const a of CARD_ALIASES) {
   const topics = a.topic ? [a.topic] : [...namesByTopic.keys()]
   for (const t of topics) {
-    if (namesByTopic.get(t)?.has(a.from)) {
+    if (!namesByTopic.get(t)?.has(a.from)) continue
+    const own = namesByKey.get(`${t}:${a.key}`)
+    const otherKey = [...namesByKey.entries()].some(
+      ([k, set]) => k.startsWith(`${t}:`) && k !== `${t}:${a.key}` && set.has(a.from),
+    )
+    if (otherKey) {
+      errors.push(`CARD_ALIASES: "${a.from}" is the current name of a different card in ${t}, so the alias would be ambiguous`)
+    } else if (!own || [...own].every((l) => l === a.from)) {
       errors.push(`CARD_ALIASES: "${a.from}" is a current card name in ${t}, so it shadows nothing and is almost certainly a mistake`)
     }
   }
