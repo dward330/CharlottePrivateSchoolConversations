@@ -262,7 +262,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
       {
         label: 'Be honored for it',
-        text: 'no Tri-M chapter and no named Fine Arts Honor Society chapter could be found on any page checked, so neither is claimed here.',
+        text: 'the school’s Fast Facts page lists the Tri-M Music Honor Society and the National Art Honor Society among its memberships.',
       },
     ],
     ladderNote:
@@ -270,6 +270,7 @@ export const charlotteCountryDay: ArtsProgram = {
     sources: [
       { label: 'charlottecountryday.org — Music', url: CCD_MUSIC },
       { label: 'Arts', url: CCD_ARTS },
+      { label: 'Fast Facts (honor societies)', url: 'https://www.charlottecountryday.org/about/fast-facts' },
     ],
   },
 
@@ -361,7 +362,6 @@ export const charlotteCountryDay: ArtsProgram = {
       'You have been nominated every year since 2022 but have not won since. Is the program aiming at competitive placement or at participation breadth? With 100% theatre participation, breadth may genuinely be the strategy.',
       'Which of the eight ensembles require an audition, and can a beginner still join band or orchestra in 9th grade? The pages never state audition requirements.',
       'How many Scholastic Art & Writing Gold and Silver Keys did students earn last year, and how many advanced to national judging?',
-      'Is there a Tri-M chapter, a National Art Honor Society chapter, or a Fine Arts Honor Society? None could be found publicly.',
       'Which year did the Edinburgh Fringe trip happen, what did students perform, and how often does it recur?',
     ],
     sources: [

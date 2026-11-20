@@ -282,7 +282,7 @@ const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
   divisions: [
     {
       label: 'Also on offer',
-      text: 'The Upper School page cites "nearly 50 clubs" and the 2025–26 School Profile lists "45 different clubs and activities." Beyond the clubs above, the school also runs 9 Upper School affinity groups (DEIB page) and 5 honor societies.',
+      text: 'The Upper School page cites "nearly 50 clubs" and the 2025–26 School Profile lists "45 different clubs and activities." The school also runs 9 Upper School affinity groups (DEIB page). It has 5 Upper School honor societies, or 6 with the Middle School’s NJHS.',
       tag: 'School-reported',
     },
   ],

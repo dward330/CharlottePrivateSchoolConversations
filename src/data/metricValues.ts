@@ -176,7 +176,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: '104', // counted from the 11 course-offering sections of the 2026-27 catalog
       'charlotte-christian': '~135', // ~135 unique titles; 6 are cross-listed in two departments
       'charlotte-catholic': '199', // counted from the 2026-2027 Curriculum Guide by course HEADER — 196 coded headers + 3 CPCC dual-enrollment (Academic Skills 508/509 and AP Micro & Macro 953/954 are one header each); prior-year guide had 183
-      'charlotte-country-day': '119', // line-by-line count of the Total Index of Courses by Department (p.8)
+      'charlotte-country-day': '117', // line-by-line count of the Total Index of Courses by Department (p.8), re-read 2026-11-20; 119 had counted two sub-headings
       'charlotte-latin': '122', // 136 live posts on the Upper School course-offerings page minus 14 department intros (re-counted 2026-11-20)
       'covenant-day': '90', // level-qualified entries across the 9 /academics/high-school department tiles
       'carmel-christian': '~78', // HS catalog across 9 depts (S2/S3/S4); levels counted separately

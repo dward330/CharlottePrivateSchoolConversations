@@ -315,7 +315,10 @@ export const charlotteCountryDay: InternationalTravelProgram = {
       'Three sister schools — in Québec City, Southampton and Arequipa — with homestays both ways, plus visiting students on campus and families who host.',
     intro: {
       strong:
-        'Since 1992, Country Day has built sister-school partnerships in numerous countries; its current partners are in Canada, Peru and the United Kingdom.',
+        // Two dates on one school page (plan consistency CCD-27, 2026-11-20): global-experiences
+        // says "Since 1992, we have fostered sister school partnerships" and "KES and Country Day
+        // have had an exchange relationship since 1991." Both are attributed; no flag field here.
+        'The school dates its sister-school program to 1992 and its Southampton exchange to 1991. Its current partners are in Canada, Peru and the United Kingdom.',
       muted:
         'The two-week exchanges include homestays, sightseeing and some classes, and sister-school students visit Charlotte during the school year. The Southampton exchange has run since 1991 and the Québec exchange since 2017.',
     },
@@ -711,7 +714,7 @@ export const charlotteCountryDay: InternationalTravelProgram = {
       "Where the program stands out, and eleven questions the school's website doesn't answer yet — Upper School prices, aid, selection and safety.",
     standsOut: {
       summary:
-        'Country Day publishes an unusually full Middle School travel program: six experiences from 6th grade. Its sister-school exchanges have run since 1991.',
+        'Country Day publishes an unusually full Middle School travel program: six experiences from 6th grade. Its Southampton exchange has run since 1991.',
       points: [
         'A 6th-grade start, with grade, group size and selection published for every Middle School trip',
         'Three sister schools, with homestays both ways',

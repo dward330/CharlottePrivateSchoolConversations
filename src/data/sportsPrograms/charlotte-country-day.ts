@@ -65,7 +65,7 @@ export const charlotteCountryDay: SportsProgram = {
       },
       {
         name: 'Spring',
-        note: '9 varsity',
+        note: '8 varsity',
         sports: [
           { name: 'Lacrosse (Boys)', levels: ['V', 'JV', 'MS'] },
           { name: 'Lacrosse (Girls)', levels: ['V', 'JV', 'MS'] },

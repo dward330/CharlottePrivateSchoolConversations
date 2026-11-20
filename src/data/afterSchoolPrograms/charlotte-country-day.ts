@@ -245,7 +245,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 30% of students receive tuition aid. Summer programs, by contrast, do have their own aid application.',
+        text: 'No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 20% of students (341) receive tuition aid. Summer programs, by contrast, do have their own aid application.',
       },
       {
         kind: 'verify',
@@ -370,7 +370,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
     watchouts: [
       '**No Upper School coverage.** Extended Day stops at grade 8; grades 9–12 get an enrichment slot and nothing else.',
       '**Cost compounds steeply** — JK at 6:00 p.m. five days a week is $900/month, roughly $8,100 a year on top of $24,515 tuition, about a third again over sticker.',
-      '**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 30% of students receive tuition assistance. Summer programs, by contrast, do have their own aid application.',
+      '**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 20% of students (341) receive tuition assistance. Summer programs, by contrast, do have their own aid application.',
       '**Contract rigidity** — one change per semester, $50 for any additional change, and no changes at all in August or December.',
       '**The 2026-27 registration deadline has already passed** (5 June 2026), so a family enrolling now may face drop-in rates or a waitlist.',
       '**No published daily schedule.** Components are listed but never sequenced, and there is no homework-help staffing model.',

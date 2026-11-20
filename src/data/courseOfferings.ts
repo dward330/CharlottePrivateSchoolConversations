@@ -2259,7 +2259,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
 }
 
 /* ── Charlotte Country Day School ───────────────────────────────────────────
-   2025-26 Upper School Academic Policies and Course Guide (119 index lines, 23
+   2025-26 Upper School Academic Policies and Course Guide (117 index lines, 23
    AP titles, 18 IB courses). The only school here that offers BOTH AP and IB —
    the first independent school in North Carolina with the IB Diploma
    Programme, so IB tags are real, not carried over. Middle School publishes
@@ -2617,7 +2617,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '119 catalogued course lines across 9 departments — 23 AP courses AND 18 IB courses plus the full IB Diploma core.',
+        '117 course lines across 9 departments in the guide’s index — 23 AP courses AND 18 IB courses plus the full IB Diploma core. Shown here as 121 entries, including five courses the guide describes but does not index.',
       source: "Country Day Upper School Course Guide '25–26",
       sourceUrl:
         'https://www.charlottecountryday.org/fs/resource-manager/view/bc87ead7-8dee-4694-ab5b-b04ebf5710de',
