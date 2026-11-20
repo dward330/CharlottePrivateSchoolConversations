@@ -269,3 +269,16 @@ Community and the Arts", which is the only arts-adjacent name on the site and is
 described as a performance venue.
 
 **No facilities card should be built.** This one is a genuine null.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+Fetched https://www.tescharlotte.org/academics/lower-school (HTTP 200) with curl. Verbatim:
+"Trinity's Lower School sets the foundation for academic excellence. Grades K-5 learn in a
+workshop setting". The page's popup tiles (Visual Arts, Performing Arts and Music Education)
+are not in the static HTML, so the music wording was not re-read live; the transcription above
+(archived Lower School Enrichments page) gives "K-4 students participate in general music
+classes. Beginning in 5th Grade, students may choose from one of two ensembles: chorus or
+band." So the 5th-grade ensemble choice sits inside the K–5 Lower School; K–4 is the
+general-music span, not the Lower School span.

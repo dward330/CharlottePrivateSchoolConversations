@@ -533,8 +533,8 @@ None found. Cody Peck (Dayton) is Class of 2026 and already counted on the card.
 soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor —
 soccer changed hands after 2024–25 (Laatsch → Letourneau).
 
-Win %: boys basketball **30–1 (.968)** at the 2019–20 peak · volleyball 111–33–2 (.771) over
-five seasons · boys soccer 63–15–1 (.797) over four title-era seasons · boys basketball
+Win %: boys basketball **30–1 (.968)** at the 2019–20 peak · volleyball 111–33–2 (.767, ties counted half; corrected 2026-11-20 from .771) over
+five seasons · boys soccer 63–15–1 (.804, ties counted half; corrected 2026-11-20 from .797) over four title-era seasons · boys basketball
 69–31 (.690) over the last three.
 https://www.maxpreps.com/nc/davidson/davidson-day-patriots/basketball/history/
 
@@ -698,6 +698,34 @@ general web, On3's NIL database, 247Sports player profiles and local coverage.
 - Football's recent records entirely unconfirmed; its documented peak is 2011–2015.
 - The "1 USA Swimming Multiple-Time All-American" is not named by the school.
 - Girls basketball listed as a single "Varsity/JV" line — whether one or two squads is unclear.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+Fetched https://www.davidsonday.org/athletics/patriot-teams (HTTP 200) and
+https://www.davidsonday.org/athletics (HTTP 200) with curl. Both print the stat
+"35 teams in 13 sports" · "90% of 5th through 12th grade students participate in Patriot
+Athletics" · "37 team state championships". The Patriot Teams list, verbatim, is 35 lines:
+
+- Fall Sports: Varsity Cross Country · Middle School Coed Cross Country · Varsity Football ·
+ Middle School Football · Varsity Girls Golf · Varsity Boys Soccer · Middle School Boys
+ Soccer · Varsity Girls Tennis · Varsity Girls Volleyball · JV Girls Volleyball · 5th/6th
+ Girls Volleyball · 7th/8th Girls Volleyball (12)
+- Winter Sports: Varsity/JV Girls Basketball · Varsity Boys Basketball · JV Boys Basketball ·
+ 5th/6th Grade Boys Basketball · 7th/8th Grade Boys Basketball · 5th/6th Grade Girls
+ Basketball · 7th/8th Grade Girls Basketball · Varsity Cheerleading · Middle School
+ Cheerleading · Varsity Coed Swimming · Middle School Coed Swimming · Varsity Coed Indoor
+ Track & Field (12)
+- Spring Sports: Middle School Baseball · Varsity Boys Baseball · Varsity Boys Golf · Middle
+ School Coed Golf · Varsity Girls Lacrosse · Varsity Coed Rowing · Varsity Girls Soccer ·
+ Middle School Girls Soccer · Varsity Boys Tennis · Middle School Coed Tennis · Varsity Coed
+ Track & Field (11)
+
+The school's 35 counts each list line as one team. The Sports Offered card draws 33 level
+chips from the same list: the three split middle-school pairs (5th/6th and 7th/8th
+volleyball, boys' basketball and girls' basketball) are one MS chip each (−3), and the single
+"Varsity/JV Girls Basketball" line is two chips (+1).
 
 
 ---

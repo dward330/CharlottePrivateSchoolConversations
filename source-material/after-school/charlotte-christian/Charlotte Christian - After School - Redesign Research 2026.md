@@ -309,3 +309,8 @@ Fetched (HTTP 200, full text):
 - https://www.charlottechristian.com/academics/lower-school — section heading "Grades JK-4". Its extended-day blurb says "students in JK - grade 8" (the school's own pages differ on this wording).
 - https://www.charlottechristian.com/academics/middle-school — heading "Grades 5-8". "A variety of after school clubs are available to middle school students": mountain biking, wrestling, chess, baseball, cheer, esports.
 - The Middle School $8/hour rate recorded above (MS parent-information PDF) is not on these HTML pages; it was not re-fetched today.
+
+### Re-verification 2026-11-20, re-scan (plan `consistency`)
+
+- https://www.charlottechristian.com/campus-life/extended-day-after-school-clubs (fetched 2026-11-20): no rate, no billing-month count and no annual total on the HTML page. It links the packet below.
+- https://resources.finalsite.net/images/v1749660471/charlotte/ahr13amhtgtsrxgzpuwt/2025-26ExtendedDayPacket.pdf (fetched 2026-11-20; PDF title metadata "2026-27 Extended Day Packet"). BILLING: "Families are billed monthly based upon attendance. Fees are charged based on the number of days attended each week." Rates: 5 days $325/month · 4 days $295 · 3 days $245 · 2 days $175 · 1 day $125 · JK-K Bridge Care (2:20-3:15 p.m.) $125/month · Grades 1-4 Bridge Care (2:40-3:35 p.m.) $125/month · daily drop-in $50/day · late fee $25/quarter hour from 6:01 p.m. · half-day early dismissal $25/day. **No count of billing months is stated.** So the Cost Planner's 9 months ($2,925) and the Compare `aftercare-cost` sub's 10 months (≈$3,250/yr) are both assumptions.

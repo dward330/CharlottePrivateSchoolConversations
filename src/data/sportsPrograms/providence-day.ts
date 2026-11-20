@@ -259,7 +259,7 @@ export const providenceDay: SportsProgram = {
       { sport: 'Other', match: 'other' },
     ],
     realityCheck:
-      'Baseball, lacrosse, golf, tennis, softball and boys and girls basketball send commits overwhelmingly to NCAA Division III. These colleges recur heavily: Denison · Hampden-Sydney · Tufts · Emory · Kenyon · Hamilton · Washington & Lee. That pattern fits PD’s identity as an academically selective school. For many families, a D3 offer from a top academic college is the win.',
+      'Baseball, lacrosse, golf, tennis, softball and boys and girls basketball send most of their commits to NCAA Division III: 19 of 31 in 2024–26. These colleges recur heavily: Denison · Hampden-Sydney · Tufts · Emory · Kenyon · Hamilton · Washington & Lee. That pattern fits PD’s identity as an academically selective school. For many families, a D3 offer from a top academic college is the win.',
     rankedRecruits:
       'Seven PD players made NC Football News’ 53-man consensus list for the class of 2027, which blends 247Sports, Rivals and ESPN. Safety Robert Geathers III leads them. Recent top-rated recruits: David Sanders ’25 (five-star, the No. 1 offensive tackle and No. 4 recruit nationally, to Tennessee) and Jadyn Davis ’24 (NC Mr. Football, to Michigan). PD had one five-star and seven four-stars in the 2025 football class alone.',
     roster: [

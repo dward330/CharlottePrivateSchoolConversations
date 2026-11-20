@@ -68,10 +68,14 @@ export const davidsonDay: InternationalTravelProgram = {
   },
 
   stats: [
+    // DD-R2 (plan `consistency2`, B): the 2026–27 Profile also names Greece (since
+    // 2017) as ongoing; the Global Studies page and the 2027 schedule do not. The
+    // 3 is the current schedule; College Support attributes both, and the last
+    // ask below asks.
     {
       value: '3',
       label: 'countries with AFAR digs',
-      note: 'Spain, Portugal and Belize, per the school',
+      note: 'Spain, Portugal and Belize, on the 2027 schedule',
     },
     {
       value: '20',
@@ -435,7 +439,7 @@ export const davidsonDay: InternationalTravelProgram = {
   /* --------------------------------------------- verdict & ask the school -- */
   verdict: {
     headline:
-      "Where the program stands out, and thirteen questions the school's website doesn't answer yet — trip costs, aid, grades and safety.",
+      "Where the program stands out, and fourteen questions the school's website doesn't answer yet — trip costs, aid, grades and safety.",
     standsOut: {
       summary:
         "Davidson Day's global program is unusual: its travel is archaeology research, not touring. Students dig with professionals in Spain, Portugal and Belize. They present their findings at university conferences. The digs and conferences are part of a two-year Upper School research distinction.",
@@ -500,6 +504,10 @@ export const davidsonDay: InternationalTravelProgram = {
       {
         topic: 'Continuity.',
         question: "The program is led by AFAR's founder. How is it staffed and led beyond one person?",
+      },
+      {
+        topic: 'Greece.',
+        question: 'The 2026–27 profile still lists Greece as an AFAR site, but the 2027 schedule does not. Does AFAR still dig in Greece?',
       },
     ],
     sources: [

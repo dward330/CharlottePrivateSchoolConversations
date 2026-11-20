@@ -21,3 +21,14 @@ Source: https://www.cannonschool.org/academics/upper-school
 ## Governance
 
 - "Our student-elected Honor Council is a model of community governance and integrity."
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+Re-fetched https://www.cannonschool.org/academics/upper-school (HTTP 200). The "Cannon Upper School Honor Societies"
+block still lists, verbatim: "Cum Laude Society | Maggie Coleman Chapter of Rho Kappa National Social Studies Honor
+Society | Mu Alpha Theta National Mathematics Honor Society | National English Honor Society - Golden Quill Chapter |
+Quill and Scroll International Honorary Society for High School Journalists | The National Art Honor Society |
+Tri-M Music Honor Society | International Thespian Society | National Chinese Honor Society | National French Honor
+Society | National Spanish Honor Society". Tri-M is on the school's own page today.

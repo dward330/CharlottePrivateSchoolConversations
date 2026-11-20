@@ -1,5 +1,5 @@
 # Charlotte Country Day School — The Arts
-> Distilled from 9 source document(s) in `source-material/the-arts/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 9 source document(s) in `source-material/the-arts/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Arts Redesign Deep Research, Awards and Recognition, Deep Research, Drama, Facilities, Music Ensembles Web Check 2026, Music, Program Overview, Visual Arts
 
 

@@ -1,5 +1,5 @@
 # Charlotte Christian School — The Arts
-> Distilled from 9 source document(s) in `source-material/the-arts/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 9 source document(s) in `source-material/the-arts/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Arts Redesign Deep Research, Awards and Recognition, Deep Research, Digital Arts, Music, Program Overview, Theatre, Upper School Visual Arts Course Descriptions 2026, Visual Arts
 
 
@@ -50,7 +50,7 @@ Source: https://www.charlottechristian.com/fine-arts
 
 ### Division-by-division ladder
 
-**Lower School (JK–6)**
+**Lower School (JK–4); Grades 5–6 below are Middle School** (corrected 2026-11-20: the school's Lower School is JK–4 and its Middle School 5–8)
 - **[VERIFIED]** Visual art begins "at the earliest stages," with a curriculum focused on "developing creativity, technical proficiency, literacy in a variety of media and expressions." Source: https://www.charlottechristian.com/fine-arts/visual-art
 - **[VERIFIED]** Instrumental music starts in **Grade 5** — Grade 5 Brass, Grade 5 Woodwind, Grade 5 High/Low Strings, Grade 5 Music (choral); continuing into Grade 6 Brass, Grade 6 Woodwinds, Grade 6 Choir, Grade 6 High/Low Strings. Source: https://www.charlottechristian.com/fine-arts/music
 - **[VERIFIED]** Theatre mainstage musicals are open to students in **grades 4–12**. Source: https://www.charlottechristian.com/fine-arts/theatre
@@ -522,7 +522,7 @@ The faith integration here is **structural, not decorative** — and that cuts b
 
 6. **"Digital Arts has nine electives and professional software but no AP. If my child wants a film or design portfolio, what's the path — and does it have to route through AP Studio Art in Visual Art?"** — Probes the branch-to-branch seam and the missing capstone.
 
-7. **"Which students earned Scholastic Art & Writing Gold or Silver Keys in the last two years, and in what categories?"** 
+7. 
 
 …[truncated]
 

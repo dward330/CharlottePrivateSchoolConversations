@@ -95,7 +95,7 @@ export const trinityEpiscopal: ArtsProgram = {
     // cards below. Both added emphasis rather than information.
     divisions: [
       {
-        name: 'Lower School',
+        name: 'Lower School, before the ensemble choice',
         grades: 'K–4',
         items: [
           'General music for every student: "All students take general music, which emphasizes creativity, music appreciation, musical literacy, and performance preparation."',
@@ -104,7 +104,7 @@ export const trinityEpiscopal: ArtsProgram = {
         ],
       },
       {
-        name: 'The ensemble choice',
+        name: 'The ensemble choice (still Lower School)',
         grades: '5',
         items: [
           '"Beginning in 5th Grade, students may choose from one of two ensembles: chorus or band."',

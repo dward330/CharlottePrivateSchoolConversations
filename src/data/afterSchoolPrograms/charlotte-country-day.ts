@@ -84,7 +84,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
     ],
     summer: {
       season: 'JUN–JUL',
-      text: '**Country Day Summer Programs** — ages 4–18, 150+ camps, 8 June to 24 July 2026. Before-camp care 7:30–9:00 a.m. at $105/wk; afternoon care $85/wk. A **separate summer financial-aid application** exists.',
+      text: '**Country Day Summer Programs** — ages 4–18, to 24 July 2026. The school markets 150+ camps from 8 June; its priced listing has 132 sessions from 1 June. Before-camp care 7:30–9:00 a.m. at $105/wk; afternoon care $85/wk. A **separate summer financial-aid application** exists.',
     },
     facts: [
       { label: 'Program year', text: '19 August 2026 – 25 May 2027' },

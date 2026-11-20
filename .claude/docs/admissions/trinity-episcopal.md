@@ -1,5 +1,5 @@
 # Trinity Episcopal School — Admissions
-> Distilled from 2 source document(s) in `source-material/admissions/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-14.
+> Distilled from 2 source document(s) in `source-material/admissions/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Application Process and Testing, CAIS Consortium
 
 

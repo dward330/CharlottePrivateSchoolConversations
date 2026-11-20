@@ -27,7 +27,7 @@ export const charlotteCountryDay: SummerProgram = {
     subhead:
       'The season runs June 1 to July 24, 2026. Two of the eight weeks are shortened — for Juneteenth and for July 3 — and are priced down.',
     intro:
-      '**72 of the 132 published rows are listed below**, sampled across every category, tier and week. The full listing is the school’s own 2026 catalog PDF, linked in the sources. Note that these are session-level rows: a camp running three weeks appears three times in the school’s count, so the 132 covers roughly **85 distinct camp titles**. The school separately markets the program as "over 150 exciting camp options".',
+      '**72 of the 132 published rows are listed below**, sampled across every category, tier and week. The full listing is the school’s own 2026 catalog PDF, linked in the sources. Note that these are session-level rows: a camp running three weeks appears three times in the school’s count, so the 132 covers roughly **75 distinct camp titles**. The school separately markets the program as "over 150 exciting camp options".',
     categoryFilters: [
       { token: 'All', label: 'All' },
       { token: 'fullday', label: 'Full day' },
@@ -63,7 +63,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'Outdoor Adventure Camp',
-        desc: 'The farm campus’s outdoor program, offered in four of the eight weeks.',
+        desc: 'The farm campus’s outdoor program, offered in three weeks here, plus the shortened July 3 week (listed separately).',
         category: 'farm',
         categoryLabel: 'Full Day - Farm',
         grades: ['k2', 'g35', 'g68'],
@@ -116,7 +116,7 @@ export const charlotteCountryDay: SummerProgram = {
       /* ----------------------------------------------------------- full day -- */
       {
         name: 'Camp Buccaneer',
-        desc: 'The school’s traditional full-day camp, offered in four weeks.',
+        desc: 'The school’s traditional full-day camp, offered in three weeks here, plus the shortened July 3 week (listed separately).',
         category: 'fullday',
         categoryLabel: 'Full Day',
         grades: ['jk', 'k2', 'g35'],
@@ -796,7 +796,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'Ready, Set, Tumble: Gymnastics!',
-        desc: 'The most-repeated camp in the catalog — offered in six of the eight weeks.',
+        desc: 'The most-repeated camp in the catalog — offered in seven of the eight weeks.',
         category: 'afternoon',
         categoryLabel: 'Afternoon',
         grades: ['jk', 'k2', 'g35'],

@@ -48,6 +48,31 @@ test('the registry fills course-offerings and matches its triggers', () => {
   assert.ok(!matches(e, 'src/data/metricValues.ts'))
 })
 
+test('the registry fills honor-societies: Clubs triggers, Arts review rows', () => {
+  const e = loadRegistry().find((x) => x.id === 'honor-societies')
+  assert.ok(e && e.review.length && e.commands.length)
+  assert.ok(matches(e, 'src/data/clubsPrograms/cannon.ts'))
+  assert.ok(matches(e, 'source-material/student-clubs/cannon/Cannon - Clubs - Honor Societies Web Check 2026.md'))
+  assert.ok(!matches(e, 'src/data/artsPrograms/cannon.ts'))
+  assert.ok(e.review.some((r) => r.file === 'src/data/artsPrograms/<slug>.ts'))
+  assert.deepEqual(schoolsFor('src/data/clubsPrograms/charlotte-country-day.ts'), ['charlotte-country-day'])
+  assert.deepEqual(schoolsFor('src/data/clubsPrograms/cannon.es.ts'), [])
+})
+
+test('hook: a Clubs edit names that school\'s Arts card', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'notify-dependents-test-'))
+  try {
+    const r = runHook(
+      { session_id: 'h', tool_name: 'Edit', tool_input: { file_path: join(ROOT, 'src/data/clubsPrograms/cannon.ts'), old_string: 'a', new_string: 'b' } },
+      dir,
+    )
+    assert.equal(r.status, 2, r.stderr)
+    assert.match(r.stderr, /src\/data\/artsPrograms\/cannon\.ts/)
+  } finally {
+    rmSync(dir, { recursive: true, force: true })
+  }
+})
+
 test('school detection: nearest CourseOfferings const, and source-material paths', () => {
   const src = readFileSync(COURSES, 'utf8')
   assert.equal(courseSchoolAt(src, src.indexOf(providenceDayText())), 'providence-day')

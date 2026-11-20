@@ -1,5 +1,5 @@
 # Charlotte Christian School — Sports
-> Distilled from 20 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
+> Distilled from 20 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, College Commitments Class of 2027, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Profile, Podcast Episode 33 Saleh Athletic Center, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 

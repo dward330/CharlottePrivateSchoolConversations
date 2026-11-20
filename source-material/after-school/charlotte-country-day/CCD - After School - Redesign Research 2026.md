@@ -322,3 +322,14 @@ Pages that 404'd at research time (recorded so a later pass does not re-chase th
 https://www.charlottecountryday.org/cd-experience/athletics/swim-lessons/curriculum
 https://www.charlottecountryday.org/cd-experience/athletics/swim-lessons/policies
 https://www.charlottecountryday.org/cd-experience/athletics/swim-lessons/swim-lesson-sessions
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+Re-scan after PR #507. Re-fetched https://www.charlottecountryday.org/cd-experience/after-school/program-directors
+(HTTP 200). Verbatim: "Fee Structure | Standard fees for 2026–27 programs: | Full sessions: | $260 | Mini sessions: |
+$225 | Alternative pricing may be considered based on program needs." The page is addressed to prospective
+enrichment program directors, so a given class may be priced differently, but a standard 2026–27 enrichment fee is
+published on the school's own site. The After School verdict prints the $225 mini; the Financial Aid report still
+lists "Enrichment classes · no rate" and asks for the rate (Q3).

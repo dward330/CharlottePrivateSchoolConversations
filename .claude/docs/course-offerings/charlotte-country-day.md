@@ -987,6 +987,18 @@ duplicate AP Music Theory + 1 (Improvisation I and II as two rows) + 5 rows desc
 guide but not in the index (Intermediate & Advanced ESL, Education for Social Justice, IB
 Digital Society, IB Extended Essay & CAS, Ultimate Frisbee).
 
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+Re-scan after PR #507. Re-downloaded
+https://resources.finalsite.net/images/v1755633363/charlottecds/kt72slq7bqecmr1hswmm/2025-26CourseCatalogueAugustupdate.pdf
+(HTTP 200, 44 pp., SHA-256 `b777a4f809f4a527938cc1801f6c6c15575bf2df71b584b7244bee971382af0d`, unchanged). Fine Arts,
+pp. 26–27, verbatim: Honors Chamber Choir "Prerequisites: one year of Upper School Concert Choir (or an equivalent)
+and by audition"; Honors Symphonic Band "Prerequisites: Current enrollment in MS or US Symphonic (formerly Concert)
+Band; by audition"; Honors Orchestra "Prerequisites: Current enrollment in MS or US Honors Orchestra; by audition";
+Honors Concert Choir "Honors students must apply and successfully complete an audition each year"; Supersonic:
+Percussion Ensemble "No musical experience necessary." Index titles: "AP Studio: 2D Art", "AP Studio: Design/
+Photography", "AP Studio: Sculpture", "IB Art I & II (SL, HL)".
+
 
 ---
 

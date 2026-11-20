@@ -121,7 +121,7 @@ export const charlotteCountryDay: ClubsProgram = {
       },
       {
         value: '175+',
-        valueLabel: 'partner employers · 20+ industries',
+        valueLabel: 'partner employers · 20+ industries (the same page also says 100+)',
         name: 'Senior Externship Program',
         detail:
           'Seniors are offered a one-day immersion in professional life through job shadowing and mentorship — many hosts are Country Day parents and alumni — connecting interests to careers since 2017.',

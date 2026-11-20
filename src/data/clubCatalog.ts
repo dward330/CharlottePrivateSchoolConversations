@@ -248,7 +248,7 @@ const PROVIDENCE_DAY: ClubCatalog = {
     },
   ],
   source:
-    "providenceday.org — Upper School Club List '25–26 · 82 organizations − 5 arts = 77 in scope (40 interest + 15 competitive + 9 affinity + 6 recreational + 4 election-based + 3 media)",
+    "providenceday.org — Upper School Club List '25–26 · 82 organizations − 5 arts = 77 in scope (39 interest + 16 competitive + 9 affinity + 6 recreational + 4 election-based + 3 media)",
 }
 
 // ── Charlotte Country Day ── the published count is ~45–50 Upper School clubs.
@@ -423,7 +423,7 @@ const CHARLOTTE_CHRISTIAN: ClubCatalog = {
     },
     {
       label: 'Count & scope',
-      text: '38 named organizations counted here, JK–12 (23 Upper + 7 Middle + 8 Lower). There is no single published directory. Left out as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent and community groups (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.',
+      text: '38 named organizations counted here, JK–12 (23 Upper + 7 Middle + 8 Lower). There is no single published directory. Left out as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent and community groups (PTF, boosters, etc.). Knights Nations Club, named in an undated school article, is not on the Upper School clubs list and is not counted. Could not confirm: a Middle School student council or an NJHS chapter.',
       tag: 'School-reported',
     },
   ],

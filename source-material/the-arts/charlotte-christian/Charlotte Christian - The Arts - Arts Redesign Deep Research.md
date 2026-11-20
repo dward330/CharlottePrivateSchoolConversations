@@ -668,3 +668,9 @@ Ordered by impact on the parent-facing comparison.
 22. **uKnight Worship's chapel role**, and whether a Middle School worship ensemble exists — **[NOT FOUND]**.
 23. **Huge Gallery location on campus** and a dated exhibition calendar — **[NOT FOUND]**.
 24. **Named tech-theatre course sequence** (Stagecraft I/II/III) or student tech-crew organization — **[NOT FOUND]**; technical directing and stage management exist as two of seven electives.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+- https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners (fetched 2026-11-20): "Charlotte Christian School from Mecklenburg County won the Wells Fargo Best Musical Award for their production of Oklahoma." The winners list also gives Best Ensemble/Chorus, Best Choreography Execution and Best Lighting Execution to *Oklahoma!*. No award named "Best Show" appears. The Compare cell `signature-recognition` ("Blumey Best Show") disagrees with this; the Arts cards ("Best Musical") agree.

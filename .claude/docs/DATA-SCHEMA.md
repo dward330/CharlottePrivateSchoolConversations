@@ -1295,7 +1295,7 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 |---|--:|
 | `visualArt` | 11/11 |
 | `drawingPainting` | 11/11 |
-| `ceramics` | 9/11 |
+| `ceramics` | 10/11 |
 | `sculpture` | 7/11 |
 | `printmaking` | 6/11 |
 | `photography` | 10/11 |

@@ -4319,3 +4319,29 @@ M.A., Eötvös Loránd University
 Appointed: 2018
 Table of Contents 77
 ```
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+Re-scan after PR #507. Re-downloaded S1 (Upper School Course of Study 2026–27) from
+https://resources.finalsite.net/images/v1788362356/provday/lefyqhx5ttu0r4ajnpha/2026-2027UpperSchoolCourseofStudy.pdf
+(HTTP 200, 77 pp., SHA-256 `a8e44aa3d3ef16fc3993bea36bacbcfad246e4aeb1d1e6c182a383eb6de730cf`, identical to the
+hash above). Values relied on, verbatim from `pdftotext -layout`:
+
+- **Diploma in Entrepreneurial Studies** (pp. 12–14): "Students are required to take the following courses while in
+  grades 9-12 for a total of 5.5 credits": "Social Entrepreneurship OR Global Entrepreneurship 0.5 credit (Semester)",
+  "AP Business with Personal Finance 1 credit (Full year)", "Additional IDEAS-Related Electives 3.5 credits",
+  "Advanced Entrepreneurship: Incubator to Accelerator 0.5 credit (Senior year)". Co-curricular: "1. External
+  Internship: One (1) external internship experience." and "2. Two (2) department approved extension learning
+  experiences". Capstone: "End of senior year defense of the student's final business plan ... before a panel of
+  faculty, alumni, and community business leaders."
+- **Technical theatre courses are titled:** headings "Theatrical Production and Design" ("No Prerequisite (Semester)
+  Spring Term") and "Technical Theatre" ("Students will design and build scenery, paint backdrops, focus-lighting
+  instruments, create sound effects, and invent special effects." "No Prerequisite (Semester) Fall or Spring Term").
+- **Visual-arts ladder is published:** 3D Design "projects that may include figurative or non-figurative sculpture,
+  assemblage, ceramics, and installation pieces"; AP Art and Design "Prerequisites include Foundations of Art & Design
+  (FAD), and at least two of the following courses: Digital Media, Drawing, Painting, Photography, or 3D Design, along
+  with departmental approval." No kiln is mentioned.
+- **No "French 8" and no "Latin 6"** anywhere in S1 (0 hits each). The World Language grid tops out at "French 7
+  (Adv)", "French AP", "Latin 5 (Adv)" and "AP Latin".

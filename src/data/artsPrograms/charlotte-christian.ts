@@ -50,14 +50,14 @@ const CC_BOX = 'https://www.charlottechristian.com/fine-arts/box-office'
 export const charlotteChristian: ArtsProgram = {
   ladder: {
     headline:
-      'Four fine-arts branches — Digital Arts, Music, Theatre and Visual Art — with a transcript-level arts credential and an honor society for each discipline.',
+      'Four fine-arts branches — Digital Arts, Music, Theatre and Visual Art — with a transcript-level arts credential and honor societies for Music, Theatre and Visual Art.',
     subhead:
       'Roughly 43–44 named courses and ensembles across JK–12, staged in a purpose-built 518-seat Center for Worship and Performing Arts that also holds a black box theater and a scene shop.',
     stats: [
       { value: 'JK–12', label: 'four branches · ~43 named offerings' },
       { value: '2 AP', label: 'Studio Art (2-D & 3-D) · Art History' },
       { value: '518', label: 'seats — plus a black box theater' },
-      { value: '3', label: 'arts honor societies, one per branch' },
+      { value: '3', label: 'arts honor societies — Music, Theatre and Visual Art (none for Digital Arts)' },
     ],
     divisions: [
       {
@@ -247,7 +247,7 @@ export const charlotteChristian: ArtsProgram = {
       },
       {
         label: 'Be honored for it',
-        text: 'Tri-M Music Honor Society, alongside the International Thespian Society for theatre and the National Art Honor Society for visual art — three societies, one per branch.',
+        text: 'Tri-M Music Honor Society for music. Theatre has the International Thespian Society, and visual art has the National Art Honor Society. That makes three societies, one for each.',
       },
     ],
     ladderNote:

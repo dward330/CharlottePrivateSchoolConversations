@@ -1,5 +1,5 @@
 # Carmel Christian School — College Support
-> Distilled from 3 source document(s) in `source-material/college-support/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-25.
+> Distilled from 3 source document(s) in `source-material/college-support/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** High School Profile 2024-25, Redesign Research 2026, UNC System Admissions
 
 

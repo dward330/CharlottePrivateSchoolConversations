@@ -194,7 +194,7 @@ export const covenantDay: CollegeSupportProgram = {
   /* -------------------------------------------------------- 3b counseling -- */
   counseling: {
     headline:
-      'One dedicated college counseling director — in her 23rd year at the school — for 85 seniors.',
+      'One dedicated college counseling director — at the school since 2003 — for 85 seniors.',
     subhead:
       'The office is relational rather than productized: a NACCAP Professional of the Year with thirty years in guidance, meeting juniors and seniors throughout.',
     stats: [
@@ -677,7 +677,7 @@ export const covenantDay: CollegeSupportProgram = {
       },
       {
         label: 'A heavy caseload',
-        text: 'One dedicated college counselor for 85 seniors — cushioned by a 23-year director with NACCAP standing, but a ratio a parent should ask about directly.',
+        text: 'One dedicated college counselor for 85 seniors — cushioned by a director at Covenant Day since 2003, with NACCAP standing, but a ratio a parent should ask about directly.',
       },
       {
         label: 'You can actually see where graduates enrolled',

@@ -78,8 +78,11 @@ export const charlotteLatin: SportsProgram = {
         ],
       },
     ],
+    // LAT-R2 (plan `consistency2`, B): the school's "17 sports" against the 16 its
+    // own directory names. Both are the school's; the tile keeps 17. Recorded in the
+    // Sports Redesign Research record, re-verification 2026-11-20.
     footnote:
-      'The school publishes "17 sports / 66 teams" while its athletics directory lists 24 varsity programs. The directory counts boys’ and girls’ teams separately. Both figures are the school’s own. JV and Middle School levels are confirmed only for the eight sports with their own team pages. Latin does not publish a level-by-level breakdown of all 66 teams. Latin competes in NCISAA 4A and the CISAA, with football in the new "Big South" conference.',
+      'The school publishes "17 sports / 66 teams", but its own athletics directory lists 16 sports, as 24 boys’ and girls’ varsity programs. The school does not say what the 17th sport is. Both figures are the school’s own. JV and Middle School levels are confirmed only for the eight sports with their own team pages. Latin does not publish a level-by-level breakdown of all 66 teams. Latin competes in NCISAA 4A and the CISAA, with football in the new "Big South" conference.',
     sources: [
       { label: 'charlottelatin.org — Athletic Teams', url: TEAMS },
       { label: 'clshawks.com — About Athletics', url: 'https://clshawks.com/sports/2024/10/16/about.aspx' },

@@ -1,5 +1,5 @@
 # Gaston Day School — After School
-> Distilled from 1 source document(s) in `source-material/after-school/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 1 source document(s) in `source-material/after-school/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Program Hours and Rates 2026
 
 

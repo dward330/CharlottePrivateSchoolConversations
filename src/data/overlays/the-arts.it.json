@@ -24,10 +24,11 @@
       ]
     },
     {
-      "t": "Studio Art · Art History · Music Theory",
-      "of": "50d57b65",
+      "t": "AP Art and Design · AP Art History · AP Music Theory",
+      "of": "183586af",
       "at": [
-        "providence-day:ladder.stats[1].label"
+        "providence-day:ladder.stats[1].label",
+        "providence-day:ladder.divisions[2].items[1]"
       ]
     },
     {
@@ -161,13 +162,6 @@
       "of": "ef5c3128",
       "at": [
         "providence-day:ladder.divisions[2].items[0]"
-      ]
-    },
-    {
-      "t": "AP Art and Design · AP Art History · AP Music Theory",
-      "of": "183586af",
-      "at": [
-        "providence-day:ladder.divisions[2].items[1]"
       ]
     },
     {
@@ -341,8 +335,8 @@
       ]
     },
     {
-      "t": "Tutte le rappresentazioni sono gratuite e messe in scena nel teatro del McMahon Fine Arts Center. I titoli dei singoli corsi tecnici (Stagecraft, Tech Theatre I/II) non sono pubblicati — la scuola descrive il percorso solo in forma aggregata.",
-      "of": "49b5528e",
+      "t": "Tutte le rappresentazioni sono gratuite e messe in scena nel teatro del McMahon Fine Arts Center. Il Course of Study 2026–27 elenca Technical Theatre e Theatrical Production and Design nella Upper School, e Middle School Stagecraft.",
+      "of": "429aff0c",
       "at": [
         "providence-day:theatre.venueNote"
       ]
@@ -632,15 +626,15 @@
       ]
     },
     {
-      "t": "non pubblicato — nessun forno per ceramica è menzionato da nessuna parte; da chiedere durante la visita",
-      "of": "aaf915f1",
+      "t": "si insegna all'interno di 3D Design; nessun forno per ceramica è menzionato",
+      "of": "d00ddbd3",
       "at": [
         "providence-day:visual.media[5].detail"
       ]
     },
     {
-      "t": "AP Art History procede in parallelo, senza portfolio richiesto. I gradini intermedi non sono pubblicati — la scuola descrive la scala solo a parole",
-      "of": "635824a2",
+      "t": "AP Art History procede in parallelo, senza portfolio richiesto. Il Course of Study 2026–27 definisce il percorso: Foundations of Art and Design, poi due tra Drawing, Painting, Photography, 3D Design o Digital Media, poi AP Art and Design",
+      "of": "50151635",
       "at": [
         "providence-day:visual.pathNote"
       ]
@@ -705,8 +699,8 @@
       ]
     },
     {
-      "t": "Le domande aperte riguardano la scala di corsi non documentata e la conversione dei finalisti Blumey in vittorie — esattamente ciò a cui risponde una visita al campus.",
-      "of": "90cfe076",
+      "t": "Le domande aperte riguardano un forno per la ceramica e la conversione dei finalisti Blumey in vittorie — esattamente ciò a cui risponde una visita al campus.",
+      "of": "48ad84ca",
       "at": [
         "providence-day:verdict.subhead"
       ]
@@ -719,8 +713,8 @@
       ]
     },
     {
-      "t": "Studio Art, Art History e Music Theory — un'ampiezza insolita per una sola scuola, e una vera risorsa per uno studente d'arte diretto al college.",
-      "of": "0c8e318b",
+      "t": "AP Art and Design, AP Art History e AP Music Theory — un'ampiezza insolita per una sola scuola, e una vera risorsa per uno studente d'arte diretto al college.",
+      "of": "49a33ab1",
       "at": [
         "providence-day:verdict.holdsUp[0].text"
       ]
@@ -782,8 +776,8 @@
       ]
     },
     {
-      "t": "Mostratemi la sequenza dei corsi di arti visive sulla carta — cosa esattamente frequenta uno studente tra l'arte della Middle School e AP Art and Design? E c'è ceramica, con un forno?",
-      "of": "b006920b",
+      "t": "3D Design include la ceramica — c'è un forno nel campus per questo lavoro?",
+      "of": "93108fe1",
       "at": [
         "providence-day:verdict.ask[0]"
       ]
@@ -1509,8 +1503,8 @@
       ]
     },
     {
-      "t": "Quattro rami di belle arti — Digital Arts, Music, Theatre e Visual Art — con una certificazione artistica a livello di pagella e una honor society per ciascuna disciplina.",
-      "of": "3bc45b2f",
+      "t": "Quattro rami di belle arti — Digital Arts, Music, Theatre e Visual Art — con una certificazione artistica a livello di pagella e honor society per Music, Theatre e Visual Art.",
+      "of": "40797f31",
       "at": [
         "charlotte-christian:ladder.headline"
       ]
@@ -1544,8 +1538,8 @@
       ]
     },
     {
-      "t": "honor society artistiche, una per ramo",
-      "of": "c6b69ad8",
+      "t": "honor society artistiche — Music, Theatre e Visual Art (nessuna per Digital Arts)",
+      "of": "6cc3aa91",
       "at": [
         "charlotte-christian:ladder.stats[3].label"
       ]
@@ -1894,8 +1888,8 @@
       ]
     },
     {
-      "t": "Tri-M Music Honor Society, insieme all'International Thespian Society per il teatro e alla National Art Honor Society per l'arte visiva — tre society, una per ramo.",
-      "of": "f8eae724",
+      "t": "Tri-M Music Honor Society per la musica. Il teatro ha l'International Thespian Society, e l'arte visiva ha la National Art Honor Society. Sono quindi tre society, una per ciascuna.",
+      "of": "281fbedb",
       "at": [
         "charlotte-christian:music.ladder[3].text"
       ]
@@ -3480,8 +3474,8 @@
       ]
     },
     {
-      "t": "Chris Rydel dirige la musica strumentale della Upper School. Nessun direttore corale o responsabile del dipartimento artistico è nominato sulle pagine pubbliche. Riserva importante: il dato \"8 ensembles\" della scuola abbraccia Middle e Upper School insieme. Le pagine non affermano mai quali gruppi siano a sola audizione. Quindi la divisione honors/aperto qui sopra è dedotta dalle etichette \"Honors\" e \"Chamber.\" Da confermare durante una visita.",
-      "of": "dc64d74f",
+      "t": "Chris Rydel dirige la musica strumentale della Upper School. Nessun direttore corale o responsabile del dipartimento artistico è nominato sulle pagine pubbliche. La scuola conta otto ensemble. Il quadro elenca 12 gruppi e corsi nelle due divisioni, tra cui la classe di Piano e General Music, quindi il conteggio della scuola usa una definizione più ristretta che non dichiara. La guida ai corsi della Upper School prevede un'audizione per Honors Chamber Choir, Honors Symphonic Band e Honors Orchestra, e indica che il Percussion Ensemble non richiede esperienza musicale.",
+      "of": "136c97dd",
       "at": [
         "charlotte-country-day:music.boardNote"
       ]
@@ -3494,8 +3488,8 @@
       ]
     },
     {
-      "t": "il livello honors — Chamber/Honors Choir, Honors Symphonic Band, Honors Orchestra, Percussion Ensemble. Requisiti di audizione espliciti non sono pubblicati.",
-      "of": "79b25b24",
+      "t": "il livello honors — Honors Chamber Choir, Honors Symphonic Band e Honors Orchestra, ciascuno con accesso su audizione, secondo la guida ai corsi della Upper School.",
+      "of": "ba996bd1",
       "at": [
         "charlotte-country-day:music.ladder[1].text"
       ]
@@ -3578,8 +3572,8 @@
       ]
     },
     {
-      "t": "AP Sculpture e AP Music Theory sono nominati; i corsi d'arte IB incluso IB Theatre Arts procedono in parallelo. I titoli esatti di catalogo \"AP Studio Art\" e \"IB Visual Arts\" non sono pubblicati — le pagine dicono \"AP art courses\" e \"IB art courses\"",
-      "of": "2d8220c1",
+      "t": "La guida ai corsi della Upper School nomina AP Studio: 2D Art, AP Studio: Design/Photography e AP Studio: Sculpture, più AP Music Theory. IB Art I & II (SL e HL) e IB Theatre Arts procedono in parallelo",
+      "of": "52a4a7a4",
       "at": [
         "charlotte-country-day:visual.pathNote"
       ]
@@ -3620,8 +3614,8 @@
       ]
     },
     {
-      "t": "Stacy Utley insegna arte alla Upper School. Nessun docente di arti visive o responsabile del dipartimento artistico è nominato pubblicamente. La scuola cita riconoscimenti a: Scholastic Art & Writing Awards, sia a livello regionale sia nazionale · National Congressional Art Competition · Mint Museum Sculpture Exhibition · Matthews Art Fest · Rube Goldberg Competition. Ma anni specifici, nomi degli studenti e conteggi di Gold/Silver Key non sono pubblicati, quindi qui non è fornito alcun numero. Non è stato possibile trovare un capitolo della National Art Honor Society né i suoi progetti di servizio, e non sono dichiarati. Non è disponibile al pubblico alcun calendario espositivo datato 2025-26.",
-      "of": "af8e2670",
+      "t": "Stacy Utley insegna arte alla Upper School. Nessun docente di arti visive o responsabile del dipartimento artistico è nominato pubblicamente. La scuola cita riconoscimenti a: Scholastic Art & Writing Awards, sia a livello regionale sia nazionale · National Congressional Art Competition · Mint Museum Sculpture Exhibition · Matthews Art Fest · Rube Goldberg Competition. Ma anni specifici, nomi degli studenti e conteggi di Gold/Silver Key non sono pubblicati, quindi qui non è fornito alcun numero. La pagina Fast Facts della scuola elenca un capitolo della National Art Honor Society. I suoi progetti di servizio non sono pubblicati. Non è disponibile al pubblico alcun calendario espositivo datato 2025-26.",
+      "of": "7a10e15e",
       "at": [
         "charlotte-country-day:visual.footnote"
       ]
@@ -3746,8 +3740,8 @@
       ]
     },
     {
-      "t": "Quali degli otto ensemble richiedono un'audizione, e un principiante può ancora entrare in band o orchestra in 9th grade? Le pagine non affermano mai i requisiti di audizione.",
-      "of": "a9d1b046",
+      "t": "Un principiante può ancora entrare in band o orchestra in 9th grade? La guida ai corsi prevede un'audizione solo per i tre gruppi honors.",
+      "of": "a4b982a7",
       "at": [
         "charlotte-country-day:verdict.ask[3]"
       ]
@@ -4223,15 +4217,15 @@
       ]
     },
     {
-      "t": "Honors esterni — non documentati",
-      "of": "71730e4a",
+      "t": "Honors esterni — per lo più non documentati",
+      "of": "1a0458f4",
       "at": [
         "cannon:music.ladder[3].label"
       ]
     },
     {
-      "t": "non è stato possibile confermare in alcuna fonte alcuna selezione All-State o All-District, alcun ensemble honors NCAIS, alcuna valutazione di festival con giuria, alcun capitolo Tri-M, né alcuna comparsa a festival jazz denominati.",
-      "of": "d3c78d9d",
+      "t": "la pagina della Upper School elenca un capitolo della Tri-M Music Honor Society. Ma non è stato possibile confermare in alcuna fonte alcuna selezione All-State o All-District, alcun ensemble honors NCAIS, alcuna valutazione di festival con giuria, né alcuna comparsa a festival jazz denominati.",
+      "of": "0c6a4cb8",
       "at": [
         "cannon:music.ladder[3].text"
       ]
@@ -4349,8 +4343,8 @@
       ]
     },
     {
-      "t": "Krista Johns dirige Visual Art. È arrivata nel 2007, ha sperimentato il TAB nella Lower School nel 2011 ed è diventata direttrice nel 2022. La sua spiegazione del perché l'approccio basato sulla scelta funziona: \"when you're creating work that's based on your own experiences and interests, and you're not comparing yourself to anyone next to you, you're more willing to try new things.\" La scuola non nomina alcun insegnante di CDE o Media Arts. Due riserve da portare a una visita. Media Arts è promossa sul sito web e citata come prerequisito AP, ma NON ha alcuna voce di corso nel catalogo 2025-26. E i prerequisiti dichiarati di AP Studio Art nominano \"Studio Arts I\" e \"Media Arts I,\" ma nessuno dei due esiste come corso a catalogo. Quindi chiedete quali corsi valgano effettivamente per l'ingresso all'AP. Non è stato possibile trovare alcun riconoscimento esterno di arti visive (Scholastic Art & Writing o altro) per alcun anno.",
-      "of": "76ee02c3",
+      "t": "Krista Johns dirige Visual Art. È arrivata nel 2007, ha sperimentato il TAB nella Lower School nel 2011 ed è diventata direttrice nel 2022. La sua spiegazione del perché l'approccio basato sulla scelta funziona: \"when you're creating work that's based on your own experiences and interests, and you're not comparing yourself to anyone next to you, you're more willing to try new things.\" La scuola non nomina alcun insegnante di CDE o Media Arts. Due riserve da portare a una visita. Media Arts è promossa sul sito web e citata come prerequisito AP, ma NON ha alcuna voce di corso nel catalogo 2026–27. E i prerequisiti dichiarati di AP Studio Art nominano \"Studio Arts I\" e \"Media Arts I,\" ma nessuno dei due esiste come corso a catalogo. Quindi chiedete quali corsi valgano effettivamente per l'ingresso all'AP. Non è stato possibile trovare alcun riconoscimento esterno di arti visive (Scholastic Art & Writing o altro) per alcun anno.",
+      "of": "2937b811",
       "at": [
         "cannon:visual.footnote"
       ]
@@ -4482,8 +4476,8 @@
       ]
     },
     {
-      "t": "Gli studenti di musica sostengono l'audizione per gli ensemble honors All-State, All-District o NCAIS, e come se la cavano? Non è stato possibile trovare alcuna selezione, valutazione con giuria o capitolo Tri-M — è una lacuna di pubblicazione o del programma?",
-      "of": "7b7158af",
+      "t": "Gli studenti di musica sostengono l'audizione per gli ensemble honors All-State, All-District o NCAIS, e come se la cavano? Non è stato possibile trovare alcuna selezione o valutazione con giuria — è una lacuna di pubblicazione o del programma?",
+      "of": "a4b8efd9",
       "at": [
         "cannon:verdict.ask[3]"
       ]

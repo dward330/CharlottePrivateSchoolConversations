@@ -29,6 +29,7 @@ export const ARTS_MATRIX: ArtsTable = {
   'providence-day': {
     visualArt: { LS: 'Visual Arts strands', MS: { course: 'Art 6 & Art Foundations' }, US: { course: 'Studio Art' } },
     sculpture: { MS: { course: 'Introduction to 3D Design' }, US: 'Sculpture' },
+    ceramics: { US: { course: '3D Design' } },
     band: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Band'" },
     orchestra: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Orchestra'" },
     choir: { LS: { course: 'Band, Orchestra & Chorus' }, MS: 'Band · chorus · orchestra', US: "'Chorus'" },
