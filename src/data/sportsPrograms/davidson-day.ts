@@ -234,8 +234,8 @@ export const davidsonDay: SportsProgram = {
       'volleyball (Wake Christian) · girls soccer (Gaston Christian) · boys basketball (Greensboro Day, which also eliminated Davidson Day in the semifinal) · both cross country titles (GRACE Christian of Raleigh) · boys soccer (Trinity Academy eliminated the Patriots in the quarterfinals).',
     bars: [
       { program: 'Boys Basketball', record: '30–1', pct: 0.968, tag: "'19–20 PEAK" },
-      { program: 'Volleyball', record: '111–33–2', pct: 0.771, tag: '5 YRS' },
-      { program: 'Boys Soccer', record: '63–15–1', pct: 0.797, tag: '4 YRS' },
+      { program: 'Volleyball', record: '111–33–2', pct: 0.767, tag: '5 YRS' }, // ties count half: (111 + 1) ÷ 146
+      { program: 'Boys Soccer', record: '63–15–1', pct: 0.804, tag: '4 YRS' }, // ties count half: (63 + 0.5) ÷ 79
       { program: 'Boys Basketball', record: '69–31', pct: 0.69, tag: '3 YRS' },
     ],
     seasonDetail: [
@@ -489,7 +489,7 @@ export const davidsonDay: SportsProgram = {
           { value: '63–15–1', label: 'boys record across four title-era seasons' },
         ],
         detail:
-          'The longest verified head-coaching tenure at the school, and the clearest example of what continuity brings. He rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning three straight titles. Girls soccer won two more titles under him. Both programs collapsed in 2025–26, the season after he left. Girls soccer went from 14–2 to 3–11.',
+          'The longest verified head-coaching tenure at the school, and the clearest example of what continuity brings. He rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning two straight titles (2023, 2024). Girls soccer won three more under him (2023–2025). Both programs collapsed in 2025–26, the season after he left. Girls soccer went from 14–2 to 3–11.',
       },
     ],
     tenure: [

@@ -180,7 +180,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '122', // 136 live posts on the Upper School course-offerings page minus 14 department intros (re-counted 2026-11-20)
       'covenant-day': '90', // level-qualified entries across the 9 /academics/high-school department tiles
       'carmel-christian': '96', // HS catalog across 9 depts (S2/S3/S4), one entry per level = 96 rows; 77 distinct titles (plan consistency CAR-3)
-      'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
+      'davidson-day': '86', // 86 catalog courses (recounted 2026-11-20, plan consistency DD-2); 66 on the 2026-27 offerings grid
       'hickory-grove-christian': '112', // real courses in the 2026-2027 Course Selection Catalog; 117 distinct title strings, 5 of them spelling variants
       'gaston-day': '46', // counted from the Academic Profile 2025-2026 curriculum table — the school publishes no separate course catalog
       'providence-day': '172', // 2026-27 Course of Study, one entry per level; F/G/S levels once per language (school's World Language tally of 38); 153 rows rendered
@@ -201,7 +201,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'davidson-day': {
         kind: 'scope',
-        text: '74 courses are described in the 2026–27 catalog, with one more (AP Spanish Literature) listed without a description. The school’s own offerings grid shows 66.',
+        text: '86 courses in the 2026–27 catalog; the catalog’s own offerings grid on p. 70 shows 66.',
       },
       'providence-day': {
         kind: 'scope',

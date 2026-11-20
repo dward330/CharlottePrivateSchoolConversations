@@ -5945,7 +5945,7 @@ const DAVIDSON_DAY: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '~75 catalogued courses across 9 departments — 26 AP courses, post-AP Calculus III, and three Diploma Distinction tracks.',
+        '86 catalogued courses across 9 departments — 26 AP courses, post-AP Calculus III, and three Diploma Distinction tracks. Shown here as 87 entries, adding the AFAR International Research fieldwork program.',
       source: "Davidson Day Upper School Course Catalog '26–27",
       sourceUrl: 'https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog',
       departments: [
