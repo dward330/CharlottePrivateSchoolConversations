@@ -122,6 +122,10 @@ recurring ones are:
   and a **re-capture step after the build** (`design:capture` → write → `design:verify`, per
   `.claude/docs/design-sync.md`), so the project matches what shipped. Name the design files
   each change touches. Never plan an Artifact-canvas fallback.
+- **Consistency rounds close their own loop.** A plan handed over by `/consistency-self-scan`
+  gets `closing_loop: consistency-self-scan` in its front matter, an adversarial-review step at
+  the end of Phase 1, and a rescan step after the merge. `/implement` runs both (its steps 5b
+  and 10); the skill's *The closing loop* section has the detail.
 - **i18n** — any new user-facing string is a key in `src/locales/*.json`, never hardcoded
   JSX. This drives the phase split in step 4 below.
 - **Data provenance** — new external school data gets persisted to

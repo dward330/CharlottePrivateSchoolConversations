@@ -141,6 +141,28 @@ reported as a pass is worse than no check. If the change touches rendering, the 
 should have asked for a browser check; this repo's record is that render-layer defects
 survive every automated check, so do it rather than reasoning that it's fine.
 
+### 5b. Adversarial review — closing-loop plans only
+
+**Applies when** the plan's front matter has `closing_loop: consistency-self-scan` (or, for a
+plan written before that field existed, its name is `consistency<N>`). Skip otherwise.
+
+After step 5 passes, and before the English goes back to the user:
+
+1. Build the branch and dump its pages:
+   `python3 -I .claude/skills/consistency-self-scan/dump_pages.py dist/school <scratchpad>/pages-after`.
+2. Fill [`.claude/skills/consistency-self-scan/review.md`](../consistency-self-scan/review.md)
+   into the scratchpad (plan, worklist, branch, the two dump folders, an output path) and spawn
+   **one fresh `general-purpose` agent** on it. Give it those paths only, never your own
+   summary of what you fixed: its job is to prove the work wrong, and a reviewer handed a
+   conclusion tends to confirm it.
+3. Verify every finding yourself against the dump and the diff. Fix the real ones on the
+   branch and re-run the affected checks. Reject the rest with a one-line reason.
+4. Record the result in the plan's `## Implementation notes` (found / fixed / rejected), and
+   put the same counts in the Phase 1 hand-back.
+
+This runs before the user's review, not after Phase 2, because a defect caught in English is
+one fix and the same defect caught after translation is ten.
+
 ### 6. STOP — hand the English version back for review
 
 **Single-phase plan?** Skip to step 8 (commit and PR) — there is no Phase 2 and no gate.
@@ -273,3 +295,15 @@ means **both** phases shipped; a feature sitting in English is `English shipped`
 
 Then report to the user: what shipped, verification results, the PR link, anything left
 out and why, and any suggestion you deliberately kept out of the diff.
+
+### 10. Rescan — closing-loop plans only
+
+**Applies when** step 5b applied. After the merge and `git pull` on `main`, run the
+`consistency-self-scan` skill in this window. It picks RESCAN mode by itself, because this plan
+is now *Implemented*, and checks every row of the round you just shipped before sweeping for
+anything new. No deploy is needed: it scans the `main` build. Deploying stays the user's call.
+
+The skill ends with a verdict. **Clean**: say the round is clean and stop. **Not clean**: it
+reports what is left, says how many findings this round's own fixes caused, recommends the
+next round and asks the user whether to plan it now or hold off. Either answer ends this
+skill's turn: a new round goes through `/plan` and a fresh `/implement`, never on from here.

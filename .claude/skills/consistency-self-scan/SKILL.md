@@ -35,7 +35,9 @@ shapes it was written for; everything else needs someone to read the pages. Rule
 themselves written from the round-2 re-scan's findings, so a scan also feeds the gate.
 
 The flow is **mode → preflight → build + dump → mechanical pass → parallel sweeps → verify +
-consolidate → report → `/plan` → `/implement`**.
+consolidate → report → `/plan` → `/implement` (with an adversarial review before the English
+review) → merge → rescan**, and round again until a rescan is clean or the user holds off. See
+*The closing loop* below.
 
 Good times to run it: after a batch of school refreshes or ingests, after a consistency plan
 deploys (that is a rescan), or before a big publish.
@@ -75,6 +77,7 @@ lowest unused number. Then pick the mode:
 | No previous round at all | **FIRST**: a full sweep, Parts 2 and 3 only. |
 | The latest round's plan is **Implemented** | **RESCAN**: Part 1 regression check of that round's worklists, then Parts 2 and 3. |
 | The latest round's plan is *Not implemented* or *English shipped* | **Stop and ask.** A scan now re-finds that plan's own open findings. Suggest `/implement <name>` first. |
+| The latest round's `findings.md` says **Held off by the user** | **Report, then ask.** Say which round was held off and when, and its open count. Offer: (a) plan it now (Step 6, after checking what moved since its scanned SHA), or (b) rescan fresh, which re-finds the held-off items in Part 1 alongside anything new. |
 | A `consistency<N>-data/` folder of worklists exists with **no** `consistency<N>.md` plan | **Stop and ask.** A scan already ran and was never planned. Offer: (a) go straight to Step 6 with those worklists (after checking what moved: `git diff --stat <its scanned SHA>..HEAD -- src/data src/content src/locales/en.json`), or (b) rescan from scratch under the same name, replacing that folder. |
 
 **Scope.** With no argument the scan covers every school in `src/data/schools.json`. With a
@@ -226,7 +229,13 @@ gives the worklist path, the approvals and decisions to surface at planning time
 precedents to follow: the `## Implementation notes` of `consistency` and `consistency2` (how
 B items were attributed, how chrome overrides and card-link aliases were handled). The plan is
 **two-phase** whenever a fix touches English prose or chrome, as almost every round does.
-`/plan` then hands off to `/implement` as usual.
+Tell `/plan` to put **`closing_loop: consistency-self-scan`** in the plan's front matter and to
+end its Steps with the two closing-loop steps below (the adversarial review at the end of
+Phase 1, and the rescan after the merge). `/implement` keys on that field. `/plan` then hands
+off to `/implement` as usual.
+
+If the user declines to plan, write **"Held off by the user <date>"** at the top of
+`findings.md`, with the open count, so the next run's Step 0 finds it.
 
 **When the user rules a finding is not a conflict, or is to be left for good,** append it to
 [`settled.md`](settled.md) in the same change, with the next S-ID: what it covers (a pattern,
@@ -236,6 +245,50 @@ accepted conflict from a new one at the same spot. A ruling written only into on
 is lost two rounds later. A one-round D ("no change unless the school answers") does not
 belong there. Ask the planning `/plan` to carry these additions, the Settled candidates and any
 rule it turns down, so they land in the round's PR.
+
+## The closing loop: review, rescan, repeat until clean
+
+A round is not finished when its PR merges. **Every round so far has left residue**: a fix
+landed in one card and missed the card restating it, or a fix brought its own count error. So a
+plan this skill hands to `/plan` carries `closing_loop: consistency-self-scan`, and `/implement`
+runs two more steps.
+
+**A. Adversarial review, at the end of Phase 1** (`/implement` step 5b, before the English goes
+back to the user). One fresh `general-purpose` agent works from [`review.md`](review.md), filled
+into the scratchpad. It gets the plan, the worklist, `git diff main...<branch>` and fresh page
+dumps of the branch build, and **not** the implementer's own summary, because a reviewer handed
+a conclusion tends to confirm it. Its job is to prove the work wrong: an ID that did not land,
+the second card still showing the old value, a fix with its own error, collateral damage, a
+house-rule breach, a UX change that does not match its Claude Design file. The implementer
+verifies every finding against the dump and the diff, fixes the real ones on the branch, and
+reports the count (found, fixed, rejected with the reason) in the Phase 1 hand-back. It runs
+before the user's wording review, not after Phase 2, because a defect caught in English is one
+fix, and caught after translation it is ten.
+
+**B. Rescan, after the merge** (`/implement` step 10). With `main` pulled, run this skill
+again. Step 0 sees the round's plan *Implemented* and picks RESCAN, so Part 1 checks every row
+of the round just shipped, and Parts 2 and 3 sweep for anything new. This is the same scan as
+any other run: same brief, same `settled.md`, same verification. No deploy is needed, because
+the scan reads the `main` build.
+
+**C. The verdict.**
+
+- **Clean** means no Part 1 row NOT RESOLVED or PARTIAL / REGRESSED, and no new A, B or C
+  finding. Say so plainly: "round <N> is clean". The loop ends. Remaining D items are not a
+  reason for another round: list them and ask the user to rule on each (settle it in
+  `settled.md`, or supply what it waits on).
+- **Not clean.** Report as Step 6 does. Also say **how many findings the last round's own fixes
+  caused** (regressed rows, plus new findings inside text that round added): a loop that keeps
+  creating its own findings needs a different approach, not more rounds of the same. Then
+  recommend the next round, `consistency<N+1>`, and ask: **plan it now, or hold off?**
+  - Plan it: back to Step 6's `/plan` handoff. Its plan also carries the closing loop, so the
+    cycle repeats.
+  - Hold off: record it as Step 6 says. Nothing more happens until the user runs this skill
+    again.
+
+The loop never runs unattended past a plan. Each round's plan waits for the user's approvals,
+and each new round waits for their yes, so "repeat until clean" always means "until clean, or
+until the user says to stop for now".
 
 ## Traps, each of which has already happened
 
