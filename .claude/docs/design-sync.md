@@ -58,9 +58,17 @@ What a capture does (`scripts/design_capture.mjs` has the full rules):
   - **Big writes do.** The whole Providence Day page, 80,941 bytes, wrote and verified in
     one call, against the 40 KB that was the largest proven before.
 
-  The capture warns, and exits 1, above 81 KB, the largest write proven so far. The
+  The capture warns, and exits 1, above 83,159 bytes, the largest write proven so far
+  (Providence Day with card links). The
   40 KB figure is now only the trimming threshold. `--format plain` still splits over the
   cap into standalone `<name> (k of N).dc.html` files.
+- **Card links.** A school page captured with its cards closed (Providence Day, the K-8
+  page) gets a click handler on every card header (`--card-links`, on by default there,
+  `--card-links off` to drop it). It opens that area's section file in the Claude Design
+  project, where the area's cards are shown open (user, 2026-11-20). It opens the file,
+  not the card, because a Claude Design file link carries no position inside the file.
+  The area-to-file map is `AREA_FILES` in the script. A new research area needs an entry
+  there, or the capture stops and names the missing area.
 - **Line breaks** go only where a browser treats them as whitespace (after a CSS `}`,
   after a selector-list comma on a very long line, and inside a start tag after its name),
   so no line is too long to read and copy reliably.
