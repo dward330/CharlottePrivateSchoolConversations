@@ -1111,20 +1111,20 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: { kind: 'scope', text: 'The Grades 1–4 band. Cannon prices its youngest years lower: Junior K $21,450 and Kindergarten $22,300.' },
       'charlotte-christian': { kind: 'scope', text: 'The Lower (1–4) band. The Early Ed band for JK and K is $21,300.' },
       'charlotte-country-day': { kind: 'scope', text: 'The Grades 1–4 band. Junior K is $24,515 and Kindergarten $25,725.' },
-      'charlotte-latin': { kind: 'scope', text: 'The Grades 1–5 band, which also prices grade 5 — the first Middle School year at Latin. TK and Kindergarten are $27,600.' },
+      'charlotte-latin': { kind: 'scope', text: 'The Grades 1–5 band, which prices grade 5, the last Lower School year at Latin. TK and Kindergarten are $27,600.' },
       'covenant-day': { kind: 'scope', text: 'The Grades 1–5 band. JK and K are $15,490.' },
       'carmel-christian': { kind: 'scope', text: 'The Grades 1–5 band. Kindergarten is $12,500; the school has no pre-K program.' },
       'davidson-day': { kind: 'scope', text: 'The Lower (K–4) band. The Early Childhood band, from two-year-olds through Junior Kindergarten, is $22,590.' },
       'hickory-grove-christian': { kind: 'scope', text: 'One Elementary band covers TK through grade 5 ($11,900), the school’s own 2026–27 yearly rate.' },
       'gaston-day': { kind: 'scope', text: 'The Kindergarten–4th all-in band (tuition plus fees, as the school’s own schedule totals it). Preschool/Pre-K is $10,890 full day or $8,775 half day.' },
-      'providence-day': { kind: 'scope', text: 'The Grades 1–5 band, which also prices grade 5 — the first Middle School year at Providence Day. Transitional Kindergarten is $25,510 and Kindergarten $28,010.' },
+      'providence-day': { kind: 'scope', text: 'The Grades 1–5 band, which prices grade 5, the last Lower School year at Providence Day. Transitional Kindergarten is $25,510 and Kindergarten $28,010.' },
     },
   },
   {
     topic: 'financial-aid-tuition',
     key: 'tuition-middle',
     label: 'Middle School tuition',
-    note: 'Tuition for grade 8 at each school, at the published band that prices it. Middle School starts in grade 5 at seven of these schools and in grade 6 at Covenant Day, Carmel Christian and Hickory Grove; the line beneath names the band and the school year.',
+    note: 'Tuition for grade 8 at each school, at the published band that prices it. Middle School starts in grade 5 at five of these schools and in grade 6 at the other five. The line beneath names the band and the school year.',
     noLead: true,
     compareOnly: true,
     values: {
@@ -1153,10 +1153,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': '(2026–27 · grades 6–12)',
     },
     quals: {
-      'charlotte-latin': { kind: 'scope', text: 'The Grades 6–8 band. Latin’s Middle School begins in grade 5, which is priced in the Grades 1–5 band at $32,600.' },
+      'charlotte-latin': { kind: 'scope', text: 'The Grades 6–8 band, which prices all three Middle School years (grades 6–8).' },
       'hickory-grove-christian': { kind: 'scope', text: 'The Grades 6–8 (Middle) band ($12,900), the school’s own 2026–27 yearly rate.' },
       'gaston-day': { kind: 'scope', text: 'The 5th–8th all-in band (tuition plus fees, as the school’s own schedule totals it).' },
-      'providence-day': { kind: 'scope', text: 'Providence Day’s top band spans Grades 6–12, so grade 8 is priced at the same rate as the Upper School. Its Middle School begins in grade 5, which is priced in the Grades 1–5 band at $32,960.' },
+      'providence-day': { kind: 'scope', text: 'Providence Day’s top band spans Grades 6–12, so grade 8 is priced at the same rate as the Upper School. Its Middle School runs grades 6–8.' },
     },
   },
   {
@@ -1257,7 +1257,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'financial-aid-tuition',
     key: 'run-ms12',
     label: 'Middle School through grade 12, at today’s rates',
-    note: 'Middle School starts in grade 5 at seven of these schools (Cannon, Charlotte Christian, Country Day, Davidson Day, Gaston Day, Latin, Providence Day) and in grade 6 at Covenant Day, Carmel Christian and Hickory Grove, so a Middle-School-to-graduation run is eight years at the first group and seven at the second — the line beneath each figure says which. Each year at the band that prices that grade today; tuition only, not a projection.',
+    note: 'Middle School starts in grade 5 at Cannon, Charlotte Christian, Country Day, Davidson Day and Gaston Day, so a run from Middle School to graduation is eight years there. It starts in grade 6 at Covenant Day, Carmel Christian, Hickory Grove, Latin and Providence Day, so the run is seven years. The line beneath each figure says which. Each year is priced at the band for that grade today: tuition only, not a projection.',
     noLead: true,
     compareOnly: true,
     values: {
@@ -1265,31 +1265,31 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '$206,520',
       'charlotte-catholic': null,
       'charlotte-country-day': '$267,100',
-      'charlotte-latin': '$284,200',
+      'charlotte-latin': '$251,600',
       'covenant-day': '$152,630',
       'carmel-christian': '$126,300',
       'davidson-day': '$212,920',
       'hickory-grove-christian': '$95,100',
       'gaston-day': '$175,260',
-      'providence-day': '$287,235',
+      'providence-day': '$254,275',
     },
     subs: {
       cannon: '(2026–27 rates · grades 5–12)',
       'charlotte-christian': '(2026–27 rates · grades 5–12)',
       'charlotte-country-day': '(2026–27 rates · grades 5–12)',
-      'charlotte-latin': '(2026–27 rates · grades 5–12)',
+      'charlotte-latin': '(2026–27 rates · grades 6–12)',
       'covenant-day': '(2026–27 rates · grades 6–12)',
       'carmel-christian': '(2026–27 rates · grades 6–12)',
       'davidson-day': '(2026–27 rates · grades 5–12)',
       'hickory-grove-christian': '(2026–27 rates · grades 6–12)',
       'gaston-day': '(2025–26 rates · grades 5–12)',
-      'providence-day': '(2026–27 rates · grades 5–12)',
+      'providence-day': '(2026–27 rates · grades 6–12)',
     },
     quals: {
-      'charlotte-latin': { kind: 'scope', text: 'Eight years: grade 5 at the Grades 1–5 band ($32,600), three at Grades 6–8 and four at Grades 9–12, all at 2026–27 rates.' },
+      'charlotte-latin': { kind: 'scope', text: 'Seven years: three at the Grades 6–8 band and four at Grades 9–12, all at 2026–27 rates.' },
       'hickory-grove-christian': { kind: 'scope', text: 'Seven years: three at Grades 6–8 and four at Grades 9–12, at the school’s own 2026–27 rates.' },
       'gaston-day': { kind: 'scope', text: 'Eight years: four at 5th–8th and four at 9th–12th, using the school’s all-in bands (tuition plus fees) for 2025–26.' },
-      'providence-day': { kind: 'scope', text: 'Eight years: grade 5 at the Grades 1–5 band ($32,960) and seven at the Grades 6–12 band, all at 2026–27 rates.' },
+      'providence-day': { kind: 'scope', text: 'Seven years at the Grades 6–12 band, all at 2026–27 rates.' },
     },
   },
   {
@@ -1978,15 +1978,16 @@ export const VALUE_METRICS: ValueMetric[] = [
     },
     // The year's total under each monthly figure. Cannon's and Latin's are the
     // schools' OWN published figures ($3,784/yr, $4,650/sem × 2) and carry no ≈;
-    // the other three are 10-month estimates of a monthly rate, so they do.
+    // the others are estimates of a monthly rate (10 months, or 9 for Country Day
+    // and Providence Day, matching their After School cards), so they do.
     subs: {
       cannon: '$3,784/yr', // published as an annual figure
       'charlotte-christian': '≈$3,250/yr', // $325 × 10
-      'charlotte-country-day': '≈$9,000/yr', // $900 × 10
+      'charlotte-country-day': '≈$8,100/yr', // $900 × 9, the months the school's own After School card assumes
       'charlotte-latin': '$9,300/yr', // $4,650 × 2 semesters, as published
       'covenant-day': '$6,696/yr', // the school's own "for 10 Months" annual table, 3 sessions × 5 days
       'carmel-christian': '≈$2,205/yr', // $245 × 9 published billing months
-      'providence-day': '≈$7,500/yr', // $750 × 10
+      'providence-day': '≈$6,750/yr', // $750 × 9, the months the school's own After School card assumes
     },
     quals: {
       'gaston-day': {
@@ -2003,7 +2004,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'Junior Kindergarten at the 6:00 p.m. tier, five days a week, billed monthly at $900 — the yearly total assumes 10 months, which the school does not publish. JK dismisses at 1:15 p.m., so this buys roughly 4.75 hours a day; Grades 1–4 at the same 6:00 p.m. tier is $610/mo.',
+        text: 'Junior Kindergarten at the 6:00 p.m. tier, five days a week, billed monthly at $900. The yearly total assumes 9 billing months, which the school does not publish. JK dismisses at 1:15 p.m., so this buys roughly 4.75 hours a day; Grades 1–4 at the same 6:00 p.m. tier is $610/mo.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -2019,7 +2020,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750; the yearly total assumes 10 months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.',
+        text: 'Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750. The yearly total assumes 9 billing months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.',
       },
     },
   },

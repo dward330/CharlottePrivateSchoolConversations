@@ -217,14 +217,14 @@ const COUNTRY_DAY: FinancialAidReport = {
       rangeMax: 700,
       figureNote:
         'Scale $0–700. A bounded estimate per division, not an itemized fee schedule — covers textbooks & supplies (gr. 5–12), activity fees, and athletic fees. Enrollment deposit: 10% of tuition, credited toward tuition due.',
-      componentsTitle: 'Ten confirmed cost components — 6 unpriced',
-      componentsAside: 'All-in estimate not built: 60% unpriced > 33% threshold',
+      componentsTitle: 'Ten confirmed cost components — 5 unpriced',
+      componentsAside: 'All-in estimate not built: 50% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — five bands, priced', status: 'priced' },
         { label: 'Textbooks & supplies · in range only', status: 'range' },
         { label: 'Activity fee · in range only', status: 'range' },
         { label: 'Athletic / sports fee · in range only', status: 'range' },
-        { label: 'Extended Day · no rate', status: 'unpriced' },
+        { label: 'Extended Day · $60–$900/mo, or $19/hr drop-in', status: 'priced' },
         { label: 'Enrichment classes · no rate', status: 'unpriced' },
         { label: 'Bus transportation · no rate', status: 'unpriced' },
         { label: 'Tutoring · no rate', status: 'unpriced' },
@@ -232,7 +232,7 @@ const COUNTRY_DAY: FinancialAidReport = {
         { label: 'MS PE uniforms · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        "All six unpriced items appear on the school's own billing list — real costs, billed monthly, rates visible only on a family's statement. These are the highest-value questions for the business office.",
+        "All five unpriced items appear on the school's own billing list — real costs, billed monthly, rates visible only on a family's statement. These are the highest-value questions for the business office.",
     },
     {
       id: 'fa-engine',
@@ -369,7 +369,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       questions: [
         'Which school year does each published aid figure describe — and is the share 20% or 21%, against which enrollment?',
         'What are this year\'s average and median awards, the range — and does any award cover full tuition?',
-        'What are the dollar rates for Extended Day, enrichment, bus, tutoring, dining hall and MS PE uniforms?',
+        'What are the dollar rates for enrichment, bus, tutoring, dining hall and MS PE uniforms?',
         'Does the ten-month plan carry a fee or interest, and is there a discount for paying in full?',
         'What is the withdrawal obligation mid-year, the late-payment policy, and is refund insurance offered?',
         'Is there a sibling discount or employee remission — and what is the reduced deposit for aid applicants?',
@@ -687,7 +687,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       confidence: 93,
       // The only school of the four whose all-in estimate could be built: 14 of
       // 15 confirmed components carry a published price.
-      componentsTitle: 'Fifteen confirmed components — 14 priced',
+      componentsTitle: 'Fifteen confirmed components — all 15 priced',
       componentsAside: 'All-in estimate built: well inside the 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
@@ -704,7 +704,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         { label: 'Daily drop-in · $50 per day', status: 'priced' },
         { label: 'Half-day early dismissal · $25 per day', status: 'priced' },
         { label: 'Late pickup · $25 per quarter hour', status: 'priced' },
-        { label: 'Middle school extended day · no rate', status: 'unpriced' },
+        { label: 'Middle school extended day · $8 per hour, 3:00–5:00 p.m.', status: 'priced' },
       ],
       componentsNote:
         'The enrollment fee of $1,500 per student is non-refundable but applied to the tuition balance. The $300 installment fee includes the required $250 Tuition Protection Program, which leaves a $50 difference. The school does not publish an athletics participation fee or a fine arts schedule. That is not the same as confirming no such costs exist.',
@@ -872,7 +872,6 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         'Where does the assistance range realistically begin and end for a family in the middle?',
         'Are the 2023–24 contract terms still current, particularly the rule that the Tuition Protection Program is the only route to a refund?',
         'Are there athletics or fine arts participation costs, and what are the amounts?',
-        'Is the middle school extended day rate the same as the published lower school rate?',
       ],
     },
   ],
@@ -1702,17 +1701,17 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       navTitle: 'Beyond Tuition',
       title: 'Beyond Tuition — The Real Cost of Attendance',
       confidence: 60,
-      componentsTitle: 'Fifteen confirmed components for a 2026–27 family — 11 unpriced',
-      componentsAside: 'All-in estimate not built: 73% unpriced > 33% threshold',
+      componentsTitle: 'Fifteen confirmed components for a 2026–27 family — 9 unpriced',
+      componentsAside: 'All-in estimate not built: 60% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
         { label: 'Enrollment deposit · $2,500, non-refundable', status: 'priced' },
         { label: 'Clubhouse registration · $100/student/yr (MS)', status: 'priced' },
         { label: 'Extended Day late pick-up · $1/min after 6 p.m.', status: 'priced' },
-        { label: 'Extended Day program fee · schedule not retrieved', status: 'range' },
+        { label: 'Extended Day program fee · $100–$750/mo', status: 'priced' },
         { label: 'Bus transportation · 2023–24 page, fares not retrieved', status: 'range' },
         { label: 'FLIK Dining participation · no rate', status: 'unpriced' },
-        { label: 'Extended Day enrichment classes · no rate', status: 'unpriced' },
+        { label: 'Extended Day enrichment classes · $200 (TK/K) or $220 (grades 1–5) a class', status: 'priced' },
         { label: '8th grade field trip · no rate', status: 'unpriced' },
         { label: '12th grade field trip · no rate', status: 'unpriced' },
         { label: 'Club travel · no rate', status: 'unpriced' },
@@ -1723,7 +1722,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Tutoring services · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'Of fifteen confirmed cost items, four have a published price and eleven do not. That leaves 73% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
+        'Of fifteen confirmed cost items, six have a published price and nine do not. That leaves 60% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
       boxes: [
         {
           title: 'The deposit, 2026–27',
@@ -1923,7 +1922,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       questionsNote:
         'Each corresponds to a gap in this report and is ordered by how much it is likely to move a family\'s total.',
       questions: [
-        'What does Extended Day cost per day per week, and what are the bus fares for our address, for the current year?',
+        'What are the bus fares for our address for the current year?',
         'What do the 8th and 12th grade field trips cost, and when are those charges billed?',
         'What is the current cost of FLIK Dining participation, and is it charged per meal or per term?',
         'Do the 3-, 10- or 12-installment plans carry a fee or interest, and is there a discount for paying in full?',

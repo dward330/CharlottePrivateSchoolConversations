@@ -589,7 +589,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     subhead:
       'Counselors are assigned in freshman year, and the office commits in writing to proofreading each essay and application before submission — a promise most schools decline to make.',
     stats: [
-      { value: '~1:38', label: 'counselors to seniors (derived — no ratio is published)' },
+      { value: '~38:1', label: 'seniors per counselor (computed — 151 ÷ 4; no ratio is published)' },
       { value: '9', label: 'office staff — 4 counselors, 3 essay specialists, registrar, admin' },
       { value: '9+ yrs', label: 'documented director tenure (Jody Jennings)' },
       { value: 'SCOIR', label: 'platform, alongside the school’s own MyLatin portal' },
@@ -670,7 +670,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'Both ratios are derived (589 Upper Schoolers ÷ 4, and 151 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~1:147 all-grades figure is arguably the more honest load measure and ~1:38 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.',
+        text: 'Both ratios are derived (589 Upper Schoolers ÷ 4, and 151 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~147:1 all-grades figure is arguably the more honest load measure and ~38:1 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.',
       },
       {
         kind: 'gap',

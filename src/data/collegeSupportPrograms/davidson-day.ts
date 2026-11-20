@@ -532,11 +532,11 @@ export const davidsonDay: CollegeSupportProgram = {
 
   counseling: {
     headline:
-      'Two counselors for 184 Upper Schoolers — roughly 1:92, and about 1:25 across the 50 seniors — with the office’s stated start point in 9th grade rather than junior year.',
+      'Two counselors for 184 Upper Schoolers — about 92 Upper School students and 25 seniors (Class of 2027) per counselor — with the office’s stated start point in 9th grade rather than junior year.',
     subhead:
       'The small caseload is the believable part. What is missing is any written promise about what the office actually guarantees. It publishes no promise to review applications before they are sent, no stance on Early Decision or Early Action, and no process for recommendations.',
     stats: [
-      { value: '~1:92', label: 'counselors to Upper School students (derived — no ratio is published)' },
+      { value: '~92:1', label: 'Upper School students per counselor (computed — 184 ÷ 2)' },
       { value: '2', label: 'college counselors, plus a registrar' },
       { value: '9th grade', label: 'when the office says counseling begins' },
       { value: 'Scoir', label: 'platform for applications and rep-visit scheduling' },
@@ -815,7 +815,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'The caseload is genuinely small, and starts in 9th grade',
-        text: 'Two counselors for 184 Upper Schoolers (~1:92, ~1:25 at senior level) makes the “individualized” language credible rather than promotional.',
+        text: 'Two counselors for 184 Upper Schoolers (~92:1, ~25:1 at senior level) makes the “individualized” language credible rather than promotional.',
       },
       {
         label: 'The Profile does the work test scores would',

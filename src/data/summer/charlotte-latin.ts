@@ -25,7 +25,7 @@ export const charlotteLatin: SummerProgram = {
     subhead:
       'Seven weekly sessions run June 8 to July 31, 2026, with no camps in the July 4 week. Camp Victor, the flagship traditional day camp, runs a different theme every one of the seven weeks.',
     intro:
-      '**Latin indexes every camp by age, not by grade** — grade equivalents are not published anywhere on its site, so the bands below are the school’s own age bands. **56 of the 232 offerings are listed here**, sampled across every price tier, session and category. Prices shown are the school’s Regular Price; a $10 early-bird discount applied on most camps in a five-day window in January.',
+      '**Latin indexes every camp by age, not by grade** — grade equivalents are not published anywhere on its site, so the bands below are the school’s own age bands. **66 of the 169 camp titles are listed here, covering 104 of the 232 offerings**, sampled across every price tier, session and category. Prices shown are the school’s Regular Price; a $10 early-bird discount applied on most camps in a five-day window in January.',
     categoryFilters: [
       { token: 'All', label: 'All' },
       { token: 'daycamp', label: 'Camp Victor (day camp)' },

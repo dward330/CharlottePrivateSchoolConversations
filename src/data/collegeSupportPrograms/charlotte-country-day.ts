@@ -623,7 +623,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     subhead:
       'The office changed directors in July 2026, and the 2026–27 profile is the first edition to show the new office. But the office still holds a decade of experience. Two of the five have worked there since at least 2015–16.',
     stats: [
-      { value: '~1:27', label: 'counselors to seniors (derived — 137 ÷ 5; the school publishes no ratio)' },
+      { value: '~27:1', label: 'seniors per counselor (computed — 137 Class of 2027 seniors ÷ 5)' },
       { value: '5', label: 'full-time college counselors, plus a registrar' },
       { value: '150+', label: 'college admissions officers hosted each year' },
       { value: 'Scoir', label: 'platform for students and for rep-visit scheduling' },
@@ -705,7 +705,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'Both ratios are derived (536 ÷ 5 and 137 ÷ 5, from the 2026–27 profile); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 1:54. The counseling page’s intro says “four full-time college counselors”, while that page and the profile both list five. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.',
+        text: 'Both ratios are derived (536 ÷ 5 and 137 ÷ 5, from the 2026–27 profile); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 54:1. The counseling page’s intro says “four full-time college counselors”, while that page and the profile both list five. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.',
       },
       {
         kind: 'gap',
