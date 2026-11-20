@@ -131,15 +131,15 @@ export const providenceDay: ClubsProgram = {
         valueLabel: 'service hours in one school year',
         name: 'Community Engagement & the President’s Volunteer Service Award',
         detail:
-          'Logged service totaling 20,642 hours since 2017, with 48 students earning the national award in 2024 — 24 Gold, 5 Silver, 9 Bronze. Partners include Wayfinders, the Charlotte Mecklenburg Library, Mecklenburg County Teen Court and the Augustine Literacy Project.',
+          'Logged service totaling 20,642 hours since 2017, with 38 students earning the national award in 2024 — 24 Gold, 5 Silver, 9 Bronze. Partners include Wayfinders, the Charlotte Mecklenburg Library, Mecklenburg County Teen Court and the Augustine Literacy Project.',
         source: { label: 'School news — PVSA', url: PVSA_NEWS },
       },
       {
-        value: '250+',
-        valueLabel: 'schools · 50 countries · joined 2016',
+        value: '280+',
+        valueLabel: 'schools · 50 countries · a Global Member for over a decade',
         name: 'Round Square',
         detail:
-          'The only member school in North Carolina. The global network is built on the IDEALS framework: International understanding · Democracy · Environmental stewardship · Adventure · Leadership · Service. It includes service projects abroad ("Big Builds") and exchanges.',
+          'One of only two member schools in North Carolina. The global network is built on the IDEALS framework: International understanding · Democracy · Environmental stewardship · Adventure · Leadership · Service. It includes service projects abroad ("Big Builds") and exchanges.',
         source: { label: 'Global Education', url: GLOBAL_ED },
       },
     ],

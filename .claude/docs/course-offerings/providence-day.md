@@ -1,6 +1,6 @@
 # Providence Day School — Course Offerings
-> Distilled from 2 source document(s) in `source-material/course-offerings/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-11.
-**Documents:** Curriculum Guide Full Descriptions 2025-2026, Curriculum Guide
+> Distilled from 3 source document(s) in `source-material/course-offerings/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+**Documents:** Curriculum Guide Full Descriptions 2025-2026, Curriculum Guide Full Descriptions 2026-2027, Curriculum Guide
 
 
 ---
@@ -765,11 +765,663 @@ Teachers use student-centered learning and stress skills such as listening, note
 
 ---
 
+## Curriculum Guide Full Descriptions 2026-2027
+
+*Source file: `Providence Day - Course Offerings - Curriculum Guide Full Descriptions 2026-2027.md`*
+
+# Providence Day School — Course Offerings — Curriculum Guide Full Descriptions 2026-2027
+
+**Provenance**
+
+- **Compiled by:** Claude Code, during `/plan consistency`, at Derrick's request (2026-11-20)
+- **Date fetched:** 2026-11-20
+- **Why:** the app's Providence Day Course Offerings were built from the 2025-2026 Course of
+ Study (see `Providence Day - Course Offerings - Curriculum Guide Full Descriptions 2025-2026.md`).
+ On 2026-11-20 the school's Upper School and Middle School pages link the **2026-27** editions
+ instead, so the app's catalog is one edition behind. This file holds the school's own 2026-27
+ text, for re-sourcing the app from it.
+- **Method:** both PDFs were downloaded from the links on https://www.providenceday.org/upper-school
+ ("Upper School Course of Study 2026-27") and https://www.providenceday.org/middle-school
+ ("Middle School Course of Study 2026-27"), and their text extracted with `pdfplumber`, page by
+ page. U+200B read as a space, runs of spaces collapsed, no other change. The index below finds
+ each app course's title among the page lines; "check by hand" means the title search found no
+ page, which usually means the course was renamed, merged or dropped.
+ - Upper School PDF SHA-256: `a8e44aa3d3ef16fc3993bea36bacbcfad246e4aeb1d1e6c182a383eb6de730cf` (77 pp., created 2026-04-23)
+ - Middle School PDF SHA-256: `96dd998e5b4ae0f2acfd037d57677cb885ae344c4e2f8af1053e5c5814c7943d` (29 pp.)
+- **Lower School** publishes no course-of-study PDF; its pages were fetched for the 2025-2026
+ record on 2026-11-11 and are not repeated here.
+
+## Source URLs
+
+| Ref | URL | What it covers |
+| --- | --- | --- |
+| S1 | https://resources.finalsite.net/images/v1788362356/provday/lefyqhx5ttu0r4ajnpha/2026-2027UpperSchoolCourseofStudy.pdf | 2026-2027 Upper School Course of Study (linked from the Upper School page as `/fs/resource-manager/view/6a2290f0-e553-40b2-952e-58ed6892c487`) |
+| S2 | https://resources.finalsite.net/images/v1788362944/provday/qzrb4ef3hjjfokpysrzd/2026-2027MiddleSchoolCourseofStudy.pdf | 2026-2027 Middle School Course of Study (linked from the Middle School page as `/fs/resource-manager/view/0bbc43eb-cf95-4c20-ae25-eb4b1d10744b`) |
+| S3 | https://www.providenceday.org/upper-school | Upper School page: department tallies and the 2026-27 link |
+| S4 | https://www.providenceday.org/middle-school | Middle School page: the 2026-27 link |
+
+## Index — every app course (built from 2025-26), located in the 2026-27 editions
+
+| App path | Division | Department | Title | Where in 2026-27 |
+| --- | --- | --- | --- | --- |
+| `divisions[0].departments[0].courses[0]` | Lower School Courses | Core Curriculum | Math | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[0].courses[1]` | Lower School Courses | Core Curriculum | Language Arts | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[0].courses[2]` | Lower School Courses | Core Curriculum | Science | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[0].courses[3]` | Lower School Courses | Core Curriculum | Social Studies | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[1].courses[0]` | Lower School Courses | World Language | French, Spanish & Mandarin Exposure | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[1].courses[1]` | Lower School Courses | World Language | Selected Language of Study | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[2].courses[0]` | Lower School Courses | Special Area Classes | Art | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[2].courses[1]` | Lower School Courses | Special Area Classes | Music | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[2].courses[2]` | Lower School Courses | Special Area Classes | Band, Orchestra & Chorus | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[2].courses[3]` | Lower School Courses | Special Area Classes | Theatre | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[2].courses[4]` | Lower School Courses | Special Area Classes | Physical Education | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[2].courses[5]` | Lower School Courses | Special Area Classes | Science Lab | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[2].courses[6]` | Lower School Courses | Special Area Classes | Tech Tank | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[2].courses[7]` | Lower School Courses | Special Area Classes | IDEAS | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[2].courses[8]` | Lower School Courses | Special Area Classes | Learning Loft | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[0].departments[2].courses[9]` | Lower School Courses | Special Area Classes | Library | Lower School pages (not part of the Course of Study PDFs; see the 2025-2026 record, S3/S4) |
+| `divisions[1].departments[0].courses[0]` | Middle School Courses | English | English 6 | S2 p. 2, 10 |
+| `divisions[1].departments[0].courses[1]` | Middle School Courses | English | English 7 | S2 p. 4 |
+| `divisions[1].departments[0].courses[2]` | Middle School Courses | English | English 8 | S2 p. 7 |
+| `divisions[1].departments[0].courses[3]` | Middle School Courses | English | Creative Writing 6 | S2 p. 2 |
+| `divisions[1].departments[0].courses[4]` | Middle School Courses | English | World Myths and Legends | S2 p. 2, 5, 12, 15 |
+| `divisions[1].departments[0].courses[5]` | Middle School Courses | English | Lights, Camera, Action: Literature through Movies | S2 p. 16 |
+| `divisions[1].departments[1].courses[0]` | Middle School Courses | Mathematics | Mathematics 6 | S2 p. 2, 11 |
+| `divisions[1].departments[1].courses[1]` | Middle School Courses | Mathematics | Math 7 | check by hand |
+| `divisions[1].departments[1].courses[2]` | Middle School Courses | Mathematics | Pre-Algebra 7 – Accelerated | check by hand |
+| `divisions[1].departments[1].courses[3]` | Middle School Courses | Mathematics | Advanced Pre-Algebra | S2 p. 16 |
+| `divisions[1].departments[1].courses[4]` | Middle School Courses | Mathematics | Pre-Algebra 8 | S2 p. 7 |
+| `divisions[1].departments[1].courses[5]` | Middle School Courses | Mathematics | Algebra I-8 Accelerated | S2 p. 16 |
+| `divisions[1].departments[1].courses[6]` | Middle School Courses | Mathematics | Advanced Algebra I | S2 p. 17 |
+| `divisions[1].departments[2].courses[0]` | Middle School Courses | Science | Science 6 | S2 p. 2, 11 |
+| `divisions[1].departments[2].courses[1]` | Middle School Courses | Science | Science 7 | S2 p. 4, 17 |
+| `divisions[1].departments[2].courses[2]` | Middle School Courses | Science | Science 8 | S2 p. 7, 17 |
+| `divisions[1].departments[2].courses[3]` | Middle School Courses | Science | The Amazing Human Body | S2 p. 2, 5, 13, 17 |
+| `divisions[1].departments[3].courses[0]` | Middle School Courses | History | History 6 | S2 p. 2, 11 |
+| `divisions[1].departments[3].courses[1]` | Middle School Courses | History | U.S. History 7 | S2 p. 4 |
+| `divisions[1].departments[3].courses[2]` | Middle School Courses | History | Global Perspectives 8 | S2 p. 7 |
+| `divisions[1].departments[3].courses[3]` | Middle School Courses | History | History in Action: Collaborative Research | check by hand |
+| `divisions[1].departments[3].courses[4]` | Middle School Courses | History | Contemporary Global Issues | S2 p. 5, 8, 18 |
+| `divisions[1].departments[4].courses[0]` | Middle School Courses | IDEAS@PDS | Computer Applications | S2 p. 3, 6, 9, 14, 21 |
+| `divisions[1].departments[4].courses[1]` | Middle School Courses | IDEAS@PDS | Computer Programming | S2 p. 3, 6, 9, 14, 22 |
+| `divisions[1].departments[4].courses[2]` | Middle School Courses | IDEAS@PDS | Robotics | S2 p. 3, 6, 9, 14, 22 |
+| `divisions[1].departments[4].courses[3]` | Middle School Courses | IDEAS@PDS | Web Design | S2 p. 14, 22 |
+| `divisions[1].departments[4].courses[4]` | Middle School Courses | IDEAS@PDS | Introduction to Engineering 6 | S2 p. 14 |
+| `divisions[1].departments[4].courses[5]` | Middle School Courses | IDEAS@PDS | SPARK: Environmental Problem Solving by Design | S2 p. 14, 23 |
+| `divisions[1].departments[4].courses[6]` | Middle School Courses | IDEAS@PDS | Broadcast Media | S2 p. 6, 9, 22 |
+| `divisions[1].departments[4].courses[7]` | Middle School Courses | IDEAS@PDS | Social Entrepreneurship: Incubation & Acceleration | S2 p. 22 |
+| `divisions[1].departments[4].courses[8]` | Middle School Courses | IDEAS@PDS | Engineering the Future | S2 p. 6, 9, 23 |
+| `divisions[1].departments[4].courses[9]` | Middle School Courses | IDEAS@PDS | Introduction to Personal Finance | S2 p. 23 |
+| `divisions[1].departments[5].courses[0]` | Middle School Courses | World Language | Exploring Latin through Mythology | S2 p. 18 |
+| `divisions[1].departments[5].courses[1]` | Middle School Courses | World Language | Latin 1 | S2 p. 7, 10, 19 |
+| `divisions[1].departments[5].courses[2]` | Middle School Courses | World Language | Latin 2 | S2 p. 19 |
+| `divisions[1].departments[5].courses[3]` | Middle School Courses | World Language | Spanish 1–4 | check by hand |
+| `divisions[1].departments[5].courses[4]` | Middle School Courses | World Language | French 1–4 | check by hand |
+| `divisions[1].departments[5].courses[5]` | Middle School Courses | World Language | Mandarin Chinese 1–4 | check by hand |
+| `divisions[1].departments[5].courses[6]` | Middle School Courses | World Language | German 1–3 | check by hand |
+| `divisions[1].departments[6].courses[0]` | Middle School Courses | Fine Arts & PE | Band 6 / Band 7–8 | check by hand |
+| `divisions[1].departments[6].courses[1]` | Middle School Courses | Fine Arts & PE | Chorus 6 / Chorus 7–8 | check by hand |
+| `divisions[1].departments[6].courses[2]` | Middle School Courses | Fine Arts & PE | Orchestra 6 / Orchestra 7–8 | check by hand |
+| `divisions[1].departments[6].courses[3]` | Middle School Courses | Fine Arts & PE | Art 6 & Art Foundations | check by hand |
+| `divisions[1].departments[6].courses[4]` | Middle School Courses | Fine Arts & PE | Introduction to Art and Design | S2 p. 25 |
+| `divisions[1].departments[6].courses[5]` | Middle School Courses | Fine Arts & PE | Introduction to Painting | S2 p. 25 |
+| `divisions[1].departments[6].courses[6]` | Middle School Courses | Fine Arts & PE | Introduction to Printmaking | S2 p. 25 |
+| `divisions[1].departments[6].courses[7]` | Middle School Courses | Fine Arts & PE | Introduction to 3D Design | S2 p. 25 |
+| `divisions[1].departments[6].courses[8]` | Middle School Courses | Fine Arts & PE | Theatre Arts 6 | check by hand |
+| `divisions[1].departments[6].courses[9]` | Middle School Courses | Fine Arts & PE | Acting 1, 2 & 3 | check by hand |
+| `divisions[1].departments[6].courses[10]` | Middle School Courses | Fine Arts & PE | Middle School Stagecraft | S2 p. 5, 8 |
+| `divisions[1].departments[6].courses[11]` | Middle School Courses | Fine Arts & PE | Communication Arts | S2 p. 3, 5, 8, 12, 24 |
+| `divisions[1].departments[6].courses[12]` | Middle School Courses | Fine Arts & PE | Physical Education/Health 6, 7 & 8 | check by hand |
+| `divisions[1].departments[6].courses[13]` | Middle School Courses | Fine Arts & PE | Movement & Yoga | S2 p. 21 |
+| `divisions[2].departments[0].courses[0]` | Upper School Courses | English | English I | S1 p. 23 |
+| `divisions[2].departments[0].courses[1]` | Upper School Courses | English | English II | S1 p. 23 |
+| `divisions[2].departments[0].courses[2]` | Upper School Courses | English | Writing Seminar | S1 p. 24 |
+| `divisions[2].departments[0].courses[3]` | Upper School Courses | English | Creative Writing | S1 p. 24 |
+| `divisions[2].departments[0].courses[4]` | Upper School Courses | English | New Media Storytelling | S1 p. 10, 15, 24 |
+| `divisions[2].departments[0].courses[5]` | Upper School Courses | English | English Studies in Film: Philosophy in Film | S1 p. 25 |
+| `divisions[2].departments[0].courses[6]` | Upper School Courses | English | Detective and Crime Fiction | S1 p. 25 |
+| `divisions[2].departments[0].courses[7]` | Upper School Courses | English | Global Literature Topics | check by hand |
+| `divisions[2].departments[0].courses[8]` | Upper School Courses | English | Graphic Novels | S1 p. 10, 26 |
+| `divisions[2].departments[0].courses[9]` | Upper School Courses | English | Modern Dramatic Literature | S1 p. 10, 26 |
+| `divisions[2].departments[0].courses[10]` | Upper School Courses | English | Shakespeare | S1 p. 10, 26 |
+| `divisions[2].departments[0].courses[11]` | Upper School Courses | English | War Literature | S1 p. 26 |
+| `divisions[2].departments[0].courses[12]` | Upper School Courses | English | Latino American Literature | S1 p. 10, 27 |
+| `divisions[2].departments[0].courses[13]` | Upper School Courses | English | AP African American Studies | S1 p. 9, 27 |
+| `divisions[2].departments[0].courses[14]` | Upper School Courses | English | AP English Language and Composition | S1 p. 27 |
+| `divisions[2].departments[0].courses[15]` | Upper School Courses | English | AP English Literature and Composition | S1 p. 27 |
+| `divisions[2].departments[1].courses[0]` | Upper School Courses | History | Global Civics: Government Structures and Economic Systems | S1 p. 28 |
+| `divisions[2].departments[1].courses[1]` | Upper School Courses | History | World History | S1 p. 9, 28 |
+| `divisions[2].departments[1].courses[2]` | Upper School Courses | History | AP World History: Modern | S1 p. 28 |
+| `divisions[2].departments[1].courses[3]` | Upper School Courses | History | United States History | S1 p. 29 |
+| `divisions[2].departments[1].courses[4]` | Upper School Courses | History | AP United States History | S1 p. 29 |
+| `divisions[2].departments[1].courses[5]` | Upper School Courses | History | AP European History | S1 p. 10, 29 |
+| `divisions[2].departments[1].courses[6]` | Upper School Courses | History | AP U.S. Government and Politics | S1 p. 29 |
+| `divisions[2].departments[1].courses[7]` | Upper School Courses | History | AP Human Geography | S1 p. 10, 30 |
+| `divisions[2].departments[1].courses[8]` | Upper School Courses | History | AP Microeconomics | S1 p. 15, 30 |
+| `divisions[2].departments[1].courses[9]` | Upper School Courses | History | AP Macroeconomics | S1 p. 10, 15, 30 |
+| `divisions[2].departments[1].courses[10]` | Upper School Courses | History | AP Psychology | S1 p. 31 |
+| `divisions[2].departments[1].courses[11]` | Upper School Courses | History | Introduction to Psychology | S1 p. 31 |
+| `divisions[2].departments[1].courses[12]` | Upper School Courses | History | Comparative Government and Politics | S1 p. 9, 31 |
+| `divisions[2].departments[1].courses[13]` | Upper School Courses | History | Herstory: Women in Global History | S1 p. 10, 31 |
+| `divisions[2].departments[1].courses[14]` | Upper School Courses | History | Legal Issues | S1 p. 10, 15, 32 |
+| `divisions[2].departments[1].courses[15]` | Upper School Courses | History | Economics of Development | S1 p. 10, 15, 32 |
+| `divisions[2].departments[1].courses[16]` | Upper School Courses | History | Global Studies: Genocide | S1 p. 9, 32 |
+| `divisions[2].departments[1].courses[17]` | Upper School Courses | History | Global Studies: Europe and Latin America | S1 p. 9 |
+| `divisions[2].departments[1].courses[18]` | Upper School Courses | History | Global Studies: Comparative Religions | S1 p. 9, 33 |
+| `divisions[2].departments[1].courses[19]` | Upper School Courses | History | Global Studies: Africa | S1 p. 9, 33 |
+| `divisions[2].departments[1].courses[20]` | Upper School Courses | History | Global Studies: Asia | S1 p. 9, 34 |
+| `divisions[2].departments[1].courses[21]` | Upper School Courses | History | Global Studies: Middle East and North Africa | S1 p. 9, 34 |
+| `divisions[2].departments[1].courses[22]` | Upper School Courses | History | Global Leadership | S1 p. 34 |
+| `divisions[2].departments[2].courses[0]` | Upper School Courses | Mathematics | Algebra I | S1 p. 35, 36 |
+| `divisions[2].departments[2].courses[1]` | Upper School Courses | Mathematics | Geometry | S1 p. 35 |
+| `divisions[2].departments[2].courses[2]` | Upper School Courses | Mathematics | Geometry (Accelerated) | S1 p. 35 |
+| `divisions[2].departments[2].courses[3]` | Upper School Courses | Mathematics | Geometry (Advanced) | S1 p. 35 |
+| `divisions[2].departments[2].courses[4]` | Upper School Courses | Mathematics | Algebra II | S1 p. 36 |
+| `divisions[2].departments[2].courses[5]` | Upper School Courses | Mathematics | Algebra II/Trigonometry (Accelerated) | S1 p. 36 |
+| `divisions[2].departments[2].courses[6]` | Upper School Courses | Mathematics | Algebra II/Trigonometry (Advanced) | S1 p. 36 |
+| `divisions[2].departments[2].courses[7]` | Upper School Courses | Mathematics | Precalculus | S1 p. 36, 37 |
+| `divisions[2].departments[2].courses[8]` | Upper School Courses | Mathematics | Precalculus (Advanced) | S1 p. 36, 37 |
+| `divisions[2].departments[2].courses[9]` | Upper School Courses | Mathematics | Analysis (Advanced) | S1 p. 37 |
+| `divisions[2].departments[2].courses[10]` | Upper School Courses | Mathematics | Statistics | S1 p. 15, 37 |
+| `divisions[2].departments[2].courses[11]` | Upper School Courses | Mathematics | Calculus (Advanced) | S1 p. 38, 39 |
+| `divisions[2].departments[2].courses[12]` | Upper School Courses | Mathematics | AP Calculus AB | S1 p. 38 |
+| `divisions[2].departments[2].courses[13]` | Upper School Courses | Mathematics | AP Calculus BC | S1 p. 38 |
+| `divisions[2].departments[2].courses[14]` | Upper School Courses | Mathematics | AP Statistics | S1 p. 15, 38 |
+| `divisions[2].departments[2].courses[15]` | Upper School Courses | Mathematics | Calculus III (Advanced) | S1 p. 39 |
+| `divisions[2].departments[2].courses[16]` | Upper School Courses | Mathematics | Linear Algebra (Advanced) | S1 p. 39 |
+| `divisions[2].departments[2].courses[17]` | Upper School Courses | Mathematics | Differential Equations (Advanced) | S1 p. 39 |
+| `divisions[2].departments[3].courses[0]` | Upper School Courses | Science | Physics I | S1 p. 47 |
+| `divisions[2].departments[3].courses[1]` | Upper School Courses | Science | Physics I Accelerated | S1 p. 47 |
+| `divisions[2].departments[3].courses[2]` | Upper School Courses | Science | Chemistry I | S1 p. 47 |
+| `divisions[2].departments[3].courses[3]` | Upper School Courses | Science | Chemistry I Accelerated | S1 p. 47 |
+| `divisions[2].departments[3].courses[4]` | Upper School Courses | Science | Biology I | S1 p. 48 |
+| `divisions[2].departments[3].courses[5]` | Upper School Courses | Science | Biology I Accelerated | S1 p. 48 |
+| `divisions[2].departments[3].courses[6]` | Upper School Courses | Science | Anatomy and Physiology | S1 p. 48 |
+| `divisions[2].departments[3].courses[7]` | Upper School Courses | Science | Applied Sports Anatomy | S1 p. 48 |
+| `divisions[2].departments[3].courses[8]` | Upper School Courses | Science | Astronomy | S1 p. 48 |
+| `divisions[2].departments[3].courses[9]` | Upper School Courses | Science | Bioethics/Biotechnology | S1 p. 10, 49 |
+| `divisions[2].departments[3].courses[10]` | Upper School Courses | Science | Environmental Sustainability | S1 p. 10, 49 |
+| `divisions[2].departments[3].courses[11]` | Upper School Courses | Science | Forensic Science | S1 p. 49 |
+| `divisions[2].departments[3].courses[12]` | Upper School Courses | Science | Microbiology | S1 p. 49 |
+| `divisions[2].departments[3].courses[13]` | Upper School Courses | Science | Neuroscience | S1 p. 50 |
+| `divisions[2].departments[3].courses[14]` | Upper School Courses | Science | STEM Research and Design | S1 p. 22, 50 |
+| `divisions[2].departments[3].courses[15]` | Upper School Courses | Science | AP Biology | S1 p. 50 |
+| `divisions[2].departments[3].courses[16]` | Upper School Courses | Science | AP Chemistry | S1 p. 50 |
+| `divisions[2].departments[3].courses[17]` | Upper School Courses | Science | AP Environmental Science | S1 p. 10, 50 |
+| `divisions[2].departments[3].courses[18]` | Upper School Courses | Science | AP Physics 1 | S1 p. 51 |
+| `divisions[2].departments[3].courses[19]` | Upper School Courses | Science | AP Physics C | S1 p. 51 |
+| `divisions[2].departments[4].courses[0]` | Upper School Courses | Computing & Innovation | Computer-Aided Design with 3D Printing | S1 p. 18 |
+| `divisions[2].departments[4].courses[1]` | Upper School Courses | Computing & Innovation | Computer Programming with Python | S1 p. 18 |
+| `divisions[2].departments[4].courses[2]` | Upper School Courses | Computing & Innovation | Advanced Data Structures in Java | S1 p. 18 |
+| `divisions[2].departments[4].courses[3]` | Upper School Courses | Computing & Innovation | Game Development with Unity and C# | S1 p. 18 |
+| `divisions[2].departments[4].courses[4]` | Upper School Courses | Computing & Innovation | iOS Programming with Swift | S1 p. 18 |
+| `divisions[2].departments[4].courses[5]` | Upper School Courses | Computing & Innovation | Physical Computing | S1 p. 19 |
+| `divisions[2].departments[4].courses[6]` | Upper School Courses | Computing & Innovation | Robotics & Engineering | S1 p. 10, 19 |
+| `divisions[2].departments[4].courses[7]` | Upper School Courses | Computing & Innovation | AP Computer Science A | S1 p. 19 |
+| `divisions[2].departments[4].courses[8]` | Upper School Courses | Computing & Innovation | AP Computer Science Principles | S1 p. 20 |
+| `divisions[2].departments[5].courses[0]` | Upper School Courses | Design & Entrepreneurship | Broadcast Journalism | S1 p. 21 |
+| `divisions[2].departments[5].courses[1]` | Upper School Courses | Design & Entrepreneurship | Introduction to Financial Analytics | S1 p. 21 |
+| `divisions[2].departments[5].courses[2]` | Upper School Courses | Design & Entrepreneurship | Architecture Design | S1 p. 10, 17 |
+| `divisions[2].departments[5].courses[3]` | Upper School Courses | Design & Entrepreneurship | Social Entrepreneurship | S1 p. 10, 21 |
+| `divisions[2].departments[5].courses[4]` | Upper School Courses | Design & Entrepreneurship | STEM Research and Design | S1 p. 22, 50 |
+| `divisions[2].departments[5].courses[5]` | Upper School Courses | Design & Entrepreneurship | Design & Entrepreneurship | S1 p. 2, 21, 22 |
+| `divisions[2].departments[6].courses[0]` | Upper School Courses | World Language | French / German / Spanish I–V | check by hand |
+| `divisions[2].departments[6].courses[1]` | Upper School Courses | World Language | French / German / Spanish 6 | check by hand |
+| `divisions[2].departments[6].courses[2]` | Upper School Courses | World Language | Spanish 7 Advanced: Conversation and Culture | S1 p. 57 |
+| `divisions[2].departments[6].courses[3]` | Upper School Courses | World Language | French 7 Advanced: Francophone Culture through Literature | S1 p. 57 |
+| `divisions[2].departments[6].courses[4]` | Upper School Courses | World Language | French 7 Advanced: Francophone Culture through Movies | S1 p. 57 |
+| `divisions[2].departments[6].courses[5]` | Upper School Courses | World Language | AP French Language | S1 p. 58 |
+| `divisions[2].departments[6].courses[6]` | Upper School Courses | World Language | AP Spanish Language | S1 p. 58 |
+| `divisions[2].departments[6].courses[7]` | Upper School Courses | World Language | Latin 1 | S1 p. 59 |
+| `divisions[2].departments[6].courses[8]` | Upper School Courses | World Language | Latin 2 | S1 p. 59 |
+| `divisions[2].departments[6].courses[9]` | Upper School Courses | World Language | Latin 3 | S1 p. 59 |
+| `divisions[2].departments[6].courses[10]` | Upper School Courses | World Language | Latin 4 | S1 p. 59 |
+| `divisions[2].departments[6].courses[11]` | Upper School Courses | World Language | Latin 5 (Advanced) | S1 p. 60 |
+| `divisions[2].departments[6].courses[12]` | Upper School Courses | World Language | AP Latin | S1 p. 60 |
+| `divisions[2].departments[6].courses[13]` | Upper School Courses | World Language | Mandarin Chinese 1–5 | check by hand |
+| `divisions[2].departments[6].courses[14]` | Upper School Courses | World Language | Mandarin Chinese 6 (Advanced) | S1 p. 62 |
+| `divisions[2].departments[6].courses[15]` | Upper School Courses | World Language | Mandarin Chinese 7 (Advanced) | S1 p. 62 |
+| `divisions[2].departments[6].courses[16]` | Upper School Courses | World Language | AP Chinese Language and Culture | S1 p. 62 |
+| `divisions[2].departments[7].courses[0]` | Upper School Courses | Visual Arts | Foundations of Art and Design | S1 p. 15, 52 |
+| `divisions[2].departments[7].courses[1]` | Upper School Courses | Visual Arts | Drawing | S1 p. 52 |
+| `divisions[2].departments[7].courses[2]` | Upper School Courses | Visual Arts | Painting | S1 p. 52 |
+| `divisions[2].departments[7].courses[3]` | Upper School Courses | Visual Arts | 3D Design | S1 p. 53 |
+| `divisions[2].departments[7].courses[4]` | Upper School Courses | Visual Arts | Photography | S1 p. 53 |
+| `divisions[2].departments[7].courses[5]` | Upper School Courses | Visual Arts | Digital Media | S1 p. 15, 53 |
+| `divisions[2].departments[7].courses[6]` | Upper School Courses | Visual Arts | Studio Art | S1 p. 52 |
+| `divisions[2].departments[7].courses[7]` | Upper School Courses | Visual Arts | Understanding Art: A Global View | S1 p. 10 |
+| `divisions[2].departments[7].courses[8]` | Upper School Courses | Visual Arts | Yearbook | S1 p. 15, 54 |
+| `divisions[2].departments[7].courses[9]` | Upper School Courses | Visual Arts | AP Art History | S1 p. 10, 53 |
+| `divisions[2].departments[7].courses[10]` | Upper School Courses | Visual Arts | AP Art and Design | S1 p. 53 |
+| `divisions[2].departments[8].courses[0]` | Upper School Courses | Performing Arts | Band | S1 p. 41 |
+| `divisions[2].departments[8].courses[1]` | Upper School Courses | Performing Arts | Chorus | S1 p. 41 |
+| `divisions[2].departments[8].courses[2]` | Upper School Courses | Performing Arts | Jazz Ensemble | S1 p. 41 |
+| `divisions[2].departments[8].courses[3]` | Upper School Courses | Performing Arts | Orchestra | S1 p. 41 |
+| `divisions[2].departments[8].courses[4]` | Upper School Courses | Performing Arts | Theatre I: Introduction to Performance | S1 p. 42 |
+| `divisions[2].departments[8].courses[5]` | Upper School Courses | Performing Arts | Theatre II: Advanced Acting | S1 p. 42 |
+| `divisions[2].departments[8].courses[6]` | Upper School Courses | Performing Arts | Theatrical Performing Arts Lab | check by hand |
+| `divisions[2].departments[8].courses[7]` | Upper School Courses | Performing Arts | Theatre Around the World | S1 p. 10, 43 |
+| `divisions[2].departments[8].courses[8]` | Upper School Courses | Performing Arts | Theatrical Production and Design | S1 p. 43 |
+| `divisions[2].departments[8].courses[9]` | Upper School Courses | Performing Arts | RE(ACT): Theatre and Social Change | S1 p. 43 |
+| `divisions[2].departments[8].courses[10]` | Upper School Courses | Performing Arts | Technical Theatre | S1 p. 43 |
+| `divisions[2].departments[8].courses[11]` | Upper School Courses | Performing Arts | Honors Band | S1 p. 43 |
+| `divisions[2].departments[8].courses[12]` | Upper School Courses | Performing Arts | Honors Chorus | S1 p. 43 |
+| `divisions[2].departments[8].courses[13]` | Upper School Courses | Performing Arts | Honors Jazz Ensemble | S1 p. 44 |
+| `divisions[2].departments[8].courses[14]` | Upper School Courses | Performing Arts | Honors Orchestra | S1 p. 44 |
+| `divisions[2].departments[8].courses[15]` | Upper School Courses | Performing Arts | AP Music Theory | S1 p. 44 |
+| `divisions[2].departments[9].courses[0]` | Upper School Courses | PE & Health | Ninth Grade Health | S1 p. 45 |
+| `divisions[2].departments[9].courses[1]` | Upper School Courses | PE & Health | P.E. — Lifetime Wellness | S1 p. 45 |
+| `divisions[2].departments[9].courses[2]` | Upper School Courses | PE & Health | P.E. — Athletic Development | S1 p. 45 |
+| `divisions[2].departments[9].courses[3]` | Upper School Courses | PE & Health | P.E. — Dancercise | S1 p. 46 |
+| `divisions[2].departments[9].courses[4]` | Upper School Courses | PE & Health | P.E. — Dancercise II | S1 p. 46 |
+| `divisions[2].departments[9].courses[5]` | Upper School Courses | PE & Health | P.E. — Yoga and Mindfulness | S1 p. 46 |
+| `divisions[2].departments[9].courses[6]` | Upper School Courses | PE & Health | P.E. — International Games | S1 p. 46 |
+| `divisions[2].departments[10].courses[0]` | Upper School Courses | Teaching | The Art and Science of Teaching | S1 p. 2, 63 |
+
+## Middle School — 2026-2027 Course of Study, full text (S2)
+
+===== PAGE 1 =====
+
+```text
+
+```
+
+===== PAGE 2 =====
+
+```text
+Course of Study
+Grade 6
+Required Courses
+Course Term Prerequisite
+English 6 Year
+Mathematics 6 Year
+History 6 Year
+Science 6 Year
+Physical Education/Health 6 Year
+Electives
+English
+Course Term Prerequisite
+Creative Writing 6 Semester
+World Myths and Legends Semester
+6,7
+Science
+Course Term Prerequisite
+The Amazing Human Body Semester
+6, 7
+Fine Arts
+Course Term Prerequisite
+```
+
+===== PAGE 3 =====
+
+```text
+Chorus 6 Year or
+Semester
+Band 6 Year
+Orchestra 6 Year
+Art 6 Semester May be taken both semesters
+Theatre 6 Semester
+Communication Arts 6,7,8 Semester
+IDEAS@PDS - Innovation, Design, Entrepreneurship, Analytics, Sustainability
+Course Term Prerequisite
+Computer Programming Semester
+Robotics Semester
+Web Design Semester Computer Applications
+Computer Applications Semester
+Introduction to Engineering 2nd
+Semester
+SPARK: 2nd
+Environmental Problem Semester
+Solving by Design
+6, 7, 8
+World Language
+See Descriptions in the “Course Offerings” Section
+(World Language level 2 or above requires teacher signature)
+Course Term Prerequisite
+Mandarin Chinese 1 Year
+Mandarin Chinese 2 Year Requires Prerequisite Approval
+French 1 Year
+French 2 Year Requires Prerequisite Approval
+Spanish 1 Year
+```
+
+===== PAGE 4 =====
+
+```text
+Spanish 2 Year Requires Prerequisite Approval
+German 1 Year
+Exploring Latin through Semester
+Mythology
+***New students to Providence Day School with previous year-long language instruction will be assessed for
+appropriate placement by the World Language Department Chair.
+Study Hall
+Course Term
+Study Hall 1st Semester and/or 2nd Semester
+Grade 7
+Required Courses
+Course Term Prerequisite
+English 7 Year
+Math 7 Year
+Pre-Algebra 7 - Accelerated Year Teacher/ Department Recommendation
+Required
+Advanced Pre-Algebra Year Teacher/ Department Recommendation
+Required
+Science 7 Year
+U.S. History 7 Year
+Physical Education/Health 7 Year
+Electives
+English
+Course Term Prerequisite
+Lights, Camera, Action: Semester
+Literature through Movies
+7,8
+```
+
+===== PAGE 5 =====
+
+```text
+World Myths and Legends Semester
+6,7
+Science
+Course Term Prerequisite
+The Amazing Human Body Semester
+6, 7
+History
+Course Term Prerequisite
+“How does my brain work?”: Spring
+A Middle School Introduction
+to Psychology
+Contemporary Global Issues Fall
+7,8
+Fine Arts
+Course Term Prerequisite
+Band 7, 8 Year Prior Band Experience or Director Approval
+Chorus 7, 8 Year or
+Semester
+Orchestra 7, 8 Year Prior Strings Experience or Director Approval
+Acting 1: Intro to Acting & Semester
+Improv 7, 8 (Fall)
+Acting 2: Training for Stage & Semester
+Screen 7, 8 (Spring)
+One Act Production Studio 7,8 Semester MS Theatre Course, Tech Theatre Course or
+(Fall) previous participation in a PD Production
+Communication Arts 6, 7, 8 Semester
+Middle School Stagecraft 7, 8 Semester
+```
+
+===== PAGE 6 =====
+
+```text
+Art Foundations Semester
+Introduction to Art and Design Semester Art Foundations
+Introduction to 3D Design Semester Art Foundations
+Introduction to Painting Semester Art Foundations
+Introduction to Printmaking Semester Art Foundations
+IDEAS@PDS- (Innovation, Design, Entrepreneurship, Analytics, and Sustainability)
+Course Term Prerequisite
+Computer Applications Semester
+Web Design Semester Computer Applications
+Computer Programming Semester
+Robotics Semester
+Broadcast Media Semester
+Social Entrepreneurship: Semester
+Incubation & Acceleration
+7,8
+Engineering the Future 7, 8 1st
+Semester
+SPARK: 2nd
+Environmental Problem Semester
+Solving by Design
+6, 7, 8
+World Language
+See Descriptions in the “Course Offerings” Section
+(World Language level 2 or above requires teacher signature)
+Course Term Prerequisite
+French 1 Year
+French 2, 3, 4 Year Requires Prerequisite Approval
+```
+
+===== PAGE 7 =====
+
+```text
+German 1 Year
+German 2 Year Requires Prerequisite Approval
+Exploring Latin through Semester
+Mythology
+Latin 1 Year
+Mandarin Chinese 1 Year
+Mandarin Chinese 2, 3, 4 Year Requires Prerequisite Approval
+Spanish 1 Year
+Spanish 2, 3, 4 Year Requires Prerequisite Approval
+Study Hall
+Course Term
+Study Hall 1st Semester and/or 2nd Semester
+Grade 8
+Required Courses
+Course Term Prerequisite
+English 8 Year
+Pre-Algebra 8 Year
+Algebra I-8 Accelerated Year Pre-Algebra 7 - Accelerated
+Advanced Algebra I Year Advanced Pre-Algebra
+Science 8 Year
+Global Perspectives 8 Year
+Physical Education/Health 8 Semester
+```
+
+===== PAGE 8 =====
+
+```text
+Electives
+English
+Course Term Prerequisite
+Lights, Camera, Action: Semester
+Literature through Movies
+7,8
+History
+Course Term Prerequisite
+“How does my brain work?”: Spring
+A Middle School Introduction
+to Psychology
+Contemporary Global Issues Fall
+7,8
+Fine Arts
+Band 7, 8 Year Prior Band Experience
+Chorus 7, 8 Year or
+Semester
+Orchestra 7, 8 Year Prior Strings Experience
+Acting 1: Intro to Acting & Semester
+Improv 7, 8 (Fall)
+Acting 2: Training for Stage & Semester
+Screen 7, 8 (Spring)
+Acting 3: One Act Production Semester MS Theatre Course, Tech Theatre Course or
+Studio 7,8 (Fall) previous participation in a PD Production
+Communication Arts 6, 7, 8 Semester
+Middle School Stagecraft 7, 8 Semester None
+Introduction to Painting Semester Art Foundations
+```
+
+===== PAGE 9 =====
+
+```text
+Introduction to Printmaking Semester Art Foundations
+Introduction to Art and Design Semester Art Foundations
+Introduction to 3D Design Semester Art Foundations
+IDEAS@PDS- Innovation, Design, Entrepreneurship, Analytics, Sustainability
+Course Term Prerequisite
+Computer Applications Semester
+Web Design Semester Computer Applications
+Computer Programming Semester
+Robotics Semester
+Broadcast Media Semester
+Social Entrepreneurship: Semester
+Incubation & Acceleration
+Introduction to Personal Semester
+Finance
+Engineering the Future 7, 8 1st
+Semester
+SPARK: 2nd
+Environmental Problem Semester
+Solving by Design
+6, 7, 8
+Physical Education
+Course Term Prerequisite
+Movement & Yoga Semester Does not replace the 8th grade PE
+requirement.
+World Language
+See Descriptions in the “Course Offerings” Section
+(World Language level 2 or above requires teacher signature)
+Course Term Prerequisite
+```
+
+===== PAGE 10 =====
+
+```text
+French 1 Year
+French 2, 3, 4 Year Requires Prerequisite Approval
+German 1 Year
+German 2, 3 Year Requires Prerequisite Approval
+Exploring Latin through Semester
+Mythology
+Latin 1 (Grades 7-12 only) Year
+Latin 2 (Grades 8-12 only) Year Requires successful completion of Latin I
+Mandarin Chinese 1 Year
+Mandarin Chinese 2, 3, 4 Year Requires Prerequisite Approval
+Spanish 1 Year
+Spanish 2, 3, 4 Year Requires Prerequisite Approval
+Study Hall
+Course Term
+Study Hall 1st Semester and/or 2nd Semester
+Course Offerings
+Grade 6
+The sixth grade curriculum consists of daily instruction in the areas of English, Mathematics, History, Science, and
+Physical Education/Health.
+English 6 - Year
+Sixth grade English lays a foundation of skills for the cultivation of effective communicators. The responsive,
+flexible curriculum attends to the needs of students as they study novels, poetry, short stories, and nonfiction
+selections. Students practice active listening, meaningful reflection, and self-assessment. They learn vocabulary in
+context, utilize grammar and mechanics as tools of effective and efficient writing, and interact with literature through
+developing habits of observation and inference. Sixth graders also gain an understanding of the function and
+```
+
+===== PAGE 11 =====
+
+```text
+makeup of a paragraph and begin to recognize transitions and purpose for multi-paragraph pieces. Audience and
+purpose shape and motivate the writing process.
+Mathematics 6 - Year
+The sixth grade math program includes the seven elements that serve as the foundation for the program: number
+skills, measurement, geometry, patterns and functions, statistics and probability, logic and algebra, and their
+applications in typical, real-world activities of sixth grade students. Special emphasis is placed on problem solving,
+estimation, mental arithmetic, and computational skills.
+History 6 - Year
+The sixth grade history course focuses on the history of selected cultures of the ancient and medieval world.
+Teachers use student-centered learning and stress skills such as listening, note taking, writing, reading,
+comprehension, research, organization, map reading and cooperative learning. Students learn to appreciate,
+understand, and compare early civilizations and world religions.
+Science 6 - Year
+Sixth grade science is the first part of an integrated, inquiry-based approach to middle school science. An
+integrated approach to teaching science is one that includes topics from the major domains of science each year of
+middle school. Inquiry-based methods maximize hands-on experiments by students and questioning strategies by
+teachers to elicit deep learning. Major units of the sixth grade science curriculum are properties of matter (basic
+chemistry) and organisms (basic biology). Lessons and activities within each unit meet National Science Education
+Standards by following curricula written by the National Science Resources Center of the Smithsonian.
+Physical Education/Health 6 - Year
+This sixth grade course is designed to educate our students and equip them with the necessary life skills they will
+need as they grow and mature. Students will spend time exploring the benefits of physical activity through weekly
+fitness-based exercise as well as learning basic concepts and skills through a multitude of sports. The
+FITNESSGRAM Physical Fitness Test will be administered each semester. At all times the values of
+sportsmanship, fair play, and hard work will be taught and modeled. Additionally, they will spend seven weeks in
+the health classroom discussing healthy communication, injury prevention/living life to the fullest,
+alcohol/tobacco/drugs, the influence of culture, media, and technology on health, health promotion and disease
+prevention, nutrition, and human development and sexuality.
+Grade 6 (Electives)
+Band 6 (Grade 6) – Year
+Band 6 is for students with approximately one year of music instruction or experience playing a band instrument.
+Students work in an ensemble setting to explore, rehearse, and perform repertoire written for wind bands. The
+class focuses on the development of fundamental musical skills in the areas of rhythmic interpretation, technical
+development, and the reading of musical notation. Several performances are planned throughout the year. Concert
+attire is required. Students who wish to enroll without prior band experience should contact the band director.
+```
+
+===== PAGE 12 =====
+
+```text
+Chorus 6 (Grade 6) – Year or Semester
+Students in Chorus 6 study and perform choral literature of various genres. Singers are instructed in proper vocal
+technique while learning elements of musical structure and basic music theory. Several performances are planned
+throughout the year. Each semester offers new performance opportunities and repertoire. Concert attire is required.
+Orchestra 6 (Grade 6) – Year
+Orchestra 6 is for students with at least one year of music instruction or experience playing an orchestral stringed
+instrument. The curriculum reinforces and introduces a variety of technical skills for the performance of string
+orchestra repertoire. Several performances are planned throughout the year. Concert attire is required. Prior strings
+experience is required. Students who wish to enroll without prior strings experience should contact the orchestra
+director.
+Communication Arts (Grades 6 - 8) Semester (both)
+Excellent communication is the key to helping students impress, stand out, and inspire action as they move on in
+higher education and eventually into the workforce. This course focuses on overcoming communication
+apprehension and providing students with opportunities to practice and reinforce the skills needed to be effective,
+confident communicators in a variety of situations, including public speaking, in a comfortable, encouraging
+atmosphere.
+Theatre 6 (Grade 6) – Semester (offered both Semesters)
+This course introduces students to the tools and skills needed for successful theatrical performances, including:
+concentration, observation, imagination, self-confidence, vocal production and expression, physical movement, and
+collaboration. The basic elements of acting techniques are studied and demonstrated through the performance of
+scenes and various other dramatic presentations. Students in this course read plays, act in a variety of types of
+theatrical performances, practice playwriting, and engage in games and exercises that teach good performance
+habits as well as build confidence and encourage positive collaboration.
+Special requirement: Students are required to attend one live theatrical performance produced at PDS during the
+semester they are in the class.
+Art 6 – (Grade 6) Semester, may be taken for either a semester or full year
+Art 6 explores observational drawing and compositional techniques in drawing, painting, clay, and collage. Students
+are introduced to selected art history topics and art criticism. With emphasis on creativity and craftsmanship, each
+assignment in Art 6 is simultaneously challenging and fun.
+Creative Writing (Grade 6) – Semester
+In this class, students have the opportunity to work together as writers. They will read works of their own choosing
+and respond to them creatively. They will write a personal narrative, a short story, and a variety of poems. Using
+the writing process, these young writers will learn to develop their ideas and to accept useful responses from each
+other as they polish their pieces. The class will become a community of writers who provide an encouraging
+audience for one another.
+World Myths and Legends (Grade 6 and 7) – Semester
+In this semester elective, come read, hear, watch, create, write, act, and illustrate a world of stories. Our journey
+will take us through myths and legends from six different continents, and we’ll meet characters like Loki, Mulan,
+```
+
+===== PAGE 13 =====
+
+```text
+Beowulf, Rama, Anansi the Spider, Anubis, Coyote, King Arthur, and Bigfoot. We’ll go on quests with heroes and
+meet supernatural creatures, and we’ll discuss all the gods, goddesses, heroes, tricksters, mythical creatures, and
+everyday people who get caught up in legendary tales. This course is a semester elective for sixth and seventh
+graders.
+The Amazing Human Body (Grades 6 and 7) – Semester
+This course will cover the main human body systems at a general level appropriate for 6th and 7th grade students.
+Class time will be spent learning about the makeup and function of the heart, lungs, guts, brain, bones, muscles,
+nerves, and more. There will be many opportunities for hands-on learning with lab specimens, models, and
+microscopes, and general first aid, CPR, and guest speakers will add to the fun of this exciting elective.
+Exploratory Latin through Mythology (Grades 6, 7, 8)
+Can’t get enough of Percy Jackson and the Olympians? Step into a world of Greek and Roman gods, monsters,
+and heroes! Exploring Latin through Mythology invites students to dive into the thrilling stories of ancient Rome
+while uncovering the secrets of the Latin language along the way. In this project- and game-based course, students
+won’t just read myths-they’ll play, create, and compete as they explore epic tales of Jupiter, Aeneas, the Chimera
+and more. Through interactive games, creative projects, storytelling challenges, and collaborative quests, students
+will decode Latin words and phrases hidden inside the myths and discover how Latin still shapes the language we
+use today.
+No prior Latin experience is needed—just curiosity
+
+…[truncated]
+
+
+---
+
 ## Curriculum Guide
 
 *Source file: `Providence Day - Course Offerings - Curriculum Guide.md`*
 
 # Providence Day School — Course Offerings
+
+> **Superseded for the app (2026-11-20).** The Course Offerings cards now follow the 2026–27
+> Course of Study, transcribed in `Providence Day - Course Offerings - Curriculum Guide Full
+> Descriptions 2026-2027.md`. This record is kept as the provenance of the 2025–26 build.
 
 **Provenance**
 
@@ -1094,6 +1746,36 @@ of an "11-year journey toward language proficiency."
  marked "Offered when supported by course enrollment," and the two French 7 Advanced courses run
  in alternating years.
 
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20.
+
+- https://www.providenceday.org/upper-school — the Upper School page now links
+ "Upper School Course of Study 2026-27" (`/fs/resource-manager/view/6a2290f0-e553-40b2-952e-58ed6892c487`,
+ which redirects to
+ https://resources.finalsite.net/images/v1788362356/provday/lefyqhx5ttu0r4ajnpha/2026-2027UpperSchoolCourseofStudy.pdf;
+ PDF title "2026-2027 Upper School Course of Study - Google Docs", 77 pages, created 2026-04-23).
+ **The 2025-26 edition this record was built from is superseded.**
+- Department tallies on the Upper School page, verbatim: Arts "22 courses, including 3 APs";
+ Science "19 courses, including 5 APs and 3 STEM classes"; English "17 courses, including 3 APs";
+ History "27 courses, including 8 APs and 12 Global Studies"; Math "18 courses, including 4 APs";
+ Physical Education "8 courses, including life fitness, dancercise, and international games";
+ Computer Science "9 courses, included 2 APs"; World Language "38 courses in French, German,
+ Latin, Spanish, and Mandarin Chinese, including 5 APs". The AP figures sum to 30.
+- AP course headings in the 2026-27 Course of Study (text extracted with `pdftotext -layout`):
+ AP African American Studies, AP Art History, AP Art and Design, AP Biology, AP Business with
+ Personal Finance, AP Calculus AB, AP Calculus BC, AP Chemistry, AP Chinese Language and
+ Culture, AP Computer Science A, AP Computer Science Principles, AP English Language and
+ Composition, AP English Literature and Composition, AP Environmental Science, AP European
+ History, AP French Language, AP German, AP Human Geography, AP Latin, AP Macroeconomics,
+ AP Microeconomics, AP Music Theory, AP Physics 1, AP Physics C, AP Psychology, AP Spanish
+ Language, AP Statistics, AP U.S. Government and Politics, AP United States History, AP World
+ History: Modern — **30 AP courses** (AP German now has its own entry). The app's "28 AP" and
+ "149 courses" come from the 2025-26 edition. A full re-count of the 2026-27 edition was not
+ done in this pass.
+
 
 ---
 
@@ -1103,6 +1785,8 @@ of an "11-year journey toward language proficiency."
 - https://resources.finalsite.net/images/v1690493877/provday/xvn9g3vbgghqjeyy0jxq/2023-2024UpperSchoolCourseofStudy.pdf
 - https://resources.finalsite.net/images/v1759322022/provday/z3tij4sfwwhthez2vijd/2025-2026MiddleSchoolCourseofStudy.pdf
 - https://resources.finalsite.net/images/v1759758182/provday/wekh9bxtsqah5givkjk2/2025-2026UpperSchoolCourseofStudy.pdf
+- https://resources.finalsite.net/images/v1788362356/provday/lefyqhx5ttu0r4ajnpha/2026-2027UpperSchoolCourseofStudy.pdf
+- https://resources.finalsite.net/images/v1788362944/provday/qzrb4ef3hjjfokpysrzd/2026-2027MiddleSchoolCourseofStudy.pdf
 - https://www.providenceday.org/fs/elements/34691?is_popup=true&post_id=<4490
 - https://www.providenceday.org/fs/resource-manager/view/bc5f6760-48c2-4973-ad2c-4c464f495902
 - https://www.providenceday.org/fs/resource-manager/view/f7d52609-86e2-49c2-9e61-e645bc828d0b

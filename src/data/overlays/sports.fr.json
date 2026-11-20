@@ -78,8 +78,8 @@
         "providence-day:offered.seasons[0].note",
         "providence-day:offered.seasons[1].note",
         "providence-day:offered.seasons[2].note",
-        "charlotte-latin:offered.seasons[2].note",
-        "charlotte-country-day:offered.seasons[2].note"
+        "charlotte-latin:offered.seasons[0].note",
+        "charlotte-latin:offered.seasons[2].note"
       ]
     },
     {
@@ -1665,16 +1665,6 @@
       ]
     },
     {
-      "t": "8 varsity",
-      "of": "2db878e9",
-      "at": [
-        "charlotte-latin:offered.seasons[0].note",
-        "charlotte-christian:offered.seasons[2].note",
-        "charlotte-country-day:offered.seasons[0].note",
-        "cannon:offered.seasons[2].note"
-      ]
-    },
-    {
       "t": "6 varsity",
       "of": "0297e6ff",
       "at": [
@@ -2152,6 +2142,7 @@
         "charlotte-latin:coaching.featured[1].stats[1].value",
         "charlotte-catholic:national.stats[0].value",
         "cannon:coaching.featured[1].stats[0].value",
+        "carmel-christian:national.stats[2].value",
         "trinity-episcopal:coaching.featured[0].stats[1].value"
       ]
     },
@@ -2513,8 +2504,18 @@
       ]
     },
     {
-      "t": "Le chiffre publié par l’école de 22 sports compte séparément les versions garçons et filles d’un même sport. Ce chiffre inclut le golf filles, absent de la page des équipes actuellement en ligne. Charlotte Christian concourt en NCISAA 4A et en CISAA. Son Head of School, Barry Giller, préside le NCISAA Board of Directors.",
-      "of": "ea4b9f51",
+      "t": "8 varsity",
+      "of": "2db878e9",
+      "at": [
+        "charlotte-christian:offered.seasons[2].note",
+        "charlotte-country-day:offered.seasons[0].note",
+        "charlotte-country-day:offered.seasons[2].note",
+        "cannon:offered.seasons[2].note"
+      ]
+    },
+    {
+      "t": "Le chiffre de 50+ équipes est celui de l’école ; les pastilles ci-dessous énumèrent les 44 qu’elle nomme. Le chiffre publié par l’école de 22 sports compte séparément les versions garçons et filles d’un même sport. Ce chiffre inclut le golf filles, absent de la page des équipes actuellement en ligne. Charlotte Christian concourt en NCISAA 4A et en CISAA. Son Head of School, Barry Giller, préside le NCISAA Board of Directors.",
+      "of": "6c063685",
       "at": [
         "charlotte-christian:offered.footnote"
       ]
@@ -3371,6 +3372,41 @@
       ]
     },
     {
+      "t": "Champions NCHSAA en 2026, après un titre en 2021 et une place de finaliste en 2023.",
+      "of": "a08616c0",
+      "at": [
+        "charlotte-catholic:record.rows[4].note"
+      ]
+    },
+    {
+      "t": "Champions NCHSAA par équipes (dual team) à l’automne 2025, comme en 2021.",
+      "of": "e9ce66d8",
+      "at": [
+        "charlotte-catholic:record.rows[5].note"
+      ]
+    },
+    {
+      "t": "Finaliste à l’automne 2024, puis champions NCHSAA à l’automne 2025.",
+      "of": "3d4cff05",
+      "at": [
+        "charlotte-catholic:record.rows[6].note"
+      ]
+    },
+    {
+      "t": "Champions NCHSAA à l’automne 2025.",
+      "of": "12049672",
+      "at": [
+        "charlotte-catholic:record.rows[7].note"
+      ]
+    },
+    {
+      "t": "Finaliste en 2026, après des titres en 2021 et 2022.",
+      "of": "dfb9130e",
+      "at": [
+        "charlotte-catholic:record.rows[8].note"
+      ]
+    },
+    {
       "t": "Les lignes ci-dessus correspondent aux programmes ayant un résultat documenté sur cette période. CCHS ne publie pas de liste des titres saison par saison : une case vide signifie donc « aucun titre trouvé pour cette année-là », et non une défaite vérifiée. Le total de 79 titres depuis 2000 est le chiffre de l’école elle-même et couvre bien plus de sports que ces quatre-là.",
       "of": "6efe2f25",
       "at": [
@@ -3420,8 +3456,8 @@
       ]
     },
     {
-      "t": "niveaux 9 à 12",
-      "of": "3554df3c",
+      "t": "niveaux 9 à 12, 2023–24",
+      "of": "91f75750",
       "at": [
         "charlotte-catholic:pipeline.funnel[0].hint"
       ]
@@ -5510,8 +5546,8 @@
       ]
     },
     {
-      "t": "18 équipes réparties sur trois saisons, avec 82% des élèves pratiquant au moins un sport.",
-      "of": "b4f32bd9",
+      "t": "18 sports répartis sur trois saisons (selon le décompte de l’école), avec 82% des élèves pratiquant au moins un sport.",
+      "of": "811bab87",
       "at": [
         "covenant-day:offered.headline"
       ]
@@ -5524,8 +5560,8 @@
       ]
     },
     {
-      "t": "équipes, V · JV · MS",
-      "of": "a6672127",
+      "t": "sports (selon le décompte de l’école) · 43 équipes V/JV/MS ci-dessous",
+      "of": "1f4606cc",
       "at": [
         "covenant-day:offered.stats[0].label"
       ]
@@ -5674,8 +5710,8 @@
       ]
     },
     {
-      "t": "La filière touche de nombreux sports, mais rarement les plus hauts niveaux. Les engagements couvrent onze sports. Mais hors hockey sur gazon, le plus haut niveau est la Division I mid-major (programmes de Division I hors des plus grandes conférences). Ces placements : Louisiana Tech · East Carolina · UNC Charlotte en softball et en football américain · Appalachian State en basketball et en baseball · Queens · Gardner-Webb · Wofford. Cela explique aussi l’absence d’activité NIL et de classements de recrutement top 100, qui suivent les filières football et basketball des Power 4.",
-      "of": "f7fd528f",
+      "t": "La filière touche de nombreux sports, mais rarement les plus hauts niveaux. Les engagements couvrent dix sports. Mais hors hockey sur gazon, le plus haut niveau est la Division I mid-major (programmes de Division I hors des plus grandes conférences). Ces placements : Louisiana Tech · East Carolina · UNC Charlotte en softball et en football américain · Appalachian State en basketball et en baseball · Queens · Gardner-Webb · Wofford. Cela explique aussi l’absence d’activité NIL et de classements de recrutement top 100, qui suivent les filières football et basketball des Power 4.",
+      "of": "3a6dc695",
       "at": [
         "covenant-day:pipeline.realityCheck"
       ]
@@ -6535,8 +6571,7 @@
       "t": "5",
       "of": "300ca0d0",
       "at": [
-        "davidson-day:coaching.featured[1].stats[1].value",
-        "carmel-christian:national.stats[2].value"
+        "davidson-day:coaching.featured[1].stats[1].value"
       ]
     },
     {
@@ -6561,8 +6596,8 @@
       ]
     },
     {
-      "t": "Le plus long mandat d’entraîneur principal vérifié de l’école, et l’exemple le plus net de ce qu’apporte la continuité. Il a reconstruit le soccer garçons, passé de 7–13 en 2019–20 à 17–4 et une 9e place au classement de l’État, avec trois titres consécutifs. Le soccer filles a remporté deux titres de plus sous sa direction. Les deux programmes se sont effondrés en 2025–26, la saison suivant son départ. Le soccer filles est passé de 14–2 à 3–11.",
-      "of": "f47bc788",
+      "t": "Le plus long mandat d’entraîneur principal vérifié de l’école, et l’exemple le plus net de ce qu’apporte la continuité. Il a reconstruit le soccer garçons, passé de 7–13 en 2019–20 à 17–4 et une 9e place au classement de l’État, avec deux titres consécutifs (2023, 2024). Le soccer filles en a remporté trois de plus sous sa direction (2023–2025). Les deux programmes se sont effondrés en 2025–26, la saison suivant son départ. Le soccer filles est passé de 14–2 à 3–11.",
+      "of": "2db0aa59",
       "at": [
         "davidson-day:coaching.featured[1].detail"
       ]
@@ -7044,34 +7079,6 @@
       ]
     },
     {
-      "t": "2006–2019",
-      "of": "64e64022",
-      "at": [
-        "hickory-grove-christian:record.bars[0].tag"
-      ]
-    },
-    {
-      "t": "2005 · 2021 · 2023",
-      "of": "0d6ff9a6",
-      "at": [
-        "hickory-grove-christian:record.bars[1].tag"
-      ]
-    },
-    {
-      "t": "2009 (3A)",
-      "of": "1d22922f",
-      "at": [
-        "hickory-grove-christian:record.bars[2].tag"
-      ]
-    },
-    {
-      "t": "2025 (D2)",
-      "of": "4adeb9d7",
-      "at": [
-        "hickory-grove-christian:record.bars[3].tag"
-      ]
-    },
-    {
       "t": "Sept championnats NCISAA 3A — 2019, 2017, 2010, 2009, 2008, 2007 et 2006 — auxquels s’ajoutent des places de finaliste 3A en 2023, 2022, 2018, 2015 et 2013 et une place de finaliste 2A en 2004. High Point Christian a remporté les deux finales récentes, celle de 2022 en trois matchs et celle de 2023 en deux. C’est la plus longue série de titres de tous les programmes de HGCS.",
       "of": "b1e122f6",
       "at": [
@@ -7355,8 +7362,8 @@
       ]
     },
     {
-      "t": "Quatre titres au total (2021, 2023, 2024, 2025) et trois d’affilée jusqu’en 2025 — victoire 5–1 sur Trinity School of Durham & Chapel Hill en 2023, puis sur Epiphany School en 2024 comme en 2025",
-      "of": "0e564ec1",
+      "t": "Quatre titres depuis 2021 (2021, 2023, 2024, 2025) et trois d’affilée jusqu’en 2025 — victoire 5–1 sur Trinity School of Durham & Chapel Hill en 2023, puis sur Epiphany School en 2024 comme en 2025",
+      "of": "f978cc51",
       "at": [
         "gaston-day:record.rows[0].note"
       ]
@@ -7397,8 +7404,8 @@
       ]
     },
     {
-      "t": "Le programme le plus titré de l’école : champions NCISAA 2A en 2021, 2023, 2024 et 2025. La victoire de 2024 sur Epiphany School a été présentée par la presse comme le troisième titre d’État du programme en quatre ans et le quatrième au total. La victoire de 2025 sur le même adversaire a porté la série à trois consécutifs.",
-      "of": "a60f677e",
+      "t": "Le programme le plus titré de l’école : champions NCISAA 2A en 2021, 2023, 2024 et 2025. La victoire de 2024 a été obtenue face à Epiphany School, et celle de 2025 contre le même adversaire a porté la série à trois consécutifs.",
+      "of": "2f5b622b",
       "at": [
         "gaston-day:record.seasonDetail[0].text"
       ]
@@ -7800,8 +7807,8 @@
       ]
     },
     {
-      "t": "Dix équipes de middle school nommées sur trois saisons, ouvertes dès la 5e année — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\"",
-      "of": "cc0a7edd",
+      "t": "Dix équipes : neuf réparties sur trois saisons, plus le cheerleading filles, ouvertes dès la 5e année — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\"",
+      "of": "fb9a4773",
       "at": [
         "charlotte-prep:offered.headline"
       ]

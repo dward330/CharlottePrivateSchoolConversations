@@ -116,7 +116,7 @@ export const charlotteChristian: ClubsProgram = {
         valueLabel: 'credit to graduate · 0.25 each year',
         name: 'Winterim',
         detail:
-          'A week-long hands-on program every March, mixing mission trips, cultural travel, internships and on-campus options. The program had 19+ offerings in 2026, and each one builds in service. It is graded pass/fail outside the GPA and appears on the report card every year.',
+          'A week-long hands-on program each year in late February or early March, mixing mission trips, cultural travel, internships and on-campus options. The program had 19+ offerings in 2026, and each one builds in service. It is graded pass/fail outside the GPA and appears on the report card every year.',
         source: { label: '2026 Winterim packet', url: WINTERIM_PACKET },
       },
       {

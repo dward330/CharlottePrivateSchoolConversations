@@ -76,7 +76,7 @@ export const charlotteChristian: SportsProgram = {
       },
     ],
     footnote:
-      'The school’s published figure of 22 sports counts the boys’ and girls’ versions of a sport separately. The figure includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA. Its Head of School, Barry Giller, is president of the NCISAA Board of Directors.',
+      'The 50+ teams figure is the school’s; the chips below list the 44 it names. The school’s published figure of 22 sports counts the boys’ and girls’ versions of a sport separately. The figure includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA. Its Head of School, Barry Giller, is president of the NCISAA Board of Directors.',
     sources: [
       { label: 'charlottechristian.com — Knights Accolades', url: ACCOLADES },
       { label: 'charlottechristian.com — Teams & Schedules', url: 'https://www.charlottechristian.com/athletics/teams' },
@@ -225,15 +225,15 @@ export const charlotteChristian: SportsProgram = {
       {
         label: 'Committed to college athletics',
         hint: '(all divisions, 2024–26)',
-        count: '48',
+        derive: 'all',
         width: 1,
         shade: 'pale',
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '35', width: 0.73, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.73, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '9',
+        derive: 'p4',
         width: 0.19,
         shade: 'full',
       },
@@ -241,13 +241,13 @@ export const charlotteChristian: SportsProgram = {
     funnelNote:
       'The classes of 2024 and 2025 come from the school’s published "Knights in College" roster. That list does not yet include the Class of 2026, which is confirmed on the colleges’ own rosters and in the school’s announcements. At 73%, the Division I share of commitments is unusually high.',
     sportBars: [
-      { sport: 'Football', count: 16, width: 1, p4Width: 0.25 },
-      { sport: 'Baseball', count: 6, width: 0.38, p4Width: 0.06 },
-      { sport: 'Track & Field', count: 5, width: 0.31, p4Width: 0.06 },
-      { sport: 'Softball', count: 2, width: 0.13, p4Width: 0.06 },
-      { sport: 'Wrestling', count: 1, width: 0.06, p4Width: 0.06 },
-      { sport: 'Lacrosse', count: 1, width: 0.06, p4Width: 0.06 },
-      { sport: 'Other', count: 4, width: 0.25 },
+      { sport: 'Football', match: ['Football'] },
+      { sport: 'Baseball', match: ['Baseball'] },
+      { sport: 'Track & Field', match: ['Track & Field'] },
+      { sport: 'Softball', match: ['Softball'] },
+      { sport: 'Wrestling', match: ['Wrestling'] },
+      { sport: 'Lacrosse', match: ['Lacrosse'] },
+      { sport: 'Other', match: 'other' },
     ],
     realityCheck:
       'Football is the biggest source of college commits, with sixteen Division I commits. Among them are Jamal Rule to Nebraska and two service-academy signees: Henry Hulbert to Army and Vincent Rosen to Air Force. But the Power 4 signees are spread unusually wide across sports. Wrestling to NC State, softball to Florida State, lacrosse to Penn State and track to Kentucky each produced one P4 signee. Charlotte Christian sends athletes to college from many sports, not mostly from one.',

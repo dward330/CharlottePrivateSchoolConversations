@@ -31,8 +31,8 @@
       ]
     },
     {
-      "t": "नामित ensembles + ऑडिशन वाले समूह",
-      "of": "9226e2f5",
+      "t": "ensembles: 4 पाठ्यक्रम-आधारित + 2 ऑडिशन वाले",
+      "of": "598ee66e",
       "at": [
         "providence-day:ladder.stats[2].label"
       ]
@@ -45,10 +45,12 @@
       ]
     },
     {
-      "t": "TK–4",
-      "of": "f89adb7f",
+      "t": "TK–5",
+      "of": "f79ad9ec",
       "at": [
-        "providence-day:ladder.divisions[0].grades"
+        "providence-day:ladder.divisions[0].grades",
+        "charlotte-latin:ladder.divisions[0].grades",
+        "hickory-grove-christian:ladder.divisions[0].grades"
       ]
     },
     {
@@ -87,15 +89,15 @@
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
+      "t": "6–8",
+      "of": "b7020a62",
       "at": [
         "providence-day:ladder.divisions[1].grades",
         "charlotte-latin:ladder.divisions[1].grades",
-        "cannon:ladder.divisions[1].grades",
-        "davidson-day:ladder.divisions[1].grades",
-        "gaston-day:ladder.divisions[1].grades",
-        "charlotte-prep:ladder.divisions[2].grades"
+        "covenant-day:ladder.divisions[1].grades",
+        "carmel-christian:ladder.divisions[1].grades",
+        "hickory-grove-christian:ladder.divisions[1].grades",
+        "trinity-episcopal:ladder.divisions[2].grades"
       ]
     },
     {
@@ -162,8 +164,8 @@
       ]
     },
     {
-      "t": "AP Studio Art · AP Art History · AP Music Theory",
-      "of": "cfcb0a80",
+      "t": "AP Art and Design · AP Art History · AP Music Theory",
+      "of": "183586af",
       "at": [
         "providence-day:ladder.divisions[2].items[1]"
       ]
@@ -570,8 +572,8 @@
       ]
     },
     {
-      "t": "चालू हालत में फ़िल्म darkroom, साथ में डिजिटल और अपरंपरागत सामग्रियों पर स्टूडियो काम, जो AP Studio Art और AP Art History तक ले जाता है।",
-      "of": "1796eda8",
+      "t": "चालू हालत में फ़िल्म darkroom, साथ में डिजिटल और अपरंपरागत सामग्रियों पर स्टूडियो काम, जो AP Art and Design और AP Art History तक ले जाता है।",
+      "of": "14f6cef9",
       "at": [
         "providence-day:visual.headline"
       ]
@@ -780,8 +782,8 @@
       ]
     },
     {
-      "t": "दृश्य कला के कोर्स का क्रम काग़ज़ पर दिखाइए — Middle School की कला और AP Studio Art के बीच विद्यार्थी वास्तव में क्या-क्या लेता है? और क्या kiln के साथ ceramics है?",
-      "of": "8f442944",
+      "t": "दृश्य कला के कोर्स का क्रम काग़ज़ पर दिखाइए — Middle School की कला और AP Art and Design के बीच विद्यार्थी वास्तव में क्या-क्या लेता है? और क्या kiln के साथ ceramics है?",
+      "of": "b006920b",
       "at": [
         "providence-day:verdict.ask[0]"
       ]
@@ -871,13 +873,6 @@
       ]
     },
     {
-      "t": "TK–4/5",
-      "of": "2fa7d01f",
-      "at": [
-        "charlotte-latin:ladder.divisions[0].grades"
-      ]
-    },
-    {
       "t": "हाथों से करके सीखने वाली संगीत कक्षाएँ (Experiential music) — गाने, नृत्य और वादन के ज़रिए ताल, धुन और शैली",
       "of": "0bff652c",
       "at": [
@@ -906,8 +901,8 @@
       ]
     },
     {
-      "t": "Band और तंतु-वाद्य कक्षा 5 में आगे बढ़ने के पुल के रूप में शुरू किए जाते हैं",
-      "of": "e70b78ec",
+      "t": "Band और तंतु-वाद्य कक्षा 5 में आगे बढ़ने के पुल के रूप में शुरू किए जाते हैं (कक्षा 5 के छात्र कक्षा 5–12 के ensembles में शामिल होते हैं)",
+      "of": "7d426364",
       "at": [
         "charlotte-latin:ladder.divisions[0].items[4]"
       ]
@@ -1222,8 +1217,8 @@
       ]
     },
     {
-      "t": "कक्षा 5 या 6 से band, orchestra या choir, साल में छह से अधिक concerts, साथ ही recitals, एक सामुदायिक सामूहिक गायन और Grandparents’ Day।",
-      "of": "80ce645f",
+      "t": "कक्षा 5 से band, orchestra या choir, साल में छह से अधिक concerts, साथ ही recitals, एक सामुदायिक सामूहिक गायन और Grandparents’ Day।",
+      "of": "da24af46",
       "at": [
         "charlotte-latin:music.ladder[0].text"
       ]
@@ -1556,10 +1551,11 @@
       ]
     },
     {
-      "t": "JK–6",
-      "of": "df10c94f",
+      "t": "JK–4",
+      "of": "e110cc75",
       "at": [
-        "charlotte-christian:ladder.divisions[0].grades"
+        "charlotte-christian:ladder.divisions[0].grades",
+        "charlotte-country-day:ladder.divisions[0].grades"
       ]
     },
     {
@@ -1570,59 +1566,63 @@
       ]
     },
     {
+      "t": "मुख्य मंच के musicals में कक्षा 4 से कास्टिंग — प्राथमिक कक्षाओं के विद्यार्थी मुख्य मंच पर आते हैं",
+      "of": "6f2b3447",
+      "at": [
+        "charlotte-christian:ladder.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-christian:ladder.divisions[1].grades",
+        "cannon:ladder.divisions[1].grades",
+        "davidson-day:ladder.divisions[1].grades",
+        "gaston-day:ladder.divisions[1].grades",
+        "charlotte-prep:ladder.divisions[2].grades"
+      ]
+    },
+    {
       "t": "वाद्य संगीत कक्षा 5 में शुरू होता है, वाद्य-परिवार के अनुसार बँटा हुआ: brass, woodwind, high/low strings, साथ ही choral",
       "of": "3d4dc1ba",
       "at": [
-        "charlotte-christian:ladder.divisions[0].items[1]"
+        "charlotte-christian:ladder.divisions[1].items[0]"
       ]
     },
     {
       "t": "कक्षा 6 में brass, woodwinds, choir और strings जारी रहते हैं",
       "of": "c53bcfe5",
       "at": [
-        "charlotte-christian:ladder.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "मुख्य मंच के musicals में कक्षा 4 से कास्टिंग — प्राथमिक कक्षाओं के विद्यार्थी मुख्य मंच पर आते हैं",
-      "of": "6f2b3447",
-      "at": [
-        "charlotte-christian:ladder.divisions[0].items[3]"
-      ]
-    },
-    {
-      "t": "7–8",
-      "of": "4bc6e2c5",
-      "at": [
-        "charlotte-christian:ladder.divisions[1].grades"
+        "charlotte-christian:ladder.divisions[1].items[1]"
       ]
     },
     {
       "t": "कक्षा 7 और कक्षा 8 Concert Band; कक्षा 7 और कक्षा 8 Orchestra; कक्षा 7/8 Advanced Choir",
       "of": "eedf08db",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[0]"
+        "charlotte-christian:ladder.divisions[1].items[2]"
       ]
     },
     {
       "t": "Digital Arts और Theatre दोनों के वैकल्पिक विषय कक्षा 6 से खुलते हैं",
       "of": "dfb5d174",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[1]"
+        "charlotte-christian:ladder.divisions[1].items[3]"
       ]
     },
     {
       "t": "ACT 2 — केवल ऑडिशन से चुनी जाने वाली middle school प्रतियोगिता नाट्य टीम",
       "of": "e981fc96",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[2]"
+        "charlotte-christian:ladder.divisions[1].items[4]"
       ]
     },
     {
       "t": "NCTC Middle School Play Festival प्रतियोगिता",
       "of": "2639d8dd",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[3]"
+        "charlotte-christian:ladder.divisions[1].items[5]"
       ]
     },
     {
@@ -1838,8 +1838,8 @@
       ]
     },
     {
-      "t": "Lower School — पाठ्यक्रम-आधारित, वाद्य-परिवार के अनुसार (कक्षा 5–6)",
-      "of": "8e018b9b",
+      "t": "Middle School — पाठ्यक्रम-आधारित, वाद्य-परिवार के अनुसार (कक्षा 5–6)",
+      "of": "a907241d",
       "at": [
         "charlotte-christian:music.tracks[0].label"
       ]
@@ -3031,8 +3031,8 @@
       ]
     },
     {
-      "t": "1,171 छात्रों के लिए बारह ensembles काफ़ी हैं: इनमें से किनमें ऑडिशन होता है, और आवेदन करने वालों में से कितनों को जगह मिलती है?",
-      "of": "018169d5",
+      "t": "1,330 छात्रों के लिए बारह ensembles काफ़ी हैं: इनमें से किनमें ऑडिशन होता है, और आवेदन करने वालों में से कितनों को जगह मिलती है?",
+      "of": "f2f925b0",
       "at": [
         "charlotte-catholic:verdict.ask[1]"
       ]
@@ -3119,13 +3119,6 @@
       "of": "8fcb5a05",
       "at": [
         "charlotte-country-day:ladder.stats[3].label"
-      ]
-    },
-    {
-      "t": "JK–4",
-      "of": "e110cc75",
-      "at": [
-        "charlotte-country-day:ladder.divisions[0].grades"
       ]
     },
     {
@@ -3515,8 +3508,8 @@
       ]
     },
     {
-      "t": "जाँचे गए किसी भी पृष्ठ पर न कोई Tri-M chapter मिला, न कोई नामित Fine Arts Honor Society chapter, इसलिए यहाँ दोनों में से किसी का दावा नहीं किया गया है।",
-      "of": "a4f4267d",
+      "t": "स्कूल का Fast Facts पृष्ठ अपनी सदस्यताओं में Tri-M Music Honor Society और National Art Honor Society को गिनाता है।",
+      "of": "f3fbc2da",
       "at": [
         "charlotte-country-day:music.ladder[3].text"
       ]
@@ -3767,22 +3760,15 @@
       ]
     },
     {
-      "t": "क्या कोई Tri-M chapter, National Art Honor Society chapter, या Fine Arts Honor Society है? सार्वजनिक रूप से इनमें से कोई नहीं मिला।",
-      "of": "03aaaa9e",
+      "t": "Edinburgh Fringe की यात्रा किस वर्ष हुई, विद्यार्थियों ने क्या प्रस्तुत किया, और यह कितनी बार दोहराई जाती है?",
+      "of": "ed7ffeaa",
       "at": [
         "charlotte-country-day:verdict.ask[5]"
       ]
     },
     {
-      "t": "Edinburgh Fringe की यात्रा किस वर्ष हुई, विद्यार्थियों ने क्या प्रस्तुत किया, और यह कितनी बार दोहराई जाती है?",
-      "of": "ed7ffeaa",
-      "at": [
-        "charlotte-country-day:verdict.ask[6]"
-      ]
-    },
-    {
-      "t": "Upper School के 22 कला कोर्सों में से हर एक Honors, AP या Advanced Topics है — कोई सामान्य-स्तर का कला कोर्स है ही नहीं, और इसके पीछे दो वर्ष की कला स्नातक-आवश्यकता है।",
-      "of": "572b70cf",
+      "t": "Upper School के 24 कला कोर्सों में से हर एक Honors, AP या Advanced Topics है — कोई सामान्य-स्तर का कला कोर्स है ही नहीं, और इसके पीछे दो वर्ष की कला स्नातक-आवश्यकता है।",
+      "of": "5200e47d",
       "at": [
         "cannon:ladder.headline"
       ]
@@ -4146,8 +4132,8 @@
       ]
     },
     {
-      "t": "Upper School के सभी नौ संगीत कोर्सों पर Honors की उपाधि है, और अधिकांश दोहराए जा सकते हैं। transcript पर कोर्स का नाम वही रहता है, जबकि काम हर साल कठिन होता जाता है।",
-      "of": "72ba3e12",
+      "t": "Upper School के सभी ग्यारह संगीत कोर्सों पर Honors की उपाधि है, और अधिकांश दोहराए जा सकते हैं। transcript पर कोर्स का नाम वही रहता है, जबकि काम हर साल कठिन होता जाता है।",
+      "of": "044162e7",
       "at": [
         "cannon:music.subhead"
       ]
@@ -4377,8 +4363,8 @@
       ]
     },
     {
-      "t": "ऐसा कला विभाग जो कला को शैक्षणिक विषयों जितना भार देता है — 22 कोर्स, सभी honors या उससे ऊपर, दो वर्ष की आवश्यकता, और दर्ज की गई एक रणनीतिक मिशन प्रक्रिया।",
-      "of": "614e8ebd",
+      "t": "ऐसा कला विभाग जो कला को शैक्षणिक विषयों जितना भार देता है — 24 कोर्स, सभी honors या उससे ऊपर, दो वर्ष की आवश्यकता, और दर्ज की गई एक रणनीतिक मिशन प्रक्रिया।",
+      "of": "3706ae87",
       "at": [
         "cannon:verdict.headline"
       ]
@@ -4398,8 +4384,8 @@
       ]
     },
     {
-      "t": "Upper School के सभी 22 कला कोर्स Honors, AP या Advanced Topics हैं — कोई सामान्य-स्तर का कला कोर्स है ही नहीं। इसके ऊपर, दो वर्ष की कला स्नातक-आवश्यकता भी है। यह एक ऐसा संकेत है जिसे जाँचा जा सकता है कि GPA और transcript पर कला कैसे गिनी जाती है, कोई नारा नहीं।",
-      "of": "df386ffe",
+      "t": "Upper School के सभी 24 कला कोर्स Honors, AP या Advanced Topics हैं — कोई सामान्य-स्तर का कला कोर्स है ही नहीं। इसके ऊपर, दो वर्ष की कला स्नातक-आवश्यकता भी है। यह एक ऐसा संकेत है जिसे जाँचा जा सकता है कि GPA और transcript पर कला कैसे गिनी जाती है, कोई नारा नहीं।",
+      "of": "e5f05584",
       "at": [
         "cannon:verdict.holdsUp[0].text"
       ]
@@ -4531,8 +4517,8 @@
       ]
     },
     {
-      "t": "worship-music की रीढ़ वाली एक JK–12 सीढ़ी: junior kindergarten से एकीकृत कला, कक्षा 1 से क्रमबद्ध, कक्षा 6 से ensembles।",
-      "of": "14f38ef8",
+      "t": "worship-music की रीढ़ वाली एक JK–12 सीढ़ी: junior kindergarten से एकीकृत कला, कक्षा 1 से क्रमबद्ध, कक्षा 3 से ensembles।",
+      "of": "96ff9491",
       "at": [
         "covenant-day:ladder.headline"
       ]
@@ -4598,16 +4584,6 @@
       "of": "b0c96bc4",
       "at": [
         "covenant-day:ladder.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "6–8",
-      "of": "b7020a62",
-      "at": [
-        "covenant-day:ladder.divisions[1].grades",
-        "carmel-christian:ladder.divisions[1].grades",
-        "hickory-grove-christian:ladder.divisions[1].grades",
-        "trinity-episcopal:ladder.divisions[2].grades"
       ]
     },
     {
@@ -5768,8 +5744,8 @@
       ]
     },
     {
-      "t": "नामित ensembles + auditioned Ignite Band",
-      "of": "8ab9ca66",
+      "t": "नामित ensembles, जिनमें ऑडिशन वाला Ignite Band भी शामिल है",
+      "of": "87a5ed91",
       "at": [
         "carmel-christian:ladder.stats[1].label"
       ]
@@ -6281,13 +6257,6 @@
       "of": "ed7a6ce3",
       "at": [
         "hickory-grove-christian:ladder.stats[3].label"
-      ]
-    },
-    {
-      "t": "TK–5",
-      "of": "f79ad9ec",
-      "at": [
-        "hickory-grove-christian:ladder.divisions[0].grades"
       ]
     },
     {

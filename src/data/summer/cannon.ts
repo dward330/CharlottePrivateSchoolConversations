@@ -24,7 +24,7 @@ export const cannon: SummerProgram = {
     subhead:
       'The season runs June 8 to July 31, 2026, closed for Juneteenth and for the whole week of June 29–July 3. Week 2 is a four-day week and every tier is priced down for it.',
     intro:
-      '**60 of the 251 offerings are listed below**, sampled across all five categories, every price tier and all seven weeks. The full catalog is the "Camp Planning Workbook" on pp. 5–11 of the school’s 2026 brochure, linked in the sources. Camp Cannon indexes by **age**, not grade, except for a handful of school-readiness camps that name a rising grade.',
+      '**76 of the 251 offerings are listed below**, sampled across all five categories, every price tier and all seven weeks. The full catalog is the "Camp Planning Workbook" on pp. 5–11 of the school’s 2026 brochure, linked in the sources. Camp Cannon indexes by **age**, not grade, except for a handful of school-readiness camps that name a rising grade.',
     categoryFilters: [
       { token: 'All', label: 'All' },
       { token: 'stem', label: 'STEM & Academics' },

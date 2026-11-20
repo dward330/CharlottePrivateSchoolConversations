@@ -99,3 +99,22 @@ Left off as unconfirmed: boys swimming runner-up 2026, and any 2022 wrestling fi
 Latin's title matrix counts 198 state championships through December 2025, against the 165 on the Sports Offered card, whose research note cites Wikipedia. The matrix counts dance among its sports. Nothing was changed, and this pass did not reconcile the two counts.
 
 Latin's Cup page lists its wins as 1984, 1988–1991, 1993–1995, 1997, 2005–2011, 2017 and 2019, so its longest run is seven. The Honors card's "eight consecutive under athletic director Jimmy Broadway" does not fit that list.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+- Re-fetched https://admin.ncisaa.org/uploads/SWIMMING/2025/division%201%20scores.pdf (HTTP 200;
+  "2025 NCISAA Division I State Championship - 2/10/2025", "Men - Team Scores"): "1 Ravenscroft
+  School 339 · 2 Charlotte Latin School 336 · 3 Cary Academy 257". Latin boys were runner-up in
+  2024–25.
+- https://archives.ncisaa.org/index.php?sport=15&years=2025-2026 (HTTP 200) still posts no team
+  results for 2025–26 (only "2025-2026 Swimming Championships" and program links), so a 2026 boys
+  swimming finish remains unconfirmed.
+- https://www.charlottelatin.org/athletics/athletic-teams (HTTP 200): "WE OFFER 17 SPORTS and
+  FIELD 66 TEAMS IN GRADES 7-12." The directory links 24 team pages: Baseball, Basketball (Boys),
+  Basketball (Girls), Cheerleading, Cross Country (Boys), Cross Country (Girls), Dance Team, Field
+  Hockey, Football, Golf (Boys), Golf (Girls), Lacrosse (Boys), Lacrosse (Girls), Soccer (Boys),
+  Soccer (Girls), Softball, Swimming (Boys), Swimming (Girls), Tennis (Boys), Tennis (Girls), Track
+  & Field (Boys), Track & Field (Girls), Volleyball, Wrestling. By the app's season grouping that is
+  9 fall, 6 winter and 9 spring programs.

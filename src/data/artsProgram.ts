@@ -329,6 +329,14 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>
     ladder: 'The Early Childhood–12 Arts Ladder',
     theatre: 'Theatre & External Recognition',
   },
+  // Covenant Day's arts begin in junior kindergarten and Carmel Christian's in
+  // kindergarten (plan consistency COV-25).
+  'covenant-day': {
+    ladder: 'The JK–12 Arts Ladder',
+  },
+  'carmel-christian': {
+    ladder: 'The K–12 Arts Ladder',
+  },
   // Trinity Episcopal ends at 8th grade, so there is no TK–12 ladder — and the
   // Blumeys are Blumenthal's HIGH-SCHOOL musical-theatre awards, which a K–8
   // school cannot enter. Both titles must change: the shared Blumey title on a

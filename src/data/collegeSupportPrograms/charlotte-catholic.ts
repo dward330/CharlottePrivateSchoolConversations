@@ -453,7 +453,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
     stats: [
       { value: '~56', label: 'seniors per counselor (336 seniors ÷ 6 counselors)' },
       { value: '336', label: 'seniors in the Class of 2027' },
-      { value: '~195', label: 'students per counselor across grades 9–12' },
+      { value: '~222', label: 'students per counselor across grades 9–12 (1,330 students, NCES 2023–24, ÷ 6)' },
       { value: '340 665', label: 'CEEB code' },
     ],
     roster: [
@@ -548,11 +548,11 @@ export const charlotteCatholic: CollegeSupportProgram = {
 
   outcomes: {
     headline:
-      'Where 200 colleges took CCHS graduates over four classes — and $25,186,236 in scholarships for one class.',
+      'Where 199 colleges took CCHS graduates over four classes — and $25,186,236 in scholarships for one class.',
     subhead:
       'This is an enrollment list: where graduates actually enrolled, not everywhere they were admitted.',
     stats: [
-      { value: '200', label: 'institutions graduates enrolled at, Classes of 2023–2026' },
+      { value: '199', label: 'institutions graduates enrolled at, Classes of 2023–2026 (200 entries: the list names two Arizona State campuses)' },
       { value: '98%', label: 'of the Class of 2026 went straight to post-secondary study' },
       { value: '$25,186,236', label: 'scholarships earned by the Class of 2026' },
       { value: '32%', label: 'of the Class of 2026 stayed in North Carolina' },
@@ -567,7 +567,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
       { tier: 'HBCUs', count: '3 / 107', note: 'Hampton University, Benedict College and West Virginia State University' },
     ],
     collegesTitle: 'Every enrollment, 2023–2026',
-    collegesTotal: '200 institutions · the profile publishes no enrollment counts per institution',
+    collegesTotal: '199 institutions (200 entries: two Arizona State campuses) · the profile publishes no enrollment counts per institution',
     colleges,
     scholarshipsTitle: 'Scholarships and recognition',
     scholarships: [
@@ -618,7 +618,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
           'Take the AP load the school names as most demanding — 2 in junior year, 4 in senior year — and clear the competitive application for each course.',
           'Take the AP exam in every AP course. It is mandatory here, so the 94% scoring 3+ counts every AP student. No one can opt out of it.',
           'Go past 70 service hours. The requirement is universal, so the hours themselves do not differentiate — the parish and leadership roles behind them do.',
-          'Use the 76-club directory to build depth rather than breadth: seven honor societies carry published GPA thresholds, from NHS at 3.9 to Mu Alpha Theta at 4.5 in mathematics.',
+          'Use the 76-club directory to build depth rather than breadth: five honor societies carry published GPA thresholds, from NHS at 3.9 to Mu Alpha Theta at 4.5 in mathematics.',
           'For a classical or theology-facing application, the St. Augustine Scholars Program is a four-year differentiator that few applicants anywhere will carry.',
         ],
       },
@@ -678,7 +678,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
     support: [
       { label: 'Academic Skills', text: 'A one-semester course (508 for grades 9–10, 509 for 11–12) in planning, organizing and focus skills and in speaking up for yourself. It is for Academic Achievement students — the step before Guided Academic Support.' },
       { label: 'Guided Academic Support', text: 'A scheduled course (511) rather than a pull-out service — support sits inside the timetable.' },
-      { label: 'Options Program', text: 'A full parallel track — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance and Options Financial Management: 14 courses in all.' },
+      { label: 'Options Program', text: 'A full parallel track — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance and Options Financial Management: 13 courses in all.' },
       { label: 'Pathway Program', text: 'A distinct pathway course (507) alongside the Options track.' },
       { label: 'Study Hall', text: 'Timetabled (100), so a supported schedule need not sacrifice an elective slot.' },
     ],
@@ -707,7 +707,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
     points: [
       { label: 'The disclosure is genuinely strong', text: 'A **10-decile GPA chart including the bottom decile**, stated load norms, an explicit no-rank policy and exam-level AP performance. Most schools publish less and frame it more favorably.' },
       { label: 'The AP rate cannot be flattered', text: '**94% of scores at 3+** across **1,184 exams** in 2026 covers every AP student, because **the exam is mandatory in every AP course**. Weaker students cannot be quietly left out of the count.' },
-      { label: 'Read the college list as enrollments', text: '**200 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.' },
+      { label: 'Read the college list as enrollments', text: '**199 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.' },
       { label: 'Athletics is the standout', text: '**79 state championships** since 2000 and **10 Wells Fargo Cups**, won inside the **NCHSAA** against public schools rather than in a private-school bracket.' },
       { label: 'Tuition turns on parish participation', text: '**$15,041** for a participating Catholic family against **$21,562** at the community rate — a ~30% difference driven by parish involvement rather than financial need, and the single biggest cost variable here.' },
       { label: 'The gaps are structural, not sloppy', text: 'No per-school aid figures (MACS publishes diocese-wide only), **no Form 990** (the diocese is exempt as a religious organization), and no published tuition history.' },

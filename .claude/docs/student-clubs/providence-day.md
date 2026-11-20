@@ -1,5 +1,5 @@
 # Providence Day School — Student Clubs
-> Distilled from 9 source document(s) in `source-material/student-clubs/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 9 source document(s) in `source-material/student-clubs/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Academic and Competitive Programs, Club Catalog and Descriptions, Governance, Formation, Funding and Discovery, NotebookLM Episode Prompt, Participation and Popularity, Service, Leadership and Civic Engagement, Thematic Pathways, Middle School Clubs Web Check 2026, Clubs Redesign Deep Research
 
 
@@ -810,6 +810,26 @@ The 2025-26 Upper School Course of Study PDF
 is a **scanned, image-based PDF with no text layer**, so it could not be searched for honor
 societies. Reading it via OCR is the highest-value next step for certainty on the missing
 societies (especially Spanish/Latin/Chinese and any Middle School society).
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20.
+
+- https://www.providenceday.org/the-pd-difference/global-education — "For over a decade,
+ Providence Day School has been a Global Member of Round Square, an internationally diverse
+ network of 280+ like-minded schools in 50 countries on six continents." and "PD is one of only
+ two Round Square schools in North Carolina." The "250+ schools", "joined 2016" and "the only
+ member school in North Carolina" wording in Program 3 above is the superseded older text
+ (see `international-travel/providence-day/Providence Day - International Travel - Source URLs.md`).
+- https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/students-earn-national-honor-while-serving-their-community
+ (posted Sep 23 2024) — "amassed 5,247 hours of community service during the last school year";
+ "Since 2017, Providence Day students have contributed a total of 20,642 hours of community
+ service." "The following students earned the President's Volunteer Service Award for 2024:"
+ then names under Gold (24 names), Silver (5 names) and Bronze (9 names) = **38 students**. The
+ article states no total; "48" appears nowhere in it. The "48 students" in Program 2 above is a
+ mis-sum of 24 + 5 + 9.
 
 
 ---

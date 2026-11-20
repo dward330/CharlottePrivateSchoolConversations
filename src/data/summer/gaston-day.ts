@@ -36,7 +36,7 @@ export const gastonDay: SummerProgram = {
     subhead:
       'Camp Spartan runs 8:30 am–3:30 pm with lunch included, and wrap-around care extends the day from 7:45 am to 5:00 pm.',
     intro:
-      'The complete 2026 slate as published in the school’s camp catalog — 30 camps across four providers. Grade levels are “rising” grades: the child’s grade for the 2026-27 school year. Several enrichment camps show as FULL with a waitlist and one as canceled; those states are reproduced as published rather than filtered out.',
+      'The complete 2026 slate as published in the school’s camp catalog — 27 camps: Gaston Day’s own, four partner providers and Nike. Grade levels are “rising” grades: the child’s grade for the 2026-27 school year. Several enrichment camps show as FULL with a waitlist and one as canceled; those states are reproduced as published rather than filtered out.',
     categoryFilters: [
       { token: 'all', label: 'All' },
       { token: 'daycamp', label: 'Day camp' },

@@ -59,7 +59,7 @@ export const carmelChristian: ArtsProgram = {
       'Overseen by Arts Director Christina McCorkle, and headlined in 2026 by a Blumey Best Actress win that advanced to the national Jimmy Awards.',
     stats: [
       { value: 'K–12', label: 'arts program, integrated K–4' },
-      { value: '3', label: 'named ensembles + auditioned Ignite Band' },
+      { value: '3', label: 'named ensembles, including the auditioned Ignite Band' },
       { value: '2026', label: 'Blumey Best Actress win — "Footloose"' },
       { value: 'CITA', label: 'Christians in Theatre Arts conference' },
     ],

@@ -46,7 +46,7 @@ export const charlottePrep: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
   offered: {
     headline:
-      'Ten named middle school teams across three seasons, open from 5th grade — "one of the few schools that allow 5th Graders the opportunity to be a part of our sports program."',
+      'Ten teams: nine across three seasons, plus girls cheerleading, open from 5th grade — "one of the few schools that allow 5th Graders the opportunity to be a part of our sports program."',
     subhead:
       'Every team is a single grades 5–8 squad in the Queen City Conference; no A/B or JV split is published. "Including others is sometimes more important than winning."',
     stats: [

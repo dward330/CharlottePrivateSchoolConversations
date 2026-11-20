@@ -21,7 +21,7 @@ export const covenantDay: ArtsProgram = {
   /* ------------------------------------------------------------ 2a ladder -- */
   ladder: {
     headline:
-      'A JK–12 ladder with a worship-music spine: art integrated from junior kindergarten, sequential from grade 1, ensembles from grade 6.',
+      'A JK–12 ladder with a worship-music spine: art integrated from junior kindergarten, sequential from grade 1, ensembles from grade 3.',
     subhead:
       'One Fine Arts credit is required to graduate, and worship bands run at both middle and high school — a rung few schools have.',
     stats: [

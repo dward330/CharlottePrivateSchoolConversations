@@ -462,7 +462,7 @@ export const davidsonDay: CollegeSupportProgram = {
     subhead:
       'The School Profile does the work test scores would otherwise do: full quality-point table, +0.5 Honors / +1.0 AP, a stated no-rank policy, and a three-point GPA distribution that discloses a 2.58 floor.',
     stats: [
-      { value: '22', label: 'AP courses offered in 2026–27 (derived count — the school publishes no total)' },
+      { value: '22', label: 'AP courses on the 2026–27 Profile’s offered list (the catalog lists 26)' },
       { value: 'Not published', label: 'AP exams sat, % scoring 3+, and exam policy' },
       { value: 'No rank', label: '“Davidson Day does not rank its students”' },
       { value: '4.67 / 3.93 / 2.58', label: 'Class of 2027 GPA — highest, median, lowest' },
@@ -532,11 +532,11 @@ export const davidsonDay: CollegeSupportProgram = {
 
   counseling: {
     headline:
-      'Two counselors for 184 Upper Schoolers — roughly 1:92, and about 1:25 across the 50 seniors — with the office’s stated start point in 9th grade rather than junior year.',
+      'Two counselors for 184 Upper Schoolers — about 92 Upper School students and 25 seniors (Class of 2027) per counselor — with the office’s stated start point in 9th grade rather than junior year.',
     subhead:
       'The small caseload is the believable part. What is missing is any written promise about what the office actually guarantees. It publishes no promise to review applications before they are sent, no stance on Early Decision or Early Action, and no process for recommendations.',
     stats: [
-      { value: '~1:92', label: 'counselors to Upper School students (derived — no ratio is published)' },
+      { value: '~92:1', label: 'Upper School students per counselor (computed — 184 ÷ 2)' },
       { value: '2', label: 'college counselors, plus a registrar' },
       { value: '9th grade', label: 'when the office says counseling begins' },
       { value: 'Scoir', label: 'platform for applications and rep-visit scheduling' },
@@ -677,13 +677,13 @@ export const davidsonDay: CollegeSupportProgram = {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**AFAR international field research** — real archaeology digs in Belize (since 2009), Spain (2014), Greece (2017) and Portugal (2018). The Belize dig runs with the BVAR project at Cahal Pech, under a permit from the Belize Institute of Archaeology. The program’s history appears in a peer-reviewed journal (*Heritage*, 2020). Students publish and present at conferences around the world.',
-          '**Global Studies Diploma** — a core course in Honors Anthropology, four approved AP courses, and the same world language in all four Upper School years. It also requires at least two weeks of international field research and a capstone paper. Most important, it *produces a separate transcript and profile sent to colleges*. That is an extra document in the file, not a line on the transcript.',
+          '**AFAR international field research** — real archaeology digs in Belize, Spain (2014), Greece (2017) and Portugal (2018). The school’s profile dates the Belize dig to 2009; its research page dates AFAR itself to 2006. The Belize dig runs with the BVAR project at Cahal Pech, under a permit from the Belize Institute of Archaeology. The program’s history appears in a peer-reviewed journal (*Heritage*, 2020). Students publish and present at conferences around the world.',
+          '**Global Studies Diploma** — a core course in Honors Anthropology, four approved AP courses, a world language and a capstone paper. The profile asks for the same language in all four Upper School years and at least two weeks of international field research. The Global Studies page asks for Level IV or three levels of one language, and at least 100 practicum hours. Most important, it *produces a separate transcript and profile sent to colleges*. That is an extra document in the file, not a line on the transcript.',
           '**STEMM and Business & Civic Engagement Diplomas** — each requires at least 100 hours of approved internship or practicum (supervised field work). Each also requires Ethics Labs every quarter and an 11th-grade Research Methods Honors course. In 12th grade, students do a Capstone Research Honors mentorship. They then give a public talk at the Scholars Research Conference.',
           '**Recruiting and arts tracks** — a yearly Athletic Recruitment Workshop and National Signing Day events. One recent signing day saw seven NLI (National Letter of Intent) signings. For the arts, there is AP Studio Art, plus portfolio results at SCAD, Pratt, Manhattan School of Music, UNCSA and AMDA.',
         ],
         note:
-          'The required internship or capstone applies only to students seeking a Diploma Distinction. There is no school-wide required internship or senior project. The AFAR participation counts ("hundreds", "150+", "200+") cover the whole program across many schools. How many Davidson Day students have taken part is not published.',
+          'The required internship or capstone applies only to students seeking a Diploma Distinction. There is no school-wide required internship or senior project. AFAR’s participation figure, more than 500 students program-wide (2026), covers the whole program across many schools. How many Davidson Day students have taken part is not published.',
       },
       {
         title: 'Lever 2 — What the school brings',
@@ -698,7 +698,12 @@ export const davidsonDay: CollegeSupportProgram = {
           'The discipline-reporting half of integrity signaling is not disclosed. The school does not say whether suspensions or honor-code violations go on the secondary school report it sends colleges. Nor does it say how a student may explain an incident.',
       },
     ],
-    flags: [],
+    flags: [
+      {
+        kind: 'verify',
+        text: 'Two school sources disagree (plan consistency DD-5/DD-6, 2026-11-20). AFAR start: the 2026–27 Profile says "in Belize since 2009"; the archived International Research page says "Since inception in 2006" (Global Exposure uses 2006). Global Studies Diploma: the Profile says four years of one language and "a minimum of two weeks" of field research; the live Global Studies page says "Level IV or 3 levels" and "At least 100 hours", with no duration. Both attributed in the prose; Global Exposure carries the ask.',
+      },
+    ],
     sources: [
       { label: 'davidsonday.org — Global Studies Diploma', url: 'https://www.davidsonday.org/academics/diploma-distinctions/global-studies' },
       { label: 'School Profile 2026–27 (AFAR, GSD, Honor Code, memberships)', url: PROFILE },
@@ -811,11 +816,11 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'The Global Studies Diploma sends a second transcript',
-        text: 'This is different in kind from an honors cord. The Profile states that an extra transcript and profile go to colleges. The diploma is backed by language study, two weeks of international field research and a capstone paper.',
+        text: 'This is different in kind from an honors cord. The Profile states that an extra transcript and profile go to colleges. The diploma is backed by language study, international field research and a capstone paper.',
       },
       {
         label: 'The caseload is genuinely small, and starts in 9th grade',
-        text: 'Two counselors for 184 Upper Schoolers (~1:92, ~1:25 at senior level) makes the “individualized” language credible rather than promotional.',
+        text: 'Two counselors for 184 Upper Schoolers (~92:1, ~25:1 at senior level) makes the “individualized” language credible rather than promotional.',
       },
       {
         label: 'The Profile does the work test scores would',
@@ -835,6 +840,7 @@ export const davidsonDay: CollegeSupportProgram = {
       'Does someone read every application before it’s submitted? What’s your stance on binding Early Decision, and how do you handle teacher recommendations?',
       'Davidson College is one mile away — is there any dual-enrollment, course-access or partnership arrangement with them, or with UNC Charlotte?',
       'Does the Learning Enrichment Center write or manage accommodations? If so, who gets them approved for College Board and ACT testing, and documented for college disability services?',
+      'Your profile dates the Belize dig to 2009, and your research page dates AFAR to 2006. Which year was Davidson Day’s first season?',
     ],
     flags: [],
     sources: [

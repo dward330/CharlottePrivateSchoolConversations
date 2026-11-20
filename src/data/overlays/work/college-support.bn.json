@@ -224,7 +224,8 @@
       "text": "30",
       "of": "87f05176",
       "at": [
-        "providence-day:transcript.stats[2].value"
+        "providence-day:transcript.stats[2].value",
+        "carmel-christian:outcomes.stats[2].value"
       ],
       "t": "30"
     },
@@ -1144,12 +1145,12 @@
       "t": "Power Four"
     },
     {
-      "text": "— the full ACC, plus 15 of 16 SEC, 17 of 18 Big Ten and 15 of 16 Big 12",
-      "of": "c8aaa9ae",
+      "text": "— the full ACC and SEC, plus 17 of 18 Big Ten and 15 of 16 Big 12",
+      "of": "d361f5d1",
       "at": [
         "providence-day:outcomes.buckets[4].note"
       ],
-      "t": "— সম্পূর্ণ ACC, সঙ্গে SEC-তে 16-এ 15, Big Ten-এ 18-এ 17 এবং Big 12-তে 16-এ 15"
+      "t": "— সম্পূর্ণ ACC ও SEC, সঙ্গে Big Ten-এ 18-এ 17 এবং Big 12-তে 16-এ 15"
     },
     {
       "text": "HBCUs",
@@ -1919,12 +1920,12 @@
       "t": "Entrepreneurial Studies Diploma 2026 থেকে নতুন — এতে ঠিক কী কী লাগে, আর কতজন শিক্ষার্থী এটি শেষ করেছেন?"
     },
     {
-      "text": "Your profile names 30 AP courses but 29 subjects were examined in May 2026 — is AP German running this year, and when does AP Business & Personal Finance begin?",
-      "of": "7617a588",
+      "text": "Your profile names 30 AP courses but 29 subjects were examined in May 2026. Are AP German and AP Business with Personal Finance both running this year?",
+      "of": "63091b03",
       "at": [
         "providence-day:verdict.checklist[6]"
       ],
-      "t": "আপনাদের প্রোফাইলে 30টি AP কোর্সের নাম আছে, কিন্তু মে 2026-এ পরীক্ষা হয়েছে 29টি বিষয়ে — এ বছর কি AP German চলছে, আর AP Business & Personal Finance কবে শুরু হবে?"
+      "t": "আপনাদের প্রোফাইলে 30টি AP কোর্সের নাম আছে, কিন্তু মে 2026-এ পরীক্ষা হয়েছে 29টি বিষয়ে। এ বছর কি AP German ও AP Business with Personal Finance দুটিই চলছে?"
     },
     {
       "text": "Across the six top-ranked NC public universities, Charlotte Latin School’s applicants were admitted at a pooled 45.5% over the last five entering classes — 334 acceptances from 734 applications.",
@@ -2052,12 +2053,12 @@
       "t": "24"
     },
     {
-      "text": "AP subjects offered — exams required of AP students",
-      "of": "408841bb",
+      "text": "AP subjects in the 2026–27 profile — exams required of AP students",
+      "of": "e1d2d2d3",
       "at": [
         "charlotte-latin:transcript.stats[0].label"
       ],
-      "t": "যত AP বিষয় পড়ানো হয় — AP শিক্ষার্থীদের পরীক্ষা দেওয়া বাধ্যতামূলক"
+      "t": "2026–27 প্রোফাইলে থাকা AP বিষয় — AP শিক্ষার্থীদের পরীক্ষা দেওয়া বাধ্যতামূলক"
     },
     {
       "text": "92%",
@@ -2268,10 +2269,18 @@
       "t": "প্রোফাইলটি পাঠককে ব্যাখ্যার যে একটিমাত্র সত্যিকারের সাহায্য দেয়, তা হুবহু এই: “যেহেতু আমাদের Honors গণিত পাঠক্রম অস্বাভাবিক রকমের কঠিন ও দ্রুতগতির, **গণিতে ভালো অনেক শিক্ষার্থীই standard ও advanced কোর্সে জায়গা পান**।” ট্রান্সক্রিপ্ট ভুল পড়ার বিরুদ্ধে অস্বাভাবিক রকমের সৎ একটি সতর্কবার্তা।"
     },
     {
+      "text": "AP count, two school sources (plan consistency LAT-1b, 2026-11-20): the 2026–27 profile grid lists 24 AP subjects; the live course-offerings page has 23 AP posts. The profile adds AP Business with Personal Finance and lists Cybersecurity and Networking Fundamentals separately, but has no Music Theory; the page combines Cybersecurity and Networking into one post and lists Music Theory AP. The tile uses the profile; the Course Offerings teaser uses the page.",
+      "of": "87a8540c",
+      "at": [
+        "charlotte-latin:transcript.flags[0].text"
+      ],
+      "t": "AP-র সংখ্যা, স্কুলের দুটি উৎস (plan consistency LAT-1b, 2026-11-20): 2026–27 প্রোফাইলের গ্রিডে 24টি AP বিষয় আছে; চালু course-offerings পাতায় 23টি AP পোস্ট। প্রোফাইলে বাড়তি আছে AP Business with Personal Finance, আর Cybersecurity ও Networking Fundamentals আলাদাভাবে তালিকাভুক্ত, কিন্তু Music Theory নেই; পাতাটি Cybersecurity ও Networking-কে একটি পোস্টে মিলিয়েছে এবং Music Theory AP তালিকাভুক্ত করেছে। টাইলে প্রোফাইল ব্যবহার করা হয়েছে; Course Offerings-এর টিজারে পাতাটি।"
+    },
+    {
       "text": "The jump from 48 AP Scholars with Distinction (2018–20) to 192 (2024–26) is very large. Part is real growth, but the magnitude suggests the counting basis may differ between editions — the school does not define it. Do not present the two as directly comparable.",
       "of": "80bbd945",
       "at": [
-        "charlotte-latin:transcript.flags[0].text"
+        "charlotte-latin:transcript.flags[1].text"
       ],
       "t": "AP Scholar with Distinction-এর সংখ্যা 48 (2018–20) থেকে 192-তে (2024–26) ওঠা খুবই বড় একটি লাফ। এর কিছুটা সত্যিকারের বৃদ্ধি, তবে ব্যবধানের আকার দেখে মনে হয় দুই সংস্করণে গণনার ভিত্তি আলাদা হতে পারে — স্কুল সেই ভিত্তির সংজ্ঞা দেয় না। দুটিকে সরাসরি তুলনীয় হিসেবে উপস্থাপন করবেন না।"
     },
@@ -2279,7 +2288,7 @@
       "text": "The 2025–26 edition carried an unremoved internal editorial note; the 2026–27 edition has removed it, and adds AP results, test means, grade distributions and the grading scale — a substantial reversal of the school’s earlier non-disclosure.",
       "of": "5022814b",
       "at": [
-        "charlotte-latin:transcript.flags[1].text"
+        "charlotte-latin:transcript.flags[2].text"
       ],
       "t": "2025–26 সংস্করণে একটি অভ্যন্তরীণ সম্পাদনা-মন্তব্য রয়ে গিয়েছিল; 2026–27 সংস্করণ সেটি সরিয়ে দিয়েছে, আর যোগ করেছে AP ফল, পরীক্ষার গড়, গ্রেড-বণ্টন ও গ্রেডিং স্কেল — স্কুলের আগের তথ্য না প্রকাশের অবস্থান থেকে উল্লেখযোগ্য একটি উল্টো বাঁক।"
     },
@@ -2300,20 +2309,20 @@
       "t": "freshman বর্ষেই কাউন্সেলর নির্ধারিত হয়ে যান, আর দপ্তর লিখিতভাবে প্রতিশ্রুতি দেয় যে জমা দেওয়ার আগে প্রতিটি প্রবন্ধ ও আবেদন তারা প্রুফরিড করবে — এমন প্রতিশ্রুতি বেশির ভাগ স্কুল দিতে চায় না।"
     },
     {
-      "text": "~1:38",
-      "of": "37df881d",
+      "text": "~38:1",
+      "of": "775066d3",
       "at": [
         "charlotte-latin:counseling.stats[0].value"
       ],
-      "t": "~1:38"
+      "t": "~38:1"
     },
     {
-      "text": "counselors to seniors (derived — no ratio is published)",
-      "of": "bbeb7a34",
+      "text": "seniors per counselor (computed — 151 ÷ 4; no ratio is published)",
+      "of": "d36af3ea",
       "at": [
         "charlotte-latin:counseling.stats[0].label"
       ],
-      "t": "কাউন্সেলর অনুপাতে senior (হিসাব করে বার করা — কোনো অনুপাত প্রকাশিত নয়)"
+      "t": "কাউন্সেলরপ্রতি senior (হিসাব করে বার করা — 151 ÷ 4; কোনো অনুপাত প্রকাশিত নয়)"
     },
     {
       "text": "9",
@@ -2577,12 +2586,12 @@
       "t": "SCOIR ও MyLatin · দপ্তর সারা বছর খোলা, সময় নিয়ে বা না নিয়েও যাওয়া যায়"
     },
     {
-      "text": "Both ratios are derived (589 Upper Schoolers ÷ 4, and 151 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~1:147 all-grades figure is arguably the more honest load measure and ~1:38 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.",
-      "of": "d5385435",
+      "text": "Both ratios are derived (589 Upper Schoolers ÷ 4, and 151 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~147:1 all-grades figure is arguably the more honest load measure and ~38:1 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.",
+      "of": "6012508f",
       "at": [
         "charlotte-latin:counseling.flags[0].text"
       ],
-      "t": "দুটি অনুপাতই হিসাব করে বার করা (589 জন Upper School শিক্ষার্থী ÷ 4, এবং 151 জন senior ÷ 4); স্কুল কোনোটিই প্রকাশ করে না। যেহেতু freshman বর্ষেই কাউন্সেলর নির্ধারিত হয়ে যান, সব স্তর মিলিয়ে ~1:147 সংখ্যাটিই বরং কাজের চাপের বেশি সৎ পরিমাপ, আর ~1:38 বোঝায় senior বর্ষের নিবিড়তা। কোনো কর্মীর জীবনবৃত্তান্ত, আগের কর্মস্থল, ডিগ্রি বা সনদ প্রকাশ করা হয় না — কেবল নাম আর পদবি।"
+      "t": "দুটি অনুপাতই হিসাব করে বার করা (589 জন Upper School শিক্ষার্থী ÷ 4, এবং 151 জন senior ÷ 4); স্কুল কোনোটিই প্রকাশ করে না। যেহেতু freshman বর্ষেই কাউন্সেলর নির্ধারিত হয়ে যান, সব স্তর মিলিয়ে ~147:1 সংখ্যাটিই বরং কাজের চাপের বেশি সৎ পরিমাপ, আর ~38:1 বোঝায় senior বর্ষের নিবিড়তা। কোনো কর্মীর জীবনবৃত্তান্ত, আগের কর্মস্থল, ডিগ্রি বা সনদ প্রকাশ করা হয় না — কেবল নাম আর পদবি।"
     },
     {
       "text": "No count of campus visits made by counselors is published — only the qualitative claim that they “stay current by attending conferences, visiting colleges, and speaking extensively with college representatives”.",
@@ -2601,12 +2610,12 @@
       "t": "চারটি স্নাতক ব্যাচ 337টি প্রতিষ্ঠানে ভর্তির সুযোগ পেয়েছে। সবচেয়ে নতুন তালিকায় 132টিতে তারকাচিহ্ন আছে, যা দেখায় যে 2024–26-এ অন্তত একজন Latin শিক্ষার্থী সেখানে ভর্তি হয়েছেন।"
     },
     {
-      "text": "The striking number is breadth. 61 of the 68 Power Four universities appear. The ones missing are Minnesota, Nebraska, BYU, UCF, Houston, Kansas State and UT Austin (the lists write only “University of Texas”). Seven of the eight Ivies appear, and Columbia is the only one missing.",
-      "of": "298ccbd2",
+      "text": "The striking number is breadth. 62 of the 68 Power Four universities appear. The ones missing are Minnesota, Nebraska, BYU, UCF, Houston and Kansas State. Seven of the eight Ivies appear, and Columbia is the only one missing.",
+      "of": "a586c467",
       "at": [
         "charlotte-latin:outcomes.subhead"
       ],
-      "t": "চোখে পড়ার মতো সংখ্যাটি বিস্তারের। Power Four-এর 68টি বিশ্ববিদ্যালয়ের 61টিই আছে। বাদ পড়েছে Minnesota, Nebraska, BYU, UCF, Houston, Kansas State ও UT Austin (তালিকায় শুধু “University of Texas” লেখা)। আটটি Ivy-র সাতটিই আছে; কেবল Columbia নেই।"
+      "t": "চোখে পড়ার মতো সংখ্যাটি বিস্তারের। Power Four-এর 68টি বিশ্ববিদ্যালয়ের 62টিই আছে। বাদ পড়েছে Minnesota, Nebraska, BYU, UCF, Houston ও Kansas State। আটটি Ivy-র সাতটিই আছে; কেবল Columbia নেই।"
     },
     {
       "text": "337",
@@ -2658,12 +2667,12 @@
       "t": "Ivy League — নেই Columbia"
     },
     {
-      "text": "61 of 68",
-      "of": "87d3876d",
+      "text": "62 of 68",
+      "of": "58a87aac",
       "at": [
         "charlotte-latin:outcomes.stats[3].value"
       ],
-      "t": "68-এ 61"
+      "t": "68-এ 62"
     },
     {
       "text": "Power Four universities represented",
@@ -2690,12 +2699,12 @@
       "t": "— নেই Columbia, Johns Hopkins ও Caltech"
     },
     {
-      "text": "— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12",
-      "of": "10562351",
+      "text": "— 18 ACC · 16 SEC · 16 Big Ten · 12 Big 12",
+      "of": "ff5ec33a",
       "at": [
         "charlotte-latin:outcomes.buckets[4].note"
       ],
-      "t": "— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12"
+      "t": "— 18 ACC · 16 SEC · 16 Big Ten · 12 Big 12"
     },
     {
       "text": "337 institutions · bold = at least one student enrolled, 2024–26",
@@ -3148,12 +3157,12 @@
       "t": "গোটা ক্লাসজুড়েই জায়গা করে দেওয়ার বিস্তার"
     },
     {
-      "text": "337 institutions across four classes, with 61 of the 68 Power Four universities represented. Enrollment asterisks run from the Ivies down through regional colleges.",
-      "of": "962f32be",
+      "text": "337 institutions across four classes, with 62 of the 68 Power Four universities represented. Enrollment asterisks run from the Ivies down through regional colleges.",
+      "of": "3e606445",
       "at": [
         "charlotte-latin:verdict.points[4].text"
       ],
-      "t": "চারটি ব্যাচ মিলিয়ে 337টি প্রতিষ্ঠান, যেখানে Power Four-এর 68টি বিশ্ববিদ্যালয়ের 61টিই আছে। ভর্তির তারকাচিহ্ন ছড়িয়ে আছে Ivy থেকে শুরু করে আঞ্চলিক কলেজ পর্যন্ত।"
+      "t": "চারটি ব্যাচ মিলিয়ে 337টি প্রতিষ্ঠান, যেখানে Power Four-এর 68টি বিশ্ববিদ্যালয়ের 62টিই আছে। ভর্তির তারকাচিহ্ন ছড়িয়ে আছে Ivy থেকে শুরু করে আঞ্চলিক কলেজ পর্যন্ত।"
     },
     {
       "text": "The exam requirement is real",
@@ -3226,6 +3235,14 @@
         "charlotte-latin:verdict.checklist[6]"
       ],
       "t": "Class of 2023-এর পর থেকে আপনারা মেধাবৃত্তির মোট অঙ্ক প্রকাশ করা বন্ধ করেছেন। শেষ তিনটি ব্যাচ কত পেয়েছিল?"
+    },
+    {
+      "text": "Your profile lists 24 AP subjects and your course page lists 23. Is AP Business with Personal Finance offered, and are Cybersecurity and Networking Fundamentals one course or two?",
+      "of": "e0381834",
+      "at": [
+        "charlotte-latin:verdict.checklist[7]"
+      ],
+      "t": "আপনাদের প্রোফাইলে 24টি AP বিষয় আর কোর্স-পাতায় 23টি। AP Business with Personal Finance কি পড়ানো হয়, আর Cybersecurity ও Networking Fundamentals কি একটি কোর্স, নাকি দুটি?"
     },
     {
       "text": "Across the six top-ranked NC public universities, Charlotte Christian School’s applicants were admitted at a pooled 54.8% over the last five entering classes — 382 acceptances from 697 applications.",
@@ -3541,12 +3558,12 @@
       "t": "~55:1"
     },
     {
-      "text": "seniors per counselor (derived — no ratio is published)",
-      "of": "e9abce11",
+      "text": "seniors per counselor (Class of 2026 graduates; current senior class size not published)",
+      "of": "c683ad33",
       "at": [
         "charlotte-christian:counseling.stats[0].label"
       ],
-      "t": "কাউন্সেলরপ্রতি senior (হিসাব করে বার করা — কোনো অনুপাত প্রকাশিত নয়)"
+      "t": "কাউন্সেলরপ্রতি senior (Class of 2026-এর স্নাতকেরা; বর্তমান senior ব্যাচের আকার প্রকাশিত নয়)"
     },
     {
       "text": "2",
@@ -3934,12 +3951,12 @@
       "t": "Florida State, Wake Forest, Kentucky-তে ক্রীড়া পুরস্কার"
     },
     {
-      "text": "The Academic Conservatory is the real differentiator — a transcript-noted arts credential — and Winterim puts every student somewhere off campus each January.",
-      "of": "6742c398",
+      "text": "The Academic Conservatory is the real differentiator — a transcript-noted arts credential — and Winterim puts every student somewhere off campus each year, at the turn of February and March.",
+      "of": "dbff3e69",
       "at": [
         "charlotte-christian:edge.headline"
       ],
-      "t": "আসল স্বাতন্ত্র্য হলো Academic Conservatory — ট্রান্সক্রিপ্টে উল্লেখ থাকা একটি আর্টস সনদ — আর Winterim প্রতিটি শিক্ষার্থীকে প্রতি জানুয়ারিতে ক্যাম্পাসের বাইরে কোথাও না কোথাও পাঠায়।"
+      "t": "আসল স্বাতন্ত্র্য হলো Academic Conservatory — ট্রান্সক্রিপ্টে উল্লেখ থাকা একটি আর্টস সনদ — আর Winterim প্রতিটি শিক্ষার্থীকে প্রতি বছর, ফেব্রুয়ারি ও মার্চের সন্ধিক্ষণে, ক্যাম্পাসের বাইরে কোথাও না কোথাও পাঠায়।"
     },
     {
       "text": "The second lever is a Christian-college network most peer schools do not have: NACCAP membership and a named Christian-college tier that 14% of graduates actually use.",
@@ -4382,12 +4399,12 @@
       "t": "AP পরীক্ষার কত অংশে স্কোর 4 বা 5 ছিল? কেবল 3+ সীমাটিই প্রকাশিত।"
     },
     {
-      "text": "Your marketing says “45+ AP and honors courses” but roughly 23 AP courses can be enumerated. What is the actual count?",
-      "of": "61b8b3c5",
+      "text": "Your marketing says “45+ AP and honors courses”, and your guide and profile together name 22 AP courses. What is the actual count?",
+      "of": "9b42319f",
       "at": [
         "charlotte-christian:verdict.checklist[3]"
       ],
-      "t": "আপনাদের প্রচারে বলা হয় “45+ AP ও honors কোর্স”, অথচ গুনে পাওয়া যায় মোটামুটি 23টি AP কোর্স। আসল সংখ্যাটি কত?"
+      "t": "আপনাদের প্রচারে বলা হয় “45+ AP ও honors কোর্স”, আর আপনাদের গাইড ও প্রোফাইল মিলিয়ে 22টি AP কোর্সের নাম আছে। আসল সংখ্যাটি কত?"
     },
     {
       "text": "Your profile reports 12 National Merit finalists on a rolling 15-year window, down from 16 six years earlier. What were the per-class counts for the last five years?",
@@ -4428,6 +4445,14 @@
         "charlotte-christian:verdict.checklist[8]"
       ],
       "t": "Class of 2024 কোথায় ভর্তি হয়েছে? প্রকাশিত দুটি তালিকা কেবল Class of 2025 ও Class of 2026-এর ভর্তি চিহ্নিত করে।"
+    },
+    {
+      "text": "AP count, two school documents (plan consistency CC-5, 2026-11-20): the curriculum guide’s AP roster has 20 lines (21 with Calculus AB/BC split, including AP Music Theory with no description), and the guide separately describes AP Spanish Literature; the 2026–27 profile lists 20 AP courses plus Calculus III. Compare uses the guide’s 21; the ask uses 22.",
+      "of": "8950419c",
+      "at": [
+        "charlotte-christian:verdict.flags[0].text"
+      ],
+      "t": "AP-র সংখ্যা, স্কুলের দুটি নথি (plan consistency CC-5, 2026-11-20): curriculum guide-এর AP তালিকায় 20টি লাইন (Calculus AB/BC আলাদা ধরলে 21, বর্ণনাহীন AP Music Theory সহ), আর গাইডে আলাদাভাবে AP Spanish Literature-এর বিবরণ আছে; 2026–27 প্রোফাইলে 20টি AP কোর্স, সঙ্গে Calculus III। Compare-এ গাইডের 21 ব্যবহার করা হয়েছে; প্রশ্নে 22।"
     },
     {
       "text": "Across the six top-ranked NC public universities, Charlotte Catholic High School’s applicants were admitted at a pooled 56.0% over the last five entering classes — 1,175 acceptances from 2,100 applications.",
@@ -4857,20 +4882,20 @@
       "t": "Class of 2027-এ senior"
     },
     {
-      "text": "~195",
-      "of": "2528dbfa",
+      "text": "~222",
+      "of": "d71b4d49",
       "at": [
         "charlotte-catholic:counseling.stats[2].value"
       ],
-      "t": "~195"
+      "t": "~222"
     },
     {
-      "text": "students per counselor across grades 9–12",
-      "of": "03fa6172",
+      "text": "students per counselor across grades 9–12 (1,330 students, NCES 2023–24, ÷ 6)",
+      "of": "b1d0b164",
       "at": [
         "charlotte-catholic:counseling.stats[2].label"
       ],
-      "t": "গ্রেড 9–12 জুড়ে কাউন্সেলরপ্রতি শিক্ষার্থী"
+      "t": "গ্রেড 9–12 জুড়ে কাউন্সেলরপ্রতি শিক্ষার্থী (1,330 জন শিক্ষার্থী, NCES 2023–24, ÷ 6)"
     },
     {
       "text": "340 665",
@@ -5209,12 +5234,12 @@
       "t": "junior ও senior পর্যায়ের কলেজ-পরিকল্পনার পাতাগুলোতে Prezi উপস্থাপনা যুক্ত করা আছে, যেগুলোর বিষয়বস্তু লেখা হিসেবে পাওয়া যায় না। তাই উপরের চার বছরের সময়রেখাটি দপ্তরের নিজস্ব প্রক্রিয়ার উপস্থাপনা থেকে নয়, প্রকাশিত নীতিমালা থেকে তৈরি।"
     },
     {
-      "text": "Where 200 colleges took CCHS graduates over four classes — and $25,186,236 in scholarships for one class.",
-      "of": "5e0aa837",
+      "text": "Where 199 colleges took CCHS graduates over four classes — and $25,186,236 in scholarships for one class.",
+      "of": "e7405778",
       "at": [
         "charlotte-catholic:outcomes.headline"
       ],
-      "t": "চারটি ব্যাচে 200টি কলেজ যেখানে CCHS-এর স্নাতকদের নিয়েছে — আর এক ব্যাচের জন্যই $25,186,236 বৃত্তি।"
+      "t": "চারটি ব্যাচে 199টি কলেজ যেখানে CCHS-এর স্নাতকদের নিয়েছে — আর এক ব্যাচের জন্যই $25,186,236 বৃত্তি।"
     },
     {
       "text": "This is an enrollment list: where graduates actually enrolled, not everywhere they were admitted.",
@@ -5225,20 +5250,20 @@
       "t": "এটি ভর্তি হওয়ার তালিকা: স্নাতকেরা আসলে কোথায় ভর্তি হয়েছেন তার হিসাব, কোথায় কোথায় সুযোগ পেয়েছেন তার নয়।"
     },
     {
-      "text": "200",
-      "of": "c3e7575d",
+      "text": "199",
+      "of": "f421d672",
       "at": [
         "charlotte-catholic:outcomes.stats[0].value"
       ],
-      "t": "200"
+      "t": "199"
     },
     {
-      "text": "institutions graduates enrolled at, Classes of 2023–2026",
-      "of": "90c17d3f",
+      "text": "institutions graduates enrolled at, Classes of 2023–2026 (200 entries: the list names two Arizona State campuses)",
+      "of": "d25201af",
       "at": [
         "charlotte-catholic:outcomes.stats[0].label"
       ],
-      "t": "2023–2026 ব্যাচগুলোর স্নাতকেরা যত প্রতিষ্ঠানে ভর্তি হয়েছেন"
+      "t": "2023–2026 ব্যাচগুলোর স্নাতকেরা যত প্রতিষ্ঠানে ভর্তি হয়েছেন (200টি এন্ট্রি: তালিকায় Arizona State-এর দুটি ক্যাম্পাসের নাম আছে)"
     },
     {
       "text": "98%",
@@ -5362,12 +5387,12 @@
       "t": "2023–2026-এর প্রতিটি ভর্তি"
     },
     {
-      "text": "200 institutions · the profile publishes no enrollment counts per institution",
-      "of": "7488d4d6",
+      "text": "199 institutions (200 entries: two Arizona State campuses) · the profile publishes no enrollment counts per institution",
+      "of": "5f1c9028",
       "at": [
         "charlotte-catholic:outcomes.collegesTotal"
       ],
-      "t": "200টি প্রতিষ্ঠান · প্রোফাইলে প্রতিষ্ঠানভিত্তিক ভর্তির সংখ্যা প্রকাশ করা হয় না"
+      "t": "199টি প্রতিষ্ঠান (200টি এন্ট্রি: Arizona State-এর দুটি ক্যাম্পাস) · প্রোফাইলে প্রতিষ্ঠানভিত্তিক ভর্তির সংখ্যা প্রকাশ করা হয় না"
     },
     {
       "text": "Scholarships and recognition",
@@ -5538,12 +5563,12 @@
       "t": "70 ঘণ্টা সেবার চেয়ে বেশি করুন। শর্তটি সবার জন্যই, তাই ঘণ্টা দিয়ে কেউ আলাদা হন না — আলাদা করে তার পেছনের প্যারিশ ও নেতৃত্বের দায়িত্বগুলো।"
     },
     {
-      "text": "Use the 76-club directory to build depth rather than breadth: seven honor societies carry published GPA thresholds, from NHS at 3.9 to Mu Alpha Theta at 4.5 in mathematics.",
-      "of": "f8e02a97",
+      "text": "Use the 76-club directory to build depth rather than breadth: five honor societies carry published GPA thresholds, from NHS at 3.9 to Mu Alpha Theta at 4.5 in mathematics.",
+      "of": "dfb5f00a",
       "at": [
         "charlotte-catholic:edge.levers[0].items[3]"
       ],
-      "t": "76টি ক্লাবের ডিরেক্টরিটি ব্যবহার করুন বিস্তারের বদলে গভীরতা গড়তে: সাতটি honor society-র প্রকাশিত GPA-র সীমা আছে, NHS-এ 3.9 থেকে গণিতে Mu Alpha Theta-য় 4.5 পর্যন্ত।"
+      "t": "76টি ক্লাবের ডিরেক্টরিটি ব্যবহার করুন বিস্তারের বদলে গভীরতা গড়তে: পাঁচটি honor society-র প্রকাশিত GPA-র সীমা আছে, NHS-এ 3.9 থেকে গণিতে Mu Alpha Theta-য় 4.5 পর্যন্ত।"
     },
     {
       "text": "For a classical or theology-facing application, the St. Augustine Scholars Program is a four-year differentiator that few applicants anywhere will carry.",
@@ -5810,12 +5835,12 @@
       "t": "Options Program"
     },
     {
-      "text": "A full parallel track — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance and Options Financial Management: 14 courses in all.",
-      "of": "fd1460c0",
+      "text": "A full parallel track — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance and Options Financial Management: 13 courses in all.",
+      "of": "a7b3ff01",
       "at": [
         "charlotte-catholic:wholeClass.support[2].text"
       ],
-      "t": "পুরোদস্তুর একটি সমান্তরাল ধারা — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance ও Options Financial Management: সব মিলিয়ে 14টি কোর্স।"
+      "t": "পুরোদস্তুর একটি সমান্তরাল ধারা — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance ও Options Financial Management: সব মিলিয়ে 13টি কোর্স।"
     },
     {
       "text": "Pathway Program",
@@ -5978,12 +6003,12 @@
       "t": "কলেজের তালিকাটি ভর্তি হওয়ার হিসাব হিসেবেই পড়ুন"
     },
     {
-      "text": "**200 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.",
-      "of": "27cbfe32",
+      "text": "**199 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.",
+      "of": "1097e801",
       "at": [
         "charlotte-catholic:verdict.points[2].text"
       ],
-      "t": "2023–2026 ব্যাচগুলো জুড়ে **200টি প্রতিষ্ঠান** মানে স্নাতকেরা আসলে যেখানে *ভর্তি হয়েছেন*, যা গঠনগতভাবেই সুযোগ পাওয়ার তালিকার চেয়ে ছোট একটি হিসাব। এটি বুঝলে CCHS-কে দুর্বল নয়, বরং আরও শক্তিশালী মনে হয়।"
+      "t": "2023–2026 ব্যাচগুলো জুড়ে **199টি প্রতিষ্ঠান** মানে স্নাতকেরা আসলে যেখানে *ভর্তি হয়েছেন*, যা গঠনগতভাবেই সুযোগ পাওয়ার তালিকার চেয়ে ছোট একটি হিসাব। এটি বুঝলে CCHS-কে দুর্বল নয়, বরং আরও শক্তিশালী মনে হয়।"
     },
     {
       "text": "Athletics is the standout",
@@ -6138,12 +6163,12 @@
       "t": "2026-এ 589টি AP পরীক্ষা, যার 96%-এ স্কোর 3+ এবং 87%-এ 4 বা 5 — গড় স্কোর 4.2 — আর স্কুল এই ফল বিষয় ধরে ধরে প্রকাশ করে।"
     },
     {
-      "text": "Country Day was the first school in North Carolina to offer the IB Diploma. So a student has two clear routes to the hardest course load, not one. The profile also names the top course in every subject.",
-      "of": "61ee3e17",
+      "text": "The school’s profile calls Country Day the first school in North Carolina to offer the IB Diploma; its history page says the first private school. So a student has two clear routes to the hardest course load, not one. The profile also names the top course in every subject.",
+      "of": "c11f0c49",
       "at": [
         "charlotte-country-day:transcript.subhead"
       ],
-      "t": "উত্তর ক্যারোলাইনায় Country Day-ই প্রথম IB Diploma চালু করে। তাই সবচেয়ে কঠিন কোর্স-ভারে পৌঁছানোর জন্য একজন শিক্ষার্থীর সামনে একটি নয়, দুটি স্পষ্ট পথ থাকে। প্রোফাইল প্রতিটি বিষয়ের সর্বোচ্চ কোর্সটির নামও উল্লেখ করে।"
+      "t": "স্কুলের প্রোফাইল অনুযায়ী উত্তর ক্যারোলাইনায় Country Day-ই প্রথম IB Diploma চালু করে; ইতিহাসের পাতায় বলা হয়েছে প্রথম বেসরকারি স্কুল। তাই সবচেয়ে কঠিন কোর্স-ভারে পৌঁছানোর জন্য একজন শিক্ষার্থীর সামনে একটি নয়, দুটি স্পষ্ট পথ থাকে। প্রোফাইল প্রতিটি বিষয়ের সর্বোচ্চ কোর্সটির নামও উল্লেখ করে।"
     },
     {
       "text": "589",
@@ -6380,10 +6405,18 @@
       "t": "Honors, AP বা IB নয় এমন প্রতিটি কোর্স ট্রান্সক্রিপ্ট ও STARS ফর্মে **“Regular/Standard”** হিসেবে লেখা হয়। প্রোফাইল বলে, কাঠিন্যের দিক থেকে প্রতিটি কোর্সই কলেজ-প্রস্তুতিমূলক। গ্রেড 9-এর শিক্ষার্থীদের জন্য AP বন্ধ। গ্রেড 10-এর শিক্ষার্থীরা সাধারণত কেবল AP Human Geography ও AP Computer Science Principles নেন।"
     },
     {
+      "text": "IB \"first\" (plan consistency CCD-28, 2026-11-20): the 2026–27 profile says \"first school in North Carolina\" to offer the IB Diploma; the live history tile says \"the first private school in North Carolina\". Both attributed in the prose; Global Exposure uses the history page.",
+      "of": "3c077921",
+      "at": [
+        "charlotte-country-day:transcript.flags[0].text"
+      ],
+      "t": "IB-এর \"first\" দাবি (plan consistency CCD-28, 2026-11-20): 2026–27 প্রোফাইল বলছে IB Diploma চালুর ক্ষেত্রে \"first school in North Carolina\"; চালু ইতিহাস-টাইল বলছে \"the first private school in North Carolina\"। লেখায় দুটিরই উৎস উল্লেখ আছে; Global Exposure ইতিহাসের পাতা ব্যবহার করে।"
+    },
+    {
       "text": "No mandatory-AP-exam policy is published, so the 96% rests on an unstated denominator. The curriculum page says the exam “is the driver for the curriculum”, which implies a strong expectation but is not a stated requirement. AP Scholar counts have not been published since 2021.",
       "of": "9820dec9",
       "at": [
-        "charlotte-country-day:transcript.flags[0].text"
+        "charlotte-country-day:transcript.flags[1].text"
       ],
       "t": "AP পরীক্ষা বাধ্যতামূলক করার কোনো নীতি প্রকাশিত নয়, তাই 96% দাঁড়িয়ে আছে এমন একটি ভিত্তির ওপর যা জানানো হয়নি। পাঠক্রমের পাতায় বলা আছে পরীক্ষাই “পাঠক্রমের চালিকাশক্তি”, যা প্রবল একটি প্রত্যাশা বোঝায় বটে, কিন্তু ঘোষিত কোনো শর্ত নয়। 2021 সালের পর থেকে AP Scholar-এর সংখ্যা আর প্রকাশ করা হয়নি।"
     },
@@ -6391,7 +6424,7 @@
       "text": "The 26 AP is the profile’s own count: its rigorous-courses table prints 25 AP titles, with AP US and Comparative Government on one line. The Course Offerings catalogue (2025–26, the latest posted) holds 23; no 2026–27 catalogue was posted as of 2026-11-07.",
       "of": "354751ff",
       "at": [
-        "charlotte-country-day:transcript.flags[1].text"
+        "charlotte-country-day:transcript.flags[2].text"
       ],
       "t": "26টি AP প্রোফাইলের নিজের গণনা: এর কঠোর-কোর্সের তালিকায় 25টি AP শিরোনাম ছাপা, যেখানে AP US ও Comparative Government একই লাইনে। Course Offerings ক্যাটালগে (2025–26, সর্বশেষ প্রকাশিত) আছে 23টি; 2026-11-07 পর্যন্ত 2026–27-এর কোনো ক্যাটালগ প্রকাশিত হয়নি।"
     },
@@ -6404,28 +6437,28 @@
       "t": "536 জন Upper School শিক্ষার্থীর জন্য পাঁচজন পূর্ণকালীন কাউন্সেলর — জনপ্রতি মোটামুটি 27 জন senior — আর তাঁদের সম্মিলিত ভর্তি-অভিজ্ঞতা 100 বছরেরও বেশি।"
     },
     {
-      "text": "The office changed directors in July 2026, and the 2026–27 profile is the first edition to show the new office. But the office still holds a decade of experience. Two of the five have worked there since at least 2015–16.",
-      "of": "562439af",
+      "text": "The office changed directors in July 2026, and the 2026–27 profile is the first edition to show the new office. But the office still holds a decade of experience. Two of the five have worked there since at least 2015–16. The counseling page’s introduction says four full-time counselors, though the page and the profile both list five by name.",
+      "of": "696f7f7b",
       "at": [
         "charlotte-country-day:counseling.subhead"
       ],
-      "t": "2026 সালের জুলাইয়ে দপ্তরের পরিচালক বদল হয়েছে, আর 2026–27 প্রোফাইলই নতুন দপ্তরকে দেখানো প্রথম সংস্করণ। তবে দপ্তরে এখনও এক দশকের অভিজ্ঞতা আছে। পাঁচজনের দুজন অন্তত 2015–16 থেকে এখানে কাজ করছেন।"
+      "t": "2026 সালের জুলাইয়ে দপ্তরের পরিচালক বদল হয়েছে, আর 2026–27 প্রোফাইলই নতুন দপ্তরকে দেখানো প্রথম সংস্করণ। তবে দপ্তরে এখনও এক দশকের অভিজ্ঞতা আছে। পাঁচজনের দুজন অন্তত 2015–16 থেকে এখানে কাজ করছেন। কাউন্সেলিং পাতার ভূমিকায় চারজন পূর্ণকালীন কাউন্সেলরের কথা বলা হয়েছে, যদিও পাতা ও প্রোফাইল দুটিতেই পাঁচজনের নাম আছে।"
     },
     {
-      "text": "~1:27",
-      "of": "28dd31e9",
+      "text": "~27:1",
+      "of": "cda36ca3",
       "at": [
         "charlotte-country-day:counseling.stats[0].value"
       ],
-      "t": "~1:27"
+      "t": "~27:1"
     },
     {
-      "text": "counselors to seniors (derived — 137 ÷ 5; the school publishes no ratio)",
-      "of": "92970cca",
+      "text": "seniors per counselor (computed — 137 Class of 2027 seniors ÷ 5)",
+      "of": "164d06b7",
       "at": [
         "charlotte-country-day:counseling.stats[0].label"
       ],
-      "t": "কাউন্সেলর অনুপাতে senior (হিসাব করে বার করা — 137 ÷ 5; স্কুল কোনো অনুপাত প্রকাশ করে না)"
+      "t": "কাউন্সেলরপ্রতি senior (হিসাব করে বার করা — Class of 2027-এর 137 জন senior ÷ 5)"
     },
     {
       "text": "full-time college counselors, plus a registrar",
@@ -6684,12 +6717,12 @@
       "t": "ACCIS · NACAC · SACAC সদস্যপদ · প্রতি বছর প্রকাশিত একটি School Profile (CEEB 340666, IB 0667)"
     },
     {
-      "text": "Both ratios are derived (536 ÷ 5 and 137 ÷ 5, from the 2026–27 profile); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 1:54. The counseling page’s intro says “four full-time college counselors”, while that page and the profile both list five. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.",
-      "of": "6f96425c",
+      "text": "Both ratios are derived (536 ÷ 5 and 137 ÷ 5, from the 2026–27 profile); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 54:1. The counseling page’s intro says “four full-time college counselors”, while that page and the profile both list five. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.",
+      "of": "a7b8e9d2",
       "at": [
         "charlotte-country-day:counseling.flags[0].text"
       ],
-      "t": "দুটি অনুপাতই হিসাব করে বার করা (536 ÷ 5 এবং 137 ÷ 5, 2026–27 প্রোফাইল থেকে); স্কুল কোনো অনুপাত প্রকাশ করে না। প্রকৃত কাজের চাপ সম্ভবত junior ও senior মিলিয়ে, যা 1:54-এর কাছাকাছি। কাউন্সেলিং পাতার ভূমিকায় লেখা “চারজন পূর্ণকালীন কলেজ কাউন্সেলর”, অথচ সেই পাতা ও প্রোফাইল দুটোতেই পাঁচজনের নাম আছে। কোনো কাউন্সেলরের পরিচিতি, কর্মকাল, ডিগ্রি বা আগের কর্মস্থল প্রকাশিত নয় — দলের পাতায় কেবল নাম, পদবি ও যোগাযোগের তথ্য আছে।"
+      "t": "দুটি অনুপাতই হিসাব করে বার করা (536 ÷ 5 এবং 137 ÷ 5, 2026–27 প্রোফাইল থেকে); স্কুল কোনো অনুপাত প্রকাশ করে না। প্রকৃত কাজের চাপ সম্ভবত junior ও senior মিলিয়ে, যা 54:1-এর কাছাকাছি। কাউন্সেলিং পাতার ভূমিকায় লেখা “চারজন পূর্ণকালীন কলেজ কাউন্সেলর”, অথচ সেই পাতা ও প্রোফাইল দুটোতেই পাঁচজনের নাম আছে। কোনো কাউন্সেলরের পরিচিতি, কর্মকাল, ডিগ্রি বা আগের কর্মস্থল প্রকাশিত নয় — দলের পাতায় কেবল নাম, পদবি ও যোগাযোগের তথ্য আছে।"
     },
     {
       "text": "No count of campus visits made by counseling staff is published anywhere, and no named scholarship-search tool or database is described.",
@@ -6700,20 +6733,20 @@
       "t": "কাউন্সেলিং কর্মীরা কতগুলো ক্যাম্পাস পরিদর্শন করেন, তার কোনো হিসাব কোথাও প্রকাশিত নয়, আর নাম উল্লেখ করা কোনো বৃত্তি-অনুসন্ধানের সরঞ্জাম বা ডেটাবেসের বর্ণনাও নেই।"
     },
     {
-      "text": "The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada, with 32 students to UNC–Chapel Hill alone.",
-      "of": "67e3cb81",
+      "text": "The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada. UNC–Chapel Hill alone admitted 32 of them, up from 23 the year before.",
+      "of": "af21607a",
       "at": [
         "charlotte-country-day:outcomes.headline"
       ],
-      "t": "Class of 2026 — 141 জন senior — ভর্তি হয়েছেন 24টি অঙ্গরাজ্য, DC ও কানাডার 70টি প্রতিষ্ঠানে, যার মধ্যে কেবল UNC–Chapel Hill-এই 32 জন।"
+      "t": "Class of 2026 — 141 জন senior — ভর্তি হয়েছেন 24টি অঙ্গরাজ্য, DC ও কানাডার 70টি প্রতিষ্ঠানে। কেবল UNC–Chapel Hill-ই তাঁদের 32 জনকে ভর্তির সুযোগ দিয়েছে, আগের বছরের 23 থেকে বেড়ে।"
     },
     {
-      "text": "The published list covers four years of acceptances at 363 colleges. Harvard, Caltech, Johns Hopkins and Northwestern were among those added in the final edition. Only the names in bold are places where a Class of 2026 student actually enrolled.",
-      "of": "6778ed7f",
+      "text": "The published list covers four years of acceptances at 363 colleges. Harvard, Caltech, Johns Hopkins and Northwestern were among those added in the final edition. Only the names in bold are places where a Class of 2026 student actually enrolled. The school’s own documents differ slightly: the profile says 24 states, the Class of 2026 page says 23, and the list bolds 69 colleges against the 70 both pages give.",
+      "of": "24007af8",
       "at": [
         "charlotte-country-day:outcomes.subhead"
       ],
-      "t": "প্রকাশিত তালিকাটিতে 363টি কলেজে চার বছরের ভর্তির সুযোগ আছে। চূড়ান্ত সংস্করণে নতুন যুক্ত নামের মধ্যে আছে Harvard, Caltech, Johns Hopkins ও Northwestern। কেবল মোটা হরফের নামগুলোই এমন জায়গা, যেখানে Class of 2026-এর কোনো শিক্ষার্থী সত্যিই ভর্তি হয়েছেন।"
+      "t": "প্রকাশিত তালিকাটিতে 363টি কলেজে চার বছরের ভর্তির সুযোগ আছে। চূড়ান্ত সংস্করণে নতুন যুক্ত নামের মধ্যে আছে Harvard, Caltech, Johns Hopkins ও Northwestern। কেবল মোটা হরফের নামগুলোই এমন জায়গা, যেখানে Class of 2026-এর কোনো শিক্ষার্থী সত্যিই ভর্তি হয়েছেন। স্কুলের নিজের নথিগুলোতে সামান্য অমিল আছে: প্রোফাইল বলছে 24টি অঙ্গরাজ্য, Class of 2026 পাতা বলছে 23, আর তালিকায় 69টি কলেজ মোটা হরফে আছে, যেখানে দুটি পাতাই বলছে 70।"
     },
     {
       "text": "70",
@@ -6751,18 +6784,17 @@
       "text": "32",
       "of": "85f04e50",
       "at": [
-        "charlotte-country-day:outcomes.stats[2].value",
-        "carmel-christian:outcomes.stats[2].value"
+        "charlotte-country-day:outcomes.stats[2].value"
       ],
       "t": "32"
     },
     {
-      "text": "students to UNC–Chapel Hill — 23% of the class",
-      "of": "5653c3fd",
+      "text": "seniors admitted to UNC–Chapel Hill (up from 23)",
+      "of": "5bdfb61d",
       "at": [
         "charlotte-country-day:outcomes.stats[2].label"
       ],
-      "t": "UNC–Chapel Hill-এ যত শিক্ষার্থী — ব্যাচের 23%"
+      "t": "UNC–Chapel Hill-এ ভর্তির সুযোগ পাওয়া senior (23 থেকে বেড়ে)"
     },
     {
       "text": "$14.7M",
@@ -6853,12 +6885,12 @@
       "t": "সাম্প্রতিক: Jefferson, Jack Kent Cooke, QuestBridge, Ron Brown, Coca-Cola"
     },
     {
-      "text": "Treat the “34 Morehead-Cain recipients” figure with care. The College Counseling main page shows it next to Class of 2026 numbers. But the Class of 2026 had exactly one Morehead-Cain Scholar. The 34 is an all-time total, and the school never says what years it covers. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile. They should not be shown as awards students win today.",
-      "of": "b1beab57",
+      "text": "The Class of 2026 page gives two scholarship totals: $14.7 million+ in its summary and more than $14.8 million in its text. Treat the “34 Morehead-Cain recipients” figure with care. The College Counseling main page shows it next to Class of 2026 numbers. But the Class of 2026 had exactly one Morehead-Cain Scholar. The 34 is an all-time total, and the school never says what years it covers. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile. They should not be shown as awards students win today.",
+      "of": "fee4d6c1",
       "at": [
         "charlotte-country-day:outcomes.scholarshipsNote"
       ],
-      "t": "“34 জন Morehead-Cain প্রাপক” সংখ্যাটি সাবধানে পড়ুন। College Counseling-এর মূল পাতায় এটি Class of 2026-এর পরিসংখ্যানের পাশেই দেখানো হয়। অথচ Class of 2026 থেকে Morehead-Cain Scholar হয়েছেন ঠিক একজন। 34 আসলে সর্বকালের মোট হিসাব, আর কোন কোন বছর এতে ধরা, স্কুল কখনও বলে না। Robertson Scholars ও NC State Park Scholars আছে কেবল 2015–16 প্রোফাইলে। এগুলোকে আজকের শিক্ষার্থীরা পান এমন পুরস্কার হিসেবে দেখানো উচিত নয়।"
+      "t": "Class of 2026 পাতায় বৃত্তির দুটি মোট হিসাব আছে: সারসংক্ষেপে $14.7 million+, আর লেখায় $14.8 million-এর বেশি। “34 জন Morehead-Cain প্রাপক” সংখ্যাটি সাবধানে পড়ুন। College Counseling-এর মূল পাতায় এটি Class of 2026-এর পরিসংখ্যানের পাশেই দেখানো হয়। অথচ Class of 2026 থেকে Morehead-Cain Scholar হয়েছেন ঠিক একজন। 34 আসলে সর্বকালের মোট হিসাব, আর কোন কোন বছর এতে ধরা, স্কুল কখনও বলে না। Robertson Scholars ও NC State Park Scholars আছে কেবল 2015–16 প্রোফাইলে। এগুলোকে আজকের শিক্ষার্থীরা পান এমন পুরস্কার হিসেবে দেখানো উচিত নয়।"
     },
     {
       "text": "Bold read from the font runs of both 2023–2026 editions: the May edition (5/28/2026) and the final edition each carry 69 bold names. Lafayette lost bold in the final edition; Central Piedmont and Wesleyan gained it; Northeastern is bold in both. The earlier Yale marker was a transcription slip — Yale is bold in neither edition. The school’s “70 institutions” enrolling figure is one more than either edition’s 69 bold names.",
@@ -6893,20 +6925,20 @@
       "t": "Country Day-তে যা নেই তা হলো বাধ্যতামূলক কোনো সমাপনী প্রকল্প বা গবেষণা-অভিসন্দর্ভ; এখানে বিশেষত্ব গড়ে ওঠে কর্মসূচির বিস্তার থেকে, বাধ্যতামূলক একক কোনো সনদ থেকে নয়।"
     },
     {
-      "text": "**IB Diploma Programme** — Country Day was the **first school in North Carolina** to offer it. **26 seniors in the Class of 2027** take the full diploma from junior year. Its five-year pass rate is 88%. For a student whose strengths do not fit the AP model, it is a second clear path to the hardest course load. It also has an Extended Essay built in.",
-      "of": "212c6c82",
+      "text": "**IB Diploma Programme** — the school’s profile calls it the **first school in North Carolina** to offer it, and its history page the first private school. **26 seniors in the Class of 2027** take the full diploma from junior year. Its five-year pass rate is 88%. For a student whose strengths do not fit the AP model, it is a second clear path to the hardest course load. It also has an Extended Essay built in.",
+      "of": "065c4c3f",
       "at": [
         "charlotte-country-day:edge.levers[0].items[0]"
       ],
-      "t": "**IB Diploma Programme** — উত্তর ক্যারোলাইনায় **প্রথম স্কুল** হিসেবে Country Day এটি চালু করে। **Class of 2027-এর 26 জন senior** junior বর্ষ থেকে পূর্ণ ডিপ্লোমাটি নিচ্ছেন। এর পাঁচ বছরের উত্তীর্ণের হার 88%। যে শিক্ষার্থীর শক্তি AP-র ছাঁচে পড়ে না, তাঁর জন্য এটি সবচেয়ে কঠিন কোর্স-ভারে পৌঁছানোর দ্বিতীয় একটি স্পষ্ট পথ। এর গঠনেই একটি Extended Essay জুড়ে আছে।"
+      "t": "**IB Diploma Programme** — স্কুলের প্রোফাইল অনুযায়ী উত্তর ক্যারোলাইনায় **প্রথম স্কুল** হিসেবে Country Day এটি চালু করে, আর ইতিহাসের পাতা অনুযায়ী প্রথম বেসরকারি স্কুল হিসেবে। **Class of 2027-এর 26 জন senior** junior বর্ষ থেকে পূর্ণ ডিপ্লোমাটি নিচ্ছেন। এর পাঁচ বছরের উত্তীর্ণের হার 88%। যে শিক্ষার্থীর শক্তি AP-র ছাঁচে পড়ে না, তাঁর জন্য এটি সবচেয়ে কঠিন কোর্স-ভারে পৌঁছানোর দ্বিতীয় একটি স্পষ্ট পথ। এর গঠনেই একটি Extended Essay জুড়ে আছে।"
     },
     {
-      "text": "**Senior Externship** — a January job-shadowing program that started in 2017. It works with **175+ local employers across 20+ industries**. In a recent year **136 seniors** were placed with 68 Charlotte-area employers. Most hosts were current and past parents and alumni.",
-      "of": "c4a76917",
+      "text": "**Senior Externship** — a January job-shadowing program that started in 2017. The school’s Beyond the Classroom page says it works with **175+ local employers across 20+ industries**, and elsewhere on the same page 100+ employers in 20 industries. In a recent year **136 seniors** were placed with 68 Charlotte-area employers. Most hosts were current and past parents and alumni.",
+      "of": "124a4d25",
       "at": [
         "charlotte-country-day:edge.levers[0].items[1]"
       ],
-      "t": "**Senior Externship** — 2017-এ শুরু হওয়া জানুয়ারির একটি কাজ-দেখে-শেখার কর্মসূচি। এটি **20+ শিল্পখাতের 175+ স্থানীয় নিয়োগকর্তার** সঙ্গে কাজ করে। সাম্প্রতিক এক বছরে **136 জন senior** Charlotte এলাকার 68 জন নিয়োগকর্তার কাছে জায়গা পেয়েছেন। আয়োজকদের বেশির ভাগই বর্তমান ও প্রাক্তন অভিভাবক এবং প্রাক্তন শিক্ষার্থী।"
+      "t": "**Senior Externship** — 2017-এ শুরু হওয়া জানুয়ারির একটি কাজ-দেখে-শেখার কর্মসূচি। স্কুলের Beyond the Classroom পাতা বলছে, এটি **20+ শিল্পখাতের 175+ স্থানীয় নিয়োগকর্তার** সঙ্গে কাজ করে, আর একই পাতার অন্য জায়গায় বলছে 20টি শিল্পখাতের 100+ নিয়োগকর্তা। সাম্প্রতিক এক বছরে **136 জন senior** Charlotte এলাকার 68 জন নিয়োগকর্তার কাছে জায়গা পেয়েছেন। আয়োজকদের বেশির ভাগই বর্তমান ও প্রাক্তন অভিভাবক এবং প্রাক্তন শিক্ষার্থী।"
     },
     {
       "text": "**Science Outreach Program** — rising juniors and seniors work with science professors at local institutions on primary research over the summer, then present at the annual Science Symposium.",
@@ -6957,12 +6989,12 @@
       "t": "**সততার ইঙ্গিত** — প্রতি বছর শিক্ষার্থীদের অঙ্গীকার নেওয়া একটি Honor Code, শিক্ষার্থী-পরিচালিত একটি Honor Council, এবং ACCIS, NACAC ও SACAC-এর সদস্যপদ। শক্তিশালী শিক্ষকের চিহ্নগুলোও এখানে গুরুত্বপূর্ণ। Upper School-এর **83 জন শিক্ষক ও প্রশাসনিক কর্মী**র মধ্যে আছেন **AP পরীক্ষার reader**, National Board-এর মূল্যায়নকারী ও Klingenstein Fellow। 82%-এর উচ্চতর ডিগ্রি আছে, আর 100% প্রতি বছর শিক্ষক-প্রশিক্ষণে অংশ নেন।"
     },
     {
-      "text": "**A dominant UNC–Chapel Hill pipeline** — 32 Class of 2026 students enrolled there, 23% of the class. The school also counts 34 Morehead-Cain recipients all-time. Add a lasting Jefferson Scholar link to UVA and a decade of service-academy appointments.",
-      "of": "46b97f5b",
+      "text": "**A dominant UNC–Chapel Hill pipeline** — UNC–Chapel Hill admitted 32 Class of 2026 seniors, up from 23 the year before. The school also counts 34 Morehead-Cain recipients all-time. Add a lasting Jefferson Scholar link to UVA and a decade of service-academy appointments.",
+      "of": "72b58775",
       "at": [
         "charlotte-country-day:edge.levers[1].items[2]"
       ],
-      "t": "**UNC–Chapel Hill-এ প্রবল একটি সংযোগ** — Class of 2026-এর 32 জন শিক্ষার্থী সেখানে ভর্তি হয়েছেন, অর্থাৎ ব্যাচের 23%। স্কুল সব মিলিয়ে 34 জন Morehead-Cain প্রাপকের হিসাবও দেয়। এর সঙ্গে যোগ করুন UVA-তে Jefferson Scholar-এর দীর্ঘস্থায়ী সংযোগ এবং এক দশক ধরে সার্ভিস অ্যাকাডেমিতে নিয়োগ।"
+      "t": "**UNC–Chapel Hill-এ প্রবল একটি সংযোগ** — UNC–Chapel Hill Class of 2026-এর 32 জন senior-কে ভর্তির সুযোগ দিয়েছে, আগের বছরের 23 থেকে বেড়ে। স্কুল সব মিলিয়ে 34 জন Morehead-Cain প্রাপকের হিসাবও দেয়। এর সঙ্গে যোগ করুন UVA-তে Jefferson Scholar-এর দীর্ঘস্থায়ী সংযোগ এবং এক দশক ধরে সার্ভিস অ্যাকাডেমিতে নিয়োগ।"
     },
     {
       "text": "**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolled Class of 2026 students. The list holds 19 HBCUs (historically Black colleges and universities), with Claflin new. Recent awards include a February One Scholarship and a Ron Brown Scholar.",
@@ -7239,12 +7271,12 @@
       "t": "গোটা বণ্টনজুড়েই ফলাফল সৎ"
     },
     {
-      "text": "70 destinations for 141 seniors across 24 states, DC and Canada, 55% public and 45% private. Community colleges are listed alongside Princeton and MIT. 32 students enrolled at UNC–Chapel Hill. And a substantial HBCU pipeline, with students enrolling at four of them.",
-      "of": "f7cf9e31",
+      "text": "70 destinations for 141 seniors across 24 states, DC and Canada, 55% public and 45% private. Community colleges are listed alongside Princeton and MIT. UNC–Chapel Hill admitted 32 of them. And a substantial HBCU pipeline, with students enrolling at four of them.",
+      "of": "334c6b78",
       "at": [
         "charlotte-country-day:verdict.points[5].text"
       ],
-      "t": "141 জন senior-এর জন্য 24টি অঙ্গরাজ্য, DC ও কানাডা জুড়ে 70টি গন্তব্য, 55% সরকারি ও 45% বেসরকারি। Princeton ও MIT-র পাশাপাশি কমিউনিটি কলেজও তালিকায় আছে। UNC–Chapel Hill-এ 32 জন শিক্ষার্থী ভর্তি হয়েছেন। আর আছে উল্লেখযোগ্য একটি HBCU সংযোগ, যার চারটিতে শিক্ষার্থীরা ভর্তি হয়েছেন।"
+      "t": "141 জন senior-এর জন্য 24টি অঙ্গরাজ্য, DC ও কানাডা জুড়ে 70টি গন্তব্য, 55% সরকারি ও 45% বেসরকারি। Princeton ও MIT-র পাশাপাশি কমিউনিটি কলেজও তালিকায় আছে। UNC–Chapel Hill তাঁদের 32 জনকে ভর্তির সুযোগ দিয়েছে। আর আছে উল্লেখযোগ্য একটি HBCU সংযোগ, যার চারটিতে শিক্ষার্থীরা ভর্তি হয়েছেন।"
     },
     {
       "text": "Your 2026–27 profile prints a 1170–1400 SAT and 26–31 ACT middle 50% beside the Class of 2027 GPA table. Which class and how many test-takers does that cover? And why were the medians for each fifth dropped?",
@@ -7301,6 +7333,14 @@
         "charlotte-country-day:verdict.checklist[6]"
       ],
       "t": "আপনাদের কাউন্সেলররা বছরে কতগুলো কলেজ পরিদর্শন করেন, Senior Externship কি বাধ্যতামূলক, আর gap year, post-AP কম্পিউটার বিজ্ঞান বা সমাপনী-গবেষণার কী কী সুযোগ আছে?"
+    },
+    {
+      "text": "Your pages give slightly different figures: 23 or 24 states for the Class of 2026, $14.7 or $14.8 million in scholarships, four or five full-time counselors, and 100+ or 175+ externship employers. Which are current?",
+      "of": "fbb32210",
+      "at": [
+        "charlotte-country-day:verdict.checklist[7]"
+      ],
+      "t": "আপনাদের পাতাগুলোতে সংখ্যা সামান্য আলাদা: Class of 2026-এর জন্য 23 বা 24টি অঙ্গরাজ্য, বৃত্তিতে $14.7 বা $14.8 million, চার বা পাঁচজন পূর্ণকালীন কাউন্সেলর, এবং externship-এর 100+ বা 175+ নিয়োগকর্তা। কোনগুলো হালনাগাদ?"
     },
     {
       "text": "Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.",
@@ -9666,12 +9706,12 @@
       "t": "পরীক্ষার স্কোর যে কাজটি করত, School Profile সেটিই করে: পূর্ণ quality-point তালিকা, Honors-এ +0.5 / AP-তে +1.0, র‍্যাঙ্ক না দেওয়ার ঘোষিত নীতি, এবং তিন-বিন্দুর একটি GPA বণ্টন, যা 2.58-এর সর্বনিম্ন মানটিও জানিয়ে দেয়।"
     },
     {
-      "text": "AP courses offered in 2026–27 (derived count — the school publishes no total)",
-      "of": "0603b7e0",
+      "text": "AP courses on the 2026–27 Profile’s offered list (the catalog lists 26)",
+      "of": "379b9484",
       "at": [
         "davidson-day:transcript.stats[0].label"
       ],
-      "t": "2026–27-এ যত AP কোর্স পড়ানো হয় (গুনে বার করা — স্কুল কোনো মোট সংখ্যা প্রকাশ করে না)"
+      "t": "2026–27 Profile-এর পড়ানো কোর্সের তালিকায় থাকা AP কোর্স (ক্যাটালগে আছে 26টি)"
     },
     {
       "text": "Not published",
@@ -9834,12 +9874,12 @@
       "t": "“Most rigorous course load”-এর সংজ্ঞা কোথাও নেই। AP-র কোনো সর্বোচ্চ সীমা বলা নেই, আর কারা AP নিতে পারবেন তার কোনো প্রকাশিত নিয়মও নেই। Common App-এর curriculum rigor (শিক্ষার্থীর কোর্সগুলো কতটা কঠিন) প্রশ্নে স্কুল কী উত্তর দেয়, তারও কোনো বর্ণনা নেই।"
     },
     {
-      "text": "Two counselors for 184 Upper Schoolers — roughly 1:92, and about 1:25 across the 50 seniors — with the office’s stated start point in 9th grade rather than junior year.",
-      "of": "204fd086",
+      "text": "Two counselors for 184 Upper Schoolers — about 92 Upper School students and 25 seniors (Class of 2027) per counselor — with the office’s stated start point in 9th grade rather than junior year.",
+      "of": "becd5ef1",
       "at": [
         "davidson-day:counseling.headline"
       ],
-      "t": "184 জন Upper School শিক্ষার্থীর জন্য দুজন কাউন্সেলর — অর্থাৎ মোটামুটি 1:92, আর 50 জন senior ধরলে প্রায় 1:25 — আর দপ্তরের ঘোষিত শুরুর সময় junior বর্ষ নয়, 9th grade।"
+      "t": "184 জন Upper School শিক্ষার্থীর জন্য দুজন কাউন্সেলর — কাউন্সেলরপ্রতি প্রায় 92 জন Upper School শিক্ষার্থী ও 25 জন senior (Class of 2027) — আর দপ্তরের ঘোষিত শুরুর সময় junior বর্ষ নয়, 9th grade।"
     },
     {
       "text": "The small caseload is the believable part. What is missing is any written promise about what the office actually guarantees. It publishes no promise to review applications before they are sent, no stance on Early Decision or Early Action, and no process for recommendations.",
@@ -9850,20 +9890,20 @@
       "t": "কাজের চাপ কম হওয়াটাই বিশ্বাসযোগ্য দিক। যা নেই তা হলো দপ্তর আসলে কী নিশ্চয়তা দেয়, সে বিষয়ে কোনো লিখিত অঙ্গীকার। পাঠানোর আগে আবেদন পর্যালোচনার কোনো প্রকাশিত প্রতিশ্রুতি নেই, Early Decision বা Early Action নিয়ে কোনো অবস্থান নেই, সুপারিশপত্রের কোনো প্রক্রিয়াও নেই।"
     },
     {
-      "text": "~1:92",
-      "of": "add13755",
+      "text": "~92:1",
+      "of": "7c6715d7",
       "at": [
         "davidson-day:counseling.stats[0].value"
       ],
-      "t": "~1:92"
+      "t": "~92:1"
     },
     {
-      "text": "counselors to Upper School students (derived — no ratio is published)",
-      "of": "8a706a45",
+      "text": "Upper School students per counselor (computed — 184 ÷ 2)",
+      "of": "a637c0d0",
       "at": [
         "davidson-day:counseling.stats[0].label"
       ],
-      "t": "কাউন্সেলর অনুপাতে Upper School শিক্ষার্থী (হিসাব করে বার করা — কোনো অনুপাত প্রকাশিত নয়)"
+      "t": "কাউন্সেলরপ্রতি Upper School শিক্ষার্থী (হিসাব করে বার করা — 184 ÷ 2)"
     },
     {
       "text": "college counselors, plus a registrar",
@@ -10298,20 +10338,20 @@
       "t": "স্কুলটি যা দিতে পারে না তা হলো সুপরিচিত একটি নাম। তাই তার নিজের হাতে আছে Profile নিজেই, কলেজ-প্রতিনিধিদের আসার সংখ্যা এবং কাউন্সেলরদের কাছে পৌঁছানোর সুযোগ।"
     },
     {
-      "text": "**AFAR international field research** — real archaeology digs in Belize (since 2009), Spain (2014), Greece (2017) and Portugal (2018). The Belize dig runs with the BVAR project at Cahal Pech, under a permit from the Belize Institute of Archaeology. The program’s history appears in a peer-reviewed journal (*Heritage*, 2020). Students publish and present at conferences around the world.",
-      "of": "36bf8fa1",
+      "text": "**AFAR international field research** — real archaeology digs in Belize, Spain (2014), Greece (2017) and Portugal (2018). The school’s profile dates the Belize dig to 2009; its research page dates AFAR itself to 2006. The Belize dig runs with the BVAR project at Cahal Pech, under a permit from the Belize Institute of Archaeology. The program’s history appears in a peer-reviewed journal (*Heritage*, 2020). Students publish and present at conferences around the world.",
+      "of": "5e5ee91c",
       "at": [
         "davidson-day:edge.levers[0].items[0]"
       ],
-      "t": "**AFAR-এর আন্তর্জাতিক মাঠ-গবেষণা** — বেলিজ (2009 থেকে), স্পেন (2014), গ্রিস (2017) ও পর্তুগালে (2018) সত্যিকারের প্রত্নতাত্ত্বিক খনন। বেলিজের খননটি চলে BVAR প্রকল্পের সঙ্গে, Cahal Pech-এ, Belize Institute of Archaeology-র অনুমতি নিয়ে। কর্মসূচিটির ইতিহাস একটি পিয়ার-রিভিউ করা জার্নালে এসেছে (*Heritage*, 2020)। শিক্ষার্থীরা লেখা প্রকাশ করেন এবং বিশ্বজুড়ে সম্মেলনে উপস্থাপন করেন।"
+      "t": "**AFAR-এর আন্তর্জাতিক মাঠ-গবেষণা** — বেলিজ, স্পেন (2014), গ্রিস (2017) ও পর্তুগালে (2018) সত্যিকারের প্রত্নতাত্ত্বিক খনন। স্কুলের প্রোফাইল বেলিজের খননের শুরু ধরে 2009; গবেষণার পাতা AFAR-এর নিজের শুরু ধরে 2006। বেলিজের খননটি চলে BVAR প্রকল্পের সঙ্গে, Cahal Pech-এ, Belize Institute of Archaeology-র অনুমতি নিয়ে। কর্মসূচিটির ইতিহাস একটি পিয়ার-রিভিউ করা জার্নালে এসেছে (*Heritage*, 2020)। শিক্ষার্থীরা লেখা প্রকাশ করেন এবং বিশ্বজুড়ে সম্মেলনে উপস্থাপন করেন।"
     },
     {
-      "text": "**Global Studies Diploma** — a core course in Honors Anthropology, four approved AP courses, and the same world language in all four Upper School years. It also requires at least two weeks of international field research and a capstone paper. Most important, it *produces a separate transcript and profile sent to colleges*. That is an extra document in the file, not a line on the transcript.",
-      "of": "39b58995",
+      "text": "**Global Studies Diploma** — a core course in Honors Anthropology, four approved AP courses, a world language and a capstone paper. The profile asks for the same language in all four Upper School years and at least two weeks of international field research. The Global Studies page asks for Level IV or three levels of one language, and at least 100 practicum hours. Most important, it *produces a separate transcript and profile sent to colleges*. That is an extra document in the file, not a line on the transcript.",
+      "of": "538b58e3",
       "at": [
         "davidson-day:edge.levers[0].items[1]"
       ],
-      "t": "**Global Studies Diploma** — Honors Anthropology-তে একটি মূল কোর্স, অনুমোদিত চারটি AP কোর্স, এবং Upper School-এর চার বছর জুড়ে একই বিশ্বভাষা। এর জন্য আরও লাগে অন্তত দুই সপ্তাহের আন্তর্জাতিক মাঠ-গবেষণা এবং একটি সমাপনী প্রবন্ধ। সবচেয়ে গুরুত্বপূর্ণ, এটি *কলেজে পাঠানোর জন্য আলাদা একটি ট্রান্সক্রিপ্ট ও প্রোফাইল তৈরি করে*। অর্থাৎ এটি ট্রান্সক্রিপ্টে একটি লাইন নয়, নথিতে বাড়তি একটি কাগজ।"
+      "t": "**Global Studies Diploma** — Honors Anthropology-তে একটি মূল কোর্স, অনুমোদিত চারটি AP কোর্স, একটি বিশ্বভাষা ও একটি সমাপনী প্রবন্ধ। প্রোফাইল চায় Upper School-এর চার বছর জুড়ে একই ভাষা এবং অন্তত দুই সপ্তাহের আন্তর্জাতিক মাঠ-গবেষণা। Global Studies পাতা চায় একটি ভাষার Level IV বা তিনটি লেভেল, এবং অন্তত 100 ঘণ্টার প্র্যাকটিকাম। সবচেয়ে গুরুত্বপূর্ণ, এটি *কলেজে পাঠানোর জন্য আলাদা একটি ট্রান্সক্রিপ্ট ও প্রোফাইল তৈরি করে*। অর্থাৎ এটি ট্রান্সক্রিপ্টে একটি লাইন নয়, নথিতে বাড়তি একটি কাগজ।"
     },
     {
       "text": "**STEMM and Business & Civic Engagement Diplomas** — each requires at least 100 hours of approved internship or practicum (supervised field work). Each also requires Ethics Labs every quarter and an 11th-grade Research Methods Honors course. In 12th grade, students do a Capstone Research Honors mentorship. They then give a public talk at the Scholars Research Conference.",
@@ -10330,12 +10370,12 @@
       "t": "**নিয়োগ ও আর্টস ধারা** — বছরে একটি Athletic Recruitment Workshop এবং National Signing Day-র আয়োজন। সাম্প্রতিক এক signing day-তে সাতটি NLI (National Letter of Intent) চুক্তি হয়েছে। আর্টসের জন্য আছে AP Studio Art, সঙ্গে SCAD, Pratt, Manhattan School of Music, UNCSA ও AMDA-তে পোর্টফোলিওভিত্তিক ফল।"
     },
     {
-      "text": "The required internship or capstone applies only to students seeking a Diploma Distinction. There is no school-wide required internship or senior project. The AFAR participation counts (\"hundreds\", \"150+\", \"200+\") cover the whole program across many schools. How many Davidson Day students have taken part is not published.",
-      "of": "cd6833ed",
+      "text": "The required internship or capstone applies only to students seeking a Diploma Distinction. There is no school-wide required internship or senior project. AFAR’s participation figure, more than 500 students program-wide (2026), covers the whole program across many schools. How many Davidson Day students have taken part is not published.",
+      "of": "d0ac1b69",
       "at": [
         "davidson-day:edge.levers[0].note"
       ],
-      "t": "বাধ্যতামূলক ইন্টার্নশিপ বা সমাপনী প্রকল্প কেবল Diploma Distinction-এর প্রার্থীদের ক্ষেত্রেই প্রযোজ্য। স্কুলজুড়ে বাধ্যতামূলক কোনো ইন্টার্নশিপ বা senior project নেই। AFAR-এ অংশগ্রহণের সংখ্যাগুলো (“কয়েকশো”, “150+”, “200+”) বহু স্কুল মিলিয়ে গোটা কর্মসূচির হিসাব। Davidson Day-র কতজন শিক্ষার্থী এতে অংশ নিয়েছেন, তা প্রকাশিত নয়।"
+      "t": "বাধ্যতামূলক ইন্টার্নশিপ বা সমাপনী প্রকল্প কেবল Diploma Distinction-এর প্রার্থীদের ক্ষেত্রেই প্রযোজ্য। স্কুলজুড়ে বাধ্যতামূলক কোনো ইন্টার্নশিপ বা senior project নেই। AFAR-এ অংশগ্রহণের সংখ্যাটি, কর্মসূচিজুড়ে 500-এর বেশি শিক্ষার্থী (2026), বহু স্কুল মিলিয়ে গোটা কর্মসূচির হিসাব। Davidson Day-র কতজন শিক্ষার্থী এতে অংশ নিয়েছেন, তা প্রকাশিত নয়।"
     },
     {
       "text": "**The School Profile as an instrument** — the strongest lever here, and well done. It is four pages, current and linked in public. It gives the full grading scale and weighting, what the GPA leaves out, and the Class of 2027 GPA range. It also has the complete course catalog, with courses not offered clearly marked. Then come graduation requirements, the Honor Code and the five-year acceptance list. A reader who has never been to Davidson, NC, can understand a student without relying on test scores or rank. That is exactly the job the Profile has to do.",
@@ -10376,6 +10416,14 @@
         "davidson-day:edge.levers[1].note"
       ],
       "t": "সততার ইঙ্গিতের শাস্তি-সংক্রান্ত দিকটি অপ্রকাশিত। suspension বা honor-code লঙ্ঘন স্কুল কলেজে যে মাধ্যমিক স্কুলের প্রতিবেদন পাঠায় তাতে যায় কি না, স্কুল তা বলে না। কোনো ঘটনার ব্যাখ্যা একজন শিক্ষার্থী কীভাবে দিতে পারেন, তাও বলে না।"
+    },
+    {
+      "text": "Two school sources disagree (plan consistency DD-5/DD-6, 2026-11-20). AFAR start: the 2026–27 Profile says \"in Belize since 2009\"; the archived International Research page says \"Since inception in 2006\" (Global Exposure uses 2006). Global Studies Diploma: the Profile says four years of one language and \"a minimum of two weeks\" of field research; the live Global Studies page says \"Level IV or 3 levels\" and \"At least 100 hours\", with no duration. Both attributed in the prose; Global Exposure carries the ask.",
+      "of": "f532a90f",
+      "at": [
+        "davidson-day:edge.flags[0].text"
+      ],
+      "t": "স্কুলের দুটি উৎস মেলে না (plan consistency DD-5/DD-6, 2026-11-20)। AFAR-এর শুরু: 2026–27 Profile বলছে \"in Belize since 2009\"; আর্কাইভ করা International Research পাতা বলছে \"Since inception in 2006\" (Global Exposure 2006 ব্যবহার করে)। Global Studies Diploma: Profile বলছে একটি ভাষার চার বছর এবং \"a minimum of two weeks\" মাঠ-গবেষণা; চালু Global Studies পাতা বলছে \"Level IV or 3 levels\" ও \"At least 100 hours\", কোনো সময়কাল ছাড়া। লেখায় দুটিরই উৎস উল্লেখ আছে; প্রশ্নটি রাখা হয়েছে Global Exposure-এ।"
     },
     {
       "text": "Davidson Day has published no SAT or ACT scores since its 2020–21 profile — the current one says “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”.",
@@ -10690,12 +10738,12 @@
       "t": "Global Studies Diploma আলাদা একটি ট্রান্সক্রিপ্ট পাঠায়"
     },
     {
-      "text": "This is different in kind from an honors cord. The Profile states that an extra transcript and profile go to colleges. The diploma is backed by language study, two weeks of international field research and a capstone paper.",
-      "of": "6068e6ef",
+      "text": "This is different in kind from an honors cord. The Profile states that an extra transcript and profile go to colleges. The diploma is backed by language study, international field research and a capstone paper.",
+      "of": "94e8d86d",
       "at": [
         "davidson-day:verdict.points[1].text"
       ],
-      "t": "এটি honors cord থেকে ধরনেই আলাদা। Profile জানায় যে কলেজে বাড়তি একটি ট্রান্সক্রিপ্ট ও প্রোফাইল যায়। ডিপ্লোমাটির পেছনে আছে ভাষা-অধ্যয়ন, দুই সপ্তাহের আন্তর্জাতিক মাঠ-গবেষণা ও একটি সমাপনী প্রবন্ধ।"
+      "t": "এটি honors cord থেকে ধরনেই আলাদা। Profile জানায় যে কলেজে বাড়তি একটি ট্রান্সক্রিপ্ট ও প্রোফাইল যায়। ডিপ্লোমাটির পেছনে আছে ভাষা-অধ্যয়ন, আন্তর্জাতিক মাঠ-গবেষণা ও একটি সমাপনী প্রবন্ধ।"
     },
     {
       "text": "The caseload is genuinely small, and starts in 9th grade",
@@ -10706,12 +10754,12 @@
       "t": "কাজের চাপ সত্যিই কম, আর শুরু হয় 9th grade থেকে"
     },
     {
-      "text": "Two counselors for 184 Upper Schoolers (~1:92, ~1:25 at senior level) makes the “individualized” language credible rather than promotional.",
-      "of": "f63f0a2d",
+      "text": "Two counselors for 184 Upper Schoolers (~92:1, ~25:1 at senior level) makes the “individualized” language credible rather than promotional.",
+      "of": "aac659cd",
       "at": [
         "davidson-day:verdict.points[2].text"
       ],
-      "t": "184 জন Upper School শিক্ষার্থীর জন্য দুজন কাউন্সেলর (~1:92, senior পর্যায়ে ~1:25) — এতে “ব্যক্তিগত মনোযোগ” কথাটি প্রচার না থেকে বিশ্বাসযোগ্য হয়ে ওঠে।"
+      "t": "184 জন Upper School শিক্ষার্থীর জন্য দুজন কাউন্সেলর (~92:1, senior পর্যায়ে ~25:1) — এতে “ব্যক্তিগত মনোযোগ” কথাটি প্রচার না থেকে বিশ্বাসযোগ্য হয়ে ওঠে।"
     },
     {
       "text": "The Profile does the work test scores would",
@@ -10810,6 +10858,14 @@
       "t": "Learning Enrichment Center কি বিশেষ সুবিধা লিখে দেয় বা পরিচালনা করে? যদি করে, তবে College Board ও ACT পরীক্ষার জন্য সেগুলোর অনুমোদন কে করান, আর কলেজের প্রতিবন্ধী-সেবার জন্য কে নথিভুক্ত করেন?"
     },
     {
+      "text": "Your profile dates the Belize dig to 2009, and your research page dates AFAR to 2006. Which year was Davidson Day’s first season?",
+      "of": "46453d69",
+      "at": [
+        "davidson-day:verdict.checklist[8]"
+      ],
+      "t": "আপনাদের প্রোফাইল বেলিজের খননের শুরু ধরে 2009, আর গবেষণার পাতা AFAR-এর শুরু ধরে 2006। Davidson Day-র প্রথম মৌসুম কোন বছর?"
+    },
+    {
       "text": "Across the six top-ranked NC public universities, Carmel Christian School’s applicants were admitted at a pooled 59.2% over the last five entering classes — 346 acceptances from 584 applications.",
       "of": "555db8cd",
       "at": [
@@ -10858,12 +10914,12 @@
       "t": "73% সিনিয়র অন্তত একটি AP পরীক্ষায় 3 বা তার বেশি স্কোর করেছে, এবং 80% অন্তত একটিতে বসেছে। College Board-এর Platinum AP School Honor Roll, অর্থাৎ তার শীর্ষ স্তরের জন্য এটি যথেষ্ট।"
     },
     {
-      "text": "A broad-participation AP program: 14 AP courses across 21 sections taught by 12 teachers, with 19% of seniors sitting five or more exams.",
-      "of": "d3c5a74a",
+      "text": "A broad-participation AP program: in 2023, 14 AP courses across 21 sections taught by 12 teachers, with 19% of seniors sitting five or more exams.",
+      "of": "6fc81a04",
       "at": [
         "carmel-christian:transcript.subhead"
       ],
-      "t": "একটি ব্যাপক-অংশগ্রহণের AP প্রোগ্রাম: 12 জন শিক্ষক দ্বারা পড়ানো 21 সেকশন জুড়ে 14টি AP কোর্স, যেখানে 19% সিনিয়র পাঁচ বা তার বেশি পরীক্ষায় বসেছে।"
+      "t": "একটি ব্যাপক-অংশগ্রহণের AP প্রোগ্রাম: 2023-এ 12 জন শিক্ষক দ্বারা পড়ানো 21 সেকশন জুড়ে 14টি AP কোর্স, যেখানে 19% সিনিয়র পাঁচ বা তার বেশি পরীক্ষায় বসেছে।"
     },
     {
       "text": "Platinum",
@@ -10914,12 +10970,12 @@
       "t": "14 / 21"
     },
     {
-      "text": "AP courses / sections, taught by 12 teachers",
-      "of": "1110a371",
+      "text": "AP courses / sections in 2023, taught by 12 teachers",
+      "of": "c16d8681",
       "at": [
         "carmel-christian:transcript.stats[3].label"
       ],
-      "t": "AP কোর্স / সেকশন, 12 জন শিক্ষক দ্বারা পড়ানো"
+      "t": "2023-এ AP কোর্স / সেকশন, 12 জন শিক্ষক দ্বারা পড়ানো"
     },
     {
       "text": "What the AP recognition rests on",
@@ -10970,12 +11026,12 @@
       "t": "স্টাফিং"
     },
     {
-      "text": "**21 sections across 14 AP courses, taught by 12 teachers** — the program is spread across a real faculty rather than concentrated in one or two rooms.",
-      "of": "01cc569e",
+      "text": "**In 2023, 21 sections across 14 AP courses, taught by 12 teachers** — the program is spread across a real faculty rather than concentrated in one or two rooms.",
+      "of": "46216278",
       "at": [
         "carmel-christian:transcript.depth[2].text"
       ],
-      "t": "**14টি AP কোর্স জুড়ে 21 সেকশন, 12 জন শিক্ষক দ্বারা পড়ানো** — প্রোগ্রামটি এক-দুটি রুমে কেন্দ্রীভূত না হয়ে একটি প্রকৃত ফ্যাকাল্টি জুড়ে ছড়ানো।"
+      "t": "**2023-এ 14টি AP কোর্স জুড়ে 21 সেকশন, 12 জন শিক্ষক দ্বারা পড়ানো** — প্রোগ্রামটি এক-দুটি রুমে কেন্দ্রীভূত না হয়ে একটি প্রকৃত ফ্যাকাল্টি জুড়ে ছড়ানো।"
     },
     {
       "text": "How the grade is framed",
@@ -11404,12 +11460,12 @@
       "t": "পাবলিক সাইটে সিনিয়র শ্রেণির আকার, প্রতি কাউন্সেলরের সিনিয়র সংখ্যা বা বছরে কলেজ-প্রতিনিধিদের আসার সংখ্যা প্রকাশ করা নেই। তাই অপ্রকাশিত একটি সংখ্যা থেকে হিসাব কষে বের না করে এই কার্ডে কোনো caseload সংখ্যা উল্লেখ করা হয়নি।"
     },
     {
-      "text": "Around 215 institutions appear on the published College Acceptances list — Princeton and Duke at the top, through a deep bench of NC publics and Christian colleges.",
-      "of": "5627c532",
+      "text": "214 colleges appear on the school’s College Acceptances list. Princeton and Duke lead it, with a deep bench of NC public and Christian colleges.",
+      "of": "75cb48e7",
       "at": [
         "carmel-christian:outcomes.headline"
       ],
-      "t": "প্রকাশিত College Acceptances তালিকায় প্রায় 215টি প্রতিষ্ঠান আছে — শীর্ষে Princeton ও Duke, NC public ও Christian college-এর একটি গভীর সারি হয়ে।"
+      "t": "স্কুলের College Acceptances তালিকায় 214টি কলেজ আছে। শীর্ষে Princeton ও Duke, সঙ্গে NC public ও Christian college-এর একটি গভীর সারি।"
     },
     {
       "text": "The page gives no time window, no counts and no markings showing where students enrolled. So it reads as an acceptance list built up over time. Here it is scored against the current U.S. News tiers.",
@@ -11420,20 +11476,20 @@
       "t": "পৃষ্ঠাটিতে কোনো সময়সীমা, সংখ্যা বা শিক্ষার্থীরা কোথায় ভর্তি হয়েছে তার কোনো চিহ্ন নেই। তাই এটি সময়ের সঙ্গে জমে ওঠা একটি acceptance তালিকা হিসেবে পড়ে। এখানে এটি বর্তমান U.S. News স্তরের বিপরীতে যাচাই করা হয়েছে।"
     },
     {
-      "text": "~215",
-      "of": "6813e2c7",
+      "text": "214",
+      "of": "b9e50908",
       "at": [
         "carmel-christian:outcomes.stats[0].value"
       ],
-      "t": "~215"
+      "t": "214"
     },
     {
-      "text": "institutions named on the acceptance list (no count stated)",
-      "of": "d3b5e6ac",
+      "text": "colleges on the acceptance list (217 entries; the list repeats three)",
+      "of": "e55a8f51",
       "at": [
         "carmel-christian:outcomes.stats[0].label"
       ],
-      "t": "acceptance তালিকায় নামযুক্ত প্রতিষ্ঠান (কোনো সংখ্যা উল্লেখ নেই)"
+      "t": "acceptance তালিকায় থাকা কলেজ (217টি এন্ট্রি; তালিকায় তিনটি নাম দুবার এসেছে)"
     },
     {
       "text": "1 of 8",
@@ -11517,12 +11573,12 @@
       "t": "প্রতিটি নামযুক্ত acceptance"
     },
     {
-      "text": "~215 institutions · no time window, counts or enrollment markings published",
-      "of": "50a2af20",
+      "text": "214 colleges (217 entries; the list repeats three) · no time window, counts or enrollment markings published",
+      "of": "bd9e22f3",
       "at": [
         "carmel-christian:outcomes.collegesTotal"
       ],
-      "t": "~215 প্রতিষ্ঠান · কোনো সময়সীমা, সংখ্যা বা ভর্তি হওয়ার চিহ্ন প্রকাশিত নয়"
+      "t": "214টি কলেজ (217টি এন্ট্রি; তালিকায় তিনটি নাম দুবার এসেছে) · কোনো সময়সীমা, সংখ্যা বা ভর্তি হওয়ার চিহ্ন প্রকাশিত নয়"
     },
     {
       "text": "No scholarship dollar totals published",
@@ -11608,12 +11664,12 @@
       "t": "**Platinum AP School Honor Roll** — College Board-এর শীর্ষ স্তর, একটি সংকীর্ণ অভিজাত গোষ্ঠীর বদলে ব্যাপক অংশগ্রহণে অর্জিত (80% সিনিয়র একটি পরীক্ষায় বসেছে, 73% 3+ স্কোর করেছে)।"
     },
     {
-      "text": "**A heavy-load group exists** — 19% of seniors sat five or more AP exams, across a 14-course / 21-section program.",
-      "of": "e1851c2c",
+      "text": "**A heavy-load group exists** — 19% of seniors sat five or more AP exams, across a 14-course / 21-section program in 2023.",
+      "of": "b2fd55b8",
       "at": [
         "carmel-christian:edge.levers[0].items[1]"
       ],
-      "t": "**একটি ভারী-ভার দল বিদ্যমান** — 19% সিনিয়র পাঁচ বা তার বেশি AP পরীক্ষায় বসেছে, একটি 14-কোর্স / 21-সেকশন প্রোগ্রাম জুড়ে।"
+      "t": "**একটি ভারী-ভার দল বিদ্যমান** — 19% সিনিয়র পাঁচ বা তার বেশি AP পরীক্ষায় বসেছে, 2023-এর একটি 14-কোর্স / 21-সেকশন প্রোগ্রাম জুড়ে।"
     },
     {
       "text": "**A sequenced plan** — the published four-year timeline runs Strong Start → Involvement & Service → Testing & Research → Essays & Applications. So a student works toward the application from 9th grade. It is not thrown together in the fall of senior year.",
@@ -11892,12 +11948,12 @@
       "t": "ফলাফল ব্যাপ্তি দেখায়"
     },
     {
-      "text": "Around 215 named acceptances led by Princeton and Duke, deep in NC public universities and Christian colleges. But the list does not mark enrollments, so it shows acceptances, not where students enrolled.",
-      "of": "bde6aa92",
+      "text": "214 named colleges, led by Princeton and Duke, deep in NC public universities and Christian colleges. But the list does not mark enrollments, so it shows acceptances, not where students enrolled.",
+      "of": "1ebb5d98",
       "at": [
         "carmel-christian:verdict.points[3].text"
       ],
-      "t": "Princeton ও Duke-এর নেতৃত্বে প্রায় 215টি নামযুক্ত acceptance, NC-র সরকারি বিশ্ববিদ্যালয় ও Christian college-এ গভীর। কিন্তু তালিকাটি ভর্তি হওয়া চিহ্নিত করে না, তাই এটি acceptance দেখায়, শিক্ষার্থীরা কোথায় ভর্তি হয়েছে তা নয়।"
+      "t": "Princeton ও Duke-এর নেতৃত্বে 214টি নামযুক্ত কলেজ, NC-র সরকারি বিশ্ববিদ্যালয় ও Christian college-এ গভীর। কিন্তু তালিকাটি ভর্তি হওয়া চিহ্নিত করে না, তাই এটি acceptance দেখায়, শিক্ষার্থীরা কোথায় ভর্তি হয়েছে তা নয়।"
     },
     {
       "text": "The weighting changes with the Class of 2026",
@@ -12012,20 +12068,20 @@
       "t": "বাইবেলীয় জীবনদৃষ্টিভিত্তিক একটি কলেজ-প্রস্তুতি স্কুল, যা শিক্ষার্থীদের র‍্যাঙ্ক করে না। ট্রান্সক্রিপ্ট দাঁড়িয়ে আছে একটি weighted GPA-র ওপর, যেখানে honors ও AP কোর্সে quality-point বোনাস আছে। এর AP তালিকা AP Seminar ও AP Research পর্যন্ত পৌঁছায়।"
     },
     {
-      "text": "17 + Capstone",
-      "of": "e2c03665",
+      "text": "17",
+      "of": "1aeb28b1",
       "at": [
         "hickory-grove-christian:transcript.stats[0].value"
       ],
-      "t": "17 + Capstone"
+      "t": "17"
     },
     {
-      "text": "AP courses, plus the AP Seminar → Research Capstone track",
-      "of": "b614165e",
+      "text": "AP courses, including the AP Seminar → AP Research Capstone track",
+      "of": "a19aa16e",
       "at": [
         "hickory-grove-christian:transcript.stats[0].label"
       ],
-      "t": "AP কোর্স, সঙ্গে AP Seminar → Research Capstone ট্র্যাক"
+      "t": "AP কোর্স, AP Seminar → AP Research Capstone ট্র্যাকসহ"
     },
     {
       "text": "85 / 176",
@@ -12116,12 +12172,12 @@
       "t": "একটি বিস্তৃত AP তালিকা"
     },
     {
-      "text": "The school advertises **17 AP courses plus AP Capstone** (AP Seminar + AP Research). The 2026–27 profile names 13 by title. Calculus BC and Psychology are no longer printed, and Human Geography is back. The 2023 profile named 17, covering every title any edition has printed. So which of them run varies from year to year.",
-      "of": "9b42df52",
+      "text": "The school advertises **17 AP courses, among them the AP Capstone track** (AP Seminar + AP Research). The 2026–27 profile names 13 by title. Calculus BC and Psychology are no longer printed, and Human Geography is back. The 2023 profile named 17, covering every title any edition has printed. So which of them run varies from year to year.",
+      "of": "962e271e",
       "at": [
         "hickory-grove-christian:transcript.depth[0].text"
       ],
-      "t": "স্কুল **17টি AP কোর্স ও AP Capstone** (AP Seminar + AP Research)-এর কথা প্রচার করে। 2026–27 প্রোফাইল 13টির নাম দেয়। Calculus BC ও Psychology আর ছাপা হয়নি, আর Human Geography ফিরে এসেছে। 2023 প্রোফাইল 17টির নাম দিয়েছিল, যার মধ্যে যেকোনো সংস্করণে ছাপা প্রতিটি নাম আছে। তাই কোনগুলো চলে, তা বছর বছর বদলায়।"
+      "t": "স্কুল **17টি AP কোর্সের কথা প্রচার করে, যার মধ্যে AP Capstone ট্র্যাকও আছে** (AP Seminar + AP Research)। 2026–27 প্রোফাইল 13টির নাম দেয়। Calculus BC ও Psychology আর ছাপা হয়নি, আর Human Geography ফিরে এসেছে। 2023 প্রোফাইল 17টির নাম দিয়েছিল, যার মধ্যে যেকোনো সংস্করণে ছাপা প্রতিটি নাম আছে। তাই কোনগুলো চলে, তা বছর বছর বদলায়।"
     },
     {
       "text": "Real depth in the scores",
@@ -13053,12 +13109,12 @@
       "t": "**23** জন শিক্ষার্থী পেয়েছেন · মোট **$2.6 million**"
     },
     {
-      "text": "These are college merit awards won by graduating seniors, not Gaston Day tuition scholarships. The school’s own Kimbrell awards are separate and appear in the Financial Aid area. The dollar total rose while the number of students fell (25 students/$2.75M in 2023 → 20/$3.87M in 2024). So the average per student roughly doubled across those two classes.",
-      "of": "2f10f771",
+      "text": "These are college merit awards won by graduating seniors, not Gaston Day tuition scholarships. The school’s own Kimbrell awards are separate and appear in the Financial Aid area. The dollar total rose while the number of students fell (25 students/$2.75M in 2023 → 20/$3.87M in 2024). So the average per student rose by about three-quarters (~$110K → ~$194K) across those two classes.",
+      "of": "7b396c26",
       "at": [
         "gaston-day:transcript.meritNote"
       ],
-      "t": "এগুলো স্নাতক হওয়া সিনিয়রদের জেতা কলেজ merit অনুদান, Gaston Day-র টিউশন বৃত্তি নয়। স্কুলের নিজের Kimbrell অনুদানগুলো আলাদা এবং সেগুলো Financial Aid অংশে আছে। ডলারের মোট বেড়েছে, অথচ শিক্ষার্থীর সংখ্যা কমেছে (2023-এ 25 জন/$2.75M → 2024-এ 20/$3.87M)। তাই ওই দুই ব্যাচে প্রতি শিক্ষার্থীর গড় মোটামুটি দ্বিগুণ হয়েছে।"
+      "t": "এগুলো স্নাতক হওয়া সিনিয়রদের জেতা কলেজ merit অনুদান, Gaston Day-র টিউশন বৃত্তি নয়। স্কুলের নিজের Kimbrell অনুদানগুলো আলাদা এবং সেগুলো Financial Aid অংশে আছে। ডলারের মোট বেড়েছে, অথচ শিক্ষার্থীর সংখ্যা কমেছে (2023-এ 25 জন/$2.75M → 2024-এ 20/$3.87M)। তাই ওই দুই ব্যাচে প্রতি শিক্ষার্থীর গড় প্রায় তিন-চতুর্থাংশ বেড়েছে (~$110K → ~$194K)।"
     },
     {
       "text": "Where the curriculum goes deepest",
@@ -13213,12 +13269,12 @@
       "t": "প্রতি কাউন্সেলরে সিনিয়র — 35 জন সিনিয়র থেকে হিসাব করা, প্রকাশিত নয়"
     },
     {
-      "text": "college counselors — Director plus Assistant",
-      "of": "b5d92a99",
+      "text": "college-counseling staff — Director plus Assistant",
+      "of": "e97f7e86",
       "at": [
         "gaston-day:counseling.stats[1].label"
       ],
-      "t": "কলেজ কাউন্সেলর — Director ও Assistant"
+      "t": "কলেজ-কাউন্সেলিং কর্মী — Director ও Assistant"
     },
     {
       "text": "35",

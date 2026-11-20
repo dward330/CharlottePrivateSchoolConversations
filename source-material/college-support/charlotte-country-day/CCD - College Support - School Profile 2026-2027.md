@@ -715,3 +715,23 @@ Each needs a browser-confirmed homepage before it is added (memory
   counselors" while the profile and the page both list five.
 - Class of 2027 quintile spread: 4.516 − 3.012 = **1.504** points.
 - 2025 → 2026 AP: exams 530 → 589 (+59), students 238 → 230, 3+ 93% → 96%, 4–5 74% → 87%.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20: https://www.charlottecountryday.org/cd-education/college-counseling/class-of-2026
+
+- "141 seniors"; "1,107 applications to 203 colleges and universities"; "Admitted to 170 unique
+  colleges and universities"; "Students will attend 70 colleges and universities in 23 states,
+  Washington, D.C., and Canada."
+- **"UNC-Chapel Hill admitted 32 seniors (up from 23 last year)"** — 32 is an admit count. The
+  page gives no number of Class of 2026 students enrolling at UNC-Chapel Hill. (The "UNC-Chapel
+  Hill matriculants: 32 students" row in `CCD - College Support - Redesign Research 2026.md`
+  misreads this line.)
+- "13 seniors will continue competing at the collegiate level."
+- Scholarships: body text "More than $14.8 million in scholarship offers awarded to date";
+  summary graphic "$14.7 million+".
+- Senior class sizes on the app's page: 141 = Class of 2026 (graduates, this page); 137 = Class
+  of 2027 (current seniors, 2026–27 profile GPA table, "137 Seniors Total"). They are different
+  classes, not a conflict.

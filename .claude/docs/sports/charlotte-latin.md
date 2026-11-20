@@ -1,5 +1,5 @@
 # Charlotte Latin School — Sports
-> Distilled from 20 source document(s) in `source-material/sports/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
+> Distilled from 20 source document(s) in `source-material/sports/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, College Commitments Class of 2027, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Football Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
@@ -1597,6 +1597,25 @@ Latin's title matrix counts 198 state championships through December 2025, again
 
 Latin's Cup page lists its wins as 1984, 1988–1991, 1993–1995, 1997, 2005–2011, 2017 and 2019, so its longest run is seven. The Honors card's "eight consecutive under athletic director Jimmy Broadway" does not fit that list.
 
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+- Re-fetched https://admin.ncisaa.org/uploads/SWIMMING/2025/division%201%20scores.pdf (HTTP 200;
+ "2025 NCISAA Division I State Championship - 2/10/2025", "Men - Team Scores"): "1 Ravenscroft
+ School 339 · 2 Charlotte Latin School 336 · 3 Cary Academy 257". Latin boys were runner-up in
+ 2024–25.
+- https://archives.ncisaa.org/index.php?sport=15&years=2025-2026 (HTTP 200) still posts no team
+ results for 2025–26 (only "2025-2026 Swimming Championships" and program links), so a 2026 boys
+ swimming finish remains unconfirmed.
+- https://www.charlottelatin.org/athletics/athletic-teams (HTTP 200): "WE OFFER 17 SPORTS and
+ FIELD 66 TEAMS IN GRADES 7-12." The directory links 24 team pages: Baseball, Basketball (Boys),
+ Basketball (Girls), Cheerleading, Cross Country (Boys), Cross Country (Girls), Dance Team, Field
+ Hockey, Football, Golf (Boys), Golf (Girls), Lacrosse (Boys), Lacrosse (Girls), Soccer (Boys),
+ Soccer (Girls), Softball, Swimming (Boys), Swimming (Girls), Tennis (Boys), Tennis (Girls), Track
+ & Field (Boys), Track & Field (Girls), Volleyball, Wrestling. By the app's season grouping that is
+ 9 fall, 6 winter and 9 spring programs.
+
 
 ---
 
@@ -1723,6 +1742,7 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://admin.ncisaa.org/uploads/SWIMMING/Div%201%20Final_Team_Ind.pdf
 - https://admin.ncisaa.org/uploads/ncisaa%20division%20i%20scores.pdf
 - https://archives.ncisaa.org/
+- https://archives.ncisaa.org/index.php?sport=15&years=2025-2026
 - https://basketball.realgm.com/highschool/teams/477/Charlotte-Latin-High-School
 - https://blog.rallyfuel.com/north-carolina-nil-laws/
 - https://bucknellbison.com/sports/mens-cross-country/roster

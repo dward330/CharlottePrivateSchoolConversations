@@ -1,5 +1,5 @@
 # Charlotte Latin School — After School
-> Distilled from 6 source document(s) in `source-material/after-school/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 6 source document(s) in `source-material/after-school/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Deep Research, Enrichment and Talons, Hawks Club, Pricing, Program Overview, Redesign Research 2026
 
 
@@ -521,6 +521,37 @@ Latin Camps details & FAQs (session dates, hours, fees, refunds): https://www.ch
 Dead links recorded so a later pass does not re-chase them:
 https://www.charlottelatin.org/programs/extendedday/enrichmentdetails (404 — formerly the per-class enrichment grid)
 https://www.charlottelatin.org/juniorhawks (404 — "Junior Hawks Sports Clinics", still search-indexed)
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20 with curl (HTTP 200): https://www.charlottelatin.org/after-school/extended-day
+
+The "Fees" section reads, verbatim: "Below is the typical Hawks' Club after-school schedule and
+the per-semester rates for the 2026–27 school year. Hawks' Club is available from 1:30 to 6:00
+p.m. with three dismissal options. Remember that TK/K dismisses at 1:30 p.m., and Grades 1–5
+dismiss at 2:55 p.m. (Dismissal times subject to change.)" Billing: "The first semester fee
+(August-December) will be billed on Wednesday, September 23, 2026. The second semester fee
+(January-May) will be billed on Wednesday, January 20, 2027."
+
+"Per Semester Rates" table, every cell as printed today (header: Grades · 1-day · 2-day · 3-day ·
+4-day · 5-day):
+
+| Grades | Time | 1-day | 2-day | 3-day | 4-day | 5-day |
+| --- | --- | --- | --- | --- | --- | --- |
+| TK/K | 1:30–2:55 p.m. | $345 | $690 | $1,035 | $1,380 | $1,725 |
+| TK/K | 1:30–4:30 p.m. | $635 | $1,270 | $1,905 | $2300 | $2,540 |
+| TK/K | 1:30–6:00 p.m. | $930 | $1,860 | $2,790 | $3,720 | $4,650 |
+| 1st-5th | 2:55–4:30 p.m. | $295 | $590 | $885 | $1,880 | $1,475 |
+| 1st-5th | 2:55–6:00 p.m. | $600 | $1,200 | $1,800 | $2,400 | $3,000 |
+
+**Change against this file's July 27 table:** the Grades 1–5 2:55–4:30 4-day cell prints
+**$1,880** today, not the $1,180 recorded above (and the 4-day TK/K 1:30–4:30 cell prints "$2300"
+without a comma). $1,880 is above that row's own 5-day rate ($1,475), so as printed the row is not
+linear either: two rows now break the pattern, not one. The Wayback Machine holds only a
+2026-02-10 capture of this URL, so whether the page changed after July 27 or the July pass misread
+it cannot be told from archives.
 
 
 ---

@@ -95,6 +95,8 @@ const {
   CUP_SPORTS,
 } = await import('../src/data/wellsFargoCup.ts')
 const cup = await import('../src/lib/wellsFargoCup.ts')
+// The pipeline funnel and bars are derived from the roster (plan `consistency`).
+const { pipelineCounts } = await import('../src/lib/pipeline.ts')
 const manifest = JSON.parse(readFileSync(join(REPO_ROOT, 'src/data/schools.json'), 'utf8'))
 const en = JSON.parse(readFileSync(join(REPO_ROOT, 'src/locales/en.json'), 'utf8'))
 const T = en.sports.cup
@@ -289,9 +291,14 @@ for (const { slug, program } of div.schools) {
   }
   if (program.pipeline) {
     const p = program.pipeline
+    const n = pipelineCounts(p)
     c.pipeline = {
-      funnel: (p.funnel ?? []).map((f) => ({ label: f.label, ...(f.hint ? { hint: f.hint } : {}), count: f.count })),
-      sportBars: (p.sportBars ?? []).map((b) => ({ sport: b.sport, count: b.count })),
+      funnel: (p.funnel ?? []).map((f) => ({
+        label: f.label,
+        ...(f.hint ? { hint: f.hint } : {}),
+        count: f.derive ? String(n[f.derive]) : f.count,
+      })),
+      sportBars: n.bars.map((b) => ({ sport: b.sport, count: b.count })),
     }
   }
   content[slug] = c

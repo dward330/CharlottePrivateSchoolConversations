@@ -267,7 +267,7 @@ const colleges = [
   { name: 'University of Southern Mississippi', cats: [] },
   { name: 'University of Tampa', cats: [] },
   { name: 'University of Tennessee', cats: ['p4'], enrolling: true },
-  { name: 'University of Texas', cats: ['nu75'], enrolling: true },
+  { name: 'University of Texas', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of the South', cats: ['lac75'], enrolling: true },
   { name: 'University of Utah', cats: ['p4'] },
   { name: 'University of Vermont', cats: [] },
@@ -502,7 +502,7 @@ export const charlotteChristian: CollegeSupportProgram = {
     subhead:
       'The distinctive structure is Junior Seminar: a required, graded half-credit course with a mock admission committee and two mandatory college visits, rather than an optional evening program.',
     stats: [
-      { value: '~55:1', label: 'seniors per counselor (derived — no ratio is published)' },
+      { value: '~55:1', label: 'seniors per counselor (Class of 2026 graduates; current senior class size not published)' },
       { value: '2', label: 'college counselors — Foxx takes K–Z, Miller A–J' },
       { value: '0.5 credit', label: 'Junior Seminar is a graded graduation requirement' },
       { value: 'Scoir', label: 'platform — not Naviance' },
@@ -601,7 +601,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       { tier: '“Ivy Plus”', count: '7 / 17' },
       { tier: 'Top-75 National Universities', count: '49 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '20 / 75' },
-      { tier: 'Power Four', count: '54 / 68' },
+      { tier: 'Power Four', count: '55 / 68' },
       { tier: 'HBCUs', count: '11 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     collegesTitle: 'Every acceptance, 2023–2026',
@@ -625,7 +625,7 @@ export const charlotteChristian: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'The Academic Conservatory is the real differentiator — a transcript-noted arts credential — and Winterim puts every student somewhere off campus each January.',
+      'The Academic Conservatory is the real differentiator — a transcript-noted arts credential — and Winterim puts every student somewhere off campus each year, at the turn of February and March.',
     subhead:
       'The second lever is a Christian-college network most peer schools do not have: NACCAP membership and a named Christian-college tier that 14% of graduates actually use.',
     levers: [
@@ -770,14 +770,19 @@ export const charlotteChristian: CollegeSupportProgram = {
       'You publish no named learning specialist, no learning-differences program and no accommodations policy. Who supports a student with a diagnosed learning difference, and who coordinates College Board accommodations?',
       'Honors and AP placement requires an A in the prerequisite course and AP exams are mandatory. How does that combination work for a student with accommodations?',
       'What share of AP exams scored 4 or 5? Only the 3+ threshold is published.',
-      'Your marketing says “45+ AP and honors courses” but roughly 23 AP courses can be enumerated. What is the actual count?',
+      'Your marketing says “45+ AP and honors courses”, and your guide and profile together name 22 AP courses. What is the actual count?',
       'Your profile reports 12 National Merit finalists on a rolling 15-year window, down from 16 six years earlier. What were the per-class counts for the last five years?',
       'The school lists one Commended Scholar for the Class of 2025 while press coverage names a Semifinalist you do not list. Which is right?',
       'You state 99% attend a four-year college, but the Class of 2025’s named senior roster showed about five of 94 elsewhere. How is that 99% calculated for the 110 graduates of the Class of 2026?',
       'Your profile gives dual enrollment +0.5 on page 1 and +.75 on page 3. Which applies?',
       'Where did the Class of 2024 enroll? The two published lists mark only Class of 2025 and Class of 2026 enrollments.',
     ],
-    flags: [],
+    flags: [
+      {
+        kind: 'verify',
+        text: 'AP count, two school documents (plan consistency CC-5, 2026-11-20): the curriculum guide’s AP roster has 20 lines (21 with Calculus AB/BC split, including AP Music Theory with no description), and the guide separately describes AP Spanish Literature; the 2026–27 profile lists 20 AP courses plus Calculus III. Compare uses the guide’s 21; the ask uses 22.',
+      },
+    ],
     sources: [
       { label: '2026–27 Academic & Student Profile', url: PROFILE_2627 },
       { label: 'charlottechristian.com — College Counseling', url: COUNSELING },

@@ -87,8 +87,8 @@
         "providence-day:offered.seasons[0].note",
         "providence-day:offered.seasons[1].note",
         "providence-day:offered.seasons[2].note",
-        "charlotte-latin:offered.seasons[2].note",
-        "charlotte-country-day:offered.seasons[2].note"
+        "charlotte-latin:offered.seasons[0].note",
+        "charlotte-latin:offered.seasons[2].note"
       ],
       "t": "9 varsity"
     },
@@ -1837,17 +1837,6 @@
       "t": "1973 से राज्य खिताब"
     },
     {
-      "text": "8 varsity",
-      "of": "2db878e9",
-      "at": [
-        "charlotte-latin:offered.seasons[0].note",
-        "charlotte-christian:offered.seasons[2].note",
-        "charlotte-country-day:offered.seasons[0].note",
-        "cannon:offered.seasons[2].note"
-      ],
-      "t": "8 varsity"
-    },
-    {
       "text": "6 varsity",
       "of": "0297e6ff",
       "at": [
@@ -2386,6 +2375,7 @@
         "charlotte-latin:coaching.featured[1].stats[1].value",
         "charlotte-catholic:national.stats[0].value",
         "cannon:coaching.featured[1].stats[0].value",
+        "carmel-christian:national.stats[2].value",
         "trinity-episcopal:coaching.featured[0].stats[1].value"
       ],
       "t": "4"
@@ -2798,12 +2788,23 @@
       "t": "7 खेलों में राज्य खिताब"
     },
     {
-      "text": "The school’s published figure of 22 sports counts the boys’ and girls’ versions of a sport separately. The figure includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA. Its Head of School, Barry Giller, is president of the NCISAA Board of Directors.",
-      "of": "ea4b9f51",
+      "text": "8 varsity",
+      "of": "2db878e9",
+      "at": [
+        "charlotte-christian:offered.seasons[2].note",
+        "charlotte-country-day:offered.seasons[0].note",
+        "charlotte-country-day:offered.seasons[2].note",
+        "cannon:offered.seasons[2].note"
+      ],
+      "t": "8 varsity"
+    },
+    {
+      "text": "The 50+ teams figure is the school’s; the chips below list the 44 it names. The school’s published figure of 22 sports counts the boys’ and girls’ versions of a sport separately. The figure includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA. Its Head of School, Barry Giller, is president of the NCISAA Board of Directors.",
+      "of": "6c063685",
       "at": [
         "charlotte-christian:offered.footnote"
       ],
-      "t": "स्कूल का प्रकाशित आँकड़ा 22 खेलों का है, जिसमें किसी खेल के लड़कों और लड़कियों के संस्करण अलग-अलग गिने गए हैं। इस आँकड़े में लड़कियों का golf भी शामिल है, जो इस समय की लाइव टीम सूची में नहीं है। Charlotte Christian, NCISAA 4A और CISAA में खेलता है। इसके Head of School, Barry Giller, NCISAA Board of Directors के अध्यक्ष हैं।"
+      "t": "50+ टीमों का आँकड़ा स्कूल का है; नीचे के chips उन 44 टीमों की सूची हैं जिनके नाम स्कूल देता है। स्कूल का प्रकाशित आँकड़ा 22 खेलों का है, जिसमें किसी खेल के लड़कों और लड़कियों के संस्करण अलग-अलग गिने गए हैं। इस आँकड़े में लड़कियों का golf भी शामिल है, जो इस समय की लाइव टीम सूची में नहीं है। Charlotte Christian, NCISAA 4A और CISAA में खेलता है। इसके Head of School, Barry Giller, NCISAA Board of Directors के अध्यक्ष हैं।"
     },
     {
       "text": "Eighteen baseball state championships — the deepest single-sport dynasty in the Charlotte private-school field — capped by a 28–7 title run in 2026.",
@@ -3773,6 +3774,46 @@
       "t": "अब तक चैंपियनशिप मुक़ाबले में 11 बार पहुँचकर 8 राज्य खिताब। 2025 का सीज़न 7–5 (कॉन्फ़्रेंस में 3–3) पर पूरा हुआ, जिसमें playoff के पहले दौर में A.C. Reynolds पर 27–0 की जीत शामिल है।"
     },
     {
+      "text": "NCHSAA champions in 2026, after a 2021 title and a 2023 runner-up finish.",
+      "of": "a08616c0",
+      "at": [
+        "charlotte-catholic:record.rows[4].note"
+      ],
+      "t": "2026 में NCHSAA चैंपियन, 2021 के खिताब और 2023 में उपविजेता रहने के बाद।"
+    },
+    {
+      "text": "NCHSAA dual-team champions in fall 2025, as in 2021.",
+      "of": "e9ce66d8",
+      "at": [
+        "charlotte-catholic:record.rows[5].note"
+      ],
+      "t": "पतझड़ 2025 में NCHSAA dual-team चैंपियन, जैसे 2021 में।"
+    },
+    {
+      "text": "Runner-up in fall 2024, then NCHSAA champions in fall 2025.",
+      "of": "3d4cff05",
+      "at": [
+        "charlotte-catholic:record.rows[6].note"
+      ],
+      "t": "पतझड़ 2024 में उपविजेता, फिर पतझड़ 2025 में NCHSAA चैंपियन।"
+    },
+    {
+      "text": "NCHSAA champions in fall 2025.",
+      "of": "12049672",
+      "at": [
+        "charlotte-catholic:record.rows[7].note"
+      ],
+      "t": "पतझड़ 2025 में NCHSAA चैंपियन।"
+    },
+    {
+      "text": "Runner-up in 2026, after titles in 2021 and 2022.",
+      "of": "dfb9130e",
+      "at": [
+        "charlotte-catholic:record.rows[8].note"
+      ],
+      "t": "2021 और 2022 के खिताबों के बाद 2026 में उपविजेता।"
+    },
+    {
       "text": "The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season list of titles, so a blank cell means \"no title found for that year\", not a verified loss. The 79-title total since 2000 is the school’s own figure and spans far more sports than these four.",
       "of": "6efe2f25",
       "at": [
@@ -3829,12 +3870,12 @@
       "t": "छात्र-समूह"
     },
     {
-      "text": "grades 9–12",
-      "of": "3554df3c",
+      "text": "grades 9–12, 2023–24",
+      "of": "91f75750",
       "at": [
         "charlotte-catholic:pipeline.funnel[0].hint"
       ],
-      "t": "कक्षा 9–12"
+      "t": "कक्षा 9–12, 2023–24"
     },
     {
       "text": "Alumni who played in college",
@@ -6209,12 +6250,12 @@
       "t": "Cannon, UNC Charlotte के Master’s in Athletic Training के लिए एक नैदानिक शिक्षण स्थल है। स्कूल भ्रमण के दौरान पूछने लायक़ ढाँचे पर ध्यान दें: Cannon अपने athletic trainer और टीम डॉक्टरों का काम Novant को बाहर सौंपता है। Cannon के किसी भी स्थल की बैठने की क्षमता प्रकाशित नहीं है।"
     },
     {
-      "text": "18 teams across three seasons, with 82% of students playing at least one sport.",
-      "of": "b4f32bd9",
+      "text": "18 sports across three seasons (the school’s count), with 82% of students playing at least one sport.",
+      "of": "811bab87",
       "at": [
         "covenant-day:offered.headline"
       ],
-      "t": "तीन सीज़न में 18 टीमें, और 82% छात्र कम-से-कम एक खेल खेलते हैं।"
+      "t": "तीन सीज़न में 18 खेल (स्कूल की गिनती), और 82% छात्र कम-से-कम एक खेल खेलते हैं।"
     },
     {
       "text": "A CISAA / NCISAA 4A program that has sent more than 175 athletes to college sports since the school’s first graduating class in 2006.",
@@ -6225,12 +6266,12 @@
       "t": "एक CISAA / NCISAA 4A कार्यक्रम, जिसने 2006 में स्कूल के पहले स्नातक बैच से लेकर अब तक 175 से अधिक खिलाड़ियों को कॉलेज खेलों तक पहुँचाया है।"
     },
     {
-      "text": "teams, V · JV · MS",
-      "of": "a6672127",
+      "text": "sports (the school’s count) · 43 V/JV/MS teams below",
+      "of": "1f4606cc",
       "at": [
         "covenant-day:offered.stats[0].label"
       ],
-      "t": "टीमें, V · JV · MS"
+      "t": "खेल (स्कूल की गिनती) · नीचे 43 V/JV/MS टीमें"
     },
     {
       "text": "collegiate athletes since 2006",
@@ -6396,12 +6437,12 @@
       "t": "ये प्रलेखित न्यूनतम आँकड़े हैं। ये स्कूल के अपने signing पोस्ट से लिए गए हैं, जिनमें 2024–26 के बैचों के हर signee का नाम है। ये कॉलेज में खेल रहे पूर्व छात्रों की Lions Beyond CDS सूचियों से भी लिए गए हैं, जिन्हें हर टीम पेज प्रकाशित करता है। Elijah Green ’24 को William Peace के roster से सूचीबद्ध किया गया है। स्कूल का समग्र दावा 2006 से 175+ कॉलेज-स्तर के खिलाड़ियों का है।"
     },
     {
-      "text": "The pipeline reaches many sports, but rarely the top levels. Commitments span eleven sports. But outside field hockey, the highest level is Division I mid-major (Division I programs outside the biggest conferences). Those placements: Louisiana Tech · East Carolina · UNC Charlotte in softball and football · Appalachian State in basketball and baseball · Queens · Gardner-Webb · Wofford. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.",
-      "of": "f7fd528f",
+      "text": "The pipeline reaches many sports, but rarely the top levels. Commitments span ten sports. But outside field hockey, the highest level is Division I mid-major (Division I programs outside the biggest conferences). Those placements: Louisiana Tech · East Carolina · UNC Charlotte in softball and football · Appalachian State in basketball and baseball · Queens · Gardner-Webb · Wofford. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.",
+      "of": "3a6dc695",
       "at": [
         "covenant-day:pipeline.realityCheck"
       ],
-      "t": "यह पाइपलाइन कई खेलों तक पहुँचती है, पर शीर्ष स्तरों तक कभी-कभार ही। कमिटमेंट ग्यारह खेलों में फैले हैं। पर field hockey के बाहर सबसे ऊँचा स्तर Division I mid-major (सबसे बड़ी कॉन्फ़्रेंसों से बाहर के Division I कार्यक्रम) है। वे जगहें: Louisiana Tech · East Carolina · softball और football में UNC Charlotte · basketball और baseball में Appalachian State · Queens · Gardner-Webb · Wofford। इससे NIL गतिविधि और top-100 भर्ती रैंकिंग की अनुपस्थिति भी समझ आती है, जो Power 4 football और basketball पाइपलाइनों के साथ चलती हैं।"
+      "t": "यह पाइपलाइन कई खेलों तक पहुँचती है, पर शीर्ष स्तरों तक कभी-कभार ही। कमिटमेंट दस खेलों में फैले हैं। पर field hockey के बाहर सबसे ऊँचा स्तर Division I mid-major (सबसे बड़ी कॉन्फ़्रेंसों से बाहर के Division I कार्यक्रम) है। वे जगहें: Louisiana Tech · East Carolina · softball और football में UNC Charlotte · basketball और baseball में Appalachian State · Queens · Gardner-Webb · Wofford। इससे NIL गतिविधि और top-100 भर्ती रैंकिंग की अनुपस्थिति भी समझ आती है, जो Power 4 football और basketball पाइपलाइनों के साथ चलती हैं।"
     },
     {
       "text": "No nationally top-100-ranked recruit is documented. The two best-covered recruits are Emily Eaton ’24 and Michael Marcus Jr ’24. Eaton was 2023 NCISAA Player of the Year and NC Player of the Year per Max Field Hockey, and signed with a top-10-ranked Louisville program. Marcus, a 6′9″ forward, chose Appalachian State after NC state-level coverage.",
@@ -7379,8 +7420,7 @@
       "text": "5",
       "of": "300ca0d0",
       "at": [
-        "davidson-day:coaching.featured[1].stats[1].value",
-        "carmel-christian:national.stats[2].value"
+        "davidson-day:coaching.featured[1].stats[1].value"
       ],
       "t": "5"
     },
@@ -7409,12 +7449,12 @@
       "t": "खिताबी दौर के चार सीज़न में लड़कों का रिकॉर्ड"
     },
     {
-      "text": "The longest verified head-coaching tenure at the school, and the clearest example of what continuity brings. He rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning three straight titles. Girls soccer won two more titles under him. Both programs collapsed in 2025–26, the season after he left. Girls soccer went from 14–2 to 3–11.",
-      "of": "f47bc788",
+      "text": "The longest verified head-coaching tenure at the school, and the clearest example of what continuity brings. He rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning two straight titles (2023, 2024). Girls soccer won three more under him (2023–2025). Both programs collapsed in 2025–26, the season after he left. Girls soccer went from 14–2 to 3–11.",
+      "of": "2db0aa59",
       "at": [
         "davidson-day:coaching.featured[1].detail"
       ],
-      "t": "स्कूल का सबसे लंबा सत्यापित मुख्य-कोच कार्यकाल, और इस बात का सबसे स्पष्ट उदाहरण कि निरंतरता से क्या मिलता है। उन्होंने लड़कों के soccer को 2019–20 के 7–13 से उठाकर 17–4 और राज्य में नंबर 9 रैंक तक पहुँचाया, और लगातार तीन खिताब जीते। उनके नेतृत्व में लड़कियों के soccer ने दो और खिताब जीते। उनके जाने के अगले ही सीज़न, 2025–26 में, दोनों कार्यक्रम ढह गए। लड़कियों का soccer 14–2 से 3–11 पर आ गया।"
+      "t": "स्कूल का सबसे लंबा सत्यापित मुख्य-कोच कार्यकाल, और इस बात का सबसे स्पष्ट उदाहरण कि निरंतरता से क्या मिलता है। उन्होंने लड़कों के soccer को 2019–20 के 7–13 से उठाकर 17–4 और राज्य में नंबर 9 रैंक तक पहुँचाया, और लगातार दो खिताब जीते (2023, 2024)। उनके नेतृत्व में लड़कियों के soccer ने तीन और खिताब जीते (2023–2025)। उनके जाने के अगले ही सीज़न, 2025–26 में, दोनों कार्यक्रम ढह गए। लड़कियों का soccer 14–2 से 3–11 पर आ गया।"
     },
     {
       "text": "Volleyball · Assistant AD",
@@ -7961,38 +8001,6 @@
       "t": "2024 का 3A baseball फ़ाइनल Grace Christian of Sanford ने जीता, जिसने तीन में से दो जीतने वाली शृंखला के सभी मुक़ाबले जीते (4–1, 7–5)।"
     },
     {
-      "text": "2006–2019",
-      "of": "64e64022",
-      "at": [
-        "hickory-grove-christian:record.bars[0].tag"
-      ],
-      "t": "2006–2019"
-    },
-    {
-      "text": "2005 · 2021 · 2023",
-      "of": "0d6ff9a6",
-      "at": [
-        "hickory-grove-christian:record.bars[1].tag"
-      ],
-      "t": "2005 · 2021 · 2023"
-    },
-    {
-      "text": "2009 (3A)",
-      "of": "1d22922f",
-      "at": [
-        "hickory-grove-christian:record.bars[2].tag"
-      ],
-      "t": "2009 (3A)"
-    },
-    {
-      "text": "2025 (D2)",
-      "of": "4adeb9d7",
-      "at": [
-        "hickory-grove-christian:record.bars[3].tag"
-      ],
-      "t": "2025 (D2)"
-    },
-    {
       "text": "Seven NCISAA 3A championships — 2019, 2017, 2010, 2009, 2008, 2007 and 2006 — plus 3A runner-up finishes in 2023, 2022, 2018, 2015 and 2013 and a 2A runner-up in 2004. High Point Christian won both recent finals, 2022 in three games and 2023 in two. It is the deepest title run of any HGCS program.",
       "of": "b1e122f6",
       "at": [
@@ -8315,12 +8323,12 @@
       "t": "Girls tennis के पास चार खिताब हैं और वह लगातार तीसरी जीत पर है; volleyball और boys soccer के पास तीन-तीन हैं, और 2025 का volleyball फ़ाइनल पाँच सेटों तक गया।"
     },
     {
-      "text": "Four titles overall (2021, 2023, 2024, 2025) and three straight through 2025 — beat Trinity School of Durham & Chapel Hill 5–1 in 2023, then Epiphany School in both 2024 and 2025",
-      "of": "0e564ec1",
+      "text": "Four titles since 2021 (2021, 2023, 2024, 2025) and three straight through 2025 — beat Trinity School of Durham & Chapel Hill 5–1 in 2023, then Epiphany School in both 2024 and 2025",
+      "of": "f978cc51",
       "at": [
         "gaston-day:record.rows[0].note"
       ],
-      "t": "कुल चार खिताब (2021, 2023, 2024, 2025) और 2025 तक लगातार तीन — 2023 में Trinity School of Durham & Chapel Hill को 5–1 से हराया, फिर 2024 और 2025 दोनों में Epiphany School को"
+      "t": "2021 से चार खिताब (2021, 2023, 2024, 2025) और 2025 तक लगातार तीन — 2023 में Trinity School of Durham & Chapel Hill को 5–1 से हराया, फिर 2024 और 2025 दोनों में Epiphany School को"
     },
     {
       "text": "Three titles (2021, 2024, 2025); swept Westminster Catawba on Oct 26 2024, then beat St. Thomas More Academy 3–2 on Oct 25 2025. Plus three further finals appearances and five league titles over the decade",
@@ -8363,12 +8371,12 @@
       "t": "बाक़ी हर कार्यक्रम। 2021 से मिले 14 खिताब छह खेलों में हैं: girls tennis, volleyball, boys soccer, boys golf, boys track और girls swimming। स्कूल अपना कोई चैंपियनशिप इतिहास प्रकाशित नहीं करता, इसलिए यह सूची एसोसिएशन के नतीजों और स्थानीय कवरेज पर टिकी है।"
     },
     {
-      "text": "The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win over Epiphany School was described in coverage as the program’s third state championship in four years and fourth overall. The 2025 win over the same opponent made it three straight.",
-      "of": "a60f677e",
+      "text": "The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win came over Epiphany School, and the 2025 win over the same opponent made it three straight.",
+      "of": "2f5b622b",
       "at": [
         "gaston-day:record.seasonDetail[0].text"
       ],
-      "t": "स्कूल का सबसे सम्मानित कार्यक्रम: 2021, 2023, 2024 और 2025 में NCISAA 2A चैंपियन। Epiphany School पर 2024 की जीत को कवरेज में कार्यक्रम की चार वर्षों में तीसरी और कुल मिलाकर चौथी राज्य चैंपियनशिप बताया गया। उसी प्रतिद्वंद्वी पर 2025 की जीत से यह लगातार तीसरी हो गई।"
+      "t": "स्कूल का सबसे सम्मानित कार्यक्रम: 2021, 2023, 2024 और 2025 में NCISAA 2A चैंपियन। 2024 की जीत Epiphany School पर मिली, और उसी प्रतिद्वंद्वी पर 2025 की जीत से यह लगातार तीसरी हो गई।"
     },
     {
       "text": "Won the 2A title in 2021, then again in 2024 and 2025 under head coach Derek Bing. The 2025 final against St. Thomas More Academy went the full five sets, 3–2, on October 25 2025. Beyond the three titles the program has reached three further finals and taken five league titles over the decade.",
@@ -8823,12 +8831,12 @@
       "t": "K-4 Counselor · Volleyball कोच"
     },
     {
-      "text": "Ten named middle school teams across three seasons, open from 5th grade — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\"",
-      "of": "cc0a7edd",
+      "text": "Ten teams: nine across three seasons, plus girls cheerleading, open from 5th grade — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\"",
+      "of": "fb9a4773",
       "at": [
         "charlotte-prep:offered.headline"
       ],
-      "t": "तीन सीज़न में दस नामित middle school टीमें, कक्षा 5 से खुली — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\""
+      "t": "दस टीमें: तीन सीज़न में नौ, साथ में लड़कियों की cheerleading, कक्षा 5 से खुली — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\""
     },
     {
       "text": "Every team is a single grades 5–8 squad in the Queen City Conference; no A/B or JV split is published. \"Including others is sometimes more important than winning.\"",

@@ -1152,8 +1152,8 @@
       ]
     },
     {
-      "t": "La tarification est presque parfaitement linéaire : le tarif pour N jours vaut exactement N fois le tarif d’un jour, sans réduction au volume — à l’exception d’une ligne qui semble rompre la logique.",
-      "of": "a67ae8cf",
+      "t": "La tarification est presque parfaitement linéaire : le tarif pour N jours vaut exactement N fois le tarif pour 1 jour, sans réduction au volume — à l’exception de deux lignes qui rompent cette logique.",
+      "of": "22b47af7",
       "at": [
         "charlotte-latin:cost.subhead"
       ]
@@ -1326,8 +1326,8 @@
       ]
     },
     {
-      "t": "La **ligne TK/K 1:30–4:30 ne tient pas.** Toutes les autres lignes sont exactement linéaires, mais celle-ci affiche $2,300 pour 4 jours et $2,540 pour 5 jours, là où la logique linéaire donnerait $2,540 et $3,175 — cinq jours coûtent donc ce que quatre devraient coûter. Il s’agit soit d’une réduction au volume non annoncée sur le palier le plus demandé, soit d’une erreur de publication, et l’enjeu est de $635 par semestre. Les deux mêmes valeurs figuraient dans une recherche antérieure, ce qui plaide pour l’hypothèse « c’est réel ».",
-      "of": "827224d6",
+      "t": "La **ligne TK/K 1:30–4:30 ne tient pas.** Toutes les autres lignes sont exactement linéaires, mais celle-ci affiche $2,300 pour 4 jours et $2,540 pour 5 jours, là où la logique linéaire donnerait $2,540 et $3,175 — cinq jours coûtent donc ce que quatre devraient coûter. Il s’agit soit d’une réduction au volume non annoncée sur le palier le plus demandé, soit d’une erreur de publication, et l’enjeu est de $635 par semestre. Les deux mêmes valeurs figuraient dans une recherche antérieure, ce qui plaide pour l’hypothèse « c’est réel ». La ligne Grades 1–5 2:55–4:30 ne tient pas non plus : relue en ligne le 2026-11-20 (plan consistency LAT-3), elle affiche $1,880 pour 4 jours contre $1,475 pour 5 jours, là où la logique linéaire donnerait $1,180 ; quatre jours coûtent donc plus cher que cinq. Le relevé de juillet indiquait $1,180 ; on ignore si la page a changé depuis.",
+      "of": "26a4f94e",
       "at": [
         "charlotte-latin:cost.flags[0].text"
       ]
@@ -1883,8 +1883,8 @@
       ]
     },
     {
-      "t": "**Le site se contredit sur les heures de sortie**, et une ligne tarifaire rompt la logique que suivent toutes les autres.",
-      "of": "dbdbc275",
+      "t": "**Le site se contredit sur les heures de sortie**, et deux lignes tarifaires rompent la logique que suivent toutes les autres.",
+      "of": "461af1a1",
       "at": [
         "charlotte-latin:verdict.watchouts[7]"
       ]
@@ -1904,8 +1904,8 @@
       ]
     },
     {
-      "t": "Merci de confirmer les tarifs TK/K 1:30–4:30 : cinq jours sont-ils réellement à $2,540 et quatre jours à $2,300 ? Ces montants rompent la logique de toutes les autres lignes.",
-      "of": "d409864e",
+      "t": "Merci de confirmer deux lignes tarifaires. Pour TK/K 1:30–4:30, cinq jours sont-ils réellement à $2,540 et quatre jours à $2,300 ? Pour Grades 1–5 2:55–4:30, quatre jours sont-ils réellement à $1,880, soit plus que les $1,475 pour cinq ?",
+      "of": "301f7b5a",
       "at": [
         "charlotte-latin:verdict.checklist[2]"
       ]
@@ -2540,8 +2540,8 @@
       ]
     },
     {
-      "t": "**Une offre estivale étoffée** — une centaine de camps distincts sur six semaines, de la JK à la 12e année, dont un dispositif de remédiation en littératie Orton-Gillingham.",
-      "of": "0d3dc91a",
+      "t": "**Une offre estivale étoffée** — 96 camps distincts sur six semaines, de la JK à la 12e année, dont un dispositif de remédiation en littératie Orton-Gillingham.",
+      "of": "5f4269d2",
       "at": [
         "charlotte-christian:verdict.strengths[6]"
       ]
@@ -3093,8 +3093,8 @@
       ]
     },
     {
-      "t": "Aucune réduction pour fratrie n’est publiée pour l’Extended Day, et il n’existe aucune politique d’aide financière le concernant. Il est facturé au titre des **frais annexes**, ce qui le place hors de l’aide aux frais de scolarité, alors même qu’environ 30% des élèves en bénéficient. Les programmes d’été, en revanche, disposent de leur propre demande d’aide.",
-      "of": "f37dd93e",
+      "t": "Aucune réduction pour fratrie n’est publiée pour l’Extended Day, et il n’existe aucune politique d’aide financière le concernant. Il est facturé au titre des **frais annexes**, ce qui le place hors de l’aide aux frais de scolarité, alors même qu’environ 20% des élèves (341) en bénéficient. Les programmes d’été, en revanche, disposent de leur propre demande d’aide.",
+      "of": "ee4a34f0",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ]
@@ -3382,8 +3382,8 @@
       ]
     },
     {
-      "t": "**L’Extended Day semble échapper à l’aide financière.** Il est facturé au titre des frais annexes, sans politique d’aide publiée, alors même qu’environ 30% des élèves bénéficient d’une aide aux frais de scolarité. Les programmes d’été, en revanche, disposent de leur propre demande d’aide.",
-      "of": "eb348793",
+      "t": "**L’Extended Day semble échapper à l’aide financière.** Il est facturé au titre des frais annexes, sans politique d’aide publiée, alors même qu’environ 20% des élèves (341) bénéficient d’une aide aux frais de scolarité. Les programmes d’été, en revanche, disposent de leur propre demande d’aide.",
+      "of": "008fec7d",
       "at": [
         "charlotte-country-day:verdict.watchouts[2]"
       ]
@@ -3697,8 +3697,8 @@
       ]
     },
     {
-      "t": "L’accès libre coûte **$11.50 de l’heure**, sans engagement. Une famille ayant besoin de deux après-midi par mois paie environ **$100 par an** au lieu de $1,904 — une option inhabituellement avantageuse pour un usage ponctuel.",
-      "of": "4f33ab3b",
+      "t": "L’accès libre coûte **$11.50 de l’heure**, sans engagement. Deux après-midi par mois reviennent à environ **$69 par mois** au tarif horaire, contre $1,904 par an pour un contrat de deux jours — une option inhabituellement avantageuse pour un usage ponctuel.",
+      "of": "c481445b",
       "at": [
         "cannon:cost.aside.text"
       ]
@@ -4178,8 +4178,8 @@
       ]
     },
     {
-      "t": "**Un véritable accès libre à $11.50 de l’heure, sans contrat.** Une famille ayant besoin de deux après-midi par mois paie environ $100 par an au lieu de s’engager sur $1,904. Pour un usage ponctuel, c’est inhabituellement avantageux.",
-      "of": "d4e28caf",
+      "t": "**Un véritable accès libre à $11.50 de l’heure, sans contrat.** Deux après-midi par mois reviennent à environ $69 par mois au tarif horaire, contre $1,904 par an pour un contrat de deux jours. Pour un usage ponctuel, c’est inhabituellement avantageux.",
+      "of": "03038aa4",
       "at": [
         "cannon:verdict.strengths[2]"
       ]
@@ -5646,8 +5646,8 @@
       ]
     },
     {
-      "t": "Les deux sont des programmes à l’année (aucune inscription à la journée), facturés annuellement en versements égaux. Le tarif récurrent n’est pas publié, aucun prix n’est donc affiché sur les barres.",
-      "of": "e116964b",
+      "t": "Les deux sont des programmes à l’année (aucune inscription à la journée), facturés annuellement en versements égaux. La page des frais de scolarité fixe la garde périscolaire à $2,600 par an pour les TK–5 et à $1,300 pour les niveaux 6–12 ; la page Afterschool décrit la Study Hall pour les niveaux 6–11.",
+      "of": "20f04c6f",
       "at": [
         "hickory-grove-christian:coverage.subhead"
       ]
@@ -5661,15 +5661,15 @@
       ]
     },
     {
-      "t": "Afterschool · tarif non publié",
-      "of": "b7f3775d",
+      "t": "Afterschool · $2,600 par an",
+      "of": "602867bc",
       "at": [
         "hickory-grove-christian:coverage.rows[0].flatLabel"
       ]
     },
     {
-      "t": "Study Hall · tarif non publié",
-      "of": "42f7c67d",
+      "t": "Study Hall · $1,300 par an (ligne tarifaire : niveaux 6–12)",
+      "of": "b58d787d",
       "at": [
         "hickory-grove-christian:coverage.rows[1].flatLabel"
       ]
@@ -5731,8 +5731,8 @@
       ]
     },
     {
-      "t": "Le tarif mensuel/annuel récurrent de l’Afterschool TK–5 n’est publié ni sur la page Afterschool Program ni sur la page Tuition and Fees. Les montants figurent dans les documents « student services fees » de l’école / le FACTS Family Portal. Cette page n’a donc pas de Cost Planner pour ce programme, et la ligne Compare du coût de la garde périscolaire indique N/A pour HGCS.",
-      "of": "fbab5a4a",
+      "t": "Les niveaux diffèrent entre deux pages de l’école (plan consistency HG-16, relu en ligne le 2026-11-20) : la page Tuition and Fees indique « 6th-12th Grade After School Childcare: $1,300; yearly » ; la page Afterschool décrit la Study Hall « for students in grades 6–11 ». Les deux sont attribuées sur la fiche, et la checklist pose la question. L’ancienne URL /life-as-a-lion/after-school-program renvoie désormais une erreur 404 et /admissions/tuition-and-fees redirige vers l’accueil des admissions ; les deux liens ont été mis à jour.",
+      "of": "b5ccbc26",
       "at": [
         "hickory-grove-christian:coverage.flags[0].text"
       ]
@@ -5899,15 +5899,15 @@
       ]
     },
     {
-      "t": "Un programme d’après-midi unique, scindé par âge, qui couvre toute l’école jusqu’à 5:30 p.m. — avec des activités entièrement publiées mais aucun prix publié, et aucune couverture estivale.",
-      "of": "5ffaf4ac",
+      "t": "Un programme d’après-midi unique, scindé par âge, qui couvre toute l’école jusqu’à 5:30 p.m. — avec des activités et des prix annuels publiés, mais aucune couverture estivale.",
+      "of": "12d560ff",
       "at": [
         "hickory-grove-christian:verdict.headline"
       ]
     },
     {
-      "t": "Les questions en suspens sont le tarif récurrent non publié, le taux d’encadrement manquant et le fait que les deux filières sont des engagements à l’année sans option à la journée.",
-      "of": "24a57b18",
+      "t": "Les questions en suspens sont le taux d’encadrement manquant, les niveaux que dessert la Study Hall et le fait que les deux filières sont des engagements à l’année sans option à la journée.",
+      "of": "a205a98e",
       "at": [
         "hickory-grove-christian:verdict.subhead"
       ]
@@ -5941,8 +5941,8 @@
       ]
     },
     {
-      "t": "**Le prix récurrent n’est pas publié**. Ni la page Afterschool ni la page Tuition and Fees n’indiquent de tarif mensuel ou annuel. Les familles doivent passer par les documents de student-services fees ou le portail FACTS.",
-      "of": "f8ce9c06",
+      "t": "**Prix annuels uniquement** — la page Tuition and Fees indique $2,600 par an pour les TK–5 et $1,300 pour les niveaux 6–12, facturés en versements égaux. Aucun tarif mensuel ni journalier n’est publié.",
+      "of": "7dfac60c",
       "at": [
         "hickory-grove-christian:verdict.watchouts[0]"
       ]
@@ -5969,15 +5969,15 @@
       ]
     },
     {
-      "t": "Combien coûte réellement le programme Afterschool récurrent par an pour les TK–5, et quels plans de paiement sont proposés ?",
-      "of": "64a49ce3",
+      "t": "La Study Hall est-elle ouverte aux élèves de 12e année ? La page Afterschool indique les niveaux 6–11, mais la ligne tarifaire indique de la 6e à la 12e.",
+      "of": "9b52d8cd",
       "at": [
         "hickory-grove-christian:verdict.checklist[0]"
       ]
     },
     {
-      "t": "La Study Hall des niveaux 6–11 est-elle au même prix que le programme Afterschool TK–5, ou facturée séparément ?",
-      "of": "7c753164",
+      "t": "Quels plans de paiement sont proposés pour les tarifs annuels de $2,600 et $1,300 ?",
+      "of": "995fa890",
       "at": [
         "hickory-grove-christian:verdict.checklist[1]"
       ]
@@ -5997,8 +5997,8 @@
       ]
     },
     {
-      "t": "Que sont les « student services fees » qui contiennent le tarif de la garde périscolaire, et où peut-on les consulter avant l’inscription ?",
-      "of": "fa2be9b7",
+      "t": "Existe-t-il d’autres « student services fees » en plus du tarif de la garde périscolaire, et où peut-on les consulter avant l’inscription ?",
+      "of": "4ef98c37",
       "at": [
         "hickory-grove-christian:verdict.checklist[4]"
       ]

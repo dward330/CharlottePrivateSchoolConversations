@@ -40,7 +40,7 @@ export const charlotteLatin: SportsProgram = {
     seasons: [
       {
         name: 'Fall',
-        note: '8 varsity',
+        note: '9 varsity',
         sports: [
           { name: 'Football', levels: ['V', 'JV', 'MS'] },
           { name: 'Volleyball (Girls)', levels: ['V', 'JV', 'MS'] },
@@ -154,8 +154,11 @@ export const charlotteLatin: SportsProgram = {
         program: 'Boys Swimming',
         cells: [
           { result: 'STATE', record: '462 pts' },
-          { result: 'NONE', record: '2nd place' },
-          { result: 'NONE', record: '2nd place' },
+          // NCISAA 2025 D1 men: 1 Ravenscroft 339 · 2 Charlotte Latin 336
+          // (https://admin.ncisaa.org/uploads/SWIMMING/2025/division%201%20scores.pdf)
+          { result: 'RUNNER-UP', record: '336 pts' },
+          // The NCISAA 2025–26 archive posts no result yet (re-checked 2026-11-20).
+          { result: 'NONE', toVerify: true },
         ],
         note: 'Set four records winning the 2024 D1 meet',
       },
@@ -234,19 +237,20 @@ export const charlotteLatin: SportsProgram = {
       '63 college commitments across 2024–26, 22 of them Division I and 8 Power 4 — a pipeline led by swimming and girls’ lacrosse.',
     subhead:
       'Swimming alone produced eight Division I commits and four Power 4, to North Carolina, Tennessee, Northwestern and Cal. Football produced two Division I commits, Neil Salvage to South Carolina and Matthew Barber to Georgetown.',
+    offRosterCommits: 3,
     funnel: [
       {
         label: 'Committed to college athletics',
         hint: '(all divisions)',
-        count: '63',
+        derive: 'all',
         width: 1,
         shade: 'pale',
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '22', width: 0.35, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.35, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '8',
+        derive: 'p4',
         width: 0.13,
         shade: 'full',
       },
@@ -254,15 +258,15 @@ export const charlotteLatin: SportsProgram = {
     funnelNote:
       'Thirty-four of the 63 commitments, roughly 54%, are to NCAA Division III programs. They are concentrated in academically selective conferences (NESCAC, UAA, ODAC, NCAC). Latin celebrates its signees at three events each year and publishes every name. The Class of 2026’s 25 commitments are the most of any Latin class since at least 2008. The count includes three signees to college dance and cheer teams, which sit outside the NCAA divisions shown here.',
     sportBars: [
-      { sport: 'Swimming', count: 8, width: 1, p4Width: 0.5 },
-      { sport: 'Lacrosse', count: 4, width: 0.5, p4Width: 0.25 },
-      { sport: 'Golf', count: 3, width: 0.375, p4Width: 0.125 },
-      { sport: 'Football', count: 2, width: 0.25, p4Width: 0.125 },
-      { sport: 'Baseball', count: 1, width: 0.125 },
-      { sport: 'Tennis', count: 1, width: 0.125 },
-      { sport: 'Wrestling', count: 1, width: 0.125 },
-      { sport: 'Track / XC', count: 1, width: 0.125 },
-      { sport: 'Basketball', count: 1, width: 0.125 },
+      { sport: 'Swimming', match: ['Swimming'] },
+      { sport: 'Lacrosse', match: ['Girls Lacrosse', 'Boys Lacrosse'] },
+      { sport: 'Golf', match: ['Golf'] },
+      { sport: 'Football', match: ['Football'] },
+      { sport: 'Baseball', match: ['Baseball'] },
+      { sport: 'Tennis', match: ['Tennis'] },
+      { sport: 'Wrestling', match: ['Wrestling'] },
+      { sport: 'Track / XC', match: ['Track / XC', 'Track & Field'] },
+      { sport: 'Basketball', match: ['Boys Basketball', 'Girls Basketball'] },
     ],
     realityCheck:
       'Latin’s Division I pipeline runs through the pool and the girls’ lacrosse field. Swimming produced eight D1 commits and girls’ lacrosse four. Between them, swimming and girls’ lacrosse account for six of the eight Power 4 signees. Football produced two Division I commits, despite the program’s eleven historic state titles. For most Latin families, the realistic outcome is still a Division III place at an academically strong college. These colleges recur on the signing lists: Washington & Lee · Emory · Case Western · Denison · Hampden-Sydney.',

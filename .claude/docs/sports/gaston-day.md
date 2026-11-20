@@ -1,5 +1,5 @@
 # Gaston Day School — Sports
-> Distilled from 5 source document(s) in `source-material/sports/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-09.
+> Distilled from 5 source document(s) in `source-material/sports/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** College Commitments Class of 2027, College Commitments 2024-2026, Program and Championship Ledger 2026, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026
 
 
@@ -281,6 +281,13 @@ conference, 2nd in conference) at the time of this pass. That is a live mid-seas
 not a completed-season result, and it is **not** carried into the app: a season ledger row
 must be a final record. Completed prior-season won-lost records were not available in an
 extractable form from the JS-rendered athletics site.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+- S6 https://www.highschoolot.com/story/gaston-day-repeats-ncisaa-2a-girls-tennis-title-downs-epiphany-school/21693252/ (read in Chrome): "Top-seeded Gaston Day girls tennis repeated its N.C. Independent Schools Athletic Association 2A championship on Saturday. The Spartans defeated Epiphany School 5-2 at N.C. Wesleyan University. ... Gaston Day won last year's title over Trinity School of Durham and Chapel Hill". The phrase "third state championship in four years and fourth overall" does NOT appear in the article today.
+- S4 https://www.highschoolot.com/the-2024-25-ncisaa-team-state-champions-in-every-sport/22016545/: the 2A entry reads "Gaston Day (2) — volleyball, boys soccer, girls tennis"; the phrase does not appear there either.
 
 
 ---
@@ -613,6 +620,7 @@ Dropped, under the usual bar of a title or a runner-up year: boys golf 2021 (3rd
 - https://www.highschoolot.com/story/recruiting-tracker-see-where-nc-s-high-school-athletes-are-committed-to-play/21296096/
 - https://www.highschoolot.com/story/the-o-neal-school-wins-ncisaa-d3-boys-golf-trinity-academy-s-eastman-wins-medalist/21453701/
 - https://www.highschoolot.com/the-2024-25-ncisaa-team-state-champions-in-every-sport/22016545/
+- https://www.highschoolot.com/the-2024-25-ncisaa-team-state-champions-in-every-sport/22016545/:
 - https://www.highschoolot.com/the-2025-26-ncisaa-team-state-champions-in-every-sport/22322092/
 - https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/
 - https://www.maxpreps.com/nc/gastonia/gaston-day-spartans/<sport>/<yy-yy>/roster/`

@@ -16,7 +16,7 @@
   28, 70) by direct image read. Re-verification should use that path.
 
 **Headline finding:** Davidson Day publishes a substantial Upper School catalog with full
-paragraph-length descriptions for ~75 courses across **9 departments** and **26 AP courses**. In
+paragraph-length descriptions for 86 courses across **9 departments** and **26 AP courses**. In
 sharp contrast it publishes **no course lists whatsoever** for Lower School, Middle School, or Early
 Childhood — those pages are marketing prose only. **IB status is refuted** (see Gaps).
 
@@ -48,7 +48,7 @@ Older catalogs available for trend comparison:
 | Grade range (school) | Age 2 through Grade 12 | S2 p.1, S8 |
 | Upper School grade range | 9–12 | S1 p.9, S4 |
 | Upper School academic departments | 9 (English; Mathematics; History & Social Sciences; Science; World Languages; Participation in the Arts; Technology & Computer Science; Physical Education; Electives) | S1 pp.4-6 |
-| Total distinct Upper School courses catalogued | ~75 (74 with descriptions + AP Spanish Literature listed without one) | S1 pp.20-64 |
+| Total distinct Upper School courses catalogued | 86 (recounted 2026-11-20, plan `consistency` DD-2: the 87 bullets below are 86 catalog courses plus the AFAR International Research program; the earlier "~75" matched none of them) | S1 pp.20-64 |
 | **AP courses offered** | **26** | S1 p.11 (explicit AP list) |
 | Post-AP courses | 1 — Calculus III / Multivariable Calculus & Linear Algebra | S1 pp.31, 70 |
 | Courses on the 2026-27 offerings grid | 66 | S1 p.70 |
@@ -267,7 +267,7 @@ the live HTML — treat it as weaker than S1-grade evidence.
 6. **Not every catalogued course runs every year.** S1 p.7 states explicitly: "Not every course will
    be offered in every academic year." The 2025-26 profile (S2) marks courses *not* offered in 25-26
    — including Big History, Topics in Math, Intro to AI, 3D Animation, Film II/III, AP Physics II,
-   AP Microeconomics, and AP Spanish Literature. So the ~75-course catalogue is a superset of any
+   AP Microeconomics, and AP Spanish Literature. So the 86-course catalogue is a superset of any
    single year's actual offerings; the 66-course p.70 grid is the better "actually offered in
    2026-27" figure.
 7. **Courses in the 2025-26 profile that vanished from the 2026-27 catalog** (the curriculum was

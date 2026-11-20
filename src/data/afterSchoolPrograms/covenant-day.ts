@@ -111,7 +111,9 @@ export const covenantDay: AfterSchoolProgram = {
     subhead:
       'August and December bill at exactly half, which is why the school’s own annual table ($522–$6,696 "for 10 Months") is cheaper than ten times the monthly rate.',
     basis: 'monthly',
-    periods: 10,
+    // Ten billing months with August and December at half rate = 9 full months;
+    // ×9 reproduces every annual cell the school publishes (plan consistency COV-23).
+    periods: 9,
     periodsLabel: '10 billing months (Aug & Dec at half rate)',
     columnsVerified: [true, true, true, true, true],
     defaultRow: 'g18-two',

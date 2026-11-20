@@ -8,8 +8,8 @@
 // the Cost Planner runs on `basis: 'semester'` and its estimate panel multiplies
 // by 2 rather than by 9. Two published anomalies are surfaced rather than
 // smoothed over: the site gives three different Grades 1–5 dismissal times, and
-// the TK/K 1:30–4:30 row breaks the linear pricing pattern every other row
-// follows.
+// two rows (TK/K 1:30–4:30 and Grades 1–5 2:55–4:30) break the linear pricing
+// pattern every other row follows.
 //
 // Note this entry supersedes the "Grades 1-5 REFUTED" finding in the older
 // pricing note — that table is live and was returned identically on two
@@ -128,7 +128,7 @@ export const charlotteLatin: AfterSchoolProgram = {
     headline:
       'Hawks’ Club bills PER SEMESTER, not per month — two charges a year, on 23 September and 20 January.',
     subhead:
-      'Pricing is almost perfectly linear: the N-day rate is exactly N times the 1-day rate, with no volume discount — except on one row that appears to break the pattern.',
+      'Pricing is almost perfectly linear: the N-day rate is exactly N times the 1-day rate, with no volume discount — except on two rows that break it.',
     basis: 'semester',
     periods: 2,
     periodsLabel: '2 semesters',
@@ -158,7 +158,7 @@ export const charlotteLatin: AfterSchoolProgram = {
         id: 'g15-430',
         label: 'Gr 1–5 · 2:55–4:30',
         panelLabel: 'Grades 1–5 · 2:55–4:30 pm',
-        prices: [295, 590, 885, 1180, 1475],
+        prices: [295, 590, 885, 1880, 1475],
       },
       {
         id: 'g15-6',
@@ -185,7 +185,7 @@ export const charlotteLatin: AfterSchoolProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'The **TK/K 1:30–4:30 row does not compute.** Every other row is exactly linear, but this one prices 4 days at $2,300 and 5 days at $2,540 where linear would give $2,540 and $3,175 — so five days costs what four days should. Either an unadvertised volume discount on the most popular tier or a published error, and a $635-per-semester question. The same two values appeared in an earlier research pass, which favours "real".',
+        text: 'The **TK/K 1:30–4:30 row does not compute.** Every other row is exactly linear, but this one prices 4 days at $2,300 and 5 days at $2,540 where linear would give $2,540 and $3,175 — so five days costs what four days should. Either an unadvertised volume discount on the most popular tier or a published error, and a $635-per-semester question. The same two values appeared in an earlier research pass, which favours "real". The Grades 1–5 2:55–4:30 row breaks it too: re-read live 2026-11-20 (plan consistency LAT-3), it prints 4 days at $1,880 against $1,475 for 5 days, where linear gives $1,180, so four days costs more than five. The July record read $1,180; whether the page changed since is unknown.',
       },
       {
         kind: 'gap',
@@ -345,12 +345,12 @@ export const charlotteLatin: AfterSchoolProgram = {
       '**No drop-in option is published.** The model appears to be pre-registered fixed days billed by semester, with no published way to change mid-semester.',
       '**Fee opacity across the board** — registration, late pickup, schedule changes, refunds and the non-school-day rate are all unpublished, even though the summer camp publishes every one of its equivalents.',
       '**Financial aid is not stated to apply**, and after-school is filed under "other optional costs" alongside transportation.',
-      '**The site contradicts itself on dismissal times**, and one pricing row breaks the pattern every other row follows.',
+      '**The site contradicts itself on dismissal times**, and two pricing rows break the pattern every other row follows.',
     ],
     checklist: [
       'What are our options for after-school supervision once our child reaches Middle School? Is there anything between the 3:20 dismissal and the 5:30 activity bus?',
       'Please confirm the actual Grades 1–5 dismissal time — 2:55, 3:05, or 3:10? Your Transportation and After-School pages disagree.',
-      'Please confirm the TK/K 1:30–4:30 rates: is five days really $2,540 and four days $2,300? Those break the pattern of every other row.',
+      'Please confirm two pricing rows. For TK/K 1:30–4:30, is five days really $2,540 and four days $2,300? For Grades 1–5 2:55–4:30, is four days really $1,880, more than the $1,475 for five?',
       'Is there a Hawks’ Club registration fee, and is it per child or per family?',
       'What is the late-pickup fee after 6:00 p.m., and how is it assessed?',
       'Can we change our days mid-semester, and is there a change fee? What is the refund policy if we withdraw?',

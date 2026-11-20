@@ -293,7 +293,7 @@ export const charlotteChristian: AfterSchoolProgram = {
       '**The MS program splits into separate age groups**: grades 5–6 and 7–8. The split matters at these ages, since putting 8th and 5th graders in one room often goes badly.',
       '**Coverage to 6:00 p.m. for JK–4** is among the later end times in this market, and it is a hard, clearly stated cutoff.',
       '**Explicit, enforced pickup authorization** with ID checks early in the year.',
-      '**A deep summer bench** — roughly 100 distinct camps across six weeks, JK–12, including an Orton-Gillingham literacy intervention.',
+      '**A deep summer bench** — 96 distinct camps across six weeks, JK–12, including an Orton-Gillingham literacy intervention.',
     ],
     watchouts: [
       '**Rates jumped 32–52% in two years**, with the steepest rises on the mid-week tiers. Do not budget off older figures.',

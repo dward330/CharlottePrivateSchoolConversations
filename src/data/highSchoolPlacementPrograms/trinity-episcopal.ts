@@ -328,7 +328,7 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
       'The search starts in the fall of 8th grade. What happens each term from there, and when do applications and interviews fall?',
       'Trinity has a high school counselor and a boarding school counselor. How do the two share the work with a family weighing both kinds of school?',
       'Do graduates win merit scholarships at their high schools? No counts or dollars are published anywhere.',
-      'The 2004–2026 destination list marks 41 of 99 schools with an asterisk and gives no legend — what does it mean?',
+      'The 2004–2026 destination list marks 41 of its 99 entries (95 distinct schools) with an asterisk and gives no legend — what does it mean?',
     ],
     // No flags (user, 2026-09-16) — the 'publication gap' note compared
     // Trinity's record against another school's marketing figure.

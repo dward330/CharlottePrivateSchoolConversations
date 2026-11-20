@@ -174,7 +174,7 @@ export const charlotteCatholic: SportsProgram = {
       {
         program: 'Girls lacrosse',
         cells: [
-          { result: 'NONE' },
+          { result: 'RUNNER-UP' },
           { result: 'NONE' },
           { result: 'STATE', record: '9–8 (OT)' },
         ],
@@ -182,12 +182,41 @@ export const charlotteCatholic: SportsProgram = {
       },
       {
         program: 'Football',
+        // Columns are the calendar year of each final, as in the Cup ledger: the
+        // fall 2025 season sits under 2025 (moved from 2026, plan consistency CCHS-13).
         cells: [
           { result: 'NONE' },
-          { result: 'NONE' },
           { result: 'NONE', record: '7–5' },
+          { result: 'NONE' },
         ],
         note: '8 state titles from 11 championship-game appearances historically. The 2025 season finished 7–5 (3–3 conference) with a 27–0 opening-round playoff win over A.C. Reynolds.',
+      },
+      // Appended 2026-11-20 (plan consistency CCHS-13) from the check:cup-guarded
+      // point sources above; years are the calendar year of each NCHSAA final.
+      {
+        program: 'Girls swimming & diving',
+        cells: [{ result: 'NONE' }, { result: 'NONE' }, { result: 'STATE' }],
+        note: 'NCHSAA champions in 2026, after a 2021 title and a 2023 runner-up finish.',
+      },
+      {
+        program: 'Girls tennis',
+        cells: [{ result: 'NONE' }, { result: 'STATE' }, { result: 'NONE' }],
+        note: 'NCHSAA dual-team champions in fall 2025, as in 2021.',
+      },
+      {
+        program: 'Girls golf',
+        cells: [{ result: 'RUNNER-UP' }, { result: 'STATE' }, { result: 'NONE' }],
+        note: 'Runner-up in fall 2024, then NCHSAA champions in fall 2025.',
+      },
+      {
+        program: 'Boys soccer',
+        cells: [{ result: 'NONE' }, { result: 'STATE' }, { result: 'NONE' }],
+        note: 'NCHSAA champions in fall 2025.',
+      },
+      {
+        program: 'Boys golf',
+        cells: [{ result: 'NONE' }, { result: 'NONE' }, { result: 'RUNNER-UP' }],
+        note: 'Runner-up in 2026, after titles in 2021 and 2022.',
       },
     ],
     didNotWin:
@@ -223,26 +252,26 @@ export const charlotteCatholic: SportsProgram = {
     subhead:
       'Every athlete below is named in a signing-day article, a newspaper signing list or the college’s own roster.',
     funnel: [
-      { label: 'Student body', hint: 'grades 9–12', count: '~1,171', width: 1.0, shade: 'pale' },
+      { label: 'Student body', hint: 'grades 9–12, 2023–24', count: '1,330', width: 1.0, shade: 'pale' },
       { label: 'Alumni who played in college', hint: 'NCAA / NAIA / JUCO, all years', count: '1000+', width: 0.62, shade: 'pale' },
-      { label: 'Documented commits', hint: 'Classes of 2024–2026', count: '54', width: 0.46, shade: 'mid' },
-      { label: 'Division I', hint: 'includes Power Four', count: '39', width: 0.33, shade: 'mid' },
-      { label: 'Power Four', hint: 'ACC · Big Ten · Big 12 · SEC', count: '15', width: 0.13, shade: 'full' },
+      { label: 'Documented commits', hint: 'Classes of 2024–2026', derive: 'all', width: 0.46, shade: 'mid' },
+      { label: 'Division I', hint: 'includes Power Four', derive: 'd1', width: 0.33, shade: 'mid' },
+      { label: 'Power Four', hint: 'ACC · Big Ten · Big 12 · SEC', derive: 'p4', width: 0.13, shade: 'full' },
     ],
     funnelNote:
       'The 1000+ figure is the school’s own all-time count. It is not limited to these three classes, so it counts a different span of years from the rows beneath it. The three classes below are a documented minimum. CCHS holds separate fall, winter and spring signing days and publishes no combined list. So athletes appear here once a signing article, a newspaper signing list or the college’s own roster names them.',
     sportBars: [
-      { sport: 'Baseball', count: 13, width: 1.0 },
-      { sport: 'Football', count: 11, width: 0.85 },
-      { sport: 'Lacrosse', count: 11, width: 0.85 },
-      { sport: 'Basketball', count: 5, width: 0.38 },
-      { sport: 'Swim & dive', count: 4, width: 0.31 },
-      { sport: 'Soccer', count: 3, width: 0.23 },
-      { sport: 'Golf', count: 2, width: 0.15 },
-      { sport: 'Cross country / track', count: 2, width: 0.15 },
-      { sport: 'Softball', count: 1, width: 0.08 },
-      { sport: 'Tennis', count: 1, width: 0.08 },
-      { sport: 'Field hockey', count: 1, width: 0.08 },
+      { sport: 'Baseball', match: ['Baseball'] },
+      { sport: 'Football', match: ['Football'] },
+      { sport: 'Lacrosse', match: ['Lacrosse'] },
+      { sport: 'Basketball', match: ['Basketball'] },
+      { sport: 'Swim & dive', match: ['Swim & dive'] },
+      { sport: 'Soccer', match: ['Soccer'] },
+      { sport: 'Golf', match: ['Golf'] },
+      { sport: 'Cross country / track', match: ['Cross country / track'] },
+      { sport: 'Softball', match: ['Softball'] },
+      { sport: 'Tennis', match: ['Tennis'] },
+      { sport: 'Field hockey', match: ['Field hockey'] },
     ],
     realityCheck:
       'Baseball is now the school’s deepest pipeline, with 13 of 54 documented athletes. They include Power Four signees at Duke, North Carolina, Virginia Tech, Arizona and NC State across three classes. Football and lacrosse follow with 11 each, and both lacrosse programs won state titles in 2026.',
@@ -317,6 +346,7 @@ export const charlotteCatholic: SportsProgram = {
     rosterNote:
       'Cannon Ridinger graduated from CCHS after earlier attending Charlotte Country Day and Hotchkiss. He is counted once, under CCHS, the school he graduated from. Evan MacIntyre is counted as P4, based on his commitment. He has since transferred to Belmont Abbey through a junior college (JUCO). Three athletes were named on signing lists or by recruiting sites: Mary Catherine Farley (Wofford), Audrey Pardue (Georgetown) and Conor Clendenin (Ithaca). They have not appeared on those colleges’ rosters and are excluded from every count. The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
     sources: [
+      { label: "NCES Private School Survey, 2023–24 (enrollment)", url: "https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?Search=1&SchoolName=Charlotte+Catholic&State=37&ID=01010823" },
       { label: 'catholicnewsherald.com — 15 CCHS student-athletes commit (Nov 2023, Class of 2024)', url: SIGN24 },
       { label: 'Charlotte Observer — National Signing Day roundup (Nov 2024, Class of 2025)', url: SIGN25 },
       { label: 'catholicnewsherald.com — College Signing Day (Feb 2026, Class of 2026)', url: SIGN26 },

@@ -287,7 +287,7 @@ export const charlotteCatholic: LearningSupportProgram = {
           {
             service: 'Counseling & emotional support',
             code: 'IH',
-            detail: 'Six school counselors, assigned by last name and kept for all four years, help with “personal, emotional, or social concerns.”',
+            detail: 'Five school counselors, assigned by last name and kept for all four years, help with “personal, emotional, or social concerns.” A Director of Counseling counsels new students in grades 10–12.',
             needs: ['social'],
           },
           {

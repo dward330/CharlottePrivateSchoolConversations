@@ -234,8 +234,8 @@ export const davidsonDay: SportsProgram = {
       'volleyball (Wake Christian) · girls soccer (Gaston Christian) · boys basketball (Greensboro Day, which also eliminated Davidson Day in the semifinal) · both cross country titles (GRACE Christian of Raleigh) · boys soccer (Trinity Academy eliminated the Patriots in the quarterfinals).',
     bars: [
       { program: 'Boys Basketball', record: '30–1', pct: 0.968, tag: "'19–20 PEAK" },
-      { program: 'Volleyball', record: '111–33–2', pct: 0.771, tag: '5 YRS' },
-      { program: 'Boys Soccer', record: '63–15–1', pct: 0.797, tag: '4 YRS' },
+      { program: 'Volleyball', record: '111–33–2', pct: 0.767, tag: '5 YRS' }, // ties count half: (111 + 1) ÷ 146
+      { program: 'Boys Soccer', record: '63–15–1', pct: 0.804, tag: '4 YRS' }, // ties count half: (63 + 0.5) ÷ 79
       { program: 'Boys Basketball', record: '69–31', pct: 0.69, tag: '3 YRS' },
     ],
     seasonDetail: [
@@ -284,16 +284,16 @@ export const davidsonDay: SportsProgram = {
       {
         label: 'Committed to college athletics',
         hint: '(all divisions, documented)',
-        count: '21',
+        derive: 'all',
         width: 1,
         shade: 'pale',
         toVerify: true,
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '13', width: 0.62, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.62, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '5',
+        derive: 'p4',
         width: 0.24,
         shade: 'full',
       },
@@ -301,13 +301,13 @@ export const davidsonDay: SportsProgram = {
     funnelNote:
       'These are documented floors, not a census. The school published a seven-athlete signing list for the Class of 2025. Its 2025–26 Athletics Recap names all eight collegiate athletes in the Class of 2026. Every other row on this card is confirmed on the college’s own roster. The school published no list for the Class of 2024, so that class may still be understated. Collegiate athlete is the school’s term. This card counts collegiate athletes, with or without a scholarship. Nick Arnold joined Duke as a preferred walk-on. Division III programs such as Chicago, Roanoke, Sewanee, Emory and Berry award no athletic scholarships. The school states that more than 100 Davidson Day athletes have gone on to compete at 80 different colleges.',
     sportBars: [
-      { sport: 'Basketball', count: 7, width: 1, p4Width: 0.43 },
-      { sport: 'Soccer', count: 6, width: 0.86, p4Width: 0.14 },
-      { sport: 'Volleyball', count: 2, width: 0.29 },
-      { sport: 'Lacrosse', count: 2, width: 0.29 },
-      { sport: 'Track & Field', count: 2, width: 0.29 },
-      { sport: 'Swimming', count: 1, width: 0.14 },
-      { sport: 'Equestrian', count: 1, width: 0.14, p4Width: 0.14 },
+      { sport: 'Basketball', match: ['Boys Basketball'] },
+      { sport: 'Soccer', match: ['Girls Soccer', 'Boys Soccer'] },
+      { sport: 'Volleyball', match: ['Volleyball'] },
+      { sport: 'Lacrosse', match: ['Girls Lacrosse'] },
+      { sport: 'Track & Field', match: ['Track & Field'] },
+      { sport: 'Swimming', match: ['Swimming'] },
+      { sport: 'Equestrian', match: ['Equestrian'] },
     ],
     realityCheck:
       'The unusual thing about this pipeline is still the ratio: thirteen of twenty-one documented commitments are Division I. Basketball remains the biggest source, with seven college signees in three classes. Soccer is close behind with six, including a Big East defender at Villanova and an ACC signee at NC State. The Class of 2026 added two lacrosse players bound for Division II and two track athletes bound for Division III. So athletes outside basketball now have examples of their own.',
@@ -489,7 +489,7 @@ export const davidsonDay: SportsProgram = {
           { value: '63–15–1', label: 'boys record across four title-era seasons' },
         ],
         detail:
-          'The longest verified head-coaching tenure at the school, and the clearest example of what continuity brings. He rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning three straight titles. Girls soccer won two more titles under him. Both programs collapsed in 2025–26, the season after he left. Girls soccer went from 14–2 to 3–11.',
+          'The longest verified head-coaching tenure at the school, and the clearest example of what continuity brings. He rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning two straight titles (2023, 2024). Girls soccer won three more under him (2023–2025). Both programs collapsed in 2025–26, the season after he left. Girls soccer went from 14–2 to 3–11.',
       },
     ],
     tenure: [

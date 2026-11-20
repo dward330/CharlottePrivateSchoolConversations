@@ -344,7 +344,7 @@ const colleges = [
   { name: 'University of Southern Maine', cats: [] },
   { name: 'University of St Andrews', cats: [], enrolling: true },
   { name: 'University of Tennessee at Chattanooga', cats: [] },
-  { name: 'University of Texas', cats: ['nu75'], enrolling: true },
+  { name: 'University of Texas', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Toronto', cats: [], enrolling: true },
   { name: 'University of Utah', cats: ['p4'] },
   { name: 'University of Vermont', cats: [], enrolling: true },
@@ -514,7 +514,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     subhead:
       'The profile also gives an unusually frank warning about its own math placement. And it reports a spring-2026 decision to weight Advanced math and science courses +0.5. The change reaches back to grades already earned, starting with the Class of 2027.',
     stats: [
-      { value: '24', label: 'AP subjects offered — exams required of AP students' },
+      { value: '24', label: 'AP subjects in the 2026–27 profile — exams required of AP students' },
       { value: '92%', label: 'of 833 AP exams scored 3+ (2026, 308 students)' },
       { value: '357', label: 'AP Scholar awards across the Classes of 2024–26' },
       { value: '12 / 18', label: 'National Merit Semifinalists / Commended, Class of 2026' },
@@ -568,6 +568,10 @@ export const charlotteLatin: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
+        text: 'AP count, two school sources (plan consistency LAT-1b, 2026-11-20): the 2026–27 profile grid lists 24 AP subjects; the live course-offerings page has 23 AP posts. The profile adds AP Business with Personal Finance and lists Cybersecurity and Networking Fundamentals separately, but has no Music Theory; the page combines Cybersecurity and Networking into one post and lists Music Theory AP. The tile uses the profile; the Course Offerings teaser uses the page.',
+      },
+      {
+        kind: 'verify',
         text: 'The jump from 48 AP Scholars with Distinction (2018–20) to 192 (2024–26) is very large. Part is real growth, but the magnitude suggests the counting basis may differ between editions — the school does not define it. Do not present the two as directly comparable.',
       },
       {
@@ -589,7 +593,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     subhead:
       'Counselors are assigned in freshman year, and the office commits in writing to proofreading each essay and application before submission — a promise most schools decline to make.',
     stats: [
-      { value: '~1:38', label: 'counselors to seniors (derived — no ratio is published)' },
+      { value: '~38:1', label: 'seniors per counselor (computed — 151 ÷ 4; no ratio is published)' },
       { value: '9', label: 'office staff — 4 counselors, 3 essay specialists, registrar, admin' },
       { value: '9+ yrs', label: 'documented director tenure (Jody Jennings)' },
       { value: 'SCOIR', label: 'platform, alongside the school’s own MyLatin portal' },
@@ -670,7 +674,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'Both ratios are derived (589 Upper Schoolers ÷ 4, and 151 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~1:147 all-grades figure is arguably the more honest load measure and ~1:38 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.',
+        text: 'Both ratios are derived (589 Upper Schoolers ÷ 4, and 151 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~147:1 all-grades figure is arguably the more honest load measure and ~38:1 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.',
       },
       {
         kind: 'gap',
@@ -688,19 +692,19 @@ export const charlotteLatin: CollegeSupportProgram = {
     headline:
       'Four graduating classes earned acceptances at 337 institutions. On the newest list, 132 carry an asterisk showing that at least one Latin student enrolled there in 2024–26.',
     subhead:
-      'The striking number is breadth. 61 of the 68 Power Four universities appear. The ones missing are Minnesota, Nebraska, BYU, UCF, Houston, Kansas State and UT Austin (the lists write only “University of Texas”). Seven of the eight Ivies appear, and Columbia is the only one missing.',
+      'The striking number is breadth. 62 of the 68 Power Four universities appear. The ones missing are Minnesota, Nebraska, BYU, UCF, Houston and Kansas State. Seven of the eight Ivies appear, and Columbia is the only one missing.',
     stats: [
       { value: '337', label: 'institutions on the 2023–26 acceptance lists' },
       { value: '132', label: 'carry the 2024–26 enrollment asterisk' },
       { value: '7 of 8', label: 'Ivy League — absent Columbia' },
-      { value: '61 of 68', label: 'Power Four universities represented' },
+      { value: '62 of 68', label: 'Power Four universities represented' },
     ],
     buckets: [
       { tier: 'Ivy League', count: '7 / 8', note: '— six with a 2024–26 enrollee (all but Princeton); absent Columbia' },
       { tier: '“Ivy Plus”', count: '14 / 17', note: '— absent Columbia, Johns Hopkins and Caltech' },
       { tier: 'Top-75 National Universities', count: '73 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '48 / 75' },
-      { tier: 'Power Four', count: '61 / 68', note: '— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12' },
+      { tier: 'Power Four', count: '62 / 68', note: '— 18 ACC · 16 SEC · 16 Big Ten · 12 Big 12' },
       { tier: 'HBCUs', count: '10 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     collegesTitle: 'Every acceptance, 2023–2026',
@@ -888,7 +892,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       },
       {
         label: 'Placement breadth across the whole class',
-        text: '337 institutions across four classes, with 61 of the 68 Power Four universities represented. Enrollment asterisks run from the Ivies down through regional colleges.',
+        text: '337 institutions across four classes, with 62 of the 68 Power Four universities represented. Enrollment asterisks run from the Ivies down through regional colleges.',
       },
       {
         label: 'The exam requirement is real',
@@ -903,6 +907,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       'Your Acceptances page still shows the Classes of 2023–25. Where did the Class of 2026 enroll, college by college?',
       'Columbia is the only Ivy absent from both recent acceptance lists. Is that accurate, and how do you read it?',
       'You stopped publishing merit-scholarship totals after the Class of 2023. What did the last three classes receive?',
+      'Your profile lists 24 AP subjects and your course page lists 23. Is AP Business with Personal Finance offered, and are Cybersecurity and Networking Fundamentals one course or two?',
     ],
     flags: [],
     sources: [

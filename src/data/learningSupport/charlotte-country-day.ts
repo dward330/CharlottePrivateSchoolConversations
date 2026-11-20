@@ -383,7 +383,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
 
   staff: {
     headline:
-      'Forty named staff: the 26-person Educational Resource Program, the Lower School Reading Specialist, the Director of Health and Wellness, seven counselors, four nurses and an ESL teacher.',
+      'Forty named staff. They are the 26-person Educational Resource Program, the Lower School Reading Specialist and the Director of Health and Wellness. Add six counselors, an athletics student-health director, four nurses and an ESL teacher.',
     people: [
       { name: 'Sherry Harris', role: 'Director of Lower School ERP', email: 'sherry.harris@charlottecountryday.org' },
       { name: 'Leigh Bowles', role: 'Learning Specialist, Lower School', email: 'leigh.bowles@charlottecountryday.org' },

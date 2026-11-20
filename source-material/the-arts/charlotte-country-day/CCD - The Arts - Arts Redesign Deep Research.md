@@ -697,3 +697,15 @@ Press / third party
     claimed generically.
 16. **Edinburgh Fringe participation year/production: [SCHOOL-CLAIM]**, listed as an opportunity
     with no specific CCD trip verified.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20: https://www.charlottecountryday.org/about/fast-facts — its "Selected
+Memberships & Academic Organizations" list names the **Tri-M Music Honor Society** and the
+**National Art Honor Society** (alongside Cum Laude, NHS and NJHS). This overturns the
+"[NOT FOUND]" entries for both chapters above. A 2016 school news post (cited in
+`student-clubs/charlotte-country-day/CCD - Student Clubs - Clubs Redesign Deep Research.md`)
+also names Tri-M, NAHS and the International Thespian Society as "three Country Day art honor
+societies".

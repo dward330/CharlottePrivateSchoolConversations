@@ -30,7 +30,7 @@ const WB_ATHLETIC =
 export const hickoryGroveChristian: SummerProgram = {
   catalog: {
     headline:
-      'A Summer 2023 slate of 17 half-day camps — 12 academic/enrichment and 5 athletic — for rising 1st–8th graders, plus one high-school College Admissions Boot Camp.',
+      'A Summer 2023 slate of 15 half-day camps (17 sessions): 10 academic camps for rising 1st–8th graders, the College Admissions Boot Camp for rising 11th–12th graders, and 5 athletic camps.',
     subhead:
       'Academic camps run 9 a.m.–1 p.m. and athletic camps 9 a.m.–12 p.m. (Football in the evening), Monday–Thursday, across roughly eight week-blocks from late May through late July.',
     intro:

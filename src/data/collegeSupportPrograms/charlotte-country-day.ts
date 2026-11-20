@@ -366,7 +366,7 @@ const colleges = [
   { name: 'University of Stirling', cats: [] },
   { name: 'University of Tampa', cats: [], enrolling: true },
   { name: 'University of Tennessee', cats: ['p4'], enrolling: true },
-  { name: 'University of Texas', cats: ['nu75'] },
+  { name: 'University of Texas', cats: ['nu75', 'p4'] },
   { name: 'University of the South (Sewanee)', cats: ['lac75'], enrolling: true },
   { name: 'University of Toronto', cats: [], enrolling: true },
   { name: 'University of Utah', cats: ['p4'] },
@@ -542,7 +542,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     headline:
       '589 AP exams in 2026 at 96% scoring 3+ and 87% at 4 or 5 — an average score of 4.2 — and the school publishes those results discipline by discipline.',
     subhead:
-      'Country Day was the first school in North Carolina to offer the IB Diploma. So a student has two clear routes to the hardest course load, not one. The profile also names the top course in every subject.',
+      'The school’s profile calls Country Day the first school in North Carolina to offer the IB Diploma; its history page says the first private school. So a student has two clear routes to the hardest course load, not one. The profile also names the top course in every subject.',
     stats: [
       { value: '589', label: 'AP exams sat in May 2026 (230 students)' },
       { value: '96%', label: 'scored 3+ · 87% earned 4s or 5s · 4.2 average' },
@@ -602,6 +602,10 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     flags: [
       {
+        kind: 'verify',
+        text: 'IB "first" (plan consistency CCD-28, 2026-11-20): the 2026–27 profile says "first school in North Carolina" to offer the IB Diploma; the live history tile says "the first private school in North Carolina". Both attributed in the prose; Global Exposure uses the history page.',
+      },
+      {
         kind: 'gap',
         text: 'No mandatory-AP-exam policy is published, so the 96% rests on an unstated denominator. The curriculum page says the exam “is the driver for the curriculum”, which implies a strong expectation but is not a stated requirement. AP Scholar counts have not been published since 2021.',
       },
@@ -621,9 +625,9 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     headline:
       'Five full-time counselors for 536 Upper Schoolers — roughly 27 seniors each — with more than 100 years of combined admissions experience between them.',
     subhead:
-      'The office changed directors in July 2026, and the 2026–27 profile is the first edition to show the new office. But the office still holds a decade of experience. Two of the five have worked there since at least 2015–16.',
+      'The office changed directors in July 2026, and the 2026–27 profile is the first edition to show the new office. But the office still holds a decade of experience. Two of the five have worked there since at least 2015–16. The counseling page’s introduction says four full-time counselors, though the page and the profile both list five by name.',
     stats: [
-      { value: '~1:27', label: 'counselors to seniors (derived — 137 ÷ 5; the school publishes no ratio)' },
+      { value: '~27:1', label: 'seniors per counselor (computed — 137 Class of 2027 seniors ÷ 5)' },
       { value: '5', label: 'full-time college counselors, plus a registrar' },
       { value: '150+', label: 'college admissions officers hosted each year' },
       { value: 'Scoir', label: 'platform for students and for rep-visit scheduling' },
@@ -705,7 +709,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'Both ratios are derived (536 ÷ 5 and 137 ÷ 5, from the 2026–27 profile); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 1:54. The counseling page’s intro says “four full-time college counselors”, while that page and the profile both list five. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.',
+        text: 'Both ratios are derived (536 ÷ 5 and 137 ÷ 5, from the 2026–27 profile); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 54:1. The counseling page’s intro says “four full-time college counselors”, while that page and the profile both list five. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.',
       },
       {
         kind: 'gap',
@@ -723,13 +727,13 @@ export const charlotteCountryDay: CollegeSupportProgram = {
 
   outcomes: {
     headline:
-      'The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada, with 32 students to UNC–Chapel Hill alone.',
+      'The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada. UNC–Chapel Hill alone admitted 32 of them, up from 23 the year before.',
     subhead:
-      'The published list covers four years of acceptances at 363 colleges. Harvard, Caltech, Johns Hopkins and Northwestern were among those added in the final edition. Only the names in bold are places where a Class of 2026 student actually enrolled.',
+      'The published list covers four years of acceptances at 363 colleges. Harvard, Caltech, Johns Hopkins and Northwestern were among those added in the final edition. Only the names in bold are places where a Class of 2026 student actually enrolled. The school’s own documents differ slightly: the profile says 24 states, the Class of 2026 page says 23, and the list bolds 69 colleges against the 70 both pages give.',
     stats: [
       { value: '70', label: 'institutions actually enrolling a Class of 2026 student' },
       { value: '170', label: 'unique institutions admitting them · 1,107 applications sent' },
-      { value: '32', label: 'students to UNC–Chapel Hill — 23% of the class' },
+      { value: '32', label: 'seniors admitted to UNC–Chapel Hill (up from 23)' },
       { value: '$14.7M', label: 'scholarship offers, Class of 2026 ($13M for 2025)' },
     ],
     buckets: [
@@ -737,7 +741,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { tier: '“Ivy Plus”', count: '17 / 17', note: '— all 17; Stanford and Duke enrolling' },
       { tier: 'Top-75 National Universities', count: '75 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '50 / 75', note: '— includes all three federal service academies' },
-      { tier: 'Power Four', count: '63 / 68' },
+      { tier: 'Power Four', count: '64 / 68' },
       { tier: 'HBCUs', count: '19 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     collegesTitle: 'Every acceptance, 2023–2026',
@@ -751,7 +755,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       'Recent: Jefferson, Jack Kent Cooke, QuestBridge, Ron Brown, Coca-Cola',
     ],
     scholarshipsNote:
-      'Treat the “34 Morehead-Cain recipients” figure with care. The College Counseling main page shows it next to Class of 2026 numbers. But the Class of 2026 had exactly one Morehead-Cain Scholar. The 34 is an all-time total, and the school never says what years it covers. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile. They should not be shown as awards students win today.',
+      'The Class of 2026 page gives two scholarship totals: $14.7 million+ in its summary and more than $14.8 million in its text. Treat the “34 Morehead-Cain recipients” figure with care. The College Counseling main page shows it next to Class of 2026 numbers. But the Class of 2026 had exactly one Morehead-Cain Scholar. The 34 is an all-time total, and the school never says what years it covers. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile. They should not be shown as awards students win today.',
     flags: [
       {
         kind: 'verify',
@@ -781,8 +785,8 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**IB Diploma Programme** — Country Day was the **first school in North Carolina** to offer it. **26 seniors in the Class of 2027** take the full diploma from junior year. Its five-year pass rate is 88%. For a student whose strengths do not fit the AP model, it is a second clear path to the hardest course load. It also has an Extended Essay built in.',
-          '**Senior Externship** — a January job-shadowing program that started in 2017. It works with **175+ local employers across 20+ industries**. In a recent year **136 seniors** were placed with 68 Charlotte-area employers. Most hosts were current and past parents and alumni.',
+          '**IB Diploma Programme** — the school’s profile calls it the **first school in North Carolina** to offer it, and its history page the first private school. **26 seniors in the Class of 2027** take the full diploma from junior year. Its five-year pass rate is 88%. For a student whose strengths do not fit the AP model, it is a second clear path to the hardest course load. It also has an Extended Essay built in.',
+          '**Senior Externship** — a January job-shadowing program that started in 2017. The school’s Beyond the Classroom page says it works with **175+ local employers across 20+ industries**, and elsewhere on the same page 100+ employers in 20 industries. In a recent year **136 seniors** were placed with 68 Charlotte-area employers. Most hosts were current and past parents and alumni.',
           '**Science Outreach Program** — rising juniors and seniors work with science professors at local institutions on primary research over the summer, then present at the annual Science Symposium.',
           '**Weddington Farm** — a **330-acre living classroom** with crops, farm animals, beekeeping, mushroom farming and a ten-mile trail system. It is used for lessons in green farming, ecology and starting a business. Few city private schools have anything like it.',
           '**Special Olympics Mecklenburg County Spring Games** — the Upper School has paused classes for two days every April **since 1984** to host them. To an admissions office, a 40-year commitment by the whole school reads very differently than a service club.',
@@ -796,7 +800,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         items: [
           '**The School Profile as an instrument** — the 2026–27 edition names the top course in every subject. It states the weighting formula. It shows AP results by subject, including the low end (Fine Arts at 91%/61%). Its AP-load groups grew to four. It dropped the 2025–26 edition’s test medians for each fifth, but it brought back a whole-class SAT/ACT middle 50%. That openness itself builds trust.',
           '**Integrity signaling** — an Honor Code students pledge every year, a student-run Honor Council, and membership in ACCIS, NACAC and SACAC. Signs of strong teachers matter here too. The Upper School’s **83 teaching and administrative staff** include **AP exam readers**, National Board graders and Klingenstein Fellows. 82% hold advanced degrees, and 100% take part in teacher training each year.',
-          '**A dominant UNC–Chapel Hill pipeline** — 32 Class of 2026 students enrolled there, 23% of the class. The school also counts 34 Morehead-Cain recipients all-time. Add a lasting Jefferson Scholar link to UVA and a decade of service-academy appointments.',
+          '**A dominant UNC–Chapel Hill pipeline** — UNC–Chapel Hill admitted 32 Class of 2026 seniors, up from 23 the year before. The school also counts 34 Morehead-Cain recipients all-time. Add a lasting Jefferson Scholar link to UVA and a decade of service-academy appointments.',
           '**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolled Class of 2026 students. The list holds 19 HBCUs (historically Black colleges and universities), with Claflin new. Recent awards include a February One Scholarship and a Ron Brown Scholar.',
         ],
         note:
@@ -923,7 +927,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'The outcomes are honest across the whole distribution',
-        text: '70 destinations for 141 seniors across 24 states, DC and Canada, 55% public and 45% private. Community colleges are listed alongside Princeton and MIT. 32 students enrolled at UNC–Chapel Hill. And a substantial HBCU pipeline, with students enrolling at four of them.',
+        text: '70 destinations for 141 seniors across 24 states, DC and Canada, 55% public and 45% private. Community colleges are listed alongside Princeton and MIT. UNC–Chapel Hill admitted 32 of them. And a substantial HBCU pipeline, with students enrolling at four of them.',
       },
     ],
     checklist: [
@@ -934,6 +938,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       'How many learning specialists and academic coaches work with Upper School students, what are their credentials, and what is the caseload?',
       'How do you report Honor Council findings and disciplinary actions on the secondary school report?',
       'How many colleges do your counselors visit each year, is the Senior Externship required, and what gap-year, post-AP computer science, or capstone-research options exist?',
+      'Your pages give slightly different figures: 23 or 24 states for the Class of 2026, $14.7 or $14.8 million in scholarships, four or five full-time counselors, and 100+ or 175+ externship employers. Which are current?',
     ],
     flags: [],
     sources: [

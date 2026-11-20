@@ -5,13 +5,14 @@
 // source URLs. The school's own Afterschool Program page is the primary source
 // for grades, hours and the enrichment-activity list.
 //
-// THE COST CARD IS OMITTED, and that is the finding: the recurring TK–5
-// Afterschool rate is NOT PUBLISHED on the Afterschool Program page or the
-// Tuition and Fees page — billing is described only as "billed annually and
+// THE COST CARD IS OMITTED. Until 2026-11-20 the recurring rate was not
+// published anywhere. It now is, on the Tuition and Fees page: "TK-5th Grade
+// After School Childcare: $2,600; yearly" and "6th-12th Grade ... $1,300; yearly"
+// (re-read live, plan consistency HG-16). Two annual prices with no day or
+// pickup tiers do not make a planner matrix, so they ride on the coverage bars,
+// the watch-outs and the Compare row instead. Billing is "billed annually and
 // divided into equal payments based on the plan you select," and single-day
-// drop-ins are explicitly not offered. Per no-empty-cards, the Cost card is left
-// off entirely rather than shipped as a "not published" shell; the scope note
-// rides in the coverage card's facts and the verdict instead.
+// drop-ins are explicitly not offered.
 //
 // The $35/day "Adventure Days" figure is a DIFFERENT, out-of-session program
 // (child care when school is not in session, TK–7) and is deliberately NOT used
@@ -23,15 +24,15 @@ import type { AfterSchoolProgram } from '../afterSchool.ts'
 /* The coverage timeline spans 2 pm → 6 pm, so each hour is 0.25 of the window. */
 const frac = (hour: number, minute = 0) => (hour + minute / 60 - 14) / 4
 
-const AFTERSCHOOL = 'https://www.hgchristian.org/life-as-a-lion/after-school-program'
-const TUITION = 'https://www.hgchristian.org/admissions/tuition-and-fees'
+const AFTERSCHOOL = 'https://www.hgchristian.org/afterschool-program'
+const TUITION = 'https://www.hgchristian.org/tuition-and-fees'
 
 export const hickoryGroveChristian: AfterSchoolProgram = {
   coverage: {
     headline:
       'One 2:30–5:30 p.m. window covers the whole school — an Afterschool program for TK–5 and a supervised Study Hall for grades 6–11 — with the latest pickup at 5:30.',
     subhead:
-      'Both are full-year programs (no single-day drop-ins), billed annually in equal payments. The recurring rate is not published, so no price is shown on the bars.',
+      'Both are full-year programs (no single-day drop-ins), billed annually in equal payments. The tuition page prices after-school childcare at $2,600 a year for TK–5 and $1,300 for grades 6–12; the Afterschool page describes Study Hall for grades 6–11.',
     hours: ['2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
     rows: [
       {
@@ -40,7 +41,7 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
         startFrac: frac(14, 30),
         endFrac: frac(17, 30),
         tiers: [],
-        flatLabel: 'Afterschool · rate not published',
+        flatLabel: 'Afterschool · $2,600 a year',
       },
       {
         division: 'Study Hall (6–11)',
@@ -48,7 +49,7 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
         startFrac: frac(14, 30),
         endFrac: frac(17, 30),
         tiers: [],
-        flatLabel: 'Study Hall · rate not published',
+        flatLabel: 'Study Hall · $1,300 a year (fee line: grades 6–12)',
       },
     ],
     facts: [
@@ -66,8 +67,8 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
     ],
     flags: [
       {
-        kind: 'gap',
-        text: 'The recurring TK–5 Afterschool monthly/annual rate is not published on the Afterschool Program page or the Tuition and Fees page. The amounts sit behind the school\'s "student services fees" documents / FACTS Family Portal. So this page has no cost planner for it, and the Compare row for aftercare cost shows N/A for HGCS.',
+        kind: 'verify',
+        text: 'Grades differ between two school pages (plan consistency HG-16, re-read live 2026-11-20): the Tuition and Fees page says "6th-12th Grade After School Childcare: $1,300; yearly"; the Afterschool page describes Study Hall "for students in grades 6–11". Both are attributed on the card, and the checklist asks. The old /life-as-a-lion/after-school-program URL now 404s and /admissions/tuition-and-fees redirects to the admissions home; both links were re-pointed.',
       },
       {
         kind: 'verify',
@@ -76,7 +77,7 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
     ],
     sources: [
       { label: 'hgchristian.org — Afterschool Program (grades, hours, activities, billing)', url: AFTERSCHOOL },
-      { label: 'hgchristian.org — Tuition and Fees (no after-school rate on the page)', url: TUITION },
+      { label: 'hgchristian.org — Tuition and Fees (after-school childcare rates)', url: TUITION },
     ],
   },
 
@@ -134,9 +135,9 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
 
   verdict: {
     headline:
-      'A single, age-split afternoon program that covers the whole school to 5:30 p.m. — with fully published activities but no published price, and no summer coverage.',
+      'A single, age-split afternoon program that covers the whole school to 5:30 p.m. — with published activities and annual prices, but no summer coverage.',
     subhead:
-      'The open questions are the unpublished recurring rate, the missing staff ratio, and the fact that both tracks are full-year commitments with no drop-in option.',
+      'The open questions are the missing staff ratio, which grades Study Hall serves, and the fact that both tracks are full-year commitments with no drop-in option.',
     strengths: [
       '**Whole-school coverage in one window** — TK–5 Afterschool and 6–11 Study Hall both run 2:30–5:30 p.m., so there is no division gap.',
       '**A clearly described afternoon** — the TK–5 activity list (homework help, outdoor play, reading, computer lab) and the 6–11 Study Hall framing are published in the school\'s own words.',
@@ -144,17 +145,17 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
       '**A named director** — Belinda Jackson, with a direct phone line, runs the program.',
     ],
     watchouts: [
-      '**The recurring price is not published**. Neither the Afterschool page nor the Tuition and Fees page states a monthly or annual rate. Families must go through the student-services fee documents or FACTS portal.',
+      '**Annual prices only** — the Tuition and Fees page lists $2,600 a year for TK–5 and $1,300 for grades 6–12, billed in equal payments. No monthly or per-day rate is published.',
       '**No single-day drop-ins** — both tracks are full-year commitments billed annually, so occasional-need families have no flexible option (the only drop-in is the separate $35/day out-of-session Adventure Days).',
       '**No summer coverage** — the program is closed during the summer; there is no summer wrap-around care, and summer camps are half-day only.',
       '**No staff-to-child ratio** is published for either track.',
     ],
     checklist: [
-      'What does the recurring Afterschool program actually cost per year for TK–5, and what payment plans are offered?',
-      'Is the Study Hall for grades 6–11 the same price as the TK–5 Afterschool program, or billed separately?',
+      'Is Study Hall open to 12th graders? The Afterschool page says grades 6–11, but the fee line says 6th–12th.',
+      'What payment plans are offered for the $2,600 and $1,300 annual rates?',
       'What is the staff-to-child ratio in Afterschool and in Study Hall?',
       'Since there are no drop-ins, is there any way to enroll for only some afternoons a week?',
-      'What are the "student services fees" that hold the after-school rate, and where can we see them before enrolling?',
+      'Are there other "student services fees" beyond the after-school rate, and where can we see them before enrolling?',
       'What child-care options exist in the summer, given the program is closed — beyond the half-day camps?',
     ],
     flags: [],

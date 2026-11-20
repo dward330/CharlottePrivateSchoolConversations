@@ -24,7 +24,7 @@
 // new Texas Grace Audio Lab.
 //
 // Catalog corrections absorbed here, each of which contradicts the earlier note:
-//   - All 22 Upper School arts courses are Honors / AP / Advanced Topics. There
+//   - All 24 Upper School arts courses are Honors / AP / Advanced Topics. There
 //     is no regular-track arts course, behind a two-year arts requirement.
 //   - No "Acting 1-2", no "Stagecraft 1-2", no "Studio Arts I" — the real names
 //     are Honors Theater I/II/In Performance and Honors Studio-2D / 3D.
@@ -49,12 +49,12 @@ const CS_VISIONARIES = 'https://www.cannonschool.org/artistic-visionaries'
 export const cannon: ArtsProgram = {
   ladder: {
     headline:
-      'Every one of the 22 Upper School arts courses is Honors, AP or Advanced Topics — there is no regular-track arts course, behind a two-year arts graduation requirement.',
+      'Every one of the 24 Upper School arts courses is Honors, AP or Advanced Topics — there is no regular-track arts course, behind a two-year arts graduation requirement.',
     subhead:
       'Choice-based (TAB) visual art in every division since 2016-17, piloted in the Lower School back in 2011. A purpose-built 2014 performing arts center whose lobby is the student gallery.',
     stats: [
       { value: 'JrK–12', label: 'choice-based art in every division' },
-      { value: '22', label: 'US arts courses — all honors or above' },
+      { value: '24', label: 'US arts courses — all honors or above' },
       { value: '2 years', label: 'arts required to graduate' },
       { value: '11,486 sq ft', label: 'Cindric center · 450 moveable seats' },
     ],
@@ -215,7 +215,7 @@ export const cannon: ArtsProgram = {
     headline:
       'A four-year strings ladder, a Hip-Hop-inclusive Modern Ensemble, and a novice-to-portfolio production track on Ableton and Logic Pro — but no documented external honors pipeline.',
     subhead:
-      'All nine Upper School music courses carry an Honors designation, and most can be repeated. The transcript keeps the same course name while the work gets harder each year.',
+      'All eleven Upper School music courses carry an Honors designation, and most can be repeated. The transcript keeps the same course name while the work gets harder each year.',
     tracks: [
       {
         label: 'Auditioned / permission-gated',
@@ -339,13 +339,13 @@ export const cannon: ArtsProgram = {
 
   verdict: {
     headline:
-      'An arts department that weights the arts like academics — 22 courses all at honors or above, a two-year requirement, and a documented strategic mission.',
+      'An arts department that weights the arts like academics — 24 courses all at honors or above, a two-year requirement, and a documented strategic mission.',
     subhead:
       'The asymmetry is the thing to understand: theatre carries hard third-party validation, while music’s external recognition is undocumented and its strength lies in production instead.',
     holdsUp: [
       {
         label: 'The arts are weighted like academics',
-        text: 'all 22 Upper School arts courses are Honors, AP or Advanced Topics — there is no regular-track arts course. On top of that, there is a two-year arts graduation requirement. That is a signal you can check about how the arts count on a GPA and transcript, not a slogan.',
+        text: 'all 24 Upper School arts courses are Honors, AP or Advanced Topics — there is no regular-track arts course. On top of that, there is a two-year arts graduation requirement. That is a signal you can check about how the arts count on a GPA and transcript, not a slogan.',
       },
       {
         label: 'Theatre has hard third-party validation',

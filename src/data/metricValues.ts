@@ -163,8 +163,8 @@ export const VALUE_METRICS: ValueMetric[] = [
   // =========================== Course Offerings ============================
   // Transcribed from each school's OWN published curriculum guide (see
   // source-material/course-offerings/<school>/). Guide vintages differ by
-  // school — Cannon, Charlotte Christian, and Davidson Day publish 2026-27;
-  // Providence Day and Country Day publish 2025-26; Charlotte Latin publishes
+  // school — Cannon, Charlotte Christian, Davidson Day and Providence Day
+  // publish 2026-27; Country Day publishes 2025-26; Charlotte Latin publishes
   // an undated live course list. Where a school's own documents disagree, the
   // per-school research file records the discrepancy and which figure was used.
   {
@@ -174,16 +174,16 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'Distinct Upper School course entries in the school’s own current curriculum guide. Counting conventions differ — Country Day’s index bundles language levels onto one line, so its true course count is higher than the line count shown.',
     values: {
       cannon: '104', // counted from the 11 course-offering sections of the 2026-27 catalog
-      'charlotte-christian': '~135', // ~135 unique titles; 6 are cross-listed in two departments
+      'charlotte-christian': '143', // per-level count from the full 2026-27 guide: 129 listed rows + 5 French + 3 Latin + 5 Spanish levels + Yearbook Honors (plan consistency CC-4)
       'charlotte-catholic': '199', // counted from the 2026-2027 Curriculum Guide by course HEADER — 196 coded headers + 3 CPCC dual-enrollment (Academic Skills 508/509 and AP Micro & Macro 953/954 are one header each); prior-year guide had 183
-      'charlotte-country-day': '119', // line-by-line count of the Total Index of Courses by Department (p.8)
-      'charlotte-latin': '129', // counted from the live Upper School course-offerings page
+      'charlotte-country-day': '117', // line-by-line count of the Total Index of Courses by Department (p.8), re-read 2026-11-20; 119 had counted two sub-headings
+      'charlotte-latin': '122', // 136 live posts on the Upper School course-offerings page minus 14 department intros (re-counted 2026-11-20)
       'covenant-day': '90', // level-qualified entries across the 9 /academics/high-school department tiles
-      'carmel-christian': '~78', // HS catalog across 9 depts (S2/S3/S4); levels counted separately
-      'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
+      'carmel-christian': '96', // HS catalog across 9 depts (S2/S3/S4), one entry per level = 96 rows; 77 distinct titles (plan consistency CAR-3)
+      'davidson-day': '86', // 86 catalog courses (recounted 2026-11-20, plan consistency DD-2); 66 on the 2026-27 offerings grid
       'hickory-grove-christian': '112', // real courses in the 2026-2027 Course Selection Catalog; 117 distinct title strings, 5 of them spelling variants
       'gaston-day': '46', // counted from the Academic Profile 2025-2026 curriculum table — the school publishes no separate course catalog
-      'providence-day': '149', // distinct entries; multi-year language sequences counted once per track
+      'providence-day': '172', // 2026-27 Course of Study, one entry per level; F/G/S levels once per language (school's World Language tally of 38); 153 rows rendered
     },
     quals: {
       'charlotte-catholic': {
@@ -193,7 +193,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'scope',
-        text: 'About 135 unique course titles; 6 of them are cross-listed in two departments, so a department-by-department tally would count those twice.',
+        text: 'Counted from the full 2026–27 curriculum guide, one entry per course level, as Covenant Day and Hickory Grove are counted. The school page lists 129, with the French, Latin and Spanish sequences and Yearbook each on one row.',
       },
       'covenant-day': {
         kind: 'scope',
@@ -201,15 +201,15 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'davidson-day': {
         kind: 'scope',
-        text: '74 courses are described in the 2026–27 catalog, with one more (AP Spanish Literature) listed without a description. The school’s own offerings grid shows 66.',
+        text: '86 courses in the 2026–27 catalog; the catalog’s own offerings grid on p. 70 shows 66.',
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Distinct course entries, with multi-year language sequences counted once per track rather than once per level.',
+        text: 'Counted from the 2026–27 Course of Study, one entry per course level; French, German and Spanish levels count once per language, matching the school’s own World Language tally of 38.',
       },
       'carmel-christian': {
         kind: 'scope',
-        text: 'High-school catalog only; the school publishes no named lower- or middle-school course lists. A subject taught at Standard, Honors and AP is counted as separate titles, matching how the school lists them.',
+        text: 'Counted from the 2026–27 high-school course listings, one entry per course level, as Covenant Day and Hickory Grove are counted. A subject taught at Standard, Honors and AP counts three times, so the 96 entries come from 77 distinct titles.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -232,15 +232,19 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '21 AP', // the guide's own AP roster, corroborated by the admissions FAQ
       'charlotte-catholic': '26 AP', // 26 AP + 43 Honors + 18 Advanced = 87 advanced entries, counted from the 2026-2027 guide; AP entry is competitive and requires a per-course application
       'charlotte-country-day': '23 AP + 18 IB', // plus the IB core (Theory of Knowledge, Extended Essay, CAS)
-      'charlotte-latin': '22 AP subjects', // the school's stated figure; 23 AP-titled entries appear on the course page
+      'charlotte-latin': '24 AP subjects', // the 2026–27 Upper School Profile; the course-offerings page lists 23 AP courses
       'covenant-day': '17 AP', // AP-tagged courses on the /academics/high-school department tiles; the 2026-27 Profile matrix listed 15
-      'carmel-christian': '16', // 16 AP courses (landing page; profile says 15, +AP World History → 16)
+      'carmel-christian': '16 AP', // 16 AP courses (landing page; profile says 15, +AP World History → 16)
       'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
       'hickory-grove-christian': '17 AP', // the 2026-2027 catalog's Advanced Placement section, counted title by title
       'gaston-day': '10 AP', // counted from the profile's own course table; PSR says 9 and omits Chemistry, which the profile marks (H)(AP)
-      'providence-day': '28 AP', // 28 AP courses described; catalog prose names 27 subject areas
+      'providence-day': '30 AP', // 30 AP headings in the 2026-27 Upper School Course of Study (adds AP Business with Personal Finance and AP German)
     },
     quals: {
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'The curriculum guide’s AP list has 21 courses. The 2026–27 profile lists 20 AP courses plus Calculus III (college level), and the guide also describes AP Spanish Literature, which its AP list leaves out.',
+      },
       'charlotte-catholic': {
         kind: 'scope',
         text:
@@ -256,7 +260,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-latin': {
         kind: 'scope',
-        text: '22 is the school’s own stated figure; 23 AP-titled entries actually appear on the course-offerings page. The 2026–27 Upper School Profile says AP is offered in 24 subjects.',
+        text: '24 is the school’s figure in its 2026–27 profile; the course-offerings page lists 23 AP courses.',
       },
       'covenant-day': {
         kind: 'scope',
@@ -264,7 +268,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: '28 AP courses are described in the catalog, whose prose names 27 subject areas.',
+        text: '30 AP courses are described in the 2026–27 catalog.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -715,17 +719,17 @@ export const VALUE_METRICS: ValueMetric[] = [
     compareAs: 'fraction',
     subs: ACCEPTANCE_WINDOWS,
     values: {
-      cannon: '61 / 68', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '54 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      cannon: '62 / 68', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '55 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '43 / 68', // against the 68-member Power Four roster in _shared/; 44 list rows carry the tag but the two Arizona State campuses are one institution
-      'charlotte-country-day': '63 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
-      'charlotte-latin': '61 / 68', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'charlotte-country-day': '64 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '62 / 68', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '46 / 68', // ACC 14 · SEC 12 · Big Ten 11 · Big 12 9 (worked in the dossier)
       'carmel-christian': '44 / 68', // distinct Power Four members in the cats list (45 rows, but Alabama appears twice — bare and as Tuscaloosa — and the list deliberately preserves the school's verbatim duplicates)
       'davidson-day': '47 / 68', // buckets, collegeSupportPrograms/davidson-day.ts
       'hickory-grove-christian': '28 / 68', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists; UConn excluded — Big East)
       'gaston-day': '43 / 68', // against the 68-member Power Four roster in _shared/
-      'providence-day': '65 / 68', // buckets, collegeSupportPrograms/providence-day.ts
+      'providence-day': '66 / 68', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
       'charlotte-catholic': {
@@ -737,13 +741,13 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: '43 of the 68 Power Four member institutions appear somewhere on the 2019–2025 acceptance list. Counted against the 68-member roster (which includes Notre Dame), not the 67 football-playing members.',
       },
-      cannon: { kind: 'scope', text: '61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '54 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Christian’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '63 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-latin': { kind: 'scope', text: '61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '62 of the 68 Power Four universities appear on Cannon’s published acceptance list. The Power Four are the ACC, Big Ten, Big 12 and SEC, plus Notre Dame. Matched against the 2027 U.S. News tables; not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '55 of the 68 Power Four universities appear on Charlotte Christian’s published 2023–25 and 2024–26 acceptance lists. The Power Four are the ACC, Big Ten, Big 12 and SEC, plus Notre Dame. Matched against the 2027 U.S. News tables; not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '64 of the 68 Power Four universities appear on Charlotte Country Day’s published acceptance list. The Power Four are the ACC, Big Ten, Big 12 and SEC, plus Notre Dame. Matched against the 2027 U.S. News tables; not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '62 of the 68 Power Four universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists. The Power Four are the ACC, Big Ten, Big 12 and SEC, plus Notre Dame. Matched against the 2027 U.S. News tables; not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '46 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Covenant Day’s published 2023–2026 acceptance list — 14 ACC, 12 SEC, 11 Big Ten, 9 Big 12. Not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '47 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'providence-day': { kind: 'scope', text: '65 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '66 of the 68 Power Four universities appear on Providence Day’s published acceptance list. The Power Four are the ACC, Big Ten, Big 12 and SEC, plus Notre Dame. Matched against the 2027 U.S. News tables; not a figure the school reports itself.' },
       'carmel-christian': {
         kind: 'scope',
         text: 'Power Four members (of 68, including Notre Dame) named on the cumulative acceptance list. The list states no year window and marks no matriculations.',
@@ -1033,28 +1037,32 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '~26:1', // 105 seniors (Class of 2026) ÷ 4 counselors
       'charlotte-christian': '~55:1', // effective caseload ~55 seniors/counselor (110 ÷ 2, Class of 2026)
-      'charlotte-catholic': '~56:1', // COMPUTED, not published — 336 seniors in the Class of 2027 (2026-27 profile) over 6 counselors incl. the Director; ~195:1 across all four grades
+      'charlotte-catholic': '~56:1', // COMPUTED, not published — 336 seniors in the Class of 2027 (2026-27 profile) over 6 counselors incl. the Director; ~222:1 across all four grades (1,330, NCES 2023-24)
       'charlotte-country-day': '~27:1', // COMPUTED — 137 Class of 2027 seniors (2026–27 profile) over 5 counselors
       'charlotte-latin': '~38:1', // COMPUTED — 151 seniors (2026–27 profile) ÷ 4 counselors = 37.75
       'covenant-day': '85:1', // 85 seniors ÷ 1 dedicated Guidance & College Counseling Director
       'carmel-christian': null, // seniors-per-counselor not published
       'davidson-day': '~25:1', // 50 seniors (Class of 2027) ÷ 2 counselors
-      'hickory-grove-christian': null, // caseload not published; computable only (~34:1 across 2 staff, but one is a non-college admin)
+      'hickory-grove-christian': '≈34:1', // computed: 67 Class of 2025 graduates ÷ 2 counseling staff (plan consistency HG-19); 67:1 against the Director alone
       'gaston-day': '~18:1', // COMPUTED, not published — 35 seniors over 2 counselors (Director + Assistant); 35:1 against the Director alone
       'providence-day': '~36:1', // COMPUTED — 179 seniors (2026–27 profile) over 5 counselors (Director + 4 Associate Directors)
     },
     quals: {
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'Computed, not published: 67 Class of 2025 graduates over 2 counseling staff. One of the two is not a college counselor, so against the Director alone it is 67:1.',
+      },
       'charlotte-catholic': {
         kind: 'official',
         text:
-          'Computed, not published: 336 seniors in the Class of 2027 divided by the six counselors named on the 2026-27 school profile, including the Director of Counseling Services. Across all four grades (~1,171 students) it is roughly 195:1.',
+          'Computed, not published: 336 seniors in the Class of 2027 divided by the six counselors named on the 2026-27 school profile, including the Director of Counseling Services. The five alphabet-band counselors carry about 67 seniors each. Across all four grades (1,330 students, 2023–24, NCES) it is roughly 222:1.',
       },
       'gaston-day': {
         kind: 'scope',
         text: 'COMPUTED, not published — the school states neither a caseload nor a ratio. 35 seniors in the Class of 2026 over two college-counseling staff (Peter Gangemi, Director; Kristy Smith, Assistant) gives ~18:1; counted against the Director alone it would be 35:1.',
       },
       cannon: { kind: 'scope', text: 'About 26 seniors per dedicated college counselor at peak application season — 105 seniors across 4 counselors. A lower ratio means more counselor time per student.' },
-      'charlotte-christian': { kind: 'scope', text: 'An effective caseload of about 55 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
+      'charlotte-christian': { kind: 'scope', text: 'An effective caseload of about 55 seniors per college counselor at peak application season, counted on the 110 Class of 2026 graduates because the current senior class size is not published. A lower ratio means more counselor time per student.' },
       'charlotte-country-day': { kind: 'scope', text: 'About 27 seniors per college counselor: 137 seniors shared among five counselors, derived from the 2026–27 profile. A lower ratio means more counselor time per student.' },
       'charlotte-latin': { kind: 'scope', text: 'About 38 seniors per college counselor at peak application season — 151 seniors in the 2026–27 class across 4 counselors (computed; the school publishes no ratio). A lower ratio means more counselor time per student.' },
       'covenant-day': { kind: 'scope', text: '85 seniors against one dedicated Guidance & College Counseling Director — the heaviest caseload here, cushioned by a second guidance counselor and a guidance assistant who carry the non-college load. A lower ratio means more counselor time per student.' },
@@ -1111,20 +1119,20 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: { kind: 'scope', text: 'The Grades 1–4 band. Cannon prices its youngest years lower: Junior K $21,450 and Kindergarten $22,300.' },
       'charlotte-christian': { kind: 'scope', text: 'The Lower (1–4) band. The Early Ed band for JK and K is $21,300.' },
       'charlotte-country-day': { kind: 'scope', text: 'The Grades 1–4 band. Junior K is $24,515 and Kindergarten $25,725.' },
-      'charlotte-latin': { kind: 'scope', text: 'The Grades 1–5 band, which also prices grade 5 — the first Middle School year at Latin. TK and Kindergarten are $27,600.' },
+      'charlotte-latin': { kind: 'scope', text: 'The Grades 1–5 band, which prices grade 5, the last Lower School year at Latin. TK and Kindergarten are $27,600.' },
       'covenant-day': { kind: 'scope', text: 'The Grades 1–5 band. JK and K are $15,490.' },
       'carmel-christian': { kind: 'scope', text: 'The Grades 1–5 band. Kindergarten is $12,500; the school has no pre-K program.' },
       'davidson-day': { kind: 'scope', text: 'The Lower (K–4) band. The Early Childhood band, from two-year-olds through Junior Kindergarten, is $22,590.' },
       'hickory-grove-christian': { kind: 'scope', text: 'One Elementary band covers TK through grade 5 ($11,900), the school’s own 2026–27 yearly rate.' },
       'gaston-day': { kind: 'scope', text: 'The Kindergarten–4th all-in band (tuition plus fees, as the school’s own schedule totals it). Preschool/Pre-K is $10,890 full day or $8,775 half day.' },
-      'providence-day': { kind: 'scope', text: 'The Grades 1–5 band, which also prices grade 5 — the first Middle School year at Providence Day. Transitional Kindergarten is $25,510 and Kindergarten $28,010.' },
+      'providence-day': { kind: 'scope', text: 'The Grades 1–5 band, which prices grade 5, the last Lower School year at Providence Day. Transitional Kindergarten is $25,510 and Kindergarten $28,010.' },
     },
   },
   {
     topic: 'financial-aid-tuition',
     key: 'tuition-middle',
     label: 'Middle School tuition',
-    note: 'Tuition for grade 8 at each school, at the published band that prices it. Middle School starts in grade 5 at seven of these schools and in grade 6 at Covenant Day, Carmel Christian and Hickory Grove; the line beneath names the band and the school year.',
+    note: 'Tuition for grade 8 at each school, at the published band that prices it. Middle School starts in grade 5 at five of these schools and in grade 6 at the other five. The line beneath names the band and the school year.',
     noLead: true,
     compareOnly: true,
     values: {
@@ -1153,10 +1161,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': '(2026–27 · grades 6–12)',
     },
     quals: {
-      'charlotte-latin': { kind: 'scope', text: 'The Grades 6–8 band. Latin’s Middle School begins in grade 5, which is priced in the Grades 1–5 band at $32,600.' },
+      'charlotte-latin': { kind: 'scope', text: 'The Grades 6–8 band, which prices all three Middle School years (grades 6–8).' },
       'hickory-grove-christian': { kind: 'scope', text: 'The Grades 6–8 (Middle) band ($12,900), the school’s own 2026–27 yearly rate.' },
       'gaston-day': { kind: 'scope', text: 'The 5th–8th all-in band (tuition plus fees, as the school’s own schedule totals it).' },
-      'providence-day': { kind: 'scope', text: 'Providence Day’s top band spans Grades 6–12, so grade 8 is priced at the same rate as the Upper School. Its Middle School begins in grade 5, which is priced in the Grades 1–5 band at $32,960.' },
+      'providence-day': { kind: 'scope', text: 'Providence Day’s top band spans Grades 6–12, so grade 8 is priced at the same rate as the Upper School. Its Middle School runs grades 6–8.' },
     },
   },
   {
@@ -1169,7 +1177,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '$32,070', // Grades 9–12, 2026–27
       'charlotte-christian': '$27,055', // Grades 9–12, 2026–27
-      'charlotte-catholic': '$23,562', // MACS High International rate, grades 9-12, 2026-27. Community (non-parishioner) $21,562; Participating Catholic $15,041; capital fee $1,995/family
+      'charlotte-catholic': '$21,562', // MACS Community rate, grades 9-12, 2026-27 (the report's own comparison rate). High International $23,562; Participating Catholic $15,041; capital fee $1,995/family
       'charlotte-country-day': '$34,075', // Grades 9–12, 2026–27
       'charlotte-latin': '$36,500', // Grades 9–12, 2026–27
       'covenant-day': '$22,790', // Grades 9–12, 2026–27 (website table; the 2025-26 terms PDF shows $21,590)
@@ -1196,7 +1204,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'MACS sets tuition centrally for all its schools; CCHS publishes none of its own. This is the High International rate for 2026-27. A community (non-parishioner) family pays $21,562 and a participating Catholic family $15,041 — a roughly 30% difference driven by parish participation rather than financial need.',
+          'MACS sets tuition centrally for all its schools; CCHS publishes none of its own. This is the Community rate for 2026-27, the price to a family with no parish affiliation. A participating Catholic family pays $15,041, a roughly 30% difference driven by parish participation rather than financial need. The International rate, for students who need an I-20, is $23,562.',
       },
       'providence-day': {
         kind: 'scope',
@@ -1257,7 +1265,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'financial-aid-tuition',
     key: 'run-ms12',
     label: 'Middle School through grade 12, at today’s rates',
-    note: 'Middle School starts in grade 5 at seven of these schools (Cannon, Charlotte Christian, Country Day, Davidson Day, Gaston Day, Latin, Providence Day) and in grade 6 at Covenant Day, Carmel Christian and Hickory Grove, so a Middle-School-to-graduation run is eight years at the first group and seven at the second — the line beneath each figure says which. Each year at the band that prices that grade today; tuition only, not a projection.',
+    note: 'Middle School starts in grade 5 at Cannon, Charlotte Christian, Country Day, Davidson Day and Gaston Day, so a run from Middle School to graduation is eight years there. It starts in grade 6 at Covenant Day, Carmel Christian, Hickory Grove, Latin and Providence Day, so the run is seven years. The line beneath each figure says which. Each year is priced at the band for that grade today: tuition only, not a projection.',
     noLead: true,
     compareOnly: true,
     values: {
@@ -1265,31 +1273,31 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '$206,520',
       'charlotte-catholic': null,
       'charlotte-country-day': '$267,100',
-      'charlotte-latin': '$284,200',
+      'charlotte-latin': '$251,600',
       'covenant-day': '$152,630',
       'carmel-christian': '$126,300',
       'davidson-day': '$212,920',
       'hickory-grove-christian': '$95,100',
       'gaston-day': '$175,260',
-      'providence-day': '$287,235',
+      'providence-day': '$254,275',
     },
     subs: {
       cannon: '(2026–27 rates · grades 5–12)',
       'charlotte-christian': '(2026–27 rates · grades 5–12)',
       'charlotte-country-day': '(2026–27 rates · grades 5–12)',
-      'charlotte-latin': '(2026–27 rates · grades 5–12)',
+      'charlotte-latin': '(2026–27 rates · grades 6–12)',
       'covenant-day': '(2026–27 rates · grades 6–12)',
       'carmel-christian': '(2026–27 rates · grades 6–12)',
       'davidson-day': '(2026–27 rates · grades 5–12)',
       'hickory-grove-christian': '(2026–27 rates · grades 6–12)',
       'gaston-day': '(2025–26 rates · grades 5–12)',
-      'providence-day': '(2026–27 rates · grades 5–12)',
+      'providence-day': '(2026–27 rates · grades 6–12)',
     },
     quals: {
-      'charlotte-latin': { kind: 'scope', text: 'Eight years: grade 5 at the Grades 1–5 band ($32,600), three at Grades 6–8 and four at Grades 9–12, all at 2026–27 rates.' },
+      'charlotte-latin': { kind: 'scope', text: 'Seven years: three at the Grades 6–8 band and four at Grades 9–12, all at 2026–27 rates.' },
       'hickory-grove-christian': { kind: 'scope', text: 'Seven years: three at Grades 6–8 and four at Grades 9–12, at the school’s own 2026–27 rates.' },
       'gaston-day': { kind: 'scope', text: 'Eight years: four at 5th–8th and four at 9th–12th, using the school’s all-in bands (tuition plus fees) for 2025–26.' },
-      'providence-day': { kind: 'scope', text: 'Eight years: grade 5 at the Grades 1–5 band ($32,960) and seven at the Grades 6–12 band, all at 2026–27 rates.' },
+      'providence-day': { kind: 'scope', text: 'Seven years at the Grades 6–12 band, all at 2026–27 rates.' },
     },
   },
   {
@@ -1302,7 +1310,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '$128,280',
       'charlotte-christian': '$108,220',
-      'charlotte-catholic': '$94,248',
+      'charlotte-catholic': '$86,248',
       'charlotte-country-day': '$136,300',
       'charlotte-latin': '$146,000',
       'covenant-day': '$91,160',
@@ -1326,7 +1334,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': '(2026–27 rates · grades 9–12)',
     },
     quals: {
-      'charlotte-catholic': { kind: 'scope', text: 'Four years at the High International rate ($23,562), the figure the Upper School row shows. A community (non-parishioner) family would pay $86,248 and a participating Catholic family $60,164 over the same four years.' },
+      'charlotte-catholic': { kind: 'scope', text: 'Four years at the Community rate ($21,562), the figure the Upper School row shows. A participating Catholic family would pay $60,164 over the same four years, and an international student $94,248.' },
       'hickory-grove-christian': { kind: 'scope', text: 'Four years at the Grades 9–12 band ($14,100), the school’s own 2026–27 rate.' },
       'gaston-day': { kind: 'scope', text: 'Four years at the 9th–12th all-in band (tuition plus fees, as the school’s own schedule totals it) for 2025–26.' },
       'providence-day': { kind: 'scope', text: 'Four years at the Grades 6–12 band ($36,325), the same figure the school’s Financial Aid report gives for a 9–12 run.' },
@@ -1588,11 +1596,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': 'AP + IB', // AP and IB arts pathways (rare dual offering)
       'charlotte-latin': null, // not detailed
       'covenant-day': 'AP Studio Art', // + Honors Studio Art and Honors Auditioned Theatre
-      'carmel-christian': '3', // AP 2-D Art & Design, Honors Art III, Honors Art IV (curriculum guide)
+      'carmel-christian': '1 AP + 3 Honors', // AP 2-D Art & Design, Honors Art III, Honors Art IV, Honors Acting Studio (course offerings; plan consistency CAR-22)
       'davidson-day': null, // not detailed
       'hickory-grove-christian': 'AP 2D Studio Art', // atop the Art I–IV studio sequence; the school's own course name (live Visual Arts page + 2026–27 catalog, checked 2026-11-10)
       'gaston-day': 'Visual Art IV (H)', // the terminal visual-arts course — there is no AP Studio Art or AP Art History in the profile's table
-      'providence-day': '3 AP arts', // AP Studio Art, AP Art History, AP Music Theory
+      'providence-day': '3 AP arts', // AP Art and Design, AP Art History, AP Music Theory
     },
     quals: {
       'charlotte-catholic': {
@@ -1618,7 +1626,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Three AP arts courses: AP Studio Art, AP Art History, and AP Music Theory.',
+        text: 'Three AP arts courses: AP Art and Design, AP Art History, and AP Music Theory.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -1676,7 +1684,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Four performing ensembles: Band, Orchestra, Chorus, and Jazz.',
+        text: 'Four curricular ensembles: Band, Orchestra, Chorus, and Jazz. Two auditioned groups, A Cappella and The ChargHers, are not counted here.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -1705,10 +1713,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     compareAs: 'range-mid',
     values: {
       cannon: '≥20', // 8 named US orgs + 12 US honor societies (NHS chapter 2025); no chartered directory published
-      'charlotte-christian': '23', // 23 named US orgs (part of 35 across JK–12)
+      'charlotte-christian': '23', // 23 named US orgs (part of 38 across JK–12)
       'charlotte-catholic': '76', // counted from the clubs directory's raw HTML — 6 categories: Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. The school profile's 'over 50' is a round prose figure
       'charlotte-country-day': '~45–50', // school publishes a range; only 7 confirmed by name
-      'charlotte-latin': '25', // exact, in-scope US clubs across six interest areas
+      'charlotte-latin': '25', // 22 of the 27 listed US clubs (5 arts/writing clubs excluded, as at PD) + 3 groups listed separately
       'covenant-day': '≥10', // school-named Upper School groups only (user, 2026-11-10, plan plainclubs): 5 clubs/teams + 5 honor societies; the third-party roster was removed
       'carmel-christian': '~5', // standing HS bodies: NHS, Beta, Spanish Honor Society, Student Council, Timothy Project
       'davidson-day': '≥3', // school-named Upper School groups only (user, 2026-11-10, plan plainclubs); the 9 PrivateSchoolReview clubs were removed
@@ -1728,7 +1736,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'scope',
-        text: 'Counts the 23 named organizations in the Upper School across four categories. The school also reports 35 across JK–12; only the Upper School band is used here for a like-for-like comparison.',
+        text: 'Counts the 23 named organizations in the Upper School across four categories. Across JK–12 the school names 38; only the Upper School band is used here for a like-for-like comparison.',
       },
       'charlotte-country-day': {
         kind: 'range',
@@ -1746,7 +1754,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'official',
         text: 'Taken from the school’s official 2025–26 Upper School club list, with 5 arts clubs excluded for a clean count — the deepest slate in the set.',
       },
-      // charlotte-latin deliberately absent — exact in-scope count, no caveat
+      'charlotte-latin': {
+        kind: 'scope',
+        text: '22 of the 27 clubs on the school’s list, plus three groups it lists separately: the Service Council, Blessings in a Backpack and Student Council. The five arts and writing clubs are left out, as in Providence Day’s count.',
+      },
       'carmel-christian': {
         kind: 'minimum',
         text: 'The high school’s standing student groups: National Honor Society, National Beta Club, Spanish Honor Society, Student Council and the Timothy Project. Other clubs are started by students, who apply to form them, so no fixed list is published.',
@@ -1972,23 +1983,30 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$744/mo', // JK/K to 6:00 p.m. = 3 stacked sessions × $248/mo, 5 days/wk
       'carmel-christian': '$245/mo', // After School / After YCC 5-day to 6:00 p.m., 2026-27
       'davidson-day': null, // publishes no extended-care pricing — its Extended Care page 404s
-      'hickory-grove-christian': null, // recurring TK–5 Afterschool rate not published (portal-only); $35/day Adventure Days is a separate out-of-session program
+      'hickory-grove-christian': '≈$260/mo', // $2,600/yr ÷ 10 — the TK–5 annual price on the Tuition and Fees page (published since at least 2026-11-20, plan consistency HG-16); $35/day Adventure Days is a separate out-of-session program
       'gaston-day': '$95/wk', // Lower School weekly rate, 2025-26 fee schedule; MS $55/wk; drop-in $30/day LS and $15/day MS
       'providence-day': '$750/mo', // TK · 1–6 p.m. tier · 5 days/wk, 2026-27
     },
-    // The year's total under each monthly figure. Cannon's and Latin's are the
-    // schools' OWN published figures ($3,784/yr, $4,650/sem × 2) and carry no ≈;
-    // the other three are 10-month estimates of a monthly rate, so they do.
+    // The year's total under each monthly figure. Cannon's, Latin's and Hickory
+    // Grove's are the schools' OWN published figures ($3,784/yr, $4,650/sem × 2,
+    // $2,600/yr) and carry no ≈;
+    // the others are estimates of a monthly rate (10 months, or 9 for Country Day
+    // and Providence Day, matching their After School cards), so they do.
     subs: {
       cannon: '$3,784/yr', // published as an annual figure
       'charlotte-christian': '≈$3,250/yr', // $325 × 10
-      'charlotte-country-day': '≈$9,000/yr', // $900 × 10
+      'charlotte-country-day': '≈$8,100/yr', // $900 × 9, the months the school's own After School card assumes
       'charlotte-latin': '$9,300/yr', // $4,650 × 2 semesters, as published
       'covenant-day': '$6,696/yr', // the school's own "for 10 Months" annual table, 3 sessions × 5 days
       'carmel-christian': '≈$2,205/yr', // $245 × 9 published billing months
-      'providence-day': '≈$7,500/yr', // $750 × 10
+      'providence-day': '≈$6,750/yr', // $750 × 9, the months the school's own After School card assumes
+      'hickory-grove-christian': '$2,600/yr', // published as an annual figure
     },
     quals: {
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'Hickory Grove publishes one annual price for TK–5, $2,600, billed annually in equal payments. The monthly figure above is that spread over 10 months, not a rate the school quotes. Grades 6–12 pay $1,300 a year. The single window runs 2:30–5:30 p.m.',
+      },
       'gaston-day': {
         kind: 'scope',
         text: '$95/week is the Lower School (PS–4th) rate on the 2025-26 fee schedule; Middle School (5th–8th) is $55/week. Drop-in is $30/day and $15/day respectively. The program web page labels the recurring figures as $100 and $60 per MONTH — the weekly reading is used because a monthly rate below four drop-in days is not coherent.',
@@ -2003,7 +2021,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'Junior Kindergarten at the 6:00 p.m. tier, five days a week, billed monthly at $900 — the yearly total assumes 10 months, which the school does not publish. JK dismisses at 1:15 p.m., so this buys roughly 4.75 hours a day; Grades 1–4 at the same 6:00 p.m. tier is $610/mo.',
+        text: 'Junior Kindergarten at the 6:00 p.m. tier, five days a week, billed monthly at $900. The yearly total assumes 9 billing months, which the school does not publish. JK dismisses at 1:15 p.m., so this buys roughly 4.75 hours a day; Grades 1–4 at the same 6:00 p.m. tier is $610/mo.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -2019,7 +2037,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750; the yearly total assumes 10 months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.',
+        text: 'Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750. The yearly total assumes 9 billing months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.',
       },
     },
   },
@@ -2097,8 +2115,8 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '20', // distinct camps named on the public 2026 page; school markets "29 camps"
       'carmel-christian': '36', // named camps across the 6 weeks
       'davidson-day': null,
-      'hickory-grove-christian': '17', // Summer 2023 slate (representative): 12 academic + 5 athletic
-      'gaston-day': '30', // counted from the 2026 catalog: 2 Camp Spartan + 11 enrichment + 10 partner + 3 Nike + tutoring, across 4 providers
+      'hickory-grove-christian': '15', // Summer 2023 slate (representative): 15 camps in 17 sessions (Science and Fluency run twice) — 10 academic + Boot Camp + 5 athletic
+      'gaston-day': '27', // the live 2026 catalog lists 27 entries (2 Camp Spartan + 11 enrichment + 10 partner + 3 Nike + tutoring); re-counted 2026-11-20
       'providence-day': '170', // priced brochure rows; 151 distinct names
     },
     quals: {
@@ -2113,7 +2131,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '17 named camps in the Summer 2023 catalog — 12 academic/enrichment and 5 athletic — recovered from the Internet Archive because the live 2026 catalog is hidden behind the school\'s registration platform. A representative slate, not the exact 2026 list.',
+        text: '15 named camps (17 sessions) in the Summer 2023 catalog: 10 academic, the College Admissions Boot Camp and 5 athletic. They come from the Internet Archive, because the live 2026 catalog sits behind the school\'s registration platform. A representative slate, not the exact 2026 list.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -2688,7 +2706,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Colombia, Denmark, Ecuador, France, Greece, Iceland, Japan, Kenya, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, the United Arab Emirates and the United Kingdom.',
+        text: 'Colombia, Denmark, Ecuador, France, Greece, Iceland, Japan, Kenya, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, the United Arab Emirates and the United Kingdom. Trips only: the school page’s ~19 also counts exchange countries.',
       },
     },
   },

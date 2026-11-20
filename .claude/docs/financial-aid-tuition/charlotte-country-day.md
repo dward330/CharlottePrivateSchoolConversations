@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Financial Aid & Tuition
-> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
+> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Tuition History, Financial Aid and Tuition- Deep Dive Report
 
 
@@ -99,6 +99,17 @@ the real published figures rather than the derived ones in any year-over-year ch
 | Grades 9–12 | +4.75% | +5.08% | +5.01% |
 
 These percentages are worked out from the tuition figures above, which the school publishes.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20: https://www.charlottecountryday.org/admissions/tuition-financial-aid —
+"Approximately 20% of our student body receives financial aid"; 341 students "receive $9.4
+million in financial assistance a year"; deadlines November 1 (current families) and January
+15 (new families); $65 application fee. The "about 30% of K–12 students receive need-based
+tuition assistance" in `after-school/charlotte-country-day/CCD - After School - Redesign
+Research 2026.md` has no source URL and disagrees with this page.
 
 
 ---

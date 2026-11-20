@@ -85,12 +85,14 @@ export type CourseOfferings = {
 }
 
 /* ── Providence Day School ──────────────────────────────────────────────────
-   2025-26 Upper and Middle School Course of Study PDFs (149 Upper School
-   entries, 28 AP courses). Lower School publishes four core curriculum areas
+   2026-27 Upper and Middle School Course of Study PDFs (172 Upper School
+   entries, 30 AP courses; 153 rows rendered). Re-sourced 2026-11-20 from the
+   2025-26 editions (plan consistency; census in .claude/plans/consistency-data/
+   pd-census.md). Lower School publishes four core curriculum areas
    plus Special Area Classes, not named courses. PDS does NOT offer IB — its
    second diploma is the school-designed Global Studies Diploma. */
 const PROVIDENCE_DAY: CourseOfferings = {
-  guideYear: '2025-26',
+  guideYear: '2026-27',
   divisions: [
     {
       title: 'Lower School Courses',
@@ -197,10 +199,10 @@ const PROVIDENCE_DAY: CourseOfferings = {
       title: 'Middle School Courses',
       grades: 'Grades 6 – 8',
       teaser:
-        '~75 courses across 7 departments — where math placement paths and the five-language world-language sequence begin.',
-      source: "PDS Middle School Course of Study '25–26",
+        '72 courses across 7 departments — where math placement paths and the five-language world-language sequence begin. Shown here as 53 entries, with ensembles, art, acting, PE/Health and language levels grouped.',
+      source: "PDS Middle School Course of Study '26–27",
       sourceUrl:
-        'https://resources.finalsite.net/images/v1759322022/provday/z3tij4sfwwhthez2vijd/2025-2026MiddleSchoolCourseofStudy.pdf',
+        'https://resources.finalsite.net/images/v1788362944/provday/qzrb4ef3hjjfokpysrzd/2026-2027MiddleSchoolCourseofStudy.pdf',
       departments: [
         {
           name: 'English',
@@ -303,7 +305,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Science 7',
               tag: 'Gr 7',
               description:
-                'The second part of the integrated sequence, with major units on catastrophic events — weather, earthquakes, volcanoes — and light and optics.',
+                'The second part of the integrated sequence, with major units on weather and climate and on light and optics.',
             },
             {
               title: 'Science 8',
@@ -341,10 +343,10 @@ const PROVIDENCE_DAY: CourseOfferings = {
                 'Examines countries, landforms, resources, climates, peoples, cultures, religions, and governmental systems to build global awareness.',
             },
             {
-              title: 'History in Action: Collaborative Research',
+              title: '“How does my brain work?”: A Middle School Introduction to Psychology',
               tag: 'Gr 7–8',
               description:
-                'In-depth historical inquiry on a student-chosen topic presented as a website, documentary, exhibit, performance, or paper.',
+                'A student-driven look at how the brain shapes emotion, learning, and behavior, where small groups lead units they choose and each student ends with a research project.',
             },
             {
               title: 'Contemporary Global Issues',
@@ -491,14 +493,14 @@ const PROVIDENCE_DAY: CourseOfferings = {
               description: 'An introductory Middle School three-dimensional design course.',
             },
             {
-              title: 'Theatre Arts 6',
+              title: 'Theatre 6',
               tag: 'Gr 6',
               description: 'The sixth-grade introduction to theatre arts.',
             },
             {
-              title: 'Acting 1, 2 & 3',
+              title: 'Acting 1, Acting 2 & One Act Production Studio',
               tag: 'Semester',
-              description: 'Three semester-long acting courses for Grades 7 and 8; Acting 3 requires prior theatre experience.',
+              description: 'Three semester courses for Grades 7 and 8 — Intro to Acting & Improv, Training for Stage & Screen, and One Act Production Studio, which requires a theatre course or a past PDS production.',
             },
             {
               title: 'Middle School Stagecraft',
@@ -530,10 +532,10 @@ const PROVIDENCE_DAY: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '149 catalogued courses across 11 departments — foundations through 28 AP courses and post-AP mathematics.',
-      source: "PDS Upper School Course of Study '25–26",
+        '172 catalogued courses across 11 departments — foundations through 30 AP courses and post-AP mathematics. Shown here as 153 entries, with the French, German, Spanish and Mandarin level sequences grouped.',
+      source: "PDS Upper School Course of Study '26–27",
       sourceUrl:
-        'https://resources.finalsite.net/images/v1759758182/provday/wekh9bxtsqah5givkjk2/2025-2026UpperSchoolCourseofStudy.pdf',
+        'https://resources.finalsite.net/images/v1788362356/provday/lefyqhx5ttu0r4ajnpha/2026-2027UpperSchoolCourseofStudy.pdf',
       departments: [
         {
           name: 'English',
@@ -563,6 +565,12 @@ const PROVIDENCE_DAY: CourseOfferings = {
                 'Students write original prose fiction and poetry in a workshop setting, inventing characters and plots while critiquing classmates’ work.',
             },
             {
+              title: 'Creative Writing (Advanced)',
+              tag: 'Advanced',
+              description:
+                'Builds on Creative Writing with more challenging reading, more complex poetry and prose, and stricter standards for writing and peer critique.',
+            },
+            {
               title: 'New Media Storytelling',
               tag: 'Semester',
               description:
@@ -581,10 +589,10 @@ const PROVIDENCE_DAY: CourseOfferings = {
                 'Students explore the detective and crime fiction genre from the 1800s to the present across short stories, drama, novels, film, and TV.',
             },
             {
-              title: 'Global Literature Topics',
+              title: 'Global Literature: Women’s Voices',
               tag: 'Semester',
               description:
-                'Students engage genres spanning Asia, the Caribbean, Africa, and Latin America around a rotating common topic such as gender or justice.',
+                'Students read short stories, poetry, novels, and non-fiction by and about women from Asia, the Caribbean, Africa, and Latin America, asking what issues affect women worldwide.',
             },
             {
               title: 'Graphic Novels',
@@ -605,10 +613,10 @@ const PROVIDENCE_DAY: CourseOfferings = {
                 'Students study a broad sampling of plays, including The Merchant of Venice, Othello, The Tempest, Measure for Measure, and Richard III, reading them aloud and analyzing film versions.',
             },
             {
-              title: 'War Literature',
-              tag: 'Semester',
+              title: 'War Literature (Advanced)',
+              tag: 'Advanced',
               description:
-                'Students read poetry, songs, plays, novels, and non-fiction spanning the Thirty Years’ War through Afghanistan and Iraq.',
+                'Students study how veteran authors portray war, from the Thirty Years’ War through Afghanistan and Iraq, then write a project on a work of war literature they choose.',
             },
             {
               title: 'Latino American Literature',
@@ -649,7 +657,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'World History',
               tag: 'Year',
               description:
-                'Fosters appreciation for cultural diversity through the geographical and thematic development of events from 1000 CE to the Age of Globalization.',
+                'Fosters appreciation for cultural diversity through the geographical and thematic development of events from 600 CE to the Age of Globalization.',
             },
             {
               title: 'AP World History: Modern',
@@ -742,7 +750,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
                 'Introduces the Universal Declaration of Human Rights and investigates past and current genocides and human rights violations through case studies.',
             },
             {
-              title: 'Global Studies: Europe and Latin America',
+              title: 'Global Studies: Latin America',
               tag: 'Semester',
               description:
                 'A multi-disciplinary examination of regional trends and cultures, generating research-driven policy recommendations.',
@@ -849,6 +857,12 @@ const PROVIDENCE_DAY: CourseOfferings = {
                 'An introductory course covering data collection, experimental design, descriptive and inferential statistics, and probability using applets and Excel.',
             },
             {
+              title: 'Sports Analytics and Data Science',
+              tag: 'Semester',
+              description:
+                'A math and IDEAS course that uses sports data to teach data collection, Excel, data visualization, and statistics, building up to predictive modeling and regression; requires Algebra II.',
+            },
+            {
               title: 'Calculus (Advanced)',
               tag: 'Advanced',
               description:
@@ -939,21 +953,21 @@ const PROVIDENCE_DAY: CourseOfferings = {
             },
             {
               title: 'Applied Sports Anatomy',
-              tag: 'Semester',
+              tag: 'Gr 10–12',
               description:
-                'Students learn musculoskeletal anatomy and injury management, completing 15 hours as student athletic trainers for PDS teams.',
+                'Students learn the anatomy of key body regions, from the foot and ankle to the shoulder and hand, plus common sports injuries, recovery, and basic treatment methods.',
             },
             {
               title: 'Astronomy',
               tag: 'Semester',
               description:
-                'Students study stars, galaxies, the solar system, and the composition, structure, and origins of the universe using astrolabs and sun spots.',
+                'Students study stars, galaxies, the solar system, and the composition, structure, and origins of the universe using astrolabs and sun spotters.',
             },
             {
               title: 'Bioethics/Biotechnology',
-              tag: 'Semester',
+              tag: 'Gr 10–12',
               description:
-                'A lab and case-study course using micropipettes, PCR, DNA isolation, and gel electrophoresis while debating GMOs, transgenics, and cloning.',
+                'A lab and case-study course using micropipettes, PCR, DNA isolation, and gel electrophoresis while weighing the ethics of transgenic organisms, genome privacy, and cloning.',
             },
             {
               title: 'Environmental Sustainability',
@@ -977,7 +991,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Neuroscience',
               tag: 'Semester',
               description:
-                'An introduction to the cellular and molecular functioning of the nervous system, recording electrical activity from nerves, muscles, and plants.',
+                'A hands-on introduction to how the nervous system works at the cellular and molecular level, with lab investigations that include two brief dissections.',
             },
             {
               title: 'STEM Research and Design',
@@ -1007,7 +1021,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'AP Physics 1',
               tag: 'AP',
               description:
-                'Students use algebra to study introductory college physics, analyzing data and developing models for systems, fields, forces, conservation, and waves.',
+                'Students use algebra to study introductory college physics in labs, analyzing data and building models of motion, forces, energy, momentum, rotation, oscillations, and fluids.',
             },
             {
               title: 'AP Physics C',
@@ -1020,6 +1034,18 @@ const PROVIDENCE_DAY: CourseOfferings = {
         {
           name: 'Computing & Innovation',
           courses: [
+            {
+              title: 'Architecture Design',
+              tag: 'Semester',
+              description:
+                'Focuses on architectural design principles and Building Information Modeling using 3D CAD tools such as REVIT for floor plans, sections, and elevations.',
+            },
+            {
+              title: 'Architecture II: Sustainable Design & LEED Fundamentals',
+              tag: 'Semester',
+              description:
+                'A project-based course on green, high-performance building that prepares students to pursue the LEED Green Associate certification, ending in a Green Building Design Project; requires Architecture Design.',
+            },
             {
               title: 'Computer-Aided Design with 3D Printing',
               tag: 'Semester',
@@ -1057,10 +1083,16 @@ const PROVIDENCE_DAY: CourseOfferings = {
                 'Students engineer interactive systems with Arduinos and Raspberry Pis using buttons, sensors, displays, LEDs, motors, and wireless modules.',
             },
             {
-              title: 'Robotics & Engineering',
+              title: 'Robotics & Engineering 1',
               tag: 'Semester',
               description:
                 'Explores robotics and engineering foundations and global issues in the field through hands-on problem solving and debate over ethical implications.',
+            },
+            {
+              title: 'Robotics & Engineering 2',
+              tag: 'Semester',
+              description:
+                'Building on Robotics & Engineering 1, students take on 2 or 3 real-world challenges, working with community partners to research and engineer a solution.',
             },
             {
               title: 'AP Computer Science A',
@@ -1087,15 +1119,9 @@ const PROVIDENCE_DAY: CourseOfferings = {
             },
             {
               title: 'Introduction to Financial Analytics',
-              tag: 'Gr 10–12',
-              description:
-                'Covers daily personal finance skills through advanced topics such as the difference between fundamental and technical analysis.',
-            },
-            {
-              title: 'Architecture Design',
               tag: 'Semester',
               description:
-                'Focuses on architectural design principles and Building Information Modeling using 3D CAD tools such as REVIT for floor plans, sections, and elevations.',
+                'Covers daily personal finance skills through advanced topics such as the difference between fundamental and technical analysis.',
             },
             {
               title: 'Social Entrepreneurship',
@@ -1114,6 +1140,24 @@ const PROVIDENCE_DAY: CourseOfferings = {
               tag: 'Semester',
               description:
                 'Students cultivate design-thinking skills as a studio of designers and enterprise of entrepreneurs to address pressing issues facing students.',
+            },
+            {
+              title: 'Advanced Entrepreneurship: Incubator to Accelerator',
+              tag: 'Gr 12',
+              description:
+                'The senior capstone of the Diploma in Entrepreneurial Studies, where students test a market need, build a first working version of a product and give a formal business presentation.',
+            },
+            {
+              title: 'AP Business with Personal Finance',
+              tag: 'AP',
+              description:
+                'A year-long course for juniors and seniors covering entrepreneurship, marketing, finance, accounting, and management plus personal finance, with a chance to earn college credit and an employer-endorsed credential.',
+            },
+            {
+              title: 'AI Literacy: Understanding and Navigating Artificial Intelligence',
+              tag: 'Semester',
+              description:
+                'Students learn how machine learning works, how to judge and use AI in school and work, and how AI affects society; no prior experience is needed.',
             },
           ],
         },
@@ -1154,7 +1198,13 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'AP French Language',
               tag: 'AP',
               description:
-                'Prepares seniors for the AP French Language and Culture exam through persuasive essays and timed guided conversations using authentic sources.',
+                'Prepares seniors for the AP French Language and Culture exam through argumentative essays and units built on authentic sources, from Global Challenges to Beauty and Aesthetics.',
+            },
+            {
+              title: 'AP German',
+              tag: 'AP',
+              description:
+                'Prepares students for the AP German Language Exam, with class held only in German and all materials from authentic sources; requires German 6 Advanced with an 87%.',
             },
             {
               title: 'AP Spanish Language',
@@ -1178,19 +1228,19 @@ const PROVIDENCE_DAY: CourseOfferings = {
               title: 'Latin 3',
               tag: 'Year',
               description:
-                'Reviews grammar and introduces clauses, progressing to unadapted Latin through the prose of Livy and Pliny and the poetry of Catullus.',
+                'Reviews grammar and introduces clauses, progressing to original, unadapted Latin through the prose of Caesar, Pliny, Livy, and Eutropius.',
             },
             {
-              title: 'Latin 4',
-              tag: 'Year',
+              title: 'Latin 4 (Advanced)',
+              tag: 'Advanced',
               description:
-                'A literature course exploring the poetry of Catullus, Ovid, and Vergil, reading Latin aloud to hear meter and evaluate literary devices.',
+                'A literature course on the poetry and mythology of Catullus, Ovid, and Vergil, weighing how well each poet uses literary devices, meter, tone, and purpose.',
             },
             {
               title: 'Latin 5 (Advanced)',
               tag: 'Advanced',
               description:
-                'A prose and poetry literature course with a project-based comparative-texts component and readings from authors such as Vergil, Pliny, Catullus, Ovid, Vespucci, and Boccaccio.',
+                'A prose and poetry literature course with a project comparing texts on shared themes, reading Vergil, Pliny, Catullus, and Ovid alongside authors from outside the ancient Roman period.',
             },
             {
               title: 'AP Latin',
@@ -1270,7 +1320,7 @@ const PROVIDENCE_DAY: CourseOfferings = {
                 'For highly motivated students ready to work independently, practicing various media, art criticism, and an individual exploratory approach.',
             },
             {
-              title: 'Understanding Art: A Global View',
+              title: 'Understanding Art: A Contemporary Global View',
               tag: 'Semester',
               description:
                 'Examines fine art across cultures with focus on Postmodern and Global Contemporary periods, emphasizing visual literacy.',
@@ -1323,6 +1373,12 @@ const PROVIDENCE_DAY: CourseOfferings = {
                 'Offers instruction and performance on orchestral stringed instruments, mastering tone, intonation, technique, and interpretation.',
             },
             {
+              title: 'Music Technology and Production',
+              tag: 'Semester',
+              description:
+                'Students use music production software and recording equipment to learn multitrack recording, audio editing, and audio design; prior music experience is preferred.',
+            },
+            {
               title: 'Theatre I: Introduction to Performance',
               tag: 'Semester',
               description:
@@ -1335,10 +1391,10 @@ const PROVIDENCE_DAY: CourseOfferings = {
                 'Explores advanced techniques including Meisner and Stanislavski, musical theatre, text and character analysis, and audition technique.',
             },
             {
-              title: 'Theatrical Performing Arts Lab',
+              title: 'Musical Theatre',
               tag: 'Semester',
               description:
-                'Students select, cast, design, rehearse, and produce a one-act play, with tech-focused students serving as designers.',
+                'Students build the singing, acting, and dancing skills of a musical theatre performer and study the genre’s history, ending in a final performance.',
             },
             {
               title: 'Theatre Around the World',
@@ -1733,7 +1789,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '122 courses across 13 departments — 23 AP courses, Greek as a second language, and an MIT-network Fab Lab.',
+        '122 courses across 13 departments — 23 AP courses on the school’s course-offerings page, Greek as a second language, and an MIT-network Fab Lab. Shown here as 105 entries: sequences such as French I–V share a row, Drama and Music share a tab, and Online Courses lists no course.',
       source: 'Charlotte Latin Upper School course offerings',
       sourceUrl: 'https://www.charlottelatin.org/academics/upper-school/course-offerings',
       departments: [
@@ -2203,7 +2259,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
 }
 
 /* ── Charlotte Country Day School ───────────────────────────────────────────
-   2025-26 Upper School Academic Policies and Course Guide (119 index lines, 23
+   2025-26 Upper School Academic Policies and Course Guide (117 index lines, 23
    AP titles, 18 IB courses). The only school here that offers BOTH AP and IB —
    the first independent school in North Carolina with the IB Diploma
    Programme, so IB tags are real, not carried over. Middle School publishes
@@ -2561,7 +2617,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '119 catalogued course lines across 9 departments — 23 AP courses AND 18 IB courses plus the full IB Diploma core.',
+        '117 course lines across 9 departments in the guide’s index — 23 AP courses AND 18 IB courses plus the full IB Diploma core. Shown here as 121 entries, including five courses the guide describes but does not index.',
       source: "Country Day Upper School Course Guide '25–26",
       sourceUrl:
         'https://www.charlottecountryday.org/fs/resource-manager/view/bc87ead7-8dee-4694-ab5b-b04ebf5710de',
@@ -3419,7 +3475,7 @@ const CANNON: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '104 courses across 8 departments — 14 AP plus 13 faculty-designed Advanced Topics courses, each capped by a Signature Learning Experience or a final cumulative exam.',
+        '104 courses across 8 departments — 14 AP plus 13 faculty-designed Advanced Topics courses, each capped by a Signature Learning Experience or a final cumulative exam. Shown here as 101 entries: String Ensemble I–IV share a row.',
       source: "Cannon Upper School Course Catalog '26–27",
       sourceUrl:
         'https://resources.finalsite.net/images/v1769529893/cannonschoolorg/ihl0lzuqgs9loqntga7z/CannonAcademicCourseCatalog2026-2027.pdf',
@@ -4085,7 +4141,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'JK – Grade 4',
       teaser:
-        '5 core subject strands — Bible from JK through a Grade 4 Case for Christ apologetics capstone — plus six enrichment classes.',
+        'Bible plus 5 core subject strands — Bible from JK through a Grade 4 Case for Christ apologetics capstone — plus six enrichment classes.',
       source: 'Charlotte Christian Lower School Curriculum brochure',
       sourceUrl:
         'https://www.charlottechristian.com/fs/resource-manager/view/94f7a8dc-97a5-4798-aeeb-bb83410b4312',
@@ -4304,7 +4360,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '~135 courses across 11 departments — 21 AP course lines, 35+ honors, and 4 required units of Biblical Studies.',
+        '143 course entries across 11 departments — 21 AP courses on the guide’s AP list, 35+ honors, and 4 required units of Biblical Studies. Shown here as 129 entries: the French, Latin and Spanish sequences and Yearbook share a row each. The list shows 22 AP titles because the guide also describes AP Spanish Literature.',
       source: "Charlotte Christian US Course Curriculum Guide '26–27",
       sourceUrl:
         'https://www.charlottechristian.com/fs/resource-manager/view/e07cd151-2d20-44e0-a7db-f0b6d50ba314',
@@ -5889,7 +5945,7 @@ const DAVIDSON_DAY: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '~75 catalogued courses across 9 departments — 26 AP courses, post-AP Calculus III, and three Diploma Distinction tracks.',
+        '86 catalogued courses across 9 departments — 26 AP courses, post-AP Calculus III, and three Diploma Distinction tracks. Shown here as 87 entries, adding the AFAR International Research fieldwork program.',
       source: "Davidson Day Upper School Course Catalog '26–27",
       sourceUrl: 'https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog',
       departments: [
@@ -6479,7 +6535,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
       title: 'High School Courses',
       grades: 'GRADES 9 – 12',
       teaser:
-        '77 course titles across 9 departments — including 16 Advanced Placement courses — from the school’s 2026-27 course listings and graduation requirements.',
+        '96 course entries (77 distinct titles) across 9 departments — including 16 Advanced Placement courses — from the school’s 2026-27 course listings and graduation requirements.',
       source: 'Carmel Christian HS Course Descriptions & 2026-27 Graduation Requirements',
       sourceUrl:
         'https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487133&type=d&pREC_ID=935891',
@@ -8881,19 +8937,19 @@ const CHARLOTTE_PREP: CourseOfferings = {
           name: 'Montessori Stages',
           courses: [
             {
-              title: 'Pre-Primary',
-              tag: 'Age 2',
+              title: 'Younger children',
+              tag: 'Ages 2–3',
               description:
                 'Younger children "focus on gaining independence, large motor control, and early language and communication skills."',
             },
             {
-              title: 'Primary',
+              title: 'Primary students',
               tag: 'Ages 3–4',
               description:
                 'Students "build concentration, coordination, organization, and independence through repeated, sequential practical life activities in preparation for future academic work."',
             },
             {
-              title: 'Transitional K & Montessori K',
+              title: 'Older students',
               tag: 'Ages 5–6',
               description:
                 'Older students "begin to make connections between concrete and abstract concepts through the use of specialized didactic materials and meaningful learning experiences."',

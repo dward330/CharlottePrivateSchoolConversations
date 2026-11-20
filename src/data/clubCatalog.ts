@@ -79,7 +79,7 @@ export type ClubCatalog = {
 // enrichment-based). Category counts: svc·7, comp·5, lead·4, spec·4, aff·3, cult·2.
 const CHARLOTTE_LATIN: ClubCatalog = {
   verdict:
-    '25 Upper School clubs across six interest areas; the younger divisions run differently by design.',
+    '25 Upper School clubs across six interest areas. They are 22 of the 27 on the school’s club list, leaving out its five arts and writing clubs, plus three groups it lists separately. The younger divisions run differently by design.',
   verdictHint: 'Filter by interest; every club keeps its one-line purpose.',
   categories: [
     { key: 'svc', short: 'Service', full: 'Service' },
@@ -136,7 +136,7 @@ const CHARLOTTE_LATIN: ClubCatalog = {
 // (official Upper School Club List '25–26). 77 in-scope US clubs across six of the
 // school's OWN category groupings; only 5 arts clubs excluded. Per-club focus is
 // the dossier's generic descriptor derived from each club's name (the school does
-// not publish per-club descriptions). Counts: interest·40, comp·15, aff·9, rec·6,
+// not publish per-club descriptions). Counts: interest·39, comp·16, aff·9, rec·6,
 // gov·4, media·3.
 const PROVIDENCE_DAY: ClubCatalog = {
   verdict:
@@ -166,7 +166,7 @@ const PROVIDENCE_DAY: ClubCatalog = {
     { name: 'Dungeons & Dragons Club', cat: 'interest', note: 'Tabletop role-playing games' },
     { name: 'Fishing Club', cat: 'interest', note: 'Recreational fishing' },
     { name: 'French Language Club', cat: 'interest', note: 'French language and culture' },
-    { name: 'Future Business Leaders of America', cat: 'interest', note: 'Business-skills organization (FBLA)' },
+    { name: 'Future Business Leaders of America', cat: 'comp', note: 'Business-skills organization (FBLA)' },
     { name: 'German Language Club', cat: 'interest', note: 'German language and culture' },
     { name: 'Greek Society', cat: 'interest', note: 'Ancient and modern Greek culture' },
     { name: 'International Food Club', cat: 'interest', note: 'Global cuisines and food culture' },
@@ -282,7 +282,7 @@ const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
   divisions: [
     {
       label: 'Also on offer',
-      text: 'The Upper School page cites "nearly 50 clubs" and the 2025–26 School Profile lists "45 different clubs and activities." Beyond the clubs above, the school also runs 9 Upper School affinity groups (DEIB page) and 5 honor societies.',
+      text: 'The Upper School page cites "nearly 50 clubs" and the 2025–26 School Profile lists "45 different clubs and activities." The school also runs 9 Upper School affinity groups (DEIB page). It has 5 Upper School honor societies, or 6 with the Middle School’s NJHS.',
       tag: 'School-reported',
     },
   ],
@@ -362,7 +362,7 @@ const CANNON: ClubCatalog = {
 }
 
 // ── Charlotte Christian ── the fullest enumerated roster of the honest-gap set:
-// 35 named organizations across JK–12, assembled from several school pages (no
+// 38 named organizations across JK–12, assembled from several school pages (no
 // single directory). The filterable grid holds the 23 Upper School orgs by the
 // school's own four categories (14 clubs, 5 honor societies, 3 leadership/media,
 // 1 global-awareness); Middle & Lower School are named minimums in the division
@@ -372,7 +372,7 @@ const CANNON: ClubCatalog = {
 // Landscape").
 const CHARLOTTE_CHRISTIAN: ClubCatalog = {
   verdict:
-    '23 named Upper School organizations across four categories, part of 35 across JK–12; the younger divisions rotate, so their counts are named minimums.',
+    '23 named Upper School organizations across four categories, part of 38 across JK–12; the younger divisions rotate, so their counts are named minimums.',
   verdictHint: 'Filter the Upper School roster by category; there is no single published directory.',
   countNoun: 'US orgs',
   categories: [
@@ -413,7 +413,7 @@ const CHARLOTTE_CHRISTIAN: ClubCatalog = {
   divisions: [
     {
       label: 'Middle School (5–8)',
-      text: 'Named minimum: Mountain Biking, Chess (incl. a competitive Chess Team), and Esports, plus a Global Knights student group — some offerings are schedule-embedded and not posted publicly, so this is a floor, not a total.',
+      text: 'Named minimum: Mountain Biking, Wrestling, Chess (incl. a competitive Chess Team), Baseball, Cheer and Esports, plus a Global Knights student group — some offerings are schedule-embedded and not posted publicly, so this is a floor, not a total.',
       tag: 'Named minimum',
     },
     {
@@ -423,7 +423,7 @@ const CHARLOTTE_CHRISTIAN: ClubCatalog = {
     },
     {
       label: 'Count & scope',
-      text: '35 named organizations counted here, JK–12 (23 Upper + 4 Middle + 8 Lower). There is no single published directory. Left out as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent and community groups (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.',
+      text: '38 named organizations counted here, JK–12 (23 Upper + 7 Middle + 8 Lower). There is no single published directory. Left out as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent and community groups (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.',
       tag: 'School-reported',
     },
   ],

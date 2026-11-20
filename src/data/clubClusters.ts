@@ -51,12 +51,12 @@ export type ClubClusters = {
   rows: ClubRow[]
 }
 
-// ── Providence Day ── the design's own "2a" reference. Fifteen clubs on the
+// ── Providence Day ── the design's own "2a" reference. Sixteen clubs on the
 // official Upper School list, in five clusters; DECA is the co-flagship (advanced
 // state → national ICDC 2026). Verbatim from the 2a section, cross-checked
 // against src/content/student-clubs/providence-day.json.
 const PROVIDENCE_DAY: ClubClusters = {
-  verdict: 'Fifteen clubs compete, in five clusters; DECA is the co-flagship.',
+  verdict: 'Sixteen clubs compete, in five clusters; DECA is the co-flagship.',
   verdictHint: 'Open any row for the full research note and its source.',
   rows: [
     {
@@ -112,7 +112,7 @@ const CHARLOTTE_LATIN: ClubClusters = {
   rows: [
     {
       name: 'Speech & Debate',
-      oneLiner: "Top-20 NSDA program nationally; 5th in Public Forum at the '26 Nationals",
+      oneLiner: "Top-20 NSDA program nationally; 5th in Public Forum at the 2025 Nationals",
       evidence: 'verified',
       evidenceLabel: 'Verified — NSDA',
       note: 'A true national-level program, with outside evidence: the NSDA Debate Schools of Excellence Award (top 20 nationally), charter status, and 2025 membership in the 200 Club. Director Bilal Butt holds a second NSDA Diamond. Recent Nationals results: a 5th-place pair (Public Forum) · a 25th-place pair · a 33rd-place finish (World Schools) · an Academic All-American.',

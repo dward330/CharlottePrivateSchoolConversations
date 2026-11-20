@@ -54,3 +54,15 @@ $496/month / $4,464 annual. The single-session five-day rate is **$248/month**.
 Note the annual table is *cheaper* than 10 × monthly (e.g. $2,232 vs. $2,480 for
 one session five days) — the annual figures bake in the half-rate August and
 December months. Both are the school's own published numbers.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched https://www.covenantday.org/campus-life/extended-day (HTTP 200, full text).
+
+- Sessions: "1:30 - 3:00 p.m. (for JK/K only), 3:00 - 4:30 p.m., and 4:30 - 6:00 p.m."
+- Monthly rate per 1.5-hour session: Drop In $20 · 1 day $58 · 2 days $112 · 3 days $162 · 4 days $206 · 5 days $248.
+- "Monthly rate applies to all months except August and December, which are exactly half of the listed monthly rate."
+- Annual table ("1 / 2 / 3 Sessions for 10 Months"): 1 day $522 / $1,044 / $1,566 · 2 days $1,008 / $2,016 / $3,024 · 3 days $1,458 / $2,916 / $4,374 · 4 days $1,854 / $3,708 / $5,562 · 5 days $2,232 / $4,464 / $6,696.
+- Consequence for the app: two sessions, five days, for the school year is $4,464 on the school's own table (= $496 × 9 full-month equivalents). The Cost Planner currently multiplies by 10 (`periods: 10`) and prints $4,960.

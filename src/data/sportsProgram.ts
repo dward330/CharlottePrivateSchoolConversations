@@ -213,8 +213,19 @@ export type FunnelStage = {
   label: string
   /** Muted qualifier, e.g. "(SEC · Big Ten · ACC · Big 12)". */
   hint?: string
-  /** Display count, e.g. "~80" — a string so approximations read honestly. */
-  count: string
+  /**
+   * Which roster count this stage shows, derived at render by
+   * `pipelineCounts()` (src/lib/pipeline.ts): every documented commitment, the
+   * Division I subset, or the Power 4 subset, Classes of 2024–26. Set it on
+   * every stage the roster can count, so the figure cannot drift from the list.
+   */
+  derive?: 'all' | 'd1' | 'p4'
+  /**
+   * Display count for a stage the roster cannot derive, e.g. "~1,171" students
+   * or "1000+" alumni — a string so approximations read honestly. Omit when
+   * `derive` is set.
+   */
+  count?: string
   /** Bar width 0–1, relative to the widest stage. */
   width: number
   /** Fill weight: the funnel narrows from pale to full accent. */
@@ -222,21 +233,34 @@ export type FunnelStage = {
   toVerify?: boolean
 }
 
-/** One D1-commits-by-sport bar, with its Power 4 subset overlaid. */
+/**
+ * One "D1 commits by sport" bar. Its count, width and Power 4 overlay are
+ * DERIVED from the roster (`pipelineCounts()`), never typed: typed bars drifted
+ * at six schools, counting every commitment under a Division I heading.
+ * A bar with no Division I commit is not shown. Bars render largest first.
+ */
 export type SportBar = {
+  /** The bar's label, e.g. "Track / XC". */
   sport: string
-  /** Total D1 commits in this sport. */
-  count: number
-  /** Bar width 0–1 for the D1 total. */
-  width: number
-  /** Overlaid width 0–1 for the Power 4 share; omit when none. */
-  p4Width?: number
+  /**
+   * The roster `sport` strings this bar counts, verbatim, or `'other'` for every
+   * Division I row no other bar names. `check:consistency` fails a string no
+   * roster row uses, and a D1 row that lands in no bar when there is no
+   * `'other'` bar.
+   */
+  match: string[] | 'other'
 }
 
 export type CollegePipeline = {
   headline: string
   subhead?: string
   funnel: FunnelStage[]
+  /**
+   * Commitments counted in the funnel's "all" stage but not listed as roster
+   * rows (e.g. dance or cheer signees the school names without a college
+   * roster). The funnel note must say why they are off the roster.
+   */
+  offRosterCommits?: number
   /** Caveat beneath the funnel — offers vs commitments, floor vs ceiling. */
   funnelNote?: string
   sportBars: SportBar[]

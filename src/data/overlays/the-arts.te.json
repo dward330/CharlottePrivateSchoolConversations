@@ -31,8 +31,8 @@
       ]
     },
     {
-      "t": "పేరున్న బృందాలు + ఆడిషన్ ఆధారిత బృందాలు",
-      "of": "9226e2f5",
+      "t": "బృందాలు: 4 పాఠ్యప్రణాళిక + 2 ఆడిషన్ ఆధారిత",
+      "of": "598ee66e",
       "at": [
         "providence-day:ladder.stats[2].label"
       ]
@@ -45,10 +45,12 @@
       ]
     },
     {
-      "t": "TK–4",
-      "of": "f89adb7f",
+      "t": "TK–5",
+      "of": "f79ad9ec",
       "at": [
-        "providence-day:ladder.divisions[0].grades"
+        "providence-day:ladder.divisions[0].grades",
+        "charlotte-latin:ladder.divisions[0].grades",
+        "hickory-grove-christian:ladder.divisions[0].grades"
       ]
     },
     {
@@ -87,15 +89,15 @@
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
+      "t": "6–8",
+      "of": "b7020a62",
       "at": [
         "providence-day:ladder.divisions[1].grades",
         "charlotte-latin:ladder.divisions[1].grades",
-        "cannon:ladder.divisions[1].grades",
-        "davidson-day:ladder.divisions[1].grades",
-        "gaston-day:ladder.divisions[1].grades",
-        "charlotte-prep:ladder.divisions[2].grades"
+        "covenant-day:ladder.divisions[1].grades",
+        "carmel-christian:ladder.divisions[1].grades",
+        "hickory-grove-christian:ladder.divisions[1].grades",
+        "trinity-episcopal:ladder.divisions[2].grades"
       ]
     },
     {
@@ -162,8 +164,8 @@
       ]
     },
     {
-      "t": "AP Studio Art · AP Art History · AP Music Theory",
-      "of": "cfcb0a80",
+      "t": "AP Art and Design · AP Art History · AP Music Theory",
+      "of": "183586af",
       "at": [
         "providence-day:ladder.divisions[2].items[1]"
       ]
@@ -570,8 +572,8 @@
       ]
     },
     {
-      "t": "డిజిటల్ మరియు అసాధారణ పదార్థాల studio పనితో పాటు పనిచేసే film darkroom, AP Studio Art మరియు AP Art Historyకు దారితీస్తుంది.",
-      "of": "1796eda8",
+      "t": "డిజిటల్ మరియు అసాధారణ పదార్థాల studio పనితో పాటు పనిచేసే film darkroom, AP Art and Design మరియు AP Art Historyకు దారితీస్తుంది.",
+      "of": "14f6cef9",
       "at": [
         "providence-day:visual.headline"
       ]
@@ -780,8 +782,8 @@
       ]
     },
     {
-      "t": "దృశ్య కళల కోర్సు క్రమాన్ని కాగితంపై చూపండి — Middle School కళ మరియు AP Studio Art మధ్య విద్యార్థి సరిగ్గా ఏమి తీసుకుంటారు? మరియు kilnతో కూడిన ceramics ఉందా?",
-      "of": "8f442944",
+      "t": "దృశ్య కళల కోర్సు క్రమాన్ని కాగితంపై చూపండి — Middle School కళ మరియు AP Art and Design మధ్య విద్యార్థి సరిగ్గా ఏమి తీసుకుంటారు? మరియు kilnతో కూడిన ceramics ఉందా?",
+      "of": "b006920b",
       "at": [
         "providence-day:verdict.ask[0]"
       ]
@@ -871,13 +873,6 @@
       ]
     },
     {
-      "t": "TK–4/5",
-      "of": "2fa7d01f",
-      "at": [
-        "charlotte-latin:ladder.divisions[0].grades"
-      ]
-    },
-    {
       "t": "ప్రత్యక్ష అనుభవంతో నేర్చుకునే సంగీత తరగతులు (Experiential music) — పాడటం, నృత్యం మరియు వాయించడం ద్వారా లయ, రాగం, శైలి",
       "of": "0bff652c",
       "at": [
@@ -906,8 +901,8 @@
       ]
     },
     {
-      "t": "పైకి వెళ్లే వారధిగా 5వ తరగతిలో band మరియు తీగ వాయిద్యాలు పరిచయం చేయబడతాయి",
-      "of": "e70b78ec",
+      "t": "పైకి వెళ్లే వారధిగా 5వ తరగతిలో band మరియు తీగ వాయిద్యాలు పరిచయం చేయబడతాయి (5వ తరగతి 5–12 తరగతుల ensemblesలో చేరుతుంది)",
+      "of": "7d426364",
       "at": [
         "charlotte-latin:ladder.divisions[0].items[4]"
       ]
@@ -1222,8 +1217,8 @@
       ]
     },
     {
-      "t": "5వ లేదా 6వ తరగతి నుంచి band, orchestra లేదా choir, సంవత్సరానికి ఆరుకు పైగా కచేరీలు, అదనంగా recitals, ఒక సముదాయ సామూహిక గానం మరియు Grandparents’ Day.",
-      "of": "80ce645f",
+      "t": "5వ తరగతి నుంచి band, orchestra లేదా choir, సంవత్సరానికి ఆరుకు పైగా కచేరీలు, అదనంగా recitals, ఒక సముదాయ సామూహిక గానం మరియు Grandparents’ Day.",
+      "of": "da24af46",
       "at": [
         "charlotte-latin:music.ladder[0].text"
       ]
@@ -1556,10 +1551,11 @@
       ]
     },
     {
-      "t": "JK–6",
-      "of": "df10c94f",
+      "t": "JK–4",
+      "of": "e110cc75",
       "at": [
-        "charlotte-christian:ladder.divisions[0].grades"
+        "charlotte-christian:ladder.divisions[0].grades",
+        "charlotte-country-day:ladder.divisions[0].grades"
       ]
     },
     {
@@ -1570,59 +1566,63 @@
       ]
     },
     {
+      "t": "ప్రధాన వేదిక సంగీత నాటకాల్లో 4వ తరగతి నుంచే పాత్రలు — ప్రాథమిక తరగతుల విద్యార్థులు ప్రధాన వేదికపై కనిపిస్తారు",
+      "of": "6f2b3447",
+      "at": [
+        "charlotte-christian:ladder.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-christian:ladder.divisions[1].grades",
+        "cannon:ladder.divisions[1].grades",
+        "davidson-day:ladder.divisions[1].grades",
+        "gaston-day:ladder.divisions[1].grades",
+        "charlotte-prep:ladder.divisions[2].grades"
+      ]
+    },
+    {
       "t": "వాయిద్య సంగీతం 5వ తరగతిలో మొదలవుతుంది, వాయిద్య కుటుంబాల వారీగా: brass, woodwind, ఎత్తు/తక్కువ తీగలు, అదనంగా గానం",
       "of": "3d4dc1ba",
       "at": [
-        "charlotte-christian:ladder.divisions[0].items[1]"
+        "charlotte-christian:ladder.divisions[1].items[0]"
       ]
     },
     {
       "t": "6వ తరగతిలో brass, woodwinds, choir మరియు strings కొనసాగుతాయి",
       "of": "c53bcfe5",
       "at": [
-        "charlotte-christian:ladder.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "ప్రధాన వేదిక సంగీత నాటకాల్లో 4వ తరగతి నుంచే పాత్రలు — ప్రాథమిక తరగతుల విద్యార్థులు ప్రధాన వేదికపై కనిపిస్తారు",
-      "of": "6f2b3447",
-      "at": [
-        "charlotte-christian:ladder.divisions[0].items[3]"
-      ]
-    },
-    {
-      "t": "7–8",
-      "of": "4bc6e2c5",
-      "at": [
-        "charlotte-christian:ladder.divisions[1].grades"
+        "charlotte-christian:ladder.divisions[1].items[1]"
       ]
     },
     {
       "t": "7వ మరియు 8వ తరగతి Concert Band; 7వ మరియు 8వ తరగతి Orchestra; 7/8 తరగతి Advanced Choir",
       "of": "eedf08db",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[0]"
+        "charlotte-christian:ladder.divisions[1].items[2]"
       ]
     },
     {
       "t": "Digital Arts మరియు Theatre ఐచ్ఛిక కోర్సులు రెండూ 6వ తరగతిలో తెరుచుకుంటాయి",
       "of": "dfb5d174",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[1]"
+        "charlotte-christian:ladder.divisions[1].items[3]"
       ]
     },
     {
       "t": "ACT 2 — ఆడిషన్ ఆధారిత middle school పోటీ నాటక బృందం",
       "of": "e981fc96",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[2]"
+        "charlotte-christian:ladder.divisions[1].items[4]"
       ]
     },
     {
       "t": "NCTC Middle School Play Festival పోటీ",
       "of": "2639d8dd",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[3]"
+        "charlotte-christian:ladder.divisions[1].items[5]"
       ]
     },
     {
@@ -1838,8 +1838,8 @@
       ]
     },
     {
-      "t": "Lower School — పాఠ్యప్రణాళిక, వాయిద్య కుటుంబాల వారీగా (5–6 తరగతులు)",
-      "of": "8e018b9b",
+      "t": "Middle School — పాఠ్యప్రణాళిక, వాయిద్య కుటుంబాల వారీగా (5–6 తరగతులు)",
+      "of": "a907241d",
       "at": [
         "charlotte-christian:music.tracks[0].label"
       ]
@@ -3031,8 +3031,8 @@
       ]
     },
     {
-      "t": "1,171 మంది విద్యార్థులకు పన్నెండు బృందాలు ఎక్కువే: వాటిలో ఏవి ఆడిషన్ ద్వారా ఎంపిక చేస్తారు, మరియు దరఖాస్తుదారుల్లో ఎంత శాతం మందికి ప్రవేశం లభిస్తుంది?",
-      "of": "018169d5",
+      "t": "1,330 మంది విద్యార్థులకు పన్నెండు బృందాలు ఎక్కువే: వాటిలో ఏవి ఆడిషన్ ద్వారా ఎంపిక చేస్తారు, మరియు దరఖాస్తుదారుల్లో ఎంత శాతం మందికి ప్రవేశం లభిస్తుంది?",
+      "of": "f2f925b0",
       "at": [
         "charlotte-catholic:verdict.ask[1]"
       ]
@@ -3119,13 +3119,6 @@
       "of": "8fcb5a05",
       "at": [
         "charlotte-country-day:ladder.stats[3].label"
-      ]
-    },
-    {
-      "t": "JK–4",
-      "of": "e110cc75",
-      "at": [
-        "charlotte-country-day:ladder.divisions[0].grades"
       ]
     },
     {
@@ -3515,8 +3508,8 @@
       ]
     },
     {
-      "t": "పరిశీలించిన ఏ పేజీలోనూ Tri-M chapter లేదా పేరున్న Fine Arts Honor Society chapter కనుగొనలేకపోయాం, కాబట్టి రెండింటినీ ఇక్కడ పేర్కొనడం లేదు.",
-      "of": "a4f4267d",
+      "t": "పాఠశాల Fast Facts పేజీ తన సభ్యత్వాలలో Tri-M Music Honor Society మరియు National Art Honor Societyని జాబితా చేస్తుంది.",
+      "of": "f3fbc2da",
       "at": [
         "charlotte-country-day:music.ladder[3].text"
       ]
@@ -3767,22 +3760,15 @@
       ]
     },
     {
-      "t": "Tri-M chapter, National Art Honor Society chapter, లేదా Fine Arts Honor Society ఏదైనా ఉందా? బహిరంగంగా ఏదీ కనుగొనలేకపోయాం.",
-      "of": "03aaaa9e",
+      "t": "Edinburgh Fringe యాత్ర ఏ సంవత్సరం జరిగింది, విద్యార్థులు ఏమి ప్రదర్శించారు, మరియు అది ఎంత తరచుగా పునరావృతమవుతుంది?",
+      "of": "ed7ffeaa",
       "at": [
         "charlotte-country-day:verdict.ask[5]"
       ]
     },
     {
-      "t": "Edinburgh Fringe యాత్ర ఏ సంవత్సరం జరిగింది, విద్యార్థులు ఏమి ప్రదర్శించారు, మరియు అది ఎంత తరచుగా పునరావృతమవుతుంది?",
-      "of": "ed7ffeaa",
-      "at": [
-        "charlotte-country-day:verdict.ask[6]"
-      ]
-    },
-    {
-      "t": "22 Upper School కళల కోర్సులలో ప్రతి ఒక్కటీ Honors, AP లేదా Advanced Topics — సాధారణ స్థాయి కళల కోర్సు అంటూ ఏదీ లేదు, రెండేళ్ల కళల ఉత్తీర్ణతా నిబంధన వెనుక.",
-      "of": "572b70cf",
+      "t": "24 Upper School కళల కోర్సులలో ప్రతి ఒక్కటీ Honors, AP లేదా Advanced Topics — సాధారణ స్థాయి కళల కోర్సు అంటూ ఏదీ లేదు, రెండేళ్ల కళల ఉత్తీర్ణతా నిబంధన వెనుక.",
+      "of": "5200e47d",
       "at": [
         "cannon:ladder.headline"
       ]
@@ -4146,8 +4132,8 @@
       ]
     },
     {
-      "t": "తొమ్మిది Upper School సంగీత కోర్సులన్నీ Honors హోదా కలిగి ఉన్నాయి, మరియు చాలావరకు పునరావృతం చేయదగినవి. ప్రతి సంవత్సరం పని కఠినమవుతున్నా విద్యా రికార్డులో కోర్సు పేరు అదే ఉంటుంది.",
-      "of": "72ba3e12",
+      "t": "పదకొండు Upper School సంగీత కోర్సులన్నీ Honors హోదా కలిగి ఉన్నాయి, మరియు చాలావరకు పునరావృతం చేయదగినవి. ప్రతి సంవత్సరం పని కఠినమవుతున్నా విద్యా రికార్డులో కోర్సు పేరు అదే ఉంటుంది.",
+      "of": "044162e7",
       "at": [
         "cannon:music.subhead"
       ]
@@ -4377,8 +4363,8 @@
       ]
     },
     {
-      "t": "కళలను చదువుల స్థాయిలో పరిగణించే కళల విభాగం — 22 కోర్సులన్నీ honors లేదా ఆపైన, రెండేళ్ల నిబంధన, మరియు నమోదైన వ్యూహాత్మక లక్ష్యం.",
-      "of": "614e8ebd",
+      "t": "కళలను చదువుల స్థాయిలో పరిగణించే కళల విభాగం — 24 కోర్సులన్నీ honors లేదా ఆపైన, రెండేళ్ల నిబంధన, మరియు నమోదైన వ్యూహాత్మక లక్ష్యం.",
+      "of": "3706ae87",
       "at": [
         "cannon:verdict.headline"
       ]
@@ -4398,8 +4384,8 @@
       ]
     },
     {
-      "t": "22 Upper School కళల కోర్సులన్నీ Honors, AP లేదా Advanced Topics — సాధారణ స్థాయి కళల కోర్సు అంటూ ఏదీ లేదు. దీనికి తోడు, రెండేళ్ల కళల ఉత్తీర్ణతా నిబంధన ఉంది. GPA మరియు transcriptలో కళలు ఎలా లెక్కకు వస్తాయో తెలిపే, మీరు తనిఖీ చేయగల సూచిక ఇది, నినాదం కాదు.",
-      "of": "df386ffe",
+      "t": "24 Upper School కళల కోర్సులన్నీ Honors, AP లేదా Advanced Topics — సాధారణ స్థాయి కళల కోర్సు అంటూ ఏదీ లేదు. దీనికి తోడు, రెండేళ్ల కళల ఉత్తీర్ణతా నిబంధన ఉంది. GPA మరియు transcriptలో కళలు ఎలా లెక్కకు వస్తాయో తెలిపే, మీరు తనిఖీ చేయగల సూచిక ఇది, నినాదం కాదు.",
+      "of": "e5f05584",
       "at": [
         "cannon:verdict.holdsUp[0].text"
       ]
@@ -4531,8 +4517,8 @@
       ]
     },
     {
-      "t": "worship-సంగీత వెన్నెముకగా ఒక JK–12 క్రమం: junior kindergarten నుంచి కళలు మిళితం, 1వ తరగతి నుంచి క్రమబద్ధం, 6వ తరగతి నుంచి బృందాలు.",
-      "of": "14f38ef8",
+      "t": "worship-సంగీత వెన్నెముకగా ఒక JK–12 క్రమం: junior kindergarten నుంచి కళలు మిళితం, 1వ తరగతి నుంచి క్రమబద్ధం, 3వ తరగతి నుంచి బృందాలు.",
+      "of": "96ff9491",
       "at": [
         "covenant-day:ladder.headline"
       ]
@@ -4598,16 +4584,6 @@
       "of": "b0c96bc4",
       "at": [
         "covenant-day:ladder.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "6–8",
-      "of": "b7020a62",
-      "at": [
-        "covenant-day:ladder.divisions[1].grades",
-        "carmel-christian:ladder.divisions[1].grades",
-        "hickory-grove-christian:ladder.divisions[1].grades",
-        "trinity-episcopal:ladder.divisions[2].grades"
       ]
     },
     {
@@ -5768,8 +5744,8 @@
       ]
     },
     {
-      "t": "పేరు పెట్టబడిన ensembles + ఆడిషన్ చేసిన Ignite Band",
-      "of": "8ab9ca66",
+      "t": "పేరు పెట్టబడిన ensembles, ఆడిషన్ చేసిన Ignite Bandతో సహా",
+      "of": "87a5ed91",
       "at": [
         "carmel-christian:ladder.stats[1].label"
       ]
@@ -6281,13 +6257,6 @@
       "of": "ed7a6ce3",
       "at": [
         "hickory-grove-christian:ladder.stats[3].label"
-      ]
-    },
-    {
-      "t": "TK–5",
-      "of": "f79ad9ec",
-      "at": [
-        "hickory-grove-christian:ladder.divisions[0].grades"
       ]
     },
     {

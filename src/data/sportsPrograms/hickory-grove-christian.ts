@@ -160,12 +160,10 @@ export const hickoryGroveChristian: SportsProgram = {
     ],
     didNotWin:
       'the 2024 3A baseball final went to Grace Christian of Sanford, which swept the best-of-three series (4–1, 7–5).',
-    bars: [
-      { program: 'Softball', record: '7 state titles', pct: 1, tag: '2006–2019' },
-      { program: 'Baseball', record: '3 state titles', pct: 0.43, tag: '2005 · 2021 · 2023' },
-      { program: 'Girls Basketball', record: '1 state title', pct: 0.14, tag: '2009 (3A)' },
-      { program: 'Boys Track', record: '1 state title', pct: 0.14, tag: '2025 (D2)' },
-    ],
+    // No win-percentage bars: the school publishes no season records, and title
+    // counts printed under the win-% heading read as percentages (plan
+    // consistency HG-15, UX-approved). The titles stay in the matrix above.
+    bars: [],
     seasonDetail: [
       {
         program: 'Softball',
@@ -206,15 +204,15 @@ export const hickoryGroveChristian: SportsProgram = {
     subhead:
       'Built from Hickory Grove’s varsity rosters and each college’s own roster; the school publishes no list of its college signees.',
     funnel: [
-      { label: 'Committed to college athletics', hint: '(all divisions, 2024–26)', count: '7', width: 1, shade: 'pale' },
-      { label: 'NCAA Division I', hint: '(mid-major)', count: '4', width: 0.57, shade: 'mid' },
-      { label: 'Power 4', hint: '(SEC · Big Ten · ACC · Big 12)', count: '0', width: 0.04, shade: 'full' },
+      { label: 'Committed to college athletics', hint: '(all divisions, 2024–26)', derive: 'all', width: 1, shade: 'pale' },
+      { label: 'NCAA Division I', hint: '(mid-major)', derive: 'd1', width: 0.57, shade: 'mid' },
+      { label: 'Power 4', hint: '(SEC · Big Ten · ACC · Big 12)', derive: 'p4', width: 0.04, shade: 'full' },
     ],
     funnelNote:
       'Three of the four Division I commits are baseball players. They are Conner Barozzino (’24), at Appalachian State in the Sun Belt, and Davis Cabbage and Ben Green (’25), at UNC Wilmington and UNC Asheville. The fourth is a football player, Jahzir Dukes (’24), a defensive back at North Carolina Central in the MEAC. There are no Power 4 commits in this window.',
     sportBars: [
-      { sport: 'Baseball', count: 6, width: 1 },
-      { sport: 'Football', count: 1, width: 0.17 },
+      { sport: 'Baseball', match: ['Baseball'] },
+      { sport: 'Football', match: ['Football'] },
     ],
     realityCheck:
       'Baseball, the program behind two of HGCS’s recent state titles, accounts for six of the seven commits. Those commits reach Division II at Wingate and Mars Hill and junior college at Gaston College, as well as Division I programs. The school publishes no all-sport signing list, so the count is a documented minimum.',

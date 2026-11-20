@@ -1216,6 +1216,19 @@ a gate.
   this repo reached that state (`check:sepdrift`, `check:live` at 4,646 phantom findings,
   and the identical-strings report). Either fix the findings or ship the check as a
   report with exit 0 — never leave a gate red by default.
+- **A headline must agree with the list beneath it: `npm run check:consistency`** (in the
+  build). It gates rules R1–R7: the College Pipeline funnel headline and Compare commit rows
+  against the roster (the funnel and bars are now *derived*, `src/lib/pipeline.ts`), camp
+  intros against the camp rows, course teasers against Compare and the rendered rows
+  ("shown here as N entries"), the teaser's AP count against `advanced-courses`, `~N:1`
+  ratio notation, "absent …" lists against their `n / total`, and Sports Offered season
+  headers. R8 (`-- --report`) groups every `<number> <noun>` pair per school and **is a
+  report, never a gate**. Fix a finding in the data; never allowlist it (plan `consistency`).
+- **Data sources list their dependents: `scripts/data_dependents.json`.** A PostToolUse
+  hook (`scripts/notify_dependents.mjs --hook`) prints, once per session, everything built
+  from or restating a source when one of its files is edited; `npm run dependents` lists the
+  same for a branch. Only `course-offerings` is filled so far. A new derived consumer of a
+  registered source is added to the registry in the same PR.
 
 ## Data-schema standard (required)
 

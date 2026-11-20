@@ -182,6 +182,10 @@ as, marked TO VERIFY) are **dev-only**: put them in a `kind: 'verify'` flag or a
 estimated figure, stay parent-facing. See "Research notes a parent should never see" in
 §6 of `.claude/docs/DATA-SCHEMA.md`.
 
+**After an ingest that touched a registered data source** (today `course-offerings`), run
+`npm run dependents`: it lists every card, Compare cell and record that restates that
+data, from `scripts/data_dependents.json`.
+
 ### 0. Did the ingest capture everything? (coverage)
 
 Two kinds of data loss happen *upstream* of the manifest, so no amount of checking the

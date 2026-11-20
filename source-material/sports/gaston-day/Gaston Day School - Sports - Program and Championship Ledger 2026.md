@@ -101,3 +101,10 @@ conference, 2nd in conference) at the time of this pass. That is a live mid-seas
 not a completed-season result, and it is **not** carried into the app: a season ledger row
 must be a final record. Completed prior-season won-lost records were not available in an
 extractable form from the JS-rendered athletics site.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+- S6 https://www.highschoolot.com/story/gaston-day-repeats-ncisaa-2a-girls-tennis-title-downs-epiphany-school/21693252/ (read in Chrome): "Top-seeded Gaston Day girls tennis repeated its N.C. Independent Schools Athletic Association 2A championship on Saturday. The Spartans defeated Epiphany School 5-2 at N.C. Wesleyan University. ... Gaston Day won last year's title over Trinity School of Durham and Chapel Hill". The phrase "third state championship in four years and fourth overall" does NOT appear in the article today.
+- S4 https://www.highschoolot.com/the-2024-25-ncisaa-team-state-champions-in-every-sport/22016545/: the 2A entry reads "Gaston Day (2) — volleyball, boys soccer, girls tennis"; the phrase does not appear there either.

@@ -62,18 +62,18 @@ export const charlotteChristian: ArtsProgram = {
     divisions: [
       {
         name: 'Lower School',
-        grades: 'JK–6',
+        grades: 'JK–4',
         items: [
           'Visual art begins "at the earliest stages" — creativity, technique and media literacy',
-          'Instrumental music starts in Grade 5, split by instrument family: brass, woodwind, high/low strings, plus choral',
-          'Grade 6 continues brass, woodwinds, choir and strings',
           'Mainstage musicals cast from Grade 4 — elementary students appear on the main stage',
         ],
       },
       {
         name: 'Middle School',
-        grades: '7–8',
+        grades: '5–8',
         items: [
+          'Instrumental music starts in Grade 5, split by instrument family: brass, woodwind, high/low strings, plus choral',
+          'Grade 6 continues brass, woodwinds, choir and strings',
           'Grade 7 and Grade 8 Concert Band; Grade 7 and Grade 8 Orchestra; Grade 7/8 Advanced Choir',
           'Digital Arts and Theatre electives both open at Grade 6',
           'ACT 2 — the audition-only middle school competition drama team',
@@ -195,7 +195,7 @@ export const charlotteChristian: ArtsProgram = {
       'uKnight Worship makes the faith integration structural rather than decorative: a credit-bearing Upper School worship ensemble.',
     tracks: [
       {
-        label: 'Lower School — curricular, by instrument family (grades 5–6)',
+        label: 'Middle School — curricular, by instrument family (grades 5–6)',
         ensembles: [
           'Grade 5 Brass',
           'Grade 5 Woodwind',

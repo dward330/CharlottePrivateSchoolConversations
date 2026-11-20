@@ -277,3 +277,9 @@ Source: https://issuu.com/charlottepreparatoryschool/docs/ms_curriculum_overview
 - How often each Lower School special meets, and Middle School class periods per week (other than PE twice a week)
 - Elective options beyond the music and arts choices above
 - Named math or science curricula (named programmes are published only for reading, grammar, Spanish and online practice)
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched https://charlotteprep.org/academics/montessori-early-school (live). Verbatim: "Our Montessori curriculum focuses on key developmental milestones in children between the ages of two and five years old." · "Younger children (ages 2-3) focus on gaining independence, large motor control, and early language and communication skills." · "Primary students (ages 3-4) build concentration, coordination, organization, and independence..." · "Older students (ages 5-6) begin to make connections between concrete and abstract concepts...". The page does not name Transitional Kindergarten or Montessori Kindergarten against any age band. The admissions age cutoffs (age 4 by August 1 for TK, age 5 for Montessori K) are in the Admissions file.

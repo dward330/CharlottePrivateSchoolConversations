@@ -3,12 +3,18 @@
   "lang": "fa",
   "strings": [
     {
-      "t": "2025-26",
-      "of": "fe38e73d",
+      "t": "2026-27",
+      "of": "0a1761dd",
       "at": [
         "providence-day:guideYear",
-        "charlotte-country-day:guideYear",
-        "gaston-day:guideYear"
+        "charlotte-christian:guideYear",
+        "charlotte-catholic:guideYear",
+        "cannon:guideYear",
+        "covenant-day:guideYear",
+        "davidson-day:guideYear",
+        "carmel-christian:guideYear",
+        "trinity-episcopal:guideYear",
+        "charlotte-prep:guideYear"
       ]
     },
     {
@@ -514,8 +520,8 @@
       ]
     },
     {
-      "t": "حدود 75 درس در 7 گروه آموزشی — جایی که مسیرهای جای‌دهی ریاضی و توالی پنج‌زبانهٔ زبان‌های جهان آغاز می‌شود.",
-      "of": "3c19edb0",
+      "t": "72 درس در 7 گروه آموزشی — جایی که مسیرهای جای‌دهی ریاضی و توالی پنج‌زبانهٔ زبان‌های جهان آغاز می‌شود. در اینجا به‌صورت 53 مدخل نشان داده شده است، با گروه‌بندی گروه‌های موسیقی، هنر، بازیگری، PE/Health و سطوح زبان.",
+      "of": "b36b64bb",
       "at": [
         "providence-day:divisions[1].teaser"
       ]
@@ -795,7 +801,6 @@
         "providence-day:divisions[1].departments[6].courses[10].tag",
         "providence-day:divisions[2].departments[0].courses[2].tag",
         "providence-day:divisions[2].departments[0].courses[3].tag",
-        "providence-day:divisions[2].departments[0].courses[4].tag",
         "providence-day:divisions[2].departments[0].courses[5].tag",
         "providence-day:divisions[2].departments[0].courses[6].tag",
         "providence-day:divisions[2].departments[0].courses[7].tag",
@@ -803,7 +808,7 @@
         "providence-day:divisions[2].departments[0].courses[9].tag",
         "providence-day:divisions[2].departments[0].courses[10].tag",
         "providence-day:divisions[2].departments[0].courses[11].tag",
-        "providence-day:divisions[2].departments[0].courses[12].tag",
+        "providence-day:divisions[2].departments[0].courses[13].tag",
         "providence-day:divisions[2].departments[1].courses[11].tag",
         "providence-day:divisions[2].departments[1].courses[12].tag",
         "providence-day:divisions[2].departments[1].courses[13].tag",
@@ -815,23 +820,26 @@
         "providence-day:divisions[2].departments[1].courses[19].tag",
         "providence-day:divisions[2].departments[1].courses[20].tag",
         "providence-day:divisions[2].departments[1].courses[21].tag",
+        "providence-day:divisions[2].departments[2].courses[11].tag",
         "providence-day:divisions[2].departments[3].courses[6].tag",
-        "providence-day:divisions[2].departments[3].courses[7].tag",
         "providence-day:divisions[2].departments[3].courses[8].tag",
-        "providence-day:divisions[2].departments[3].courses[9].tag",
         "providence-day:divisions[2].departments[3].courses[10].tag",
         "providence-day:divisions[2].departments[3].courses[13].tag",
         "providence-day:divisions[2].departments[3].courses[14].tag",
         "providence-day:divisions[2].departments[4].courses[0].tag",
         "providence-day:divisions[2].departments[4].courses[1].tag",
+        "providence-day:divisions[2].departments[4].courses[2].tag",
         "providence-day:divisions[2].departments[4].courses[3].tag",
-        "providence-day:divisions[2].departments[4].courses[4].tag",
         "providence-day:divisions[2].departments[4].courses[5].tag",
         "providence-day:divisions[2].departments[4].courses[6].tag",
+        "providence-day:divisions[2].departments[4].courses[7].tag",
+        "providence-day:divisions[2].departments[4].courses[8].tag",
+        "providence-day:divisions[2].departments[4].courses[9].tag",
         "providence-day:divisions[2].departments[5].courses[0].tag",
-        "providence-day:divisions[2].departments[5].courses[2].tag",
+        "providence-day:divisions[2].departments[5].courses[1].tag",
+        "providence-day:divisions[2].departments[5].courses[3].tag",
         "providence-day:divisions[2].departments[5].courses[4].tag",
-        "providence-day:divisions[2].departments[5].courses[5].tag",
+        "providence-day:divisions[2].departments[5].courses[7].tag",
         "providence-day:divisions[2].departments[7].courses[1].tag",
         "providence-day:divisions[2].departments[7].courses[2].tag",
         "providence-day:divisions[2].departments[7].courses[3].tag",
@@ -846,6 +854,7 @@
         "providence-day:divisions[2].departments[8].courses[8].tag",
         "providence-day:divisions[2].departments[8].courses[9].tag",
         "providence-day:divisions[2].departments[8].courses[10].tag",
+        "providence-day:divisions[2].departments[8].courses[11].tag",
         "providence-day:divisions[2].departments[9].courses[2].tag",
         "providence-day:divisions[2].departments[9].courses[3].tag",
         "providence-day:divisions[2].departments[9].courses[4].tag",
@@ -1121,19 +1130,22 @@
       "at": [
         "providence-day:divisions[1].departments[1].courses[3].tag",
         "providence-day:divisions[1].departments[1].courses[6].tag",
+        "providence-day:divisions[2].departments[0].courses[4].tag",
+        "providence-day:divisions[2].departments[0].courses[12].tag",
         "providence-day:divisions[2].departments[1].courses[22].tag",
         "providence-day:divisions[2].departments[2].courses[3].tag",
         "providence-day:divisions[2].departments[2].courses[6].tag",
         "providence-day:divisions[2].departments[2].courses[8].tag",
         "providence-day:divisions[2].departments[2].courses[9].tag",
-        "providence-day:divisions[2].departments[2].courses[11].tag",
+        "providence-day:divisions[2].departments[2].courses[12].tag",
         "providence-day:divisions[2].departments[6].courses[1].tag",
         "providence-day:divisions[2].departments[6].courses[2].tag",
         "providence-day:divisions[2].departments[6].courses[3].tag",
         "providence-day:divisions[2].departments[6].courses[4].tag",
         "providence-day:divisions[2].departments[6].courses[11].tag",
-        "providence-day:divisions[2].departments[6].courses[14].tag",
+        "providence-day:divisions[2].departments[6].courses[12].tag",
         "providence-day:divisions[2].departments[6].courses[15].tag",
+        "providence-day:divisions[2].departments[6].courses[16].tag",
         "charlotte-latin:divisions[1].departments[2].courses[2].tag",
         "charlotte-latin:divisions[1].departments[2].courses[5].tag",
         "charlotte-latin:divisions[2].departments[4].courses[1].tag",
@@ -1235,8 +1247,8 @@
       ]
     },
     {
-      "t": "بخش دوم از این توالی یکپارچه، با واحدهای اصلی دربارهٔ رویدادهای فاجعه‌بار — آب‌وهوا، زمین‌لرزه، آتشفشان — و نور و اپتیک.",
-      "of": "e8be03a2",
+      "t": "بخش دوم از این توالی یکپارچه، با واحدهای اصلی دربارهٔ آب‌وهوا و اقلیم و دربارهٔ نور و اپتیک.",
+      "of": "a8aa5b3f",
       "at": [
         "providence-day:divisions[1].departments[2].courses[1].description"
       ]
@@ -1324,15 +1336,15 @@
       ]
     },
     {
-      "t": "History in Action: Collaborative Research",
-      "of": "9fbc9c04",
+      "t": "“How does my brain work?”: A Middle School Introduction to Psychology",
+      "of": "48cb4d17",
       "at": [
         "providence-day:divisions[1].departments[3].courses[3].title"
       ]
     },
     {
-      "t": "کاوش تاریخی ژرف دربارهٔ موضوعی به انتخاب دانش‌آموز، که به‌صورت وب‌سایت، مستند، نمایشگاه، اجرا یا مقاله ارائه می‌شود.",
-      "of": "bde44215",
+      "t": "نگاهی دانش‌آموزمحور به اینکه مغز چگونه هیجان، یادگیری و رفتار را شکل می‌دهد، که در آن گروه‌های کوچک واحدهایی را که خود برمی‌گزینند هدایت می‌کنند و هر دانش‌آموز درس را با یک پروژهٔ پژوهشی به پایان می‌برد.",
+      "of": "162a882f",
       "at": [
         "providence-day:divisions[1].departments[3].courses[3].description"
       ]
@@ -1556,7 +1568,7 @@
       "of": "d34b5466",
       "at": [
         "providence-day:divisions[1].departments[5].courses[1].title",
-        "providence-day:divisions[2].departments[6].courses[7].title"
+        "providence-day:divisions[2].departments[6].courses[8].title"
       ]
     },
     {
@@ -1578,7 +1590,7 @@
       "of": "d24b52d3",
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].title",
-        "providence-day:divisions[2].departments[6].courses[8].title",
+        "providence-day:divisions[2].departments[6].courses[9].title",
         "covenant-day:divisions[0].departments[5].courses[10].title"
       ]
     },
@@ -1681,11 +1693,10 @@
         "providence-day:divisions[2].departments[2].courses[7].tag",
         "providence-day:divisions[2].departments[2].courses[10].tag",
         "providence-day:divisions[2].departments[6].courses[0].tag",
-        "providence-day:divisions[2].departments[6].courses[7].tag",
         "providence-day:divisions[2].departments[6].courses[8].tag",
         "providence-day:divisions[2].departments[6].courses[9].tag",
         "providence-day:divisions[2].departments[6].courses[10].tag",
-        "providence-day:divisions[2].departments[6].courses[13].tag",
+        "providence-day:divisions[2].departments[6].courses[14].tag",
         "providence-day:divisions[2].departments[7].courses[8].tag",
         "providence-day:divisions[2].departments[8].courses[0].tag",
         "providence-day:divisions[2].departments[8].courses[1].tag",
@@ -1858,8 +1869,8 @@
       ]
     },
     {
-      "t": "Theatre Arts 6",
-      "of": "a46fff24",
+      "t": "Theatre 6",
+      "of": "d8473c56",
       "at": [
         "providence-day:divisions[1].departments[6].courses[8].title"
       ]
@@ -1872,15 +1883,15 @@
       ]
     },
     {
-      "t": "Acting 1, 2 & 3",
-      "of": "6a3f9b1b",
+      "t": "Acting 1, Acting 2 & One Act Production Studio",
+      "of": "51cf30f9",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].title"
       ]
     },
     {
-      "t": "سه درس نیم‌سالی بازیگری برای پایه‌های 7 و 8؛ Acting 3 نیازمند تجربهٔ پیشین تئاتر است.",
-      "of": "55e536d2",
+      "t": "سه درس نیم‌سالی برای پایه‌های 7 و 8 — Intro to Acting & Improv، Training for Stage & Screen، و One Act Production Studio، که به یک درس تئاتر یا یک اجرای پیشین در PDS نیاز دارد.",
+      "of": "b2d74d53",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].description"
       ]
@@ -1992,8 +2003,8 @@
       ]
     },
     {
-      "t": "149 درس فهرست‌شده در 11 گروه آموزشی — از دروس پایه تا 28 درس AP و ریاضیات پس از AP.",
-      "of": "85c83aa3",
+      "t": "172 درس فهرست‌شده در 11 گروه آموزشی — از دروس پایه تا 30 درس AP و ریاضیات پس از AP. در اینجا به‌صورت 153 مدخل نشان داده شده است، با گروه‌بندی توالی‌های سطوح زبان فرانسوی، آلمانی، اسپانیایی و ماندارین.",
+      "of": "cfd530ec",
       "at": [
         "providence-day:divisions[2].teaser"
       ]
@@ -2103,145 +2114,159 @@
       ]
     },
     {
+      "t": "Creative Writing (Advanced)",
+      "of": "ff711129",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[4].title"
+      ]
+    },
+    {
+      "t": "بر پایهٔ Creative Writing بنا می‌شود، با خواندنی‌های چالش‌برانگیزتر، شعر و نثر پیچیده‌تر، و معیارهای سخت‌گیرانه‌تر برای نوشتن و نقد همتایان.",
+      "of": "bbd5d8c4",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[4].description"
+      ]
+    },
+    {
       "t": "New Media Storytelling",
       "of": "255961e1",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[4].title"
+        "providence-day:divisions[2].departments[0].courses[5].title"
       ]
     },
     {
       "t": "دانش‌آموزان راهبردهای قصه‌گویی را از مقالهٔ خبری تا ویدئوهای کوتاه Instagram بررسی می‌کنند و روش‌های روایی را در قالب‌های گوناگون ارتباطی به کار می‌گیرند.",
       "of": "a5914fd7",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[4].description"
+        "providence-day:divisions[2].departments[0].courses[5].description"
       ]
     },
     {
       "t": "English Studies in Film: Philosophy in Film",
       "of": "8d0e83b3",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[5].title"
+        "providence-day:divisions[2].departments[0].courses[6].title"
       ]
     },
     {
       "t": "دانش‌آموزان فیلم را با متون فلسفی کلاسیک جفت می‌کنند تا خیر و شر، خود، هستی و واقعیت را بکاوند.",
       "of": "bb0e3cae",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[5].description"
+        "providence-day:divisions[2].departments[0].courses[6].description"
       ]
     },
     {
       "t": "Detective and Crime Fiction",
       "of": "3848a893",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[6].title"
+        "providence-day:divisions[2].departments[0].courses[7].title"
       ]
     },
     {
       "t": "دانش‌آموزان ژانر داستان کارآگاهی و جنایی را از سدهٔ نوزدهم تا امروز، در داستان کوتاه، نمایش، رمان، فیلم و تلویزیون کاوش می‌کنند.",
       "of": "24e0b661",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[6].description"
-      ]
-    },
-    {
-      "t": "Global Literature Topics",
-      "of": "c96cccfb",
-      "at": [
-        "providence-day:divisions[2].departments[0].courses[7].title"
-      ]
-    },
-    {
-      "t": "دانش‌آموزان با ژانرهایی از آسیا، کارائیب، آفریقا و آمریکای لاتین درگیر می‌شوند، حول موضوعی مشترک و چرخشی مانند جنسیت یا عدالت.",
-      "of": "5ca363cd",
-      "at": [
         "providence-day:divisions[2].departments[0].courses[7].description"
+      ]
+    },
+    {
+      "t": "Global Literature: Women’s Voices",
+      "of": "3e4f5926",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[8].title"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان داستان کوتاه، شعر، رمان و ناداستان به قلم زنان و دربارهٔ زنان از آسیا، کارائیب، آفریقا و آمریکای لاتین را می‌خوانند و می‌پرسند چه مسائلی زنان را در سراسر جهان تحت تأثیر قرار می‌دهد.",
+      "of": "2d7e1bbc",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[8].description"
       ]
     },
     {
       "t": "Graphic Novels",
       "of": "8b3f8c5e",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[8].title"
+        "providence-day:divisions[2].departments[0].courses[9].title"
       ]
     },
     {
       "t": "دانش‌آموزان کمیک‌های بلند را به‌عنوان ادبیات جهانی موشکافی می‌کنند و یک اثر چندرسانه‌ای از تحلیل ادبی می‌سازند که به یک comic-con دانش‌آموزمحور می‌انجامد.",
       "of": "5b324f1f",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[8].description"
+        "providence-day:divisions[2].departments[0].courses[9].description"
       ]
     },
     {
       "t": "Modern Dramatic Literature",
       "of": "e47f8d1a",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[9].title"
+        "providence-day:divisions[2].departments[0].courses[10].title"
       ]
     },
     {
       "t": "مروری بر نمایش مدرن از Ibsen تا Ionesco که از دست رفتن فردگرایی، همدلی و ارتباط معنادار را از راه تئاتر خوانشی کاوش می‌کند.",
       "of": "550c433c",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[9].description"
+        "providence-day:divisions[2].departments[0].courses[10].description"
       ]
     },
     {
       "t": "Shakespeare",
       "of": "5b3f3c51",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[10].title"
+        "providence-day:divisions[2].departments[0].courses[11].title"
       ]
     },
     {
       "t": "دانش‌آموزان نمونه‌ای گسترده از نمایشنامه‌ها، از جمله The Merchant of Venice، Othello، The Tempest، Measure for Measure و Richard III را مطالعه می‌کنند، آن‌ها را بلند می‌خوانند و نسخه‌های سینمایی‌شان را تحلیل می‌کنند.",
       "of": "f057375d",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[10].description"
-      ]
-    },
-    {
-      "t": "War Literature",
-      "of": "d908b2f4",
-      "at": [
-        "providence-day:divisions[2].departments[0].courses[11].title"
-      ]
-    },
-    {
-      "t": "دانش‌آموزان شعر، ترانه، نمایشنامه، رمان و ناداستان می‌خوانند، از جنگ سی‌ساله تا افغانستان و عراق.",
-      "of": "3239bdba",
-      "at": [
         "providence-day:divisions[2].departments[0].courses[11].description"
+      ]
+    },
+    {
+      "t": "War Literature (Advanced)",
+      "of": "7c51e9ed",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[12].title"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان بررسی می‌کنند که نویسندگان کهنه‌سرباز چگونه جنگ را به تصویر می‌کشند، از جنگ سی‌ساله تا افغانستان و عراق، سپس پروژه‌ای دربارهٔ یک اثر ادبیات جنگ به انتخاب خود می‌نویسند.",
+      "of": "9de16b25",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[12].description"
       ]
     },
     {
       "t": "Latino American Literature",
       "of": "519612cb",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[12].title"
+        "providence-day:divisions[2].departments[0].courses[13].title"
       ]
     },
     {
       "t": "مقدمه‌ای بر ادبیات و فرهنگ‌های لاتین‌تبار در ایالات متحده از 1960 تا امروز، با تحلیل هویت‌های مهاجرت و مرز.",
       "of": "6eb8b8e3",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[12].description"
+        "providence-day:divisions[2].departments[0].courses[13].description"
       ]
     },
     {
       "t": "AP African American Studies",
       "of": "0ca52363",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].title"
+        "providence-day:divisions[2].departments[0].courses[14].title"
       ]
     },
     {
       "t": "AP",
       "of": "3ad53794",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].tag",
         "providence-day:divisions[2].departments[0].courses[14].tag",
         "providence-day:divisions[2].departments[0].courses[15].tag",
+        "providence-day:divisions[2].departments[0].courses[16].tag",
         "providence-day:divisions[2].departments[1].courses[2].tag",
         "providence-day:divisions[2].departments[1].courses[4].tag",
         "providence-day:divisions[2].departments[1].courses[5].tag",
@@ -2250,23 +2275,25 @@
         "providence-day:divisions[2].departments[1].courses[8].tag",
         "providence-day:divisions[2].departments[1].courses[9].tag",
         "providence-day:divisions[2].departments[1].courses[10].tag",
-        "providence-day:divisions[2].departments[2].courses[12].tag",
         "providence-day:divisions[2].departments[2].courses[13].tag",
         "providence-day:divisions[2].departments[2].courses[14].tag",
+        "providence-day:divisions[2].departments[2].courses[15].tag",
         "providence-day:divisions[2].departments[3].courses[15].tag",
         "providence-day:divisions[2].departments[3].courses[16].tag",
         "providence-day:divisions[2].departments[3].courses[17].tag",
         "providence-day:divisions[2].departments[3].courses[18].tag",
         "providence-day:divisions[2].departments[3].courses[19].tag",
-        "providence-day:divisions[2].departments[4].courses[7].tag",
-        "providence-day:divisions[2].departments[4].courses[8].tag",
+        "providence-day:divisions[2].departments[4].courses[10].tag",
+        "providence-day:divisions[2].departments[4].courses[11].tag",
+        "providence-day:divisions[2].departments[5].courses[6].tag",
         "providence-day:divisions[2].departments[6].courses[5].tag",
         "providence-day:divisions[2].departments[6].courses[6].tag",
-        "providence-day:divisions[2].departments[6].courses[12].tag",
-        "providence-day:divisions[2].departments[6].courses[16].tag",
+        "providence-day:divisions[2].departments[6].courses[7].tag",
+        "providence-day:divisions[2].departments[6].courses[13].tag",
+        "providence-day:divisions[2].departments[6].courses[17].tag",
         "providence-day:divisions[2].departments[7].courses[9].tag",
         "providence-day:divisions[2].departments[7].courses[10].tag",
-        "providence-day:divisions[2].departments[8].courses[15].tag",
+        "providence-day:divisions[2].departments[8].courses[16].tag",
         "charlotte-latin:divisions[2].departments[0].courses[4].tag",
         "charlotte-latin:divisions[2].departments[1].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[4].tag",
@@ -2463,14 +2490,14 @@
       "t": "یک درس AP که از ادبیات، هنر، علوم سیاسی، جغرافیا و علوم بهره می‌گیرد تا تجربهٔ آفریقایی-آمریکایی را کاوش کند.",
       "of": "6f75a4d2",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].description"
+        "providence-day:divisions[2].departments[0].courses[14].description"
       ]
     },
     {
       "t": "AP English Language and Composition",
       "of": "331a2375",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[14].title",
+        "providence-day:divisions[2].departments[0].courses[15].title",
         "davidson-day:divisions[2].departments[0].courses[6].title"
       ]
     },
@@ -2478,14 +2505,14 @@
       "t": "نویسندگی توضیحی، تحلیلی و استدلالی در سطح دانشگاهی، با خواندنی‌هایی از ژانرهای ناداستان و تمرکز بر فن بلاغت و منطق.",
       "of": "15323bb8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[14].description"
+        "providence-day:divisions[2].departments[0].courses[15].description"
       ]
     },
     {
       "t": "AP English Literature and Composition",
       "of": "939079c8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[15].title",
+        "providence-day:divisions[2].departments[0].courses[16].title",
         "davidson-day:divisions[2].departments[0].courses[7].title"
       ]
     },
@@ -2493,7 +2520,7 @@
       "t": "تحلیل ادبی را از راه رمان‌هایی که به‌طور منظم تدریس می‌شوند، مانند Moby-Dick، Invisible Man و Mrs. Dalloway، به‌علاوهٔ Dickinson، Frost و Shakespeare پالایش می‌کند، همراه با فهرستی از خواندنی‌های بیرون از کلاس.",
       "of": "8f8725b8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[15].description"
+        "providence-day:divisions[2].departments[0].courses[16].description"
       ]
     },
     {
@@ -2523,8 +2550,8 @@
       ]
     },
     {
-      "t": "قدرشناسی از تنوع فرهنگی را از راه توسعهٔ جغرافیایی و موضوعی رویدادها از سال 1000 میلادی تا عصر جهانی‌شدن پرورش می‌دهد.",
-      "of": "3f35acdb",
+      "t": "قدرشناسی از تنوع فرهنگی را از راه توسعهٔ جغرافیایی و موضوعی رویدادها از سال 600 میلادی تا عصر جهانی‌شدن پرورش می‌دهد.",
+      "of": "d73b26ae",
       "at": [
         "providence-day:divisions[2].departments[1].courses[1].description"
       ]
@@ -2756,8 +2783,8 @@
       ]
     },
     {
-      "t": "Global Studies: Europe and Latin America",
-      "of": "e48d9af0",
+      "t": "Global Studies: Latin America",
+      "of": "d8fa3cc5",
       "at": [
         "providence-day:divisions[2].departments[1].courses[17].title"
       ]
@@ -3024,24 +3051,38 @@
       ]
     },
     {
+      "t": "Sports Analytics and Data Science",
+      "of": "042e6ec7",
+      "at": [
+        "providence-day:divisions[2].departments[2].courses[11].title"
+      ]
+    },
+    {
+      "t": "درسی در ریاضی و IDEAS که با داده‌های ورزشی، گردآوری داده، Excel، مصورسازی داده و آمار را آموزش می‌دهد و تا مدل‌سازی پیش‌بین و رگرسیون پیش می‌رود؛ پیش‌نیاز آن Algebra II است.",
+      "of": "3be37120",
+      "at": [
+        "providence-day:divisions[2].departments[2].courses[11].description"
+      ]
+    },
+    {
       "t": "Calculus (Advanced)",
       "of": "56e16862",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[11].title"
+        "providence-day:divisions[2].departments[2].courses[12].title"
       ]
     },
     {
       "t": "مفاهیم و کاربردهای حسابان دیفرانسیل را معرفی می‌کند و به دانش‌آموزان می‌آموزد حد بگیرند و توابع مقدماتی را مشتق و انتگرال بگیرند.",
       "of": "71f26dd8",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[11].description"
+        "providence-day:divisions[2].departments[2].courses[12].description"
       ]
     },
     {
       "t": "AP Calculus AB",
       "of": "74e1f1ef",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[12].title",
+        "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
         "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
@@ -3052,14 +3093,14 @@
       "t": "دانش‌آموزان می‌آموزند حد بگیرند و توابع مقدماتی را مشتق و انتگرال بگیرند، و ماشین‌حساب نمودارساز بخش جدایی‌ناپذیر این درس است.",
       "of": "bd6b62f6",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[12].description"
+        "providence-day:divisions[2].departments[2].courses[13].description"
       ]
     },
     {
       "t": "AP Calculus BC",
       "of": "1be5376b",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[13].title",
+        "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
         "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[10].title"
@@ -3069,14 +3110,14 @@
       "t": "محتوای AB را به‌علاوهٔ معادلات برداری، قطبی و پارامتری و حسابان سری‌های نامتناهی در بر می‌گیرد.",
       "of": "92ad63a0",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[13].description"
+        "providence-day:divisions[2].departments[2].courses[14].description"
       ]
     },
     {
       "t": "AP Statistics",
       "of": "64766a8f",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[14].title",
+        "providence-day:divisions[2].departments[2].courses[15].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
         "covenant-day:divisions[0].departments[1].courses[13].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
@@ -3087,24 +3128,24 @@
       "t": "دانش‌آموزان توزیع‌های احتمال را شبیه‌سازی و روابط میان متغیرها را از راه همبستگی و رگرسیون با ماشین‌حساب و نرم‌افزار تحلیل می‌کنند.",
       "of": "655636d1",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[14].description"
+        "providence-day:divisions[2].departments[2].courses[15].description"
       ]
     },
     {
       "t": "Calculus III (Advanced)",
       "of": "dd79cafd",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].title"
+        "providence-day:divisions[2].departments[2].courses[16].title"
       ]
     },
     {
       "t": "پس از AP",
       "of": "7eeeacc7",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].tag",
         "providence-day:divisions[2].departments[2].courses[16].tag",
         "providence-day:divisions[2].departments[2].courses[17].tag",
-        "providence-day:divisions[2].departments[4].courses[2].tag",
+        "providence-day:divisions[2].departments[2].courses[18].tag",
+        "providence-day:divisions[2].departments[4].courses[4].tag",
         "charlotte-christian:divisions[2].departments[2].courses[14].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[12].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[17].tag",
@@ -3117,35 +3158,35 @@
       "t": "پس از BC Calculus به توابع چندمتغیره و برداری، خمیدگی، انتگرال‌های دوگانه و سه‌گانه و تحلیل برداری می‌پردازد.",
       "of": "e5ec2dc6",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].description"
+        "providence-day:divisions[2].departments[2].courses[16].description"
       ]
     },
     {
       "t": "Linear Algebra (Advanced)",
       "of": "46d96fc9",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[16].title"
+        "providence-day:divisions[2].departments[2].courses[17].title"
       ]
     },
     {
       "t": "به فضای سه‌بعدی و n‌بعدی می‌رود و ماتریس‌ها، دترمینان‌ها، دستگاه‌های معادلات خطی هم‌زمان، فضاهای برداری، رتبه، معکوس‌ها و ضرب داخلی را در بر می‌گیرد.",
       "of": "4aa352d7",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[16].description"
+        "providence-day:divisions[2].departments[2].courses[17].description"
       ]
     },
     {
       "t": "Differential Equations (Advanced)",
       "of": "b1045a74",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[17].title"
+        "providence-day:divisions[2].departments[2].courses[18].title"
       ]
     },
     {
       "t": "دانش‌آموزان معادلات دیفرانسیل و حل آن‌ها، تبدیل‌های Laplace، دستگاه‌های خطی و غیرخطی، روش‌های سری و سری Fourier را بررسی می‌کنند.",
       "of": "222a51ff",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[17].description"
+        "providence-day:divisions[2].departments[2].courses[18].description"
       ]
     },
     {
@@ -3257,72 +3298,14 @@
       ]
     },
     {
-      "t": "دانش‌آموزان کالبدشناسی عضلانی-اسکلتی و مدیریت آسیب را می‌آموزند و 15 ساعت به‌عنوان مربی بدنسازی درمانی دانش‌آموزی برای تیم‌های PDS کار می‌کنند.",
-      "of": "64f6e91c",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[7].description"
-      ]
-    },
-    {
-      "t": "Astronomy",
-      "of": "da1da391",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[8].title",
-        "charlotte-latin:divisions[2].departments[4].courses[12].title",
-        "charlotte-christian:divisions[2].departments[3].courses[11].title"
-      ]
-    },
-    {
-      "t": "دانش‌آموزان ستارگان، کهکشان‌ها، منظومهٔ شمسی، و ترکیب، ساختار و خاستگاه‌های کیهان را با اسطرلاب و لکه‌های خورشیدی مطالعه می‌کنند.",
-      "of": "dd9d673f",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[8].description"
-      ]
-    },
-    {
-      "t": "Bioethics/Biotechnology",
-      "of": "822a020e",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[9].title"
-      ]
-    },
-    {
-      "t": "درسی آزمایشگاهی و مبتنی بر مطالعهٔ موردی با میکروپیپت، PCR، جداسازی DNA و ژل الکتروفورز، همراه با بحث دربارهٔ موجودات تراریخته، ترانس‌ژنیک و شبیه‌سازی.",
-      "of": "d7a1a690",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[9].description"
-      ]
-    },
-    {
-      "t": "Environmental Sustainability",
-      "of": "fd8972b0",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[10].title"
-      ]
-    },
-    {
-      "t": "کاوشی چندرشته‌ای در توسعهٔ پایدار در برنامه‌ریزی شهری، انرژی، آب و کشاورزی، همراه با کار عملی در Charger Gardens.",
-      "of": "2412793d",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[10].description"
-      ]
-    },
-    {
-      "t": "Forensic Science",
-      "of": "fba6e9f2",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[11].title",
-        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
-      ]
-    },
-    {
       "t": "Gr 10–12",
       "of": "102b6929",
       "at": [
+        "providence-day:divisions[2].departments[3].courses[7].tag",
+        "providence-day:divisions[2].departments[3].courses[9].tag",
         "providence-day:divisions[2].departments[3].courses[11].tag",
         "providence-day:divisions[2].departments[3].courses[12].tag",
-        "providence-day:divisions[2].departments[5].courses[1].tag",
-        "providence-day:divisions[2].departments[5].courses[3].tag",
+        "providence-day:divisions[2].departments[5].courses[2].tag",
         "charlotte-christian:divisions[2].departments[1].courses[13].tag",
         "charlotte-christian:divisions[2].departments[1].courses[14].tag",
         "charlotte-christian:divisions[2].departments[7].courses[6].tag",
@@ -3347,6 +3330,65 @@
         "hickory-grove-christian:divisions[0].departments[11].courses[4].tag",
         "hickory-grove-christian:divisions[0].departments[11].courses[7].tag",
         "hickory-grove-christian:divisions[0].departments[11].courses[8].tag"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان کالبدشناسی نواحی کلیدی بدن، از پا و مچ پا تا شانه و دست، و نیز آسیب‌های رایج ورزشی، بازتوانی و روش‌های پایه‌ای درمان را می‌آموزند.",
+      "of": "fbbdf148",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[7].description"
+      ]
+    },
+    {
+      "t": "Astronomy",
+      "of": "da1da391",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[8].title",
+        "charlotte-latin:divisions[2].departments[4].courses[12].title",
+        "charlotte-christian:divisions[2].departments[3].courses[11].title"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان ستارگان، کهکشان‌ها، منظومهٔ شمسی، و ترکیب، ساختار و خاستگاه‌های کیهان را با اسطرلاب و دستگاه‌های رصد لکه‌های خورشیدی مطالعه می‌کنند.",
+      "of": "8403986c",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[8].description"
+      ]
+    },
+    {
+      "t": "Bioethics/Biotechnology",
+      "of": "822a020e",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[9].title"
+      ]
+    },
+    {
+      "t": "درسی آزمایشگاهی و مبتنی بر مطالعهٔ موردی با میکروپیپت، PCR، جداسازی DNA و ژل الکتروفورز، همراه با سنجش اخلاقیِ موجودات تراریخته، حریم خصوصی ژنوم و شبیه‌سازی.",
+      "of": "6370c07b",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[9].description"
+      ]
+    },
+    {
+      "t": "Environmental Sustainability",
+      "of": "fd8972b0",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[10].title"
+      ]
+    },
+    {
+      "t": "کاوشی چندرشته‌ای در توسعهٔ پایدار در برنامه‌ریزی شهری، انرژی، آب و کشاورزی، همراه با کار عملی در Charger Gardens.",
+      "of": "2412793d",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[10].description"
+      ]
+    },
+    {
+      "t": "Forensic Science",
+      "of": "fba6e9f2",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
       ]
     },
     {
@@ -3378,8 +3420,8 @@
       ]
     },
     {
-      "t": "مقدمه‌ای بر کارکرد سلولی و مولکولی دستگاه عصبی، همراه با ثبت فعالیت الکتریکی از اعصاب، عضلات و گیاهان.",
-      "of": "11a91f28",
+      "t": "مقدمه‌ای عملی بر اینکه دستگاه عصبی در سطح سلولی و مولکولی چگونه کار می‌کند، با بررسی‌های آزمایشگاهی که دو کالبدشکافی کوتاه را در بر می‌گیرد.",
+      "of": "ffcef1fd",
       "at": [
         "providence-day:divisions[2].departments[3].courses[13].description"
       ]
@@ -3389,7 +3431,7 @@
       "of": "c6a3f0d6",
       "at": [
         "providence-day:divisions[2].departments[3].courses[14].title",
-        "providence-day:divisions[2].departments[5].courses[4].title"
+        "providence-day:divisions[2].departments[5].courses[3].title"
       ]
     },
     {
@@ -3461,8 +3503,8 @@
       ]
     },
     {
-      "t": "دانش‌آموزان از جبر برای مطالعهٔ فیزیک مقدماتی دانشگاهی بهره می‌گیرند، داده را تحلیل می‌کنند و برای سامانه‌ها، میدان‌ها، نیروها، بقا و موج‌ها مدل می‌سازند.",
-      "of": "a8097bf9",
+      "t": "دانش‌آموزان از جبر برای مطالعهٔ فیزیک مقدماتی دانشگاهی در آزمایشگاه بهره می‌گیرند، داده را تحلیل می‌کنند و برای حرکت، نیروها، انرژی، تکانه، چرخش، نوسان و شاره‌ها مدل می‌سازند.",
+      "of": "ae146f3e",
       "at": [
         "providence-day:divisions[2].departments[3].courses[18].description"
       ]
@@ -3489,108 +3531,150 @@
       ]
     },
     {
+      "t": "Architecture Design",
+      "of": "59fd9608",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[0].title"
+      ]
+    },
+    {
+      "t": "بر اصول طراحی معماری و مدل‌سازی اطلاعات ساختمان با ابزارهای سه‌بعدی CAD مانند REVIT برای پلان، برش و نما تمرکز دارد.",
+      "of": "ff9fec5d",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[0].description"
+      ]
+    },
+    {
+      "t": "Architecture II: Sustainable Design & LEED Fundamentals",
+      "of": "744ec01b",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[1].title"
+      ]
+    },
+    {
+      "t": "درسی پروژه‌محور دربارهٔ ساختمان سبز و با عملکرد بالا که دانش‌آموزان را برای دریافت گواهی LEED Green Associate آماده می‌کند و با یک Green Building Design Project به پایان می‌رسد؛ پیش‌نیاز آن Architecture Design است.",
+      "of": "791b4b92",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[1].description"
+      ]
+    },
+    {
       "t": "Computer-Aided Design with 3D Printing",
       "of": "7ad8d7dc",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[0].title"
+        "providence-day:divisions[2].departments[4].courses[2].title"
       ]
     },
     {
       "t": "مقدمه‌ای بر نقشه‌کشی مکانیکی سنتی با نرم‌افزار CAD به‌علاوهٔ چاپ سه‌بعدی، ترسیم‌های ایزومتریک و روش‌های کامل مدل‌سازی سه‌بعدی.",
       "of": "e1ea3233",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[0].description"
+        "providence-day:divisions[2].departments[4].courses[2].description"
       ]
     },
     {
       "t": "Computer Programming with Python",
       "of": "f83fc86f",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[1].title"
+        "providence-day:divisions[2].departments[4].courses[3].title"
       ]
     },
     {
       "t": "برنامه‌نویسی در Python را معرفی می‌کند و متغیرها، انواع داده، تکرار، جریان کنترل، توابع، رابط گرافیکی و برنامه‌نویسی رویدادمحور را در بر می‌گیرد.",
       "of": "442bb4a3",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[1].description"
+        "providence-day:divisions[2].departments[4].courses[3].description"
       ]
     },
     {
       "t": "Advanced Data Structures in Java",
       "of": "45041a30",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[2].title"
+        "providence-day:divisions[2].departments[4].courses[4].title"
       ]
     },
     {
       "t": "برای دانش‌آموزانی که AP CS A را گذرانده‌اند، که انتزاع و کپسوله‌سازی داده از جمله پشته، صف، فهرست پیوندی، درخت دودویی و نگاشت درهم را در بر می‌گیرد.",
       "of": "c60d2b51",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[2].description"
+        "providence-day:divisions[2].departments[4].courses[4].description"
       ]
     },
     {
       "t": "Game Development with Unity and C#",
       "of": "d8492344",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[3].title"
+        "providence-day:divisions[2].departments[4].courses[5].title"
       ]
     },
     {
       "t": "دانش‌آموزان می‌آموزند بازی‌های ویدئویی را از پایه با زبان C# و موتور Unity از راه برنامهٔ درسی «Create with Code» بسازند.",
       "of": "9c2655c9",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[3].description"
+        "providence-day:divisions[2].departments[4].courses[5].description"
       ]
     },
     {
       "t": "iOS Programming with Swift",
       "of": "141f2d9a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[4].title"
+        "providence-day:divisions[2].departments[4].courses[6].title"
       ]
     },
     {
       "t": "دانش‌آموزان از Xcode و iOS SDK بهره می‌گیرند تا Swift و چارچوب‌های Cocoa Touch را بیاموزند و اپلیکیشن‌ها را روی دستگاه‌های همراه خود بیازمایند.",
       "of": "b1c111e5",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[4].description"
+        "providence-day:divisions[2].departments[4].courses[6].description"
       ]
     },
     {
       "t": "Physical Computing",
       "of": "a41ac47a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[5].title"
+        "providence-day:divisions[2].departments[4].courses[7].title"
       ]
     },
     {
       "t": "دانش‌آموزان سامانه‌های تعاملی را با Arduino و Raspberry Pi با بهره‌گیری از دکمه، حسگر، نمایشگر، LED، موتور و ماژول بی‌سیم مهندسی می‌کنند.",
       "of": "e9beacef",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[5].description"
+        "providence-day:divisions[2].departments[4].courses[7].description"
       ]
     },
     {
-      "t": "Robotics & Engineering",
-      "of": "aec8a185",
+      "t": "Robotics & Engineering 1",
+      "of": "dd9ca18a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[6].title"
+        "providence-day:divisions[2].departments[4].courses[8].title"
       ]
     },
     {
       "t": "مبانی رباتیک و مهندسی و مسائل جهانی این حوزه را از راه حل مسئلهٔ عملی و مناظره دربارهٔ پیامدهای اخلاقی می‌کاود.",
       "of": "244e5342",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[6].description"
+        "providence-day:divisions[2].departments[4].courses[8].description"
+      ]
+    },
+    {
+      "t": "Robotics & Engineering 2",
+      "of": "dc9c9ff7",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[9].title"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان بر پایهٔ Robotics & Engineering 1، با 2 یا 3 چالش واقعی روبه‌رو می‌شوند و با همکاران محلی برای پژوهش و طراحی مهندسی یک راه‌حل همکاری می‌کنند.",
+      "of": "07cae16d",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[9].description"
       ]
     },
     {
       "t": "AP Computer Science A",
       "of": "1c7b7290",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[7].title",
+        "providence-day:divisions[2].departments[4].courses[10].title",
         "charlotte-country-day:divisions[2].departments[6].courses[1].title",
         "davidson-day:divisions[2].departments[6].courses[2].title"
       ]
@@ -3599,14 +3683,14 @@
       "t": "از سرفصل College Board در Java پیروی می‌کند، با تأکید بر نحو، ساختار کلاس، روش‌شناسی‌های شیءگرا، الگوریتم‌ها و ساختمان داده.",
       "of": "5e7360b2",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[7].description"
+        "providence-day:divisions[2].departments[4].courses[10].description"
       ]
     },
     {
       "t": "AP Computer Science Principles",
       "of": "b34fad00",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[8].title",
+        "providence-day:divisions[2].departments[4].courses[11].title",
         "davidson-day:divisions[2].departments[6].courses[1].title"
       ]
     },
@@ -3614,7 +3698,7 @@
       "t": "دانش‌آموزان را در جنبه‌های خلاق علوم کامپیوتر درگیر می‌کند و از ابزارهای محاسباتی برای تحلیل مجموعه‌داده‌های بزرگ و نتیجه‌گیری از روندها بهره می‌گیرد.",
       "of": "58c33221",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[8].description"
+        "providence-day:divisions[2].departments[4].courses[11].description"
       ]
     },
     {
@@ -3622,7 +3706,7 @@
       "of": "ad0010c2",
       "at": [
         "providence-day:divisions[2].departments[5].name",
-        "providence-day:divisions[2].departments[5].courses[5].title"
+        "providence-day:divisions[2].departments[5].courses[4].title"
       ]
     },
     {
@@ -3655,45 +3739,91 @@
       ]
     },
     {
-      "t": "Architecture Design",
-      "of": "59fd9608",
-      "at": [
-        "providence-day:divisions[2].departments[5].courses[2].title"
-      ]
-    },
-    {
-      "t": "بر اصول طراحی معماری و مدل‌سازی اطلاعات ساختمان با ابزارهای سه‌بعدی CAD مانند REVIT برای پلان، برش و نما تمرکز دارد.",
-      "of": "ff9fec5d",
-      "at": [
-        "providence-day:divisions[2].departments[5].courses[2].description"
-      ]
-    },
-    {
       "t": "Social Entrepreneurship",
       "of": "728b6db3",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[3].title"
+        "providence-day:divisions[2].departments[5].courses[2].title"
       ]
     },
     {
       "t": "درسی عملی که دانش‌آموزان را در راه‌اندازی کسب‌وکارهایی با ارزش اجتماعی راهنمایی می‌کند و ایده‌ها را به‌سرعت در برابر بازخورد مشتری و بازار می‌آزماید.",
       "of": "d43c9f1f",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[3].description"
+        "providence-day:divisions[2].departments[5].courses[2].description"
       ]
     },
     {
       "t": "دانش‌آموزان پژوهش علمی اصیل را دنبال می‌کنند، آزمایش طراحی و اجرا می‌کنند و نتایج را ارائه می‌دهند؛ واحد علوم نیز دارد.",
       "of": "4575d745",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[4].description"
+        "providence-day:divisions[2].departments[5].courses[3].description"
       ]
     },
     {
       "t": "دانش‌آموزان مهارت‌های تفکر طراحی را به‌عنوان استودیویی از طراحان و کسب‌وکاری از کارآفرینان می‌پرورند تا به مسائل فوری پیش روی دانش‌آموزان بپردازند.",
       "of": "a78713fe",
       "at": [
+        "providence-day:divisions[2].departments[5].courses[4].description"
+      ]
+    },
+    {
+      "t": "Advanced Entrepreneurship: Incubator to Accelerator",
+      "of": "e6c2a235",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].title"
+      ]
+    },
+    {
+      "t": "Gr 12",
+      "of": "738fc5f7",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].tag",
+        "charlotte-christian:divisions[2].departments[0].courses[4].tag",
+        "charlotte-christian:divisions[2].departments[1].courses[6].tag",
+        "charlotte-country-day:divisions[2].departments[0].courses[7].tag",
+        "cannon:divisions[2].departments[0].courses[6].tag",
+        "cannon:divisions[2].departments[1].courses[11].tag",
+        "cannon:divisions[2].departments[6].courses[5].tag",
+        "cannon:divisions[2].departments[6].courses[6].tag",
+        "davidson-day:divisions[2].departments[8].courses[6].tag",
+        "hickory-grove-christian:divisions[0].departments[0].courses[8].tag",
+        "hickory-grove-christian:divisions[0].departments[6].courses[3].tag",
+        "hickory-grove-christian:divisions[0].departments[11].courses[11].tag"
+      ]
+    },
+    {
+      "t": "پروژهٔ پایانی سال آخر در Diploma in Entrepreneurial Studies، که در آن دانش‌آموزان یک نیاز بازار را می‌آزمایند، نخستین نسخهٔ کارآمد یک محصول را می‌سازند و یک ارائهٔ رسمی تجاری می‌دهند.",
+      "of": "44091b59",
+      "at": [
         "providence-day:divisions[2].departments[5].courses[5].description"
+      ]
+    },
+    {
+      "t": "AP Business with Personal Finance",
+      "of": "2637a358",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[6].title"
+      ]
+    },
+    {
+      "t": "درسی یک‌ساله برای دانش‌آموزان سال سوم و سال آخر که کارآفرینی، بازاریابی، مالی، حسابداری و مدیریت به‌علاوهٔ مالی شخصی را پوشش می‌دهد، با فرصت کسب واحد دانشگاهی و یک گواهی مورد تأیید کارفرمایان.",
+      "of": "9b607118",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[6].description"
+      ]
+    },
+    {
+      "t": "AI Literacy: Understanding and Navigating Artificial Intelligence",
+      "of": "598b6f40",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[7].title"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان می‌آموزند یادگیری ماشینی چگونه کار می‌کند، چگونه هوش مصنوعی را در مدرسه و کار بسنجند و به کار ببرند، و هوش مصنوعی چگونه بر جامعه اثر می‌گذارد؛ نیازی به تجربهٔ پیشین نیست.",
+      "of": "d3ffadcf",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[7].description"
       ]
     },
     {
@@ -3774,17 +3904,31 @@
       ]
     },
     {
-      "t": "دانش‌آموزان سال آخر را برای آزمون AP French Language and Culture از راه مقاله‌های متقاعدکننده و گفت‌وگوهای هدایت‌شدهٔ زمان‌دار با منابع اصیل آماده می‌کند.",
-      "of": "0dfad1a0",
+      "t": "دانش‌آموزان سال آخر را برای آزمون AP French Language and Culture از راه مقاله‌های استدلالی و واحدهایی بر پایهٔ منابع اصیل، از چالش‌های جهانی تا زیبایی و زیبایی‌شناسی، آماده می‌کند.",
+      "of": "b372535e",
       "at": [
         "providence-day:divisions[2].departments[6].courses[5].description"
+      ]
+    },
+    {
+      "t": "AP German",
+      "of": "80692756",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[6].title"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان را برای AP German Language Exam آماده می‌کند، با کلاسی که تنها به زبان آلمانی برگزار می‌شود و همهٔ مواد آن از منابع اصیل است؛ پیش‌نیاز آن German 6 Advanced با نمرهٔ 87% است.",
+      "of": "4ddc4ac0",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[6].description"
       ]
     },
     {
       "t": "AP Spanish Language",
       "of": "5e3f2f4e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].title",
+        "providence-day:divisions[2].departments[6].courses[7].title",
         "covenant-day:divisions[0].departments[5].courses[4].title"
       ]
     },
@@ -3792,70 +3936,70 @@
       "t": "دانش‌آموزان سال آخر را برای AP Spanish Language Exam آماده می‌کند، با پروراندن همه‌جانبهٔ مهارت‌های زبانی و گفت‌وگوی کلاسی تنها به زبان اسپانیایی.",
       "of": "5fa55fc7",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].description"
+        "providence-day:divisions[2].departments[6].courses[7].description"
       ]
     },
     {
       "t": "دانش‌آموزان را با یادگیری زبان کلاسیک از راه زبان، بستر تاریخی و تأثیر روم آشنا می‌کند، و زندگی روزمره، خدایان و قهرمانان را در بر می‌گیرد.",
       "of": "6569f97b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[7].description"
+        "providence-day:divisions[2].departments[6].courses[8].description"
       ]
     },
     {
       "t": "دانش‌آموزان داستان‌های لاتین در روم باستان را می‌خوانند و مفاهیم دستور زبان را از راه درون‌مایه‌هایی چون ضیافت، حمام، دزدی دریایی، گلادیاتورها و ناآرامی سیاسی می‌آموزند.",
       "of": "1b1b4ea4",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[8].description"
+        "providence-day:divisions[2].departments[6].courses[9].description"
       ]
     },
     {
       "t": "Latin 3",
       "of": "d14b5140",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[9].title"
-      ]
-    },
-    {
-      "t": "دستور زبان را مرور می‌کند و بندها را معرفی می‌کند، و از راه نثر Livy و Pliny و شعر Catullus به لاتین اصیل و بی‌تلخیص پیش می‌رود.",
-      "of": "c8d515be",
-      "at": [
-        "providence-day:divisions[2].departments[6].courses[9].description"
-      ]
-    },
-    {
-      "t": "Latin 4",
-      "of": "d84b5c45",
-      "at": [
         "providence-day:divisions[2].departments[6].courses[10].title"
       ]
     },
     {
-      "t": "درسی ادبی که شعر Catullus، Ovid و Vergil را می‌کاود، با خواندن بلند لاتین برای شنیدن وزن و ارزیابی آرایه‌های ادبی.",
-      "of": "f6a3c306",
+      "t": "دستور زبان را مرور می‌کند و بندهای جمله را معرفی می‌کند، و به سوی متن‌های اصلی و اقتباس‌نشدهٔ لاتین در نثر Caesar، Pliny، Livy و Eutropius پیش می‌رود.",
+      "of": "c8bebbc1",
       "at": [
         "providence-day:divisions[2].departments[6].courses[10].description"
+      ]
+    },
+    {
+      "t": "Latin 4 (Advanced)",
+      "of": "bfb66906",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[11].title"
+      ]
+    },
+    {
+      "t": "درسی ادبی دربارهٔ شعر و اسطوره‌شناسی Catullus، Ovid و Vergil، که می‌سنجد هر شاعر تا چه اندازه از آرایه‌های ادبی، وزن، لحن و هدف به‌خوبی بهره می‌گیرد.",
+      "of": "3052dc30",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[11].description"
       ]
     },
     {
       "t": "Latin 5 (Advanced)",
       "of": "425c804b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[11].title"
+        "providence-day:divisions[2].departments[6].courses[12].title"
       ]
     },
     {
-      "t": "درسی ادبی در نثر و شعر با بخشی پروژه‌محور از متون تطبیقی و خواندنی‌هایی از نویسندگانی مانند Vergil، Pliny، Catullus، Ovid، Vespucci و Boccaccio.",
-      "of": "c300258c",
+      "t": "درسی ادبی در نثر و شعر با پروژه‌ای در مقایسهٔ متن‌ها با مضمون‌های مشترک، با خواندن Vergil، Pliny، Catullus و Ovid در کنار نویسندگانی از بیرون از دورهٔ روم باستان.",
+      "of": "c82bcc96",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[11].description"
+        "providence-day:divisions[2].departments[6].courses[12].description"
       ]
     },
     {
       "t": "AP Latin",
       "of": "6d3b696e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[12].title",
+        "providence-day:divisions[2].departments[6].courses[13].title",
         "charlotte-country-day:divisions[2].departments[4].courses[13].title"
       ]
     },
@@ -3863,63 +4007,63 @@
       "t": "مطالب و مهارت‌های AP Latin Exam را ارائه می‌دهد، با تحلیل متن، تشخیص آرایه‌های ادبی و استناد به درون‌مایه‌های زیرین.",
       "of": "5aadcc70",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[12].description"
+        "providence-day:divisions[2].departments[6].courses[13].description"
       ]
     },
     {
       "t": "Mandarin Chinese 1–5",
       "of": "531d6261",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[13].title"
+        "providence-day:divisions[2].departments[6].courses[14].title"
       ]
     },
     {
       "t": "درس‌های مرحله‌ای از تسلط Novice Mid تا Intermediate Mid 1، در درون‌مایه‌هایی مانند احوال‌پرسی، غذا خوردن، سفر و در رستوران.",
       "of": "98c36859",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[13].description"
+        "providence-day:divisions[2].departments[6].courses[14].description"
       ]
     },
     {
       "t": "Mandarin Chinese 6 (Advanced)",
       "of": "c514e9f5",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[14].title"
+        "providence-day:divisions[2].departments[6].courses[15].title"
       ]
     },
     {
       "t": "توانایی‌های سطح Intermediate Mid 2 را تثبیت می‌کند و هم‌زمان فرهنگ معاصر چین را در بسترهای آموزشی، اجتماعی و فناورانه می‌کاود.",
       "of": "81fa2ce3",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[14].description"
+        "providence-day:divisions[2].departments[6].courses[15].description"
       ]
     },
     {
       "t": "Mandarin Chinese 7 (Advanced)",
       "of": "e3dd6be8",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[15].title"
+        "providence-day:divisions[2].departments[6].courses[16].title"
       ]
     },
     {
       "t": "تثبیت سطح Intermediate Mid 2 را ادامه می‌دهد و فرهنگ را از راه آموزش، جشن‌ها، چالش‌های زیست‌محیطی و زندگی سالم می‌کاود.",
       "of": "48428f7b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[15].description"
+        "providence-day:divisions[2].departments[6].courses[16].description"
       ]
     },
     {
       "t": "AP Chinese Language and Culture",
       "of": "0bffc54c",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[16].title"
+        "providence-day:divisions[2].departments[6].courses[17].title"
       ]
     },
     {
       "t": "مهارت‌های شنیداری و گفتاری، درک مطلب، دستور زبان و نگارش را در پنج حوزهٔ هدف در بر می‌گیرد و آگاهی از نقش جهانی چین را می‌پروراند.",
       "of": "05551cb1",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[16].description"
+        "providence-day:divisions[2].departments[6].courses[17].description"
       ]
     },
     {
@@ -4041,8 +4185,8 @@
       ]
     },
     {
-      "t": "Understanding Art: A Global View",
-      "of": "c2a2b6d5",
+      "t": "Understanding Art: A Contemporary Global View",
+      "of": "54253574",
       "at": [
         "providence-day:divisions[2].departments[7].courses[7].title"
       ]
@@ -4194,94 +4338,109 @@
       ]
     },
     {
+      "t": "Music Technology and Production",
+      "of": "f49b143e",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[4].title"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان با نرم‌افزار تولید موسیقی و تجهیزات ضبط، ضبط چندتراکی، ویرایش صدا و طراحی صدا را می‌آموزند؛ تجربهٔ پیشین موسیقی ترجیح داده می‌شود.",
+      "of": "4a7cdac9",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[4].description"
+      ]
+    },
+    {
       "t": "Theatre I: Introduction to Performance",
       "of": "80701414",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[4].title"
+        "providence-day:divisions[2].departments[8].courses[5].title"
       ]
     },
     {
       "t": "اجرای تئاتری را از منظر بازیگر از راه پانتومیم، بداهه‌پردازی، کار صحنه و صحنه‌های بی‌محتوا معرفی می‌کند.",
       "of": "41fd4a3c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[4].description"
+        "providence-day:divisions[2].departments[8].courses[5].description"
       ]
     },
     {
       "t": "Theatre II: Advanced Acting",
       "of": "3bd9046e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[5].title"
+        "providence-day:divisions[2].departments[8].courses[6].title"
       ]
     },
     {
       "t": "تکنیک‌های پیشرفته از جمله Meisner و Stanislavski، تئاتر موزیکال، تحلیل متن و شخصیت، و فن آزمون بازیگری را می‌کاود.",
       "of": "63f0248f",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[5].description"
-      ]
-    },
-    {
-      "t": "Theatrical Performing Arts Lab",
-      "of": "16fffd28",
-      "at": [
-        "providence-day:divisions[2].departments[8].courses[6].title"
-      ]
-    },
-    {
-      "t": "دانش‌آموزان یک نمایش تک‌پرده‌ای را برمی‌گزینند، بازیگرگزینی می‌کنند، طراحی، تمرین و تولید می‌کنند، و دانش‌آموزان با گرایش فنی به‌عنوان طراح خدمت می‌کنند.",
-      "of": "3fe3fb18",
-      "at": [
         "providence-day:divisions[2].departments[8].courses[6].description"
+      ]
+    },
+    {
+      "t": "تئاتر موزیکال",
+      "of": "0a9bd0ea",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[7].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان مهارت‌های آواز، بازیگری و رقص یک اجراگر تئاتر موزیکال را پرورش می‌دهند و تاریخ این ژانر را مطالعه می‌کنند، و درس با یک اجرای پایانی به پایان می‌رسد.",
+      "of": "c33aeab0",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[7].description"
       ]
     },
     {
       "t": "Theatre Around the World",
       "of": "2f6e784a",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[7].title"
+        "providence-day:divisions[2].departments[8].courses[8].title"
       ]
     },
     {
       "t": "سنت‌های تئاتری جهان از جمله Noh ژاپنی، Kathakali هندی، Pantomime بریتانیایی، اپرای ایتالیایی و Theatre of the Oppressed برزیلی را بررسی می‌کند.",
       "of": "a49b8aa8",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[7].description"
+        "providence-day:divisions[2].departments[8].courses[8].description"
       ]
     },
     {
       "t": "Theatrical Production and Design",
       "of": "65026e14",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[8].title"
+        "providence-day:divisions[2].departments[8].courses[9].title"
       ]
     },
     {
       "t": "دانش‌آموزان لباس، گریم صحنه، لوازم صحنه و مدیریت صحنه را می‌کاوند و خیاطی، گریم جلوهٔ ویژه و ساخت لوازم را می‌آموزند.",
       "of": "f534dfa1",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[8].description"
+        "providence-day:divisions[2].departments[8].courses[9].description"
       ]
     },
     {
       "t": "RE(ACT): Theatre and Social Change",
       "of": "dbd7aab0",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[9].title"
+        "providence-day:divisions[2].departments[8].courses[10].title"
       ]
     },
     {
       "t": "اجرای نمایشی را به‌عنوان تغییر اجتماعی بنیان می‌نهد، با مطالعهٔ Theatre of the Oppressed اثر Augusto Boal و نمایشنامه‌های مدرن دربارهٔ رویدادهای جهان.",
       "of": "49d841be",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[9].description"
+        "providence-day:divisions[2].departments[8].courses[10].description"
       ]
     },
     {
       "t": "Technical Theatre",
       "of": "2cc4ae9b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[10].title",
+        "providence-day:divisions[2].departments[8].courses[11].title",
         "charlotte-christian:divisions[2].departments[7].courses[18].title"
       ]
     },
@@ -4289,24 +4448,24 @@
       "t": "درسی عملی که در آن دانش‌آموزان دکور طراحی و می‌سازند، پس‌زمینه نقاشی می‌کنند، نورپردازی را تنظیم می‌کنند و صدا و جلوه‌های ویژه می‌آفرینند.",
       "of": "b8cc023c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[10].description"
+        "providence-day:divisions[2].departments[8].courses[11].description"
       ]
     },
     {
       "t": "Honors Band",
       "of": "afe8d91b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].title"
+        "providence-day:divisions[2].departments[8].courses[12].title"
       ]
     },
     {
       "t": "Honors",
       "of": "c7d97254",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].tag",
         "providence-day:divisions[2].departments[8].courses[12].tag",
         "providence-day:divisions[2].departments[8].courses[13].tag",
         "providence-day:divisions[2].departments[8].courses[14].tag",
+        "providence-day:divisions[2].departments[8].courses[15].tag",
         "charlotte-latin:divisions[2].departments[0].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[7].tag",
         "charlotte-latin:divisions[2].departments[2].courses[2].tag",
@@ -4576,42 +4735,42 @@
       "t": "برای دانش‌آموزان سال آخری که سه سال Upper School Band را گذرانده‌اند و شرایط آزمون و الزامات افزودهٔ تعیین‌شده توسط مربی را برآورده می‌کنند.",
       "of": "94c24c76",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].description"
+        "providence-day:divisions[2].departments[8].courses[12].description"
       ]
     },
     {
       "t": "Honors Chorus",
       "of": "03148f6e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[12].title"
+        "providence-day:divisions[2].departments[8].courses[13].title"
       ]
     },
     {
       "t": "برای دانش‌آموزان سال آخری که سه سال Upper School Chorus را گذرانده‌اند و شرایط آزمون و الزامات افزودهٔ درس را برآورده می‌کنند.",
       "of": "5438fc70",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[12].description"
+        "providence-day:divisions[2].departments[8].courses[13].description"
       ]
     },
     {
       "t": "Honors Jazz Ensemble",
       "of": "684bd93c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[13].title"
+        "providence-day:divisions[2].departments[8].courses[14].title"
       ]
     },
     {
       "t": "برای دانش‌آموزان سال آخری که سه سال Upper School Band یا Jazz Ensemble را گذرانده‌اند و شرایط آزمون و الزامات افزوده را برآورده می‌کنند.",
       "of": "fee547b7",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[13].description"
+        "providence-day:divisions[2].departments[8].courses[14].description"
       ]
     },
     {
       "t": "Honors Orchestra",
       "of": "e86bed3b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[14].title",
+        "providence-day:divisions[2].departments[8].courses[15].title",
         "charlotte-country-day:divisions[2].departments[5].courses[6].title"
       ]
     },
@@ -4619,14 +4778,14 @@
       "t": "برای دانش‌آموزان سال آخری که سه سال Upper School Orchestra را گذرانده‌اند و شرایط آزمون و الزامات افزوده را برآورده می‌کنند.",
       "of": "b6d5128e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[14].description"
+        "providence-day:divisions[2].departments[8].courses[15].description"
       ]
     },
     {
       "t": "AP Music Theory",
       "of": "d70bc8a8",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[15].title",
+        "providence-day:divisions[2].departments[8].courses[16].title",
         "charlotte-country-day:divisions[2].departments[5].courses[9].title"
       ]
     },
@@ -4634,7 +4793,7 @@
       "t": "دانش‌آموزان ملودی، هارمونی، بافت، ریتم، فرم و اندکی تاریخ و سبک را مطالعه می‌کنند، و با مهارت‌های پایهٔ نظریه و نت‌نویسی وارد می‌شوند.",
       "of": "10a5ce52",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[15].description"
+        "providence-day:divisions[2].departments[8].courses[16].description"
       ]
     },
     {
@@ -5375,8 +5534,8 @@
       ]
     },
     {
-      "t": "122 درس در 13 گروه آموزشی — 23 درس AP، یونانی به‌عنوان زبان دوم، و یک Fab Lab در شبکهٔ MIT.",
-      "of": "73c56078",
+      "t": "122 درس در 13 گروه آموزشی — 23 درس AP در صفحهٔ ارائهٔ دروس مدرسه، یونانی به‌عنوان زبان دوم، و یک Fab Lab در شبکهٔ MIT. در اینجا به‌صورت 105 مدخل نشان داده شده است: توالی‌هایی مانند French I–V یک سطر مشترک دارند، Drama و Music یک زبانهٔ مشترک دارند، و Online Courses هیچ درسی را فهرست نمی‌کند.",
+      "of": "90208a77",
       "at": [
         "charlotte-latin:divisions[2].teaser"
       ]
@@ -6923,20 +7082,6 @@
       ]
     },
     {
-      "t": "2026-27",
-      "of": "0a1761dd",
-      "at": [
-        "charlotte-christian:guideYear",
-        "charlotte-catholic:guideYear",
-        "cannon:guideYear",
-        "covenant-day:guideYear",
-        "davidson-day:guideYear",
-        "carmel-christian:guideYear",
-        "trinity-episcopal:guideYear",
-        "charlotte-prep:guideYear"
-      ]
-    },
-    {
       "t": "JK تا پایهٔ 4",
       "of": "1a6fcf80",
       "at": [
@@ -6945,8 +7090,8 @@
       ]
     },
     {
-      "t": "5 رشتهٔ درسی اصلی — کتاب‌مقدس از JK تا یک پروژهٔ پایانی دفاعیه‌نویسی با عنوان Case for Christ در پایهٔ 4 — به‌علاوهٔ شش کلاس غنی‌سازی.",
-      "of": "a523846e",
+      "t": "کتاب‌مقدس به‌علاوهٔ 5 رشتهٔ درسی اصلی — کتاب‌مقدس از JK تا یک پروژهٔ پایانی دفاعیه‌نویسی با عنوان Case for Christ در پایهٔ 4 — به‌علاوهٔ شش کلاس غنی‌سازی.",
+      "of": "68b87b12",
       "at": [
         "charlotte-christian:divisions[0].teaser"
       ]
@@ -7568,8 +7713,8 @@
       ]
     },
     {
-      "t": "حدود 135 درس در 11 گروه آموزشی — 21 سطر درسی AP، بیش از 35 درس honors، و 4 واحد الزامی مطالعات کتاب‌مقدس.",
-      "of": "b5858f53",
+      "t": "143 مدخل درسی در 11 گروه آموزشی — 21 درس AP در فهرست AP راهنما، بیش از 35 درس honors، و 4 واحد الزامی مطالعات کتاب‌مقدس. در اینجا به‌صورت 129 مدخل نشان داده شده است: توالی‌های فرانسوی، لاتین و اسپانیایی و Yearbook هر یک یک سطر مشترک دارند. فهرست 22 عنوان AP نشان می‌دهد، زیرا راهنما AP Spanish Literature را نیز توصیف می‌کند.",
+      "of": "87a453b0",
       "at": [
         "charlotte-christian:divisions[2].teaser"
       ]
@@ -7645,23 +7790,6 @@
       "of": "6b124f9d",
       "at": [
         "charlotte-christian:divisions[2].departments[0].courses[4].title"
-      ]
-    },
-    {
-      "t": "Gr 12",
-      "of": "738fc5f7",
-      "at": [
-        "charlotte-christian:divisions[2].departments[0].courses[4].tag",
-        "charlotte-christian:divisions[2].departments[1].courses[6].tag",
-        "charlotte-country-day:divisions[2].departments[0].courses[7].tag",
-        "cannon:divisions[2].departments[0].courses[6].tag",
-        "cannon:divisions[2].departments[1].courses[11].tag",
-        "cannon:divisions[2].departments[6].courses[5].tag",
-        "cannon:divisions[2].departments[6].courses[6].tag",
-        "davidson-day:divisions[2].departments[8].courses[6].tag",
-        "hickory-grove-christian:divisions[0].departments[0].courses[8].tag",
-        "hickory-grove-christian:divisions[0].departments[6].courses[3].tag",
-        "hickory-grove-christian:divisions[0].departments[11].courses[11].tag"
       ]
     },
     {
@@ -12133,6 +12261,14 @@
       ]
     },
     {
+      "t": "2025-26",
+      "of": "fe38e73d",
+      "at": [
+        "charlotte-country-day:guideYear",
+        "gaston-day:guideYear"
+      ]
+    },
+    {
       "t": "10 حوزهٔ درسی — هم فرانسه و هم اسپانیایی از JK، یک Design Lab، و یک پروژهٔ پژوهشی پایانی با نمایشگاه در پایهٔ 4.",
       "of": "24301b41",
       "at": [
@@ -12732,8 +12868,8 @@
       ]
     },
     {
-      "t": "119 سطر درسی فهرست‌شده در 9 گروه آموزشی — 23 درس AP و 18 درس IB به‌علاوهٔ هستهٔ کامل دیپلم IB.",
-      "of": "a947efc3",
+      "t": "117 سطر درسی در 9 گروه آموزشی در فهرست راهنما — 23 درس AP و 18 درس IB به‌علاوهٔ هستهٔ کامل دیپلم IB. در اینجا به‌صورت 121 مدخل نشان داده شده است، از جمله پنج درس که راهنما توصیف می‌کند اما در فهرست خود نمی‌آورد.",
+      "of": "35c1ab48",
       "at": [
         "charlotte-country-day:divisions[2].teaser"
       ]
@@ -14682,8 +14818,8 @@
       ]
     },
     {
-      "t": "104 درس در 8 گروه آموزشی — 14 درس AP به‌علاوهٔ 13 درس Advanced Topics طراحی‌شده توسط هیئت علمی، که هر یک با یک Signature Learning Experience یا یک آزمون پایانی جامع به اوج می‌رسد.",
-      "of": "a56b67f0",
+      "t": "104 درس در 8 گروه آموزشی — 14 درس AP به‌علاوهٔ 13 درس Advanced Topics طراحی‌شده توسط هیئت علمی، که هر یک با یک Signature Learning Experience یا یک آزمون پایانی جامع به اوج می‌رسد. در اینجا به‌صورت 101 مدخل نشان داده شده است: String Ensemble I–IV یک سطر مشترک دارند.",
+      "of": "cd350c84",
       "at": [
         "cannon:divisions[2].teaser"
       ]
@@ -18183,8 +18319,8 @@
       ]
     },
     {
-      "t": "حدود 75 درس فهرست‌شده در 9 گروه آموزشی — 26 درس AP، درس Calculus III پس از AP، و سه مسیر Diploma Distinction.",
-      "of": "4f147650",
+      "t": "86 درس فهرست‌شده در 9 گروه آموزشی — 26 درس AP، درس Calculus III پس از AP، و سه مسیر Diploma Distinction. در اینجا به‌صورت 87 مدخل نشان داده شده است، با افزودن برنامهٔ کار میدانی AFAR International Research.",
+      "of": "ff7a3d2e",
       "at": [
         "davidson-day:divisions[2].teaser"
       ]
@@ -19227,8 +19363,8 @@
       ]
     },
     {
-      "t": "77 عنوان درس در سرتاسر 9 دپارتمان — از جمله 16 دورهٔ Advanced Placement — برگرفته از فهرست درس‌های سال 2026-27 مدرسه و الزامات فارغ‌التحصیلی.",
-      "of": "b6302f41",
+      "t": "96 مدخل درسی (77 عنوان متمایز) در سرتاسر 9 دپارتمان — از جمله 16 دورهٔ Advanced Placement — برگرفته از فهرست درس‌های سال 2026-27 مدرسه و الزامات فارغ‌التحصیلی.",
+      "of": "ca732103",
       "at": [
         "carmel-christian:divisions[0].teaser"
       ]
@@ -22718,13 +22854,6 @@
       ]
     },
     {
-      "t": "تئاتر موزیکال",
-      "of": "0a9bd0ea",
-      "at": [
-        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
-      ]
-    },
-    {
       "t": "آشنایی‌ای که به نوبت رقص، آواز و بازیگری را در بر می‌گیرد، با اجرای یک یا دو آهنگ در پایان.",
       "of": "b1e8b869",
       "at": [
@@ -24023,15 +24152,15 @@
       ]
     },
     {
-      "t": "Pre-Primary",
-      "of": "c7945bb5",
+      "t": "کودکان کوچک‌تر",
+      "of": "0fa8351f",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[0].title"
       ]
     },
     {
-      "t": "سن 2",
-      "of": "b71ec8d2",
+      "t": "سنین 2–3",
+      "of": "48bbb245",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[0].tag"
       ]
@@ -24044,8 +24173,8 @@
       ]
     },
     {
-      "t": "Primary",
-      "of": "c7827f79",
+      "t": "دانش‌آموزان Primary",
+      "of": "7a88eceb",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[1].title"
       ]
@@ -24065,8 +24194,8 @@
       ]
     },
     {
-      "t": "Transitional K و Montessori K",
-      "of": "dd5c87e8",
+      "t": "دانش‌آموزان بزرگ‌تر",
+      "of": "d9ff5bf3",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[2].title"
       ]

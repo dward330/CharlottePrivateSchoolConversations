@@ -53,8 +53,8 @@
 soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor —
 soccer changed hands after 2024–25 (Laatsch → Letourneau).
 
-Win %: boys basketball **30–1 (.968)** at the 2019–20 peak · volleyball 111–33–2 (.771) over
-five seasons · boys soccer 63–15–1 (.797) over four title-era seasons · boys basketball
+Win %: boys basketball **30–1 (.968)** at the 2019–20 peak · volleyball 111–33–2 (.767, ties counted half; corrected 2026-11-20 from .771) over
+five seasons · boys soccer 63–15–1 (.804, ties counted half; corrected 2026-11-20 from .797) over four title-era seasons · boys basketball
 69–31 (.690) over the last three.
 https://www.maxpreps.com/nc/davidson/davidson-day-patriots/basketball/history/
 

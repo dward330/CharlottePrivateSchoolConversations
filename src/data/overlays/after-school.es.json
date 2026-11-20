@@ -1152,8 +1152,8 @@
       ]
     },
     {
-      "t": "El precio es casi perfectamente lineal: la tarifa de N días es exactamente N veces la de 1 día, sin descuento por volumen — salvo en una fila que parece romper el patrón.",
-      "of": "a67ae8cf",
+      "t": "El precio es casi perfectamente lineal: la tarifa de N días es exactamente N veces la de 1 día, sin descuento por volumen — salvo en dos filas que lo rompen.",
+      "of": "22b47af7",
       "at": [
         "charlotte-latin:cost.subhead"
       ]
@@ -1326,8 +1326,8 @@
       ]
     },
     {
-      "t": "**La fila de TK/K de 1:30–4:30 no cuadra.** Todas las demás filas son exactamente lineales, pero esta cobra 4 días a $2,300 y 5 días a $2,540, donde lo lineal daría $2,540 y $3,175 — de modo que cinco días cuestan lo que deberían costar cuatro. O es un descuento por volumen no anunciado en el tramo más popular, o es un error de publicación, y es una diferencia de $635 por semestre. Los mismos dos valores aparecieron en una investigación anterior, lo que inclina la balanza hacia \"real\".",
-      "of": "827224d6",
+      "t": "**La fila de TK/K de 1:30–4:30 no cuadra.** Todas las demás filas son exactamente lineales, pero esta cobra 4 días a $2,300 y 5 días a $2,540, donde lo lineal daría $2,540 y $3,175 — de modo que cinco días cuestan lo que deberían costar cuatro. O es un descuento por volumen no anunciado en el tramo más popular, o es un error de publicación, y es una diferencia de $635 por semestre. Los mismos dos valores aparecieron en una investigación anterior, lo que inclina la balanza hacia \"real\". La fila de los grados 1–5 de 2:55–4:30 también lo rompe: revisada en directo el 2026-11-20 (plan consistency LAT-3), cobra 4 días a $1,880 frente a $1,475 por 5 días, donde lo lineal daría $1,180, así que cuatro días cuestan más que cinco. El registro de julio decía $1,180; no se sabe si la página ha cambiado desde entonces.",
+      "of": "26a4f94e",
       "at": [
         "charlotte-latin:cost.flags[0].text"
       ]
@@ -1883,8 +1883,8 @@
       ]
     },
     {
-      "t": "**El sitio se contradice a sí mismo en las horas de salida**, y una fila de precios rompe el patrón que siguen todas las demás.",
-      "of": "dbdbc275",
+      "t": "**El sitio se contradice a sí mismo en las horas de salida**, y dos filas de precios rompen el patrón que siguen todas las demás.",
+      "of": "461af1a1",
       "at": [
         "charlotte-latin:verdict.watchouts[7]"
       ]
@@ -1904,8 +1904,8 @@
       ]
     },
     {
-      "t": "Por favor confirmen las tarifas de TK/K de 1:30–4:30: ¿de verdad cinco días cuestan $2,540 y cuatro días $2,300? Esas cifras rompen el patrón de todas las demás filas.",
-      "of": "d409864e",
+      "t": "Por favor confirmen dos filas de precios. Para TK/K de 1:30–4:30, ¿de verdad cinco días cuestan $2,540 y cuatro días $2,300? Para los grados 1–5 de 2:55–4:30, ¿de verdad cuatro días cuestan $1,880, más que los $1,475 de cinco?",
+      "of": "301f7b5a",
       "at": [
         "charlotte-latin:verdict.checklist[2]"
       ]
@@ -2540,8 +2540,8 @@
       ]
     },
     {
-      "t": "**Una oferta amplia de verano** — alrededor de 100 campamentos distintos a lo largo de seis semanas, de JK a 12.º, incluida una intervención de alfabetización Orton-Gillingham.",
-      "of": "0d3dc91a",
+      "t": "**Una oferta amplia de verano** — 96 campamentos distintos a lo largo de seis semanas, de JK a 12.º, incluida una intervención de alfabetización Orton-Gillingham.",
+      "of": "5f4269d2",
       "at": [
         "charlotte-christian:verdict.strengths[6]"
       ]
@@ -3093,8 +3093,8 @@
       ]
     },
     {
-      "t": "No se publica ningún descuento por hermanos para Extended Day, ni existe ninguna política de ayuda financiera para Extended Day. Se factura como **cargo accesorio**, lo que lo deja fuera de la ayuda a la matrícula, aunque alrededor del 30% de los estudiantes reciban ayuda. Los programas de verano, en cambio, sí tienen su propia solicitud de ayuda.",
-      "of": "f37dd93e",
+      "t": "No se publica ningún descuento por hermanos para Extended Day, ni existe ninguna política de ayuda financiera para Extended Day. Se factura como **cargo accesorio**, lo que lo deja fuera de la ayuda a la matrícula, aunque alrededor del 20% de los estudiantes (341) reciban ayuda. Los programas de verano, en cambio, sí tienen su propia solicitud de ayuda.",
+      "of": "ee4a34f0",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ]
@@ -3382,8 +3382,8 @@
       ]
     },
     {
-      "t": "**Extended Day parece quedar fuera de la ayuda financiera.** Se factura como cargo accesorio sin ninguna política de ayuda publicada, aunque alrededor del 30% de los estudiantes recibe ayuda para la matrícula. Los programas de verano, en cambio, sí tienen su propia solicitud de ayuda.",
-      "of": "eb348793",
+      "t": "**Extended Day parece quedar fuera de la ayuda financiera.** Se factura como cargo accesorio sin ninguna política de ayuda publicada, aunque alrededor del 20% de los estudiantes (341) recibe ayuda para la matrícula. Los programas de verano, en cambio, sí tienen su propia solicitud de ayuda.",
+      "of": "008fec7d",
       "at": [
         "charlotte-country-day:verdict.watchouts[2]"
       ]
@@ -3697,8 +3697,8 @@
       ]
     },
     {
-      "t": "El acceso libre cuesta **$11.50 la hora** sin ningún compromiso. Una familia que necesite dos tardes al mes paga alrededor de **$100 al año** en lugar de $1,904 — una opción inusualmente benévola para el uso ocasional.",
-      "of": "4f33ab3b",
+      "t": "El acceso libre cuesta **$11.50 la hora** sin ningún compromiso. Dos tardes al mes salen por unos **$69 al mes** con la tarifa por hora, frente a $1,904 al año de un contrato de dos días — una opción inusualmente benévola para el uso ocasional.",
+      "of": "c481445b",
       "at": [
         "cannon:cost.aside.text"
       ]
@@ -4178,8 +4178,8 @@
       ]
     },
     {
-      "t": "**Acceso libre real a $11.50 la hora sin contrato.** Una familia que necesite dos tardes al mes paga unos $100 al año en lugar de comprometerse a $1,904. Para un uso ocasional, resulta inusualmente benévolo.",
-      "of": "d4e28caf",
+      "t": "**Acceso libre real a $11.50 la hora sin contrato.** Dos tardes al mes salen por unos $69 al mes con la tarifa por hora, frente a $1,904 al año de un contrato de dos días. Para un uso ocasional, resulta inusualmente benévolo.",
+      "of": "03038aa4",
       "at": [
         "cannon:verdict.strengths[2]"
       ]
@@ -5646,8 +5646,8 @@
       ]
     },
     {
-      "t": "Ambos son programas de curso completo (sin acceso suelto por días), facturados anualmente en pagos iguales. La tarifa periódica no se publica, por lo que no se muestra ningún precio en las barras.",
-      "of": "e116964b",
+      "t": "Ambos son programas de curso completo (sin acceso suelto por días), facturados anualmente en pagos iguales. La página de matrícula fija el cuidado extraescolar en $2,600 al año para TK–5 y $1,300 para los grados 6–12; la página de Afterschool describe Study Hall para los grados 6–11.",
+      "of": "20f04c6f",
       "at": [
         "hickory-grove-christian:coverage.subhead"
       ]
@@ -5661,15 +5661,15 @@
       ]
     },
     {
-      "t": "Afterschool · tarifa no publicada",
-      "of": "b7f3775d",
+      "t": "Afterschool · $2,600 al año",
+      "of": "602867bc",
       "at": [
         "hickory-grove-christian:coverage.rows[0].flatLabel"
       ]
     },
     {
-      "t": "Study Hall · tarifa no publicada",
-      "of": "42f7c67d",
+      "t": "Study Hall · $1,300 al año (línea de tarifa: grados 6–12)",
+      "of": "b58d787d",
       "at": [
         "hickory-grove-christian:coverage.rows[1].flatLabel"
       ]
@@ -5731,8 +5731,8 @@
       ]
     },
     {
-      "t": "La tarifa mensual o anual periódica del programa Afterschool de TK–5 no se publica ni en la página del programa Afterschool ni en la de Tuition and Fees. Los importes están en los documentos de “student services fees” del colegio o en el FACTS Family Portal. Por eso esta página no tiene un planificador de costes para ello, y la fila de Compare del coste del cuidado extraescolar figura como N/A para HGCS.",
-      "of": "fbab5a4a",
+      "t": "Los grados difieren entre dos páginas del colegio (plan consistency HG-16, revisado en directo el 2026-11-20): la página de Tuition and Fees dice \"6th-12th Grade After School Childcare: $1,300; yearly\"; la página de Afterschool describe Study Hall \"for students in grades 6–11\". Ambas se atribuyen en la tarjeta, y la lista de preguntas lo plantea. La antigua URL /life-as-a-lion/after-school-program ahora da 404 y /admissions/tuition-and-fees redirige a la página principal de admisiones; ambos enlaces se han actualizado.",
+      "of": "b5ccbc26",
       "at": [
         "hickory-grove-christian:coverage.flags[0].text"
       ]
@@ -5899,15 +5899,15 @@
       ]
     },
     {
-      "t": "Un único programa de tarde dividido por edades que cubre todo el colegio hasta las 5:30 p.m. — con actividades plenamente publicadas, pero sin precio publicado y sin cobertura en verano.",
-      "of": "5ffaf4ac",
+      "t": "Un único programa de tarde dividido por edades que cubre todo el colegio hasta las 5:30 p.m. — con actividades y precios anuales publicados, pero sin cobertura en verano.",
+      "of": "12d560ff",
       "at": [
         "hickory-grove-christian:verdict.headline"
       ]
     },
     {
-      "t": "Las cuestiones abiertas son la tarifa periódica no publicada, la proporción de personal ausente y el hecho de que ambas vías son compromisos de curso completo sin opción de acceso suelto.",
-      "of": "24a57b18",
+      "t": "Las cuestiones abiertas son la proporción de personal ausente, qué grados atiende Study Hall y el hecho de que ambas vías son compromisos de curso completo sin opción de acceso suelto.",
+      "of": "a205a98e",
       "at": [
         "hickory-grove-christian:verdict.subhead"
       ]
@@ -5941,8 +5941,8 @@
       ]
     },
     {
-      "t": "**El precio periódico no se publica**. Ni la página de Afterschool ni la de Tuition and Fees indican una tarifa mensual o anual. Las familias han de recurrir a los documentos de tarifas de servicios al estudiante o al portal FACTS.",
-      "of": "f8ce9c06",
+      "t": "**Solo precios anuales** — la página de Tuition and Fees indica $2,600 al año para TK–5 y $1,300 para los grados 6–12, facturados en pagos iguales. No se publica ninguna tarifa mensual ni por día.",
+      "of": "7dfac60c",
       "at": [
         "hickory-grove-christian:verdict.watchouts[0]"
       ]
@@ -5969,15 +5969,15 @@
       ]
     },
     {
-      "t": "¿Cuánto cuesta realmente al año el programa periódico Afterschool para TK–5, y qué planes de pago se ofrecen?",
-      "of": "64a49ce3",
+      "t": "¿Está Study Hall abierto a los alumnos de 12.º grado? La página de Afterschool dice grados 6–11, pero la línea de tarifa dice 6.º–12.º.",
+      "of": "9b52d8cd",
       "at": [
         "hickory-grove-christian:verdict.checklist[0]"
       ]
     },
     {
-      "t": "¿El Study Hall para los grados 6–11 cuesta lo mismo que el programa Afterschool de TK–5, o se factura por separado?",
-      "of": "7c753164",
+      "t": "¿Qué planes de pago se ofrecen para las tarifas anuales de $2,600 y $1,300?",
+      "of": "995fa890",
       "at": [
         "hickory-grove-christian:verdict.checklist[1]"
       ]
@@ -5997,8 +5997,8 @@
       ]
     },
     {
-      "t": "¿Cuáles son las “student services fees” que contienen la tarifa extraescolar, y dónde pueden consultarse antes de matricularse?",
-      "of": "fa2be9b7",
+      "t": "¿Hay otras “student services fees” además de la tarifa extraescolar, y dónde pueden consultarse antes de matricularse?",
+      "of": "4ef98c37",
       "at": [
         "hickory-grove-christian:verdict.checklist[4]"
       ]

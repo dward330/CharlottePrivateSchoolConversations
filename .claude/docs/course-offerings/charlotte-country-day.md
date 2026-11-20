@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Course Offerings
-> Distilled from 2 source document(s) in `source-material/course-offerings/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-11.
+> Distilled from 2 source document(s) in `source-material/course-offerings/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Curriculum Guide Full Descriptions 2025-2026, Curriculum Guide
 
 
@@ -967,6 +967,25 @@ correct grain for this division. Each classroom has two full-time instructional 
  cite only S1/S2.
 9. **The School Profile is 2024-25**, one year behind the 2025-26 catalogue; its AP results are from
  2024 exams. No 2025-26 profile was found.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Re-downloaded S1 on 2026-11-20 (SHA-256
+`b777a4f809f4a527938cc1801f6c6c15575bf2df71b584b7244bee971382af0d`, identical to the census
+copy) and read the Total Index of Courses by Department (PDF page 9, printed "8") with
+`pdftotext -layout`, which keeps the three columns apart. Counting every course line, with
+sub-headings ("Full Year Courses:", "Science Research:", "Music Theory & Production Full Year",
+"Instrumental Music Semester Courses", etc.) excluded: English 9 · Mathematics 18 · Sciences 24
+· History & Social Studies 15 · Modern & Classical Languages 15 · Fine Arts 28 (AP Music Theory
+is printed twice, under Music and under AP/IB Art) · Technology & CS 3 · Non-Departmental 4 ·
+Physical Education 1 = **117 lines**. The 119 in Metrics above is reproduced only if two
+sub-headings ("Science Research:" and "Music Theory & Production Full Year") are counted as
+courses. The app's 121 Upper School rows = 117 − Podcasting (not offered 2025-26) − the
+duplicate AP Music Theory + 1 (Improvisation I and II as two rows) + 5 rows described in the
+guide but not in the index (Intermediate & Advanced ESL, Education for Social Justice, IB
+Digital Society, IB Extended Essay & CAS, Ultimate Frisbee).
 
 
 ---

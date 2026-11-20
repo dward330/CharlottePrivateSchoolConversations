@@ -363,22 +363,30 @@ export function CostBody({ data }: { data: Cost }) {
   const estimated = !data.columnsVerified[days - 1]
 
   const periodTotal = price == null ? null : price * data.periods
-  /* Per-afternoon divides the billing period into weeks — 4.33 weeks a month,
-     ~18 a semester, or ~36 across a school year — times the days per week
-     actually attended. */
+  /* Per-afternoon divides the billing period into weeks — 1 for a weekly rate,
+     4.33 weeks a month, ~18 a semester, or ~36 across a school year — times the
+     days per week actually attended. */
   const weeksPerPeriod =
-    data.basis === 'monthly' ? 4.33 : data.basis === 'semester' ? 18 : 36
+    data.basis === 'weekly'
+      ? 1
+      : data.basis === 'monthly'
+        ? 4.33
+        : data.basis === 'semester'
+          ? 18
+          : 36
   const perAfternoon =
     price == null ? null : Math.round(price / (weeksPerPeriod * days))
   /* The unit beside the headline figure, and whether a separate school-year line
      adds anything: an annual contract IS the school-year total, so repeating it
      would just print the same number twice. */
   const unitLabel = t(
-    data.basis === 'monthly'
-      ? 'afterSchool.unitMonth'
-      : data.basis === 'semester'
-        ? 'afterSchool.unitSemester'
-        : 'afterSchool.unitAnnual',
+    data.basis === 'weekly'
+      ? 'afterSchool.unitWeek'
+      : data.basis === 'monthly'
+        ? 'afterSchool.unitMonth'
+        : data.basis === 'semester'
+          ? 'afterSchool.unitSemester'
+          : 'afterSchool.unitAnnual',
   )
   const showPeriodTotal = data.basis !== 'annual'
 
@@ -437,11 +445,13 @@ export function CostBody({ data }: { data: Cost }) {
                   <th scope="col" className="as-th as-th-row">
                     {t('afterSchool.gradePickupSlot', {
                       basis: t(
-                        data.basis === 'monthly'
-                          ? 'afterSchool.basisMonthly'
-                          : data.basis === 'semester'
-                            ? 'afterSchool.basisSemester'
-                            : 'afterSchool.basisAnnual',
+                        data.basis === 'weekly'
+                          ? 'afterSchool.basisWeekly'
+                          : data.basis === 'monthly'
+                            ? 'afterSchool.basisMonthly'
+                            : data.basis === 'semester'
+                              ? 'afterSchool.basisSemester'
+                              : 'afterSchool.basisAnnual',
                       ),
                     })}
                   </th>

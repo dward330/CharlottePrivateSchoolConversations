@@ -805,3 +805,20 @@ From the news flyout present on the arts pages:
   2024-25 board were all verified (see 1a), but the money and the current officers were not.
 - The **Fab Lab's** concrete role in art-making. The single passing reference on the arts page
   is the only evidence; it otherwise sits under Innovation & Design.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20 with curl (HTTP 200): https://www.charlottelatin.org/the-arts/performing
+
+- Verbatim: "As a bridge to Middle and Upper School programs, band and stringed instruments are
+  introduced in Grade 5. Fourth and fifth grade students also present an age-appropriate musical
+  each year."
+- The page's program tabs, verbatim: "Lower School (TK-Grade 4) · Band (Grades 5-12) · Orchestra
+  (Grades 5-12) · Concert Choir (Grades 5-12) · Theater (Grades 7-12) · Backstage (Grades 6-12)".
+  Band and Orchestra are stated as **Grades 5-12** on this page, not the Grades 6-12 inferred above
+  from concert titles.
+- The school's division pages, fetched the same day: Lower School page title "Lower School | TK-5"
+  (https://www.charlottelatin.org/academics/lower-school); Middle School is "grades six, seven, and
+  eight" (https://www.charlottelatin.org/academics/middle-school).

@@ -8,7 +8,7 @@
 //
 // This is the largest slate of the five: 170 priced camp rows, 151 distinct camp
 // names, nine sessions, and sixteen distinct price points. The catalog below is
-// a SAMPLE — 60 of the 170 rows — chosen to cover every category and every price
+// a SAMPLE — 70 of the 170 rows — chosen to cover every category and every price
 // tier, and the card's intro says so rather than letting a truncated list read as
 // the whole slate.
 //
@@ -25,7 +25,7 @@ export const providenceDay: SummerProgram = {
     subhead:
       'Nine sessions run June 1 to July 31, 2026. Two of them are four-day weeks (no camps June 19 or July 3) and are priced down accordingly.',
     intro:
-      '**60 of the 170 published camp rows are listed below**, sampled across every category and every price tier. The full catalog is in the school’s 2026 brochure, linked in the sources. Grades shown are **rising** grades; (G) and (B) mark the camps the school lists as girls-only or boys-only.',
+      '**70 of the 170 published camp rows are listed below**, sampled across every category and every price tier. The full catalog is in the school’s 2026 brochure, linked in the sources. Grades shown are **rising** grades; (G) and (B) mark the camps the school lists as girls-only or boys-only.',
     categoryFilters: [
       { token: 'All', label: 'All' },
       { token: 'daycamp', label: 'Traditional day camp' },

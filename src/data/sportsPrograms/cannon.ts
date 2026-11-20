@@ -31,7 +31,7 @@ export const cannon: SportsProgram = {
     subhead:
       'Middle School teams begin in grade 7, and 8th-graders do reach varsity — an eighth-grader scored 12 points in the 2026 state final.',
     stats: [
-      { value: '21', label: 'varsity programs' },
+      { value: '20', label: 'varsity programs' },
       { value: '47', label: 'teams across V · JV · MS' },
       { value: '300+', label: 'student-athletes' },
       { value: 'NCISAA', label: '4A state · CISAA conference' },
@@ -225,16 +225,16 @@ export const cannon: SportsProgram = {
       {
         label: 'Committed to college athletics',
         hint: '(all divisions, documented)',
-        count: '23',
+        derive: 'all',
         width: 1,
         shade: 'pale',
         toVerify: true,
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '12', width: 0.52, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.52, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '4',
+        derive: 'p4',
         width: 0.17,
         shade: 'full',
       },
@@ -242,12 +242,12 @@ export const cannon: SportsProgram = {
     funnelNote:
       'Treat every figure on this card as a floor. Cannon publishes no "alumni at the next level" roster, so these names come from college rosters and recruiting services rather than from the school. This card counts collegiate athletes, with or without a scholarship. Hayes Galloway began classes at North Carolina a semester early and later joined Clemson as a preferred walk-on (promised a roster spot, without an athletic scholarship). Division III programs award no athletic scholarships.',
     sportBars: [
-      { sport: 'Boys Lacrosse', count: 8, width: 1, p4Width: 0.13 },
-      { sport: 'Boys Basketball', count: 5, width: 0.63, p4Width: 0.13 },
-      { sport: 'Girls Basketball', count: 3, width: 0.38 },
-      { sport: 'Football', count: 3, width: 0.38, p4Width: 0.13 },
-      { sport: 'Volleyball', count: 3, width: 0.38 },
-      { sport: 'Swimming', count: 1, width: 0.13, p4Width: 0.13 },
+      { sport: 'Boys Lacrosse', match: ['Boys Lacrosse'] },
+      { sport: 'Boys Basketball', match: ['Boys Basketball'] },
+      { sport: 'Girls Basketball', match: ['Girls Basketball'] },
+      { sport: 'Football', match: ['Football'] },
+      { sport: 'Volleyball', match: ['Volleyball'] },
+      { sport: 'Swimming', match: ['Swimming'] },
     ],
     realityCheck:
       'Lacrosse, not basketball, is Cannon’s deepest pipeline. Eight of the twenty-three commitments and five of the twelve Division I places come from one sport. Most of them come from a single class that won three straight titles. The four Power 4 commits are a swimmer to Notre Dame, an offensive lineman and a lacrosse attackman to North Carolina, and one basketball player to Miami. The flagship basketball program’s other placements in this window are East Carolina, two Division III colleges and a junior college. Title-winning programs and recruiting pipelines are not the same thing.',

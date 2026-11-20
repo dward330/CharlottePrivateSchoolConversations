@@ -63,15 +63,15 @@ const GRADE_BANDS = {
   'charlotte-christian': { msStart: 5, grades: { ...span('Early Ed (JK–K)', 'PK', 'K'), ...span('Lower (1–4)', 1, 4), ...span('Middle (5–8)', 5, 8), ...span('Upper (9–12)', 9, 12) } },
   'covenant-day': { msStart: 6, grades: { ...span('JK & K', 'PK', 'K'), ...span('Grades 1–5', 1, 5), ...span('Grades 6–8', 6, 8), ...span('Grades 9–12', 9, 12) } },
   'davidson-day': { msStart: 5, grades: { PK: 'Early Childhood', ...span('Lower (K–4)', 'K', 4), ...span('Middle (5–8)', 5, 8), ...span('Upper (9–12)', 9, 12) } },
-  'charlotte-latin': { msStart: 5, grades: { ...span('TK & Kindergarten', 'PK', 'K'), ...span('Grades 1–5', 1, 5), ...span('Grades 6–8', 6, 8), ...span('Grades 9–12', 9, 12) } },
-  'providence-day': { msStart: 5, grades: { PK: 'Transitional Kindergarten', K: 'Kindergarten', ...span('Grades 1–5', 1, 5), ...span('Grades 6–12', 6, 12) } },
+  'charlotte-latin': { msStart: 6, grades: { ...span('TK & Kindergarten', 'PK', 'K'), ...span('Grades 1–5', 1, 5), ...span('Grades 6–8', 6, 8), ...span('Grades 9–12', 9, 12) } },
+  'providence-day': { msStart: 6, grades: { PK: 'Transitional Kindergarten', K: 'Kindergarten', ...span('Grades 1–5', 1, 5), ...span('Grades 6–12', 6, 12) } },
   'carmel-christian': { msStart: 6, grades: { K: 'Kindergarten', ...span('Grades 1–5', 1, 5), ...span('Grades 6–8', 6, 8), ...span('Grades 9–12', 9, 12) } },
   'hickory-grove-christian': { msStart: 6, grades: { ...span('TK–5 (Elementary)', 'PK', 5), ...span('Grades 6–8 (Middle)', 6, 8), ...span('Grades 9–12 (High)', 9, 12) } },
   // Gaston Day's bands are the school's own all-in totals (tuition + fees); the
   // pre-K year uses the full-day rate, as the cell's tooltip says.
   'gaston-day': { msStart: 5, grades: { PK: 'Preschool/Pre-K full day', ...span('Kindergarten–4th', 'K', 4), ...span('5th–8th', 5, 8), ...span('9th–12th', 9, 12) } },
   // A 9–12 school: no Lower or Middle School, so four rows are null.
-  'charlotte-catholic': { msStart: null, grades: { ...span('High International', 9, 12) } },
+  'charlotte-catholic': { msStart: null, grades: { ...span('Community', 9, 12) } },
 }
 
 /** Reports whose own "full run" stat must equal a derived run. */

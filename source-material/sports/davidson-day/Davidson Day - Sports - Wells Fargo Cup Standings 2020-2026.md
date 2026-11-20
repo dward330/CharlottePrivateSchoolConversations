@@ -463,3 +463,9 @@ Listed on the published tables with a blank place and 0 points. These stay out o
 | Cristo Rey Research Triangle High School | 3A | 2024–25 |
 | Thales Academy - Rolesville | 3A | 2024–25 |
 | Salem Baptist | 2A | 2025–26 |
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched https://www.davidsonday.org/athletics/history-and-achievements (live). The school's list today, verbatim by sport: Boys Soccer "2022, 2023, 2024" · Girls Soccer "2011, 2012, 2013, 2023, 2024, 2025" · Boys Tennis "2023, 2024, 2025" · Volleyball "2016, 2019, 2023, 2024" · Boys Cross Country "2020, 2021, 2022, 2023". The page states "37 team state championships". So the disagreements recorded above (boys soccer 2022, boys cross country 2022, boys tennis 2026 missing) still stand on the live page.
