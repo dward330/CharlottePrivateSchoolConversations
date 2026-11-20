@@ -112,7 +112,7 @@ const CHARLOTTE_LATIN: ClubClusters = {
   rows: [
     {
       name: 'Speech & Debate',
-      oneLiner: "Top-20 NSDA program nationally; 5th in Public Forum at the '26 Nationals",
+      oneLiner: "Top-20 NSDA program nationally; 5th in Public Forum at the 2025 Nationals",
       evidence: 'verified',
       evidenceLabel: 'Verified — NSDA',
       note: 'A true national-level program, with outside evidence: the NSDA Debate Schools of Excellence Award (top 20 nationally), charter status, and 2025 membership in the 200 Club. Director Bilal Butt holds a second NSDA Diamond. Recent Nationals results: a 5th-place pair (Public Forum) · a 25th-place pair · a 33rd-place finish (World Schools) · an Academic All-American.',

@@ -377,7 +377,7 @@ export const charlotteLatin: SummerProgram = {
       },
       {
         name: 'Creative Coding',
-        desc: 'The most-repeated camp in the catalog — offered in five of the seven sessions.',
+        desc: 'One of the two most-repeated camps shown — offered in five of the seven sessions.',
         category: 'stem',
         categoryLabel: 'STEM',
         grades: ['a68'],

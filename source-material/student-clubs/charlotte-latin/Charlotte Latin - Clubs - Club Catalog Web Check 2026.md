@@ -40,3 +40,13 @@ https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/c
 Moines, IA … The team of Anisha Chandra ’26 and Divija Rao ’26 ranked in fifth place in the
 category of Public Forum Debate". That is the **June 2025** National Tournament; "'26" is the
 students' class year.
+
+### The five arts and writing clubs (plan `consistency` LAT-9, 2026-11-20)
+
+Verbatim from the same page, re-fetched 2026-11-20 (HTTP 200, 73,793 bytes). Not added to the app's catalog: the count leaves out arts and writing clubs, as Providence Day's does, and the card now says so (22 of the 27 listed, plus 3 groups listed separately = 25).
+
+- **Acapella Club:** "To have fun informally exploring this style of music. No previous experience required."
+- **Blue Review:** "To produce the Charlotte Latin literary journal."
+- **Creative Writing Club:** "To provide students with creative writing workshops and opportunities for readings, competition, and publication."
+- **Improv Club:** "To provide students with an outlet for their creativity out of the confines of the classroom and/or in addition to their participation in theater department productions."
+- **International Thespian Society:** "To honor excellence in high school theater; a part of the Educational Theatre Association."

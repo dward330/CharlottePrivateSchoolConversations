@@ -218,6 +218,10 @@ const ALIAS: Record<string, string> = {
   'univ of california berkeley': 'University of California (Berkeley)',
   'univ of california los angeles': 'University of California (Los Angeles)',
   'univ of colorado': 'University of Colorado Boulder',
+  // Five schools print the bare "University of Texas". Every list already ranks
+  // it as UT Austin (National #34) and links utexas.edu, so it is the flagship
+  // for membership too (user ruling 2026-11-20, plan `consistency` LAT-2).
+  'univ of texas': 'The University of Texas at Austin',
 
   // HBCU — spelling variants and ampersand/expansion forms.
   'north carolina a & t state univ': 'North Carolina A&T State University',

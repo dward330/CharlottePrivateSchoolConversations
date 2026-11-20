@@ -1733,7 +1733,7 @@ const CHARLOTTE_LATIN: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '122 courses across 13 departments — 23 AP courses, Greek as a second language, and an MIT-network Fab Lab.',
+        '122 courses across 13 departments — 23 AP courses on the school’s course-offerings page, Greek as a second language, and an MIT-network Fab Lab. Shown here as 105 entries: sequences such as French I–V share a row, Drama and Music share a tab, and Online Courses lists no course.',
       source: 'Charlotte Latin Upper School course offerings',
       sourceUrl: 'https://www.charlottelatin.org/academics/upper-school/course-offerings',
       departments: [

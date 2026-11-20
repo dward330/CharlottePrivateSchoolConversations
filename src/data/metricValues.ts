@@ -177,7 +177,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '~135', // ~135 unique titles; 6 are cross-listed in two departments
       'charlotte-catholic': '199', // counted from the 2026-2027 Curriculum Guide by course HEADER — 196 coded headers + 3 CPCC dual-enrollment (Academic Skills 508/509 and AP Micro & Macro 953/954 are one header each); prior-year guide had 183
       'charlotte-country-day': '119', // line-by-line count of the Total Index of Courses by Department (p.8)
-      'charlotte-latin': '129', // counted from the live Upper School course-offerings page
+      'charlotte-latin': '122', // 136 live posts on the Upper School course-offerings page minus 14 department intros (re-counted 2026-11-20)
       'covenant-day': '90', // level-qualified entries across the 9 /academics/high-school department tiles
       'carmel-christian': '~78', // HS catalog across 9 depts (S2/S3/S4); levels counted separately
       'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
@@ -232,7 +232,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '21 AP', // the guide's own AP roster, corroborated by the admissions FAQ
       'charlotte-catholic': '26 AP', // 26 AP + 43 Honors + 18 Advanced = 87 advanced entries, counted from the 2026-2027 guide; AP entry is competitive and requires a per-course application
       'charlotte-country-day': '23 AP + 18 IB', // plus the IB core (Theory of Knowledge, Extended Essay, CAS)
-      'charlotte-latin': '22 AP subjects', // the school's stated figure; 23 AP-titled entries appear on the course page
+      'charlotte-latin': '24 AP subjects', // the 2026–27 Upper School Profile; the course-offerings page lists 23 AP courses
       'covenant-day': '17 AP', // AP-tagged courses on the /academics/high-school department tiles; the 2026-27 Profile matrix listed 15
       'carmel-christian': '16', // 16 AP courses (landing page; profile says 15, +AP World History → 16)
       'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
@@ -256,7 +256,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-latin': {
         kind: 'scope',
-        text: '22 is the school’s own stated figure; 23 AP-titled entries actually appear on the course-offerings page. The 2026–27 Upper School Profile says AP is offered in 24 subjects.',
+        text: '24 is the school’s figure in its 2026–27 profile; the course-offerings page lists 23 AP courses.',
       },
       'covenant-day': {
         kind: 'scope',
@@ -715,17 +715,17 @@ export const VALUE_METRICS: ValueMetric[] = [
     compareAs: 'fraction',
     subs: ACCEPTANCE_WINDOWS,
     values: {
-      cannon: '61 / 68', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '54 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      cannon: '62 / 68', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '55 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '43 / 68', // against the 68-member Power Four roster in _shared/; 44 list rows carry the tag but the two Arizona State campuses are one institution
-      'charlotte-country-day': '63 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
-      'charlotte-latin': '61 / 68', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'charlotte-country-day': '64 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '62 / 68', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '46 / 68', // ACC 14 · SEC 12 · Big Ten 11 · Big 12 9 (worked in the dossier)
       'carmel-christian': '44 / 68', // distinct Power Four members in the cats list (45 rows, but Alabama appears twice — bare and as Tuscaloosa — and the list deliberately preserves the school's verbatim duplicates)
       'davidson-day': '47 / 68', // buckets, collegeSupportPrograms/davidson-day.ts
       'hickory-grove-christian': '28 / 68', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists; UConn excluded — Big East)
       'gaston-day': '43 / 68', // against the 68-member Power Four roster in _shared/
-      'providence-day': '65 / 68', // buckets, collegeSupportPrograms/providence-day.ts
+      'providence-day': '66 / 68', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
       'charlotte-catholic': {
@@ -737,13 +737,13 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: '43 of the 68 Power Four member institutions appear somewhere on the 2019–2025 acceptance list. Counted against the 68-member roster (which includes Notre Dame), not the 67 football-playing members.',
       },
-      cannon: { kind: 'scope', text: '61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-christian': { kind: 'scope', text: '54 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Christian’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '63 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-latin': { kind: 'scope', text: '61 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      cannon: { kind: 'scope', text: '62 of the 68 Power Four universities appear on Cannon’s published acceptance list. The Power Four are the ACC, Big Ten, Big 12 and SEC, plus Notre Dame. Matched against the 2027 U.S. News tables; not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '55 of the 68 Power Four universities appear on Charlotte Christian’s published 2023–25 and 2024–26 acceptance lists. The Power Four are the ACC, Big Ten, Big 12 and SEC, plus Notre Dame. Matched against the 2027 U.S. News tables; not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '64 of the 68 Power Four universities appear on Charlotte Country Day’s published acceptance list. The Power Four are the ACC, Big Ten, Big 12 and SEC, plus Notre Dame. Matched against the 2027 U.S. News tables; not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '62 of the 68 Power Four universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists. The Power Four are the ACC, Big Ten, Big 12 and SEC, plus Notre Dame. Matched against the 2027 U.S. News tables; not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '46 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Covenant Day’s published 2023–2026 acceptance list — 14 ACC, 12 SEC, 11 Big Ten, 9 Big 12. Not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '47 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'providence-day': { kind: 'scope', text: '65 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '66 of the 68 Power Four universities appear on Providence Day’s published acceptance list. The Power Four are the ACC, Big Ten, Big 12 and SEC, plus Notre Dame. Matched against the 2027 U.S. News tables; not a figure the school reports itself.' },
       'carmel-christian': {
         kind: 'scope',
         text: 'Power Four members (of 68, including Notre Dame) named on the cumulative acceptance list. The list states no year window and marks no matriculations.',
@@ -1708,7 +1708,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '23', // 23 named US orgs (part of 35 across JK–12)
       'charlotte-catholic': '76', // counted from the clubs directory's raw HTML — 6 categories: Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. The school profile's 'over 50' is a round prose figure
       'charlotte-country-day': '~45–50', // school publishes a range; only 7 confirmed by name
-      'charlotte-latin': '25', // exact, in-scope US clubs across six interest areas
+      'charlotte-latin': '25', // 22 of the 27 listed US clubs (5 arts/writing clubs excluded, as at PD) + 3 groups listed separately
       'covenant-day': '≥10', // school-named Upper School groups only (user, 2026-11-10, plan plainclubs): 5 clubs/teams + 5 honor societies; the third-party roster was removed
       'carmel-christian': '~5', // standing HS bodies: NHS, Beta, Spanish Honor Society, Student Council, Timothy Project
       'davidson-day': '≥3', // school-named Upper School groups only (user, 2026-11-10, plan plainclubs); the 9 PrivateSchoolReview clubs were removed
@@ -1746,7 +1746,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'official',
         text: 'Taken from the school’s official 2025–26 Upper School club list, with 5 arts clubs excluded for a clean count — the deepest slate in the set.',
       },
-      // charlotte-latin deliberately absent — exact in-scope count, no caveat
+      'charlotte-latin': {
+        kind: 'scope',
+        text: '22 of the 27 clubs on the school’s list, plus three groups it lists separately: the Service Council, Blessings in a Backpack and Student Council. The five arts and writing clubs are left out, as in Providence Day’s count.',
+      },
       'carmel-christian': {
         kind: 'minimum',
         text: 'The high school’s standing student groups: National Honor Society, National Beta Club, Spanish Honor Society, Student Council and the Timothy Project. Other clubs are started by students, who apply to form them, so no fixed list is published.',

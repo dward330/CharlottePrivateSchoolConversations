@@ -258,7 +258,7 @@ for (const slug of HS_SLUGS) {
   if (compare != null && n !== leadInt(compare))
     add('R4', slug, `teaser says ${n} courses; Compare us-courses says ${compare}`)
   if (n !== rowsN) {
-    const shown = teaser.match(/shown here as ([\d,]+) entries/)
+    const shown = teaser.match(/shown here as ([\d,]+) entries/i)
     if (!shown) add('R4', slug, `teaser says ${n} courses but the list renders ${rowsN} rows, and the teaser does not say "shown here as ${rowsN} entries"`)
     else if (Number(shown[1].replace(/,/g, '')) !== rowsN)
       add('R4', slug, `teaser says "shown here as ${shown[1]} entries"; the list renders ${rowsN}`)

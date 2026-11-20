@@ -40,7 +40,7 @@ export const charlotteLatin: SportsProgram = {
     seasons: [
       {
         name: 'Fall',
-        note: '8 varsity',
+        note: '9 varsity',
         sports: [
           { name: 'Football', levels: ['V', 'JV', 'MS'] },
           { name: 'Volleyball (Girls)', levels: ['V', 'JV', 'MS'] },
@@ -154,8 +154,11 @@ export const charlotteLatin: SportsProgram = {
         program: 'Boys Swimming',
         cells: [
           { result: 'STATE', record: '462 pts' },
-          { result: 'NONE', record: '2nd place' },
-          { result: 'NONE', record: '2nd place' },
+          // NCISAA 2025 D1 men: 1 Ravenscroft 339 · 2 Charlotte Latin 336
+          // (https://admin.ncisaa.org/uploads/SWIMMING/2025/division%201%20scores.pdf)
+          { result: 'RUNNER-UP', record: '336 pts' },
+          // The NCISAA 2025–26 archive posts no result yet (re-checked 2026-11-20).
+          { result: 'NONE', toVerify: true },
         ],
         note: 'Set four records winning the 2024 D1 meet',
       },

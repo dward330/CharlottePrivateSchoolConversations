@@ -79,7 +79,7 @@ export type ClubCatalog = {
 // enrichment-based). Category counts: svc·7, comp·5, lead·4, spec·4, aff·3, cult·2.
 const CHARLOTTE_LATIN: ClubCatalog = {
   verdict:
-    '25 Upper School clubs across six interest areas; the younger divisions run differently by design.',
+    '25 Upper School clubs across six interest areas. They are 22 of the 27 on the school’s club list, leaving out its five arts and writing clubs, plus three groups it lists separately. The younger divisions run differently by design.',
   verdictHint: 'Filter by interest; every club keeps its one-line purpose.',
   categories: [
     { key: 'svc', short: 'Service', full: 'Service' },

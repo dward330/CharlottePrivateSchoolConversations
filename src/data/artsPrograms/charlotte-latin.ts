@@ -50,19 +50,19 @@ export const charlotteLatin: ArtsProgram = {
     divisions: [
       {
         name: 'Lower School',
-        grades: 'TK–4/5',
+        grades: 'TK–5',
         items: [
           'Hands-on music classes (Experiential music) — rhythm, melody, genre through singing, dancing and playing',
           'Young actors develop through imaginative storytelling',
           'Visual art begins in transitional kindergarten',
           'Grandparents’ Day is the signature Lower School performance tradition',
-          'Band and stringed instruments introduced in Grade 5 as a bridge upward',
+          'Band and stringed instruments introduced in Grade 5 as a bridge upward (Grade 5 joins the Grades 5–12 ensembles)',
           'Grades 4–5 present an age-appropriate musical each year (2026-27: "Madagascar Kids")',
         ],
       },
       {
         name: 'Middle School',
-        grades: '5–8',
+        grades: '6–8',
         items: [
           'Band, orchestra, choir and theater are the foundation, with ensemble and solo performance',
           'Theater runs Grades 7–12 — but the backstage/technical course starts in Grade 6, a year earlier',
@@ -214,7 +214,7 @@ export const charlotteLatin: ArtsProgram = {
     tracks: [
       {
         label: 'Curricular — join by enrolling',
-        ensembles: ['Band (6–12)', 'Orchestra (6–12)', 'Concert Choir (5–12)', 'Community Chorale'],
+        ensembles: ['Band (5–12)', 'Orchestra (5–12)', 'Concert Choir (5–12)', 'Community Chorale'],
       },
       {
         // `ensembles` is in SKIP_KEYS as "proper noun — ensemble name", so
@@ -237,7 +237,7 @@ export const charlotteLatin: ArtsProgram = {
     ladder: [
       {
         label: 'Join an ensemble',
-        text: 'band, orchestra or choir from Grade 5 or 6, with six-plus concerts a year plus recitals, a community sing-along and Grandparents’ Day.',
+        text: 'band, orchestra or choir from Grade 5, with six-plus concerts a year plus recitals, a community sing-along and Grandparents’ Day.',
       },
       {
         label: 'Audition up',
