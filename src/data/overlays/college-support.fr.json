@@ -334,8 +334,8 @@
       ]
     },
     {
-      "t": "**French 8** est désigné post-AP, au sommet de séquences approfondies — French 6–7, German 6, Latin 5–6, Spanish 6–7 et Mandarin Chinese 6–7.",
-      "of": "6bfdcd0b",
+      "t": "Le profil 2026–27 désigne **French 8** comme post-AP, au sommet de séquences approfondies — French 6–7, German 6, Latin 5–6, Spanish 6–7 et Mandarin Chinese 6–7. Le Course of Study 2026–27 ne mentionne ni French 8 ni Latin 6.",
+      "of": "ce155145",
       "at": [
         "providence-day:transcript.depth[2].text"
       ]
@@ -431,6 +431,13 @@
       "of": "fbf0569c",
       "at": [
         "providence-day:transcript.flags[1].text"
+      ]
+    },
+    {
+      "t": "Plan consistency2 PD-R3 (B), 2026-11-20 : le profil 2026–27 en ligne indique « French 6, 7 (two versions), 8 (post-AP) » et « Latin 5, 6 » ; le US Course of Study 2026–27 en ligne compte 0 occurrence de French 8 ou de Latin 6 (il s’arrête à French 7 (Adv), AP French, Latin 5 (Adv), AP Latin). Les deux sont attribués ; la checklist pose la question.",
+      "of": "ebebe707",
+      "at": [
+        "providence-day:transcript.flags[2].text"
       ]
     },
     {
@@ -857,8 +864,8 @@
       ]
     },
     {
-      "t": "La promotion 2025 a été admise dans 249 universités, un record pour l’école, réparties sur 39 États, DC et 6 pays ; 100% des diplômés poursuivent dans un cursus universitaire de quatre ans. Ici, la liste de 383 établissements est évaluée au regard des paliers actuels du classement U.S. News.",
-      "of": "445932a4",
+      "t": "La promotion 2025 a été admise dans 249 universités, un record pour l’école, réparties sur 39 États, DC et 6 pays. Le profil indique que 100% des diplômés poursuivent dans un cursus universitaire de quatre ans, et pourtant sa liste 2023–2026 met en gras Central Piedmont Community College parmi les établissements où des diplômés se sont inscrits. Ici, la liste de 383 établissements est évaluée au regard des paliers actuels du classement U.S. News.",
+      "of": "cb2b8eec",
       "at": [
         "providence-day:outcomes.subhead"
       ]
@@ -1128,6 +1135,13 @@
       ]
     },
     {
+      "t": "Plan consistency2 PD-R4 (B), 2026-11-20 : le profil 2026–27 en ligne indique « 100% of our graduates attend four-year colleges or universities », et sa légende du gras (« enrolling one or more members of the Class of 2023–2026 ») met Central Piedmont Community College en gras (pdftohtml -xml). Les deux sont attribués dans le sous-titre ; la checklist demande quelle promotion le chiffre de 100% décrit.",
+      "of": "4a66fd0a",
+      "at": [
+        "providence-day:outcomes.flags[1].text"
+      ]
+    },
+    {
       "t": "Deux leviers agissent en même temps. L’élève construit un point fort marqué, que les universités peuvent vérifier, grâce à des programmes de diplôme pionniers à l’échelle nationale et à un stage obligatoire. Et l’Academic Profile publie tant d’informations qu’il se porte garant de l’élève.",
       "of": "11ac0029",
       "at": [
@@ -1184,8 +1198,8 @@
       ]
     },
     {
-      "t": "L’école a annoncé un Entrepreneurial Studies Diploma. Mais ses exigences de cours, son projet final et l’organisation de son stage ne sont pas publiés, et les questions sont renvoyées vers une adresse e-mail. Global Studies, à l’inverse, publie à la fois ses exigences et son nombre de 375 diplômés.",
-      "of": "5e00f5af",
+      "t": "Le Course of Study 2026–27 détaille les exigences de l’Entrepreneurial Studies Diploma : 5.5 crédits (Social or Global Entrepreneurship, AP Business with Personal Finance, 3.5 crédits d’options IDEAS et le projet de synthèse de dernière année). Il exige aussi un stage externe, deux expériences d’approfondissement et un plan d’affaires final défendu devant un jury. Le nombre d’élèves qui l’ont obtenu n’est pas publié. Global Studies, à l’inverse, publie son nombre de 375 diplômés.",
+      "of": "19c10779",
       "at": [
         "providence-day:edge.levers[0].note"
       ]
@@ -1706,8 +1720,8 @@
       ]
     },
     {
-      "t": "L’Entrepreneurial Studies Diploma est nouveau pour 2026 — qu’exige-t-il exactement, et combien d’élèves l’ont obtenu ?",
-      "of": "aa136a17",
+      "t": "Combien d’élèves sont inscrits à l’Entrepreneurial Studies Diploma, et quelqu’un l’a-t-il déjà obtenu ?",
+      "of": "3af4cf55",
       "at": [
         "providence-day:verdict.checklist[5]"
       ]
@@ -1717,6 +1731,20 @@
       "of": "63091b03",
       "at": [
         "providence-day:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "Votre profil 2026–27 mentionne French 8 et Latin 6, mais pas le Course of Study 2026–27. Ces cours sont-ils proposés cette année ?",
+      "of": "5072724f",
+      "at": [
+        "providence-day:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Votre profil indique que 100% des diplômés poursuivent dans un cursus universitaire de quatre ans, mais sa liste met en gras Central Piedmont Community College. Quelle promotion ce chiffre de 100% décrit-il ?",
+      "of": "d5323a8f",
+      "at": [
+        "providence-day:verdict.checklist[8]"
       ]
     },
     {
@@ -7670,8 +7698,8 @@
       ]
     },
     {
-      "t": "Une seule directrice dédiée au conseil universitaire — dans sa 23e année à l’école — pour 85 élèves de dernière année.",
-      "of": "2bb5afaf",
+      "t": "Une seule directrice dédiée au conseil universitaire — à l’école depuis 2003 — pour 85 élèves de dernière année.",
+      "of": "a44d55ec",
       "at": [
         "covenant-day:counseling.headline"
       ]
@@ -8401,8 +8429,8 @@
       ]
     },
     {
-      "t": "Une seule conseillère universitaire dédiée pour 85 élèves de dernière année — amortie par une directrice de 23 ans d’ancienneté jouissant d’une réputation NACCAP, mais un ratio sur lequel un parent devrait interroger directement.",
-      "of": "27e38dc0",
+      "t": "Une seule conseillère universitaire dédiée pour 85 élèves de dernière année — amortie par une directrice présente à Covenant Day depuis 2003 et jouissant d’une réputation NACCAP, mais un ratio sur lequel un parent devrait interroger directement.",
+      "of": "f157173b",
       "at": [
         "covenant-day:verdict.points[1].text"
       ]
@@ -9088,8 +9116,8 @@
       ]
     },
     {
-      "t": "**Recherche de terrain internationale AFAR** — de véritables fouilles archéologiques au Belize, en Espagne (2014), en Grèce (2017) et au Portugal (2018). Le profil de l’école date le chantier du Belize de 2009 ; sa page consacrée à la recherche fait remonter AFAR lui-même à 2006. Le chantier du Belize est mené avec le projet BVAR à Cahal Pech, sous permis du Belize Institute of Archaeology. L’historique du programme figure dans une revue à comité de lecture (*Heritage*, 2020). Les élèves publient et présentent leurs travaux lors de conférences dans le monde entier.",
-      "of": "5e5ee91c",
+      "t": "**Recherche de terrain internationale AFAR** — de véritables fouilles archéologiques. Le profil 2026–27 cite des chantiers en cours au Belize, en Espagne (2014), en Grèce (2017) et au Portugal (2018). La page Global Studies de l’école et son calendrier de voyages 2027 ne nomment que l’Espagne, le Portugal et le Belize. Le profil date le chantier du Belize de 2009 ; sa page consacrée à la recherche fait remonter AFAR lui-même à 2006. Le chantier du Belize est mené avec le projet BVAR à Cahal Pech, sous permis du Belize Institute of Archaeology. L’historique du programme figure dans une revue à comité de lecture (*Heritage*, 2020). Les élèves publient et présentent leurs travaux lors de conférences dans le monde entier.",
+      "of": "d3317c48",
       "at": [
         "davidson-day:edge.levers[0].items[0]"
       ]
@@ -9162,6 +9190,13 @@
       "of": "f532a90f",
       "at": [
         "davidson-day:edge.flags[0].text"
+      ]
+    },
+    {
+      "t": "Plan consistency2 DD-R2 (B), 2026-11-20 : le Profile 2026–27 présente la Grèce comme un chantier AFAR en cours (« Greece since 2017 ») ; la page Global Studies et le calendrier 2027 ne citent que l’Espagne, le Portugal et le Belize. Les deux sont attribués ici ; Global Exposure garde ses 3 pays comme calendrier actuel et porte la question.",
+      "of": "38014715",
+      "at": [
+        "davidson-day:edge.flags[1].text"
       ]
     },
     {

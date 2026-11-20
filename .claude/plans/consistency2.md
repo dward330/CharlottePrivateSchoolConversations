@@ -1,7 +1,7 @@
 ---
 name: consistency2
 title: Fix the residue of plan `consistency` — 13 partial fixes, 30 new findings, R8 bug, three new rules
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-20
 branch: fix/consistency2
@@ -428,3 +428,37 @@ data defaults before the build.
   (Tumble, Outdoor Adventure), Compare › After School (CC ≈$2,925/yr, the row note; Carmel's
   qual is a hover tip), and Compare › The Arts, where PD's Ceramics cell now reads YES · US.
   A fresh page dump ticks every ID (51 checks, 0 failures).
+
+### Phase 2 (nine prose locales), 2026-11-20
+
+Same branch, run in a fresh window after the user approved the English.
+
+- **Splice.** `i18n_splice_work.mjs` per locale: 15,552 kept, 85 added, 76 dropped. Ten topics
+  moved (admissions, high-school-placement and course-offerings did not). A by-stamp audit
+  against HEAD found 0 of 139,977 kept translations changed. No `src/locales/*.json` key
+  changed, and the twelve Phase 1 `src/content` edits needed no content-overlay work
+  (`check:live` gate 2 passes).
+- **Carry-over.** 7 units differed from their predecessor only in a figure (CCD 5 → 4 unpriced,
+  50% → 40%, PD 60% → 56%, CC ≈$3,250 → ≈$2,925, CCD 85 → 75 camp titles twice, Cannon
+  catalog 2025-26 → 2026–27). They kept their `t`, with each token substituted and the
+  replacement count asserted at 1 per locale.
+- **Translation.** 78 units per locale, 67 as minimal edits of a reviewed `t`. One agent per
+  locale worked in a private directory, and each locale was validated centrally for digits,
+  markdown, native digits and isolates, script share and length ratio before writing.
+- **Kept deliberately.** "Blumey Best Musical (2013)" stays English in bn, ht, te, fr, it and
+  hi, as their reviewed "Blumey Best Show" did. ar and fa keep the reviewed "ninth grade" word
+  in the CCD audition question; the ar agent had changed it to a digit, and that change was
+  reverted to the reviewed form. `check:digits` reports these 2 plus the "5th/6th" → "5/6"
+  grade labels in ar and hi (4 to review, all deliberate).
+- **Checks.** `check:live`, `check:runtime` (15,682 entries per locale), `check:chrome`,
+  `check:dates`, `check:moneytext`, `check:money`, `check:currency`, `check:bidi`,
+  `check:fa`, `check:hi` and `check:fr` all pass. `check:sepdrift` finds 0 drifted figures in
+  every locale. `check_figures.py` passes for all 10 topics × 9 locales, and `npm run build`
+  passes. `i18n:leaks` flags no new unit except the kept Blumey name and fr "8 sports", which
+  is correct French. `check_work_integrity.mjs` reports the usual post-splice 147 per locale
+  (the by-stamp audit above is the real check). `audit:daterender` (branch scope) is clean in
+  all nine locales, which clears the 5 dates Phase 1 left English.
+- **Browser (real Chrome).** In fa and ar, "4.7–4.8%", "5.1–5.3%" and ar "10–20" read
+  left-to-right; fa writes "10 تا 20", which reads right to left as Persian prose should.
+  hi and te show `$260 / $225` and `4.7–4.8%` with Western digits, and on Compare › After
+  School `≈$2,925/वर्ष` and `≈$2,925/సం`.
