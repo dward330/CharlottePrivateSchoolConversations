@@ -417,3 +417,14 @@ data defaults before the build.
   Every gate before it passed, and each gate after it was run on its own and passed:
   `check:chrome`, `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`,
   `check:news`, `check:photos`, `check:cardlink`.
+- **Browser audits** (default branch scope, 13 pages). `audit:moneyrender` passes.
+  `audit:mobile` first caught one card of this plan's own making: the CCD-9 sentence carried
+  the bare Fast Facts URL, an unbreakable token 1px too wide at 320px. The URL moved to the
+  card's sources list, and the re-run passes at 320/360/390. `audit:daterender` reports the
+  same 5 English dates in each of the nine locales, all in strings this phase changed (Latin
+  `26 Feb · 9 Apr` and its award-date detail, CCD's two camp descs and the summer band). All
+  are extracted fields (`when` is prose globally), so Phase 2 clears them.
+- Browser checks: PD Global Exposure tile, Latin and Covenant Sports Offered, CCD Summer
+  (Tumble, Outdoor Adventure), Compare › After School (CC ≈$2,925/yr, the row note; Carmel's
+  qual is a hover tip), and Compare › The Arts, where PD's Ceramics cell now reads YES · US.
+  A fresh page dump ticks every ID (51 checks, 0 failures).

@@ -318,10 +318,11 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     footnote:
-      'Stacy Utley teaches Upper School art. No visual arts or arts department chair is named publicly. The school cites recognition at: the Scholastic Art & Writing Awards, at both regional and national level · the National Congressional Art Competition · the Mint Museum Sculpture Exhibition · the Matthews Art Fest · the Rube Goldberg Competition. But specific years, student names and Gold/Silver Key counts are not published, so no number is given here. The school’s Fast Facts page (https://www.charlottecountryday.org/about/fast-facts) lists a National Art Honor Society chapter. Its service projects are not published. No dated 2025-26 exhibition schedule is available to the public.',
+      'Stacy Utley teaches Upper School art. No visual arts or arts department chair is named publicly. The school cites recognition at: the Scholastic Art & Writing Awards, at both regional and national level · the National Congressional Art Competition · the Mint Museum Sculpture Exhibition · the Matthews Art Fest · the Rube Goldberg Competition. But specific years, student names and Gold/Silver Key counts are not published, so no number is given here. The school’s Fast Facts page lists a National Art Honor Society chapter. Its service projects are not published. No dated 2025-26 exhibition schedule is available to the public.',
     sources: [
       { label: 'charlottecountryday.org — Visual Arts', url: CCD_VISUAL },
       { label: 'Arts', url: CCD_ARTS },
+      { label: 'Fast Facts (National Art Honor Society)', url: 'https://www.charlottecountryday.org/about/fast-facts' },
     ],
   },
 
