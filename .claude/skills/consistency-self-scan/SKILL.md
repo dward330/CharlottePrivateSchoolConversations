@@ -179,7 +179,15 @@ Agents return confident summaries, and their mistakes read the same as their fin
    is Part 1 material (REGRESSED), not new.
 3a. **Drop anything [`settled.md`](settled.md) lists**, whichever agent raised it and whatever
    it was called. Say how many were dropped and under which S-ID. Never put one in the
-   worklist, the approvals list or the decisions the user must make.
+   worklist, the approvals list or the decisions the user must make. **But check what the
+   entry covers:** a *these values* entry holds only while the page shows the values it
+   records. If an agent reports one "was settled as S<n>" with a moved value, confirm the move
+   in the dump and keep it as a new finding, with the S-ID beside it. A stale approval must
+   never hide a fresh problem.
+3b. **Collect new R8 "not a conflict" rows.** Every R8 group an agent triaged as not a conflict
+   and you confirmed goes in `findings.md` under "Settled candidates", with its numbers. The
+   round's plan adds them to `settled.md`'s R8 table. Leave out a group tied to a finding that is
+   still open.
 4. **Write the worklist folder** `.claude/plans/<name>-data/`:
    - each agent's file, copied as-is;
    - `r8.txt`, so the next rescan can diff it;
@@ -187,12 +195,14 @@ Agents return confident summaries, and their mistakes read the same as their fin
      Part 1 status counts per group, the merged new-findings table, a tally by category and
      school, the X rows, the approvals list (every UX-GATE and CHROME mark), the decisions the
      user must make (every B that needs an ask wording and every D), the rule candidates (below),
-     and every source-material file the agents touched.
+     the settled entries skipped and reopened (3a), the Settled candidates (3b), and every
+     source-material file the agents touched.
 
 **Rule candidates.** A class that recurs at three or more schools and can be checked from data
 alone is a candidate rule for `check:consistency` (R12 onwards). Name it, say what it would
 compare, and say what it would have caught. The plan decides whether to build it, and it must
-be calibrated to zero findings on `main` before it gates.
+be calibrated to zero findings on `main` before it gates. Never re-propose a rule that
+`settled.md` lists under "Rule candidates already turned down".
 
 ## Step 6 — Report, then hand off
 
@@ -219,17 +229,21 @@ B items were attributed, how chrome overrides and card-link aliases were handled
 `/plan` then hands off to `/implement` as usual.
 
 **When the user rules a finding is not a conflict, or is to be left for good,** append it to
-[`settled.md`](settled.md) in the same change, with the next S-ID: what not to report, why,
-who ruled and when, and what is still a finding. A ruling written only into one round's plan
+[`settled.md`](settled.md) in the same change, with the next S-ID: what it covers (a pattern,
+or the exact values and where they sit), what not to report, why, who ruled and when, and what
+is still a finding. Record the values verbatim: they are what lets a later scan tell the
+accepted conflict from a new one at the same spot. A ruling written only into one round's plan
 is lost two rounds later. A one-round D ("no change unless the school answers") does not
-belong there.
+belong there. Ask the planning `/plan` to carry these additions, the Settled candidates and any
+rule it turns down, so they land in the round's PR.
 
 ## Traps, each of which has already happened
 
 > **⚠️ A settled ruling comes back two rounds later.** A rescan inherits rulings only from the
 > previous round's plan. The Top-75 cap was ruled in PR #317 and re-raised in round 3 as LAT-S1,
 > worded as a new cross-school finding. [`settled.md`](settled.md) is the permanent list. Agents
-> read it, and Step 5 drops anything on it.
+> read it, and Step 5 drops anything on it, unless a *these values* entry's values have moved,
+> in which case it is a new finding.
 
 > **⚠️ A fix lands in one card and misses the second.** Round 2's biggest group was a card
 > saying a course or honor-society fact is "not published" while another card on the same page
