@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-11-20
 branch: feat/designsync
-prs: [503, 504]
+prs: [503, 504, 505]
 ---
 
 # Catch the Claude Design project up with the built app
@@ -539,6 +539,18 @@ pinned-header `<colgroup>`, is invisible). A fourth round added one chrome rule
 canvas through the page: Claude Design injects `html,body{background:transparent}`.
 The plan should have checked editability
 before the first write; it assumed a preview-correct file was enough.
+
+**Follow-up the same day: one file per page.** The user asked for the five split pages
+(Providence Day, Compare, Global Exposure, Sports, College Support) to be one page each,
+like the app. The first attempt kept the 40 KB cap and composed each page from a main
+file plus "piece" files mounted with Claude Design's `<dc-import>`. It rendered as one
+page, identical element for element to a one-file reference, but the user could not edit
+anything from the first imported section down: **the editor cannot edit imported
+markup.** The second attempt wrote Providence Day as one 80,941-byte file, and that worked:
+it verified byte for byte, and the user confirmed the whole page edits. So a `--format dc`
+capture is now always one file. The 40 KB figure is only the trimming threshold, so no
+page's content changed, and the capture warns above 81 KB, the largest write proven.
+The old `(2 of N)` files and the two trial pieces were deleted under a delete approval.
 
 **Not done, by design or out of scope.** Standalone Claude Design closes by 2026-12-14; the files' future after the move
 into Claude is outside this plan. Not made into a `/design-sync` skill (default: no).

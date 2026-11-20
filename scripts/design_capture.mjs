@@ -30,9 +30,12 @@
  *       --area, otherwise the whole app shell — trim it (see TRIMMING), and
  *       wrap it in the standard design-file skeleton. --extra appends cards
  *       captured from other schools, each labelled with its school. Writes
- *       "<name>.dc.html" and prints size + sha256. Over the cap, an --area
- *       capture splits at card boundaries into "<name> (k of N).dc.html";
- *       any other capture exits 1. --drop removes matching elements from the
+ *       "<name>.dc.html" and prints size + sha256. A --format dc page is always
+ *       ONE file, however large: Claude Design's editor cannot edit markup
+ *       pulled in from another file, so a split page is read-only below the
+ *       split. Over 81 KB (the largest write proven) it warns and exits 1.
+ *       With --format plain, over the cap, a capture splits at card / section /
+ *       row-group boundaries into "<name> (k of N).dc.html". --drop removes matching elements from the
  *       capture first (the Shared Components file drops the research sections).
  *
  *   --screens <url> --name <n> --out <dir> [--area <slug>] [--cards closed|open]
@@ -79,6 +82,11 @@ const OUT = val('--out', null)
 const HEADLESS = has('--headless')
 const CSS_CHUNK_MAX = 38 * 1024
 const FILE_CAP = Number(val('--cap', String(40 * 1024)))
+// The largest single file proven to write to Claude Design (Providence Day,
+// 2026-11-20). A component file is never split: the editor cannot edit markup
+// pulled in from another file (<dc-import>), so a page split across files is
+// read-only below the split. Past this size the capture still writes, and warns.
+const ONE_FILE_PROVEN = 81 * 1024
 const FONTS = 'https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500;600;700&display=swap'
 
 const sha = (s) => createHash('sha256').update(s).digest('hex')
@@ -742,7 +750,7 @@ const opts = (part) => ({ part, trimmed: trimmedTotal, embeds: embedsTotal, extr
 
 const all = (main.units || []).map((_, k) => k)
 const whole = skeleton(NAME, assemble(all), opts(null))
-if (Buffer.byteLength(whole) <= FILE_CAP || PARTS === '1' || !main.units) {
+if (Buffer.byteLength(whole) <= FILE_CAP || PARTS === '1' || !main.units || FORMAT === 'dc') {
   outputs.push({ name: `${NAME}.dc.html`, file: whole })
 } else {
   // Greedy pack at card (area) or section (page) boundaries, in page order.
@@ -770,8 +778,9 @@ let over = false
 for (const o of outputs) {
   writeFileSync(join(OUT, o.name), o.file)
   const b = Buffer.byteLength(o.file)
-  const flag = b > FILE_CAP ? `  ⚠ over the ${kb(FILE_CAP)} cap` : ''
-  if (b > FILE_CAP) over = true
+  const limit = FORMAT === 'dc' ? ONE_FILE_PROVEN : FILE_CAP
+  const flag = b > limit ? `  ⚠ over the ${kb(limit)} ${FORMAT === 'dc' ? 'largest proven write' : 'cap'}` : ''
+  if (b > limit) over = true
   console.log(`  ${o.name}  ${b} bytes (${kb(b)})  sha256 ${sha(o.file)}${flag}`)
 }
 console.log(`  ${unitWord}s: ${main.units ? main.units.length : 'n/a'} · extras: ${extras.length} · trimmed: ${trimmedTotal} · embeds: ${embedsTotal} · commit ${SHA}`)
