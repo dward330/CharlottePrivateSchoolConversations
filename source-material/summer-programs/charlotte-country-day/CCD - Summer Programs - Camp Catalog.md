@@ -266,3 +266,18 @@ Sibling/multi-week discounts, sell-out and waitlist behavior, post-June-5 refund
 Bissell Campus use, and any 2026 bus service. The Summer Programs Office at
 (704) 943-4702 is the place to confirm them, along with the $450 vs $ 460.00 4-day
 discrepancy and the lunch-included conflict.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+Re-scan after PR #507. Re-downloaded the priced 2026 listing,
+https://resources.finalsite.net/images/v1768310602/charlottecds/charlottecds/ffivawlw5eojdrzsp3wn/2026SummerProgramslisting.pdf
+(HTTP 200, 4 pp.). Parsed with `pdftotext -layout`: **132** priced rows (matches the record), **75** distinct camp
+names (76 distinct name + camp-type pairs), not "roughly 85". Rows per title, verbatim weeks:
+
+- "Ready, Set, Tumble: Gymnastics!" — 7 rows: June 1-5, June 8-12, June 15-18*, June 22-26, June 29-July 2*,
+  July 13-17, July 20-24 ($ 280.00; $ 230.00 in the starred four-day weeks). Seven of the eight weeks.
+- "Outdoor Adventure Camp" — 4 rows: June 1-5, June 22-26, June 29-July 2* ($ 480.00), July 13-17 ($ 600.00 otherwise).
+- "Camp Buccaneer" — 4 rows: June 8-12, June 15-18*, June 22-26, June 29-July 2* ($ 460.00; $ 560.00 otherwise).
+- No other title runs more than 4 weeks.

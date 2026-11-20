@@ -178,3 +178,18 @@ the app carries on cards 1c and 1d. **Card 1g is therefore omitted for Latin.**
 - Whether McNulty's total is 11 or 12 football titles is unresolved.
 - Square footage unpublished for the Strength Center, Fitness Center and Belk Gym.
 - Claudia Dickey's professional soccer status is inferred from her HOF induction, not verified.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+- Re-fetched https://www.charlottelatin.org/athletics/athletic-teams (HTTP 200, 123,351 bytes,
+  `curl`, tag-stripped). The page states, verbatim: "WE OFFER 17 SPORTS and FIELD 66 TEAMS IN
+  GRADES 7-12." The team directory beneath it lists 24 entries: Baseball · Basketball (Boys) ·
+  Basketball (Girls) · Cheerleading · Cross Country (Boys) · Cross Country (Girls) · Dance Team ·
+  Field Hockey · Football · Golf (Boys) · Golf (Girls) · Lacrosse (Boys) · Lacrosse (Girls) ·
+  Soccer (Boys) · Soccer (Girls) · Softball · Swimming (Boys) · Swimming (Girls) · Tennis (Boys) ·
+  Tennis (Girls) · Track & Field (Boys) · Track & Field (Girls) · Volleyball · Wrestling.
+- Collapsing boys' and girls' entries, those 24 are **16 distinct sports**, not 17. The page
+  names no 17th sport. The school's "17 sports" and its own directory therefore disagree by one;
+  which sport the 17th is (if any) is not published.

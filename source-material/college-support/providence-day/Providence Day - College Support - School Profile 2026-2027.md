@@ -692,3 +692,19 @@ transcribed from S4):
 - **Wisconsin**
 - Wyoming
 - York
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+Re-scan after PR #507. The College Guidance link
+https://www.providenceday.org/fs/resource-manager/view/6dd20b2d-13aa-4f35-8b38-ac498f6983b5 now redirects to
+https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/Collegeguidancecollegeprofile26-27updated.pdf
+(HTTP 200, 4 pp., SHA-256 `41743162d0ad8f276f505da4fa26125996bf9419b4292fb120a77cf6609ef20d`). Verbatim:
+
+- Course table, World Language row: "French 6, 7 (two versions), 8 (post-AP)" and "Latin 5, 6". The 2026–27 Upper
+  School Course of Study lists neither French 8 nor Latin 6 (see the course-offerings re-verification).
+- Student life: "100% of our graduates attend four-year colleges or universities."
+- Acceptance list key: "Bold letters indicate schools enrolling one or more members of the Class of 2023–2026."
+  `pdftohtml -xml` renders "Central Piedmont Community College" in the bold face (`<b>`, font 30), i.e. a
+  two-year college is marked as enrolling a 2023–2026 graduate.

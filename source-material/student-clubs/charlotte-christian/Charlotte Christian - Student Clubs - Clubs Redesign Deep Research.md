@@ -294,3 +294,9 @@ School page.
    Multicultural Festival post under both `/post-details/` and `/about/knights-headlines/`
    paths). Their content is recoverable only via search snippets and is marked unverified
    here until the school restores the pages.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+- https://www.charlottechristian.com/post-details/~board/knights-headlines/post/knights-nations-club-fosters-a-friendly-and-welcoming-environment-for-upper-school-students (fetched 2026-11-20). Title: "KNIGHTS NATIONS CLUB FOSTERS A FRIENDLY AND WELCOMING ENVIRONMENT FOR UPPER SCHOOL STUDENTS". No date is shown. Quotes: "Two years ago, upper school students Dailey Schenck and Gabi Martin founded the Knights Nations Club"; "Junior David Thomas Little will lead the club next year". The article is undated, so whether the club is active in 2026–27 cannot be read from it. It is named on the Global & Cultural Groups card and in Global Exposure, but it is not in the 23-organization Upper School catalog.
