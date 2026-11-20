@@ -1226,7 +1226,10 @@ a gate.
   and Financial Aid component counts and percentages against the grid. R8
   (`-- --report`) groups every `<number> <noun>` pair per school and **is a report, never
   a gate**. Fix a finding in the data; never allowlist it (plans `consistency`,
-  `consistency2`).
+  `consistency2`). The gate sees only the shapes it was written for; **`/consistency-self-scan`**
+  reads every page for the rest, diagnoses each conflict A/B/C/D against the live source and
+  hands the worklist to `/plan`. Re-run it after a consistency plan deploys: each round so far
+  has found fixes that landed in one card and missed the card restating them.
 - **Data sources list their dependents: `scripts/data_dependents.json`.** A PostToolUse
   hook (`scripts/notify_dependents.mjs --hook`) prints, once per session, everything built
   from or restating a source when one of its files is edited; `npm run dependents` lists the
