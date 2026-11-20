@@ -931,7 +931,7 @@ export const providenceDay: CollegeSupportProgram = {
       'Five counselors share 179 seniors — does each student keep the same counselor from 9th grade to graduation?',
       'How are testing accommodations documented for College Board and ACT, how many Upper School students hold them, and is occupational therapy billed directly to families?',
       'The Entrepreneurial Studies Diploma is new for 2026 — what exactly does it require, and how many students have completed it?',
-      'Your profile names 30 AP courses but 29 subjects were examined in May 2026 — is AP German running this year, and when does AP Business & Personal Finance begin?',
+      'Your profile names 30 AP courses but 29 subjects were examined in May 2026. Are AP German and AP Business with Personal Finance both running this year?',
     ],
     flags: [],
     sources: [

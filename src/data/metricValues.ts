@@ -163,8 +163,8 @@ export const VALUE_METRICS: ValueMetric[] = [
   // =========================== Course Offerings ============================
   // Transcribed from each school's OWN published curriculum guide (see
   // source-material/course-offerings/<school>/). Guide vintages differ by
-  // school — Cannon, Charlotte Christian, and Davidson Day publish 2026-27;
-  // Providence Day and Country Day publish 2025-26; Charlotte Latin publishes
+  // school — Cannon, Charlotte Christian, Davidson Day and Providence Day
+  // publish 2026-27; Country Day publishes 2025-26; Charlotte Latin publishes
   // an undated live course list. Where a school's own documents disagree, the
   // per-school research file records the discrepancy and which figure was used.
   {
@@ -183,7 +183,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
       'hickory-grove-christian': '112', // real courses in the 2026-2027 Course Selection Catalog; 117 distinct title strings, 5 of them spelling variants
       'gaston-day': '46', // counted from the Academic Profile 2025-2026 curriculum table — the school publishes no separate course catalog
-      'providence-day': '149', // distinct entries; multi-year language sequences counted once per track
+      'providence-day': '172', // 2026-27 Course of Study, one entry per level; F/G/S levels once per language (school's World Language tally of 38); 153 rows rendered
     },
     quals: {
       'charlotte-catholic': {
@@ -205,7 +205,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Distinct course entries, with multi-year language sequences counted once per track rather than once per level.',
+        text: 'Counted from the 2026–27 Course of Study, one entry per course level; French, German and Spanish levels count once per language, matching the school’s own World Language tally of 38.',
       },
       'carmel-christian': {
         kind: 'scope',
@@ -238,7 +238,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
       'hickory-grove-christian': '17 AP', // the 2026-2027 catalog's Advanced Placement section, counted title by title
       'gaston-day': '10 AP', // counted from the profile's own course table; PSR says 9 and omits Chemistry, which the profile marks (H)(AP)
-      'providence-day': '28 AP', // 28 AP courses described; catalog prose names 27 subject areas
+      'providence-day': '30 AP', // 30 AP headings in the 2026-27 Upper School Course of Study (adds AP Business with Personal Finance and AP German)
     },
     quals: {
       'charlotte-catholic': {
@@ -264,7 +264,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: '28 AP courses are described in the catalog, whose prose names 27 subject areas.',
+        text: '30 AP courses are described in the 2026–27 catalog.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -1592,7 +1592,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // not detailed
       'hickory-grove-christian': 'AP 2D Studio Art', // atop the Art I–IV studio sequence; the school's own course name (live Visual Arts page + 2026–27 catalog, checked 2026-11-10)
       'gaston-day': 'Visual Art IV (H)', // the terminal visual-arts course — there is no AP Studio Art or AP Art History in the profile's table
-      'providence-day': '3 AP arts', // AP Studio Art, AP Art History, AP Music Theory
+      'providence-day': '3 AP arts', // AP Art and Design, AP Art History, AP Music Theory
     },
     quals: {
       'charlotte-catholic': {
@@ -1618,7 +1618,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Three AP arts courses: AP Studio Art, AP Art History, and AP Music Theory.',
+        text: 'Three AP arts courses: AP Art and Design, AP Art History, and AP Music Theory.',
       },
       'charlotte-christian': {
         kind: 'scope',

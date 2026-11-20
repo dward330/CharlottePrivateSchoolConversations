@@ -68,7 +68,7 @@ export const providenceDay: ArtsProgram = {
         grades: '9–12',
         items: [
           'Full ensemble slate plus a wide range of theater and technical theater classes',
-          'AP Studio Art · AP Art History · AP Music Theory',
+          'AP Art and Design · AP Art History · AP Music Theory',
           'Studio work spans darkroom film photography and unconventional materials',
           'National Art Honor Society and Tri-M Music Honor Society chapters',
         ],
@@ -265,7 +265,7 @@ export const providenceDay: ArtsProgram = {
 
   visual: {
     headline:
-      'A working film darkroom alongside digital and unconventional-materials studio work, building to AP Studio Art and AP Art History.',
+      'A working film darkroom alongside digital and unconventional-materials studio work, building to AP Art and Design and AP Art History.',
     subhead:
       'The department calls itself process-oriented, challenging students to be "original, resourceful, and innovative."',
     mediaTitle: 'Studio media',
@@ -280,7 +280,7 @@ export const providenceDay: ArtsProgram = {
     path: [
       { name: 'MS foundations' },
       { name: 'US studio courses' },
-      { name: 'AP Studio Art', terminal: true },
+      { name: 'AP Art and Design', terminal: true },
     ],
     pathNote:
       'AP Art History runs parallel, no portfolio required. The intermediate rungs are not published — the school describes the ladder only in prose',
@@ -346,7 +346,7 @@ export const providenceDay: ArtsProgram = {
       },
     ],
     ask: [
-      'Show me the visual arts course sequence on paper — what exactly does a student take between Middle School art and AP Studio Art? And is there ceramics, with a kiln?',
+      'Show me the visual arts course sequence on paper — what exactly does a student take between Middle School art and AP Art and Design? And is there ceramics, with a kiln?',
       'Of the "26 Blumey Awards" on your awards page, how many were outright wins versus nominations or finalist placements?',
       'In 2025 and 2026 you had five and six Blumey finalists and no wins, and no production-level nominations. What is the plan to convert — do you staff a choreographer and a pit orchestra for the spring musical?',
       'How many students made honors ensembles last year, out of how many who auditioned? The "100+ musicians" and "50+ superior ratings" figures carry no time window.',

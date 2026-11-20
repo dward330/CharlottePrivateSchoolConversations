@@ -1,5 +1,9 @@
 # Providence Day School — Course Offerings
 
+> **Superseded for the app (2026-11-20).** The Course Offerings cards now follow the 2026–27
+> Course of Study, transcribed in `Providence Day - Course Offerings - Curriculum Guide Full
+> Descriptions 2026-2027.md`. This record is kept as the provenance of the 2025–26 build.
+
 **Provenance**
 
 - **Compiled by:** Claude Code deep research pass, at Derrick's request
