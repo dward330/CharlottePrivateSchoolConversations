@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-11-20
 branch: feat/designsync
-prs: [503, 504, 505]
+prs: [503, 504, 505, 506]
 ---
 
 # Catch the Claude Design project up with the built app
@@ -551,6 +551,12 @@ it verified byte for byte, and the user confirmed the whole page edits. So a `--
 capture is now always one file. The 40 KB figure is only the trimming threshold, so no
 page's content changed, and the capture warns above 81 KB, the largest write proven.
 The old `(2 of N)` files and the two trial pieces were deleted under a delete approval.
+
+**Follow-up: card links.** The school-page files keep their cards closed, and a fully
+open Providence Day page would be ~400 KB, past any proven write. So, at the user's
+request, every card header on a closed-card school page now opens its area's section
+file, where the cards are open. A local test clicked all 70 headers (45 Providence Day,
+25 K-8) and each one went to the right file. The band on those pages says so.
 
 **Not done, by design or out of scope.** Standalone Claude Design closes by 2026-12-14; the files' future after the move
 into Claude is outside this plan. Not made into a `/design-sync` skill (default: no).

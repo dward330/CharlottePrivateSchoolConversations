@@ -33,7 +33,7 @@
  *       "<name>.dc.html" and prints size + sha256. A --format dc page is always
  *       ONE file, however large: Claude Design's editor cannot edit markup
  *       pulled in from another file, so a split page is read-only below the
- *       split. Over 81 KB (the largest write proven) it warns and exits 1.
+ *       split. Over 83,159 bytes (the largest write proven) it warns and exits 1.
  *       With --format plain, over the cap, a capture splits at card / section /
  *       row-group boundaries into "<name> (k of N).dc.html". --drop removes matching elements from the
  *       capture first (the Shared Components file drops the research sections).
@@ -82,11 +82,11 @@ const OUT = val('--out', null)
 const HEADLESS = has('--headless')
 const CSS_CHUNK_MAX = 38 * 1024
 const FILE_CAP = Number(val('--cap', String(40 * 1024)))
-// The largest single file proven to write to Claude Design (Providence Day,
-// 2026-11-20). A component file is never split: the editor cannot edit markup
+// The largest single file proven to write to Claude Design (Providence Day
+// with card links, 83,159 bytes, 2026-11-20). A component file is never split: the editor cannot edit markup
 // pulled in from another file (<dc-import>), so a page split across files is
 // read-only below the split. Past this size the capture still writes, and warns.
-const ONE_FILE_PROVEN = 81 * 1024
+const ONE_FILE_PROVEN = 83159
 const FONTS = 'https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500;600;700&display=swap'
 
 const sha = (s) => createHash('sha256').update(s).digest('hex')
@@ -622,6 +622,28 @@ const cssLinks = (() => {
 const FORMAT = val('--format', 'dc')
 if (!['dc', 'plain'].includes(FORMAT)) die(`--format must be dc or plain, not ${FORMAT}`)
 
+// The Claude Design project these files live in, and the file that shows each
+// research area's cards open. A school page is captured with its cards closed,
+// as a parent first sees it; in the component format a click on a card header
+// opens that area's file instead (--card-links, on by default for a closed-card
+// school page). Names are as Claude Design stores them.
+const DESIGN_PROJECT = '5da24575-40bf-4787-8934-0fadfc56059f'
+const AREA_FILES = {
+  'admissions': 'Admissions Section.dc.html',
+  'course-offerings': 'Course Offerings Section.dc.html',
+  'international-travel': 'International Travel Section Redesign.dc.html',
+  'learning-support': 'Learning Support Section Redesign.dc.html',
+  'student-clubs': 'Clubs Section Redesign.dc.html',
+  'the-arts': 'Arts Section Redesign.dc.html',
+  'sports': 'Sports Section Redesign.dc.html',
+  'college-support': 'College Support Section Redesign.dc.html',
+  'high-school-placement': 'High School Placement Section Redesign.dc.html',
+  'after-school': 'After School Section Redesign.dc.html',
+  'summer-programs': 'Summer Programs Section.dc.html',
+  'financial-aid-tuition': 'Financial Aid & Tuition.dc.html',
+}
+const CARD_LINKS = FORMAT === 'dc' && !AREA && CARDS === 'closed' && val('--card-links', 'on') !== 'off'
+
 /** Wrap a plain capture in the component format, keeping its markup. */
 function toComponent(src) {
   if (src.includes('{{')) die('the capture contains "{{", which the component template would treat as a hole', 1)
@@ -641,6 +663,17 @@ function toComponent(src) {
   body = body.replace(/<script>\(function\(\)\{var b=document\.getElementById\('ds-theme'\)[\s\S]*?<\/script>\n?/, '')
   body = body.replace(/<button\s+id="ds-theme" type="button">Dark<\/button>/, '<button type="button" onClick="{{ toggleTheme }}">{{ themeLabel }}</button>')
   if (body.includes('ds-theme')) die('theme switch not converted', 1)
+  if (CARD_LINKS) {
+    // Every research card header opens its area's file, where the cards are open.
+    const n = (body.match(/(<details\s[^>]*class="note-card[^"]*"[^>]*>)<summary>/g) || []).length
+    body = body.replace(/(<details\s[^>]*class="note-card[^"]*"[^>]*>)<summary>/g, '$1<summary onClick="{{ openCard }}">')
+    const areas = new Set([...body.matchAll(/<section\s+id="topic-([a-z-]+)"/g)].map((m) => m[1]))
+    const missing = [...areas].filter((a) => !AREA_FILES[a])
+    if (missing.length) die(`no section file named for area(s): ${missing.join(', ')}`, 1)
+    if (!n) die('--card-links found no card headers', 1)
+    const line = `  card links: ${n} card headers open their area's file (${areas.size} areas)`
+    if (line !== toComponent.logged) console.log((toComponent.logged = line))
+  }
   const props = { defaultTheme: { editor: 'enum', options: ['light', 'dark'], default: 'light', tsType: "'light' | 'dark'", section: 'Appearance' } }
   const logic = `class Component extends DCLogic {
   constructor(props) { super(props); this.state = { theme: null } }
@@ -652,10 +685,19 @@ function toComponent(src) {
     const t = this.theme()
     return {
       themeLabel: t === 'dark' ? 'Light' : 'Dark',
-      toggleTheme: () => this.setState({ theme: t === 'dark' ? 'light' : 'dark' }),
+      toggleTheme: () => this.setState({ theme: t === 'dark' ? 'light' : 'dark' }),${CARD_LINKS ? `
+      openCard: (e) => {
+        const sec = e.currentTarget.closest('section[id^="topic-"]')
+        const file = sec && AREA_FILES[sec.id.slice(6)]
+        if (!file) return
+        e.preventDefault()
+        const url = 'https://claude.ai/design/p/${DESIGN_PROJECT}?file=' + encodeURIComponent(file).replace(/%20/g, '+')
+        try { window.top.location.href = url } catch (_) { window.open(url, '_blank', 'noopener') }
+      },` : ''}
     }
   }
-}`
+}${CARD_LINKS ? `
+const AREA_FILES = ${JSON.stringify(AREA_FILES)}` : ''}`
   const attr = (x) => x.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
   return `<!DOCTYPE html>
 <html lang="en" dir="ltr" data-theme="light" data-prose="en">
@@ -689,6 +731,7 @@ function skeleton(title, body, { part = null, trimmed, embeds, extrasNote }) {
     `<span>App commit ${esc(SHA)} · captured ${DATE} from ${esc(route)}</span>`,
     `<span>Trimmed: ${trimmed} repeated item(s)${embeds ? ` · ${embeds} embed(s) shown as boxes` : ''}</span>`,
     extrasNote ? `<span>${esc(extrasNote)}</span>` : '',
+    CARD_LINKS ? `<span>Cards are shown closed, as a parent first sees the page. Click a card to open its section file, where every card is open.</span>` : '',
     `<span>Static capture: ${esc(INTERACTIVE)} are interactive in the app.</span>`,
     `<button id="ds-theme" type="button">Dark</button>`,
   ].filter(Boolean).join('')
