@@ -8937,19 +8937,19 @@ const CHARLOTTE_PREP: CourseOfferings = {
           name: 'Montessori Stages',
           courses: [
             {
-              title: 'Pre-Primary',
-              tag: 'Age 2',
+              title: 'Younger children',
+              tag: 'Ages 2–3',
               description:
                 'Younger children "focus on gaining independence, large motor control, and early language and communication skills."',
             },
             {
-              title: 'Primary',
+              title: 'Primary students',
               tag: 'Ages 3–4',
               description:
                 'Students "build concentration, coordination, organization, and independence through repeated, sequential practical life activities in preparation for future academic work."',
             },
             {
-              title: 'Transitional K & Montessori K',
+              title: 'Older students',
               tag: 'Ages 5–6',
               description:
                 'Older students "begin to make connections between concrete and abstract concepts through the use of specialized didactic materials and meaningful learning experiences."',

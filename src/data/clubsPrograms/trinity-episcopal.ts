@@ -93,9 +93,8 @@ export const trinityEpiscopal: ClubsProgram = {
         detail: 'Lower School',
       },
       {
-        name: '12 Tribes of Trinity',
-        detail:
-          'grades 3–5 · co-ed groups that let students from different grades get to know one another and build relationships · "Each Tribe is led by 2 adult staculty members."',
+        name: 'Invisible Differences',
+        detail: 'Middle School · listed in the 2026-27 School Profile; no description is published',
       },
       {
         name: 'Young People of Color (YPC)',
@@ -114,12 +113,12 @@ export const trinityEpiscopal: ClubsProgram = {
       {
         title: 'Lower School',
         hint: '· grades K–5',
-        text: 'Young Children of Color is a Lower School group · 12 Tribes of Trinity groups students across grades 3–5.',
+        text: 'Young Children of Color is a Lower School group. Also in the Lower School: 12 Tribes of Trinity, co-ed groups across grades 3–5, each “led by 2 adult staculty members.”',
       },
       {
         title: 'Middle School',
-        hint: '· 3 groups',
-        text: 'Young People of Color · Young People for Social Justice · Gender Sexuality Alliance — all three are Middle School groups.',
+        hint: '· 4 groups',
+        text: 'Young People of Color · Young People for Social Justice · Gender Sexuality Alliance · Invisible Differences — all four are Middle School groups.',
       },
       {
         title: 'Parents',
@@ -137,7 +136,7 @@ export const trinityEpiscopal: ClubsProgram = {
     flags: [
       {
         kind: 'count',
-        text: '**Invisible Differences is left off this card.** The 2026-27 School Profile lists it among the Middle School clubs and groups. The old affinity-groups page called it a parent group for families of children with learning differences, but that page is gone (fall-2026 redesign) and no live page says what it is. So the student roster here is five groups, as before.',
+        text: '**Invisible Differences is on this card, as in the club catalog** (plan consistency TRI-22, 2026-11-20). The 2026-27 School Profile lists it among the Middle School clubs and groups. The old affinity-groups page called it a parent group for families of children with learning differences, but that page is gone (fall-2026 redesign) and no live page says what it is. 12 Tribes of Trinity moved to the Lower School line, so the five named groups match the catalog.',
       },
     ],
     sources: [
