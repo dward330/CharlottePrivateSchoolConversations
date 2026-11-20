@@ -71,7 +71,7 @@ const GRADE_BANDS = {
   // pre-K year uses the full-day rate, as the cell's tooltip says.
   'gaston-day': { msStart: 5, grades: { PK: 'Preschool/Pre-K full day', ...span('Kindergarten–4th', 'K', 4), ...span('5th–8th', 5, 8), ...span('9th–12th', 9, 12) } },
   // A 9–12 school: no Lower or Middle School, so four rows are null.
-  'charlotte-catholic': { msStart: null, grades: { ...span('High International', 9, 12) } },
+  'charlotte-catholic': { msStart: null, grades: { ...span('Community', 9, 12) } },
 }
 
 /** Reports whose own "full run" stat must equal a derived run. */

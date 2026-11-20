@@ -1037,7 +1037,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '~26:1', // 105 seniors (Class of 2026) ÷ 4 counselors
       'charlotte-christian': '~55:1', // effective caseload ~55 seniors/counselor (110 ÷ 2, Class of 2026)
-      'charlotte-catholic': '~56:1', // COMPUTED, not published — 336 seniors in the Class of 2027 (2026-27 profile) over 6 counselors incl. the Director; ~195:1 across all four grades
+      'charlotte-catholic': '~56:1', // COMPUTED, not published — 336 seniors in the Class of 2027 (2026-27 profile) over 6 counselors incl. the Director; ~222:1 across all four grades (1,330, NCES 2023-24)
       'charlotte-country-day': '~27:1', // COMPUTED — 137 Class of 2027 seniors (2026–27 profile) over 5 counselors
       'charlotte-latin': '~38:1', // COMPUTED — 151 seniors (2026–27 profile) ÷ 4 counselors = 37.75
       'covenant-day': '85:1', // 85 seniors ÷ 1 dedicated Guidance & College Counseling Director
@@ -1051,7 +1051,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'official',
         text:
-          'Computed, not published: 336 seniors in the Class of 2027 divided by the six counselors named on the 2026-27 school profile, including the Director of Counseling Services. Across all four grades (~1,171 students) it is roughly 195:1.',
+          'Computed, not published: 336 seniors in the Class of 2027 divided by the six counselors named on the 2026-27 school profile, including the Director of Counseling Services. The five alphabet-band counselors carry about 67 seniors each. Across all four grades (1,330 students, 2023–24, NCES) it is roughly 222:1.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -1173,7 +1173,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '$32,070', // Grades 9–12, 2026–27
       'charlotte-christian': '$27,055', // Grades 9–12, 2026–27
-      'charlotte-catholic': '$23,562', // MACS High International rate, grades 9-12, 2026-27. Community (non-parishioner) $21,562; Participating Catholic $15,041; capital fee $1,995/family
+      'charlotte-catholic': '$21,562', // MACS Community rate, grades 9-12, 2026-27 (the report's own comparison rate). High International $23,562; Participating Catholic $15,041; capital fee $1,995/family
       'charlotte-country-day': '$34,075', // Grades 9–12, 2026–27
       'charlotte-latin': '$36,500', // Grades 9–12, 2026–27
       'covenant-day': '$22,790', // Grades 9–12, 2026–27 (website table; the 2025-26 terms PDF shows $21,590)
@@ -1200,7 +1200,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'MACS sets tuition centrally for all its schools; CCHS publishes none of its own. This is the High International rate for 2026-27. A community (non-parishioner) family pays $21,562 and a participating Catholic family $15,041 — a roughly 30% difference driven by parish participation rather than financial need.',
+          'MACS sets tuition centrally for all its schools; CCHS publishes none of its own. This is the Community rate for 2026-27, the price to a family with no parish affiliation. A participating Catholic family pays $15,041, a roughly 30% difference driven by parish participation rather than financial need. The International rate, for students who need an I-20, is $23,562.',
       },
       'providence-day': {
         kind: 'scope',
@@ -1306,7 +1306,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '$128,280',
       'charlotte-christian': '$108,220',
-      'charlotte-catholic': '$94,248',
+      'charlotte-catholic': '$86,248',
       'charlotte-country-day': '$136,300',
       'charlotte-latin': '$146,000',
       'covenant-day': '$91,160',
@@ -1330,7 +1330,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': '(2026–27 rates · grades 9–12)',
     },
     quals: {
-      'charlotte-catholic': { kind: 'scope', text: 'Four years at the High International rate ($23,562), the figure the Upper School row shows. A community (non-parishioner) family would pay $86,248 and a participating Catholic family $60,164 over the same four years.' },
+      'charlotte-catholic': { kind: 'scope', text: 'Four years at the Community rate ($21,562), the figure the Upper School row shows. A participating Catholic family would pay $60,164 over the same four years, and an international student $94,248.' },
       'hickory-grove-christian': { kind: 'scope', text: 'Four years at the Grades 9–12 band ($14,100), the school’s own 2026–27 rate.' },
       'gaston-day': { kind: 'scope', text: 'Four years at the 9th–12th all-in band (tuition plus fees, as the school’s own schedule totals it) for 2025–26.' },
       'providence-day': { kind: 'scope', text: 'Four years at the Grades 6–12 band ($36,325), the same figure the school’s Financial Aid report gives for a 9–12 run.' },

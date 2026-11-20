@@ -64,7 +64,7 @@ export const charlotteCatholic: ClubsProgram = {
       {
         title: 'Culture is the smallest category',
         hint: '4 of 76',
-        text: 'Achievers, Asian American Pacific Islander, German and Spanish clubs. For a school of ~1,171 in a diverse metro area, four identity-and-culture groups is a short list next to the 23 service clubs. That balance is worth asking about on a visit.',
+        text: 'Achievers, Asian American Pacific Islander, German and Spanish clubs. For a school of 1,330 (2023–24, NCES) in a diverse metro area, four identity-and-culture groups is a short list next to the 23 service clubs. That balance is worth asking about on a visit.',
       },
       {
         title: 'Sports clubs are a real second tier',

@@ -257,7 +257,7 @@ export const charlotteCatholic: ArtsProgram = {
     ],
     ask: [
       'The performances calendar shows "No showings" — where do families actually find the season, and can we see this year’s?',
-      'Twelve ensembles is a lot for 1,171 students: which are auditioned, and what proportion of applicants get in?',
+      'Twelve ensembles is a lot for 1,330 students: which are auditioned, and what proportion of applicants get in?',
       'The Fine Arts Center serves all MACS schools — how often does that limit CCHS rehearsal or performance time?',
       'Honors ensembles carry a quality point. Is there any cap on how many arts Honors courses count toward the weighted GPA?',
       'Five Blumey finalists in 2025 and no win — what does the theatre program think is the gap?',

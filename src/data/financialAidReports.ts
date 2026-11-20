@@ -2618,7 +2618,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       figureCaption: 'Published 2026-27 tuition, grades 9–12',
       bands: [
         { label: 'Participating Catholic', amount: 15041 },
-        { label: 'Community (non-parishioner)', amount: 21562 },
+        { label: 'Community', amount: 21562 },
         { label: 'High International', amount: 23562 },
       ],
       figureNote:
