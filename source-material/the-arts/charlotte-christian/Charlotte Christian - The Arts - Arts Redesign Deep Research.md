@@ -39,7 +39,7 @@ Source: https://www.charlottechristian.com/fine-arts
 
 ### Division-by-division ladder
 
-**Lower School (JK–6)**
+**Lower School (JK–4); Grades 5–6 below are Middle School** (corrected 2026-11-20: the school's Lower School is JK–4 and its Middle School 5–8)
 - **[VERIFIED]** Visual art begins "at the earliest stages," with a curriculum focused on "developing creativity, technical proficiency, literacy in a variety of media and expressions." Source: https://www.charlottechristian.com/fine-arts/visual-art
 - **[VERIFIED]** Instrumental music starts in **Grade 5** — Grade 5 Brass, Grade 5 Woodwind, Grade 5 High/Low Strings, Grade 5 Music (choral); continuing into Grade 6 Brass, Grade 6 Woodwinds, Grade 6 Choir, Grade 6 High/Low Strings. Source: https://www.charlottechristian.com/fine-arts/music
 - **[VERIFIED]** Theatre mainstage musicals are open to students in **grades 4–12**. Source: https://www.charlottechristian.com/fine-arts/theatre

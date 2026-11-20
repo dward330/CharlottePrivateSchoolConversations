@@ -174,7 +174,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'Distinct Upper School course entries in the school’s own current curriculum guide. Counting conventions differ — Country Day’s index bundles language levels onto one line, so its true course count is higher than the line count shown.',
     values: {
       cannon: '104', // counted from the 11 course-offering sections of the 2026-27 catalog
-      'charlotte-christian': '~135', // ~135 unique titles; 6 are cross-listed in two departments
+      'charlotte-christian': '143', // per-level count from the full 2026-27 guide: 129 listed rows + 5 French + 3 Latin + 5 Spanish levels + Yearbook Honors (plan consistency CC-4)
       'charlotte-catholic': '199', // counted from the 2026-2027 Curriculum Guide by course HEADER — 196 coded headers + 3 CPCC dual-enrollment (Academic Skills 508/509 and AP Micro & Macro 953/954 are one header each); prior-year guide had 183
       'charlotte-country-day': '117', // line-by-line count of the Total Index of Courses by Department (p.8), re-read 2026-11-20; 119 had counted two sub-headings
       'charlotte-latin': '122', // 136 live posts on the Upper School course-offerings page minus 14 department intros (re-counted 2026-11-20)
@@ -193,7 +193,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'scope',
-        text: 'About 135 unique course titles; 6 of them are cross-listed in two departments, so a department-by-department tally would count those twice.',
+        text: 'Counted from the full 2026–27 curriculum guide, one entry per course level, as Covenant Day and Hickory Grove are counted. The school page lists 129, with the French, Latin and Spanish sequences and Yearbook each on one row.',
       },
       'covenant-day': {
         kind: 'scope',
@@ -241,6 +241,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': '30 AP', // 30 AP headings in the 2026-27 Upper School Course of Study (adds AP Business with Personal Finance and AP German)
     },
     quals: {
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'The curriculum guide’s AP list has 21 courses. The 2026–27 profile lists 20 AP courses plus Calculus III (college level), and the guide also describes AP Spanish Literature, which its AP list leaves out.',
+      },
       'charlotte-catholic': {
         kind: 'scope',
         text:
@@ -1054,7 +1058,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         text: 'COMPUTED, not published — the school states neither a caseload nor a ratio. 35 seniors in the Class of 2026 over two college-counseling staff (Peter Gangemi, Director; Kristy Smith, Assistant) gives ~18:1; counted against the Director alone it would be 35:1.',
       },
       cannon: { kind: 'scope', text: 'About 26 seniors per dedicated college counselor at peak application season — 105 seniors across 4 counselors. A lower ratio means more counselor time per student.' },
-      'charlotte-christian': { kind: 'scope', text: 'An effective caseload of about 55 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
+      'charlotte-christian': { kind: 'scope', text: 'An effective caseload of about 55 seniors per college counselor at peak application season, counted on the 110 Class of 2026 graduates because the current senior class size is not published. A lower ratio means more counselor time per student.' },
       'charlotte-country-day': { kind: 'scope', text: 'About 27 seniors per college counselor: 137 seniors shared among five counselors, derived from the 2026–27 profile. A lower ratio means more counselor time per student.' },
       'charlotte-latin': { kind: 'scope', text: 'About 38 seniors per college counselor at peak application season — 151 seniors in the 2026–27 class across 4 counselors (computed; the school publishes no ratio). A lower ratio means more counselor time per student.' },
       'covenant-day': { kind: 'scope', text: '85 seniors against one dedicated Guidance & College Counseling Director — the heaviest caseload here, cushioned by a second guidance counselor and a guidance assistant who carry the non-college load. A lower ratio means more counselor time per student.' },
@@ -1705,7 +1709,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     compareAs: 'range-mid',
     values: {
       cannon: '≥20', // 8 named US orgs + 12 US honor societies (NHS chapter 2025); no chartered directory published
-      'charlotte-christian': '23', // 23 named US orgs (part of 35 across JK–12)
+      'charlotte-christian': '23', // 23 named US orgs (part of 38 across JK–12)
       'charlotte-catholic': '76', // counted from the clubs directory's raw HTML — 6 categories: Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. The school profile's 'over 50' is a round prose figure
       'charlotte-country-day': '~45–50', // school publishes a range; only 7 confirmed by name
       'charlotte-latin': '25', // 22 of the 27 listed US clubs (5 arts/writing clubs excluded, as at PD) + 3 groups listed separately
@@ -1728,7 +1732,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'scope',
-        text: 'Counts the 23 named organizations in the Upper School across four categories. The school also reports 35 across JK–12; only the Upper School band is used here for a like-for-like comparison.',
+        text: 'Counts the 23 named organizations in the Upper School across four categories. Across JK–12 the school names 38; only the Upper School band is used here for a like-for-like comparison.',
       },
       'charlotte-country-day': {
         kind: 'range',

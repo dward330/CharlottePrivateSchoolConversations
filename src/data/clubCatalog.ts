@@ -362,7 +362,7 @@ const CANNON: ClubCatalog = {
 }
 
 // ── Charlotte Christian ── the fullest enumerated roster of the honest-gap set:
-// 35 named organizations across JK–12, assembled from several school pages (no
+// 38 named organizations across JK–12, assembled from several school pages (no
 // single directory). The filterable grid holds the 23 Upper School orgs by the
 // school's own four categories (14 clubs, 5 honor societies, 3 leadership/media,
 // 1 global-awareness); Middle & Lower School are named minimums in the division
@@ -372,7 +372,7 @@ const CANNON: ClubCatalog = {
 // Landscape").
 const CHARLOTTE_CHRISTIAN: ClubCatalog = {
   verdict:
-    '23 named Upper School organizations across four categories, part of 35 across JK–12; the younger divisions rotate, so their counts are named minimums.',
+    '23 named Upper School organizations across four categories, part of 38 across JK–12; the younger divisions rotate, so their counts are named minimums.',
   verdictHint: 'Filter the Upper School roster by category; there is no single published directory.',
   countNoun: 'US orgs',
   categories: [
@@ -413,7 +413,7 @@ const CHARLOTTE_CHRISTIAN: ClubCatalog = {
   divisions: [
     {
       label: 'Middle School (5–8)',
-      text: 'Named minimum: Mountain Biking, Chess (incl. a competitive Chess Team), and Esports, plus a Global Knights student group — some offerings are schedule-embedded and not posted publicly, so this is a floor, not a total.',
+      text: 'Named minimum: Mountain Biking, Wrestling, Chess (incl. a competitive Chess Team), Baseball, Cheer and Esports, plus a Global Knights student group — some offerings are schedule-embedded and not posted publicly, so this is a floor, not a total.',
       tag: 'Named minimum',
     },
     {
@@ -423,7 +423,7 @@ const CHARLOTTE_CHRISTIAN: ClubCatalog = {
     },
     {
       label: 'Count & scope',
-      text: '35 named organizations counted here, JK–12 (23 Upper + 4 Middle + 8 Lower). There is no single published directory. Left out as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent and community groups (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.',
+      text: '38 named organizations counted here, JK–12 (23 Upper + 7 Middle + 8 Lower). There is no single published directory. Left out as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent and community groups (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.',
       tag: 'School-reported',
     },
   ],

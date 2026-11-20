@@ -4141,7 +4141,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'JK – Grade 4',
       teaser:
-        '5 core subject strands — Bible from JK through a Grade 4 Case for Christ apologetics capstone — plus six enrichment classes.',
+        'Bible plus 5 core subject strands — Bible from JK through a Grade 4 Case for Christ apologetics capstone — plus six enrichment classes.',
       source: 'Charlotte Christian Lower School Curriculum brochure',
       sourceUrl:
         'https://www.charlottechristian.com/fs/resource-manager/view/94f7a8dc-97a5-4798-aeeb-bb83410b4312',
@@ -4360,7 +4360,7 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '~135 courses across 11 departments — 21 AP course lines, 35+ honors, and 4 required units of Biblical Studies.',
+        '143 course entries across 11 departments — 21 AP courses on the guide’s AP list, 35+ honors, and 4 required units of Biblical Studies. Shown here as 129 entries: the French, Latin and Spanish sequences and Yearbook share a row each. The list shows 22 AP titles because the guide also describes AP Spanish Literature.',
       source: "Charlotte Christian US Course Curriculum Guide '26–27",
       sourceUrl:
         'https://www.charlottechristian.com/fs/resource-manager/view/e07cd151-2d20-44e0-a7db-f0b6d50ba314',

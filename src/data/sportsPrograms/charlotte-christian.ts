@@ -76,7 +76,7 @@ export const charlotteChristian: SportsProgram = {
       },
     ],
     footnote:
-      'The school’s published figure of 22 sports counts the boys’ and girls’ versions of a sport separately. The figure includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA. Its Head of School, Barry Giller, is president of the NCISAA Board of Directors.',
+      'The 50+ teams figure is the school’s; the chips below list the 44 it names. The school’s published figure of 22 sports counts the boys’ and girls’ versions of a sport separately. The figure includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA. Its Head of School, Barry Giller, is president of the NCISAA Board of Directors.',
     sources: [
       { label: 'charlottechristian.com — Knights Accolades', url: ACCOLADES },
       { label: 'charlottechristian.com — Teams & Schedules', url: 'https://www.charlottechristian.com/athletics/teams' },
