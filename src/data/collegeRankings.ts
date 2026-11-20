@@ -407,6 +407,9 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "University of Southern Mississippi": "National Rank #308",
   "University of Tennessee": "National Rank #109",
   "University of Texas": "National Rank #34",
+  // The flagship's full name, so the membership alias for the bare "University of
+  // Texas" (collegeMemberships.ts, plan consistency LAT-2) still finds its rank.
+  "The University of Texas at Austin": "National Rank #34",
   "University of Texas–San Antonio": "National Rank #227",
   "University of the Pacific": "National Rank #121",
   "University of Tulsa": "National Rank #148",

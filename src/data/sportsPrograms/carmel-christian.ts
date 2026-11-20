@@ -29,7 +29,7 @@ export const carmelChristian: SportsProgram = {
       'Basketball, soccer and volleyball carry a JV and Middle School ladder; there is no football, lacrosse or track on the current offered list.',
     stats: [
       { value: '9', label: 'distinct varsity sports' },
-      { value: '~28', label: 'teams across V · JV · MS' },
+      { value: '29', label: 'teams across V · JV · MS' },
       { value: '4A', label: 'NCISAA (was 3A through ~2019)' },
       { value: 'Cougars', label: 'Matthews, NC' },
     ],
@@ -106,7 +106,7 @@ export const carmelChristian: SportsProgram = {
       'Four recent NCISAA titles — two in boys basketball (2019 3A, 2022 4A), one in boys soccer (2020 4A) and one in boys tennis (2025 4A) — behind a string of deep finals runs.',
     subhead:
       '"State" = NCISAA (the private-school association); Carmel does not compete in the public-school NCHSAA.',
-    seasonLabels: ['2019–2020', '2021–2022', '2022–2023 →'],
+    seasonLabels: ['2019–20 finals', '2021–22 finals', '2023–26 finals'],
     rows: [
       {
         program: 'Boys Basketball',
@@ -317,7 +317,7 @@ export const carmelChristian: SportsProgram = {
     stats: [
       { value: '4A', label: 'NCISAA top classification' },
       { value: 'Aug 12 2025', label: 'Bryce Slay NIL deal announced' },
-      { value: '5', label: 'D1 basketball signees, 2024–26' },
+      { value: '4', label: 'D1 basketball signees, 2024–26' },
     ],
     schedule: [],
     nil: [

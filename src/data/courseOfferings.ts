@@ -6535,7 +6535,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
       title: 'High School Courses',
       grades: 'GRADES 9 – 12',
       teaser:
-        '77 course titles across 9 departments — including 16 Advanced Placement courses — from the school’s 2026-27 course listings and graduation requirements.',
+        '96 course entries (77 distinct titles) across 9 departments — including 16 Advanced Placement courses — from the school’s 2026-27 course listings and graduation requirements.',
       source: 'Carmel Christian HS Course Descriptions & 2026-27 Graduation Requirements',
       sourceUrl:
         'https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487133&type=d&pREC_ID=935891',

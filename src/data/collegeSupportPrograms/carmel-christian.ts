@@ -395,12 +395,12 @@ export const carmelChristian: CollegeSupportProgram = {
     headline:
       '73% of seniors scored a 3 or higher on at least one AP exam, and 80% took at least one. That is enough for the College Board’s Platinum AP School Honor Roll, its top tier.',
     subhead:
-      'A broad-participation AP program: 14 AP courses across 21 sections taught by 12 teachers, with 19% of seniors sitting five or more exams.',
+      'A broad-participation AP program: in 2023, 14 AP courses across 21 sections taught by 12 teachers, with 19% of seniors sitting five or more exams.',
     stats: [
       { value: 'Platinum', label: 'AP School Honor Roll — the College Board’s top distinction' },
       { value: '73%', label: 'of seniors scored 3+ on at least one AP exam' },
       { value: '80%', label: 'of seniors sat at least one AP exam · 19% sat five or more' },
-      { value: '14 / 21', label: 'AP courses / sections, taught by 12 teachers' },
+      { value: '14 / 21', label: 'AP courses / sections in 2023, taught by 12 teachers' },
     ],
     depthTitle: 'What the AP recognition rests on',
     depth: [
@@ -414,7 +414,7 @@ export const carmelChristian: CollegeSupportProgram = {
       },
       {
         label: 'Staffing',
-        text: '**21 sections across 14 AP courses, taught by 12 teachers** — the program is spread across a real faculty rather than concentrated in one or two rooms.',
+        text: '**In 2023, 21 sections across 14 AP courses, taught by 12 teachers** — the program is spread across a real faculty rather than concentrated in one or two rooms.',
       },
     ],
     // No multi-year AP ledger: the school publishes a single-year AP snapshot,
@@ -542,13 +542,13 @@ export const carmelChristian: CollegeSupportProgram = {
   /* --------------------------------------------------------- outcomes ------ */
   outcomes: {
     headline:
-      'Around 215 institutions appear on the published College Acceptances list — Princeton and Duke at the top, through a deep bench of NC publics and Christian colleges.',
+      '214 colleges appear on the school’s College Acceptances list. Princeton and Duke lead it, with a deep bench of NC public and Christian colleges.',
     subhead:
       'The page gives no time window, no counts and no markings showing where students enrolled. So it reads as an acceptance list built up over time. Here it is scored against the current U.S. News tiers.',
     stats: [
-      { value: '~215', label: 'institutions named on the acceptance list (no count stated)' },
+      { value: '214', label: 'colleges on the acceptance list (217 entries; the list repeats three)' },
       { value: '1 of 8', label: 'Ivy League — Princeton' },
-      { value: '32', label: 'Top-75 National Universities on the list' },
+      { value: '30', label: 'Top-75 National Universities on the list' },
       { value: '8', label: 'HBCUs on the list' },
     ],
     buckets: [
@@ -561,7 +561,7 @@ export const carmelChristian: CollegeSupportProgram = {
     ],
     collegesTitle: 'Every named acceptance',
     colleges,
-    collegesTotal: '~215 institutions · no time window, counts or enrollment markings published',
+    collegesTotal: '214 colleges (217 entries; the list repeats three) · no time window, counts or enrollment markings published',
     scholarships: [
       'No scholarship dollar totals published',
       'No per-class acceptance counts — the list is a single cumulative window',
@@ -594,7 +594,7 @@ export const carmelChristian: CollegeSupportProgram = {
         glyph: '◆',
         items: [
           '**Platinum AP School Honor Roll** — the College Board’s top tier, earned on broad participation (80% of seniors sat an exam, 73% scored 3+) rather than a narrow elite.',
-          '**A heavy-load group exists** — 19% of seniors sat five or more AP exams, across a 14-course / 21-section program.',
+          '**A heavy-load group exists** — 19% of seniors sat five or more AP exams, across a 14-course / 21-section program in 2023.',
           '**A sequenced plan** — the published four-year timeline runs Strong Start → Involvement & Service → Testing & Research → Essays & Applications. So a student works toward the application from 9th grade. It is not thrown together in the fall of senior year.',
         ],
       },
@@ -698,7 +698,7 @@ export const carmelChristian: CollegeSupportProgram = {
       },
       {
         label: 'Outcomes show breadth',
-        text: 'Around 215 named acceptances led by Princeton and Duke, deep in NC public universities and Christian colleges. But the list does not mark enrollments, so it shows acceptances, not where students enrolled.',
+        text: '214 named colleges, led by Princeton and Duke, deep in NC public universities and Christian colleges. But the list does not mark enrollments, so it shows acceptances, not where students enrolled.',
       },
       {
         label: 'The weighting changes with the Class of 2026',

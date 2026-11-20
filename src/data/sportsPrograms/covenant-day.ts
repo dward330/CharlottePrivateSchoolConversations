@@ -40,7 +40,7 @@ export const covenantDay: SportsProgram = {
     subhead:
       'A CISAA / NCISAA 4A program that has sent more than 175 athletes to college sports since the school’s first graduating class in 2006.',
     stats: [
-      { value: '18', label: 'teams, V · JV · MS' },
+      { value: '18', label: 'sports (the school’s count) · 43 V/JV/MS teams below' },
       { value: '82%', label: 'of students play a sport' },
       { value: '175+', label: 'collegiate athletes since 2006' },
       { value: 'CISAA', label: '4A conference in the NCISAA' },

@@ -179,7 +179,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '117', // line-by-line count of the Total Index of Courses by Department (p.8), re-read 2026-11-20; 119 had counted two sub-headings
       'charlotte-latin': '122', // 136 live posts on the Upper School course-offerings page minus 14 department intros (re-counted 2026-11-20)
       'covenant-day': '90', // level-qualified entries across the 9 /academics/high-school department tiles
-      'carmel-christian': '~78', // HS catalog across 9 depts (S2/S3/S4); levels counted separately
+      'carmel-christian': '96', // HS catalog across 9 depts (S2/S3/S4), one entry per level = 96 rows; 77 distinct titles (plan consistency CAR-3)
       'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
       'hickory-grove-christian': '112', // real courses in the 2026-2027 Course Selection Catalog; 117 distinct title strings, 5 of them spelling variants
       'gaston-day': '46', // counted from the Academic Profile 2025-2026 curriculum table — the school publishes no separate course catalog
@@ -209,7 +209,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'carmel-christian': {
         kind: 'scope',
-        text: 'High-school catalog only; the school publishes no named lower- or middle-school course lists. A subject taught at Standard, Honors and AP is counted as separate titles, matching how the school lists them.',
+        text: 'Counted from the 2026–27 high-school course listings, one entry per course level, as Covenant Day and Hickory Grove are counted. A subject taught at Standard, Honors and AP counts three times, so the 96 entries come from 77 distinct titles.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -234,7 +234,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '23 AP + 18 IB', // plus the IB core (Theory of Knowledge, Extended Essay, CAS)
       'charlotte-latin': '24 AP subjects', // the 2026–27 Upper School Profile; the course-offerings page lists 23 AP courses
       'covenant-day': '17 AP', // AP-tagged courses on the /academics/high-school department tiles; the 2026-27 Profile matrix listed 15
-      'carmel-christian': '16', // 16 AP courses (landing page; profile says 15, +AP World History → 16)
+      'carmel-christian': '16 AP', // 16 AP courses (landing page; profile says 15, +AP World History → 16)
       'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
       'hickory-grove-christian': '17 AP', // the 2026-2027 catalog's Advanced Placement section, counted title by title
       'gaston-day': '10 AP', // counted from the profile's own course table; PSR says 9 and omits Chemistry, which the profile marks (H)(AP)
@@ -1592,7 +1592,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': 'AP + IB', // AP and IB arts pathways (rare dual offering)
       'charlotte-latin': null, // not detailed
       'covenant-day': 'AP Studio Art', // + Honors Studio Art and Honors Auditioned Theatre
-      'carmel-christian': '3', // AP 2-D Art & Design, Honors Art III, Honors Art IV (curriculum guide)
+      'carmel-christian': '1 AP + 3 Honors', // AP 2-D Art & Design, Honors Art III, Honors Art IV, Honors Acting Studio (course offerings; plan consistency CAR-22)
       'davidson-day': null, // not detailed
       'hickory-grove-christian': 'AP 2D Studio Art', // atop the Art I–IV studio sequence; the school's own course name (live Visual Arts page + 2026–27 catalog, checked 2026-11-10)
       'gaston-day': 'Visual Art IV (H)', // the terminal visual-arts course — there is no AP Studio Art or AP Art History in the profile's table
