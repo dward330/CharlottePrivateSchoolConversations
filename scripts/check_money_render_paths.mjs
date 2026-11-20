@@ -63,6 +63,11 @@ const REVIEWED = new Set([
   'data.collegesTotal', // "300 institutions · bold = …"
   'c.status',          // an enum key, not a value
 
+  // Wells Fargo Cup tiles (SportsProgram.tsx). Both are numbers computed from the
+  // ledger by headlineStats(), never strings from src/data, so neither can hold "$".
+  'seasonsTotal',       // a season count: the "5 / 6" Cups-won tile
+  'latestMargin.value', // Cup points over the rival, formatted by number() inside CupSigned
+
   // PROP HAND-OFFS, not render sites. These pass a string into TuitionChart /
   // RangeChart / Ladder, which localize it themselves — wrapping here too would
   // double-apply. The receiving components are the render sites, and they are
