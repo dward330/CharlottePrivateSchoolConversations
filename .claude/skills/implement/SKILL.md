@@ -42,6 +42,14 @@ These checks, in order:
 - **Approvals** — if the plan's *Approvals needed* section is non-empty and the user
   hasn't given that approval in this conversation, stop and ask. The UX-design gate in
   `CLAUDE.md` is the common case and it is a hard gate, not a formality.
+- **Claude Design** — if the plan has an approved UX change, call the Claude Design MCP's
+  `list_projects` now. If it fails or its tools are missing, **stop and ask the user to
+  reconnect Claude Design** (`/design-login`), and do not build that change until it works.
+  Never substitute an Artifact canvas. Data-only steps may go ahead meanwhile. The change is
+  designed in the project before it is built, and the changed design files are re-captured
+  from the built app afterward (`design:capture` → write → `design:verify`), so the project
+  matches what ships. This is a hard rule in `CLAUDE.md` (2026-11-21); run it even if an older
+  plan has no design step.
 - **Open questions** — apply each stated default and tell the user which defaults you're
   proceeding under. Only block if a question has no default and proceeding either way
   would be unsafe or make the work useless if wrong.

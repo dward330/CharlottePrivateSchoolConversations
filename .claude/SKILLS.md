@@ -112,7 +112,7 @@ not the vetted record.
 
 **Research a change and write a durable implementation plan.**
 
-`.claude/skills/plan/SKILL.md` · added 2026-08-02 · updated 2026-08-19
+`.claude/skills/plan/SKILL.md` · added 2026-08-02 · updated 2026-11-21 (approved UX changes get a Claude Design step before the build and a re-capture after)
 Ships with `plan-template.md`.
 
 Produces one self-contained document at `.claude/plans/<name>.md` that a **fresh Claude
@@ -145,7 +145,7 @@ the plan is not done.
 
 **Execute a documented plan: build, verify, PR, close the loop.**
 
-`.claude/skills/implement/SKILL.md` · added 2026-08-02 · updated 2026-11-21 (source-freshness gate; 2026-11-05: Phase 2 runs `check:digits`)
+`.claude/skills/implement/SKILL.md` · added 2026-08-02 · updated 2026-11-21 (source-freshness and Claude Design gates; 2026-11-05: Phase 2 runs `check:digits`)
 
 The plan is the spec. This skill's job is to execute it faithfully, verify it honestly,
 and leave the index telling the truth about what shipped.
@@ -155,7 +155,7 @@ and leave the index telling the truth about what shipped.
 | Step | |
 |---|---|
 | 1 | Pick the plan (or list unimplemented ones and ask) |
-| 2 | **Gate** — approvals, open questions, staleness, staged research, source freshness |
+| 2 | **Gate** — approvals, Claude Design connected, open questions, staleness, staged research, source freshness |
 | 3 | Branch (never commit to `main`) |
 | 4 | 🇬🇧 **Build Phase 1 — English only** |
 | 5 | Verify Phase 1 |
@@ -166,6 +166,11 @@ and leave the index telling the truth about what shipped.
 
 > **🛑 Step 6 is a real stop.** Both phases land in one PR, but between them the plan sits
 > at `English shipped` awaiting your review of the wording.
+
+> **🎨 An approved UX change is designed in Claude Design first, and re-captured after.**
+> If the Claude Design MCP is not connected, `/implement` stops and asks you to reconnect it
+> (`/design-login`); it never falls back to an Artifact canvas. Hard rule in `CLAUDE.md`,
+> 2026-11-21, so the design project keeps matching the live site.
 
 > **🕰️ A value fetched more than 7 days ago is re-checked before it is typed.** If the
 > school's page has moved, the item waits for the user's call; the rest of the build goes on.
