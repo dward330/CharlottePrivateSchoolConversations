@@ -3475,7 +3475,7 @@ const CANNON: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '104 courses across 8 departments — 14 AP plus 13 faculty-designed Advanced Topics courses, each capped by a Signature Learning Experience or a final cumulative exam.',
+        '104 courses across 8 departments — 14 AP plus 13 faculty-designed Advanced Topics courses, each capped by a Signature Learning Experience or a final cumulative exam. Shown here as 101 entries: String Ensemble I–IV share a row.',
       source: "Cannon Upper School Course Catalog '26–27",
       sourceUrl:
         'https://resources.finalsite.net/images/v1769529893/cannonschoolorg/ihl0lzuqgs9loqntga7z/CannonAcademicCourseCatalog2026-2027.pdf',

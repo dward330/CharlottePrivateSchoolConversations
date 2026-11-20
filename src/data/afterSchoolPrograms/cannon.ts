@@ -144,7 +144,7 @@ export const cannon: AfterSchoolProgram = {
     ],
     aside: {
       title: 'Or skip the contract entirely.',
-      text: 'Drop-in is **$11.50 an hour** with no commitment. A family needing two afternoons a month pays roughly **$100 a year** instead of $1,904 — an unusually forgiving option for occasional use.',
+      text: 'Drop-in is **$11.50 an hour** with no commitment. Two afternoons a month is about **$69 a month** on the hourly rate, against $1,904 a year for a two-day contract — an unusually forgiving option for occasional use.',
     },
     fees: [
       { label: 'Registration fee', value: '$25' },
@@ -279,7 +279,7 @@ export const cannon: AfterSchoolProgram = {
     strengths: [
       '**Long, uniform coverage** — 3:00 to 6:00 p.m. every regular day across the whole JrK–8 span, with no age-based cutoff and no split Lower/Middle program.',
       '**Early-dismissal days are covered**, 11:45 a.m.–4:00 p.m., which many schools do not do at all.',
-      '**True drop-in at $11.50 an hour with no contract.** A family needing two afternoons a month pays around $100 a year rather than committing to $1,904. For occasional use, that is unusually forgiving.',
+      '**True drop-in at $11.50 an hour with no contract.** Two afternoons a month is about $69 a month on the hourly rate, against $1,904 a year for a two-day contract. For occasional use, that is unusually forgiving.',
       '**A sharp price ladder** — five days costs only about 3.7× the one-day rate, so heavy users get a real discount rather than a linear bill.',
       '**A large, fully priced enrichment catalog** — 22 distinct classes in a single session, from robotics, ballet and chess to pottery, golf and photography. Each has a named provider and a real fee.',
       '**Enrichment is modestly priced and transparent** — $18–$30 per class, mostly $144–$300 for a 10-week session, with full refunds for canceled classes and a make-up week.',

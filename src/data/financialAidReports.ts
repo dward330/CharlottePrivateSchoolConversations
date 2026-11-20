@@ -602,11 +602,11 @@ const CANNON: FinancialAidReport = {
       boxes: [
         {
           title: 'Aid trend — two years',
-          body: 'Awarded aid moved **$2,700,000 to 23% of students (2024–25)** to **$3,000,000 to 24% (2025–26)**. Tuition over the same span rose about 4.5%, so aid grew roughly in step with price.',
+          body: 'Awarded aid moved **$2,700,000 to 23% of students (2024–25)** to **$3,000,000 to 24% (2025–26)**. That is about 11% more aid, while tuition rose 3–5% over the same span.',
         },
         {
           tag: 'SIX YEARS OF RATES, FROM THE ARCHIVE',
-          body: 'The live site publishes only the current year, but archived copies show 2021–22 onward. Most bands rise 2–4.5% a year. The one exception: **Grades 5–8 jumped 8.5% in 2023–24 and 7.5% in 2024–25**, well outside the pattern elsewhere in the table. That is worth asking about if your child is entering middle school.',
+          body: 'The live site publishes only the current year, but archived copies show 2021–22 onward. In 2023–24 and 2024–25 the upper three bands rose 5.5–8.5% a year, and **Grades 5–8 rose the most: 8.5% and then 7.5%**. The two youngest bands rose 2–4.5%. That is worth asking about if your child is entering middle school.',
         },
         {
           tag: 'FEE TREND, 2024–25 → 2026–27',

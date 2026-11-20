@@ -31,7 +31,7 @@ export const cannon: SportsProgram = {
     subhead:
       'Middle School teams begin in grade 7, and 8th-graders do reach varsity — an eighth-grader scored 12 points in the 2026 state final.',
     stats: [
-      { value: '21', label: 'varsity programs' },
+      { value: '20', label: 'varsity programs' },
       { value: '47', label: 'teams across V · JV · MS' },
       { value: '300+', label: 'student-athletes' },
       { value: 'NCISAA', label: '4A state · CISAA conference' },
