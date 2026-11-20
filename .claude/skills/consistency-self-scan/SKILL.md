@@ -177,6 +177,9 @@ Agents return confident summaries, and their mistakes read the same as their fin
    the bars bug was in round 1 (six schools, one row).
 3. **Check against the previous worklists.** A "new" finding that a prior round already holds
    is Part 1 material (REGRESSED), not new.
+3a. **Drop anything [`settled.md`](settled.md) lists**, whichever agent raised it and whatever
+   it was called. Say how many were dropped and under which S-ID. Never put one in the
+   worklist, the approvals list or the decisions the user must make.
 4. **Write the worklist folder** `.claude/plans/<name>-data/`:
    - each agent's file, copied as-is;
    - `r8.txt`, so the next rescan can diff it;
@@ -215,7 +218,18 @@ B items were attributed, how chrome overrides and card-link aliases were handled
 **two-phase** whenever a fix touches English prose or chrome, as almost every round does.
 `/plan` then hands off to `/implement` as usual.
 
+**When the user rules a finding is not a conflict, or is to be left for good,** append it to
+[`settled.md`](settled.md) in the same change, with the next S-ID: what not to report, why,
+who ruled and when, and what is still a finding. A ruling written only into one round's plan
+is lost two rounds later. A one-round D ("no change unless the school answers") does not
+belong there.
+
 ## Traps, each of which has already happened
+
+> **⚠️ A settled ruling comes back two rounds later.** A rescan inherits rulings only from the
+> previous round's plan. The Top-75 cap was ruled in PR #317 and re-raised in round 3 as LAT-S1,
+> worded as a new cross-school finding. [`settled.md`](settled.md) is the permanent list. Agents
+> read it, and Step 5 drops anything on it.
 
 > **⚠️ A fix lands in one card and misses the second.** Round 2's biggest group was a card
 > saying a course or honor-society fact is "not published" while another card on the same page

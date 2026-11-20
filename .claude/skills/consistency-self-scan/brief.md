@@ -136,6 +136,11 @@ Mark a proposed change **UX-GATE** if it would add a card, section, tile, Compar
 key, reorder anything, or change a component; mark it **CHROME** if it edits `en.json` (it then
 needs all ten locale catalogs, and a card-title change also needs a `cardLinkAliases.ts` entry).
 
+**Before you sweep, read `.claude/skills/consistency-self-scan/settled.md`.** It lists
+rulings the user has made for good, from any round. Never report a pattern it lists, in Part 1
+or Part 2, and never propose a label for one. Note each one you saw once, under "Settled,
+skipped" in your output.
+
 Do not report pure wording, style, plain-language or translation issues. Report only value
 conflicts. Do not report the same root cause twice: group one cause that shows up in several
 places into one finding. **If a cause also appears at schools outside your group, say so** —
@@ -182,6 +187,8 @@ Write your output file as markdown:
 4. **Checked and consistent**: a short list of what you swept and found clean, so the parent
    can show coverage.
 5. **Files touched**: every source-material file you appended to, or "none".
+6. **Settled, skipped**: each `settled.md` pattern you saw, with its ID and page line, or
+   "none".
 
 Then return a concise summary to the parent with Part 1 counts and the Part 2 table inline.
 Keep it factual. Do not pad it, and do not report a finding you did not verify.

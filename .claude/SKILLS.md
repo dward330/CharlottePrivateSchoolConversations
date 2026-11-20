@@ -641,7 +641,8 @@ diagnose each conflict against the live source, and hand the worklist to `/plan`
 
 `.claude/skills/consistency-self-scan/SKILL.md` · added 2026-11-21 · supporting files:
 `brief.md` (the sweep agents' brief, filled per run), `dump_pages.py` (page-text dump of
-`dist/school/*`, copied from `consistency-data/`)
+`dist/school/*`, copied from `consistency-data/`), `settled.md` (rulings the user made for good;
+agents never report them and Step 5 drops them; S1 is the Top-75 75 / 75 cap)
 
 The repeatable version of three rounds run by hand: `consistency` (101 findings, PR #507),
 `consistency2` (13 partial fixes and 30 new conflicts, PR #509) and the round-3 re-scan whose
