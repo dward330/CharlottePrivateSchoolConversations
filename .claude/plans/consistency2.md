@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-20
 branch: fix/consistency2
-prs: []
+prs: [509]
 ---
 
 # Fix the residue of plan `consistency`
