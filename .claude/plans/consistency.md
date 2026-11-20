@@ -1,11 +1,11 @@
 ---
 name: consistency
 title: Resolve internal data inconsistencies across all 13 school pages, derive the College Pipeline numbers from the roster, and add a build-time consistency check
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-20
 branch: fix/consistency
-prs: []
+prs: [507]
 ---
 
 # Internal data consistency: all 13 schools
@@ -796,3 +796,29 @@ the plan, and why:
   Sports Offered headline (now "18 sports").
 - **Plain language.** Data edits made by script bypass the PostToolUse hook, so every
   commit was preceded by a hook run over the changed files (Write payload, HEAD as base).
+
+Phase 2 (nine prose locales + chrome), 2026-11-20, same branch, PR #507:
+
+- **Extractor classification.** Phase 1's new pipeline fields `match` (bar → roster
+  sports) and `derive` (funnel stage → roster count) are code identifiers, and the
+  extractor refused them as unclassified (exit 1). Both are now `SKIP_KEYS` in
+  `scripts/i18n_fields.mjs`.
+- **Splice.** `i18n_splice_work.mjs` per locale: 15,351 kept, 277 added, 247 dropped,
+  140 `at` paths refreshed. The Providence Day course rows and the removed bars are
+  covered by the stamp join, so step 3 needed no separate re-splice. 0 duplicate `at`
+  paths; a by-stamp audit against HEAD found 0 previously shipped `t` changed.
+- **Carry-over.** 45 units differed from their predecessor only in figures. They kept
+  their `t`, with each changed token substituted and the replacement count asserted per
+  locale. 10 appended a sentence; those were translated with the rest.
+- **Translation.** 232 units per locale, one agent per locale in a private directory,
+  each validated centrally (digits, markdown, script, length ratio). Edited units are
+  minimal edits of the reviewed `t`.
+- **Fixes beyond the plan.** An inherited English "January" in the ar, fa, hi and te
+  translations of Latin's summer catalog intro; es "$14.7M" restored to the corpus form
+  "$14.7 million".
+- **Kept deliberately.** `check:digits` shows 4 inherited number words (ar/fa "one day",
+  fa "fifth" and "ninth"). te/hi keep Charlotte Catholic's "Community" band label in
+  English, matching their "community rate" prose.
+- **Pre-existing.** `check:money` fails on `SportsProgram.tsx` Cup tiles that are
+  unchanged from `main`.
+
