@@ -1,7 +1,7 @@
 ---
 name: consistency
 title: Resolve internal data inconsistencies across all 13 school pages, derive the College Pipeline numbers from the roster, and add a build-time consistency check
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-20
 branch: fix/consistency
@@ -736,3 +736,63 @@ Follow `.claude/docs/prose-translation-architecture.md` for the mechanism. Steps
 - **CCHS-13:** the year-to-column convention for fall titles (fall 2025 → column "2025" or
   "2025–26"). **Default:** follow the convention the existing CCHS rows use; the implementer
   confirms it from the boys soccer and girls tennis dates in the Cup ledger.
+
+## Implementation notes
+
+Phase 1 (English) built on `fix/consistency`, 2026-11-20. Approvals 1–6 given in the
+implementing session; data defaults 7–14 accepted, except LAT-2 (below). Deviations from
+the plan, and why:
+
+- **LAT-2 → UT Austin at all five schools (user ruling, two steps).** The user chose UT
+  Austin over the "identity unknown" default. `check:memberships` resolves Power Four by
+  name, so Latin alone was impossible: Cannon, Country Day, Charlotte Christian and
+  Providence Day print the same bare "University of Texas". The user chose all five. An
+  alias in `collegeMemberships.ts` maps it to the flagship; Power Four +1 at all five
+  (Latin 62, Cannon 62, CCD 64, CC 55, PD 66) on cards, tiles, Compare cells and quals.
+  The alias then hid the school from `check:buckets` (the rank table knew only the bare
+  name), so `collegeRankings.ts` gains "The University of Texas at Austin" at #34.
+- **LAT-9 → the C label, not the default.** The catalog's source line read
+  "27 published − 5 arts + 3 service orgs = 25", and Providence Day's count also leaves
+  out its 5 arts clubs, so the exclusion is the site's convention. The plan's own fallback
+  applies: Latin stays 25, labelled "22 of the 27 on the school's list … plus three groups
+  it lists separately", with a Compare qual. The five clubs' purposes are recorded under
+  `## Method` in the Latin club web-check record.
+- **LAT-13 not applied.** A school-page stat tile renders the shared Compare `label`, so a
+  per-school basis label needs a component change (a UX gate). The Compare qual already
+  states the basis. Left as a suggestion.
+- **X1 (bars).** Bars with no D1 commit are hidden at render, not deleted from the data,
+  and bars are sorted largest-first at render (ties keep data order, "Other" last). Data
+  order, and so every overlay path, is unchanged; no bar label is extracted for
+  translation anyway (`sport` is a skip key). Counts are derived from the ENGLISH roster
+  (`sportsProgram(slug)` in `SchoolDetail.tsx`), because `pipeline.roster[].sport` is
+  translated in some locales (es "Fútbol americano"). Covenant gains a Tennis bar
+  (appended). `gen_cup_episode.mjs` reads the derived counts too. Funnel widths stay typed.
+- **check:consistency calibration.** R1 reads the headline only: every school's subhead is
+  a per-sport breakdown. R3 distinguishes a sampled catalog ("N of the M … are listed")
+  from a complete slate, where every "N camps" must match. R6 lets an Ivy Plus note leave
+  the Ivy absences to the Ivy row, and skips a note qualified "at the very top". R7 asks
+  that all season headers use ONE basis per school (rows, or boys' and girls' teams) and
+  that any "N varsity" equals the header sum. R8 adds two computed figures (V/JV/MS chips;
+  bucket counts) so CAR-26 and CAR-18 surface. The baseline caught every row the plan
+  named, plus GD-10 and HG-17.
+- **CCHS-13 columns.** The Cup ledger records a fall title by the calendar year of its
+  final, and with calendar columns the 2026 column holds exactly the headline's "four
+  more in 2026". So the five rows are appended on calendar years, and football's fall 2025
+  record moved from the 2026 column to 2025.
+- **HG-16 Compare value** follows Cannon's annual-price convention: `≈$260/mo` with
+  `$2,600/yr` beneath, rather than "$2,600/yr (TK–5)" as the cell.
+- **COV-25.** `check:cardlink` rejected the former name because "the-tk-12-arts-ladder" is
+  still current at Latin and PD. Its alias-hygiene rule now judges per card key: a name
+  still current for the same card elsewhere is a valid former name for the school whose
+  title changed (openFromHash resolves page by page). Negative-tested.
+- **CC-6** also moved the Grade 5 and Grade 6 ladder items from Lower to Middle School.
+- **CCD-27:** Global Exposure has no flag field, so the dev note is a code comment.
+- **CCD-9** drops the ask as planned; it was the card's second-to-last, so the last ask's
+  overlay path shifts (Phase 2).
+- **TRI-22** reverses an earlier deliberate omission (Invisible Differences); the dev
+  `count` flag records the new reasoning.
+- **R8 residue fixed** (found by the report, not in the findings): Charlotte Catholic's
+  "~195 students per counselor" tile (now ~222 on NCES 1,330) and Covenant's "18 teams"
+  Sports Offered headline (now "18 sports").
+- **Plain language.** Data edits made by script bypass the PostToolUse hook, so every
+  commit was preceded by a hook run over the changed files (Write payload, HEAD as base).
