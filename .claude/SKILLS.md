@@ -145,7 +145,7 @@ the plan is not done.
 
 **Execute a documented plan: build, verify, PR, close the loop.**
 
-`.claude/skills/implement/SKILL.md` · added 2026-08-02 · updated 2026-11-05 (Phase 2 runs `check:digits`)
+`.claude/skills/implement/SKILL.md` · added 2026-08-02 · updated 2026-11-21 (source-freshness gate; 2026-11-05: Phase 2 runs `check:digits`)
 
 The plan is the spec. This skill's job is to execute it faithfully, verify it honestly,
 and leave the index telling the truth about what shipped.
@@ -155,7 +155,7 @@ and leave the index telling the truth about what shipped.
 | Step | |
 |---|---|
 | 1 | Pick the plan (or list unimplemented ones and ask) |
-| 2 | **Gate** — approvals, open questions, staleness, staged research |
+| 2 | **Gate** — approvals, open questions, staleness, staged research, source freshness |
 | 3 | Branch (never commit to `main`) |
 | 4 | 🇬🇧 **Build Phase 1 — English only** |
 | 5 | Verify Phase 1 |
@@ -166,6 +166,10 @@ and leave the index telling the truth about what shipped.
 
 > **🛑 Step 6 is a real stop.** Both phases land in one PR, but between them the plan sits
 > at `English shipped` awaiting your review of the wording.
+
+> **🕰️ A value fetched more than 7 days ago is re-checked before it is typed.** If the
+> school's page has moved, the item waits for the user's call; the rest of the build goes on.
+> Round 1 of the consistency work found a seed item that had flipped between sightings.
 
 > **⛔ Merging is pre-authorized. Publishing is not.** `gh pr merge --squash
 > --delete-branch` needs no permission; `npm run deploy` needs a fresh instruction **every
@@ -639,10 +643,11 @@ a current student without a documented commitment, claim a scholarship, or deplo
 **Scan every school page for places where the app contradicts itself through its own data,
 diagnose each conflict against the live source, and hand the worklist to `/plan`.**
 
-`.claude/skills/consistency-self-scan/SKILL.md` · added 2026-11-21 · supporting files:
+`.claude/skills/consistency-self-scan/SKILL.md` · added 2026-11-21 · updated 2026-11-21 (settled ledger) · supporting files:
 `brief.md` (the sweep agents' brief, filled per run), `dump_pages.py` (page-text dump of
-`dist/school/*`, copied from `consistency-data/`), `settled.md` (rulings the user made for good;
-agents never report them and Step 5 drops them; S1 is the Top-75 75 / 75 cap)
+`dist/school/*`, copied from `consistency-data/`), `settled.md` (the permanent ledger of settled
+rulings, rule ideas turned down and R8 groups triaged as not a conflict; agents never report
+them and Step 5 drops them, but a *these values* entry reopens when its values move)
 
 The repeatable version of three rounds run by hand: `consistency` (101 findings, PR #507),
 `consistency2` (13 partial fixes and 30 new conflicts, PR #509) and the round-3 re-scan whose
@@ -679,6 +684,10 @@ school slug.
 
 > **⚠️ Agents' mistakes read as confidently as their findings.** Step 5 checks every quoted
 > value before anything reaches the worklist.
+
+> **🗂️ An accepted conflict stays accepted only while its values hold.** `settled.md` records
+> each ruling with the values it accepted. When the school or our data moves one, the next
+> scan reports it again as a new finding, so a stale approval cannot hide a fresh problem.
 
 **Deliberately cannot:** edit app code or a check, commit, deploy, pick a winner between a
 school's own conflicting pages, report wording or translation issues, or scan a school the app

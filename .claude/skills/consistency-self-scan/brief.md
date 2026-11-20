@@ -141,6 +141,12 @@ rulings the user has made for good, from any round. Never report a pattern it li
 or Part 2, and never propose a label for one. Note each one you saw once, under "Settled,
 skipped" in your output.
 
+**Mind what each entry covers** (its "How an entry matches" section). A *pattern* entry holds
+for any values. A *these values* entry holds only while the page shows exactly the values it
+records. If the page now shows something different at that spot, it is **a new finding**:
+report it in Part 2 with "was settled as S<n>", giving the old and new values. Each entry's
+"Still a finding" line stays reportable while the entry holds.
+
 Do not report pure wording, style, plain-language or translation issues. Report only value
 conflicts. Do not report the same root cause twice: group one cause that shows up in several
 places into one finding. **If a cause also appears at schools outside your group, say so** —
@@ -173,8 +179,11 @@ Run sections 1–10 above on the page dumps for your schools.
 
 ## Part 3 — R8 triage
 
-For each R8 group for your schools in `r8.txt`: real conflict or not, one line each. On a
-rescan, flag groups that are new since the previous report — those were never triaged.
+For each R8 group for your schools in `r8.txt`: real conflict or not, one line each. Skip a
+group whose numbers exactly match a row of `settled.md`'s "R8 groups already triaged" table
+(list it under "Settled, skipped"); where a group has gained or changed a number, triage only
+that member. On a rescan, flag groups that are new since the previous report — those were
+never triaged.
 
 ## Output
 
@@ -187,8 +196,8 @@ Write your output file as markdown:
 4. **Checked and consistent**: a short list of what you swept and found clean, so the parent
    can show coverage.
 5. **Files touched**: every source-material file you appended to, or "none".
-6. **Settled, skipped**: each `settled.md` pattern you saw, with its ID and page line, or
-   "none".
+6. **Settled, skipped**: each `settled.md` entry or R8 row you saw, with its ID and page line,
+   or "none". A *these values* entry whose values moved is not skipped; it is in Part 2.
 
 Then return a concise summary to the parent with Part 1 counts and the Part 2 table inline.
 Keep it factual. Do not pad it, and do not report a finding you did not verify.

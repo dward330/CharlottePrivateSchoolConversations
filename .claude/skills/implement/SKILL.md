@@ -37,7 +37,7 @@ step 7 — don't rebuild Phase 1.
 
 ### 2. Gate before building
 
-Three checks, in order:
+These checks, in order:
 
 - **Approvals** — if the plan's *Approvals needed* section is non-empty and the user
   hasn't given that approval in this conversation, stop and ask. The UX-design gate in
@@ -52,6 +52,18 @@ Three checks, in order:
 - **Staged research** — `/plan` may have left fetched data in `source-material/**/*.md`,
   uncommitted. If it's there, commit it on the branch and ingest it as your first build
   step.
+- **Source freshness** — a value the plan copies from a school's live page goes stale when
+  the page changes. **If more than 7 days have passed since that value was fetched** (the
+  date on its `### Re-verification <date>` note under `## Method`, or else the plan's
+  date), re-open the cited source before typing the value, and record what it says today in
+  a new `### Re-verification <today> (plan <name>, implement)` sub-section under that
+  record's `## Method`. If it still matches, build as planned. If it moved, do **not** type
+  either value on your own judgment. Tell the user the old value, the new value and the
+  URL, say what it does to the finding (fixed by the school, now a different value, or now
+  the school's pages disagreeing), and wait for their call on that item; build the rest
+  meanwhile. Values recounted from our own lists need no fetch. Round 1 of the consistency
+  work is the reason: a seed item had flipped because the school's page changed between
+  sightings.
 
 ### 3. Branch
 
