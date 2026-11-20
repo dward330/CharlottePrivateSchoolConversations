@@ -9,6 +9,12 @@
             "command": "node \"$CLAUDE_PROJECT_DIR/scripts/check_plain_language.mjs\" --hook",
             "timeout": 10,
             "statusMessage": "Checking plain language…"
+          },
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/notify_dependents.mjs\" --hook",
+            "timeout": 10,
+            "statusMessage": "Checking data dependents…"
           }
         ]
       }

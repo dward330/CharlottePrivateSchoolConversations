@@ -177,7 +177,7 @@ and leave the index telling the truth about what shipped.
 
 **Keep the derived layers in sync with raw research.**
 
-`.claude/skills/ingest-source-material/SKILL.md` · added 2026-07-03 · updated 2026-11-05 (research bookkeeping is dev-only)
+`.claude/skills/ingest-source-material/SKILL.md` · added 2026-07-03 · updated 2026-11-20 (dependents registry)
 Ships with `build_docs.py`. *The oldest skill in the repo.*
 
 Regenerates the distilled notes in `.claude/docs/` and the manifest `src/data/schools.json`

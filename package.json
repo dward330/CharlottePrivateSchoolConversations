@@ -24,6 +24,8 @@
     "check:metrics": "node scripts/check_metrics.mjs",
     "check:cup": "node scripts/check_cup_ledger.mjs",
     "check:consistency": "node scripts/check_consistency.mjs",
+    "dependents": "node scripts/notify_dependents.mjs --since main",
+    "test:dependents": "node --test scripts/notify_dependents.test.mjs",
     "check:sportsmatrix": "node scripts/check_sports_matrix.mjs",
     "coverage:floor": "node scripts/coverage_floor.mjs",
     "fetch:247": "node scripts/fetch_247_ranks.mjs",
