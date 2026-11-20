@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**13 active** · 0 retired · Last updated **2026-11-08**
+**14 active** · 0 retired · Last updated **2026-11-21**
 
 ---
 
@@ -30,6 +30,7 @@
 | 🏆 | [`wells-fargo-cup`](#wells-fargo-cup) | Official Cup tables → go/no-go → next school's Cup card plan | ❌ Never | — |
 | 📣 | [`cup-episode`](#cup-episode) | One Cup division → podcast | ❌ Generates files | Single |
 | 🎯 | [`athlete-commits`](#athlete-commits) | Varsity rosters → college rosters → missing commits → pipeline plan | ❌ Never | — |
+| 🔍 | [`consistency-self-scan`](#consistency-self-scan) | Where does the app contradict itself? → diagnosed worklist → fix plan | ❌ Never | — |
 
 ### The main road
 
@@ -42,12 +43,13 @@
                                                         single time
 ```
 
-Six skills feed research **into** that road at any point:
+Seven skills feed research **into** that road at any point:
 `nc-admissions-data` (admit rates), `global-exposure` (a school's Global Exposure area,
 ending in a `/plan` handoff), `learning-support` (a school's Learning Support area, ending
 in a go/no-go and then a `/plan` handoff), `wells-fargo-cup` (the next school's Cup card,
 ending the same way), `athlete-commits` (a roster school's College Pipeline refresh, ending
-the same way) and `ingest-source-material` (everything else).
+the same way), `consistency-self-scan` (a whole-app scan for self-contradictions, ending the
+same way) and `ingest-source-material` (everything else).
 Four stand alone: `add-school-news`, `admissions-episode`, `learning-support-episode` and
 `cup-episode`.
 
@@ -627,6 +629,59 @@ missing for <school>".
 **Deliberately cannot:** edit app code, research a school the app does not cover, count a
 verbal commitment in the Power 4 or Division I rows, roll the window for one school, name
 a current student without a documented commitment, claim a scholarship, or deploy.
+
+---
+
+<a id="consistency-self-scan"></a>
+
+## 🔍 `consistency-self-scan`
+
+**Scan every school page for places where the app contradicts itself through its own data,
+diagnose each conflict against the live source, and hand the worklist to `/plan`.**
+
+`.claude/skills/consistency-self-scan/SKILL.md` · added 2026-11-21 · supporting files:
+`brief.md` (the sweep agents' brief, filled per run), `dump_pages.py` (page-text dump of
+`dist/school/*`, copied from `consistency-data/`)
+
+The repeatable version of three rounds run by hand: `consistency` (101 findings, PR #507),
+`consistency2` (13 partial fixes and 30 new conflicts, PR #509) and the round-3 re-scan whose
+worklists sit in `consistency3-data/`. An inconsistency is two places stating different values
+for one fact, or a headline that does not match the list beneath it. Each is diagnosed
+**A** (our error), **B** (the school's own pages disagree, so both are shown, attributed),
+**C** (a legitimate difference of year or basis, so it needs a label) or **D** (cannot tell,
+so the user decides).
+
+**Use it when** the pages may have drifted: after a batch of refreshes or ingests, after a
+consistency plan deploys, before a big publish. `/consistency-self-scan`, optionally with a
+school slug.
+
+| Step | What it does |
+|---|---|
+| **0** | Works out the round and the mode from `.claude/plans/` and INDEX.md. **FIRST** sweeps; **RESCAN** first checks every row of the last round's worklists (RESOLVED / NOT / PARTIAL / UNCHANGED BY DECISION). Stops and asks if the last round's plan is still open, or if a scan ran and was never planned. |
+| **1** | Preflight: confirms the tree is `main`, records the scanned SHA, diffs the data changed since the last round. |
+| **2** | `npm run build`, then dumps every pre-rendered school page to text. Every card is in the HTML, open or closed. |
+| **3** | `check_consistency.mjs --report` for the R8 noun-collision groups; scratch recounts where no rule reaches. |
+| **4** | Up to four `general-purpose` sweep agents in parallel, one per school group, each on the filled `brief.md`: ten sweep classes, A/B/C/D, live re-check, R8 triage. |
+| **5** | Greps every quoted value back into the dumps and data files, merges cross-school causes into X rows, writes `.claude/plans/<name>-data/` (agent files, `r8.txt`, `findings.md`), and names candidate new `check:consistency` rules. |
+| **6** | Reports the tally, sharpest examples, approvals and decisions, then offers `/plan <name>`, which is two-phase whenever English prose or chrome changes. |
+
+> **⚠️ A fix lands in one card and misses the second.** Round 2's biggest group was "not
+> published" in one card while another card on the same page published it. A rescan greps every
+> changed value across the whole page and Compare.
+
+> **⚠️ The live source moves.** Round 1 found a seed item had flipped because the school's page
+> changed; round 3 found next summer's prices already up. The value recorded is today's.
+
+> **🔒 Agents are read-only.** Only the parent builds. Agents never run git or the build in the
+> shared tree, and append to source-material only under `## Method`, because a top-level heading
+> renders to parents.
+
+> **⚠️ Agents' mistakes read as confidently as their findings.** Step 5 checks every quoted
+> value before anything reaches the worklist.
+
+**Deliberately cannot:** edit app code or a check, commit, deploy, pick a winner between a
+school's own conflicting pages, report wording or translation issues, or scan a school the app
+does not cover.
 
 ---
 
