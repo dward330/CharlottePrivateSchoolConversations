@@ -36,7 +36,7 @@ export const covenantDay: SportsProgram = {
   /* ---------------------------------------------------------- 1a offered -- */
   offered: {
     headline:
-      '18 teams across three seasons, with 82% of students playing at least one sport.',
+      '18 sports across three seasons (the school’s count), with 82% of students playing at least one sport.',
     subhead:
       'A CISAA / NCISAA 4A program that has sent more than 175 athletes to college sports since the school’s first graduating class in 2006.',
     stats: [

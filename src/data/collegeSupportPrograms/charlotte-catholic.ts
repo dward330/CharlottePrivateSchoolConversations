@@ -453,7 +453,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
     stats: [
       { value: '~56', label: 'seniors per counselor (336 seniors ÷ 6 counselors)' },
       { value: '336', label: 'seniors in the Class of 2027' },
-      { value: '~195', label: 'students per counselor across grades 9–12' },
+      { value: '~222', label: 'students per counselor across grades 9–12 (1,330 students, NCES 2023–24, ÷ 6)' },
       { value: '340 665', label: 'CEEB code' },
     ],
     roster: [
