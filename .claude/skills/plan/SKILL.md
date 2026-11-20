@@ -115,6 +115,13 @@ recurring ones are:
 - **UX-design gate** — a new card, section, stat tile, Compare row, metric key, or topic
   needs the user's approval *first*. If the plan needs one, surface it in the closing
   report rather than burying it as a step for `/implement` to run into.
+- **Claude Design for every approved UX change** (hard rule, 2026-11-21). A plan with an
+  approved UX change carries two explicit steps: a **design step before the build** (check
+  the Claude Design MCP with `list_projects`; if it is not connected, stop and ask the user to
+  reconnect, `/design-login`; then design the change in the project's file for that area),
+  and a **re-capture step after the build** (`design:capture` → write → `design:verify`, per
+  `.claude/docs/design-sync.md`), so the project matches what shipped. Name the design files
+  each change touches. Never plan an Artifact-canvas fallback.
 - **i18n** — any new user-facing string is a key in `src/locales/*.json`, never hardcoded
   JSX. This drives the phase split in step 4 below.
 - **Data provenance** — new external school data gets persisted to

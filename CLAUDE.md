@@ -345,6 +345,27 @@ the reasoning** — what the material contains, why no existing card fits, and w
 addition would look like — then wait for approval. Land the data enrichment meanwhile and
 report the deferred suggestion; never implement the UX change pre-emptively.
 
+**⛔ An approved UX change is designed in the Claude Design project, and the project is kept
+in sync with what ships (HARD rule, user 2026-11-21).** Once the user approves a UX change (a
+new card, section, tile, Compare row or column, a component, layout or styling change), three
+things happen, in order:
+
+1. **Design it first** in the app's Claude Design project, *Charlotte School Compare Website
+   Design* (`5da24575-40bf-4787-8934-0fadfc56059f`), in the file for the area or page it
+   touches.
+2. **Build to that design.**
+3. **Re-capture the changed files from the built app** (`design:capture` → write →
+   `design:verify`; see [`design-sync.md`](.claude/docs/design-sync.md)), so the project shows
+   what shipped rather than the mock.
+
+`/plan` writes all three into any plan with an approved UX change, and `/implement` runs them.
+**If the Claude Design MCP is not connected, stop and ask the user to reconnect it**
+(`/design-login`) before any UX work. Never substitute an Artifact canvas, and never build the
+change undesigned. Data-only work in the same plan may go ahead meanwhile. A change that
+*arrives* as a Claude Design handoff has done step 1 already, and still owes step 3. The reason
+is drift: the project is the design reference for this app, and it is only worth reading while
+it matches the live site.
+
 ## Internationalization standard (required)
 
 The app uses `react-i18next`. Translation strings live **one file per language** in
