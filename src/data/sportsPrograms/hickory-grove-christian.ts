@@ -160,12 +160,10 @@ export const hickoryGroveChristian: SportsProgram = {
     ],
     didNotWin:
       'the 2024 3A baseball final went to Grace Christian of Sanford, which swept the best-of-three series (4–1, 7–5).',
-    bars: [
-      { program: 'Softball', record: '7 state titles', pct: 1, tag: '2006–2019' },
-      { program: 'Baseball', record: '3 state titles', pct: 0.43, tag: '2005 · 2021 · 2023' },
-      { program: 'Girls Basketball', record: '1 state title', pct: 0.14, tag: '2009 (3A)' },
-      { program: 'Boys Track', record: '1 state title', pct: 0.14, tag: '2025 (D2)' },
-    ],
+    // No win-percentage bars: the school publishes no season records, and title
+    // counts printed under the win-% heading read as percentages (plan
+    // consistency HG-15, UX-approved). The titles stay in the matrix above.
+    bars: [],
     seasonDetail: [
       {
         program: 'Softball',

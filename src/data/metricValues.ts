@@ -1043,11 +1043,15 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '85:1', // 85 seniors ÷ 1 dedicated Guidance & College Counseling Director
       'carmel-christian': null, // seniors-per-counselor not published
       'davidson-day': '~25:1', // 50 seniors (Class of 2027) ÷ 2 counselors
-      'hickory-grove-christian': null, // caseload not published; computable only (~34:1 across 2 staff, but one is a non-college admin)
+      'hickory-grove-christian': '≈34:1', // computed: 67 Class of 2025 graduates ÷ 2 counseling staff (plan consistency HG-19); 67:1 against the Director alone
       'gaston-day': '~18:1', // COMPUTED, not published — 35 seniors over 2 counselors (Director + Assistant); 35:1 against the Director alone
       'providence-day': '~36:1', // COMPUTED — 179 seniors (2026–27 profile) over 5 counselors (Director + 4 Associate Directors)
     },
     quals: {
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'Computed, not published: 67 Class of 2025 graduates over 2 counseling staff. One of the two is not a college counselor, so against the Director alone it is 67:1.',
+      },
       'charlotte-catholic': {
         kind: 'official',
         text:
@@ -1979,12 +1983,13 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$744/mo', // JK/K to 6:00 p.m. = 3 stacked sessions × $248/mo, 5 days/wk
       'carmel-christian': '$245/mo', // After School / After YCC 5-day to 6:00 p.m., 2026-27
       'davidson-day': null, // publishes no extended-care pricing — its Extended Care page 404s
-      'hickory-grove-christian': null, // recurring TK–5 Afterschool rate not published (portal-only); $35/day Adventure Days is a separate out-of-session program
+      'hickory-grove-christian': '≈$260/mo', // $2,600/yr ÷ 10 — the TK–5 annual price on the Tuition and Fees page (published since at least 2026-11-20, plan consistency HG-16); $35/day Adventure Days is a separate out-of-session program
       'gaston-day': '$95/wk', // Lower School weekly rate, 2025-26 fee schedule; MS $55/wk; drop-in $30/day LS and $15/day MS
       'providence-day': '$750/mo', // TK · 1–6 p.m. tier · 5 days/wk, 2026-27
     },
-    // The year's total under each monthly figure. Cannon's and Latin's are the
-    // schools' OWN published figures ($3,784/yr, $4,650/sem × 2) and carry no ≈;
+    // The year's total under each monthly figure. Cannon's, Latin's and Hickory
+    // Grove's are the schools' OWN published figures ($3,784/yr, $4,650/sem × 2,
+    // $2,600/yr) and carry no ≈;
     // the others are estimates of a monthly rate (10 months, or 9 for Country Day
     // and Providence Day, matching their After School cards), so they do.
     subs: {
@@ -1995,8 +2000,13 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$6,696/yr', // the school's own "for 10 Months" annual table, 3 sessions × 5 days
       'carmel-christian': '≈$2,205/yr', // $245 × 9 published billing months
       'providence-day': '≈$6,750/yr', // $750 × 9, the months the school's own After School card assumes
+      'hickory-grove-christian': '$2,600/yr', // published as an annual figure
     },
     quals: {
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'Hickory Grove publishes one annual price for TK–5, $2,600, billed annually in equal payments. The monthly figure above is that spread over 10 months, not a rate the school quotes. Grades 6–12 pay $1,300 a year. The single window runs 2:30–5:30 p.m.',
+      },
       'gaston-day': {
         kind: 'scope',
         text: '$95/week is the Lower School (PS–4th) rate on the 2025-26 fee schedule; Middle School (5th–8th) is $55/week. Drop-in is $30/day and $15/day respectively. The program web page labels the recurring figures as $100 and $60 per MONTH — the weekly reading is used because a monthly rate below four drop-in days is not coherent.',
@@ -2105,7 +2115,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '20', // distinct camps named on the public 2026 page; school markets "29 camps"
       'carmel-christian': '36', // named camps across the 6 weeks
       'davidson-day': null,
-      'hickory-grove-christian': '17', // Summer 2023 slate (representative): 12 academic + 5 athletic
+      'hickory-grove-christian': '15', // Summer 2023 slate (representative): 15 camps in 17 sessions (Science and Fluency run twice) — 10 academic + Boot Camp + 5 athletic
       'gaston-day': '27', // the live 2026 catalog lists 27 entries (2 Camp Spartan + 11 enrichment + 10 partner + 3 Nike + tutoring); re-counted 2026-11-20
       'providence-day': '170', // priced brochure rows; 151 distinct names
     },
@@ -2121,7 +2131,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '17 named camps in the Summer 2023 catalog — 12 academic/enrichment and 5 athletic — recovered from the Internet Archive because the live 2026 catalog is hidden behind the school\'s registration platform. A representative slate, not the exact 2026 list.',
+        text: '15 named camps (17 sessions) in the Summer 2023 catalog: 10 academic, the College Admissions Boot Camp and 5 athletic. They come from the Internet Archive, because the live 2026 catalog sits behind the school\'s registration platform. A representative slate, not the exact 2026 list.',
       },
       'charlotte-latin': {
         kind: 'scope',

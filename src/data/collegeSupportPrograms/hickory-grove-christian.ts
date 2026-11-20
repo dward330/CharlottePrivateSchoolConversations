@@ -342,7 +342,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     subhead:
       'A college-prep school, built on a biblical worldview, that does not rank students. The transcript rests on a weighted GPA, with a quality-point bonus for honors and AP courses. Its AP catalog reaches as far as AP Seminar and AP Research.',
     stats: [
-      { value: '17 + Capstone', label: 'AP courses, plus the AP Seminar → Research Capstone track' },
+      { value: '17', label: 'AP courses, including the AP Seminar → AP Research Capstone track' },
       { value: '85 / 176', label: 'AP students / exams, May 2026 (14 earned a 5 on ≥1 exam)' },
       { value: 'No rank', label: 'the school does not rank its students' },
       { value: '340661', label: 'CEEB code' },
@@ -359,7 +359,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     depth: [
       {
         label: 'A broad AP catalog',
-        text: 'The school advertises **17 AP courses plus AP Capstone** (AP Seminar + AP Research). The 2026–27 profile names 13 by title. Calculus BC and Psychology are no longer printed, and Human Geography is back. The 2023 profile named 17, covering every title any edition has printed. So which of them run varies from year to year.',
+        text: 'The school advertises **17 AP courses, among them the AP Capstone track** (AP Seminar + AP Research). The 2026–27 profile names 13 by title. Calculus BC and Psychology are no longer printed, and Human Geography is back. The 2023 profile named 17, covering every title any edition has printed. So which of them run varies from year to year.',
       },
       {
         label: 'Real depth in the scores',
