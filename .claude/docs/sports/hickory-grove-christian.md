@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — Sports
-> Distilled from 6 source document(s) in `source-material/sports/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-09.
+> Distilled from 6 source document(s) in `source-material/sports/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, School Profile 2026-2027, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026
 
 

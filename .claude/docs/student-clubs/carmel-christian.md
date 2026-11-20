@@ -1,5 +1,5 @@
 # Carmel Christian School — Student Clubs
-> Distilled from 2 source document(s) in `source-material/student-clubs/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
+> Distilled from 2 source document(s) in `source-material/student-clubs/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Special Interest Web Check 2026, Clubs Redesign Deep Research
 
 

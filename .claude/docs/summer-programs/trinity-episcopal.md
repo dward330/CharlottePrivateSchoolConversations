@@ -1,5 +1,5 @@
 # Trinity Episcopal School — Summer Programs
-> Distilled from 2 source document(s) in `source-material/summer-programs/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-15.
+> Distilled from 2 source document(s) in `source-material/summer-programs/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Summer Costs and Policies, Wildcat Summer Camp Catalog
 
 

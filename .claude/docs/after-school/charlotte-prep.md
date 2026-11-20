@@ -1,5 +1,5 @@
 # Charlotte Preparatory School — After School
-> Distilled from 1 source document(s) in `source-material/after-school/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-19.
+> Distilled from 1 source document(s) in `source-material/after-school/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** After School Program Overview
 
 

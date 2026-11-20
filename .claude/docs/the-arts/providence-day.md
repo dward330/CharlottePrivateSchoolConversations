@@ -1,5 +1,5 @@
 # Providence Day School — The Arts
-> Distilled from 7 source document(s) in `source-material/the-arts/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 7 source document(s) in `source-material/the-arts/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Arts Redesign Deep Research, Awards and Recognition, Deep Research, Music, Program Overview, Theater, Visual Arts
 
 

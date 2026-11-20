@@ -1,5 +1,5 @@
 # Trinity Episcopal School — After School
-> Distilled from 1 source document(s) in `source-material/after-school/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-15.
+> Distilled from 1 source document(s) in `source-material/after-school/trinity-episcopal/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Trinity Extended Day
 
 

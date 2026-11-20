@@ -790,6 +790,19 @@ Fetched 2026-11-20.
  Society, Tri-M Music Honor Society and National Junior Honor Society (no Thespian Society).
  Enrollment: 1,745, "Students enrolled for 2026-27 school year."
 
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+Re-scan after PR #507: Model UN delegation sizes, re-fetched from the school's own news posts (all HTTP 200):
+
+- https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/students-earn-top-honors-at-unc-chapel-hill-model-united-nations-conference
+ (posted 3/9/26): "Twenty Country Day students participated in the conference".
+- https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/country-day-delegates-shine-at-virginia-model-un-conference
+ (posted 12/15/25): "Ten Country Day delegates competed at the Virginia Model United Nations (VAMUN) conference".
+- https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/upper-school-model-un-shines-at-munch-conference:
+ "Seventeen students represented Country Day".
+
+No Country Day source in this repo records a Duke (DUMUNC) delegation or a delegation of 15.
+
 
 ---
 
@@ -806,4 +819,7 @@ Fetched 2026-11-20.
 - https://www.charlottecountryday.org/cd-experience/parent-community:
 - https://www.charlottecountryday.org/cd-experience/student-life
 - https://www.charlottecountryday.org/cf_news/view.cfm?newsid=1056
+- https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/country-day-delegates-shine-at-virginia-model-un-conference
 - https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/cum-laude-society-induction-ceremony-a-celebration-of-the-whole-student
+- https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/students-earn-top-honors-at-unc-chapel-hill-model-united-nations-conference
+- https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/upper-school-model-un-shines-at-munch-conference:

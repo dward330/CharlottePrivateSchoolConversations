@@ -1,5 +1,5 @@
 # Charlotte Preparatory School — Admissions
-> Distilled from 2 source document(s) in `source-material/admissions/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-19.
+> Distilled from 2 source document(s) in `source-material/admissions/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Application Process and Testing, CAIS Consortium 2027-28
 
 

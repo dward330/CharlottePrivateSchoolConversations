@@ -1,5 +1,5 @@
 # Providence Day School — College Support
-> Distilled from 12 source document(s) in `source-material/college-support/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 12 source document(s) in `source-material/college-support/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Redesign Research 2026, School Profile 2026-2027, Standing Out, UNC System Admissions, Deep Research
 
 
@@ -1935,6 +1935,22 @@ transcribed from S4):
 - Wyoming
 - York
 
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+Re-scan after PR #507. The College Guidance link
+https://www.providenceday.org/fs/resource-manager/view/6dd20b2d-13aa-4f35-8b38-ac498f6983b5 now redirects to
+https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/Collegeguidancecollegeprofile26-27updated.pdf
+(HTTP 200, 4 pp., SHA-256 `41743162d0ad8f276f505da4fa26125996bf9419b4292fb120a77cf6609ef20d`). Verbatim:
+
+- Course table, World Language row: "French 6, 7 (two versions), 8 (post-AP)" and "Latin 5, 6". The 2026–27 Upper
+ School Course of Study lists neither French 8 nor Latin 6 (see the course-offerings re-verification).
+- Student life: "100% of our graduates attend four-year colleges or universities."
+- Acceptance list key: "Bold letters indicate schools enrolling one or more members of the Class of 2023–2026."
+ `pdftohtml -xml` renders "Central Piedmont Community College" in the bold face (`<b>`, font 30), i.e. a
+ two-year college is marked as enrolling a 2023–2026 graduate.
+
 
 ---
 
@@ -2362,6 +2378,7 @@ https://claude.ai/chat/68c044a9-3c47-44c8-a722-63dd0ea2c133 Page 5 of 5
 - https://www.providenceday.org/cf_news/view.cfm?newsid=2280
 - https://www.providenceday.org/fs/pages/2727
 - https://www.providenceday.org/fs/pages/2728
+- https://www.providenceday.org/fs/resource-manager/view/6dd20b2d-13aa-4f35-8b38-ac498f6983b5
 - https://www.providenceday.org/uploaded/Academics/College_Guidance/3456_Counseling_College_Profile_17-18.pdf
 - https://www.providenceday.org/upper-school/college-guidance
 - https://www.usnews.com/best-colleges/rankings/national-liberal-arts-colleges

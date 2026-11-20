@@ -1,5 +1,5 @@
 # Charlotte Latin School — Admissions
-> Distilled from 2 source document(s) in `source-material/admissions/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
+> Distilled from 2 source document(s) in `source-material/admissions/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Grade-by-Grade Application Plans, Live Dates Check 2026-11-10
 
 
@@ -397,6 +397,19 @@ That is the school's own apply-year wording, and it is the same split Providence
 `src/data/admissionsPrograms/charlotte-latin.ts` is built on "THE DEFINING STRUCTURAL FACT — NO DECISION OR CONTRACT DATES, ANY BAND" (verified 2026-08-31). Its checklist rows say "Confirm the decision and contract dates with admissions". As of 2026-11-10 the school publishes notification days for both tracks. It still publishes no enrollment-contract date. The file's header comment also records that "No sibling, legacy/alumni or faculty-children preference is published for TK–12". The calendar now shows a separate, earlier K-12 sibling application deadline (Oct 15, 2026, already past). A separate deadline is not by itself a published admission preference, but the card does not mention it.
 
 This file is not ingested. A data refresh of the Latin admissions card should go through `/plan`.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`, re-scan)
+
+- Re-fetched https://www.charlottelatin.org/admissions/application-process (HTTP 200,
+ 86,542 bytes, `curl`, tag-stripped). The "Important Admissions and Financial Aid Dates" block
+ still reads, verbatim: "February 26: TK and K notification day; TK and K financial award
+ decisions communicated" and "April 9: Grades 1-11 notification day; Grades 1-11 financial aid
+ award decisions communicated".
+- So the school now publishes when aid awards are released relative to the admission decision:
+ the same day. The Financial Aid report (figures as of 24 Jul 2026) still lists that timing as
+ "Not published"; it predates this block.
 
 
 ---

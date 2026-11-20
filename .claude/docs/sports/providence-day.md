@@ -1,5 +1,5 @@
 # Providence Day School — Sports
-> Distilled from 22 source document(s) in `source-material/sports/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-08.
+> Distilled from 22 source document(s) in `source-material/sports/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Football Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records, 247Sports Recruiting Rankings, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Division Sizes 2025-26, Wells Fargo Cup History and Scoring, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026
 
 

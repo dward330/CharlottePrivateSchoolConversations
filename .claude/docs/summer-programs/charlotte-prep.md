@@ -1,5 +1,5 @@
 # Charlotte Preparatory School — Summer Programs
-> Distilled from 2 source document(s) in `source-material/summer-programs/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-19.
+> Distilled from 2 source document(s) in `source-material/summer-programs/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Summer 2026 Costs, Summer Adventures 2026 Catalog
 
 

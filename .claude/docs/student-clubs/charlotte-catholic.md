@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — Student Clubs
-> Distilled from 2 source document(s) in `source-material/student-clubs/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 2 source document(s) in `source-material/student-clubs/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Governance Web Check 2026, Club Catalog and Overview
 
 

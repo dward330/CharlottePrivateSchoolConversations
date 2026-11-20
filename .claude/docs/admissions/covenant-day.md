@@ -1,5 +1,5 @@
 # Covenant Day School — Admissions
-> Distilled from 2 source document(s) in `source-material/admissions/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-02.
+> Distilled from 2 source document(s) in `source-material/admissions/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Grade-by-Grade Application Plans, Live-Site Refresh 2026-10-02
 
 

@@ -1,5 +1,5 @@
 # Carmel Christian School — The Arts
-> Distilled from 2 source document(s) in `source-material/the-arts/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-07.
+> Distilled from 2 source document(s) in `source-material/the-arts/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Deep Research, Middle School Visual Arts Curriculum 2026
 
 

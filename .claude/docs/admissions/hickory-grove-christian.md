@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — Admissions
-> Distilled from 4 source document(s) in `source-material/admissions/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-04.
+> Distilled from 4 source document(s) in `source-material/admissions/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Grade-by-Grade Application Plans, Live-Site Refresh 2026-10-04, Live-Site Refresh 2026-11-04, School Profile 2026-2027
 
 
