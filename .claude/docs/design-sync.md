@@ -49,10 +49,18 @@ What a capture does (`scripts/design_capture.mjs` has the full rules):
   sections, table cells, SVG, and the lists a reader navigates or counts (topic chips, the
   side rail, stat strips, card grids, the Home school and topic grids, Compare's pickers,
   the admissions staff grid, checklist rows, news rows).
-- **Parts.** Still over 40 KB after trimming, an area splits at card boundaries, a school
-  page at section boundaries and Compare at its row groups: `<name> (k of N).dc.html`.
-  Part 1 is written under the existing name. Every byte count is measured on the assembled
-  part.
+- **One file per page.** A `--format dc` page is always written as one file, however
+  large (user, 2026-11-20: "make it just one page, like what a user would see"). Two
+  things settled this the same day:
+  - **Pieces don't work.** A page that pulls its later sections in from other files with
+    Claude Design's `<dc-import>` renders as one page, but the editor cannot edit anything
+    imported: the user could not edit from the first imported section down.
+  - **Big writes do.** The whole Providence Day page, 80,941 bytes, wrote and verified in
+    one call, against the 40 KB that was the largest proven before.
+
+  The capture warns, and exits 1, above 81 KB, the largest write proven so far. The
+  40 KB figure is now only the trimming threshold. `--format plain` still splits over the
+  cap into standalone `<name> (k of N).dc.html` files.
 - **Line breaks** go only where a browser treats them as whitespace (after a CSS `}`,
   after a selector-list comma on a very long line, and inside a start tag after its name),
   so no line is too long to read and copy reliably.
@@ -454,7 +462,36 @@ simulated dark canvas in light and dark before writing.
 
 The test file, `Summer Programs Section (editable test).dc.html`, was then moved to
 `archive/2026-11 pre-designsync/` at the user's request (copied, then deleted from the
-root under a one-path delete approval). That is the only deletion this plan made.
+root under a one-path delete approval).
+
+**One file per page (round 5, same day).** The user asked for each split page to be one
+page, like the app. The first attempt composed each page from a main file plus "piece"
+files mounted with `<dc-import>`. It rendered identically to a one-file reference, but
+the user could not edit from the first imported section (Global Exposure) down. Editing
+stops at an import. The second attempt wrote Providence Day as one file. It verified
+byte for byte, and the user confirmed that the whole page edits.
+
+The other four pages were then rewritten the same way and verified, along with the
+index note:
+
+| Page | Size |
+|---|--:|
+| Providence Day School | 80,941 bytes |
+| Sports | 66,777 bytes |
+| College Support | 56,813 bytes |
+| Compare | 52,801 bytes |
+| Global Exposure | 47,659 bytes |
+
+Before writing, and again as Claude Design served them, each one rendered identically to
+a one-file reference. The same element boxes, text and height showed in light and dark,
+and the only element left out of the comparison was Compare's hidden pinned header copy.
+Then eight files were deleted under a delete approval: the six `(2 of N)` files and the
+two trial pieces. Each delete was checked against the file's etag, and the files had
+matched their captures byte for byte just before. The final listing shows one file per
+page and nothing else changed.
+
+Trimming is unchanged: it still applies to a page over 40 KB, so no page's content moved.
+Latest News headlines in Providence Day are the ones live when that page was captured.
 
 **Not represented, by design:** filters, tabs, hover tips, the photo viewer and the
 podcast and video players are static (players are labelled boxes); Latest News shows
@@ -466,8 +503,8 @@ The same table is in the design project as `As Built - Index.md`.
 
 | File | Status |
 |---|---|
-| Home, Compare Schools (2 parts), Admissions Checklist, Providence Day School (3 parts) | captured, replaced (archive copies in `archive/2026-11 pre-designsync/`) |
-| International Travel (2 parts), Learning Support, Clubs, Arts, Sports (2 parts), College Support (2 parts), High School Placement, After School, Financial Aid & Tuition | captured, replaced (archive copies in `archive/2026-11 pre-designsync/`) |
+| Home, Compare Schools, Admissions Checklist, Providence Day School | captured, replaced (archive copies in `archive/2026-11 pre-designsync/`) |
+| International Travel, Learning Support, Clubs, Arts, Sports, College Support, High School Placement, After School, Financial Aid & Tuition | captured, replaced (archive copies in `archive/2026-11 pre-designsync/`) |
 | School Page (K-8), Shared Components, Admissions Section, Course Offerings Section, Summer Programs Section | captured, new |
 | Sports Compare Matrix, Depth Chips Redesign, Academic Clubs Expand Options, Club Catalog Expand Options, Podcast Deep Dive Options | decision records, untouched |
 | Charlotte Prep Course Offerings, High School Placement Class Video, More Schools Row | spec records, untouched |
