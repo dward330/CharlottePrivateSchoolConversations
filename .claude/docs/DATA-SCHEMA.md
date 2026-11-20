@@ -1168,14 +1168,14 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `nc-admit-east-carolina-university` | Admit rate — East Carolina University | 11/13 | C sub |
 | `nc-admit-unc-wilmington` | Admit rate — UNC Wilmington | 11/13 | C sub |
 | `nc-admit-unc-greensboro` | Admit rate — UNC Greensboro | 11/13 | C sub |
-| `counselor-caseload` | Seniors per counselor | 9/13 | ↓ Q |
+| `counselor-caseload` | Seniors per counselor | 10/13 | ↓ Q |
 
 ### After School `after-school`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
 | `latest-pickup` | Latest pickup time | 10/13 | Q |
-| `aftercare-cost` | Cost of after-school care | 8/13 | – Q sub |
+| `aftercare-cost` | Cost of after-school care | 9/13 | – Q sub |
 
 ### Summer Programs `summer-programs`
 
@@ -1319,7 +1319,7 @@ school publishes nothing for (`ARTS_UNKNOWN_DIVISIONS`) gets no chips and says s
 | `piano` | 2/11 |
 | `worshipBand` | 4/11 |
 | `contemporaryEnsemble` | 2/11 |
-| `musicTechnology` | 2/11 |
+| `musicTechnology` | 3/11 |
 | `musicTheory` | 4/11 |
 
 | Arts row (theatre) | Schools |
