@@ -176,7 +176,7 @@ export const gastonDay: SportsProgram = {
           { result: 'STATE' },
           { result: 'STATE' },
         ],
-        note: 'Four titles overall (2021, 2023, 2024, 2025) and three straight through 2025 — beat Trinity School of Durham & Chapel Hill 5–1 in 2023, then Epiphany School in both 2024 and 2025',
+        note: 'Four titles since 2021 (2021, 2023, 2024, 2025) and three straight through 2025 — beat Trinity School of Durham & Chapel Hill 5–1 in 2023, then Epiphany School in both 2024 and 2025',
       },
       {
         program: 'Volleyball',
@@ -213,7 +213,7 @@ export const gastonDay: SportsProgram = {
     seasonDetail: [
       {
         program: 'Girls Tennis',
-        text: 'The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win over Epiphany School was described in coverage as the program’s third state championship in four years and fourth overall. The 2025 win over the same opponent made it three straight.',
+        text: 'The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win came over Epiphany School, and the 2025 win over the same opponent made it three straight.',
       },
       {
         program: 'Volleyball',

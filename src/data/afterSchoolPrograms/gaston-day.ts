@@ -119,7 +119,7 @@ export const gastonDay: AfterSchoolProgram = {
       'Aftercare costs $95 a week for the Lower School and $55 for the Middle School.',
     subhead:
       'A full school year of five-day Lower School care comes to roughly $3,420 across 36 weeks — before any drop-in days or late fees.',
-    basis: 'monthly',
+    basis: 'weekly',
     periods: 36,
     periodsLabel: '36 school weeks',
     columnsVerified: [true, true, true, true, true],

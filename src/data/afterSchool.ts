@@ -197,10 +197,11 @@ export type Cost = {
    * estimate panel: a monthly contract multiplies by `periods` billing months,
    * a per-semester charge by 2, and an annual contract by 1 (Cannon publishes a
    * single annual figure, so its "school year" line is the published number
-   * itself rather than a derived total).
+   * itself rather than a derived total). A weekly rate (Gaston Day's "$95/week")
+   * multiplies by the school weeks in `periods`.
    */
-  basis: 'monthly' | 'semester' | 'annual'
-  /** Number of billing periods in a school year (9 months, 2 semesters, or 1). */
+  basis: 'monthly' | 'semester' | 'annual' | 'weekly'
+  /** Number of billing periods in a school year (9 months, 2 semesters, 36 weeks, or 1). */
   periods: number
   /** Caption for the period total, e.g. "9 billing months", "2 semesters". */
   periodsLabel: string

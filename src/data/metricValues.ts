@@ -2106,7 +2106,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '36', // named camps across the 6 weeks
       'davidson-day': null,
       'hickory-grove-christian': '17', // Summer 2023 slate (representative): 12 academic + 5 athletic
-      'gaston-day': '30', // counted from the 2026 catalog: 2 Camp Spartan + 11 enrichment + 10 partner + 3 Nike + tutoring, across 4 providers
+      'gaston-day': '27', // the live 2026 catalog lists 27 entries (2 Camp Spartan + 11 enrichment + 10 partner + 3 Nike + tutoring); re-counted 2026-11-20
       'providence-day': '170', // priced brochure rows; 151 distinct names
     },
     quals: {

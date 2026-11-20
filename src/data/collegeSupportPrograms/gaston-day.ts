@@ -409,7 +409,7 @@ export const gastonDay: CollegeSupportProgram = {
       { year: '2022', detail: '**23** students awarded · **$2.6 million** total' },
     ],
     meritNote:
-      'These are college merit awards won by graduating seniors, not Gaston Day tuition scholarships. The school’s own Kimbrell awards are separate and appear in the Financial Aid area. The dollar total rose while the number of students fell (25 students/$2.75M in 2023 → 20/$3.87M in 2024). So the average per student roughly doubled across those two classes.',
+      'These are college merit awards won by graduating seniors, not Gaston Day tuition scholarships. The school’s own Kimbrell awards are separate and appear in the Financial Aid area. The dollar total rose while the number of students fell (25 students/$2.75M in 2023 → 20/$3.87M in 2024). So the average per student rose by about three-quarters (~$110K → ~$194K) across those two classes.',
     depthTitle: 'Where the curriculum goes deepest',
     depth: [
       {
@@ -471,7 +471,7 @@ export const gastonDay: CollegeSupportProgram = {
       'The office runs on SCOIR, publishes exactly when transcripts go out, and states up front that it will report Honor Code violations when a college asks.',
     stats: [
       { value: '~18:1', label: 'seniors per counselor — computed from 35 seniors, not published' },
-      { value: '2', label: 'college counselors — Director plus Assistant' },
+      { value: '2', label: 'college-counseling staff — Director plus Assistant' },
       { value: '35', label: 'seniors in the Class of 2026' },
       { value: 'SCOIR', label: 'platform linking student, family, counselor and college' },
     ],
