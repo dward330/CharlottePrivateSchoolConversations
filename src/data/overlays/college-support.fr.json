@@ -202,7 +202,8 @@
       "t": "30",
       "of": "87f05176",
       "at": [
-        "providence-day:transcript.stats[2].value"
+        "providence-day:transcript.stats[2].value",
+        "carmel-christian:outcomes.stats[2].value"
       ]
     },
     {
@@ -1024,8 +1025,8 @@
       ]
     },
     {
-      "t": "— toute l’ACC, plus 15 sur 16 en SEC, 17 sur 18 en Big Ten et 15 sur 16 en Big 12",
-      "of": "c8aaa9ae",
+      "t": "— toute l’ACC et toute la SEC, plus 17 sur 18 en Big Ten et 15 sur 16 en Big 12",
+      "of": "d361f5d1",
       "at": [
         "providence-day:outcomes.buckets[4].note"
       ]
@@ -1712,8 +1713,8 @@
       ]
     },
     {
-      "t": "Votre profil cite 30 cours AP, mais 29 matières ont été examinées en mai 2026 — l’AP German est-il proposé cette année, et quand l’AP Business & Personal Finance commence-t-il ?",
-      "of": "7617a588",
+      "t": "Votre profil cite 30 cours AP, mais 29 matières ont été examinées en mai 2026. L’AP German et l’AP Business with Personal Finance sont-ils tous deux proposés cette année ?",
+      "of": "63091b03",
       "at": [
         "providence-day:verdict.checklist[6]"
       ]
@@ -1832,8 +1833,8 @@
       ]
     },
     {
-      "t": "Matières AP proposées — examens obligatoires pour les élèves en AP",
-      "of": "408841bb",
+      "t": "Matières AP du profil 2026–27 — examens obligatoires pour les élèves en AP",
+      "of": "e1d2d2d3",
       "at": [
         "charlotte-latin:transcript.stats[0].label"
       ]
@@ -2021,17 +2022,24 @@
       ]
     },
     {
+      "t": "Décompte AP, deux sources de l’école (plan consistency LAT-1b, 2026-11-20) : la grille du profil 2026–27 liste 24 matières AP ; la page des offres de cours en ligne compte 23 publications AP. Le profil ajoute AP Business with Personal Finance et liste séparément Cybersecurity et Networking Fundamentals, mais ne comporte pas Music Theory ; la page regroupe Cybersecurity et Networking en une seule publication et liste Music Theory AP. La vignette s’appuie sur le profil ; l’aperçu de Course Offerings s’appuie sur la page.",
+      "of": "87a8540c",
+      "at": [
+        "charlotte-latin:transcript.flags[0].text"
+      ]
+    },
+    {
       "t": "Le passage de 48 AP Scholars with Distinction (2018–20) à 192 (2024–26) est très important. Une partie correspond à une croissance réelle, mais l’ampleur suggère que la base de comptage peut différer d’une édition à l’autre — l’école ne la définit pas. Ne présentez pas les deux chiffres comme directement comparables.",
       "of": "80bbd945",
       "at": [
-        "charlotte-latin:transcript.flags[0].text"
+        "charlotte-latin:transcript.flags[1].text"
       ]
     },
     {
       "t": "L’édition 2025–26 contenait une note éditoriale interne non supprimée ; l’édition 2026–27 l’a retirée et ajoute les résultats AP, les moyennes aux tests, les distributions de notes et l’échelle de notation — un revirement substantiel par rapport à l’ancienne non-divulgation de l’école.",
       "of": "5022814b",
       "at": [
-        "charlotte-latin:transcript.flags[1].text"
+        "charlotte-latin:transcript.flags[2].text"
       ]
     },
     {
@@ -2049,15 +2057,15 @@
       ]
     },
     {
-      "t": "~1:38",
-      "of": "37df881d",
+      "t": "~38:1",
+      "of": "775066d3",
       "at": [
         "charlotte-latin:counseling.stats[0].value"
       ]
     },
     {
-      "t": "conseillers par élève de dernière année (calculé — aucun ratio n’est publié)",
-      "of": "bbeb7a34",
+      "t": "élèves de dernière année par conseiller (calculé — 151 ÷ 4 ; aucun ratio n’est publié)",
+      "of": "d36af3ea",
       "at": [
         "charlotte-latin:counseling.stats[0].label"
       ]
@@ -2292,8 +2300,8 @@
       ]
     },
     {
-      "t": "Les deux ratios sont calculés (589 élèves de l’Upper School ÷ 4, et 151 élèves de dernière année ÷ 4) ; l’école ne publie ni l’un ni l’autre. Comme les conseillers sont attribués dès la première année du secondaire, le chiffre ~1:147 tous niveaux confondus constitue sans doute la mesure de charge la plus honnête, tandis que ~1:38 décrit l’intensité de la dernière année. Aucune biographie, aucun employeur antérieur, aucun diplôme ni aucune qualification ne sont publiés pour un quelconque membre du personnel — noms et titres uniquement.",
-      "of": "d5385435",
+      "t": "Les deux ratios sont calculés (589 élèves de l’Upper School ÷ 4, et 151 élèves de dernière année ÷ 4) ; l’école ne publie ni l’un ni l’autre. Comme les conseillers sont attribués dès la première année du secondaire, le chiffre ~147:1 tous niveaux confondus constitue sans doute la mesure de charge la plus honnête, tandis que ~38:1 décrit l’intensité de la dernière année. Aucune biographie, aucun employeur antérieur, aucun diplôme ni aucune qualification ne sont publiés pour un quelconque membre du personnel — noms et titres uniquement.",
+      "of": "6012508f",
       "at": [
         "charlotte-latin:counseling.flags[0].text"
       ]
@@ -2313,8 +2321,8 @@
       ]
     },
     {
-      "t": "Le chiffre frappant est celui de l’étendue. 61 des 68 universités de la Power Four figurent sur les listes. Les absentes sont Minnesota, Nebraska, BYU, UCF, Houston, Kansas State et UT Austin (les listes n’écrivent que « University of Texas »). Sept des huit Ivies y figurent, et Columbia est la seule qui manque.",
-      "of": "298ccbd2",
+      "t": "Le chiffre frappant est celui de l’étendue. 62 des 68 universités de la Power Four figurent sur les listes. Les absentes sont Minnesota, Nebraska, BYU, UCF, Houston et Kansas State. Sept des huit Ivies y figurent, et Columbia est la seule qui manque.",
+      "of": "a586c467",
       "at": [
         "charlotte-latin:outcomes.subhead"
       ]
@@ -2363,8 +2371,8 @@
       ]
     },
     {
-      "t": "61 sur 68",
-      "of": "87d3876d",
+      "t": "62 sur 68",
+      "of": "58a87aac",
       "at": [
         "charlotte-latin:outcomes.stats[3].value"
       ]
@@ -2391,8 +2399,8 @@
       ]
     },
     {
-      "t": "— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12",
-      "of": "10562351",
+      "t": "— 18 ACC · 16 SEC · 16 Big Ten · 12 Big 12",
+      "of": "ff5ec33a",
       "at": [
         "charlotte-latin:outcomes.buckets[4].note"
       ]
@@ -2792,8 +2800,8 @@
       ]
     },
     {
-      "t": "337 établissements sur quatre promotions, avec 61 des 68 universités de la Power Four représentées. Les astérisques d’inscription vont des Ivies jusqu’aux universités régionales.",
-      "of": "962f32be",
+      "t": "337 établissements sur quatre promotions, avec 62 des 68 universités de la Power Four représentées. Les astérisques d’inscription vont des Ivies jusqu’aux universités régionales.",
+      "of": "3e606445",
       "at": [
         "charlotte-latin:verdict.points[4].text"
       ]
@@ -2859,6 +2867,13 @@
       "of": "7b6efcd2",
       "at": [
         "charlotte-latin:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "Votre profil liste 24 matières AP et votre page de cours en liste 23. AP Business with Personal Finance est-il proposé, et Cybersecurity et Networking Fundamentals forment-ils un seul cours ou deux ?",
+      "of": "e0381834",
+      "at": [
+        "charlotte-latin:verdict.checklist[7]"
       ]
     },
     {
@@ -3136,8 +3151,8 @@
       ]
     },
     {
-      "t": "élèves de dernière année par conseiller (calculé — aucun ratio n’est publié)",
-      "of": "e9abce11",
+      "t": "élèves de dernière année par conseiller (diplômés de la promotion 2026 ; l’effectif actuel de la classe de dernière année n’est pas publié)",
+      "of": "c683ad33",
       "at": [
         "charlotte-christian:counseling.stats[0].label"
       ]
@@ -3481,8 +3496,8 @@
       ]
     },
     {
-      "t": "L’Academic Conservatory est le véritable élément différenciateur — une qualification artistique inscrite au relevé de notes — et le Winterim envoie chaque élève hors du campus chaque mois de janvier.",
-      "of": "6742c398",
+      "t": "L’Academic Conservatory est le véritable élément différenciateur — une qualification artistique inscrite au relevé de notes — et le Winterim envoie chaque élève hors du campus chaque année, à la charnière de février et de mars.",
+      "of": "dbff3e69",
       "at": [
         "charlotte-christian:edge.headline"
       ]
@@ -3873,8 +3888,8 @@
       ]
     },
     {
-      "t": "Votre communication annonce « 45+ AP and honors courses » mais on ne peut en dénombrer qu’environ 23 cours AP. Quel est le nombre réel ?",
-      "of": "61b8b3c5",
+      "t": "Votre communication annonce « 45+ AP and honors courses », et votre guide et votre profil réunis citent 22 cours AP. Quel est le nombre réel ?",
+      "of": "9b42319f",
       "at": [
         "charlotte-christian:verdict.checklist[3]"
       ]
@@ -3912,6 +3927,13 @@
       "of": "b895ee7c",
       "at": [
         "charlotte-christian:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "Décompte AP, deux documents de l’école (plan consistency CC-5, 2026-11-20) : la liste AP du guide des programmes compte 20 lignes (21 en séparant Calculus AB/BC, y compris AP Music Theory sans description), et le guide décrit à part AP Spanish Literature ; le profil 2026–27 liste 20 cours AP plus Calculus III. Compare utilise les 21 du guide ; la question utilise 22.",
+      "of": "8950419c",
+      "at": [
+        "charlotte-christian:verdict.flags[0].text"
       ]
     },
     {
@@ -4289,15 +4311,15 @@
       ]
     },
     {
-      "t": "~195",
-      "of": "2528dbfa",
+      "t": "~222",
+      "of": "d71b4d49",
       "at": [
         "charlotte-catholic:counseling.stats[2].value"
       ]
     },
     {
-      "t": "élèves par conseiller, niveaux 9 à 12",
-      "of": "03fa6172",
+      "t": "élèves par conseiller, niveaux 9 à 12 (1,330 élèves, NCES 2023–24, ÷ 6)",
+      "of": "b1d0b164",
       "at": [
         "charlotte-catholic:counseling.stats[2].label"
       ]
@@ -4598,8 +4620,8 @@
       ]
     },
     {
-      "t": "Où 200 universités ont accueilli des diplômés de CCHS sur quatre promotions — et $25,186,236 de bourses pour une seule promotion.",
-      "of": "5e0aa837",
+      "t": "Où 199 universités ont accueilli des diplômés de CCHS sur quatre promotions — et $25,186,236 de bourses pour une seule promotion.",
+      "of": "e7405778",
       "at": [
         "charlotte-catholic:outcomes.headline"
       ]
@@ -4612,15 +4634,15 @@
       ]
     },
     {
-      "t": "200",
-      "of": "c3e7575d",
+      "t": "199",
+      "of": "f421d672",
       "at": [
         "charlotte-catholic:outcomes.stats[0].value"
       ]
     },
     {
-      "t": "établissements où les diplômés se sont inscrits, promotions 2023–2026",
-      "of": "90c17d3f",
+      "t": "établissements où les diplômés se sont inscrits, promotions 2023–2026 (200 entrées : la liste nomme deux campus d’Arizona State)",
+      "of": "d25201af",
       "at": [
         "charlotte-catholic:outcomes.stats[0].label"
       ]
@@ -4732,8 +4754,8 @@
       ]
     },
     {
-      "t": "200 établissements · le profil ne publie aucun effectif d’inscrits par établissement",
-      "of": "7488d4d6",
+      "t": "199 établissements (200 entrées : deux campus d’Arizona State) · le profil ne publie aucun effectif d’inscrits par établissement",
+      "of": "5f1c9028",
       "at": [
         "charlotte-catholic:outcomes.collegesTotal"
       ]
@@ -4886,8 +4908,8 @@
       ]
     },
     {
-      "t": "Utiliser l’annuaire des 76 clubs pour construire de la profondeur plutôt que de l’étendue : sept sociétés d’honneur affichent des seuils de GPA publiés, de NHS à 3.9 à Mu Alpha Theta à 4.5 en mathématiques.",
-      "of": "f8e02a97",
+      "t": "Utiliser l’annuaire des 76 clubs pour construire de la profondeur plutôt que de l’étendue : cinq sociétés d’honneur affichent des seuils de GPA publiés, de NHS à 3.9 à Mu Alpha Theta à 4.5 en mathématiques.",
+      "of": "dfb5f00a",
       "at": [
         "charlotte-catholic:edge.levers[0].items[3]"
       ]
@@ -5124,8 +5146,8 @@
       ]
     },
     {
-      "t": "Une filière parallèle complète — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance et Options Financial Management : 14 cours au total.",
-      "of": "fd1460c0",
+      "t": "Une filière parallèle complète — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance et Options Financial Management : 13 cours au total.",
+      "of": "a7b3ff01",
       "at": [
         "charlotte-catholic:wholeClass.support[2].text"
       ]
@@ -5271,8 +5293,8 @@
       ]
     },
     {
-      "t": "**200 établissements** sur les promotions 2023–2026 correspondent aux endroits où les diplômés se sont réellement *inscrits*, une mesure plus restreinte qu’une liste d’admissions par construction. CCHS apparaît plus forte, et non plus faible, une fois cela compris.",
-      "of": "27cbfe32",
+      "t": "**199 établissements** sur les promotions 2023–2026 correspondent aux endroits où les diplômés se sont réellement *inscrits*, une mesure plus restreinte qu’une liste d’admissions par construction. CCHS apparaît plus forte, et non plus faible, une fois cela compris.",
+      "of": "1097e801",
       "at": [
         "charlotte-catholic:verdict.points[2].text"
       ]
@@ -5411,8 +5433,8 @@
       ]
     },
     {
-      "t": "Country Day a été la première école de Caroline du Nord à proposer l’IB Diploma. Un élève dispose donc de deux voies claires vers la charge de cours la plus exigeante, et non d’une seule. Le profil nomme aussi le cours le plus avancé dans chaque matière.",
-      "of": "61ee3e17",
+      "t": "Le profil de l’école présente Country Day comme la première école de Caroline du Nord à proposer l’IB Diploma ; sa page d’histoire dit la première école privée. Un élève dispose donc de deux voies claires vers la charge de cours la plus exigeante, et non d’une seule. Le profil nomme aussi le cours le plus avancé dans chaque matière.",
+      "of": "c11f0c49",
       "at": [
         "charlotte-country-day:transcript.subhead"
       ]
@@ -5623,17 +5645,24 @@
       ]
     },
     {
+      "t": "IB « first » (plan consistency CCD-28, 2026-11-20) : le profil 2026–27 indique « first school in North Carolina » pour l’offre de l’IB Diploma ; la vignette d’histoire en ligne indique « the first private school in North Carolina ». Les deux sont attribués dans le texte ; Global Exposure utilise la page d’histoire.",
+      "of": "3c077921",
+      "at": [
+        "charlotte-country-day:transcript.flags[0].text"
+      ]
+    },
+    {
       "t": "Aucune politique d’examen AP obligatoire n’est publiée : les 96% reposent donc sur un dénominateur non précisé. La page du programme indique que l’examen « is the driver for the curriculum », ce qui suppose une forte attente mais ne constitue pas une obligation déclarée. Les décomptes d’AP Scholar ne sont plus publiés depuis 2021.",
       "of": "9820dec9",
       "at": [
-        "charlotte-country-day:transcript.flags[0].text"
+        "charlotte-country-day:transcript.flags[1].text"
       ]
     },
     {
       "t": "Les 26 AP sont le décompte du profil lui-même : son tableau des cours exigeants imprime 25 intitulés AP, AP US et Comparative Government figurant sur une même ligne. Le catalogue Course Offerings (2025–26, le dernier en ligne) en compte 23 ; aucun catalogue 2026–27 n’était en ligne au 2026-11-07.",
       "of": "354751ff",
       "at": [
-        "charlotte-country-day:transcript.flags[1].text"
+        "charlotte-country-day:transcript.flags[2].text"
       ]
     },
     {
@@ -5644,22 +5673,22 @@
       ]
     },
     {
-      "t": "Le service a changé de direction en juillet 2026, et le profil 2026–27 est la première édition à présenter le nouveau service. Mais le service conserve une décennie d’expérience. Deux des cinq y travaillent depuis au moins 2015–16.",
-      "of": "562439af",
+      "t": "Le service a changé de direction en juillet 2026, et le profil 2026–27 est la première édition à présenter le nouveau service. Mais le service conserve une décennie d’expérience. Deux des cinq y travaillent depuis au moins 2015–16. L’introduction de la page du service d’orientation mentionne quatre conseillers à temps plein, alors que la page et le profil en nomment tous deux cinq.",
+      "of": "696f7f7b",
       "at": [
         "charlotte-country-day:counseling.subhead"
       ]
     },
     {
-      "t": "~1:27",
-      "of": "28dd31e9",
+      "t": "~27:1",
+      "of": "cda36ca3",
       "at": [
         "charlotte-country-day:counseling.stats[0].value"
       ]
     },
     {
-      "t": "conseillers par rapport aux élèves de dernière année (calculé — 137 ÷ 5 ; l’école ne publie aucun ratio)",
-      "of": "92970cca",
+      "t": "élèves de dernière année par conseiller (calculé — 137 élèves de dernière année de la promotion 2027 ÷ 5)",
+      "of": "164d06b7",
       "at": [
         "charlotte-country-day:counseling.stats[0].label"
       ]
@@ -5889,8 +5918,8 @@
       ]
     },
     {
-      "t": "Les deux ratios sont dérivés (536 ÷ 5 et 137 ÷ 5, d’après le profil 2026–27) ; l’école ne publie aucun ratio. La charge réelle correspond probablement aux élèves d’avant-dernière et de dernière année, soit plutôt 1:54. L’introduction de la page d’orientation parle de « four full-time college counselors », alors que cette même page et le profil en listent cinq. Aucune biographie, ancienneté, diplôme ou employeur antérieur des conseillers n’est publié — la page de l’équipe ne donne que les noms, les titres et les coordonnées.",
-      "of": "6f96425c",
+      "t": "Les deux ratios sont dérivés (536 ÷ 5 et 137 ÷ 5, d’après le profil 2026–27) ; l’école ne publie aucun ratio. La charge réelle correspond probablement aux élèves d’avant-dernière et de dernière année, soit plutôt 54:1. L’introduction de la page d’orientation parle de « four full-time college counselors », alors que cette même page et le profil en listent cinq. Aucune biographie, ancienneté, diplôme ou employeur antérieur des conseillers n’est publié — la page de l’équipe ne donne que les noms, les titres et les coordonnées.",
+      "of": "a7b8e9d2",
       "at": [
         "charlotte-country-day:counseling.flags[0].text"
       ]
@@ -5903,15 +5932,15 @@
       ]
     },
     {
-      "t": "La promotion 2026 — 141 élèves de dernière année — s’est inscrite dans 70 établissements répartis sur 24 États, DC et le Canada, dont 32 élèves à UNC–Chapel Hill à elle seule.",
-      "of": "67e3cb81",
+      "t": "La promotion 2026 — 141 élèves de dernière année — s’est inscrite dans 70 établissements répartis sur 24 États, DC et le Canada. UNC–Chapel Hill à elle seule en a admis 32, contre 23 l’année précédente.",
+      "of": "af21607a",
       "at": [
         "charlotte-country-day:outcomes.headline"
       ]
     },
     {
-      "t": "La liste publiée couvre quatre années d’admissions dans 363 établissements. Harvard, Caltech, Johns Hopkins et Northwestern font partie des ajouts de l’édition finale. Seuls les noms en gras correspondent à un lieu où un élève de la promotion 2026 s’est effectivement inscrit.",
-      "of": "6778ed7f",
+      "t": "La liste publiée couvre quatre années d’admissions dans 363 établissements. Harvard, Caltech, Johns Hopkins et Northwestern font partie des ajouts de l’édition finale. Seuls les noms en gras correspondent à un lieu où un élève de la promotion 2026 s’est effectivement inscrit. Les propres documents de l’école divergent légèrement : le profil indique 24 États, la page de la promotion 2026 en indique 23, et la liste met en gras 69 établissements contre les 70 annoncés par ces deux pages.",
+      "of": "24007af8",
       "at": [
         "charlotte-country-day:outcomes.subhead"
       ]
@@ -5948,13 +5977,12 @@
       "t": "32",
       "of": "85f04e50",
       "at": [
-        "charlotte-country-day:outcomes.stats[2].value",
-        "carmel-christian:outcomes.stats[2].value"
+        "charlotte-country-day:outcomes.stats[2].value"
       ]
     },
     {
-      "t": "élèves à UNC–Chapel Hill — 23% de la promotion",
-      "of": "5653c3fd",
+      "t": "élèves de dernière année admis à UNC–Chapel Hill (contre 23 auparavant)",
+      "of": "5bdfb61d",
       "at": [
         "charlotte-country-day:outcomes.stats[2].label"
       ]
@@ -6037,8 +6065,8 @@
       ]
     },
     {
-      "t": "Le chiffre des « 34 Morehead-Cain recipients » est à manier avec prudence. La page d’accueil College Counseling l’affiche à côté des chiffres de la promotion 2026. Mais la promotion 2026 n’a compté qu’un seul Morehead-Cain Scholar. Le 34 est un total cumulé depuis l’origine, et l’école n’indique jamais quelles années il couvre. Les Robertson Scholars et les NC State Park Scholars n’apparaissent que dans le profil 2015–16. Il ne faut pas les présenter comme des bourses que les élèves obtiennent aujourd’hui.",
-      "of": "b1beab57",
+      "t": "La page de la promotion 2026 donne deux totaux de bourses : $14.7 million+ dans son résumé et plus de $14.8 million dans son texte. Le chiffre des « 34 Morehead-Cain recipients » est à manier avec prudence. La page d’accueil College Counseling l’affiche à côté des chiffres de la promotion 2026. Mais la promotion 2026 n’a compté qu’un seul Morehead-Cain Scholar. Le 34 est un total cumulé depuis l’origine, et l’école n’indique jamais quelles années il couvre. Les Robertson Scholars et les NC State Park Scholars n’apparaissent que dans le profil 2015–16. Il ne faut pas les présenter comme des bourses que les élèves obtiennent aujourd’hui.",
+      "of": "fee4d6c1",
       "at": [
         "charlotte-country-day:outcomes.scholarshipsNote"
       ]
@@ -6072,15 +6100,15 @@
       ]
     },
     {
-      "t": "**IB Diploma Programme** — Country Day a été la **première école de North Carolina** à le proposer. **26 élèves de dernière année de la promotion 2027** suivent le diplôme complet à partir de l’avant-dernière année. Son taux de réussite sur cinq ans est de 88%. Pour un élève dont les forces ne correspondent pas au modèle AP, c’est une seconde voie claire vers la charge de cours la plus exigeante. Il comporte aussi un Extended Essay intégré.",
-      "of": "212c6c82",
+      "t": "**IB Diploma Programme** — le profil de l’école présente Country Day comme la **première école de North Carolina** à le proposer, et sa page d’histoire comme la première école privée. **26 élèves de dernière année de la promotion 2027** suivent le diplôme complet à partir de l’avant-dernière année. Son taux de réussite sur cinq ans est de 88%. Pour un élève dont les forces ne correspondent pas au modèle AP, c’est une seconde voie claire vers la charge de cours la plus exigeante. Il comporte aussi un Extended Essay intégré.",
+      "of": "065c4c3f",
       "at": [
         "charlotte-country-day:edge.levers[0].items[0]"
       ]
     },
     {
-      "t": "**Senior Externship** — un programme d’observation en entreprise en janvier, lancé en 2017. Il travaille avec **plus de 175 employeurs locaux dans plus de 20 secteurs**. Lors d’une année récente, **136 élèves de dernière année** ont été placés auprès de 68 employeurs de la région de Charlotte. La plupart des structures d’accueil venaient de parents actuels et anciens et d’anciens élèves.",
-      "of": "c4a76917",
+      "t": "**Senior Externship** — un programme d’observation en entreprise en janvier, lancé en 2017. La page Beyond the Classroom de l’école indique qu’il travaille avec **plus de 175 employeurs locaux dans plus de 20 secteurs**, et ailleurs sur la même page avec 100+ employeurs dans 20 secteurs. Lors d’une année récente, **136 élèves de dernière année** ont été placés auprès de 68 employeurs de la région de Charlotte. La plupart des structures d’accueil venaient de parents actuels et anciens et d’anciens élèves.",
+      "of": "124a4d25",
       "at": [
         "charlotte-country-day:edge.levers[0].items[1]"
       ]
@@ -6128,8 +6156,8 @@
       ]
     },
     {
-      "t": "**Une filière dominante vers UNC–Chapel Hill** — 32 élèves de la promotion 2026 s’y sont inscrits, soit 23% de la promotion. L’école compte aussi 34 lauréats Morehead-Cain depuis l’origine. Ajoutez un lien Jefferson Scholar durable avec UVA et une décennie de nominations dans les académies militaires.",
-      "of": "46b97f5b",
+      "t": "**Une filière dominante vers UNC–Chapel Hill** — UNC–Chapel Hill a admis 32 élèves de dernière année de la promotion 2026, contre 23 l’année précédente. L’école compte aussi 34 lauréats Morehead-Cain depuis l’origine. Ajoutez un lien Jefferson Scholar durable avec UVA et une décennie de nominations dans les académies militaires.",
+      "of": "72b58775",
       "at": [
         "charlotte-country-day:edge.levers[1].items[2]"
       ]
@@ -6375,8 +6403,8 @@
       ]
     },
     {
-      "t": "70 destinations pour 141 élèves de dernière année dans 24 États, DC et le Canada, 55% dans le public et 45% dans le privé. Des community colleges figurent aux côtés de Princeton et de MIT. 32 élèves se sont inscrits à UNC–Chapel Hill. Et une filière HBCU substantielle, avec des élèves inscrits dans quatre d’entre elles.",
-      "of": "f7cf9e31",
+      "t": "70 destinations pour 141 élèves de dernière année dans 24 États, DC et le Canada, 55% dans le public et 45% dans le privé. Des community colleges figurent aux côtés de Princeton et de MIT. UNC–Chapel Hill en a admis 32. Et une filière HBCU substantielle, avec des élèves inscrits dans quatre d’entre elles.",
+      "of": "334c6b78",
       "at": [
         "charlotte-country-day:verdict.points[5].text"
       ]
@@ -6428,6 +6456,13 @@
       "of": "a326b168",
       "at": [
         "charlotte-country-day:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "Vos pages donnent des chiffres légèrement différents : 23 ou 24 États pour la promotion 2026, $14.7 ou $14.8 million de bourses, quatre ou cinq conseillers à temps plein, et 100+ ou 175+ employeurs partenaires de l’Externship. Lesquels sont à jour ?",
+      "of": "fbb32210",
+      "at": [
+        "charlotte-country-day:verdict.checklist[7]"
       ]
     },
     {
@@ -8500,8 +8535,8 @@
       ]
     },
     {
-      "t": "Cours AP proposés en 2026–27 (décompte dérivé — l’école ne publie aucun total)",
-      "of": "0603b7e0",
+      "t": "Cours AP figurant sur la liste des cours proposés du Profile 2026–27 (le catalogue en recense 26)",
+      "of": "379b9484",
       "at": [
         "davidson-day:transcript.stats[0].label"
       ]
@@ -8647,8 +8682,8 @@
       ]
     },
     {
-      "t": "Deux conseillers pour 184 élèves du Upper School — soit environ 1:92, et environ 1:25 rapporté aux 50 élèves de dernière année — le service déclarant démarrer dès la 9th grade plutôt qu’en avant-dernière année.",
-      "of": "204fd086",
+      "t": "Deux conseillers pour 184 élèves du Upper School — environ 92 élèves du Upper School et 25 élèves de dernière année (promotion 2027) par conseiller — le service déclarant démarrer dès la 9th grade plutôt qu’en avant-dernière année.",
+      "of": "becd5ef1",
       "at": [
         "davidson-day:counseling.headline"
       ]
@@ -8661,15 +8696,15 @@
       ]
     },
     {
-      "t": "~1:92",
-      "of": "add13755",
+      "t": "~92:1",
+      "of": "7c6715d7",
       "at": [
         "davidson-day:counseling.stats[0].value"
       ]
     },
     {
-      "t": "conseillers pour les élèves du Upper School (dérivé — aucun ratio n’est publié)",
-      "of": "8a706a45",
+      "t": "élèves du Upper School par conseiller (calculé — 184 ÷ 2)",
+      "of": "a637c0d0",
       "at": [
         "davidson-day:counseling.stats[0].label"
       ]
@@ -9053,15 +9088,15 @@
       ]
     },
     {
-      "t": "**Recherche de terrain internationale AFAR** — de véritables fouilles archéologiques au Belize (depuis 2009), en Espagne (2014), en Grèce (2017) et au Portugal (2018). Le chantier du Belize est mené avec le projet BVAR à Cahal Pech, sous permis du Belize Institute of Archaeology. L’historique du programme figure dans une revue à comité de lecture (*Heritage*, 2020). Les élèves publient et présentent leurs travaux lors de conférences dans le monde entier.",
-      "of": "36bf8fa1",
+      "t": "**Recherche de terrain internationale AFAR** — de véritables fouilles archéologiques au Belize, en Espagne (2014), en Grèce (2017) et au Portugal (2018). Le profil de l’école date le chantier du Belize de 2009 ; sa page consacrée à la recherche fait remonter AFAR lui-même à 2006. Le chantier du Belize est mené avec le projet BVAR à Cahal Pech, sous permis du Belize Institute of Archaeology. L’historique du programme figure dans une revue à comité de lecture (*Heritage*, 2020). Les élèves publient et présentent leurs travaux lors de conférences dans le monde entier.",
+      "of": "5e5ee91c",
       "at": [
         "davidson-day:edge.levers[0].items[0]"
       ]
     },
     {
-      "t": "**Global Studies Diploma** — un tronc commun Honors Anthropology, quatre cours AP approuvés et la même langue vivante pendant les quatre années d’Upper School. Il exige aussi au moins deux semaines de recherche de terrain internationale et un mémoire de fin de parcours. Point essentiel, il *produit un relevé de notes et un profil distincts envoyés aux universités*. C’est un document supplémentaire au dossier, et non une ligne sur le relevé de notes.",
-      "of": "39b58995",
+      "t": "**Global Studies Diploma** — un tronc commun Honors Anthropology, quatre cours AP approuvés, une langue vivante et un mémoire de fin de parcours. Le profil exige la même langue pendant les quatre années d’Upper School et au moins deux semaines de recherche de terrain internationale. La page Global Studies demande le Level IV ou trois niveaux d’une même langue, et au moins 100 heures de stage pratique. Point essentiel, il *produit un relevé de notes et un profil distincts envoyés aux universités*. C’est un document supplémentaire au dossier, et non une ligne sur le relevé de notes.",
+      "of": "538b58e3",
       "at": [
         "davidson-day:edge.levers[0].items[1]"
       ]
@@ -9081,8 +9116,8 @@
       ]
     },
     {
-      "t": "Le stage ou projet de fin de parcours obligatoire ne s’applique qu’aux élèves visant une Diploma Distinction. Il n’existe aucun stage ni projet de dernière année obligatoire à l’échelle de l’école. Les chiffres de participation à AFAR (« hundreds », « 150+ », « 200+ ») portent sur l’ensemble du programme, réparti sur de nombreuses écoles. Le nombre d’élèves de Davidson Day y ayant pris part n’est pas publié.",
-      "of": "cd6833ed",
+      "t": "Le stage ou projet de fin de parcours obligatoire ne s’applique qu’aux élèves visant une Diploma Distinction. Il n’existe aucun stage ni projet de dernière année obligatoire à l’échelle de l’école. Le chiffre de participation d’AFAR, plus de 500 élèves sur l’ensemble du programme (2026), porte sur tout le programme, réparti sur de nombreuses écoles. Le nombre d’élèves de Davidson Day y ayant pris part n’est pas publié.",
+      "of": "d0ac1b69",
       "at": [
         "davidson-day:edge.levers[0].note"
       ]
@@ -9120,6 +9155,13 @@
       "of": "010a8646",
       "at": [
         "davidson-day:edge.levers[1].note"
+      ]
+    },
+    {
+      "t": "Deux sources de l’école divergent (plan consistency DD-5/DD-6, 2026-11-20). Début d’AFAR : le Profile 2026–27 indique « in Belize since 2009 » ; la page International Research archivée indique « Since inception in 2006 » (Global Exposure retient 2006). Global Studies Diploma : le Profile indique quatre ans d’une même langue et « a minimum of two weeks » de recherche de terrain ; la page Global Studies en ligne indique « Level IV or 3 levels » et « At least 100 hours », sans durée. Les deux sont attribués dans le texte ; Global Exposure porte la question.",
+      "of": "f532a90f",
+      "at": [
+        "davidson-day:edge.flags[0].text"
       ]
     },
     {
@@ -9396,8 +9438,8 @@
       ]
     },
     {
-      "t": "C’est d’une autre nature qu’une simple distinction honorifique. Le Profile indique qu’un relevé de notes et un profil supplémentaires sont envoyés aux universités. Le diplôme repose sur l’étude d’une langue, deux semaines de recherche de terrain internationale et un mémoire de fin de parcours.",
-      "of": "6068e6ef",
+      "t": "C’est d’une autre nature qu’une simple distinction honorifique. Le Profile indique qu’un relevé de notes et un profil supplémentaires sont envoyés aux universités. Le diplôme repose sur l’étude d’une langue, la recherche de terrain internationale et un mémoire de fin de parcours.",
+      "of": "94e8d86d",
       "at": [
         "davidson-day:verdict.points[1].text"
       ]
@@ -9410,8 +9452,8 @@
       ]
     },
     {
-      "t": "Deux conseillers pour 184 élèves du Upper School (~1:92, ~1:25 au niveau de la dernière année) rend crédible le vocabulaire « individualized » plutôt que promotionnel.",
-      "of": "f63f0a2d",
+      "t": "Deux conseillers pour 184 élèves du Upper School (~92:1, ~25:1 au niveau de la dernière année) rend crédible le vocabulaire « individualized » plutôt que promotionnel.",
+      "of": "aac659cd",
       "at": [
         "davidson-day:verdict.points[2].text"
       ]
@@ -9501,6 +9543,13 @@
       ]
     },
     {
+      "t": "Votre profil date le chantier du Belize de 2009, et votre page consacrée à la recherche fait remonter AFAR à 2006. En quelle année a eu lieu la première saison de Davidson Day ?",
+      "of": "46453d69",
+      "at": [
+        "davidson-day:verdict.checklist[8]"
+      ]
+    },
+    {
       "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Carmel Christian School ont été admis à un taux global de 59.2% sur les cinq dernières promotions entrantes — 346 admissions sur 584 candidatures.",
       "of": "555db8cd",
       "at": [
@@ -9543,8 +9592,8 @@
       ]
     },
     {
-      "t": "Un programme AP à large participation : 14 cours AP répartis sur 21 sections enseignées par 12 enseignants, avec 19% des élèves de terminale passant cinq examens ou plus.",
-      "of": "d3c5a74a",
+      "t": "Un programme AP à large participation : en 2023, 14 cours AP répartis sur 21 sections enseignées par 12 enseignants, avec 19% des élèves de terminale passant cinq examens ou plus.",
+      "of": "6fc81a04",
       "at": [
         "carmel-christian:transcript.subhead"
       ]
@@ -9592,8 +9641,8 @@
       ]
     },
     {
-      "t": "cours / sections AP, enseignés par 12 enseignants",
-      "of": "1110a371",
+      "t": "cours / sections AP en 2023, enseignés par 12 enseignants",
+      "of": "c16d8681",
       "at": [
         "carmel-christian:transcript.stats[3].label"
       ]
@@ -9641,8 +9690,8 @@
       ]
     },
     {
-      "t": "**21 sections réparties sur 14 cours AP, enseignés par 12 enseignants** — le programme est réparti sur un véritable corps enseignant plutôt que concentré dans une ou deux salles.",
-      "of": "01cc569e",
+      "t": "**En 2023, 21 sections réparties sur 14 cours AP, enseignés par 12 enseignants** — le programme est réparti sur un véritable corps enseignant plutôt que concentré dans une ou deux salles.",
+      "of": "46216278",
       "at": [
         "carmel-christian:transcript.depth[2].text"
       ]
@@ -10021,8 +10070,8 @@
       ]
     },
     {
-      "t": "Environ 215 établissements figurent sur la College Acceptances list publiée — Princeton et Duke en tête, jusqu'à un solide vivier d'universités publiques de Caroline du Nord et de collèges chrétiens.",
-      "of": "5627c532",
+      "t": "214 établissements figurent sur la College Acceptances list de l’école. Princeton et Duke sont en tête, suivis d'un solide vivier d'universités publiques de Caroline du Nord et de collèges chrétiens.",
+      "of": "75cb48e7",
       "at": [
         "carmel-christian:outcomes.headline"
       ]
@@ -10035,15 +10084,15 @@
       ]
     },
     {
-      "t": "~215",
-      "of": "6813e2c7",
+      "t": "214",
+      "of": "b9e50908",
       "at": [
         "carmel-christian:outcomes.stats[0].value"
       ]
     },
     {
-      "t": "établissements nommés sur la liste des admissions (aucun décompte indiqué)",
-      "of": "d3b5e6ac",
+      "t": "établissements sur la liste des admissions (217 entrées ; la liste en répète trois)",
+      "of": "e55a8f51",
       "at": [
         "carmel-christian:outcomes.stats[0].label"
       ]
@@ -10120,8 +10169,8 @@
       ]
     },
     {
-      "t": "~215 établissements · aucune fenêtre temporelle, aucun décompte ni aucune indication d'inscription publiés",
-      "of": "50a2af20",
+      "t": "214 établissements (217 entrées ; la liste en répète trois) · aucune fenêtre temporelle, aucun décompte ni aucune indication d'inscription publiés",
+      "of": "bd9e22f3",
       "at": [
         "carmel-christian:outcomes.collegesTotal"
       ]
@@ -10200,8 +10249,8 @@
       ]
     },
     {
-      "t": "**Un groupe à forte charge existe** — 19% des élèves de terminale ont passé cinq examens AP ou plus, au sein d'un programme de 14 cours / 21 sections.",
-      "of": "e1851c2c",
+      "t": "**Un groupe à forte charge existe** — 19% des élèves de terminale ont passé cinq examens AP ou plus, au sein d'un programme de 14 cours / 21 sections en 2023.",
+      "of": "b2fd55b8",
       "at": [
         "carmel-christian:edge.levers[0].items[1]"
       ]
@@ -10449,8 +10498,8 @@
       ]
     },
     {
-      "t": "Environ 215 admissions nommées menées par Princeton et Duke, riches en universités publiques de Caroline du Nord et en collèges chrétiens. Mais la liste ne marque aucune inscription : elle montre donc des admissions, et non l'endroit où les élèves se sont inscrits.",
-      "of": "bde6aa92",
+      "t": "214 établissements nommés, menés par Princeton et Duke, riches en universités publiques de Caroline du Nord et en collèges chrétiens. Mais la liste ne marque aucune inscription : elle montre donc des admissions, et non l'endroit où les élèves se sont inscrits.",
+      "of": "1ebb5d98",
       "at": [
         "carmel-christian:verdict.points[3].text"
       ]
@@ -10554,15 +10603,15 @@
       ]
     },
     {
-      "t": "17 + Capstone",
-      "of": "e2c03665",
+      "t": "17",
+      "of": "1aeb28b1",
       "at": [
         "hickory-grove-christian:transcript.stats[0].value"
       ]
     },
     {
-      "t": "cours AP, plus la filière AP Seminar → Research Capstone",
-      "of": "b614165e",
+      "t": "cours AP, dont la filière AP Seminar → AP Research Capstone",
+      "of": "a19aa16e",
       "at": [
         "hickory-grove-christian:transcript.stats[0].label"
       ]
@@ -10645,8 +10694,8 @@
       ]
     },
     {
-      "t": "L’école annonce **17 cours AP plus AP Capstone** (AP Seminar + AP Research). Le profil 2026–27 en cite 13 par leur titre. Calculus BC et Psychology n’y figurent plus, et Human Geography fait son retour. Le profil 2023 en citait 17, qui couvrent tous les titres imprimés dans l’une ou l’autre édition. Les cours effectivement ouverts varient donc d’une année à l’autre.",
-      "of": "9b42df52",
+      "t": "L’école annonce **17 cours AP, dont la filière AP Capstone** (AP Seminar + AP Research). Le profil 2026–27 en cite 13 par leur titre. Calculus BC et Psychology n’y figurent plus, et Human Geography fait son retour. Le profil 2023 en citait 17, qui couvrent tous les titres imprimés dans l’une ou l’autre édition. Les cours effectivement ouverts varient donc d’une année à l’autre.",
+      "of": "962e271e",
       "at": [
         "hickory-grove-christian:transcript.depth[0].text"
       ]
@@ -11465,8 +11514,8 @@
       ]
     },
     {
-      "t": "Il s’agit de bourses au mérite obtenues auprès des universités par les élèves de dernière année, et non de bourses de scolarité de Gaston Day. Les bourses Kimbrell de l’école sont distinctes et figurent dans la rubrique Aide financière. Le montant total a augmenté tandis que le nombre d’élèves baissait (25 élèves/$2.75M en 2023 → 20/$3.87M en 2024). La moyenne par élève a donc à peu près doublé entre ces deux promotions.",
-      "of": "2f10f771",
+      "t": "Il s’agit de bourses au mérite obtenues auprès des universités par les élèves de dernière année, et non de bourses de scolarité de Gaston Day. Les bourses Kimbrell de l’école sont distinctes et figurent dans la rubrique Aide financière. Le montant total a augmenté tandis que le nombre d’élèves baissait (25 élèves/$2.75M en 2023 → 20/$3.87M en 2024). La moyenne par élève a donc augmenté d’environ trois quarts (~$110K → ~$194K) entre ces deux promotions.",
+      "of": "7b396c26",
       "at": [
         "gaston-day:transcript.meritNote"
       ]
@@ -11605,8 +11654,8 @@
       ]
     },
     {
-      "t": "conseillers d’orientation universitaire — le Director plus l’Assistant",
-      "of": "b5d92a99",
+      "t": "personnel d’orientation universitaire — le Director plus l’Assistant",
+      "of": "e97f7e86",
       "at": [
         "gaston-day:counseling.stats[1].label"
       ]

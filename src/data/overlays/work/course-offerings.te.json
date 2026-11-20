@@ -5,14 +5,20 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
-      "text": "2025-26",
-      "of": "fe38e73d",
+      "text": "2026-27",
+      "of": "0a1761dd",
       "at": [
         "providence-day:guideYear",
-        "charlotte-country-day:guideYear",
-        "gaston-day:guideYear"
+        "charlotte-christian:guideYear",
+        "charlotte-catholic:guideYear",
+        "cannon:guideYear",
+        "covenant-day:guideYear",
+        "davidson-day:guideYear",
+        "carmel-christian:guideYear",
+        "trinity-episcopal:guideYear",
+        "charlotte-prep:guideYear"
       ],
-      "t": "2025-26"
+      "t": "2026-27"
     },
     {
       "text": "Lower School Courses",
@@ -561,12 +567,12 @@
       "t": "6 – 8 తరగతులు"
     },
     {
-      "text": "~75 courses across 7 departments — where math placement paths and the five-language world-language sequence begin.",
-      "of": "3c19edb0",
+      "text": "72 courses across 7 departments — where math placement paths and the five-language world-language sequence begin. Shown here as 53 entries, with ensembles, art, acting, PE/Health and language levels grouped.",
+      "of": "b36b64bb",
       "at": [
         "providence-day:divisions[1].teaser"
       ],
-      "t": "7 విభాగాలలో ~75 కోర్సులు — గణిత కేటాయింపు మార్గాలు మరియు ఐదు భాషల ప్రపంచ భాషా క్రమం ఇక్కడే మొదలవుతాయి."
+      "t": "7 విభాగాలలో 72 కోర్సులు — గణిత కేటాయింపు మార్గాలు మరియు ఐదు భాషల ప్రపంచ భాషా క్రమం ఇక్కడే మొదలవుతాయి. ఇక్కడ 53 నమోదులుగా చూపబడ్డాయి, ensembles, కళ, నటన, PE/Health మరియు భాషా స్థాయిలను సమూహపరిచి."
     },
     {
       "text": "English",
@@ -854,7 +860,6 @@
         "providence-day:divisions[1].departments[6].courses[10].tag",
         "providence-day:divisions[2].departments[0].courses[2].tag",
         "providence-day:divisions[2].departments[0].courses[3].tag",
-        "providence-day:divisions[2].departments[0].courses[4].tag",
         "providence-day:divisions[2].departments[0].courses[5].tag",
         "providence-day:divisions[2].departments[0].courses[6].tag",
         "providence-day:divisions[2].departments[0].courses[7].tag",
@@ -862,7 +867,7 @@
         "providence-day:divisions[2].departments[0].courses[9].tag",
         "providence-day:divisions[2].departments[0].courses[10].tag",
         "providence-day:divisions[2].departments[0].courses[11].tag",
-        "providence-day:divisions[2].departments[0].courses[12].tag",
+        "providence-day:divisions[2].departments[0].courses[13].tag",
         "providence-day:divisions[2].departments[1].courses[11].tag",
         "providence-day:divisions[2].departments[1].courses[12].tag",
         "providence-day:divisions[2].departments[1].courses[13].tag",
@@ -874,23 +879,26 @@
         "providence-day:divisions[2].departments[1].courses[19].tag",
         "providence-day:divisions[2].departments[1].courses[20].tag",
         "providence-day:divisions[2].departments[1].courses[21].tag",
+        "providence-day:divisions[2].departments[2].courses[11].tag",
         "providence-day:divisions[2].departments[3].courses[6].tag",
-        "providence-day:divisions[2].departments[3].courses[7].tag",
         "providence-day:divisions[2].departments[3].courses[8].tag",
-        "providence-day:divisions[2].departments[3].courses[9].tag",
         "providence-day:divisions[2].departments[3].courses[10].tag",
         "providence-day:divisions[2].departments[3].courses[13].tag",
         "providence-day:divisions[2].departments[3].courses[14].tag",
         "providence-day:divisions[2].departments[4].courses[0].tag",
         "providence-day:divisions[2].departments[4].courses[1].tag",
+        "providence-day:divisions[2].departments[4].courses[2].tag",
         "providence-day:divisions[2].departments[4].courses[3].tag",
-        "providence-day:divisions[2].departments[4].courses[4].tag",
         "providence-day:divisions[2].departments[4].courses[5].tag",
         "providence-day:divisions[2].departments[4].courses[6].tag",
+        "providence-day:divisions[2].departments[4].courses[7].tag",
+        "providence-day:divisions[2].departments[4].courses[8].tag",
+        "providence-day:divisions[2].departments[4].courses[9].tag",
         "providence-day:divisions[2].departments[5].courses[0].tag",
-        "providence-day:divisions[2].departments[5].courses[2].tag",
+        "providence-day:divisions[2].departments[5].courses[1].tag",
+        "providence-day:divisions[2].departments[5].courses[3].tag",
         "providence-day:divisions[2].departments[5].courses[4].tag",
-        "providence-day:divisions[2].departments[5].courses[5].tag",
+        "providence-day:divisions[2].departments[5].courses[7].tag",
         "providence-day:divisions[2].departments[7].courses[1].tag",
         "providence-day:divisions[2].departments[7].courses[2].tag",
         "providence-day:divisions[2].departments[7].courses[3].tag",
@@ -905,6 +913,7 @@
         "providence-day:divisions[2].departments[8].courses[8].tag",
         "providence-day:divisions[2].departments[8].courses[9].tag",
         "providence-day:divisions[2].departments[8].courses[10].tag",
+        "providence-day:divisions[2].departments[8].courses[11].tag",
         "providence-day:divisions[2].departments[9].courses[2].tag",
         "providence-day:divisions[2].departments[9].courses[3].tag",
         "providence-day:divisions[2].departments[9].courses[4].tag",
@@ -1197,19 +1206,22 @@
       "at": [
         "providence-day:divisions[1].departments[1].courses[3].tag",
         "providence-day:divisions[1].departments[1].courses[6].tag",
+        "providence-day:divisions[2].departments[0].courses[4].tag",
+        "providence-day:divisions[2].departments[0].courses[12].tag",
         "providence-day:divisions[2].departments[1].courses[22].tag",
         "providence-day:divisions[2].departments[2].courses[3].tag",
         "providence-day:divisions[2].departments[2].courses[6].tag",
         "providence-day:divisions[2].departments[2].courses[8].tag",
         "providence-day:divisions[2].departments[2].courses[9].tag",
-        "providence-day:divisions[2].departments[2].courses[11].tag",
+        "providence-day:divisions[2].departments[2].courses[12].tag",
         "providence-day:divisions[2].departments[6].courses[1].tag",
         "providence-day:divisions[2].departments[6].courses[2].tag",
         "providence-day:divisions[2].departments[6].courses[3].tag",
         "providence-day:divisions[2].departments[6].courses[4].tag",
         "providence-day:divisions[2].departments[6].courses[11].tag",
-        "providence-day:divisions[2].departments[6].courses[14].tag",
+        "providence-day:divisions[2].departments[6].courses[12].tag",
         "providence-day:divisions[2].departments[6].courses[15].tag",
+        "providence-day:divisions[2].departments[6].courses[16].tag",
         "charlotte-latin:divisions[1].departments[2].courses[2].tag",
         "charlotte-latin:divisions[1].departments[2].courses[5].tag",
         "charlotte-latin:divisions[2].departments[4].courses[1].tag",
@@ -1322,12 +1334,12 @@
       "t": "Science 7"
     },
     {
-      "text": "The second part of the integrated sequence, with major units on catastrophic events — weather, earthquakes, volcanoes — and light and optics.",
-      "of": "e8be03a2",
+      "text": "The second part of the integrated sequence, with major units on weather and climate and on light and optics.",
+      "of": "a8aa5b3f",
       "at": [
         "providence-day:divisions[1].departments[2].courses[1].description"
       ],
-      "t": "సమగ్ర క్రమంలో రెండో భాగం, విపత్కర సంఘటనలు — వాతావరణం, భూకంపాలు, అగ్నిపర్వతాలు — మరియు కాంతి, దృష్టి శాస్త్రంపై ప్రధాన పాఠాలతో."
+      "t": "సమగ్ర క్రమంలో రెండో భాగం, వాతావరణం మరియు శీతోష్ణస్థితి, అలాగే కాంతి, దృష్టి శాస్త్రంపై ప్రధాన పాఠాలతో."
     },
     {
       "text": "Science 8",
@@ -1423,20 +1435,20 @@
       "t": "ప్రపంచ అవగాహన పెంపొందించేందుకు దేశాలు, భూస్వరూపాలు, వనరులు, శీతోష్ణస్థితులు, ప్రజలు, సంస్కృతులు, మతాలు మరియు ప్రభుత్వ వ్యవస్థలను పరిశీలిస్తుంది."
     },
     {
-      "text": "History in Action: Collaborative Research",
-      "of": "9fbc9c04",
+      "text": "“How does my brain work?”: A Middle School Introduction to Psychology",
+      "of": "48cb4d17",
       "at": [
         "providence-day:divisions[1].departments[3].courses[3].title"
       ],
-      "t": "History in Action: Collaborative Research"
+      "t": "“How does my brain work?”: A Middle School Introduction to Psychology"
     },
     {
-      "text": "In-depth historical inquiry on a student-chosen topic presented as a website, documentary, exhibit, performance, or paper.",
-      "of": "bde44215",
+      "text": "A student-driven look at how the brain shapes emotion, learning, and behavior, where small groups lead units they choose and each student ends with a research project.",
+      "of": "162a882f",
       "at": [
         "providence-day:divisions[1].departments[3].courses[3].description"
       ],
-      "t": "విద్యార్థి ఎంచుకున్న అంశంపై లోతైన చారిత్రక విచారణ, దీన్ని వెబ్‌సైట్, డాక్యుమెంటరీ, ప్రదర్శన, నాటకం లేదా పత్రం రూపంలో సమర్పిస్తారు."
+      "t": "మెదడు భావోద్వేగాలను, అభ్యాసాన్ని మరియు ప్రవర్తనను ఎలా రూపొందిస్తుందో విద్యార్థులే నడిపించే అధ్యయనం; ఇందులో చిన్న బృందాలు తాము ఎంచుకున్న పాఠాలను నడిపిస్తాయి, ప్రతి విద్యార్థీ ఒక పరిశోధన ప్రాజెక్టుతో ముగిస్తారు."
     },
     {
       "text": "Contemporary Global Issues",
@@ -1683,7 +1695,7 @@
       "of": "d34b5466",
       "at": [
         "providence-day:divisions[1].departments[5].courses[1].title",
-        "providence-day:divisions[2].departments[6].courses[7].title"
+        "providence-day:divisions[2].departments[6].courses[8].title"
       ],
       "t": "Latin 1"
     },
@@ -1708,7 +1720,7 @@
       "of": "d24b52d3",
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].title",
-        "providence-day:divisions[2].departments[6].courses[8].title",
+        "providence-day:divisions[2].departments[6].courses[9].title",
         "covenant-day:divisions[0].departments[5].courses[10].title"
       ],
       "t": "Latin 2"
@@ -1824,11 +1836,10 @@
         "providence-day:divisions[2].departments[2].courses[7].tag",
         "providence-day:divisions[2].departments[2].courses[10].tag",
         "providence-day:divisions[2].departments[6].courses[0].tag",
-        "providence-day:divisions[2].departments[6].courses[7].tag",
         "providence-day:divisions[2].departments[6].courses[8].tag",
         "providence-day:divisions[2].departments[6].courses[9].tag",
         "providence-day:divisions[2].departments[6].courses[10].tag",
-        "providence-day:divisions[2].departments[6].courses[13].tag",
+        "providence-day:divisions[2].departments[6].courses[14].tag",
         "providence-day:divisions[2].departments[7].courses[8].tag",
         "providence-day:divisions[2].departments[8].courses[0].tag",
         "providence-day:divisions[2].departments[8].courses[1].tag",
@@ -2017,12 +2028,12 @@
       "t": "పరిచయ స్థాయి Middle School త్రిమితీయ డిజైన్ కోర్సు."
     },
     {
-      "text": "Theatre Arts 6",
-      "of": "a46fff24",
+      "text": "Theatre 6",
+      "of": "d8473c56",
       "at": [
         "providence-day:divisions[1].departments[6].courses[8].title"
       ],
-      "t": "Theatre Arts 6"
+      "t": "Theatre 6"
     },
     {
       "text": "The sixth-grade introduction to theatre arts.",
@@ -2033,20 +2044,20 @@
       "t": "ఆరో తరగతికి రంగస్థల కళల పరిచయం."
     },
     {
-      "text": "Acting 1, 2 & 3",
-      "of": "6a3f9b1b",
+      "text": "Acting 1, Acting 2 & One Act Production Studio",
+      "of": "51cf30f9",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].title"
       ],
-      "t": "Acting 1, 2 & 3"
+      "t": "Acting 1, Acting 2 & One Act Production Studio"
     },
     {
-      "text": "Three semester-long acting courses for Grades 7 and 8; Acting 3 requires prior theatre experience.",
-      "of": "55e536d2",
+      "text": "Three semester courses for Grades 7 and 8 — Intro to Acting & Improv, Training for Stage & Screen, and One Act Production Studio, which requires a theatre course or a past PDS production.",
+      "of": "b2d74d53",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].description"
       ],
-      "t": "7 మరియు 8 తరగతుల కోసం సెమిస్టర్ పొడవునా సాగే మూడు నటనా కోర్సులు; Acting 3కు ముందస్తు రంగస్థల అనుభవం అవసరం."
+      "t": "7 మరియు 8 తరగతుల కోసం మూడు సెమిస్టర్ కోర్సులు — Intro to Acting & Improv, Training for Stage & Screen, మరియు One Act Production Studio; చివరిదానికి ఒక రంగస్థల కోర్సు లేదా గత PDS ప్రదర్శనలో పాల్గొని ఉండటం అవసరం."
     },
     {
       "text": "Middle School Stagecraft",
@@ -2166,12 +2177,12 @@
       "t": "9 – 12 తరగతులు"
     },
     {
-      "text": "149 catalogued courses across 11 departments — foundations through 28 AP courses and post-AP mathematics.",
-      "of": "85c83aa3",
+      "text": "172 catalogued courses across 11 departments — foundations through 30 AP courses and post-AP mathematics. Shown here as 153 entries, with the French, German, Spanish and Mandarin level sequences grouped.",
+      "of": "cfd530ec",
       "at": [
         "providence-day:divisions[2].teaser"
       ],
-      "t": "11 విభాగాలలో 149 నమోదిత కోర్సులు — పునాది స్థాయి నుంచి 28 AP కోర్సులు మరియు AP అనంతర గణితం వరకు."
+      "t": "11 విభాగాలలో 172 నమోదిత కోర్సులు — పునాది స్థాయి నుంచి 30 AP కోర్సులు మరియు AP అనంతర గణితం వరకు. ఇక్కడ 153 నమోదులుగా చూపబడ్డాయి, French, German, Spanish మరియు Mandarin స్థాయి క్రమాలను సమూహపరిచి."
     },
     {
       "text": "English I",
@@ -2288,10 +2299,26 @@
       "t": "విద్యార్థులు కార్యశాల వాతావరణంలో మౌలిక గద్య కల్పన మరియు కవిత్వం రాస్తారు, పాత్రలను మరియు కథాంశాలను సృష్టిస్తూ సహవిద్యార్థుల రచనలను సమీక్షిస్తారు."
     },
     {
+      "text": "Creative Writing (Advanced)",
+      "of": "ff711129",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[4].title"
+      ],
+      "t": "Creative Writing (Advanced)"
+    },
+    {
+      "text": "Builds on Creative Writing with more challenging reading, more complex poetry and prose, and stricter standards for writing and peer critique.",
+      "of": "bbd5d8c4",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[4].description"
+      ],
+      "t": "Creative Writing ఆధారంగా ముందుకు సాగుతుంది: మరింత సవాలుతో కూడిన పఠనం, మరింత సంక్లిష్టమైన కవిత్వం మరియు గద్యం, రచన మరియు సహచర విమర్శకు కఠినమైన ప్రమాణాలు."
+    },
+    {
       "text": "New Media Storytelling",
       "of": "255961e1",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[4].title"
+        "providence-day:divisions[2].departments[0].courses[5].title"
       ],
       "t": "New Media Storytelling"
     },
@@ -2299,7 +2326,7 @@
       "text": "Students examine storytelling strategies from news articles to Instagram reels and apply narrative methods across communication formats.",
       "of": "a5914fd7",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[4].description"
+        "providence-day:divisions[2].departments[0].courses[5].description"
       ],
       "t": "విద్యార్థులు వార్తా కథనాల నుంచి Instagram reels వరకు కథ చెప్పే పద్ధతులను పరిశీలించి, వివిధ సంభాషణ రూపాలలో కథన పద్ధతులను వర్తింపజేస్తారు."
     },
@@ -2307,7 +2334,7 @@
       "text": "English Studies in Film: Philosophy in Film",
       "of": "8d0e83b3",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[5].title"
+        "providence-day:divisions[2].departments[0].courses[6].title"
       ],
       "t": "English Studies in Film: Philosophy in Film"
     },
@@ -2315,7 +2342,7 @@
       "text": "Students pair film with classical philosophical texts to investigate good and evil, self, existence, and reality.",
       "of": "bb0e3cae",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[5].description"
+        "providence-day:divisions[2].departments[0].courses[6].description"
       ],
       "t": "విద్యార్థులు మంచి మరియు చెడు, ఆత్మ, ఉనికి మరియు వాస్తవికతను పరిశోధించేందుకు చలనచిత్రాలను సంప్రదాయ తాత్విక రచనలతో జతచేస్తారు."
     },
@@ -2323,7 +2350,7 @@
       "text": "Detective and Crime Fiction",
       "of": "3848a893",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[6].title"
+        "providence-day:divisions[2].departments[0].courses[7].title"
       ],
       "t": "Detective and Crime Fiction"
     },
@@ -2331,31 +2358,31 @@
       "text": "Students explore the detective and crime fiction genre from the 1800s to the present across short stories, drama, novels, film, and TV.",
       "of": "24e0b661",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[6].description"
+        "providence-day:divisions[2].departments[0].courses[7].description"
       ],
       "t": "విద్యార్థులు 1800ల నుంచి నేటి వరకు గూఢచార మరియు నేర కల్పనా ప్రక్రియను చిన్న కథలు, నాటకాలు, నవలలు, చలనచిత్రాలు మరియు టీవీ ద్వారా అన్వేషిస్తారు."
     },
     {
-      "text": "Global Literature Topics",
-      "of": "c96cccfb",
+      "text": "Global Literature: Women’s Voices",
+      "of": "3e4f5926",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[7].title"
+        "providence-day:divisions[2].departments[0].courses[8].title"
       ],
-      "t": "Global Literature Topics"
+      "t": "Global Literature: Women’s Voices"
     },
     {
-      "text": "Students engage genres spanning Asia, the Caribbean, Africa, and Latin America around a rotating common topic such as gender or justice.",
-      "of": "5ca363cd",
+      "text": "Students read short stories, poetry, novels, and non-fiction by and about women from Asia, the Caribbean, Africa, and Latin America, asking what issues affect women worldwide.",
+      "of": "2d7e1bbc",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[7].description"
+        "providence-day:divisions[2].departments[0].courses[8].description"
       ],
-      "t": "లింగం లేదా న్యాయం వంటి మారుతున్న ఉమ్మడి అంశం చుట్టూ ఆసియా, Caribbean, ఆఫ్రికా మరియు Latin America రచనలను విద్యార్థులు అధ్యయనం చేస్తారు."
+      "t": "ఆసియా, కరీబియన్, ఆఫ్రికా మరియు లాటిన్ అమెరికాకు చెందిన మహిళలు రాసిన, మహిళల గురించిన కథానికలు, కవిత్వం, నవలలు మరియు కల్పితేతర రచనలను విద్యార్థులు చదువుతారు, ప్రపంచవ్యాప్తంగా మహిళలను ఏ సమస్యలు ప్రభావితం చేస్తున్నాయో ప్రశ్నిస్తారు."
     },
     {
       "text": "Graphic Novels",
       "of": "8b3f8c5e",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[8].title"
+        "providence-day:divisions[2].departments[0].courses[9].title"
       ],
       "t": "Graphic Novels"
     },
@@ -2363,7 +2390,7 @@
       "text": "Students scrutinize long-form comics as global literature and design a multimedia work of literary analysis culminating in a student-organized comic-con.",
       "of": "5b324f1f",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[8].description"
+        "providence-day:divisions[2].departments[0].courses[9].description"
       ],
       "t": "విద్యార్థులు దీర్ఘ comicsను ప్రపంచ సాహిత్యంగా పరిశీలించి, విద్యార్థులే నిర్వహించే comic-conతో ముగిసే బహుళ మాధ్యమ సాహిత్య విశ్లేషణ కృతిని రూపొందిస్తారు."
     },
@@ -2371,7 +2398,7 @@
       "text": "Modern Dramatic Literature",
       "of": "e47f8d1a",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[9].title"
+        "providence-day:divisions[2].departments[0].courses[10].title"
       ],
       "t": "Modern Dramatic Literature"
     },
@@ -2379,7 +2406,7 @@
       "text": "A survey of modern drama from Ibsen to Ionesco exploring the loss of individualism, empathy, and meaningful communication through reader’s theater.",
       "of": "550c433c",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[9].description"
+        "providence-day:divisions[2].departments[0].courses[10].description"
       ],
       "t": "reader's theater ద్వారా వ్యక్తివాదం, సహానుభూతి మరియు అర్థవంతమైన సంభాషణ కోల్పోవడాన్ని అన్వేషిస్తూ Ibsen నుంచి Ionesco వరకు ఆధునిక నాటక రంగంపై సర్వేక్షణ."
     },
@@ -2387,7 +2414,7 @@
       "text": "Shakespeare",
       "of": "5b3f3c51",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[10].title"
+        "providence-day:divisions[2].departments[0].courses[11].title"
       ],
       "t": "Shakespeare"
     },
@@ -2395,31 +2422,31 @@
       "text": "Students study a broad sampling of plays, including The Merchant of Venice, Othello, The Tempest, Measure for Measure, and Richard III, reading them aloud and analyzing film versions.",
       "of": "f057375d",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[10].description"
+        "providence-day:divisions[2].departments[0].courses[11].description"
       ],
       "t": "విద్యార్థులు The Merchant of Venice, Othello, The Tempest, Measure for Measure మరియు Richard III సహా విస్తృత శ్రేణి నాటకాలను అధ్యయనం చేస్తారు, వాటిని బిగ్గరగా చదువుతూ చలనచిత్ర రూపాలను విశ్లేషిస్తారు."
     },
     {
-      "text": "War Literature",
-      "of": "d908b2f4",
+      "text": "War Literature (Advanced)",
+      "of": "7c51e9ed",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[11].title"
+        "providence-day:divisions[2].departments[0].courses[12].title"
       ],
-      "t": "War Literature"
+      "t": "War Literature (Advanced)"
     },
     {
-      "text": "Students read poetry, songs, plays, novels, and non-fiction spanning the Thirty Years’ War through Afghanistan and Iraq.",
-      "of": "3239bdba",
+      "text": "Students study how veteran authors portray war, from the Thirty Years’ War through Afghanistan and Iraq, then write a project on a work of war literature they choose.",
+      "of": "9de16b25",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[11].description"
+        "providence-day:divisions[2].departments[0].courses[12].description"
       ],
-      "t": "విద్యార్థులు ముప్పై సంవత్సరాల యుద్ధం నుంచి Afghanistan మరియు Iraq వరకు విస్తరించిన కవిత్వం, పాటలు, నాటకాలు, నవలలు మరియు కల్పనేతర రచనలు చదువుతారు."
+      "t": "ముప్పై ఏళ్ల యుద్ధం నుంచి ఆఫ్ఘనిస్తాన్, ఇరాక్ వరకు మాజీ సైనిక రచయితలు యుద్ధాన్ని ఎలా చిత్రిస్తారో విద్యార్థులు అధ్యయనం చేస్తారు, ఆపై తాము ఎంచుకున్న ఒక యుద్ధ సాహిత్య రచనపై ప్రాజెక్టు రాస్తారు."
     },
     {
       "text": "Latino American Literature",
       "of": "519612cb",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[12].title"
+        "providence-day:divisions[2].departments[0].courses[13].title"
       ],
       "t": "Latino American Literature"
     },
@@ -2427,7 +2454,7 @@
       "text": "An introduction to Latino American literature and cultures in the U.S. from 1960 to the present, analyzing diaspora and border identities.",
       "of": "6eb8b8e3",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[12].description"
+        "providence-day:divisions[2].departments[0].courses[13].description"
       ],
       "t": "1960 నుంచి నేటి వరకు అమెరికాలోని Latino American సాహిత్యం మరియు సంస్కృతులకు పరిచయం, వలస మరియు సరిహద్దు అస్తిత్వాలను విశ్లేషిస్తుంది."
     },
@@ -2435,7 +2462,7 @@
       "text": "AP African American Studies",
       "of": "0ca52363",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].title"
+        "providence-day:divisions[2].departments[0].courses[14].title"
       ],
       "t": "AP African American Studies"
     },
@@ -2443,9 +2470,9 @@
       "text": "AP",
       "of": "3ad53794",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].tag",
         "providence-day:divisions[2].departments[0].courses[14].tag",
         "providence-day:divisions[2].departments[0].courses[15].tag",
+        "providence-day:divisions[2].departments[0].courses[16].tag",
         "providence-day:divisions[2].departments[1].courses[2].tag",
         "providence-day:divisions[2].departments[1].courses[4].tag",
         "providence-day:divisions[2].departments[1].courses[5].tag",
@@ -2454,23 +2481,25 @@
         "providence-day:divisions[2].departments[1].courses[8].tag",
         "providence-day:divisions[2].departments[1].courses[9].tag",
         "providence-day:divisions[2].departments[1].courses[10].tag",
-        "providence-day:divisions[2].departments[2].courses[12].tag",
         "providence-day:divisions[2].departments[2].courses[13].tag",
         "providence-day:divisions[2].departments[2].courses[14].tag",
+        "providence-day:divisions[2].departments[2].courses[15].tag",
         "providence-day:divisions[2].departments[3].courses[15].tag",
         "providence-day:divisions[2].departments[3].courses[16].tag",
         "providence-day:divisions[2].departments[3].courses[17].tag",
         "providence-day:divisions[2].departments[3].courses[18].tag",
         "providence-day:divisions[2].departments[3].courses[19].tag",
-        "providence-day:divisions[2].departments[4].courses[7].tag",
-        "providence-day:divisions[2].departments[4].courses[8].tag",
+        "providence-day:divisions[2].departments[4].courses[10].tag",
+        "providence-day:divisions[2].departments[4].courses[11].tag",
+        "providence-day:divisions[2].departments[5].courses[6].tag",
         "providence-day:divisions[2].departments[6].courses[5].tag",
         "providence-day:divisions[2].departments[6].courses[6].tag",
-        "providence-day:divisions[2].departments[6].courses[12].tag",
-        "providence-day:divisions[2].departments[6].courses[16].tag",
+        "providence-day:divisions[2].departments[6].courses[7].tag",
+        "providence-day:divisions[2].departments[6].courses[13].tag",
+        "providence-day:divisions[2].departments[6].courses[17].tag",
         "providence-day:divisions[2].departments[7].courses[9].tag",
         "providence-day:divisions[2].departments[7].courses[10].tag",
-        "providence-day:divisions[2].departments[8].courses[15].tag",
+        "providence-day:divisions[2].departments[8].courses[16].tag",
         "charlotte-latin:divisions[2].departments[0].courses[4].tag",
         "charlotte-latin:divisions[2].departments[1].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[4].tag",
@@ -2668,7 +2697,7 @@
       "text": "An AP course that draws on literature, arts, political science, geography, and science to explore African American experience.",
       "of": "6f75a4d2",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].description"
+        "providence-day:divisions[2].departments[0].courses[14].description"
       ],
       "t": "ఆఫ్రికన్ అమెరికన్ అనుభవాన్ని అన్వేషించేందుకు సాహిత్యం, కళలు, రాజనీతి శాస్త్రం, భౌగోళిక శాస్త్రం మరియు విజ్ఞాన శాస్త్రాలను ఆధారం చేసుకునే AP కోర్సు."
     },
@@ -2676,7 +2705,7 @@
       "text": "AP English Language and Composition",
       "of": "331a2375",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[14].title",
+        "providence-day:divisions[2].departments[0].courses[15].title",
         "davidson-day:divisions[2].departments[0].courses[6].title"
       ],
       "t": "AP English Language and Composition"
@@ -2685,7 +2714,7 @@
       "text": "College-level expository, analytical, and argumentative writing, with readings from non-fiction genres and a focus on rhetorical technique and logic.",
       "of": "15323bb8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[14].description"
+        "providence-day:divisions[2].departments[0].courses[15].description"
       ],
       "t": "వాక్చాతుర్య పద్ధతి మరియు తర్కంపై దృష్టితో, కల్పనేతర ప్రక్రియల నుంచి పఠనాలతో కూడిన కళాశాల స్థాయి వివరణాత్మక, విశ్లేషణాత్మక మరియు వాదనాత్మక రచన."
     },
@@ -2693,7 +2722,7 @@
       "text": "AP English Literature and Composition",
       "of": "939079c8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[15].title",
+        "providence-day:divisions[2].departments[0].courses[16].title",
         "davidson-day:divisions[2].departments[0].courses[7].title"
       ],
       "t": "AP English Literature and Composition"
@@ -2702,7 +2731,7 @@
       "text": "Refines literary analysis through regularly taught novels such as Moby-Dick, Invisible Man, and Mrs. Dalloway, plus Dickinson, Frost, and Shakespeare, with an outside-reading list.",
       "of": "8f8725b8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[15].description"
+        "providence-day:divisions[2].departments[0].courses[16].description"
       ],
       "t": "Moby-Dick, Invisible Man మరియు Mrs. Dalloway వంటి క్రమం తప్పకుండా బోధించే నవలలు, అదనంగా Dickinson, Frost మరియు Shakespeare ద్వారా సాహిత్య విశ్లేషణను మెరుగుపరుస్తుంది, బయట చదవవలసిన జాబితాతో."
     },
@@ -2736,12 +2765,12 @@
       "t": "World History"
     },
     {
-      "text": "Fosters appreciation for cultural diversity through the geographical and thematic development of events from 1000 CE to the Age of Globalization.",
-      "of": "3f35acdb",
+      "text": "Fosters appreciation for cultural diversity through the geographical and thematic development of events from 600 CE to the Age of Globalization.",
+      "of": "d73b26ae",
       "at": [
         "providence-day:divisions[2].departments[1].courses[1].description"
       ],
-      "t": "1000 CE నుంచి ప్రపంచీకరణ యుగం వరకు సంఘటనల భౌగోళిక మరియు ఇతివృత్త వికాసం ద్వారా సాంస్కృతిక వైవిధ్యంపై అభిరుచిని పెంపొందిస్తుంది."
+      "t": "600 CE నుంచి ప్రపంచీకరణ యుగం వరకు సంఘటనల భౌగోళిక మరియు ఇతివృత్త వికాసం ద్వారా సాంస్కృతిక వైవిధ్యంపై అభిరుచిని పెంపొందిస్తుంది."
     },
     {
       "text": "AP World History: Modern",
@@ -3000,12 +3029,12 @@
       "t": "Universal Declaration of Human Rightsను పరిచయం చేసి, ఉదాహరణల ద్వారా గత మరియు ప్రస్తుత మారణహోమాలు, మానవ హక్కుల ఉల్లంఘనలను పరిశోధిస్తుంది."
     },
     {
-      "text": "Global Studies: Europe and Latin America",
-      "of": "e48d9af0",
+      "text": "Global Studies: Latin America",
+      "of": "d8fa3cc5",
       "at": [
         "providence-day:divisions[2].departments[1].courses[17].title"
       ],
-      "t": "Global Studies: Europe and Latin America"
+      "t": "Global Studies: Latin America"
     },
     {
       "text": "A multi-disciplinary examination of regional trends and cultures, generating research-driven policy recommendations.",
@@ -3302,10 +3331,26 @@
       "t": "applets మరియు Excel ఉపయోగించి సమాచార సేకరణ, ప్రయోగ రూపకల్పన, వర్ణనాత్మక మరియు అనుమాన గణాంకాలు మరియు సంభావ్యతను కలిగిన పరిచయ కోర్సు."
     },
     {
+      "text": "Sports Analytics and Data Science",
+      "of": "042e6ec7",
+      "at": [
+        "providence-day:divisions[2].departments[2].courses[11].title"
+      ],
+      "t": "Sports Analytics and Data Science"
+    },
+    {
+      "text": "A math and IDEAS course that uses sports data to teach data collection, Excel, data visualization, and statistics, building up to predictive modeling and regression; requires Algebra II.",
+      "of": "3be37120",
+      "at": [
+        "providence-day:divisions[2].departments[2].courses[11].description"
+      ],
+      "t": "క్రీడా డేటాను ఉపయోగించి డేటా సేకరణ, Excel, డేటా విజువలైజేషన్ మరియు గణాంకశాస్త్రాన్ని బోధించే గణితం మరియు IDEAS కోర్సు, ఇది predictive modeling మరియు regression వరకు సాగుతుంది; Algebra II అవసరం."
+    },
+    {
       "text": "Calculus (Advanced)",
       "of": "56e16862",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[11].title"
+        "providence-day:divisions[2].departments[2].courses[12].title"
       ],
       "t": "Calculus (Advanced)"
     },
@@ -3313,7 +3358,7 @@
       "text": "Introduces differential calculus concepts and applications, teaching students to evaluate limits and differentiate and integrate elementary functions.",
       "of": "71f26dd8",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[11].description"
+        "providence-day:divisions[2].departments[2].courses[12].description"
       ],
       "t": "అవకలన calculus భావనలు మరియు అనువర్తనాలను పరిచయం చేస్తుంది, అవధులను లెక్కించడం మరియు ప్రాథమిక ప్రమేయాలను అవకలనం, సమాకలనం చేయడం విద్యార్థులకు నేర్పుతుంది."
     },
@@ -3321,7 +3366,7 @@
       "text": "AP Calculus AB",
       "of": "74e1f1ef",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[12].title",
+        "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
         "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
@@ -3333,7 +3378,7 @@
       "text": "Students learn to evaluate limits, differentiate, and integrate elementary functions, using a graphing calculator as an integral part of the course.",
       "of": "bd6b62f6",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[12].description"
+        "providence-day:divisions[2].departments[2].courses[13].description"
       ],
       "t": "విద్యార్థులు అవధులను లెక్కించడం, ప్రాథమిక ప్రమేయాలను అవకలనం మరియు సమాకలనం చేయడం నేర్చుకుంటారు, graphing calculatorను కోర్సులో అంతర్భాగంగా ఉపయోగిస్తారు."
     },
@@ -3341,7 +3386,7 @@
       "text": "AP Calculus BC",
       "of": "1be5376b",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[13].title",
+        "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
         "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[10].title"
@@ -3352,7 +3397,7 @@
       "text": "Covers AB content plus vector, polar, and parametric equations and the calculus of infinite series.",
       "of": "92ad63a0",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[13].description"
+        "providence-day:divisions[2].departments[2].courses[14].description"
       ],
       "t": "AB అంశాలతో పాటు సదిశ, ధ్రువ మరియు పరామితీయ సమీకరణాలు మరియు అనంత శ్రేణుల calculusను కలిగి ఉంటుంది."
     },
@@ -3360,7 +3405,7 @@
       "text": "AP Statistics",
       "of": "64766a8f",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[14].title",
+        "providence-day:divisions[2].departments[2].courses[15].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
         "covenant-day:divisions[0].departments[1].courses[13].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
@@ -3372,7 +3417,7 @@
       "text": "Students simulate probability distributions and analyze relationships between variables via correlation and regression using calculators and software.",
       "of": "655636d1",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[14].description"
+        "providence-day:divisions[2].departments[2].courses[15].description"
       ],
       "t": "calculators మరియు softwareను ఉపయోగించి విద్యార్థులు సంభావ్యతా పంపిణీలను అనుకరించి, సహసంబంధం మరియు తిరోగమనం ద్వారా చరరాశుల మధ్య సంబంధాలను విశ్లేషిస్తారు."
     },
@@ -3380,7 +3425,7 @@
       "text": "Calculus III (Advanced)",
       "of": "dd79cafd",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].title"
+        "providence-day:divisions[2].departments[2].courses[16].title"
       ],
       "t": "Calculus III (Advanced)"
     },
@@ -3388,10 +3433,10 @@
       "text": "Post-AP",
       "of": "7eeeacc7",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].tag",
         "providence-day:divisions[2].departments[2].courses[16].tag",
         "providence-day:divisions[2].departments[2].courses[17].tag",
-        "providence-day:divisions[2].departments[4].courses[2].tag",
+        "providence-day:divisions[2].departments[2].courses[18].tag",
+        "providence-day:divisions[2].departments[4].courses[4].tag",
         "charlotte-christian:divisions[2].departments[2].courses[14].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[12].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[17].tag",
@@ -3405,7 +3450,7 @@
       "text": "Follows BC Calculus with multivariable and vector-valued functions, curvature, double and triple integrals, and vector analysis.",
       "of": "e5ec2dc6",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].description"
+        "providence-day:divisions[2].departments[2].courses[16].description"
       ],
       "t": "BC Calculus తర్వాత బహుచరరాశి మరియు సదిశ ప్రమేయాలు, వక్రత, ద్విగుణ మరియు త్రిగుణ సమాకలనాలు, మరియు సదిశ విశ్లేషణతో కొనసాగుతుంది."
     },
@@ -3413,7 +3458,7 @@
       "text": "Linear Algebra (Advanced)",
       "of": "46d96fc9",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[16].title"
+        "providence-day:divisions[2].departments[2].courses[17].title"
       ],
       "t": "Linear Algebra (Advanced)"
     },
@@ -3421,7 +3466,7 @@
       "text": "Moves into three- and n-dimensional space covering matrices, determinants, simultaneous linear equations, vector spaces, rank, inverses, and inner products.",
       "of": "4aa352d7",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[16].description"
+        "providence-day:divisions[2].departments[2].courses[17].description"
       ],
       "t": "మాత్రికలు, నిర్ధారకాలు, ఏకకాల రేఖీయ సమీకరణాలు, సదిశ ఆవరణాలు, స్థాయి, విలోమాలు మరియు అంతర లబ్ధాలను కలిగి త్రిమితీయ మరియు n-మితీయ ఆవరణంలోకి వెళ్తుంది."
     },
@@ -3429,7 +3474,7 @@
       "text": "Differential Equations (Advanced)",
       "of": "b1045a74",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[17].title"
+        "providence-day:divisions[2].departments[2].courses[18].title"
       ],
       "t": "Differential Equations (Advanced)"
     },
@@ -3437,7 +3482,7 @@
       "text": "Students examine differential equations and their solutions, Laplace Transforms, linear and nonlinear systems, series methods, and Fourier Series.",
       "of": "222a51ff",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[17].description"
+        "providence-day:divisions[2].departments[2].courses[18].description"
       ],
       "t": "విద్యార్థులు అవకలన సమీకరణాలు మరియు వాటి సాధనలు, Laplace Transforms, రేఖీయ మరియు అరేఖీయ వ్యవస్థలు, శ్రేణి పద్ధతులు మరియు Fourier Seriesను పరిశీలిస్తారు."
     },
@@ -3565,80 +3610,14 @@
       "t": "Applied Sports Anatomy"
     },
     {
-      "text": "Students learn musculoskeletal anatomy and injury management, completing 15 hours as student athletic trainers for PDS teams.",
-      "of": "64f6e91c",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[7].description"
-      ],
-      "t": "విద్యార్థులు కండర-అస్థి నిర్మాణం మరియు గాయాల నిర్వహణను నేర్చుకుంటారు, PDS జట్లకు విద్యార్థి క్రీడా శిక్షకులుగా 15 గంటలు పూర్తి చేస్తారు."
-    },
-    {
-      "text": "Astronomy",
-      "of": "da1da391",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[8].title",
-        "charlotte-latin:divisions[2].departments[4].courses[12].title",
-        "charlotte-christian:divisions[2].departments[3].courses[11].title"
-      ],
-      "t": "Astronomy"
-    },
-    {
-      "text": "Students study stars, galaxies, the solar system, and the composition, structure, and origins of the universe using astrolabs and sun spots.",
-      "of": "dd9d673f",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[8].description"
-      ],
-      "t": "astrolabs మరియు సూర్య మచ్చలను ఉపయోగించి విద్యార్థులు నక్షత్రాలు, గెలాక్సీలు, సౌర వ్యవస్థ, మరియు విశ్వ సంఘటనం, నిర్మాణం, మూలాలను అధ్యయనం చేస్తారు."
-    },
-    {
-      "text": "Bioethics/Biotechnology",
-      "of": "822a020e",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[9].title"
-      ],
-      "t": "Bioethics/Biotechnology"
-    },
-    {
-      "text": "A lab and case-study course using micropipettes, PCR, DNA isolation, and gel electrophoresis while debating GMOs, transgenics, and cloning.",
-      "of": "d7a1a690",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[9].description"
-      ],
-      "t": "GMOలు, transgenics మరియు cloningపై చర్చిస్తూ micropipettes, PCR, DNA వేరుచేయడం మరియు gel electrophoresisను ఉపయోగించే ప్రయోగశాల మరియు ఉదాహరణ ఆధారిత కోర్సు."
-    },
-    {
-      "text": "Environmental Sustainability",
-      "of": "fd8972b0",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[10].title"
-      ],
-      "t": "Environmental Sustainability"
-    },
-    {
-      "text": "A multidisciplinary exploration of sustainable development in urban planning, energy, water, and agriculture with hands-on work in Charger Gardens.",
-      "of": "2412793d",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[10].description"
-      ],
-      "t": "Charger Gardensలో ప్రయోగాత్మక కృషితో నగర ప్రణాళిక, శక్తి, నీరు మరియు వ్యవసాయంలో సుస్థిర వికాసంపై విభాగాల మధ్య అన్వేషణ."
-    },
-    {
-      "text": "Forensic Science",
-      "of": "fba6e9f2",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[11].title",
-        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
-      ],
-      "t": "Forensic Science"
-    },
-    {
       "text": "Gr 10–12",
       "of": "102b6929",
       "at": [
+        "providence-day:divisions[2].departments[3].courses[7].tag",
+        "providence-day:divisions[2].departments[3].courses[9].tag",
         "providence-day:divisions[2].departments[3].courses[11].tag",
         "providence-day:divisions[2].departments[3].courses[12].tag",
-        "providence-day:divisions[2].departments[5].courses[1].tag",
-        "providence-day:divisions[2].departments[5].courses[3].tag",
+        "providence-day:divisions[2].departments[5].courses[2].tag",
         "charlotte-christian:divisions[2].departments[1].courses[13].tag",
         "charlotte-christian:divisions[2].departments[1].courses[14].tag",
         "charlotte-christian:divisions[2].departments[7].courses[6].tag",
@@ -3665,6 +3644,73 @@
         "hickory-grove-christian:divisions[0].departments[11].courses[8].tag"
       ],
       "t": "Gr 10–12"
+    },
+    {
+      "text": "Students learn the anatomy of key body regions, from the foot and ankle to the shoulder and hand, plus common sports injuries, recovery, and basic treatment methods.",
+      "of": "fbbdf148",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[7].description"
+      ],
+      "t": "విద్యార్థులు పాదం, చీలమండ నుంచి భుజం, చేయి వరకు ముఖ్యమైన శరీర భాగాల నిర్మాణాన్ని, అలాగే సాధారణ క్రీడా గాయాలు, కోలుకోవడం మరియు ప్రాథమిక చికిత్సా పద్ధతులను నేర్చుకుంటారు."
+    },
+    {
+      "text": "Astronomy",
+      "of": "da1da391",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[8].title",
+        "charlotte-latin:divisions[2].departments[4].courses[12].title",
+        "charlotte-christian:divisions[2].departments[3].courses[11].title"
+      ],
+      "t": "Astronomy"
+    },
+    {
+      "text": "Students study stars, galaxies, the solar system, and the composition, structure, and origins of the universe using astrolabs and sun spotters.",
+      "of": "8403986c",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[8].description"
+      ],
+      "t": "astrolabs మరియు sun spottersను ఉపయోగించి విద్యార్థులు నక్షత్రాలు, గెలాక్సీలు, సౌర వ్యవస్థ, మరియు విశ్వ సంఘటనం, నిర్మాణం, మూలాలను అధ్యయనం చేస్తారు."
+    },
+    {
+      "text": "Bioethics/Biotechnology",
+      "of": "822a020e",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[9].title"
+      ],
+      "t": "Bioethics/Biotechnology"
+    },
+    {
+      "text": "A lab and case-study course using micropipettes, PCR, DNA isolation, and gel electrophoresis while weighing the ethics of transgenic organisms, genome privacy, and cloning.",
+      "of": "6370c07b",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[9].description"
+      ],
+      "t": "transgenic జీవుల నైతికత, genome గోప్యత మరియు cloningను తూకం వేస్తూ micropipettes, PCR, DNA వేరుచేయడం మరియు gel electrophoresisను ఉపయోగించే ప్రయోగశాల మరియు ఉదాహరణ ఆధారిత కోర్సు."
+    },
+    {
+      "text": "Environmental Sustainability",
+      "of": "fd8972b0",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[10].title"
+      ],
+      "t": "Environmental Sustainability"
+    },
+    {
+      "text": "A multidisciplinary exploration of sustainable development in urban planning, energy, water, and agriculture with hands-on work in Charger Gardens.",
+      "of": "2412793d",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[10].description"
+      ],
+      "t": "Charger Gardensలో ప్రయోగాత్మక కృషితో నగర ప్రణాళిక, శక్తి, నీరు మరియు వ్యవసాయంలో సుస్థిర వికాసంపై విభాగాల మధ్య అన్వేషణ."
+    },
+    {
+      "text": "Forensic Science",
+      "of": "fba6e9f2",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
+      ],
+      "t": "Forensic Science"
     },
     {
       "text": "Students apply fingerprint analysis, DNA profiling, and bloodstain pattern interpretation through labs, simulations, and case studies.",
@@ -3699,19 +3745,19 @@
       "t": "Neuroscience"
     },
     {
-      "text": "An introduction to the cellular and molecular functioning of the nervous system, recording electrical activity from nerves, muscles, and plants.",
-      "of": "11a91f28",
+      "text": "A hands-on introduction to how the nervous system works at the cellular and molecular level, with lab investigations that include two brief dissections.",
+      "of": "ffcef1fd",
       "at": [
         "providence-day:divisions[2].departments[3].courses[13].description"
       ],
-      "t": "నాడీ వ్యవస్థ కణ మరియు అణు స్థాయి పనితీరుకు పరిచయం, నరాలు, కండరాలు మరియు మొక్కల నుంచి విద్యుత్ కార్యకలాపాన్ని నమోదు చేస్తారు."
+      "t": "నాడీ వ్యవస్థ కణ మరియు అణు స్థాయిలో ఎలా పనిచేస్తుందో ప్రత్యక్షంగా పరిచయం చేసే కోర్సు; ప్రయోగశాల పరిశోధనల్లో రెండు సంక్షిప్త విచ్ఛేదనలు ఉంటాయి."
     },
     {
       "text": "STEM Research and Design",
       "of": "c6a3f0d6",
       "at": [
         "providence-day:divisions[2].departments[3].courses[14].title",
-        "providence-day:divisions[2].departments[5].courses[4].title"
+        "providence-day:divisions[2].departments[5].courses[3].title"
       ],
       "t": "STEM Research and Design"
     },
@@ -3792,12 +3838,12 @@
       "t": "AP Physics 1"
     },
     {
-      "text": "Students use algebra to study introductory college physics, analyzing data and developing models for systems, fields, forces, conservation, and waves.",
-      "of": "a8097bf9",
+      "text": "Students use algebra to study introductory college physics in labs, analyzing data and building models of motion, forces, energy, momentum, rotation, oscillations, and fluids.",
+      "of": "ae146f3e",
       "at": [
         "providence-day:divisions[2].departments[3].courses[18].description"
       ],
-      "t": "విద్యార్థులు పరిచయ కళాశాల భౌతిక శాస్త్రాన్ని అధ్యయనం చేసేందుకు బీజగణితాన్ని ఉపయోగిస్తారు, వ్యవస్థలు, క్షేత్రాలు, బలాలు, సంరక్షణ మరియు తరంగాలకు సమాచారాన్ని విశ్లేషించి నమూనాలను అభివృద్ధి చేస్తారు."
+      "t": "విద్యార్థులు ప్రయోగశాలల్లో పరిచయ కళాశాల భౌతిక శాస్త్రాన్ని అధ్యయనం చేసేందుకు బీజగణితాన్ని ఉపయోగిస్తారు, సమాచారాన్ని విశ్లేషించి చలనం, బలాలు, శక్తి, ద్రవ్యవేగం, భ్రమణం, డోలనాలు మరియు ద్రవాల నమూనాలను రూపొందిస్తారు."
     },
     {
       "text": "AP Physics C",
@@ -3824,10 +3870,42 @@
       "t": "Computing & Innovation"
     },
     {
+      "text": "Architecture Design",
+      "of": "59fd9608",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[0].title"
+      ],
+      "t": "Architecture Design"
+    },
+    {
+      "text": "Focuses on architectural design principles and Building Information Modeling using 3D CAD tools such as REVIT for floor plans, sections, and elevations.",
+      "of": "ff9fec5d",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[0].description"
+      ],
+      "t": "అంతస్తుల ప్రణాళికలు, ఛేదాలు మరియు ఎత్తుల కోసం REVIT వంటి 3D CAD సాధనాలను ఉపయోగించి వాస్తు రూపకల్పన సూత్రాలు మరియు Building Information Modelingపై దృష్టి."
+    },
+    {
+      "text": "Architecture II: Sustainable Design & LEED Fundamentals",
+      "of": "744ec01b",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[1].title"
+      ],
+      "t": "Architecture II: Sustainable Design & LEED Fundamentals"
+    },
+    {
+      "text": "A project-based course on green, high-performance building that prepares students to pursue the LEED Green Associate certification, ending in a Green Building Design Project; requires Architecture Design.",
+      "of": "791b4b92",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[1].description"
+      ],
+      "t": "పర్యావరణ అనుకూల, అధిక-పనితీరు భవనాలపై ప్రాజెక్టు ఆధారిత కోర్సు; ఇది విద్యార్థులను LEED Green Associate ధ్రువీకరణకు సిద్ధం చేస్తుంది మరియు ఒక Green Building Design Projectతో ముగుస్తుంది; Architecture Design అవసరం."
+    },
+    {
       "text": "Computer-Aided Design with 3D Printing",
       "of": "7ad8d7dc",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[0].title"
+        "providence-day:divisions[2].departments[4].courses[2].title"
       ],
       "t": "Computer-Aided Design with 3D Printing"
     },
@@ -3835,7 +3913,7 @@
       "text": "An introduction to traditional mechanical drawing using CAD software plus 3D printing, isometric drawings, and full 3D modeling techniques.",
       "of": "e1ea3233",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[0].description"
+        "providence-day:divisions[2].departments[4].courses[2].description"
       ],
       "t": "CAD software ఉపయోగించి సంప్రదాయ యాంత్రిక చిత్రలేఖనానికి పరిచయం, అదనంగా 3D printing, సమమితీయ చిత్రాలు మరియు పూర్తి 3D నమూనా పద్ధతులు."
     },
@@ -3843,7 +3921,7 @@
       "text": "Computer Programming with Python",
       "of": "f83fc86f",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[1].title"
+        "providence-day:divisions[2].departments[4].courses[3].title"
       ],
       "t": "Computer Programming with Python"
     },
@@ -3851,7 +3929,7 @@
       "text": "Introduces programming in Python covering variables, data types, iteration, flow of control, functions, GUIs, and event-driven programming.",
       "of": "442bb4a3",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[1].description"
+        "providence-day:divisions[2].departments[4].courses[3].description"
       ],
       "t": "చరరాశులు, సమాచార రకాలు, పునరావృతం, నియంత్రణ ప్రవాహం, ప్రమేయాలు, GUIలు మరియు సంఘటన ఆధారిత ప్రోగ్రామింగ్‌తో Pythonలో ప్రోగ్రామింగ్‌ను పరిచయం చేస్తుంది."
     },
@@ -3859,7 +3937,7 @@
       "text": "Advanced Data Structures in Java",
       "of": "45041a30",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[2].title"
+        "providence-day:divisions[2].departments[4].courses[4].title"
       ],
       "t": "Advanced Data Structures in Java"
     },
@@ -3867,7 +3945,7 @@
       "text": "For students who completed AP CS A, covering data abstraction and encapsulation including stacks, queues, linked lists, binary trees, and hash maps.",
       "of": "c60d2b51",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[2].description"
+        "providence-day:divisions[2].departments[4].courses[4].description"
       ],
       "t": "AP CS A పూర్తి చేసిన విద్యార్థుల కోసం, stacks, queues, linked lists, binary trees మరియు hash mapsతో సహా సమాచార సంగ్రహణ మరియు encapsulationను కలిగి ఉంటుంది."
     },
@@ -3875,7 +3953,7 @@
       "text": "Game Development with Unity and C#",
       "of": "d8492344",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[3].title"
+        "providence-day:divisions[2].departments[4].courses[5].title"
       ],
       "t": "Game Development with Unity and C#"
     },
@@ -3883,7 +3961,7 @@
       "text": "Students learn to develop video games from scratch using the C# language and Unity engine via the \"Create with Code\" curriculum.",
       "of": "9c2655c9",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[3].description"
+        "providence-day:divisions[2].departments[4].courses[5].description"
       ],
       "t": "\"Create with Code\" పాఠ్యప్రణాళిక ద్వారా C# భాష మరియు Unity engineను ఉపయోగించి మొదటి నుంచి వీడియో గేమ్‌లను అభివృద్ధి చేయడం విద్యార్థులు నేర్చుకుంటారు."
     },
@@ -3891,7 +3969,7 @@
       "text": "iOS Programming with Swift",
       "of": "141f2d9a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[4].title"
+        "providence-day:divisions[2].departments[4].courses[6].title"
       ],
       "t": "iOS Programming with Swift"
     },
@@ -3899,7 +3977,7 @@
       "text": "Students use Xcode and the iOS SDK to learn Swift and the Cocoa Touch frameworks, testing apps on their own mobile devices.",
       "of": "b1c111e5",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[4].description"
+        "providence-day:divisions[2].departments[4].courses[6].description"
       ],
       "t": "విద్యార్థులు Xcode మరియు iOS SDKను ఉపయోగించి Swift మరియు Cocoa Touch చట్రాలను నేర్చుకుని, తమ సొంత మొబైల్ పరికరాలలో apps పరీక్షిస్తారు."
     },
@@ -3907,7 +3985,7 @@
       "text": "Physical Computing",
       "of": "a41ac47a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[5].title"
+        "providence-day:divisions[2].departments[4].courses[7].title"
       ],
       "t": "Physical Computing"
     },
@@ -3915,31 +3993,47 @@
       "text": "Students engineer interactive systems with Arduinos and Raspberry Pis using buttons, sensors, displays, LEDs, motors, and wireless modules.",
       "of": "e9beacef",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[5].description"
+        "providence-day:divisions[2].departments[4].courses[7].description"
       ],
       "t": "విద్యార్థులు buttons, sensors, displays, LEDs, motors మరియు wireless modules ఉపయోగించి Arduinos మరియు Raspberry Pisతో పరస్పర వ్యవస్థలను రూపొందిస్తారు."
     },
     {
-      "text": "Robotics & Engineering",
-      "of": "aec8a185",
+      "text": "Robotics & Engineering 1",
+      "of": "dd9ca18a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[6].title"
+        "providence-day:divisions[2].departments[4].courses[8].title"
       ],
-      "t": "Robotics & Engineering"
+      "t": "Robotics & Engineering 1"
     },
     {
       "text": "Explores robotics and engineering foundations and global issues in the field through hands-on problem solving and debate over ethical implications.",
       "of": "244e5342",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[6].description"
+        "providence-day:divisions[2].departments[4].courses[8].description"
       ],
       "t": "ప్రయోగాత్మక సమస్యా పరిష్కారం మరియు నైతిక పర్యవసానాలపై చర్చ ద్వారా robotics, ఇంజినీరింగ్ పునాదులను మరియు ఈ రంగంలోని ప్రపంచ సమస్యలను అన్వేషిస్తుంది."
+    },
+    {
+      "text": "Robotics & Engineering 2",
+      "of": "dc9c9ff7",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[9].title"
+      ],
+      "t": "Robotics & Engineering 2"
+    },
+    {
+      "text": "Building on Robotics & Engineering 1, students take on 2 or 3 real-world challenges, working with community partners to research and engineer a solution.",
+      "of": "07cae16d",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[9].description"
+      ],
+      "t": "Robotics & Engineering 1 ఆధారంగా, విద్యార్థులు 2 లేదా 3 వాస్తవ ప్రపంచ సవాళ్లను చేపడతారు, సముదాయ భాగస్వాములతో కలిసి పరిశోధించి ఒక పరిష్కారాన్ని రూపొందిస్తారు."
     },
     {
       "text": "AP Computer Science A",
       "of": "1c7b7290",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[7].title",
+        "providence-day:divisions[2].departments[4].courses[10].title",
         "charlotte-country-day:divisions[2].departments[6].courses[1].title",
         "davidson-day:divisions[2].departments[6].courses[2].title"
       ],
@@ -3949,7 +4043,7 @@
       "text": "Follows the College Board syllabus in Java, emphasizing syntax, class structure, object-oriented methodologies, algorithms, and data structures.",
       "of": "5e7360b2",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[7].description"
+        "providence-day:divisions[2].departments[4].courses[10].description"
       ],
       "t": "Javaలో College Board పాఠ్యప్రణాళికను అనుసరిస్తుంది, వాక్య నిర్మాణం, class నిర్మాణం, వస్తు ఆధారిత పద్ధతులు, అల్గారిథమ్‌లు మరియు సమాచార నిర్మాణాలను నొక్కి చెబుతుంది."
     },
@@ -3957,7 +4051,7 @@
       "text": "AP Computer Science Principles",
       "of": "b34fad00",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[8].title",
+        "providence-day:divisions[2].departments[4].courses[11].title",
         "davidson-day:divisions[2].departments[6].courses[1].title"
       ],
       "t": "AP Computer Science Principles"
@@ -3966,7 +4060,7 @@
       "text": "Engages students in creative aspects of computer science using computational tools to analyze large data sets and draw conclusions from trends.",
       "of": "58c33221",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[8].description"
+        "providence-day:divisions[2].departments[4].courses[11].description"
       ],
       "t": "పెద్ద సమాచార సముదాయాలను విశ్లేషించి ధోరణుల నుంచి నిర్ణయాలు తీసుకునేందుకు గణన సాధనాలను ఉపయోగిస్తూ computer science సృజనాత్మక అంశాలలో విద్యార్థులను నిమగ్నం చేస్తుంది."
     },
@@ -3975,7 +4069,7 @@
       "of": "ad0010c2",
       "at": [
         "providence-day:divisions[2].departments[5].name",
-        "providence-day:divisions[2].departments[5].courses[5].title"
+        "providence-day:divisions[2].departments[5].courses[4].title"
       ],
       "t": "Design & Entrepreneurship"
     },
@@ -4013,26 +4107,10 @@
       "t": "మౌలిక మరియు సాంకేతిక విశ్లేషణ మధ్య తేడా వంటి ఉన్నత అంశాల వరకు దైనందిన వ్యక్తిగత ఆర్థిక నైపుణ్యాలను కలిగి ఉంటుంది."
     },
     {
-      "text": "Architecture Design",
-      "of": "59fd9608",
-      "at": [
-        "providence-day:divisions[2].departments[5].courses[2].title"
-      ],
-      "t": "Architecture Design"
-    },
-    {
-      "text": "Focuses on architectural design principles and Building Information Modeling using 3D CAD tools such as REVIT for floor plans, sections, and elevations.",
-      "of": "ff9fec5d",
-      "at": [
-        "providence-day:divisions[2].departments[5].courses[2].description"
-      ],
-      "t": "అంతస్తుల ప్రణాళికలు, ఛేదాలు మరియు ఎత్తుల కోసం REVIT వంటి 3D CAD సాధనాలను ఉపయోగించి వాస్తు రూపకల్పన సూత్రాలు మరియు Building Information Modelingపై దృష్టి."
-    },
-    {
       "text": "Social Entrepreneurship",
       "of": "728b6db3",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[3].title"
+        "providence-day:divisions[2].departments[5].courses[2].title"
       ],
       "t": "Social Entrepreneurship"
     },
@@ -4040,7 +4118,7 @@
       "text": "A hands-on course guiding students to launch businesses that create social value, testing ideas quickly against customer and marketplace feedback.",
       "of": "d43c9f1f",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[3].description"
+        "providence-day:divisions[2].departments[5].courses[2].description"
       ],
       "t": "వినియోగదారుల మరియు విపణి అభిప్రాయాలకు వ్యతిరేకంగా ఆలోచనలను వేగంగా పరీక్షిస్తూ, సామాజిక విలువను సృష్టించే వ్యాపారాలను ప్రారంభించేలా విద్యార్థులను నడిపే ప్రయోగాత్మక కోర్సు."
     },
@@ -4048,7 +4126,7 @@
       "text": "Students pursue original scientific research, designing and conducting experiments and presenting results; also carries Science credit.",
       "of": "4575d745",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[4].description"
+        "providence-day:divisions[2].departments[5].courses[3].description"
       ],
       "t": "విద్యార్థులు మౌలిక శాస్త్రీయ పరిశోధన చేపడతారు, ప్రయోగాలను రూపొందించి నిర్వహించి ఫలితాలను ప్రదర్శిస్తారు; దీనికి Science క్రెడిట్ కూడా లభిస్తుంది."
     },
@@ -4056,9 +4134,76 @@
       "text": "Students cultivate design-thinking skills as a studio of designers and enterprise of entrepreneurs to address pressing issues facing students.",
       "of": "a78713fe",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[5].description"
+        "providence-day:divisions[2].departments[5].courses[4].description"
       ],
       "t": "విద్యార్థులను ఎదుర్కొంటున్న కీలక సమస్యలను పరిష్కరించేందుకు రూపకర్తల studioగా, వ్యవస్థాపకుల సంస్థగా విద్యార్థులు design-thinking నైపుణ్యాలను పెంపొందించుకుంటారు."
+    },
+    {
+      "text": "Advanced Entrepreneurship: Incubator to Accelerator",
+      "of": "e6c2a235",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].title"
+      ],
+      "t": "Advanced Entrepreneurship: Incubator to Accelerator"
+    },
+    {
+      "text": "Gr 12",
+      "of": "738fc5f7",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].tag",
+        "charlotte-christian:divisions[2].departments[0].courses[4].tag",
+        "charlotte-christian:divisions[2].departments[1].courses[6].tag",
+        "charlotte-country-day:divisions[2].departments[0].courses[7].tag",
+        "cannon:divisions[2].departments[0].courses[6].tag",
+        "cannon:divisions[2].departments[1].courses[11].tag",
+        "cannon:divisions[2].departments[6].courses[5].tag",
+        "cannon:divisions[2].departments[6].courses[6].tag",
+        "davidson-day:divisions[2].departments[8].courses[6].tag",
+        "hickory-grove-christian:divisions[0].departments[0].courses[8].tag",
+        "hickory-grove-christian:divisions[0].departments[6].courses[3].tag",
+        "hickory-grove-christian:divisions[0].departments[11].courses[11].tag"
+      ],
+      "t": "Gr 12"
+    },
+    {
+      "text": "The senior capstone of the Diploma in Entrepreneurial Studies, where students test a market need, build a first working version of a product and give a formal business presentation.",
+      "of": "44091b59",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].description"
+      ],
+      "t": "Diploma in Entrepreneurial Studies యొక్క చివరి సంవత్సరం capstone; ఇందులో విద్యార్థులు ఒక మార్కెట్ అవసరాన్ని పరీక్షిస్తారు, ఉత్పత్తి యొక్క మొదటి పనిచేసే రూపాన్ని నిర్మిస్తారు మరియు అధికారిక వ్యాపార ప్రదర్శన ఇస్తారు."
+    },
+    {
+      "text": "AP Business with Personal Finance",
+      "of": "2637a358",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[6].title"
+      ],
+      "t": "AP Business with Personal Finance"
+    },
+    {
+      "text": "A year-long course for juniors and seniors covering entrepreneurship, marketing, finance, accounting, and management plus personal finance, with a chance to earn college credit and an employer-endorsed credential.",
+      "of": "9b607118",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[6].description"
+      ],
+      "t": "మూడో మరియు చివరి సంవత్సరం విద్యార్థుల కోసం సంవత్సరం పొడవునా సాగే కోర్సు; వ్యవస్థాపకత, మార్కెటింగ్, ఫైనాన్స్, అకౌంటింగ్ మరియు నిర్వహణతో పాటు వ్యక్తిగత ఆర్థిక నిర్వహణను కవర్ చేస్తుంది, కళాశాల క్రెడిట్ మరియు యజమానులు ఆమోదించిన అర్హతను పొందే అవకాశంతో."
+    },
+    {
+      "text": "AI Literacy: Understanding and Navigating Artificial Intelligence",
+      "of": "598b6f40",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[7].title"
+      ],
+      "t": "AI Literacy: Understanding and Navigating Artificial Intelligence"
+    },
+    {
+      "text": "Students learn how machine learning works, how to judge and use AI in school and work, and how AI affects society; no prior experience is needed.",
+      "of": "d3ffadcf",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[7].description"
+      ],
+      "t": "machine learning ఎలా పనిచేస్తుందో, పాఠశాలలో మరియు పనిలో AIని ఎలా అంచనా వేసి ఉపయోగించాలో, మరియు AI సమాజాన్ని ఎలా ప్రభావితం చేస్తుందో విద్యార్థులు నేర్చుకుంటారు; ముందస్తు అనుభవం అవసరం లేదు."
     },
     {
       "text": "French / German / Spanish I–V",
@@ -4149,18 +4294,34 @@
       "t": "AP French Language"
     },
     {
-      "text": "Prepares seniors for the AP French Language and Culture exam through persuasive essays and timed guided conversations using authentic sources.",
-      "of": "0dfad1a0",
+      "text": "Prepares seniors for the AP French Language and Culture exam through argumentative essays and units built on authentic sources, from Global Challenges to Beauty and Aesthetics.",
+      "of": "b372535e",
       "at": [
         "providence-day:divisions[2].departments[6].courses[5].description"
       ],
-      "t": "నిజమైన ఆధారాలను ఉపయోగించి ఒప్పించే వ్యాసాలు మరియు నిర్ణీత సమయంలో మార్గదర్శిత సంభాషణల ద్వారా చివరి సంవత్సరం విద్యార్థులను AP French Language and Culture పరీక్షకు సన్నద్ధం చేస్తుంది."
+      "t": "Global Challenges నుంచి Beauty and Aesthetics వరకు నిజమైన ఆధారాలపై నిర్మించిన పాఠాలు మరియు వాదనాత్మక వ్యాసాల ద్వారా చివరి సంవత్సరం విద్యార్థులను AP French Language and Culture పరీక్షకు సన్నద్ధం చేస్తుంది."
+    },
+    {
+      "text": "AP German",
+      "of": "80692756",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[6].title"
+      ],
+      "t": "AP German"
+    },
+    {
+      "text": "Prepares students for the AP German Language Exam, with class held only in German and all materials from authentic sources; requires German 6 Advanced with an 87%.",
+      "of": "4ddc4ac0",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[6].description"
+      ],
+      "t": "AP German Language Examకు విద్యార్థులను సిద్ధం చేస్తుంది; తరగతి పూర్తిగా Germanలోనే జరుగుతుంది, అన్ని సామగ్రి నిజమైన ఆధారాల నుంచే; 87%తో German 6 Advanced అవసరం."
     },
     {
       "text": "AP Spanish Language",
       "of": "5e3f2f4e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].title",
+        "providence-day:divisions[2].departments[6].courses[7].title",
         "covenant-day:divisions[0].departments[5].courses[4].title"
       ],
       "t": "AP Spanish Language"
@@ -4169,7 +4330,7 @@
       "text": "Prepares seniors for the AP Spanish Language Exam by building all-around language skills, with Spanish-only classroom conversation.",
       "of": "5fa55fc7",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].description"
+        "providence-day:divisions[2].departments[6].courses[7].description"
       ],
       "t": "అన్ని వైపులా భాషా నైపుణ్యాలను పెంపొందిస్తూ, తరగతిలో స్పానిష్‌లో మాత్రమే సంభాషణతో చివరి సంవత్సరం విద్యార్థులను AP Spanish Language పరీక్షకు సన్నద్ధం చేస్తుంది."
     },
@@ -4177,7 +4338,7 @@
       "text": "Familiarizes students with classical language acquisition through language, historical context, and Rome’s impact, covering daily life, gods, and heroes.",
       "of": "6569f97b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[7].description"
+        "providence-day:divisions[2].departments[6].courses[8].description"
       ],
       "t": "భాష, చారిత్రక సందర్భం మరియు రోమ్ ప్రభావం ద్వారా సంప్రదాయ భాషా అభ్యసనతో విద్యార్థులను పరిచయం చేస్తుంది, దైనందిన జీవితం, దేవతలు మరియు వీరులను కలిగి ఉంటుంది."
     },
@@ -4185,7 +4346,7 @@
       "text": "Students read Latin stories set in ancient Rome, studying grammar concepts through themes of feasting, bathing, piracy, gladiators, and political unrest.",
       "of": "1b1b4ea4",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[8].description"
+        "providence-day:divisions[2].departments[6].courses[9].description"
       ],
       "t": "విద్యార్థులు ప్రాచీన రోమ్‌లో జరిగే Latin కథలు చదువుతారు, విందులు, స్నానాలు, సముద్రపు దొంగతనం, gladiators మరియు రాజకీయ అశాంతి ఇతివృత్తాల ద్వారా వ్యాకరణ భావనలను అధ్యయనం చేస్తారు."
     },
@@ -4193,55 +4354,55 @@
       "text": "Latin 3",
       "of": "d14b5140",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[9].title"
+        "providence-day:divisions[2].departments[6].courses[10].title"
       ],
       "t": "Latin 3"
     },
     {
-      "text": "Reviews grammar and introduces clauses, progressing to unadapted Latin through the prose of Livy and Pliny and the poetry of Catullus.",
-      "of": "c8d515be",
-      "at": [
-        "providence-day:divisions[2].departments[6].courses[9].description"
-      ],
-      "t": "వ్యాకరణాన్ని పునశ్చరణ చేసి ఉపవాక్యాలను పరిచయం చేస్తుంది, Livy మరియు Pliny గద్యం, Catullus కవిత్వం ద్వారా సవరించని Latinకు చేరుతుంది."
-    },
-    {
-      "text": "Latin 4",
-      "of": "d84b5c45",
-      "at": [
-        "providence-day:divisions[2].departments[6].courses[10].title"
-      ],
-      "t": "Latin 4"
-    },
-    {
-      "text": "A literature course exploring the poetry of Catullus, Ovid, and Vergil, reading Latin aloud to hear meter and evaluate literary devices.",
-      "of": "f6a3c306",
+      "text": "Reviews grammar and introduces clauses, progressing to original, unadapted Latin through the prose of Caesar, Pliny, Livy, and Eutropius.",
+      "of": "c8bebbc1",
       "at": [
         "providence-day:divisions[2].departments[6].courses[10].description"
       ],
-      "t": "Catullus, Ovid మరియు Vergil కవిత్వాన్ని అన్వేషించే సాహిత్య కోర్సు, ఛందస్సును వినేందుకు మరియు సాహిత్య పద్ధతులను అంచనా వేసేందుకు Latinను బిగ్గరగా చదువుతారు."
+      "t": "వ్యాకరణాన్ని పునశ్చరణ చేసి ఉపవాక్యాలను పరిచయం చేస్తుంది, ఆపై Caesar, Pliny, Livy మరియు Eutropius గద్యం ద్వారా మూల, మార్పు చేయని Latin వరకు సాగుతుంది."
+    },
+    {
+      "text": "Latin 4 (Advanced)",
+      "of": "bfb66906",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[11].title"
+      ],
+      "t": "Latin 4 (Advanced)"
+    },
+    {
+      "text": "A literature course on the poetry and mythology of Catullus, Ovid, and Vergil, weighing how well each poet uses literary devices, meter, tone, and purpose.",
+      "of": "3052dc30",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[11].description"
+      ],
+      "t": "Catullus, Ovid మరియు Vergil కవిత్వం, పురాణాలపై సాహిత్య కోర్సు; ప్రతి కవి సాహిత్య పద్ధతులు, ఛందస్సు, స్వరం మరియు ఉద్దేశాన్ని ఎంత బాగా ఉపయోగిస్తారో అంచనా వేస్తారు."
     },
     {
       "text": "Latin 5 (Advanced)",
       "of": "425c804b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[11].title"
+        "providence-day:divisions[2].departments[6].courses[12].title"
       ],
       "t": "Latin 5 (Advanced)"
     },
     {
-      "text": "A prose and poetry literature course with a project-based comparative-texts component and readings from authors such as Vergil, Pliny, Catullus, Ovid, Vespucci, and Boccaccio.",
-      "of": "c300258c",
+      "text": "A prose and poetry literature course with a project comparing texts on shared themes, reading Vergil, Pliny, Catullus, and Ovid alongside authors from outside the ancient Roman period.",
+      "of": "c82bcc96",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[11].description"
+        "providence-day:divisions[2].departments[6].courses[12].description"
       ],
-      "t": "ప్రాజెక్టు ఆధారిత తులనాత్మక పాఠ్య భాగం మరియు Vergil, Pliny, Catullus, Ovid, Vespucci, Boccaccio వంటి రచయితల పఠనాలతో గద్య, పద్య సాహిత్య కోర్సు."
+      "t": "Vergil, Pliny, Catullus మరియు Ovidను ప్రాచీన రోమన్ కాలం వెలుపలి రచయితలతో పాటు చదువుతూ, ఉమ్మడి ఇతివృత్తాలపై పాఠ్యాలను పోల్చే ప్రాజెక్టుతో కూడిన గద్య, పద్య సాహిత్య కోర్సు."
     },
     {
       "text": "AP Latin",
       "of": "6d3b696e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[12].title",
+        "providence-day:divisions[2].departments[6].courses[13].title",
         "charlotte-country-day:divisions[2].departments[4].courses[13].title"
       ],
       "t": "AP Latin"
@@ -4250,7 +4411,7 @@
       "text": "Presents the material and skills for the AP Latin Exam, analyzing text, recognizing literary devices, and citing underlying themes.",
       "of": "5aadcc70",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[12].description"
+        "providence-day:divisions[2].departments[6].courses[13].description"
       ],
       "t": "AP Latin పరీక్షకు అవసరమైన అంశాలు మరియు నైపుణ్యాలను అందిస్తుంది, రచనను విశ్లేషించడం, సాహిత్య పద్ధతులను గుర్తించడం మరియు అంతర్లీన ఇతివృత్తాలను పేర్కొనడం."
     },
@@ -4258,7 +4419,7 @@
       "text": "Mandarin Chinese 1–5",
       "of": "531d6261",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[13].title"
+        "providence-day:divisions[2].departments[6].courses[14].title"
       ],
       "t": "Mandarin Chinese 1–5"
     },
@@ -4266,7 +4427,7 @@
       "text": "Sequenced courses from Novice Mid to Intermediate Mid 1 proficiency across themes such as Greetings, Dining, Travel, and In the Restaurant.",
       "of": "98c36859",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[13].description"
+        "providence-day:divisions[2].departments[6].courses[14].description"
       ],
       "t": "Greetings, Dining, Travel మరియు In the Restaurant వంటి ఇతివృత్తాలలో Novice Mid నుంచి Intermediate Mid 1 ప్రావీణ్యం వరకు క్రమ కోర్సులు."
     },
@@ -4274,7 +4435,7 @@
       "text": "Mandarin Chinese 6 (Advanced)",
       "of": "c514e9f5",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[14].title"
+        "providence-day:divisions[2].departments[6].courses[15].title"
       ],
       "t": "Mandarin Chinese 6 (Advanced)"
     },
@@ -4282,7 +4443,7 @@
       "text": "Consolidates Intermediate Mid 2 abilities while exploring contemporary Chinese culture in educational, social, and technological contexts.",
       "of": "81fa2ce3",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[14].description"
+        "providence-day:divisions[2].departments[6].courses[15].description"
       ],
       "t": "విద్యా, సామాజిక మరియు సాంకేతిక సందర్భాలలో సమకాలీన చైనీస్ సంస్కృతిని అన్వేషిస్తూ Intermediate Mid 2 సామర్థ్యాలను స్థిరపరుస్తుంది."
     },
@@ -4290,7 +4451,7 @@
       "text": "Mandarin Chinese 7 (Advanced)",
       "of": "e3dd6be8",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[15].title"
+        "providence-day:divisions[2].departments[6].courses[16].title"
       ],
       "t": "Mandarin Chinese 7 (Advanced)"
     },
@@ -4298,7 +4459,7 @@
       "text": "Continues Intermediate Mid 2 consolidation, exploring culture through Education, Festivals, Environmental Challenges, and Healthy Living.",
       "of": "48428f7b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[15].description"
+        "providence-day:divisions[2].departments[6].courses[16].description"
       ],
       "t": "Education, Festivals, Environmental Challenges మరియు Healthy Living ద్వారా సంస్కృతిని అన్వేషిస్తూ Intermediate Mid 2 స్థిరీకరణను కొనసాగిస్తుంది."
     },
@@ -4306,7 +4467,7 @@
       "text": "AP Chinese Language and Culture",
       "of": "0bffc54c",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[16].title"
+        "providence-day:divisions[2].departments[6].courses[17].title"
       ],
       "t": "AP Chinese Language and Culture"
     },
@@ -4314,7 +4475,7 @@
       "text": "Covers aural and oral skills, reading comprehension, grammar, and composition across the five goal areas, developing awareness of China’s global role.",
       "of": "05551cb1",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[16].description"
+        "providence-day:divisions[2].departments[6].courses[17].description"
       ],
       "t": "ఐదు లక్ష్య రంగాలలో శ్రవణ, మౌఖిక నైపుణ్యాలు, పఠన అవగాహన, వ్యాకరణం మరియు రచనను కలిగి ఉంటుంది, Chinaకు ప్రపంచంలో ఉన్న పాత్రపై అవగాహనను పెంచుతుంది."
     },
@@ -4453,12 +4614,12 @@
       "t": "స్వతంత్రంగా పనిచేయడానికి సిద్ధమైన అత్యంత ఉత్సాహవంతులైన విద్యార్థుల కోసం, వివిధ మాధ్యమాలు, కళా విమర్శ మరియు వ్యక్తిగత అన్వేషణా పద్ధతిని సాధన చేస్తారు."
     },
     {
-      "text": "Understanding Art: A Global View",
-      "of": "c2a2b6d5",
+      "text": "Understanding Art: A Contemporary Global View",
+      "of": "54253574",
       "at": [
         "providence-day:divisions[2].departments[7].courses[7].title"
       ],
-      "t": "Understanding Art: A Global View"
+      "t": "Understanding Art: A Contemporary Global View"
     },
     {
       "text": "Examines fine art across cultures with focus on Postmodern and Global Contemporary periods, emphasizing visual literacy.",
@@ -4624,10 +4785,26 @@
       "t": "orchestra తీగ వాయిద్యాలపై శిక్షణ మరియు ప్రదర్శన అందిస్తుంది, స్వరం, శ్రుతి, పద్ధతి మరియు వ్యాఖ్యానంలో ప్రావీణ్యం సాధిస్తారు."
     },
     {
+      "text": "Music Technology and Production",
+      "of": "f49b143e",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[4].title"
+      ],
+      "t": "Music Technology and Production"
+    },
+    {
+      "text": "Students use music production software and recording equipment to learn multitrack recording, audio editing, and audio design; prior music experience is preferred.",
+      "of": "4a7cdac9",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[4].description"
+      ],
+      "t": "విద్యార్థులు music production software మరియు రికార్డింగ్ పరికరాలను ఉపయోగించి multitrack recording, audio editing మరియు audio designను నేర్చుకుంటారు; ముందస్తు సంగీత అనుభవం ఉంటే మంచిది."
+    },
+    {
       "text": "Theatre I: Introduction to Performance",
       "of": "80701414",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[4].title"
+        "providence-day:divisions[2].departments[8].courses[5].title"
       ],
       "t": "Theatre I: Introduction to Performance"
     },
@@ -4635,7 +4812,7 @@
       "text": "Introduces theatrical performance from the actor’s perspective through pantomime, improvisation, scene work, and contentless scenes.",
       "of": "41fd4a3c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[4].description"
+        "providence-day:divisions[2].departments[8].courses[5].description"
       ],
       "t": "pantomime, ఆశువు నటన, దృశ్య కృషి మరియు విషయ రహిత దృశ్యాల ద్వారా నటుడి దృక్కోణం నుంచి రంగస్థల ప్రదర్శనను పరిచయం చేస్తుంది."
     },
@@ -4643,7 +4820,7 @@
       "text": "Theatre II: Advanced Acting",
       "of": "3bd9046e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[5].title"
+        "providence-day:divisions[2].departments[8].courses[6].title"
       ],
       "t": "Theatre II: Advanced Acting"
     },
@@ -4651,31 +4828,32 @@
       "text": "Explores advanced techniques including Meisner and Stanislavski, musical theatre, text and character analysis, and audition technique.",
       "of": "63f0248f",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[5].description"
+        "providence-day:divisions[2].departments[8].courses[6].description"
       ],
       "t": "Meisner మరియు Stanislavski, సంగీత రంగస్థలం, పాఠ్య మరియు పాత్ర విశ్లేషణ, మరియు ఆడిషన్ పద్ధతితో సహా ఉన్నత పద్ధతులను అన్వేషిస్తుంది."
     },
     {
-      "text": "Theatrical Performing Arts Lab",
-      "of": "16fffd28",
+      "text": "Musical Theatre",
+      "of": "0a9bd0ea",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[6].title"
+        "providence-day:divisions[2].departments[8].courses[7].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
       ],
-      "t": "Theatrical Performing Arts Lab"
+      "t": "మ్యూజికల్ థియేటర్"
     },
     {
-      "text": "Students select, cast, design, rehearse, and produce a one-act play, with tech-focused students serving as designers.",
-      "of": "3fe3fb18",
+      "text": "Students build the singing, acting, and dancing skills of a musical theatre performer and study the genre’s history, ending in a final performance.",
+      "of": "c33aeab0",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[6].description"
+        "providence-day:divisions[2].departments[8].courses[7].description"
       ],
-      "t": "విద్యార్థులు ఒక ఏకాంకికను ఎంచుకుని, పాత్రలు కేటాయించి, రూపొందించి, సాధన చేసి ప్రదర్శిస్తారు, సాంకేతిక ఆసక్తి గల విద్యార్థులు రూపకర్తలుగా పనిచేస్తారు."
+      "t": "విద్యార్థులు musical theatre ప్రదర్శకునికి అవసరమైన గానం, నటన మరియు నృత్య నైపుణ్యాలను పెంపొందించుకుంటారు మరియు ఆ ప్రక్రియ చరిత్రను అధ్యయనం చేస్తారు; కోర్సు తుది ప్రదర్శనతో ముగుస్తుంది."
     },
     {
       "text": "Theatre Around the World",
       "of": "2f6e784a",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[7].title"
+        "providence-day:divisions[2].departments[8].courses[8].title"
       ],
       "t": "Theatre Around the World"
     },
@@ -4683,7 +4861,7 @@
       "text": "Examines global theatrical traditions including Japanese Noh, Indian Kathakali, UK Pantomime, Italian Opera, and Brazilian Theatre of the Oppressed.",
       "of": "a49b8aa8",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[7].description"
+        "providence-day:divisions[2].departments[8].courses[8].description"
       ],
       "t": "జపనీస్ Noh, భారతీయ Kathakali, UK Pantomime, ఇటాలియన్ Opera మరియు బ్రెజిలియన్ Theatre of the Oppressedతో సహా ప్రపంచ రంగస్థల సంప్రదాయాలను పరిశీలిస్తుంది."
     },
@@ -4691,7 +4869,7 @@
       "text": "Theatrical Production and Design",
       "of": "65026e14",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[8].title"
+        "providence-day:divisions[2].departments[8].courses[9].title"
       ],
       "t": "Theatrical Production and Design"
     },
@@ -4699,7 +4877,7 @@
       "text": "Students explore costumes, stage makeup, props, and stage management, learning sewing, special-effect makeup, and prop building.",
       "of": "f534dfa1",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[8].description"
+        "providence-day:divisions[2].departments[8].courses[9].description"
       ],
       "t": "విద్యార్థులు దుస్తులు, వేదిక అలంకరణ, వస్తువులు మరియు వేదిక నిర్వహణను అన్వేషిస్తారు, కుట్టుపని, ప్రత్యేక ప్రభావాల అలంకరణ మరియు వస్తువుల తయారీని నేర్చుకుంటారు."
     },
@@ -4707,7 +4885,7 @@
       "text": "RE(ACT): Theatre and Social Change",
       "of": "dbd7aab0",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[9].title"
+        "providence-day:divisions[2].departments[8].courses[10].title"
       ],
       "t": "RE(ACT): Theatre and Social Change"
     },
@@ -4715,7 +4893,7 @@
       "text": "Establishes dramatic performance as social change, studying Augusto Boal’s Theatre of the Oppressed and modern plays on world events.",
       "of": "49d841be",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[9].description"
+        "providence-day:divisions[2].departments[8].courses[10].description"
       ],
       "t": "నాటక ప్రదర్శనను సామాజిక మార్పుగా స్థాపిస్తుంది, Augusto Boal Theatre of the Oppressed మరియు ప్రపంచ సంఘటనలపై ఆధునిక నాటకాలను అధ్యయనం చేస్తుంది."
     },
@@ -4723,7 +4901,7 @@
       "text": "Technical Theatre",
       "of": "2cc4ae9b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[10].title",
+        "providence-day:divisions[2].departments[8].courses[11].title",
         "charlotte-christian:divisions[2].departments[7].courses[18].title"
       ],
       "t": "Technical Theatre"
@@ -4732,7 +4910,7 @@
       "text": "A hands-on course in which students design and build scenery, paint backdrops, focus lighting, and create sound and special effects.",
       "of": "b8cc023c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[10].description"
+        "providence-day:divisions[2].departments[8].courses[11].description"
       ],
       "t": "విద్యార్థులు దృశ్యాలను రూపొందించి నిర్మించే, తెరలను చిత్రించే, lighting అమర్చే, మరియు ధ్వని, ప్రత్యేక ప్రభావాలను సృష్టించే ప్రయోగాత్మక కోర్సు."
     },
@@ -4740,7 +4918,7 @@
       "text": "Honors Band",
       "of": "afe8d91b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].title"
+        "providence-day:divisions[2].departments[8].courses[12].title"
       ],
       "t": "Honors Band"
     },
@@ -4748,10 +4926,10 @@
       "text": "Honors",
       "of": "c7d97254",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].tag",
         "providence-day:divisions[2].departments[8].courses[12].tag",
         "providence-day:divisions[2].departments[8].courses[13].tag",
         "providence-day:divisions[2].departments[8].courses[14].tag",
+        "providence-day:divisions[2].departments[8].courses[15].tag",
         "charlotte-latin:divisions[2].departments[0].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[7].tag",
         "charlotte-latin:divisions[2].departments[2].courses[2].tag",
@@ -5022,7 +5200,7 @@
       "text": "For seniors who completed three years of Upper School Band, meeting audition requirements and additional instructor-set requirements.",
       "of": "94c24c76",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].description"
+        "providence-day:divisions[2].departments[8].courses[12].description"
       ],
       "t": "మూడు సంవత్సరాలు Upper School Band పూర్తి చేసి, ఆడిషన్ నిబంధనలను మరియు బోధకుడు నిర్దేశించిన అదనపు నిబంధనలను తీర్చే చివరి సంవత్సరం విద్యార్థుల కోసం."
     },
@@ -5030,7 +5208,7 @@
       "text": "Honors Chorus",
       "of": "03148f6e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[12].title"
+        "providence-day:divisions[2].departments[8].courses[13].title"
       ],
       "t": "Honors Chorus"
     },
@@ -5038,7 +5216,7 @@
       "text": "For seniors who completed three years of Upper School Chorus, meeting audition and additional course requirements.",
       "of": "5438fc70",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[12].description"
+        "providence-day:divisions[2].departments[8].courses[13].description"
       ],
       "t": "మూడు సంవత్సరాలు Upper School Chorus పూర్తి చేసి, ఆడిషన్ మరియు అదనపు కోర్సు నిబంధనలను తీర్చే చివరి సంవత్సరం విద్యార్థుల కోసం."
     },
@@ -5046,7 +5224,7 @@
       "text": "Honors Jazz Ensemble",
       "of": "684bd93c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[13].title"
+        "providence-day:divisions[2].departments[8].courses[14].title"
       ],
       "t": "Honors Jazz Ensemble"
     },
@@ -5054,7 +5232,7 @@
       "text": "For seniors who completed three years of Upper School Band or Jazz Ensemble, meeting audition and additional requirements.",
       "of": "fee547b7",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[13].description"
+        "providence-day:divisions[2].departments[8].courses[14].description"
       ],
       "t": "మూడు సంవత్సరాలు Upper School Band లేదా Jazz Ensemble పూర్తి చేసి, ఆడిషన్ మరియు అదనపు నిబంధనలను తీర్చే చివరి సంవత్సరం విద్యార్థుల కోసం."
     },
@@ -5062,7 +5240,7 @@
       "text": "Honors Orchestra",
       "of": "e86bed3b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[14].title",
+        "providence-day:divisions[2].departments[8].courses[15].title",
         "charlotte-country-day:divisions[2].departments[5].courses[6].title"
       ],
       "t": "Honors Orchestra"
@@ -5071,7 +5249,7 @@
       "text": "For seniors who completed three years of Upper School Orchestra, meeting audition and additional requirements.",
       "of": "b6d5128e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[14].description"
+        "providence-day:divisions[2].departments[8].courses[15].description"
       ],
       "t": "మూడు సంవత్సరాలు Upper School Orchestra పూర్తి చేసి, ఆడిషన్ మరియు అదనపు నిబంధనలను తీర్చే చివరి సంవత్సరం విద్యార్థుల కోసం."
     },
@@ -5079,7 +5257,7 @@
       "text": "AP Music Theory",
       "of": "d70bc8a8",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[15].title",
+        "providence-day:divisions[2].departments[8].courses[16].title",
         "charlotte-country-day:divisions[2].departments[5].courses[9].title"
       ],
       "t": "AP Music Theory"
@@ -5088,7 +5266,7 @@
       "text": "Students study melody, harmony, texture, rhythm, form, and some history and style, entering with basic theory and notation skills.",
       "of": "10a5ce52",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[15].description"
+        "providence-day:divisions[2].departments[8].courses[16].description"
       ],
       "t": "విద్యార్థులు రాగం, స్వర సమన్వయం, ఆకృతి, లయ, రూపం, మరియు కొంత చరిత్ర, శైలిని అధ్యయనం చేస్తారు, ప్రాథమిక సిద్ధాంత మరియు స్వరలిపి నైపుణ్యాలతో ప్రవేశిస్తారు."
     },
@@ -5923,12 +6101,12 @@
       "t": "Charlotte Latin Speech and Debate కార్యక్రమానికి Middle School ప్రవేశ మార్గం."
     },
     {
-      "text": "122 courses across 13 departments — 23 AP courses, Greek as a second language, and an MIT-network Fab Lab.",
-      "of": "73c56078",
+      "text": "122 courses across 13 departments — 23 AP courses on the school’s course-offerings page, Greek as a second language, and an MIT-network Fab Lab. Shown here as 105 entries: sequences such as French I–V share a row, Drama and Music share a tab, and Online Courses lists no course.",
+      "of": "90208a77",
       "at": [
         "charlotte-latin:divisions[2].teaser"
       ],
-      "t": "13 విభాగాలలో 122 కోర్సులు — 23 AP కోర్సులు, రెండో భాషగా Greek, మరియు MIT నెట్‌వర్క్ Fab Lab."
+      "t": "13 విభాగాలలో 122 కోర్సులు — పాఠశాల course-offerings పేజీలో 23 AP కోర్సులు, రెండో భాషగా Greek, మరియు MIT నెట్‌వర్క్ Fab Lab. ఇక్కడ 105 నమోదులుగా చూపబడ్డాయి: French I–V వంటి క్రమాలు ఒకే వరుసను పంచుకుంటాయి, Drama మరియు Music ఒకే tabను పంచుకుంటాయి, మరియు Online Courses ఏ కోర్సునూ జాబితా చేయదు."
     },
     {
       "text": "World Literature",
@@ -7679,21 +7857,6 @@
       "t": "క్రీడా వైద్యానికి పరిచయం."
     },
     {
-      "text": "2026-27",
-      "of": "0a1761dd",
-      "at": [
-        "charlotte-christian:guideYear",
-        "charlotte-catholic:guideYear",
-        "cannon:guideYear",
-        "covenant-day:guideYear",
-        "davidson-day:guideYear",
-        "carmel-christian:guideYear",
-        "trinity-episcopal:guideYear",
-        "charlotte-prep:guideYear"
-      ],
-      "t": "2026-27"
-    },
-    {
       "text": "JK – Grade 4",
       "of": "1a6fcf80",
       "at": [
@@ -7703,12 +7866,12 @@
       "t": "JK – 4వ తరగతి"
     },
     {
-      "text": "5 core subject strands — Bible from JK through a Grade 4 Case for Christ apologetics capstone — plus six enrichment classes.",
-      "of": "a523846e",
+      "text": "Bible plus 5 core subject strands — Bible from JK through a Grade 4 Case for Christ apologetics capstone — plus six enrichment classes.",
+      "of": "68b87b12",
       "at": [
         "charlotte-christian:divisions[0].teaser"
       ],
-      "t": "5 ప్రధాన సబ్జెక్టు విభాగాలు — JK నుంచి 4వ తరగతిలో Case for Christ apologetics ముగింపు వరకు Bible — అదనంగా ఆరు సుసంపన్న తరగతులు."
+      "t": "Bible మరియు 5 ప్రధాన సబ్జెక్టు విభాగాలు — JK నుంచి 4వ తరగతిలో Case for Christ apologetics ముగింపు వరకు Bible — అదనంగా ఆరు సుసంపన్న తరగతులు."
     },
     {
       "text": "Charlotte Christian publishes Lower School subject strands with grade-band content tables, not named courses. It publishes no Lower School course catalog.",
@@ -8403,12 +8566,12 @@
       "t": "ఈ రెండూ నాలుగు తరగతులలోనూ వర్ణించిన విభాగాలుగా నడుస్తాయి, ఒక్కో తరగతికి కోర్సు పేర్లు ప్రచురించబడలేదు."
     },
     {
-      "text": "~135 courses across 11 departments — 21 AP course lines, 35+ honors, and 4 required units of Biblical Studies.",
-      "of": "b5858f53",
+      "text": "143 course entries across 11 departments — 21 AP courses on the guide’s AP list, 35+ honors, and 4 required units of Biblical Studies. Shown here as 129 entries: the French, Latin and Spanish sequences and Yearbook share a row each. The list shows 22 AP titles because the guide also describes AP Spanish Literature.",
+      "of": "87a453b0",
       "at": [
         "charlotte-christian:divisions[2].teaser"
       ],
-      "t": "11 విభాగాలలో ~135 కోర్సులు — 21 AP కోర్సు వరుసలు, 35+ honors, మరియు 4 తప్పనిసరి Biblical Studies యూనిట్లు."
+      "t": "11 విభాగాలలో 143 కోర్సు నమోదులు — guide యొక్క AP జాబితాలో 21 AP కోర్సులు, 35+ honors, మరియు 4 తప్పనిసరి Biblical Studies యూనిట్లు. ఇక్కడ 129 నమోదులుగా చూపబడ్డాయి: French, Latin మరియు Spanish క్రమాలు మరియు Yearbook ఒక్కొక్కటీ ఒకే వరుసలో ఉన్నాయి. guide AP Spanish Literatureను కూడా వివరిస్తుంది కాబట్టి జాబితా 22 AP శీర్షికలను చూపుతుంది."
     },
     {
       "text": "Biblical Studies",
@@ -8492,24 +8655,6 @@
         "charlotte-christian:divisions[2].departments[0].courses[4].title"
       ],
       "t": "Apologetics and Cultural Engagement"
-    },
-    {
-      "text": "Gr 12",
-      "of": "738fc5f7",
-      "at": [
-        "charlotte-christian:divisions[2].departments[0].courses[4].tag",
-        "charlotte-christian:divisions[2].departments[1].courses[6].tag",
-        "charlotte-country-day:divisions[2].departments[0].courses[7].tag",
-        "cannon:divisions[2].departments[0].courses[6].tag",
-        "cannon:divisions[2].departments[1].courses[11].tag",
-        "cannon:divisions[2].departments[6].courses[5].tag",
-        "cannon:divisions[2].departments[6].courses[6].tag",
-        "davidson-day:divisions[2].departments[8].courses[6].tag",
-        "hickory-grove-christian:divisions[0].departments[0].courses[8].tag",
-        "hickory-grove-christian:divisions[0].departments[6].courses[3].tag",
-        "hickory-grove-christian:divisions[0].departments[11].courses[11].tag"
-      ],
-      "t": "Gr 12"
     },
     {
       "text": "Equips students to articulate and live out their Christian faith, with first semester on apologetics and second on cultural engagement.",
@@ -13598,6 +13743,15 @@
       "t": "కళ యొక్క మూలాలు మరియు చారిత్రక వికాసానికి పరిచయం."
     },
     {
+      "text": "2025-26",
+      "of": "fe38e73d",
+      "at": [
+        "charlotte-country-day:guideYear",
+        "gaston-day:guideYear"
+      ],
+      "t": "2025-26"
+    },
+    {
       "text": "10 subject areas — both French and Spanish from JK, a Design Lab, and a Grade 4 Exhibition research capstone.",
       "of": "24301b41",
       "at": [
@@ -14281,12 +14435,12 @@
       "t": "ప్రతి విద్యార్థికీ ఒక అధ్యాపక advisor కేటాయించబడతారు, వారు విద్యా మరియు వ్యక్తిగత మార్గదర్శకత్వం అందిస్తూ పాఠశాల-కుటుంబ అనుసంధాన వారధిగా పనిచేస్తారు."
     },
     {
-      "text": "119 catalogued course lines across 9 departments — 23 AP courses AND 18 IB courses plus the full IB Diploma core.",
-      "of": "a947efc3",
+      "text": "117 course lines across 9 departments in the guide’s index — 23 AP courses AND 18 IB courses plus the full IB Diploma core. Shown here as 121 entries, including five courses the guide describes but does not index.",
+      "of": "35c1ab48",
       "at": [
         "charlotte-country-day:divisions[2].teaser"
       ],
-      "t": "9 విభాగాలలో 119 నమోదిత కోర్సు వరుసలు — 23 AP కోర్సులు మరియు 18 IB కోర్సులు, అదనంగా పూర్తి IB Diploma ప్రధాన భాగం."
+      "t": "guide సూచికలో 9 విభాగాలలో 117 కోర్సు వరుసలు — 23 AP కోర్సులు మరియు 18 IB కోర్సులు, అదనంగా పూర్తి IB Diploma ప్రధాన భాగం. ఇక్కడ 121 నమోదులుగా చూపబడ్డాయి, guide వివరించినా సూచికలో చేర్చని ఐదు కోర్సులతో సహా."
     },
     {
       "text": "English 9: Foundations in English",
@@ -16504,12 +16658,12 @@
       "t": "ThinkTank makerspaceలో 3D printing, virtual reality, డ్రోన్‌లు, robotics, CAD డిజైన్ మరియు కంప్యూటర్ ప్రోగ్రామింగ్ సహా కార్యకలాపాలను కలుపుతుంది."
     },
     {
-      "text": "104 courses across 8 departments — 14 AP plus 13 faculty-designed Advanced Topics courses, each capped by a Signature Learning Experience or a final cumulative exam.",
-      "of": "a56b67f0",
+      "text": "104 courses across 8 departments — 14 AP plus 13 faculty-designed Advanced Topics courses, each capped by a Signature Learning Experience or a final cumulative exam. Shown here as 101 entries: String Ensemble I–IV share a row.",
+      "of": "cd350c84",
       "at": [
         "cannon:divisions[2].teaser"
       ],
-      "t": "8 విభాగాలలో 104 కోర్సులు — 14 AP మరియు 13 అధ్యాపక రూపకల్పన Advanced Topics కోర్సులు, ఒక్కొక్కటీ ఒక Signature Learning Experience లేదా తుది సంచిత పరీక్షతో ముగుస్తుంది."
+      "t": "8 విభాగాలలో 104 కోర్సులు — 14 AP మరియు 13 అధ్యాపక రూపకల్పన Advanced Topics కోర్సులు, ఒక్కొక్కటీ ఒక Signature Learning Experience లేదా తుది సంచిత పరీక్షతో ముగుస్తుంది. ఇక్కడ 101 నమోదులుగా చూపబడ్డాయి: String Ensemble I–IV ఒకే వరుసను పంచుకుంటాయి."
     },
     {
       "text": "Honors English I",
@@ -20486,12 +20640,12 @@
       "t": "Middle School విద్యార్థులు Upper School ప్రపంచ భాష మరియు గణిత కోర్సులు తీసుకోవచ్చు; ఆ క్రెడిట్లు ఉత్తీర్ణతకు లెక్కకు వస్తాయి కానీ Upper School GPA నుంచి మినహాయించబడతాయి."
     },
     {
-      "text": "~75 catalogued courses across 9 departments — 26 AP courses, post-AP Calculus III, and three Diploma Distinction tracks.",
-      "of": "4f147650",
+      "text": "86 catalogued courses across 9 departments — 26 AP courses, post-AP Calculus III, and three Diploma Distinction tracks. Shown here as 87 entries, adding the AFAR International Research fieldwork program.",
+      "of": "ff7a3d2e",
       "at": [
         "davidson-day:divisions[2].teaser"
       ],
-      "t": "9 విభాగాలలో ~75 నమోదిత కోర్సులు — 26 AP కోర్సులు, AP అనంతర Calculus III, మరియు మూడు Diploma Distinction మార్గాలు."
+      "t": "9 విభాగాలలో 86 నమోదిత కోర్సులు — 26 AP కోర్సులు, AP అనంతర Calculus III, మరియు మూడు Diploma Distinction మార్గాలు. ఇక్కడ 87 నమోదులుగా చూపబడ్డాయి, AFAR International Research క్షేత్ర కార్యక్రమాన్ని జోడించి."
     },
     {
       "text": "A survey of literary genres built on The Crucible, Romeo and Juliet, and Of Mice and Men, with sustained academic-writing practice.",
@@ -21671,12 +21825,12 @@
       "t": "అధ్యాపక పర్యవేక్షకుడితో విద్యార్థి స్వయంగా రూపొందించుకునే అధ్యయన క్రమం, ఆమోదిత సారాంశం మరియు పాఠ్యప్రణాళిక అవసరం; GPA నుంచి మినహాయించబడుతుంది."
     },
     {
-      "text": "77 course titles across 9 departments — including 16 Advanced Placement courses — from the school’s 2026-27 course listings and graduation requirements.",
-      "of": "b6302f41",
+      "text": "96 course entries (77 distinct titles) across 9 departments — including 16 Advanced Placement courses — from the school’s 2026-27 course listings and graduation requirements.",
+      "of": "ca732103",
       "at": [
         "carmel-christian:divisions[0].teaser"
       ],
-      "t": "పాఠశాల 2026-27 కోర్సు జాబితాలు మరియు పట్టభద్రత నిబంధనల నుంచి 9 విభాగాలలో 77 కోర్సు శీర్షికలు — 16 Advanced Placement కోర్సులతో సహా."
+      "t": "పాఠశాల 2026-27 కోర్సు జాబితాలు మరియు పట్టభద్రత నిబంధనల నుంచి 9 విభాగాలలో 96 కోర్సు నమోదులు (77 విభిన్న శీర్షికలు) — 16 Advanced Placement కోర్సులతో సహా."
     },
     {
       "text": "Old Testament",
@@ -25651,14 +25805,6 @@
       "t": "ఇంప్రొవైజేషన్, మూకాభినయం, నటన, రంగస్థల సాంకేతిక పాత్రలు, ఏకాంక నాటిక ప్రదర్శనతో ముగుస్తుంది."
     },
     {
-      "text": "Musical Theatre",
-      "of": "0a9bd0ea",
-      "at": [
-        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
-      ],
-      "t": "మ్యూజికల్ థియేటర్"
-    },
-    {
       "text": "An introduction rotating dance, singing and acting, with a performance of one or two songs at the end.",
       "of": "b1e8b869",
       "at": [
@@ -27140,20 +27286,20 @@
       "t": "Montessori దశలు"
     },
     {
-      "text": "Pre-Primary",
-      "of": "c7945bb5",
+      "text": "Younger children",
+      "of": "0fa8351f",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[0].title"
       ],
-      "t": "Pre-Primary"
+      "t": "చిన్న పిల్లలు"
     },
     {
-      "text": "Age 2",
-      "of": "b71ec8d2",
+      "text": "Ages 2–3",
+      "of": "48bbb245",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[0].tag"
       ],
-      "t": "వయస్సు 2"
+      "t": "వయస్సు 2–3"
     },
     {
       "text": "Younger children \"focus on gaining independence, large motor control, and early language and communication skills.\"",
@@ -27164,12 +27310,12 @@
       "t": "చిన్న పిల్లలు \"focus on gaining independence, large motor control, and early language and communication skills.\""
     },
     {
-      "text": "Primary",
-      "of": "c7827f79",
+      "text": "Primary students",
+      "of": "7a88eceb",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[1].title"
       ],
-      "t": "Primary"
+      "t": "Primary విద్యార్థులు"
     },
     {
       "text": "Ages 3–4",
@@ -27188,12 +27334,12 @@
       "t": "విద్యార్థులు \"build concentration, coordination, organization, and independence through repeated, sequential practical life activities in preparation for future academic work.\""
     },
     {
-      "text": "Transitional K & Montessori K",
-      "of": "dd5c87e8",
+      "text": "Older students",
+      "of": "d9ff5bf3",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[2].title"
       ],
-      "t": "Transitional K & Montessori K"
+      "t": "పెద్ద విద్యార్థులు"
     },
     {
       "text": "Ages 5–6",

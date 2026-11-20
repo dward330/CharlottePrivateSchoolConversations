@@ -3,12 +3,18 @@
   "lang": "ht",
   "strings": [
     {
-      "t": "2025-26",
-      "of": "fe38e73d",
+      "t": "2026-27",
+      "of": "0a1761dd",
       "at": [
         "providence-day:guideYear",
-        "charlotte-country-day:guideYear",
-        "gaston-day:guideYear"
+        "charlotte-christian:guideYear",
+        "charlotte-catholic:guideYear",
+        "cannon:guideYear",
+        "covenant-day:guideYear",
+        "davidson-day:guideYear",
+        "carmel-christian:guideYear",
+        "trinity-episcopal:guideYear",
+        "charlotte-prep:guideYear"
       ]
     },
     {
@@ -514,8 +520,8 @@
       ]
     },
     {
-      "t": "~75 kou atravè 7 depatman — kote wout plasman matematik yo ak sekans senk lang etranje a kòmanse.",
-      "of": "3c19edb0",
+      "t": "72 kou atravè 7 depatman — kote wout plasman matematik yo ak sekans senk lang etranje a kòmanse. Isit la yo parèt kòm 53 antre, ak ansanm mizik, atizay, aktyaj, PE/Health ak nivo lang yo gwoupe.",
+      "of": "b36b64bb",
       "at": [
         "providence-day:divisions[1].teaser"
       ]
@@ -795,7 +801,6 @@
         "providence-day:divisions[1].departments[6].courses[10].tag",
         "providence-day:divisions[2].departments[0].courses[2].tag",
         "providence-day:divisions[2].departments[0].courses[3].tag",
-        "providence-day:divisions[2].departments[0].courses[4].tag",
         "providence-day:divisions[2].departments[0].courses[5].tag",
         "providence-day:divisions[2].departments[0].courses[6].tag",
         "providence-day:divisions[2].departments[0].courses[7].tag",
@@ -803,7 +808,7 @@
         "providence-day:divisions[2].departments[0].courses[9].tag",
         "providence-day:divisions[2].departments[0].courses[10].tag",
         "providence-day:divisions[2].departments[0].courses[11].tag",
-        "providence-day:divisions[2].departments[0].courses[12].tag",
+        "providence-day:divisions[2].departments[0].courses[13].tag",
         "providence-day:divisions[2].departments[1].courses[11].tag",
         "providence-day:divisions[2].departments[1].courses[12].tag",
         "providence-day:divisions[2].departments[1].courses[13].tag",
@@ -815,23 +820,26 @@
         "providence-day:divisions[2].departments[1].courses[19].tag",
         "providence-day:divisions[2].departments[1].courses[20].tag",
         "providence-day:divisions[2].departments[1].courses[21].tag",
+        "providence-day:divisions[2].departments[2].courses[11].tag",
         "providence-day:divisions[2].departments[3].courses[6].tag",
-        "providence-day:divisions[2].departments[3].courses[7].tag",
         "providence-day:divisions[2].departments[3].courses[8].tag",
-        "providence-day:divisions[2].departments[3].courses[9].tag",
         "providence-day:divisions[2].departments[3].courses[10].tag",
         "providence-day:divisions[2].departments[3].courses[13].tag",
         "providence-day:divisions[2].departments[3].courses[14].tag",
         "providence-day:divisions[2].departments[4].courses[0].tag",
         "providence-day:divisions[2].departments[4].courses[1].tag",
+        "providence-day:divisions[2].departments[4].courses[2].tag",
         "providence-day:divisions[2].departments[4].courses[3].tag",
-        "providence-day:divisions[2].departments[4].courses[4].tag",
         "providence-day:divisions[2].departments[4].courses[5].tag",
         "providence-day:divisions[2].departments[4].courses[6].tag",
+        "providence-day:divisions[2].departments[4].courses[7].tag",
+        "providence-day:divisions[2].departments[4].courses[8].tag",
+        "providence-day:divisions[2].departments[4].courses[9].tag",
         "providence-day:divisions[2].departments[5].courses[0].tag",
-        "providence-day:divisions[2].departments[5].courses[2].tag",
+        "providence-day:divisions[2].departments[5].courses[1].tag",
+        "providence-day:divisions[2].departments[5].courses[3].tag",
         "providence-day:divisions[2].departments[5].courses[4].tag",
-        "providence-day:divisions[2].departments[5].courses[5].tag",
+        "providence-day:divisions[2].departments[5].courses[7].tag",
         "providence-day:divisions[2].departments[7].courses[1].tag",
         "providence-day:divisions[2].departments[7].courses[2].tag",
         "providence-day:divisions[2].departments[7].courses[3].tag",
@@ -846,6 +854,7 @@
         "providence-day:divisions[2].departments[8].courses[8].tag",
         "providence-day:divisions[2].departments[8].courses[9].tag",
         "providence-day:divisions[2].departments[8].courses[10].tag",
+        "providence-day:divisions[2].departments[8].courses[11].tag",
         "providence-day:divisions[2].departments[9].courses[2].tag",
         "providence-day:divisions[2].departments[9].courses[3].tag",
         "providence-day:divisions[2].departments[9].courses[4].tag",
@@ -1121,19 +1130,22 @@
       "at": [
         "providence-day:divisions[1].departments[1].courses[3].tag",
         "providence-day:divisions[1].departments[1].courses[6].tag",
+        "providence-day:divisions[2].departments[0].courses[4].tag",
+        "providence-day:divisions[2].departments[0].courses[12].tag",
         "providence-day:divisions[2].departments[1].courses[22].tag",
         "providence-day:divisions[2].departments[2].courses[3].tag",
         "providence-day:divisions[2].departments[2].courses[6].tag",
         "providence-day:divisions[2].departments[2].courses[8].tag",
         "providence-day:divisions[2].departments[2].courses[9].tag",
-        "providence-day:divisions[2].departments[2].courses[11].tag",
+        "providence-day:divisions[2].departments[2].courses[12].tag",
         "providence-day:divisions[2].departments[6].courses[1].tag",
         "providence-day:divisions[2].departments[6].courses[2].tag",
         "providence-day:divisions[2].departments[6].courses[3].tag",
         "providence-day:divisions[2].departments[6].courses[4].tag",
         "providence-day:divisions[2].departments[6].courses[11].tag",
-        "providence-day:divisions[2].departments[6].courses[14].tag",
+        "providence-day:divisions[2].departments[6].courses[12].tag",
         "providence-day:divisions[2].departments[6].courses[15].tag",
+        "providence-day:divisions[2].departments[6].courses[16].tag",
         "charlotte-latin:divisions[1].departments[2].courses[2].tag",
         "charlotte-latin:divisions[1].departments[2].courses[5].tag",
         "charlotte-latin:divisions[2].departments[4].courses[1].tag",
@@ -1235,8 +1247,8 @@
       ]
     },
     {
-      "t": "Dezyèm pati sekans entegre a, ak gwo inite sou evènman katastwofik — tan, tranblemanntè, vòlkan — ak limyè ak optik.",
-      "of": "e8be03a2",
+      "t": "Dezyèm pati sekans entegre a, ak gwo inite sou tan ak klima ak sou limyè ak optik.",
+      "of": "a8aa5b3f",
       "at": [
         "providence-day:divisions[1].departments[2].courses[1].description"
       ]
@@ -1324,15 +1336,15 @@
       ]
     },
     {
-      "t": "History in Action: Collaborative Research",
-      "of": "9fbc9c04",
+      "t": "“How does my brain work?”: A Middle School Introduction to Psychology",
+      "of": "48cb4d17",
       "at": [
         "providence-day:divisions[1].departments[3].courses[3].title"
       ]
     },
     {
-      "t": "Envestigasyon istorik apwofondi sou yon sijè elèv la chwazi, prezante kòm yon sit entènèt, dokimantè, egzibisyon, pèfòmans, oswa papye.",
-      "of": "bde44215",
+      "t": "Yon kou elèv yo dirije sou fason sèvo a fòme emosyon, aprantisaj, ak konpòtman, kote ti gwoup yo dirije inite yo chwazi epi chak elèv fini ak yon pwojè rechèch.",
+      "of": "162a882f",
       "at": [
         "providence-day:divisions[1].departments[3].courses[3].description"
       ]
@@ -1556,7 +1568,7 @@
       "of": "d34b5466",
       "at": [
         "providence-day:divisions[1].departments[5].courses[1].title",
-        "providence-day:divisions[2].departments[6].courses[7].title"
+        "providence-day:divisions[2].departments[6].courses[8].title"
       ]
     },
     {
@@ -1578,7 +1590,7 @@
       "of": "d24b52d3",
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].title",
-        "providence-day:divisions[2].departments[6].courses[8].title",
+        "providence-day:divisions[2].departments[6].courses[9].title",
         "covenant-day:divisions[0].departments[5].courses[10].title"
       ]
     },
@@ -1681,11 +1693,10 @@
         "providence-day:divisions[2].departments[2].courses[7].tag",
         "providence-day:divisions[2].departments[2].courses[10].tag",
         "providence-day:divisions[2].departments[6].courses[0].tag",
-        "providence-day:divisions[2].departments[6].courses[7].tag",
         "providence-day:divisions[2].departments[6].courses[8].tag",
         "providence-day:divisions[2].departments[6].courses[9].tag",
         "providence-day:divisions[2].departments[6].courses[10].tag",
-        "providence-day:divisions[2].departments[6].courses[13].tag",
+        "providence-day:divisions[2].departments[6].courses[14].tag",
         "providence-day:divisions[2].departments[7].courses[8].tag",
         "providence-day:divisions[2].departments[8].courses[0].tag",
         "providence-day:divisions[2].departments[8].courses[1].tag",
@@ -1858,8 +1869,8 @@
       ]
     },
     {
-      "t": "Theatre Arts 6",
-      "of": "a46fff24",
+      "t": "Theatre 6",
+      "of": "d8473c56",
       "at": [
         "providence-day:divisions[1].departments[6].courses[8].title"
       ]
@@ -1872,15 +1883,15 @@
       ]
     },
     {
-      "t": "Acting 1, 2 & 3",
-      "of": "6a3f9b1b",
+      "t": "Acting 1, Acting 2 & One Act Production Studio",
+      "of": "51cf30f9",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].title"
       ]
     },
     {
-      "t": "Twa kou aktyaj yon semès pou Grad 7 ak 8; Acting 3 egzije eksperyans teyat anvan.",
-      "of": "55e536d2",
+      "t": "Twa kou yon semès pou Grad 7 ak 8 — Intro to Acting & Improv, Training for Stage & Screen, ak One Act Production Studio, ki egzije yon kou teyat oswa yon pwodiksyon PDS anvan.",
+      "of": "b2d74d53",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].description"
       ]
@@ -1992,8 +2003,8 @@
       ]
     },
     {
-      "t": "149 kou nan katalòg atravè 11 depatman — fondasyon rive nan 28 kou AP ak matematik pòs-AP.",
-      "of": "85c83aa3",
+      "t": "172 kou nan katalòg atravè 11 depatman — fondasyon rive nan 30 kou AP ak matematik pòs-AP. Isit la yo parèt kòm 153 antre, ak sekans nivo Franse, Alman, Panyòl ak Mandaren yo gwoupe.",
+      "of": "cfd530ec",
       "at": [
         "providence-day:divisions[2].teaser"
       ]
@@ -2103,145 +2114,159 @@
       ]
     },
     {
+      "t": "Creative Writing (Advanced)",
+      "of": "ff711129",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[4].title"
+      ]
+    },
+    {
+      "t": "Li bati sou Creative Writing ak lekti ki pi difisil, pwezi ak pwoz ki pi konplèks, ak estanda ki pi sevè pou ekriti ak kritik ant kanmarad.",
+      "of": "bbd5d8c4",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[4].description"
+      ]
+    },
+    {
       "t": "New Media Storytelling",
       "of": "255961e1",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[4].title"
+        "providence-day:divisions[2].departments[0].courses[5].title"
       ]
     },
     {
       "t": "Elèv yo egzamine estrateji pou rakonte istwa soti nan atik nouvèl rive nan Instagram reels epi yo aplike metòd naratif atravè fòma kominikasyon.",
       "of": "a5914fd7",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[4].description"
+        "providence-day:divisions[2].departments[0].courses[5].description"
       ]
     },
     {
       "t": "English Studies in Film: Philosophy in Film",
       "of": "8d0e83b3",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[5].title"
+        "providence-day:divisions[2].departments[0].courses[6].title"
       ]
     },
     {
       "t": "Elèv yo makonnen fim ak tèks filozofik klasik pou envestige byen ak mal, tèt, egzistans, ak reyalite.",
       "of": "bb0e3cae",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[5].description"
+        "providence-day:divisions[2].departments[0].courses[6].description"
       ]
     },
     {
       "t": "Detective and Crime Fiction",
       "of": "3848a893",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[6].title"
+        "providence-day:divisions[2].departments[0].courses[7].title"
       ]
     },
     {
       "t": "Elèv yo eksplore jan fiksyon detektif ak krim depi ane 1800 yo rive jodi a atravè istwa kout, teyat, woman, fim, ak televizyon.",
       "of": "24e0b661",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[6].description"
-      ]
-    },
-    {
-      "t": "Global Literature Topics",
-      "of": "c96cccfb",
-      "at": [
-        "providence-day:divisions[2].departments[0].courses[7].title"
-      ]
-    },
-    {
-      "t": "Elèv yo angaje ak jan ki kouvri Azi, Karayib la, Afrik, ak Amerik Latin otou yon sijè komen ki fè wotasyon tankou sèks oswa jistis.",
-      "of": "5ca363cd",
-      "at": [
         "providence-day:divisions[2].departments[0].courses[7].description"
+      ]
+    },
+    {
+      "t": "Global Literature: Women’s Voices",
+      "of": "3e4f5926",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[8].title"
+      ]
+    },
+    {
+      "t": "Elèv yo li istwa kout, pwezi, woman, ak tèks ki pa fiksyon ki fèt pa fanm epi sou fanm ki soti nan Azi, Karayib la, Afrik, ak Amerik Latin, pou yo mande ki pwoblèm ki touche fanm atravè lemonn.",
+      "of": "2d7e1bbc",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[8].description"
       ]
     },
     {
       "t": "Graphic Novels",
       "of": "8b3f8c5e",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[8].title"
+        "providence-day:divisions[2].departments[0].courses[9].title"
       ]
     },
     {
       "t": "Elèv yo egzamine komik long fòm kòm literati mondyal epi yo konsevwa yon travay analiz literè miltimedya ki fini nan yon comic-con elèv yo òganize.",
       "of": "5b324f1f",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[8].description"
+        "providence-day:divisions[2].departments[0].courses[9].description"
       ]
     },
     {
       "t": "Modern Dramatic Literature",
       "of": "e47f8d1a",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[9].title"
+        "providence-day:divisions[2].departments[0].courses[10].title"
       ]
     },
     {
       "t": "Yon survey teyat modèn soti Ibsen rive Ionesco k ap eksplore pèt endividyalis, anpati, ak kominikasyon ki gen sans atravè teyat lekti.",
       "of": "550c433c",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[9].description"
+        "providence-day:divisions[2].departments[0].courses[10].description"
       ]
     },
     {
       "t": "Shakespeare",
       "of": "5b3f3c51",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[10].title"
+        "providence-day:divisions[2].departments[0].courses[11].title"
       ]
     },
     {
       "t": "Elèv yo etidye yon gwo echantiyon pyès, tankou The Merchant of Venice, Othello, The Tempest, Measure for Measure, ak Richard III; yo li yo awotvwa epi yo analize vèsyon fim yo.",
       "of": "f057375d",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[10].description"
-      ]
-    },
-    {
-      "t": "War Literature",
-      "of": "d908b2f4",
-      "at": [
-        "providence-day:divisions[2].departments[0].courses[11].title"
-      ]
-    },
-    {
-      "t": "Elèv yo li pwezi, chante, pyès teyat, woman, ak tèks ki pa fiksyon ki kouvri Gè Trant Ane a rive nan Afganistan ak Irak.",
-      "of": "3239bdba",
-      "at": [
         "providence-day:divisions[2].departments[0].courses[11].description"
+      ]
+    },
+    {
+      "t": "War Literature (Advanced)",
+      "of": "7c51e9ed",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[12].title"
+      ]
+    },
+    {
+      "t": "Elèv yo etidye kijan otè ki se ansyen sòlda dekri lagè, soti nan Lagè Trant Ane a rive nan Afganistan ak Irak, epi apre sa yo ekri yon pwojè sou yon zèv literati lagè yo chwazi.",
+      "of": "9de16b25",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[12].description"
       ]
     },
     {
       "t": "Latino American Literature",
       "of": "519612cb",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[12].title"
+        "providence-day:divisions[2].departments[0].courses[13].title"
       ]
     },
     {
       "t": "Yon entwodiksyon nan literati ak kilti Latino Ameriken nan Etazini soti 1960 rive jodi a, k ap analize dyaspora ak idantite fwontyè.",
       "of": "6eb8b8e3",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[12].description"
+        "providence-day:divisions[2].departments[0].courses[13].description"
       ]
     },
     {
       "t": "AP African American Studies",
       "of": "0ca52363",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].title"
+        "providence-day:divisions[2].departments[0].courses[14].title"
       ]
     },
     {
       "t": "AP",
       "of": "3ad53794",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].tag",
         "providence-day:divisions[2].departments[0].courses[14].tag",
         "providence-day:divisions[2].departments[0].courses[15].tag",
+        "providence-day:divisions[2].departments[0].courses[16].tag",
         "providence-day:divisions[2].departments[1].courses[2].tag",
         "providence-day:divisions[2].departments[1].courses[4].tag",
         "providence-day:divisions[2].departments[1].courses[5].tag",
@@ -2250,23 +2275,25 @@
         "providence-day:divisions[2].departments[1].courses[8].tag",
         "providence-day:divisions[2].departments[1].courses[9].tag",
         "providence-day:divisions[2].departments[1].courses[10].tag",
-        "providence-day:divisions[2].departments[2].courses[12].tag",
         "providence-day:divisions[2].departments[2].courses[13].tag",
         "providence-day:divisions[2].departments[2].courses[14].tag",
+        "providence-day:divisions[2].departments[2].courses[15].tag",
         "providence-day:divisions[2].departments[3].courses[15].tag",
         "providence-day:divisions[2].departments[3].courses[16].tag",
         "providence-day:divisions[2].departments[3].courses[17].tag",
         "providence-day:divisions[2].departments[3].courses[18].tag",
         "providence-day:divisions[2].departments[3].courses[19].tag",
-        "providence-day:divisions[2].departments[4].courses[7].tag",
-        "providence-day:divisions[2].departments[4].courses[8].tag",
+        "providence-day:divisions[2].departments[4].courses[10].tag",
+        "providence-day:divisions[2].departments[4].courses[11].tag",
+        "providence-day:divisions[2].departments[5].courses[6].tag",
         "providence-day:divisions[2].departments[6].courses[5].tag",
         "providence-day:divisions[2].departments[6].courses[6].tag",
-        "providence-day:divisions[2].departments[6].courses[12].tag",
-        "providence-day:divisions[2].departments[6].courses[16].tag",
+        "providence-day:divisions[2].departments[6].courses[7].tag",
+        "providence-day:divisions[2].departments[6].courses[13].tag",
+        "providence-day:divisions[2].departments[6].courses[17].tag",
         "providence-day:divisions[2].departments[7].courses[9].tag",
         "providence-day:divisions[2].departments[7].courses[10].tag",
-        "providence-day:divisions[2].departments[8].courses[15].tag",
+        "providence-day:divisions[2].departments[8].courses[16].tag",
         "charlotte-latin:divisions[2].departments[0].courses[4].tag",
         "charlotte-latin:divisions[2].departments[1].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[4].tag",
@@ -2463,14 +2490,14 @@
       "t": "Yon kou AP ki pran nan literati, atizay, syans politik, jeyografi, ak syans pou eksplore eksperyans Afriken Ameriken an.",
       "of": "6f75a4d2",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].description"
+        "providence-day:divisions[2].departments[0].courses[14].description"
       ]
     },
     {
       "t": "AP English Language and Composition",
       "of": "331a2375",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[14].title",
+        "providence-day:divisions[2].departments[0].courses[15].title",
         "davidson-day:divisions[2].departments[0].courses[6].title"
       ]
     },
@@ -2478,14 +2505,14 @@
       "t": "Ekri ekspozitif, analitik, ak agimantatif nan nivo inivèsite, ak lekti ki soti nan jan ki pa fiksyon ak konsantrasyon sou teknik retorik ak lojik.",
       "of": "15323bb8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[14].description"
+        "providence-day:divisions[2].departments[0].courses[15].description"
       ]
     },
     {
       "t": "AP English Literature and Composition",
       "of": "939079c8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[15].title",
+        "providence-day:divisions[2].departments[0].courses[16].title",
         "davidson-day:divisions[2].departments[0].courses[7].title"
       ]
     },
@@ -2493,7 +2520,7 @@
       "t": "Rafine analiz literè atravè woman yo anseye regilyèman tankou Moby-Dick, Invisible Man, ak Mrs. Dalloway, plis Dickinson, Frost, ak Shakespeare, ak yon lis lekti deyò.",
       "of": "8f8725b8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[15].description"
+        "providence-day:divisions[2].departments[0].courses[16].description"
       ]
     },
     {
@@ -2523,8 +2550,8 @@
       ]
     },
     {
-      "t": "Devlope apresyasyon pou divèsite kiltirèl atravè devlopman jeyografik ak tematik evènman soti 1000 EK rive nan Epòk Mondyalizasyon an.",
-      "of": "3f35acdb",
+      "t": "Devlope apresyasyon pou divèsite kiltirèl atravè devlopman jeyografik ak tematik evènman soti 600 EK rive nan Epòk Mondyalizasyon an.",
+      "of": "d73b26ae",
       "at": [
         "providence-day:divisions[2].departments[1].courses[1].description"
       ]
@@ -2756,8 +2783,8 @@
       ]
     },
     {
-      "t": "Global Studies: Europe and Latin America",
-      "of": "e48d9af0",
+      "t": "Global Studies: Latin America",
+      "of": "d8fa3cc5",
       "at": [
         "providence-day:divisions[2].departments[1].courses[17].title"
       ]
@@ -3024,24 +3051,38 @@
       ]
     },
     {
+      "t": "Sports Analytics and Data Science",
+      "of": "042e6ec7",
+      "at": [
+        "providence-day:divisions[2].departments[2].courses[11].title"
+      ]
+    },
+    {
+      "t": "Yon kou matematik ak IDEAS ki sèvi ak done espò pou anseye koleksyon done, Excel, vizyalizasyon done, ak estatistik, pou rive nan modèl prediksyon ak regresyon; li egzije Algebra II.",
+      "of": "3be37120",
+      "at": [
+        "providence-day:divisions[2].departments[2].courses[11].description"
+      ]
+    },
+    {
       "t": "Calculus (Advanced)",
       "of": "56e16862",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[11].title"
+        "providence-day:divisions[2].departments[2].courses[12].title"
       ]
     },
     {
       "t": "Entwodui konsèp ak aplikasyon kalkil diferansyèl, epi li anseye elèv yo evalye limit epi diferansye ak entegre fonksyon elemantè.",
       "of": "71f26dd8",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[11].description"
+        "providence-day:divisions[2].departments[2].courses[12].description"
       ]
     },
     {
       "t": "AP Calculus AB",
       "of": "74e1f1ef",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[12].title",
+        "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
         "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
@@ -3052,14 +3093,14 @@
       "t": "Elèv yo aprann evalye limit, diferansye, ak entegre fonksyon elemantè, ak yon kalkilatris grafik kòm yon pati entegral nan kou a.",
       "of": "bd6b62f6",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[12].description"
+        "providence-day:divisions[2].departments[2].courses[13].description"
       ]
     },
     {
       "t": "AP Calculus BC",
       "of": "1be5376b",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[13].title",
+        "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
         "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[10].title"
@@ -3069,14 +3110,14 @@
       "t": "Kouvri kontni AB la plis ekwasyon vektoryèl, polè, ak paramtetrik ak kalkil seri enfini.",
       "of": "92ad63a0",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[13].description"
+        "providence-day:divisions[2].departments[2].courses[14].description"
       ]
     },
     {
       "t": "AP Statistics",
       "of": "64766a8f",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[14].title",
+        "providence-day:divisions[2].departments[2].courses[15].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
         "covenant-day:divisions[0].departments[1].courses[13].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
@@ -3087,24 +3128,24 @@
       "t": "Elèv yo similye distribisyon pwobabilite epi yo analize relasyon ant varyab atravè korelasyon ak regresyon ak kalkilatris ak lojisyèl.",
       "of": "655636d1",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[14].description"
+        "providence-day:divisions[2].departments[2].courses[15].description"
       ]
     },
     {
       "t": "Calculus III (Advanced)",
       "of": "dd79cafd",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].title"
+        "providence-day:divisions[2].departments[2].courses[16].title"
       ]
     },
     {
       "t": "Pòs-AP",
       "of": "7eeeacc7",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].tag",
         "providence-day:divisions[2].departments[2].courses[16].tag",
         "providence-day:divisions[2].departments[2].courses[17].tag",
-        "providence-day:divisions[2].departments[4].courses[2].tag",
+        "providence-day:divisions[2].departments[2].courses[18].tag",
+        "providence-day:divisions[2].departments[4].courses[4].tag",
         "charlotte-christian:divisions[2].departments[2].courses[14].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[12].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[17].tag",
@@ -3117,35 +3158,35 @@
       "t": "Swiv BC Calculus ak fonksyon miltivaryab ak vektoryèl, koubi, entegral doub ak tripl, ak analiz vektoryèl.",
       "of": "e5ec2dc6",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].description"
+        "providence-day:divisions[2].departments[2].courses[16].description"
       ]
     },
     {
       "t": "Linear Algebra (Advanced)",
       "of": "46d96fc9",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[16].title"
+        "providence-day:divisions[2].departments[2].courses[17].title"
       ]
     },
     {
       "t": "Antre nan espas twa ak n dimansyon ki kouvri matris, detèminan, ekwasyon lineyè similtane, espas vektoryèl, ran, envès, ak pwodwi entèn.",
       "of": "4aa352d7",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[16].description"
+        "providence-day:divisions[2].departments[2].courses[17].description"
       ]
     },
     {
       "t": "Differential Equations (Advanced)",
       "of": "b1045a74",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[17].title"
+        "providence-day:divisions[2].departments[2].courses[18].title"
       ]
     },
     {
       "t": "Elèv yo egzamine ekwasyon diferansyèl ak solisyon yo, Transfòme Laplace, sistèm lineyè ak ki pa lineyè, metòd seri, ak Seri Fourier.",
       "of": "222a51ff",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[17].description"
+        "providence-day:divisions[2].departments[2].courses[18].description"
       ]
     },
     {
@@ -3257,72 +3298,14 @@
       ]
     },
     {
-      "t": "Elèv yo aprann anatomi mikilo-eskeletik ak jesyon blesi, epi yo konplete 15 èdtan kòm antrenè atletik elèv pou ekip PDS yo.",
-      "of": "64f6e91c",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[7].description"
-      ]
-    },
-    {
-      "t": "Astronomy",
-      "of": "da1da391",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[8].title",
-        "charlotte-latin:divisions[2].departments[4].courses[12].title",
-        "charlotte-christian:divisions[2].departments[3].courses[11].title"
-      ]
-    },
-    {
-      "t": "Elèv yo etidye zetwal, galaksi, sistèm solè a, ak konpozisyon, estrikti, ak orijin linivè a ak astrolab ak tach solè.",
-      "of": "dd9d673f",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[8].description"
-      ]
-    },
-    {
-      "t": "Bioethics/Biotechnology",
-      "of": "822a020e",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[9].title"
-      ]
-    },
-    {
-      "t": "Yon kou laboratwa ak etid ka ki sèvi ak mikwopipèt, PCR, izolasyon ADN, ak elektwoforèz jèl pandan y ap diskite sou OGM, transjenik, ak klonaj.",
-      "of": "d7a1a690",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[9].description"
-      ]
-    },
-    {
-      "t": "Environmental Sustainability",
-      "of": "fd8972b0",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[10].title"
-      ]
-    },
-    {
-      "t": "Yon eksplorasyon ant disiplin sou devlopman dirab nan planifikasyon iben, enèji, dlo, ak agrikilti ak travay pratik nan Charger Gardens.",
-      "of": "2412793d",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[10].description"
-      ]
-    },
-    {
-      "t": "Forensic Science",
-      "of": "fba6e9f2",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[11].title",
-        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
-      ]
-    },
-    {
       "t": "Gr 10–12",
       "of": "102b6929",
       "at": [
+        "providence-day:divisions[2].departments[3].courses[7].tag",
+        "providence-day:divisions[2].departments[3].courses[9].tag",
         "providence-day:divisions[2].departments[3].courses[11].tag",
         "providence-day:divisions[2].departments[3].courses[12].tag",
-        "providence-day:divisions[2].departments[5].courses[1].tag",
-        "providence-day:divisions[2].departments[5].courses[3].tag",
+        "providence-day:divisions[2].departments[5].courses[2].tag",
         "charlotte-christian:divisions[2].departments[1].courses[13].tag",
         "charlotte-christian:divisions[2].departments[1].courses[14].tag",
         "charlotte-christian:divisions[2].departments[7].courses[6].tag",
@@ -3347,6 +3330,65 @@
         "hickory-grove-christian:divisions[0].departments[11].courses[4].tag",
         "hickory-grove-christian:divisions[0].departments[11].courses[7].tag",
         "hickory-grove-christian:divisions[0].departments[11].courses[8].tag"
+      ]
+    },
+    {
+      "t": "Elèv yo aprann anatomi gwo rejyon kò a, soti nan pye ak cheviy rive nan zepòl ak men, plis blesi espò kouran, rekiperasyon, ak metòd tretman debaz.",
+      "of": "fbbdf148",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[7].description"
+      ]
+    },
+    {
+      "t": "Astronomy",
+      "of": "da1da391",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[8].title",
+        "charlotte-latin:divisions[2].departments[4].courses[12].title",
+        "charlotte-christian:divisions[2].departments[3].courses[11].title"
+      ]
+    },
+    {
+      "t": "Elèv yo etidye zetwal, galaksi, sistèm solè a, ak konpozisyon, estrikti, ak orijin linivè a ak astrolab ak aparèy pou obsève tach solè.",
+      "of": "8403986c",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[8].description"
+      ]
+    },
+    {
+      "t": "Bioethics/Biotechnology",
+      "of": "822a020e",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[9].title"
+      ]
+    },
+    {
+      "t": "Yon kou laboratwa ak etid ka ki sèvi ak mikwopipèt, PCR, izolasyon ADN, ak elektwoforèz jèl pandan y ap peze etik òganis transjenik, vi prive jenòm, ak klonaj.",
+      "of": "6370c07b",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[9].description"
+      ]
+    },
+    {
+      "t": "Environmental Sustainability",
+      "of": "fd8972b0",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[10].title"
+      ]
+    },
+    {
+      "t": "Yon eksplorasyon ant disiplin sou devlopman dirab nan planifikasyon iben, enèji, dlo, ak agrikilti ak travay pratik nan Charger Gardens.",
+      "of": "2412793d",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[10].description"
+      ]
+    },
+    {
+      "t": "Forensic Science",
+      "of": "fba6e9f2",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
       ]
     },
     {
@@ -3378,8 +3420,8 @@
       ]
     },
     {
-      "t": "Yon entwodiksyon nan fonksyònman selilè ak molekilè sistèm nève a, ak anrejistreman aktivite elektrik nan nè, mis, ak plant.",
-      "of": "11a91f28",
+      "t": "Yon entwodiksyon pratik sou fason sistèm nève a fonksyone nan nivo selilè ak molekilè, ak envestigasyon laboratwa ki gen ladan de ti diseksyon kout.",
+      "of": "ffcef1fd",
       "at": [
         "providence-day:divisions[2].departments[3].courses[13].description"
       ]
@@ -3389,7 +3431,7 @@
       "of": "c6a3f0d6",
       "at": [
         "providence-day:divisions[2].departments[3].courses[14].title",
-        "providence-day:divisions[2].departments[5].courses[4].title"
+        "providence-day:divisions[2].departments[5].courses[3].title"
       ]
     },
     {
@@ -3461,8 +3503,8 @@
       ]
     },
     {
-      "t": "Elèv yo sèvi ak aljèb pou etidye fizik inivèsitè entwodiksyon, yo analize done epi yo devlope modèl pou sistèm, chan, fòs, konsèvasyon, ak vag.",
-      "of": "a8097bf9",
+      "t": "Elèv yo sèvi ak aljèb pou etidye fizik inivèsitè entwodiksyon nan laboratwa, yo analize done epi yo bati modèl mouvman, fòs, enèji, kantite mouvman, wotasyon, osilasyon, ak fliyid.",
+      "of": "ae146f3e",
       "at": [
         "providence-day:divisions[2].departments[3].courses[18].description"
       ]
@@ -3489,108 +3531,150 @@
       ]
     },
     {
+      "t": "Architecture Design",
+      "of": "59fd9608",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[0].title"
+      ]
+    },
+    {
+      "t": "Konsantre sou prensip konsepsyon achitektiral ak Building Information Modeling ak zouti CAD 3D tankou REVIT pou plan etaj, seksyon, ak elevasyon.",
+      "of": "ff9fec5d",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[0].description"
+      ]
+    },
+    {
+      "t": "Architecture II: Sustainable Design & LEED Fundamentals",
+      "of": "744ec01b",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[1].title"
+      ]
+    },
+    {
+      "t": "Yon kou ki baze sou pwojè sou batiman vèt ak gwo pèfòmans, ki prepare elèv yo pou chèche sètifikasyon LEED Green Associate, epi ki fini ak yon Green Building Design Project; li egzije Architecture Design.",
+      "of": "791b4b92",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[1].description"
+      ]
+    },
+    {
       "t": "Computer-Aided Design with 3D Printing",
       "of": "7ad8d7dc",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[0].title"
+        "providence-day:divisions[2].departments[4].courses[2].title"
       ]
     },
     {
       "t": "Yon entwodiksyon nan desen mekanik tradisyonèl ak lojisyèl CAD plis enprime 3D, desen izometrik, ak teknik modèl 3D konplè.",
       "of": "e1ea3233",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[0].description"
+        "providence-day:divisions[2].departments[4].courses[2].description"
       ]
     },
     {
       "t": "Computer Programming with Python",
       "of": "f83fc86f",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[1].title"
+        "providence-day:divisions[2].departments[4].courses[3].title"
       ]
     },
     {
       "t": "Entwodui pwogramasyon nan Python ki kouvri varyab, kalite done, iterasyon, kontwòl flo, fonksyon, GUI, ak pwogramasyon ki mennen pa evènman.",
       "of": "442bb4a3",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[1].description"
+        "providence-day:divisions[2].departments[4].courses[3].description"
       ]
     },
     {
       "t": "Advanced Data Structures in Java",
       "of": "45041a30",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[2].title"
+        "providence-day:divisions[2].departments[4].courses[4].title"
       ]
     },
     {
       "t": "Pou elèv ki fini AP CS A, ki kouvri abstraksyon done ak enkapsilasyon ki enkli pil, ke, lis ki lye, pyebwa binè, ak hash map.",
       "of": "c60d2b51",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[2].description"
+        "providence-day:divisions[2].departments[4].courses[4].description"
       ]
     },
     {
       "t": "Game Development with Unity and C#",
       "of": "d8492344",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[3].title"
+        "providence-day:divisions[2].departments[4].courses[5].title"
       ]
     },
     {
       "t": "Elèv yo aprann devlope jwèt videyo depi nan zewo ak lang C# la ak motè Unity a atravè kourikoulòm “Create with Code” la.",
       "of": "9c2655c9",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[3].description"
+        "providence-day:divisions[2].departments[4].courses[5].description"
       ]
     },
     {
       "t": "iOS Programming with Swift",
       "of": "141f2d9a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[4].title"
+        "providence-day:divisions[2].departments[4].courses[6].title"
       ]
     },
     {
       "t": "Elèv yo sèvi ak Xcode ak iOS SDK la pou aprann Swift ak kad Cocoa Touch yo, epi yo teste app sou pwòp aparèy mobil pa yo.",
       "of": "b1c111e5",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[4].description"
+        "providence-day:divisions[2].departments[4].courses[6].description"
       ]
     },
     {
       "t": "Physical Computing",
       "of": "a41ac47a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[5].title"
+        "providence-day:divisions[2].departments[4].courses[7].title"
       ]
     },
     {
       "t": "Elèv yo fè enjenyri sistèm entèaktif ak Arduino ak Raspberry Pi ak bouton, detektè, ekran, LED, motè, ak modil san fil.",
       "of": "e9beacef",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[5].description"
+        "providence-day:divisions[2].departments[4].courses[7].description"
       ]
     },
     {
-      "t": "Robotics & Engineering",
-      "of": "aec8a185",
+      "t": "Robotics & Engineering 1",
+      "of": "dd9ca18a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[6].title"
+        "providence-day:divisions[2].departments[4].courses[8].title"
       ]
     },
     {
       "t": "Eksplore fondasyon robotik ak enjenyri ak pwoblèm mondyal nan domèn nan atravè rezolisyon pwoblèm pratik ak deba sou enplikasyon etik.",
       "of": "244e5342",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[6].description"
+        "providence-day:divisions[2].departments[4].courses[8].description"
+      ]
+    },
+    {
+      "t": "Robotics & Engineering 2",
+      "of": "dc9c9ff7",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[9].title"
+      ]
+    },
+    {
+      "t": "Apati Robotics & Engineering 1, elèv yo pran 2 oswa 3 defi reyèl, yo travay ak patnè nan kominote a pou fè rechèch epi konsevwa yon solisyon.",
+      "of": "07cae16d",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[9].description"
       ]
     },
     {
       "t": "AP Computer Science A",
       "of": "1c7b7290",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[7].title",
+        "providence-day:divisions[2].departments[4].courses[10].title",
         "charlotte-country-day:divisions[2].departments[6].courses[1].title",
         "davidson-day:divisions[2].departments[6].courses[2].title"
       ]
@@ -3599,14 +3683,14 @@
       "t": "Swiv silabis College Board la nan Java, ak aksan sou sentaks, estrikti klas, metodoloji oryante objè, algoritm, ak estrikti done.",
       "of": "5e7360b2",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[7].description"
+        "providence-day:divisions[2].departments[4].courses[10].description"
       ]
     },
     {
       "t": "AP Computer Science Principles",
       "of": "b34fad00",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[8].title",
+        "providence-day:divisions[2].departments[4].courses[11].title",
         "davidson-day:divisions[2].departments[6].courses[1].title"
       ]
     },
@@ -3614,7 +3698,7 @@
       "t": "Angaje elèv yo nan aspè kreyatif syans enfòmatik ak zouti enfòmatik pou analize gwo ansanm done epi tire konklizyon nan tandans.",
       "of": "58c33221",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[8].description"
+        "providence-day:divisions[2].departments[4].courses[11].description"
       ]
     },
     {
@@ -3622,7 +3706,7 @@
       "of": "ad0010c2",
       "at": [
         "providence-day:divisions[2].departments[5].name",
-        "providence-day:divisions[2].departments[5].courses[5].title"
+        "providence-day:divisions[2].departments[5].courses[4].title"
       ]
     },
     {
@@ -3655,45 +3739,91 @@
       ]
     },
     {
-      "t": "Architecture Design",
-      "of": "59fd9608",
-      "at": [
-        "providence-day:divisions[2].departments[5].courses[2].title"
-      ]
-    },
-    {
-      "t": "Konsantre sou prensip konsepsyon achitektiral ak Building Information Modeling ak zouti CAD 3D tankou REVIT pou plan etaj, seksyon, ak elevasyon.",
-      "of": "ff9fec5d",
-      "at": [
-        "providence-day:divisions[2].departments[5].courses[2].description"
-      ]
-    },
-    {
       "t": "Social Entrepreneurship",
       "of": "728b6db3",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[3].title"
+        "providence-day:divisions[2].departments[5].courses[2].title"
       ]
     },
     {
       "t": "Yon kou pratik ki gide elèv yo lanse biznis ki kreye valè sosyal, ki teste ide rapidman kont fidbak kliyan ak mache a.",
       "of": "d43c9f1f",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[3].description"
+        "providence-day:divisions[2].departments[5].courses[2].description"
       ]
     },
     {
       "t": "Elèv yo pouswiv rechèch syantifik orijinal, yo konsevwa epi fè eksperyans epi yo prezante rezilta yo; li bay kredi Syans tou.",
       "of": "4575d745",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[4].description"
+        "providence-day:divisions[2].departments[5].courses[3].description"
       ]
     },
     {
       "t": "Elèv yo kiltive konpetans panse konsepsyon kòm yon estidyo konsèptè ak yon antrepriz antreprenè pou adrese pwoblèm ijan elèv yo ap konfwonte.",
       "of": "a78713fe",
       "at": [
+        "providence-day:divisions[2].departments[5].courses[4].description"
+      ]
+    },
+    {
+      "t": "Advanced Entrepreneurship: Incubator to Accelerator",
+      "of": "e6c2a235",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].title"
+      ]
+    },
+    {
+      "t": "Gr 12",
+      "of": "738fc5f7",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].tag",
+        "charlotte-christian:divisions[2].departments[0].courses[4].tag",
+        "charlotte-christian:divisions[2].departments[1].courses[6].tag",
+        "charlotte-country-day:divisions[2].departments[0].courses[7].tag",
+        "cannon:divisions[2].departments[0].courses[6].tag",
+        "cannon:divisions[2].departments[1].courses[11].tag",
+        "cannon:divisions[2].departments[6].courses[5].tag",
+        "cannon:divisions[2].departments[6].courses[6].tag",
+        "davidson-day:divisions[2].departments[8].courses[6].tag",
+        "hickory-grove-christian:divisions[0].departments[0].courses[8].tag",
+        "hickory-grove-christian:divisions[0].departments[6].courses[3].tag",
+        "hickory-grove-christian:divisions[0].departments[11].courses[11].tag"
+      ]
+    },
+    {
+      "t": "Kapston dènye ane Diploma in Entrepreneurial Studies la, kote elèv yo teste yon bezwen nan mache a, bati yon premye vèsyon ki mache nan yon pwodwi epi fè yon prezantasyon biznis fòmèl.",
+      "of": "44091b59",
+      "at": [
         "providence-day:divisions[2].departments[5].courses[5].description"
+      ]
+    },
+    {
+      "t": "AP Business with Personal Finance",
+      "of": "2637a358",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[6].title"
+      ]
+    },
+    {
+      "t": "Yon kou pou tout ane a pou elèv jinyò ak dènye ane ki kouvri antreprenarya, maketing, finans, kontablite, ak jesyon plis finans pèsonèl, ak yon chans pou genyen kredi inivèsite ak yon sètifika anplwayè yo rekonèt.",
+      "of": "9b607118",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[6].description"
+      ]
+    },
+    {
+      "t": "AI Literacy: Understanding and Navigating Artificial Intelligence",
+      "of": "598b6f40",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[7].title"
+      ]
+    },
+    {
+      "t": "Elèv yo aprann kijan machine learning fonksyone, kijan pou jije ak sèvi ak AI lekòl ak nan travay, ak kijan AI afekte sosyete a; pa bezwen okenn eksperyans anvan.",
+      "of": "d3ffadcf",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[7].description"
       ]
     },
     {
@@ -3774,17 +3904,31 @@
       ]
     },
     {
-      "t": "Prepare elèv dènye ane pou egzamen AP French Language and Culture la atravè redaksyon pèsuazif ak konvèsasyon gide ak tan limite ak sous otantik.",
-      "of": "0dfad1a0",
+      "t": "Prepare elèv dènye ane pou egzamen AP French Language and Culture la atravè redaksyon agimantatif ak inite ki bati sou sous otantik, soti nan Global Challenges rive nan Beauty and Aesthetics.",
+      "of": "b372535e",
       "at": [
         "providence-day:divisions[2].departments[6].courses[5].description"
+      ]
+    },
+    {
+      "t": "AP German",
+      "of": "80692756",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[6].title"
+      ]
+    },
+    {
+      "t": "Prepare elèv yo pou AP German Language Exam lan, ak klas ki fèt sèlman an Alman epi tout materyèl ki soti nan sous otantik; li egzije German 6 Advanced ak yon 87%.",
+      "of": "4ddc4ac0",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[6].description"
       ]
     },
     {
       "t": "AP Spanish Language",
       "of": "5e3f2f4e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].title",
+        "providence-day:divisions[2].departments[6].courses[7].title",
         "covenant-day:divisions[0].departments[5].courses[4].title"
       ]
     },
@@ -3792,70 +3936,70 @@
       "t": "Prepare elèv dènye ane pou Egzamen AP Spanish Language la, lè li bati ladrès lang yo nan tout aspè, ak konvèsasyon nan sal klas an panyòl sèlman.",
       "of": "5fa55fc7",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].description"
+        "providence-day:divisions[2].departments[6].courses[7].description"
       ]
     },
     {
       "t": "Familyarize elèv yo ak akizisyon lang klasik atravè lang, kontèks istorik, ak enpak Wòm, ki kouvri lavi chak jou, bondye, ak ewo.",
       "of": "6569f97b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[7].description"
+        "providence-day:divisions[2].departments[6].courses[8].description"
       ]
     },
     {
       "t": "Elèv yo li istwa an Laten ki fèt nan Wòm ansyen, epi yo etidye konsèp gramè atravè tèm fèt, beny, piratri, gladyatè, ak twoub politik.",
       "of": "1b1b4ea4",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[8].description"
+        "providence-day:divisions[2].departments[6].courses[9].description"
       ]
     },
     {
       "t": "Latin 3",
       "of": "d14b5140",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[9].title"
-      ]
-    },
-    {
-      "t": "Revize gramè epi entwodui pwopozisyon, ki pwogrese vè Laten ki pa adapte atravè pwoz Livy ak Pliny ak pwezi Catullus.",
-      "of": "c8d515be",
-      "at": [
-        "providence-day:divisions[2].departments[6].courses[9].description"
-      ]
-    },
-    {
-      "t": "Latin 4",
-      "of": "d84b5c45",
-      "at": [
         "providence-day:divisions[2].departments[6].courses[10].title"
       ]
     },
     {
-      "t": "Yon kou literati k ap eksplore pwezi Catullus, Ovid, ak Vergil, ak lekti Laten awotvwa pou tande mèt la epi evalye pwosede literè.",
-      "of": "f6a3c306",
+      "t": "Revize gramè epi entwodui pwopozisyon, pou rive nan Laten orijinal, san adaptasyon, atravè pwoz Caesar, Pliny, Livy, ak Eutropius.",
+      "of": "c8bebbc1",
       "at": [
         "providence-day:divisions[2].departments[6].courses[10].description"
+      ]
+    },
+    {
+      "t": "Latin 4 (Advanced)",
+      "of": "bfb66906",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[11].title"
+      ]
+    },
+    {
+      "t": "Yon kou literati sou pwezi ak mitoloji Catullus, Ovid, ak Vergil, k ap peze kijan chak powèt sèvi ak pwosede literè, mèt, ton, ak objektif.",
+      "of": "3052dc30",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[11].description"
       ]
     },
     {
       "t": "Latin 5 (Advanced)",
       "of": "425c804b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[11].title"
+        "providence-day:divisions[2].departments[6].courses[12].title"
       ]
     },
     {
-      "t": "Yon kou literati pwoz ak pwezi ak yon konpozan tèks konparatif ki baze sou pwojè, ak lekti otè tankou Vergil, Pliny, Catullus, Ovid, Vespucci, ak Boccaccio.",
-      "of": "c300258c",
+      "t": "Yon kou literati pwoz ak pwezi ak yon pwojè ki konpare tèks sou tèm komen, ak lekti Vergil, Pliny, Catullus, ak Ovid ansanm ak otè ki soti andeyò peryòd Wòm ansyen an.",
+      "of": "c82bcc96",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[11].description"
+        "providence-day:divisions[2].departments[6].courses[12].description"
       ]
     },
     {
       "t": "AP Latin",
       "of": "6d3b696e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[12].title",
+        "providence-day:divisions[2].departments[6].courses[13].title",
         "charlotte-country-day:divisions[2].departments[4].courses[13].title"
       ]
     },
@@ -3863,63 +4007,63 @@
       "t": "Prezante materyèl ak konpetans pou Egzamen AP Latin la, ak analiz tèks, rekonesans pwosede literè, ak sitasyon tèm ki anba yo.",
       "of": "5aadcc70",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[12].description"
+        "providence-day:divisions[2].departments[6].courses[13].description"
       ]
     },
     {
       "t": "Mandarin Chinese 1–5",
       "of": "531d6261",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[13].title"
+        "providence-day:divisions[2].departments[6].courses[14].title"
       ]
     },
     {
       "t": "Kou an sekans soti Novice Mid rive nan metriz Intermediate Mid 1 atravè tèm tankou Salitasyon, Manje, Vwayaj, ak Nan Restoran an.",
       "of": "98c36859",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[13].description"
+        "providence-day:divisions[2].departments[6].courses[14].description"
       ]
     },
     {
       "t": "Mandarin Chinese 6 (Advanced)",
       "of": "c514e9f5",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[14].title"
+        "providence-day:divisions[2].departments[6].courses[15].title"
       ]
     },
     {
       "t": "Konsolide kapasite Intermediate Mid 2 pandan l ap eksplore kilti chinwa kontanporen nan kontèks edikatif, sosyal, ak teknolojik.",
       "of": "81fa2ce3",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[14].description"
+        "providence-day:divisions[2].departments[6].courses[15].description"
       ]
     },
     {
       "t": "Mandarin Chinese 7 (Advanced)",
       "of": "e3dd6be8",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[15].title"
+        "providence-day:divisions[2].departments[6].courses[16].title"
       ]
     },
     {
       "t": "Kontinye konsolidasyon Intermediate Mid 2, k ap eksplore kilti atravè Edikasyon, Fèt, Defi Anviwònmantal, ak Lavi Ansante.",
       "of": "48428f7b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[15].description"
+        "providence-day:divisions[2].departments[6].courses[16].description"
       ]
     },
     {
       "t": "AP Chinese Language and Culture",
       "of": "0bffc54c",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[16].title"
+        "providence-day:divisions[2].departments[6].courses[17].title"
       ]
     },
     {
       "t": "Kouvri konpetans oditif ak oral, konpreyansyon lekti, gramè, ak konpozisyon atravè senk domèn objektif yo, ki devlope konsyans wòl mondyal Lachin.",
       "of": "05551cb1",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[16].description"
+        "providence-day:divisions[2].departments[6].courses[17].description"
       ]
     },
     {
@@ -4041,8 +4185,8 @@
       ]
     },
     {
-      "t": "Understanding Art: A Global View",
-      "of": "c2a2b6d5",
+      "t": "Understanding Art: A Contemporary Global View",
+      "of": "54253574",
       "at": [
         "providence-day:divisions[2].departments[7].courses[7].title"
       ]
@@ -4194,94 +4338,109 @@
       ]
     },
     {
+      "t": "Music Technology and Production",
+      "of": "f49b143e",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[4].title"
+      ]
+    },
+    {
+      "t": "Elèv yo sèvi ak lojisyèl pwodiksyon mizik ak ekipman anrejistreman pou aprann anrejistreman plizyè pis, koreksyon odyo, ak konsepsyon odyo; yo pito elèv ki gen eksperyans mizik deja.",
+      "of": "4a7cdac9",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[4].description"
+      ]
+    },
+    {
       "t": "Theatre I: Introduction to Performance",
       "of": "80701414",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[4].title"
+        "providence-day:divisions[2].departments[8].courses[5].title"
       ]
     },
     {
       "t": "Entwodui pèfòmans teyatral nan pèspektiv aktè a atravè pantomim, enpwovizasyon, travay sèn, ak sèn san kontni.",
       "of": "41fd4a3c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[4].description"
+        "providence-day:divisions[2].departments[8].courses[5].description"
       ]
     },
     {
       "t": "Theatre II: Advanced Acting",
       "of": "3bd9046e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[5].title"
+        "providence-day:divisions[2].departments[8].courses[6].title"
       ]
     },
     {
       "t": "Eksplore teknik avanse ki enkli Meisner ak Stanislavski, teyat mizikal, analiz tèks ak pèsonaj, ak teknik odisyon.",
       "of": "63f0248f",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[5].description"
-      ]
-    },
-    {
-      "t": "Theatrical Performing Arts Lab",
-      "of": "16fffd28",
-      "at": [
-        "providence-day:divisions[2].departments[8].courses[6].title"
-      ]
-    },
-    {
-      "t": "Elèv yo chwazi, distribye wòl, konsevwa, repete, epi pwodui yon pyès yon-ak, ak elèv ki konsantre sou teknik k ap sèvi kòm konsèptè.",
-      "of": "3fe3fb18",
-      "at": [
         "providence-day:divisions[2].departments[8].courses[6].description"
+      ]
+    },
+    {
+      "t": "Teyat mizikal",
+      "of": "0a9bd0ea",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[7].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
+      ]
+    },
+    {
+      "t": "Elèv yo bati konpetans chante, aktyaj, ak dans yon atis teyat mizikal epi yo etidye istwa jan sa a, ki fini ak yon pèfòmans final.",
+      "of": "c33aeab0",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[7].description"
       ]
     },
     {
       "t": "Theatre Around the World",
       "of": "2f6e784a",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[7].title"
+        "providence-day:divisions[2].departments[8].courses[8].title"
       ]
     },
     {
       "t": "Egzamine tradisyon teyatral mondyal ki enkli Noh Japonè, Kathakali Endyen, Pantomime UK, Opera Italyen, ak Teyat Oprime Brezilyen.",
       "of": "a49b8aa8",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[7].description"
+        "providence-day:divisions[2].departments[8].courses[8].description"
       ]
     },
     {
       "t": "Theatrical Production and Design",
       "of": "65026e14",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[8].title"
+        "providence-day:divisions[2].departments[8].courses[9].title"
       ]
     },
     {
       "t": "Elèv yo eksplore kostim, makiyaj sèn, akseswa, ak jesyon sèn, epi yo aprann koud, makiyaj efè espesyal, ak konstriksyon akseswa.",
       "of": "f534dfa1",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[8].description"
+        "providence-day:divisions[2].departments[8].courses[9].description"
       ]
     },
     {
       "t": "RE(ACT): Theatre and Social Change",
       "of": "dbd7aab0",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[9].title"
+        "providence-day:divisions[2].departments[8].courses[10].title"
       ]
     },
     {
       "t": "Etabli pèfòmans dramatik kòm chanjman sosyal, ak etid sou Teyat Oprime Augusto Boal la ak pyès modèn sou evènman mondyal.",
       "of": "49d841be",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[9].description"
+        "providence-day:divisions[2].departments[8].courses[10].description"
       ]
     },
     {
       "t": "Technical Theatre",
       "of": "2cc4ae9b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[10].title",
+        "providence-day:divisions[2].departments[8].courses[11].title",
         "charlotte-christian:divisions[2].departments[7].courses[18].title"
       ]
     },
@@ -4289,24 +4448,24 @@
       "t": "Yon kou pratik kote elèv yo konsevwa epi bati dekò, pentire fon, konsantre limyè, epi kreye son ak efè espesyal.",
       "of": "b8cc023c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[10].description"
+        "providence-day:divisions[2].departments[8].courses[11].description"
       ]
     },
     {
       "t": "Honors Band",
       "of": "afe8d91b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].title"
+        "providence-day:divisions[2].departments[8].courses[12].title"
       ]
     },
     {
       "t": "Honors",
       "of": "c7d97254",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].tag",
         "providence-day:divisions[2].departments[8].courses[12].tag",
         "providence-day:divisions[2].departments[8].courses[13].tag",
         "providence-day:divisions[2].departments[8].courses[14].tag",
+        "providence-day:divisions[2].departments[8].courses[15].tag",
         "charlotte-latin:divisions[2].departments[0].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[7].tag",
         "charlotte-latin:divisions[2].departments[2].courses[2].tag",
@@ -4576,42 +4735,42 @@
       "t": "Pou elèv dènye ane ki fini twa ane Upper School Band, ki satisfè kondisyon odisyon ak lòt kondisyon enstriktè a etabli.",
       "of": "94c24c76",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].description"
+        "providence-day:divisions[2].departments[8].courses[12].description"
       ]
     },
     {
       "t": "Honors Chorus",
       "of": "03148f6e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[12].title"
+        "providence-day:divisions[2].departments[8].courses[13].title"
       ]
     },
     {
       "t": "Pou elèv dènye ane ki fini twa ane Upper School Chorus, ki satisfè kondisyon odisyon ak lòt kondisyon kou a.",
       "of": "5438fc70",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[12].description"
+        "providence-day:divisions[2].departments[8].courses[13].description"
       ]
     },
     {
       "t": "Honors Jazz Ensemble",
       "of": "684bd93c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[13].title"
+        "providence-day:divisions[2].departments[8].courses[14].title"
       ]
     },
     {
       "t": "Pou elèv dènye ane ki fini twa ane Upper School Band oswa Jazz Ensemble, ki satisfè kondisyon odisyon ak lòt kondisyon.",
       "of": "fee547b7",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[13].description"
+        "providence-day:divisions[2].departments[8].courses[14].description"
       ]
     },
     {
       "t": "Honors Orchestra",
       "of": "e86bed3b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[14].title",
+        "providence-day:divisions[2].departments[8].courses[15].title",
         "charlotte-country-day:divisions[2].departments[5].courses[6].title"
       ]
     },
@@ -4619,14 +4778,14 @@
       "t": "Pou elèv dènye ane ki fini twa ane Upper School Orchestra, ki satisfè kondisyon odisyon ak lòt kondisyon.",
       "of": "b6d5128e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[14].description"
+        "providence-day:divisions[2].departments[8].courses[15].description"
       ]
     },
     {
       "t": "AP Music Theory",
       "of": "d70bc8a8",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[15].title",
+        "providence-day:divisions[2].departments[8].courses[16].title",
         "charlotte-country-day:divisions[2].departments[5].courses[9].title"
       ]
     },
@@ -4634,7 +4793,7 @@
       "t": "Elèv yo etidye melodi, amoni, teksti, rit, fòm, ak kèk istwa ak style, epi yo antre ak konpetans teori ak notasyon debaz.",
       "of": "10a5ce52",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[15].description"
+        "providence-day:divisions[2].departments[8].courses[16].description"
       ]
     },
     {
@@ -5375,8 +5534,8 @@
       ]
     },
     {
-      "t": "122 kou atravè 13 depatman — 23 kou AP, Grèk kòm yon dezyèm lang, ak yon Fab Lab nan rezo MIT la.",
-      "of": "73c56078",
+      "t": "122 kou atravè 13 depatman — 23 kou AP sou paj ofrann kou lekòl la, Grèk kòm yon dezyèm lang, ak yon Fab Lab nan rezo MIT la. Isit la yo parèt kòm 105 antre: sekans tankou French I–V pataje yon liy, Drama ak Music pataje yon onglè, epi Online Courses pa bay okenn kou.",
+      "of": "90208a77",
       "at": [
         "charlotte-latin:divisions[2].teaser"
       ]
@@ -6923,20 +7082,6 @@
       ]
     },
     {
-      "t": "2026-27",
-      "of": "0a1761dd",
-      "at": [
-        "charlotte-christian:guideYear",
-        "charlotte-catholic:guideYear",
-        "cannon:guideYear",
-        "covenant-day:guideYear",
-        "davidson-day:guideYear",
-        "carmel-christian:guideYear",
-        "trinity-episcopal:guideYear",
-        "charlotte-prep:guideYear"
-      ]
-    },
-    {
       "t": "JK – Grad 4",
       "of": "1a6fcf80",
       "at": [
@@ -6945,8 +7090,8 @@
       ]
     },
     {
-      "t": "5 branch matyè debaz — Bib apati JK jiska yon kapston apolojetik Case for Christ nan Grad 4 — plis sis klas anrichisman.",
-      "of": "a523846e",
+      "t": "Bib plis 5 branch matyè debaz — Bib apati JK jiska yon kapston apolojetik Case for Christ nan Grad 4 — plis sis klas anrichisman.",
+      "of": "68b87b12",
       "at": [
         "charlotte-christian:divisions[0].teaser"
       ]
@@ -7568,8 +7713,8 @@
       ]
     },
     {
-      "t": "~135 kou atravè 11 depatman — 21 liy kou AP, 35+ honors, ak 4 inite Biblical Studies obligatwa.",
-      "of": "b5858f53",
+      "t": "143 antre kou atravè 11 depatman — 21 kou AP sou lis AP gid la, 35+ honors, ak 4 inite Biblical Studies obligatwa. Isit la yo parèt kòm 129 antre: sekans Franse, Laten ak Panyòl yo ak Yearbook pataje yon liy chak. Lis la montre 22 tit AP paske gid la dekri AP Spanish Literature tou.",
+      "of": "87a453b0",
       "at": [
         "charlotte-christian:divisions[2].teaser"
       ]
@@ -7645,23 +7790,6 @@
       "of": "6b124f9d",
       "at": [
         "charlotte-christian:divisions[2].departments[0].courses[4].title"
-      ]
-    },
-    {
-      "t": "Gr 12",
-      "of": "738fc5f7",
-      "at": [
-        "charlotte-christian:divisions[2].departments[0].courses[4].tag",
-        "charlotte-christian:divisions[2].departments[1].courses[6].tag",
-        "charlotte-country-day:divisions[2].departments[0].courses[7].tag",
-        "cannon:divisions[2].departments[0].courses[6].tag",
-        "cannon:divisions[2].departments[1].courses[11].tag",
-        "cannon:divisions[2].departments[6].courses[5].tag",
-        "cannon:divisions[2].departments[6].courses[6].tag",
-        "davidson-day:divisions[2].departments[8].courses[6].tag",
-        "hickory-grove-christian:divisions[0].departments[0].courses[8].tag",
-        "hickory-grove-christian:divisions[0].departments[6].courses[3].tag",
-        "hickory-grove-christian:divisions[0].departments[11].courses[11].tag"
       ]
     },
     {
@@ -12133,6 +12261,14 @@
       ]
     },
     {
+      "t": "2025-26",
+      "of": "fe38e73d",
+      "at": [
+        "charlotte-country-day:guideYear",
+        "gaston-day:guideYear"
+      ]
+    },
+    {
       "t": "10 domèn matyè — ni Franse ni Panyòl apati JK, yon Design Lab, ak yon kapston rechèch Exhibition nan Grad 4.",
       "of": "24301b41",
       "at": [
@@ -12732,8 +12868,8 @@
       ]
     },
     {
-      "t": "119 liy kou nan katalòg atravè 9 depatman — 23 kou AP AK 18 kou IB plis nwayo Diplòm IB konplè a.",
-      "of": "a947efc3",
+      "t": "117 liy kou atravè 9 depatman nan endèks gid la — 23 kou AP AK 18 kou IB plis nwayo Diplòm IB konplè a. Isit la yo parèt kòm 121 antre, ansanm ak senk kou gid la dekri men li pa mete nan endèks la.",
+      "of": "35c1ab48",
       "at": [
         "charlotte-country-day:divisions[2].teaser"
       ]
@@ -14682,8 +14818,8 @@
       ]
     },
     {
-      "t": "104 kou atravè 8 depatman — 14 AP plis 13 kou Advanced Topics pwofesè yo konsevwa, chak kouwone pa yon Signature Learning Experience oswa yon egzamen final kimilatif.",
-      "of": "a56b67f0",
+      "t": "104 kou atravè 8 depatman — 14 AP plis 13 kou Advanced Topics pwofesè yo konsevwa, chak kouwone pa yon Signature Learning Experience oswa yon egzamen final kimilatif. Isit la yo parèt kòm 101 antre: String Ensemble I–IV pataje yon liy.",
+      "of": "cd350c84",
       "at": [
         "cannon:divisions[2].teaser"
       ]
@@ -18183,8 +18319,8 @@
       ]
     },
     {
-      "t": "~75 kou nan katalòg atravè 9 depatman — 26 kou AP, Calculus III pòs-AP, ak twa pis Diploma Distinction.",
-      "of": "4f147650",
+      "t": "86 kou nan katalòg atravè 9 depatman — 26 kou AP, Calculus III pòs-AP, ak twa pis Diploma Distinction. Isit la yo parèt kòm 87 antre, ak pwogram travay teren AFAR International Research la anplis.",
+      "of": "ff7a3d2e",
       "at": [
         "davidson-day:divisions[2].teaser"
       ]
@@ -19227,8 +19363,8 @@
       ]
     },
     {
-      "t": "77 tit kou atravè 9 depatman — ansanm ak 16 kou Advanced Placement — soti nan lis kou 2026-27 lekòl la ak kondisyon gradyasyon li yo.",
-      "of": "b6302f41",
+      "t": "96 antre kou (77 tit diferan) atravè 9 depatman — ansanm ak 16 kou Advanced Placement — soti nan lis kou 2026-27 lekòl la ak kondisyon gradyasyon li yo.",
+      "of": "ca732103",
       "at": [
         "carmel-christian:divisions[0].teaser"
       ]
@@ -22718,13 +22854,6 @@
       ]
     },
     {
-      "t": "Teyat mizikal",
-      "of": "0a9bd0ea",
-      "at": [
-        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
-      ]
-    },
-    {
       "t": "Yon entwodiksyon ki fè wotasyon ant dans, chante ak jwe teyat, ak yon pèfòmans youn oswa de chante nan fen an.",
       "of": "b1e8b869",
       "at": [
@@ -24023,15 +24152,15 @@
       ]
     },
     {
-      "t": "Pre-Primary",
-      "of": "c7945bb5",
+      "t": "Timoun ki pi piti yo",
+      "of": "0fa8351f",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[0].title"
       ]
     },
     {
-      "t": "2 an",
-      "of": "b71ec8d2",
+      "t": "2–3 an",
+      "of": "48bbb245",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[0].tag"
       ]
@@ -24044,8 +24173,8 @@
       ]
     },
     {
-      "t": "Primary",
-      "of": "c7827f79",
+      "t": "Elèv Primary yo",
+      "of": "7a88eceb",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[1].title"
       ]
@@ -24065,8 +24194,8 @@
       ]
     },
     {
-      "t": "Transitional K ak Montessori K",
-      "of": "dd5c87e8",
+      "t": "Elèv ki pi gran yo",
+      "of": "d9ff5bf3",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[2].title"
       ]

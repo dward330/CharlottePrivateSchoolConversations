@@ -204,6 +204,8 @@ export const SKIP_KEYS = new Map([
   ['cls', 'class year — "\'26"'],
   ['cats', 'internal category code (lac75)'],
   ['sport', 'sport name — matched against English data elsewhere'],
+  ['match', 'roster sport names a College Pipeline bar counts — matched against English data, never displayed'],
+  ['derive', 'render code — all / d1 / p4, which roster count a funnel stage shows'],
   ['gender', 'render code — boys / girls / both, mapped to a locale key'],
   ['program', 'sport/program name'],
   ['record', 'win–loss figure — "12–1"'],

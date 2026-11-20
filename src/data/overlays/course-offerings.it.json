@@ -3,12 +3,18 @@
   "lang": "it",
   "strings": [
     {
-      "t": "2025-26",
-      "of": "fe38e73d",
+      "t": "2026-27",
+      "of": "0a1761dd",
       "at": [
         "providence-day:guideYear",
-        "charlotte-country-day:guideYear",
-        "gaston-day:guideYear"
+        "charlotte-christian:guideYear",
+        "charlotte-catholic:guideYear",
+        "cannon:guideYear",
+        "covenant-day:guideYear",
+        "davidson-day:guideYear",
+        "carmel-christian:guideYear",
+        "trinity-episcopal:guideYear",
+        "charlotte-prep:guideYear"
       ]
     },
     {
@@ -514,8 +520,8 @@
       ]
     },
     {
-      "t": "~75 corsi in 7 dipartimenti — dove iniziano i percorsi di collocazione in matematica e la sequenza di lingue straniere a cinque lingue.",
-      "of": "3c19edb0",
+      "t": "72 corsi in 7 dipartimenti — dove iniziano i percorsi di collocazione in matematica e la sequenza di lingue straniere a cinque lingue. Qui mostrati come 53 voci, con ensemble, arte, recitazione, PE/Health e livelli linguistici raggruppati.",
+      "of": "b36b64bb",
       "at": [
         "providence-day:divisions[1].teaser"
       ]
@@ -795,7 +801,6 @@
         "providence-day:divisions[1].departments[6].courses[10].tag",
         "providence-day:divisions[2].departments[0].courses[2].tag",
         "providence-day:divisions[2].departments[0].courses[3].tag",
-        "providence-day:divisions[2].departments[0].courses[4].tag",
         "providence-day:divisions[2].departments[0].courses[5].tag",
         "providence-day:divisions[2].departments[0].courses[6].tag",
         "providence-day:divisions[2].departments[0].courses[7].tag",
@@ -803,7 +808,7 @@
         "providence-day:divisions[2].departments[0].courses[9].tag",
         "providence-day:divisions[2].departments[0].courses[10].tag",
         "providence-day:divisions[2].departments[0].courses[11].tag",
-        "providence-day:divisions[2].departments[0].courses[12].tag",
+        "providence-day:divisions[2].departments[0].courses[13].tag",
         "providence-day:divisions[2].departments[1].courses[11].tag",
         "providence-day:divisions[2].departments[1].courses[12].tag",
         "providence-day:divisions[2].departments[1].courses[13].tag",
@@ -815,23 +820,26 @@
         "providence-day:divisions[2].departments[1].courses[19].tag",
         "providence-day:divisions[2].departments[1].courses[20].tag",
         "providence-day:divisions[2].departments[1].courses[21].tag",
+        "providence-day:divisions[2].departments[2].courses[11].tag",
         "providence-day:divisions[2].departments[3].courses[6].tag",
-        "providence-day:divisions[2].departments[3].courses[7].tag",
         "providence-day:divisions[2].departments[3].courses[8].tag",
-        "providence-day:divisions[2].departments[3].courses[9].tag",
         "providence-day:divisions[2].departments[3].courses[10].tag",
         "providence-day:divisions[2].departments[3].courses[13].tag",
         "providence-day:divisions[2].departments[3].courses[14].tag",
         "providence-day:divisions[2].departments[4].courses[0].tag",
         "providence-day:divisions[2].departments[4].courses[1].tag",
+        "providence-day:divisions[2].departments[4].courses[2].tag",
         "providence-day:divisions[2].departments[4].courses[3].tag",
-        "providence-day:divisions[2].departments[4].courses[4].tag",
         "providence-day:divisions[2].departments[4].courses[5].tag",
         "providence-day:divisions[2].departments[4].courses[6].tag",
+        "providence-day:divisions[2].departments[4].courses[7].tag",
+        "providence-day:divisions[2].departments[4].courses[8].tag",
+        "providence-day:divisions[2].departments[4].courses[9].tag",
         "providence-day:divisions[2].departments[5].courses[0].tag",
-        "providence-day:divisions[2].departments[5].courses[2].tag",
+        "providence-day:divisions[2].departments[5].courses[1].tag",
+        "providence-day:divisions[2].departments[5].courses[3].tag",
         "providence-day:divisions[2].departments[5].courses[4].tag",
-        "providence-day:divisions[2].departments[5].courses[5].tag",
+        "providence-day:divisions[2].departments[5].courses[7].tag",
         "providence-day:divisions[2].departments[7].courses[1].tag",
         "providence-day:divisions[2].departments[7].courses[2].tag",
         "providence-day:divisions[2].departments[7].courses[3].tag",
@@ -846,6 +854,7 @@
         "providence-day:divisions[2].departments[8].courses[8].tag",
         "providence-day:divisions[2].departments[8].courses[9].tag",
         "providence-day:divisions[2].departments[8].courses[10].tag",
+        "providence-day:divisions[2].departments[8].courses[11].tag",
         "providence-day:divisions[2].departments[9].courses[2].tag",
         "providence-day:divisions[2].departments[9].courses[3].tag",
         "providence-day:divisions[2].departments[9].courses[4].tag",
@@ -1121,19 +1130,22 @@
       "at": [
         "providence-day:divisions[1].departments[1].courses[3].tag",
         "providence-day:divisions[1].departments[1].courses[6].tag",
+        "providence-day:divisions[2].departments[0].courses[4].tag",
+        "providence-day:divisions[2].departments[0].courses[12].tag",
         "providence-day:divisions[2].departments[1].courses[22].tag",
         "providence-day:divisions[2].departments[2].courses[3].tag",
         "providence-day:divisions[2].departments[2].courses[6].tag",
         "providence-day:divisions[2].departments[2].courses[8].tag",
         "providence-day:divisions[2].departments[2].courses[9].tag",
-        "providence-day:divisions[2].departments[2].courses[11].tag",
+        "providence-day:divisions[2].departments[2].courses[12].tag",
         "providence-day:divisions[2].departments[6].courses[1].tag",
         "providence-day:divisions[2].departments[6].courses[2].tag",
         "providence-day:divisions[2].departments[6].courses[3].tag",
         "providence-day:divisions[2].departments[6].courses[4].tag",
         "providence-day:divisions[2].departments[6].courses[11].tag",
-        "providence-day:divisions[2].departments[6].courses[14].tag",
+        "providence-day:divisions[2].departments[6].courses[12].tag",
         "providence-day:divisions[2].departments[6].courses[15].tag",
+        "providence-day:divisions[2].departments[6].courses[16].tag",
         "charlotte-latin:divisions[1].departments[2].courses[2].tag",
         "charlotte-latin:divisions[1].departments[2].courses[5].tag",
         "charlotte-latin:divisions[2].departments[4].courses[1].tag",
@@ -1235,8 +1247,8 @@
       ]
     },
     {
-      "t": "La seconda parte della sequenza integrata, con unità principali sugli eventi catastrofici — clima, terremoti, vulcani — e sulla luce e l'ottica.",
-      "of": "e8be03a2",
+      "t": "La seconda parte della sequenza integrata, con unità principali su meteo e clima e sulla luce e l'ottica.",
+      "of": "a8aa5b3f",
       "at": [
         "providence-day:divisions[1].departments[2].courses[1].description"
       ]
@@ -1324,15 +1336,15 @@
       ]
     },
     {
-      "t": "History in Action: Collaborative Research",
-      "of": "9fbc9c04",
+      "t": "“How does my brain work?”: A Middle School Introduction to Psychology",
+      "of": "48cb4d17",
       "at": [
         "providence-day:divisions[1].departments[3].courses[3].title"
       ]
     },
     {
-      "t": "Un'indagine storica approfondita su un tema scelto dallo studente, presentata come sito web, documentario, mostra, spettacolo o elaborato.",
-      "of": "bde44215",
+      "t": "Uno sguardo guidato dagli studenti su come il cervello plasma emozioni, apprendimento e comportamento, in cui piccoli gruppi conducono unità a loro scelta e ogni studente conclude con un progetto di ricerca.",
+      "of": "162a882f",
       "at": [
         "providence-day:divisions[1].departments[3].courses[3].description"
       ]
@@ -1556,7 +1568,7 @@
       "of": "d34b5466",
       "at": [
         "providence-day:divisions[1].departments[5].courses[1].title",
-        "providence-day:divisions[2].departments[6].courses[7].title"
+        "providence-day:divisions[2].departments[6].courses[8].title"
       ]
     },
     {
@@ -1578,7 +1590,7 @@
       "of": "d24b52d3",
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].title",
-        "providence-day:divisions[2].departments[6].courses[8].title",
+        "providence-day:divisions[2].departments[6].courses[9].title",
         "covenant-day:divisions[0].departments[5].courses[10].title"
       ]
     },
@@ -1681,11 +1693,10 @@
         "providence-day:divisions[2].departments[2].courses[7].tag",
         "providence-day:divisions[2].departments[2].courses[10].tag",
         "providence-day:divisions[2].departments[6].courses[0].tag",
-        "providence-day:divisions[2].departments[6].courses[7].tag",
         "providence-day:divisions[2].departments[6].courses[8].tag",
         "providence-day:divisions[2].departments[6].courses[9].tag",
         "providence-day:divisions[2].departments[6].courses[10].tag",
-        "providence-day:divisions[2].departments[6].courses[13].tag",
+        "providence-day:divisions[2].departments[6].courses[14].tag",
         "providence-day:divisions[2].departments[7].courses[8].tag",
         "providence-day:divisions[2].departments[8].courses[0].tag",
         "providence-day:divisions[2].departments[8].courses[1].tag",
@@ -1858,8 +1869,8 @@
       ]
     },
     {
-      "t": "Theatre Arts 6",
-      "of": "a46fff24",
+      "t": "Theatre 6",
+      "of": "d8473c56",
       "at": [
         "providence-day:divisions[1].departments[6].courses[8].title"
       ]
@@ -1872,15 +1883,15 @@
       ]
     },
     {
-      "t": "Acting 1, 2 & 3",
-      "of": "6a3f9b1b",
+      "t": "Acting 1, Acting 2 & One Act Production Studio",
+      "of": "51cf30f9",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].title"
       ]
     },
     {
-      "t": "Tre corsi semestrali di recitazione per le classi 7 e 8; Acting 3 richiede una precedente esperienza teatrale.",
-      "of": "55e536d2",
+      "t": "Tre corsi semestrali per le classi 7 e 8 — Intro to Acting & Improv, Training for Stage & Screen e One Act Production Studio, che richiede un corso di teatro o una precedente produzione della PDS.",
+      "of": "b2d74d53",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].description"
       ]
@@ -1992,8 +2003,8 @@
       ]
     },
     {
-      "t": "149 corsi a catalogo in 11 dipartimenti — dalle basi fino a 28 corsi AP e alla matematica post-AP.",
-      "of": "85c83aa3",
+      "t": "172 corsi a catalogo in 11 dipartimenti — dalle basi fino a 30 corsi AP e alla matematica post-AP. Qui mostrati come 153 voci, con le sequenze di livelli di francese, tedesco, spagnolo e mandarino raggruppate.",
+      "of": "cfd530ec",
       "at": [
         "providence-day:divisions[2].teaser"
       ]
@@ -2103,145 +2114,159 @@
       ]
     },
     {
+      "t": "Creative Writing (Advanced)",
+      "of": "ff711129",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[4].title"
+      ]
+    },
+    {
+      "t": "Si basa su Creative Writing con letture più impegnative, poesia e prosa più complesse e criteri più rigorosi per la scrittura e la critica tra pari.",
+      "of": "bbd5d8c4",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[4].description"
+      ]
+    },
+    {
       "t": "New Media Storytelling",
       "of": "255961e1",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[4].title"
+        "providence-day:divisions[2].departments[0].courses[5].title"
       ]
     },
     {
       "t": "Gli studenti esaminano le strategie narrative, dagli articoli di cronaca ai reel di Instagram, e applicano i metodi narrativi ai diversi formati di comunicazione.",
       "of": "a5914fd7",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[4].description"
+        "providence-day:divisions[2].departments[0].courses[5].description"
       ]
     },
     {
       "t": "English Studies in Film: Philosophy in Film",
       "of": "8d0e83b3",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[5].title"
+        "providence-day:divisions[2].departments[0].courses[6].title"
       ]
     },
     {
       "t": "Gli studenti abbinano il cinema a testi filosofici classici per indagare il bene e il male, il sé, l'esistenza e la realtà.",
       "of": "bb0e3cae",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[5].description"
+        "providence-day:divisions[2].departments[0].courses[6].description"
       ]
     },
     {
       "t": "Detective and Crime Fiction",
       "of": "3848a893",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[6].title"
+        "providence-day:divisions[2].departments[0].courses[7].title"
       ]
     },
     {
       "t": "Gli studenti esplorano il genere del giallo e della narrativa poliziesca dall'Ottocento a oggi, attraverso racconti brevi, teatro, romanzi, cinema e TV.",
       "of": "24e0b661",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[6].description"
-      ]
-    },
-    {
-      "t": "Global Literature Topics",
-      "of": "c96cccfb",
-      "at": [
-        "providence-day:divisions[2].departments[0].courses[7].title"
-      ]
-    },
-    {
-      "t": "Gli studenti affrontano generi che spaziano dall'Asia ai Caraibi, all'Africa e all'America Latina, intorno a un tema comune a rotazione, come il genere o la giustizia.",
-      "of": "5ca363cd",
-      "at": [
         "providence-day:divisions[2].departments[0].courses[7].description"
+      ]
+    },
+    {
+      "t": "Global Literature: Women’s Voices",
+      "of": "3e4f5926",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[8].title"
+      ]
+    },
+    {
+      "t": "Gli studenti leggono racconti, poesie, romanzi e saggistica di donne e sulle donne dell'Asia, dei Caraibi, dell'Africa e dell'America Latina, chiedendosi quali questioni riguardino le donne in tutto il mondo.",
+      "of": "2d7e1bbc",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[8].description"
       ]
     },
     {
       "t": "Graphic Novels",
       "of": "8b3f8c5e",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[8].title"
+        "providence-day:divisions[2].departments[0].courses[9].title"
       ]
     },
     {
       "t": "Gli studenti analizzano i fumetti di lungo formato come letteratura globale e progettano un'opera multimediale di analisi letteraria che culmina in un comic-con organizzato dagli studenti.",
       "of": "5b324f1f",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[8].description"
+        "providence-day:divisions[2].departments[0].courses[9].description"
       ]
     },
     {
       "t": "Modern Dramatic Literature",
       "of": "e47f8d1a",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[9].title"
+        "providence-day:divisions[2].departments[0].courses[10].title"
       ]
     },
     {
       "t": "Una panoramica del teatro moderno da Ibsen a Ionesco, che esplora la perdita dell'individualismo, dell'empatia e della comunicazione significativa attraverso il reader's theater.",
       "of": "550c433c",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[9].description"
+        "providence-day:divisions[2].departments[0].courses[10].description"
       ]
     },
     {
       "t": "Shakespeare",
       "of": "5b3f3c51",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[10].title"
+        "providence-day:divisions[2].departments[0].courses[11].title"
       ]
     },
     {
       "t": "Gli studenti studiano un'ampia selezione di opere, tra cui The Merchant of Venice, Othello, The Tempest, Measure for Measure e Richard III, leggendole ad alta voce e analizzandone le versioni cinematografiche.",
       "of": "f057375d",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[10].description"
-      ]
-    },
-    {
-      "t": "War Literature",
-      "of": "d908b2f4",
-      "at": [
-        "providence-day:divisions[2].departments[0].courses[11].title"
-      ]
-    },
-    {
-      "t": "Gli studenti leggono poesia, canzoni, opere teatrali, romanzi e saggistica che spaziano dalla Guerra dei Trent'anni fino all'Afghanistan e all'Iraq.",
-      "of": "3239bdba",
-      "at": [
         "providence-day:divisions[2].departments[0].courses[11].description"
+      ]
+    },
+    {
+      "t": "War Literature (Advanced)",
+      "of": "7c51e9ed",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[12].title"
+      ]
+    },
+    {
+      "t": "Gli studenti studiano come gli autori veterani rappresentano la guerra, dalla Guerra dei Trent'anni fino all'Afghanistan e all'Iraq, poi scrivono un progetto su un'opera di letteratura di guerra a loro scelta.",
+      "of": "9de16b25",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[12].description"
       ]
     },
     {
       "t": "Latino American Literature",
       "of": "519612cb",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[12].title"
+        "providence-day:divisions[2].departments[0].courses[13].title"
       ]
     },
     {
       "t": "Un'introduzione alla letteratura e alle culture latino-americane negli Stati Uniti dal 1960 a oggi, con l'analisi delle identità della diaspora e di confine.",
       "of": "6eb8b8e3",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[12].description"
+        "providence-day:divisions[2].departments[0].courses[13].description"
       ]
     },
     {
       "t": "AP African American Studies",
       "of": "0ca52363",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].title"
+        "providence-day:divisions[2].departments[0].courses[14].title"
       ]
     },
     {
       "t": "AP",
       "of": "3ad53794",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].tag",
         "providence-day:divisions[2].departments[0].courses[14].tag",
         "providence-day:divisions[2].departments[0].courses[15].tag",
+        "providence-day:divisions[2].departments[0].courses[16].tag",
         "providence-day:divisions[2].departments[1].courses[2].tag",
         "providence-day:divisions[2].departments[1].courses[4].tag",
         "providence-day:divisions[2].departments[1].courses[5].tag",
@@ -2250,23 +2275,25 @@
         "providence-day:divisions[2].departments[1].courses[8].tag",
         "providence-day:divisions[2].departments[1].courses[9].tag",
         "providence-day:divisions[2].departments[1].courses[10].tag",
-        "providence-day:divisions[2].departments[2].courses[12].tag",
         "providence-day:divisions[2].departments[2].courses[13].tag",
         "providence-day:divisions[2].departments[2].courses[14].tag",
+        "providence-day:divisions[2].departments[2].courses[15].tag",
         "providence-day:divisions[2].departments[3].courses[15].tag",
         "providence-day:divisions[2].departments[3].courses[16].tag",
         "providence-day:divisions[2].departments[3].courses[17].tag",
         "providence-day:divisions[2].departments[3].courses[18].tag",
         "providence-day:divisions[2].departments[3].courses[19].tag",
-        "providence-day:divisions[2].departments[4].courses[7].tag",
-        "providence-day:divisions[2].departments[4].courses[8].tag",
+        "providence-day:divisions[2].departments[4].courses[10].tag",
+        "providence-day:divisions[2].departments[4].courses[11].tag",
+        "providence-day:divisions[2].departments[5].courses[6].tag",
         "providence-day:divisions[2].departments[6].courses[5].tag",
         "providence-day:divisions[2].departments[6].courses[6].tag",
-        "providence-day:divisions[2].departments[6].courses[12].tag",
-        "providence-day:divisions[2].departments[6].courses[16].tag",
+        "providence-day:divisions[2].departments[6].courses[7].tag",
+        "providence-day:divisions[2].departments[6].courses[13].tag",
+        "providence-day:divisions[2].departments[6].courses[17].tag",
         "providence-day:divisions[2].departments[7].courses[9].tag",
         "providence-day:divisions[2].departments[7].courses[10].tag",
-        "providence-day:divisions[2].departments[8].courses[15].tag",
+        "providence-day:divisions[2].departments[8].courses[16].tag",
         "charlotte-latin:divisions[2].departments[0].courses[4].tag",
         "charlotte-latin:divisions[2].departments[1].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[4].tag",
@@ -2463,14 +2490,14 @@
       "t": "Un corso AP che attinge a letteratura, arti, scienze politiche, geografia e scienze per esplorare l'esperienza afroamericana.",
       "of": "6f75a4d2",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].description"
+        "providence-day:divisions[2].departments[0].courses[14].description"
       ]
     },
     {
       "t": "AP English Language and Composition",
       "of": "331a2375",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[14].title",
+        "providence-day:divisions[2].departments[0].courses[15].title",
         "davidson-day:divisions[2].departments[0].courses[6].title"
       ]
     },
@@ -2478,14 +2505,14 @@
       "t": "Scrittura espositiva, analitica e argomentativa di livello universitario, con letture tratte da generi di saggistica e attenzione alla tecnica retorica e alla logica.",
       "of": "15323bb8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[14].description"
+        "providence-day:divisions[2].departments[0].courses[15].description"
       ]
     },
     {
       "t": "AP English Literature and Composition",
       "of": "939079c8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[15].title",
+        "providence-day:divisions[2].departments[0].courses[16].title",
         "davidson-day:divisions[2].departments[0].courses[7].title"
       ]
     },
@@ -2493,7 +2520,7 @@
       "t": "Affina l'analisi letteraria attraverso romanzi trattati regolarmente, come Moby-Dick, Invisible Man e Mrs. Dalloway, oltre a Dickinson, Frost e Shakespeare, con un elenco di letture esterne.",
       "of": "8f8725b8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[15].description"
+        "providence-day:divisions[2].departments[0].courses[16].description"
       ]
     },
     {
@@ -2523,8 +2550,8 @@
       ]
     },
     {
-      "t": "Promuove l'apprezzamento della diversità culturale attraverso lo sviluppo geografico e tematico degli eventi dal 1000 d.C. all'Età della Globalizzazione.",
-      "of": "3f35acdb",
+      "t": "Promuove l'apprezzamento della diversità culturale attraverso lo sviluppo geografico e tematico degli eventi dal 600 d.C. all'Età della Globalizzazione.",
+      "of": "d73b26ae",
       "at": [
         "providence-day:divisions[2].departments[1].courses[1].description"
       ]
@@ -2756,8 +2783,8 @@
       ]
     },
     {
-      "t": "Global Studies: Europe and Latin America",
-      "of": "e48d9af0",
+      "t": "Global Studies: Latin America",
+      "of": "d8fa3cc5",
       "at": [
         "providence-day:divisions[2].departments[1].courses[17].title"
       ]
@@ -3024,24 +3051,38 @@
       ]
     },
     {
+      "t": "Sports Analytics and Data Science",
+      "of": "042e6ec7",
+      "at": [
+        "providence-day:divisions[2].departments[2].courses[11].title"
+      ]
+    },
+    {
+      "t": "Un corso di matematica e IDEAS che usa i dati sportivi per insegnare la raccolta dei dati, Excel, la visualizzazione dei dati e la statistica, fino alla modellazione predittiva e alla regressione; richiede Algebra II.",
+      "of": "3be37120",
+      "at": [
+        "providence-day:divisions[2].departments[2].courses[11].description"
+      ]
+    },
+    {
       "t": "Calculus (Advanced)",
       "of": "56e16862",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[11].title"
+        "providence-day:divisions[2].departments[2].courses[12].title"
       ]
     },
     {
       "t": "Introduce i concetti e le applicazioni del calcolo differenziale, insegnando agli studenti a valutare i limiti e a derivare e integrare funzioni elementari.",
       "of": "71f26dd8",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[11].description"
+        "providence-day:divisions[2].departments[2].courses[12].description"
       ]
     },
     {
       "t": "AP Calculus AB",
       "of": "74e1f1ef",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[12].title",
+        "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
         "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
@@ -3052,14 +3093,14 @@
       "t": "Gli studenti imparano a valutare i limiti, derivare e integrare funzioni elementari, utilizzando la calcolatrice grafica come parte integrante del corso.",
       "of": "bd6b62f6",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[12].description"
+        "providence-day:divisions[2].departments[2].courses[13].description"
       ]
     },
     {
       "t": "AP Calculus BC",
       "of": "1be5376b",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[13].title",
+        "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
         "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[10].title"
@@ -3069,14 +3110,14 @@
       "t": "Copre i contenuti di AB oltre alle equazioni vettoriali, polari e parametriche e al calcolo delle serie infinite.",
       "of": "92ad63a0",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[13].description"
+        "providence-day:divisions[2].departments[2].courses[14].description"
       ]
     },
     {
       "t": "AP Statistics",
       "of": "64766a8f",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[14].title",
+        "providence-day:divisions[2].departments[2].courses[15].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
         "covenant-day:divisions[0].departments[1].courses[13].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
@@ -3087,24 +3128,24 @@
       "t": "Gli studenti simulano distribuzioni di probabilità e analizzano le relazioni tra variabili tramite correlazione e regressione utilizzando calcolatrici e software.",
       "of": "655636d1",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[14].description"
+        "providence-day:divisions[2].departments[2].courses[15].description"
       ]
     },
     {
       "t": "Calculus III (Advanced)",
       "of": "dd79cafd",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].title"
+        "providence-day:divisions[2].departments[2].courses[16].title"
       ]
     },
     {
       "t": "Post-AP",
       "of": "7eeeacc7",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].tag",
         "providence-day:divisions[2].departments[2].courses[16].tag",
         "providence-day:divisions[2].departments[2].courses[17].tag",
-        "providence-day:divisions[2].departments[4].courses[2].tag",
+        "providence-day:divisions[2].departments[2].courses[18].tag",
+        "providence-day:divisions[2].departments[4].courses[4].tag",
         "charlotte-christian:divisions[2].departments[2].courses[14].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[12].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[17].tag",
@@ -3117,35 +3158,35 @@
       "t": "Prosegue dopo BC Calculus con funzioni a più variabili e a valori vettoriali, curvatura, integrali doppi e tripli e analisi vettoriale.",
       "of": "e5ec2dc6",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].description"
+        "providence-day:divisions[2].departments[2].courses[16].description"
       ]
     },
     {
       "t": "Linear Algebra (Advanced)",
       "of": "46d96fc9",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[16].title"
+        "providence-day:divisions[2].departments[2].courses[17].title"
       ]
     },
     {
       "t": "Si estende allo spazio tridimensionale e n-dimensionale coprendo matrici, determinanti, sistemi di equazioni lineari, spazi vettoriali, rango, inverse e prodotti interni.",
       "of": "4aa352d7",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[16].description"
+        "providence-day:divisions[2].departments[2].courses[17].description"
       ]
     },
     {
       "t": "Differential Equations (Advanced)",
       "of": "b1045a74",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[17].title"
+        "providence-day:divisions[2].departments[2].courses[18].title"
       ]
     },
     {
       "t": "Gli studenti esaminano le equazioni differenziali e le loro soluzioni, le trasformate di Laplace, i sistemi lineari e non lineari, i metodi delle serie e le serie di Fourier.",
       "of": "222a51ff",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[17].description"
+        "providence-day:divisions[2].departments[2].courses[18].description"
       ]
     },
     {
@@ -3257,72 +3298,14 @@
       ]
     },
     {
-      "t": "Gli studenti apprendono l'anatomia muscoloscheletrica e la gestione degli infortuni, completando 15 ore come preparatori atletici studenti per le squadre della PDS.",
-      "of": "64f6e91c",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[7].description"
-      ]
-    },
-    {
-      "t": "Astronomy",
-      "of": "da1da391",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[8].title",
-        "charlotte-latin:divisions[2].departments[4].courses[12].title",
-        "charlotte-christian:divisions[2].departments[3].courses[11].title"
-      ]
-    },
-    {
-      "t": "Gli studenti studiano stelle, galassie, il sistema solare e la composizione, la struttura e le origini dell'universo utilizzando astrolabi e macchie solari.",
-      "of": "dd9d673f",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[8].description"
-      ]
-    },
-    {
-      "t": "Bioethics/Biotechnology",
-      "of": "822a020e",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[9].title"
-      ]
-    },
-    {
-      "t": "Un corso di laboratorio e casi di studio che utilizza micropipette, PCR, isolamento del DNA ed elettroforesi su gel, dibattendo su OGM, transgenici e clonazione.",
-      "of": "d7a1a690",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[9].description"
-      ]
-    },
-    {
-      "t": "Environmental Sustainability",
-      "of": "fd8972b0",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[10].title"
-      ]
-    },
-    {
-      "t": "Un'esplorazione multidisciplinare dello sviluppo sostenibile nella pianificazione urbana, nell'energia, nell'acqua e nell'agricoltura, con lavoro pratico nei Charger Gardens.",
-      "of": "2412793d",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[10].description"
-      ]
-    },
-    {
-      "t": "Forensic Science",
-      "of": "fba6e9f2",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[11].title",
-        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
-      ]
-    },
-    {
       "t": "Gr 10–12",
       "of": "102b6929",
       "at": [
+        "providence-day:divisions[2].departments[3].courses[7].tag",
+        "providence-day:divisions[2].departments[3].courses[9].tag",
         "providence-day:divisions[2].departments[3].courses[11].tag",
         "providence-day:divisions[2].departments[3].courses[12].tag",
-        "providence-day:divisions[2].departments[5].courses[1].tag",
-        "providence-day:divisions[2].departments[5].courses[3].tag",
+        "providence-day:divisions[2].departments[5].courses[2].tag",
         "charlotte-christian:divisions[2].departments[1].courses[13].tag",
         "charlotte-christian:divisions[2].departments[1].courses[14].tag",
         "charlotte-christian:divisions[2].departments[7].courses[6].tag",
@@ -3347,6 +3330,65 @@
         "hickory-grove-christian:divisions[0].departments[11].courses[4].tag",
         "hickory-grove-christian:divisions[0].departments[11].courses[7].tag",
         "hickory-grove-christian:divisions[0].departments[11].courses[8].tag"
+      ]
+    },
+    {
+      "t": "Gli studenti apprendono l'anatomia delle principali regioni del corpo, dal piede e dalla caviglia alla spalla e alla mano, oltre agli infortuni sportivi più comuni, al recupero e ai metodi di trattamento di base.",
+      "of": "fbbdf148",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[7].description"
+      ]
+    },
+    {
+      "t": "Astronomy",
+      "of": "da1da391",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[8].title",
+        "charlotte-latin:divisions[2].departments[4].courses[12].title",
+        "charlotte-christian:divisions[2].departments[3].courses[11].title"
+      ]
+    },
+    {
+      "t": "Gli studenti studiano stelle, galassie, il sistema solare e la composizione, la struttura e le origini dell'universo utilizzando astrolabi e sun spotter.",
+      "of": "8403986c",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[8].description"
+      ]
+    },
+    {
+      "t": "Bioethics/Biotechnology",
+      "of": "822a020e",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[9].title"
+      ]
+    },
+    {
+      "t": "Un corso di laboratorio e casi di studio che utilizza micropipette, PCR, isolamento del DNA ed elettroforesi su gel, valutando l'etica degli organismi transgenici, della privacy del genoma e della clonazione.",
+      "of": "6370c07b",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[9].description"
+      ]
+    },
+    {
+      "t": "Environmental Sustainability",
+      "of": "fd8972b0",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[10].title"
+      ]
+    },
+    {
+      "t": "Un'esplorazione multidisciplinare dello sviluppo sostenibile nella pianificazione urbana, nell'energia, nell'acqua e nell'agricoltura, con lavoro pratico nei Charger Gardens.",
+      "of": "2412793d",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[10].description"
+      ]
+    },
+    {
+      "t": "Forensic Science",
+      "of": "fba6e9f2",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
       ]
     },
     {
@@ -3378,8 +3420,8 @@
       ]
     },
     {
-      "t": "Un'introduzione al funzionamento cellulare e molecolare del sistema nervoso, con registrazione dell'attività elettrica da nervi, muscoli e piante.",
-      "of": "11a91f28",
+      "t": "Un'introduzione pratica al funzionamento del sistema nervoso a livello cellulare e molecolare, con indagini di laboratorio che includono due brevi dissezioni.",
+      "of": "ffcef1fd",
       "at": [
         "providence-day:divisions[2].departments[3].courses[13].description"
       ]
@@ -3389,7 +3431,7 @@
       "of": "c6a3f0d6",
       "at": [
         "providence-day:divisions[2].departments[3].courses[14].title",
-        "providence-day:divisions[2].departments[5].courses[4].title"
+        "providence-day:divisions[2].departments[5].courses[3].title"
       ]
     },
     {
@@ -3461,8 +3503,8 @@
       ]
     },
     {
-      "t": "Gli studenti utilizzano l'algebra per studiare la fisica universitaria introduttiva, analizzando i dati e sviluppando modelli per sistemi, campi, forze, conservazione e onde.",
-      "of": "a8097bf9",
+      "t": "Gli studenti utilizzano l'algebra per studiare in laboratorio la fisica universitaria introduttiva, analizzando i dati e costruendo modelli di moto, forze, energia, quantità di moto, rotazione, oscillazioni e fluidi.",
+      "of": "ae146f3e",
       "at": [
         "providence-day:divisions[2].departments[3].courses[18].description"
       ]
@@ -3489,108 +3531,150 @@
       ]
     },
     {
+      "t": "Architecture Design",
+      "of": "59fd9608",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[0].title"
+      ]
+    },
+    {
+      "t": "Si concentra sui principi della progettazione architettonica e sul Building Information Modeling utilizzando strumenti CAD 3D come REVIT per planimetrie, sezioni e prospetti.",
+      "of": "ff9fec5d",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[0].description"
+      ]
+    },
+    {
+      "t": "Architecture II: Sustainable Design & LEED Fundamentals",
+      "of": "744ec01b",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[1].title"
+      ]
+    },
+    {
+      "t": "Un corso basato su progetti sull'edilizia verde ad alte prestazioni che prepara gli studenti a conseguire la certificazione LEED Green Associate, con un Green Building Design Project finale; richiede Architecture Design.",
+      "of": "791b4b92",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[1].description"
+      ]
+    },
+    {
       "t": "Computer-Aided Design with 3D Printing",
       "of": "7ad8d7dc",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[0].title"
+        "providence-day:divisions[2].departments[4].courses[2].title"
       ]
     },
     {
       "t": "Un'introduzione al disegno meccanico tradizionale mediante software CAD, oltre alla stampa 3D, ai disegni isometrici e alle tecniche complete di modellazione 3D.",
       "of": "e1ea3233",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[0].description"
+        "providence-day:divisions[2].departments[4].courses[2].description"
       ]
     },
     {
       "t": "Computer Programming with Python",
       "of": "f83fc86f",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[1].title"
+        "providence-day:divisions[2].departments[4].courses[3].title"
       ]
     },
     {
       "t": "Introduce la programmazione in Python coprendo variabili, tipi di dati, iterazione, controllo di flusso, funzioni, interfacce grafiche e programmazione a eventi.",
       "of": "442bb4a3",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[1].description"
+        "providence-day:divisions[2].departments[4].courses[3].description"
       ]
     },
     {
       "t": "Advanced Data Structures in Java",
       "of": "45041a30",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[2].title"
+        "providence-day:divisions[2].departments[4].courses[4].title"
       ]
     },
     {
       "t": "Rivolto agli studenti che hanno completato AP CS A, copre l'astrazione e l'incapsulamento dei dati, inclusi stack, code, liste concatenate, alberi binari e mappe hash.",
       "of": "c60d2b51",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[2].description"
+        "providence-day:divisions[2].departments[4].courses[4].description"
       ]
     },
     {
       "t": "Game Development with Unity and C#",
       "of": "d8492344",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[3].title"
+        "providence-day:divisions[2].departments[4].courses[5].title"
       ]
     },
     {
       "t": "Gli studenti imparano a sviluppare videogiochi da zero utilizzando il linguaggio C# e il motore Unity attraverso il curriculum \"Create with Code\".",
       "of": "9c2655c9",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[3].description"
+        "providence-day:divisions[2].departments[4].courses[5].description"
       ]
     },
     {
       "t": "iOS Programming with Swift",
       "of": "141f2d9a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[4].title"
+        "providence-day:divisions[2].departments[4].courses[6].title"
       ]
     },
     {
       "t": "Gli studenti utilizzano Xcode e l'iOS SDK per apprendere Swift e i framework Cocoa Touch, testando le app sui propri dispositivi mobili.",
       "of": "b1c111e5",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[4].description"
+        "providence-day:divisions[2].departments[4].courses[6].description"
       ]
     },
     {
       "t": "Physical Computing",
       "of": "a41ac47a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[5].title"
+        "providence-day:divisions[2].departments[4].courses[7].title"
       ]
     },
     {
       "t": "Gli studenti progettano sistemi interattivi con Arduino e Raspberry Pi utilizzando pulsanti, sensori, display, LED, motori e moduli wireless.",
       "of": "e9beacef",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[5].description"
+        "providence-day:divisions[2].departments[4].courses[7].description"
       ]
     },
     {
-      "t": "Robotics & Engineering",
-      "of": "aec8a185",
+      "t": "Robotics & Engineering 1",
+      "of": "dd9ca18a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[6].title"
+        "providence-day:divisions[2].departments[4].courses[8].title"
       ]
     },
     {
       "t": "Esplora i fondamenti della robotica e dell'ingegneria e le questioni globali del settore attraverso la risoluzione pratica di problemi e il dibattito sulle implicazioni etiche.",
       "of": "244e5342",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[6].description"
+        "providence-day:divisions[2].departments[4].courses[8].description"
+      ]
+    },
+    {
+      "t": "Robotics & Engineering 2",
+      "of": "dc9c9ff7",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[9].title"
+      ]
+    },
+    {
+      "t": "Partendo da Robotics & Engineering 1, gli studenti affrontano 2 o 3 sfide del mondo reale, lavorando con partner della comunità per studiare e progettare una soluzione.",
+      "of": "07cae16d",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[9].description"
       ]
     },
     {
       "t": "AP Computer Science A",
       "of": "1c7b7290",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[7].title",
+        "providence-day:divisions[2].departments[4].courses[10].title",
         "charlotte-country-day:divisions[2].departments[6].courses[1].title",
         "davidson-day:divisions[2].departments[6].courses[2].title"
       ]
@@ -3599,14 +3683,14 @@
       "t": "Segue il programma del College Board in Java, ponendo l'accento su sintassi, struttura delle classi, metodologie orientate agli oggetti, algoritmi e strutture dati.",
       "of": "5e7360b2",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[7].description"
+        "providence-day:divisions[2].departments[4].courses[10].description"
       ]
     },
     {
       "t": "AP Computer Science Principles",
       "of": "b34fad00",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[8].title",
+        "providence-day:divisions[2].departments[4].courses[11].title",
         "davidson-day:divisions[2].departments[6].courses[1].title"
       ]
     },
@@ -3614,7 +3698,7 @@
       "t": "Coinvolge gli studenti negli aspetti creativi dell'informatica utilizzando strumenti computazionali per analizzare grandi insiemi di dati e trarre conclusioni dalle tendenze.",
       "of": "58c33221",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[8].description"
+        "providence-day:divisions[2].departments[4].courses[11].description"
       ]
     },
     {
@@ -3622,7 +3706,7 @@
       "of": "ad0010c2",
       "at": [
         "providence-day:divisions[2].departments[5].name",
-        "providence-day:divisions[2].departments[5].courses[5].title"
+        "providence-day:divisions[2].departments[5].courses[4].title"
       ]
     },
     {
@@ -3655,45 +3739,91 @@
       ]
     },
     {
-      "t": "Architecture Design",
-      "of": "59fd9608",
-      "at": [
-        "providence-day:divisions[2].departments[5].courses[2].title"
-      ]
-    },
-    {
-      "t": "Si concentra sui principi della progettazione architettonica e sul Building Information Modeling utilizzando strumenti CAD 3D come REVIT per planimetrie, sezioni e prospetti.",
-      "of": "ff9fec5d",
-      "at": [
-        "providence-day:divisions[2].departments[5].courses[2].description"
-      ]
-    },
-    {
       "t": "Social Entrepreneurship",
       "of": "728b6db3",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[3].title"
+        "providence-day:divisions[2].departments[5].courses[2].title"
       ]
     },
     {
       "t": "Un corso pratico che guida gli studenti ad avviare imprese capaci di creare valore sociale, testando rapidamente le idee rispetto al riscontro dei clienti e del mercato.",
       "of": "d43c9f1f",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[3].description"
+        "providence-day:divisions[2].departments[5].courses[2].description"
       ]
     },
     {
       "t": "Gli studenti conducono una ricerca scientifica originale, progettando e realizzando esperimenti e presentando i risultati; conferisce anche un credito di scienze.",
       "of": "4575d745",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[4].description"
+        "providence-day:divisions[2].departments[5].courses[3].description"
       ]
     },
     {
       "t": "Gli studenti coltivano le competenze del design thinking come uno studio di progettisti e un'impresa di imprenditori per affrontare le questioni più pressanti che riguardano gli studenti.",
       "of": "a78713fe",
       "at": [
+        "providence-day:divisions[2].departments[5].courses[4].description"
+      ]
+    },
+    {
+      "t": "Advanced Entrepreneurship: Incubator to Accelerator",
+      "of": "e6c2a235",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].title"
+      ]
+    },
+    {
+      "t": "Gr 12",
+      "of": "738fc5f7",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].tag",
+        "charlotte-christian:divisions[2].departments[0].courses[4].tag",
+        "charlotte-christian:divisions[2].departments[1].courses[6].tag",
+        "charlotte-country-day:divisions[2].departments[0].courses[7].tag",
+        "cannon:divisions[2].departments[0].courses[6].tag",
+        "cannon:divisions[2].departments[1].courses[11].tag",
+        "cannon:divisions[2].departments[6].courses[5].tag",
+        "cannon:divisions[2].departments[6].courses[6].tag",
+        "davidson-day:divisions[2].departments[8].courses[6].tag",
+        "hickory-grove-christian:divisions[0].departments[0].courses[8].tag",
+        "hickory-grove-christian:divisions[0].departments[6].courses[3].tag",
+        "hickory-grove-christian:divisions[0].departments[11].courses[11].tag"
+      ]
+    },
+    {
+      "t": "Il capstone dell'ultimo anno del Diploma in Entrepreneurial Studies, in cui gli studenti verificano un bisogno di mercato, costruiscono una prima versione funzionante di un prodotto e tengono una presentazione aziendale formale.",
+      "of": "44091b59",
+      "at": [
         "providence-day:divisions[2].departments[5].courses[5].description"
+      ]
+    },
+    {
+      "t": "AP Business with Personal Finance",
+      "of": "2637a358",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[6].title"
+      ]
+    },
+    {
+      "t": "Un corso annuale per gli studenti del penultimo e dell'ultimo anno che tratta imprenditorialità, marketing, finanza, contabilità e management oltre alla finanza personale, con la possibilità di ottenere crediti universitari e una certificazione riconosciuta dai datori di lavoro.",
+      "of": "9b607118",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[6].description"
+      ]
+    },
+    {
+      "t": "AI Literacy: Understanding and Navigating Artificial Intelligence",
+      "of": "598b6f40",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[7].title"
+      ]
+    },
+    {
+      "t": "Gli studenti imparano come funziona il machine learning, come valutare e usare l'IA a scuola e al lavoro e come l'IA influisce sulla società; non è richiesta alcuna esperienza precedente.",
+      "of": "d3ffadcf",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[7].description"
       ]
     },
     {
@@ -3774,17 +3904,31 @@
       ]
     },
     {
-      "t": "Prepara gli studenti dell'ultimo anno all'esame AP French Language and Culture attraverso saggi persuasivi e conversazioni guidate a tempo utilizzando fonti autentiche.",
-      "of": "0dfad1a0",
+      "t": "Prepara gli studenti dell'ultimo anno all'esame AP French Language and Culture attraverso saggi argomentativi e unità basate su fonti autentiche, da Global Challenges a Beauty and Aesthetics.",
+      "of": "b372535e",
       "at": [
         "providence-day:divisions[2].departments[6].courses[5].description"
+      ]
+    },
+    {
+      "t": "AP German",
+      "of": "80692756",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[6].title"
+      ]
+    },
+    {
+      "t": "Prepara gli studenti all'AP German Language Exam, con lezioni tenute solo in tedesco e tutti i materiali tratti da fonti autentiche; richiede German 6 Advanced con un 87%.",
+      "of": "4ddc4ac0",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[6].description"
       ]
     },
     {
       "t": "AP Spanish Language",
       "of": "5e3f2f4e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].title",
+        "providence-day:divisions[2].departments[6].courses[7].title",
         "covenant-day:divisions[0].departments[5].courses[4].title"
       ]
     },
@@ -3792,70 +3936,70 @@
       "t": "Prepara gli studenti dell'ultimo anno all'AP Spanish Language Exam sviluppando competenze linguistiche a tutto tondo, con la conversazione in aula esclusivamente in spagnolo.",
       "of": "5fa55fc7",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].description"
+        "providence-day:divisions[2].departments[6].courses[7].description"
       ]
     },
     {
       "t": "Familiarizza gli studenti con l'acquisizione delle lingue classiche attraverso la lingua, il contesto storico e l'influenza di Roma, coprendo la vita quotidiana, gli dèi e gli eroi.",
       "of": "6569f97b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[7].description"
+        "providence-day:divisions[2].departments[6].courses[8].description"
       ]
     },
     {
       "t": "Gli studenti leggono storie in latino ambientate nell'antica Roma, studiando i concetti grammaticali attraverso i temi dei banchetti, dei bagni, della pirateria, dei gladiatori e dei disordini politici.",
       "of": "1b1b4ea4",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[8].description"
+        "providence-day:divisions[2].departments[6].courses[9].description"
       ]
     },
     {
       "t": "Latin 3",
       "of": "d14b5140",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[9].title"
-      ]
-    },
-    {
-      "t": "Ripassa la grammatica e introduce le proposizioni, progredendo verso il latino non adattato attraverso la prosa di Livio e Plinio e la poesia di Catullo.",
-      "of": "c8d515be",
-      "at": [
-        "providence-day:divisions[2].departments[6].courses[9].description"
-      ]
-    },
-    {
-      "t": "Latin 4",
-      "of": "d84b5c45",
-      "at": [
         "providence-day:divisions[2].departments[6].courses[10].title"
       ]
     },
     {
-      "t": "Un corso di letteratura che esplora la poesia di Catullo, Ovidio e Virgilio, leggendo il latino ad alta voce per coglierne la metrica e valutare le figure retoriche.",
-      "of": "f6a3c306",
+      "t": "Ripassa la grammatica e introduce le proposizioni subordinate, procedendo verso il latino originale e non adattato attraverso la prosa di Cesare, Plinio, Livio ed Eutropio.",
+      "of": "c8bebbc1",
       "at": [
         "providence-day:divisions[2].departments[6].courses[10].description"
+      ]
+    },
+    {
+      "t": "Latin 4 (Advanced)",
+      "of": "bfb66906",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[11].title"
+      ]
+    },
+    {
+      "t": "Un corso di letteratura sulla poesia e la mitologia di Catullo, Ovidio e Virgilio, valutando quanto bene ciascun poeta usi le figure retoriche, la metrica, il tono e lo scopo.",
+      "of": "3052dc30",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[11].description"
       ]
     },
     {
       "t": "Latin 5 (Advanced)",
       "of": "425c804b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[11].title"
+        "providence-day:divisions[2].departments[6].courses[12].title"
       ]
     },
     {
-      "t": "Un corso di letteratura in prosa e poesia con una componente di confronto tra testi basata su progetti e letture di autori come Virgilio, Plinio, Catullo, Ovidio, Vespucci e Boccaccio.",
-      "of": "c300258c",
+      "t": "Un corso di letteratura in prosa e poesia con un progetto di confronto tra testi su temi comuni, con letture di Virgilio, Plinio, Catullo e Ovidio accanto ad autori esterni al periodo dell'antica Roma.",
+      "of": "c82bcc96",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[11].description"
+        "providence-day:divisions[2].departments[6].courses[12].description"
       ]
     },
     {
       "t": "AP Latin",
       "of": "6d3b696e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[12].title",
+        "providence-day:divisions[2].departments[6].courses[13].title",
         "charlotte-country-day:divisions[2].departments[4].courses[13].title"
       ]
     },
@@ -3863,63 +4007,63 @@
       "t": "Presenta i contenuti e le competenze per l'AP Latin Exam, analizzando il testo, riconoscendo le figure retoriche e citando i temi sottostanti.",
       "of": "5aadcc70",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[12].description"
+        "providence-day:divisions[2].departments[6].courses[13].description"
       ]
     },
     {
       "t": "Mandarin Chinese 1–5",
       "of": "531d6261",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[13].title"
+        "providence-day:divisions[2].departments[6].courses[14].title"
       ]
     },
     {
       "t": "Corsi sequenziali dal livello Novice Mid all'Intermediate Mid 1, attraverso temi come Greetings, Dining, Travel e In the Restaurant.",
       "of": "98c36859",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[13].description"
+        "providence-day:divisions[2].departments[6].courses[14].description"
       ]
     },
     {
       "t": "Mandarin Chinese 6 (Advanced)",
       "of": "c514e9f5",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[14].title"
+        "providence-day:divisions[2].departments[6].courses[15].title"
       ]
     },
     {
       "t": "Consolida le abilità di livello Intermediate Mid 2 esplorando la cultura cinese contemporanea in contesti educativi, sociali e tecnologici.",
       "of": "81fa2ce3",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[14].description"
+        "providence-day:divisions[2].departments[6].courses[15].description"
       ]
     },
     {
       "t": "Mandarin Chinese 7 (Advanced)",
       "of": "e3dd6be8",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[15].title"
+        "providence-day:divisions[2].departments[6].courses[16].title"
       ]
     },
     {
       "t": "Prosegue il consolidamento del livello Intermediate Mid 2, esplorando la cultura attraverso Education, Festivals, Environmental Challenges e Healthy Living.",
       "of": "48428f7b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[15].description"
+        "providence-day:divisions[2].departments[6].courses[16].description"
       ]
     },
     {
       "t": "AP Chinese Language and Culture",
       "of": "0bffc54c",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[16].title"
+        "providence-day:divisions[2].departments[6].courses[17].title"
       ]
     },
     {
       "t": "Copre abilità di ascolto e orali, comprensione della lettura, grammatica e composizione nelle cinque aree tematiche, sviluppando la consapevolezza del ruolo globale della Cina.",
       "of": "05551cb1",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[16].description"
+        "providence-day:divisions[2].departments[6].courses[17].description"
       ]
     },
     {
@@ -4041,8 +4185,8 @@
       ]
     },
     {
-      "t": "Understanding Art: A Global View",
-      "of": "c2a2b6d5",
+      "t": "Understanding Art: A Contemporary Global View",
+      "of": "54253574",
       "at": [
         "providence-day:divisions[2].departments[7].courses[7].title"
       ]
@@ -4194,94 +4338,109 @@
       ]
     },
     {
+      "t": "Music Technology and Production",
+      "of": "f49b143e",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[4].title"
+      ]
+    },
+    {
+      "t": "Gli studenti usano software di produzione musicale e attrezzature di registrazione per imparare la registrazione multitraccia, l'editing audio e la progettazione audio; è preferibile un'esperienza musicale precedente.",
+      "of": "4a7cdac9",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[4].description"
+      ]
+    },
+    {
       "t": "Theatre I: Introduction to Performance",
       "of": "80701414",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[4].title"
+        "providence-day:divisions[2].departments[8].courses[5].title"
       ]
     },
     {
       "t": "Introduce la recitazione teatrale dalla prospettiva dell'attore attraverso la pantomima, l'improvvisazione, il lavoro sulle scene e le scene senza contenuto.",
       "of": "41fd4a3c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[4].description"
+        "providence-day:divisions[2].departments[8].courses[5].description"
       ]
     },
     {
       "t": "Theatre II: Advanced Acting",
       "of": "3bd9046e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[5].title"
+        "providence-day:divisions[2].departments[8].courses[6].title"
       ]
     },
     {
       "t": "Esplora tecniche avanzate tra cui Meisner e Stanislavski, il teatro musicale, l'analisi del testo e del personaggio e la tecnica del provino.",
       "of": "63f0248f",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[5].description"
-      ]
-    },
-    {
-      "t": "Theatrical Performing Arts Lab",
-      "of": "16fffd28",
-      "at": [
-        "providence-day:divisions[2].departments[8].courses[6].title"
-      ]
-    },
-    {
-      "t": "Gli studenti selezionano, distribuiscono i ruoli, progettano, provano e realizzano un atto unico, con gli studenti orientati alla parte tecnica che fungono da scenografi.",
-      "of": "3fe3fb18",
-      "at": [
         "providence-day:divisions[2].departments[8].courses[6].description"
+      ]
+    },
+    {
+      "t": "Teatro musicale",
+      "of": "0a9bd0ea",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[7].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
+      ]
+    },
+    {
+      "t": "Gli studenti sviluppano le capacità di canto, recitazione e danza di un interprete di teatro musicale e studiano la storia del genere, con uno spettacolo finale.",
+      "of": "c33aeab0",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[7].description"
       ]
     },
     {
       "t": "Theatre Around the World",
       "of": "2f6e784a",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[7].title"
+        "providence-day:divisions[2].departments[8].courses[8].title"
       ]
     },
     {
       "t": "Esamina le tradizioni teatrali globali tra cui il Noh giapponese, il Kathakali indiano, la Pantomime britannica, l'opera italiana e il Teatro dell'Oppresso brasiliano.",
       "of": "a49b8aa8",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[7].description"
+        "providence-day:divisions[2].departments[8].courses[8].description"
       ]
     },
     {
       "t": "Theatrical Production and Design",
       "of": "65026e14",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[8].title"
+        "providence-day:divisions[2].departments[8].courses[9].title"
       ]
     },
     {
       "t": "Gli studenti esplorano costumi, trucco di scena, oggetti di scena e direzione di palcoscenico, imparando il cucito, il trucco per effetti speciali e la costruzione di oggetti di scena.",
       "of": "f534dfa1",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[8].description"
+        "providence-day:divisions[2].departments[8].courses[9].description"
       ]
     },
     {
       "t": "RE(ACT): Theatre and Social Change",
       "of": "dbd7aab0",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[9].title"
+        "providence-day:divisions[2].departments[8].courses[10].title"
       ]
     },
     {
       "t": "Stabilisce la performance drammatica come cambiamento sociale, studiando il Teatro dell'Oppresso di Augusto Boal e opere moderne su eventi mondiali.",
       "of": "49d841be",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[9].description"
+        "providence-day:divisions[2].departments[8].courses[10].description"
       ]
     },
     {
       "t": "Technical Theatre",
       "of": "2cc4ae9b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[10].title",
+        "providence-day:divisions[2].departments[8].courses[11].title",
         "charlotte-christian:divisions[2].departments[7].courses[18].title"
       ]
     },
@@ -4289,24 +4448,24 @@
       "t": "Un corso pratico in cui gli studenti progettano e costruiscono le scenografie, dipingono i fondali, regolano le luci e creano suoni ed effetti speciali.",
       "of": "b8cc023c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[10].description"
+        "providence-day:divisions[2].departments[8].courses[11].description"
       ]
     },
     {
       "t": "Honors Band",
       "of": "afe8d91b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].title"
+        "providence-day:divisions[2].departments[8].courses[12].title"
       ]
     },
     {
       "t": "Honors",
       "of": "c7d97254",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].tag",
         "providence-day:divisions[2].departments[8].courses[12].tag",
         "providence-day:divisions[2].departments[8].courses[13].tag",
         "providence-day:divisions[2].departments[8].courses[14].tag",
+        "providence-day:divisions[2].departments[8].courses[15].tag",
         "charlotte-latin:divisions[2].departments[0].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[7].tag",
         "charlotte-latin:divisions[2].departments[2].courses[2].tag",
@@ -4576,42 +4735,42 @@
       "t": "Per gli studenti dell'ultimo anno che hanno completato tre anni di Upper School Band, soddisfacendo i requisiti del provino e gli ulteriori requisiti stabiliti dall'insegnante.",
       "of": "94c24c76",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].description"
+        "providence-day:divisions[2].departments[8].courses[12].description"
       ]
     },
     {
       "t": "Honors Chorus",
       "of": "03148f6e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[12].title"
+        "providence-day:divisions[2].departments[8].courses[13].title"
       ]
     },
     {
       "t": "Per gli studenti dell'ultimo anno che hanno completato tre anni di Upper School Chorus, soddisfacendo i requisiti del provino e gli ulteriori requisiti del corso.",
       "of": "5438fc70",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[12].description"
+        "providence-day:divisions[2].departments[8].courses[13].description"
       ]
     },
     {
       "t": "Honors Jazz Ensemble",
       "of": "684bd93c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[13].title"
+        "providence-day:divisions[2].departments[8].courses[14].title"
       ]
     },
     {
       "t": "Per gli studenti dell'ultimo anno che hanno completato tre anni di Upper School Band o Jazz Ensemble, soddisfacendo i requisiti del provino e gli ulteriori requisiti.",
       "of": "fee547b7",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[13].description"
+        "providence-day:divisions[2].departments[8].courses[14].description"
       ]
     },
     {
       "t": "Honors Orchestra",
       "of": "e86bed3b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[14].title",
+        "providence-day:divisions[2].departments[8].courses[15].title",
         "charlotte-country-day:divisions[2].departments[5].courses[6].title"
       ]
     },
@@ -4619,14 +4778,14 @@
       "t": "Per gli studenti dell'ultimo anno che hanno completato tre anni di Upper School Orchestra, soddisfacendo i requisiti del provino e gli ulteriori requisiti.",
       "of": "b6d5128e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[14].description"
+        "providence-day:divisions[2].departments[8].courses[15].description"
       ]
     },
     {
       "t": "AP Music Theory",
       "of": "d70bc8a8",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[15].title",
+        "providence-day:divisions[2].departments[8].courses[16].title",
         "charlotte-country-day:divisions[2].departments[5].courses[9].title"
       ]
     },
@@ -4634,7 +4793,7 @@
       "t": "Gli studenti studiano melodia, armonia, tessitura, ritmo, forma e alcuni elementi di storia e stile, iniziando con competenze di base di teoria e notazione.",
       "of": "10a5ce52",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[15].description"
+        "providence-day:divisions[2].departments[8].courses[16].description"
       ]
     },
     {
@@ -5375,8 +5534,8 @@
       ]
     },
     {
-      "t": "122 corsi distribuiti su 13 dipartimenti — 23 corsi AP, greco come seconda lingua e un Fab Lab della rete MIT.",
-      "of": "73c56078",
+      "t": "122 corsi distribuiti su 13 dipartimenti — 23 corsi AP nella pagina dell'offerta dei corsi della scuola, greco come seconda lingua e un Fab Lab della rete MIT. Qui mostrati come 105 voci: sequenze come French I–V condividono una riga, Drama e Music condividono una scheda, e Online Courses non elenca alcun corso.",
+      "of": "90208a77",
       "at": [
         "charlotte-latin:divisions[2].teaser"
       ]
@@ -6923,20 +7082,6 @@
       ]
     },
     {
-      "t": "2026-27",
-      "of": "0a1761dd",
-      "at": [
-        "charlotte-christian:guideYear",
-        "charlotte-catholic:guideYear",
-        "cannon:guideYear",
-        "covenant-day:guideYear",
-        "davidson-day:guideYear",
-        "carmel-christian:guideYear",
-        "trinity-episcopal:guideYear",
-        "charlotte-prep:guideYear"
-      ]
-    },
-    {
       "t": "JK – Classe 4",
       "of": "1a6fcf80",
       "at": [
@@ -6945,8 +7090,8 @@
       ]
     },
     {
-      "t": "5 aree tematiche fondamentali — Bible dalla JK fino a un capstone di apologetica Case for Christ in Grade 4 — più sei classi di arricchimento.",
-      "of": "a523846e",
+      "t": "Bible più 5 aree tematiche fondamentali — Bible dalla JK fino a un capstone di apologetica Case for Christ in Grade 4 — più sei classi di arricchimento.",
+      "of": "68b87b12",
       "at": [
         "charlotte-christian:divisions[0].teaser"
       ]
@@ -7568,8 +7713,8 @@
       ]
     },
     {
-      "t": "~135 corsi in 11 dipartimenti — 21 linee di corsi AP, oltre 35 honors e 4 unità obbligatorie di Biblical Studies.",
-      "of": "b5858f53",
+      "t": "143 voci di corso in 11 dipartimenti — 21 corsi AP nell'elenco AP della guida, oltre 35 honors e 4 unità obbligatorie di Biblical Studies. Qui mostrate come 129 voci: le sequenze di francese, latino e spagnolo e lo Yearbook condividono ciascuno una riga. L'elenco mostra 22 titoli AP perché la guida descrive anche AP Spanish Literature.",
+      "of": "87a453b0",
       "at": [
         "charlotte-christian:divisions[2].teaser"
       ]
@@ -7645,23 +7790,6 @@
       "of": "6b124f9d",
       "at": [
         "charlotte-christian:divisions[2].departments[0].courses[4].title"
-      ]
-    },
-    {
-      "t": "Gr 12",
-      "of": "738fc5f7",
-      "at": [
-        "charlotte-christian:divisions[2].departments[0].courses[4].tag",
-        "charlotte-christian:divisions[2].departments[1].courses[6].tag",
-        "charlotte-country-day:divisions[2].departments[0].courses[7].tag",
-        "cannon:divisions[2].departments[0].courses[6].tag",
-        "cannon:divisions[2].departments[1].courses[11].tag",
-        "cannon:divisions[2].departments[6].courses[5].tag",
-        "cannon:divisions[2].departments[6].courses[6].tag",
-        "davidson-day:divisions[2].departments[8].courses[6].tag",
-        "hickory-grove-christian:divisions[0].departments[0].courses[8].tag",
-        "hickory-grove-christian:divisions[0].departments[6].courses[3].tag",
-        "hickory-grove-christian:divisions[0].departments[11].courses[11].tag"
       ]
     },
     {
@@ -12133,6 +12261,14 @@
       ]
     },
     {
+      "t": "2025-26",
+      "of": "fe38e73d",
+      "at": [
+        "charlotte-country-day:guideYear",
+        "gaston-day:guideYear"
+      ]
+    },
+    {
       "t": "10 aree tematiche — sia francese sia spagnolo a partire da JK, un Design Lab e un capstone di ricerca, la Grade 4 Exhibition.",
       "of": "24301b41",
       "at": [
@@ -12732,8 +12868,8 @@
       ]
     },
     {
-      "t": "119 corsi a catalogo distribuiti su 9 dipartimenti — 23 corsi AP E 18 corsi IB oltre al programma centrale completo dell'IB Diploma.",
-      "of": "a947efc3",
+      "t": "117 corsi distribuiti su 9 dipartimenti nell'indice della guida — 23 corsi AP E 18 corsi IB oltre al programma centrale completo dell'IB Diploma. Qui mostrati come 121 voci, inclusi cinque corsi che la guida descrive ma non indicizza.",
+      "of": "35c1ab48",
       "at": [
         "charlotte-country-day:divisions[2].teaser"
       ]
@@ -14682,8 +14818,8 @@
       ]
     },
     {
-      "t": "104 corsi in 8 dipartimenti — 14 AP più 13 Advanced Topics courses progettati dai docenti, ciascuno culminante in una Signature Learning Experience o in un esame finale cumulativo.",
-      "of": "a56b67f0",
+      "t": "104 corsi in 8 dipartimenti — 14 AP più 13 Advanced Topics courses progettati dai docenti, ciascuno culminante in una Signature Learning Experience o in un esame finale cumulativo. Qui mostrati come 101 voci: String Ensemble I–IV condividono una riga.",
+      "of": "cd350c84",
       "at": [
         "cannon:divisions[2].teaser"
       ]
@@ -18183,8 +18319,8 @@
       ]
     },
     {
-      "t": "~75 corsi a catalogo in 9 dipartimenti — 26 corsi AP, post-AP Calculus III e tre percorsi di Diploma Distinction.",
-      "of": "4f147650",
+      "t": "86 corsi a catalogo in 9 dipartimenti — 26 corsi AP, post-AP Calculus III e tre percorsi di Diploma Distinction. Qui mostrati come 87 voci, con l'aggiunta del programma di ricerca sul campo AFAR International Research.",
+      "of": "ff7a3d2e",
       "at": [
         "davidson-day:divisions[2].teaser"
       ]
@@ -19227,8 +19363,8 @@
       ]
     },
     {
-      "t": "77 titoli di corso in 9 dipartimenti — inclusi 16 corsi Advanced Placement — dagli elenchi dei corsi 2026-27 e dai requisiti per il diploma della scuola.",
-      "of": "b6302f41",
+      "t": "96 voci di corso (77 titoli distinti) in 9 dipartimenti — inclusi 16 corsi Advanced Placement — dagli elenchi dei corsi 2026-27 e dai requisiti per il diploma della scuola.",
+      "of": "ca732103",
       "at": [
         "carmel-christian:divisions[0].teaser"
       ]
@@ -22718,13 +22854,6 @@
       ]
     },
     {
-      "t": "Teatro musicale",
-      "of": "0a9bd0ea",
-      "at": [
-        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
-      ]
-    },
-    {
       "t": "Un’introduzione che alterna danza, canto e recitazione, con l’esecuzione di una o due canzoni alla fine.",
       "of": "b1e8b869",
       "at": [
@@ -24023,15 +24152,15 @@
       ]
     },
     {
-      "t": "Pre-Primary",
-      "of": "c7945bb5",
+      "t": "Bambini più piccoli",
+      "of": "0fa8351f",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[0].title"
       ]
     },
     {
-      "t": "Età 2",
-      "of": "b71ec8d2",
+      "t": "Età 2–3",
+      "of": "48bbb245",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[0].tag"
       ]
@@ -24044,8 +24173,8 @@
       ]
     },
     {
-      "t": "Primary",
-      "of": "c7827f79",
+      "t": "Studenti della Primary",
+      "of": "7a88eceb",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[1].title"
       ]
@@ -24065,8 +24194,8 @@
       ]
     },
     {
-      "t": "Transitional K e Montessori K",
-      "of": "dd5c87e8",
+      "t": "Studenti più grandi",
+      "of": "d9ff5bf3",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[2].title"
       ]

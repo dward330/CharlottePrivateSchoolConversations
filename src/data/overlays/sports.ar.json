@@ -78,8 +78,8 @@
         "providence-day:offered.seasons[0].note",
         "providence-day:offered.seasons[1].note",
         "providence-day:offered.seasons[2].note",
-        "charlotte-latin:offered.seasons[2].note",
-        "charlotte-country-day:offered.seasons[2].note"
+        "charlotte-latin:offered.seasons[0].note",
+        "charlotte-latin:offered.seasons[2].note"
       ]
     },
     {
@@ -1665,16 +1665,6 @@
       ]
     },
     {
-      "t": "8 للفريق الأول",
-      "of": "2db878e9",
-      "at": [
-        "charlotte-latin:offered.seasons[0].note",
-        "charlotte-christian:offered.seasons[2].note",
-        "charlotte-country-day:offered.seasons[0].note",
-        "cannon:offered.seasons[2].note"
-      ]
-    },
-    {
       "t": "6 للفريق الأول",
       "of": "0297e6ff",
       "at": [
@@ -2152,6 +2142,7 @@
         "charlotte-latin:coaching.featured[1].stats[1].value",
         "charlotte-catholic:national.stats[0].value",
         "cannon:coaching.featured[1].stats[0].value",
+        "carmel-christian:national.stats[2].value",
         "trinity-episcopal:coaching.featured[0].stats[1].value"
       ]
     },
@@ -2513,8 +2504,18 @@
       ]
     },
     {
-      "t": "يعدّ رقم المدرسة المنشور البالغ 22 رياضة نسختَي الذكور والإناث من الرياضة الواحدة على حدة. ويشمل الرقم غولف الإناث، الذي ليس على صفحة الفرق الحالية. وتتنافس Charlotte Christian في NCISAA 4A وCISAA. ومدير مدرستها، Barry Giller، رئيس NCISAA Board of Directors.",
-      "of": "ea4b9f51",
+      "t": "8 للفريق الأول",
+      "of": "2db878e9",
+      "at": [
+        "charlotte-christian:offered.seasons[2].note",
+        "charlotte-country-day:offered.seasons[0].note",
+        "charlotte-country-day:offered.seasons[2].note",
+        "cannon:offered.seasons[2].note"
+      ]
+    },
+    {
+      "t": "رقم 50+ فريقًا هو رقم المدرسة؛ والشارات أدناه تُدرج الـ 44 التي تسمّيها. يعدّ رقم المدرسة المنشور البالغ 22 رياضة نسختَي الذكور والإناث من الرياضة الواحدة على حدة. ويشمل الرقم غولف الإناث، الذي ليس على صفحة الفرق الحالية. وتتنافس Charlotte Christian في NCISAA 4A وCISAA. ومدير مدرستها، Barry Giller، رئيس NCISAA Board of Directors.",
+      "of": "6c063685",
       "at": [
         "charlotte-christian:offered.footnote"
       ]
@@ -3371,6 +3372,41 @@
       ]
     },
     {
+      "t": "أبطال NCHSAA في 2026، بعد لقب في 2021 ومركز الوصيف في 2023.",
+      "of": "a08616c0",
+      "at": [
+        "charlotte-catholic:record.rows[4].note"
+      ]
+    },
+    {
+      "t": "أبطال NCHSAA لمنافسات الفرق في خريف 2025، كما في 2021.",
+      "of": "e9ce66d8",
+      "at": [
+        "charlotte-catholic:record.rows[5].note"
+      ]
+    },
+    {
+      "t": "الوصيف في خريف 2024، ثم أبطال NCHSAA في خريف 2025.",
+      "of": "3d4cff05",
+      "at": [
+        "charlotte-catholic:record.rows[6].note"
+      ]
+    },
+    {
+      "t": "أبطال NCHSAA في خريف 2025.",
+      "of": "12049672",
+      "at": [
+        "charlotte-catholic:record.rows[7].note"
+      ]
+    },
+    {
+      "t": "الوصيف في 2026، بعد لقبين في 2021 و2022.",
+      "of": "dfb9130e",
+      "at": [
+        "charlotte-catholic:record.rows[8].note"
+      ]
+    },
+    {
       "t": "الصفوف أعلاه هي البرامج ذات النتيجة الموثَّقة في هذه الفترة. ولا تنشر CCHS قائمة بالألقاب موسمًا بموسم، لذا فالخانة الفارغة تعني \"لم يُعثر على لقب لتلك السنة\"، لا خسارة مؤكَّدة. وإجمالي الـ 79 لقبًا منذ 2000 رقم المدرسة نفسها ويغطّي رياضات أكثر بكثير من هذه الأربع.",
       "of": "6efe2f25",
       "at": [
@@ -3420,8 +3456,8 @@
       ]
     },
     {
-      "t": "الصفوف 9–12",
-      "of": "3554df3c",
+      "t": "الصفوف 9–12، 2023–24",
+      "of": "91f75750",
       "at": [
         "charlotte-catholic:pipeline.funnel[0].hint"
       ]
@@ -5510,8 +5546,8 @@
       ]
     },
     {
-      "t": "18 فريقًا عبر ثلاثة مواسم، مع ممارسة 82% من الطلاب رياضةً واحدة على الأقل.",
-      "of": "b4f32bd9",
+      "t": "18 رياضة عبر ثلاثة مواسم (بحسب عدّ المدرسة)، مع ممارسة 82% من الطلاب رياضةً واحدة على الأقل.",
+      "of": "811bab87",
       "at": [
         "covenant-day:offered.headline"
       ]
@@ -5524,8 +5560,8 @@
       ]
     },
     {
-      "t": "فرق، V · JV · MS",
-      "of": "a6672127",
+      "t": "رياضات (بحسب عدّ المدرسة) · 43 فريقًا V/JV/MS أدناه",
+      "of": "1f4606cc",
       "at": [
         "covenant-day:offered.stats[0].label"
       ]
@@ -5674,8 +5710,8 @@
       ]
     },
     {
-      "t": "يصل خطّ التغذية إلى رياضات كثيرة، لكنه نادرًا ما يبلغ المستويات العليا. فالالتزامات تمتد عبر إحدى عشرة رياضة. لكن خارج الهوكي الميداني، أعلى مستوى هو Division I من الدرجة المتوسطة (برامج Division I خارج أكبر الروابط). وهذه المقاعد: Louisiana Tech · East Carolina · UNC Charlotte في الكرة اللينة وكرة القدم الأمريكية · Appalachian State في كرة السلة والبيسبول · Queens · Gardner-Webb · Wofford. وهذا يفسّر أيضًا غياب نشاط NIL وتصنيفات الاستقطاب ضمن أفضل 100، إذ تتبع تلك خطوط كرة القدم وكرة السلة في Power 4.",
-      "of": "f7fd528f",
+      "t": "يصل خطّ التغذية إلى رياضات كثيرة، لكنه نادرًا ما يبلغ المستويات العليا. فالالتزامات تمتد عبر عشر رياضات. لكن خارج الهوكي الميداني، أعلى مستوى هو Division I من الدرجة المتوسطة (برامج Division I خارج أكبر الروابط). وهذه المقاعد: Louisiana Tech · East Carolina · UNC Charlotte في الكرة اللينة وكرة القدم الأمريكية · Appalachian State في كرة السلة والبيسبول · Queens · Gardner-Webb · Wofford. وهذا يفسّر أيضًا غياب نشاط NIL وتصنيفات الاستقطاب ضمن أفضل 100، إذ تتبع تلك خطوط كرة القدم وكرة السلة في Power 4.",
+      "of": "3a6dc695",
       "at": [
         "covenant-day:pipeline.realityCheck"
       ]
@@ -6535,8 +6571,7 @@
       "t": "5",
       "of": "300ca0d0",
       "at": [
-        "davidson-day:coaching.featured[1].stats[1].value",
-        "carmel-christian:national.stats[2].value"
+        "davidson-day:coaching.featured[1].stats[1].value"
       ]
     },
     {
@@ -6561,8 +6596,8 @@
       ]
     },
     {
-      "t": "أطول مدّة تدريب رئيسي مُتحقَّق منها في المدرسة، وأوضح مثال على ما تجلبه الاستمرارية. أعاد بناء كرة قدم الذكور من 7–13 في 2019–20 إلى 17–4 وترتيب رقم 9 في الولاية، فائزًا بثلاثة ألقاب متتالية. وفازت كرة قدم الإناث بلقبين إضافيَّين تحت إشرافه. وانهار البرنامجان كلاهما في 2025–26، الموسم التالي لرحيله. فقد تراجعت كرة قدم الإناث من 14–2 إلى 3–11.",
-      "of": "f47bc788",
+      "t": "أطول مدّة تدريب رئيسي مُتحقَّق منها في المدرسة، وأوضح مثال على ما تجلبه الاستمرارية. أعاد بناء كرة قدم الذكور من 7–13 في 2019–20 إلى 17–4 وترتيب رقم 9 في الولاية، فائزًا بلقبين متتاليين (2023 و2024). وفازت كرة قدم الإناث بثلاثة ألقاب أخرى تحت إشرافه (2023–2025). وانهار البرنامجان كلاهما في 2025–26، الموسم التالي لرحيله. فقد تراجعت كرة قدم الإناث من 14–2 إلى 3–11.",
+      "of": "2db0aa59",
       "at": [
         "davidson-day:coaching.featured[1].detail"
       ]
@@ -7044,34 +7079,6 @@
       ]
     },
     {
-      "t": "2006–2019",
-      "of": "64e64022",
-      "at": [
-        "hickory-grove-christian:record.bars[0].tag"
-      ]
-    },
-    {
-      "t": "2005 · 2021 · 2023",
-      "of": "0d6ff9a6",
-      "at": [
-        "hickory-grove-christian:record.bars[1].tag"
-      ]
-    },
-    {
-      "t": "2009 (3A)",
-      "of": "1d22922f",
-      "at": [
-        "hickory-grove-christian:record.bars[2].tag"
-      ]
-    },
-    {
-      "t": "2025 (D2)",
-      "of": "4adeb9d7",
-      "at": [
-        "hickory-grove-christian:record.bars[3].tag"
-      ]
-    },
-    {
       "t": "سبع بطولات NCISAA 3A — في 2019 و2017 و2010 و2009 و2008 و2007 و2006 — إضافةً إلى مراكز وصافة في 3A في 2023 و2022 و2018 و2015 و2013، ووصافة في 2A في 2004. وفاز High Point Christian بالنهائيين الأخيرين، نهائي 2022 في ثلاث مباريات ونهائي 2023 في مباراتين. وهي أعمق سلسلة ألقاب لأي برنامج في HGCS.",
       "of": "b1e122f6",
       "at": [
@@ -7355,8 +7362,8 @@
       ]
     },
     {
-      "t": "أربعة ألقاب إجمالًا (2021 و2023 و2024 و2025) وثلاثة متتالية حتى 2025 — فاز على Trinity School of Durham & Chapel Hill 5–1 في 2023، ثم على Epiphany School في 2024 و2025 كليهما",
-      "of": "0e564ec1",
+      "t": "أربعة ألقاب منذ 2021 (2021 و2023 و2024 و2025) وثلاثة متتالية حتى 2025 — فاز على Trinity School of Durham & Chapel Hill 5–1 في 2023، ثم على Epiphany School في 2024 و2025 كليهما",
+      "of": "f978cc51",
       "at": [
         "gaston-day:record.rows[0].note"
       ]
@@ -7397,8 +7404,8 @@
       ]
     },
     {
-      "t": "أكثر برامج المدرسة تتويجًا: أبطال NCISAA 2A في 2021 و2023 و2024 و2025. ووُصف فوز 2024 على Epiphany School في التغطية الإعلامية بأنه بطولة الولاية الثالثة للبرنامج في أربع سنوات والرابعة إجمالًا. أما فوز 2025 على الخصم نفسه فجعلها ثلاثة ألقاب متتالية.",
-      "of": "a60f677e",
+      "t": "أكثر برامج المدرسة تتويجًا: أبطال NCISAA 2A في 2021 و2023 و2024 و2025. وجاء فوز 2024 على Epiphany School، ثم جعل فوز 2025 على الخصم نفسه الألقاب ثلاثة متتالية.",
+      "of": "2f5b622b",
       "at": [
         "gaston-day:record.seasonDetail[0].text"
       ]
@@ -7800,8 +7807,8 @@
       ]
     },
     {
-      "t": "عشرة فرق مسمّاة في Middle School عبر ثلاثة مواسم، مفتوحة بدءًا من الصف 5 — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\"",
-      "of": "cc0a7edd",
+      "t": "عشرة فرق: تسعة عبر ثلاثة مواسم، إضافةً إلى فريق تشجيع الإناث، مفتوحة بدءًا من الصف 5 — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\"",
+      "of": "fb9a4773",
       "at": [
         "charlotte-prep:offered.headline"
       ]

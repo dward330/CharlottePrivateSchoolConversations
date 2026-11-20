@@ -31,8 +31,8 @@
       ]
     },
     {
-      "t": "conjuntos con nombre propio + grupos por audición",
-      "of": "9226e2f5",
+      "t": "conjuntos: 4 curriculares + 2 por audición",
+      "of": "598ee66e",
       "at": [
         "providence-day:ladder.stats[2].label"
       ]
@@ -45,10 +45,12 @@
       ]
     },
     {
-      "t": "TK–4",
-      "of": "f89adb7f",
+      "t": "TK–5",
+      "of": "f79ad9ec",
       "at": [
-        "providence-day:ladder.divisions[0].grades"
+        "providence-day:ladder.divisions[0].grades",
+        "charlotte-latin:ladder.divisions[0].grades",
+        "hickory-grove-christian:ladder.divisions[0].grades"
       ]
     },
     {
@@ -87,15 +89,15 @@
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
+      "t": "6–8",
+      "of": "b7020a62",
       "at": [
         "providence-day:ladder.divisions[1].grades",
         "charlotte-latin:ladder.divisions[1].grades",
-        "cannon:ladder.divisions[1].grades",
-        "davidson-day:ladder.divisions[1].grades",
-        "gaston-day:ladder.divisions[1].grades",
-        "charlotte-prep:ladder.divisions[2].grades"
+        "covenant-day:ladder.divisions[1].grades",
+        "carmel-christian:ladder.divisions[1].grades",
+        "hickory-grove-christian:ladder.divisions[1].grades",
+        "trinity-episcopal:ladder.divisions[2].grades"
       ]
     },
     {
@@ -162,8 +164,8 @@
       ]
     },
     {
-      "t": "AP Studio Art · AP Art History · AP Music Theory",
-      "of": "cfcb0a80",
+      "t": "AP Art and Design · AP Art History · AP Music Theory",
+      "of": "183586af",
       "at": [
         "providence-day:ladder.divisions[2].items[1]"
       ]
@@ -570,8 +572,8 @@
       ]
     },
     {
-      "t": "Un cuarto oscuro analógico en funcionamiento junto al trabajo digital y con materiales no convencionales, que desemboca en AP Studio Art y AP Art History.",
-      "of": "1796eda8",
+      "t": "Un cuarto oscuro analógico en funcionamiento junto al trabajo digital y con materiales no convencionales, que desemboca en AP Art and Design y AP Art History.",
+      "of": "14f6cef9",
       "at": [
         "providence-day:visual.headline"
       ]
@@ -780,8 +782,8 @@
       ]
     },
     {
-      "t": "Enséñenme por escrito la secuencia de asignaturas de artes visuales — ¿qué cursa exactamente un estudiante entre el arte de la Middle School y AP Studio Art? ¿Y hay cerámica, con horno?",
-      "of": "8f442944",
+      "t": "Enséñenme por escrito la secuencia de asignaturas de artes visuales — ¿qué cursa exactamente un estudiante entre el arte de la Middle School y AP Art and Design? ¿Y hay cerámica, con horno?",
+      "of": "b006920b",
       "at": [
         "providence-day:verdict.ask[0]"
       ]
@@ -871,13 +873,6 @@
       ]
     },
     {
-      "t": "TK–4/5",
-      "of": "2fa7d01f",
-      "at": [
-        "charlotte-latin:ladder.divisions[0].grades"
-      ]
-    },
-    {
       "t": "Clases prácticas de música (Música experiencial) — ritmo, melodía y género a través del canto, el baile y la interpretación",
       "of": "0bff652c",
       "at": [
@@ -906,8 +901,8 @@
       ]
     },
     {
-      "t": "Banda e instrumentos de cuerda se introducen en 5.º grado como puente hacia arriba",
-      "of": "e70b78ec",
+      "t": "Banda e instrumentos de cuerda se introducen en 5.º grado como puente hacia arriba (5.º grado se suma a los conjuntos de los grados 5–12)",
+      "of": "7d426364",
       "at": [
         "charlotte-latin:ladder.divisions[0].items[4]"
       ]
@@ -1222,8 +1217,8 @@
       ]
     },
     {
-      "t": "banda, orquesta o coro desde 5.º o 6.º grado, con seis o más conciertos al año más recitales, un canto comunitario y el Grandparents’ Day.",
-      "of": "80ce645f",
+      "t": "banda, orquesta o coro desde 5.º grado, con seis o más conciertos al año más recitales, un canto comunitario y el Grandparents’ Day.",
+      "of": "da24af46",
       "at": [
         "charlotte-latin:music.ladder[0].text"
       ]
@@ -1556,10 +1551,11 @@
       ]
     },
     {
-      "t": "JK–6",
-      "of": "df10c94f",
+      "t": "JK–4",
+      "of": "e110cc75",
       "at": [
-        "charlotte-christian:ladder.divisions[0].grades"
+        "charlotte-christian:ladder.divisions[0].grades",
+        "charlotte-country-day:ladder.divisions[0].grades"
       ]
     },
     {
@@ -1570,59 +1566,63 @@
       ]
     },
     {
+      "t": "Los musicales del escenario principal reparten papeles desde 4.º grado — estudiantes de primaria actúan en el escenario principal",
+      "of": "6f2b3447",
+      "at": [
+        "charlotte-christian:ladder.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-christian:ladder.divisions[1].grades",
+        "cannon:ladder.divisions[1].grades",
+        "davidson-day:ladder.divisions[1].grades",
+        "gaston-day:ladder.divisions[1].grades",
+        "charlotte-prep:ladder.divisions[2].grades"
+      ]
+    },
+    {
       "t": "La música instrumental empieza en 5.º grado, separada por familia de instrumentos: metal, viento madera, cuerda aguda y grave, más coral",
       "of": "3d4dc1ba",
       "at": [
-        "charlotte-christian:ladder.divisions[0].items[1]"
+        "charlotte-christian:ladder.divisions[1].items[0]"
       ]
     },
     {
       "t": "6.º grado continúa con metal, viento madera, coro y cuerda",
       "of": "c53bcfe5",
       "at": [
-        "charlotte-christian:ladder.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "Los musicales del escenario principal reparten papeles desde 4.º grado — estudiantes de primaria actúan en el escenario principal",
-      "of": "6f2b3447",
-      "at": [
-        "charlotte-christian:ladder.divisions[0].items[3]"
-      ]
-    },
-    {
-      "t": "7–8",
-      "of": "4bc6e2c5",
-      "at": [
-        "charlotte-christian:ladder.divisions[1].grades"
+        "charlotte-christian:ladder.divisions[1].items[1]"
       ]
     },
     {
       "t": "Banda de concierto de 7.º y de 8.º; orquesta de 7.º y de 8.º; coro avanzado de 7.º/8.º",
       "of": "eedf08db",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[0]"
+        "charlotte-christian:ladder.divisions[1].items[2]"
       ]
     },
     {
       "t": "Las optativas de Artes Digitales y de Teatro se abren en 6.º grado",
       "of": "dfb5d174",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[1]"
+        "charlotte-christian:ladder.divisions[1].items[3]"
       ]
     },
     {
       "t": "ACT 2 — el equipo de teatro de competición de la Middle School, solo por audición",
       "of": "e981fc96",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[2]"
+        "charlotte-christian:ladder.divisions[1].items[4]"
       ]
     },
     {
       "t": "Competición en el NCTC Middle School Play Festival",
       "of": "2639d8dd",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[3]"
+        "charlotte-christian:ladder.divisions[1].items[5]"
       ]
     },
     {
@@ -1838,8 +1838,8 @@
       ]
     },
     {
-      "t": "Lower School — curricular, por familia de instrumentos (grados 5–6)",
-      "of": "8e018b9b",
+      "t": "Middle School — curricular, por familia de instrumentos (grados 5–6)",
+      "of": "a907241d",
       "at": [
         "charlotte-christian:music.tracks[0].label"
       ]
@@ -3031,8 +3031,8 @@
       ]
     },
     {
-      "t": "Doce conjuntos son muchos para 1,171 alumnos: ¿cuáles exigen audición y qué proporción de aspirantes entra?",
-      "of": "018169d5",
+      "t": "Doce conjuntos son muchos para 1,330 alumnos: ¿cuáles exigen audición y qué proporción de aspirantes entra?",
+      "of": "f2f925b0",
       "at": [
         "charlotte-catholic:verdict.ask[1]"
       ]
@@ -3119,13 +3119,6 @@
       "of": "8fcb5a05",
       "at": [
         "charlotte-country-day:ladder.stats[3].label"
-      ]
-    },
-    {
-      "t": "JK–4",
-      "of": "e110cc75",
-      "at": [
-        "charlotte-country-day:ladder.divisions[0].grades"
       ]
     },
     {
@@ -3515,8 +3508,8 @@
       ]
     },
     {
-      "t": "no se pudo encontrar ningún capítulo de Tri-M ni ninguna Fine Arts Honor Society con nombre propio en ninguna de las páginas revisadas, así que no se reivindica ninguno.",
-      "of": "a4f4267d",
+      "t": "la página Fast Facts del colegio incluye la Tri-M Music Honor Society y la National Art Honor Society entre sus membresías.",
+      "of": "f3fbc2da",
       "at": [
         "charlotte-country-day:music.ladder[3].text"
       ]
@@ -3767,22 +3760,15 @@
       ]
     },
     {
-      "t": "¿Existe un capítulo de Tri-M, uno de la National Art Honor Society o una Fine Arts Honor Society? No se pudo encontrar ninguno públicamente.",
-      "of": "03aaaa9e",
+      "t": "¿En qué año se hizo el viaje al Fringe de Edimburgo, qué representaron los estudiantes y con qué frecuencia se repite?",
+      "of": "ed7ffeaa",
       "at": [
         "charlotte-country-day:verdict.ask[5]"
       ]
     },
     {
-      "t": "¿En qué año se hizo el viaje al Fringe de Edimburgo, qué representaron los estudiantes y con qué frecuencia se repite?",
-      "of": "ed7ffeaa",
-      "at": [
-        "charlotte-country-day:verdict.ask[6]"
-      ]
-    },
-    {
-      "t": "Las 22 asignaturas de artes de la Upper School son de Honors, AP o Advanced Topics — no hay ninguna asignatura de artes de vía ordinaria — tras un requisito de graduación de dos años de artes.",
-      "of": "572b70cf",
+      "t": "Las 24 asignaturas de artes de la Upper School son de Honors, AP o Advanced Topics — no hay ninguna asignatura de artes de vía ordinaria — tras un requisito de graduación de dos años de artes.",
+      "of": "5200e47d",
       "at": [
         "cannon:ladder.headline"
       ]
@@ -4146,8 +4132,8 @@
       ]
     },
     {
-      "t": "Las nueve asignaturas de música de la Upper School llevan designación Honors, y la mayoría se pueden repetir. El expediente mantiene el mismo nombre de asignatura mientras el trabajo se vuelve más exigente cada año.",
-      "of": "72ba3e12",
+      "t": "Las once asignaturas de música de la Upper School llevan designación Honors, y la mayoría se pueden repetir. El expediente mantiene el mismo nombre de asignatura mientras el trabajo se vuelve más exigente cada año.",
+      "of": "044162e7",
       "at": [
         "cannon:music.subhead"
       ]
@@ -4377,8 +4363,8 @@
       ]
     },
     {
-      "t": "Un departamento de artes que da a las artes el mismo peso que a lo académico — 22 asignaturas de honores o superior, un requisito de dos años y una misión estratégica documentada.",
-      "of": "614e8ebd",
+      "t": "Un departamento de artes que da a las artes el mismo peso que a lo académico — 24 asignaturas de honores o superior, un requisito de dos años y una misión estratégica documentada.",
+      "of": "3706ae87",
       "at": [
         "cannon:verdict.headline"
       ]
@@ -4398,8 +4384,8 @@
       ]
     },
     {
-      "t": "las 22 asignaturas de artes de la Upper School son de Honors, AP o Advanced Topics — no hay ninguna de vía ordinaria. Además, hay un requisito de graduación de dos años de artes. Eso es una señal que se puede comprobar sobre cómo cuentan las artes en el promedio y el expediente, no un eslogan.",
-      "of": "df386ffe",
+      "t": "las 24 asignaturas de artes de la Upper School son de Honors, AP o Advanced Topics — no hay ninguna de vía ordinaria. Además, hay un requisito de graduación de dos años de artes. Eso es una señal que se puede comprobar sobre cómo cuentan las artes en el promedio y el expediente, no un eslogan.",
+      "of": "e5f05584",
       "at": [
         "cannon:verdict.holdsUp[0].text"
       ]
@@ -4531,8 +4517,8 @@
       ]
     },
     {
-      "t": "Una escalera JK–12 con una columna vertebral de música de culto: arte integrado desde junior kindergarten, secuencial desde el grado 1 y conjuntos desde el grado 6.",
-      "of": "14f38ef8",
+      "t": "Una escalera JK–12 con una columna vertebral de música de culto: arte integrado desde junior kindergarten, secuencial desde el grado 1 y conjuntos desde el grado 3.",
+      "of": "96ff9491",
       "at": [
         "covenant-day:ladder.headline"
       ]
@@ -4598,16 +4584,6 @@
       "of": "b0c96bc4",
       "at": [
         "covenant-day:ladder.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "6–8",
-      "of": "b7020a62",
-      "at": [
-        "covenant-day:ladder.divisions[1].grades",
-        "carmel-christian:ladder.divisions[1].grades",
-        "hickory-grove-christian:ladder.divisions[1].grades",
-        "trinity-episcopal:ladder.divisions[2].grades"
       ]
     },
     {
@@ -5768,8 +5744,8 @@
       ]
     },
     {
-      "t": "conjuntos con nombre + Ignite Band con audición",
-      "of": "8ab9ca66",
+      "t": "conjuntos con nombre, incluida la Ignite Band con audición",
+      "of": "87a5ed91",
       "at": [
         "carmel-christian:ladder.stats[1].label"
       ]
@@ -6281,13 +6257,6 @@
       "of": "ed7a6ce3",
       "at": [
         "hickory-grove-christian:ladder.stats[3].label"
-      ]
-    },
-    {
-      "t": "TK–5",
-      "of": "f79ad9ec",
-      "at": [
-        "hickory-grove-christian:ladder.divisions[0].grades"
       ]
     },
     {

@@ -87,8 +87,8 @@
         "providence-day:offered.seasons[0].note",
         "providence-day:offered.seasons[1].note",
         "providence-day:offered.seasons[2].note",
-        "charlotte-latin:offered.seasons[2].note",
-        "charlotte-country-day:offered.seasons[2].note"
+        "charlotte-latin:offered.seasons[0].note",
+        "charlotte-latin:offered.seasons[2].note"
       ],
       "t": "9 للفريق الأول"
     },
@@ -1837,17 +1837,6 @@
       "t": "لقب ولاية منذ 1973"
     },
     {
-      "text": "8 varsity",
-      "of": "2db878e9",
-      "at": [
-        "charlotte-latin:offered.seasons[0].note",
-        "charlotte-christian:offered.seasons[2].note",
-        "charlotte-country-day:offered.seasons[0].note",
-        "cannon:offered.seasons[2].note"
-      ],
-      "t": "8 للفريق الأول"
-    },
-    {
       "text": "6 varsity",
       "of": "0297e6ff",
       "at": [
@@ -2386,6 +2375,7 @@
         "charlotte-latin:coaching.featured[1].stats[1].value",
         "charlotte-catholic:national.stats[0].value",
         "cannon:coaching.featured[1].stats[0].value",
+        "carmel-christian:national.stats[2].value",
         "trinity-episcopal:coaching.featured[0].stats[1].value"
       ],
       "t": "4"
@@ -2798,12 +2788,23 @@
       "t": "لقب ولاية في 7 رياضات"
     },
     {
-      "text": "The school’s published figure of 22 sports counts the boys’ and girls’ versions of a sport separately. The figure includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA. Its Head of School, Barry Giller, is president of the NCISAA Board of Directors.",
-      "of": "ea4b9f51",
+      "text": "8 varsity",
+      "of": "2db878e9",
+      "at": [
+        "charlotte-christian:offered.seasons[2].note",
+        "charlotte-country-day:offered.seasons[0].note",
+        "charlotte-country-day:offered.seasons[2].note",
+        "cannon:offered.seasons[2].note"
+      ],
+      "t": "8 للفريق الأول"
+    },
+    {
+      "text": "The 50+ teams figure is the school’s; the chips below list the 44 it names. The school’s published figure of 22 sports counts the boys’ and girls’ versions of a sport separately. The figure includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA. Its Head of School, Barry Giller, is president of the NCISAA Board of Directors.",
+      "of": "6c063685",
       "at": [
         "charlotte-christian:offered.footnote"
       ],
-      "t": "يعدّ رقم المدرسة المنشور البالغ 22 رياضة نسختَي الذكور والإناث من الرياضة الواحدة على حدة. ويشمل الرقم غولف الإناث، الذي ليس على صفحة الفرق الحالية. وتتنافس Charlotte Christian في NCISAA 4A وCISAA. ومدير مدرستها، Barry Giller، رئيس NCISAA Board of Directors."
+      "t": "رقم 50+ فريقًا هو رقم المدرسة؛ والشارات أدناه تُدرج الـ 44 التي تسمّيها. يعدّ رقم المدرسة المنشور البالغ 22 رياضة نسختَي الذكور والإناث من الرياضة الواحدة على حدة. ويشمل الرقم غولف الإناث، الذي ليس على صفحة الفرق الحالية. وتتنافس Charlotte Christian في NCISAA 4A وCISAA. ومدير مدرستها، Barry Giller، رئيس NCISAA Board of Directors."
     },
     {
       "text": "Eighteen baseball state championships — the deepest single-sport dynasty in the Charlotte private-school field — capped by a 28–7 title run in 2026.",
@@ -3773,6 +3774,46 @@
       "t": "8 ألقاب ولاية من 11 ظهورًا في مباراة البطولة تاريخيًّا. وأنهى موسم 2025 بنتيجة 7–5 (3–3 في الرابطة) مع فوز 27–0 في الجولة الافتتاحية من الأدوار الإقصائية على A.C. Reynolds."
     },
     {
+      "text": "NCHSAA champions in 2026, after a 2021 title and a 2023 runner-up finish.",
+      "of": "a08616c0",
+      "at": [
+        "charlotte-catholic:record.rows[4].note"
+      ],
+      "t": "أبطال NCHSAA في 2026، بعد لقب في 2021 ومركز الوصيف في 2023."
+    },
+    {
+      "text": "NCHSAA dual-team champions in fall 2025, as in 2021.",
+      "of": "e9ce66d8",
+      "at": [
+        "charlotte-catholic:record.rows[5].note"
+      ],
+      "t": "أبطال NCHSAA لمنافسات الفرق في خريف 2025، كما في 2021."
+    },
+    {
+      "text": "Runner-up in fall 2024, then NCHSAA champions in fall 2025.",
+      "of": "3d4cff05",
+      "at": [
+        "charlotte-catholic:record.rows[6].note"
+      ],
+      "t": "الوصيف في خريف 2024، ثم أبطال NCHSAA في خريف 2025."
+    },
+    {
+      "text": "NCHSAA champions in fall 2025.",
+      "of": "12049672",
+      "at": [
+        "charlotte-catholic:record.rows[7].note"
+      ],
+      "t": "أبطال NCHSAA في خريف 2025."
+    },
+    {
+      "text": "Runner-up in 2026, after titles in 2021 and 2022.",
+      "of": "dfb9130e",
+      "at": [
+        "charlotte-catholic:record.rows[8].note"
+      ],
+      "t": "الوصيف في 2026، بعد لقبين في 2021 و2022."
+    },
+    {
       "text": "The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season list of titles, so a blank cell means \"no title found for that year\", not a verified loss. The 79-title total since 2000 is the school’s own figure and spans far more sports than these four.",
       "of": "6efe2f25",
       "at": [
@@ -3829,12 +3870,12 @@
       "t": "جسم الطلاب"
     },
     {
-      "text": "grades 9–12",
-      "of": "3554df3c",
+      "text": "grades 9–12, 2023–24",
+      "of": "91f75750",
       "at": [
         "charlotte-catholic:pipeline.funnel[0].hint"
       ],
-      "t": "الصفوف 9–12"
+      "t": "الصفوف 9–12، 2023–24"
     },
     {
       "text": "Alumni who played in college",
@@ -6209,12 +6250,12 @@
       "t": "Cannon موقع تعليم سريري لماجستير UNC Charlotte في التدريب الرياضي. لاحظ النموذج الجدير بالسؤال عنه في الجولة: تُسنِد Cannon مدرّبيها الرياضيين وأطباء فرقها خارجيًّا إلى Novant. ولا تُنشَر سعات المقاعد لأي منشأة في Cannon."
     },
     {
-      "text": "18 teams across three seasons, with 82% of students playing at least one sport.",
-      "of": "b4f32bd9",
+      "text": "18 sports across three seasons (the school’s count), with 82% of students playing at least one sport.",
+      "of": "811bab87",
       "at": [
         "covenant-day:offered.headline"
       ],
-      "t": "18 فريقًا عبر ثلاثة مواسم، مع ممارسة 82% من الطلاب رياضةً واحدة على الأقل."
+      "t": "18 رياضة عبر ثلاثة مواسم (بحسب عدّ المدرسة)، مع ممارسة 82% من الطلاب رياضةً واحدة على الأقل."
     },
     {
       "text": "A CISAA / NCISAA 4A program that has sent more than 175 athletes to college sports since the school’s first graduating class in 2006.",
@@ -6225,12 +6266,12 @@
       "t": "برنامج CISAA / NCISAA 4A أرسل أكثر من 175 رياضيًّا إلى الرياضات الجامعية منذ أول دفعة متخرّجة في المدرسة عام 2006."
     },
     {
-      "text": "teams, V · JV · MS",
-      "of": "a6672127",
+      "text": "sports (the school’s count) · 43 V/JV/MS teams below",
+      "of": "1f4606cc",
       "at": [
         "covenant-day:offered.stats[0].label"
       ],
-      "t": "فرق، V · JV · MS"
+      "t": "رياضات (بحسب عدّ المدرسة) · 43 فريقًا V/JV/MS أدناه"
     },
     {
       "text": "collegiate athletes since 2006",
@@ -6396,12 +6437,12 @@
       "t": "هذه حدود دنيا موثّقة. وهي مأخوذة من منشورات التوقيع الخاصة بالمدرسة، التي تسمّي كل موقِّع في دفعات 2024–26. كما أنها مأخوذة من قوائم Lions Beyond CDS للخرّيجين الذين يلعبون في الجامعات، التي تنشرها صفحة كل فريق. ويُدرَج Elijah Green (دفعة ’24) استنادًا إلى قائمة لاعبي William Peace. والزعم التراكمي للمدرسة هو 175+ رياضيًّا جامعيًّا منذ 2006."
     },
     {
-      "text": "The pipeline reaches many sports, but rarely the top levels. Commitments span eleven sports. But outside field hockey, the highest level is Division I mid-major (Division I programs outside the biggest conferences). Those placements: Louisiana Tech · East Carolina · UNC Charlotte in softball and football · Appalachian State in basketball and baseball · Queens · Gardner-Webb · Wofford. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.",
-      "of": "f7fd528f",
+      "text": "The pipeline reaches many sports, but rarely the top levels. Commitments span ten sports. But outside field hockey, the highest level is Division I mid-major (Division I programs outside the biggest conferences). Those placements: Louisiana Tech · East Carolina · UNC Charlotte in softball and football · Appalachian State in basketball and baseball · Queens · Gardner-Webb · Wofford. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.",
+      "of": "3a6dc695",
       "at": [
         "covenant-day:pipeline.realityCheck"
       ],
-      "t": "يصل خطّ التغذية إلى رياضات كثيرة، لكنه نادرًا ما يبلغ المستويات العليا. فالالتزامات تمتد عبر إحدى عشرة رياضة. لكن خارج الهوكي الميداني، أعلى مستوى هو Division I من الدرجة المتوسطة (برامج Division I خارج أكبر الروابط). وهذه المقاعد: Louisiana Tech · East Carolina · UNC Charlotte في الكرة اللينة وكرة القدم الأمريكية · Appalachian State في كرة السلة والبيسبول · Queens · Gardner-Webb · Wofford. وهذا يفسّر أيضًا غياب نشاط NIL وتصنيفات الاستقطاب ضمن أفضل 100، إذ تتبع تلك خطوط كرة القدم وكرة السلة في Power 4."
+      "t": "يصل خطّ التغذية إلى رياضات كثيرة، لكنه نادرًا ما يبلغ المستويات العليا. فالالتزامات تمتد عبر عشر رياضات. لكن خارج الهوكي الميداني، أعلى مستوى هو Division I من الدرجة المتوسطة (برامج Division I خارج أكبر الروابط). وهذه المقاعد: Louisiana Tech · East Carolina · UNC Charlotte في الكرة اللينة وكرة القدم الأمريكية · Appalachian State في كرة السلة والبيسبول · Queens · Gardner-Webb · Wofford. وهذا يفسّر أيضًا غياب نشاط NIL وتصنيفات الاستقطاب ضمن أفضل 100، إذ تتبع تلك خطوط كرة القدم وكرة السلة في Power 4."
     },
     {
       "text": "No nationally top-100-ranked recruit is documented. The two best-covered recruits are Emily Eaton ’24 and Michael Marcus Jr ’24. Eaton was 2023 NCISAA Player of the Year and NC Player of the Year per Max Field Hockey, and signed with a top-10-ranked Louisville program. Marcus, a 6′9″ forward, chose Appalachian State after NC state-level coverage.",
@@ -7379,8 +7420,7 @@
       "text": "5",
       "of": "300ca0d0",
       "at": [
-        "davidson-day:coaching.featured[1].stats[1].value",
-        "carmel-christian:national.stats[2].value"
+        "davidson-day:coaching.featured[1].stats[1].value"
       ],
       "t": "5"
     },
@@ -7409,12 +7449,12 @@
       "t": "سجلّ الذكور عبر أربعة مواسم من حقبة الألقاب"
     },
     {
-      "text": "The longest verified head-coaching tenure at the school, and the clearest example of what continuity brings. He rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning three straight titles. Girls soccer won two more titles under him. Both programs collapsed in 2025–26, the season after he left. Girls soccer went from 14–2 to 3–11.",
-      "of": "f47bc788",
+      "text": "The longest verified head-coaching tenure at the school, and the clearest example of what continuity brings. He rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning two straight titles (2023, 2024). Girls soccer won three more under him (2023–2025). Both programs collapsed in 2025–26, the season after he left. Girls soccer went from 14–2 to 3–11.",
+      "of": "2db0aa59",
       "at": [
         "davidson-day:coaching.featured[1].detail"
       ],
-      "t": "أطول مدّة تدريب رئيسي مُتحقَّق منها في المدرسة، وأوضح مثال على ما تجلبه الاستمرارية. أعاد بناء كرة قدم الذكور من 7–13 في 2019–20 إلى 17–4 وترتيب رقم 9 في الولاية، فائزًا بثلاثة ألقاب متتالية. وفازت كرة قدم الإناث بلقبين إضافيَّين تحت إشرافه. وانهار البرنامجان كلاهما في 2025–26، الموسم التالي لرحيله. فقد تراجعت كرة قدم الإناث من 14–2 إلى 3–11."
+      "t": "أطول مدّة تدريب رئيسي مُتحقَّق منها في المدرسة، وأوضح مثال على ما تجلبه الاستمرارية. أعاد بناء كرة قدم الذكور من 7–13 في 2019–20 إلى 17–4 وترتيب رقم 9 في الولاية، فائزًا بلقبين متتاليين (2023 و2024). وفازت كرة قدم الإناث بثلاثة ألقاب أخرى تحت إشرافه (2023–2025). وانهار البرنامجان كلاهما في 2025–26، الموسم التالي لرحيله. فقد تراجعت كرة قدم الإناث من 14–2 إلى 3–11."
     },
     {
       "text": "Volleyball · Assistant AD",
@@ -7961,38 +8001,6 @@
       "t": "آل نهائي baseball 3A لعام 2024 إلى Grace Christian of Sanford، الذي اكتسح سلسلة الأفضل من ثلاث مباريات (4–1 و7–5)."
     },
     {
-      "text": "2006–2019",
-      "of": "64e64022",
-      "at": [
-        "hickory-grove-christian:record.bars[0].tag"
-      ],
-      "t": "2006–2019"
-    },
-    {
-      "text": "2005 · 2021 · 2023",
-      "of": "0d6ff9a6",
-      "at": [
-        "hickory-grove-christian:record.bars[1].tag"
-      ],
-      "t": "2005 · 2021 · 2023"
-    },
-    {
-      "text": "2009 (3A)",
-      "of": "1d22922f",
-      "at": [
-        "hickory-grove-christian:record.bars[2].tag"
-      ],
-      "t": "2009 (3A)"
-    },
-    {
-      "text": "2025 (D2)",
-      "of": "4adeb9d7",
-      "at": [
-        "hickory-grove-christian:record.bars[3].tag"
-      ],
-      "t": "2025 (D2)"
-    },
-    {
       "text": "Seven NCISAA 3A championships — 2019, 2017, 2010, 2009, 2008, 2007 and 2006 — plus 3A runner-up finishes in 2023, 2022, 2018, 2015 and 2013 and a 2A runner-up in 2004. High Point Christian won both recent finals, 2022 in three games and 2023 in two. It is the deepest title run of any HGCS program.",
       "of": "b1e122f6",
       "at": [
@@ -8315,12 +8323,12 @@
       "t": "لتنس الإناث أربعة ألقاب وهو في طريقه إلى ثلاثية متتالية؛ وللكرة الطائرة وكرة قدم الذكور ثلاثة لكل منهما، وامتد نهائي الكرة الطائرة في 2025 إلى خمس مجموعات."
     },
     {
-      "text": "Four titles overall (2021, 2023, 2024, 2025) and three straight through 2025 — beat Trinity School of Durham & Chapel Hill 5–1 in 2023, then Epiphany School in both 2024 and 2025",
-      "of": "0e564ec1",
+      "text": "Four titles since 2021 (2021, 2023, 2024, 2025) and three straight through 2025 — beat Trinity School of Durham & Chapel Hill 5–1 in 2023, then Epiphany School in both 2024 and 2025",
+      "of": "f978cc51",
       "at": [
         "gaston-day:record.rows[0].note"
       ],
-      "t": "أربعة ألقاب إجمالًا (2021 و2023 و2024 و2025) وثلاثة متتالية حتى 2025 — فاز على Trinity School of Durham & Chapel Hill 5–1 في 2023، ثم على Epiphany School في 2024 و2025 كليهما"
+      "t": "أربعة ألقاب منذ 2021 (2021 و2023 و2024 و2025) وثلاثة متتالية حتى 2025 — فاز على Trinity School of Durham & Chapel Hill 5–1 في 2023، ثم على Epiphany School في 2024 و2025 كليهما"
     },
     {
       "text": "Three titles (2021, 2024, 2025); swept Westminster Catawba on Oct 26 2024, then beat St. Thomas More Academy 3–2 on Oct 25 2025. Plus three further finals appearances and five league titles over the decade",
@@ -8363,12 +8371,12 @@
       "t": "كل برنامج آخر. فالألقاب الـ14 منذ 2021 تقع في ست رياضات: تنس الإناث والكرة الطائرة وكرة قدم الذكور وغولف الذكور وألعاب القوى للذكور وسباحة الإناث. ولا تنشر المدرسة أي تاريخ بطولات خاص بها، لذا تستند هذه القائمة إلى نتائج الرابطة والتغطية المحلية."
     },
     {
-      "text": "The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win over Epiphany School was described in coverage as the program’s third state championship in four years and fourth overall. The 2025 win over the same opponent made it three straight.",
-      "of": "a60f677e",
+      "text": "The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win came over Epiphany School, and the 2025 win over the same opponent made it three straight.",
+      "of": "2f5b622b",
       "at": [
         "gaston-day:record.seasonDetail[0].text"
       ],
-      "t": "أكثر برامج المدرسة تتويجًا: أبطال NCISAA 2A في 2021 و2023 و2024 و2025. ووُصف فوز 2024 على Epiphany School في التغطية الإعلامية بأنه بطولة الولاية الثالثة للبرنامج في أربع سنوات والرابعة إجمالًا. أما فوز 2025 على الخصم نفسه فجعلها ثلاثة ألقاب متتالية."
+      "t": "أكثر برامج المدرسة تتويجًا: أبطال NCISAA 2A في 2021 و2023 و2024 و2025. وجاء فوز 2024 على Epiphany School، ثم جعل فوز 2025 على الخصم نفسه الألقاب ثلاثة متتالية."
     },
     {
       "text": "Won the 2A title in 2021, then again in 2024 and 2025 under head coach Derek Bing. The 2025 final against St. Thomas More Academy went the full five sets, 3–2, on October 25 2025. Beyond the three titles the program has reached three further finals and taken five league titles over the decade.",
@@ -8823,12 +8831,12 @@
       "t": "مرشد/ة لمرحلة K-4 · مدرّب الكرة الطائرة"
     },
     {
-      "text": "Ten named middle school teams across three seasons, open from 5th grade — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\"",
-      "of": "cc0a7edd",
+      "text": "Ten teams: nine across three seasons, plus girls cheerleading, open from 5th grade — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\"",
+      "of": "fb9a4773",
       "at": [
         "charlotte-prep:offered.headline"
       ],
-      "t": "عشرة فرق مسمّاة في Middle School عبر ثلاثة مواسم، مفتوحة بدءًا من الصف 5 — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\""
+      "t": "عشرة فرق: تسعة عبر ثلاثة مواسم، إضافةً إلى فريق تشجيع الإناث، مفتوحة بدءًا من الصف 5 — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\""
     },
     {
       "text": "Every team is a single grades 5–8 squad in the Queen City Conference; no A/B or JV split is published. \"Including others is sometimes more important than winning.\"",

@@ -3,12 +3,18 @@
   "lang": "hi",
   "strings": [
     {
-      "t": "2025-26",
-      "of": "fe38e73d",
+      "t": "2026-27",
+      "of": "0a1761dd",
       "at": [
         "providence-day:guideYear",
-        "charlotte-country-day:guideYear",
-        "gaston-day:guideYear"
+        "charlotte-christian:guideYear",
+        "charlotte-catholic:guideYear",
+        "cannon:guideYear",
+        "covenant-day:guideYear",
+        "davidson-day:guideYear",
+        "carmel-christian:guideYear",
+        "trinity-episcopal:guideYear",
+        "charlotte-prep:guideYear"
       ]
     },
     {
@@ -514,8 +520,8 @@
       ]
     },
     {
-      "t": "7 विभागों में ~75 कोर्स — जहाँ गणित के प्लेसमेंट मार्ग और पाँच भाषाओं वाला विश्व-भाषा क्रम शुरू होता है।",
-      "of": "3c19edb0",
+      "t": "7 विभागों में 72 कोर्स — जहाँ गणित के प्लेसमेंट मार्ग और पाँच भाषाओं वाला विश्व-भाषा क्रम शुरू होता है। यहाँ इन्हें 53 प्रविष्टियों के रूप में दिखाया गया है, जिनमें ensembles, कला, अभिनय, PE/Health और भाषा-स्तर समूहों में रखे गए हैं।",
+      "of": "b36b64bb",
       "at": [
         "providence-day:divisions[1].teaser"
       ]
@@ -795,7 +801,6 @@
         "providence-day:divisions[1].departments[6].courses[10].tag",
         "providence-day:divisions[2].departments[0].courses[2].tag",
         "providence-day:divisions[2].departments[0].courses[3].tag",
-        "providence-day:divisions[2].departments[0].courses[4].tag",
         "providence-day:divisions[2].departments[0].courses[5].tag",
         "providence-day:divisions[2].departments[0].courses[6].tag",
         "providence-day:divisions[2].departments[0].courses[7].tag",
@@ -803,7 +808,7 @@
         "providence-day:divisions[2].departments[0].courses[9].tag",
         "providence-day:divisions[2].departments[0].courses[10].tag",
         "providence-day:divisions[2].departments[0].courses[11].tag",
-        "providence-day:divisions[2].departments[0].courses[12].tag",
+        "providence-day:divisions[2].departments[0].courses[13].tag",
         "providence-day:divisions[2].departments[1].courses[11].tag",
         "providence-day:divisions[2].departments[1].courses[12].tag",
         "providence-day:divisions[2].departments[1].courses[13].tag",
@@ -815,23 +820,26 @@
         "providence-day:divisions[2].departments[1].courses[19].tag",
         "providence-day:divisions[2].departments[1].courses[20].tag",
         "providence-day:divisions[2].departments[1].courses[21].tag",
+        "providence-day:divisions[2].departments[2].courses[11].tag",
         "providence-day:divisions[2].departments[3].courses[6].tag",
-        "providence-day:divisions[2].departments[3].courses[7].tag",
         "providence-day:divisions[2].departments[3].courses[8].tag",
-        "providence-day:divisions[2].departments[3].courses[9].tag",
         "providence-day:divisions[2].departments[3].courses[10].tag",
         "providence-day:divisions[2].departments[3].courses[13].tag",
         "providence-day:divisions[2].departments[3].courses[14].tag",
         "providence-day:divisions[2].departments[4].courses[0].tag",
         "providence-day:divisions[2].departments[4].courses[1].tag",
+        "providence-day:divisions[2].departments[4].courses[2].tag",
         "providence-day:divisions[2].departments[4].courses[3].tag",
-        "providence-day:divisions[2].departments[4].courses[4].tag",
         "providence-day:divisions[2].departments[4].courses[5].tag",
         "providence-day:divisions[2].departments[4].courses[6].tag",
+        "providence-day:divisions[2].departments[4].courses[7].tag",
+        "providence-day:divisions[2].departments[4].courses[8].tag",
+        "providence-day:divisions[2].departments[4].courses[9].tag",
         "providence-day:divisions[2].departments[5].courses[0].tag",
-        "providence-day:divisions[2].departments[5].courses[2].tag",
+        "providence-day:divisions[2].departments[5].courses[1].tag",
+        "providence-day:divisions[2].departments[5].courses[3].tag",
         "providence-day:divisions[2].departments[5].courses[4].tag",
-        "providence-day:divisions[2].departments[5].courses[5].tag",
+        "providence-day:divisions[2].departments[5].courses[7].tag",
         "providence-day:divisions[2].departments[7].courses[1].tag",
         "providence-day:divisions[2].departments[7].courses[2].tag",
         "providence-day:divisions[2].departments[7].courses[3].tag",
@@ -846,6 +854,7 @@
         "providence-day:divisions[2].departments[8].courses[8].tag",
         "providence-day:divisions[2].departments[8].courses[9].tag",
         "providence-day:divisions[2].departments[8].courses[10].tag",
+        "providence-day:divisions[2].departments[8].courses[11].tag",
         "providence-day:divisions[2].departments[9].courses[2].tag",
         "providence-day:divisions[2].departments[9].courses[3].tag",
         "providence-day:divisions[2].departments[9].courses[4].tag",
@@ -1121,19 +1130,22 @@
       "at": [
         "providence-day:divisions[1].departments[1].courses[3].tag",
         "providence-day:divisions[1].departments[1].courses[6].tag",
+        "providence-day:divisions[2].departments[0].courses[4].tag",
+        "providence-day:divisions[2].departments[0].courses[12].tag",
         "providence-day:divisions[2].departments[1].courses[22].tag",
         "providence-day:divisions[2].departments[2].courses[3].tag",
         "providence-day:divisions[2].departments[2].courses[6].tag",
         "providence-day:divisions[2].departments[2].courses[8].tag",
         "providence-day:divisions[2].departments[2].courses[9].tag",
-        "providence-day:divisions[2].departments[2].courses[11].tag",
+        "providence-day:divisions[2].departments[2].courses[12].tag",
         "providence-day:divisions[2].departments[6].courses[1].tag",
         "providence-day:divisions[2].departments[6].courses[2].tag",
         "providence-day:divisions[2].departments[6].courses[3].tag",
         "providence-day:divisions[2].departments[6].courses[4].tag",
         "providence-day:divisions[2].departments[6].courses[11].tag",
-        "providence-day:divisions[2].departments[6].courses[14].tag",
+        "providence-day:divisions[2].departments[6].courses[12].tag",
         "providence-day:divisions[2].departments[6].courses[15].tag",
+        "providence-day:divisions[2].departments[6].courses[16].tag",
         "charlotte-latin:divisions[1].departments[2].courses[2].tag",
         "charlotte-latin:divisions[1].departments[2].courses[5].tag",
         "charlotte-latin:divisions[2].departments[4].courses[1].tag",
@@ -1235,8 +1247,8 @@
       ]
     },
     {
-      "t": "एकीकृत क्रम का दूसरा भाग, जिसमें विनाशकारी घटनाओं — मौसम, भूकंप, ज्वालामुखी — तथा प्रकाश और प्रकाशिकी पर प्रमुख इकाइयाँ हैं।",
-      "of": "e8be03a2",
+      "t": "एकीकृत क्रम का दूसरा भाग, जिसमें मौसम और जलवायु तथा प्रकाश और प्रकाशिकी पर प्रमुख इकाइयाँ हैं।",
+      "of": "a8aa5b3f",
       "at": [
         "providence-day:divisions[1].departments[2].courses[1].description"
       ]
@@ -1324,15 +1336,15 @@
       ]
     },
     {
-      "t": "History in Action: Collaborative Research",
-      "of": "9fbc9c04",
+      "t": "“How does my brain work?”: A Middle School Introduction to Psychology",
+      "of": "48cb4d17",
       "at": [
         "providence-day:divisions[1].departments[3].courses[3].title"
       ]
     },
     {
-      "t": "छात्र द्वारा चुने गए विषय पर गहन ऐतिहासिक जाँच, जो वेबसाइट, वृत्तचित्र, प्रदर्शनी, प्रस्तुति या शोधपत्र के रूप में पेश की जाती है।",
-      "of": "bde44215",
+      "t": "छात्रों द्वारा संचालित एक अध्ययन कि मस्तिष्क भावनाओं, सीखने और व्यवहार को कैसे आकार देता है; इसमें छोटे समूह अपनी चुनी हुई इकाइयों का नेतृत्व करते हैं और हर छात्र अंत में एक शोध परियोजना पूरी करता है।",
+      "of": "162a882f",
       "at": [
         "providence-day:divisions[1].departments[3].courses[3].description"
       ]
@@ -1556,7 +1568,7 @@
       "of": "d34b5466",
       "at": [
         "providence-day:divisions[1].departments[5].courses[1].title",
-        "providence-day:divisions[2].departments[6].courses[7].title"
+        "providence-day:divisions[2].departments[6].courses[8].title"
       ]
     },
     {
@@ -1578,7 +1590,7 @@
       "of": "d24b52d3",
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].title",
-        "providence-day:divisions[2].departments[6].courses[8].title",
+        "providence-day:divisions[2].departments[6].courses[9].title",
         "covenant-day:divisions[0].departments[5].courses[10].title"
       ]
     },
@@ -1681,11 +1693,10 @@
         "providence-day:divisions[2].departments[2].courses[7].tag",
         "providence-day:divisions[2].departments[2].courses[10].tag",
         "providence-day:divisions[2].departments[6].courses[0].tag",
-        "providence-day:divisions[2].departments[6].courses[7].tag",
         "providence-day:divisions[2].departments[6].courses[8].tag",
         "providence-day:divisions[2].departments[6].courses[9].tag",
         "providence-day:divisions[2].departments[6].courses[10].tag",
-        "providence-day:divisions[2].departments[6].courses[13].tag",
+        "providence-day:divisions[2].departments[6].courses[14].tag",
         "providence-day:divisions[2].departments[7].courses[8].tag",
         "providence-day:divisions[2].departments[8].courses[0].tag",
         "providence-day:divisions[2].departments[8].courses[1].tag",
@@ -1858,8 +1869,8 @@
       ]
     },
     {
-      "t": "Theatre Arts 6",
-      "of": "a46fff24",
+      "t": "Theatre 6",
+      "of": "d8473c56",
       "at": [
         "providence-day:divisions[1].departments[6].courses[8].title"
       ]
@@ -1872,15 +1883,15 @@
       ]
     },
     {
-      "t": "Acting 1, 2 & 3",
-      "of": "6a3f9b1b",
+      "t": "Acting 1, Acting 2 & One Act Production Studio",
+      "of": "51cf30f9",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].title"
       ]
     },
     {
-      "t": "कक्षा 7 और 8 के लिए एक-एक सत्र के तीन अभिनय कोर्स; Acting 3 के लिए रंगमंच का पूर्व अनुभव ज़रूरी है।",
-      "of": "55e536d2",
+      "t": "कक्षा 7 और 8 के लिए एक-एक सत्र के तीन कोर्स — Intro to Acting & Improv, Training for Stage & Screen, और One Act Production Studio, जिसके लिए रंगमंच का कोई कोर्स या PDS की कोई पिछली प्रस्तुति ज़रूरी है।",
+      "of": "b2d74d53",
       "at": [
         "providence-day:divisions[1].departments[6].courses[9].description"
       ]
@@ -1992,8 +2003,8 @@
       ]
     },
     {
-      "t": "11 विभागों में 149 सूचीबद्ध कोर्स — आधारभूत कोर्स से लेकर 28 AP कोर्स और AP के बाद का गणित।",
-      "of": "85c83aa3",
+      "t": "11 विभागों में 172 सूचीबद्ध कोर्स — आधारभूत कोर्स से लेकर 30 AP कोर्स और AP के बाद का गणित। यहाँ इन्हें 153 प्रविष्टियों के रूप में दिखाया गया है, जिनमें French, German, Spanish और Mandarin के स्तर-क्रम समूहों में रखे गए हैं।",
+      "of": "cfd530ec",
       "at": [
         "providence-day:divisions[2].teaser"
       ]
@@ -2103,145 +2114,159 @@
       ]
     },
     {
+      "t": "Creative Writing (Advanced)",
+      "of": "ff711129",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[4].title"
+      ]
+    },
+    {
+      "t": "Creative Writing को आगे बढ़ाता है: अधिक चुनौतीपूर्ण पठन, अधिक जटिल कविता और गद्य, और लेखन तथा सहपाठी-समीक्षा के लिए अधिक कड़े मानक।",
+      "of": "bbd5d8c4",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[4].description"
+      ]
+    },
+    {
       "t": "New Media Storytelling",
       "of": "255961e1",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[4].title"
+        "providence-day:divisions[2].departments[0].courses[5].title"
       ]
     },
     {
       "t": "छात्र समाचार-लेखों से लेकर Instagram reels तक की कथा-रणनीतियों को परखते हैं और विविध संचार प्रारूपों में कथात्मक विधियाँ लागू करते हैं।",
       "of": "a5914fd7",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[4].description"
+        "providence-day:divisions[2].departments[0].courses[5].description"
       ]
     },
     {
       "t": "English Studies in Film: Philosophy in Film",
       "of": "8d0e83b3",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[5].title"
+        "providence-day:divisions[2].departments[0].courses[6].title"
       ]
     },
     {
       "t": "छात्र फ़िल्म को शास्त्रीय दार्शनिक पाठों के साथ जोड़कर अच्छाई और बुराई, आत्म, अस्तित्व और यथार्थ की पड़ताल करते हैं।",
       "of": "bb0e3cae",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[5].description"
+        "providence-day:divisions[2].departments[0].courses[6].description"
       ]
     },
     {
       "t": "Detective and Crime Fiction",
       "of": "3848a893",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[6].title"
+        "providence-day:divisions[2].departments[0].courses[7].title"
       ]
     },
     {
       "t": "छात्र 1800 के दशक से वर्तमान तक जासूसी और अपराध-कथा विधा की पड़ताल करते हैं — कहानियों, नाटक, उपन्यास, फ़िल्म और TV में।",
       "of": "24e0b661",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[6].description"
-      ]
-    },
-    {
-      "t": "Global Literature Topics",
-      "of": "c96cccfb",
-      "at": [
-        "providence-day:divisions[2].departments[0].courses[7].title"
-      ]
-    },
-    {
-      "t": "छात्र एशिया, कैरेबियन, अफ़्रीका और लैटिन अमेरिका तक फैली विधाओं से जुड़ते हैं, जो लिंग या न्याय जैसे बदलते साझा विषय के इर्द-गिर्द होती हैं।",
-      "of": "5ca363cd",
-      "at": [
         "providence-day:divisions[2].departments[0].courses[7].description"
+      ]
+    },
+    {
+      "t": "Global Literature: Women’s Voices",
+      "of": "3e4f5926",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[8].title"
+      ]
+    },
+    {
+      "t": "छात्र एशिया, कैरिबियन, अफ़्रीका और लैटिन अमेरिका की महिलाओं द्वारा और उनके बारे में लिखी लघु कथाएँ, कविताएँ, उपन्यास और कथेतर रचनाएँ पढ़ते हैं, और पूछते हैं कि दुनिया भर में महिलाओं को कौन-से मुद्दे प्रभावित करते हैं।",
+      "of": "2d7e1bbc",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[8].description"
       ]
     },
     {
       "t": "ग्राफ़िक नॉवेल",
       "of": "8b3f8c5e",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[8].title"
+        "providence-day:divisions[2].departments[0].courses[9].title"
       ]
     },
     {
       "t": "छात्र दीर्घ-रूप कॉमिक्स को वैश्विक साहित्य के रूप में बारीकी से परखते हैं और साहित्यिक विश्लेषण की एक मल्टीमीडिया कृति तैयार करते हैं, जिसकी परिणति छात्र-आयोजित comic-con में होती है।",
       "of": "5b324f1f",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[8].description"
+        "providence-day:divisions[2].departments[0].courses[9].description"
       ]
     },
     {
       "t": "Modern Dramatic Literature",
       "of": "e47f8d1a",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[9].title"
+        "providence-day:divisions[2].departments[0].courses[10].title"
       ]
     },
     {
       "t": "Ibsen से Ionesco तक आधुनिक नाटक का सर्वेक्षण, जो reader’s theater के ज़रिए व्यक्तिवाद, समानुभूति और सार्थक संवाद के खो जाने की पड़ताल करता है।",
       "of": "550c433c",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[9].description"
+        "providence-day:divisions[2].departments[0].courses[10].description"
       ]
     },
     {
       "t": "Shakespeare",
       "of": "5b3f3c51",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[10].title"
+        "providence-day:divisions[2].departments[0].courses[11].title"
       ]
     },
     {
       "t": "छात्र कई तरह के नाटकों का अध्ययन करते हैं, जिनमें The Merchant of Venice, Othello, The Tempest, Measure for Measure और Richard III शामिल हैं; वे इन्हें ज़ोर से पढ़ते हैं और फ़िल्म रूपांतरणों का विश्लेषण करते हैं।",
       "of": "f057375d",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[10].description"
-      ]
-    },
-    {
-      "t": "युद्ध-साहित्य",
-      "of": "d908b2f4",
-      "at": [
-        "providence-day:divisions[2].departments[0].courses[11].title"
-      ]
-    },
-    {
-      "t": "छात्र कविता, गीत, नाटक, उपन्यास और नॉन-फ़िक्शन पढ़ते हैं, जो Thirty Years’ War से लेकर अफ़ग़ानिस्तान और इराक़ तक फैले हैं।",
-      "of": "3239bdba",
-      "at": [
         "providence-day:divisions[2].departments[0].courses[11].description"
+      ]
+    },
+    {
+      "t": "War Literature (Advanced)",
+      "of": "7c51e9ed",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[12].title"
+      ]
+    },
+    {
+      "t": "छात्र अध्ययन करते हैं कि युद्ध में भाग ले चुके लेखक युद्ध को कैसे चित्रित करते हैं, Thirty Years’ War से लेकर अफ़ग़ानिस्तान और इराक़ तक, फिर अपनी चुनी हुई युद्ध-साहित्य की किसी रचना पर एक परियोजना लिखते हैं।",
+      "of": "9de16b25",
+      "at": [
+        "providence-day:divisions[2].departments[0].courses[12].description"
       ]
     },
     {
       "t": "Latino American Literature",
       "of": "519612cb",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[12].title"
+        "providence-day:divisions[2].departments[0].courses[13].title"
       ]
     },
     {
       "t": "1960 से वर्तमान तक अमेरिका में Latino American साहित्य और संस्कृतियों का परिचय, जिसमें प्रवासी और सीमांत पहचानों का विश्लेषण होता है।",
       "of": "6eb8b8e3",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[12].description"
+        "providence-day:divisions[2].departments[0].courses[13].description"
       ]
     },
     {
       "t": "AP African American Studies",
       "of": "0ca52363",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].title"
+        "providence-day:divisions[2].departments[0].courses[14].title"
       ]
     },
     {
       "t": "AP",
       "of": "3ad53794",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].tag",
         "providence-day:divisions[2].departments[0].courses[14].tag",
         "providence-day:divisions[2].departments[0].courses[15].tag",
+        "providence-day:divisions[2].departments[0].courses[16].tag",
         "providence-day:divisions[2].departments[1].courses[2].tag",
         "providence-day:divisions[2].departments[1].courses[4].tag",
         "providence-day:divisions[2].departments[1].courses[5].tag",
@@ -2250,23 +2275,25 @@
         "providence-day:divisions[2].departments[1].courses[8].tag",
         "providence-day:divisions[2].departments[1].courses[9].tag",
         "providence-day:divisions[2].departments[1].courses[10].tag",
-        "providence-day:divisions[2].departments[2].courses[12].tag",
         "providence-day:divisions[2].departments[2].courses[13].tag",
         "providence-day:divisions[2].departments[2].courses[14].tag",
+        "providence-day:divisions[2].departments[2].courses[15].tag",
         "providence-day:divisions[2].departments[3].courses[15].tag",
         "providence-day:divisions[2].departments[3].courses[16].tag",
         "providence-day:divisions[2].departments[3].courses[17].tag",
         "providence-day:divisions[2].departments[3].courses[18].tag",
         "providence-day:divisions[2].departments[3].courses[19].tag",
-        "providence-day:divisions[2].departments[4].courses[7].tag",
-        "providence-day:divisions[2].departments[4].courses[8].tag",
+        "providence-day:divisions[2].departments[4].courses[10].tag",
+        "providence-day:divisions[2].departments[4].courses[11].tag",
+        "providence-day:divisions[2].departments[5].courses[6].tag",
         "providence-day:divisions[2].departments[6].courses[5].tag",
         "providence-day:divisions[2].departments[6].courses[6].tag",
-        "providence-day:divisions[2].departments[6].courses[12].tag",
-        "providence-day:divisions[2].departments[6].courses[16].tag",
+        "providence-day:divisions[2].departments[6].courses[7].tag",
+        "providence-day:divisions[2].departments[6].courses[13].tag",
+        "providence-day:divisions[2].departments[6].courses[17].tag",
         "providence-day:divisions[2].departments[7].courses[9].tag",
         "providence-day:divisions[2].departments[7].courses[10].tag",
-        "providence-day:divisions[2].departments[8].courses[15].tag",
+        "providence-day:divisions[2].departments[8].courses[16].tag",
         "charlotte-latin:divisions[2].departments[0].courses[4].tag",
         "charlotte-latin:divisions[2].departments[1].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[4].tag",
@@ -2463,14 +2490,14 @@
       "t": "एक AP कोर्स, जो African American अनुभव की पड़ताल के लिए साहित्य, कलाओं, राजनीति विज्ञान, भूगोल और विज्ञान का सहारा लेता है।",
       "of": "6f75a4d2",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[13].description"
+        "providence-day:divisions[2].departments[0].courses[14].description"
       ]
     },
     {
       "t": "AP English Language and Composition",
       "of": "331a2375",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[14].title",
+        "providence-day:divisions[2].departments[0].courses[15].title",
         "davidson-day:divisions[2].departments[0].courses[6].title"
       ]
     },
@@ -2478,14 +2505,14 @@
       "t": "कॉलेज-स्तर का व्याख्यात्मक, विश्लेषणात्मक और तर्कपरक लेखन, जिसमें नॉन-फ़िक्शन विधाओं का पठन होता है और वक्तृत्व-तकनीक तथा तर्क पर ध्यान दिया जाता है।",
       "of": "15323bb8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[14].description"
+        "providence-day:divisions[2].departments[0].courses[15].description"
       ]
     },
     {
       "t": "AP English Literature and Composition",
       "of": "939079c8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[15].title",
+        "providence-day:divisions[2].departments[0].courses[16].title",
         "davidson-day:divisions[2].departments[0].courses[7].title"
       ]
     },
@@ -2493,7 +2520,7 @@
       "t": "नियमित रूप से पढ़ाए जाने वाले उपन्यासों, जैसे Moby-Dick, Invisible Man और Mrs. Dalloway, साथ ही Dickinson, Frost और Shakespeare के ज़रिए साहित्यिक विश्लेषण को निखारता है, एक बाहरी पठन-सूची के साथ।",
       "of": "8f8725b8",
       "at": [
-        "providence-day:divisions[2].departments[0].courses[15].description"
+        "providence-day:divisions[2].departments[0].courses[16].description"
       ]
     },
     {
@@ -2523,8 +2550,8 @@
       ]
     },
     {
-      "t": "1000 CE से वैश्वीकरण के युग तक की घटनाओं के भौगोलिक और विषयगत विकास के ज़रिए सांस्कृतिक विविधता के प्रति समझ को पोषित करता है।",
-      "of": "3f35acdb",
+      "t": "600 CE से वैश्वीकरण के युग तक की घटनाओं के भौगोलिक और विषयगत विकास के ज़रिए सांस्कृतिक विविधता के प्रति समझ को पोषित करता है।",
+      "of": "d73b26ae",
       "at": [
         "providence-day:divisions[2].departments[1].courses[1].description"
       ]
@@ -2756,8 +2783,8 @@
       ]
     },
     {
-      "t": "Global Studies: Europe and Latin America",
-      "of": "e48d9af0",
+      "t": "Global Studies: Latin America",
+      "of": "d8fa3cc5",
       "at": [
         "providence-day:divisions[2].departments[1].courses[17].title"
       ]
@@ -3024,24 +3051,38 @@
       ]
     },
     {
+      "t": "Sports Analytics and Data Science",
+      "of": "042e6ec7",
+      "at": [
+        "providence-day:divisions[2].departments[2].courses[11].title"
+      ]
+    },
+    {
+      "t": "गणित और IDEAS का एक कोर्स, जो खेल के डेटा के ज़रिए डेटा संग्रह, Excel, डेटा visualization और सांख्यिकी सिखाता है, और आगे predictive modeling और regression तक जाता है; Algebra II ज़रूरी है।",
+      "of": "3be37120",
+      "at": [
+        "providence-day:divisions[2].departments[2].courses[11].description"
+      ]
+    },
+    {
       "t": "Calculus (Advanced)",
       "of": "56e16862",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[11].title"
+        "providence-day:divisions[2].departments[2].courses[12].title"
       ]
     },
     {
       "t": "अवकल calculus की अवधारणाओं और अनुप्रयोगों का परिचय देता है, और छात्रों को सीमाओं का मान निकालना तथा प्रारंभिक फलनों का अवकलन और समाकलन करना सिखाता है।",
       "of": "71f26dd8",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[11].description"
+        "providence-day:divisions[2].departments[2].courses[12].description"
       ]
     },
     {
       "t": "AP Calculus AB",
       "of": "74e1f1ef",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[12].title",
+        "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
         "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
@@ -3052,14 +3093,14 @@
       "t": "छात्र सीमाओं का मान निकालना तथा प्रारंभिक फलनों का अवकलन और समाकलन करना सीखते हैं, जिसमें graphing calculator कोर्स का अभिन्न अंग है।",
       "of": "bd6b62f6",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[12].description"
+        "providence-day:divisions[2].departments[2].courses[13].description"
       ]
     },
     {
       "t": "AP Calculus BC",
       "of": "1be5376b",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[13].title",
+        "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
         "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[10].title"
@@ -3069,14 +3110,14 @@
       "t": "AB की सामग्री के साथ सदिश, ध्रुवीय और प्राचलिक समीकरण तथा अनंत श्रेणियों का calculus कवर करता है।",
       "of": "92ad63a0",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[13].description"
+        "providence-day:divisions[2].departments[2].courses[14].description"
       ]
     },
     {
       "t": "AP Statistics",
       "of": "64766a8f",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[14].title",
+        "providence-day:divisions[2].departments[2].courses[15].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
         "covenant-day:divisions[0].departments[1].courses[13].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
@@ -3087,24 +3128,24 @@
       "t": "छात्र प्रायिकता बंटनों का अनुकरण करते हैं और कैलकुलेटर तथा सॉफ़्टवेयर का उपयोग करते हुए सहसंबंध और समाश्रयण से चरों के बीच संबंधों का विश्लेषण करते हैं।",
       "of": "655636d1",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[14].description"
+        "providence-day:divisions[2].departments[2].courses[15].description"
       ]
     },
     {
       "t": "Calculus III (Advanced)",
       "of": "dd79cafd",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].title"
+        "providence-day:divisions[2].departments[2].courses[16].title"
       ]
     },
     {
       "t": "AP के बाद",
       "of": "7eeeacc7",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].tag",
         "providence-day:divisions[2].departments[2].courses[16].tag",
         "providence-day:divisions[2].departments[2].courses[17].tag",
-        "providence-day:divisions[2].departments[4].courses[2].tag",
+        "providence-day:divisions[2].departments[2].courses[18].tag",
+        "providence-day:divisions[2].departments[4].courses[4].tag",
         "charlotte-christian:divisions[2].departments[2].courses[14].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[12].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[17].tag",
@@ -3117,35 +3158,35 @@
       "t": "BC Calculus के बाद आता है — बहुचर और सदिश-मान फलन, वक्रता, द्विक और त्रिक समाकल, तथा सदिश विश्लेषण।",
       "of": "e5ec2dc6",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[15].description"
+        "providence-day:divisions[2].departments[2].courses[16].description"
       ]
     },
     {
       "t": "Linear Algebra (Advanced)",
       "of": "46d96fc9",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[16].title"
+        "providence-day:divisions[2].departments[2].courses[17].title"
       ]
     },
     {
       "t": "त्रि-आयामी और n-आयामी समष्टि में जाता है, जिसमें आव्यूह, सारणिक, युगपत् रैखिक समीकरण, सदिश समष्टि, कोटि, प्रतिलोम और अंतःगुणन शामिल हैं।",
       "of": "4aa352d7",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[16].description"
+        "providence-day:divisions[2].departments[2].courses[17].description"
       ]
     },
     {
       "t": "Differential Equations (Advanced)",
       "of": "b1045a74",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[17].title"
+        "providence-day:divisions[2].departments[2].courses[18].title"
       ]
     },
     {
       "t": "छात्र अवकल समीकरणों और उनके हलों, Laplace Transform, रैखिक और अरैखिक निकायों, श्रेणी-विधियों तथा Fourier Series को परखते हैं।",
       "of": "222a51ff",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[17].description"
+        "providence-day:divisions[2].departments[2].courses[18].description"
       ]
     },
     {
@@ -3257,72 +3298,14 @@
       ]
     },
     {
-      "t": "छात्र पेशी-कंकाल शरीर-रचना और चोट-प्रबंधन सीखते हैं, और PDS टीमों के लिए छात्र athletic trainer के रूप में 15 घंटे पूरे करते हैं।",
-      "of": "64f6e91c",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[7].description"
-      ]
-    },
-    {
-      "t": "Astronomy",
-      "of": "da1da391",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[8].title",
-        "charlotte-latin:divisions[2].departments[4].courses[12].title",
-        "charlotte-christian:divisions[2].departments[3].courses[11].title"
-      ]
-    },
-    {
-      "t": "छात्र astrolab और सूर्य-कलंकों का उपयोग करते हुए तारों, आकाशगंगाओं, सौर मंडल, तथा ब्रह्मांड के संघटन, संरचना और उद्गम का अध्ययन करते हैं।",
-      "of": "dd9d673f",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[8].description"
-      ]
-    },
-    {
-      "t": "Bioethics/Biotechnology",
-      "of": "822a020e",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[9].title"
-      ]
-    },
-    {
-      "t": "एक प्रयोगशाला और केस-अध्ययन कोर्स, जिसमें micropipette, PCR, DNA पृथक्करण और जेल वैद्युतकणसंचलन का उपयोग होता है, साथ ही GMO, ट्रांसजेनिक और क्लोनिंग पर बहस।",
-      "of": "d7a1a690",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[9].description"
-      ]
-    },
-    {
-      "t": "Environmental Sustainability",
-      "of": "fd8972b0",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[10].title"
-      ]
-    },
-    {
-      "t": "शहरी नियोजन, ऊर्जा, जल और कृषि में संधारणीय विकास की एक बहु-विषयी पड़ताल, Charger Gardens में व्यावहारिक कार्य के साथ।",
-      "of": "2412793d",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[10].description"
-      ]
-    },
-    {
-      "t": "Forensic Science",
-      "of": "fba6e9f2",
-      "at": [
-        "providence-day:divisions[2].departments[3].courses[11].title",
-        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
-      ]
-    },
-    {
       "t": "कक्षा 10–12",
       "of": "102b6929",
       "at": [
+        "providence-day:divisions[2].departments[3].courses[7].tag",
+        "providence-day:divisions[2].departments[3].courses[9].tag",
         "providence-day:divisions[2].departments[3].courses[11].tag",
         "providence-day:divisions[2].departments[3].courses[12].tag",
-        "providence-day:divisions[2].departments[5].courses[1].tag",
-        "providence-day:divisions[2].departments[5].courses[3].tag",
+        "providence-day:divisions[2].departments[5].courses[2].tag",
         "charlotte-christian:divisions[2].departments[1].courses[13].tag",
         "charlotte-christian:divisions[2].departments[1].courses[14].tag",
         "charlotte-christian:divisions[2].departments[7].courses[6].tag",
@@ -3347,6 +3330,65 @@
         "hickory-grove-christian:divisions[0].departments[11].courses[4].tag",
         "hickory-grove-christian:divisions[0].departments[11].courses[7].tag",
         "hickory-grove-christian:divisions[0].departments[11].courses[8].tag"
+      ]
+    },
+    {
+      "t": "छात्र शरीर के प्रमुख हिस्सों की रचना सीखते हैं, पैर और टखने से लेकर कंधे और हाथ तक, साथ ही खेल की आम चोटें, उनसे उबरना और उपचार के बुनियादी तरीक़े।",
+      "of": "fbbdf148",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[7].description"
+      ]
+    },
+    {
+      "t": "Astronomy",
+      "of": "da1da391",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[8].title",
+        "charlotte-latin:divisions[2].departments[4].courses[12].title",
+        "charlotte-christian:divisions[2].departments[3].courses[11].title"
+      ]
+    },
+    {
+      "t": "छात्र astrolab और sun spotter का उपयोग करते हुए तारों, आकाशगंगाओं, सौर मंडल, तथा ब्रह्मांड के संघटन, संरचना और उद्गम का अध्ययन करते हैं।",
+      "of": "8403986c",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[8].description"
+      ]
+    },
+    {
+      "t": "Bioethics/Biotechnology",
+      "of": "822a020e",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[9].title"
+      ]
+    },
+    {
+      "t": "एक प्रयोगशाला और केस-अध्ययन कोर्स, जिसमें micropipette, PCR, DNA पृथक्करण और जेल वैद्युतकणसंचलन का उपयोग होता है, साथ ही ट्रांसजेनिक जीवों, जीनोम की निजता और क्लोनिंग की नैतिकता पर विचार।",
+      "of": "6370c07b",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[9].description"
+      ]
+    },
+    {
+      "t": "Environmental Sustainability",
+      "of": "fd8972b0",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[10].title"
+      ]
+    },
+    {
+      "t": "शहरी नियोजन, ऊर्जा, जल और कृषि में संधारणीय विकास की एक बहु-विषयी पड़ताल, Charger Gardens में व्यावहारिक कार्य के साथ।",
+      "of": "2412793d",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[10].description"
+      ]
+    },
+    {
+      "t": "Forensic Science",
+      "of": "fba6e9f2",
+      "at": [
+        "providence-day:divisions[2].departments[3].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
       ]
     },
     {
@@ -3378,8 +3420,8 @@
       ]
     },
     {
-      "t": "तंत्रिका तंत्र की कोशिकीय और आणविक कार्यप्रणाली का परिचय, जिसमें तंत्रिकाओं, पेशियों और पौधों से विद्युत गतिविधि दर्ज की जाती है।",
-      "of": "11a91f28",
+      "t": "तंत्रिका तंत्र कोशिकीय और आणविक स्तर पर कैसे काम करता है, इसका व्यावहारिक परिचय, जिसकी प्रयोगशाला जाँचों में दो छोटे विच्छेदन (dissection) भी शामिल हैं।",
+      "of": "ffcef1fd",
       "at": [
         "providence-day:divisions[2].departments[3].courses[13].description"
       ]
@@ -3389,7 +3431,7 @@
       "of": "c6a3f0d6",
       "at": [
         "providence-day:divisions[2].departments[3].courses[14].title",
-        "providence-day:divisions[2].departments[5].courses[4].title"
+        "providence-day:divisions[2].departments[5].courses[3].title"
       ]
     },
     {
@@ -3461,8 +3503,8 @@
       ]
     },
     {
-      "t": "छात्र कॉलेज की प्रारंभिक भौतिकी के अध्ययन के लिए algebra का उपयोग करते हैं, डेटा का विश्लेषण करते हैं और निकायों, क्षेत्रों, बलों, संरक्षण तथा तरंगों के मॉडल विकसित करते हैं।",
-      "of": "a8097bf9",
+      "t": "छात्र प्रयोगशालाओं में कॉलेज की प्रारंभिक भौतिकी के अध्ययन के लिए algebra का उपयोग करते हैं, डेटा का विश्लेषण करते हैं और गति, बल, ऊर्जा, संवेग, घूर्णन, दोलन और तरल पदार्थों के मॉडल बनाते हैं।",
+      "of": "ae146f3e",
       "at": [
         "providence-day:divisions[2].departments[3].courses[18].description"
       ]
@@ -3489,108 +3531,150 @@
       ]
     },
     {
+      "t": "Architecture Design",
+      "of": "59fd9608",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[0].title"
+      ]
+    },
+    {
+      "t": "स्थापत्य डिज़ाइन सिद्धांतों और Building Information Modeling पर केंद्रित, जिसमें floor plan, अनुभाग और उन्नयन के लिए REVIT जैसे 3D CAD उपकरणों का उपयोग होता है।",
+      "of": "ff9fec5d",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[0].description"
+      ]
+    },
+    {
+      "t": "Architecture II: Sustainable Design & LEED Fundamentals",
+      "of": "744ec01b",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[1].title"
+      ]
+    },
+    {
+      "t": "हरित, उच्च-प्रदर्शन वाली इमारतों पर एक परियोजना-आधारित कोर्स, जो छात्रों को LEED Green Associate प्रमाणन के लिए तैयार करता है और एक Green Building Design Project के साथ समाप्त होता है; Architecture Design ज़रूरी है।",
+      "of": "791b4b92",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[1].description"
+      ]
+    },
+    {
       "t": "Computer-Aided Design with 3D Printing",
       "of": "7ad8d7dc",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[0].title"
+        "providence-day:divisions[2].departments[4].courses[2].title"
       ]
     },
     {
       "t": "CAD सॉफ़्टवेयर से पारंपरिक यांत्रिक रेखांकन का परिचय, साथ ही 3D प्रिंटिंग, सममितीय रेखाचित्र और पूर्ण 3D मॉडलिंग तकनीकें।",
       "of": "e1ea3233",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[0].description"
+        "providence-day:divisions[2].departments[4].courses[2].description"
       ]
     },
     {
       "t": "Computer Programming with Python",
       "of": "f83fc86f",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[1].title"
+        "providence-day:divisions[2].departments[4].courses[3].title"
       ]
     },
     {
       "t": "Python में प्रोग्रामिंग का परिचय देता है, जिसमें चर, डेटा प्रकार, पुनरावृत्ति, नियंत्रण-प्रवाह, फ़ंक्शन, GUI और इवेंट-आधारित प्रोग्रामिंग शामिल हैं।",
       "of": "442bb4a3",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[1].description"
+        "providence-day:divisions[2].departments[4].courses[3].description"
       ]
     },
     {
       "t": "Advanced Data Structures in Java",
       "of": "45041a30",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[2].title"
+        "providence-day:divisions[2].departments[4].courses[4].title"
       ]
     },
     {
       "t": "उन छात्रों के लिए जिन्होंने AP CS A पूरा किया है; इसमें डेटा अमूर्तन और encapsulation कवर होते हैं, जिनमें stack, queue, linked list, द्विआधारी वृक्ष और hash map शामिल हैं।",
       "of": "c60d2b51",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[2].description"
+        "providence-day:divisions[2].departments[4].courses[4].description"
       ]
     },
     {
       "t": "Game Development with Unity and C#",
       "of": "d8492344",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[3].title"
+        "providence-day:divisions[2].departments[4].courses[5].title"
       ]
     },
     {
       "t": "छात्र \"Create with Code\" पाठ्यक्रम के ज़रिए C# भाषा और Unity इंजन का उपयोग करके शुरू से वीडियो गेम बनाना सीखते हैं।",
       "of": "9c2655c9",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[3].description"
+        "providence-day:divisions[2].departments[4].courses[5].description"
       ]
     },
     {
       "t": "iOS Programming with Swift",
       "of": "141f2d9a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[4].title"
+        "providence-day:divisions[2].departments[4].courses[6].title"
       ]
     },
     {
       "t": "छात्र Xcode और iOS SDK का उपयोग करके Swift और Cocoa Touch फ़्रेमवर्क सीखते हैं, और अपने ही मोबाइल उपकरणों पर ऐप परखते हैं।",
       "of": "b1c111e5",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[4].description"
+        "providence-day:divisions[2].departments[4].courses[6].description"
       ]
     },
     {
       "t": "Physical Computing",
       "of": "a41ac47a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[5].title"
+        "providence-day:divisions[2].departments[4].courses[7].title"
       ]
     },
     {
       "t": "छात्र Arduino और Raspberry Pi से इंटरैक्टिव तंत्र बनाते हैं, जिनमें बटन, सेंसर, डिस्प्ले, LED, मोटर और वायरलेस मॉड्यूल का उपयोग होता है।",
       "of": "e9beacef",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[5].description"
+        "providence-day:divisions[2].departments[4].courses[7].description"
       ]
     },
     {
-      "t": "Robotics & Engineering",
-      "of": "aec8a185",
+      "t": "Robotics & Engineering 1",
+      "of": "dd9ca18a",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[6].title"
+        "providence-day:divisions[2].departments[4].courses[8].title"
       ]
     },
     {
       "t": "व्यावहारिक समस्या-समाधान और नैतिक निहितार्थों पर बहस के ज़रिए रोबोटिक्स तथा इंजीनियरिंग की नींव और इस क्षेत्र के वैश्विक मुद्दों की पड़ताल करता है।",
       "of": "244e5342",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[6].description"
+        "providence-day:divisions[2].departments[4].courses[8].description"
+      ]
+    },
+    {
+      "t": "Robotics & Engineering 2",
+      "of": "dc9c9ff7",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[9].title"
+      ]
+    },
+    {
+      "t": "Robotics & Engineering 1 को आगे बढ़ाते हुए, छात्र असल दुनिया की 2 या 3 चुनौतियाँ उठाते हैं और सामुदायिक साझेदारों के साथ मिलकर शोध करते हैं और समाधान तैयार करते हैं।",
+      "of": "07cae16d",
+      "at": [
+        "providence-day:divisions[2].departments[4].courses[9].description"
       ]
     },
     {
       "t": "AP Computer Science A",
       "of": "1c7b7290",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[7].title",
+        "providence-day:divisions[2].departments[4].courses[10].title",
         "charlotte-country-day:divisions[2].departments[6].courses[1].title",
         "davidson-day:divisions[2].departments[6].courses[2].title"
       ]
@@ -3599,14 +3683,14 @@
       "t": "Java में College Board के पाठ्यक्रम का अनुसरण करता है, वाक्य-रचना, क्लास संरचना, ऑब्जेक्ट-ओरिएंटेड कार्यप्रणालियों, एल्गोरिद्म और डेटा संरचनाओं पर ज़ोर के साथ।",
       "of": "5e7360b2",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[7].description"
+        "providence-day:divisions[2].departments[4].courses[10].description"
       ]
     },
     {
       "t": "AP Computer Science Principles",
       "of": "b34fad00",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[8].title",
+        "providence-day:divisions[2].departments[4].courses[11].title",
         "davidson-day:divisions[2].departments[6].courses[1].title"
       ]
     },
@@ -3614,7 +3698,7 @@
       "t": "छात्रों को कंप्यूटर विज्ञान के रचनात्मक पहलुओं से जोड़ता है, जिसमें अभिकलनात्मक उपकरणों से बड़े डेटा समुच्चयों का विश्लेषण और रुझानों से निष्कर्ष निकाले जाते हैं।",
       "of": "58c33221",
       "at": [
-        "providence-day:divisions[2].departments[4].courses[8].description"
+        "providence-day:divisions[2].departments[4].courses[11].description"
       ]
     },
     {
@@ -3622,7 +3706,7 @@
       "of": "ad0010c2",
       "at": [
         "providence-day:divisions[2].departments[5].name",
-        "providence-day:divisions[2].departments[5].courses[5].title"
+        "providence-day:divisions[2].departments[5].courses[4].title"
       ]
     },
     {
@@ -3655,45 +3739,91 @@
       ]
     },
     {
-      "t": "Architecture Design",
-      "of": "59fd9608",
-      "at": [
-        "providence-day:divisions[2].departments[5].courses[2].title"
-      ]
-    },
-    {
-      "t": "स्थापत्य डिज़ाइन सिद्धांतों और Building Information Modeling पर केंद्रित, जिसमें floor plan, अनुभाग और उन्नयन के लिए REVIT जैसे 3D CAD उपकरणों का उपयोग होता है।",
-      "of": "ff9fec5d",
-      "at": [
-        "providence-day:divisions[2].departments[5].courses[2].description"
-      ]
-    },
-    {
       "t": "Social Entrepreneurship",
       "of": "728b6db3",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[3].title"
+        "providence-day:divisions[2].departments[5].courses[2].title"
       ]
     },
     {
       "t": "एक व्यावहारिक कोर्स, जो छात्रों को सामाजिक मूल्य रचने वाले व्यवसाय शुरू करने का मार्गदर्शन देता है, और ग्राहक तथा बाज़ार की प्रतिक्रिया के विरुद्ध विचारों की तेज़ी से जाँच कराता है।",
       "of": "d43c9f1f",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[3].description"
+        "providence-day:divisions[2].departments[5].courses[2].description"
       ]
     },
     {
       "t": "छात्र मौलिक वैज्ञानिक शोध करते हैं — प्रयोगों की रूपरेखा बनाकर उन्हें करते हैं और परिणाम प्रस्तुत करते हैं; इसमें Science क्रेडिट भी मिलता है।",
       "of": "4575d745",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[4].description"
+        "providence-day:divisions[2].departments[5].courses[3].description"
       ]
     },
     {
       "t": "छात्र डिज़ाइनरों के एक स्टूडियो और उद्यमियों के एक उद्यम के रूप में डिज़ाइन-थिंकिंग कौशल विकसित करते हैं, ताकि छात्रों के सामने खड़े ज़रूरी मुद्दों को हल किया जा सके।",
       "of": "a78713fe",
       "at": [
+        "providence-day:divisions[2].departments[5].courses[4].description"
+      ]
+    },
+    {
+      "t": "Advanced Entrepreneurship: Incubator to Accelerator",
+      "of": "e6c2a235",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].title"
+      ]
+    },
+    {
+      "t": "कक्षा 12",
+      "of": "738fc5f7",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[5].tag",
+        "charlotte-christian:divisions[2].departments[0].courses[4].tag",
+        "charlotte-christian:divisions[2].departments[1].courses[6].tag",
+        "charlotte-country-day:divisions[2].departments[0].courses[7].tag",
+        "cannon:divisions[2].departments[0].courses[6].tag",
+        "cannon:divisions[2].departments[1].courses[11].tag",
+        "cannon:divisions[2].departments[6].courses[5].tag",
+        "cannon:divisions[2].departments[6].courses[6].tag",
+        "davidson-day:divisions[2].departments[8].courses[6].tag",
+        "hickory-grove-christian:divisions[0].departments[0].courses[8].tag",
+        "hickory-grove-christian:divisions[0].departments[6].courses[3].tag",
+        "hickory-grove-christian:divisions[0].departments[11].courses[11].tag"
+      ]
+    },
+    {
+      "t": "Diploma in Entrepreneurial Studies का senior capstone, जिसमें छात्र बाज़ार की किसी ज़रूरत को परखते हैं, किसी उत्पाद का पहला काम करने वाला संस्करण बनाते हैं और एक औपचारिक business प्रस्तुति देते हैं।",
+      "of": "44091b59",
+      "at": [
         "providence-day:divisions[2].departments[5].courses[5].description"
+      ]
+    },
+    {
+      "t": "AP Business with Personal Finance",
+      "of": "2637a358",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[6].title"
+      ]
+    },
+    {
+      "t": "ग्यारहवीं और बारहवीं कक्षा के छात्रों के लिए साल भर का कोर्स, जिसमें entrepreneurship, marketing, finance, accounting और management के साथ personal finance भी शामिल है, और कॉलेज क्रेडिट तथा नियोक्ताओं द्वारा मान्य एक credential पाने का मौका मिलता है।",
+      "of": "9b607118",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[6].description"
+      ]
+    },
+    {
+      "t": "AI Literacy: Understanding and Navigating Artificial Intelligence",
+      "of": "598b6f40",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[7].title"
+      ]
+    },
+    {
+      "t": "छात्र सीखते हैं कि machine learning कैसे काम करता है, स्कूल और काम में AI को कैसे परखें और उपयोग करें, और AI समाज को कैसे प्रभावित करता है; किसी पूर्व अनुभव की ज़रूरत नहीं है।",
+      "of": "d3ffadcf",
+      "at": [
+        "providence-day:divisions[2].departments[5].courses[7].description"
       ]
     },
     {
@@ -3774,17 +3904,31 @@
       ]
     },
     {
-      "t": "प्रामाणिक स्रोतों का उपयोग करते हुए प्रभावशाली निबंधों और समयबद्ध निर्देशित बातचीत के ज़रिए बारहवीं कक्षा के छात्रों को AP French Language and Culture परीक्षा के लिए तैयार करता है।",
-      "of": "0dfad1a0",
+      "t": "प्रामाणिक स्रोतों पर आधारित इकाइयों — Global Challenges से लेकर Beauty and Aesthetics तक — और तर्कप्रधान निबंधों के ज़रिए बारहवीं कक्षा के छात्रों को AP French Language and Culture परीक्षा के लिए तैयार करता है।",
+      "of": "b372535e",
       "at": [
         "providence-day:divisions[2].departments[6].courses[5].description"
+      ]
+    },
+    {
+      "t": "AP German",
+      "of": "80692756",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[6].title"
+      ]
+    },
+    {
+      "t": "छात्रों को AP German Language Exam के लिए तैयार करता है; कक्षा केवल German में होती है और सारी सामग्री प्रामाणिक स्रोतों से ली जाती है; German 6 Advanced में 87% ज़रूरी है।",
+      "of": "4ddc4ac0",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[6].description"
       ]
     },
     {
       "t": "AP Spanish Language",
       "of": "5e3f2f4e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].title",
+        "providence-day:divisions[2].departments[6].courses[7].title",
         "covenant-day:divisions[0].departments[5].courses[4].title"
       ]
     },
@@ -3792,70 +3936,70 @@
       "t": "बारहवीं कक्षा के छात्रों को चौतरफ़ा भाषा-कौशल विकसित करके AP Spanish Language Exam के लिए तैयार करता है, केवल-Spanish कक्षा-संवाद के साथ।",
       "of": "5fa55fc7",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].description"
+        "providence-day:divisions[2].departments[6].courses[7].description"
       ]
     },
     {
       "t": "छात्रों को भाषा, ऐतिहासिक संदर्भ और रोम के प्रभाव के ज़रिए शास्त्रीय भाषा-अर्जन से परिचित कराता है, जिसमें दैनिक जीवन, देवता और नायक शामिल हैं।",
       "of": "6569f97b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[7].description"
+        "providence-day:divisions[2].departments[6].courses[8].description"
       ]
     },
     {
       "t": "छात्र प्राचीन रोम पर आधारित Latin कहानियाँ पढ़ते हैं, और भोज, स्नान, समुद्री डकैती, ग्लैडिएटर तथा राजनीतिक अशांति के विषयों के ज़रिए व्याकरण की अवधारणाएँ सीखते हैं।",
       "of": "1b1b4ea4",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[8].description"
+        "providence-day:divisions[2].departments[6].courses[9].description"
       ]
     },
     {
       "t": "Latin 3",
       "of": "d14b5140",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[9].title"
-      ]
-    },
-    {
-      "t": "व्याकरण की पुनरावृत्ति करता है और उपवाक्यों का परिचय देता है, फिर Livy और Pliny के गद्य तथा Catullus की कविता के ज़रिए अपरिवर्तित Latin तक बढ़ता है।",
-      "of": "c8d515be",
-      "at": [
-        "providence-day:divisions[2].departments[6].courses[9].description"
-      ]
-    },
-    {
-      "t": "Latin 4",
-      "of": "d84b5c45",
-      "at": [
         "providence-day:divisions[2].departments[6].courses[10].title"
       ]
     },
     {
-      "t": "एक साहित्य कोर्स, जो Catullus, Ovid और Vergil की कविता की पड़ताल करता है; छंद सुनने और साहित्यिक युक्तियों को परखने के लिए Latin ज़ोर से पढ़ी जाती है।",
-      "of": "f6a3c306",
+      "t": "व्याकरण को दोहराता है और उपवाक्यों (clauses) से परिचय कराता है, फिर Caesar, Pliny, Livy और Eutropius के गद्य के ज़रिए मूल, बिना बदली हुई Latin तक पहुँचता है।",
+      "of": "c8bebbc1",
       "at": [
         "providence-day:divisions[2].departments[6].courses[10].description"
+      ]
+    },
+    {
+      "t": "Latin 4 (Advanced)",
+      "of": "bfb66906",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[11].title"
+      ]
+    },
+    {
+      "t": "Catullus, Ovid और Vergil की कविता और पौराणिक कथाओं पर एक साहित्य कोर्स, जिसमें परखा जाता है कि हर कवि साहित्यिक युक्तियों, छंद, लहजे और उद्देश्य का कितनी अच्छी तरह उपयोग करता है।",
+      "of": "3052dc30",
+      "at": [
+        "providence-day:divisions[2].departments[6].courses[11].description"
       ]
     },
     {
       "t": "Latin 5 (Advanced)",
       "of": "425c804b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[11].title"
+        "providence-day:divisions[2].departments[6].courses[12].title"
       ]
     },
     {
-      "t": "गद्य और पद्य का एक साहित्य कोर्स, जिसमें परियोजना-आधारित तुलनात्मक-पाठ घटक है और Vergil, Pliny, Catullus, Ovid, Vespucci और Boccaccio जैसे लेखकों की रचनाओं का पठन होता है।",
-      "of": "c300258c",
+      "t": "गद्य और पद्य का एक साहित्य कोर्स, जिसमें साझा विषयों पर पाठों की तुलना करने वाली एक परियोजना है; इसमें Vergil, Pliny, Catullus और Ovid के साथ प्राचीन रोमन काल के बाहर के लेखकों को भी पढ़ा जाता है।",
+      "of": "c82bcc96",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[11].description"
+        "providence-day:divisions[2].departments[6].courses[12].description"
       ]
     },
     {
       "t": "AP Latin",
       "of": "6d3b696e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[12].title",
+        "providence-day:divisions[2].departments[6].courses[13].title",
         "charlotte-country-day:divisions[2].departments[4].courses[13].title"
       ]
     },
@@ -3863,63 +4007,63 @@
       "t": "AP Latin Exam के लिए सामग्री और कौशल प्रस्तुत करता है — पाठ का विश्लेषण, साहित्यिक युक्तियों की पहचान, और अंतर्निहित विषयों का उल्लेख।",
       "of": "5aadcc70",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[12].description"
+        "providence-day:divisions[2].departments[6].courses[13].description"
       ]
     },
     {
       "t": "Mandarin Chinese 1–5",
       "of": "531d6261",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[13].title"
+        "providence-day:divisions[2].departments[6].courses[14].title"
       ]
     },
     {
       "t": "Novice Mid से Intermediate Mid 1 दक्षता तक क्रमबद्ध कोर्स, जिनमें Greetings, Dining, Travel और In the Restaurant जैसे विषय शामिल हैं।",
       "of": "98c36859",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[13].description"
+        "providence-day:divisions[2].departments[6].courses[14].description"
       ]
     },
     {
       "t": "Mandarin Chinese 6 (Advanced)",
       "of": "c514e9f5",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[14].title"
+        "providence-day:divisions[2].departments[6].courses[15].title"
       ]
     },
     {
       "t": "Intermediate Mid 2 की क्षमताओं को पुख़्ता करता है और साथ ही शैक्षणिक, सामाजिक और तकनीकी संदर्भों में समकालीन चीनी संस्कृति की पड़ताल करता है।",
       "of": "81fa2ce3",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[14].description"
+        "providence-day:divisions[2].departments[6].courses[15].description"
       ]
     },
     {
       "t": "Mandarin Chinese 7 (Advanced)",
       "of": "e3dd6be8",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[15].title"
+        "providence-day:divisions[2].departments[6].courses[16].title"
       ]
     },
     {
       "t": "Intermediate Mid 2 के सुदृढ़ीकरण को जारी रखता है, और शिक्षा, त्योहारों, पर्यावरणीय चुनौतियों तथा स्वस्थ जीवन के ज़रिए संस्कृति की पड़ताल करता है।",
       "of": "48428f7b",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[15].description"
+        "providence-day:divisions[2].departments[6].courses[16].description"
       ]
     },
     {
       "t": "AP Chinese Language and Culture",
       "of": "0bffc54c",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[16].title"
+        "providence-day:divisions[2].departments[6].courses[17].title"
       ]
     },
     {
       "t": "पाँच लक्ष्य-क्षेत्रों में श्रवण और मौखिक कौशल, पठन-बोध, व्याकरण और रचना कवर करता है, तथा चीन की वैश्विक भूमिका के प्रति बोध विकसित करता है।",
       "of": "05551cb1",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[16].description"
+        "providence-day:divisions[2].departments[6].courses[17].description"
       ]
     },
     {
@@ -4041,8 +4185,8 @@
       ]
     },
     {
-      "t": "Understanding Art: A Global View",
-      "of": "c2a2b6d5",
+      "t": "Understanding Art: A Contemporary Global View",
+      "of": "54253574",
       "at": [
         "providence-day:divisions[2].departments[7].courses[7].title"
       ]
@@ -4194,94 +4338,109 @@
       ]
     },
     {
+      "t": "Music Technology and Production",
+      "of": "f49b143e",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[4].title"
+      ]
+    },
+    {
+      "t": "छात्र music production software और recording उपकरणों का उपयोग करके multitrack recording, audio editing और audio design सीखते हैं; संगीत का पूर्व अनुभव बेहतर माना जाता है।",
+      "of": "4a7cdac9",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[4].description"
+      ]
+    },
+    {
       "t": "Theatre I: Introduction to Performance",
       "of": "80701414",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[4].title"
+        "providence-day:divisions[2].departments[8].courses[5].title"
       ]
     },
     {
       "t": "मूकाभिनय, तात्कालिक अभिनय, दृश्य-कार्य और contentless दृश्यों के ज़रिए अभिनेता के नज़रिए से नाट्य-प्रस्तुति का परिचय देता है।",
       "of": "41fd4a3c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[4].description"
+        "providence-day:divisions[2].departments[8].courses[5].description"
       ]
     },
     {
       "t": "Theatre II: Advanced Acting",
       "of": "3bd9046e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[5].title"
+        "providence-day:divisions[2].departments[8].courses[6].title"
       ]
     },
     {
       "t": "उन्नत तकनीकों की पड़ताल करता है, जिनमें Meisner और Stanislavski, संगीतमय रंगमंच, पाठ और चरित्र विश्लेषण, तथा ऑडिशन तकनीक शामिल हैं।",
       "of": "63f0248f",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[5].description"
-      ]
-    },
-    {
-      "t": "Theatrical Performing Arts Lab",
-      "of": "16fffd28",
-      "at": [
-        "providence-day:divisions[2].departments[8].courses[6].title"
-      ]
-    },
-    {
-      "t": "छात्र एक एकांकी नाटक चुनते, उसकी कास्टिंग, डिज़ाइन, पूर्वाभ्यास और प्रस्तुति करते हैं; तकनीक-केंद्रित छात्र डिज़ाइनर के रूप में काम करते हैं।",
-      "of": "3fe3fb18",
-      "at": [
         "providence-day:divisions[2].departments[8].courses[6].description"
+      ]
+    },
+    {
+      "t": "म्यूज़िकल थिएटर",
+      "of": "0a9bd0ea",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[7].title",
+        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
+      ]
+    },
+    {
+      "t": "छात्र musical theatre कलाकार के गायन, अभिनय और नृत्य कौशल विकसित करते हैं और इस विधा के इतिहास का अध्ययन करते हैं, जिसका समापन एक अंतिम प्रस्तुति से होता है।",
+      "of": "c33aeab0",
+      "at": [
+        "providence-day:divisions[2].departments[8].courses[7].description"
       ]
     },
     {
       "t": "Theatre Around the World",
       "of": "2f6e784a",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[7].title"
+        "providence-day:divisions[2].departments[8].courses[8].title"
       ]
     },
     {
       "t": "वैश्विक नाट्य परंपराओं को परखता है, जिनमें जापानी Noh, भारतीय कथकली, ब्रिटिश Pantomime, इतालवी Opera और ब्राज़ीली Theatre of the Oppressed शामिल हैं।",
       "of": "a49b8aa8",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[7].description"
+        "providence-day:divisions[2].departments[8].courses[8].description"
       ]
     },
     {
       "t": "Theatrical Production and Design",
       "of": "65026e14",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[8].title"
+        "providence-day:divisions[2].departments[8].courses[9].title"
       ]
     },
     {
       "t": "छात्र वेशभूषा, मंच-श्रृंगार, प्रॉप्स और मंच-प्रबंधन की पड़ताल करते हैं, और सिलाई, विशेष-प्रभाव श्रृंगार तथा प्रॉप-निर्माण सीखते हैं।",
       "of": "f534dfa1",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[8].description"
+        "providence-day:divisions[2].departments[8].courses[9].description"
       ]
     },
     {
       "t": "RE(ACT): Theatre and Social Change",
       "of": "dbd7aab0",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[9].title"
+        "providence-day:divisions[2].departments[8].courses[10].title"
       ]
     },
     {
       "t": "नाट्य-प्रस्तुति को सामाजिक परिवर्तन के रूप में स्थापित करता है; इसमें Augusto Boal के Theatre of the Oppressed और विश्व-घटनाओं पर आधारित आधुनिक नाटकों का अध्ययन होता है।",
       "of": "49d841be",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[9].description"
+        "providence-day:divisions[2].departments[8].courses[10].description"
       ]
     },
     {
       "t": "Technical Theatre",
       "of": "2cc4ae9b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[10].title",
+        "providence-day:divisions[2].departments[8].courses[11].title",
         "charlotte-christian:divisions[2].departments[7].courses[18].title"
       ]
     },
@@ -4289,24 +4448,24 @@
       "t": "एक व्यावहारिक कोर्स, जिसमें छात्र दृश्य-सज्जा की रूपरेखा बनाकर उसे बनाते हैं, पृष्ठभूमि रँगते हैं, प्रकाश समायोजित करते हैं, और ध्वनि तथा विशेष प्रभाव बनाते हैं।",
       "of": "b8cc023c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[10].description"
+        "providence-day:divisions[2].departments[8].courses[11].description"
       ]
     },
     {
       "t": "Honors Band",
       "of": "afe8d91b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].title"
+        "providence-day:divisions[2].departments[8].courses[12].title"
       ]
     },
     {
       "t": "Honors",
       "of": "c7d97254",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].tag",
         "providence-day:divisions[2].departments[8].courses[12].tag",
         "providence-day:divisions[2].departments[8].courses[13].tag",
         "providence-day:divisions[2].departments[8].courses[14].tag",
+        "providence-day:divisions[2].departments[8].courses[15].tag",
         "charlotte-latin:divisions[2].departments[0].courses[3].tag",
         "charlotte-latin:divisions[2].departments[1].courses[7].tag",
         "charlotte-latin:divisions[2].departments[2].courses[2].tag",
@@ -4576,42 +4735,42 @@
       "t": "उन बारहवीं कक्षा के छात्रों के लिए जिन्होंने Upper School Band के तीन वर्ष पूरे किए हैं और ऑडिशन की शर्तें तथा शिक्षक द्वारा तय अतिरिक्त शर्तें पूरी करते हैं।",
       "of": "94c24c76",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[11].description"
+        "providence-day:divisions[2].departments[8].courses[12].description"
       ]
     },
     {
       "t": "Honors Chorus",
       "of": "03148f6e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[12].title"
+        "providence-day:divisions[2].departments[8].courses[13].title"
       ]
     },
     {
       "t": "उन बारहवीं कक्षा के छात्रों के लिए जिन्होंने Upper School Chorus के तीन वर्ष पूरे किए हैं और ऑडिशन तथा अतिरिक्त कोर्स-शर्तें पूरी करते हैं।",
       "of": "5438fc70",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[12].description"
+        "providence-day:divisions[2].departments[8].courses[13].description"
       ]
     },
     {
       "t": "Honors Jazz Ensemble",
       "of": "684bd93c",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[13].title"
+        "providence-day:divisions[2].departments[8].courses[14].title"
       ]
     },
     {
       "t": "उन बारहवीं कक्षा के छात्रों के लिए जिन्होंने Upper School Band या Jazz Ensemble के तीन वर्ष पूरे किए हैं और ऑडिशन तथा अतिरिक्त शर्तें पूरी करते हैं।",
       "of": "fee547b7",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[13].description"
+        "providence-day:divisions[2].departments[8].courses[14].description"
       ]
     },
     {
       "t": "Honors Orchestra",
       "of": "e86bed3b",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[14].title",
+        "providence-day:divisions[2].departments[8].courses[15].title",
         "charlotte-country-day:divisions[2].departments[5].courses[6].title"
       ]
     },
@@ -4619,14 +4778,14 @@
       "t": "उन बारहवीं कक्षा के छात्रों के लिए जिन्होंने Upper School Orchestra के तीन वर्ष पूरे किए हैं और ऑडिशन तथा अतिरिक्त शर्तें पूरी करते हैं।",
       "of": "b6d5128e",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[14].description"
+        "providence-day:divisions[2].departments[8].courses[15].description"
       ]
     },
     {
       "t": "AP Music Theory",
       "of": "d70bc8a8",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[15].title",
+        "providence-day:divisions[2].departments[8].courses[16].title",
         "charlotte-country-day:divisions[2].departments[5].courses[9].title"
       ]
     },
@@ -4634,7 +4793,7 @@
       "t": "छात्र स्वर-माधुर्य, संगति, बुनावट, लय, रूप तथा कुछ इतिहास और शैली का अध्ययन करते हैं; प्रवेश के समय बुनियादी सिद्धांत और स्वरलिपि कौशल आवश्यक।",
       "of": "10a5ce52",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[15].description"
+        "providence-day:divisions[2].departments[8].courses[16].description"
       ]
     },
     {
@@ -5375,8 +5534,8 @@
       ]
     },
     {
-      "t": "13 विभागों में 122 कोर्स — 23 AP कोर्स, दूसरी भाषा के रूप में Greek, और MIT नेटवर्क से जुड़ा एक Fab Lab।",
-      "of": "73c56078",
+      "t": "13 विभागों में 122 कोर्स — स्कूल के course-offerings पृष्ठ पर 23 AP कोर्स, दूसरी भाषा के रूप में Greek, और MIT नेटवर्क से जुड़ा एक Fab Lab। यहाँ इन्हें 105 प्रविष्टियों के रूप में दिखाया गया है: French I–V जैसे क्रम एक ही पंक्ति में हैं, Drama और Music एक ही tab में हैं, और Online Courses में कोई कोर्स सूचीबद्ध नहीं है।",
+      "of": "90208a77",
       "at": [
         "charlotte-latin:divisions[2].teaser"
       ]
@@ -6923,20 +7082,6 @@
       ]
     },
     {
-      "t": "2026-27",
-      "of": "0a1761dd",
-      "at": [
-        "charlotte-christian:guideYear",
-        "charlotte-catholic:guideYear",
-        "cannon:guideYear",
-        "covenant-day:guideYear",
-        "davidson-day:guideYear",
-        "carmel-christian:guideYear",
-        "trinity-episcopal:guideYear",
-        "charlotte-prep:guideYear"
-      ]
-    },
-    {
       "t": "JK – कक्षा 4",
       "of": "1a6fcf80",
       "at": [
@@ -6945,8 +7090,8 @@
       ]
     },
     {
-      "t": "5 मुख्य विषय शाखाएँ — JK से बाइबल, कक्षा 4 के Case for Christ धर्मरक्षा capstone तक — साथ ही छह संवर्धन कक्षाएँ।",
-      "of": "a523846e",
+      "t": "बाइबल और 5 मुख्य विषय शाखाएँ — JK से बाइबल, कक्षा 4 के Case for Christ धर्मरक्षा capstone तक — साथ ही छह संवर्धन कक्षाएँ।",
+      "of": "68b87b12",
       "at": [
         "charlotte-christian:divisions[0].teaser"
       ]
@@ -7568,8 +7713,8 @@
       ]
     },
     {
-      "t": "11 विभागों में ~135 कोर्स — 21 AP कोर्स लाइनें, 35+ honors, और Biblical Studies की 4 अनिवार्य इकाइयाँ।",
-      "of": "b5858f53",
+      "t": "11 विभागों में 143 कोर्स प्रविष्टियाँ — guide की AP सूची के 21 AP कोर्स, 35+ honors, और Biblical Studies की 4 अनिवार्य इकाइयाँ। यहाँ इन्हें 129 प्रविष्टियों के रूप में दिखाया गया है: French, Latin और Spanish के क्रम और Yearbook, हर एक एक ही पंक्ति में है। सूची 22 AP शीर्षक दिखाती है, क्योंकि guide में AP Spanish Literature का वर्णन भी है।",
+      "of": "87a453b0",
       "at": [
         "charlotte-christian:divisions[2].teaser"
       ]
@@ -7645,23 +7790,6 @@
       "of": "6b124f9d",
       "at": [
         "charlotte-christian:divisions[2].departments[0].courses[4].title"
-      ]
-    },
-    {
-      "t": "कक्षा 12",
-      "of": "738fc5f7",
-      "at": [
-        "charlotte-christian:divisions[2].departments[0].courses[4].tag",
-        "charlotte-christian:divisions[2].departments[1].courses[6].tag",
-        "charlotte-country-day:divisions[2].departments[0].courses[7].tag",
-        "cannon:divisions[2].departments[0].courses[6].tag",
-        "cannon:divisions[2].departments[1].courses[11].tag",
-        "cannon:divisions[2].departments[6].courses[5].tag",
-        "cannon:divisions[2].departments[6].courses[6].tag",
-        "davidson-day:divisions[2].departments[8].courses[6].tag",
-        "hickory-grove-christian:divisions[0].departments[0].courses[8].tag",
-        "hickory-grove-christian:divisions[0].departments[6].courses[3].tag",
-        "hickory-grove-christian:divisions[0].departments[11].courses[11].tag"
       ]
     },
     {
@@ -12133,6 +12261,14 @@
       ]
     },
     {
+      "t": "2025-26",
+      "of": "fe38e73d",
+      "at": [
+        "charlotte-country-day:guideYear",
+        "gaston-day:guideYear"
+      ]
+    },
+    {
       "t": "10 विषय क्षेत्र — JK से French और Spanish दोनों, एक Design Lab, और कक्षा 4 का Exhibition शोध capstone।",
       "of": "24301b41",
       "at": [
@@ -12732,8 +12868,8 @@
       ]
     },
     {
-      "t": "9 विभागों में 119 सूचीबद्ध कोर्स लाइनें — 23 AP कोर्स और 18 IB कोर्स, साथ ही पूरा IB Diploma core।",
-      "of": "a947efc3",
+      "t": "guide के index में 9 विभागों की 117 कोर्स लाइनें — 23 AP कोर्स और 18 IB कोर्स, साथ ही पूरा IB Diploma core। यहाँ इन्हें 121 प्रविष्टियों के रूप में दिखाया गया है, जिनमें वे पाँच कोर्स भी हैं जिनका वर्णन guide में है पर index में नहीं।",
+      "of": "35c1ab48",
       "at": [
         "charlotte-country-day:divisions[2].teaser"
       ]
@@ -14682,8 +14818,8 @@
       ]
     },
     {
-      "t": "8 विभागों में 104 कोर्स — 14 AP और शिक्षकों द्वारा तैयार 13 Advanced Topics कोर्स, जिनमें से हर एक की परिणति एक Signature Learning Experience या एक अंतिम संचयी परीक्षा में होती है।",
-      "of": "a56b67f0",
+      "t": "8 विभागों में 104 कोर्स — 14 AP और शिक्षकों द्वारा तैयार 13 Advanced Topics कोर्स, जिनमें से हर एक की परिणति एक Signature Learning Experience या एक अंतिम संचयी परीक्षा में होती है। यहाँ इन्हें 101 प्रविष्टियों के रूप में दिखाया गया है: String Ensemble I–IV एक ही पंक्ति में हैं।",
+      "of": "cd350c84",
       "at": [
         "cannon:divisions[2].teaser"
       ]
@@ -18183,8 +18319,8 @@
       ]
     },
     {
-      "t": "9 विभागों में ~75 सूचीबद्ध कोर्स — 26 AP कोर्स, AP के बाद Calculus III, और तीन Diploma Distinction ट्रैक।",
-      "of": "4f147650",
+      "t": "9 विभागों में 86 सूचीबद्ध कोर्स — 26 AP कोर्स, AP के बाद Calculus III, और तीन Diploma Distinction ट्रैक। यहाँ इन्हें 87 प्रविष्टियों के रूप में दिखाया गया है, जिनमें AFAR International Research fieldwork कार्यक्रम भी जोड़ा गया है।",
+      "of": "ff7a3d2e",
       "at": [
         "davidson-day:divisions[2].teaser"
       ]
@@ -19227,8 +19363,8 @@
       ]
     },
     {
-      "t": "9 विभागों में 77 कोर्स शीर्षक — जिनमें 16 Advanced Placement कोर्स शामिल हैं — स्कूल की 2026-27 कोर्स सूचियों और स्नातक अनिवार्यताओं से।",
-      "of": "b6302f41",
+      "t": "9 विभागों में 96 कोर्स प्रविष्टियाँ (77 अलग-अलग शीर्षक) — जिनमें 16 Advanced Placement कोर्स शामिल हैं — स्कूल की 2026-27 कोर्स सूचियों और स्नातक अनिवार्यताओं से।",
+      "of": "ca732103",
       "at": [
         "carmel-christian:divisions[0].teaser"
       ]
@@ -22718,13 +22854,6 @@
       ]
     },
     {
-      "t": "म्यूज़िकल थिएटर",
-      "of": "0a9bd0ea",
-      "at": [
-        "hickory-grove-christian:divisions[1].departments[6].courses[7].title"
-      ]
-    },
-    {
       "t": "नृत्य, गायन और अभिनय को बारी-बारी से कराने वाला परिचय, अंत में एक या दो गीतों की प्रस्तुति के साथ।",
       "of": "b1e8b869",
       "at": [
@@ -24023,15 +24152,15 @@
       ]
     },
     {
-      "t": "Pre-Primary",
-      "of": "c7945bb5",
+      "t": "छोटे बच्चे",
+      "of": "0fa8351f",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[0].title"
       ]
     },
     {
-      "t": "आयु 2",
-      "of": "b71ec8d2",
+      "t": "आयु 2–3",
+      "of": "48bbb245",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[0].tag"
       ]
@@ -24044,8 +24173,8 @@
       ]
     },
     {
-      "t": "Primary",
-      "of": "c7827f79",
+      "t": "Primary छात्र",
+      "of": "7a88eceb",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[1].title"
       ]
@@ -24065,8 +24194,8 @@
       ]
     },
     {
-      "t": "Transitional K और Montessori K",
-      "of": "dd5c87e8",
+      "t": "बड़े छात्र",
+      "of": "d9ff5bf3",
       "at": [
         "charlotte-prep:divisions[0].departments[0].courses[2].title"
       ]

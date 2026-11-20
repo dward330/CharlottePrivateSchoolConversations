@@ -31,8 +31,8 @@
       ]
     },
     {
-      "t": "گروه‌های نام‌برده + گروه‌های آزمون‌محور",
-      "of": "9226e2f5",
+      "t": "گروه‌های اجرایی: 4 گروه درسی + 2 گروه آزمون‌محور",
+      "of": "598ee66e",
       "at": [
         "providence-day:ladder.stats[2].label"
       ]
@@ -45,10 +45,12 @@
       ]
     },
     {
-      "t": "TK–4",
-      "of": "f89adb7f",
+      "t": "TK–5",
+      "of": "f79ad9ec",
       "at": [
-        "providence-day:ladder.divisions[0].grades"
+        "providence-day:ladder.divisions[0].grades",
+        "charlotte-latin:ladder.divisions[0].grades",
+        "hickory-grove-christian:ladder.divisions[0].grades"
       ]
     },
     {
@@ -87,15 +89,15 @@
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
+      "t": "6–8",
+      "of": "b7020a62",
       "at": [
         "providence-day:ladder.divisions[1].grades",
         "charlotte-latin:ladder.divisions[1].grades",
-        "cannon:ladder.divisions[1].grades",
-        "davidson-day:ladder.divisions[1].grades",
-        "gaston-day:ladder.divisions[1].grades",
-        "charlotte-prep:ladder.divisions[2].grades"
+        "covenant-day:ladder.divisions[1].grades",
+        "carmel-christian:ladder.divisions[1].grades",
+        "hickory-grove-christian:ladder.divisions[1].grades",
+        "trinity-episcopal:ladder.divisions[2].grades"
       ]
     },
     {
@@ -162,8 +164,8 @@
       ]
     },
     {
-      "t": "AP Studio Art · AP Art History · AP Music Theory",
-      "of": "cfcb0a80",
+      "t": "AP Art and Design · AP Art History · AP Music Theory",
+      "of": "183586af",
       "at": [
         "providence-day:ladder.divisions[2].items[1]"
       ]
@@ -570,8 +572,8 @@
       ]
     },
     {
-      "t": "یک تاریک‌خانهٔ فیلم فعال در کنار کار استودیویی دیجیتال و با مواد نامتعارف، که به AP Studio Art و AP Art History می‌رسد.",
-      "of": "1796eda8",
+      "t": "یک تاریک‌خانهٔ فیلم فعال در کنار کار استودیویی دیجیتال و با مواد نامتعارف، که به AP Art and Design و AP Art History می‌رسد.",
+      "of": "14f6cef9",
       "at": [
         "providence-day:visual.headline"
       ]
@@ -780,8 +782,8 @@
       ]
     },
     {
-      "t": "توالی درس‌های هنرهای تجسمی را روی کاغذ نشانم دهید — یک دانش‌آموز دقیقاً میان هنر Middle School و AP Studio Art چه می‌گذراند؟ و آیا سفالگری با کوره هست؟",
-      "of": "8f442944",
+      "t": "توالی درس‌های هنرهای تجسمی را روی کاغذ نشانم دهید — یک دانش‌آموز دقیقاً میان هنر Middle School و AP Art and Design چه می‌گذراند؟ و آیا سفالگری با کوره هست؟",
+      "of": "b006920b",
       "at": [
         "providence-day:verdict.ask[0]"
       ]
@@ -871,13 +873,6 @@
       ]
     },
     {
-      "t": "TK–4/5",
-      "of": "2fa7d01f",
-      "at": [
-        "charlotte-latin:ladder.divisions[0].grades"
-      ]
-    },
-    {
       "t": "کلاس‌های عملی موسیقی (موسیقی تجربی) — ریتم، ملودی و ژانر از راه آواز، رقص و نواختن",
       "of": "0bff652c",
       "at": [
@@ -906,8 +901,8 @@
       ]
     },
     {
-      "t": "گروه سازی و سازهای زهی در پایهٔ 5 به‌عنوان پلی به سوی بالا معرفی می‌شوند",
-      "of": "e70b78ec",
+      "t": "گروه سازی و سازهای زهی در پایهٔ 5 به‌عنوان پلی به سوی بالا معرفی می‌شوند (پایهٔ 5 به گروه‌های پایه‌های 5–12 می‌پیوندد)",
+      "of": "7d426364",
       "at": [
         "charlotte-latin:ladder.divisions[0].items[4]"
       ]
@@ -1222,8 +1217,8 @@
       ]
     },
     {
-      "t": "گروه سازی، ارکستر یا گروه کر از پایهٔ 5 یا 6، با بیش از شش کنسرت در سال به‌علاوهٔ رسیتال‌ها، یک هم‌آوازی جمعی و روز پدربزرگ‌ها و مادربزرگ‌ها.",
-      "of": "80ce645f",
+      "t": "گروه سازی، ارکستر یا گروه کر از پایهٔ 5، با بیش از شش کنسرت در سال به‌علاوهٔ رسیتال‌ها، یک هم‌آوازی جمعی و روز پدربزرگ‌ها و مادربزرگ‌ها.",
+      "of": "da24af46",
       "at": [
         "charlotte-latin:music.ladder[0].text"
       ]
@@ -1556,10 +1551,11 @@
       ]
     },
     {
-      "t": "JK–6",
-      "of": "df10c94f",
+      "t": "JK–4",
+      "of": "e110cc75",
       "at": [
-        "charlotte-christian:ladder.divisions[0].grades"
+        "charlotte-christian:ladder.divisions[0].grades",
+        "charlotte-country-day:ladder.divisions[0].grades"
       ]
     },
     {
@@ -1570,59 +1566,63 @@
       ]
     },
     {
+      "t": "بازیگرگزینی موزیکال‌های صحنهٔ اصلی از پایهٔ 4 — دانش‌آموزان ابتدایی روی صحنهٔ اصلی حاضر می‌شوند",
+      "of": "6f2b3447",
+      "at": [
+        "charlotte-christian:ladder.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-christian:ladder.divisions[1].grades",
+        "cannon:ladder.divisions[1].grades",
+        "davidson-day:ladder.divisions[1].grades",
+        "gaston-day:ladder.divisions[1].grades",
+        "charlotte-prep:ladder.divisions[2].grades"
+      ]
+    },
+    {
       "t": "موسیقی سازی از پایهٔ 5 آغاز می‌شود، با تفکیک بر حسب خانوادهٔ ساز: برنجی، بادی چوبی، زهی زیر/بم، به‌علاوهٔ کر",
       "of": "3d4dc1ba",
       "at": [
-        "charlotte-christian:ladder.divisions[0].items[1]"
+        "charlotte-christian:ladder.divisions[1].items[0]"
       ]
     },
     {
       "t": "پایهٔ 6 با سازهای برنجی، بادی چوبی، کر و زهی ادامه می‌یابد",
       "of": "c53bcfe5",
       "at": [
-        "charlotte-christian:ladder.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "بازیگرگزینی موزیکال‌های صحنهٔ اصلی از پایهٔ 4 — دانش‌آموزان ابتدایی روی صحنهٔ اصلی حاضر می‌شوند",
-      "of": "6f2b3447",
-      "at": [
-        "charlotte-christian:ladder.divisions[0].items[3]"
-      ]
-    },
-    {
-      "t": "7–8",
-      "of": "4bc6e2c5",
-      "at": [
-        "charlotte-christian:ladder.divisions[1].grades"
+        "charlotte-christian:ladder.divisions[1].items[1]"
       ]
     },
     {
       "t": "Concert Band پایه‌های 7 و 8؛ ارکستر پایه‌های 7 و 8؛ Advanced Choir پایه‌های 7/8",
       "of": "eedf08db",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[0]"
+        "charlotte-christian:ladder.divisions[1].items[2]"
       ]
     },
     {
       "t": "درس‌های اختیاری Digital Arts و Theatre هر دو از پایهٔ 6 باز می‌شوند",
       "of": "dfb5d174",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[1]"
+        "charlotte-christian:ladder.divisions[1].items[3]"
       ]
     },
     {
       "t": "ACT 2 — تیم رقابتی تئاتر Middle School، تنها با آزمون",
       "of": "e981fc96",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[2]"
+        "charlotte-christian:ladder.divisions[1].items[4]"
       ]
     },
     {
       "t": "مسابقهٔ جشنوارهٔ نمایش Middle School انجمن NCTC",
       "of": "2639d8dd",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[3]"
+        "charlotte-christian:ladder.divisions[1].items[5]"
       ]
     },
     {
@@ -1838,8 +1838,8 @@
       ]
     },
     {
-      "t": "Lower School — در برنامهٔ درسی، بر حسب خانوادهٔ ساز (پایه‌های 5–6)",
-      "of": "8e018b9b",
+      "t": "Middle School — در برنامهٔ درسی، بر حسب خانوادهٔ ساز (پایه‌های 5–6)",
+      "of": "a907241d",
       "at": [
         "charlotte-christian:music.tracks[0].label"
       ]
@@ -3031,8 +3031,8 @@
       ]
     },
     {
-      "t": "دوازده گروه برای 1,171 دانش‌آموز تعداد زیادی است: کدام‌یک آزمون ورودی دارند، و چه نسبتی از متقاضیان پذیرفته می‌شوند؟",
-      "of": "018169d5",
+      "t": "دوازده گروه برای 1,330 دانش‌آموز تعداد زیادی است: کدام‌یک آزمون ورودی دارند، و چه نسبتی از متقاضیان پذیرفته می‌شوند؟",
+      "of": "f2f925b0",
       "at": [
         "charlotte-catholic:verdict.ask[1]"
       ]
@@ -3119,13 +3119,6 @@
       "of": "8fcb5a05",
       "at": [
         "charlotte-country-day:ladder.stats[3].label"
-      ]
-    },
-    {
-      "t": "JK–4",
-      "of": "e110cc75",
-      "at": [
-        "charlotte-country-day:ladder.divisions[0].grades"
       ]
     },
     {
@@ -3515,8 +3508,8 @@
       ]
     },
     {
-      "t": "هیچ شعبهٔ Tri-M و هیچ شعبهٔ نام‌بردهٔ Fine Arts Honor Society در هیچ‌یک از صفحات بررسی‌شده یافت نشد، پس هیچ‌یک در اینجا ادعا نمی‌شود.",
-      "of": "a4f4267d",
+      "t": "صفحهٔ Fast Facts مدرسه، Tri-M Music Honor Society و National Art Honor Society را در میان عضویت‌های خود فهرست می‌کند.",
+      "of": "f3fbc2da",
       "at": [
         "charlotte-country-day:music.ladder[3].text"
       ]
@@ -3767,22 +3760,15 @@
       ]
     },
     {
-      "t": "آیا شعبه‌ای از Tri-M، شعبه‌ای از National Art Honor Society، یا یک Fine Arts Honor Society هست؟ هیچ‌یک به‌طور عمومی یافت نشد.",
-      "of": "03aaaa9e",
+      "t": "سفر Edinburgh Fringe در چه سالی انجام شد، دانش‌آموزان چه اجرا کردند، و چند وقت یک بار تکرار می‌شود؟",
+      "of": "ed7ffeaa",
       "at": [
         "charlotte-country-day:verdict.ask[5]"
       ]
     },
     {
-      "t": "سفر Edinburgh Fringe در چه سالی انجام شد، دانش‌آموزان چه اجرا کردند، و چند وقت یک بار تکرار می‌شود؟",
-      "of": "ed7ffeaa",
-      "at": [
-        "charlotte-country-day:verdict.ask[6]"
-      ]
-    },
-    {
-      "t": "هر یک از 22 درس هنری Upper School یا Honors است یا AP یا Advanced Topics — هیچ درس هنری در مسیر عادی وجود ندارد، و پشت آن الزام دوسالهٔ هنر برای فارغ‌التحصیلی قرار دارد.",
-      "of": "572b70cf",
+      "t": "هر یک از 24 درس هنری Upper School یا Honors است یا AP یا Advanced Topics — هیچ درس هنری در مسیر عادی وجود ندارد، و پشت آن الزام دوسالهٔ هنر برای فارغ‌التحصیلی قرار دارد.",
+      "of": "5200e47d",
       "at": [
         "cannon:ladder.headline"
       ]
@@ -4146,8 +4132,8 @@
       ]
     },
     {
-      "t": "هر نه درس موسیقی Upper School عنوان Honors دارند، و بیشترشان را می‌توان تکرار کرد. کارنامهٔ تحصیلی همان نام درسی را نگه می‌دارد، در حالی که کار هر سال سخت‌تر می‌شود.",
-      "of": "72ba3e12",
+      "t": "هر یازده درس موسیقی Upper School عنوان Honors دارند، و بیشترشان را می‌توان تکرار کرد. کارنامهٔ تحصیلی همان نام درسی را نگه می‌دارد، در حالی که کار هر سال سخت‌تر می‌شود.",
+      "of": "044162e7",
       "at": [
         "cannon:music.subhead"
       ]
@@ -4377,8 +4363,8 @@
       ]
     },
     {
-      "t": "گروه هنری‌ای که هنرها را همچون دروس تحصیلی وزن‌دهی می‌کند — 22 درس، همگی در سطح honors یا بالاتر، یک الزام دوساله، و یک مأموریت راهبردی مستند.",
-      "of": "614e8ebd",
+      "t": "گروه هنری‌ای که هنرها را همچون دروس تحصیلی وزن‌دهی می‌کند — 24 درس، همگی در سطح honors یا بالاتر، یک الزام دوساله، و یک مأموریت راهبردی مستند.",
+      "of": "3706ae87",
       "at": [
         "cannon:verdict.headline"
       ]
@@ -4398,8 +4384,8 @@
       ]
     },
     {
-      "t": "هر 22 درس هنری Upper School یا Honors است یا AP یا Advanced Topics — هیچ درس هنری در مسیر عادی نیست. افزون بر این، الزام دوسالهٔ هنر برای فارغ‌التحصیلی وجود دارد. این نشانه‌ای است که می‌توانید دربارهٔ نحوهٔ حساب‌شدن هنر در معدل و کارنامهٔ تحصیلی بررسی کنید، و نه یک شعار.",
-      "of": "df386ffe",
+      "t": "هر 24 درس هنری Upper School یا Honors است یا AP یا Advanced Topics — هیچ درس هنری در مسیر عادی نیست. افزون بر این، الزام دوسالهٔ هنر برای فارغ‌التحصیلی وجود دارد. این نشانه‌ای است که می‌توانید دربارهٔ نحوهٔ حساب‌شدن هنر در معدل و کارنامهٔ تحصیلی بررسی کنید، و نه یک شعار.",
+      "of": "e5f05584",
       "at": [
         "cannon:verdict.holdsUp[0].text"
       ]
@@ -4531,8 +4517,8 @@
       ]
     },
     {
-      "t": "نردبانی از JK تا 12 با ستون فقرات موسیقی پرستشی: هنر از پیش‌دبستانی کوچک ادغام‌شده، از پایهٔ 1 مرحله‌ای، و گروه‌ها از پایهٔ 6.",
-      "of": "14f38ef8",
+      "t": "نردبانی از JK تا 12 با ستون فقرات موسیقی پرستشی: هنر از پیش‌دبستانی کوچک ادغام‌شده، از پایهٔ 1 مرحله‌ای، و گروه‌ها از پایهٔ 3.",
+      "of": "96ff9491",
       "at": [
         "covenant-day:ladder.headline"
       ]
@@ -4598,16 +4584,6 @@
       "of": "b0c96bc4",
       "at": [
         "covenant-day:ladder.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "6–8",
-      "of": "b7020a62",
-      "at": [
-        "covenant-day:ladder.divisions[1].grades",
-        "carmel-christian:ladder.divisions[1].grades",
-        "hickory-grove-christian:ladder.divisions[1].grades",
-        "trinity-episcopal:ladder.divisions[2].grades"
       ]
     },
     {
@@ -5768,8 +5744,8 @@
       ]
     },
     {
-      "t": "گروه‌های نام‌برده‌شده + Ignite Band با گزینش از راه آزمون",
-      "of": "8ab9ca66",
+      "t": "گروه‌های نام‌برده‌شده، از جمله Ignite Band با گزینش از راه آزمون",
+      "of": "87a5ed91",
       "at": [
         "carmel-christian:ladder.stats[1].label"
       ]
@@ -6281,13 +6257,6 @@
       "of": "ed7a6ce3",
       "at": [
         "hickory-grove-christian:ladder.stats[3].label"
-      ]
-    },
-    {
-      "t": "TK–5",
-      "of": "f79ad9ec",
-      "at": [
-        "hickory-grove-christian:ladder.divisions[0].grades"
       ]
     },
     {

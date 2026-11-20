@@ -31,8 +31,8 @@
       ]
     },
     {
-      "t": "ensembles nommés + groupes sur audition",
-      "of": "9226e2f5",
+      "t": "ensembles : 4 au programme + 2 sur audition",
+      "of": "598ee66e",
       "at": [
         "providence-day:ladder.stats[2].label"
       ]
@@ -45,10 +45,12 @@
       ]
     },
     {
-      "t": "TK–4",
-      "of": "f89adb7f",
+      "t": "TK–5",
+      "of": "f79ad9ec",
       "at": [
-        "providence-day:ladder.divisions[0].grades"
+        "providence-day:ladder.divisions[0].grades",
+        "charlotte-latin:ladder.divisions[0].grades",
+        "hickory-grove-christian:ladder.divisions[0].grades"
       ]
     },
     {
@@ -87,15 +89,15 @@
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
+      "t": "6–8",
+      "of": "b7020a62",
       "at": [
         "providence-day:ladder.divisions[1].grades",
         "charlotte-latin:ladder.divisions[1].grades",
-        "cannon:ladder.divisions[1].grades",
-        "davidson-day:ladder.divisions[1].grades",
-        "gaston-day:ladder.divisions[1].grades",
-        "charlotte-prep:ladder.divisions[2].grades"
+        "covenant-day:ladder.divisions[1].grades",
+        "carmel-christian:ladder.divisions[1].grades",
+        "hickory-grove-christian:ladder.divisions[1].grades",
+        "trinity-episcopal:ladder.divisions[2].grades"
       ]
     },
     {
@@ -162,8 +164,8 @@
       ]
     },
     {
-      "t": "AP Studio Art · AP Art History · AP Music Theory",
-      "of": "cfcb0a80",
+      "t": "AP Art and Design · AP Art History · AP Music Theory",
+      "of": "183586af",
       "at": [
         "providence-day:ladder.divisions[2].items[1]"
       ]
@@ -570,8 +572,8 @@
       ]
     },
     {
-      "t": "Une chambre noire argentique en état de marche, aux côtés du travail d’atelier numérique et sur matériaux non conventionnels, menant à AP Studio Art et AP Art History.",
-      "of": "1796eda8",
+      "t": "Une chambre noire argentique en état de marche, aux côtés du travail d’atelier numérique et sur matériaux non conventionnels, menant à AP Art and Design et AP Art History.",
+      "of": "14f6cef9",
       "at": [
         "providence-day:visual.headline"
       ]
@@ -780,8 +782,8 @@
       ]
     },
     {
-      "t": "Pourriez-vous me montrer la progression des cours d’arts visuels sur le papier — que suit exactement un élève entre l’art de la Middle School et AP Studio Art ? Et y a-t-il de la céramique, avec un four ?",
-      "of": "8f442944",
+      "t": "Pourriez-vous me montrer la progression des cours d’arts visuels sur le papier — que suit exactement un élève entre l’art de la Middle School et AP Art and Design ? Et y a-t-il de la céramique, avec un four ?",
+      "of": "b006920b",
       "at": [
         "providence-day:verdict.ask[0]"
       ]
@@ -871,13 +873,6 @@
       ]
     },
     {
-      "t": "TK–4/5",
-      "of": "2fa7d01f",
-      "at": [
-        "charlotte-latin:ladder.divisions[0].grades"
-      ]
-    },
-    {
       "t": "Cours de musique pratiques (musique par l’expérience) — rythme, mélodie, genre, par le chant, la danse et la pratique instrumentale",
       "of": "0bff652c",
       "at": [
@@ -906,8 +901,8 @@
       ]
     },
     {
-      "t": "L’orchestre d’harmonie et les instruments à cordes sont introduits en Grade 5 comme passerelle vers le niveau supérieur",
-      "of": "e70b78ec",
+      "t": "L’orchestre d’harmonie et les instruments à cordes sont introduits en Grade 5 comme passerelle vers le niveau supérieur (le Grade 5 rejoint les ensembles des Grades 5–12)",
+      "of": "7d426364",
       "at": [
         "charlotte-latin:ladder.divisions[0].items[4]"
       ]
@@ -1222,8 +1217,8 @@
       ]
     },
     {
-      "t": "orchestre d’harmonie, orchestre ou chœur à partir du Grade 5 ou 6, avec six concerts ou plus par an, auxquels s’ajoutent des récitals, un chant collectif communautaire et le Grandparents’ Day.",
-      "of": "80ce645f",
+      "t": "orchestre d’harmonie, orchestre ou chœur à partir du Grade 5, avec six concerts ou plus par an, auxquels s’ajoutent des récitals, un chant collectif communautaire et le Grandparents’ Day.",
+      "of": "da24af46",
       "at": [
         "charlotte-latin:music.ladder[0].text"
       ]
@@ -1556,10 +1551,11 @@
       ]
     },
     {
-      "t": "JK–6",
-      "of": "df10c94f",
+      "t": "JK–4",
+      "of": "e110cc75",
       "at": [
-        "charlotte-christian:ladder.divisions[0].grades"
+        "charlotte-christian:ladder.divisions[0].grades",
+        "charlotte-country-day:ladder.divisions[0].grades"
       ]
     },
     {
@@ -1570,59 +1566,63 @@
       ]
     },
     {
+      "t": "Les comédies musicales de la grande scène recrutent dès le Grade 4 — des élèves du primaire montent sur la scène principale",
+      "of": "6f2b3447",
+      "at": [
+        "charlotte-christian:ladder.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "charlotte-christian:ladder.divisions[1].grades",
+        "cannon:ladder.divisions[1].grades",
+        "davidson-day:ladder.divisions[1].grades",
+        "gaston-day:ladder.divisions[1].grades",
+        "charlotte-prep:ladder.divisions[2].grades"
+      ]
+    },
+    {
       "t": "La musique instrumentale débute en Grade 5, répartie par famille d’instruments : cuivres, bois, cordes aiguës/graves, plus le chant choral",
       "of": "3d4dc1ba",
       "at": [
-        "charlotte-christian:ladder.divisions[0].items[1]"
+        "charlotte-christian:ladder.divisions[1].items[0]"
       ]
     },
     {
       "t": "Le Grade 6 poursuit avec les cuivres, les bois, la chorale et les cordes",
       "of": "c53bcfe5",
       "at": [
-        "charlotte-christian:ladder.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "Les comédies musicales de la grande scène recrutent dès le Grade 4 — des élèves du primaire montent sur la scène principale",
-      "of": "6f2b3447",
-      "at": [
-        "charlotte-christian:ladder.divisions[0].items[3]"
-      ]
-    },
-    {
-      "t": "7–8",
-      "of": "4bc6e2c5",
-      "at": [
-        "charlotte-christian:ladder.divisions[1].grades"
+        "charlotte-christian:ladder.divisions[1].items[1]"
       ]
     },
     {
       "t": "Grade 7 and Grade 8 Concert Band ; Grade 7 and Grade 8 Orchestra ; Grade 7/8 Advanced Choir",
       "of": "eedf08db",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[0]"
+        "charlotte-christian:ladder.divisions[1].items[2]"
       ]
     },
     {
       "t": "Les options Digital Arts et Theatre s’ouvrent toutes deux au Grade 6",
       "of": "dfb5d174",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[1]"
+        "charlotte-christian:ladder.divisions[1].items[3]"
       ]
     },
     {
       "t": "ACT 2 — l’équipe de théâtre de compétition du collège, accessible uniquement sur audition",
       "of": "e981fc96",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[2]"
+        "charlotte-christian:ladder.divisions[1].items[4]"
       ]
     },
     {
       "t": "Concours NCTC Middle School Play Festival",
       "of": "2639d8dd",
       "at": [
-        "charlotte-christian:ladder.divisions[1].items[3]"
+        "charlotte-christian:ladder.divisions[1].items[5]"
       ]
     },
     {
@@ -1838,8 +1838,8 @@
       ]
     },
     {
-      "t": "Lower School — au programme, par famille d’instruments (niveaux 5–6)",
-      "of": "8e018b9b",
+      "t": "Middle School — au programme, par famille d’instruments (niveaux 5–6)",
+      "of": "a907241d",
       "at": [
         "charlotte-christian:music.tracks[0].label"
       ]
@@ -3031,8 +3031,8 @@
       ]
     },
     {
-      "t": "Douze ensembles, c’est beaucoup pour 1,171 élèves : lesquels se font sur audition, et quelle proportion de candidats est retenue ?",
-      "of": "018169d5",
+      "t": "Douze ensembles, c’est beaucoup pour 1,330 élèves : lesquels se font sur audition, et quelle proportion de candidats est retenue ?",
+      "of": "f2f925b0",
       "at": [
         "charlotte-catholic:verdict.ask[1]"
       ]
@@ -3119,13 +3119,6 @@
       "of": "8fcb5a05",
       "at": [
         "charlotte-country-day:ladder.stats[3].label"
-      ]
-    },
-    {
-      "t": "JK–4",
-      "of": "e110cc75",
-      "at": [
-        "charlotte-country-day:ladder.divisions[0].grades"
       ]
     },
     {
@@ -3515,8 +3508,8 @@
       ]
     },
     {
-      "t": "aucune section Tri-M ni aucune section nommée de Fine Arts Honor Society n’a pu être trouvée sur les pages consultées, aucune des deux n’est donc revendiquée ici.",
-      "of": "a4f4267d",
+      "t": "la page Fast Facts de l’école cite la Tri-M Music Honor Society et la National Art Honor Society parmi ses affiliations.",
+      "of": "f3fbc2da",
       "at": [
         "charlotte-country-day:music.ladder[3].text"
       ]
@@ -3767,22 +3760,15 @@
       ]
     },
     {
-      "t": "Existe-t-il une section Tri-M, une section National Art Honor Society ou une Fine Arts Honor Society ? Aucune n’a pu être trouvée publiquement.",
-      "of": "03aaaa9e",
+      "t": "En quelle année le voyage au Edinburgh Fringe a-t-il eu lieu, qu’ont joué les élèves, et à quelle fréquence se répète-t-il ?",
+      "of": "ed7ffeaa",
       "at": [
         "charlotte-country-day:verdict.ask[5]"
       ]
     },
     {
-      "t": "En quelle année le voyage au Edinburgh Fringe a-t-il eu lieu, qu’ont joué les élèves, et à quelle fréquence se répète-t-il ?",
-      "of": "ed7ffeaa",
-      "at": [
-        "charlotte-country-day:verdict.ask[6]"
-      ]
-    },
-    {
-      "t": "Chacun des 22 cours artistiques de l’Upper School est Honors, AP ou Advanced Topics — il n’existe aucun cours artistique de filière ordinaire, le tout derrière une exigence de deux ans d’arts pour l’obtention du diplôme.",
-      "of": "572b70cf",
+      "t": "Chacun des 24 cours artistiques de l’Upper School est Honors, AP ou Advanced Topics — il n’existe aucun cours artistique de filière ordinaire, le tout derrière une exigence de deux ans d’arts pour l’obtention du diplôme.",
+      "of": "5200e47d",
       "at": [
         "cannon:ladder.headline"
       ]
@@ -4146,8 +4132,8 @@
       ]
     },
     {
-      "t": "Les neuf cours de musique de l’Upper School portent tous la mention Honors, et la plupart peuvent être suivis plusieurs fois. Le relevé de notes conserve le même intitulé de cours, tandis que le travail devient plus exigeant chaque année.",
-      "of": "72ba3e12",
+      "t": "Les onze cours de musique de l’Upper School portent tous la mention Honors, et la plupart peuvent être suivis plusieurs fois. Le relevé de notes conserve le même intitulé de cours, tandis que le travail devient plus exigeant chaque année.",
+      "of": "044162e7",
       "at": [
         "cannon:music.subhead"
       ]
@@ -4377,8 +4363,8 @@
       ]
     },
     {
-      "t": "Un département artistique qui pondère les arts comme les matières académiques — 22 cours tous au niveau honors ou au-dessus, une exigence de deux ans, et une mission stratégique documentée.",
-      "of": "614e8ebd",
+      "t": "Un département artistique qui pondère les arts comme les matières académiques — 24 cours tous au niveau honors ou au-dessus, une exigence de deux ans, et une mission stratégique documentée.",
+      "of": "3706ae87",
       "at": [
         "cannon:verdict.headline"
       ]
@@ -4398,8 +4384,8 @@
       ]
     },
     {
-      "t": "les 22 cours artistiques de l’Upper School sont tous Honors, AP ou Advanced Topics — il n’existe aucun cours artistique de filière ordinaire. S’y ajoute une exigence de deux ans d’arts pour l’obtention du diplôme. C’est un signal que vous pouvez vérifier sur la façon dont les arts comptent dans la GPA et le relevé de notes, pas un slogan.",
-      "of": "df386ffe",
+      "t": "les 24 cours artistiques de l’Upper School sont tous Honors, AP ou Advanced Topics — il n’existe aucun cours artistique de filière ordinaire. S’y ajoute une exigence de deux ans d’arts pour l’obtention du diplôme. C’est un signal que vous pouvez vérifier sur la façon dont les arts comptent dans la GPA et le relevé de notes, pas un slogan.",
+      "of": "e5f05584",
       "at": [
         "cannon:verdict.holdsUp[0].text"
       ]
@@ -4531,8 +4517,8 @@
       ]
     },
     {
-      "t": "Une progression JK–12 avec la musique de louange pour colonne vertébrale : l’art intégré dès le junior kindergarten, séquentiel à partir du niveau 1, des ensembles à partir du niveau 6.",
-      "of": "14f38ef8",
+      "t": "Une progression JK–12 avec la musique de louange pour colonne vertébrale : l’art intégré dès le junior kindergarten, séquentiel à partir du niveau 1, des ensembles à partir du niveau 3.",
+      "of": "96ff9491",
       "at": [
         "covenant-day:ladder.headline"
       ]
@@ -4598,16 +4584,6 @@
       "of": "b0c96bc4",
       "at": [
         "covenant-day:ladder.divisions[0].items[2]"
-      ]
-    },
-    {
-      "t": "6–8",
-      "of": "b7020a62",
-      "at": [
-        "covenant-day:ladder.divisions[1].grades",
-        "carmel-christian:ladder.divisions[1].grades",
-        "hickory-grove-christian:ladder.divisions[1].grades",
-        "trinity-episcopal:ladder.divisions[2].grades"
       ]
     },
     {
@@ -5768,8 +5744,8 @@
       ]
     },
     {
-      "t": "ensembles nommés + Ignite Band sur audition",
-      "of": "8ab9ca66",
+      "t": "ensembles nommés, dont l’Ignite Band sur audition",
+      "of": "87a5ed91",
       "at": [
         "carmel-christian:ladder.stats[1].label"
       ]
@@ -6281,13 +6257,6 @@
       "of": "ed7a6ce3",
       "at": [
         "hickory-grove-christian:ladder.stats[3].label"
-      ]
-    },
-    {
-      "t": "TK–5",
-      "of": "f79ad9ec",
-      "at": [
-        "hickory-grove-christian:ladder.divisions[0].grades"
       ]
     },
     {

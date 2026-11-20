@@ -1313,12 +1313,12 @@
       "t": "Hawks’ Club factura POR SEMESTRE, no por mes — dos cargos al año, el 23 de septiembre y el 20 de enero."
     },
     {
-      "text": "Pricing is almost perfectly linear: the N-day rate is exactly N times the 1-day rate, with no volume discount — except on one row that appears to break the pattern.",
-      "of": "a67ae8cf",
+      "text": "Pricing is almost perfectly linear: the N-day rate is exactly N times the 1-day rate, with no volume discount — except on two rows that break it.",
+      "of": "22b47af7",
       "at": [
         "charlotte-latin:cost.subhead"
       ],
-      "t": "El precio es casi perfectamente lineal: la tarifa de N días es exactamente N veces la de 1 día, sin descuento por volumen — salvo en una fila que parece romper el patrón."
+      "t": "El precio es casi perfectamente lineal: la tarifa de N días es exactamente N veces la de 1 día, sin descuento por volumen — salvo en dos filas que lo rompen."
     },
     {
       "text": "2 semesters",
@@ -1510,12 +1510,12 @@
       "t": "La inscripción para 2026-27 abrió el **14 de mayo de 2026 a las 8:00 p.m.** — una apertura en firme por la tarde es la firma de un programa cuyas clases populares se llenan en minutos."
     },
     {
-      "text": "The **TK/K 1:30–4:30 row does not compute.** Every other row is exactly linear, but this one prices 4 days at $2,300 and 5 days at $2,540 where linear would give $2,540 and $3,175 — so five days costs what four days should. Either an unadvertised volume discount on the most popular tier or a published error, and a $635-per-semester question. The same two values appeared in an earlier research pass, which favours \"real\".",
-      "of": "827224d6",
+      "text": "The **TK/K 1:30–4:30 row does not compute.** Every other row is exactly linear, but this one prices 4 days at $2,300 and 5 days at $2,540 where linear would give $2,540 and $3,175 — so five days costs what four days should. Either an unadvertised volume discount on the most popular tier or a published error, and a $635-per-semester question. The same two values appeared in an earlier research pass, which favours \"real\". The Grades 1–5 2:55–4:30 row breaks it too: re-read live 2026-11-20 (plan consistency LAT-3), it prints 4 days at $1,880 against $1,475 for 5 days, where linear gives $1,180, so four days costs more than five. The July record read $1,180; whether the page changed since is unknown.",
+      "of": "26a4f94e",
       "at": [
         "charlotte-latin:cost.flags[0].text"
       ],
-      "t": "**La fila de TK/K de 1:30–4:30 no cuadra.** Todas las demás filas son exactamente lineales, pero esta cobra 4 días a $2,300 y 5 días a $2,540, donde lo lineal daría $2,540 y $3,175 — de modo que cinco días cuestan lo que deberían costar cuatro. O es un descuento por volumen no anunciado en el tramo más popular, o es un error de publicación, y es una diferencia de $635 por semestre. Los mismos dos valores aparecieron en una investigación anterior, lo que inclina la balanza hacia \"real\"."
+      "t": "**La fila de TK/K de 1:30–4:30 no cuadra.** Todas las demás filas son exactamente lineales, pero esta cobra 4 días a $2,300 y 5 días a $2,540, donde lo lineal daría $2,540 y $3,175 — de modo que cinco días cuestan lo que deberían costar cuatro. O es un descuento por volumen no anunciado en el tramo más popular, o es un error de publicación, y es una diferencia de $635 por semestre. Los mismos dos valores aparecieron en una investigación anterior, lo que inclina la balanza hacia \"real\". La fila de los grados 1–5 de 2:55–4:30 también lo rompe: revisada en directo el 2026-11-20 (plan consistency LAT-3), cobra 4 días a $1,880 frente a $1,475 por 5 días, donde lo lineal daría $1,180, así que cuatro días cuestan más que cinco. El registro de julio decía $1,180; no se sabe si la página ha cambiado desde entonces."
     },
     {
       "text": "Almost every other fee is unpublished: registration · late pickup · schedule changes · cancellation and refunds · any drop-in or occasional-use rate. No drop-in option is described anywhere. The model appears to be pre-registered fixed days only. Latin’s summer camp publishes its own version of each one, so the school clearly can publish them. The school-year program simply does not.",
@@ -2142,12 +2142,12 @@
       "t": "**No se afirma que la ayuda financiera sea aplicable**, y el programa extraescolar se clasifica bajo \"other optional costs\" junto al transporte."
     },
     {
-      "text": "**The site contradicts itself on dismissal times**, and one pricing row breaks the pattern every other row follows.",
-      "of": "dbdbc275",
+      "text": "**The site contradicts itself on dismissal times**, and two pricing rows break the pattern every other row follows.",
+      "of": "461af1a1",
       "at": [
         "charlotte-latin:verdict.watchouts[7]"
       ],
-      "t": "**El sitio se contradice a sí mismo en las horas de salida**, y una fila de precios rompe el patrón que siguen todas las demás."
+      "t": "**El sitio se contradice a sí mismo en las horas de salida**, y dos filas de precios rompen el patrón que siguen todas las demás."
     },
     {
       "text": "What are our options for after-school supervision once our child reaches Middle School? Is there anything between the 3:20 dismissal and the 5:30 activity bus?",
@@ -2166,12 +2166,12 @@
       "t": "Por favor confirmen la hora real de salida de los grados 1–5 — ¿2:55, 3:05 o 3:10? Sus páginas de Transportation y After-School no coinciden."
     },
     {
-      "text": "Please confirm the TK/K 1:30–4:30 rates: is five days really $2,540 and four days $2,300? Those break the pattern of every other row.",
-      "of": "d409864e",
+      "text": "Please confirm two pricing rows. For TK/K 1:30–4:30, is five days really $2,540 and four days $2,300? For Grades 1–5 2:55–4:30, is four days really $1,880, more than the $1,475 for five?",
+      "of": "301f7b5a",
       "at": [
         "charlotte-latin:verdict.checklist[2]"
       ],
-      "t": "Por favor confirmen las tarifas de TK/K de 1:30–4:30: ¿de verdad cinco días cuestan $2,540 y cuatro días $2,300? Esas cifras rompen el patrón de todas las demás filas."
+      "t": "Por favor confirmen dos filas de precios. Para TK/K de 1:30–4:30, ¿de verdad cinco días cuestan $2,540 y cuatro días $2,300? Para los grados 1–5 de 2:55–4:30, ¿de verdad cuatro días cuestan $1,880, más que los $1,475 de cinco?"
     },
     {
       "text": "Is there a Hawks’ Club registration fee, and is it per child or per family?",
@@ -2892,12 +2892,12 @@
       "t": "**Autorización de recogida explícita y aplicada**, con comprobación de identificación a principios de curso."
     },
     {
-      "text": "**A deep summer bench** — roughly 100 distinct camps across six weeks, JK–12, including an Orton-Gillingham literacy intervention.",
-      "of": "0d3dc91a",
+      "text": "**A deep summer bench** — 96 distinct camps across six weeks, JK–12, including an Orton-Gillingham literacy intervention.",
+      "of": "5f4269d2",
       "at": [
         "charlotte-christian:verdict.strengths[6]"
       ],
-      "t": "**Una oferta amplia de verano** — alrededor de 100 campamentos distintos a lo largo de seis semanas, de JK a 12.º, incluida una intervención de alfabetización Orton-Gillingham."
+      "t": "**Una oferta amplia de verano** — 96 campamentos distintos a lo largo de seis semanas, de JK a 12.º, incluida una intervención de alfabetización Orton-Gillingham."
     },
     {
       "text": "**Rates jumped 32–52% in two years**, with the steepest rises on the mid-week tiers. Do not budget off older figures.",
@@ -3523,12 +3523,12 @@
       "t": "La fila de Kindergarten hasta las 6:00 p.m. es la única con valores no redondos — $208, $489, $615 — cuando todas las demás filas usan números redondos. Vale la pena confirmar que no sea una errata."
     },
     {
-      "text": "No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 30% of students receive tuition aid. Summer programs, by contrast, do have their own aid application.",
-      "of": "f37dd93e",
+      "text": "No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 20% of students (341) receive tuition aid. Summer programs, by contrast, do have their own aid application.",
+      "of": "ee4a34f0",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ],
-      "t": "No se publica ningún descuento por hermanos para Extended Day, ni existe ninguna política de ayuda financiera para Extended Day. Se factura como **cargo accesorio**, lo que lo deja fuera de la ayuda a la matrícula, aunque alrededor del 30% de los estudiantes reciban ayuda. Los programas de verano, en cambio, sí tienen su propia solicitud de ayuda."
+      "t": "No se publica ningún descuento por hermanos para Extended Day, ni existe ninguna política de ayuda financiera para Extended Day. Se factura como **cargo accesorio**, lo que lo deja fuera de la ayuda a la matrícula, aunque alrededor del 20% de los estudiantes (341) reciban ayuda. Los programas de verano, en cambio, sí tienen su propia solicitud de ayuda."
     },
     {
       "text": "Contract rigidity is real: one change per semester, $50 for any additional change, and **no changes permitted in August or December** — the two months a family is most likely to discover its schedule was wrong.",
@@ -3853,12 +3853,12 @@
       "t": "**El costo se acumula con fuerza** — JK hasta las 6:00 p.m. cinco días a la semana son $900/mes, unos $8,100 al año por encima de los $24,515 de matrícula, alrededor de un tercio más sobre el precio de lista."
     },
     {
-      "text": "**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 30% of students receive tuition assistance. Summer programs, by contrast, do have their own aid application.",
-      "of": "eb348793",
+      "text": "**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 20% of students (341) receive tuition assistance. Summer programs, by contrast, do have their own aid application.",
+      "of": "008fec7d",
       "at": [
         "charlotte-country-day:verdict.watchouts[2]"
       ],
-      "t": "**Extended Day parece quedar fuera de la ayuda financiera.** Se factura como cargo accesorio sin ninguna política de ayuda publicada, aunque alrededor del 30% de los estudiantes recibe ayuda para la matrícula. Los programas de verano, en cambio, sí tienen su propia solicitud de ayuda."
+      "t": "**Extended Day parece quedar fuera de la ayuda financiera.** Se factura como cargo accesorio sin ninguna política de ayuda publicada, aunque alrededor del 20% de los estudiantes (341) recibe ayuda para la matrícula. Los programas de verano, en cambio, sí tienen su propia solicitud de ayuda."
     },
     {
       "text": "**Contract rigidity** — one change per semester, $50 for any additional change, and no changes at all in August or December.",
@@ -4213,12 +4213,12 @@
       "t": "O prescinde por completo del contrato."
     },
     {
-      "text": "Drop-in is **$11.50 an hour** with no commitment. A family needing two afternoons a month pays roughly **$100 a year** instead of $1,904 — an unusually forgiving option for occasional use.",
-      "of": "4f33ab3b",
+      "text": "Drop-in is **$11.50 an hour** with no commitment. Two afternoons a month is about **$69 a month** on the hourly rate, against $1,904 a year for a two-day contract — an unusually forgiving option for occasional use.",
+      "of": "c481445b",
       "at": [
         "cannon:cost.aside.text"
       ],
-      "t": "El acceso libre cuesta **$11.50 la hora** sin ningún compromiso. Una familia que necesite dos tardes al mes paga alrededor de **$100 al año** en lugar de $1,904 — una opción inusualmente benévola para el uso ocasional."
+      "t": "El acceso libre cuesta **$11.50 la hora** sin ningún compromiso. Dos tardes al mes salen por unos **$69 al mes** con la tarifa por hora, frente a $1,904 al año de un contrato de dos días — una opción inusualmente benévola para el uso ocasional."
     },
     {
       "text": "Registration fee if enrolled early",
@@ -4761,12 +4761,12 @@
       "t": "**Los días de salida temprana están cubiertos**, de 11:45 a.m. a 4:00 p.m., algo que muchos colegios no hacen en absoluto."
     },
     {
-      "text": "**True drop-in at $11.50 an hour with no contract.** A family needing two afternoons a month pays around $100 a year rather than committing to $1,904. For occasional use, that is unusually forgiving.",
-      "of": "d4e28caf",
+      "text": "**True drop-in at $11.50 an hour with no contract.** Two afternoons a month is about $69 a month on the hourly rate, against $1,904 a year for a two-day contract. For occasional use, that is unusually forgiving.",
+      "of": "03038aa4",
       "at": [
         "cannon:verdict.strengths[2]"
       ],
-      "t": "**Acceso libre real a $11.50 la hora sin contrato.** Una familia que necesite dos tardes al mes paga unos $100 al año en lugar de comprometerse a $1,904. Para un uso ocasional, resulta inusualmente benévolo."
+      "t": "**Acceso libre real a $11.50 la hora sin contrato.** Dos tardes al mes salen por unos $69 al mes con la tarifa por hora, frente a $1,904 al año de un contrato de dos días. Para un uso ocasional, resulta inusualmente benévolo."
     },
     {
       "text": "**A sharp price ladder** — five days costs only about 3.7× the one-day rate, so heavy users get a real discount rather than a linear bill.",
@@ -6438,12 +6438,12 @@
       "t": "Una única franja de 2:30 a 5:30 p.m. cubre todo el colegio — un programa Afterschool para TK–5 y un Study Hall supervisado para los grados 6–11 — con la recogida más tardía a las 5:30."
     },
     {
-      "text": "Both are full-year programs (no single-day drop-ins), billed annually in equal payments. The recurring rate is not published, so no price is shown on the bars.",
-      "of": "e116964b",
+      "text": "Both are full-year programs (no single-day drop-ins), billed annually in equal payments. The tuition page prices after-school childcare at $2,600 a year for TK–5 and $1,300 for grades 6–12; the Afterschool page describes Study Hall for grades 6–11.",
+      "of": "20f04c6f",
       "at": [
         "hickory-grove-christian:coverage.subhead"
       ],
-      "t": "Ambos son programas de curso completo (sin acceso suelto por días), facturados anualmente en pagos iguales. La tarifa periódica no se publica, por lo que no se muestra ningún precio en las barras."
+      "t": "Ambos son programas de curso completo (sin acceso suelto por días), facturados anualmente en pagos iguales. La página de matrícula fija el cuidado extraescolar en $2,600 al año para TK–5 y $1,300 para los grados 6–12; la página de Afterschool describe Study Hall para los grados 6–11."
     },
     {
       "text": "from 2:30, pickup by 5:30",
@@ -6455,20 +6455,20 @@
       "t": "desde las 2:30, recogida antes de las 5:30"
     },
     {
-      "text": "Afterschool · rate not published",
-      "of": "b7f3775d",
+      "text": "Afterschool · $2,600 a year",
+      "of": "602867bc",
       "at": [
         "hickory-grove-christian:coverage.rows[0].flatLabel"
       ],
-      "t": "Afterschool · tarifa no publicada"
+      "t": "Afterschool · $2,600 al año"
     },
     {
-      "text": "Study Hall · rate not published",
-      "of": "42f7c67d",
+      "text": "Study Hall · $1,300 a year (fee line: grades 6–12)",
+      "of": "b58d787d",
       "at": [
         "hickory-grove-christian:coverage.rows[1].flatLabel"
       ],
-      "t": "Study Hall · tarifa no publicada"
+      "t": "Study Hall · $1,300 al año (línea de tarifa: grados 6–12)"
     },
     {
       "text": "5:30 p.m.",
@@ -6535,12 +6535,12 @@
       "t": "Belinda Jackson, directora de actividades extraescolares (704-531-4034)"
     },
     {
-      "text": "The recurring TK–5 Afterschool monthly/annual rate is not published on the Afterschool Program page or the Tuition and Fees page. The amounts sit behind the school's \"student services fees\" documents / FACTS Family Portal. So this page has no cost planner for it, and the Compare row for aftercare cost shows N/A for HGCS.",
-      "of": "fbab5a4a",
+      "text": "Grades differ between two school pages (plan consistency HG-16, re-read live 2026-11-20): the Tuition and Fees page says \"6th-12th Grade After School Childcare: $1,300; yearly\"; the Afterschool page describes Study Hall \"for students in grades 6–11\". Both are attributed on the card, and the checklist asks. The old /life-as-a-lion/after-school-program URL now 404s and /admissions/tuition-and-fees redirects to the admissions home; both links were re-pointed.",
+      "of": "b5ccbc26",
       "at": [
         "hickory-grove-christian:coverage.flags[0].text"
       ],
-      "t": "La tarifa mensual o anual periódica del programa Afterschool de TK–5 no se publica ni en la página del programa Afterschool ni en la de Tuition and Fees. Los importes están en los documentos de “student services fees” del colegio o en el FACTS Family Portal. Por eso esta página no tiene un planificador de costes para ello, y la fila de Compare del coste del cuidado extraescolar figura como N/A para HGCS."
+      "t": "Los grados difieren entre dos páginas del colegio (plan consistency HG-16, revisado en directo el 2026-11-20): la página de Tuition and Fees dice \"6th-12th Grade After School Childcare: $1,300; yearly\"; la página de Afterschool describe Study Hall \"for students in grades 6–11\". Ambas se atribuyen en la tarjeta, y la lista de preguntas lo plantea. La antigua URL /life-as-a-lion/after-school-program ahora da 404 y /admissions/tuition-and-fees redirige a la página principal de admisiones; ambos enlaces se han actualizado."
     },
     {
       "text": "A search aggregator surfaced Study Hall figures ($288 / $432 / $900 per year) tagged to grades 8–12, which conflicts with the school's own 6–11 Study Hall range and appears on no official page — treated as unconfirmed and not used.",
@@ -6727,20 +6727,20 @@
       "t": "No se publica ninguna proporción de personal por niño, tamaño de grupo ni horario hora por hora más allá de las listas de actividades anteriores. Las actividades de enriquecimiento se nombran, pero no se organizan como un catálogo de clases con días, grados o tarifas."
     },
     {
-      "text": "A single, age-split afternoon program that covers the whole school to 5:30 p.m. — with fully published activities but no published price, and no summer coverage.",
-      "of": "5ffaf4ac",
+      "text": "A single, age-split afternoon program that covers the whole school to 5:30 p.m. — with published activities and annual prices, but no summer coverage.",
+      "of": "12d560ff",
       "at": [
         "hickory-grove-christian:verdict.headline"
       ],
-      "t": "Un único programa de tarde dividido por edades que cubre todo el colegio hasta las 5:30 p.m. — con actividades plenamente publicadas, pero sin precio publicado y sin cobertura en verano."
+      "t": "Un único programa de tarde dividido por edades que cubre todo el colegio hasta las 5:30 p.m. — con actividades y precios anuales publicados, pero sin cobertura en verano."
     },
     {
-      "text": "The open questions are the unpublished recurring rate, the missing staff ratio, and the fact that both tracks are full-year commitments with no drop-in option.",
-      "of": "24a57b18",
+      "text": "The open questions are the missing staff ratio, which grades Study Hall serves, and the fact that both tracks are full-year commitments with no drop-in option.",
+      "of": "a205a98e",
       "at": [
         "hickory-grove-christian:verdict.subhead"
       ],
-      "t": "Las cuestiones abiertas son la tarifa periódica no publicada, la proporción de personal ausente y el hecho de que ambas vías son compromisos de curso completo sin opción de acceso suelto."
+      "t": "Las cuestiones abiertas son la proporción de personal ausente, qué grados atiende Study Hall y el hecho de que ambas vías son compromisos de curso completo sin opción de acceso suelto."
     },
     {
       "text": "**Whole-school coverage in one window** — TK–5 Afterschool and 6–11 Study Hall both run 2:30–5:30 p.m., so there is no division gap.",
@@ -6775,12 +6775,12 @@
       "t": "**Una directora con nombre** — Belinda Jackson dirige el programa y tiene línea telefónica directa."
     },
     {
-      "text": "**The recurring price is not published**. Neither the Afterschool page nor the Tuition and Fees page states a monthly or annual rate. Families must go through the student-services fee documents or FACTS portal.",
-      "of": "f8ce9c06",
+      "text": "**Annual prices only** — the Tuition and Fees page lists $2,600 a year for TK–5 and $1,300 for grades 6–12, billed in equal payments. No monthly or per-day rate is published.",
+      "of": "7dfac60c",
       "at": [
         "hickory-grove-christian:verdict.watchouts[0]"
       ],
-      "t": "**El precio periódico no se publica**. Ni la página de Afterschool ni la de Tuition and Fees indican una tarifa mensual o anual. Las familias han de recurrir a los documentos de tarifas de servicios al estudiante o al portal FACTS."
+      "t": "**Solo precios anuales** — la página de Tuition and Fees indica $2,600 al año para TK–5 y $1,300 para los grados 6–12, facturados en pagos iguales. No se publica ninguna tarifa mensual ni por día."
     },
     {
       "text": "**No single-day drop-ins** — both tracks are full-year commitments billed annually, so occasional-need families have no flexible option (the only drop-in is the separate $35/day out-of-session Adventure Days).",
@@ -6807,20 +6807,20 @@
       "t": "**No se publica ninguna proporción de personal por niño** para ninguna de las dos vías."
     },
     {
-      "text": "What does the recurring Afterschool program actually cost per year for TK–5, and what payment plans are offered?",
-      "of": "64a49ce3",
+      "text": "Is Study Hall open to 12th graders? The Afterschool page says grades 6–11, but the fee line says 6th–12th.",
+      "of": "9b52d8cd",
       "at": [
         "hickory-grove-christian:verdict.checklist[0]"
       ],
-      "t": "¿Cuánto cuesta realmente al año el programa periódico Afterschool para TK–5, y qué planes de pago se ofrecen?"
+      "t": "¿Está Study Hall abierto a los alumnos de 12.º grado? La página de Afterschool dice grados 6–11, pero la línea de tarifa dice 6.º–12.º."
     },
     {
-      "text": "Is the Study Hall for grades 6–11 the same price as the TK–5 Afterschool program, or billed separately?",
-      "of": "7c753164",
+      "text": "What payment plans are offered for the $2,600 and $1,300 annual rates?",
+      "of": "995fa890",
       "at": [
         "hickory-grove-christian:verdict.checklist[1]"
       ],
-      "t": "¿El Study Hall para los grados 6–11 cuesta lo mismo que el programa Afterschool de TK–5, o se factura por separado?"
+      "t": "¿Qué planes de pago se ofrecen para las tarifas anuales de $2,600 y $1,300?"
     },
     {
       "text": "What is the staff-to-child ratio in Afterschool and in Study Hall?",
@@ -6839,12 +6839,12 @@
       "t": "Dado que no hay acceso suelto por días, ¿existe alguna forma de inscribirse solo para algunas tardes a la semana?"
     },
     {
-      "text": "What are the \"student services fees\" that hold the after-school rate, and where can we see them before enrolling?",
-      "of": "fa2be9b7",
+      "text": "Are there other \"student services fees\" beyond the after-school rate, and where can we see them before enrolling?",
+      "of": "4ef98c37",
       "at": [
         "hickory-grove-christian:verdict.checklist[4]"
       ],
-      "t": "¿Cuáles son las “student services fees” que contienen la tarifa extraescolar, y dónde pueden consultarse antes de matricularse?"
+      "t": "¿Hay otras “student services fees” además de la tarifa extraescolar, y dónde pueden consultarse antes de matricularse?"
     },
     {
       "text": "What child-care options exist in the summer, given the program is closed — beyond the half-day camps?",

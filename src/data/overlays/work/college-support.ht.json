@@ -224,7 +224,8 @@
       "text": "30",
       "of": "87f05176",
       "at": [
-        "providence-day:transcript.stats[2].value"
+        "providence-day:transcript.stats[2].value",
+        "carmel-christian:outcomes.stats[2].value"
       ],
       "t": "30"
     },
@@ -1144,12 +1145,12 @@
       "t": "Power Four"
     },
     {
-      "text": "— the full ACC, plus 15 of 16 SEC, 17 of 18 Big Ten and 15 of 16 Big 12",
-      "of": "c8aaa9ae",
+      "text": "— the full ACC and SEC, plus 17 of 18 Big Ten and 15 of 16 Big 12",
+      "of": "d361f5d1",
       "at": [
         "providence-day:outcomes.buckets[4].note"
       ],
-      "t": "— tout ACC la, plis 15 nan 16 SEC, 17 nan 18 Big Ten ak 15 nan 16 Big 12"
+      "t": "— tout ACC ak SEC, plis 17 nan 18 Big Ten ak 15 nan 16 Big 12"
     },
     {
       "text": "HBCUs",
@@ -1919,12 +1920,12 @@
       "t": "Diplòm Entrepreneurial Studies la nouvo pou 2026 — kisa egzakteman li egzije, epi konbyen elèv ki konplete l?"
     },
     {
-      "text": "Your profile names 30 AP courses but 29 subjects were examined in May 2026 — is AP German running this year, and when does AP Business & Personal Finance begin?",
-      "of": "7617a588",
+      "text": "Your profile names 30 AP courses but 29 subjects were examined in May 2026. Are AP German and AP Business with Personal Finance both running this year?",
+      "of": "63091b03",
       "at": [
         "providence-day:verdict.checklist[6]"
       ],
-      "t": "Pwofil ou an nonmen 30 kou AP men 29 matyè te egzamine an me 2026 — èske AP German ap fèt ane sa a, epi kilè AP Business & Personal Finance ap kòmanse?"
+      "t": "Pwofil ou an nonmen 30 kou AP men 29 matyè te egzamine an me 2026. Èske AP German ak AP Business with Personal Finance tou de ap fèt ane sa a?"
     },
     {
       "text": "Across the six top-ranked NC public universities, Charlotte Latin School’s applicants were admitted at a pooled 45.5% over the last five entering classes — 334 acceptances from 734 applications.",
@@ -2052,12 +2053,12 @@
       "t": "24"
     },
     {
-      "text": "AP subjects offered — exams required of AP students",
-      "of": "408841bb",
+      "text": "AP subjects in the 2026–27 profile — exams required of AP students",
+      "of": "e1d2d2d3",
       "at": [
         "charlotte-latin:transcript.stats[0].label"
       ],
-      "t": "matyè AP yo ofri — egzamen obligatwa pou elèv AP"
+      "t": "matyè AP nan pwofil 2026–27 la — egzamen obligatwa pou elèv AP"
     },
     {
       "text": "92%",
@@ -2268,10 +2269,18 @@
       "t": "Sèl vrè èd entèpretasyon pwofil la ofri, mo pou mo: “Kòm kourikoulòm matematik Honors nou an rijid epi rapid yon fason ki pa abityèl, **anpil bon elèv matematik plase nan kou estanda ak advanced**.” Yon avètisman onèt yon fason ki pa abityèl kont mal li yon relve nòt."
     },
     {
+      "text": "AP count, two school sources (plan consistency LAT-1b, 2026-11-20): the 2026–27 profile grid lists 24 AP subjects; the live course-offerings page has 23 AP posts. The profile adds AP Business with Personal Finance and lists Cybersecurity and Networking Fundamentals separately, but has no Music Theory; the page combines Cybersecurity and Networking into one post and lists Music Theory AP. The tile uses the profile; the Course Offerings teaser uses the page.",
+      "of": "87a8540c",
+      "at": [
+        "charlotte-latin:transcript.flags[0].text"
+      ],
+      "t": "Kantite AP, de sous lekòl la (plan consistency LAT-1b, 2026-11-20): griy pwofil 2026–27 la bay lis 24 matyè AP; paj òf kou an dirèk la gen 23 pòs AP. Pwofil la ajoute AP Business with Personal Finance epi li liste Cybersecurity ak Networking Fundamentals apa, men li pa gen Music Theory; paj la mete Cybersecurity ak Networking ansanm nan yon sèl pòs epi li liste Music Theory AP. Kare chif la sèvi ak pwofil la; rezime Course Offerings la sèvi ak paj la."
+    },
+    {
       "text": "The jump from 48 AP Scholars with Distinction (2018–20) to 192 (2024–26) is very large. Part is real growth, but the magnitude suggests the counting basis may differ between editions — the school does not define it. Do not present the two as directly comparable.",
       "of": "80bbd945",
       "at": [
-        "charlotte-latin:transcript.flags[0].text"
+        "charlotte-latin:transcript.flags[1].text"
       ],
       "t": "Sote soti 48 AP Scholars with Distinction (2018–20) rive 192 (2024–26) trè gwo. Yon pati reyèl kwasans, men grandè a sijere baz konte a ka diferan ant edisyon yo — lekòl la pa defini l. Pa prezante de yo kòm dirèkteman konparab."
     },
@@ -2279,7 +2288,7 @@
       "text": "The 2025–26 edition carried an unremoved internal editorial note; the 2026–27 edition has removed it, and adds AP results, test means, grade distributions and the grading scale — a substantial reversal of the school’s earlier non-disclosure.",
       "of": "5022814b",
       "at": [
-        "charlotte-latin:transcript.flags[1].text"
+        "charlotte-latin:transcript.flags[2].text"
       ],
       "t": "Edisyon 2025–26 la te pote yon nòt editoryal entèn yo pa t retire; edisyon 2026–27 la retire l, epi li ajoute rezilta AP, mwayèn tès, distribisyon nòt ak echèl nòt la — yon gwo ranvèsman konpare ak ansyen silans lekòl la."
     },
@@ -2300,20 +2309,20 @@
       "t": "Yo asiyen konseye nan premye ane, epi biwo a angaje l alekri pou korije chak redaksyon ak aplikasyon anvan soumisyon — yon pwomès pifò lekòl refize fè."
     },
     {
-      "text": "~1:38",
-      "of": "37df881d",
+      "text": "~38:1",
+      "of": "775066d3",
       "at": [
         "charlotte-latin:counseling.stats[0].value"
       ],
-      "t": "~1:38"
+      "t": "~38:1"
     },
     {
-      "text": "counselors to seniors (derived — no ratio is published)",
-      "of": "bbeb7a34",
+      "text": "seniors per counselor (computed — 151 ÷ 4; no ratio is published)",
+      "of": "d36af3ea",
       "at": [
         "charlotte-latin:counseling.stats[0].label"
       ],
-      "t": "konseye pou elèv dènye ane (derive — pa gen rapò ki pibliye)"
+      "t": "elèv dènye ane pa konseye (kalkile — 151 ÷ 4; pa gen rapò ki pibliye)"
     },
     {
       "text": "9",
@@ -2577,12 +2586,12 @@
       "t": "SCOIR ak MyLatin · biwo a louvri tout ane a pou randevou ak vizit san randevou"
     },
     {
-      "text": "Both ratios are derived (589 Upper Schoolers ÷ 4, and 151 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~1:147 all-grades figure is arguably the more honest load measure and ~1:38 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.",
-      "of": "d5385435",
+      "text": "Both ratios are derived (589 Upper Schoolers ÷ 4, and 151 seniors ÷ 4); the school publishes neither. Because counselors are assigned in freshman year, the ~147:1 all-grades figure is arguably the more honest load measure and ~38:1 describes senior-year intensity. No biographies, prior employers, degrees or credentials are published for any staff member — names and titles only.",
+      "of": "6012508f",
       "at": [
         "charlotte-latin:counseling.flags[0].text"
       ],
-      "t": "Tou de rapò yo derive (589 elèv Upper School ÷ 4, ak 151 elèv dènye ane ÷ 4); lekòl la pa pibliye ni youn ni lòt. Paske yo asiyen konseye nan premye ane, chif ~1:147 pou tout nivo yo se sanble mezi chay ki pi onèt la epi ~1:38 dekri entansite dènye ane a. Pa gen okenn byografi, ansyen patwon, diplòm oswa kalifikasyon ki pibliye pou okenn manm estaf — non ak tit sèlman."
+      "t": "Tou de rapò yo derive (589 elèv Upper School ÷ 4, ak 151 elèv dènye ane ÷ 4); lekòl la pa pibliye ni youn ni lòt. Paske yo asiyen konseye nan premye ane, chif ~147:1 pou tout nivo yo se sanble mezi chay ki pi onèt la epi ~38:1 dekri entansite dènye ane a. Pa gen okenn byografi, ansyen patwon, diplòm oswa kalifikasyon ki pibliye pou okenn manm estaf — non ak tit sèlman."
     },
     {
       "text": "No count of campus visits made by counselors is published — only the qualitative claim that they “stay current by attending conferences, visiting colleges, and speaking extensively with college representatives”.",
@@ -2601,12 +2610,12 @@
       "t": "Kat klas ki gradye te jwenn aksepte nan 337 enstitisyon. Sou lis ki pi resan an, 132 pote yon zetwal ki montre omwen yon elèv Latin te enskri la an 2024–26."
     },
     {
-      "text": "The striking number is breadth. 61 of the 68 Power Four universities appear. The ones missing are Minnesota, Nebraska, BYU, UCF, Houston, Kansas State and UT Austin (the lists write only “University of Texas”). Seven of the eight Ivies appear, and Columbia is the only one missing.",
-      "of": "298ccbd2",
+      "text": "The striking number is breadth. 62 of the 68 Power Four universities appear. The ones missing are Minnesota, Nebraska, BYU, UCF, Houston and Kansas State. Seven of the eight Ivies appear, and Columbia is the only one missing.",
+      "of": "a586c467",
       "at": [
         "charlotte-latin:outcomes.subhead"
       ],
-      "t": "Chif ki frapan an se jan lis la laj. 61 nan 68 inivèsite Power Four yo parèt. Sa ki manke yo se Minnesota, Nebraska, BYU, UCF, Houston, Kansas State ak UT Austin (lis yo ekri sèlman “University of Texas”). Sèt nan uit Ivy yo parèt, epi Columbia se sèl ki manke."
+      "t": "Chif ki frapan an se jan lis la laj. 62 nan 68 inivèsite Power Four yo parèt. Sa ki manke yo se Minnesota, Nebraska, BYU, UCF, Houston ak Kansas State. Sèt nan uit Ivy yo parèt, epi Columbia se sèl ki manke."
     },
     {
       "text": "337",
@@ -2658,12 +2667,12 @@
       "t": "Ivy League — Columbia absan"
     },
     {
-      "text": "61 of 68",
-      "of": "87d3876d",
+      "text": "62 of 68",
+      "of": "58a87aac",
       "at": [
         "charlotte-latin:outcomes.stats[3].value"
       ],
-      "t": "61 nan 68"
+      "t": "62 nan 68"
     },
     {
       "text": "Power Four universities represented",
@@ -2690,12 +2699,12 @@
       "t": "— Columbia, Johns Hopkins ak Caltech absan"
     },
     {
-      "text": "— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12",
-      "of": "10562351",
+      "text": "— 18 ACC · 16 SEC · 16 Big Ten · 12 Big 12",
+      "of": "ff5ec33a",
       "at": [
         "charlotte-latin:outcomes.buckets[4].note"
       ],
-      "t": "— 18 ACC · 15 SEC · 16 Big Ten · 12 Big 12"
+      "t": "— 18 ACC · 16 SEC · 16 Big Ten · 12 Big 12"
     },
     {
       "text": "337 institutions · bold = at least one student enrolled, 2024–26",
@@ -3148,12 +3157,12 @@
       "t": "Etandi plasman atravè tout klas la"
     },
     {
-      "text": "337 institutions across four classes, with 61 of the 68 Power Four universities represented. Enrollment asterisks run from the Ivies down through regional colleges.",
-      "of": "962f32be",
+      "text": "337 institutions across four classes, with 62 of the 68 Power Four universities represented. Enrollment asterisks run from the Ivies down through regional colleges.",
+      "of": "3e606445",
       "at": [
         "charlotte-latin:verdict.points[4].text"
       ],
-      "t": "337 enstitisyon atravè kat klas, ak 61 nan 68 inivèsite Power Four yo reprezante. Zetwal enskripsyon yo gaye soti nan Ivy yo desann rive nan kolèj rejyonal yo."
+      "t": "337 enstitisyon atravè kat klas, ak 62 nan 68 inivèsite Power Four yo reprezante. Zetwal enskripsyon yo gaye soti nan Ivy yo desann rive nan kolèj rejyonal yo."
     },
     {
       "text": "The exam requirement is real",
@@ -3226,6 +3235,14 @@
         "charlotte-latin:verdict.checklist[6]"
       ],
       "t": "Ou te sispann pibliye total bous merit yo apre Klas 2023 la. Kisa twa dènye klas yo te resevwa?"
+    },
+    {
+      "text": "Your profile lists 24 AP subjects and your course page lists 23. Is AP Business with Personal Finance offered, and are Cybersecurity and Networking Fundamentals one course or two?",
+      "of": "e0381834",
+      "at": [
+        "charlotte-latin:verdict.checklist[7]"
+      ],
+      "t": "Pwofil ou bay lis 24 matyè AP epi paj kou ou bay lis 23. Èske yo ofri AP Business with Personal Finance, epi èske Cybersecurity ak Networking Fundamentals se yon kou oswa de?"
     },
     {
       "text": "Across the six top-ranked NC public universities, Charlotte Christian School’s applicants were admitted at a pooled 54.8% over the last five entering classes — 382 acceptances from 697 applications.",
@@ -3541,12 +3558,12 @@
       "t": "~55:1"
     },
     {
-      "text": "seniors per counselor (derived — no ratio is published)",
-      "of": "e9abce11",
+      "text": "seniors per counselor (Class of 2026 graduates; current senior class size not published)",
+      "of": "c683ad33",
       "at": [
         "charlotte-christian:counseling.stats[0].label"
       ],
-      "t": "elèv dènye ane pa konseye (derive — pa gen rapò ki pibliye)"
+      "t": "elèv dènye ane pa konseye (gradye Klas 2026; gwosè klas dènye ane aktyèl la pa pibliye)"
     },
     {
       "text": "2",
@@ -3934,12 +3951,12 @@
       "t": "Prim atletik nan Florida State, Wake Forest, Kentucky"
     },
     {
-      "text": "The Academic Conservatory is the real differentiator — a transcript-noted arts credential — and Winterim puts every student somewhere off campus each January.",
-      "of": "6742c398",
+      "text": "The Academic Conservatory is the real differentiator — a transcript-noted arts credential — and Winterim puts every student somewhere off campus each year, at the turn of February and March.",
+      "of": "dbff3e69",
       "at": [
         "charlotte-christian:edge.headline"
       ],
-      "t": "Academic Conservatory a se vrè diferans la — yon kalifikasyon atistik ki note sou relve nòt — epi Winterim mete chak elèv yon kote deyò kanpis la chak janvye."
+      "t": "Academic Conservatory a se vrè diferans la — yon kalifikasyon atistik ki note sou relve nòt — epi Winterim mete chak elèv yon kote deyò kanpis la chak ane, ant fen fevriye ak kòmansman mas."
     },
     {
       "text": "The second lever is a Christian-college network most peer schools do not have: NACCAP membership and a named Christian-college tier that 14% of graduates actually use.",
@@ -4382,12 +4399,12 @@
       "t": "Ki pòsyon nan egzamen AP yo ki te fè 4 oswa 5? Se sèlman sèy 3+ la ki pibliye."
     },
     {
-      "text": "Your marketing says “45+ AP and honors courses” but roughly 23 AP courses can be enumerated. What is the actual count?",
-      "of": "61b8b3c5",
+      "text": "Your marketing says “45+ AP and honors courses”, and your guide and profile together name 22 AP courses. What is the actual count?",
+      "of": "9b42319f",
       "at": [
         "charlotte-christian:verdict.checklist[3]"
       ],
-      "t": "Maketing ou di “45+ kou AP ak honors” men apeprè 23 kou AP ka konte. Ki vrè kantite a?"
+      "t": "Maketing ou di “45+ kou AP ak honors”, epi gid ou ak pwofil ou ansanm nonmen 22 kou AP. Ki vrè kantite a?"
     },
     {
       "text": "Your profile reports 12 National Merit finalists on a rolling 15-year window, down from 16 six years earlier. What were the per-class counts for the last five years?",
@@ -4428,6 +4445,14 @@
         "charlotte-christian:verdict.checklist[8]"
       ],
       "t": "Ki kote Klas 2024 la te enskri? De lis ki pibliye yo make sèlman enskripsyon Klas 2025 ak Klas 2026."
+    },
+    {
+      "text": "AP count, two school documents (plan consistency CC-5, 2026-11-20): the curriculum guide’s AP roster has 20 lines (21 with Calculus AB/BC split, including AP Music Theory with no description), and the guide separately describes AP Spanish Literature; the 2026–27 profile lists 20 AP courses plus Calculus III. Compare uses the guide’s 21; the ask uses 22.",
+      "of": "8950419c",
+      "at": [
+        "charlotte-christian:verdict.flags[0].text"
+      ],
+      "t": "Kantite AP, de dokiman lekòl la (plan consistency CC-5, 2026-11-20): lis AP gid kourikoulòm nan gen 20 liy (21 si yo separe Calculus AB/BC, ansanm ak AP Music Theory san deskripsyon), epi gid la dekri AP Spanish Literature apa; pwofil 2026–27 la bay lis 20 kou AP plis Calculus III. Compare sèvi ak 21 gid la; kesyon an sèvi ak 22."
     },
     {
       "text": "Across the six top-ranked NC public universities, Charlotte Catholic High School’s applicants were admitted at a pooled 56.0% over the last five entering classes — 1,175 acceptances from 2,100 applications.",
@@ -4857,20 +4882,20 @@
       "t": "elèv finisan nan Klas 2027 la"
     },
     {
-      "text": "~195",
-      "of": "2528dbfa",
+      "text": "~222",
+      "of": "d71b4d49",
       "at": [
         "charlotte-catholic:counseling.stats[2].value"
       ],
-      "t": "~195"
+      "t": "~222"
     },
     {
-      "text": "students per counselor across grades 9–12",
-      "of": "03fa6172",
+      "text": "students per counselor across grades 9–12 (1,330 students, NCES 2023–24, ÷ 6)",
+      "of": "b1d0b164",
       "at": [
         "charlotte-catholic:counseling.stats[2].label"
       ],
-      "t": "elèv pa konseye atravè grad 9–12"
+      "t": "elèv pa konseye atravè grad 9–12 (1,330 elèv, NCES 2023–24, ÷ 6)"
     },
     {
       "text": "340 665",
@@ -5209,12 +5234,12 @@
       "t": "Paj planifikasyon inivèsite pou twazyèm ak katriyèm ane yo entegre prezantasyon Prezi, ke nou pa ka jwenn kontni yo kòm tèks. Se poutèt sa nou bati kalandriye kat ane ki anwo a apati politik ki pibliye, se pa apati pwòp dosye pwosesis biwo a."
     },
     {
-      "text": "Where 200 colleges took CCHS graduates over four classes — and $25,186,236 in scholarships for one class.",
-      "of": "5e0aa837",
+      "text": "Where 199 colleges took CCHS graduates over four classes — and $25,186,236 in scholarships for one class.",
+      "of": "e7405778",
       "at": [
         "charlotte-catholic:outcomes.headline"
       ],
-      "t": "Kote 200 inivèsite te pran moun ki gradye nan CCHS pandan kat klas — ak $25,186,236 nan bous pou yon sèl klas."
+      "t": "Kote 199 inivèsite te pran moun ki gradye nan CCHS pandan kat klas — ak $25,186,236 nan bous pou yon sèl klas."
     },
     {
       "text": "This is an enrollment list: where graduates actually enrolled, not everywhere they were admitted.",
@@ -5225,20 +5250,20 @@
       "t": "Sa a se yon lis enskripsyon: kote moun ki gradye yo enskri vre, se pa tout kote yo te admèt yo."
     },
     {
-      "text": "200",
-      "of": "c3e7575d",
+      "text": "199",
+      "of": "f421d672",
       "at": [
         "charlotte-catholic:outcomes.stats[0].value"
       ],
-      "t": "200"
+      "t": "199"
     },
     {
-      "text": "institutions graduates enrolled at, Classes of 2023–2026",
-      "of": "90c17d3f",
+      "text": "institutions graduates enrolled at, Classes of 2023–2026 (200 entries: the list names two Arizona State campuses)",
+      "of": "d25201af",
       "at": [
         "charlotte-catholic:outcomes.stats[0].label"
       ],
-      "t": "enstitisyon kote gradye yo enskri, Klas 2023–2026 yo"
+      "t": "enstitisyon kote gradye yo enskri, Klas 2023–2026 yo (200 antre: lis la nonmen de kanpis Arizona State)"
     },
     {
       "text": "98%",
@@ -5362,12 +5387,12 @@
       "t": "Chak enskripsyon, 2023–2026"
     },
     {
-      "text": "200 institutions · the profile publishes no enrollment counts per institution",
-      "of": "7488d4d6",
+      "text": "199 institutions (200 entries: two Arizona State campuses) · the profile publishes no enrollment counts per institution",
+      "of": "5f1c9028",
       "at": [
         "charlotte-catholic:outcomes.collegesTotal"
       ],
-      "t": "200 enstitisyon · pwofil la pa pibliye okenn kantite enskripsyon pa enstitisyon"
+      "t": "199 enstitisyon (200 antre: de kanpis Arizona State) · pwofil la pa pibliye okenn kantite enskripsyon pa enstitisyon"
     },
     {
       "text": "Scholarships and recognition",
@@ -5538,12 +5563,12 @@
       "t": "Ale pi lwen pase 70 èdtan sèvis. Egzijans lan menm pou tout moun, kidonk èdtan yo pou kont yo pa fè diferans — se wòl nan parwas la ak nan lidèchip ki dèyè yo ki fè l."
     },
     {
-      "text": "Use the 76-club directory to build depth rather than breadth: seven honor societies carry published GPA thresholds, from NHS at 3.9 to Mu Alpha Theta at 4.5 in mathematics.",
-      "of": "f8e02a97",
+      "text": "Use the 76-club directory to build depth rather than breadth: five honor societies carry published GPA thresholds, from NHS at 3.9 to Mu Alpha Theta at 4.5 in mathematics.",
+      "of": "dfb5f00a",
       "at": [
         "charlotte-catholic:edge.levers[0].items[3]"
       ],
-      "t": "Sèvi ak anyè 76 klib la pou bati pwofondè olye ke lajè: sèt sosyete onè pote papòt GPA ki pibliye, soti nan NHS a 3.9 rive nan Mu Alpha Theta a 4.5 nan matematik."
+      "t": "Sèvi ak anyè 76 klib la pou bati pwofondè olye ke lajè: senk sosyete onè pote papòt GPA ki pibliye, soti nan NHS a 3.9 rive nan Mu Alpha Theta a 4.5 nan matematik."
     },
     {
       "text": "For a classical or theology-facing application, the St. Augustine Scholars Program is a four-year differentiator that few applicants anywhere will carry.",
@@ -5810,12 +5835,12 @@
       "t": "Options Program"
     },
     {
-      "text": "A full parallel track — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance and Options Financial Management: 14 courses in all.",
-      "of": "fd1460c0",
+      "text": "A full parallel track — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance and Options Financial Management: 13 courses in all.",
+      "of": "a7b3ff01",
       "at": [
         "charlotte-catholic:wholeClass.support[2].text"
       ],
-      "t": "Yon pis paralèl konplè — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance ak Options Financial Management: 14 kou antou."
+      "t": "Yon pis paralèl konplè — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance ak Options Financial Management: 13 kou antou."
     },
     {
       "text": "Pathway Program",
@@ -5978,12 +6003,12 @@
       "t": "Li lis inivèsite a kòm enskripsyon"
     },
     {
-      "text": "**200 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.",
-      "of": "27cbfe32",
+      "text": "**199 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.",
+      "of": "1097e801",
       "at": [
         "charlotte-catholic:verdict.points[2].text"
       ],
-      "t": "**200 enstitisyon** atravè Klas 2023–2026 yo se kote moun ki gradye yo *enskri* vre, yon mezi ki pi piti pase yon lis aksèptasyon nan estrikti l. CCHS parèt pi fò, se pa pi fèb, yon fwa ou konprann sa."
+      "t": "**199 enstitisyon** atravè Klas 2023–2026 yo se kote moun ki gradye yo *enskri* vre, yon mezi ki pi piti pase yon lis aksèptasyon nan estrikti l. CCHS parèt pi fò, se pa pi fèb, yon fwa ou konprann sa."
     },
     {
       "text": "Athletics is the standout",
@@ -6138,12 +6163,12 @@
       "t": "589 egzamen AP an 2026 ak 96% ki fè 3+ ak 87% nan 4 oswa 5 — yon nòt mwayèn 4.2 — epi lekòl la pibliye rezilta sa yo disiplin pa disiplin."
     },
     {
-      "text": "Country Day was the first school in North Carolina to offer the IB Diploma. So a student has two clear routes to the hardest course load, not one. The profile also names the top course in every subject.",
-      "of": "61ee3e17",
+      "text": "The school’s profile calls Country Day the first school in North Carolina to offer the IB Diploma; its history page says the first private school. So a student has two clear routes to the hardest course load, not one. The profile also names the top course in every subject.",
+      "of": "c11f0c49",
       "at": [
         "charlotte-country-day:transcript.subhead"
       ],
-      "t": "Country Day se te premye lekòl nan North Carolina ki te ofri Diplòm IB la. Kidonk yon elèv gen de wout klè pou rive nan chaj kou ki pi difisil la, se pa youn sèlman. Pwofil la nonmen tou kou ki pi wo a nan chak matyè."
+      "t": "Pwofil lekòl la di Country Day se premye lekòl nan North Carolina ki te ofri Diplòm IB la; paj istwa li di premye lekòl prive a. Kidonk yon elèv gen de wout klè pou rive nan chaj kou ki pi difisil la, se pa youn sèlman. Pwofil la nonmen tou kou ki pi wo a nan chak matyè."
     },
     {
       "text": "589",
@@ -6380,10 +6405,18 @@
       "t": "Chak kou ki pa Honors, AP oswa IB make **“Regular/Standard”** sou relve nòt yo ak fòm STARS yo. Pwofil la di chak kou gen nivo difikilte preparasyon pou kolèj. AP fèmen pou elèv 9yèm ane. Elèv 10yèm ane jeneralman pran sèlman AP Human Geography ak AP Computer Science Principles."
     },
     {
+      "text": "IB \"first\" (plan consistency CCD-28, 2026-11-20): the 2026–27 profile says \"first school in North Carolina\" to offer the IB Diploma; the live history tile says \"the first private school in North Carolina\". Both attributed in the prose; Global Exposure uses the history page.",
+      "of": "3c077921",
+      "at": [
+        "charlotte-country-day:transcript.flags[0].text"
+      ],
+      "t": "IB \"premye\" (plan consistency CCD-28, 2026-11-20): pwofil 2026–27 la di \"first school in North Carolina\" ki ofri IB Diploma; kare istwa an dirèk la di \"the first private school in North Carolina\". Pwoz la bay sous tou de; Global Exposure sèvi ak paj istwa a."
+    },
+    {
       "text": "No mandatory-AP-exam policy is published, so the 96% rests on an unstated denominator. The curriculum page says the exam “is the driver for the curriculum”, which implies a strong expectation but is not a stated requirement. AP Scholar counts have not been published since 2021.",
       "of": "9820dec9",
       "at": [
-        "charlotte-country-day:transcript.flags[0].text"
+        "charlotte-country-day:transcript.flags[1].text"
       ],
       "t": "Pa gen okenn politik egzamen AP obligatwa ki pibliye, kidonk 96% la chita sou yon baz kalkil ki pa deklare. Paj kourikoulòm nan di egzamen an “se sa k ap kondwi kourikoulòm nan”, sa ki sijere yon gwo atant men se pa yon kondisyon ki deklare. Kantite AP Scholar pa pibliye depi 2021."
     },
@@ -6391,7 +6424,7 @@
       "text": "The 26 AP is the profile’s own count: its rigorous-courses table prints 25 AP titles, with AP US and Comparative Government on one line. The Course Offerings catalogue (2025–26, the latest posted) holds 23; no 2026–27 catalogue was posted as of 2026-11-07.",
       "of": "354751ff",
       "at": [
-        "charlotte-country-day:transcript.flags[1].text"
+        "charlotte-country-day:transcript.flags[2].text"
       ],
       "t": "26 AP a se pwòp kantite pwofil la: tab kou rigoure li a enprime 25 tit AP, ak AP US ak Comparative Government sou yon sèl liy. Katalòg Course Offerings la (2025–26, dènye ki afiche a) gen 23; pa t gen okenn katalòg 2026–27 ki afiche nan dat 2026-11-07."
     },
@@ -6404,28 +6437,28 @@
       "t": "Senk konseye aplentan pou 536 elèv Upper School — apeprè 27 elèv dènye ane chak — ak plis pase 100 ane eksperyans nan admisyon konbine ant yo."
     },
     {
-      "text": "The office changed directors in July 2026, and the 2026–27 profile is the first edition to show the new office. But the office still holds a decade of experience. Two of the five have worked there since at least 2015–16.",
-      "of": "562439af",
+      "text": "The office changed directors in July 2026, and the 2026–27 profile is the first edition to show the new office. But the office still holds a decade of experience. Two of the five have worked there since at least 2015–16. The counseling page’s introduction says four full-time counselors, though the page and the profile both list five by name.",
+      "of": "696f7f7b",
       "at": [
         "charlotte-country-day:counseling.subhead"
       ],
-      "t": "Biwo a te chanje direktè nan jiyè 2026, epi pwofil 2026–27 la se premye edisyon ki montre nouvo biwo a. Men biwo a toujou gen yon deseni eksperyans. De nan senk yo travay la depi omwen 2015–16."
+      "t": "Biwo a te chanje direktè nan jiyè 2026, epi pwofil 2026–27 la se premye edisyon ki montre nouvo biwo a. Men biwo a toujou gen yon deseni eksperyans. De nan senk yo travay la depi omwen 2015–16. Entwodiksyon paj konsèy la di kat konseye aplentan, menm si paj la ak pwofil la tou de bay non senk."
     },
     {
-      "text": "~1:27",
-      "of": "28dd31e9",
+      "text": "~27:1",
+      "of": "cda36ca3",
       "at": [
         "charlotte-country-day:counseling.stats[0].value"
       ],
-      "t": "~1:27"
+      "t": "~27:1"
     },
     {
-      "text": "counselors to seniors (derived — 137 ÷ 5; the school publishes no ratio)",
-      "of": "92970cca",
+      "text": "seniors per counselor (computed — 137 Class of 2027 seniors ÷ 5)",
+      "of": "164d06b7",
       "at": [
         "charlotte-country-day:counseling.stats[0].label"
       ],
-      "t": "konseye pou elèv dènye ane (derive — 137 ÷ 5; lekòl la pa pibliye okenn rapò)"
+      "t": "elèv dènye ane pa konseye (kalkile — 137 elèv dènye ane Klas 2027 ÷ 5)"
     },
     {
       "text": "full-time college counselors, plus a registrar",
@@ -6684,12 +6717,12 @@
       "t": "Manbraj ACCIS · NACAC · SACAC · yon School Profile ki pibliye chak ane (CEEB 340666, IB 0667)"
     },
     {
-      "text": "Both ratios are derived (536 ÷ 5 and 137 ÷ 5, from the 2026–27 profile); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 1:54. The counseling page’s intro says “four full-time college counselors”, while that page and the profile both list five. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.",
-      "of": "6f96425c",
+      "text": "Both ratios are derived (536 ÷ 5 and 137 ÷ 5, from the 2026–27 profile); the school publishes no ratio. The real caseload is probably juniors plus seniors, nearer 54:1. The counseling page’s intro says “four full-time college counselors”, while that page and the profile both list five. No counselor bios, tenures, degrees or prior employers are published — the team page gives names, titles and contact details only.",
+      "of": "a7b8e9d2",
       "at": [
         "charlotte-country-day:counseling.flags[0].text"
       ],
-      "t": "Tou de rapò yo derive (536 ÷ 5 ak 137 ÷ 5, nan pwofil 2026–27 la); lekòl la pa pibliye okenn rapò. Vrè chay la se pwobableman elèv twazyèm ane plis dènye ane, pi pre 1:54. Entwodiksyon paj konsèy la di “kat konseye kolèj aplentan”, alòske menm paj sa a ak pwofil la tou de bay lis senk. Pa gen okenn byografi konseye, ansyènte, diplòm oswa ansyen patwon ki pibliye — paj ekip la bay non, tit ak enfòmasyon kontak sèlman."
+      "t": "Tou de rapò yo derive (536 ÷ 5 ak 137 ÷ 5, nan pwofil 2026–27 la); lekòl la pa pibliye okenn rapò. Vrè chay la se pwobableman elèv twazyèm ane plis dènye ane, pi pre 54:1. Entwodiksyon paj konsèy la di “kat konseye kolèj aplentan”, alòske menm paj sa a ak pwofil la tou de bay lis senk. Pa gen okenn byografi konseye, ansyènte, diplòm oswa ansyen patwon ki pibliye — paj ekip la bay non, tit ak enfòmasyon kontak sèlman."
     },
     {
       "text": "No count of campus visits made by counseling staff is published anywhere, and no named scholarship-search tool or database is described.",
@@ -6700,20 +6733,20 @@
       "t": "Pa gen okenn kantite vizit sou kanpis estaf konsèy la fè ki pibliye okenn kote, epi yo pa dekri okenn zouti oswa baz done rechèch bous ki gen non."
     },
     {
-      "text": "The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada, with 32 students to UNC–Chapel Hill alone.",
-      "of": "67e3cb81",
+      "text": "The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada. UNC–Chapel Hill alone admitted 32 of them, up from 23 the year before.",
+      "of": "af21607a",
       "at": [
         "charlotte-country-day:outcomes.headline"
       ],
-      "t": "Klas 2026 la — 141 elèv dènye ane — te enskri nan 70 enstitisyon atravè 24 eta, DC ak Kanada, ak 32 elèv nan sèl UNC–Chapel Hill."
+      "t": "Klas 2026 la — 141 elèv dènye ane — te enskri nan 70 enstitisyon atravè 24 eta, DC ak Kanada. Sèl UNC–Chapel Hill te admèt 32 ladan yo, kont 23 ane anvan an."
     },
     {
-      "text": "The published list covers four years of acceptances at 363 colleges. Harvard, Caltech, Johns Hopkins and Northwestern were among those added in the final edition. Only the names in bold are places where a Class of 2026 student actually enrolled.",
-      "of": "6778ed7f",
+      "text": "The published list covers four years of acceptances at 363 colleges. Harvard, Caltech, Johns Hopkins and Northwestern were among those added in the final edition. Only the names in bold are places where a Class of 2026 student actually enrolled. The school’s own documents differ slightly: the profile says 24 states, the Class of 2026 page says 23, and the list bolds 69 colleges against the 70 both pages give.",
+      "of": "24007af8",
       "at": [
         "charlotte-country-day:outcomes.subhead"
       ],
-      "t": "Lis ki pibliye a kouvri kat ane aksepte nan 363 kolèj. Harvard, Caltech, Johns Hopkins ak Northwestern te pami sa edisyon final la ajoute. Se sèlman non ki an gra yo ki se kote yon elèv Klas 2026 te vrèman enskri."
+      "t": "Lis ki pibliye a kouvri kat ane aksepte nan 363 kolèj. Harvard, Caltech, Johns Hopkins ak Northwestern te pami sa edisyon final la ajoute. Se sèlman non ki an gra yo ki se kote yon elèv Klas 2026 te vrèman enskri. Pwòp dokiman lekòl la pa dakò nèt: pwofil la di 24 eta, paj Klas 2026 la di 23, epi lis la mete 69 kolèj an gra kont 70 de paj yo bay la."
     },
     {
       "text": "70",
@@ -6751,18 +6784,17 @@
       "text": "32",
       "of": "85f04e50",
       "at": [
-        "charlotte-country-day:outcomes.stats[2].value",
-        "carmel-christian:outcomes.stats[2].value"
+        "charlotte-country-day:outcomes.stats[2].value"
       ],
       "t": "32"
     },
     {
-      "text": "students to UNC–Chapel Hill — 23% of the class",
-      "of": "5653c3fd",
+      "text": "seniors admitted to UNC–Chapel Hill (up from 23)",
+      "of": "5bdfb61d",
       "at": [
         "charlotte-country-day:outcomes.stats[2].label"
       ],
-      "t": "elèv nan UNC–Chapel Hill — 23% nan klas la"
+      "t": "elèv dènye ane UNC–Chapel Hill admèt (kont 23 anvan)"
     },
     {
       "text": "$14.7M",
@@ -6853,12 +6885,12 @@
       "t": "Dènye yo: Jefferson, Jack Kent Cooke, QuestBridge, Ron Brown, Coca-Cola"
     },
     {
-      "text": "Treat the “34 Morehead-Cain recipients” figure with care. The College Counseling main page shows it next to Class of 2026 numbers. But the Class of 2026 had exactly one Morehead-Cain Scholar. The 34 is an all-time total, and the school never says what years it covers. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile. They should not be shown as awards students win today.",
-      "of": "b1beab57",
+      "text": "The Class of 2026 page gives two scholarship totals: $14.7 million+ in its summary and more than $14.8 million in its text. Treat the “34 Morehead-Cain recipients” figure with care. The College Counseling main page shows it next to Class of 2026 numbers. But the Class of 2026 had exactly one Morehead-Cain Scholar. The 34 is an all-time total, and the school never says what years it covers. Robertson Scholars and NC State Park Scholars appear only in the 2015–16 profile. They should not be shown as awards students win today.",
+      "of": "fee4d6c1",
       "at": [
         "charlotte-country-day:outcomes.scholarshipsNote"
       ],
-      "t": "Trete chif “34 moun ki resevwa Morehead-Cain” la avèk atansyon. Paj prensipal College Counseling la montre l bò kote chif Klas 2026. Men Klas 2026 la te gen egzakteman yon sèl Morehead-Cain Scholar. 34 la se yon total pou tout tan, epi lekòl la pa janm di ki ane li kouvri. Robertson Scholars ak NC State Park Scholars parèt sèlman nan pwofil 2015–16 la. Yo pa dwe prezante kòm prim elèv yo genyen jodi a."
+      "t": "Paj Klas 2026 la bay de total bous: $14.7 million+ nan rezime li ak plis pase $14.8 million nan tèks li. Trete chif “34 moun ki resevwa Morehead-Cain” la avèk atansyon. Paj prensipal College Counseling la montre l bò kote chif Klas 2026. Men Klas 2026 la te gen egzakteman yon sèl Morehead-Cain Scholar. 34 la se yon total pou tout tan, epi lekòl la pa janm di ki ane li kouvri. Robertson Scholars ak NC State Park Scholars parèt sèlman nan pwofil 2015–16 la. Yo pa dwe prezante kòm prim elèv yo genyen jodi a."
     },
     {
       "text": "Bold read from the font runs of both 2023–2026 editions: the May edition (5/28/2026) and the final edition each carry 69 bold names. Lafayette lost bold in the final edition; Central Piedmont and Wesleyan gained it; Northeastern is bold in both. The earlier Yale marker was a transcription slip — Yale is bold in neither edition. The school’s “70 institutions” enrolling figure is one more than either edition’s 69 bold names.",
@@ -6893,20 +6925,20 @@
       "t": "Sa Country Day pa genyen se yon kapston oswa yon tèz rechèch obligatwa; konstriksyon espesyalite li se etandi pwogram olye ke yon sèl kalifikasyon obligatwa."
     },
     {
-      "text": "**IB Diploma Programme** — Country Day was the **first school in North Carolina** to offer it. **26 seniors in the Class of 2027** take the full diploma from junior year. Its five-year pass rate is 88%. For a student whose strengths do not fit the AP model, it is a second clear path to the hardest course load. It also has an Extended Essay built in.",
-      "of": "212c6c82",
+      "text": "**IB Diploma Programme** — the school’s profile calls it the **first school in North Carolina** to offer it, and its history page the first private school. **26 seniors in the Class of 2027** take the full diploma from junior year. Its five-year pass rate is 88%. For a student whose strengths do not fit the AP model, it is a second clear path to the hardest course load. It also has an Extended Essay built in.",
+      "of": "065c4c3f",
       "at": [
         "charlotte-country-day:edge.levers[0].items[0]"
       ],
-      "t": "**IB Diploma Programme** — Country Day se te **premye lekòl nan North Carolina** ki te ofri l. **26 elèv dènye ane nan Klas 2027 la** pran diplòm konplè a apati ane jinyò. To reyisit li sou senk ane se 88%. Pou yon elèv ki gen fòs ki pa koresponn ak modèl AP a, se yon dezyèm wout klè pou rive nan chaj kou ki pi difisil la. Li gen yon Extended Essay ladan l tou."
+      "t": "**IB Diploma Programme** — pwofil lekòl la di Country Day se **premye lekòl nan North Carolina** ki te ofri l, epi paj istwa li di premye lekòl prive a. **26 elèv dènye ane nan Klas 2027 la** pran diplòm konplè a apati ane jinyò. To reyisit li sou senk ane se 88%. Pou yon elèv ki gen fòs ki pa koresponn ak modèl AP a, se yon dezyèm wout klè pou rive nan chaj kou ki pi difisil la. Li gen yon Extended Essay ladan l tou."
     },
     {
-      "text": "**Senior Externship** — a January job-shadowing program that started in 2017. It works with **175+ local employers across 20+ industries**. In a recent year **136 seniors** were placed with 68 Charlotte-area employers. Most hosts were current and past parents and alumni.",
-      "of": "c4a76917",
+      "text": "**Senior Externship** — a January job-shadowing program that started in 2017. The school’s Beyond the Classroom page says it works with **175+ local employers across 20+ industries**, and elsewhere on the same page 100+ employers in 20 industries. In a recent year **136 seniors** were placed with 68 Charlotte-area employers. Most hosts were current and past parents and alumni.",
+      "of": "124a4d25",
       "at": [
         "charlotte-country-day:edge.levers[0].items[1]"
       ],
-      "t": "**Senior Externship** — yon pwogram swiv travay nan janvye ki te kòmanse an 2017. Li travay ak **175+ patwon lokal atravè 20+ endistri**. Nan yon ane resan, **136 elèv dènye ane** te plase ak 68 patwon nan zòn Charlotte. Pifò moun ki te resevwa yo se te paran aktyèl ak ansyen paran ak ansyen elèv."
+      "t": "**Senior Externship** — yon pwogram swiv travay nan janvye ki te kòmanse an 2017. Paj Beyond the Classroom lekòl la di li travay ak **175+ patwon lokal atravè 20+ endistri**, epi yon lòt kote sou menm paj la, 100+ patwon nan 20 endistri. Nan yon ane resan, **136 elèv dènye ane** te plase ak 68 patwon nan zòn Charlotte. Pifò moun ki te resevwa yo se te paran aktyèl ak ansyen paran ak ansyen elèv."
     },
     {
       "text": "**Science Outreach Program** — rising juniors and seniors work with science professors at local institutions on primary research over the summer, then present at the annual Science Symposium.",
@@ -6957,12 +6989,12 @@
       "t": "**Siyal sou entegrite** — yon Kòd Onè elèv yo pran angajman pou li chak ane, yon Honor Council elèv yo dirije, ak manbraj nan ACCIS, NACAC ak SACAC. Siy pwofesè solid enpòtan isit la tou. **83 manm pèsonèl ansèyman ak administrasyon** Upper School la enkli **moun k ap korije egzamen AP**, korektè National Board ak Klingenstein Fellows. 82% genyen diplòm avanse, epi 100% patisipe nan fòmasyon pwofesè chak ane."
     },
     {
-      "text": "**A dominant UNC–Chapel Hill pipeline** — 32 Class of 2026 students enrolled there, 23% of the class. The school also counts 34 Morehead-Cain recipients all-time. Add a lasting Jefferson Scholar link to UVA and a decade of service-academy appointments.",
-      "of": "46b97f5b",
+      "text": "**A dominant UNC–Chapel Hill pipeline** — UNC–Chapel Hill admitted 32 Class of 2026 seniors, up from 23 the year before. The school also counts 34 Morehead-Cain recipients all-time. Add a lasting Jefferson Scholar link to UVA and a decade of service-academy appointments.",
+      "of": "72b58775",
       "at": [
         "charlotte-country-day:edge.levers[1].items[2]"
       ],
-      "t": "**Yon rezo UNC–Chapel Hill ki domine** — 32 elèv Klas 2026 te enskri la, 23% nan klas la. Lekòl la konte tou 34 moun ki resevwa Morehead-Cain pou tout tan. Ajoute yon lyen Jefferson Scholar dirab ak UVA ak yon deseni nominasyon nan akademi sèvis."
+      "t": "**Yon rezo UNC–Chapel Hill ki domine** — UNC–Chapel Hill te admèt 32 elèv dènye ane Klas 2026, kont 23 ane anvan an. Lekòl la konte tou 34 moun ki resevwa Morehead-Cain pou tout tan. Ajoute yon lyen Jefferson Scholar dirab ak UVA ak yon deseni nominasyon nan akademi sèvis."
     },
     {
       "text": "**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolled Class of 2026 students. The list holds 19 HBCUs (historically Black colleges and universities), with Claflin new. Recent awards include a February One Scholarship and a Ron Brown Scholar.",
@@ -7239,12 +7271,12 @@
       "t": "Rezilta yo onèt atravè tout distribisyon an"
     },
     {
-      "text": "70 destinations for 141 seniors across 24 states, DC and Canada, 55% public and 45% private. Community colleges are listed alongside Princeton and MIT. 32 students enrolled at UNC–Chapel Hill. And a substantial HBCU pipeline, with students enrolling at four of them.",
-      "of": "f7cf9e31",
+      "text": "70 destinations for 141 seniors across 24 states, DC and Canada, 55% public and 45% private. Community colleges are listed alongside Princeton and MIT. UNC–Chapel Hill admitted 32 of them. And a substantial HBCU pipeline, with students enrolling at four of them.",
+      "of": "334c6b78",
       "at": [
         "charlotte-country-day:verdict.points[5].text"
       ],
-      "t": "70 destinasyon pou 141 elèv dènye ane atravè 24 eta, DC ak Kanada, 55% piblik ak 45% prive. Inivèsite kominotè parèt sou lis la ansanm ak Princeton ak MIT. 32 elèv te enskri nan UNC–Chapel Hill. Epi yon gwo rezo HBCU, ak elèv ki enskri nan kat ladan yo."
+      "t": "70 destinasyon pou 141 elèv dènye ane atravè 24 eta, DC ak Kanada, 55% piblik ak 45% prive. Inivèsite kominotè parèt sou lis la ansanm ak Princeton ak MIT. UNC–Chapel Hill te admèt 32 ladan yo. Epi yon gwo rezo HBCU, ak elèv ki enskri nan kat ladan yo."
     },
     {
       "text": "Your 2026–27 profile prints a 1170–1400 SAT and 26–31 ACT middle 50% beside the Class of 2027 GPA table. Which class and how many test-takers does that cover? And why were the medians for each fifth dropped?",
@@ -7301,6 +7333,14 @@
         "charlotte-country-day:verdict.checklist[6]"
       ],
       "t": "Konbyen inivèsite konseye ou yo vizite chak ane, èske Senior Externship la obligatwa, epi ki opsyon ki egziste pou ane apre diplòm, syans enfòmatik pòs-AP, oswa rechèch kapston?"
+    },
+    {
+      "text": "Your pages give slightly different figures: 23 or 24 states for the Class of 2026, $14.7 or $14.8 million in scholarships, four or five full-time counselors, and 100+ or 175+ externship employers. Which are current?",
+      "of": "fbb32210",
+      "at": [
+        "charlotte-country-day:verdict.checklist[7]"
+      ],
+      "t": "Paj ou yo bay chif ki yon ti jan diferan: 23 oswa 24 eta pou Klas 2026, $14.7 oswa $14.8 million an bous, kat oswa senk konseye aplentan, ak 100+ oswa 175+ patwon pou externship. Kilès ki aktyèl?"
     },
     {
       "text": "Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.",
@@ -9666,12 +9706,12 @@
       "t": "School Profile la fè travay nòt tès yo ta fè otreman: tab pwen kalite konplè, +0.5 Honors / +1.0 AP, yon politik san ran ki deklare, ak yon distribisyon GPA twa pwen ki divilge yon planche 2.58."
     },
     {
-      "text": "AP courses offered in 2026–27 (derived count — the school publishes no total)",
-      "of": "0603b7e0",
+      "text": "AP courses on the 2026–27 Profile’s offered list (the catalog lists 26)",
+      "of": "379b9484",
       "at": [
         "davidson-day:transcript.stats[0].label"
       ],
-      "t": "Kou AP yo ofri an 2026–27 (kantite derive — lekòl la pa pibliye okenn total)"
+      "t": "Kou AP sou lis kou yo ofri nan Profile 2026–27 la (katalòg la bay lis 26)"
     },
     {
       "text": "Not published",
@@ -9834,12 +9874,12 @@
       "t": "Yo pa janm defini “chay kou ki pi rijid la”. Pa gen maksimòm AP ki deklare ni okenn règ ki pibliye sou kiyès ki ka pran AP. Lekòl la pa dekri non plis kijan li reponn kesyon Common App la sou rigè kourikoulòm (jan kou yon elèv egzijan)."
     },
     {
-      "text": "Two counselors for 184 Upper Schoolers — roughly 1:92, and about 1:25 across the 50 seniors — with the office’s stated start point in 9th grade rather than junior year.",
-      "of": "204fd086",
+      "text": "Two counselors for 184 Upper Schoolers — about 92 Upper School students and 25 seniors (Class of 2027) per counselor — with the office’s stated start point in 9th grade rather than junior year.",
+      "of": "becd5ef1",
       "at": [
         "davidson-day:counseling.headline"
       ],
-      "t": "De konseye pou 184 elèv Upper School — apeprè 1:92, epi anviwon 1:25 atravè 50 elèv dènye ane yo — ak pwen kòmansman biwo a ki deklare nan 9yèm ane olye ke twazyèm ane."
+      "t": "De konseye pou 184 elèv Upper School — anviwon 92 elèv Upper School ak 25 elèv dènye ane (Klas 2027) pa konseye — ak pwen kòmansman biwo a ki deklare nan 9yèm ane olye ke twazyèm ane."
     },
     {
       "text": "The small caseload is the believable part. What is missing is any written promise about what the office actually guarantees. It publishes no promise to review applications before they are sent, no stance on Early Decision or Early Action, and no process for recommendations.",
@@ -9850,20 +9890,20 @@
       "t": "Ti chaj la se pati ki kredib la. Sa ki manke se nenpòt pwomès alekri sou sa biwo a vrèman garanti. Li pa pibliye okenn pwomès pou revize aplikasyon anvan yo voye yo, okenn pozisyon sou Early Decision oswa Early Action, ni okenn pwosesis pou rekòmandasyon."
     },
     {
-      "text": "~1:92",
-      "of": "add13755",
+      "text": "~92:1",
+      "of": "7c6715d7",
       "at": [
         "davidson-day:counseling.stats[0].value"
       ],
-      "t": "~1:92"
+      "t": "~92:1"
     },
     {
-      "text": "counselors to Upper School students (derived — no ratio is published)",
-      "of": "8a706a45",
+      "text": "Upper School students per counselor (computed — 184 ÷ 2)",
+      "of": "a637c0d0",
       "at": [
         "davidson-day:counseling.stats[0].label"
       ],
-      "t": "konseye pou elèv Upper School (derive — pa gen rapò ki pibliye)"
+      "t": "elèv Upper School pa konseye (kalkile — 184 ÷ 2)"
     },
     {
       "text": "college counselors, plus a registrar",
@@ -10298,20 +10338,20 @@
       "t": "Sa lekòl la pa ka ofri se yon non ki byen koni. Kidonk sa li ka kontwole se Pwofil la li menm, kantite vizit reprezantan inivèsite, ak aksè a konseye."
     },
     {
-      "text": "**AFAR international field research** — real archaeology digs in Belize (since 2009), Spain (2014), Greece (2017) and Portugal (2018). The Belize dig runs with the BVAR project at Cahal Pech, under a permit from the Belize Institute of Archaeology. The program’s history appears in a peer-reviewed journal (*Heritage*, 2020). Students publish and present at conferences around the world.",
-      "of": "36bf8fa1",
+      "text": "**AFAR international field research** — real archaeology digs in Belize, Spain (2014), Greece (2017) and Portugal (2018). The school’s profile dates the Belize dig to 2009; its research page dates AFAR itself to 2006. The Belize dig runs with the BVAR project at Cahal Pech, under a permit from the Belize Institute of Archaeology. The program’s history appears in a peer-reviewed journal (*Heritage*, 2020). Students publish and present at conferences around the world.",
+      "of": "5e5ee91c",
       "at": [
         "davidson-day:edge.levers[0].items[0]"
       ],
-      "t": "**Rechèch teren entènasyonal AFAR** — vrè fouy akeyolojik nan Belize (depi 2009), Espay (2014), Lagrès (2017) ak Pòtigal (2018). Fouy Belize la fèt ak pwojè BVAR la nan Cahal Pech, anba yon pèmi Belize Institute of Archaeology. Istwa pwogram nan parèt nan yon jounal ak revizyon kanmarad (*Heritage*, 2020). Elèv yo pibliye epi prezante nan konferans atravè lemonn."
+      "t": "**Rechèch teren entènasyonal AFAR** — vrè fouy akeyolojik nan Belize, Espay (2014), Lagrès (2017) ak Pòtigal (2018). Pwofil lekòl la mete dat fouy Belize la an 2009; paj rechèch li mete dat AFAR limenm an 2006. Fouy Belize la fèt ak pwojè BVAR la nan Cahal Pech, anba yon pèmi Belize Institute of Archaeology. Istwa pwogram nan parèt nan yon jounal ak revizyon kanmarad (*Heritage*, 2020). Elèv yo pibliye epi prezante nan konferans atravè lemonn."
     },
     {
-      "text": "**Global Studies Diploma** — a core course in Honors Anthropology, four approved AP courses, and the same world language in all four Upper School years. It also requires at least two weeks of international field research and a capstone paper. Most important, it *produces a separate transcript and profile sent to colleges*. That is an extra document in the file, not a line on the transcript.",
-      "of": "39b58995",
+      "text": "**Global Studies Diploma** — a core course in Honors Anthropology, four approved AP courses, a world language and a capstone paper. The profile asks for the same language in all four Upper School years and at least two weeks of international field research. The Global Studies page asks for Level IV or three levels of one language, and at least 100 practicum hours. Most important, it *produces a separate transcript and profile sent to colleges*. That is an extra document in the file, not a line on the transcript.",
+      "of": "538b58e3",
       "at": [
         "davidson-day:edge.levers[0].items[1]"
       ],
-      "t": "**Global Studies Diploma** — yon kou debaz nan Honors Anthropology, kat kou AP apwouve, ak menm lang etranje a pandan tout kat ane Upper School yo. Li egzije tou omwen de semèn rechèch teren entènasyonal ak yon papye kapston. Sa ki pi enpòtan, li *pwodui yon relve nòt ak pwofil apa yo voye bay inivèsite yo*. Sa se yon dokiman anplis nan dosye a, se pa yon liy sou relve nòt la."
+      "t": "**Global Studies Diploma** — yon kou debaz nan Honors Anthropology, kat kou AP apwouve, yon lang etranje ak yon papye kapston. Pwofil la mande menm lang lan pandan tout kat ane Upper School yo ak omwen de semèn rechèch teren entènasyonal. Paj Global Studies la mande Level IV oswa twa nivo nan yon sèl lang, ak omwen 100 èdtan pratik. Sa ki pi enpòtan, li *pwodui yon relve nòt ak pwofil apa yo voye bay inivèsite yo*. Sa se yon dokiman anplis nan dosye a, se pa yon liy sou relve nòt la."
     },
     {
       "text": "**STEMM and Business & Civic Engagement Diplomas** — each requires at least 100 hours of approved internship or practicum (supervised field work). Each also requires Ethics Labs every quarter and an 11th-grade Research Methods Honors course. In 12th grade, students do a Capstone Research Honors mentorship. They then give a public talk at the Scholars Research Conference.",
@@ -10330,12 +10370,12 @@
       "t": "**Pis rekritman ak atizay** — yon Athletic Recruitment Workshop chak ane ak evènman National Signing Day. Nan yon jou siyati resan, te gen sèt siyati NLI (National Letter of Intent). Pou atizay, gen AP Studio Art, plis rezilta pòtfèy nan SCAD, Pratt, Manhattan School of Music, UNCSA ak AMDA."
     },
     {
-      "text": "The required internship or capstone applies only to students seeking a Diploma Distinction. There is no school-wide required internship or senior project. The AFAR participation counts (\"hundreds\", \"150+\", \"200+\") cover the whole program across many schools. How many Davidson Day students have taken part is not published.",
-      "of": "cd6833ed",
+      "text": "The required internship or capstone applies only to students seeking a Diploma Distinction. There is no school-wide required internship or senior project. AFAR’s participation figure, more than 500 students program-wide (2026), covers the whole program across many schools. How many Davidson Day students have taken part is not published.",
+      "of": "d0ac1b69",
       "at": [
         "davidson-day:edge.levers[0].note"
       ],
-      "t": "Estaj oswa kapston obligatwa a aplike sèlman pou elèv k ap chèche yon Diploma Distinction. Pa gen okenn estaj oswa pwojè dènye ane obligatwa pou tout lekòl la. Kantite patisipasyon AFAR yo (“dè santèn”, “150+”, “200+”) kouvri tout pwogram nan atravè anpil lekòl. Konbyen elèv Davidson Day ki te patisipe pa pibliye."
+      "t": "Estaj oswa kapston obligatwa a aplike sèlman pou elèv k ap chèche yon Diploma Distinction. Pa gen okenn estaj oswa pwojè dènye ane obligatwa pou tout lekòl la. Chif patisipasyon AFAR la, plis pase 500 elèv nan tout pwogram nan (2026), kouvri tout pwogram nan atravè anpil lekòl. Konbyen elèv Davidson Day ki te patisipe pa pibliye."
     },
     {
       "text": "**The School Profile as an instrument** — the strongest lever here, and well done. It is four pages, current and linked in public. It gives the full grading scale and weighting, what the GPA leaves out, and the Class of 2027 GPA range. It also has the complete course catalog, with courses not offered clearly marked. Then come graduation requirements, the Honor Code and the five-year acceptance list. A reader who has never been to Davidson, NC, can understand a student without relying on test scores or rank. That is exactly the job the Profile has to do.",
@@ -10376,6 +10416,14 @@
         "davidson-day:edge.levers[1].note"
       ],
       "t": "Pati rapò disiplin nan siyal entegrite a pa divilge. Lekòl la pa di si sispansyon oswa vyolasyon kòd onè ale sou rapò lekòl segondè li voye bay inivèsite yo. Li pa di non plis kijan yon elèv ka eksplike yon ensidan."
+    },
+    {
+      "text": "Two school sources disagree (plan consistency DD-5/DD-6, 2026-11-20). AFAR start: the 2026–27 Profile says \"in Belize since 2009\"; the archived International Research page says \"Since inception in 2006\" (Global Exposure uses 2006). Global Studies Diploma: the Profile says four years of one language and \"a minimum of two weeks\" of field research; the live Global Studies page says \"Level IV or 3 levels\" and \"At least 100 hours\", with no duration. Both attributed in the prose; Global Exposure carries the ask.",
+      "of": "f532a90f",
+      "at": [
+        "davidson-day:edge.flags[0].text"
+      ],
+      "t": "De sous lekòl la pa dakò (plan consistency DD-5/DD-6, 2026-11-20). Kòmansman AFAR: Profile 2026–27 la di \"in Belize since 2009\"; paj International Research ki achive a di \"Since inception in 2006\" (Global Exposure sèvi ak 2006). Global Studies Diploma: Profile la di kat ane nan yon sèl lang ak \"a minimum of two weeks\" rechèch teren; paj Global Studies an dirèk la di \"Level IV or 3 levels\" ak \"At least 100 hours\", san okenn dire. Pwoz la bay sous tou de; Global Exposure pote kesyon an."
     },
     {
       "text": "Davidson Day has published no SAT or ACT scores since its 2020–21 profile — the current one says “due to the popularity of test-optional policies, we will not be providing the testing profiles for the Class of 2027”.",
@@ -10690,12 +10738,12 @@
       "t": "Global Studies Diploma a voye yon dezyèm relve nòt"
     },
     {
-      "text": "This is different in kind from an honors cord. The Profile states that an extra transcript and profile go to colleges. The diploma is backed by language study, two weeks of international field research and a capstone paper.",
-      "of": "6068e6ef",
+      "text": "This is different in kind from an honors cord. The Profile states that an extra transcript and profile go to colleges. The diploma is backed by language study, international field research and a capstone paper.",
+      "of": "94e8d86d",
       "at": [
         "davidson-day:verdict.points[1].text"
       ],
-      "t": "Sa a diferan nèt de yon kòdon onè. Pwofil la deklare ke yon relve nòt ak yon pwofil anplis ale bay inivèsite yo. Diplòm nan sipòte pa etid lang, de semèn rechèch teren entènasyonal ak yon papye kapston."
+      "t": "Sa a diferan nèt de yon kòdon onè. Pwofil la deklare ke yon relve nòt ak yon pwofil anplis ale bay inivèsite yo. Diplòm nan sipòte pa etid lang, rechèch teren entènasyonal ak yon papye kapston."
     },
     {
       "text": "The caseload is genuinely small, and starts in 9th grade",
@@ -10706,12 +10754,12 @@
       "t": "Chay la vrèman piti, epi li kòmanse nan 9yèm ane"
     },
     {
-      "text": "Two counselors for 184 Upper Schoolers (~1:92, ~1:25 at senior level) makes the “individualized” language credible rather than promotional.",
-      "of": "f63f0a2d",
+      "text": "Two counselors for 184 Upper Schoolers (~92:1, ~25:1 at senior level) makes the “individualized” language credible rather than promotional.",
+      "of": "aac659cd",
       "at": [
         "davidson-day:verdict.points[2].text"
       ],
-      "t": "De konseye pou 184 elèv Upper School (~1:92, ~1:25 nan nivo dènye ane) fè lang “endividyalize” a kredib olye ke pwomosyonèl."
+      "t": "De konseye pou 184 elèv Upper School (~92:1, ~25:1 nan nivo dènye ane) fè lang “endividyalize” a kredib olye ke pwomosyonèl."
     },
     {
       "text": "The Profile does the work test scores would",
@@ -10810,6 +10858,14 @@
       "t": "Èske Learning Enrichment Center la ekri oswa jere akomodasyon? Si se wi, kiyès ki fè apwouve yo pou tès College Board ak ACT, epi ki dokimante yo pou sèvis andikap nan inivèsite?"
     },
     {
+      "text": "Your profile dates the Belize dig to 2009, and your research page dates AFAR to 2006. Which year was Davidson Day’s first season?",
+      "of": "46453d69",
+      "at": [
+        "davidson-day:verdict.checklist[8]"
+      ],
+      "t": "Pwofil ou mete dat fouy Belize la an 2009, epi paj rechèch ou mete dat AFAR an 2006. Ki ane ki te premye sezon Davidson Day?"
+    },
+    {
       "text": "Across the six top-ranked NC public universities, Carmel Christian School’s applicants were admitted at a pooled 59.2% over the last five entering classes — 346 acceptances from 584 applications.",
       "of": "555db8cd",
       "at": [
@@ -10858,12 +10914,12 @@
       "t": "73% nan elèv fen etid yo te fè yon 3 oswa plis nan omwen yon egzamen AP, epi 80% te pase omwen youn. Sa ase pou Platinum AP School Honor Roll College Board la, nivo ki pi wo li."
     },
     {
-      "text": "A broad-participation AP program: 14 AP courses across 21 sections taught by 12 teachers, with 19% of seniors sitting five or more exams.",
-      "of": "d3c5a74a",
+      "text": "A broad-participation AP program: in 2023, 14 AP courses across 21 sections taught by 12 teachers, with 19% of seniors sitting five or more exams.",
+      "of": "6fc81a04",
       "at": [
         "carmel-christian:transcript.subhead"
       ],
-      "t": "Yon pwogram AP ak patisipasyon laj: 14 kou AP atravè 21 seksyon anseye pa 12 pwofesè, ak 19% nan elèv fen etid yo ki chita senk egzamen oswa plis."
+      "t": "Yon pwogram AP ak patisipasyon laj: an 2023, 14 kou AP atravè 21 seksyon anseye pa 12 pwofesè, ak 19% nan elèv fen etid yo ki chita senk egzamen oswa plis."
     },
     {
       "text": "Platinum",
@@ -10914,12 +10970,12 @@
       "t": "14 / 21"
     },
     {
-      "text": "AP courses / sections, taught by 12 teachers",
-      "of": "1110a371",
+      "text": "AP courses / sections in 2023, taught by 12 teachers",
+      "of": "c16d8681",
       "at": [
         "carmel-christian:transcript.stats[3].label"
       ],
-      "t": "kou / seksyon AP, anseye pa 12 pwofesè"
+      "t": "kou / seksyon AP an 2023, anseye pa 12 pwofesè"
     },
     {
       "text": "What the AP recognition rests on",
@@ -10970,12 +11026,12 @@
       "t": "Anplwaye"
     },
     {
-      "text": "**21 sections across 14 AP courses, taught by 12 teachers** — the program is spread across a real faculty rather than concentrated in one or two rooms.",
-      "of": "01cc569e",
+      "text": "**In 2023, 21 sections across 14 AP courses, taught by 12 teachers** — the program is spread across a real faculty rather than concentrated in one or two rooms.",
+      "of": "46216278",
       "at": [
         "carmel-christian:transcript.depth[2].text"
       ],
-      "t": "**21 seksyon atravè 14 kou AP, anseye pa 12 pwofesè** — pwogram nan gaye atravè yon vrè fakilte olye li konsantre nan youn oswa de sal."
+      "t": "**An 2023, 21 seksyon atravè 14 kou AP, anseye pa 12 pwofesè** — pwogram nan gaye atravè yon vrè fakilte olye li konsantre nan youn oswa de sal."
     },
     {
       "text": "How the grade is framed",
@@ -11404,12 +11460,12 @@
       "t": "Sit piblik la pa pibliye gwosè klas fen etid la, kantite elèv fen etid pa konseye, oswa kantite vizit reprezantan kolèj chak ane. Kidonk kat sa a pa bay okenn chif chaj travay, olye pou l kalkile youn apati yon chif ki pa pibliye."
     },
     {
-      "text": "Around 215 institutions appear on the published College Acceptances list — Princeton and Duke at the top, through a deep bench of NC publics and Christian colleges.",
-      "of": "5627c532",
+      "text": "214 colleges appear on the school’s College Acceptances list. Princeton and Duke lead it, with a deep bench of NC public and Christian colleges.",
+      "of": "75cb48e7",
       "at": [
         "carmel-christian:outcomes.headline"
       ],
-      "t": "Anviwon 215 enstitisyon parèt sou lis College Acceptances ki pibliye a — Princeton ak Duke anlè, atravè yon gwo baz kolèj piblik NC ak kolèj kretyen."
+      "t": "214 kolèj parèt sou lis College Acceptances lekòl la. Princeton ak Duke an tèt li, ak yon gwo baz kolèj piblik NC ak kolèj kretyen."
     },
     {
       "text": "The page gives no time window, no counts and no markings showing where students enrolled. So it reads as an acceptance list built up over time. Here it is scored against the current U.S. News tiers.",
@@ -11420,20 +11476,20 @@
       "t": "Paj la pa bay okenn fenèt tan, okenn kantite ak okenn mak ki montre kote elèv yo te enskri. Kidonk li li tankou yon lis akseptasyon ki bati atravè tan. Isit la yo evalye l kont nivo U.S. News aktyèl yo."
     },
     {
-      "text": "~215",
-      "of": "6813e2c7",
+      "text": "214",
+      "of": "b9e50908",
       "at": [
         "carmel-christian:outcomes.stats[0].value"
       ],
-      "t": "~215"
+      "t": "214"
     },
     {
-      "text": "institutions named on the acceptance list (no count stated)",
-      "of": "d3b5e6ac",
+      "text": "colleges on the acceptance list (217 entries; the list repeats three)",
+      "of": "e55a8f51",
       "at": [
         "carmel-christian:outcomes.stats[0].label"
       ],
-      "t": "enstitisyon ki gen non sou lis akseptasyon an (pa gen kont ki deklare)"
+      "t": "kolèj sou lis akseptasyon an (217 antre; lis la repete twa)"
     },
     {
       "text": "1 of 8",
@@ -11517,12 +11573,12 @@
       "t": "Chak akseptasyon ki gen non"
     },
     {
-      "text": "~215 institutions · no time window, counts or enrollment markings published",
-      "of": "50a2af20",
+      "text": "214 colleges (217 entries; the list repeats three) · no time window, counts or enrollment markings published",
+      "of": "bd9e22f3",
       "at": [
         "carmel-christian:outcomes.collegesTotal"
       ],
-      "t": "~215 enstitisyon · pa gen fenèt tan, kantite oswa mak enskripsyon ki pibliye"
+      "t": "214 kolèj (217 antre; lis la repete twa) · pa gen fenèt tan, kantite oswa mak enskripsyon ki pibliye"
     },
     {
       "text": "No scholarship dollar totals published",
@@ -11608,12 +11664,12 @@
       "t": "**Platinum AP School Honor Roll** — pi wo nivo College Board la, genyen sou laj patisipasyon (80% nan elèv fen etid yo te chita yon egzamen, 73% te fè 3+) olye yon ti gwoup elit."
     },
     {
-      "text": "**A heavy-load group exists** — 19% of seniors sat five or more AP exams, across a 14-course / 21-section program.",
-      "of": "e1851c2c",
+      "text": "**A heavy-load group exists** — 19% of seniors sat five or more AP exams, across a 14-course / 21-section program in 2023.",
+      "of": "b2fd55b8",
       "at": [
         "carmel-christian:edge.levers[0].items[1]"
       ],
-      "t": "**Gen yon gwoup ak chaj lou** — 19% nan elèv fen etid yo te chita senk egzamen AP oswa plis, atravè yon pwogram 14-kou / 21-seksyon."
+      "t": "**Gen yon gwoup ak chaj lou** — 19% nan elèv fen etid yo te chita senk egzamen AP oswa plis, atravè yon pwogram 14-kou / 21-seksyon an 2023."
     },
     {
       "text": "**A sequenced plan** — the published four-year timeline runs Strong Start → Involvement & Service → Testing & Research → Essays & Applications. So a student works toward the application from 9th grade. It is not thrown together in the fall of senior year.",
@@ -11892,12 +11948,12 @@
       "t": "Rezilta yo montre lajè"
     },
     {
-      "text": "Around 215 named acceptances led by Princeton and Duke, deep in NC public universities and Christian colleges. But the list does not mark enrollments, so it shows acceptances, not where students enrolled.",
-      "of": "bde6aa92",
+      "text": "214 named colleges, led by Princeton and Duke, deep in NC public universities and Christian colleges. But the list does not mark enrollments, so it shows acceptances, not where students enrolled.",
+      "of": "1ebb5d98",
       "at": [
         "carmel-christian:verdict.points[3].text"
       ],
-      "t": "Anviwon 215 akseptasyon ki gen non, ak Princeton ak Duke an tèt, byen fon nan inivèsite piblik NC ak kolèj kretyen. Men lis la pa make enskripsyon, kidonk li montre akseptasyon, se pa kote elèv yo te enskri."
+      "t": "214 kolèj ki gen non, ak Princeton ak Duke an tèt, byen fon nan inivèsite piblik NC ak kolèj kretyen. Men lis la pa make enskripsyon, kidonk li montre akseptasyon, se pa kote elèv yo te enskri."
     },
     {
       "text": "The weighting changes with the Class of 2026",
@@ -12012,20 +12068,20 @@
       "t": "Yon lekòl preparasyon inivèsite, ki bati sou yon vizyon biblik, ki pa bay elèv li yo ran. Relve nòt la chita sou yon GPA ak pwa, ak yon bonis pwen kalite pou kou honors ak AP. Katalòg AP li rive jiska AP Seminar ak AP Research."
     },
     {
-      "text": "17 + Capstone",
-      "of": "e2c03665",
+      "text": "17",
+      "of": "1aeb28b1",
       "at": [
         "hickory-grove-christian:transcript.stats[0].value"
       ],
-      "t": "17 + Capstone"
+      "t": "17"
     },
     {
-      "text": "AP courses, plus the AP Seminar → Research Capstone track",
-      "of": "b614165e",
+      "text": "AP courses, including the AP Seminar → AP Research Capstone track",
+      "of": "a19aa16e",
       "at": [
         "hickory-grove-christian:transcript.stats[0].label"
       ],
-      "t": "kou AP, plis pis AP Seminar → Research Capstone la"
+      "t": "kou AP, ki gen ladan pis AP Seminar → AP Research Capstone la"
     },
     {
       "text": "85 / 176",
@@ -12116,12 +12172,12 @@
       "t": "Yon katalòg AP laj"
     },
     {
-      "text": "The school advertises **17 AP courses plus AP Capstone** (AP Seminar + AP Research). The 2026–27 profile names 13 by title. Calculus BC and Psychology are no longer printed, and Human Geography is back. The 2023 profile named 17, covering every title any edition has printed. So which of them run varies from year to year.",
-      "of": "9b42df52",
+      "text": "The school advertises **17 AP courses, among them the AP Capstone track** (AP Seminar + AP Research). The 2026–27 profile names 13 by title. Calculus BC and Psychology are no longer printed, and Human Geography is back. The 2023 profile named 17, covering every title any edition has printed. So which of them run varies from year to year.",
+      "of": "962e271e",
       "at": [
         "hickory-grove-christian:transcript.depth[0].text"
       ],
-      "t": "Lekòl la anonse **17 kou AP plis AP Capstone** (AP Seminar + AP Research). Pwofil 2026–27 la bay non 13. Calculus BC ak Psychology pa enprime ankò, epi Human Geography tounen. Pwofil 2023 la te bay non 17, ki kouvri tout tit nenpòt edisyon te enprime. Kidonk kilès ki fèt varye de yon ane a yon lòt."
+      "t": "Lekòl la anonse **17 kou AP, pami yo pis AP Capstone la** (AP Seminar + AP Research). Pwofil 2026–27 la bay non 13. Calculus BC ak Psychology pa enprime ankò, epi Human Geography tounen. Pwofil 2023 la te bay non 17, ki kouvri tout tit nenpòt edisyon te enprime. Kidonk kilès ki fèt varye de yon ane a yon lòt."
     },
     {
       "text": "Real depth in the scores",
@@ -13053,12 +13109,12 @@
       "t": "**23** elèv resevwa prim · **$2.6 million** antou"
     },
     {
-      "text": "These are college merit awards won by graduating seniors, not Gaston Day tuition scholarships. The school’s own Kimbrell awards are separate and appear in the Financial Aid area. The dollar total rose while the number of students fell (25 students/$2.75M in 2023 → 20/$3.87M in 2024). So the average per student roughly doubled across those two classes.",
-      "of": "2f10f771",
+      "text": "These are college merit awards won by graduating seniors, not Gaston Day tuition scholarships. The school’s own Kimbrell awards are separate and appear in the Financial Aid area. The dollar total rose while the number of students fell (25 students/$2.75M in 2023 → 20/$3.87M in 2024). So the average per student rose by about three-quarters (~$110K → ~$194K) across those two classes.",
+      "of": "7b396c26",
       "at": [
         "gaston-day:transcript.meritNote"
       ],
-      "t": "Sa yo se prim merit inivèsite elèv fen etid yo genyen, se pa bous frè eskolè Gaston Day. Pwòp prim Kimbrell lekòl la apa epi yo parèt nan zòn Financial Aid la. Total an dola a monte pandan kantite elèv yo bese (25 elèv/$2.75M an 2023 → 20/$3.87M an 2024). Kidonk mwayèn pa elèv la prèske double atravè de klas sa yo."
+      "t": "Sa yo se prim merit inivèsite elèv fen etid yo genyen, se pa bous frè eskolè Gaston Day. Pwòp prim Kimbrell lekòl la apa epi yo parèt nan zòn Financial Aid la. Total an dola a monte pandan kantite elèv yo bese (25 elèv/$2.75M an 2023 → 20/$3.87M an 2024). Kidonk mwayèn pa elèv la monte anviwon twa ka (~$110K → ~$194K) atravè de klas sa yo."
     },
     {
       "text": "Where the curriculum goes deepest",
@@ -13213,12 +13269,12 @@
       "t": "elèv dènye ane pa konseye — kalkile apati 35 elèv dènye ane, pa pibliye"
     },
     {
-      "text": "college counselors — Director plus Assistant",
-      "of": "b5d92a99",
+      "text": "college-counseling staff — Director plus Assistant",
+      "of": "e97f7e86",
       "at": [
         "gaston-day:counseling.stats[1].label"
       ],
-      "t": "konseye inivèsite — Direktè plis Asistan"
+      "t": "anplwaye konsèy inivèsite — Direktè plis Asistan"
     },
     {
       "text": "35",

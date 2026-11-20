@@ -78,8 +78,8 @@
         "providence-day:offered.seasons[0].note",
         "providence-day:offered.seasons[1].note",
         "providence-day:offered.seasons[2].note",
-        "charlotte-latin:offered.seasons[2].note",
-        "charlotte-country-day:offered.seasons[2].note"
+        "charlotte-latin:offered.seasons[0].note",
+        "charlotte-latin:offered.seasons[2].note"
       ]
     },
     {
@@ -1665,16 +1665,6 @@
       ]
     },
     {
-      "t": "8 de varsity",
-      "of": "2db878e9",
-      "at": [
-        "charlotte-latin:offered.seasons[0].note",
-        "charlotte-christian:offered.seasons[2].note",
-        "charlotte-country-day:offered.seasons[0].note",
-        "cannon:offered.seasons[2].note"
-      ]
-    },
-    {
       "t": "6 de varsity",
       "of": "0297e6ff",
       "at": [
@@ -2152,6 +2142,7 @@
         "charlotte-latin:coaching.featured[1].stats[1].value",
         "charlotte-catholic:national.stats[0].value",
         "cannon:coaching.featured[1].stats[0].value",
+        "carmel-christian:national.stats[2].value",
         "trinity-episcopal:coaching.featured[0].stats[1].value"
       ]
     },
@@ -2513,8 +2504,18 @@
       ]
     },
     {
-      "t": "La cifra publicada de 22 deportes cuenta por separado las versiones masculina y femenina de cada deporte. La cifra incluye el golf femenino, que no figura en la página de equipos actual. Charlotte Christian compite en la 4A de la NCISAA y en la CISAA. Su director, Barry Giller, preside la junta directiva de la NCISAA.",
-      "of": "ea4b9f51",
+      "t": "8 de varsity",
+      "of": "2db878e9",
+      "at": [
+        "charlotte-christian:offered.seasons[2].note",
+        "charlotte-country-day:offered.seasons[0].note",
+        "charlotte-country-day:offered.seasons[2].note",
+        "cannon:offered.seasons[2].note"
+      ]
+    },
+    {
+      "t": "La cifra de 50+ equipos es del colegio; los distintivos de abajo enumeran los 44 que nombra. La cifra publicada de 22 deportes cuenta por separado las versiones masculina y femenina de cada deporte. La cifra incluye el golf femenino, que no figura en la página de equipos actual. Charlotte Christian compite en la 4A de la NCISAA y en la CISAA. Su director, Barry Giller, preside la junta directiva de la NCISAA.",
+      "of": "6c063685",
       "at": [
         "charlotte-christian:offered.footnote"
       ]
@@ -3371,6 +3372,41 @@
       ]
     },
     {
+      "t": "Campeones de la NCHSAA en 2026, tras un título en 2021 y un subcampeonato en 2023.",
+      "of": "a08616c0",
+      "at": [
+        "charlotte-catholic:record.rows[4].note"
+      ]
+    },
+    {
+      "t": "Campeones de la NCHSAA por equipos (dual team) en otoño de 2025, como en 2021.",
+      "of": "e9ce66d8",
+      "at": [
+        "charlotte-catholic:record.rows[5].note"
+      ]
+    },
+    {
+      "t": "Subcampeones en otoño de 2024 y después campeones de la NCHSAA en otoño de 2025.",
+      "of": "3d4cff05",
+      "at": [
+        "charlotte-catholic:record.rows[6].note"
+      ]
+    },
+    {
+      "t": "Campeones de la NCHSAA en otoño de 2025.",
+      "of": "12049672",
+      "at": [
+        "charlotte-catholic:record.rows[7].note"
+      ]
+    },
+    {
+      "t": "Subcampeones en 2026, tras los títulos de 2021 y 2022.",
+      "of": "dfb9130e",
+      "at": [
+        "charlotte-catholic:record.rows[8].note"
+      ]
+    },
+    {
       "t": "Las filas de arriba son los programas con un resultado documentado en esta ventana. CCHS no publica una lista de títulos temporada por temporada, así que una celda en blanco significa “no se encontró ningún título ese año”, no una derrota verificada. El total de 79 títulos desde 2000 es la cifra del propio centro y abarca muchos más deportes que estos cuatro.",
       "of": "6efe2f25",
       "at": [
@@ -3420,8 +3456,8 @@
       ]
     },
     {
-      "t": "grados 9–12",
-      "of": "3554df3c",
+      "t": "grados 9–12, 2023–24",
+      "of": "91f75750",
       "at": [
         "charlotte-catholic:pipeline.funnel[0].hint"
       ]
@@ -5510,8 +5546,8 @@
       ]
     },
     {
-      "t": "18 equipos en tres temporadas, con un 82% del alumnado practicando al menos un deporte.",
-      "of": "b4f32bd9",
+      "t": "18 deportes en tres temporadas (según el recuento del colegio), con un 82% del alumnado practicando al menos un deporte.",
+      "of": "811bab87",
       "at": [
         "covenant-day:offered.headline"
       ]
@@ -5524,8 +5560,8 @@
       ]
     },
     {
-      "t": "equipos, V · JV · MS",
-      "of": "a6672127",
+      "t": "deportes (según el recuento del colegio) · 43 equipos V/JV/MS abajo",
+      "of": "1f4606cc",
       "at": [
         "covenant-day:offered.stats[0].label"
       ]
@@ -5674,8 +5710,8 @@
       ]
     },
     {
-      "t": "La cantera llega a muchos deportes, pero rara vez a los niveles más altos. Los compromisos abarcan once deportes. Pero fuera del hockey hierba, el nivel más alto es la División I mid-major (programas de División I fuera de las conferencias más grandes). Esas colocaciones: Louisiana Tech · East Carolina · UNC Charlotte en sóftbol y fútbol americano · Appalachian State en baloncesto y béisbol · Queens · Gardner-Webb · Wofford. Eso también explica la ausencia de actividad NIL y de reclutas en rankings top-100, que siguen las canteras de fútbol americano y baloncesto de la Power 4.",
-      "of": "f7fd528f",
+      "t": "La cantera llega a muchos deportes, pero rara vez a los niveles más altos. Los compromisos abarcan diez deportes. Pero fuera del hockey hierba, el nivel más alto es la División I mid-major (programas de División I fuera de las conferencias más grandes). Esas colocaciones: Louisiana Tech · East Carolina · UNC Charlotte en sóftbol y fútbol americano · Appalachian State en baloncesto y béisbol · Queens · Gardner-Webb · Wofford. Eso también explica la ausencia de actividad NIL y de reclutas en rankings top-100, que siguen las canteras de fútbol americano y baloncesto de la Power 4.",
+      "of": "3a6dc695",
       "at": [
         "covenant-day:pipeline.realityCheck"
       ]
@@ -6535,8 +6571,7 @@
       "t": "5",
       "of": "300ca0d0",
       "at": [
-        "davidson-day:coaching.featured[1].stats[1].value",
-        "carmel-christian:national.stats[2].value"
+        "davidson-day:coaching.featured[1].stats[1].value"
       ]
     },
     {
@@ -6561,8 +6596,8 @@
       ]
     },
     {
-      "t": "La etapa verificada más larga como entrenador principal del centro, y el ejemplo más claro de lo que aporta la continuidad. Reconstruyó el fútbol masculino desde un 7–13 en 2019–20 hasta un 17–4 y el 9.º puesto estatal, ganando tres títulos consecutivos. El fútbol femenino ganó dos títulos más con él. Ambos programas se desplomaron en 2025–26, la temporada siguiente a su marcha. El fútbol femenino pasó de 14–2 a 3–11.",
-      "of": "f47bc788",
+      "t": "La etapa verificada más larga como entrenador principal del centro, y el ejemplo más claro de lo que aporta la continuidad. Reconstruyó el fútbol masculino desde un 7–13 en 2019–20 hasta un 17–4 y el 9.º puesto estatal, ganando dos títulos consecutivos (2023, 2024). El fútbol femenino ganó tres más con él (2023–2025). Ambos programas se desplomaron en 2025–26, la temporada siguiente a su marcha. El fútbol femenino pasó de 14–2 a 3–11.",
+      "of": "2db0aa59",
       "at": [
         "davidson-day:coaching.featured[1].detail"
       ]
@@ -7044,34 +7079,6 @@
       ]
     },
     {
-      "t": "2006–2019",
-      "of": "64e64022",
-      "at": [
-        "hickory-grove-christian:record.bars[0].tag"
-      ]
-    },
-    {
-      "t": "2005 · 2021 · 2023",
-      "of": "0d6ff9a6",
-      "at": [
-        "hickory-grove-christian:record.bars[1].tag"
-      ]
-    },
-    {
-      "t": "2009 (3A)",
-      "of": "1d22922f",
-      "at": [
-        "hickory-grove-christian:record.bars[2].tag"
-      ]
-    },
-    {
-      "t": "2025 (D2)",
-      "of": "4adeb9d7",
-      "at": [
-        "hickory-grove-christian:record.bars[3].tag"
-      ]
-    },
-    {
       "t": "Siete campeonatos NCISAA 3A — 2019, 2017, 2010, 2009, 2008, 2007 y 2006 — más subcampeonatos 3A en 2023, 2022, 2018, 2015 y 2013 y un subcampeonato 2A en 2004. High Point Christian ganó las dos finales recientes, la de 2022 en tres partidos y la de 2023 en dos. Es la racha de títulos más profunda de cualquier programa de HGCS.",
       "of": "b1e122f6",
       "at": [
@@ -7355,8 +7362,8 @@
       ]
     },
     {
-      "t": "Cuatro títulos en total (2021, 2023, 2024, 2025) y tres consecutivos hasta 2025 — venció a Trinity School of Durham & Chapel Hill por 5–1 en 2023, y después a Epiphany School en 2024 y 2025",
-      "of": "0e564ec1",
+      "t": "Cuatro títulos desde 2021 (2021, 2023, 2024, 2025) y tres consecutivos hasta 2025 — venció a Trinity School of Durham & Chapel Hill por 5–1 en 2023, y después a Epiphany School en 2024 y 2025",
+      "of": "f978cc51",
       "at": [
         "gaston-day:record.rows[0].note"
       ]
@@ -7397,8 +7404,8 @@
       ]
     },
     {
-      "t": "El programa más laureado del centro: campeones NCISAA 2A en 2021, 2023, 2024 y 2025. La victoria de 2024 ante Epiphany School se describió en la cobertura como el tercer campeonato estatal del programa en cuatro años y el cuarto en total. La victoria de 2025 ante el mismo rival lo convirtió en tres consecutivos.",
-      "of": "a60f677e",
+      "t": "El programa más laureado del centro: campeones NCISAA 2A en 2021, 2023, 2024 y 2025. La victoria de 2024 fue ante Epiphany School, y la de 2025 ante el mismo rival lo convirtió en tres consecutivos.",
+      "of": "2f5b622b",
       "at": [
         "gaston-day:record.seasonDetail[0].text"
       ]
@@ -7800,8 +7807,8 @@
       ]
     },
     {
-      "t": "Diez equipos de middle school con nombre en tres temporadas, abiertos desde 5.º grado — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\"",
-      "of": "cc0a7edd",
+      "t": "Diez equipos: nueve en tres temporadas, más cheerleading femenino, abiertos desde 5.º grado — \"one of the few schools that allow 5th Graders the opportunity to be a part of our sports program.\"",
+      "of": "fb9a4773",
       "at": [
         "charlotte-prep:offered.headline"
       ]
