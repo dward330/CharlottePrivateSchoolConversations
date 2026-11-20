@@ -260,15 +260,15 @@ export const gastonDay: SportsProgram = {
     subhead:
       'Built from Gaston Day’s varsity rosters and each college’s own roster; the school publishes no list of its college signees.',
     funnel: [
-      { label: 'Committed to college athletics', hint: '(all divisions, 2024–26)', count: '3', width: 1, shade: 'pale' },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '2', width: 0.67, shade: 'mid' },
-      { label: 'Power 4', hint: '(SEC · Big Ten · ACC · Big 12)', count: '1', width: 0.33, shade: 'full' },
+      { label: 'Committed to college athletics', hint: '(all divisions, 2024–26)', derive: 'all', width: 1, shade: 'pale' },
+      { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.67, shade: 'mid' },
+      { label: 'Power 4', hint: '(SEC · Big Ten · ACC · Big 12)', derive: 'p4', width: 0.33, shade: 'full' },
     ],
     funnelNote:
       'Both Division I commits are volleyball players. One is Megan Brown (’24), at Wofford in the Southern Conference. The other is Anne Bradley Bing (’25), at South Carolina in the SEC, Gaston Day’s one Power 4 commitment in this window.',
     sportBars: [
-      { sport: 'Volleyball', count: 2, width: 1, p4Width: 0.5 },
-      { sport: 'Boys Basketball', count: 1, width: 0.5 },
+      { sport: 'Volleyball', match: ['Volleyball'] },
+      { sport: 'Boys Basketball', match: ['Boys Basketball'] },
     ],
     realityCheck:
       'Volleyball, Gaston Day’s state-championship program, produced both Division I commits. Braylen Todd (’26) went on to play basketball at Johnson & Wales in Charlotte. The school publishes no signing list or signing-day announcements, so the count is a documented minimum. Bree Smith (’27), a 50 and 100 freestyle swimmer, has committed to swim at Stanford.',

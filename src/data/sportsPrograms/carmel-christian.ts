@@ -202,15 +202,15 @@ export const carmelChristian: SportsProgram = {
       {
         label: 'Committed to college athletics',
         hint: '(all divisions, 2024–26)',
-        count: '20',
+        derive: 'all',
         width: 1,
         shade: 'pale',
       },
-      { label: 'NCAA Division I', hint: '(basketball and tennis)', count: '6', width: 0.3, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(basketball and tennis)', derive: 'd1', width: 0.3, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '1',
+        derive: 'p4',
         width: 0.05,
         shade: 'full',
       },
@@ -218,8 +218,8 @@ export const carmelChristian: SportsProgram = {
     funnelNote:
       'Four of the six Division I commits are basketball players. They signed with mid-major programs (Division I programs outside the biggest conferences) in the Big South, Sun Belt and Southern conferences. The other two are tennis players. One of them is Carmel’s Power 4 signee, Gabe Avram (’24), at South Carolina in the SEC. Kam Taylor reached the ACC (Florida State) only later, through the transfer portal, not as a Carmel commit.',
     sportBars: [
-      { sport: 'Basketball', count: 4, width: 1 },
-      { sport: 'Tennis', count: 2, width: 0.5, p4Width: 0.25 },
+      { sport: 'Basketball', match: ['Basketball'] },
+      { sport: 'Tennis', match: ['Tennis'] },
     ],
     realityCheck:
       'Most Carmel signees land in NCAA Division II and III. Baseball: Lander, USC Aiken, Bluefield State and Ferrum. Basketball: Fayetteville State and Johnson & Wales, and WVU Tech in the NAIA. Golf: North Greenville and Randolph-Macon. Volleyball: Winston-Salem State. Tennis is the program’s second pipeline, with six signees in the classes of 2024 and 2025, from the SEC to Johns Hopkins. The school’s list also includes a dance-team signee, who is not counted here as an athletic commitment.',

@@ -170,6 +170,7 @@ import { scrollToSection } from '../lib/scrollToSection.ts'
 import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
 import { areaOfCardId, cardLinkId, linkName, openFromHash, showLinkInUrl } from '../lib/cardLink.ts'
 import { localizeMoneyText } from '../lib/format.ts'
+import { pipelineCounts } from '../lib/pipeline.ts'
 
 type Loaded = Record<string, MetricGroup[]>
 
@@ -219,7 +220,13 @@ function SportsCardBody({
     case 'record':
       return <WinningRecordBody data={program.record!} />
     case 'pipeline':
-      return <CollegePipelineBody data={program.pipeline!} />
+      // Counted from the English roster, which a locale overlay never changes.
+      return (
+        <CollegePipelineBody
+          data={program.pipeline!}
+          counts={pipelineCounts(sportsProgram(slug)!.pipeline!)}
+        />
+      )
     case 'honors':
       return <HonorsBody data={program.honors!} />
     case 'coaching':

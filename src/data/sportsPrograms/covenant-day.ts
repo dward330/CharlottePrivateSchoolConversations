@@ -196,16 +196,16 @@ export const covenantDay: SportsProgram = {
       {
         label: 'Committed to college athletics',
         hint: '(all divisions, documented)',
-        count: '35',
+        derive: 'all',
         width: 1,
         shade: 'pale',
         toVerify: true,
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '10', width: 0.29, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.29, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '1',
+        derive: 'p4',
         width: 0.03,
         shade: 'full',
       },
@@ -213,17 +213,18 @@ export const covenantDay: SportsProgram = {
     funnelNote:
       'These are documented minimums. They come from the school’s own signing posts, which name every signee in the classes of 2024–26. They also come from the Lions Beyond CDS lists of alumni playing in college, which each team page publishes. Elijah Green ’24 is listed from William Peace’s roster. The school’s cumulative claim is 175+ collegiate athletes since 2006.',
     sportBars: [
-      { sport: 'Soccer', count: 9, width: 1 },
-      { sport: 'Baseball', count: 7, width: 0.78 },
-      { sport: 'Basketball', count: 5, width: 0.56 },
-      { sport: 'XC / Track', count: 4, width: 0.44 },
-      { sport: 'Football', count: 3, width: 0.33 },
-      { sport: 'Softball', count: 2, width: 0.22 },
-      { sport: 'Volleyball', count: 2, width: 0.22 },
-      { sport: 'Field Hockey', count: 1, width: 0.11, p4Width: 0.11 },
+      { sport: 'Soccer', match: ['Soccer'] },
+      { sport: 'Baseball', match: ['Baseball'] },
+      { sport: 'Basketball', match: ['Basketball'] },
+      { sport: 'XC / Track', match: ['XC / Track', 'Track & Field'] },
+      { sport: 'Football', match: ['Football'] },
+      { sport: 'Softball', match: ['Softball'] },
+      { sport: 'Volleyball', match: ['Volleyball'] },
+      { sport: 'Field Hockey', match: ['Field Hockey'] },
+      { sport: 'Tennis', match: ['Tennis'] },
     ],
     realityCheck:
-      'The pipeline reaches many sports, but rarely the top levels. Commitments span eleven sports. But outside field hockey, the highest level is Division I mid-major (Division I programs outside the biggest conferences). Those placements: Louisiana Tech · East Carolina · UNC Charlotte in softball and football · Appalachian State in basketball and baseball · Queens · Gardner-Webb · Wofford. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.',
+      'The pipeline reaches many sports, but rarely the top levels. Commitments span ten sports. But outside field hockey, the highest level is Division I mid-major (Division I programs outside the biggest conferences). Those placements: Louisiana Tech · East Carolina · UNC Charlotte in softball and football · Appalachian State in basketball and baseball · Queens · Gardner-Webb · Wofford. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.',
     rankedRecruits:
       'No nationally top-100-ranked recruit is documented. The two best-covered recruits are Emily Eaton ’24 and Michael Marcus Jr ’24. Eaton was 2023 NCISAA Player of the Year and NC Player of the Year per Max Field Hockey, and signed with a top-10-ranked Louisville program. Marcus, a 6′9″ forward, chose Appalachian State after NC state-level coverage.',
     roster: [

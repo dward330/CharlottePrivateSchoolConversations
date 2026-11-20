@@ -14,6 +14,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { number, winPct, localizeMoneyText, isolateFigures, keepSeasonsWhole } from '../lib/format.ts'
 import { SHOW_TO_VERIFY } from '../lib/toVerify.ts'
+import type { PipelineCounts } from '../lib/pipeline.ts'
 import { assetUrl } from '../lib/asset.ts'
 import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
@@ -803,7 +804,14 @@ function RosterRow({
   )
 }
 
-export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
+export function CollegePipelineBody({
+  data,
+  counts,
+}: {
+  data: CollegePipeline
+  /** Derived from the ENGLISH roster: a locale may translate a roster sport name. */
+  counts: PipelineCounts
+}) {
   const { t } = useTranslation()
   const [filter, setFilter] = useState<'all' | 'd1' | 'p4'>('all')
   const [query, setQuery] = useState('')
@@ -858,7 +866,9 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
                 style={{ width: `${Math.round(stage.width * 100)}%` }}
               />
             </span>
-            <strong className="sports-funnel-count">{localizeMoneyText(stage.count)}</strong>
+            <strong className="sports-funnel-count">
+              {localizeMoneyText(stage.derive ? String(counts[stage.derive]) : (stage.count ?? ''))}
+            </strong>
           </div>
         ))}
       </div>
@@ -872,7 +882,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
             <span className="text-muted sports-h-hint">{t('cardLabels.p4ShareHint')}</span>
           </Heading>
           <div className="sports-sportbars">
-            {data.sportBars.map((b) => (
+            {counts.bars.map((b) => (
               <div key={b.sport} className="sports-sportbar">
                 <span>{b.sport}</span>
                 <span className="sports-bar-track sports-bar-track-sm">

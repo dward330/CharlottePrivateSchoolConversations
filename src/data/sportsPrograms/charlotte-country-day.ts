@@ -224,19 +224,20 @@ export const charlotteCountryDay: SportsProgram = {
       '48 college commitments across 2024–26, 28 of them Division I and 9 Power 4 — with track and cross country supplying the most Division I commits and swimming the most Power 4.',
     subhead:
       'The school reports roughly 15 seniors committing per year over the last five years — 13 in the Class of 2026 and 60 across the last four classes, per the 2026–27 profile.',
+    offRosterCommits: 1,
     funnel: [
       {
         label: 'Committed to college athletics',
         hint: '(all divisions)',
-        count: '48',
+        derive: 'all',
         width: 1,
         shade: 'pale',
       },
-      { label: 'NCAA Division I', hint: '(any conference)', count: '28', width: 0.58, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.58, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12)',
-        count: '9',
+        derive: 'p4',
         width: 0.19,
         shade: 'full',
       },
@@ -244,14 +245,14 @@ export const charlotteCountryDay: SportsProgram = {
     funnelNote:
       'Swimming supplies five of the nine Power 4 commits, including all three from the class of 2026 (to Stanford, Florida and Purdue). Track and cross country supply the most Division I commits: nine. Five commitments went to Ivy League programs, consistent with Country Day’s academic profile. The school’s count of 48 includes one signee in college cheer, which sits outside the NCAA divisions shown here.',
     sportBars: [
-      { sport: 'Track / XC', count: 9, width: 1, p4Width: 0.22 },
-      { sport: 'Swimming', count: 7, width: 0.78, p4Width: 0.56 },
-      { sport: 'Tennis', count: 2, width: 0.22, p4Width: 0.11 },
-      { sport: 'Soccer', count: 2, width: 0.22 },
-      { sport: 'Basketball', count: 1, width: 0.11 },
-      { sport: 'Equestrian', count: 1, width: 0.11, p4Width: 0.11 },
-      { sport: 'Field Hockey', count: 1, width: 0.11 },
-      { sport: 'Other', count: 5, width: 0.56 },
+      { sport: 'Track / XC', match: ['Track / XC'] },
+      { sport: 'Swimming', match: ['Swimming'] },
+      { sport: 'Tennis', match: ['Tennis'] },
+      { sport: 'Soccer', match: ['Girls Soccer', 'Boys Soccer'] },
+      { sport: 'Basketball', match: ['Boys Basketball', 'Girls Basketball'] },
+      { sport: 'Equestrian', match: ['Equestrian'] },
+      { sport: 'Field Hockey', match: ['Field Hockey'] },
+      { sport: 'Other', match: 'other' },
     ],
     realityCheck:
       'Swimming is clearly the biggest source of Power 4 commits: five of nine P4 commits, and every 2026 P4 signee. Football and basketball, the sports that dominate national recruiting coverage, produced one D1 commit each across three classes. For most Country Day families, the pipeline runs through Olympic sports like swimming and track, and racquet sports like tennis. It leads into academically selective programs. For most families, the pipeline does not run through football and basketball.',
