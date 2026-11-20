@@ -512,3 +512,24 @@ still lists "Data Analytics: How Do They Know? (Honors)" and "Honors American St
 of which appears in the profile's course grid, plus "Introduction to Civil Engineering" and
 "Engineering in Motion: How to Make Things Move". Intro Bioengineering and Intro Electrical
 Engineering appear only in the profile's grade-distribution tables.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+- Re-fetched https://resources.finalsite.net/images/v1793645005/charlottelatin/izzo9suck4uojytpwadd/2026_27UpperSchoolProfileforCC1.pdf
+  (HTTP 200, 2,648,045 bytes, SHA-256 `2f07400a5db474f80b86e7ee74c3c90beed461992fe2e4555fd09ade6bb2f9d3`),
+  text via `pdftotext -layout`. Still reads: "1,555 Total enrollment", "589 Upper School
+  enrollment", "151 2026–27 senior class members", "Advanced Placement courses are offered in 24
+  subjects", and four college counselors: Jody Jennings (Director of College Counseling), Haley
+  Cripps, Alex Segura and Lucy Smith (Associate Directors). 151 ÷ 4 = 37.75.
+- Re-fetched the previous edition, https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf
+  (HTTP 200). It reads "Total enrollment: 1,555", "Upper School enrollment: 586", "2025–26 Senior
+  Class: 145" and AP "in 23 subjects". With the 2023-24 profile's "22 subjects" (recorded in
+  `Charlotte Latin - Course Offerings - Curriculum Guide.md`), the school's stated AP subject count
+  has moved 22 → 23 → 24 across three editions.
+- Course-page comparison (live page fetched the same day, see the course-offerings record): the
+  page has 23 AP-titled courses. Against this profile's 24-course AP grid, the page adds AP Music
+  Theory (not in the grid), lacks AP Business with Personal Finance, and lists one "Cybersecurity
+  1: Networking Fundamentals (AP)" where the grid lists AP Cybersecurity and AP Networking
+  Fundamentals separately.

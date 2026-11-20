@@ -299,3 +299,13 @@ Contacts: ExtendedDay@charchrist.com · Reid Davis Ball, reid.davisball@charchri
 (grades 1-4) · Ashley Jenkins, ashley.jenkins@charchrist.com (JK/K) · Julia Alison,
 julia.alison@charchrist.com (MS) · Kaitlin Pleshko, kaitlin.pleshko@charchrist.com
 (summer) · Lower School office (704) 366-5657 ext. 2001 · Extended Day ext. 2030
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched (HTTP 200, full text):
+- https://www.charlottechristian.com/campus-life/extended-day-after-school-clubs — Lower School extended day is for "students in JK-grade 4 for lower school". Lower School clubs: "Art, coding, flag football, lacrosse, running, soccer, and STEM are just a few of the clubs lower school students can choose to participate in after school." No rates on the HTML page (they sit in the linked Extended Day packet PDF, not re-fetched).
+- https://www.charlottechristian.com/academics/lower-school — section heading "Grades JK-4". Its extended-day blurb says "students in JK - grade 8" (the school's own pages differ on this wording).
+- https://www.charlottechristian.com/academics/middle-school — heading "Grades 5-8". "A variety of after school clubs are available to middle school students": mountain biking, wrestling, chess, baseball, cheer, esports.
+- The Middle School $8/hour rate recorded above (MS parent-information PDF) is not on these HTML pages; it was not re-fetched today.

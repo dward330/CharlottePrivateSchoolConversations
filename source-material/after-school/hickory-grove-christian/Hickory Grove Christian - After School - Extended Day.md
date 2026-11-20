@@ -105,3 +105,44 @@ pay **$35.00 per day** at least one week prior to each Adventure Day. (S3)
 - **TO VERIFY (optional deeper pass):** the school's linked "student services fees 2026-2027"
   document (behind S2) may contain the recurring Afterschool rate; it was not directly
   retrievable in this pass. If located, it could convert this null into a real figure.
+
+## Method
+
+### Re-verification attempt 2026-11-20 (plan `consistency`)
+
+Attempted by Claude Code during `/plan consistency` to settle a conflict: this record (2026-08-17)
+says no recurring after-school rate is published, while the Financial Aid record's 2026-11-10
+read of https://www.hgchristian.org/tuition-and-fees quotes "TK-5th Grade After School
+Childcare: $2,600; yearly" and "6th-12th Grade After School Childcare: $1,300; yearly".
+
+- **Live site unreachable on 2026-11-20** in curl, WebFetch, Playwright and the user's own Chrome:
+  every hgchristian.org page, the home page included, fails with `ERR_HTTP2_PROTOCOL_ERROR`.
+- **Wayback:** no capture of `/tuition-and-fees` exists. The newest capture of the old
+  `/admissions/tuition-and-fees` address (20260610220215) carries no fee figures at all, which
+  is consistent with this record's August reading of that page. The newest capture of
+  https://www.hgchristian.org/life-as-a-lion/after-school-program (20260520135644) reads
+  "Afterschool Program (TK–5)" and "Study Hall (Grades 6–11)", with no prices.
+- **Reading:** the August statement was accurate for the old page; the newer `/tuition-and-fees`
+  page (read live 2026-11-10) does price after-school childcare. Not re-confirmed live today.
+
+### Re-verification 2026-11-20, second attempt (plan `consistency`) — succeeded
+
+Read in the user's Chrome on 2026-11-20 (the site loads through the user's VPN).
+
+- https://www.hgchristian.org/tuition-and-fees, verbatim: "2026-2027 Tuition and Fees … Optional
+  Services: Charges for all optional services will be applied to the family’s payment plan. …
+  TK-5th Grade After School Childcare: $2,600; yearly · 6th-12th Grade After School Childcare:
+  $1,300; yearly".
+- The Afterschool page has MOVED: https://www.hgchristian.org/life-as-a-lion/after-school-program
+  now returns "404 Page Not Found". The homepage menu (Academics › Afterschool & Summer ›
+  Afterschool Program) links https://www.hgchristian.org/afterschool-program, which reads:
+  "Afterschool Program – for students in grades TK–5 · Study Hall – for students in grades 6–11 ·
+  Both programs are conveniently held on campus, beginning at 2:30 p.m. and ending at 5:30 p.m."
+  and "These are full-year programs and are not available for single-day drop-ins. Programs are
+  closed on teacher workdays, holiday weeks, and during the summer." and "Fees: Tuition is billed
+  annually and divided into equal payments based on the plan you select." and "New Registration
+  link coming soon! Contact Belinda Jackson for more information." (Afterschool Director,
+  belindajackson@hgchristian.org, 704-531-4034). No price appears on this page.
+
+Reading: the recurring rate IS published, on the Tuition and Fees page. The school's two pages
+disagree on Study Hall's top grade: 6–11 on the Afterschool page, "6th-12th" on the fee line.

@@ -366,3 +366,21 @@ Grade-level equivalents (ages only), per-camp days of week, sibling discounts,
 multi-week/volume discounts, deposit option (payment in full is required instead),
 financial aid or scholarships for camp, sell-out rates or historical fill data,
 Nike Tennis summer pricing (deferred to vendor).
+
+## Method
+
+### Re-verification attempt 2026-11-20 (plan `consistency`)
+
+Attempted by Claude Code during `/plan consistency` to reconcile this record's two totals:
+the headline "232 camp offerings … 169 unique camp titles" and the Rates & Add-ons "Count"
+column, which sums to 239 (26+26+89+19+9+41+1+14+1+7+1+1+4).
+
+- https://www.charlottelatinsummer.com/browse-camps now shows "Private Site — This site is
+  currently private" (checked in Chrome, 2026-11-20). The 2026 camp browser is no longer public.
+- Wayback holds only a 2025 capture of that page (20250315072226), so it cannot show 2026 data.
+- The Camp Catalog table in this record is a sample (142 titles, 211 session listings by
+  recount), not the full feed, so neither 232 nor 239 can be rebuilt from it.
+- The full 232-row feed is reachable only through the Google Sheets API URL in Sources, which
+  embeds an API key; it was not fetched.
+
+Status: unresolved. "89 of the 232" rests on the Count column, which does not reconcile.

@@ -160,3 +160,18 @@ with `curl` and read as page text.
 Not attempted, because the plan does not render them: the Hunter Sabbatical fund, the
 2018 WorldQuest post, the International Parents Board founding year, the Duke MUN post
 (404 at planning) and the Feb 2023 CHARMUN / Middle School MUN posts.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched with curl on 2026-11-20 by Claude Code during `/plan consistency`, to classify two
+values that disagree within the app. Both are the school's own wording; neither is resolved here.
+
+| Item | URL | Verbatim today |
+|---|---|---|
+| Sister-school start year vs the Southampton exchange (MS-GE) | https://www.charlottecountryday.org/bucsnet/middle-school/global-experiences | "Since 1992, we have fostered sister school partnerships across multiple countries, offering students in grades 6–12 …" and, on the same page, "KES is located in Southampton, England … KES and Country Day have had an exchange relationship since 1991." |
+| IB Diploma "first" claim (history tile) | https://www.charlottecountryday.org/about/history/news-details-page-history/~board/general-timeline-board/post/first-ib-school-in-nc | "Country Day is proud to be the first private school in North Carolina to offer the International Baccalaureate (IB) Diploma Program." The 2026–27 and 2025–26 profiles say "first school in North Carolina" (see the College Support profile record). |
+
+Both conflicts are the school's own pages disagreeing (category B in the plan): the app
+attributes each year or claim to its page rather than choosing one.

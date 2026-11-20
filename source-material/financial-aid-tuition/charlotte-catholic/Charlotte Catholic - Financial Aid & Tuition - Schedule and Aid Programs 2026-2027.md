@@ -97,3 +97,16 @@ school's highest published tier, consistent with how that row is defined for oth
 
 Note the capital fee is charged **per family**, not per student — so it does not scale with
 the number of children enrolled, unlike the application and enrollment fees.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched https://www.discovermacs.org/admissions/tuitionandaffordability (HTTP 200, full text), "2026-2027 Tuition Rates".
+
+- HIGH, 9th-12th Grade: Community $21,562 · Participating Catholic $15,041.
+- International: $23,562, printed in the Community column; Participating Catholic column "N/A". The page has no sentence saying who pays the International rate.
+- The column is headed "Community"; the word "non-parishioner" does not appear on the page.
+- Options – CCHS: Community $24,077 · Participating Catholic $18,345.
+- Capital Fee $1,995 per family; Application Fee $120 per student; Continuous Enrollment Fee $150; FACTS plan fee $15-$45 per family.
+- Multiple Child Tuition Discount (Participating Catholic families only): 2nd 10%, 3rd 25%, 4th 50%, 5th+ 100%.

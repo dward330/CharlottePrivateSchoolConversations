@@ -176,3 +176,17 @@ Re-fetched with `curl -sL` (browser user agent); Wayback copies re-read in their
 | Photo | `2026AFAR.png` (og:image of B-2026, 1200×800) opened: Tróia excavation team with a "TRÓIA" pennant, no legible name or caption. Saved as `public/travel/davidson-day-troia-2026.jpg`, 800×533 JPEG (supersedes the `.png` name above) |
 
 No PDF-only fact renders.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched https://www.davidsonday.org/academics/diploma-distinctions/global-studies (live). Verbatim:
+
+- World language: "Completion of Level IV or 3 levels of the same language in Upper School."
+- Practicum: "At least 100 hours of an approved internship, volunteer opportunity, or pre-collegiate program"
+- AP electives: listed under "Choose Four:"
+- Start year: "This Diploma Distinction has existed at Davidson Day School since 2021."
+- No minimum duration of international field research is stated on the page.
+
+The 2026–27 School Profile (same day, see the College Support School Profile 2026-2027 file) instead requires "the same world language in all four years of upper school" and "a minimum of two weeks of international field research", and dates AFAR in Belize to 2009 rather than 2006.

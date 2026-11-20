@@ -1987,3 +1987,34 @@ Starting school is a big milestone, and every child reaches it in their own time
 
 Teaching through novel study builds key literacy skills while fostering critical thinking, cultural awareness, and a love for reading. Novels offer a structured way for students to engage with a text, explore the world, and understand a character’s growth and feelings. Novels, when taught with the intent to foster thoughtful reflection and response, help students experience life from a character’s perspective. In some instances, students will see themselves in the character, and at other times the character serves as a window into other worlds. Novels tell the story of the kid experience.
 
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20 with curl (all HTTP 200):
+
+- https://www.charlottelatin.org/academics/upper-school/course-offerings — the filter bar lists
+  **13** headings, verbatim: "Communications & Global Leadership · English · History ·
+  Humanities/Social Sciences · Innovation & Design · Mathematics · Online Courses · Performing
+  Arts: Drama · Performing Arts: Music · Physical Education · Science · Visual Arts · World
+  Languages". The listing holds **136** posts, each followed by its tag. **14** are department or
+  group introductions (World Languages, English, History, Advanced Placement History Courses,
+  History Seminars (Semester), Humanities/Social Sciences, Mathematics, Science, Innovation &
+  Design, Performing Arts: Drama, Performing Arts: Music, Visual Arts, Physical Education, Online
+  Course Offerings), leaving **122 course posts**, unchanged from 2026-11-11. **23** course titles
+  carry "AP", including "Music Theory AP" and one "Cybersecurity 1: Networking Fundamentals (AP)".
+  No "Business with Personal Finance" post exists. Stagecraft I and II share one post ("Stagecraft
+  I and II"); Art Studio I, II, III and IV are four posts.
+- How the app's 105 Upper School rows reconcile to the 122 posts (recount of `courseOfferings.ts`
+  against this listing): French I–V row = 5 posts, French III/IV Honors = 2, Spanish I, 1B, II,
+  III, IV, V = 7, Spanish III/IV Honors = 2, Latin I–V = 3 (Latin I, II, III), Latin III Honors /
+  Latin IV (Honors) = 2, Art Studio I–IV = 4, and the one Stagecraft post is split into two rows.
+  122 − 17 = 105. No course post is missing from the app.
+- https://www.charlottelatin.org/academics/lower-school — page title "Lower School | TK-5".
+  "All students in TK through fifth grade participate in the Lower School Spanish program." "Our
+  Grade 5 students are able to choose and instrument and participate in Band or Strings. They
+  also participate in Choir."
+- https://www.charlottelatin.org/academics/middle-school — "Charlotte Latin’s Middle School is
+  where students in grades six, seven, and eight practice agency…" and "Across Grades 6-8, we
+  cultivate an environment of high challenge and high support…"

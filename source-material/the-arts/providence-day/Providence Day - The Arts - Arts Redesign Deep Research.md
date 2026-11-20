@@ -676,3 +676,18 @@ Press / third party:
   **theatre mid-production**, or the **darkroom**.
 - Wikipedia states a grade span of "5–12," which **contradicts** the school's own TK–12 statement;
   the school's own pages are authoritative here (TK–12).
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20 to settle the division grade spans the Arts card shows (Lower School · TK–4,
+Middle School · 5–8), which disagree with the rest of the school page.
+
+- https://www.providenceday.org/lower-school — page heading: "Transitional Kindergarten (TK)
+  Through Fifth Grade". The page names no Middle School start grade.
+- https://www.providenceday.org/middle-school — page heading: "Sixth Through Eighth Grades".
+
+So the school's divisions are Lower School TK–5 and Middle School 6–8. The "TK–4" in section 1a
+above describes the Lower School general-music curriculum (with 5th-grade ensembles), not the
+division's grade span.

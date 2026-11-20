@@ -322,3 +322,33 @@ of an "11-year journey toward language proficiency."
 8. **Course availability caveats.** Calculus III, Linear Algebra, and Differential Equations are all
    marked "Offered when supported by course enrollment," and the two French 7 Advanced courses run
    in alternating years.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20.
+
+- https://www.providenceday.org/upper-school — the Upper School page now links
+  "Upper School Course of Study 2026-27" (`/fs/resource-manager/view/6a2290f0-e553-40b2-952e-58ed6892c487`,
+  which redirects to
+  https://resources.finalsite.net/images/v1788362356/provday/lefyqhx5ttu0r4ajnpha/2026-2027UpperSchoolCourseofStudy.pdf;
+  PDF title "2026-2027 Upper School Course of Study - Google Docs", 77 pages, created 2026-04-23).
+  **The 2025-26 edition this record was built from is superseded.**
+- Department tallies on the Upper School page, verbatim: Arts "22 courses, including 3 APs";
+  Science "19 courses, including 5 APs and 3 STEM classes"; English "17 courses, including 3 APs";
+  History "27 courses, including 8 APs and 12 Global Studies"; Math "18 courses, including 4 APs";
+  Physical Education "8 courses, including life fitness, dancercise, and international games";
+  Computer Science "9 courses, included 2 APs"; World Language "38 courses in French, German,
+  Latin, Spanish, and Mandarin Chinese, including 5 APs". The AP figures sum to 30.
+- AP course headings in the 2026-27 Course of Study (text extracted with `pdftotext -layout`):
+  AP African American Studies, AP Art History, AP Art and Design, AP Biology, AP Business with
+  Personal Finance, AP Calculus AB, AP Calculus BC, AP Chemistry, AP Chinese Language and
+  Culture, AP Computer Science A, AP Computer Science Principles, AP English Language and
+  Composition, AP English Literature and Composition, AP Environmental Science, AP European
+  History, AP French Language, AP German, AP Human Geography, AP Latin, AP Macroeconomics,
+  AP Microeconomics, AP Music Theory, AP Physics 1, AP Physics C, AP Psychology, AP Spanish
+  Language, AP Statistics, AP U.S. Government and Politics, AP United States History, AP World
+  History: Modern — **30 AP courses** (AP German now has its own entry). The app's "28 AP" and
+  "149 courses" come from the 2025-26 edition. A full re-count of the 2026-27 edition was not
+  done in this pass.

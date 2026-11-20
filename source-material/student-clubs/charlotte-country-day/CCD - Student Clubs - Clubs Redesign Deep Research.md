@@ -241,3 +241,22 @@ Hispánica, or National Latin Honor Society) despite French / Spanish / Latin / 
 offered through AP and IB. Also **no Mu Alpha Theta, no Science NHS, no Quill and Scroll**.
 "Feeds from world languages" is therefore **absent** at this school, not merely
 undocumented.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched 2026-11-20.
+
+- https://www.charlottecountryday.org/cd-experience/beyond-the-classroom — the Senior Externship
+  "offers seniors a meaningful, one-day immersion into professional life"; "One-day mentoring
+  experience that exposes seniors to a variety of professions." The page does **not** say every
+  senior takes part. Both partner counts are still on the page: "Since 2017, we have partnered
+  with 100+ employers in 20 different industries" and "Launched in 2017, the Senior Externship
+  Program has partnered with more than 175 local employers across 20+ industries." Big Brothers
+  Big Sisters: "Nearly half the members of the junior and senior class mentor and volunteer one
+  lunch hour a week".
+- https://www.charlottecountryday.org/about/fast-facts — "Selected Memberships & Academic
+  Organizations" lists The Cum Laude Society, National Art Honor Society, National Honor
+  Society, Tri-M Music Honor Society and National Junior Honor Society (no Thespian Society).
+  Enrollment: 1,745, "Students enrolled for 2026-27 school year."

@@ -503,3 +503,29 @@ Culture**) and `Advanced Placement English 11` (233, **English Language and Comp
 - Class rank: CCHS does not rank.
 - Per-institution matriculation counts: not published.
 - Whole-school enrollment: not on this profile.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`) — whole-school enrollment
+
+Fetched with curl on 2026-11-20 by Claude Code during `/plan consistency`, because the app's
+"~1,171 students" has no traceable source: it appears only in this project's own provenance
+headers (School Profile 2025-2026 record L16, Sports record L12), not in either profile.
+
+- **NCES Private School Universe Survey (PSS), 2023–24 school year.** Search:
+  https://nces.ed.gov/surveys/pss/privateschoolsearch/school_list.asp?Search=1&SchoolName=Charlotte+Catholic&State=37
+  Detail (NCES ID 01010823):
+  https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?Search=1&SchoolName=Charlotte+Catholic&State=37&ID=01010823
+  Verbatim: "charlotte catholic high school 7702 Pineville Matthews Rd, Charlotte, NC 28226 … Mecklenburg 1,330 9-12"
+  and "Enrollment by Grade: 9 10 11 12 Ungraded — Students 404 351 304 263 8"; "Classroom
+  Teachers (FTE): 93.5 Student/Teacher Ratio: 14.2"; "Source: PSS Private School Universe Survey
+  data for the 2023-24 school year."
+- **The school's own site** (https://www.charlottecatholic.org/, /about-us,
+  /about-us/school-profile, /about-us/admissions) states no whole-school enrollment figure.
+- Cross-check: the 2026–27 profile gives 336 in the Class of 2027 and the 2025–26 profile 324
+  in the Class of 2026, consistent with ~1,300 across four grades rather than 1,171.
+
+Consequence for the app (plan `consistency`, row CCHS-31): replace "~1,171" with "1,330
+(2023–24, NCES)" wherever it renders outside Financial Aid & Tuition, and recompute the derived
+"~195 students per counselor" as ≈222 (1,330 ÷ 6). Financial Aid & Tuition is school-sourced
+only (user ruling 2026-11-10), so there the figure is dropped rather than replaced.

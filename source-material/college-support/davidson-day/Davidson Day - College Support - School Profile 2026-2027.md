@@ -450,3 +450,15 @@ TCU (~46).
 251. Winston-Salem State University
 252. Wofford College
 253. Xavier University
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf (HTTP 200, 611,543 bytes) and read with `pdftotext`. Verbatim:
+
+- "Total Enrollment: 565" · "Upper School Enrollment: 184" · "Class of 2027: 50"
+- Global Studies Diploma: "required to complete specific coursework with a global perspective, including the same world language in all four years of upper school. Students must also complete a minimum of two weeks of international field research (either through Davidson Day School’s International Research Projects that are outlined below or another approved international research program) and a capstone paper"
+- International Research Projects: "Davidson Day has led full-scale ongoing archaeological research with the American Foreign Academic Research, more commonly recognized as AFAR, organization in Belize since 2009, Spain since 2014, Greece since 2017, and Portugal since 2018."
+
+These match the transcription above. Note for the consistency plan: the school's Global Studies page (fetched the same day, see the International Travel Source URLs file) states different requirements, and the school's archived International Research page dates AFAR's Belize work to 2006.

@@ -152,3 +152,22 @@ ages, times and prices are all now sourced rather than absent. Weeks run **June 
 July 31, 2026** (**8 numbered weeks**, with no camp the week of June 29th and none on
 June 19th); ages span **rising PK through rising 12th** (tutoring) and **8–17** (Nike
 camps); the care span is **7:45am–5:00pm**.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched https://docs.google.com/document/d/1_6aE8KD3zpXlr5pQL1D3efBdSAImDMuY-f92oosFNKk/export?format=txt (HTTP 200, 15,842 bytes), "2026 Summer Camps at Gaston Day Catalog". Camp headings counted in the live document: Camp Spartan! and Camp Spartan! Jr (2); 11 half-day enrichment camps (Beach, Baseball, Space, Ice Cream and Popsicles, Dino, Zoo — "Cancelled", PE, Thespian, Move and Groove, Christmas in July, Fairies + Friends); 10 partner camps (Gaston Day 2-4-1; Children’s Theater of Charlotte: Frozen, Willy Wonka, Cowabunga; Legends: Cheer Fundamentals, Gymnastics Fundamentals; Studio Elite: Disney Princess Camp, Enchanted Mermaid Academy, Dance and Tumble, Beginning Ballet); 3 Nike camps (Coed Basketball, Coed Soccer, Girls Volleyball); plus summer tutoring ("$30 per half hour session", "$60 per hour session"). Total 27 entries, not 30.
+Care lines, verbatim: "Before Camp Care (7:45am-8:30am) - $25" · "After Camp Care (3:30pm-5:00pm) - $35" · "Between Camp Lunch Care (11:30am - 12:30pm) - $40 a week". Only the lunch-care line states a billing period.
+
+### Billing period for before and after camp care (2026-11-20, plan `consistency`)
+
+Checked in Chrome and by HTML export, 2026-11-20:
+- https://www.gastonday.org/summerprograms/ links both "BEFORE | AFTER | BETWEEN CAMPS" and
+  "REGISTER HERE" to the same camp-catalog Google Doc, which reads "Before Camp Care
+  (7:45am-8:30am) - $25" and "After Camp Care (3:30pm-5:00pm) - $35" with no period, against
+  "Between Camp Lunch Care (11:30am - 12:30pm) - $40 a week".
+- The doc's registration links all point to https://popsicle.app/parents/GastonDaySchool-rsHe0ii/login,
+  which requires a parent account. Its prices are not public.
+
+Status: the billing period of the $25 and $35 care options is not published. Ask the school.
