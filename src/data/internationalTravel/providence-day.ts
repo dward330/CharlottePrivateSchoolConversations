@@ -73,7 +73,7 @@ export const providenceDay: InternationalTravelProgram = {
     {
       value: '~19',
       label: 'countries & territories',
-      note: "reached by student trips and exchanges, 2021–25 — counted from the school's Global Map",
+      note: "reached by student trips and exchanges, 2021–25, counted from the school's Global Map. Trips alone reach 16; exchanges add Peru, Australia, Germany and Bermuda",
     },
     {
       value: '8',
@@ -764,7 +764,7 @@ export const providenceDay: InternationalTravelProgram = {
       points: [
         'A named second diploma, running since the mid-2000s, with published requirements',
         'Eight exchange partners, with durations and reciprocity documented year by year',
-        'Round Square conferences on four continents in four years',
+        'Round Square conferences on four continents abroad in four years',
         'Global learning in every division, TK to 12, with an 11-year language path',
       ],
     },

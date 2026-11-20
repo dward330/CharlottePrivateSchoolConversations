@@ -1737,6 +1737,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       navTitle: 'The Aid Engine',
       title: 'The Aid Engine — Process, Forms & Timeline',
       confidence: 88,
+      note: 'dates shown are for the 2026–27 aid cycle',
       timeline: [
         {
           when: '1 Nov 2025',

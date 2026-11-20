@@ -118,8 +118,8 @@ Partners. The community collects supplies for all **18 Charlotte Freedom School 
 
 ### Program 2 — Community Engagement / President's Volunteer Service Award — scale: 5,247 hours in one year
 
-**5,247 service hours in a single school year; 20,642 hours since 2017; 48 students earned
-the award in 2024** (24 Gold, 5 Silver, 9 Bronze). Led by Jennifer Bratyanski, Upper School
+**5,247 service hours in a single school year; 20,642 hours since 2017; 38 students earned
+the award in 2024** (24 Gold, 5 Silver, 9 Bronze; corrected from a mis-summed 48 on 2026-11-20, see Method). Led by Jennifer Bratyanski, Upper School
 Community Engagement Coordinator. Named partners: Wayfinders, RecycleBalls, Charlotte
 Mecklenburg Library, Mecklenburg County Teen Court, Augustine Literacy Project, and National
 Charity League.

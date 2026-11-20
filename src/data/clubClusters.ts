@@ -51,12 +51,12 @@ export type ClubClusters = {
   rows: ClubRow[]
 }
 
-// ── Providence Day ── the design's own "2a" reference. Fifteen clubs on the
+// ── Providence Day ── the design's own "2a" reference. Sixteen clubs on the
 // official Upper School list, in five clusters; DECA is the co-flagship (advanced
 // state → national ICDC 2026). Verbatim from the 2a section, cross-checked
 // against src/content/student-clubs/providence-day.json.
 const PROVIDENCE_DAY: ClubClusters = {
-  verdict: 'Fifteen clubs compete, in five clusters; DECA is the co-flagship.',
+  verdict: 'Sixteen clubs compete, in five clusters; DECA is the co-flagship.',
   verdictHint: 'Open any row for the full research note and its source.',
   rows: [
     {

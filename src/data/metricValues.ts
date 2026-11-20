@@ -1676,7 +1676,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Four performing ensembles: Band, Orchestra, Chorus, and Jazz.',
+        text: 'Four curricular ensembles: Band, Orchestra, Chorus, and Jazz. Two auditioned groups, A Cappella and The ChargHers, are not counted here.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -2692,7 +2692,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Colombia, Denmark, Ecuador, France, Greece, Iceland, Japan, Kenya, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, the United Arab Emirates and the United Kingdom.',
+        text: 'Colombia, Denmark, Ecuador, France, Greece, Iceland, Japan, Kenya, South Africa, South Korea, Spain, Sweden, Switzerland, Thailand, the United Arab Emirates and the United Kingdom. Trips only: the school page’s ~19 also counts exchange countries.',
       },
     },
   },

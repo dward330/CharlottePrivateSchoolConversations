@@ -136,7 +136,7 @@ const CHARLOTTE_LATIN: ClubCatalog = {
 // (official Upper School Club List '25–26). 77 in-scope US clubs across six of the
 // school's OWN category groupings; only 5 arts clubs excluded. Per-club focus is
 // the dossier's generic descriptor derived from each club's name (the school does
-// not publish per-club descriptions). Counts: interest·40, comp·15, aff·9, rec·6,
+// not publish per-club descriptions). Counts: interest·39, comp·16, aff·9, rec·6,
 // gov·4, media·3.
 const PROVIDENCE_DAY: ClubCatalog = {
   verdict:
@@ -166,7 +166,7 @@ const PROVIDENCE_DAY: ClubCatalog = {
     { name: 'Dungeons & Dragons Club', cat: 'interest', note: 'Tabletop role-playing games' },
     { name: 'Fishing Club', cat: 'interest', note: 'Recreational fishing' },
     { name: 'French Language Club', cat: 'interest', note: 'French language and culture' },
-    { name: 'Future Business Leaders of America', cat: 'interest', note: 'Business-skills organization (FBLA)' },
+    { name: 'Future Business Leaders of America', cat: 'comp', note: 'Business-skills organization (FBLA)' },
     { name: 'German Language Club', cat: 'interest', note: 'German language and culture' },
     { name: 'Greek Society', cat: 'interest', note: 'Ancient and modern Greek culture' },
     { name: 'International Food Club', cat: 'interest', note: 'Global cuisines and food culture' },

@@ -37,13 +37,13 @@ export const providenceDay: ArtsProgram = {
     stats: [
       { value: 'TK–12', label: 'continuous arts program' },
       { value: '3 AP', label: 'Studio Art · Art History · Music Theory' },
-      { value: '7', label: 'named ensembles + auditioned groups' },
+      { value: '6', label: 'ensembles: 4 curricular + 2 auditioned' },
       { value: '37k sq ft', label: 'McMahon complex · 500-seat theater' },
     ],
     divisions: [
       {
         name: 'Lower School',
-        grades: 'TK–4',
+        grades: 'TK–5',
         items: [
           'Active-listening music curriculum — singing, moving, playing; classical, popular and global repertoire',
           'Sequential music reading; percussion work; 4th graders learn the recorder',
@@ -54,7 +54,7 @@ export const providenceDay: ArtsProgram = {
       },
       {
         name: 'Middle School',
-        grades: '5–8',
+        grades: '6–8',
         items: [
           'Band · chorus · orchestra · theatre · technical theatre — tech starts this early',
           'A Middle School musical (2025-26: "Disney\'s Descendants The Musical")',
