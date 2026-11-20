@@ -1,5 +1,5 @@
 # Davidson Day School — Sports
-> Distilled from 21 source document(s) in `source-material/sports/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-11.
+> Distilled from 21 source document(s) in `source-material/sports/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** 247Sports Recruiting Rankings, Athletics Recap 2025-2026, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, School Profile 2026-2027, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Awards and Honors, Championships, Coaches Pedigree and Continuity, D1 and Top-50 Academic Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, WinLoss Records
 
 
@@ -1387,6 +1387,12 @@ Listed on the published tables with a blank place and 0 points. These stay out o
 | Cristo Rey Research Triangle High School | 3A | 2024–25 |
 | Thales Academy - Rolesville | 3A | 2024–25 |
 | Salem Baptist | 2A | 2025–26 |
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched https://www.davidsonday.org/athletics/history-and-achievements (live). The school's list today, verbatim by sport: Boys Soccer "2022, 2023, 2024" · Girls Soccer "2011, 2012, 2013, 2023, 2024, 2025" · Boys Tennis "2023, 2024, 2025" · Volleyball "2016, 2019, 2023, 2024" · Boys Cross Country "2020, 2021, 2022, 2023". The page states "37 team state championships". So the disagreements recorded above (boys soccer 2022, boys cross country 2022, boys tennis 2026 missing) still stand on the live page.
 
 
 ---

@@ -1,5 +1,5 @@
 # Davidson Day School — Global Exposure
-> Distilled from 2 source document(s) in `source-material/international-travel/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-18.
+> Distilled from 2 source document(s) in `source-material/international-travel/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
 **Documents:** Deep Research, Source URLs
 
 
@@ -667,6 +667,37 @@ research only; the page does not tie it to travel.
 | https://resources.finalsite.net/images/v1764867612/davidsondayorg/xxfitfgba71iprjxbsui/AdamSpachHouse.jpg (og:image of B-SPACH, 960×703) | Two students and an archaeologist at the NC dig | Filename: no; the post names the adult archaeologists | Domestic dig — only if that row is shown |
 
 Photos render in the school's own colors (no grayscale or duotone).
+
+## Implement-time verification — 2026-10-18 (`/implement ddglobal`)
+
+Re-fetched with `curl -sL` (browser user agent); Wayback copies re-read in their `id_` form.
+
+| Check | Result |
+|---|---|
+| GSD, DIST, B-2026, B-2024, B-SPACH, B-DD, MS, US, CC, DIR, Student Life | all 200; every fact rendered re-read in the page text — nothing moved since planning |
+| `/student-life/international-travel` | **still 404.** The Student Life page keeps an "International Travel" tile, but it now links to the Global Studies Diploma Distinction page (GSD). No replacement travel page anywhere on the site. The trips intro states this fact |
+| WB-IT-FEB, WB-IT-MAR, WB-GSDP, WB-GSDP-25, WB-IR | all 200 on Wayback; text as recorded above. WB-IR (Aug 2024) also supplies the per-site work behind the 2023–24 rows: Cahal Pech's western ball court by the royal palatial plaza, Tróia's Roman fish-salting factory, Zorita's castle over the Tagus River |
+| AFAR-ES / AFAR-PT / AFAR-BZ | unchanged: "8th to 12th grade" · "up to 18 students per session"; "10th through 12th grade" · "18 students per session"; "9th through 12th grade" · "up to 18 students" |
+| B-SPACH `article:published` | 2025-02-05 (the PDF's date confirmed); the dig is "In November 2024" |
+| Issuu Diploma Distinctions brochure | page loads but exposes only a one-sentence description — no graduate count or cohort size. The Verdict's "Graduates" question stays |
+| DIR, Middle School French | the directory lists an **Upper School** French teacher only; the plan's "French with the Upper School" for Middle School was an inference, so the Middle School item says only Spanish plus Upper School language classes (MS) |
+| Photo | `2026AFAR.png` (og:image of B-2026, 1200×800) opened: Tróia excavation team with a "TRÓIA" pennant, no legible name or caption. Saved as `public/travel/davidson-day-troia-2026.jpg`, 800×533 JPEG (supersedes the `.png` name above) |
+
+No PDF-only fact renders.
+
+## Method
+
+### Re-verification 2026-11-20 (plan `consistency`)
+
+Fetched https://www.davidsonday.org/academics/diploma-distinctions/global-studies (live). Verbatim:
+
+- World language: "Completion of Level IV or 3 levels of the same language in Upper School."
+- Practicum: "At least 100 hours of an approved internship, volunteer opportunity, or pre-collegiate program"
+- AP electives: listed under "Choose Four:"
+- Start year: "This Diploma Distinction has existed at Davidson Day School since 2021."
+- No minimum duration of international field research is stated on the page.
+
+The 2026–27 School Profile (same day, see the College Support School Profile 2026-2027 file) instead requires "the same world language in all four years of upper school" and "a minimum of two weeks of international field research", and dates AFAR in Belize to 2009 rather than 2006.
 
 
 ---
