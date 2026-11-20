@@ -122,7 +122,7 @@ export const charlotteCatholic: LearningSupportProgram = {
   stats: [
     { value: '$24,077', label: 'Options Program tuition, 2026-27', note: 'Community rate; $18,345 for Participating Catholic families, in place of the standard $21,562 and $15,041' },
     { value: '5', label: 'Academic Achievement staff', note: 'three program teachers by grade, a test coordinator and a testing proctor' },
-    { value: '6', label: 'school counselors', note: 'plus a Mental Health Intervention Counselor' },
+    { value: '6', label: 'counselors', note: 'a Director of Counseling and five school counselors, plus a Mental Health Intervention Counselor' },
     { value: '3', label: 'years: the oldest testing reviewed for eligibility', note: 'a Psychoeducational or Neurological Assessment' },
   ],
 
@@ -164,7 +164,7 @@ export const charlotteCatholic: LearningSupportProgram = {
         body: 'The Academic Achievement page defines occupational and physical therapy in its glossary but does not say either is offered.',
       },
       social: {
-        head: 'Six school counselors, a Mental Health Intervention Counselor and a crisis-resources page.',
+        head: 'A Director of Counseling and five school counselors, a Mental Health Intervention Counselor and a crisis-resources page.',
         body: 'The Mental Health Interventionist “works with students referred by the School Counselors to assess and provide in-depth short-term counseling.” The crisis page lists the 988 Suicide & Crisis Lifeline and the North Carolina Peer Warmline.',
       },
       gifted: {
@@ -376,7 +376,7 @@ export const charlotteCatholic: LearningSupportProgram = {
 
   staff: {
     headline:
-      'Twenty-one named staff: the Academic Achievement team, the Options/Pathways team, the assistant principal over both, six school counselors, the Mental Health Intervention Counselor and three health staff.',
+      'Twenty-one named staff. The Academic Achievement and Options/Pathways teams share one assistant principal. Counseling has a Director of Counseling and five school counselors, plus the Mental Health Intervention Counselor. Three health staff complete the list.',
     people: [
       { name: 'Dr. Alicia Reid', role: 'Assistant Principal; Academic Achievement, Options & Pathways', email: 'ahreid@charlottecatholic.org' },
       { name: 'Carolina Figueiras', role: 'Academic Achievement, 11th and 12th Grade', email: 'cafigueiras@charlottecatholic.org' },

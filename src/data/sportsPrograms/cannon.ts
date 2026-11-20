@@ -77,7 +77,7 @@ export const cannon: SportsProgram = {
       },
     ],
     footnote:
-      'Middle School basketball splits into Maroon and Gold squads to widen participation. The "47 teams" figure is the school’s own count; enumerating the published teams list yields roughly 45–50 depending on how co-ed Middle School teams are counted. Cannon has no on-campus pool — the swim team’s home venue is not published.',
+      'Middle School basketball splits into Maroon and Gold squads to widen participation. The "47 teams" figure is the school’s own count; enumerating the published teams list yields roughly 45–50 depending on how co-ed Middle School teams are counted. Cannon has no on-campus pool — the swim team’s home venue is not published. The school counts 13 sports, but the list below names 14, and the school does not say which two it combines.',
     sources: [
       { label: 'athletics.cannonschool.org — teams list', url: 'https://athletics.cannonschool.org/teams/teams-list' },
       { label: 'Cannon Athletics', url: ATHLETICS },

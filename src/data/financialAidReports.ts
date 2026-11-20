@@ -217,22 +217,22 @@ const COUNTRY_DAY: FinancialAidReport = {
       rangeMax: 700,
       figureNote:
         'Scale $0–700. A bounded estimate per division, not an itemized fee schedule — covers textbooks & supplies (gr. 5–12), activity fees, and athletic fees. Enrollment deposit: 10% of tuition, credited toward tuition due.',
-      componentsTitle: 'Ten confirmed cost components — 5 unpriced',
-      componentsAside: 'All-in estimate not built: 50% unpriced > 33% threshold',
+      componentsTitle: 'Ten confirmed cost components — 4 unpriced',
+      componentsAside: 'All-in estimate not built: 40% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — five bands, priced', status: 'priced' },
         { label: 'Textbooks & supplies · in range only', status: 'range' },
         { label: 'Activity fee · in range only', status: 'range' },
         { label: 'Athletic / sports fee · in range only', status: 'range' },
         { label: 'Extended Day · $60–$900/mo, or $19/hr drop-in', status: 'priced' },
-        { label: 'Enrichment classes · no rate', status: 'unpriced' },
+        { label: 'Enrichment classes · $260 full / $225 mini session (standard 2026–27 fee)', status: 'priced' },
         { label: 'Bus transportation · no rate', status: 'unpriced' },
         { label: 'Tutoring · no rate', status: 'unpriced' },
         { label: 'Dining hall · no rate', status: 'unpriced' },
         { label: 'MS PE uniforms · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        "All five unpriced items appear on the school's own billing list — real costs, billed monthly, rates visible only on a family's statement. These are the highest-value questions for the business office.",
+        "All four unpriced items appear on the school's own billing list — real costs, billed monthly, rates visible only on a family's statement. These are the highest-value questions for the business office.",
     },
     {
       id: 'fa-engine',
@@ -356,8 +356,8 @@ const COUNTRY_DAY: FinancialAidReport = {
       ],
       boxes: [
         {
-          title: 'Two years of documented rates',
-          body: 'Every band moved **+5.0%** from 2025–26 to 2026–27 — a uniform increase across the table (see the Section 01 chart). Two data points don\'t make a pattern. **Aid vs tuition growth can\'t be assessed:** tuition is year-tagged, the aid figures are not.',
+          title: 'Four years of documented rates',
+          body: 'Every band rose about **4.7–4.8%** from 2023–24 to 2024–25, then **5.1–5.3%**, then **5.0%** to 2026–27 (see the tuition history on this page). That is about 5% a year, three years running. **Aid vs tuition growth can\'t be assessed:** tuition is year-tagged, the aid figures are not.',
         },
         {
           tag: 'THE MIDDLE-INCOME QUESTION',
@@ -369,7 +369,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       questions: [
         'Which school year does each published aid figure describe — and is the share 20% or 21%, against which enrollment?',
         'What are this year\'s average and median awards, the range — and does any award cover full tuition?',
-        'What are the dollar rates for enrichment, bus, tutoring, dining hall and MS PE uniforms?',
+        'What are the dollar rates for bus, tutoring, dining hall and MS PE uniforms?',
         'Does the ten-month plan carry a fee or interest, and is there a discount for paying in full?',
         'What is the withdrawal obligation mid-year, the late-payment policy, and is refund insurance offered?',
         'Is there a sibling discount or employee remission — and what is the reduced deposit for aid applicants?',
@@ -377,7 +377,7 @@ const COUNTRY_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'charlottecountryday.org — Tuition & Financial Aid, Admissions, FAQs, Endowment & Capital Giving, Parent Quick Reference (all 23 Jul 2026) · School Profiles 2024–25 & 2025–26 · IRS Form 990, EIN 56-0623935 · Axios Charlotte, 20 Mar 2024. Third-party tuition aggregators checked and excluded — none matched the school\'s own table. The school did not commission, review or approve this report.',
+    'charlottecountryday.org — Tuition & Financial Aid, Admissions, FAQs, Endowment & Capital Giving, Parent Quick Reference (all 23 Jul 2026) · Enrichment fees: https://www.charlottecountryday.org/cd-experience/after-school/program-directors (20 Nov 2026) · School Profiles 2024–25 & 2025–26 · IRS Form 990, EIN 56-0623935 · Axios Charlotte, 20 Mar 2024. Third-party tuition aggregators checked and excluded — none matched the school\'s own table. The school did not commission, review or approve this report.',
 }
 
 const CANNON: FinancialAidReport = {
@@ -623,7 +623,6 @@ const CANNON: FinancialAidReport = {
         'What does the Tuition Refund Plan cost, and is it required?',
         'What should we budget for dining, athletic team packs, and arts supplies or instrument rental?',
         'What do Lower School activities cost? The current fee document names them without pricing them.',
-        'What were the published tuition rates for each band in the last three years?',
       ],
     },
   ],
@@ -1453,9 +1452,9 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
           emphasis: true,
         },
         {
-          when: 'Not published',
+          when: '26 Feb · 9 Apr',
           detail:
-            'When awards are released relative to the admission decision, or whether a family will know their award before an enrollment contract is due',
+            'Award decisions are communicated on notification day: 26 February 2027 for TK and K, 9 April 2027 for Grades 1–11. No enrollment-contract date is published, so the school does not say whether a family knows its award before the contract is due',
         },
         {
           when: 'Not retrieved',
@@ -1478,11 +1477,11 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'What it costs a family to apply (aid platforms often charge a fee, and the pages do not say whether one applies here) · when aid decisions arrive compared with admission decisions · the confidentiality policy: who inside the school sees a family\'s financial information, and how long it is kept.',
+          body: 'What it costs a family to apply (aid platforms often charge a fee, and the pages do not say whether one applies here) · the confidentiality policy: who inside the school sees a family\'s financial information, and how long it is kept.',
         },
       ],
       source:
-        'charlottelatin.org — Tuition & Financial Assistance; Policies, Procedures and Documents, retrieved 24 Jul 2026',
+        'charlottelatin.org — Tuition & Financial Assistance; Policies, Procedures and Documents, retrieved 24 Jul 2026 · Application Process (award dates), https://www.charlottelatin.org/admissions/application-process, retrieved 20 Nov 2026',
     },
     {
       id: 'fa-numbers',
@@ -1701,8 +1700,8 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       navTitle: 'Beyond Tuition',
       title: 'Beyond Tuition — The Real Cost of Attendance',
       confidence: 60,
-      componentsTitle: 'Fifteen confirmed components for a 2026–27 family — 9 unpriced',
-      componentsAside: 'All-in estimate not built: 60% unpriced > 33% threshold',
+      componentsTitle: 'Sixteen confirmed components for a 2026–27 family — 9 unpriced',
+      componentsAside: 'All-in estimate not built: 56% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
         { label: 'Enrollment deposit · $2,500, non-refundable', status: 'priced' },
@@ -1722,7 +1721,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Tutoring services · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'Of fifteen confirmed cost items, six have a published price and nine do not. That leaves 60% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
+        'Of sixteen confirmed cost items, six have a published price and nine do not. The bus fare sits on an old page and is not counted either way. That leaves 56% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
       boxes: [
         {
           title: 'The deposit, 2026–27',
@@ -2338,7 +2337,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       questions: [
         'What share of families receive the school\'s own FACTS-based aid, and what is the average award? (No figure is published, and the church files no 990.)',
         'How many monthly installments does the FACTS plan run, and does it carry a fee?',
-        'What are the "student services fees," and do they include the after-school program rate?',
+        'Are there other "student services fees" beyond the after-school childcare rate, and where can we see them before enrolling?',
         'How does the NCSEAA Opportunity Scholarship interact with the school\'s own FACTS Grant & Aid for a given family?',
         'Is there any appeals or mid-year change-of-circumstance process for need-based aid?',
         'Were the multi-child and clergy discounts fully discontinued for 2026-27, or replaced by anything?',

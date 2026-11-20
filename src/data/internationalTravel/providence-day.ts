@@ -73,7 +73,7 @@ export const providenceDay: InternationalTravelProgram = {
     {
       value: '~19',
       label: 'countries & territories',
-      note: "reached by student trips and exchanges, 2021–25, counted from the school's Global Map. Trips alone reach 16; exchanges add Peru, Australia, Germany and Bermuda",
+      note: "reached by student trips and exchanges, 2021–25, counted from the school's Global Map. The trips listed on this card (2022–23 to 2026–27) reach 16 countries, the figure on Compare",
     },
     {
       value: '8',
@@ -635,7 +635,7 @@ export const providenceDay: InternationalTravelProgram = {
   /* ---------------------------------------------- global community on campus -- */
   community: {
     headline:
-      'Families from 72 countries of origin, five world languages from TK, and a parent-run series of cultural celebrations that drew record crowds.',
+      'Families from 72 countries of origin, five world languages, three of them from TK, and a parent-run series of cultural celebrations that drew record crowds.',
     intro: {
       strong: 'Providence Day reports 72 countries of origin across its community,',
       muted:

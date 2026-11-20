@@ -25,9 +25,10 @@
  *                   registered triggers changed against <ref> (committed and
  *                   uncommitted) and prints each matching entry once. Exit 0.
  *
- * The school comes from a `source-material/<topic>/<slug>/` path, or, for
- * src/data/courseOfferings.ts, from the nearest `const <NAME>: CourseOfferings`
- * above the edited text, mapped through that file's OFFERINGS table.
+ * The school comes from a `source-material/<topic>/<slug>/` path, a per-school
+ * module `src/data/<dir>/<slug>.ts`, or, for src/data/courseOfferings.ts, from
+ * the nearest `const <NAME>: CourseOfferings` above the edited text, mapped
+ * through that file's OFFERINGS table.
  *
  * Test hooks: NOTIFY_DEPENDENTS_ROOT (repo root) and NOTIFY_DEPENDENTS_STATE_DIR
  * (marker directory). Tests: node --test scripts/notify_dependents.test.mjs
@@ -83,6 +84,10 @@ export function courseSchoolAt(src, pos) {
 export function schoolsFor(rel, { text, lines } = {}, root = ROOT) {
   const sm = rel.match(/^source-material\/[^/]+\/([^/]+)\//)
   if (sm) return sm[1].startsWith('_') ? [] : [sm[1]]
+  // A per-school data module, e.g. src/data/clubsPrograms/cannon.ts (never a
+  // locale overlay like cannon.es.ts, whose extra dot fails the pattern).
+  const dm = rel.match(/^src\/data\/[A-Za-z]+\/([a-z0-9-]+)\.ts$/)
+  if (dm) return [dm[1]]
   if (rel === 'src/data/courseOfferings.ts') {
     let src
     try {

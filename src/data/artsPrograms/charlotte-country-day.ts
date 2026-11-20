@@ -20,9 +20,10 @@
 //
 // Several baseline claims did NOT survive checking and are therefore absent
 // here rather than asserted: the Middle School Chamber Orchestra's state
-// adjudication ratings, the MS "Iron Ring" NCTC honor, a Tri-M chapter, a
-// National Art Honor Society chapter, and the exact catalog names "AP Studio
-// Art" and "IB Visual Arts" (the pages say "AP art courses" / "IB art courses").
+// adjudication ratings and the MS "Iron Ring" NCTC honor. (Tri-M and the
+// National Art Honor Society were later found on the Fast Facts page, and the
+// Upper School course guide names the AP Studio and IB Art titles and the
+// three auditioned honors groups — plan `consistency2`, CCD-9 and CCD-R1.)
 //
 // The strongest independently verified credential is not a trophy at all:
 // NCTC named Jenny Goodfellow North Carolina's 2022 K-12 Theatre Arts Educator,
@@ -225,15 +226,14 @@ export const charlotteCountryDay: ArtsProgram = {
       {
         label: 'Honors / select tier — Upper School',
         ensembles: [
-          'Chamber / Honors Choir',
+          'Honors Chamber Choir',
           'Honors Symphonic Band',
           'Honors Orchestra',
-          'Percussion Ensemble',
         ],
       },
       {
         label: 'Open enrollment — Upper School',
-        ensembles: ['Concert Choir', 'Symphonic Band', 'Orchestra', 'Piano class'],
+        ensembles: ['Concert Choir', 'Symphonic Band', 'Orchestra', 'Percussion Ensemble', 'Piano class'],
       },
       {
         label: 'Middle School — non-auditioned, in the daily curriculum',
@@ -245,7 +245,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     boardNote:
-      'Chris Rydel directs Upper School instrumental music. No choral director or arts department chair is named on the public pages. Important caveat: the school’s "8 ensembles" figure covers Middle and Upper School together. The pages never state which groups are audition-only. So the honors/open split above is inferred from the "Honors" and "Chamber" labels. Confirm it on a tour.',
+      'Chris Rydel directs Upper School instrumental music. No choral director or arts department chair is named on the public pages. The school counts eight ensembles. The board lists 12 groups and classes across both divisions, including Piano class and General Music, so the school’s count uses a narrower definition it does not state. The Upper School course guide sets an audition for Honors Chamber Choir, Honors Symphonic Band and Honors Orchestra, and says Percussion Ensemble needs no musical experience.',
     ladderTitle: 'The honors ladder — how far it goes',
     ladder: [
       {
@@ -254,7 +254,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
       {
         label: 'Audition up',
-        text: 'the honors tier — Chamber/Honors Choir, Honors Symphonic Band, Honors Orchestra, Percussion Ensemble. Explicit audition requirements are not published.',
+        text: 'the honors tier — Honors Chamber Choir, Honors Symphonic Band and Honors Orchestra, each entered by audition, per the Upper School course guide.',
       },
       {
         label: 'Get selected beyond campus',
@@ -294,7 +294,7 @@ export const charlotteCountryDay: ArtsProgram = {
       { name: 'AP art courses', terminal: true },
     ],
     pathNote:
-      'AP Sculpture and AP Music Theory are named; IB art courses including IB Theatre Arts run in parallel. The exact catalog titles "AP Studio Art" and "IB Visual Arts" are not published — the pages say "AP art courses" and "IB art courses"',
+      'The Upper School course guide names AP Studio: 2D Art, AP Studio: Design/Photography and AP Studio: Sculpture, plus AP Music Theory. IB Art I & II (SL and HL) and IB Theatre Arts run in parallel',
     exhibits: [
       {
         when: 'Annual',
@@ -318,7 +318,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     footnote:
-      'Stacy Utley teaches Upper School art. No visual arts or arts department chair is named publicly. The school cites recognition at: the Scholastic Art & Writing Awards, at both regional and national level · the National Congressional Art Competition · the Mint Museum Sculpture Exhibition · the Matthews Art Fest · the Rube Goldberg Competition. But specific years, student names and Gold/Silver Key counts are not published, so no number is given here. A National Art Honor Society chapter and its service projects could not be found and are not claimed. No dated 2025-26 exhibition schedule is available to the public.',
+      'Stacy Utley teaches Upper School art. No visual arts or arts department chair is named publicly. The school cites recognition at: the Scholastic Art & Writing Awards, at both regional and national level · the National Congressional Art Competition · the Mint Museum Sculpture Exhibition · the Matthews Art Fest · the Rube Goldberg Competition. But specific years, student names and Gold/Silver Key counts are not published, so no number is given here. The school’s Fast Facts page (https://www.charlottecountryday.org/about/fast-facts) lists a National Art Honor Society chapter. Its service projects are not published. No dated 2025-26 exhibition schedule is available to the public.',
     sources: [
       { label: 'charlottecountryday.org — Visual Arts', url: CCD_VISUAL },
       { label: 'Arts', url: CCD_ARTS },
@@ -360,7 +360,7 @@ export const charlotteCountryDay: ArtsProgram = {
       'Your site says five NCTC state championships. Which five years, and which plays? Only The Crane Wife is documented — and are they recent or decades old?',
       'You had zero Blumey nominations in 2026 for Frozen, after five in 2025 and about nine each in 2023 and 2024. What changed? Was it turnover on the creative team, or was Frozen chosen on purpose as a large-cast, accessible show?',
       'You have been nominated every year since 2022 but have not won since. Is the program aiming at competitive placement or at participation breadth? With 100% theatre participation, breadth may genuinely be the strategy.',
-      'Which of the eight ensembles require an audition, and can a beginner still join band or orchestra in 9th grade? The pages never state audition requirements.',
+      'Can a beginner still join band or orchestra in 9th grade? The course guide sets an audition only for the three honors groups.',
       'How many Scholastic Art & Writing Gold and Silver Keys did students earn last year, and how many advanced to national judging?',
       'Which year did the Edinburgh Fringe trip happen, what did students perform, and how often does it recur?',
     ],

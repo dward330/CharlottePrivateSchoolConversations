@@ -1,7 +1,7 @@
 ---
 name: consistency2
 title: Fix the residue of plan `consistency` — 13 partial fixes, 30 new findings, R8 bug, three new rules
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-20
 branch: fix/consistency2
@@ -362,3 +362,58 @@ in all ten catalogs in `TRANSLATED`.
 - **CAR-R2:** should the Carmel cell become the kindergarten $475/mo? — **default:** no; qual
   only.
 - **CCD-R8:** the endowment page URL. — **default:** no change.
+
+## Implementation notes
+
+### Phase 1 (English), 2026-11-20
+
+Built on `fix/consistency2`. The user approved the R9–R11 gate (gate at zero) and all three
+data defaults before the build.
+
+- **Ingest.** The plan expected no `src/content` change. Twelve content files did change:
+  each appended `## Method` section displaced a trailing `---` rule, and four files caught up
+  with source-material edits already on `main` from plan `consistency` (Davidson Day 86
+  courses and win percentages, Providence Day 38 students, Charlotte Christian Lower School
+  JK–4). `schools.json` came back reordered and was restored to its HEAD order (byte-identical).
+- **R9 calibration.** Schools count sports on different bases, so R9 also passes when the
+  figure equals the row count (one row per boys' or girls' program: Covenant Day, Gaston Day),
+  when one footnote sentence names the figure and says what it counts "separately" (Charlotte
+  Christian, Charlotte Country Day, Providence Day), and it skips a range ("12–14 sports",
+  Hickory Grove). Only tiles whose caption *is* the sport count are read, so "42 state titles
+  in 7 sports" is not.
+- **R9 found two items the plan did not list:** Cannon and Davidson Day each say "13 sports"
+  (the school's figure) above a list naming 14. The user chose to attribute both like LAT-R2:
+  a footnote sentence at each, and Davidson Day's tile caption "sports, as the school counts
+  them". R9 then reads zero and joins the gate.
+- **R10** reads Cannon's and Charlotte Christian's "Weeks 1, 2, 3" / "Weeks 1-6" form as well
+  as `;`-separated dated sessions. **R11** accepts either counting basis for "unpriced"
+  (`unpriced`, or `unpriced` + `range` as Latin counts it), but the title, note and
+  percentage must agree with each other.
+- **Deviation, CCD-R3.** Outdoor Adventure and Camp Buccaneer already have their own
+  "four-day week" rows for June 29–July 2, so adding that week to the main rows would list it
+  twice. Their descs now say "offered in three weeks here, plus the shortened July 3 week
+  (listed separately)". Tumble reads "seven".
+- **Deviation, TRI-R1.** The K–4 rung also holds visual art and performances, so it is named
+  "Lower School, before the ensemble choice" rather than "Lower School general music". The
+  grade-5 rung is "The ensemble choice (still Lower School)".
+- **CCD-R5:** Cannon's Q8 was dropped rather than reworded. **CCD-R7** went in the ensemble
+  board caveat (the worklist's proposal), not the tile or Compare qual. **PD-R2:** the
+  2026–27 3D Design description names ceramics, so `artsMatrix` gains
+  `ceramics: { US: { course: '3D Design' } }`; `check:matrices` passes and DATA-SCHEMA moves
+  9/11 → 10/11.
+- **CCD-R1** also renamed the "Chamber / Honors Choir" chip to the course guide's "Honors
+  Chamber Choir" and reworded the audition ask, whose "the pages never state audition
+  requirements" was no longer true. **CAN-R1** relabelled the rung "External honors — mostly
+  not documented" and added the Upper School page to the card's sources.
+- New verify flags (PD-R3, PD-R4, DD-R2) were **appended** to their `flags` arrays so no
+  existing overlay path shifts. The DD Greece ask was appended too ("thirteen" → "fourteen").
+- `scripts/notify_dependents.mjs` learned to read the school from a per-school module path
+  (`src/data/<dir>/<slug>.ts`), so the new `honor-societies` entry names that school's Arts
+  card. Two tests added (8/8 pass).
+- **Plan step 9 said to open a draft PR in Phase 1.** `/implement` keeps Phase 1 on the
+  branch without a PR until the English is reviewed, so the PR opens in Phase 2.
+- **`npm run build` stops at `check:live` in Phase 1**, with 40 stale stamps per locale (the
+  English this plan changed). That is the expected English-first state; Phase 2 clears it.
+  Every gate before it passed, and each gate after it was run on its own and passed:
+  `check:chrome`, `check:runtime`, `check:moneytext`, `check:dates`, `check:spans`,
+  `check:news`, `check:photos`, `check:cardlink`.

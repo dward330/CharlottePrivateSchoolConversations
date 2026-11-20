@@ -246,11 +246,11 @@ const CHARLOTTE_COUNTRY_DAY: ClubClusters = {
   rows: [
     {
       name: 'Model UN',
-      oneLiner: 'Delegations of 15–17 to Duke, UNC (MUNCH) & a Virginia conference',
+      oneLiner: 'Delegations of 10–20 to UNC (MUNCH) and Virginia (VAMUN), 2024–26',
       evidence: 'verified',
       evidenceLabel: 'Verified — event',
       note: 'Country Day’s best-documented competitive program. At MUNCH (March 2025), seventeen students competed and six earned awards, including four Outstanding Delegate honors. A Virginia conference brought a Best Delegate award. Both Middle and Upper School delegations are active.',
-      source: 'charlottecountryday.org — school news (MUNCH, Virginia, Duke)',
+      source: 'charlottecountryday.org — school news (MUNCH 2025 and 2026, VAMUN 2025)',
     },
     {
       name: 'Robotics',

@@ -79,7 +79,7 @@ export const carmelChristian: ClubsProgram = {
 
   honors: {
     headline:
-      'Four documented societies — three high-school chapters plus a middle-school junior society — each with published GPA and induction detail.',
+      'Four documented societies — three high-school chapters plus a middle-school junior society — three of them with published GPA thresholds and induction windows.',
     subhead:
       'Entered by achievement and application: the school publishes GPA thresholds and induction windows for its academic societies rather than a standing directory page.',
     societies: [

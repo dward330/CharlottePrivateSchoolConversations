@@ -580,7 +580,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: 'World language',
-        text: '**French 8** is designated post-AP, atop deep sequences — French 6–7, German 6, Latin 5–6, Spanish 6–7 and Mandarin Chinese 6–7.',
+        text: 'The 2026–27 profile lists **French 8** as post-AP, atop deep sequences — French 6–7, German 6, Latin 5–6, Spanish 6–7 and Mandarin Chinese 6–7. The 2026–27 Course of Study lists neither French 8 nor Latin 6.',
       },
       {
         label: 'Science',
@@ -613,6 +613,10 @@ export const providenceDay: CollegeSupportProgram = {
       {
         kind: 'gap',
         text: 'The school publishes no comparison of how hard it grades against local public schools, and no outside group checks its grades. The quintile table and the rule that AP exams are required answer the question indirectly. A direct comparison of grade inflation is not published.',
+      },
+      {
+        kind: 'verify',
+        text: 'Plan consistency2 PD-R3 (B), 2026-11-20: the live 2026–27 profile lists "French 6, 7 (two versions), 8 (post-AP)" and "Latin 5, 6"; the live 2026–27 US Course of Study has 0 hits for French 8 or Latin 6 (it ends at French 7 (Adv), AP French, Latin 5 (Adv), AP Latin). Both attributed; the checklist asks.',
       },
     ],
     sources: [
@@ -733,7 +737,7 @@ export const providenceDay: CollegeSupportProgram = {
     headline:
       'All eight Ivies appear on the 2023–2026 acceptance list — and all eight are bolded as enrolling one or more graduates.',
     subhead:
-      'The Class of 2025 was accepted at a school-record 249 colleges across 39 states, DC and 6 countries; 100% of graduates attend four-year colleges. Here the 383-institution list is scored against current U.S. News tiers.',
+      'The Class of 2025 was accepted at a school-record 249 colleges across 39 states, DC and 6 countries. The profile says 100% of graduates attend four-year colleges, yet its 2023–2026 list bolds Central Piedmont Community College as enrolling. Here the 383-institution list is scored against current U.S. News tiers.',
     stats: [
       { value: '100%', label: 'of graduates attend four-year colleges or universities' },
       { value: '8 of 8', label: 'Ivy League — every one bolded as enrolling' },
@@ -764,6 +768,10 @@ export const providenceDay: CollegeSupportProgram = {
         kind: 'verify',
         text: 'Bold markers follow the 2026–27 profile (182 bold, key “one or more”). The live College Acceptances page uses a “more than one” key and bolds 178: Berklee College of Music, Thomas Jefferson University, University of Central Florida, University of North Carolina–Pembroke and William Penn University are bold only in the profile, and Stevenson University only on the page.',
       },
+      {
+        kind: 'verify',
+        text: 'Plan consistency2 PD-R4 (B), 2026-11-20: the live 2026–27 profile says "100% of our graduates attend four-year colleges or universities", and its bold key ("enrolling one or more members of the Class of 2023–2026") sets Central Piedmont Community College in bold (pdftohtml -xml). Both attributed in the subhead; the checklist asks which class the 100% describes.',
+      },
     ],
     sources: [
       { label: 'providenceday.org — College Acceptances 2023–2026', url: ACCEPTANCES },
@@ -789,7 +797,7 @@ export const providenceDay: CollegeSupportProgram = {
           '**Recruiting & arts tracks** — “Facts About Athletic Recruiting” and “Studying the Arts in College” sessions run in alternating years. The Class of 2026 sent 31 student-athletes to college sport, 13 at Division I.',
         ],
         note:
-          'The school has announced an Entrepreneurial Studies Diploma. But its course requirements, final project and internship setup are not published, and questions go to an email address. Global Studies, by contrast, publishes both its requirements and its count of 375 graduates.',
+          'The 2026–27 Course of Study lists the Entrepreneurial Studies Diploma\'s requirements: 5.5 credits (Social or Global Entrepreneurship, AP Business with Personal Finance, 3.5 credits of IDEAS electives and the senior capstone). It also requires one external internship, two extension experiences and a final business plan defended before a panel. How many students have earned it is not published. Global Studies, by contrast, publishes its count of 375 graduates.',
       },
       {
         title: 'Lever 2 — What the school brings',
@@ -806,6 +814,7 @@ export const providenceDay: CollegeSupportProgram = {
     sources: [
       { label: 'providenceday.org — 2026–27 profile (Global Studies, Senior Project, Honor Council, memberships, faculty degrees)', url: PROFILE_2627 },
       { label: 'IDEAS@PD — Entrepreneurial Studies', url: 'https://www.providenceday.org/upper-school/ideas' },
+      { label: '2026–27 Upper School Course of Study (Entrepreneurial Studies Diploma, pp. 12–14)', url: 'https://resources.finalsite.net/images/v1788362356/provday/lefyqhx5ttu0r4ajnpha/2026-2027UpperSchoolCourseofStudy.pdf' },
       { label: 'College Acceptances (pipeline map, bolded institutions)', url: ACCEPTANCES },
     ],
   },
@@ -930,8 +939,10 @@ export const providenceDay: CollegeSupportProgram = {
       'What is your position on test-optional, and what share of last year’s class actually submitted scores?',
       'Five counselors share 179 seniors — does each student keep the same counselor from 9th grade to graduation?',
       'How are testing accommodations documented for College Board and ACT, how many Upper School students hold them, and is occupational therapy billed directly to families?',
-      'The Entrepreneurial Studies Diploma is new for 2026 — what exactly does it require, and how many students have completed it?',
+      'How many students are enrolled in the Entrepreneurial Studies Diploma, and has anyone completed it yet?',
       'Your profile names 30 AP courses but 29 subjects were examined in May 2026. Are AP German and AP Business with Personal Finance both running this year?',
+      'Your 2026–27 profile lists French 8 and Latin 6, but the 2026–27 Course of Study does not. Are they offered this year?',
+      'Your profile says 100% of graduates attend four-year colleges, but its list bolds Central Piedmont Community College. Which class does the 100% describe?',
     ],
     flags: [],
     sources: [

@@ -1529,7 +1529,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     noLead: true,
     values: {
       cannon: 'NCTC festival', // competes in NC Theatre Conference HS Play Festival
-      'charlotte-christian': 'Blumey Best Show', // Blumey Best Show for Oklahoma! (2013)
+      'charlotte-christian': 'Blumey Best Musical (2013)', // Wells Fargo Best Musical for Oklahoma! (2013), one of four awards that year; https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners
       'charlotte-catholic': '5 Blumey finalists (2025)', // one finalist in each of the five individual performance categories, for Fiddler on the Roof; 5 further placements in 2026 for The Wizard of Oz, no win either year
       'charlotte-country-day': '31+ Blumey noms', // 31+ Blumey Award nominations
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
@@ -1556,7 +1556,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'scope',
-        text: 'Won Best Show at the Wells Fargo Blumey Awards for its production of Oklahoma! (2013). The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
+        text: 'Won the Wells Fargo Best Musical Award at the 2013 Blumeys for Oklahoma!, one of four awards that year. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
       },
       'charlotte-country-day': {
         kind: 'scope',
@@ -1973,7 +1973,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: 'Cost of after-school care',
     // No leader tint: this is a price, so the highest value is the worst one.
     noLead: true,
-    note: 'The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes, assuming a 10-month school year. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.',
+    note: 'The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes. Where a school bills monthly and publishes no month count, the year is 9 billing months. Where it publishes an annual or semester price, the monthly figure spreads it over 10 months. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.',
     values: {
       cannon: '≈$378/mo', // $3,784/yr ÷ 10 — Cannon publishes the ANNUAL figure only
       'charlotte-christian': '$325/mo', // JK–Grade 4 Extended Day to 6:00 p.m., 5 days/wk, 2026-27
@@ -1994,7 +1994,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // and Providence Day, matching their After School cards), so they do.
     subs: {
       cannon: '$3,784/yr', // published as an annual figure
-      'charlotte-christian': '≈$3,250/yr', // $325 × 10
+      'charlotte-christian': '≈$2,925/yr', // $325 × 9 (X7 ruling: no month count published)
       'charlotte-country-day': '≈$8,100/yr', // $900 × 9, the months the school's own After School card assumes
       'charlotte-latin': '$9,300/yr', // $4,650 × 2 semesters, as published
       'covenant-day': '$6,696/yr', // the school's own "for 10 Months" annual table, 3 sessions × 5 days
@@ -2017,7 +2017,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'scope',
-        text: 'JK–Grade 4 Extended Day to 6:00 p.m., five days a week, billed monthly at $325 for 2026–27; the yearly total assumes 10 billing months. Rates rose 32–52% over 2024–25, and Middle School is not in this figure because it bills by the hour ($8/hr, ending at 5:00 p.m.).',
+        text: 'JK–Grade 4 Extended Day to 6:00 p.m., five days a week, billed monthly at $325 for 2026–27. The yearly total assumes 9 billing months, which the school does not publish. Rates rose 32–52% over 2024–25, and Middle School is not in this figure because it bills by the hour ($8/hr, ending at 5:00 p.m.).',
       },
       'charlotte-country-day': {
         kind: 'scope',
@@ -2033,7 +2033,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'carmel-christian': {
         kind: 'scope',
-        text: 'Carmel Christian publishes one flat After School / After YCC rate — $245/month for five days a week, 3:00–6:00 p.m. — the same for every grade, unlike the tiered-by-grade schools beside it. The yearly total spreads it over the nine billing months the handbook states; before-care from 7:30 a.m. is $110/month, and there is a $30/day drop-in.',
+        text: 'Carmel Christian publishes one After School / After YCC rate — $245/month for five days a week, 3:00–6:00 p.m. — for grades 1–8 after the 3:00 dismissal. A kindergartner in Young Cougars Club from 1:15 adds $230/month ($475 to 6:00). The yearly total spreads the $245 over the nine billing months the handbook states; before-care from 7:30 a.m. is $110/month, and there is a $30/day drop-in.',
       },
       'providence-day': {
         kind: 'scope',
@@ -2110,7 +2110,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: '251', // camp-week offerings; ~180 distinct titles
       'charlotte-christian': '133', // session-level rows; ~96 distinct camps
       'charlotte-catholic': '4', // Cougar Basketball, Eddie Hull Baseball, Cougar Football, Just4Kicks Soccer. Notre Dame Vision and the Mayor's Youth Employment Program are not CCHS-run and are excluded
-      'charlotte-country-day': '132', // session-level rows; ~85 distinct titles
+      'charlotte-country-day': '132', // session-level rows; ~75 distinct titles
       'charlotte-latin': '232', // camp offerings; 169 unique titles
       'covenant-day': '20', // distinct camps named on the public 2026 page; school markets "29 camps"
       'carmel-christian': '36', // named camps across the 6 weeks
@@ -2143,7 +2143,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: '132 priced rows, roughly 85 distinct camp titles. The school separately markets the program as "over 150 exciting camp options", a figure its public listing does not itemize.',
+        text: '132 priced rows, roughly 75 distinct camp titles. The school separately markets the program as "over 150 exciting camp options", a figure its public listing does not itemize.',
       },
       'charlotte-christian': {
         kind: 'scope',

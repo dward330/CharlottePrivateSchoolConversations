@@ -28,7 +28,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       'Coverage then stops dead: there is no paid after-school care for Middle or Upper School at all, and Middle School is the worst served — its library closes at dismissal.',
     hours: ['1 pm', '2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
     basisNote:
-      'Prices on the bars are the **full-time PER-SEMESTER rate — 5 days a week**. Latin bills twice a year rather than monthly, so double them for a school year. Otherwise the price goes up evenly with each day, so 1–4 days a week costs proportionally less. Open **The Cost Planner** below to price any combination.',
+      'Prices on the bars are the **full-time PER-SEMESTER rate — 5 days a week**. Latin bills twice a year rather than monthly, so double them for a school year. Otherwise the price goes up evenly with each day on three of the five rows. The two rows ending at 4:30 break the pattern. Open **The Cost Planner** below to see them, or to price any combination.',
     rows: [
       {
         division: 'TK & Kindergarten',
@@ -324,13 +324,13 @@ export const charlotteLatin: AfterSchoolProgram = {
 
   verdict: {
     headline:
-      'An unusually well-housed and well-staffed Lower School program with honest, linear pricing — that stops completely at grade 5.',
+      'An unusually well-housed and well-staffed Lower School program with mostly linear pricing — that stops completely at grade 5.',
     subhead:
       'The TK/K cost cliff and the near-total fee opacity are the two things to press on, and Middle School families should ask what happens at 3:20 p.m.',
     strengths: [
       '**A dedicated after-school building**, not a repurposed cafeteria or gym — materially better for a child spending three-plus hours a day there.',
       '**Two credentialed adults per room** — "a dedicated lead teacher and assistant teacher" is a stated, structural commitment.',
-      '**Honest linear pricing with real granularity** — three genuine pickup times and 1–5 day choice, so a family needing exactly two days to 4:30 pays for exactly that.',
+      '**Mostly linear pricing with real granularity** — three genuine pickup times and 1–5 day choice, so a family needing exactly two days to 4:30 pays for exactly that.',
       '**Grades 1–5 pricing is genuinely modest** for this tuition tier — $295 a semester for one day a week to 4:30, and $2,950 a year for five-day coverage to 4:30.',
       '**Full-day coverage on teacher workdays and conference days**, 7:30 a.m.–4:45 p.m., with real field trips — solving the days that most often break childcare.',
       '**A deep 27-class enrichment catalog** with credible outside vendors, spanning STEM, arts and eight-plus sports.',

@@ -377,7 +377,7 @@ export const charlotteCatholic: SportsProgram = {
 
   honors: {
     headline: 'Six alumni in professional sport, and a national lacrosse ranking that moved 158 places.',
-    subhead: 'The pro list spans four decades and four sports.',
+    subhead: 'The pro list spans four decades, three sports and four leagues.',
     pros: [
       { kicker: 'NFL', name: 'Elijah Hood', detail: 'Drafted by the Oakland Raiders in 2017, 7th round, pick 242. Earlier the US Army Player of the Year (Hall Trophy).', path: 'CCHS → North Carolina → NFL' },
       { kicker: 'NFL', name: 'Derrick Taylor', detail: 'Reached the National Football League.' },

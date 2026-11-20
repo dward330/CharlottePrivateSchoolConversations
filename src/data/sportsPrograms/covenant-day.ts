@@ -48,7 +48,7 @@ export const covenantDay: SportsProgram = {
     seasons: [
       {
         name: 'Fall',
-        note: '8 teams',
+        note: '8 sports',
         sports: [
           { name: 'Football', levels: ['V', 'JV', 'MS'] },
           { name: 'Soccer (Boys)', levels: ['V', 'JV', 'MS'] },
@@ -62,7 +62,7 @@ export const covenantDay: SportsProgram = {
       },
       {
         name: 'Winter',
-        note: '4 teams',
+        note: '4 sports',
         sports: [
           { name: 'Basketball (Boys)', levels: ['V', 'JV', 'MS'] },
           { name: 'Basketball (Girls)', levels: ['V', 'MS'] },
@@ -72,7 +72,7 @@ export const covenantDay: SportsProgram = {
       },
       {
         name: 'Spring',
-        note: '6 teams',
+        note: '6 sports',
         sports: [
           { name: 'Baseball', levels: ['V', 'JV', 'MS'] },
           { name: 'Softball (Girls)', levels: ['V', 'MS'] },
@@ -84,7 +84,7 @@ export const covenantDay: SportsProgram = {
       },
     ],
     footnote:
-      'The 18-team figure and season groupings are the school’s own. The per-sport V / JV / MS chips are taken from each team’s "Additional Levels" listing on the school site. On that listing, 8 sports field a JV team, and every sport but Girls Golf fields a middle-school team. Boys volleyball runs as a club sport, and a combined lacrosse program appears in the school’s signing coverage. MaxPreps counts 21 varsity sports and 50 total teams by splitting genders and levels that the school combines.',
+      'The 18-sport figure and season groupings are the school’s own. The per-sport V / JV / MS chips are taken from each team’s "Additional Levels" listing on the school site. On that listing, 8 sports field a JV team, and every sport but Girls Golf fields a middle-school team. Boys volleyball runs as a club sport, and a combined lacrosse program appears in the school’s signing coverage. MaxPreps counts 21 varsity sports and 50 total teams by splitting genders and levels that the school combines.',
     sources: [
       { label: 'covenantday.org — Teams', url: TEAMS },
       { label: 'covenantday.org — Athletics', url: ATHLETICS },

@@ -10,7 +10,7 @@
  * sweep on 2026-11-20 (plan `consistency`) found 101 such findings across the
  * 13 school pages, and no existing check compared a headline with its list.
  *
- * RULES (R1–R7 gate the build; R8 is a report):
+ * RULES (R1–R7 and R9–R11 gate the build; R8 is a report):
  *   R1  College Pipeline funnel: a typed stage count, and every number in the
  *       headline directly before "commit…", "Division I" or "Power 4/Four"
  *       (at most two words between), equals the count derived from the 2024–26
@@ -45,11 +45,31 @@
  *       noun; a group holding more than one number is printed. Strings carrying
  *       a 4-digit year or "Class of" are skipped. Exit 0 always — a noun
  *       collision is a question, often a legitimate difference of basis, and a
- *       checker parked at a permanent non-zero count stops being read.
+ *       checker parked at a permanent non-zero count stops being read. The noun
+ *       is letters, spaces and hyphens only: with `\w` it swallowed digits, so
+ *       "9 varsity sports across roughly 28 teams" hid "28 teams" (fixed in plan
+ *       `consistency2`).
+ *   R9  Sports Offered: an "N sports" figure in the headline, or on a tile whose
+ *       caption is the sport count, equals the distinct sports the seasons list
+ *       ("Basketball (Girls)" and "Basketball (Boys)" are one sport). It also
+ *       passes when N equals the row count (one row per boys' or girls' program,
+ *       the Covenant Day and Gaston Day basis), when the footnote states the
+ *       list's own count (an attributed split, like R4b's qual escape), or when
+ *       one footnote sentence names N and says what it counts "separately". A
+ *       range ("12–14 sports") is already marked approximate and is skipped.
+ *   R10 Camp catalog: a row whose desc says "offered in N (of the M) weeks" (N in
+ *       digits or words; "both" is 2) lists N entries in its `weeks` — dated
+ *       sessions separated by ';', or "Weeks 1, 2, 5" / "Weeks 1-6".
+ *   R11 Financial Aid Beyond Tuition grid: the title's leading count and any
+ *       "N confirmed" in the note equal the components listed; every "N
+ *       unpriced" equals the `unpriced` rows, or `unpriced` + `range` rows
+ *       (Latin counts a year-behind figure as unpriced); "N priced" likewise;
+ *       and every "N% unpriced" is that count over the total, rounded, on the
+ *       basis the stated count used.
  *
  * Usage:
- *   node scripts/check_consistency.mjs            gate R1–R7; exit 1 on any finding
- *   node scripts/check_consistency.mjs --report   print R1–R8, always exit 0
+ *   node scripts/check_consistency.mjs            gate R1–R7, R9–R11; exit 1 on any finding
+ *   node scripts/check_consistency.mjs --report   print R1–R11, always exit 0
  *
  * Imports the per-school data files under plain Node (24+ type stripping),
  * never the *Program.ts registries (their import.meta.glob throws in Node).
@@ -349,6 +369,132 @@ for (const [slug, prog] of Object.entries(data.sportsPrograms)) {
       if (Number(m[1]) !== sum) add('R7', slug, `"${m[0]}" on Sports Offered, but the season headers sum to ${sum}`)
 }
 
+/* -------------------------------------------------------------------- R9 -- */
+
+// A sport name without its gender split: "Basketball (Girls)", "Swimming (B & G)",
+// "Volleyball – Girls" and "Cheerleading (Winter)" each name one sport.
+const sportName = (s) =>
+  String(s)
+    .replace(/\([^)]*\)/g, '')
+    .replace(/\s+[–-]\s+(?:boys|girls|co-?ed)\b/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase()
+const numWord = (n) => (n < UNITS.length ? UNITS[n] : null)
+const numAlt = (n) => `${n}${numWord(n) ? `|${numWord(n)}` : ''}`
+const SPORTS = new RegExp(String.raw`(?<![\d–-])\b${NUM_RE}\s+(?:(?:distinct|team|varsity)\s+)*sports\b`, 'gi')
+for (const [slug, prog] of Object.entries(data.sportsPrograms)) {
+  const o = prog.offered
+  if (!o) continue
+  const rows = o.seasons.flatMap((s) => s.sports)
+  const listed = new Set(rows.map((x) => sportName(x.name))).size
+  const foot = plain(o.footnote)
+  // The footnote reconciles the figure with the list ("…its own directory lists 16").
+  const footStatesList = new RegExp(String.raw`\b(?:${numAlt(listed)})\b`, 'i').test(foot)
+  // The footnote states the figure's basis ("…26 sports … counts boys’ and girls’
+  // programs separately"), in one sentence.
+  const footBasis = (n) =>
+    foot.split(/(?<=[.!?])\s+/).some((sent) => new RegExp(String.raw`\b(?:${numAlt(n)})\b`, 'i').test(sent) && /separately/i.test(sent))
+  const texts = [
+    ['headline', o.headline],
+    // Only a tile whose caption is the sport count ("17 · sports offered"), not
+    // "42 · state titles in 7 sports".
+    ...o.stats.map((t, i) => [`stats[${i}]`, /^(?:(?:distinct|team|varsity)\s+)*sports\b/i.test(t.label) ? `${t.value} ${t.label}` : '']),
+  ]
+  for (const [where, t] of texts) {
+    for (const m of plain(t).matchAll(SPORTS)) {
+      const n = wordNumber(m[1])
+      // One row per boys' or girls' program is a basis too (Covenant, Gaston Day).
+      if (n == null || n === listed || n === rows.length || footStatesList || footBasis(n)) continue
+      add('R9', slug, `${where} "${m[0]}": ${n}, but Sports Offered lists ${listed} distinct sports in ${rows.length} rows, and the footnote neither states ${listed} nor gives the ${n}'s basis`)
+    }
+  }
+}
+
+/* ------------------------------------------------------------------- R10 -- */
+
+// "offered in four of the eight weeks", "offered in the first two weeks",
+// "offered in all six weeks", "offered in both short weeks".
+const WEEKS = new RegExp(
+  String.raw`offered in (?:(all|both) |the (?:first|final|last) )?(?:${NUM_RE} )?(?:(?:consecutive|separate|short) )?(?:of the ${NUM_RE} )?(?:(?:consecutive|separate|short|five-day|four-day) )?weeks\b`,
+  'i',
+)
+// "June 1-5; June 8-12" (dated sessions, ';'-separated) or "Weeks 1, 2, 5" /
+// "Weeks 1-6" (numbered weeks).
+function weekCount(w) {
+  const s = String(w).trim()
+  const numbered = s.match(/^Weeks?\s+(.+)$/i)
+  if (!numbered) return s.split(';').map((x) => x.trim()).filter(Boolean).length
+  return numbered[1].split(/,\s*|\s+and\s+/).reduce((a, part) => {
+    const r = part.match(/^(\d+)\s*[-–]\s*(\d+)$/)
+    return a + (r ? Number(r[2]) - Number(r[1]) + 1 : /^\d+$/.test(part.trim()) ? 1 : 0)
+  }, 0)
+}
+for (const [slug, prog] of Object.entries(data.summer)) {
+  for (const c of prog.catalog?.camps ?? []) {
+    const m = String(c.desc ?? '').match(WEEKS)
+    if (!m || !c.weeks) continue
+    const n = m[2] ? wordNumber(m[2]) : m[1]?.toLowerCase() === 'both' ? 2 : null
+    if (n == null) continue
+    const listed = weekCount(c.weeks)
+    if (n !== listed)
+      add('R10', slug, `camp "${c.name}": desc says "${m[0]}" (${n}), but its weeks list ${listed}: "${c.weeks}"`)
+  }
+}
+
+/* ------------------------------------------------------------------- R11 -- */
+
+// Beyond Tuition component grids. A school may count a 'range' row (a figure a
+// year behind, or a range) as unpriced or not — Latin's "8 unpriced or a year
+// behind" does, the rest do not — but the title, note and percentage must all
+// count on the same basis, and the total must be the grid's length.
+for (const slug of Object.keys(data.sportsPrograms)) {
+  const r = financialAidReport(slug)
+  for (const sec of r?.sections ?? []) {
+    const cs = sec.components
+    if (!cs?.length) continue
+    const len = cs.length
+    const unp = cs.filter((c) => c.status === 'unpriced').length
+    const rng = cs.filter((c) => c.status === 'range').length
+    const pri = cs.filter((c) => c.status === 'priced').length
+    const title = plain(sec.componentsTitle)
+    const note = plain(sec.componentsNote)
+    const aside = plain(sec.componentsAside)
+    const where = `${sec.id ?? sec.navTitle}`
+    // Totals: the title's leading count, and "N confirmed …" / "Of N …" in the note.
+    const lead = title.match(new RegExp(String.raw`^${NUM_RE}\b`, 'i'))
+    const totals = [
+      ...(lead ? [['title', lead[0], wordNumber(lead[1])]] : []),
+      ...[...note.matchAll(new RegExp(String.raw`\b(?:of\s+)?${NUM_RE}\s+confirmed\b`, 'gi'))].map((m) => ['note', m[0], wordNumber(m[1])]),
+    ]
+    for (const [f, txt, n] of totals)
+      if (n != null && n !== len) add('R11', slug, `${where} ${f} "${txt}": ${n}, but the grid lists ${len} components`)
+    // Unpriced counts and the basis they imply.
+    const bases = new Set()
+    for (const [f, t] of [['title', title], ['note', note], ['aside', aside]]) {
+      for (const m of t.matchAll(new RegExp(String.raw`\b${NUM_RE}\s+unpriced\b`, 'gi'))) {
+        const n = wordNumber(m[1])
+        if (n === unp) bases.add('unpriced')
+        if (n === unp + rng) bases.add('unpriced+range')
+        if (n !== unp && n !== unp + rng)
+          add('R11', slug, `${where} ${f} "${m[0]}": ${n}, but the grid has ${unp} unpriced${rng ? ` (+${rng} range)` : ''}`)
+      }
+      for (const m of t.matchAll(new RegExp(String.raw`\b(?:all\s+|only\s+)?${NUM_RE}\s+priced\b`, 'gi'))) {
+        const n = wordNumber(m[1])
+        if (n !== pri && n !== pri + rng)
+          add('R11', slug, `${where} ${f} "${m[0]}": ${n}, but the grid has ${pri} priced${rng ? ` (+${rng} range)` : ''}`)
+      }
+      for (const m of t.matchAll(/~?(\d+)% unpriced/gi)) {
+        const n = Number(m[1])
+        const a = Math.round((unp / len) * 100)
+        const b = Math.round(((unp + rng) / len) * 100)
+        const ok = bases.size ? [...bases].some((k) => n === (k === 'unpriced' ? a : b)) : n === a || n === b
+        if (!ok) add('R11', slug, `${where} ${f} "${m[0]}": ${n}%, but ${unp}${bases.has('unpriced+range') ? `+${rng}` : ''} of ${len} is ${bases.has('unpriced+range') ? b : a}%`)
+      }
+    }
+  }
+}
+
 /* --------------------------------------------------------- R8 (report) -- */
 
 const NOUNS = [
@@ -364,7 +510,10 @@ const NOUNS = [
   ['ensembles', /^(?:named )?ensembles?\b/i],
   ['Top-75 National', /^Top-75 National\b/i],
 ]
-const PAIR = /(?<![\d.,$])(~?\d[\d,]*\+?)\s+([A-Za-z][\w -]{0,40})/g
+// The noun is letters, spaces and hyphens only. `\w` here once let one match run
+// on through a second figure — "9 varsity sports across roughly 28 teams" read as
+// a single pair, so "28 teams" was never seen (plan `consistency2`).
+const PAIR = /(?<![\d.,$])(~?\d[\d,]*\+?)\s+([A-Za-z][A-Za-z -]{0,40})/g
 function r8For(slug) {
   const groups = new Map() // noun → Map(number → [where])
   const note = (noun, n, where) => {
@@ -415,10 +564,14 @@ function r8For(slug) {
 
 /* ---------------------------------------------------------------- output -- */
 
-const gated = findings
+// Rules that print with --report but do not fail the build. Empty today: R9–R11
+// joined the gate once the plan `consistency2` fixes brought each to zero.
+const REPORT_ONLY = new Set([])
+const gated = findings.filter((f) => !REPORT_ONLY.has(f.rule))
+const RULES = ['R1', 'R1b', 'R2', 'R3', 'R4', 'R4b', 'R5', 'R6', 'R7', 'R9', 'R10', 'R11']
 if (REPORT || gated.length) {
-  for (const rule of ['R1', 'R1b', 'R2', 'R3', 'R4', 'R4b', 'R5', 'R6', 'R7']) {
-    const fs = gated.filter((f) => f.rule === rule)
+  for (const rule of RULES) {
+    const fs = (REPORT ? findings : gated).filter((f) => f.rule === rule)
     if (!fs.length) continue
     console.log(`\n${rule} — ${fs.length}`)
     for (const f of fs) console.log(`  ${f.school}: ${f.msg}`)
@@ -443,7 +596,7 @@ if (REPORT) {
 
 console.log(
   gated.length
-    ? `\ncheck:consistency: ${gated.length} finding(s) across R1–R7.`
-    : '\ncheck:consistency: R1–R7 clean.',
+    ? `\ncheck:consistency: ${gated.length} finding(s) across R1–R7 and R9–R11.`
+    : '\ncheck:consistency: R1–R7 and R9–R11 clean.',
 )
 process.exit(REPORT ? 0 : gated.length ? 1 : 0)

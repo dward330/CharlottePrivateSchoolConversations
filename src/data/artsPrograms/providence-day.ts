@@ -36,7 +36,7 @@ export const providenceDay: ArtsProgram = {
       'Six named disciplines school-wide — band, chorus, orchestra, theatre, production and design, and visual arts — anchored by the McMahon Fine Arts Center and a parent Friends of the Arts group.',
     stats: [
       { value: 'TK–12', label: 'continuous arts program' },
-      { value: '3 AP', label: 'Studio Art · Art History · Music Theory' },
+      { value: '3 AP', label: 'AP Art and Design · AP Art History · AP Music Theory' },
       { value: '6', label: 'ensembles: 4 curricular + 2 auditioned' },
       { value: '37k sq ft', label: 'McMahon complex · 500-seat theater' },
     ],
@@ -125,7 +125,7 @@ export const providenceDay: ArtsProgram = {
     whoRunsIt:
       'Brooke Fulton directs Upper School theatre, with a dedicated technical director, Jordan Ellis. With a technical director on staff, stagecraft, set building and production tech form a real second track for students who want the theater without the spotlight. Technical theatre is offered from Middle School onward. The awards page gives "Set Builds" its own media section alongside "Productions." Sierra Key directs Middle School theatre.',
     venueNote:
-      'All performances are free and staged in the McMahon Fine Arts Center theatre. Individual technical course titles (Stagecraft, Tech Theatre I/II) are not published — the school describes the track only in the aggregate.',
+      'All performances are free and staged in the McMahon Fine Arts Center theatre. The 2026–27 Course of Study lists Technical Theatre and Theatrical Production and Design in the Upper School, and Middle School Stagecraft.',
     ledgerTitle: 'The Blumey ledger — a decade of external judging',
     ledger: [
       {
@@ -275,7 +275,7 @@ export const providenceDay: ArtsProgram = {
       { name: 'Sculpture', detail: 'corroborated by a Scholastic Gold Key in sculpture' },
       { name: 'Unconventional materials', detail: 'experimental studio work' },
       { name: 'Print & textile', detail: 'stick-and-ink drawing, printing on fabric' },
-      { name: 'Ceramics', detail: 'not published — no kiln is mentioned anywhere; ask on the tour' },
+      { name: 'Ceramics', detail: 'taught within 3D Design; no kiln is mentioned' },
     ],
     path: [
       { name: 'MS foundations' },
@@ -283,7 +283,7 @@ export const providenceDay: ArtsProgram = {
       { name: 'AP Art and Design', terminal: true },
     ],
     pathNote:
-      'AP Art History runs parallel, no portfolio required. The intermediate rungs are not published — the school describes the ladder only in prose',
+      'AP Art History runs parallel, no portfolio required. The 2026–27 Course of Study sets the path: Foundations of Art and Design, then two of Drawing, Painting, Photography, 3D Design or Digital Media, then AP Art and Design',
     exhibits: [
       {
         when: 'Monthly',
@@ -322,11 +322,11 @@ export const providenceDay: ArtsProgram = {
     headline:
       'A genuinely competitive arts program beside the academics: AP depth in all three disciplines, a strong NCTC record, and a calendared honors pipeline.',
     subhead:
-      'The open questions are about the undocumented course ladder and about converting Blumey finalists into wins — exactly what a campus visit answers.',
+      'The open questions are about a kiln for ceramics and about converting Blumey finalists into wins — exactly what a campus visit answers.',
     holdsUp: [
       {
         label: 'Three AP arts courses',
-        text: 'Studio Art, Art History and Music Theory — unusual breadth for one school, and a real asset for a college-bound arts student.',
+        text: 'AP Art and Design, AP Art History and AP Music Theory — unusual breadth for one school, and a real asset for a college-bound arts student.',
       },
       {
         label: 'The NCTC record is strong and recent',
@@ -346,7 +346,7 @@ export const providenceDay: ArtsProgram = {
       },
     ],
     ask: [
-      'Show me the visual arts course sequence on paper — what exactly does a student take between Middle School art and AP Art and Design? And is there ceramics, with a kiln?',
+      '3D Design includes ceramics — is there a kiln on campus for that work?',
       'Of the "26 Blumey Awards" on your awards page, how many were outright wins versus nominations or finalist placements?',
       'In 2025 and 2026 you had five and six Blumey finalists and no wins, and no production-level nominations. What is the plan to convert — do you staff a choreographer and a pit orchestra for the spring musical?',
       'How many students made honors ensembles last year, out of how many who auditioned? The "100+ musicians" and "50+ superior ratings" figures carry no time window.',

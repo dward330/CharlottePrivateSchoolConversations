@@ -16,8 +16,9 @@
 //
 // The inverse finding, equally decision-relevant: there is NO documented music
 // honors pipeline. No All-State or All-District selections, no NCAIS honors
-// ensembles, no adjudicated ratings, no Tri-M, and no named jazz festival
-// appearances could be confirmed. Rather than fill the honors ladder with
+// ensembles, no adjudicated ratings and no named jazz festival appearances
+// could be confirmed. (A Tri-M chapter is listed on the Upper School page —
+// plan `consistency2`, CAN-R1.) Rather than fill the honors ladder with
 // unsourced claims, card 1c's ladder states the asymmetry outright — strong
 // theatre recognition, undocumented music recognition — and leads instead on
 // music's real strength, a three-level Ableton/Logic production track and the
@@ -264,8 +265,8 @@ export const cannon: ArtsProgram = {
         text: 'this is where music’s real depth sits. Music Technology I is "designed for the music novice"; II moves to Ableton Live and the Push controller and ends in "a well stocked audio portfolio"; III adds Logic Pro and self-directed projects. Backed by the new Texas Grace Audio Lab. For a student who wants to produce rather than perform, that is a real four-year path.',
       },
       {
-        label: 'External honors — not documented',
-        text: 'no All-State or All-District selections, no NCAIS honors ensembles, no adjudicated festival ratings, no Tri-M chapter, and no named jazz festival appearances could be confirmed in any source.',
+        label: 'External honors — mostly not documented',
+        text: 'the Upper School page lists a Tri-M Music Honor Society chapter. But no All-State or All-District selections, no NCAIS honors ensembles, no adjudicated festival ratings and no named jazz festival appearances could be confirmed in any source.',
       },
     ],
     ladderNote:
@@ -274,6 +275,7 @@ export const cannon: ArtsProgram = {
       { label: 'cannonschool.org — Music', url: CS_MUSIC },
       { label: 'Arts', url: CS_ARTS },
       { label: 'Artistic Visionaries', url: CS_VISIONARIES },
+      { label: 'Upper School (honor societies, incl. Tri-M)', url: 'https://www.cannonschool.org/academics/upper-school' },
     ],
   },
 
@@ -322,7 +324,7 @@ export const cannon: ArtsProgram = {
       },
     ],
     footnote:
-      'Krista Johns directs Visual Art. She joined in 2007, piloted TAB in the Lower School in 2011 and became director in 2022. Her view of why the choice-based approach works: "when you\'re creating work that\'s based on your own experiences and interests, and you\'re not comparing yourself to anyone next to you, you\'re more willing to try new things." The school names no CDE or Media Arts instructor. Two caveats are worth taking on a tour. Media Arts is promoted on the website and cited as an AP prerequisite, but it has NO course entry in the 2025-26 catalog. And AP Studio Art\'s stated prerequisites name "Studio Arts I" and "Media Arts I," but neither exists as a catalog course. So ask which courses actually count for AP entry. No external visual-arts recognition (Scholastic Art & Writing or otherwise) could be found for any year.',
+      'Krista Johns directs Visual Art. She joined in 2007, piloted TAB in the Lower School in 2011 and became director in 2022. Her view of why the choice-based approach works: "when you\'re creating work that\'s based on your own experiences and interests, and you\'re not comparing yourself to anyone next to you, you\'re more willing to try new things." The school names no CDE or Media Arts instructor. Two caveats are worth taking on a tour. Media Arts is promoted on the website and cited as an AP prerequisite, but it has NO course entry in the 2026–27 catalog. And AP Studio Art\'s stated prerequisites name "Studio Arts I" and "Media Arts I," but neither exists as a catalog course. So ask which courses actually count for AP entry. No external visual-arts recognition (Scholastic Art & Writing or otherwise) could be found for any year.',
     photo: {
       src: '/arts/cannon-campbell-gallery.jpg',
       name: 'Campbell Gallery',
@@ -372,7 +374,7 @@ export const cannon: ArtsProgram = {
       'Media Arts is promoted on your website and named as an AP Studio Art prerequisite, but it has no entry in the course catalog. Is it currently offered, and which courses actually satisfy AP entry?',
       'Ten Blumey finalist placements in 2023 and 2025 but no win I could find — how many Blumey wins has the program had, and in which years?',
       'What are your NCTC results year by year? Participation is clearly annual, but no regional placement, state advancement or named award is published anywhere.',
-      'Do music students audition for All-State, All-District or NCAIS honors ensembles, and how do they do? No selections, adjudicated ratings or Tri-M chapter could be found — is that a gap in publishing or in the program?',
+      'Do music students audition for All-State, All-District or NCAIS honors ensembles, and how do they do? No selections or adjudicated ratings could be found — is that a gap in publishing or in the program?',
       'Who is the technical director for theatre? And how much of the lighting and control-room work do students genuinely run themselves?',
       'The 2022 arts mission and vision process — what actually changed as a result, in curriculum or extracurricular terms?',
       'Is the parent arts organization now "Parents at Cannon Create" or still CAFTA? Both names appear on your site.',
