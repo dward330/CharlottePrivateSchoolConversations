@@ -708,7 +708,7 @@ export const gastonDay: CollegeSupportProgram = {
     middleTitle: 'If a student is in the middle',
     middle: [
       { label: 'Everyone gets an advisor', text: 'Every Upper School student gets a faculty advisor matched to their interests and needs. The advisor **stays with them through graduation**. That steady support does not depend on being a top student.' },
-      { label: 'Everyone gets the counselor', text: 'With ~18 seniors per counselor, the office reaches the whole class rather than triaging to the strongest applicants.' },
+      { label: 'Everyone gets the counselor', text: 'With 35 seniors and two college-counseling staff, the office reaches the whole class rather than triaging to the strongest applicants.' },
       { label: 'A six-course load, not a race', text: 'AP access is deliberately capped (1 in grade 10, 3 in grades 11 and 12), so the transcript ceiling is defined and a moderate load is normal rather than remedial.' },
       { label: 'Demanding non-AP courses', text: 'A broad Honors tier sits below the AP courses across every department, plus dual enrollment from grade 11 for students who want college credit without an AP exam.' },
       { label: 'A required spike for everyone', text: 'The 40-hour Capstone and the 25-hour annual service requirement mean every graduate has something concrete to write about, not only the students who sought it out.' },

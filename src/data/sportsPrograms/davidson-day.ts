@@ -310,7 +310,7 @@ export const davidsonDay: SportsProgram = {
       { sport: 'Equestrian', match: ['Equestrian'] },
     ],
     realityCheck:
-      'The unusual thing about this pipeline is still the ratio: thirteen of twenty-one documented commitments are Division I. Basketball remains the biggest source, with seven college signees in three classes. Soccer is close behind with six, including a Big East defender at Villanova and an ACC signee at NC State. The Class of 2026 added two lacrosse players bound for Division II and two track athletes bound for Division III. So athletes outside basketball now have examples of their own.',
+      'The unusual thing about this pipeline is still the ratio: thirteen of twenty-one documented commitments are Division I. Basketball remains the biggest source, with seven college commitments in three classes. Soccer is close behind with six, including a Big East defender at Villanova and an ACC signee at NC State. The Class of 2026 added two lacrosse players bound for Division II and two track athletes bound for Division III. So athletes outside basketball now have examples of their own.',
     rankedRecruits:
       'Three four-star basketball recruits in consecutive classes. Cody Peck ’26 is ranked No. 82 nationally by 247Sports and No. 99 by ESPN — he transferred in from IMG Academy for his senior year and chose Dayton over Creighton, Tennessee and Miami. Isaiah Denis ’25 was No. 56 in the On3 Industry ranking and the No. 1 recruit in North Carolina before signing with UNC. Will Stevens ’26, a 6-foot-10 center, was No. 1 in NC per On3 and committed to Clemson over Vanderbilt and South Carolina.',
     roster: [

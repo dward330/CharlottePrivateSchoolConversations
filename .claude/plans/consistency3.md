@@ -20,7 +20,9 @@ sentence that disagrees with another figure on the same page or on Compare.
 
 It also closes two items that earlier rounds parked (user, 2026-11-21): **LAT-13**, Latin's
 after-school tile with no basis, which needs a small approved UX tweak, and **CCD-R8**,
-Country Day's endowed-scholarship figure, whose only source page is gone.
+Country Day's endowed-scholarship figure, whose only source page was believed gone. *(At
+implement the page turned out to be live. The ladder stays and cites it; see
+Implementation notes and settled S7.)*
 
 It worked when a fresh page dump agrees on every ID in this plan and `npm run build` passes.
 
@@ -117,7 +119,7 @@ It worked when a fresh page dump agrees on every ID in this plan and `npm run bu
   value and the label) is settled **in the Claude Design project first** (step 0b), and the
   build matches it. Default if the design does not decide otherwise: the `stat-tile-sub` style
   College Support tiles use, between value and label.
-- **CCD-R8: remove everything resting on the dead page (user, 2026-11-21).** The page is gone,
+- **CCD-R8: remove everything resting on the dead page (user, 2026-11-21).** *Superseded at implement: the page is live, and the user ruled on 2026-11-22 to keep the ladder and cite it (settled S7).* The page is gone,
   so nothing it alone supports stays: the whole `ladder` with `figureCaption`, `figureNote` and
   `figureNote2`, and the endowed-fund example sentences in the "No merit track" box. What stays
   is only what a **live** Country Day page supports: the need-based statement, the section's
@@ -381,3 +383,74 @@ catalogs in `TRANSLATED` (`src/locales/{en,es,bn,ht,te,fr,fa,it,hi,ar}.json`).
 
 - **PD-S1 Compare value:** "6 ensembles" (default) vs "3 ensembles" curricular-only.
 - **TRI-S2:** whether Trinity 5th graders keep general music. Default: ask, no value change.
+
+## Implementation notes
+
+### Phase 1 (2026-11-22, branch `fix/consistency3`, commit `229961c8`)
+
+- **CCD-R8 is held, not built.** Step 3's precondition failed: the Endowment & Capital Giving
+  page is **live** at https://www.charlottecountryday.org/about/support/endowment-capital
+  (HTTP 200). Re-scan #1's four guessed slugs never tried `endowment-capital`. It is linked
+  from /about/support and from the Tuition & FA page's "Review a full list of scholarship
+  offerings". The four gift levels, "$39,600" and "+6,000 annually" match the ladder word
+  for word. Per the plan ("If the page is found, stop and ask"), nothing was deleted. The
+  evidence is under `### Re-verification 2026-11-22` in the CCD Tuition History record.
+  **User ruling, 2026-11-22: keep the ladder and cite the live page.** The section `source`
+  and the report `sources` line now carry the URL ("re-checked 22 Nov 2026"), and the ruling
+  is settled as **S7** in `.claude/skills/consistency-self-scan/settled.md`, so a rescan does
+  not re-raise it. **Phase 2 step 1b therefore changes:** no units are removed. The two
+  edited source lines are re-translated as minimal edits instead.
+- **LAT-13 `tileBasis` is registered in `PATH_OVERRIDES`, not `PROSE_KEYS`.** Its leaf key
+  is the school slug, so a `PROSE_KEYS` entry would never match. It follows `subs`, with
+  one `['tileBasis.<slug>', true]` per high school.
+- **Cannon CCD-S2 descs follow Cannon's own price style** ("$180.00 in the four-day Week 2
+  and $225.00 otherwise", as its Golf row does), not the plan's bare "$180 in Week 2".
+  Country Day rows use the plan's "$230 in the four-day weeks, $280 otherwise".
+- **Plain-language rewrites** (the hook, run by hand, flagged sentences over 30 words that
+  this plan's edits touched). DD-S3 became three sentences ("Basketball leads with seven
+  commits. Five signed with … and one with Division II Charleston (WV). The seventh is a
+  preferred walk-on …"). DD-S1's appended clause became its own sentence. The COV-S2 qual
+  became "… On the performing side, the advanced courses are Choir Honors, Symphonic Band
+  Honors and Honors Auditioned Theatre." The CC-S3 qual now opens "The school’s 2026–27
+  profile lists two AP arts courses … It also lists nine Honors Fine Arts courses: …".
+- **CCD-S3:** the label already reads "The Upper School model", so the text opens "**Four
+  academic coaches** help …" rather than repeating the label.
+- **DD-S6** reads "seven across four countries, the UK, Canada, Denmark and Italy (UCL, …)".
+  The school list stays in the parentheses.
+- **TRI-S1 / TRI-S2:** Course Offerings has no `flags` field, so both B items carry a code
+  comment. The Arts visit checklist gained the plan's ask.
+- **CAR-S1** was checked against the chips: boys' basketball, both soccers, volleyball and
+  baseball are V·JV·MS, and girls' basketball is V·MS.
+- **GD-S1:** `check:cardlink` asked only for a snapshot update, not an alias. The topic-scoped
+  alias already resolves the old link, as confirmed in Chrome.
+- **Design (0b and 5b).** Both mocks were captured from the pre-change build. Each proposed
+  element was patched in with a dashed outline and a labelled block, then written and
+  `design:verify`'d before the build. In 5b both files were re-captured from `229961c8`. Latin's
+  stat strip is a labelled block copied from the built DOM, because `--extra` takes cards by
+  id and a stat strip has none.
+- **Ingest:** `schools.json` came back reordered and was restored to HEAD order (no content
+  change). 121 notes whose only change was the "Rebuilt" date were restored.
+
+### Adversarial review (step 6b, 2026-11-22): 5 found, 5 fixed (one in part)
+
+One fresh agent got the plan, the worklists, `git diff main...fix/consistency3` and the page
+dump, and nothing else.
+
+1. **PD-S1, second card. Fixed in part.** The honors ladder's "Audition up" step named only
+   A Cappella and the ChargHers. It now opens "Jazz Ensemble requires an audition." The
+   reviewer also asked to drop "band/jazz" from step 01. **Rejected:** step 01 lists the
+   concert cycles each semester, not how a student joins an ensemble, so the jazz concert
+   stays.
+2. **GD-14, second card. Fixed.** Whole Class Analytics still asserted "~18 seniors per
+   counselor", which the card's own ask questions. It now reads "With 35 seniors and two
+   college-counseling staff, …", matching the GD-14 headline.
+3. **DD-S3, second card. Fixed.** The reality check's "seven college signees" now reads
+   "seven college commitments", because one of the seven is a preferred walk-on.
+4. **CCD-R8 docs. Fixed.** The Goal, the Decisions and the INDEX row said the ladder was
+   removed. All three now record that the page is live and the ladder kept (S7).
+5. **CCD-R8 uncommitted, rendering unchecked. Fixed.** The source-line edits, S7,
+   `design-sync.md` and these notes were committed; the site was rebuilt and re-dumped, and
+   the Show sources line was checked.
+
+Every other ID was confirmed as decided, including the recounts, the short-week prices
+against the evidence, the design-file match and the collateral check.

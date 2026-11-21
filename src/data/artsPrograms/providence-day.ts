@@ -241,7 +241,7 @@ export const providenceDay: ArtsProgram = {
       },
       {
         label: 'Audition up',
-        text: 'A Cappella and the ChargHers hold their own auditions (ChargHers auditions are a discrete calendar fixture). Ensembles perform at adjudicated festivals — the school reports 50+ superior ratings, cumulative and undated.',
+        text: 'Jazz Ensemble requires an audition. A Cappella and the ChargHers hold their own (ChargHers auditions are a discrete calendar fixture). Ensembles perform at adjudicated festivals — the school reports 50+ superior ratings, cumulative and undated.',
       },
       {
         label: 'Get selected beyond campus',
