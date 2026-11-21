@@ -241,3 +241,21 @@ The May 17-vs-18 registration-fee cutoff and the $25-vs-$50 cancellation fee. Th
 "May 17" and "$25" are used here since it is the school's own document, but the school's
 web page summary disagrees on both. Also: whether camps are open to non-CCS families,
 which the school does not state either way.
+
+## Method
+
+### Re-verification 2026-11-20 (plan consistency2, re-scan)
+
+Re-opened to check the season's break length (finding CC-S1 of the consistency2 re-scan).
+
+- https://resources.finalsite.net/images/v1782233699/charlotte/charlotte/charlotte/rxwhbvna5ckduwhzpp9p/CCSCamps2026At-a-glance.pdf
+  (HTTP 200, application/pdf, fetched 2026-11-20). Week headings, verbatim:
+  "Week 1: June 1-5" · "Week 2: June 8-12" · "Week 3: June 15-18" · "Week 4: June 22-26" ·
+  "Week 5: July 6-10" · "Week 6: July 13-17". The PDF states no break length; its only
+  "two weeks" is the refund rule ("All camps are non-refundable within two weeks of the start of ...").
+- https://www.charlottechristian.com/campus-life/summer-camps (HTTP 200, fetched 2026-11-20): no
+  break wording found in the page HTML.
+
+Finding: one week has no camps (June 29 - July 3), between Week 4 (June 22-26) and Week 5
+(July 6-10). The "two-week break" in this file's Season & Facilities line is ours, not the
+school's, and it contradicts the week table above it.

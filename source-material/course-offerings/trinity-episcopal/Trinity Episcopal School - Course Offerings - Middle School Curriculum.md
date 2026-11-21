@@ -237,3 +237,20 @@ Attribute as **announced**, not current.
 | **Course descriptions** | Subjects get narrative paragraphs; **no per-course description exists** for any of the five math courses or any elective. |
 | **"Choice Electives (7–8)" contents** | **The single most annoying gap.** The string "Choice Electives" appears **only in the profile PDF** and **nowhere on the website at all**. Searched the MS curriculum page, MS enrichments, the MS landing page, site search and a targeted web search. **Exhaustively verified null.** |
 | **Promotion / graduation requirements** | Zero hits for requirements or credit counts. |
+
+## Method
+
+### Re-verification 2026-11-20 (plan consistency2, re-scan)
+
+Fetched https://www.tescharlotte.org/about-us/trinity-at-a-glance with curl (HTTP 200,
+46,847 bytes). The stat strip reads, verbatim: "419 Total 26-27 enrollment (K-8) · 22:2 and
+24:2 Lower School student:teacher ratios (K-2, 3-5) · 20:1 Middle School student:teacher
+ratio · 25 ZIP codes represented · 2000 Year of Trinity's founding · 1,060 Alumni since 2004 ·
+$2.1 million Financial support awarded (26-27) · 10 Service-learning partners · 16 Enrichment
+courses (Lower and Middle School) · 200,000+ Steps walked to and from ImaginOn each year".
+
+The school's two sources count enrichments differently. At a Glance says 16 across Lower and
+Middle School. The 2026-27 School Profile (transcribed above, "Weekly Enrichments") lists 13
+Middle School items, and its Lower School line (Lower School and Technology record) lists six:
+6 + 13 = 19. Neither source says which items its count includes. The Course Offerings teaser
+quotes the 16, and the Middle School rows each say "one of the 13".

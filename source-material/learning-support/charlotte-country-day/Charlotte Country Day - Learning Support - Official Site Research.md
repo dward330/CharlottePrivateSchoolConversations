@@ -1161,3 +1161,22 @@ Cannon's row set minus its Cannon-specific "Academic Labs (9–12)": 24 rows.
 
 **Published 18 of 24 rendered (6 NS, 0 EXCLUDED).** The scope limit ("accommodations outside
 this list are not granted") goes in the eligibility `scope` cell, not as a row.
+
+## Method
+
+### Re-verification 2026-11-20 (plan consistency2, re-scan)
+
+Fetched today to check which division the "learning specialists" wording belongs to.
+
+- https://www.charlottecountryday.org/cd-education/educational-resource-program (HTTP 200).
+  The sentence "Our dedicated learning specialist work one-on-one with students to help them
+  recognize and utilize their strengths as they learn and apply strategies to become more
+  independent learners" sits in the **Middle School** tab. The **Upper School** tab reads: "In the
+  Upper School, our academic coaches assist students who need additional support and review in
+  content areas and executive functioning skills. … The ERP assists in requesting accommodations
+  with the College Board, ACT, and IB."
+- https://www.charlottecountryday.org/bucsnet/upper-school/erp (HTTP 200), "Academic Coaching
+  Grades 9–12". Contact block: "Lauren Folger-Sweeting Upper School ERP Director (704) 943-4773
+  lauren.folger-sweeting@charlottecountryday.org", then "Jennifer Achilles Academic Coach Upper
+  School · Chad Groncki Academic Coach Upper School · Kristen Rinehart Academic Coach Upper School ·
+  Danielle Riviere Academic Coach Upper School". No Upper School learning specialist is listed.
