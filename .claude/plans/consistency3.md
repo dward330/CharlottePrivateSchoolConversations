@@ -396,7 +396,7 @@ catalogs in `TRANSLATED` (`src/locales/{en,es,bn,ht,te,fr,fa,it,hi,ar}.json`).
   for word. Per the plan ("If the page is found, stop and ask"), nothing was deleted. The
   evidence is under `### Re-verification 2026-11-22` in the CCD Tuition History record.
   **User ruling, 2026-11-22: keep the ladder and cite the live page.** The section `source`
-  and the report `sources` line now carry the URL ("re-checked 22 Nov 2026"), and the ruling
+  and the report `sources` line now carry the URL ("retrieved 22 Nov 2026"), and the ruling
   is settled as **S7** in `.claude/skills/consistency-self-scan/settled.md`, so a rescan does
   not re-raise it. **Phase 2 step 1b therefore changes:** no units are removed. The two
   edited source lines are re-translated as minimal edits instead.
@@ -454,3 +454,18 @@ dump, and nothing else.
 
 Every other ID was confirmed as decided, including the recounts, the short-week prices
 against the evidence, the design-file match and the collateral check.
+
+### Second pass on the fixes (2026-11-22, the capped loop from #515): 2 found, 2 fixed, loop closed
+
+One more fresh agent reviewed only `git diff 229961c8..0ff53627` against the first pass's
+findings, with their resolutions. It confirmed all five first-pass fixes and found:
+
+1. **GD-14, a third card. Fixed.** The Verdict's "the ~18:1 senior caseload is unusually low"
+   stated the computed ratio as fact, five lines above the ask that questions it. It now
+   reads "two college-counseling staff for 35 seniors is an unusually small caseload."
+2. **CCD-R8 source wording. Fixed.** "re-checked 22 Nov 2026" described our own research
+   step on a parent-facing line. Both lines now say "retrieved 22 Nov 2026", like every
+   other source line in the report. The re-check stays in the code comment and the
+   `## Method` record.
+
+That was the second pass, so per the cap the review loop ends here. Nothing is left open.

@@ -306,7 +306,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       // the school's live Endowment & Capital Giving page, re-checked 22 Nov 2026 and
       // matching word for word. Kept by the user's ruling (settled.md S7).
       source:
-        'charlottecountryday.org — Endowment & Capital Giving, https://www.charlottecountryday.org/about/support/endowment-capital (re-checked 22 Nov 2026)',
+        'charlottecountryday.org — Endowment & Capital Giving, https://www.charlottecountryday.org/about/support/endowment-capital (retrieved 22 Nov 2026)',
     },
     {
       id: 'fa-paying',
@@ -380,7 +380,7 @@ const COUNTRY_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'charlottecountryday.org — Tuition & Financial Aid, Admissions, FAQs, Parent Quick Reference (all 23 Jul 2026) · Endowment & Capital Giving: https://www.charlottecountryday.org/about/support/endowment-capital (re-checked 22 Nov 2026) · Enrichment fees: https://www.charlottecountryday.org/cd-experience/after-school/program-directors (20 Nov 2026) · School Profiles 2024–25 & 2025–26 · IRS Form 990, EIN 56-0623935 · Axios Charlotte, 20 Mar 2024. Third-party tuition aggregators checked and excluded — none matched the school\'s own table. The school did not commission, review or approve this report.',
+    'charlottecountryday.org — Tuition & Financial Aid, Admissions, FAQs, Parent Quick Reference (all 23 Jul 2026) · Endowment & Capital Giving: https://www.charlottecountryday.org/about/support/endowment-capital (retrieved 22 Nov 2026) · Enrichment fees: https://www.charlottecountryday.org/cd-experience/after-school/program-directors (20 Nov 2026) · School Profiles 2024–25 & 2025–26 · IRS Form 990, EIN 56-0623935 · Axios Charlotte, 20 Mar 2024. Third-party tuition aggregators checked and excluded — none matched the school\'s own table. The school did not commission, review or approve this report.',
 }
 
 const CANNON: FinancialAidReport = {
