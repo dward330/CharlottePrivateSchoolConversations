@@ -24,8 +24,8 @@ The PDF figures are used throughout here.
 
 ## Season & Facilities
 
-**Six weeks, June 1 - July 17, 2026, with a two-week break (June 29 - July 3) around
-the July 4 holiday.**
+**Six weeks, June 1 - July 17, 2026, with a one-week break for the July 4 holiday (no
+camps June 29 - July 3).**
 
 | Week | Dates |
 | --- | --- |

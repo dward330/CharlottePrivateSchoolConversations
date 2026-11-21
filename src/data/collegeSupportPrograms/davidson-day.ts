@@ -783,7 +783,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'Non-traditional destinations',
-        text: 'Service academies: Air Force and West Point. Music and arts schools: Manhattan School of Music, UNCSA, Pratt, SCAD and AMDA. International universities: seven across five countries (UCL, Edinburgh, Manchester, Toronto, Copenhagen, John Cabot, Richmond American London). Specialized technical schools: Embry-Riddle, Colorado School of Mines, RPI and RIT.',
+        text: 'Service academies: Air Force and West Point. Music and arts schools: Manhattan School of Music, UNCSA, Pratt, SCAD and AMDA. International universities: seven across four countries, the UK, Canada, Denmark and Italy (UCL, Edinburgh, Manchester, Toronto, Copenhagen, John Cabot, Richmond American London). Specialized technical schools: Embry-Riddle, Colorado School of Mines, RPI and RIT.',
       },
     ],
     flags: [
@@ -816,7 +816,7 @@ export const davidsonDay: CollegeSupportProgram = {
     points: [
       {
         label: 'The spike machinery is real and credited',
-        text: 'AFAR is not a service trip. Students dig under permit at Cahal Pech with the BVAR project. The program runs in four countries, each with a documented start year. Students publish and present at conferences, and the program’s history appears in a peer-reviewed journal.',
+        text: 'AFAR is not a service trip. Students dig under permit at Cahal Pech with the BVAR project. The 2026–27 profile lists four countries, each with a start year; the 2027 schedule names three. Students publish and present at conferences, and the program’s history appears in a peer-reviewed journal.',
       },
       {
         label: 'The Global Studies Diploma sends a second transcript',

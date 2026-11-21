@@ -1128,8 +1128,9 @@ const DAVIDSON_DAY: FinancialAidReport = {
       figureCaption: 'Published tuition by division',
       // 2025–26 rates recovered from Wayback (see "… - Tuition History.md" in
       // source-material). The Early Childhood prior-year figure is the FULL-TIME
-      // price: through 2025–26 the band was six priced options (half-day from
-      // $12,290), collapsing to a single row for 2026–27. Charting the current
+      // price: through 2023–24 the band had six labeled options (half-day from
+      // $12,290 in 2022–23); by 2025–26 only full-time rows remained, and for
+      // 2026–27 it is a single row. Charting the current
       // row against the discontinued half-day price would invent an ~84% rise.
       bands: [
         { label: 'Early Childhood', amount: 22590, prior: 21620, delta: '+4.5%' },
@@ -1140,7 +1141,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
       figureNote:
         'Four division bands covering ages two through 12th grade, a $4,320 spread from lowest to highest. The school does not publish rate history, but archived copies of the tuition page carry 2022–23 onward — every division has risen about 4.5% a year since 2023–24. Half-day options, new-vs-returning rates, and what tuition includes are all unpublished.',
       figureNote2:
-        'The Early Childhood bar compares full-time rates only. Through 2025–26 that band was six separately priced options (half-day from $12,290); for 2026–27 it collapsed to one row, so anything but the full-time figure would be a false comparison.',
+        'The Early Childhood bar compares full-time rates only. Through 2023–24 the band had six labeled options (half-day from $12,290 in 2022–23). By 2025–26 only full-time rows remained, and for 2026–27 it is one row, so anything but the full-time figure would be a false comparison.',
       source:
         'davidsonday.org — Tuition and Affordability (published 9 Apr 2026), retrieved 22 Jul 2026',
     },
@@ -1324,7 +1325,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
         {
           tag: 'A COMPARISON TRAP IN THE EARLY YEARS',
-          body: 'The Early Childhood band was **restructured**, not merely repriced: six separately priced options through 2025–26 (half-day from $12,290) became a single row for 2026–27. Comparing the current row against the old half-day price would suggest an ~84% increase that never happened. The Section 01 chart compares full-time rates only.',
+          body: 'The Early Childhood band was **restructured**, not merely repriced: six labeled options through 2023–24 (half-day from $12,290 in 2022–23) became a single row for 2026–27. Comparing the current row against the 2022–23 half-day price would suggest an ~84% increase that never happened. The Section 01 chart compares full-time rates only.',
         },
       ],
       questionsNote:
@@ -2413,7 +2414,7 @@ const GASTON_DAY: FinancialAidReport = {
         { label: 'After school care, Middle School · $55/week or $15/day', status: 'priced' },
         { label: 'Extended Day drop-in fee · $25', status: 'priced' },
         { label: 'Music lessons · $35 per lesson', status: 'priced' },
-        { label: 'Summer camps · $175–$300/week, plus wrap-around care', status: 'priced' },
+        { label: 'Summer camps · $140–$300/week, plus wrap-around care', status: 'priced' },
         { label: 'Financial aid application fee (Clarity) · $65', status: 'priced' },
         { label: 'Lunch — Sparty’s Dining Service', status: 'unpriced' },
         { label: 'Uniforms / dress code', status: 'unpriced' },

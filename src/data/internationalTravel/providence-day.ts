@@ -381,7 +381,10 @@ export const providenceDay: InternationalTravelProgram = {
   /* -------------------------------------------- exchanges & homestays -- */
   exchanges: {
     headline:
-      'Eight partner schools in seven countries, with stays of one to four weeks — most reciprocal, with the partner student later visiting Providence Day.',
+      // B (plan consistency3, PD-S2): the Upper School Global Education page says
+      // "two- to four-week exchanges"; the Global Map logs Bermuda as "two separate
+      // weeks in March". Both are shown; neither is picked.
+      'Eight partner schools in seven countries, with stays of two to four weeks; the school’s Global Map logs its Bermuda exchange as two separate one-week visits.',
     intro: {
       strong: 'Individual Round Square exchanges, logged on the Global Map from 2022–23 to 2024–25.',
       muted:

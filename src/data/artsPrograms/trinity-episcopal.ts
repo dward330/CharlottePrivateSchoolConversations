@@ -353,6 +353,7 @@ export const trinityEpiscopal: ArtsProgram = {
       'Who teaches general music in Kindergarten through 2nd grade, and who leads the choirs? Your directory names a Band Director who also teaches Grades 3-4 music, and a Music Chaplain.',
       'Which Lower School productions are running this year? Your 2026-27 profile names a 4th Grade Musical and a 5th Grade Shakespeare Review. Your Lower School page names 1st Grade Fairy Tale Plays and 5th Grade Shakespeare. Which is current?',
       'Is "chorus" in 5th grade the same ensemble as "choir" in 6th, or two different groups? Your own pages use both words.',
+      'Do 5th graders still take general music alongside chorus or band?',
       'Is there any strings or instrumental option beyond band? Older search results still show a "chorus, strings or band" choice, but that page is gone and strings appears nowhere current.',
       'What does the art course sequence look like on paper, from Kindergarten to Studio Art in 7th and 8th?',
       'Can a student do a sport and an ensemble in the same season? With roughly 90% of the Middle School playing a sport, the overlap must be routine — how do the calendars work together?',

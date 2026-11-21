@@ -337,6 +337,10 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>
   'carmel-christian': {
     ladder: 'The K–12 Arts Ladder',
   },
+  // Gaston Day's arts begin in preschool; it has no TK (plan consistency3, GD-S1).
+  'gaston-day': {
+    ladder: 'The PS–12 Arts Ladder',
+  },
   // Trinity Episcopal ends at 8th grade, so there is no TK–12 ladder — and the
   // Blumeys are Blumenthal's HIGH-SCHOOL musical-theatre awards, which a K–8
   // school cannot enter. Both titles must change: the shared Blumey title on a

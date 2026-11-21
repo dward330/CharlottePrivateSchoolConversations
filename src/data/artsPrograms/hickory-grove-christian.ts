@@ -43,7 +43,7 @@ export const hickoryGroveChristian: ArtsProgram = {
       'Band- and choir-centered, with no orchestra at any level. The performing-arts headline is a run of Blumey Award nominations in 2025 and 2026.',
     stats: [
       { value: 'TK–12', label: 'arts program, from the Early Education Center up' },
-      { value: '2026', label: 'a Blumey nominee from The Little Mermaid' },
+      { value: '2026', label: 'three Blumey nominees from The Little Mermaid' },
       { value: '2 / yr', label: 'drama productions: a fall show and a spring musical' },
       { value: 'ITS', label: 'International Thespian Society, the theatre honor society' },
     ],

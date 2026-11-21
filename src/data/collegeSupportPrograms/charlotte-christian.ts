@@ -771,7 +771,7 @@ export const charlotteChristian: CollegeSupportProgram = {
       'Honors and AP placement requires an A in the prerequisite course and AP exams are mandatory. How does that combination work for a student with accommodations?',
       'What share of AP exams scored 4 or 5? Only the 3+ threshold is published.',
       'Your marketing says “45+ AP and honors courses”, and your guide and profile together name 22 AP courses. What is the actual count?',
-      'Your profile reports 12 National Merit finalists on a rolling 15-year window, down from 16 six years earlier. What were the per-class counts for the last five years?',
+      'Your profile reports 12 National Merit finalists on a rolling 15-year window, down from 16 in the 2021–22 profile. What were the per-class counts for the last five years?',
       'The school lists one Commended Scholar for the Class of 2025 while press coverage names a Semifinalist you do not list. Which is right?',
       'You state 99% attend a four-year college, but the Class of 2025’s named senior roster showed about five of 94 elsewhere. How is that 99% calculated for the 110 graduates of the Class of 2026?',
       'Your profile gives dual enrollment +0.5 on page 1 and +.75 on page 3. Which applies?',

@@ -116,7 +116,7 @@ export const providenceDay: ClubsProgram = {
     headline:
       'The first independent school in the country to host a Children’s Defense Fund Freedom School — and still the only one running it every summer.',
     subhead:
-      'Service here is measured and externally recognized: thousands of logged hours, national volunteer awards, and a global network membership no other school in the state holds.',
+      'Service here is measured and externally recognized: thousands of logged hours, national volunteer awards, and a global network membership only one other school in the state holds.',
     programs: [
       {
         value: '55',

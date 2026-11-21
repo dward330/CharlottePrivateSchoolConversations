@@ -8573,7 +8573,10 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
       title: 'Lower School Courses',
       grades: 'K – Grade 5',
       teaser:
-        'Named curricula rather than named courses — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plus weekly enrichments, including a K–5 Spanish program. The school counts 16 enrichment courses across Lower and Middle School.',
+        // B (plan consistency3, TRI-S1): At a Glance says "16 Enrichment courses (Lower
+        // and Middle School)"; the 2026-27 School Profile lists 6 Lower School and 13
+        // Middle School enrichments. Neither says what its count includes; both shown.
+        'Named curricula rather than named courses — Math in Focus 2020 (Singapore), Amplify Science, Storypaths — plus weekly enrichments, including a K–5 Spanish program. The school’s At a Glance page counts 16 enrichment courses across Lower and Middle School; its School Profile lists 6 in the Lower School and 13 in the Middle School.',
       source: 'tescharlotte.org — Lower School page (curriculum and enrichments); 2026-27 School Profile',
       sourceUrl: 'https://www.tescharlotte.org/academics/lower-school',
       notPublished:
@@ -8638,6 +8641,9 @@ const TRINITY_EPISCOPAL: CourseOfferings = {
               title: 'Music',
               tag: 'K–Gr 5',
               description:
+                // B (plan consistency3, TRI-S2): this tile says all students take general
+                // music, and The Arts card says 5th graders choose chorus or band. Whether
+                // 5th graders keep general music is asked on the Arts visit checklist.
                 '"All students take general music, which emphasizes creativity, music appreciation, musical literacy, and performance preparation." Each Lower School grade puts on a play or musical performance.',
             },
             {

@@ -402,6 +402,8 @@ export const gastonDay: CollegeSupportProgram = {
       { value: '+1.0', label: 'GPA bonus for AP · +0.50 for Honors, on a 4.0 scale' },
     ],
     meritTitle: 'College merit scholarships won by graduating classes',
+    // The rows are college merit awards, not National Merit honors (GD-S2).
+    meritCollegeAwards: true,
     merit: [
       { year: '2025', detail: '**21** students awarded · **$3.76 million** total' },
       { year: '2024', detail: '**20** students awarded · **$3.87 million** total' },
@@ -466,7 +468,7 @@ export const gastonDay: CollegeSupportProgram = {
 
   counseling: {
     headline:
-      'Two counselors for a graduating class of 35 — roughly 18 seniors each — with the four-year sequence starting in eighth grade rather than eleventh.',
+      'Two college-counseling staff, a director and an assistant, for a graduating class of 35, with the four-year sequence starting in eighth grade rather than eleventh.',
     subhead:
       'The office runs on SCOIR, publishes exactly when transcripts go out, and states up front that it will report Honor Code violations when a college asks.',
     stats: [

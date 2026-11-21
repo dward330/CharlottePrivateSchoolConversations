@@ -784,7 +784,7 @@ header, everything else suppresses it.
 
 `MeritYear` — `year`, `detail`, `unconfirmed?`
 
-`Transcript` — `headline`, `subhead?`, `stats`, `meritTitle?`, `merit`, `meritNote?`, `depthTitle?`, `depth`, `trustTitle?`, `trust`, `flags`, `sources`
+`Transcript` — `headline`, `subhead?`, `stats`, `meritTitle?`, `merit`, `meritCollegeAwards?`, `meritNote?`, `depthTitle?`, `depth`, `trustTitle?`, `trust`, `flags`, `sources`
 
 `Counselor` — `role`, `name`, `detail?`, `email?`
 
@@ -1214,6 +1214,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `note` | `string` |  |
 | `values` | `Record<string, string \| null> // school slug -> display value \| n…` | yes |
 | `subs` | `Record<string, string>` |  |
+| `tileBasis` | `Record<string, string>` |  |
 | `noLead` | `boolean` |  |
 | `lowerIsBetter` | `boolean` |  |
 | `textValues` | `boolean` |  |
