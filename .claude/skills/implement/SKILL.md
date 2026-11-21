@@ -157,8 +157,22 @@ After step 5 passes, and before the English goes back to the user:
    conclusion tends to confirm it.
 3. Verify every finding yourself against the dump and the diff. Fix the real ones on the
    branch and re-run the affected checks. Reject the rest with a one-line reason.
-4. Record the result in the plan's `## Implementation notes` (found / fixed / rejected), and
-   put the same counts in the Phase 1 hand-back.
+4. **Second pass on the fixes — whenever step 3 changed anything** (user, 2026-11-22). A fix
+   is new text that no reviewer has read, and new text is where this project's defects come
+   from: round 2 shipped "10 academic" where the list held 9. Commit the fixes, rebuild,
+   re-dump, then spawn **one more fresh agent** on `review.md` in its *second-pass* mode. Give it
+   the fix diff (`git diff <commit reviewed>..HEAD`), the first pass's findings file and the
+   new dump, and record each finding as fixed or rejected in the findings file before you
+   spawn. It checks only that each fix is right and caused no second-card conflict, which is
+   far cheaper than a full review. Handle its findings as in step 3.
+   **The loop is capped at two passes.** An adversarial reviewer is told to assume something
+   is wrong, so "loop until it comes back empty" can fail to converge, drifting into wording
+   preferences and re-raised rejections. After the second pass, fix what is real and stop.
+   Anything left goes in the hand-back as an open item for the user's English review. Skip the
+   second pass when the first found nothing real or every fix was a pure deletion. The rescan
+   in step 10 is the backstop for anything both passes miss.
+5. Record the result in the plan's `## Implementation notes` (found / fixed / rejected, per
+   pass), and put the same counts in the Phase 1 hand-back.
 
 This runs before the user's review, not after Phase 2, because a defect caught in English is
 one fix and the same defect caught after translation is ten.
