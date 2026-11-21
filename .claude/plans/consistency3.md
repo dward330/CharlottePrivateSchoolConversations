@@ -1,7 +1,7 @@
 ---
 name: consistency3
 title: Fix the residue of plans consistency and consistency2 found by re-scan #2
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-21
 branch: fix/consistency3
