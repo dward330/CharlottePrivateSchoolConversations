@@ -616,3 +616,60 @@ Latin admissions strings to translate.
   `0b1c4df1` put Latin's financial aid FAQ citation on Covenant Day's report and left Latin's
   section without it. Moved. Since `6b1b21ee` only the four intended reports differ, and no
   URL is cited by two schools. Anchor scripted edits inside the school's own report.
+
+### Phase 2 (nine prose locales), 2026-11-22
+
+Same branch, in a fresh window, after the user approved the English. `origin/main` (#514,
+#515) was merged in first.
+
+- **Splice.** Per locale: 73 units added and 76 dropped, in ten topics. The replay's 74
+  changed paths are 73 units, because two Latin paths share one string. The splice re-pointed
+  the 26 moved paths. A by-stamp audit of 140,058 kept translations found 0 changed and 0
+  duplicate paths. `path_replay.mjs` went from 100 to `TOTAL 0` in every locale.
+- **Carry-over.** Four units per locale (HG-17 twice, GD-S3, PD's "6 ensembles"), each token
+  substituted with one asserted replacement.
+- **Translation.** 69 units per locale. One agent per locale worked in a private directory.
+  Each locale was validated centrally and every change was read against the English.
+- **Central corrections:**
+  - Gaston Day's two counseling staff get neutral or generic wording in es, fr, it and ar,
+    where the agents had inferred gender from names.
+  - The Covenant director is feminine in es, fr, it, hi and ar, as the research record states
+    ("coached her 22nd season").
+  - The Compare course path uses `→` in fa and ar, because `←` points backward inside a
+    Latin run.
+  - A few wording and time-marker fixes.
+- **Four RTL defects only the browser found, fixed.**
+  - The GD-S3 and PD bus money ranges read high-to-low in fa and ar. Each `$` figure is its
+    own isolate, so `isolateFigures()` does not cover a money range. They are written in
+    words. GD-S3's carry therefore also differs in those two locales.
+  - fa's CCD short-week sentence attached each price to the wrong camp.
+  - ar's "p.m." reordered to ".p.m".
+- **`check:digits` lists 6, all kept.** Each is the reviewed rendering of an unchanged
+  clause: "5/6" and "7/8" team labels (ar, hi), "noon" as 12 (bn, hi, te), te "8వ"/"11వ".
+- **`check_work_integrity.mjs` reports its usual positional findings after a splice.** The
+  by-stamp audit above is the real check.
+- **Checks, all re-run on the final commit `c2fbc814`:**
+  - `npm run build` passes end to end.
+  - `check:live`, `runtime`, `chrome`, `dates`, `moneytext` and the other locale checks exit 0.
+  - `check:sepdrift` is 0 in nine locales, and `check_figures.py` passes 10 topics x 9 locales.
+  - `i18n:leaks` shows nothing new to fix.
+  - In Chrome, all 657 new units render translated.
+- **Browser audits, full sweeps on that build:**
+  - `audit:daterender` is 0 in nine locales over 1,215 page loads (14 per locale in Phase 1).
+  - `audit:moneyrender` is 0 in es and fr.
+  - `audit:mobile` has 0 broken cards and 0 page overflow at 320/360/390px. It runs in English
+    only. The Latin tile was also screenshotted at 320px in es, fa, ar, hi and te.
+- **R8 report against `main`:** 41 to 40 groups. The Providence Day ensembles group closed and
+  none is new.
+- **Found, not fixed (outside this plan):**
+  - Four older title keys are missing from all nine non-English catalogs and render English:
+    `the-arts.ladder@charlotte-catholic` and `admissions.guide@` for Charlotte Christian,
+    Hickory Grove and Trinity. `check:chrome` does not see them, so "no key awaiting
+    translation" does not prove the two new keys alone. Those two were checked in the browser.
+  - About 25 older fa and 27 ar units still hold `$a–$b` money ranges, the reversing shape
+    (counted in the data, not all seen rendered).
+  - Older fa and ar units with `←` need a look where it sits between Latin names.
+  - es still calls the Covenant director "El director" in two older Sports units.
+  - Gaston Day's merit rows keep the English word "million" in translation.
+  - PD-S1's approved English reads "A Cappella and the ChargHers hold their own". Phase 1
+    dropped the word "auditions". All nine translations say "own auditions".
