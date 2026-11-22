@@ -230,7 +230,7 @@ export const charlotteCountryDay: LearningSupportProgram = {
           {
             service: 'Eligibility documentation',
             code: 'REQUIRED',
-            detail: 'Formal accommodations need a full psychoeducational evaluation (testing of how a child learns). The evaluation is submitted through the ERP’s secure online form. It is reviewed every three years in Lower and Middle School and every four in Upper School. Learning-support sessions need none.',
+            detail: 'Formal accommodations need a full psychoeducational evaluation (testing of how a child learns). The evaluation is submitted through the ERP’s secure online form. The accommodations page says evaluations are reviewed every three years in Lower and Middle School and every four in Upper School. The linked policy says every four from grade 6. Learning-support sessions need none.',
             needs: ['read', 'attn', 'math', 'speech', 'motor', 'social'],
           },
         ],

@@ -524,3 +524,8 @@ itself publishes no addresses.
 - https://resources.finalsite.net/images/v1791909516/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf (HTTP 200, pages 2 and 3 read as images): "Advanced Topics: American Language and Composition", "Advanced Topics: Design Thinking for Entrepreneurship", "AP Business with Personal Finance", "Global Education Certificate".
 - https://resources.finalsite.net/images/v1769529893/cannonschoolorg/ihl0lzuqgs9loqntga7z/CannonAcademicCourseCatalog2026-2027.pdf (HTTP 200): "Sophomores can enroll in no more than two AP/AT courses." and "Juniors may not take more than five AP/ AT courses." It names the "Global Education Certificate".
 - https://www.cannonschool.org/academics/upper-school/curriculum (HTTP 200): "Advanced Topics: Design Thinking for Entrepreneurship with Honors Design Thinking for Entrepreneurship LAB", "Advanced Topics: American Language and Literature", "Capstone invites seniors to reflect upon their most powerful learning experiences".
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- The 2026–27 profile (URL above, HTTP 200), read as images: the load ceiling is labeled "Maximum AP/AT Courses for the Class of 2027", and Design Thinking is marked "courses available to the Classes of 2027 and 2028".
+- The 2026–27 catalog (URL above, HTTP 200): "Sophomores can enroll in no more than two AP/AT courses." For Advanced Topics in Mathematics and Calculus: "There is no corresponding AP exam". For Business and Entrepreneurship with Personal Finance: "Students may elect to take the AP Business and Personal Finance exam in May."

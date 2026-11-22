@@ -163,7 +163,7 @@ export const cannon: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'The pricing is effectively hidden from families looking at the school. The rate card exists only on an orphaned backup URL inside a collapsed accordion. The program page, the tuition page and the official Non-Tuition Fees PDF all omit it. That PDF even lists "After School Program" and "Beyond the Bell" as fee-bearing, but gives them no amount. Yet the PDF prices everything else, down to a $98 AP exam.',
+        text: 'The pricing is effectively hidden from families looking at the school. The rate card exists only on an orphaned backup URL inside a collapsed accordion. The program page, the tuition page and the official Non-Tuition Fees PDF all omit it. That PDF even lists "After School Program" and "Beyond the Bell" as fee-bearing, but gives them no amount. Yet the PDF prices many other items, down to a $98 AP exam.',
       },
       {
         kind: 'gap',
@@ -281,8 +281,8 @@ export const cannon: AfterSchoolProgram = {
       '**Early-dismissal days are covered**, 11:45 a.m.–4:00 p.m., which many schools do not do at all.',
       '**True drop-in at $11.50 an hour with no contract.** Two afternoons a month is about $69 a month on the hourly rate, against $1,904 a year for a two-day contract. For occasional use, that is unusually forgiving.',
       '**A sharp price ladder** — five days costs only about 3.7× the one-day rate, so heavy users get a real discount rather than a linear bill.',
-      '**A large, fully priced enrichment catalog** — 22 distinct classes in a single session, from robotics, ballet and chess to pottery, golf and photography. Each has a named provider and a real fee.',
-      '**Enrichment is modestly priced and transparent** — $18–$30 per class, mostly $144–$300 for a 10-week session, with full refunds for canceled classes and a make-up week.',
+      '**A large, fully priced enrichment catalog** — 22 distinct classes in a single session, from robotics and ballet to sculpture, golf and photography. Each has a named provider and a real fee.',
+      '**Enrichment is modestly priced and transparent** — $18–$30 per class and $160–$300 for the session of 8 or 10 classes, with full refunds for canceled classes and a make-up week.',
       '**An executive-function class for Middle School** ("Let’s Get Organized") — a genuinely unusual offering at this age.',
     ],
     watchouts: [

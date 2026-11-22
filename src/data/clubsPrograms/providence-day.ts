@@ -52,7 +52,7 @@ export const providenceDay: ClubsProgram = {
     headline:
       'Nine Upper School affinity groups, each with a documented founding year. There are also Middle and Lower School groups, faculty and alumni networks, and three parent groups. All of them sit under a staffed DEI office.',
     subhead:
-      'An unusually deep published affinity structure, built out steadily from 1995 onward — though the school’s own live site no longer lists it.',
+      'An unusually deep affinity structure, built out from 1995 onward and named on the school’s earlier DEI pages. The live site no longer lists it, and the 2025–26 club list names a slightly different nine.',
     umbrella: {
       name: 'Office of Equity, Inclusion & Belonging (EIB)',
       detail:
@@ -162,7 +162,7 @@ export const providenceDay: ClubsProgram = {
 
   honors: {
     headline:
-      'Five selective societies spanning scholarship, service, visual art, music and French.',
+      'Six honor societies spanning scholarship, service, visual art, music, French and computer science.',
     subhead:
       'These are outcomes of achievement elsewhere in the program — a student earns their way in; nobody signs up.',
     societies: [
@@ -198,11 +198,17 @@ export const providenceDay: ClubsProgram = {
         recognizes: 'French achievement — the high-school equivalent of Pi Delta Phi',
         feedsFrom: 'world languages',
       },
+      {
+        name: 'Computer Science Honors Society',
+        division: 'Upper School',
+        recognizes: 'Recognition society for computer science',
+        feedsFrom: 'computer science',
+      },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'There is no standing honor-societies page. Every fact here comes from one-off news posts, so the published counts are historical rather than current, except the 2026–27 profile’s 118 NHS inductees — 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May, 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other four publish none.',
+        text: 'There is no standing honor-societies page. The facts here come from one-off news posts, the 2025–26 club list and the 2026–27 profile. So the published counts are historical rather than current, except the profile’s 118 NHS inductees — 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May, 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other five publish none.',
       },
       {
         kind: 'gap',
@@ -214,6 +220,7 @@ export const providenceDay: ClubsProgram = {
       { label: 'School news — National Honor Society criteria & induction', url: NHS_NEWS },
       { label: 'School news — Tri-M induction', url: TRI_M_NEWS },
       { label: 'providenceday.org — 2026–27 profile (118 NHS inductees, Class of 2026)', url: PROFILE_2627 },
+      { label: 'Upper School Club List 2025–26 (Computer Science Honors Society)' },
     ],
   },
 }

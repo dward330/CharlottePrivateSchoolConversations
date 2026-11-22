@@ -2617,7 +2617,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '117 course lines across 9 departments in the guide’s index — 23 AP courses AND 18 IB courses plus the full IB Diploma core. Shown here as 121 entries, including five courses the guide describes but does not index.',
+        '117 course lines across 9 departments in the guide’s index — 23 AP courses AND 18 IB courses plus the full IB Diploma core. That is the 2025–26 guide; the 2026–27 profile counts 26 AP courses. Shown here as 121 entries, including five courses the guide describes but does not index.',
       source: "Country Day Upper School Course Guide '25–26",
       sourceUrl:
         'https://www.charlottecountryday.org/fs/resource-manager/view/bc87ead7-8dee-4694-ab5b-b04ebf5710de',
@@ -3013,7 +3013,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
           name: 'Fine Arts',
           courses: [
             { title: 'Concert Choir', tag: 'Year', description: 'A non-audition choral ensemble.' },
-            { title: 'Honors Concert Choir', tag: 'Honors', description: 'Honors-level concert choir.' },
+            { title: 'Honors Concert Choir', tag: 'Honors', description: 'Honors-level concert choir, entered by application and audition.' },
             {
               title: 'Honors Chamber Choir',
               tag: 'Audition',
@@ -3281,7 +3281,7 @@ const CANNON: CourseOfferings = {
           courses: [
             {
               title: 'Spanish',
-              tag: 'Gr 1–4',
+              tag: 'JrK–Gr 4',
               description:
                 'Combines the Communicative Language Approach with the Foreign Language in the Elementary School (FLES) approach.',
             },

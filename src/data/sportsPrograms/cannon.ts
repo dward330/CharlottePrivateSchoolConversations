@@ -220,7 +220,7 @@ export const cannon: SportsProgram = {
     headline:
       'Twenty-three documented college commitments across 2024–26, twelve of them Division I and four Power 4 — still a floor, because Cannon publishes no consolidated signing list.',
     subhead:
-      'Lacrosse leads the way. The three-time state champion Class of 2024 sent seven players on to college programs. Five of them went to Division I programs, including North Carolina, Brown and St. John’s. Basketball follows with a Miami signee and East Carolina and Elon commits. Five current seniors already hold public Division I commitments: Princeton, Coastal Carolina, Ohio, Furman and Villanova.',
+      'Lacrosse leads the way. The three-time state champion Class of 2024 sent seven players on to college programs. Five of them went to Division I programs, including North Carolina, Brown and St. John’s. Basketball follows with a Miami signee and East Carolina, Elon and East Tennessee State commits. Six current seniors already hold public Division I commitments: Princeton, Coastal Carolina, Ohio, Furman, Villanova and Brown.',
     funnel: [
       {
         label: 'Committed to college athletics',
@@ -250,7 +250,7 @@ export const cannon: SportsProgram = {
       { sport: 'Swimming', match: ['Swimming'] },
     ],
     realityCheck:
-      'Lacrosse, not basketball, is Cannon’s deepest pipeline. Eight of the twenty-three commitments and five of the twelve Division I places come from one sport. Most of them come from a single class that won three straight titles. The four Power 4 commits are a swimmer to Notre Dame, an offensive lineman and a lacrosse attackman to North Carolina, and one basketball player to Miami. The flagship basketball program’s other placements in this window are East Carolina, two Division III colleges and a junior college. Title-winning programs and recruiting pipelines are not the same thing.',
+      'Lacrosse, not basketball, is Cannon’s deepest pipeline. Eight of the twenty-three commitments and five of the twelve Division I places come from one sport. Most of them come from a single class that won three straight titles. The four Power 4 commits are a swimmer to Notre Dame, an offensive lineman and a lacrosse attackman to North Carolina, and one basketball player to Miami. The flagship boys’ basketball program’s other placements in this window are East Carolina, two Division III colleges and a junior college. Title-winning programs and recruiting pipelines are not the same thing.',
     rankedRecruits:
       'Cannon’s strongest recruiting signal is its underclassmen. JaKaila Gaskin (’28, 6\'3" center) is ranked No. 30 nationally by Prep Girls Hoops and No. 3 in NC for her class. Gaskin is a four-star recruit with a USA Basketball profile and offers from Ohio State, Tennessee, Alabama, Auburn, Florida and Louisville. Brooke Busby (’27) has committed to Princeton. Earlier, Jaden Bradley was a five-star recruit, No. 18 nationally, and Reigan Richardson ’21 was a McDonald’s All-American.',
     roster: [

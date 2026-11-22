@@ -518,13 +518,13 @@ export const cannon: CollegeSupportProgram = {
   },
   transcript: {
     headline:
-      'Cannon publishes something almost no peer does — an explicit maximum AP/AT load by grade, capping a four-year transcript at twelve advanced courses and barring freshmen entirely.',
+      'Cannon publishes something almost no peer does — a maximum AP/AT load by grade. The profile gives the Class of 2027 none in 9th grade and one in 10th, while the 2026–27 catalog allows sophomores two.',
     subhead:
-      'That ceiling is the key to reading a Cannon transcript. Here, “most rigorous” has a hard, published limit. And the 90% scoring 3+ comes from students who chose to take an optional exam.',
+      'That ceiling is the key to reading a Cannon transcript. Here, “most rigorous” has a published limit, though the two documents differ for 10th grade. And the 90% scoring 3+ comes from students who chose to take an optional exam.',
     stats: [
       { value: '27', label: 'advanced courses — AP plus school-designed Advanced Topics, the school’s own count' },
       { value: '90%', label: 'of students scored 3+ (446 exams, 195 students, May 2026)' },
-      { value: '0 / 1 / 5 / 6', label: 'published max AP/AT courses in grades 9 / 10 / 11 / 12' },
+      { value: '0 / 1 / 5 / 6', label: 'max AP/AT in grades 9 / 10 / 11 / 12, Class of 2027 (the catalog allows 2 in 10th)' },
       { value: 'No rank', label: '“Cannon School does not rank students”' },
     ],
     // No merit ledger: no National Merit counts are published in any year.
@@ -540,7 +540,7 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'Advanced Topics',
-        text: '**School-designed AT courses** sit alongside the APs and carry the same 1.0 quality point, several with no corresponding College Board exam at all — for example AT: Design Thinking for Entrepreneurship.',
+        text: '**School-designed AT courses** sit alongside the APs and carry the same 1.0 quality point. At least one has no matching AP exam: AT: Mathematics & Calculus. The profile also lists AT: Design Thinking for Entrepreneurship, which is not in the 2026–27 catalog.',
       },
       {
         label: 'Beyond campus',
@@ -558,7 +558,7 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'No rank, and a modest ceiling',
-        text: 'No rank, no decile or quintile table — but the narrow weighting plus the twelve-course cap means the weighted top decile tops out around **4.28**. Cannon does not produce inflated 4.9 GPAs, which needs context for readers used to heavier schemes.',
+        text: 'No rank, no decile or quintile table — but the narrow weighting plus the AP/AT limit in each grade means the weighted top decile tops out around **4.28**. Cannon does not produce inflated 4.9 GPAs, which needs context for readers used to heavier schemes.',
       },
       {
         label: 'A key to the hardest courses in each subject',
@@ -574,10 +574,19 @@ export const cannon: CollegeSupportProgram = {
         kind: 'gap',
         text: 'No National Merit ledger of any kind is published — no Semifinalist, Finalist or Commended counts in any year, on any profile or in news posts. Repeated searches surfaced only a 2011 item naming a single Scholar. AP Scholar counts and the share scoring 4–5 are likewise unpublished; Cannon reports only the 3+ threshold.',
       },
+      {
+        kind: 'verify',
+        text: 'Load ceiling (re-read 2026-11-22, plan consistency4 CAN-T16): the profile’s maximum, labeled for the Class of 2027, gives 1 in 10th grade. The 2026–27 catalog says sophomores can enroll in no more than two AP/AT courses. Both are shown.',
+      },
+      {
+        kind: 'verify',
+        text: 'Course names (re-read 2026-11-22, plan consistency4 CAN-T13): the profile says AT: American Language and Composition and AT: Design Thinking for Entrepreneurship. The catalog says AT: English Language and Composition and has no Design Thinking course. The live curriculum page says American Language and Literature and still lists Design Thinking.',
+      },
     ],
     sources: [
       { label: 'cannonschool.org — 2026–27 School Profile (advanced-course counts, AP stats, load ceiling, weighting, no-rank policy)', url: PROFILE_2627 },
       { label: '2024–25 School Profile (the grading scale the newer editions dropped)', url: PROFILE_2425 },
+      { label: '2026–27 Academic Course Catalog (sophomore AP/AT limit, course names)', url: 'https://resources.finalsite.net/images/v1769529893/cannonschoolorg/ihl0lzuqgs9loqntga7z/CannonAcademicCourseCatalog2026-2027.pdf' },
     ],
   },
 
@@ -690,13 +699,13 @@ export const cannon: CollegeSupportProgram = {
         glyph: '◆',
         items: [
           '**BIOREX** — the Biological Research Experience, built into Honors Biology. Students form a hypothesis, test it and analyze the results with statistics. Then they present to a committee of **faculty, science professionals and local business leaders**. Outside judges are what set this apart from a class project.',
-          '**Symposium and Portfolio Defense** — two projects. In the spring of junior year, students in AT: U.S. History defend an original history argument. Students in AT: American Language and Composition present a digital portfolio, built through many drafts.',
+          '**Symposium and Portfolio Defense** — two projects. In the spring of junior year, students in AT: U.S. History defend an original history argument. Students in AT: American Language and Composition present a digital portfolio, built through many drafts. The 2026–27 catalog names that course AT: English Language and Composition.',
           '**Independent Study** — petition-based, and unusually the student **co-develops the course content and the assessment rubric**, then produces an end-of-year artifact.',
-          '**Senior Capstone** — a service project for a charitable cause. It ends with a public talk to faculty, staff, peers and community. It is the one thing nearly every senior does, though the school says plainly that service itself is not required to graduate.',
-          '**Global Education Certificate** — the steps are fully spelled out. Students take World History I–II and three levels of a world language. They take a senior **Glocal Perspectives** course with a capstone essay and presentation. They also do at least two of three global experiences. It is awarded at Senior Night.',
+          '**Senior Capstone** — a service project for a charitable cause. It ends with a public talk to faculty, staff, peers and community. It is the one thing every senior does, though the school says plainly that service itself is not required to graduate.',
+          '**Global Studies Certificate** — the catalog and profile call it the Global Education Certificate. The program page still lists these steps: World History I–II, three levels of a world language and a senior **Glocal Perspectives** course with a capstone essay and presentation. It also lists a rule of at least two of three global experiences. But the page sends the Class of 2024 onward to the Global Studies Mastery Credits requirements. The certificate is awarded at Senior Night.',
         ],
         note:
-          'Entrepreneurship and Engineering are course tracks with real depth: Honors Design Thinking & Entrepreneurship Lab, Creative Design and Engineering I–III, and The Mill makerspace. But the school publishes no award or credential for either. So read them as tracks, not certificates. No required internship or externship program is published.',
+          'Entrepreneurship and Engineering are course tracks with real depth. The profile lists Honors Design Thinking & Entrepreneurship Lab, and the 2026–27 catalog lists AT: Business and Entrepreneurship with Personal Finance. Creative Design and Engineering I–III and The Mill makerspace add to them. But the school publishes no award or credential for either. So read them as tracks, not certificates. No required internship or externship program is published.',
       },
       {
         title: 'Lever 2 — What the school brings',
@@ -709,11 +718,17 @@ export const cannon: CollegeSupportProgram = {
         ],
       },
     ],
-    flags: [],
+    flags: [
+      {
+        kind: 'verify',
+        text: 'Certificate (re-read 2026-11-22, plan consistency4 CAN-T12): the International Programs page says Global Studies Certificate and lists the earlier steps, then sends the Class of 2024 onward to the Global Studies Mastery Credits. The catalog and profile say Global Education Certificate.',
+      },
+    ],
     sources: [
       { label: 'cannonschool.org — 2026–27 School Profile (signature experiences, memberships, discipline reporting)', url: PROFILE_2627 },
       { label: 'Academics — Upper School curriculum', url: 'https://www.cannonschool.org/academics' },
       { label: 'College Counseling', url: COUNSELING },
+      { label: 'International Programs (Global Studies Certificate)', url: 'https://www.cannonschool.org/academics/international-programs' },
     ],
   },
 
@@ -747,7 +762,7 @@ export const cannon: CollegeSupportProgram = {
       { label: 'Unweighted · mid 50%', gpa: '3.76–3.94', detail: 'A− range before weighting' },
     ],
     gpaNote:
-      'These are bands, not a quintile table (a split of the class into fifths). The school publishes no full quintile or decile breakdown, no median GPA and no count of students in each band. The weighted top is modest because of two limits: the 1.0-quality-point cap and the twelve-course AP/AT maximum. Publishing these limits counts in Cannon’s favor. But readers used to schools that add more weight will need that context. As printed, the weighted top-10% band (from 4.08) begins below the top of the middle 50% (4.11). The profile does not explain the overlap.',
+      'These are bands, not a quintile table (a split of the class into fifths). The school publishes no full quintile or decile breakdown, no median GPA and no count of students in each band. The weighted top is modest because of two limits: the 1.0-quality-point cap and the AP/AT maximum in each grade. Publishing these limits counts in Cannon’s favor. But readers used to schools that add more weight will need that context. As printed, the weighted top-10% band (from 4.08) begins below the top of the middle 50% (4.11). The profile does not explain the overlap.',
     support: [
       {
         label: 'Two named Upper School learning-support staff',
@@ -800,7 +815,7 @@ export const cannon: CollegeSupportProgram = {
       },
       {
         label: 'The course-load ceiling is disclosed, not implied',
-        text: 'a published maximum of 0/1/5/6 AP or AT courses by grade caps a transcript at twelve, so colleges read “most rigorous” against a limit the school itself states.',
+        text: 'the profile gives the Class of 2027 a maximum of 0/1/5/6 AP or AT courses by grade, while the 2026–27 catalog allows two in 10th. Either way, colleges read “most rigorous” against a limit the school itself states.',
       },
       {
         label: 'Research experiences with real external judging',
@@ -828,6 +843,7 @@ export const cannon: CollegeSupportProgram = {
       'Your 2024–25 profile declined to report Class of 2025 test scores on test-optional principle, then the 2025–26 profile published them for that same class. What changed?',
       'As printed, the Class of 2026 weighted top-10% band (4.08–4.28) overlaps the middle 50% (3.93–4.11). How is the top 10% defined?',
       'What does the student-facing counseling curriculum look like grade by grade — how many one-on-one meetings, and when do essays start?',
+      'The profile gives the Class of 2027 one AP/AT course in 10th grade, and the 2026–27 catalog allows two. Which limit applies to today’s sophomores?',
     ],
     flags: [],
     sources: [

@@ -146,3 +146,9 @@ ladder figures still match the live page word for word.
 - https://www.charlottecountryday.org/bucsnet/bus (HTTP 200, linked from the Quick Reference): "2026-27 Bus Fees", Round Trip / One-Way: Myers Park/Cornwell "$1,670" / "$955", Charlotte Country Club "$1,785" / "$1005", Campus Shuttle Bus Service "$715" / "$400". "parents are billed twice: half in August and half in January".
 - https://www.charlottecountryday.org/bucsnet/quick-reference (HTTP 200): "Incidental charges such as dining hall, Campus Store, Extended Day, tutoring, PE uniforms (Middle School), and bus transportation fees are billed on a monthly basis".
 - https://www.charlottecountryday.org/about/support/endowment-capital (HTTP 200): "$880,000", "Current annual distribution is estimated at $39,600", "+6,000 annually". Unchanged.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- https://www.charlottecountryday.org/about/fast-facts now redirects to https://www.charlottecountryday.org/about (HTTP 200), whose Fast Facts block says "$10.1 million" and "financial aid awarded to 347 students".
+- https://www.charlottecountryday.org/bucsnet/bus (HTTP 200): "$1,670" / "$955", "$1,785" / "$1005", shuttle "$715" / "$400".
+- https://www.charlottecountryday.org/bucsnet/lower-school/erp (HTTP 200): "$82 per 45-minute session". https://www.charlottecountryday.org/bucsnet/middle-school/erp: "Sessions are billed at $85 per session". https://www.charlottecountryday.org/bucsnet/upper-school/erp: "Coaching is billed at $85 per session".

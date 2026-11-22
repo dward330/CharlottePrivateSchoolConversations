@@ -554,7 +554,7 @@ Source: https://www.charlottecountryday.org/cd-experience/arts/visual-arts
    *Frozen* was chosen as an accessible/large-cast show on purpose, and what the theatre
    staffing looks like now. This is the single most revealing question in the file.
 
-3. **"You've been nominated every year since 2022 but haven't won since 2022. Is the program
+3. **"You were nominated every year from 2022 to 2025, without a win after 2022. Is the program
    aiming at competitive placement, or at participation breadth?"** Both are legitimate answers —
    with "100% theatre participation," breadth may genuinely be the strategy. Make them say so
    rather than implying trophies.

@@ -29,7 +29,7 @@ export const charlotteCountryDay: SportsProgram = {
     headline:
       '72 teams across 26 sports, with about 85% of students in grades 7–12 playing — and 155 state championships all-time.',
     subhead:
-      'A 130-person athletics staff supports the broadest participation rate in the Charlotte private-school field.',
+      'A 130-person athletics staff supports the program.',
     stats: [
       { value: '26', label: 'sports offered' },
       { value: '72', label: 'teams across V · JV · MS' },

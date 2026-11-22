@@ -765,7 +765,7 @@ export const charlotteCountryDay: InternationalTravelProgram = {
       {
         topic: 'Lower School and languages.',
         question:
-          'What global and language curriculum runs before Middle School, and is there a published language sequence from JK to 12?',
+          'French and Spanish begin in Lower School. Is there one published language sequence that runs from JK to 12th grade?',
       },
       {
         topic: 'Credential.',

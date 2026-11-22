@@ -159,7 +159,7 @@ export type FinancialAidReport = {
 
 const COUNTRY_DAY: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 23 Jul 2026',
+  meta: '2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus and tutoring fees 22 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -174,7 +174,7 @@ const COUNTRY_DAY: FinancialAidReport = {
     {
       icon: 'book',
       title: 'K–12 aid only.',
-      body: 'The $13M in college scholarships from the School Profile is university money — excluded throughout. Not financial advice.',
+      body: 'The college scholarship totals in the School Profile ($13M for the Class of 2025) are university money — excluded throughout. Not financial advice.',
     },
   ],
   sections: [
@@ -224,8 +224,8 @@ const COUNTRY_DAY: FinancialAidReport = {
       rangeMax: 700,
       figureNote:
         'Scale $0–700. A bounded estimate per division, not an itemized fee schedule — covers textbooks & supplies (gr. 5–12), activity fees, and athletic fees. Enrollment deposit: 10% of tuition, credited toward tuition due.',
-      componentsTitle: 'Ten confirmed cost components — 4 unpriced',
-      componentsAside: 'All-in estimate not built: 40% unpriced > 33% threshold',
+      componentsTitle: 'Ten confirmed cost components — 2 unpriced',
+      componentsAside: 'All-in estimate not built: 20% unpriced, plus 30% in a range only',
       components: [
         { label: 'Tuition — five bands, priced', status: 'priced' },
         { label: 'Textbooks & supplies · in range only', status: 'range' },
@@ -233,13 +233,15 @@ const COUNTRY_DAY: FinancialAidReport = {
         { label: 'Athletic / sports fee · in range only', status: 'range' },
         { label: 'Extended Day · $60–$900/mo, or $19/hr drop-in', status: 'priced' },
         { label: 'Enrichment classes · $260 full / $225 mini session (standard 2026–27 fee)', status: 'priced' },
-        { label: 'Bus transportation · no rate', status: 'unpriced' },
-        { label: 'Tutoring · no rate', status: 'unpriced' },
+        { label: 'Bus transportation · $1,670–$1,785 round trip, $955–$1005 one way; campus shuttle $715 / $400 (2026–27)', status: 'priced' },
+        { label: 'Learning-support tutoring · $82 Lower School / $85 Middle School a session; Upper School coaching $85', status: 'priced' },
         { label: 'Dining hall · no rate', status: 'unpriced' },
         { label: 'MS PE uniforms · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        "All four unpriced items appear on the school's own billing list — real costs, billed monthly, rates visible only on a family's statement. These are the highest-value questions for the business office.",
+        "Two of the ten items have no published price: the dining hall and Middle School PE uniforms. Both are on the school's monthly billing list. Three more are priced only as a range. So half have no set price, and this report does not add the items into one total.",
+      source:
+        'charlottecountryday.org — [Parent Quick Reference](https://www.charlottecountryday.org/bucsnet/quick-reference); [Bus Transportation](https://www.charlottecountryday.org/bucsnet/bus); Educational Resource Program pages for [Lower](https://www.charlottecountryday.org/bucsnet/lower-school/erp), [Middle](https://www.charlottecountryday.org/bucsnet/middle-school/erp) and [Upper School](https://www.charlottecountryday.org/bucsnet/upper-school/erp), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -298,7 +300,7 @@ const COUNTRY_DAY: FinancialAidReport = {
         { gift: '$880K', share: 100, detail: 'of tuition · $39,600/yr' },
       ],
       figureNote:
-        "Donor gift level → intended share of a student's tuition. Roughly $6,000/yr more can be attached for ancillaries — the same categories Section 02 flags as unpriced. Awarded on demonstrated need via Clarity.",
+        "Donor gift level → intended share of a student's tuition. Roughly $6,000/yr more can be attached for ancillaries (extra costs beyond tuition). Awarded on demonstrated need via Clarity.",
       boxes: [
         {
           title: 'No merit track',
@@ -377,9 +379,9 @@ const COUNTRY_DAY: FinancialAidReport = {
       questionsNote:
         'Each is unanswerable from published sources and materially affects what a family pays or receives.',
       questions: [
-        'Which school year does each published aid figure describe — and is the share 20% or 21%, against which enrollment?',
+        'Which school year does each published aid figure describe: $9.4M to 341 students, or $10.1M to 347? And is the share 20% or 21%, against which enrollment?',
         'What are this year\'s average and median awards, the range — and does any award cover full tuition?',
-        'What are the dollar rates for bus, tutoring, dining hall and MS PE uniforms?',
+        'What are the dollar rates for the dining hall and MS PE uniforms?',
         'Does the ten-month plan carry a fee or interest, and is there a discount for paying in full?',
         'What is the withdrawal obligation mid-year, the late-payment policy, and is refund insurance offered?',
         'Is there a sibling discount or employee remission — and what is the reduced deposit for aid applicants?',
@@ -387,7 +389,7 @@ const COUNTRY_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'charlottecountryday.org — [Tuition & Financial Aid](https://www.charlottecountryday.org/admissions/tuition-financial-aid), [Admissions](https://www.charlottecountryday.org/admissions), [FAQs](https://www.charlottecountryday.org/admissions/frequently-asked-questions), [Parent Quick Reference](https://www.charlottecountryday.org/bucsnet/quick-reference) (all 23 Jul 2026) · [Endowment & Capital Giving](https://www.charlottecountryday.org/about/support/endowment-capital) (retrieved 22 Nov 2026) · [Enrichment fees](https://www.charlottecountryday.org/cd-experience/after-school/program-directors) (20 Nov 2026) · [School Profiles 2024–25](https://resources.finalsite.net/images/v1726775598/charlottecds/enzt08thdabvh3uxiz0i/2024-2025CCDSSchoolProfile.pdf) & [2025–26](https://resources.finalsite.net/images/v1759320688/charlottecds/dn5vss9ud5xxwzyt70ah/CCDSSchoolProfile2025-2026-FINAL.pdf) · [IRS Form 990](https://projects.propublica.org/nonprofits/organizations/560623935), EIN 56-0623935 · [Axios Charlotte](https://web.archive.org/web/20260517193931/https://www.axios.com/local/charlotte/2024/03/20/private-school-vouchers-north-carolina), 20 Mar 2024. Third-party tuition aggregators checked and excluded — none matched the school\'s own table. The school did not commission, review or approve this report.',
+    'charlottecountryday.org — [Tuition & Financial Aid](https://www.charlottecountryday.org/admissions/tuition-financial-aid), [Admissions](https://www.charlottecountryday.org/admissions), [FAQs](https://www.charlottecountryday.org/admissions/frequently-asked-questions), [Parent Quick Reference](https://www.charlottecountryday.org/bucsnet/quick-reference) (all 23 Jul 2026) · [Endowment & Capital Giving](https://www.charlottecountryday.org/about/support/endowment-capital) (retrieved 22 Nov 2026) · [Enrichment fees](https://www.charlottecountryday.org/cd-experience/after-school/program-directors) (20 Nov 2026) · [Bus Transportation](https://www.charlottecountryday.org/bucsnet/bus), [Lower School](https://www.charlottecountryday.org/bucsnet/lower-school/erp), [Middle School](https://www.charlottecountryday.org/bucsnet/middle-school/erp) and [Upper School](https://www.charlottecountryday.org/bucsnet/upper-school/erp) learning-support fees, and [Fast Facts](https://www.charlottecountryday.org/about) (22 Nov 2026) · [School Profiles 2024–25](https://resources.finalsite.net/images/v1726775598/charlottecds/enzt08thdabvh3uxiz0i/2024-2025CCDSSchoolProfile.pdf) & [2025–26](https://resources.finalsite.net/images/v1759320688/charlottecds/dn5vss9ud5xxwzyt70ah/CCDSSchoolProfile2025-2026-FINAL.pdf) · [IRS Form 990](https://projects.propublica.org/nonprofits/organizations/560623935), EIN 56-0623935 · [Axios Charlotte](https://web.archive.org/web/20260517193931/https://www.axios.com/local/charlotte/2024/03/20/private-school-vouchers-north-carolina), 20 Mar 2024. Third-party tuition aggregators checked and excluded — none matched the school\'s own table. The school did not commission, review or approve this report.',
 }
 
 const CANNON: FinancialAidReport = {
@@ -447,15 +449,14 @@ const CANNON: FinancialAidReport = {
       confidence: 84,
       // Cannon publishes a grade-by-grade fee schedule rather than per-division
       // ranges, so this section renders the component grid only.
-      componentsTitle: 'Eleven confirmed components for a Grade 9 student — 4 unpriced',
-      componentsAside: 'All-in estimate not built: ~36% unpriced > 33% threshold',
+      componentsTitle: 'Ten confirmed components for a Grade 9 student — 4 unpriced',
+      componentsAside: 'All-in estimate not built: 40% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — five bands, priced', status: 'priced' },
         { label: 'Required class trip · $400 (gr. 9)', status: 'priced' },
         { label: 'Student books · $300–500', status: 'priced' },
         { label: 'Personal device · $600–1,200', status: 'priced' },
         { label: 'Winterm course · $0–500', status: 'priced' },
-        { label: 'AP exams · $98 per exam', status: 'priced' },
         { label: 'Bus service · $1,990 round-trip', status: 'priced' },
         { label: 'Annual dining figure · no rate', status: 'unpriced' },
         { label: 'Athletic team packs & equipment · no rate', status: 'unpriced' },
@@ -463,7 +464,7 @@ const CANNON: FinancialAidReport = {
         { label: 'Tuition Refund Plan · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'A narrow miss: the estimate is built only where at least two-thirds of components can be priced. For the Lower School the question does not arise — the 2026–27 fee document lists cost categories with no dollar figures at all, though the 2024–25 edition did price them.',
+        'Four of the ten items have no published price. The estimate is built only where at least two-thirds can be priced, so none is shown. For the Lower School the question does not arise — the 2026–27 fee document lists cost categories with no dollar figures at all, though the 2024–25 edition did price them.',
       boxes: [
         {
           title: 'Deposit, 2026–27',
@@ -1650,7 +1651,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
 
 const PROVIDENCE_DAY: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 24 Jul 2026',
+  meta: '2026–27 school year · figures as of 24 Jul 2026; bus fares and Extended Day registration 22 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -1704,8 +1705,8 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       navTitle: 'Beyond Tuition',
       title: 'Beyond Tuition — The Real Cost of Attendance',
       confidence: 60,
-      componentsTitle: 'Sixteen confirmed components for a 2026–27 family — 9 unpriced',
-      componentsAside: 'All-in estimate not built: 56% unpriced > 33% threshold',
+      componentsTitle: 'Seventeen confirmed components for a 2026–27 family — 9 unpriced',
+      componentsAside: 'All-in estimate not built: 53% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
         { label: 'Enrollment deposit · $2,500, non-refundable', status: 'priced' },
@@ -1714,7 +1715,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Extended Day program fee · $100–$750/mo', status: 'priced' },
         { label: 'Bus transportation · $1,830–$1,965 round trip per student, 2026–27 (siblings $1,379–$1,507)', status: 'priced' },
         { label: 'FLIK Dining participation · no rate', status: 'unpriced' },
-        { label: 'Extended Day enrichment classes · $200 (TK/K) or $220 (grades 1–5) a class', status: 'priced' },
+        { label: 'Extended Day enrichment classes · $200 or $220 a class, by grade and program', status: 'priced' },
         { label: '8th grade field trip · no rate', status: 'unpriced' },
         { label: '12th grade field trip · no rate', status: 'unpriced' },
         { label: 'Club travel · no rate', status: 'unpriced' },
@@ -1723,9 +1724,10 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'P.E. uniforms · no rate', status: 'unpriced' },
         { label: 'Graphing calculators · no rate', status: 'unpriced' },
         { label: 'Tutoring services · no rate', status: 'unpriced' },
+        { label: 'Extended Day registration · $80/yr', status: 'priced' },
       ],
       componentsNote:
-        'Of sixteen confirmed cost items, seven have a published price and nine do not. That leaves 56% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
+        'Of seventeen confirmed cost items, eight have a published price and nine do not. That leaves 53% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
       boxes: [
         {
           title: 'The deposit, 2026–27',
@@ -1733,7 +1735,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance); [Extended Day](https://www.providenceday.org/lower-school/extended-day) (Lower School); [Clubhouse](https://www.providenceday.org/middle-school/clubhouse) (Middle School); [Transportation](https://www.providenceday.org/around-campus/transportation), all retrieved 24 Jul 2026; 2026–27 bus fares retrieved 22 Nov 2026',
+        'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance); [Extended Day](https://www.providenceday.org/lower-school/extended-day) (Lower School); [Clubhouse](https://www.providenceday.org/middle-school/clubhouse) (Middle School); [Transportation](https://www.providenceday.org/around-campus/transportation), all retrieved 24 Jul 2026; 2026–27 bus fares and the [Extended Day fee document](https://docs.google.com/document/d/1_5u6M_MQtSRbLpKPYFjKqSXZB2pAV3McqIaD2TFhJWE) retrieved 22 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -1857,7 +1859,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED — SIX ITEMS',
-          body: 'No indexed or variable tuition · no sibling, clergy, military or first-responder discount · no general merit program · no figure for how many awards any named fund makes in a year or what a typical award is worth · no statement of whether a named-fund award stacks with or substitutes for a need-based grant. Absence of a published discount is not evidence none exists — several are commonly handled case by case.',
+          body: 'No indexed or variable tuition · no sibling tuition discount (the bus has lower sibling fares) · no clergy, military or first-responder discount · no general merit program · no figure for how many awards any named fund makes in a year or what a typical award is worth · no statement of whether a named-fund award stacks with or substitutes for a need-based grant. Absence of a published discount is not evidence none exists — several are commonly handled case by case.',
         },
       ],
       source:
@@ -1935,12 +1937,12 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         'If we receive an award, what has typically happened to award levels on reapplication in following years?',
         'Is there an appeals process, and what happens if our circumstances change mid-year?',
         'What obligation do we carry if a student withdraws after the school year begins?',
-        'Do you offer a sibling, employee, clergy, military or first-responder accommodation?',
+        'Do you offer a sibling, employee, clergy, military or first-responder tuition accommodation?',
       ],
     },
   ],
   sources:
-    'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance), [Extended Day](https://www.providenceday.org/lower-school/extended-day) (Lower School), [Clubhouse](https://www.providenceday.org/middle-school/clubhouse) (Middle School), [Transportation](https://www.providenceday.org/around-campus/transportation), [Endowment](https://www.providenceday.org/philanthropy/endowment) and [Donor Recognition](https://www.providenceday.org/philanthropy/donor-recognition), [Strategic Framework](https://www.providenceday.org/the-pd-difference/leadership/strategic-framework) (all 24 Jul 2026; 2026–27 bus fares 22 Nov 2026) · [Report on Philanthropy 2012–13](https://www.providenceday.org/uploaded/Giving/ROP_12-13.pdf), [2013–14](https://www.providenceday.org/uploaded/Giving/ROP_13-14.pdf) and [2017–18](https://www.providenceday.org/uploaded/Giving/ROP_2018-19_Web.pdf), "Enrollment at a Glance" and Endowments · I.R.S. Form 990 filings for Providence Day School, Inc., EIN 56-0952382, via [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/560952382) (Schedule I and Schedule D not retrieved). Commercial tuition aggregators are the source of no figure here. Every figure was anchored to EIN 56-0952382, the 5800 Sardis Road address, or CEEB 340687 before use. The school did not commission, review or approve this report.',
+    'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance), [Extended Day](https://www.providenceday.org/lower-school/extended-day) (Lower School), [Clubhouse](https://www.providenceday.org/middle-school/clubhouse) (Middle School), [Transportation](https://www.providenceday.org/around-campus/transportation), [Endowment](https://www.providenceday.org/philanthropy/endowment) and [Donor Recognition](https://www.providenceday.org/philanthropy/donor-recognition), [Strategic Framework](https://www.providenceday.org/the-pd-difference/leadership/strategic-framework) (all 24 Jul 2026; 2026–27 bus fares and [Extended Day fee document](https://docs.google.com/document/d/1_5u6M_MQtSRbLpKPYFjKqSXZB2pAV3McqIaD2TFhJWE) 22 Nov 2026) · [Report on Philanthropy 2012–13](https://www.providenceday.org/uploaded/Giving/ROP_12-13.pdf), [2013–14](https://www.providenceday.org/uploaded/Giving/ROP_13-14.pdf) and [2017–18](https://www.providenceday.org/uploaded/Giving/ROP_2018-19_Web.pdf), "Enrollment at a Glance" and Endowments · I.R.S. Form 990 filings for Providence Day School, Inc., EIN 56-0952382, via [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/560952382) (Schedule I and Schedule D not retrieved). Commercial tuition aggregators are the source of no figure here. Every figure was anchored to EIN 56-0952382, the 5800 Sardis Road address, or CEEB 340687 before use. The school did not commission, review or approve this report.',
 }
 
 /* ── Carmel Christian ── transcribed from the school's own 2026-2027 Tuition

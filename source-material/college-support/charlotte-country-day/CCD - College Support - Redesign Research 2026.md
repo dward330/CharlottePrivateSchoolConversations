@@ -138,7 +138,7 @@ The 2025-26 Profile publishes an explicit three-column "MOST RIGOROUS COURSES BY
 
 - **Post-AP math:** Calculus III (dual-listed with IB Analysis HL) is the top of the math sequence. AP Calculus BC feeds it. There is also a post-AP *statistics* path (Advanced AP Statistics with R and R Studio) — unusual, and a real signal for quant-leaning applicants.
 - **Post-AP science:** Organic Chemistry is a semester elective; the 2015-16 profile states it is "for students who have completed AP or IB Chemistry." Physical Computational Biochemistry is the newer addition (present 2025-26).
-- **Computer science:** AP Computer Science A is offered, sitting in the Mathematics row. **There is no post-AP CS course listed** (no Data Structures, no AP CS Principles listed either). This is a genuine gap relative to the math/science depth. `NOT PUBLISHED` / appears absent.
+- **Computer science:** AP Computer Science A is offered, sitting in the Mathematics row. **There is no post-AP CS course listed** (no Data Structures, no AP CS Principles listed either). The 2025–26 course guide does have Advanced Topics in Computer Science after AP Computer Science (corrected 2026-11-22, plan consistency4).
 - **World language:** The ceiling is AP or IB HL (AP French / IB French HL; AP Spanish / IB Spanish HL; AP Latin / IB Latin; IB Chinese). Honors Chinese runs I–V. **No post-AP language seminar is listed.** Note the 2015-16 profile listed **German** (Honors German II/III/IV, Advanced German Study) — German no longer appears in the 2024-25 or 2025-26 profiles, so the language roster has *contracted* to Chinese, French, Spanish, Latin.
 
 ### Beyond-campus academic options
@@ -791,7 +791,7 @@ Williams (1), Amherst (2), **US Naval Academy (3)**, **US Air Force Academy (5)*
 
 **≈33 distinct Top-75 Liberal Arts Colleges accepted** (all within the top 50, which is notable — the strength is concentrated at the very top of the LAC list). Plus additional LACs whose exact rank I could not confirm (Bard, Connecticut College, DePauw, Earlham, Hampden-Sydney, Hobart & William Smith, Oberlin, Randolph-Macon, Rhodes, Sarah Lawrence, St. Lawrence, St. Olaf, Wofford, Agnes Scott, Allegheny, Gettysburg). `TO VERIFY`
 
-> **Notably, all three federal service academies rank as top-10 Liberal Arts Colleges in 2026 U.S. News** (Navy #3, Air Force #5, Army #10), and **all three appear on CCD's acceptance list** — with the **Naval Academy bolded as enrolling** a Class of 2026 student.
+> **Notably, three of the five federal service academies rank as top-10 Liberal Arts Colleges in 2026 U.S. News** (Navy #3, Air Force #5, Army #10), and **all three appear on CCD's acceptance list** — with the **Naval Academy bolded as enrolling** a Class of 2026 student.
 
 **Enrolling at Top-75 LACs (C/O 2026):** US Naval Academy (3), Middlebury (13), Washington and Lee (21), Richmond (22), Bates (24), Bucknell (30), Lafayette (30), Denison (34), Furman (T-45), Sewanee (T-45) — **10 confirmed**, plus Agnes Scott, Gettysburg, Randolph-Macon, Rhodes, Wofford.
 
@@ -1110,8 +1110,8 @@ Evidence the middle and bottom of the class are genuinely served:
 5. **"How many learning specialists and academic coaches work with Upper School students, what are their credentials, and what is the caseload? And how do you report Honor Council findings and disciplinary actions on the secondary school report?"**
    *Two things published nowhere: the ERP names no staff, gives no count and no credentials; and the disciplinary-disclosure policy is entirely absent despite NACAC membership. Both matter enormously to specific families.*
 
-6. **"How many colleges do your counselors visit each year, is the Senior Externship required, and what gap-year, post-AP computer science, and capstone-research options exist?"**
-   *A cluster of unpublished items: staff campus-visit counts are absent entirely; externship is one day in January with 136 of ~141 seniors participating but is never stated as required; there is* **no post-AP CS course** *despite Calculus III and post-AP chemistry existing; and there is* **no required capstone or independent research** *and no gap-year disclosure of any kind.*
+6. **"How many colleges do your counselors visit each year, is the Senior Externship required, and what gap-year and capstone-research options exist? Does Advanced Topics in Computer Science still run?"**
+   *A cluster of unpublished items: staff campus-visit counts are absent entirely; externship is one day in January with 136 of ~141 seniors participating but is never stated as required; the profile lists* **no post-AP CS course** *(the 2025–26 guide has Advanced Topics in Computer Science) despite Calculus III and post-AP chemistry existing; and there is* **no required capstone or independent research** *and no gap-year disclosure of any kind.*
 
 ### Sources
 

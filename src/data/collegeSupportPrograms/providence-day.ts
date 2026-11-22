@@ -576,7 +576,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: 'Computer science',
-        text: '**Advanced Structures in Java** as a post-AP course, beyond both AP CS A and AP CS Principles.',
+        text: '**Advanced Data Structures in Java** (the profile shortens it to Advanced Structures) is a post-AP course, beyond both AP CS A and AP CS Principles.',
       },
       {
         label: 'World language',
@@ -877,8 +877,8 @@ export const providenceDay: CollegeSupportProgram = {
     ],
     middle: [
       {
-        label: 'The list matches the distribution',
-        text: 'The 383-institution list runs from Williams, MIT and Harvard down through Catawba, Brevard, Lees-McRae, Pfeiffer and Central Piedmont Community College. Just as important, many less selective options are **bolded**, meaning students enrolled there. They include App State, East Carolina, UNC–Charlotte, UNC–Greensboro, Western Carolina, High Point, Wingate, Gardner-Webb, Belmont Abbey and Central Piedmont. So students in the fourth and fifth quintiles really are enrolling, not just appearing on the list.',
+        label: 'The list spans selective and less selective colleges',
+        text: 'The 383-institution list runs from Williams, MIT and Harvard down through Catawba, Brevard, Lees-McRae, Pfeiffer and Central Piedmont Community College. Just as important, many less selective options are **bolded**, meaning students enrolled there. They include App State, East Carolina, UNC–Charlotte, UNC–Greensboro, Western Carolina, High Point, Wingate, Gardner-Webb, Belmont Abbey and Central Piedmont. So graduates really are enrolling at less selective colleges too. The profile does not say which fifths they come from.',
       },
       {
         label: 'Fit over prestige',
@@ -904,7 +904,7 @@ export const providenceDay: CollegeSupportProgram = {
 
   verdict: {
     headline:
-      'A mature, stable, high-touch college program that delivers elite outcomes at the top and real placement through the middle — and hands colleges a transcript built to be trusted.',
+      'A mature, stable, high-touch college program that places graduates at highly selective and less selective colleges alike — and hands colleges a transcript built to be trusted.',
     subhead:
       'The open questions are about the current year and the unpublished operational details — exactly what a campus visit answers.',
     points: [
@@ -921,8 +921,8 @@ export const providenceDay: CollegeSupportProgram = {
         text: 'five counselors for 754 Upper Schoolers (~36 seniors each), an 18-year director, associate directors who came from inside university admissions, ~150 reps hosted and 50+ campuses visited.',
       },
       {
-        label: 'Outcomes real at both ends of the class',
-        text: '8 of 8 Ivies bolded as enrolling — and accessible in-state options bolded too, right down to Central Piedmont Community College. The list matches the school’s actual quintile spread.',
+        label: 'Enrollment at more and less selective colleges',
+        text: '8 of 8 Ivies bolded as enrolling — and accessible in-state options bolded too, right down to Central Piedmont Community College. The profile does not say which fifths of the class those students come from.',
       },
       {
         label: 'Pipelines numbered, not anecdotal',
@@ -934,7 +934,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
     ],
     checklist: [
-      'Your profile shows the fifth quintile averaging a 1116 SAT and a 3.204 weighted GPA. Where did those ~36 students actually enroll last year?',
+      'Your profile shows this year’s fifth quintile at a 1116 SAT and a 3.204 weighted GPA. Where did last year’s fifth quintile enroll?',
       'Is every application read before submission, and do you have a stated Early Decision / Early Action strategy?',
       'What is your position on test-optional, and what share of last year’s class actually submitted scores?',
       'Five counselors share 179 seniors — does each student keep the same counselor from 9th grade to graduation?',

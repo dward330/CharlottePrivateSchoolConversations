@@ -99,7 +99,7 @@ Notes & gaps
   (monthly, per semester, or annual up front): all NOT PUBLISHED.
 - The pattern is consistent and deliberate: the official 2024-25 Non-Tuition Fees PDF
   lists "After School Program" and "Beyond the Bell" as fee-bearing for both Lower and
-  Middle School but assigns them no dollar amount, while pricing everything else
+  Middle School but assigns them no dollar amount, while pricing many other items
   (Chromebook $650, AP exam $98, trips $200–$2,000).
 - The Tuition & Fees page publishes 2026-27 tuition — JrK $21,450 / K $22,300 /
   Gr 1–4 $26,080 / Gr 5–8 $29,870 / Gr 9–12 $32,070 — but carries no after-school line.
@@ -191,16 +191,16 @@ Strengths
 - A sharp price ladder: the 5-day rate ($3,784) is only about 3.7× the 1-day rate, so
   heavy users get a real discount. Five-day ASP is about 13% of JrK tuition.
 - Deep and genuinely varied enrichment — 22 distinct classes in a single session spanning
-  robotics, ballet, chess, pottery, golf, photography and an executive-function class for
+  robotics, ballet, sculpture, golf, photography and an executive-function class for
   Middle School ("Let's Get Organized"), with real outside vendors.
-- Beyond the Bell pricing is modest and transparent: $18–$30 per class, mostly $144–$300
-  for a 10-week session.
+- Beyond the Bell pricing is modest and transparent: $18–$30 per class, and $160–$300
+  for the session of 8 or 10 classes (corrected 2026-11-22, plan consistency4).
 
 Watch-outs
 - Zero after-school coverage for grades 9–12.
 - Pricing is effectively hidden. The rate card exists only on an orphaned backup URL,
-  while the live page, the tuition page and the official fee PDF all omit it and price
-  everything else. A prospective family doing normal research will not find it.
+  while the live page, the tuition page and the official fee PDF all omit it. The PDF
+  prices many other items. A prospective family doing normal research will not find it.
 - The published rates are 2025-26; expect an increase for 2026-27.
 - The $1/minute late fee is steep and applies to drop-in families too — 20 minutes late is
   $20, nearly double the hourly rate.

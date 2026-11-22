@@ -547,10 +547,10 @@ tier of the Charlotte musical-theatre field.
    actually adjudicated, and whether arts ensembles compete with athletics for the same block.
 
 6. **"Is the Jazz Ensemble and ChargHers auditioned, and when does a student first get to
-   audition for something?"** Ask what happens to the kid who doesn't make ChargHers — is there a
-   non-auditioned choral home for them through senior year? Also worth asking who currently
+   audition for something?"** Ask whether a student who doesn't make ChargHers can stay in the
+   non-auditioned Chorus all four years. Also worth asking who currently
    directs the Upper School musical, since **Caroline Bower** (director of the 2015–2017
-   award-winning run) is no longer on the roster and **Brooke Fulton** now leads.
+   run of Blumey placements) is no longer on the roster and **Brooke Fulton** now leads.
 
 ---
 

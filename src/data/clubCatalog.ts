@@ -257,7 +257,7 @@ const PROVIDENCE_DAY: ClubCatalog = {
 // count but not a complete enumerated roster — the full list lives in the
 // login-gated BucsNet / Veracross portal. Per the persist-fetched-data standard we
 // enumerate ONLY the clubs confirmed in public sources; no clubs or counts are
-// invented, so the seven below are a public spine rather than the whole catalog.
+// invented, so the eleven below are a public spine rather than the whole catalog.
 // From src/content/student-clubs/charlotte-country-day.json.
 const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
   verdict:
@@ -278,6 +278,10 @@ const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
     { name: 'Big Brothers Big Sisters', cat: 'svc', note: 'Mentorship / service organization named in the School Profile' },
     { name: 'Environmental Council', cat: 'svc', note: 'Special-interest / service group' },
     { name: 'Interfaith Club', cat: 'aff', note: 'Affinity / special-interest group named on the DEIB page' },
+    { name: 'Interact Club', cat: 'svc', note: 'Upper School club named on the International Studies page' },
+    { name: 'International Studies Board', cat: 'aff', note: 'Upper School club named on the International Studies page' },
+    { name: 'World Quest', cat: 'acad', note: 'Upper School club named on the International Studies page' },
+    { name: 'Euro Challenge', cat: 'acad', note: 'Upper School club named on the International Studies page' },
   ],
   divisions: [
     {
@@ -287,7 +291,7 @@ const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
     },
   ],
   source:
-    'charlottecountryday.org — Upper School · School Profile 2025–26 & 2024–25 · About · DEIB Our Program',
+    'charlottecountryday.org — Upper School · School Profile 2025–26 & 2024–25 · About · DEIB Our Program · International Studies (charlottecountryday.org/cd-education/international-studies)',
 }
 
 // ── Cannon ── HONEST-GAP by design, like Country Day, but CONSOLIDATED: this one

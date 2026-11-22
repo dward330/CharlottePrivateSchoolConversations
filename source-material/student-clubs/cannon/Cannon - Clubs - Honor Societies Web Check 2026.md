@@ -36,3 +36,7 @@ Society | National Spanish Honor Society". Tri-M is on the school's own page tod
 ### Re-verification 2026-11-22 (plan consistency4, self-scan)
 
 - https://www.cannonschool.org/cannon-school-news/details/~board/cannon-news-cougar-news-internal-sources/post/cannon-school-students-establish-first-science-national-honor-society-chapter (HTTP 200): "This year marked a significant milestone for Cannon School with the launch of its first-ever chapter of the Science National Honor Society (SNHS)"; "inaugural induction ceremony on April 2, where 21 students were officially welcomed as founding members". The Upper School page roster (/academics/upper-school) does not list it.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- The Science National Honor Society post (URL above, HTTP 200) carries `article:published` 2026-04-29, so the April 2 induction was in 2026.

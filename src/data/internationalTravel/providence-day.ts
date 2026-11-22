@@ -563,13 +563,13 @@ export const providenceDay: InternationalTravelProgram = {
           {
             when: 'October 16, 2026 · All day',
             name: 'Global Trip Registration Opens',
-            audience: 'Middle & Upper School · grades 6–12',
+            audience: 'Middle & Upper School · grades 6–11',
           },
           {
             when: 'October 22, 2026 · 6:30–7:00 PM',
             name: 'Global Trips Virtual Information Session',
             detail: 'Online, via Google Meet',
-            audience: 'Middle & Upper School · grades 6–12',
+            audience: 'Middle & Upper School · grades 6–11',
           },
           {
             when: 'November 2, 2026',

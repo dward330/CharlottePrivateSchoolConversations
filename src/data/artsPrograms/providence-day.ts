@@ -241,7 +241,7 @@ export const providenceDay: ArtsProgram = {
       },
       {
         label: 'Audition up',
-        text: 'Jazz Ensemble requires an audition. A Cappella and the ChargHers hold their own (ChargHers auditions are a discrete calendar fixture). Ensembles perform at adjudicated festivals — the school reports 50+ superior ratings, cumulative and undated.',
+        text: 'Jazz Ensemble requires an audition. A Cappella and the ChargHers hold their own auditions (ChargHers auditions are a discrete calendar fixture). Ensembles perform at adjudicated festivals — the school reports 50+ superior ratings, cumulative and undated.',
       },
       {
         label: 'Get selected beyond campus',
@@ -353,8 +353,8 @@ export const providenceDay: ArtsProgram = {
       'In 2025 and 2026 you had five and six Blumey finalists and no wins, and no production-level nominations. What is the plan to convert — do you staff a choreographer and a pit orchestra for the spring musical?',
       'How many students made honors ensembles last year, out of how many who auditioned? The "100+ musicians" and "50+ superior ratings" figures carry no time window.',
       'Can a student do a sport and the spring musical? The fall one-act, NCTC festivals, December auditions and April performances make for a dense calendar at a strong athletics school.',
-      'What happens to the student who does not make ChargHers — is there a non-auditioned choral home for them through senior year?',
-      'Who directs the spring musical now? Caroline Bower led the 2015–2017 award-winning run and is no longer on the roster.',
+      'Can a student who does not make ChargHers stay in the non-auditioned Chorus for all four years?',
+      'Who directs the spring musical now? Caroline Bower led the 2015–2017 run of Blumey placements and is no longer on the roster.',
     ],
     sources: [
       { label: 'providenceday.org — Arts pages', url: PD_ARTS },

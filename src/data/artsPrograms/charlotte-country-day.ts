@@ -219,7 +219,7 @@ export const charlotteCountryDay: ArtsProgram = {
 
   music: {
     headline:
-      'Eight ensembles across Middle and Upper School, tiered into honors and open-enrollment sections, feeding conservatory summers and national honor bands.',
+      'Eight ensembles across Middle and Upper School, tiered into honors and entry sections, feeding conservatory summers and national honor bands.',
     subhead:
       'The school reports students earn recognition at 20+ state and regional music events a year; no itemized list of those events or results is published.',
     tracks: [
@@ -229,10 +229,11 @@ export const charlotteCountryDay: ArtsProgram = {
           'Honors Chamber Choir',
           'Honors Symphonic Band',
           'Honors Orchestra',
+          'Honors Concert Choir',
         ],
       },
       {
-        label: 'Open enrollment — Upper School',
+        label: 'Entry groups — Upper School',
         ensembles: ['Concert Choir', 'Symphonic Band', 'Orchestra', 'Percussion Ensemble', 'Piano class'],
       },
       {
@@ -245,16 +246,16 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     boardNote:
-      'Chris Rydel directs Upper School instrumental music. No choral director or arts department chair is named on the public pages. The school counts eight ensembles. The board lists 12 groups and classes across both divisions, including Piano class and General Music, so the school’s count uses a narrower definition it does not state. The Upper School course guide sets an audition for Honors Chamber Choir, Honors Symphonic Band and Honors Orchestra, and says Percussion Ensemble needs no musical experience.',
+      'Chris Rydel directs Upper School instrumental music. No choral director or arts department chair is named on the public pages. The school counts eight ensembles. The board lists 13 groups and classes across both divisions, including Piano class and General Music, so the school’s count uses a narrower definition it does not state. The Upper School course guide sets an audition for all four honors groups. Symphonic Band and Orchestra take students from the Middle School programs, or others by audition. Percussion Ensemble needs no musical experience.',
     ladderTitle: 'The honors ladder — how far it goes',
     ladder: [
       {
         label: 'Join an ensemble',
-        text: 'band, orchestra, choir or General Music from the Middle School daily curriculum, or Concert Choir / Symphonic Band / Orchestra in the Upper School.',
+        text: 'band, orchestra, choir or General Music from the Middle School daily curriculum, or Concert Choir / Symphonic Band / Orchestra in the Upper School. Band and orchestra newcomers audition.',
       },
       {
         label: 'Audition up',
-        text: 'the honors tier — Honors Chamber Choir, Honors Symphonic Band and Honors Orchestra, each entered by audition, per the Upper School course guide.',
+        text: 'the honors tier — Honors Chamber Choir, Honors Concert Choir, Honors Symphonic Band and Honors Orchestra, each entered by audition, per the Upper School course guide.',
       },
       {
         label: 'Get selected beyond campus',
@@ -278,7 +279,7 @@ export const charlotteCountryDay: ArtsProgram = {
     headline:
       'Two working wet darkrooms, a ceramics studio with wheels and kilns, and sculpture in glass and metal — the hands-in-material side has not been traded for screens.',
     subhead:
-      'Nine studios and rooms across three campuses, topping out in AP art courses (including AP Sculpture) and IB art courses.',
+      'Nine studios and rooms across three arts facilities on two campuses, topping out in AP art courses (including AP Sculpture) and IB art courses.',
     mediaTitle: 'Studio media',
     media: [
       { name: 'Drawing & painting', detail: 'plus printmaking and mixed media' },
@@ -360,8 +361,8 @@ export const charlotteCountryDay: ArtsProgram = {
     ask: [
       'Your site says five NCTC state championships. Which five years, and which plays? Only The Crane Wife is documented — and are they recent or decades old?',
       'You had zero Blumey nominations in 2026 for Frozen, after five in 2025 and about nine each in 2023 and 2024. What changed? Was it turnover on the creative team, or was Frozen chosen on purpose as a large-cast, accessible show?',
-      'You have been nominated every year since 2022 but have not won since. Is the program aiming at competitive placement or at participation breadth? With 100% theatre participation, breadth may genuinely be the strategy.',
-      'Can a beginner still join band or orchestra in 9th grade? The course guide sets an audition only for the three honors groups.',
+      'You were nominated every year from 2022 to 2025, without a win after 2022. Is the program aiming at competitive placement or at participation breadth? With 100% theatre participation, breadth may genuinely be the strategy.',
+      'The course guide asks newcomers to band or orchestra to audition. Can a beginner still join either one in 9th grade?',
       'How many Scholastic Art & Writing Gold and Silver Keys did students earn last year, and how many advanced to national judging?',
       'Which year did the Edinburgh Fringe trip happen, what did students perform, and how often does it recur?',
     ],

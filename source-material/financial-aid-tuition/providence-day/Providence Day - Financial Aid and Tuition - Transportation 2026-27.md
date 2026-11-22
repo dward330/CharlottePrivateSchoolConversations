@@ -34,3 +34,8 @@ on the Financial Aid card: round trip, first child, $1,830–$1,965; siblings $1
 
 - https://www.providenceday.org/around-campus/transportation (HTTP 200): "2026-2027 Bus Transportation Schedule and Fares". Round trip "1st Child: $1,830 Siblings: $1,379" up to "1st Child: $1,965 Siblings: $1,507". Unchanged.
 - https://www.providenceday.org/admissions/tuition-and-financial-assistance (HTTP 200): "Approximately 21% of Providence Day School families receive some form of financial assistance." and "Additional fees apply for the 8th and 12th grade field trips, club travel, performing and musical arts competition and athletic tournament travel, P.E. uniforms, graphing calculators, tutoring services Extended Day or Clubhouse , and Transportation .".
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- https://docs.google.com/document/d/1_5u6M_MQtSRbLpKPYFjKqSXZB2pAV3McqIaD2TFhJWE/export?format=txt (HTTP 200): "Annual Registration Fee: $80". The Beyond Tuition grid now carries it: seventeen items, eight priced, nine unpriced.
+- https://www.providenceday.org/around-campus/transportation (HTTP 200): "1st Child: $1,830 Siblings: $1,379". Unchanged.

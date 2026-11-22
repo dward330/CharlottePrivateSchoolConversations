@@ -217,7 +217,7 @@ export const providenceDay: AfterSchoolProgram = {
       },
       {
         kind: 'verify',
-        text: 'Sources disagree on the billing platform: the fee document names **Blackbaud**, the tuition and aid pages reference **Clarity**, and an archived FAQ references **Smart Tuition**.',
+        text: 'Billing is **Blackbaud**, per the 2026-27 fee document. The tuition page uses **Clarity** only to assess aid. An archived FAQ named **Smart Tuition**; the current fee document does not.',
       },
       {
         kind: 'verify',
@@ -280,7 +280,7 @@ export const providenceDay: AfterSchoolProgram = {
       'A drop-in spot for every Middle Schooler, every school day, with no sign-up. Students may **self-register and sign themselves in and out** for practices, games, music lessons and rehearsals. So Middle Schoolers get much more freedom than younger students. In Lower School, study hall runs for grades 3–5 only, Monday–Thursday, 3:15–4:00 p.m., and is explicitly independent study with no one-on-one academic help.',
     catalogTitle: 'Fall 2026 enrichment classes',
     catalogIntro:
-      'The school’s own Fall 2026 packet — real fees, days and grade bands. All classes run **10 sessions**; TK/K classes are $200 and grades 1–5 are $220. Students may take only **one** enrichment program per day, and enrollment in Extended Day is required to attend any of them.',
+      'The school’s own Fall 2026 packet — real fees, days and grade bands. All classes run **10 sessions**. Most TK/K classes are $200 and most grades 1–5 classes are $220. Karate is $220 and YoLa is $200 for every grade they take. Students may take only **one** enrichment program per day, and enrollment in Extended Day is required to attend any of them.',
     dayFilters: ['All', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
     gradeFilters: ['All', 'TK', 'K', '1', '2', '3', '4', '5'],
     classes: [
@@ -442,7 +442,7 @@ export const providenceDay: AfterSchoolProgram = {
     subhead:
       'The open questions are ratios, the Upper School gap, and the unpublished Activity Day fee — exactly what a visit answers.',
     strengths: [
-      '**Best-in-class price transparency** — a complete published 40-cell grade × tier × days matrix, so a family can compute its exact annual cost before applying.',
+      '**Best-in-class price transparency** — a complete published 40-cell grade × tier × days matrix, so a family can compute its exact monthly cost before applying.',
       '**Three tiers for the youngest students**, explicitly designed around sibling-pickup logistics. The 1:00 p.m. TK dismissal is a real burden and the school priced an answer to it.',
       '**A real enrichment catalog with real prices** — 15 Fall 2026 classes at $200–$220 across 10 sessions, taught by named outside professionals and PDS faculty.',
       '**A published, division-specific enrichment rhythm** with escorted transitions and a school-provided nut-free snack — unusually concrete operational detail.',
@@ -468,7 +468,6 @@ export const providenceDay: AfterSchoolProgram = {
       'Is there truly no before-school option? If Activity Days can open at 7:00 a.m., why not regular days?',
       'What exactly happens between 2:50 and 3:00 p.m. for grades 1–5, and is it billed?',
       'How does financial assistance actually apply to Extended Day and Clubhouse — the same award rate as tuition, and does it reach enrichment fees?',
-      'Which platform actually bills Extended Day — Blackbaud, Clarity, or Smart Tuition?',
       'Are there sibling discounts? Two children at $470/month is $940/month.',
       'What is the staff-to-child ratio by age group, and what is staff retention like?',
       'Can we change tiers mid-year, and does the $30/hour adjustment rate apply?',

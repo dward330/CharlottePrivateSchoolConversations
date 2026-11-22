@@ -261,11 +261,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: {
         kind: 'scope',
-        text: 'From the 2026–27 catalog. The 2026–27 School Profile gives the same total of 27 but splits it 15 AP + 12 AT, because it labels the business course AP and omits AT: English Seminar and Inquiry. The AT courses carry the same weight as an AP.',
+        text: 'From the 2026–27 catalog. The 2026–27 School Profile gives the same total of 27 but splits it 15 AP + 12 AT. It labels the business course AP, omits AT: English Seminar and Inquiry and adds AT: Design Thinking for Entrepreneurship. It also calls AT: English Language and Composition “American Language and Composition”. The AT courses carry the same weight as an AP.',
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'The only school here offering both AP and the full IB Diploma. Beyond the 18 IB courses sit the IB core — Theory of Knowledge, the Extended Essay, and CAS.',
+        text: 'The only school here offering both AP and the full IB Diploma. Beyond the 18 IB courses sit the IB core — Theory of Knowledge, the Extended Essay, and CAS. The 23 AP count is from the 2025–26 guide; the 2026–27 profile counts 26.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -1374,7 +1374,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'Approximately 20% of the student body, per the 2026–27 School Profile ($9.4M); the profile does not date the figure.',
+        text: 'Approximately 20% of the student body, per the 2026–27 School Profile and the tuition page. The tuition page says $9.4M to 341 students; Fast Facts says $10.1M to 347. The school does not date either figure.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -1411,7 +1411,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: '$9.4M in financial aid to about 20% of students, per the 2026–27 School Profile; the profile does not say which year the figure covers.',
+        text: '$9.4M in financial aid to about 20% of students, per the 2026–27 School Profile. The tuition page gives the same $9.4M, to 341 students, while Fast Facts says $10.1M to 347. The school does not say which year either figure covers.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -1732,7 +1732,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: '≥20', // 8 named US orgs + 12 US honor societies (NHS chapter 2025); no chartered directory published
       'charlotte-christian': '23', // 23 named US orgs (part of 38 across JK–12)
       'charlotte-catholic': '76', // counted from the clubs directory's raw HTML — 6 categories: Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. The school profile's 'over 50' is a round prose figure
-      'charlotte-country-day': '~45–50', // school publishes a range; only 7 confirmed by name
+      'charlotte-country-day': '~45–50', // school publishes a range; only 11 confirmed by name
       'charlotte-latin': '25', // 22 of the 27 listed US clubs (5 arts/writing clubs excluded, as at PD) + 3 groups listed separately
       'covenant-day': '≥10', // school-named Upper School groups only (user, 2026-11-10, plan plainclubs): 5 clubs/teams + 5 honor societies; the third-party roster was removed
       'carmel-christian': '~5', // standing HS bodies: NHS, Beta, Spanish Honor Society, Student Council, Timothy Project
@@ -1749,7 +1749,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: {
         kind: 'minimum',
-        text: 'Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 12 Upper School honor societies. The live roster shifts year to year and is not fully disclosed.',
+        text: 'Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 12 Upper School honor societies. A school news post also announces a Science National Honor Society chapter, which is not counted here. The live roster shifts year to year and is not fully disclosed.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -1757,7 +1757,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'range',
-        text: 'The school publishes a range rather than a list — its Upper School page cites “nearly 50 clubs” and the 2025–26 profile lists “45 different clubs and activities.” Only 7 are confirmed by name in public sources.',
+        text: 'The school publishes a range rather than a list — its Upper School page cites “nearly 50 clubs” and the 2025–26 profile lists “45 different clubs and activities.” Only 11 are confirmed by name in public sources.',
       },
       'covenant-day': {
         kind: 'minimum',
@@ -1909,7 +1909,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'End of the Lower-School extended-care/aftercare day. Verify current hours with the school.',
     values: {
       // Sourced from each school’s after-school research note:
-      'charlotte-country-day': '6:00 PM', // "Structured Care to 6 pm"
+      'charlotte-country-day': '6:00 PM', // Extended Day, JK through grade 8, until 6 pm
       'charlotte-latin': '6:00 PM', // Hawks’ Club, 1:30–6:00 p.m.
       'covenant-day': '6:00 PM', // Extended Day, JK-8, last session 4:30–6:00 p.m.
       'carmel-christian': '6:00 PM', // After School / After YCC 3:00–6:00 PM
@@ -1941,7 +1941,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'The Lower School’s Structured Care program runs until 6:00 p.m. Confirm current hours with the school.',
+        text: 'Extended Day serves JK through grade 8 until 6:00 p.m. Confirm current hours with the school.',
       },
       'providence-day': {
         kind: 'scope',
@@ -2095,7 +2095,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // publishes no summer program — see the negative-finding note
       'hickory-grove-christian': '8', // ~8 week-blocks Jun–Jul; live 2026 page confirms 8 session windows
       'gaston-day': '8', // June 1 - July 31 2026; no camp the week of June 29 or on June 19, so 8 numbered weeks are not 8 consecutive ones
-      'providence-day': '9', // June 1 – July 31, the longest season of the five
+      'providence-day': '9', // June 1 – July 31, the longest season on this row
     },
     quals: {
       'charlotte-catholic': {
@@ -2280,7 +2280,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'An eleven-hour span, the widest of the five — Before Care from 7am and After Care to 6pm, both $120/week, or $220/week bundled as Complete Care.',
+        text: 'An eleven-hour span, the widest on this row — Before Care from 7am and After Care to 6pm, both $120/week, or $220/week bundled as Complete Care.',
       },
       'charlotte-christian': {
         kind: 'scope',

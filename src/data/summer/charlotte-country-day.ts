@@ -1024,7 +1024,7 @@ export const charlotteCountryDay: SummerProgram = {
     headline:
       'Country Day’s rates are unusually clean — one half-day price, one full-day price, and a farm premium on top.',
     subhead:
-      'Eight weeks are available. Two of them are four-day weeks: half-day camps cost $230 in both, and full-day camps cost less only in the July 3 week. The tiers below are the five-day rates.',
+      'Eight weeks are available. Two of them are four-day weeks: half-day camps cost $230 in both, and full-day camps cost less only in the July 3 week. Apart from the first tier, the tiers below are five-day rates.',
     maxWeeks: 8,
     defaultWeeks: 4,
     defaultTier: 'fullday',
@@ -1097,7 +1097,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         label:
-          '**If a half-day camper eats lunch on campus, a lunch option must be registered** — it is not optional. Two of the school’s own pages disagree on whether food is included at that price; see the flag below.',
+          '**If a half-day camper eats lunch on campus, a lunch option must be registered** — it is not optional. The summer page says campers bring their own lunch. The Camp Ready page says both that lunch is provided in the dining hall and that campers must bring a packed lunch.',
         note: true,
       },
     ],
@@ -1108,7 +1108,7 @@ export const charlotteCountryDay: SummerProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'Two official pages disagree on the **$30/week Lunch Care**: the summer page calls it supervision only with campers bringing their own lunch, while the Camp Ready page says dining-hall lunch is provided to the same enrollees. Worth one phone call before assuming either.',
+        text: 'Two official pages disagree on the **$30/week Lunch Care**: the summer page calls it supervision only with campers bringing their own lunch, while the Camp Ready page says dining-hall lunch is provided to the same enrollees. Camp Ready also contradicts itself: its Lunch Care section says campers must bring their own packed lunch (re-read 2026-11-22). Worth one phone call before assuming either.',
       },
       {
         kind: 'gap',

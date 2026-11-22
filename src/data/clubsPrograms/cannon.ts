@@ -134,7 +134,7 @@ export const cannon: ClubsProgram = {
 
   honors: {
     headline:
-      'Twelve honor societies — an unusually wide span, reaching social studies, mathematics, English, journalism, three arts and three world languages.',
+      'Twelve honor societies on the school’s roster and profile — an unusually wide span. They reach social studies, mathematics, English, journalism, three arts and three world languages. A school news post also announces a Science National Honor Society chapter (2026).',
     subhead:
       'These are outcomes of achievement elsewhere in the program — a student earns their way in; nobody signs up.',
     societies: [
@@ -219,12 +219,13 @@ export const cannon: ClubsProgram = {
       },
       {
         kind: 'gap',
-        text: 'The National Honor Society chapter, awarded in 2025, appears on the 2026–27 profile but not yet on the Upper School page’s honor-society roster. No National Junior Honor Society or Science National Honor Society chapter is published.',
+        text: 'The National Honor Society chapter, awarded in 2025, appears on the 2026–27 profile but not yet on the Upper School page’s honor-society roster. No National Junior Honor Society chapter is published. A school news post announces a Science National Honor Society chapter with an April 2 induction (2026), but the roster and profile do not list it, so the count stays twelve.',
       },
     ],
     sources: [
       { label: 'cannonschool.org — Upper School (eleven of the twelve societies, incl. Cum Laude)', url: UPPER_SCHOOL },
       { label: '2026–27 Student Profile (National Honor Society chapter, 2025)', url: PROFILE_2627 },
+      { label: 'School news — first Science National Honor Society chapter', url: 'https://www.cannonschool.org/cannon-school-news/details/~board/cannon-news-cougar-news-internal-sources/post/cannon-school-students-establish-first-science-national-honor-society-chapter' },
     ],
   },
 }

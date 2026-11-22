@@ -118,8 +118,8 @@ Notes & gaps
 - Number of Extended Day billing months: NOT PUBLISHED. The fee document gives monthly
   rates but never states how many months are billed.
 - Sibling discounts: NOT PUBLISHED, for either tuition or Extended Day.
-- Billing-platform ambiguity: the fee doc names Blackbaud, while the tuition/aid pages
-  reference Clarity and an archived FAQ references Smart Tuition.
+- Billing platform: the 2026-27 fee doc names Blackbaud. The tuition/aid pages use Clarity
+  only to assess aid. An archived FAQ referenced Smart Tuition (corrected 2026-11-22, plan consistency4).
 - Financial aid: the Tuition & Financial Assistance page states additional fees apply
   for Extended Day or Clubhouse and that "Financial assistance may be available for
   some of these additional costs" — an explicit, if hedged, statement that aid can
@@ -181,7 +181,8 @@ Health and safety (Extended Day)
 
 ### Fall 2026 enrichment catalog — VERIFIED from the school's packet
 
-All classes run 10 sessions. Fees: $200 for TK/K classes, $220 for grades 1–5 classes.
+All classes run 10 sessions. Fees: $200 for most TK/K classes, $220 for most grades 1–5 classes.
+Karate is $220 and YoLa $200 for every grade they take (corrected 2026-11-22, plan consistency4).
 Students may participate in only ONE enrichment program per day. Registration in the
 Extended Day Program is required in order to attend enrichment classes.
 
@@ -235,8 +236,8 @@ Notes & gaps
 
 Strengths
 - Best-in-class price transparency: a complete published 40-cell (grade × tier × days)
-  matrix in an official document, so a family can compute an exact annual cost before
-  applying.
+  matrix in an official document, so a family can compute an exact monthly cost before
+  applying (corrected 2026-11-22, plan consistency4).
 - Three-tier flexibility for the youngest students, explicitly designed around
   sibling-pickup logistics — the 1:00 pm TK dismissal is a real burden and the school
   priced an answer to it.
@@ -274,7 +275,7 @@ Watch-outs
 - The 2:50 vs 3:00 gap for grades 1–5 (dismissal vs billed Extended Day start) is
   unexplained.
 - Late pickup is $1.00/minute and unbounded.
-- Billing-platform ambiguity: Blackbaud vs Clarity vs Smart Tuition across sources.
+- Billing platform: Blackbaud, per the 2026-27 fee document (corrected 2026-11-22, plan consistency4).
 - No summer continuity — Extended Day closes on the last day of school and summer is a
   separate paid program with unpublished rates.
 - No published Clubhouse daily structure, staff ratio, or homework-support commitment.
@@ -290,7 +291,6 @@ Visit checklist
 - What exactly happens between 2:50 and 3:00 pm for grades 1–5, and is it billed?
 - How does financial assistance actually apply to Extended Day and Clubhouse — same
   award rate as tuition, and does it reach enrichment fees?
-- Which platform actually bills Extended Day — Blackbaud, Clarity, or Smart Tuition?
 - Are there sibling discounts on Extended Day or Clubhouse? Two children at $470/mo is
   $940/mo.
 - What is the staff-to-child ratio by age group, and what is staff retention?

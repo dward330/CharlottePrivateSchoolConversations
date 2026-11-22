@@ -258,7 +258,7 @@ export const cannon: SummerProgram = {
         category: 'stem',
         categoryLabel: 'STEM & Academics',
         grades: ['a46', 'a79'],
-        gradeLabel: 'Rising JK & K',
+        gradeLabel: 'Rising JK & K / Rising 1st–4th',
         days: [],
         dayLabel: 'Mon–Fri',
         price: '$225.00',
@@ -1161,7 +1161,7 @@ export const cannon: SummerProgram = {
     ],
     aside: {
       title: 'Registration opened February 15 at 8:00 p.m.',
-      text: 'A **50% deposit** secures a spot, with the balance due May 15, 2026 — the only deposit structure among these five programs. Deposits are fully refunded before May 15; **on or after that date there are no refunds at all.** The school says plainly that "some popular camps fill very shortly after registration opens."',
+      text: 'A **50% deposit** secures a spot, with the balance due May 15, 2026. Deposits are fully refunded before May 15; **on or after that date there are no refunds at all.** The school says plainly that "some popular camps fill very shortly after registration opens."',
     },
     flags: [
       {
@@ -1170,7 +1170,7 @@ export const cannon: SummerProgram = {
       },
       {
         kind: 'gap',
-        text: 'Cannon publishes **no sibling discount, no multi-week discount and no camp financial aid**. The only price break in the 2026 brochure is the structural one for the four-day Week 2.',
+        text: 'Cannon publishes **no sibling discount, no multi-week discount and no camp financial aid**. The only price break on camp tuition in the 2026 brochure is for the four-day Week 2. Care has a $90 combination rate.',
       },
     ],
     sources: [
