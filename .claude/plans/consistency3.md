@@ -1,11 +1,11 @@
 ---
 name: consistency3
 title: Fix the residue of plans consistency and consistency2 found by re-scan #2
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-21
 branch: fix/consistency3
-prs: []
+prs: [516]
 closing_loop: consistency-self-scan
 ---
 
