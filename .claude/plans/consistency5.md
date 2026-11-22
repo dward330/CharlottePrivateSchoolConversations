@@ -1,11 +1,11 @@
 ---
 name: consistency5
 title: Fix the findings of the round-5 consistency rescan, and the tooling gaps round 4 exposed
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-22
 branch: fix/consistency5
-prs: []
+prs: [522]
 closing_loop: consistency-self-scan
 ---
 
