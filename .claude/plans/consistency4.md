@@ -43,6 +43,8 @@ Providence day colleges -> fix. The rest is your recommendation".
   - CAR-T4: a days-per-week field on the planner tier, and the per-camp-day figure divides by it.
     It is set on every four- and three-day tier at every school (11 tiers, six schools).
   - CAR-T9: Carmel's matrix heading reads "State-title matrix, 2019–26".
+    Hickory Grove's reads "State-title matrix, 2021–25": the same bug at a second
+    school, approved by the user 2026-11-22 ("Go with your recommendation").
   - COV-T14: Covenant's merit-table column header reads "AP results" (chrome, ten catalogs).
 - **CC-T16: Notre Dame counts as Power 4, football included.** Football keeps "FBS Ind." in the
   conference column. Charlotte Christian 9 → 11, Charlotte Catholic stays 15. The cards and the
@@ -70,7 +72,6 @@ Providence day colleges -> fix. The rest is your recommendation".
 | CAR-T8 | Left by the user until its source can be opened. |
 | DD-T4 | Left by the user until its source can be opened. |
 | CCD-T11 | Kept as it is, by the user (settled S9). |
-| Hickory Grove matrix heading | Found 2026-11-22: "last 3 seasons" over 2021, 2023 and 2024–25, the CAR-T9 bug at a second school. The approval named Carmel, so ask at the English review. |
 
 ## Steps
 
