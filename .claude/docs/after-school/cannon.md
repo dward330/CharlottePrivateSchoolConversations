@@ -1,5 +1,5 @@
 # Cannon School — After School
-> Distilled from 5 source document(s) in `source-material/after-school/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 5 source document(s) in `source-material/after-school/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Deep Research, Pricing, Program Details, Program Overview, Redesign Research 2026
 
 
@@ -240,7 +240,7 @@ Notes & gaps
  (monthly, per semester, or annual up front): all NOT PUBLISHED.
 - The pattern is consistent and deliberate: the official 2024-25 Non-Tuition Fees PDF
  lists "After School Program" and "Beyond the Bell" as fee-bearing for both Lower and
- Middle School but assigns them no dollar amount, while pricing everything else
+ Middle School but assigns them no dollar amount, while pricing many other items
  (Chromebook $650, AP exam $98, trips $200–$2,000).
 - The Tuition & Fees page publishes 2026-27 tuition — JrK $21,450 / K $22,300 /
  Gr 1–4 $26,080 / Gr 5–8 $29,870 / Gr 9–12 $32,070 — but carries no after-school line.
@@ -332,16 +332,16 @@ Strengths
 - A sharp price ladder: the 5-day rate ($3,784) is only about 3.7× the 1-day rate, so
  heavy users get a real discount. Five-day ASP is about 13% of JrK tuition.
 - Deep and genuinely varied enrichment — 22 distinct classes in a single session spanning
- robotics, ballet, chess, pottery, golf, photography and an executive-function class for
+ robotics, ballet, sculpture, golf, photography and an executive-function class for
  Middle School ("Let's Get Organized"), with real outside vendors.
-- Beyond the Bell pricing is modest and transparent: $18–$30 per class, mostly $144–$300
- for a 10-week session.
+- Beyond the Bell pricing is modest and transparent: $18–$30 per class, and $160–$300
+ for the session of 8 or 10 classes (corrected 2026-11-22, plan consistency4).
 
 Watch-outs
 - Zero after-school coverage for grades 9–12.
 - Pricing is effectively hidden. The rate card exists only on an orphaned backup URL,
- while the live page, the tuition page and the official fee PDF all omit it and price
- everything else. A prospective family doing normal research will not find it.
+ while the live page, the tuition page and the official fee PDF all omit it. The PDF
+ prices many other items. A prospective family doing normal research will not find it.
 - The published rates are 2025-26; expect an increase for 2026-27.
 - The $1/minute late fee is steep and applies to drop-in families too — 20 minutes late is
  $20, nearly double the hourly rate.
@@ -391,12 +391,19 @@ Beyond the Bell Session 1, 2025-26 catalog: https://issuu.com/cannonschool/docs/
 Camp Cannon 2026 brochure: https://issuu.com/cannonschool/docs/camp_cannon_brochure_summer_2026
 Cannon's full Issuu publication archive: https://issuu.com/cannonschool
 
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.cannonschool.org/cannon-life/beyond-the-bell-enrichment-program (HTTP 200): now embeds "Beyond the Bell Enrichment Offerings - Session 2 Brochure" and says "Registration for Session 1 opens Registration for BTB will open Aug 16 th and the first day of classes will be Aug 31 st". https://issuu.com/cannonschool/docs/beyond_the_bell_-_session_2 refused the fetch (HTTP 403), so the brochure's year and classes were not read.
+
 
 ---
 
 ## Sources referenced across these documents
 
 - https://issuu.com/cannonschool
+- https://issuu.com/cannonschool/docs/beyond_the_bell_-_session_2
 - https://issuu.com/cannonschool/docs/beyond_the_bell_session_3
 - https://issuu.com/cannonschool/docs/camp_cannon_brochure_summer_2026
 - https://issuu.com/cannonschool/docs/cannon_school_beyond_the_bell_session_1_2025-

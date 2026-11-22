@@ -1,5 +1,5 @@
 # Covenant Day School — College Support
-> Distilled from 9 source document(s) in `source-material/college-support/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 9 source document(s) in `source-material/college-support/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and the Whole Class, Institutional Leverage, Outcomes, Redesign Research 2026, Standing Out, UNC System Admissions
 
 
@@ -63,14 +63,18 @@ so the ledger is still accruing.
  and AP +1.0** quality point. GPA computed on all subjects taken in grades 9-12.
 - **25 Carnegie Units to graduate**: 4 English, 4 Math, 3 Science, 3 Social Studies,
  3 Bible (a Bible course every year), 1 Fine Art, 0.5 Health, 1 PE, 5.5 electives
- (2026-2027 profile; the 2024-2025 edition showed 3.5 Bible / 5 electives).
+ (July 2026 edition of the 2026-2027 profile; the 2024-2025 edition showed 3.5 Bible / 5 electives).
+ The current August 2026 edition (https://resources.finalsite.net/images/v1788450343/covenant/xsfiowwd1hd8ooel8svi/2026-2027HSGuidanceProfile.pdf,
+ read 2026-11-22) shows 3.5 Bible / 5 electives again.
 - **AP pacing is deliberately gated**: no AP courses for freshmen; sophomores may
  take a maximum of one AP. "Two AP courses in the junior year and four AP courses
  senior year is a very demanding course load" (profile's own words). Placement in
  Honors/DE/AP is determined by previous coursework, grades, and teacher feedback.
 - Dual enrollment through **Covenant College**; online partner **SevenStar Academy**
  (transcript notes courses taken there).
-- **80% of full-time high school faculty hold advanced degrees** (2026-2027 profile;
+- **74% of full-time high school faculty hold advanced degrees** (current August 2026 edition,
+ https://resources.finalsite.net/images/v1788450343/covenant/xsfiowwd1hd8ooel8svi/2026-2027HSGuidanceProfile.pdf, read 2026-11-22).
+- Earlier: **80% of full-time high school faculty hold advanced degrees** (July 2026 edition of the 2026-2027 profile;
  81% in 2024-2025; the live academics page says "over 83%").
 - 37 teaching faculty for ~350 high school students (2026-2027 profile).
 
@@ -748,6 +752,7 @@ scrape was smoke-tested first against the method file's reference table (Cannon 
 - https://resources.finalsite.net/images/v1695399666/covenant/zogqb5jfwbqp0henpd36/HighSchoolProfileFINAL9-12.pdf
 - https://resources.finalsite.net/images/v1726168257/covenant/jg1wjr67fw5ewgwy5bkz/2024-2025HSGuidanceProfilefinal_1.pdf
 - https://resources.finalsite.net/images/v1758547252/covenant/x8i0qddxvctsp5jqbpmt/2025-26HSGuidanceProfile.pdf
+- https://resources.finalsite.net/images/v1788450343/covenant/xsfiowwd1hd8ooel8svi/2026-2027HSGuidanceProfile.pdf
 - https://www.covenantday.org/academics/college-guidance
 - https://www.covenantday.org/academics/high-school
 - https://www.covenantday.org/campus-life/service

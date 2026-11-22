@@ -150,6 +150,20 @@ four guessed slugs, and all 404'd. The page sits at a slug none of them used:
 Because the page was found, the plan's deletion step is **on hold for the user's call**. The
 ladder figures still match the live page word for word.
 
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.charlottecountryday.org/admissions/tuition-financial-aid (HTTP 200): "Approximately 20% of our student body receives financial aid: 341 students receive $9.4 million in financial assistance a year." No 21% on the page.
+- https://www.charlottecountryday.org/about/fast-facts (HTTP 200): "$10.1 million financial aid awarded to 347 students" and "1,745 Students enrolled for 2026-27 school year". No 21% on the page.
+- https://www.charlottecountryday.org/bucsnet/bus (HTTP 200, linked from the Quick Reference): "2026-27 Bus Fees", Round Trip / One-Way: Myers Park/Cornwell "$1,670" / "$955", Charlotte Country Club "$1,785" / "$1005", Campus Shuttle Bus Service "$715" / "$400". "parents are billed twice: half in August and half in January".
+- https://www.charlottecountryday.org/bucsnet/quick-reference (HTTP 200): "Incidental charges such as dining hall, Campus Store, Extended Day, tutoring, PE uniforms (Middle School), and bus transportation fees are billed on a monthly basis".
+- https://www.charlottecountryday.org/about/support/endowment-capital (HTTP 200): "$880,000", "Current annual distribution is estimated at $39,600", "+6,000 annually". Unchanged.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- https://www.charlottecountryday.org/about/fast-facts now redirects to https://www.charlottecountryday.org/about (HTTP 200), whose Fast Facts block says "$10.1 million" and "financial aid awarded to 347 students".
+- https://www.charlottecountryday.org/bucsnet/bus (HTTP 200): "$1,670" / "$955", "$1,785" / "$1005", shuttle "$715" / "$400".
+- https://www.charlottecountryday.org/bucsnet/lower-school/erp (HTTP 200): "$82 per 45-minute session". https://www.charlottecountryday.org/bucsnet/middle-school/erp: "Sessions are billed at $85 per session". https://www.charlottecountryday.org/bucsnet/upper-school/erp: "Coaching is billed at $85 per session".
+
 
 ---
 
@@ -607,7 +621,15 @@ Charlotte Country Day School — Tuition & Financial Aid — figures cover the 2
 - https://web.archive.org/web/20250419212556/https://www.charlottecountryday.org/admissions/tuition-financial-aid
 - https://web.archive.org/web/20251110135437/https://www.charlottecountryday.org/admissions/tuition-financial-aid
 - https://web.archive.org/web/20260127094544/https://www.charlottecountryday.org/admissions/tuition-financial-aid
+- https://www.charlottecountryday.org/about
+- https://www.charlottecountryday.org/about/fast-facts
 - https://www.charlottecountryday.org/about/support
+- https://www.charlottecountryday.org/about/support/endowment-capital
 - https://www.charlottecountryday.org/about/support/endowment-capital:
 - https://www.charlottecountryday.org/admissions/frequently-asked-questions
 - https://www.charlottecountryday.org/admissions/tuition-financial-aid
+- https://www.charlottecountryday.org/bucsnet/bus
+- https://www.charlottecountryday.org/bucsnet/lower-school/erp
+- https://www.charlottecountryday.org/bucsnet/middle-school/erp:
+- https://www.charlottecountryday.org/bucsnet/quick-reference
+- https://www.charlottecountryday.org/bucsnet/upper-school/erp:

@@ -1,5 +1,5 @@
 # Cannon School — Global Exposure
-> Distilled from 2 source document(s) in `source-material/international-travel/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-10-18.
+> Distilled from 2 source document(s) in `source-material/international-travel/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Deep Research, Source URLs
 
 
@@ -708,6 +708,15 @@ sign or caption. `techno_sizes.jpg` and `CostaRica20255.jpg` downloaded but not 
 
 **Dropped as still PDF-only:** the Kindergarten CLT/FLES quote. Every other rendered fact
 traces to a fetched or Wayback row above.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.cannonschool.org/academics/international-programs (HTTP 200): "Students have completed World History I and II, World Language I and II and III", "Students must complete AT LEAST two of the following global education experiences" and, below them, "Starting with the Class of 2024, please refer to the Global Studies Mastery Credits requirements ."
+- https://www.cannonschool.org/academics/lower-school/early-childhood-jrkk/kindergarten (HTTP 200): a "Spanish" section, "Kindergarten students are introduced to Spanish in a friendly, hands-on, interactive way".
+- https://www.cannonschool.org/academics/upper-school/winterm (HTTP 200): "Trips and Certifications: Students will have the opportunity to engage in domestic and international trips". No price on the page.
+- https://www.cannonschool.org/admission/admission-faqs (HTTP 200): "Yes, Spanish instruction begins in Junior Kindergarten."
 
 
 ---

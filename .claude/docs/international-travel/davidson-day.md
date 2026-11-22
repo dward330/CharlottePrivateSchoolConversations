@@ -1,5 +1,5 @@
 # Davidson Day School — Global Exposure
-> Distilled from 2 source document(s) in `source-material/international-travel/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 2 source document(s) in `source-material/international-travel/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Deep Research, Source URLs
 
 
@@ -698,6 +698,19 @@ Fetched https://www.davidsonday.org/academics/diploma-distinctions/global-studie
 - No minimum duration of international field research is stated on the page.
 
 The 2026–27 School Profile (same day, see the College Support School Profile 2026-2027 file) instead requires "the same world language in all four years of upper school" and "a minimum of two weeks of international field research", and dates AFAR in Belize to 2009 rather than 2006.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+https://www.davidsonday.org/p/~board/all-blogs/post/four-students-three-countries-one-summer-of-fieldwork (HTTP 200,
+2026-11-22): "This was AFAR's final season at Cahal Pech. In 2027, the Belize project moves about 20 minutes upriver
+to Baking Pot, a new Maya site and the start of a new chapter after 20 seasons."
+https://www.davidsonday.org/academics/diploma-distinctions/global-studies still names "Spain, Portugal, and Belize".
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+https://www.davidsonday.org/p/~board/all-blogs/post/four-students-three-countries-one-summer-of-fieldwork (HTTP 200,
+2026-11-22): "This was AFAR's final season at Cahal Pech. In 2027, the Belize project moves about 20 minutes
+upriver to Baking Pot, a new Maya site and the start of a new chapter after 20 seasons."
 
 
 ---

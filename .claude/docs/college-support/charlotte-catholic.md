@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — College Support
-> Distilled from 3 source document(s) in `source-material/college-support/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 3 source document(s) in `source-material/college-support/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** School Profile 2025-2026, School Profile 2026-2027, UNC System Admissions
 
 
@@ -184,7 +184,7 @@ profile's own prose. Bucket membership below is computed against the app's maste
 | Ivy League | **6 / 8** | Cornell, Dartmouth, Harvard, Penn, Princeton, Yale — **no Brown, no Columbia** |
 | Ivy Plus | **9 / 17** | the 6 Ivies + Duke, Georgetown, Northwestern |
 | Top-75 National | **36 / 75** | computed from the master's National ranks ≤ 75 |
-| Top-75 Liberal | **17 / 75** | includes **all three service academies** — Naval #3, Air Force #5, West Point #10 |
+| Top-75 Liberal | **17 / 75** | includes **three of the five federal service academies** — Naval #3, Air Force #5, West Point #10 (ranks superseded: the 2027 master in `src/data/collegeRankings.ts` has Naval #3, West Point #9, Air Force #11) |
 | Power Four | **39 / 68** | ⚠️ **40 raw name hits deduped to 39 institutions** — Arizona State appears twice (Downtown Phoenix + Tempe campuses) and is one university |
 | HBCUs | **2 / 107** | Hampton University, Benedict College |
 
@@ -824,6 +824,10 @@ Consequence for the app (plan `consistency`, row CCHS-31): replace "~1,171" with
 (2023–24, NCES)" wherever it renders outside Financial Aid & Tuition, and recompute the derived
 "~195 students per counselor" as ≈222 (1,330 ÷ 6). Financial Aid & Tuition is school-sourced
 only (user ruling 2026-11-10), so there the figure is dropped rather than replaced.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1787830297/charlottecatholicorg/ihsker6gva69wmhq5agy/2026-2027CCHSSchoolProfile.pdf (fetched 2026-11-22): "Since 2000, Charlotte Catholic has won 79 state championships and has been state runner-up 68 times"; "Of those, … 32% elected to remain in North Carolina, and 2% will be attending 2-year institutions."
 
 
 ---

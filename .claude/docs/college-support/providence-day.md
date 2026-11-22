@@ -1,5 +1,5 @@
 # Providence Day School — College Support
-> Distilled from 12 source document(s) in `source-material/college-support/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 12 source document(s) in `source-material/college-support/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Redesign Research 2026, School Profile 2026-2027, Standing Out, UNC System Admissions, Deep Research
 
 
@@ -1950,6 +1950,11 @@ https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/
 - Acceptance list key: "Bold letters indicate schools enrolling one or more members of the Class of 2023–2026."
  `pdftohtml -xml` renders "Central Piedmont Community College" in the bold face (`<b>`, font 30), i.e. a
  two-year college is marked as enrolling a 2023–2026 graduate.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/Collegeguidancecollegeprofile26-27updated.pdf (HTTP 200): "Quintile distribution of the Class of 2027 — (179 seniors) as of August 2026" and "Advanced Structures in Java (post-AP)". The acceptance list has no Bocconi University and no School of Visual Arts.
+- https://www.providenceday.org/fs/pages/2728 (HTTP 200, redirects to /upper-school/college-guidance/college-acceptances): no Bocconi University and no School of Visual Arts on the page.
 
 
 ---

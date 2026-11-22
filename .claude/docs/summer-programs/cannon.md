@@ -1,5 +1,5 @@
 # Cannon School — Summer Programs
-> Distilled from 1 source document(s) in `source-material/summer-programs/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 1 source document(s) in `source-material/summer-programs/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Camp Catalog
 
 
@@ -369,8 +369,8 @@ your child's spot in a session. The remaining payment is due by May 15, 2026." O
 registration requires a deposit by credit card, debit card or electronic check.
 
 **Sibling / multi-week discounts: NOT PUBLISHED.** The 2026 brochure contains no
-sibling, multi-week, or bulk discount of any kind. The only price break is the
-structural one for the 4-day Week 2. Financial aid for camp is also not mentioned.
+sibling, multi-week, or bulk discount of any kind. The only camp-tuition price break is the
+structural one for the 4-day Week 2 (care has a $90 combination rate). Financial aid for camp is also not mentioned.
 
 ## Registration & Policy
 

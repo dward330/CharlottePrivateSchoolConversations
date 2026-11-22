@@ -1,5 +1,5 @@
 # Charlotte Latin School — Student Clubs
-> Distilled from 9 source document(s) in `source-material/student-clubs/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 9 source document(s) in `source-material/student-clubs/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic and Competitive Programs, Club Catalog Web Check 2026, Club Catalog and Descriptions, Governance, Formation, Funding and Discovery, NotebookLM Episode Prompt, Participation and Popularity, Service, Leadership and Civic Engagement, Thematic Pathways, Clubs Redesign Deep Research
 
 
@@ -416,7 +416,7 @@ Then work through the **six segments in this exact order:**
 
 4. **The Clubs That Compete.** This is where Charlotte Latin shines. Lead with Speech and Debate as the flagship — a top-twenty program nationally per the N-S-D-A, with charter status and 200 Club recognition, and recent top finishes at the national tournament. Then cover Model U N, Science Olympiad (Division B in Middle School and Division C in Upper School, reaching the state tournament in 2026), World Quest, and the Math Team. Be careful: say the Science Olympiad team *reached* the state tournament, but do not claim a specific placement, because the public results don't confirm one. Also note plainly what's *not* there — no mock trial, academic decathlon, or business-competition chapter shows up in the School's materials. [source: Academic & Competitive Programs]
 
-5. **Service, Leadership & Civic Life.** Describe the largest cluster: a Service Council that organizes weekly service, a slate of service clubs (Club Sandwich, Blessings in a Backpack, Paws for the Cause), and a recognition pathway — the Service Society for students who top 150 service hours. Cover the governance bodies: the elected Student Council, the Honor Council and its Advisory Board, and the Hawks Lead leadership program. Then the affinity and advocacy clubs: Mosaic (which houses Q-and-A and the Black Student Association), SISTERS, Girl Up, and S-A-D-D. [source: Service, Leadership & Civic Engagement]
+5. **Service, Leadership & Civic Life.** Describe the largest cluster: a Service Council that organizes weekly service, a slate of service clubs (Club Sandwich, Blessings in a Backpack, Paws for the Cause), and a recognition pathway — the Service Society for students who top 150 service hours. Cover the governance bodies: the elected Student Council, the Honor Council and its Advisory Board, and the Hawks Lead leadership program. Then the affinity and advocacy clubs: Mosaic (which houses Q-and-A and B-S-A), SISTERS, Girl Up, and S-A-D-D. [source: Service, Leadership & Civic Engagement]
 
 6. **How Clubs Are Run, Started, Funded & Found — and Closing Takeaways.** Explain that clubs are advisor-anchored, meet during the school day, and that students are encouraged to start their own with a faculty advisor. Be candid about the gaps: the School doesn't publish a detailed new-club approval process, doesn't publish club budgets, and there's no confirmed all-School club fair — though the Middle School rotation effectively *is* a discovery engine. Close with honest takeaways: Charlotte Latin's clubs are strongest in the civic/public-voice and S-T-E-M arenas, the service culture is deep and well-documented, and a few operational details simply aren't public. [source: Governance, Formation, Funding & Discovery]
 
@@ -427,7 +427,7 @@ Then work through the **six segments in this exact order:**
 - "NJCL" → "the National Junior Classical League" (spell out on first use)
 - "NSDA" → "N-S-D-A"
 - "SADD" → "S-A-D-D"
-- "BSA" → "the Black Student Association" (spell out on first use)
+- "BSA" → "B-S-A" (the school does not expand the initialism, so never expand it)
 - "STEM" → "S-T-E-M"
 - "TK" → "transitional kindergarten" (on first use)
 - "NAIMUN" → "the North American Invitational Model U N"
@@ -717,7 +717,8 @@ Named staff: **Vernette Rucker, Assistant Director of Diversity, Equity, and Inc
 
 ### The enumerable structure — VERIFIED
 
-The only named identity group is a **club**, not a separate affinity page:
+The club list's named identity group is **Mosaic** (a separate affinity program exists; see the
+2026-11-22 re-verification under Method):
 
 **Mosaic (Upper School)** — "To promote diversity in and outside of our school community
 through events that celebrate our cultural, religious, ethnic, social and racial diversity.
@@ -749,13 +750,17 @@ immersive cultural experience… exploring diverse cultures one delicious recipe
 - **The "Diversity Club List" link is a dead end.** The DEI page links to `/fs/pages/2417`,
  which renders the same generic sentence and **contains no list**. →
  https://www.charlottelatin.org/fs/pages/2417
-- **No Lower/Middle School affinity groups** published; no per-division breakout.
+- ~~No Lower/Middle School affinity groups published; no per-division breakout.~~ Superseded
+ 2026-11-22: Brotherhood & Belonging publishes a part per division (see Method).
 - **No parent affinity groups** — the Cookbook Club is parent DEI programming, not an
  identity-based affinity group.
 - **No student diversity leadership corps and no NAIS SDLC mention** anywhere reachable,
  including https://www.charlottelatin.org/leading-programs/student-leadership-development
 
-### REFUTED — a cross-school attribution error, do not ingest
+### REFUTED in July, SUPERSEDED 2026-11-22 — these are Charlotte Latin's programs
+
+The school's Academic Transition and Student Success page publishes all three names below (see
+Method). The July note that follows was wrong to exclude them.
 
 An early search snippet attributed programs called **"Voices – Brotherhood & Identity"
 (Grades 3–5)** and **"The Boys' Room" (Middle School)**, plus "affinity programming for
@@ -930,13 +935,47 @@ Two nuances that explain the absence:
 - The site is Finalsite with no `sitemap.xml` and JS-driven search, so scraping page HTML
  directly is the reliable route rather than fetching guessed slugs.
 
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22.
+
+- https://www.charlottelatin.org/about/diversity-equity-inclusion now returns HTTP 404.
+- https://www.charlottelatin.org/about/community-belonging-global-education (200): "The Office of
+ Community, Belonging, and Global Education".
+- https://www.charlottelatin.org/about/community-belonging-global-education/community-and-belonging
+ (200): "Vernette Rucker — Associate Director of community and belonging".
+- https://www.charlottelatin.org/about/community-belonging-global-education/academic-transition-and-student-support
+ (200): "Affinity Group Programming: Brotherhood & Belonging"; "culturally responsive spaces for
+ historically underrepresented boys in Grades 3–12"; "Lower School (Grades 3–5): Voices –
+ Brotherhood & Identity"; "Middle School: The Boys' Room"; "Upper School: Leadership & Legacy",
+ described as "Future expansion".
+- https://www.charlottelatin.org/student-life/student-clubs/clubs (200) still lists 27 Upper School
+ clubs, including "Acapella Club: To have fun informally exploring this style of music. No previous
+ experience required." Mosaic reads "Under Mosaic we have Q&A and BSA." BSA is not expanded, and no
+ Indian Student Alliance is listed.
+- https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-celebrates-diwali
+ (200): "Members of the Indian Student Alliance took turns at the podium".
+### Re-verification 2026-11-22 (plan consistency4, implement)
+Re-opened 2026-11-22: the five pages in the self-scan note above, with the same results.
+- https://www.charlottelatin.org/fs/pages/2417 (the old "Diversity Club List" link) now lands on
+ https://www.charlottelatin.org/about/community-belonging-global-education, which has no club list.
+- No live page read links Vernette Rucker to Mosaic, calls Mosaic "student-led", or restates the DEI
+ Committees, parent sessions or Cookbook Club. Those rested on the retired page (July 2026).
+- The Diwali post dates its assembly "Friday, October 17", which is 2025.
+
 
 ---
 
 ## Sources referenced across these documents
 
+- https://www.charlottelatin.org/about/community-belonging-global-education
+- https://www.charlottelatin.org/about/community-belonging-global-education/academic-transition-and-student-support
+- https://www.charlottelatin.org/about/community-belonging-global-education/community-and-belonging
 - https://www.charlottelatin.org/about/diversity-equity-inclusion
 - https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2025-honors-and-awards-ceremony
+- https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-celebrates-diwali
 - https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-places-in-top-20-debate-programs-in-usa
 - https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-students-inducted-into-cum-laude-society
 - https://www.charlottelatin.org/fs/pages/2417

@@ -1,5 +1,5 @@
 # Cannon School — Financial Aid & Tuition
-> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
+> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Deep Dive Report, Tuition History
 
 
@@ -666,11 +666,18 @@ Per-column sourcing (verbatim quotes from the retrieved snapshots):
 
 These percentages are worked out from the tuition figures above, which the school publishes. Note the unusually large 2022–23 → 2023–24 jump in the upper three bands.
 
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1769013407/cannonschoolorg/b5mo6ysxt5kn7i3xfxi4/AllSchool26-27Non-TuitionFeesExpenses.pdf (HTTP 200): the 9th Grade block lists only "Freshmen Class Trip $400", "Winterm course (based on student selection) $0-500" and "Student Books for courses $300-$500", plus the 9-12 device "$600-1,200". "Advanced Placement Exam Fee" appears under 10th, 11th and 12th Grade only. Dining, team packs, art supplies, the After School Program and all Lower School items are named with no amount.
+
 
 ---
 
 ## Sources referenced across these documents
 
+- https://resources.finalsite.net/images/v1769013407/cannonschoolorg/b5mo6ysxt5kn7i3xfxi4/AllSchool26-27Non-TuitionFeesExpenses.pdf
 - https://web.archive.org/cdx/search/cdx?url=cannonschool.org/admission/tuition-and-fees&output=json&from=2021&to=2026&collapse=digest`
 - https://web.archive.org/web/20220127142845/https://www.cannonschool.org/admission/tuition-and-fees
 - https://web.archive.org/web/20221006134930/https://www.cannonschool.org/admission/tuition-and-fees

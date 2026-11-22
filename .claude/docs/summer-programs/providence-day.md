@@ -1,5 +1,5 @@
 # Providence Day School — Summer Programs
-> Distilled from 1 source document(s) in `source-material/summer-programs/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 1 source document(s) in `source-material/summer-programs/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Camp Catalog
 
 
@@ -366,6 +366,16 @@ waitlist data.
 
 The Family Night Creatives weekday (brochure and website disagree); the categories of
 18 camp rows absent from the archived session snapshots.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://summer.providenceday.org/fs/resource-manager/view/15c9f316-1d70-4adf-af87-862c78ec285d (HTTP 200, the 2026 brochure PDF): "Junior Masters Chess Camp $255 K-5" and "$315 K-5", "IDEAS - Battle Bot Camp $360 5-8" and "$450 5-8", "Playlax Lite $445 1-8", under "Session (no camps June 19 and July 3)". The session marks are glyphs that do not extract, so the session columns rest on the table above.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- The 2026 brochure (URL above, HTTP 200), pages 6–7 read as images, confirms the session marks: Junior Masters Chess Camp $255 in S3 and S5 and $315 in S4, S6, S7, S8 and S9; IDEAS Battle Bot Camp $360 in S5; Playlax Lite $445 in S5 (June 29–July 2, four days).
 
 
 ---

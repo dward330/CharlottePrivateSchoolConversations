@@ -271,6 +271,10 @@ Finding: one week has no camps (June 29 - July 3), between Week 4 (June 22-26) a
 (July 6-10). The "two-week break" in this file's Season & Facilities line is ours, not the
 school's, and it contradicts the week table above it.
 
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1782233699/charlotte/charlotte/charlotte/rxwhbvna5ckduwhzpp9p/CCSCamps2026At-a-glance.pdf (fetched 2026-11-22). "Week 3: June 15-18". Week 3 prices: CCS Tennis Camp $160, Nerf Camp $160, Build It, Break It! $160, Lego Maniacs $155. Grade spans: Pickleball Summer Fun K-12 (a.m.), CCS Tennis Camp 1-11.
+
 
 ---
 
