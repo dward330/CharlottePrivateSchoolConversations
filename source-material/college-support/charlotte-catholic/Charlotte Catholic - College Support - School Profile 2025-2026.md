@@ -173,7 +173,7 @@ profile's own prose. Bucket membership below is computed against the app's maste
 | Ivy League | **6 / 8** | Cornell, Dartmouth, Harvard, Penn, Princeton, Yale — **no Brown, no Columbia** |
 | Ivy Plus | **9 / 17** | the 6 Ivies + Duke, Georgetown, Northwestern |
 | Top-75 National | **36 / 75** | computed from the master's National ranks ≤ 75 |
-| Top-75 Liberal | **17 / 75** | includes **all three service academies** — Naval #3, Air Force #5, West Point #10 |
+| Top-75 Liberal | **17 / 75** | includes **three of the five federal service academies** — Naval #3, Air Force #5, West Point #10 (ranks superseded: the 2027 master in `src/data/collegeRankings.ts` has Naval #3, West Point #9, Air Force #11) |
 | Power Four | **39 / 68** | ⚠️ **40 raw name hits deduped to 39 institutions** — Arizona State appears twice (Downtown Phoenix + Tempe campuses) and is one university |
 | HBCUs | **2 / 107** | Hampton University, Benedict College |
 

@@ -2404,9 +2404,9 @@
         "cannon:divisions[2].departments[6].courses[1].tag",
         "covenant-day:divisions[0].departments[0].courses[8].tag",
         "covenant-day:divisions[0].departments[0].courses[9].tag",
+        "covenant-day:divisions[0].departments[1].courses[10].tag",
         "covenant-day:divisions[0].departments[1].courses[11].tag",
         "covenant-day:divisions[0].departments[1].courses[12].tag",
-        "covenant-day:divisions[0].departments[1].courses[13].tag",
         "covenant-day:divisions[0].departments[2].courses[8].tag",
         "covenant-day:divisions[0].departments[2].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[10].tag",
@@ -3039,7 +3039,6 @@
       "of": "9e6fb02a",
       "at": [
         "providence-day:divisions[2].departments[2].courses[10].title",
-        "covenant-day:divisions[0].departments[1].courses[9].title",
         "gaston-day:divisions[1].departments[1].courses[6].title"
       ]
     },
@@ -3084,7 +3083,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
-        "covenant-day:divisions[0].departments[1].courses[11].title",
+        "covenant-day:divisions[0].departments[1].courses[10].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[2].courses[11].title"
       ]
@@ -3102,7 +3101,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
-        "covenant-day:divisions[0].departments[1].courses[12].title",
+        "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[10].title"
       ]
     },
@@ -3119,7 +3118,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[15].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
-        "covenant-day:divisions[0].departments[1].courses[13].title",
+        "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
         "carmel-christian:divisions[0].departments[2].courses[12].title"
       ]
@@ -4602,7 +4601,7 @@
         "covenant-day:divisions[0].departments[1].courses[4].tag",
         "covenant-day:divisions[0].departments[1].courses[7].tag",
         "covenant-day:divisions[0].departments[1].courses[8].tag",
-        "covenant-day:divisions[0].departments[1].courses[10].tag",
+        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[1].tag",
         "covenant-day:divisions[0].departments[2].courses[3].tag",
         "covenant-day:divisions[0].departments[2].courses[4].tag",
@@ -6158,7 +6157,7 @@
       "of": "58226eb6",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[13].description",
-        "covenant-day:divisions[0].departments[1].courses[13].description",
+        "covenant-day:divisions[0].departments[1].courses[12].description",
         "carmel-christian:divisions[0].departments[2].courses[12].description"
       ]
     },
@@ -12868,8 +12867,8 @@
       ]
     },
     {
-      "t": "117 سطر درسی در 9 گروه آموزشی در فهرست راهنما — 23 درس AP و 18 درس IB به‌علاوهٔ هستهٔ کامل دیپلم IB. در اینجا به‌صورت 121 مدخل نشان داده شده است، از جمله پنج درس که راهنما توصیف می‌کند اما در فهرست خود نمی‌آورد.",
-      "of": "35c1ab48",
+      "t": "117 سطر درسی در 9 گروه آموزشی در فهرست راهنما — 23 درس AP و 18 درس IB به‌علاوهٔ هستهٔ کامل دیپلم IB. این راهنمای 2025–26 است؛ نمایهٔ 2026–27 تعداد 26 درس AP را می‌شمارد. در اینجا به‌صورت 121 مدخل نشان داده شده است، از جمله پنج درس که راهنما توصیف می‌کند اما در فهرست خود نمی‌آورد.",
+      "of": "82da0ae8",
       "at": [
         "charlotte-country-day:divisions[2].teaser"
       ]
@@ -13935,8 +13934,8 @@
       ]
     },
     {
-      "t": "گروه کر کنسرت سطح honors.",
-      "of": "9266c7e0",
+      "t": "گروه کر کنسرت سطح honors، با ورود از راه درخواست و آزمون ورودی.",
+      "of": "565b037a",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[1].description"
       ]
@@ -14450,7 +14449,6 @@
         "cannon:divisions[0].departments[0].courses[1].tag",
         "cannon:divisions[0].departments[0].courses[2].tag",
         "cannon:divisions[0].departments[0].courses[3].tag",
-        "cannon:divisions[0].departments[1].courses[0].tag",
         "cannon:divisions[0].departments[2].courses[0].tag",
         "cannon:divisions[0].departments[2].courses[1].tag",
         "cannon:divisions[0].departments[2].courses[2].tag",
@@ -14508,6 +14506,13 @@
       "of": "07cf2b06",
       "at": [
         "cannon:divisions[0].departments[0].courses[4].description"
+      ]
+    },
+    {
+      "t": "JrK–Gr 4",
+      "of": "60efa0ce",
+      "at": [
+        "cannon:divisions[0].departments[1].courses[0].tag"
       ]
     },
     {
@@ -16264,8 +16269,8 @@
       ]
     },
     {
-      "t": "90 درس در 9 گروه آموزشی — 17 درس Advanced Placement، یک درس نام‌دار Bible برای هر یک از چهار سال، و گروه Restoration & Sustainability که کم‌یاب است.",
-      "of": "ea2eb72a",
+      "t": "89 مدخل درسی در 9 گروه آموزشی: 86 مورد در صفحهٔ آموزشی و سه مورد دیگر در نمایهٔ 2026–27. این‌ها شامل 17 درس Advanced Placement، یک درس نام‌دار Bible برای هر یک از چهار سال، و گروه Restoration & Sustainability است که کم‌یاب است.",
+      "of": "521f35dc",
       "at": [
         "covenant-day:divisions[0].teaser"
       ]
@@ -16290,7 +16295,6 @@
         "covenant-day:divisions[0].departments[1].courses[3].tag",
         "covenant-day:divisions[0].departments[1].courses[5].tag",
         "covenant-day:divisions[0].departments[1].courses[6].tag",
-        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[0].tag",
         "covenant-day:divisions[0].departments[2].courses[2].tag",
         "covenant-day:divisions[0].departments[2].courses[5].tag",
@@ -16416,8 +16420,7 @@
         "covenant-day:divisions[0].departments[0].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[7].title",
-        "carmel-christian:divisions[0].departments[1].courses[8].title",
-        "gaston-day:divisions[1].departments[0].courses[3].title"
+        "carmel-christian:divisions[0].departments[1].courses[8].title"
       ]
     },
     {
@@ -16563,31 +16566,24 @@
       ]
     },
     {
-      "t": "آمار مقدماتی.",
-      "of": "b729daf0",
-      "at": [
-        "covenant-day:divisions[0].departments[1].courses[9].description"
-      ]
-    },
-    {
       "t": "Statistics Honors",
       "of": "b7b12c3b",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].title"
+        "covenant-day:divisions[0].departments[1].courses[9].title"
       ]
     },
     {
       "t": "آمار honors — با امکان ثبت‌نام هم‌زمان (dual enrollment) با Covenant College.",
       "of": "534c8b8a",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].description"
+        "covenant-day:divisions[0].departments[1].courses[9].description"
       ]
     },
     {
       "t": "حسابان دیفرانسیل و انتگرال در سطح دانشگاهی.",
       "of": "cf28429f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[11].description",
+        "covenant-day:divisions[0].departments[1].courses[10].description",
         "carmel-christian:divisions[0].departments[2].courses[11].description"
       ]
     },
@@ -16595,7 +16591,7 @@
       "t": "مسیر سریع‌تر حساب دیفرانسیل و انتگرال، تا سری‌ها؛ مدرسه یادآور می‌شود که شمار ثبت‌نام دانش‌آموزان می‌تواند بر ارائهٔ این درس اثر بگذارد.",
       "of": "c8c6d5de",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[12].description"
+        "covenant-day:divisions[0].departments[1].courses[11].description"
       ]
     },
     {
@@ -16779,8 +16775,8 @@
       ]
     },
     {
-      "t": "روان‌شناسی honors.",
-      "of": "05020b75",
+      "t": "روان‌شناسی honors. در نمایهٔ 2026–27 فهرست شده است، نه در صفحهٔ آموزشی.",
+      "of": "2a89baca",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[6].description"
       ]
@@ -16823,8 +16819,8 @@
       ]
     },
     {
-      "t": "درس Bible سال اول؛ دانش‌آموزان هر سال در یکی از درس‌های Bible ثبت‌نام می‌کنند و برای فارغ‌التحصیلی سه واحد لازم است.",
-      "of": "e1318f97",
+      "t": "درس Bible سال اول؛ دانش‌آموزان هر سال در یکی از درس‌های Bible ثبت‌نام می‌کنند و برای فارغ‌التحصیلی 3.5 واحد لازم است.",
+      "of": "527a5ea3",
       "at": [
         "covenant-day:divisions[0].departments[4].courses[0].description"
       ]
@@ -17120,8 +17116,8 @@
       ]
     },
     {
-      "t": "تئاتر فنی — دکور، نورپردازی، تولید.",
-      "of": "4e2c17db",
+      "t": "تئاتر فنی — دکور، نورپردازی، تولید. در نمایهٔ 2026–27 فهرست شده است، نه در صفحهٔ آموزشی.",
+      "of": "902048c4",
       "at": [
         "covenant-day:divisions[0].departments[6].courses[5].description"
       ]
@@ -17305,8 +17301,8 @@
       ]
     },
     {
-      "t": "مشارکت میان‌فرهنگی کاربردی.",
-      "of": "7de1b888",
+      "t": "مشارکت میان‌فرهنگی کاربردی. در نمایهٔ 2026–27 فهرست شده است، نه در صفحهٔ آموزشی.",
+      "of": "4bf28df3",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[2].description"
       ]
@@ -18056,8 +18052,8 @@
       ]
     },
     {
-      "t": "موسیقی آوازی، سازی و کوبه‌ای از آهنگ‌سازان کلاسیک و مدرن · پایهٔ 4 فلوت‌ریکوردر و پایهٔ 5 سازهای بادی گروه را می‌آموزد · گروه کر کودکان برای پایه‌های 4 و 5 و کلاس‌های خصوصی پیانو، آواز و گیتار در دسترس است.",
-      "of": "96360919",
+      "t": "موسیقی آوازی، سازی و کوبه‌ای از آهنگ‌سازان کلاسیک و مدرن · پایهٔ 4 فلوت‌ریکوردر و پایهٔ 5 سازهای بادی گروه را می‌آموزد · گروه کر کودکان برای پایه‌های 4 و 5 (صفحهٔ موسیقی پایه‌های 3–5 را می‌گوید) · کلاس‌های خصوصی پیانو، آواز و گیتار در دسترس است.",
+      "of": "9f3ec7c6",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[1].description"
       ]
@@ -23116,7 +23112,20 @@
       "t": "مروری در سطح بالاتر که در سطح Honors ارائه می‌شود.",
       "of": "7fd423da",
       "at": [
-        "gaston-day:divisions[1].departments[0].courses[2].description",
+        "gaston-day:divisions[1].departments[0].courses[2].description"
+      ]
+    },
+    {
+      "t": "European Literature (در نسخهٔ سپتامبر: British Literature)",
+      "of": "28c72695",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[3].title"
+      ]
+    },
+    {
+      "t": "مروری در سطح بالاتر در سطح Honors. نمایهٔ نوامبر 2025 آن را European Literature می‌نامد. نسخهٔ سپتامبر 2025 آن را British Literature می‌نامد.",
+      "of": "94274a49",
+      "at": [
         "gaston-day:divisions[1].departments[0].courses[3].description"
       ]
     },
@@ -23296,8 +23305,8 @@
       ]
     },
     {
-      "t": "گذراندن تا Level III، به Spanish یا French، برای فارغ‌التحصیلی الزامی است، به‌جز برای دانش‌آموزان بین‌المللی که انگلیسی زبان دوم آنان است.",
-      "of": "37ea1ab6",
+      "t": "صفحهٔ Upper School گذراندن تا Level III به Spanish یا French را برای فارغ‌التحصیلی الزامی می‌داند. دانش‌آموزان بین‌المللی که انگلیسی زبان دوم آنان است معاف‌اند. جدول درس‌های نمایه تنها Spanish را فهرست می‌کند.",
+      "of": "ea50fce3",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[0].description"
       ]

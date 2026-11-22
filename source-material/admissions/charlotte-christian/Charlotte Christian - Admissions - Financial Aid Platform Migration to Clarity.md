@@ -32,6 +32,8 @@ Verbatim from the live tuition page:
 > Current family applications are due by Nov. 1, 2026. Prospective family
 > applications are due by Jan. 22, 2027."
 
+(As read 2026-09-14. On 2026-11-22 the page says "Nov. 2, 2026".)
+
 > "All financial assistance is awarded based on demonstrated financial need and
 > is assessed through an independent third-party program, Clarity."
 
@@ -46,7 +48,7 @@ Support contacts published for Clarity: support@clarityapp.com, 206-210-3752.
 | Who | Deadline |
 |---|---|
 | Prospective families | **Jan 22, 2027** |
-| Current families | **Nov 1, 2026** |
+| Current families | **Nov 2, 2026** (Nov 1 when read 2026-09-14) |
 
 The app currently says *"The deadline for this cycle is not published — confirm
 it with the business office."* That was correct when researched (the only dated
@@ -56,6 +58,8 @@ Note Jan 22 falls **a week after** the Jan 15 grades 1–12 application deadline
 and **three weeks after** the Jan 2 JK/K one.
 
 ## Finding 3 — the NC Opportunity Scholarship requirement is GONE
+
+**SUPERSEDED 2026-11-22: the requirement is on the live page again (see Method). The rest of this finding is history.**
 
 `Opportunity` = 0 occurrences and `ncseaa` = 0 on the live tuition page. The app
 currently states every aid family "must ALSO apply to the North Carolina
@@ -122,3 +126,15 @@ checklist PDF and every other reference say **2027**. 2027 is correct.
 This is a *second* such typo at this school: the Admissions Calendar PDF prints
 "Sunday, Feb. 1, **2026** — JK-K File Materials Due", already documented and
 corrected to 2027 in the app's data file.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.charlottechristian.com/admissions/tuition (fetched 2026-11-22). It now reads "Current family applications are due by Nov. 2, 2026. Awards will be communicated at the time of re-enrollment in February." and "Prospective family applications are due by Jan. 22, 2027. Awards will be communicated at the time of acceptance when an enrollment contract is offered by Admissions."
+- The same page has restored the state requirement: "All families applying for financial assistance to Charlotte Christian School must also apply to the North Carolina Opportunity Scholarship Program. Applications for this program open Feb. 1, 2027". This supersedes Finding 3 and the Nov. 1 date in Finding 2.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- https://www.charlottechristian.com/admissions/tuition re-opened: current families "due by Nov. 2, 2026", prospective "due by Jan. 22, 2027", and the Opportunity Scholarship requirement, opening "Feb. 1, 2027". Built in Financial Aid and Admissions.
+- The same page and https://www.charlottechristian.com/admissions/faqs carry no statement that Opportunity Scholarship participation ends after 2025–26, so that inference is removed from the app.

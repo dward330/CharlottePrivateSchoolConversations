@@ -38,6 +38,8 @@ search snippet surfaced a 3:10 reference. The 2:55 figure is the one the pricing
 itself is built on, so it is the operative number for billing; the 3:05/3:10 figures
 appear to be carpool/bus staging times. MS/US is given as 3:20 on the Transportation page
 and 3:25 elsewhere. This is a genuine published inconsistency, not a research gap.
+Update 2026-11-22: the school has two Transportation pages, which give 3:05 / 3:20 and
+2:55 / 3:30. The 3:10 and 3:25 above are on neither page (see Method).
 
 Programs by division
 - TK–Grade 5: Hawks' Club (Extended Day) — the only paid after-school care program.
@@ -235,7 +237,7 @@ Saturday morning sessions (Basketball, Soccer). Fees $200–$350 depending on sp
 duration, published as a range — per-sport prices live on the individual TeamSnap
 registration links. Registration via TeamSnap. Activity bus requires a separate sign-up
 with CLS Transportation; departures typically 4:45–5:30 pm. Only Fall Sessions One and
-Two are published; winter and spring Talons seasons are NOT PUBLISHED.
+Two were published in July. Superseded 2026-11-22: winter and spring are published too (see Method).
 
 Stacking: the After School hub confirms students can combine Hawks' Club with Enrichment
 and/or Talons — enrichment runs inside the Hawks' Club window and the child returns to
@@ -291,8 +293,8 @@ Watch-outs
   follows — a $635/semester question.
 - Registration opened May 14, 2026 at 8:00 pm; an evening hard-open is the signature of a
   program where popular classes fill in minutes.
-- Talons publishes only Fall sessions, so year-round athletic continuity is unconfirmed,
-  and its fees are a $200–$350 range rather than a price.
+- Talons published only Fall sessions in July, at a $200–$350 range. Superseded 2026-11-22:
+  winter and spring are published, and some of their fees are priced (see Method).
 - No published staff-to-child ratio or group size.
 
 Visit checklist
@@ -310,8 +312,8 @@ Visit checklist
 - What are our options for after-school supervision once our child reaches Middle School?
   Is there anything between the ~3:20 dismissal and the 5:30/6:00 activity buses?
 - Is there any before-school care or supervised early drop-off, and from what time?
-- Please confirm the actual Grades 1–5 dismissal time — 2:55, 3:05, or 3:10? Your
-  Transportation and After-School pages disagree.
+- Please confirm the actual Grades 1–5 dismissal time — 2:55 or 3:05? Is the Lower School
+  activity bus at 4:30 or 4:45? Your two Transportation pages disagree.
 - What does a typical afternoon look like hour by hour — when is snack, homework, outdoor
   time?
 - What is the staff-to-child ratio, and how many children are in each classroom?
@@ -323,8 +325,8 @@ Visit checklist
   prorated?
 - How quickly do popular classes fill at the 8:00 pm registration open? Is there a
   waitlist?
-- Are there winter and spring Talons seasons, and what is the exact fee for the sport we
-  want?
+- What will the Talons programs with no posted fee cost, such as basketball, swimming and
+  indoor field hockey?
 
 ## Sources & Where to Verify
 
@@ -375,3 +377,43 @@ without a comma). $1,880 is above that row's own 5-day rate ($1,475), so as prin
 linear either: two rows now break the pattern, not one. The Wayback Machine holds only a
 2026-02-10 capture of this URL, so whether the page changed after July 27 or the July pass misread
 it cannot be told from archives.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22, each HTTP 200.
+
+- https://www.charlottelatin.org/student-life/transportation: "Morning buses leave their stops for
+  campus at an assigned time between 7:00 a.m. and 7:25 a.m." Afternoon: "1:30 p.m. (designated for
+  Kindergarten dismissal) and 3:05 p.m. (TK-K Hawks Club students and Grades 1-5). Departure time for
+  students attending Flyzone, Middle School and Upper School is 3:20 p.m." Activity buses: "4:45 p.m.
+  (LS only), 5:30 p.m. (MS & US), 6:00 p.m. (MS & US)".
+- https://www.charlottelatin.org/admissions/transportation: "between 7:00 a.m. and 7:20 a.m.";
+  "1:30 p.m. (designated for Kindergarten dismissal) and 2:55 p.m. Departure time for Middle School
+  and Upper School students is 3:30 p.m."; activity bus "4:30 p.m. (Lower School)".
+- https://www.charlottelatin.org/after-school/hawks-club: "Grades 1–5 dismiss at 2:55 p.m.
+  (Dismissal times subject to change.)"; "Lower School students participating in after-school or
+  enrichment programs may take the 4:30 p.m. late activity bus." The rate table is unchanged.
+- https://www.charlottelatin.org/after-school/youth-sports-recreation-program now lists two more
+  sessions. Session Three (November 7 - February 13): Flag Football, Grades KG-5, "$195"; Wrestling,
+  Grades 4 & 5, "$250"; Indoor Field Hockey, no fee printed. Session Four (February 16 - May 22):
+  Boys' and Girls' Lacrosse, grades 3 & 4 "$325", Boys' grades 5 & 6 "$350", Girls' grades 5 & 6
+  "$375"; Boys Soccer Academy "$300"; Volleyball "$275". Basketball and swimming are not yet priced.
+- https://www.charlottelatin.org/after-school still gives Talons as "Grades 3–6".
+- https://www.charlottelatin.org/after-school/enrichment-programs still lists 27 classes with no fee.
+### Re-verification 2026-11-22 (plan consistency4, implement)
+Re-opened 2026-11-22, each HTTP 200: both Transportation pages, /after-school, /after-school/hawks-club
+(where /after-school/extended-day lands) and the Talons page. All agree with the self-scan note above.
+- The season tiles on https://www.charlottelatin.org/after-school/youth-sports-recreation-program
+  open in pop-ups (https://www.charlottelatin.org/fs/elements/43674?is_popup=true&post_id=4993&show_post=true,
+  then post_id 4994 and 4995). They print no fees.
+  - Fall Offerings, September to Thanksgiving: Girls' Field Hockey (Grades 3-6); Basketball (3 & 4);
+    Tennis (4-6); Soccer (2-6); Talons Soccer Academy - Girls (5 & 6); Baseball (5 & 6); Cross
+    Country (3-6); Lacrosse (3 & 4).
+  - Winter Offerings, "November to February": Flag Football (K - 5); Flag Football league (4-6);
+    Indoor Field Hockey (3-6); Wrestling (4 & 5); Tennis (4-6).
+  - Spring Offerings, "End of February to End of April": Lacrosse (3-6); Basketball (3-6); Swimming
+    (3-6); Talons Soccer Academy - Boys (5 & 6); Volleyball Girls (5 & 6).
+- So the programs with no posted fee are the fall programs, the flag football league, indoor field
+  hockey, winter tennis, basketball and swimming.
+- The Transportation times are bus "departure" times. The Middle School, Upper School and Library
+  pages print no dismissal time.

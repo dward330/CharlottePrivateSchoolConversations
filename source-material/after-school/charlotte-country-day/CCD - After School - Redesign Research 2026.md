@@ -237,8 +237,8 @@ Strengths
   frames the program around dual-income families: "More than 50 percent of our
   two-parent families are dual income, and they can count on After School programs to
   meet their children's needs and interests."
-- Enrichment starts at the dismissal bell for every division, with published per-grade
-  ratios — no dead gap between school and activity.
+- Enrichment starts soon after dismissal, with published per-grade ratios. JK, K and grades
+  3–4 start at the bell; grades 1–2 wait 15 minutes, Middle School 10, Upper School 30 (corrected 2026-11-22, plan consistency4).
 - Four enrichment cycles a year with a low-commitment 3-week mini option at $225.
 - Real breadth: 25+ enrichment classes plus six sports tracks, several through credible
   outside partners.
@@ -333,3 +333,14 @@ $225 | Alternative pricing may be considered based on program needs." The page i
 enrichment program directors, so a given class may be priced differently, but a standard 2026–27 enrichment fee is
 published on the school's own site. The After School verdict prints the $225 mini; the Financial Aid report still
 lists "Enrichment classes · no rate" and asks for the rate (Q3).
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.charlottecountryday.org/bucsnet/quick-reference (HTTP 200): "Grades 5–8: 8:00 am–3:10 pm" and "Grades 9–12: 8:00 am–3:15 pm".
+- https://www.charlottecountryday.org/cd-experience/after-school/program-directors (HTTP 200): "Grades 5–8 (17:1 ratio) : 3:20–4:20 pm".
+- https://www.charlottecountryday.org/cd-experience/after-school (HTTP 200): "Extended Day , which provides structured care and supervised play until 6 pm". /bucsnet/after-school/extended-day: "for students from JK through grade 8".
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- https://www.charlottecountryday.org/bucsnet/quick-reference (HTTP 200): "Grades 1–2: 8:00 am–2:50 pm" and "Grades 3–4: 8:00 am–3:05 pm". https://www.charlottecountryday.org/cd-experience/after-school/program-directors: "Grades 1–4 (15:1 ratio) : 3:05–4:05 pm". So grades 1–2 wait 15 minutes.
+- https://www.charlottecountryday.org/bucsnet/after-school/extended-day (HTTP 200): "3:00 pm (carpool siblings only), 3:30 pm, 4:30 pm, 6 pm", and the JK 3 pm five-day rate "$450".

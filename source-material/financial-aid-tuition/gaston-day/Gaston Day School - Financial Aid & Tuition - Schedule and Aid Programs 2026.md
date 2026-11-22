@@ -40,8 +40,9 @@ plus an explicit combined total. The Upper School sticker figure is therefore **
 the school's tuition, and it is the like-for-like number against other schools' all-in
 figures.
 
-**2026-27 tuition (S2):** **$20,300 – $23,310** depending on grade. Published as a range on
-the cost page; the per-grade 2026-27 schedule PDF was not posted at the time of this pass.
+**2026-27 tuition and fees (S2 and https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf):**
+half day **$9,145** · full day **$11,340** · K–4 **$20,300** · grades 5–8 **$22,300** · grades 9–12 **$23,310**.
+Those are tuition plus fees, about 4% above 2025-26. The fees cover security, technology and textbooks.
 
 ### After school & enrichment rates (duplicated in the After School area)
 
@@ -79,11 +80,10 @@ the full page transcription.
 - **Discount ceiling: up to 80%** of tuition (Kindergarten–Grade 12).
 - **Contact:** Kevin Napp, Director of Admissions, 704.864.7744 ext. 414.
 
-**Not published** on any page found in this pass: the total aid budget in dollars, the
-average award, the number of families receiving aid, sibling discounts, tuition-insurance
-or refund-plan terms, and the payment-plan tiers (S1 states only that "Gaston Day offers a
-variety of payment plans" and that all plans assume the tuition deposit and fees have been
-paid). These are recorded as confirmed absences, not as unresearched gaps.
+**Not published:** the total aid budget in dollars, the average award, the number of
+families receiving aid, sibling discounts, withdrawal and late-payment terms, and a deposit
+for new families. The 2026-27 schedule publishes the payment plans (A, B and C), the
+re-enrollment deposit and the Tuition Refund Program charge.
 
 ### Aid share
 
@@ -111,6 +111,7 @@ publication; they are carried with that caveat and flagged for verification wher
 | --- | --: |
 | Round Trip | $2,500 |
 | One Way | $1,630 |
+| PM Shuttle (August 15 to November 15) | $600 |
 | Per Trip Fee | $18 |
 
 ## Named scholarships
@@ -124,3 +125,46 @@ publication; they are carried with that caveat and flagged for verification wher
 The W. Duke Kimbrell Scholarship is the school's **highest honor** and is full-tuition —
 notable because a 100%-of-tuition merit award is uncommon.
 
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22 (curl, HTTP 200).
+
+- https://www.gastonday.org/cost-and-financial-aid/ now prints a per-grade "26-27 Cost and Financial Aid" table:
+  "Preschool (3's) and Pre-K (4's): Half-Day $9,145 N/A N/A", "Full Day $11,340 N/A N/A",
+  "Kindergarten - Fourth $20,300", "Fifth-Eighth $22,300", "Ninth - Twelfth $23,310", and
+  "* 2026-2027 tuition is listed above. The 2027-2028 tuition will be set in January 2027."
+- Same page: "the school has implemented an Indexed Tuition plan whereby a range of tuitions is charged based on
+  demonstrated family need"; "The calculation for a family's demonstrated need will include the Opportunity amount
+  awarded"; "Cost of Attendance at GDS – Opportunity Award = Possible Remaining Financial Need"; "It is possible to
+  receive both GDS financial aid and the Opportunity Scholarship."
+- It links https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf (read with pdftotext):
+  - Tuition / fees / total: half day $8,200 / $945 / $9,145; full day $10,300 / $1,040 / $11,340;
+    K-4 $18,400 / $1,900 / $20,300; 5-8 $20,150 / $2,150 / $22,300; 9-12 $21,025 / $2,285 / $23,310.
+  - "*Fees include security, technology, and text books."
+  - Re-enrollment deposits by / after Feb 13, 2026: K-12 $1,150 / $1,250; Preschool and Pre-K $800 / $900.
+  - "PLAN A: Single Payment - Due July 1, 2026": $19,150 / $21,150 / $22,160 (K-4 / 5-8 / 9-12).
+  - "PLAN B: Two Payment - (Tuition Refund Program [TRP] & Surcharge is required with this plan)": TRP and surcharge
+    each $479 / $529 / $554; payments July 1 and December 1 of $10,054 / $11,104 / $11,634.
+  - "PLAN C: Nine Payment", May 1, 2026 to January 1, 2027: $2,234 / $2,468 / $2,585 a month.
+  - "A 4% processing fee will be added to all credit and debit card payments"; "A $100 return deposit fee".
+  - Bus: round trip $2,500, one way $1,630, "PM Shuttle (August 15th through November 15th) $ 600", per trip $18.
+  - "Music Lessons (per 30 minute lesson) $35"; "Extended Day Drop-In Fee $25".
+  - Preschool sheet: "Full day programs include Extended Day until 3:00"; half day drop-in "$25 per day/$120 per week".
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+Opened 2026-11-22 (curl, HTTP 200; pdftotext, and the rendered first-grade page read as an image).
+
+- https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf: every figure in the self-scan
+  note above matches. Preschool plans: Plan A $8,345 / $10,540 (half / full day); Plan B TRP and surcharge each
+  $209 / $264, two payments of $4,382 / $5,534; Plan C $974 / $1,230 a month. "STUDENT SERVICES PROGRAM &
+  LEARNING ACADEMY: See Kristen Allen for details and fees".
+- https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf: still live, and matches
+  the prior-year table above. The increases are 4.2% / 4.1% / 4.1% / 4.1% / 4.1%, shown as +4%.
+- https://www.gastonday.org/wp-content/uploads/2024/06/2425-tuition-fees-ALL.pdf: still live, so three years of
+  schedules are posted. 2024-2025 totals: half day $8,360; full day $10,365; Kindergarten $18,255;
+  First - Fourth $18,565; Fifth - Eighth $20,400; Ninth - Twelfth $21,325.
+- Derived runs at 2026-27 rates: PK-12 $295,280; grades 5-12 $182,440; grades 9-12 $93,240.

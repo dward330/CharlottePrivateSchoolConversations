@@ -1,5 +1,5 @@
 # Covenant Day School — Financial Aid & Tuition
-> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-09-16.
+> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Deep Dive Report, Tuition History
 
 
@@ -100,6 +100,14 @@ Standard force-majeure clause (tuition obligations survive closure);
 30-days-past-due accounts can suspend re-enrollment, report cards, transcripts,
 and class access.
 
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.covenantday.org/admissions/tuition-financial-aid (fetched 2026-11-22). The page links "Tuition Payment Terms and Conditions" (file `2026-2027TuitionPaymentTermsandConditions.pdf`) and "Financial Aid Information Packet 2026-2027".
+- https://resources.finalsite.net/images/v1768486957/covenant/gmuysnpyrcfzpsnlxnnc/2026-2027TuitionPaymentTermsandConditions.pdf (fetched). Tuition $15,490 / $17,790 / $20,490 / $22,790. "Annual Payment – Families may choose to pay the entire balance of tuition owed by May 1, 2026." "Families who submit a completed financial aid application prior to enrollment may contact the Business Office to reduce their non-refundable, non-transferable enrollment deposit by half."
+- https://resources.finalsite.net/images/v1768487046/covenant/i3e3yxqehr2pidswgeyq/FinancialAidatCovenantDay-2026-27.pdf (fetched). "The charge for the application is $45.00". New students: "by February 10, 2026, will receive a decision at the time they receive their offer letter from Admissions". Current students: contact "no later than February 10, 2026, to ensure that a reduced enrollment deposit requirement can be applied prior to the February 17 re-enrollment deadline"; "must submit all required tax documents by March 10, 2026".
+
 
 ---
 
@@ -146,6 +154,8 @@ payment-terms PDF understands the two live years; no app figure mixes years.
 
 - https://projects.propublica.org/nonprofits/organizations/561656570
 - https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf
+- https://resources.finalsite.net/images/v1768486957/covenant/gmuysnpyrcfzpsnlxnnc/2026-2027TuitionPaymentTermsandConditions.pdf
+- https://resources.finalsite.net/images/v1768487046/covenant/i3e3yxqehr2pidswgeyq/FinancialAidatCovenantDay-2026-27.pdf
 - https://www.covenantday.org/admissions/tuition-financial-aid
 - https://www.privateschoolreview.com/covenant-day-school-profile
 - https://www.schooltuitions.org/school/matthews-nc-covenant_day_school

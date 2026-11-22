@@ -9,8 +9,8 @@
 // The headline correction: Cannon DOES compete in the Blumeys. Being in Concord
 // (Cabarrus County) does not exclude it — the footprint is regional, the
 // school's own Backstage page says the winter show competes, and Blumenthal's
-// primary PDFs confirm ten finalist placements across 2023 and 2025 plus 2026
-// participation. So this card keeps the Blumey title and carries a real ledger.
+// primary lists confirm fifteen finalist placements across 2023, 2025 and 2026.
+// So this card keeps the Blumey title and carries a real ledger.
 // Every located line sits under a "Finalists for…" heading, so the ledger says
 // nominations/finalists and never "wins."
 //
@@ -129,7 +129,7 @@ export const cannon: ArtsProgram = {
 
   theatre: {
     headline:
-      'Ten Blumey finalist placements across 2023 and 2025, from a four-part season that runs NCTC festival play → Blumey musical → Arts Jam → Cabaret.',
+      'Fifteen Blumey finalist placements across 2023, 2025 and 2026, from a four-part season that runs NCTC festival play → Blumey musical → Arts Jam → Cabaret.',
     subhead:
       'Concord’s location does not exclude Cannon — the Blumey footprint is regional, and the school competes every winter.',
     seasonTitle: 'The season rhythm — a four-part year',
@@ -163,7 +163,7 @@ export const cannon: ArtsProgram = {
         year: '2026',
         show: 'Mean Girls School Edition',
         result:
-          'Participating school, performing Feb 11–14. Nominees and winners for the 2026 cycle were not published at time of research.',
+          'Five finalist placements: Best Actor (as Damian Hubbard) · Best Actress (as Cady Heron) · Best Supporting Actor (as Aaron Samuels) · Best Supporting Actress (as Janis Sarkisian) · Best Featured Performer (as Mrs. Norbury). None was a top-six nominee.',
       },
       {
         year: '2025',
@@ -185,7 +185,7 @@ export const cannon: ArtsProgram = {
       },
     ],
     honestContext:
-      'Two things a parent should keep in mind together. The record is real and consistent: a full sweep of all five performance categories in both 2023 and 2025. But every line found sits under a "Finalists for…" heading, and no Cannon winner line was found in any year checked. Treat this as ten finalist placements, not ten awards. NCTC is built into the program, and Cannon takes part every year. But no year-by-year regional placement, state advancement or named award could be found, so no NCTC ledger is shown. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions. Select plays advance from regionals to state. The director’s own view is notably not about trophies. He says the judges’ feedback and seeing other schools’ work is what makes the festival special. Blumey involvement appears to go back to at least 2019, but that page can no longer be read.',
+      'Two things a parent should keep in mind together. The record is real: five finalist placements in each of 2023, 2025 and 2026. But every line found sits under a "Finalists for…" heading, and no Cannon winner line was found in any year checked. Treat this as fifteen finalist placements, not fifteen awards. NCTC is built into the program, and Cannon takes part every year. But no year-by-year regional placement, state advancement or named award could be found, so no NCTC ledger is shown. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions. Select plays advance from regionals to state. The director’s own view is notably not about trophies. He says the judges’ feedback and seeing other schools’ work is what makes the festival special. Blumey involvement appears to go back to at least 2019, but that page can no longer be read.',
     photo: {
       src: '/arts/cannon-ctc-production.png',
       name: 'Cannon Theater Company',
@@ -200,6 +200,8 @@ export const cannon: ArtsProgram = {
         label: 'Blumenthal Arts — 2025 all nominees & finalists (PDF)',
         url: 'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf',
       },
+      { label: 'Blumenthal Arts — 2026 nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
+      { label: 'Blumenthal Arts — 2026 final nominees', url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees' },
       {
         label: 'Blumenthal Arts — 2023 nominees & finalists (PDF)',
         url: 'https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf',
@@ -351,7 +353,7 @@ export const cannon: ArtsProgram = {
       },
       {
         label: 'Theatre has hard third-party validation',
-        text: 'ten Blumey finalist placements across 2023 and 2025 — a full sweep of all five performance categories in both years — plus an every-year NCTC festival commitment.',
+        text: 'fifteen Blumey finalist placements, five in each of 2023, 2025 and 2026, plus an every-year NCTC festival commitment.',
       },
       {
         label: 'Choice-based art is teacher-originated and 15 years deep',
@@ -372,7 +374,7 @@ export const cannon: ArtsProgram = {
     ],
     ask: [
       'Media Arts is promoted on your website and named as an AP Studio Art prerequisite, but it has no entry in the course catalog. Is it currently offered, and which courses actually satisfy AP entry?',
-      'Ten Blumey finalist placements in 2023 and 2025 but no win I could find — how many Blumey wins has the program had, and in which years?',
+      'Fifteen Blumey finalist placements in 2023, 2025 and 2026 but no win I could find — how many Blumey wins has the program had, and in which years?',
       'What are your NCTC results year by year? Participation is clearly annual, but no regional placement, state advancement or named award is published anywhere.',
       'Do music students audition for All-State, All-District or NCAIS honors ensembles, and how do they do? No selections or adjudicated ratings could be found — is that a gap in publishing or in the program?',
       'Who is the technical director for theatre? And how much of the lighting and control-room work do students genuinely run themselves?',

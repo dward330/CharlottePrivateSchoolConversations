@@ -132,7 +132,7 @@ export const providenceDay: ArtsProgram = {
         year: '2026',
         show: 'Sweet Charity',
         result:
-          'No wins. Six finalist placements, all in acting or design: Best Actress · Best Actor · Best Supporting Actress · Best Supporting Actor · Best Featured Performer · Best Student Set Designer.',
+          'No wins. Five finalist placements: Best Actress · Best Actor · Best Supporting Actress · Best Supporting Actor · Best Featured Performer. Two top-six nominations: Best Supporting Actress and Best Student Set Designer.',
       },
       {
         year: '2025',
@@ -191,10 +191,12 @@ export const providenceDay: ArtsProgram = {
       },
     ],
     honestContext:
-      'The school’s awards page claims "26 BLUMEY Awards," but that figure counts nominations and finalist placements together with wins. Cross-checked against Blumenthal’s published winner lists, exactly one outright win is verifiable: Best Supporting Actor, 2022. PD competes consistently and reliably produces individual acting finalists, but it is not a Blumey powerhouse. In 2025 and 2026 it placed 5–6 finalists each year, won none, and appeared in no production-level category. Northwest School of the Arts took three wins in 2026 alone. PD’s best years were 2016–2022. Where the program does win is NCTC: Superior ratings in 2014, 2019 and 2022 · Overall Regional Site Winner (Adjudicators’ Choice) for The Yellow Boat · Regional Site Winner (Audience Choice) for Radium Girls, which advanced to the State Festival and took state-level Lighting and Set Design honors · Excellence in Directing in both 2023 and 2024.',
+      'The school’s awards page claims "26 BLUMEY Awards," but that figure counts nominations and finalist placements together with wins. Cross-checked against Blumenthal’s published winner lists, exactly one outright win is verifiable: Best Supporting Actor, 2022. PD competes consistently, but it is not a Blumey powerhouse. In 2025 and 2026 it placed five finalists each year, won none, and appeared in no production-level category. Northwest School of the Arts took three wins in 2026 alone. PD’s best years were 2016–2022. Where the program does win is NCTC: Superior ratings in 2014, 2019 and 2022 · Overall Regional Site Winner (Adjudicators’ Choice) for The Yellow Boat · Regional Site Winner (Audience Choice) for Radium Girls, which advanced to the State Festival and took state-level Lighting and Set Design honors · Excellence in Directing in both 2023 and 2024.',
     sources: [
       { label: 'providenceday.org — Past Performances & Awards', url: PD_AWARDS },
       { label: 'Upper School Arts', url: PD_US },
+      { label: 'Blumenthal Arts — 2026 nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
+      { label: 'Blumenthal Arts — 2026 final nominees', url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees' },
       {
         label: 'Blumenthal Arts — 2026 Blumey winners',
         url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-2026-blumey-award-winners',
@@ -241,7 +243,7 @@ export const providenceDay: ArtsProgram = {
       },
       {
         label: 'Audition up',
-        text: 'Jazz Ensemble requires an audition. A Cappella and the ChargHers hold their own (ChargHers auditions are a discrete calendar fixture). Ensembles perform at adjudicated festivals — the school reports 50+ superior ratings, cumulative and undated.',
+        text: 'Jazz Ensemble requires an audition. A Cappella and the ChargHers hold their own auditions (ChargHers auditions are a discrete calendar fixture). Ensembles perform at adjudicated festivals — the school reports 50+ superior ratings, cumulative and undated.',
       },
       {
         label: 'Get selected beyond campus',
@@ -350,11 +352,11 @@ export const providenceDay: ArtsProgram = {
     ask: [
       '3D Design includes ceramics — is there a kiln on campus for that work?',
       'Of the "26 Blumey Awards" on your awards page, how many were outright wins versus nominations or finalist placements?',
-      'In 2025 and 2026 you had five and six Blumey finalists and no wins, and no production-level nominations. What is the plan to convert — do you staff a choreographer and a pit orchestra for the spring musical?',
+      'In 2025 and 2026 you had five Blumey finalists each year and no wins, and no production-level nominations. What is the plan to convert — do you staff a choreographer and a pit orchestra for the spring musical?',
       'How many students made honors ensembles last year, out of how many who auditioned? The "100+ musicians" and "50+ superior ratings" figures carry no time window.',
       'Can a student do a sport and the spring musical? The fall one-act, NCTC festivals, December auditions and April performances make for a dense calendar at a strong athletics school.',
-      'What happens to the student who does not make ChargHers — is there a non-auditioned choral home for them through senior year?',
-      'Who directs the spring musical now? Caroline Bower led the 2015–2017 award-winning run and is no longer on the roster.',
+      'Can a student who does not make ChargHers stay in the non-auditioned Chorus for all four years?',
+      'Who directs the spring musical now? Caroline Bower led the 2015–2017 run of Blumey placements and is no longer on the roster.',
     ],
     sources: [
       { label: 'providenceday.org — Arts pages', url: PD_ARTS },

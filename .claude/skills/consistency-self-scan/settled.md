@@ -150,6 +150,40 @@ Each entry's **Still a finding** line names what remains reportable even while i
 
 ---
 
+### S8 — Notre Dame counts as Power 4 in every sport (was CC-T16)
+
+- **Covers:** a pattern. Every College Pipeline roster row, funnel and Compare `p4-commits-2426`
+  cell.
+- **Do not report:** that Notre Dame football is an FBS independent and is still counted Power 4,
+  or that its conference column reads "FBS Ind." beside a P4 level.
+- **Why:** the user's rule. The conference column states the fact and the level states the rule.
+- **Ruled:** by the user, 2026-11-22 (plan `consistency4`): "Include notre dame as power 4".
+- **Still a finding:** a Notre Dame row at any level other than P4, or a card that holds one and
+  defines Power 4 without naming Notre Dame.
+
+---
+
+### S9 — Charlotte Country Day's SAT and ACT class label stays (was CCD-T11)
+
+- **Covers:** these values. The SAT and ACT percentile hints and Compare subs labeled "Class of
+  2027", beside the notes saying the profile does not name the class.
+- **Do not report:** the label against those notes.
+- **Why:** plan `ccdprofile` D11 chose the label, and the notes carry the caveat.
+- **Ruled:** by the user, 2026-11-22 (plan `consistency4`): keep it.
+- **Still a finding:** the profile naming a different class, the figures changing under the label,
+  or the caveat disappearing.
+
+---
+
+### S10 — Gaston Day's iGEM team is not listed (plan consistency4)
+
+- **Covers (these values):** Gaston Day shows 9 organizations (Compare `≥9`) and no iGEM club or
+  award, while its 2023-24 Academic Profile names past iGEM teams and awards.
+- **Do not report:** iGEM as a missing club or award, or 9 against a profile that also names iGEM.
+- **Why:** the user, 2026-11-22: "If there is no proof it is still active, drop the club". The
+  profile says "previously competed", and the newest team page found is from 2021.
+- **Still a finding:** the school publishing a current iGEM team, or any card still showing 10.
+
 ## Rule candidates already turned down
 
 Step 5 must not re-propose these as new `check:consistency` rules.
@@ -182,7 +216,7 @@ The parent appends newly verified "not a conflict" groups here through the round
 | Charlotte Country Day | teams | 72 / 55 | School's count vs chips; footnote names both bases |
 | Charlotte Country Day | institutions | 1 / 150 | A merit detail vs reps hosted |
 | Charlotte Country Day | seniors | 27 / 32 / 141 | Ratio, UNC admits, Class of 2026 |
-| Charlotte Country Day | students | 12 / 15 / 10 / 20 / 17 / 1 | Trip groups, MUNCH 2026/2025, 1:1 support |
+| Charlotte Country Day | students | 12 / 15 / 10 / 20 / 17 / 1 / 341 / 347 | Trip groups, MUNCH 2026/2025, 1:1 support, and the two attributed aid counts |
 | Providence Day | teams | 66 / 56 | Footnote explains the basis |
 | Providence Day | institutions | 13 / 8 / 150 / 383 / 249 | Different facts |
 | Providence Day | seniors | 36 / 1 / 179 | 179 ÷ 5 = 35.8; "1" parses "~36:1" |
@@ -190,21 +224,24 @@ The parent appends newly verified "not a conflict" groups here through the round
 | Charlotte Latin | camps | 232 / 169 | Offerings vs distinct titles, both labelled (totals are S2) |
 | Charlotte Latin | seniors | 1 / 151 / 38 | "1" parses "~38:1"; 151 ÷ 4 = 38 |
 | Charlotte Latin | students | 12 / 1500 / 20 / 22 / 5 | Trip caps, a 2025 group, arts "1,500+", a course description |
+| Charlotte Latin | ensembles | 12 / 3 | "12" is parsed from "Grades 5–12 ensembles" |
 | Charlotte Latin | AP | 24 / 23 | Attributed split (LAT-1b); the Compare qual names both |
 | Charlotte Catholic | AP | 22 / 2 | Subjects examined vs junior-year load |
-| Charlotte Catholic | seniors | 336 / 56 | Seniors vs seniors per counselor |
+| Charlotte Catholic | seniors | 336 / 56 / 67 | Seniors, per counselor of six, and per counselor of the five assigned by last name |
 | Charlotte Catholic | students | 1330 / 9 / 10 / 11 / 12 | Enrollment vs grade numbers |
 | Charlotte Catholic | clubs | 76 / 15 / 23 | Category subtotals of 76 |
 | Charlotte Christian | teams | 50 / 44 | School's "50+", footnoted against 44 chips |
 | Charlotte Christian | AP | 22 / 21 | Attributed guide-list vs titles split (CC-5) |
-| Covenant Day | camps | 29 / 20 | Marketed 29 vs 20 enumerable camps, attributed |
+| Covenant Day | camps | 29 / 19 | Marketed 29 vs 19 enumerable camps, attributed |
 | Covenant Day | seniors | 1 / 85 | One dedicated counselor |
 | Covenant Day | ensembles | 1 / 9 | "1" parses "sequential from grade 1" |
+| Davidson Day | teams | 35 / 33 | School's count vs chips; the footnote names the basis |
 | Davidson Day | students | 565 / 13 / 10 / 18 / 500 / 4 / 1 | Enrollment, a dig, presenters, a session cap, program-wide, a group size, "1 course" |
 | Davidson Day | institutions | 2 / 70 / 278 | Counselor tile (mis-parsed), a fair, the list |
 | Gaston Day | teams | 19 / 7 / 5 / 20 | Headers 7 + 5 + 7 = 19; chips add volleyball JV |
 | Gaston Day | camps | 1 / 27 | "2-4-1 Camp" parsed as "1 camp" |
 | Gaston Day | institutions | 2 / 231 | A mis-parsed tile |
+| Gaston Day | seniors | 1 / 35 / 18 | 18 is the computed caseload, 35 ÷ 2; "1" parses "~18:1" |
 | Gaston Day | students | 11 / 510 | "grade-11 students" parsed as 11 |
 | Gaston Day | ensembles | 2 / 3 | "drama from grade 2" parsed as 2 |
 | Hickory Grove | teams | 30 / 28 / 27 | Attributed: athletics page, Wikipedia, coached-level chips |

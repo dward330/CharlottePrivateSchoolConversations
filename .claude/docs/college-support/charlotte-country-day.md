@@ -622,7 +622,7 @@ The 2025-26 Profile publishes an explicit three-column "MOST RIGOROUS COURSES BY
 
 - **Post-AP math:** Calculus III (dual-listed with IB Analysis HL) is the top of the math sequence. AP Calculus BC feeds it. There is also a post-AP *statistics* path (Advanced AP Statistics with R and R Studio) — unusual, and a real signal for quant-leaning applicants.
 - **Post-AP science:** Organic Chemistry is a semester elective; the 2015-16 profile states it is "for students who have completed AP or IB Chemistry." Physical Computational Biochemistry is the newer addition (present 2025-26).
-- **Computer science:** AP Computer Science A is offered, sitting in the Mathematics row. **There is no post-AP CS course listed** (no Data Structures, no AP CS Principles listed either). This is a genuine gap relative to the math/science depth. `NOT PUBLISHED` / appears absent.
+- **Computer science:** AP Computer Science A is offered, sitting in the Mathematics row. **There is no post-AP CS course listed** (no Data Structures, no AP CS Principles listed either). The 2025–26 course guide does have Advanced Topics in Computer Science after AP Computer Science (corrected 2026-11-22, plan consistency4).
 - **World language:** The ceiling is AP or IB HL (AP French / IB French HL; AP Spanish / IB Spanish HL; AP Latin / IB Latin; IB Chinese). Honors Chinese runs I–V. **No post-AP language seminar is listed.** Note the 2015-16 profile listed **German** (Honors German II/III/IV, Advanced German Study) — German no longer appears in the 2024-25 or 2025-26 profiles, so the language roster has *contracted* to Chinese, French, Spanish, Latin.
 
 ### Beyond-campus academic options
@@ -1177,8 +1177,7 @@ Agnes Scott College · Appalachian State University · Auburn University · Bate
 | University of North Carolina (Greensboro) | | |
 | University of North Carolina (Pembroke) | | |
 | University of North Carolina (Wilmington) | | |
-| University of North Carolina School of the Arts | | Conservatory |
-| **University of Notre Dame** | Yes 
+| University of North Carolina School of the Arts | | Cons
 
 …[truncated]
 
@@ -1927,6 +1926,16 @@ Fetched 2026-11-20: https://www.charlottecountryday.org/cd-education/college-cou
  of 2027 (current seniors, 2026–27 profile GPA table, "137 Seniors Total"). They are different
  classes, not a conflict.
 
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1790254021/charlottecds/qo26oegmsg1nwpis3l9b/CCDSCollegeProfile2026-FNA.pdf (HTTP 200): "Charlotte Country Day was the first school in North Carolina to offer the International Baccalaureate Diploma Program." The table lists "AP Computer Science Principles", "AP Physics 1, AP Physics C", "AP US/Comparative Government & Politics", "H Concert Choir" and no post-AP computer science course. "Middle 50% SAT 1170-1400", "Middle 50% ACT 26-31", with no class named.
+- https://www.charlottecountryday.org/cd-education/college-counseling/class-of-2026 (HTTP 200): "$14.7 million+", "More than $14.8 million in scholarship offers awarded to date", "Students will attend 70 colleges and universities in 23 states".
+- https://www.charlottecountryday.org/cd-experience/beyond-the-classroom (HTTP 200): "100+ employers in 20 different industries" and "more than 175 local employers across 20+ industries". The "136 seniors" figure is not on the page today.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- https://www.charlottecountryday.org/about/history/news-details-page-history/~board/general-timeline-board/post/first-ib-school-in-nc (HTTP 200): "the first private school in North Carolina to offer the International Baccalaureate (IB) Diploma Program". The timeline's own summary on https://www.charlottecountryday.org/about/history says "the first NC school".
+
 
 ---
 
@@ -2139,6 +2148,8 @@ scrape was smoke-tested first against the method file's reference table (Cannon 
 - https://resources.finalsite.net/images/v1779992327/charlottecds/qit66txtuedke1lr4hcx/CollegeAcceptances2023-2026.pdf
 - https://resources.finalsite.net/images/v1790254021/charlottecds/qo26oegmsg1nwpis3l9b/CCDSCollegeProfile2026-FNA.pdf
 - https://resources.finalsite.net/images/v1790254071/charlottecds/c7flxnbdkjh5gueobvj5/CCDSCollegeMatriculation2026-FNA.pdf
+- https://www.charlottecountryday.org/about/history
+- https://www.charlottecountryday.org/about/history/news-details-page-history/~board/general-timeline-board/post/first-ib-school-in-nc
 - https://www.charlottecountryday.org/bucsnet/post-details/~board/the-seedling/post/the-new-upper-school-profile-a-story-in-two-pages
 - https://www.charlottecountryday.org/bucsnet/upper-school/college-counseling
 - https://www.charlottecountryday.org/cd-education/college-counseling
@@ -2150,6 +2161,7 @@ scrape was smoke-tested first against the method file's reference table (Cannon 
 - https://www.charlottecountryday.org/cd-education/upper-school/international-baccalaureate
 - https://www.charlottecountryday.org/cd-education/upper-school/us-curriculum
 - https://www.charlottecountryday.org/cd-education/upper-school/us-curriculum/off-campus
+- https://www.charlottecountryday.org/cd-experience/beyond-the-classroom
 - https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/academic-recognitions
 - https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/allison-slater-tate-appointed-director-of-college-counseling
 - https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/celebrating-academic-honors

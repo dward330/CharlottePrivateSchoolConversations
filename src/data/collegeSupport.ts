@@ -207,6 +207,11 @@ export type Transcript = {
    * label stays chrome in every catalog (plan consistency3, GD-S2).
    */
   meritCollegeAwards?: boolean
+  /**
+   * Set when the ledger rows are AP pass rates: the column header then reads
+   * "AP results" (`cardLabels.apResults`; plan consistency4, COV-T14).
+   */
+  meritApResults?: boolean
   /** A note beneath the ledger — usually a counting-window discrepancy. */
   meritNote?: string
   /** Heading over the post-AP depth list. */

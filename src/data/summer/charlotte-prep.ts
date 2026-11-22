@@ -32,7 +32,7 @@ const K_8 = ['k', '1', '2', '3', '4', '5', '6', '7', '8']
 export const charlottePrep: SummerProgram = {
   catalog: {
     headline:
-      'Summer 2026 ran seven weeks, June 8 to July 31, for campers from the Early School through 8th grade — a traditional day camp plus a specialty or sports camp almost every week.',
+      'Summer 2026 ran seven weeks, June 8 to July 31, for campers from the Early School through 8th grade. Every week had a traditional day camp, a specialty camp and a sports camp.',
     subhead:
       'Full days ran 9:00 a.m.–4:00 p.m., half days 9:00 a.m.–12:00 p.m. or 1:00–4:00 p.m. Camp was closed June 19 and the whole week of June 29–July 3, so June 15–18 was the one four-day week. Lunch was included for full-day campers.',
     categoryFilters: [

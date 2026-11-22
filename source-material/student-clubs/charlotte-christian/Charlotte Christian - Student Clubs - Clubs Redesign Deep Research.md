@@ -183,7 +183,7 @@ as such rather than counted in any club roster:
 
 - **Winterim trips** — a graduation requirement and travel program.
 - **Kingdom Impact Day** — a division-wide service day.
-- **Multicultural Festival** — an annual all-school event (organized by Global Knights).
+- **Multicultural Festival** — an annual event tied to Lower School Spanish (organized by Global Knights).
 - **Cross-Cultural Communications service** — a class doing service; explicitly curricular.
 - **Vocational Shadowing / Alternative Winterim Experience** — individually arranged and
   family-brokered; explicitly individual.
@@ -300,3 +300,8 @@ School page.
 ### Re-verification 2026-11-20 (plan `consistency`, re-scan)
 
 - https://www.charlottechristian.com/post-details/~board/knights-headlines/post/knights-nations-club-fosters-a-friendly-and-welcoming-environment-for-upper-school-students (fetched 2026-11-20). Title: "KNIGHTS NATIONS CLUB FOSTERS A FRIENDLY AND WELCOMING ENVIRONMENT FOR UPPER SCHOOL STUDENTS". No date is shown. Quotes: "Two years ago, upper school students [name withheld] and [name withheld] founded the Knights Nations Club"; "[name withheld] will lead the club next year". The article is undated, so whether the club is active in 2026–27 cannot be read from it. It is named on the Global & Cultural Groups card and in Global Exposure, but it is not in the 23-organization Upper School catalog.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.charlottechristian.com/about/diversity (fetched 2026-11-22): "the Butterfly Memorial dedicated to the Holocaust Museum (grade 7)".
+- https://www.charlottechristian.com/academics/curriculum (fetched), Lower School Spanish: "Students enhance their multicultural awareness through the celebration of the annual Multicultural Festival." The page does not call it an all-school event.

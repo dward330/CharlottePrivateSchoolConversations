@@ -188,7 +188,6 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel",
         "gaston-day:catalog.categoryFilters[3].label",
         "gaston-day:catalog.camps[3].categoryLabel",
         "gaston-day:catalog.camps[8].categoryLabel",
@@ -328,7 +327,6 @@
         "providence-day:catalog.camps[23].dayLabel",
         "providence-day:catalog.camps[24].dayLabel",
         "providence-day:catalog.camps[25].dayLabel",
-        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[28].dayLabel",
         "providence-day:catalog.camps[29].dayLabel",
         "providence-day:catalog.camps[31].dayLabel",
@@ -341,7 +339,6 @@
         "providence-day:catalog.camps[38].dayLabel",
         "providence-day:catalog.camps[39].dayLabel",
         "providence-day:catalog.camps[40].dayLabel",
-        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[42].dayLabel",
         "providence-day:catalog.camps[43].dayLabel",
         "providence-day:catalog.camps[44].dayLabel",
@@ -363,7 +360,6 @@
         "providence-day:catalog.camps[61].dayLabel",
         "providence-day:catalog.camps[62].dayLabel",
         "providence-day:catalog.camps[63].dayLabel",
-        "providence-day:catalog.camps[64].dayLabel",
         "providence-day:catalog.camps[65].dayLabel",
         "providence-day:catalog.camps[66].dayLabel",
         "providence-day:catalog.camps[67].dayLabel",
@@ -524,7 +520,6 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel",
         "gaston-day:catalog.camps[0].dayLabel",
         "gaston-day:catalog.camps[1].dayLabel",
         "gaston-day:catalog.camps[2].dayLabel",
@@ -707,8 +702,10 @@
       "at": [
         "providence-day:catalog.camps[3].dayLabel",
         "providence-day:catalog.camps[14].dayLabel",
+        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[27].dayLabel",
         "providence-day:catalog.camps[30].dayLabel",
+        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[49].dayLabel"
       ]
     },
@@ -1733,8 +1730,15 @@
       ]
     },
     {
-      "t": "সেশন S4, S6, S7, S8, S9",
-      "of": "0d40c04e",
+      "t": "4 বা 5 দিন",
+      "of": "4031e882",
+      "at": [
+        "providence-day:catalog.camps[64].dayLabel"
+      ]
+    },
+    {
+      "t": "সেশন S3, S4, S5, S6, S7, S8, S9",
+      "of": "71bb785c",
       "at": [
         "providence-day:catalog.camps[64].weeks"
       ]
@@ -3012,8 +3016,8 @@
       ]
     },
     {
-      "t": "সারাদিনের একটি কলা-প্রিমিয়াম ক্যাম্প — এই দামের মাত্র দুটি ক্যাম্পের একটি।",
-      "of": "d2a6f6ff",
+      "t": "সারাদিনের একটি কলা-প্রিমিয়াম ক্যাম্প — এই দামের একমাত্র ক্যাম্প।",
+      "of": "d11cb67d",
       "at": [
         "charlotte-latin:catalog.camps[48].desc"
       ]
@@ -3343,8 +3347,8 @@
       ]
     },
     {
-      "t": "26টি ক্যাম্প। একমাত্র এই ধরনটিতে আগাম নিবন্ধনের ছাড় নেই।",
-      "of": "b96cddcc",
+      "t": "26টি ক্যাম্প, আগাম নিবন্ধনের ছাড় নেই।",
+      "of": "41f28575",
       "at": [
         "charlotte-latin:costPlanner.tiers[1].detail"
       ]
@@ -3511,8 +3515,8 @@
       ]
     },
     {
-      "t": "**Super Care প্যাকেজে Before ও After Care একসঙ্গে সপ্তাহে $195.00** — স্কুলের একমাত্র প্রকাশিত ছাড়, ওপরের $70.00 + $150.00 সুবিধা দুটির চেয়ে $25.00 কম। 5:30pm-এর পর দেরিতে নিতে এলে প্রতি 15 মিনিটে $25.00।",
-      "of": "296008fb",
+      "t": "**Super Care প্যাকেজে Before ও After Care একসঙ্গে সপ্তাহে $195.00** — একটি প্যাকেজ যাকে স্কুল ছাড় বলে, ওপরের $70.00 + $150.00 সুবিধা দুটির চেয়ে $25.00 কম। 5:30pm-এর পর দেরিতে নিতে এলে প্রতি 15 মিনিটে $25.00।",
+      "of": "0fae47d6",
       "at": [
         "charlotte-latin:costPlanner.fees[1].label"
       ]
@@ -3988,8 +3992,8 @@
       ]
     },
     {
-      "t": "এখানকার যেকোনো ক্যাম্পের চেয়ে বিস্তৃত গ্রেড-পরিসর — গ্রেড 1 থেকে 11 — আর ছয়টি সপ্তাহের মধ্যে পাঁচটিতেই চলে।",
-      "of": "8434e236",
+      "t": "গ্রেড 1 থেকে 11, ছয়টি সপ্তাহের মধ্যে পাঁচটিতে; চার দিনের সপ্তাহে $160।",
+      "of": "f2f2aa20",
       "at": [
         "charlotte-christian:catalog.camps[4].desc"
       ]
@@ -4246,8 +4250,8 @@
       ]
     },
     {
-      "t": "তালিকার সবচেয়ে সস্তা ক্যাম্প, 4 দিনের সপ্তাহে।",
-      "of": "6890b7f6",
+      "t": "চার দিনের সপ্তাহে $155-এর একটি ক্যাম্প, তালিকার সবচেয়ে কম দাম।",
+      "of": "7ef114ea",
       "at": [
         "charlotte-christian:catalog.camps[15].desc"
       ]
@@ -4299,8 +4303,8 @@
       ]
     },
     {
-      "t": "$155-এর 4 দিনের সপ্তাহের অন্য ক্যাম্পটি।",
-      "of": "e7bd1548",
+      "t": "চার দিনের সপ্তাহে $155-এর আরেকটি ক্যাম্প।",
+      "of": "a2e4938b",
       "at": [
         "charlotte-christian:catalog.camps[16].desc"
       ]
@@ -4321,8 +4325,8 @@
       ]
     },
     {
-      "t": "টাম্বলিং ও চিয়ার, এখানকার যেকোনো ক্রীড়া ক্যাম্পের চেয়ে বিস্তৃত পরিসরজুড়ে।",
-      "of": "62002db4",
+      "t": "JK থেকে গ্রেড 8-এর জন্য টাম্বলিং ও চিয়ার।",
+      "of": "7fc068af",
       "at": [
         "charlotte-christian:catalog.camps[18].desc"
       ]
@@ -4383,8 +4387,8 @@
       ]
     },
     {
-      "t": "সক্রিয় খেলার ক্যাম্প।",
-      "of": "4abf883d",
+      "t": "সক্রিয় খেলার ক্যাম্প; চার দিনের সপ্তাহে $160।",
+      "of": "b75a32e2",
       "at": [
         "charlotte-christian:catalog.camps[22].desc"
       ]
@@ -4501,8 +4505,8 @@
       ]
     },
     {
-      "t": "তালিকার সবচেয়ে বেশিবার চলা ক্যাম্প — ছয়টি সপ্তাহেই আছে।",
-      "of": "fce66e82",
+      "t": "তালিকার সবচেয়ে বেশিবার চলা ক্যাম্প — ছয়টি সপ্তাহেই আছে; চার দিনের সপ্তাহে $155।",
+      "of": "809bf7b3",
       "at": [
         "charlotte-christian:catalog.camps[28].desc"
       ]
@@ -4567,8 +4571,8 @@
       ]
     },
     {
-      "t": "সবচেয়ে ছোট মেকারদের জন্য খুলে ফেলা ও আবার গড়া।",
-      "of": "77d7b6ec",
+      "t": "সবচেয়ে ছোট মেকারদের জন্য খুলে ফেলা ও আবার গড়া; চার দিনের সপ্তাহে $160।",
+      "of": "5849d3f9",
       "at": [
         "charlotte-christian:catalog.camps[33].desc"
       ]
@@ -5354,8 +5358,8 @@
       ]
     },
     {
-      "t": "ছয়টি সপ্তাহ পাওয়া যায়। সপ্তাহ 3 হলো 4 দিনের সপ্তাহ এবং এর দাম কম; নিচের ধরনগুলো 5 দিনের দাম।",
-      "of": "37e889c5",
+      "t": "ছয়টি সপ্তাহ পাওয়া যায়। সপ্তাহ 3 হলো 4 দিনের সপ্তাহ এবং এর দাম কম। প্রথম দুটি ধরন ছাড়া নিচের ধরনগুলো 5 দিনের দাম।",
+      "of": "2bab70f9",
       "at": [
         "charlotte-christian:costPlanner.subhead"
       ]
@@ -7206,8 +7210,8 @@
       ]
     },
     {
-      "t": "আটটি সপ্তাহ পাওয়া যায়। এর দুটি চার দিনের সপ্তাহ: অর্ধদিবসের ক্যাম্পের দাম দুটিতেই $230, আর সারাদিনের ক্যাম্পের দাম কেবল 3 জুলাইয়ের সপ্তাহেই কম। নিচের ধরনগুলো পাঁচ দিনের দাম।",
-      "of": "42573fdb",
+      "t": "আটটি সপ্তাহ পাওয়া যায়। এর দুটি চার দিনের সপ্তাহ: অর্ধদিবসের ক্যাম্পের দাম দুটিতেই $230, আর সারাদিনের ক্যাম্পের দাম কেবল 3 জুলাইয়ের সপ্তাহেই কম। প্রথম ধরনটি ছাড়া নিচের ধরনগুলো পাঁচ দিনের দাম।",
+      "of": "9f864e29",
       "at": [
         "charlotte-country-day:costPlanner.subhead"
       ]
@@ -7381,8 +7385,8 @@
       ]
     },
     {
-      "t": "**অর্ধদিবসের কোনো ক্যাম্পার ক্যাম্পাসে দুপুরের খাবার খেলে খাবারের একটি ব্যবস্থা নিবন্ধন করতেই হবে** — এটি ঐচ্ছিক নয়। ওই দামে খাবার অন্তর্ভুক্ত কি না, তা নিয়ে স্কুলের নিজেরই দুটি পাতা ভিন্ন কথা বলে; নিচের সতর্কতাটি দেখুন।",
-      "of": "2b9b56df",
+      "t": "**অর্ধদিবসের কোনো ক্যাম্পার ক্যাম্পাসে দুপুরের খাবার খেলে খাবারের একটি ব্যবস্থা নিবন্ধন করতেই হবে** — এটি ঐচ্ছিক নয়। গ্রীষ্মকালীন পাতা বলে, ক্যাম্পাররা নিজেদের খাবার নিয়ে আসে। Camp Ready পাতা দুটি কথাই বলে: ডাইনিং হলে দুপুরের খাবার দেওয়া হয়, আবার ক্যাম্পারদের প্যাক করা খাবার আনতেই হবে।",
+      "of": "37c41680",
       "at": [
         "charlotte-country-day:costPlanner.fees[2].label"
       ]
@@ -7402,8 +7406,8 @@
       ]
     },
     {
-      "t": "**সপ্তাহে $30-এর Lunch Care** নিয়ে দুটি সরকারি পাতা ভিন্ন কথা বলে: গ্রীষ্মকালীন পাতা বলে এটি কেবল তত্ত্বাবধান, ক্যাম্পাররা নিজেদের খাবার নিয়ে আসে; আর Camp Ready পাতা বলে সেই একই ভর্তি হওয়া ক্যাম্পারদের ডাইনিং হলে দুপুরের খাবার দেওয়া হয়। যেকোনো একটি ধরে নেওয়ার আগে একটি ফোন করে নেওয়া ভালো।",
-      "of": "d637cfff",
+      "t": "**সপ্তাহে $30-এর Lunch Care** নিয়ে দুটি সরকারি পাতা ভিন্ন কথা বলে: গ্রীষ্মকালীন পাতা বলে এটি কেবল তত্ত্বাবধান, ক্যাম্পাররা নিজেদের খাবার নিয়ে আসে; আর Camp Ready পাতা বলে সেই একই ভর্তি হওয়া ক্যাম্পারদের ডাইনিং হলে দুপুরের খাবার দেওয়া হয়। Camp Ready পাতার নিজের কথাতেও মিল নেই: এর Lunch Care অংশে বলা, ক্যাম্পারদের নিজেদের প্যাক করা খাবার আনতেই হবে (আবার পড়া হয়েছে 2026-11-22)। যেকোনো একটি ধরে নেওয়ার আগে একটি ফোন করে নেওয়া ভালো।",
+      "of": "4a2c4b34",
       "at": [
         "charlotte-country-day:costPlanner.flags[0].text"
       ]
@@ -7475,8 +7479,8 @@
         "cannon:catalog.camps[54].categoryLabel",
         "cannon:catalog.camps[55].categoryLabel",
         "covenant-day:catalog.categoryFilters[4].label",
-        "covenant-day:catalog.camps[18].categoryLabel",
-        "covenant-day:catalog.camps[19].categoryLabel"
+        "covenant-day:catalog.camps[17].categoryLabel",
+        "covenant-day:catalog.camps[18].categoryLabel"
       ]
     },
     {
@@ -7973,8 +7977,8 @@
       ]
     },
     {
-      "t": "উত্তীর্ণ JK ও K",
-      "of": "1791a585",
+      "t": "উত্তীর্ণ JK ও K / উত্তীর্ণ 1st–4th",
+      "of": "088d863d",
       "at": [
         "cannon:catalog.camps[16].gradeLabel"
       ]
@@ -8884,8 +8888,8 @@
       ]
     },
     {
-      "t": "**50% অগ্রিম জমা** দিলে আসন নিশ্চিত হয়, বাকিটা দিতে হয় 15 মে 2026-এর মধ্যে — এই পাঁচটি কর্মসূচির মধ্যে একমাত্র এখানেই অগ্রিম জমার ব্যবস্থা আছে। 15 মে-এর আগে অগ্রিম জমা পুরোটাই ফেরত পাওয়া যায়; **ওই তারিখে বা তার পরে কোনো টাকাই ফেরত দেওয়া হয় না।** স্কুল স্পষ্ট করেই বলে যে \"some popular camps fill very shortly after registration opens.\"",
-      "of": "f19bf601",
+      "t": "**50% অগ্রিম জমা** দিলে আসন নিশ্চিত হয়, বাকিটা দিতে হয় 15 মে 2026-এর মধ্যে। 15 মে-এর আগে অগ্রিম জমা পুরোটাই ফেরত পাওয়া যায়; **ওই তারিখে বা তার পরে কোনো টাকাই ফেরত দেওয়া হয় না।** স্কুল স্পষ্ট করেই বলে যে \"some popular camps fill very shortly after registration opens.\"",
+      "of": "afad2a75",
       "at": [
         "cannon:costPlanner.aside.text"
       ]
@@ -8898,29 +8902,29 @@
       ]
     },
     {
-      "t": "Cannon **ভাইবোনের কোনো ছাড়, একাধিক সপ্তাহের কোনো ছাড় বা ক্যাম্পের জন্য কোনো আর্থিক সহায়তা প্রকাশ করে না**। 2026 সালের বিবরণপত্রে দামের একমাত্র ছাড়টি কাঠামোগত — 4 দিনের সপ্তাহ 2-এর জন্য।",
-      "of": "d8366833",
+      "t": "Cannon **ভাইবোনের কোনো ছাড়, একাধিক সপ্তাহের কোনো ছাড় বা ক্যাম্পের জন্য কোনো আর্থিক সহায়তা প্রকাশ করে না**। 2026 সালের বিবরণপত্রে ক্যাম্পের ফি-তে একমাত্র ছাড়টি 4 দিনের সপ্তাহ 2-এর জন্য। সেবায় $90-এর একটি সম্মিলিত হার আছে।",
+      "of": "70c66cd9",
       "at": [
         "cannon:costPlanner.flags[1].text"
       ]
     },
     {
-      "t": "2026 সালের গ্রীষ্মের জন্য আট সপ্তাহজুড়ে নাম দেওয়া 20টি ক্যাম্প, 1 জুন – 31 জুলাই — মূল ভিত্তি Camp Lion ও Cub Camp, প্রথাগত দিবা ক্যাম্প যারা সেবা বিনামূল্যে সঙ্গে দেয়।",
-      "of": "9dd79355",
+      "t": "2026 সালের গ্রীষ্মের জন্য আট সপ্তাহজুড়ে নাম দেওয়া 19টি ক্যাম্প, 1 জুন – 31 জুলাই — মূল ভিত্তি Camp Lion ও Cub Camp, প্রথাগত দিবা ক্যাম্প যারা সেবা বিনামূল্যে সঙ্গে দেয়।",
+      "of": "f5db8795",
       "at": [
         "covenant-day:catalog.headline"
       ]
     },
     {
-      "t": "নিবন্ধন চলে CampBrain পোর্টালে, 27 ফেব্রুয়ারি পর্যন্ত আগাম-নিবন্ধন ছাড় সহ। স্কুল \"29 camps\" বিপণন করে; পাবলিক পাতায় 20টি গোনা যায়।",
-      "of": "8cc84630",
+      "t": "নিবন্ধন চলে CampBrain পোর্টালে, 27 ফেব্রুয়ারি পর্যন্ত আগাম-নিবন্ধন ছাড় সহ। স্কুল \"29 camps\" বিপণন করে; পাবলিক পাতায় 19টি গোনা যায়।",
+      "of": "81f512f0",
       "at": [
         "covenant-day:catalog.subhead"
       ]
     },
     {
-      "t": "পাবলিকভাবে নাম দেওয়া 20টি ক্যাম্পের সবগুলোই তালিকাভুক্ত। **বর্তমান প্রতি-ক্যাম্প দাম ও সময় পোর্টাল-নির্ভর**। তাই নিচের দামগুলো অনুমান, তৃতীয়-পক্ষের বর্তমান পরিসর ($170–$325/week) ও স্কুলের নিজস্ব 2018 ক্যাটালগ থেকে। Cost Planner-এ সেবা add-on হারগুলো স্কুলের নিজস্ব বর্তমান সংখ্যা।",
-      "of": "07ba6457",
+      "t": "পাবলিকভাবে নাম দেওয়া 19টি ক্যাম্পের সবগুলোই তালিকাভুক্ত। **বর্তমান প্রতি-ক্যাম্প দাম ও সময় পোর্টাল-নির্ভর**। তাই নিচের দামগুলো অনুমান, তৃতীয়-পক্ষের বর্তমান পরিসর ($170–$325/week) ও স্কুলের নিজস্ব 2018 ক্যাটালগ থেকে। Cost Planner-এ সেবা add-on হারগুলো স্কুলের নিজস্ব বর্তমান সংখ্যা।",
+      "of": "219d303b",
       "at": [
         "covenant-day:catalog.intro"
       ]
@@ -8933,7 +8937,7 @@
         "covenant-day:catalog.camps[0].categoryLabel",
         "covenant-day:catalog.camps[1].categoryLabel",
         "covenant-day:catalog.camps[2].categoryLabel",
-        "covenant-day:catalog.camps[13].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -8941,10 +8945,10 @@
       "of": "e043e144",
       "at": [
         "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[13].categoryLabel",
         "covenant-day:catalog.camps[14].categoryLabel",
         "covenant-day:catalog.camps[15].categoryLabel",
-        "covenant-day:catalog.camps[16].categoryLabel",
-        "covenant-day:catalog.camps[17].categoryLabel"
+        "covenant-day:catalog.camps[16].categoryLabel"
       ]
     },
     {
@@ -9030,11 +9034,11 @@
         "covenant-day:catalog.camps[9].hours",
         "covenant-day:catalog.camps[10].hours",
         "covenant-day:catalog.camps[11].hours",
-        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[14].hours",
         "covenant-day:catalog.camps[15].hours",
         "covenant-day:catalog.camps[16].hours",
-        "covenant-day:catalog.camps[17].hours",
-        "covenant-day:catalog.camps[18].hours"
+        "covenant-day:catalog.camps[17].hours"
       ]
     },
     {
@@ -9086,9 +9090,9 @@
         "covenant-day:catalog.camps[5].gradeLabel",
         "covenant-day:catalog.camps[6].gradeLabel",
         "covenant-day:catalog.camps[10].gradeLabel",
-        "covenant-day:catalog.camps[13].gradeLabel",
-        "covenant-day:catalog.camps[17].gradeLabel",
-        "covenant-day:catalog.camps[18].gradeLabel"
+        "covenant-day:catalog.camps[12].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel"
       ]
     },
     {
@@ -9133,8 +9137,8 @@
       "of": "75e26068",
       "at": [
         "covenant-day:catalog.camps[9].gradeLabel",
-        "covenant-day:catalog.camps[15].gradeLabel",
-        "covenant-day:catalog.camps[16].gradeLabel"
+        "covenant-day:catalog.camps[14].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel"
       ]
     },
     {
@@ -9152,95 +9156,80 @@
       ]
     },
     {
-      "t": "Webb Fitness Center প্রোগ্রাম, স্কুলের S&C কোচ পরিচালিত — varsity অ্যাথলেটরা যে একই গ্রীষ্মকালীন ভারোত্তোলন করে।",
-      "of": "2e9659bb",
-      "at": [
-        "covenant-day:catalog.camps[12].desc"
-      ]
-    },
-    {
-      "t": "গ্রেড 6–12",
-      "of": "5a57e078",
-      "at": [
-        "covenant-day:catalog.camps[12].gradeLabel"
-      ]
-    },
-    {
-      "t": "সেশন",
-      "of": "130573cc",
-      "at": [
-        "covenant-day:catalog.camps[12].hours",
-        "covenant-day:catalog.camps[19].hours"
-      ]
-    },
-    {
       "t": "নিছক-আনন্দের সপ্তাহ।",
       "of": "9ee1d298",
       "at": [
-        "covenant-day:catalog.camps[13].desc"
+        "covenant-day:catalog.camps[12].desc"
       ]
     },
     {
       "t": "Lunch Care বিনামূল্যে অন্তর্ভুক্ত — সেবা সঙ্গে দেওয়া একমাত্র অ-দিবা ক্যাম্প।",
       "of": "9710a44d",
       "at": [
-        "covenant-day:catalog.camps[14].desc"
+        "covenant-day:catalog.camps[13].desc"
       ]
     },
     {
       "t": "MS",
       "of": "35dfbd11",
       "at": [
-        "covenant-day:catalog.camps[14].gradeLabel"
+        "covenant-day:catalog.camps[13].gradeLabel"
       ]
     },
     {
       "t": "সারাদিন, দুপুরের খাবার সহ",
       "of": "6cdcfa40",
       "at": [
-        "covenant-day:catalog.camps[14].hours"
+        "covenant-day:catalog.camps[13].hours"
       ]
     },
     {
       "t": "ছোট শিক্ষার্থীদের জন্য মঞ্চ-প্রধান সপ্তাহ।",
       "of": "e3899851",
       "at": [
-        "covenant-day:catalog.camps[15].desc"
+        "covenant-day:catalog.camps[14].desc"
       ]
     },
     {
       "t": "চারুকলার ঘরে স্টুডিও নমুনা।",
       "of": "a6d6d5ee",
       "at": [
-        "covenant-day:catalog.camps[16].desc"
+        "covenant-day:catalog.camps[15].desc"
       ]
     },
     {
       "t": "রন্ধনশিল্পের সপ্তাহ।",
       "of": "15b6f079",
       "at": [
-        "covenant-day:catalog.camps[17].desc"
+        "covenant-day:catalog.camps[16].desc"
       ]
     },
     {
       "t": "STEM সপ্তাহ।",
       "of": "45e94be3",
       "at": [
-        "covenant-day:catalog.camps[18].desc"
+        "covenant-day:catalog.camps[17].desc"
       ]
     },
     {
       "t": "guidance অফিসের ক্যালেন্ডার ধরে চলা একটি হাই-স্কুল সপ্তাহ — একটি বিরল হাই-স্কুল একাডেমিক ক্যাম্প।",
       "of": "86fd317c",
       "at": [
-        "covenant-day:catalog.camps[19].desc"
+        "covenant-day:catalog.camps[18].desc"
       ]
     },
     {
       "t": "HS",
       "of": "6deb4e2c",
       "at": [
-        "covenant-day:catalog.camps[19].gradeLabel"
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "সেশন",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[18].hours"
       ]
     },
     {
@@ -9251,8 +9240,8 @@
       ]
     },
     {
-      "t": "স্কুল \"**29 camps**\" বিপণন করে; পাবলিক পাতা 20টি গোনে (21তম তালিকা, \"Splash Squad,\" একটি কর্মীর পদ)। প্রতি-সপ্তাহ ভ্যারিয়েন্ট ও কেবল পোর্টালে থাকা ক্যাম্পই সম্ভবত এই পার্থক্যের কারণ।",
-      "of": "19b8adfa",
+      "t": "স্কুল \"**29 camps**\" বিপণন করে; পাবলিক পাতা 19টি গোনে, যা 2026-11-22 তারিখে ব্রাউজারে যাচাই করা (\"Splash Squad\" একটি কর্মীর পদ, আর Strength and Conditioning এখন আর তালিকায় নেই)। প্রতি-সপ্তাহ ভ্যারিয়েন্ট ও কেবল পোর্টালে থাকা ক্যাম্পই সম্ভবত এই পার্থক্যের কারণ।",
+      "of": "ac56e695",
       "at": [
         "covenant-day:catalog.flags[1].text"
       ]
@@ -10242,15 +10231,15 @@
       ]
     },
     {
-      "t": "একাডেমিক ক্যাম্পগুলো চলে সকাল 9 টা–দুপুর 1 টা এবং ক্রীড়া ক্যাম্পগুলো সকাল 9 টা–দুপুর 12 টা (Football সন্ধ্যায়), সোমবার–বৃহস্পতিবার, মে-র শেষ থেকে জুলাইয়ের শেষ পর্যন্ত মোটামুটি আটটি সাপ্তাহিক ধাপে।",
-      "of": "f7887b86",
+      "t": "একাডেমিক ক্যাম্পগুলো চলে সকাল 9 টা–দুপুর 1 টা এবং ক্রীড়া ক্যাম্পগুলো সকাল 9 টা–দুপুর 12 টা (Football সন্ধ্যায়), সোমবার–বৃহস্পতিবার, মে-র শেষ থেকে জুলাইয়ের শেষ পর্যন্ত ছয় সপ্তাহ জুড়ে।",
+      "of": "665a2061",
       "at": [
         "hickory-grove-christian:catalog.subhead"
       ]
     },
     {
-      "t": "এটি **Summer 2023-এর তালিকা, স্কুলের পুরোনো পাতার সংরক্ষিত কপি থেকে নেওয়া**। এটি একটি প্রতিনিধিত্বমূলক তালিকা, 2026-এর সরাসরি তালিকা নয়, কারণ HGCS এখন ক্যাম্পের নাম ও দাম Brushfire প্ল্যাটফর্মের আড়ালে রাখে। 2026-এর সরাসরি পাতাটি আটটি সেশন-সময়সীমা নিশ্চিত করে, যা নিচের সাপ্তাহিক ধাপগুলোর সঙ্গে সঙ্গতিপূর্ণ। **দাম কোথাও প্রকাশিত নয়** (কেবল Brushfire-এ), তাই কোনো খরচ দেখানো হয়নি। গ্রেডগুলো হলো **যে গ্রেডে উঠছে** সেই গ্রেড।",
-      "of": "e18209dc",
+      "t": "এটি **Summer 2023-এর তালিকা, স্কুলের পুরোনো পাতার সংরক্ষিত কপি থেকে নেওয়া**। এটি একটি প্রতিনিধিত্বমূলক তালিকা, বর্তমান তালিকা নয়। স্কুলের 2027-এর সময়সূচি ও নিবন্ধন শুরু হবে 2027 সালের বসন্তে। ততদিন এর চালু পাতাগুলোতে কেবল ক্যাম্পের ধরন ও খেলার নাম আছে, কোনোটির তারিখ নেই। **দাম প্রকাশিত নয়**, তাই কোনো খরচ দেখানো হয়নি। গ্রেডগুলো হলো **যে গ্রেডে উঠছে** সেই গ্রেড।",
+      "of": "55ca12a6",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ]
@@ -10533,15 +10522,15 @@
       ]
     },
     {
-      "t": "এটি Summer 2023-এর তালিকা, Internet Archive-এ থাকা স্কুলের পুরোনো পাতার সংরক্ষিত কপি থেকে নেওয়া। 2026-এর সরাসরি তালিকাটি Brushfire নিবন্ধন প্ল্যাটফর্মের আড়ালে থাকে, তাই 2026-এর ক্যাম্পগুলোর সঠিক নাম ওই প্ল্যাটফর্মের ভেতরেই আছে। তবে সরাসরি পাতাটি আটটি সেশন-সময়সীমা নিশ্চিত করে, যা এই সাপ্তাহিক ধাপগুলোর সঙ্গে সঙ্গতিপূর্ণ।",
-      "of": "8b8fe821",
+      "t": "এটি Summer 2023-এর তালিকা, Internet Archive-এ থাকা স্কুলের পুরোনো পাতার সংরক্ষিত কপি থেকে নেওয়া। স্কুল জানায়, 2027-এর ক্যাম্পগুলো শিগগিরই আসছে, আর পূর্ণ সময়সূচি আসবে 2027 সালের বসন্তে। এর চালু পাতাগুলোতে কেবল ক্যাম্পের ধরন ও খেলার নাম আছে, তাই বর্তমান ক্যাম্পগুলো ভিন্ন হতে পারে।",
+      "of": "ee483d54",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ]
     },
     {
-      "t": "সরাসরি বা আর্কাইভ করা কোনো পাতাতেই ক্যাম্প-প্রতি দাম প্রকাশিত নয়। দাম কেবল Brushfire-এর checkout-এর ভেতরেই আছে। তাই এই পাতায় এই ক্যাম্পগুলোর জন্য কোনো Cost Planner নেই, আর গ্রীষ্মকালীন খরচের সংখ্যাগুলো N/A দেখায়। গ্রীষ্মে কোনো সম্পূরক শিশু-পরিচর্যাও নেই। ক্যাম্পগুলো অর্ধদিবসের, আর গ্রীষ্মে স্কুল-পরবর্তী কর্মসূচি বন্ধ থাকে।",
-      "of": "0ce646d3",
+      "t": "সরাসরি বা আর্কাইভ করা কোনো পাতাতেই ক্যাম্প-প্রতি দাম প্রকাশিত নয়। তাই এই পাতায় এই ক্যাম্পগুলোর জন্য কোনো Cost Planner নেই, আর গ্রীষ্মকালীন খরচের সংখ্যাগুলো N/A দেখায়। গ্রীষ্মে কোনো সম্পূরক শিশু-পরিচর্যাও নেই। ক্যাম্পগুলো অর্ধদিবসের, আর গ্রীষ্মে স্কুল-পরবর্তী কর্মসূচি বন্ধ থাকে।",
+      "of": "f27ebc58",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ]
@@ -11806,8 +11795,8 @@
       ]
     },
     {
-      "t": "Middle School-এর বড় স্তরগুলোর জন্য একটি অর্ধদিবসের সাইক্লিং ক্যাম্প।",
-      "of": "5162a0a5",
+      "t": "4th–8th গ্রেডে ওঠা শিক্ষার্থীদের জন্য একটি অর্ধদিবসের সাইক্লিং ক্যাম্প।",
+      "of": "aa48d562",
       "at": [
         "trinity-episcopal:catalog.camps[11].desc"
       ]
@@ -11924,8 +11913,8 @@
       ]
     },
     {
-      "t": "পুরো Middle School স্তরজুড়ে অর্ধদিবসের টেনিস প্রশিক্ষণ।",
-      "of": "15fdee7c",
+      "t": "3rd–8th গ্রেডে ওঠা শিক্ষার্থীদের জন্য অর্ধদিবসের টেনিস প্রশিক্ষণ।",
+      "of": "b93ecc35",
       "at": [
         "trinity-episcopal:catalog.camps[20].desc"
       ]
@@ -11969,8 +11958,8 @@
       ]
     },
     {
-      "t": "Middle School স্তরের জন্য একটি পূর্ণ দিনের ডিজিটাল অলংকরণের ক্যাম্প।",
-      "of": "ecea0045",
+      "t": "5th–8th গ্রেডে ওঠা শিক্ষার্থীদের জন্য একটি পূর্ণ দিনের ডিজিটাল অলংকরণের ক্যাম্প।",
+      "of": "1816fa4a",
       "at": [
         "trinity-episcopal:catalog.camps[25].desc"
       ]
@@ -12079,8 +12068,8 @@
       ]
     },
     {
-      "t": "Middle School-এর একটি নেতৃত্ব ক্যাম্প, আর দুটি লিঙ্গ-নির্দিষ্ট ক্যাম্পের দ্বিতীয়টি।",
-      "of": "9d96c806",
+      "t": "5th–8th গ্রেডে ওঠা শিক্ষার্থীদের জন্য একটি নেতৃত্ব ক্যাম্প, আর দুটি লিঙ্গ-নির্দিষ্ট ক্যাম্পের দ্বিতীয়টি।",
+      "of": "faa7b192",
       "at": [
         "trinity-episcopal:catalog.camps[35].desc"
       ]
@@ -12650,8 +12639,8 @@
       ]
     },
     {
-      "t": "অফেরতযোগ্য জমা, প্রতি ক্যাম্পে",
-      "of": "97136d00",
+      "t": "অফেরতযোগ্য জমা, প্রতি ক্যাম্পে, যা ক্যাম্পের দামের সঙ্গে সমন্বয় হয়",
+      "of": "5f842f96",
       "at": [
         "trinity-episcopal:costPlanner.fees[0].label"
       ]
@@ -12713,8 +12702,8 @@
       ]
     },
     {
-      "t": "গ্রীষ্ম 2026 চলেছে সাত সপ্তাহ, 8 জুন থেকে 31 জুলাই, Early School থেকে 8th grade পর্যন্ত ক্যাম্পারদের জন্য — একটি প্রচলিত ডে-ক্যাম্প, সঙ্গে প্রায় প্রতি সপ্তাহে একটি বিশেষ বা খেলাধুলার ক্যাম্প।",
-      "of": "ad1bd718",
+      "t": "গ্রীষ্ম 2026 চলেছে সাত সপ্তাহ, 8 জুন থেকে 31 জুলাই, Early School থেকে 8th grade পর্যন্ত ক্যাম্পারদের জন্য। প্রতি সপ্তাহেই ছিল একটি প্রচলিত ডে-ক্যাম্প, একটি বিশেষ ক্যাম্প ও একটি খেলাধুলার ক্যাম্প।",
+      "of": "5443ba51",
       "at": [
         "charlotte-prep:catalog.headline"
       ]

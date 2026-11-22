@@ -13,8 +13,8 @@
 // is omitted rather than shipped as a shell of gap flags. (User call,
 // 2026-08-18, at the review step.)
 //
-// Note the general club roster (Chess, Yearbook, Science Olympiad, iGEM, VEX
-// Robotics and the rest) was never affinity material either — it lives in the
+// Note the general club roster (Yearbook, VEX Robotics
+// and the rest) was never affinity material either — it lives in the
 // Club Catalog card (src/data/clubCatalog.ts) and the Academic & Competitive
 // Clubs card (src/data/clubClusters.ts). An earlier draft wrongly put it here.
 //
@@ -118,10 +118,6 @@ export const gastonDay: ClubsProgram = {
       {
         label: 'Scholastic Art & Writing Awards',
         text: 'Blutopia has taken numerous Scholastic Art and Writing Awards and is consistently recognized in the NC Scholastic Media Association Literary Magazine Contest.',
-      },
-      {
-        label: 'iGEM awards',
-        text: 'The school says its research teams competed in iGEM for over a decade and won Silver, Gold and Bronze awards. It is the school’s most distinctive competitive recognition, and sits outside any society structure.',
       },
     ],
     flags: [

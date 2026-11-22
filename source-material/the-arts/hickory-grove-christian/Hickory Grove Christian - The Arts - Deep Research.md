@@ -157,3 +157,17 @@ school.
   (only the Blumey-recognized shows *Seussical* (2025) and *Disney's The Little Mermaid*
   (2026) are attested).
 - **Blumey wins:** none published for HGCS (nominee/finalist recognition only).
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, implement, Blumey lists)
+
+Read by the parent from copies downloaded from blumenthalarts.org earlier on 2026-11-22
+(HTTP 200). The site later refused a request and was not asked again. Student names are
+left out on purpose.
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (final nominees, every category)
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+
+2026: five finalists (Triton, Ursula, Scuttle, Flounder, Aquata) and no nominee. This supersedes "three nominees" above. Three performers appear in both 2025 and 2026.

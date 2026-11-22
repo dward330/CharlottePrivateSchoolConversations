@@ -2,7 +2,7 @@
 //
 // Gaston Day publishes an unusually complete Academic Profile for a school of
 // 510: a five-year ACT/SAT series, a five-year AP 3+ series, a full GPA-quintile
-// table, a grade-distribution-by-department table, a four-year merit-scholarship
+// table, a grade-distribution-by-department table (September 2025 edition only), a four-year merit-scholarship
 // ledger, and a ~250-institution acceptance list spanning 2019–2025. Every one
 // of the six cards therefore renders with real data behind each sub-block.
 //
@@ -16,9 +16,9 @@
 //  1. The school does NOT publish percentiles — it publishes the mid-50% range.
 //     The mid-50% endpoints ARE the 25th and 75th, so those columns are real;
 //     the 10th, 50th and 90th render as '—' rather than being invented.
-//  2. The acceptance list's bold styling (marking Class of 2025 enrollments) does
-//     not survive pdftotext extraction, so NO college carries `enrolling`. That
-//     is a transcription limit, stated on the card, not an absence of data.
+//  2. The acceptance list's bold styling marks Class of 2025 enrollments. It does
+//     not survive pdftotext, so `enrolling` is read from the PDF's font runs
+//     (Gotham-Bold): 20 names, identical in both 2025-26 editions.
 //  3. The counselor caseload is COMPUTED, not published — 35 seniors over two
 //     counselors. It is flagged and qualified rather than presented as a
 //     school-stated figure.
@@ -27,6 +27,10 @@ import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
 const PROFILE =
   'https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf'
+// The November 2025 edition is the one College Counseling links. The September
+// edition (PROFILE) is still live and alone prints the grade distribution.
+const PROFILE_NOV =
+  'https://www.gastonday.org/wp-content/uploads/2025/11/25-26-GDS-Profile-1.pdf'
 const COUNSELING = 'https://www.gastonday.org/collegecounseling/'
 const UPPER = 'https://www.gastonday.org/upper-school/'
 
@@ -42,9 +46,9 @@ const colleges = [
   { name: 'American Musical and Dramatic Academy', cats: [] },
   { name: 'American University', cats: [] },
   { name: 'Anderson University', cats: [] },
-  { name: 'Appalachian State University', cats: [] },
+  { name: 'Appalachian State University', cats: [], enrolling: true },
   { name: 'Arizona State University', cats: ['p4'] },
-  { name: 'Auburn University', cats: ['p4'] },
+  { name: 'Auburn University', cats: ['p4'], enrolling: true },
   { name: 'Augusta University', cats: [] },
   { name: 'Ave Maria University', cats: [] },
   { name: 'Babson College', cats: [] },
@@ -69,16 +73,16 @@ const colleges = [
   { name: 'Charleston Southern University', cats: [] },
   { name: 'Chowan University', cats: [] },
   { name: 'Citadel Military College of South Carolina', cats: [] },
-  { name: 'Clemson University', cats: ['p4'] },
+  { name: 'Clemson University', cats: ['p4'], enrolling: true },
   { name: 'Coastal Carolina University', cats: [] },
   { name: 'Coker University', cats: [] },
   { name: 'Colby College', cats: ['lac75'] },
-  { name: 'College of Charleston', cats: [] },
+  { name: 'College of Charleston', cats: [], enrolling: true },
   { name: 'Colorado College', cats: ['lac75'] },
   { name: 'Colorado School of Mines', cats: [] },
   { name: 'Concordia University (Nebraska)', cats: [] },
   { name: 'Dartmouth College', cats: ['ivy', 'ivyplus', 'nu75'] },
-  { name: 'Davidson College', cats: ['lac75'] },
+  { name: 'Davidson College', cats: ['lac75'], enrolling: true },
   { name: 'Delta State University', cats: [] },
   { name: 'Denison University', cats: ['lac75'] },
   { name: 'DePauw University', cats: ['lac75'] },
@@ -104,13 +108,13 @@ const colleges = [
   { name: 'Greensboro College', cats: [] },
   { name: 'Grinnell College', cats: ['lac75'] },
   { name: 'Guilford College', cats: [] },
-  { name: 'Hampden-Sydney College', cats: [] },
+  { name: 'Hampden-Sydney College', cats: [], enrolling: true },
   { name: 'Hampton University', cats: ['hbcu'] },
   { name: 'Hawaii Pacific University', cats: [] },
   { name: 'High Point University', cats: [] },
   { name: 'Hollins University', cats: [] },
   { name: 'Indiana University (Bloomington)', cats: ['nu75', 'p4'] },
-  { name: 'James Madison University', cats: [] },
+  { name: 'James Madison University', cats: [], enrolling: true },
   { name: 'Johns Hopkins University', cats: ['ivyplus', 'nu75'] },
   { name: 'Johnson & Wales University (Providence)', cats: [] },
   { name: 'Kenyon College', cats: ['lac75'] },
@@ -118,7 +122,7 @@ const colleges = [
   { name: 'Lee University', cats: [] },
   { name: 'Lees-McRae College', cats: [] },
   { name: 'Lehigh University', cats: ['nu75'] },
-  { name: 'Lenoir-Rhyne University', cats: [] },
+  { name: 'Lenoir-Rhyne University', cats: [], enrolling: true },
   { name: 'Liberty University', cats: [] },
   { name: 'Lincoln Memorial University', cats: [] },
   { name: 'Louisiana State University', cats: ['p4'] },
@@ -142,7 +146,7 @@ const colleges = [
   { name: 'Newberry College', cats: [] },
   { name: 'North Carolina A & T State University', cats: ['hbcu'] },
   { name: 'North Carolina Central University', cats: ['hbcu'] },
-  { name: 'North Carolina State University', cats: ['nu75', 'p4'] },
+  { name: 'North Carolina State University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Northeastern University', cats: ['nu75'] },
   { name: 'Pace University (New York City)', cats: [] },
   { name: 'Palm Beach Atlantic University', cats: [] },
@@ -177,13 +181,13 @@ const colleges = [
   { name: 'SUNY at Binghamton', cats: ['nu75'] },
   { name: 'Swarthmore College', cats: ['lac75'] },
   { name: 'Sweet Briar College', cats: [] },
-  { name: 'Syracuse University', cats: ['nu75', 'p4'] },
+  { name: 'Syracuse University', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'Temple University', cats: [] },
   { name: 'Texas A&M University', cats: ['nu75', 'p4'] },
   { name: 'The College of William and Mary', cats: ['nu75'] },
   { name: 'The New School', cats: [] },
   { name: 'The Ohio State University (Main Campus)', cats: ['nu75', 'p4'] },
-  { name: 'The University of Alabama', cats: ['p4'] },
+  { name: 'The University of Alabama', cats: ['p4'], enrolling: true },
   { name: 'The University of Montana', cats: [] },
   { name: 'The University of Texas at Dallas', cats: [] },
   { name: 'Tougaloo College', cats: ['hbcu'] },
@@ -194,7 +198,7 @@ const colleges = [
   { name: 'Underwood International College, Yonsei University', cats: [] },
   { name: 'United States Military Academy at West Point', cats: ['lac75'] },
   { name: 'University College London', cats: [] },
-  { name: 'University of California (Berkeley', cats: ['nu75', 'p4'] },
+  { name: 'University of California (Berkeley', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of California (Davis)', cats: ['nu75'] },
   { name: 'University of California (Irvine)', cats: ['nu75'] },
   { name: 'University of California (Los Angeles)', cats: ['nu75', 'p4'] },
@@ -204,7 +208,7 @@ const colleges = [
   { name: 'University of California (Santa Barbara)', cats: ['nu75'] },
   { name: 'University of California (Santa Cruz)', cats: [] },
   { name: 'University of Central Florida', cats: ['p4'] },
-  { name: 'University of Colorado Boulder', cats: ['p4'] },
+  { name: 'University of Colorado Boulder', cats: ['p4'], enrolling: true },
   { name: 'University of Connecticut', cats: ['nu75'] },
   { name: 'University of Denver', cats: [] },
   { name: 'University of Dubuque', cats: [] },
@@ -215,7 +219,7 @@ const colleges = [
   { name: 'University of Illinois at Urbana-Champaign', cats: ['nu75', 'p4'] },
   { name: 'University of Kentucky', cats: ['p4'] },
   { name: 'University of Lynchburg', cats: [] },
-  { name: 'University of Maryland', cats: ['nu75', 'p4'] },
+  { name: 'University of Maryland', cats: ['nu75', 'p4'], enrolling: true },
   { name: 'University of Maryland (Baltimore County)', cats: [] },
   { name: 'University of Massachusetts (Amherst)', cats: ['nu75'] },
   { name: 'University of Massachusetts (Boston)', cats: [] },
@@ -227,22 +231,22 @@ const colleges = [
   { name: 'University of Nevada (Las Vegas)', cats: [] },
   { name: 'University of North Carolina at Asheville', cats: [] },
   { name: 'University of North Carolina at Chapel Hill', cats: ['nu75', 'p4'] },
-  { name: 'University of North Carolina at Charlotte', cats: [] },
+  { name: 'University of North Carolina at Charlotte', cats: [], enrolling: true },
   { name: 'University of North Carolina at Greensboro', cats: [] },
   { name: 'University of North Carolina at Pembroke', cats: [] },
-  { name: 'University of North Carolina School of the Arts', cats: [] },
-  { name: 'University of North Carolina Wilmington', cats: [] },
+  { name: 'University of North Carolina School of the Arts', cats: [], enrolling: true },
+  { name: 'University of North Carolina Wilmington', cats: [], enrolling: true },
   { name: 'University of Notre Dame', cats: ['nu75', 'p4'] },
   { name: 'University of Pittsburgh (Main Campus)', cats: ['nu75', 'p4'] },
   { name: 'University of Rhode Island', cats: [] },
   { name: 'University of Richmond', cats: ['lac75'] },
   { name: 'University of Rochester', cats: ['nu75'] },
-  { name: 'University of South Carolina', cats: ['p4'] },
+  { name: 'University of South Carolina', cats: ['p4'], enrolling: true },
   { name: 'University of South Carolina (Beaufort)', cats: [] },
   { name: 'University of South Florida (Main Campus)', cats: [] },
   { name: 'University of Southern California', cats: ['nu75', 'p4'] },
   { name: 'University of Sydney', cats: [] },
-  { name: 'University of Tennessee (Knoxville)', cats: ['p4'] },
+  { name: 'University of Tennessee (Knoxville)', cats: ['p4'], enrolling: true },
   { name: 'University of Toronto', cats: [] },
   { name: 'University of Tulsa', cats: [] },
   { name: 'University of Virginia (Main Campus)', cats: ['nu75', 'p4'] },
@@ -260,7 +264,7 @@ const colleges = [
   { name: 'Wesleyan College', cats: [] },
   { name: 'West Virginia University', cats: ['p4'] },
   { name: 'West Virginia Wesleyan College', cats: [] },
-  { name: 'Western Carolina University', cats: [] },
+  { name: 'Western Carolina University', cats: [], enrolling: true },
   { name: 'Western Michigan University', cats: [] },
   { name: 'Whitman College', cats: [] },
   { name: 'Wingate University', cats: [] },
@@ -394,7 +398,7 @@ export const gastonDay: CollegeSupportProgram = {
     headline:
       'Every AP student must sit the exam, and the share scoring 3+ has climbed five years running — 72% in 2021 to 95% in 2025.',
     subhead:
-      'With no class rank, the profile gives admissions readers three stand-ins at once. It has a GPA quintile table (a split of the class into fifths) and a table of grades by department. It also states the most APs a student may take, which defines what "most rigorous" means here.',
+      'With no class rank, the profile gives admissions readers stand-ins. It has a GPA quintile table (a split of the class into fifths). It also states the most APs a student may take, which defines what "most rigorous" means here. The September 2025 edition also has a table of grades by department. The November 2025 edition does not.',
     stats: [
       { value: '95%', label: 'of AP students scored 3+ in 2025 — up from 72% in 2021' },
       { value: '10', label: 'AP courses, counted from the profile’s own course table' },
@@ -450,8 +454,8 @@ export const gastonDay: CollegeSupportProgram = {
         text: 'The school publishes the most APs a student may take: **one AP in grade 10, three in each of grades 11 and 12**. That tells colleges exactly what the hardest schedule here looks like. So a normal six-course load is not read as thin.',
       },
       {
-        label: 'Grade distribution is published by department',
-        text: 'A 2024-25 table gives the A+/A/A-…D spread for English, Arts, History, Math, Science and Languages — an unusual disclosure that lets a reader calibrate a GDS grade against its own department.',
+        label: 'Grades by department, in one edition',
+        text: 'The September 2025 profile has a 2024-25 table of grades for English, Arts, History, Math, Science and Languages. The November 2025 profile, which College Counseling now links, does not print it.',
       },
     ],
     flags: [
@@ -459,9 +463,14 @@ export const gastonDay: CollegeSupportProgram = {
         kind: 'gap',
         text: 'The profile publishes no AP score table by subject, no count of AP exams taken, and no National Merit record. So the 3+ rate is one school-wide figure per year, not a breakdown.',
       },
+      {
+        kind: 'verify',
+        text: 'Two 2025-26 profile editions are live (re-read 2026-11-22). September prints British Literature and the grade distribution; November, the linked one, prints European Literature and no distribution. No winner picked.',
+      },
     ],
     sources: [
-      { label: 'gastonday.org — Academic Profile 2025-2026 (AP series, GPA quintiles, grading scale, course table, merit ledger)', url: PROFILE },
+      { label: 'gastonday.org — Academic Profile 2025-2026, September 2025 edition (AP series, GPA quintiles, grading scale, course table, merit ledger, grade distribution)', url: PROFILE },
+      { label: 'gastonday.org — Academic Profile 2025-2026, November 2025 edition (linked from College Counseling; no grade distribution)', url: PROFILE_NOV },
       { label: 'gastonday.org — Upper School (credit requirements, makerspace, testing)', url: UPPER },
     ],
   },
@@ -563,7 +572,7 @@ export const gastonDay: CollegeSupportProgram = {
     headline:
       '95% of the Class of 2025 went straight to a four-year college, and the 2019–2025 acceptance list runs to 231 institutions — Yale and Dartmouth through Stanford, Duke and Johns Hopkins.',
     subhead:
-      'A list this long from classes of ~35 mostly shows breadth, not many students at the same colleges. It is the set of places Gaston Day students were admitted over seven years. It is not where any one class landed.',
+      'A list this long from classes of ~35 mostly shows breadth, not many students at the same colleges. It is the set of places Gaston Day students were admitted over seven years. Only the 20 names in bold are where the Class of 2025 enrolled.',
     stats: [
       { value: '95%', label: 'of the Class of 2025 attending four-year colleges' },
       { value: '231', label: 'distinct institutions accepted, 2019–2025' },
@@ -581,7 +590,7 @@ export const gastonDay: CollegeSupportProgram = {
     ],
     collegesTitle: 'Every acceptance, 2019–2025',
     colleges,
-    collegesTotal: '231 institutions',
+    collegesTotal: '231 institutions · bold = a Class of 2025 student enrolled',
     scholarshipsTitle: 'Merit scholarships won, by class',
     scholarships: [
       '2025 — $3.76M / 21 students',
@@ -594,11 +603,11 @@ export const gastonDay: CollegeSupportProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'The school publishes no counts of where students enrolled, no enrollment numbers by college, and no acceptance breakdown by year. The list is one combined 2019–2025 set with no detail.',
+        text: 'The 2025–26 profile marks the 20 colleges where the Class of 2025 enrolled, but not how many students went to each. It does not mark enrollment for the other classes or break acceptances down by year.',
       },
       {
         kind: 'verify',
-        text: 'Enrolled-vs-accepted cannot be recovered from the published PDF by text extraction, since the distinction is carried in bold styling alone. Reading the original PDF visually would recover it.',
+        text: 'The 20 bold names were read from the PDF font runs and checked by eye on 2026-11-22. Both 2025-26 editions match.',
       },
     ],
     sources: [
@@ -609,7 +618,7 @@ export const gastonDay: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'The standout strength here is unusually concrete for a small school. The school has a gold-medal iGEM synthetic-biology team and a VEX Robotics squad that reached TSA Nationals in its first year. And there is a required 40-hour Capstone every senior must defend.',
+      'The standout strengths here are unusually concrete for a small school. Its VEX Robotics squad reached TSA Nationals in its first year. And every senior must complete a 40-hour Capstone.',
     subhead:
       'What the school cannot offer is wide name recognition. Gaston Day is a 510-student school in Gastonia, not a nationally known feeder school. So its case rests on being distinctive, not on sending many students.',
     levers: [
@@ -618,7 +627,6 @@ export const gastonDay: CollegeSupportProgram = {
         hint: 'what a student can actually point at',
         glyph: '◆',
         items: [
-          '**iGEM synthetic biology** — teams in 2012, 2016, 2018 and 2020, with a **gold medal**. Projects included a kudzu phytotoxin (a plant poison) and an *E. coli* K-12 isobutanol biofuel. iGEM is a university-level contest with a high-school track. Fielding a team from a school this size is rare.',
           '**VEX Robotics** — for years Gaston Day was part of a FIRST Robotics team shared with other schools, which placed **4th at state**. Then it started its own team, which **qualified for TSA VEX Nationals in 2023, its first year competing**.',
           '**Capstone Project** — every senior completes an internship, research or service project of **at least 40 hours**. It is documented and reported on across a full year. It is required, so every applicant has one.',
           '**Sunship Earth peer mentoring** — juniors and seniors lead the fourth-grade class through a multi-day mountain program, then mentor the same child for the rest of the year. A sustained leadership commitment rather than a one-off.',
@@ -632,7 +640,7 @@ export const gastonDay: CollegeSupportProgram = {
         glyph: '▲',
         items: [
           '**Accreditation and memberships that a reader recognizes** — Cognia/SACS CASI, NCAIS, SAIS, NAIS, plus NACAC and ACCIS on the counseling side.',
-          '**A profile built for admissions readers** — quintiles, grades by department, stated AP limits and published transcript timing all make a GDS record easy to read. That is a quieter kind of advantage.',
+          '**A profile built for admissions readers** — quintiles, stated AP limits and published transcript timing all make a GDS record easy to read. The September 2025 edition also shows grades by department. That is a quieter kind of advantage.',
           '**International students and a Global Classroom Initiative** — partnerships with schools overseas for grades 10–12 and a documented homestay program. They give the applicant pool a genuinely international character.',
           '**A five-county draw** — Gaston, Lincoln, Cleveland, Mecklenburg and York counties, so the school is regionally rather than locally known.',
         ],
@@ -643,13 +651,13 @@ export const gastonDay: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'The iGEM gold medal is third-party-confirmed: the iGEM team wikis return 403 to automated fetches, so the medal level was not re-verified at source in this pass. Team participation in 2012, 2016, 2018 and 2020 is confirmed by the archived team pages.',
+        text: 'iGEM dropped 2026-11-22 by user ruling, for lack of proof it is still active: the 2023-24 profile says teams "previously competed", neither 2025-26 edition names it, and the newest team page found is from 2021.',
       },
     ],
     sources: [
-      { label: 'gastonday.org — Academic Profile 2025-2026 (signature learning experiences, robotics, Capstone, Blutopia)', url: PROFILE },
+      { label: 'gastonday.org — Academic Profile 2025-2026, September 2025 edition (signature learning experiences, robotics, Capstone, Blutopia, grades by department)', url: PROFILE },
+      { label: 'gastonday.org — Academic Profile 2025-2026, November 2025 edition (linked from College Counseling; no grade distribution)', url: PROFILE_NOV },
       { label: 'gastonday.org — Upper School (President’s Service Award, leadership, clubs)', url: UPPER },
-      { label: 'iGEM team archives — 2020.igem.org/Team:Gaston_Day_School', url: 'https://2020.igem.org/Team:Gaston_Day_School' },
     ],
   },
 
@@ -710,7 +718,7 @@ export const gastonDay: CollegeSupportProgram = {
       { label: 'Everyone gets an advisor', text: 'Every Upper School student gets a faculty advisor matched to their interests and needs. The advisor **stays with them through graduation**. That steady support does not depend on being a top student.' },
       { label: 'Everyone gets the counselor', text: 'With 35 seniors and two college-counseling staff, the office reaches the whole class rather than triaging to the strongest applicants.' },
       { label: 'A six-course load, not a race', text: 'AP access is deliberately capped (1 in grade 10, 3 in grades 11 and 12), so the transcript ceiling is defined and a moderate load is normal rather than remedial.' },
-      { label: 'Demanding non-AP courses', text: 'A broad Honors tier sits below the AP courses across every department, plus dual enrollment from grade 11 for students who want college credit without an AP exam.' },
+      { label: 'Demanding non-AP courses', text: 'A broad Honors tier sits below the AP courses across most departments. Dual enrollment from grade 11 adds college credit without an AP exam.' },
       { label: 'A required spike for everyone', text: 'The 40-hour Capstone and the 25-hour annual service requirement mean every graduate has something concrete to write about, not only the students who sought it out.' },
     ],
     flags: [
@@ -731,20 +739,20 @@ export const gastonDay: CollegeSupportProgram = {
 
   verdict: {
     headline:
-      'A small school that publishes like a much larger one — five-year test and AP series, full GPA quintiles, a department-level grade distribution and a seven-year acceptance list.',
+      'A small school that publishes like a much larger one — five-year test and AP series, full GPA quintiles and a seven-year acceptance list.',
     subhead:
       'The concerns are about size and disclosure, not quality. With a 35-senior class, every rate can swing a lot. And the public athletics and club rosters are thinner than the academic record.',
     points: [
       { label: 'The AP trend is real and rising', text: 'The 3+ rate went 72% → 76% → 86% → 89% → **95%** across 2021–2025, and because **every AP student must sit the exam**, that rate is not flattered by opting out.' },
-      { label: 'Rank is replaced, not merely omitted', text: 'Most no-rank schools stop there. Gaston Day publishes a **five-band GPA quintile table**, a **grade distribution by department**, and **defined AP maxima** — three separate substitutes.' },
+      { label: 'Rank is replaced, not merely omitted', text: 'Most no-rank schools stop there. Gaston Day publishes a **five-band GPA quintile table** and **defined AP maxima** as substitutes. Its September 2025 profile also has a **grade distribution by department**; the November 2025 edition does not.' },
       { label: 'Counseling starts in eighth grade', text: 'Course planning begins four years before applications, and two college-counseling staff for 35 seniors is an unusually small caseload.' },
-      { label: 'The spike is institutional', text: 'A **gold-medal iGEM** team, **TSA VEX Nationals in year one**, and a **required 40-hour Capstone** mean distinctiveness is built into the program rather than left to the individual student.' },
+      { label: 'The spike is institutional', text: '**TSA VEX Nationals in year one** and a **required 40-hour Capstone** make distinctiveness part of the program, rather than something left to each student.' },
       { label: 'The acceptance breadth is genuine', text: '**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 24 top-75 liberal arts colleges — wide range for classes of ~35.' },
       { label: 'The money is disclosed', text: 'Four years of merit-scholarship totals are published — **$3.76M for 21 students in 2025** — where many schools publish none.' },
     ],
     checklist: [
       'With 35 seniors and two counselors, does Kristy Smith carry her own caseload, or is the ~18:1 figure really 35:1 against the Director?',
-      'The acceptance list covers seven years — where did the last two graduating classes actually enroll, and in what concentrations?',
+      'The profile marks where the Class of 2025 enrolled. How many students went to each of those colleges, and where did the Class of 2024 go?',
       'What share of a class sits the SAT versus the ACT, given the ACT is required in grade 11 and no tester counts are published?',
       'The AP cap is one course in grade 10 and three in grades 11–12 — how is that applied to a student who wants more, and does it ever get waived?',
       'What does the Learning Academy Coordinate Program cost, who qualifies, and how are College Board accommodations documented?',

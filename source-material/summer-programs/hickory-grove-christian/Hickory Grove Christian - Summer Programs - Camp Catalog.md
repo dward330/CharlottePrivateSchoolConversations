@@ -45,7 +45,7 @@
 | Program name | "Summer Camps" (academic + athletic camps; no umbrella brand name) | W1, W2 |
 | Catalog vintage | Summer 2023 (representative); Summer 2022 athletic variants noted | W1–W3 |
 | Overall date span (2023 catalog) | May 30 – July 27, 2023 | W1 |
-| Week-blocks (2023 catalog) | **~8 week-blocks**, Jun–Jul (May 30–Jun 2 · Jun 5–8 · Jun 12–15 · Jun 19–22 · Jun 26–29 · July 24–27, plus 2022 late-May/early-June variants). Live 2026 page independently confirms **8 session windows** (Jun 1–4, Jun 8–11, Jun 15–18, Jun 22–26, Jun 29–Jul 2, Jul 6–9, Jul 20–23, Jul 27–30) | W1, L1 |
+| Week-blocks (2023 catalog) | **6 distinct weeks**, late May to late July (May 30–Jun 2 · Jun 5–8 · Jun 12–15 · Jun 19–22 · Jun 26–29 · July 24–27). An earlier pass counted ~8 by adding 2022 variants and the live 2026 page’s session windows, which are no longer published | W1 |
 | Total named camps (2023 catalog) | **17** = 12 academic/enrichment + 5 athletic | W1, W2 |
 | Academic/enrichment camps | 12 (Science ×2 sessions, Adventure Through the Bible OT + NT, College Admissions Boot Camp, Foundational Fluency ×2 sessions, Math Fact Fluency Addition + Subtraction, Spanish Immersion ×2, Beyond the Brush) | W1 |
 | Athletic camps (2023) | 5 (Cheer, Softball, Football, Basketball, Baseball) | W1, W2 |
@@ -119,7 +119,30 @@ registration. Several 2026 sessions already show "sold out" / "full" on the live
   extended-day/lunch-hour add-on published.
 - **HISTORICAL / REPRESENTATIVE catalog:** camp list is the Summer 2023 slate recovered
   from Wayback (with 2022 athletic variants), because the live 2026 catalog is hidden
-  behind Brushfire. The exact 2026 camp names were not publicly recoverable, though the
-  live page confirms **8 session windows** consistent with the ~8 week-blocks below.
+  behind Brushfire. The exact 2026 camp names were not publicly recoverable. The live pages
+  now say the 2027 schedule arrives in spring 2027, and show no session windows.
 - **Duplicate camp runs are intentional:** Science Camp and Foundational Fluency Camp each
   ran in two separate week-blocks; both instances are listed verbatim above.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22 (curl, HTTP 200). The /academics/summer-camps address now redirects to /academics-home. The live
+pages are new:
+
+- https://www.hgchristian.org/summer-camps: "week-long morning camps for curious kids from rising kindergarteners
+  through middle schoolers"; "2027 Camps are coming soon!"; "Week-long sessions: Monday through Thursday, June and
+  July"; "Most camps run 9 am to 12 pm". "Camps we've offered": STEM & Math; Ready for Kindergarten ("incoming TK and
+  K5 students"); Literacy & Musical Theatre; Science Discovery; Spanish Immersion; Art. It shows no session windows.
+- https://www.hgchristian.org/athletic-camps: "rising 3rd–8th graders"; "Coed Cross Country · Boys Football · Girls
+  Softball · Coed Soccer · Coed Basketball · Boys Baseball · Girls Cheer · Girls Volleyball"; "some sports hold
+  evening sessions from 6 to 8 PM"; "Summer 2027 camp dates will be released this spring."
+- So "the live 2026 page confirms eight session windows" can no longer be verified on the live site. The 2023 catalog
+  above spans six distinct weeks; the other two in "~8" came from 2022 variants.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+https://www.hgchristian.org/summer-camps and https://www.hgchristian.org/athletic-camps (both HTTP 200, 2026-11-22)
+match the note above. Recount of the 2023 rows: six distinct weeks. The app shows 6, labelled Summer 2023, and
+"rising 1-8, 11-12" for the ages.

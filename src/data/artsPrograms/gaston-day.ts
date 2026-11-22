@@ -21,6 +21,8 @@ import type { ArtsProgram } from '../artsProgram.ts'
 const ARTS = 'https://www.gastonday.org/arts/'
 const PROFILE =
   'https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf'
+const PROFILE_NOV =
+  'https://www.gastonday.org/wp-content/uploads/2025/11/25-26-GDS-Profile-1.pdf'
 const MIDDLE = 'https://www.gastonday.org/middle-school/'
 const LOWER = 'https://www.gastonday.org/early-lower-school/'
 
@@ -73,7 +75,7 @@ export const gastonDay: ArtsProgram = {
     enrichment: [
       {
         label: 'Private lessons',
-        text: 'Taught by contracted professional musicians, billed at $35 per lesson on the school’s published fee schedule. Middle School students waiting for a lesson may do homework in aftercare at no charge.',
+        text: 'Taught by contracted professional musicians, billed at $35 per 30-minute lesson on the school’s published fee schedule. Middle School students waiting for a lesson may do homework in aftercare at no charge.',
       },
       {
         label: 'Performance travel',
@@ -243,7 +245,7 @@ export const gastonDay: ArtsProgram = {
       },
       {
         when: '2019–2025',
-        name: 'Art-school matriculation',
+        name: 'Art-school acceptances',
         detail:
           'The 2019–2025 acceptance list includes seven specialty art and design schools: RISD · SCAD · School of Visual Arts · Maryland Institute College of Art · the School of the Art Institute of Chicago · Minneapolis College of Art and Design · UNC School of the Arts.',
       },
@@ -252,7 +254,8 @@ export const gastonDay: ArtsProgram = {
       'Travis Johnson chairs the department. No other arts faculty are named publicly. The school publishes no gallery or exhibition calendar, no count of Scholastic awards by year and no named student winners. For the count, "numerous" is the school’s own word, repeated here rather than turned into a number.',
     sources: [
       { label: 'gastonday.org — Arts (media, portfolio development, awards)', url: ARTS },
-      { label: 'gastonday.org — Academic Profile 2025-2026 (Visual Art I–IV(H), Blutopia recognition, ARTS grade distribution)', url: PROFILE },
+      { label: 'gastonday.org — Academic Profile 2025-2026, September 2025 edition (Visual Art I–IV(H), Blutopia recognition, ARTS grade distribution)', url: PROFILE },
+      { label: 'gastonday.org — Academic Profile 2025-2026, November 2025 edition (the linked edition; no grade distribution)', url: PROFILE_NOV },
     ],
   },
 
@@ -284,8 +287,8 @@ export const gastonDay: ArtsProgram = {
         text: 'Portfolio development is taught, and seven specialty art and design schools — RISD, SCAD, SVA, MICA, SAIC, MCAD and UNCSA — appear on the acceptance list.',
       },
       {
-        label: 'Arts grades are published',
-        text: 'The profile prints an ARTS grade distribution for 2024-25 (72% A+, 22% A, 5% A-), which few schools disclose. Read it as context for how the department grades rather than as a difficulty signal.',
+        label: 'Arts grades appear in one edition',
+        text: 'The September 2025 profile prints an ARTS grade distribution for 2024-25 (72% A+, 22% A, 5% A-). The November 2025 edition, which College Counseling now links, does not. Read it as context for how the department grades rather than as a difficulty signal.',
       },
     ],
     ask: [

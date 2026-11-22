@@ -404,11 +404,12 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Clubs Sec
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Arts Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'the-arts'
 
 # Sports Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Sports Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'sports'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Sports Section Redesign' '--out' <out> '--refs' 'Providence Day + Carmel Christian'\''s and Hickory Grove'\''s Winning Record cards (their per-school matrix headings)' '--sha' '69ff78d3' '--area' 'sports' '--extra' 'carmel-christian:sports/winning-record,hickory-grove-christian:sports/winning-record'
+# then relabel each extra with what it shows (plan consistency4)
 
 # College Support Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'College Support Section Redesign' '--out' <out> '--refs' 'Providence Day + Gaston Day'\''s Transcript card (its College merit awards column)' '--sha' '229961c8' '--area' 'college-support' '--extra' 'gaston-day:college-support/the-transcript-colleges-see'
-# then relabel the extra: "Extra card from Gaston Day School — its merit column reads “College merit awards” … (plan consistency3, GD-S2)" 
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'College Support Section Redesign' '--out' <out> '--refs' 'Providence Day + Gaston Day'\''s and Covenant Day'\''s Transcript cards (their merit-table column headers)' '--sha' '69ff78d3' '--area' 'college-support' '--extra' 'gaston-day:college-support/the-transcript-colleges-see,covenant-day:college-support/the-transcript-colleges-see'
+# then relabel each extra with what it shows (plan consistency4)
 
 # High School Placement Section Redesign
 npm run design:capture -- '--page' '/school/charlotte-prep/' '--name' 'High School Placement Section Redesign' '--out' <out> '--refs' 'Charlotte Prep + Trinity Episcopal'\''s Where They Land card' '--sha' 'ff5ab214' '--area' 'high-school-placement' '--extra' 'trinity-episcopal:high-school-placement/where-they-land'
@@ -419,7 +420,8 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'After Sch
 # #topic-after-school) as a labelled `ds-extra` section: --extra takes cards by id, and a stat strip has none
 
 # Summer Programs Section
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Programs Section' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'summer-programs'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Programs Section' '--out' <out> '--refs' 'Providence Day + Carmel Christian'\''s Cost Planner (its short-week day divisor)' '--sha' '69ff78d3' '--area' 'summer-programs' '--extra' 'carmel-christian:summer-programs/the-summer-cost-planner'
+# then relabel each extra with what it shows (plan consistency4)
 
 # Financial Aid & Tuition
 npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
@@ -527,6 +529,18 @@ opened, with the page names linked and outlined, were added to `Financial Aid & 
 and verified. It was then built and the file re-captured from `6b1b21ee` (39,865 bytes, byte for
 byte). A capture keeps source rows closed, so the opened lines are a labelled block generated in
 the component's own markup, checked against the live DOM.
+
+**Plan `consistency4` (2026-11-22): three approved UX fixes, designed here first.** Mocks patched
+into pre-change captures were written and verified, then built, then the three files were
+re-captured from commit `69ff78d3` and verified byte for byte:
+
+- *Summer Programs* (23,736 bytes): Carmel's planner, whose "per camp day" divides by the days in
+  the selected week.
+- *Sports* (78,272 bytes): Carmel's and Hickory Grove's matrix headings name their seasons.
+- *College Support* (69,117 bytes): Covenant's merit column reads "AP results", beside Gaston
+  Day's "College merit awards".
+
+The MCP behind this loop says it stops working no later than **2026-12-14**.
 
 **Not represented, by design:** filters, tabs, hover tips, the photo viewer and the
 podcast and video players are static (players are labelled boxes); Latest News shows

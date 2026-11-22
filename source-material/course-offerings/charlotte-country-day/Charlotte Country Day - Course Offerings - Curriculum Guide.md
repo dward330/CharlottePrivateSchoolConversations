@@ -358,3 +358,8 @@ Band; by audition"; Honors Orchestra "Prerequisites: Current enrollment in MS or
 Honors Concert Choir "Honors students must apply and successfully complete an audition each year"; Supersonic:
 Percussion Ensemble "No musical experience necessary." Index titles: "AP Studio: 2D Art", "AP Studio: Design/
 Photography", "AP Studio: Sculpture", "IB Art I & II (SL, HL)".
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1755633363/charlottecds/kt72slq7bqecmr1hswmm/2025-26CourseCatalogueAugustupdate.pdf (HTTP 200): Honors Concert Choir "Honors students must apply and successfully complete an audition each to be accepted into this program". Symphonic Band "Prerequisites: Participation in the MS Band program OR audition and permission of the instructor". Orchestra "Prerequisites: Participation in the MS orchestra program OR audition and permission of the instructor". Advanced Topics in Computer Science "Prerequisites: AP Computer Science and project proposal".
+- https://www.charlottecountryday.org/cd-education/upper-school/us-curriculum (HTTP 200): the linked guide is still the "2025–26 Course Catalogue".

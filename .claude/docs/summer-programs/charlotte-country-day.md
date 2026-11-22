@@ -318,6 +318,13 @@ Second re-scan after PR #509. Two checks, both against the school's own pages.
  Full Day 7.5 hours $450". The 2026 figures this record quotes from that page ($280 / $560 /
  $230 / $450) are no longer on it. The 2026 listing above is unchanged.
 
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1768310602/charlottecds/charlottecds/ffivawlw5eojdrzsp3wn/2026SummerProgramslisting.pdf (HTTP 200): June 15-18 half-day rows "$ 230.00", Camp Buccaneer and La Finca June 15-18 "$ 560.00". June 29-July 2 Camp Buccaneer "$ 460.00" and Outdoor Adventure "$ 480.00". Unchanged.
+- https://www.charlottecountryday.org/summer (HTTP 200): "over 150 exciting camp options for children ages 4–18" and "$30/week (supervised lunch – bring your own lunch)".
+- https://www.charlottecountryday.org/cd-experience/after-school (HTTP 200): "hundreds of camps for children ages 3–18".
+- https://www.charlottecountryday.org/summer/camp-ready (HTTP 200) says both "Lunch is provided in the dining hall for campers registered for Lunch Care." and, under Lunch Care, "Campers must bring their own packed lunch."
+
 
 ---
 

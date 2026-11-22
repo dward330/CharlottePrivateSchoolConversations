@@ -1,5 +1,5 @@
 # Covenant Day School — Course Offerings
-> Distilled from 4 source document(s) in `source-material/course-offerings/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 4 source document(s) in `source-material/course-offerings/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Curriculum Guide, High School Course and Elective Offerings, Lower School Curriculum, Middle School Curriculum
 
 
@@ -45,6 +45,7 @@
 
 ### Counting rules (decisions, recorded per the plan)
 
+- *(Superseded 2026-11-22: the app counts 89, and the August 2026 profile matrix totals 79, with no CP Statistics. See the High School Course and Elective Offerings record.)*
 - **`us-courses` = 80** — level-qualified course entries in the 2026-2027 matrix
  (a title offered at CP, Honors and AP counts once per level, matching how the
  other schools' catalogs list courses). Distinct titles ≈ 65.
@@ -315,6 +316,20 @@ Strength & Fitness Training
 Student Assistant
 
 ---
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- Nine tiles re-fetched 2026-11-22 (`/fs/elements/40349?is_popup=true&post_id=679…687&show_post=true`). Level-qualified entries: English 10, Math 13, Science 12, Social Studies 10, Bible 4, World Languages 14, Arts 16, Restoration and Sustainability 4, Other 3. Total 86. They list no CP Statistics, Honors Psychology, Theatre Tech or Intercultural Practicum.
+- https://www.covenantday.org/academics/college-guidance now links https://resources.finalsite.net/images/v1788450343/covenant/xsfiowwd1hd8ooel8svi/2026-2027HSGuidanceProfile.pdf (PDF created 2026-08-21; fetched). It replaces the earlier 2026-2027 edition (https://resources.finalsite.net/images/v1758547252/covenant/x8i0qddxvctsp5jqbpmt/2025-26HSGuidanceProfile.pdf, modified 2026-07-24; also fetched). The new edition reads "74% of the full-time high school faculty hold advanced degrees" (earlier: 80%), "3.5 units of Bible" and "5 units of electives" (earlier: 3 and 5.5). Its matrix keeps Honors Psychology, Theatre Tech and Intercultural Practicum, and has no CP Statistics (the earlier edition had it).
+- https://www.covenantday.org/arts/theater (fetched): "Theater I-II". The Arts tile lists one course, "Theatre".
+- https://www.covenantday.org/arts/music (fetched): "CDS Children's Choir (grades 3-5)". The Lower School Specials tile (`/fs/elements/40062?is_popup=true&post_id=673&show_post=true`, fetched): "4th & 5th grade students interested in singing can join the children’s choir."
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- All nine tiles and the August 2026 profile re-opened. The tiles total 86. The profile matrix totals 79 and 15 AP. The union shown in the app is 89: 86 plus Psychology Honors, Theatre Tech and Intercultural Practicum.
+- CP Statistics is on neither current source and was removed.
 
 
 ---
@@ -644,10 +659,14 @@ In addition to core subjects, students can choose two electives each year. Elect
 - https://resources.finalsite.net/images/v1695399666/covenant/zogqb5jfwbqp0henpd36/HighSchoolProfileFINAL9-12.pdf
 - https://resources.finalsite.net/images/v1726168257/covenant/jg1wjr67fw5ewgwy5bkz/2024-2025HSGuidanceProfilefinal_1.pdf
 - https://resources.finalsite.net/images/v1758547252/covenant/x8i0qddxvctsp5jqbpmt/2025-26HSGuidanceProfile.pdf
+- https://resources.finalsite.net/images/v1788450343/covenant/xsfiowwd1hd8ooel8svi/2026-2027HSGuidanceProfile.pdf
 - https://www.covenantday.org/academics
+- https://www.covenantday.org/academics/college-guidance
 - https://www.covenantday.org/academics/high-school
 - https://www.covenantday.org/academics/lower-school
 - https://www.covenantday.org/academics/middle-school
+- https://www.covenantday.org/arts/music
+- https://www.covenantday.org/arts/theater
 - https://www.covenantday.org/fs/elements/40062?is_popup=true&post_id=<POST_ID>&show_post=true"`
 - https://www.covenantday.org/fs/elements/40346?is_popup=true&post_id=<POST_ID>&show_post=true"`
 - https://www.covenantday.org/fs/elements/40349?is_popup=true&post_id=<POST_ID>&show_post=true"`

@@ -446,7 +446,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     timeline: [],
     reach: [
       'Two named counseling staff serve the whole high school — no separate college-only counselor is published',
-      'A "College Admissions Boot Camp" summer program (rising juniors & seniors) is run by the counseling staff, including 1–2 campus visits',
+      'A "College Admissions Boot Camp" for rising juniors and seniors was run by the counseling staff, with 1–2 campus visits (in the Summer 2023 catalog)',
     ],
     flags: [
       {
@@ -511,7 +511,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     headline:
       'The edge here is a broad-participation AP program with AP Capstone and a growing National-recognition record, set inside an explicitly biblical-worldview college-prep school.',
     subhead:
-      'What the school hands a family is a real AP catalog and a decade of College Board recognitions; what it does not publish is a research-program or national-competition track.',
+      'What the school hands a family is a real AP catalog and seven years of College Board recognitions. What it does not publish is a research-program or national-competition track.',
     levers: [
       {
         title: 'Lever 1 — Build the record',
@@ -529,7 +529,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
         glyph: '▲',
         items: [
           '**A clear, no-rank transcript** — the school does not rank. It publishes both grading scales and the honors/AP weighting, so a reader can judge how hard a student’s courses were.',
-          '**A signature summer on-ramp** — the counseling office runs a College Admissions Boot Camp for rising juniors and seniors, with campus visits.',
+          '**A past summer on-ramp** — the counseling office ran a College Admissions Boot Camp for rising juniors and seniors, with campus visits (in the Summer 2023 catalog).',
           '**A deep HBCU and NC-public pipeline** — 23 HBCUs and the full NC public system appear across the three acceptance lists, matching the school\'s applicant base.',
         ],
         note: 'No research program, Olympiad results, or national-competition credentials are published — the differentiators are AP breadth and legibility, not competition results.',
@@ -638,7 +638,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       'The acceptance lists mark no enrollments. Where did the Classes of 2024, 2025 and 2026 actually enroll, and how many went to each college?',
       'How does the school document and support College Board and ACT testing accommodations for a student with an ESS accommodations plan?',
       'Only 45 students took the SAT and 79 the ACT — what share of the class tests, and how is test-optional handled?',
-      'How does the College Admissions Boot Camp fit the application calendar, and is it open to all rising juniors and seniors?',
+      'Does the College Admissions Boot Camp still run? If so, how does it fit the application calendar, and is it open to all rising juniors and seniors?',
     ],
     flags: [],
     sources: [

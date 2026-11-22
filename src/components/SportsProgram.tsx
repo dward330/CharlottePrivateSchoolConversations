@@ -646,7 +646,7 @@ export function WinningRecordBody({ data }: { data: WinningRecord }) {
     <div className="sports-body">
       <Lead headline={data.headline} subhead={data.subhead} />
 
-      <Heading>{t('sports.stateTitleMatrix', { count: data.seasonLabels.length })}</Heading>
+      <Heading>{data.matrixTitle ?? t('sports.stateTitleMatrix', { count: data.seasonLabels.length })}</Heading>
       <div className="sports-scroll sports-scroll-tall">
         <div className="sports-matrix" style={{ gridTemplateColumns: cols }}>
           <div className="sports-th">{t('sports.program')}</div>

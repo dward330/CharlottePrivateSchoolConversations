@@ -107,7 +107,7 @@ export const charlotteChristian: SummerProgram = {
       /* ------------------------------------------------------------ sports -- */
       {
         name: 'CCS Tennis Camp',
-        desc: 'The widest grade span of any camp here — grade 1 through 11 — and offered in five of the six weeks.',
+        desc: 'Grades 1 through 11, in five of the six weeks; $160 in the four-day week.',
         category: 'sports',
         categoryLabel: 'Sports',
         grades: ['g12', 'g35', 'g68', 'g912'],
@@ -250,7 +250,7 @@ export const charlotteChristian: SummerProgram = {
       },
       {
         name: 'Young Knights Volleyball Camp',
-        desc: 'The cheapest camp in the catalog, in the four-day week.',
+        desc: 'A $155 camp in the four-day week, the catalog’s lowest price.',
         category: 'sports',
         categoryLabel: 'Sports',
         grades: ['g35'],
@@ -263,7 +263,7 @@ export const charlotteChristian: SummerProgram = {
       },
       {
         name: 'Dodgeball Camp',
-        desc: 'The other $155 four-day-week camp.',
+        desc: 'Another $155 camp in the four-day week.',
         category: 'sports',
         categoryLabel: 'Sports',
         grades: ['g12', 'g35', 'g68'],
@@ -289,7 +289,7 @@ export const charlotteChristian: SummerProgram = {
       },
       {
         name: 'Precision Tumbling Cheer Camp',
-        desc: 'Tumbling and cheer across the widest span of any sports camp here.',
+        desc: 'Tumbling and cheer for JK through grade 8.',
         category: 'sports',
         categoryLabel: 'Sports',
         grades: ['jk', 'g12', 'g35', 'g68'],
@@ -341,7 +341,7 @@ export const charlotteChristian: SummerProgram = {
       },
       {
         name: 'Nerf Camp',
-        desc: 'Active games camp.',
+        desc: 'Active games camp; $160 in the four-day week.',
         category: 'sports',
         categoryLabel: 'Sports/active',
         grades: ['g12', 'g35', 'g68'],
@@ -420,7 +420,7 @@ export const charlotteChristian: SummerProgram = {
       },
       {
         name: 'Lego Maniacs',
-        desc: 'The most-repeated camp in the catalog — offered in all six weeks.',
+        desc: 'The most-repeated camp in the catalog — offered in all six weeks; $155 in the four-day week.',
         category: 'stem',
         categoryLabel: 'STEM',
         grades: ['jk', 'g12', 'g35'],
@@ -485,7 +485,7 @@ export const charlotteChristian: SummerProgram = {
       },
       {
         name: 'Build It, Break It!',
-        desc: 'Deconstruction and rebuilding for the youngest makers.',
+        desc: 'Deconstruction and rebuilding for the youngest makers; $160 in the four-day week.',
         category: 'stem',
         categoryLabel: 'STEM/maker',
         grades: ['jk', 'g12'],
@@ -1335,7 +1335,7 @@ export const charlotteChristian: SummerProgram = {
     headline:
       'Every tier here is a half-day. To cover a working day, price two — the bridge care between them is free.',
     subhead:
-      'Six weeks are available. Week 3 is a four-day week and is priced down; the tiers below are the five-day rates.',
+      'Six weeks are available. Week 3 is a four-day week and is priced down. Apart from the first two tiers, the tiers below are five-day rates.',
     maxWeeks: 6,
     defaultWeeks: 3,
     defaultTier: 'standard',
@@ -1345,6 +1345,7 @@ export const charlotteChristian: SummerProgram = {
         label: 'Four-day week, discounted',
         panelLabel: 'Half-day camp · four-day week (discounted)',
         price: 155,
+        daysPerWeek: 4,
         detail: 'Week 3 only — 3 of the 133 sessions.',
       },
       {
@@ -1352,6 +1353,7 @@ export const charlotteChristian: SummerProgram = {
         label: 'Four-day week, standard',
         panelLabel: 'Half-day camp · four-day week',
         price: 160,
+        daysPerWeek: 4,
         detail: 'Week 3 only — 17 sessions.',
       },
       {

@@ -192,3 +192,18 @@ the sharing of snacks for this reason.").
 
 *Superseded 2026-11-14 — see Live-site recheck* (registration date: the live camp page now says "Check back in January 2027 for
 Camp Registration!").
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+https://docs.google.com/document/d/14ZB0WDM6t513Z0VYqYbaZkyObFOHxXwXjypYaB1_yX0/export?format=txt (HTTP 200,
+2026-11-22): "A $50 nonrefundable deposit/camp towards your camp tuition will be due upon registration. A $25
+administrative fee is assessed at the time of registration as well." The deposit is part of the camp price; only the
+$25 is additional.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+https://docs.google.com/document/d/14ZB0WDM6t513Z0VYqYbaZkyObFOHxXwXjypYaB1_yX0/export?format=txt (HTTP 200,
+2026-11-22): "A $50 nonrefundable deposit/camp towards your camp tuition will be due upon registration. A $25
+administrative fee is assessed at the time of registration as well." Derived: 3 x $265 + $25 = $820.

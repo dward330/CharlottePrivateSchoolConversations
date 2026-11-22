@@ -93,3 +93,22 @@ Internship (by application).
 Lists Concert Band (I–IV), Choir/Ensemble I–IV, Advanced Placement 2D Studio Art, Ceramics
 I–II, Fiber Crafts, Yearbook I, Yearbook II and Yearbook III - Honors. **No Jazz Band
 course.**
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22 (curl, HTTP 200).
+
+- https://hgchristian.org/arts-home: "Two drama productions: a fall show and spring musical".
+- https://hgchristian.org/performing-arts (resolves to /performing): "they perform in chapel, end-of-semester
+  concerts, band festivals, two drama productions and a spring musical." It lists "Technical Theatre & Management"
+  in high school and names no middle school choir. The course catalogs name a middle school Choir and no Technical
+  Theatre & Management course.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+https://www.hgchristian.org/arts-home ("Two drama productions: a fall show and spring musical") and
+https://www.hgchristian.org/performing-arts ("two drama productions and a spring musical"; "Technical Theatre &
+Management"; no Middle School choir) were both re-read 2026-11-22. Both readings are attributed on the page, and
+the 2026-27 Middle School catalog's "Choir" is cited from https://hgchristian.org/ms-courses.

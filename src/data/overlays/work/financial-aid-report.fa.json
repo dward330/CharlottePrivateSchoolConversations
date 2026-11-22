@@ -25,13 +25,12 @@
       "t": "شهریه و کمک‌هزینهٔ مالی — گزارش کاوش ژرف"
     },
     {
-      "text": "2026–27 school year · figures as of 24 Jul 2026",
-      "of": "08565aea",
+      "text": "2026–27 school year · figures as of 24 Jul 2026; bus fares and Extended Day registration 22 Nov 2026",
+      "of": "ed51b82e",
       "at": [
-        "providence-day:meta",
-        "charlotte-latin:meta"
+        "providence-day:meta"
       ],
-      "t": "سال تحصیلی 2026–27 · ارقام تا 24 ژوئیهٔ 2026"
+      "t": "سال تحصیلی 2026–27 · ارقام تا 24 ژوئیهٔ 2026؛ کرایهٔ اتوبوس و ثبت‌نام Extended Day تا 22 نوامبر 2026"
     },
     {
       "text": "Unpublished ≠ deficient.",
@@ -67,6 +66,7 @@
         "charlotte-christian:framing[1].title",
         "charlotte-country-day:framing[1].title",
         "cannon:framing[1].title",
+        "covenant-day:framing[1].title",
         "davidson-day:framing[1].title",
         "carmel-christian:framing[1].title",
         "hickory-grove-christian:framing[1].title"
@@ -309,20 +309,20 @@
       "t": "فراتر از شهریه — هزینهٔ واقعی تحصیل"
     },
     {
-      "text": "Sixteen confirmed components for a 2026–27 family — 9 unpriced",
-      "of": "c22c432b",
+      "text": "Seventeen confirmed components for a 2026–27 family — 9 unpriced",
+      "of": "d23c152c",
       "at": [
         "providence-day:sections[1].componentsTitle"
       ],
-      "t": "شانزده جزء تأییدشده برای یک خانوادهٔ 2026–27 — 9 مورد بدون قیمت"
+      "t": "هفده جزء تأییدشده برای یک خانوادهٔ 2026–27 — 9 مورد بدون قیمت"
     },
     {
-      "text": "All-in estimate not built: 56% unpriced > 33% threshold",
-      "of": "03b7f7a7",
+      "text": "All-in estimate not built: 53% unpriced > 33% threshold",
+      "of": "2d04ace4",
       "at": [
         "providence-day:sections[1].componentsAside"
       ],
-      "t": "برآورد کلی ساخته نشد: 56% بدون قیمت > آستانهٔ 33%"
+      "t": "برآورد کلی ساخته نشد: 53% بدون قیمت > آستانهٔ 33%"
     },
     {
       "text": "Tuition — four bands, priced",
@@ -365,7 +365,7 @@
       "at": [
         "providence-day:sections[1].components[4].label"
       ],
-      "t": "هزینهٔ برنامهٔ Extended Day · ماهانه $100–$750"
+      "t": "هزینهٔ برنامهٔ Extended Day · ماهانه از $100 تا $750"
     },
     {
       "text": "Bus transportation · $1,830–$1,965 round trip per student, 2026–27 (siblings $1,379–$1,507)",
@@ -384,12 +384,12 @@
       "t": "مشارکت در غذاخوری FLIK · بدون نرخ"
     },
     {
-      "text": "Extended Day enrichment classes · $200 (TK/K) or $220 (grades 1–5) a class",
-      "of": "0a1a0766",
+      "text": "Extended Day enrichment classes · $200 or $220 a class, by grade and program",
+      "of": "25cac1bb",
       "at": [
         "providence-day:sections[1].components[7].label"
       ],
-      "t": "کلاس‌های غنی‌سازی Extended Day · $200 (TK/K) یا $220 (پایه‌های 1–5) برای هر کلاس"
+      "t": "کلاس‌های غنی‌سازی Extended Day · $200 یا $220 برای هر کلاس، بسته به پایه و برنامه"
     },
     {
       "text": "8th grade field trip · no rate",
@@ -456,12 +456,20 @@
       "t": "خدمات تدریس خصوصی · بدون نرخ"
     },
     {
-      "text": "Of sixteen confirmed cost items, seven have a published price and nine do not. That leaves 56% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.",
-      "of": "63d1727b",
+      "text": "Extended Day registration · $80/yr",
+      "of": "b692a540",
+      "at": [
+        "providence-day:sections[1].components[16].label"
+      ],
+      "t": "ثبت‌نام Extended Day · $80/yr"
+    },
+    {
+      "text": "Of seventeen confirmed cost items, eight have a published price and nine do not. That leaves 53% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.",
+      "of": "d52d7665",
       "at": [
         "providence-day:sections[1].componentsNote"
       ],
-      "t": "از شانزده قلم هزینهٔ تأییدشده، هفت مورد قیمت منتشرشده دارند و نُه مورد ندارند. یعنی 56% بدون قیمت می‌ماند. این گزارش برآورد کلی را تنها وقتی نشان می‌دهد که یک‌سوم اقلام یا کمتر بدون قیمت باشند. پس در اینجا برآوردی نشان نمی‌دهد، به‌جای آنکه بازه‌ای را عمدتاً از قیمت‌های غایب بسازد. دو صندوق موقوفه (بخش 5) برای پرداخت هزینه‌های فراتر از شهریه وجود دارند. وجود آن‌ها شاهدی جداگانه است که این هزینه‌ها واقعی‌اند."
+      "t": "از هفده قلم هزینهٔ تأییدشده، هشت مورد قیمت منتشرشده دارند و نُه مورد ندارند. یعنی 53% بدون قیمت می‌ماند. این گزارش برآورد کلی را تنها وقتی نشان می‌دهد که یک‌سوم اقلام یا کمتر بدون قیمت باشند. پس در اینجا برآوردی نشان نمی‌دهد، به‌جای آنکه بازه‌ای را عمدتاً از قیمت‌های غایب بسازد. دو صندوق موقوفه (بخش 5) برای پرداخت هزینه‌های فراتر از شهریه وجود دارند. وجود آن‌ها شاهدی جداگانه است که این هزینه‌ها واقعی‌اند."
     },
     {
       "text": "The deposit, 2026–27",
@@ -907,12 +915,12 @@
       "t": "منتشر نشده — شش مورد"
     },
     {
-      "text": "No indexed or variable tuition · no sibling, clergy, military or first-responder discount · no general merit program · no figure for how many awards any named fund makes in a year or what a typical award is worth · no statement of whether a named-fund award stacks with or substitutes for a need-based grant. Absence of a published discount is not evidence none exists — several are commonly handled case by case.",
-      "of": "afdc144e",
+      "text": "No indexed or variable tuition · no sibling tuition discount (the bus has lower sibling fares) · no clergy, military or first-responder discount · no general merit program · no figure for how many awards any named fund makes in a year or what a typical award is worth · no statement of whether a named-fund award stacks with or substitutes for a need-based grant. Absence of a published discount is not evidence none exists — several are commonly handled case by case.",
+      "of": "6634ed57",
       "at": [
         "providence-day:sections[4].boxes[3].body"
       ],
-      "t": "هیچ شهریهٔ نمایه‌شده یا متغیر · هیچ تخفیف خواهر و برادری، روحانی، نظامی یا امدادگر · هیچ برنامهٔ عمومی شایستگی · هیچ رقمی از اینکه هر صندوق نام‌بردار در سال چند بورس می‌دهد یا یک بورس معمول چقدر می‌ارزد · هیچ بیانی از اینکه بورس یک صندوق نام‌بردار روی کمک‌هزینهٔ بر پایهٔ نیاز انباشته می‌شود یا جایگزین آن. نبود یک تخفیف منتشرشده گواه نبود آن نیست — چند مورد معمولاً به‌صورت موردی رسیدگی می‌شوند."
+      "t": "هیچ شهریهٔ نمایه‌شده یا متغیر · هیچ تخفیف شهریهٔ خواهر و برادری (اتوبوس کرایهٔ کمتری برای خواهر و برادرها دارد) · هیچ تخفیف روحانی، نظامی یا امدادگر · هیچ برنامهٔ عمومی شایستگی · هیچ رقمی از اینکه هر صندوق نام‌بردار در سال چند بورس می‌دهد یا یک بورس معمول چقدر می‌ارزد · هیچ بیانی از اینکه بورس یک صندوق نام‌بردار روی کمک‌هزینهٔ بر پایهٔ نیاز انباشته می‌شود یا جایگزین آن. نبود یک تخفیف منتشرشده گواه نبود آن نیست — چند مورد معمولاً به‌صورت موردی رسیدگی می‌شوند."
     },
     {
       "text": "Paying the Balance",
@@ -950,7 +958,8 @@
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
         "cannon:sections[4].plans[0].figure",
-        "covenant-day:sections[5].plans[0].figure"
+        "covenant-day:sections[5].plans[0].figure",
+        "gaston-day:sections[5].plans[0].figure"
       ],
       "t": "1×"
     },
@@ -1215,12 +1224,20 @@
       "t": "اگر دانش‌آموزی پس از آغاز سال تحصیلی انصراف دهد چه تعهدی بر عهده داریم؟"
     },
     {
-      "text": "Do you offer a sibling, employee, clergy, military or first-responder accommodation?",
-      "of": "3b9d36aa",
+      "text": "Do you offer a sibling, employee, clergy, military or first-responder tuition accommodation?",
+      "of": "7cf8a106",
       "at": [
         "providence-day:sections[6].questions[9]"
       ],
-      "t": "آیا تسهیلاتی برای خواهر و برادر، کارمند، روحانی، نظامی یا امدادگر ارائه می‌دهید؟"
+      "t": "آیا تسهیلات شهریه‌ای برای خواهر و برادر، کارمند، روحانی، نظامی یا امدادگر ارائه می‌دهید؟"
+    },
+    {
+      "text": "2026–27 school year · figures as of 24 Jul 2026 · bus and Talons fees as of 22 Nov 2026",
+      "of": "7871af58",
+      "at": [
+        "charlotte-latin:meta"
+      ],
+      "t": "سال تحصیلی 2026–27 · ارقام تا 24 ژوئیهٔ 2026 · هزینه‌های اتوبوس و Talons تا 22 نوامبر 2026"
     },
     {
       "text": "\"Not published\" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.",
@@ -1239,12 +1256,12 @@
       "t": "«منتشر نشده» نشانهٔ کاستی در شفافیت است — و هرگز داوری‌ای که برنامهٔ کمک‌هزینه کوچک یا ناخوشایند است."
     },
     {
-      "text": "Every dollar figure carries the school year it applies to. The transport page sits a year behind the 2026–27 tuition table — different cycles, not a contradiction.",
-      "of": "eb756613",
+      "text": "Every dollar figure carries the school year it applies to. The Student Life Transportation page gives 2026–27 bus fees. The Admissions Transportation page still gives 2025–26 fees.",
+      "of": "349ec10c",
       "at": [
         "charlotte-latin:framing[1].body"
       ],
-      "t": "هر رقم دلاری سال تحصیلی‌ای را که به آن مربوط است با خود دارد. صفحهٔ حمل‌ونقل یک سال عقب‌تر از جدول شهریهٔ 2026–27 است — دوره‌های متفاوت، نه یک ناسازگاری."
+      "t": "هر رقم دلاری سال تحصیلی‌ای را که به آن مربوط است با خود دارد. صفحهٔ حمل‌ونقل Student Life هزینه‌های اتوبوس 2026–27 را می‌دهد. صفحهٔ حمل‌ونقل پذیرش هنوز هزینه‌های 2025–26 را می‌دهد."
     },
     {
       "text": "Tuition assistance toward attending this school — not the FAFSA, CSS Profile or college merit money. Not financial advice. Roughly 75% of this series' questions could be answered from published sources.",
@@ -1303,20 +1320,20 @@
       "t": "زمینهٔ ثبت‌نام: در مجموع 1,555 دانش‌آموز، 586 نفر در Upper School (نمایهٔ Upper School سال 2025–26)."
     },
     {
-      "text": "Fourteen confirmed components for a 2026–27 family — 8 unpriced or a year behind",
-      "of": "c07e9fd1",
+      "text": "Fourteen confirmed components for a 2026–27 family — 6 unpriced",
+      "of": "e0b124f6",
       "at": [
         "charlotte-latin:sections[1].componentsTitle"
       ],
-      "t": "چهارده جزء تأییدشده برای یک خانوادهٔ 2026–27 — 8 مورد بدون قیمت یا یک سال عقب"
+      "t": "چهارده جزء تأییدشده برای یک خانوادهٔ 2026–27 — 6 مورد بدون قیمت"
     },
     {
-      "text": "All-in estimate not built: 57% unpriced > 33% threshold",
-      "of": "6e420628",
+      "text": "All-in estimate not built: 43% unpriced > 33% threshold",
+      "of": "bebf6ea1",
       "at": [
         "charlotte-latin:sections[1].componentsAside"
       ],
-      "t": "برآورد کلی ساخته نشد: 57% بدون قیمت > آستانهٔ 33%"
+      "t": "برآورد کلی ساخته نشد: 43% بدون قیمت > آستانهٔ 33%"
     },
     {
       "text": "Class trip advance · up to $710 (gr. 5–8, 12)",
@@ -1351,12 +1368,12 @@
       "t": "Extended Day باشگاه Hawks · قیمت‌گذاری‌شده، تنها TK–5"
     },
     {
-      "text": "Bus service · 2025–26 rates only",
-      "of": "5a1f5dba",
+      "text": "Bus service · $1,900 round trip, $950 one way",
+      "of": "20eb1b35",
       "at": [
         "charlotte-latin:sections[1].components[6].label"
       ],
-      "t": "سرویس اتوبوس · تنها نرخ‌های 2025–26"
+      "t": "سرویس اتوبوس · $1,900 رفت و برگشت، $950 یک‌طرفه"
     },
     {
       "text": "Textbooks, grades 6–12 · no rate",
@@ -1399,12 +1416,12 @@
       "t": "برنامه‌های غنی‌سازی · بدون نرخ"
     },
     {
-      "text": "Talons youth sports · no rate",
-      "of": "d3f2d35c",
+      "text": "Talons youth sports · $195–$375 for the winter and spring programs priced so far",
+      "of": "214b08ac",
       "at": [
         "charlotte-latin:sections[1].components[12].label"
       ],
-      "t": "ورزش نوجوانان Talons · بدون نرخ"
+      "t": "ورزش نوجوانان Talons · از $195 تا $375 برای برنامه‌های زمستان و بهار که تاکنون قیمت‌گذاری شده‌اند"
     },
     {
       "text": "Lower School uniforms · supplier purchase, no amount",
@@ -1415,28 +1432,28 @@
       "t": "لباس Lower School · خرید از تأمین‌کننده، بدون مبلغ"
     },
     {
-      "text": "Six components are priced at 2026–27. The rest are unpriced or published only at 2025–26 rates. The school's own strategic plan confirms these charges are real: families \"often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities.\"",
-      "of": "a00d6681",
+      "text": "Eight components are priced at 2026–27. The other six have no published rate. The school's own strategic plan confirms these charges are real: families \"often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities.\"",
+      "of": "472d94a6",
       "at": [
         "charlotte-latin:sections[1].componentsNote"
       ],
-      "t": "شش جزء با نرخ 2026–27 قیمت‌گذاری شده‌اند. بقیه بدون قیمت‌اند یا تنها با نرخ‌های 2025–26 منتشر شده‌اند. طرح راهبردی خود مدرسه تأیید می‌کند که این هزینه‌ها واقعی‌اند: خانواده‌ها «اغلب با کمک‌هزینهٔ شهریه می‌آیند اما برای هزینه‌های افزوده آماده نیستند… از جمله هزینه‌های ورزش، سفرهای مدرسه و دیگر فعالیت‌ها.»"
+      "t": "هشت جزء با نرخ 2026–27 قیمت‌گذاری شده‌اند. شش جزء دیگر نرخ منتشرشده‌ای ندارند. طرح راهبردی خود مدرسه تأیید می‌کند که این هزینه‌ها واقعی‌اند: خانواده‌ها «اغلب با کمک‌هزینهٔ شهریه می‌آیند اما برای هزینه‌های افزوده آماده نیستند… از جمله هزینه‌های ورزش، سفرهای مدرسه و دیگر فعالیت‌ها.»"
     },
     {
-      "text": "Bus service — a year behind the tuition table",
-      "of": "91a888c5",
+      "text": "Bus service — two pages, two school years",
+      "of": "04773848",
       "at": [
         "charlotte-latin:sections[1].boxes[0].title"
       ],
-      "t": "سرویس اتوبوس — یک سال عقب‌تر از جدول شهریه"
+      "t": "سرویس اتوبوس — دو صفحه، دو سال تحصیلی"
     },
     {
-      "text": "Round trip **$1,800** · one way **$900** · activity bus **$450** per season. The fee panel is headed \"Bus Service Annual Fees 2025-26\" while the tuition page has moved to 2026–27, so a family budgeting for next year cannot price the bus from the website.",
-      "of": "aa5531a5",
+      "text": "The Student Life Transportation page lists 2026–27 fees: round trip **$1,900** and one way **$950**. Students without a round-trip plan pay by activity. The Middle and Upper School sports activity bus costs **$550** per season. The Talons and enrichment buses cost **$80** per session. Play-practice buses cost **$80** per play, or **$160** in Middle School. The Admissions Transportation page still lists 2025–26 fees: **$1,800** round trip, **$900** one way and **$450** per season for the activity bus.",
+      "of": "aa1090b9",
       "at": [
         "charlotte-latin:sections[1].boxes[0].body"
       ],
-      "t": "رفت و برگشت **$1,800** · یک‌طرفه **$900** · اتوبوس فعالیت **$450** در هر فصل. پنل هزینه با عنوان «Bus Service Annual Fees 2025-26» است در حالی که صفحهٔ شهریه به 2026–27 رفته، پس خانواده‌ای که برای سال آینده بودجه می‌بندد نمی‌تواند از وب‌سایت قیمت اتوبوس را بیابد."
+      "t": "صفحهٔ حمل‌ونقل Student Life هزینه‌های 2026–27 را فهرست می‌کند: رفت و برگشت **$1,900** و یک‌طرفه **$950**. دانش‌آموزان بدون طرح رفت و برگشت به ازای هر فعالیت می‌پردازند. اتوبوس فعالیت ورزشی Middle و Upper School در هر فصل **$550** هزینه دارد. اتوبوس‌های Talons و غنی‌سازی در هر دوره **$80** هزینه دارند. اتوبوس‌های تمرین نمایش برای هر نمایش **$80**، یا در Middle School مبلغ **$160** هزینه دارند. صفحهٔ حمل‌ونقل پذیرش هنوز هزینه‌های 2025–26 را فهرست می‌کند: رفت و برگشت **$1,800**، یک‌طرفه **$900** و اتوبوس فعالیت **$450** در هر فصل."
     },
     {
       "text": "Hawks' Club — two rates break their own pattern",
@@ -1712,12 +1729,12 @@
       "t": "پشتیبانی تکمیلی"
     },
     {
-      "text": "Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. Its financial aid FAQ adds that students who earn a named endowed scholarship may also have extra school costs covered. Families learn at acceptance, from the school's stewardship and scholarship administrator, whether they qualify and what is covered. It does not publish what else this help covers, or how much need makes a family eligible.",
-      "of": "7231cc84",
+      "text": "Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. Its financial aid FAQ adds that students who earn a named endowed scholarship may also have extra school costs covered. Families learn at acceptance, from the school's stewardship and scholarship administrator, whether they qualify and what is covered. The school's Plus Fund helps families on substantial aid with costs beyond tuition. The examples it names are lunch, books, rentals, sports fees, travel and learning resources. The school does not publish how much need makes a family eligible.",
+      "of": "d5e357fd",
       "at": [
         "charlotte-latin:sections[3].boxes[3].body"
       ],
-      "t": "فراتر از کمک‌هزینهٔ شهریه، مدرسه می‌گوید برای **پرنیازترین خانواده‌هایش** کمک بیشتری برای ملزومات پایهٔ مدرسه، **از جمله ناهار**، را نیز پوشش می‌دهد. سند پرسش و پاسخ کمک‌هزینهٔ مدرسه می‌افزاید که برای دانش‌آموزانی که یک بورس موقوفهٔ نام‌بردار به دست می‌آورند، ممکن است هزینه‌های اضافی مدرسه نیز پوشش داده شود. خانواده‌ها هنگام پذیرش از طریق مسئول امور اهداکنندگان و بورس‌های مدرسه باخبر می‌شوند که آیا واجد شرایط‌اند و چه چیزی پوشش داده می‌شود. مدرسه منتشر نمی‌کند که این کمک چه چیز دیگری را پوشش می‌دهد، یا یک خانواده با چه میزان نیاز واجد شرایط می‌شود."
+      "t": "فراتر از کمک‌هزینهٔ شهریه، مدرسه می‌گوید برای **پرنیازترین خانواده‌هایش** کمک بیشتری برای ملزومات پایهٔ مدرسه، **از جمله ناهار**، را نیز پوشش می‌دهد. سند پرسش و پاسخ کمک‌هزینهٔ مدرسه می‌افزاید که برای دانش‌آموزانی که یک بورس موقوفهٔ نام‌بردار به دست می‌آورند، ممکن است هزینه‌های اضافی مدرسه نیز پوشش داده شود. خانواده‌ها هنگام پذیرش از طریق مسئول امور اهداکنندگان و بورس‌های مدرسه باخبر می‌شوند که آیا واجد شرایط‌اند و چه چیزی پوشش داده می‌شود. صندوق Plus Fund مدرسه به خانواده‌هایی که کمک‌هزینهٔ چشمگیر می‌گیرند در هزینه‌های فراتر از شهریه کمک می‌کند. نمونه‌هایی که نام می‌برد ناهار، کتاب، اجاره‌ها، هزینه‌های ورزش، سفر و منابع آموزشی است. مدرسه منتشر نمی‌کند که یک خانواده با چه میزان نیاز واجد شرایط می‌شود."
     },
     {
       "text": "HOW TO READ THE 990 FIGURE",
@@ -1841,7 +1858,8 @@
       "at": [
         "charlotte-latin:sections[5].plans[1].figure",
         "charlotte-country-day:sections[4].plans[2].figure",
-        "cannon:sections[4].plans[1].figure"
+        "cannon:sections[4].plans[1].figure",
+        "gaston-day:sections[5].plans[1].figure"
       ],
       "t": "2×"
     },
@@ -1986,12 +2004,12 @@
       "t": "ارقام دوران را حساب‌وکتاب بخوانید، نه پیش‌بینی"
     },
     {
-      "text": "The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500). They assume today's prices hold every year, which they will not: published tuition is reset every year and has risen in the past. They are tuition only, before any aid. They exclude the deposit, trips, insurance, transport, extended day, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.",
-      "of": "47586087",
+      "text": "The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500). They assume today's prices hold every year, which they will not: published tuition is reset every year and has risen in the past. They are tuition only, before any aid. They exclude the deposit, trips, insurance, transport, extended day, Talons, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.",
+      "of": "a41b8e2c",
       "at": [
         "charlotte-latin:sections[6].boxes[1].body"
       ],
-      "t": "مجموع‌های بالا طیف‌های 2026–27 را در یک دورهٔ کامل به کار می‌برند (2 سال با $27,600؛ 5 سال با $32,600؛ 3 سال با $35,200؛ 4 سال با $36,500). فرض می‌کنند قیمت‌های امروز هر سال پابرجا می‌مانند، که نمی‌مانند: شهریهٔ منتشرشده هر سال بازتنظیم می‌شود و در گذشته افزایش یافته است. این‌ها تنها شهریه‌اند، پیش از هرگونه کمک‌هزینه. ودیعه، سفرها، بیمه، حمل‌ونقل، Extended Day، وعده‌های غذایی، کتاب‌ها و هر قلم بدون قیمت در بخش 02 را کنار می‌گذارند. تنها برای دادن حسی از مقیاس وجود دارند."
+      "t": "مجموع‌های بالا طیف‌های 2026–27 را در یک دورهٔ کامل به کار می‌برند (2 سال با $27,600؛ 5 سال با $32,600؛ 3 سال با $35,200؛ 4 سال با $36,500). فرض می‌کنند قیمت‌های امروز هر سال پابرجا می‌مانند، که نمی‌مانند: شهریهٔ منتشرشده هر سال بازتنظیم می‌شود و در گذشته افزایش یافته است. این‌ها تنها شهریه‌اند، پیش از هرگونه کمک‌هزینه. ودیعه، سفرها، بیمه، حمل‌ونقل، Extended Day، Talons، وعده‌های غذایی، کتاب‌ها و هر قلم بدون قیمت در بخش 02 را کنار می‌گذارند. تنها برای دادن حسی از مقیاس وجود دارند."
     },
     {
       "text": "THE MIDDLE-INCOME QUESTION",
@@ -2019,12 +2037,12 @@
       "t": "دو خطر در پیمایش"
     },
     {
-      "text": "**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027. But search engines still show saved text from the same address that gives 15 January 2026. Open the page directly rather than trusting the search snippet. **The contact address is misspelled in one place**. The tuition page asks for questions at an email address whose domain has two letters swapped. The correct address appears elsewhere on the same page. Mail to the misspelled version will not arrive, so use the contact panel.",
-      "of": "ffd4a62c",
+      "text": "**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027. But search engines still show saved text from the same address that gives 15 January 2026. Open the page directly rather than trusting the search snippet. **The contact address is misspelled in one document**. The school's \"How to Apply for Financial Aid\" document gives an email address whose domain has two letters swapped. The tuition page has the correct address, so use that one.",
+      "of": "b1bf3618",
       "at": [
         "charlotte-latin:sections[6].boxes[3].body"
       ],
-      "t": "**یک صفحهٔ کهنه هنوز در گردش است.** صفحهٔ زندهٔ شهریه مهلت کمک‌هزینه را 15 ژانویهٔ 2027 می‌دهد. اما موتورهای جست‌وجو هنوز متن ذخیره‌شده‌ای از همان نشانی را نشان می‌دهند که 15 ژانویهٔ 2026 را می‌دهد. به‌جای اعتماد به تکه‌متن جست‌وجو، صفحه را مستقیم باز کنید. **نشانی تماس در یک جا نادرست نوشته شده است**. صفحهٔ شهریه برای پرسش‌ها به نشانی ایمیلی دعوت می‌کند که دامنه‌اش دو حرف جابه‌جا دارد. نشانی درست جای دیگری در همان صفحه می‌آید. نامه به نسخهٔ نادرست نمی‌رسد، پس از پنل تماس استفاده کنید."
+      "t": "**یک صفحهٔ کهنه هنوز در گردش است.** صفحهٔ زندهٔ شهریه مهلت کمک‌هزینه را 15 ژانویهٔ 2027 می‌دهد. اما موتورهای جست‌وجو هنوز متن ذخیره‌شده‌ای از همان نشانی را نشان می‌دهند که 15 ژانویهٔ 2026 را می‌دهد. به‌جای اعتماد به تکه‌متن جست‌وجو، صفحه را مستقیم باز کنید. **نشانی تماس در یک سند نادرست نوشته شده است**. سند \"How to Apply for Financial Aid\" مدرسه نشانی ایمیلی می‌دهد که دامنه‌اش دو حرف جابه‌جا دارد. صفحهٔ شهریه نشانی درست را دارد، پس از آن استفاده کنید."
     },
     {
       "text": "Each is unanswerable from published sources and materially affects what a family pays or receives.",
@@ -2054,26 +2072,18 @@
       "t": "یک سال وعده‌های غذایی مدرسه بر حسب دوره چقدر هزینه دارد، و کتاب‌های درسی در پایه‌های 6، 9 و 12 چقدر؟"
     },
     {
-      "text": "What are the participation costs for specific sports and activities?",
-      "of": "e0556d22",
+      "text": "What are the participation costs for school athletics and activities, beyond the Talons fees already published?",
+      "of": "2074d70c",
       "at": [
         "charlotte-latin:sections[6].questions[2]"
       ],
-      "t": "هزینه‌های مشارکت برای ورزش‌ها و فعالیت‌های خاص چقدر است؟"
-    },
-    {
-      "text": "What are the 2026–27 bus rates?",
-      "of": "8d402598",
-      "at": [
-        "charlotte-latin:sections[6].questions[3]"
-      ],
-      "t": "نرخ‌های اتوبوس 2026–27 چقدر است؟"
+      "t": "هزینه‌های مشارکت در ورزش‌ها و فعالیت‌های مدرسه، فراتر از هزینه‌های Talons که پیش‌تر منتشر شده، چقدر است؟"
     },
     {
       "text": "What is the current share of students receiving tuition assistance, and for which year?",
       "of": "fc87bf28",
       "at": [
-        "charlotte-latin:sections[6].questions[4]"
+        "charlotte-latin:sections[6].questions[3]"
       ],
       "t": "سهم جاری دانش‌آموزان دریافت‌کنندهٔ کمک‌هزینهٔ شهریه چقدر است، و برای کدام سال؟"
     },
@@ -2081,7 +2091,7 @@
       "text": "What is the median award, what is the range from smallest to largest, and does any award reach full tuition?",
       "of": "8edf084f",
       "at": [
-        "charlotte-latin:sections[6].questions[5]"
+        "charlotte-latin:sections[6].questions[4]"
       ],
       "t": "میانهٔ بورس چقدر است، دامنه از کوچک‌ترین تا بزرگ‌ترین چقدر، و آیا هیچ بورسی به کل شهریه می‌رسد؟"
     },
@@ -2089,7 +2099,7 @@
       "text": "For each named scholarship: the amount, how many are awarded, how recipients are chosen among eligible students, and whether it can be held alongside need-based aid?",
       "of": "9d60cbb9",
       "at": [
-        "charlotte-latin:sections[6].questions[6]"
+        "charlotte-latin:sections[6].questions[5]"
       ],
       "t": "برای هر بورس نام‌بردار: مبلغ، شمار اعطاشده، نحوهٔ گزینش دریافت‌کنندگان از میان دانش‌آموزان واجد شرایط، و اینکه آیا در کنار کمک‌هزینهٔ بر پایهٔ نیاز نگه داشته می‌شود؟"
     },
@@ -2097,7 +2107,7 @@
       "text": "Do awards typically renew at a consistent level from year to year, and is there an appeals or change-of-circumstance process?",
       "of": "622e5598",
       "at": [
-        "charlotte-latin:sections[6].questions[7]"
+        "charlotte-latin:sections[6].questions[6]"
       ],
       "t": "آیا بورس‌ها معمولاً از سالی به سال دیگر در سطحی یکسان تمدید می‌شوند، و آیا فرایند تجدیدنظر یا تغییر شرایطی هست؟"
     },
@@ -2105,19 +2115,17 @@
       "text": "Please confirm the four-day and five-day Hawks' Club rates in the two rows flagged in Section 02.",
       "of": "bf31a8a6",
       "at": [
-        "charlotte-latin:sections[6].questions[8]"
+        "charlotte-latin:sections[6].questions[7]"
       ],
       "t": "لطفاً نرخ‌های چهارروزه و پنج‌روزهٔ باشگاه Hawks را در دو سطر نشان‌دار در بخش 02 تأیید کنید."
     },
     {
-      "text": "2026–27 school year · figures as of 23 Jul 2026",
-      "of": "a311c291",
+      "text": "2026–27 school year · figures as of 23 Jul 2026; aid dates and requirement 22 Nov 2026",
+      "of": "ae33c130",
       "at": [
-        "charlotte-christian:meta",
-        "charlotte-country-day:meta",
-        "cannon:meta"
+        "charlotte-christian:meta"
       ],
-      "t": "سال تحصیلی 2026–27 · ارقام تا 23 ژوئیهٔ 2026"
+      "t": "سال تحصیلی 2026–27 · ارقام تا 23 ژوئیهٔ 2026؛ تاریخ‌ها و الزام کمک‌هزینه تا 22 نوامبر 2026"
     },
     {
       "text": "Every dollar figure carries the school year it applies to. Contract terms below are tagged 2023–24 — three years behind the tuition table.",
@@ -2473,20 +2481,20 @@
       "t": "درخواست‌دهندگان تازهٔ پایه‌های 1–12 تا این تاریخ آگاه می‌شوند (دورهٔ 2026–27). درخواست‌های دیرتر همچنان پذیرفته می‌شوند، اما بورس‌ها به منابع موجود در هر پایه محدودند"
     },
     {
-      "text": "1 Nov 2026",
-      "of": "de7f4b1b",
+      "text": "2 Nov 2026",
+      "of": "684418b0",
       "at": [
         "charlotte-christian:sections[2].timeline[3].when"
       ],
-      "t": "1 نوامبر 2026"
+      "t": "2 نوامبر 2026"
     },
     {
-      "text": "Priority deadline for **current families** — via Clarity",
-      "of": "0b98338b",
+      "text": "Priority deadline for **current families** — via Clarity. Awards are sent at re-enrollment in February",
+      "of": "ed28802d",
       "at": [
         "charlotte-christian:sections[2].timeline[3].detail"
       ],
-      "t": "مهلت اولویت برای **خانواده‌های کنونی** — از طریق Clarity"
+      "t": "مهلت اولویت برای **خانواده‌های کنونی** — از طریق Clarity. نتایج کمک‌هزینه هنگام ثبت‌نام مجدد در فوریه فرستاده می‌شود"
     },
     {
       "text": "22 Jan 2027",
@@ -2497,28 +2505,28 @@
       "t": "22 ژانویه 2027"
     },
     {
-      "text": "Priority deadline for **prospective families** — via Clarity",
-      "of": "a31cb4fa",
+      "text": "Priority deadline for **prospective families** — via Clarity. Awards are sent at acceptance, with the enrollment contract",
+      "of": "6584c07b",
       "at": [
         "charlotte-christian:sections[2].timeline[4].detail"
       ],
-      "t": "مهلت اولویت برای **خانواده‌های متقاضی** — از طریق Clarity"
+      "t": "مهلت اولویت برای **خانواده‌های متقاضی** — از طریق Clarity. نتایج کمک‌هزینه هنگام پذیرش، همراه با قرارداد ثبت‌نام فرستاده می‌شود"
     },
     {
-      "text": "An unusual requirement — and since withdrawn",
-      "of": "e542e5a5",
+      "text": "An unusual requirement",
+      "of": "03039a1a",
       "at": [
         "charlotte-christian:sections[2].boxes[0].title"
       ],
-      "t": "الزامی غیرمعمول — که اکنون برداشته شده است"
+      "t": "الزامی غیرمعمول"
     },
     {
-      "text": "Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**. Applications for that state program opened 2 February. Few schools make their own aid application depend on a state application. **It no longer applies**: the school's live tuition page (retrieved 14 Sep 2026) does not mention it. That fits the school's own note that NC Opportunity Scholarship participation ends after 2025–26.",
-      "of": "ea1fb695",
+      "text": "Every family applying for aid must **also apply to the North Carolina Opportunity Scholarship Program**. Applications for that state program open 1 Feb 2027. Few schools make their own aid application depend on a state application.",
+      "of": "99f735e1",
       "at": [
         "charlotte-christian:sections[2].boxes[0].body"
       ],
-      "t": "در سراسر دورهٔ 2026–27، هر خانوادهٔ درخواست‌دهنده باید **همچنین به North Carolina Opportunity Scholarship Program درخواست می‌داد**. درخواست‌های این برنامهٔ ایالتی از 2 فوریه آغاز شد. کمتر مدرسه‌ای درخواست کمک‌هزینهٔ خود را مشروط به یک درخواست ایالتی می‌کند. **دیگر کاربرد ندارد**: صفحهٔ زندهٔ شهریهٔ مدرسه (بازیابی‌شده در 14 سپتامبر 2026) اشاره‌ای به آن نمی‌کند. این با یادداشت خود مدرسه همسو است که مشارکت در NC Opportunity Scholarship پس از 2025–26 پایان می‌یابد."
+      "t": "هر خانواده‌ای که درخواست کمک‌هزینه می‌دهد باید **همچنین به North Carolina Opportunity Scholarship Program درخواست دهد**. درخواست‌های این برنامهٔ ایالتی از 1 فوریهٔ 2027 آغاز می‌شود. کمتر مدرسه‌ای درخواست کمک‌هزینهٔ خود را مشروط به یک درخواست ایالتی می‌کند."
     },
     {
       "text": "DOCUMENTATION HAZARD",
@@ -2924,12 +2932,12 @@
       "t": "آیا هزینه‌های مشارکت ورزشی یا هنرهای زیبا هست، و مبالغ چقدرند؟"
     },
     {
-      "text": "2026–27 school year · figures as of 18 Aug 2026",
-      "of": "f52eb327",
+      "text": "2026–27 school year · figures as of 18 Aug 2026; fees, plans and aid dates 22 Nov 2026",
+      "of": "839d30fa",
       "at": [
         "charlotte-catholic:meta"
       ],
-      "t": "سال تحصیلی 2026–27 · ارقام تا 18 اوت 2026"
+      "t": "سال تحصیلی 2026–27 · ارقام تا 18 اوت 2026؛ هزینه‌ها، طرح‌ها و تاریخ‌های کمک‌هزینه تا 22 نوامبر 2026"
     },
     {
       "text": "Tuition is set by the diocese, not the school.",
@@ -3068,12 +3076,12 @@
       "t": "هزینهٔ درخواست — $120 برای هر دانش‌آموز"
     },
     {
-      "text": "Continuous enrollment fee — $150 per returning student",
-      "of": "123a2fbe",
+      "text": "Continuous enrollment fee — $150 per new student; $150 (web page) or $75 (PDF schedule) per returning student",
+      "of": "d61e10d6",
       "at": [
         "charlotte-catholic:sections[1].components[2].label"
       ],
-      "t": "هزینهٔ ثبت‌نام پیوسته — $150 برای هر دانش‌آموز بازگشتی"
+      "t": "هزینهٔ ثبت‌نام پیوسته — $150 برای هر دانش‌آموز تازه‌وارد؛ $150 (صفحهٔ وب) یا $75 (برنامهٔ هزینه‌ها در PDF) برای هر دانش‌آموز بازگشتی"
     },
     {
       "text": "FACTS payment plan fee — $15–$45 per family",
@@ -3081,7 +3089,7 @@
       "at": [
         "charlotte-catholic:sections[1].components[3].label"
       ],
-      "t": "هزینهٔ طرح پرداخت FACTS — $15–$45 برای هر خانواده"
+      "t": "هزینهٔ طرح پرداخت FACTS — از $15 تا $45 برای هر خانواده"
     },
     {
       "text": "Clarity aid application fee — $65",
@@ -3124,12 +3132,12 @@
       "t": "**هزینهٔ سرمایه‌ای به‌جای هر دانش‌آموز برای هر خانواده گرفته می‌شود**، پس برخلاف هزینه‌های درخواست و ثبت‌نام، با شمار فرزندان ثبت‌نام‌شده افزایش نمی‌یابد."
     },
     {
-      "text": "A first-year community-rate family with one student pays $21,562 + $1,995 + $120 = **$23,677** before books, activities or athletics.",
-      "of": "c3f0715f",
+      "text": "A first-year community-rate family with one student pays $21,562 + $1,995 + $120 + $150 = **$23,827**. That is before the FACTS plan fee, books, activities or athletics.",
+      "of": "e0b688fb",
       "at": [
         "charlotte-catholic:sections[1].componentsAside"
       ],
-      "t": "یک خانوادهٔ سال‌اولی با نرخ عمومی و یک دانش‌آموز، پیش از کتاب، فعالیت‌ها یا ورزش، مبلغ $21,562 + $1,995 + $120 = **$23,677** می‌پردازد."
+      "t": "یک خانوادهٔ سال‌اولی با نرخ عمومی و یک دانش‌آموز، مبلغ $21,562 + $1,995 + $120 + $150 = **$23,827** می‌پردازد. این پیش از هزینهٔ طرح FACTS، کتاب، فعالیت‌ها یا ورزش است."
     },
     {
       "text": "How Aid Is Assessed and When",
@@ -3188,6 +3196,22 @@
       "t": "**مهلت Family Individualized Tuition (FIT) برای دانش‌آموزان بازگشتی.** خانواده‌های تازه تشویق می‌شوند همراه با درخواست پذیرش، درخواست کمک‌هزینه هم بدهند"
     },
     {
+      "text": "By March 1, 2027",
+      "of": "6cb9164d",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[3].when"
+      ],
+      "t": "تا 1 مارس 2027"
+    },
+    {
+      "text": "**2027-28 FIT applications** completed by this date get a decision by email on March 16, 2027",
+      "of": "32b0e2f5",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[3].detail"
+      ],
+      "t": "برای **درخواست‌های FIT سال 2027-28** که تا این تاریخ کامل شوند، تصمیم در 16 مارس 2027 با ایمیل اعلام می‌شود"
+    },
+    {
       "text": "Platform — Clarity, not FACTS",
       "of": "fca02a28",
       "at": [
@@ -3236,12 +3260,12 @@
       "t": "فرزند دوم **10%**، سوم **25%**، چهارم **50%**، پنجم و بیشتر **100%**. توجه کنید که این‌ها تنها بر نرخ کاتولیک مشارکت‌کننده اعمال می‌شوند و برتری وضعیت عضویت در کلیسای محلی را برای خانواده‌های پرجمعیت‌تر دوچندان می‌کنند."
     },
     {
-      "text": "No decision timeline, appeals process, or award-ceiling policy is published. Whether FIT awards are renewed automatically on re-application is not stated.",
-      "of": "19c32b5c",
+      "text": "No appeals process or award-ceiling policy is published. Whether FIT awards are renewed automatically on re-application is not stated.",
+      "of": "fdf3dd9f",
       "at": [
         "charlotte-catholic:sections[2].boxes[3].body"
       ],
-      "t": "هیچ خط زمانی برای تصمیم‌گیری، فرایند اعتراض یا سیاست سقف کمک‌هزینه منتشر نشده است. اینکه آیا کمک‌هزینه‌های FIT با درخواست دوباره به‌طور خودکار تمدید می‌شوند یا نه، بیان نشده است."
+      "t": "هیچ فرایند اعتراض یا سیاست سقف کمک‌هزینه منتشر نشده است. اینکه آیا کمک‌هزینه‌های FIT با درخواست دوباره به‌طور خودکار تمدید می‌شوند یا نه، بیان نشده است."
     },
     {
       "text": "What the Aid Program Actually Awards",
@@ -3370,12 +3394,12 @@
       "t": "پردازشگر پرداخت"
     },
     {
-      "text": "Runs the tuition draft. Plan fee **$15–$45 per family**.",
-      "of": "00f42751",
+      "text": "Runs the tuition draft on the 20th of the month. Plans are annual (June), semi-annual (June and December), quarterly (June, September, December and March), monthly, or ten-month. The ten-month plan skips December and May. The semi-annual, quarterly and ten-month plans require enrollment before June 10. Plan fee **$15–$45 per family**, and card payments add a **2.95%** fee.",
+      "of": "ffe4232a",
       "at": [
         "charlotte-catholic:sections[5].plans[0].detail"
       ],
-      "t": "برداشت شهریه را انجام می‌دهد. هزینهٔ طرح **$15–$45 برای هر خانواده**."
+      "t": "برداشت شهریه را در روز 20 ماه انجام می‌دهد. طرح‌ها سالانه (ژوئن)، نیم‌سالانه (ژوئن و دسامبر)، فصلی (ژوئن، سپتامبر، دسامبر و مارس)، ماهانه یا ده‌ماهه‌اند. طرح ده‌ماهه دسامبر و مه را کنار می‌گذارد. طرح‌های نیم‌سالانه، فصلی و ده‌ماهه به ثبت‌نام پیش از 10 ژوئن نیاز دارند. هزینهٔ طرح **از $15 تا $45 برای هر خانواده** است، و پرداخت با کارت **2.95%** کارمزد می‌افزاید."
     },
     {
       "text": "$150",
@@ -3386,20 +3410,20 @@
       "t": "$150"
     },
     {
-      "text": "Continuous enrollment",
-      "of": "396a9f6e",
+      "text": "Continuous enrollment, new student",
+      "of": "e17d274f",
       "at": [
         "charlotte-catholic:sections[5].plans[1].label"
       ],
-      "t": "ثبت‌نام پیوسته"
+      "t": "ثبت‌نام پیوسته، دانش‌آموز تازه‌وارد"
     },
     {
-      "text": "Charged per returning student to hold the seat for the next year.",
-      "of": "cfc5d5cf",
+      "text": "Holds the seat each year: $150 per new student. For a returning student, the web page says $150 and the PDF schedule says $75.",
+      "of": "ff6a441f",
       "at": [
         "charlotte-catholic:sections[5].plans[1].detail"
       ],
-      "t": "برای هر دانش‌آموز بازگشتی گرفته می‌شود تا جای او برای سال بعد نگه داشته شود."
+      "t": "هر سال جای دانش‌آموز را نگه می‌دارد: $150 برای هر دانش‌آموز تازه‌وارد. برای دانش‌آموز بازگشتی، صفحهٔ وب $150 می‌گوید و برنامهٔ هزینه‌ها در PDF مبلغ $75."
     },
     {
       "text": "May 15",
@@ -3426,12 +3450,12 @@
       "t": "خانواده‌های بازگشتی برای بررسی درخواستشان باید تا این تاریخ اقدام کنند."
     },
     {
-      "text": "The number of installments in the FACTS plan, whether a pay-in-full discount exists, and any late-payment or withdrawal policy are not published — they sit inside the enrollment portal.",
-      "of": "352d01a7",
+      "text": "No pay-in-full discount, late-payment policy or withdrawal policy is published.",
+      "of": "b9a9a3c2",
       "at": [
         "charlotte-catholic:sections[5].boxes[0].body"
       ],
-      "t": "شمار اقساط در طرح FACTS، وجود یا نبود تخفیف پرداخت یک‌جا، و هرگونه سیاست دیرکرد یا انصراف منتشر نشده است — این‌ها درون درگاه ثبت‌نام قرار دارند."
+      "t": "هیچ تخفیف پرداخت یک‌جا، سیاست دیرکرد یا سیاست انصرافی منتشر نشده است."
     },
     {
       "text": "What to Ask",
@@ -3451,12 +3475,12 @@
       "t": "از دفتر پذیرش بپرسید"
     },
     {
-      "text": "What exactly qualifies us as a \"participating Catholic\" family, and which parish verifies it?",
-      "of": "b8599d7f",
+      "text": "What does our parish ask for, beyond the published minimums, to approve the \"participating Catholic\" rate?",
+      "of": "ded44f68",
       "at": [
         "charlotte-catholic:sections[6].questions[0]"
       ],
-      "t": "دقیقاً چه چیزی ما را به‌عنوان خانوادهٔ «کاتولیک مشارکت‌کننده» واجد شرایط می‌کند، و کدام کلیسای محلی آن را تأیید می‌کند؟"
+      "t": "کلیسای محلی ما، فراتر از حداقل‌های منتشرشده، برای تأیید نرخ «کاتولیک مشارکت‌کننده» چه می‌خواهد؟"
     },
     {
       "text": "If our parish participation changes mid-enrollment, does our tuition rate change with it?",
@@ -3491,20 +3515,20 @@
       "t": "آیا تخفیف‌های چندفرزندی پیش از محاسبهٔ کمک‌هزینهٔ FIT اعمال می‌شوند یا پس از آن؟"
     },
     {
-      "text": "Does the $1,995 capital fee recur every year, or is it charged once?",
-      "of": "a4f5fe24",
+      "text": "Is the continuous enrollment fee for a returning student $150, as the web page says, or $75, as the PDF schedule says?",
+      "of": "33c9fd3c",
       "at": [
         "charlotte-catholic:sections[6].questions[5]"
       ],
-      "t": "آیا هزینهٔ سرمایه‌ای $1,995 هر سال تکرار می‌شود، یا تنها یک بار گرفته می‌شود؟"
+      "t": "هزینهٔ ثبت‌نام پیوسته برای دانش‌آموز بازگشتی $150 است، چنان‌که صفحهٔ وب می‌گوید، یا $75، چنان‌که برنامهٔ هزینه‌ها در PDF می‌گوید؟"
     },
     {
-      "text": "How many installments does the FACTS plan run, and is there a discount for paying in full?",
-      "of": "852f4492",
+      "text": "Is there a discount for paying in full, and what are the late-payment and withdrawal terms?",
+      "of": "e672ace1",
       "at": [
         "charlotte-catholic:sections[6].questions[6]"
       ],
-      "t": "طرح FACTS چند قسط دارد، و آیا برای پرداخت یک‌جا تخفیفی هست؟"
+      "t": "آیا برای پرداخت یک‌جا تخفیفی هست، و شرایط دیرکرد و انصراف چیست؟"
     },
     {
       "text": "What should we budget beyond tuition for books, athletics and the band's Dublin trip?",
@@ -3513,6 +3537,14 @@
         "charlotte-catholic:sections[6].questions[7]"
       ],
       "t": "افزون بر شهریه، برای کتاب، ورزش و سفر گروه سازی به Dublin چه بودجه‌ای در نظر بگیریم؟"
+    },
+    {
+      "text": "2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus and tutoring fees 22 Nov 2026",
+      "of": "891a3dd2",
+      "at": [
+        "charlotte-country-day:meta"
+      ],
+      "t": "سال تحصیلی 2026–27 · ارقام تا 23 ژوئیهٔ 2026؛ هزینه‌های غنی‌سازی تا 20 نوامبر، هزینه‌های اتوبوس و تدریس خصوصی تا 22 نوامبر 2026"
     },
     {
       "text": "Every dollar figure carries the school year it applies to. Undated school figures are flagged, not guessed.",
@@ -3525,12 +3557,12 @@
       "t": "هر رقم دلاری سال تحصیلی‌ای را که به آن مربوط است با خود دارد. ارقام بدون تاریخ مدرسه نشان‌دار می‌شوند، نه حدس‌زده."
     },
     {
-      "text": "The $13M in college scholarships from the School Profile is university money — excluded throughout. Not financial advice.",
-      "of": "f57e8e91",
+      "text": "The college scholarship totals in the School Profile ($13M for the Class of 2025) are university money — excluded throughout. Not financial advice.",
+      "of": "8cc3ef1a",
       "at": [
         "charlotte-country-day:framing[2].body"
       ],
-      "t": "مبلغ $13M بورس دانشگاهی از School Profile پول دانشگاه است — سراسر کنار گذاشته شده. این مشاورهٔ مالی نیست."
+      "t": "مجموع بورس‌های دانشگاهی در School Profile (مبلغ $13M برای دورهٔ 2025) پول دانشگاه است — سراسر کنار گذاشته شده. این مشاورهٔ مالی نیست."
     },
     {
       "text": "Published tuition by band",
@@ -3658,23 +3690,23 @@
       "at": [
         "charlotte-country-day:sections[1].figureNote"
       ],
-      "t": "مقیاس $0–700. یک برآورد کران‌دار به‌ازای هر دوره، نه یک جدول هزینهٔ قلم‌به‌قلم — کتاب‌ها و ملزومات (پایه‌های 5–12)، هزینه‌های فعالیت، و هزینه‌های ورزشی را در بر می‌گیرد. ودیعهٔ ثبت‌نام: 10% شهریه، به‌حساب شهریهٔ سررسیدشده منظور می‌شود."
+      "t": "مقیاس از $0 تا 700. یک برآورد کران‌دار به‌ازای هر دوره، نه یک جدول هزینهٔ قلم‌به‌قلم — کتاب‌ها و ملزومات (پایه‌های 5–12)، هزینه‌های فعالیت، و هزینه‌های ورزشی را در بر می‌گیرد. ودیعهٔ ثبت‌نام: 10% شهریه، به‌حساب شهریهٔ سررسیدشده منظور می‌شود."
     },
     {
-      "text": "Ten confirmed cost components — 4 unpriced",
-      "of": "ad479226",
+      "text": "Ten confirmed cost components — 2 unpriced",
+      "of": "bc1ea16c",
       "at": [
         "charlotte-country-day:sections[1].componentsTitle"
       ],
-      "t": "ده جزء هزینهٔ تأییدشده — 4 مورد بدون قیمت"
+      "t": "ده جزء هزینهٔ تأییدشده — 2 مورد بدون قیمت"
     },
     {
-      "text": "All-in estimate not built: 40% unpriced > 33% threshold",
-      "of": "164f7754",
+      "text": "All-in estimate not built: 20% unpriced, plus 30% in a range only",
+      "of": "78e8d7e5",
       "at": [
         "charlotte-country-day:sections[1].componentsAside"
       ],
-      "t": "برآورد کلی ساخته نشد: 40% بدون قیمت > آستانهٔ 33%"
+      "t": "برآورد کلی ساخته نشد: 20% بدون قیمت، به‌علاوهٔ 30% که تنها به‌صورت بازه قیمت دارند"
     },
     {
       "text": "Tuition — five bands, priced",
@@ -3715,7 +3747,7 @@
       "at": [
         "charlotte-country-day:sections[1].components[4].label"
       ],
-      "t": "Extended Day · ماهانه $60–$900، یا مراجعهٔ آزاد ساعتی $19"
+      "t": "Extended Day · ماهانه از $60 تا $900، یا مراجعهٔ آزاد ساعتی $19"
     },
     {
       "text": "Enrichment classes · $260 full / $225 mini session (standard 2026–27 fee)",
@@ -3726,20 +3758,20 @@
       "t": "کلاس‌های غنی‌سازی · $260 دورهٔ کامل / $225 دورهٔ کوتاه (هزینهٔ استاندارد 2026–27)"
     },
     {
-      "text": "Bus transportation · no rate",
-      "of": "739409af",
+      "text": "Bus transportation · $1,670–$1,785 round trip, $955–$1005 one way; campus shuttle $715 / $400 (2026–27)",
+      "of": "3e026fcc",
       "at": [
         "charlotte-country-day:sections[1].components[6].label"
       ],
-      "t": "حمل‌ونقل اتوبوس · بدون نرخ"
+      "t": "حمل‌ونقل اتوبوس · از $1,670 تا $1,785 رفت و برگشت، از $955 تا $1005 یک‌طرفه؛ سرویس پردیس $715 و $400 (2026–27)"
     },
     {
-      "text": "Tutoring · no rate",
-      "of": "3b96a9e3",
+      "text": "Learning-support tutoring · $82 Lower School / $85 Middle School a session; Upper School coaching $85",
+      "of": "d20073bb",
       "at": [
         "charlotte-country-day:sections[1].components[7].label"
       ],
-      "t": "تدریس خصوصی · بدون نرخ"
+      "t": "تدریس خصوصی پشتیبانی یادگیری · برای هر جلسه $82 در Lower School و $85 در Middle School؛ مربی‌گری Upper School مبلغ $85"
     },
     {
       "text": "Dining hall · no rate",
@@ -3758,12 +3790,12 @@
       "t": "لباس تربیت بدنی دورهٔ راهنمایی · بدون نرخ"
     },
     {
-      "text": "All four unpriced items appear on the school's own billing list — real costs, billed monthly, rates visible only on a family's statement. These are the highest-value questions for the business office.",
-      "of": "c6863622",
+      "text": "Two of the ten items have no published price: the dining hall and Middle School PE uniforms. Both are on the school's monthly billing list. Three more are priced only as a range. So half have no set price, and this report does not add the items into one total.",
+      "of": "cef2ce6c",
       "at": [
         "charlotte-country-day:sections[1].componentsNote"
       ],
-      "t": "هر چهار قلم بدون قیمت در فهرست صورت‌حساب خود مدرسه ظاهر می‌شوند — هزینه‌های واقعی، صورت‌حساب‌شده به‌صورت ماهانه، نرخ‌هایی که تنها روی صورت‌حساب یک خانواده دیده می‌شوند. این‌ها ارزشمندترین پرسش‌ها برای دفتر مالی‌اند."
+      "t": "دو مورد از ده قلم قیمت منتشرشده ندارند: سالن غذاخوری و لباس تربیت بدنی Middle School. هر دو در فهرست صورت‌حساب ماهانهٔ مدرسه هستند. سه قلم دیگر تنها به‌صورت بازه قیمت دارند. پس نیمی از آن‌ها قیمت معینی ندارند، و این گزارش اقلام را در یک مجموع جمع نمی‌زند."
     },
     {
       "text": "the best-documented part of the picture",
@@ -3937,12 +3969,12 @@
       "t": "از شهریه · $39,600 در سال"
     },
     {
-      "text": "Donor gift level → intended share of a student's tuition. Roughly $6,000/yr more can be attached for ancillaries — the same categories Section 02 flags as unpriced. Awarded on demonstrated need via Clarity.",
-      "of": "00de0834",
+      "text": "Donor gift level → intended share of a student's tuition. Roughly $6,000/yr more can be attached for ancillaries (extra costs beyond tuition). Awarded on demonstrated need via Clarity.",
+      "of": "dab2eb0f",
       "at": [
         "charlotte-country-day:sections[3].figureNote"
       ],
-      "t": "سطح هدیهٔ اهداکننده ← سهم موردنظر از شهریهٔ یک دانش‌آموز. حدود $6,000 در سال بیشتر می‌توان برای موارد جانبی افزود — همان دسته‌هایی که بخش 02 به‌عنوان بدون قیمت نشان می‌کند. بر پایهٔ نیاز اثبات‌شده از راه Clarity اعطا می‌شود."
+      "t": "سطح هدیهٔ اهداکننده ← سهم موردنظر از شهریهٔ یک دانش‌آموز. حدود $6,000 در سال بیشتر می‌توان برای موارد جانبی افزود (هزینه‌های اضافی فراتر از شهریه). بر پایهٔ نیاز اثبات‌شده از راه Clarity اعطا می‌شود."
     },
     {
       "text": "No merit track",
@@ -4068,12 +4100,12 @@
       "t": "برای خانواده‌های بالای آستانهٔ معمول کمک‌هزینه که پرداخت شهریهٔ کامل هنوز برایشان دشوار است چیزی منتشر نشده است. هیچ مقیاس پلکانی منتشر نشده، و هیچ شهریهٔ نمایه‌شده‌ای (قیمتی که بر پایهٔ درآمد خانواده تعیین می‌شود) نیز. این شکافی است که بیشتر مدارس مستقل در آن شریک‌اند. یافته‌ای دربارهٔ این مدرسه نیست."
     },
     {
-      "text": "Which school year does each published aid figure describe — and is the share 20% or 21%, against which enrollment?",
-      "of": "6c38bbf2",
+      "text": "Which school year does each published aid figure describe: $9.4M to 341 students, or $10.1M to 347? And which enrollment is the ~20% share measured against?",
+      "of": "f9bb24f8",
       "at": [
         "charlotte-country-day:sections[5].questions[0]"
       ],
-      "t": "هر رقم منتشرشدهٔ کمک‌هزینه کدام سال تحصیلی را توصیف می‌کند — و سهم 20% است یا 21%، در برابر کدام ثبت‌نام؟"
+      "t": "هر رقم منتشرشدهٔ کمک‌هزینه کدام سال تحصیلی را توصیف می‌کند: $9.4M برای 341 دانش‌آموز، یا $10.1M برای 347 نفر؟ و سهم ~20% در برابر کدام ثبت‌نام سنجیده شده است؟"
     },
     {
       "text": "What are this year's average and median awards, the range — and does any award cover full tuition?",
@@ -4084,12 +4116,12 @@
       "t": "میانگین و میانهٔ بورس‌های امسال چقدرند، دامنه چقدر است — و آیا هیچ بورسی کل شهریه را پوشش می‌دهد؟"
     },
     {
-      "text": "What are the dollar rates for bus, tutoring, dining hall and MS PE uniforms?",
-      "of": "cde94712",
+      "text": "What are the dollar rates for the dining hall and MS PE uniforms?",
+      "of": "4303fd43",
       "at": [
         "charlotte-country-day:sections[5].questions[2]"
       ],
-      "t": "نرخ‌های دلاری اتوبوس، تدریس خصوصی، سالن غذاخوری و لباس تربیت بدنی دورهٔ راهنمایی چقدرند؟"
+      "t": "نرخ‌های دلاری سالن غذاخوری و لباس تربیت بدنی دورهٔ راهنمایی چقدرند؟"
     },
     {
       "text": "Does the ten-month plan carry a fee or interest, and is there a discount for paying in full?",
@@ -4114,6 +4146,14 @@
         "charlotte-country-day:sections[5].questions[5]"
       ],
       "t": "آیا تخفیف خواهر و برادر یا بخشش کارمند هست — و ودیعهٔ کاهش‌یافته برای درخواست‌دهندگان کمک‌هزینه چقدر است؟"
+    },
+    {
+      "text": "2026–27 school year · figures as of 23 Jul 2026",
+      "of": "a311c291",
+      "at": [
+        "cannon:meta"
+      ],
+      "t": "سال تحصیلی 2026–27 · ارقام تا 23 ژوئیهٔ 2026"
     },
     {
       "text": "Tuition assistance while enrolled — not college aid. Not financial advice. Roughly 81% of this series' questions could be answered from published sources.",
@@ -4156,20 +4196,20 @@
       "t": "تاریخ نرخ در سایت زنده — تنها از نسخه‌های بایگانی‌شده بازیابی‌شده"
     },
     {
-      "text": "Eleven confirmed components for a Grade 9 student — 4 unpriced",
-      "of": "695dc58c",
+      "text": "Ten confirmed components for a Grade 9 student — 4 unpriced",
+      "of": "a8431a50",
       "at": [
         "cannon:sections[1].componentsTitle"
       ],
-      "t": "یازده جزء تأییدشده برای یک دانش‌آموز پایهٔ 9 — 4 مورد بدون قیمت"
+      "t": "ده جزء تأییدشده برای یک دانش‌آموز پایهٔ 9 — 4 مورد بدون قیمت"
     },
     {
-      "text": "All-in estimate not built: ~36% unpriced > 33% threshold",
-      "of": "5d829c51",
+      "text": "All-in estimate not built: 40% unpriced > 33% threshold",
+      "of": "164f7754",
       "at": [
         "cannon:sections[1].componentsAside"
       ],
-      "t": "برآورد کلی ساخته نشد: حدود 36% بدون قیمت > آستانهٔ 33%"
+      "t": "برآورد کلی ساخته نشد: 40% بدون قیمت > آستانهٔ 33%"
     },
     {
       "text": "Required class trip · $400 (gr. 9)",
@@ -4185,7 +4225,7 @@
       "at": [
         "cannon:sections[1].components[2].label"
       ],
-      "t": "کتاب‌های دانش‌آموز · $300–500"
+      "t": "کتاب‌های دانش‌آموز · از $300 تا 500"
     },
     {
       "text": "Personal device · $600–1,200",
@@ -4193,7 +4233,7 @@
       "at": [
         "cannon:sections[1].components[3].label"
       ],
-      "t": "دستگاه شخصی · $600–1,200"
+      "t": "دستگاه شخصی · از $600 تا 1,200"
     },
     {
       "text": "Winterm course · $0–500",
@@ -4201,21 +4241,13 @@
       "at": [
         "cannon:sections[1].components[4].label"
       ],
-      "t": "دورهٔ Winterm · $0–500"
-    },
-    {
-      "text": "AP exams · $98 per exam",
-      "of": "f18009e6",
-      "at": [
-        "cannon:sections[1].components[5].label"
-      ],
-      "t": "آزمون‌های AP · $98 برای هر آزمون"
+      "t": "دورهٔ Winterm · از $0 تا 500"
     },
     {
       "text": "Bus service · $1,990 round-trip",
       "of": "4fdba1b4",
       "at": [
-        "cannon:sections[1].components[6].label"
+        "cannon:sections[1].components[5].label"
       ],
       "t": "سرویس اتوبوس · $1,990 رفت و برگشت"
     },
@@ -4223,7 +4255,7 @@
       "text": "Annual dining figure · no rate",
       "of": "c92fdf9b",
       "at": [
-        "cannon:sections[1].components[7].label"
+        "cannon:sections[1].components[6].label"
       ],
       "t": "رقم سالانهٔ غذاخوری · بدون نرخ"
     },
@@ -4231,7 +4263,7 @@
       "text": "Athletic team packs & equipment · no rate",
       "of": "35689cec",
       "at": [
-        "cannon:sections[1].components[8].label"
+        "cannon:sections[1].components[7].label"
       ],
       "t": "بسته‌های تیم ورزشی و تجهیزات · بدون نرخ"
     },
@@ -4239,7 +4271,7 @@
       "text": "Arts supplies & instrument rental · no rate",
       "of": "b09384e7",
       "at": [
-        "cannon:sections[1].components[9].label"
+        "cannon:sections[1].components[8].label"
       ],
       "t": "ملزومات هنری و اجارهٔ ساز · بدون نرخ"
     },
@@ -4247,17 +4279,17 @@
       "text": "Tuition Refund Plan · no rate",
       "of": "4c9253b4",
       "at": [
-        "cannon:sections[1].components[10].label"
+        "cannon:sections[1].components[9].label"
       ],
       "t": "طرح بازپرداخت شهریه · بدون نرخ"
     },
     {
-      "text": "A narrow miss: the estimate is built only where at least two-thirds of components can be priced. For the Lower School the question does not arise — the 2026–27 fee document lists cost categories with no dollar figures at all, though the 2024–25 edition did price them.",
-      "of": "bdcc3e99",
+      "text": "Four of the ten items have no published price. The estimate is built only where at least two-thirds can be priced, so none is shown. For the Lower School the question does not arise — the 2026–27 fee document lists cost categories with no dollar figures at all, though the 2024–25 edition did price them.",
+      "of": "08c03b9c",
       "at": [
         "cannon:sections[1].componentsNote"
       ],
-      "t": "یک ناکامی اندک: برآورد تنها جایی ساخته می‌شود که دست‌کم دو‌سوم اجزا قابل قیمت‌گذاری باشند. برای Lower School پرسش پیش نمی‌آید — سند هزینهٔ 2026–27 دسته‌های هزینه را بدون هیچ رقم دلاری فهرست می‌کند، هرچند نسخهٔ 2024–25 آن‌ها را قیمت‌گذاری کرده بود."
+      "t": "چهار مورد از ده قلم قیمت منتشرشده ندارند. برآورد تنها جایی ساخته می‌شود که دست‌کم دو‌سوم قابل قیمت‌گذاری باشد، پس برآوردی نشان داده نشده است. برای Lower School پرسش پیش نمی‌آید — سند هزینهٔ 2026–27 دسته‌های هزینه را بدون هیچ رقم دلاری فهرست می‌کند، هرچند نسخهٔ 2024–25 آن‌ها را قیمت‌گذاری کرده بود."
     },
     {
       "text": "Deposit, 2026–27",
@@ -4327,7 +4359,11 @@
       "text": "Not published",
       "of": "d945d814",
       "at": [
-        "cannon:sections[2].timeline[2].when"
+        "cannon:sections[2].timeline[2].when",
+        "covenant-day:sections[3].stats[1].value",
+        "carmel-christian:sections[3].stats[1].value",
+        "hickory-grove-christian:sections[2].stats[1].value",
+        "gaston-day:sections[3].stats[2].value"
       ],
       "t": "منتشر نشده"
     },
@@ -4393,7 +4429,7 @@
       "at": [
         "cannon:sections[3].figureNote"
       ],
-      "t": "مقیاس $0–26,000. هیچ بورسی کل شهریه را پوشش نمی‌دهد. مدرسه همچنین می‌گوید خانواده‌های با بیشترین بورس $3,000 برای هر دانش‌آموز در سال می‌پردازند — که با سقف $26,000 در برابر شهریهٔ $32,070 پایه‌های 9–12 جور درنمی‌آید، تفاوتی $6,070 به‌جای $3,000."
+      "t": "مقیاس از $0 تا 26,000. هیچ بورسی کل شهریه را پوشش نمی‌دهد. مدرسه همچنین می‌گوید خانواده‌های با بیشترین بورس $3,000 برای هر دانش‌آموز در سال می‌پردازند — که با سقف $26,000 در برابر شهریهٔ $32,070 پایه‌های 9–12 جور درنمی‌آید، تفاوتی $6,070 به‌جای $3,000."
     },
     {
       "text": "On two separate pages, Cannon states plainly that it offers no merit scholarships, and specifically no academic, arts or athletics scholarships. All grants are strictly need-based. A grant is not a loan: it does not have to be paid back to the school.",
@@ -4628,28 +4664,20 @@
       "t": "فعالیت‌های Lower School چقدر هزینه دارند؟ سند هزینهٔ جاری آن‌ها را نام می‌برد بی‌آنکه قیمت‌گذاری کند."
     },
     {
-      "text": "2026–27 school year · figures as of 15 Aug 2026",
-      "of": "47d9e49a",
+      "text": "2026–27 school year · figures as of 15 Aug 2026; aid fee and dates 22 Nov 2026",
+      "of": "ed0cf5be",
       "at": [
         "covenant-day:meta"
       ],
-      "t": "سال تحصیلی 2026–27 · ارقام تا 15 اوت 2026"
+      "t": "سال تحصیلی 2026–27 · ارقام تا 15 اوت 2026؛ هزینه و تاریخ‌های کمک‌هزینه تا 22 نوامبر 2026"
     },
     {
-      "text": "Two years are live at once.",
-      "of": "ab877c57",
-      "at": [
-        "covenant-day:framing[1].title"
-      ],
-      "t": "دو سال هم‌زمان فعال‌اند."
-    },
-    {
-      "text": "The website table shows 2026–27 while the linked payment-terms PDF shows 2025–26. Every figure here names its year; the report leads with 2026–27.",
-      "of": "6e7cbdf9",
+      "text": "Tuition and payment terms are for 2026–27. The 2025–26 terms supply last year’s rates only. The aid dates are from the 2026–27 cycle, which has closed.",
+      "of": "04bdfc9b",
       "at": [
         "covenant-day:framing[1].body"
       ],
-      "t": "جدول وب‌سایت 2026–27 را نشان می‌دهد در حالی که PDF شرایط پرداختِ پیوندشده 2025–26 را نشان می‌دهد. هر رقم اینجا سال خود را نام می‌برد؛ گزارش با 2026–27 آغاز می‌شود."
+      "t": "شهریه و شرایط پرداخت مربوط به 2026–27 است. شرایط 2025–26 تنها نرخ‌های سال گذشته را به دست می‌دهد. تاریخ‌های کمک‌هزینه از دورهٔ 2026–27 است که بسته شده."
     },
     {
       "text": "Tuition assistance while enrolled — not college aid. Not financial advice.",
@@ -4746,7 +4774,7 @@
       "at": [
         "covenant-day:sections[1].components[3].label"
       ],
-      "t": "Extended Day (JK–8) · $58–$248/mo به‌ازای هر جلسه"
+      "t": "Extended Day (JK–8) · ماهانه از $58 تا $248 به‌ازای هر جلسه"
     },
     {
       "text": "Laptop, grades 9–12 · bring your own",
@@ -4771,6 +4799,14 @@
         "covenant-day:sections[1].components[6].label"
       ],
       "t": "یونیفرم (JK–8) / قانون پوشش HS"
+    },
+    {
+      "text": "FACTS aid application fee · $45",
+      "of": "c40316fa",
+      "at": [
+        "covenant-day:sections[1].components[7].label"
+      ],
+      "t": "هزینهٔ درخواست کمک‌هزینهٔ FACTS · $45"
     },
     {
       "text": "The inclusions list does real work here: retreats, required field trips, lab and elective fees, and most athletic expenses sit inside tuition, so the priced add-ons are genuinely few. Grades 9–12 must supply a laptop meeting the school’s specs.",
@@ -4868,6 +4904,38 @@
       "t": "بدون بورس چندساله — خانواده‌ها هر سال درخواست تازه‌ای ارائه می‌دهند"
     },
     {
+      "text": "By Feb 10, 2026",
+      "of": "f08deabc",
+      "at": [
+        "covenant-day:sections[2].timeline[4].when"
+      ],
+      "t": "تا 10 فوریهٔ 2026"
+    },
+    {
+      "text": "2026–27 cycle: new families who finish the aid application by this date get a decision with their offer letter. Current families contact the Business Office by this date for the half deposit, ahead of Feb 17 re-enrollment",
+      "of": "92230992",
+      "at": [
+        "covenant-day:sections[2].timeline[4].detail"
+      ],
+      "t": "دورهٔ 2026–27: خانواده‌های تازه‌وارد که درخواست کمک‌هزینه را تا این تاریخ کامل کنند، تصمیم را همراه با نامهٔ پذیرش می‌گیرند. خانواده‌های کنونی برای نصف ودیعه تا این تاریخ، پیش از ثبت‌نام مجدد 17 فوریه، با Business Office تماس می‌گیرند"
+    },
+    {
+      "text": "By Mar 10, 2026",
+      "of": "a8481aff",
+      "at": [
+        "covenant-day:sections[2].timeline[5].when"
+      ],
+      "t": "تا 10 مارس 2026"
+    },
+    {
+      "text": "2026–27 cycle: current families send all tax documents by this date to be in the first round",
+      "of": "625318b5",
+      "at": [
+        "covenant-day:sections[2].timeline[5].detail"
+      ],
+      "t": "دورهٔ 2026–27: خانواده‌های کنونی برای قرار گرفتن در دور نخست، همهٔ مدارک مالیاتی را تا این تاریخ می‌فرستند"
+    },
+    {
       "text": "Platform & scope",
       "of": "736758b4",
       "at": [
@@ -4876,20 +4944,20 @@
       "t": "بستر و دامنه"
     },
     {
-      "text": "**FACTS** runs the confidential need assessment. Aid is need-based only, and only the party responsible for paying tuition may apply. Contact: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
-      "of": "23d6f76d",
+      "text": "**FACTS** runs the confidential need assessment and charges **$45** for the application. Aid is need-based only, and only the party responsible for paying tuition may apply. Contact: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
+      "of": "b50e1624",
       "at": [
         "covenant-day:sections[2].boxes[0].body"
       ],
-      "t": "**FACTS** ارزیابی محرمانهٔ نیاز را اجرا می‌کند. کمک‌هزینه فقط بر پایهٔ نیاز است، و تنها طرفی که مسئول پرداخت شهریه است می‌تواند درخواست دهد. تماس: Christen Marshall، Student Accounts Coordinator، 704-708-6102."
+      "t": "**FACTS** ارزیابی محرمانهٔ نیاز را اجرا می‌کند و برای درخواست **$45** می‌گیرد. کمک‌هزینه فقط بر پایهٔ نیاز است، و تنها طرفی که مسئول پرداخت شهریه است می‌تواند درخواست دهد. تماس: Christen Marshall، Student Accounts Coordinator، 704-708-6102."
     },
     {
-      "text": "No aid deadline date, no decision timeline, no appeals process, and no award-ceiling policy appears on the public record. The application fee for FACTS, if any, is also unstated.",
-      "of": "5f12ecc0",
+      "text": "No appeals process and no award-ceiling policy appears on the public record.",
+      "of": "292fb828",
       "at": [
         "covenant-day:sections[2].boxes[1].body"
       ],
-      "t": "هیچ تاریخ مهلت کمک‌هزینه، هیچ زمان‌بندی تصمیم، هیچ فرایند تجدیدنظر و هیچ سیاست سقف بورس در سابقهٔ عمومی دیده نمی‌شود. هزینهٔ درخواست FACTS، اگر وجود داشته باشد، نیز اعلام‌نشده است."
+      "t": "هیچ فرایند تجدیدنظر و هیچ سیاست سقف بورس در سابقهٔ عمومی دیده نمی‌شود."
     },
     {
       "text": "Aid in Numbers",
@@ -4918,6 +4986,16 @@
       "t": "آنچه اعداد آشکار می‌کنند"
     },
     {
+      "text": "No 990",
+      "of": "c846e9dc",
+      "at": [
+        "covenant-day:sections[3].stats[0].value",
+        "carmel-christian:sections[3].stats[0].value",
+        "hickory-grove-christian:sections[2].stats[0].value"
+      ],
+      "t": "بدون 990"
+    },
+    {
       "text": "church ministry — IRS-exempt from filing",
       "of": "fd45ab9c",
       "at": [
@@ -4928,13 +5006,13 @@
       "t": "خدمت کلیسایی — معاف از ثبت توسط IRS"
     },
     {
-      "text": "published aid totals, averages, or budgets",
-      "of": "e75ea3c1",
+      "text": "aid totals, averages, or budgets",
+      "of": "3838e82f",
       "at": [
         "covenant-day:sections[3].stats[1].label",
         "carmel-christian:sections[3].stats[1].label"
       ],
-      "t": "مجموع، میانگین یا بودجهٔ کمک‌هزینهٔ منتشرشده"
+      "t": "مجموع، میانگین یا بودجهٔ کمک‌هزینه"
     },
     {
       "text": "The school publishes no share of students on aid, no total awarded and no average award.",
@@ -5097,7 +5175,8 @@
       "text": "9×",
       "of": "eafe64d9",
       "at": [
-        "covenant-day:sections[5].plans[1].figure"
+        "covenant-day:sections[5].plans[1].figure",
+        "gaston-day:sections[5].plans[2].figure"
       ],
       "t": "9×"
     },
@@ -5209,12 +5288,20 @@
       "t": "بازهٔ سقف"
     },
     {
-      "text": "of published rates (website + terms PDF)",
-      "of": "236fb2d1",
+      "text": "2 yrs",
+      "of": "5f9eeef9",
+      "at": [
+        "covenant-day:sections[6].stats[2].value"
+      ],
+      "t": "2 سال"
+    },
+    {
+      "text": "of published rates (2025–26 and 2026–27 terms PDFs)",
+      "of": "88b5cf13",
       "at": [
         "covenant-day:sections[6].stats[2].label"
       ],
-      "t": "از نرخ‌های منتشرشده (وب‌سایت + PDF شرایط)"
+      "t": "از نرخ‌های منتشرشده (PDFهای شرایط 2025–26 و 2026–27)"
     },
     {
       "text": "Questions the public record cannot answer",
@@ -5237,12 +5324,12 @@
       "t": "چه سهمی از خانواده‌ها کمک‌هزینه دریافت می‌کنند، و میانگین بورس چقدر است؟"
     },
     {
-      "text": "What is the aid application deadline, and when are decisions released relative to enrollment contracts?",
-      "of": "51da8062",
+      "text": "What are the 2027–28 aid deadlines and decision dates? The published packet covers 2026–27.",
+      "of": "debb7c91",
       "at": [
         "covenant-day:sections[6].questions[1]"
       ],
-      "t": "مهلت درخواست کمک‌هزینه چیست، و تصمیم‌ها نسبت به قراردادهای ثبت‌نام کِی اعلام می‌شوند؟"
+      "t": "مهلت‌های کمک‌هزینه و تاریخ‌های تصمیم برای 2027–28 چیست؟ بستهٔ منتشرشده مربوط به 2026–27 است."
     },
     {
       "text": "How does the mandatory NC Opportunity Scholarship application interact with CDS aid for families above the state income cap?",
@@ -5277,12 +5364,12 @@
       "t": "سال تحصیلی 2026–27 · ارقام تا 22 ژوئیهٔ 2026"
     },
     {
-      "text": "The current-year table overwrites the previous one, so no rate history is recoverable. Undated figures are flagged, not guessed.",
-      "of": "b669af4d",
+      "text": "The current-year table overwrites the previous one. Archived copies carry rates back to 2022–23. Undated figures are flagged, not guessed.",
+      "of": "3fa52aab",
       "at": [
         "davidson-day:framing[1].body"
       ],
-      "t": "جدول سال جاری جدول پیشین را بازنویسی می‌کند، پس هیچ تاریخ نرخی بازیافتنی نیست. ارقام بدون تاریخ نشان‌دار می‌شوند، نه حدس‌زده."
+      "t": "جدول سال جاری جدول پیشین را بازنویسی می‌کند. نسخه‌های بایگانی‌شده نرخ‌ها را تا 2022–23 به عقب می‌برند. ارقام بدون تاریخ نشان‌دار می‌شوند، نه حدس‌زده."
     },
     {
       "text": "Tuition by Division",
@@ -5370,7 +5457,7 @@
       "at": [
         "davidson-day:sections[1].components[3].label"
       ],
-      "t": "تجربهٔ میدانی، پایه‌های 4–12 · $500–1,000"
+      "t": "تجربهٔ میدانی، پایه‌های 4–12 · از $500 تا 1,000"
     },
     {
       "text": "Textbooks, gr. 7–12 · $300–1,000",
@@ -5378,7 +5465,7 @@
       "at": [
         "davidson-day:sections[1].components[4].label"
       ],
-      "t": "کتاب‌های درسی، پایه‌های 7–12 · $300–1,000"
+      "t": "کتاب‌های درسی، پایه‌های 7–12 · از $300 تا 1,000"
     },
     {
       "text": "Extended care · no rate",
@@ -5637,12 +5724,12 @@
       "t": "منتشر نشده — حساب‌وکتاب سقف اعطای بورس"
     },
     {
-      "text": "The school states no award covers full tuition and that maximum-award families pay **$3,000 per year, per student** (2026–27). Against published tuition that implies ceilings of $19,590 (Early Childhood) to $23,910 (Upper School) — our arithmetic, not a school figure. No share of students on aid, total aid budget, average or median award is published at all.",
-      "of": "52948594",
+      "text": "The school states no award covers full tuition and that maximum-award families pay **$3,000 per year, per student** (2026–27). Against published tuition that implies ceilings of $19,590 (Early Childhood) to $23,910 (Upper School) — our arithmetic, not a school figure. The school’s two named scholarships state larger awards, so ask whether the $3,000 minimum applies to them. No share of students on aid, total aid budget, average or median award is published at all.",
+      "of": "b0bd45be",
       "at": [
         "davidson-day:sections[3].boxes[0].body"
       ],
-      "t": "مدرسه می‌گوید هیچ بورسی کل شهریه را پوشش نمی‌دهد و خانواده‌های با بیشترین بورس **$3,000 در سال، برای هر دانش‌آموز** می‌پردازند (2026–27). در برابر شهریهٔ منتشرشده این سقف‌هایی از $19,590 (Early Childhood) تا $23,910 (Upper School) را می‌رساند — حساب‌وکتاب ما، نه رقمی از مدرسه. هیچ سهمی از دانش‌آموزان بر کمک‌هزینه، هیچ بودجهٔ کل کمک‌هزینه، میانگین یا میانهٔ بورس اصلاً منتشر نشده است."
+      "t": "مدرسه می‌گوید هیچ بورسی کل شهریه را پوشش نمی‌دهد و خانواده‌های با بیشترین بورس **$3,000 در سال، برای هر دانش‌آموز** می‌پردازند (2026–27). در برابر شهریهٔ منتشرشده این سقف‌هایی از $19,590 (Early Childhood) تا $23,910 (Upper School) را می‌رساند — حساب‌وکتاب ما، نه رقمی از مدرسه. دو بورس نام‌دار مدرسه مبالغ بزرگ‌تری اعلام می‌کنند، پس بپرسید آیا حداقل $3,000 شامل آن‌ها هم می‌شود. هیچ سهمی از دانش‌آموزان بر کمک‌هزینه، هیچ بودجهٔ کل کمک‌هزینه، میانگین یا میانهٔ بورس اصلاً منتشر نشده است."
     },
     {
       "text": "No sibling, military or clergy discount is published. No indexed tuition (a price set by family income) or sliding scale is published either. Employee parents have a separate enrollment process. But the public record does not show whether working at the school brings any tuition remission (reduced tuition for employees). How many scholarships are given each year, and what it takes to renew them beyond \"good standing,\" are also unpublished.",
@@ -5829,12 +5916,20 @@
       "t": "تصمیم‌های پذیرش با ارجاع به درخواست کمک‌هزینهٔ ما گرفته می‌شوند یا بدون آن؟"
     },
     {
-      "text": "What have tuition rates been for each of the last five years?",
-      "of": "49eac663",
+      "text": "What tuition increase do you expect for next year?",
+      "of": "2ecb6c74",
       "at": [
         "davidson-day:sections[5].questions[7]"
       ],
-      "t": "نرخ‌های شهریه در هر یک از پنج سال گذشته چه بوده‌اند؟"
+      "t": "برای سال آینده چه افزایشی در شهریه انتظار دارید؟"
+    },
+    {
+      "text": "Does the $3,000 minimum payment apply to Acclaim and Wolter scholars?",
+      "of": "e0bab2c3",
+      "at": [
+        "davidson-day:sections[5].questions[8]"
+      ],
+      "t": "آیا حداقل پرداخت $3,000 شامل دریافت‌کنندگان بورس‌های Acclaim و Wolter می‌شود؟"
     },
     {
       "text": "2026–27 school year · figures as of 16 Aug 2026",
@@ -6145,6 +6240,15 @@
       "t": "ردهٔ بالا (کلاس‌های 9–12)، 2026–27"
     },
     {
+      "text": "1 yr",
+      "of": "238bfedf",
+      "at": [
+        "carmel-christian:sections[6].stats[1].value",
+        "hickory-grove-christian:sections[5].stats[1].value"
+      ],
+      "t": "1 سال"
+    },
+    {
       "text": "of published rates — no history recovered",
       "of": "c6dabb05",
       "at": [
@@ -6195,12 +6299,12 @@
       "t": "NC Opportunity Scholarship با هرگونه کمک مالی مدرسه برای خانواده‌های بالای سقف درآمدی پیشین چگونه تعامل می‌کند؟"
     },
     {
-      "text": "2026–27 tuition · figures as of 10 Nov 2026",
-      "of": "96df4afe",
+      "text": "2026–27 tuition · figures as of 10 Nov 2026; scholarships and policies 22 Nov 2026",
+      "of": "93dd396a",
       "at": [
         "hickory-grove-christian:meta"
       ],
-      "t": "شهریهٔ 2026–27 · ارقام تا 10 نوامبر 2026"
+      "t": "شهریهٔ 2026–27 · ارقام تا 10 نوامبر 2026؛ بورس‌ها و سیاست‌ها تا 22 نوامبر 2026"
     },
     {
       "text": "TK–5 (Elementary)",
@@ -6299,12 +6403,20 @@
       "t": "سابقهٔ عمومی هیچ زمان‌بندی تصمیم‌گیری، هیچ فرایند تجدیدنظر و هیچ سیاست سقف کمک‌هزینه ندارد. برای طرح پرداخت FACTS، شمار پرداخت‌ها و هرگونه هزینهٔ طرح در پورتال تعیین می‌شود. مدرسه می‌گوید **تخفیف خودکار ارائه نمی‌کند**، از جمله تخفیف چندفرزندی یا تخفیف کشیشان."
     },
     {
-      "text": "published aid totals, averages, or rates",
-      "of": "6d167c1c",
+      "text": "aid totals, averages, or rates",
+      "of": "07159616",
       "at": [
         "hickory-grove-christian:sections[2].stats[1].label"
       ],
-      "t": "مجموع، میانگین یا نرخ منتشرشدهٔ کمک‌هزینه"
+      "t": "مجموع، میانگین یا نرخ کمک‌هزینه"
+    },
+    {
+      "text": "990-exempt",
+      "of": "d5a34d5b",
+      "at": [
+        "hickory-grove-christian:sections[2].stats[2].value"
+      ],
+      "t": "معاف از 990"
     },
     {
       "text": "no public financial disclosure to derive from",
@@ -6459,12 +6571,28 @@
       "t": "شهریه «billed annually and divided into equal payments based on the plan you select» است و ماهانه از راه **FACTS** برداشت می‌شود. شمار اقساط و هرگونه هزینهٔ طرح درون پورتال تعیین می‌شود."
     },
     {
-      "text": "The **number of monthly installments** and any FACTS plan fee are not stated on the public pages. They are found inside the family's FACTS portal. No paid-in-full option beyond the 5% early-pay discount, and no late-payment or withdrawal terms, appear in the sources checked.",
-      "of": "19071d1e",
+      "text": "The **number of monthly installments** and any FACTS plan fee are not stated on the public pages. They are found inside the family's FACTS portal. No paid-in-full option beyond the 5% early-pay discount is published, and no late fee is named.",
+      "of": "8644ce5f",
       "at": [
         "hickory-grove-christian:sections[4].boxes[0].body"
       ],
-      "t": "**شمار اقساط ماهانه** و هرگونه هزینهٔ طرح FACTS در صفحه‌های عمومی اعلام نشده است. این‌ها درون پورتال FACTS خانواده یافت می‌شوند. در منابع بررسی‌شده هیچ گزینهٔ پرداخت یکجا فراتر از تخفیف 5% پرداخت زودهنگام، و هیچ شرطی برای تأخیر در پرداخت یا انصراف دیده نمی‌شود."
+      "t": "**شمار اقساط ماهانه** و هرگونه هزینهٔ طرح FACTS در صفحه‌های عمومی اعلام نشده است. این‌ها درون پورتال FACTS خانواده یافت می‌شوند. هیچ گزینهٔ پرداخت یکجا فراتر از تخفیف 5% پرداخت زودهنگام منتشر نشده است، و از هیچ جریمهٔ دیرکردی نام برده نشده است."
+    },
+    {
+      "text": "Withdrawal and overdue accounts",
+      "of": "b853d459",
+      "at": [
+        "hickory-grove-christian:sections[4].boxes[1].title"
+      ],
+      "t": "انصراف و حساب‌های معوق"
+    },
+    {
+      "text": "A family must give **written notice at least two weeks before withdrawing**. Without it, the child counts as enrolled for the whole school year. If a child is withdrawn over unpaid bills, the school holds grades and records until the account is paid. A child with an overdue balance at year-end cannot re-enroll.",
+      "of": "092f9e48",
+      "at": [
+        "hickory-grove-christian:sections[4].boxes[1].body"
+      ],
+      "t": "خانواده باید **دست‌کم دو هفته پیش از انصراف اطلاع کتبی** بدهد. بدون آن، کودک برای کل سال تحصیلی ثبت‌نام‌شده به شمار می‌آید. اگر کودکی به دلیل صورت‌حساب‌های پرداخت‌نشده از مدرسه خارج شود، مدرسه نمره‌ها و سوابق را تا تسویهٔ حساب نگه می‌دارد. کودکی که در پایان سال حساب معوق دارد نمی‌تواند دوباره ثبت‌نام کند."
     },
     {
       "text": "top band (grades 9–12)",
@@ -6483,12 +6611,12 @@
       "t": "چه سهمی از خانواده‌ها کمک‌هزینهٔ خودِ مدرسه مبتنی بر FACTS را دریافت می‌کنند و میانگین کمک‌هزینه چقدر است؟ (هیچ رقمی منتشر نشده و کلیسا هیچ 990 ارائه نمی‌کند.)"
     },
     {
-      "text": "Are there other \"student services fees\" beyond the after-school childcare rate, and where can we see them before enrolling?",
-      "of": "231d2f30",
+      "text": "What do lunch, athletic and graduation fees cost? Learning Support lists the Educational Support Services fees.",
+      "of": "57ea2df2",
       "at": [
         "hickory-grove-christian:sections[5].questions[2]"
       ],
-      "t": "آیا «student services fees» دیگری فراتر از نرخ مراقبت پس از مدرسه وجود دارد، و پیش از ثبت‌نام کجا می‌توانیم آن‌ها را ببینیم؟"
+      "t": "هزینه‌های ناهار، ورزش و فارغ‌التحصیلی چقدر است؟ هزینه‌های Educational Support Services در بخش پشتیبانی یادگیری فهرست شده‌اند."
     },
     {
       "text": "How does the NCSEAA Opportunity Scholarship interact with the school's own FACTS Grant & Aid for a given family?",
@@ -6507,20 +6635,20 @@
       "t": "آیا برای کمک‌هزینهٔ مبتنی بر نیاز، فرایندی برای تجدیدنظر یا تغییر شرایط در میانهٔ سال وجود دارد؟"
     },
     {
-      "text": "2025–26 school year · figures as of 18 Aug 2026",
-      "of": "16bb1477",
+      "text": "2026–27 school year · figures as of 22 Nov 2026",
+      "of": "d9bef220",
       "at": [
         "gaston-day:meta"
       ],
-      "t": "سال تحصیلی 2025–26 · ارقام تا 18 اوت 2026"
+      "t": "سال تحصیلی 2026–27 · ارقام تا 22 نوامبر 2026"
     },
     {
-      "text": "Tuition and fees are billed separately.",
-      "of": "a1fd923f",
+      "text": "Tuition and fees are listed separately.",
+      "of": "a1bc3632",
       "at": [
         "gaston-day:framing[1].title"
       ],
-      "t": "شهریه و هزینه‌ها جداگانه صورت‌حساب می‌شوند."
+      "t": "شهریه و هزینه‌ها جداگانه فهرست شده‌اند."
     },
     {
       "text": "Gaston Day publishes a tuition column, a fees column and a combined total. The all-in total is the like-for-like figure against other schools, and is what this report leads with.",
@@ -6531,12 +6659,12 @@
       "t": "Gaston Day یک ستون شهریه، یک ستون هزینه‌ها و یک مجموع ترکیبی منتشر می‌کند. مجموع همه‌شمول همان رقمی است که با مدارس دیگر مثل‌به‌مثل قابل‌قیاس است، و همان چیزی است که این گزارش با آن آغاز می‌شود."
     },
     {
-      "text": "Published all-in totals by grade band, 2025-26 — tuition plus fees",
-      "of": "ba5af6b3",
+      "text": "Published all-in totals by grade band, 2026–27 against 2025–26 — tuition plus fees",
+      "of": "d7050342",
       "at": [
         "gaston-day:sections[0].figureCaption"
       ],
-      "t": "مجموع‌های همه‌شمول منتشرشده بر حسب طیف پایه، 2025-26 — شهریه به‌علاوهٔ هزینه‌ها"
+      "t": "مجموع‌های همه‌شمول منتشرشده بر حسب طیف پایه، 2026–27 در برابر 2025–26 — شهریه به‌علاوهٔ هزینه‌ها"
     },
     {
       "text": "Preschool/Pre-K half-day",
@@ -6579,20 +6707,20 @@
       "t": "9th–12th"
     },
     {
-      "text": "Five bands from half-day preschool to grade 12. The amounts above are the school’s own published totals; the underlying split at the top band is $20,215 tuition + $2,175 fees = $22,390. Fees scale with the band, from $900 at half-day preschool to $2,175 in the Upper School.",
-      "of": "c930c05f",
+      "text": "Five bands run from half-day preschool to grade 12. The amounts above are the school’s own published totals. The top band is $21,025 tuition + $2,285 fees = $23,310. Fees rise with the band, from $945 at half-day preschool to $2,285 in the Upper School.",
+      "of": "ef02c195",
       "at": [
         "gaston-day:sections[0].figureNote"
       ],
-      "t": "پنج طیف از preschool نیم‌روزه تا پایهٔ 12. مبالغ بالا مجموع‌های منتشرشدهٔ خودِ مدرسه است؛ تفکیک زیربنایی در بالاترین طیف عبارت است از $20,215 شهریه + $2,175 هزینه = $22,390. هزینه‌ها با طیف بالا می‌روند، از $900 در preschool نیم‌روزه تا $2,175 در Upper School."
+      "t": "پنج طیف از preschool نیم‌روزه تا پایهٔ 12 امتداد دارند. مبالغ بالا مجموع‌های منتشرشدهٔ خودِ مدرسه است. بالاترین طیف عبارت است از $21,025 شهریه + $2,285 هزینه = $23,310. هزینه‌ها با طیف بالا می‌روند، از $945 در preschool نیم‌روزه تا $2,285 در Upper School."
     },
     {
-      "text": "For 2026-27 the school publishes only a range — $20,300 to $23,310 depending on grade — with no per-grade schedule posted at the time of this research.",
-      "of": "cb558ce6",
+      "text": "Every band rose about 4% from 2025–26. The top band went from $22,390 to $23,310. The school says it will set 2027–28 tuition in January 2027.",
+      "of": "fe4e3d13",
       "at": [
         "gaston-day:sections[0].figureNote2"
       ],
-      "t": "برای 2026-27 مدرسه تنها یک بازه منتشر می‌کند — از $20,300 تا $23,310 بسته به پایه — بدون هیچ برنامهٔ پایه‌به‌پایه‌ای که در زمان این پژوهش منتشر شده باشد."
+      "t": "همهٔ طیف‌ها نسبت به 2025–26 حدود 4% افزایش یافتند. بالاترین طیف از $22,390 به $23,310 رسید. مدرسه می‌گوید شهریهٔ 2027–28 را در ژانویهٔ 2027 تعیین خواهد کرد."
     },
     {
       "text": "What sits outside the published total",
@@ -6627,36 +6755,36 @@
       "t": "سرویس — به‌ازای هر سفر · $18"
     },
     {
-      "text": "After school care, Lower School · $95/week or $30/day",
-      "of": "3f8263c0",
+      "text": "After school care, Lower School · $100/week or $30/day",
+      "of": "a13bf4d1",
       "at": [
         "gaston-day:sections[1].components[3].label"
       ],
-      "t": "مراقبت پس از مدرسه، Lower School · $95/week یا $30/day"
+      "t": "مراقبت پس از مدرسه، Lower School · $100/week یا $30/day"
     },
     {
-      "text": "After school care, Middle School · $55/week or $15/day",
-      "of": "00ad224d",
+      "text": "After school care, Middle School · $60/week or $15/day",
+      "of": "9f715671",
       "at": [
         "gaston-day:sections[1].components[4].label"
       ],
-      "t": "مراقبت پس از مدرسه، Middle School · $55/week یا $15/day"
+      "t": "مراقبت پس از مدرسه، Middle School · $60/week یا $15/day"
     },
     {
-      "text": "Extended Day drop-in fee · $25",
-      "of": "52212ded",
+      "text": "Extended Day drop-in fee · $25 ($120/week for half-day preschool)",
+      "of": "d1704058",
       "at": [
         "gaston-day:sections[1].components[5].label"
       ],
-      "t": "هزینهٔ حضور موردی Extended Day · $25"
+      "t": "هزینهٔ حضور موردی Extended Day · $25 (برای preschool نیم‌روزه $120/week)"
     },
     {
-      "text": "Music lessons · $35 per lesson",
-      "of": "1bd323bd",
+      "text": "Music lessons · $35 per 30-minute lesson",
+      "of": "9935e4cf",
       "at": [
         "gaston-day:sections[1].components[6].label"
       ],
-      "t": "کلاس‌های موسیقی · $35 به‌ازای هر جلسه"
+      "t": "کلاس‌های موسیقی · $35 به‌ازای هر جلسهٔ 30 دقیقه‌ای"
     },
     {
       "text": "Summer camps · $140–$300/week, plus wrap-around care",
@@ -6699,20 +6827,36 @@
       "t": "هزینه‌های مشارکت ورزشی"
     },
     {
-      "text": "Unusually, almost every add-on Gaston Day publishes has a price. Transport, aftercare, music lessons and summer camp are all priced in dollars on the fee schedule or the camp catalog. What the school does not publish is what tuition itself includes. So the school does not say whether technology, lab fees, retreats and field trips are part of the fees column.",
-      "of": "9a8eb96c",
+      "text": "Bus — PM shuttle, Aug 15 to Nov 15 · $600",
+      "of": "ad2fb123",
+      "at": [
+        "gaston-day:sections[1].components[12].label"
+      ],
+      "t": "اتوبوس — سرویس بعدازظهر، از 15 اوت تا 15 نوامبر · $600"
+    },
+    {
+      "text": "Student Services Program & Learning Academy",
+      "of": "92d87c06",
+      "at": [
+        "gaston-day:sections[1].components[13].label"
+      ],
+      "t": "Student Services Program و Learning Academy"
+    },
+    {
+      "text": "Most add-ons on this list have a price. Transport, aftercare, music lessons and summer camp are all priced in dollars on the fee schedule or the camp catalog. For Student Services and the Learning Academy, the schedule sends families to the school for details and fees. The school does not say whether lab fees, retreats and field trips are included in tuition or fees.",
+      "of": "21f265d0",
       "at": [
         "gaston-day:sections[1].componentsNote"
       ],
-      "t": "به‌طور غیرمعمول، تقریباً هر افزودنی‌ای که Gaston Day منتشر می‌کند قیمت دارد. حمل‌ونقل، مراقبت پس از مدرسه، کلاس موسیقی و اردوی تابستانی همگی در برنامهٔ هزینه‌ها یا کاتالوگ اردو به دلار قیمت‌گذاری شده‌اند. آنچه مدرسه منتشر نمی‌کند این است که خودِ شهریه شامل چه چیزهایی است. پس مدرسه نمی‌گوید که آیا فناوری، هزینهٔ آزمایشگاه، اردوهای تفریحی و گردش‌های علمی بخشی از ستون هزینه‌ها هستند یا نه."
+      "t": "بیشتر افزودنی‌های این فهرست قیمت دارند. حمل‌ونقل، مراقبت پس از مدرسه، کلاس موسیقی و اردوی تابستانی همگی در برنامهٔ هزینه‌ها یا کاتالوگ اردو به دلار قیمت‌گذاری شده‌اند. برای Student Services و Learning Academy، برنامهٔ هزینه‌ها خانواده‌ها را برای جزئیات و هزینه‌ها به مدرسه ارجاع می‌دهد. مدرسه نمی‌گوید که آیا هزینهٔ آزمایشگاه، اردوهای تفریحی و گردش‌های علمی در شهریه یا هزینه‌ها گنجانده شده‌اند یا نه."
     },
     {
-      "text": "The fees column is not itemized. A family sees \"$2,175 in fees\" at the Upper School band without being told what those fees buy.",
-      "of": "5db0ed6e",
+      "text": "The schedule says the fees include security, technology and textbooks. It does not split the $2,285 Upper School fee among them.",
+      "of": "a5afb8fc",
       "at": [
         "gaston-day:sections[1].componentsAside"
       ],
-      "t": "ستون هزینه‌ها ریز نشده است. خانواده در طیف Upper School «$2,175 هزینه» را می‌بیند بی‌آنکه به او گفته شود آن هزینه‌ها چه چیزی می‌خرند."
+      "t": "برنامهٔ هزینه‌ها می‌گوید هزینه‌ها شامل امنیت، فناوری و کتاب‌های درسی است. مبلغ $2,285 هزینهٔ Upper School را میان آن‌ها تقسیم نمی‌کند."
     },
     {
       "text": "Step 1",
@@ -6844,6 +6988,14 @@
       "t": "از پیکرهٔ دانش‌آموزی کمک‌هزینهٔ شهریه می‌گیرند — رقم خودِ مدرسه"
     },
     {
+      "text": "up to 80%",
+      "of": "e88834fa",
+      "at": [
+        "gaston-day:sections[3].stats[1].value"
+      ],
+      "t": "تا 80%"
+    },
+    {
       "text": "of tuition — the published discount ceiling, K–12",
       "of": "279ddbc2",
       "at": [
@@ -6852,12 +7004,12 @@
       "t": "از شهریه — سقف تخفیف منتشرشده، K–12"
     },
     {
-      "text": "published aid budget, total awarded, or average award",
-      "of": "6b6a30b5",
+      "text": "aid budget, total awarded, or average award",
+      "of": "9b39e0f3",
       "at": [
         "gaston-day:sections[3].stats[2].label"
       ],
-      "t": "بودجهٔ کمک‌هزینهٔ منتشرشده، مجموع اعطاشده، یا میانگین بورس"
+      "t": "بودجهٔ کمک‌هزینه، مجموع اعطاشده، یا میانگین بورس"
     },
     {
       "text": "The 26% comes from the school’s own 2025-26 Academic Profile, where \"tuition assistance\" means need-based aid. At Gaston Day, need-based aid, merit awards and the NC Opportunity Scholarship are three separate channels.",
@@ -6989,12 +7141,12 @@
       "t": "سه مجرا، نه یکی"
     },
     {
-      "text": "Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. A family may qualify for more than one. How the three routes affect each other is not published, so it is worth asking the school directly.",
-      "of": "b5dbbf94",
+      "text": "Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. Need-based aid uses an **Indexed Tuition** plan: the school charges a range of tuitions based on a family’s financial need. A family can get both aid and the Opportunity Scholarship. The school subtracts the state award from the cost, and what is left is the possible need. How the Kimbrell awards combine with the other two is not published.",
+      "of": "bf7bb402",
       "at": [
         "gaston-day:sections[4].boxes[0].body"
       ],
-      "t": "Gaston Day کمک‌هزینهٔ مبتنی بر نیاز (**Financial Aid**)، **Merit Scholarships** و **NC Opportunity Scholarship** را به‌عنوان مسیرهای جداگانه اداره می‌کند. یک خانواده ممکن است واجد شرایط بیش از یکی باشد. اینکه این سه مسیر چگونه بر یکدیگر اثر می‌گذارند منتشر نشده است، پس ارزش دارد مستقیماً از مدرسه بپرسید."
+      "t": "Gaston Day کمک‌هزینهٔ مبتنی بر نیاز (**Financial Aid**)، **Merit Scholarships** و **NC Opportunity Scholarship** را به‌عنوان مسیرهای جداگانه اداره می‌کند. کمک‌هزینهٔ مبتنی بر نیاز از طرح **Indexed Tuition** استفاده می‌کند: مدرسه بر پایهٔ نیاز مالی خانواده، بازه‌ای از شهریه‌های گوناگون دریافت می‌کند. یک خانواده می‌تواند هم کمک‌هزینه و هم Opportunity Scholarship بگیرد. مدرسه بورس ایالتی را از هزینه کم می‌کند و آنچه می‌ماند نیاز احتمالی است. اینکه بورس‌های Kimbrell چگونه با دو مسیر دیگر ترکیب می‌شوند منتشر نشده است."
     },
     {
       "text": "No amount for the Kimbrell Family Scholarship, no deadlines for either Kimbrell award, no count of recipients, no renewal terms, and no sibling, military, clergy or employee discount.",
@@ -7013,84 +7165,132 @@
       "t": "طرح‌های پرداخت و شرایط"
     },
     {
-      "text": "Several",
-      "of": "e8776b6f",
-      "at": [
-        "gaston-day:sections[5].plans[0].figure"
-      ],
-      "t": "چندین"
-    },
-    {
-      "text": "Payment plans offered",
-      "of": "6dc18862",
+      "text": "Plan A: single payment",
+      "of": "6b4f47c9",
       "at": [
         "gaston-day:sections[5].plans[0].label"
       ],
-      "t": "طرح‌های پرداخت ارائه‌شده"
+      "t": "طرح A: یک پرداخت"
     },
     {
-      "text": "The fee schedule states that \"Gaston Day offers a variety of payment plans in an effort to make our community more affordable and accessible\" — but names none of them, gives no installment counts, dates or fees.",
-      "of": "7e43452c",
+      "text": "Due July 1, 2026. After the deposit it is $19,150 for K–4, $21,150 for 5–8 and $22,160 for 9–12. Preschool and Pre-K pay $8,345 for half day or $10,540 for full day.",
+      "of": "c2c42fe9",
       "at": [
         "gaston-day:sections[5].plans[0].detail"
       ],
-      "t": "برنامهٔ هزینه‌ها می‌گوید \"Gaston Day offers a variety of payment plans in an effort to make our community more affordable and accessible\" — اما هیچ‌یک را نام نمی‌برد و هیچ شمار قسط، تاریخ یا هزینه‌ای نمی‌دهد."
+      "t": "سررسید 1 ژوئیهٔ 2026. پس از ودیعه، برای K–4 مبلغ $19,150، برای 5–8 مبلغ $21,150 و برای 9–12 مبلغ $22,160 است. Preschool و Pre-K برای نیم‌روز $8,345 یا برای تمام‌روز $10,540 می‌پردازند."
     },
     {
-      "text": "Deposit",
-      "of": "95f76a55",
-      "at": [
-        "gaston-day:sections[5].plans[1].figure"
-      ],
-      "t": "ودیعه"
-    },
-    {
-      "text": "Assumed by every plan",
-      "of": "92b81c14",
+      "text": "Plan B: two payments",
+      "of": "9c165db3",
       "at": [
         "gaston-day:sections[5].plans[1].label"
       ],
-      "t": "هر طرحی آن را مفروض می‌گیرد"
+      "t": "طرح B: دو پرداخت"
     },
     {
-      "text": "All payment plans \"assume tuition deposit and fees have been paid\" — so the deposit and the full fees column come first, whatever plan a family picks. The deposit amount is not published.",
-      "of": "a482eda7",
+      "text": "Due July 1 and December 1, 2026. Each payment is $10,054 for K–4, $11,104 for 5–8 and $11,634 for 9–12. For Preschool and Pre-K it is $4,382 for half day or $5,534 for full day.",
+      "of": "852d8fa7",
       "at": [
         "gaston-day:sections[5].plans[1].detail"
       ],
-      "t": "همهٔ طرح‌های پرداخت \"assume tuition deposit and fees have been paid\" — بنابراین ودیعه و کل ستون هزینه‌ها نخست می‌آیند، هر طرحی که خانواده برگزیند. مبلغ ودیعه منتشر نشده است."
+      "t": "سررسید 1 ژوئیه و 1 دسامبر 2026. هر پرداخت برای K–4 مبلغ $10,054، برای 5–8 مبلغ $11,104 و برای 9–12 مبلغ $11,634 است. برای Preschool و Pre-K، نیم‌روز $4,382 یا تمام‌روز $5,534 است."
     },
     {
-      "text": "This is the thinnest section of Gaston Day’s public record. None of these appears anywhere on the public site: plan names · an installment schedule · plan fees · a card-processing surcharge · a deposit amount · a late-payment policy · withdrawal or refund terms · a tuition-insurance or refund-plan option. Many schools publish at least the number of installments.",
-      "of": "32f8d396",
+      "text": "Plan C: nine payments",
+      "of": "5eeef270",
+      "at": [
+        "gaston-day:sections[5].plans[2].label"
+      ],
+      "t": "طرح C: نُه پرداخت"
+    },
+    {
+      "text": "Monthly from May 1, 2026 to January 1, 2027. Each payment is $2,234 for K–4, $2,468 for 5–8 and $2,585 for 9–12. For Preschool and Pre-K it is $974 for half day or $1,230 for full day.",
+      "of": "39be219a",
+      "at": [
+        "gaston-day:sections[5].plans[2].detail"
+      ],
+      "t": "ماهانه، از 1 مه 2026 تا 1 ژانویهٔ 2027. هر پرداخت برای K–4 مبلغ $2,234، برای 5–8 مبلغ $2,468 و برای 9–12 مبلغ $2,585 است. برای Preschool و Pre-K، نیم‌روز $974 یا تمام‌روز $1,230 است."
+    },
+    {
+      "text": "$1,150",
+      "of": "b3c310d8",
+      "at": [
+        "gaston-day:sections[5].plans[3].figure"
+      ],
+      "t": "$1,150"
+    },
+    {
+      "text": "Re-enrollment deposit, K–12",
+      "of": "bd20d2c0",
+      "at": [
+        "gaston-day:sections[5].plans[3].label"
+      ],
+      "t": "ودیعهٔ ثبت‌نام مجدد، K–12"
+    },
+    {
+      "text": "For returning students who re-enrolled by February 13, 2026. After that it was $1,250. Preschool and Pre-K pay $800, or $900 if late. Every plan amount already takes the on-time deposit off.",
+      "of": "35fd6312",
+      "at": [
+        "gaston-day:sections[5].plans[3].detail"
+      ],
+      "t": "برای دانش‌آموزان بازگشتی که تا 13 فوریهٔ 2026 دوباره ثبت‌نام کردند. پس از آن $1,250 بود. Preschool و Pre-K مبلغ $800، یا در صورت دیرکرد $900 می‌پردازند. مبلغ همهٔ طرح‌ها با کسر ودیعهٔ به‌موقع محاسبه شده است."
+    },
+    {
+      "text": "The schedule gives no late fee for missed tuition payments and no withdrawal terms. It does not say what the Tuition Refund Program covers. It also gives no deposit amount for a family new to the school.",
+      "of": "49cec10d",
       "at": [
         "gaston-day:sections[5].boxes[0].body"
       ],
-      "t": "این نازک‌ترین بخش سابقهٔ عمومی Gaston Day است. هیچ‌یک از این موارد در هیچ‌جای سایت عمومی دیده نمی‌شود: نام طرح‌ها · جدول اقساط · هزینه‌های طرح · کارمزد اضافی پردازش کارت · مبلغ ودیعه · سیاست تأخیر در پرداخت · شرایط انصراف یا بازپرداخت · گزینهٔ بیمهٔ شهریه یا طرح بازپرداخت. بسیاری از مدارس دست‌کم شمار اقساط را منتشر می‌کنند."
+      "t": "برنامهٔ هزینه‌ها هیچ جریمهٔ دیرکردی برای پرداخت‌نکردن به‌موقع شهریه و هیچ شرایط انصرافی نمی‌دهد. نمی‌گوید Tuition Refund Program چه چیزی را پوشش می‌دهد. مبلغ ودیعه برای خانواده‌ای که تازه به مدرسه می‌آید را نیز نمی‌دهد."
     },
     {
-      "text": "top band all-in, 2025-26 (tuition $20,215 + fees $2,175)",
-      "of": "5e80ff5a",
+      "text": "What Plans B and C add",
+      "of": "e078839a",
+      "at": [
+        "gaston-day:sections[5].boxes[1].title"
+      ],
+      "t": "آنچه طرح‌های B و C می‌افزایند"
+    },
+    {
+      "text": "Both plans require the **Tuition Refund Program** and add a payment surcharge. Each of the two charges is $479 for K–4, $529 for 5–8 and $554 for 9–12. For Preschool and Pre-K, each is $209 for half day or $264 for full day. On every plan, paying by card adds a **4% processing fee**. A returned payment costs **$100**.",
+      "of": "0b61c6d5",
+      "at": [
+        "gaston-day:sections[5].boxes[1].body"
+      ],
+      "t": "هر دو طرح **Tuition Refund Program** را الزامی می‌کنند و یک اضافه‌هزینهٔ پرداخت می‌افزایند. هر یک از این دو هزینه برای K–4 مبلغ $479، برای 5–8 مبلغ $529 و برای 9–12 مبلغ $554 است. برای Preschool و Pre-K، هر یک در نیم‌روز $209 یا در تمام‌روز $264 است. در همهٔ طرح‌ها، پرداخت با کارت **کارمزد پردازش 4%** می‌افزاید. پرداخت برگشت‌خورده **$100** هزینه دارد."
+    },
+    {
+      "text": "top band all-in, 2026–27 (tuition $21,025 + fees $2,285)",
+      "of": "9c551a04",
       "at": [
         "gaston-day:sections[6].stats[0].label"
       ],
-      "t": "بالاترین طیف به‌صورت همه‌شمول، 2025-26 (شهریه $20,215 + هزینه‌ها $2,175)"
+      "t": "بالاترین طیف به‌صورت همه‌شمول، 2026–27 (شهریه $21,025 + هزینه‌ها $2,285)"
     },
     {
-      "text": "the 2026-27 range, published without a per-grade table",
-      "of": "d0d20df5",
+      "text": "about the rise in every band from 2025–26",
+      "of": "c6dfac17",
       "at": [
         "gaston-day:sections[6].stats[1].label"
       ],
-      "t": "بازهٔ 2026-27، منتشرشده بدون جدول پایه‌به‌پایه"
+      "t": "افزایش تقریبی در همهٔ طیف‌ها نسبت به 2025–26"
     },
     {
-      "text": "of schedules retrievable (2024-25 and 2025-26 PDFs)",
-      "of": "b1467eaa",
+      "text": "3 yrs",
+      "of": "c2cb21da",
+      "at": [
+        "gaston-day:sections[6].stats[2].value"
+      ],
+      "t": "3 سال"
+    },
+    {
+      "text": "of fee schedules posted on the school’s site (2024–25 to 2026–27)",
+      "of": "9c0558fe",
       "at": [
         "gaston-day:sections[6].stats[2].label"
       ],
-      "t": "از برنامه‌ها قابل بازیابی است (PDFهای 2024-25 و 2025-26)"
+      "t": "از برنامه‌های هزینه که در سایت مدرسه منتشر شده‌اند (2024–25 تا 2026–27)"
     },
     {
       "text": "What is the total aid budget, the average award, and how many families receive aid?",
@@ -7101,36 +7301,36 @@
       "t": "کل بودجهٔ کمک‌هزینه چقدر است، میانگین بورس چقدر است، و چند خانواده کمک دریافت می‌کنند؟"
     },
     {
-      "text": "What are the payment plans, how many installments, and what do they cost?",
-      "of": "152601ad",
+      "text": "What does the Tuition Refund Program cover, and what happens if a family withdraws or pays late?",
+      "of": "33675c06",
       "at": [
         "gaston-day:sections[6].questions[1]"
       ],
-      "t": "طرح‌های پرداخت چیستند، چند قسط دارند، و هزینه‌شان چقدر است؟"
+      "t": "Tuition Refund Program چه چیزی را پوشش می‌دهد، و اگر خانواده‌ای انصراف دهد یا دیر پرداخت کند چه می‌شود؟"
     },
     {
-      "text": "What is the enrollment deposit, and is it refundable or credited to tuition?",
-      "of": "0f0c40bf",
+      "text": "What deposit does a new family pay, and is it refundable?",
+      "of": "b80c560e",
       "at": [
         "gaston-day:sections[6].questions[2]"
       ],
-      "t": "ودیعهٔ ثبت‌نام چقدر است، و آیا قابل بازپرداخت است یا به حساب شهریه منظور می‌شود؟"
+      "t": "خانوادهٔ تازه‌وارد چه ودیعه‌ای می‌پردازد، و آیا قابل بازپرداخت است؟"
     },
     {
-      "text": "What exactly do the fees buy — the $2,175 Upper School fees column is not itemized anywhere?",
-      "of": "2fc296f9",
+      "text": "Are lab fees, retreats and field trips included in tuition or fees?",
+      "of": "89f8f914",
       "at": [
         "gaston-day:sections[6].questions[3]"
       ],
-      "t": "هزینه‌ها دقیقاً چه چیزی می‌خرند — ستون هزینه‌های $2,175 مربوط به Upper School در هیچ‌جا ریز نشده است؟"
+      "t": "آیا هزینهٔ آزمایشگاه، اردوهای تفریحی و گردش‌های علمی در شهریه یا هزینه‌ها گنجانده شده‌اند؟"
     },
     {
-      "text": "Do need-based aid, the Kimbrell awards and the NC Opportunity Scholarship stack, or offset each other?",
-      "of": "0d6b0ae3",
+      "text": "How do the Kimbrell awards combine with need-based aid and the NC Opportunity Scholarship?",
+      "of": "46712cbd",
       "at": [
         "gaston-day:sections[6].questions[4]"
       ],
-      "t": "آیا کمک‌هزینهٔ مبتنی بر نیاز، بورس‌های Kimbrell و NC Opportunity Scholarship روی هم انباشته می‌شوند، یا یکدیگر را خنثی می‌کنند؟"
+      "t": "بورس‌های Kimbrell چگونه با کمک‌هزینهٔ مبتنی بر نیاز و NC Opportunity Scholarship ترکیب می‌شوند؟"
     },
     {
       "text": "What is the amount of the Kimbrell Family Scholarship, and when are both Kimbrell awards decided?",
@@ -7411,7 +7611,7 @@
       "at": [
         "trinity-episcopal:sections[1].components[8].label"
       ],
-      "t": "اردوی تابستانی — Wildcat Summer Camp، فصل 2026 · $225–$785 برای هر اردو"
+      "t": "اردوی تابستانی — Wildcat Summer Camp، فصل 2026 · از $225 تا $785 برای هر اردو"
     },
     {
       "text": "Books — no charge listed for any grade",
@@ -7790,12 +7990,12 @@
       "t": "Montessori K"
     },
     {
-      "text": "The comparison is with **2024-25**, the last year the school's tuition page survives in the archive — 2025-26 was never captured — so each change covers **two years**, about 7% a year. Since 2024-25 the school has **folded its athletics, fine arts and technology fees into tuition**, so part of the rise replaces fees families once paid separately. The board's stated aim is to keep tuition \"**at or below the median of peer schools**\".",
-      "of": "52a70b21",
+      "text": "The comparison is with **2024-25**, the last year the school's tuition page survives in the archive — 2025-26 was never captured — so each change covers **two years**, about 7% a year. The school **folded its athletics, fine arts and technology fees into tuition** in 2024-25, so both years in this comparison include them. The board's stated aim is to keep tuition \"**at or below the median of peer schools**\".",
+      "of": "95159512",
       "at": [
         "charlotte-prep:sections[0].figureNote"
       ],
-      "t": "مقایسه با **2024-25** است، آخرین سالی که صفحهٔ شهریهٔ مدرسه در بایگانی باقی مانده — از 2025-26 هرگز نسخه‌ای ثبت نشد — بنابراین هر تغییر **دو سال** را در بر می‌گیرد، یعنی حدود 7% در سال. از 2024-25 به این سو، مدرسه **هزینه‌های ورزش، هنرهای زیبا و فناوری را در شهریه ادغام کرده است**، پس بخشی از افزایش جایگزین هزینه‌هایی است که خانواده‌ها پیش‌تر جداگانه می‌پرداختند. هدف اعلام‌شدهٔ هیئت امنا نگه داشتن شهریه \"**at or below the median of peer schools**\" است."
+      "t": "مقایسه با **2024-25** است، آخرین سالی که صفحهٔ شهریهٔ مدرسه در بایگانی باقی مانده — از 2025-26 هرگز نسخه‌ای ثبت نشد — بنابراین هر تغییر **دو سال** را در بر می‌گیرد، یعنی حدود 7% در سال. مدرسه در 2024-25 **هزینه‌های ورزش، هنرهای زیبا و فناوری را در شهریه ادغام کرد**، پس هر دو سال این مقایسه آن‌ها را در بر دارند. هدف اعلام‌شدهٔ هیئت امنا نگه داشتن شهریه \"**at or below the median of peer schools**\" است."
     },
     {
       "text": "A **3% discount** applies for younger siblings of current students.",
@@ -7862,12 +8062,12 @@
       "t": "Extended Day ویژهٔ Early School — از $2,700 (TK) تا $5,900 (Pre-Primary/Primary)"
     },
     {
-      "text": "Summer camp — $250 to $600 a week (2026)",
-      "of": "57df5553",
+      "text": "Summer camp — $175 to $600 a week (2026)",
+      "of": "0f7b43d7",
       "at": [
         "charlotte-prep:sections[1].components[7].label"
       ],
-      "t": "اردوی تابستانی — هفته‌ای $250 تا $600 (2026)"
+      "t": "اردوی تابستانی — هفته‌ای $175 تا $600 (2026)"
     },
     {
       "text": "Lunch through FLIK — billed separately",

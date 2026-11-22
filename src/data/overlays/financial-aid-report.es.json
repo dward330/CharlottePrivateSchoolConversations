@@ -22,11 +22,10 @@
       ]
     },
     {
-      "t": "Año escolar 2026–27 · cifras a 24 de julio de 2026",
-      "of": "08565aea",
+      "t": "Año escolar 2026–27 · cifras a 24 de julio de 2026; tarifas de autobús e inscripción en Extended Day, a 22 de noviembre de 2026",
+      "of": "ed51b82e",
       "at": [
-        "providence-day:meta",
-        "charlotte-latin:meta"
+        "providence-day:meta"
       ]
     },
     {
@@ -61,6 +60,7 @@
         "charlotte-christian:framing[1].title",
         "charlotte-country-day:framing[1].title",
         "cannon:framing[1].title",
+        "covenant-day:framing[1].title",
         "davidson-day:framing[1].title",
         "carmel-christian:framing[1].title",
         "hickory-grove-christian:framing[1].title"
@@ -272,15 +272,15 @@
       ]
     },
     {
-      "t": "Dieciséis conceptos confirmados para una familia en 2026–27 — 9 sin precio",
-      "of": "c22c432b",
+      "t": "Diecisiete conceptos confirmados para una familia en 2026–27 — 9 sin precio",
+      "of": "d23c152c",
       "at": [
         "providence-day:sections[1].componentsTitle"
       ]
     },
     {
-      "t": "No se construye una estimación total: el 56% sin precio supera el umbral del 33%",
-      "of": "03b7f7a7",
+      "t": "No se construye una estimación total: el 53% sin precio supera el umbral del 33%",
+      "of": "2d04ace4",
       "at": [
         "providence-day:sections[1].componentsAside"
       ]
@@ -338,8 +338,8 @@
       ]
     },
     {
-      "t": "Clases de enriquecimiento de Extended Day · $200 (TK/K) o $220 (grados 1–5) por clase",
-      "of": "0a1a0766",
+      "t": "Clases de enriquecimiento de Extended Day · $200 o $220 por clase, según el grado y el programa",
+      "of": "25cac1bb",
       "at": [
         "providence-day:sections[1].components[7].label"
       ]
@@ -401,8 +401,15 @@
       ]
     },
     {
-      "t": "De dieciséis conceptos confirmados, siete tienen precio publicado y nueve no. Eso deja un 56% sin precio. Este informe solo muestra una estimación total cuando un tercio de los conceptos o menos carecen de precio. Así que aquí no muestra ninguna, en lugar de montar una horquilla con precios que faltan en su mayoría. Existen dos fondos dotados (sección 5) para pagar costes por encima de la matrícula. Su existencia confirma de forma independiente que estos gastos son reales.",
-      "of": "63d1727b",
+      "t": "Inscripción en Extended Day · $80/año",
+      "of": "b692a540",
+      "at": [
+        "providence-day:sections[1].components[16].label"
+      ]
+    },
+    {
+      "t": "De diecisiete conceptos de costo confirmados, ocho tienen precio publicado y nueve no. Eso deja un 53% sin precio. Este informe solo muestra una estimación total cuando un tercio de los conceptos o menos carecen de precio. Así que aquí no muestra ninguna, en lugar de montar una horquilla con precios que faltan en su mayoría. Existen dos fondos dotados (sección 5) para pagar costes por encima de la matrícula. Su existencia confirma de forma independiente que estos gastos son reales.",
+      "of": "d52d7665",
       "at": [
         "providence-day:sections[1].componentsNote"
       ]
@@ -800,8 +807,8 @@
       ]
     },
     {
-      "t": "No hay matrícula indexada ni variable · ni descuento por hermanos, clero, militares o servicios de emergencia · ni programa general de méritos · ni ninguna cifra sobre cuántas ayudas concede al año cada fondo con nombre propio o cuánto vale una ayuda típica · ni indicación de si una ayuda de un fondo con nombre propio se suma a una ayuda por necesidad o la sustituye. Que un descuento no esté publicado no prueba que no exista — varios suelen tratarse caso por caso.",
-      "of": "afdc144e",
+      "t": "No hay matrícula indexada ni variable · ni descuento de matrícula por hermanos (el autobús sí tiene tarifas más bajas para hermanos) · ni descuento para clero, militares o servicios de emergencia · ni programa general de méritos · ni ninguna cifra sobre cuántas ayudas concede al año cada fondo con nombre propio o cuánto vale una ayuda típica · ni indicación de si una ayuda de un fondo con nombre propio se suma a una ayuda por necesidad o la sustituye. Que un descuento no esté publicado no prueba que no exista — varios suelen tratarse caso por caso.",
+      "of": "6634ed57",
       "at": [
         "providence-day:sections[4].boxes[3].body"
       ]
@@ -840,7 +847,8 @@
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
         "cannon:sections[4].plans[0].figure",
-        "covenant-day:sections[5].plans[0].figure"
+        "covenant-day:sections[5].plans[0].figure",
+        "gaston-day:sections[5].plans[0].figure"
       ]
     },
     {
@@ -1074,10 +1082,17 @@
       ]
     },
     {
-      "t": "¿Ofrecen alguna consideración especial por hermanos, para empleados, clero, militares o servicios de emergencia?",
-      "of": "3b9d36aa",
+      "t": "¿Ofrecen alguna consideración especial en la matrícula por hermanos, para empleados, clero, militares o servicios de emergencia?",
+      "of": "7cf8a106",
       "at": [
         "providence-day:sections[6].questions[9]"
+      ]
+    },
+    {
+      "t": "Año escolar 2026–27 · cifras a 24 de julio de 2026 · tarifas de autobús y de Talons a 22 de noviembre de 2026",
+      "of": "7871af58",
+      "at": [
+        "charlotte-latin:meta"
       ]
     },
     {
@@ -1096,8 +1111,8 @@
       ]
     },
     {
-      "t": "Cada cifra en dólares lleva el año escolar al que corresponde. La página de transporte va un año por detrás de la tabla de matrícula de 2026–27 — son ciclos distintos, no una contradicción.",
-      "of": "eb756613",
+      "t": "Cada cifra en dólares lleva el año escolar al que corresponde. La página de Transportation de Student Life da las tarifas de autobús de 2026–27. La página de Transportation de Admissions todavía da las tarifas de 2025–26.",
+      "of": "349ec10c",
       "at": [
         "charlotte-latin:framing[1].body"
       ]
@@ -1153,15 +1168,15 @@
       ]
     },
     {
-      "t": "Catorce conceptos confirmados para una familia en 2026–27 — 8 sin precio o con un año de retraso",
-      "of": "c07e9fd1",
+      "t": "Catorce conceptos confirmados para una familia en 2026–27 — 6 sin precio",
+      "of": "e0b124f6",
       "at": [
         "charlotte-latin:sections[1].componentsTitle"
       ]
     },
     {
-      "t": "No se construye una estimación total: el 57% sin precio supera el umbral del 33%",
-      "of": "6e420628",
+      "t": "No se construye una estimación total: el 43% sin precio supera el umbral del 33%",
+      "of": "bebf6ea1",
       "at": [
         "charlotte-latin:sections[1].componentsAside"
       ]
@@ -1195,8 +1210,8 @@
       ]
     },
     {
-      "t": "Servicio de autobús · solo tarifas de 2025–26",
-      "of": "5a1f5dba",
+      "t": "Servicio de autobús · $1,900 ida y vuelta, $950 solo ida",
+      "of": "20eb1b35",
       "at": [
         "charlotte-latin:sections[1].components[6].label"
       ]
@@ -1237,8 +1252,8 @@
       ]
     },
     {
-      "t": "Deportes juveniles Talons · sin tarifa",
-      "of": "d3f2d35c",
+      "t": "Deportes juveniles Talons · $195–$375 para los programas de invierno y primavera con precio hasta ahora",
+      "of": "214b08ac",
       "at": [
         "charlotte-latin:sections[1].components[12].label"
       ]
@@ -1251,22 +1266,22 @@
       ]
     },
     {
-      "t": "Seis conceptos tienen precio para 2026–27. El resto no tiene precio o solo está publicado a tarifas de 2025–26. El propio plan estratégico del colegio confirma que estos gastos son reales: las familias “often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities.”",
-      "of": "a00d6681",
+      "t": "Ocho conceptos tienen precio para 2026–27. Los otros seis no tienen tarifa publicada. El propio plan estratégico del colegio confirma que estos gastos son reales: las familias “often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities.”",
+      "of": "472d94a6",
       "at": [
         "charlotte-latin:sections[1].componentsNote"
       ]
     },
     {
-      "t": "Servicio de autobús — un año por detrás de la tabla de matrícula",
-      "of": "91a888c5",
+      "t": "Servicio de autobús — dos páginas, dos años escolares",
+      "of": "04773848",
       "at": [
         "charlotte-latin:sections[1].boxes[0].title"
       ]
     },
     {
-      "t": "Ida y vuelta **$1,800** · solo ida **$900** · autobús de actividades **$450** por temporada. El panel de tarifas se titula “Bus Service Annual Fees 2025-26” mientras que la página de matrícula ya está en 2026–27, así que una familia que presupueste el próximo curso no puede calcular el autobús desde la web.",
-      "of": "aa5531a5",
+      "t": "La página de Transportation de Student Life recoge las tarifas de 2026–27: ida y vuelta **$1,900** y solo ida **$950**. Los estudiantes sin plan de ida y vuelta pagan por actividad. El autobús de actividades deportivas de Middle y Upper School cuesta **$550** por temporada. Los autobuses de Talons y de enriquecimiento cuestan **$80** por sesión. Los autobuses de ensayos de teatro cuestan **$80** por obra, o **$160** en Middle School. La página de Transportation de Admissions todavía recoge las tarifas de 2025–26: **$1,800** ida y vuelta, **$900** solo ida y **$450** por temporada para el autobús de actividades.",
+      "of": "aa1090b9",
       "at": [
         "charlotte-latin:sections[1].boxes[0].body"
       ]
@@ -1511,8 +1526,8 @@
       ]
     },
     {
-      "t": "Más allá de la ayuda a la matrícula, el colegio indica que a sus **familias con mayor necesidad** les cubre también apoyo complementario para lo esencial del día a día escolar, **incluida la comida**. Sus preguntas frecuentes sobre ayuda financiera añaden que a los estudiantes que obtienen una beca dotada con nombre propio también se les pueden cubrir gastos escolares adicionales. En el momento de la admisión, la persona responsable de la gestión de donaciones y la administración de becas del colegio comunica a las familias si cumplen los requisitos y qué queda cubierto. El colegio no publica qué más cubre este apoyo ni qué grado de necesidad hace que una familia cumpla los requisitos.",
-      "of": "7231cc84",
+      "t": "Más allá de la ayuda a la matrícula, el colegio indica que a sus **familias con mayor necesidad** les cubre también apoyo complementario para lo esencial del día a día escolar, **incluida la comida**. Sus preguntas frecuentes sobre ayuda financiera añaden que a los estudiantes que obtienen una beca dotada con nombre propio también se les pueden cubrir gastos escolares adicionales. En el momento de la admisión, la persona responsable de la gestión de donaciones y la administración de becas del colegio comunica a las familias si cumplen los requisitos y qué queda cubierto. El Plus Fund del colegio ayuda a las familias con una ayuda considerable a afrontar costes más allá de la matrícula. Los ejemplos que nombra son la comida, los libros, los alquileres, las cuotas deportivas, los viajes y los recursos de aprendizaje. El colegio no publica qué grado de necesidad hace que una familia cumpla los requisitos.",
+      "of": "d5e357fd",
       "at": [
         "charlotte-latin:sections[3].boxes[3].body"
       ]
@@ -1625,7 +1640,8 @@
       "at": [
         "charlotte-latin:sections[5].plans[1].figure",
         "charlotte-country-day:sections[4].plans[2].figure",
-        "cannon:sections[4].plans[1].figure"
+        "cannon:sections[4].plans[1].figure",
+        "gaston-day:sections[5].plans[1].figure"
       ]
     },
     {
@@ -1752,8 +1768,8 @@
       ]
     },
     {
-      "t": "Los totales anteriores aplican las franjas de 2026–27 a un recorrido completo (2 años a $27,600; 5 a $32,600; 3 a $35,200; 4 a $36,500). Suponen que los precios de hoy se mantienen todos los años, cosa que no ocurrirá: la matrícula publicada se fija cada año y ha subido en el pasado. Son solo matrícula, antes de cualquier ayuda. Excluyen el depósito, los viajes, el seguro, el transporte, el programa extraescolar, las comidas, los libros y todos los conceptos sin precio de la sección 02. Existen únicamente para dar una idea de magnitud.",
-      "of": "47586087",
+      "t": "Los totales anteriores aplican las franjas de 2026–27 a un recorrido completo (2 años a $27,600; 5 a $32,600; 3 a $35,200; 4 a $36,500). Suponen que los precios de hoy se mantienen todos los años, cosa que no ocurrirá: la matrícula publicada se fija cada año y ha subido en el pasado. Son solo matrícula, antes de cualquier ayuda. Excluyen el depósito, los viajes, el seguro, el transporte, el programa extraescolar, Talons, las comidas, los libros y todos los conceptos sin precio de la sección 02. Existen únicamente para dar una idea de magnitud.",
+      "of": "a41b8e2c",
       "at": [
         "charlotte-latin:sections[6].boxes[1].body"
       ]
@@ -1781,8 +1797,8 @@
       ]
     },
     {
-      "t": "**Sigue circulando una página desactualizada.** La página de matrícula activa fija la fecha límite de ayuda el 15 de enero de 2027. Pero los buscadores siguen mostrando texto guardado de esa misma dirección con el 15 de enero de 2026. Conviene abrir la página directamente en lugar de fiarse del fragmento del buscador. **La dirección de contacto está mal escrita en un sitio**. La página de matrícula invita a enviar preguntas a una dirección de correo cuyo dominio tiene dos letras intercambiadas. La dirección correcta aparece en otro punto de la misma página. El correo enviado a la versión errónea no llegará, así que conviene usar el panel de contacto.",
-      "of": "ffd4a62c",
+      "t": "**Sigue circulando una página desactualizada.** La página de matrícula activa fija la fecha límite de ayuda el 15 de enero de 2027. Pero los buscadores siguen mostrando texto guardado de esa misma dirección con el 15 de enero de 2026. Conviene abrir la página directamente en lugar de fiarse del fragmento del buscador. **La dirección de contacto está mal escrita en un documento**. El documento \"How to Apply for Financial Aid\" del colegio da una dirección de correo cuyo dominio tiene dos letras intercambiadas. La página de matrícula tiene la dirección correcta, así que conviene usar esa.",
+      "of": "b1bf3618",
       "at": [
         "charlotte-latin:sections[6].boxes[3].body"
       ]
@@ -1812,61 +1828,52 @@
       ]
     },
     {
-      "t": "¿Cuáles son los costes de participación en deportes y actividades concretos?",
-      "of": "e0556d22",
+      "t": "¿Cuáles son los costes de participación en los deportes y las actividades escolares, aparte de las cuotas de Talons ya publicadas?",
+      "of": "2074d70c",
       "at": [
         "charlotte-latin:sections[6].questions[2]"
-      ]
-    },
-    {
-      "t": "¿Cuáles son las tarifas de autobús de 2026–27?",
-      "of": "8d402598",
-      "at": [
-        "charlotte-latin:sections[6].questions[3]"
       ]
     },
     {
       "t": "¿Cuál es el porcentaje actual de estudiantes que recibe ayuda a la matrícula, y de qué año es el dato?",
       "of": "fc87bf28",
       "at": [
-        "charlotte-latin:sections[6].questions[4]"
+        "charlotte-latin:sections[6].questions[3]"
       ]
     },
     {
       "t": "¿Cuál es la mediana de las ayudas, cuál es la horquilla de la menor a la mayor, y alguna ayuda llega a cubrir la matrícula completa?",
       "of": "8edf084f",
       "at": [
-        "charlotte-latin:sections[6].questions[5]"
+        "charlotte-latin:sections[6].questions[4]"
       ]
     },
     {
       "t": "De cada beca con nombre propio: la cuantía, cuántas se conceden, cómo se elige a los beneficiarios entre los estudiantes que cumplen los requisitos y si puede mantenerse junto a una ayuda por necesidad.",
       "of": "9d60cbb9",
       "at": [
-        "charlotte-latin:sections[6].questions[6]"
+        "charlotte-latin:sections[6].questions[5]"
       ]
     },
     {
       "t": "¿Suelen renovarse las ayudas en un nivel constante de un año a otro, y existe un proceso de recurso o de cambio de circunstancias?",
       "of": "622e5598",
       "at": [
-        "charlotte-latin:sections[6].questions[7]"
+        "charlotte-latin:sections[6].questions[6]"
       ]
     },
     {
       "t": "Por favor, confirmen las tarifas de cuatro y cinco días de Hawks’ Club en las dos filas señaladas en la sección 02.",
       "of": "bf31a8a6",
       "at": [
-        "charlotte-latin:sections[6].questions[8]"
+        "charlotte-latin:sections[6].questions[7]"
       ]
     },
     {
-      "t": "Año escolar 2026–27 · cifras a 23 de julio de 2026",
-      "of": "a311c291",
+      "t": "Año escolar 2026–27 · cifras a 23 de julio de 2026; fechas y requisito de ayuda a 22 de noviembre de 2026",
+      "of": "ae33c130",
       "at": [
-        "charlotte-christian:meta",
-        "charlotte-country-day:meta",
-        "cannon:meta"
+        "charlotte-christian:meta"
       ]
     },
     {
@@ -2181,15 +2188,15 @@
       ]
     },
     {
-      "t": "1 nov 2026",
-      "of": "de7f4b1b",
+      "t": "2 nov 2026",
+      "of": "684418b0",
       "at": [
         "charlotte-christian:sections[2].timeline[3].when"
       ]
     },
     {
-      "t": "Fecha límite prioritaria para las **familias actuales** — a través de Clarity",
-      "of": "0b98338b",
+      "t": "Fecha límite prioritaria para las **familias actuales** — a través de Clarity. Las ayudas se comunican con la rematriculación en febrero",
+      "of": "ed28802d",
       "at": [
         "charlotte-christian:sections[2].timeline[3].detail"
       ]
@@ -2202,22 +2209,22 @@
       ]
     },
     {
-      "t": "Fecha límite prioritaria para las **familias nuevas** — a través de Clarity",
-      "of": "a31cb4fa",
+      "t": "Fecha límite prioritaria para las **familias nuevas** — a través de Clarity. Las ayudas se comunican con la admisión, junto con el contrato de matriculación",
+      "of": "6584c07b",
       "at": [
         "charlotte-christian:sections[2].timeline[4].detail"
       ]
     },
     {
-      "t": "Un requisito poco común — y ya retirado",
-      "of": "e542e5a5",
+      "t": "Un requisito poco común",
+      "of": "03039a1a",
       "at": [
         "charlotte-christian:sections[2].boxes[0].title"
       ]
     },
     {
-      "t": "Durante el ciclo 2026–27, toda familia solicitante tenía que **solicitar además el North Carolina Opportunity Scholarship Program**. Las solicitudes de ese programa estatal se abrían el 2 de febrero. Pocos colegios condicionan su propia solicitud de ayuda a una solicitud estatal. **Ya no se aplica**: la página de matrícula en vivo del colegio (recuperada el 14 de septiembre de 2026) no lo menciona. Esto concuerda con su propia nota de que la participación en el NC Opportunity Scholarship concluye después de 2025–26.",
-      "of": "ea1fb695",
+      "t": "Toda familia que solicite ayuda debe **solicitar además el North Carolina Opportunity Scholarship Program**. Las solicitudes de ese programa estatal se abren el 1 de febrero de 2027. Pocos colegios condicionan su propia solicitud de ayuda a una solicitud estatal.",
+      "of": "99f735e1",
       "at": [
         "charlotte-christian:sections[2].boxes[0].body"
       ]
@@ -2576,8 +2583,8 @@
       ]
     },
     {
-      "t": "Año escolar 2026–27 · cifras a 18 de agosto de 2026",
-      "of": "f52eb327",
+      "t": "Año escolar 2026–27 · cifras a 18 de agosto de 2026; cuotas, planes y fechas de ayuda a 22 de noviembre de 2026",
+      "of": "839d30fa",
       "at": [
         "charlotte-catholic:meta"
       ]
@@ -2702,8 +2709,8 @@
       ]
     },
     {
-      "t": "Cuota de matrícula continua — $150 por alumno que regresa",
-      "of": "123a2fbe",
+      "t": "Cuota de matrícula continua — $150 por alumno nuevo; $150 (página web) o $75 (calendario de cuotas en PDF) por alumno que regresa",
+      "of": "d61e10d6",
       "at": [
         "charlotte-catholic:sections[1].components[2].label"
       ]
@@ -2751,8 +2758,8 @@
       ]
     },
     {
-      "t": "Una familia de primer año con la tarifa de comunidad y un solo alumno paga $21,562 + $1,995 + $120 = **$23,677** antes de libros, actividades o deportes.",
-      "of": "c3f0715f",
+      "t": "Una familia de primer año con la tarifa de comunidad y un solo alumno paga $21,562 + $1,995 + $120 + $150 = **$23,827**. Esto es antes de la comisión del plan de FACTS, libros, actividades o deportes.",
+      "of": "e0b688fb",
       "at": [
         "charlotte-catholic:sections[1].componentsAside"
       ]
@@ -2807,6 +2814,20 @@
       ]
     },
     {
+      "t": "Antes del 1 de marzo de 2027",
+      "of": "6cb9164d",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[3].when"
+      ]
+    },
+    {
+      "t": "Las **solicitudes de FIT de 2027-28** completadas antes de esta fecha reciben una decisión por correo electrónico el 16 de marzo de 2027",
+      "of": "32b0e2f5",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[3].detail"
+      ]
+    },
+    {
       "t": "Plataforma — Clarity, no FACTS",
       "of": "fca02a28",
       "at": [
@@ -2849,8 +2870,8 @@
       ]
     },
     {
-      "t": "No se publica ningún calendario de resolución, proceso de recurso ni política de techo de las ayudas. No se indica si las ayudas de FIT se renuevan automáticamente al volver a solicitarlas.",
-      "of": "19c32b5c",
+      "t": "No se publica ningún proceso de recurso ni política de techo de las ayudas. No se indica si las ayudas de FIT se renuevan automáticamente al volver a solicitarlas.",
+      "of": "fdf3dd9f",
       "at": [
         "charlotte-catholic:sections[2].boxes[3].body"
       ]
@@ -2967,8 +2988,8 @@
       ]
     },
     {
-      "t": "Gestiona el cargo de la matrícula. Comisión del plan: **$15–$45 por familia**.",
-      "of": "00f42751",
+      "t": "Gestiona el cargo de la matrícula el día 20 del mes. Los planes son anual (junio), semestral (junio y diciembre), trimestral (junio, septiembre, diciembre y marzo), mensual o de diez meses. El plan de diez meses omite diciembre y mayo. Los planes semestral, trimestral y de diez meses exigen inscribirse antes del 10 de junio. Comisión del plan: **$15–$45 por familia**; los pagos con tarjeta añaden una comisión del **2.95%**.",
+      "of": "ffe4232a",
       "at": [
         "charlotte-catholic:sections[5].plans[0].detail"
       ]
@@ -2981,15 +3002,15 @@
       ]
     },
     {
-      "t": "Matrícula continua",
-      "of": "396a9f6e",
+      "t": "Matrícula continua, alumno nuevo",
+      "of": "e17d274f",
       "at": [
         "charlotte-catholic:sections[5].plans[1].label"
       ]
     },
     {
-      "t": "Se cobra por cada alumno que continúa para reservar la plaza del curso siguiente.",
-      "of": "cfc5d5cf",
+      "t": "Reserva la plaza cada año: $150 por alumno nuevo. Para un alumno que continúa, la página web dice $150 y el calendario de cuotas en PDF dice $75.",
+      "of": "ff6a441f",
       "at": [
         "charlotte-catholic:sections[5].plans[1].detail"
       ]
@@ -3016,8 +3037,8 @@
       ]
     },
     {
-      "t": "No se publica el número de plazos del plan de FACTS, ni si existe un descuento por pago íntegro, ni ninguna política de impago o de baja — todo eso está dentro del portal de matriculación.",
-      "of": "352d01a7",
+      "t": "No se publica descuento por pago íntegro, ni política de pago atrasado, ni política de baja.",
+      "of": "b9a9a3c2",
       "at": [
         "charlotte-catholic:sections[5].boxes[0].body"
       ]
@@ -3038,8 +3059,8 @@
       ]
     },
     {
-      "t": "¿Qué nos califica exactamente como familia “católica participante” y qué parroquia lo verifica?",
-      "of": "b8599d7f",
+      "t": "¿Qué pide nuestra parroquia, más allá de los mínimos publicados, para aprobar la tarifa de “participating Catholic” (católico participante)?",
+      "of": "ded44f68",
       "at": [
         "charlotte-catholic:sections[6].questions[0]"
       ]
@@ -3073,15 +3094,15 @@
       ]
     },
     {
-      "t": "¿La cuota de capital de $1,995 se repite cada año o se cobra una sola vez?",
-      "of": "a4f5fe24",
+      "t": "¿La cuota de matrícula continua de un alumno que regresa es de $150, como dice la página web, o de $75, como dice el calendario de cuotas en PDF?",
+      "of": "33c9fd3c",
       "at": [
         "charlotte-catholic:sections[6].questions[5]"
       ]
     },
     {
-      "t": "¿En cuántos plazos se reparte el plan de FACTS y hay descuento por pagar el importe íntegro?",
-      "of": "852f4492",
+      "t": "¿Hay descuento por pagar el importe íntegro y cuáles son las condiciones de pago atrasado y de baja?",
+      "of": "e672ace1",
       "at": [
         "charlotte-catholic:sections[6].questions[6]"
       ]
@@ -3094,6 +3115,13 @@
       ]
     },
     {
+      "t": "Año escolar 2026–27 · cifras a 23 de julio de 2026; tarifas de enriquecimiento a 20 de noviembre y de autobús y refuerzo a 22 de noviembre de 2026",
+      "of": "891a3dd2",
+      "at": [
+        "charlotte-country-day:meta"
+      ]
+    },
+    {
       "t": "Cada cifra en dólares lleva el año escolar al que corresponde. Las cifras del colegio sin fecha se señalan como tales, no se adivinan.",
       "of": "8acff684",
       "at": [
@@ -3103,8 +3131,8 @@
       ]
     },
     {
-      "t": "Los $13M en becas universitarias del School Profile son dinero de las universidades — quedan excluidos en todo el informe. No es asesoramiento financiero.",
-      "of": "f57e8e91",
+      "t": "Los totales de becas universitarias del School Profile ($13M para la promoción de 2025) son dinero de las universidades — quedan excluidos en todo el informe. No es asesoramiento financiero.",
+      "of": "8cc3ef1a",
       "at": [
         "charlotte-country-day:framing[2].body"
       ]
@@ -3223,15 +3251,15 @@
       ]
     },
     {
-      "t": "Diez conceptos de coste confirmados — 4 sin precio",
-      "of": "ad479226",
+      "t": "Diez conceptos de coste confirmados — 2 sin precio",
+      "of": "bc1ea16c",
       "at": [
         "charlotte-country-day:sections[1].componentsTitle"
       ]
     },
     {
-      "t": "No se elabora estimación total: 40% sin precio > umbral del 33%",
-      "of": "164f7754",
+      "t": "No se elabora estimación total: 20% sin precio, más un 30% solo con un rango",
+      "of": "78e8d7e5",
       "at": [
         "charlotte-country-day:sections[1].componentsAside"
       ]
@@ -3280,15 +3308,15 @@
       ]
     },
     {
-      "t": "Transporte escolar · sin tarifa",
-      "of": "739409af",
+      "t": "Transporte escolar · $1,670–$1,785 ida y vuelta, $955–$1005 solo ida; autobús entre campus $715 / $400 (2026–27)",
+      "of": "3e026fcc",
       "at": [
         "charlotte-country-day:sections[1].components[6].label"
       ]
     },
     {
-      "t": "Refuerzo académico · sin tarifa",
-      "of": "3b96a9e3",
+      "t": "Refuerzo de apoyo al aprendizaje · $82 en Lower School / $85 en Middle School por sesión; coaching en Upper School $85",
+      "of": "d20073bb",
       "at": [
         "charlotte-country-day:sections[1].components[7].label"
       ]
@@ -3308,8 +3336,8 @@
       ]
     },
     {
-      "t": "Los cuatro conceptos sin precio aparecen en el propio listado de facturación del colegio — son costes reales, facturados mensualmente, cuyas tarifas solo se ven en el extracto de cada familia. Son las preguntas de mayor valor para la administración.",
-      "of": "c6863622",
+      "t": "Dos de los diez conceptos no tienen precio publicado: el comedor y los uniformes de educación física de Middle School. Ambos figuran en el listado de facturación mensual del colegio. Otros tres solo tienen precio como rango. Así que la mitad no tiene precio fijo, y este informe no suma los conceptos en un único total.",
+      "of": "cef2ce6c",
       "at": [
         "charlotte-country-day:sections[1].componentsNote"
       ]
@@ -3465,8 +3493,8 @@
       ]
     },
     {
-      "t": "Nivel de donación → porcentaje previsto de la matrícula de un estudiante. Pueden vincularse unos $6,000 anuales más para gastos accesorios — las mismas categorías que la sección 02 señala como sin precio. Se concede por necesidad demostrada a través de Clarity.",
-      "of": "00de0834",
+      "t": "Nivel de donación → porcentaje previsto de la matrícula de un estudiante. Pueden vincularse unos $6,000 anuales más para gastos accesorios (costes adicionales más allá de la matrícula). Se concede por necesidad demostrada a través de Clarity.",
+      "of": "dab2eb0f",
       "at": [
         "charlotte-country-day:sections[3].figureNote"
       ]
@@ -3580,8 +3608,8 @@
       ]
     },
     {
-      "t": "¿A qué año escolar corresponde cada cifra de ayuda publicada — y el porcentaje es del 20% o del 21%, y sobre qué matriculación?",
-      "of": "6c38bbf2",
+      "t": "¿A qué año escolar corresponde cada cifra de ayuda publicada: $9.4M para 341 estudiantes o $10.1M para 347? ¿Y sobre qué matriculación se mide el porcentaje de ~20%?",
+      "of": "f9bb24f8",
       "at": [
         "charlotte-country-day:sections[5].questions[0]"
       ]
@@ -3594,8 +3622,8 @@
       ]
     },
     {
-      "t": "¿Cuáles son las tarifas en dólares de autobús, refuerzo, comedor y uniformes de educación física de MS?",
-      "of": "cde94712",
+      "t": "¿Cuáles son las tarifas en dólares del comedor y de los uniformes de educación física de MS?",
+      "of": "4303fd43",
       "at": [
         "charlotte-country-day:sections[5].questions[2]"
       ]
@@ -3619,6 +3647,13 @@
       "of": "8f778596",
       "at": [
         "charlotte-country-day:sections[5].questions[5]"
+      ]
+    },
+    {
+      "t": "Año escolar 2026–27 · cifras a 23 de julio de 2026",
+      "of": "a311c291",
+      "at": [
+        "cannon:meta"
       ]
     },
     {
@@ -3657,15 +3692,15 @@
       ]
     },
     {
-      "t": "Once conceptos confirmados para un estudiante de grado 9 — 4 sin precio",
-      "of": "695dc58c",
+      "t": "Diez conceptos confirmados para un estudiante de grado 9 — 4 sin precio",
+      "of": "a8431a50",
       "at": [
         "cannon:sections[1].componentsTitle"
       ]
     },
     {
-      "t": "No se construye una estimación total: un ~36% sin precio supera el umbral del 33%",
-      "of": "5d829c51",
+      "t": "No se elabora estimación total: 40% sin precio > umbral del 33%",
+      "of": "164f7754",
       "at": [
         "cannon:sections[1].componentsAside"
       ]
@@ -3699,50 +3734,43 @@
       ]
     },
     {
-      "t": "Exámenes AP · $98 por examen",
-      "of": "f18009e6",
-      "at": [
-        "cannon:sections[1].components[5].label"
-      ]
-    },
-    {
       "t": "Servicio de autobús · $1,990 ida y vuelta",
       "of": "4fdba1b4",
       "at": [
-        "cannon:sections[1].components[6].label"
+        "cannon:sections[1].components[5].label"
       ]
     },
     {
       "t": "Cifra anual de comedor · sin tarifa",
       "of": "c92fdf9b",
       "at": [
-        "cannon:sections[1].components[7].label"
+        "cannon:sections[1].components[6].label"
       ]
     },
     {
       "t": "Equipaciones y material deportivo · sin tarifa",
       "of": "35689cec",
       "at": [
-        "cannon:sections[1].components[8].label"
+        "cannon:sections[1].components[7].label"
       ]
     },
     {
       "t": "Material artístico y alquiler de instrumentos · sin tarifa",
       "of": "b09384e7",
       "at": [
-        "cannon:sections[1].components[9].label"
+        "cannon:sections[1].components[8].label"
       ]
     },
     {
       "t": "Tuition Refund Plan · sin tarifa",
       "of": "4c9253b4",
       "at": [
-        "cannon:sections[1].components[10].label"
+        "cannon:sections[1].components[9].label"
       ]
     },
     {
-      "t": "Se queda cerca por poco: la estimación solo se construye cuando al menos dos tercios de los conceptos tienen precio. En Lower School la cuestión ni siquiera se plantea — el documento de tarifas de 2026–27 enumera categorías de coste sin ninguna cifra en dólares, aunque la edición de 2024–25 sí las fijaba.",
-      "of": "bdcc3e99",
+      "t": "Cuatro de los diez conceptos no tienen precio publicado. La estimación solo se construye cuando al menos dos tercios tienen precio, así que no se muestra ninguna. En Lower School la cuestión ni siquiera se plantea — el documento de tarifas de 2026–27 enumera categorías de coste sin ninguna cifra en dólares, aunque la edición de 2024–25 sí las fijaba.",
+      "of": "08c03b9c",
       "at": [
         "cannon:sections[1].componentsNote"
       ]
@@ -3807,7 +3835,11 @@
       "t": "No publicado",
       "of": "d945d814",
       "at": [
-        "cannon:sections[2].timeline[2].when"
+        "cannon:sections[2].timeline[2].when",
+        "covenant-day:sections[3].stats[1].value",
+        "carmel-christian:sections[3].stats[1].value",
+        "hickory-grove-christian:sections[2].stats[1].value",
+        "gaston-day:sections[3].stats[2].value"
       ]
     },
     {
@@ -4070,22 +4102,15 @@
       ]
     },
     {
-      "t": "Año escolar 2026–27 · cifras a 15 de agosto de 2026",
-      "of": "47d9e49a",
+      "t": "Año escolar 2026–27 · cifras a 15 de agosto de 2026; cuota y fechas de ayuda a 22 de noviembre de 2026",
+      "of": "ed0cf5be",
       "at": [
         "covenant-day:meta"
       ]
     },
     {
-      "t": "Dos años están vigentes a la vez.",
-      "of": "ab877c57",
-      "at": [
-        "covenant-day:framing[1].title"
-      ]
-    },
-    {
-      "t": "La tabla del sitio web muestra 2026–27 mientras que el PDF de condiciones de pago enlazado muestra 2025–26. Cada cifra aquí nombra su año; el informe encabeza con 2026–27.",
-      "of": "6e7cbdf9",
+      "t": "La matrícula y las condiciones de pago corresponden a 2026–27. Las condiciones de 2025–26 solo aportan las tarifas del año pasado. Las fechas de ayuda son del ciclo 2026–27, que ya cerró.",
+      "of": "04bdfc9b",
       "at": [
         "covenant-day:framing[1].body"
       ]
@@ -4198,6 +4223,13 @@
       ]
     },
     {
+      "t": "Cuota de solicitud de ayuda de FACTS · $45",
+      "of": "c40316fa",
+      "at": [
+        "covenant-day:sections[1].components[7].label"
+      ]
+    },
+    {
       "t": "La lista de inclusiones hace un trabajo real aquí: retiros, excursiones obligatorias, cuotas de laboratorio y de optativas, y la mayoría de los gastos deportivos están dentro de la matrícula, así que los complementos con precio son genuinamente pocos. Los grados 9–12 deben aportar un portátil que cumpla las especificaciones del colegio.",
       "of": "68dc28f7",
       "at": [
@@ -4282,6 +4314,34 @@
       ]
     },
     {
+      "t": "Antes del 10 de febrero de 2026",
+      "of": "f08deabc",
+      "at": [
+        "covenant-day:sections[2].timeline[4].when"
+      ]
+    },
+    {
+      "t": "Ciclo 2026–27: las familias nuevas que completan la solicitud de ayuda antes de esta fecha reciben una decisión con su carta de oferta. Las familias actuales se comunican con la Business Office antes de esta fecha para el medio depósito, antes de la rematriculación del 17 de febrero",
+      "of": "92230992",
+      "at": [
+        "covenant-day:sections[2].timeline[4].detail"
+      ]
+    },
+    {
+      "t": "Antes del 10 de marzo de 2026",
+      "of": "a8481aff",
+      "at": [
+        "covenant-day:sections[2].timeline[5].when"
+      ]
+    },
+    {
+      "t": "Ciclo 2026–27: las familias actuales envían todos los documentos fiscales antes de esta fecha para entrar en la primera ronda",
+      "of": "625318b5",
+      "at": [
+        "covenant-day:sections[2].timeline[5].detail"
+      ]
+    },
+    {
       "t": "Plataforma y alcance",
       "of": "736758b4",
       "at": [
@@ -4289,15 +4349,15 @@
       ]
     },
     {
-      "t": "**FACTS** gestiona la evaluación confidencial de necesidad. La ayuda es solo por necesidad, y solo la parte responsable de pagar la matrícula puede solicitarla. Contacto: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
-      "of": "23d6f76d",
+      "t": "**FACTS** gestiona la evaluación confidencial de necesidad y cobra **$45** por la solicitud. La ayuda es solo por necesidad, y solo la parte responsable de pagar la matrícula puede solicitarla. Contacto: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
+      "of": "b50e1624",
       "at": [
         "covenant-day:sections[2].boxes[0].body"
       ]
     },
     {
-      "t": "No aparecen en el registro público ni fecha límite de ayuda, ni calendario de decisiones, ni proceso de apelaciones, ni política de tope de ayuda. La cuota de solicitud de FACTS, si la hay, tampoco se indica.",
-      "of": "5f12ecc0",
+      "t": "No aparecen en el registro público ni proceso de apelaciones ni política de tope de ayuda.",
+      "of": "292fb828",
       "at": [
         "covenant-day:sections[2].boxes[1].body"
       ]
@@ -4327,6 +4387,15 @@
       ]
     },
     {
+      "t": "Sin 990",
+      "of": "c846e9dc",
+      "at": [
+        "covenant-day:sections[3].stats[0].value",
+        "carmel-christian:sections[3].stats[0].value",
+        "hickory-grove-christian:sections[2].stats[0].value"
+      ]
+    },
+    {
       "t": "ministerio de una iglesia — exento del IRS de presentar",
       "of": "fd45ab9c",
       "at": [
@@ -4336,8 +4405,8 @@
       ]
     },
     {
-      "t": "totales, promedios o presupuestos de ayuda publicados",
-      "of": "e75ea3c1",
+      "t": "totales, promedios o presupuestos de ayuda",
+      "of": "3838e82f",
       "at": [
         "covenant-day:sections[3].stats[1].label",
         "carmel-christian:sections[3].stats[1].label"
@@ -4486,7 +4555,8 @@
       "t": "9×",
       "of": "eafe64d9",
       "at": [
-        "covenant-day:sections[5].plans[1].figure"
+        "covenant-day:sections[5].plans[1].figure",
+        "gaston-day:sections[5].plans[2].figure"
       ]
     },
     {
@@ -4584,8 +4654,15 @@
       ]
     },
     {
-      "t": "de las tarifas publicadas (sitio web + PDF de condiciones)",
-      "of": "236fb2d1",
+      "t": "2 años",
+      "of": "5f9eeef9",
+      "at": [
+        "covenant-day:sections[6].stats[2].value"
+      ]
+    },
+    {
+      "t": "de tarifas publicadas (PDF de condiciones de 2025–26 y 2026–27)",
+      "of": "88b5cf13",
       "at": [
         "covenant-day:sections[6].stats[2].label"
       ]
@@ -4609,8 +4686,8 @@
       ]
     },
     {
-      "t": "¿Cuál es la fecha límite de la solicitud de ayuda, y cuándo se comunican las decisiones respecto a los contratos de matriculación?",
-      "of": "51da8062",
+      "t": "¿Cuáles son los plazos de ayuda y las fechas de decisión de 2027–28? El dossier publicado corresponde a 2026–27.",
+      "of": "debb7c91",
       "at": [
         "covenant-day:sections[6].questions[1]"
       ]
@@ -4644,8 +4721,8 @@
       ]
     },
     {
-      "t": "La tabla del año en curso sobrescribe la anterior, así que no puede recuperarse ningún histórico de tarifas. Las cifras sin fecha se señalan como tales, no se adivinan.",
-      "of": "b669af4d",
+      "t": "La tabla del año en curso sobrescribe la anterior. Las copias archivadas recogen tarifas desde 2022–23. Las cifras sin fecha se señalan como tales, no se adivinan.",
+      "of": "3fa52aab",
       "at": [
         "davidson-day:framing[1].body"
       ]
@@ -4959,8 +5036,8 @@
       ]
     },
     {
-      "t": "El colegio indica que ninguna ayuda cubre la matrícula completa y que las familias con la ayuda máxima pagan **$3,000 al año por estudiante** (2026–27). Frente a la matrícula publicada, eso implicaría techos de entre $19,590 (Early Childhood) y $23,910 (Upper School) — cálculo propio, no una cifra del colegio. No se publica en absoluto ningún porcentaje de estudiantes con ayuda, ni presupuesto total de ayuda, ni ayuda media o mediana.",
-      "of": "52948594",
+      "t": "El colegio indica que ninguna ayuda cubre la matrícula completa y que las familias con la ayuda máxima pagan **$3,000 al año por estudiante** (2026–27). Frente a la matrícula publicada, eso implicaría techos de entre $19,590 (Early Childhood) y $23,910 (Upper School) — cálculo propio, no una cifra del colegio. Las dos becas con nombre propio del colegio indican importes mayores, así que pregunte si el mínimo de $3,000 se les aplica. No se publica en absoluto ningún porcentaje de estudiantes con ayuda, ni presupuesto total de ayuda, ni ayuda media o mediana.",
+      "of": "b0bd45be",
       "at": [
         "davidson-day:sections[3].boxes[0].body"
       ]
@@ -5127,10 +5204,17 @@
       ]
     },
     {
-      "t": "¿Cuáles han sido las tarifas de matrícula de cada uno de los últimos cinco años?",
-      "of": "49eac663",
+      "t": "¿Qué aumento de matrícula prevén para el próximo año?",
+      "of": "2ecb6c74",
       "at": [
         "davidson-day:sections[5].questions[7]"
+      ]
+    },
+    {
+      "t": "¿Se aplica el pago mínimo de $3,000 a los becarios de Acclaim y Wolter?",
+      "of": "e0bab2c3",
+      "at": [
+        "davidson-day:sections[5].questions[8]"
       ]
     },
     {
@@ -5404,6 +5488,14 @@
       ]
     },
     {
+      "t": "1 año",
+      "of": "238bfedf",
+      "at": [
+        "carmel-christian:sections[6].stats[1].value",
+        "hickory-grove-christian:sections[5].stats[1].value"
+      ]
+    },
+    {
       "t": "de tarifas publicadas — no se recuperó historial",
       "of": "c6dabb05",
       "at": [
@@ -5448,8 +5540,8 @@
       ]
     },
     {
-      "t": "Matrícula de 2026–27 · cifras a 10 de noviembre de 2026",
-      "of": "96df4afe",
+      "t": "Matrícula de 2026–27 · cifras a 10 de noviembre de 2026; becas y políticas a 22 de noviembre de 2026",
+      "of": "93dd396a",
       "at": [
         "hickory-grove-christian:meta"
       ]
@@ -5539,10 +5631,17 @@
       ]
     },
     {
-      "t": "totales, promedios o porcentajes de ayuda publicados",
-      "of": "6d167c1c",
+      "t": "totales, promedios o porcentajes de ayuda",
+      "of": "07159616",
       "at": [
         "hickory-grove-christian:sections[2].stats[1].label"
+      ]
+    },
+    {
+      "t": "Exento del 990",
+      "of": "d5a34d5b",
+      "at": [
+        "hickory-grove-christian:sections[2].stats[2].value"
       ]
     },
     {
@@ -5679,10 +5778,24 @@
       ]
     },
     {
-      "t": "El **número de plazos mensuales** y cualquier comisión del plan de FACTS no se indican en las páginas públicas. Se encuentran dentro del portal FACTS de la familia. En las fuentes consultadas no aparece ninguna alternativa de pago íntegro más allá del descuento del 5% por pago anticipado, ni condiciones de impago o de baja.",
-      "of": "19071d1e",
+      "t": "El **número de plazos mensuales** y cualquier comisión del plan de FACTS no se indican en las páginas públicas. Se encuentran dentro del portal FACTS de la familia. No se publica ninguna alternativa de pago íntegro más allá del descuento del 5% por pago anticipado, y no se nombra ningún recargo por pago atrasado.",
+      "of": "8644ce5f",
       "at": [
         "hickory-grove-christian:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Baja y cuentas vencidas",
+      "of": "b853d459",
+      "at": [
+        "hickory-grove-christian:sections[4].boxes[1].title"
+      ]
+    },
+    {
+      "t": "La familia debe dar **aviso por escrito al menos dos semanas antes de la baja**. Sin él, el estudiante cuenta como matriculado todo el año escolar. Si se retira a un estudiante por facturas impagas, el colegio retiene las calificaciones y los expedientes hasta que se pague la cuenta. Un estudiante con saldo vencido al final del año no puede rematricularse.",
+      "of": "092f9e48",
+      "at": [
+        "hickory-grove-christian:sections[4].boxes[1].body"
       ]
     },
     {
@@ -5700,8 +5813,8 @@
       ]
     },
     {
-      "t": "¿Hay otras “student services fees” además de la tarifa del cuidado extraescolar, y dónde podemos verlas antes de matricularnos?",
-      "of": "231d2f30",
+      "t": "¿Cuánto cuestan el almuerzo y las cuotas deportivas y de graduación? Apoyo al aprendizaje detalla las cuotas de Educational Support Services.",
+      "of": "57ea2df2",
       "at": [
         "hickory-grove-christian:sections[5].questions[2]"
       ]
@@ -5721,15 +5834,15 @@
       ]
     },
     {
-      "t": "Año escolar 2025–26 · cifras a 18 de agosto de 2026",
-      "of": "16bb1477",
+      "t": "Año escolar 2026–27 · cifras a 22 de noviembre de 2026",
+      "of": "d9bef220",
       "at": [
         "gaston-day:meta"
       ]
     },
     {
-      "t": "La matrícula y las cuotas se facturan por separado.",
-      "of": "a1fd923f",
+      "t": "La matrícula y las cuotas se detallan por separado.",
+      "of": "a1bc3632",
       "at": [
         "gaston-day:framing[1].title"
       ]
@@ -5742,8 +5855,8 @@
       ]
     },
     {
-      "t": "Totales todo incluido publicados por franja de curso, 2025-26 — matrícula más cuotas",
-      "of": "ba5af6b3",
+      "t": "Totales todo incluido publicados por franja de curso, 2026–27 frente a 2025–26 — matrícula más cuotas",
+      "of": "d7050342",
       "at": [
         "gaston-day:sections[0].figureCaption"
       ]
@@ -5784,15 +5897,15 @@
       ]
     },
     {
-      "t": "Cinco franjas, desde preschool de media jornada hasta el grado 12. Los importes anteriores son los totales publicados por el propio colegio; el desglose subyacente de la franja más alta es $20,215 de matrícula + $2,175 de cuotas = $22,390. Las cuotas escalan con la franja, desde $900 en preschool de media jornada hasta $2,175 en Upper School.",
-      "of": "c930c05f",
+      "t": "Cinco franjas van desde preschool de media jornada hasta el grado 12. Los importes anteriores son los totales publicados por el propio colegio. La franja más alta es $21,025 de matrícula + $2,285 de cuotas = $23,310. Las cuotas suben con la franja, desde $945 en preschool de media jornada hasta $2,285 en Upper School.",
+      "of": "ef02c195",
       "at": [
         "gaston-day:sections[0].figureNote"
       ]
     },
     {
-      "t": "Para 2026-27 el colegio publica únicamente un rango — de $20,300 a $23,310 según el curso — sin ningún calendario por curso publicado en el momento de esta investigación.",
-      "of": "cb558ce6",
+      "t": "Todas las franjas subieron alrededor del 4% respecto a 2025–26. La franja más alta pasó de $22,390 a $23,310. El colegio dice que fijará la matrícula de 2027–28 en enero de 2027.",
+      "of": "fe4e3d13",
       "at": [
         "gaston-day:sections[0].figureNote2"
       ]
@@ -5826,29 +5939,29 @@
       ]
     },
     {
-      "t": "Cuidado extraescolar, Lower School · $95/semana o $30/día",
-      "of": "3f8263c0",
+      "t": "Cuidado extraescolar, Lower School · $100/semana o $30/día",
+      "of": "a13bf4d1",
       "at": [
         "gaston-day:sections[1].components[3].label"
       ]
     },
     {
-      "t": "Cuidado extraescolar, Middle School · $55/semana o $15/día",
-      "of": "00ad224d",
+      "t": "Cuidado extraescolar, Middle School · $60/semana o $15/día",
+      "of": "9f715671",
       "at": [
         "gaston-day:sections[1].components[4].label"
       ]
     },
     {
-      "t": "Tarifa suelta de Extended Day · $25",
-      "of": "52212ded",
+      "t": "Tarifa suelta de Extended Day · $25 ($120/semana para preschool de media jornada)",
+      "of": "d1704058",
       "at": [
         "gaston-day:sections[1].components[5].label"
       ]
     },
     {
-      "t": "Clases de música · $35 por clase",
-      "of": "1bd323bd",
+      "t": "Clases de música · $35 por clase de 30 minutos",
+      "of": "9935e4cf",
       "at": [
         "gaston-day:sections[1].components[6].label"
       ]
@@ -5889,15 +6002,29 @@
       ]
     },
     {
-      "t": "Es inusual, pero casi todos los extras que publica Gaston Day llevan precio. El transporte, el cuidado extraescolar, las clases de música y los campamentos de verano tienen precio en dólares en el calendario de cuotas o en el catálogo de campamentos. Lo que el colegio no publica es qué incluye la matrícula en sí. Así que el colegio no indica si la tecnología, las cuotas de laboratorio, los retiros y las excursiones entran dentro de la columna de cuotas.",
-      "of": "9a8eb96c",
+      "t": "Autobús — servicio de tarde (PM shuttle), del 15 de agosto al 15 de noviembre · $600",
+      "of": "ad2fb123",
+      "at": [
+        "gaston-day:sections[1].components[12].label"
+      ]
+    },
+    {
+      "t": "Student Services Program y Learning Academy",
+      "of": "92d87c06",
+      "at": [
+        "gaston-day:sections[1].components[13].label"
+      ]
+    },
+    {
+      "t": "La mayoría de los extras de esta lista llevan precio. El transporte, el cuidado extraescolar, las clases de música y los campamentos de verano tienen precio en dólares en el calendario de cuotas o en el catálogo de campamentos. Para Student Services y la Learning Academy, el calendario remite a las familias al colegio para los detalles y las cuotas. El colegio no indica si las cuotas de laboratorio, los retiros y las excursiones están incluidos en la matrícula o en las cuotas.",
+      "of": "21f265d0",
       "at": [
         "gaston-day:sections[1].componentsNote"
       ]
     },
     {
-      "t": "La columna de cuotas no está desglosada. Una familia ve \"$2,175 en cuotas\" en la franja de Upper School sin que se le diga qué compran esas cuotas.",
-      "of": "5db0ed6e",
+      "t": "El calendario de cuotas dice que las cuotas incluyen seguridad, tecnología y libros de texto. No reparte entre ellos la cuota de $2,285 de Upper School.",
+      "of": "a5afb8fc",
       "at": [
         "gaston-day:sections[1].componentsAside"
       ]
@@ -6016,6 +6143,13 @@
       ]
     },
     {
+      "t": "hasta 80%",
+      "of": "e88834fa",
+      "at": [
+        "gaston-day:sections[3].stats[1].value"
+      ]
+    },
+    {
       "t": "de la matrícula — el techo del descuento publicado, K–12",
       "of": "279ddbc2",
       "at": [
@@ -6023,8 +6157,8 @@
       ]
     },
     {
-      "t": "presupuesto de ayuda, total concedido o ayuda media publicados",
-      "of": "6b6a30b5",
+      "t": "presupuesto de ayuda, total concedido o ayuda media",
+      "of": "9b39e0f3",
       "at": [
         "gaston-day:sections[3].stats[2].label"
       ]
@@ -6143,8 +6277,8 @@
       ]
     },
     {
-      "t": "Gaston Day gestiona la **ayuda financiera** por necesidad, las **becas por mérito** y la **NC Opportunity Scholarship** como vías separadas. Una familia puede reunir los requisitos de más de una. No se publica cómo se afectan entre sí las tres vías, así que conviene preguntarlo directamente al colegio.",
-      "of": "b5dbbf94",
+      "t": "Gaston Day gestiona la **ayuda financiera** por necesidad, las **becas por mérito** y la **NC Opportunity Scholarship** como vías separadas. La ayuda por necesidad usa un plan de **Indexed Tuition**: el colegio cobra un rango de matrículas según la necesidad financiera de la familia. Una familia puede recibir tanto la ayuda como la Opportunity Scholarship. El colegio resta del costo la ayuda estatal, y lo que queda es la necesidad posible. No se publica cómo se combinan las ayudas Kimbrell con las otras dos.",
+      "of": "bf7bb402",
       "at": [
         "gaston-day:sections[4].boxes[0].body"
       ]
@@ -6164,71 +6298,113 @@
       ]
     },
     {
-      "t": "Varios",
-      "of": "e8776b6f",
-      "at": [
-        "gaston-day:sections[5].plans[0].figure"
-      ]
-    },
-    {
-      "t": "Planes de pago ofrecidos",
-      "of": "6dc18862",
+      "t": "Plan A: pago único",
+      "of": "6b4f47c9",
       "at": [
         "gaston-day:sections[5].plans[0].label"
       ]
     },
     {
-      "t": "El calendario de cuotas indica que \"Gaston Day offers a variety of payment plans in an effort to make our community more affordable and accessible\" — pero no nombra ninguno, ni da número de plazos, ni fechas, ni cuotas.",
-      "of": "7e43452c",
+      "t": "Vence el 1 de julio de 2026. Descontado el depósito, son $19,150 para K–4, $21,150 para 5–8 y $22,160 para 9–12. Preschool y Pre-K pagan $8,345 por media jornada o $10,540 por jornada completa.",
+      "of": "c2c42fe9",
       "at": [
         "gaston-day:sections[5].plans[0].detail"
       ]
     },
     {
-      "t": "Depósito",
-      "of": "95f76a55",
-      "at": [
-        "gaston-day:sections[5].plans[1].figure"
-      ]
-    },
-    {
-      "t": "Lo dan por hecho todos los planes",
-      "of": "92b81c14",
+      "t": "Plan B: dos pagos",
+      "of": "9c165db3",
       "at": [
         "gaston-day:sections[5].plans[1].label"
       ]
     },
     {
-      "t": "Todos los planes de pago \"assume tuition deposit and fees have been paid\" — así que el depósito y la columna íntegra de cuotas van primero, sea cual sea el plan que elija una familia. El importe del depósito no está publicado.",
-      "of": "a482eda7",
+      "t": "Vence el 1 de julio y el 1 de diciembre de 2026. Cada pago es de $10,054 para K–4, $11,104 para 5–8 y $11,634 para 9–12. Para Preschool y Pre-K es de $4,382 por media jornada o $5,534 por jornada completa.",
+      "of": "852d8fa7",
       "at": [
         "gaston-day:sections[5].plans[1].detail"
       ]
     },
     {
-      "t": "Esta es la sección más pobre del registro público de Gaston Day. Nada de esto aparece en ninguna parte del sitio público: nombres de planes · calendario de plazos · cuotas de los planes · recargo por pago con tarjeta · importe del depósito · política de demora · condiciones de baja o reembolso · oferta de seguro de matrícula o plan de reembolso. Muchos colegios publican al menos el número de plazos.",
-      "of": "32f8d396",
+      "t": "Plan C: nueve pagos",
+      "of": "5eeef270",
+      "at": [
+        "gaston-day:sections[5].plans[2].label"
+      ]
+    },
+    {
+      "t": "Mensual, del 1 de mayo de 2026 al 1 de enero de 2027. Cada pago es de $2,234 para K–4, $2,468 para 5–8 y $2,585 para 9–12. Para Preschool y Pre-K es de $974 por media jornada o $1,230 por jornada completa.",
+      "of": "39be219a",
+      "at": [
+        "gaston-day:sections[5].plans[2].detail"
+      ]
+    },
+    {
+      "t": "$1,150",
+      "of": "b3c310d8",
+      "at": [
+        "gaston-day:sections[5].plans[3].figure"
+      ]
+    },
+    {
+      "t": "Depósito de rematriculación, K–12",
+      "of": "bd20d2c0",
+      "at": [
+        "gaston-day:sections[5].plans[3].label"
+      ]
+    },
+    {
+      "t": "Para estudiantes que regresan y se rematricularon antes del 13 de febrero de 2026. Después de esa fecha era de $1,250. Preschool y Pre-K pagan $800, o $900 fuera de plazo. El importe de cada plan ya descuenta el depósito hecho a tiempo.",
+      "of": "35fd6312",
+      "at": [
+        "gaston-day:sections[5].plans[3].detail"
+      ]
+    },
+    {
+      "t": "El calendario de cuotas no da ningún recargo por pagos de matrícula atrasados ni condiciones de baja. No dice qué cubre el Tuition Refund Program. Tampoco da el importe del depósito para una familia nueva en el colegio.",
+      "of": "49cec10d",
       "at": [
         "gaston-day:sections[5].boxes[0].body"
       ]
     },
     {
-      "t": "franja más alta todo incluido, 2025-26 (matrícula $20,215 + cuotas $2,175)",
-      "of": "5e80ff5a",
+      "t": "Lo que añaden los planes B y C",
+      "of": "e078839a",
+      "at": [
+        "gaston-day:sections[5].boxes[1].title"
+      ]
+    },
+    {
+      "t": "Ambos planes exigen el **Tuition Refund Program** y añaden un recargo de pago. Cada uno de los dos cargos es de $479 para K–4, $529 para 5–8 y $554 para 9–12. Para Preschool y Pre-K, cada uno es de $209 por media jornada o $264 por jornada completa. En todos los planes, pagar con tarjeta añade una **comisión de procesamiento del 4%**. Un pago devuelto cuesta **$100**.",
+      "of": "0b61c6d5",
+      "at": [
+        "gaston-day:sections[5].boxes[1].body"
+      ]
+    },
+    {
+      "t": "franja más alta todo incluido, 2026–27 (matrícula $21,025 + cuotas $2,285)",
+      "of": "9c551a04",
       "at": [
         "gaston-day:sections[6].stats[0].label"
       ]
     },
     {
-      "t": "el rango de 2026-27, publicado sin una tabla por curso",
-      "of": "d0d20df5",
+      "t": "aproximadamente lo que subió cada franja desde 2025–26",
+      "of": "c6dfac17",
       "at": [
         "gaston-day:sections[6].stats[1].label"
       ]
     },
     {
-      "t": "de calendarios recuperables (PDF de 2024-25 y 2025-26)",
-      "of": "b1467eaa",
+      "t": "3 años",
+      "of": "c2cb21da",
+      "at": [
+        "gaston-day:sections[6].stats[2].value"
+      ]
+    },
+    {
+      "t": "de calendarios de cuotas publicados en el sitio del colegio (de 2024–25 a 2026–27)",
+      "of": "9c0558fe",
       "at": [
         "gaston-day:sections[6].stats[2].label"
       ]
@@ -6241,29 +6417,29 @@
       ]
     },
     {
-      "t": "¿Cuáles son los planes de pago, cuántos plazos tienen y cuánto cuestan?",
-      "of": "152601ad",
+      "t": "¿Qué cubre el Tuition Refund Program y qué ocurre si una familia se da de baja o paga con retraso?",
+      "of": "33675c06",
       "at": [
         "gaston-day:sections[6].questions[1]"
       ]
     },
     {
-      "t": "¿Cuál es el depósito de matriculación y es reembolsable o se descuenta de la matrícula?",
-      "of": "0f0c40bf",
+      "t": "¿Qué depósito paga una familia nueva y es reembolsable?",
+      "of": "b80c560e",
       "at": [
         "gaston-day:sections[6].questions[2]"
       ]
     },
     {
-      "t": "¿Qué compran exactamente las cuotas — la columna de $2,175 de cuotas de Upper School no está desglosada en ninguna parte?",
-      "of": "2fc296f9",
+      "t": "¿Las cuotas de laboratorio, los retiros y las excursiones están incluidos en la matrícula o en las cuotas?",
+      "of": "89f8f914",
       "at": [
         "gaston-day:sections[6].questions[3]"
       ]
     },
     {
-      "t": "¿La ayuda por necesidad, las ayudas Kimbrell y la NC Opportunity Scholarship son acumulables o se descuentan entre sí?",
-      "of": "0d6b0ae3",
+      "t": "¿Cómo se combinan las ayudas Kimbrell con la ayuda por necesidad y la NC Opportunity Scholarship?",
+      "of": "46712cbd",
       "at": [
         "gaston-day:sections[6].questions[4]"
       ]
@@ -6844,8 +7020,8 @@
       ]
     },
     {
-      "t": "La comparación es con **2024-25**, el último año del que se conserva en el archivo la página de matrícula de la escuela —2025-26 nunca se capturó—, así que cada cambio abarca **dos años**, alrededor de un 7% al año. Desde 2024-25 la escuela ha **incorporado a la matrícula sus cuotas de deportes, bellas artes y tecnología**, de modo que parte del aumento sustituye cuotas que las familias antes pagaban por separado. El objetivo declarado del consejo es mantener la matrícula \"**at or below the median of peer schools**\".",
-      "of": "52a70b21",
+      "t": "La comparación es con **2024-25**, el último año del que se conserva en el archivo la página de matrícula de la escuela —2025-26 nunca se capturó—, así que cada cambio abarca **dos años**, alrededor de un 7% al año. La escuela **incorporó a la matrícula sus cuotas de deportes, bellas artes y tecnología** en 2024-25, de modo que los dos años de esta comparación las incluyen. El objetivo declarado del consejo es mantener la matrícula \"**at or below the median of peer schools**\".",
+      "of": "95159512",
       "at": [
         "charlotte-prep:sections[0].figureNote"
       ]
@@ -6907,8 +7083,8 @@
       ]
     },
     {
-      "t": "Campamento de verano — de $250 a $600 por semana (2026)",
-      "of": "57df5553",
+      "t": "Campamento de verano — de $175 a $600 por semana (2026)",
+      "of": "0f7b43d7",
       "at": [
         "charlotte-prep:sections[1].components[7].label"
       ]

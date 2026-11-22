@@ -25,13 +25,12 @@
       "t": "Frais de scolarité et aide financière — rapport d’analyse approfondie"
     },
     {
-      "text": "2026–27 school year · figures as of 24 Jul 2026",
-      "of": "08565aea",
+      "text": "2026–27 school year · figures as of 24 Jul 2026; bus fares and Extended Day registration 22 Nov 2026",
+      "of": "ed51b82e",
       "at": [
-        "providence-day:meta",
-        "charlotte-latin:meta"
+        "providence-day:meta"
       ],
-      "t": "Année scolaire 2026–27 · chiffres au 24 juillet 2026"
+      "t": "Année scolaire 2026–27 · chiffres au 24 juillet 2026 ; tarifs de bus et inscription à l’Extended Day au 22 novembre 2026"
     },
     {
       "text": "Unpublished ≠ deficient.",
@@ -67,6 +66,7 @@
         "charlotte-christian:framing[1].title",
         "charlotte-country-day:framing[1].title",
         "cannon:framing[1].title",
+        "covenant-day:framing[1].title",
         "davidson-day:framing[1].title",
         "carmel-christian:framing[1].title",
         "hickory-grove-christian:framing[1].title"
@@ -309,20 +309,20 @@
       "t": "Au-delà des frais de scolarité — le coût réel de la scolarité"
     },
     {
-      "text": "Sixteen confirmed components for a 2026–27 family — 9 unpriced",
-      "of": "c22c432b",
+      "text": "Seventeen confirmed components for a 2026–27 family — 9 unpriced",
+      "of": "d23c152c",
       "at": [
         "providence-day:sections[1].componentsTitle"
       ],
-      "t": "Seize composantes confirmées pour une famille en 2026–27 — 9 sans tarif publié"
+      "t": "Dix-sept composantes confirmées pour une famille en 2026–27 — 9 sans tarif publié"
     },
     {
-      "text": "All-in estimate not built: 56% unpriced > 33% threshold",
-      "of": "03b7f7a7",
+      "text": "All-in estimate not built: 53% unpriced > 33% threshold",
+      "of": "2d04ace4",
       "at": [
         "providence-day:sections[1].componentsAside"
       ],
-      "t": "Estimation tout compris non établie : 56% non chiffrés > seuil de 33%"
+      "t": "Estimation tout compris non établie : 53% non chiffrés > seuil de 33%"
     },
     {
       "text": "Tuition — four bands, priced",
@@ -384,12 +384,12 @@
       "t": "Participation à FLIK Dining · aucun tarif"
     },
     {
-      "text": "Extended Day enrichment classes · $200 (TK/K) or $220 (grades 1–5) a class",
-      "of": "0a1a0766",
+      "text": "Extended Day enrichment classes · $200 or $220 a class, by grade and program",
+      "of": "25cac1bb",
       "at": [
         "providence-day:sections[1].components[7].label"
       ],
-      "t": "Cours d’enrichissement de l’Extended Day · $200 (TK/K) ou $220 (niveaux 1–5) par cours"
+      "t": "Cours d’enrichissement de l’Extended Day · $200 ou $220 par cours, selon le niveau et le programme"
     },
     {
       "text": "8th grade field trip · no rate",
@@ -456,12 +456,20 @@
       "t": "Services de tutorat · aucun tarif"
     },
     {
-      "text": "Of sixteen confirmed cost items, seven have a published price and nine do not. That leaves 56% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.",
-      "of": "63d1727b",
+      "text": "Extended Day registration · $80/yr",
+      "of": "b692a540",
+      "at": [
+        "providence-day:sections[1].components[16].label"
+      ],
+      "t": "Inscription à l’Extended Day · $80/an"
+    },
+    {
+      "text": "Of seventeen confirmed cost items, eight have a published price and nine do not. That leaves 53% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.",
+      "of": "d52d7665",
       "at": [
         "providence-day:sections[1].componentsNote"
       ],
-      "t": "Sur seize composantes de coût confirmées, sept affichent un tarif publié et neuf n’en affichent pas. Cela laisse 56% sans tarif. Ce rapport ne présente une estimation tout compris que lorsqu’un tiers des composantes ou moins sont sans tarif. Il n’en présente donc aucune ici, plutôt que de construire une fourchette à partir de tarifs majoritairement manquants. Deux fonds de dotation (section 5) existent pour couvrir les coûts s’ajoutant aux frais de scolarité. Leur existence confirme de façon indépendante que ces frais sont bien réels."
+      "t": "Sur dix-sept composantes de coût confirmées, huit affichent un tarif publié et neuf n’en affichent pas. Cela laisse 53% sans tarif. Ce rapport ne présente une estimation tout compris que lorsqu’un tiers des composantes ou moins sont sans tarif. Il n’en présente donc aucune ici, plutôt que de construire une fourchette à partir de tarifs majoritairement manquants. Deux fonds de dotation (section 5) existent pour couvrir les coûts s’ajoutant aux frais de scolarité. Leur existence confirme de façon indépendante que ces frais sont bien réels."
     },
     {
       "text": "The deposit, 2026–27",
@@ -907,12 +915,12 @@
       "t": "NON PUBLIÉ — SIX ÉLÉMENTS"
     },
     {
-      "text": "No indexed or variable tuition · no sibling, clergy, military or first-responder discount · no general merit program · no figure for how many awards any named fund makes in a year or what a typical award is worth · no statement of whether a named-fund award stacks with or substitutes for a need-based grant. Absence of a published discount is not evidence none exists — several are commonly handled case by case.",
-      "of": "afdc144e",
+      "text": "No indexed or variable tuition · no sibling tuition discount (the bus has lower sibling fares) · no clergy, military or first-responder discount · no general merit program · no figure for how many awards any named fund makes in a year or what a typical award is worth · no statement of whether a named-fund award stacks with or substitutes for a need-based grant. Absence of a published discount is not evidence none exists — several are commonly handled case by case.",
+      "of": "6634ed57",
       "at": [
         "providence-day:sections[4].boxes[3].body"
       ],
-      "t": "Aucun tarif indexé ou variable · aucune réduction pour fratrie, membres du clergé, militaires ou personnels de secours · aucun programme général au mérite · aucun chiffre indiquant combien d’attributions un fonds nominatif accorde en une année ni la valeur d’une attribution typique · aucune indication précisant si une attribution issue d’un fonds nominatif se cumule avec une aide fondée sur le besoin ou s’y substitue. L’absence de réduction publiée n’est pas la preuve qu’il n’en existe aucune — plusieurs sont couramment traitées au cas par cas."
+      "t": "Aucun tarif indexé ou variable · aucune réduction de scolarité pour fratrie (le bus a des tarifs réduits pour les frères et sœurs) · aucune réduction pour membres du clergé, militaires ou personnels de secours · aucun programme général au mérite · aucun chiffre indiquant combien d’attributions un fonds nominatif accorde en une année ni la valeur d’une attribution typique · aucune indication précisant si une attribution issue d’un fonds nominatif se cumule avec une aide fondée sur le besoin ou s’y substitue. L’absence de réduction publiée n’est pas la preuve qu’il n’en existe aucune — plusieurs sont couramment traitées au cas par cas."
     },
     {
       "text": "Paying the Balance",
@@ -950,7 +958,8 @@
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
         "cannon:sections[4].plans[0].figure",
-        "covenant-day:sections[5].plans[0].figure"
+        "covenant-day:sections[5].plans[0].figure",
+        "gaston-day:sections[5].plans[0].figure"
       ],
       "t": "1×"
     },
@@ -1215,12 +1224,20 @@
       "t": "Quelle obligation nous incombe si un élève se retire après le début de l’année scolaire ?"
     },
     {
-      "text": "Do you offer a sibling, employee, clergy, military or first-responder accommodation?",
-      "of": "3b9d36aa",
+      "text": "Do you offer a sibling, employee, clergy, military or first-responder tuition accommodation?",
+      "of": "7cf8a106",
       "at": [
         "providence-day:sections[6].questions[9]"
       ],
-      "t": "Proposez-vous un aménagement pour les fratries, les employés, les membres du clergé, les militaires ou les personnels de secours ?"
+      "t": "Proposez-vous un aménagement des frais de scolarité pour les fratries, les employés, les membres du clergé, les militaires ou les personnels de secours ?"
+    },
+    {
+      "text": "2026–27 school year · figures as of 24 Jul 2026 · bus and Talons fees as of 22 Nov 2026",
+      "of": "7871af58",
+      "at": [
+        "charlotte-latin:meta"
+      ],
+      "t": "Année scolaire 2026–27 · chiffres au 24 juillet 2026 · frais de bus et des Talons au 22 novembre 2026"
     },
     {
       "text": "\"Not published\" flags a transparency gap — never a judgment that the aid program is small or unwelcoming.",
@@ -1239,12 +1256,12 @@
       "t": "« Not published » signale un manque de transparence — jamais un jugement selon lequel le programme d’aide serait modeste ou peu accueillant."
     },
     {
-      "text": "Every dollar figure carries the school year it applies to. The transport page sits a year behind the 2026–27 tuition table — different cycles, not a contradiction.",
-      "of": "eb756613",
+      "text": "Every dollar figure carries the school year it applies to. The Student Life Transportation page gives 2026–27 bus fees. The Admissions Transportation page still gives 2025–26 fees.",
+      "of": "349ec10c",
       "at": [
         "charlotte-latin:framing[1].body"
       ],
-      "t": "Chaque montant en dollars est accompagné de l’année scolaire à laquelle il s’applique. La page consacrée au transport accuse un an de retard sur le tableau des frais de scolarité 2026–27 — des cycles différents, non une contradiction."
+      "t": "Chaque montant en dollars est accompagné de l’année scolaire à laquelle il s’applique. La page Transportation de Student Life indique les frais de bus 2026–27. La page Transportation d’Admissions indique encore les frais 2025–26."
     },
     {
       "text": "Tuition assistance toward attending this school — not the FAFSA, CSS Profile or college merit money. Not financial advice. Roughly 75% of this series' questions could be answered from published sources.",
@@ -1303,20 +1320,20 @@
       "t": "Contexte des effectifs : 1,555 élèves au total, dont 586 en Upper School (2025–26 Upper School Profile)."
     },
     {
-      "text": "Fourteen confirmed components for a 2026–27 family — 8 unpriced or a year behind",
-      "of": "c07e9fd1",
+      "text": "Fourteen confirmed components for a 2026–27 family — 6 unpriced",
+      "of": "e0b124f6",
       "at": [
         "charlotte-latin:sections[1].componentsTitle"
       ],
-      "t": "Quatorze composantes confirmées pour une famille en 2026–27 — 8 sans tarif publié ou en retard d’un an"
+      "t": "Quatorze composantes confirmées pour une famille en 2026–27 — 6 sans tarif publié"
     },
     {
-      "text": "All-in estimate not built: 57% unpriced > 33% threshold",
-      "of": "6e420628",
+      "text": "All-in estimate not built: 43% unpriced > 33% threshold",
+      "of": "bebf6ea1",
       "at": [
         "charlotte-latin:sections[1].componentsAside"
       ],
-      "t": "Estimation tout compris non établie : 57% sans tarif > seuil de 33%"
+      "t": "Estimation tout compris non établie : 43% sans tarif > seuil de 33%"
     },
     {
       "text": "Class trip advance · up to $710 (gr. 5–8, 12)",
@@ -1351,12 +1368,12 @@
       "t": "Garderie prolongée Hawks' Club · tarifée, TK–5 uniquement"
     },
     {
-      "text": "Bus service · 2025–26 rates only",
-      "of": "5a1f5dba",
+      "text": "Bus service · $1,900 round trip, $950 one way",
+      "of": "20eb1b35",
       "at": [
         "charlotte-latin:sections[1].components[6].label"
       ],
-      "t": "Service d’autobus · tarifs 2025–26 uniquement"
+      "t": "Service d’autobus · $1,900 aller-retour, $950 aller simple"
     },
     {
       "text": "Textbooks, grades 6–12 · no rate",
@@ -1399,12 +1416,12 @@
       "t": "Programmes d’enrichissement · aucun tarif"
     },
     {
-      "text": "Talons youth sports · no rate",
-      "of": "d3f2d35c",
+      "text": "Talons youth sports · $195–$375 for the winter and spring programs priced so far",
+      "of": "214b08ac",
       "at": [
         "charlotte-latin:sections[1].components[12].label"
       ],
-      "t": "Sports jeunesse Talons · aucun tarif"
+      "t": "Sports jeunesse Talons · $195–$375 pour les programmes d’hiver et de printemps tarifés à ce jour"
     },
     {
       "text": "Lower School uniforms · supplier purchase, no amount",
@@ -1415,28 +1432,28 @@
       "t": "Uniformes de la Lower School · achat auprès d’un fournisseur, aucun montant"
     },
     {
-      "text": "Six components are priced at 2026–27. The rest are unpriced or published only at 2025–26 rates. The school's own strategic plan confirms these charges are real: families \"often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities.\"",
-      "of": "a00d6681",
+      "text": "Eight components are priced at 2026–27. The other six have no published rate. The school's own strategic plan confirms these charges are real: families \"often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities.\"",
+      "of": "472d94a6",
       "at": [
         "charlotte-latin:sections[1].componentsNote"
       ],
-      "t": "Six composantes sont tarifées pour 2026–27. Les autres sont sans tarif ou publiées uniquement aux tarifs 2025–26. Le plan stratégique de l’école elle-même confirme que ces frais sont réels : les familles « often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities. »"
+      "t": "Huit composantes sont tarifées pour 2026–27. Les six autres n’ont pas de tarif publié. Le plan stratégique de l’école elle-même confirme que ces frais sont réels : les familles « often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities. »"
     },
     {
-      "text": "Bus service — a year behind the tuition table",
-      "of": "91a888c5",
+      "text": "Bus service — two pages, two school years",
+      "of": "04773848",
       "at": [
         "charlotte-latin:sections[1].boxes[0].title"
       ],
-      "t": "Service d’autobus — en retard d’un an sur le tableau des frais de scolarité"
+      "t": "Service d’autobus — deux pages, deux années scolaires"
     },
     {
-      "text": "Round trip **$1,800** · one way **$900** · activity bus **$450** per season. The fee panel is headed \"Bus Service Annual Fees 2025-26\" while the tuition page has moved to 2026–27, so a family budgeting for next year cannot price the bus from the website.",
-      "of": "aa5531a5",
+      "text": "The Student Life Transportation page lists 2026–27 fees: round trip **$1,900** and one way **$950**. Students without a round-trip plan pay by activity. The Middle and Upper School sports activity bus costs **$550** per season. The Talons and enrichment buses cost **$80** per session. Play-practice buses cost **$80** per play, or **$160** in Middle School. The Admissions Transportation page still lists 2025–26 fees: **$1,800** round trip, **$900** one way and **$450** per season for the activity bus.",
+      "of": "aa1090b9",
       "at": [
         "charlotte-latin:sections[1].boxes[0].body"
       ],
-      "t": "Aller-retour **$1,800** · aller simple **$900** · autobus d’activités **$450** par saison. Le panneau tarifaire est intitulé « Bus Service Annual Fees 2025-26 » alors que la page des frais de scolarité est passée à 2026–27 ; une famille qui établit son budget pour l’année prochaine ne peut donc pas chiffrer l’autobus à partir du site web."
+      "t": "La page Transportation de Student Life indique les frais 2026–27 : aller-retour **$1,900** et aller simple **$950**. Les élèves sans forfait aller-retour paient selon l’activité. Le bus d’activités sportives des Middle et Upper School coûte **$550** par saison. Les bus Talons et enrichissement coûtent **$80** par session. Les bus des répétitions théâtrales coûtent **$80** par pièce, ou **$160** en Middle School. La page Transportation d’Admissions indique encore les frais 2025–26 : **$1,800** aller-retour, **$900** aller simple et **$450** par saison pour le bus d’activités."
     },
     {
       "text": "Hawks' Club — two rates break their own pattern",
@@ -1712,12 +1729,12 @@
       "t": "Soutien complémentaire"
     },
     {
-      "text": "Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. Its financial aid FAQ adds that students who earn a named endowed scholarship may also have extra school costs covered. Families learn at acceptance, from the school's stewardship and scholarship administrator, whether they qualify and what is covered. It does not publish what else this help covers, or how much need makes a family eligible.",
-      "of": "7231cc84",
+      "text": "Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. Its financial aid FAQ adds that students who earn a named endowed scholarship may also have extra school costs covered. Families learn at acceptance, from the school's stewardship and scholarship administrator, whether they qualify and what is covered. The school's Plus Fund helps families on substantial aid with costs beyond tuition. The examples it names are lunch, books, rentals, sports fees, travel and learning resources. The school does not publish how much need makes a family eligible.",
+      "of": "d5e357fd",
       "at": [
         "charlotte-latin:sections[3].boxes[3].body"
       ],
-      "t": "Au-delà de l’aide aux frais de scolarité, l’école déclare couvrir également, pour ses **familles aux besoins les plus élevés**, un soutien complémentaire pour les fournitures scolaires essentielles, **y compris le déjeuner**. Sa FAQ sur l’aide financière ajoute que les élèves qui obtiennent une bourse dotée nominative peuvent aussi bénéficier d’une prise en charge de frais scolaires supplémentaires. Au moment de l’admission, la personne chargée des bourses et des relations avec les donateurs à l’école indique aux familles si elles y ont droit et ce qui est couvert. L’école ne publie pas ce que ce soutien couvre d’autre, ni le niveau de besoin à partir duquel une famille y est éligible."
+      "t": "Au-delà de l’aide aux frais de scolarité, l’école déclare couvrir également, pour ses **familles aux besoins les plus élevés**, un soutien complémentaire pour les fournitures scolaires essentielles, **y compris le déjeuner**. Sa FAQ sur l’aide financière ajoute que les élèves qui obtiennent une bourse dotée nominative peuvent aussi bénéficier d’une prise en charge de frais scolaires supplémentaires. Au moment de l’admission, la personne chargée des bourses et des relations avec les donateurs à l’école indique aux familles si elles y ont droit et ce qui est couvert. Le Plus Fund de l’école aide les familles qui reçoivent une aide importante à couvrir les coûts au-delà des frais de scolarité. Les exemples qu’il cite sont le déjeuner, les livres, les locations, les frais de sport, les voyages et les ressources d’apprentissage. L’école ne publie pas le niveau de besoin à partir duquel une famille y est éligible."
     },
     {
       "text": "HOW TO READ THE 990 FIGURE",
@@ -1841,7 +1858,8 @@
       "at": [
         "charlotte-latin:sections[5].plans[1].figure",
         "charlotte-country-day:sections[4].plans[2].figure",
-        "cannon:sections[4].plans[1].figure"
+        "cannon:sections[4].plans[1].figure",
+        "gaston-day:sections[5].plans[1].figure"
       ],
       "t": "2×"
     },
@@ -1986,12 +2004,12 @@
       "t": "LISEZ LES TOTAUX DE SCOLARITÉ COMME UN CALCUL, PAS COMME UNE PRÉVISION"
     },
     {
-      "text": "The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500). They assume today's prices hold every year, which they will not: published tuition is reset every year and has risen in the past. They are tuition only, before any aid. They exclude the deposit, trips, insurance, transport, extended day, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.",
-      "of": "47586087",
+      "text": "The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500). They assume today's prices hold every year, which they will not: published tuition is reset every year and has risen in the past. They are tuition only, before any aid. They exclude the deposit, trips, insurance, transport, extended day, Talons, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.",
+      "of": "a41b8e2c",
       "at": [
         "charlotte-latin:sections[6].boxes[1].body"
       ],
-      "t": "Les totaux ci-dessus appliquent les tranches 2026–27 à un parcours complet (2 ans à $27,600 ; 5 à $32,600 ; 3 à $35,200 ; 4 à $36,500). Ils supposent que les prix d’aujourd’hui valent chaque année, ce qui ne sera pas le cas : les frais de scolarité publiés sont redéfinis chaque année et ont augmenté par le passé. Ils portent uniquement sur les frais de scolarité, avant toute aide. Ils excluent l’acompte, les voyages, l’assurance, le transport, la garde périscolaire, les repas, les livres et tous les postes non chiffrés de la Section 02. Ils n’existent que pour donner un ordre de grandeur."
+      "t": "Les totaux ci-dessus appliquent les tranches 2026–27 à un parcours complet (2 ans à $27,600 ; 5 à $32,600 ; 3 à $35,200 ; 4 à $36,500). Ils supposent que les prix d’aujourd’hui valent chaque année, ce qui ne sera pas le cas : les frais de scolarité publiés sont redéfinis chaque année et ont augmenté par le passé. Ils portent uniquement sur les frais de scolarité, avant toute aide. Ils excluent l’acompte, les voyages, l’assurance, le transport, la garde périscolaire, les Talons, les repas, les livres et tous les postes non chiffrés de la Section 02. Ils n’existent que pour donner un ordre de grandeur."
     },
     {
       "text": "THE MIDDLE-INCOME QUESTION",
@@ -2019,12 +2037,12 @@
       "t": "DEUX PIÈGES DE NAVIGATION"
     },
     {
-      "text": "**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027. But search engines still show saved text from the same address that gives 15 January 2026. Open the page directly rather than trusting the search snippet. **The contact address is misspelled in one place**. The tuition page asks for questions at an email address whose domain has two letters swapped. The correct address appears elsewhere on the same page. Mail to the misspelled version will not arrive, so use the contact panel.",
-      "of": "ffd4a62c",
+      "text": "**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027. But search engines still show saved text from the same address that gives 15 January 2026. Open the page directly rather than trusting the search snippet. **The contact address is misspelled in one document**. The school's \"How to Apply for Financial Aid\" document gives an email address whose domain has two letters swapped. The tuition page has the correct address, so use that one.",
+      "of": "b1bf3618",
       "at": [
         "charlotte-latin:sections[6].boxes[3].body"
       ],
-      "t": "**Une page périmée circule encore.** La page des frais de scolarité en ligne indique le 15 janvier 2027 comme date limite pour l’aide. Mais les moteurs de recherche affichent encore un texte enregistré provenant de la même adresse et indiquant le 15 janvier 2026. Ouvrez la page directement plutôt que de vous fier à l’extrait de recherche. **L’adresse de contact est mal orthographiée à un endroit**. La page des frais de scolarité invite à écrire à une adresse dont le domaine comporte deux lettres inversées. L’adresse correcte figure ailleurs sur la même page. Un message envoyé à la version erronée n’arrivera pas ; utilisez donc le panneau de contact."
+      "t": "**Une page périmée circule encore.** La page des frais de scolarité en ligne indique le 15 janvier 2027 comme date limite pour l’aide. Mais les moteurs de recherche affichent encore un texte enregistré provenant de la même adresse et indiquant le 15 janvier 2026. Ouvrez la page directement plutôt que de vous fier à l’extrait de recherche. **L’adresse de contact est mal orthographiée dans un document**. Le document « How to Apply for Financial Aid » de l’école donne une adresse e-mail dont le domaine comporte deux lettres inversées. La page des frais de scolarité donne l’adresse correcte : utilisez donc celle-ci."
     },
     {
       "text": "Each is unanswerable from published sources and materially affects what a family pays or receives.",
@@ -2054,26 +2072,18 @@
       "t": "Combien coûte une année de repas scolaires, par division, et combien coûtent les manuels en niveaux 6, 9 et 12 ?"
     },
     {
-      "text": "What are the participation costs for specific sports and activities?",
-      "of": "e0556d22",
+      "text": "What are the participation costs for school athletics and activities, beyond the Talons fees already published?",
+      "of": "2074d70c",
       "at": [
         "charlotte-latin:sections[6].questions[2]"
       ],
-      "t": "Quels sont les frais de participation pour des sports et activités précis ?"
-    },
-    {
-      "text": "What are the 2026–27 bus rates?",
-      "of": "8d402598",
-      "at": [
-        "charlotte-latin:sections[6].questions[3]"
-      ],
-      "t": "Quels sont les tarifs de bus pour 2026–27 ?"
+      "t": "Quels sont les frais de participation aux sports et activités de l’école, au-delà des frais Talons déjà publiés ?"
     },
     {
       "text": "What is the current share of students receiving tuition assistance, and for which year?",
       "of": "fc87bf28",
       "at": [
-        "charlotte-latin:sections[6].questions[4]"
+        "charlotte-latin:sections[6].questions[3]"
       ],
       "t": "Quelle est la part actuelle d’élèves bénéficiant d’une aide aux frais de scolarité, et pour quelle année ?"
     },
@@ -2081,7 +2091,7 @@
       "text": "What is the median award, what is the range from smallest to largest, and does any award reach full tuition?",
       "of": "8edf084f",
       "at": [
-        "charlotte-latin:sections[6].questions[5]"
+        "charlotte-latin:sections[6].questions[4]"
       ],
       "t": "Quelle est l’aide médiane, quelle est l’étendue de la plus petite à la plus grande, et une aide atteint-elle la totalité des frais de scolarité ?"
     },
@@ -2089,7 +2099,7 @@
       "text": "For each named scholarship: the amount, how many are awarded, how recipients are chosen among eligible students, and whether it can be held alongside need-based aid?",
       "of": "9d60cbb9",
       "at": [
-        "charlotte-latin:sections[6].questions[6]"
+        "charlotte-latin:sections[6].questions[5]"
       ],
       "t": "Pour chaque bourse nommée : le montant, le nombre attribué, la façon dont les bénéficiaires sont choisis parmi les élèves éligibles, et la possibilité de la cumuler avec une aide fondée sur les besoins ?"
     },
@@ -2097,7 +2107,7 @@
       "text": "Do awards typically renew at a consistent level from year to year, and is there an appeals or change-of-circumstance process?",
       "of": "622e5598",
       "at": [
-        "charlotte-latin:sections[6].questions[7]"
+        "charlotte-latin:sections[6].questions[6]"
       ],
       "t": "Les aides sont-elles généralement reconduites à un niveau constant d’une année à l’autre, et existe-t-il une procédure de recours ou de changement de situation ?"
     },
@@ -2105,19 +2115,17 @@
       "text": "Please confirm the four-day and five-day Hawks' Club rates in the two rows flagged in Section 02.",
       "of": "bf31a8a6",
       "at": [
-        "charlotte-latin:sections[6].questions[8]"
+        "charlotte-latin:sections[6].questions[7]"
       ],
       "t": "Veuillez confirmer les tarifs du Hawks' Club à quatre jours et à cinq jours dans les deux lignes signalées à la Section 02."
     },
     {
-      "text": "2026–27 school year · figures as of 23 Jul 2026",
-      "of": "a311c291",
+      "text": "2026–27 school year · figures as of 23 Jul 2026; aid dates and requirement 22 Nov 2026",
+      "of": "ae33c130",
       "at": [
-        "charlotte-christian:meta",
-        "charlotte-country-day:meta",
-        "cannon:meta"
+        "charlotte-christian:meta"
       ],
-      "t": "année scolaire 2026–27 · chiffres au 23 juil. 2026"
+      "t": "année scolaire 2026–27 · chiffres au 23 juil. 2026 ; dates et exigence d’aide au 22 nov. 2026"
     },
     {
       "text": "Every dollar figure carries the school year it applies to. Contract terms below are tagged 2023–24 — three years behind the tuition table.",
@@ -2473,20 +2481,20 @@
       "t": "Les nouveaux candidats des niveaux 1–12 sont informés au plus tard à cette date (cycle 2026–27). Les candidatures ultérieures restent acceptées, mais les aides sont limitées aux fonds disponibles à chaque niveau"
     },
     {
-      "text": "1 Nov 2026",
-      "of": "de7f4b1b",
+      "text": "2 Nov 2026",
+      "of": "684418b0",
       "at": [
         "charlotte-christian:sections[2].timeline[3].when"
       ],
-      "t": "1 nov. 2026"
+      "t": "2 nov. 2026"
     },
     {
-      "text": "Priority deadline for **current families** — via Clarity",
-      "of": "0b98338b",
+      "text": "Priority deadline for **current families** — via Clarity. Awards are sent at re-enrollment in February",
+      "of": "ed28802d",
       "at": [
         "charlotte-christian:sections[2].timeline[3].detail"
       ],
-      "t": "Date limite prioritaire pour les **familles actuelles** — via Clarity"
+      "t": "Date limite prioritaire pour les **familles actuelles** — via Clarity. Les aides sont envoyées lors de la réinscription en février"
     },
     {
       "text": "22 Jan 2027",
@@ -2497,28 +2505,28 @@
       "t": "22 janv. 2027"
     },
     {
-      "text": "Priority deadline for **prospective families** — via Clarity",
-      "of": "a31cb4fa",
+      "text": "Priority deadline for **prospective families** — via Clarity. Awards are sent at acceptance, with the enrollment contract",
+      "of": "6584c07b",
       "at": [
         "charlotte-christian:sections[2].timeline[4].detail"
       ],
-      "t": "Date limite prioritaire pour les **familles candidates** — via Clarity"
+      "t": "Date limite prioritaire pour les **familles candidates** — via Clarity. Les aides sont envoyées lors de l’admission, avec le contrat d’inscription"
     },
     {
-      "text": "An unusual requirement — and since withdrawn",
-      "of": "e542e5a5",
+      "text": "An unusual requirement",
+      "of": "03039a1a",
       "at": [
         "charlotte-christian:sections[2].boxes[0].title"
       ],
-      "t": "Une exigence inhabituelle — et désormais supprimée"
+      "t": "Une exigence inhabituelle"
     },
     {
-      "text": "Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**. Applications for that state program opened 2 February. Few schools make their own aid application depend on a state application. **It no longer applies**: the school's live tuition page (retrieved 14 Sep 2026) does not mention it. That fits the school's own note that NC Opportunity Scholarship participation ends after 2025–26.",
-      "of": "ea1fb695",
+      "text": "Every family applying for aid must **also apply to the North Carolina Opportunity Scholarship Program**. Applications for that state program open 1 Feb 2027. Few schools make their own aid application depend on a state application.",
+      "of": "99f735e1",
       "at": [
         "charlotte-christian:sections[2].boxes[0].body"
       ],
-      "t": "Jusqu’au cycle 2026–27, chaque famille candidate devait **également déposer une demande auprès du North Carolina Opportunity Scholarship Program**. Les candidatures à ce programme de l’État ouvraient le 2 février. Peu d’écoles subordonnent leur propre demande d’aide à une demande auprès de l’État. **Cela ne s’applique plus** : la page des frais de scolarité en ligne de l’école (consultée le 14 septembre 2026) n’en fait pas mention. Cela concorde avec sa propre note indiquant que la participation au NC Opportunity Scholarship prend fin après 2025–26."
+      "t": "Chaque famille qui demande une aide doit **également déposer une demande auprès du North Carolina Opportunity Scholarship Program**. Les candidatures à ce programme de l’État ouvrent le 1er février 2027. Peu d’écoles subordonnent leur propre demande d’aide à une demande auprès de l’État."
     },
     {
       "text": "DOCUMENTATION HAZARD",
@@ -2924,12 +2932,12 @@
       "t": "Existe-t-il des frais de participation sportive ou en beaux-arts, et quels en sont les montants ?"
     },
     {
-      "text": "2026–27 school year · figures as of 18 Aug 2026",
-      "of": "f52eb327",
+      "text": "2026–27 school year · figures as of 18 Aug 2026; fees, plans and aid dates 22 Nov 2026",
+      "of": "839d30fa",
       "at": [
         "charlotte-catholic:meta"
       ],
-      "t": "Année scolaire 2026–27 · chiffres au 18 août 2026"
+      "t": "Année scolaire 2026–27 · chiffres au 18 août 2026 ; frais, plans et dates d’aide au 22 novembre 2026"
     },
     {
       "text": "Tuition is set by the diocese, not the school.",
@@ -3068,12 +3076,12 @@
       "t": "Frais de dossier — $120 par élève"
     },
     {
-      "text": "Continuous enrollment fee — $150 per returning student",
-      "of": "123a2fbe",
+      "text": "Continuous enrollment fee — $150 per new student; $150 (web page) or $75 (PDF schedule) per returning student",
+      "of": "d61e10d6",
       "at": [
         "charlotte-catholic:sections[1].components[2].label"
       ],
-      "t": "Frais de réinscription continue — $150 par élève réinscrit"
+      "t": "Frais de réinscription continue — $150 par nouvel élève ; $150 (page web) ou $75 (barème PDF) par élève réinscrit"
     },
     {
       "text": "FACTS payment plan fee — $15–$45 per family",
@@ -3124,12 +3132,12 @@
       "t": "Les **frais d’investissement sont facturés par famille et non par élève** : contrairement aux frais de dossier et de réinscription, ils n’augmentent donc pas avec le nombre d’enfants scolarisés."
     },
     {
-      "text": "A first-year community-rate family with one student pays $21,562 + $1,995 + $120 = **$23,677** before books, activities or athletics.",
-      "of": "c3f0715f",
+      "text": "A first-year community-rate family with one student pays $21,562 + $1,995 + $120 + $150 = **$23,827**. That is before the FACTS plan fee, books, activities or athletics.",
+      "of": "e0b688fb",
       "at": [
         "charlotte-catholic:sections[1].componentsAside"
       ],
-      "t": "Une famille au tarif communauté, en première année et avec un seul élève, paie $21,562 + $1,995 + $120 = **$23,677** avant les manuels, les activités ou le sport."
+      "t": "Une famille au tarif communauté, en première année et avec un seul élève, paie $21,562 + $1,995 + $120 + $150 = **$23,827**. C’est avant les frais de plan FACTS, les manuels, les activités ou le sport."
     },
     {
       "text": "How Aid Is Assessed and When",
@@ -3188,6 +3196,22 @@
       "t": "**Date limite de la Family Individualized Tuition (FIT) pour les familles déjà inscrites.** Les nouvelles familles sont invitées à déposer leur demande en même temps que le dossier d’admission"
     },
     {
+      "text": "By March 1, 2027",
+      "of": "6cb9164d",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[3].when"
+      ],
+      "t": "Au plus tard le 1er mars 2027"
+    },
+    {
+      "text": "**2027-28 FIT applications** completed by this date get a decision by email on March 16, 2027",
+      "of": "32b0e2f5",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[3].detail"
+      ],
+      "t": "Les **demandes FIT 2027-28** complétées à cette date reçoivent une décision par e-mail le 16 mars 2027"
+    },
+    {
       "text": "Platform — Clarity, not FACTS",
       "of": "fca02a28",
       "at": [
@@ -3236,12 +3260,12 @@
       "t": "Deuxième enfant **10%**, troisième **25%**, quatrième **50%**, cinquième et suivants **100%**. À noter que ces réductions ne s’appliquent qu’au tarif catholique pratiquant, ce qui accentue l’avantage lié au statut paroissial pour les familles nombreuses."
     },
     {
-      "text": "No decision timeline, appeals process, or award-ceiling policy is published. Whether FIT awards are renewed automatically on re-application is not stated.",
-      "of": "19c32b5c",
+      "text": "No appeals process or award-ceiling policy is published. Whether FIT awards are renewed automatically on re-application is not stated.",
+      "of": "fdf3dd9f",
       "at": [
         "charlotte-catholic:sections[2].boxes[3].body"
       ],
-      "t": "Aucun calendrier de décision, procédure de recours ou plafond d’aide n’est publié. Le fait de savoir si les aides FIT sont reconduites automatiquement lors d’une nouvelle demande n’est pas précisé."
+      "t": "Aucune procédure de recours ni aucun plafond d’aide n’est publié. Le fait de savoir si les aides FIT sont reconduites automatiquement lors d’une nouvelle demande n’est pas précisé."
     },
     {
       "text": "What the Aid Program Actually Awards",
@@ -3370,12 +3394,12 @@
       "t": "Prestataire de paiement"
     },
     {
-      "text": "Runs the tuition draft. Plan fee **$15–$45 per family**.",
-      "of": "00f42751",
+      "text": "Runs the tuition draft on the 20th of the month. Plans are annual (June), semi-annual (June and December), quarterly (June, September, December and March), monthly, or ten-month. The ten-month plan skips December and May. The semi-annual, quarterly and ten-month plans require enrollment before June 10. Plan fee **$15–$45 per family**, and card payments add a **2.95%** fee.",
+      "of": "ffe4232a",
       "at": [
         "charlotte-catholic:sections[5].plans[0].detail"
       ],
-      "t": "Assure le prélèvement des frais de scolarité. Frais de plan de **$15–$45 par famille**."
+      "t": "Assure le prélèvement des frais de scolarité le 20 du mois. Les plans sont annuel (juin), semestriel (juin et décembre), trimestriel (juin, septembre, décembre et mars), mensuel ou sur dix mois. Le plan sur dix mois saute décembre et mai. Les plans semestriel, trimestriel et sur dix mois exigent une inscription avant le 10 juin. Frais de plan de **$15–$45 par famille**, et les paiements par carte ajoutent des frais de **2.95%**."
     },
     {
       "text": "$150",
@@ -3386,20 +3410,20 @@
       "t": "$150"
     },
     {
-      "text": "Continuous enrollment",
-      "of": "396a9f6e",
+      "text": "Continuous enrollment, new student",
+      "of": "e17d274f",
       "at": [
         "charlotte-catholic:sections[5].plans[1].label"
       ],
-      "t": "Réinscription continue"
+      "t": "Réinscription continue, nouvel élève"
     },
     {
-      "text": "Charged per returning student to hold the seat for the next year.",
-      "of": "cfc5d5cf",
+      "text": "Holds the seat each year: $150 per new student. For a returning student, the web page says $150 and the PDF schedule says $75.",
+      "of": "ff6a441f",
       "at": [
         "charlotte-catholic:sections[5].plans[1].detail"
       ],
-      "t": "Facturés par élève réinscrit pour réserver sa place l’année suivante."
+      "t": "Réserve la place chaque année : $150 par nouvel élève. Pour un élève réinscrit, la page web indique $150 et le barème PDF $75."
     },
     {
       "text": "May 15",
@@ -3426,12 +3450,12 @@
       "t": "Les familles déjà inscrites doivent déposer leur demande avant cette date pour être prises en compte."
     },
     {
-      "text": "The number of installments in the FACTS plan, whether a pay-in-full discount exists, and any late-payment or withdrawal policy are not published — they sit inside the enrollment portal.",
-      "of": "352d01a7",
+      "text": "No pay-in-full discount, late-payment policy or withdrawal policy is published.",
+      "of": "b9a9a3c2",
       "at": [
         "charlotte-catholic:sections[5].boxes[0].body"
       ],
-      "t": "Le nombre d’échéances du plan FACTS, l’existence éventuelle d’une remise pour paiement intégral et toute règle en cas de retard de paiement ou de départ ne sont pas publiés — ces informations figurent dans le portail d’inscription."
+      "t": "Aucune remise pour paiement intégral, aucune règle en cas de retard de paiement ni aucune règle de départ n’est publiée."
     },
     {
       "text": "What to Ask",
@@ -3451,12 +3475,12 @@
       "t": "À demander au service des admissions"
     },
     {
-      "text": "What exactly qualifies us as a \"participating Catholic\" family, and which parish verifies it?",
-      "of": "b8599d7f",
+      "text": "What does our parish ask for, beyond the published minimums, to approve the \"participating Catholic\" rate?",
+      "of": "ded44f68",
       "at": [
         "charlotte-catholic:sections[6].questions[0]"
       ],
-      "t": "Qu’est-ce qui nous qualifie précisément comme famille « catholique pratiquante », et quelle paroisse l’atteste ?"
+      "t": "Qu’exige notre paroisse, au-delà des minimums publiés, pour approuver le tarif « catholique pratiquant » ?"
     },
     {
       "text": "If our parish participation changes mid-enrollment, does our tuition rate change with it?",
@@ -3491,20 +3515,20 @@
       "t": "Les réductions pour fratrie s’appliquent-elles avant ou après le calcul de l’aide FIT ?"
     },
     {
-      "text": "Does the $1,995 capital fee recur every year, or is it charged once?",
-      "of": "a4f5fe24",
+      "text": "Is the continuous enrollment fee for a returning student $150, as the web page says, or $75, as the PDF schedule says?",
+      "of": "33c9fd3c",
       "at": [
         "charlotte-catholic:sections[6].questions[5]"
       ],
-      "t": "Les frais d’investissement de $1,995 sont-ils dus chaque année, ou une seule fois ?"
+      "t": "Les frais de réinscription continue d’un élève réinscrit sont-ils de $150, comme l’indique la page web, ou de $75, comme l’indique le barème PDF ?"
     },
     {
-      "text": "How many installments does the FACTS plan run, and is there a discount for paying in full?",
-      "of": "852f4492",
+      "text": "Is there a discount for paying in full, and what are the late-payment and withdrawal terms?",
+      "of": "e672ace1",
       "at": [
         "charlotte-catholic:sections[6].questions[6]"
       ],
-      "t": "En combien d’échéances le plan FACTS se règle-t-il, et existe-t-il une remise pour paiement intégral ?"
+      "t": "Existe-t-il une remise pour paiement intégral, et quelles sont les conditions en cas de retard de paiement ou de départ ?"
     },
     {
       "text": "What should we budget beyond tuition for books, athletics and the band's Dublin trip?",
@@ -3513,6 +3537,14 @@
         "charlotte-catholic:sections[6].questions[7]"
       ],
       "t": "Quel budget prévoir au-delà des frais de scolarité pour les manuels, le sport et le voyage de l’orchestre à Dublin ?"
+    },
+    {
+      "text": "2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus and tutoring fees 22 Nov 2026",
+      "of": "891a3dd2",
+      "at": [
+        "charlotte-country-day:meta"
+      ],
+      "t": "année scolaire 2026–27 · chiffres au 23 juil. 2026 ; frais d’enrichissement au 20 nov., frais de bus et de soutien scolaire au 22 nov. 2026"
     },
     {
       "text": "Every dollar figure carries the school year it applies to. Undated school figures are flagged, not guessed.",
@@ -3525,12 +3557,12 @@
       "t": "Chaque montant en dollars porte l’année scolaire à laquelle il s’applique. Les chiffres non datés de l’école sont signalés, non devinés."
     },
     {
-      "text": "The $13M in college scholarships from the School Profile is university money — excluded throughout. Not financial advice.",
-      "of": "f57e8e91",
+      "text": "The college scholarship totals in the School Profile ($13M for the Class of 2025) are university money — excluded throughout. Not financial advice.",
+      "of": "8cc3ef1a",
       "at": [
         "charlotte-country-day:framing[2].body"
       ],
-      "t": "Les $13M de bourses universitaires figurant dans le School Profile relèvent du financement universitaire — exclus partout. Ne constitue pas un conseil financier."
+      "t": "Les totaux de bourses universitaires figurant dans le School Profile ($13M pour la promotion 2025) relèvent du financement universitaire — exclus partout. Ne constitue pas un conseil financier."
     },
     {
       "text": "Published tuition by band",
@@ -3661,20 +3693,20 @@
       "t": "Échelle $0–700. Une estimation encadrée par division, et non une grille tarifaire détaillée — couvre les manuels et fournitures (niv. 5–12), les frais d’activités et les frais sportifs. Acompte d’inscription : 10% des frais de scolarité, imputé sur les frais de scolarité dus."
     },
     {
-      "text": "Ten confirmed cost components — 4 unpriced",
-      "of": "ad479226",
+      "text": "Ten confirmed cost components — 2 unpriced",
+      "of": "bc1ea16c",
       "at": [
         "charlotte-country-day:sections[1].componentsTitle"
       ],
-      "t": "Dix postes de coûts confirmés — 4 non chiffrés"
+      "t": "Dix postes de coûts confirmés — 2 non chiffrés"
     },
     {
-      "text": "All-in estimate not built: 40% unpriced > 33% threshold",
-      "of": "164f7754",
+      "text": "All-in estimate not built: 20% unpriced, plus 30% in a range only",
+      "of": "78e8d7e5",
       "at": [
         "charlotte-country-day:sections[1].componentsAside"
       ],
-      "t": "Estimation tout compris non établie : 40% sans tarif > seuil de 33%"
+      "t": "Estimation tout compris non établie : 20% sans tarif, plus 30% sous forme de fourchette seulement"
     },
     {
       "text": "Tuition — five bands, priced",
@@ -3726,20 +3758,20 @@
       "t": "Cours d’enrichissement · $260 la session complète / $225 la mini-session (tarif standard 2026–27)"
     },
     {
-      "text": "Bus transportation · no rate",
-      "of": "739409af",
+      "text": "Bus transportation · $1,670–$1,785 round trip, $955–$1005 one way; campus shuttle $715 / $400 (2026–27)",
+      "of": "3e026fcc",
       "at": [
         "charlotte-country-day:sections[1].components[6].label"
       ],
-      "t": "Transport scolaire · aucun tarif"
+      "t": "Transport scolaire · $1,670–$1,785 aller-retour, $955–$1005 aller simple ; navette entre campus $715 / $400 (2026–27)"
     },
     {
-      "text": "Tutoring · no rate",
-      "of": "3b96a9e3",
+      "text": "Learning-support tutoring · $82 Lower School / $85 Middle School a session; Upper School coaching $85",
+      "of": "d20073bb",
       "at": [
         "charlotte-country-day:sections[1].components[7].label"
       ],
-      "t": "Soutien scolaire · aucun tarif"
+      "t": "Tutorat de soutien à l’apprentissage · $82 Lower School / $85 Middle School la séance ; coaching en Upper School $85"
     },
     {
       "text": "Dining hall · no rate",
@@ -3758,12 +3790,12 @@
       "t": "Tenues d’EPS du Middle School · aucun tarif"
     },
     {
-      "text": "All four unpriced items appear on the school's own billing list — real costs, billed monthly, rates visible only on a family's statement. These are the highest-value questions for the business office.",
-      "of": "c6863622",
+      "text": "Two of the ten items have no published price: the dining hall and Middle School PE uniforms. Both are on the school's monthly billing list. Three more are priced only as a range. So half have no set price, and this report does not add the items into one total.",
+      "of": "cef2ce6c",
       "at": [
         "charlotte-country-day:sections[1].componentsNote"
       ],
-      "t": "Les quatre postes sans tarif figurent tous sur la liste de facturation de l’école elle-même — des coûts réels, facturés mensuellement, dont les tarifs n’apparaissent que sur le relevé d’une famille. Ce sont les questions les plus utiles à poser au service financier."
+      "t": "Deux des dix postes n’ont aucun tarif publié : le réfectoire et les tenues d’EPS du Middle School. Tous deux figurent sur la liste de facturation mensuelle de l’école. Trois autres ne sont tarifés que sous forme de fourchette. La moitié n’a donc pas de prix fixe, et ce rapport n’additionne pas les postes en un total unique."
     },
     {
       "text": "the best-documented part of the picture",
@@ -3937,12 +3969,12 @@
       "t": "des frais de scolarité · $39,600/an"
     },
     {
-      "text": "Donor gift level → intended share of a student's tuition. Roughly $6,000/yr more can be attached for ancillaries — the same categories Section 02 flags as unpriced. Awarded on demonstrated need via Clarity.",
-      "of": "00de0834",
+      "text": "Donor gift level → intended share of a student's tuition. Roughly $6,000/yr more can be attached for ancillaries (extra costs beyond tuition). Awarded on demonstrated need via Clarity.",
+      "of": "dab2eb0f",
       "at": [
         "charlotte-country-day:sections[3].figureNote"
       ],
-      "t": "Niveau du don → part visée des frais de scolarité d’un élève. Environ $6,000/an de plus peuvent y être rattachés pour les frais annexes — les mêmes catégories que la Section 02 signale comme non tarifées. Attribuée sur besoin démontré via Clarity."
+      "t": "Niveau du don → part visée des frais de scolarité d’un élève. Environ $6,000/an de plus peuvent y être rattachés pour les frais annexes (coûts supplémentaires au-delà des frais de scolarité). Attribuée sur besoin démontré via Clarity."
     },
     {
       "text": "No merit track",
@@ -4068,12 +4100,12 @@
       "t": "Rien n’est publié pour les familles situées au-dessus du seuil habituel d’éligibilité à l’aide qui auraient tout de même du mal à payer le plein tarif. Aucun barème progressif n’est publié, ni aucun tarif indexé (un tarif fixé selon le revenu de la famille). Cette lacune est commune à la plupart des écoles indépendantes. Ce n’est pas un constat propre à celle-ci."
     },
     {
-      "text": "Which school year does each published aid figure describe — and is the share 20% or 21%, against which enrollment?",
-      "of": "6c38bbf2",
+      "text": "Which school year does each published aid figure describe: $9.4M to 341 students, or $10.1M to 347? And which enrollment is the ~20% share measured against?",
+      "of": "f9bb24f8",
       "at": [
         "charlotte-country-day:sections[5].questions[0]"
       ],
-      "t": "À quelle année scolaire se rapporte chaque chiffre d’aide publié — et la proportion est-elle de 20% ou de 21%, rapportée à quel effectif ?"
+      "t": "À quelle année scolaire se rapporte chaque chiffre d’aide publié : $9.4M pour 341 élèves, ou $10.1M pour 347 ? Et à quel effectif la proportion de ~20% est-elle rapportée ?"
     },
     {
       "text": "What are this year's average and median awards, the range — and does any award cover full tuition?",
@@ -4084,12 +4116,12 @@
       "t": "Quels sont l’aide moyenne et l’aide médiane cette année, ainsi que la fourchette — et une aide couvre-t-elle la totalité des frais de scolarité ?"
     },
     {
-      "text": "What are the dollar rates for bus, tutoring, dining hall and MS PE uniforms?",
-      "of": "cde94712",
+      "text": "What are the dollar rates for the dining hall and MS PE uniforms?",
+      "of": "4303fd43",
       "at": [
         "charlotte-country-day:sections[5].questions[2]"
       ],
-      "t": "Quels sont les tarifs en dollars pour le bus, le soutien scolaire, le réfectoire et les tenues d’EPS du Middle School ?"
+      "t": "Quels sont les tarifs en dollars pour le réfectoire et les tenues d’EPS du Middle School ?"
     },
     {
       "text": "Does the ten-month plan carry a fee or interest, and is there a discount for paying in full?",
@@ -4114,6 +4146,14 @@
         "charlotte-country-day:sections[5].questions[5]"
       ],
       "t": "Existe-t-il une réduction pour fratrie ou une exonération pour le personnel — et quel est le montant de l’acompte réduit pour les demandeurs d’aide ?"
+    },
+    {
+      "text": "2026–27 school year · figures as of 23 Jul 2026",
+      "of": "a311c291",
+      "at": [
+        "cannon:meta"
+      ],
+      "t": "année scolaire 2026–27 · chiffres au 23 juil. 2026"
     },
     {
       "text": "Tuition assistance while enrolled — not college aid. Not financial advice. Roughly 81% of this series' questions could be answered from published sources.",
@@ -4156,20 +4196,20 @@
       "t": "L’historique des tarifs sur le site en ligne — retrouvé uniquement à partir de copies archivées"
     },
     {
-      "text": "Eleven confirmed components for a Grade 9 student — 4 unpriced",
-      "of": "695dc58c",
+      "text": "Ten confirmed components for a Grade 9 student — 4 unpriced",
+      "of": "a8431a50",
       "at": [
         "cannon:sections[1].componentsTitle"
       ],
-      "t": "Onze composantes confirmées pour un élève de 9e — 4 sans tarif"
+      "t": "Dix composantes confirmées pour un élève de 9e — 4 sans tarif"
     },
     {
-      "text": "All-in estimate not built: ~36% unpriced > 33% threshold",
-      "of": "5d829c51",
+      "text": "All-in estimate not built: 40% unpriced > 33% threshold",
+      "of": "164f7754",
       "at": [
         "cannon:sections[1].componentsAside"
       ],
-      "t": "Estimation tout compris non établie : ~36% sans tarif > seuil de 33%"
+      "t": "Estimation tout compris non établie : 40% sans tarif > seuil de 33%"
     },
     {
       "text": "Required class trip · $400 (gr. 9)",
@@ -4204,18 +4244,10 @@
       "t": "Cours Winterm · $0–500"
     },
     {
-      "text": "AP exams · $98 per exam",
-      "of": "f18009e6",
-      "at": [
-        "cannon:sections[1].components[5].label"
-      ],
-      "t": "Examens AP · $98 par examen"
-    },
-    {
       "text": "Bus service · $1,990 round-trip",
       "of": "4fdba1b4",
       "at": [
-        "cannon:sections[1].components[6].label"
+        "cannon:sections[1].components[5].label"
       ],
       "t": "Service de bus · $1,990 aller-retour"
     },
@@ -4223,7 +4255,7 @@
       "text": "Annual dining figure · no rate",
       "of": "c92fdf9b",
       "at": [
-        "cannon:sections[1].components[7].label"
+        "cannon:sections[1].components[6].label"
       ],
       "t": "Montant annuel de restauration · aucun tarif"
     },
@@ -4231,7 +4263,7 @@
       "text": "Athletic team packs & equipment · no rate",
       "of": "35689cec",
       "at": [
-        "cannon:sections[1].components[8].label"
+        "cannon:sections[1].components[7].label"
       ],
       "t": "Kits d’équipe sportive et équipement · aucun tarif"
     },
@@ -4239,7 +4271,7 @@
       "text": "Arts supplies & instrument rental · no rate",
       "of": "b09384e7",
       "at": [
-        "cannon:sections[1].components[9].label"
+        "cannon:sections[1].components[8].label"
       ],
       "t": "Fournitures artistiques et location d’instruments · aucun tarif"
     },
@@ -4247,17 +4279,17 @@
       "text": "Tuition Refund Plan · no rate",
       "of": "4c9253b4",
       "at": [
-        "cannon:sections[1].components[10].label"
+        "cannon:sections[1].components[9].label"
       ],
       "t": "Tuition Refund Plan · aucun tarif"
     },
     {
-      "text": "A narrow miss: the estimate is built only where at least two-thirds of components can be priced. For the Lower School the question does not arise — the 2026–27 fee document lists cost categories with no dollar figures at all, though the 2024–25 edition did price them.",
-      "of": "bdcc3e99",
+      "text": "Four of the ten items have no published price. The estimate is built only where at least two-thirds can be priced, so none is shown. For the Lower School the question does not arise — the 2026–27 fee document lists cost categories with no dollar figures at all, though the 2024–25 edition did price them.",
+      "of": "08c03b9c",
       "at": [
         "cannon:sections[1].componentsNote"
       ],
-      "t": "Il s’en est fallu de peu : l’estimation n’est établie que lorsqu’au moins deux tiers des composantes peuvent être tarifées. Pour la Lower School la question ne se pose pas — le document de frais 2026–27 énumère des catégories de coûts sans aucun montant en dollars, alors que l’édition 2024–25 les tarifait."
+      "t": "Quatre des dix postes n’ont aucun tarif publié. L’estimation n’est établie que lorsqu’au moins deux tiers peuvent être tarifés : aucune n’est donc présentée. Pour la Lower School la question ne se pose pas — le document de frais 2026–27 énumère des catégories de coûts sans aucun montant en dollars, alors que l’édition 2024–25 les tarifait."
     },
     {
       "text": "Deposit, 2026–27",
@@ -4327,7 +4359,11 @@
       "text": "Not published",
       "of": "d945d814",
       "at": [
-        "cannon:sections[2].timeline[2].when"
+        "cannon:sections[2].timeline[2].when",
+        "covenant-day:sections[3].stats[1].value",
+        "carmel-christian:sections[3].stats[1].value",
+        "hickory-grove-christian:sections[2].stats[1].value",
+        "gaston-day:sections[3].stats[2].value"
       ],
       "t": "Non publié"
     },
@@ -4628,28 +4664,20 @@
       "t": "Combien coûtent les activités de la Lower School ? Le document de frais actuel les nomme sans les tarifer."
     },
     {
-      "text": "2026–27 school year · figures as of 15 Aug 2026",
-      "of": "47d9e49a",
+      "text": "2026–27 school year · figures as of 15 Aug 2026; aid fee and dates 22 Nov 2026",
+      "of": "ed0cf5be",
       "at": [
         "covenant-day:meta"
       ],
-      "t": "Année scolaire 2026–27 · chiffres au 15 août 2026"
+      "t": "Année scolaire 2026–27 · chiffres au 15 août 2026 ; frais et dates d’aide au 22 novembre 2026"
     },
     {
-      "text": "Two years are live at once.",
-      "of": "ab877c57",
-      "at": [
-        "covenant-day:framing[1].title"
-      ],
-      "t": "Deux années coexistent à la fois."
-    },
-    {
-      "text": "The website table shows 2026–27 while the linked payment-terms PDF shows 2025–26. Every figure here names its year; the report leads with 2026–27.",
-      "of": "6e7cbdf9",
+      "text": "Tuition and payment terms are for 2026–27. The 2025–26 terms supply last year’s rates only. The aid dates are from the 2026–27 cycle, which has closed.",
+      "of": "04bdfc9b",
       "at": [
         "covenant-day:framing[1].body"
       ],
-      "t": "Le tableau du site indique 2026–27 tandis que le PDF des conditions de paiement lié indique 2025–26. Chaque chiffre ici nomme son année ; le rapport privilégie 2026–27."
+      "t": "Les frais de scolarité et les conditions de paiement concernent 2026–27. Les conditions 2025–26 ne fournissent que les tarifs de l’an dernier. Les dates d’aide proviennent du cycle 2026–27, désormais clos."
     },
     {
       "text": "Tuition assistance while enrolled — not college aid. Not financial advice.",
@@ -4773,6 +4801,14 @@
       "t": "Uniforme (JK–8) / code vestimentaire du lycée"
     },
     {
+      "text": "FACTS aid application fee · $45",
+      "of": "c40316fa",
+      "at": [
+        "covenant-day:sections[1].components[7].label"
+      ],
+      "t": "Frais de demande d’aide FACTS · $45"
+    },
+    {
       "text": "The inclusions list does real work here: retreats, required field trips, lab and elective fees, and most athletic expenses sit inside tuition, so the priced add-ons are genuinely few. Grades 9–12 must supply a laptop meeting the school’s specs.",
       "of": "68dc28f7",
       "at": [
@@ -4868,6 +4904,38 @@
       "t": "Aucune aide pluriannuelle — les familles soumettent un nouveau dossier chaque année"
     },
     {
+      "text": "By Feb 10, 2026",
+      "of": "f08deabc",
+      "at": [
+        "covenant-day:sections[2].timeline[4].when"
+      ],
+      "t": "Au plus tard le 10 février 2026"
+    },
+    {
+      "text": "2026–27 cycle: new families who finish the aid application by this date get a decision with their offer letter. Current families contact the Business Office by this date for the half deposit, ahead of Feb 17 re-enrollment",
+      "of": "92230992",
+      "at": [
+        "covenant-day:sections[2].timeline[4].detail"
+      ],
+      "t": "Cycle 2026–27 : les nouvelles familles qui terminent la demande d’aide à cette date reçoivent une décision avec leur lettre d’offre. Les familles actuelles contactent le Business Office au plus tard à cette date pour le demi-acompte, en amont de la réinscription du 17 février"
+    },
+    {
+      "text": "By Mar 10, 2026",
+      "of": "a8481aff",
+      "at": [
+        "covenant-day:sections[2].timeline[5].when"
+      ],
+      "t": "Au plus tard le 10 mars 2026"
+    },
+    {
+      "text": "2026–27 cycle: current families send all tax documents by this date to be in the first round",
+      "of": "625318b5",
+      "at": [
+        "covenant-day:sections[2].timeline[5].detail"
+      ],
+      "t": "Cycle 2026–27 : les familles actuelles envoient tous leurs documents fiscaux au plus tard à cette date pour faire partie de la première vague"
+    },
+    {
       "text": "Platform & scope",
       "of": "736758b4",
       "at": [
@@ -4876,20 +4944,20 @@
       "t": "Plateforme et portée"
     },
     {
-      "text": "**FACTS** runs the confidential need assessment. Aid is need-based only, and only the party responsible for paying tuition may apply. Contact: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
-      "of": "23d6f76d",
+      "text": "**FACTS** runs the confidential need assessment and charges **$45** for the application. Aid is need-based only, and only the party responsible for paying tuition may apply. Contact: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
+      "of": "b50e1624",
       "at": [
         "covenant-day:sections[2].boxes[0].body"
       ],
-      "t": "**FACTS** gère l’évaluation confidentielle du besoin. L’aide est uniquement fondée sur le besoin, et seule la partie responsable du paiement des frais de scolarité peut faire la demande. Contact : Christen Marshall, Student Accounts Coordinator, 704-708-6102."
+      "t": "**FACTS** gère l’évaluation confidentielle du besoin et facture **$45** pour la demande. L’aide est uniquement fondée sur le besoin, et seule la partie responsable du paiement des frais de scolarité peut faire la demande. Contact : Christen Marshall, Student Accounts Coordinator, 704-708-6102."
     },
     {
-      "text": "No aid deadline date, no decision timeline, no appeals process, and no award-ceiling policy appears on the public record. The application fee for FACTS, if any, is also unstated.",
-      "of": "5f12ecc0",
+      "text": "No appeals process and no award-ceiling policy appears on the public record.",
+      "of": "292fb828",
       "at": [
         "covenant-day:sections[2].boxes[1].body"
       ],
-      "t": "Aucune date limite d’aide, aucun calendrier de décision, aucune procédure d’appel et aucune politique de plafond d’aide n’apparaît dans le domaine public. Les frais éventuels de dossier FACTS ne sont pas non plus précisés."
+      "t": "Aucune procédure d’appel et aucune politique de plafond d’aide n’apparaît dans le domaine public."
     },
     {
       "text": "Aid in Numbers",
@@ -4918,6 +4986,16 @@
       "t": "Ce que révèlent les chiffres"
     },
     {
+      "text": "No 990",
+      "of": "c846e9dc",
+      "at": [
+        "covenant-day:sections[3].stats[0].value",
+        "carmel-christian:sections[3].stats[0].value",
+        "hickory-grove-christian:sections[2].stats[0].value"
+      ],
+      "t": "Sans 990"
+    },
+    {
       "text": "church ministry — IRS-exempt from filing",
       "of": "fd45ab9c",
       "at": [
@@ -4928,13 +5006,13 @@
       "t": "ministère d’église — exempté de dépôt par l’IRS"
     },
     {
-      "text": "published aid totals, averages, or budgets",
-      "of": "e75ea3c1",
+      "text": "aid totals, averages, or budgets",
+      "of": "3838e82f",
       "at": [
         "covenant-day:sections[3].stats[1].label",
         "carmel-christian:sections[3].stats[1].label"
       ],
-      "t": "totaux d’aide, moyennes ou budgets publiés"
+      "t": "totaux d’aide, moyennes ou budgets"
     },
     {
       "text": "The school publishes no share of students on aid, no total awarded and no average award.",
@@ -5097,7 +5175,8 @@
       "text": "9×",
       "of": "eafe64d9",
       "at": [
-        "covenant-day:sections[5].plans[1].figure"
+        "covenant-day:sections[5].plans[1].figure",
+        "gaston-day:sections[5].plans[2].figure"
       ],
       "t": "9×"
     },
@@ -5209,12 +5288,20 @@
       "t": "tranche supérieure"
     },
     {
-      "text": "of published rates (website + terms PDF)",
-      "of": "236fb2d1",
+      "text": "2 yrs",
+      "of": "5f9eeef9",
+      "at": [
+        "covenant-day:sections[6].stats[2].value"
+      ],
+      "t": "2 ans"
+    },
+    {
+      "text": "of published rates (2025–26 and 2026–27 terms PDFs)",
+      "of": "88b5cf13",
       "at": [
         "covenant-day:sections[6].stats[2].label"
       ],
-      "t": "des tarifs publiés (site web + PDF des conditions)"
+      "t": "des tarifs publiés (PDF des conditions 2025–26 et 2026–27)"
     },
     {
       "text": "Questions the public record cannot answer",
@@ -5237,12 +5324,12 @@
       "t": "Quelle part des familles bénéficie d’une aide, et quelle est l’aide moyenne ?"
     },
     {
-      "text": "What is the aid application deadline, and when are decisions released relative to enrollment contracts?",
-      "of": "51da8062",
+      "text": "What are the 2027–28 aid deadlines and decision dates? The published packet covers 2026–27.",
+      "of": "debb7c91",
       "at": [
         "covenant-day:sections[6].questions[1]"
       ],
-      "t": "Quelle est la date limite du dossier d’aide, et quand les décisions sont-elles rendues par rapport aux contrats d’inscription ?"
+      "t": "Quelles sont les échéances d’aide et les dates de décision pour 2027–28 ? Le dossier publié couvre 2026–27."
     },
     {
       "text": "How does the mandatory NC Opportunity Scholarship application interact with CDS aid for families above the state income cap?",
@@ -5277,12 +5364,12 @@
       "t": "Année scolaire 2026–27 · chiffres au 22 juil. 2026"
     },
     {
-      "text": "The current-year table overwrites the previous one, so no rate history is recoverable. Undated figures are flagged, not guessed.",
-      "of": "b669af4d",
+      "text": "The current-year table overwrites the previous one. Archived copies carry rates back to 2022–23. Undated figures are flagged, not guessed.",
+      "of": "3fa52aab",
       "at": [
         "davidson-day:framing[1].body"
       ],
-      "t": "Le tableau de l’année en cours écrase le précédent, aucun historique des tarifs n’est donc récupérable. Les chiffres non datés sont signalés, non devinés."
+      "t": "Le tableau de l’année en cours écrase le précédent. Des copies archivées font remonter les tarifs jusqu’à 2022–23. Les chiffres non datés sont signalés, non devinés."
     },
     {
       "text": "Tuition by Division",
@@ -5637,12 +5724,12 @@
       "t": "NON PUBLIÉ — LE CALCUL DU PLAFOND D’AIDE"
     },
     {
-      "text": "The school states no award covers full tuition and that maximum-award families pay **$3,000 per year, per student** (2026–27). Against published tuition that implies ceilings of $19,590 (Early Childhood) to $23,910 (Upper School) — our arithmetic, not a school figure. No share of students on aid, total aid budget, average or median award is published at all.",
-      "of": "52948594",
+      "text": "The school states no award covers full tuition and that maximum-award families pay **$3,000 per year, per student** (2026–27). Against published tuition that implies ceilings of $19,590 (Early Childhood) to $23,910 (Upper School) — our arithmetic, not a school figure. The school’s two named scholarships state larger awards, so ask whether the $3,000 minimum applies to them. No share of students on aid, total aid budget, average or median award is published at all.",
+      "of": "b0bd45be",
       "at": [
         "davidson-day:sections[3].boxes[0].body"
       ],
-      "t": "L’école indique qu’aucune aide ne couvre la totalité des frais de scolarité et que les familles bénéficiant de l’aide maximale paient **$3,000 par an et par élève** (2026–27). Rapporté aux frais de scolarité publiés, cela implique des plafonds allant de $19,590 (Petite enfance) à $23,910 (Upper School) — notre calcul, et non un chiffre de l’école. Aucune proportion d’élèves aidés, aucun budget total d’aide, aucune aide moyenne ni médiane n’est publiée."
+      "t": "L’école indique qu’aucune aide ne couvre la totalité des frais de scolarité et que les familles bénéficiant de l’aide maximale paient **$3,000 par an et par élève** (2026–27). Rapporté aux frais de scolarité publiés, cela implique des plafonds allant de $19,590 (Petite enfance) à $23,910 (Upper School) — notre calcul, et non un chiffre de l’école. Les deux bourses nominatives de l’école annoncent des montants plus élevés : demandez donc si le minimum de $3,000 s’y applique. Aucune proportion d’élèves aidés, aucun budget total d’aide, aucune aide moyenne ni médiane n’est publiée."
     },
     {
       "text": "No sibling, military or clergy discount is published. No indexed tuition (a price set by family income) or sliding scale is published either. Employee parents have a separate enrollment process. But the public record does not show whether working at the school brings any tuition remission (reduced tuition for employees). How many scholarships are given each year, and what it takes to renew them beyond \"good standing,\" are also unpublished.",
@@ -5829,12 +5916,20 @@
       "t": "Les décisions d’admission sont-elles prises en tenant compte ou non de notre demande d’aide ?"
     },
     {
-      "text": "What have tuition rates been for each of the last five years?",
-      "of": "49eac663",
+      "text": "What tuition increase do you expect for next year?",
+      "of": "2ecb6c74",
       "at": [
         "davidson-day:sections[5].questions[7]"
       ],
-      "t": "Quels ont été les tarifs de scolarité pour chacune des cinq dernières années ?"
+      "t": "Quelle hausse des frais de scolarité prévoyez-vous pour l’an prochain ?"
+    },
+    {
+      "text": "Does the $3,000 minimum payment apply to Acclaim and Wolter scholars?",
+      "of": "e0bab2c3",
+      "at": [
+        "davidson-day:sections[5].questions[8]"
+      ],
+      "t": "Le paiement minimal de $3,000 s’applique-t-il aux boursiers Acclaim et Wolter ?"
     },
     {
       "text": "2026–27 school year · figures as of 16 Aug 2026",
@@ -6145,6 +6240,15 @@
       "t": "tranche supérieure (9e à 12e années), 2026–27"
     },
     {
+      "text": "1 yr",
+      "of": "238bfedf",
+      "at": [
+        "carmel-christian:sections[6].stats[1].value",
+        "hickory-grove-christian:sections[5].stats[1].value"
+      ],
+      "t": "1 an"
+    },
+    {
       "text": "of published rates — no history recovered",
       "of": "c6dabb05",
       "at": [
@@ -6195,12 +6299,12 @@
       "t": "Comment la NC Opportunity Scholarship interagit-elle avec l'aide de l'école pour les familles au-dessus de l'ancien plafond de revenus ?"
     },
     {
-      "text": "2026–27 tuition · figures as of 10 Nov 2026",
-      "of": "96df4afe",
+      "text": "2026–27 tuition · figures as of 10 Nov 2026; scholarships and policies 22 Nov 2026",
+      "of": "93dd396a",
       "at": [
         "hickory-grove-christian:meta"
       ],
-      "t": "Frais de scolarité 2026–27 · chiffres au 10 novembre 2026"
+      "t": "Frais de scolarité 2026–27 · chiffres au 10 novembre 2026 ; bourses et règles au 22 novembre 2026"
     },
     {
       "text": "TK–5 (Elementary)",
@@ -6299,12 +6403,20 @@
       "t": "Les sources publiques ne comportent aucun calendrier de décision, aucune procédure de recours et aucune politique de plafonnement des aides. Pour le plan de paiement FACTS, le nombre de versements et les éventuels frais de plan sont définis dans le portail. L’école indique qu’elle **n’accorde pas de remises automatiques**, par exemple pour les fratries ou les pasteurs."
     },
     {
-      "text": "published aid totals, averages, or rates",
-      "of": "6d167c1c",
+      "text": "aid totals, averages, or rates",
+      "of": "07159616",
       "at": [
         "hickory-grove-christian:sections[2].stats[1].label"
       ],
-      "t": "totaux, moyennes ou taux d’aide publiés"
+      "t": "totaux, moyennes ou taux d’aide"
+    },
+    {
+      "text": "990-exempt",
+      "of": "d5a34d5b",
+      "at": [
+        "hickory-grove-christian:sections[2].stats[2].value"
+      ],
+      "t": "Exempté de 990"
     },
     {
       "text": "no public financial disclosure to derive from",
@@ -6459,12 +6571,28 @@
       "t": "Les frais de scolarité sont « billed annually and divided into equal payments based on the plan you select », prélevés mensuellement via **FACTS**. Le nombre de mensualités et les éventuels frais de plan sont définis à l’intérieur du portail."
     },
     {
-      "text": "The **number of monthly installments** and any FACTS plan fee are not stated on the public pages. They are found inside the family's FACTS portal. No paid-in-full option beyond the 5% early-pay discount, and no late-payment or withdrawal terms, appear in the sources checked.",
-      "of": "19071d1e",
+      "text": "The **number of monthly installments** and any FACTS plan fee are not stated on the public pages. They are found inside the family's FACTS portal. No paid-in-full option beyond the 5% early-pay discount is published, and no late fee is named.",
+      "of": "8644ce5f",
       "at": [
         "hickory-grove-christian:sections[4].boxes[0].body"
       ],
-      "t": "Le **nombre de mensualités** et les éventuels frais de plan FACTS ne sont pas indiqués sur les pages publiques. Ils figurent à l’intérieur du portail FACTS de la famille. Aucune option de paiement intégral au-delà de la remise de 5% pour paiement anticipé, ni aucune condition de retard de paiement ou de retrait, n’apparaît dans les sources consultées."
+      "t": "Le **nombre de mensualités** et les éventuels frais de plan FACTS ne sont pas indiqués sur les pages publiques. Ils figurent à l’intérieur du portail FACTS de la famille. Aucune option de paiement intégral au-delà de la remise de 5% pour paiement anticipé n’est publiée, et aucuns frais de retard ne sont mentionnés."
+    },
+    {
+      "text": "Withdrawal and overdue accounts",
+      "of": "b853d459",
+      "at": [
+        "hickory-grove-christian:sections[4].boxes[1].title"
+      ],
+      "t": "Retrait et comptes en souffrance"
+    },
+    {
+      "text": "A family must give **written notice at least two weeks before withdrawing**. Without it, the child counts as enrolled for the whole school year. If a child is withdrawn over unpaid bills, the school holds grades and records until the account is paid. A child with an overdue balance at year-end cannot re-enroll.",
+      "of": "092f9e48",
+      "at": [
+        "hickory-grove-christian:sections[4].boxes[1].body"
+      ],
+      "t": "Une famille doit donner un **préavis écrit au moins deux semaines avant un retrait**. Sans cela, l’enfant est considéré comme inscrit pour toute l’année scolaire. Si un enfant est retiré en raison de factures impayées, l’école retient les notes et les dossiers jusqu’au règlement du compte. Un enfant dont le solde est en souffrance en fin d’année ne peut pas se réinscrire."
     },
     {
       "text": "top band (grades 9–12)",
@@ -6483,12 +6611,12 @@
       "t": "Quelle part des familles bénéficie de l’aide propre à l’école via FACTS, et quel est le montant moyen attribué ? (Aucun chiffre n’est publié, et l’église ne dépose aucun 990.)"
     },
     {
-      "text": "Are there other \"student services fees\" beyond the after-school childcare rate, and where can we see them before enrolling?",
-      "of": "231d2f30",
+      "text": "What do lunch, athletic and graduation fees cost? Learning Support lists the Educational Support Services fees.",
+      "of": "57ea2df2",
       "at": [
         "hickory-grove-christian:sections[5].questions[2]"
       ],
-      "t": "Existe-t-il d’autres « student services fees » en plus du tarif de la garde périscolaire, et où peut-on les consulter avant l’inscription ?"
+      "t": "Combien coûtent les frais de déjeuner, de sport et de remise des diplômes ? La rubrique Soutien à l’apprentissage indique les frais des Educational Support Services."
     },
     {
       "text": "How does the NCSEAA Opportunity Scholarship interact with the school's own FACTS Grant & Aid for a given family?",
@@ -6507,20 +6635,20 @@
       "t": "Existe-t-il une procédure de recours ou de réexamen en cours d’année en cas de changement de situation pour l’aide fondée sur le besoin ?"
     },
     {
-      "text": "2025–26 school year · figures as of 18 Aug 2026",
-      "of": "16bb1477",
+      "text": "2026–27 school year · figures as of 22 Nov 2026",
+      "of": "d9bef220",
       "at": [
         "gaston-day:meta"
       ],
-      "t": "Année scolaire 2025–26 · chiffres au 18 août 2026"
+      "t": "Année scolaire 2026–27 · chiffres au 22 novembre 2026"
     },
     {
-      "text": "Tuition and fees are billed separately.",
-      "of": "a1fd923f",
+      "text": "Tuition and fees are listed separately.",
+      "of": "a1bc3632",
       "at": [
         "gaston-day:framing[1].title"
       ],
-      "t": "Les frais de scolarité et les frais annexes sont facturés séparément."
+      "t": "Les frais de scolarité et les frais annexes sont indiqués séparément."
     },
     {
       "text": "Gaston Day publishes a tuition column, a fees column and a combined total. The all-in total is the like-for-like figure against other schools, and is what this report leads with.",
@@ -6531,12 +6659,12 @@
       "t": "Gaston Day publie une colonne de frais de scolarité, une colonne de frais annexes et un total combiné. Le total tout compris est le chiffre comparable à périmètre égal face aux autres écoles, et c’est celui que ce rapport met en avant."
     },
     {
-      "text": "Published all-in totals by grade band, 2025-26 — tuition plus fees",
-      "of": "ba5af6b3",
+      "text": "Published all-in totals by grade band, 2026–27 against 2025–26 — tuition plus fees",
+      "of": "d7050342",
       "at": [
         "gaston-day:sections[0].figureCaption"
       ],
-      "t": "Totaux tout compris publiés par tranche de niveau, 2025-26 — frais de scolarité plus frais annexes"
+      "t": "Totaux tout compris publiés par tranche de niveau, 2026–27 par rapport à 2025–26 — frais de scolarité plus frais annexes"
     },
     {
       "text": "Preschool/Pre-K half-day",
@@ -6579,20 +6707,20 @@
       "t": "9th–12th"
     },
     {
-      "text": "Five bands from half-day preschool to grade 12. The amounts above are the school’s own published totals; the underlying split at the top band is $20,215 tuition + $2,175 fees = $22,390. Fees scale with the band, from $900 at half-day preschool to $2,175 in the Upper School.",
-      "of": "c930c05f",
+      "text": "Five bands run from half-day preschool to grade 12. The amounts above are the school’s own published totals. The top band is $21,025 tuition + $2,285 fees = $23,310. Fees rise with the band, from $945 at half-day preschool to $2,285 in the Upper School.",
+      "of": "ef02c195",
       "at": [
         "gaston-day:sections[0].figureNote"
       ],
-      "t": "Cinq tranches, de la preschool en demi-journée à la 12e année. Les montants ci-dessus sont les totaux publiés par l’école elle-même ; la ventilation sous-jacente de la tranche supérieure est de $20,215 de frais de scolarité + $2,175 de frais annexes = $22,390. Les frais annexes croissent avec la tranche, de $900 en preschool demi-journée à $2,175 dans l’Upper School."
+      "t": "Cinq tranches vont de la preschool en demi-journée à la 12e année. Les montants ci-dessus sont les totaux publiés par l’école elle-même. La tranche supérieure est de $21,025 de frais de scolarité + $2,285 de frais annexes = $23,310. Les frais annexes croissent avec la tranche, de $945 en preschool demi-journée à $2,285 dans l’Upper School."
     },
     {
-      "text": "For 2026-27 the school publishes only a range — $20,300 to $23,310 depending on grade — with no per-grade schedule posted at the time of this research.",
-      "of": "cb558ce6",
+      "text": "Every band rose about 4% from 2025–26. The top band went from $22,390 to $23,310. The school says it will set 2027–28 tuition in January 2027.",
+      "of": "fe4e3d13",
       "at": [
         "gaston-day:sections[0].figureNote2"
       ],
-      "t": "Pour 2026-27, l’école ne publie qu’une fourchette — de $20,300 à $23,310 selon le niveau — sans barème par niveau mis en ligne au moment de cette recherche."
+      "t": "Chaque tranche a augmenté d’environ 4% par rapport à 2025–26. La tranche supérieure est passée de $22,390 à $23,310. L’école indique qu’elle fixera les frais de scolarité 2027–28 en janvier 2027."
     },
     {
       "text": "What sits outside the published total",
@@ -6627,36 +6755,36 @@
       "t": "Bus — par trajet · $18"
     },
     {
-      "text": "After school care, Lower School · $95/week or $30/day",
-      "of": "3f8263c0",
+      "text": "After school care, Lower School · $100/week or $30/day",
+      "of": "a13bf4d1",
       "at": [
         "gaston-day:sections[1].components[3].label"
       ],
-      "t": "Accueil périscolaire, Lower School · $95/semaine ou $30/jour"
+      "t": "Accueil périscolaire, Lower School · $100/semaine ou $30/jour"
     },
     {
-      "text": "After school care, Middle School · $55/week or $15/day",
-      "of": "00ad224d",
+      "text": "After school care, Middle School · $60/week or $15/day",
+      "of": "9f715671",
       "at": [
         "gaston-day:sections[1].components[4].label"
       ],
-      "t": "Accueil périscolaire, Middle School · $55/semaine ou $15/jour"
+      "t": "Accueil périscolaire, Middle School · $60/semaine ou $15/jour"
     },
     {
-      "text": "Extended Day drop-in fee · $25",
-      "of": "52212ded",
+      "text": "Extended Day drop-in fee · $25 ($120/week for half-day preschool)",
+      "of": "d1704058",
       "at": [
         "gaston-day:sections[1].components[5].label"
       ],
-      "t": "Frais d’accueil ponctuel Extended Day · $25"
+      "t": "Frais d’accueil ponctuel Extended Day · $25 ($120/semaine pour la preschool en demi-journée)"
     },
     {
-      "text": "Music lessons · $35 per lesson",
-      "of": "1bd323bd",
+      "text": "Music lessons · $35 per 30-minute lesson",
+      "of": "9935e4cf",
       "at": [
         "gaston-day:sections[1].components[6].label"
       ],
-      "t": "Cours de musique · $35 par cours"
+      "t": "Cours de musique · $35 par cours de 30 minutes"
     },
     {
       "text": "Summer camps · $140–$300/week, plus wrap-around care",
@@ -6699,20 +6827,36 @@
       "t": "Coûts de participation aux activités sportives"
     },
     {
-      "text": "Unusually, almost every add-on Gaston Day publishes has a price. Transport, aftercare, music lessons and summer camp are all priced in dollars on the fee schedule or the camp catalog. What the school does not publish is what tuition itself includes. So the school does not say whether technology, lab fees, retreats and field trips are part of the fees column.",
-      "of": "9a8eb96c",
+      "text": "Bus — PM shuttle, Aug 15 to Nov 15 · $600",
+      "of": "ad2fb123",
+      "at": [
+        "gaston-day:sections[1].components[12].label"
+      ],
+      "t": "Bus — navette de l’après-midi, du 15 août au 15 novembre · $600"
+    },
+    {
+      "text": "Student Services Program & Learning Academy",
+      "of": "92d87c06",
+      "at": [
+        "gaston-day:sections[1].components[13].label"
+      ],
+      "t": "Student Services Program et Learning Academy"
+    },
+    {
+      "text": "Most add-ons on this list have a price. Transport, aftercare, music lessons and summer camp are all priced in dollars on the fee schedule or the camp catalog. For Student Services and the Learning Academy, the schedule sends families to the school for details and fees. The school does not say whether lab fees, retreats and field trips are included in tuition or fees.",
+      "of": "21f265d0",
       "at": [
         "gaston-day:sections[1].componentsNote"
       ],
-      "t": "Fait inhabituel, presque tous les suppléments que Gaston Day publie sont chiffrés. Le transport, l’accueil périscolaire, les cours de musique et les camps d’été sont tous indiqués en dollars sur le barème ou dans le catalogue des camps. Ce que l’école ne publie pas, c’est ce que les frais de scolarité eux-mêmes comprennent. L’école ne précise donc pas si la technologie, les frais de laboratoire, les retraites et les sorties scolaires figurent dans la colonne des frais annexes."
+      "t": "La plupart des suppléments de cette liste sont chiffrés. Le transport, l’accueil périscolaire, les cours de musique et les camps d’été sont tous indiqués en dollars sur le barème ou dans le catalogue des camps. Pour les Student Services et la Learning Academy, le barème renvoie les familles vers l’école pour les détails et les tarifs. L’école ne précise pas si les frais de laboratoire, les retraites et les sorties scolaires sont compris dans les frais de scolarité ou les frais annexes."
     },
     {
-      "text": "The fees column is not itemized. A family sees \"$2,175 in fees\" at the Upper School band without being told what those fees buy.",
-      "of": "5db0ed6e",
+      "text": "The schedule says the fees include security, technology and textbooks. It does not split the $2,285 Upper School fee among them.",
+      "of": "a5afb8fc",
       "at": [
         "gaston-day:sections[1].componentsAside"
       ],
-      "t": "La colonne des frais annexes n’est pas détaillée. Une famille voit « $2,175 de frais annexes » pour la tranche Upper School sans qu’on lui dise à quoi ces frais correspondent."
+      "t": "Le barème indique que les frais annexes comprennent la sécurité, la technologie et les manuels. Il ne répartit pas entre eux les $2,285 de frais de l’Upper School."
     },
     {
       "text": "Step 1",
@@ -6844,6 +6988,14 @@
       "t": "des élèves bénéficient d’une aide aux frais de scolarité — chiffre de l’école elle-même"
     },
     {
+      "text": "up to 80%",
+      "of": "e88834fa",
+      "at": [
+        "gaston-day:sections[3].stats[1].value"
+      ],
+      "t": "jusqu’à 80%"
+    },
+    {
       "text": "of tuition — the published discount ceiling, K–12",
       "of": "279ddbc2",
       "at": [
@@ -6852,12 +7004,12 @@
       "t": "des frais de scolarité — le plafond de réduction publié, K–12"
     },
     {
-      "text": "published aid budget, total awarded, or average award",
-      "of": "6b6a30b5",
+      "text": "aid budget, total awarded, or average award",
+      "of": "9b39e0f3",
       "at": [
         "gaston-day:sections[3].stats[2].label"
       ],
-      "t": "budget d’aide publié, montant total accordé ou aide moyenne"
+      "t": "budget d’aide, montant total accordé ou aide moyenne"
     },
     {
       "text": "The 26% comes from the school’s own 2025-26 Academic Profile, where \"tuition assistance\" means need-based aid. At Gaston Day, need-based aid, merit awards and the NC Opportunity Scholarship are three separate channels.",
@@ -6989,12 +7141,12 @@
       "t": "Trois voies, et non une seule"
     },
     {
-      "text": "Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. A family may qualify for more than one. How the three routes affect each other is not published, so it is worth asking the school directly.",
-      "of": "b5dbbf94",
+      "text": "Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. Need-based aid uses an **Indexed Tuition** plan: the school charges a range of tuitions based on a family’s financial need. A family can get both aid and the Opportunity Scholarship. The school subtracts the state award from the cost, and what is left is the possible need. How the Kimbrell awards combine with the other two is not published.",
+      "of": "bf7bb402",
       "at": [
         "gaston-day:sections[4].boxes[0].body"
       ],
-      "t": "Gaston Day gère l’**aide financière** fondée sur les besoins, les **Merit Scholarships** et la **NC Opportunity Scholarship** comme des voies distinctes. Une famille peut être éligible à plusieurs d’entre elles. L’articulation entre ces trois voies n’est pas publiée : il vaut donc la peine de poser la question directement à l’école."
+      "t": "Gaston Day gère l’**aide financière** fondée sur les besoins, les **Merit Scholarships** et la **NC Opportunity Scholarship** comme des voies distinctes. L’aide fondée sur les besoins utilise un plan **Indexed Tuition** : l’école applique une gamme de frais de scolarité selon le besoin financier de la famille. Une famille peut obtenir à la fois une aide et l’Opportunity Scholarship. L’école soustrait la bourse de l’État du coût, et ce qui reste constitue le besoin possible. La manière dont les bourses Kimbrell se combinent avec les deux autres n’est pas publiée."
     },
     {
       "text": "No amount for the Kimbrell Family Scholarship, no deadlines for either Kimbrell award, no count of recipients, no renewal terms, and no sibling, military, clergy or employee discount.",
@@ -7013,84 +7165,132 @@
       "t": "Plans de paiement et conditions"
     },
     {
-      "text": "Several",
-      "of": "e8776b6f",
-      "at": [
-        "gaston-day:sections[5].plans[0].figure"
-      ],
-      "t": "Plusieurs"
-    },
-    {
-      "text": "Payment plans offered",
-      "of": "6dc18862",
+      "text": "Plan A: single payment",
+      "of": "6b4f47c9",
       "at": [
         "gaston-day:sections[5].plans[0].label"
       ],
-      "t": "Plans de paiement proposés"
+      "t": "Plan A : paiement unique"
     },
     {
-      "text": "The fee schedule states that \"Gaston Day offers a variety of payment plans in an effort to make our community more affordable and accessible\" — but names none of them, gives no installment counts, dates or fees.",
-      "of": "7e43452c",
+      "text": "Due July 1, 2026. After the deposit it is $19,150 for K–4, $21,150 for 5–8 and $22,160 for 9–12. Preschool and Pre-K pay $8,345 for half day or $10,540 for full day.",
+      "of": "c2c42fe9",
       "at": [
         "gaston-day:sections[5].plans[0].detail"
       ],
-      "t": "Le barème indique que \"Gaston Day offers a variety of payment plans in an effort to make our community more affordable and accessible\" — mais n’en nomme aucun et ne donne ni nombre de versements, ni dates, ni frais."
+      "t": "À régler le 1er juillet 2026. Après l’acompte, le montant est de $19,150 pour K–4, $21,150 pour 5–8 et $22,160 pour 9–12. La Preschool et la Pre-K paient $8,345 en demi-journée ou $10,540 en journée complète."
     },
     {
-      "text": "Deposit",
-      "of": "95f76a55",
-      "at": [
-        "gaston-day:sections[5].plans[1].figure"
-      ],
-      "t": "Acompte"
-    },
-    {
-      "text": "Assumed by every plan",
-      "of": "92b81c14",
+      "text": "Plan B: two payments",
+      "of": "9c165db3",
       "at": [
         "gaston-day:sections[5].plans[1].label"
       ],
-      "t": "Présupposé par chaque plan"
+      "t": "Plan B : deux paiements"
     },
     {
-      "text": "All payment plans \"assume tuition deposit and fees have been paid\" — so the deposit and the full fees column come first, whatever plan a family picks. The deposit amount is not published.",
-      "of": "a482eda7",
+      "text": "Due July 1 and December 1, 2026. Each payment is $10,054 for K–4, $11,104 for 5–8 and $11,634 for 9–12. For Preschool and Pre-K it is $4,382 for half day or $5,534 for full day.",
+      "of": "852d8fa7",
       "at": [
         "gaston-day:sections[5].plans[1].detail"
       ],
-      "t": "Tous les plans de paiement \"assume tuition deposit and fees have been paid\" — l’acompte et l’intégralité de la colonne des frais annexes viennent donc en premier, quel que soit le plan retenu par la famille. Le montant de l’acompte n’est pas publié."
+      "t": "À régler le 1er juillet et le 1er décembre 2026. Chaque paiement est de $10,054 pour K–4, $11,104 pour 5–8 et $11,634 pour 9–12. Pour la Preschool et la Pre-K, il est de $4,382 en demi-journée ou $5,534 en journée complète."
     },
     {
-      "text": "This is the thinnest section of Gaston Day’s public record. None of these appears anywhere on the public site: plan names · an installment schedule · plan fees · a card-processing surcharge · a deposit amount · a late-payment policy · withdrawal or refund terms · a tuition-insurance or refund-plan option. Many schools publish at least the number of installments.",
-      "of": "32f8d396",
+      "text": "Plan C: nine payments",
+      "of": "5eeef270",
+      "at": [
+        "gaston-day:sections[5].plans[2].label"
+      ],
+      "t": "Plan C : neuf paiements"
+    },
+    {
+      "text": "Monthly from May 1, 2026 to January 1, 2027. Each payment is $2,234 for K–4, $2,468 for 5–8 and $2,585 for 9–12. For Preschool and Pre-K it is $974 for half day or $1,230 for full day.",
+      "of": "39be219a",
+      "at": [
+        "gaston-day:sections[5].plans[2].detail"
+      ],
+      "t": "Chaque mois du 1er mai 2026 au 1er janvier 2027. Chaque paiement est de $2,234 pour K–4, $2,468 pour 5–8 et $2,585 pour 9–12. Pour la Preschool et la Pre-K, il est de $974 en demi-journée ou $1,230 en journée complète."
+    },
+    {
+      "text": "$1,150",
+      "of": "b3c310d8",
+      "at": [
+        "gaston-day:sections[5].plans[3].figure"
+      ],
+      "t": "$1,150"
+    },
+    {
+      "text": "Re-enrollment deposit, K–12",
+      "of": "bd20d2c0",
+      "at": [
+        "gaston-day:sections[5].plans[3].label"
+      ],
+      "t": "Acompte de réinscription, K–12"
+    },
+    {
+      "text": "For returning students who re-enrolled by February 13, 2026. After that it was $1,250. Preschool and Pre-K pay $800, or $900 if late. Every plan amount already takes the on-time deposit off.",
+      "of": "35fd6312",
+      "at": [
+        "gaston-day:sections[5].plans[3].detail"
+      ],
+      "t": "Pour les élèves actuels réinscrits au plus tard le 13 février 2026. Après cette date, il était de $1,250. La Preschool et la Pre-K paient $800, ou $900 en cas de retard. Le montant de chaque plan déduit déjà l’acompte versé à temps."
+    },
+    {
+      "text": "The schedule gives no late fee for missed tuition payments and no withdrawal terms. It does not say what the Tuition Refund Program covers. It also gives no deposit amount for a family new to the school.",
+      "of": "49cec10d",
       "at": [
         "gaston-day:sections[5].boxes[0].body"
       ],
-      "t": "C’est la section la plus mince du dossier public de Gaston Day. Aucun de ces éléments n’apparaît où que ce soit sur le site public : noms de plans · échéancier de versements · frais de plan · surcoût de traitement par carte · montant d’acompte · politique de retard de paiement · conditions de retrait ou de remboursement · offre d’assurance scolarité ou de plan de remboursement. Beaucoup d’écoles publient au moins le nombre de versements."
+      "t": "Le barème n’indique ni frais de retard pour les paiements de scolarité manqués, ni conditions de retrait. Il ne dit pas ce que couvre le Tuition Refund Program. Il ne donne pas non plus de montant d’acompte pour une famille nouvelle dans l’école."
     },
     {
-      "text": "top band all-in, 2025-26 (tuition $20,215 + fees $2,175)",
-      "of": "5e80ff5a",
+      "text": "What Plans B and C add",
+      "of": "e078839a",
+      "at": [
+        "gaston-day:sections[5].boxes[1].title"
+      ],
+      "t": "Ce qu’ajoutent les plans B et C"
+    },
+    {
+      "text": "Both plans require the **Tuition Refund Program** and add a payment surcharge. Each of the two charges is $479 for K–4, $529 for 5–8 and $554 for 9–12. For Preschool and Pre-K, each is $209 for half day or $264 for full day. On every plan, paying by card adds a **4% processing fee**. A returned payment costs **$100**.",
+      "of": "0b61c6d5",
+      "at": [
+        "gaston-day:sections[5].boxes[1].body"
+      ],
+      "t": "Les deux plans exigent le **Tuition Refund Program** et ajoutent un supplément de paiement. Chacun de ces deux frais est de $479 pour K–4, $529 pour 5–8 et $554 pour 9–12. Pour la Preschool et la Pre-K, chacun est de $209 en demi-journée ou $264 en journée complète. Avec tous les plans, payer par carte ajoute **4% de frais de traitement**. Un paiement rejeté coûte **$100**."
+    },
+    {
+      "text": "top band all-in, 2026–27 (tuition $21,025 + fees $2,285)",
+      "of": "9c551a04",
       "at": [
         "gaston-day:sections[6].stats[0].label"
       ],
-      "t": "tranche supérieure tout compris, 2025-26 (frais de scolarité $20,215 + frais annexes $2,175)"
+      "t": "tranche supérieure tout compris, 2026–27 (frais de scolarité $21,025 + frais annexes $2,285)"
     },
     {
-      "text": "the 2026-27 range, published without a per-grade table",
-      "of": "d0d20df5",
+      "text": "about the rise in every band from 2025–26",
+      "of": "c6dfac17",
       "at": [
         "gaston-day:sections[6].stats[1].label"
       ],
-      "t": "la fourchette 2026-27, publiée sans tableau par niveau"
+      "t": "environ de hausse dans chaque tranche par rapport à 2025–26"
     },
     {
-      "text": "of schedules retrievable (2024-25 and 2025-26 PDFs)",
-      "of": "b1467eaa",
+      "text": "3 yrs",
+      "of": "c2cb21da",
+      "at": [
+        "gaston-day:sections[6].stats[2].value"
+      ],
+      "t": "3 ans"
+    },
+    {
+      "text": "of fee schedules posted on the school’s site (2024–25 to 2026–27)",
+      "of": "9c0558fe",
       "at": [
         "gaston-day:sections[6].stats[2].label"
       ],
-      "t": "des barèmes récupérables (PDF 2024-25 et 2025-26)"
+      "t": "de barèmes publiés sur le site de l’école (de 2024–25 à 2026–27)"
     },
     {
       "text": "What is the total aid budget, the average award, and how many families receive aid?",
@@ -7101,36 +7301,36 @@
       "t": "Quel est le budget total de l’aide, le montant moyen des aides, et combien de familles en bénéficient ?"
     },
     {
-      "text": "What are the payment plans, how many installments, and what do they cost?",
-      "of": "152601ad",
+      "text": "What does the Tuition Refund Program cover, and what happens if a family withdraws or pays late?",
+      "of": "33675c06",
       "at": [
         "gaston-day:sections[6].questions[1]"
       ],
-      "t": "Quels sont les plans de paiement, combien de versements comportent-ils, et quel est leur coût ?"
+      "t": "Que couvre le Tuition Refund Program, et que se passe-t-il si une famille se retire ou paie en retard ?"
     },
     {
-      "text": "What is the enrollment deposit, and is it refundable or credited to tuition?",
-      "of": "0f0c40bf",
+      "text": "What deposit does a new family pay, and is it refundable?",
+      "of": "b80c560e",
       "at": [
         "gaston-day:sections[6].questions[2]"
       ],
-      "t": "Quel est le montant de l’acompte d’inscription, et est-il remboursable ou déduit des frais de scolarité ?"
+      "t": "Quel acompte une nouvelle famille verse-t-elle, et est-il remboursable ?"
     },
     {
-      "text": "What exactly do the fees buy — the $2,175 Upper School fees column is not itemized anywhere?",
-      "of": "2fc296f9",
+      "text": "Are lab fees, retreats and field trips included in tuition or fees?",
+      "of": "89f8f914",
       "at": [
         "gaston-day:sections[6].questions[3]"
       ],
-      "t": "À quoi correspondent exactement les frais annexes — la colonne de $2,175 de frais annexes de l’Upper School n’est détaillée nulle part ?"
+      "t": "Les frais de laboratoire, les retraites et les sorties scolaires sont-ils compris dans les frais de scolarité ou les frais annexes ?"
     },
     {
-      "text": "Do need-based aid, the Kimbrell awards and the NC Opportunity Scholarship stack, or offset each other?",
-      "of": "0d6b0ae3",
+      "text": "How do the Kimbrell awards combine with need-based aid and the NC Opportunity Scholarship?",
+      "of": "46712cbd",
       "at": [
         "gaston-day:sections[6].questions[4]"
       ],
-      "t": "L’aide fondée sur les besoins, les bourses Kimbrell et la NC Opportunity Scholarship se cumulent-elles, ou se compensent-elles ?"
+      "t": "Comment les bourses Kimbrell se combinent-elles avec l’aide fondée sur les besoins et la NC Opportunity Scholarship ?"
     },
     {
       "text": "What is the amount of the Kimbrell Family Scholarship, and when are both Kimbrell awards decided?",
@@ -7790,12 +7990,12 @@
       "t": "Montessori K"
     },
     {
-      "text": "The comparison is with **2024-25**, the last year the school's tuition page survives in the archive — 2025-26 was never captured — so each change covers **two years**, about 7% a year. Since 2024-25 the school has **folded its athletics, fine arts and technology fees into tuition**, so part of the rise replaces fees families once paid separately. The board's stated aim is to keep tuition \"**at or below the median of peer schools**\".",
-      "of": "52a70b21",
+      "text": "The comparison is with **2024-25**, the last year the school's tuition page survives in the archive — 2025-26 was never captured — so each change covers **two years**, about 7% a year. The school **folded its athletics, fine arts and technology fees into tuition** in 2024-25, so both years in this comparison include them. The board's stated aim is to keep tuition \"**at or below the median of peer schools**\".",
+      "of": "95159512",
       "at": [
         "charlotte-prep:sections[0].figureNote"
       ],
-      "t": "La comparaison porte sur **2024-25**, la dernière année pour laquelle la page des frais de scolarité de l’école subsiste dans les archives — 2025-26 n’a jamais été capturée — si bien que chaque variation couvre **deux ans**, soit environ 7% par an. Depuis 2024-25, l’école a **intégré ses frais de sport, d’arts et de technologie aux frais de scolarité**, de sorte qu’une partie de la hausse remplace des frais que les familles payaient auparavant séparément. L’objectif affiché du conseil d’administration est de maintenir les frais de scolarité \"**at or below the median of peer schools**\"."
+      "t": "La comparaison porte sur **2024-25**, la dernière année pour laquelle la page des frais de scolarité de l’école subsiste dans les archives — 2025-26 n’a jamais été capturée — si bien que chaque variation couvre **deux ans**, soit environ 7% par an. L’école a **intégré ses frais de sport, d’arts et de technologie aux frais de scolarité** en 2024-25, si bien que les deux années de cette comparaison les incluent. L’objectif affiché du conseil d’administration est de maintenir les frais de scolarité \"**at or below the median of peer schools**\"."
     },
     {
       "text": "A **3% discount** applies for younger siblings of current students.",
@@ -7862,12 +8062,12 @@
       "t": "Early School Extended Day — de $2,700 (TK) à $5,900 (Pre-Primary/Primary)"
     },
     {
-      "text": "Summer camp — $250 to $600 a week (2026)",
-      "of": "57df5553",
+      "text": "Summer camp — $175 to $600 a week (2026)",
+      "of": "0f7b43d7",
       "at": [
         "charlotte-prep:sections[1].components[7].label"
       ],
-      "t": "Camp d’été — de $250 à $600 par semaine (2026)"
+      "t": "Camp d’été — de $175 à $600 par semaine (2026)"
     },
     {
       "text": "Lunch through FLIK — billed separately",

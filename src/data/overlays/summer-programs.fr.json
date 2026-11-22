@@ -188,7 +188,6 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel",
         "gaston-day:catalog.categoryFilters[3].label",
         "gaston-day:catalog.camps[3].categoryLabel",
         "gaston-day:catalog.camps[8].categoryLabel",
@@ -328,7 +327,6 @@
         "providence-day:catalog.camps[23].dayLabel",
         "providence-day:catalog.camps[24].dayLabel",
         "providence-day:catalog.camps[25].dayLabel",
-        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[28].dayLabel",
         "providence-day:catalog.camps[29].dayLabel",
         "providence-day:catalog.camps[31].dayLabel",
@@ -341,7 +339,6 @@
         "providence-day:catalog.camps[38].dayLabel",
         "providence-day:catalog.camps[39].dayLabel",
         "providence-day:catalog.camps[40].dayLabel",
-        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[42].dayLabel",
         "providence-day:catalog.camps[43].dayLabel",
         "providence-day:catalog.camps[44].dayLabel",
@@ -363,7 +360,6 @@
         "providence-day:catalog.camps[61].dayLabel",
         "providence-day:catalog.camps[62].dayLabel",
         "providence-day:catalog.camps[63].dayLabel",
-        "providence-day:catalog.camps[64].dayLabel",
         "providence-day:catalog.camps[65].dayLabel",
         "providence-day:catalog.camps[66].dayLabel",
         "providence-day:catalog.camps[67].dayLabel",
@@ -524,7 +520,6 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel",
         "gaston-day:catalog.camps[0].dayLabel",
         "gaston-day:catalog.camps[1].dayLabel",
         "gaston-day:catalog.camps[2].dayLabel",
@@ -707,8 +702,10 @@
       "at": [
         "providence-day:catalog.camps[3].dayLabel",
         "providence-day:catalog.camps[14].dayLabel",
+        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[27].dayLabel",
         "providence-day:catalog.camps[30].dayLabel",
+        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[49].dayLabel"
       ]
     },
@@ -1733,8 +1730,15 @@
       ]
     },
     {
-      "t": "S4, S6, S7, S8, S9",
-      "of": "0d40c04e",
+      "t": "4 ou 5 jours",
+      "of": "4031e882",
+      "at": [
+        "providence-day:catalog.camps[64].dayLabel"
+      ]
+    },
+    {
+      "t": "S3, S4, S5, S6, S7, S8, S9",
+      "of": "71bb785c",
       "at": [
         "providence-day:catalog.camps[64].weeks"
       ]
@@ -3012,8 +3016,8 @@
       ]
     },
     {
-      "t": "Un stage artistique premium à la journée complète — l’un des deux seuls à ce tarif.",
-      "of": "d2a6f6ff",
+      "t": "Un stage artistique premium à la journée complète, le seul à ce tarif.",
+      "of": "d11cb67d",
       "at": [
         "charlotte-latin:catalog.camps[48].desc"
       ]
@@ -3343,8 +3347,8 @@
       ]
     },
     {
-      "t": "26 offres. La seule formule sans réduction pour inscription anticipée.",
-      "of": "b96cddcc",
+      "t": "26 offres, sans réduction pour inscription anticipée.",
+      "of": "41f28575",
       "at": [
         "charlotte-latin:costPlanner.tiers[1].detail"
       ]
@@ -3511,8 +3515,8 @@
       ]
     },
     {
-      "t": "**Super Care regroupe la garde du matin et du soir à $195.00/semaine** — la seule réduction publiée par l’école, soit $25.00 de moins que les options à $70.00 + $150.00 ci-dessus. La récupération tardive après 5:30pm est facturée $25.00 par tranche de 15 minutes.",
-      "of": "296008fb",
+      "t": "**Super Care regroupe la garde du matin et du soir à $195.00/semaine** — une formule groupée que l’école présente comme une réduction, soit $25.00 de moins que les options à $70.00 + $150.00 ci-dessus. La récupération tardive après 5:30pm est facturée $25.00 par tranche de 15 minutes.",
+      "of": "0fae47d6",
       "at": [
         "charlotte-latin:costPlanner.fees[1].label"
       ]
@@ -3988,8 +3992,8 @@
       ]
     },
     {
-      "t": "La plus large tranche de niveaux de tous les stages présentés ici — du niveau 1 au niveau 11 — et proposé dans cinq des six semaines.",
-      "of": "8434e236",
+      "t": "Niveaux 1 à 11, dans cinq des six semaines ; $160 en semaine de quatre jours.",
+      "of": "f2f2aa20",
       "at": [
         "charlotte-christian:catalog.camps[4].desc"
       ]
@@ -4246,8 +4250,8 @@
       ]
     },
     {
-      "t": "Le stage le moins cher du catalogue, en semaine de quatre jours.",
-      "of": "6890b7f6",
+      "t": "Un stage à $155 en semaine de quatre jours, le prix le plus bas du catalogue.",
+      "of": "7ef114ea",
       "at": [
         "charlotte-christian:catalog.camps[15].desc"
       ]
@@ -4299,8 +4303,8 @@
       ]
     },
     {
-      "t": "L’autre stage à $155 en semaine de quatre jours.",
-      "of": "e7bd1548",
+      "t": "Un autre stage à $155 en semaine de quatre jours.",
+      "of": "a2e4938b",
       "at": [
         "charlotte-christian:catalog.camps[16].desc"
       ]
@@ -4321,8 +4325,8 @@
       ]
     },
     {
-      "t": "Tumbling et cheerleading, sur la plus large tranche de tous les stages sportifs présentés ici.",
-      "of": "62002db4",
+      "t": "Tumbling et cheerleading, de JK au niveau 8.",
+      "of": "7fc068af",
       "at": [
         "charlotte-christian:catalog.camps[18].desc"
       ]
@@ -4383,8 +4387,8 @@
       ]
     },
     {
-      "t": "Stage de jeux actifs.",
-      "of": "4abf883d",
+      "t": "Stage de jeux actifs ; $160 en semaine de quatre jours.",
+      "of": "b75a32e2",
       "at": [
         "charlotte-christian:catalog.camps[22].desc"
       ]
@@ -4501,8 +4505,8 @@
       ]
     },
     {
-      "t": "Le stage le plus souvent reconduit du catalogue — proposé sur les six semaines.",
-      "of": "fce66e82",
+      "t": "Le stage le plus souvent reconduit du catalogue — proposé sur les six semaines ; $155 en semaine de quatre jours.",
+      "of": "809bf7b3",
       "at": [
         "charlotte-christian:catalog.camps[28].desc"
       ]
@@ -4567,8 +4571,8 @@
       ]
     },
     {
-      "t": "Démontage et reconstruction pour les plus jeunes créateurs.",
-      "of": "77d7b6ec",
+      "t": "Démontage et reconstruction pour les plus jeunes créateurs ; $160 en semaine de quatre jours.",
+      "of": "5849d3f9",
       "at": [
         "charlotte-christian:catalog.camps[33].desc"
       ]
@@ -5354,8 +5358,8 @@
       ]
     },
     {
-      "t": "Six semaines sont proposées. La semaine 3 est une semaine de quatre jours, à tarif réduit ; les formules ci-dessous correspondent aux tarifs sur cinq jours.",
-      "of": "37e889c5",
+      "t": "Six semaines sont proposées. La semaine 3 est une semaine de quatre jours, à tarif réduit. À l’exception des deux premières, les formules ci-dessous correspondent aux tarifs sur cinq jours.",
+      "of": "2bab70f9",
       "at": [
         "charlotte-christian:costPlanner.subhead"
       ]
@@ -7206,8 +7210,8 @@
       ]
     },
     {
-      "t": "Huit semaines sont proposées. Deux d’entre elles sont des semaines de quatre jours : les stages en demi-journée coûtent $230 lors de ces deux semaines, et les stages à la journée complète coûtent moins cher uniquement la semaine du 3 juillet. Les formules ci-dessous correspondent aux tarifs sur cinq jours.",
-      "of": "42573fdb",
+      "t": "Huit semaines sont proposées. Deux d’entre elles sont des semaines de quatre jours : les stages en demi-journée coûtent $230 lors de ces deux semaines, et les stages à la journée complète coûtent moins cher uniquement la semaine du 3 juillet. À l’exception de la première, les formules ci-dessous correspondent aux tarifs sur cinq jours.",
+      "of": "9f864e29",
       "at": [
         "charlotte-country-day:costPlanner.subhead"
       ]
@@ -7381,8 +7385,8 @@
       ]
     },
     {
-      "t": "**Si un participant en demi-journée déjeune sur le campus, une option déjeuner doit être souscrite** — elle n’est pas facultative. Deux pages de l’école se contredisent sur la question de savoir si le repas est compris à ce tarif ; voir le signalement ci-dessous.",
-      "of": "2b9b56df",
+      "t": "**Si un participant en demi-journée déjeune sur le campus, une option déjeuner doit être souscrite** — elle n’est pas facultative. La page des stages d’été indique que les participants apportent leur propre repas. La page Camp Ready indique à la fois que le déjeuner est fourni au réfectoire et que les participants doivent apporter un panier-repas.",
+      "of": "37c41680",
       "at": [
         "charlotte-country-day:costPlanner.fees[2].label"
       ]
@@ -7402,8 +7406,8 @@
       ]
     },
     {
-      "t": "Deux pages officielles se contredisent au sujet de la **Lunch Care à $30/semaine** : la page des stages d’été la présente comme une simple surveillance, les participants apportant leur propre repas, tandis que la page Camp Ready indique qu’un déjeuner au réfectoire est fourni à ces mêmes inscrits. Un appel téléphonique s’impose avant de retenir l’une ou l’autre version.",
-      "of": "d637cfff",
+      "t": "Deux pages officielles se contredisent au sujet de la **Lunch Care à $30/semaine** : la page des stages d’été la présente comme une simple surveillance, les participants apportant leur propre repas, tandis que la page Camp Ready indique qu’un déjeuner au réfectoire est fourni à ces mêmes inscrits. Camp Ready se contredit aussi : sa section Lunch Care indique que les participants doivent apporter leur propre panier-repas (relecture du 2026-11-22). Un appel téléphonique s’impose avant de retenir l’une ou l’autre version.",
+      "of": "4a2c4b34",
       "at": [
         "charlotte-country-day:costPlanner.flags[0].text"
       ]
@@ -7475,8 +7479,8 @@
         "cannon:catalog.camps[54].categoryLabel",
         "cannon:catalog.camps[55].categoryLabel",
         "covenant-day:catalog.categoryFilters[4].label",
-        "covenant-day:catalog.camps[18].categoryLabel",
-        "covenant-day:catalog.camps[19].categoryLabel"
+        "covenant-day:catalog.camps[17].categoryLabel",
+        "covenant-day:catalog.camps[18].categoryLabel"
       ]
     },
     {
@@ -7973,8 +7977,8 @@
       ]
     },
     {
-      "t": "Futurs JK et K",
-      "of": "1791a585",
+      "t": "Futurs JK et K / futurs 1st–4th",
+      "of": "088d863d",
       "at": [
         "cannon:catalog.camps[16].gradeLabel"
       ]
@@ -8884,8 +8888,8 @@
       ]
     },
     {
-      "t": "Un **acompte de 50%** réserve une place, le solde étant dû le 15 mai 2026 — la seule formule avec acompte parmi ces cinq programmes. Les acomptes sont intégralement remboursés avant le 15 mai ; **à partir de cette date, plus aucun remboursement n’est possible.** L’école indique clairement que « some popular camps fill very shortly after registration opens ».",
-      "of": "f19bf601",
+      "t": "Un **acompte de 50%** réserve une place, le solde étant dû le 15 mai 2026. Les acomptes sont intégralement remboursés avant le 15 mai ; **à partir de cette date, plus aucun remboursement n’est possible.** L’école indique clairement que « some popular camps fill very shortly after registration opens ».",
+      "of": "afad2a75",
       "at": [
         "cannon:costPlanner.aside.text"
       ]
@@ -8898,29 +8902,29 @@
       ]
     },
     {
-      "t": "Cannon ne publie **aucune réduction fratrie, aucune réduction multi-semaines et aucune aide financière pour les stages**. La seule réduction de la brochure 2026 est celle, structurelle, de la semaine 2 de quatre jours.",
-      "of": "d8366833",
+      "t": "Cannon ne publie **aucune réduction fratrie, aucune réduction multi-semaines et aucune aide financière pour les stages**. La seule réduction sur le prix des stages dans la brochure 2026 est celle de la semaine 2 de quatre jours. La garde a un tarif combiné de $90.",
+      "of": "70c66cd9",
       "at": [
         "cannon:costPlanner.flags[1].text"
       ]
     },
     {
-      "t": "20 stages nommés pour l’été 2026 sur huit semaines, 1er juin – 31 juillet — portés par Camp Lion et Cub Camp, les stages de jour traditionnels qui incluent la garde gratuitement.",
-      "of": "9dd79355",
+      "t": "19 stages nommés pour l’été 2026 sur huit semaines, 1er juin – 31 juillet — portés par Camp Lion et Cub Camp, les stages de jour traditionnels qui incluent la garde gratuitement.",
+      "of": "f5db8795",
       "at": [
         "covenant-day:catalog.headline"
       ]
     },
     {
-      "t": "L’inscription se fait sur le portail CampBrain avec des réductions pour inscription anticipée jusqu’au 27 février. L’école annonce « 29 camps » ; 20 sont dénombrables sur la page publique.",
-      "of": "8cc84630",
+      "t": "L’inscription se fait sur le portail CampBrain avec des réductions pour inscription anticipée jusqu’au 27 février. L’école annonce « 29 camps » ; 19 sont dénombrables sur la page publique.",
+      "of": "81f512f0",
       "at": [
         "covenant-day:catalog.subhead"
       ]
     },
     {
-      "t": "Les 20 stages nommés publiquement sont tous listés. **Les tarifs et horaires actuels par stage sont réservés au portail**. Les prix ci-dessous sont donc des estimations, issues de la fourchette actuelle d’un tiers ($170–$325/semaine) et du propre catalogue 2018 de l’école. Les tarifs de la garde en option indiqués sur le Cost Planner sont les chiffres actuels de l’école elle-même.",
-      "of": "07ba6457",
+      "t": "Les 19 stages nommés publiquement sont tous listés. **Les tarifs et horaires actuels par stage sont réservés au portail**. Les prix ci-dessous sont donc des estimations, issues de la fourchette actuelle d’un tiers ($170–$325/semaine) et du propre catalogue 2018 de l’école. Les tarifs de la garde en option indiqués sur le Cost Planner sont les chiffres actuels de l’école elle-même.",
+      "of": "219d303b",
       "at": [
         "covenant-day:catalog.intro"
       ]
@@ -8933,7 +8937,7 @@
         "covenant-day:catalog.camps[0].categoryLabel",
         "covenant-day:catalog.camps[1].categoryLabel",
         "covenant-day:catalog.camps[2].categoryLabel",
-        "covenant-day:catalog.camps[13].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -8941,10 +8945,10 @@
       "of": "e043e144",
       "at": [
         "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[13].categoryLabel",
         "covenant-day:catalog.camps[14].categoryLabel",
         "covenant-day:catalog.camps[15].categoryLabel",
-        "covenant-day:catalog.camps[16].categoryLabel",
-        "covenant-day:catalog.camps[17].categoryLabel"
+        "covenant-day:catalog.camps[16].categoryLabel"
       ]
     },
     {
@@ -9030,11 +9034,11 @@
         "covenant-day:catalog.camps[9].hours",
         "covenant-day:catalog.camps[10].hours",
         "covenant-day:catalog.camps[11].hours",
-        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[14].hours",
         "covenant-day:catalog.camps[15].hours",
         "covenant-day:catalog.camps[16].hours",
-        "covenant-day:catalog.camps[17].hours",
-        "covenant-day:catalog.camps[18].hours"
+        "covenant-day:catalog.camps[17].hours"
       ]
     },
     {
@@ -9086,9 +9090,9 @@
         "covenant-day:catalog.camps[5].gradeLabel",
         "covenant-day:catalog.camps[6].gradeLabel",
         "covenant-day:catalog.camps[10].gradeLabel",
-        "covenant-day:catalog.camps[13].gradeLabel",
-        "covenant-day:catalog.camps[17].gradeLabel",
-        "covenant-day:catalog.camps[18].gradeLabel"
+        "covenant-day:catalog.camps[12].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel"
       ]
     },
     {
@@ -9133,8 +9137,8 @@
       "of": "75e26068",
       "at": [
         "covenant-day:catalog.camps[9].gradeLabel",
-        "covenant-day:catalog.camps[15].gradeLabel",
-        "covenant-day:catalog.camps[16].gradeLabel"
+        "covenant-day:catalog.camps[14].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel"
       ]
     },
     {
@@ -9152,95 +9156,80 @@
       ]
     },
     {
-      "t": "Le programme du Webb Fitness Center, encadré par l’entraîneur de préparation physique de l’école — la même préparation estivale que suivent les athlètes varsity.",
-      "of": "2e9659bb",
-      "at": [
-        "covenant-day:catalog.camps[12].desc"
-      ]
-    },
-    {
-      "t": "Niv. 6–12",
-      "of": "5a57e078",
-      "at": [
-        "covenant-day:catalog.camps[12].gradeLabel"
-      ]
-    },
-    {
-      "t": "sessions",
-      "of": "130573cc",
-      "at": [
-        "covenant-day:catalog.camps[12].hours",
-        "covenant-day:catalog.camps[19].hours"
-      ]
-    },
-    {
       "t": "La semaine purement ludique.",
       "of": "9ee1d298",
       "at": [
-        "covenant-day:catalog.camps[13].desc"
+        "covenant-day:catalog.camps[12].desc"
       ]
     },
     {
       "t": "Inclut la garde du déjeuner gratuitement — le seul stage hors stage de jour à inclure la garde.",
       "of": "9710a44d",
       "at": [
-        "covenant-day:catalog.camps[14].desc"
+        "covenant-day:catalog.camps[13].desc"
       ]
     },
     {
       "t": "MS",
       "of": "35dfbd11",
       "at": [
-        "covenant-day:catalog.camps[14].gradeLabel"
+        "covenant-day:catalog.camps[13].gradeLabel"
       ]
     },
     {
       "t": "journée complète, déjeuner inclus",
       "of": "6cdcfa40",
       "at": [
-        "covenant-day:catalog.camps[14].hours"
+        "covenant-day:catalog.camps[13].hours"
       ]
     },
     {
       "t": "La semaine axée sur la scène pour les plus jeunes élèves.",
       "of": "e3899851",
       "at": [
-        "covenant-day:catalog.camps[15].desc"
+        "covenant-day:catalog.camps[14].desc"
       ]
     },
     {
       "t": "Aperçu du studio dans les salles d’arts visuels.",
       "of": "a6d6d5ee",
       "at": [
-        "covenant-day:catalog.camps[16].desc"
+        "covenant-day:catalog.camps[15].desc"
       ]
     },
     {
       "t": "La semaine culinaire.",
       "of": "15b6f079",
       "at": [
-        "covenant-day:catalog.camps[17].desc"
+        "covenant-day:catalog.camps[16].desc"
       ]
     },
     {
       "t": "La semaine STEM.",
       "of": "45e94be3",
       "at": [
-        "covenant-day:catalog.camps[18].desc"
+        "covenant-day:catalog.camps[17].desc"
       ]
     },
     {
       "t": "Une semaine de lycée organisée en fonction du calendrier du bureau d’orientation — un rare stage académique de lycée.",
       "of": "86fd317c",
       "at": [
-        "covenant-day:catalog.camps[19].desc"
+        "covenant-day:catalog.camps[18].desc"
       ]
     },
     {
       "t": "HS",
       "of": "6deb4e2c",
       "at": [
-        "covenant-day:catalog.camps[19].gradeLabel"
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "sessions",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[18].hours"
       ]
     },
     {
@@ -9251,8 +9240,8 @@
       ]
     },
     {
-      "t": "L’école annonce « **29 camps** » ; la page publique en dénombre 20 (une 21e entrée, « Splash Squad », est un poste du personnel). Les variantes par semaine et les stages réservés au portail expliquent probablement la différence.",
-      "of": "19b8adfa",
+      "t": "L’école annonce « **29 camps** » ; la page publique en dénombre 19, vérification dans un navigateur le 2026-11-22 (« Splash Squad » est un poste du personnel, et Strength and Conditioning n’y figure plus). Les variantes par semaine et les stages réservés au portail expliquent probablement la différence.",
+      "of": "ac56e695",
       "at": [
         "covenant-day:catalog.flags[1].text"
       ]
@@ -10242,15 +10231,15 @@
       ]
     },
     {
-      "t": "Les stages académiques se déroulent de 9 a.m. à 1 p.m. et les stages sportifs de 9 a.m. à 12 p.m. (le football en soirée), du lundi au jeudi, sur environ huit blocs hebdomadaires de fin mai à fin juillet.",
-      "of": "f7887b86",
+      "t": "Les stages académiques se déroulent de 9 a.m. à 1 p.m. et les stages sportifs de 9 a.m. à 12 p.m. (le football en soirée), du lundi au jeudi, sur six semaines, de fin mai à fin juillet.",
+      "of": "665a2061",
       "at": [
         "hickory-grove-christian:catalog.subhead"
       ]
     },
     {
-      "t": "Il s’agit du **catalogue Summer 2023, tiré de copies sauvegardées des anciennes pages de l’école**. C’est une liste représentative, et non la liste 2026 en vigueur, car HGCS masque désormais les noms et les tarifs des stages derrière la plateforme Brushfire. La page 2026 en ligne confirme huit fenêtres de session cohérentes avec les blocs hebdomadaires ci-dessous. **Les tarifs ne sont publiés nulle part** (uniquement dans Brushfire), aucun coût n’est donc affiché. Les niveaux indiqués sont ceux de la **rentrée**.",
-      "of": "e18209dc",
+      "t": "Il s’agit du **catalogue Summer 2023, tiré de copies sauvegardées des anciennes pages de l’école**. C’est une liste représentative, et non la liste actuelle. Le programme 2027 de l’école et les inscriptions ouvrent au printemps 2027. D’ici là, ses pages en ligne nomment des types de stages et des sports, sans dates pour chacun. **Les tarifs ne sont pas publiés**, aucun coût n’est donc affiché. Les niveaux indiqués sont ceux de la **rentrée**.",
+      "of": "55ca12a6",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ]
@@ -10533,15 +10522,15 @@
       ]
     },
     {
-      "t": "Il s’agit de la liste Summer 2023, tirée de copies sauvegardées des anciennes pages de l’école sur l’Internet Archive. Le catalogue 2026 en vigueur est masqué derrière la plateforme d’inscription Brushfire : les noms exacts des stages 2026 se trouvent donc dans cette plateforme. La page en ligne confirme toutefois huit fenêtres de session cohérentes avec ces blocs hebdomadaires.",
-      "of": "8b8fe821",
+      "t": "Il s’agit de la liste Summer 2023, tirée de copies sauvegardées des anciennes pages de l’école sur l’Internet Archive. L’école indique que ses stages 2027 arrivent bientôt, avec le programme complet au printemps 2027. Ses pages en ligne ne nomment que des types de stages et des sports : les stages actuels peuvent donc différer.",
+      "of": "ee483d54",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ]
     },
     {
-      "t": "Aucun tarif par stage n’est publié sur une page en ligne ou archivée. Les prix n’existent qu’à l’intérieur du tunnel de paiement Brushfire. Cette page n’a donc pas de Cost Planner pour ces stages, et les montants du coût de l’été indiquent N/A. Il n’existe pas non plus de garde d’été en complément. Les stages ne durent qu’une demi-journée, et le programme périscolaire est fermé l’été.",
-      "of": "0ce646d3",
+      "t": "Aucun tarif par stage n’est publié sur une page en ligne ou archivée. Cette page n’a donc pas de Cost Planner pour ces stages, et les montants du coût de l’été indiquent N/A. Il n’existe pas non plus de garde d’été en complément. Les stages ne durent qu’une demi-journée, et le programme périscolaire est fermé l’été.",
+      "of": "f27ebc58",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ]
@@ -11806,8 +11795,8 @@
       ]
     },
     {
-      "t": "Un stage de cyclisme en demi-journée pour les tranches supérieures du Middle School.",
-      "of": "5162a0a5",
+      "t": "Un stage de cyclisme en demi-journée pour les futurs élèves de la 4e à la 8e année.",
+      "of": "aa48d562",
       "at": [
         "trinity-episcopal:catalog.camps[11].desc"
       ]
@@ -11924,8 +11913,8 @@
       ]
     },
     {
-      "t": "Initiation au tennis en demi-journée, couvrant toute la tranche du Middle School.",
-      "of": "15fdee7c",
+      "t": "Initiation au tennis en demi-journée pour les futurs élèves de la 3e à la 8e année.",
+      "of": "b93ecc35",
       "at": [
         "trinity-episcopal:catalog.camps[20].desc"
       ]
@@ -11969,8 +11958,8 @@
       ]
     },
     {
-      "t": "Un stage d'illustration numérique en journée complète pour la tranche du Middle School.",
-      "of": "ecea0045",
+      "t": "Un stage d'illustration numérique en journée complète pour les futurs élèves de la 5e à la 8e année.",
+      "of": "1816fa4a",
       "at": [
         "trinity-episcopal:catalog.camps[25].desc"
       ]
@@ -12079,8 +12068,8 @@
       ]
     },
     {
-      "t": "Un stage de leadership pour le Middle School, et le second des deux stages réservés à un seul genre.",
-      "of": "9d96c806",
+      "t": "Un stage de leadership pour les futurs élèves de la 5e à la 8e année, et le second des deux stages réservés à un seul genre.",
+      "of": "faa7b192",
       "at": [
         "trinity-episcopal:catalog.camps[35].desc"
       ]
@@ -12650,8 +12639,8 @@
       ]
     },
     {
-      "t": "Acompte non remboursable, par stage",
-      "of": "97136d00",
+      "t": "Acompte non remboursable, par stage, déduit du prix du stage",
+      "of": "5f842f96",
       "at": [
         "trinity-episcopal:costPlanner.fees[0].label"
       ]
@@ -12713,8 +12702,8 @@
       ]
     },
     {
-      "t": "L’été 2026 a duré sept semaines, du 8 juin au 31 juillet, pour les campeurs de l’Early School à la 8e année — un camp de jour traditionnel plus un camp spécialisé ou sportif presque chaque semaine.",
-      "of": "ad1bd718",
+      "t": "L’été 2026 a duré sept semaines, du 8 juin au 31 juillet, pour les campeurs de l’Early School à la 8e année. Chaque semaine proposait un camp de jour traditionnel, un camp spécialisé et un camp sportif.",
+      "of": "5443ba51",
       "at": [
         "charlotte-prep:catalog.headline"
       ]

@@ -357,23 +357,15 @@ const CARMEL_CHRISTIAN: ClubClusters = {
 // PrivateSchoolReview roster, and the school's own pages name no academic or
 // competitive club, so the card is omitted rather than shipped empty (user, 2026-11-10: school sources only for every club list; plan plainclubs).
 
-// ── Gaston Day ── school-named only (user ruling, 2026-11-10). The two
-// flagship results are both in the school's own Academic Profiles: iGEM awards
-// over more than a decade (2023-24) and a TSA VEX Nationals qualification in the
-// club's first year (2025-26). The third-party "competition clubs" row and the
-// wiki-only iGEM detail were removed in plan thespianname.
+// ── Gaston Day ── school-named only (user ruling, 2026-11-10). The flagship
+// result is in the school's own Academic Profile: a TSA VEX Nationals
+// qualification in the club's first year (2025-26). The third-party "competition
+// clubs" row was removed in plan thespianname, and the iGEM row in plan
+// consistency4 (no proof the team is still active).
 const GASTON_DAY: ClubClusters = {
-  verdict: 'iGEM awards over more than a decade and a first-year VEX Nationals qualification anchor what the school itself names.',
+  verdict: 'A first-year VEX Nationals qualification anchors what the school itself names.',
   verdictHint: 'Open any row for the full research note and its source.',
   rows: [
-    {
-      name: 'iGEM Synthetic Biology',
-      oneLiner: 'Silver, Gold and Bronze awards over more than a decade',
-      evidence: 'verified',
-      evidenceLabel: 'Verified — event',
-      note: 'The flagship. iGEM (International Genetically Engineered Machine) is a synthetic-biology research competition. The school says its research teams "previously competed in the iGEM competition for over a decade and won various Silver, Gold and Bronze awards." It names no years or projects, and students can now do independent research through a year-long Research Methods elective.',
-      source: 'gastonday.org — Academic Profile 2023-2024 (Research Methods)',
-    },
     {
       name: 'VEX Robotics',
       oneLiner: 'Qualified for TSA VEX Nationals in 2023 — its first year of competing',

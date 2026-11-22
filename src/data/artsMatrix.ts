@@ -140,7 +140,7 @@ export const ARTS_MATRIX: ArtsTable = {
     sculpture: { US: '2D / 3D design' },
     generalMusic: { LS: 'General Music JK–4' },
     band: { LS: 'Introduction to Choir and Band in grade 5', MS: 'MS Band', US: 'Symphonic Band' },
-    choir: { LS: 'CDS Children’s Choir, grades 3–5', MS: 'MS Choir', US: 'HS Choir' },
+    choir: { LS: 'CDS Children’s Choir: grades 3–5 on the music page', MS: 'MS Choir', US: 'HS Choir' },
     aCappella: { US: 'HS A Cappella' },
     worshipBand: { MS: 'MS Worship Band', US: 'HS Worship Band' },
     plays: { MS: 'Drama for grades 6–8', US: 'Theater I–II' },
@@ -182,15 +182,16 @@ export const ARTS_MATRIX: ArtsTable = {
     graphicDesign: { MS: { course: 'Graphic Design' } },
     fiberFashion: { MS: { course: 'Sewing' }, US: { course: 'Fiber Crafts I' } },
     // Refreshed 2026-11-10 against the redesigned live site (plan plainclubs): the
-    // MS choir, the Jazz Band and "three productions" are gone from the school's
-    // pages and its 2026–27 course catalog, so their cites are gone too.
+    // Jazz Band is gone from the school's pages and its 2026–27 course catalog, so its
+    // cite is gone too. The school's two arts pages count productions differently (HG-T6). MS Choir is off the
+    // Performing Arts page but in the MS catalog, so it is cited from there (HG-T7).
     worshipBand: { MS: { course: 'Praise Team' }, US: "'Chapel Band'" },
     dance: { MS: { course: 'Dance' } },
     visualArt: { LS: 'Visual art: sketching and drawing first', MS: 'Visual arts: Bible Sketch (6th)', US: 'Art I–IV and AP 2D Studio Art' },
     generalMusic: { LS: 'Music class, plus an Elementary Choir' },
     band: { MS: 'Band (6th-grade beginners', US: 'Concert Band' },
-    choir: { LS: 'Elementary Choir', US: "'High School Choir'" },
-    plays: { MS: 'Theatre, Musical Theatre and Beginning Dance', US: 'Two productions a year, a fall show and a spring musical' },
+    choir: { LS: 'Elementary Choir', MS: { course: 'Choir' }, US: "'High School Choir'" },
+    plays: { MS: 'Theatre, Musical Theatre and Beginning Dance', US: 'Drama students stage a fall show each year' },
     musicals: { MS: 'Theatre, Musical Theatre and Beginning Dance', US: 'Spring musical' },
     technicalTheatre: { US: 'Technical Theatre & Management' },
   },
@@ -211,7 +212,7 @@ export const ARTS_MATRIX: ArtsTable = {
   },
   'charlotte-catholic': {
     visualArt: { US: { course: 'Art I' } },
-    musicals: { US: 'Fiddler on the Roof placed a finalist in every one of the five individual performance categories' },
+    musicals: { US: 'Fiddler on the Roof placed a finalist in each of the five individual performance categories' },
     fiberFashion: { US: { course: 'Costume Design and Production' } },
     drawingPainting: { US: 'Drawing & painting' },
     ceramics: { US: "'Ceramics'" },

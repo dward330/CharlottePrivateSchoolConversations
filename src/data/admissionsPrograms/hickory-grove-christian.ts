@@ -917,8 +917,8 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           cells: {
             tkk5: 'Birth certificate · immunization record · Information form',
             es: 'Report cards, at least two years · any IEP or 504',
-            ms: 'Transcript · two years of report cards · standardized scores · Student Questionnaire',
-            hs: 'Transcript · two years of report cards · standardized scores · Student Questionnaire',
+            ms: 'Transcript · two years of report cards · standardized scores · Student Questionnaire · any IEP, 504 or testing',
+            hs: 'Transcript · two years of report cards · standardized scores · Student Questionnaire · any IEP, 504 or testing',
             intl: 'Transcript and two years of report cards, translated into English · passport and birth certificate copies',
           },
         },
@@ -973,7 +973,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           },
         },
         {
-          label: 'Constant in every band',
+          label: 'Constant in every domestic band',
           cells: {
             all: 'A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application · a non-refundable $300 application fee through May 31, 2027 ($550 from June 1, 2027), not applied toward tuition · testing set up only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and depends on space in the grade · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission',
           },

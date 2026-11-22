@@ -23,7 +23,7 @@
 // different cycles over time, every figure here is anchored to the live pages
 // as retrieved on the dates in the research file.
 //
-// ⚠️ NOTIFICATION DAYS PUBLISHED; NO CONTRACT DATE (updated 2026-11-10, plan
+// ⚠️ NOTIFICATION DAYS PUBLISHED; NO CONTRACT DUE DATE (updated 2026-11-10, plan
 // latinnotify). The Application Process page's "Important Admissions and
 // Financial Aid Dates" block reads "February 26: TK and K notification day; TK
 // and K financial award decisions communicated" and "April 9: Grades 1-11
@@ -32,7 +32,7 @@
 // 2: TK and K applications due" is the page's "January 2, 2027 - Application
 // due"), and both days match the other CAIS schools' 2027 notification dates,
 // so the card ships them as Feb 26, 2027 and Apr 9, 2027. GRADE 12 IS NOT NAMED
-// — the Upper School band says so. NO ENROLLMENT CONTRACT DATE is published.
+// — the Upper School band says so. NO ENROLLMENT CONTRACT DUE DATE is published.
 //
 // HISTORY: on 2026-08-31 the absence of any decision date was "the defining
 // structural fact" of this card, and it carried a rule — "do not add a
@@ -300,7 +300,7 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Watch for your notification day',
-            detail: 'Admission and financial aid decisions come that day. No contract date is published; confirm it with admissions.',
+            detail: 'Admission and financial aid decisions come that day. No contract due date is published; confirm it with admissions.',
             due: 'Feb 26, 2027',
           },
         ],
@@ -405,7 +405,7 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Watch for your notification day',
-            detail: 'Admission and financial aid decisions come that day. No contract date is published; confirm it with admissions.',
+            detail: 'Admission and financial aid decisions come that day. No contract due date is published; confirm it with admissions.',
             due: 'Apr 9, 2027',
           },
         ],
@@ -518,7 +518,7 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Watch for your notification day',
-            detail: 'Admission and financial aid decisions come that day. No contract date is published; confirm it with admissions.',
+            detail: 'Admission and financial aid decisions come that day. No contract due date is published; confirm it with admissions.',
             due: 'Apr 9, 2027',
           },
         ],
@@ -632,7 +632,7 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Watch for your notification day',
-            detail: 'Grades 9–11. Admission and financial aid decisions come that day. Nothing is published for Grade 12 or for the contract; ask admissions.',
+            detail: 'Grades 9–11. Admission and financial aid decisions come that day. Nothing is published for Grade 12, and no contract due date is published; ask admissions.',
             due: 'Apr 9, 2027',
           },
         ],
@@ -706,10 +706,10 @@ export const charlotteLatin: AdmissionsProgram = {
         {
           label: 'Decision and contract',
           cells: {
-            tkk: 'Feb 26, 2027 · no contract date published',
-            ls: 'Apr 9, 2027 · no contract date published',
-            ms: 'Apr 9, 2027 · no contract date published',
-            us: 'Apr 9, 2027 (Gr 9–11) · nothing published for Gr 12 · no contract date published',
+            tkk: 'Feb 26, 2027 · no contract due date published',
+            ls: 'Apr 9, 2027 · no contract due date published',
+            ms: 'Apr 9, 2027 · no contract due date published',
+            us: 'Apr 9, 2027 (Gr 9–11) · nothing published for Gr 12 · no contract due date published',
           },
         },
         {
@@ -763,7 +763,7 @@ export const charlotteLatin: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages. Some items, such as the enrollment contract date, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.',
+        'Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages. Some items, such as the enrollment contract due date, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.',
     },
 
     sources: [

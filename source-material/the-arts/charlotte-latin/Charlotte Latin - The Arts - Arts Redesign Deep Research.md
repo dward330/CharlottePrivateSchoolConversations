@@ -250,8 +250,8 @@ Sources:
 is the marquee individual award in the region's high-school musical theatre program, and Latin
 also took Best Featured Performer the same night for the same show. That is a genuine peak.
 But the trajectory since is modest: one stage-manager nomination in 2025 (a craft category,
-not performance) and **zero nominations in 2026** despite mounting *Cabaret*. Latin competes
-every year against a 59-school field; it is a real participant, not a dominant one. If the
+not performance) and **zero nominations in 2026** despite mounting *Cabaret*, in that
+year's 59-school field. Latin is a real participant, not a dominant one. If the
 card shows a ledger, showing all four years including the 2026 shutout is the accurate
 presentation — cherry-picking 2022 would overstate the program's current standing.
 
@@ -502,7 +502,7 @@ list with Gold Key / Silver Key / Honorable Mention counts by year.
 
 1. **A real Blumey win at the top of the region's marquee category.** [name withheld] took
    **Best Actress at the 2022 Blumeys** for *Bright Star*, and [name withheld] took **Best
-   Featured Performer** the same night. In a 59-school regional field, a Best Actress win is
+   Featured Performer** the same night. A Best Actress win is
    the single most competitive individual honor available, and Latin has one.
    https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announced-the-9th-annual-blumey-awards-winners
 
@@ -820,3 +820,41 @@ Fetched 2026-11-20 with curl (HTTP 200): https://www.charlottelatin.org/the-arts
 - The school's division pages, fetched the same day: Lower School page title "Lower School | TK-5"
   (https://www.charlottelatin.org/academics/lower-school); Middle School is "grades six, seven, and
   eight" (https://www.charlottelatin.org/academics/middle-school).
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22, each HTTP 200.
+
+- https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announced-the-9th-annual-blumey-awards-winners
+  (2022): "All who participated from the 41 schools this year". Latin won Best Actress and is in the
+  list of competing schools.
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (2026): "a pool of students
+  representing 59 area schools". The 59-school field is 2026's, not 2022's.
+- https://www.charlottelatin.org/student-life/student-clubs/clubs: "Acapella Club: To have fun
+  informally exploring this style of music. No previous experience required."
+- https://www.charlottelatin.org/the-arts/performing: "Band (Grades 5-12)", "Orchestra (Grades 5-12)",
+  "Concert Choir (Grades 5-12)".
+- https://www.charlottelatin.org/academics/upper-school/course-offerings: "Music Theory AP".
+- https://www.charlottelatin.org/the-arts/visual: the Scholastic image file names that carry a year
+  all carry 2023. The Gold Key file carries a class year (co28) and no award year.
+### Re-verification 2026-11-22 (plan consistency4, implement)
+- https://www.charlottelatin.org/academics/upper-school/course-offerings (200): the arts courses
+  are Acting, Film Acting, Stagecraft I and II, Advanced Design, After-School Theater and Stagecraft,
+  Band, Concert Choir, Orchestra, Music Theory I, Music Theory AP, Art Studio I–IV and Photography.
+  Music Theory AP is the only one marked AP.
+- https://www.charlottelatin.org/the-arts/performing (200) still lists Band, Orchestra and Concert
+  Choir, each "Grades 5-12".
+- Blumenthal's site was not requested in this pass. The 2022 field size is not used: the wrong
+  "59-school" wording was removed from the 2022 statements.
+
+### Re-verification 2026-11-22 (plan consistency4, implement, Blumey lists)
+
+Read by the parent from copies downloaded from blumenthalarts.org earlier on 2026-11-22
+(HTTP 200). The site later refused a request and was not asked again. Student names are
+left out on purpose.
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (final nominees, every category)
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+
+2026: five finalists and no nomination. 2025: five finalists beside the stage-manager nomination.

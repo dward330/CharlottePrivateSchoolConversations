@@ -89,3 +89,9 @@ Per-column sourcing (verbatim quotes from the retrieved snapshots):
 | Grades 9–12 | +3.97% | +6.50% | +5.51% | +4.74% | +4.50% |
 
 These percentages are worked out from the tuition figures above, which the school publishes. Note the unusually large 2022–23 → 2023–24 jump in the upper three bands.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1769013407/cannonschoolorg/b5mo6ysxt5kn7i3xfxi4/AllSchool26-27Non-TuitionFeesExpenses.pdf (HTTP 200): the 9th Grade block lists only "Freshmen Class Trip $400", "Winterm course (based on student selection) $0-500" and "Student Books for courses $300-$500", plus the 9-12 device "$600-1,200". "Advanced Placement Exam Fee" appears under 10th, 11th and 12th Grade only. Dining, team packs, art supplies, the After School Program and all Lower School items are named with no amount.

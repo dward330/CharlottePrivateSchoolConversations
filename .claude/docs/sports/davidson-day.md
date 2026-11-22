@@ -727,6 +727,21 @@ chips from the same list: the three split middle-school pairs (5th/6th and 7th/8
 volleyball, boys' basketball and girls' basketball) are one MS chip each (−3), and the single
 "Varsity/JV Girls Basketball" line is two chips (+1).
 
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+https://www.davidsonday.org/athletics/patriot-teams (HTTP 200, 2026-11-22) still lists 35 team lines and prints
+"35 teams in 13 sports", "90%" and "37 team state championships". The 247Sports profiles for Cody Peck and Will
+Stevens returned a script-only page, and the On3 article on Stevens returned HTTP 403, so the recruit rankings and
+star ratings were not re-verified.
+
+### Re-verification 2026-11-22 (plan consistency4, implement): DD-T4
+
+- Fixed from "247Sports Recruiting Rankings.md" (captured 2026-10-26; those classes are final), on
+ the user's word. Not re-fetched.
+- Cody Peck: 82 is 247Sports' own national rank, 120 is its Composite. Isaiah Denis: No. 1 in NC in
+ 247Sports' own ranking. Will Stevens: three stars at 247Sports; the fourth star and "No. 1 in NC"
+ are On3's, from the cited commitment article.
+
 
 ---
 

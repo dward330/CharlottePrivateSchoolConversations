@@ -10,13 +10,13 @@
 // matters, because it changed the story in three ways:
 //
 //  1. The school's "31+ Blumey nominations" headline is only defensible as a
-//     cumulative multi-year total that counts finalist placements; clean
-//     category nominations across 2022–25 come to ~24. It is not a season
+//     cumulative multi-year total that counts finalist placements. The lists
+//     on file do not rebuild it (plan consistency4). It is not a season
 //     figure and not a win count, so the card never repeats "31+" unqualified.
 //  2. Verified WINS are two, both in 2022 (Best Choreography, Best Direction).
 //     No win was located for 2023, 2024, 2025 or 2026.
-//  3. The trend is clearly downward — ~9 nominations (2023) → ~9 (2024) → 5,
-//     all individual-performance (2025) → ZERO (2026, in a 59-school field).
+//  3. Nominations fell: several in 2023, five in 2024, none in 2026 (59-school
+//     field). Five finalist places each year 2023–26 (plan consistency4, X2).
 //
 // Several baseline claims did NOT survive checking and are therefore absent
 // here rather than asserted: the Middle School Chamber Orchestra's state
@@ -119,7 +119,7 @@ export const charlotteCountryDay: ArtsProgram = {
     headline:
       'Two Blumey wins in 2022 including Best Direction, back-to-back NCTC state championships, and a director named North Carolina’s best K-12 theatre educator.',
     subhead:
-      'But the recent Blumey trend runs the other way: roughly nine nominations in 2023 and 2024, five in 2025, and none at all in 2026 from a 59-school field.',
+      'But the recent Blumey trend runs the other way. Country Day drew production-level nominations in 2023 and 2024. It had five finalists in 2025 and five in 2026, with no nomination in 2026.',
     seasonTitle: 'The season rhythm — a three-show Upper School year',
     season: [
       {
@@ -142,7 +142,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     whoRunsIt:
-      'Jenny Goodfellow directs Upper School theatre. Karl Hoffman is technical director, Linda Booth does the choreography and Jaclyn Orchard does costumes. Country Day staffs three dedicated drama directors, one per division: Krista Maggart (Lower), Aaron Mize (Middle) and Goodfellow (Upper). That staffing backs up the JK–12 theatre claim better than the "100% participation" figure does. That figure is a result of drama being required from JK, so it does not measure how many students choose drama. An outside source has confirmed the technical-theatre track: students were named Blumey Stage Management finalists in both 2023 and 2024.',
+      'Jenny Goodfellow directs Upper School theatre. Karl Hoffman is technical director, Linda Booth does the choreography and Jaclyn Orchard does costumes. Country Day staffs three dedicated drama directors, one per division: Krista Maggart (Lower), Aaron Mize (Middle) and Goodfellow (Upper). That staffing backs up the JK–12 theatre claim better than the "100% participation" figure does. That figure is a result of drama being required from JK, so it does not measure how many students choose drama. An outside source has confirmed the technical-theatre track: a student was a Blumey Best Student Stage Manager nominee in 2024. The school also reports stage-manager recognition in 2023.',
     venueNote:
       'The 400-seat Gorelick Family Theater is the main stage. The Black Box Theater in the Hance Fine Arts Center adds more space, so performance, rehearsal and studio work never compete for the same room.',
     ledgerTitle: 'The Blumey ledger — from the official nominee records',
@@ -151,25 +151,25 @@ export const charlotteCountryDay: ArtsProgram = {
         year: '2026',
         show: 'Frozen',
         result:
-          'Zero nominations and zero awards. Country Day appears only in the list of 59 participating schools.',
+          'Five finalists: Best Actor (as Kristoff) · Best Actress (as Anna) · Best Supporting Actor (as Hans) · Best Supporting Actress (as Olaf) · Best Featured Performer (as Pabbie/Ensemble). No nominations and no awards. Field: 59 schools.',
       },
       {
         year: '2025',
         show: 'Bright Star',
         result:
-          'Five nominations, ALL individual performance — Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress, Best Featured Performer. No Direction, Ensemble, Choreography or Best Musical nod. Field: 54 schools.',
+          'Five finalists, ALL individual performance — Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress, Best Featured Performer. No Direction, Ensemble, Choreography or Best Musical nod. Field: 54 schools.',
       },
       {
         year: '2024',
         show: 'Bonnie and Clyde',
         result:
-          'Roughly nine placements, including Best Overall Direction, Best Choreography Execution and Best Ensemble/Chorus. The others: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer · a stage-manager finalist. No win located.',
+          'Five nominations: Best Overall Direction · Best Ensemble/Chorus · Best Actor · Best Supporting Actress · Best Student Stage Manager. It also had a finalist in each of the five performance categories. No win located.',
       },
       {
         year: '2023',
         show: 'Something Rotten',
         result:
-          'Roughly nine placements, including Best Overall Direction, Best Choreography Execution and Best Ensemble/Chorus. The others: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer · a stage manager. The school also claims a Best Musical nod, which the official PDF did not confirm. No win located.',
+          'Five nominations on the first 2023 list: Best Musical (Tier 2) · Best Overall Direction · Best Choreography Execution · Best Ensemble/Chorus · Best Supporting Actor. It also had five finalists in the performance categories, and the school reports stage-manager recognition. No win located.',
       },
       {
         year: '2022',
@@ -186,7 +186,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     honestContext:
-      'Country Day is a steady, credible Blumey contender, not a current front-runner. It was nominated every year from 2022 through 2025, but had zero wins after 2022, then had no nominations at all in 2026. Its best year was truly strong: two wins, including Best Direction. Its work developing individual performers looks repeatable, not lucky. One student placed in three consecutive cycles, twice in the Best Actress category (2023 and 2025), and five different students placed in five performance categories in 2025. On NCTC, the school claims five state championships, but only one play title could be verified. That title is The Crane Wife, a second consecutive championship, which places it in fall 2018, with the prior title in fall 2017 (title unknown). The other three years and titles could not be found. Country Day did not place at the 2025 state festival, so all five come before 2025. Treat "five championships" as the school’s claim. The strongest independently verified credential here is about teaching, not trophies. NCTC named Jenny Goodfellow North Carolina’s 2022 K-12 Theatre Arts Educator, confirmed on NCTC’s own awards page. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions.',
+      'Country Day is a steady, credible Blumey contender, not a current front-runner. It had nominations or finalist places every year from 2022 through 2026, but no wins after 2022. It had no nominations in 2026. Its best year was truly strong: two wins, including Best Direction. One student placed in three consecutive cycles, twice in the Best Actress category (2023 and 2025). On NCTC, the school claims five state championships, but only one play title could be verified. That title is The Crane Wife, a second consecutive championship, which places it in fall 2018, with the prior title in fall 2017 (title unknown). The other three years and titles could not be found. Country Day did not place at the 2025 state festival, so all five come before 2025. Treat "five championships" as the school’s claim. The strongest independently verified credential here is about teaching, not trophies. NCTC named Jenny Goodfellow North Carolina’s 2022 K-12 Theatre Arts Educator, confirmed on NCTC’s own awards page. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions.',
     photo: {
       src: '/arts/charlotte-country-day-anastasia.jpg',
       name: 'Anastasia (2022)',
@@ -210,6 +210,8 @@ export const charlotteCountryDay: ArtsProgram = {
         label: 'Blumenthal Arts — 2025 all nominees & finalists (PDF)',
         url: 'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf',
       },
+      { label: 'Blumenthal Arts — 2026 nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
+      { label: 'Blumenthal Arts — 2024 all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf' },
       {
         label: 'Blumenthal Arts — 2026 nominees (59 schools)',
         url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees',
@@ -219,7 +221,7 @@ export const charlotteCountryDay: ArtsProgram = {
 
   music: {
     headline:
-      'Eight ensembles across Middle and Upper School, tiered into honors and open-enrollment sections, feeding conservatory summers and national honor bands.',
+      'Eight ensembles across Middle and Upper School, tiered into honors and entry sections, feeding conservatory summers and national honor bands.',
     subhead:
       'The school reports students earn recognition at 20+ state and regional music events a year; no itemized list of those events or results is published.',
     tracks: [
@@ -229,10 +231,11 @@ export const charlotteCountryDay: ArtsProgram = {
           'Honors Chamber Choir',
           'Honors Symphonic Band',
           'Honors Orchestra',
+          'Honors Concert Choir',
         ],
       },
       {
-        label: 'Open enrollment — Upper School',
+        label: 'Entry groups — Upper School',
         ensembles: ['Concert Choir', 'Symphonic Band', 'Orchestra', 'Percussion Ensemble', 'Piano class'],
       },
       {
@@ -245,16 +248,16 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     boardNote:
-      'Chris Rydel directs Upper School instrumental music. No choral director or arts department chair is named on the public pages. The school counts eight ensembles. The board lists 12 groups and classes across both divisions, including Piano class and General Music, so the school’s count uses a narrower definition it does not state. The Upper School course guide sets an audition for Honors Chamber Choir, Honors Symphonic Band and Honors Orchestra, and says Percussion Ensemble needs no musical experience.',
+      'Chris Rydel directs Upper School instrumental music. No choral director or arts department chair is named on the public pages. The school counts eight ensembles. The board lists 13 groups and classes across both divisions, including Piano class and General Music, so the school’s count uses a narrower definition it does not state. The Upper School course guide sets an audition for all four honors groups. Symphonic Band and Orchestra take students from the Middle School programs, or others by audition. Percussion Ensemble needs no musical experience.',
     ladderTitle: 'The honors ladder — how far it goes',
     ladder: [
       {
         label: 'Join an ensemble',
-        text: 'band, orchestra, choir or General Music from the Middle School daily curriculum, or Concert Choir / Symphonic Band / Orchestra in the Upper School.',
+        text: 'band, orchestra, choir or General Music from the Middle School daily curriculum, or Concert Choir / Symphonic Band / Orchestra in the Upper School. Band and orchestra newcomers audition.',
       },
       {
         label: 'Audition up',
-        text: 'the honors tier — Honors Chamber Choir, Honors Symphonic Band and Honors Orchestra, each entered by audition, per the Upper School course guide.',
+        text: 'the honors tier — Honors Chamber Choir, Honors Concert Choir, Honors Symphonic Band and Honors Orchestra, each entered by audition, per the Upper School course guide.',
       },
       {
         label: 'Get selected beyond campus',
@@ -278,7 +281,7 @@ export const charlotteCountryDay: ArtsProgram = {
     headline:
       'Two working wet darkrooms, a ceramics studio with wheels and kilns, and sculpture in glass and metal — the hands-in-material side has not been traded for screens.',
     subhead:
-      'Nine studios and rooms across three campuses, topping out in AP art courses (including AP Sculpture) and IB art courses.',
+      'Nine studios and rooms across three arts facilities on two campuses, topping out in AP art courses (including AP Sculpture) and IB art courses.',
     mediaTitle: 'Studio media',
     media: [
       { name: 'Drawing & painting', detail: 'plus printmaking and mixed media' },
@@ -330,7 +333,7 @@ export const charlotteCountryDay: ArtsProgram = {
     headline:
       'Unusually deep arts facilities, a dual AP-and-IB ceiling, and a statewide-honored theatre director — with a Blumey record that has cooled sharply.',
     subhead:
-      'The open questions are about the undocumented NCTC championship count and the 2026 nomination shutout — both good tour material.',
+      'The open questions are about the undocumented NCTC championship count and the lack of 2026 nominations — both good tour material.',
     holdsUp: [
       {
         label: 'The facility is top-tier and verified',
@@ -359,9 +362,9 @@ export const charlotteCountryDay: ArtsProgram = {
     ],
     ask: [
       'Your site says five NCTC state championships. Which five years, and which plays? Only The Crane Wife is documented — and are they recent or decades old?',
-      'You had zero Blumey nominations in 2026 for Frozen, after five in 2025 and about nine each in 2023 and 2024. What changed? Was it turnover on the creative team, or was Frozen chosen on purpose as a large-cast, accessible show?',
-      'You have been nominated every year since 2022 but have not won since. Is the program aiming at competitive placement or at participation breadth? With 100% theatre participation, breadth may genuinely be the strategy.',
-      'Can a beginner still join band or orchestra in 9th grade? The course guide sets an audition only for the three honors groups.',
+      'You had five Blumey finalists but no nominations in 2026 for Frozen, after production-level nominations in 2023 and 2024. What changed? Was it turnover on the creative team, or was Frozen chosen on purpose as a large-cast, accessible show?',
+      'You placed every year from 2022 to 2026, without a win after 2022. Is the program aiming at competitive placement or at participation breadth? With 100% theatre participation, breadth may genuinely be the strategy.',
+      'The course guide asks newcomers to band or orchestra to audition. Can a beginner still join either one in 9th grade?',
       'How many Scholastic Art & Writing Gold and Silver Keys did students earn last year, and how many advanced to national judging?',
       'Which year did the Edinburgh Fringe trip happen, what did students perform, and how often does it recur?',
     ],

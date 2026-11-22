@@ -444,7 +444,7 @@ export const davidsonDay: InternationalTravelProgram = {
       summary:
         "Davidson Day's global program is unusual: its travel is archaeology research, not touring. Students dig with professionals in Spain, Portugal and Belize. They present their findings at university conferences. The digs and conferences are part of a two-year Upper School research distinction.",
       points: [
-        'Summer field research at three active sites, one of them on record for 20 seasons',
+        'Summer field research at three active sites, after 20 seasons at Cahal Pech',
         'Student research presented at Mount Royal University — 10 students in fall 2024',
         'A credential with two years of original research and a senior capstone',
         'The first high school dig with the North Carolina State Historic Preservation Office, per the school',

@@ -110,7 +110,7 @@ const CHARLOTTE_LATIN: ClubCatalog = {
     { name: 'Chess Club', cat: 'spec', note: 'Open play and instruction for any student' },
     { name: 'Outdoor Club', cat: 'spec', note: 'Camping and adventure skills: hiking, climbing, rafting' },
     { name: 'Yearbook Club', cat: 'spec', note: 'Photography and reporting for students not enrolled in the yearbook class' },
-    { name: 'Mosaic (incl. Q&A and BSA)', cat: 'aff', note: 'Diversity-programming umbrella; houses Q&A and the Black Student Association' },
+    { name: 'Mosaic (incl. Q&A and BSA)', cat: 'aff', note: 'Diversity-programming umbrella; houses Q&A and BSA' },
     { name: 'SISTERS', cat: 'aff', note: 'Pairs upperclass women with freshmen to smooth the transition into high school' },
     { name: 'Girl Up', cat: 'aff', note: 'Empowering women at CLS through education, advocacy, and service' },
     { name: 'Spanish Club', cat: 'cult', note: 'Appreciation of Spanish language and culture' },
@@ -257,7 +257,7 @@ const PROVIDENCE_DAY: ClubCatalog = {
 // count but not a complete enumerated roster — the full list lives in the
 // login-gated BucsNet / Veracross portal. Per the persist-fetched-data standard we
 // enumerate ONLY the clubs confirmed in public sources; no clubs or counts are
-// invented, so the seven below are a public spine rather than the whole catalog.
+// invented, so the eleven below are a public spine rather than the whole catalog.
 // From src/content/student-clubs/charlotte-country-day.json.
 const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
   verdict:
@@ -278,6 +278,10 @@ const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
     { name: 'Big Brothers Big Sisters', cat: 'svc', note: 'Mentorship / service organization named in the School Profile' },
     { name: 'Environmental Council', cat: 'svc', note: 'Special-interest / service group' },
     { name: 'Interfaith Club', cat: 'aff', note: 'Affinity / special-interest group named on the DEIB page' },
+    { name: 'Interact Club', cat: 'svc', note: 'Upper School club named on the International Studies page' },
+    { name: 'International Studies Board', cat: 'aff', note: 'Upper School club named on the International Studies page' },
+    { name: 'World Quest', cat: 'acad', note: 'Upper School club named on the International Studies page' },
+    { name: 'Euro Challenge', cat: 'acad', note: 'Upper School club named on the International Studies page' },
   ],
   divisions: [
     {
@@ -287,7 +291,7 @@ const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
     },
   ],
   source:
-    'charlottecountryday.org — Upper School · School Profile 2025–26 & 2024–25 · About · DEIB Our Program',
+    'charlottecountryday.org — Upper School · School Profile 2025–26 & 2024–25 · About · DEIB Our Program · International Studies (charlottecountryday.org/cd-education/international-studies)',
 }
 
 // ── Cannon ── HONEST-GAP by design, like Country Day, but CONSOLIDATED: this one
@@ -474,7 +478,7 @@ const COVENANT_DAY: ClubCatalog = {
   divisions: [
     {
       label: 'Middle & Lower School',
-      text: 'The Middle School Outreach Committee · Doulos Day, a middle school service day held twice a year · Goodness Gorillas, the 4th-grade service program at nearly twenty sites · the CDS Children’s Choir (grades 3–5).',
+      text: 'The Middle School Outreach Committee · Doulos Day, a middle school service day held twice a year · Goodness Gorillas, the 4th-grade service program at nearly twenty sites · the CDS Children’s Choir (grades 3–5 on the music page, grades 4–5 on the Lower School page).',
       tag: 'Documented',
     },
     {
@@ -556,7 +560,7 @@ const CARMEL_CHRISTIAN: ClubCatalog = {
     },
     {
       label: 'Spiritual life & traditions',
-      text: 'Chapel and tradition rather than clubs. The Ignite Praise Band leads Thursday chapel worship. The school year runs on these traditions: the Windy Gap retreat · See You at the Pole (led by the MS SGA and HS Student Council) · Spirit Week / Homecoming · J-Term (a graduation-requirement week that can include mission trips) · international missions trips.',
+      text: 'Chapel and tradition rather than clubs. The Ignite Praise Band leads Thursday chapel worship. The school year runs on these traditions: the Windy Gap retreat · See You at the Pole (led by the MS SGA and HS Student Council) · Spirit Week / Homecoming · J-Term in the 2021–22 handbook (a graduation-requirement week that can include mission trips; the 2026–27 requirements name a Mission Trip and Impact Week) · international missions trips.',
       tag: 'School-reported',
     },
   ],
@@ -611,13 +615,14 @@ const HICKORY_GROVE_CHRISTIAN: ClubCatalog = {
 // list comes only from the school's own website or documents). The school
 // publishes no full clubs page: its Upper School page names three clubs by way
 // of example and says students may start one with a faculty sponsor, and its
-// Academic Profiles (2025-26, 2023-24) name VEX Robotics, iGEM, Blutopia,
-// Yearbook, Sunship Earth and NHS. The 20 entries reconstructed from
+// Academic Profiles (2025-26, 2023-24) name VEX Robotics, Blutopia,
+// Yearbook, Sunship Earth and NHS. iGEM was dropped 2026-11-22: no proof it is
+// still active (user ruling, plan consistency4). The 20 entries reconstructed from
 // PrivateSchoolReview and Niche, and iGEM's wiki-only detail, were removed in
 // plan thespianname.
 const GASTON_DAY: ClubCatalog = {
   verdict:
-    'Ten organizations the school names itself. The standouts: iGEM research teams with awards over more than a decade, and a VEX Robotics club that reached TSA Nationals in its first year.',
+    'Nine organizations the school names itself. The standout: a VEX Robotics club that reached TSA Nationals in its first year.',
   verdictHint:
     'The school publishes no full clubs list. Its Upper School page names three clubs and says students can start a new one with a faculty sponsor; its Academic Profile names the rest.',
   countNoun: 'named orgs',
@@ -629,7 +634,6 @@ const GASTON_DAY: ClubCatalog = {
     { key: 'honor', short: 'Honor societies', full: 'Honor society' },
   ],
   clubs: [
-    { name: 'iGEM Synthetic Biology Team', cat: 'stem', note: 'The school says its research teams competed in iGEM for over a decade and won Silver, Gold and Bronze awards' },
     { name: 'VEX Robotics', cat: 'stem', note: 'Qualified for TSA VEX Nationals in 2023, its first year competing; previously 4th at state in FIRST Robotics' },
     { name: '3-D Printing Club', cat: 'stem', note: 'Named on the school’s Upper School page' },
     { name: 'Blutopia', cat: 'pub', note: 'Upper School literary and arts magazine — numerous Scholastic Art & Writing Awards and repeated NCSMA Literary Magazine Contest recognition' },
@@ -647,8 +651,8 @@ const GASTON_DAY: ClubCatalog = {
       tag: 'School-reported',
     },
     {
-      label: 'The two standouts',
-      text: 'iGEM and VEX Robotics are the distinctive entries. Both appear in the school’s own Academic Profile. iGEM teams won awards over more than a decade, and VEX reached Nationals in the club’s first year.',
+      label: 'The standout',
+      text: 'VEX Robotics is the distinctive entry. It is in the 2025–26 profile, and it qualified for TSA VEX Nationals in 2023, the club’s first year.',
       tag: 'School-reported',
     },
     {
@@ -658,7 +662,7 @@ const GASTON_DAY: ClubCatalog = {
     },
   ],
   source:
-    'gastonday.org — Upper School (3-D Printing Club, Green Team, International Council, Student Government) · Academic Profile 2025-2026 and 2023-2024 (VEX Robotics, iGEM, Blutopia, Yearbook, Sunship Earth, NHS) · Middle School (LEAD, Spartan Strong)',
+    'gastonday.org — Upper School (3-D Printing Club, Green Team, International Council, Student Government) · Academic Profile 2025-2026 and 2023-2024 (VEX Robotics, Blutopia, Yearbook, Sunship Earth, NHS) · Middle School (LEAD, Spartan Strong)',
 }
 
 // ── Charlotte Catholic ── 76 clubs across the school's own six categories,

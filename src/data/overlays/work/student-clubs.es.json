@@ -13,12 +13,12 @@
       "t": "Nueve grupos de afinidad en la Upper School, cada uno con su año de fundación documentado. También hay grupos de Middle y Lower School, redes de profesorado y exalumnos, y tres grupos de padres. Todos dependen de una oficina de DEI con personal propio."
     },
     {
-      "text": "An unusually deep published affinity structure, built out steadily from 1995 onward — though the school’s own live site no longer lists it.",
-      "of": "86c36b08",
+      "text": "An unusually deep affinity structure, built out from 1995 onward and named on the school’s earlier DEI pages. The live site no longer lists it, and the 2025–26 club list names a slightly different nine.",
+      "of": "d1fd5cd8",
       "at": [
         "providence-day:affinity.subhead"
       ],
-      "t": "Una estructura de afinidad inusualmente desarrollada, construida de forma sostenida desde 1995 — aunque el sitio web actual de la escuela ya no la enumera."
+      "t": "Una estructura de afinidad inusualmente desarrollada, construida desde 1995 y nombrada en páginas anteriores de DEI de la escuela. El sitio web actual ya no la enumera, y la lista de clubes de 2025–26 nombra nueve grupos ligeramente distintos."
     },
     {
       "text": "led by Tyrone Jean, Assistant Head of School for EIB and Chief Diversity Officer · 1 assistant head + 2 associate directors + 6 faculty coordinators",
@@ -319,12 +319,12 @@
       "t": "Las colaboraciones por nivel y el Charger Impact Challenge forman parte del currículo, no son clubes. El President’s Volunteer Service Award es un premio por las horas que registra cada estudiante, no una membresía. El Community Engagement Portal es una herramienta que lista oportunidades de servicio. La tarjeta del catálogo solo incluye organizaciones confirmadas."
     },
     {
-      "text": "Five selective societies spanning scholarship, service, visual art, music and French.",
-      "of": "2a286f4b",
+      "text": "Six honor societies spanning scholarship, service, visual art, music, French and computer science.",
+      "of": "99c8ea76",
       "at": [
         "providence-day:honors.headline"
       ],
-      "t": "Cinco sociedades selectivas que abarcan excelencia académica, servicio, artes visuales, música y francés."
+      "t": "Seis sociedades de honor que abarcan excelencia académica, servicio, artes visuales, música, francés e informática."
     },
     {
       "text": "These are outcomes of achievement elsewhere in the program — a student earns their way in; nobody signs up.",
@@ -443,12 +443,29 @@
       "t": "lenguas del mundo"
     },
     {
-      "text": "There is no standing honor-societies page. Every fact here comes from one-off news posts, so the published counts are historical rather than current, except the 2026–27 profile’s 118 NHS inductees — 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May, 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other four publish none.",
-      "of": "ae8abe3c",
+      "text": "Recognition society for computer science",
+      "of": "1e675c08",
+      "at": [
+        "providence-day:honors.societies[5].recognizes",
+        "providence-day:catalog.clubs[8].note"
+      ],
+      "t": "Sociedad de reconocimiento en informática"
+    },
+    {
+      "text": "computer science",
+      "of": "f10e0d72",
+      "at": [
+        "providence-day:honors.societies[5].feedsFrom"
+      ],
+      "t": "informática"
+    },
+    {
+      "text": "There is no standing honor-societies page. The facts here come from one-off news posts, the 2025–26 club list and the 2026–27 profile. So the published counts are historical rather than current, except the profile’s 118 NHS inductees — 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May, 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other five publish none.",
+      "of": "b07e10ae",
       "at": [
         "providence-day:honors.flags[0].text"
       ],
-      "t": "No existe una página estable de sociedades de honor. Todos los datos que figuran aquí proceden de noticias sueltas, de modo que las cifras publicadas son históricas y no actuales, salvo los 118 admitidos en la NHS del profile de 2026–27 — 89 admitidos en la NHS en 2017, 34 miembros de Cum Laude en 2022, casi 50 admitidos en arte un mes de mayo, 11 admitidos en Tri-M en 2019. Los criterios de admisión solo se publican para la National Honor Society; las otras cuatro no publican ninguno."
+      "t": "No existe una página estable de sociedades de honor. Los datos que figuran aquí proceden de noticias sueltas, de la lista de clubes de 2025–26 y del profile de 2026–27. De modo que las cifras publicadas son históricas y no actuales, salvo los 118 admitidos en la NHS del profile — 89 admitidos en la NHS en 2017, 34 miembros de Cum Laude en 2022, casi 50 admitidos en arte un mes de mayo, 11 admitidos en Tri-M en 2019. Los criterios de admisión solo se publican para la National Honor Society; las otras cinco no publican ninguno."
     },
     {
       "text": "No Middle School honor society could be confirmed, and despite five world languages on offer only the French society is evidenced. Archive searches across the site’s full URL history for Rho Kappa, Mu Alpha Theta, Quill & Scroll, a junior honor society and a Spanish society returned nothing.",
@@ -508,8 +525,7 @@
         "charlotte-christian:clusters.rows[0].evidenceLabel",
         "charlotte-country-day:clusters.rows[0].evidenceLabel",
         "cannon:clusters.rows[1].evidenceLabel",
-        "gaston-day:clusters.rows[0].evidenceLabel",
-        "gaston-day:clusters.rows[1].evidenceLabel"
+        "gaston-day:clusters.rows[0].evidenceLabel"
       ],
       "t": "Verificado — evento"
     },
@@ -813,14 +829,6 @@
         "providence-day:catalog.clubs[7].note"
       ],
       "t": "Bienestar, apoyo entre compañeros y acompañamiento"
-    },
-    {
-      "text": "Recognition society for computer science",
-      "of": "1e675c08",
-      "at": [
-        "providence-day:catalog.clubs[8].note"
-      ],
-      "t": "Sociedad de reconocimiento en informática"
     },
     {
       "text": "Criminal-justice topics and discussion",
@@ -1437,28 +1445,28 @@
       "t": "Estructural"
     },
     {
-      "text": "One student-led umbrella club, Mosaic, carrying two named sub-groups — the identity structure here runs through the club roster rather than a separate affinity program.",
-      "of": "5167bf4b",
+      "text": "Mosaic is the umbrella club, with two named sub-groups. A separate school program, Brotherhood & Belonging, is for historically underrepresented boys in grades 3–12.",
+      "of": "62fd2aef",
       "at": [
         "charlotte-latin:affinity.headline"
       ],
-      "t": "Un único club paraguas dirigido por estudiantes, Mosaic, con dos subgrupos con nombre propio — aquí la estructura identitaria pasa por la lista de clubes y no por un programa de afinidad aparte."
+      "t": "Mosaic es el club paraguas, con dos subgrupos con nombre propio. Un programa escolar aparte, Brotherhood & Belonging, es para chicos de grupos históricamente subrepresentados de los grados 3–12."
     },
     {
-      "text": "Charlotte Latin publishes markedly less on this than many schools: no roster page, no counts, and no divisional breakout.",
-      "of": "7665c5c9",
+      "text": "That program has Lower and Middle School parts, and the school describes the Upper School part as a future expansion. School news also names an Indian Student Alliance, which is not on the club list. The school publishes no count or full roster of affinity groups.",
+      "of": "334fcc66",
       "at": [
         "charlotte-latin:affinity.subhead"
       ],
-      "t": "Charlotte Latin publica notablemente menos sobre esto que muchos colegios: sin página de listado, sin cifras y sin desglose por división."
+      "t": "Ese programa tiene componentes de Lower y Middle School, y el colegio describe el componente de Upper School como una ampliación futura. Las noticias del colegio también nombran una Indian Student Alliance, que no está en la lista de clubes. El colegio no publica ni un recuento ni una lista completa de los grupos de afinidad."
     },
     {
-      "text": "the student-led umbrella club · \"Under Mosaic we have Q&A and BSA\" · coordinated by the DEI Office under Vernette Rucker, Assistant Director of Diversity, Equity, and Inclusion",
-      "of": "9b9fe119",
+      "text": "the umbrella club · \"Under Mosaic we have Q&A and BSA\"",
+      "of": "2ddd9420",
       "at": [
         "charlotte-latin:affinity.umbrella.detail"
       ],
-      "t": "el club paraguas dirigido por estudiantes · “Under Mosaic we have Q&A and BSA” · coordinado por la Oficina de DEI bajo Vernette Rucker, Assistant Director of Diversity, Equity, and Inclusion"
+      "t": "el club paraguas · “Under Mosaic we have Q&A and BSA”"
     },
     {
       "text": "sub-group of Mosaic — the school does not expand the initialism",
@@ -1494,20 +1502,20 @@
       "t": "Profesorado y padres"
     },
     {
-      "text": "Divisional DEI Committees for faculty and staff · Parent DEI Education Learning Sessions · the Parent Cookbook Club, which \"transforms the typical book club model into an immersive cultural experience… exploring diverse cultures one delicious recipe at a time.\" None of these is an identity-based affinity group.",
-      "of": "fcfdea9e",
+      "text": "Vernette Rucker is Associate Director of Community and Belonging. In July 2026, the school’s former diversity page listed divisional DEI Committees for faculty and staff, Parent DEI Education Learning Sessions and a Parent Cookbook Club. It said the Cookbook Club \"transforms the typical book club model into an immersive cultural experience… exploring diverse cultures one delicious recipe at a time.\" None of those three was an identity-based affinity group.",
+      "of": "1e941baa",
       "at": [
         "charlotte-latin:affinity.strips[0].text"
       ],
-      "t": "Comités divisionales de DEI para profesorado y personal · Sesiones formativas de DEI para padres · el Parent Cookbook Club, que “transforms the typical book club model into an immersive cultural experience… exploring diverse cultures one delicious recipe at a time.” Ninguno de ellos es un grupo de afinidad basado en la identidad."
+      "t": "Vernette Rucker es Associate Director of Community and Belonging. En julio de 2026, la antigua página de diversidad del colegio enumeraba comités divisionales de DEI para profesorado y personal, sesiones formativas de DEI para padres y un Parent Cookbook Club. Decía que el Cookbook Club “transforms the typical book club model into an immersive cultural experience… exploring diverse cultures one delicious recipe at a time.” Ninguno de esos tres era un grupo de afinidad basado en la identidad."
     },
     {
-      "text": "The DEI page describes \"the student-led Diversity Club and Alliance Groups\" in a single sentence and links to a \"Diversity Club List\" — but that link leads to a page containing no list. No affinity group count is published anywhere, so unlike its peers there are no rival numbers to reconcile; there is simply no roster. No Lower or Middle School groups are published, and no student diversity leadership corps or national conference attendance appears anywhere on the site.",
-      "of": "3c1c7105",
+      "text": "The old DEI page named \"the student-led Diversity Club and Alliance Groups\" in a single sentence. It now returns 404, and its \"Diversity Club List\" link redirects to the Community, Belonging and Global Education page, which has no list. No affinity group count or full roster is published, so there are no rival numbers to reconcile. Lower and Middle School groups are published under Brotherhood & Belonging (Voices, The Boys’ Room); its Upper School part is described as a future expansion. No student diversity leadership corps or national conference attendance was found on the pages read.",
+      "of": "6bde7d21",
       "at": [
         "charlotte-latin:affinity.flags[0].text"
       ],
-      "t": "La página de DEI describe “the student-led Diversity Club and Alliance Groups” en una sola frase y enlaza a un “Diversity Club List” — pero ese enlace lleva a una página que no contiene ninguna lista. No se publica en ningún sitio un recuento de grupos de afinidad, de modo que, a diferencia de sus pares, aquí no hay cifras contradictorias que conciliar; sencillamente no hay lista. No se publica ningún grupo de Lower o Middle School, y no aparece por ninguna parte del sitio un cuerpo estudiantil de liderazgo en diversidad ni asistencia a conferencias nacionales."
+      "t": "La antigua página de DEI nombraba “the student-led Diversity Club and Alliance Groups” en una sola frase. Ahora devuelve un 404, y su enlace “Diversity Club List” redirige a la página Community, Belonging and Global Education, que no tiene ninguna lista. No se publica ningún recuento ni lista completa de grupos de afinidad, de modo que no hay cifras contradictorias que conciliar. Los grupos de Lower y Middle School se publican bajo Brotherhood & Belonging (Voices, The Boys’ Room); su componente de Upper School se describe como una ampliación futura. En las páginas leídas no se encontró ningún cuerpo estudiantil de liderazgo en diversidad ni asistencia a conferencias nacionales."
     },
     {
       "text": "Service is deliberately not required — and students still logged 3,396 hours by the end of junior year, with a recognition society and a national first behind them.",
@@ -2161,12 +2169,12 @@
       "t": "Fotografía y reportaje para estudiantes no matriculados en la asignatura de anuario"
     },
     {
-      "text": "Diversity-programming umbrella; houses Q&A and the Black Student Association",
-      "of": "e4ca1445",
+      "text": "Diversity-programming umbrella; houses Q&A and BSA",
+      "of": "ac9127fb",
       "at": [
         "charlotte-latin:catalog.clubs[20].note"
       ],
-      "t": "Paraguas de programación en diversidad; acoge Q&A y la Black Student Association"
+      "t": "Paraguas de programación en diversidad; acoge Q&A y BSA"
     },
     {
       "text": "Pairs upperclass women with freshmen to smooth the transition into high school",
@@ -2282,12 +2290,12 @@
       "t": "Conciencia multicultural a través de la literatura, ponentes invitados y lecciones basadas en proyectos; a cada aula se le asigna un país para el Multicultural Festival. Programación más que grupos permanentes."
     },
     {
-      "text": "Cross-cultural development through curriculum, heritage month celebrations and field trips — grade 6 to Sudan Interior Missions, grade 7 to the Holocaust Museum, grade 8 to Civil Rights activities.",
-      "of": "8c58c4c1",
+      "text": "Students learn about other cultures in class, in heritage months and on field trips. Grade 6 visits Sudan Interior Missions. Grade 7 visits the Butterfly Memorial dedicated to the Holocaust Museum. Grade 8 has activities on the Civil Rights Movement.",
+      "of": "90d0e3c6",
       "at": [
         "charlotte-christian:affinity.strips[1].text"
       ],
-      "t": "Desarrollo intercultural mediante el currículo, celebraciones de meses conmemorativos y salidas — 6.º grado a Sudan Interior Missions, 7.º al Holocaust Museum, 8.º a actividades sobre los derechos civiles."
+      "t": "Los estudiantes aprenden sobre otras culturas en clase, en los meses conmemorativos y en salidas. 6.º grado visita Sudan Interior Missions. 7.º grado visita el Butterfly Memorial dedicado al Holocaust Museum. 8.º grado tiene actividades sobre el movimiento por los derechos civiles."
     },
     {
       "text": "Beyond Romans 12, the parent bodies are PTF (Parent Teacher Fellowship) and N.E.W. (Newcomers Embraced & Welcomed) — new-family assimilation rather than identity-based groups — plus the Haverim Ladies’ Bible Study.",
@@ -2426,12 +2434,12 @@
       "t": "Cada viaje de 2026 tiene sus propios socios: SCORE International en la República Dominicana · Samaritan’s Feet en Camp Harrison · Give Kids the World y Make-A-Wish en Disney · Surfrider Foundation y Save Your Hood en Grecia · Crossroads Christian Academy en Panamá · Nourish Up, Crisis Assistance y Congregations for Kids en Serve Charlotte."
     },
     {
-      "text": "Winterim trips are a graduation requirement and a travel program. Kingdom Impact Day is a service day for a whole division. The Multicultural Festival is a yearly all-school event. Cross-Cultural Communications service is a class doing service. Vocational Shadowing and the Alternative Winterim Experience are arranged for each student, through the family. None is a club.",
-      "of": "2aba5296",
+      "text": "Winterim trips are a graduation requirement and a travel program. Kingdom Impact Day is a service day for a whole division. The Multicultural Festival is a yearly event tied to Lower School Spanish. Cross-Cultural Communications service is a class doing service. Vocational Shadowing and the Alternative Winterim Experience are arranged for each student, through the family. None is a club.",
+      "of": "10a599ce",
       "at": [
         "charlotte-christian:service.flags[0].text"
       ],
-      "t": "Los viajes de Winterim son un requisito de graduación y un programa de viajes. El Kingdom Impact Day es una jornada de servicio para toda una división. El Multicultural Festival es un acto anual de toda la escuela. El servicio de Cross-Cultural Communications es una asignatura que hace servicio. El Vocational Shadowing y la Alternative Winterim Experience se organizan para cada estudiante, a través de la familia. Ninguno es un club."
+      "t": "Los viajes de Winterim son un requisito de graduación y un programa de viajes. El Kingdom Impact Day es una jornada de servicio para toda una división. El Multicultural Festival es un acto anual vinculado al español de Lower School. El servicio de Cross-Cultural Communications es una asignatura que hace servicio. El Vocational Shadowing y la Alternative Winterim Experience se organizan para cada estudiante, a través de la familia. Ninguno es un club."
     },
     {
       "text": "The Winterim packet states that the program \"does not count toward additional requirements for conservatory or service hours\" — proving a separate service-hours expectation exists. Yet no numeric hours target is published anywhere on the site, along with no participation percentage, no total hours, and no founding year for Knights Serve. The Knights Serve page advertises 2025-26 service projects with no detail behind the heading.",
@@ -3507,12 +3515,12 @@
       "t": "Finalistas Blumey"
     },
     {
-      "text": "Five finalists in 2025 and five further placements in 2026 — the school’s strongest recent external competitive recognition.",
-      "of": "2cfc5faa",
+      "text": "Five finalists in 2025 and five more in 2026, with no win in either year.",
+      "of": "1863fb4f",
       "at": [
         "charlotte-catholic:honors.adjacent[4].text"
       ],
-      "t": "Cinco finalistas en 2025 y cinco puestos más en 2026 — el reconocimiento competitivo externo reciente más sólido del centro."
+      "t": "Cinco finalistas en 2025 y cinco más en 2026, sin premio en ninguno de los dos años."
     },
     {
       "text": "Induction criteria are published for five of the ten societies. The four world-language societies and the National Art Honor Society are named on the school profile without a stated GPA or points threshold, and no society publishes its membership count.",
@@ -3610,7 +3618,7 @@
         "charlotte-catholic:clusters.rows[2].evidenceLabel",
         "charlotte-catholic:clusters.rows[3].evidenceLabel",
         "charlotte-country-day:clusters.rows[1].evidenceLabel",
-        "gaston-day:clusters.rows[3].evidenceLabel"
+        "gaston-day:clusters.rows[2].evidenceLabel"
       ],
       "t": "Solo mencionado"
     },
@@ -4901,6 +4909,17 @@
       "t": "Grupo de afinidad e interés especial mencionado en la página de DEIB"
     },
     {
+      "text": "Upper School club named on the International Studies page",
+      "of": "45aaee90",
+      "at": [
+        "charlotte-country-day:catalog.clubs[7].note",
+        "charlotte-country-day:catalog.clubs[8].note",
+        "charlotte-country-day:catalog.clubs[9].note",
+        "charlotte-country-day:catalog.clubs[10].note"
+      ],
+      "t": "Club de Upper School nombrado en la página de International Studies"
+    },
+    {
       "text": "Also on offer",
       "of": "d77024b5",
       "at": [
@@ -5102,12 +5121,12 @@
       "t": "La cifra de horas es inestable entre las propias publicaciones de la escuela. Un perfil anterior de 2024-25 hablaba de unas 15,000; la página actual de la Upper School dice casi 10,000; los perfiles de 2025–26 y 2026–27 eliminan el dato por completo. Mostramos la cifra publicada actual y la limitamos a la Upper School, ya que es la página que la recoge."
     },
     {
-      "text": "Twelve honor societies — an unusually wide span, reaching social studies, mathematics, English, journalism, three arts and three world languages.",
-      "of": "a8f18eb1",
+      "text": "Twelve honor societies on the school’s roster and profile — an unusually wide span. They reach social studies, mathematics, English, journalism, three arts and three world languages. A school news post also announces a Science National Honor Society chapter (2026).",
+      "of": "a012e25c",
       "at": [
         "cannon:honors.headline"
       ],
-      "t": "Doce sociedades de honor — un abanico inusualmente amplio, que llega a estudios sociales, matemáticas, inglés, periodismo, tres artes y tres lenguas del mundo."
+      "t": "Doce sociedades de honor en la lista y el perfil del colegio — un abanico inusualmente amplio. Llegan a estudios sociales, matemáticas, inglés, periodismo, tres artes y tres lenguas del mundo. Una noticia del colegio también anuncia un capítulo de la Science National Honor Society (2026)."
     },
     {
       "text": "Overall academic excellence",
@@ -5230,12 +5249,12 @@
       "t": "No hay criterios de admisión legibles. La página invita a “click on icon for details and eligibility criteria”, pero esas descripciones se cargan dinámicamente y no se pueden recuperar — la lista subyacente contiene títulos e imágenes, sin texto. No se publica en ningún sitio ningún recuento anual de admisiones, actividad de capítulo, asesores ni número de miembros, y no hay sociedades de honor en la Middle School."
     },
     {
-      "text": "The National Honor Society chapter, awarded in 2025, appears on the 2026–27 profile but not yet on the Upper School page’s honor-society roster. No National Junior Honor Society or Science National Honor Society chapter is published.",
-      "of": "044b6fcd",
+      "text": "The National Honor Society chapter, awarded in 2025, appears on the 2026–27 profile but not yet on the Upper School page’s honor-society roster. No National Junior Honor Society chapter is published. A school news post announces a Science National Honor Society chapter with an April 2 induction (2026), but the roster and profile do not list it, so the count stays twelve.",
+      "of": "e0230b0c",
       "at": [
         "cannon:honors.flags[1].text"
       ],
-      "t": "El capítulo de la National Honor Society, concedido en 2025, aparece en el perfil de 2026–27, pero todavía no en la lista de sociedades de honor de la página de la Upper School. No se publica ningún capítulo de la National Junior Honor Society ni de la Science National Honor Society."
+      "t": "El capítulo de la National Honor Society, concedido en 2025, aparece en el perfil de 2026–27, pero todavía no en la lista de sociedades de honor de la página de la Upper School. No se publica ningún capítulo de la National Junior Honor Society. Una noticia del colegio anuncia un capítulo de la Science National Honor Society con una ceremonia de admisión el 2 de abril (2026), pero ni la lista ni el perfil lo incluyen, así que el recuento sigue en doce."
     },
     {
       "text": "A robotics-led slate; the Brainy Yaks reached the FLL World top 100.",
@@ -6018,12 +6037,12 @@
       "t": "La sección de espíritu estudiantil"
     },
     {
-      "text": "The Middle School Outreach Committee · Doulos Day, a middle school service day held twice a year · Goodness Gorillas, the 4th-grade service program at nearly twenty sites · the CDS Children’s Choir (grades 3–5).",
-      "of": "51bf5325",
+      "text": "The Middle School Outreach Committee · Doulos Day, a middle school service day held twice a year · Goodness Gorillas, the 4th-grade service program at nearly twenty sites · the CDS Children’s Choir (grades 3–5 on the music page, grades 4–5 on the Lower School page).",
+      "of": "f3f67ec5",
       "at": [
         "covenant-day:catalog.divisions[0].text"
       ],
-      "t": "El Middle School Outreach Committee · Doulos Day, una jornada de servicio de la middle school que se celebra dos veces al año · Goodness Gorillas, el programa de servicio de 4.º grado en casi veinte sedes · el CDS Children’s Choir (grados 3–5)."
+      "t": "El Middle School Outreach Committee · Doulos Day, una jornada de servicio de la middle school que se celebra dos veces al año · Goodness Gorillas, el programa de servicio de 4.º grado en casi veinte sedes · el CDS Children’s Choir (grados 3–5 en la página de música, grados 4–5 en la página de Lower School)."
     },
     {
       "text": "Documented",
@@ -6299,12 +6318,12 @@
       "t": "Una organización de discipulado y servicio de secundaria donde los estudiantes mentorean semanalmente a niños de Extended-Day — la única organización de servicio permanente de la escuela, a la que se ingresa por solicitud y entrevista."
     },
     {
-      "text": "Service is a published expectation tied to graduation here. High school students are expected to complete a minimum of 20 service hours per grade level. They meet that minimum partly through J-Term and Beta Club, rather than through a single logged total.",
-      "of": "4ef85194",
+      "text": "Service is a published expectation tied to graduation here. High school students are expected to complete a minimum of 20 service hours per grade level. In the 2021–22 handbook, they meet that minimum partly through J-Term and Beta Club, rather than through a single logged total.",
+      "of": "3320a574",
       "at": [
         "carmel-christian:service.subhead"
       ],
-      "t": "Aquí el servicio es una expectativa publicada ligada a la graduación. Se espera que los estudiantes de secundaria completen un mínimo de 20 horas de servicio por nivel de grado. Cumplen ese mínimo en parte mediante J-Term y Beta Club, en lugar de con un único total registrado."
+      "t": "Aquí el servicio es una expectativa publicada ligada a la graduación. Se espera que los estudiantes de secundaria completen un mínimo de 20 horas de servicio por nivel de grado. Según el manual de 2021–22, cumplen ese mínimo en parte mediante J-Term y Beta Club, en lugar de con un único total registrado."
     },
     {
       "text": "1 hr/wk",
@@ -6371,12 +6390,12 @@
       "t": "de una semana · requisito de graduación"
     },
     {
-      "text": "A mandatory week-long J-Term course is a graduation requirement and can include mission trips. The high school also runs international missions trips. See You at the Pole, the annual student prayer gathering, is led by the MS SGA and HS Student Council.",
-      "of": "54caf3f9",
+      "text": "The 2021–22 handbook makes a week-long J-Term course a graduation requirement, and it can include mission trips. The 2026–27 requirements name a Mission Trip and Impact Week each year. The high school also runs international missions trips. See You at the Pole, the annual student prayer gathering, is led by the MS SGA and HS Student Council.",
+      "of": "cedb4050",
       "at": [
         "carmel-christian:service.programs[2].detail"
       ],
-      "t": "Un curso obligatorio de J-Term de una semana es un requisito de graduación y puede incluir viajes misioneros. La secundaria también realiza viajes de misiones internacionales. See You at the Pole, la reunión anual de oración estudiantil, la dirigen la MS SGA y el HS Student Council."
+      "t": "El manual de 2021–22 hace de un curso de J-Term de una semana un requisito de graduación, y este puede incluir viajes misioneros. Los requisitos de 2026–27 nombran un Mission Trip y una Impact Week cada año. La secundaria también realiza viajes de misiones internacionales. See You at the Pole, la reunión anual de oración estudiantil, la dirigen la MS SGA y el HS Student Council."
     },
     {
       "text": "Beyond the standing org",
@@ -6395,12 +6414,12 @@
       "t": "Las tradiciones de vida espiritual llevan el resto del programa. Son el retiro espiritual de otoño Windy Gap en las montañas de NC para Middle y High School, See You at the Pole, y los programas de artes de Navidad y de primavera. Cornerstone Prayer Ministry es una reunión de padres, no una organización estudiantil, así que no se cuenta aquí."
     },
     {
-      "text": "The 20-hour service requirement is an expectation for each student, not a membership. J-Term is a required course rather than a club. Cornerstone Prayer Ministry is a prayer gathering for parents and families, not a student organization. Only the Timothy Project is a standing student service group.",
-      "of": "d4d6ae71",
+      "text": "The 20-hour service requirement is an expectation for each student, not a membership. J-Term, in the 2021–22 handbook, is a required course rather than a club. Cornerstone Prayer Ministry is a prayer gathering for parents and families, not a student organization. Only the Timothy Project is a standing student service group.",
+      "of": "c026ccc1",
       "at": [
         "carmel-christian:service.flags[0].text"
       ],
-      "t": "El requisito de 20 horas de servicio es una expectativa para cada estudiante, no una membresía. J-Term es un curso obligatorio, no un club. Cornerstone Prayer Ministry es una reunión de oración para padres y familias, no una organización estudiantil. Solo el Timothy Project es un grupo estudiantil de servicio permanente."
+      "t": "El requisito de 20 horas de servicio es una expectativa para cada estudiante, no una membresía. J-Term, en el manual de 2021–22, es un curso obligatorio, no un club. Cornerstone Prayer Ministry es una reunión de oración para padres y familias, no una organización estudiantil. Solo el Timothy Project es un grupo estudiantil de servicio permanente."
     },
     {
       "text": "No school-wide cumulative service-hours total is published, and figures rest on the 2021–22 Family Handbook (the newest published edition), so they are current but date-sensitive.",
@@ -6629,12 +6648,12 @@
       "t": "Vida espiritual y tradiciones"
     },
     {
-      "text": "Chapel and tradition rather than clubs. The Ignite Praise Band leads Thursday chapel worship. The school year runs on these traditions: the Windy Gap retreat · See You at the Pole (led by the MS SGA and HS Student Council) · Spirit Week / Homecoming · J-Term (a graduation-requirement week that can include mission trips) · international missions trips.",
-      "of": "3d46f925",
+      "text": "Chapel and tradition rather than clubs. The Ignite Praise Band leads Thursday chapel worship. The school year runs on these traditions: the Windy Gap retreat · See You at the Pole (led by the MS SGA and HS Student Council) · Spirit Week / Homecoming · J-Term in the 2021–22 handbook (a graduation-requirement week that can include mission trips; the 2026–27 requirements name a Mission Trip and Impact Week) · international missions trips.",
+      "of": "809e0ff9",
       "at": [
         "carmel-christian:catalog.divisions[2].text"
       ],
-      "t": "Capilla y tradición en lugar de clubes. La Ignite Praise Band dirige la adoración de la capilla de los jueves. El año escolar gira en torno a estas tradiciones: el retiro Windy Gap · See You at the Pole (dirigido por la MS SGA y el HS Student Council) · Spirit Week / Homecoming · J-Term (una semana que es requisito de graduación y puede incluir viajes misioneros) · viajes de misiones internacionales."
+      "t": "Capilla y tradición en lugar de clubes. La Ignite Praise Band dirige la adoración de la capilla de los jueves. El año escolar gira en torno a estas tradiciones: el retiro Windy Gap · See You at the Pole (dirigido por la MS SGA y el HS Student Council) · Spirit Week / Homecoming · J-Term en el manual de 2021–22 (una semana que es requisito de graduación y puede incluir viajes misioneros; los requisitos de 2026–27 nombran un Mission Trip y una Impact Week) · viajes de misiones internacionales."
     },
     {
       "text": "A missions-and-service program: a yearly senior mission trip, a high school Mission Week and a weekly food-pantry role.",
@@ -7118,22 +7137,6 @@
       "t": "Blutopia ha obtenido numerosos Scholastic Art and Writing Awards y se la reconoce de forma constante en el NC Scholastic Media Association Literary Magazine Contest."
     },
     {
-      "text": "iGEM awards",
-      "of": "f4784edb",
-      "at": [
-        "gaston-day:honors.adjacent[4].label"
-      ],
-      "t": "Premios de iGEM"
-    },
-    {
-      "text": "The school says its research teams competed in iGEM for over a decade and won Silver, Gold and Bronze awards. It is the school’s most distinctive competitive recognition, and sits outside any society structure.",
-      "of": "1ed8be61",
-      "at": [
-        "gaston-day:honors.adjacent[4].text"
-      ],
-      "t": "El colegio afirma que sus equipos de investigación compitieron en iGEM durante más de una década y ganaron premios de plata, oro y bronce. Es el reconocimiento competitivo más distintivo del colegio, y queda fuera de cualquier estructura de sociedad."
-    },
-    {
       "text": "No induction criteria, GPA thresholds, chapter names or member counts are published for the National Honor Society — only that it exists. The National Merit program is not mentioned in the profile at all, so no Semifinalist/Commended ledger could be built.",
       "of": "a222d6f6",
       "at": [
@@ -7142,42 +7145,18 @@
       "t": "No se publican criterios de admisión, umbrales de GPA, nombres de capítulo ni recuentos de miembros para la National Honor Society — solo que existe. El programa National Merit no se menciona en absoluto en el perfil, así que no se pudo construir ningún registro de Semifinalist/Commended."
     },
     {
-      "text": "iGEM awards over more than a decade and a first-year VEX Nationals qualification anchor what the school itself names.",
-      "of": "424e23e4",
+      "text": "A first-year VEX Nationals qualification anchors what the school itself names.",
+      "of": "43bec817",
       "at": [
         "gaston-day:clusters.verdict"
       ],
-      "t": "Los premios de iGEM a lo largo de más de una década y una clasificación para las VEX Nationals en su primer año sostienen lo que el propio colegio nombra."
-    },
-    {
-      "text": "iGEM Synthetic Biology",
-      "of": "6a19e29b",
-      "at": [
-        "gaston-day:clusters.rows[0].name"
-      ],
-      "t": "iGEM Synthetic Biology"
-    },
-    {
-      "text": "Silver, Gold and Bronze awards over more than a decade",
-      "of": "9f72c8a6",
-      "at": [
-        "gaston-day:clusters.rows[0].oneLiner"
-      ],
-      "t": "Premios de plata, oro y bronce a lo largo de más de una década"
-    },
-    {
-      "text": "The flagship. iGEM (International Genetically Engineered Machine) is a synthetic-biology research competition. The school says its research teams \"previously competed in the iGEM competition for over a decade and won various Silver, Gold and Bronze awards.\" It names no years or projects, and students can now do independent research through a year-long Research Methods elective.",
-      "of": "e97e70f1",
-      "at": [
-        "gaston-day:clusters.rows[0].note"
-      ],
-      "t": "El programa emblemático. iGEM (International Genetically Engineered Machine) es una competición de investigación en biología sintética. El colegio afirma que sus equipos de investigación \"previously competed in the iGEM competition for over a decade and won various Silver, Gold and Bronze awards.\" No nombra años ni proyectos, y ahora los estudiantes pueden hacer investigación independiente a través de una optativa anual de Research Methods."
+      "t": "Una clasificación para las VEX Nationals en su primer año sostiene lo que el propio colegio nombra."
     },
     {
       "text": "VEX Robotics",
       "of": "c82faa7d",
       "at": [
-        "gaston-day:clusters.rows[1].name"
+        "gaston-day:clusters.rows[0].name"
       ],
       "t": "VEX Robotics"
     },
@@ -7185,7 +7164,7 @@
       "text": "Qualified for TSA VEX Nationals in 2023 — its first year of competing",
       "of": "2faae7b6",
       "at": [
-        "gaston-day:clusters.rows[1].oneLiner"
+        "gaston-day:clusters.rows[0].oneLiner"
       ],
       "t": "Se clasificó para las TSA VEX Nationals en 2023 — su primer año compitiendo"
     },
@@ -7193,7 +7172,7 @@
       "text": "Alongside the robotics club, Robotics (H) and Engineering (H) run as Upper School courses. A renovated makerspace supports them, with 3-D printers, laser cutters and CNC machines. On the club itself, the school's own profile states it plainly: \"After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition.\"",
       "of": "ca04e06e",
       "at": [
-        "gaston-day:clusters.rows[1].note"
+        "gaston-day:clusters.rows[0].note"
       ],
       "t": "Junto al club de robótica, Robotics (H) y Engineering (H) se imparten como asignaturas de Upper School. Las apoya un makerspace reformado con impresoras 3-D, cortadoras láser y máquinas CNC. Sobre el club en sí, el propio perfil del colegio lo dice sin rodeos: \"After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition.\""
     },
@@ -7201,7 +7180,7 @@
       "text": "Publications →",
       "of": "225b9af4",
       "at": [
-        "gaston-day:clusters.rows[2].name"
+        "gaston-day:clusters.rows[1].name"
       ],
       "t": "Publicaciones →"
     },
@@ -7209,7 +7188,7 @@
       "text": "Blutopia, Yearbook",
       "of": "66ef1e8b",
       "at": [
-        "gaston-day:clusters.rows[2].oneLiner"
+        "gaston-day:clusters.rows[1].oneLiner"
       ],
       "t": "Blutopia, Yearbook (anuario)"
     },
@@ -7217,7 +7196,7 @@
       "text": "Verified — award",
       "of": "4f98eca8",
       "at": [
-        "gaston-day:clusters.rows[2].evidenceLabel"
+        "gaston-day:clusters.rows[1].evidenceLabel"
       ],
       "t": "Verificado — premio"
     },
@@ -7225,7 +7204,7 @@
       "text": "Blutopia is the one publication with a documented award record. The magazine is entirely student-developed, created and published. Blutopia has taken numerous Scholastic Art and Writing Awards. It is also consistently recognized in the North Carolina Scholastic Media Association's Literary Magazine Contest. The school does not publish award counts or years, so the word \"numerous\" comes from the school itself.",
       "of": "440ef32c",
       "at": [
-        "gaston-day:clusters.rows[2].note"
+        "gaston-day:clusters.rows[1].note"
       ],
       "t": "Blutopia es la única publicación con un historial de premios documentado. La revista la desarrollan, crean y publican íntegramente los estudiantes. Blutopia ha obtenido numerosos Scholastic Art and Writing Awards. También se la reconoce de forma constante en el Literary Magazine Contest de la North Carolina Scholastic Media Association. El colegio no publica recuentos ni años de los premios, así que la palabra \"numerosos\" procede del propio colegio."
     },
@@ -7233,7 +7212,7 @@
       "text": "Honor society →",
       "of": "8552d86f",
       "at": [
-        "gaston-day:clusters.rows[3].name"
+        "gaston-day:clusters.rows[2].name"
       ],
       "t": "Sociedad de honor →"
     },
@@ -7241,7 +7220,7 @@
       "text": "National Honor Society",
       "of": "b81697ad",
       "at": [
-        "gaston-day:clusters.rows[3].oneLiner"
+        "gaston-day:clusters.rows[2].oneLiner"
       ],
       "t": "La National Honor Society"
     },
@@ -7249,17 +7228,17 @@
       "text": "The school names one honor society. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter name or member count is published, and the profile does not mention the National Merit program at all.",
       "of": "7cb24d72",
       "at": [
-        "gaston-day:clusters.rows[3].note"
+        "gaston-day:clusters.rows[2].note"
       ],
       "t": "El colegio nombra una sociedad de honor. Los miembros de la NHS tienen un requisito anual de 40 horas de servicio, frente a las 25 generales del colegio — la única cifra relacionada con la admisión que publica el colegio. No se publican umbrales de GPA, nombre de capítulo ni recuento de miembros, y el perfil no menciona en absoluto el programa National Merit."
     },
     {
-      "text": "Ten organizations the school names itself. The standouts: iGEM research teams with awards over more than a decade, and a VEX Robotics club that reached TSA Nationals in its first year.",
-      "of": "7b7161b2",
+      "text": "Nine organizations the school names itself. The standout: a VEX Robotics club that reached TSA Nationals in its first year.",
+      "of": "f527d7dd",
       "at": [
         "gaston-day:catalog.verdict"
       ],
-      "t": "Diez organizaciones que nombra el propio colegio. Las más destacadas: los equipos de investigación de iGEM, con premios a lo largo de más de una década, y un club de VEX Robotics que llegó a las TSA Nationals en su primer año."
+      "t": "Nueve organizaciones que nombra el propio colegio. La más destacada: un club de VEX Robotics que llegó a las TSA Nationals en su primer año."
     },
     {
       "text": "The school publishes no full clubs list. Its Upper School page names three clubs and says students can start a new one with a faculty sponsor; its Academic Profile names the rest.",
@@ -7310,18 +7289,10 @@
       "t": "Lengua y cultura"
     },
     {
-      "text": "The school says its research teams competed in iGEM for over a decade and won Silver, Gold and Bronze awards",
-      "of": "955204c2",
-      "at": [
-        "gaston-day:catalog.clubs[0].note"
-      ],
-      "t": "El colegio afirma que sus equipos de investigación compitieron en iGEM durante más de una década y ganaron premios de plata, oro y bronce"
-    },
-    {
       "text": "Qualified for TSA VEX Nationals in 2023, its first year competing; previously 4th at state in FIRST Robotics",
       "of": "27dc525a",
       "at": [
-        "gaston-day:catalog.clubs[1].note"
+        "gaston-day:catalog.clubs[0].note"
       ],
       "t": "Se clasificó para las TSA VEX Nationals en 2023, su primer año compitiendo; antes fue 4.º a nivel estatal en FIRST Robotics"
     },
@@ -7329,8 +7300,8 @@
       "text": "Named on the school’s Upper School page",
       "of": "cc08c32f",
       "at": [
-        "gaston-day:catalog.clubs[2].note",
-        "gaston-day:catalog.clubs[8].note"
+        "gaston-day:catalog.clubs[1].note",
+        "gaston-day:catalog.clubs[7].note"
       ],
       "t": "Nombrado en la página de Upper School del colegio"
     },
@@ -7338,7 +7309,7 @@
       "text": "Upper School literary and arts magazine — numerous Scholastic Art & Writing Awards and repeated NCSMA Literary Magazine Contest recognition",
       "of": "3236d5da",
       "at": [
-        "gaston-day:catalog.clubs[3].note"
+        "gaston-day:catalog.clubs[2].note"
       ],
       "t": "Revista de literatura y arte de Upper School — numerosos Scholastic Art & Writing Awards y reconocimiento repetido en el NCSMA Literary Magazine Contest"
     },
@@ -7346,7 +7317,7 @@
       "text": "Runs as an Upper School course for credit",
       "of": "80511deb",
       "at": [
-        "gaston-day:catalog.clubs[4].note"
+        "gaston-day:catalog.clubs[3].note"
       ],
       "t": "Se imparte como asignatura con créditos de Upper School"
     },
@@ -7354,7 +7325,7 @@
       "text": "Students discuss student issues and recommend changes on campus",
       "of": "6a128c04",
       "at": [
-        "gaston-day:catalog.clubs[5].note"
+        "gaston-day:catalog.clubs[4].note"
       ],
       "t": "Los estudiantes debaten asuntos estudiantiles y recomiendan cambios en el campus"
     },
@@ -7362,7 +7333,7 @@
       "text": "Sunship Earth — juniors and seniors mentor a fourth grader across the school year",
       "of": "bf8d20b9",
       "at": [
-        "gaston-day:catalog.clubs[6].note"
+        "gaston-day:catalog.clubs[5].note"
       ],
       "t": "Sunship Earth — estudiantes del penúltimo y del último curso ejercen de mentores de un alumno de cuarto grado a lo largo del curso escolar"
     },
@@ -7370,7 +7341,7 @@
       "text": "Named on the school’s Upper School page — environmental group",
       "of": "925b6a78",
       "at": [
-        "gaston-day:catalog.clubs[7].note"
+        "gaston-day:catalog.clubs[6].note"
       ],
       "t": "Nombrado en la página de Upper School del colegio — grupo medioambiental"
     },
@@ -7378,7 +7349,7 @@
       "text": "Members carry a 40-hour annual service requirement against the school-wide 25",
       "of": "fe5ab031",
       "at": [
-        "gaston-day:catalog.clubs[9].note"
+        "gaston-day:catalog.clubs[8].note"
       ],
       "t": "Sus miembros tienen un requisito anual de 40 horas de servicio frente a las 25 de todo el colegio"
     },
@@ -7399,20 +7370,20 @@
       "t": "Gaston Day no publica ningún listado completo de clubes ni de actividades. Todas las organizaciones de arriba aparecen en las propias páginas del colegio o en su Academic Profile. Los estudiantes pueden crear un club nuevo si encuentran un profesor patrocinador, así que el listado real probablemente es más largo."
     },
     {
-      "text": "The two standouts",
-      "of": "cd831763",
+      "text": "The standout",
+      "of": "f98a3d58",
       "at": [
         "gaston-day:catalog.divisions[1].label"
       ],
-      "t": "Los dos más destacados"
+      "t": "La más destacada"
     },
     {
-      "text": "iGEM and VEX Robotics are the distinctive entries. Both appear in the school’s own Academic Profile. iGEM teams won awards over more than a decade, and VEX reached Nationals in the club’s first year.",
-      "of": "0a1ec3d8",
+      "text": "VEX Robotics is the distinctive entry. It is in the 2025–26 profile, and it qualified for TSA VEX Nationals in 2023, the club’s first year.",
+      "of": "c963e531",
       "at": [
         "gaston-day:catalog.divisions[1].text"
       ],
-      "t": "iGEM y VEX Robotics son las entradas distintivas. Ambas aparecen en el propio Academic Profile del colegio. Los equipos de iGEM ganaron premios a lo largo de más de una década, y VEX llegó a las Nationals en el primer año del club."
+      "t": "VEX Robotics es la entrada distintiva. Aparece en el profile de 2025–26, y se clasificó para las TSA VEX Nationals en 2023, el primer año del club."
     },
     {
       "text": "Middle School students take required LEAD sessions alongside chorus, band, art or drama. The Spartan Strong Volunteer Service Award recognizes 50+ hours of service a year.",

@@ -39,11 +39,10 @@
 //   - The platform is Clarity. SSS/NAIS/2318 appear 0 times on the live page,
 //     and Clarity uses no school code.
 //   - Prospective families apply by Jan 22, 2027; current families by
-//     Nov 1, 2026.
-//   - The NC Opportunity Scholarship requirement is GONE ("Opportunity" and
-//     "ncseaa" both 0 occurrences). This repo's own financial-aid research
-//     records that NC Opportunity Scholarship participation "concludes after
-//     2025–26", which is consistent. Do not restate it as mandatory.
+//     Nov 2, 2026 (re-read 2026-11-22; the page said Nov 1 on 2026-09-14).
+//   - The NC Opportunity Scholarship requirement is LIVE again on the page
+//     (2026-11-22): every aid family must also apply, and applications open
+//     Feb 1, 2027. It was absent on 2026-09-14 (plan consistency4, CC-T1).
 //
 // TWO DIFFERENT FEES, NEVER COLLAPSE THEM: the CLARITY aid application fee is
 // $65; the school's ADMISSIONS application fee is $100. The $65 sentence sits
@@ -675,7 +674,7 @@ export const charlotteChristian: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid runs through **Clarity** — the school moved off SSS by NAIS, and no school code is used — is **need-based only** and is capped at **50 percent of tuition**. The Clarity application carries its own **$65 fee**, separate from the $100 admissions application fee, and takes under an hour. **Prospective families apply by Jan 22, 2027**; families already at the school apply by Nov 1, 2026. Awards are made only after a student is accepted.',
+      text: 'Aid runs through **Clarity** — the school moved off SSS by NAIS, and no school code is used — is **need-based only** and is capped at **50 percent of tuition**. The Clarity application carries its own **$65 fee**, separate from the $100 admissions application fee, and takes under an hour. **Prospective families apply by Jan 22, 2027**; families already at the school apply by Nov 2, 2026. Every family applying for aid **must also apply to the NC Opportunity Scholarship Program**, which opens Feb 1, 2027. Awards are made only after a student is accepted.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -824,7 +823,7 @@ export const charlotteChristian: AdmissionsProgram = {
           'Awards are need-based only and the maximum grant is limited to 50 percent of tuition. Awards for new families are not provided until the student has been accepted.',
           'Applications are considered as they are completed, and awards are limited by the funding available at the time of completion — so completing early matters, not just meeting a date.',
           'Clarity runs free family information webinars each fall on the application and how your tax information is checked. The dates are Sept 29 (10 p.m.), Sept 30 (6 p.m.), Oct 27 (10 p.m.), Oct 28 (6 p.m.) and Dec 8, 2026 (8:30 p.m. EST). Each one has its own registration link.',
-          'The aid deadlines are published for this cycle: prospective families apply by Jan 22, 2027 and current families by Nov 1, 2026. Note that Jan 22 falls a week after the Jan 15 admissions deadline for grades 1-12, and three weeks after the Jan 2 JK/K one.',
+          'The aid deadlines are published for this cycle: prospective families apply by Jan 22, 2027 and current families by Nov 2, 2026. Note that Jan 22 falls a week after the Jan 15 admissions deadline for grades 1-12, and three weeks after the Jan 2 JK/K one. Every family applying for aid must also apply to the NC Opportunity Scholarship Program, which opens Feb 1, 2027.',
         ],
       },
       contactPanel: {
@@ -836,7 +835,7 @@ export const charlotteChristian: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are for the 2027–28 entry cycle, as published in the charlottechristian.com admissions PDFs (retrieved Aug 2026). Those are the application-process checklists and the admissions calendar, which the school updated on 26 Aug 2026. Dates also come from the Apply page, which the school rewrote on 1 Sep 2026 and which gives the cycle label. Financial-aid detail is from the live tuition page (retrieved 14 Sep 2026). The older financial-aid PDF covers a past cycle that has closed, and it is deliberately not used here. Cycle dates change from year to year, so check the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Christian School.',
+        'Dates are for the 2027–28 entry cycle, as published in the charlottechristian.com admissions PDFs (retrieved Aug 2026). Those are the application-process checklists and the admissions calendar, which the school updated on 26 Aug 2026. Dates also come from the Apply page, which the school rewrote on 1 Sep 2026 and which gives the cycle label. Financial-aid detail is from the live tuition page (retrieved 22 Nov 2026). The older financial-aid PDF covers a past cycle that has closed, and it is deliberately not used here. Cycle dates change from year to year, so check the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Christian School.',
     },
 
     sources: [
@@ -862,7 +861,7 @@ export const charlotteChristian: AdmissionsProgram = {
       },
       {
         label:
-          'charlottechristian.com — tuition and financial assistance: Clarity as the aid platform, its $65 application fee, the Jan 22 2027 prospective and Nov 1 2026 current-family due dates, the 50 percent cap, the need-based rule and the enrollment, new-family and international fees',
+          'charlottechristian.com — tuition and financial assistance: Clarity as the aid platform, its $65 application fee, the Jan 22 2027 prospective and Nov 2 2026 current-family due dates, the NC Opportunity Scholarship requirement, the 50 percent cap, the need-based rule and the enrollment, new-family and international fees',
         url: 'https://www.charlottechristian.com/admissions/tuition',
       },
       {

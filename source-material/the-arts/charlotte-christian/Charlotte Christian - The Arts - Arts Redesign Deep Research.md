@@ -158,7 +158,7 @@ Source: https://www.charlottechristian.com/fine-arts/theatre
 Source: https://www.charlottechristian.com/fine-arts/theatre
 
 **Tech-theater / stagecraft track — [VERIFIED], and better resourced than the school advertises.** Three converging pieces of evidence:
-- **Courses:** technical directing and stage management are two of the seven theatre electives. https://www.charlottechristian.com/fine-arts/theatre
+- **Courses:** the seven theatre electives (grades 6–12) cover technical directing and stage management; the page does not call them two separate electives. https://www.charlottechristian.com/fine-arts/theatre
 - **Facility:** the venue includes a **scene shop** for set construction and **dressing rooms** — dedicated build space, per the contractor. https://www.rodgersbuilders.com/projects/charlotte-christian-school-2/
 - **Competitive results:** a **Technical Theatre Costume Design Award** at CITA 2016 ([name withheld]) confirms students compete and place in technical categories; the 2013 Blumey **Best Lighting Execution** win confirms technical strength on a mainstage. https://www.charlottechristian.com/cf_news/view.cfm?newsid=1030
 
@@ -467,7 +467,7 @@ Source: https://www.charlottechristian.com/fine-arts
 
 ### Concrete reasons the program holds up
 
-1. **A top-prize Blumey win, plus proof the program is still competitive.** The 2013 *Oklahoma!* **Best Musical** win is confirmed directly by Blumenthal Arts and came as a **four-award sweep** — Best Ensemble/Chorus, Best Choreography Execution, and **Best Lighting Execution** — signaling technical capability, not just strong singing, against a 17-school field. And in **2024**, *Tarzan* earned **finalist slots in all five performance categories** (Best Actor, Actress, Supporting Actor, Supporting Actress, Featured Performer) — a whole-cast result, in a field that had grown to 50. **[VERIFIED]** https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners and https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+1. **A top-prize Blumey win, plus proof the program is still competitive.** The 2013 *Oklahoma!* **Best Musical** win is confirmed directly by Blumenthal Arts and came as a **four-award sweep** — Best Ensemble/Chorus, Best Choreography Execution, and **Best Lighting Execution** — signaling technical capability, not just strong singing, against a 17-school field. And in **2024**, *Tarzan* earned **finalist slots in all five performance categories** (Best Actor, Actress, Supporting Actor, Supporting Actress, Featured Performer) — in a field that had grown to 50. **[VERIFIED]** https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners and https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
 
 2. **A purpose-built 2017 arts facility with TWO performance spaces and a scene shop.** A **518-seat** (LS3P) Center for Worship and Performing Arts, ~20,500–20,800 sq ft, Phase 1 of the master plan — and per the general contractor it also contains a **black box theater**, a **scene shop** for set construction, and **dressing rooms**. Backed by a real ticketing operation (online sales, PDF tickets, HomeTown Fan app) and a themed subscription season. That is infrastructure, not aspiration — and notably, better than the school itself markets. **[VERIFIED]** https://www.rodgersbuilders.com/projects/charlotte-christian-school-2/
 
@@ -674,3 +674,30 @@ Ordered by impact on the parent-facing comparison.
 ### Re-verification 2026-11-20 (plan `consistency`, re-scan)
 
 - https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners (fetched 2026-11-20): "Charlotte Christian School from Mecklenburg County won the Wells Fargo Best Musical Award for their production of Oklahoma." The winners list also gives Best Ensemble/Chorus, Best Choreography Execution and Best Lighting Execution to *Oklahoma!*. No award named "Best Show" appears. The Compare cell `signature-recognition` ("Blumey Best Show") disagrees with this; the Arts cards ("Best Musical") agree.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards (fetched 2026-11-22). Charlotte Christian, Cinderella: a top-six nominee for "Best Supporting Actress" (as Madame), plus finalists in the five performance categories. The "no top-6 nomination since 2013" reading no longer holds.
+- https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf (fetched). Charlotte Christian, Into the Woods: finalists in the same five categories.
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf (fetched). "The students listed below are each production’s finalists in the categories of Best Supporting Actor and Best Supporting Actress." The same wording is used for Best Featured Performer.
+- https://www.charlottechristian.com/fine-arts/theatre (fetched): "seven elective offerings for students in grades 6-12".
+- https://www.charlottechristian.com/fine-arts/visual-art (fetched): "literacy in a variety of media and expressions".
+- https://resources.finalsite.net/images/v1769627723/charlotte/charlotte/charlotte/charlotte/charlotte/charlotte/zfkrvos5nbatuumajvz4/2026-27USCourseCurriculumGuidedocx.pdf (fetched). Jazz Band Honors, Choir Honors and UKnight Worship Honors: "Prerequisite: Audition required". Chamber Ensemble Honors: "Departmental approval". Orchestra and Wind Ensemble Honors: "Departmental approval/instrument proficiency". Choir: "None; open to grades 9-12". The visual-art entries name drawing, painting, graphic design, ceramics, printmaking, clay, plaster and more.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- https://www.charlottechristian.com/cf_news/view.cfm?newsid=854 (fetched; posted 04/24/2015): "Shrek the Musical Receives Three Blumey Nominations": Best Actress (Fiona), Best Actor (Shrek), Best Supporting Actor (Donkey); "39 participating high schools". This supersedes "no nomination since 2013" above.
+- The 2026 Blumey result is NOT built: blumenthalarts.org refused a fetch in this round, and no school page found states it.
+- The curriculum guide was re-read for entry rules and studio media. This supersedes the NOT FOUND lines on audition requirements and media above.
+
+### Re-verification 2026-11-22 (plan consistency4, implement, Blumey lists)
+
+Read by the parent from copies downloaded from blumenthalarts.org earlier on 2026-11-22
+(HTTP 200). The site later refused a request and was not asked again. Student names are
+left out on purpose.
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (final nominees, every category)
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+
+2026, Cinderella: five finalists (Prince Topher, Charlotte, Sebastian, Madame, Coachman). Madame is also a final nominee for Best Supporting Actress.

@@ -1,5 +1,5 @@
 # Gaston Day School — After School
-> Distilled from 1 source document(s) in `source-material/after-school/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 1 source document(s) in `source-material/after-school/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Program Hours and Rates 2026
 
 
@@ -55,7 +55,8 @@ is treated as the current operating window, since an in-year hours change is the
 of the two to be reflected on a page and not in a fee PDF. Both are surfaced, and the
 figures used in the app are copied char-for-char from S2.
 
-**Latest pickup used in the app: 6:00 PM** (S2), on the 12-hour clock per the standing rule.
+**Superseded by the 2026-27 schedule: the latest pickup used in the app is 5:30 PM**, at $100
+a week for Lower School and $60 for Middle School. The conflict above is against the 2025-26 schedule only.
 
 ## Programme detail (S1)
 
@@ -80,7 +81,7 @@ waiting for music lessons may "work on homework at no charge."
 first 5 minutes, then $5 per additional 5-minute increment.**
 
 **Registration and staff.** Register via the **Popsicle** app. Contacts: **Letty Jimenez**
-(980.502.5817) and **Traci Harbin**. Registration is free and stated as taking under five
+(980.502.5817, Ljimenez@gastonday.org) and **Julie Dellibovi** (jdellibovi@gastonday.org). Registration is free and stated as taking under five
 minutes.
 
 **Enrichment.** Enrichment programmes are listed as "coming soon" on the page at the time of
@@ -100,6 +101,41 @@ Staff-to-child ratios, capacity or enrolment caps, whether care runs on early-di
 teacher-workday dates, and summer-vs-term-time distinctions. Recorded as absences. (Summer
 wrap-around care **is** published separately and is documented in the summer-programs file.)
 
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22 (curl, HTTP 200).
+
+- https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf (the 2026-2027 schedule):
+ "Lower School After School Care Fee – 3:00 until 5:30 $100 per week/$30 per day";
+ "Middle School After School Care Fee – 3:15 until 5:30 $60 per week/$15 per day".
+ Also "PLANNED ENRICHMENT PROGRAM: We anticipate offering varying After School Enrichment Programs in Dance,
+ Art/Painting, Cheer, Running (Speedy Spartans), Sports (Volleyball/Basketball) Science & Nature."
+- https://www.gastonday.org/afterschoolprogram/ now reads "The weekly fee is $100 and you will be billed monthly by
+ the Finance Office." (Lower) and "The weekly fee is $60 and you will be billed monthly by the Finance Office."
+ (Middle). Both say "Students must be picked up no later than 5:30pm". Also "There is no charge to sign your child
+ up and registration only takes 5 minutes or less." and "Students who are waiting on music lessons or afternoon
+ practice may work on homework at no charge."
+- So the period and hours conflicts recorded above hold only against the 2025-26 schedule. The page and the 2026-27
+ schedule agree on $100 / $60 a week and 5:30.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+Opened 2026-11-22 (curl, HTTP 200).
+
+- https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf and
+ https://www.gastonday.org/afterschoolprogram/ both give $100 and $60 a week and a 5:30 close. The page bills
+ monthly, and the registration links go to popsicle.app.
+- Derived: 36 assumed weeks x $100 = $3,600 (Lower School) and 36 x $60 = $2,160 (Middle School).
+
+### Re-verification 2026-11-22 (plan consistency4, implement): staff contacts
+
+- https://www.gastonday.org/afterschoolprogram/ (HTTP 200) lists Letty Jimenez (980.502.5817,
+ Ljimenez@gastonday.org) and says "Please contact Julie Dellibovi jdellibovi@gastonday.org if you have
+ any questions or concerns."
+- The second contact this record carried before is no longer on the page, so the card follows the page.
+
 
 ---
 
@@ -107,3 +143,4 @@ wrap-around care **is** published separately and is documented in the summer-pro
 
 - https://www.gastonday.org/afterschoolprogram/
 - https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf
+- https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf

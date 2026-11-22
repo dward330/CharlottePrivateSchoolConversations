@@ -26,7 +26,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
       'Upper School has no Extended Day at all, and no before-school care is published for the school year. The unusually early 1:15 p.m. JK dismissal is backstopped by its own 2:00 p.m. tier.',
     hours: ['1 pm', '2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
     basisNote:
-      'Prices on the bars are the **full-time monthly rate — 5 days a week**, the most common case. Country Day contracts 1–5 days a week, and the cheaper day-counts are substantially less; open **The Cost Planner** below to price any of the 13 published combinations.',
+      'Prices on the bars are the **full-time monthly rate — 5 days a week**, the most common case. Country Day contracts 1–5 days a week, and the cheaper day-counts are substantially less; open **The Cost Planner** below to price any of the 13 published combinations. The 3:00 p.m. pickup is for carpool siblings only.',
     rows: [
       {
         division: 'Junior Kindergarten',
@@ -35,6 +35,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
         endFrac: frac(18),
         tiers: [
           { until: '2:00', price: '$255/mo', endFrac: frac(14) },
+          { until: '3:00', price: '$450', endFrac: frac(15) },
           { until: '3:30', price: '$510', endFrac: frac(15, 30) },
           { until: '4:30', price: '$670', endFrac: frac(16, 30) },
           { until: '6:00', price: '$900', endFrac: frac(18) },
@@ -84,7 +85,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
     ],
     summer: {
       season: 'JUN–JUL',
-      text: '**Country Day Summer Programs** — ages 4–18, to 24 July 2026. The school markets 150+ camps from 8 June; its priced listing has 132 sessions from 1 June. Before-camp care 7:30–9:00 a.m. at $105/wk; afternoon care $85/wk. A **separate summer financial-aid application** exists.',
+      text: '**Country Day Summer Programs** — ages 4–18 (the after-school page says 3–18), to 24 July 2026. The school markets 150+ camps from 8 June; its priced listing has 132 sessions from 1 June. Before-camp care 7:30–9:00 a.m. at $105/wk; afternoon care $85/wk. A **separate summer financial-aid application** exists.',
     },
     facts: [
       { label: 'Program year', text: '19 August 2026 – 25 May 2027' },
@@ -245,11 +246,15 @@ export const charlotteCountryDay: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 20% of students (341) receive tuition aid. Summer programs, by contrast, do have their own aid application.',
+        text: 'No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 20% of students receive tuition aid. The tuition page says $9.4M to 341 students, and Fast Facts says $10.1M to 347. Summer programs, by contrast, do have their own aid application.',
       },
       {
         kind: 'verify',
         text: 'Contract rigidity is real: one change per semester, $50 for any additional change, and **no changes permitted in August or December** — the two months a family is most likely to discover its schedule was wrong.',
+      },
+      {
+        kind: 'verify',
+        text: 'Aid totals differ on two live pages (re-read 2026-11-22, plan consistency4 CCD-T3): the tuition page says **$9.4 million to 341 students**, Fast Facts says **$10.1 million to 347**. Neither is dated. Both are shown, and no winner is picked.',
       },
     ],
     sources: [
@@ -265,6 +270,10 @@ export const charlotteCountryDay: AfterSchoolProgram = {
         label: 'charlottecountryday.org — Tuition & Financial Aid',
         url: 'https://www.charlottecountryday.org/admissions/tuition-financial-aid',
       },
+      {
+        label: 'charlottecountryday.org — About, Fast Facts ($10.1 million to 347 students)',
+        url: 'https://www.charlottecountryday.org/about',
+      },
     ],
   },
 
@@ -272,8 +281,8 @@ export const charlotteCountryDay: AfterSchoolProgram = {
     headline:
       'Extended Day is framed around working families — "more than 50 percent of our two-parent families are dual income," and the program is built to match.',
     subhead:
-      'The school publishes the parts of the afternoon but never puts them in order with clock times. What it does publish in detail is how enrichment works: each division’s class begins exactly at its own dismissal bell.',
-    rhythmTitle: 'Enrichment starts at the bell — published slots and ratios',
+      'The school publishes the parts of the afternoon but never puts them in order with clock times. What it does publish in detail is when enrichment starts. JK, Kindergarten and grades 3–4 classes start at dismissal. Grades 1–2 wait 15 minutes, Middle School 10 and Upper School 30.',
+    rhythmTitle: 'Enrichment after dismissal — published slots and ratios',
     rhythm: [
       {
         time: '1:15–1:45',
@@ -361,7 +370,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
       '**An unusually granular pricing ladder** — 13 rows across five pickup times and five day-counts. A JK family needing 2:00 p.m. coverage twice a week pays $115/month, not a flat care fee.',
       '**A full rate card on the open web.** Contract, drop-in, late and change fees are all published — no "call for pricing".',
       '**Built for working parents by design**, and the school says so: "more than 50 percent of our two-parent families are dual income".',
-      '**Enrichment starts at the dismissal bell** for every division, with published per-grade ratios — no dead gap between school and activity.',
+      '**Enrichment starts soon after dismissal**, with published per-grade ratios. JK, Kindergarten and grades 3–4 start at the bell. Grades 1–2 wait 15 minutes, Middle School 10 and Upper School 30.',
       '**Four enrichment cycles a year**, including a low-commitment 3-week mini at $225, so a child can sample without a season-long commitment.',
       '**Drop-in is a real option**, not a token one — $19/hour with a modest one-time $40 fee.',
       '**An on-site aquatic center** with private and semi-private instruction, open to the public.',
@@ -370,7 +379,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
     watchouts: [
       '**No Upper School coverage.** Extended Day stops at grade 8; grades 9–12 get an enrichment slot and nothing else.',
       '**Cost compounds steeply** — JK at 6:00 p.m. five days a week is $900/month, roughly $8,100 a year on top of $24,515 tuition, about a third again over sticker.',
-      '**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 20% of students (341) receive tuition assistance. Summer programs, by contrast, do have their own aid application.',
+      '**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 20% of students receive tuition assistance. The tuition page says $9.4M to 341 students, and Fast Facts says $10.1M to 347. Summer programs, by contrast, do have their own aid application.',
       '**Contract rigidity** — one change per semester, $50 for any additional change, and no changes at all in August or December.',
       '**The 2026-27 registration deadline has already passed** (5 June 2026), so a family enrolling now may face drop-in rates or a waitlist.',
       '**No published daily schedule.** Components are listed but never sequenced, and there is no homework-help staffing model.',

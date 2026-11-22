@@ -621,3 +621,9 @@ apply to a 9–12 school; its slot becomes "Screening / identification".
 **24 rendered rows: 15 published, 9 NOT STATED, 0 EXCLUDED.** The two Options rows
 (SDI, separate program) are school services for students with developmental disabilities;
 their detail lines must say "Options Program" so they are not read as AAP services.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.charlottecatholic.org/departments/academic-achievement (fetched 2026-11-22). The page states no fee for the Academic Achievement Program and does not say that it is included in tuition.

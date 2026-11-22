@@ -30,7 +30,7 @@ const TUITION = 'https://www.hgchristian.org/tuition-and-fees'
 export const hickoryGroveChristian: AfterSchoolProgram = {
   coverage: {
     headline:
-      'One 2:30–5:30 p.m. window covers the whole school — an Afterschool program for TK–5 and a supervised Study Hall for grades 6–11 — with the latest pickup at 5:30.',
+      'One 2:30–5:30 p.m. window covers TK through at least 11th grade. It holds an Afterschool program for TK–5 and a supervised Study Hall for grades 6–11. The latest pickup is 5:30.',
     subhead:
       'Both are full-year programs (no single-day drop-ins), billed annually in equal payments. The tuition page prices after-school childcare at $2,600 a year for TK–5 and $1,300 for grades 6–12; the Afterschool page describes Study Hall for grades 6–11.',
     hours: ['2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
@@ -135,11 +135,11 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
 
   verdict: {
     headline:
-      'A single, age-split afternoon program that covers the whole school to 5:30 p.m. — with published activities and annual prices, but no summer coverage.',
+      'A single, age-split afternoon program that covers TK through at least 11th grade to 5:30 p.m. — with published activities and annual prices, but no summer coverage.',
     subhead:
       'The open questions are the missing staff ratio, which grades Study Hall serves, and the fact that both tracks are full-year commitments with no drop-in option.',
     strengths: [
-      '**Whole-school coverage in one window** — TK–5 Afterschool and 6–11 Study Hall both run 2:30–5:30 p.m., so there is no division gap.',
+      '**One window for TK through at least 11th grade** — TK–5 Afterschool and 6–11 Study Hall both run 2:30–5:30 p.m.',
       '**A clearly described afternoon** — the TK–5 activity list (homework help, outdoor play, reading, computer lab) and the 6–11 Study Hall framing are published in the school\'s own words.',
       '**An older-grade study track** — Study Hall for grades 6–11 is a genuine supervised-homework option, not just younger-child care.',
       '**A named director** — Belinda Jackson, with a direct phone line, runs the program.',
@@ -155,7 +155,7 @@ export const hickoryGroveChristian: AfterSchoolProgram = {
       'What payment plans are offered for the $2,600 and $1,300 annual rates?',
       'What is the staff-to-child ratio in Afterschool and in Study Hall?',
       'Since there are no drop-ins, is there any way to enroll for only some afternoons a week?',
-      'Are there other "student services fees" beyond the after-school rate, and where can we see them before enrolling?',
+      'What do lunch, athletic and graduation fees cost? Learning Support lists the Educational Support Services fees.',
       'What child-care options exist in the summer, given the program is closed — beyond the half-day camps?',
     ],
     flags: [],

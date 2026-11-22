@@ -187,7 +187,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': '199', // counted from the 2026-2027 Curriculum Guide by course HEADER — 196 coded headers + 3 CPCC dual-enrollment (Academic Skills 508/509 and AP Micro & Macro 953/954 are one header each); prior-year guide had 183
       'charlotte-country-day': '117', // line-by-line count of the Total Index of Courses by Department (p.8), re-read 2026-11-20; 119 had counted two sub-headings
       'charlotte-latin': '122', // 136 live posts on the Upper School course-offerings page minus 14 department intros (re-counted 2026-11-20)
-      'covenant-day': '90', // level-qualified entries across the 9 /academics/high-school department tiles
+      'covenant-day': '89', // level-qualified entries: 86 on the 9 /academics/high-school tiles + 3 only in the Aug 2026 profile (plan consistency4, COV-T4)
       'carmel-christian': '96', // HS catalog across 9 depts (S2/S3/S4), one entry per level = 96 rows; 77 distinct titles (plan consistency CAR-3)
       'davidson-day': '86', // 86 catalog courses (recounted 2026-11-20, plan consistency DD-2); 66 on the 2026-27 offerings grid
       'hickory-grove-christian': '112', // real courses in the 2026-2027 Course Selection Catalog; 117 distinct title strings, 5 of them spelling variants
@@ -206,7 +206,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'scope',
-        text: 'Counted as level-qualified entries across the nine department tiles the school publishes on its own High School academics page — a title offered at CP, Honors and AP counts once per level, matching how the other schools’ catalogs list courses. The older 2026–27 High School Profile course matrix showed 80.',
+        text: '89 entries: 86 on the nine department tiles of the school’s High School academics page, plus three that only its 2026–27 profile lists. A title offered at CP, Honors and AP counts once per level, matching how the other schools’ catalogs list courses. The profile’s own course matrix shows 79.',
       },
       'davidson-day': {
         kind: 'scope',
@@ -261,11 +261,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: {
         kind: 'scope',
-        text: 'From the 2026–27 catalog. The 2026–27 School Profile gives the same total of 27 but splits it 15 AP + 12 AT, because it labels the business course AP and omits AT: English Seminar and Inquiry. The AT courses carry the same weight as an AP.',
+        text: 'From the 2026–27 catalog. The 2026–27 School Profile gives the same total of 27 but splits it 15 AP + 12 AT. It labels the business course AP, omits AT: English Seminar and Inquiry and adds AT: Design Thinking for Entrepreneurship. It also calls AT: English Language and Composition “American Language and Composition”. The AT courses carry the same weight as an AP.',
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'The only school here offering both AP and the full IB Diploma. Beyond the 18 IB courses sit the IB core — Theory of Knowledge, the Extended Essay, and CAS.',
+        text: 'The only school here offering both AP and the full IB Diploma. Beyond the 18 IB courses sit the IB core — Theory of Knowledge, the Extended Essay, and CAS. The 23 AP count is from the 2025–26 guide; the 2026–27 profile counts 26.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -273,7 +273,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'scope',
-        text: '17 AP courses on the school’s own High School academics page, which lists AP Calculus BC and AP French that the older 2026–27 Profile course matrix (15) omitted. Both carry the school’s note that the offering may be impacted by student enrollment, so the catalog flexes year to year — earlier editions ran up to 18.',
+        text: '17 AP courses on the school’s own High School academics page, which lists AP Calculus BC and AP French that the 2026–27 Profile course matrix (15) omits. Both carry the school’s note that the offering may be impacted by student enrollment, so the catalog flexes year to year — earlier editions ran up to 18.',
       },
       'providence-day': {
         kind: 'scope',
@@ -439,7 +439,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'college-support',
     key: 'ap-performance',
     label: 'AP scoring 3+',
-    note: 'Share of AP exams scoring 3 or higher, most recent reported year. Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate.',
+    note: 'Share of AP exams scoring 3 or higher, most recent reported year. Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate. Three schools use another basis: Cannon and Gaston Day report a share of students, and Carmel Christian a share of seniors. Those three do not compare directly with the per-exam figures.',
     values: {
       cannon: '90%', // 90.16% "Students with Scores 3+", May 2026 (446 exams, 195 students)
       'charlotte-christian': '94%', // 2026: 94% of 435 exams (2026–27 profile; no pass count printed)
@@ -680,10 +680,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '45 / 75', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '20 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
-      'charlotte-catholic': '21 / 75', // scored against the 2027 US News National Liberal Arts table; includes all three service academies — Naval #3, Air Force #5, West Point #10
+      'charlotte-catholic': '21 / 75', // scored against the 2027 US News National Liberal Arts table; includes three of the five federal service academies — Naval #3, West Point #9, Air Force #11
       'charlotte-country-day': '50 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '48 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
-      'covenant-day': '10 / 75', // Davidson, Furman, Macalester, Rhodes, Sewanee, Richmond, USAFA, Wofford, Gettysburg
+      'covenant-day': '10 / 75', // USAFA #11 through Bard #72: also Davidson, Furman, Gettysburg, Macalester, Rhodes, Richmond, Sewanee, Wofford
       'carmel-christian': '11 / 75', // counted from the cats list; the dossier enumerates all ten, so the earlier 7 undercounted
       'davidson-day': '31 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
       'hickory-grove-christian': '9 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists)
@@ -694,7 +694,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Scored against the 2027 US News National Liberal Arts table, and includes all three service academies — Naval #3, Air Force #5 and West Point #10. CCHS reported three Naval Academy appointments in 2025, and one Naval Academy and one West Point appointment in 2026.',
+          'Scored against the 2027 US News National Liberal Arts table, and includes three of the five federal service academies — Naval #3, West Point #9 and Air Force #11. CCHS reported three Naval Academy appointments in 2025, and one Naval Academy and one West Point appointment in 2026.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -787,7 +787,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '8 / 107', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
       'davidson-day': '5 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
       'hickory-grove-christian': '23 / 107', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists)
-      'gaston-day': '5 / 107', // Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo (Tougaloo also holds Liberal Rank #180)
+      'gaston-day': '5 / 107', // Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo
       'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -798,7 +798,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'scope',
-        text: 'Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo. Tougaloo also holds a 2026 Liberal Arts rank (#180), so it scores in two buckets.',
+        text: 'Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo.',
       },
       cannon: { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-christian': { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -1109,7 +1109,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$14,400',
       'davidson-day': '$25,010',
       'hickory-grove-christian': '$11,900',
-      'gaston-day': '$19,500',
+      'gaston-day': '$20,300',
       'providence-day': '$32,960',
     },
     subs: {
@@ -1121,7 +1121,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 · grades 1–5)',
       'davidson-day': '(2026–27 · K–4)',
       'hickory-grove-christian': '(2026–27 · TK–5)',
-      'gaston-day': '(2025–26 · K–4)',
+      'gaston-day': '(2026–27 · K–4)',
       'providence-day': '(2026–27 · grades 1–5)',
     },
     quals: {
@@ -1133,7 +1133,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': { kind: 'scope', text: 'The Grades 1–5 band. Kindergarten is $12,500; the school has no pre-K program.' },
       'davidson-day': { kind: 'scope', text: 'The Lower (K–4) band. The Early Childhood band, from two-year-olds through Junior Kindergarten, is $22,590.' },
       'hickory-grove-christian': { kind: 'scope', text: 'One Elementary band covers TK through grade 5 ($11,900), the school’s own 2026–27 yearly rate.' },
-      'gaston-day': { kind: 'scope', text: 'The Kindergarten–4th all-in band (tuition plus fees, as the school’s own schedule totals it). Preschool/Pre-K is $10,890 full day or $8,775 half day.' },
+      'gaston-day': { kind: 'scope', text: 'The Kindergarten–4th all-in band (tuition plus fees, as the school’s own schedule totals it). Preschool/Pre-K is $11,340 full day or $9,145 half day.' },
       'providence-day': { kind: 'scope', text: 'The Grades 1–5 band, which prices grade 5, the last Lower School year at Providence Day. Transitional Kindergarten is $25,510 and Kindergarten $28,010.' },
     },
   },
@@ -1154,7 +1154,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$17,100',
       'davidson-day': '$26,320',
       'hickory-grove-christian': '$12,900',
-      'gaston-day': '$21,425',
+      'gaston-day': '$22,300',
       'providence-day': '$36,325',
     },
     subs: {
@@ -1166,7 +1166,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 · grades 6–8)',
       'davidson-day': '(2026–27 · grades 5–8)',
       'hickory-grove-christian': '(2026–27 · grades 6–8)',
-      'gaston-day': '(2025–26 · grades 5–8)',
+      'gaston-day': '(2026–27 · grades 5–8)',
       'providence-day': '(2026–27 · grades 6–12)',
     },
     quals: {
@@ -1189,11 +1189,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': '$21,562', // MACS Community rate, grades 9-12, 2026-27 (the report's own comparison rate). High International $23,562; Participating Catholic $15,041; capital fee $1,995/family
       'charlotte-country-day': '$34,075', // Grades 9–12, 2026–27
       'charlotte-latin': '$36,500', // Grades 9–12, 2026–27
-      'covenant-day': '$22,790', // Grades 9–12, 2026–27 (website table; the 2025-26 terms PDF shows $21,590)
+      'covenant-day': '$22,790', // Grades 9–12, 2026–27 (website table and 2026-27 terms PDF; the 2025-26 terms show $21,590)
       'carmel-christian': '$18,750', // Grades 9–12, 2026-27 (+$550 tech 9th, +$200 senior fee)
       'davidson-day': '$26,910', // Upper School 9–12, 2026–27
       'hickory-grove-christian': '$14,100', // Grades 9–12; the school's own 2026–27 Tuition and Fees page (re-checked 2026-11-10)
-      'gaston-day': '$22,390', // Grades 9-12 all-in, 2025-26: tuition $20,215 + fees $2,175, as the school's own schedule totals it
+      'gaston-day': '$23,310', // Grades 9-12 all-in, 2026-27: tuition $21,025 + fees $2,285, as the school's own schedule totals it
       'providence-day': '$36,325', // Grades 6–12, 2026–27
     },
     subs: {
@@ -1206,7 +1206,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 · grades 9–12)',
       'davidson-day': '(2026–27 · grades 9–12)',
       'hickory-grove-christian': '(2026–27 · grades 9–12)',
-      'gaston-day': '(2025–26 · grades 9–12)',
+      'gaston-day': '(2026–27 · grades 9–12)',
       'providence-day': '(2026–27 · grades 6–12)',
     },
     quals: {
@@ -1242,7 +1242,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$210,800',
       'davidson-day': '$360,560',
       'hickory-grove-christian': '$178,400',
-      'gaston-day': '$283,650',
+      'gaston-day': '$295,280',
       'providence-day': '$472,595',
     },
     subs: {
@@ -1254,7 +1254,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 rates · K–12, 13 years)',
       'davidson-day': '(2026–27 rates · JK–12, 14 years)',
       'hickory-grove-christian': '(2026–27 rates · TK–12, 14 years)',
-      'gaston-day': '(2025–26 rates · PK–12, 14 years)',
+      'gaston-day': '(2026–27 rates · PK–12, 14 years)',
       'providence-day': '(2026–27 rates · TK–12, 14 years)',
     },
     quals: {
@@ -1266,7 +1266,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': { kind: 'scope', text: 'Thirteen years, not fourteen: Carmel Christian has no pre-K program, so this run starts at Kindergarten — one year at $12,500, five at Grades 1–5, three at Grades 6–8 and four at Grades 9–12, all at 2026–27 rates.' },
       'davidson-day': { kind: 'scope', text: 'One year at the Early Childhood band ($22,590), which is the school’s single published rate for two-year-olds through Junior Kindergarten, then five years at Lower (K–4), four at Middle and four at Upper, all at 2026–27 rates. The school’s Financial Aid report gives the K–12 run alone as $337,970.' },
       'hickory-grove-christian': { kind: 'scope', text: 'Seven years at the TK–5 Elementary band, three at Grades 6–8 and four at Grades 9–12, at the school’s own 2026–27 rates.' },
-      'gaston-day': { kind: 'scope', text: 'One year at the full-day Preschool/Pre-K rate ($10,890; the half-day rate is $8,775), five at Kindergarten–4th, four at 5th–8th and four at 9th–12th, using the school’s all-in bands (tuition plus fees) for 2025–26.' },
+      'gaston-day': { kind: 'scope', text: 'One year at the full-day Preschool/Pre-K rate ($11,340; half day is $9,145), five at Kindergarten–4th, four at 5th–8th and four at 9th–12th. Each uses the school’s all-in 2026–27 band (tuition plus fees).' },
       'providence-day': { kind: 'scope', text: 'One year at Transitional Kindergarten, one at Kindergarten, five at Grades 1–5 and seven at Grades 6–12, all at 2026–27 rates. The same figure the school’s Financial Aid report gives as its full run.' },
     },
   },
@@ -1287,7 +1287,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$126,300',
       'davidson-day': '$212,920',
       'hickory-grove-christian': '$95,100',
-      'gaston-day': '$175,260',
+      'gaston-day': '$182,440',
       'providence-day': '$254,275',
     },
     subs: {
@@ -1299,13 +1299,13 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 rates · grades 6–12)',
       'davidson-day': '(2026–27 rates · grades 5–12)',
       'hickory-grove-christian': '(2026–27 rates · grades 6–12)',
-      'gaston-day': '(2025–26 rates · grades 5–12)',
+      'gaston-day': '(2026–27 rates · grades 5–12)',
       'providence-day': '(2026–27 rates · grades 6–12)',
     },
     quals: {
       'charlotte-latin': { kind: 'scope', text: 'Seven years: three at the Grades 6–8 band and four at Grades 9–12, all at 2026–27 rates.' },
       'hickory-grove-christian': { kind: 'scope', text: 'Seven years: three at Grades 6–8 and four at Grades 9–12, at the school’s own 2026–27 rates.' },
-      'gaston-day': { kind: 'scope', text: 'Eight years: four at 5th–8th and four at 9th–12th, using the school’s all-in bands (tuition plus fees) for 2025–26.' },
+      'gaston-day': { kind: 'scope', text: 'Eight years: four at 5th–8th and four at 9th–12th, using the school’s all-in bands (tuition plus fees) for 2026–27.' },
       'providence-day': { kind: 'scope', text: 'Seven years at the Grades 6–12 band, all at 2026–27 rates.' },
     },
   },
@@ -1326,7 +1326,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$75,000',
       'davidson-day': '$107,640',
       'hickory-grove-christian': '$56,400',
-      'gaston-day': '$89,560',
+      'gaston-day': '$93,240',
       'providence-day': '$145,300',
     },
     subs: {
@@ -1339,13 +1339,13 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 rates · grades 9–12)',
       'davidson-day': '(2026–27 rates · grades 9–12)',
       'hickory-grove-christian': '(2026–27 rates · grades 9–12)',
-      'gaston-day': '(2025–26 rates · grades 9–12)',
+      'gaston-day': '(2026–27 rates · grades 9–12)',
       'providence-day': '(2026–27 rates · grades 9–12)',
     },
     quals: {
       'charlotte-catholic': { kind: 'scope', text: 'Four years at the Community rate ($21,562), the figure the Upper School row shows. A participating Catholic family would pay $60,164 over the same four years, and an international student $94,248.' },
       'hickory-grove-christian': { kind: 'scope', text: 'Four years at the Grades 9–12 band ($14,100), the school’s own 2026–27 rate.' },
-      'gaston-day': { kind: 'scope', text: 'Four years at the 9th–12th all-in band (tuition plus fees, as the school’s own schedule totals it) for 2025–26.' },
+      'gaston-day': { kind: 'scope', text: 'Four years at the 9th–12th all-in band (tuition plus fees, as the school’s own schedule totals it) for 2026–27.' },
       'providence-day': { kind: 'scope', text: 'Four years at the Grades 6–12 band ($36,325), the same figure the school’s Financial Aid report gives for a 9–12 run.' },
     },
   },
@@ -1353,7 +1353,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'financial-aid-tuition',
     key: 'pct-aid',
     label: '% receiving aid',
-    note: 'Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian, Covenant Day, Carmel Christian, Davidson Day & Hickory Grove Christian do not publish this.',
+    note: 'Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian, Charlotte Catholic, Covenant Day, Carmel Christian, Davidson Day & Hickory Grove Christian do not publish this.',
     values: {
       cannon: '24%', // 24% of students, 2025–26 · restated, undated, in the 2026–27 profile
       'charlotte-christian': null, // share receiving aid not published
@@ -1374,7 +1374,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'Approximately 20% of the student body, per the 2026–27 School Profile ($9.4M); the profile does not date the figure.',
+        text: 'Approximately 20% of the student body, per the 2026–27 School Profile and the tuition page. The tuition page says $9.4M to 341 students; Fast Facts says $10.1M to 347. The school does not date either figure.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -1390,7 +1390,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'financial-aid-tuition',
     key: 'aid-awarded',
     label: 'Aid awarded / year',
-    note: 'Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian & Davidson Day do not publish a total.',
+    note: 'Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian, Charlotte Catholic, Covenant Day, Carmel Christian, Davidson Day, Gaston Day & Hickory Grove Christian do not publish a total.',
     values: {
       cannon: '$3.0M', // $3,000,000 in 2025–26 · restated, undated, in the 2026–27 profile
       'charlotte-christian': null, // total awarded not published
@@ -1411,7 +1411,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: '$9.4M in financial aid to about 20% of students, per the 2026–27 School Profile; the profile does not say which year the figure covers.',
+        text: '$9.4M in financial aid to about 20% of students, per the 2026–27 School Profile. The tuition page gives the same $9.4M, to 341 students, while Fast Facts says $10.1M to 347. The school does not say which year either figure covers.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -1539,13 +1539,13 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: 'NCTC festival', // competes in NC Theatre Conference HS Play Festival
       'charlotte-christian': 'Blumey Best Musical (2013)', // Wells Fargo Best Musical for Oklahoma! (2013), one of four awards that year; https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners
-      'charlotte-catholic': '5 Blumey finalists (2025)', // one finalist in each of the five individual performance categories, for Fiddler on the Roof; 5 further placements in 2026 for The Wizard of Oz, no win either year
-      'charlotte-country-day': '31+ Blumey noms', // 31+ Blumey Award nominations
+      'charlotte-catholic': '5 Blumey finalists (2025)', // one finalist in each of the five individual performance categories, for Fiddler on the Roof; 5 more finalists in 2026 for The Wizard of Oz, no win either year
+      'charlotte-country-day': '2 Blumey wins (2022)', // Best Choreography + Best Direction 2022; replaces the school's 31+ nominations claim, which the lists do not rebuild (user ruling 2026-11-22)
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
       'covenant-day': '2 Blumey wins', // Best Featured Performer 2013 + Student Critic Award 2016; 8 recognitions 2013-2019
       'carmel-christian': '2026 Blumey — Best Actress', // [name withheld], Footloose; advances to the Jimmy Awards
-      'davidson-day': null, // no signature recognition named
-      'hickory-grove-christian': '2025–26 Blumey noms', // nominees/finalists both years (Seussical, The Little Mermaid); no win
+      'davidson-day': '5 Blumey finalists (2026)', // Big Fish, five finalists — the-arts/davidson-day Blumey Verification 2026 (plan consistency4, DD-T5)
+      'hickory-grove-christian': '2025–26 Blumey finalists', // five finalists both years (Seussical, The Little Mermaid), one nominee in 2025; no win
       'gaston-day': '6-yr superior ratings', // chorus "superior" in regional adjudications over six years; plus UNCSA and Governor's School admissions
       'providence-day': 'Blumey recognition', // repeated Blumey Awards recognition
     },
@@ -1553,7 +1553,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Five Blumey Award finalists in 2025, one in each of the five individual performance categories, all for Fiddler on the Roof. Five further placements followed in 2026 for The Wizard of Oz — four nominees and one finalist. CCHS has not won a Blumey in either year.',
+          'Five Blumey Award finalists in 2025, one in each of the five individual performance categories, all for Fiddler on the Roof. Five more finalists followed in 2026, for The Wizard of Oz. None was a top-six nominee. CCHS has not won a Blumey in either year.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -1569,7 +1569,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: '31+ nominations at the Blumey Awards, the Charlotte region’s high-school musical-theatre awards — a breadth-of-recognition figure rather than a single win.',
+        text: 'Country Day won Best Choreography and Best Direction in 2022 at the Blumey Awards, the Charlotte region’s high-school musical-theater awards. The school also reports 31+ nominations across all years.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -1587,9 +1587,13 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'The 2026 Blumey Award for Best Actress — a student, for Footloose. The winner advances to the national Jimmy Awards.',
       },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'Five Blumey Award finalists in 2026 for Big Fish: Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress and Best Featured Performer. No win is recorded. The Blumeys are the Charlotte region’s high-school musical-theater awards.',
+      },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'Blumey Award nominees and finalists in back-to-back seasons — Seussical (2025) and Disney’s The Little Mermaid (2026), with two performers recurring. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
+        text: 'Five Blumey Award finalists in each of two seasons: Seussical (2025), with a top-six Best Featured Performer nominee, and Disney’s The Little Mermaid (2026). Three performers recur. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
       },
     },
   },
@@ -1603,10 +1607,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '2 AP + 9 Honors', // 2026–27 profile, p.3 Fine Arts: AP Art History, AP Art & Design + 9 Honors (incl. Broadcasting). B (plan consistency3, CC-S3): the 2026–27 curriculum guide also lists AP Music Theory and two more Honors ensembles; both are named in the qual, no value picked.
       'charlotte-catholic': '1 AP + 12 Honors', // AP Studio Art is the only AP arts course — no AP Music Theory, no AP Art History, confirmed by sweeping all 199 courses. An AP-only count would misread a 39-course department
       'charlotte-country-day': 'AP + IB', // AP and IB arts pathways (rare dual offering)
-      'charlotte-latin': null, // not detailed
+      'charlotte-latin': '1 AP', // AP Music Theory ("Music Theory AP"), the one AP among the Upper School course page's arts courses; re-read 2026-11-22 (plan consistency4 LAT-T8)
       'covenant-day': 'AP Studio Art', // + Honors Studio Art and Honors Auditioned Theatre
       'carmel-christian': '1 AP + 3 Honors', // AP 2-D Art & Design, Honors Art III, Honors Art IV, Honors Acting Studio (course offerings; plan consistency CAR-22)
-      'davidson-day': null, // not detailed
+      'davidson-day': 'AP Studio Art', // the 2026-27 catalog; the 2026-27 profile does not print it — both named in the qual, no winner picked (plan consistency4, DD-T5)
       'hickory-grove-christian': 'AP 2D Studio Art', // atop the Art I–IV studio sequence; the school's own course name (live Visual Arts page + 2026–27 catalog, checked 2026-11-10)
       'gaston-day': 'Visual Art IV (H)', // the terminal visual-arts course — there is no AP Studio Art or AP Art History in the profile's table
       'providence-day': '3 AP arts', // AP Art and Design, AP Art History, AP Music Theory
@@ -1633,6 +1637,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'AP Studio Art tops the visual path (Intro to Art → Art 2/3 → Honors Studio Art → AP Studio Art). On the performing side, the advanced courses are Choir Honors, Symphonic Band Honors and Honors Auditioned Theatre.',
       },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'AP Music Theory is the only AP arts course. The Upper School course list has no AP studio art.',
+      },
       'providence-day': {
         kind: 'scope',
         text: 'Three AP arts courses: AP Art and Design, AP Art History, and AP Music Theory.',
@@ -1640,6 +1648,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': {
         kind: 'scope',
         text: 'The school’s 2026–27 profile lists two AP arts courses, AP Art History and AP Art & Design. It also lists nine Honors Fine Arts courses: Acting Studio, Art III, Broadcasting, Upper School Choir, Digital Design and Animation II, Digital Music II, Jazz Band, Orchestra and Wind Ensemble. The 2026–27 curriculum guide also lists AP Music Theory (no description) and two more Honors ensembles, Chamber Ensemble and UKnight Worship.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'The 2026–27 course catalog lists one arts AP, AP Studio Art, which needs department approval. The 2026–27 School Profile’s course list does not print it.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -1657,12 +1669,12 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '40+ electives', // 40+ arts electives across four areas
       'charlotte-catholic': '12 ensembles', // 12 named ensembles carrying course codes; Marching Band, Symphonic Band and Jazz Band also run without a code of their own
       'charlotte-country-day': '8 ensembles', // 8 vocal/instrumental groups
-      'charlotte-latin': null, // no count stated
+      'charlotte-latin': '3 ensembles', // Band, Orchestra, Concert Choir, each "Grades 5-12" on /the-arts/performing; re-read 2026-11-22 (plan consistency4 LAT-T8)
       'covenant-day': '9 ensembles', // Children's Choir, MS Band/Choir/Worship, Symphonic Band, HS Choir/Worship/A Cappella + gr.5 intro
       'carmel-christian': '3', // Symphonic Band, Choir, Ignite Band
-      'davidson-day': null, // no count stated
+      'davidson-day': '2 ensembles', // Contemporary Ensemble + the auditioned Theatre Performance Ensemble, 2026-27 catalog (plan consistency4, DD-T5)
       'hickory-grove-christian': '3 ensembles', // HS: Concert Band, Chapel Band, High School Choir (no orchestra); Jazz Band dropped 2026-11-10 — not on the live site or the 2026–27 catalog
-      'gaston-day': '3 ensembles', // US Vocal Performance Ensemble, MS Instrumental Ensemble, MS Chorus (Band and Concert Choir also run as courses)
+      'gaston-day': '3 ensembles', // Upper School: Band, Concert Choir, Vocal Performance Ensemble (the high-school basis; the MS Instrumental Ensemble and Chorus are named in the qual)
       'providence-day': '6 ensembles', // 3 curricular (Band, Orchestra, Chorus) + 3 auditioned (Jazz Ensemble, A Cappella, The ChargHers), as the Arts tile counts them
     },
     quals: {
@@ -1673,7 +1685,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'scope',
-        text: 'Three named ensembles: the Upper School Vocal Performance Ensemble, the MS Instrumental Ensemble (woodwinds, brass, percussion, piano, guitar) and the Middle School Chorus. Band and Concert Choir also run as credit-bearing fine-arts courses but are not counted here as ensembles.',
+        text: 'Three Upper School ensembles: Band, Concert Choir and the Vocal Performance Ensemble. Band and Concert Choir also carry fine-arts credit. The Middle School has its own Instrumental Ensemble and Chorus.',
       },
       cannon: {
         kind: 'scope',
@@ -1683,17 +1695,25 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'minimum',
         text: '40+ arts electives across four areas — a stated floor rather than an exact catalog count.',
       },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Band, Orchestra and Concert Choir, each offered in grades 5–12. The Community Chorale and the Acapella Club are not counted.',
+      },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'Eight vocal and instrumental groups across Middle and Upper School, spanning auditioned honors ensembles and open-enrollment groups.',
+        text: 'Eight vocal and instrumental groups across Middle and Upper School, spanning auditioned honors ensembles and entry groups.',
       },
       'covenant-day': {
         kind: 'scope',
-        text: 'Nine named ensembles across the divisions — CDS Children’s Choir (3–5), MS Band, MS Choir, MS Worship Band, Symphonic Band, HS Choir, HS Worship Band, HS A Cappella, and the grade-5 intro ensembles — plus a Tri-M Music Honor Society chapter. Worship bands at both MS and HS are the distinctive rung.',
+        text: 'Nine named ensembles across the divisions. The CDS Children’s Choir is grades 3–5 on the music page and 4–5 on the Lower School page. Middle School has MS Band, MS Choir and MS Worship Band. High School has Symphonic Band, HS Choir, HS Worship Band and HS A Cappella. The grade-5 intro ensembles complete the nine. There is also a Tri-M Music Honor Society chapter. Worship bands at both MS and HS set the program apart.',
       },
       'providence-day': {
         kind: 'scope',
         text: 'Three curricular ensembles (Band, Orchestra, Chorus) and three auditioned groups (Jazz Ensemble, A Cappella, The ChargHers).',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'Two Upper School ensembles that carry credit: Contemporary Ensemble, a rock band open to all, and the auditioned Theatre Performance Ensemble, a theater company.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -1724,13 +1744,13 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: '≥20', // 8 named US orgs + 12 US honor societies (NHS chapter 2025); no chartered directory published
       'charlotte-christian': '23', // 23 named US orgs (part of 38 across JK–12)
       'charlotte-catholic': '76', // counted from the clubs directory's raw HTML — 6 categories: Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. The school profile's 'over 50' is a round prose figure
-      'charlotte-country-day': '~45–50', // school publishes a range; only 7 confirmed by name
+      'charlotte-country-day': '~45–50', // school publishes a range; only 11 confirmed by name
       'charlotte-latin': '25', // 22 of the 27 listed US clubs (5 arts/writing clubs excluded, as at PD) + 3 groups listed separately
       'covenant-day': '≥10', // school-named Upper School groups only (user, 2026-11-10, plan plainclubs): 5 clubs/teams + 5 honor societies; the third-party roster was removed
       'carmel-christian': '~5', // standing HS bodies: NHS, Beta, Spanish Honor Society, Student Council, Timothy Project
       'davidson-day': '≥3', // school-named Upper School groups only (user, 2026-11-10, plan plainclubs); the 9 PrivateSchoolReview clubs were removed
       'hickory-grove-christian': '≥4', // school-named high school groups only (user, 2026-11-10, plan plainclubs); the 27-org PrivateSchoolReview roster was removed
-      'gaston-day': '≥10', // school-named only (user ruling 2026-11-10, plan thespianname): 9 clubs/organizations + NHS named on gastonday.org and the Academic Profiles; the 20 third-party-only entries were removed. A floor — students may start clubs
+      'gaston-day': '≥9', // school-named only (user ruling 2026-11-10, plan thespianname; iGEM dropped 2026-11-22, plan consistency4): 8 clubs/organizations + NHS named on gastonday.org and the Academic Profiles; the 20 third-party-only entries were removed. A floor — students may start clubs
       'providence-day': '77', // official 25–26 US list, 5 arts clubs excluded
     },
     quals: {
@@ -1741,7 +1761,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: {
         kind: 'minimum',
-        text: 'Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 12 Upper School honor societies. The live roster shifts year to year and is not fully disclosed.',
+        text: 'Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 12 Upper School honor societies. A school news post also announces a Science National Honor Society chapter, which is not counted here. The live roster shifts year to year and is not fully disclosed.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -1749,7 +1769,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'range',
-        text: 'The school publishes a range rather than a list — its Upper School page cites “nearly 50 clubs” and the 2025–26 profile lists “45 different clubs and activities.” Only 7 are confirmed by name in public sources.',
+        text: 'The school publishes a range rather than a list — its Upper School page cites “nearly 50 clubs” and the 2025–26 profile lists “45 different clubs and activities.” Only 11 are confirmed by name in public sources.',
       },
       'covenant-day': {
         kind: 'minimum',
@@ -1778,7 +1798,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       // Added by plan plainclubs (2026-11-10): the ≥10 floor shipped in #478 without a tip.
       'gaston-day': {
         kind: 'minimum',
-        text: 'Gaston Day publishes no full club list, so this is a documented floor. It counts the 10 organizations the school names on its own website and Academic Profiles. They are iGEM, VEX Robotics, 3-D Printing Club, Blutopia, Yearbook, Upper School Student Government, Peer Mentoring, Green Team, International Council and the National Honor Society.',
+        text: 'Gaston Day publishes no full club list, so this is a documented floor. It counts the 9 organizations the school names on its own website and Academic Profiles. They are VEX Robotics, 3-D Printing Club, Blutopia, Yearbook, Upper School Student Government, Peer Mentoring, Green Team, International Council and the National Honor Society.',
       },
     },
   },
@@ -1803,7 +1823,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '2022 NCISAA 4A basketball title', // def. Greensboro Day 71-66 (Cade Tyson 31 pts)
       'davidson-day': null, // no school-published competitive club result; the Battle of the Books regional first place appears on no davidsonday.org page (removed 2026-11-10, plan plainclubs)
       'hickory-grove-christian': null, // no competitive club result published in any source (confirmed null)
-      'gaston-day': 'iGEM gold medal', // school's 2023-24 Academic Profile: iGEM Silver, Gold and Bronze awards over a decade; plus TSA VEX Nationals qualification in 2023 (2025-26 profile)
+      'gaston-day': 'VEX Nationals qualifier (2023)', // 2025-26 profile; iGEM dropped 2026-11-22, no proof it is still active (plan consistency4)
       'providence-day': 'DECA → ICDC ’26', // DECA advanced to national ICDC 2026
     },
     quals: {
@@ -1814,7 +1834,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'official',
-        text: 'The iGEM gold medal is the school\'s strongest published competitive result. The school says its research teams competed in iGEM, a synthetic-biology research competition, for over a decade and won Silver, Gold and Bronze awards. The VEX Robotics team separately qualified for TSA VEX Nationals in 2023, its first year competing.',
+        text: 'The school’s VEX Robotics club qualified for TSA VEX Nationals in 2023, its first year competing. It is the strongest result the school publishes for a current club.',
       },
       cannon: {
         kind: 'scope',
@@ -1901,16 +1921,16 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'End of the Lower-School extended-care/aftercare day. Verify current hours with the school.',
     values: {
       // Sourced from each school’s after-school research note:
-      'charlotte-country-day': '6:00 PM', // "Structured Care to 6 pm"
+      'charlotte-country-day': '6:00 PM', // Extended Day, JK through grade 8, until 6 pm
       'charlotte-latin': '6:00 PM', // Hawks’ Club, 1:30–6:00 p.m.
       'covenant-day': '6:00 PM', // Extended Day, JK-8, last session 4:30–6:00 p.m.
       'carmel-christian': '6:00 PM', // After School / After YCC 3:00–6:00 PM
       'davidson-day': '6:00 PM', // Extended Care, 2:45–6:00 p.m.
       'hickory-grove-christian': '5:30 PM', // Afterschool (TK–5) & Study Hall (6–11), 2:30–5:30 p.m.
-      'gaston-day': '6:00 PM', // per the 2025-26 fee schedule (LS 3:00-6:00, MS 4:00-6:00); the programme page states 5:30 PM — see the discrepancy flag
+      'gaston-day': '5:30 PM', // the 2026-27 fee schedule (LS 3:00-5:30, MS 3:15-5:30) and the program page agree (re-read 2026-11-22)
       cannon: '6:00 PM', // After School Program, 3:00–6:00 p.m. on regular days
       'providence-day': '6:00 PM', // Extended Day (TK–5) and MS Clubhouse both close at 6:00
-      // The only school whose divisions diverge: Lower School Extended Day runs
+      // Charlotte Christian's divisions diverge: Lower School Extended Day runs
       // to 6:00 but Middle School stops at 5:00. This row asks for the
       // Lower-School hour (see `note`), so 6:00 is the answer to the question
       // posed — the Middle School caveat lives in the tooltip rather than
@@ -1921,7 +1941,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     quals: {
       'gaston-day': {
         kind: 'scope',
-        text: '6:00 PM is from the school\'s own 2025-26 Schedule of Tuition and Fees (Lower School 3:00–6:00, Middle School 4:00–6:00). The After School Program web page states 5:30 PM for both divisions — the two school sources disagree, and a family should confirm the current window.',
+        text: 'The school’s 2026–27 fee schedule runs Lower School care 3:00–5:30 and Middle School care 3:15–5:30. Its After School Program page also says pickup is no later than 5:30 p.m.',
       },
       cannon: {
         kind: 'scope',
@@ -1929,11 +1949,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'scope',
-        text: '6:00 p.m. is the Lower School figure: Extended Day (JK–4) runs from dismissal to 6:00 p.m., and the school states that all Extended Day care ends promptly at 6 p.m. Middle School (grades 5–8) is a separate program that ends at 5:00 p.m., a full hour earlier, with its own late fee from 5:01 p.m. This is the only school on the roster whose divisions differ, so read this row as Lower School and confirm Middle School hours separately.',
+        text: '6:00 p.m. is the Lower School figure. Extended Day (JK–4) runs until then, and the school says all of its care ends promptly at 6 p.m. Middle School (grades 5–8) is a separate program. It ends an hour earlier, at 5:00 p.m., with its own late fee from 5:01 p.m. Read this row as the Lower School hour, and confirm Middle School hours separately.',
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'The Lower School’s Structured Care program runs until 6:00 p.m. Confirm current hours with the school.',
+        text: 'Extended Day serves JK through grade 8 until 6:00 p.m. Confirm current hours with the school.',
       },
       'providence-day': {
         kind: 'scope',
@@ -1957,7 +1977,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'official',
-        text: 'The Afterschool program (TK–5) and Study Hall (grades 6–11) share one 2:30–5:30 p.m. window, so 5:30 p.m. is the latest pickup — earlier than the 6:00 p.m. the other schools offer.',
+        text: 'The Afterschool program (TK–5) and Study Hall (grades 6–11) share one 2:30–5:30 p.m. window, so 5:30 p.m. is the latest pickup.',
       },
     },
   },
@@ -1982,7 +2002,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: 'Cost of after-school care',
     // No leader tint: this is a price, so the highest value is the worst one.
     noLead: true,
-    note: 'The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes. Where a school bills monthly and publishes no month count, the year is 9 billing months. Where it publishes an annual or semester price, the monthly figure spreads it over 10 months. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.',
+    note: 'The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it, except Gaston Day’s, which is the weekly rate that school publishes. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes. Where a school bills monthly and publishes no month count, the year is 9 billing months. Where it publishes an annual or semester price, the monthly figure spreads it over 10 months. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.',
     values: {
       cannon: '≈$378/mo', // $3,784/yr ÷ 10 — Cannon publishes the ANNUAL figure only
       'charlotte-christian': '$325/mo', // JK–Grade 4 Extended Day to 6:00 p.m., 5 days/wk, 2026-27
@@ -1993,7 +2013,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$245/mo', // After School / After YCC 5-day to 6:00 p.m., 2026-27
       'davidson-day': null, // publishes no extended-care pricing — its Extended Care page 404s
       'hickory-grove-christian': '≈$260/mo', // $2,600/yr ÷ 10 — the TK–5 annual price on the Tuition and Fees page (published since at least 2026-11-20, plan consistency HG-16); $35/day Adventure Days is a separate out-of-session program
-      'gaston-day': '$95/wk', // Lower School weekly rate, 2025-26 fee schedule; MS $55/wk; drop-in $30/day LS and $15/day MS
+      'gaston-day': '$100/wk', // Lower School weekly rate, 2026-27 fee schedule; MS $60/wk; drop-in $30/day LS and $15/day MS
       'providence-day': '$750/mo', // TK · 1–6 p.m. tier · 5 days/wk, 2026-27
     },
     tileBasis: {
@@ -2021,11 +2041,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'scope',
-        text: '$95/week is the Lower School (PS–4th) rate on the 2025-26 fee schedule; Middle School (5th–8th) is $55/week. Drop-in is $30/day and $15/day respectively. The program web page labels the recurring figures as $100 and $60 per MONTH — the weekly reading is used because a monthly rate below four drop-in days is not coherent.',
+        text: '$100/week is the Lower School (PS–4th) rate on the 2026–27 fee schedule, for care from 3:00 to 5:30. Middle School (5th–8th) is $60/week from 3:15. Drop-in is $30/day and $15/day. The school bills monthly but publishes no number of weeks, so the cell shows its weekly rate.',
       },
       cannon: {
         kind: 'scope',
-        text: 'Cannon publishes one annual price, $3,784 — the monthly figure above is that spread over 10 months, not a rate the school quotes. It buys the JrK–8 After School Program, 3:00–6:00 p.m. (3 hours) five days a week, at 2025–26 rates: the only school here not on 2026–27, because the page carrying the rate card is no longer publicly linked.',
+        text: 'Cannon publishes one annual price, $3,784 — the monthly figure above is that spread over 10 months, not a rate the school quotes. It buys the JrK–8 After School Program, 3:00–6:00 p.m. (3 hours) five days a week, at 2025–26 rates.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -2037,7 +2057,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-latin': {
         kind: 'scope',
-        text: 'Latin bills per semester, $4,650 twice a year — the monthly figure above is that $9,300 spread over 10 months, not a rate the school quotes. It covers TK/K at the 1:30–6:00 p.m. tier five days a week; TK and Kindergarten dismiss at 1:30 p.m., so this buys 4.5 hours a day, more than any figure beside it. Grades 1–5 at their 2:55–6:00 p.m. tier is $3,000 a semester.',
+        text: 'Latin bills per semester, $4,650 twice a year — the monthly figure above is that $9,300 spread over 10 months, not a rate the school quotes. It covers TK/K at the 1:30–6:00 p.m. tier five days a week; TK and Kindergarten dismiss at 1:30 p.m., so this buys 4.5 hours a day. Grades 1–5 at their 2:55–6:00 p.m. tier is $3,000 a semester.',
       },
       'covenant-day': {
         kind: 'scope',
@@ -2085,9 +2105,9 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '8', // June 1 – July 31, the week of June 29 off
       'carmel-christian': '6', // Jun 8–Jul 23 2026; weeks 2 & 3 are 3-day
       'davidson-day': null, // publishes no summer program — see the negative-finding note
-      'hickory-grove-christian': '8', // ~8 week-blocks Jun–Jul; live 2026 page confirms 8 session windows
+      'hickory-grove-christian': '6', // six distinct weeks in the Summer 2023 catalog (May 30, Jun 5, 12, 19, 26, Jul 24); the live pages show no dates (2027 slate due spring 2027)
       'gaston-day': '8', // June 1 - July 31 2026; no camp the week of June 29 or on June 19, so 8 numbered weeks are not 8 consecutive ones
-      'providence-day': '9', // June 1 – July 31, the longest season of the five
+      'providence-day': '9', // June 1 – July 31, the longest season on this row
     },
     quals: {
       'charlotte-catholic': {
@@ -2101,7 +2121,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'The live 2026 page shows eight session windows (Jun–Jul), consistent with the ~8 week-blocks of the Summer 2023 catalog recovered from the Internet Archive; the exact 2026 camp names are hidden behind the school\'s registration platform.',
+        text: 'Six camp weeks in the Summer 2023 catalog, from late May to late July, not summer 2026. The school’s live pages name camp types only. They say the 2027 schedule arrives in spring 2027.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -2124,7 +2144,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': '4', // Cougar Basketball, Eddie Hull Baseball, Cougar Football, Just4Kicks Soccer. Notre Dame Vision and the Mayor's Youth Employment Program are not CCHS-run and are excluded
       'charlotte-country-day': '132', // session-level rows; ~75 distinct titles
       'charlotte-latin': '232', // camp offerings; 169 unique titles
-      'covenant-day': '20', // distinct camps named on the public 2026 page; school markets "29 camps"
+      'covenant-day': '19', // distinct camps named on the public 2026 page (browser check 2026-11-22); school markets "29 camps"
       'carmel-christian': '36', // named camps across the 6 weeks
       'davidson-day': null,
       'hickory-grove-christian': '15', // Summer 2023 slate (representative): 15 camps in 17 sessions (Science and Fluency run twice) — 9 academic + Boot Camp + 5 athletic
@@ -2143,7 +2163,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '15 named camps (17 sessions) in the Summer 2023 catalog: 9 academic, the College Admissions Boot Camp and 5 athletic. They come from the Internet Archive, because the live 2026 catalog sits behind the school\'s registration platform. A representative slate, not the exact 2026 list.',
+        text: '15 named camps (17 sessions) in the Summer 2023 catalog: 9 academic, the College Admissions Boot Camp and 5 athletic. They come from the Internet Archive, because the live pages name only camp types and sports. A representative slate, not the current list.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -2163,7 +2183,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'scope',
-        text: '20 distinct camps named on the public 2026 page — a per-camp count, not the per-week session count most schools beside it publish. The school separately markets "29 camps"; per-week variants and portal-only offerings likely account for the difference.',
+        text: '19 distinct camps named on the public 2026 page — a per-camp count, not the per-week session count most schools beside it publish. The school separately markets "29 camps"; per-week variants and portal-only offerings likely account for the difference.',
       },
     },
   },
@@ -2188,7 +2208,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': 'JK–Grade 12', // rising grades, Little Lion/Cub Camp at the bottom to HS strength & college camps
       'carmel-christian': 'rising K–8', // Summer Adventures
       'davidson-day': null,
-      'hickory-grove-christian': 'rising 1–8', // most camps rising 1st–8th; one HS College Admissions Boot Camp
+      'hickory-grove-christian': 'rising 1–8, plus 11th and 12th', // Summer 2023: camps rising 1st–8th + the HS College Admissions Boot Camp (11–12)
       'gaston-day': 'rising PK–Grade 12', // Camp Spartan Jr from rising PK; tutoring to rising 12th; Nike camps by age (8-17)
       'providence-day': '4–18', // four by January 1, 2026; About page says 4.5 to 18
     },
@@ -2200,7 +2220,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'scope',
-        text: 'Camp Spartan Jr takes rising PK–K and Camp Spartan rising 1st–5th; half-day enrichment camps span rising PreK–6th; summer tutoring runs to rising 12th. Nike Sports Camps are advertised by age (8–17) rather than by grade.',
+        text: 'Camp Spartan Jr takes rising PK–K and Camp Spartan rising 1st–5th; half-day enrichment camps span rising PreK–8th; summer tutoring runs to rising 12th. Nike Sports Camps are advertised by age (8–17) rather than by grade.',
       },
       'charlotte-latin': {
         kind: 'official',
@@ -2232,7 +2252,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'range',
-        text: 'The great majority of camps serve rising 1st–8th graders, plus one high-school camp (a College Admissions Boot Camp for rising juniors and seniors). From the Summer 2023 catalog, recovered from the Internet Archive.',
+        text: 'From the Summer 2023 catalog: camps for rising 1st–8th graders, plus a College Admissions Boot Camp for rising 11th and 12th graders. The live page now advertises camps for rising kindergarten through middle school.',
       },
     },
   },
@@ -2272,7 +2292,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'An eleven-hour span, the widest of the five — Before Care from 7am and After Care to 6pm, both $120/week, or $220/week bundled as Complete Care.',
+        text: 'An eleven-hour span, the widest on this row — Before Care from 7am and After Care to 6pm, both $120/week, or $220/week bundled as Complete Care.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -2303,9 +2323,10 @@ export const VALUE_METRICS: ValueMetric[] = [
 
   // --- Sports college commitments, cumulative over the Classes of 2024, 2025 & 2026.
   // Counts of DISTINCT athletes who committed to play college sports at each level;
-  // NESTED (Power 4 ⊆ Division I). Power 4 = SEC / Big Ten / ACC / Big 12 only
+  // NESTED (Power 4 ⊆ Division I). Power 4 = SEC / Big Ten / ACC / Big 12, plus
+  // Notre Dame in every sport, football included (settled S8)
   // (Big East, AAC, A-10, Ivy, etc. are "other D1"; Cal/Berkeley counts P4 as an ACC
-  // member; Notre Dame's non-football sports count P4 via the ACC).
+  // member).
   //
   // Compiled by hand from each school's published commitment rosters + Charlotte-area
   // signing-day coverage (see git history for per-athlete sourcing in this file's
@@ -2318,10 +2339,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'sports',
     key: 'p4-commits-2426',
     label: 'Power 4 commits',
-    note: 'Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.',
+    note: 'Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program or to Notre Dame, Classes of 2024–2026. Documented minimum.',
     values: {
       cannon: '4', // ’24 A.Swartz (Miami), Galloway (North Carolina), B.Wilson (North Carolina) · ’25 Kroll (Notre Dame)
-      'charlotte-christian': '9', // ’24: Henley, Wilfong, Woody, Zinger · ’25: E.Boykin, Hinde, Nicholson, Vance · ’26: Rule
+      'charlotte-christian': '11', // ’24: Henley, Wilfong, Woody, Zinger, Gilbert + B.Young (Notre Dame football, P4 by settled S8) · ’25: E.Boykin, Hinde, Nicholson, Vance · ’26: Rule
       'charlotte-catholic': '15', // ’24: Larsen (Notre Dame), Hill (South Carolina), Leckner (West Virginia), MacIntyre (Indiana), Bernardo (LSU), Thomas (UNC), Daniels (Louisville), Hedrick (Duke) · ’25: Baumgratz (Va Tech), Guthrie (Georgia), Hartman (Vanderbilt), McKnight (UNC) · ’26: Q. O’Rourke (Arizona), Gornet (NC State), Hoffman (Va Tech) — see the CCHS College Commitments 2024-2026 source file
       'charlotte-country-day': '9', // ’24: Klein, Lewis, Stajos, McDonald · ’25: Scott, Pifer · ’26: T.Klein, Alzate-Celin, Mallard — on the school’s own lists, cross-referenced 2026-11-08
       'charlotte-latin': '8', // ’24 Salvage (South Carolina), Monk (North Carolina), Hill (Tennessee), Spinner (Northwestern), Henry (Cal), McMahan (Virginia) · ’25 Clontz (Cal) · ’26 Lee (NC State)
@@ -2344,7 +2365,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'minimum',
-        text: 'A documented minimum: the school’s public commitment list runs through 2025, so its Class of 2026 is confirmed from college rosters and the school’s own announcements.',
+        text: 'A documented minimum: the school’s public commitment list runs through 2025, so its Class of 2026 is confirmed from college rosters and the school’s own announcements. The eleven include two Notre Dame football signees.',
       },
       'charlotte-latin': {
         kind: 'minimum',

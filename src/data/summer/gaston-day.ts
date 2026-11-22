@@ -463,6 +463,7 @@ export const gastonDay: SummerProgram = {
         label: 'Week 3 — full day (short week)',
         panelLabel: 'Week 3 · full day · June 15-18, no camp June 19',
         price: 240,
+        daysPerWeek: 4,
         detail: 'Four-day week — the published short-week rate',
       },
       {
@@ -470,6 +471,7 @@ export const gastonDay: SummerProgram = {
         label: 'Week 3 — half day (short week)',
         panelLabel: 'Week 3 · half day · June 15-18',
         price: 140,
+        daysPerWeek: 4,
         detail: 'Four-day week — the published short-week rate',
       },
       {
@@ -477,6 +479,7 @@ export const gastonDay: SummerProgram = {
         label: 'Week 3 — enrichment (short week)',
         panelLabel: 'Week 3 · enrichment camp · June 15-18',
         price: 175,
+        daysPerWeek: 4,
         detail: 'Four-day week — the published short-week rate',
       },
     ],

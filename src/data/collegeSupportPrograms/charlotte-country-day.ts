@@ -571,7 +571,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'Computer science',
-        text: 'The top course is AP Computer Science A. **AP Computer Science Principles** joins in 2026–27 as a starting course in 10th grade. There is still **no post-AP CS course**. That is a real gap next to the depth in math and science.',
+        text: 'The profile’s top course is AP Computer Science A. **AP Computer Science Principles** joins in 2026–27 as a starting course in 10th grade. The profile lists **no post-AP CS course**. The 2025–26 course guide has Advanced Topics in Computer Science after AP Computer Science.',
       },
       {
         label: 'World language',
@@ -612,6 +612,10 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       {
         kind: 'verify',
         text: 'The 26 AP is the profile’s own count: its rigorous-courses table prints 25 AP titles, with AP US and Comparative Government on one line. The Course Offerings catalogue (2025–26, the latest posted) holds 23; no 2026–27 catalogue was posted as of 2026-11-07.',
+      },
+      {
+        kind: 'verify',
+        text: 'Post-AP computer science (re-read 2026-11-22, plan consistency4 CCD-T13): the 2026–27 profile lists none. The 2025–26 course guide, still the linked guide, has Advanced Topics in Computer Science with AP Computer Science as a prerequisite.',
       },
     ],
     sources: [
@@ -740,7 +744,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { tier: 'Ivy League', count: '8 / 8', note: '— Harvard appears for the first time on the final 2023–2026 list; none enrolling for the Class of 2026' },
       { tier: '“Ivy Plus”', count: '17 / 17', note: '— all 17; Stanford and Duke enrolling' },
       { tier: 'Top-75 National Universities', count: '75 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '50 / 75', note: '— includes all three federal service academies' },
+      { tier: 'Top-75 Liberal Arts', count: '50 / 75', note: '— includes three of the five federal service academies' },
       { tier: 'Power Four', count: '64 / 68' },
       { tier: 'HBCUs', count: '19 / 107', note: '— Historically Black Colleges & Universities' },
     ],
@@ -792,7 +796,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
           '**Special Olympics Mecklenburg County Spring Games** — the Upper School has paused classes for two days every April **since 1984** to host them. To an admissions office, a 40-year commitment by the whole school reads very differently than a service club.',
         ],
         note:
-          'There is no required internship, capstone or independent research thesis. The Senior Externship is a single day, and the school never says it is required. Still, 136 of ~141 seniors took part, which suggests nearly every senior does it in practice.',
+          'There is no required internship, capstone or independent research thesis. The Senior Externship is a single day, and the school never says it is required.',
       },
       {
         title: 'Lever 2 — What the school brings',
@@ -852,11 +856,11 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { label: 'Fifth', gpa: '3.012' },
     ],
     gpaNote:
-      'All five quintiles are the school’s own published figures — nothing is interpolated. Grades reflect work done at Country Day only, as of the end of junior year, for students with at least seven semesters at the school. The 2025–26 edition tied each fifth to a median SAT and ACT for the Class of 2025 (4.472/1470/33 down to 2.991/1110/24); the 2026–27 edition drops that pairing. Over ten years the distribution has stretched at both ends: the top-quintile mean rose from 4.198 to 4.540 while the bottom-quintile floor fell from 2.546 to 2.076.',
+      'All five quintiles are the school’s own published figures — nothing is interpolated. Grades reflect work done at Country Day only, as of the end of junior year, for students with at least seven semesters at the school. The 2025–26 edition tied each fifth to a median SAT and ACT for the Class of 2025 (4.472/1470/33 down to 2.991/1110/24); the 2026–27 edition drops that pairing. From the Class of 2016 to the Class of 2025 the distribution stretched at both ends. The top-quintile mean rose from 4.198 to 4.540 while the bottom-quintile floor fell from 2.546 to 2.076.',
     support: [
       {
         label: 'The Educational Resource Program',
-        text: 'A named JK–12 structure covering tutoring, accommodations, assessments and evaluation referrals, delivered as hourly sessions before, during or after the school day.',
+        text: 'A named JK–12 structure covering tutoring, accommodations, assessments and evaluation referrals. The public ERP page describes hourly tutors before, during or after the school day. The division pages describe scheduled sessions, 45 minutes long in Lower School.',
       },
       {
         label: 'The Upper School model',
@@ -869,7 +873,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     middle: [
       {
-        label: 'The list matches the distribution',
+        label: 'The list spans selective and less selective colleges',
         text: 'The colleges where students enrolled are not just a top-25 highlight reel. Appalachian State, East Carolina, UNC–Charlotte, High Point, Queens, Liberty, Tampa, Mississippi, Kentucky and Southwest Minnesota State all appear. **55% of the Class of 2026 enrolled at public universities**, and 32% stayed in North Carolina.',
       },
       {
@@ -878,7 +882,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'Non-traditional destinations',
-        text: 'There are about eighteen arts and music schools, and Berklee is one where a student enrolled. The list also has CalArts, Cooper Union, Ringling, Oberlin Conservatory, Manhattan School of Music, RISD, Pratt and SAIC. It has Parsons in New York and Paris, and UNCSA. All three federal service academies appear, with a Naval Academy appointment. There are also around twenty-one international universities. They include Oxford, Cambridge, Imperial, UCL, McGill, Trinity College Dublin, Toronto, St Andrews, Edinburgh and Durham.',
+        text: 'There are about eighteen arts and music schools, and Berklee is one where a student enrolled. The list also has CalArts, Cooper Union, Ringling, Oberlin Conservatory, Manhattan School of Music, RISD, Pratt and SAIC. It has Parsons in New York and Paris, and UNCSA. Three of the five federal service academies appear, with a Naval Academy appointment. There are also around twenty-one international universities. They include Oxford, Cambridge, Imperial, UCL, McGill, Trinity College Dublin, Toronto, St Andrews, Edinburgh and Durham.',
       },
     ],
     flags: [
@@ -889,6 +893,10 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       {
         kind: 'gap',
         text: 'No gap-year counseling, placement count or deferral policy is published, and neither is any direct-to-work or enlistment outcome.',
+      },
+      {
+        kind: 'verify',
+        text: 'ERP session format (re-read 2026-11-22, plan consistency4 CCD-T9): the public ERP page says hourly tutors before, during or after the school day. The Lower School ERP page bills $82 per 45-minute session, and the division pages make sessions a permanent part of the schedule.',
       },
     ],
     sources: [
@@ -915,7 +923,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'The IB Diploma is a real structural differentiator',
-        text: 'first in North Carolina to offer it, 26 full-diploma seniors in the Class of 2027, 88% five-year pass rate. It is a second clear path to the hardest course load for students whose strengths do not fit the AP model.',
+        text: 'the profile calls it the first in North Carolina to offer it, and the history page the first private school. It has 26 full-diploma seniors in the Class of 2027 and an 88% five-year pass rate. It is a second clear path to the hardest course load for students whose strengths do not fit the AP model.',
       },
       {
         label: 'The office is deep and stable through a director change',
@@ -937,7 +945,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       'What exactly does the “34 Morehead-Cain recipients” figure cover — how many years? The Class of 2026 post names exactly one.',
       'What caseload does each of the four Upper School academic coaches carry, and what are their credentials?',
       'How do you report Honor Council findings and disciplinary actions on the secondary school report?',
-      'How many colleges do your counselors visit each year, is the Senior Externship required, and what gap-year, post-AP computer science, or capstone-research options exist?',
+      'How many colleges do your counselors visit each year, is the Senior Externship required, and what gap-year or capstone-research options exist? Does Advanced Topics in Computer Science still run?',
       'Your pages give slightly different figures: 23 or 24 states for the Class of 2026, $14.7 or $14.8 million in scholarships, four or five full-time counselors, and 100+ or 175+ externship employers. Which are current?',
     ],
     flags: [],

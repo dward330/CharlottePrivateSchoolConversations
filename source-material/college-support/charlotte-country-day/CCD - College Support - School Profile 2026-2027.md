@@ -735,3 +735,13 @@ Fetched 2026-11-20: https://www.charlottecountryday.org/cd-education/college-cou
 - Senior class sizes on the app's page: 141 = Class of 2026 (graduates, this page); 137 = Class
   of 2027 (current seniors, 2026–27 profile GPA table, "137 Seniors Total"). They are different
   classes, not a conflict.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1790254021/charlottecds/qo26oegmsg1nwpis3l9b/CCDSCollegeProfile2026-FNA.pdf (HTTP 200): "Charlotte Country Day was the first school in North Carolina to offer the International Baccalaureate Diploma Program." The table lists "AP Computer Science Principles", "AP Physics 1, AP Physics C", "AP US/Comparative Government & Politics", "H Concert Choir" and no post-AP computer science course. "Middle 50% SAT 1170-1400", "Middle 50% ACT 26-31", with no class named.
+- https://www.charlottecountryday.org/cd-education/college-counseling/class-of-2026 (HTTP 200): "$14.7 million+", "More than $14.8 million in scholarship offers awarded to date", "Students will attend 70 colleges and universities in 23 states".
+- https://www.charlottecountryday.org/cd-experience/beyond-the-classroom (HTTP 200): "100+ employers in 20 different industries" and "more than 175 local employers across 20+ industries". The "136 seniors" figure is not on the page today.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- https://www.charlottecountryday.org/about/history/news-details-page-history/~board/general-timeline-board/post/first-ib-school-in-nc (HTTP 200): "the first private school in North Carolina to offer the International Baccalaureate (IB) Diploma Program". The timeline's own summary on https://www.charlottecountryday.org/about/history says "the first NC school".

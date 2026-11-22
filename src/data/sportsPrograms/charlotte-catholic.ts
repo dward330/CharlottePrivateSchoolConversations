@@ -148,7 +148,7 @@ export const charlotteCatholic: SportsProgram = {
   },
 
   record: {
-    headline: '79 state championships since 2000 — and four more in 2026 alone.',
+    headline: '79 state championships since 2000 — four of them in 2026 alone.',
     subhead:
       'Girls soccer went undefeated; both lacrosse programs won in overtime, each ending a twelve-year drought. All NCHSAA titles.',
     seasonLabels: ['2024', '2025', '2026'],
@@ -220,7 +220,7 @@ export const charlotteCatholic: SportsProgram = {
       },
     ],
     didNotWin:
-      'The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season list of titles, so a blank cell means "no title found for that year", not a verified loss. The 79-title total since 2000 is the school’s own figure and spans far more sports than these four.',
+      'The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season list of titles, so a blank cell means "no title found for that year", not a verified loss. The 79-title total since 2000 is the school’s own figure and spans far more sports than the nine shown here.',
     bars: [
       { program: 'Boys lacrosse (2026)', record: '21–3', pct: 0.875, tag: 'STATE' },
       { program: 'Baseball (2025)', record: '22–6–1', pct: 0.776 },
@@ -256,7 +256,7 @@ export const charlotteCatholic: SportsProgram = {
       { label: 'Alumni who played in college', hint: 'NCAA / NAIA / JUCO, all years', count: '1000+', width: 0.62, shade: 'pale' },
       { label: 'Documented commits', hint: 'Classes of 2024–2026', derive: 'all', width: 0.46, shade: 'mid' },
       { label: 'Division I', hint: 'includes Power Four', derive: 'd1', width: 0.33, shade: 'mid' },
-      { label: 'Power Four', hint: 'ACC · Big Ten · Big 12 · SEC', derive: 'p4', width: 0.13, shade: 'full' },
+      { label: 'Power Four', hint: 'ACC · Big Ten · Big 12 · SEC, plus Notre Dame', derive: 'p4', width: 0.13, shade: 'full' },
     ],
     funnelNote:
       'The 1000+ figure is the school’s own all-time count. It is not limited to these three classes, so it counts a different span of years from the rows beneath it. The three classes below are a documented minimum. CCHS holds separate fall, winter and spring signing days and publishes no combined list. So athletes appear here once a signing article, a newspaper signing list or the college’s own roster names them.',
@@ -276,7 +276,7 @@ export const charlotteCatholic: SportsProgram = {
     realityCheck:
       'Baseball is now the school’s deepest pipeline, with 13 of 54 documented athletes. They include Power Four signees at Duke, North Carolina, Virginia Tech, Arizona and NC State across three classes. Football and lacrosse follow with 11 each, and both lacrosse programs won state titles in 2026.',
     rankedRecruits:
-      'Three football signees carry 247Sports Composite ranks. Among them, Jack Larsen (Notre Dame) was No. 15 in North Carolina in the Class of 2024. No CCHS athlete in these classes was a national top-100 recruit.',
+      'Four football signees carry 247Sports Composite ranks. Among them, Jack Larsen (Notre Dame) was No. 15 in North Carolina in the Class of 2024. No CCHS athlete in these classes was a national top-100 recruit.',
     roster: [
       { cls: "'26", name: 'Alex Hoffman', sport: 'Baseball', college: 'Virginia Tech', conf: 'ACC', level: 'P4' },
       { cls: "'26", name: 'Quinn O’Rourke', sport: 'Baseball', college: 'University of Arizona', conf: 'Big 12', level: 'P4' },
@@ -319,7 +319,7 @@ export const charlotteCatholic: SportsProgram = {
       { cls: "'24", name: 'Blanca Thomas', sport: 'Basketball', college: 'North Carolina', conf: 'ACC', level: 'P4' },
       { cls: "'24", name: 'Kate Daniels', sport: 'Lacrosse', college: 'University of Louisville', conf: 'ACC', level: 'P4' },
       { cls: "'24", name: 'Jack Hedrick', sport: 'Baseball', college: 'Duke University', conf: 'ACC', level: 'P4' },
-      { cls: "'24", name: 'Jack Larsen', sport: 'Football', college: 'University of Notre Dame', conf: 'ACC', level: 'P4',
+      { cls: "'24", name: 'Jack Larsen', sport: 'Football', college: 'University of Notre Dame', conf: 'FBS Ind.', level: 'P4',
         rank247: { national: 481, state: 15, url: 'https://247sports.com/player/jack-larsen-46117223/' } },
       { cls: "'24", name: 'Logan Hill', sport: 'Cross country / track', college: 'University of South Carolina', conf: 'SEC', level: 'P4' },
       { cls: "'24", name: 'Logan Leckner', sport: 'Swim & dive', college: 'West Virginia University', conf: 'Big 12', level: 'P4' },

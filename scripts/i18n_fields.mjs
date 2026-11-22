@@ -58,6 +58,8 @@ export const PROSE_KEYS = new Set([
   // merit block is a five-year AP line, not a National Merit ledger), so they
   // are research findings that vary per school: prose.
   'meritTitle',
+  // The state-title matrix heading, set where the columns are not the last N seasons.
+  'matrixTitle',
   'depthTitle',
   'trustTitle',
   'kicker', 'verdict', 'result',
@@ -915,7 +917,22 @@ export function pathOverride(path) {
 }
 
 /**
- * Is this field translatable prose? Full-path overrides win, then the skip
+ * A worded value inside a field that is otherwise figures or proper nouns: promote the
+ * value, not the field (plan consistency4, X1). Promoting `sections[].stats[].value`
+ * would send every stat figure through translation, and promoting `ensembles` every
+ * ensemble name, to translate a handful of phrases.
+ *
+ * Needs the value, so only a caller that passes one to classifyField() sees it.
+ */
+export const WORDED_VALUES = new Map([
+  // 'Not published', 'No 990', '3 yrs', '990-exempt', 'up to 80%' — never '$3.25M' or '6%'
+  ['sections[].stats[].value', /[A-Za-z]{2}/],
+  // 'Choir (7th–8th, in the course catalog)' — a hedge inside a name
+  ['music.tracks[].ensembles[]', /\bin the course catalog\b/],
+])
+
+/**
+ * Is this field translatable prose? A worded value (above) wins, then full-path overrides, then the skip
  * list, then the prose list. Anything matching none of the three is
  * UNCLASSIFIED and reported rather than guessed at — a silently-dropped field
  * is an untranslated card with no signal, which is how coverage gaps hide.
@@ -925,9 +942,11 @@ export function pathOverride(path) {
  *
  * @param {string} path generic path, array indices collapsed to `[]`
  * @param {string} leaf last path segment
+ * @param {string} [value] the string itself, for WORDED_VALUES
  * @returns {'prose' | 'skip' | 'unclassified'}
  */
-export function classifyField(path, leaf) {
+export function classifyField(path, leaf, value) {
+  if (value !== undefined && WORDED_VALUES.get(path)?.test(value)) return 'prose'
   const override = pathOverride(path)
   if (override !== undefined) return override ? 'prose' : 'skip'
   if (SKIP_KEYS.has(leaf)) return 'skip'

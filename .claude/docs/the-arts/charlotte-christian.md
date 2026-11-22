@@ -169,7 +169,7 @@ Source: https://www.charlottechristian.com/fine-arts/theatre
 Source: https://www.charlottechristian.com/fine-arts/theatre
 
 **Tech-theater / stagecraft track — [VERIFIED], and better resourced than the school advertises.** Three converging pieces of evidence:
-- **Courses:** technical directing and stage management are two of the seven theatre electives. https://www.charlottechristian.com/fine-arts/theatre
+- **Courses:** the seven theatre electives (grades 6–12) cover technical directing and stage management; the page does not call them two separate electives. https://www.charlottechristian.com/fine-arts/theatre
 - **Facility:** the venue includes a **scene shop** for set construction and **dressing rooms** — dedicated build space, per the contractor. https://www.rodgersbuilders.com/projects/charlotte-christian-school-2/
 - **Competitive results:** a **Technical Theatre Costume Design Award** at CITA 2016 ([name withheld]) confirms students compete and place in technical categories; the 2013 Blumey **Best Lighting Execution** win confirms technical strength on a mainstage. https://www.charlottechristian.com/cf_news/view.cfm?newsid=1030
 
@@ -478,7 +478,7 @@ Source: https://www.charlottechristian.com/fine-arts
 
 ### Concrete reasons the program holds up
 
-1. **A top-prize Blumey win, plus proof the program is still competitive.** The 2013 *Oklahoma!* **Best Musical** win is confirmed directly by Blumenthal Arts and came as a **four-award sweep** — Best Ensemble/Chorus, Best Choreography Execution, and **Best Lighting Execution** — signaling technical capability, not just strong singing, against a 17-school field. And in **2024**, *Tarzan* earned **finalist slots in all five performance categories** (Best Actor, Actress, Supporting Actor, Supporting Actress, Featured Performer) — a whole-cast result, in a field that had grown to 50. **[VERIFIED]** https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners and https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+1. **A top-prize Blumey win, plus proof the program is still competitive.** The 2013 *Oklahoma!* **Best Musical** win is confirmed directly by Blumenthal Arts and came as a **four-award sweep** — Best Ensemble/Chorus, Best Choreography Execution, and **Best Lighting Execution** — signaling technical capability, not just strong singing, against a 17-school field. And in **2024**, *Tarzan* earned **finalist slots in all five performance categories** (Best Actor, Actress, Supporting Actor, Supporting Actress, Featured Performer) — in a field that had grown to 50. **[VERIFIED]** https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners and https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
 
 2. **A purpose-built 2017 arts facility with TWO performance spaces and a scene shop.** A **518-seat** (LS3P) Center for Worship and Performing Arts, ~20,500–20,800 sq ft, Phase 1 of the master plan — and per the general contractor it also contains a **black box theater**, a **scene shop** for set construction, and **dressing rooms**. Backed by a real ticketing operation (online sales, PDF tickets, HomeTown Fan app) and a themed subscription season. That is infrastructure, not aspiration — and notably, better than the school itself markets. **[VERIFIED]** https://www.rodgersbuilders.com/projects/charlotte-christian-school-2/
 
@@ -520,7 +520,7 @@ The faith integration here is **structural, not decorative** — and that cuts b
 
 5. **"The main auditorium is chapel, assembly, and theatre. Walk me through a spring production week — how much time does the cast get on that stage, and where do they rehearse when chapel owns the room?"** — Tests the real structural constraint of a shared venue.
 
-6. **"Digital Arts has nine electives and professional software but no AP. If my child wants a film or design portfolio, what's the path — and does it have to route through AP Studio Art in Visual Art?"** — Probes the branch-to-branch seam and the mis
+6. **"Digital Arts has nine electives and professional software but no AP. If my child wants a film or design portfolio, what's the path — and does it have to route through AP Studio Art in Visual Art?"** — Prob
 
 …[truncated]
 

@@ -281,7 +281,7 @@ export const trinityEpiscopal: ArtsProgram = {
     // chrome, and a lifted heading pins that heading to English in all ten
     // locales. Deleted 2026-09-16, as the other schools' copies already were.
     path: [
-      { name: 'K–4 art, on the TAB model' },
+      { name: 'Lower School art (K–5), on the TAB model' },
       { name: 'Middle School art' },
       { name: 'Studio Art (7–8)', terminal: true },
     ],

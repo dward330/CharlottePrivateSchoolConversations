@@ -352,7 +352,7 @@ appear only when at least one roster row carries a rank. Five rules travel with 
 
 `WinBar` — `program`, `record`, `pct`, `tag?`
 
-`WinningRecord` — `headline`, `subhead?`, `seasonLabels`, `rows`, `didNotWin?`, `bars`, `seasonDetail?`, `sources`
+`WinningRecord` — `headline`, `subhead?`, `seasonLabels`, `matrixTitle?`, `rows`, `didNotWin?`, `bars`, `seasonDetail?`, `sources`
 
 `CommitLevel` *(union)* — `P4` \| `D1` \| `D2` \| `D3` \| `NAIA`
 
@@ -784,7 +784,7 @@ header, everything else suppresses it.
 
 `MeritYear` — `year`, `detail`, `unconfirmed?`
 
-`Transcript` — `headline`, `subhead?`, `stats`, `meritTitle?`, `merit`, `meritCollegeAwards?`, `meritNote?`, `depthTitle?`, `depth`, `trustTitle?`, `trust`, `flags`, `sources`
+`Transcript` — `headline`, `subhead?`, `stats`, `meritTitle?`, `merit`, `meritCollegeAwards?`, `meritApResults?`, `meritNote?`, `depthTitle?`, `depth`, `trustTitle?`, `trust`, `flags`, `sources`
 
 `Counselor` — `role`, `name`, `detail?`, `email?`
 
@@ -884,7 +884,7 @@ Root type `SummerProgram` · registry `SUMMER_CARDS` · `src/data/summerPrograms
 
 `CampCatalog` — `headline`, `subhead?`, `intro?`, `categoryFilters`, `dayFilters`, `gradeFilters`, `camps`, `flags`, `sources`
 
-`PlannerTier` — `id`, `label`, `panelLabel`, `price`, `detail?`, `estimated?`
+`PlannerTier` — `id`, `label`, `panelLabel`, `price`, `detail?`, `estimated?`, `daysPerWeek?`
 
 `PlannerAddon` — `id`, `label`, `price`, `estimated?`, `defaultOn?`
 
@@ -1133,9 +1133,9 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
 | `program-span` | Program span | 11/13 | Q |
-| `signature-recognition` | Signature recognition | 10/13 | – Q |
-| `advanced-arts-coursework` | Advanced coursework | 9/13 | Q |
-| `ensembles` | Ensembles / offerings | 9/13 | Q |
+| `signature-recognition` | Signature recognition | 11/13 | – Q |
+| `advanced-arts-coursework` | Advanced coursework | 11/13 | Q |
+| `ensembles` | Ensembles / offerings | 11/13 | Q |
 
 ### Sports `sports`
 

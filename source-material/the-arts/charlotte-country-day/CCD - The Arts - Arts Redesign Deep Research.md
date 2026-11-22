@@ -554,7 +554,7 @@ Source: https://www.charlottecountryday.org/cd-experience/arts/visual-arts
    *Frozen* was chosen as an accessible/large-cast show on purpose, and what the theatre
    staffing looks like now. This is the single most revealing question in the file.
 
-3. **"You've been nominated every year since 2022 but haven't won since 2022. Is the program
+3. **"You were nominated every year from 2022 to 2025, without a win after 2022. Is the program
    aiming at competitive placement, or at participation breadth?"** Both are legitimate answers —
    with "100% theatre participation," breadth may genuinely be the strategy. Make them say so
    rather than implying trophies.
@@ -709,3 +709,15 @@ Memberships & Academic Organizations" list names the **Tri-M Music Honor Society
 `student-clubs/charlotte-country-day/CCD - Student Clubs - Clubs Redesign Deep Research.md`)
 also names Tri-M, NAHS and the International Thespian Society as "three Country Day art honor
 societies".
+
+### Re-verification 2026-11-22 (plan consistency4, implement, Blumey lists)
+
+Read by the parent from copies downloaded from blumenthalarts.org earlier on 2026-11-22
+(HTTP 200). The site later refused a request and was not asked again. Student names are
+left out on purpose.
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (final nominees, every category)
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+
+2026: five finalists and no nomination. 2025: five finalists. 2024: five nominations (Direction, Ensemble/Chorus, Actor, Supporting Actress, Stage Manager) and five finalists, with no Choreography nomination. This supersedes the tiers above.

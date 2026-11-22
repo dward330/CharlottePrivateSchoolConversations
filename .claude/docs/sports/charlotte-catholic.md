@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — Sports
-> Distilled from 6 source document(s) in `source-material/sports/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 6 source document(s) in `source-material/sports/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** 247Sports Recruiting Rankings, College Commitments 2024-2026, College Commitments Class of 2027, Program Championships and College Commitments, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026
 
 
@@ -318,6 +318,14 @@ confirmed (Hedley, Hucko, McKain, Hertzig, Drensek). LaxNumbers adds two single-
  outside the window.
 - **Julia Menkhaus** (UVA swimming) and **Joey Ruller** (Queens baseball) — Charlotte Catholic
  alumni on college pages, earlier classes; outside the window.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+Rule set by the user 2026-11-22 (settled S8): Notre Dame counts as Power 4 in every sport,
+football included. The `conf` column keeps the real conference, "FBS Ind." for football.
+The Class of 2024 Notre Dame football row stays P4, and its conference is corrected from ACC to FBS Ind. The Power 4 count stays 15.
 
 
 ---

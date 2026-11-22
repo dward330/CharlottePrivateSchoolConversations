@@ -9,7 +9,13 @@
 // statement, Orff and recorder, the Middle School band's superior ACSI ratings — so
 // they are gone here too. The catalog confirms no Jazz Band course.
 //
-// The Blumey ledger is unchanged: it comes from Blumenthal Arts' official 2025
+// B (plan consistency4, HG-T6 / HG-T7, re-read 2026-11-22), no winner picked:
+//  - arts-home counts "Two drama productions: a fall show and spring musical";
+//    performing-arts lists "two drama productions and a spring musical".
+//  - performing-arts lists Technical Theatre and no Middle School choir; the two
+//    2026–27 catalogs list no Technical Theatre course and a Gr 7–8 Choir.
+//
+// The Blumey ledger (2026 tiers corrected by plan consistency4) comes from Blumenthal Arts' official 2025
 // nominees/finalists PDF (via pdftotext) and its 2026 nominees news page, so the
 // category→nominee→show mapping is exact. Original research: "Hickory Grove
 // Christian - The Arts - Deep Research.md".
@@ -30,6 +36,7 @@ const ARTS = 'https://hgchristian.org/arts-home'
 const PERFORMING = 'https://hgchristian.org/performing-arts'
 const VISUAL = 'https://hgchristian.org/visual-arts'
 const DIGITAL = 'https://hgchristian.org/digital-arts'
+const MS_CATALOG = 'https://hgchristian.org/ms-courses'
 const BLUMEY_2025 =
   'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf'
 const BLUMEY_2026 =
@@ -40,11 +47,11 @@ export const hickoryGroveChristian: ArtsProgram = {
     headline:
       'A TK–12 arts ladder — visual art and music for every young student, widening into band, choir, theatre, dance and a leveled studio track in the upper grades.',
     subhead:
-      'Band- and choir-centered, with no orchestra at any level. The performing-arts headline is a run of Blumey Award nominations in 2025 and 2026.',
+      'Band- and choir-centered, with no orchestra at any level. The performing-arts headline is Blumey Award recognition in 2025 and 2026.',
     stats: [
       { value: 'TK–12', label: 'arts program, from the Early Education Center up' },
-      { value: '2026', label: 'three Blumey nominees from The Little Mermaid' },
-      { value: '2 / yr', label: 'drama productions: a fall show and a spring musical' },
+      { value: '2026', label: 'five Blumey finalists from The Little Mermaid' },
+      { value: '2 or 3', label: 'productions a year: two on the Arts home page, three on Performing Arts' },
       { value: 'ITS', label: 'International Thespian Society, the theatre honor society' },
     ],
     divisions: [
@@ -60,7 +67,7 @@ export const hickoryGroveChristian: ArtsProgram = {
         name: 'Middle School',
         grades: '6–8',
         items: [
-          'Band (6th-grade beginners, 7th–8th intermediate) · Praise Team (7th–8th)',
+          'Band (6th-grade beginners, 7th–8th intermediate) · Praise Team (7th–8th) · Choir (7th–8th, in the course catalog)',
           'Theatre, Musical Theatre and Beginning Dance (7th–8th) — each quarter of Theatre ends with a one-act play',
           'Visual arts: Bible Sketch (6th) and Sewing (7th–8th)',
           'Every course ends with a chance to perform',
@@ -70,7 +77,7 @@ export const hickoryGroveChristian: ArtsProgram = {
         name: 'High School',
         grades: '9–12',
         items: [
-          'Concert Band · Chapel Band · High School Choir · Theatre · Musical Theatre · Technical Theatre & Management',
+          'Concert Band · Chapel Band · High School Choir · Theatre · Musical Theatre · Technical Theatre & Management (on the Performing Arts page, not in the catalog)',
           'Art I–IV and AP 2D Studio Art · Ceramics I–II · Fiber Crafts I–II · Art Appreciation',
           'Digital Arts: the Exodus yearbook (Yearbook I, II and III - Honors) · Photography and Design · Digital Media (the HG360 weekly broadcast) · a Communications Internship',
         ],
@@ -92,21 +99,22 @@ export const hickoryGroveChristian: ArtsProgram = {
       { label: 'hgchristian.org — Performing Arts', url: PERFORMING },
       { label: 'hgchristian.org — Visual Arts', url: VISUAL },
       { label: 'hgchristian.org — Digital Arts', url: DIGITAL },
+      { label: 'hgchristian.org — Middle School 2026–27 Course Selection Catalog (Choir)', url: MS_CATALOG },
     ],
   },
 
   theatre: {
     headline:
-      'Two productions a year, a fall show and a spring musical — with Blumey Award recognition in back-to-back seasons: Seussical in 2025 and Disney\'s The Little Mermaid in 2026.',
+      'A fall show and a spring musical each year — with Blumey Award recognition in back-to-back seasons: Seussical in 2025 and Disney\'s The Little Mermaid in 2026.',
     subhead:
-      'The Blumeys are Blumenthal Performing Arts\' regional high-school musical-theater awards. HGCS placed nominees and finalists across both years, though no outright win is published.',
+      'The Blumeys are Blumenthal Performing Arts\' regional high-school musical-theater awards. HGCS had five finalists in each year, including a top-six Best Featured Performer nominee in 2025. No outright win is published.',
     seasonTitle: 'The season rhythm',
     season: [
       {
         season: 'Every fall',
         kind: 'Fall show',
         detail:
-          'Drama students stage a fall show each year, the first of the year\'s two drama productions.',
+          'Drama students stage a fall show each year. The Arts home page counts two drama productions: the fall show and the spring musical. The Performing Arts page lists two drama productions and a spring musical.',
       },
       {
         season: 'Every spring',
@@ -123,7 +131,7 @@ export const hickoryGroveChristian: ArtsProgram = {
         year: '2026',
         show: "Disney's The Little Mermaid",
         result:
-          'Three nominees: Best Supporting Actor (as Scuttle), Best Supporting Actress (as Flounder), and Best Featured Performer (as Aquata). No win is published.',
+          'Five finalists: Best Actor (as Triton) · Best Actress (as Ursula) · Best Supporting Actor (as Scuttle) · Best Supporting Actress (as Flounder) · Best Featured Performer (as Aquata). None was a top-six nominee, and no win is published.',
       },
       {
         year: '2025',
@@ -133,10 +141,12 @@ export const hickoryGroveChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'Two performers each appear in both years. So the program is a repeat producer of recognized performers. But no Blumey win is published for HGCS in either year. The school’s recognition came as nominees and finalists only. No director name, venue or recent non-Blumey show title is published either.',
+      'Three performers each appear in both years. But no Blumey win is published for HGCS in either year. The school’s recognition came as nominees and finalists only. No director name, venue or recent non-Blumey show title is published either.',
     sources: [
       { label: 'hgchristian.org — Performing Arts (productions, Blumey participation)', url: PERFORMING },
+      { label: 'hgchristian.org — Arts (two productions a year)', url: ARTS },
       { label: 'Blumenthal Arts — 2026 Blumey nominees & finalists', url: BLUMEY_2026 },
+      { label: 'Blumenthal Arts — 2026 final nominees', url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees' },
       { label: 'Blumenthal Arts — 2025 Blumey all nominees & finalists (PDF)', url: BLUMEY_2025 },
     ],
   },
@@ -153,7 +163,7 @@ export const hickoryGroveChristian: ArtsProgram = {
       },
       {
         label: 'Middle School',
-        ensembles: ['Beginner Band (6th)', 'Intermediate Band (7th–8th)', 'Praise Team (7th–8th)'],
+        ensembles: ['Beginner Band (6th)', 'Intermediate Band (7th–8th)', 'Praise Team (7th–8th)', 'Choir (7th–8th, in the course catalog)'],
       },
       {
         label: 'Elementary',
@@ -182,6 +192,7 @@ export const hickoryGroveChristian: ArtsProgram = {
     sources: [
       { label: 'hgchristian.org — Performing Arts (ensembles, festivals)', url: PERFORMING },
       { label: 'hgchristian.org — Arts (adjudicated festivals, NCBA honor bands)', url: ARTS },
+      { label: 'hgchristian.org — Middle School 2026–27 Course Selection Catalog (Choir)', url: MS_CATALOG },
     ],
   },
 
@@ -224,11 +235,11 @@ export const hickoryGroveChristian: ArtsProgram = {
     headline:
       'A band-and-choir music program and a step-by-step studio track. The theatre program has drawn Blumey recognition two years running. The open questions are the unpublished venue, director and orchestra.',
     subhead:
-      'The Blumey nominations across Seussical (2025) and The Little Mermaid (2026) are the real, verified headline; the gaps are the undocumented facilities and the absence of orchestra and a cappella.',
+      'The Blumey finalist places across Seussical (2025) and The Little Mermaid (2026) are the real, verified headline; the gaps are the undocumented facilities and the absence of orchestra and a cappella.',
     holdsUp: [
       {
         label: 'Back-to-back Blumey recognition',
-        text: 'HGCS placed nominees and finalists at the 2025 (Seussical) and 2026 (The Little Mermaid) Blumey Awards. Two performers each appear in both years. So the program is a repeat producer of recognized performers.',
+        text: 'HGCS had five Blumey finalists for Seussical in 2025, including a top-six Best Featured Performer nominee. It had five more for The Little Mermaid in 2026. Three performers each appear in both years.',
       },
       {
         label: 'A studio path that reaches AP',
@@ -249,6 +260,8 @@ export const hickoryGroveChristian: ArtsProgram = {
       'Is there any music beyond band, choir and the worship bands — an orchestra, a strings program, or an a cappella group? None is published.',
       'How do AP 2D Studio Art students score on the AP exam year to year? The visual-arts page publishes no results.',
       'Is there a National Art Honor Society or any external visual-arts recognition (Scholastic) the page does not mention?',
+      'Are there two productions a year or three? The Arts home page counts two. The Performing Arts page lists two drama productions and a spring musical.',
+      'Do Technical Theatre and Middle School Choir both run this year? The Performing Arts page lists only the first, and the course catalogs list only the second.',
     ],
     sources: [
       { label: 'hgchristian.org — Arts pages', url: ARTS },

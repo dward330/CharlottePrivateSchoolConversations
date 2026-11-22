@@ -1,5 +1,5 @@
 # Charlotte Christian School — Sports
-> Distilled from 20 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 20 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, College Commitments Class of 2027, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Profile, Podcast Episode 33 Saleh Athletic Center, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
@@ -419,6 +419,14 @@ rolls after 1 June 2027.
 | Drew Darling '26 | Belmont Abbey baseball (D2) | One source (PBR preview, "signee"). Belmont Abbey's 2027 roster has not posted players yet. Lead — re-check when it does. |
 | Jack McGrath '26 | Hampden-Sydney baseball (D3) | One source (PBR preview, "commit"); **absent from H-SC's published 2027 roster**. Not a row. |
 | Barrett Banner '26 | Gordon lacrosse (D3) | LaxNumbers only; Gordon's 2027 roster not posted yet. Lead. |
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+Rule set by the user 2026-11-22 (settled S8): Notre Dame counts as Power 4 in every sport,
+football included. The `conf` column keeps the real conference, "FBS Ind." for football.
+The two Class of 2024 Notre Dame football rows go from D1 to P4, so the Power 4 count above is superseded: 9 becomes 11. Division I stays 35.
 
 
 ---

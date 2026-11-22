@@ -1,5 +1,5 @@
 # Cannon School — Student Clubs
-> Distilled from 11 source document(s) in `source-material/student-clubs/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 11 source document(s) in `source-material/student-clubs/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Affinity and Identity Groups, Catalog Upper School, Governance and Student Leadership, Honor Societies Web Check 2026, Honor Societies, Lower School, Middle School, NotebookLM Prompt, Service Learning and Community Engagement, Signature Competitive Programs, Clubs Redesign Deep Research
 
 
@@ -184,6 +184,14 @@ Society | Mu Alpha Theta National Mathematics Honor Society | National English H
 Quill and Scroll International Honorary Society for High School Journalists | The National Art Honor Society |
 Tri-M Music Honor Society | International Thespian Society | National Chinese Honor Society | National French Honor
 Society | National Spanish Honor Society". Tri-M is on the school's own page today.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.cannonschool.org/cannon-school-news/details/~board/cannon-news-cougar-news-internal-sources/post/cannon-school-students-establish-first-science-national-honor-society-chapter (HTTP 200): "This year marked a significant milestone for Cannon School with the launch of its first-ever chapter of the Science National Honor Society (SNHS)"; "inaugural induction ceremony on April 2, where 21 students were officially welcomed as founding members". The Upper School page roster (/academics/upper-school) does not list it.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- The Science National Honor Society post (URL above, HTTP 200) carries `article:published` 2026-04-29, so the April 2 induction was in 2026.
 
 
 ---
@@ -703,4 +711,5 @@ pages carry both.
 - https://www.cannonschool.org/cannon-life/parents-at-cannon
 - https://www.cannonschool.org/cannon-life/student-life/middle-school-student-life
 - https://www.cannonschool.org/cannon-life/student-life/us-student-life
+- https://www.cannonschool.org/cannon-school-news/details/~board/cannon-news-cougar-news-internal-sources/post/cannon-school-students-establish-first-science-national-honor-society-chapter
 - https://www.cannonschool.org/fs/elements/17400

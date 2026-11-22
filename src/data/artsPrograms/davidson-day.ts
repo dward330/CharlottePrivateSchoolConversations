@@ -116,7 +116,7 @@ export const davidsonDay: ArtsProgram = {
 
   theatre: {
     headline:
-      'A legitimate, program-level Blumey record from a very small school — Best Ensemble/Chorus and Best Overall Direction nominations in 2023, five finalists in 2026.',
+      'A legitimate, program-level Blumey record from a very small school — three whole-show nominations in 2023, five finalists in both 2025 and 2026.',
     subhead:
       'The Blumeys are Blumenthal Performing Arts’ Charlotte-region high-school musical-theater awards. Davidson Day’s external theatre identity runs entirely through them — no NCTC record exists.',
     seasonTitle: 'The season rhythm — one Upper School musical a year',
@@ -150,13 +150,13 @@ export const davidsonDay: ArtsProgram = {
         year: '2025',
         show: 'Once Upon a One More Time',
         result:
-          'Listed among the 54 participating schools; no individual category nomination was found. The 2025 all-nominees PDF could not be text-extracted, so a buried nomination cannot be fully excluded.',
+          'Five finalists: Best Actor (as Prince Charming) · Best Actress (as Cinderella) · Best Supporting Actor (as Prince Erudite) · Best Supporting Actress (as Snow White) · Best Featured Performer (as Betany). No win recorded.',
       },
       {
         year: '2023',
         show: 'Mean Girls',
         result:
-          'The strongest year found: four nominations, two of them for the whole program. Those were Best Ensemble/Chorus and Best Overall Direction. The others were Best Actress (as Regina George) and Best Featured Performer (as Mrs. George).',
+          'The strongest year found: five nominations, three of them for the whole program. Those were Best Musical (Tier 2), Best Ensemble/Chorus and Best Overall Direction. The others were Best Actress (as Regina George) and Best Featured Performer (as Mrs. George).',
       },
       {
         year: '~2015',
@@ -167,7 +167,7 @@ export const davidsonDay: ArtsProgram = {
       },
     ],
     honestContext:
-      'For a school this small, the Blumey record is real and better than its enrollment would predict. The 2023 nominations for Best Ensemble/Chorus and Best Overall Direction recognize the whole program, not just standout individuals. Small-school math also helps a student. Mounting a full musical out of a very small student body means far fewer peers competing for a role. A parent should note two things plainly. First, no NCTC participation, placement or award could be found anywhere, so the Blumeys are the whole outside picture. And earlier research credited a production of "Matilda Jr." to this school by mistake. The Davidson Community Players staged that show; they are a separate community theater company in the same town. So the show is left out here.',
+      'For a school this small, the Blumey record is real and better than its enrollment would predict. The 2023 nominations for Best Musical, Best Ensemble/Chorus and Best Overall Direction recognize the whole program, not just standout individuals. Small-school math also helps a student. Mounting a full musical out of a very small student body means far fewer peers competing for a role. A parent should note two things plainly. First, no NCTC participation, placement or award could be found anywhere, so the Blumeys are the whole outside picture. And earlier research credited a production of "Matilda Jr." to this school by mistake. The Davidson Community Players staged that show; they are a separate community theater company in the same town. So the show is left out here.',
     sources: [
       {
         label: 'Blumenthal Arts — 2026 nominees & finalists',
@@ -177,6 +177,7 @@ export const davidsonDay: ArtsProgram = {
         label: 'Blumenthal Arts — 2023 Blumey nominees',
         url: 'https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announces-2023-blumey-awards-nominees',
       },
+      { label: 'Blumenthal Arts — 2025 all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf' },
       {
         label: 'Blumenthal Arts — 2025 nominations',
         url: 'https://www.blumenthalarts.org/news/detail/2025-blumey-awards-nominations',
@@ -304,7 +305,7 @@ export const davidsonDay: ArtsProgram = {
       },
       {
         label: 'The Blumey record is program-level, not just lucky individuals',
-        text: '2023 Mean Girls drew Best Ensemble/Chorus and Best Overall Direction nominations. 2026 Big Fish produced five finalists: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer.',
+        text: '2023 Mean Girls drew Best Musical, Best Ensemble/Chorus and Best Overall Direction nominations. Once Upon a One More Time had five finalists in 2025. 2026 Big Fish produced five more: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer.',
       },
       {
         label: 'A complete visual-arts ladder terminating in AP',

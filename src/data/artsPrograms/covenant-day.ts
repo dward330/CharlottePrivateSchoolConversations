@@ -16,12 +16,13 @@ const ARTS = 'https://www.covenantday.org/arts'
 const THEATER = 'https://www.covenantday.org/arts/theater'
 const MUSIC = 'https://www.covenantday.org/arts/music'
 const VISUAL = 'https://www.covenantday.org/arts/visual-arts'
+const LOWER = 'https://www.covenantday.org/academics/lower-school'
 
 export const covenantDay: ArtsProgram = {
   /* ------------------------------------------------------------ 2a ladder -- */
   ladder: {
     headline:
-      'A JK–12 ladder with a worship-music spine: art integrated from junior kindergarten, sequential from grade 1, ensembles from grade 3.',
+      'A JK–12 ladder with a worship-music spine: art integrated from junior kindergarten, sequential from grade 1, ensembles from Lower School.',
     subhead:
       'One Fine Arts credit is required to graduate, and worship bands run at both middle and high school — a rung few schools have.',
     stats: [
@@ -37,7 +38,8 @@ export const covenantDay: ArtsProgram = {
         items: [
           'General Music JK–4, with art integrated in JK–K and sequential from grade 1',
           'Introduction to Choir and Band in grade 5',
-          'CDS Children’s Choir, grades 3–5',
+          // B (plan consistency4, COV-T8): the two school pages differ on the first grade; show both.
+          'CDS Children’s Choir: grades 3–5 on the music page, 4th and 5th grade on the Lower School page',
         ],
       },
       {
@@ -54,7 +56,7 @@ export const covenantDay: ArtsProgram = {
         grades: '9–12',
         items: [
           'Symphonic Band, HS Choir, HS Worship Band, and HS A Cappella',
-          'Theater I–II, Theatre Tech, and Honors Auditioned Theatre (Performance or Technical track)',
+          'Theater I–II on the theater page (one Theatre course in the catalog), Theatre Tech, and Honors Auditioned Theatre (Performance or Technical track)',
           'Visual path from Intro to Art through AP Studio Art; Worship Leadership as a credit course',
         ],
       },
@@ -84,7 +86,7 @@ export const covenantDay: ArtsProgram = {
       { season: 'Year-round', kind: 'Showcases', detail: 'MS and HS Theater Nights, the HS Shakespeare Competition, and NC Theatre Conference participation' },
     ],
     whoRunsIt:
-      'Fine Arts Director Sherie-Beth Wilson, with the Covenant Arts Association staffing and pre-selling the three productions. Courses: MS Drama (6–8), Theater I–II, Theatre Tech, and Honors Auditioned Theatre with Performance or Technical tracks.',
+      'Fine Arts Director Sherie-Beth Wilson, with the Covenant Arts Association staffing and pre-selling the three productions. Courses: MS Drama (6–8), Theater I–II on the theater page (one Theatre course in the catalog), Theatre Tech, and Honors Auditioned Theatre with Performance or Technical tracks.',
     venueNote:
       'The Lions Theater seats 200, with LED lighting, a costume room and set storage — a black-box-scale house, which is why the Arts Association’s tiered pre-sale exists.',
     ledger: [
@@ -94,7 +96,7 @@ export const covenantDay: ArtsProgram = {
       { year: '2017', show: 'Blumey Awards', result: 'Best Ensemble nomination' },
       { year: '2018', show: 'Blumey Awards', result: 'Featured Performer + Supporting Actress nominations' },
       { year: '2019', show: 'Curtains', result: 'Best Actress nomination (as Georgia Hendricks)' },
-      { year: '2025', show: 'National Shakespeare Competition', result: 'A student named Finalist', win: true },
+      { year: '2025', show: 'National Shakespeare Competition', result: 'A student named Finalist' },
     ],
     honestContext:
       'The ledger goes quiet after 2019 at the Blumeys. The school’s own theater page has no Blumey entry after 2019. Production titles are not published, so Curtains is the only show known by name. The Shakespeare finalist shows the program is still producing results.',
@@ -110,16 +112,16 @@ export const covenantDay: ArtsProgram = {
   /* ------------------------------------------------------------- 2c music -- */
   music: {
     headline:
-      'Nine ensembles from grade 3 up — and the distinctive rung is worship: credit-bearing Worship Leadership plus worship bands in both divisions.',
+      'Nine ensembles from Lower School up — and the distinctive rung is worship: credit-bearing Worship Leadership plus worship bands in both divisions.',
     subhead:
       'Adjudication record at Music in the Parks: Superior ratings for MS Choir three straight years, and a 2nd-place HS Band finish in 2025.',
     tracks: [
-      { label: 'Choral', ensembles: ['CDS Children’s Choir (3–5)', 'MS Choir (6–8)', 'HS Choir', 'HS A Cappella'] },
+      { label: 'Choral', ensembles: ['CDS Children’s Choir', 'MS Choir (6–8)', 'HS Choir', 'HS A Cappella'] },
       { label: 'Instrumental', ensembles: ['Intro to Band (gr. 5)', 'MS Band (6–8)', 'Symphonic Band'] },
       { label: 'Worship', ensembles: ['MS Worship Band', 'HS Worship Band', 'Worship Leadership (credit course)'] },
     ],
     boardNote:
-      'Director: Zach Thompson, Worship and Choir Teacher. No orchestra or marching band — the instrumental program is concert/symphonic.',
+      'Director: Zach Thompson, Worship and Choir Teacher. No orchestra or marching band — the instrumental program is concert/symphonic. The Children’s Choir is grades 3–5 on the music page and 4th and 5th grade on the Lower School page.',
     ladder: [
       { label: '2021–23', text: 'MS Choir earned a Superior rating at Music in the Parks three consecutive years; MS Band took Excellent ratings and a 3rd placement.' },
       { label: '2023', text: 'HS Band earned an Excellent rating.' },
@@ -130,6 +132,7 @@ export const covenantDay: ArtsProgram = {
       'No NCMEA All-State or All-District honors appear on the music page — a confirmed absence. Performance venues run from Biltmore Estates to Christmas programs, sporting events and spring concerts.',
     sources: [
       { label: 'covenantday.org — Music (ensembles, adjudications)', url: MUSIC },
+      { label: 'covenantday.org — Lower School (Specials: children’s choir)', url: LOWER },
     ],
   },
 
@@ -196,6 +199,7 @@ export const covenantDay: ArtsProgram = {
       'Is there any strings/orchestra pathway, or dance? Neither appears in the program.',
       'How does the 200-seat Lions Theater handle demand for the HS musical — how fast do public tickets go after the Arts Association pre-sale?',
       'Which Music in the Parks division do the ensembles compete in, and is NCMEA All-State participation on the roadmap?',
+      'Can a 3rd grader join the Children’s Choir? The music page says grades 3–5, and the Lower School page says 4th and 5th grade.',
     ],
     sources: [
       { label: 'covenantday.org — Arts', url: ARTS },

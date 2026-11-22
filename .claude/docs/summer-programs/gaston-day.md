@@ -1,5 +1,5 @@
 # Gaston Day School — Summer Programs
-> Distilled from 1 source document(s) in `source-material/summer-programs/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 1 source document(s) in `source-material/summer-programs/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** 2026 Camp Catalog
 
 
@@ -182,6 +182,18 @@ Checked in Chrome and by HTML export, 2026-11-20:
  which requires a parent account. Its prices are not public.
 
 Status: the billing period of the $25 and $35 care options is not published. Ask the school.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+https://docs.google.com/document/d/1_6aE8KD3zpXlr5pQL1D3efBdSAImDMuY-f92oosFNKk/export?format=txt (HTTP 200,
+2026-11-22) is unchanged on the values checked: "All half-day enrichment camps are $220 each", "*Week 3 camps are
+$175 due to no camp on June 19th*", "Baseball Camp (1st -8th)" under the half-day enrichment camps, and
+"Fairies + Friends (PreK-2)" in "Week 8 - July 27 - 30th".
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+The live catalog, https://docs.google.com/document/d/1_6aE8KD3zpXlr5pQL1D3efBdSAImDMuY-f92oosFNKk/export?format=txt
+(HTTP 200, 2026-11-22), lists "Baseball Camp (1st -8th)" among the half-day enrichment camps, so they span rising PreK-8th.
 
 
 ---

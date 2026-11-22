@@ -318,7 +318,7 @@ export const cannon: InternationalTravelProgram = {
       },
       {
         topic: 'Cost.',
-        question: 'What does a trip cost, and what does it include? No trip price is published.',
+        question: 'The fee list gives $0–500 for a Winterm course, depending on the one chosen, but no price for any trip abroad. What does a trip cost, and what does it include?',
       },
       {
         topic: 'Aid.',

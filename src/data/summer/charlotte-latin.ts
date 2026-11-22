@@ -678,7 +678,7 @@ export const charlotteLatin: SummerProgram = {
       },
       {
         name: 'Monogram, Vinyl & Cricut Designs',
-        desc: 'A full-day arts premium camp — one of only two at its price point.',
+        desc: 'A full-day arts premium camp, the only one at its price.',
         category: 'arts',
         categoryLabel: 'Arts premium (full day)',
         grades: ['a68', 'a911'],
@@ -969,7 +969,7 @@ export const charlotteLatin: SummerProgram = {
         label: 'STEM half-day (base)',
         panelLabel: 'STEM half-day camp',
         price: 255,
-        detail: '26 offerings. The only tier with no early-bird discount.',
+        detail: '26 offerings, with no early-bird discount.',
       },
       {
         id: 'standard',
@@ -1029,7 +1029,7 @@ export const charlotteLatin: SummerProgram = {
       },
       {
         label:
-          '**Super Care bundles Before and After Care at $195.00/week** — the school’s only published discount, $25.00 less than the $70.00 + $150.00 toggles above. Late pick-up after 5:30pm is $25.00 every 15 minutes.',
+          '**Super Care bundles Before and After Care at $195.00/week** — a bundle the school calls a discount, $25.00 less than the $70.00 + $150.00 toggles above. Late pick-up after 5:30pm is $25.00 every 15 minutes.',
         note: true,
       },
       {

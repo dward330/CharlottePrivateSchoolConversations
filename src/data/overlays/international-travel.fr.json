@@ -1489,11 +1489,18 @@
       ]
     },
     {
-      "t": "Middle School et Upper School · niveaux 6–12",
-      "of": "843c2227",
+      "t": "Middle School et Upper School · niveaux 6–11",
+      "of": "853c23ba",
       "at": [
         "providence-day:signup.groups[0].events[0].audience",
-        "providence-day:signup.groups[0].events[1].audience"
+        "providence-day:signup.groups[0].events[1].audience",
+        "providence-day:signup.groups[0].events[2].audience",
+        "providence-day:signup.groups[0].events[3].audience",
+        "providence-day:signup.groups[0].events[4].audience",
+        "providence-day:signup.groups[0].events[5].audience",
+        "providence-day:signup.groups[0].events[6].audience",
+        "providence-day:signup.groups[0].events[7].audience",
+        "providence-day:signup.groups[0].events[8].audience"
       ]
     },
     {
@@ -1529,19 +1536,6 @@
       "of": "17239da7",
       "at": [
         "providence-day:signup.groups[0].events[2].name"
-      ]
-    },
-    {
-      "t": "Middle School et Upper School · niveaux 6–11",
-      "of": "853c23ba",
-      "at": [
-        "providence-day:signup.groups[0].events[2].audience",
-        "providence-day:signup.groups[0].events[3].audience",
-        "providence-day:signup.groups[0].events[4].audience",
-        "providence-day:signup.groups[0].events[5].audience",
-        "providence-day:signup.groups[0].events[6].audience",
-        "providence-day:signup.groups[0].events[7].audience",
-        "providence-day:signup.groups[0].events[8].audience"
       ]
     },
     {
@@ -7067,8 +7061,8 @@
       ]
     },
     {
-      "t": "Quel programme international et linguistique est proposé avant la Middle School, et existe-t-il une progression linguistique publiée de JK à 12 ?",
-      "of": "9259a6b1",
+      "t": "Le français et l’espagnol commencent en Lower School. Existe-t-il une progression linguistique unique et publiée qui va de JK à la 12e année ?",
+      "of": "c44a6e48",
       "at": [
         "charlotte-country-day:verdict.ask[8].question"
       ]
@@ -7690,8 +7684,8 @@
       ]
     },
     {
-      "t": "Combien coûte un voyage, et que comprend-il ? Aucun prix de voyage n’est publié.",
-      "of": "50cea9fe",
+      "t": "La liste des frais indique $0–500 pour un cours Winterm, selon celui choisi, mais aucun prix pour un voyage à l’étranger. Combien coûte un voyage, et que comprend-il ?",
+      "of": "edba8f97",
       "at": [
         "cannon:verdict.ask[2].question"
       ]
@@ -8518,8 +8512,8 @@
       ]
     },
     {
-      "t": "Des recherches de terrain l’été sur trois sites actifs, dont l’un compte 20 saisons documentées",
-      "of": "7d81b0c4",
+      "t": "Des recherches de terrain l’été sur trois sites actifs, après 20 saisons à Cahal Pech",
+      "of": "874694ea",
       "at": [
         "davidson-day:verdict.standsOut.points[0]"
       ]

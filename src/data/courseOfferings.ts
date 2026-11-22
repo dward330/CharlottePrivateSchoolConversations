@@ -2617,7 +2617,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '117 course lines across 9 departments in the guide’s index — 23 AP courses AND 18 IB courses plus the full IB Diploma core. Shown here as 121 entries, including five courses the guide describes but does not index.',
+        '117 course lines across 9 departments in the guide’s index — 23 AP courses AND 18 IB courses plus the full IB Diploma core. That is the 2025–26 guide; the 2026–27 profile counts 26 AP courses. Shown here as 121 entries, including five courses the guide describes but does not index.',
       source: "Country Day Upper School Course Guide '25–26",
       sourceUrl:
         'https://www.charlottecountryday.org/fs/resource-manager/view/bc87ead7-8dee-4694-ab5b-b04ebf5710de',
@@ -3013,7 +3013,7 @@ const CHARLOTTE_COUNTRY_DAY: CourseOfferings = {
           name: 'Fine Arts',
           courses: [
             { title: 'Concert Choir', tag: 'Year', description: 'A non-audition choral ensemble.' },
-            { title: 'Honors Concert Choir', tag: 'Honors', description: 'Honors-level concert choir.' },
+            { title: 'Honors Concert Choir', tag: 'Honors', description: 'Honors-level concert choir, entered by application and audition.' },
             {
               title: 'Honors Chamber Choir',
               tag: 'Audition',
@@ -3281,7 +3281,7 @@ const CANNON: CourseOfferings = {
           courses: [
             {
               title: 'Spanish',
-              tag: 'Gr 1–4',
+              tag: 'JrK–Gr 4',
               description:
                 'Combines the Communicative Language Approach with the Foreign Language in the Elementary School (FLES) approach.',
             },
@@ -5196,9 +5196,11 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
    overlays key on index paths (covenant-day:divisions[0]...), so Middle and
    Lower are APPENDED at [1] and [2] rather than placed in grade order. Carmel
    Christian ships the same way. High School is reconciled against the
-   /academics/high-school department tiles; where the older 2026-27 Profile
-   matrix carries a course the academics page omits, the course is kept — both
-   are the school's own publications. Descriptions condense the school's own
+   /academics/high-school department tiles (86 entries); where the current
+   2026-27 Profile matrix (Aug 2026) carries a course the academics page omits,
+   the course is kept and says so (Psychology Honors, Theatre Tech, Intercultural
+   Practicum: 89 in all). CP Statistics is on neither and was removed (plan
+   consistency4, COV-T4). Descriptions condense the school's own
    catalog language, never invented prose. */
 const COVENANT_DAY: CourseOfferings = {
   guideYear: '2026-27',
@@ -5207,7 +5209,7 @@ const COVENANT_DAY: CourseOfferings = {
       title: 'High School Courses',
       grades: 'GRADES 9 – 12',
       teaser:
-        '90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department, which is rare.',
+        '89 course entries across 9 departments: 86 on the academics page and three more in the 2026–27 profile. They include 17 Advanced Placement courses, a named Bible course for each of the four years, and a Restoration & Sustainability department, which is rare.',
       source:
         'Covenant Day High School academics page (department tiles), reconciled against the 2026-2027 High School Profile course matrix',
       sourceUrl: 'https://www.covenantday.org/academics/high-school',
@@ -5239,7 +5241,6 @@ const COVENANT_DAY: CourseOfferings = {
             { title: 'Pre-Calculus', tag: 'CP', description: 'Functions and trigonometry before calculus.' },
             { title: 'Pre-Calculus Honors', tag: 'Honors', description: 'The honors pre-calculus year.' },
             { title: 'Calculus Honors', tag: 'Honors', description: 'Honors calculus — available for dual enrollment with Covenant College.' },
-            { title: 'Statistics', tag: 'CP', description: 'Introductory statistics.' },
             { title: 'Statistics Honors', tag: 'Honors', description: 'Honors statistics — available for dual enrollment with Covenant College.' },
             { title: 'AP Calculus AB', tag: 'AP', description: 'College-level differential and integral calculus.' },
             { title: 'AP Calculus BC', tag: 'AP', description: 'The faster calculus track, through series; the school notes this offering may be impacted by student enrollment.' },
@@ -5272,7 +5273,7 @@ const COVENANT_DAY: CourseOfferings = {
             { title: 'U.S. History Honors', tag: 'Honors', description: 'Honors U.S. history.' },
             { title: 'Government and Economics', tag: 'CP', description: 'The civics-and-economics capstone.' },
             { title: 'Government and Economics Honors', tag: 'Honors', description: 'The honors capstone.' },
-            { title: 'Psychology Honors', tag: 'Honors', description: 'Honors psychology.' },
+            { title: 'Psychology Honors', tag: 'Honors', description: 'Honors psychology. It is listed in the 2026–27 profile, not on the academics page.' },
             { title: 'AP U.S. History', tag: 'AP', description: 'College-level American history.' },
             { title: 'AP U.S. Government & Politics', tag: 'AP', description: 'College-level U.S. government and politics.' },
             { title: 'AP European History', tag: 'AP', description: 'College-level European history.' },
@@ -5282,7 +5283,7 @@ const COVENANT_DAY: CourseOfferings = {
         {
           name: 'Bible',
           courses: [
-            { title: 'Old Testament Survey', tag: '9th Grade', description: 'The freshman Bible course; students are enrolled in a Bible course every year, and three units are required to graduate.' },
+            { title: 'Old Testament Survey', tag: '9th Grade', description: 'The freshman Bible course; students are enrolled in a Bible course every year, and 3.5 units are required to graduate.' },
             { title: 'New Testament Survey', tag: '10th Grade', description: 'The sophomore Bible course, surveying the New Testament.' },
             { title: 'Christian Doctrine', tag: '11th Grade', description: 'The junior Bible course, working through Christian doctrine systematically.' },
             { title: 'Engaging the Culture - An Introduction to Apologetics and Worldviews', tag: '12th Grade', description: 'The senior Bible capstone in apologetics and competing worldviews.' },
@@ -5314,8 +5315,9 @@ const COVENANT_DAY: CourseOfferings = {
             { title: 'Choir Honors', tag: 'Honors', description: 'The honors choral track.' },
             { title: 'Symphonic Band', tag: 'CP', description: 'The concert band as a credit course.' },
             { title: 'Symphonic Band Honors', tag: 'Honors', description: 'The honors band track.' },
+            // B (plan consistency4, COV-T9): the theater page says "Theater I-II"; this catalog and the profile list one Theatre course.
             { title: 'Theatre', tag: 'CP', description: 'The theatre performance course.' },
-            { title: 'Theatre Tech', tag: 'CP', description: 'Technical theatre — sets, lighting, production.' },
+            { title: 'Theatre Tech', tag: 'CP', description: 'Technical theatre — sets, lighting, production. It is listed in the 2026–27 profile, not on the academics page.' },
             { title: 'Auditioned Theatre Honors', tag: 'Honors', description: 'The audition-entry honors company, with Performance or Technical tracks.' },
             { title: 'Worship Leadership', tag: 'CP', description: 'Credit-bearing worship-arts leadership.' },
             { title: 'Intro to Art', tag: 'CP', description: 'The entry visual-arts course.' },
@@ -5334,7 +5336,7 @@ const COVENANT_DAY: CourseOfferings = {
           courses: [
             { title: 'Augustine Literacy Project', tag: 'CP', description: 'A college-preparatory course in the Restoration & Sustainability department.' },
             { title: 'ContainIt', tag: 'CP', description: 'The department’s ContainIt course; the school’s ContainIt team transforms used shipping containers into livable space.' },
-            { title: 'Intercultural Practicum', tag: 'CP', description: 'Applied cross-cultural engagement.' },
+            { title: 'Intercultural Practicum', tag: 'CP', description: 'Applied cross-cultural engagement. It is listed in the 2026–27 profile, not on the academics page.' },
             { title: 'Intro to Engineering', tag: 'CP', description: 'The department’s engineering entry.' },
             { title: 'Restore525', tag: 'CP', description: 'The department’s service program as a credit course.' },
           ],
@@ -5804,7 +5806,7 @@ const COVENANT_DAY: CourseOfferings = {
               title: 'Music',
               tag: 'JK–Gr 5',
               description:
-                'Vocal, instrumental and percussion music by classical and modern composers · 4th grade learns recorder and 5th grade band instruments · a children’s choir for 4th and 5th graders and private piano, vocal and guitar lessons are available.',
+                'Vocal, instrumental and percussion music by classical and modern composers · 4th grade learns recorder and 5th grade band instruments · a children’s choir for 4th and 5th graders (the music page says grades 3–5) · private piano, vocal and guitar lessons are available.',
             },
             {
               title: 'CREATE Junior',
@@ -7246,9 +7248,11 @@ const GASTON_DAY: CourseOfferings = {
       grades: 'Grades 9 – 12',
       teaser:
         '46 named courses across eight departments, including 10 AP courses and one dual-enrollment course taught by Gaston Day faculty.',
-      source: 'gastonday.org — Academic Profile 2025-2026 (curriculum table)',
+      // Two 2025-26 editions are live. November is the one College Counseling links;
+      // September (…/2025/09/New-GDS-Profile-25-26.pdf) prints British Literature.
+      source: 'gastonday.org — Academic Profile 2025-2026, November 2025 edition (curriculum table)',
       sourceUrl:
-        'https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf',
+        'https://www.gastonday.org/wp-content/uploads/2025/11/25-26-GDS-Profile-1.pdf',
       departments: [
         {
           name: 'English',
@@ -7256,7 +7260,7 @@ const GASTON_DAY: CourseOfferings = {
             { title: 'English 9', tag: 'Honors', description: 'First of the four required years of English.' },
             { title: 'English 10', tag: 'Honors', description: 'Second-year English, offered at the Honors level.' },
             { title: 'American Literature', tag: 'Honors', description: 'Upper-level survey offered at the Honors level.' },
-            { title: 'British Literature', tag: 'Honors', description: 'Upper-level survey offered at the Honors level.' },
+            { title: 'European Literature (British Literature in the September edition)', tag: 'Honors', description: 'Upper-level survey at the Honors level. The November 2025 profile calls it European Literature. The September 2025 edition calls it British Literature.' },
             { title: 'English Literature & Composition', tag: 'AP', description: 'College-level literary analysis; all AP students must sit the exam.' },
             { title: 'English Language & Composition', tag: 'AP', description: 'College-level rhetoric and composition; all AP students must sit the exam.' },
           ],
@@ -7296,7 +7300,9 @@ const GASTON_DAY: CourseOfferings = {
         {
           name: 'World Language',
           courses: [
-            { title: 'Spanish I, II, III', description: 'Completion through Level III, in Spanish or French, is required for graduation, except for international students for whom English is a second language.' },
+            // B (plan consistency4, GD-T16): the Upper School page says "either French or
+            // Spanish"; both profile editions' course tables print Spanish only. No winner picked.
+            { title: 'Spanish I, II, III', description: 'The Upper School page requires completion through Level III in Spanish or French to graduate. International students for whom English is a second language are exempt. The profile’s course table lists only Spanish.' },
             { title: 'Spanish IV', tag: 'Honors', description: 'The final course in the Spanish sequence, beyond the graduation requirement.' },
           ],
         },

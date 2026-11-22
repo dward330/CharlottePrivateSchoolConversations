@@ -2161,14 +2161,14 @@
       "t": "अपने सूचना दिवस पर नज़र रखिए"
     },
     {
-      "text": "Admission and financial aid decisions come that day. No contract date is published; confirm it with admissions.",
-      "of": "9173c205",
+      "text": "Admission and financial aid decisions come that day. No contract due date is published; confirm it with admissions.",
+      "of": "9ebc1ec7",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[7].detail",
         "charlotte-latin:guide.bands[1].checklistRows[6].detail",
         "charlotte-latin:guide.bands[2].checklistRows[7].detail"
       ],
-      "t": "प्रवेश और वित्तीय सहायता के निर्णय उसी दिन आते हैं। अनुबंध की कोई तारीख़ प्रकाशित नहीं है; उसे प्रवेश कार्यालय से पुष्ट कीजिए।"
+      "t": "प्रवेश और वित्तीय सहायता के निर्णय उसी दिन आते हैं। अनुबंध की कोई अंतिम तारीख़ प्रकाशित नहीं है; उसे प्रवेश कार्यालय से पुष्ट कीजिए।"
     },
     {
       "text": "Lower School · Grades 1–5",
@@ -2614,12 +2614,12 @@
       "t": "Educational Records Bureau से। कक्षा 12 के लिए कुछ भी प्रकाशित नहीं है।"
     },
     {
-      "text": "Grades 9–11. Admission and financial aid decisions come that day. Nothing is published for Grade 12 or for the contract; ask admissions.",
-      "of": "0984e87d",
+      "text": "Grades 9–11. Admission and financial aid decisions come that day. Nothing is published for Grade 12, and no contract due date is published; ask admissions.",
+      "of": "0f61934c",
       "at": [
         "charlotte-latin:guide.bands[3].checklistRows[7].detail"
       ],
-      "t": "कक्षा 9–11। प्रवेश और वित्तीय सहायता के निर्णय उसी दिन आते हैं। कक्षा 12 या अनुबंध के लिए कुछ भी प्रकाशित नहीं है; प्रवेश कार्यालय से पूछिए।"
+      "t": "कक्षा 9–11। प्रवेश और वित्तीय सहायता के निर्णय उसी दिन आते हैं। कक्षा 12 के लिए कुछ भी प्रकाशित नहीं है, और अनुबंध की कोई अंतिम तारीख़ भी प्रकाशित नहीं है; प्रवेश कार्यालय से पूछिए।"
     },
     {
       "text": "Aid runs through **Clarity**. It opens **September 15, 2026** and is due **January 15, 2027** to be considered in the priority round. Award decisions come on notification day: **February 26, 2027** for TK and Kindergarten, and **April 9, 2027** for Grades 1–11. One application covers every child in the family and \"typically takes 30 minutes or less to complete.\" Separately, a **$2,500 non-refundable deposit** is \"required at the time of initial enrollment or reenrollment\" and is \"deducted from the second tuition payment\". No student can be enrolled or reenrolled without it. **No aid application fee is published** for this cycle.",
@@ -2771,29 +2771,29 @@
       "t": "निर्णय और अनुबंध"
     },
     {
-      "text": "Feb 26, 2027 · no contract date published",
-      "of": "eed7eae9",
+      "text": "Feb 26, 2027 · no contract due date published",
+      "of": "aa29f6e3",
       "at": [
         "charlotte-latin:guide.comparison.rows[6].cells.tkk"
       ],
-      "t": "26 फ़रवरी 2027 · अनुबंध की कोई तारीख़ प्रकाशित नहीं"
+      "t": "26 फ़रवरी 2027 · अनुबंध की कोई अंतिम तारीख़ प्रकाशित नहीं"
     },
     {
-      "text": "Apr 9, 2027 · no contract date published",
-      "of": "5760d46c",
+      "text": "Apr 9, 2027 · no contract due date published",
+      "of": "6bd709e2",
       "at": [
         "charlotte-latin:guide.comparison.rows[6].cells.ls",
         "charlotte-latin:guide.comparison.rows[6].cells.ms"
       ],
-      "t": "9 अप्रैल 2027 · अनुबंध की कोई तारीख़ प्रकाशित नहीं"
+      "t": "9 अप्रैल 2027 · अनुबंध की कोई अंतिम तारीख़ प्रकाशित नहीं"
     },
     {
-      "text": "Apr 9, 2027 (Gr 9–11) · nothing published for Gr 12 · no contract date published",
-      "of": "961f8cc3",
+      "text": "Apr 9, 2027 (Gr 9–11) · nothing published for Gr 12 · no contract due date published",
+      "of": "c9c22305",
       "at": [
         "charlotte-latin:guide.comparison.rows[6].cells.us"
       ],
-      "t": "9 अप्रैल 2027 (कक्षा 9–11) · कक्षा 12 के लिए कुछ प्रकाशित नहीं · अनुबंध की कोई तारीख़ प्रकाशित नहीं"
+      "t": "9 अप्रैल 2027 (कक्षा 9–11) · कक्षा 12 के लिए कुछ प्रकाशित नहीं · अनुबंध की कोई अंतिम तारीख़ प्रकाशित नहीं"
     },
     {
       "text": "Constant in every band",
@@ -2802,8 +2802,7 @@
         "charlotte-latin:guide.comparison.rows[7].label",
         "charlotte-christian:guide.comparison.rows[10].label",
         "charlotte-country-day:guide.comparison.rows[8].label",
-        "covenant-day:guide.comparison.rows[9].label",
-        "hickory-grove-christian:guide.comparison.rows[8].label"
+        "covenant-day:guide.comparison.rows[9].label"
       ],
       "t": "हर स्तर पर एक जैसा"
     },
@@ -2968,12 +2967,12 @@
       "t": "9502 Providence Road, Charlotte, NC 28277"
     },
     {
-      "text": "Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages. Some items, such as the enrollment contract date, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.",
-      "of": "698ff60b",
+      "text": "Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages. Some items, such as the enrollment contract due date, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.",
+      "of": "a56510ed",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ],
-      "t": "तारीखें 2027–28 प्रवेश चक्र की हैं, जैसी charlottelatin.org पर प्रकाशित हैं (अगस्त 2026 में ली गईं; नवंबर 2026 में तारीखें दोबारा जाँची गईं)। ये आवेदन प्रक्रिया, ट्यूशन और वित्तीय सहायता, तथा प्रवेश पन्नों से ली गई हैं। कुछ बातें, जैसे नामांकन अनुबंध की तारीख़, या तो केवल आवेदन पोर्टल के भीतर दिखती हैं या बिल्कुल प्रकाशित नहीं हैं। चक्र की तारीखें हर साल बदलती हैं, और पिछले किसी सत्र में इन पन्नों पर अलग तारीखें थीं। इसलिए कोई कदम उठाने से पहले लाइव पन्नों से मिला लीजिए। संकलन Charlotte School Compare द्वारा; Charlotte Latin School से कोई संबंध नहीं।"
+      "t": "तारीखें 2027–28 प्रवेश चक्र की हैं, जैसी charlottelatin.org पर प्रकाशित हैं (अगस्त 2026 में ली गईं; नवंबर 2026 में तारीखें दोबारा जाँची गईं)। ये आवेदन प्रक्रिया, ट्यूशन और वित्तीय सहायता, तथा प्रवेश पन्नों से ली गई हैं। कुछ बातें, जैसे नामांकन अनुबंध की अंतिम तारीख़, या तो केवल आवेदन पोर्टल के भीतर दिखती हैं या बिल्कुल प्रकाशित नहीं हैं। चक्र की तारीखें हर साल बदलती हैं, और पिछले किसी सत्र में इन पन्नों पर अलग तारीखें थीं। इसलिए कोई कदम उठाने से पहले लाइव पन्नों से मिला लीजिए। संकलन Charlotte School Compare द्वारा; Charlotte Latin School से कोई संबंध नहीं।"
     },
     {
       "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. The school publishes three documents, but there are really four processes. The application deadline changes at Kindergarten→1, while the testing changes a grade later, at 1→2.",
@@ -4109,12 +4108,12 @@
       "t": "ISEE के अलावा, उसकी जगह नहीं।"
     },
     {
-      "text": "Aid runs through **Clarity** — the school moved off SSS by NAIS, and no school code is used — is **need-based only** and is capped at **50 percent of tuition**. The Clarity application carries its own **$65 fee**, separate from the $100 admissions application fee, and takes under an hour. **Prospective families apply by Jan 22, 2027**; families already at the school apply by Nov 1, 2026. Awards are made only after a student is accepted.",
-      "of": "3c52eec9",
+      "text": "Aid runs through **Clarity** — the school moved off SSS by NAIS, and no school code is used — is **need-based only** and is capped at **50 percent of tuition**. The Clarity application carries its own **$65 fee**, separate from the $100 admissions application fee, and takes under an hour. **Prospective families apply by Jan 22, 2027**; families already at the school apply by Nov 2, 2026. Every family applying for aid **must also apply to the NC Opportunity Scholarship Program**, which opens Feb 1, 2027. Awards are made only after a student is accepted.",
+      "of": "6b050543",
       "at": [
         "charlotte-christian:guide.aid.text"
       ],
-      "t": "सहायता **Clarity** के ज़रिए चलती है — स्कूल ने SSS by NAIS छोड़ दिया है, और अब कोई स्कूल कोड इस्तेमाल नहीं होता — यह **केवल ज़रूरत के आधार पर** है और **ट्यूशन के 50 प्रतिशत तक सीमित** है। Clarity के आवेदन का अपना **$65 शुल्क** है, जो $100 के प्रवेश आवेदन शुल्क से अलग है, और इसमें एक घंटे से कम समय लगता है। **नए परिवार 22 जनवरी 2027 तक आवेदन करें**; जो परिवार पहले से स्कूल में हैं वे 1 नवंबर 2026 तक। सहायता तभी दी जाती है जब छात्र को प्रवेश मिल चुका हो।"
+      "t": "सहायता **Clarity** के ज़रिए चलती है — स्कूल ने SSS by NAIS छोड़ दिया है, और अब कोई स्कूल कोड इस्तेमाल नहीं होता — यह **केवल ज़रूरत के आधार पर** है और **ट्यूशन के 50 प्रतिशत तक सीमित** है। Clarity के आवेदन का अपना **$65 शुल्क** है, जो $100 के प्रवेश आवेदन शुल्क से अलग है, और इसमें एक घंटे से कम समय लगता है। **नए परिवार 22 जनवरी 2027 तक आवेदन करें**; जो परिवार पहले से स्कूल में हैं वे 2 नवंबर 2026 तक। सहायता के लिए आवेदन करने वाले हर परिवार को **NC Opportunity Scholarship Program में भी आवेदन करना होगा**, जो 1 फ़रवरी 2027 को खुलता है। सहायता तभी दी जाती है जब छात्र को प्रवेश मिल चुका हो।"
     },
     {
       "text": "CAIS — WPPSI-IV",
@@ -4482,12 +4481,12 @@
       "t": "Clarity हर पतझड़ में परिवारों के लिए मुफ़्त जानकारी वेबिनार चलाता है, जिनमें आवेदन और आपकी कर-जानकारी की जाँच कैसे होती है, यह समझाया जाता है। तारीख़ें हैं 29 सितंबर (10 p.m.), 30 सितंबर (6 p.m.), 27 अक्टूबर (10 p.m.), 28 अक्टूबर (6 p.m.) और 8 दिसंबर 2026 (8:30 p.m. EST)। हर एक के लिए अलग पंजीकरण लिंक है।"
     },
     {
-      "text": "The aid deadlines are published for this cycle: prospective families apply by Jan 22, 2027 and current families by Nov 1, 2026. Note that Jan 22 falls a week after the Jan 15 admissions deadline for grades 1-12, and three weeks after the Jan 2 JK/K one.",
-      "of": "b219d700",
+      "text": "The aid deadlines are published for this cycle: prospective families apply by Jan 22, 2027 and current families by Nov 2, 2026. Note that Jan 22 falls a week after the Jan 15 admissions deadline for grades 1-12, and three weeks after the Jan 2 JK/K one. Every family applying for aid must also apply to the NC Opportunity Scholarship Program, which opens Feb 1, 2027.",
+      "of": "5a59183a",
       "at": [
         "charlotte-christian:guide.checklist.aidPanel.items[4]"
       ],
-      "t": "इस चक्र के लिए सहायता की अंतिम तिथियाँ प्रकाशित हैं: नए परिवार 22 जनवरी 2027 तक और मौजूदा परिवार 1 नवंबर 2026 तक आवेदन करते हैं। ध्यान दीजिए कि 22 जनवरी कक्षा 1-12 की 15 जनवरी प्रवेश तिथि के एक सप्ताह बाद, और JK/K की 2 जनवरी से तीन सप्ताह बाद पड़ता है।"
+      "t": "इस चक्र के लिए सहायता की अंतिम तिथियाँ प्रकाशित हैं: नए परिवार 22 जनवरी 2027 तक और मौजूदा परिवार 2 नवंबर 2026 तक आवेदन करते हैं। ध्यान दीजिए कि 22 जनवरी कक्षा 1-12 की 15 जनवरी प्रवेश तिथि के एक सप्ताह बाद, और JK/K की 2 जनवरी से तीन सप्ताह बाद पड़ता है। सहायता के लिए आवेदन करने वाले हर परिवार को NC Opportunity Scholarship Program में भी आवेदन करना होगा, जो 1 फ़रवरी 2027 को खुलता है।"
     },
     {
       "text": "Admissions main — 704-366-5657, ext. 6502 · admissions@charchrist.com",
@@ -4514,12 +4513,12 @@
       "t": "वित्तीय सहायता — Kimberly Davenport, 704-366-5657 एक्स्ट. 6202 · kimberly.davenport@charchrist.com"
     },
     {
-      "text": "Dates are for the 2027–28 entry cycle, as published in the charlottechristian.com admissions PDFs (retrieved Aug 2026). Those are the application-process checklists and the admissions calendar, which the school updated on 26 Aug 2026. Dates also come from the Apply page, which the school rewrote on 1 Sep 2026 and which gives the cycle label. Financial-aid detail is from the live tuition page (retrieved 14 Sep 2026). The older financial-aid PDF covers a past cycle that has closed, and it is deliberately not used here. Cycle dates change from year to year, so check the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Christian School.",
-      "of": "4da20ad5",
+      "text": "Dates are for the 2027–28 entry cycle, as published in the charlottechristian.com admissions PDFs (retrieved Aug 2026). Those are the application-process checklists and the admissions calendar, which the school updated on 26 Aug 2026. Dates also come from the Apply page, which the school rewrote on 1 Sep 2026 and which gives the cycle label. Financial-aid detail is from the live tuition page (retrieved 22 Nov 2026). The older financial-aid PDF covers a past cycle that has closed, and it is deliberately not used here. Cycle dates change from year to year, so check the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Christian School.",
+      "of": "af4b1407",
       "at": [
         "charlotte-christian:guide.checklist.disclaimer"
       ],
-      "t": "तारीख़ें 2027–28 प्रवेश चक्र की हैं, जैसी charlottechristian.com के प्रवेश PDF में प्रकाशित हैं (अगस्त 2026 में ली गईं)। ये PDF आवेदन प्रक्रिया की चेकलिस्ट और प्रवेश कैलेंडर हैं, जिन्हें स्कूल ने 26 अगस्त 2026 को अद्यतन किया। तारीख़ें Apply पेज से भी ली गई हैं, जिसे स्कूल ने 1 सितंबर 2026 को नए सिरे से लिखा और जिससे चक्र का नाम मिलता है। वित्तीय सहायता का ब्योरा लाइव ट्यूशन पेज से है (14 सितंबर 2026 को लिया गया)। वित्तीय सहायता का पुराना PDF पिछले, बंद हो चुके चक्र का है, और यहाँ जानबूझकर इस्तेमाल नहीं किया गया। चक्र की तारीख़ें साल-दर-साल बदलती हैं, इसलिए कुछ करने से पहले लाइव कैलेंडर पर जाँच लीजिए। Charlotte School Compare द्वारा संकलित; Charlotte Christian School से संबद्ध नहीं।"
+      "t": "तारीख़ें 2027–28 प्रवेश चक्र की हैं, जैसी charlottechristian.com के प्रवेश PDF में प्रकाशित हैं (अगस्त 2026 में ली गईं)। ये PDF आवेदन प्रक्रिया की चेकलिस्ट और प्रवेश कैलेंडर हैं, जिन्हें स्कूल ने 26 अगस्त 2026 को अद्यतन किया। तारीख़ें Apply पेज से भी ली गई हैं, जिसे स्कूल ने 1 सितंबर 2026 को नए सिरे से लिखा और जिससे चक्र का नाम मिलता है। वित्तीय सहायता का ब्योरा लाइव ट्यूशन पेज से है (22 नवंबर 2026 को लिया गया)। वित्तीय सहायता का पुराना PDF पिछले, बंद हो चुके चक्र का है, और यहाँ जानबूझकर इस्तेमाल नहीं किया गया। चक्र की तारीख़ें साल-दर-साल बदलती हैं, इसलिए कुछ करने से पहले लाइव कैलेंडर पर जाँच लीजिए। Charlotte School Compare द्वारा संकलित; Charlotte Christian School से संबद्ध नहीं।"
     },
     {
       "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. One shared six-step process, but it breaks twice — at Kindergarten→1 and again at Grade 4→5.",
@@ -6229,12 +6228,12 @@
       "t": "ISEE के अलावा, शैडो वाली सुबह के दौरान दिया जाता है।"
     },
     {
-      "text": "Aid is **need-based** and runs through **FACTS**, with **a new application required each year**. There is also one unusual step you must complete first. To be eligible for aid from Covenant Day, **families must first provide proof of application for the NC Opportunity Scholarship**. File the aid application **at the same time as the admissions application**, not after a decision. Enrollment carries a **$1,000 non-refundable deposit** per student, applied toward tuition. **The FACTS application fee and any reduced deposit for aid applicants are not published**.",
-      "of": "64942c78",
+      "text": "Aid is **need-based** and runs through **FACTS**, with **a new application required each year**. There is also one unusual step you must complete first. To be eligible for aid from Covenant Day, **families must first provide proof of application for the NC Opportunity Scholarship**. File the aid application **at the same time as the admissions application**, not after a decision. Enrollment carries a **$1,000 non-refundable deposit** per student, applied toward tuition. **The FACTS application costs $45.** A family that completes an aid application before enrolling can ask to pay **half the deposit**.",
+      "of": "7d885015",
       "at": [
         "covenant-day:guide.aid.text"
       ],
-      "t": "सहायता **ज़रूरत के आधार पर** दी जाती है और **FACTS** के ज़रिए चलती है, और **हर साल नया आवेदन करना होता है**। एक असामान्य चरण और है जो आपको पहले पूरा करना होगा। Covenant Day से सहायता के पात्र होने के लिए **परिवारों को पहले NC Opportunity Scholarship में आवेदन का प्रमाण देना होगा**। सहायता का आवेदन निर्णय के बाद नहीं, बल्कि **प्रवेश आवेदन के साथ ही** भरिए। दाख़िले पर प्रति छात्र **$1,000 की ग़ैर-वापसी जमा** लगती है, जो ट्यूशन में समायोजित हो जाती है। **FACTS का आवेदन शुल्क और सहायता माँगने वालों के लिए कोई घटी हुई जमा प्रकाशित नहीं है**।"
+      "t": "सहायता **ज़रूरत के आधार पर** दी जाती है और **FACTS** के ज़रिए चलती है, और **हर साल नया आवेदन करना होता है**। एक असामान्य चरण और है जो आपको पहले पूरा करना होगा। Covenant Day से सहायता के पात्र होने के लिए **परिवारों को पहले NC Opportunity Scholarship में आवेदन का प्रमाण देना होगा**। सहायता का आवेदन निर्णय के बाद नहीं, बल्कि **प्रवेश आवेदन के साथ ही** भरिए। दाख़िले पर प्रति छात्र **$1,000 की ग़ैर-वापसी जमा** लगती है, जो ट्यूशन में समायोजित हो जाती है। **FACTS के आवेदन का शुल्क $45 है।** जो परिवार दाख़िले से पहले सहायता का आवेदन पूरा कर लेता है, वह **आधी जमा** देने का अनुरोध कर सकता है।"
     },
     {
       "text": "Screening instrument",
@@ -6523,12 +6522,12 @@
       "t": "दाख़िले पर प्रति छात्र $1,000 की ग़ैर-वापसी जमा लगती है, जो साल की ट्यूशन में समायोजित हो जाती है।"
     },
     {
-      "text": "The FACTS application fee and any reduced deposit for aid applicants are not published — confirm both with the student accounts office.",
-      "of": "cceb0cbc",
+      "text": "The FACTS application costs $45. A family that completes an aid application before enrolling can ask the Business Office to halve the deposit. Both rules are from the 2026–27 documents, so confirm them for 2027–28.",
+      "of": "35350212",
       "at": [
         "covenant-day:guide.checklist.aidPanel.items[4]"
       ],
-      "t": "FACTS का आवेदन शुल्क और सहायता माँगने वालों के लिए कोई घटी हुई जमा प्रकाशित नहीं है — दोनों छात्र खाता कार्यालय से पक्का कर लीजिए।"
+      "t": "FACTS के आवेदन का शुल्क $45 है। जो परिवार दाख़िले से पहले सहायता का आवेदन पूरा कर लेता है, वह Business Office से जमा आधी करने के लिए कह सकता है। दोनों नियम 2026–27 के दस्तावेज़ों से हैं, इसलिए 2027–28 के लिए इन्हें पक्का कर लीजिए।"
     },
     {
       "text": "Admissions — 704-847-2385 · admissions@covenantday.org",
@@ -8231,13 +8230,13 @@
       "t": "रिपोर्ट कार्ड, कम से कम दो साल के · कोई IEP या 504"
     },
     {
-      "text": "Transcript · two years of report cards · standardized scores · Student Questionnaire",
-      "of": "1c61f370",
+      "text": "Transcript · two years of report cards · standardized scores · Student Questionnaire · any IEP, 504 or testing",
+      "of": "ed82e869",
       "at": [
         "hickory-grove-christian:guide.comparison.rows[2].cells.ms",
         "hickory-grove-christian:guide.comparison.rows[2].cells.hs"
       ],
-      "t": "ट्रांसक्रिप्ट · दो साल के रिपोर्ट कार्ड · मानकीकृत परीक्षा अंक · Student Questionnaire"
+      "t": "ट्रांसक्रिप्ट · दो साल के रिपोर्ट कार्ड · मानकीकृत परीक्षा अंक · Student Questionnaire · कोई IEP, 504 या परीक्षण"
     },
     {
       "text": "Transcript and two years of report cards, translated into English · passport and birth certificate copies",
@@ -8392,6 +8391,14 @@
         "hickory-grove-christian:guide.comparison.rows[7].cells.intl"
       ],
       "t": "1 अगस्त तक पूरा भुगतान, वरना सीट फ़ाइनेंशियल होल्ड पर चली जाती है"
+    },
+    {
+      "text": "Constant in every domestic band",
+      "of": "eef95440",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[8].label"
+      ],
+      "t": "हर घरेलू स्तर पर एक जैसा"
     },
     {
       "text": "A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application · a non-refundable $300 application fee through May 31, 2027 ($550 from June 1, 2027), not applied toward tuition · testing set up only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and depends on space in the grade · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission",

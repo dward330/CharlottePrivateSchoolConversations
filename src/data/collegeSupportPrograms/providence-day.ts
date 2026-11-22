@@ -576,7 +576,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: 'Computer science',
-        text: '**Advanced Structures in Java** as a post-AP course, beyond both AP CS A and AP CS Principles.',
+        text: '**Advanced Data Structures in Java** (the profile shortens it to Advanced Structures) is a post-AP course, beyond both AP CS A and AP CS Principles.',
       },
       {
         label: 'World language',
@@ -793,7 +793,7 @@ export const providenceDay: CollegeSupportProgram = {
         items: [
           '**Global Studies Diploma** — “the first of its kind in the country”. It begins in 9th grade and requires a world language all four years. It also requires globally focused courses, a cross-cultural experience and a personal portfolio. The final course, Global Leadership, ends in a long research paper. **375 graduates since 2007**, 23 in the Class of 2026 alone.',
           '**Diploma in Entrepreneurial Studies** — new for 2026, sitting inside IDEAS@PD (Innovation, Design, Entrepreneurship, Analytics, Sustainability) with industry-certification opportunities and business partnerships.',
-          '**Required 30-hour Senior Project internship** — every student must complete it to graduate, so every graduate leaves with documented work experience. The school deliberately has *no* community-service requirement.',
+          '**Required 30-hour Senior Project internship** — every student must complete it to graduate, so every graduate leaves with documented work experience. The school deliberately has no community-service requirement.',
           '**Recruiting & arts tracks** — “Facts About Athletic Recruiting” and “Studying the Arts in College” sessions run in alternating years. The Class of 2026 sent 31 student-athletes to college sport, 13 at Division I.',
         ],
         note:
@@ -806,7 +806,7 @@ export const providenceDay: CollegeSupportProgram = {
           '**The Academic Profile as an instrument** — it shares far more than most school profiles, and that openness is what the school brings. It gives the full AP score spread for each of 29 subjects. Its quintile table shows the average SAT and ACT for each fifth of the class. It states the most APs a student may take in each grade. It also gives the weighting formula, with unweighted grades on the transcript. That turns the no-rank policy from a weakness into useful context.',
           '**Integrity signaling** — the school states it follows the **NACAC Guide to Ethical Practice**. It also “reports all student behavioral probations, suspensions and expulsions through time of graduation” to any college that asks. A student-run Honor Council backs this up. It has eight students, two per grade, plus two elected faculty members and a third named by the Head of School. Being this open earns the trust of college readers, and every applicant gains from it.',
           '**Repeat pipelines, numbered rather than implied** — the Class of 2025 scholar was Providence Day’s **18th Morehead-Cain**. That is a record going back decades with North Carolina’s most selective merit award. The colleges in bold across the list work as a practical map of the school’s pipelines. Four of the five federal service academies appear.',
-          '**Two-way relationships and memberships** — the school belongs to NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** and the College Board, plus Global Online Academy. It is accredited by SAIS and SACS, and **81%** of Upper School faculty hold advanced degrees. The school hosted ~150 college reps and visited 50+ campuses, a real two-way flow. A deep UK/Europe pipeline (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Bocconi, Toronto) fits its Global Studies focus.',
+          '**Two-way relationships and memberships** — the school belongs to NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** and the College Board, plus Global Online Academy. It is accredited by SAIS and SACS, and **81%** of Upper School faculty hold advanced degrees. The school hosted ~150 college reps and visited 50+ campuses, a real two-way flow. A deep UK/Europe pipeline (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Toronto) fits its Global Studies focus.',
         ],
       },
     ],
@@ -877,8 +877,8 @@ export const providenceDay: CollegeSupportProgram = {
     ],
     middle: [
       {
-        label: 'The list matches the distribution',
-        text: 'The 383-institution list runs from Williams, MIT and Harvard down through Catawba, Brevard, Lees-McRae, Pfeiffer and Central Piedmont Community College. Just as important, many less selective options are **bolded**, meaning students enrolled there. They include App State, East Carolina, UNC–Charlotte, UNC–Greensboro, Western Carolina, High Point, Wingate, Gardner-Webb, Belmont Abbey and Central Piedmont. So students in the fourth and fifth quintiles really are enrolling, not just appearing on the list.',
+        label: 'The list spans selective and less selective colleges',
+        text: 'The 383-institution list runs from Williams, MIT and Harvard down through Catawba, Brevard, Lees-McRae, Pfeiffer and Central Piedmont Community College. Just as important, many less selective options are **bolded**, meaning students enrolled there. They include App State, East Carolina, UNC–Charlotte, UNC–Greensboro, Western Carolina, High Point, Wingate, Gardner-Webb, Belmont Abbey and Central Piedmont. So graduates really are enrolling at less selective colleges too. The profile does not say which fifths they come from.',
       },
       {
         label: 'Fit over prestige',
@@ -886,7 +886,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: 'When direction changes',
-        text: 'Conservatories: Berklee, RISD, Parsons, SAIC, SCAD, School of Visual Arts and UNCSA. Four of the five federal service academies. A deep international list: Oxford, St Andrews, Edinburgh, UCL, LSE, King’s College London, Trinity Dublin, Leiden, Amsterdam, Bocconi and Toronto.',
+        text: 'Conservatories: Berklee, RISD, Parsons, SAIC, SCAD and UNCSA. Four of the five federal service academies. A deep international list: Oxford, St Andrews, Edinburgh, UCL, LSE, King’s College London, Trinity Dublin, Leiden, Amsterdam and Toronto.',
       },
     ],
     flags: [
@@ -904,7 +904,7 @@ export const providenceDay: CollegeSupportProgram = {
 
   verdict: {
     headline:
-      'A mature, stable, high-touch college program that delivers elite outcomes at the top and real placement through the middle — and hands colleges a transcript built to be trusted.',
+      'A mature, stable, high-touch college program that places graduates at highly selective and less selective colleges alike — and hands colleges a transcript built to be trusted.',
     subhead:
       'The open questions are about the current year and the unpublished operational details — exactly what a campus visit answers.',
     points: [
@@ -921,8 +921,8 @@ export const providenceDay: CollegeSupportProgram = {
         text: 'five counselors for 754 Upper Schoolers (~36 seniors each), an 18-year director, associate directors who came from inside university admissions, ~150 reps hosted and 50+ campuses visited.',
       },
       {
-        label: 'Outcomes real at both ends of the class',
-        text: '8 of 8 Ivies bolded as enrolling — and accessible in-state options bolded too, right down to Central Piedmont Community College. The list matches the school’s actual quintile spread.',
+        label: 'Enrollment at more and less selective colleges',
+        text: '8 of 8 Ivies bolded as enrolling — and accessible in-state options bolded too, right down to Central Piedmont Community College. The profile does not say which fifths of the class those students come from.',
       },
       {
         label: 'Pipelines numbered, not anecdotal',
@@ -934,7 +934,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
     ],
     checklist: [
-      'Your profile shows the fifth quintile averaging a 1116 SAT and a 3.204 weighted GPA. Where did those ~36 students actually enroll last year?',
+      'Your profile shows this year’s fifth quintile at a 1116 SAT and a 3.204 weighted GPA. Where did last year’s fifth quintile enroll?',
       'Is every application read before submission, and do you have a stated Early Decision / Early Action strategy?',
       'What is your position on test-optional, and what share of last year’s class actually submitted scores?',
       'Five counselors share 179 seniors — does each student keep the same counselor from 9th grade to graduation?',

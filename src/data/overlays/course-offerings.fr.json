@@ -2404,9 +2404,9 @@
         "cannon:divisions[2].departments[6].courses[1].tag",
         "covenant-day:divisions[0].departments[0].courses[8].tag",
         "covenant-day:divisions[0].departments[0].courses[9].tag",
+        "covenant-day:divisions[0].departments[1].courses[10].tag",
         "covenant-day:divisions[0].departments[1].courses[11].tag",
         "covenant-day:divisions[0].departments[1].courses[12].tag",
-        "covenant-day:divisions[0].departments[1].courses[13].tag",
         "covenant-day:divisions[0].departments[2].courses[8].tag",
         "covenant-day:divisions[0].departments[2].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[10].tag",
@@ -3039,7 +3039,6 @@
       "of": "9e6fb02a",
       "at": [
         "providence-day:divisions[2].departments[2].courses[10].title",
-        "covenant-day:divisions[0].departments[1].courses[9].title",
         "gaston-day:divisions[1].departments[1].courses[6].title"
       ]
     },
@@ -3084,7 +3083,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
-        "covenant-day:divisions[0].departments[1].courses[11].title",
+        "covenant-day:divisions[0].departments[1].courses[10].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[2].courses[11].title"
       ]
@@ -3102,7 +3101,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
-        "covenant-day:divisions[0].departments[1].courses[12].title",
+        "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[10].title"
       ]
     },
@@ -3119,7 +3118,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[15].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
-        "covenant-day:divisions[0].departments[1].courses[13].title",
+        "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
         "carmel-christian:divisions[0].departments[2].courses[12].title"
       ]
@@ -4602,7 +4601,7 @@
         "covenant-day:divisions[0].departments[1].courses[4].tag",
         "covenant-day:divisions[0].departments[1].courses[7].tag",
         "covenant-day:divisions[0].departments[1].courses[8].tag",
-        "covenant-day:divisions[0].departments[1].courses[10].tag",
+        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[1].tag",
         "covenant-day:divisions[0].departments[2].courses[3].tag",
         "covenant-day:divisions[0].departments[2].courses[4].tag",
@@ -6158,7 +6157,7 @@
       "of": "58226eb6",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[13].description",
-        "covenant-day:divisions[0].departments[1].courses[13].description",
+        "covenant-day:divisions[0].departments[1].courses[12].description",
         "carmel-christian:divisions[0].departments[2].courses[12].description"
       ]
     },
@@ -12868,8 +12867,8 @@
       ]
     },
     {
-      "t": "117 lignes de cours réparties dans 9 départements dans l’index du guide — 23 cours AP ET 18 cours IB, plus l’intégralité du tronc commun de l’IB Diploma. Présentées ici en 121 entrées, dont cinq cours que le guide décrit sans les indexer.",
-      "of": "35c1ab48",
+      "t": "117 lignes de cours réparties dans 9 départements dans l’index du guide — 23 cours AP ET 18 cours IB, plus l’intégralité du tronc commun de l’IB Diploma. Il s’agit du guide 2025–26 ; le profil 2026–27 compte 26 cours AP. Présentées ici en 121 entrées, dont cinq cours que le guide décrit sans les indexer.",
+      "of": "82da0ae8",
       "at": [
         "charlotte-country-day:divisions[2].teaser"
       ]
@@ -13935,8 +13934,8 @@
       ]
     },
     {
-      "t": "Chœur de concert de niveau Honors.",
-      "of": "9266c7e0",
+      "t": "Chœur de concert de niveau Honors, accessible sur candidature et audition.",
+      "of": "565b037a",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[1].description"
       ]
@@ -14450,7 +14449,6 @@
         "cannon:divisions[0].departments[0].courses[1].tag",
         "cannon:divisions[0].departments[0].courses[2].tag",
         "cannon:divisions[0].departments[0].courses[3].tag",
-        "cannon:divisions[0].departments[1].courses[0].tag",
         "cannon:divisions[0].departments[2].courses[0].tag",
         "cannon:divisions[0].departments[2].courses[1].tag",
         "cannon:divisions[0].departments[2].courses[2].tag",
@@ -14508,6 +14506,13 @@
       "of": "07cf2b06",
       "at": [
         "cannon:divisions[0].departments[0].courses[4].description"
+      ]
+    },
+    {
+      "t": "JrK–niv. 4",
+      "of": "60efa0ce",
+      "at": [
+        "cannon:divisions[0].departments[1].courses[0].tag"
       ]
     },
     {
@@ -16264,8 +16269,8 @@
       ]
     },
     {
-      "t": "90 cours répartis sur 9 départements — 17 Advanced Placement, un cours de Bible nommé pour chacune des quatre années, et un département Restoration & Sustainability, ce qui est rare.",
-      "of": "ea2eb72a",
+      "t": "89 cours répartis sur 9 départements : 86 sur la page académique et trois de plus dans le profil 2026–27. Ils comprennent 17 cours Advanced Placement, un cours de Bible nommé pour chacune des quatre années, et un département Restoration & Sustainability, ce qui est rare.",
+      "of": "521f35dc",
       "at": [
         "covenant-day:divisions[0].teaser"
       ]
@@ -16290,7 +16295,6 @@
         "covenant-day:divisions[0].departments[1].courses[3].tag",
         "covenant-day:divisions[0].departments[1].courses[5].tag",
         "covenant-day:divisions[0].departments[1].courses[6].tag",
-        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[0].tag",
         "covenant-day:divisions[0].departments[2].courses[2].tag",
         "covenant-day:divisions[0].departments[2].courses[5].tag",
@@ -16416,8 +16420,7 @@
         "covenant-day:divisions[0].departments[0].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[7].title",
-        "carmel-christian:divisions[0].departments[1].courses[8].title",
-        "gaston-day:divisions[1].departments[0].courses[3].title"
+        "carmel-christian:divisions[0].departments[1].courses[8].title"
       ]
     },
     {
@@ -16563,31 +16566,24 @@
       ]
     },
     {
-      "t": "Statistiques d’introduction.",
-      "of": "b729daf0",
-      "at": [
-        "covenant-day:divisions[0].departments[1].courses[9].description"
-      ]
-    },
-    {
       "t": "Statistics Honors",
       "of": "b7b12c3b",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].title"
+        "covenant-day:divisions[0].departments[1].courses[9].title"
       ]
     },
     {
       "t": "Statistiques honors — disponibles en inscription simultanée (dual enrollment) avec le Covenant College.",
       "of": "534c8b8a",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].description"
+        "covenant-day:divisions[0].departments[1].courses[9].description"
       ]
     },
     {
       "t": "Calcul différentiel et intégral de niveau universitaire.",
       "of": "cf28429f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[11].description",
+        "covenant-day:divisions[0].departments[1].courses[10].description",
         "carmel-christian:divisions[0].departments[2].courses[11].description"
       ]
     },
@@ -16595,7 +16591,7 @@
       "t": "La filière de calcul accélérée, jusqu’aux séries ; l’école précise que cette offre peut être affectée par les effectifs.",
       "of": "c8c6d5de",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[12].description"
+        "covenant-day:divisions[0].departments[1].courses[11].description"
       ]
     },
     {
@@ -16779,8 +16775,8 @@
       ]
     },
     {
-      "t": "Psychologie honors.",
-      "of": "05020b75",
+      "t": "Psychologie Honors. Elle figure dans le profil 2026–27, et non sur la page académique.",
+      "of": "2a89baca",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[6].description"
       ]
@@ -16823,8 +16819,8 @@
       ]
     },
     {
-      "t": "Le cours de Bible de première année ; les élèves sont inscrits à un cours de Bible chaque année, et trois unités sont exigées pour obtenir le diplôme.",
-      "of": "e1318f97",
+      "t": "Le cours de Bible de première année ; les élèves sont inscrits à un cours de Bible chaque année, et 3.5 unités sont exigées pour obtenir le diplôme.",
+      "of": "527a5ea3",
       "at": [
         "covenant-day:divisions[0].departments[4].courses[0].description"
       ]
@@ -17120,8 +17116,8 @@
       ]
     },
     {
-      "t": "Théâtre technique — décors, éclairage, production.",
-      "of": "4e2c17db",
+      "t": "Théâtre technique — décors, éclairage, production. Il figure dans le profil 2026–27, et non sur la page académique.",
+      "of": "902048c4",
       "at": [
         "covenant-day:divisions[0].departments[6].courses[5].description"
       ]
@@ -17305,8 +17301,8 @@
       ]
     },
     {
-      "t": "Engagement interculturel appliqué.",
-      "of": "7de1b888",
+      "t": "Engagement interculturel appliqué. Il figure dans le profil 2026–27, et non sur la page académique.",
+      "of": "4bf28df3",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[2].description"
       ]
@@ -18056,8 +18052,8 @@
       ]
     },
     {
-      "t": "Musique vocale, instrumentale et de percussion de compositeurs classiques et modernes · la 4e année apprend la flûte à bec et la 5e les instruments d’harmonie · une chorale d’enfants pour les élèves de 4e et 5e année et des cours particuliers de piano, de chant et de guitare sont proposés.",
-      "of": "96360919",
+      "t": "Musique vocale, instrumentale et de percussion de compositeurs classiques et modernes · la 4e année apprend la flûte à bec et la 5e les instruments d’harmonie · une chorale d’enfants pour les élèves de 4e et 5e année (la page de musique indique les niveaux 3–5) · des cours particuliers de piano, de chant et de guitare sont proposés.",
+      "of": "9f3ec7c6",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[1].description"
       ]
@@ -23116,7 +23112,20 @@
       "t": "Panorama de niveau supérieur, proposé au niveau Honors.",
       "of": "7fd423da",
       "at": [
-        "gaston-day:divisions[1].departments[0].courses[2].description",
+        "gaston-day:divisions[1].departments[0].courses[2].description"
+      ]
+    },
+    {
+      "t": "European Literature (British Literature dans l’édition de septembre)",
+      "of": "28c72695",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[3].title"
+      ]
+    },
+    {
+      "t": "Panorama de niveau supérieur, au niveau Honors. Le profil de novembre 2025 l’appelle European Literature. L’édition de septembre 2025 l’appelle British Literature.",
+      "of": "94274a49",
+      "at": [
         "gaston-day:divisions[1].departments[0].courses[3].description"
       ]
     },
@@ -23296,8 +23305,8 @@
       ]
     },
     {
-      "t": "L’achèvement jusqu’au niveau III, en espagnol ou en français, est obligatoire pour l’obtention du diplôme, sauf pour les élèves internationaux dont l’anglais est la langue seconde.",
-      "of": "37ea1ab6",
+      "t": "La page de l’Upper School exige l’achèvement jusqu’au niveau III en espagnol ou en français pour obtenir le diplôme. Les élèves internationaux dont l’anglais est la langue seconde en sont exemptés. Le tableau des cours du profil ne mentionne que l’espagnol.",
+      "of": "ea50fce3",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[0].description"
       ]

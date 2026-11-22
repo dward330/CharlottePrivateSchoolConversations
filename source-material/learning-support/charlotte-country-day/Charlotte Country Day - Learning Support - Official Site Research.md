@@ -1180,3 +1180,9 @@ Fetched today to check which division the "learning specialists" wording belongs
   lauren.folger-sweeting@charlottecountryday.org", then "Jennifer Achilles Academic Coach Upper
   School · Chad Groncki Academic Coach Upper School · Kristen Rinehart Academic Coach Upper School ·
   Danielle Riviere Academic Coach Upper School". No Upper School learning specialist is listed.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.charlottecountryday.org/cd-education/educational-resource-program (HTTP 200): "We employ hourly tutors who provide individual tutoring sessions before, during, or after the school day, and parents are billed through their child's student account by the Business Office."
+- https://www.charlottecountryday.org/bucsnet/lower-school/erp (HTTP 200): "Sessions are billed at $82 per 45-minute session" and "Sessions are a permanent part of student schedules". The middle-school and upper-school ERP pages: "$85 per session". The upper-school page also has a section headed "Academic Coaching vs. Tutoring".
+- https://www.charlottecountryday.org/bucsnet/upper-school/erp/learning-evaluations (HTTP 200): "Reviewed every three years in Lower and Middle School" and "Reviewed every four years in Upper School". The linked policy (/fs/resource-manager/view/340fc0e3-7789-4165-9402-c327f27e5fc4): "Lower School (Grades K-5): Valid for 3 Years" and "Middle and Upper School (Grades 6-12): Valid for 4 Years".

@@ -10,8 +10,9 @@
 //     Rain." The school's undated news page attributes a separate, earlier set of
 //     noms ([name withheld]) to "Singin' in the Rain." The 2024 ledger below is
 //     therefore attributed to Anastasia — extracted from Blumenthal's official
-//     2024 nominee PDF via pdftotext -layout, so the category→nominee mapping is
-//     exact — and the Singin' in the Rain row is kept separate, its year shown
+//     2024 nominee PDF. The category→role mapping we once typed was wrong for
+//     several roles (there is no "labeling quirk"). It was re-read from the saved
+//     PDF (plan consistency4, CAR-T2) — and the Singin' in the Rain row is kept separate, its year shown
 //     as approximate ("~2022-23") because the school never dates it. (The
 //     "(year to verify)" bookkeeping that once sat in the year cell was removed
 //     in plan artsfacts, 2026-11-10: it rendered to parents in every locale.)
@@ -118,7 +119,7 @@ export const carmelChristian: ArtsProgram = {
     headline:
       'A K–12 production season topped by a 2026 Blumey Best Actress win — a student in "Footloose" — that advanced to the national Jimmy Awards.',
     subhead:
-      'The Blumeys are Blumenthal Performing Arts’ regional high-school musical-theater awards. Carmel Christian converted a finalist run into an outright win in 2026 and placed six across five categories that year.',
+      'The Blumeys are Blumenthal Performing Arts’ regional high-school musical-theater awards. Carmel Christian converted a finalist run into an outright win in 2026 and placed in six categories that year.',
     seasonTitle: 'The season rhythm — a K–12 slate each year',
     season: [
       {
@@ -142,14 +143,20 @@ export const carmelChristian: ArtsProgram = {
         year: '2026',
         show: 'Footloose',
         result:
-          'Best Actress WIN — a student playing Ariel Moore, who advances to the national Jimmy Awards (ceremony May 17, 2026, Belk Theater; announced May 18). Plus five more placements across four categories: Best Actor finalist (as Ren McCormack) · Best Supporting Actor finalist (as Willard Hewitt) · Best Supporting Actress finalist (as Rusty) · Best Featured Performer finalist (as Garvin) · a Best Choreography Execution nominee (production).',
+          'Best Actress WIN — a student playing Ariel Moore, who advances to the national Jimmy Awards (ceremony May 17, 2026, Belk Theater; announced May 18). Plus five more placements in five other categories: Best Actor finalist (as Ren McCormack) · Best Supporting Actor finalist (as Willard Hewitt) · Best Supporting Actress finalist (as Rusty) · Best Featured Performer finalist (as Garvin) · a Best Choreography Execution nominee (production).',
         win: true,
+      },
+      {
+        year: '2025',
+        show: 'Oklahoma!',
+        result:
+          'Five finalists: Best Actor (as Curly McLain) · Best Actress (as Laurey Williams) · Best Supporting Actor (as Ali Hakim) · Best Supporting Actress (as Ado Annie Carnes) · Best Featured Performer (as Gertie Cummings).',
       },
       {
         year: '2024',
         show: 'Anastasia',
         result:
-          'Seven placements, no win: Best Featured Performer nominees (as Ballet Lead and as Vlad) · Best Actor finalists (as Dmitry and as Lily) · Best Supporting Actor finalists (as Vlad and as Dowager Empress) · a Best Featured Performer finalist (as Ballet Lead). Blumenthal\'s official PDF lists the student who played Lily under the exact heading "Finalists for Best Actor". The heading is likely a labeling quirk.',
+          'Five finalists, no win: Best Actor (as Dmitry) · Best Actress (as Lily) · Best Supporting Actor (as Vlad) · Best Supporting Actress (as Dowager Empress) · Best Featured Performer (as Ballet Lead). Vlad and Ballet Lead were also top-six nominees.',
       },
       {
         year: '~2022-23',
@@ -159,12 +166,13 @@ export const carmelChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'One student’s rise anchors the program. In 2024 she was a Best Actor finalist (as Lily in Anastasia, per Blumenthal’s own labeling). That placement grew into the 2026 Best Actress win for Footloose, which went on to the national Jimmy Awards. The 2024 nominations belong to Anastasia, not to "Singin\' in the Rain". The school’s undated news page ties a separate, earlier pair of nominations to that production.',
+      'One student placed in three straight years. They were a finalist as Lily in 2024 and as Laurey Williams in 2025. In 2026 they won Best Actress for Footloose and advanced to the national Jimmy Awards. The 2024 nominations belong to Anastasia, not to "Singin\' in the Rain". The school’s undated news page ties a separate, earlier pair of nominations to that production.',
     sources: [
       { label: 'carmelchristian.org — Theatre Productions (2025-26 season)', url: CC_PRODUCTIONS },
       { label: 'carmelchristian.org — 2024-25 theatre season', url: CC_SEASON_2425 },
       { label: 'carmelchristian.org — earlier "Singin\' in the Rain" Blumey noms (undated)', url: CC_SINGIN },
       { label: 'Blumenthal Arts — 2026 Blumey nominees & finalists', url: BLUMEY_2026 },
+      { label: 'Blumenthal Arts — 2025 Blumey all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf' },
       { label: 'Blumenthal Arts — 2024 Blumey nominees & finalists (PDF)', url: BLUMEY_2024 },
       { label: 'WFAE — 2026 Blumey Awards winners announced', url: WFAE_2026 },
     ],
@@ -195,7 +203,7 @@ export const carmelChristian: ArtsProgram = {
     ladder: [
       {
         label: 'Join an ensemble',
-        text: 'band and choir run from grade 5 through High School, with Christmas and Spring Concerts on the Middle School calendar.',
+        text: 'choir runs from grade 5 and band from Middle School, both through High School, with Christmas and Spring Concerts on the Middle School calendar.',
       },
       {
         label: 'Audition up',
@@ -258,11 +266,11 @@ export const carmelChristian: ArtsProgram = {
     holdsUp: [
       {
         label: 'A verified Blumey win — not just finalists',
-        text: 'a student took Best Actress for "Footloose" at the 2026 Blumey Awards (confirmed by WFAE) and advanced to the national Jimmy Awards — an outright win, converted from her 2024 finalist placement.',
+        text: 'a student took Best Actress for "Footloose" at the 2026 Blumey Awards, as WFAE reported. They went on to the national Jimmy Awards. It was an outright win, after finalist places in 2024 and 2025.',
       },
       {
-        label: 'Depth behind the win',
-        text: 'the 2026 "Footloose" run placed six across five categories (actress, actor, both supporting, featured performer and choreography). "Anastasia" placed seven in 2024. The program is a repeat producer of acting finalists, not a one-off.',
+        label: 'The record around the win',
+        text: 'the 2026 "Footloose" run placed in six categories (actress, actor, both supporting, featured performer and choreography). "Oklahoma!" had five finalists in 2025. "Anastasia" had five in 2024, two of them top-six nominees.',
       },
       {
         label: 'A studio path that reaches AP',

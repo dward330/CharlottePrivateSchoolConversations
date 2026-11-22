@@ -164,6 +164,11 @@ export type WinningRecord = {
   subhead?: string
   /** Column headers for the matrix, e.g. ["'23–24", "'24–25", "'25–26"]. */
   seasonLabels: string[]
+  /**
+   * Heading over the matrix where its columns are not the last N seasons. It
+   * varies per school, so it is prose, not chrome (plan consistency4, CAR-T9).
+   */
+  matrixTitle?: string
   rows: TitleRow[]
   /**
    * The "what they didn't win" honesty note — which rivals took the titles

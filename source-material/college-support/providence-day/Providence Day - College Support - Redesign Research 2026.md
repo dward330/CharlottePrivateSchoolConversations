@@ -901,12 +901,11 @@ fifths actually enroll. The quintile table gives inputs (GPA/SAT/ACT) but not ou
    hosted annually** and **50+ campuses visited by counselors** — and the office meets reps even
    when no students sign up, which is a relationship-maintenance choice.
 
-4. **Outcomes are real at both ends of the class.** All **8 of 8 Ivies** appear on the 2023–2026
+4. **Enrollment at more and less selective colleges.** All **8 of 8 Ivies** appear on the 2023–2026
    acceptance list and **all eight are bolded** as multi-enrollee, alongside Stanford, MIT, Caltech,
    Duke, and Chicago. Simultaneously, accessible in-state options (App State, ECU, UNC–Charlotte,
    Western Carolina, High Point, **Central Piedmont Community College**) are *also* bolded. The
-   ~380-institution list matches the school's actual quintile spread rather than flattering only
-   the top fifth.
+   profile does not say which fifths of the class those students come from (corrected 2026-11-22, plan consistency4).
 
 5. **Named-scholarship pipelines are numbered, not anecdotal.** The Class of 2025 produced
    Providence Day's **18th Morehead-Cain Scholar** — an explicitly-counted, decades-deep pipeline —
@@ -928,7 +927,7 @@ fifths actually enroll. The quintile table gives inputs (GPA/SAT/ACT) but not ou
 ### Ask on the tour — questions targeting what the school does NOT publish
 
 1. **"Your profile shows the fifth quintile averaging a 1053 SAT and a 2.930 weighted GPA. Where
-   did those ~35 students actually enroll last year?"** — The school publishes the quintile *inputs*
+   did last year's fifth quintile actually enroll?"** — The school publishes the quintile *inputs*
    but never the *outcomes by quintile*. The ~380-name list is a four-year aggregate that cannot be
    sliced. This is the single biggest gap in their disclosure, and the answer tells you whether the
    bottom 40% is genuinely served or just listed.

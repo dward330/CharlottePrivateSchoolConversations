@@ -1699,6 +1699,14 @@ or rendered.**
 - **Students of color.** 38% (admissions page, undated) vs 39% (2026–27 college profile).
  Not rendered.
 
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.providenceday.org/switzerland-2026-ms (HTTP 200): "Open To: Current 6-8 grade students".
+- https://www.providenceday.org/fs/elements/34733 (Exchanges tile of /upper-school/global-education, read with ?is_popup=true&show_post=true and post ids 4486-4488): "PD students have engaged in two- to four-week exchanges in countries such as Colombia, Australia, Bermuda, Peru, Germany, Japan, and New Zealand."
+- https://www.providenceday.org/the-pd-difference/global-education/global-map (HTTP 200): two students "spent two separate weeks in March on an exchange to Bermuda High School for Girls" (names omitted here).
+
 
 ---
 
@@ -1750,6 +1758,7 @@ or rendered.**
 - https://www.providenceday.org/cf_news/view.cfm?newsid=1996
 - https://www.providenceday.org/cf_news/view.cfm?newsid=27
 - https://www.providenceday.org/france-2026-us
+- https://www.providenceday.org/fs/elements/34733
 - https://www.providenceday.org/fs/elements/<el>?is_popup=true&post_id=<id>&show_post=true`
 - https://www.providenceday.org/fs/pages/1457
 - https://www.providenceday.org/global-studies-diploma

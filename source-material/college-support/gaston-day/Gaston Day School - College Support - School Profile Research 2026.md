@@ -324,3 +324,61 @@ https://www.gastonday.org/collegecounseling/. Each address is published on the C
 |---|---|
 | Peter Gangemi | Pgangemi@gastonday.org |
 | Kristy Smith | Ksmith@gastonday.org |
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22 (curl, HTTP 200; pdftotext).
+
+- https://www.gastonday.org/collegecounseling/ now links
+  https://www.gastonday.org/wp-content/uploads/2025/11/25-26-GDS-Profile-1.pdf, a November 2025 edition.
+  Against the September 2025 edition used above (still HTTP 200), its course table prints "European Literature(H)"
+  where September printed "British Literature(H)", and it no longer prints the "GRADE DISTRIBUTION BY DEPARTMENT |
+  ACADEMIC YEAR 2024-2025" table. The test, AP, GPA and scholarship figures are unchanged.
+- https://www.gastonday.org/wp-content/uploads/2023/10/GDScollegeprofile2324.pdf: "Gaston Day research teams
+  previously competed in the iGEM competition for over a decade and won various Silver, Gold and Bronze awards."
+  Neither 2025-26 edition names iGEM.
+- Both 2025-26 editions list only Spanish in the World Language column and say "All seniors must complete a special
+  project or internship in their senior year."
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+Opened 2026-11-22 (curl, HTTP 200; pdftotext).
+
+- https://www.gastonday.org/collegecounseling/ links
+  https://www.gastonday.org/wp-content/uploads/2025/11/25-26-GDS-Profile-1.pdf. A text diff against
+  https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf confirms the two differences above.
+  Both print "Tuition Assistance: 26% of student body".
+- https://www.gastonday.org/upper-school/: "Successful completion through level III of either French or Spanish".
+
+### Re-verification 2026-11-22 (plan consistency4, implement): bold enrollment marks
+
+- Both 2025-26 editions, re-fetched (HTTP 200), print "COLLEGE ACCEPTANCES 2019 - 2025. BOLD INDICATES
+  INSTITUTIONS TO WHICH MEMBERS OF THE CLASS OF 2025 ENROLLED":
+  https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf and
+  https://www.gastonday.org/wp-content/uploads/2025/11/25-26-GDS-Profile-1.pdf
+- 20 of the 231 names are set in Gotham-Bold, the same 20 in both editions. Read from the font runs
+  (pdfplumber) and checked against the rendered page:
+  - Appalachian State University
+  - Auburn University
+  - Clemson University
+  - College of Charleston
+  - Davidson College
+  - Hampden-Sydney College
+  - James Madison University
+  - Lenoir-Rhyne University
+  - North Carolina State University
+  - Syracuse University
+  - The University of Alabama
+  - University of California (Berkeley
+  - University of Colorado Boulder
+  - University of Maryland
+  - University of North Carolina at Charlotte
+  - University of North Carolina School of the Arts
+  - University of North Carolina Wilmington
+  - University of South Carolina
+  - University of Tennessee (Knoxville)
+  - Western Carolina University
+- This supersedes the note above that the bold could not be recovered. The profile gives no count
+  of students per college.

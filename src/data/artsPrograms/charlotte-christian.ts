@@ -9,8 +9,10 @@
 // results are FINALISTS, not nominations. The 2024 Blumeys ran two tiers — each
 // production names one finalist per performance category, and a top-6 nominee
 // cut is announced from that pool. Charlotte Christian took a finalist slot in
-// all five acting categories (a whole-cast result) but appears nowhere in the
-// top-6 nominee list. That is why the school's announcement page showed no
+// all five acting categories but appears nowhere in the 2024 top-6 nominee
+// list. Do not read five finalists as a whole-cast feat or a sweep (plan
+// consistency4, CC-T4). The school's own news post records three 2015
+// nominations, for Shrek the Musical, so never write "no nomination since 2013". That is why the school's announcement page showed no
 // nominations while search snippets surfaced individual students: both readings
 // were half-right. The ledger says "finalist" throughout and must never be
 // restated as "nominations."
@@ -46,6 +48,8 @@ const CC_DIGITAL = 'https://www.charlottechristian.com/fine-arts/digital-arts'
 const CC_FOTA = 'https://www.charlottechristian.com/fine-arts/friends-of-the-arts'
 const CC_US = 'https://www.charlottechristian.com/academics/upper-school'
 const CC_BOX = 'https://www.charlottechristian.com/fine-arts/box-office'
+const CC_GUIDE =
+  'https://resources.finalsite.net/images/v1769627723/charlotte/charlotte/charlotte/charlotte/charlotte/charlotte/zfkrvos5nbatuumajvz4/2026-27USCourseCurriculumGuidedocx.pdf'
 
 export const charlotteChristian: ArtsProgram = {
   ladder: {
@@ -84,10 +88,10 @@ export const charlotteChristian: ArtsProgram = {
         name: 'Upper School',
         grades: '9–12',
         items: [
-          'All six music ensembles are Honors-designated: Wind Ensemble, Jazz Band, Choir, Orchestra, Chamber Ensemble, plus uKnight Worship',
+          'Six Honors ensembles (Wind Ensemble, Jazz Band, Choir, Orchestra, Chamber Ensemble and uKnight Worship), plus an open-enrollment Choir',
           'Drawing & Painting beginner → intermediate → honors → AP; Art & Design beginner → AP; AP Art History',
           'Nine Digital Arts electives on professional software',
-          'Seven theatre electives incl. technical directing and stage management; ACT 1 competition team',
+          'Seven theatre electives across grades 6–12, covering skills such as technical directing and stage management; ACT 1 competition team',
           'Graduate "with distinction" in Fine Arts via the Academic Conservatory Program',
         ],
       },
@@ -142,16 +146,22 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     whoRunsIt:
-      'Two audition-only competition teams do the competitive work: ACT 1 (high school) and ACT 2 (middle school). The tech track has more behind it than the school advertises. First, technical directing and stage management are two of the seven theatre electives. The venue also has a scene shop and dressing rooms, per the contractor. And students place in technical categories at off-campus competitions: a CITA Technical Theatre Costume Design award, plus the 2013 Blumey win for Best Lighting Execution. A caution on staff: the only theatre staff names found anywhere are Angela Tomaselli (ACT 1) and Conrad Bear (ACT 2). Both names date to a 2016 news post and may be out of date. No current director or technical director is published, and no faculty are named on any of the four branch pages.',
+      'Two audition-only competition teams do the competitive work: ACT 1 (high school) and ACT 2 (middle school). The tech track has more behind it than the school advertises. First, the seven theatre electives for grades 6–12 cover technical directing and stage management. The venue also has a scene shop and dressing rooms, per the contractor. And students place in technical categories at off-campus competitions: a CITA Technical Theatre Costume Design award, plus the 2013 Blumey win for Best Lighting Execution. A caution on staff: the only theatre staff names found anywhere are Angela Tomaselli (ACT 1) and Conrad Bear (ACT 2). Both names date to a 2016 news post and may be out of date. No current director or technical director is published, and no faculty are named on any of the four branch pages.',
     venueNote:
       'Productions are staged in the Center for Worship and Performing Arts, which also hosts weekly chapel and assemblies — a dual-purpose room by design. The black box theater gives the program a second space that does not compete with the chapel calendar.',
     ledgerTitle: 'The awards ledger — Blumeys and CITA',
     ledger: [
       {
+        year: '2026',
+        show: 'Cinderella (Blumey)',
+        result:
+          'Five finalists: Best Actor (as Prince Topher) · Best Actress (as Charlotte) · Best Supporting Actor (as Sebastian) · Best Supporting Actress (as Madame) · Best Featured Performer (as Coachman). Madame was also a top-six nominee. Field: 59 schools.',
+      },
+      {
         year: '2024',
         show: 'Tarzan (Blumey)',
         result:
-          'FINALIST — not nominee — in all five performance categories: Best Actor (as Tarzan) · Best Actress (as Jane) · Best Supporting Actor (as Kerchak) · Best Supporting Actress (as Terk) · Best Featured Performer (as Jaquar). A whole-cast result. The school did not reach the top-6 nominee cut in any category. Field: 50 schools.',
+          'FINALIST — not nominee — in all five performance categories: Best Actor (as Tarzan) · Best Actress (as Jane) · Best Supporting Actor (as Kerchak) · Best Supporting Actress (as Terk) · Best Featured Performer (as Jaquar). The school did not reach the top-6 nominee cut in any category. Field: 50 schools.',
       },
       {
         year: '2016',
@@ -159,6 +169,12 @@ export const charlotteChristian: ArtsProgram = {
         result:
           'Six placements: 1st Place Ensemble Theatre · 1st Place Solo Jr High Musical Theatre · 3rd Place in the same category · Honorable Mention Duo · Honorable Mention Contrasting Monologues · Technical Theatre Costume Design.',
         win: true,
+      },
+      {
+        year: '2015',
+        show: 'Shrek the Musical (Blumey)',
+        result:
+          'Three nominations, as reported by the school: Best Actress (as Fiona) · Best Actor (as Shrek) · Best Supporting Actor (as Donkey). Field: 39 schools.',
       },
       {
         year: '2013',
@@ -169,7 +185,7 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'The 2013 Best Musical win is the program’s top arts achievement, and it is confirmed directly by Blumenthal Arts. But there has been no Blumey win, and no top-6 nomination, since then. The 2024 Tarzan result is real and impressive as a whole-cast showing. Yet it sits one tier below nomination, in a field that had grown from 17 schools to 50. The CITA record is the school’s most distinctive credential, because the circuit fits the school’s identity. But it rests on a single published year: 2016. The school describes CITA honors as earned "each year," and that wording has one data point behind it. Separately, no specific NCTC award could be found for any year.',
+      'The 2013 Best Musical win is the program’s top arts achievement, and it is confirmed directly by Blumenthal Arts. The school later reported three nominations, for Shrek the Musical in 2015. The 2024 Tarzan finalist places sit one tier below nomination, in a field that had grown from 17 schools to 50. In 2026 Cinderella had five finalists, and one was a top-six nominee. The CITA record is the school’s most distinctive credential, because the circuit fits the school’s identity. But it rests on a single published year: 2016. The school describes CITA honors as earned "each year," and that wording has one data point behind it. Separately, no specific NCTC award could be found for any year.',
     sources: [
       { label: 'charlottechristian.com — Theatre', url: CC_THEATRE },
       { label: 'Box Office (2025-26 season)', url: CC_BOX },
@@ -180,6 +196,12 @@ export const charlotteChristian: ArtsProgram = {
       {
         label: 'Blumenthal Arts — 2024 all nominees & finalists (PDF)',
         url: 'https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf',
+      },
+      { label: 'Blumenthal Arts — 2026 nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
+      { label: 'Blumenthal Arts — 2026 final nominees', url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees' },
+      {
+        label: 'CCS news — 2015 Blumey nominations',
+        url: 'https://www.charlottechristian.com/cf_news/view.cfm?newsid=854',
       },
       {
         label: 'CCS news — CITA 2016 results',
@@ -218,7 +240,7 @@ export const charlotteChristian: ArtsProgram = {
         ],
       },
       {
-        label: 'Upper School — all Honors-designated (9–12)',
+        label: 'Upper School — the six Honors ensembles (9–12)',
         ensembles: [
           'Honors Wind Ensemble',
           'Honors Jazz Band',
@@ -230,7 +252,7 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     boardNote:
-      'No music faculty, directors or chairs are named anywhere on the school’s pages. The Honors label on all six Upper School ensembles implies placed or selective entry. But the music page never states an audition requirement. So the tiers above show the published structure, not a confirmed split between auditioned and open groups. Note one real gap: the music pages name no music theory course. AP Music Theory appears only on the Upper School curriculum guide’s AP roster, with no course description, so whether it runs is not published.',
+      'No music faculty, directors or chairs are named anywhere on the school’s pages. The 2026–27 curriculum guide gives the entry rules. Honors Jazz Band, Honors Choir and uKnight Worship require an audition. Wind Ensemble and Orchestra need "departmental approval/instrument proficiency," and Chamber Ensemble needs departmental approval. A separate Choir, without the Honors label, is open to grades 9–12. Note one real gap: the music pages name no music theory course. AP Music Theory appears only on the Upper School curriculum guide’s AP roster, with no course description, so whether it runs is not published.',
     ladderTitle: 'The honors ladder — how far it goes',
     ladder: [
       {
@@ -239,7 +261,7 @@ export const charlotteChristian: ArtsProgram = {
       },
       {
         label: 'Move into the Honors tier',
-        text: 'all six Upper School ensembles carry an Honors designation. Whether entry is by audition is not published.',
+        text: 'six Upper School ensembles carry an Honors designation, and three of them require an audition. The other three list departmental approval, and two of those also list instrument proficiency.',
       },
       {
         label: 'Get selected beyond campus',
@@ -256,6 +278,7 @@ export const charlotteChristian: ArtsProgram = {
       { label: 'charlottechristian.com — Music', url: CC_MUSIC },
       { label: 'Fine Arts', url: CC_ARTS },
       { label: 'Upper School (honor societies)', url: CC_US },
+      { label: 'Upper School Curriculum Guide 2026–27 (entry rules, PDF)', url: CC_GUIDE },
     ],
   },
 
@@ -267,7 +290,7 @@ export const charlotteChristian: ArtsProgram = {
     mediaTitle: 'Studio media & the digital stack',
     media: [
       { name: '2-D: drawing & painting', detail: 'the deeper ladder — four levels to AP' },
-      { name: '3-D: Art & Design', detail: 'beginner straight to AP; specific media unpublished' },
+      { name: '3-D: Art & Design', detail: 'beginner straight to AP; clay, plaster, wire, metal, wood and textiles, per the curriculum guide' },
       { name: 'Digital photography', detail: 'a named course; Photoshop and Lightroom' },
       { name: 'Film & video', detail: 'the deepest sub-track — production I/II, history, broadcasting' },
       { name: 'Audio production', detail: 'Logic Pro X and Ableton — industry-standard tools' },
@@ -304,11 +327,12 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     footnote:
-      'No visual art or digital arts faculty are named on either branch page. A dedicated Digital Media Studio is named but not described: no size, equipment or station count. And no separate broadcast studio, green screen or recording booth is documented, despite a Broadcasting course. The school calls the program "award-winning" and confirms it takes part in Scholastic Art & Writing, Festival in the Park and the Patriotic Art Competition. But not one individual visual-art award with a student name and year could be found, so no award counts appear here. A specific list of studio media (ceramics, printmaking, sculpture, fibers, kiln, wheel, darkroom) is also unpublished. The page speaks in general terms of "a variety of media."',
+      'No visual art or digital arts faculty are named on either branch page. A dedicated Digital Media Studio is named but not described: no size, equipment or station count. And no separate broadcast studio, green screen or recording booth is documented, despite a Broadcasting course. The school calls the program "award-winning" and confirms it takes part in Scholastic Art & Writing, Festival in the Park and the Patriotic Art Competition. But not one individual visual-art award with a student name and year could be found, so no award counts appear here. The page speaks in general terms of "a variety of media," and the curriculum guide names them by course. Studio facilities such as a kiln, wheel or darkroom are not published.',
     sources: [
       { label: 'charlottechristian.com — Visual Art', url: CC_VISUAL },
       { label: 'Digital Arts', url: CC_DIGITAL },
       { label: 'Fine Arts', url: CC_ARTS },
+      { label: 'Upper School Curriculum Guide 2026–27 (studio media, PDF)', url: CC_GUIDE },
     ],
   },
 
@@ -319,8 +343,8 @@ export const charlotteChristian: ArtsProgram = {
       'The faith integration is structural rather than decorative, which is both the program’s distinctive asset and the thing a comparing parent should probe.',
     holdsUp: [
       {
-        label: 'A top-prize win, plus proof of current competitiveness',
-        text: 'the 2013 Oklahoma! Best Musical win came as a four-award sweep including Best Lighting Execution, from a 17-school field. In 2024, Tarzan earned finalist slots in all five acting categories — a whole-cast result in a field grown to 50.',
+        label: 'A top-prize win, plus recent finalists',
+        text: 'the 2013 Oklahoma! Best Musical win came as a four-award sweep including Best Lighting Execution, from a 17-school field. In 2024, Tarzan earned finalist slots in all five acting categories, in a field grown to 50. In 2026, Cinderella had five finalists and one top-six nominee.',
       },
       {
         label: 'Two performance spaces and a scene shop',
@@ -345,7 +369,7 @@ export const charlotteChristian: ArtsProgram = {
     ],
     ask: [
       'Who directs theatre and who is your technical director, and how long have they been here? No faculty are named for any of the four branches, and the only names findable date to 2016 — ask this first.',
-      'In 2024 Tarzan was a finalist in all five acting categories but did not reach the top-6 nominees. What is the gap you are working on, and what is your best Blumey result since 2013?',
+      'Tarzan had five finalists and no top-6 nominee in 2024, and Cinderella had five and one in 2026. What is the gap you are working on before another win?',
       'Can you show me CITA results for the last three years, by category? The 2016 ledger is strong; nothing after it is public.',
       'Show me the black box and the scene shop. How often is the black box used, and who builds the sets — students or contractors?',
       'The main auditorium is chapel, assembly and theatre. Walk me through a production week: how much stage time does the cast get, and where do they rehearse when chapel owns the room?',

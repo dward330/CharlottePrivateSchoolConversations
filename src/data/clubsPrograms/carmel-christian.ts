@@ -23,6 +23,8 @@
 import type { ClubsProgram } from '../clubsProgram.ts'
 
 const HANDBOOK = 'https://carmelchristian.org/pdf/carmel_parent/Family%20Handbook-Final.pdf'
+const GRAD_REQS =
+  'https://www.carmelchristian.org/ourpages/auto/2024/8/28/37308823/HS_Graduation_Requirements_26_27.pdf'
 const TIMOTHY =
   'https://www.carmelchristian.org/apps/pages/?type=d&uREC_ID=503058&pREC_ID=970730'
 
@@ -31,7 +33,7 @@ export const carmelChristian: ClubsProgram = {
     headline:
       'A high-school discipleship-and-service organization where students mentor Extended-Day children weekly — the school’s one standing service org, entered by application and interview.',
     subhead:
-      'Service is a published expectation tied to graduation here. High school students are expected to complete a minimum of 20 service hours per grade level. They meet that minimum partly through J-Term and Beta Club, rather than through a single logged total.',
+      'Service is a published expectation tied to graduation here. High school students are expected to complete a minimum of 20 service hours per grade level. In the 2021–22 handbook, they meet that minimum partly through J-Term and Beta Club, rather than through a single logged total.',
     programs: [
       {
         value: '1 hr/wk',
@@ -54,7 +56,7 @@ export const carmelChristian: ClubsProgram = {
         valueLabel: 'week-long · graduation requirement',
         name: 'J-Term & missions',
         detail:
-          'A mandatory week-long J-Term course is a graduation requirement and can include mission trips. The high school also runs international missions trips. See You at the Pole, the annual student prayer gathering, is led by the MS SGA and HS Student Council.',
+          'The 2021–22 handbook makes a week-long J-Term course a graduation requirement, and it can include mission trips. The 2026–27 requirements name a Mission Trip and Impact Week each year. The high school also runs international missions trips. See You at the Pole, the annual student prayer gathering, is led by the MS SGA and HS Student Council.',
         source: { label: 'Family Handbook (2021–22)', url: HANDBOOK },
       },
     ],
@@ -64,7 +66,7 @@ export const carmelChristian: ClubsProgram = {
     flags: [
       {
         kind: 'not-a-club',
-        text: 'The 20-hour service requirement is an expectation for each student, not a membership. J-Term is a required course rather than a club. Cornerstone Prayer Ministry is a prayer gathering for parents and families, not a student organization. Only the Timothy Project is a standing student service group.',
+        text: 'The 20-hour service requirement is an expectation for each student, not a membership. J-Term, in the 2021–22 handbook, is a required course rather than a club. Cornerstone Prayer Ministry is a prayer gathering for parents and families, not a student organization. Only the Timothy Project is a standing student service group.',
       },
       {
         kind: 'gap',
@@ -74,6 +76,7 @@ export const carmelChristian: ClubsProgram = {
     sources: [
       { label: 'carmelchristian.org — The Timothy Project', url: TIMOTHY },
       { label: 'carmelchristian.org — Family Handbook (2021–22)', url: HANDBOOK },
+      { label: 'carmelchristian.org — 2026–27 Graduation Requirements (PDF)', url: GRAD_REQS },
     ],
   },
 

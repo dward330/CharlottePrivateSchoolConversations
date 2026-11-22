@@ -712,7 +712,7 @@ export const charlotteChristian: CollegeSupportProgram = {
     middle: [
       {
         label: 'The middle may be the best-served group',
-        text: 'The list runs from Duke, Harvard and Columbia down to Central Piedmont Community College, Barton, Catawba, Spartanburg Methodist, Belmont Abbey, Wingate and Winthrop. A fourth- or fifth-quintile student at 3.54 or below has real, named places to go. The checklist also tells students to include “every possible type of college that might be of interest”.',
+        text: 'The list runs from Duke, Harvard and Columbia down to Central Piedmont Community College, Barton, Catawba, Spartanburg Methodist, Belmont Abbey, Wingate and Winthrop. A fourth- or fifth-quintile student at 3.803 or below has real, named places to go. The checklist also tells students to include “every possible type of college that might be of interest”.',
       },
       {
         label: 'The Christian-college route is real, not decorative',

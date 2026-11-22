@@ -30,7 +30,8 @@ Named staff: **Vernette Rucker, Assistant Director of Diversity, Equity, and Inc
 
 ### The enumerable structure — VERIFIED
 
-The only named identity group is a **club**, not a separate affinity page:
+The club list's named identity group is **Mosaic** (a separate affinity program exists; see the
+2026-11-22 re-verification under Method):
 
 **Mosaic (Upper School)** — "To promote diversity in and outside of our school community
 through events that celebrate our cultural, religious, ethnic, social and racial diversity.
@@ -62,13 +63,17 @@ immersive cultural experience… exploring diverse cultures one delicious recipe
 - **The "Diversity Club List" link is a dead end.** The DEI page links to `/fs/pages/2417`,
   which renders the same generic sentence and **contains no list**. →
   https://www.charlottelatin.org/fs/pages/2417
-- **No Lower/Middle School affinity groups** published; no per-division breakout.
+- ~~No Lower/Middle School affinity groups published; no per-division breakout.~~ Superseded
+  2026-11-22: Brotherhood & Belonging publishes a part per division (see Method).
 - **No parent affinity groups** — the Cookbook Club is parent DEI programming, not an
   identity-based affinity group.
 - **No student diversity leadership corps and no NAIS SDLC mention** anywhere reachable,
   including https://www.charlottelatin.org/leading-programs/student-leadership-development
 
-### REFUTED — a cross-school attribution error, do not ingest
+### REFUTED in July, SUPERSEDED 2026-11-22 — these are Charlotte Latin's programs
+
+The school's Academic Transition and Student Success page publishes all three names below (see
+Method). The July note that follows was wrong to exclude them.
 
 An early search snippet attributed programs called **"Voices – Brotherhood & Identity"
 (Grades 3–5)** and **"The Boys' Room" (Middle School)**, plus "affinity programming for
@@ -242,3 +247,33 @@ Two nuances that explain the absence:
   (`/programs/service` returns 404).
 - The site is Finalsite with no `sitemap.xml` and JS-driven search, so scraping page HTML
   directly is the reliable route rather than fetching guessed slugs.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22.
+
+- https://www.charlottelatin.org/about/diversity-equity-inclusion now returns HTTP 404.
+- https://www.charlottelatin.org/about/community-belonging-global-education (200): "The Office of
+  Community, Belonging, and Global Education".
+- https://www.charlottelatin.org/about/community-belonging-global-education/community-and-belonging
+  (200): "Vernette Rucker — Associate Director of community and belonging".
+- https://www.charlottelatin.org/about/community-belonging-global-education/academic-transition-and-student-support
+  (200): "Affinity Group Programming: Brotherhood & Belonging"; "culturally responsive spaces for
+  historically underrepresented boys in Grades 3–12"; "Lower School (Grades 3–5): Voices –
+  Brotherhood & Identity"; "Middle School: The Boys' Room"; "Upper School: Leadership & Legacy",
+  described as "Future expansion".
+- https://www.charlottelatin.org/student-life/student-clubs/clubs (200) still lists 27 Upper School
+  clubs, including "Acapella Club: To have fun informally exploring this style of music. No previous
+  experience required." Mosaic reads "Under Mosaic we have Q&A and BSA." BSA is not expanded, and no
+  Indian Student Alliance is listed.
+- https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-celebrates-diwali
+  (200): "Members of the Indian Student Alliance took turns at the podium".
+### Re-verification 2026-11-22 (plan consistency4, implement)
+Re-opened 2026-11-22: the five pages in the self-scan note above, with the same results.
+- https://www.charlottelatin.org/fs/pages/2417 (the old "Diversity Club List" link) now lands on
+  https://www.charlottelatin.org/about/community-belonging-global-education, which has no club list.
+- No live page read links Vernette Rucker to Mosaic, calls Mosaic "student-led", or restates the DEI
+  Committees, parent sessions or Cookbook Club. Those rested on the retired page (July 2026).
+- The Diwali post dates its assembly "Friday, October 17", which is 2025.

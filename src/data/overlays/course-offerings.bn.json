@@ -2404,9 +2404,9 @@
         "cannon:divisions[2].departments[6].courses[1].tag",
         "covenant-day:divisions[0].departments[0].courses[8].tag",
         "covenant-day:divisions[0].departments[0].courses[9].tag",
+        "covenant-day:divisions[0].departments[1].courses[10].tag",
         "covenant-day:divisions[0].departments[1].courses[11].tag",
         "covenant-day:divisions[0].departments[1].courses[12].tag",
-        "covenant-day:divisions[0].departments[1].courses[13].tag",
         "covenant-day:divisions[0].departments[2].courses[8].tag",
         "covenant-day:divisions[0].departments[2].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[10].tag",
@@ -3039,7 +3039,6 @@
       "of": "9e6fb02a",
       "at": [
         "providence-day:divisions[2].departments[2].courses[10].title",
-        "covenant-day:divisions[0].departments[1].courses[9].title",
         "gaston-day:divisions[1].departments[1].courses[6].title"
       ]
     },
@@ -3084,7 +3083,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
-        "covenant-day:divisions[0].departments[1].courses[11].title",
+        "covenant-day:divisions[0].departments[1].courses[10].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[2].courses[11].title"
       ]
@@ -3102,7 +3101,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
-        "covenant-day:divisions[0].departments[1].courses[12].title",
+        "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[10].title"
       ]
     },
@@ -3119,7 +3118,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[15].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
-        "covenant-day:divisions[0].departments[1].courses[13].title",
+        "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
         "carmel-christian:divisions[0].departments[2].courses[12].title"
       ]
@@ -4602,7 +4601,7 @@
         "covenant-day:divisions[0].departments[1].courses[4].tag",
         "covenant-day:divisions[0].departments[1].courses[7].tag",
         "covenant-day:divisions[0].departments[1].courses[8].tag",
-        "covenant-day:divisions[0].departments[1].courses[10].tag",
+        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[1].tag",
         "covenant-day:divisions[0].departments[2].courses[3].tag",
         "covenant-day:divisions[0].departments[2].courses[4].tag",
@@ -6158,7 +6157,7 @@
       "of": "58226eb6",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[13].description",
-        "covenant-day:divisions[0].departments[1].courses[13].description",
+        "covenant-day:divisions[0].departments[1].courses[12].description",
         "carmel-christian:divisions[0].departments[2].courses[12].description"
       ]
     },
@@ -12868,8 +12867,8 @@
       ]
     },
     {
-      "t": "গাইডের সূচিতে 9টি বিভাগজুড়ে 117টি কোর্স-ধারা — 23টি AP কোর্স এবং 18টি IB কোর্স, সঙ্গে সম্পূর্ণ IB Diploma-র মূল অংশ। এখানে দেখানো হয়েছে 121টি এন্ট্রি হিসেবে, যার মধ্যে পাঁচটি কোর্স আছে যেগুলোর বিবরণ গাইডে আছে কিন্তু সূচিতে নেই।",
-      "of": "35c1ab48",
+      "t": "গাইডের সূচিতে 9টি বিভাগজুড়ে 117টি কোর্স-ধারা — 23টি AP কোর্স এবং 18টি IB কোর্স, সঙ্গে সম্পূর্ণ IB Diploma-র মূল অংশ। এটি 2025–26-এর গাইড; 2026–27 প্রোফাইল গোনে 26টি AP কোর্স। এখানে দেখানো হয়েছে 121টি এন্ট্রি হিসেবে, যার মধ্যে পাঁচটি কোর্স আছে যেগুলোর বিবরণ গাইডে আছে কিন্তু সূচিতে নেই।",
+      "of": "82da0ae8",
       "at": [
         "charlotte-country-day:divisions[2].teaser"
       ]
@@ -13935,8 +13934,8 @@
       ]
     },
     {
-      "t": "honors পর্যায়ের concert choir।",
-      "of": "9266c7e0",
+      "t": "honors পর্যায়ের concert choir, যোগ দিতে আবেদন ও অডিশন লাগে।",
+      "of": "565b037a",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[1].description"
       ]
@@ -14450,7 +14449,6 @@
         "cannon:divisions[0].departments[0].courses[1].tag",
         "cannon:divisions[0].departments[0].courses[2].tag",
         "cannon:divisions[0].departments[0].courses[3].tag",
-        "cannon:divisions[0].departments[1].courses[0].tag",
         "cannon:divisions[0].departments[2].courses[0].tag",
         "cannon:divisions[0].departments[2].courses[1].tag",
         "cannon:divisions[0].departments[2].courses[2].tag",
@@ -14508,6 +14506,13 @@
       "of": "07cf2b06",
       "at": [
         "cannon:divisions[0].departments[0].courses[4].description"
+      ]
+    },
+    {
+      "t": "JrK–গ্রেড 4",
+      "of": "60efa0ce",
+      "at": [
+        "cannon:divisions[0].departments[1].courses[0].tag"
       ]
     },
     {
@@ -16264,8 +16269,8 @@
       ]
     },
     {
-      "t": "9টি বিভাগে 90টি কোর্স — 17টি Advanced Placement, চার বছরের প্রতিটির জন্য নাম-ধরা একটি Bible কোর্স, আর একটি Restoration & Sustainability বিভাগ, যা বিরল।",
-      "of": "ea2eb72a",
+      "t": "9টি বিভাগে 89টি কোর্স: 86টি একাডেমিক্স পাতায় আর আরও তিনটি 2026–27 প্রোফাইলে। এর মধ্যে আছে 17টি Advanced Placement কোর্স, চার বছরের প্রতিটির জন্য নাম-ধরা একটি Bible কোর্স, আর একটি Restoration & Sustainability বিভাগ, যা বিরল।",
+      "of": "521f35dc",
       "at": [
         "covenant-day:divisions[0].teaser"
       ]
@@ -16290,7 +16295,6 @@
         "covenant-day:divisions[0].departments[1].courses[3].tag",
         "covenant-day:divisions[0].departments[1].courses[5].tag",
         "covenant-day:divisions[0].departments[1].courses[6].tag",
-        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[0].tag",
         "covenant-day:divisions[0].departments[2].courses[2].tag",
         "covenant-day:divisions[0].departments[2].courses[5].tag",
@@ -16416,8 +16420,7 @@
         "covenant-day:divisions[0].departments[0].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[7].title",
-        "carmel-christian:divisions[0].departments[1].courses[8].title",
-        "gaston-day:divisions[1].departments[0].courses[3].title"
+        "carmel-christian:divisions[0].departments[1].courses[8].title"
       ]
     },
     {
@@ -16563,31 +16566,24 @@
       ]
     },
     {
-      "t": "প্রারম্ভিক পরিসংখ্যান।",
-      "of": "b729daf0",
-      "at": [
-        "covenant-day:divisions[0].departments[1].courses[9].description"
-      ]
-    },
-    {
       "t": "Statistics Honors",
       "of": "b7b12c3b",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].title"
+        "covenant-day:divisions[0].departments[1].courses[9].title"
       ]
     },
     {
       "t": "Honors পরিসংখ্যান — Covenant College-এর সঙ্গে dual enrollment-এর সুযোগ আছে।",
       "of": "534c8b8a",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].description"
+        "covenant-day:divisions[0].departments[1].courses[9].description"
       ]
     },
     {
       "t": "কলেজ-পর্যায়ের অন্তরকলন ও সমাকলন।",
       "of": "cf28429f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[11].description",
+        "covenant-day:divisions[0].departments[1].courses[10].description",
         "carmel-christian:divisions[0].departments[2].courses[11].description"
       ]
     },
@@ -16595,7 +16591,7 @@
       "t": "দ্রুততর ক্যালকুলাস ধারা, সিরিজ পর্যন্ত; স্কুল জানাচ্ছে যে শিক্ষার্থী ভর্তির সংখ্যা এই কোর্সটি দেওয়ার উপর প্রভাব ফেলতে পারে।",
       "of": "c8c6d5de",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[12].description"
+        "covenant-day:divisions[0].departments[1].courses[11].description"
       ]
     },
     {
@@ -16779,8 +16775,8 @@
       ]
     },
     {
-      "t": "Honors মনোবিজ্ঞান।",
-      "of": "05020b75",
+      "t": "Honors মনোবিজ্ঞান। এটি 2026–27 প্রোফাইলে তালিকাভুক্ত, একাডেমিক্স পাতায় নয়।",
+      "of": "2a89baca",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[6].description"
       ]
@@ -16823,8 +16819,8 @@
       ]
     },
     {
-      "t": "প্রথম বর্ষের Bible কোর্স; শিক্ষার্থীরা প্রতি বছরই একটি Bible কোর্সে ভর্তি থাকে, আর স্নাতক হতে তিনটি ইউনিট লাগে।",
-      "of": "e1318f97",
+      "t": "প্রথম বর্ষের Bible কোর্স; শিক্ষার্থীরা প্রতি বছরই একটি Bible কোর্সে ভর্তি থাকে, আর স্নাতক হতে 3.5 ইউনিট লাগে।",
+      "of": "527a5ea3",
       "at": [
         "covenant-day:divisions[0].departments[4].courses[0].description"
       ]
@@ -17120,8 +17116,8 @@
       ]
     },
     {
-      "t": "কারিগরি থিয়েটার — সেট, আলো, প্রযোজনা।",
-      "of": "4e2c17db",
+      "t": "কারিগরি থিয়েটার — সেট, আলো, প্রযোজনা। এটি 2026–27 প্রোফাইলে তালিকাভুক্ত, একাডেমিক্স পাতায় নয়।",
+      "of": "902048c4",
       "at": [
         "covenant-day:divisions[0].departments[6].courses[5].description"
       ]
@@ -17305,8 +17301,8 @@
       ]
     },
     {
-      "t": "ফলিত আন্তঃসাংস্কৃতিক সম্পৃক্ততা।",
-      "of": "7de1b888",
+      "t": "ফলিত আন্তঃসাংস্কৃতিক সম্পৃক্ততা। এটি 2026–27 প্রোফাইলে তালিকাভুক্ত, একাডেমিক্স পাতায় নয়।",
+      "of": "4bf28df3",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[2].description"
       ]
@@ -18056,8 +18052,8 @@
       ]
     },
     {
-      "t": "ধ্রুপদি ও আধুনিক সুরকারদের কণ্ঠ, যন্ত্র ও তালবাদ্যের সংগীত · গ্রেড 4 রেকর্ডার শেখে ও গ্রেড 5 ব্যান্ড বাদ্যযন্ত্র · গ্রেড 4 ও 5-এর শিশুদের জন্য একটি কয়্যার এবং পিয়ানো, কণ্ঠ ও গিটারের ব্যক্তিগত পাঠ পাওয়া যায়।",
-      "of": "96360919",
+      "t": "ধ্রুপদি ও আধুনিক সুরকারদের কণ্ঠ, যন্ত্র ও তালবাদ্যের সংগীত · গ্রেড 4 রেকর্ডার শেখে ও গ্রেড 5 ব্যান্ড বাদ্যযন্ত্র · গ্রেড 4 ও 5-এর শিশুদের জন্য একটি কয়্যার (সংগীত পাতায় বলা গ্রেড 3–5) · পিয়ানো, কণ্ঠ ও গিটারের ব্যক্তিগত পাঠ পাওয়া যায়।",
+      "of": "9f3ec7c6",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[1].description"
       ]
@@ -23116,7 +23112,20 @@
       "t": "উঁচু স্তরের সমীক্ষামূলক কোর্স, Honors স্তরে দেওয়া হয়।",
       "of": "7fd423da",
       "at": [
-        "gaston-day:divisions[1].departments[0].courses[2].description",
+        "gaston-day:divisions[1].departments[0].courses[2].description"
+      ]
+    },
+    {
+      "t": "European Literature (সেপ্টেম্বর সংস্করণে British Literature)",
+      "of": "28c72695",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[3].title"
+      ]
+    },
+    {
+      "t": "উঁচু স্তরের সমীক্ষামূলক কোর্স, Honors স্তরে। নভেম্বর 2025-এর প্রোফাইলে এর নাম European Literature। সেপ্টেম্বর 2025 সংস্করণে এর নাম British Literature।",
+      "of": "94274a49",
+      "at": [
         "gaston-day:divisions[1].departments[0].courses[3].description"
       ]
     },
@@ -23296,8 +23305,8 @@
       ]
     },
     {
-      "t": "স্নাতক হতে Spanish বা French-এ Level III পর্যন্ত শেষ করা আবশ্যিক; তবে যেসব আন্তর্জাতিক শিক্ষার্থীর কাছে English দ্বিতীয় ভাষা, তাদের জন্য এই শর্ত নেই।",
-      "of": "37ea1ab6",
+      "t": "Upper School পাতা অনুযায়ী স্নাতক হতে Spanish বা French-এ Level III পর্যন্ত শেষ করা আবশ্যিক। যেসব আন্তর্জাতিক শিক্ষার্থীর কাছে English দ্বিতীয় ভাষা, তাদের জন্য এই শর্ত নেই। প্রোফাইলের কোর্স-তালিকায় আছে কেবল Spanish।",
+      "of": "ea50fce3",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[0].description"
       ]

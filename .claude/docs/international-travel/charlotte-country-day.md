@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Global Exposure
-> Distilled from 2 source document(s) in `source-material/international-travel/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 2 source document(s) in `source-material/international-travel/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Deep Research, Source URLs
 
 
@@ -776,6 +776,11 @@ values that disagree within the app. Both are the school's own wording; neither 
 Both conflicts are the school's own pages disagreeing (category B in the plan): the app
 attributes each year or claim to its page rather than choosing one.
 
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.charlottecountryday.org/cd-education/international-studies (HTTP 200): clubs "Model United Nations, Interact Club, International Studies Board, World Quest, and Euro Challenge (Upper School)"; "Upper School students contrast the U.S. system with other countries in AP Comparative Government".
+- https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum (HTTP 200): "Special area classes include science, design lab, physical education, modern languages (French and Spanish), music, art, drama, and library."
+
 
 ---
 
@@ -806,6 +811,7 @@ attributes each year or claim to its page rather than choosing one.
 - https://www.charlottecountryday.org/bucsnet/upper-school/global-experiences
 - https://www.charlottecountryday.org/cd-education/international-studies
 - https://www.charlottecountryday.org/cd-education/lower-school
+- https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum
 - https://www.charlottecountryday.org/cd-education/middle-school
 - https://www.charlottecountryday.org/cd-education/upper-school/us-curriculum/off-campus
 - https://www.charlottecountryday.org/cf_news/view.cfm?newsid=1536

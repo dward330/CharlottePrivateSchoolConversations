@@ -1489,11 +1489,18 @@
       ]
     },
     {
-      "t": "Middle y Upper School · grados 6–12",
-      "of": "843c2227",
+      "t": "Middle y Upper School · grados 6–11",
+      "of": "853c23ba",
       "at": [
         "providence-day:signup.groups[0].events[0].audience",
-        "providence-day:signup.groups[0].events[1].audience"
+        "providence-day:signup.groups[0].events[1].audience",
+        "providence-day:signup.groups[0].events[2].audience",
+        "providence-day:signup.groups[0].events[3].audience",
+        "providence-day:signup.groups[0].events[4].audience",
+        "providence-day:signup.groups[0].events[5].audience",
+        "providence-day:signup.groups[0].events[6].audience",
+        "providence-day:signup.groups[0].events[7].audience",
+        "providence-day:signup.groups[0].events[8].audience"
       ]
     },
     {
@@ -1529,19 +1536,6 @@
       "of": "17239da7",
       "at": [
         "providence-day:signup.groups[0].events[2].name"
-      ]
-    },
-    {
-      "t": "Middle y Upper School · grados 6–11",
-      "of": "853c23ba",
-      "at": [
-        "providence-day:signup.groups[0].events[2].audience",
-        "providence-day:signup.groups[0].events[3].audience",
-        "providence-day:signup.groups[0].events[4].audience",
-        "providence-day:signup.groups[0].events[5].audience",
-        "providence-day:signup.groups[0].events[6].audience",
-        "providence-day:signup.groups[0].events[7].audience",
-        "providence-day:signup.groups[0].events[8].audience"
       ]
     },
     {
@@ -7067,8 +7061,8 @@
       ]
     },
     {
-      "t": "¿Qué currículo global y de idiomas se imparte antes de Middle School, y hay una secuencia de idiomas publicada de JK a 12?",
-      "of": "9259a6b1",
+      "t": "El francés y el español empiezan en Lower School. ¿Hay una única secuencia de idiomas publicada que vaya de JK a 12.º grado?",
+      "of": "c44a6e48",
       "at": [
         "charlotte-country-day:verdict.ask[8].question"
       ]
@@ -7690,8 +7684,8 @@
       ]
     },
     {
-      "t": "¿Cuánto cuesta un viaje y qué incluye? No se ha publicado ningún precio de viaje.",
-      "of": "50cea9fe",
+      "t": "La lista de cuotas da $0–500 para un curso Winterm, según el que se elija, pero ningún precio para viajes al extranjero. ¿Cuánto cuesta un viaje y qué incluye?",
+      "of": "edba8f97",
       "at": [
         "cannon:verdict.ask[2].question"
       ]
@@ -8518,8 +8512,8 @@
       ]
     },
     {
-      "t": "Investigación de campo en verano en tres yacimientos activos, uno de ellos documentado durante 20 temporadas",
-      "of": "7d81b0c4",
+      "t": "Investigación de campo en verano en tres yacimientos activos, tras 20 temporadas en Cahal Pech",
+      "of": "874694ea",
       "at": [
         "davidson-day:verdict.standsOut.points[0]"
       ]

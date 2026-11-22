@@ -5,23 +5,23 @@
 // date, hour, grade band and instructor is copied char-for-char from 2022–2023
 // Internet Archive (Wayback) snapshots.
 //
-// THIS CATALOG IS HISTORICAL / REPRESENTATIVE — flagged `stale`. The live 2026
-// HGCS summer pages hide all camp names and prices behind the Brushfire
-// registration platform (not crawlable); only eight bare session-date windows are
-// shown. The Summer 2023 slate below is the last publicly enumerable one, and it
-// stands as the representative shape of HGCS summer programming, not a guarantee
-// of the exact 2026 names.
+// THIS CATALOG IS HISTORICAL / REPRESENTATIVE — flagged `stale`. Re-read
+// 2026-11-22 (plan consistency4, HG-T1): the live pages say the 2027 slate and
+// registration open in spring 2027, and name camp types and sports only, with no
+// session windows. The Summer 2023 slate below (six distinct weeks) is the last
+// publicly enumerable one, and it stands as the representative shape of HGCS
+// summer programming, not a guarantee of the current names.
 //
 // THE COST PLANNER CARD IS OMITTED: no per-camp price appears on any live or
-// archived page (pricing lives only inside the Brushfire checkout), so per
+// archived page, so per
 // no-empty-cards the planner is left off entirely rather than shipped modeled.
 // There is also no summer wrap-around care — the after-school program is closed
 // in summer and camps are half-day only.
 
 import type { SummerProgram } from '../summerPrograms.ts'
 
-const CAMPS_ACADEMIC = 'https://www.hgchristian.org/academics/summer-camps'
-const CAMPS_ATHLETIC = 'https://www.hgchristian.org/athletics/athletic-camps'
+const CAMPS_ACADEMIC = 'https://www.hgchristian.org/summer-camps'
+const CAMPS_ATHLETIC = 'https://www.hgchristian.org/athletic-camps'
 const WB_ACADEMIC =
   'http://web.archive.org/web/20230528052540/https://www.hgchristian.org/academics/summer-camps'
 const WB_ATHLETIC =
@@ -32,9 +32,9 @@ export const hickoryGroveChristian: SummerProgram = {
     headline:
       'A Summer 2023 slate of 15 half-day camps (17 sessions): 9 academic camps for rising 1st–8th graders, the College Admissions Boot Camp for rising 11th–12th graders, and 5 athletic camps.',
     subhead:
-      'Academic camps run 9 a.m.–1 p.m. and athletic camps 9 a.m.–12 p.m. (Football in the evening), Monday–Thursday, across roughly eight week-blocks from late May through late July.',
+      'Academic camps run 9 a.m.–1 p.m. and athletic camps 9 a.m.–12 p.m. (Football in the evening), Monday–Thursday, across six weeks from late May to late July.',
     intro:
-      'This is the **Summer 2023 catalog, from saved copies of the school’s old pages**. It is a representative list, not the live 2026 list, because HGCS now hides camp names and prices behind the Brushfire platform. The live 2026 page confirms eight session windows consistent with the week-blocks below. **Prices are not published anywhere** (Brushfire-only), so no cost is shown. Grades are **rising** grades.',
+      'This is the **Summer 2023 catalog, from saved copies of the school’s old pages**. It is a representative list, not the current one. The school’s 2027 schedule and registration open in spring 2027. Until then, its live pages name camp types and sports, with no dates for each. **Prices are not published**, so no cost is shown. Grades are **rising** grades.',
     categoryFilters: [
       { token: 'All', label: 'All' },
       { token: 'stem', label: 'STEM' },
@@ -255,15 +255,15 @@ export const hickoryGroveChristian: SummerProgram = {
     flags: [
       {
         kind: 'stale',
-        text: 'This is the Summer 2023 list, from saved copies of the school’s old pages on the Internet Archive. The live 2026 catalog is hidden behind the Brushfire registration platform, so the exact 2026 camp names sit inside that platform. The live page does confirm eight session windows consistent with these week-blocks.',
+        text: 'This is the Summer 2023 list, from saved copies of the school’s old pages on the Internet Archive. The school says its 2027 camps are coming soon, with the full schedule in spring 2027. Its live pages name only camp types and sports, so the current camps may differ.',
       },
       {
         kind: 'gap',
-        text: 'No per-camp price is published on any live or archived page. Pricing exists only inside the Brushfire checkout. So this page has no cost planner for these camps, and the summer-cost figures show N/A. There is also no summer wrap-around care. Camps are half-day, and the after-school program is closed in summer.',
+        text: 'No per-camp price is published on any live or archived page. So this page has no cost planner for these camps, and the summer-cost figures show N/A. There is also no summer wrap-around care. Camps are half-day, and the after-school program is closed in summer.',
       },
     ],
     sources: [
-      { label: 'hgchristian.org — Summer Camps (live: session windows only)', url: CAMPS_ACADEMIC },
+      { label: 'hgchristian.org — Summer Camps (live: camp types, 2027 schedule coming in spring)', url: CAMPS_ACADEMIC },
       { label: 'hgchristian.org — Athletic Camps (live)', url: CAMPS_ATHLETIC },
       { label: 'Wayback — Summer 2023 academic camp catalog', url: WB_ACADEMIC },
       { label: 'Wayback — Summer 2023 athletic camp catalog', url: WB_ATHLETIC },

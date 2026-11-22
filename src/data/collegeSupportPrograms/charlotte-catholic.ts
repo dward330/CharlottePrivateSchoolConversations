@@ -525,7 +525,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
     reach: [
       'NC State University lists Charlotte Catholic as a named admissions-visit venue.',
       'Graduates of the Classes of 2024–2026 enrolled at 168 different colleges and universities.',
-      '32% of the Class of 2026 stayed in North Carolina; 76% enrolled at public universities and 24% at private ones.',
+      'Of those going on from the Class of 2026, 32% stayed in North Carolina. Of the same group, 76% enrolled at public universities and 24% at private ones.',
       'One US Naval Academy and one US Military Academy appointment in 2026, after three Naval Academy appointments in 2025.',
     ],
     flags: [
@@ -553,16 +553,16 @@ export const charlotteCatholic: CollegeSupportProgram = {
       'This is an enrollment list: where graduates actually enrolled, not everywhere they were admitted.',
     stats: [
       { value: '199', label: 'institutions graduates enrolled at, Classes of 2023–2026 (200 entries: the list names two Arizona State campuses)' },
-      { value: '98%', label: 'of the Class of 2026 went straight to post-secondary study' },
+      { value: '98%', label: 'of the Class of 2026 planned to go straight to post-secondary study' },
       { value: '$25,186,236', label: 'scholarships earned by the Class of 2026' },
-      { value: '32%', label: 'of the Class of 2026 stayed in North Carolina' },
+      { value: '32%', label: 'of those going on from the Class of 2026 stayed in North Carolina' },
     ],
     bucketsTitle: 'Selectivity buckets across the four classes',
     buckets: [
       { tier: 'Ivy League', count: '7 / 8', note: 'absent Brown' },
       { tier: 'Ivy Plus', count: '11 / 17', note: 'the seven Ivies plus Duke, Georgetown, Johns Hopkins and Northwestern' },
       { tier: 'Top-75 National Universities', count: '43 / 75' },
-      { tier: 'Top-75 Liberal Arts Colleges', count: '21 / 75', note: 'includes all three service academies — Naval #3, Air Force #5, West Point #10' },
+      { tier: 'Top-75 Liberal Arts Colleges', count: '21 / 75', note: 'includes three of the five federal service academies — Naval #3, West Point #9, Air Force #11' },
       { tier: 'Power Four', count: '43 / 68', note: '44 rows carry the tag; the two Arizona State campuses are one institution' },
       { tier: 'HBCUs', count: '3 / 107', note: 'Hampton University, Benedict College and West Virginia State University' },
     ],
@@ -630,7 +630,7 @@ export const charlotteCatholic: CollegeSupportProgram = {
           'Athletic recruiting reach is real and unusual: 79 state championships since 2000, 10 Wells Fargo Cups, and 1000+ alumni who went on to play at NCAA, NAIA or junior-college level.',
           'CCHS is one of only four parochial (church-run) schools in the NCHSAA, the sports association for public schools. So its athletes are measured against the state’s biggest programs, not a private-school bracket.',
           'The school profile does the interpretive work for an admissions reader: decile chart, stated load norms, explicit no-rank policy and a defined "most demanding" benchmark.',
-          'The school’s size as a diocesan school shows up in outcomes. There were Naval Academy appointments in back-to-back classes (three in 2025, one in 2026 alongside a West Point appointment). Graduates have also enrolled at all three service academies.',
+          'The school’s size as a diocesan school shows up in outcomes. There were Naval Academy appointments in back-to-back classes (three in 2025, one in 2026 alongside a West Point appointment). Graduates have also enrolled at three of the five federal service academies.',
           'A 650-seat Fine Arts Center dedicated in 2022, a Charlotte Symphony partnership, and a band that performs quadrennially in Dublin give arts applicants a portfolio venue.',
         ],
         note: 'No published Naviance/SCOIR-style scattergram exists, so a family cannot see admit rates by GPA band for this school.',
@@ -685,8 +685,8 @@ export const charlotteCatholic: CollegeSupportProgram = {
     middle: [
       { label: 'The middle band is published', text: 'The 5th and 6th deciles run 3.83–3.97 and 3.70–3.82 — a family can locate a median student, which a school publishing only averages would hide.' },
       { label: 'The bottom decile is not hidden', text: 'The 10th decile is published as 2.22–3.15 rather than truncated, which is unusually candid for a school profile.' },
-      { label: '98% continue immediately', text: 'Of the Class of 2026, 98% went straight to post-secondary education and 2% to two-year institutions.' },
-      { label: 'Public-university weighted', text: '76% of the Class of 2026 enrolled at public universities and 24% at private ones — an outcome pattern closer to a strong public high school than to an independent day school.' },
+      { label: '98% continue immediately', text: 'In the Class of 2026, 98% planned to go straight on to post-secondary education. Of those, 2% were headed to two-year institutions.' },
+      { label: 'Public-university weighted', text: 'Of those going on in 2026, 76% enrolled at public universities and 24% at private ones — an outcome pattern closer to a strong public high school than to an independent day school.' },
     ],
     flags: [
       {
@@ -707,17 +707,17 @@ export const charlotteCatholic: CollegeSupportProgram = {
     points: [
       { label: 'The disclosure is genuinely strong', text: 'A **10-decile GPA chart including the bottom decile**, stated load norms, an explicit no-rank policy and exam-level AP performance. Most schools publish less and frame it more favorably.' },
       { label: 'The AP rate cannot be flattered', text: '**94% of scores at 3+** across **1,184 exams** in 2026 covers every AP student, because **the exam is mandatory in every AP course**. Weaker students cannot be quietly left out of the count.' },
-      { label: 'Read the college list as enrollments', text: '**199 institutions** across the Classes of 2023–2026 is where graduates actually *enrolled*, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.' },
+      { label: 'Read the college list as enrollments', text: '**199 institutions** across the Classes of 2023–2026 is where graduates actually enrolled, a smaller measure than an acceptance list by construction. CCHS looks stronger, not weaker, once that is understood.' },
       { label: 'Athletics is the standout', text: '**79 state championships** since 2000 and **10 Wells Fargo Cups**, won inside the **NCHSAA** against public schools rather than in a private-school bracket.' },
       { label: 'Tuition turns on parish participation', text: '**$15,041** for a participating Catholic family against **$21,562** at the community rate — a ~30% difference driven by parish involvement rather than financial need, and the single biggest cost variable here.' },
       { label: 'The gaps are structural, not sloppy', text: 'No per-school aid figures (MACS publishes diocese-wide only), **no Form 990** (the diocese is exempt as a religious organization), and no published tuition history.' },
     ],
     checklist: [
-      'Are we a participating Catholic family for tuition purposes — and what exactly does the parish require to qualify?',
+      'Are we a participating Catholic family for tuition purposes — and what does our parish require beyond the published minimums?',
       'What did Family Individualized Tuition actually award families like ours last year? The diocese publishes no per-school aid figures.',
       'My child wants AP courses — what does the application for each course weigh, and how many applicants are turned away?',
       'AP exams are mandatory here. What happens to a student who takes an AP course and does poorly on the exam?',
-      'Counselors are assigned by last name and stay with a student all four years. How does each one balance about 56 seniors through application season?',
+      'Five counselors are assigned by last name and stay with a student all four years. How does each of the five balance about 67 seniors through application season?',
       'What does a typical Options Program student’s day look like, and how much of it is spent in classes alongside peers?',
       'The band performs in Dublin every four years — what does a family pay for that, and when is the next one?',
       'Which sports hold separate fall and spring signing days, and where are those results published?',
