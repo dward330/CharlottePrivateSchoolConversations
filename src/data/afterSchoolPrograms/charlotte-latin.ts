@@ -7,7 +7,7 @@
 // Latin is the only school here that bills PER SEMESTER rather than monthly, so
 // the Cost Planner runs on `basis: 'semester'` and its estimate panel multiplies
 // by 2 rather than by 9. Two published anomalies are surfaced rather than
-// smoothed over: the site gives three different Grades 1–5 dismissal times, and
+// smoothed over: the school's two Transportation pages disagree on times, and
 // two rows (TK/K 1:30–4:30 and Grades 1–5 2:55–4:30) break the linear pricing
 // pattern every other row follows.
 //
@@ -53,7 +53,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       },
       {
         division: 'Middle School',
-        dismissal: 'dismissal ~3:20',
+        dismissal: 'dismissal 3:20 or 3:30',
         startFrac: frac(15, 20),
         endFrac: frac(18),
         tiers: [],
@@ -62,7 +62,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       },
       {
         division: 'Upper School',
-        dismissal: 'dismissal ~3:20',
+        dismissal: 'dismissal 3:20 or 3:30',
         startFrac: frac(15, 20),
         endFrac: frac(17, 30),
         tiers: [],
@@ -82,17 +82,21 @@ export const charlotteLatin: AfterSchoolProgram = {
       { label: 'Runs', text: 'from the first day of school through the last' },
       {
         label: 'Activity buses',
-        text: '4:30 p.m. for Lower School; 5:30 and 6:00 p.m. for Middle and Upper School',
+        text: '4:30 p.m. for Lower School on the Hawks’ Club and Admissions pages, and 4:45 p.m. on the Student Life page. The 5:30 and 6:00 p.m. buses are for Middle and Upper School',
       },
       {
         label: 'Fly Zone',
         text: 'not a paid program — the sibling-wait room for younger students whose older siblings dismiss later',
       },
+      {
+        label: 'Two Transportation pages',
+        text: 'The Student Life page gives morning buses 7:00–7:25 a.m. Its afternoon times are 3:05 p.m. for grades 1–5 and 3:20 p.m. for Middle and Upper School. The Admissions page gives 7:00–7:20 a.m., 2:55 p.m. and 3:30 p.m.',
+      },
     ],
     flags: [
       {
         kind: 'verify',
-        text: 'Latin’s own pages disagree on when Lower School dismisses. The After-School pages use **2:55** — the number the pricing table is built on — while Transportation says **3:05** for "TK-K Hawks Club students and Grades 1-5", and a third source says 3:10. Middle and Upper School are given as both 3:20 and 3:25.',
+        text: 'The school’s two Transportation pages disagree, read 2026-11-22 (plan consistency4 LAT-T2). /student-life/transportation: morning 7:00–7:25; **3:05** for "TK-K Hawks Club students and Grades 1-5"; 3:20 for Flyzone, Middle and Upper School; Lower School activity bus 4:45. /admissions/transportation: 7:00–7:20; **2:55**; 3:30; 4:30. Both print bus departure times. Hawks’ Club uses 2:55 (the number the pricing table is built on) and a 4:30 bus. The bars are drawn from 2:55 and 3:20; no winner is picked. The 3:10 (a search snippet) and 3:25 in the July record are on neither page.',
       },
       {
         kind: 'gap',
@@ -100,7 +104,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'No before-school care is published. The only morning data points are the 7:00–7:25 a.m. bus window and the 7:30 a.m. library opening.',
+        text: 'No before-school care is published. The only morning data points are the 7:30 a.m. library opening and the bus window. That window ends at 7:25 on the Student Life Transportation page and 7:20 on the Admissions one.',
       },
     ],
     sources: [
@@ -113,7 +117,7 @@ export const charlotteLatin: AfterSchoolProgram = {
         url: 'https://www.charlottelatin.org/after-school/hawks-club',
       },
       {
-        label: 'charlottelatin.org — Transportation (dismissal times, activity buses)',
+        label: 'charlottelatin.org — Transportation, Student Life page (departure times, activity buses)',
         url: 'https://www.charlottelatin.org/student-life/transportation',
       },
       {
@@ -121,6 +125,10 @@ export const charlotteLatin: AfterSchoolProgram = {
         url: 'https://www.charlottelatin.org/academics/library',
       },
       { label: 'charlottelatinsummer.com — Latin Camps', url: 'https://www.charlottelatinsummer.com/' },
+      {
+        label: 'charlottelatin.org — Transportation, Admissions page (departure times, activity buses)',
+        url: 'https://www.charlottelatin.org/admissions/transportation',
+      },
     ],
   },
 
@@ -239,7 +247,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       {
         time: 'After class',
         name: 'Three ways out',
-        detail: 'Front carpool, back to Hawks’ Club, or the Lower School bus at 4:30',
+        detail: 'Front carpool, back to Hawks’ Club, or the Lower School bus. The Hawks’ Club and Admissions pages put that bus at 4:30; the Student Life page says 4:45',
       },
     ],
     wordsTitle: 'The program, in the school’s words',
@@ -299,7 +307,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       },
       {
         kind: 'verify',
-        text: '**Talons** youth sports runs alongside for grades 3–6 — field hockey, basketball, baseball, lacrosse, co-ed soccer and cross country, 2–3 days a week between 3:00 and 5:15 p.m., at $200–$350 depending on sport. Only Fall sessions are published; winter and spring are not.',
+        text: '**Talons** grades and fees, read 2026-11-22 (plan consistency4 LAT-T3). The After School page says grades 3–6; the Talons page lists flag football for KG–5 and fall soccer for grades 2–6. The Talons page now lists fall, winter and spring. Fees are printed only for some winter and spring programs, $195–$375. None is printed for basketball, swimming, indoor field hockey, the flag football league, tennis or the fall programs. The July record had $200–$350 for fall.',
       },
     ],
     sources: [
@@ -326,7 +334,7 @@ export const charlotteLatin: AfterSchoolProgram = {
     headline:
       'An unusually well-housed and well-staffed Lower School program with mostly linear pricing — that stops completely at grade 5.',
     subhead:
-      'The TK/K cost cliff and the near-total fee opacity are the two things to press on, and Middle School families should ask what happens at 3:20 p.m.',
+      'The TK/K cost cliff and the near-total fee opacity are the two things to press on, and Middle School families should ask what happens after dismissal.',
     strengths: [
       '**A dedicated after-school building**, not a repurposed cafeteria or gym — materially better for a child spending three-plus hours a day there.',
       '**Two credentialed adults per room** — "a dedicated lead teacher and assistant teacher" is a stated, structural commitment.',
@@ -335,7 +343,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       '**Full-day coverage on teacher workdays and conference days**, 7:30 a.m.–4:45 p.m., with real field trips — solving the days that most often break childcare.',
       '**A deep 27-class enrichment catalog** with credible outside vendors, spanning STEM, arts and eight-plus sports.',
       '**Talons is a real athletic on-ramp**, explicitly designed as the feeder into Hawks varsity teams.',
-      '**Activity-bus integration** at 4:30, 5:30 and 6:00, so after-school participation doesn’t strictly require a car at pickup.',
+      '**Activity-bus integration**, so after-school participation doesn’t strictly require a car at pickup. The later buses are at 5:30 and 6:00. The Lower School bus is at 4:30 on the Hawks’ Club and Admissions pages, and 4:45 on the Student Life page.',
     ],
     watchouts: [
       '**Coverage stops dead at grade 5.** There is no Middle or Upper School after-school care of any kind. Middle School is the most stranded: its library closes at dismissal, leaving athletics or nothing.',
@@ -348,8 +356,8 @@ export const charlotteLatin: AfterSchoolProgram = {
       '**The site contradicts itself on dismissal times**, and two pricing rows break the pattern every other row follows.',
     ],
     checklist: [
-      'What are our options for after-school supervision once our child reaches Middle School? Is there anything between the 3:20 dismissal and the 5:30 activity bus?',
-      'Please confirm the actual Grades 1–5 dismissal time — 2:55, 3:05, or 3:10? Your Transportation and After-School pages disagree.',
+      'What are our options for after-school supervision once our child reaches Middle School? Is there anything between dismissal (3:20 or 3:30) and the 5:30 activity bus?',
+      'Please confirm the actual Grades 1–5 dismissal time — 2:55 or 3:05? Is the Lower School activity bus at 4:30 or 4:45? Your two Transportation pages disagree.',
       'Please confirm two pricing rows. For TK/K 1:30–4:30, is five days really $2,540 and four days $2,300? For Grades 1–5 2:55–4:30, is four days really $1,880, more than the $1,475 for five?',
       'Is there a Hawks’ Club registration fee, and is it per child or per family?',
       'What is the late-pickup fee after 6:00 p.m., and how is it assessed?',
@@ -363,7 +371,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       'Can I see the current enrichment grid with days, grade ranges and per-class fees?',
       'Do enrichment fees stack on top of the Hawks’ Club semester rate, or is Hawks’ Club prorated?',
       'How quickly do popular classes fill at the 8:00 p.m. registration open, and is there a waitlist?',
-      'Are there winter and spring Talons seasons, and what is the exact fee for the sport we want?',
+      'What will the Talons programs with no posted fee cost, such as basketball, swimming and indoor field hockey?',
     ],
     flags: [],
     sources: [

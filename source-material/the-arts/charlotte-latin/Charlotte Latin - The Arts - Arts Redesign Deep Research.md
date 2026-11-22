@@ -250,8 +250,8 @@ Sources:
 is the marquee individual award in the region's high-school musical theatre program, and Latin
 also took Best Featured Performer the same night for the same show. That is a genuine peak.
 But the trajectory since is modest: one stage-manager nomination in 2025 (a craft category,
-not performance) and **zero nominations in 2026** despite mounting *Cabaret*. Latin competes
-every year against a 59-school field; it is a real participant, not a dominant one. If the
+not performance) and **zero nominations in 2026** despite mounting *Cabaret*, in that
+year's 59-school field. Latin is a real participant, not a dominant one. If the
 card shows a ledger, showing all four years including the 2026 shutout is the accurate
 presentation — cherry-picking 2022 would overstate the program's current standing.
 
@@ -502,7 +502,7 @@ list with Gold Key / Silver Key / Honorable Mention counts by year.
 
 1. **A real Blumey win at the top of the region's marquee category.** Kate McCracken took
    **Best Actress at the 2022 Blumeys** for *Bright Star*, and Dominick Charles took **Best
-   Featured Performer** the same night. In a 59-school regional field, a Best Actress win is
+   Featured Performer** the same night. A Best Actress win is
    the single most competitive individual honor available, and Latin has one.
    https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announced-the-9th-annual-blumey-awards-winners
 
@@ -839,3 +839,12 @@ Fetched 2026-11-22, each HTTP 200.
 - https://www.charlottelatin.org/academics/upper-school/course-offerings: "Music Theory AP".
 - https://www.charlottelatin.org/the-arts/visual: the Scholastic image file names that carry a year
   all carry 2023. The Gold Key file carries a class year (co28) and no award year.
+### Re-verification 2026-11-22 (plan consistency4, implement)
+- https://www.charlottelatin.org/academics/upper-school/course-offerings (200): the arts courses
+  are Acting, Film Acting, Stagecraft I and II, Advanced Design, After-School Theater and Stagecraft,
+  Band, Concert Choir, Orchestra, Music Theory I, Music Theory AP, Art Studio I–IV and Photography.
+  Music Theory AP is the only one marked AP.
+- https://www.charlottelatin.org/the-arts/performing (200) still lists Band, Orchestra and Concert
+  Choir, each "Grades 5-12".
+- Blumenthal's site was not requested in this pass. The 2022 field size is not used: the wrong
+  "59-school" wording was removed from the 2022 statements.

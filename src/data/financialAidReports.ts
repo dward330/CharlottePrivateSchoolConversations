@@ -1352,7 +1352,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
 
 const CHARLOTTE_LATIN: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 24 Jul 2026',
+  meta: '2026–27 school year · figures as of 24 Jul 2026 · bus and Talons fees as of 22 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -1362,7 +1362,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
     {
       icon: 'clock',
       title: 'Published ≠ current.',
-      body: 'Every dollar figure carries the school year it applies to. The transport page sits a year behind the 2026–27 tuition table — different cycles, not a contradiction.',
+      body: 'Every dollar figure carries the school year it applies to. The Student Life Transportation page gives 2026–27 bus fees. The Admissions Transportation page still gives 2025–26 fees.',
     },
     {
       icon: 'book',
@@ -1401,8 +1401,8 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       navTitle: 'Beyond Tuition',
       title: 'Beyond Tuition — The Real Cost of Attendance',
       confidence: 72,
-      componentsTitle: 'Fourteen confirmed components for a 2026–27 family — 8 unpriced or a year behind',
-      componentsAside: 'All-in estimate not built: 57% unpriced > 33% threshold',
+      componentsTitle: 'Fourteen confirmed components for a 2026–27 family — 6 unpriced',
+      componentsAside: 'All-in estimate not built: 43% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
         { label: 'Enrollment deposit · $2,500, non-refundable', status: 'priced' },
@@ -1410,21 +1410,21 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         { label: 'Student accident insurance · $75, optional', status: 'priced' },
         { label: 'Tuition Refund Plan · 0.53% of tuition, optional', status: 'priced' },
         { label: "Hawks' Club extended day · priced, TK–5 only", status: 'priced' },
-        { label: 'Bus service · 2025–26 rates only', status: 'range' },
+        { label: 'Bus service · $1,900 round trip, $950 one way', status: 'priced' },
         { label: 'Textbooks, grades 6–12 · no rate', status: 'unpriced' },
         { label: 'Meals · no price list', status: 'unpriced' },
         { label: 'Athletics participation · no rate', status: 'unpriced' },
         { label: 'School trips beyond the class-trip advance · no rate', status: 'unpriced' },
         { label: 'Enrichment programs · no rate', status: 'unpriced' },
-        { label: 'Talons youth sports · no rate', status: 'unpriced' },
+        { label: 'Talons youth sports · $195–$375 for the winter and spring programs priced so far', status: 'priced' },
         { label: 'Lower School uniforms · supplier purchase, no amount', status: 'unpriced' },
       ],
       componentsNote:
-        'Six components are priced at 2026–27. The rest are unpriced or published only at 2025–26 rates. The school\'s own strategic plan confirms these charges are real: families "often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities."',
+        'Eight components are priced at 2026–27. The other six have no published rate. The school\'s own strategic plan confirms these charges are real: families "often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities."',
       boxes: [
         {
-          title: 'Bus service — a year behind the tuition table',
-          body: 'Round trip **$1,800** · one way **$900** · activity bus **$450** per season. The fee panel is headed "Bus Service Annual Fees 2025-26" while the tuition page has moved to 2026–27, so a family budgeting for next year cannot price the bus from the website.',
+          title: 'Bus service — two pages, two school years',
+          body: 'The Student Life Transportation page lists 2026–27 fees: round trip **$1,900** and one way **$950**. Students without a round-trip plan pay by activity. The Middle and Upper School sports activity bus costs **$550** per season. The Talons and enrichment buses cost **$80** per session. Play-practice buses cost **$80** per play, or **$160** in Middle School. The Admissions Transportation page still lists 2025–26 fees: **$1,800** round trip, **$900** one way and **$450** per season for the activity bus.',
         },
         {
           title: "Hawks' Club — two rates break their own pattern",
@@ -1440,7 +1440,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Transportation](https://www.charlottelatin.org/admissions/transportation); [Hawks\' Club](https://www.charlottelatin.org/after-school/hawks-club); [Dining](https://www.charlottelatin.org/student-life/dining); [Charlotte Latin Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability), retrieved 24 Jul 2026',
+        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Transportation, Admissions page](https://www.charlottelatin.org/admissions/transportation); [Hawks\' Club](https://www.charlottelatin.org/after-school/hawks-club); [Dining](https://www.charlottelatin.org/student-life/dining); [Charlotte Latin Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability), retrieved 24 Jul 2026 · [Transportation, Student Life page](https://www.charlottelatin.org/student-life/transportation); [Talons Sports Program](https://www.charlottelatin.org/after-school/youth-sports-recreation-program), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -1486,7 +1486,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents), retrieved 24 Jul 2026 · [Application Process](https://www.charlottelatin.org/admissions/application-process) (award dates), retrieved 20 Nov 2026 · "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" and "[How to Apply for Financial Aid](https://docs.google.com/document/d/1q7BaP7wBPIi4y5bFFqotfPQzl79bpzhd/edit)" (full text, 22 Nov 2026)',
+        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents), retrieved 24 Jul 2026 · [Application Process](https://www.charlottelatin.org/admissions/application-process) (award dates), retrieved 20 Nov 2026 · "[Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" and "[How to Apply for Financial Aid](https://docs.google.com/document/d/1q7BaP7wBPIi4y5bFFqotfPQzl79bpzhd/edit)" (full text, 22 Nov 2026)',
     },
     {
       id: 'fa-numbers',
@@ -1516,7 +1516,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           title: 'Supplemental support',
-          body: 'Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. Its financial aid FAQ adds that students who earn a named endowed scholarship may also have extra school costs covered. Families learn at acceptance, from the school\'s stewardship and scholarship administrator, whether they qualify and what is covered. It does not publish what else this help covers, or how much need makes a family eligible.',
+          body: 'Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. Its financial aid FAQ adds that students who earn a named endowed scholarship may also have extra school costs covered. Families learn at acceptance, from the school\'s stewardship and scholarship administrator, whether they qualify and what is covered. The school\'s Plus Fund helps families on substantial aid with costs beyond tuition. The examples it names are lunch, books, rentals, sports fees, travel and learning resources. The school does not publish how much need makes a family eligible.',
         },
         {
           tag: 'HOW TO READ THE 990 FIGURE',
@@ -1524,7 +1524,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents); [Charlotte Latin Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability); [IRS Form 990 via ProPublica](https://projects.propublica.org/nonprofits/organizations/560944449), retrieved 24 Jul 2026 · "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" (full text, 22 Nov 2026)',
+        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents); [Charlotte Latin Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability); [IRS Form 990 via ProPublica](https://projects.propublica.org/nonprofits/organizations/560944449), retrieved 24 Jul 2026 · "[Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" (full text, 22 Nov 2026) · [Alumni Giving](https://www.charlottelatin.org/support/alumni/alumni-giving) (the Plus Fund), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-merit',
@@ -1551,7 +1551,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — "[2025-26 Scholarships](https://docs.google.com/document/d/1utWb3PNI0U_PR6NowrtZOzifRjMQNry0/edit)" document (full text, 22 Nov 2026); [Upper School Profile 2025–26](https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf); [Endowed Gifts](https://www.charlottelatin.org/support/endowed-gifts), retrieved 24 Jul 2026',
+        'charlottelatin.org — "[Scholarships](https://docs.google.com/document/d/1utWb3PNI0U_PR6NowrtZOzifRjMQNry0/edit)" document (full text, 22 Nov 2026); [Upper School Profile 2025–26](https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf); [Endowed Gifts](https://www.charlottelatin.org/support/endowed-gifts), retrieved 24 Jul 2026',
     },
     {
       id: 'fa-paying',
@@ -1619,7 +1619,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'READ THE TENURE FIGURES AS ARITHMETIC, NOT A FORECAST',
-          body: 'The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500). They assume today\'s prices hold every year, which they will not: published tuition is reset every year and has risen in the past. They are tuition only, before any aid. They exclude the deposit, trips, insurance, transport, extended day, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.',
+          body: 'The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500). They assume today\'s prices hold every year, which they will not: published tuition is reset every year and has risen in the past. They are tuition only, before any aid. They exclude the deposit, trips, insurance, transport, extended day, Talons, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.',
         },
         {
           tag: 'THE MIDDLE-INCOME QUESTION',
@@ -1627,7 +1627,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'TWO NAVIGATION HAZARDS',
-          body: '**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027. But search engines still show saved text from the same address that gives 15 January 2026. Open the page directly rather than trusting the search snippet. **The contact address is misspelled in one place**. The tuition page asks for questions at an email address whose domain has two letters swapped. The correct address appears elsewhere on the same page. Mail to the misspelled version will not arrive, so use the contact panel.',
+          body: '**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027. But search engines still show saved text from the same address that gives 15 January 2026. Open the page directly rather than trusting the search snippet. **The contact address is misspelled in one document**. The school\'s "How to Apply for Financial Aid" document gives an email address whose domain has two letters swapped. The tuition page has the correct address, so use that one.',
         },
       ],
       questionsNote:
@@ -1635,8 +1635,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       questions: [
         'What is the withdrawal and mid-year departure obligation, and is there a refund schedule?',
         'What does a year of school meals cost, by division, and what do textbooks cost in grades 6, 9 and 12?',
-        'What are the participation costs for specific sports and activities?',
-        'What are the 2026–27 bus rates?',
+        'What are the participation costs for school athletics and activities, beyond the Talons fees already published?',
         'What is the current share of students receiving tuition assistance, and for which year?',
         'What is the median award, what is the range from smallest to largest, and does any award reach full tuition?',
         'For each named scholarship: the amount, how many are awarded, how recipients are chosen among eligible students, and whether it can be held alongside need-based aid?',
@@ -1646,7 +1645,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
     },
   ],
   sources:
-    'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents); [Transportation](https://www.charlottelatin.org/admissions/transportation); [Hawks\' Club](https://www.charlottelatin.org/after-school/hawks-club); [Dining](https://www.charlottelatin.org/student-life/dining); [Upper School Profile 2025–26](https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf); [Endowed Gifts](https://www.charlottelatin.org/support/endowed-gifts) (all 24 Jul 2026) · charlottelatinleads.org — [Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability) (24 Jul 2026) · "[2025-26 Scholarships](https://docs.google.com/document/d/1utWb3PNI0U_PR6NowrtZOzifRjMQNry0/edit)" and "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" and "[How to Apply for Financial Aid](https://docs.google.com/document/d/1q7BaP7wBPIi4y5bFFqotfPQzl79bpzhd/edit)" (full text retrieved 22 Nov 2026) · [2024–2025 financial aid process presentation](https://www.charlottelatin.org/uploaded/Admissions/2024_2025_Financial_Aid_Process_Presentation.pdf) · IRS Form 990, Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024, via [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/560944449). Commercial school-directory sites publish tuition figures that disagree with one another and with the school\'s own page; none is the source of any figure here. The school did not commission, review or approve this report.',
+    'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents); [Transportation, Admissions page](https://www.charlottelatin.org/admissions/transportation); [Hawks\' Club](https://www.charlottelatin.org/after-school/hawks-club); [Dining](https://www.charlottelatin.org/student-life/dining); [Upper School Profile 2025–26](https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf); [Endowed Gifts](https://www.charlottelatin.org/support/endowed-gifts) (all 24 Jul 2026) · [Transportation, Student Life page](https://www.charlottelatin.org/student-life/transportation); [Talons Sports Program](https://www.charlottelatin.org/after-school/youth-sports-recreation-program); [Alumni Giving](https://www.charlottelatin.org/support/alumni/alumni-giving) (all 22 Nov 2026) · charlottelatinleads.org — [Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability) (24 Jul 2026) · "[Scholarships](https://docs.google.com/document/d/1utWb3PNI0U_PR6NowrtZOzifRjMQNry0/edit)" and "[Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" and "[How to Apply for Financial Aid](https://docs.google.com/document/d/1q7BaP7wBPIi4y5bFFqotfPQzl79bpzhd/edit)" (full text retrieved 22 Nov 2026) · [2024–2025 financial aid process presentation](https://www.charlottelatin.org/uploaded/Admissions/2024_2025_Financial_Aid_Process_Presentation.pdf) · IRS Form 990, Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024, via [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/560944449). Commercial school-directory sites publish tuition figures that disagree with one another and with the school\'s own page; none is the source of any figure here. The school did not commission, review or approve this report.',
 }
 
 const PROVIDENCE_DAY: FinancialAidReport = {

@@ -147,7 +147,7 @@ export const charlotteLatin: ArtsProgram = {
       'Alicia Long heads the performing arts program. The tech track is laid out step by step, and the school undersells it. First, the backstage/technical course starts in Grade 6 — a year before the acting course. Then the Upper School sequence runs Stagecraft I → Stagecraft II → Advanced Design, plus an after-school stagecraft option. The track produced a 2025 Blumey nomination for Best Student Stage Manager. For a student who would rather build than perform, this is stronger than most peer schools publish.',
     venueNote:
       'Latin runs a dedicated box office (boxoffice@charlottelatin.org) with a waitlist for sold-out shows. The theatre program runs like a ticketed venue. The school publishes no name for a theatre director or technical director. That is a real gap in openness compared with peer schools.',
-    ledgerTitle: 'The Blumey ledger — every year Latin has placed',
+    ledgerTitle: 'The Blumey ledger — results from four years',
     ledger: [
       {
         year: '2026',
@@ -331,7 +331,7 @@ export const charlotteLatin: ArtsProgram = {
     holdsUp: [
       {
         label: 'A Blumey win in the marquee category',
-        text: 'a student took Best Actress at the 2022 Blumeys for Bright Star, with another student taking Best Featured Performer the same night. In a 59-school field, Best Actress is the most competitive individual honor available.',
+        text: 'a student took Best Actress at the 2022 Blumeys for Bright Star, with another student taking Best Featured Performer the same night. Best Actress is the most competitive individual honor available.',
       },
       {
         label: 'A genuinely articulated tech-theatre track',

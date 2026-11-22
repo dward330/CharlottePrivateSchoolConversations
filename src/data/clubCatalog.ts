@@ -110,7 +110,7 @@ const CHARLOTTE_LATIN: ClubCatalog = {
     { name: 'Chess Club', cat: 'spec', note: 'Open play and instruction for any student' },
     { name: 'Outdoor Club', cat: 'spec', note: 'Camping and adventure skills: hiking, climbing, rafting' },
     { name: 'Yearbook Club', cat: 'spec', note: 'Photography and reporting for students not enrolled in the yearbook class' },
-    { name: 'Mosaic (incl. Q&A and BSA)', cat: 'aff', note: 'Diversity-programming umbrella; houses Q&A and the Black Student Association' },
+    { name: 'Mosaic (incl. Q&A and BSA)', cat: 'aff', note: 'Diversity-programming umbrella; houses Q&A and BSA' },
     { name: 'SISTERS', cat: 'aff', note: 'Pairs upperclass women with freshmen to smooth the transition into high school' },
     { name: 'Girl Up', cat: 'aff', note: 'Empowering women at CLS through education, advocacy, and service' },
     { name: 'Spanish Club', cat: 'cult', note: 'Appreciation of Spanish language and culture' },

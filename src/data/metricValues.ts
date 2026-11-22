@@ -1603,7 +1603,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '2 AP + 9 Honors', // 2026–27 profile, p.3 Fine Arts: AP Art History, AP Art & Design + 9 Honors (incl. Broadcasting). B (plan consistency3, CC-S3): the 2026–27 curriculum guide also lists AP Music Theory and two more Honors ensembles; both are named in the qual, no value picked.
       'charlotte-catholic': '1 AP + 12 Honors', // AP Studio Art is the only AP arts course — no AP Music Theory, no AP Art History, confirmed by sweeping all 199 courses. An AP-only count would misread a 39-course department
       'charlotte-country-day': 'AP + IB', // AP and IB arts pathways (rare dual offering)
-      'charlotte-latin': null, // not detailed
+      'charlotte-latin': '1 AP', // AP Music Theory ("Music Theory AP"), the one AP among the Upper School course page's arts courses; re-read 2026-11-22 (plan consistency4 LAT-T8)
       'covenant-day': 'AP Studio Art', // + Honors Studio Art and Honors Auditioned Theatre
       'carmel-christian': '1 AP + 3 Honors', // AP 2-D Art & Design, Honors Art III, Honors Art IV, Honors Acting Studio (course offerings; plan consistency CAR-22)
       'davidson-day': null, // not detailed
@@ -1633,6 +1633,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'AP Studio Art tops the visual path (Intro to Art → Art 2/3 → Honors Studio Art → AP Studio Art). On the performing side, the advanced courses are Choir Honors, Symphonic Band Honors and Honors Auditioned Theatre.',
       },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'AP Music Theory is the only AP arts course. The Upper School course list has no AP studio art.',
+      },
       'providence-day': {
         kind: 'scope',
         text: 'Three AP arts courses: AP Art and Design, AP Art History, and AP Music Theory.',
@@ -1657,7 +1661,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '40+ electives', // 40+ arts electives across four areas
       'charlotte-catholic': '12 ensembles', // 12 named ensembles carrying course codes; Marching Band, Symphonic Band and Jazz Band also run without a code of their own
       'charlotte-country-day': '8 ensembles', // 8 vocal/instrumental groups
-      'charlotte-latin': null, // no count stated
+      'charlotte-latin': '3 ensembles', // Band, Orchestra, Concert Choir, each "Grades 5-12" on /the-arts/performing; re-read 2026-11-22 (plan consistency4 LAT-T8)
       'covenant-day': '9 ensembles', // Children's Choir, MS Band/Choir/Worship, Symphonic Band, HS Choir/Worship/A Cappella + gr.5 intro
       'carmel-christian': '3', // Symphonic Band, Choir, Ignite Band
       'davidson-day': null, // no count stated
@@ -1682,6 +1686,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': {
         kind: 'minimum',
         text: '40+ arts electives across four areas — a stated floor rather than an exact catalog count.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Band, Orchestra and Concert Choir, each offered in grades 5–12. The Community Chorale and the Acapella Club are not counted.',
       },
       'charlotte-country-day': {
         kind: 'scope',
@@ -2037,7 +2045,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-latin': {
         kind: 'scope',
-        text: 'Latin bills per semester, $4,650 twice a year — the monthly figure above is that $9,300 spread over 10 months, not a rate the school quotes. It covers TK/K at the 1:30–6:00 p.m. tier five days a week; TK and Kindergarten dismiss at 1:30 p.m., so this buys 4.5 hours a day, more than any figure beside it. Grades 1–5 at their 2:55–6:00 p.m. tier is $3,000 a semester.',
+        text: 'Latin bills per semester, $4,650 twice a year — the monthly figure above is that $9,300 spread over 10 months, not a rate the school quotes. It covers TK/K at the 1:30–6:00 p.m. tier five days a week; TK and Kindergarten dismiss at 1:30 p.m., so this buys 4.5 hours a day. Grades 1–5 at their 2:55–6:00 p.m. tier is $3,000 a semester.',
       },
       'covenant-day': {
         kind: 'scope',

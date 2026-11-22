@@ -21,7 +21,7 @@ Then work through the **six segments in this exact order:**
 
 4. **The Clubs That Compete.** This is where Charlotte Latin shines. Lead with Speech and Debate as the flagship — a top-twenty program nationally per the N-S-D-A, with charter status and 200 Club recognition, and recent top finishes at the national tournament. Then cover Model U N, Science Olympiad (Division B in Middle School and Division C in Upper School, reaching the state tournament in 2026), World Quest, and the Math Team. Be careful: say the Science Olympiad team *reached* the state tournament, but do not claim a specific placement, because the public results don't confirm one. Also note plainly what's *not* there — no mock trial, academic decathlon, or business-competition chapter shows up in the School's materials. [source: Academic & Competitive Programs]
 
-5. **Service, Leadership & Civic Life.** Describe the largest cluster: a Service Council that organizes weekly service, a slate of service clubs (Club Sandwich, Blessings in a Backpack, Paws for the Cause), and a recognition pathway — the Service Society for students who top 150 service hours. Cover the governance bodies: the elected Student Council, the Honor Council and its Advisory Board, and the Hawks Lead leadership program. Then the affinity and advocacy clubs: Mosaic (which houses Q-and-A and the Black Student Association), SISTERS, Girl Up, and S-A-D-D. [source: Service, Leadership & Civic Engagement]
+5. **Service, Leadership & Civic Life.** Describe the largest cluster: a Service Council that organizes weekly service, a slate of service clubs (Club Sandwich, Blessings in a Backpack, Paws for the Cause), and a recognition pathway — the Service Society for students who top 150 service hours. Cover the governance bodies: the elected Student Council, the Honor Council and its Advisory Board, and the Hawks Lead leadership program. Then the affinity and advocacy clubs: Mosaic (which houses Q-and-A and B-S-A), SISTERS, Girl Up, and S-A-D-D. [source: Service, Leadership & Civic Engagement]
 
 6. **How Clubs Are Run, Started, Funded & Found — and Closing Takeaways.** Explain that clubs are advisor-anchored, meet during the school day, and that students are encouraged to start their own with a faculty advisor. Be candid about the gaps: the School doesn't publish a detailed new-club approval process, doesn't publish club budgets, and there's no confirmed all-School club fair — though the Middle School rotation effectively *is* a discovery engine. Close with honest takeaways: Charlotte Latin's clubs are strongest in the civic/public-voice and S-T-E-M arenas, the service culture is deep and well-documented, and a few operational details simply aren't public. [source: Governance, Formation, Funding & Discovery]
 
@@ -32,7 +32,7 @@ Then work through the **six segments in this exact order:**
 - "NJCL" → "the National Junior Classical League" (spell out on first use)
 - "NSDA" → "N-S-D-A"
 - "SADD" → "S-A-D-D"
-- "BSA" → "the Black Student Association" (spell out on first use)
+- "BSA" → "B-S-A" (the school does not expand the initialism, so never expand it)
 - "STEM" → "S-T-E-M"
 - "TK" → "transitional kindergarten" (on first use)
 - "NAIMUN" → "the North American Invitational Model U N"

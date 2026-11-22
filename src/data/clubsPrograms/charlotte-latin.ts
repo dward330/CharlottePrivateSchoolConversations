@@ -15,8 +15,10 @@
 //
 //  2. NO affinity-group count is published, so there is NO count flag on 1a.
 //     The design's count-discrepancy pattern only appears where sources actually
-//     disagree; here there is a single sentence and no number to contradict.
-//     Inventing a flag to fill the slot would be dishonest.
+//     disagree; here there is no number to contradict. Inventing a flag to fill
+//     the slot would be dishonest. The school does run a separate affinity
+//     program, Brotherhood & Belonging (plan consistency4 LAT-T13): it is named
+//     in the card's text and is not added to the groups or any count.
 //
 //  3. Latin is the ONLY school in this set that publishes both Cum Laude
 //     induction criteria AND an induction count, so its 1c carries no
@@ -30,7 +32,12 @@
 
 import type { ClubsProgram } from '../clubsProgram.ts'
 
-const DEI = 'https://www.charlottelatin.org/about/diversity-equity-inclusion'
+const BELONGING =
+  'https://www.charlottelatin.org/about/community-belonging-global-education/community-and-belonging'
+const ATSS =
+  'https://www.charlottelatin.org/about/community-belonging-global-education/academic-transition-and-student-support'
+const DIWALI_NEWS =
+  'https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-celebrates-diwali'
 const CLUBS = 'https://www.charlottelatin.org/student-life/student-clubs/clubs'
 const SERVICE =
   'https://www.charlottelatin.org/leading-programs/student-leadership-development/service'
@@ -46,13 +53,13 @@ const AWARDS_2025 =
 export const charlotteLatin: ClubsProgram = {
   affinity: {
     headline:
-      'One student-led umbrella club, Mosaic, carrying two named sub-groups — the identity structure here runs through the club roster rather than a separate affinity program.',
+      'Mosaic is the umbrella club, with two named sub-groups. A separate school program, Brotherhood & Belonging, is for historically underrepresented boys in grades 3–12.',
     subhead:
-      'Charlotte Latin publishes markedly less on this than many schools: no roster page, no counts, and no divisional breakout.',
+      'That program has Lower and Middle School parts, and the school describes the Upper School part as a future expansion. School news also names an Indian Student Alliance, which is not on the club list. The school publishes no count or full roster of affinity groups.',
     umbrella: {
       name: 'Mosaic',
       detail:
-        'the student-led umbrella club · "Under Mosaic we have Q&A and BSA" · coordinated by the DEI Office under Vernette Rucker, Assistant Director of Diversity, Equity, and Inclusion',
+        'the umbrella club · "Under Mosaic we have Q&A and BSA"',
     },
     groups: [
       { name: 'Q&A', detail: 'sub-group of Mosaic — the school does not expand the initialism' },
@@ -69,18 +76,20 @@ export const charlotteLatin: ClubsProgram = {
     strips: [
       {
         title: 'Faculty & parents',
-        text: 'Divisional DEI Committees for faculty and staff · Parent DEI Education Learning Sessions · the Parent Cookbook Club, which "transforms the typical book club model into an immersive cultural experience… exploring diverse cultures one delicious recipe at a time." None of these is an identity-based affinity group.',
+        text: 'Vernette Rucker is Associate Director of Community and Belonging. In July 2026, the school’s former diversity page listed divisional DEI Committees for faculty and staff, Parent DEI Education Learning Sessions and a Parent Cookbook Club. It said the Cookbook Club "transforms the typical book club model into an immersive cultural experience… exploring diverse cultures one delicious recipe at a time." None of those three was an identity-based affinity group.',
       },
     ],
     flags: [
       {
         kind: 'gap',
-        text: 'The DEI page describes "the student-led Diversity Club and Alliance Groups" in a single sentence and links to a "Diversity Club List" — but that link leads to a page containing no list. No affinity group count is published anywhere, so unlike its peers there are no rival numbers to reconcile; there is simply no roster. No Lower or Middle School groups are published, and no student diversity leadership corps or national conference attendance appears anywhere on the site.',
+        text: 'The old DEI page named "the student-led Diversity Club and Alliance Groups" in a single sentence. It now returns 404, and its "Diversity Club List" link redirects to the Community, Belonging and Global Education page, which has no list. No affinity group count or full roster is published, so there are no rival numbers to reconcile. Lower and Middle School groups are published under Brotherhood & Belonging (Voices, The Boys’ Room); its Upper School part is described as a future expansion. No student diversity leadership corps or national conference attendance was found on the pages read.',
       },
     ],
     sources: [
-      { label: 'charlottelatin.org — Diversity, Equity & Inclusion', url: DEI },
+      { label: 'charlottelatin.org — Community and Belonging', url: BELONGING },
       { label: 'Upper School club roster (Mosaic, Girl Up, SISTERS)', url: CLUBS },
+      { label: 'Academic Transition and Student Success (Brotherhood & Belonging)', url: ATSS },
+      { label: 'Latin news — Diwali (Indian Student Alliance)', url: DIWALI_NEWS },
     ],
   },
 

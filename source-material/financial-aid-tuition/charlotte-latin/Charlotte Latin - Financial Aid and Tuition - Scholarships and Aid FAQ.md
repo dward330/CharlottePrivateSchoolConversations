@@ -100,3 +100,13 @@ Fetched 2026-11-22, each HTTP 200.
   the confidentiality of the applicant." Also "The contract is published at the time of acceptance."
 - https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents
   lists "Scholarships" and "Commonly Asked Questions about Financial Aid" with no school year.
+### Re-verification 2026-11-22 (plan consistency4, implement)
+Re-opened 2026-11-22, each HTTP 200: both Transportation pages, the alumni giving page, the tuition page,
+the Policies page and all three documents. Every value in the self-scan note above holds.
+- The two documents' own titles also carry no year: "Scholarships.docx"
+  (https://docs.google.com/document/d/1utWb3PNI0U_PR6NowrtZOzifRjMQNry0/edit) and "Commonly Asked
+  Questions about Financial Aid.docx"
+  (https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit). Neither body names
+  a school year.
+- Both mailto links and the one printed address on the tuition page are
+  "financialaid@charlottelatin.org".
