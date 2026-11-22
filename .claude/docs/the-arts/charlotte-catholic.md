@@ -173,6 +173,18 @@ Only these two productions are documented; the app does not imply a fuller seaso
 - https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf (fetched). Charlotte Catholic, Phantom of the Opera: finalists in the same five categories.
 - https://resources.finalsite.net/images/v1771958102/charlottecatholicorg/ggbqwr7ecdypclivyab5/2026-2027CurriculumGuideedited.pdf (fetched). Choral Ensemble: "Prerequisites: Freshman Chorus or audition". Concert Band: "Prerequisites: Middle school band experience, private lessons, or audition"; "eligible for this class through an audition". Percussion has the same kind of prerequisite.
 
+### Re-verification 2026-11-22 (plan consistency4, implement, Blumey lists)
+
+Read by the parent from copies downloaded from blumenthalarts.org earlier on 2026-11-22
+(HTTP 200). The site later refused a request and was not asked again. Student names are
+left out on purpose.
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (final nominees, every category)
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+
+2026: five finalists, one per performance category. None is on the final nominee list. This supersedes "four nominees and one finalist" above.
+
 
 ---
 
@@ -182,6 +194,7 @@ Only these two productions are documented; the app does not imply a fuller seaso
 - https://resources.finalsite.net/images/v1771958102/charlottecatholicorg/ggbqwr7ecdypclivyab5/2026-2027CurriculumGuideedited.pdf
 - https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
 - https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees
 - https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-2026-blumey-award-winners
 - https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
 - https://www.charlottecatholic.org/academics/visual-and-performing-arts
