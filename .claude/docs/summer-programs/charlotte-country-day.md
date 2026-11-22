@@ -140,7 +140,7 @@ full 132-row catalog is in the listing PDF cited in Sources.
 | MATI Karate Drills & Skills | Morning | K–Grade 6 | $ 280.00 | 9 am–12 pm | June 22-26 |
 | Glitz & Glam DIY Camp | Morning | Grade 1–Grade 4 | $ 280.00 | 9 am–12 pm | June 22-26 |
 | Country Day Wrestling Camp | Morning | Grade 1–Grade 8 | $ 280.00 | 9 am–12 pm | June 22-26 |
-| Pickle Pros with Carter & Maggie | Morning | Grade 2–Grade 7 | $ 280.00 | 9 am–12 pm | June 22-26 |
+| Pickle Pros | Morning | Grade 2–Grade 7 | $ 280.00 | 9 am–12 pm | June 22-26 |
 | CAMMP: Upper Grades Robotics & Coding | Morning (STEM) | Grade 5–Grade 8 | $ 280.00 | 9 am–12 pm | June 22-26 |
 | CSF Indoor Soccer | Afternoon | Age 4–Grade 8 | $ 280.00 | 1–4 pm | June 22-26 |
 | Literacy, Lyrics & Lemonade | Afternoon | JK–Grade 2 | $ 280.00 | 1–4 pm | June 22-26 |
@@ -307,8 +307,7 @@ Second re-scan after PR #509. Two checks, both against the school's own pages.
  - `Outdoor Adventure Camp June 29-July 2* Full Day - Farm Grade 1 Grade 7 $ 480.00`
  - Half-day examples at $ 230.00 in a starred week: BUCS Soccer Camp (June 15-18*), Fun with
  Chess (June 15-18*), Pop Vocals (June 15-18*, Grade 1–Grade 4), Ready, Set, Tumble:
- Gymnastics! (June 15-18* and June 29-July 2*), Sports Spectacular, Pickle Pros with
- Carter & Maggie and Kids Adventure Art (each June 29-July 2*). The same camps are
+ Gymnastics! (June 15-18* and June 29-July 2*), Sports Spectacular, Pickle Pros and Kids Adventure Art (each June 29-July 2*). The same camps are
  $ 280.00 in their five-day weeks.
 2. **Camp Leaders page**, https://www.charlottecountryday.org/summer/camp-leaders (HTTP 200,
  fetched today). It now describes **Summer 2027**, not 2026: "Summer 2027 Camp Weeks June 7–11

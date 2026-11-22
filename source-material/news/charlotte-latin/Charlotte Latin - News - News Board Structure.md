@@ -80,7 +80,7 @@ that pairing was not confirmed.) The August table above calls 167 "School" and 8
 | 10 | 2026-08-18 | 5102 | Daniel Willingham Delivers Keynote to Latin Faculty | No |
 | 11 | 2026-06-25 | 5095 | Latin Debaters Win National Championship | No |
 | 12 | 2026-06-12 | 5094 | Graduating Seniors Guide Future Ninth Graders | No |
-| 13 | 2026-05-27 | 5093 | Sunny's Honor Celebrates Sunny's Legacy | No |
+| 13 | 2026-05-27 | 5093 | [name withheld] Celebrates [name withheld] | No |
 | 14 | 2026-05-22 | 5092 | Commencement Exercises for Class of 2026 | Yes |
 | 15 | 2026-05-21 | 5091 | 2026 Upper School Honors and Awards Ceremony | Yes |
 | 16 | 2026-05-21 | 5090 | Spotlight: Mike Weiss, Upper School History Teacher | No |
@@ -91,7 +91,7 @@ that pairing was not confirmed.) The August table above calls 167 "School" and 8
 | 21 | 2026-05-13 | 5085 | Theater Arts Department Announces 2026-27 Schedule | Yes |
 | 22 | 2026-05-09 | 5084 | Latin Eighth Grader Earns Seat in All-State Honors Band (`kudos/post`) | No |
 | 23 | 2026-05-08 | 5083 | Arts & Science Council Honors Charlotte Latin Teacher | No |
-| 24 | 2026-05-07 | 5082 | Spotlight: Fay Lucas, Custodial Supervisor, and Kay Rigo | No |
+| 24 | 2026-05-07 | 5082 | Spotlight: Fay Lucas, Custodial Supervisor, and [name withheld] | No |
 
 Over the first 45 rows, every disorder is between ADJACENT rows (the largest gap is one
 row), and the true top ten all sit inside the first ten rows. Dates were recorded to the

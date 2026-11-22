@@ -366,7 +366,7 @@ export const providenceDay: AfterSchoolProgram = {
       },
       {
         name: 'Karate',
-        desc: 'Eliza Newell, third-degree black belt — self-defense blended with respect and discipline',
+        desc: 'Third-degree black belt — self-defense blended with respect and discipline',
         day: 'Thu',
         grades: ['TK', 'K', '1', '2', '3', '4', '5'],
         gradeLabel: 'TK–5th',

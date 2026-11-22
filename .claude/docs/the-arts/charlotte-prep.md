@@ -1,5 +1,5 @@
 # Charlotte Preparatory School — The Arts
-> Distilled from 2 source document(s) in `source-material/the-arts/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 2 source document(s) in `source-material/the-arts/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Program Overview and Ensembles, Theatre Productions and Recognition
 
 
@@ -273,7 +273,7 @@ Source URLs:
 - https://charlotteprep.org/community/news/stories/prep-players-present-alice
 - https://charlotteprep.org/community/news/stories/prep-8th-grader-accepted-at-walnut-hill-school-for-the-arts
 - https://charlotteprep.org/community/news/stories/a-stage-set-for-success
-- https://charlotteprep.org/community/news/stories/liam-s-prep-story (a student's account: "By winter, I tried out for the musical", followed by a role in Willy Wonka Jr.; student not named here)
+- https://charlotteprep.org/community/news/stories/name-withheld (a student's account: "By winter, I tried out for the musical", followed by a role in Willy Wonka Jr.; student not named here)
 - https://charlotteprep.org/student-life/fine-arts
 - https://charlotteprep.org/student-life/life-at-prep
 - https://charlotteprep.org/support/the-prep-fund
@@ -324,7 +324,7 @@ No student names are carried. The school's stories name cast members and the Wal
 - https://charlotteprep.org/community/news/stories/building-the-foundations-for-student-learning
 - https://charlotteprep.org/community/news/stories/charlotte-prep-presents-willy-wonka-jr
 - https://charlotteprep.org/community/news/stories/honoring-all-those-who-served
-- https://charlotteprep.org/community/news/stories/liam-s-prep-story
+- https://charlotteprep.org/community/news/stories/name-withheld
 - https://charlotteprep.org/community/news/stories/prep-8th-grader-accepted-at-walnut-hill-school-for-the-arts
 - https://charlotteprep.org/community/news/stories/prep-players-present-alice
 - https://charlotteprep.org/community/news/stories/students-gather-to-mark-a-day-for-peace

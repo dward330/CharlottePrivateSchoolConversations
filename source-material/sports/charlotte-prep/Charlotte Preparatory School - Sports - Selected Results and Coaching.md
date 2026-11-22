@@ -93,14 +93,14 @@ From "Playing it Forward: Prep Grads Give Back", September 11, 2024 (https://cha
 
 Retrieved 2026-10-19. Raw HTML was fetched with curl and converted to text locally; quotations are character-for-character from page source. Wayback captures were fetched in raw (id_) form.
 
-**What was searched.** All 113 news stories in the school's sitemap (https://charlotteprep.org/cache/sitemap.xml.gz, 178 URLs in all) were downloaded and every story body was searched for QCC, Queen City, conference, tournament, champion, undefeated, coach, athletic director and each sport name. Only the two championship stories and the February 6, 2024 student story (https://charlotteprep.org/community/news/stories/lila-s-prep-story-finding-my-voice, cited here only because the slug carries a student's first name) report a result. All 100 profiles in the staff directory (https://charlotteprep.org/about/faculty-staff-directory, each at ?id=N) were downloaded and searched for coach, athlet and every sport name. Only Renee Suttles holds an athletics title; Amber O'Connell's biography mentions cross country coaching; other hits were hobbies. The CDX listing for charlotteprep.org* was used to find the archived athletics, Fast Facts, staff and field pages.
+**What was searched.** All 113 news stories in the school's sitemap (https://charlotteprep.org/cache/sitemap.xml.gz, 178 URLs in all) were downloaded and every story body was searched for QCC, Queen City, conference, tournament, champion, undefeated, coach, athletic director and each sport name. Only the two championship stories and the February 6, 2024 student story (https://charlotteprep.org/community/news/stories/name-withheld, cited here only because the slug carries a student's first name) report a result. All 100 profiles in the staff directory (https://charlotteprep.org/about/faculty-staff-directory, each at ?id=N) were downloaded and searched for coach, athlet and every sport name. Only Renee Suttles holds an athletics title; Amber O'Connell's biography mentions cross country coaching; other hits were hobbies. The CDX listing for charlotteprep.org* was used to find the archived athletics, Fast Facts, staff and field pages.
 
 **Source URLs**
 - https://charlotteprep.org/community/news/stories/tigers-win-qcc-championship
 - https://charlotteprep.org/community/news/stories/victory-for-girls-volleyball
 - https://charlotteprep.org/community/news/stories/playing-it-forward-prep-grads-give-back
 - https://charlotteprep.org/community/news/stories/summer-of-growth-teachers-learning-leading-and-innovating
-- https://charlotteprep.org/community/news/stories/lila-s-prep-story-finding-my-voice
+- https://charlotteprep.org/community/news/stories/name-withheld
 - https://charlotteprep.org/about/faculty-staff-directory?id=455452
 - https://charlotteprep.org/about/faculty-staff-directory?id=455426
 - https://charlotteprep.org/about/faculty-staff-directory

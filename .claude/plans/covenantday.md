@@ -243,7 +243,7 @@ Covenant Field (turf), Davis Track (4-lane 200m), Warner Park (27 acres), six te
 **Arts** JK/TK-12 span; art integrated JK-K, sequential from grade 1. Blumey ledger: 2013
 Best Featured Performer **win**, 2014 two nominations, 2016 Student Critic Award **win**,
 2017 Best Ensemble, 2018 two, 2019 Best Actress. 2025 National Shakespeare Competition
-finalist Caroline Garbarino. Music in the Parks adjudications 2021-2025. Ensembles (~9-10):
+finalist [name withheld]. Music in the Parks adjudications 2021-2025. Ensembles (~9-10):
 Lower general music + gr.5 intro; MS Band 6-8, MS Choir 6-8, MS Worship Band; HS Symphonic
 Band, HS Choir, HS Worship Band; Tri-M Honor Society, CDS Children's Choir gr.3-5, HS A
 Cappella. Visual path: Intro to Art → Art 2/3 (2D/3D) → Honors Studio Art → AP Studio Art,

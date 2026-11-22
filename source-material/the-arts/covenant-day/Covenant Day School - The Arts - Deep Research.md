@@ -12,7 +12,7 @@ theatre program with a real regional award history**. Its distinctive facts:
 - A **Blumey ledger spanning 2013-2019** (two wins — Best Featured Performer 2013,
   Student Critic Award 2016 — plus six more nominations including Best Actress for
   *Curtains*, 2019) and a **2025 National Shakespeare Competition finalist**
-  (Caroline Garbarino).
+  ([name withheld]).
 - **Worship bands at both MS and HS**, plus a credit-bearing Worship Leadership
   course — the clearest arts expression of the school's church-ministry identity,
   and a rung no other school in this project has.

@@ -215,12 +215,12 @@ September 10, 17, 24
 October 1, 8, 15, 22, 29
 November 5, 19 (No classes: Nov 12 LS conference)
 Fee: $220
-Step into the thrilling world of karate with Eliza Newell, a Third-degree black belt and dynamic
+Step into the thrilling world of karate with [name withheld], a Third-degree black belt and dynamic
 instructor! Starting her journey at PDS at just 5 years old under the guidance of Karate Master Irwin
-Carmichael, Eliza brings passion and energy to every session. As a role model, she instills
+Carmichael, [name withheld] brings passion and energy to every session. As a role model, she instills
 character into each class, blending self-defense with values like respect and discipline. Returning
-students can expect a seamless transition, with Eliza confirming their level beforehand. Get ready to
-kick, punch, and grow with Eliza in this karate adventure!
+students can expect a seamless transition, with [name withheld] confirming their level beforehand. Get ready to
+kick, punch, and grow with [name withheld] in this karate adventure!
 LEGO Masters:
 Thursdays: 3:15-4:00 p.m. (First-Third Grades)
 Dates: (10 classes) Thursdays
@@ -750,7 +750,7 @@ Extended Day Program is required in order to attend enrichment classes.
 
 Named instructors and providers: Coloring on Canvas LLC (Art); Charlotte Chess Center
 and Scholastic Academy (Chess); Charlotte Speech & Hearing Center (YoLa); Mad Science
-Charlotte (Science); Ari Patterson (Charger Cheer); Eliza Newell, third-degree black
+Charlotte (Science); Ari Patterson (Charger Cheer); [name withheld], third-degree black
 belt (Karate); Todd Johnson, PDS Middle School Computer Science teacher (Coding); Kris
 Jones, PDS Varsity Girls Track and Field Head Coach (Running Club); Terry Tadeo, Tommy
 Racano and Paul Burnam (Wrestling).

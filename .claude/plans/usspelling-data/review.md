@@ -146,7 +146,7 @@ Per form (words changed, counted per prose path):
 | `ladder.enrichment[3].text` | The band and choral **programmes** have performed in New York and Chicago.<br>→ The band and choral **programs** have performed in New York and Chicago. |
 | `ladder.enrichment[4].text` | The choral **programme** tours and undertakes service projects across the Diocese of…<br>→ The choral **program** tours and undertakes service projects across the Diocese of… |
 | `theatre.whoRunsIt` | Marcus Riter has led theatre at CCHS for twelve years. The **programme** runs acting, directing, design and tech, costume and film a…<br>→ Marcus Riter has led theatre at CCHS for twelve years. The **program** runs acting, directing, design and tech, costume and film a… |
-| `theatre.honestContext` | …orious: ten placements across two years, with Maye Glessner **recognised** in both (Hodel in 2025, Dorothy in 2026). Note also that th…<br>→ …orious: ten placements across two years, with Maye Glessner **recognized** in both (Hodel in 2025, Dorothy in 2026). Note also that th… |
+| `theatre.honestContext` | …orious: ten placements across two years, with [name withheld] **recognised** in both (Hodel in 2025, Dorothy in 2026). Note also that th…<br>→ …orious: ten placements across two years, with [name withheld] **recognized** in both (Hodel in 2025, Dorothy in 2026). Note also that th… |
 | `music.subhead` | The choral **programme** alone runs a freshman entry point, single-sex chamber ensem…<br>→ The choral **program** alone runs a freshman entry point, single-sex chamber ensem… |
 | `music.ladder[1].text` | …mble (332), Concert Band (326), Percussion (372) — the open-**enrolment** middle of the **programme**.<br>→ …mble (332), Concert Band (326), Percussion (372) — the open-**enrollment** middle of the **program**. |
 | `music.ladderNote` | …cademic course, so a serious musician’s weighted GPA is not **penalised** for spending four years in the music wing. There is no AP M…<br>→ …cademic course, so a serious musician’s weighted GPA is not **penalized** for spending four years in the music wing. There is no AP M… |
@@ -331,7 +331,7 @@ Per form (words changed, counted per prose path):
 |---|---|
 | `dayInside.catalogIntro` | …dents may take only **one** enrichment program per day, and **enrolment** in Extended Day is required to attend any of them.<br>→ …dents may take only **one** enrichment program per day, and **enrollment** in Extended Day is required to attend any of them. |
 | `dayInside.classes[6].desc` | Air, sea and surf, **colour**, energy, states of matter, weather and lasers<br>→ Air, sea and surf, **color**, energy, states of matter, weather and lasers |
-| `dayInside.classes[10].desc` | Eliza Newell, third-degree black belt — self-**defence** blended with respect and discipline<br>→ Eliza Newell, third-degree black belt — self-**defense** blended with respect and discipline |
+| `dayInside.classes[10].desc` | [name withheld], third-degree black belt — self-**defence** blended with respect and discipline<br>→ [name withheld], third-degree black belt — self-**defense** blended with respect and discipline |
 | `verdict.watchouts[3]` | **Enrichment is gated behind Extended Day **enrolment****, so a single class always carries a monthly Extended Day …<br>→ **Enrichment is gated behind Extended Day **enrollment****, so a single class always carries a monthly Extended Day … |
 
 ### `src/data/afterSchoolPrograms/charlotte-christian.ts` — 4

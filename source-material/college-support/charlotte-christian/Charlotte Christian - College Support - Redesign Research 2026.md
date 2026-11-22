@@ -52,12 +52,11 @@ hard data are available:
 - **Three-year AP Scholar total: 203 Advanced Placement Scholar Awards** across the classes of
   2023–2025 (College & Career Planning brochure).
 - **Class of 2025 specifically: 27 AP Scholars** (Celebrating Seniors 2025), broken out as
-  AP Scholars with Distinction (Corban Hall, Natalie Johnson, Jack Krause, Jewel Lewis,
-  Shenghan Liu, Ashlynn Miller, Eva Nieto), AP Scholars with Honors (Marshall Blakeney,
-  Max Carson, Sofia Cohane, Maddie Efird, Faith Giller, Darcy Howard, Anthony Korolos,
-  Kelsey Mayers, Rachel Padilla, Grant Scerri, Nicholas Welburn), and AP Scholars (Kaitlyn
-  Blackson, Jillian Del Corso, Addison Floyd, Griffin Fox, Sydney Francois, Anna Hinde,
-  Zoe Huff, Katarina Kay, MadisonRae Noble).
+  AP Scholars with Distinction ([name withheld], [name withheld], [name withheld], [name withheld],
+  [name withheld], [name withheld], [name withheld]), AP Scholars with Honors ([name withheld],
+  [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld],
+  [name withheld], [name withheld], [name withheld], [name withheld]), and AP Scholars ([name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld],
+  [name withheld], [name withheld], [name withheld]).
 
 ### Number of AP courses — DISCREPANCY, FLAGGED
 
@@ -108,11 +107,11 @@ profile omits this list):
   45 to 48. Because both are rolling 15-year windows, older strong years can drop out of the
   window — so this is arithmetically possible rather than an error, but the school does not
   explain it. Present both with their profile years; do not average or reconcile.
-- **Class of 2025: 1 National Merit Commended Scholar — Jack Krause** (Celebrating Seniors 2025).
-- **Class of 2025: 1 National Merit Semifinalist — Keller Ulman**, per the Charlotte Observer /
+- **Class of 2025: 1 National Merit Commended Scholar — [name withheld]** (Celebrating Seniors 2025).
+- **Class of 2025: 1 National Merit Semifinalist — [name withheld]**, per the Charlotte Observer /
   Yahoo News roundup of the 71st National Merit competition (PSAT taken fall 2024 as juniors).
-  `TO VERIFY` — Ulman does not appear in the Celebrating Seniors 2025 enrollment roster or the
-  school's own National Merit block, which lists only Krause as Commended. The two school/press
+  `TO VERIFY` — [name withheld] does not appear in the Celebrating Seniors 2025 enrollment roster or the
+  school's own National Merit block, which lists [name withheld] as Commended. The two school/press
   sources are inconsistent about who the Class of 2025 National Merit honorees were.
 - **Per-class-year National Merit history (a year-by-year ledger): NOT PUBLISHED.** Only rolling
   15-year cumulative totals and the current class are published.
@@ -121,8 +120,8 @@ profile omits this list):
 
 Four seniors selected, *"based on their academic achievements in school, outstanding performance
 on the PSAT or AP exam and their application they each submitted last spring"*:
-- **National African American Recognition Award:** Jewel Lewis
-- **National Hispanic Recognition Award:** Logan Davila, Eva Nieto, Rachel Padilla
+- **National African American Recognition Award:** [name withheld]
+- **National Hispanic Recognition Award:** [name withheld], [name withheld], [name withheld]
 - Class of 2024 comparison: **5 College Board National African American and Hispanic Scholars.**
 
 ### Seal of Biliteracy (a Christian/CCS-specific rigor marker)
@@ -131,8 +130,8 @@ Implemented 2019; awarded on a proficiency exam across listening, speaking, read
 two languages.
 - **Class of 2024: 4% of graduates** earned it.
 - **Class of 2021: 11% of graduates** earned it. (Sharp decline; unexplained — flagged.)
-- **Class of 2025 recipients:** Latin — Addison Floyd, Jewel Lewis; Spanish — Harper Brown,
-  Cristian Fahami, Kelsey Mayers, Eva Nieto, Rachel Padilla.
+- **Class of 2025 recipients:** Latin — [name withheld], [name withheld]; Spanish — [name withheld],
+  [name withheld], [name withheld], [name withheld], [name withheld].
 
 ### Post-AP course depth
 
@@ -470,8 +469,7 @@ and "Penn State University\*" both appear — a duplicate in the school's own li
 ### Selectivity buckets — scored against CURRENT 2026 U.S. News
 
 **Ivy League: 3 of 8** appear in the 2023–25 acceptance list.
-- **Present:** **Cornell University**, **Dartmouth College\*** (enrolled, Class of 2025 — Corban
-  Hall, a football signee), **Yale University** (2019–21 list only, *not* on the 2023–25 list).
+- **Present:** **Cornell University**, **Dartmouth College\*** (enrolled, Class of 2025 — [name withheld], a football signee), **Yale University** (2019–21 list only, *not* on the 2023–25 list).
 - **On the 2023–25 list specifically: Cornell and Dartmouth = 2 of 8.**
 - **Named absences from the 2023–25 list:** **Harvard, Princeton, Yale, Columbia, Brown,
   University of Pennsylvania** (6 of 8 absent). Yale and Columbia appear on the older 2019–21
@@ -502,7 +500,7 @@ U.S. News list (the usnews.com ranking page timed out and a mirror returned 403)
 bucket as **indicative**, not a precise count.
 
 **Top-75 National Liberal Arts Colleges (2026)** appearing on the 2023–25 list:
-**Davidson College\*** (enrolled — Alexander Paschall, golf signee), **Colby College**,
+**Davidson College\*** (enrolled — [name withheld], golf signee), **Colby College**,
 **University of Richmond**, **The University of the South (Sewanee)**, **Furman University**,
 **Rhodes College**, **Hampden-Sydney College**, **Wofford College**, **Morehouse College**,
 **Spelman College**. Amherst College appears in the **prose callout** and the 2019–21 list, not the
@@ -534,16 +532,16 @@ The brochure gives Christian colleges their **own named tier**, which most peer 
 > Samford University, Taylor University, Wheaton College"*
 
 **14% of graduates (Classes of 2023–25) attend a Christian college.** Class of 2025 enrollments
-confirm the pipeline is live: Wheaton College (×2 — William Horton, Faith Giller), Liberty
-University (×4 — Caleb Hinson, Jonathan McCall, Maryn Payne, Kaya Shropshire), Samford University
-(×2 — Kaitlyn Blackson, Abigail Bryant), Charleston Southern University (×2 — Owen Farrell,
-Caden Rice), Cedarville University (Andrew Boythe), Grove City College (Griffin Fox), Baylor
-University (Abigail Smith), Abilene Christian University (Ashlyn Preston).
+confirm the pipeline is live: Wheaton College (×2 — [name withheld], [name withheld]), Liberty
+University (×4 — [name withheld], [name withheld], [name withheld], [name withheld]), Samford University
+(×2 — [name withheld], [name withheld]), Charleston Southern University (×2 — [name withheld],
+[name withheld]), Cedarville University ([name withheld]), Grove City College ([name withheld]), Baylor
+University ([name withheld]), Abilene Christian University ([name withheld]).
 
 **HBCUs also get a named tier:** *"Top Historically Black Colleges and Universities including
 Hampton University, Howard University, Morehouse College, North Carolina A&T State University,
-Spelman College."* Class of 2025 enrollments: NC A&T (MadisonRae Noble), Johnson C. Smith
-(Alesia Sylverain), Alabama A&M (Aron Boykin).
+Spelman College."* Class of 2025 enrollments: NC A&T ([name withheld]), Johnson C. Smith
+([name withheld]), Alabama A&M ([name withheld]).
 
 **Prestigious Art Institutions tier:** *"The New School, Savannah College of Art and Design."*
 
@@ -552,39 +550,34 @@ Spelman College."* Class of 2025 enrollments: NC A&T (MadisonRae Noble), Johnson
 Complete matriculation list from Celebrating Seniors 2025 (~ = Honors Graduate, \* = Lifer,
 + = Legacy Graduate):
 
-East Carolina (Hanna Ali McGinnis) · Southern Methodist (Andrew Askins) · Superior School of Real
-Estate (Julian Barker\*) · Kentucky (Bella Benton) · High Point (Cohen Bettencourt\*) ·
-Clemson (Margaret Biggers~\*) · Samford (Kaitlyn Blackson~\*) · Wake Forest (Marshall Blakeney~\*) ·
-Alabama A&M (Aron Boykin) · Kentucky (Evan Boykin) · Cedarville (Andrew Boythe~+) ·
-Tennessee (Harper Brown~) · Samford (Abigail Bryant~) · Career in Childcare (Sarah Buchmann~) ·
-Coastal Carolina (Mitch Burrus\*) · UNC Wilmington (Parker Cadd\*) · College of Charleston (Hendrick
-Carlson) · UNC Chapel Hill (Max Carson~) · UNC Chapel Hill (Sofia Cohane~) · UNC Wilmington (Abby
-Conde) · Michigan State (Walker Darnell) · Elon (Logan Davila~\*) · Georgia (Jillian Del Corso~) ·
-James Madison (Nina Dominique) · Christopher Newport (Nick Dunkley) · UNC Chapel Hill (Madeline
-Efird~\*) · Clemson (Cristian Fahami~\*) · Charleston Southern (Owen Farrell) · Virginia Tech
-(Addison Floyd~) · Grove City (Griffin Fox~) · Appalachian State (Sydney Francois~) ·
-Central Piedmont CC (Cai Gillette) · UNC Charlotte (Landen Goncharow) · Tennessee (Holden Greene) ·
-Queens University of Charlotte (Stokes Greene) · Auburn (Finley Griffiths) · **Dartmouth College
-(Corban Hall~)** · Fairfield (Sophia Harris) · Appalachian State (Cassie Hendricks) ·
-Marshall (Brandon Hettwer~) · Florida State (Anna Hinde~\*) · Liberty (Caleb Hinson\*) ·
-UNC Greensboro (Sanai Horne) · Wheaton College (William Horton\*) · Georgia (Darcy Howard~\*) ·
-Ole Miss (Zoe Huff~) · Clemson (Natalie Johnson~\*) · Auburn (Matt Jones) · Clemson (Katarina Kay~) ·
-Fordham (Anthony Korolos~\*) · Kentucky (Bella Korolos\*) · NC State (Maddie Kotula~\*) ·
-Auburn (Jack Krause~) · Postgraduate Program (John Lash) · NC State (Jewel Lewis~) ·
-**New York University (Shenghan Liu~ — Valedictorian)** · Belmont (Maisie Macholz) ·
-Elon (Sarah Major\*) · Central Piedmont CC (Egypt Maxwell-Wright) ·
-**University of New Hampshire (Kelsey Mayers~ — Salutatorian)** · Liberty (Jonathan McCall) ·
-Appalachian State (Ronnie McCoy) · NC State (Dickson McLean~) · UNC Chapel Hill (Ashlynn Miller~) ·
-Ole Miss (Madilynn Miller) · Wake Forest (Grant Nicholson\*) · UNC Wilmington (Eva Nieto~\*) ·
-NC A&T (MadisonRae Noble) · College of Charleston (Caroline Noonan\*) · UNC Chapel Hill (Rachel
-Padilla~) · Georgia Southern (Claire Pannell) · Appalachian State (Jenna Parascand) ·
-**Davidson College (Alexander Paschall~)** · Liberty (Maryn Payne) · Abilene Christian (Ashlyn
-Preston~\*) · Kentucky (Caleb Reilly) · Charleston Southern (Caden Rice) · Auburn (Piper Rozsak~\*+) ·
-Georgia (Grant Scerri) · Georgia Southern (Myra See\*) · James Madison (Griffin Shaw) ·
-New Hampshire (Emily Shelton) · Liberty (Kaya Shropshire) · Baylor (Abigail Smith~) ·
-Kentucky (Cooper Solomon) · Texas Christian (Cate Spaeth) · Johnson C. Smith (Alesia Sylverain) ·
-Wingate (Wade Thompson) · UNC Wilmington (Katelyn Turner~) · Penn State (Beckett Vance\*+) ·
-Kentucky (Mia Webber) · Auburn (Nicholas Welburn~) · High Point (Sam Zinger\*)
+East Carolina ([name withheld]) · Southern Methodist ([name withheld]) · Superior School of Real
+Estate ([name withheld]\*) · Kentucky ([name withheld]) · High Point ([name withheld]\*) ·
+Clemson ([name withheld]~\*) · Samford ([name withheld]~\*) · Wake Forest ([name withheld]~\*) ·
+Alabama A&M ([name withheld]) · Kentucky ([name withheld]) · Cedarville ([name withheld]~+) ·
+Tennessee ([name withheld]~) · Samford ([name withheld]~) · Career in Childcare ([name withheld]~) ·
+Coastal Carolina ([name withheld]\*) · UNC Wilmington ([name withheld]\*) · College of Charleston ([name withheld]) · UNC Chapel Hill ([name withheld]~) · UNC Chapel Hill ([name withheld]~) · UNC Wilmington ([name withheld]) · Michigan State ([name withheld]) · Elon ([name withheld]~\*) · Georgia ([name withheld]~) ·
+James Madison ([name withheld]) · Christopher Newport ([name withheld]) · UNC Chapel Hill ([name withheld]~\*) · Clemson ([name withheld]~\*) · Charleston Southern ([name withheld]) · Virginia Tech
+([name withheld]~) · Grove City ([name withheld]~) · Appalachian State ([name withheld]~) ·
+Central Piedmont CC ([name withheld]) · UNC Charlotte ([name withheld]) · Tennessee ([name withheld]) ·
+Queens University of Charlotte ([name withheld]) · Auburn ([name withheld]) · **Dartmouth College
+([name withheld]~)** · Fairfield ([name withheld]) · Appalachian State ([name withheld]) ·
+Marshall ([name withheld]~) · Florida State ([name withheld]~\*) · Liberty ([name withheld]\*) ·
+UNC Greensboro ([name withheld]) · Wheaton College ([name withheld]\*) · Georgia ([name withheld]~\*) ·
+Ole Miss ([name withheld]~) · Clemson ([name withheld]~\*) · Auburn ([name withheld]) · Clemson ([name withheld]~) ·
+Fordham ([name withheld]~\*) · Kentucky ([name withheld]\*) · NC State ([name withheld]~\*) ·
+Auburn ([name withheld]~) · Postgraduate Program ([name withheld]) · NC State ([name withheld]~) ·
+**New York University ([name withheld]~ — Valedictorian)** · Belmont ([name withheld]) ·
+Elon ([name withheld]\*) · Central Piedmont CC ([name withheld]) ·
+**University of New Hampshire ([name withheld]~ — Salutatorian)** · Liberty ([name withheld]) ·
+Appalachian State ([name withheld]) · NC State ([name withheld]~) · UNC Chapel Hill ([name withheld]~) ·
+Ole Miss ([name withheld]) · Wake Forest ([name withheld]\*) · UNC Wilmington ([name withheld]~\*) ·
+NC A&T ([name withheld]) · College of Charleston ([name withheld]\*) · UNC Chapel Hill ([name withheld]~) · Georgia Southern ([name withheld]) · Appalachian State ([name withheld]) ·
+**Davidson College ([name withheld]~)** · Liberty ([name withheld]) · Abilene Christian ([name withheld]~\*) · Kentucky ([name withheld]) · Charleston Southern ([name withheld]) · Auburn ([name withheld]~\*+) ·
+Georgia ([name withheld]) · Georgia Southern ([name withheld]\*) · James Madison ([name withheld]) ·
+New Hampshire ([name withheld]) · Liberty ([name withheld]) · Baylor ([name withheld]~) ·
+Kentucky ([name withheld]) · Texas Christian ([name withheld]) · Johnson C. Smith ([name withheld]) ·
+Wingate ([name withheld]) · UNC Wilmington ([name withheld]~) · Penn State ([name withheld]\*+) ·
+Kentucky ([name withheld]) · Auburn ([name withheld]~) · High Point ([name withheld]\*)
 
 **Class of 2025 composition markers:** **41 Honors Graduates** (cumulative GPA above 4.0 in grades
 9-12), **28 Lifers** (JK, K or Grade 1 → Grade 12), **3 Legacy Graduates** (a parent also graduated
@@ -673,7 +666,7 @@ acceptance list without this caveat materially overstates outcomes.
 - **Participation rates:** Class of 2021 — **17% of graduates** qualified for at least one
   distinction. Class of 2024 — **14% of graduates.** Class of 2025 — **37 Academic Conservatory
   Distinctions** awarded across the class of 94 (note: distinctions, not students; several students
-  hold two or three, e.g. Shenghan Liu appears under Math/Science, Science, Social Studies and
+  hold two or three, e.g. [name withheld] appears under Math/Science, Science, Social Studies and
   Fine Arts).
 
 **Winterim — the required beyond-campus program.**
@@ -734,7 +727,7 @@ internship opportunities at the upper school level."* The Academic Conservatory'
 **Service/spiritual spike — a genuine CCS differentiator.**
 - **Class of 2025 accumulated 13,382 Knights Service Hours** over four years of upper school
   (≈142 hours per graduate).
-- **Abigail Bryant earned more than 1,000 hours (1,014)** individually.
+- **[name withheld] earned more than 1,000 hours (1,014)** individually.
 - **Prefect system** — a named student-leadership structure with portfolios: Head Prefect, and
   Prefects for Academics, Admissions, Global Awareness, Fine Arts, Athletics, Spiritual Life,
   Student Life. Eight named leadership slots per class.
@@ -909,10 +902,10 @@ structural rather than rhetorical:
 **Non-traditional paths — published and visible in the Class of 2025:**
 - **Community college:** Central Piedmont Community College (**2 enrolled**), Palm Beach State
   College, Florida SouthWestern *(not present)* — CPCC is asterisked, i.e. a real destination.
-- **Direct-to-career / vocational:** **Superior School of Real Estate** (Julian Barker),
-  **Career in Childcare** (Sarah Buchmann), **Universal Technical Institute** and **NASCAR
+- **Direct-to-career / vocational:** **Superior School of Real Estate** ([name withheld]),
+  **Career in Childcare** ([name withheld]), **Universal Technical Institute** and **NASCAR
   Technical Institute** (2019–21) and **Dark Horse Institute** (music industry) on the lists.
-- **Postgraduate year:** **1 student (John Lash) — "Postgraduate Program."** A PG year is published
+- **Postgraduate year:** **1 student ([name withheld]) — "Postgraduate Program."** A PG year is published
   as a legitimate outcome. **Gap year: NOT PUBLISHED** as such — no graduate is listed as taking
   one, and the school does not describe a gap-year policy.
 - **Conservatories / art institutes:** Savannah College of Art & Design, Ringling College of Art &

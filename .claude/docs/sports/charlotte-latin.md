@@ -1,5 +1,5 @@
 # Charlotte Latin School — Sports
-> Distilled from 20 source document(s) in `source-material/sports/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 20 source document(s) in `source-material/sports/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, College Commitments Class of 2027, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Football Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
@@ -604,7 +604,7 @@ Yahoo Sports 2026 National Prep results]
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 1
 CHARLOTTE LATIN SCHOOL HAWKS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Other Sports
-(cid:127) Fletcher (surname not specified in source) — Morehead-Cain Scholar at UNC-Chapel Hill; 4-year
+(cid:127) [name withheld] (surname not specified in source) — Morehead-Cain Scholar at UNC-Chapel Hill; 4-year
 letterman and 2-year captain on the Varsity Lacrosse team; Lowe's Senior CLASS Award national finalist.
 (cid:127) Cameron Dickerson — wrestling scholarship offers from UNC, NC State, Oklahoma, West Virginia, and
 Clarion State; wrestled at UNC-Chapel Hill (1988–1992).

@@ -44,7 +44,7 @@ Facilities card).
 | Metric | Value | Source |
 | --- | --- | --- |
 | Program grade span | TK–12 (Elementary TK–5, Middle 6–8, High 9–12) | S4/S7 |
-| Signature recognition (dated) | 2026 Blumey Awards nominee — Christian Young, Best Supporting Actor (Scuttle, *Disney's The Little Mermaid*) | S6 |
+| Signature recognition (dated) | 2026 Blumey Awards nominee — [name withheld], Best Supporting Actor (Scuttle, *Disney's The Little Mermaid*) | S6 |
 | Named ensembles | HS: Concert Band, Jazz Band, Choir. MS: Band, Choir. **No orchestra** published; **no a cappella** published. | S1/S2 |
 | Theatre output | 3 productions per year; large-scale spring musical every two years (biennial), all grade levels | S1 |
 | Advanced (AP) arts courses | AP Studio Art 2D (a.k.a. AP 2D Design) | S3 |
@@ -87,28 +87,28 @@ PDF, S5):
 
 | Year | Show | Category | Nominee / Role | Status |
 |---|---|---|---|---|
-| 2025 | Seussical | Best Featured Performer | Amara Aghedo as Sour Kangaroo | Nominee |
-| 2025 | Seussical | Finalists for Best Actor | Christian Young as Jojo | Finalist |
-| 2025 | Seussical | Finalists for Best Actress | Fallon Burns as Mayzie | Finalist |
-| 2025 | Seussical | Finalists for Best Supporting Actor | Michael McCray as Mr. Mayor | Finalist |
-| 2025 | Seussical | Finalists for Best Supporting Actress | Mackenzie Moore as Mrs. Mayor | Finalist |
-| 2025 | Seussical | Finalists for Best Featured Performer | Amara Aghedo as Sour Kangaroo | Finalist |
+| 2025 | Seussical | Best Featured Performer | [name withheld] as Sour Kangaroo | Nominee |
+| 2025 | Seussical | Finalists for Best Actor | [name withheld] as Jojo | Finalist |
+| 2025 | Seussical | Finalists for Best Actress | [name withheld] as Mayzie | Finalist |
+| 2025 | Seussical | Finalists for Best Supporting Actor | [name withheld] as Mr. Mayor | Finalist |
+| 2025 | Seussical | Finalists for Best Supporting Actress | [name withheld] as Mrs. Mayor | Finalist |
+| 2025 | Seussical | Finalists for Best Featured Performer | [name withheld] as Sour Kangaroo | Finalist |
 
 *2026 — production: **Disney's The Little Mermaid*** (from the official 2026 Blumey
 nominees/finalists news page, S6):
 
 | Year | Show | Category | Nominee / Role | Status |
 |---|---|---|---|---|
-| 2026 | Disney's The Little Mermaid | Best Supporting Actor | Christian Young as Scuttle | Nominee |
-| 2026 | Disney's The Little Mermaid | Best Supporting Actress | Gabby Coleman as Flounder | Nominee |
-| 2026 | Disney's The Little Mermaid | Best Featured Performer | Amara Aghedo as Aquata | Nominee |
+| 2026 | Disney's The Little Mermaid | Best Supporting Actor | [name withheld] as Scuttle | Nominee |
+| 2026 | Disney's The Little Mermaid | Best Supporting Actress | [name withheld] as Flounder | Nominee |
+| 2026 | Disney's The Little Mermaid | Best Featured Performer | [name withheld] as Aquata | Nominee |
 
 **Notes for the app:**
-- The brief's headline facts confirm: **2025** Amara Aghedo (*Seussical*) — verified as a
- Best Featured Performer **nominee**; **2026** Christian Young — verified, with *The Little
- Mermaid* recognized. Amara Aghedo recurs across both years.
+- The brief's headline facts confirm: **2025** [name withheld] (*Seussical*) — verified as a
+ Best Featured Performer **nominee**; **2026** [name withheld] — verified, with *The Little
+ Mermaid* recognized. [name withheld] recurs across both years.
 - In the 2025 PDF the "Finalists for …" lists are per-production finalists distinct from the
- six overall nominees; Aghedo appears both as an overall **Best Featured Performer nominee**
+ six overall nominees; [name withheld] appears both as an overall **Best Featured Performer nominee**
  and in the **Best Featured Performer finalists** list. Both are transcribed verbatim.
 - No Blumey **win** is published for HGCS in either year.
 

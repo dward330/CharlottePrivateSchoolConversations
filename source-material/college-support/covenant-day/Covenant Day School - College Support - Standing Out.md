@@ -31,7 +31,7 @@
 - **The rigor narrative** — AP gating plus the required-exam policy (every AP
   student sits the exam; 96% score 3+) makes the school's AP grades legible to
   admissions readers in a way open-enrollment AP programs are not.
-- **Mock Trial + courtroom-artist results** — Cornelia Knight (Covenant Day School
+- **Mock Trial + courtroom-artist results** — [name withheld] (Covenant Day School
   Blue team) won the NC Mock Trial courtroom-artist regional (Hickory) and was 2025
   **state runner-up** — see the Student Clubs research for sourcing.
 

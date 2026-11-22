@@ -1,5 +1,5 @@
 # Charlotte Latin School — College Support
-> Distilled from 13 source document(s) in `source-material/college-support/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 13 source document(s) in `source-material/college-support/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic Case, Acceptances Window 2023-2026, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt v2, Outcomes, Redesign Research 2026, School Profile 2026-2027, Standing Out, UNC System Admissions, Deep Research
 
 
@@ -627,14 +627,12 @@ Scholar award** after 2021, which explains its disappearance rather than any dec
 | National Merit Semifinalists | **12** |
 | Commended Students | **18** |
 
-Named Semifinalists (Class of 2026): Avery Bly, Luca Bravo, June Budzichowski, Emily Cao,
-Connor Cruz, Kabir Nawaz, Jackie Rao, Kelsey Sciacca, Isabel Yang, Claire Zhang, Lynn Zhao,
-Ryan Zhou.
+Named Semifinalists (Class of 2026): [name withheld], [name withheld], [name withheld], [name withheld],
+[name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld],
+[name withheld].
 
-Named Commended Students (Class of 2026): Max Bai, Ananya Banerjee, Natalie Berman, Hannah
-Blackhall, Jolin Cheng, Peter DiSciullo, Eloise Eirich, Samora Elam, Evelyn Haggstrom, Watts
-Humphrey, Webb Kiser, Sophia Oh, Divija Rao, Peyton Samii, Wesley Seagraves, Raaj Thakur,
-David Vaughn, Angelina Yang.
+Named Commended Students (Class of 2026): [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld],
+[name withheld], [name withheld].
 
 **Three-year aggregates by profile edition:**
 
@@ -646,7 +644,7 @@ David Vaughn, Angelina Yang.
 | Classes of 2015–17 | 34 | 33 | 2 National Achievement SF; 1 National Hispanic Finalist |
 
 **Class of 2024 detail** (from the 2024 Honors and Awards Ceremony): **6 National Merit
-Finalists**, **16 Commended Students**, and **1 National Merit Scholar** — Evan Li '24.
+Finalists**, **16 Commended Students**, and **1 National Merit Scholar** — [name withheld] '24.
 
 > **Discrepancy flagged:** The 2025–26 profile reports **20 Semifinalists across the Classes
 > of 2023–25** (a 3-year total). The Class of **2026 alone** produced **12 Semifinalists** —
@@ -662,9 +660,9 @@ Finalists**, **16 Commended Students**, and **1 National Merit Scholar** — Eva
 
 From the 2024 Honors and Awards Ceremony (the only year located with this detail):
 
-- **National Hispanic and Latino Recognition Program:** Alessandra Martin '25
-- **National African American Recognition Program:** Maya Belton '25, Toryn Nichols '24,
- Kenny Ogbata '25, Kwasi Thornhill '24
+- **National Hispanic and Latino Recognition Program:** [name withheld] '25
+- **National African American Recognition Program:** [name withheld] '25, [name withheld] '24,
+ [name withheld] '25, [name withheld] '24
 
 Counts for other class years are **NOT PUBLISHED**.
 
@@ -739,7 +737,7 @@ the profile explicitly warns colleges not to misread standard-track placement �
  https://www.charlottelatin.org/academics/college-counseling
 - National Merit Class of 2026 (12 Semifinalists, 18 Commended, named students):
  https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/upper-school-salutes-national-merit-semifinalists-and-commended-students
-- 2024 Honors and Awards Ceremony (6 NM Finalists, 16 Commended, Evan Li '24 NM Scholar,
+- 2024 Honors and Awards Ceremony (6 NM Finalists, 16 Commended, [name withheld] '24 NM Scholar,
  College Board National Recognition honorees, AP Scholar counts):
  https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2024-honors-and-awards-ceremony
 - Upper School Profile 2017–18 (marking system, quality points, "does not report class rank",
@@ -979,15 +977,15 @@ the profile.** What is on the record:
 |---|---|---|---|
 | **Total merit scholarships offered** | "93 seniors reported **231 merit scholarships** at **85 different colleges & universities, totaling more than $13 million**. An impressive **48 students received awards of more than $100,000 each**" | Class of **2023** | Published |
 | **Total merit scholarships offered** | "74 seniors reported **207 merit scholarships** at 95 different colleges and universities **totaling more than $14 million**. Forty-four students were awarded more than $100,000 each" | Class of **2022** | Published |
-| **Johnson Scholarship, Washington & Lee** (full tuition, room and board) | **Kelsey Sciacca '26** | 2026 | Published |
+| **Johnson Scholarship, Washington & Lee** (full tuition, room and board) | **[name withheld] '26** | 2026 | Published |
 | **Park Scholar, NC State** | unnamed | Class of 2023 | Published |
 | **Dowdy Scholar, NC A&T** | unnamed | Class of 2023 | Published |
-| **Morehead-Cain, UNC-Chapel Hill** | **Thierry Charles '22** | 2022 | Published — **outside the 2023–25 window** |
-| **Morrill Scholarship, Ohio State** | Kwasi Thornhill '24 | 2024 | Published |
-| **High Point Presidential Scholar** (full tuition) | Samora Elam '26 | 2026 | Published |
-| **National ROTC Scholarship** (worth **over $154,000**) | Colin Degenhardt '24 | 2024 | Published |
-| **U.S. Air Force Academy appointment** | **Graham Blanton '25** | 2025 | Published |
-| **U.S. Naval Academy appointment** | **Brendan Miles '25** | 2025 | Published |
+| **Morehead-Cain, UNC-Chapel Hill** | **[name withheld] '22** | 2022 | Published — **outside the 2023–25 window** |
+| **Morrill Scholarship, Ohio State** | [name withheld] '24 | 2024 | Published |
+| **High Point Presidential Scholar** (full tuition) | [name withheld] '26 | 2026 | Published |
+| **National ROTC Scholarship** (worth **over $154,000**) | [name withheld] '24 | 2024 | Published |
+| **U.S. Air Force Academy appointment** | **[name withheld] '25** | 2025 | Published |
+| **U.S. Naval Academy appointment** | **[name withheld] '25** | 2025 | Published |
 | **U.S. Naval Academy appointment** | unnamed | Class of 2023 | Published |
 | **National Merit Scholarship winners** | 5 (Class of 2026), 3 (2025), 1 (2024) | 2024–26 | Published |
 
@@ -1103,17 +1101,17 @@ present them as current.
  https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/commencement-exercises-for-the-class-of-2023
 - Commencement, Class of 2022 ($14M / 207 merit scholarships / 44 students over $100k):
  https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/commencement-exercises-for-the-class-of-2022
-- 2026 Upper School Honors and Awards Ceremony (Johnson Scholarship — Kelsey Sciacca '26; 12
+- 2026 Upper School Honors and Awards Ceremony (Johnson Scholarship — [name withheld] '26; 12
  National Merit Finalists, 5 National Merit Scholarship winners named):
  https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2026-upper-school-honors-and-awards-ceremony
-- 2025 Honors and Awards Ceremony (Air Force Academy — Graham Blanton '25; Naval Academy —
- Brendan Miles '25; 7 Finalists, 3 National Merit Scholarship winners):
+- 2025 Honors and Awards Ceremony (Air Force Academy — [name withheld] '25; Naval Academy —
+ [name withheld] '25; 7 Finalists, 3 National Merit Scholarship winners):
  https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2025-honors-and-awards-ceremony
-- 2024 Honors and Awards Ceremony (National ROTC Scholarship over $154,000 — Colin Degenhardt '24;
- Morrill Scholarship — Kwasi Thornhill '24; Evan Li '24 National Merit Scholar):
+- 2024 Honors and Awards Ceremony (National ROTC Scholarship over $154,000 — [name withheld] '24;
+ Morrill Scholarship — [name withheld] '24; [name withheld] '24 National Merit Scholar):
  https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2024-honors-and-awards-ceremony
-- Morehead-Cain award to Thierry Charles '22:
- https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charles-receives-morehead-cain-scholarship
+- Morehead-Cain award to [name withheld] '22:
+ https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/name-withheld
 - Upper School Profile 2017–18 ("One hundred percent expect to matriculate at four-year colleges";
  the 279-colleges/37-states/115-matriculations paragraph; the full named-scholarship list):
  https://www.charlottelatin.org/uploaded/COMPOSER/AcademicsTab/USprofile1718.pdf
@@ -1142,8 +1140,7 @@ that manufactures one.
 | Item | Value | Status |
 |---|---|---|
 | NSDA recognition | **Debate School of Excellence Award** — "one of the **top 20 programs for debate in the country**," described by the school as the **top 0.013% of schools nationwide** | Published |
-| NSDA charter status | "Charlotte Latin School has earned **charter status** in the National Speech & Debate Association" | Published |
-| NSDA 200 Club | "In **2025**, Charlotte Latin was honored wi
+| NSDA charter status | "Charlotte Latin School has earned **charter status** in the National 
 
 …[truncated]
 
@@ -2221,9 +2218,9 @@ https://claude.ai/chat/e60b1bb4-7210-47fd-89cc-bf3524ba7055 Page 9 of 9
 - https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2024-honors-and-awards-ceremony
 - https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2025-honors-and-awards-ceremony
 - https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2026-upper-school-honors-and-awards-ceremony
-- https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charles-receives-morehead-cain-scholarship
 - https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/commencement-exercises-for-the-class-of-2022
 - https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/commencement-exercises-for-the-class-of-2023
+- https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/name-withheld
 - https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/upper-school-salutes-national-merit-semifinalists-and-commended-students
 - https://www.charlottelatin.org/academics/college-counseling
 - https://www.charlottelatin.org/academics/college-counseling/acceptances

@@ -14,7 +14,7 @@ prs: [478]
 
 The user answered the two questions left open by [`artsfacts.md`](artsfacts.md) (#477), on 2026-11-10:
 
-- **#1, Charlotte Latin "Anjali Rao ’27 (fashion, 2023)":** "remove student name". She was an eighth grader at the time of the 2023 award (K–8 names rule).
+- **#1, Charlotte Latin "[name withheld] ’27 (fashion, 2023)":** "remove student name". She was an eighth grader at the time of the 2023 award (K–8 names rule).
 - **#2, Gaston Day's Student Clubs Thespian claim:** "only school website or docs only".
 
 Built directly at the user's request (`aidsources` precedent). This file is the record. Two-phase.
@@ -36,7 +36,7 @@ The claim came only from `source-material/student-clubs/gaston-day/…Academic a
 | `clubClusters.ts` gaston `rows[4].oneLiner` / `.note` | ", International Thespian Society" dropped; "Three chartered societies" → "Two"; "troupe numbers" dropped |
 | `clubCatalog.ts` gaston | the International Thespian Society entry removed |
 | `metricValues.ts` `us-organizations` gaston | `'31'` → `'30'` (28 named clubs + 2 honor societies; the comment records why) |
-| `artsPrograms/charlotte-latin.ts` `visual.footnote` | "Anjali Rao ’27 (fashion, 2023)" → "another student (fashion, 2023)" |
+| `artsPrograms/charlotte-latin.ts` `visual.footnote` | "[name withheld] ’27 (fashion, 2023)" → "another student (fashion, 2023)" |
 
 Gaston's Arts card already says "It does not say whether it has an International Thespian Society troupe" (#477), so it needed no change. The Thespian entries for other schools are school-sourced and untouched.
 
@@ -46,7 +46,7 @@ Gaston's Arts card already says "It does not say whether it has an International
 - **Build and checks:** `tsc -b` and `vite build` pass, and so do `check:schema`, `spelling`, `matrices`, `schoolurls`, `chrome`, `runtime`, `moneytext`, `dates`, `spans` and `photos`.
 - **`check:live`:** 6 stale `student-clubs` stamps and 1 stale `the-arts` stamp per locale. 2 of them are removed strings; the other 5 changed and are Phase 2's input.
 - **Browser** (`?lang=en`):
-  - Latin's Arts card shows no "Anjali" and does show "another student (fashion, 2023)";
+  - Latin's Arts card shows no [name withheld] and does show "another student (fashion, 2023)";
   - Gaston's Student Clubs shows no "International Thespian" and reads "Two chartered honor societies";
   - Compare `us-organizations` shows Gaston at 30.
 
@@ -61,12 +61,12 @@ Splice **four topics** for each locale: `the-arts`, `student-clubs` (which cover
 
 ## Rulings 2 and 3 (same day)
 
-- **Ruling 2.** The user: "Remove cary Mone name. Only student athletes name get mentioned since that case is so public." This is now a standing rule (memory `student-names-athletes-only`).
-  - **Census.** A read-only census agent read every non-sports `src/data` prose string and found **63 strings naming 110 non-athlete students**, plus 4 unsure cases. All four keep their names: Ian Shephard (an adult playwright), Matthew Doty and Cade Tyson (athletes), and Eliza Newell (an adult instructor).
+- **Ruling 2.** The user: "Remove [name withheld] name. Only student athletes name get mentioned since that case is so public." This is now a standing rule (memory `student-names-athletes-only`).
+  - **Census.** A read-only census agent read every non-sports `src/data` prose string and found **63 strings naming 110 non-athlete students**, plus 4 unsure cases. All four keep their names: Ian Shephard (an adult playwright), Matthew Doty and Cade Tyson (athletes), and [name withheld] (an adult instructor).
   - **Edits.** An editing agent removed the names in **60 strings across 13 files**: 10 arts files, 2 College Support files, `clubClusters.ts` and `metricValues.ts`. Every recognition, tier, role, year and ` · ` structure was kept. Examples:
-    - "Best Actor (Griffen Evans as Harry Bright)" → "Best Actor (as Harry Bright)";
-    - "Ella Hennessy ’28 took a GOLD KEY" → "a student took a GOLD KEY";
-    - "Amara Aghedo and Christian Young" → "Two performers".
+    - "Best Actor ([name withheld] as Harry Bright)" → "Best Actor (as Harry Bright)";
+    - "[name withheld] ’28 took a GOLD KEY" → "a student took a GOLD KEY";
+    - "[name withheld] and [name withheld]" → "Two performers".
   - **Not edited.** The `src/content/**` research prose, where about 305 names are concentrated in Charlotte Christian's college list, is not rendered on these pages and is not edited here.
 - **Ruling 3.** The user: "Gets gatson day club list only from school official docs or websites". A fresh research pass (persisted to `source-material/student-clubs/gaston-day/…Club Catalog and Overview.md`, "Update 2026-11-10", then re-ingested; the manifest order and other schools' Rebuilt dates were restored) checked:
   - the Upper School, Middle School and Arts pages;
@@ -85,7 +85,7 @@ Splice **four topics** for each locale: `the-arts`, `student-clubs` (which cover
 - **Verification.**
   - **Hook:** all 13 arts files are hook-clean. The student-clubs and metricValues files report only issues that predate this change.
   - **Build and checks:** `tsc -b`, `vite build`, `check:schema`, `spelling`, `matrices`, `schoolurls`, `chrome`, `runtime`, `moneytext`, `dates`, `spans` and `photos` are all green.
-  - **Review guards:** `plain_review --arts-markers` shows only the expected hits: the class-year digits that went with names, "April" (in April Liu) read as a month, and "two performers" where exactly two people were named.
+  - **Review guards:** `plain_review --arts-markers` shows only the expected hits: the class-year digits that went with names, a word in a withheld name that read as a month, and "two performers" where exactly two people were named.
   - **Browser:** across all 13 schools' arts, student-clubs and college-support sections, **0 of 95** removed full names render. Gaston's Student Clubs shows no Thespian Society, Beta Club, Mock Trial or third-party source.
 
 ## Implementation notes

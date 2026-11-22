@@ -1498,7 +1498,7 @@ older snapshot disagree, **the live page wins**.
 | Use | Image URL | Alt text on the school's page | Minor-name check |
 |---|---|---|---|
 | Trips slot (Where They Go) | https://resources.finalsite.net/images/f_auto,q_auto/v1688652741/provday/bidqmgule70vuvwlyhd4/Spain_Summer-2023-trip_cropped.jpg | "Group of PD students with Tosha Arriola during 2023 summer trip to Spain" | Names only a teacher (adult). Safe. |
-| Exchange slot (Exchanges & Homestays) | https://resources.finalsite.net/images/f_auto,q_auto/v1688652935/provday/wcon7dv5x88qlq80krwl/Colombia_March-2023-trip_Raya-Bose26-and-host-student-Natalia_cropped.jpg | "PD student Raya Bose '26 with host student Natalia in Colombia" | **Names two students.** The image may be used, but the app's caption and alt text must NOT carry either name. The URL path contains the name, so rename the file on download. |
+| Exchange slot (Exchanges & Homestays) | https://resources.finalsite.net/images/f_auto,q_auto/v1688652935/provday/wcon7dv5x88qlq80krwl/name-withheld | "PD student [name withheld] with [name withheld] in Colombia" | **Names two students.** The image may be used, but the app's caption and alt text must NOT carry either name. The URL path contains the name, so rename the file on download. |
 | (spare) | https://resources.finalsite.net/images/f_auto,q_auto/v1728329795/provday/n6vst2vvez9kvzumvzkf/Greece_thumbnail.png | "Middle Schoolers on trip to Greece summer 2024" | Safe; a thumbnail, so likely low resolution. |
 
 Photo source page for credit: https://www.providenceday.org/admissions/why-providence-day
@@ -1722,7 +1722,7 @@ or rendered.**
 - https://globallearning.org/our-mission/
 - https://indianschool.com/news-details/isg-students-attend-round-square-international-conference-2025-beyond-the-dunes
 - https://resources.finalsite.net/images/f_auto,q_auto/v1688652741/provday/bidqmgule70vuvwlyhd4/Spain_Summer-2023-trip_cropped.jpg
-- https://resources.finalsite.net/images/f_auto,q_auto/v1688652935/provday/wcon7dv5x88qlq80krwl/Colombia_March-2023-trip_Raya-Bose26-and-host-student-Natalia_cropped.jpg
+- https://resources.finalsite.net/images/f_auto,q_auto/v1688652935/provday/wcon7dv5x88qlq80krwl/name-withheld
 - https://resources.finalsite.net/images/f_auto,q_auto/v1728329795/provday/n6vst2vvez9kvzumvzkf/Greece_thumbnail.png
 - https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/Collegeguidancecollegeprofile26-27updated.pdf
 - https://sites.google.com/providenceday.org/gsd-homepage/alumni

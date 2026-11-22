@@ -8,7 +8,7 @@
 //
 //  1. The 2024 Blumey nominations were all for ANASTASIA, not "Singin' in the
 //     Rain." The school's undated news page attributes a separate, earlier set of
-//     noms (Pisacano/Wilson) to "Singin' in the Rain." The 2024 ledger below is
+//     noms ([name withheld]) to "Singin' in the Rain." The 2024 ledger below is
 //     therefore attributed to Anastasia — extracted from Blumenthal's official
 //     2024 nominee PDF. The category→role mapping we once typed was wrong for
 //     several roles (there is no "labeling quirk"). It was re-read from the saved
@@ -17,7 +17,7 @@
 //     "(year to verify)" bookkeeping that once sat in the year cell was removed
 //     in plan artsfacts, 2026-11-10: it rendered to parents in every locale.)
 //
-//  2. The signature result is a real, independently confirmed WIN: Anna Jernigan,
+//  2. The signature result is a real, independently confirmed WIN: [name withheld],
 //     Best Actress, "Footloose," 2026 Blumey Awards (WFAE). She advances to the
 //     Jimmy Awards. Only that one row carries `win: true`; the other five 2026
 //     placements are finalists/nominees, and every 2024 row is a nomination or

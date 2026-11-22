@@ -651,10 +651,7 @@ Then the research prose, per `PROSE_TRANSLATED`. The mechanism is in
       — **no hits**. No travel date or session date renders.
 - [ ] `grep -in "not stated\|not published" src/data/internationalTravel/davidson-day.ts` — hits only inside `verdict`
 - [ ] `grep -in "Archaeological Research\|University of Calgary\|7th" src/data/internationalTravel/davidson-day.ts` — **no hits** (conflict losers)
-- [ ] No person is named. Grep the file for `Saunders`, `Hill`, `Smith`, `Pritchard`,
-      `Creswell`, `Cresswell`, `Mirro`, `Sturm`, `Palmer`, `Urban`, `Bishop`, `Griffith`,
-      `Gray`, `Lanter`, `Awe`, `Lambeth`, `Ogle`, `Starnes`, `Rayment`, `Holden`, `Adkins`,
-      `Lippiner`, `Ashe`, `Barsosky`, `Kamp`, `Berkman`. There should be no hits.
+- [ ] No person is named. Grep the file for the names on the source pages (list omitted: no names in the repo). There should be no hits.
       (`Pook's Hill` is a place: exempt it, e.g. `grep -n "Hill" | grep -v "Pook"`.)
 - [ ] `goafar.org` appears only in `trips.sources`
 - [ ] Every `sources` URL is a fetched or Wayback row of the Source URLs file. Spot-check five.

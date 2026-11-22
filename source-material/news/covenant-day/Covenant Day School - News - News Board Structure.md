@@ -54,7 +54,7 @@ finished inside the 12s date pass.
 | 2 | 2026-07-10 | 2026 Spring Sports Highlights | lions-news |
 | 3 | 2026-07-08 | Mike Freace Begins Tenure as Athletic Director | lions-news |
 | 4 | 2026-06-24 | Eaton and Barto named to Nexus Championship Teams | lions-news |
-| 5 | 2026-06-22 | Siti Oo's Gift to CDS: A Window into the Chin People of Burma | news |
+| 5 | 2026-06-22 | [name withheld] Gift to CDS: A Window into the Chin People of Burma | news |
 | 6 | 2026-05-25 | The Covey's - 2026 Athletics Award Show | lions-news |
 | 7 | 2026-05-12 | Get to Know LS Nurse Sara McGee | features |
 | 8 | 2026-05-10 | Get to Know HS Math Teacher Joanna Keel | features |
@@ -155,7 +155,7 @@ prose:
 
 - "Seven CDS athletes committed to continuing their athletic careers at the collegiate level!"
 - "Registration is open for the upcoming Booster Club Golf Tournament!"
-- "Siti Oo's family immigrated from Burma and descends from the Chin people."
+- "[name withheld] family immigrated from Burma and descends from the Chin people."
 - "It's also a joy to get to know the kids and their unique personalities!"
 
 So this school needs **no `preview()` pass**. Adding one "for consistency" would

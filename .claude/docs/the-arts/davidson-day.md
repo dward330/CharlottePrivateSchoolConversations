@@ -159,10 +159,10 @@ nominees, named finalists, and a scholarship winner.**
 
 **2026 — *Big Fish*** [VERIFIED]
 https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
-- **Best Actor — FINALIST:** "Lukas Paeper as Edward Bloom - Big Fish"
-- **Best Supporting Actress — FINALIST:** "Katelyn Ray as Witch - Big Fish"
-- **Best Featured Performer — FINALIST (also nominee):** "Elizabeth Robinson as Giant - Big Fish"
-- A nominee named **Malena Lessa as Sandra Bloom** also surfaced in search results for the
+- **Best Actor — FINALIST:** "[name withheld] as Edward Bloom - Big Fish"
+- **Best Supporting Actress — FINALIST:** "[name withheld] as Witch - Big Fish"
+- **Best Featured Performer — FINALIST (also nominee):** "[name withheld] as Giant - Big Fish"
+- A nominee named **[name withheld] as Sandra Bloom** also surfaced in search results for the
  2026 cycle. [SCHOOL-CLAIM / search-snippet only — not confirmed on the fetched nominee page]
 - 2026 **winners** page: Davidson Day appears in the competing-schools context with *Big
  Fish* but **no win, scholarship, or honor is recorded** for the school. [VERIFIED]
@@ -180,13 +180,13 @@ https://www.blumenthalarts.org/news/detail/2025-blumey-awards-nominations
 https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announces-2023-blumey-awards-nominees
 - **Best Ensemble/Chorus:** Davidson Day School – *Mean Girls*
 - **Best Overall Direction:** Davidson Day School – *Mean Girls*
-- **Best Featured Performer:** Ada Brown as Mrs. George
-- **Best Actress:** Kathleen Moore as Regina George
+- **Best Featured Performer:** [name withheld] as Mrs. George
+- **Best Actress:** [name withheld] as Regina George
 This is the school's strongest single year found — including a **Best Overall Direction**
 nod, which is a program-level (not just individual) recognition.
 
 **Gordon Hay Scholarship — a Davidson Day student won it.** [SCHOOL-CLAIM / search-snippet]
-**Aslan Freidline** of Davidson Day School received the **$5,000 Gordon Hay Scholarship**,
+**[name withheld]** of Davidson Day School received the **$5,000 Gordon Hay Scholarship**,
 awarded to a Charlotte-area senior pursuing a **non-performing** career in the performing
 arts. Search results attach this to the **4th annual** Blumey Awards (2015 cycle, gala
 May 17, 2015). The specific year attribution was not confirmed on a fetched Blumenthal page,
@@ -335,7 +335,7 @@ on p. 57) but neither is captioned.
  https://www.davidsonday.org/student-life/arts/visual-and-fine-arts (indexed snippet)
 
 ### The international journalism award [VERIFIED via search result]
-- **Student:** Sims Skaff, a Davidson Day School **sophomore**.
+- **Student:** [name withheld], a Davidson Day School **sophomore**.
 - **Award:** **Photographer of the Year**, **Private School Journalism Association (PSJA)**
  contest, co-sponsored by **Quill and Scroll**.
 - **Date:** announced Saturday, **April 26, 2025**.
@@ -528,8 +528,8 @@ Load-bearing negatives — these are researched findings, not unexamined blanks:
 11. **Ceramics, Drawing and Painting, Digital Illustration** — named as Studio II Honors
  prerequisites but absent from the 2026-27 course listing. Status (legacy names? Middle
  School? alternate-year?) unresolved.
-12. **Malena Lessa (Sandra Bloom, 2026 nominee)** — appeared in a search snippet but was not
- confirmed on the fetched nominee page. **Gordon Hay Scholarship year** for Aslan Freidline
+12. **[name withheld] (Sandra Bloom, 2026 nominee)** — appeared in a search snippet but was not
+ confirmed on the fetched nominee page. **Gordon Hay Scholarship year** for [name withheld]
  (search indicates the 4th annual / 2015 cycle) is likewise unconfirmed on a fetched page.
 13. **Visiting artists, parent arts organization, arts showcase calendar — NOT FOUND.**
 
@@ -596,16 +596,16 @@ not the three the app's ledger shows:
 
 | Category | Davidson Day entry (verbatim) |
 |---|---|
-| Finalists for Best Actor | Davidson Day School - Lukas Paeper as Edward Bloom - Big Fish |
-| Finalists for Best Actress | Davidson Day School - Malena Lessa as Sandra Bloom - Big Fish |
-| Finalists for Best Supporting Actor | Davidson Day School - Noah Larsen as Will Bloom - Big Fish |
-| Finalists for Best Supporting Actress | Davidson Day School - Katelyn Ray as Witch - Big Fish |
-| Finalists for Best Featured Performer | Davidson Day School - Elizabeth Robinson as Giant - Big Fish |
-| Best Featured Performer (nominee, top six) | Davidson Day School – Elizabeth Robinson as Giant – Big Fish |
+| Finalists for Best Actor | Davidson Day School - [name withheld] as Edward Bloom - Big Fish |
+| Finalists for Best Actress | Davidson Day School - [name withheld] as Sandra Bloom - Big Fish |
+| Finalists for Best Supporting Actor | Davidson Day School - [name withheld] as Will Bloom - Big Fish |
+| Finalists for Best Supporting Actress | Davidson Day School - [name withheld] as Witch - Big Fish |
+| Finalists for Best Featured Performer | Davidson Day School - [name withheld] as Giant - Big Fish |
+| Best Featured Performer (nominee, top six) | Davidson Day School – [name withheld] as Giant – Big Fish |
 
 The earlier research missed Best Actress and Best Supporting Actor. The page also says the
 Best Actor and Best Actress *nominees* were announced separately on May 4, 2026, so a
-Paeper or Lessa nomination is not established here. The app says "finalist" and nothing
+[name withheld] or [name withheld] nomination is not established here. The app says "finalist" and nothing
 more.
 
 **No win.** The 2026 winners page

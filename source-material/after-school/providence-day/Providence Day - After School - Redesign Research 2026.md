@@ -206,7 +206,7 @@ Extended Day Program is required in order to attend enrichment classes.
 
 Named instructors and providers: Coloring on Canvas LLC (Art); Charlotte Chess Center
 and Scholastic Academy (Chess); Charlotte Speech & Hearing Center (YoLa); Mad Science
-Charlotte (Science); Ari Patterson (Charger Cheer); Eliza Newell, third-degree black
+Charlotte (Science); Ari Patterson (Charger Cheer); [name withheld], third-degree black
 belt (Karate); Todd Johnson, PDS Middle School Computer Science teacher (Coding); Kris
 Jones, PDS Varsity Girls Track and Field Head Coach (Running Club); Terry Tadeo, Tommy
 Racano and Paul Burnam (Wrestling).

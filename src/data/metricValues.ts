@@ -1543,7 +1543,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '2 Blumey wins (2022)', // Best Choreography + Best Direction 2022; replaces the school's 31+ nominations claim, which the lists do not rebuild (user ruling 2026-11-22)
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
       'covenant-day': '2 Blumey wins', // Best Featured Performer 2013 + Student Critic Award 2016; 8 recognitions 2013-2019
-      'carmel-christian': '2026 Blumey — Best Actress', // Anna Jernigan, Footloose; advances to the Jimmy Awards
+      'carmel-christian': '2026 Blumey — Best Actress', // [name withheld], Footloose; advances to the Jimmy Awards
       'davidson-day': '5 Blumey finalists (2026)', // Big Fish, five finalists — the-arts/davidson-day Blumey Verification 2026 (plan consistency4, DD-T5)
       'hickory-grove-christian': '2025–26 Blumey finalists', // five finalists both years (Seussical, The Little Mermaid), one nominee in 2025; no win
       'gaston-day': '6-yr superior ratings', // chorus "superior" in regional adjudications over six years; plus UNCSA and Governor's School admissions

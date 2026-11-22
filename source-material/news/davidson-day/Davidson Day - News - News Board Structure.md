@@ -203,7 +203,7 @@ preview on all nine rows.
 | 28 | Davidson Day School is proud to announce that alumna Mallorie Haines '21 has joined… |
 | 27 | On May 22, 2025, Davidson Day School celebrated the class of 2025 at commencement… |
 | 26 | Davidson Day School is proud to announce that actor and writer Cullen Moss… |
-| 25 | Sims Skaff, a Davidson Day School sophomore, won Photographer of the Year… |
+| 25 | [name withheld], a Davidson Day School sophomore, won Photographer of the Year… |
 
 All 9 resolve a real, on-topic preview. None is a byline, a caption or
 boilerplate.

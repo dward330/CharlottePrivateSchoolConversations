@@ -10,7 +10,7 @@
 
 **Key correction:** the 2024 Blumey nominations were all for **Anastasia**, NOT "Singin'
 in the Rain." The school's undated news page attributes a separate, earlier set of noms
-(Pisacano/Wilson) to "Singin' in the Rain" — a different, earlier production. The
+([name withheld]) to "Singin' in the Rain" — a different, earlier production. The
 implementing app should attribute the 2024 ledger to **Anastasia**.
 
 ## Source URLs
@@ -27,14 +27,14 @@ implementing app should attribute the 2024 ledger to **Anastasia**.
 | S8 | https://carmelchristian.org/apps/news/show_news.jsp?REC_ID=791781&id=0 | Earlier "Singin' in the Rain" Blumey noms (undated) |
 | S9 | https://www.blumenthalarts.org/assets/doc/2024-Blumey-Nominees-and-Finalists-6435d5b18b.pdf | 2024 Blumey official nominee/finalist PDF (Anastasia ledger) |
 | S10 | https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards | 2026 Blumey nominees/finalists — Footloose (6 placements in 6 categories) |
-| S11 | https://www.wfae.org/arts-culture/2026-05-18/blumey-awards-winners-announced | 2026 Best Actress WIN — Anna Jernigan (Footloose) |
+| S11 | https://www.wfae.org/arts-culture/2026-05-18/blumey-awards-winners-announced | 2026 Best Actress WIN — [name withheld] (Footloose) |
 
 ## Metrics
 
 | Metric | Value | Source |
 | --- | --- | --- |
 | Program grade span | K-12 (Elem K-5, Middle 6-8, HS 9-12) | S3/S4/S5 |
-| Signature recognition (dated) | Best Actress WIN — Anna Jernigan, "Footloose" — 2026 Blumey Awards (ceremony May 17 2026, Belk Theater; announced May 18); advances to the Jimmy Awards | S11 |
+| Signature recognition (dated) | Best Actress WIN — [name withheld], "Footloose" — 2026 Blumey Awards (ceremony May 17 2026, Belk Theater; announced May 18); advances to the Jimmy Awards | S11 |
 | Named ensembles | 3 core: Symphonic Band, Choir, Ignite Band (HS Praise Band) — MS adds Ignite (MS Praise Band). No orchestra, no a cappella, no honor ensemble named. | S4/S5 |
 | Advanced (Honors/AP) arts courses | NOT PUBLISHED on the arts page (S5). NOTE: the Course Offerings guide DOES list Honors Art III/IV, Honors Acting Studio, AP 2-D Art & Design — reconcile at build; the arts page and the curriculum guide disagree. | S5 vs course-offerings |
 | Arts Director | Christina McCorkle | S2 |
@@ -61,25 +61,24 @@ Oklahoma! (HS). 2025-26 (S6): Disney's High School Musical, Jr. (Nov 14-15 2025)
 
 | Year | Show | Category | Nominee / Role | Result |
 |---|---|---|---|---|
-| 2026 | Footloose | Best Actress | Anna Jernigan as Ariel Moore | **WIN** (advances to Jimmy Awards) |
-| 2026 | Footloose | Best Actor | James Coleman as Ren McCormack | Finalist |
-| 2026 | Footloose | Best Supporting Actor | Sloan Pettus as Willard Hewitt | Finalist |
-| 2026 | Footloose | Best Supporting Actress | Charlotte Scott as Rusty | Finalist |
-| 2026 | Footloose | Best Featured Performer | Titus Teague as Garvin | Finalist |
+| 2026 | Footloose | Best Actress | [name withheld] as Ariel Moore | **WIN** (advances to Jimmy Awards) |
+| 2026 | Footloose | Best Actor | [name withheld] as Ren McCormack | Finalist |
+| 2026 | Footloose | Best Supporting Actor | [name withheld] as Willard Hewitt | Finalist |
+| 2026 | Footloose | Best Supporting Actress | [name withheld] as Rusty | Finalist |
+| 2026 | Footloose | Best Featured Performer | [name withheld] as Garvin | Finalist |
 | 2026 | Footloose | Best Choreography Execution | (production) | Nominee |
-| 2024 | Anastasia | Best Featured Performer | Sasha Mashchenko (Ballet Lead) | Nominee |
-| 2024 | Anastasia | Best Featured Performer | Caeden Moore (Vlad) | Nominee |
-| 2024 | Anastasia | Finalists for Best Actor | Dylan Wilson (Dmitry) | Finalist |
-| 2024 | Anastasia | Finalists for Best Actor | Anna Jernigan (Lily) | Finalist |
-| 2024 | Anastasia | Finalists for Best Supporting Actor | Caeden Moore (Vlad) | Finalist |
-| 2024 | Anastasia | Finalists for Best Supporting Actor | Karleigh Robin (Dowager Empress) | Finalist |
-| 2024 | Anastasia | Finalists for Best Featured Performer | Sasha Mashchenko (Ballet Lead) | Finalist |
-| ~2022-23 (TO VERIFY) | Singin' in the Rain | Best Actress | Darien Pisacano | Nominee |
-| ~2022-23 (TO VERIFY) | Singin' in the Rain | Best Actor | Dylan Wilson | Nominee |
+| 2024 | Anastasia | Best Featured Performer | [name withheld] (Ballet Lead) | Nominee |
+| 2024 | Anastasia | Best Featured Performer | [name withheld] (Vlad) | Nominee |
+| 2024 | Anastasia | Finalists for Best Actor | [name withheld] (Dmitry) | Finalist |
+| 2024 | Anastasia | Finalists for Best Actor | [name withheld] (Lily) | Finalist |
+| 2024 | Anastasia | Finalists for Best Supporting Actor | [name withheld] (Vlad) | Finalist |
+| 2024 | Anastasia | Finalists for Best Supporting Actor | [name withheld] (Dowager Empress) | Finalist |
+| 2024 | Anastasia | Finalists for Best Featured Performer | [name withheld] (Ballet Lead) | Finalist |
+| ~2022-23 (TO VERIFY) | Singin' in the Rain | Best Actress | [name withheld] | Nominee |
+| ~2022-23 (TO VERIFY) | Singin' in the Rain | Best Actor | [name withheld] | Nominee |
 
-**Standout:** 2026 Best Actress WIN — WFAE (S11) verbatim: "Carmel Christian's Anna
-Jernigan won Best Actress for her performance in 'Footloose.'" Ceremony May 17 2026 at Belk
-Theater; winner advances to the Jimmy Awards. Anna Jernigan's arc: 2024 Best Actor finalist
+**Standout:** 2026 Best Actress WIN — WFAE (S11) verbatim: "Carmel Christian's [name withheld] won Best Actress for her performance in 'Footloose.'" Ceremony May 17 2026 at Belk
+Theater; winner advances to the Jimmy Awards. [name withheld] arc: 2024 Best Actor finalist
 (Lily, Anastasia) → 2026 Best Actress winner (Footloose). *(In 2024 she's listed under
 "Finalists for Best Actor" in our first extraction. That category was our error, not a
 Blumenthal labeling quirk: see Method.)*

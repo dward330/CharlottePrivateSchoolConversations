@@ -354,8 +354,10 @@ The design re-capture is done and verified. The English awaits the user's review
 
 1. **Student names:** "Please remove non-athlete student names. Thats a hard rule not to expose
    their names". This ends the 2026-11-10 allowance for names in research files. It runs on its
-   own branch from main (`fix/student-names`). **Phase 2 merges main first and never carries a
-   non-athlete student name into a translation, plan, work file or commit message.**
+   own branch from main (`fix/student-names`), **merged as PR #517 and already merged into this
+   branch**. **Phase 2 never carries a non-athlete student name into a translation, plan, work
+   file or commit message.** The ingest needs the local, gitignored
+   `source-material/_name_redactions.json`: never commit it, and never print it.
 2. **Gaston Day iGEM:** "If there is no proof it is still active, drop the club". No proof was
    found, so it is out of the catalog (nine), clusters, honors, College Support and Compare
    (settled S10). **Array items were removed here: re-splice the locale paths.**

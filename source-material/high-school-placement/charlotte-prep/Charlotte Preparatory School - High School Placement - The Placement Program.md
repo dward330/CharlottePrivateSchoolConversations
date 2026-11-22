@@ -115,10 +115,10 @@ The 2026 page images drop letters where a ligature glyph failed to render: "conf
 - https://charlotteprep.org/academics/middle-school/high-school-admissions-process: links only to the Issuu brochure.
 - https://charlotteprep.org/student-life/leadership: "This leadership development culminates at our annual High School Fair, at which local and regional independent day and boarding schools visit our campus to meet with our 8th-Grade class."
 - https://charlotteprep.org/community/news/stories/8th-grade-ignite-presentations (April 30, 2026, by Jessica Stargell)
-- https://charlotteprep.org/community/news/stories/mila-s-prep-story (November 6, 2025). It names "Mrs. Stargell's 8th Grade Leadership class". The student author is not named here.
+- https://charlotteprep.org/community/news/stories/name-withheld (November 6, 2025). It names "Mrs. Stargell's 8th Grade Leadership class". The student author is not named here.
 - https://charlotteprep.org/community/news/stories/top-high-schools-visit-recruit-prep-students (December 7, 2022, no byline. The author writes in the first person as an administrator working with 8th-grade parents.)
 - https://charlotteprep.org/community/news/stories/testing-at-charlotte-prep (April 9, 2026, Katherine Buhler)
-- https://charlotteprep.org/community/news/stories/collins-story-finding-the-right-fit (May 7, 2025, George Marshall). The URL slug carries a student's first name, so it is cited here and not in the body.
+- https://charlotteprep.org/community/news/stories/name-withheld (May 7, 2025, [name withheld]). The URL slug carries a student's first name, so it is cited here and not in the body.
 - https://charlotteprep.org/community/news/stories/the-path-to-high-school (November 30, 2023, parent author)
 - https://charlotteprep.org/community/news/stories/prep-8th-grader-accepted-at-walnut-hill-school-for-the-arts (May 13, 2026)
 - https://charlotteprep.org/community/news/stories/a-campus-culture-where-everyone-matters (September 3, 2026, Todd Ballaban)

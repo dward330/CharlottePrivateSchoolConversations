@@ -256,7 +256,7 @@ it survives a careful `curl` pass. Posts that lead with a captioned hero image p
 caption in a `<p>` inside `<figure class="fsImageCaptioned">`, **before** the first body
 paragraph. It is well over 60 chars, so a plain "first substantive `<p>`" rule ships
 
-> "Pictured: Brooks Hinton '27 with Lower School Freedom School scholars."
+> "Pictured: [name withheld] with Lower School Freedom School scholars."
 
 as the preview: grammatical, plausible, and not what the story is about. Two of ten rows
 were wrong this way.

@@ -206,10 +206,9 @@ with a provenance header, source URLs and the record-level detail behind every f
 - Facilities — **MACS Fine Arts Center**: 650-seat auditorium, 2 art studios, band room,
   broadcast studio, ceramics studio, dance studio, darkroom + digital lab, photography lab
   (9 named spaces).
-- Awards, dated + named: **5 Blumey finalists 2025** (Brenden Ortiz–Motel, Maye
-  Glessner–Hodel, Jon Pacheco–Perchik, Anna Wall–Tzeitel, Connor Nichols–Rabbi);
-  **3 Blumey finalists 2026** (Jack Gordon–Uncle Henry/Guard, Maye Glessner–Dorothy,
-  Olivia Overhalser–Toto Puppeteer).
+- Awards, dated + named: **5 Blumey finalists 2025** (as Motel, Hodel, Perchik, Tzeitel and the Rabbi);
+  **3 Blumey finalists 2026** (as Uncle Henry/Guard, Dorothy and
+  the Toto Puppeteer).
 - ⚠️ **NO Blumey WINS in 2026** — verified against the winners release. A wins claim would
   be factually wrong.
 - ⚠️ **The school's performances calendar is EMPTY ("No showings")** — the production
@@ -505,7 +504,7 @@ Caveats to carry into the data comments:
      **70-hour requirement / 100% participation** may legitimately populate this row. 6 of
      10 schools are `null` here, so a `null` is also defensible.
    - **`flagship-result` — the best found is STALE (2017)**: Speech & Debate NC state
-     runner-up + Darlene Singui-Tanyi Program Oral Interpretation State Champion. Nine
+     runner-up + [name withheld] Program Oral Interpretation State Champion. Nine
      years old, older than anything shipped (Carmel 2022, Cannon 2024/25). Prefer the
      **2025 Blumey finalists**, or make a targeted pass at NC Speech & Debate / Tarheel
      Forensic League / NCMEA all-state records before settling.

@@ -356,7 +356,7 @@ direct line per person. Do not synthesize extensions.
 The admissions department's own extension is **(704) 366-5657, ext. 6502** (from the
 Admissions landing page), distinct from the business office's ext. 6202.
 
-**A sixth name is listed and is NOT staff:** Ethan Walker ('27), "Admissions Prefect" — a
+**A sixth name is listed and is NOT staff:** [name withheld] ('27), "Admissions Prefect" — a
 student leadership position, published with no contact details. It is deliberately excluded
 from the app's contacts grid, which is a staff-contact list. This is very likely the source
 of the prior pass's "six named staff" count.

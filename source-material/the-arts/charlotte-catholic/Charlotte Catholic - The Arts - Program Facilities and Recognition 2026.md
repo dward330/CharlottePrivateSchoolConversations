@@ -103,11 +103,11 @@ The center serves all MACS students — elementary, middle and high school — n
 
 | Student | Category | Role |
 | --- | --- | --- |
-| Brenden Ortiz | **Finalist**, Best Actor | Motel |
-| Maye Glessner | **Finalist**, Best Actress | Hodel |
-| Jon Pacheco | **Finalist**, Best Supporting Actor | Perchik |
-| Anna Wall | **Finalist**, Best Supporting Actress | Tzeitel |
-| Connor Nichols | **Finalist**, Best Featured Performer | Rabbi |
+| [name withheld] | **Finalist**, Best Actor | Motel |
+| [name withheld] | **Finalist**, Best Actress | Hodel |
+| [name withheld] | **Finalist**, Best Supporting Actor | Perchik |
+| [name withheld] | **Finalist**, Best Supporting Actress | Tzeitel |
+| [name withheld] | **Finalist**, Best Featured Performer | Rabbi |
 
 Each was verified by locating the CCHS line beneath its category heading in S5 — every one
 falls under a "Finalists for …" heading.
@@ -116,13 +116,13 @@ falls under a "Finalists for …" heading.
 
 | Student | Tier | Category | Role |
 | --- | --- | --- | --- |
-| Aaron Quintero | Nominee | Best Actor | Scarecrow |
-| Maye Glessner | Nominee | Best Actress | Dorothy |
-| Jack Gordon | Nominee | Best Supporting Actor | Uncle Henry / Guard |
-| Amelia Quintero | Nominee | Best Supporting Actress | Glinda |
-| Olivia Overhalser | **Finalist** | Best Featured Performer | Toto Puppeteer |
+| [name withheld] | Nominee | Best Actor | Scarecrow |
+| [name withheld] | Nominee | Best Actress | Dorothy |
+| [name withheld] | Nominee | Best Supporting Actor | Uncle Henry / Guard |
+| [name withheld] | Nominee | Best Supporting Actress | Glinda |
+| [name withheld] | **Finalist** | Best Featured Performer | Toto Puppeteer |
 
-**Maye Glessner is recognised in both years** — Hodel in 2025 and Dorothy in 2026.
+**[name withheld] is recognised in both years** — Hodel in 2025 and Dorothy in 2026.
 
 ### ⚠️ CCHS won NO Blumey award in 2026
 

@@ -1,5 +1,5 @@
 # Charlotte Preparatory School — Student Clubs
-> Distilled from 3 source document(s) in `source-material/student-clubs/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 3 source document(s) in `source-material/student-clubs/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Club Catalog and Traditions, Recognition in Clubs and Activities, Service and Civic Engagement
 
 
@@ -78,8 +78,8 @@ Source URLs:
 - https://charlotteprep.org/support/the-prep-fund
 - https://charlotteprep.org/about/the-prek-8-model ("serving on student government")
 - https://charlotteprep.org/community/news/stories/how-our-middle-schoolers-become-leaders
-- https://charlotteprep.org/community/news/stories/mila-s-prep-story
-- https://charlotteprep.org/community/news/stories/liam-s-prep-story
+- https://charlotteprep.org/community/news/stories/name-withheld
+- https://charlotteprep.org/community/news/stories/name-withheld
 - https://charlotteprep.org/community/news/stories/support-for-hurricane-helene-recovery
 - https://charlotteprep.org/community/news/stories/model-un-club-awarded-at-conference
 - https://charlotteprep.org/community/news/stories/prep-players-present-alice
@@ -200,7 +200,7 @@ How the data was gathered:
 Source URLs:
 - https://charlotteprep.org/community/news/stories/model-un-club-awarded-at-conference
 - https://charlotteprep.org/community/news/stories/sparking-debate-to-grow-critical-thinking
-- https://charlotteprep.org/community/news/stories/mila-s-prep-story
+- https://charlotteprep.org/community/news/stories/name-withheld
 - https://charlotteprep.org/community/news/stories/prep-scholar-awarded-at-state-science-fair
 - https://charlotteprep.org/community/news/stories/a-stage-set-for-success
 - https://charlotteprep.org/student-life/leadership
@@ -368,9 +368,8 @@ No student names are carried. The Helene story names the student council preside
 - https://charlotteprep.org/community/news/stories/hot-off-the-press-first-grade-news
 - https://charlotteprep.org/community/news/stories/how-our-middle-schoolers-become-leaders
 - https://charlotteprep.org/community/news/stories/joy-term-returns
-- https://charlotteprep.org/community/news/stories/liam-s-prep-story
-- https://charlotteprep.org/community/news/stories/mila-s-prep-story
 - https://charlotteprep.org/community/news/stories/model-un-club-awarded-at-conference
+- https://charlotteprep.org/community/news/stories/name-withheld
 - https://charlotteprep.org/community/news/stories/playing-it-forward-prep-grads-give-back
 - https://charlotteprep.org/community/news/stories/prep-players-present-alice
 - https://charlotteprep.org/community/news/stories/prep-s-inaugural-joy-term

@@ -148,14 +148,14 @@ That is harmless while they stay hidden (Candidates).
 
 The standing rule (memory `student-names-athletes-only`, plan
 [`thespianname.md`](thespianname.md)) is that only student **athletes** are named. The
-thespianname census missed one student: **Cornelia Knight**, Covenant Day's Mock Trial
+thespianname census missed one student: **[name withheld]**, Covenant Day's Mock Trial
 courtroom artist. She is named at **three rendered sites**:
 
 | Site | On the worklist? | Text today |
 |---|---|---|
-| `src/data/clubClusters.ts` covenant-day `clusters.rows[0].note` | yes (Batch 1) | "…and Cornelia Knight of that team won the courtroom-artist regional in Hickory and finished 2025 State Champion Courtroom Artist runner-up." |
-| `src/data/clubsPrograms/covenant-day.ts` `honors.adjacent[1].text` (label "Mock Trial") | **no** (21 words, grade —) | "Courtroom artist Cornelia Knight (Covenant Day Blue) won her regional and finished 2025 state runner-up — the best-documented statewide result in this area." |
-| `src/data/metricValues.ts`, the `flagship-result` metric, `quals['covenant-day'].text` (a Compare cell tip; overlay `at` `providence-day:[34].quals.covenant-day.text`) | out of this plan's scope | "Cornelia Knight of the Covenant Day Blue Mock Trial team won the NC Mock Trial courtroom-artist regional (Hickory) and was the 2025 State Champion Courtroom Artist runner-up — the program’s best-documented statewide result." |
+| `src/data/clubClusters.ts` covenant-day `clusters.rows[0].note` | yes (Batch 1) | "…and [name withheld] of that team won the courtroom-artist regional in Hickory and finished 2025 State Champion Courtroom Artist runner-up." |
+| `src/data/clubsPrograms/covenant-day.ts` `honors.adjacent[1].text` (label "Mock Trial") | **no** (21 words, grade —) | "Courtroom artist [name withheld] (Covenant Day Blue) won her regional and finished 2025 state runner-up — the best-documented statewide result in this area." |
+| `src/data/metricValues.ts`, the `flagship-result` metric, `quals['covenant-day'].text` (a Compare cell tip; overlay `at` `providence-day:[34].quals.covenant-day.text`) | out of this plan's scope | "[name withheld] of the Covenant Day Blue Mock Trial team won the NC Mock Trial courtroom-artist regional (Hickory) and was the 2025 State Champion Courtroom Artist runner-up — the program’s best-documented statewide result." |
 
 `src/content/student-clubs/covenant-day.json` and `src/content/college-support/covenant-day.json`
 also hold the name. The user ruled (thespianname) that `src/content` may keep names as
@@ -355,7 +355,7 @@ Measured with a 7-word shingle scan over all 1,279 clubs prose units in the thre
 | Shared part | Sites | Batch |
 |---|---|---|
 | "The catalog card lists only confirmed organizations." (closing sentence) | providence-day `service.flags[0].text`, charlotte-country-day `service.flags[0].text` | 1 |
-| The Cornelia Knight removal wording (Decisions) | covenant-day `clusters.rows[0].note`, `honors.adjacent[1].text`; `metricValues` covenant qual | 1 |
+| The [name withheld] removal wording (Decisions) | covenant-day `clusters.rows[0].note`, `honors.adjacent[1].text`; `metricValues` covenant qual | 1 |
 | "a week-long experiential program" → the same plain replacement | charlotte-christian `service.programs[0].detail` (Batch 1) → cannon `service.subhead`, `service.programs[2].detail` (Batch 2) | 1 → 2 |
 | The newspaper / literary magazine / yearbook / podcast running as English courses Journalism 234 and Yearbook 235, "which is why none appears in" the directory, with "a B average (in English) and a teacher recommendation" | charlotte-catholic `honors.flags[1].text`, `catalog.divisions[0].text`, `clusters.rows[4].note` (each keeps its own "234" / "(234)" form) | 2 |
 | "See You at the Pole … led by the MS SGA and HS Student Council"; J-Term as "a graduation requirement … can include mission trips"; "international missions trips" | carmel-christian `service.programs[2].detail`, `catalog.divisions[2].text` | 3 |
@@ -1035,8 +1035,8 @@ Every `plain_review.mjs` call in this plan passes
    - **Measure:** run a scratch script over every draft. It calls the real `analyze`,
      plus the Step 1 guard functions, against the original.
    - **Check names:**
-     - The draft must contain no student name: grep the drafts for "Cornelia" and
-       "Knight", which must both be absent from Covenant's units.
+     - The draft must contain no student name: grep the drafts for "[name withheld]" and
+       "[name withheld]", which must both be absent from Covenant's units.
      - Every capitalized word the before-text had must be in the after-text, except the
        removed name. Guard (h) reports this as "caps gone".
    - **Apply:** use an exact-match script that refuses any old literal it cannot find,
@@ -1139,9 +1139,9 @@ Every `plain_review.mjs` call in this plan passes
      - the PD Affinity teaser (collapsed card) shows the new `affinity.headline`.
    - **Batch 1 only, for the removed name:**
      - On `/school/covenant-day/`, the whole page's `textContent` (every card open, every
-       topic) contains no "Cornelia".
+       topic) contains no "[name withheld]".
      - On `/compare/?schools=covenant-day,providence-day&topic=student-clubs`, the
-       `flagship-result` cell tip contains no "Cornelia" (tips are hidden divs; read
+       `flagship-result` cell tip contains no "[name withheld]" (tips are hidden divs; read
        `textContent`; memory `ddathletes-shipped`).
    - **Compare page:** open `/compare/?schools=<batch slugs>&topic=student-clubs` and
      confirm the club-category rows still show what they did (`check:matrices` proves
@@ -1207,8 +1207,8 @@ Four traps are specific to this area:
   translation. Adult names and titles (`Mrs. Taylor`, `Rep. Jeff Jackson`) are never
   translated or re-spelled.
 - **The student name must not come back.** The reviewed `t` of the three Covenant units
-  contains "Cornelia Knight". The revision removes it exactly as the English did.
-  Afterwards, grep every work file and overlay for "Cornelia": 0 hits outside
+  contains "[name withheld]". The revision removes it exactly as the English did.
+  Afterwards, grep every work file and overlay for "[name withheld]": 0 hits outside
   `src/content`-derived content overlays.
 - **The not-a-club line, selection rules and result tiers carry over.** A translation that
   merges "not a club" into "unlike a club", or "runner-up" into "finalist", fails
@@ -1250,7 +1250,7 @@ Steps:
        kept English), and the 0.4–2.5 length ratio;
      - no English month or weekday name outside a quote the English also quotes,
        exempting a month word followed by the same capitalized word as in the English;
-     - **no "Cornelia" or "Knight" in any Covenant unit**;
+     - **no "[name withheld]" or "[name withheld]" in any Covenant unit**;
      - a wrong-script scan (Cyrillic or Greek inside a Latin-script locale; the Bangla
        danda U+0964 is the known false positive).
 4. **Rebuild** each overlay with `node scripts/i18n_build_overlay.mjs --topic <topic> --lang <code>`
@@ -1307,7 +1307,7 @@ command changes, so `.claude/SKILLS.md` is not touched.
     counts;
   - the default-mode output diff is empty;
   - the worktrees are removed.
-- [ ] **Batch 1 name removal:** no "Cornelia" in `src/data/clubsPrograms`,
+- [ ] **Batch 1 name removal:** no "[name withheld]" in `src/data/clubsPrograms`,
       `clubClusters.ts`, `clubCatalog.ts` or `metricValues.ts`, and none on the rendered
       Covenant page or the Compare tip.
 - [ ] **List runs.** Every new `·` run holds every item of the list it replaced, in
@@ -1346,7 +1346,7 @@ command changes, so `.claude/SKILLS.md` is not touched.
 - [ ] **Leaks.** `npm run i18n:leaks -- --lang <code>`: no flag on a rewritten path. It
       prints `at` paths, not stamps, so match its flags against the worklist paths
       (memory `plainadmissions-shipped`).
-- [ ] **Name.** `grep -l Cornelia src/data/overlays/*.json src/data/overlays/work/*.json`
+- [ ] **Name.** `grep -l [name withheld] src/data/overlays/*.json src/data/overlays/work/*.json`
       lists only `content.*` files, or none.
 - [ ] **Build.** `npm run build`: green end to end.
 - [ ] **Render audit.** `npm run build && npx vite preview`, then
@@ -1359,7 +1359,7 @@ command changes, so `.claude/SKILLS.md` is not touched.
   - **Checks on those pages:** every rewritten unit is in the locale, names and figures
     are intact, no `*` renders, and ranges read correctly in RTL. Strip bidi isolates
     before probing text (memory `ccdprofile-shipped`).
-  - **The removed name:** `covenant-day` in `es` and `fa` shows no "Cornelia", on the
+  - **The removed name:** `covenant-day` in `es` and `fa` shows no "[name withheld]", on the
     school page or the Compare tip.
 
 ## Risks
@@ -1515,7 +1515,7 @@ Phase 2: **33 + 1**.
 - **In the six Batch 1 files**, only hidden-flag issues remain.
 - **Across all 15 files**, 77 units still carry issues, and every one is a hidden flag or a
   later batch's school.
-- **The name:** `grep Cornelia` finds 0 in `clubsPrograms/`, `clubClusters.ts`,
+- **The name:** `grep [name withheld]` finds 0 in `clubsPrograms/`, `clubClusters.ts`,
   `clubCatalog.ts` and `metricValues.ts`.
 
 **Step 7 browser check** (headed Chrome via Playwright, `vite preview`, `?lang=en`, every
@@ -1524,7 +1524,7 @@ details open inside `#topic-student-clubs`):
   Covenant's section shows 4 asterisks: the known orphaned `division` markers (Candidates).
 - **Chips:** the not-a-club chips still show (PD, Latin, Christian, CCD, 1 each).
 - **Teaser:** PD's Affinity teaser shows the new headline.
-- **The removed name:** "Cornelia" appears nowhere on `/school/covenant-day/` with every
+- **The removed name:** "[name withheld]" appears nowhere on `/school/covenant-day/` with every
   card of every topic open, and nowhere on
   `/compare/?schools=covenant-day,providence-day&topic=student-clubs`. The new tip text is
   present.
@@ -1849,7 +1849,7 @@ full rendered DOM of each live page, hidden tabs included:
   - the digit-token multiset, money/%/year/`N+` tokens, and the ` · ` count;
   - no `*`/`**`, no bidi controls, no non-Western digits, no Cyrillic/Greek;
   - `t` ≠ English except figures and title-like names; the 0.4–2.5 length ratio;
-  - English months only inside quotes; no "Cornelia".
+  - English months only inside quotes; no "[name withheld]".
 
   All nine locales passed 206/206. One manual change was made before applying: ar
   "Quarterly" "كل فصل" (فصل reads as term or season) became "ربع سنوي".
@@ -1867,7 +1867,7 @@ full rendered DOM of each live page, hidden tabs included:
     `check:fa`, `check:bidi`: ✓;
   - `check:sepdrift`: 0 drifted, ×9;
   - `check_figures.py`: intact for all 3 topics ×9;
-  - "Cornelia": in no overlay or work file;
+  - "[name withheld]": in no overlay or work file;
   - `npm run build`: green end to end.
   - `i18n:leaks`: **1 flag on a new path** across nine locales. It is it Hickory Grove
     `catalog.categories[2].short` "Media", a legitimate keep, since "media" is the same
@@ -1880,7 +1880,7 @@ full rendered DOM of each live page, hidden tabs included:
     English-looking match is Hickory Grove's ensemble and course list, all proper names
     kept in Latin by convention.
   - **Compare:** the four new `us-organizations` tips render translated in all three, and
-    "Cornelia" is absent.
+    "[name withheld]" is absent.
 - **Render audit:** `audit:daterender` (es, fa, hi) is clean: no English-form date on any
   school, Compare or checklist page.
 - **For a native reviewer:**
@@ -1942,5 +1942,5 @@ full rendered DOM of each live page, hidden tabs included:
 - **`metricValues` Carmel `us-organizations` tip reads at grade 13.7.** It predates this
   plan (Compare tips are outside its scope).
 - **The thespianname census missed a student name.** It reported 63 strings, but missed
-  Cornelia Knight at 3 rendered sites. A non-athlete name scan of the other non-sports
+  [name withheld] at 3 rendered sites. A non-athlete name scan of the other non-sports
   areas' `src/data` and Compare quals may be worth one more pass (not in this plan).
