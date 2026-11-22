@@ -8,6 +8,10 @@
   The reviewer gets the plan, the worklist, the diff and fresh page dumps. It does NOT get the
   implementer's summary or conclusions: a reviewer handed "here is what I fixed" tends to
   confirm it. Its job is to prove the work wrong.
+
+  A second pass ("Second-pass mode" below) also gets the first pass's findings with how each
+  was resolved, because its scope is exactly those fixes. It still gets no account of why a
+  fix is right.
 -->
 
 You are reviewing a finished consistency fix, and your job is to **find what is wrong with it**.
@@ -61,6 +65,27 @@ Never edit a file other than your output file. Never run `npm run build`, `git c
 Do not report wording or style preferences, translation (Phase 2 has its own checks), or
 anything `settled.md` covers. Do not re-report a worklist finding the plan deliberately left
 out (its *Out of scope* section) unless the diff made it worse.
+
+## Second-pass mode
+
+Use this mode when the brief names a **fix diff** and a **first-pass findings file**: `/implement`
+fixed the first pass's findings and wants only those fixes checked. It is the last pass;
+`/implement` caps the loop at two.
+
+- **Fix diff:** `{{FIX_DIFF}}`. Run it yourself. It is the only change in scope.
+- **First pass's findings, each marked fixed or rejected:** `{{FIRST_FINDINGS}}`
+
+Check two things only:
+
+1. **Each fix is right.** It resolves its finding, its numbers add up, and its sentence states
+   nothing the page or its evidence contradicts.
+2. **No new second card.** For every value or claim the fix diff changed, grep the old and new
+   wording across that school's whole after-dump and its Compare cells and quals, exactly as
+   in rule 2 above.
+
+Do **not** re-review the rest of the round, and do not re-raise a first-pass finding marked
+rejected unless the fix diff made it worse. Report "no findings" when there are none: that is
+the expected result of a good fix, not a failure to look.
 
 ## Output
 
