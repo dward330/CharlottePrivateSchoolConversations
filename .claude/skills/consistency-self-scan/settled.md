@@ -150,6 +150,31 @@ Each entry's **Still a finding** line names what remains reportable even while i
 
 ---
 
+### S8 — Notre Dame counts as Power 4 in every sport (was CC-T16)
+
+- **Covers:** a pattern. Every College Pipeline roster row, funnel and Compare `p4-commits-2426`
+  cell.
+- **Do not report:** that Notre Dame football is an FBS independent and is still counted Power 4,
+  or that its conference column reads "FBS Ind." beside a P4 level.
+- **Why:** the user's rule. The conference column states the fact and the level states the rule.
+- **Ruled:** by the user, 2026-11-22 (plan `consistency4`): "Include notre dame as power 4".
+- **Still a finding:** a Notre Dame row at any level other than P4, or a card that holds one and
+  defines Power 4 without naming Notre Dame.
+
+---
+
+### S9 — Charlotte Country Day's SAT and ACT class label stays (was CCD-T11)
+
+- **Covers:** these values. The SAT and ACT percentile hints and Compare subs labeled "Class of
+  2027", beside the notes saying the profile does not name the class.
+- **Do not report:** the label against those notes.
+- **Why:** plan `ccdprofile` D11 chose the label, and the notes carry the caveat.
+- **Ruled:** by the user, 2026-11-22 (plan `consistency4`): keep it.
+- **Still a finding:** the profile naming a different class, the figures changing under the label,
+  or the caveat disappearing.
+
+---
+
 ## Rule candidates already turned down
 
 Step 5 must not re-propose these as new `check:consistency` rules.

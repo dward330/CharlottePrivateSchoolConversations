@@ -30,35 +30,47 @@ stop, the UX gate and the no-deploy rule still apply.
 - Every value from an outside source is re-opened before it is typed. A value that moved,
   or whose source cannot be opened, is held and reported.
 - A site that refused a fetch is not fetched again in this round.
-- D items, user decisions and UX-gated changes are held (table below).
+- The held items were ruled on the same day (see Approvals). Five stay held.
 - The three rule candidates are not fixes, so they are not built here.
 
 ## Approvals needed
 
-- CAR-T4 (planner component), CAR-T9 (heading) and COV-T14 (header). None is approved.
-  None is built. Once approved, each is designed in Claude Design first.
+**All given by the user, 2026-11-22:** "Approved for the 3 ux fixes. Include notre dame as power 4.
+Providence day colleges -> fix. The rest is your recommendation".
+
+- **CAR-T4, CAR-T9 and COV-T14 are approved.** Each is designed in Claude Design first, built to
+  that design, then re-captured from the built app.
+  - CAR-T4: a days-per-week field on the planner tier, and the per-camp-day figure divides by it.
+    It is set on every four- and three-day tier at every school (11 tiers, six schools).
+  - CAR-T9: Carmel's matrix heading reads "State-title matrix, 2019–26".
+  - COV-T14: Covenant's merit-table column header reads "AP results" (chrome, ten catalogs).
+- **CC-T16: Notre Dame counts as Power 4, football included.** Football keeps "FBS Ind." in the
+  conference column. Charlotte Christian 9 → 11, Charlotte Catholic stays 15. The cards and the
+  Compare row note say "plus Notre Dame".
+- **PD-T1: fixed by dropping both names from the two sentences.** The recommendation first given
+  was to restore them to the list. That premise was false: neither was ever in the shipped list
+  and neither is in the live 2023–2026 profile. Both come from a 2022–2025 list that never
+  shipped, so merge-never-replace does not apply and nothing leaves the list.
+- **CCD-T11:** keep the current class label (settled S9).
+- **CCD-T4, CCD-T15, LAT-T18:** drop the unsourced claim.
+- **LAT-T15, LAT-T16, LAT-T17:** fix from the committed record.
+- **COV-T4:** the headline follows the list (89 if the recount holds).
+- **CCD-T1, CCD-T2:** price the rows, with no all-in estimate.
+- **CAN-T15:** the honor-society count stays twelve.
+- **GD-T11 / X1:** the tile reads "Not published".
+- **CAN-T17, COV-T15, CAR-T6, CAR-T8, DD-T4:** left until a source can be opened.
 
 ## Out of scope
 
 | id | why held |
 |---|---|
-| PD-T1 | User decision: drop two colleges from the prose, or restore them to the list (the merge-never-replace rule). |
-| CCD-T4 | Category D: needs your ruling or a source we could not open. |
-| CCD-T11 | Category D: needs your ruling or a source we could not open. |
-| CCD-T15 | Category D: needs your ruling or a source we could not open. |
-| CAN-T17 | Category D: needs your ruling or a source we could not open. |
-| LAT-T15 | Category D: needs your ruling or a source we could not open. |
-| LAT-T16 | Category D: needs your ruling or a source we could not open. |
-| LAT-T17 | Category D: needs your ruling or a source we could not open. |
-| LAT-T18 | Category D: needs your ruling or a source we could not open. |
-| CC-T16 | Category D: needs your ruling or a source we could not open. |
-| COV-T14 | UX gate and chrome: a per-school table header. |
-| COV-T15 | Category D: needs your ruling or a source we could not open. |
-| CAR-T4 | UX gate: the planner needs a days-per-week field and a component change. |
-| CAR-T6 | Category D: needs your ruling or a source we could not open. |
-| CAR-T8 | Category D: needs your ruling or a source we could not open. |
-| CAR-T9 | UX gate and chrome: a per-school matrix heading, or a rebuilt matrix. |
-| DD-T4 | Category D: needs your ruling or a source we could not open. |
+| CAN-T17 | Left by the user until its source can be opened. |
+| COV-T15 | Left by the user until its source can be opened. |
+| CAR-T6 | Left by the user until its source can be opened. |
+| CAR-T8 | Left by the user until its source can be opened. |
+| DD-T4 | Left by the user until its source can be opened. |
+| CCD-T11 | Kept as it is, by the user (settled S9). |
+| Hickory Grove matrix heading | Found 2026-11-22: "last 3 seasons" over 2021, 2023 and 2024–25, the CAR-T9 bug at a second school. The approval named Carmel, so ask at the English review. |
 
 ## Steps
 
@@ -69,6 +81,7 @@ stop, the UX gate and the no-deploy rule still apply.
    and the linked sweep file.
 3. Ingest any source-material prose change through `ingest-source-material`.
 4. Regenerate the schema and run the checks and the browser checks.
+4a. Build the items ruled on 2026-11-22 (see Approvals).
 5. Adversarial review (`/implement` 5b), then stop for the English review.
 
 | id | cat | group | limit on the fix |

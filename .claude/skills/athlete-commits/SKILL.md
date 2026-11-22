@@ -254,7 +254,10 @@ Record the choice.
 
 ## Step 4 — Classify
 
-- **Power 4 = SEC / Big Ten / ACC / Big 12** only. Notre Dame counts as ACC on this card.
+- **Power 4 = SEC / Big Ten / ACC / Big 12, plus Notre Dame in every sport** (user, 2026-11-22,
+  settled S8). A Notre Dame row is always `level: 'P4'`. Its `conf` is the real one: `FBS Ind.`
+  for football, `ACC` for the sports it plays there. A card with a Notre Dame row says "plus
+  Notre Dame" where it defines Power 4.
 - **Level and conference strings reuse the existing vocabulary** — grep
   `src/data/sportsPrograms/*.ts` for `level:` and `conf:` before writing a new one. The
   American Athletic Conference is `'American'` (5 uses) not `'AAC'` (3); Furman is

@@ -558,7 +558,7 @@ build on a ledger the association disagrees with; or deploy. Adding the publishe
 cross-referencing its varsity rosters against college rosters and recruiting services, then
 hand the verified record to `/plan`.**
 
-`.claude/skills/athlete-commits/SKILL.md` · added 2026-11-08 · updated 2026-11-08 (every
+`.claude/skills/athlete-commits/SKILL.md` · added 2026-11-08 · updated 2026-11-22 (Notre Dame counts as Power 4 in every sport, football included); 2026-11-08 (every
 varsity sport, HighSchoolOT trackers, LaxNumbers; window check, per-class retention file,
 `seniors-committed` row; the current-senior pass — timing, roster-wide mode, evidence
 grading — after the eleven-school sweep in plan `seniorsrow`)
