@@ -250,7 +250,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'Feb 26',
             tagKind: 'accent',
             detail:
-              '**February 26, 2027** is the school\'s "TK and K notification day." Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
+              '**February 26, 2027** is the school\'s "TK and K notification day." Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The earlier deadline,
@@ -260,7 +260,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'Your application deadline is Jan 2, 2027.',
-          text: 'Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band\'s Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, February 26, 2027. No enrollment contract date is published, so confirm it with the admissions office.',
+          text: 'Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band\'s Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, February 26, 2027. No due date for the enrollment contract is published, so confirm it with the admissions office.',
         },
         checklistRows: [
           {
@@ -361,7 +361,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'Apr 9',
             tagKind: 'accent',
             detail:
-              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
+              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The twice-changing
@@ -370,7 +370,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'The assessment changes twice inside this one band.',
-          text: 'Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child\'s entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the admissions office.',
+          text: 'Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child\'s entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, April 9, 2027. No due date for the enrollment contract is published, so confirm it with the admissions office.',
         },
         checklistRows: [
           {
@@ -469,7 +469,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'Apr 9',
             tagKind: 'accent',
             detail:
-              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
+              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The Feb 26
@@ -478,7 +478,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'February 26, 2027 is the date that binds this band.',
-          text: 'Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. A test seat has to be booked, taken and scored before the deadline. The Visit Day is an assessment day, not a tour: it includes an interview, an on-site assessment and a class observation. Decisions come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the admissions office.',
+          text: 'Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. A test seat has to be booked, taken and scored before the deadline. The Visit Day is an assessment day, not a tour: it includes an interview, an on-site assessment and a class observation. Decisions come on notification day, April 9, 2027. No due date for the enrollment contract is published, so confirm it with the admissions office.',
         },
         checklistRows: [
           {
@@ -582,7 +582,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'Apr 9',
             tagKind: 'accent',
             detail:
-              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. **No enrollment contract date is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**. That notification day covers Grades 9–11. **No notification date is published for Grade 12**, so a Grade 12 family should ask the admissions office.',
+              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**. That notification day covers Grades 9–11. **No notification date is published for Grade 12**, so a Grade 12 family should ask the admissions office.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The Feb 26
@@ -592,7 +592,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'February 26, 2027 is the date that binds this band.',
-          text: 'Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. The Visit Day pairs an interview with a Student Ambassador shadow day, so your child spends the day as a Latin student would. The published assessment requirement covers Grades 9 through 11. Nothing is published for Grade 12 applicants, so ask the admissions office what applies. Decisions for Grades 9–11 come on notification day, April 9, 2027. No enrollment contract date is published, so confirm it with the office.',
+          text: 'Both the ISEE and every remaining file item are due that day. So plan your ERB registration backward from that date, rather than aiming at it. The Visit Day pairs an interview with a Student Ambassador shadow day, so your child spends the day as a Latin student would. The published assessment requirement covers Grades 9 through 11. Nothing is published for Grade 12 applicants, so ask the admissions office what applies. Decisions for Grades 9–11 come on notification day, April 9, 2027. No due date for the enrollment contract is published, so confirm it with the office.',
         },
         checklistRows: [
           {

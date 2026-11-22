@@ -1015,7 +1015,7 @@ const COVENANT_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'projects.propublica.org — [Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561656570), EIN 56-1656570, retrieved 15 Aug 2026',
+        'projects.propublica.org — [Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561656570), EIN 56-1656570, retrieved 15 Aug 2026 · "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" (full text, 22 Nov 2026)',
     },
     {
       id: 'fa-merit',
@@ -1362,7 +1362,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
     {
       icon: 'clock',
       title: 'Published ≠ current.',
-      body: 'Every dollar figure carries the school year it applies to. The transport and aid-document pages sit a year behind the 2026–27 tuition table — different cycles, not a contradiction.',
+      body: 'Every dollar figure carries the school year it applies to. The transport page sits a year behind the 2026–27 tuition table — different cycles, not a contradiction.',
     },
     {
       icon: 'book',
@@ -1451,6 +1451,11 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       timeline: [
         { when: '15 Sep', detail: 'Financial aid application process **opens**' },
         {
+          when: '15 Nov',
+          detail:
+            'Returning families apply again each year: all financial aid materials are due by **15 November** for the award to appear on the annual enrollment contract',
+        },
+        {
           when: '15 Jan',
           detail:
             'Priority round deadline — stated as **15 January 2027** for the next cycle. Applications in by this date are considered for priority decisions',
@@ -1460,11 +1465,6 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
           when: '26 Feb · 9 Apr',
           detail:
             'Award decisions are communicated on notification day: 26 February 2027 for TK and K, 9 April 2027 for Grades 1–11. The school\'s financial aid FAQ says an award is written on the enrollment contract, which is published at acceptance. So a family sees its award in the contract itself',
-        },
-        {
-          when: 'Not published',
-          detail:
-            'Whether aid must be reapplied for annually — the school\'s financial aid FAQ does not say',
         },
       ],
       boxes: [
@@ -1486,7 +1486,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents), retrieved 24 Jul 2026 · [Application Process](https://www.charlottelatin.org/admissions/application-process) (award dates), retrieved 20 Nov 2026 · "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" (full text, 22 Nov 2026)',
+        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents), retrieved 24 Jul 2026 · [Application Process](https://www.charlottelatin.org/admissions/application-process) (award dates), retrieved 20 Nov 2026 · "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" and "[How to Apply for Financial Aid](https://docs.google.com/document/d/1q7BaP7wBPIi4y5bFFqotfPQzl79bpzhd/edit)" (full text, 22 Nov 2026)',
     },
     {
       id: 'fa-numbers',
@@ -1516,7 +1516,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           title: 'Supplemental support',
-          body: 'Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families** and for students who earn a named endowed scholarship. Families learn at acceptance, from the school\'s stewardship and scholarship administrator, whether they qualify and what is covered. It does not publish what else this help covers, or how much need makes a family eligible.',
+          body: 'Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. Its financial aid FAQ adds that students who earn a named endowed scholarship may also have extra school costs covered. Families learn at acceptance, from the school\'s stewardship and scholarship administrator, whether they qualify and what is covered. It does not publish what else this help covers, or how much need makes a family eligible.',
         },
         {
           tag: 'HOW TO READ THE 990 FIGURE',
@@ -1539,10 +1539,10 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           title: 'Named funds that reach beyond tuition',
-          body: 'The scholarships document says the **Malone, Sunny, Thrive, Wall and Kearney** scholarships cover school expenses **beyond tuition**. They are Middle and Upper School awards, made **at the time of acceptance**. There is **no separate application**: the financial aid application is enough. Every accepted Middle or Upper School student with demonstrated financial need is eligible. That matters, because a scholarship that pays for costs beyond tuition is aimed at exactly the gap Section 02 describes.',
+          body: 'The scholarships document says the **Malone, Sunny, Thrive, Wall and Kearney** scholarships cover school expenses **beyond tuition**. They are Middle and Upper School awards, made **at the time of acceptance**. There is **no separate application**: the financial aid application is enough. Every accepted Middle or Upper School student with demonstrated financial need is eligible for a named scholarship. That matters, because a scholarship that pays for costs beyond tuition is aimed at exactly the gap Section 02 describes.',
         },
         {
-          tag: 'NOT PUBLISHED — SIZES, CRITERIA AND STACKING',
+          tag: 'NOT PUBLISHED — SIZES, SELECTION AND STACKING',
           body: 'For each named fund, the public record does not state the award amount or how many are given in a year. Nor does it say whether a scholarship can be held alongside need-based aid. The one number published is that **36 students held awards from 17 endowed scholarships in 2024–25**. That shows how many students the funds reach, not how large an award is. Ask which scholarships an applicant would be considered for, and whether an award reduces need-based aid.',
         },
         {
@@ -1639,14 +1639,14 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         'What are the 2026–27 bus rates?',
         'What is the current share of students receiving tuition assistance, and for which year?',
         'What is the median award, what is the range from smallest to largest, and does any award reach full tuition?',
-        'For each named scholarship: the amount, how many are awarded, the criteria, and whether it can be held alongside need-based aid?',
-        'Must aid be reapplied for annually, do awards typically renew at a consistent level, and is there an appeals or change-of-circumstance process?',
+        'For each named scholarship: the amount, how many are awarded, how recipients are chosen among eligible students, and whether it can be held alongside need-based aid?',
+        'Do awards typically renew at a consistent level from year to year, and is there an appeals or change-of-circumstance process?',
         "Please confirm the four-day and five-day Hawks' Club rates in the two rows flagged in Section 02.",
       ],
     },
   ],
   sources:
-    'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents); [Transportation](https://www.charlottelatin.org/admissions/transportation); [Hawks\' Club](https://www.charlottelatin.org/after-school/hawks-club); [Dining](https://www.charlottelatin.org/student-life/dining); [Upper School Profile 2025–26](https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf); [Endowed Gifts](https://www.charlottelatin.org/support/endowed-gifts) (all 24 Jul 2026) · charlottelatinleads.org — [Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability) (24 Jul 2026) · "[2025-26 Scholarships](https://docs.google.com/document/d/1utWb3PNI0U_PR6NowrtZOzifRjMQNry0/edit)" and "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" (full text retrieved 22 Nov 2026; the live page no longer labels them 2025-26) · [2024–2025 financial aid process presentation](https://www.charlottelatin.org/uploaded/Admissions/2024_2025_Financial_Aid_Process_Presentation.pdf) · IRS Form 990, Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024, via [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/560944449). Commercial school-directory sites publish tuition figures that disagree with one another and with the school\'s own page; none is the source of any figure here. The school did not commission, review or approve this report.',
+    'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents); [Transportation](https://www.charlottelatin.org/admissions/transportation); [Hawks\' Club](https://www.charlottelatin.org/after-school/hawks-club); [Dining](https://www.charlottelatin.org/student-life/dining); [Upper School Profile 2025–26](https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf); [Endowed Gifts](https://www.charlottelatin.org/support/endowed-gifts) (all 24 Jul 2026) · charlottelatinleads.org — [Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability) (24 Jul 2026) · "[2025-26 Scholarships](https://docs.google.com/document/d/1utWb3PNI0U_PR6NowrtZOzifRjMQNry0/edit)" and "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" and "[How to Apply for Financial Aid](https://docs.google.com/document/d/1q7BaP7wBPIi4y5bFFqotfPQzl79bpzhd/edit)" (full text retrieved 22 Nov 2026) · [2024–2025 financial aid process presentation](https://www.charlottelatin.org/uploaded/Admissions/2024_2025_Financial_Aid_Process_Presentation.pdf) · IRS Form 990, Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024, via [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/560944449). Commercial school-directory sites publish tuition figures that disagree with one another and with the school\'s own page; none is the source of any figure here. The school did not commission, review or approve this report.',
 }
 
 const PROVIDENCE_DAY: FinancialAidReport = {
@@ -1941,7 +1941,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance), [Extended Day](https://www.providenceday.org/lower-school/extended-day) (Lower School), [Clubhouse](https://www.providenceday.org/middle-school/clubhouse) (Middle School), [Transportation](https://www.providenceday.org/around-campus/transportation), [Endowment](https://www.providenceday.org/philanthropy/endowment) and [Donor Recognition](https://www.providenceday.org/philanthropy/donor-recognition), [Strategic Framework](https://www.providenceday.org/the-pd-difference/leadership/strategic-framework) (all 24 Jul 2026) · [Report on Philanthropy 2012–13](https://www.providenceday.org/uploaded/Giving/ROP_12-13.pdf), [2013–14](https://www.providenceday.org/uploaded/Giving/ROP_13-14.pdf) and [2017–18](https://www.providenceday.org/uploaded/Giving/ROP_2018-19_Web.pdf), "Enrollment at a Glance" and Endowments · I.R.S. Form 990 filings for Providence Day School, Inc., EIN 56-0952382, via [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/560952382) (Schedule I and Schedule D not retrieved). Commercial tuition aggregators are the source of no figure here. Every figure was anchored to EIN 56-0952382, the 5800 Sardis Road address, or CEEB 340687 before use. The school did not commission, review or approve this report.',
+    'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance), [Extended Day](https://www.providenceday.org/lower-school/extended-day) (Lower School), [Clubhouse](https://www.providenceday.org/middle-school/clubhouse) (Middle School), [Transportation](https://www.providenceday.org/around-campus/transportation), [Endowment](https://www.providenceday.org/philanthropy/endowment) and [Donor Recognition](https://www.providenceday.org/philanthropy/donor-recognition), [Strategic Framework](https://www.providenceday.org/the-pd-difference/leadership/strategic-framework) (all 24 Jul 2026; 2026–27 bus fares 22 Nov 2026) · [Report on Philanthropy 2012–13](https://www.providenceday.org/uploaded/Giving/ROP_12-13.pdf), [2013–14](https://www.providenceday.org/uploaded/Giving/ROP_13-14.pdf) and [2017–18](https://www.providenceday.org/uploaded/Giving/ROP_2018-19_Web.pdf), "Enrollment at a Glance" and Endowments · I.R.S. Form 990 filings for Providence Day School, Inc., EIN 56-0952382, via [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/560952382) (Schedule I and Schedule D not retrieved). Commercial tuition aggregators are the source of no figure here. Every figure was anchored to EIN 56-0952382, the 5800 Sardis Road address, or CEEB 340687 before use. The school did not commission, review or approve this report.',
 }
 
 /* ── Carmel Christian ── transcribed from the school's own 2026-2027 Tuition
@@ -2326,7 +2326,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'hgchristian.org — [Tuition and Fees](https://www.hgchristian.org/tuition-and-fees) / [Scholarships](https://www.hgchristian.org/scholarships) (FACTS billing, 5% early-pay), retrieved 17 Aug 2026',
+        'hgchristian.org — [Tuition and Fees](https://www.hgchristian.org/tuition-and-fees) / [Scholarships](https://www.hgchristian.org/scholarships) (FACTS billing, 5% early-pay), retrieved 17 Aug 2026 and 22 Nov 2026',
     },
     {
       id: 'fa-trend',
@@ -2349,7 +2349,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
     },
   ],
   sources:
-    'hgchristian.org — [Tuition and Fees](https://www.hgchristian.org/tuition-and-fees) (2026-2027 table, retrieved 10 Nov 2026) and [Scholarships](https://www.hgchristian.org/scholarships) (NCSEAA Opportunity Scholarship tiers, ESA+, FACTS Grant & Aid, 5% early-pay) · projects.propublica.org — Nonprofit Explorer (Hickory Grove Baptist Church files no Form 990) · ncleg.gov — [NC Opportunity Scholarship 2023-24 Annual Report](https://webservices.ncleg.gov/ViewDocSiteFile/91108) (state-voucher line, not institutional aid). Retrieved 17 Aug 2026. The school did not commission, review or approve this report.',
+    'hgchristian.org — [Tuition and Fees](https://www.hgchristian.org/tuition-and-fees) (2026-2027 table, retrieved 10 Nov 2026) and [Scholarships](https://www.hgchristian.org/scholarships) (NCSEAA Opportunity Scholarship tiers, ESA+, FACTS Grant & Aid, 5% early-pay, retrieved 22 Nov 2026) · projects.propublica.org — Nonprofit Explorer (Hickory Grove Baptist Church files no Form 990) · ncleg.gov — [NC Opportunity Scholarship 2023-24 Annual Report](https://webservices.ncleg.gov/ViewDocSiteFile/91108) (state-voucher line, not institutional aid). Retrieved 17 Aug 2026. The school did not commission, review or approve this report.',
 }
 
 /* ── Gaston Day ── transcribed from the school's own SCHEDULE OF TUITION AND

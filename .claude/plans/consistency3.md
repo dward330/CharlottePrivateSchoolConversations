@@ -288,6 +288,17 @@ catalogs in `TRANSLATED` (`src/locales/{en,es,bn,ht,te,fr,fa,it,hi,ar}.json`).
    `scripts/i18n_splice_work.mjs`, joining by stamp. Never pop on apply, because stamps
    recur across topics. Run a by-stamp audit that no kept `t` changed. Report kept, added
    and dropped counts.
+1a. **⚠ Shifted overlay paths (found by the second review pass, 2026-11-22).** Overlay
+   entries are keyed by `school:path`, and array positions moved in `financial-aid-report`.
+   Davidson Day's `sections[4].plans` lost its first row; Providence Day's
+   `sections[6].questions` lost one item; Charlotte Latin's engine `timeline` gained a
+   `15 Nov` row at index 1, so every later timeline row moved down. About 20 paths per locale
+   moved, and every moved unit's text still exists elsewhere in the overlay. So **`check:live`
+   passes them** (it tests the set of stamps) while the runtime shows English. Re-extract
+   `financial-aid-report` (and `admissions` for Latin) per locale, so the splice rewrites `at`
+   from the live data. Then replay the lookup by **path** for every touched school before
+   trusting the build: for each `school:path` in the live English, the overlay must resolve
+   it. This is the same class as the mid-array `VALUE_METRICS` insert in `testscores` (#439).
 1b. **Removed units (CCD-R8).** The deleted ladder details, figure notes and box sentences
    drop out of the extract. Confirm the splice reports them as dropped, and that the shortened
    box body and both source lines are re-translated as minimal edits in step 3. LAT-13's
@@ -554,3 +565,34 @@ Out of scope and older than this plan, noted for a later round: some source line
 `$` in es (source lines are not localized). There is research-bookkeeping wording in a few
 source lines ("[research tier]", "Schedule I and Schedule D not retrieved", "aggregators
 checked and excluded"). And five sections with a questions block never render their `source`.
+
+### Second review pass (capped, 2026-11-22): 8 found, 7 fixed, 1 moved to Phase 2
+
+A fresh agent reviewed `6b1b21ee..523d31f4`: the link-review fixes plus the four
+research-finding fixes. It confirmed every live figure (all nine PD fare rows, every HG quote,
+both Latin documents, the DD pages) and the 7 + 9 = 16 / 56% arithmetic. It found:
+
+1. **Latin "reapply annually" was not unpublished. Fixed.** A third document on the same
+   Policies page, "How to Apply for Financial Aid", says returning families must submit all
+   materials by **15 November** for the award to appear on the annual enrollment contract. The
+   timeline now carries a `15 Nov` row (in date order) instead of "Not published", the ask no
+   longer asks about reapplication, and the document is cited and quoted in the Latin record.
+2. **Latin "criteria" was still listed as unpublished. Fixed.** Eligibility is now published,
+   so the tag reads "SIZES, SELECTION AND STACKING", the ask asks how recipients are chosen
+   among eligible students, and the box says "eligible for a named scholarship".
+3. **Latin supplemental support tied lunch to named scholars. Fixed.** Lunch stays with
+   highest-need families (tuition page). The FAQ's "may/will be covered" for named scholars
+   is its own sentence, and the section's source line now cites the FAQ.
+4. **Latin framing said the aid documents "sit a year behind". Fixed:** only the transport
+   page is said to. The footer's "the live page no longer labels them 2025-26" (bookkeeping)
+   is gone.
+5. **Latin Admissions said "No enrollment contract date is published". Fixed** to "No due
+   date for the enrollment contract is published" (8 strings), since the contract itself is
+   published at acceptance.
+6. **Shifted overlay paths. Moved to Phase 2** as step 1a. Nothing to fix in English.
+7. **PD footer dated the Transportation page 24 Jul. Fixed:** "2026–27 bus fares 22 Nov 2026".
+8. **HG lines linked the live Scholarships page under 17 Aug. Fixed:** both lines now carry
+   22 Nov.
+
+The loop is capped at two passes, so the review stops here. **Phase 2 impact:** item 5 adds 8
+Latin admissions strings to translate.

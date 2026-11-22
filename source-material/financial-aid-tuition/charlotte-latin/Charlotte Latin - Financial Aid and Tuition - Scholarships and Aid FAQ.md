@@ -53,3 +53,21 @@ Exported 2026-11-22 as plain text (`/export?format=txt`, HTTP 200) during plan `
 The deep-dive report (24 Jul 2026) had only the documents' summaries and recorded their bodies
 as not retrievable; both are now public. Neither document says whether aid must be reapplied
 for each year.
+
+### Re-verification 2026-11-22 (plan `consistency3`, second review pass)
+
+A third document on the same Policies page, "How to Apply for Financial Aid"
+(https://docs.google.com/document/d/1q7BaP7wBPIi4y5bFFqotfPQzl79bpzhd/edit, exported 2026-11-22,
+HTTP 200), answers the reapplication question. Verbatim:
+
+> The financial aid application process opens on September 15. To be considered for priority
+> round decisions, all financial aid applications must be submitted by January 15. …
+>
+> **Returning Families** — The financial aid application process opens on September 15. In order
+> to receive notification of your eligible financial aid on your annual enrollment contract, all
+> financial aid materials must be submitted by November 15.
+
+It also restates the Clarity points the report already carries: one application for several
+children, usable on a phone, "typically takes 30 minutes or less", progress saved, and 1040/W2
+documents transferred from the IRS. The page lists two more documents, which are not used here:
+1DyLrqj3WhdWdClADvo1Z1Tu4VEDJ67uH and 1xh4eUCBy-UepyPsE_3OXreuwBX0YLV46.
