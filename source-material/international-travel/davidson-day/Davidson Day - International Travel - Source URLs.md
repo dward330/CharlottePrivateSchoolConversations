@@ -197,3 +197,9 @@ https://www.davidsonday.org/p/~board/all-blogs/post/four-students-three-countrie
 2026-11-22): "This was AFAR's final season at Cahal Pech. In 2027, the Belize project moves about 20 minutes upriver
 to Baking Pot, a new Maya site and the start of a new chapter after 20 seasons."
 https://www.davidsonday.org/academics/diploma-distinctions/global-studies still names "Spain, Portugal, and Belize".
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+https://www.davidsonday.org/p/~board/all-blogs/post/four-students-three-countries-one-summer-of-fieldwork (HTTP 200,
+2026-11-22): "This was AFAR's final season at Cahal Pech. In 2027, the Belize project moves about 20 minutes
+upriver to Baking Pot, a new Maya site and the start of a new chapter after 20 seasons."

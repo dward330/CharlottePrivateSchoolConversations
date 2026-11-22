@@ -211,3 +211,9 @@ Fetched 2026-11-22 (curl, HTTP 200).
   $370 / $760 / $1200; K5-8 $1892 to $4414; Instructional Support Class $4455/year.
 - https://www.hgchristian.org/afterschool-program is unchanged: "Study Hall – for students in grades 6–11", to
   5:30 p.m.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+https://www.hgchristian.org/tuition-and-fees and both linked PDFs (HTTP 200, 2026-11-22) match the note above.
+The report now states the withdrawal and delinquency policies and asks only for the lunch, athletic and
+graduation fee amounts.

@@ -105,3 +105,10 @@ Fetched 2026-11-22 (curl, HTTP 200).
   concerts, band festivals, two drama productions and a spring musical." It lists "Technical Theatre & Management"
   in high school and names no middle school choir. The course catalogs name a middle school Choir and no Technical
   Theatre & Management course.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+https://www.hgchristian.org/arts-home ("Two drama productions: a fall show and spring musical") and
+https://www.hgchristian.org/performing-arts ("two drama productions and a spring musical"; "Technical Theatre &
+Management"; no Middle School choir) were both re-read 2026-11-22. Both readings are attributed on the page, and
+the 2026-27 Middle School catalog's "Choir" is cited from https://hgchristian.org/ms-courses.

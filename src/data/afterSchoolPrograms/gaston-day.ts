@@ -3,60 +3,48 @@
 // Every figure is traceable to source-material/after-school/gaston-day/ —
 // "Gaston Day School - After School - Program Hours and Rates 2026.md".
 //
-// ⚠️ TWO SOURCES DISAGREE, and the disagreement is surfaced rather than resolved
-// silently. The school's own SCHEDULE OF TUITION AND FEES 2025-2026 PDF states
-// Lower School care 3:00–6:00 at $95/week and Middle School care 4:00–6:00 at
-// $55/week. The /afterschoolprogram/ web page states 3:15–5:30 for both, at
-// "$100/month" and "$60/month". The DROP-IN rates agree exactly across both
-// sources ($30/day LS, $15/day MS), which is what makes the recurring-rate
-// mismatch legible as a labelling problem: $100/month for daily aftercare would
-// price a whole month below four days of the same page's own drop-in rate.
-//
-// Resolution used here, stated on the card:
-//   - RATES come from the tuition schedule (the signed fee document families are
-//     billed against) — so `basis: 'weekly'` semantics, expressed through the
-//     planner as a weekly figure.
-//   - The OPERATING WINDOW comes from the web page for the day-inside rhythm
-//     (an in-year hours change is likelier to reach a page than a fee PDF),
-//     while the Compare row's `latest-pickup` uses the fee schedule's 6:00 PM.
-// Both figures are shown; neither is quietly dropped.
+// The 2026-27 Schedule of Tuition and Fees PDF and the /afterschoolprogram/ page
+// agree (re-read 2026-11-22, plan consistency4): Lower School care 3:00–5:30 at
+// $100/week, Middle School care 3:15–5:30 at $60/week, billed monthly by the
+// Finance Office. Drop-in is $30/day LS and $15/day MS. The 2025-26 schedule's
+// $95 / $55 and 6:00 close are superseded.
 //
 // THREE of four cards render. `dayInside`'s enrichment catalog is omitted —
-// the school lists enrichment as "coming soon", so there are zero classes to
-// list and a catalog block would be an empty shell.
+// the fee schedule names planned enrichment subjects but no classes, and the
+// page says "coming soon", so a catalog block would be an empty shell.
 
 import type { AfterSchoolProgram } from '../afterSchool.ts'
 
 const PAGE = 'https://www.gastonday.org/afterschoolprogram/'
 const FEES =
-  'https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf'
+  'https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf'
 
 export const gastonDay: AfterSchoolProgram = {
   /* --------------------------------------------------------- 4a coverage -- */
   coverage: {
     headline:
-      'Care runs to 6:00 pm for Pre-K through 8th grade, split into a Lower School tier from 3:00 and a Middle School tier from 4:00.',
+      'Care runs to 5:30 pm for Pre-K through 8th grade. The Lower School tier starts at 3:00 and the Middle School tier at 3:15.',
     subhead:
-      'Both tiers land in the same room by mid-afternoon; the difference is when each division’s day ends, not what the program offers.',
-    hours: ['3 pm', '3:30', '4 pm', '4:30', '5 pm', '5:30', '6 pm'],
+      'Both tiers end at 5:30. The school publishes one afternoon schedule, starting at 3:15.',
+    hours: ['3 pm', '3:30', '4 pm', '4:30', '5 pm', '5:30'],
     basisNote:
-      'Prices shown are the published WEEKLY rates from the school’s 2025-26 Schedule of Tuition and Fees. They assume regular enrollment. Drop-in is billed per day instead and is listed in the facts below. See the flags below: the program web page labels near-identical figures as monthly.',
+      'Prices shown are the published WEEKLY rates from the school’s 2026–27 Schedule of Tuition and Fees. They assume regular enrollment, and the Finance Office bills them monthly. Drop-in is priced per day instead and is listed in the facts below.',
     rows: [
       {
         division: 'Lower School',
-        dismissal: 'PS–4th · dismissal 3:00',
+        dismissal: 'PS–4th · care from 3:00',
         startFrac: 0,
         endFrac: 1,
         tiers: [],
-        flatLabel: 'After School Care · $95/week or $30/day',
+        flatLabel: 'After School Care · $100/week or $30/day',
       },
       {
         division: 'Middle School',
-        dismissal: '5th–8th · dismissal 4:00',
-        startFrac: 0.333,
+        dismissal: '5th–8th · care from 3:15',
+        startFrac: 0.1,
         endFrac: 1,
         tiers: [],
-        flatLabel: 'After School Care · $55/week or $15/day',
+        flatLabel: 'After School Care · $60/week or $15/day',
       },
       {
         division: 'Upper School',
@@ -74,7 +62,7 @@ export const gastonDay: AfterSchoolProgram = {
     facts: [
       {
         label: 'Drop-in',
-        text: 'Available without weekly enrollment at **$30/day** (Lower School) and **$15/day** (Middle School). An **Extended Day Drop-In Fee of $25** also appears on the fee schedule.',
+        text: 'Available without weekly enrollment at **$30/day** (Lower School) and **$15/day** (Middle School). An **Extended Day Drop-In Fee of $25** also appears on the fee schedule. For half-day Preschool and Pre-K it is $25 a day or $120 a week.',
       },
       {
         label: 'Late pickup',
@@ -82,7 +70,7 @@ export const gastonDay: AfterSchoolProgram = {
       },
       {
         label: 'Registration',
-        text: 'Through the **Popsicle** app — the same platform the summer camps use. Registration is free and stated as taking under five minutes.',
+        text: 'Through the **Popsicle** app — the same platform the summer camps use. Registration is free and takes five minutes or less.',
       },
       {
         label: 'Staff contacts',
@@ -90,35 +78,26 @@ export const gastonDay: AfterSchoolProgram = {
       },
       {
         label: 'Music lessons interlock',
-        text: 'Middle School students waiting for a music lesson (**$35/lesson**) may work on homework in aftercare **at no charge**.',
+        text: 'Middle School students waiting for a music lesson (**$35 per 30-minute lesson**) may work on homework in aftercare **at no charge**.',
       },
       {
         label: 'No Upper School care',
         text: 'The program covers **Pre-K through 8th grade only**. No after-school care is published for grades 9–12, which is common but worth stating.',
       },
     ],
-    flags: [
-      {
-        kind: 'verify',
-        text: 'The programme page says **3:15–5:30 pm** for both divisions; the 2025-26 fee schedule says **3:00–6:00** (Lower School) and **4:00–6:00** (Middle School). Both are shown here: the fee schedule sets the rates and the Compare row’s 6:00 pm latest pickup, the page sets the afternoon rhythm. A family should confirm the current window at enrolment.',
-      },
-      {
-        kind: 'verify',
-        text: 'The page prices weekly enrolment at **$100/month** (LS) and **$60/month** (MS); the fee schedule says **$95/week** and **$55/week**. The drop-in rates ($30/day, $15/day) are identical in both. The per-week reading is used, since a monthly rate below four drop-in days is not economically coherent.',
-      },
-    ],
+    flags: [],
     sources: [
-      { label: 'gastonday.org — Schedule of Tuition and Fees 2025-2026 (rates, 3:00–6:00 / 4:00–6:00 windows)', url: FEES },
-      { label: 'gastonday.org — After School Program (3:15–5:30 window, daily schedule, late fees, registration)', url: PAGE },
+      { label: 'gastonday.org — Schedule of Tuition and Fees 2026-2027 (rates, 3:00–5:30 / 3:15–5:30 windows)', url: FEES },
+      { label: 'gastonday.org — After School Program (weekly rates, monthly billing, 5:30 pickup, daily schedule, late fees, registration)', url: PAGE },
     ],
   },
 
   /* ------------------------------------------------------------- 4b cost -- */
   cost: {
     headline:
-      'Aftercare costs $95 a week for the Lower School and $55 for the Middle School.',
+      'Aftercare costs $100 a week for the Lower School and $60 for the Middle School.',
     subhead:
-      'A full school year of five-day Lower School care comes to roughly $3,420 across 36 weeks — before any drop-in days or late fees.',
+      'A full school year of five-day Lower School care comes to roughly $3,600 across 36 weeks — before any drop-in days or late fees.',
     basis: 'weekly',
     periods: 36,
     periodsLabel: '36 school weeks',
@@ -128,14 +107,14 @@ export const gastonDay: AfterSchoolProgram = {
         id: 'ls-week',
         label: 'Lower School · PS–4th',
         panelLabel: 'Lower School · PS–4th · weekly enrollment',
-        prices: [95, 95, 95, 95, 95],
+        prices: [100, 100, 100, 100, 100],
         flatRate: true,
       },
       {
         id: 'ms-week',
         label: 'Middle School · 5th–8th',
         panelLabel: 'Middle School · 5th–8th · weekly enrollment',
-        prices: [55, 55, 55, 55, 55],
+        prices: [60, 60, 60, 60, 60],
         flatRate: true,
       },
       {
@@ -155,35 +134,35 @@ export const gastonDay: AfterSchoolProgram = {
     defaultDays: 5,
     aside: {
       title: 'The weekly rate is flat, so it does not scale with days',
-      text: 'The published $95 and $55 figures are weekly enrollment rates. They stay the same however many afternoons a child attends, which is why those two rows show the same price in every column. Drop-in is the option whose cost grows with use. At Lower School rates, drop-in costs less than weekly enrollment up to three days a week ($90 vs $95). From four days, it costs more ($120 vs $95).',
+      text: 'The published $100 and $60 figures are weekly enrollment rates. They stay the same however many afternoons a child attends, which is why those two rows show the same price in every column. Drop-in is the option whose cost grows with use. At Lower School rates, drop-in costs less than weekly enrollment up to three days a week ($90 vs $100). From four days, it costs more ($120 vs $100).',
     },
     fees: [
-      { label: 'Lower School · weekly enrollment', value: '$95/week' },
+      { label: 'Lower School · weekly enrollment', value: '$100/week' },
       { label: 'Lower School · drop-in', value: '$30/day' },
-      { label: 'Middle School · weekly enrollment', value: '$55/week' },
+      { label: 'Middle School · weekly enrollment', value: '$60/week' },
       { label: 'Middle School · drop-in', value: '$15/day' },
       { label: 'Extended Day Drop-In Fee', value: '$25' },
-      { label: 'Music lessons', value: '$35/lesson' },
+      { label: 'Music lessons, 30 minutes', value: '$35/lesson' },
       { label: 'Late pickup — first 5 minutes', value: '$10' },
       { label: 'Late pickup — each further 5 minutes', value: '$5' },
       {
         label:
-          'This page assumes a 36-week school year so schools can be compared. Gaston Day does not publish that figure. The school states no annual aftercare total, no registration fee, no sibling discount and no tuition-insurance terms for the program.',
+          'This page assumes a 36-week school year so schools can be compared. Gaston Day does not publish that figure. Registration is free. The school states no annual aftercare total, no sibling discount and no refund terms for the program.',
         note: true,
       },
     ],
     flags: [
       {
         kind: 'verify',
-        text: 'The programme page labels these same figures as **$100/month** and **$60/month**. The weekly reading from the official fee schedule is used — see the Coverage card’s flag for why.',
+        text: 'Re-read 2026-11-22: the page and the 2026-27 schedule both give $100 and $60 a week, billed monthly. The 36-week multiplier is our assumption.',
       },
       {
         kind: 'gap',
-        text: 'No registration fee, sibling discount, financial-aid pathway or annual cap is published for aftercare specifically.',
+        text: 'Registration is free. No sibling discount, financial-aid pathway or annual cap is published for aftercare specifically.',
       },
     ],
     sources: [
-      { label: 'gastonday.org — Schedule of Tuition and Fees 2025-2026 (all rates above)', url: FEES },
+      { label: 'gastonday.org — Schedule of Tuition and Fees 2026-2027 (all rates above)', url: FEES },
       { label: 'gastonday.org — After School Program (drop-in and late-pickup policy)', url: PAGE },
     ],
   },
@@ -230,18 +209,18 @@ export const gastonDay: AfterSchoolProgram = {
       'The school frames the afternoon as play first, then structure. First: students arrive to unstructured play. Then they move into a separate homework and snack time, come together for a STEAM-and-collaboration block, and return to their own choice of activity. Middle School students waiting for music lessons may work on homework at no charge. That arrangement is the one stated link with another school program.',
     catalogTitle: 'Enrichment classes',
     catalogIntro:
-      'The school lists enrichment programs as **“coming soon”**, so there is no class catalog to show. The section is on the school’s page, but it lists no offerings yet.',
+      'The school’s page lists enrichment programs as **“coming soon”**. Its 2026–27 fee schedule names planned programs: dance, art and painting, cheer, running (Speedy Spartans), sports (volleyball and basketball), and science and nature. It says details will be sent home during the year.',
     dayFilters: [],
     gradeFilters: [],
     classes: [],
     flags: [
       {
         kind: 'gap',
-        text: 'Enrichment offerings are advertised as "coming soon" with no classes, days, grades or fees published — so no catalog is shown rather than an empty one.',
+        text: 'The school names planned enrichment subjects but publishes no classes, days, grades or fees, so there is no catalog yet.',
       },
       {
         kind: 'verify',
-        text: 'This rhythm is the web page’s 3:15–5:30 window. The fee schedule’s window runs 3:00–6:00 (Lower School), so the published blocks may start 15 minutes earlier and run 30 minutes later than shown.',
+        text: 'The page’s rhythm starts at 3:15. The 2026-27 fee schedule starts Lower School care at 3:00, and the page does not describe that first 15 minutes.',
       },
       {
         kind: 'gap',
@@ -250,42 +229,42 @@ export const gastonDay: AfterSchoolProgram = {
     ],
     sources: [
       { label: 'gastonday.org — After School Program (the full afternoon schedule, snack, homework, tech Fridays)', url: PAGE },
-      { label: 'gastonday.org — Schedule of Tuition and Fees 2025-2026 (music lessons, care windows)', url: FEES },
+      { label: 'gastonday.org — Schedule of Tuition and Fees 2026-2027 (music lessons, care windows, planned enrichment)', url: FEES },
     ],
   },
 
   /* ---------------------------------------------------------- 4d verdict -- */
   verdict: {
     headline:
-      'Cheap, published in detail, and genuinely structured — but with an unresolved conflict between the school’s two own sources on both hours and billing period.',
+      'Priced and scheduled in detail, with a structured afternoon that ends at 5:30.',
     subhead:
-      'For a family that needs care to 6:00 pm, the price is low; confirm the window before relying on it.',
+      'A family that needs care after 5:30 will need another plan.',
     strengthsTitle: 'What holds up',
     strengths: [
-      '**The price is low.** $95/week for Lower School and $55/week for Middle School, with drop-in at $30 and $15 — no registration fee published.',
+      '**The price is published.** $100/week for Lower School and $60/week for Middle School, with drop-in at $30 and $15. Registration is free.',
       '**The afternoon is published minute by minute.** Four named blocks with times, rather than a general description of "supervision and activities".',
       '**Homework is a scheduled block, not an afterthought** — 4:00–4:25, separated by grade level, with snack alongside.',
       '**There is a structured group activity every day** built around STEAM and collaboration, so the afternoon is not purely custodial.',
-      '**Coverage runs to 6:00 pm** on the fee schedule — later than several peers, and covering the full Pre-K–8 span in two tiers.',
+      '**Coverage spans Pre-K through 8th grade** in two tiers, both running to 5:30 pm.',
       '**It interlocks with music lessons**, letting Middle School students do homework free while waiting.',
     ],
     watchoutsTitle: 'What to check',
     watchouts: [
-      '**The hours conflict.** 3:15–5:30 on the program page versus 3:00–6:00 and 4:00–6:00 on the fee schedule — a 30-minute difference at the end of the day that matters if you are relying on it.',
-      '**The billing period conflicts.** "$100/month" on the page versus "$95/week" on the fee schedule. These are very different annual totals; confirm which you will be billed.',
-      '**Enrichment is "coming soon"** — the extras that other schools bundle into aftercare do not exist here yet.',
+      '**Pickup is by 5:30.** Neither division has a later option on the fee schedule.',
+      '**The rate is weekly, but the bill is monthly.** The Finance Office bills care monthly. The school publishes no total for the year.',
+      '**Enrichment is still "coming soon"** on the program page. The fee schedule names planned subjects, with no days or fees.',
       '**No Upper School care.** Grades 9–12 have no published after-school program.',
       '**Late fees start fast** — $10 within the first five minutes, then $5 per five minutes.',
       '**Nothing published on ratios or capacity**, so there is no way to know how many children one adult supervises.',
     ],
     checklist: [
-      'Which is current — 3:15–5:30 on the website, or the 3:00–6:00 and 4:00–6:00 on the fee schedule?',
-      'Is the recurring rate $95 a week or $100 a month? What is the actual annual cost for five days?',
+      'Is any care offered after 5:30?',
+      'How many weeks are billed in a school year, and what is the annual cost for five days?',
       'What is the staff-to-child ratio, and how many children are typically in the room by 5 pm?',
       'When will enrichment classes start, what will they cost, and are they inside the base rate?',
       'Does aftercare run on early-dismissal days, teacher workdays and exam days?',
-      'Is there any financial-aid pathway or sibling discount for aftercare, as there is for tuition?',
-      'How is the 5th–8th grade tier supervised differently from the Pre-K–4th tier once both are in the same room?',
+      'Is there any financial aid for aftercare, as there is for tuition, or a sibling discount?',
+      'How is the 5th–8th grade tier supervised differently from the Pre-K–4th tier?',
     ],
     flags: [],
     sources: [

@@ -170,3 +170,9 @@ award at Davidson Day are required to pay $3,000 per year, per student for tuiti
 Acclaim "will cover 90% of tuition through graduation" and Wolter "covers all but $500 of annual tuition", each
 requiring demonstrated need through the financial aid application. The 2026-27 rates are unchanged ($22,590 /
 $25,010 / $26,320 / $26,910).
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+https://www.davidsonday.org/admission/tuition-and-affordability (HTTP 200, 2026-11-22) still prints all three rules
+above. Derived at the Upper School rate of $26,910: 90% is $24,219 and all but $500 is $26,410, both above the
+$23,910 implied by the $3,000 minimum. The report attributes all three and picks none.

@@ -341,3 +341,13 @@ Fetched 2026-11-22 (curl, HTTP 200; pdftotext).
   Neither 2025-26 edition names iGEM.
 - Both 2025-26 editions list only Spanish in the World Language column and say "All seniors must complete a special
   project or internship in their senior year."
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+Opened 2026-11-22 (curl, HTTP 200; pdftotext).
+
+- https://www.gastonday.org/collegecounseling/ links
+  https://www.gastonday.org/wp-content/uploads/2025/11/25-26-GDS-Profile-1.pdf. A text diff against
+  https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf confirms the two differences above.
+  Both print "Tuition Assistance: 26% of student body".
+- https://www.gastonday.org/upper-school/: "Successful completion through level III of either French or Spanish".

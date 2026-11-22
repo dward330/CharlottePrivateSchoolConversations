@@ -787,7 +787,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '8 / 107', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
       'davidson-day': '5 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
       'hickory-grove-christian': '23 / 107', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists)
-      'gaston-day': '5 / 107', // Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo (Tougaloo also holds Liberal Rank #180)
+      'gaston-day': '5 / 107', // Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo
       'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -798,7 +798,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'scope',
-        text: 'Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo. Tougaloo also holds a 2026 Liberal Arts rank (#180), so it scores in two buckets.',
+        text: 'Historically Black colleges and universities on the 2019–2025 acceptance list, against the federal roster of 107: Hampton, NC A&T, NC Central, Winston-Salem State and Tougaloo.',
       },
       cannon: { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-christian': { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
@@ -1109,7 +1109,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$14,400',
       'davidson-day': '$25,010',
       'hickory-grove-christian': '$11,900',
-      'gaston-day': '$19,500',
+      'gaston-day': '$20,300',
       'providence-day': '$32,960',
     },
     subs: {
@@ -1121,7 +1121,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 · grades 1–5)',
       'davidson-day': '(2026–27 · K–4)',
       'hickory-grove-christian': '(2026–27 · TK–5)',
-      'gaston-day': '(2025–26 · K–4)',
+      'gaston-day': '(2026–27 · K–4)',
       'providence-day': '(2026–27 · grades 1–5)',
     },
     quals: {
@@ -1133,7 +1133,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': { kind: 'scope', text: 'The Grades 1–5 band. Kindergarten is $12,500; the school has no pre-K program.' },
       'davidson-day': { kind: 'scope', text: 'The Lower (K–4) band. The Early Childhood band, from two-year-olds through Junior Kindergarten, is $22,590.' },
       'hickory-grove-christian': { kind: 'scope', text: 'One Elementary band covers TK through grade 5 ($11,900), the school’s own 2026–27 yearly rate.' },
-      'gaston-day': { kind: 'scope', text: 'The Kindergarten–4th all-in band (tuition plus fees, as the school’s own schedule totals it). Preschool/Pre-K is $10,890 full day or $8,775 half day.' },
+      'gaston-day': { kind: 'scope', text: 'The Kindergarten–4th all-in band (tuition plus fees, as the school’s own schedule totals it). Preschool/Pre-K is $11,340 full day or $9,145 half day.' },
       'providence-day': { kind: 'scope', text: 'The Grades 1–5 band, which prices grade 5, the last Lower School year at Providence Day. Transitional Kindergarten is $25,510 and Kindergarten $28,010.' },
     },
   },
@@ -1154,7 +1154,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$17,100',
       'davidson-day': '$26,320',
       'hickory-grove-christian': '$12,900',
-      'gaston-day': '$21,425',
+      'gaston-day': '$22,300',
       'providence-day': '$36,325',
     },
     subs: {
@@ -1166,7 +1166,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 · grades 6–8)',
       'davidson-day': '(2026–27 · grades 5–8)',
       'hickory-grove-christian': '(2026–27 · grades 6–8)',
-      'gaston-day': '(2025–26 · grades 5–8)',
+      'gaston-day': '(2026–27 · grades 5–8)',
       'providence-day': '(2026–27 · grades 6–12)',
     },
     quals: {
@@ -1193,7 +1193,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$18,750', // Grades 9–12, 2026-27 (+$550 tech 9th, +$200 senior fee)
       'davidson-day': '$26,910', // Upper School 9–12, 2026–27
       'hickory-grove-christian': '$14,100', // Grades 9–12; the school's own 2026–27 Tuition and Fees page (re-checked 2026-11-10)
-      'gaston-day': '$22,390', // Grades 9-12 all-in, 2025-26: tuition $20,215 + fees $2,175, as the school's own schedule totals it
+      'gaston-day': '$23,310', // Grades 9-12 all-in, 2026-27: tuition $21,025 + fees $2,285, as the school's own schedule totals it
       'providence-day': '$36,325', // Grades 6–12, 2026–27
     },
     subs: {
@@ -1206,7 +1206,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 · grades 9–12)',
       'davidson-day': '(2026–27 · grades 9–12)',
       'hickory-grove-christian': '(2026–27 · grades 9–12)',
-      'gaston-day': '(2025–26 · grades 9–12)',
+      'gaston-day': '(2026–27 · grades 9–12)',
       'providence-day': '(2026–27 · grades 6–12)',
     },
     quals: {
@@ -1242,7 +1242,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$210,800',
       'davidson-day': '$360,560',
       'hickory-grove-christian': '$178,400',
-      'gaston-day': '$283,650',
+      'gaston-day': '$295,280',
       'providence-day': '$472,595',
     },
     subs: {
@@ -1254,7 +1254,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 rates · K–12, 13 years)',
       'davidson-day': '(2026–27 rates · JK–12, 14 years)',
       'hickory-grove-christian': '(2026–27 rates · TK–12, 14 years)',
-      'gaston-day': '(2025–26 rates · PK–12, 14 years)',
+      'gaston-day': '(2026–27 rates · PK–12, 14 years)',
       'providence-day': '(2026–27 rates · TK–12, 14 years)',
     },
     quals: {
@@ -1266,7 +1266,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': { kind: 'scope', text: 'Thirteen years, not fourteen: Carmel Christian has no pre-K program, so this run starts at Kindergarten — one year at $12,500, five at Grades 1–5, three at Grades 6–8 and four at Grades 9–12, all at 2026–27 rates.' },
       'davidson-day': { kind: 'scope', text: 'One year at the Early Childhood band ($22,590), which is the school’s single published rate for two-year-olds through Junior Kindergarten, then five years at Lower (K–4), four at Middle and four at Upper, all at 2026–27 rates. The school’s Financial Aid report gives the K–12 run alone as $337,970.' },
       'hickory-grove-christian': { kind: 'scope', text: 'Seven years at the TK–5 Elementary band, three at Grades 6–8 and four at Grades 9–12, at the school’s own 2026–27 rates.' },
-      'gaston-day': { kind: 'scope', text: 'One year at the full-day Preschool/Pre-K rate ($10,890; the half-day rate is $8,775), five at Kindergarten–4th, four at 5th–8th and four at 9th–12th, using the school’s all-in bands (tuition plus fees) for 2025–26.' },
+      'gaston-day': { kind: 'scope', text: 'One year at the full-day Preschool/Pre-K rate ($11,340; half day is $9,145), five at Kindergarten–4th, four at 5th–8th and four at 9th–12th. Each uses the school’s all-in 2026–27 band (tuition plus fees).' },
       'providence-day': { kind: 'scope', text: 'One year at Transitional Kindergarten, one at Kindergarten, five at Grades 1–5 and seven at Grades 6–12, all at 2026–27 rates. The same figure the school’s Financial Aid report gives as its full run.' },
     },
   },
@@ -1287,7 +1287,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$126,300',
       'davidson-day': '$212,920',
       'hickory-grove-christian': '$95,100',
-      'gaston-day': '$175,260',
+      'gaston-day': '$182,440',
       'providence-day': '$254,275',
     },
     subs: {
@@ -1299,13 +1299,13 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 rates · grades 6–12)',
       'davidson-day': '(2026–27 rates · grades 5–12)',
       'hickory-grove-christian': '(2026–27 rates · grades 6–12)',
-      'gaston-day': '(2025–26 rates · grades 5–12)',
+      'gaston-day': '(2026–27 rates · grades 5–12)',
       'providence-day': '(2026–27 rates · grades 6–12)',
     },
     quals: {
       'charlotte-latin': { kind: 'scope', text: 'Seven years: three at the Grades 6–8 band and four at Grades 9–12, all at 2026–27 rates.' },
       'hickory-grove-christian': { kind: 'scope', text: 'Seven years: three at Grades 6–8 and four at Grades 9–12, at the school’s own 2026–27 rates.' },
-      'gaston-day': { kind: 'scope', text: 'Eight years: four at 5th–8th and four at 9th–12th, using the school’s all-in bands (tuition plus fees) for 2025–26.' },
+      'gaston-day': { kind: 'scope', text: 'Eight years: four at 5th–8th and four at 9th–12th, using the school’s all-in bands (tuition plus fees) for 2026–27.' },
       'providence-day': { kind: 'scope', text: 'Seven years at the Grades 6–12 band, all at 2026–27 rates.' },
     },
   },
@@ -1326,7 +1326,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$75,000',
       'davidson-day': '$107,640',
       'hickory-grove-christian': '$56,400',
-      'gaston-day': '$89,560',
+      'gaston-day': '$93,240',
       'providence-day': '$145,300',
     },
     subs: {
@@ -1339,13 +1339,13 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '(2026–27 rates · grades 9–12)',
       'davidson-day': '(2026–27 rates · grades 9–12)',
       'hickory-grove-christian': '(2026–27 rates · grades 9–12)',
-      'gaston-day': '(2025–26 rates · grades 9–12)',
+      'gaston-day': '(2026–27 rates · grades 9–12)',
       'providence-day': '(2026–27 rates · grades 9–12)',
     },
     quals: {
       'charlotte-catholic': { kind: 'scope', text: 'Four years at the Community rate ($21,562), the figure the Upper School row shows. A participating Catholic family would pay $60,164 over the same four years, and an international student $94,248.' },
       'hickory-grove-christian': { kind: 'scope', text: 'Four years at the Grades 9–12 band ($14,100), the school’s own 2026–27 rate.' },
-      'gaston-day': { kind: 'scope', text: 'Four years at the 9th–12th all-in band (tuition plus fees, as the school’s own schedule totals it) for 2025–26.' },
+      'gaston-day': { kind: 'scope', text: 'Four years at the 9th–12th all-in band (tuition plus fees, as the school’s own schedule totals it) for 2026–27.' },
       'providence-day': { kind: 'scope', text: 'Four years at the Grades 6–12 band ($36,325), the same figure the school’s Financial Aid report gives for a 9–12 run.' },
     },
   },
@@ -1544,7 +1544,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
       'covenant-day': '2 Blumey wins', // Best Featured Performer 2013 + Student Critic Award 2016; 8 recognitions 2013-2019
       'carmel-christian': '2026 Blumey — Best Actress', // Anna Jernigan, Footloose; advances to the Jimmy Awards
-      'davidson-day': null, // no signature recognition named
+      'davidson-day': '5 Blumey finalists (2026)', // Big Fish, five finalists — the-arts/davidson-day Blumey Verification 2026 (plan consistency4, DD-T5)
       'hickory-grove-christian': '2025–26 Blumey noms', // nominees/finalists both years (Seussical, The Little Mermaid); no win
       'gaston-day': '6-yr superior ratings', // chorus "superior" in regional adjudications over six years; plus UNCSA and Governor's School admissions
       'providence-day': 'Blumey recognition', // repeated Blumey Awards recognition
@@ -1587,6 +1587,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'The 2026 Blumey Award for Best Actress — a student, for Footloose. The winner advances to the national Jimmy Awards.',
       },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'Five Blumey Award finalists in 2026 for Big Fish: Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress and Best Featured Performer. No win is recorded. The Blumeys are the Charlotte region’s high-school musical-theater awards.',
+      },
       'hickory-grove-christian': {
         kind: 'scope',
         text: 'Blumey Award nominees and finalists in back-to-back seasons — Seussical (2025) and Disney’s The Little Mermaid (2026), with two performers recurring. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
@@ -1606,7 +1610,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '1 AP', // AP Music Theory ("Music Theory AP"), the one AP among the Upper School course page's arts courses; re-read 2026-11-22 (plan consistency4 LAT-T8)
       'covenant-day': 'AP Studio Art', // + Honors Studio Art and Honors Auditioned Theatre
       'carmel-christian': '1 AP + 3 Honors', // AP 2-D Art & Design, Honors Art III, Honors Art IV, Honors Acting Studio (course offerings; plan consistency CAR-22)
-      'davidson-day': null, // not detailed
+      'davidson-day': 'AP Studio Art', // the 2026-27 catalog; the 2026-27 profile does not print it — both named in the qual, no winner picked (plan consistency4, DD-T5)
       'hickory-grove-christian': 'AP 2D Studio Art', // atop the Art I–IV studio sequence; the school's own course name (live Visual Arts page + 2026–27 catalog, checked 2026-11-10)
       'gaston-day': 'Visual Art IV (H)', // the terminal visual-arts course — there is no AP Studio Art or AP Art History in the profile's table
       'providence-day': '3 AP arts', // AP Art and Design, AP Art History, AP Music Theory
@@ -1645,6 +1649,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'The school’s 2026–27 profile lists two AP arts courses, AP Art History and AP Art & Design. It also lists nine Honors Fine Arts courses: Acting Studio, Art III, Broadcasting, Upper School Choir, Digital Design and Animation II, Digital Music II, Jazz Band, Orchestra and Wind Ensemble. The 2026–27 curriculum guide also lists AP Music Theory (no description) and two more Honors ensembles, Chamber Ensemble and UKnight Worship.',
       },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'The 2026–27 course catalog lists one arts AP, AP Studio Art, which needs department approval. The 2026–27 School Profile’s course list does not print it.',
+      },
       'hickory-grove-christian': {
         kind: 'scope',
         text: 'The advanced arts course the school names is AP 2D Studio Art (AP 2-D Art & Design), atop the Art I–IV studio sequence. It is a 15-piece body of work; the school publishes no AP score results.',
@@ -1664,9 +1672,9 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '3 ensembles', // Band, Orchestra, Concert Choir, each "Grades 5-12" on /the-arts/performing; re-read 2026-11-22 (plan consistency4 LAT-T8)
       'covenant-day': '9 ensembles', // Children's Choir, MS Band/Choir/Worship, Symphonic Band, HS Choir/Worship/A Cappella + gr.5 intro
       'carmel-christian': '3', // Symphonic Band, Choir, Ignite Band
-      'davidson-day': null, // no count stated
+      'davidson-day': '2 ensembles', // Contemporary Ensemble + the auditioned Theatre Performance Ensemble, 2026-27 catalog (plan consistency4, DD-T5)
       'hickory-grove-christian': '3 ensembles', // HS: Concert Band, Chapel Band, High School Choir (no orchestra); Jazz Band dropped 2026-11-10 — not on the live site or the 2026–27 catalog
-      'gaston-day': '3 ensembles', // US Vocal Performance Ensemble, MS Instrumental Ensemble, MS Chorus (Band and Concert Choir also run as courses)
+      'gaston-day': '3 ensembles', // Upper School: Band, Concert Choir, Vocal Performance Ensemble (the high-school basis; the MS Instrumental Ensemble and Chorus are named in the qual)
       'providence-day': '6 ensembles', // 3 curricular (Band, Orchestra, Chorus) + 3 auditioned (Jazz Ensemble, A Cappella, The ChargHers), as the Arts tile counts them
     },
     quals: {
@@ -1677,7 +1685,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'scope',
-        text: 'Three named ensembles: the Upper School Vocal Performance Ensemble, the MS Instrumental Ensemble (woodwinds, brass, percussion, piano, guitar) and the Middle School Chorus. Band and Concert Choir also run as credit-bearing fine-arts courses but are not counted here as ensembles.',
+        text: 'Three Upper School ensembles: Band, Concert Choir and the Vocal Performance Ensemble. Band and Concert Choir also carry fine-arts credit. The Middle School has its own Instrumental Ensemble and Chorus.',
       },
       cannon: {
         kind: 'scope',
@@ -1702,6 +1710,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': {
         kind: 'scope',
         text: 'Three curricular ensembles (Band, Orchestra, Chorus) and three auditioned groups (Jazz Ensemble, A Cappella, The ChargHers).',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'Two Upper School ensembles that carry credit: Contemporary Ensemble, a rock band open to all, and the auditioned Theatre Performance Ensemble, a theater company.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -1915,7 +1927,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '6:00 PM', // After School / After YCC 3:00–6:00 PM
       'davidson-day': '6:00 PM', // Extended Care, 2:45–6:00 p.m.
       'hickory-grove-christian': '5:30 PM', // Afterschool (TK–5) & Study Hall (6–11), 2:30–5:30 p.m.
-      'gaston-day': '6:00 PM', // per the 2025-26 fee schedule (LS 3:00-6:00, MS 4:00-6:00); the programme page states 5:30 PM — see the discrepancy flag
+      'gaston-day': '5:30 PM', // the 2026-27 fee schedule (LS 3:00-5:30, MS 3:15-5:30) and the program page agree (re-read 2026-11-22)
       cannon: '6:00 PM', // After School Program, 3:00–6:00 p.m. on regular days
       'providence-day': '6:00 PM', // Extended Day (TK–5) and MS Clubhouse both close at 6:00
       // Charlotte Christian's divisions diverge: Lower School Extended Day runs
@@ -1929,7 +1941,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     quals: {
       'gaston-day': {
         kind: 'scope',
-        text: '6:00 PM is from the school\'s own 2025-26 Schedule of Tuition and Fees (Lower School 3:00–6:00, Middle School 4:00–6:00). The After School Program web page states 5:30 PM for both divisions — the two school sources disagree, and a family should confirm the current window.',
+        text: 'The school’s 2026–27 fee schedule runs Lower School care 3:00–5:30 and Middle School care 3:15–5:30. Its After School Program page also says pickup is no later than 5:30 p.m.',
       },
       cannon: {
         kind: 'scope',
@@ -1965,7 +1977,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'official',
-        text: 'The Afterschool program (TK–5) and Study Hall (grades 6–11) share one 2:30–5:30 p.m. window, so 5:30 p.m. is the latest pickup — earlier than the 6:00 p.m. the other schools offer.',
+        text: 'The Afterschool program (TK–5) and Study Hall (grades 6–11) share one 2:30–5:30 p.m. window, so 5:30 p.m. is the latest pickup.',
       },
     },
   },
@@ -1990,7 +2002,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: 'Cost of after-school care',
     // No leader tint: this is a price, so the highest value is the worst one.
     noLead: true,
-    note: 'The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes. Where a school bills monthly and publishes no month count, the year is 9 billing months. Where it publishes an annual or semester price, the monthly figure spreads it over 10 months. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.',
+    note: 'The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it, except Gaston Day’s, which is the weekly rate that school publishes. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes. Where a school bills monthly and publishes no month count, the year is 9 billing months. Where it publishes an annual or semester price, the monthly figure spreads it over 10 months. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.',
     values: {
       cannon: '≈$378/mo', // $3,784/yr ÷ 10 — Cannon publishes the ANNUAL figure only
       'charlotte-christian': '$325/mo', // JK–Grade 4 Extended Day to 6:00 p.m., 5 days/wk, 2026-27
@@ -2001,7 +2013,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '$245/mo', // After School / After YCC 5-day to 6:00 p.m., 2026-27
       'davidson-day': null, // publishes no extended-care pricing — its Extended Care page 404s
       'hickory-grove-christian': '≈$260/mo', // $2,600/yr ÷ 10 — the TK–5 annual price on the Tuition and Fees page (published since at least 2026-11-20, plan consistency HG-16); $35/day Adventure Days is a separate out-of-session program
-      'gaston-day': '$95/wk', // Lower School weekly rate, 2025-26 fee schedule; MS $55/wk; drop-in $30/day LS and $15/day MS
+      'gaston-day': '$100/wk', // Lower School weekly rate, 2026-27 fee schedule; MS $60/wk; drop-in $30/day LS and $15/day MS
       'providence-day': '$750/mo', // TK · 1–6 p.m. tier · 5 days/wk, 2026-27
     },
     tileBasis: {
@@ -2029,11 +2041,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'scope',
-        text: '$95/week is the Lower School (PS–4th) rate on the 2025-26 fee schedule; Middle School (5th–8th) is $55/week. Drop-in is $30/day and $15/day respectively. The program web page labels the recurring figures as $100 and $60 per MONTH — the weekly reading is used because a monthly rate below four drop-in days is not coherent.',
+        text: '$100/week is the Lower School (PS–4th) rate on the 2026–27 fee schedule, for care from 3:00 to 5:30. Middle School (5th–8th) is $60/week from 3:15. Drop-in is $30/day and $15/day. The school bills monthly but publishes no number of weeks, so the cell shows its weekly rate.',
       },
       cannon: {
         kind: 'scope',
-        text: 'Cannon publishes one annual price, $3,784 — the monthly figure above is that spread over 10 months, not a rate the school quotes. It buys the JrK–8 After School Program, 3:00–6:00 p.m. (3 hours) five days a week, at 2025–26 rates: the only school here not on 2026–27, because the page carrying the rate card is no longer publicly linked.',
+        text: 'Cannon publishes one annual price, $3,784 — the monthly figure above is that spread over 10 months, not a rate the school quotes. It buys the JrK–8 After School Program, 3:00–6:00 p.m. (3 hours) five days a week, at 2025–26 rates.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -2093,7 +2105,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '8', // June 1 – July 31, the week of June 29 off
       'carmel-christian': '6', // Jun 8–Jul 23 2026; weeks 2 & 3 are 3-day
       'davidson-day': null, // publishes no summer program — see the negative-finding note
-      'hickory-grove-christian': '8', // ~8 week-blocks Jun–Jul; live 2026 page confirms 8 session windows
+      'hickory-grove-christian': '6', // six distinct weeks in the Summer 2023 catalog (May 30, Jun 5, 12, 19, 26, Jul 24); the live pages show no dates (2027 slate due spring 2027)
       'gaston-day': '8', // June 1 - July 31 2026; no camp the week of June 29 or on June 19, so 8 numbered weeks are not 8 consecutive ones
       'providence-day': '9', // June 1 – July 31, the longest season on this row
     },
@@ -2109,7 +2121,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'The live 2026 page shows eight session windows (Jun–Jul), consistent with the ~8 week-blocks of the Summer 2023 catalog recovered from the Internet Archive; the exact 2026 camp names are hidden behind the school\'s registration platform.',
+        text: 'Six camp weeks in the Summer 2023 catalog, from late May to late July, not summer 2026. The school’s live pages name camp types only. They say the 2027 schedule arrives in spring 2027.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -2151,7 +2163,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '15 named camps (17 sessions) in the Summer 2023 catalog: 9 academic, the College Admissions Boot Camp and 5 athletic. They come from the Internet Archive, because the live 2026 catalog sits behind the school\'s registration platform. A representative slate, not the exact 2026 list.',
+        text: '15 named camps (17 sessions) in the Summer 2023 catalog: 9 academic, the College Admissions Boot Camp and 5 athletic. They come from the Internet Archive, because the live pages name only camp types and sports. A representative slate, not the current list.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -2196,7 +2208,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': 'JK–Grade 12', // rising grades, Little Lion/Cub Camp at the bottom to HS strength & college camps
       'carmel-christian': 'rising K–8', // Summer Adventures
       'davidson-day': null,
-      'hickory-grove-christian': 'rising 1–8', // most camps rising 1st–8th; one HS College Admissions Boot Camp
+      'hickory-grove-christian': 'rising 1–8, 11–12', // Summer 2023: camps rising 1st–8th + the HS College Admissions Boot Camp (11–12)
       'gaston-day': 'rising PK–Grade 12', // Camp Spartan Jr from rising PK; tutoring to rising 12th; Nike camps by age (8-17)
       'providence-day': '4–18', // four by January 1, 2026; About page says 4.5 to 18
     },
@@ -2208,7 +2220,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'scope',
-        text: 'Camp Spartan Jr takes rising PK–K and Camp Spartan rising 1st–5th; half-day enrichment camps span rising PreK–6th; summer tutoring runs to rising 12th. Nike Sports Camps are advertised by age (8–17) rather than by grade.',
+        text: 'Camp Spartan Jr takes rising PK–K and Camp Spartan rising 1st–5th; half-day enrichment camps span rising PreK–8th; summer tutoring runs to rising 12th. Nike Sports Camps are advertised by age (8–17) rather than by grade.',
       },
       'charlotte-latin': {
         kind: 'official',
@@ -2240,7 +2252,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'range',
-        text: 'The great majority of camps serve rising 1st–8th graders, plus one high-school camp (a College Admissions Boot Camp for rising juniors and seniors). From the Summer 2023 catalog, recovered from the Internet Archive.',
+        text: 'From the Summer 2023 catalog: camps for rising 1st–8th graders, plus a College Admissions Boot Camp for rising 11th and 12th graders. The live page now advertises camps for rising kindergarten through middle school.',
       },
     },
   },

@@ -75,7 +75,7 @@ export const trinityEpiscopal: HighSchoolPlacementProgram = {
       {
         value: '9',
         denominator: 'Kindergarten through 8th grade',
-        caption: 'years on one campus before the search begins',
+        caption: 'years on one campus before high school',
       },
     ],
     steps: [

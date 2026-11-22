@@ -1132,7 +1132,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
     {
       icon: 'clock',
       title: 'Published ≠ current.',
-      body: 'The current-year table overwrites the previous one, so no rate history is recoverable. Undated figures are flagged, not guessed.',
+      body: 'The current-year table overwrites the previous one. Archived copies carry rates back to 2022–23. Undated figures are flagged, not guessed.',
     },
     {
       icon: 'book',
@@ -1273,10 +1273,13 @@ const DAVIDSON_DAY: FinancialAidReport = {
       ],
       figureNote:
         'Acclaim Scholars marks the school\'s 25th anniversary. It expects a strong academic record and excellent character. The Wolter Family Foundation Scholarship is paid for by a family foundation based in Cornelius, not by the school. It asks for strong recommendations and significant demonstrated need. Both depend on the student staying in good standing.',
+      // B (plan consistency4, DD-T3, re-read 2026-11-22): the same page prints "$3,000 per
+      // year, per student", Acclaim "90% of tuition" and Wolter "all but $500". Both named
+      // awards exceed the implied ceiling. No winner picked; the report carries the question.
       boxes: [
         {
           tag: 'NOT PUBLISHED — THE AWARD CEILING\'S ARITHMETIC',
-          body: 'The school states no award covers full tuition and that maximum-award families pay **$3,000 per year, per student** (2026–27). Against published tuition that implies ceilings of $19,590 (Early Childhood) to $23,910 (Upper School) — our arithmetic, not a school figure. No share of students on aid, total aid budget, average or median award is published at all.',
+          body: 'The school states no award covers full tuition and that maximum-award families pay **$3,000 per year, per student** (2026–27). Against published tuition that implies ceilings of $19,590 (Early Childhood) to $23,910 (Upper School) — our arithmetic, not a school figure. The school’s two named scholarships state larger awards, so ask whether the $3,000 minimum applies to them. No share of students on aid, total aid budget, average or median award is published at all.',
         },
         {
           tag: 'NOT PUBLISHED — DISCOUNTS',
@@ -1353,7 +1356,8 @@ const DAVIDSON_DAY: FinancialAidReport = {
         'What do we owe if we withdraw mid-year?',
         'What do extended care, lunch, athletics team packs and arts materials cost per year?',
         'Are admission decisions made with or without reference to our aid application?',
-        'What have tuition rates been for each of the last five years?',
+        'What tuition increase do you expect for next year?',
+        'Does the $3,000 minimum payment apply to Acclaim and Wolter scholars?',
       ],
     },
   ],
@@ -2263,7 +2267,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       confidence: 20,
       stats: [
         { value: 'No 990', label: 'church ministry — IRS-exempt from filing' },
-        { value: '$0', label: 'published aid totals, averages, or rates' },
+        { value: 'Not published', label: 'aid totals, averages, or rates' },
         { value: '990-exempt', label: 'no public financial disclosure to derive from' },
       ],
       figureNote:
@@ -2317,7 +2321,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       id: 'fa-paying',
       navTitle: 'Paying the Balance',
       title: 'Payment Plans & Contract Terms',
-      confidence: 45,
+      confidence: 55,
       plans: [
         {
           figure: '$40',
@@ -2333,11 +2337,15 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages. They are found inside the family\'s FACTS portal. No paid-in-full option beyond the 5% early-pay discount, and no late-payment or withdrawal terms, appear in the sources checked.',
+          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages. They are found inside the family\'s FACTS portal. No paid-in-full option beyond the 5% early-pay discount is published, and no late fee is named.',
+        },
+        {
+          title: 'Withdrawal and overdue accounts',
+          body: 'A family must give **written notice at least two weeks before withdrawing**. Without it, the child counts as enrolled for the whole school year. If a child is withdrawn over unpaid bills, the school holds grades and records until the account is paid. A child with an overdue balance at year-end cannot re-enroll.',
         },
       ],
       source:
-        'hgchristian.org — [Tuition and Fees](https://www.hgchristian.org/tuition-and-fees) / [Scholarships](https://www.hgchristian.org/scholarships) (FACTS billing, 5% early-pay), retrieved 17 Aug 2026 and 22 Nov 2026',
+        'hgchristian.org — [Tuition and Fees](https://www.hgchristian.org/tuition-and-fees) / [Scholarships](https://www.hgchristian.org/scholarships) (FACTS billing, financial policies, 5% early-pay); [Educational Support Services Fees](https://files.smartsites.parentsquare.com/14485/edsupportservicesfees26-27.pdf) (PDF), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-trend',
@@ -2352,7 +2360,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       questions: [
         'What share of families receive the school\'s own FACTS-based aid, and what is the average award? (No figure is published, and the church files no 990.)',
         'How many monthly installments does the FACTS plan run, and does it carry a fee?',
-        'Are there other "student services fees" beyond the after-school childcare rate, and where can we see them before enrolling?',
+        'What do lunch, athletic and graduation fees cost? Learning Support lists the Educational Support Services fees.',
         'How does the NCSEAA Opportunity Scholarship interact with the school\'s own FACTS Grant & Aid for a given family?',
         'Is there any appeals or mid-year change-of-circumstance process for need-based aid?',
       ],
@@ -2364,8 +2372,8 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
 }
 
 /* ── Gaston Day ── transcribed from the school's own SCHEDULE OF TUITION AND
-   FEES 2025-2026 PDF (pdftotext -layout), the Cost & Financial Aid page and the
-   Scholarships page — see source-material/financial-aid-tuition/gaston-day/.
+   FEES 2026-2027 PDF (pdftotext -layout; 2025-2026 is the prior year), the Cost &
+   Financial Aid page and the Scholarships page — see source-material/financial-aid-tuition/gaston-day/.
    Two things shape this report: Gaston Day publishes tuition and fees as
    SEPARATE columns plus an explicit combined total, which no other school here
    does; and it runs THREE distinct assistance channels (need-based aid, merit
@@ -2374,7 +2382,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
    diverge so widely. */
 const GASTON_DAY: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2025–26 school year · figures as of 18 Aug 2026',
+  meta: '2026–27 school year · figures as of 22 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -2383,7 +2391,7 @@ const GASTON_DAY: FinancialAidReport = {
     },
     {
       icon: 'clock',
-      title: 'Tuition and fees are billed separately.',
+      title: 'Tuition and fees are listed separately.',
       body: 'Gaston Day publishes a tuition column, a fees column and a combined total. The all-in total is the like-for-like figure against other schools, and is what this report leads with.',
     },
     {
@@ -2398,47 +2406,49 @@ const GASTON_DAY: FinancialAidReport = {
       navTitle: 'Tuition by Band',
       title: 'Tuition by Grade Level',
       confidence: 98,
-      figureCaption: 'Published all-in totals by grade band, 2025-26 — tuition plus fees',
+      figureCaption: 'Published all-in totals by grade band, 2026–27 against 2025–26 — tuition plus fees',
       bands: [
-        { label: 'Preschool/Pre-K half-day', amount: 8775 },
-        { label: 'Preschool/Pre-K full day', amount: 10890 },
-        { label: 'Kindergarten–4th', amount: 19500 },
-        { label: '5th–8th', amount: 21425 },
-        { label: '9th–12th', amount: 22390 },
+        { label: 'Preschool/Pre-K half-day', amount: 9145, prior: 8775, delta: '+4%' },
+        { label: 'Preschool/Pre-K full day', amount: 11340, prior: 10890, delta: '+4%' },
+        { label: 'Kindergarten–4th', amount: 20300, prior: 19500, delta: '+4%' },
+        { label: '5th–8th', amount: 22300, prior: 21425, delta: '+4%' },
+        { label: '9th–12th', amount: 23310, prior: 22390, delta: '+4%' },
       ],
       figureNote:
-        'Five bands from half-day preschool to grade 12. The amounts above are the school’s own published totals; the underlying split at the top band is $20,215 tuition + $2,175 fees = $22,390. Fees scale with the band, from $900 at half-day preschool to $2,175 in the Upper School.',
+        'Five bands run from half-day preschool to grade 12. The amounts above are the school’s own published totals. The top band is $21,025 tuition + $2,285 fees = $23,310. Fees rise with the band, from $945 at half-day preschool to $2,285 in the Upper School.',
       figureNote2:
-        'For 2026-27 the school publishes only a range — $20,300 to $23,310 depending on grade — with no per-grade schedule posted at the time of this research.',
+        'Every band rose about 4% from 2025–26. The top band went from $22,390 to $23,310. The school says it will set 2027–28 tuition in January 2027.',
       source:
-        'gastonday.org — [Schedule of Tuition and Fees 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf) (PDF); [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/) page, retrieved 18 Aug 2026',
+        'gastonday.org — [Schedule of Tuition and Fees 2026-2027](https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf) (PDF); [Schedule of Tuition and Fees 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf) (PDF, prior year); [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/) page, retrieved 22 Nov 2026',
     },
     {
       id: 'fa-beyond',
       navTitle: 'Fees & Added Costs',
       title: 'Fees and Additional Costs',
-      confidence: 90,
+      confidence: 92,
       componentsTitle: 'What sits outside the published total',
       components: [
         { label: 'Bus — round trip · $2,500/yr', status: 'priced' },
         { label: 'Bus — one way · $1,630/yr', status: 'priced' },
         { label: 'Bus — per trip · $18', status: 'priced' },
-        { label: 'After school care, Lower School · $95/week or $30/day', status: 'priced' },
-        { label: 'After school care, Middle School · $55/week or $15/day', status: 'priced' },
-        { label: 'Extended Day drop-in fee · $25', status: 'priced' },
-        { label: 'Music lessons · $35 per lesson', status: 'priced' },
+        { label: 'After school care, Lower School · $100/week or $30/day', status: 'priced' },
+        { label: 'After school care, Middle School · $60/week or $15/day', status: 'priced' },
+        { label: 'Extended Day drop-in fee · $25 ($120/week for half-day preschool)', status: 'priced' },
+        { label: 'Music lessons · $35 per 30-minute lesson', status: 'priced' },
         { label: 'Summer camps · $140–$300/week, plus wrap-around care', status: 'priced' },
         { label: 'Financial aid application fee (Clarity) · $65', status: 'priced' },
         { label: 'Lunch — Sparty’s Dining Service', status: 'unpriced' },
         { label: 'Uniforms / dress code', status: 'unpriced' },
         { label: 'Athletics participation costs', status: 'unpriced' },
+        { label: 'Bus — PM shuttle, Aug 15 to Nov 15 · $600', status: 'priced' },
+        { label: 'Student Services Program & Learning Academy', status: 'unpriced' },
       ],
       componentsNote:
-        'Unusually, almost every add-on Gaston Day publishes has a price. Transport, aftercare, music lessons and summer camp are all priced in dollars on the fee schedule or the camp catalog. What the school does not publish is what tuition itself includes. So the school does not say whether technology, lab fees, retreats and field trips are part of the fees column.',
+        'Most add-ons on this list have a price. Transport, aftercare, music lessons and summer camp are all priced in dollars on the fee schedule or the camp catalog. For Student Services and the Learning Academy, the schedule sends families to the school for details and fees. The school does not say whether lab fees, retreats and field trips are included in tuition or fees.',
       componentsAside:
-        'The fees column is not itemized. A family sees "$2,175 in fees" at the Upper School band without being told what those fees buy.',
+        'The schedule says the fees include security, technology and textbooks. It does not split the $2,285 Upper School fee among them.',
       source:
-        'gastonday.org — [Schedule of Tuition and Fees 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf) (PDF); [After School Program](https://www.gastonday.org/afterschoolprogram/) page; [2026 Summer Camps Catalog](https://docs.google.com/document/d/1_6aE8KD3zpXlr5pQL1D3efBdSAImDMuY-f92oosFNKk/edit?usp=sharing), retrieved 18 Aug 2026',
+        'gastonday.org — [Schedule of Tuition and Fees 2026-2027](https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf) (PDF); [After School Program](https://www.gastonday.org/afterschoolprogram/) page; [2026 Summer Camps Catalog](https://docs.google.com/document/d/1_6aE8KD3zpXlr5pQL1D3efBdSAImDMuY-f92oosFNKk/edit?usp=sharing), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -2483,7 +2493,7 @@ const GASTON_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'gastonday.org — [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/) (Clarity five-step process), retrieved 18 Aug 2026',
+        'gastonday.org — [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/) (Clarity five-step process), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-numbers',
@@ -2493,7 +2503,7 @@ const GASTON_DAY: FinancialAidReport = {
       stats: [
         { value: '26%', label: 'of the student body on tuition assistance — the school’s own figure' },
         { value: 'up to 80%', label: 'of tuition — the published discount ceiling, K–12' },
-        { value: '$0', label: 'published aid budget, total awarded, or average award' },
+        { value: 'Not published', label: 'aid budget, total awarded, or average award' },
       ],
       figureNote:
         'The 26% comes from the school’s own 2025-26 Academic Profile, where "tuition assistance" means need-based aid. At Gaston Day, need-based aid, merit awards and the NC Opportunity Scholarship are three separate channels.',
@@ -2538,7 +2548,7 @@ const GASTON_DAY: FinancialAidReport = {
       boxes: [
         {
           title: 'Three channels, not one',
-          body: 'Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. A family may qualify for more than one. How the three routes affect each other is not published, so it is worth asking the school directly.',
+          body: 'Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. Need-based aid uses an **Indexed Tuition** plan: the school charges a range of tuitions based on a family’s financial need. A family can get both aid and the Opportunity Scholarship. The school subtracts the state award from the cost, and what is left is the possible need. How the Kimbrell awards combine with the other two is not published.',
         },
         {
           tag: 'NOT PUBLISHED',
@@ -2546,33 +2556,47 @@ const GASTON_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'gastonday.org — [Scholarships](https://www.gastonday.org/scholarships/) page; [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/), retrieved 18 Aug 2026',
+        'gastonday.org — [Scholarships](https://www.gastonday.org/scholarships/) page; [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-paying',
       navTitle: 'Paying the Balance',
       title: 'Payment Plans & Terms',
-      confidence: 40,
+      confidence: 80,
       plans: [
         {
-          figure: 'Several',
-          label: 'Payment plans offered',
-          detail: 'The fee schedule states that "Gaston Day offers a variety of payment plans in an effort to make our community more affordable and accessible" — but names none of them, gives no installment counts, dates or fees.',
+          figure: '1×',
+          label: 'Plan A: single payment',
+          detail: 'Due July 1, 2026. After the deposit it is $19,150 for K–4, $21,150 for 5–8 and $22,160 for 9–12. Preschool and Pre-K pay $8,345 for half day or $10,540 for full day.',
         },
         {
-          figure: 'Deposit',
-          label: 'Assumed by every plan',
-          detail: 'All payment plans "assume tuition deposit and fees have been paid" — so the deposit and the full fees column come first, whatever plan a family picks. The deposit amount is not published.',
+          figure: '2×',
+          label: 'Plan B: two payments',
+          detail: 'Due July 1 and December 1, 2026. Each payment is $10,054 for K–4, $11,104 for 5–8 and $11,634 for 9–12. For Preschool and Pre-K it is $4,382 for half day or $5,534 for full day.',
+        },
+        {
+          figure: '9×',
+          label: 'Plan C: nine payments',
+          detail: 'Monthly from May 1, 2026 to January 1, 2027. Each payment is $2,234 for K–4, $2,468 for 5–8 and $2,585 for 9–12. For Preschool and Pre-K it is $974 for half day or $1,230 for full day.',
+        },
+        {
+          figure: '$1,150',
+          label: 'Re-enrollment deposit, K–12',
+          detail: 'For returning students who re-enrolled by February 13, 2026. After that it was $1,250. Preschool and Pre-K pay $800, or $900 if late. Every plan amount already takes the on-time deposit off.',
         },
       ],
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'This is the thinnest section of Gaston Day’s public record. None of these appears anywhere on the public site: plan names · an installment schedule · plan fees · a card-processing surcharge · a deposit amount · a late-payment policy · withdrawal or refund terms · a tuition-insurance or refund-plan option. Many schools publish at least the number of installments.',
+          body: 'The schedule gives no late fee for missed tuition payments and no withdrawal terms. It does not say what the Tuition Refund Program covers. It also gives no deposit amount for a family new to the school.',
+        },
+        {
+          title: 'What Plans B and C add',
+          body: 'Both plans require the **Tuition Refund Program** and add a payment surcharge. Each of the two charges is $479 for K–4, $529 for 5–8 and $554 for 9–12. For Preschool and Pre-K, each is $209 for half day or $264 for full day. On every plan, paying by card adds a **4% processing fee**. A returned payment costs **$100**.',
         },
       ],
       source:
-        'gastonday.org — [Schedule of Tuition and Fees 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf) (PDF), retrieved 18 Aug 2026',
+        'gastonday.org — [Schedule of Tuition and Fees 2026-2027](https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf) (PDF), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-trend',
@@ -2580,17 +2604,17 @@ const GASTON_DAY: FinancialAidReport = {
       title: 'The Trend, and What to Ask',
       confidence: 55,
       stats: [
-        { value: '$22,390', label: 'top band all-in, 2025-26 (tuition $20,215 + fees $2,175)' },
-        { value: '$20,300–$23,310', label: 'the 2026-27 range, published without a per-grade table' },
-        { value: '2 yrs', label: 'of schedules retrievable (2024-25 and 2025-26 PDFs)' },
+        { value: '$23,310', label: 'top band all-in, 2026–27 (tuition $21,025 + fees $2,285)' },
+        { value: '+4%', label: 'about the rise in every band from 2025–26' },
+        { value: '3 yrs', label: 'of fee schedules posted on the school’s site (2024–25 to 2026–27)' },
       ],
       questionsTitle: 'Questions the public record cannot answer',
       questions: [
         'What is the total aid budget, the average award, and how many families receive aid?',
-        'What are the payment plans, how many installments, and what do they cost?',
-        'What is the enrollment deposit, and is it refundable or credited to tuition?',
-        'What exactly do the fees buy — the $2,175 Upper School fees column is not itemized anywhere?',
-        'Do need-based aid, the Kimbrell awards and the NC Opportunity Scholarship stack, or offset each other?',
+        'What does the Tuition Refund Program cover, and what happens if a family withdraws or pays late?',
+        'What deposit does a new family pay, and is it refundable?',
+        'Are lab fees, retreats and field trips included in tuition or fees?',
+        'How do the Kimbrell awards combine with need-based aid and the NC Opportunity Scholarship?',
         'What is the amount of the Kimbrell Family Scholarship, and when are both Kimbrell awards decided?',
         'Given the rolling deadline and the August funds warning, by what date should a family realistically apply?',
       ],
@@ -2598,7 +2622,7 @@ const GASTON_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'gastonday.org — [Schedule of Tuition and Fees 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf) (PDF) · [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/) · [Scholarships](https://www.gastonday.org/scholarships/) · [Academic Profile 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf) (PDF) · [After School Program](https://www.gastonday.org/afterschoolprogram/) · [2026 Summer Camps Catalog](https://docs.google.com/document/d/1_6aE8KD3zpXlr5pQL1D3efBdSAImDMuY-f92oosFNKk/edit?usp=sharing) · nces.ed.gov [PSS](https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?ID=01011099) — retrieved 18 Aug 2026',
+    'gastonday.org — [Schedule of Tuition and Fees 2026-2027](https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf) (PDF) · [Schedule of Tuition and Fees 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf) (PDF, prior year) · [Schedule of Tuition and Fees 2024-2025](https://www.gastonday.org/wp-content/uploads/2024/06/2425-tuition-fees-ALL.pdf) (PDF) · [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/) · [Scholarships](https://www.gastonday.org/scholarships/) · [After School Program](https://www.gastonday.org/afterschoolprogram/), retrieved 22 Nov 2026 · [Academic Profile 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf) (PDF) · [2026 Summer Camps Catalog](https://docs.google.com/document/d/1_6aE8KD3zpXlr5pQL1D3efBdSAImDMuY-f92oosFNKk/edit?usp=sharing) · nces.ed.gov [PSS](https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?ID=01011099), retrieved 18 Aug 2026',
 }
 
 const CHARLOTTE_CATHOLIC: FinancialAidReport = {
@@ -3075,7 +3099,7 @@ const CHARLOTTE_PREP: FinancialAidReport = {
         { label: 'Grades 5–8', amount: 30200, prior: 26250, delta: '+15% (2 yrs)' },
       ],
       figureNote:
-        'The comparison is with **2024-25**, the last year the school\'s tuition page survives in the archive — 2025-26 was never captured — so each change covers **two years**, about 7% a year. Since 2024-25 the school has **folded its athletics, fine arts and technology fees into tuition**, so part of the rise replaces fees families once paid separately. The board\'s stated aim is to keep tuition "**at or below the median of peer schools**".',
+        'The comparison is with **2024-25**, the last year the school\'s tuition page survives in the archive — 2025-26 was never captured — so each change covers **two years**, about 7% a year. The school **folded its athletics, fine arts and technology fees into tuition** in 2024-25, so both years in this comparison include them. The board\'s stated aim is to keep tuition "**at or below the median of peer schools**".',
       figureNote2:
         'A **3% discount** applies for younger siblings of current students.',
       source:
@@ -3095,7 +3119,7 @@ const CHARLOTTE_PREP: FinancialAidReport = {
         { label: 'After School Program, K–8 — $4,500 a year', status: 'priced' },
         { label: 'Drop-in after school — $20 an hour', status: 'priced' },
         { label: 'Early School Extended Day — $2,700 (TK) to $5,900 (Pre-Primary/Primary)', status: 'range' },
-        { label: 'Summer camp — $250 to $600 a week (2026)', status: 'range' },
+        { label: 'Summer camp — $175 to $600 a week (2026)', status: 'range' },
         { label: 'Lunch through FLIK — billed separately', status: 'unpriced' },
         { label: 'After School Studios — a fee for each class', status: 'unpriced' },
         { label: 'Field trips — "may be assessed"', status: 'unpriced' },

@@ -44,7 +44,8 @@ is treated as the current operating window, since an in-year hours change is the
 of the two to be reflected on a page and not in a fee PDF. Both are surfaced, and the
 figures used in the app are copied char-for-char from S2.
 
-**Latest pickup used in the app: 6:00 PM** (S2), on the 12-hour clock per the standing rule.
+**Superseded by the 2026-27 schedule: the latest pickup used in the app is 5:30 PM**, at $100
+a week for Lower School and $60 for Middle School. The conflict above is against the 2025-26 schedule only.
 
 ## Programme detail (S1)
 
@@ -107,3 +108,12 @@ Fetched 2026-11-22 (curl, HTTP 200).
   practice may work on homework at no charge."
 - So the period and hours conflicts recorded above hold only against the 2025-26 schedule. The page and the 2026-27
   schedule agree on $100 / $60 a week and 5:30.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+Opened 2026-11-22 (curl, HTTP 200).
+
+- https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf and
+  https://www.gastonday.org/afterschoolprogram/ both give $100 and $60 a week and a 5:30 close. The page bills
+  monthly, and the registration links go to popsicle.app.
+- Derived: 36 assumed weeks x $100 = $3,600 (Lower School) and 36 x $60 = $2,160 (Middle School).

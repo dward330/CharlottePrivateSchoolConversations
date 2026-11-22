@@ -92,7 +92,7 @@ export const davidsonDay: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'No summer program is published on the live site, and no summer page exists in the site map. An archived 2019 camp page and a third-party listing site exist, but the school has not confirmed either one on its own pages.',
+        text: 'No summer camp is published on the live site, and no summer page exists in the site map. An archived 2019 camp page and a third-party listing site exist, but the school has not confirmed either one on its own pages. The Learning Enrichment Center’s summer tutoring and therapy are separate: see Learning Support.',
       },
       {
         kind: 'gap',
@@ -171,7 +171,7 @@ export const davidsonDay: AfterSchoolProgram = {
     subhead:
       'Extended care is explicitly excluded from financial aid, which makes the missing price tag a real decision problem rather than a documentation quibble.',
     strengths: [
-      '**Coverage runs to 6:00 p.m.**, competitive with peers, and spans **Traditional Toddler through grade 8** — including a toddler tier many schools do not cover at all.',
+      '**Coverage ran to 6:00 p.m.** for **Traditional Toddler through grade 8** on the school’s 2020 page. Confirm it still does.',
       '**Before School Care was teacher-staffed at 7:1** — genuinely strong for before-care, and staffed by full-time Davidson Day teachers rather than outside hires, if it still holds.',
       '**The school is straightforwardly honest that aid does not reach extended care**, stating it plainly on the tuition page rather than burying it in a fee schedule.',
       '**A long-running program with a real operating history** — the archived material describes an established operation with sign-out procedures and age-appropriate grouping.',

@@ -217,7 +217,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: 'Wildcat Cycling Adventure',
-        desc: 'A half-day cycling camp for the older Middle School bands.',
+        desc: 'A half-day cycling camp for rising 4th–8th graders.',
         category: 'sports',
         categoryLabel: 'Sports & outdoors',
         grades: ['4', '5', '6', '7', '8'],
@@ -336,7 +336,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: 'Tennis 101',
-        desc: 'Half-day tennis instruction spanning the whole Middle School band.',
+        desc: 'Half-day tennis instruction for rising 3rd–8th graders.',
         category: 'sports',
         categoryLabel: 'Sports & outdoors',
         grades: ['3', '4', '5', '6', '7', '8'],
@@ -401,7 +401,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: 'Cartooning, Anime and Character Design with Procreate',
-        desc: 'A full-day digital illustration camp for the Middle School band.',
+        desc: 'A full-day digital illustration camp for rising 5th–8th graders.',
         category: 'arts',
         categoryLabel: 'Arts & making',
         grades: ['5', '6', '7', '8'],
@@ -533,7 +533,7 @@ export const trinityEpiscopal: SummerProgram = {
       },
       {
         name: 'Kamp HUROP: Think Higher - The Level Up Leadership Lab (boys only)',
-        desc: 'A Middle School leadership camp, and the second of the two gender-restricted camps.',
+        desc: 'A leadership camp for rising 5th–8th graders, and the second of the two gender-restricted camps.',
         category: 'enrichment',
         categoryLabel: 'Games & enrichment',
         grades: ['5', '6', '7', '8'],
@@ -1237,9 +1237,10 @@ export const trinityEpiscopal: SummerProgram = {
     ],
     fees: [
       {
-        label: 'Nonrefundable deposit, per camp',
+        // No `amount`: the policy says the deposit goes "towards your camp tuition",
+        // so it is part of the camp price and not a one-time fee (TRI-T1).
+        label: 'Nonrefundable deposit, per camp, credited to the camp price',
         value: '$50',
-        amount: 50,
       },
       {
         label: 'Administrative fee, at registration',

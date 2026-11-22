@@ -30,7 +30,7 @@ Years 2019–20, 2020–21, 2022–23 and 2025–26 are missing because no archi
 
 These percentages are our own arithmetic on the school's published prices, not figures the school publishes.
 
-Before 2019, Charlotte Prep raised tuition about 2–4% a year. From 2021–22 on the pace picked up to roughly 5–7% a year. The two years from 2024–25 to 2026–27 added 15%, about 7% a year.
+Before 2019, Charlotte Prep raised Grades 1–8 tuition about 2–4% a year, and held Kindergarten flat for two of those years. From 2021–22 on the pace picked up to roughly 5–7% a year. The two years from 2024–25 to 2026–27 added 15%, about 7% a year.
 
 Two things changed alongside the prices. From 2024–25 the school folded its athletics, fine arts and technology fees into tuition, so part of that year's rise replaced fees families used to pay separately. Before-school care from 7:30 a.m. was free through 2021–22; by 2023–24 the page said "No additional before school care is available at this time."
 
@@ -107,3 +107,8 @@ https://charlotteprep.org/about/strategic-plan-2022-2027 (HTTP 200, 2026-11-22):
 for athletics, fine arts, and technology in tuition for the 2024-25 school year and will continue to do so moving
 forward. Other fees, which are mainly for optional activities, will still be billed separately." The fees were
 already inside the 2024-25 prices.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+https://charlotteprep.org/about/strategic-plan-2022-2027 (HTTP 200, 2026-11-22) matches the note above. The "2-4% a
+year" sentence was narrowed to Grades 1-8: Kindergarten rose 0%, 0% and 3% over those three years.

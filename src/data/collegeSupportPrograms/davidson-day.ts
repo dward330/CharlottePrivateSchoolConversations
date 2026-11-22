@@ -677,7 +677,7 @@ export const davidsonDay: CollegeSupportProgram = {
         title: 'Lever 1 — Build the spike',
         glyph: '◆',
         items: [
-          '**AFAR international field research** — real archaeology digs. The 2026–27 profile lists ongoing sites in Belize, Spain (2014), Greece (2017) and Portugal (2018). The school’s Global Studies page and its 2027 trip schedule name only Spain, Portugal and Belize. The profile dates the Belize dig to 2009; its research page dates AFAR itself to 2006. The Belize dig runs with the BVAR project at Cahal Pech, under a permit from the Belize Institute of Archaeology. The program’s history appears in a peer-reviewed journal (*Heritage*, 2020). Students publish and present at conferences around the world.',
+          '**AFAR international field research** — real archaeology digs. The 2026–27 profile lists ongoing sites in Belize, Spain (2014), Greece (2017) and Portugal (2018). The school’s Global Studies page and its 2027 trip schedule name only Spain, Portugal and Belize. The profile dates the Belize dig to 2009; its research page dates AFAR itself to 2006. The Belize dig ran with the BVAR project at Cahal Pech through 2026, under a permit from the Belize Institute of Archaeology. It moves to Baking Pot in 2027. The program’s history appears in a peer-reviewed journal (*Heritage*, 2020). Students publish and present at conferences around the world.',
           '**Global Studies Diploma** — a core course in Honors Anthropology, four approved AP courses, a world language and a capstone paper. The profile asks for the same language in all four Upper School years and at least two weeks of international field research. The Global Studies page asks for Level IV or three levels of one language, and at least 100 practicum hours. Most important, it *produces a separate transcript and profile sent to colleges*. That is an extra document in the file, not a line on the transcript.',
           '**STEMM and Business & Civic Engagement Diplomas** — each requires at least 100 hours of approved internship or practicum (supervised field work). Each also requires Ethics Labs every quarter and an 11th-grade Research Methods Honors course. In 12th grade, students do a Capstone Research Honors mentorship. They then give a public talk at the Scholars Research Conference.',
           '**Recruiting and arts tracks** — a yearly Athletic Recruitment Workshop and National Signing Day events. One recent signing day saw seven NLI (National Letter of Intent) signings. For the arts, there is AP Studio Art, plus portfolio results at SCAD, Pratt, Manhattan School of Music, UNCSA and AMDA.',
@@ -816,7 +816,7 @@ export const davidsonDay: CollegeSupportProgram = {
     points: [
       {
         label: 'The spike machinery is real and credited',
-        text: 'AFAR is not a service trip. Students dig under permit at Cahal Pech with the BVAR project. The 2026–27 profile lists four countries, each with a start year; the 2027 schedule names three. Students publish and present at conferences, and the program’s history appears in a peer-reviewed journal.',
+        text: 'AFAR is not a service trip. Students dug under permit at Cahal Pech with the BVAR project for 20 seasons. The Belize dig moves to Baking Pot in 2027. The 2026–27 profile lists four countries, each with a start year; the 2027 schedule names three. Students publish and present at conferences, and the program’s history appears in a peer-reviewed journal.',
       },
       {
         label: 'The Global Studies Diploma sends a second transcript',

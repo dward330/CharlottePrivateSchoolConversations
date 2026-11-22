@@ -7248,9 +7248,11 @@ const GASTON_DAY: CourseOfferings = {
       grades: 'Grades 9 – 12',
       teaser:
         '46 named courses across eight departments, including 10 AP courses and one dual-enrollment course taught by Gaston Day faculty.',
-      source: 'gastonday.org — Academic Profile 2025-2026 (curriculum table)',
+      // Two 2025-26 editions are live. November is the one College Counseling links;
+      // September (…/2025/09/New-GDS-Profile-25-26.pdf) prints British Literature.
+      source: 'gastonday.org — Academic Profile 2025-2026, November 2025 edition (curriculum table)',
       sourceUrl:
-        'https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf',
+        'https://www.gastonday.org/wp-content/uploads/2025/11/25-26-GDS-Profile-1.pdf',
       departments: [
         {
           name: 'English',
@@ -7258,7 +7260,7 @@ const GASTON_DAY: CourseOfferings = {
             { title: 'English 9', tag: 'Honors', description: 'First of the four required years of English.' },
             { title: 'English 10', tag: 'Honors', description: 'Second-year English, offered at the Honors level.' },
             { title: 'American Literature', tag: 'Honors', description: 'Upper-level survey offered at the Honors level.' },
-            { title: 'British Literature', tag: 'Honors', description: 'Upper-level survey offered at the Honors level.' },
+            { title: 'European Literature (British Literature in the September edition)', tag: 'Honors', description: 'Upper-level survey at the Honors level. The November 2025 profile calls it European Literature. The September 2025 edition calls it British Literature.' },
             { title: 'English Literature & Composition', tag: 'AP', description: 'College-level literary analysis; all AP students must sit the exam.' },
             { title: 'English Language & Composition', tag: 'AP', description: 'College-level rhetoric and composition; all AP students must sit the exam.' },
           ],
@@ -7298,7 +7300,9 @@ const GASTON_DAY: CourseOfferings = {
         {
           name: 'World Language',
           courses: [
-            { title: 'Spanish I, II, III', description: 'Completion through Level III, in Spanish or French, is required for graduation, except for international students for whom English is a second language.' },
+            // B (plan consistency4, GD-T16): the Upper School page says "either French or
+            // Spanish"; both profile editions' course tables print Spanish only. No winner picked.
+            { title: 'Spanish I, II, III', description: 'The Upper School page requires completion through Level III in Spanish or French to graduate. International students for whom English is a second language are exempt. The profile’s course table lists only Spanish.' },
             { title: 'Spanish IV', tag: 'Honors', description: 'The final course in the Spanish sequence, beyond the graduation requirement.' },
           ],
         },
