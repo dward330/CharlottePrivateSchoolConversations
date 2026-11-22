@@ -1,5 +1,5 @@
 # Charlotte Latin School — Admissions
-> Distilled from 2 source document(s) in `source-material/admissions/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 2 source document(s) in `source-material/admissions/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Grade-by-Grade Application Plans, Live Dates Check 2026-11-10
 
 
@@ -209,9 +209,9 @@ pages):
  the school year"
 - **October 10, 2026, 9:30–11:00 a.m.** — TK/K Fly By Open House
 - **January 2, 2027** — TK/Kindergarten application due
-- **January 15, 2027** — Grades 1–12 application due
+- **January 15, 2027** — Grades 1–11 application due (corrected 2026-11-22: the school's dates list names no Grade 12 deadline)
 - **January 15, 2027** — Financial aid application due (priority round) — the same day as the
- Grades 1–12 application deadline, and exactly **13 days after** the TK/Kindergarten
+ Grades 1–11 application deadline, and exactly **13 days after** the TK/Kindergarten
  application deadline
 - **February 26, 2027** — Middle School and Upper School testing completed/submitted AND all
  file material due
@@ -411,6 +411,30 @@ This file is not ingested. A data refresh of the Latin admissions card should go
  the same day. The Financial Aid report (figures as of 24 Jul 2026) still lists that timing as
  "Not published"; it predates this block.
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+Fetched 2026-11-22, each HTTP 200.
+
+- https://www.charlottelatin.org/admissions/application-process: "Applicants take the WPPSi. Please
+ refer to the CAIS brochure for all details." Its dates block reads "January 15: Grades 1-11
+ applications due". Its calendar lists "Jan 15 2027 Grades 1-11 Admissions Applications Due" and
+ "Jan 20 2027 Coffee & Panel for Parents of TK/KG Applicants 9:30 AM - 11:00 AM".
+- https://www.charlottelatin.org/admissions: the calendar lists "Grades 1-11 Admissions Applications
+ Due", and the page says "we welcome and encourage applications for all grade levels".
+- The "CAIS brochure" link on the Application Process page,
+ https://www.charlottelatin.org/fs/resource-manager/view/b7d9c0ac-a112-48e1-a634-98bf792f9cad,
+ redirects to
+ https://resources.finalsite.net/images/v1786969110/charlottelatin/zqmzmbmo4bnhaqcddhl6/CAIS2027-2028Upload.pdf.
+ It is the 2027-2028 edition and lists Charlotte Latin School as a member. Verbatim:
+ - "TK/JK/K CAIS Testing Complete by February 1, 2027"
+ - "Grades 1-4 CAIS Testing Completed by February 26, 2027"
+ - "TK/JK/K for all CAIS schools: Notification date is Friday, February 26, 2027. Contracts must be
+ returned by Friday, March 5, 2027."
+ - "Grades 1-4 for all CAIS schools: Notification date is Thursday, April 9, 2027. Contracts must be
+ returned by Thursday, April 16, 2027." (Both dates fall on a Friday in 2027.)
+ - "Testing Fees: $300 for WPPSI-IV $300 for WISC-V"
+ - "In addition to the assessment, CAIS schools require an interview with each child."
+
 
 ---
 
@@ -418,11 +442,15 @@ This file is not ingested. A data refresh of the Latin admissions card should go
 
 - https://app.clarityapp.com/sign-up>
 - https://charlottelatin.fsenrollment.com>
+- https://resources.finalsite.net/images/v1786969110/charlottelatin/zqmzmbmo4bnhaqcddhl6/CAIS2027-2028Upload.pdf
 - https://www.charlottelatin.org/academics/lower-school>
 - https://www.charlottelatin.org/admissions
 - https://www.charlottelatin.org/admissions/application-process
+- https://www.charlottelatin.org/admissions/application-process:
 - https://www.charlottelatin.org/admissions/application-process>
 - https://www.charlottelatin.org/admissions/inquire>
 - https://www.charlottelatin.org/admissions/meet-our-team>
 - https://www.charlottelatin.org/admissions/tuition-financial-assistance>
+- https://www.charlottelatin.org/admissions:
 - https://www.charlottelatin.org/admissions>
+- https://www.charlottelatin.org/fs/resource-manager/view/b7d9c0ac-a112-48e1-a634-98bf792f9cad

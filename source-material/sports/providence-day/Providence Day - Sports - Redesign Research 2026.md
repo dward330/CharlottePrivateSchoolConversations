@@ -489,3 +489,76 @@ On3 named PD directly as the beneficiary of the private-school window.
 - The ESPN "one of the best programs in the country" quote is sourced only via Wikipedia; the
   original ESPN article was not located. **Not used in the app.**
 - No NIL deals for any PD athlete other than David Sanders Jr. were located.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://archives.ncisaa.org/index.php?sport=23&years=2023-2024 (HTTP 200), 4A Girls Basketball
+  bracket: "#1 Cannon School (23-7)" and "#2 Providence Day School (21-9)" are the finalists.
+  Cannon won, so Providence Day was the 2023–24 runner-up. 21-9 is its record going into that final, and 23-7 is Cannon's after it.
+- https://archives.ncisaa.org/index.php?sport=18&years=2023-2024 (HTTP 200), Division I Boys
+  Lacrosse bracket: "#1 Cannon School (19-3)" won over "#2 Providence Day School (18-5)".
+- Durham Academy also won four 2025–26 titles:
+  - girls cross country: https://www.highschoolot.com/archive/22322092/ "Durham Academy (1) —
+    girls cross country". That article is a through-winter list, updated 3/1/2026, so it cannot
+    support "most of any 4A school" for the full year.
+  - boys tennis: https://archives.ncisaa.org/index.php?sport=16&years=2025-2026, Division 1,
+    "#2 Durham Academy (20-5)" is the champion.
+  - boys lacrosse: https://archives.ncisaa.org/index.php?sport=18&years=2025-2026, Division 1,
+    "#6 Durham Academy (12-6)", final "6-5 (OT)".
+  - girls track: http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_Division_1_Track_and_Field_Championships/
+    "Female Teams ... 1 Durham Academy DAU 123 ... 4 Providence Day PRDA 85".
+- https://en.wikipedia.org/wiki/David_Sanders_Jr. (HTTP 200) cites ESPN, August 17, 2024:
+  "Tennessee lands OT David Sanders, No. 4 recruit in 2025 class". The page's table shows the
+  247Sports Composite rank, 6, so the No. 4 needs "ESPN".
+- https://www.maxpreps.com/news/zV4CX-6SUUy9GSmSTHOLEw/north-carolina-high-school-football-rankings-providence-day-no-1-in-2024-preseason-maxpreps-top-25.htm
+  (HTTP 200): "Providence Day No. 1 in 2024 Preseason MaxPreps Top 25".
+- https://www.pdschargers.com/teams/3816458/boys/cross-country/varsity returns 404, so the
+  "20 consecutive CISAA titles, 2000–2020" claim could not be re-read.
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan, parent check)
+
+https://elonphoenix.com/sports/football/schedule/2026 (HTTP 200, no redirect): the schedule page
+names the CAA 8 times and the Southern Conference 0 times. The Class of 2027 football record and
+the roster row both give "Southern" for Elon (finding PD-U14).
+
+### Re-verification 2026-11-22 (plan consistency5, planning)
+
+https://archives.ncisaa.org/index.php?sport=11&currentyear=1: 2026 4A girls tennis
+final, Charlotte Latin 5, Providence Day 0 (Providence Day runner-up).
+https://archives.ncisaa.org/index.php?sport=31&currentyear=1: Division 1 football final on Friday 11/20,
+"#1 Providence Day School (11-1)" against "#2 Rabun Gap School (8-4)". No result was posted when
+read, so no champion is recorded. Re-read before building.
+
+https://www.pdschargers.com/hs-teams/football-varsity/: champions "1986, 1990, 1991, 2011,
+2019(DII), 2021, 2022, 2023, 2025"; a news headline says the team looks for its fifth title in a
+sixth straight final. The page gives no career record.
+
+- "147-26, 15 seasons": no as-of season found. This record's own stops add to 15 at the 2025
+  season (Davidson Day 6, Oceanside 3, Providence Day 2020 to 2025 is 6). That is our inference.
+- "20 consecutive CISAA titles (2000-2020)": the committed research PDFs (Championships; Coaches,
+  Pedigree and Continuity) give it to the boys' cross country team, not to a coach.
+
+### Re-verification 2026-11-22 (plan consistency5, football final)
+
+The result of the Division 1 final of Friday, November 20, 2026, checked at the user's request:
+**Providence Day 34, Rabun Gap-Nacoochee 18.**
+
+- https://www.wbtv.com/2026/11/21/providence-day-tops-rabun-gap-34-18-capture-ncisaa-division-i-state-title/
+  (published 2026-11-21): "The Chargers captured their fifth state title in football over the
+  last six seasons with a 34-18 win over Rabun Gap".
+- https://ncfootballnews.com/north-carolina-high-school-football-scores-2026-playoffs-round-3/ :
+  "Providence Day 34, Rabun Gap-Nacoochee 18", "their second NCISAA Division I title in a row and
+  the school's fifth in six years".
+- The NCISAA bracket (archives.ncisaa.org, sport=31) and the school's football page showed no
+  result when re-read the same day.
+
+### Re-verification 2026-11-22 (plan consistency5, implement)
+
+- https://archives.ncisaa.org/index.php?sport=31&currentyear=1 still posted no score for the 2026
+  Division 1 football final when re-read at build. The 34–18 result stands on the WBTV and NC Football
+  News reports above, both re-opened. It supersedes "4 titles in 5 years" and "five straight finals" in the body.
+- Cross country (sport=2) and girls golf (sport=20) still posted no 2026-27 results, so the app makes no claim.
+- The 2023-24 girls basketball cell is now RUNNER-UP with no record: the bracket's 21-9 is Providence Day's record
+  going into the final it lost, and it prints no season-ending record for the runner-up.

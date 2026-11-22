@@ -70,10 +70,17 @@
       ]
     },
     {
-      "t": "জুন–আগস্ট",
-      "of": "4f3a376a",
+      "t": "জুন–জুলাই",
+      "of": "6298b842",
       "at": [
-        "providence-day:coverage.summer.season"
+        "providence-day:coverage.summer.season",
+        "charlotte-latin:coverage.summer.season",
+        "charlotte-christian:coverage.summer.season",
+        "charlotte-country-day:coverage.summer.season",
+        "cannon:coverage.summer.season",
+        "gaston-day:coverage.summer.season",
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -1038,19 +1045,6 @@
       "of": "72c3da9a",
       "at": [
         "charlotte-latin:coverage.rows[3].flatLabel"
-      ]
-    },
-    {
-      "t": "জুন–জুলাই",
-      "of": "6298b842",
-      "at": [
-        "charlotte-latin:coverage.summer.season",
-        "charlotte-christian:coverage.summer.season",
-        "charlotte-country-day:coverage.summer.season",
-        "cannon:coverage.summer.season",
-        "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season",
-        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -3100,8 +3094,8 @@
       ]
     },
     {
-      "t": "Extended Day-তে ভাইবোনের কোনো ছাড় প্রকাশিত নয়, আর Extended Day-র জন্য আর্থিক সহায়তার কোনো নীতিও নেই। এটি **আনুষঙ্গিক খরচ** হিসেবে বিল হয়, যা একে টিউশন সহায়তার বাইরে রাখে, যদিও প্রায় 20% শিক্ষার্থী টিউশন সহায়তা পায়। টিউশনের পাতা বলে 341 জন শিক্ষার্থীকে $9.4M, আর Fast Facts বলে 347 জনকে $10.1M। অন্যদিকে গ্রীষ্মকালীন কর্মসূচির নিজস্ব সহায়তার আবেদন আছে।",
-      "of": "84fc27f4",
+      "t": "Extended Day-তে ভাইবোনের কোনো ছাড় প্রকাশিত নয়, আর Extended Day-র জন্য আর্থিক সহায়তার কোনো নীতিও প্রকাশিত নয়। এটি **আনুষঙ্গিক খরচ** হিসেবে বিল হয়, যা একে টিউশন সহায়তার বাইরে রাখে, যদিও প্রায় 20% শিক্ষার্থী টিউশন সহায়তা পায়। টিউশনের পাতা বলে 341 জন শিক্ষার্থীকে $9.4M, আর Fast Facts বলে 347 জনকে $10.1M। অন্যদিকে গ্রীষ্মকালীন কর্মসূচির নিজস্ব সহায়তার আবেদন আছে।",
+      "of": "a659c262",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ]
@@ -3613,8 +3607,8 @@
       ]
     },
     {
-      "t": "অর্থের বিনিময়ে কোনো কর্মসূচি নেই — কেবল সকাল 7:30 থেকে বিনামূল্যে পৌঁছানোর সুযোগ",
-      "of": "3e084a43",
+      "t": "অর্থের বিনিময়ে কোনো সেবা-কর্মসূচি নেই — কেবল সকাল 7:30 থেকে বিনামূল্যে পৌঁছানোর সুযোগ",
+      "of": "619685dc",
       "at": [
         "cannon:coverage.facts[1].text"
       ]
@@ -3781,8 +3775,8 @@
       ]
     },
     {
-      "t": "Cannon যা সত্যিই বিস্তারিতভাবে প্রকাশ করে তা হলো Beyond the Bell: বছরে তিনটি 10 সপ্তাহের enrichment সেশন, যেখানে প্রতিটি ক্লাসের জন্য প্রকৃত দিন, গ্রেড-পরিসর, পরিচালনাকারী ও ফি দেওয়া আছে।",
-      "of": "688c480b",
+      "t": "Cannon যা সত্যিই বিস্তারিতভাবে প্রকাশ করে তা হলো Beyond the Bell, যেখানে বছরে তিনটি 10 সপ্তাহের enrichment সেশন হয়। প্রতিটি ক্লাসের দিন, গ্রেড-পরিসর, পরিচালনাকারী বা তাঁর ভূমিকা, ও ফি দেওয়া আছে।",
+      "of": "37b490f7",
       "at": [
         "cannon:dayInside.subhead"
       ]
@@ -3844,143 +3838,162 @@
       ]
     },
     {
-      "t": "Beyond the Bell — সেশন 3, বসন্ত 2026",
-      "of": "35adb5e8",
+      "t": "Beyond the Bell — সেশন 2, 2026–27",
+      "of": "40273360",
       "at": [
         "cannon:dayInside.catalogTitle"
       ]
     },
     {
-      "t": "JrK থেকে গ্রেড 8-এর জন্য প্রতি বছর তিনটি 10 সপ্তাহের সেশন চলে, সঙ্গে একক সংগীত পাঠ। নিচের 22টি ক্লাস সর্বশেষ প্রকাশিত তালিকা, **9 মার্চ থেকে 22 মে 2026** — স্কুলের নিজস্ব সেশন-বিবরণী থেকে নেওয়া। ফি দেখানো হয়েছে ক্লাসপ্রতি ও সেশনপ্রতি। খেয়াল রাখুন, Beyond the Bell **ASP থেকে আলাদা একটি কেনাকাটা**: 3:00–4:00-এর একটি ক্লাস আপনাকে 6:00 পর্যন্ত সেবা দেয় না।",
-      "of": "b5d62754",
+      "t": "JrK থেকে গ্রেড 8-এর জন্য প্রতি বছর তিনটি 10 সপ্তাহের সেশন চলে, সঙ্গে K–12-এর জন্য একক সংগীত পাঠ। নিচের 31টি ক্লাস সেশন 2-এর তালিকা, **30 নভেম্বর থেকে 5 ফেব্রুয়ারি**। এগুলো স্কুলের নিজস্ব সেশন-বিবরণী থেকে নেওয়া। ফি দেখানো হয়েছে ক্লাসপ্রতি ও সেশনপ্রতি। খেয়াল রাখুন, Beyond the Bell **ASP থেকে আলাদা একটি কেনাকাটা**: 3:00–4:00-এর একটি ক্লাস আপনাকে 6:00 পর্যন্ত সেবা দেয় না।",
+      "of": "3c1e2638",
       "at": [
         "cannon:dayInside.catalogIntro"
       ]
     },
     {
-      "t": "Kelli Waller-এর সঙ্গে ছোট দলে খেলা",
-      "of": "716c2549",
+      "t": "Art in Motion Dance Performing Co.-এর সঙ্গে ট্যাপ ও জ্যাজ নাচ",
+      "of": "3f13bb14",
       "at": [
         "cannon:dayInside.classes[0].desc"
       ]
     },
     {
-      "t": "2–6",
-      "of": "dc4d67cc",
+      "t": "JrK–1",
+      "of": "f42a2236",
       "at": [
-        "cannon:dayInside.classes[0].gradeLabel"
+        "cannon:dayInside.classes[0].gradeLabel",
+        "cannon:dayInside.classes[17].gradeLabel"
       ]
     },
     {
-      "t": "Nash ও Colacion-এর সঙ্গে চিয়ারের মূল বিষয়",
-      "of": "85bf76c2",
+      "t": "আলোকচিত্রে হাতেখড়ি। স্বতন্ত্র প্রশিক্ষক",
+      "of": "4aea9b60",
       "at": [
         "cannon:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "3–6",
+      "of": "71b1a3ef",
+      "at": [
+        "cannon:dayInside.classes[1].gradeLabel",
+        "charlotte-prep:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "Middle School-এর জন্য গুছিয়ে কাজ করার দক্ষতা, স্কুলের আগে, সকাল 7:30–8:00। স্বতন্ত্র প্রশিক্ষক",
+      "of": "42f62174",
+      "at": [
+        "cannon:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "cannon:dayInside.classes[2].gradeLabel",
+        "cannon:dayInside.classes[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "একটি কারুশিল্প ক্লাব। স্বতন্ত্র প্রশিক্ষক",
+      "of": "d4ff7fc6",
+      "at": [
+        "cannon:dayInside.classes[3].desc"
       ]
     },
     {
       "t": "JrK–2",
       "of": "f32a20a3",
       "at": [
-        "cannon:dayInside.classes[1].gradeLabel",
-        "cannon:dayInside.classes[5].gradeLabel",
-        "cannon:dayInside.classes[12].gradeLabel",
-        "cannon:dayInside.classes[15].gradeLabel"
-      ]
-    },
-    {
-      "t": "BrickEd পরিচালিত নির্মাণ ও পরীক্ষার চ্যালেঞ্জ",
-      "of": "fc32f7b2",
-      "at": [
-        "cannon:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–2",
-      "of": "5e92d4cb",
-      "at": [
-        "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel",
-        "charlotte-prep:dayInside.classes[1].gradeLabel"
-      ]
-    },
-    {
-      "t": "McKinsey ও Raphael-এর সঙ্গে মিশ্র মাধ্যমে নির্মাণ",
-      "of": "12042fb8",
-      "at": [
-        "cannon:dayInside.classes[3].desc"
-      ]
-    },
-    {
-      "t": "2–4",
-      "of": "de4d6af2",
-      "at": [
         "cannon:dayInside.classes[3].gradeLabel",
-        "cannon:dayInside.classes[17].gradeLabel"
+        "cannon:dayInside.classes[13].gradeLabel",
+        "cannon:dayInside.classes[22].gradeLabel",
+        "cannon:dayInside.classes[23].gradeLabel"
       ]
     },
     {
-      "t": "Lisa Nussbaumer-এর সঙ্গে দলগত নির্মাণ ও প্রোগ্রামিং",
-      "of": "a4c630c5",
+      "t": "Cannon-এর varsity টেনিস কোচদের সঙ্গে টেনিস",
+      "of": "692bb940",
       "at": [
-        "cannon:dayInside.classes[4].desc"
+        "cannon:dayInside.classes[4].desc",
+        "cannon:dayInside.classes[11].desc"
       ]
     },
     {
-      "t": "3–5",
-      "of": "72b1a582",
+      "t": "K–4",
+      "of": "6492de3d",
       "at": [
         "cannon:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[3].gradeLabel",
-        "charlotte-prep:dayInside.classes[5].gradeLabel"
+        "cannon:dayInside.classes[16].gradeLabel",
+        "charlotte-prep:dayInside.classes[0].gradeLabel"
       ]
     },
     {
-      "t": "Rhiannon Bresalier-এর সঙ্গে পুতুল তৈরি ও পরিবেশনা",
-      "of": "9234b989",
+      "t": "একটি Pokémon ক্লাব। স্বতন্ত্র প্রশিক্ষক",
+      "of": "58d4dc0d",
       "at": [
         "cannon:dayInside.classes[5].desc"
       ]
     },
     {
-      "t": "Craig Rosekrans-এর সঙ্গে রান্নাঘরের দক্ষতা ও রেসিপি",
-      "of": "66339c45",
+      "t": "2–6",
+      "of": "dc4d67cc",
+      "at": [
+        "cannon:dayInside.classes[5].gradeLabel",
+        "cannon:dayInside.classes[10].gradeLabel",
+        "cannon:dayInside.classes[14].gradeLabel",
+        "cannon:dayInside.classes[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "তারযন্ত্র বাজানোর দক্ষতা। স্বতন্ত্র প্রশিক্ষক",
+      "of": "b8f2970c",
       "at": [
         "cannon:dayInside.classes[6].desc"
-      ]
-    },
-    {
-      "t": "1–3",
-      "of": "aa9ea5ea",
-      "at": [
-        "cannon:dayInside.classes[6].gradeLabel"
-      ]
-    },
-    {
-      "t": "পরিচালনায় AR Workshop Concord; 3:00–4:30",
-      "of": "ec18d9af",
-      "at": [
-        "cannon:dayInside.classes[7].desc"
       ]
     },
     {
       "t": "3–8",
       "of": "77b1ad61",
       "at": [
-        "cannon:dayInside.classes[7].gradeLabel",
+        "cannon:dayInside.classes[6].gradeLabel",
         "charlotte-prep:dayInside.classes[2].gradeLabel"
       ]
     },
     {
-      "t": "Art in Motion Dance-এর সঙ্গে নাচ",
-      "of": "6d0482e1",
+      "t": "একটি বেকিং ক্লাস। স্বতন্ত্র প্রশিক্ষক",
+      "of": "039f66ae",
+      "at": [
+        "cannon:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "K–1",
+      "of": "5f92d65e",
+      "at": [
+        "cannon:dayInside.classes[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "একটি maker-space ক্লাস। স্বতন্ত্র প্রশিক্ষক",
+      "of": "a373c8d9",
       "at": [
         "cannon:dayInside.classes[8].desc"
       ]
     },
     {
-      "t": "Kelli Waller-এর সঙ্গে বাইরে ঘোরাঘুরি ও খেলা",
-      "of": "d09d34c2",
+      "t": "1–3",
+      "of": "aa9ea5ea",
+      "at": [
+        "cannon:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "কোচিংয়ে Carolina Soccer Factory",
+      "of": "55c5f69b",
       "at": [
         "cannon:dayInside.classes[9].desc"
       ]
@@ -3989,178 +4002,212 @@
       "t": "JrK–4",
       "of": "f92a2a15",
       "at": [
-        "cannon:dayInside.classes[9].gradeLabel"
+        "cannon:dayInside.classes[9].gradeLabel",
+        "cannon:dayInside.classes[12].gradeLabel",
+        "cannon:dayInside.classes[21].gradeLabel",
+        "cannon:dayInside.classes[25].gradeLabel",
+        "cannon:dayInside.classes[30].gradeLabel"
       ]
     },
     {
-      "t": "কোচিংয়ে Carolina Soccer Factory",
-      "of": "55c5f69b",
+      "t": "diamond-art প্রকল্প। স্বতন্ত্র প্রশিক্ষক",
+      "of": "83ec038d",
       "at": [
         "cannon:dayInside.classes[10].desc"
       ]
     },
     {
-      "t": "K–6",
-      "of": "6292db17",
+      "t": "স্বতন্ত্র প্রশিক্ষক",
+      "of": "c2e74de5",
       "at": [
-        "cannon:dayInside.classes[10].gradeLabel"
-      ]
-    },
-    {
-      "t": "Mayo ও Cavicchi-র সঙ্গে বিভিন্ন বিষয় মিলিয়ে নির্মাণ",
-      "of": "892a9a9a",
-      "at": [
-        "cannon:dayInside.classes[11].desc"
-      ]
-    },
-    {
-      "t": "JrK–1",
-      "of": "f42a2236",
-      "at": [
-        "cannon:dayInside.classes[11].gradeLabel"
+        "cannon:dayInside.classes[12].desc",
+        "cannon:dayInside.classes[29].desc"
       ]
     },
     {
       "t": "পড়ান Le Petit Ballet Co.",
       "of": "54903c06",
       "at": [
-        "cannon:dayInside.classes[12].desc"
+        "cannon:dayInside.classes[13].desc"
       ]
     },
     {
-      "t": "Anne Marie Samuel-এর সঙ্গে দলগত তারযন্ত্র",
-      "of": "cee50463",
+      "t": "চাকায় মৃৎশিল্প। স্বতন্ত্র প্রশিক্ষক",
+      "of": "21bb2035",
       "at": [
-        "cannon:dayInside.classes[13].desc"
+        "cannon:dayInside.classes[14].desc"
+      ]
+    },
+    {
+      "t": "Cannon-এর String Orchestra Director-এর সঙ্গে দলগত তারযন্ত্র",
+      "of": "be9b40b7",
+      "at": [
+        "cannon:dayInside.classes[15].desc"
       ]
     },
     {
       "t": "1–8",
       "of": "a19e97bf",
       "at": [
-        "cannon:dayInside.classes[13].gradeLabel"
+        "cannon:dayInside.classes[15].gradeLabel"
       ]
     },
     {
-      "t": "পরিচালনায় Better Golf for Kids",
-      "of": "f995456f",
-      "at": [
-        "cannon:dayInside.classes[14].desc"
-      ]
-    },
-    {
-      "t": "K–5",
-      "of": "6392dcaa",
-      "at": [
-        "cannon:dayInside.classes[14].gradeLabel"
-      ]
-    },
-    {
-      "t": "Alex Bresalier-এর সঙ্গে ত্রিমাত্রিক শিল্প",
-      "of": "4dd98a79",
-      "at": [
-        "cannon:dayInside.classes[15].desc"
-      ]
-    },
-    {
-      "t": "Middle School-এর জন্য কর্মনির্বাহী দক্ষতা, Sherrill ও O’Brien-এর সঙ্গে",
-      "of": "1cef586d",
+      "t": "Cannon School-এর ল্যাক্রোস কোচদের সঙ্গে ল্যাক্রোস",
+      "of": "9b2f1dbe",
       "at": [
         "cannon:dayInside.classes[16].desc"
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
-      "at": [
-        "cannon:dayInside.classes[16].gradeLabel"
-      ]
-    },
-    {
-      "t": "Donnie Hayes-এর সঙ্গে ক্রীড়া-বিকাশ",
-      "of": "aebfe251",
+      "t": "Nexplore-এর সঙ্গে রোবট কোডিং",
+      "of": "981427da",
       "at": [
         "cannon:dayInside.classes[17].desc"
       ]
     },
     {
-      "t": "Stephanie Lee-র সঙ্গে বস্তুভিত্তিক ইতিহাস",
-      "of": "6c10a569",
+      "t": "খেলোয়াড়ি দক্ষতার বিকাশ। স্বতন্ত্র প্রশিক্ষক",
+      "of": "1e12eca4",
       "at": [
         "cannon:dayInside.classes[18].desc"
       ]
     },
     {
-      "t": "4–8",
-      "of": "d12b05b8",
+      "t": "2–5",
+      "of": "df4d6c85",
       "at": [
-        "cannon:dayInside.classes[18].gradeLabel"
+        "cannon:dayInside.classes[18].gradeLabel",
+        "cannon:dayInside.classes[27].gradeLabel"
       ]
     },
     {
-      "t": "Danielle Sandlof-এর সঙ্গে ক্যামেরার প্রাথমিক বিষয় ও গঠন",
-      "of": "753d981d",
+      "t": "পরিচালনায় Better Golf for Kids Academy",
+      "of": "e35d51f5",
       "at": [
         "cannon:dayInside.classes[19].desc"
       ]
     },
     {
-      "t": "3–6",
-      "of": "71b1a3ef",
+      "t": "1–6",
+      "of": "a79ea131",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel",
-        "charlotte-prep:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[8].gradeLabel"
+        "cannon:dayInside.classes[19].gradeLabel"
       ]
     },
     {
-      "t": "Dobbins ও Fox-এর সঙ্গে পুঁতির শিল্প",
-      "of": "5832d170",
+      "t": "একটি সিরামিকস ক্লাস। স্বতন্ত্র প্রশিক্ষক",
+      "of": "5c6ac547",
       "at": [
         "cannon:dayInside.classes[20].desc"
       ]
     },
     {
-      "t": "K–4",
-      "of": "6492de3d",
-      "at": [
-        "cannon:dayInside.classes[20].gradeLabel",
-        "charlotte-prep:dayInside.classes[0].gradeLabel"
-      ]
-    },
-    {
-      "t": "Danielle Lucas-এর সঙ্গে রং করা ও আঁকা",
-      "of": "e404b9fa",
+      "t": "একটি দৌড়ের ক্লাস। স্বতন্ত্র প্রশিক্ষক",
+      "of": "79379dd5",
       "at": [
         "cannon:dayInside.classes[21].desc"
       ]
     },
     {
-      "t": "K–3",
-      "of": "5d92d338",
+      "t": "AR Workshop-এর সঙ্গে চারুকলা",
+      "of": "ada8f20e",
       "at": [
-        "cannon:dayInside.classes[21].gradeLabel"
+        "cannon:dayInside.classes[22].desc"
       ]
     },
     {
-      "t": "K–8-এর জন্য পাশাপাশি একক সংগীত পাঠ চলে: চেলো ক্লাসপ্রতি $25 (সোম/বুধ), গিটার $25 (বুধ/শুক্র), কণ্ঠ $30 (মঙ্গল/বৃহস্পতি), পিয়ানো $30 (সোম/মঙ্গল/বৃহস্পতি) এবং বেহালা বা ভায়োলা $30 (মঙ্গল/বৃহস্পতি)।",
-      "of": "1bb78a11",
+      "t": "পরিচালনায় Kidokinetics of North Charlotte",
+      "of": "8dd86e42",
+      "at": [
+        "cannon:dayInside.classes[23].desc"
+      ]
+    },
+    {
+      "t": "শেখায় Concord TaeKwonDo Inc.",
+      "of": "3242095f",
+      "at": [
+        "cannon:dayInside.classes[24].desc"
+      ]
+    },
+    {
+      "t": "1–5",
+      "of": "a49e9c78",
+      "at": [
+        "cannon:dayInside.classes[24].gradeLabel"
+      ]
+    },
+    {
+      "t": "Overtime Athletics-এর সঙ্গে cheer",
+      "of": "1aa0fba0",
+      "at": [
+        "cannon:dayInside.classes[25].desc"
+      ]
+    },
+    {
+      "t": "শেখান Charlotte Chess Center-এর প্রধান কোচ",
+      "of": "f5fe7acf",
+      "at": [
+        "cannon:dayInside.classes[26].desc"
+      ]
+    },
+    {
+      "t": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "cannon:dayInside.classes[26].gradeLabel",
+        "trinity-episcopal:dayInside.classes[0].gradeLabel",
+        "trinity-episcopal:dayInside.classes[1].gradeLabel",
+        "trinity-episcopal:dayInside.classes[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "Nexplore-এর সঙ্গে জাদু",
+      "of": "0b37a651",
+      "at": [
+        "cannon:dayInside.classes[27].desc"
+      ]
+    },
+    {
+      "t": "একটি রান্নার ক্লাস। স্বতন্ত্র প্রশিক্ষক",
+      "of": "6a5d3918",
+      "at": [
+        "cannon:dayInside.classes[28].desc"
+      ]
+    },
+    {
+      "t": "5–7",
+      "of": "73037a4a",
+      "at": [
+        "cannon:dayInside.classes[28].gradeLabel"
+      ]
+    },
+    {
+      "t": "K–6",
+      "of": "6292db17",
+      "at": [
+        "cannon:dayInside.classes[29].gradeLabel"
+      ]
+    },
+    {
+      "t": "একটি LEGO ক্লাস। স্বতন্ত্র প্রশিক্ষক",
+      "of": "8e0b917b",
+      "at": [
+        "cannon:dayInside.classes[30].desc"
+      ]
+    },
+    {
+      "t": "K–12-এর জন্য পাশাপাশি একক সংগীত পাঠ চলে: পিয়ানো ক্লাসপ্রতি $30 (সোম/মঙ্গল, আর দ্বিতীয় একজন শিক্ষকের সঙ্গে বুধ/বৃহস্পতি/শুক্র), বেহালা বা ভায়োলা $30 (মঙ্গল/বৃহস্পতি), গ্রেড 2–12-এর জন্য কণ্ঠ $30 (মঙ্গল/বৃহস্পতি/শুক্র), চেলো $25 (সোম–বৃহস্পতি) এবং গিটার $25 (মঙ্গল/বুধ/বৃহস্পতি)।",
+      "of": "d303045f",
       "at": [
         "cannon:dayInside.flags[0].text"
-      ]
-    },
-    {
-      "t": "এটি **2025-26-এর সেশন 3**-এর তালিকা — সর্বশেষ প্রকাশিত। 2026-27-এর Beyond the Bell তালিকা এখনও দেওয়া হয়নি, তাই নির্দিষ্ট ক্লাসগুলো বদলাবে, যদিও দামের পরিসর ও কাঠামো সম্ভবত একই থাকবে।",
-      "of": "bd097f64",
-      "at": [
-        "cannon:dayInside.flags[1].text"
       ]
     },
     {
       "t": "খোদ After School Program-এর জন্য ঘণ্টাভিত্তিক কোনো দৈনিক ছন্দ বা কর্মী-শিশু অনুপাত প্রকাশিত নয়। Middle School-এর আলাদা কোনো কর্মসূচি-বর্ণনা নেই: গ্রেড 5–8 একই JrK–8 কর্মসূচির ভেতরেই।",
       "of": "9c982864",
       "at": [
-        "cannon:dayInside.flags[2].text"
+        "cannon:dayInside.flags[1].text"
       ]
     },
     {
@@ -4206,22 +4253,22 @@
       ]
     },
     {
-      "t": "**বড়, পুরোপুরি দামসহ একটি enrichment তালিকা** — একটিমাত্র সেশনে 22টি আলাদা ক্লাস, রোবোটিক্স ও ব্যালে থেকে ভাস্কর্য, গলফ ও আলোকচিত্র পর্যন্ত। প্রতিটির জন্য নামসহ পরিচালনাকারী ও প্রকৃত ফি দেওয়া আছে।",
-      "of": "591807b0",
+      "t": "**বড়, পুরোপুরি দামসহ একটি enrichment তালিকা** — একটিমাত্র সেশনে 31টি আলাদা ক্লাস, রোবট কোডিং ও ব্যালে থেকে মৃৎশিল্প, গলফ ও আলোকচিত্র পর্যন্ত। প্রতিটির প্রকৃত ফি দেওয়া আছে।",
+      "of": "c7483779",
       "at": [
         "cannon:verdict.strengths[4]"
       ]
     },
     {
-      "t": "**enrichment-এর দাম সাশ্রয়ী ও স্বচ্ছ** — ক্লাসপ্রতি $18–$30 এবং 8 বা 10 ক্লাসের সেশনের জন্য $160–$300, সঙ্গে বাতিল হওয়া ক্লাসের পূর্ণ ফেরত ও একটি ক্ষতিপূরণ সপ্তাহ।",
-      "of": "6274a884",
+      "t": "**enrichment-এর দাম সাশ্রয়ী ও স্বচ্ছ** — ক্লাসপ্রতি $15–$30 এবং 5–15টি ক্লাসের একটি সেশনের জন্য $125–$240। পরিবার প্রথম সপ্তাহের মধ্যে বাতিল করতে পারে, তখন কেবল যে ক্লাসে উপস্থিত ছিল তার দাম দেয়। বাতিল হওয়া ক্লাস সম্ভব হলে পরে পুষিয়ে দেওয়া হয়।",
+      "of": "8aba83f9",
       "at": [
         "cannon:verdict.strengths[5]"
       ]
     },
     {
-      "t": "**Middle School-এর জন্য কর্মনির্বাহী দক্ষতার একটি ক্লাস** (\"Let’s Get Organized\") — এই বয়সের জন্য সত্যিই ব্যতিক্রমী একটি সুযোগ।",
-      "of": "4ab6a038",
+      "t": "**Middle School-এর জন্য গুছিয়ে কাজ করার দক্ষতার একটি ক্লাস** (\"Let’s Get Organized\"), স্কুলের আগে সপ্তাহে দুবার — এই বয়সের জন্য সত্যিই ব্যতিক্রমী একটি সুযোগ।",
+      "of": "77a48c2d",
       "at": [
         "cannon:verdict.strengths[6]"
       ]
@@ -6025,8 +6072,8 @@
       ]
     },
     {
-      "t": "Pre-K থেকে 8th গ্রেড পর্যন্ত যত্ন চলে বিকেল 5:30 পর্যন্ত। Lower School স্তর শুরু হয় 3:00-এ আর Middle School স্তর 3:15-এ।",
-      "of": "fecea180",
+      "t": "Preschool থেকে 8th গ্রেড পর্যন্ত যত্ন চলে বিকেল 5:30 পর্যন্ত। Lower School স্তর শুরু হয় 3:00-এ আর Middle School স্তর 3:15-এ।",
+      "of": "61235bc4",
       "at": [
         "gaston-day:coverage.headline"
       ]
@@ -6151,8 +6198,8 @@
       ]
     },
     {
-      "t": "কর্মসূচিটি কেবল **Pre-K থেকে 8th গ্রেড** পর্যন্তই। গ্রেড 9–12-এর জন্য স্কুলের পরের কোনো যত্ন প্রকাশিত নয়, যা সাধারণ ব্যাপার হলেও বলে রাখার মতো।",
-      "of": "a27225ab",
+      "t": "কর্মসূচিটি কেবল **Preschool থেকে 8th গ্রেড** পর্যন্তই। গ্রেড 9–12-এর জন্য স্কুলের পরের কোনো যত্ন প্রকাশিত নয়, যা সাধারণ ব্যাপার হলেও বলে রাখার মতো।",
+      "of": "ba0c1c4b",
       "at": [
         "gaston-day:coverage.facts[5].text"
       ]
@@ -6608,8 +6655,8 @@
       ]
     },
     {
-      "t": "**সেবা Pre-K থেকে 8th গ্রেড পর্যন্ত বিস্তৃত**, দুটি স্তরে; দুটিই চলে বিকেল 5:30 পর্যন্ত।",
-      "of": "55e040df",
+      "t": "**সেবা Preschool থেকে 8th গ্রেড পর্যন্ত বিস্তৃত**, দুটি স্তরে; দুটিই চলে বিকেল 5:30 পর্যন্ত।",
+      "of": "a5a8e713",
       "at": [
         "gaston-day:verdict.strengths[4]"
       ]
@@ -6713,8 +6760,8 @@
       ]
     },
     {
-      "t": "5th–8th গ্রেডের স্তরটির তদারকি Pre-K–4th স্তরটির থেকে কীভাবে আলাদা হয়?",
-      "of": "3bc8eeb5",
+      "t": "5th–8th গ্রেডের স্তরটির তদারকি Preschool–4th স্তরটির থেকে কীভাবে আলাদা হয়?",
+      "of": "88b837f1",
       "at": [
         "gaston-day:verdict.checklist[6]"
       ]
@@ -6959,15 +7006,6 @@
       "at": [
         "trinity-episcopal:dayInside.classes[0].desc",
         "trinity-episcopal:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–8",
-      "of": "5892cb59",
-      "at": [
-        "trinity-episcopal:dayInside.classes[0].gradeLabel",
-        "trinity-episcopal:dayInside.classes[1].gradeLabel",
-        "trinity-episcopal:dayInside.classes[2].gradeLabel"
       ]
     },
     {
@@ -7433,6 +7471,13 @@
       ]
     },
     {
+      "t": "K–2",
+      "of": "5e92d4cb",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
+      ]
+    },
+    {
       "t": "একটি এক-অঙ্ক নাটকের জন্য অডিশন দেওয়া ও তাতে অভিনয় করা।",
       "of": "e1c0cf53",
       "at": [
@@ -7444,6 +7489,14 @@
       "of": "b9eaca1b",
       "at": [
         "charlotte-prep:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "3–5",
+      "of": "72b1a582",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
       ]
     },
     {

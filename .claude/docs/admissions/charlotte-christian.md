@@ -150,6 +150,10 @@ corrected to 2027 in the app's data file.
 - https://www.charlottechristian.com/admissions/tuition re-opened: current families "due by Nov. 2, 2026", prospective "due by Jan. 22, 2027", and the Opportunity Scholarship requirement, opening "Feb. 1, 2027". Built in Financial Aid and Admissions.
 - The same page and https://www.charlottechristian.com/admissions/faqs carry no statement that Opportunity Scholarship participation ends after 2025–26, so that inference is removed from the app.
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.charlottechristian.com/admissions/tuition (fetched): "The application fee is $65." (under the Clarity financial assistance links). "Current family applications are due by Nov. 2, 2026." "Prospective family applications are due by Jan. 22, 2027." The Opportunity Scholarship requirement is still on the page.
+
 
 ---
 

@@ -654,7 +654,7 @@ a current student without a documented commitment, claim a scholarship, or deplo
 **Scan every school page for places where the app contradicts itself through its own data,
 diagnose each conflict against the live source, and hand the worklist to `/plan`.**
 
-`.claude/skills/consistency-self-scan/SKILL.md` · added 2026-11-21 · updated 2026-11-22 (review.md second-pass mode; 2026-11-21: settled ledger; the closing loop) · supporting files: `review.md` (the adversarial reviewer's brief, used by `/implement` step 5b, with a second-pass mode for the fixes),
+`.claude/skills/consistency-self-scan/SKILL.md` · added 2026-11-21 · updated 2026-11-22 (settled S11–S14 and rule R12, plan consistency5; review.md second-pass mode; 2026-11-21: settled ledger; the closing loop) · supporting files: `review.md` (the adversarial reviewer's brief, used by `/implement` step 5b, with a second-pass mode for the fixes),
 `brief.md` (the sweep agents' brief, filled per run), `dump_pages.py` (page-text dump of
 `dist/school/*`, copied from `consistency-data/`), `settled.md` (the permanent ledger of settled
 rulings, rule ideas turned down and R8 groups triaged as not a conflict; agents never report

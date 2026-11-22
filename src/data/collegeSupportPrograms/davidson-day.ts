@@ -353,11 +353,11 @@ export const davidsonDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 40.0% in Fall 2025 — 10 of 25 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 40.0% in Fall 2025 — 10 of 25 — just below NC State’s 42.9%. The other four ran 78–100%. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '298', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '59.4%', label: 'pooled admit rate — 177 of 298 across those five classes' },
-      { value: '40.0%', label: 'at UNC-Chapel Hill — 10 of 25, the toughest of the six for this school' },
+      { value: '40.0%', label: 'at UNC-Chapel Hill — 10 of 25 in Fall 2025, the lowest of the six that year' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (25)' },
     ],
     latestTerm: '2025',
@@ -366,7 +366,7 @@ export const davidsonDay: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · Chapel Hill · the most selective of the six',
+        note: 'Flagship · Chapel Hill · the lowest of the six in Fall 2025',
         applied: '25',
         accepted: '10',
         rate: '40.0%',
@@ -680,7 +680,7 @@ export const davidsonDay: CollegeSupportProgram = {
           '**AFAR international field research** — real archaeology digs. The 2026–27 profile lists ongoing sites in Belize, Spain (2014), Greece (2017) and Portugal (2018). The school’s Global Studies page and its 2027 trip schedule name only Spain, Portugal and Belize. The profile dates the Belize dig to 2009; its research page dates AFAR itself to 2006. The Belize dig ran with the BVAR project at Cahal Pech through 2026, under a permit from the Belize Institute of Archaeology. It moves to Baking Pot in 2027. The program’s history appears in a peer-reviewed journal (Heritage, 2020). Students publish and present at conferences around the world.',
           '**Global Studies Diploma** — a core course in Honors Anthropology, four approved AP courses, a world language and a capstone paper. The profile asks for the same language in all four Upper School years and at least two weeks of international field research. The Global Studies page asks for Level IV or three levels of one language, and at least 100 practicum hours. Most important, it produces a separate transcript and profile sent to colleges. That is an extra document in the file, not a line on the transcript.',
           '**STEMM and Business & Civic Engagement Diplomas** — each requires at least 100 hours of approved internship or practicum (supervised field work). Each also requires Ethics Labs every quarter and an 11th-grade Research Methods Honors course. In 12th grade, students do a Capstone Research Honors mentorship. They then give a public talk at the Scholars Research Conference.',
-          '**Recruiting and arts tracks** — a yearly Athletic Recruitment Workshop and National Signing Day events. One recent signing day saw seven NLI (National Letter of Intent) signings. For the arts, there is AP Studio Art, plus portfolio results at SCAD, Pratt, Manhattan School of Music, UNCSA and AMDA.',
+          '**Recruiting and arts tracks** — a yearly Athletic Recruitment Workshop and National Signing Day events. One recent signing day saw seven NLI (National Letter of Intent) signings. For the arts, there is AP Studio Art (in the catalog; the 2026–27 profile does not list it), plus portfolio results at SCAD, Pratt, Manhattan School of Music, UNCSA and AMDA.',
         ],
         note:
           'The required internship or capstone applies only to students seeking a Diploma Distinction. There is no school-wide required internship or senior project. AFAR’s participation figure, more than 500 students program-wide (2026), covers the whole program across many schools. How many Davidson Day students have taken part is not published.',
@@ -689,7 +689,7 @@ export const davidsonDay: CollegeSupportProgram = {
         title: 'Lever 2 — What the school brings',
         glyph: '▲',
         items: [
-          '**The School Profile as an instrument** — the strongest lever here, and well done. It is four pages, current and linked in public. It gives the full grading scale and weighting, what the GPA leaves out, and the Class of 2027 GPA range. It also has the complete course catalog, with courses not offered clearly marked. Then come graduation requirements, the Honor Code and the five-year acceptance list. A reader who has never been to Davidson, NC, can understand a student without relying on test scores or rank. That is exactly the job the Profile has to do.',
+          '**The School Profile as an instrument** — the strongest lever here, and well done. It is four pages, current and linked in public. It gives the full grading scale and weighting, what the GPA leaves out, and the Class of 2027 GPA range. It also has a course grid, with courses not offered marked. Then come graduation requirements, the Honor Code and the five-year acceptance list. A reader who has never been to Davidson, NC, can understand a student without relying on test scores or rank. That is exactly the job the Profile has to do.',
           '**Integrity signaling** — the Honor Code is published word for word. The school holds the usual memberships in groups that set ethics rules for college admissions: NACAC, SACAC and ACCIS. It also belongs to SACS, SAIS, NAIS, NCAIS, NCISAA, the Educational Records Bureau (ERB) and College Board.',
           '**Regional co-hosting** — each spring Davidson Day and Cannon School co-host the Lake Norman Area College Admissions Case Studies Program and College Fair. Families act as a mock admissions committee. They read real files with the details changed.',
           '**Proximity, not partnership** — Davidson College is one mile away and appears on the acceptance list. But the school publishes no deal for dual enrollment, course access or preferred admission. Being close is a fact, not a documented path from one to the other.',
@@ -816,7 +816,7 @@ export const davidsonDay: CollegeSupportProgram = {
     points: [
       {
         label: 'The spike machinery is real and credited',
-        text: 'AFAR is not a service trip. Students dug under permit at Cahal Pech with the BVAR project for 20 seasons. The Belize dig moves to Baking Pot in 2027. The 2026–27 profile lists four countries, each with a start year; the 2027 schedule names three. Students publish and present at conferences, and the program’s history appears in a peer-reviewed journal.',
+        text: 'AFAR is not a service trip. Students dug under permit at Cahal Pech with the BVAR project. AFAR worked there for 20 seasons, through 2026. The Belize dig moves to Baking Pot in 2027. The 2026–27 profile lists four countries, each with a start year; the 2027 schedule names three. Students publish and present at conferences, and the program’s history appears in a peer-reviewed journal.',
       },
       {
         label: 'The Global Studies Diploma sends a second transcript',
@@ -828,7 +828,7 @@ export const davidsonDay: CollegeSupportProgram = {
       },
       {
         label: 'The Profile does the work test scores would',
-        text: 'Full grading scale, explicit weighting and exclusions, GPA range and median, the complete catalog with unoffered courses flagged, and a five-year acceptance list — with a disclosed 2.58 GPA floor.',
+        text: 'Full grading scale, explicit weighting and exclusions, GPA range and median, a course grid, with courses not offered marked, and a five-year acceptance list — with a disclosed 2.58 GPA floor.',
       },
       {
         label: 'Rep-visit volume is high per student',

@@ -198,9 +198,9 @@ pages):
   the school year"
 - **October 10, 2026, 9:30–11:00 a.m.** — TK/K Fly By Open House
 - **January 2, 2027** — TK/Kindergarten application due
-- **January 15, 2027** — Grades 1–12 application due
+- **January 15, 2027** — Grades 1–11 application due (corrected 2026-11-22: the school's dates list names no Grade 12 deadline)
 - **January 15, 2027** — Financial aid application due (priority round) — the same day as the
-  Grades 1–12 application deadline, and exactly **13 days after** the TK/Kindergarten
+  Grades 1–11 application deadline, and exactly **13 days after** the TK/Kindergarten
   application deadline
 - **February 26, 2027** — Middle School and Upper School testing completed/submitted AND all
   file material due

@@ -70,10 +70,17 @@
       ]
     },
     {
-      "t": "జూన్–ఆగస్టు",
-      "of": "4f3a376a",
+      "t": "జూన్–జూలై",
+      "of": "6298b842",
       "at": [
-        "providence-day:coverage.summer.season"
+        "providence-day:coverage.summer.season",
+        "charlotte-latin:coverage.summer.season",
+        "charlotte-christian:coverage.summer.season",
+        "charlotte-country-day:coverage.summer.season",
+        "cannon:coverage.summer.season",
+        "gaston-day:coverage.summer.season",
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -1038,19 +1045,6 @@
       "of": "72c3da9a",
       "at": [
         "charlotte-latin:coverage.rows[3].flatLabel"
-      ]
-    },
-    {
-      "t": "జూన్–జూలై",
-      "of": "6298b842",
-      "at": [
-        "charlotte-latin:coverage.summer.season",
-        "charlotte-christian:coverage.summer.season",
-        "charlotte-country-day:coverage.summer.season",
-        "cannon:coverage.summer.season",
-        "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season",
-        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -3100,8 +3094,8 @@
       ]
     },
     {
-      "t": "Extended Dayకు తోబుట్టువుల రాయితీ ఏదీ ప్రచురించబడలేదు, మరియు Extended Dayకు ఆర్థిక సహాయ విధానం ఏదీ లేదు. దీన్ని **అనుబంధ రుసుము**గా బిల్లు వేస్తారు, అంటే సుమారు 20% విద్యార్థులు ట్యూషన్ సహాయం పొందుతున్నప్పటికీ ఇది ట్యూషన్ సహాయం వెలుపల ఉంటుంది. ట్యూషన్ పేజీ 341 మంది విద్యార్థులకు $9.4M అంటుంది, Fast Facts 347 మందికి $10.1M అంటుంది. దీనికి భిన్నంగా వేసవి కార్యక్రమాలకు వాటి సొంత సహాయ దరఖాస్తు ఉంది.",
-      "of": "84fc27f4",
+      "t": "Extended Dayకు తోబుట్టువుల రాయితీ ఏదీ ప్రచురించబడలేదు, మరియు Extended Dayకు ఆర్థిక సహాయ విధానం ఏదీ ప్రచురించబడలేదు. దీన్ని **అనుబంధ రుసుము**గా బిల్లు వేస్తారు, అంటే సుమారు 20% విద్యార్థులు ట్యూషన్ సహాయం పొందుతున్నప్పటికీ ఇది ట్యూషన్ సహాయం వెలుపల ఉంటుంది. ట్యూషన్ పేజీ 341 మంది విద్యార్థులకు $9.4M అంటుంది, Fast Facts 347 మందికి $10.1M అంటుంది. దీనికి భిన్నంగా వేసవి కార్యక్రమాలకు వాటి సొంత సహాయ దరఖాస్తు ఉంది.",
+      "of": "a659c262",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ]
@@ -3613,8 +3607,8 @@
       ]
     },
     {
-      "t": "చెల్లింపు కార్యక్రమం లేదు — ఉదయం 7:30 నుంచి ఉచిత ప్రవేశం మాత్రమే",
-      "of": "3e084a43",
+      "t": "చెల్లింపు సంరక్షణ కార్యక్రమం లేదు — ఉదయం 7:30 నుంచి ఉచిత ప్రవేశం మాత్రమే",
+      "of": "619685dc",
       "at": [
         "cannon:coverage.facts[1].text"
       ]
@@ -3781,8 +3775,8 @@
       ]
     },
     {
-      "t": "Cannon నిజంగా వివరంగా ప్రచురించేది Beyond the Bell: సంవత్సరానికి మూడు 10-వారాల సుసంపన్న సెషన్లు, ప్రతి తరగతికీ నిజమైన రోజు, తరగతి శ్రేణి, సంస్థ మరియు రుసుముతో.",
-      "of": "688c480b",
+      "t": "Cannon నిజంగా వివరంగా ప్రచురించేది Beyond the Bell, సంవత్సరానికి మూడు 10-వారాల సుసంపన్న సెషన్లతో. ప్రతి తరగతికీ ఒక రోజు, తరగతి శ్రేణి, సంస్థ లేదా బాధ్యుల హోదా, రుసుము ఉంటాయి.",
+      "of": "37b490f7",
       "at": [
         "cannon:dayInside.subhead"
       ]
@@ -3844,143 +3838,162 @@
       ]
     },
     {
-      "t": "Beyond the Bell — సెషన్ 3, 2026 వసంతం",
-      "of": "35adb5e8",
+      "t": "Beyond the Bell — సెషన్ 2, 2026–27",
+      "of": "40273360",
       "at": [
         "cannon:dayInside.catalogTitle"
       ]
     },
     {
-      "t": "JrK–8వ తరగతికి ఏటా మూడు 10-వారాల సెషన్లు నడుస్తాయి, అదనంగా వ్యక్తిగత సంగీత పాఠాలు. కింది 22 తరగతులు ఇటీవల ప్రచురించిన జాబితా, **2026 మార్చి 9 నుంచి మే 22 వరకు** — పాఠశాల స్వంత సెషన్ పత్రం నుంచి తీసుకున్నవి. రుసుములు ఒక్కో తరగతికి మరియు ఒక్కో సెషన్‌కు చూపబడ్డాయి. Beyond the Bell అనేది ASP నుంచి **వేరైన కొనుగోలు** అని గమనించండి: 3:00–4:00 తరగతి మిమ్మల్ని 6:00 వరకు కవర్ చేయదు.",
-      "of": "b5d62754",
+      "t": "JrK–8వ తరగతికి ఏటా మూడు 10-వారాల సెషన్లు నడుస్తాయి, అదనంగా K–12కు వ్యక్తిగత సంగీత పాఠాలు. కింది 31 తరగతులు సెషన్ 2 జాబితా, **నవంబర్ 30 నుంచి ఫిబ్రవరి 5 వరకు**. అవి పాఠశాల స్వంత సెషన్ పత్రం నుంచి వచ్చాయి. రుసుములు ఒక్కో తరగతికి మరియు ఒక్కో సెషన్‌కు చూపబడ్డాయి. Beyond the Bell అనేది ASP నుంచి **వేరైన కొనుగోలు** అని గమనించండి: 3:00–4:00 తరగతి మిమ్మల్ని 6:00 వరకు కవర్ చేయదు.",
+      "of": "3c1e2638",
       "at": [
         "cannon:dayInside.catalogIntro"
       ]
     },
     {
-      "t": "Kelli Wallerతో చిన్న జట్ల ఆటలు",
-      "of": "716c2549",
+      "t": "Art in Motion Dance Performing Co.తో tap, jazz నృత్యం",
+      "of": "3f13bb14",
       "at": [
         "cannon:dayInside.classes[0].desc"
       ]
     },
     {
-      "t": "2–6",
-      "of": "dc4d67cc",
+      "t": "JrK–1",
+      "of": "f42a2236",
       "at": [
-        "cannon:dayInside.classes[0].gradeLabel"
+        "cannon:dayInside.classes[0].gradeLabel",
+        "cannon:dayInside.classes[17].gradeLabel"
       ]
     },
     {
-      "t": "Nash మరియు Colacionతో cheer ప్రాథమికాంశాలు",
-      "of": "85bf76c2",
+      "t": "ఫోటోగ్రఫీకి పరిచయం. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "4aea9b60",
       "at": [
         "cannon:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "3–6",
+      "of": "71b1a3ef",
+      "at": [
+        "cannon:dayInside.classes[1].gradeLabel",
+        "charlotte-prep:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "Middle School కోసం పనులను క్రమబద్ధం చేసుకునే నైపుణ్యాలు, ఉదయం 7:30–8:00, పాఠశాలకు ముందు. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "42f62174",
+      "at": [
+        "cannon:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "cannon:dayInside.classes[2].gradeLabel",
+        "cannon:dayInside.classes[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "చేతిపనుల క్లబ్. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "d4ff7fc6",
+      "at": [
+        "cannon:dayInside.classes[3].desc"
       ]
     },
     {
       "t": "JrK–2",
       "of": "f32a20a3",
       "at": [
-        "cannon:dayInside.classes[1].gradeLabel",
-        "cannon:dayInside.classes[5].gradeLabel",
-        "cannon:dayInside.classes[12].gradeLabel",
-        "cannon:dayInside.classes[15].gradeLabel"
-      ]
-    },
-    {
-      "t": "BrickEd నిర్వహించే నిర్మాణ మరియు పరీక్షా సవాళ్లు",
-      "of": "fc32f7b2",
-      "at": [
-        "cannon:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–2",
-      "of": "5e92d4cb",
-      "at": [
-        "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel",
-        "charlotte-prep:dayInside.classes[1].gradeLabel"
-      ]
-    },
-    {
-      "t": "McKinsey మరియు Raphaelతో మిశ్రమ మాధ్యమ తయారీ",
-      "of": "12042fb8",
-      "at": [
-        "cannon:dayInside.classes[3].desc"
-      ]
-    },
-    {
-      "t": "2–4",
-      "of": "de4d6af2",
-      "at": [
         "cannon:dayInside.classes[3].gradeLabel",
-        "cannon:dayInside.classes[17].gradeLabel"
+        "cannon:dayInside.classes[13].gradeLabel",
+        "cannon:dayInside.classes[22].gradeLabel",
+        "cannon:dayInside.classes[23].gradeLabel"
       ]
     },
     {
-      "t": "Lisa Nussbaumerతో జట్టుగా నిర్మించి program చేయడం",
-      "of": "a4c630c5",
+      "t": "Cannon varsity టెన్నిస్ కోచింగ్ సిబ్బందితో టెన్నిస్",
+      "of": "692bb940",
       "at": [
-        "cannon:dayInside.classes[4].desc"
+        "cannon:dayInside.classes[4].desc",
+        "cannon:dayInside.classes[11].desc"
       ]
     },
     {
-      "t": "3–5",
-      "of": "72b1a582",
+      "t": "K–4",
+      "of": "6492de3d",
       "at": [
         "cannon:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[3].gradeLabel",
-        "charlotte-prep:dayInside.classes[5].gradeLabel"
+        "cannon:dayInside.classes[16].gradeLabel",
+        "charlotte-prep:dayInside.classes[0].gradeLabel"
       ]
     },
     {
-      "t": "Rhiannon Bresalierతో బొమ్మల తయారీ మరియు ప్రదర్శన",
-      "of": "9234b989",
+      "t": "Pokémon క్లబ్. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "58d4dc0d",
       "at": [
         "cannon:dayInside.classes[5].desc"
       ]
     },
     {
-      "t": "Craig Rosekransతో వంటగది నైపుణ్యాలు మరియు వంటకాలు",
-      "of": "66339c45",
+      "t": "2–6",
+      "of": "dc4d67cc",
+      "at": [
+        "cannon:dayInside.classes[5].gradeLabel",
+        "cannon:dayInside.classes[10].gradeLabel",
+        "cannon:dayInside.classes[14].gradeLabel",
+        "cannon:dayInside.classes[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "తీగ వాయిద్య నైపుణ్యాలు. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "b8f2970c",
       "at": [
         "cannon:dayInside.classes[6].desc"
-      ]
-    },
-    {
-      "t": "1–3",
-      "of": "aa9ea5ea",
-      "at": [
-        "cannon:dayInside.classes[6].gradeLabel"
-      ]
-    },
-    {
-      "t": "AR Workshop Concord నిర్వహణలో; 3:00–4:30",
-      "of": "ec18d9af",
-      "at": [
-        "cannon:dayInside.classes[7].desc"
       ]
     },
     {
       "t": "3–8",
       "of": "77b1ad61",
       "at": [
-        "cannon:dayInside.classes[7].gradeLabel",
+        "cannon:dayInside.classes[6].gradeLabel",
         "charlotte-prep:dayInside.classes[2].gradeLabel"
       ]
     },
     {
-      "t": "Art in Motion Danceతో నృత్యం",
-      "of": "6d0482e1",
+      "t": "బేకింగ్ తరగతి. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "039f66ae",
+      "at": [
+        "cannon:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "K–1",
+      "of": "5f92d65e",
+      "at": [
+        "cannon:dayInside.classes[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "maker-space తరగతి. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "a373c8d9",
       "at": [
         "cannon:dayInside.classes[8].desc"
       ]
     },
     {
-      "t": "Kelli Wallerతో బహిరంగ అన్వేషణ మరియు ఆటలు",
-      "of": "d09d34c2",
+      "t": "1–3",
+      "of": "aa9ea5ea",
+      "at": [
+        "cannon:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "Carolina Soccer Factory శిక్షణలో",
+      "of": "55c5f69b",
       "at": [
         "cannon:dayInside.classes[9].desc"
       ]
@@ -3989,178 +4002,212 @@
       "t": "JrK–4",
       "of": "f92a2a15",
       "at": [
-        "cannon:dayInside.classes[9].gradeLabel"
+        "cannon:dayInside.classes[9].gradeLabel",
+        "cannon:dayInside.classes[12].gradeLabel",
+        "cannon:dayInside.classes[21].gradeLabel",
+        "cannon:dayInside.classes[25].gradeLabel",
+        "cannon:dayInside.classes[30].gradeLabel"
       ]
     },
     {
-      "t": "Carolina Soccer Factory శిక్షణలో",
-      "of": "55c5f69b",
+      "t": "Diamond-art ప్రాజెక్టులు. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "83ec038d",
       "at": [
         "cannon:dayInside.classes[10].desc"
       ]
     },
     {
-      "t": "K–6",
-      "of": "6292db17",
+      "t": "ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "c2e74de5",
       "at": [
-        "cannon:dayInside.classes[10].gradeLabel"
-      ]
-    },
-    {
-      "t": "Mayo మరియు Cavicchiతో విభాగాల మధ్య తయారీ",
-      "of": "892a9a9a",
-      "at": [
-        "cannon:dayInside.classes[11].desc"
-      ]
-    },
-    {
-      "t": "JrK–1",
-      "of": "f42a2236",
-      "at": [
-        "cannon:dayInside.classes[11].gradeLabel"
+        "cannon:dayInside.classes[12].desc",
+        "cannon:dayInside.classes[29].desc"
       ]
     },
     {
       "t": "Le Petit Ballet Co. బోధనలో",
       "of": "54903c06",
       "at": [
-        "cannon:dayInside.classes[12].desc"
+        "cannon:dayInside.classes[13].desc"
       ]
     },
     {
-      "t": "Anne Marie Samuelతో బృంద తీగ వాయిద్యాలు",
-      "of": "cee50463",
+      "t": "చక్రంపై కుండల తయారీ. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "21bb2035",
       "at": [
-        "cannon:dayInside.classes[13].desc"
+        "cannon:dayInside.classes[14].desc"
+      ]
+    },
+    {
+      "t": "Cannon String Orchestra Directorతో బృంద తీగ వాయిద్యాలు",
+      "of": "be9b40b7",
+      "at": [
+        "cannon:dayInside.classes[15].desc"
       ]
     },
     {
       "t": "1–8",
       "of": "a19e97bf",
       "at": [
-        "cannon:dayInside.classes[13].gradeLabel"
+        "cannon:dayInside.classes[15].gradeLabel"
       ]
     },
     {
-      "t": "Better Golf for Kids నిర్వహణలో",
-      "of": "f995456f",
-      "at": [
-        "cannon:dayInside.classes[14].desc"
-      ]
-    },
-    {
-      "t": "K–5",
-      "of": "6392dcaa",
-      "at": [
-        "cannon:dayInside.classes[14].gradeLabel"
-      ]
-    },
-    {
-      "t": "Alex Bresalierతో త్రిమితీయ కళ",
-      "of": "4dd98a79",
-      "at": [
-        "cannon:dayInside.classes[15].desc"
-      ]
-    },
-    {
-      "t": "Sherrill మరియు O’Brienతో Middle Schoolకు కార్యనిర్వహణ నైపుణ్యాలు",
-      "of": "1cef586d",
+      "t": "Cannon School lacrosse కోచ్‌లతో lacrosse",
+      "of": "9b2f1dbe",
       "at": [
         "cannon:dayInside.classes[16].desc"
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
-      "at": [
-        "cannon:dayInside.classes[16].gradeLabel"
-      ]
-    },
-    {
-      "t": "Donnie Hayesతో క్రీడా వికాసం",
-      "of": "aebfe251",
+      "t": "Nexploreతో రోబోట్ కోడింగ్",
+      "of": "981427da",
       "at": [
         "cannon:dayInside.classes[17].desc"
       ]
     },
     {
-      "t": "Stephanie Leeతో వస్తువుల ఆధారంగా చరిత్ర",
-      "of": "6c10a569",
+      "t": "క్రీడా సామర్థ్య వికాసం. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "1e12eca4",
       "at": [
         "cannon:dayInside.classes[18].desc"
       ]
     },
     {
-      "t": "4–8",
-      "of": "d12b05b8",
+      "t": "2–5",
+      "of": "df4d6c85",
       "at": [
-        "cannon:dayInside.classes[18].gradeLabel"
+        "cannon:dayInside.classes[18].gradeLabel",
+        "cannon:dayInside.classes[27].gradeLabel"
       ]
     },
     {
-      "t": "Danielle Sandlofతో camera ప్రాథమికాంశాలు మరియు composition",
-      "of": "753d981d",
+      "t": "Better Golf for Kids Academy నిర్వహణలో",
+      "of": "e35d51f5",
       "at": [
         "cannon:dayInside.classes[19].desc"
       ]
     },
     {
-      "t": "3–6",
-      "of": "71b1a3ef",
+      "t": "1–6",
+      "of": "a79ea131",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel",
-        "charlotte-prep:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[8].gradeLabel"
+        "cannon:dayInside.classes[19].gradeLabel"
       ]
     },
     {
-      "t": "Dobbins మరియు Foxతో పూసల కళ",
-      "of": "5832d170",
+      "t": "సెరామిక్స్ తరగతి. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "5c6ac547",
       "at": [
         "cannon:dayInside.classes[20].desc"
       ]
     },
     {
-      "t": "K–4",
-      "of": "6492de3d",
-      "at": [
-        "cannon:dayInside.classes[20].gradeLabel",
-        "charlotte-prep:dayInside.classes[0].gradeLabel"
-      ]
-    },
-    {
-      "t": "Danielle Lucasతో చిత్రలేఖనం మరియు గీయడం",
-      "of": "e404b9fa",
+      "t": "పరుగు తరగతి. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "79379dd5",
       "at": [
         "cannon:dayInside.classes[21].desc"
       ]
     },
     {
-      "t": "K–3",
-      "of": "5d92d338",
+      "t": "AR Workshopతో కళ",
+      "of": "ada8f20e",
       "at": [
-        "cannon:dayInside.classes[21].gradeLabel"
+        "cannon:dayInside.classes[22].desc"
       ]
     },
     {
-      "t": "K–8కు వ్యక్తిగత సంగీత పాఠాలు పక్కనే నడుస్తాయి: cello ఒక్కో తరగతికి $25 (సోమ/బుధ), guitar $25 (బుధ/శుక్ర), గానం $30 (మంగళ/గురు), piano $30 (సోమ/మంగళ/గురు) మరియు violin లేదా viola $30 (మంగళ/గురు).",
-      "of": "1bb78a11",
+      "t": "Kidokinetics of North Charlotte నిర్వహణలో",
+      "of": "8dd86e42",
+      "at": [
+        "cannon:dayInside.classes[23].desc"
+      ]
+    },
+    {
+      "t": "Concord TaeKwonDo Inc. బోధనలో",
+      "of": "3242095f",
+      "at": [
+        "cannon:dayInside.classes[24].desc"
+      ]
+    },
+    {
+      "t": "1–5",
+      "of": "a49e9c78",
+      "at": [
+        "cannon:dayInside.classes[24].gradeLabel"
+      ]
+    },
+    {
+      "t": "Overtime Athleticsతో cheer",
+      "of": "1aa0fba0",
+      "at": [
+        "cannon:dayInside.classes[25].desc"
+      ]
+    },
+    {
+      "t": "Charlotte Chess Center ప్రధాన కోచ్ బోధనలో",
+      "of": "f5fe7acf",
+      "at": [
+        "cannon:dayInside.classes[26].desc"
+      ]
+    },
+    {
+      "t": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "cannon:dayInside.classes[26].gradeLabel",
+        "trinity-episcopal:dayInside.classes[0].gradeLabel",
+        "trinity-episcopal:dayInside.classes[1].gradeLabel",
+        "trinity-episcopal:dayInside.classes[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "Nexploreతో ఇంద్రజాలం",
+      "of": "0b37a651",
+      "at": [
+        "cannon:dayInside.classes[27].desc"
+      ]
+    },
+    {
+      "t": "వంట తరగతి. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "6a5d3918",
+      "at": [
+        "cannon:dayInside.classes[28].desc"
+      ]
+    },
+    {
+      "t": "5–7",
+      "of": "73037a4a",
+      "at": [
+        "cannon:dayInside.classes[28].gradeLabel"
+      ]
+    },
+    {
+      "t": "K–6",
+      "of": "6292db17",
+      "at": [
+        "cannon:dayInside.classes[29].gradeLabel"
+      ]
+    },
+    {
+      "t": "LEGO తరగతి. ఒక వ్యక్తి బోధిస్తారు (సంస్థ కాదు)",
+      "of": "8e0b917b",
+      "at": [
+        "cannon:dayInside.classes[30].desc"
+      ]
+    },
+    {
+      "t": "K–12కు వ్యక్తిగత సంగీత పాఠాలు పక్కనే నడుస్తాయి: piano ఒక్కో తరగతికి $30 (సోమ/మంగళ, అలాగే రెండో టీచర్‌తో బుధ/గురు/శుక్ర), violin లేదా viola $30 (మంగళ/గురు), 2–12 తరగతులకు గానం $30 (మంగళ/గురు/శుక్ర), cello $25 (సోమ–గురు) మరియు guitar $25 (మంగళ/బుధ/గురు).",
+      "of": "d303045f",
       "at": [
         "cannon:dayInside.flags[0].text"
-      ]
-    },
-    {
-      "t": "ఇది **2025-26 సెషన్ 3** జాబితా — ఇటీవల ప్రచురించినది. 2026-27 Beyond the Bell జాబితా ఇంకా ప్రచురించబడలేదు, కాబట్టి ధరల శ్రేణి మరియు నిర్మాణం అలాగే ఉండే అవకాశం ఉన్నా నిర్దిష్ట తరగతులు మారతాయి.",
-      "of": "bd097f64",
-      "at": [
-        "cannon:dayInside.flags[1].text"
       ]
     },
     {
       "t": "After School Program కోసం గంటల వారీ రోజువారీ క్రమం మరియు సిబ్బంది-పిల్లల నిష్పత్తులు ప్రచురించబడలేదు. Middle Schoolకు వేరే కార్యక్రమ వివరణ లేదు: 5–8 తరగతులు అదే JrK–8 కార్యక్రమం లోపలే ఉన్నాయి.",
       "of": "9c982864",
       "at": [
-        "cannon:dayInside.flags[2].text"
+        "cannon:dayInside.flags[1].text"
       ]
     },
     {
@@ -4206,22 +4253,22 @@
       ]
     },
     {
-      "t": "**పూర్తి ధరలతో ఉన్న పెద్ద సుసంపన్న జాబితా** — ఒకే సెషన్‌లో 22 విభిన్న తరగతులు, robotics, ballet నుంచి శిల్పకళ, గోల్ఫ్ మరియు ఫోటోగ్రఫీ వరకు. ఒక్కోదానికీ పేరున్న సంస్థ మరియు నిజమైన రుసుము ఉంది.",
-      "of": "591807b0",
+      "t": "**పూర్తి ధరలతో ఉన్న పెద్ద సుసంపన్న జాబితా** — ఒకే సెషన్‌లో 31 విభిన్న తరగతులు, రోబోట్ కోడింగ్, ballet నుంచి కుండల తయారీ, గోల్ఫ్ మరియు ఫోటోగ్రఫీ వరకు. ఒక్కోదానికీ నిజమైన రుసుము ఉంది.",
+      "of": "c7483779",
       "at": [
         "cannon:verdict.strengths[4]"
       ]
     },
     {
-      "t": "**సుసంపన్నత మితమైన ధర మరియు పారదర్శకత** — ఒక్కో తరగతికి $18–$30, 8 లేదా 10 తరగతుల సెషన్‌కు $160–$300, రద్దైన తరగతులకు పూర్తి వాపసు మరియు ఒక భర్తీ వారంతో.",
-      "of": "6274a884",
+      "t": "**సుసంపన్నత మితమైన ధర మరియు పారదర్శకత** — ఒక్కో తరగతికి $15–$30, 5–15 సమావేశాల సెషన్‌కు $125–$240. కుటుంబం మొదటి వారంలోపు రద్దు చేసుకుని, హాజరైన తరగతికి మాత్రమే చెల్లించవచ్చు. రద్దైన తరగతిని వీలైన చోట మళ్లీ నిర్వహిస్తారు.",
+      "of": "8aba83f9",
       "at": [
         "cannon:verdict.strengths[5]"
       ]
     },
     {
-      "t": "**Middle Schoolకు కార్యనిర్వహణ నైపుణ్యాల తరగతి** (\"Let’s Get Organized\") — ఈ వయసులో ఇది నిజంగా అసాధారణమైన ఎంపిక.",
-      "of": "4ab6a038",
+      "t": "**Middle Schoolకు పనులను క్రమబద్ధం చేసుకునే నైపుణ్యాల తరగతి** (\"Let’s Get Organized\"), వారానికి రెండుసార్లు పాఠశాలకు ముందు — ఈ వయసులో ఇది నిజంగా అసాధారణమైన ఎంపిక.",
+      "of": "77a48c2d",
       "at": [
         "cannon:verdict.strengths[6]"
       ]
@@ -5085,7 +5132,7 @@
       ]
     },
     {
-      "t": "YCC మరియు After School కోసం విద్యార్థికి $30/day",
+      "t": "YCC మరియు After School కోసం విద్యార్థికి $30/రోజు",
       "of": "118f5914",
       "at": [
         "carmel-christian:coverage.facts[3].text"
@@ -5212,7 +5259,7 @@
       ]
     },
     {
-      "t": "విద్యార్థికి $30 / day",
+      "t": "విద్యార్థికి $30 / రోజు",
       "of": "68e160cb",
       "at": [
         "carmel-christian:cost.fees[1].value"
@@ -5506,7 +5553,7 @@
       ]
     },
     {
-      "t": "**ఒక ఫ్లాట్ drop-in రేటు ఉంది** — YCC మరియు After School కోసం $30/day — కాబట్టి అప్పుడప్పుడు అవసరం ఉన్న కుటుంబాలు పూర్తి ఒప్పందంలోకి బలవంతంగా నెట్టబడవు.",
+      "t": "**ఒక ఫ్లాట్ drop-in రేటు ఉంది** — YCC మరియు After School కోసం $30/రోజు — కాబట్టి అప్పుడప్పుడు అవసరం ఉన్న కుటుంబాలు పూర్తి ఒప్పందంలోకి బలవంతంగా నెట్టబడవు.",
       "of": "9499d31c",
       "at": [
         "carmel-christian:verdict.strengths[3]"
@@ -6025,8 +6072,8 @@
       ]
     },
     {
-      "t": "Pre-K నుంచి 8వ తరగతి వరకు సంరక్షణ సాయంత్రం 5:30 వరకు నడుస్తుంది. Lower School స్థాయి 3:00కి, Middle School స్థాయి 3:15కి మొదలవుతాయి.",
-      "of": "fecea180",
+      "t": "Preschool నుంచి 8వ తరగతి వరకు సంరక్షణ సాయంత్రం 5:30 వరకు నడుస్తుంది. Lower School స్థాయి 3:00కి, Middle School స్థాయి 3:15కి మొదలవుతాయి.",
+      "of": "61235bc4",
       "at": [
         "gaston-day:coverage.headline"
       ]
@@ -6053,7 +6100,7 @@
       ]
     },
     {
-      "t": "After School Care · $100/week లేదా $30/day",
+      "t": "After School Care · $100/వారం లేదా $30/రోజు",
       "of": "79406b4c",
       "at": [
         "gaston-day:coverage.rows[0].flatLabel"
@@ -6067,7 +6114,7 @@
       ]
     },
     {
-      "t": "After School Care · $60/week లేదా $15/day",
+      "t": "After School Care · $60/వారం లేదా $15/రోజు",
       "of": "51ed35e2",
       "at": [
         "gaston-day:coverage.rows[1].flatLabel"
@@ -6088,7 +6135,7 @@
       ]
     },
     {
-      "t": "వారపు నమోదు లేకుండా **$30/day** (Lower School) మరియు **$15/day** (Middle School) రేటుకు అందుబాటులో ఉంది. రుసుముల పట్టికలో **$25 Extended Day Drop-In Fee** కూడా కనిపిస్తుంది. సగం-రోజు Preschool మరియు Pre-Kకు అది రోజుకు $25 లేదా వారానికి $120.",
+      "t": "వారపు నమోదు లేకుండా **$30/రోజు** (Lower School) మరియు **$15/రోజు** (Middle School) రేటుకు అందుబాటులో ఉంది. రుసుముల పట్టికలో **$25 Extended Day Drop-In Fee** కూడా కనిపిస్తుంది. సగం-రోజు Preschool మరియు Pre-Kకు అది రోజుకు $25 లేదా వారానికి $120.",
       "of": "d8333dcb",
       "at": [
         "gaston-day:coverage.facts[0].text"
@@ -6151,8 +6198,8 @@
       ]
     },
     {
-      "t": "ఈ కార్యక్రమం **Pre-K నుంచి 8వ తరగతి వరకు మాత్రమే** వర్తిస్తుంది. 9–12 తరగతులకు పాఠశాల అనంతర సంరక్షణ ఏదీ ప్రచురించబడలేదు; ఇది సాధారణమే అయినా చెప్పడం అవసరం.",
-      "of": "a27225ab",
+      "t": "ఈ కార్యక్రమం **Preschool నుంచి 8వ తరగతి వరకు మాత్రమే** వర్తిస్తుంది. 9–12 తరగతులకు పాఠశాల అనంతర సంరక్షణ ఏదీ ప్రచురించబడలేదు; ఇది సాధారణమే అయినా చెప్పడం అవసరం.",
+      "of": "ba0c1c4b",
       "at": [
         "gaston-day:coverage.facts[5].text"
       ]
@@ -6265,7 +6312,7 @@
       ]
     },
     {
-      "t": "$30/day",
+      "t": "$30/రోజు",
       "of": "35289245",
       "at": [
         "gaston-day:cost.fees[1].value"
@@ -6286,7 +6333,7 @@
       ]
     },
     {
-      "t": "$15/day",
+      "t": "$15/రోజు",
       "of": "431b12c0",
       "at": [
         "gaston-day:cost.fees[3].value"
@@ -6580,7 +6627,7 @@
       ]
     },
     {
-      "t": "**ధర ప్రచురించబడింది.** Lower Schoolకు $100/week మరియు Middle Schoolకు $60/week, drop-in $30 మరియు $15. నమోదు ఉచితం.",
+      "t": "**ధర ప్రచురించబడింది.** Lower Schoolకు $100/వారం మరియు Middle Schoolకు $60/వారం, drop-in $30 మరియు $15. నమోదు ఉచితం.",
       "of": "06a421fe",
       "at": [
         "gaston-day:verdict.strengths[0]"
@@ -6608,8 +6655,8 @@
       ]
     },
     {
-      "t": "**Pre-K నుంచి 8వ తరగతి వరకు సంరక్షణ** రెండు స్థాయిల్లో ఉంది, రెండూ సాయంత్రం 5:30 వరకు నడుస్తాయి.",
-      "of": "55e040df",
+      "t": "**Preschool నుంచి 8వ తరగతి వరకు సంరక్షణ** రెండు స్థాయిల్లో ఉంది, రెండూ సాయంత్రం 5:30 వరకు నడుస్తాయి.",
+      "of": "a5a8e713",
       "at": [
         "gaston-day:verdict.strengths[4]"
       ]
@@ -6713,8 +6760,8 @@
       ]
     },
     {
-      "t": "5th–8th తరగతి స్థాయిని Pre-K–4th స్థాయి కంటే భిన్నంగా ఎలా పర్యవేక్షిస్తారు?",
-      "of": "3bc8eeb5",
+      "t": "5th–8th తరగతి స్థాయిని Preschool–4th స్థాయి కంటే భిన్నంగా ఎలా పర్యవేక్షిస్తారు?",
+      "of": "88b837f1",
       "at": [
         "gaston-day:verdict.checklist[6]"
       ]
@@ -6959,15 +7006,6 @@
       "at": [
         "trinity-episcopal:dayInside.classes[0].desc",
         "trinity-episcopal:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–8",
-      "of": "5892cb59",
-      "at": [
-        "trinity-episcopal:dayInside.classes[0].gradeLabel",
-        "trinity-episcopal:dayInside.classes[1].gradeLabel",
-        "trinity-episcopal:dayInside.classes[2].gradeLabel"
       ]
     },
     {
@@ -7433,6 +7471,13 @@
       ]
     },
     {
+      "t": "K–2",
+      "of": "5e92d4cb",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
+      ]
+    },
+    {
       "t": "ఒక ఏకాంక నాటికకు ఆడిషన్ ఇచ్చి ప్రదర్శించండి.",
       "of": "e1c0cf53",
       "at": [
@@ -7444,6 +7489,14 @@
       "of": "b9eaca1b",
       "at": [
         "charlotte-prep:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "3–5",
+      "of": "72b1a582",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
       ]
     },
     {

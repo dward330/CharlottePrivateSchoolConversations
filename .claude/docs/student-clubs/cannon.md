@@ -193,6 +193,14 @@ Society | National Spanish Honor Society". Tri-M is on the school's own page tod
 
 - The Science National Honor Society post (URL above, HTTP 200) carries `article:published` 2026-04-29, so the April 2 induction was in 2026.
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.cannonschool.org/academics/upper-school (HTTP 200): "Our student-elected Honor
+ Council is a model of community governance and integrity." The Club Catalog does not list it.
+- https://www.cannonschool.org/academics/international-programs (HTTP 200): "participate in
+ Model UN" counts toward the Upper School certificate. The committed Signature Competitive
+ Programs research records an Upper School Model UN team at Duke (DUMUNC).
+
 
 ---
 
@@ -705,6 +713,7 @@ pages carry both.
 - https://resources.finalsite.net/images/v1727105974/cannonschoolorg/q6vdhpxfxelejegmx4n8/2024-2025_StudentProfile_87212e_webemail.pdf
 - https://resources.finalsite.net/images/v1757349467/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf
 - https://www.cannonschool.org/about#dbeanchor
+- https://www.cannonschool.org/academics/international-programs
 - https://www.cannonschool.org/academics/upper-school
 - https://www.cannonschool.org/academics/upper-school/curriculum
 - https://www.cannonschool.org/academics/upper-school/winterm

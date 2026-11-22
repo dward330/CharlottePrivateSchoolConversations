@@ -161,7 +161,7 @@ export const cannon: ArtsProgram = {
     ledger: [
       {
         year: '2026',
-        show: 'Mean Girls School Edition',
+        show: 'Mean Girls: High School Version (listed by Blumenthal as Mean Girls School Edition)',
         result:
           'Five finalist placements: Best Actor (as Damian Hubbard) · Best Actress (as Cady Heron) · Best Supporting Actor (as Aaron Samuels) · Best Supporting Actress (as Janis Sarkisian) · Best Featured Performer (as Mrs. Norbury). None was a top-six nominee.',
       },
@@ -348,8 +348,8 @@ export const cannon: ArtsProgram = {
       'The asymmetry is the thing to understand: theatre carries hard third-party validation, while music’s external recognition is undocumented and its strength lies in production instead.',
     holdsUp: [
       {
-        label: 'The arts are weighted like academics',
-        text: 'all 24 Upper School arts courses are Honors, AP or Advanced Topics — there is no regular-track arts course. On top of that, there is a two-year arts graduation requirement. That is a signal you can check about how the arts count on a GPA and transcript, not a slogan.',
+        label: 'The arts carry academic course levels',
+        text: 'all 24 Upper School arts courses are Honors, AP or Advanced Topics — there is no regular-track arts course. On top of that, there is a two-year arts graduation requirement. That is a signal you can check about how the arts appear on a transcript, not a slogan. Only AP Studio Art and AT Art History add GPA weight; Honors adds none.',
       },
       {
         label: 'Theatre has hard third-party validation',
@@ -380,7 +380,7 @@ export const cannon: ArtsProgram = {
       'Who is the technical director for theatre? And how much of the lighting and control-room work do students genuinely run themselves?',
       'The 2022 arts mission and vision process — what actually changed as a result, in curriculum or extracurricular terms?',
       'Is the parent arts organization now "Parents at Cannon Create" or still CAFTA? Both names appear on your site.',
-      'What does the 7:30 a.m. Varsity commitment really look like across a week, and does it collide with athletics?',
+      'Varsity Chorus and Orchestra meet Monday, Wednesday and Friday before school. When does Varsity Band meet, and does any of it collide with athletics?',
     ],
     sources: [
       { label: 'cannonschool.org — Arts', url: CS_ARTS },

@@ -701,3 +701,24 @@ left out on purpose.
 - https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
 
 2026, Cinderella: five finalists (Prince Topher, Charlotte, Sebastian, Madame, Coachman). Madame is also a final nominee for Best Supporting Actress.
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.charlottechristian.com/fine-arts/box-office (fetched): "We are excited to announce the 2026-27 mainstage musicals." The season line is "Called to Courage!". Performance dates: "Matilda Jr. - October 22-24", "The Little Mermaid - February 25-27", "Frozen KIDS - April 8-10".
+- https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf (fetched, the 2026-27 edition): "54 Scholastic Art and Writing awards over the last 5 years".
+
+### Re-verification 2026-11-22 (plan consistency5, implement)
+
+Read from copies of Blumenthal's lists saved during plan consistency4, with no new request to
+that site. Roles only: no student is named.
+
+| year | show | category | role |
+|---|---|---|---|
+| 2023 | Into the Woods | Best Actor (finalist) | Baker |
+| 2023 | Into the Woods | Best Actress (finalist) | Witch |
+| 2023 | Into the Woods | Best Supporting Actor (finalist) | Cinderella’s Prince |
+| 2023 | Into the Woods | Best Supporting Actress (finalist) | Little Red Riding Hood |
+| 2023 | Into the Woods | Best Featured Performer (finalist) | Ensemble/Wolf |
+
+2023: https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf. This supersedes "2014–2023 [NOT FOUND]" above for 2023, and the 54 Scholastic
+awards in the 2026-27 profile supersede "no award counts".

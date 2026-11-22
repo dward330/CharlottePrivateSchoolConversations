@@ -235,7 +235,7 @@ export const charlotteCountryDay: ArtsProgram = {
         ],
       },
       {
-        label: 'Entry groups — Upper School',
+        label: 'Entry-level groups — Upper School',
         ensembles: ['Concert Choir', 'Symphonic Band', 'Orchestra', 'Percussion Ensemble', 'Piano class'],
       },
       {
@@ -349,7 +349,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
       {
         label: 'Externally validated theatre at the highest level',
-        text: 'two Blumey wins in 2022 including Best Direction, plus back-to-back NCTC state championships with The Crane Wife, in a festival drawing 100+ schools.',
+        text: 'two Blumey wins in 2022 including Best Direction, plus back-to-back NCTC state championships, the second with The Crane Wife, in a festival drawing 100+ schools.',
       },
       {
         label: 'The strongest credential is about the teaching',

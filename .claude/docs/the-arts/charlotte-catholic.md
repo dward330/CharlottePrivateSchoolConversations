@@ -185,6 +185,28 @@ left out on purpose.
 
 2026: five finalists, one per performance category. None is on the final nominee list. This supersedes "four nominees and one finalist" above.
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.charlottecatholic.org/community/fac/performances-shows (fetched): "No showings".
+
+### Re-verification 2026-11-22 (plan consistency5, implement)
+
+Read from copies of Blumenthal's lists saved during plan consistency4, with no new request to
+that site. Roles only: no student is named.
+
+| year | show | category | role |
+|---|---|---|---|
+| 2024 | Phantom of the Opera | Best Actor (finalist) | The Phantom |
+| 2024 | Phantom of the Opera | Best Actress (finalist) | Carlotta |
+| 2024 | Phantom of the Opera | Best Supporting Actor (finalist) | Firmin |
+| 2024 | Phantom of the Opera | Best Supporting Actress (finalist) | Madame Giry |
+| 2024 | Phantom of the Opera | Best Featured Performer (finalist) | Joseph Buquet |
+
+2024: https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf. CCHS has fifteen finalist places across 2024, 2025 and 2026. Two performers placed in
+two of those years: The Phantom (2024) then Motel (2025), and Hodel (2025) then Dorothy (2026).
+"Two years" and "one student" above are superseded. No 2024 winners list was read, so "no win"
+covers 2025 and 2026 only.
+
 
 ---
 
@@ -200,3 +222,4 @@ left out on purpose.
 - https://www.charlottecatholic.org/academics/visual-and-performing-arts
 - https://www.charlottecatholic.org/academics/visual-and-performing-arts/meet-the-faculty
 - https://www.charlottecatholic.org/community/fac
+- https://www.charlottecatholic.org/community/fac/performances-shows

@@ -120,9 +120,9 @@ export const charlotteCountryDay: SportsProgram = {
   /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
-      'Girls tennis has won four straight NCISAA titles, and field hockey took its 16th — but the girls swimming dynasty ended in 2026.',
+      'Girls tennis won four straight NCISAA titles, 2022–25. Field hockey took its 16th in 2025 and won again in fall 2026 — but the girls swimming dynasty ended in 2026.',
     subhead:
-      'Country Day won four state titles in each of 2023–24 and 2024–25, then two in 2025–26 with two more runner-up finishes.',
+      'Country Day won four state titles in each of 2023–24 and 2024–25, then two in 2025–26 with two more runner-up finishes. In fall 2026 the girls tennis streak ended, and volleyball and boys soccer were runners-up.',
     seasonLabels: ["'23–24", "'24–25", "'25–26"],
     rows: [
       {
@@ -132,7 +132,7 @@ export const charlotteCountryDay: SportsProgram = {
           { result: 'STATE', record: '19–0' },
           { result: 'STATE' },
         ],
-        note: 'Four-peat, beating Durham Academy in the 2025 final',
+        note: 'Four-peat, 2022–25, beating Durham Academy in the 2025 final',
       },
       {
         program: 'Field Hockey',
@@ -141,7 +141,7 @@ export const charlotteCountryDay: SportsProgram = {
           { result: 'RUNNER-UP', record: '15–4' },
           { result: 'STATE', record: '20–1' },
         ],
-        note: '16th title; beat Charlotte Latin 1–0, avenging its only loss',
+        note: '16th title in 2025, beating Charlotte Latin 1–0 to avenge its only loss; won again in fall 2026',
       },
       {
         program: 'Girls Swimming',
@@ -181,7 +181,7 @@ export const charlotteCountryDay: SportsProgram = {
       },
     ],
     didNotWin:
-      'girls swimming and boys lacrosse, both lost as runner-up (Providence Day and Durham Academy) · girls cross country, girls track, boys tennis and boys lacrosse (Durham Academy) · volleyball (North Raleigh Christian) · girls lacrosse, girls soccer and football (Providence Day) · both golf titles and wrestling (Charlotte Latin) · baseball (Charlotte Christian) · girls basketball (Cannon) · boys basketball (Forsyth Country Day).',
+      'In 2025–26: girls swimming and boys lacrosse, both lost as runner-up (Providence Day and Durham Academy) · girls cross country, girls track, boys tennis and boys lacrosse (Durham Academy) · volleyball (North Raleigh Christian) · girls lacrosse, girls soccer and football (Providence Day) · both golf titles and wrestling (Charlotte Latin) · baseball (Charlotte Christian) · girls basketball (Cannon) · boys basketball (Forsyth Country Day).',
     bars: [
       { program: 'Field Hockey', record: '20–1', pct: 0.952, tag: "'25–26" },
       { program: 'Boys Lacrosse', record: '19–3', pct: 0.864, tag: "'25–26" },
@@ -193,7 +193,7 @@ export const charlotteCountryDay: SportsProgram = {
     seasonDetail: [
       {
         program: 'Field Hockey',
-        text: '2025–26: 20–1 with an 88–6 goal differential and a perfect 12–0 at home. The sole loss was 0–1 to Charlotte Latin on October 7, avenged 1–0 in the state final on October 25. MaxPreps ranked the team #22 nationally and #2 in NC — though MAX Field Hockey’s own final national top 25 contains no North Carolina team, so treat the national figure as MaxPreps-specific.',
+        text: '2025–26: 20–1 with an 88–6 goal differential and a perfect 12–0 at home. The sole loss was 0–1 to Charlotte Latin on October 7, avenged 1–0 in the state final on October 25. MaxPreps ranked the team #22 nationally and #2 in NC — though MAX Field Hockey’s own final national top 25 contains no North Carolina team, so treat the national figure as MaxPreps-specific. In fall 2026 the team won again, 4–2 over Cary Christian.',
       },
       {
         program: 'Girls Swimming',
@@ -211,6 +211,10 @@ export const charlotteCountryDay: SportsProgram = {
         label: 'HighSchoolOT — Durham Academy wins boys lacrosse in OT',
         url: 'https://www.highschoolot.com/story/durham-academy-shocks-charlotte-country-day-in-ot-to-win-ncisaa-d1-boys-lacrosse-title/22358718/',
       },
+      { label: 'NCISAA — 2026 field hockey bracket', url: 'https://archives.ncisaa.org/index.php?sport=9&currentyear=1' },
+      { label: 'NCISAA — 2026 girls tennis bracket', url: 'https://archives.ncisaa.org/index.php?sport=11&currentyear=1' },
+      { label: 'NCISAA — 2026 volleyball bracket', url: 'https://archives.ncisaa.org/index.php?sport=12&currentyear=1' },
+      { label: 'NCISAA — 2026 boys soccer bracket', url: 'https://archives.ncisaa.org/index.php?sport=8&currentyear=1' },
       {
         label: 'MaxPreps — field hockey 2025–26',
         url: 'https://www.maxpreps.com/nc/charlotte/charlotte-country-day-school-buccaneers/field-hockey/25-26/',
@@ -411,7 +415,7 @@ export const charlotteCountryDay: SportsProgram = {
   /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
-      'The winningest lacrosse coach in North Carolina history and a Hall-of-Fame tennis coach with 38 state championships — both still on staff.',
+      'The winningest lacrosse coach in North Carolina history, whose retirement the school has announced, and a Hall-of-Fame tennis coach with 38 state championships.',
     subhead:
       'Athletic Director: Masanori Toguchi Jr., in the role since July 2021 after eleven years as founding AD at Hough High School.',
     featured: [
@@ -427,7 +431,7 @@ export const charlotteCountryDay: SportsProgram = {
           'He was inducted into the North Carolina Tennis Hall of Fame in 2024 and is a USTA-NC Mary Milam Award winner. The Charlotte Observer named him to its all-time top-10 Mecklenburg County coaches across all sports. He has coached four professionals, including a US Open doubles semifinalist. The Rankin Courts scoreboard was dedicated in his name in 2022. His son C.C. Davis ’99 now coaches boys tennis alongside him.',
       },
       {
-        kicker: 'The continuity anchor · Boys Lacrosse, 1987–2026',
+        kicker: 'The continuity anchor · Boys Lacrosse, since 1987',
         name: 'Brad Touma',
         stats: [
           { value: '540+', label: 'career wins — most in NC history' },
@@ -435,20 +439,25 @@ export const charlotteCountryDay: SportsProgram = {
           { value: '19', label: 'conference titles, 9 state titles' },
         ],
         detail:
-          'A 1983 Country Day graduate, he helped organize North Carolina’s first high school lacrosse league in 1988. That league started with five teams and now has roughly 150. He founded the Charlotte Lacrosse Jamboree for brain-tumor research in 1996. He was inducted into the NILCA Hall of Fame in 2023, and he has produced 200+ college players and 20+ USA All-Americans. When he retires after the 2026 season, Calvin Davis Jr. takes over the continuity-anchor role.',
+          'A 1983 Country Day graduate, he helped organize North Carolina’s first high school lacrosse league in 1988. That league started with five teams and now has roughly 150. He founded the Charlotte Lacrosse Jamboree for brain-tumor research in 1996. He was inducted into the NILCA Hall of Fame in 2023, and he has produced 200+ college players and 20+ USA All-Americans. The school announced Brad Touma’s retirement after the 2026 season; its athletics directory still lists him as program head.',
       },
     ],
     tenure: [
-      { name: 'Brad Touma', role: 'Boys Lacrosse — retiring after 2026', width: 1, since: 'since 1987' },
+      // VERIFY (plan consistency5, CCD-U3): the retirement was announced for after the 2026 season, and
+      // the athletics directory still listed Touma as program head on 2026-11-22. That directory
+      // also lists two boys basketball heads, so it may lag. Pick neither until the school settles it.
+      { name: 'Brad Touma', role: 'Boys Lacrosse — retirement announced for after 2026', width: 1, since: 'since 1987', toVerify: true },
       { name: 'Calvin Davis Jr.', role: 'Girls Tennis', width: 0.92, since: 'since 1990' },
-      { name: 'Kayleigh Ferlan', role: 'Field Hockey — 4 titles since 2017', width: 0.23, since: 'since 2017' },
+      { name: 'Kayleigh Ferlan', role: 'Field Hockey — 4 titles, 2017–25', width: 0.23, since: 'since 2017' },
       { name: 'Masanori Toguchi Jr.', role: 'Director of Athletics', width: 0.13, since: 'since 2021' },
       { name: 'Kenny Hairston', role: 'Boys Basketball', width: 0.03, since: 'since 2026' },
       { name: 'C.C. Davis', role: "Boys Tennis — Calvin Davis Jr.'s son", width: 0.03, since: 'since 2026' },
       { name: 'Logan Smith', role: 'Baseball', width: 0.03, since: 'since 2026' },
+      // The directory gives no start year (plan consistency5, CCD-U2).
+      { name: 'Sierra Simpson', role: 'Girls Basketball Program Head', width: 0, since: '—' },
     ],
     worthKnowing:
-      'Four Country Day head-coaching jobs turned over in the 2025–26 cycle: boys basketball, girls basketball, boys tennis and baseball. Brad Touma’s lacrosse retirement is still to come, and the school has not yet named a girls basketball coach. That is unusually high turnover for a department otherwise known for coaches who stay for decades. The turnover is worth asking about on a tour. Track coach Alvin Pearman is a former NFL running back who returned to teach at his old school.',
+      'Four Country Day head-coaching jobs turned over in the 2025–26 cycle: boys basketball, girls basketball, boys tennis and baseball. That is unusually high turnover for a department otherwise known for coaches who stay for decades. The turnover is worth asking about on a tour. Track coach Alvin Pearman is a former NFL running back who returned to teach at his old school.',
     sources: [
       {
         label: 'Country Day — Touma NILCA Hall of Fame',
@@ -458,6 +467,7 @@ export const charlotteCountryDay: SportsProgram = {
         label: 'Country Day — Calvin Davis Jr., NC Tennis Hall of Fame',
         url: 'https://www.charlottecountryday.org/cd-experience/athletics/news-details/~board/athletics-news/post/coach-calvin-davis-jr-north-carolina-tennis-association-hall-of-fame',
       },
+      { label: 'Country Day — athletics directory', url: 'https://www.charlottecountryday.org/cd-experience/athletics/athletics-directory' },
       {
         label: 'Country Day — athletic director announcement',
         url: 'https://www.charlottecountryday.org/news-events/news-details-page/~board/school-news/post/athletic-director-announcement',

@@ -295,7 +295,7 @@ export const gastonDay: CollegeSupportProgram = {
     stats: [
       { value: '242', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '57.9%', label: 'pooled admit rate — 140 of 242 across those five classes' },
-      { value: '27.3%', label: 'at UNC-Chapel Hill — 3 of 11, the toughest of the six for this school' },
+      { value: '27.3%', label: 'at UNC-Chapel Hill — 3 of 11 in Fall 2025, the lowest of the six that year' },
       { value: 'NC State University', label: 'drew the most applications in Fall 2025 (15)' },
     ],
     latestTerm: '2025',
@@ -609,6 +609,10 @@ export const gastonDay: CollegeSupportProgram = {
         kind: 'verify',
         text: 'The 20 bold names were read from the PDF font runs and checked by eye on 2026-11-22. Both 2025-26 editions match.',
       },
+      {
+        kind: 'verify',
+        text: 'The undated college list on gastonday.org/upper-school (with Harvard, Brown, MIT, Agnes Scott, Brenau and Wheaton) is NOT merged and moves no bucket (user ruling 2026-11-22, settled S11). It gives no year and does not say accepted or enrolled.',
+      },
     ],
     sources: [
       { label: 'gastonday.org — Academic Profile 2025-2026 (acceptance list, four-year rate, merit ledger)', url: PROFILE },
@@ -758,6 +762,7 @@ export const gastonDay: CollegeSupportProgram = {
       'What does the Learning Academy Coordinate Program cost, who qualifies, and how are College Board accommodations documented?',
       'The International Program runs through one exclusive agency (ABC Education Group) — what English-language support exists on campus for those students?',
       'Enrollment reads 510 on the school profile but 466 and 448 on third-party and federal sources — which counts preschool, and what is the Upper School number?',
+      'The Upper School web page has a short college list with Harvard, Brown and MIT, which are not on the 2019–2025 list. Which years does it cover, and are those colleges where students were accepted or where they enrolled?',
     ],
     flags: [],
     sources: [

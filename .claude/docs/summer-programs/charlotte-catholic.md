@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — Summer Programs
-> Distilled from 1 source document(s) in `source-material/summer-programs/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 1 source document(s) in `source-material/summer-programs/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** 2026 Camp Catalog
 
 
@@ -96,6 +96,14 @@ no credit-recovery program and no enrichment academic term of its own.
  above) and is not attributed here.
 - **Camp pricing is only partly published** — the basketball camp publishes no fee, and the
  baseball camp's fees live on a third-party registration site.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://resources.finalsite.net/images/v1709839178/charlottecatholicorg/iyu7apngmnkk7rl5an1s/2024CougarCampFlyer.pdf (fetched): "Rising 3rd Grade- Rising 9th Grade". The football flyer gives no age range.
+- https://www.charlottecatholic.org/community/students/summer-camps (fetched): the basketball camp "is open to girls in rising grades 2–8".
+- https://www.charlottecatholic.org/athletics/all-sports/baseball/camps-clinics (fetched): "6-13 Years Old".
 
 
 ---

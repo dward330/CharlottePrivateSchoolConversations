@@ -123,7 +123,7 @@ export const charlotteLatin: SportsProgram = {
     headline:
       'Eight NCISAA state championships in three seasons, led by four straight boys golf titles and a 26th wrestling crown.',
     subhead:
-      'Latin’s strength is concentrated in the individual-scored sports — wrestling, golf and swimming — rather than the marquee team sports.',
+      'Latin’s strength is concentrated in the individual-scored sports — wrestling, golf and swimming — rather than the marquee team sports. In fall 2026 girls tennis also won a state title.',
     seasonLabels: ["'23–24", "'24–25", "'25–26"],
     rows: [
       {
@@ -194,7 +194,7 @@ export const charlotteLatin: SportsProgram = {
       },
     ],
     didNotWin:
-      'volleyball (North Raleigh Christian) · field hockey and girls tennis (Charlotte Country Day) · girls lacrosse, girls soccer, football and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · girls basketball (Cannon) · boys lacrosse, boys tennis, girls cross country and girls track (Durham Academy) · boys soccer, boys cross country and boys track (Christ School) · boys swimming (Cary Academy) · baseball (Charlotte Christian) · softball (Covenant Day).',
+      'In 2025–26: volleyball (North Raleigh Christian) · field hockey and girls tennis (Charlotte Country Day) · girls lacrosse, girls soccer, football and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · girls basketball (Cannon) · boys lacrosse, boys tennis, girls cross country and girls track (Durham Academy) · boys soccer, boys cross country and boys track (Christ School) · boys swimming (Cary Academy) · baseball (Charlotte Christian) · softball (Covenant Day).',
     bars: [
       { program: 'Volleyball', record: '60–19', pct: 0.759 },
       { program: 'Field Hockey', record: '42–19', pct: 0.689 },
@@ -219,6 +219,7 @@ export const charlotteLatin: SportsProgram = {
     ],
     sources: [
       { label: 'HighSchoolOT — 2025–26 NCISAA champions', url: CHAMPS_26 },
+      { label: 'NCISAA — 2026 girls tennis bracket', url: 'https://archives.ncisaa.org/index.php?sport=11&currentyear=1' },
       {
         label: '2024 boys swimming title',
         url: 'https://www.highschoolot.com/story/charlotte-latin-wins-ncisaa-d1-boys-swimming-championship-sets-four-records/21295043/',

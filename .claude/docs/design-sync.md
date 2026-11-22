@@ -401,10 +401,11 @@ npm run design:capture -- '--page' '/school/charlotte-country-day/' '--name' 'Le
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Clubs Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'student-clubs'
 
 # Arts Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Arts Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'the-arts'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Arts Section Redesign' '--out' <out> '--refs' 'Providence Day + Gaston Day'\''s Theatre card (its Blumey ledger)' '--sha' 'ac5ac3bf' '--area' 'the-arts' '--extra' 'gaston-day:the-arts/theatre-and-the-blumeys'
+# then relabel the extra with what it shows (plan consistency5)
 
 # Sports Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Sports Section Redesign' '--out' <out> '--refs' 'Providence Day + Carmel Christian'\''s and Hickory Grove'\''s Winning Record cards (their per-school matrix headings)' '--sha' '69ff78d3' '--area' 'sports' '--extra' 'carmel-christian:sports/winning-record,hickory-grove-christian:sports/winning-record'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Sports Section Redesign' '--out' <out> '--refs' 'Providence Day + Carmel Christian'\''s and Hickory Grove'\''s Winning Record cards (their per-school matrix headings)' '--sha' 'ac5ac3bf' '--area' 'sports' '--extra' 'carmel-christian:sports/winning-record,hickory-grove-christian:sports/winning-record'
 # then relabel each extra with what it shows (plan consistency4)
 
 # College Support Section Redesign
@@ -420,8 +421,8 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'After Sch
 # #topic-after-school) as a labelled `ds-extra` section: --extra takes cards by id, and a stat strip has none
 
 # Summer Programs Section
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Programs Section' '--out' <out> '--refs' 'Providence Day + Carmel Christian'\''s Cost Planner (its short-week day divisor)' '--sha' '69ff78d3' '--area' 'summer-programs' '--extra' 'carmel-christian:summer-programs/the-summer-cost-planner'
-# then relabel each extra with what it shows (plan consistency4)
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Programs Section' '--out' <out> '--refs' 'Providence Day + Carmel Christian'\''s Cost Planner (its short-week day divisor) + Charlotte Latin'\''s Camp Catalog (its Ages labels)' '--sha' 'ac5ac3bf' '--area' 'summer-programs' '--extra' 'carmel-christian:summer-programs/the-summer-cost-planner,charlotte-latin:summer-programs/the-camp-catalog'
+# then relabel each extra with what it shows (plans consistency4, consistency5)
 
 # Financial Aid & Tuition
 npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
@@ -539,6 +540,14 @@ re-captured from commit `69ff78d3` and verified byte for byte:
 - *Sports* (78,272 bytes): Carmel's and Hickory Grove's matrix headings name their seasons.
 - *College Support* (69,117 bytes): Covenant's merit column reads "AP results", beside Gaston
   Day's "College merit awards".
+
+**Plan `consistency5` (2026-11-22): three approved UX changes, designed here first.** Mocks were
+written and verified before the build, then the three files were re-captured from commit
+`ac5ac3bf` (after the adversarial review) and verified byte for byte:
+
+- *Summer Programs* (30,577 bytes): Charlotte Latin's catalog reads "Age" and "Ages".
+- *Sports* (78,625 bytes): the heading reads "Ranked recruits", at every school.
+- *Arts* (37,334 bytes): Gaston Day's theatre card shows its Blumey ledger.
 
 The MCP behind this loop says it stops working no later than **2026-12-14**.
 

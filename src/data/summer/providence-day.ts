@@ -273,7 +273,7 @@ export const providenceDay: SummerProgram = {
       },
       {
         name: 'Songwriting Camp',
-        desc: 'Half-day songwriting workshop spanning the full grade range.',
+        desc: 'Half-day songwriting workshop for grades 3 to 12.',
         category: 'music',
         categoryLabel: 'Music',
         grades: ['g35', 'g68', 'g912'],
@@ -326,7 +326,7 @@ export const providenceDay: SummerProgram = {
       /* --------------------------------------------------- IDEAS · STEM lab -- */
       {
         name: 'IDEAS - Architecture',
-        desc: 'The IDEAS lab’s architecture camp, open to the widest grade span in the program.',
+        desc: 'The IDEAS lab’s architecture camp, for grades 6 to 12.',
         category: 'stem',
         categoryLabel: 'STEM',
         grades: ['g68', 'g912'],

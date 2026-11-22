@@ -184,6 +184,63 @@ Each entry's **Still a finding** line names what remains reportable even while i
   profile says "previously competed", and the newest team page found is from 2021.
 - **Still a finding:** the school publishing a current iGEM team, or any card still showing 10.
 
+---
+
+### S11 — Gaston Day's undated college list is not merged (was GD-U5)
+
+- **Covers:** these values. https://www.gastonday.org/upper-school/ prints a short college list with
+  "Harvard College", "Brown University", "Massachusetts Institute of Technology", "Agnes Scott
+  College", "Brenau University" and "Wheaton College", none on the 2019–2025 list. College Support
+  shows "231" institutions, "2 / 8" Ivy League and "6 / 17" Ivy Plus, and asks which years that
+  list covers and whether it means accepted or enrolled.
+- **Do not report:** those colleges as missing acceptances, or the buckets as low against that list.
+- **Why:** the list has no year, class, or accepted-or-enrolled wording, and the merge rule widens
+  a window this list does not have.
+- **Ruled:** by the user, 2026-11-22 (plan `consistency5`): ask, do not merge.
+- **Still a finding:** the list gaining a year or a class, those colleges appearing on a dated
+  list, or the ask disappearing.
+
+---
+
+### S12 — Chad Grier's "through 2025" is our inferred year (was PD-U13)
+
+- **Covers:** these values. "147–26 · career record, 15 seasons, through 2025" and "8 · state titles
+  through 2025 — 3rd-most in NC history" (`src/data/sportsPrograms/providence-day.ts`, Coaching).
+- **Do not report:** that no source prints "through 2025", or that the figures leave out the 2026
+  season and its title.
+- **Why:** the research's own stops add to 15 at the 2025 season (Davidson Day 6, Oceanside 3,
+  Providence Day 6), and a code comment says the year is our inference. No 9, and no new record,
+  is computed.
+- **Ruled:** by the user, 2026-11-22 (plan `consistency5`).
+- **Still a finding:** a published career record or title count with its own as-of season, or
+  either figure moving without one.
+
+---
+
+### S13 — No Learning Resources cost component at Charlotte Latin (was LAT-U15)
+
+- **Covers:** these values. College Support says "The school’s older Learning Resources guidelines
+  said charges for sessions are not included in tuition and are billed per session each month",
+  asks "What do Learning Resources sessions cost today?", and Financial Aid's "Fourteen confirmed
+  components for a 2026–27 family" has no Learning Resources row.
+- **Do not report:** the missing component, or the billing sentence against the live pop-up.
+- **Why:** the live Learning Resources pop-up names no charge, and the billing is in the archived
+  guidelines only.
+- **Ruled:** by the user, 2026-11-22 (plan `consistency5`): no cost row while no live charge is
+  published.
+- **Still a finding:** the school publishing a current charge, or the sentence losing "older".
+
+---
+
+### S14 — No testing rate across two Charlotte Latin profile editions (was LAT-U9)
+
+- **Covers:** these values. "The 2026–27 profile does not print the Class of 2026’s size (the
+  2025–26 profile listed 145 seniors) or a testing rate."
+- **Do not report:** that testers ÷ 145 could be computed.
+- **Why:** the size and the tester counts come from two editions, a year apart.
+- **Ruled:** by the user, 2026-11-22 (plan `consistency5`): print 145 with its year, compute no rate.
+- **Still a finding:** one edition printing both numbers, or a rate appearing.
+
 ## Rule candidates already turned down
 
 Step 5 must not re-propose these as new `check:consistency` rules.

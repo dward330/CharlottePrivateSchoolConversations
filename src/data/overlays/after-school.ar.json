@@ -70,10 +70,17 @@
       ]
     },
     {
-      "t": "يونيو–أغسطس",
-      "of": "4f3a376a",
+      "t": "يونيو–يوليو",
+      "of": "6298b842",
       "at": [
-        "providence-day:coverage.summer.season"
+        "providence-day:coverage.summer.season",
+        "charlotte-latin:coverage.summer.season",
+        "charlotte-christian:coverage.summer.season",
+        "charlotte-country-day:coverage.summer.season",
+        "cannon:coverage.summer.season",
+        "gaston-day:coverage.summer.season",
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -1038,19 +1045,6 @@
       "of": "72c3da9a",
       "at": [
         "charlotte-latin:coverage.rows[3].flatLabel"
-      ]
-    },
-    {
-      "t": "يونيو–يوليو",
-      "of": "6298b842",
-      "at": [
-        "charlotte-latin:coverage.summer.season",
-        "charlotte-christian:coverage.summer.season",
-        "charlotte-country-day:coverage.summer.season",
-        "cannon:coverage.summer.season",
-        "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season",
-        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -3100,8 +3094,8 @@
       ]
     },
     {
-      "t": "لا يُنشَر أي خصم أشقّاء لـ Extended Day، ولا توجد سياسة مساعدة مالية لـ Extended Day. إذ يُحاسَب بوصفه **رسمًا عَرَضيًّا**، ما يضعه خارج المساعدة الدراسية، رغم أن نحو 20% من الطلاب يتلقّون مساعدة دراسية. وتذكر صفحة الرسوم $9.4M لـ 341 طالبًا، بينما تذكر صفحة Fast Facts مبلغ $10.1M لـ 347 طالبًا. والبرامج الصيفية، في المقابل، لها طلب مساعدة خاصّ بها.",
-      "of": "84fc27f4",
+      "t": "لا يُنشَر أي خصم أشقّاء لـ Extended Day، ولا تُنشَر سياسة مساعدة مالية لـ Extended Day. إذ يُحاسَب بوصفه **رسمًا عَرَضيًّا**، ما يضعه خارج المساعدة الدراسية، رغم أن نحو 20% من الطلاب يتلقّون مساعدة دراسية. وتذكر صفحة الرسوم $9.4M لـ 341 طالبًا، بينما تذكر صفحة Fast Facts مبلغ $10.1M لـ 347 طالبًا. والبرامج الصيفية، في المقابل، لها طلب مساعدة خاصّ بها.",
+      "of": "a659c262",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ]
@@ -3613,8 +3607,8 @@
       ]
     },
     {
-      "t": "لا برنامج مدفوع — وصول مجاني من 7:30 صباحًا فقط",
-      "of": "3e084a43",
+      "t": "لا برنامج رعاية مدفوع — وصول مجاني من 7:30 صباحًا فقط",
+      "of": "619685dc",
       "at": [
         "cannon:coverage.facts[1].text"
       ]
@@ -3781,8 +3775,8 @@
       ]
     },
     {
-      "t": "وما تنشره Cannon بتفصيل حقيقي هو Beyond the Bell: ثلاث جلسات إثراء مدّة كلٍّ 10 أسابيع في السنة، بيوم ونطاق صفّي ومزوّد ورسم حقيقي لكل حصّة.",
-      "of": "688c480b",
+      "t": "وما تنشره Cannon بتفصيل حقيقي هو Beyond the Bell، بثلاث جلسات إثراء مدّة كلٍّ 10 أسابيع في السنة. ولكل حصّة يوم ونطاق صفّي ومزوّد أو صفة لمن يقدّمها ورسم.",
+      "of": "37b490f7",
       "at": [
         "cannon:dayInside.subhead"
       ]
@@ -3844,143 +3838,162 @@
       ]
     },
     {
-      "t": "Beyond the Bell — الجلسة 3، ربيع 2026",
-      "of": "35adb5e8",
+      "t": "Beyond the Bell — الجلسة 2، 2026–27",
+      "of": "40273360",
       "at": [
         "cannon:dayInside.catalogTitle"
       ]
     },
     {
-      "t": "تُعقَد ثلاث جلسات مدّة كلٍّ 10 أسابيع كل سنة لـ JrK–الصف 8، إضافةً إلى دروس موسيقى خاصّة. والحصص الـ 22 أدناه هي أحدث دليل منشور، **من 9 مارس إلى 22 مايو 2026** — مأخوذة من كتيّب الجلسة الخاصّ بالمدرسة. وتُعرَض الرسوم لكل حصّة ولكل جلسة. لاحظ أن Beyond the Bell **عملية شراء منفصلة عن ASP**: فحصّة 3:00–4:00 لا تغطّيك حتى 6:00.",
-      "of": "b5d62754",
+      "t": "تُعقَد ثلاث جلسات مدّة كلٍّ 10 أسابيع كل سنة لـ JrK–الصف 8، إضافةً إلى دروس موسيقى خاصّة لـ K–12. والحصص الـ 31 أدناه هي دليل الجلسة 2، **من 30 نوفمبر إلى 5 فبراير**. وهي مأخوذة من كتيّب الجلسة الخاصّ بالمدرسة. وتُعرَض الرسوم لكل حصّة ولكل جلسة. لاحظ أن Beyond the Bell **عملية شراء منفصلة عن ASP**: فحصّة 3:00–4:00 لا تغطّيك حتى 6:00.",
+      "of": "3c1e2638",
       "at": [
         "cannon:dayInside.catalogIntro"
       ]
     },
     {
-      "t": "ألعاب في مساحات صغيرة مع Kelli Waller",
-      "of": "716c2549",
+      "t": "الرقص النقري والجاز مع Art in Motion Dance Performing Co.",
+      "of": "3f13bb14",
       "at": [
         "cannon:dayInside.classes[0].desc"
       ]
     },
     {
-      "t": "2–6",
-      "of": "dc4d67cc",
+      "t": "JrK–1",
+      "of": "f42a2236",
       "at": [
-        "cannon:dayInside.classes[0].gradeLabel"
+        "cannon:dayInside.classes[0].gradeLabel",
+        "cannon:dayInside.classes[17].gradeLabel"
       ]
     },
     {
-      "t": "أساسيات التشجيع مع Nash وColacion",
-      "of": "85bf76c2",
+      "t": "مقدّمة في التصوير الفوتوغرافي. مدرّب فرد (لا شركة)",
+      "of": "4aea9b60",
       "at": [
         "cannon:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "3–6",
+      "of": "71b1a3ef",
+      "at": [
+        "cannon:dayInside.classes[1].gradeLabel",
+        "charlotte-prep:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "مهارات التنظيم لـ Middle School، 7:30–8:00 صباحًا، قبل الدوام. مدرّب فرد (لا شركة)",
+      "of": "42f62174",
+      "at": [
+        "cannon:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "cannon:dayInside.classes[2].gradeLabel",
+        "cannon:dayInside.classes[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "نادٍ للأشغال اليدوية. مدرّب فرد (لا شركة)",
+      "of": "d4ff7fc6",
+      "at": [
+        "cannon:dayInside.classes[3].desc"
       ]
     },
     {
       "t": "JrK–2",
       "of": "f32a20a3",
       "at": [
-        "cannon:dayInside.classes[1].gradeLabel",
-        "cannon:dayInside.classes[5].gradeLabel",
-        "cannon:dayInside.classes[12].gradeLabel",
-        "cannon:dayInside.classes[15].gradeLabel"
-      ]
-    },
-    {
-      "t": "تحدّيات البناء والاختبار يديرها BrickEd",
-      "of": "fc32f7b2",
-      "at": [
-        "cannon:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–2",
-      "of": "5e92d4cb",
-      "at": [
-        "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel",
-        "charlotte-prep:dayInside.classes[1].gradeLabel"
-      ]
-    },
-    {
-      "t": "صنع متعدّد الوسائط مع McKinsey وRaphael",
-      "of": "12042fb8",
-      "at": [
-        "cannon:dayInside.classes[3].desc"
-      ]
-    },
-    {
-      "t": "2–4",
-      "of": "de4d6af2",
-      "at": [
         "cannon:dayInside.classes[3].gradeLabel",
-        "cannon:dayInside.classes[17].gradeLabel"
+        "cannon:dayInside.classes[13].gradeLabel",
+        "cannon:dayInside.classes[22].gradeLabel",
+        "cannon:dayInside.classes[23].gradeLabel"
       ]
     },
     {
-      "t": "بناء وبرمجة جماعية مع Lisa Nussbaumer",
-      "of": "a4c630c5",
+      "t": "تنس مع طاقم تدريب التنس للفريق الأول في Cannon",
+      "of": "692bb940",
       "at": [
-        "cannon:dayInside.classes[4].desc"
+        "cannon:dayInside.classes[4].desc",
+        "cannon:dayInside.classes[11].desc"
       ]
     },
     {
-      "t": "3–5",
-      "of": "72b1a582",
+      "t": "K–4",
+      "of": "6492de3d",
       "at": [
         "cannon:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[3].gradeLabel",
-        "charlotte-prep:dayInside.classes[5].gradeLabel"
+        "cannon:dayInside.classes[16].gradeLabel",
+        "charlotte-prep:dayInside.classes[0].gradeLabel"
       ]
     },
     {
-      "t": "صناعة الدُّمى وأداؤها مع Rhiannon Bresalier",
-      "of": "9234b989",
+      "t": "نادي Pokémon. مدرّب فرد (لا شركة)",
+      "of": "58d4dc0d",
       "at": [
         "cannon:dayInside.classes[5].desc"
       ]
     },
     {
-      "t": "مهارات المطبخ والوصفات مع Craig Rosekrans",
-      "of": "66339c45",
+      "t": "2–6",
+      "of": "dc4d67cc",
+      "at": [
+        "cannon:dayInside.classes[5].gradeLabel",
+        "cannon:dayInside.classes[10].gradeLabel",
+        "cannon:dayInside.classes[14].gradeLabel",
+        "cannon:dayInside.classes[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "مهارات الآلات الوترية. مدرّب فرد (لا شركة)",
+      "of": "b8f2970c",
       "at": [
         "cannon:dayInside.classes[6].desc"
-      ]
-    },
-    {
-      "t": "1–3",
-      "of": "aa9ea5ea",
-      "at": [
-        "cannon:dayInside.classes[6].gradeLabel"
-      ]
-    },
-    {
-      "t": "يديره AR Workshop Concord؛ 3:00–4:30",
-      "of": "ec18d9af",
-      "at": [
-        "cannon:dayInside.classes[7].desc"
       ]
     },
     {
       "t": "3–8",
       "of": "77b1ad61",
       "at": [
-        "cannon:dayInside.classes[7].gradeLabel",
+        "cannon:dayInside.classes[6].gradeLabel",
         "charlotte-prep:dayInside.classes[2].gradeLabel"
       ]
     },
     {
-      "t": "الرقص مع Art in Motion Dance",
-      "of": "6d0482e1",
+      "t": "حصّة خَبز. مدرّب فرد (لا شركة)",
+      "of": "039f66ae",
+      "at": [
+        "cannon:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "K–1",
+      "of": "5f92d65e",
+      "at": [
+        "cannon:dayInside.classes[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "حصّة في maker-space (ورشة التصميم والصنع). مدرّب فرد (لا شركة)",
+      "of": "a373c8d9",
       "at": [
         "cannon:dayInside.classes[8].desc"
       ]
     },
     {
-      "t": "استكشاف في الهواء الطلق وألعاب مع Kelli Waller",
-      "of": "d09d34c2",
+      "t": "1–3",
+      "of": "aa9ea5ea",
+      "at": [
+        "cannon:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "بتدريب Carolina Soccer Factory",
+      "of": "55c5f69b",
       "at": [
         "cannon:dayInside.classes[9].desc"
       ]
@@ -3989,178 +4002,212 @@
       "t": "JrK–4",
       "of": "f92a2a15",
       "at": [
-        "cannon:dayInside.classes[9].gradeLabel"
+        "cannon:dayInside.classes[9].gradeLabel",
+        "cannon:dayInside.classes[12].gradeLabel",
+        "cannon:dayInside.classes[21].gradeLabel",
+        "cannon:dayInside.classes[25].gradeLabel",
+        "cannon:dayInside.classes[30].gradeLabel"
       ]
     },
     {
-      "t": "بتدريب Carolina Soccer Factory",
-      "of": "55c5f69b",
+      "t": "مشاريع الرسم بفصوص الماس (diamond art). مدرّب فرد (لا شركة)",
+      "of": "83ec038d",
       "at": [
         "cannon:dayInside.classes[10].desc"
       ]
     },
     {
-      "t": "K–6",
-      "of": "6292db17",
+      "t": "مدرّب فرد (لا شركة)",
+      "of": "c2e74de5",
       "at": [
-        "cannon:dayInside.classes[10].gradeLabel"
-      ]
-    },
-    {
-      "t": "صنع متعدّد التخصّصات مع Mayo وCavicchi",
-      "of": "892a9a9a",
-      "at": [
-        "cannon:dayInside.classes[11].desc"
-      ]
-    },
-    {
-      "t": "JrK–1",
-      "of": "f42a2236",
-      "at": [
-        "cannon:dayInside.classes[11].gradeLabel"
+        "cannon:dayInside.classes[12].desc",
+        "cannon:dayInside.classes[29].desc"
       ]
     },
     {
       "t": "يدرّسه Le Petit Ballet Co.",
       "of": "54903c06",
       "at": [
-        "cannon:dayInside.classes[12].desc"
+        "cannon:dayInside.classes[13].desc"
       ]
     },
     {
-      "t": "آلات وترية جماعية مع Anne Marie Samuel",
-      "of": "cee50463",
+      "t": "تشكيل الفخّار على العجلة. مدرّب فرد (لا شركة)",
+      "of": "21bb2035",
       "at": [
-        "cannon:dayInside.classes[13].desc"
+        "cannon:dayInside.classes[14].desc"
+      ]
+    },
+    {
+      "t": "عزف جماعي على الآلات الوترية مع String Orchestra Director في Cannon",
+      "of": "be9b40b7",
+      "at": [
+        "cannon:dayInside.classes[15].desc"
       ]
     },
     {
       "t": "1–8",
       "of": "a19e97bf",
       "at": [
-        "cannon:dayInside.classes[13].gradeLabel"
+        "cannon:dayInside.classes[15].gradeLabel"
       ]
     },
     {
-      "t": "يديره Better Golf for Kids",
-      "of": "f995456f",
-      "at": [
-        "cannon:dayInside.classes[14].desc"
-      ]
-    },
-    {
-      "t": "K–5",
-      "of": "6392dcaa",
-      "at": [
-        "cannon:dayInside.classes[14].gradeLabel"
-      ]
-    },
-    {
-      "t": "فنّ ثلاثي الأبعاد مع Alex Bresalier",
-      "of": "4dd98a79",
-      "at": [
-        "cannon:dayInside.classes[15].desc"
-      ]
-    },
-    {
-      "t": "مهارات الوظائف التنفيذية لـ Middle School، مع Sherrill وO’Brien",
-      "of": "1cef586d",
+      "t": "لاكروس مع مدرّبي اللاكروس في Cannon School",
+      "of": "9b2f1dbe",
       "at": [
         "cannon:dayInside.classes[16].desc"
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
-      "at": [
-        "cannon:dayInside.classes[16].gradeLabel"
-      ]
-    },
-    {
-      "t": "التطوّر الرياضي مع Donnie Hayes",
-      "of": "aebfe251",
+      "t": "برمجة الروبوتات مع Nexplore",
+      "of": "981427da",
       "at": [
         "cannon:dayInside.classes[17].desc"
       ]
     },
     {
-      "t": "تاريخ قائم على القطع مع Stephanie Lee",
-      "of": "6c10a569",
+      "t": "التطوير الرياضي. مدرّب فرد (لا شركة)",
+      "of": "1e12eca4",
       "at": [
         "cannon:dayInside.classes[18].desc"
       ]
     },
     {
-      "t": "4–8",
-      "of": "d12b05b8",
+      "t": "2–5",
+      "of": "df4d6c85",
       "at": [
-        "cannon:dayInside.classes[18].gradeLabel"
+        "cannon:dayInside.classes[18].gradeLabel",
+        "cannon:dayInside.classes[27].gradeLabel"
       ]
     },
     {
-      "t": "أساسيات الكاميرا والتكوين مع Danielle Sandlof",
-      "of": "753d981d",
+      "t": "تديره Better Golf for Kids Academy",
+      "of": "e35d51f5",
       "at": [
         "cannon:dayInside.classes[19].desc"
       ]
     },
     {
-      "t": "3–6",
-      "of": "71b1a3ef",
+      "t": "1–6",
+      "of": "a79ea131",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel",
-        "charlotte-prep:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[8].gradeLabel"
+        "cannon:dayInside.classes[19].gradeLabel"
       ]
     },
     {
-      "t": "فنّ الخرز مع Dobbins وFox",
-      "of": "5832d170",
+      "t": "حصّة خزف. مدرّب فرد (لا شركة)",
+      "of": "5c6ac547",
       "at": [
         "cannon:dayInside.classes[20].desc"
       ]
     },
     {
-      "t": "K–4",
-      "of": "6492de3d",
-      "at": [
-        "cannon:dayInside.classes[20].gradeLabel",
-        "charlotte-prep:dayInside.classes[0].gradeLabel"
-      ]
-    },
-    {
-      "t": "التلوين والرسم مع Danielle Lucas",
-      "of": "e404b9fa",
+      "t": "حصّة جري. مدرّب فرد (لا شركة)",
+      "of": "79379dd5",
       "at": [
         "cannon:dayInside.classes[21].desc"
       ]
     },
     {
-      "t": "K–3",
-      "of": "5d92d338",
+      "t": "الفن مع AR Workshop",
+      "of": "ada8f20e",
       "at": [
-        "cannon:dayInside.classes[21].gradeLabel"
+        "cannon:dayInside.classes[22].desc"
       ]
     },
     {
-      "t": "تُعقَد دروس موسيقى خاصّة إلى جانبها لـ K–8: التشيلو $25/حصّة (الاثنين/الأربعاء)، والغيتار $25 (الأربعاء/الجمعة)، والغناء $30 (الثلاثاء/الخميس)، والبيانو $30 (الاثنين/الثلاثاء/الخميس)، والكمان أو الفيولا $30 (الثلاثاء/الخميس).",
-      "of": "1bb78a11",
+      "t": "تديره Kidokinetics of North Charlotte",
+      "of": "8dd86e42",
+      "at": [
+        "cannon:dayInside.classes[23].desc"
+      ]
+    },
+    {
+      "t": "تدرّسه Concord TaeKwonDo Inc.",
+      "of": "3242095f",
+      "at": [
+        "cannon:dayInside.classes[24].desc"
+      ]
+    },
+    {
+      "t": "1–5",
+      "of": "a49e9c78",
+      "at": [
+        "cannon:dayInside.classes[24].gradeLabel"
+      ]
+    },
+    {
+      "t": "التشجيع مع Overtime Athletics",
+      "of": "1aa0fba0",
+      "at": [
+        "cannon:dayInside.classes[25].desc"
+      ]
+    },
+    {
+      "t": "يدرّسه كبير مدرّبي Charlotte Chess Center",
+      "of": "f5fe7acf",
+      "at": [
+        "cannon:dayInside.classes[26].desc"
+      ]
+    },
+    {
+      "t": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "cannon:dayInside.classes[26].gradeLabel",
+        "trinity-episcopal:dayInside.classes[0].gradeLabel",
+        "trinity-episcopal:dayInside.classes[1].gradeLabel",
+        "trinity-episcopal:dayInside.classes[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "ألعاب الخفّة مع Nexplore",
+      "of": "0b37a651",
+      "at": [
+        "cannon:dayInside.classes[27].desc"
+      ]
+    },
+    {
+      "t": "حصّة طهي. مدرّب فرد (لا شركة)",
+      "of": "6a5d3918",
+      "at": [
+        "cannon:dayInside.classes[28].desc"
+      ]
+    },
+    {
+      "t": "5–7",
+      "of": "73037a4a",
+      "at": [
+        "cannon:dayInside.classes[28].gradeLabel"
+      ]
+    },
+    {
+      "t": "K–6",
+      "of": "6292db17",
+      "at": [
+        "cannon:dayInside.classes[29].gradeLabel"
+      ]
+    },
+    {
+      "t": "حصّة LEGO. مدرّب فرد (لا شركة)",
+      "of": "8e0b917b",
+      "at": [
+        "cannon:dayInside.classes[30].desc"
+      ]
+    },
+    {
+      "t": "تُعقَد دروس موسيقى خاصّة إلى جانبها لـ K–12: البيانو $30/حصّة (الاثنين/الثلاثاء، والأربعاء/الخميس/الجمعة مع معلّم ثانٍ)، والكمان أو الفيولا $30 (الثلاثاء/الخميس)، والغناء $30 للصفوف 2–12 (الثلاثاء/الخميس/الجمعة)، والتشيلو $25 (من الاثنين إلى الخميس)، والغيتار $25 (الثلاثاء/الأربعاء/الخميس).",
+      "of": "d303045f",
       "at": [
         "cannon:dayInside.flags[0].text"
-      ]
-    },
-    {
-      "t": "هذا دليل **الجلسة 3 لعام 2025-26** — الأحدث المنشور. ولم يُنشَر بعد أي دليل Beyond the Bell لعام 2026-27، فستتغيّر الحصص المحدَّدة وإن كان نطاق السعر والبنية يُرجَّح ثباتهما.",
-      "of": "bd097f64",
-      "at": [
-        "cannon:dayInside.flags[1].text"
       ]
     },
     {
       "t": "لا يُنشَر إيقاع يومي ساعةً بساعة ولا نسب الطاقم إلى الأطفال لـ After School Program نفسه. ولا يوجد لـ Middle School وصف برنامج منفصل: إذ تقع الصفوف 5–8 داخل برنامج JrK–8 نفسه.",
       "of": "9c982864",
       "at": [
-        "cannon:dayInside.flags[2].text"
+        "cannon:dayInside.flags[1].text"
       ]
     },
     {
@@ -4206,22 +4253,22 @@
       ]
     },
     {
-      "t": "**دليل إثراء كبير مُسعَّر بالكامل** — 22 حصّة متمايزة في جلسة واحدة، من الروبوتات والباليه إلى النحت والغولف والتصوير. ولكلٍّ منها مزوّد مُسمّى ورسم حقيقي.",
-      "of": "591807b0",
+      "t": "**دليل إثراء كبير مُسعَّر بالكامل** — 31 حصّة متمايزة في جلسة واحدة، من برمجة الروبوتات والباليه إلى الفخّار والغولف والتصوير. ولكلٍّ منها رسم حقيقي.",
+      "of": "c7483779",
       "at": [
         "cannon:verdict.strengths[4]"
       ]
     },
     {
-      "t": "**الإثراء متواضع السعر وشفّاف** — من $18 إلى $30 لكل حصّة، ومن $160 إلى $300 للجلسة المكوّنة من 8 أو 10 حصص، مع استرداد كامل للحصص الملغاة وأسبوع تعويضي.",
-      "of": "6274a884",
+      "t": "**الإثراء متواضع السعر وشفّاف** — من $15 إلى $30 لكل حصّة، ومن $125 إلى $240 للجلسة المكوّنة من 5–15 لقاءً. ويمكن للأسرة الإلغاء خلال الأسبوع الأول والدفع مقابل الحصّة التي حُضرت فقط. وتُعوَّض الحصّة الملغاة حيثما أمكن.",
+      "of": "8aba83f9",
       "at": [
         "cannon:verdict.strengths[5]"
       ]
     },
     {
-      "t": "**حصّة للوظائف التنفيذية لـ Middle School** (\"Let’s Get Organized\") — عرض غير معتاد فعلًا في هذا العمر.",
-      "of": "4ab6a038",
+      "t": "**حصّة لمهارات التنظيم لـ Middle School** (\"Let’s Get Organized\")، مرتين في الأسبوع قبل الدوام — عرض غير معتاد فعلًا في هذا العمر.",
+      "of": "77a48c2d",
       "at": [
         "cannon:verdict.strengths[6]"
       ]
@@ -6025,8 +6072,8 @@
       ]
     },
     {
-      "t": "تمتدّ الرعاية حتى 5:30 مساءً من Pre-K إلى الصف 8. وتبدأ فئة Lower School في 3:00 وفئة Middle School في 3:15.",
-      "of": "fecea180",
+      "t": "تمتدّ الرعاية حتى 5:30 مساءً من Preschool إلى الصف 8. وتبدأ فئة Lower School في 3:00 وفئة Middle School في 3:15.",
+      "of": "61235bc4",
       "at": [
         "gaston-day:coverage.headline"
       ]
@@ -6151,8 +6198,8 @@
       ]
     },
     {
-      "t": "يغطّي البرنامج **Pre-K حتى الصف 8 فقط**. ولا تُنشَر رعاية ما بعد الدوام للصفوف 9–12، وهو أمر شائع لكنه جدير بالذكر.",
-      "of": "a27225ab",
+      "t": "يغطّي البرنامج **Preschool حتى الصف 8 فقط**. ولا تُنشَر رعاية ما بعد الدوام للصفوف 9–12، وهو أمر شائع لكنه جدير بالذكر.",
+      "of": "ba0c1c4b",
       "at": [
         "gaston-day:coverage.facts[5].text"
       ]
@@ -6608,8 +6655,8 @@
       ]
     },
     {
-      "t": "**تمتدّ التغطية من Pre-K حتى الصف 8** في فئتين، تعمل كلتاهما حتى 5:30 مساءً.",
-      "of": "55e040df",
+      "t": "**تمتدّ التغطية من Preschool حتى الصف 8** في فئتين، تعمل كلتاهما حتى 5:30 مساءً.",
+      "of": "a5a8e713",
       "at": [
         "gaston-day:verdict.strengths[4]"
       ]
@@ -6713,8 +6760,8 @@
       ]
     },
     {
-      "t": "كيف يُشرَف على فئة الصفوف 5–8 على نحو مختلف عن فئة Pre-K–الصف 4؟",
-      "of": "3bc8eeb5",
+      "t": "كيف يُشرَف على فئة الصفوف 5–8 على نحو مختلف عن فئة Preschool–الصف 4؟",
+      "of": "88b837f1",
       "at": [
         "gaston-day:verdict.checklist[6]"
       ]
@@ -6959,15 +7006,6 @@
       "at": [
         "trinity-episcopal:dayInside.classes[0].desc",
         "trinity-episcopal:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–8",
-      "of": "5892cb59",
-      "at": [
-        "trinity-episcopal:dayInside.classes[0].gradeLabel",
-        "trinity-episcopal:dayInside.classes[1].gradeLabel",
-        "trinity-episcopal:dayInside.classes[2].gradeLabel"
       ]
     },
     {
@@ -7433,6 +7471,13 @@
       ]
     },
     {
+      "t": "K–2",
+      "of": "5e92d4cb",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
+      ]
+    },
+    {
       "t": "تجربة أداء لمسرحية من فصل واحد ثم تقديمها.",
       "of": "e1c0cf53",
       "at": [
@@ -7444,6 +7489,14 @@
       "of": "b9eaca1b",
       "at": [
         "charlotte-prep:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "3–5",
+      "of": "72b1a582",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
       ]
     },
     {

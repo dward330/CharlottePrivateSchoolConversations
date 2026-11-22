@@ -99,7 +99,6 @@
         "charlotte-latin:guide.bands[3].checklistRows[6].due",
         "charlotte-latin:guide.comparison.rows[0].cells.ls",
         "charlotte-latin:guide.comparison.rows[0].cells.ms",
-        "charlotte-latin:guide.comparison.rows[0].cells.us",
         "charlotte-christian:guide.stats[1].value",
         "charlotte-christian:guide.bands[0].checklistRows[3].due",
         "charlotte-christian:guide.bands[0].checklistRows[4].due",
@@ -143,7 +142,6 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
-        "charlotte-latin:guide.stats[1].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ],
@@ -1726,12 +1724,20 @@
       "t": "Chwazi nivo kote pitit ou ap antre a epi gid la ap adapte tèt li: etap yo nan lòd, dat limit 2027–28 yo, ak tès ki mande pou nivo sa a — plis yon lis kontwòl ou ka enprime pou pote avè w. Tout kat chemen yo swiv menm etap prensipal yo. Sa k chanje ant yo se tès la, kiyès ki fikse Visit Day la, si gen yon entèvyou, ak dat limit la."
     },
     {
-      "text": "TK/Kindergarten application deadline — 13 days ahead of every other grade",
-      "of": "af3286a6",
+      "text": "TK/Kindergarten application deadline — 13 days ahead of Grades 1–11",
+      "of": "0e0e9a6a",
       "at": [
         "charlotte-latin:guide.stats[0].label"
       ],
-      "t": "dat limit aplikasyon TK/Kindergarten — 13 jou anvan tout lòt klas yo"
+      "t": "dat limit aplikasyon TK/Kindergarten — 13 jou anvan klas 1–11 yo"
+    },
+    {
+      "text": "Grades 1–11 application deadline",
+      "of": "5ce9158d",
+      "at": [
+        "charlotte-latin:guide.stats[1].label"
+      ],
+      "t": "dat limit aplikasyon pou klas 1–11"
     },
     {
       "text": "non-refundable enrollment deposit",
@@ -1787,8 +1793,7 @@
       "at": [
         "charlotte-latin:guide.bands[0].deadlines[0].label",
         "charlotte-latin:guide.bands[1].deadlines[0].label",
-        "charlotte-latin:guide.bands[2].deadlines[0].label",
-        "charlotte-latin:guide.bands[3].deadlines[0].label"
+        "charlotte-latin:guide.bands[2].deadlines[0].label"
       ],
       "t": "dat limit aplikasyon an"
     },
@@ -1859,12 +1864,12 @@
       "t": "Enskri pou aktivite admisyon opsyonèl yo"
     },
     {
-      "text": "Optional, not required. The **TK/K Fly By Open House on October 10, 2026, 9:30–11:00 a.m.** is the one dated event published for this band. Campus tours begin in September and run throughout the school year. Open houses, tours and virtual sessions are all booked through your portal account.",
-      "of": "0b83f028",
+      "text": "Optional, not required. Two dated events are published for this band. The **TK/K Fly By Open House** runs 9:30–11:00 a.m. on October 10, 2026. A **coffee and panel for parents of TK/K applicants** runs 9:30–11:00 a.m. on January 20, 2027. Campus tours begin in September and run throughout the school year. Open houses, tours and virtual sessions are all booked through your portal account.",
+      "of": "cb1d064a",
       "at": [
         "charlotte-latin:guide.bands[0].steps[1].detail"
       ],
-      "t": "Opsyonèl, se pa obligatwa. **TK/K Fly By Open House la nan dat 10 oktòb 2026, 9:30–11:00 a.m.** se sèl aktivite ki gen dat ki pibliye pou nivo sa a. Vizit kanpis yo kòmanse nan mwa septanm epi yo kontinye pandan tout ane lekòl la. Se nan kont pòtay ou a ou rezève tout pòt louvri, vizit ak sesyon vityèl yo."
+      "t": "Opsyonèl, se pa obligatwa. Gen de aktivite ak dat ki pibliye pou nivo sa a. **TK/K Fly By Open House** la fèt 10 oktòb 2026, 9:30–11:00 a.m. Yon **kafe ak panèl pou paran moun k ap aplike pou TK/K** fèt 20 janvye 2027, 9:30–11:00 a.m. Vizit kanpis yo kòmanse nan mwa septanm epi yo kontinye pandan tout ane lekòl la. Se nan kont pòtay ou a ou rezève tout pòt louvri, vizit ak sesyon vityèl yo."
     },
     {
       "text": "Complete the application",
@@ -1878,12 +1883,12 @@
       "t": "Ranpli aplikasyon an"
     },
     {
-      "text": "Required, and due **January 2, 2027**. That is thirteen days ahead of every other grade in the school. So this band's deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being \"designed for children that are newly five and ready for Kindergarten,\" and states no calendar date. Ask the admissions office where your child falls. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office. The listing says K-12, so it does not say whether it covers TK.",
-      "of": "3c4bf219",
+      "text": "Required, and due **January 2, 2027**. That is thirteen days ahead of Grades 1–11. So this band's deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being \"designed for children that are newly five and ready for Kindergarten,\" and states no calendar date. Ask the admissions office where your child falls. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office. The listing says K-12, so it does not say whether it covers TK.",
+      "of": "3ddeb149",
       "at": [
         "charlotte-latin:guide.bands[0].steps[2].detail"
       ],
-      "t": "Obligatwa, epi li dwe rive **2 janvye 2027**. Sa se trèz jou anvan tout lòt klas nan lekòl la. Kidonk dat limit nivo sa a tonbe nan premye semèn janvye a, pa nan mitan mwa a. **Pa gen okenn limit laj oswa dat nesans ki pibliye** pou Transitional Kindergarten ni pou Kindergarten. Lekòl la dekri TK sèlman an tèm jeneral, tankou yon bagay ki «fèt pou timoun ki fèk gen senk an epi ki pare pou Kindergarten», epi li pa bay okenn dat. Mande biwo admisyon an kote pitit ou tonbe. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an. Lis la di K-12, kidonk li pa di si li kouvri TK."
+      "t": "Obligatwa, epi li dwe rive **2 janvye 2027**. Sa se trèz jou anvan klas 1–11 yo. Kidonk dat limit nivo sa a tonbe nan premye semèn janvye a, pa nan mitan mwa a. **Pa gen okenn limit laj oswa dat nesans ki pibliye** pou Transitional Kindergarten ni pou Kindergarten. Lekòl la dekri TK sèlman an tèm jeneral: li di pwogram nan «designed for children that are newly five and ready for Kindergarten» (li fèt pou timoun ki fèk gen senk an epi ki pare pou Kindergarten), epi li pa bay okenn dat. Mande biwo admisyon an kote pitit ou tonbe. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an. Lis la di K-12, kidonk li pa di si li kouvri TK."
     },
     {
       "text": "Attend a Visit Day — the office schedules it",
@@ -1929,12 +1934,12 @@
       "t": "obligatwa"
     },
     {
-      "text": "Required. Applicants to this band take the **WPPSI**. A psychologist in the Charlotte Area Independent Schools consortium gives the test. Testing \"need[s] to be scheduled in advance.\" You book the psychologist directly and ask that the scores be sent to Charlotte Latin. The school does not arrange the appointment.",
-      "of": "371c6a2f",
+      "text": "Required. Applicants to this band take the **WPPSI**. A psychologist in the Charlotte Area Independent Schools consortium gives the test. Testing \"need[s] to be scheduled in advance.\" You book the psychologist directly and ask that the scores be sent to Charlotte Latin. The school does not arrange the appointment. The CAIS brochure says testing must be complete by **February 1, 2027** and costs **$300**. It also says CAIS schools interview each child, though Latin’s page does not describe an interview for this band.",
+      "of": "fe64a670",
       "at": [
         "charlotte-latin:guide.bands[0].steps[4].detail"
       ],
-      "t": "Obligatwa. Moun k ap aplike pou nivo sa a pase **WPPSI** la. Se yon sikològ nan konsòsyòm Charlotte Area Independent Schools la ki bay tès la. Tès la «dwe fikse davans». Se ou menm ki kontakte sikològ la dirèkteman epi ki mande pou yo voye nòt yo bay Charlotte Latin. Se pa lekòl la ki pran randevou a."
+      "t": "Obligatwa. Moun k ap aplike pou nivo sa a pase **WPPSI** la. Se yon sikològ nan konsòsyòm Charlotte Area Independent Schools la ki bay tès la. Lekòl la di tès la «need[s] to be scheduled in advance» (fòk ou fikse l davans). Se ou menm ki kontakte sikològ la dirèkteman epi ki mande pou yo voye nòt yo bay Charlotte Latin. Se pa lekòl la ki pran randevou a. Bwochi CAIS la di tès la dwe fini pa pita pase **1ye fevriye 2027** epi li koute **$300**. Li di tou lekòl CAIS yo fè entèvyou ak chak timoun, men paj Latin nan pa dekri okenn entèvyou pou nivo sa a."
     },
     {
       "text": "Apply for financial aid, if you need it",
@@ -1975,12 +1980,12 @@
       "t": "26 fevriye"
     },
     {
-      "text": "**February 26, 2027** is the school's \"TK and K notification day.\" Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.",
-      "of": "965fb3f3",
+      "text": "**February 26, 2027** is the school's \"TK and K notification day.\" Financial aid award decisions are communicated the same day. The CAIS brochure says the enrollment contract is due **March 5, 2027**. Enrolling also requires the **$2,500 non-refundable deposit**.",
+      "of": "3059c61c",
       "at": [
         "charlotte-latin:guide.bands[0].steps[6].detail"
       ],
-      "t": "**26 fevriye 2027** se «jou anons TK ak K» lekòl la. Yo kominike desizyon sou èd finansye yo menm jou a. **Yo pa pibliye okenn dat limit pou remèt kontra enskripsyon an**, kidonk mande biwo admisyon an kilè li dwe rive. Pou enskri, fòk ou peye tou **depo $2,500 ki pa ranbousab** la."
+      "t": "**26 fevriye 2027** se jou anons lekòl la rele «TK and K notification day». Yo kominike desizyon sou èd finansye yo menm jou a. Bwochi CAIS la di kontra enskripsyon an dwe rive **5 mas 2027**. Pou enskri, fòk ou peye tou **depo $2,500 ki pa ranbousab** la."
     },
     {
       "text": "Your application deadline is Jan 2, 2027.",
@@ -1991,12 +1996,12 @@
       "t": "Dat limit aplikasyon w lan se 2 janvye 2027."
     },
     {
-      "text": "Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band's Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, February 26, 2027. No due date for the enrollment contract is published, so confirm it with the admissions office.",
-      "of": "251668a8",
+      "text": "Transitional Kindergarten and Kindergarten apply thirteen days ahead of Grades 1–11. The admissions office, not the family, schedules this band's Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. The CAIS brochure sets testing by February 1, 2027. Decisions come on notification day, February 26, 2027. The brochure says the enrollment contract is due March 5, 2027.",
+      "of": "010536bd",
       "at": [
         "charlotte-latin:guide.bands[0].checklistCallout.text"
       ],
-      "t": "Transitional Kindergarten ak Kindergarten aplike trèz jou anvan tout lòt klas. Pou nivo sa a, se biwo admisyon an ki fikse Visit Day la, se pa fanmi an. Pa gen okenn dat limit pou tout dokiman dosye a ki pibliye pou nivo sa a. Kidonk konsidere lis kontwòl pòtay ou a kòm dènye mo sou sa ki rete pou fèt. Desizyon yo ap vini nan jou anons la, 26 fevriye 2027. Yo pa pibliye okenn dat limit pou remèt kontra enskripsyon an, kidonk konfime l ak biwo admisyon an."
+      "t": "Transitional Kindergarten ak Kindergarten aplike trèz jou anvan klas 1–11 yo. Pou nivo sa a, se biwo admisyon an ki fikse Visit Day la, se pa fanmi an. Pa gen okenn dat limit pou tout dokiman dosye a ki pibliye pou nivo sa a. Kidonk konsidere lis kontwòl pòtay ou a kòm dènye mo sou sa ki rete pou fèt. Bwochi CAIS la mande pou tès la fèt pa pita pase 1ye fevriye 2027. Desizyon yo ap vini nan jou anons la, 26 fevriye 2027. Bwochi a di kontra enskripsyon an dwe rive 5 mas 2027."
     },
     {
       "text": "Submit the online inquiry form",
@@ -2070,12 +2075,12 @@
       "t": "Voye aplikasyon an"
     },
     {
-      "text": "Thirteen days ahead of the Grades 1–12 deadline. No age cutoff is published.",
-      "of": "614a3486",
+      "text": "Thirteen days ahead of the Grades 1–11 deadline. No age cutoff is published.",
+      "of": "81a4c04f",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[3].detail"
       ],
-      "t": "Trèz jou anvan dat limit klas 1–12 yo. Pa gen okenn limit laj ki pibliye."
+      "t": "Trèz jou anvan dat limit klas 1–11 yo. Pa gen okenn limit laj ki pibliye."
     },
     {
       "text": "Attend the Visit Day the office schedules for you",
@@ -2110,22 +2115,20 @@
       "t": "Fikse epi pase tès WPPSI a"
     },
     {
-      "text": "Scheduled in advance with a CAIS psychologist; ask that scores be sent to Latin.",
-      "of": "4f9cd594",
+      "text": "Scheduled in advance with a CAIS psychologist; ask that scores be sent to Latin. $300, per the CAIS brochure.",
+      "of": "676033c7",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[5].detail"
       ],
-      "t": "Fikse l davans ak yon sikològ CAIS; mande pou yo voye nòt yo bay Latin."
+      "t": "Fikse l davans ak yon sikològ CAIS; mande pou yo voye nòt yo bay Latin. $300, dapre bwochi CAIS la."
     },
     {
-      "text": "Before your deadline",
-      "of": "de184993",
+      "text": "By Feb 1, 2027",
+      "of": "6a0ec2a3",
       "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[5].due",
-        "charlotte-latin:guide.bands[1].checklistRows[3].due",
-        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+        "charlotte-latin:guide.bands[0].checklistRows[5].due"
       ],
-      "t": "Anvan dat limit ou a"
+      "t": "Pa pita pase 1ye fevriye 2027"
     },
     {
       "text": "Submit the Clarity financial aid application",
@@ -2161,14 +2164,12 @@
       "t": "Veye jou anons ou"
     },
     {
-      "text": "Admission and financial aid decisions come that day. No contract due date is published; confirm it with admissions.",
-      "of": "9ebc1ec7",
+      "text": "Admission and financial aid decisions come that day. The CAIS brochure says the contract is due March 5, 2027.",
+      "of": "ec3068ef",
       "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[7].detail",
-        "charlotte-latin:guide.bands[1].checklistRows[6].detail",
-        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
+        "charlotte-latin:guide.bands[0].checklistRows[7].detail"
       ],
-      "t": "Desizyon admisyon ak èd finansye yo ap vini jou sa a. Pa gen okenn dat limit pou remèt kontra ki pibliye; konfime l ak biwo admisyon an."
+      "t": "Desizyon admisyon ak èd finansye yo ap vini jou sa a. Bwochi CAIS la di kontra a dwe rive 5 mas 2027."
     },
     {
       "text": "Lower School · Grades 1–5",
@@ -2197,12 +2198,12 @@
       "t": "Premye etap ki obligatwa a: fanmi yo «voye yon demann enfòmasyon anvan epi apre sa yo kreye yon pwofil pou fanmi yo». Kont sa a ap mande w apre sa pou w enskri nan aktivite admisyon opsyonèl yo, voye dokiman w yo, jwenn fòm yo epi respekte dat limit yo."
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline every grade from 1 through 12 works to, thirteen days later than Transitional Kindergarten and Kindergarten. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
-      "of": "d9c67bf3",
+      "text": "Required, and due **January 15, 2027**. That is the deadline for Grades 1–11, thirteen days later than Transitional Kindergarten and Kindergarten. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "1ae2bdd7",
       "at": [
         "charlotte-latin:guide.bands[1].steps[1].detail"
       ],
-      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 ap travay sou li, trèz jou apre Transitional Kindergarten ak Kindergarten. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an."
+      "t": "Obligatwa, epi li dwe rive **15 janvye 2027**. Sa se dat limit klas 1–11 yo, trèz jou apre Transitional Kindergarten ak Kindergarten. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an."
     },
     {
       "text": "Schedule and attend a Visit Day",
@@ -2240,12 +2241,12 @@
       "t": "Pase tès estandadize ki pou klas pitit ou a"
     },
     {
-      "text": "Required, and **the test changes twice inside this one band**. Grade 1 applicants take the **WPPSI**, Grades 2–4 the **WISC-V**, and Grade 5 the **ISEE**. How you book changes with it. A psychologist in the Charlotte Area Independent Schools consortium gives the WPPSI and WISC-V, and you contact that psychologist directly. The ISEE is developed and given by the **Educational Records Bureau**, and Grade 5 families register through the ERB. Check which test applies to the grade your child is entering before you book anything.",
-      "of": "e0901ac3",
+      "text": "Required, and **the test changes twice inside this one band**. Grade 1 applicants take the **WPPSI**, Grades 2–4 the **WISC-V**, and Grade 5 the **ISEE**. How you book changes with it. A psychologist in the Charlotte Area Independent Schools consortium gives the WPPSI and WISC-V, and you contact that psychologist directly. The ISEE is developed and given by the **Educational Records Bureau**, and Grade 5 families register through the ERB. Check which test applies to the grade your child is entering before you book anything. The CAIS brochure says Grades 1–4 testing must be complete by **February 26, 2027** and costs **$300**. It also says CAIS schools interview each child, though Latin’s page does not describe an interview for this band.",
+      "of": "2192188f",
       "at": [
         "charlotte-latin:guide.bands[1].steps[3].detail"
       ],
-      "t": "Obligatwa, epi **tès la chanje de fwa anndan menm nivo sa a**. Moun k ap aplike pou klas 1 pase **WPPSI** la, klas 2–4 yo **WISC-V** la, epi klas 5 la **ISEE** a. Fason pou rezève a chanje avè l tou. Se yon sikològ nan konsòsyòm Charlotte Area Independent Schools la ki bay WPPSI ak WISC-V yo, epi se ou menm ki kontakte sikològ sa a dirèkteman. Se **Educational Records Bureau** ki fè epi ki bay ISEE a, epi fanmi klas 5 yo enskri nan ERB la. Tcheke ki tès ki aplike pou klas kote pitit ou ap antre a anvan ou rezève anyen."
+      "t": "Obligatwa, epi **tès la chanje de fwa anndan menm nivo sa a**. Moun k ap aplike pou klas 1 pase **WPPSI** la, klas 2–4 yo **WISC-V** la, epi klas 5 la **ISEE** a. Fason pou rezève a chanje avè l tou. Se yon sikològ nan konsòsyòm Charlotte Area Independent Schools la ki bay WPPSI ak WISC-V yo, epi se ou menm ki kontakte sikològ sa a dirèkteman. Se **Educational Records Bureau** ki fè epi ki bay ISEE a, epi fanmi klas 5 yo enskri nan ERB la. Tcheke ki tès ki aplike pou klas kote pitit ou ap antre a anvan ou rezève anyen. Bwochi CAIS la di tès klas 1–4 yo dwe fini pa pita pase **26 fevriye 2027** epi yo koute **$300**. Li di tou lekòl CAIS yo fè entèvyou ak chak timoun, men paj Latin nan pa dekri okenn entèvyou pou nivo sa a."
     },
     {
       "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is the same day as this band's application deadline. One application covers every child in the family. Award decisions come on your notification day, **April 9, 2027**.",
@@ -2266,13 +2267,12 @@
       "t": "9 avril"
     },
     {
-      "text": "**April 9, 2027** is the school's \"Grades 1-11 notification day.\" Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.",
-      "of": "1735da67",
+      "text": "**April 9, 2027** is the school's \"Grades 1-11 notification day.\" Financial aid award decisions are communicated the same day. The CAIS brochure says contracts for Grades 1–4 are due **April 16, 2027**. **No contract due date is published for Grade 5**, so ask the admissions office. Enrolling also requires the **$2,500 non-refundable deposit**.",
+      "of": "0d880376",
       "at": [
-        "charlotte-latin:guide.bands[1].steps[5].detail",
-        "charlotte-latin:guide.bands[2].steps[6].detail"
+        "charlotte-latin:guide.bands[1].steps[5].detail"
       ],
-      "t": "**9 avril 2027** se «jou anons klas 1-11» lekòl la. Yo kominike desizyon sou èd finansye yo menm jou a. **Yo pa pibliye okenn dat limit pou remèt kontra enskripsyon an**, kidonk mande biwo admisyon an kilè li dwe rive. Pou enskri, fòk ou peye tou **depo $2,500 ki pa ranbousab** la."
+      "t": "**9 avril 2027** se jou anons lekòl la rele «Grades 1-11 notification day». Yo kominike desizyon sou èd finansye yo menm jou a. Bwochi CAIS la di kontra pou klas 1–4 yo dwe rive **16 avril 2027**. **Pa gen okenn dat limit pou kontra ki pibliye pou klas 5**, kidonk mande biwo admisyon an. Pou enskri, fòk ou peye tou **depo $2,500 ki pa ranbousab** la."
     },
     {
       "text": "The assessment changes twice inside this one band.",
@@ -2283,20 +2283,20 @@
       "t": "Tès la chanje de fwa anndan menm nivo sa a."
     },
     {
-      "text": "Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child's entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, April 9, 2027. No due date for the enrollment contract is published, so confirm it with the admissions office.",
-      "of": "e075f067",
+      "text": "Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child's entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. The CAIS brochure sets Grades 1–4 testing by February 26, 2027. Decisions come on notification day, April 9, 2027. The brochure says Grades 1–4 contracts are due April 16, 2027. None is published for Grade 5, so confirm it with the admissions office.",
+      "of": "25371f97",
       "at": [
         "charlotte-latin:guide.bands[1].checklistCallout.text"
       ],
-      "t": "Klas 1 pase WPPSI la, klas 2–4 yo WISC-V la epi klas 5 la ISEE a. Fason pou rezève a chanje avè l tou. Pou WPPSI ak WISC-V, ou kontakte yon sikològ CAIS dirèkteman. Pou ISEE a, ou enskri nan Educational Records Bureau la. Konfime ki tès ki aplike pou klas kote pitit ou ap antre a anvan ou rezève. Pa gen okenn dat limit pou tout dokiman dosye a ki pibliye pou nivo sa a. Kidonk konsidere lis kontwòl pòtay ou a kòm dènye mo sou sa ki rete pou fèt. Desizyon yo ap vini nan jou anons la, 9 avril 2027. Yo pa pibliye okenn dat limit pou remèt kontra enskripsyon an, kidonk konfime l ak biwo admisyon an."
+      "t": "Klas 1 pase WPPSI la, klas 2–4 yo WISC-V la epi klas 5 la ISEE a. Fason pou rezève a chanje avè l tou. Pou WPPSI ak WISC-V, ou kontakte yon sikològ CAIS dirèkteman. Pou ISEE a, ou enskri nan Educational Records Bureau la. Konfime ki tès ki aplike pou klas kote pitit ou ap antre a anvan ou rezève. Pa gen okenn dat limit pou tout dokiman dosye a ki pibliye pou nivo sa a. Kidonk konsidere lis kontwòl pòtay ou a kòm dènye mo sou sa ki rete pou fèt. Bwochi CAIS la mande pou tès klas 1–4 yo fèt pa pita pase 26 fevriye 2027. Desizyon yo ap vini nan jou anons la, 9 avril 2027. Bwochi a di kontra klas 1–4 yo dwe rive 16 avril 2027. Pa gen okenn dat ki pibliye pou klas 5, kidonk konfime l ak biwo admisyon an."
     },
     {
-      "text": "The Grades 1–12 deadline, thirteen days after the TK/K one.",
-      "of": "2e0d0ce3",
+      "text": "The Grades 1–11 deadline, thirteen days after the TK/K one.",
+      "of": "0dd14a86",
       "at": [
         "charlotte-latin:guide.bands[1].checklistRows[2].detail"
       ],
-      "t": "Dat limit klas 1–12 yo, trèz jou apre sa TK/K a."
+      "t": "Dat limit klas 1–11 yo, trèz jou apre sa TK/K a."
     },
     {
       "text": "From Grade 1 upward the family books it, not the admissions office.",
@@ -2307,6 +2307,14 @@
       "t": "Depi klas 1 monte se fanmi an ki rezève l, se pa biwo admisyon an."
     },
     {
+      "text": "Before your deadline",
+      "of": "de184993",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[3].due"
+      ],
+      "t": "Anvan dat limit ou a"
+    },
+    {
       "text": "Book and complete the assessment for your entry grade",
       "of": "58f28450",
       "at": [
@@ -2315,12 +2323,28 @@
       "t": "Fikse epi pase tès ki pou klas kote w ap antre a"
     },
     {
-      "text": "Grade 1 WPPSI · Grades 2–4 WISC-V (both CAIS) · Grade 5 ISEE (through the ERB).",
-      "of": "cc9ee7d8",
+      "text": "Grade 1 WPPSI · Grades 2–4 WISC-V (both CAIS, $300, done by Feb 26, 2027) · Grade 5 ISEE (through the ERB, no date published).",
+      "of": "32d528cd",
       "at": [
         "charlotte-latin:guide.bands[1].checklistRows[4].detail"
       ],
-      "t": "Klas 1 WPPSI · klas 2–4 WISC-V (tou de CAIS) · klas 5 ISEE (nan ERB la)."
+      "t": "Klas 1 WPPSI · klas 2–4 WISC-V (tou de CAIS, $300, fini pa pita pase 26 fevriye 2027) · klas 5 ISEE (nan ERB la, pa gen dat ki pibliye)."
+    },
+    {
+      "text": "Feb 26, 2027 for Grades 1–4",
+      "of": "a8240a24",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+      ],
+      "t": "26 fevriye 2027 pou klas 1–4"
+    },
+    {
+      "text": "Admission and financial aid decisions come that day. The CAIS brochure says Grades 1–4 contracts are due April 16, 2027. None is published for Grade 5.",
+      "of": "e940ba53",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[6].detail"
+      ],
+      "t": "Desizyon admisyon ak èd finansye yo ap vini jou sa a. Bwochi CAIS la di kontra klas 1–4 yo dwe rive 16 avril 2027. Pa gen okenn dat ki pibliye pou klas 5."
     },
     {
       "text": "Middle School · Grades 6–8",
@@ -2358,12 +2382,12 @@
       "t": "dat limit tout dokiman yo"
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Sixth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and ninth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
-      "of": "c285c5c0",
+      "text": "Required, and due **January 15, 2027** — the deadline shared by Grades 1–11. Sixth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and ninth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "67d1f72b",
       "at": [
         "charlotte-latin:guide.bands[2].steps[1].detail"
       ],
-      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 pataje a. Klas sizyèm nan se youn nan ane kote lekòl la «elaji natirèlman», ansanm ak TK, Kindergarten ak nevyèm. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an."
+      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit klas 1–11 yo pataje a. Klas sizyèm nan se youn nan ane kote lekòl la «naturally expand[s]» (elaji natirèlman), ansanm ak TK, Kindergarten ak nevyèm. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an."
     },
     {
       "text": "Schedule and attend a Visit Day — interview included",
@@ -2425,6 +2449,14 @@
       "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon èd la louvri nan **Clarity** nan dat **15 septanm 2026**. Li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Sa se sis semèn anvan dat limit dokiman yo. Yon sèl aplikasyon kouvri tout timoun nan fanmi an. Desizyon sou èd la ap vini nan jou anons ou, **9 avril 2027**."
     },
     {
+      "text": "**April 9, 2027** is the school's \"Grades 1-11 notification day.\" Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.",
+      "of": "1735da67",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[6].detail"
+      ],
+      "t": "**9 avril 2027** se «jou anons klas 1-11» lekòl la. Yo kominike desizyon sou èd finansye yo menm jou a. **Yo pa pibliye okenn dat limit pou remèt kontra enskripsyon an**, kidonk mande biwo admisyon an kilè li dwe rive. Pou enskri, fòk ou peye tou **depo $2,500 ki pa ranbousab** la."
+    },
+    {
       "text": "February 26, 2027 is the date that binds this band.",
       "of": "eb208bbd",
       "at": [
@@ -2442,12 +2474,12 @@
       "t": "Ni ISEE a ni tout rès bagay nan dosye a dwe rive jou sa a. Kidonk planifye enskripsyon ERB w lan an ranvès depi dat sa a, olye ou vize l. Yon plas egzamen dwe rezève, pase epi note anvan dat limit la. Visit Day la se yon jounen evalyasyon, se pa yon vizit: li gen yon entèvyou, yon evalyasyon sou plas ak obsèvasyon yon klas. Desizyon yo ap vini nan jou anons la, 9 avril 2027. Yo pa pibliye okenn dat limit pou remèt kontra enskripsyon an, kidonk konfime l ak biwo admisyon an."
     },
     {
-      "text": "The Grades 1–12 deadline. Grade 6 is a natural expansion year.",
-      "of": "4da27e9e",
+      "text": "The Grades 1–11 deadline. Grade 6 is a natural expansion year.",
+      "of": "659d5c09",
       "at": [
         "charlotte-latin:guide.bands[2].checklistRows[2].detail"
       ],
-      "t": "Dat limit klas 1–12 yo. Klas sizyèm nan se yon ane elajisman natirèl."
+      "t": "Dat limit klas 1–11 yo. Klas 6 la se yon ane elajisman natirèl."
     },
     {
       "text": "Schedule and attend the Visit Day",
@@ -2502,6 +2534,14 @@
       "t": "Lis kontwòl pòtay ou a montre sa ki rete pou fèt."
     },
     {
+      "text": "Admission and financial aid decisions come that day. No contract due date is published; confirm it with admissions.",
+      "of": "9ebc1ec7",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
+      ],
+      "t": "Desizyon admisyon ak èd finansye yo ap vini jou sa a. Pa gen okenn dat limit pou remèt kontra ki pibliye; konfime l ak biwo admisyon an."
+    },
+    {
       "text": "Upper School · Grades 9–12",
       "of": "3ae019cb",
       "at": [
@@ -2518,6 +2558,14 @@
       "t": "Upper School — klas 9–12"
     },
     {
+      "text": "application due — Grades 9–11",
+      "of": "85cf42cd",
+      "at": [
+        "charlotte-latin:guide.bands[3].deadlines[0].label"
+      ],
+      "t": "dat limit aplikasyon an — klas 9–11"
+    },
+    {
       "text": "notification day — Grades 9–11",
       "of": "7d521e76",
       "at": [
@@ -2526,12 +2574,12 @@
       "t": "jou anons — klas 9–11"
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Ninth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and sixth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
-      "of": "bbcb2cdc",
+      "text": "Required, and due **January 15, 2027** for Grades 9–11. The school’s dates list names no deadline for Grade 12, so ask. Ninth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and sixth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "004acaee",
       "at": [
         "charlotte-latin:guide.bands[3].steps[1].detail"
       ],
-      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 pataje a. Klas nevyèm nan se youn nan ane kote lekòl la «elaji natirèlman», ansanm ak TK, Kindergarten ak sizyèm. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an."
+      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** pou klas 9–11. Lis dat lekòl la pa bay okenn dat limit pou klas 12, kidonk mande. Klas nevyèm nan se youn nan ane kote lekòl la «naturally expand[s]» (elaji natirèlman), ansanm ak TK, Kindergarten ak sizyèm. Frè ak sè elèv ki deja nan lekòl la te gen yon dat limit pi bonè. Kalandriye lekòl la te mete **aplikasyon frè ak sè K-12 dwe rive 15 oktòb 2026**. Si ou se yon fanmi frè ak sè k ap aplike kounye a, mande biwo admisyon an."
     },
     {
       "text": "Schedule and attend a Visit Day — interview and a shadow day",
@@ -2582,12 +2630,12 @@
       "t": "Ni ISEE a ni tout rès bagay nan dosye a dwe rive jou sa a. Kidonk planifye enskripsyon ERB w lan an ranvès depi dat sa a, olye ou vize l. Visit Day la mete yon entèvyou ansanm ak yon jounen akonpayman ak yon Student Ambassador, kidonk pitit ou pase jounen an menm jan yon elèv Latin ta pase l. Sa yo mande pou tès la kouvri klas 9 rive 11. Pa gen anyen ki pibliye pou moun k ap aplike pou klas 12, kidonk mande biwo admisyon an kisa ki aplike. Desizyon pou klas 9–11 yo ap vini nan jou anons la, 9 avril 2027. Yo pa pibliye okenn dat limit pou remèt kontra enskripsyon an, kidonk konfime l ak biwo a."
     },
     {
-      "text": "The Grades 1–12 deadline. Grade 9 is a natural expansion year.",
-      "of": "3eb92b51",
+      "text": "Grades 9–11. No Grade 12 deadline is published, so ask. Grade 9 is a natural expansion year.",
+      "of": "5d0e6c07",
       "at": [
         "charlotte-latin:guide.bands[3].checklistRows[2].detail"
       ],
-      "t": "Dat limit klas 1–12 yo. Klas nevyèm nan se yon ane elajisman natirèl."
+      "t": "Klas 9–11. Pa gen okenn dat limit ki pibliye pou klas 12, kidonk mande. Klas 9 la se yon ane elajisman natirèl."
     },
     {
       "text": "An interview plus a shadow day alongside a Latin Student Ambassador.",
@@ -2628,6 +2676,14 @@
         "charlotte-latin:guide.aid.text"
       ],
       "t": "Èd la pase nan **Clarity**. Li louvri **15 septanm 2026** epi li dwe rive **15 janvye 2027** pou yo konsidere l nan tou prioritè a. Desizyon sou èd la ap vini nan jou anons la: **26 fevriye 2027** pou TK ak Kindergarten, ak **9 avril 2027** pou klas 1–11. Yon sèl aplikasyon kouvri tout timoun nan fanmi an epi «nòmalman li pran 30 minit oswa mwens pou ranpli». Apa de sa, gen yon **depo $2,500 ki pa ranbousab** yo «mande nan moman premye enskripsyon an oswa reenskripsyon an» epi yo «wete l nan dezyèm peman ekolaj la». Okenn elèv pa ka enskri ni reenskri san li. **Pa gen okenn frè aplikasyon pou èd ki pibliye** pou sik sa a."
+    },
+    {
+      "text": "Jan 15, 2027 (Gr 9–11) · nothing published for Gr 12",
+      "of": "b9ff242c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[0].cells.us"
+      ],
+      "t": "15 janvye 2027 (kl. 9–11) · anyen pa pibliye pou kl. 12"
     },
     {
       "text": "Who schedules the Visit Day",
@@ -2688,13 +2744,20 @@
       "t": "Entèvyou nan Visit Day la"
     },
     {
-      "text": "Not described",
-      "of": "664909c9",
+      "text": "Not described by Latin · the CAIS brochure says CAIS schools interview each child",
+      "of": "4fce4beb",
       "at": [
-        "charlotte-latin:guide.comparison.rows[3].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[3].cells.tkk"
+      ],
+      "t": "Latin pa dekri l · bwochi CAIS la di lekòl CAIS yo fè entèvyou ak chak timoun"
+    },
+    {
+      "text": "Not described by Latin · for Gr 1–4 the CAIS brochure says CAIS schools interview each child",
+      "of": "bcd81d79",
+      "at": [
         "charlotte-latin:guide.comparison.rows[3].cells.ls"
       ],
-      "t": "Yo pa dekri l"
+      "t": "Latin pa dekri l · pou kl. 1–4, bwochi CAIS la di lekòl CAIS yo fè entèvyou ak chak timoun"
     },
     {
       "text": "Yes",
@@ -2754,13 +2817,20 @@
       "t": "Dat limit tès ak dokiman yo"
     },
     {
-      "text": "None published",
-      "of": "de8a893d",
+      "text": "Testing by Feb 1, 2027 (CAIS brochure) · no file-material date published",
+      "of": "fa0d73ba",
       "at": [
-        "charlotte-latin:guide.comparison.rows[5].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[5].cells.tkk"
+      ],
+      "t": "Tès pa pita pase 1ye fevriye 2027 (bwochi CAIS la) · pa gen dat ki pibliye pou dokiman dosye a"
+    },
+    {
+      "text": "Gr 1–4 testing by Feb 26, 2027 (CAIS brochure) · no date published for Gr 5 or for file material",
+      "of": "e6732698",
+      "at": [
         "charlotte-latin:guide.comparison.rows[5].cells.ls"
       ],
-      "t": "Anyen pa pibliye"
+      "t": "Tès kl. 1–4 pa pita pase 26 fevriye 2027 (bwochi CAIS la) · pa gen dat ki pibliye ni pou kl. 5 ni pou dokiman dosye a"
     },
     {
       "text": "Decision and contract",
@@ -2771,18 +2841,25 @@
       "t": "Desizyon ak kontra"
     },
     {
-      "text": "Feb 26, 2027 · no contract due date published",
-      "of": "aa29f6e3",
+      "text": "Feb 26, 2027 · contract due Mar 5, 2027 (CAIS brochure)",
+      "of": "36553e63",
       "at": [
         "charlotte-latin:guide.comparison.rows[6].cells.tkk"
       ],
-      "t": "26 fevriye 2027 · pa gen dat limit pou remèt kontra ki pibliye"
+      "t": "26 fevriye 2027 · kontra a dwe rive 5 mas 2027 (bwochi CAIS la)"
+    },
+    {
+      "text": "Apr 9, 2027 · Gr 1–4 contract due Apr 16, 2027 (CAIS brochure) · none published for Gr 5",
+      "of": "5ab634ae",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.ls"
+      ],
+      "t": "9 avril 2027 · kontra kl. 1–4 dwe rive 16 avril 2027 (bwochi CAIS la) · pa gen dat ki pibliye pou kl. 5"
     },
     {
       "text": "Apr 9, 2027 · no contract due date published",
       "of": "6bd709e2",
       "at": [
-        "charlotte-latin:guide.comparison.rows[6].cells.ls",
         "charlotte-latin:guide.comparison.rows[6].cells.ms"
       ],
       "t": "9 avril 2027 · pa gen dat limit pou remèt kontra ki pibliye"
@@ -2967,12 +3044,12 @@
       "t": "9502 Providence Road, Charlotte, NC 28277"
     },
     {
-      "text": "Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages. Some items, such as the enrollment contract due date, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.",
-      "of": "a56510ed",
+      "text": "Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages, and the CAIS brochure the school links. Some items, such as the contract due date from Grade 5 up, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.",
+      "of": "efcf7cee",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ],
-      "t": "Dat yo se pou sik antre 2027–28 la, jan yo pibliye l sou charlottelatin.org (nou pran l nan mwa out 2026; nou te reverifye dat yo nan mwa novanm 2026). Yo soti nan paj pwosesis aplikasyon an, paj ekolaj ak èd finansye a, ak paj admisyon yo. Kèk bagay, tankou dat limit pou remèt kontra enskripsyon an, parèt sèlman anndan pòtay aplikasyon an, oswa yo pa pibliye ditou. Dat sik la chanje chak ane, epi paj sa yo te montre yon lòt seri dat nan yon sezon anvan. Kidonk verifye paj k ap mache yo anvan ou aji. Se Charlotte School Compare ki rasanble yo; li pa gen rapò ak Charlotte Latin School."
+      "t": "Dat yo se pou sik antre 2027–28 la, jan yo pibliye l sou charlottelatin.org (nou pran l nan mwa out 2026; nou te reverifye dat yo nan mwa novanm 2026). Yo soti nan paj pwosesis aplikasyon an, paj ekolaj ak èd finansye a, paj admisyon yo, ak bwochi CAIS lekòl la bay lyen pou li a. Kèk bagay, tankou dat limit pou remèt kontra depi klas 5 ale monte, parèt sèlman anndan pòtay aplikasyon an, oswa yo pa pibliye ditou. Dat sik la chanje chak ane, epi paj sa yo te montre yon lòt seri dat nan yon sezon anvan. Kidonk verifye paj k ap mache yo anvan ou aji. Se Charlotte School Compare ki rasanble yo; li pa gen rapò ak Charlotte Latin School."
     },
     {
       "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. The school publishes three documents, but there are really four processes. The application deadline changes at Kindergarten→1, while the testing changes a grade later, at 1→2.",
@@ -6629,8 +6706,7 @@
         "hickory-grove-christian:guide.bands[0].deadlines[2].value",
         "hickory-grove-christian:guide.bands[1].deadlines[2].value",
         "hickory-grove-christian:guide.bands[2].deadlines[2].value",
-        "hickory-grove-christian:guide.bands[3].deadlines[2].value",
-        "hickory-grove-christian:guide.bands[4].deadlines[2].value"
+        "hickory-grove-christian:guide.bands[3].deadlines[2].value"
       ],
       "t": "$500"
     },
@@ -6675,12 +6751,12 @@
       "t": "Manm legliz la, elèv Early Education Center yo ak frè ak sè elèv ki deja la yo aplike depi 2 novanm 2026; tout lòt moun depi 16 novanm. Sa se yon plas pi devan nan liy lan, se pa yon rabè — apre dat sa yo, admisyon an kontinyèl."
     },
     {
-      "text": "Every domestic band follows the same main steps. First: submit the inquiry form → register for the Open House → apply in FACTS and pay the application fee. Next: send the forms your band requires → take the entrance testing, which is scheduled only once every form has arrived → attend the family interview. Last: receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this, and it has its own band.",
-      "of": "e96f28e4",
+      "text": "Every grade band except International follows the same main steps. First: submit the inquiry form → register for the Open House → apply in FACTS and pay the application fee. Next: send the forms your band requires → take the entrance testing, which is scheduled only once every form has arrived → attend the family interview. Last: receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this, and it has its own band.",
+      "of": "70647c54",
       "at": [
         "hickory-grove-christian:guide.spineNote"
       ],
-      "t": "Tout bann domestik swiv menm etap prensipal yo. Premye: soumèt fòm demann enfòmasyon an → enskri pou Open House la → aplike nan FACTS epi peye frè aplikasyon an. Apre: voye fòm bann ou an mande yo → pase tès antre a, yo planifye l sèlman lè tout fòm yo rive → patisipe nan entèvyou fanmi an. Finalman: resevwa desizyon an alekri → peye depo enskripsyon $500 la. Sa ki chanje ant bann yo se ki fòm ou voye, si gen yon jou akonpayman, epi si gen yon tès plasman. Pwosesis entènasyonal F-1 la ranplase pifò nan sa a, epi li gen pwòp bann pa l."
+      "t": "Tout bann, eksepte bann Entènasyonal la, swiv menm etap prensipal yo. Premye: soumèt fòm demann enfòmasyon an → enskri pou Open House la → aplike nan FACTS epi peye frè aplikasyon an. Apre: voye fòm bann ou an mande yo → pase tès antre a, yo planifye l sèlman lè tout fòm yo rive → patisipe nan entèvyou fanmi an. Finalman: resevwa desizyon an alekri → peye depo enskripsyon $500 la. Sa ki chanje ant bann yo se ki fòm ou voye, si gen yon jou akonpayman, epi si gen yon tès plasman. Pwosesis entènasyonal F-1 la ranplase pifò nan sa a, epi li gen pwòp bann pa l."
     },
     {
       "text": "TK / K5",
@@ -6716,8 +6792,7 @@
         "hickory-grove-christian:guide.bands[0].deadlines[2].label",
         "hickory-grove-christian:guide.bands[1].deadlines[2].label",
         "hickory-grove-christian:guide.bands[2].deadlines[2].label",
-        "hickory-grove-christian:guide.bands[3].deadlines[2].label",
-        "hickory-grove-christian:guide.bands[4].deadlines[2].label"
+        "hickory-grove-christian:guide.bands[3].deadlines[2].label"
       ],
       "t": "depo enskripsyon lè yo aksepte w"
     },
@@ -7350,12 +7425,12 @@
       "t": "Mwayen · Klas 6–8"
     },
     {
-      "text": "Three teacher recommendations",
-      "of": "4becfc9d",
+      "text": "Three school recommendations + pastor",
+      "of": "9c2b9f21",
       "at": [
         "hickory-grove-christian:guide.bands[2].sublabel"
       ],
-      "t": "Twa rekòmandasyon pwofesè"
+      "t": "Twa rekòmandasyon lekòl + pastè"
     },
     {
       "text": "The first two steps are linked from the admissions page: an inquiry form, then the visit. The visit now means registering for the **Admissions Open House on Tuesday, November 10, 2026**. Sessions are at 12, 4 and 6 p.m., with separate elementary, middle and high school tours. Middle school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.",
@@ -7760,12 +7835,12 @@
       "t": "pati nan evalyasyon an"
     },
     {
-      "text": "Admission rests on four things the school lists together. The first is an **online interview with the Director of the International Student Program and the Principal**. The others are the completed online application, prior academic and behavioral performance, and the English-test scores. The interview is held online, so it **replaces the campus visit** that opens every domestic band. A family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013**. It issues its own I-20 (the form a student needs to apply for a student visa) rather than routing families through a third party.",
-      "of": "5c6c182e",
+      "text": "Admission rests on four things the school lists together. The first is an **online interview with the Director of the International Student Program and the Principal**. The others are the completed online application, prior academic and behavioral performance, and the English-test scores. The interview is held online, so it **replaces the campus visit** that opens every other band. A family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013**. It issues its own I-20 (the form a student needs to apply for a student visa) rather than routing families through a third party.",
+      "of": "9866b096",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[0].detail"
       ],
-      "t": "Admisyon an chita sou kat bagay lekòl la mete ansanm. Premye a se yon **entèvyou sou entènèt ak Director of the International Student Program ak Principal la**. Lòt yo se aplikasyon sou entènèt la ranpli nèt, rezilta akademik ak konpòtman anvan yo, ak nòt tès anglè yo. Entèvyou a fèt sou entènèt, kidonk li **ranplase vizit kanpis la** ki louvri chak bann domestik. Yo pa atann yon fanmi k ap aplike soti lòt bò dlo vwayaje anvan. Hickory Grove gen pwogram entènasyonal li depi **2013**. Li bay pwòp I-20 pa l (fòm yon elèv bezwen pou l aplike pou yon viza etidyan) olye l voye fanmi yo bay yon lòt moun."
+      "t": "Admisyon an chita sou kat bagay lekòl la mete ansanm. Premye a se yon **entèvyou sou entènèt ak Director of the International Student Program ak Principal la**. Lòt yo se aplikasyon sou entènèt la ranpli nèt, rezilta akademik ak konpòtman anvan yo, ak nòt tès anglè yo. Entèvyou a fèt sou entènèt, kidonk li **ranplase vizit kanpis la** ki louvri chak lòt bann. Yo pa atann yon fanmi k ap aplike soti lòt bò dlo vwayaje anvan. Hickory Grove gen pwogram entènasyonal li depi **2013**. Li bay pwòp I-20 pa l (fòm yon elèv bezwen pou l aplike pou yon viza etidyan) olye l voye fanmi yo bay yon lòt moun."
     },
     {
       "text": "Complete the online admission application",
@@ -7884,7 +7959,8 @@
       "text": "Pay in full by August 1",
       "of": "59e0571c",
       "at": [
-        "hickory-grove-christian:guide.bands[4].steps[6].title"
+        "hickory-grove-christian:guide.bands[4].steps[6].title",
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
       ],
       "t": "Peye tout lajan an anvan 1ye out"
     },
@@ -7897,12 +7973,12 @@
       "t": "anvan 1ye out"
     },
     {
-      "text": "**Full payment must be received by August 1** before the student can be enrolled. A balance still unpaid on the first day of school puts the application on **financial hold**. Paying in full before enrollment is the sharpest difference from the domestic bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**. Nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**",
-      "of": "364b52db",
+      "text": "**Full payment must be received by August 1** before the student can be enrolled. A balance still unpaid on the first day of school puts the application on **financial hold**. Paying in full before enrollment is the sharpest difference from the other bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**. Nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**",
+      "of": "8e34db31",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[6].detail"
       ],
-      "t": "**Fòk yo resevwa peman total la anvan 1ye out** pou elèv la ka enskri. Si gen yon balans ki poko peye premye jou lekòl la, aplikasyon an tonbe sou **blokaj finansye**. Peye tout anvan enskripsyon se diferans ki pi fò ak bann domestik yo, ki pran yon depo $500 lè yo aksepte w epi ki faktire balans lan sou tout ane a. **Lekòl la pa pibliye frè eskolarite entènasyonal la**. Li pa di non plis si èd finansye rive jwenn elèv entènasyonal yo. **Retire bonè koute $500 plis 50% frè eskolarite entènasyonal la.**"
+      "t": "**Fòk yo resevwa peman total la anvan 1ye out** pou elèv la ka enskri. Si gen yon balans ki poko peye premye jou lekòl la, aplikasyon an tonbe sou **blokaj finansye**. Peye tout anvan enskripsyon se diferans ki pi fò ak lòt bann yo, ki pran yon depo $500 lè yo aksepte w epi ki faktire balans lan sou tout ane a. **Lekòl la pa pibliye frè eskolarite entènasyonal la**. Li pa di non plis si èd finansye rive jwenn elèv entènasyonal yo. **Retire bonè koute $500 plis 50% frè eskolarite entènasyonal la.**"
     },
     {
       "text": "What the program includes once you arrive",
@@ -7953,12 +8029,12 @@
       "t": "Òganize entèvyou sou entènèt ak direktè pwogram nan ak direktè lekòl la"
     },
     {
-      "text": "Part of the admission review, and it replaces the campus visit the domestic bands begin with.",
-      "of": "89bbddfb",
+      "text": "Part of the admission review, and it replaces the campus visit the other bands begin with.",
+      "of": "0ead3ef9",
       "at": [
         "hickory-grove-christian:guide.bands[4].checklistRows[0].detail"
       ],
-      "t": "Li fè pati evalyasyon admisyon an, epi li ranplase vizit kanpis bann domestik yo kòmanse ak li a."
+      "t": "Li fè pati evalyasyon admisyon an, epi li ranplase vizit kanpis lòt bann yo kòmanse ak li a."
     },
     {
       "text": "Before the decision",
@@ -8097,14 +8173,6 @@
         "hickory-grove-christian:guide.bands[4].checklistRows[7].detail"
       ],
       "t": "American Benefit Services (Short Term Medical) — 843-214-2447."
-    },
-    {
-      "text": "Pay the $500 enrollment deposit, then the balance in full",
-      "of": "eb37b221",
-      "at": [
-        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
-      ],
-      "t": "Peye depo enskripsyon $500 la, apre sa tout rès la"
     },
     {
       "text": "Full payment by August 1; a balance unpaid on the first day of school puts the application on financial hold.",
@@ -8393,12 +8461,12 @@
       "t": "Peman total anvan 1ye out, sinon plas la tonbe sou blokaj finansye"
     },
     {
-      "text": "Constant in every domestic band",
-      "of": "eef95440",
+      "text": "Constant in every band except International",
+      "of": "88c24713",
       "at": [
         "hickory-grove-christian:guide.comparison.rows[8].label"
       ],
-      "t": "Konstan nan tout nivo pou elèv nan peyi a"
+      "t": "Konstan nan tout bann, eksepte Entènasyonal"
     },
     {
       "text": "A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application · a non-refundable $300 application fee through May 31, 2027 ($550 from June 1, 2027), not applied toward tuition · testing set up only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and depends on space in the grade · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission",

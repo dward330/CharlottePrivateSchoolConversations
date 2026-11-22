@@ -179,3 +179,27 @@ a card, so **1g is omitted** and the field hockey ranking is noted on card 1b in
 - Girls tennis 2025–26 season record unconfirmed (the 19–0 figure is 2024).
 - Klein Natatorium opening date conflicts: school timeline says 2021, better-attested Oct 2022.
 - "72 teams / 26 sports" vs ~65 directory-listed teams — counting convention, unresolved.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.charlottecountryday.org/cd-experience/athletics/athletics-directory (HTTP 200),
+  under "Program Heads": "Sierra Simpson — Girls Basketball Program Head" and "Brad Touma —
+  Boys Lacrosse Program Head". The same directory lists both David Carrier and Kenny Hairston
+  as "Boys Basketball Program Head", so it may lag on departures.
+
+### Re-verification 2026-11-22 (plan consistency5, planning)
+
+https://archives.ncisaa.org/index.php?sport=9&currentyear=1: 2026 Division 1 field hockey
+champion "#1 Charlotte Country Day School (16-4-1)", 4-2 over Cary Christian.
+https://archives.ncisaa.org/index.php?sport=12&currentyear=1: 2026 4A volleyball runner-up, 1-3 to North Raleigh Christian.
+https://archives.ncisaa.org/index.php?sport=8&currentyear=1: 2026 4A boys soccer runner-up, 0-4 to Rabun Gap.
+https://archives.ncisaa.org/index.php?sport=11&currentyear=1: 2026 4A girls tennis champion is Charlotte Latin, so
+Country Day's run of four straight (2022 to 2025) has ended.
+
+### Re-verification 2026-11-22 (plan consistency5, implement)
+
+All four 2026 brackets above were re-opened at build and hold. Cross country and girls golf still
+post no 2026-27 results, so the app makes no claim. Field hockey's 2026 title is not typed as a
+"17th": neither the school nor the NCISAA prints that number.

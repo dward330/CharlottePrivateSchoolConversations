@@ -497,6 +497,10 @@ Fetched (HTTP 200, full text):
 - Both packets re-opened. Bridge Care covers 55 minutes after each Lower School bell (2:20–3:15, 2:40–3:35), so "bridge the JK-K bell to the grades 1–4 bell" above is superseded.
 - The homework block is 45 minutes in Lower School (3:45–4:30) and 30 in Middle School (4:00–4:30), so "45-minute block" above is the Lower School figure only.
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://resources.finalsite.net/images/v1780338464/charlotte/ahr13amhtgtsrxgzpuwt/ExtendedDayPacket.pdf (fetched): still lists a "Grades 1-4 Bridge Care" tier beside the JK-K one, at $125.
+
 
 ---
 

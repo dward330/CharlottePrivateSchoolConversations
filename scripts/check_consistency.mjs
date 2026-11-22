@@ -10,7 +10,7 @@
  * sweep on 2026-11-20 (plan `consistency`) found 101 such findings across the
  * 13 school pages, and no existing check compared a headline with its list.
  *
- * RULES (R1–R7 and R9–R11 gate the build; R8 is a report):
+ * RULES (R1–R7 and R9–R12 gate the build; R8 is a report):
  *   R1  College Pipeline funnel: a typed stage count, and every number in the
  *       headline directly before "commit…", "Division I" or "Power 4/Four"
  *       (at most two words between), equals the count derived from the 2024–26
@@ -66,10 +66,19 @@
  *       (Latin counts a year-behind figure as unpriced); "N priced" likewise;
  *       and every "N% unpriced" is that count over the total, rounded, on the
  *       basis the stated count used.
+ *   R12 One college, one conference (cross-school): within a sport group, every
+ *       College Pipeline row for one college gives the same conference and the same
+ *       level, on every school's roster, Class of 2027 rows included. The groups are
+ *       football, wrestling and everything else, because those two are where a
+ *       college plays outside its main conference (Davidson wrestles in the SoCon
+ *       and plays golf in the Atlantic 10). Spellings of one college or conference
+ *       are folded by meaning: Miami (Ohio) is never Miami, Johnson & Wales
+ *       (Charlotte) is never the Providence campus, "South Atlantic" is SAC. Add a
+ *       spelling to the fold when one appears. Never add a school to skip.
  *
  * Usage:
- *   node scripts/check_consistency.mjs            gate R1–R7, R9–R11; exit 1 on any finding
- *   node scripts/check_consistency.mjs --report   print R1–R11, always exit 0
+ *   node scripts/check_consistency.mjs            gate R1–R7, R9–R12; exit 1 on any finding
+ *   node scripts/check_consistency.mjs --report   print R1–R12, always exit 0
  *
  * Imports the per-school data files under plain Node (24+ type stripping),
  * never the *Program.ts registries (their import.meta.glob throws in Node).
@@ -85,8 +94,9 @@ const LOCALE_RE = /\.(es|bn|ht|te|fr|fa|it|hi|ar)\.ts$/
 const findings = [] // { rule, school, msg }
 const add = (rule, school, msg) => findings.push({ rule, school, msg })
 
-let pipelineCounts, VALUE_METRICS, courseOfferings, financialAidReport, clubCatalog, clubClusters
+let pipelineCounts, VALUE_METRICS, courseOfferings, financialAidReport, clubCatalog, clubClusters, normName
 try {
+  ;({ normName } = await import('../src/data/collegeRankings.ts'))
   ;({ pipelineCounts } = await import('../src/lib/pipeline.ts'))
   ;({ VALUE_METRICS } = await import('../src/data/metricValues.ts'))
   ;({ courseOfferings } = await import('../src/data/courseOfferings.ts'))
@@ -562,13 +572,73 @@ function r8For(slug) {
   return out
 }
 
+/* ------------------------------------------------------------------- R12 -- */
+
+// Spellings that normName and the "University" trim below cannot join. Keys and values are folded.
+const COLLEGE_SPELLINGS = new Map(Object.entries({
+  'air force academy': 'air force',
+  'army west point': 'army',
+  'west point': 'army',
+  'us naval academy': 'navy',
+  'u s naval academy': 'navy',
+  'belmont abbey coll': 'belmont abbey',
+  'hamilton coll': 'hamilton',
+  'hampden sydney coll': 'hampden sydney',
+  'randolph macon coll': 'randolph macon',
+  'miami fl': 'miami', // Miami (Ohio) folds to 'miami ohio' and stays apart
+  // "X University" is not always X: these two are named before the trim can join them.
+  'miami univ': 'miami ohio',
+  'washington univ': 'washington univ',
+  'queens univ of charlotte': 'queens charlotte',
+  charlotte: 'unc charlotte',
+}))
+// One conference under two names. Keys and values are lower case, letters and digits only.
+const CONF_SPELLINGS = new Map(Object.entries({
+  'south atlantic': 'sac',
+  southern: 'socon',
+  american: 'aac',
+  'conf carolinas': 'conference carolinas',
+}))
+
+function collegeKey(name) {
+  const n = normName(name)
+  if (COLLEGE_SPELLINGS.has(n)) return COLLEGE_SPELLINGS.get(n)
+  // "Duke University" is Duke and "University of Georgia" is Georgia. "College" is never
+  // trimmed: Providence College and Gaston College are not Providence and Gaston.
+  const short = n.replace(/^univ of /, '').replace(/ univ$/, '')
+  return COLLEGE_SPELLINGS.get(short) ?? short
+}
+const confKey = (conf) => {
+  const c = String(conf).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
+  return CONF_SPELLINGS.get(c) ?? c
+}
+const sportGroup = (sport) =>
+  /football/i.test(sport) ? 'football' : /wrestling/i.test(sport) ? 'wrestling' : 'other sports'
+
+const byCollege = new Map()
+for (const [slug, prog] of Object.entries(data.sportsPrograms)) {
+  for (const r of prog.pipeline?.roster ?? []) {
+    const key = `${collegeKey(r.college)} (${sportGroup(r.sport)})`
+    if (!byCollege.has(key)) byCollege.set(key, [])
+    byCollege.get(key).push({ slug, r })
+  }
+}
+for (const [key, rows] of byCollege) {
+  const confs = new Set(rows.map((x) => confKey(x.r.conf)))
+  const levels = new Set(rows.map((x) => x.r.level))
+  if (confs.size < 2 && levels.size < 2) continue
+  const where = rows.map(({ slug, r }) => `${slug} ${r.cls} ${r.sport}: ${r.college}, ${r.conf} ${r.level}`)
+  add('R12', [...new Set(rows.map((x) => x.slug))].join(', '),
+    `one college, one conference — ${key} disagrees: ${where.join(' | ')}`)
+}
+
 /* ---------------------------------------------------------------- output -- */
 
 // Rules that print with --report but do not fail the build. Empty today: R9–R11
 // joined the gate once the plan `consistency2` fixes brought each to zero.
 const REPORT_ONLY = new Set([])
 const gated = findings.filter((f) => !REPORT_ONLY.has(f.rule))
-const RULES = ['R1', 'R1b', 'R2', 'R3', 'R4', 'R4b', 'R5', 'R6', 'R7', 'R9', 'R10', 'R11']
+const RULES = ['R1', 'R1b', 'R2', 'R3', 'R4', 'R4b', 'R5', 'R6', 'R7', 'R9', 'R10', 'R11', 'R12']
 if (REPORT || gated.length) {
   for (const rule of RULES) {
     const fs = (REPORT ? findings : gated).filter((f) => f.rule === rule)
@@ -596,7 +666,7 @@ if (REPORT) {
 
 console.log(
   gated.length
-    ? `\ncheck:consistency: ${gated.length} finding(s) across R1–R7 and R9–R11.`
-    : '\ncheck:consistency: R1–R7 and R9–R11 clean.',
+    ? `\ncheck:consistency: ${gated.length} finding(s) across R1–R7 and R9–R12.`
+    : '\ncheck:consistency: R1–R7 and R9–R12 clean.',
 )
 process.exit(REPORT ? 0 : gated.length ? 1 : 0)

@@ -17,7 +17,7 @@ The office's stated aim is fit, in so many words: "match each student with the
 college or university that best suits his or her interests and talents." The
 matriculation footprint bears it out — the bold (enrolled) institutions on the
 2023-2026 list run from Dartmouth and Duke through Covenant College, Cedarville,
-and community colleges, with the deepest concentrations at NC publics (Chapel
+and community colleges, with bolded enrollments, no count per college, at NC publics (Chapel
 Hill, NC State, UNC Charlotte, App State, ECU) and Christian colleges.
 
 ### What the whole-class picture shows — and what it withholds
@@ -46,3 +46,9 @@ editions; a deeper pass will not recover it.
   available at extra cost — a disclosed, priced support channel.
 - AP gating (none for freshmen, one for sophomores) is itself a whole-class
   guardrail: rigor is sequenced rather than open-enrollment.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://resources.finalsite.net/images/v1788450343/covenant/xsfiowwd1hd8ooel8svi/2026-2027HSGuidanceProfile.pdf (fetched): "Bold indicates school to which students from the CDS classes of 2023-2026 matriculated." The list gives no count per institution.

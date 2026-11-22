@@ -152,3 +152,18 @@ left out on purpose.
 - Fixed from this record, on the user's word: grade 5 may join choir (S3), and Middle School Band is
   grades 6-8. The card had said band runs from grade 5.
 - Not re-fetched: carmelchristian.org refused a fetch on 2026-11-22.
+
+### Re-verification 2026-11-22 (plan consistency5, implement)
+
+Read from copies of Blumenthal's lists saved during plan consistency4, with no new request to
+that site. Roles only: no student is named.
+
+| year | show | category | role |
+|---|---|---|---|
+| 2023 | Mary Poppins | Best Supporting Actor (finalist) | George Banks |
+| 2023 | Mary Poppins | Best Supporting Actress (finalist) | Winifred Banks |
+| 2023 | Mary Poppins | Best Featured Performer (finalist) | Miss Andrew |
+
+2023: https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf. The "~2022-23" year for Singin' in the Rain above is wrong: that year's show was Mary
+Poppins, so the pair's year is not published. Two performers placed in three straight years:
+George Banks, Dmitry and Curly McLain (2023–25), and Lily, Laurey Williams and Ariel Moore (2024–26).

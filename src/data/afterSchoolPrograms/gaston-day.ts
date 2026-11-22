@@ -23,7 +23,7 @@ export const gastonDay: AfterSchoolProgram = {
   /* --------------------------------------------------------- 4a coverage -- */
   coverage: {
     headline:
-      'Care runs to 5:30 pm for Pre-K through 8th grade. The Lower School tier starts at 3:00 and the Middle School tier at 3:15.',
+      'Care runs to 5:30 pm for Preschool through 8th grade. The Lower School tier starts at 3:00 and the Middle School tier at 3:15.',
     subhead:
       'Both tiers end at 5:30. The school publishes one afternoon schedule, starting at 3:15.',
     hours: ['3 pm', '3:30', '4 pm', '4:30', '5 pm', '5:30'],
@@ -82,7 +82,7 @@ export const gastonDay: AfterSchoolProgram = {
       },
       {
         label: 'No Upper School care',
-        text: 'The program covers **Pre-K through 8th grade only**. No after-school care is published for grades 9–12, which is common but worth stating.',
+        text: 'The program covers **Preschool through 8th grade only**. No after-school care is published for grades 9–12, which is common but worth stating.',
       },
     ],
     flags: [],
@@ -245,7 +245,7 @@ export const gastonDay: AfterSchoolProgram = {
       '**The afternoon is published minute by minute.** Four named blocks with times, rather than a general description of "supervision and activities".',
       '**Homework is a scheduled block, not an afterthought** — 4:00–4:25, separated by grade level, with snack alongside.',
       '**There is a structured group activity every day** built around STEAM and collaboration, so the afternoon is not purely custodial.',
-      '**Coverage spans Pre-K through 8th grade** in two tiers, both running to 5:30 pm.',
+      '**Coverage spans Preschool through 8th grade** in two tiers, both running to 5:30 pm.',
       '**It interlocks with music lessons**, letting Middle School students do homework free while waiting.',
     ],
     watchoutsTitle: 'What to check',
@@ -264,7 +264,7 @@ export const gastonDay: AfterSchoolProgram = {
       'When will enrichment classes start, what will they cost, and are they inside the base rate?',
       'Does aftercare run on early-dismissal days, teacher workdays and exam days?',
       'Is there any financial aid for aftercare, as there is for tuition, or a sibling discount?',
-      'How is the 5th–8th grade tier supervised differently from the Pre-K–4th tier?',
+      'How is the 5th–8th grade tier supervised differently from the Preschool–4th tier?',
     ],
     flags: [],
     sources: [

@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Sports
-> Distilled from 20 source document(s) in `source-material/sports/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 20 source document(s) in `source-material/sports/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Awards and Honors, Championships, Coaches Pedigree and Continuity, College Commitments 2024-2026, D1 and Top-50 Academic Matriculation, Facilities and Infrastructure, NIL Landscape, National Swimming Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, WinLoss Records, 247Sports Recruiting Rankings, College Commitments Class of 2027, Redesign Research 2026, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026
 
 
@@ -1159,6 +1159,30 @@ a card, so **1g is omitted** and the field hockey ranking is noted on card 1b in
 - Klein Natatorium opening date conflicts: school timeline says 2021, better-attested Oct 2022.
 - "72 teams / 26 sports" vs ~65 directory-listed teams — counting convention, unresolved.
 
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.charlottecountryday.org/cd-experience/athletics/athletics-directory (HTTP 200),
+ under "Program Heads": "Sierra Simpson — Girls Basketball Program Head" and "Brad Touma —
+ Boys Lacrosse Program Head". The same directory lists both David Carrier and Kenny Hairston
+ as "Boys Basketball Program Head", so it may lag on departures.
+
+### Re-verification 2026-11-22 (plan consistency5, planning)
+
+https://archives.ncisaa.org/index.php?sport=9&currentyear=1: 2026 Division 1 field hockey
+champion "#1 Charlotte Country Day School (16-4-1)", 4-2 over Cary Christian.
+https://archives.ncisaa.org/index.php?sport=12&currentyear=1: 2026 4A volleyball runner-up, 1-3 to North Raleigh Christian.
+https://archives.ncisaa.org/index.php?sport=8&currentyear=1: 2026 4A boys soccer runner-up, 0-4 to Rabun Gap.
+https://archives.ncisaa.org/index.php?sport=11&currentyear=1: 2026 4A girls tennis champion is Charlotte Latin, so
+Country Day's run of four straight (2022 to 2025) has ended.
+
+### Re-verification 2026-11-22 (plan consistency5, implement)
+
+All four 2026 brackets above were re-opened at build and hold. Cross country and girls golf still
+post no 2026-27 results, so the app makes no claim. Field hockey's 2026 title is not typed as a
+"17th": neither the school nor the NCISAA prints that number.
+
 
 ---
 
@@ -1456,6 +1480,10 @@ Country Day's list totals 155 state championships, which matches the Sports Offe
 - https://admin.ncisaa.org/uploads/SWIMMING/Div%201%20Final_Team_Ind.pdf
 - https://admin.ncisaa.org/uploads/ncisaa%20division%20i%20scores.pdf
 - https://archives.ncisaa.org/
+- https://archives.ncisaa.org/index.php?sport=11&currentyear=1:
+- https://archives.ncisaa.org/index.php?sport=12&currentyear=1:
+- https://archives.ncisaa.org/index.php?sport=8&currentyear=1:
+- https://archives.ncisaa.org/index.php?sport=9&currentyear=1:
 - https://basketball.realgm.com/highschool/teams/1523/Charlotte-Country-Day-High-School
 - https://bucknellbison.com/news/2026/5/22/mens-basketball-mens-basketball-rounds-out-2026-27-roster
 - https://en.wikipedia.org/wiki/Alvin_Pearman
@@ -1477,6 +1505,7 @@ Country Day's list totals 155 state championships, which matches the Sports Offe
 - https://tampaspartans.com/sports/mbkb/2025-26/releases/20250826kc8vro
 - https://www.charlottecountryday.org/bucsnet/post-details/~board/school-news/post/class-of-2026-college-admissions-outcomes
 - https://www.charlottecountryday.org/cd-experience/athletics
+- https://www.charlottecountryday.org/cd-experience/athletics/athletics-directory
 - https://www.charlottecountryday.org/cd-experience/athletics/awards-and-honors
 - https://www.charlottecountryday.org/cd-experience/athletics/collegiate-athletics
 - https://www.charlottecountryday.org/cd-experience/athletics/live-stream

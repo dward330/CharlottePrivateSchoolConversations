@@ -159,7 +159,7 @@ export type FinancialAidReport = {
 
 const COUNTRY_DAY: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus and tutoring fees 22 Nov 2026',
+  meta: '2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus, tutoring and Extended Day registration fees 22 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -224,8 +224,8 @@ const COUNTRY_DAY: FinancialAidReport = {
       rangeMax: 700,
       figureNote:
         'Scale $0–700. A bounded estimate per division, not an itemized fee schedule — covers textbooks & supplies (gr. 5–12), activity fees, and athletic fees. Enrollment deposit: 10% of tuition, credited toward tuition due.',
-      componentsTitle: 'Ten confirmed cost components — 2 unpriced',
-      componentsAside: 'All-in estimate not built: 20% unpriced, plus 30% in a range only',
+      componentsTitle: 'Twelve confirmed cost components — 3 unpriced',
+      componentsAside: 'All-in estimate not built: 25% unpriced, plus 25% in a range only',
       components: [
         { label: 'Tuition — five bands, priced', status: 'priced' },
         { label: 'Textbooks & supplies · in range only', status: 'range' },
@@ -237,11 +237,13 @@ const COUNTRY_DAY: FinancialAidReport = {
         { label: 'Learning-support tutoring · $82 Lower School / $85 Middle School a session; Upper School coaching $85', status: 'priced' },
         { label: 'Dining hall · no rate', status: 'unpriced' },
         { label: 'MS PE uniforms · no rate', status: 'unpriced' },
+        { label: 'Extended Day registration · $80 contract, $40 drop-in', status: 'priced' },
+        { label: 'Extended Day conference days · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        "Two of the ten items have no published price: the dining hall and Middle School PE uniforms. Both are on the school's monthly billing list. Three more are priced only as a range. So half have no set price, and this report does not add the items into one total.",
+        "Three of the twelve items have no published price: the dining hall, Middle School PE uniforms and Extended Day conference days. The first two are on the school's monthly billing list. Three more are priced only as a range. So half have no set price, and this report does not add the items into one total.",
       source:
-        'charlottecountryday.org — [Parent Quick Reference](https://www.charlottecountryday.org/bucsnet/quick-reference); [Bus Transportation](https://www.charlottecountryday.org/bucsnet/bus); Educational Resource Program pages for [Lower](https://www.charlottecountryday.org/bucsnet/lower-school/erp), [Middle](https://www.charlottecountryday.org/bucsnet/middle-school/erp) and [Upper School](https://www.charlottecountryday.org/bucsnet/upper-school/erp), retrieved 22 Nov 2026',
+        'charlottecountryday.org — [Parent Quick Reference](https://www.charlottecountryday.org/bucsnet/quick-reference); [Extended Day](https://www.charlottecountryday.org/bucsnet/after-school/extended-day); [Bus Transportation](https://www.charlottecountryday.org/bucsnet/bus); Educational Resource Program pages for [Lower](https://www.charlottecountryday.org/bucsnet/lower-school/erp), [Middle](https://www.charlottecountryday.org/bucsnet/middle-school/erp) and [Upper School](https://www.charlottecountryday.org/bucsnet/upper-school/erp), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -381,7 +383,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       questions: [
         'Which school year does each published aid figure describe: $9.4M to 341 students, or $10.1M to 347? And which enrollment is the ~20% share measured against?',
         'What are this year\'s average and median awards, the range — and does any award cover full tuition?',
-        'What are the dollar rates for the dining hall and MS PE uniforms?',
+        'What are the dollar rates for the dining hall, MS PE uniforms and Extended Day conference days?',
         'Does the ten-month plan carry a fee or interest, and is there a discount for paying in full?',
         'What is the withdrawal obligation mid-year, the late-payment policy, and is refund insurance offered?',
         'Is there a sibling discount or employee remission — and what is the reduced deposit for aid applicants?',
@@ -454,7 +456,7 @@ const CANNON: FinancialAidReport = {
       components: [
         { label: 'Tuition — five bands, priced', status: 'priced' },
         { label: 'Required class trip · $400 (gr. 9)', status: 'priced' },
-        { label: 'Student books · $300–500', status: 'priced' },
+        { label: 'Student books · $300–$500', status: 'priced' },
         { label: 'Personal device · $600–1,200', status: 'priced' },
         { label: 'Winterm course · $0–500', status: 'priced' },
         { label: 'Bus service · $1,990 round-trip', status: 'priced' },
@@ -643,7 +645,7 @@ const CANNON: FinancialAidReport = {
 
 const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 23 Jul 2026; aid dates and requirement 22 Nov 2026',
+  meta: '2026–27 school year · figures as of 23 Jul 2026; aid dates, requirement, aid application fee and Bridge Care 22 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -695,9 +697,9 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       navTitle: 'Fees & Added Costs',
       title: 'Fees and Additional Costs',
       confidence: 93,
-      // The only school of the four whose all-in estimate could be built: 14 of
-      // 15 confirmed components carry a published price.
-      componentsTitle: 'Fifteen confirmed components — all 15 priced',
+      // The only school of the four whose all-in estimate could be built: all 16
+      // confirmed components carry a published price.
+      componentsTitle: 'Sixteen confirmed components — all 16 priced',
       componentsAside: 'All-in estimate built: well inside the 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
@@ -710,11 +712,12 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         { label: 'Extended day, 5 days · $325/mo', status: 'priced' },
         { label: 'Extended day, 3 days · $245/mo', status: 'priced' },
         { label: 'Extended day, 1 day · $125/mo', status: 'priced' },
-        { label: 'Bridge care JK–K · $125/mo', status: 'priced' },
+        { label: 'Bridge care, JK–4 · $125/mo', status: 'priced' },
         { label: 'Daily drop-in · $50 per day', status: 'priced' },
         { label: 'Half-day early dismissal · $25 per day', status: 'priced' },
         { label: 'Late pickup · $25 per quarter hour', status: 'priced' },
         { label: 'Middle school extended day · $8 per hour, 3:00–5:00 p.m.', status: 'priced' },
+        { label: 'Clarity aid application fee · $65', status: 'priced' },
       ],
       componentsNote:
         'The enrollment fee of $1,500 per student is non-refundable but applied to the tuition balance. The $300 installment fee includes the required $250 Tuition Protection Program, which leaves a $50 difference. The school does not publish an athletics participation fee or a fine arts schedule. That is not the same as confirming no such costs exist.',
@@ -723,7 +726,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         { value: '$27,355', label: 'Upper School all-in, common case (gr. 9–12)' },
       ],
       source:
-        'charlottechristian.com — [2026–27 Tuition & Fees chart](https://resources.finalsite.net/images/v1787800765/charlotte/wam30s6cqq5mgpzpxkan/2026-27tuitionchart.pdf) (PDF); [Apply](https://www.charlottechristian.com/admissions/apply) page, retrieved 23 Jul 2026',
+        'charlottechristian.com — [2026–27 Tuition & Fees chart](https://resources.finalsite.net/images/v1787800765/charlotte/wam30s6cqq5mgpzpxkan/2026-27tuitionchart.pdf) (PDF); [Apply](https://www.charlottechristian.com/admissions/apply) page, retrieved 23 Jul 2026; [Tuition](https://www.charlottechristian.com/admissions/tuition) page and [Extended Day packet](https://resources.finalsite.net/images/v1780338464/charlotte/ahr13amhtgtsrxgzpuwt/ExtendedDayPacket.pdf), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -1109,7 +1112,7 @@ const COVENANT_DAY: FinancialAidReport = {
       questions: [
         'What share of families receive aid, and what is the average award?',
         'What are the 2027–28 aid deadlines and decision dates? The published packet covers 2026–27.',
-        'How does the mandatory NC Opportunity Scholarship application interact with CDS aid for families above the state income cap?',
+        'How does the mandatory NC Opportunity Scholarship application interact with CDS aid now that the state program has no income cap and pays by income tier?',
         'Is there an appeals or mid-year change-of-circumstance process?',
         'Was the flat-$1,200 increase a one-year choice or the standing pattern?',
       ],
@@ -1177,8 +1180,8 @@ const DAVIDSON_DAY: FinancialAidReport = {
         { label: 'Refund Plan fee · 2.8% of tuition', status: 'priced' },
         { label: 'Yearbook · $75', status: 'priced' },
         { label: 'Technology, gr. 7–12 · $500', status: 'priced' },
-        { label: 'Field Experience, gr. 4–12 · $500–1,000', status: 'range' },
-        { label: 'Textbooks, gr. 7–12 · $300–1,000', status: 'range' },
+        { label: 'Field Experience, gr. 4–12 · $500–$1,000', status: 'range' },
+        { label: 'Textbooks, gr. 7–12 · $300–$1,000', status: 'range' },
         { label: 'Extended care · no rate', status: 'unpriced' },
         { label: 'Lunch · no rate on the public site', status: 'unpriced' },
         { label: 'Athletics team packs & equipment · no rate', status: 'unpriced' },
@@ -1367,7 +1370,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
 
 const CHARLOTTE_LATIN: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 24 Jul 2026 · bus and Talons fees as of 22 Nov 2026',
+  meta: '2026–27 school year · figures as of 24 Jul 2026 · bus, Talons and testing fees as of 22 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -1442,12 +1445,12 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
           body: 'The Student Life Transportation page lists 2026–27 fees: round trip **$1,900** and one way **$950**. Students without a round-trip plan pay by activity. The Middle and Upper School sports activity bus costs **$550** per season. The Talons and enrichment buses cost **$80** per session. Play-practice buses cost **$80** per play, or **$160** in Middle School. The Admissions Transportation page still lists 2025–26 fees: **$1,800** round trip, **$900** one way and **$450** per season for the activity bus.',
         },
         {
-          title: "Hawks' Club — two rates break their own pattern",
-          body: 'Per-semester, TK–5, 2026–27. Three of five rows scale exactly with their own one-day rate; two do not. TK/K 1:30–4:30 p.m.: $635/day implies $2,540 for four days, but the table prints **$2300**. Grades 1–5 2:55–4:30 p.m.: $295/day implies $1,180 for four days, but the table prints **$1,880**. Reproduced exactly as published rather than corrected — confirm both with the business office.',
+          title: "Hawks' Club — two rows break their own pattern",
+          body: 'Per-semester, TK–5, 2026–27. Three of five rows scale exactly with their own one-day rate; two do not. TK/K 1:30–4:30 p.m.: $635 a semester for one day a week implies $2,540 for four days and $3,175 for five. The table prints **$2300** and **$2,540**. Grades 1–5 2:55–4:30 p.m.: $295 a semester for one day a week implies $1,180 for four days. The table prints **$1,880**. Reproduced exactly as published rather than corrected — confirm both with the business office.',
         },
         {
           tag: 'NO PUBLISHED EVIDENCE — TREATED AS NOT CHARGED',
-          body: 'General activity, technology, facilities, new-family and graduation fees · arts, instrument or production fees · testing fees · a required device purchase · a costed summer coursework requirement. Silence on a fee schedule most likely means the charge does not apply, but confirm rather than assume.',
+          body: 'General activity, technology, facilities, new-family and graduation fees · arts, instrument or production fees · a required device purchase · a costed summer coursework requirement. Silence on a fee schedule most likely means the charge does not apply, but confirm rather than assume. Admissions testing is a separate charge: the CAIS brochure gives $300 for the WPPSI or WISC-V, paid to the psychologist.',
         },
         {
           tag: 'THE SCHOOL INTENDS TO ANSWER THIS ITSELF',
@@ -1455,7 +1458,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Transportation, Admissions page](https://www.charlottelatin.org/admissions/transportation); [Hawks\' Club](https://www.charlottelatin.org/after-school/hawks-club); [Dining](https://www.charlottelatin.org/student-life/dining); [Charlotte Latin Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability), retrieved 24 Jul 2026 · [Transportation, Student Life page](https://www.charlottelatin.org/student-life/transportation); [Talons Sports Program](https://www.charlottelatin.org/after-school/youth-sports-recreation-program), retrieved 22 Nov 2026',
+        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Transportation, Admissions page](https://www.charlottelatin.org/admissions/transportation); [Hawks\' Club](https://www.charlottelatin.org/after-school/hawks-club); [CAIS 2027-2028 brochure](https://resources.finalsite.net/images/v1786969110/charlottelatin/zqmzmbmo4bnhaqcddhl6/CAIS2027-2028Upload.pdf) (testing fee, retrieved 22 Nov 2026); [Dining](https://www.charlottelatin.org/student-life/dining); [Charlotte Latin Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability), retrieved 24 Jul 2026 · [Transportation, Student Life page](https://www.charlottelatin.org/student-life/transportation); [Talons Sports Program](https://www.charlottelatin.org/after-school/youth-sports-recreation-program), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -1634,7 +1637,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           tag: 'READ THE TENURE FIGURES AS ARITHMETIC, NOT A FORECAST',
-          body: 'The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500). They assume today\'s prices hold every year, which they will not: published tuition is reset every year and has risen in the past. They are tuition only, before any aid. They exclude the deposit, trips, insurance, transport, extended day, Talons, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.',
+          body: 'The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500). They assume today\'s prices hold every year, which they will not: published tuition is reset every year and has risen in the past. They are tuition only, before any aid. They include the deposit, which comes off tuition. They exclude trips, insurance, transport, extended day, Talons, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.',
         },
         {
           tag: 'THE MIDDLE-INCOME QUESTION',
@@ -1719,8 +1722,8 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       navTitle: 'Beyond Tuition',
       title: 'Beyond Tuition — The Real Cost of Attendance',
       confidence: 60,
-      componentsTitle: 'Seventeen confirmed components for a 2026–27 family — 9 unpriced',
-      componentsAside: 'All-in estimate not built: 53% unpriced > 33% threshold',
+      componentsTitle: 'Eighteen confirmed components for a 2026–27 family — 10 unpriced',
+      componentsAside: 'All-in estimate not built: 56% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
         { label: 'Enrollment deposit · $2,500, non-refundable', status: 'priced' },
@@ -1739,9 +1742,10 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Graphing calculators · no rate', status: 'unpriced' },
         { label: 'Tutoring services · no rate', status: 'unpriced' },
         { label: 'Extended Day registration · $80/yr', status: 'priced' },
+        { label: 'Extended Day Activity Days · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'Of seventeen confirmed cost items, eight have a published price and nine do not. That leaves 53% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
+        'Of eighteen confirmed cost items, eight have a published price and ten do not. That leaves 56% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
       boxes: [
         {
           title: 'The deposit, 2026–27',
@@ -2048,7 +2052,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
             'Families are also directed to the **NC Opportunity Scholarship** — income caps have been removed and the program now includes currently-enrolled private-school students; new applicants apply in February',
         },
         {
-          when: 'Every year',
+          when: 'How it works',
           detail:
             'Aid is need-based and assessed through FACTS, the same platform that runs tuition billing',
         },
@@ -2605,7 +2609,7 @@ const GASTON_DAY: FinancialAidReport = {
       confidence: 55,
       stats: [
         { value: '$23,310', label: 'top band all-in, 2026–27 (tuition $21,025 + fees $2,285)' },
-        { value: '+4%', label: 'about the rise in every band from 2025–26' },
+        { value: '+4%', label: 'approximate increase in every band since 2025–26' },
         { value: '3 yrs', label: 'of fee schedules posted on the school’s site (2024–25 to 2026–27)' },
       ],
       questionsTitle: 'Questions the public record cannot answer',
@@ -2659,7 +2663,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         { label: 'High International', amount: 23562 },
       ],
       figureNote:
-        'Few schools price tuition this way: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041**, and a community family pays **$21,562**, for the same seat in the same classroom. That is a **$6,521 difference, roughly 30%**. CCHS is a 9–12 school, so there is no ladder of grade bands at all. These three rows are the entire schedule.',
+        'Few schools price tuition this way: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041**, and a community family pays **$21,562**, for the same seat in the same classroom. That is a **$6,521 difference, roughly 30%**. CCHS is a 9–12 school, so there is no ladder of grade bands at all. These three rows are the standard high-school schedule. The Options Program at CCHS has its own rates: **$24,077** (community) and **$18,345** (participating Catholic).',
       figureNote2:
         'The International rate applies to students requiring an I-20. The **$21,562** community rate is the figure to compare against other schools\' published tuition, since it is the price to a family with no parish affiliation.',
       source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability), retrieved 18 Aug 2026',
@@ -2975,7 +2979,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         },
         {
           when: '26 Feb 2027',
-          detail: 'Application materials due; first admission decisions follow',
+          detail: 'Grades 1–8 materials due (Kindergarten: 1 Feb); Kindergarten decisions emailed',
         },
         {
           when: '9 Apr 2027',
@@ -3156,7 +3160,7 @@ const CHARLOTTE_PREP: FinancialAidReport = {
       boxes: [
         {
           title: 'Aid stops below Kindergarten',
-          body: 'Assistance is "offered in grades K-8th", so a family entering at **Pre-Primary, Primary or TK** pays full tuition until Kindergarten. For a family planning nine or ten years at the school, the Early School years cost the most once aid is counted. That is because no aid is offered then.',
+          body: 'Assistance is "offered in grades K-8th", so a family entering at **Pre-Primary, Primary or TK** pays full tuition until Kindergarten. Plan to pay full price for those years.',
         },
       ],
       source: 'charlotteprep.org — [Tuition Assistance](https://charlotteprep.org/admissions/tuition-fees#financial); [Tuition & Fees 2026-27](https://charlotteprep.org/admissions/tuition-fees), retrieved 19 Oct 2026',

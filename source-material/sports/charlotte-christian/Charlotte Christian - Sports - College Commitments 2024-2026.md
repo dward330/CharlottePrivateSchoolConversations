@@ -103,7 +103,7 @@ Nicholson, E. Boykin, Paschall, Vance, Fox, Hinde, Farrell and Hall.
 | Alexander Paschall | Golf | Davidson | Atlantic 10 | D1 |
 | Alesia Sylverain | Track & Field | Johnson C. Smith | CIAA | D2 |
 | Wade Thompson | Baseball | Wingate | SAC | D2 |
-| Stokes Greene | Golf | Queens (Charlotte) | SAC | D2 |
+| Stokes Greene | Golf | Queens (Charlotte) | ASUN | D1 |
 | Andrew Boythe | Boys Soccer | Cedarville | G-MAC | D2 |
 | Nick Dunkley | Soccer & Track | Christopher Newport | C2C | D3 |
 | Griffin Fox | Lacrosse | Grove City | PAC | D3 |
@@ -133,7 +133,7 @@ Nicholson, E. Boykin, Paschall, Vance, Fox, Hinde, Farrell and Hall.
 | | 2024 | 2025 | 2026 | **2024–26** |
 |---|---|---|---|---|
 | Committed (all levels) | 17 | 21 | 10 | **48** |
-| Division I | 11 | 15 | 9 | **35** |
+| Division I | 11 | 16 | 9 | **36** |
 | Power 4 | 4 | 4 | 1 | **9** |
 
 **`p4-commits-2426` = 9** (was 8) · **`d1-commits-2426` = 35** (was 26). The window is now
@@ -171,3 +171,13 @@ rolls after 1 June 2027.
 Rule set by the user 2026-11-22 (settled S8): Notre Dame counts as Power 4 in every sport,
 football included. The `conf` column keeps the real conference, "FBS Ind." for football.
 The two Class of 2024 Notre Dame football rows go from D1 to P4, so the Power 4 count above is superseded: 9 becomes 11. Division I stays 35.
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://queensathletics.com/sports/mens-golf/roster (fetched): lists the Class of 2025 golf commit in this record's Queens row, academic year "So.". The page prints no high school for that player.
+- https://queensathletics.com/sports/mens-golf/schedule/2025-26 (fetched): the team's 2025-26 schedule carries "ASUN Conference Championship" and "Atlantic Sun Conference". The row in this record says SAC, D2.
+
+### Re-verification 2026-11-22 (plan consistency5, implement)
+
+The Queens golf row is now ASUN, D1 (finding CC-U1). Division I goes from 35 to 36, 75% of the 48,
+and the "Other" bar gains one. The earlier totals in this record are superseded. Power 4 stays 11.

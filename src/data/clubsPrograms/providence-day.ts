@@ -208,7 +208,7 @@ export const providenceDay: ClubsProgram = {
     flags: [
       {
         kind: 'gap',
-        text: 'There is no standing honor-societies page. The facts here come from one-off news posts, the 2025–26 club list and the 2026–27 profile. So the published counts are historical rather than current, except the profile’s 118 NHS inductees — 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May, 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other five publish none.',
+        text: 'There is no standing honor-societies page. The facts here come from one-off news posts, the 2025–26 club list and the 2026–27 profile. So the published counts are historical rather than current, except the profile’s 118 NHS inductees. The historical counts are 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May and 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other five publish none.',
       },
       {
         kind: 'gap',

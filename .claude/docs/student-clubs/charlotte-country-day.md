@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Student Clubs
-> Distilled from 12 source document(s) in `source-material/student-clubs/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 12 source document(s) in `source-material/student-clubs/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic and Competition Clubs, Affinity and Identity Groups, Club Catalog Web Check 2026, Club Catalog and Overview, Governance and Leadership, Honor Societies, NotebookLM Prompt, Publications and Media Web Check 2026, Publications and Media, Service and Civic Engagement, Signature Achievements and Honors, Clubs Redesign Deep Research
 
 
@@ -142,6 +142,16 @@ Source: https://www.charlottecountryday.org/cd-education/upper-school
 - "Significant leadership opportunities are available for students across 50+ different clubs and organizations"
 - "including Honor Council, Student Government, Affinity Groups, Athletics, Theater Arts, Big Brothers Big Sisters, and more."
 - "We offer membership to Cum Laude Society to eligible members of the graduating class in spring of their senior year."
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.charlottecountryday.org/cd-education/international-studies (HTTP 200): "Model
+ United Nations, Interact Club, International Studies Board, World Quest, and Euro Challenge
+ (Upper School)"; "Country Day students finish in first place at the Academic WorldQuest
+ competition nearly every year."; "23 — Number of Academic WorldQuest, Euro Challenge, and
+ Model UN Conferences competitions won."
 
 
 ---
@@ -813,6 +823,7 @@ No Country Day source in this repo records a Duke (DUMUNC) delegation or a deleg
 - https://www.charlottecountryday.org/about/deib/program
 - https://www.charlottecountryday.org/about/fast-facts
 - https://www.charlottecountryday.org/bucsnet
+- https://www.charlottecountryday.org/cd-education/international-studies
 - https://www.charlottecountryday.org/cd-education/middle-school
 - https://www.charlottecountryday.org/cd-education/upper-school
 - https://www.charlottecountryday.org/cd-experience/beyond-the-classroom

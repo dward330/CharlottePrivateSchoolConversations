@@ -405,11 +405,11 @@ export const charlotteLatin: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Charlotte Latin School’s applicants were admitted at a pooled 45.5% over the last five entering classes — 334 acceptances from 734 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 33.3% in Fall 2025 — 23 of 69 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 33.3% in Fall 2025 — 23 of 69 — just below NC State’s 34.3%. The other four ran 52–100%. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '734', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '45.5%', label: 'pooled admit rate — 334 of 734 across those five classes' },
-      { value: '33.3%', label: 'at UNC-Chapel Hill — 23 of 69, the toughest of the six for this school' },
+      { value: '33.3%', label: 'at UNC-Chapel Hill — 23 of 69 in Fall 2025, the lowest of the six that year' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (69)' },
     ],
     latestTerm: '2025',
@@ -418,7 +418,7 @@ export const charlotteLatin: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · Chapel Hill · the most selective of the six',
+        note: 'Flagship · Chapel Hill · the lowest of the six in Fall 2025',
         applied: '69',
         accepted: '23',
         rate: '33.3%',
@@ -815,7 +815,7 @@ export const charlotteLatin: CollegeSupportProgram = {
           { label: 'ACT Reading', values: ['29.2'] },
           { label: 'ACT Science', values: ['28.5'] },
         ],
-        note: 'Means only — the profile prints no percentiles or middle-50% band. The Class of 2027 is still testing, so its figures are partial. The Class of 2026’s size is not printed, so no testing rate can be computed.',
+        note: 'Means only — the profile prints no percentiles or middle-50% band. The Class of 2027 is still testing, so its figures are partial. The 2026–27 profile does not print the Class of 2026’s size (the 2025–26 profile listed 145 seniors) or a testing rate.',
       },
     ],
     quintiles: [],
@@ -830,7 +830,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       },
       {
         label: 'Accommodations and cost',
-        text: 'Middle and Upper School students who qualify have a **504 Educational Plan**. Their testing must be no more than three years old. Typical accommodations include extra time and testing in a separate setting. Importantly, **charges for sessions are not included in tuition and are billed per session each month**.',
+        text: 'Middle and Upper School students who qualify have a **504 Educational Plan**. Their testing must be no more than three years old. Typical accommodations include extra time and testing in a separate setting. The school’s older Learning Resources guidelines said **charges for sessions are not included in tuition and are billed per session each month**. The current program description names no charge.',
       },
       {
         label: 'Do not confuse ATSS with Learning Resources',
@@ -848,7 +848,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       },
       {
         label: 'Non-traditional destinations',
-        text: 'The lists include service academies: the Naval Academy and The Citadel, plus a 2025 Air Force Academy appointment. Conservatory and arts schools appear too. So do international universities, including St Andrews, UCL, King’s, Imperial, Leiden, Amsterdam, Queensland, Toronto, McGill and UBC.',
+        text: 'The lists include two service academies, Naval and Air Force (with a 2025 appointment to Air Force), and The Citadel, a military college. Conservatory and arts schools appear too. So do international universities, including St Andrews, UCL, King’s, Imperial, Leiden, Amsterdam, Queensland, Toronto, McGill and UBC.',
       },
     ],
     flags: [
@@ -863,6 +863,7 @@ export const charlotteLatin: CollegeSupportProgram = {
     ],
     sources: [
       { label: 'charlottelatin.org — 2026–27 Upper School Profile (test means, AP results, grade distributions)', url: PROFILE_2627 },
+      { label: 'Upper School Profile 2025–26 (the Class of 2026’s size)', url: PROFILE_2526 },
       { label: 'Upper School Profile 2017–18 (the last SAT, ACT and AP results before 2026–27)', url: PROFILE_1718 },
       { label: 'Student Support & Wellness (the Learning Resources tile)', url: 'https://www.charlottelatin.org/leading-programs/student-support-and-wellness' },
     ],
@@ -903,7 +904,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       'Your profile now prints SAT and ACT means. What are the middle-50% ranges, and what share of the class submitted scores?',
       'Advanced math and science courses now carry +0.5, applied retroactively from the Class of 2027. How do colleges see that change on a transcript, and are earlier classes’ GPAs restated?',
       'Is there a GPA distribution — quintiles or deciles — that you share with colleges even though it is not in the published profile?',
-      'Who is the current Director of Learning Resources, how many LR staff work with Upper School students, and what does a session cost, since it is billed outside tuition?',
+      'Who is the current Director of Learning Resources, and how many LR staff work with Upper School students? What do Learning Resources sessions cost today?',
       'Your Acceptances page still shows the Classes of 2023–25. Where did the Class of 2026 enroll, college by college?',
       'Columbia is the only Ivy absent from both recent acceptance lists. Is that accurate, and how do you read it?',
       'You stopped publishing merit-scholarship totals after the Class of 2023. What did the last three classes receive?',

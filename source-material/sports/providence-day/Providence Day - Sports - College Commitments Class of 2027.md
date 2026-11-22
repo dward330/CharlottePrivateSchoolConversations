@@ -43,7 +43,7 @@
 | Steele Fletcher | WR | Wake Forest | ACC | **P4** | 2/12/2026 | NCFN; 247 (85, NC No. 50) |
 | Ethan Dempsey | WR | Charlotte | American | D1 | 6/26/2026 | NCFN; 247 (86, NC No. 49) |
 | Cooper Hodson | IOL | Delaware | CAA | D1 | 6/22/2026 | NCFN; 247 (83, NC No. 58) |
-| Justin Abanquah | ILB | Elon | Southern | D1 | 6/23/2026 | NCFN; Prism News "Elon adds Charlotte-area standouts to 2027 recruiting class" https://www.prismnews.com/sports/fcs-football/elon-adds-charlotte-area-standouts-to-2027-recruiting-class |
+| Justin Abanquah | ILB | Elon | CAA | D1 | 6/23/2026 | NCFN; Prism News "Elon adds Charlotte-area standouts to 2027 recruiting class" https://www.prismnews.com/sports/fcs-football/elon-adds-charlotte-area-standouts-to-2027-recruiting-class |
 
 `rank247` for the card: read each player's 247 page in a browser before typing a Composite
 rank; the figures above are the 247Sports-only state ranks from the rankings table.

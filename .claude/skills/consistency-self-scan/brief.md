@@ -80,7 +80,7 @@ An inconsistency is either of these:
 
 ## What the build already guarantees (do not re-report)
 
-Read the header of `scripts/check_consistency.mjs`. Its gated rules (R1–R7, R9–R11 at the time
+Read the header of `scripts/check_consistency.mjs`. Its gated rules (R1–R7, R9–R12 at the time
 this brief was written; trust the header over this line) pass on `main`. Also skip what these
 gates check: Power Four / HBCU bucket counts against the acceptance list (`check:memberships`),
 Compare tuition rows (`check:tuition`), the NC admit-rate rows (`check:ncrows`) and the Wells

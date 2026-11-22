@@ -377,6 +377,13 @@ The Family Night Creatives weekday (brochure and website disagree); the categori
 
 - The 2026 brochure (URL above, HTTP 200), pages 6–7 read as images, confirms the session marks: Junior Masters Chess Camp $255 in S3 and S5 and $315 in S4, S6, S7, S8 and S9; IDEAS Battle Bot Camp $360 in S5; Playlax Lite $445 in S5 (June 29–July 2, four days).
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://summer.providenceday.org/dates-rates (HTTP 200) now lists next season's dates,
+ "Session 1: June 1-4 (4 Days)" to "Session 9: July 26-30". An older block on the same page
+ ends "July 28-August 1". Neither is the 2026 season, which the committed 2026 brochure record
+ ends on July 31, so no 2026 session runs in August.
+
 
 ---
 
@@ -388,6 +395,7 @@ The Family Night Creatives weekday (brochure and website disagree); the categori
 - https://summer.providenceday.org/
 - https://summer.providenceday.org/about
 - https://summer.providenceday.org/camp-brochure-pdf
+- https://summer.providenceday.org/dates-rates
 - https://summer.providenceday.org/fs/resource-manager/view/15c9f316-1d70-4adf-af87-862c78ec285d
 - https://summer.providenceday.org/health-safety
 - https://summer.providenceday.org/parent-info

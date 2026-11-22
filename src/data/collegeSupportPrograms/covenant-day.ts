@@ -51,7 +51,7 @@ export const covenantDay: CollegeSupportProgram = {
     stats: [
       { value: '499', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '60.3%', label: 'pooled admit rate — 301 of 499 across those five classes' },
-      { value: '27.3%', label: 'at UNC-Chapel Hill — 9 of 33, the toughest of the six for this school' },
+      { value: '27.3%', label: 'at UNC-Chapel Hill — 9 of 33 in Fall 2025, the lowest of the six that year' },
       { value: 'NC State University', label: 'drew the most applications in Fall 2025 (42)' },
     ],
     latestTerm: '2025',
@@ -288,7 +288,7 @@ export const covenantDay: CollegeSupportProgram = {
     headline:
       '225 institutions on the published 2023–2026 acceptance list, with enrollments in bold, so you can see where students actually went.',
     subhead:
-      'The current window reaches Dartmouth, Penn and Duke — all three bolded as enrolled — with the deepest concentrations at NC publics and Christian colleges.',
+      'The current window reaches Dartmouth, Penn and Duke — all three bolded as enrolled. The bolded list also includes NC publics and Christian colleges; the school gives no count per college.',
     stats: [
       { value: '225', label: 'institutions on the 2023–2026 acceptance list' },
       { value: '85', label: 'seniors in the Class of 2027' },
@@ -656,7 +656,7 @@ export const covenantDay: CollegeSupportProgram = {
       },
       {
         label: 'The NC-public backbone',
-        text: 'The deepest enrolled concentrations are Chapel Hill, NC State, UNC Charlotte, App State and East Carolina — the destinations that serve the broad middle of a North Carolina class.',
+        text: 'The bolded list includes Chapel Hill, NC State, UNC Charlotte, App State and East Carolina; the school gives no count per college.',
       },
     ],
     flags: [

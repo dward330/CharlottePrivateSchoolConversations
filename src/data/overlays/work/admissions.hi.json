@@ -99,7 +99,6 @@
         "charlotte-latin:guide.bands[3].checklistRows[6].due",
         "charlotte-latin:guide.comparison.rows[0].cells.ls",
         "charlotte-latin:guide.comparison.rows[0].cells.ms",
-        "charlotte-latin:guide.comparison.rows[0].cells.us",
         "charlotte-christian:guide.stats[1].value",
         "charlotte-christian:guide.bands[0].checklistRows[3].due",
         "charlotte-christian:guide.bands[0].checklistRows[4].due",
@@ -143,7 +142,6 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
-        "charlotte-latin:guide.stats[1].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ],
@@ -1726,12 +1724,20 @@
       "t": "अपने बच्चे का प्रवेश स्तर चुनिए और यह गाइड उसी के अनुसार ढल जाएगी: क्रम से चरण, 2027–28 की समय-सीमाएँ और उस स्तर के लिए ज़रूरी टेस्ट — साथ में एक प्रिंट करने योग्य चेकलिस्ट जिसे आप अपने साथ ले जा सकते हैं। चारों रास्ते एक ही मुख्य चरणों पर चलते हैं। उनके बीच जो बदलता है वह है टेस्ट, Visit Day कौन तय करता है, इंटरव्यू है या नहीं, और अंतिम तिथि।"
     },
     {
-      "text": "TK/Kindergarten application deadline — 13 days ahead of every other grade",
-      "of": "af3286a6",
+      "text": "TK/Kindergarten application deadline — 13 days ahead of Grades 1–11",
+      "of": "0e0e9a6a",
       "at": [
         "charlotte-latin:guide.stats[0].label"
       ],
-      "t": "TK/Kindergarten आवेदन की अंतिम तिथि — बाकी हर कक्षा से 13 दिन पहले"
+      "t": "TK/Kindergarten आवेदन की अंतिम तिथि — कक्षा 1–11 से 13 दिन पहले"
+    },
+    {
+      "text": "Grades 1–11 application deadline",
+      "of": "5ce9158d",
+      "at": [
+        "charlotte-latin:guide.stats[1].label"
+      ],
+      "t": "कक्षा 1–11 के आवेदन की अंतिम तिथि"
     },
     {
       "text": "non-refundable enrollment deposit",
@@ -1787,8 +1793,7 @@
       "at": [
         "charlotte-latin:guide.bands[0].deadlines[0].label",
         "charlotte-latin:guide.bands[1].deadlines[0].label",
-        "charlotte-latin:guide.bands[2].deadlines[0].label",
-        "charlotte-latin:guide.bands[3].deadlines[0].label"
+        "charlotte-latin:guide.bands[2].deadlines[0].label"
       ],
       "t": "आवेदन की अंतिम तिथि"
     },
@@ -1859,12 +1864,12 @@
       "t": "वैकल्पिक प्रवेश कार्यक्रमों के लिए RSVP कीजिए"
     },
     {
-      "text": "Optional, not required. The **TK/K Fly By Open House on October 10, 2026, 9:30–11:00 a.m.** is the one dated event published for this band. Campus tours begin in September and run throughout the school year. Open houses, tours and virtual sessions are all booked through your portal account.",
-      "of": "0b83f028",
+      "text": "Optional, not required. Two dated events are published for this band. The **TK/K Fly By Open House** runs 9:30–11:00 a.m. on October 10, 2026. A **coffee and panel for parents of TK/K applicants** runs 9:30–11:00 a.m. on January 20, 2027. Campus tours begin in September and run throughout the school year. Open houses, tours and virtual sessions are all booked through your portal account.",
+      "of": "cb1d064a",
       "at": [
         "charlotte-latin:guide.bands[0].steps[1].detail"
       ],
-      "t": "वैकल्पिक, अनिवार्य नहीं। **10 अक्टूबर 2026, सुबह 9:30–11:00 का TK/K Fly By Open House** इस स्तर के लिए प्रकाशित एकमात्र तारीख़ वाला कार्यक्रम है। कैंपस भ्रमण सितंबर में शुरू होकर पूरे शैक्षणिक वर्ष चलते हैं। ओपन हाउस, भ्रमण और वर्चुअल सत्र — सब आपके पोर्टल खाते से ही बुक होते हैं।"
+      "t": "वैकल्पिक, अनिवार्य नहीं। इस स्तर के लिए तारीख़ वाले दो कार्यक्रम प्रकाशित हैं। **TK/K Fly By Open House** 10 अक्टूबर 2026 को सुबह 9:30–11:00 बजे है। **TK/K आवेदकों के माता-पिता के लिए कॉफ़ी और पैनल चर्चा** 20 जनवरी 2027 को सुबह 9:30–11:00 बजे है। कैंपस भ्रमण सितंबर में शुरू होकर पूरे शैक्षणिक वर्ष चलते हैं। ओपन हाउस, भ्रमण और वर्चुअल सत्र — सब आपके पोर्टल खाते से ही बुक होते हैं।"
     },
     {
       "text": "Complete the application",
@@ -1878,12 +1883,12 @@
       "t": "आवेदन पूरा कीजिए"
     },
     {
-      "text": "Required, and due **January 2, 2027**. That is thirteen days ahead of every other grade in the school. So this band's deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being \"designed for children that are newly five and ready for Kindergarten,\" and states no calendar date. Ask the admissions office where your child falls. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office. The listing says K-12, so it does not say whether it covers TK.",
-      "of": "3c4bf219",
+      "text": "Required, and due **January 2, 2027**. That is thirteen days ahead of Grades 1–11. So this band's deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being \"designed for children that are newly five and ready for Kindergarten,\" and states no calendar date. Ask the admissions office where your child falls. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office. The listing says K-12, so it does not say whether it covers TK.",
+      "of": "3ddeb149",
       "at": [
         "charlotte-latin:guide.bands[0].steps[2].detail"
       ],
-      "t": "अनिवार्य, और अंतिम तिथि **2 जनवरी 2027** है। यह स्कूल की बाकी हर कक्षा से तेरह दिन पहले है। यानी इस स्तर की अंतिम तिथि जनवरी के मध्य में नहीं, पहले सप्ताह में पड़ती है। Transitional Kindergarten या Kindergarten के लिए **कोई आयु या जन्मतिथि सीमा प्रकाशित नहीं है**। स्कूल TK का वर्णन केवल सामान्य शब्दों में करता है, «ऐसे बच्चों के लिए बनाया गया जो अभी-अभी पाँच के हुए हैं और Kindergarten के लिए तैयार हैं», और कोई तारीख़ नहीं बताता। अपने बच्चे की स्थिति प्रवेश कार्यालय से पूछिए। मौजूदा विद्यार्थियों के भाई-बहनों की अंतिम तिथि पहले थी। स्कूल के कैलेंडर में **K-12 भाई-बहन आवेदनों की अंतिम तिथि 15 अक्टूबर 2026** दी गई थी। अगर आप भाई-बहन वाले परिवार हैं और अभी आवेदन कर रहे हैं, तो प्रवेश कार्यालय से पूछिए। सूची में K-12 लिखा है, इसलिए उससे पता नहीं चलता कि TK भी इसमें शामिल है या नहीं।"
+      "t": "अनिवार्य, और अंतिम तिथि **2 जनवरी 2027** है। यह कक्षा 1–11 से तेरह दिन पहले है। यानी इस स्तर की अंतिम तिथि जनवरी के मध्य में नहीं, पहले सप्ताह में पड़ती है। Transitional Kindergarten या Kindergarten के लिए **कोई आयु या जन्मतिथि सीमा प्रकाशित नहीं है**। स्कूल TK का वर्णन केवल सामान्य शब्दों में करता है, \"designed for children that are newly five and ready for Kindergarten\" (यानी अभी-अभी पाँच के हुए और Kindergarten के लिए तैयार बच्चों के लिए), और कोई तारीख़ नहीं बताता। अपने बच्चे की स्थिति प्रवेश कार्यालय से पूछिए। मौजूदा विद्यार्थियों के भाई-बहनों की अंतिम तिथि पहले थी। स्कूल के कैलेंडर में **K-12 भाई-बहन आवेदनों की अंतिम तिथि 15 अक्टूबर 2026** दी गई थी। अगर आप भाई-बहन वाले परिवार हैं और अभी आवेदन कर रहे हैं, तो प्रवेश कार्यालय से पूछिए। सूची में K-12 लिखा है, इसलिए उससे पता नहीं चलता कि TK भी इसमें शामिल है या नहीं।"
     },
     {
       "text": "Attend a Visit Day — the office schedules it",
@@ -1929,12 +1934,12 @@
       "t": "अनिवार्य"
     },
     {
-      "text": "Required. Applicants to this band take the **WPPSI**. A psychologist in the Charlotte Area Independent Schools consortium gives the test. Testing \"need[s] to be scheduled in advance.\" You book the psychologist directly and ask that the scores be sent to Charlotte Latin. The school does not arrange the appointment.",
-      "of": "371c6a2f",
+      "text": "Required. Applicants to this band take the **WPPSI**. A psychologist in the Charlotte Area Independent Schools consortium gives the test. Testing \"need[s] to be scheduled in advance.\" You book the psychologist directly and ask that the scores be sent to Charlotte Latin. The school does not arrange the appointment. The CAIS brochure says testing must be complete by **February 1, 2027** and costs **$300**. It also says CAIS schools interview each child, though Latin’s page does not describe an interview for this band.",
+      "of": "fe64a670",
       "at": [
         "charlotte-latin:guide.bands[0].steps[4].detail"
       ],
-      "t": "अनिवार्य। इस स्तर के आवेदक **WPPSI** देते हैं। यह टेस्ट Charlotte Area Independent Schools कंसोर्टियम का एक मनोवैज्ञानिक कराता है। टेस्ट «पहले से तय कराना पड़ता है»। आप सीधे मनोवैज्ञानिक से समय लेते हैं और अंक Charlotte Latin को भेजने को कहते हैं। स्कूल यह अपॉइंटमेंट तय नहीं करता।"
+      "t": "अनिवार्य। इस स्तर के आवेदक **WPPSI** देते हैं। यह टेस्ट Charlotte Area Independent Schools कंसोर्टियम का एक मनोवैज्ञानिक कराता है। टेस्ट पहले से तय कराना पड़ता है; स्कूल के शब्दों में, \"need[s] to be scheduled in advance.\" आप सीधे मनोवैज्ञानिक से समय लेते हैं और अंक Charlotte Latin को भेजने को कहते हैं। स्कूल यह अपॉइंटमेंट तय नहीं करता। CAIS ब्रोशर के अनुसार टेस्ट **1 फ़रवरी 2027** तक पूरा हो जाना चाहिए और इसकी फ़ीस **$300** है। ब्रोशर यह भी कहता है कि CAIS स्कूल हर बच्चे का इंटरव्यू लेते हैं, हालाँकि Latin का पन्ना इस स्तर के लिए किसी इंटरव्यू का ज़िक्र नहीं करता।"
     },
     {
       "text": "Apply for financial aid, if you need it",
@@ -1975,12 +1980,12 @@
       "t": "26 फ़रवरी"
     },
     {
-      "text": "**February 26, 2027** is the school's \"TK and K notification day.\" Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.",
-      "of": "965fb3f3",
+      "text": "**February 26, 2027** is the school's \"TK and K notification day.\" Financial aid award decisions are communicated the same day. The CAIS brochure says the enrollment contract is due **March 5, 2027**. Enrolling also requires the **$2,500 non-refundable deposit**.",
+      "of": "3059c61c",
       "at": [
         "charlotte-latin:guide.bands[0].steps[6].detail"
       ],
-      "t": "**26 फ़रवरी 2027** स्कूल का «TK और K सूचना दिवस» है। वित्तीय सहायता के निर्णय भी उसी दिन बताए जाते हैं। **नामांकन अनुबंध जमा करने की कोई अंतिम तिथि प्रकाशित नहीं है**, इसलिए प्रवेश कार्यालय से पूछिए कि उसे कब तक जमा करना है। नामांकन के लिए **$2,500 की वापस न होने वाली जमा राशि** भी ज़रूरी है।"
+      "t": "**26 फ़रवरी 2027** स्कूल का \"TK and K notification day\" यानी सूचना दिवस है। वित्तीय सहायता के निर्णय भी उसी दिन बताए जाते हैं। CAIS ब्रोशर के अनुसार नामांकन अनुबंध **5 मार्च 2027** तक जमा करना है। नामांकन के लिए **$2,500 की वापस न होने वाली जमा राशि** भी ज़रूरी है।"
     },
     {
       "text": "Your application deadline is Jan 2, 2027.",
@@ -1991,12 +1996,12 @@
       "t": "आपके आवेदन की अंतिम तिथि 2 जनवरी 2027 है।"
     },
     {
-      "text": "Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band's Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, February 26, 2027. No due date for the enrollment contract is published, so confirm it with the admissions office.",
-      "of": "251668a8",
+      "text": "Transitional Kindergarten and Kindergarten apply thirteen days ahead of Grades 1–11. The admissions office, not the family, schedules this band's Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. The CAIS brochure sets testing by February 1, 2027. Decisions come on notification day, February 26, 2027. The brochure says the enrollment contract is due March 5, 2027.",
+      "of": "010536bd",
       "at": [
         "charlotte-latin:guide.bands[0].checklistCallout.text"
       ],
-      "t": "Transitional Kindergarten और Kindergarten बाकी हर कक्षा से तेरह दिन पहले आवेदन करते हैं। इस स्तर का Visit Day परिवार नहीं, प्रवेश कार्यालय तय करता है। इस स्तर के लिए सभी दस्तावेज़ों की कोई अंतिम तिथि प्रकाशित नहीं है। इसलिए क्या बाक़ी है, इसके लिए अपने पोर्टल की चेकलिस्ट को ही अंतिम मानिए। निर्णय सूचना दिवस, 26 फ़रवरी 2027 को आते हैं। नामांकन अनुबंध जमा करने की कोई अंतिम तिथि प्रकाशित नहीं है, इसलिए उसे प्रवेश कार्यालय से पुष्ट कर लीजिए।"
+      "t": "Transitional Kindergarten और Kindergarten कक्षा 1–11 से तेरह दिन पहले आवेदन करते हैं। इस स्तर का Visit Day परिवार नहीं, प्रवेश कार्यालय तय करता है। इस स्तर के लिए सभी दस्तावेज़ों की कोई अंतिम तिथि प्रकाशित नहीं है। इसलिए क्या बाक़ी है, इसके लिए अपने पोर्टल की चेकलिस्ट को ही अंतिम मानिए। CAIS ब्रोशर में टेस्ट की अंतिम तिथि 1 फ़रवरी 2027 दी गई है। निर्णय सूचना दिवस, 26 फ़रवरी 2027 को आते हैं। ब्रोशर के अनुसार नामांकन अनुबंध 5 मार्च 2027 तक जमा करना है।"
     },
     {
       "text": "Submit the online inquiry form",
@@ -2070,12 +2075,12 @@
       "t": "आवेदन जमा कीजिए"
     },
     {
-      "text": "Thirteen days ahead of the Grades 1–12 deadline. No age cutoff is published.",
-      "of": "614a3486",
+      "text": "Thirteen days ahead of the Grades 1–11 deadline. No age cutoff is published.",
+      "of": "81a4c04f",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[3].detail"
       ],
-      "t": "कक्षा 1–12 की अंतिम तिथि से तेरह दिन पहले। कोई आयु सीमा प्रकाशित नहीं है।"
+      "t": "कक्षा 1–11 की अंतिम तिथि से तेरह दिन पहले। कोई आयु सीमा प्रकाशित नहीं है।"
     },
     {
       "text": "Attend the Visit Day the office schedules for you",
@@ -2110,22 +2115,20 @@
       "t": "WPPSI टेस्ट का समय तय करके उसे पूरा कीजिए"
     },
     {
-      "text": "Scheduled in advance with a CAIS psychologist; ask that scores be sent to Latin.",
-      "of": "4f9cd594",
+      "text": "Scheduled in advance with a CAIS psychologist; ask that scores be sent to Latin. $300, per the CAIS brochure.",
+      "of": "676033c7",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[5].detail"
       ],
-      "t": "CAIS के मनोवैज्ञानिक से पहले से तय कराना होता है; अंक Latin को भेजने को कहिए।"
+      "t": "CAIS के मनोवैज्ञानिक से पहले से तय कराना होता है; अंक Latin को भेजने को कहिए। CAIS ब्रोशर के अनुसार फ़ीस $300 है।"
     },
     {
-      "text": "Before your deadline",
-      "of": "de184993",
+      "text": "By Feb 1, 2027",
+      "of": "6a0ec2a3",
       "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[5].due",
-        "charlotte-latin:guide.bands[1].checklistRows[3].due",
-        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+        "charlotte-latin:guide.bands[0].checklistRows[5].due"
       ],
-      "t": "अपनी अंतिम तिथि से पहले"
+      "t": "1 फ़रवरी 2027 तक"
     },
     {
       "text": "Submit the Clarity financial aid application",
@@ -2161,14 +2164,12 @@
       "t": "अपने सूचना दिवस पर नज़र रखिए"
     },
     {
-      "text": "Admission and financial aid decisions come that day. No contract due date is published; confirm it with admissions.",
-      "of": "9ebc1ec7",
+      "text": "Admission and financial aid decisions come that day. The CAIS brochure says the contract is due March 5, 2027.",
+      "of": "ec3068ef",
       "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[7].detail",
-        "charlotte-latin:guide.bands[1].checklistRows[6].detail",
-        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
+        "charlotte-latin:guide.bands[0].checklistRows[7].detail"
       ],
-      "t": "प्रवेश और वित्तीय सहायता के निर्णय उसी दिन आते हैं। अनुबंध की कोई अंतिम तारीख़ प्रकाशित नहीं है; उसे प्रवेश कार्यालय से पुष्ट कीजिए।"
+      "t": "प्रवेश और वित्तीय सहायता के निर्णय उसी दिन आते हैं। CAIS ब्रोशर के अनुसार अनुबंध 5 मार्च 2027 तक जमा करना है।"
     },
     {
       "text": "Lower School · Grades 1–5",
@@ -2197,12 +2198,12 @@
       "t": "अनिवार्य पहला चरण: परिवार «पहले पूछताछ भेजते हैं और फिर अपने परिवार के लिए एक प्रोफ़ाइल बनाते हैं»। इसके बाद वही खाता आपको वैकल्पिक प्रवेश कार्यक्रमों के लिए RSVP करने, दस्तावेज़ जमा करने, फ़ॉर्म ढूँढ़ने और समय-सीमाएँ पूरी करने को कहता है।"
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline every grade from 1 through 12 works to, thirteen days later than Transitional Kindergarten and Kindergarten. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
-      "of": "d9c67bf3",
+      "text": "Required, and due **January 15, 2027**. That is the deadline for Grades 1–11, thirteen days later than Transitional Kindergarten and Kindergarten. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "1ae2bdd7",
       "at": [
         "charlotte-latin:guide.bands[1].steps[1].detail"
       ],
-      "t": "अनिवार्य, और अंतिम तिथि **15 जनवरी 2027** — वही तिथि जिस पर कक्षा 1 से 12 तक हर कक्षा काम करती है, Transitional Kindergarten और Kindergarten से तेरह दिन बाद। मौजूदा विद्यार्थियों के भाई-बहनों की अंतिम तिथि पहले थी। स्कूल के कैलेंडर में **K-12 भाई-बहन आवेदनों की अंतिम तिथि 15 अक्टूबर 2026** दी गई थी। अगर आप भाई-बहन वाले परिवार हैं और अभी आवेदन कर रहे हैं, तो प्रवेश कार्यालय से पूछिए।"
+      "t": "अनिवार्य, और अंतिम तिथि **15 जनवरी 2027** है। यह कक्षा 1–11 की अंतिम तिथि है, Transitional Kindergarten और Kindergarten से तेरह दिन बाद। मौजूदा विद्यार्थियों के भाई-बहनों की अंतिम तिथि पहले थी। स्कूल के कैलेंडर में **K-12 भाई-बहन आवेदनों की अंतिम तिथि 15 अक्टूबर 2026** दी गई थी। अगर आप भाई-बहन वाले परिवार हैं और अभी आवेदन कर रहे हैं, तो प्रवेश कार्यालय से पूछिए।"
     },
     {
       "text": "Schedule and attend a Visit Day",
@@ -2240,12 +2241,12 @@
       "t": "अपने बच्चे की कक्षा के लिए तय मानक टेस्ट पूरा कीजिए"
     },
     {
-      "text": "Required, and **the test changes twice inside this one band**. Grade 1 applicants take the **WPPSI**, Grades 2–4 the **WISC-V**, and Grade 5 the **ISEE**. How you book changes with it. A psychologist in the Charlotte Area Independent Schools consortium gives the WPPSI and WISC-V, and you contact that psychologist directly. The ISEE is developed and given by the **Educational Records Bureau**, and Grade 5 families register through the ERB. Check which test applies to the grade your child is entering before you book anything.",
-      "of": "e0901ac3",
+      "text": "Required, and **the test changes twice inside this one band**. Grade 1 applicants take the **WPPSI**, Grades 2–4 the **WISC-V**, and Grade 5 the **ISEE**. How you book changes with it. A psychologist in the Charlotte Area Independent Schools consortium gives the WPPSI and WISC-V, and you contact that psychologist directly. The ISEE is developed and given by the **Educational Records Bureau**, and Grade 5 families register through the ERB. Check which test applies to the grade your child is entering before you book anything. The CAIS brochure says Grades 1–4 testing must be complete by **February 26, 2027** and costs **$300**. It also says CAIS schools interview each child, though Latin’s page does not describe an interview for this band.",
+      "of": "2192188f",
       "at": [
         "charlotte-latin:guide.bands[1].steps[3].detail"
       ],
-      "t": "अनिवार्य, और **इसी एक स्तर के भीतर टेस्ट दो बार बदलता है**। कक्षा 1 के आवेदक **WPPSI**, कक्षा 2–4 के **WISC-V** और कक्षा 5 के **ISEE** देते हैं। इसके साथ बुकिंग का तरीक़ा भी बदलता है। WPPSI और WISC-V Charlotte Area Independent Schools कंसोर्टियम का एक मनोवैज्ञानिक कराता है, और आप उस मनोवैज्ञानिक से सीधे संपर्क करते हैं। ISEE को **Educational Records Bureau** बनाता और कराता है, और कक्षा 5 के परिवार ERB से पंजीकरण कराते हैं। कुछ भी बुक करने से पहले देख लीजिए कि आपके बच्चे की प्रवेश कक्षा पर कौन-सा टेस्ट लागू होता है।"
+      "t": "अनिवार्य, और **इसी एक स्तर के भीतर टेस्ट दो बार बदलता है**। कक्षा 1 के आवेदक **WPPSI**, कक्षा 2–4 के **WISC-V** और कक्षा 5 के **ISEE** देते हैं। इसके साथ बुकिंग का तरीक़ा भी बदलता है। WPPSI और WISC-V Charlotte Area Independent Schools कंसोर्टियम का एक मनोवैज्ञानिक कराता है, और आप उस मनोवैज्ञानिक से सीधे संपर्क करते हैं। ISEE को **Educational Records Bureau** बनाता और कराता है, और कक्षा 5 के परिवार ERB से पंजीकरण कराते हैं। कुछ भी बुक करने से पहले देख लीजिए कि आपके बच्चे की प्रवेश कक्षा पर कौन-सा टेस्ट लागू होता है। CAIS ब्रोशर के अनुसार कक्षा 1–4 का टेस्ट **26 फ़रवरी 2027** तक पूरा हो जाना चाहिए और इसकी फ़ीस **$300** है। ब्रोशर यह भी कहता है कि CAIS स्कूल हर बच्चे का इंटरव्यू लेते हैं, हालाँकि Latin का पन्ना इस स्तर के लिए किसी इंटरव्यू का ज़िक्र नहीं करता।"
     },
     {
       "text": "Optional, and on its own clock: the aid application opens through **Clarity** on **September 15, 2026**. It is due **January 15, 2027** to be considered in the priority round. That is the same day as this band's application deadline. One application covers every child in the family. Award decisions come on your notification day, **April 9, 2027**.",
@@ -2266,13 +2267,12 @@
       "t": "9 अप्रैल"
     },
     {
-      "text": "**April 9, 2027** is the school's \"Grades 1-11 notification day.\" Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.",
-      "of": "1735da67",
+      "text": "**April 9, 2027** is the school's \"Grades 1-11 notification day.\" Financial aid award decisions are communicated the same day. The CAIS brochure says contracts for Grades 1–4 are due **April 16, 2027**. **No contract due date is published for Grade 5**, so ask the admissions office. Enrolling also requires the **$2,500 non-refundable deposit**.",
+      "of": "0d880376",
       "at": [
-        "charlotte-latin:guide.bands[1].steps[5].detail",
-        "charlotte-latin:guide.bands[2].steps[6].detail"
+        "charlotte-latin:guide.bands[1].steps[5].detail"
       ],
-      "t": "**9 अप्रैल 2027** स्कूल का «कक्षा 1-11 सूचना दिवस» है। वित्तीय सहायता के निर्णय भी उसी दिन बताए जाते हैं। **नामांकन अनुबंध जमा करने की कोई अंतिम तिथि प्रकाशित नहीं है**, इसलिए प्रवेश कार्यालय से पूछिए कि उसे कब तक जमा करना है। नामांकन के लिए **$2,500 की वापस न होने वाली जमा राशि** भी ज़रूरी है।"
+      "t": "**9 अप्रैल 2027** स्कूल का \"Grades 1-11 notification day\" यानी सूचना दिवस है। वित्तीय सहायता के निर्णय भी उसी दिन बताए जाते हैं। CAIS ब्रोशर के अनुसार कक्षा 1–4 के अनुबंध **16 अप्रैल 2027** तक जमा करने हैं। **कक्षा 5 के लिए अनुबंध की कोई अंतिम तिथि प्रकाशित नहीं है**, इसलिए प्रवेश कार्यालय से पूछिए। नामांकन के लिए **$2,500 की वापस न होने वाली जमा राशि** भी ज़रूरी है।"
     },
     {
       "text": "The assessment changes twice inside this one band.",
@@ -2283,20 +2283,20 @@
       "t": "इसी एक स्तर के भीतर टेस्ट दो बार बदलता है।"
     },
     {
-      "text": "Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child's entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, April 9, 2027. No due date for the enrollment contract is published, so confirm it with the admissions office.",
-      "of": "e075f067",
+      "text": "Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child's entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. The CAIS brochure sets Grades 1–4 testing by February 26, 2027. Decisions come on notification day, April 9, 2027. The brochure says Grades 1–4 contracts are due April 16, 2027. None is published for Grade 5, so confirm it with the admissions office.",
+      "of": "25371f97",
       "at": [
         "charlotte-latin:guide.bands[1].checklistCallout.text"
       ],
-      "t": "कक्षा 1 WPPSI देती है, कक्षा 2–4 WISC-V और कक्षा 5 ISEE। इसके साथ बुकिंग का तरीक़ा भी बदलता है। WPPSI और WISC-V के लिए आप सीधे किसी CAIS मनोवैज्ञानिक से संपर्क करते हैं। ISEE के लिए आप Educational Records Bureau में पंजीकरण कराते हैं। बुक करने से पहले पुष्ट कर लीजिए कि आपके बच्चे की प्रवेश कक्षा पर कौन-सा टेस्ट लागू होता है। इस स्तर के लिए सभी दस्तावेज़ों की कोई अंतिम तिथि प्रकाशित नहीं है। इसलिए क्या बाक़ी है, इसके लिए अपने पोर्टल की चेकलिस्ट को ही अंतिम मानिए। निर्णय सूचना दिवस, 9 अप्रैल 2027 को आते हैं। नामांकन अनुबंध जमा करने की कोई अंतिम तिथि प्रकाशित नहीं है, इसलिए उसे प्रवेश कार्यालय से पुष्ट कर लीजिए।"
+      "t": "कक्षा 1 WPPSI देती है, कक्षा 2–4 WISC-V और कक्षा 5 ISEE। इसके साथ बुकिंग का तरीक़ा भी बदलता है। WPPSI और WISC-V के लिए आप सीधे किसी CAIS मनोवैज्ञानिक से संपर्क करते हैं। ISEE के लिए आप Educational Records Bureau में पंजीकरण कराते हैं। बुक करने से पहले पुष्ट कर लीजिए कि आपके बच्चे की प्रवेश कक्षा पर कौन-सा टेस्ट लागू होता है। इस स्तर के लिए सभी दस्तावेज़ों की कोई अंतिम तिथि प्रकाशित नहीं है। इसलिए क्या बाक़ी है, इसके लिए अपने पोर्टल की चेकलिस्ट को ही अंतिम मानिए। CAIS ब्रोशर में कक्षा 1–4 के टेस्ट की अंतिम तिथि 26 फ़रवरी 2027 दी गई है। निर्णय सूचना दिवस, 9 अप्रैल 2027 को आते हैं। ब्रोशर के अनुसार कक्षा 1–4 के अनुबंध 16 अप्रैल 2027 तक जमा करने हैं। कक्षा 5 के लिए कोई तिथि प्रकाशित नहीं है, इसलिए उसे प्रवेश कार्यालय से पुष्ट कर लीजिए।"
     },
     {
-      "text": "The Grades 1–12 deadline, thirteen days after the TK/K one.",
-      "of": "2e0d0ce3",
+      "text": "The Grades 1–11 deadline, thirteen days after the TK/K one.",
+      "of": "0dd14a86",
       "at": [
         "charlotte-latin:guide.bands[1].checklistRows[2].detail"
       ],
-      "t": "कक्षा 1–12 की अंतिम तिथि, TK/K वाली से तेरह दिन बाद।"
+      "t": "कक्षा 1–11 की अंतिम तिथि, TK/K वाली से तेरह दिन बाद।"
     },
     {
       "text": "From Grade 1 upward the family books it, not the admissions office.",
@@ -2307,6 +2307,14 @@
       "t": "कक्षा 1 से ऊपर इसे परिवार बुक करता है, प्रवेश कार्यालय नहीं।"
     },
     {
+      "text": "Before your deadline",
+      "of": "de184993",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[3].due"
+      ],
+      "t": "अपनी अंतिम तिथि से पहले"
+    },
+    {
       "text": "Book and complete the assessment for your entry grade",
       "of": "58f28450",
       "at": [
@@ -2315,12 +2323,28 @@
       "t": "अपनी प्रवेश कक्षा के टेस्ट का समय तय करके उसे पूरा कीजिए"
     },
     {
-      "text": "Grade 1 WPPSI · Grades 2–4 WISC-V (both CAIS) · Grade 5 ISEE (through the ERB).",
-      "of": "cc9ee7d8",
+      "text": "Grade 1 WPPSI · Grades 2–4 WISC-V (both CAIS, $300, done by Feb 26, 2027) · Grade 5 ISEE (through the ERB, no date published).",
+      "of": "32d528cd",
       "at": [
         "charlotte-latin:guide.bands[1].checklistRows[4].detail"
       ],
-      "t": "कक्षा 1 WPPSI · कक्षा 2–4 WISC-V (दोनों CAIS) · कक्षा 5 ISEE (ERB से)।"
+      "t": "कक्षा 1 WPPSI · कक्षा 2–4 WISC-V (दोनों CAIS, $300, 26 फ़रवरी 2027 तक पूरे) · कक्षा 5 ISEE (ERB से, कोई तारीख़ प्रकाशित नहीं)।"
+    },
+    {
+      "text": "Feb 26, 2027 for Grades 1–4",
+      "of": "a8240a24",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+      ],
+      "t": "कक्षा 1–4 के लिए 26 फ़रवरी 2027"
+    },
+    {
+      "text": "Admission and financial aid decisions come that day. The CAIS brochure says Grades 1–4 contracts are due April 16, 2027. None is published for Grade 5.",
+      "of": "e940ba53",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[6].detail"
+      ],
+      "t": "प्रवेश और वित्तीय सहायता के निर्णय उसी दिन आते हैं। CAIS ब्रोशर के अनुसार कक्षा 1–4 के अनुबंध 16 अप्रैल 2027 तक जमा करने हैं। कक्षा 5 के लिए कोई तारीख़ प्रकाशित नहीं है।"
     },
     {
       "text": "Middle School · Grades 6–8",
@@ -2358,12 +2382,12 @@
       "t": "सभी दस्तावेज़ों की अंतिम तिथि"
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Sixth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and ninth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
-      "of": "c285c5c0",
+      "text": "Required, and due **January 15, 2027** — the deadline shared by Grades 1–11. Sixth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and ninth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "67d1f72b",
       "at": [
         "charlotte-latin:guide.bands[2].steps[1].detail"
       ],
-      "t": "अनिवार्य, और अंतिम तिथि **15 जनवरी 2027** — कक्षा 1 से 12 तक सबकी साझा तिथि। छठी उन वर्षों में से एक है जिनमें स्कूल «स्वाभाविक रूप से बढ़ता है», TK, Kindergarten और नवीं के साथ। मौजूदा विद्यार्थियों के भाई-बहनों की अंतिम तिथि पहले थी। स्कूल के कैलेंडर में **K-12 भाई-बहन आवेदनों की अंतिम तिथि 15 अक्टूबर 2026** दी गई थी। अगर आप भाई-बहन वाले परिवार हैं और अभी आवेदन कर रहे हैं, तो प्रवेश कार्यालय से पूछिए।"
+      "t": "अनिवार्य, और अंतिम तिथि **15 जनवरी 2027** — कक्षा 1–11 की साझा तिथि। छठी उन वर्षों में से एक है जिनमें स्कूल स्वाभाविक रूप से बढ़ता है (स्कूल के शब्दों में \"naturally expand[s]\"), TK, Kindergarten और नवीं के साथ। मौजूदा विद्यार्थियों के भाई-बहनों की अंतिम तिथि पहले थी। स्कूल के कैलेंडर में **K-12 भाई-बहन आवेदनों की अंतिम तिथि 15 अक्टूबर 2026** दी गई थी। अगर आप भाई-बहन वाले परिवार हैं और अभी आवेदन कर रहे हैं, तो प्रवेश कार्यालय से पूछिए।"
     },
     {
       "text": "Schedule and attend a Visit Day — interview included",
@@ -2425,6 +2449,14 @@
       "t": "वैकल्पिक, और इसका अपना अलग कैलेंडर है: सहायता आवेदन **Clarity** से **15 सितंबर 2026** को खुलता है। प्राथमिकता दौर में विचार के लिए इसे **15 जनवरी 2027** तक देना होता है। यह दस्तावेज़ों की अंतिम तिथि से छह सप्ताह पहले है। एक ही आवेदन परिवार के सभी बच्चों को कवर करता है। सहायता के निर्णय आपके सूचना दिवस, **9 अप्रैल 2027** को आते हैं।"
     },
     {
+      "text": "**April 9, 2027** is the school's \"Grades 1-11 notification day.\" Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.",
+      "of": "1735da67",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[6].detail"
+      ],
+      "t": "**9 अप्रैल 2027** स्कूल का «कक्षा 1-11 सूचना दिवस» है। वित्तीय सहायता के निर्णय भी उसी दिन बताए जाते हैं। **नामांकन अनुबंध जमा करने की कोई अंतिम तिथि प्रकाशित नहीं है**, इसलिए प्रवेश कार्यालय से पूछिए कि उसे कब तक जमा करना है। नामांकन के लिए **$2,500 की वापस न होने वाली जमा राशि** भी ज़रूरी है।"
+    },
+    {
       "text": "February 26, 2027 is the date that binds this band.",
       "of": "eb208bbd",
       "at": [
@@ -2442,12 +2474,12 @@
       "t": "ISEE और फ़ाइल का बाक़ी हर हिस्सा उसी दिन देना होता है। इसलिए उस तारीख़ को निशाना बनाने के बजाय, उसी से पीछे गिनकर अपने ERB पंजीकरण की योजना बनाइए। टेस्ट की सीट बुक करना, टेस्ट देना और अंक आना सब अंतिम तिथि से पहले होना चाहिए। Visit Day मूल्यांकन का दिन है, भ्रमण नहीं: इसमें एक इंटरव्यू, मौके पर एक मूल्यांकन और एक कक्षा का अवलोकन शामिल है। निर्णय सूचना दिवस, 9 अप्रैल 2027 को आते हैं। नामांकन अनुबंध जमा करने की कोई अंतिम तिथि प्रकाशित नहीं है, इसलिए उसे प्रवेश कार्यालय से पुष्ट कर लीजिए।"
     },
     {
-      "text": "The Grades 1–12 deadline. Grade 6 is a natural expansion year.",
-      "of": "4da27e9e",
+      "text": "The Grades 1–11 deadline. Grade 6 is a natural expansion year.",
+      "of": "659d5c09",
       "at": [
         "charlotte-latin:guide.bands[2].checklistRows[2].detail"
       ],
-      "t": "कक्षा 1–12 की अंतिम तिथि। छठी स्वाभाविक विस्तार का वर्ष है।"
+      "t": "कक्षा 1–11 की अंतिम तिथि। कक्षा 6 स्वाभाविक विस्तार का वर्ष है।"
     },
     {
       "text": "Schedule and attend the Visit Day",
@@ -2502,6 +2534,14 @@
       "t": "क्या बाक़ी है यह आपके पोर्टल की चेकलिस्ट बताती है।"
     },
     {
+      "text": "Admission and financial aid decisions come that day. No contract due date is published; confirm it with admissions.",
+      "of": "9ebc1ec7",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
+      ],
+      "t": "प्रवेश और वित्तीय सहायता के निर्णय उसी दिन आते हैं। अनुबंध की कोई अंतिम तारीख़ प्रकाशित नहीं है; उसे प्रवेश कार्यालय से पुष्ट कीजिए।"
+    },
+    {
       "text": "Upper School · Grades 9–12",
       "of": "3ae019cb",
       "at": [
@@ -2518,6 +2558,14 @@
       "t": "Upper School — कक्षा 9–12"
     },
     {
+      "text": "application due — Grades 9–11",
+      "of": "85cf42cd",
+      "at": [
+        "charlotte-latin:guide.bands[3].deadlines[0].label"
+      ],
+      "t": "आवेदन की अंतिम तिथि — कक्षा 9–11"
+    },
+    {
       "text": "notification day — Grades 9–11",
       "of": "7d521e76",
       "at": [
@@ -2526,12 +2574,12 @@
       "t": "सूचना दिवस — कक्षा 9–11"
     },
     {
-      "text": "Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Ninth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and sixth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
-      "of": "bbcb2cdc",
+      "text": "Required, and due **January 15, 2027** for Grades 9–11. The school’s dates list names no deadline for Grade 12, so ask. Ninth grade is one of the years the school \"naturally expand[s]\" in, alongside TK, Kindergarten and sixth grade. Siblings of current students had an earlier deadline. The school's calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.",
+      "of": "004acaee",
       "at": [
         "charlotte-latin:guide.bands[3].steps[1].detail"
       ],
-      "t": "अनिवार्य, और अंतिम तिथि **15 जनवरी 2027** — कक्षा 1 से 12 तक सबकी साझा तिथि। नवीं उन वर्षों में से एक है जिनमें स्कूल «स्वाभाविक रूप से बढ़ता है», TK, Kindergarten और छठी के साथ। मौजूदा विद्यार्थियों के भाई-बहनों की अंतिम तिथि पहले थी। स्कूल के कैलेंडर में **K-12 भाई-बहन आवेदनों की अंतिम तिथि 15 अक्टूबर 2026** दी गई थी। अगर आप भाई-बहन वाले परिवार हैं और अभी आवेदन कर रहे हैं, तो प्रवेश कार्यालय से पूछिए।"
+      "t": "अनिवार्य, और कक्षा 9–11 के लिए अंतिम तिथि **15 जनवरी 2027** है। स्कूल की तारीख़ों की सूची में कक्षा 12 की कोई अंतिम तिथि नहीं दी गई, इसलिए पूछ लीजिए। नवीं उन वर्षों में से एक है जिनमें स्कूल स्वाभाविक रूप से बढ़ता है (स्कूल के शब्दों में \"naturally expand[s]\"), TK, Kindergarten और छठी के साथ। मौजूदा विद्यार्थियों के भाई-बहनों की अंतिम तिथि पहले थी। स्कूल के कैलेंडर में **K-12 भाई-बहन आवेदनों की अंतिम तिथि 15 अक्टूबर 2026** दी गई थी। अगर आप भाई-बहन वाले परिवार हैं और अभी आवेदन कर रहे हैं, तो प्रवेश कार्यालय से पूछिए।"
     },
     {
       "text": "Schedule and attend a Visit Day — interview and a shadow day",
@@ -2582,12 +2630,12 @@
       "t": "ISEE और फ़ाइल का बाक़ी हर हिस्सा उसी दिन देना होता है। इसलिए उस तारीख़ को निशाना बनाने के बजाय, उसी से पीछे गिनकर अपने ERB पंजीकरण की योजना बनाइए। Visit Day एक इंटरव्यू को एक Student Ambassador के साथ शैडो डे से जोड़ता है, यानी आपका बच्चा पूरा दिन वैसे ही बिताता है जैसे एक Latin विद्यार्थी बिताता। प्रकाशित टेस्ट शर्त कक्षा 9 से 11 तक को कवर करती है। कक्षा 12 के आवेदकों के लिए कुछ भी प्रकाशित नहीं है, इसलिए प्रवेश कार्यालय से पूछिए कि क्या लागू होता है। कक्षा 9–11 के निर्णय सूचना दिवस, 9 अप्रैल 2027 को आते हैं। नामांकन अनुबंध जमा करने की कोई अंतिम तिथि प्रकाशित नहीं है, इसलिए उसे कार्यालय से पुष्ट कर लीजिए।"
     },
     {
-      "text": "The Grades 1–12 deadline. Grade 9 is a natural expansion year.",
-      "of": "3eb92b51",
+      "text": "Grades 9–11. No Grade 12 deadline is published, so ask. Grade 9 is a natural expansion year.",
+      "of": "5d0e6c07",
       "at": [
         "charlotte-latin:guide.bands[3].checklistRows[2].detail"
       ],
-      "t": "कक्षा 1–12 की अंतिम तिथि। नवीं स्वाभाविक विस्तार का वर्ष है।"
+      "t": "कक्षा 9–11। कक्षा 12 की कोई अंतिम तिथि प्रकाशित नहीं है, इसलिए पूछ लीजिए। कक्षा 9 स्वाभाविक विस्तार का वर्ष है।"
     },
     {
       "text": "An interview plus a shadow day alongside a Latin Student Ambassador.",
@@ -2628,6 +2676,14 @@
         "charlotte-latin:guide.aid.text"
       ],
       "t": "सहायता **Clarity** से चलती है। यह **15 सितंबर 2026** को खुलती है और प्राथमिकता दौर में विचार के लिए **15 जनवरी 2027** तक देनी होती है। सहायता के निर्णय सूचना दिवस पर आते हैं: TK और Kindergarten के लिए **26 फ़रवरी 2027**, और कक्षा 1–11 के लिए **9 अप्रैल 2027**। एक ही आवेदन परिवार के सभी बच्चों को कवर करता है और «आम तौर पर 30 मिनट या उससे कम में पूरा हो जाता है»। इसके अलावा, «पहली बार प्रवेश या पुनः प्रवेश के समय» एक **$2,500 की वापस न होने वाली जमा राशि** «अनिवार्य» है, जो «दूसरी ट्यूशन किस्त से घटा दी जाती है»। उसके बिना किसी विद्यार्थी का प्रवेश या पुनः प्रवेश नहीं हो सकता। इस चक्र के लिए **कोई सहायता आवेदन शुल्क प्रकाशित नहीं है**।"
+    },
+    {
+      "text": "Jan 15, 2027 (Gr 9–11) · nothing published for Gr 12",
+      "of": "b9ff242c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[0].cells.us"
+      ],
+      "t": "15 जनवरी 2027 (कक्षा 9–11) · कक्षा 12 के लिए कुछ प्रकाशित नहीं"
     },
     {
       "text": "Who schedules the Visit Day",
@@ -2688,13 +2744,20 @@
       "t": "Visit Day पर इंटरव्यू"
     },
     {
-      "text": "Not described",
-      "of": "664909c9",
+      "text": "Not described by Latin · the CAIS brochure says CAIS schools interview each child",
+      "of": "4fce4beb",
       "at": [
-        "charlotte-latin:guide.comparison.rows[3].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[3].cells.tkk"
+      ],
+      "t": "Latin ने इसका विवरण नहीं दिया · CAIS ब्रोशर के अनुसार CAIS स्कूल हर बच्चे का इंटरव्यू लेते हैं"
+    },
+    {
+      "text": "Not described by Latin · for Gr 1–4 the CAIS brochure says CAIS schools interview each child",
+      "of": "bcd81d79",
+      "at": [
         "charlotte-latin:guide.comparison.rows[3].cells.ls"
       ],
-      "t": "वर्णन नहीं किया गया"
+      "t": "Latin ने इसका विवरण नहीं दिया · कक्षा 1–4 के लिए CAIS ब्रोशर के अनुसार CAIS स्कूल हर बच्चे का इंटरव्यू लेते हैं"
     },
     {
       "text": "Yes",
@@ -2754,13 +2817,20 @@
       "t": "टेस्ट और दस्तावेज़ों की अंतिम तिथि"
     },
     {
-      "text": "None published",
-      "of": "de8a893d",
+      "text": "Testing by Feb 1, 2027 (CAIS brochure) · no file-material date published",
+      "of": "fa0d73ba",
       "at": [
-        "charlotte-latin:guide.comparison.rows[5].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[5].cells.tkk"
+      ],
+      "t": "टेस्ट 1 फ़रवरी 2027 तक (CAIS ब्रोशर) · दस्तावेज़ों की कोई अंतिम तारीख़ प्रकाशित नहीं"
+    },
+    {
+      "text": "Gr 1–4 testing by Feb 26, 2027 (CAIS brochure) · no date published for Gr 5 or for file material",
+      "of": "e6732698",
+      "at": [
         "charlotte-latin:guide.comparison.rows[5].cells.ls"
       ],
-      "t": "कुछ प्रकाशित नहीं"
+      "t": "कक्षा 1–4 का टेस्ट 26 फ़रवरी 2027 तक (CAIS ब्रोशर) · कक्षा 5 या दस्तावेज़ों के लिए कोई तारीख़ प्रकाशित नहीं"
     },
     {
       "text": "Decision and contract",
@@ -2771,18 +2841,25 @@
       "t": "निर्णय और अनुबंध"
     },
     {
-      "text": "Feb 26, 2027 · no contract due date published",
-      "of": "aa29f6e3",
+      "text": "Feb 26, 2027 · contract due Mar 5, 2027 (CAIS brochure)",
+      "of": "36553e63",
       "at": [
         "charlotte-latin:guide.comparison.rows[6].cells.tkk"
       ],
-      "t": "26 फ़रवरी 2027 · अनुबंध की कोई अंतिम तारीख़ प्रकाशित नहीं"
+      "t": "26 फ़रवरी 2027 · अनुबंध की अंतिम तारीख़ 5 मार्च 2027 (CAIS ब्रोशर)"
+    },
+    {
+      "text": "Apr 9, 2027 · Gr 1–4 contract due Apr 16, 2027 (CAIS brochure) · none published for Gr 5",
+      "of": "5ab634ae",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.ls"
+      ],
+      "t": "9 अप्रैल 2027 · कक्षा 1–4 के अनुबंध की अंतिम तारीख़ 16 अप्रैल 2027 (CAIS ब्रोशर) · कक्षा 5 के लिए कोई तारीख़ प्रकाशित नहीं"
     },
     {
       "text": "Apr 9, 2027 · no contract due date published",
       "of": "6bd709e2",
       "at": [
-        "charlotte-latin:guide.comparison.rows[6].cells.ls",
         "charlotte-latin:guide.comparison.rows[6].cells.ms"
       ],
       "t": "9 अप्रैल 2027 · अनुबंध की कोई अंतिम तारीख़ प्रकाशित नहीं"
@@ -2967,12 +3044,12 @@
       "t": "9502 Providence Road, Charlotte, NC 28277"
     },
     {
-      "text": "Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages. Some items, such as the enrollment contract due date, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.",
-      "of": "a56510ed",
+      "text": "Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages, and the CAIS brochure the school links. Some items, such as the contract due date from Grade 5 up, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.",
+      "of": "efcf7cee",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ],
-      "t": "तारीखें 2027–28 प्रवेश चक्र की हैं, जैसी charlottelatin.org पर प्रकाशित हैं (अगस्त 2026 में ली गईं; नवंबर 2026 में तारीखें दोबारा जाँची गईं)। ये आवेदन प्रक्रिया, ट्यूशन और वित्तीय सहायता, तथा प्रवेश पन्नों से ली गई हैं। कुछ बातें, जैसे नामांकन अनुबंध की अंतिम तारीख़, या तो केवल आवेदन पोर्टल के भीतर दिखती हैं या बिल्कुल प्रकाशित नहीं हैं। चक्र की तारीखें हर साल बदलती हैं, और पिछले किसी सत्र में इन पन्नों पर अलग तारीखें थीं। इसलिए कोई कदम उठाने से पहले लाइव पन्नों से मिला लीजिए। संकलन Charlotte School Compare द्वारा; Charlotte Latin School से कोई संबंध नहीं।"
+      "t": "तारीखें 2027–28 प्रवेश चक्र की हैं, जैसी charlottelatin.org पर प्रकाशित हैं (अगस्त 2026 में ली गईं; नवंबर 2026 में तारीखें दोबारा जाँची गईं)। ये आवेदन प्रक्रिया, ट्यूशन और वित्तीय सहायता, तथा प्रवेश पन्नों और स्कूल की ओर से लिंक किए गए CAIS ब्रोशर से ली गई हैं। कुछ बातें, जैसे कक्षा 5 और उससे ऊपर के लिए अनुबंध की अंतिम तारीख़, या तो केवल आवेदन पोर्टल के भीतर दिखती हैं या बिल्कुल प्रकाशित नहीं हैं। चक्र की तारीखें हर साल बदलती हैं, और पिछले किसी सत्र में इन पन्नों पर अलग तारीखें थीं। इसलिए कोई कदम उठाने से पहले लाइव पन्नों से मिला लीजिए। संकलन Charlotte School Compare द्वारा; Charlotte Latin School से कोई संबंध नहीं।"
     },
     {
       "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. The school publishes three documents, but there are really four processes. The application deadline changes at Kindergarten→1, while the testing changes a grade later, at 1→2.",
@@ -6629,8 +6706,7 @@
         "hickory-grove-christian:guide.bands[0].deadlines[2].value",
         "hickory-grove-christian:guide.bands[1].deadlines[2].value",
         "hickory-grove-christian:guide.bands[2].deadlines[2].value",
-        "hickory-grove-christian:guide.bands[3].deadlines[2].value",
-        "hickory-grove-christian:guide.bands[4].deadlines[2].value"
+        "hickory-grove-christian:guide.bands[3].deadlines[2].value"
       ],
       "t": "$500"
     },
@@ -6675,12 +6751,12 @@
       "t": "चर्च सदस्य, Early Education Center के छात्र और मौजूदा छात्रों के भाई-बहन 2 नवंबर 2026 से आवेदन कर सकते हैं; बाकी सब 16 नवंबर से। यह कतार में पहले जगह मिलना है, कोई छूट नहीं — इन तारीखों के बाद प्रवेश निरंतर चलता रहता है।"
     },
     {
-      "text": "Every domestic band follows the same main steps. First: submit the inquiry form → register for the Open House → apply in FACTS and pay the application fee. Next: send the forms your band requires → take the entrance testing, which is scheduled only once every form has arrived → attend the family interview. Last: receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this, and it has its own band.",
-      "of": "e96f28e4",
+      "text": "Every grade band except International follows the same main steps. First: submit the inquiry form → register for the Open House → apply in FACTS and pay the application fee. Next: send the forms your band requires → take the entrance testing, which is scheduled only once every form has arrived → attend the family interview. Last: receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this, and it has its own band.",
+      "of": "70647c54",
       "at": [
         "hickory-grove-christian:guide.spineNote"
       ],
-      "t": "हर घरेलू बैंड एक ही मुख्य चरणों पर चलता है। पहले: पूछताछ फ़ॉर्म जमा करें → Open House के लिए पंजीकरण करें → FACTS में आवेदन करें और आवेदन शुल्क भरें। फिर: अपने बैंड के लिए ज़रूरी फ़ॉर्म भेजें → प्रवेश परीक्षा दें, जो सभी फ़ॉर्म पहुँचने के बाद ही तय होती है → पारिवारिक इंटरव्यू में शामिल हों। आख़िर में: लिखित निर्णय पाएँ → $500 की एनरोलमेंट जमा राशि भरें। बैंड के बीच फ़र्क़ इतना है कि कौन-से फ़ॉर्म भेजने हैं, शैडो डे है या नहीं, और प्लेसमेंट टेस्ट लागू होता है या नहीं। अंतरराष्ट्रीय F-1 प्रक्रिया इसका ज़्यादातर हिस्सा बदल देती है, और उसका अपना अलग बैंड है।"
+      "t": "International को छोड़कर कक्षाओं का हर बैंड एक ही मुख्य चरणों पर चलता है। पहले: पूछताछ फ़ॉर्म जमा करें → Open House के लिए पंजीकरण करें → FACTS में आवेदन करें और आवेदन शुल्क भरें। फिर: अपने बैंड के लिए ज़रूरी फ़ॉर्म भेजें → प्रवेश परीक्षा दें, जो सभी फ़ॉर्म पहुँचने के बाद ही तय होती है → पारिवारिक इंटरव्यू में शामिल हों। आख़िर में: लिखित निर्णय पाएँ → $500 की एनरोलमेंट जमा राशि भरें। बैंड के बीच फ़र्क़ इतना है कि कौन-से फ़ॉर्म भेजने हैं, शैडो डे है या नहीं, और प्लेसमेंट टेस्ट लागू होता है या नहीं। अंतरराष्ट्रीय F-1 प्रक्रिया इसका ज़्यादातर हिस्सा बदल देती है, और उसका अपना अलग बैंड है।"
     },
     {
       "text": "TK / K5",
@@ -6716,8 +6792,7 @@
         "hickory-grove-christian:guide.bands[0].deadlines[2].label",
         "hickory-grove-christian:guide.bands[1].deadlines[2].label",
         "hickory-grove-christian:guide.bands[2].deadlines[2].label",
-        "hickory-grove-christian:guide.bands[3].deadlines[2].label",
-        "hickory-grove-christian:guide.bands[4].deadlines[2].label"
+        "hickory-grove-christian:guide.bands[3].deadlines[2].label"
       ],
       "t": "स्वीकृति पर प्रवेश जमा राशि"
     },
@@ -7350,12 +7425,12 @@
       "t": "मिडिल · कक्षा 6–8"
     },
     {
-      "text": "Three teacher recommendations",
-      "of": "4becfc9d",
+      "text": "Three school recommendations + pastor",
+      "of": "9c2b9f21",
       "at": [
         "hickory-grove-christian:guide.bands[2].sublabel"
       ],
-      "t": "तीन शिक्षक सिफ़ारिशें"
+      "t": "स्कूल की तीन सिफ़ारिशें + पास्टर की सिफ़ारिश"
     },
     {
       "text": "The first two steps are linked from the admissions page: an inquiry form, then the visit. The visit now means registering for the **Admissions Open House on Tuesday, November 10, 2026**. Sessions are at 12, 4 and 6 p.m., with separate elementary, middle and high school tours. Middle school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.",
@@ -7760,12 +7835,12 @@
       "t": "समीक्षा का हिस्सा"
     },
     {
-      "text": "Admission rests on four things the school lists together. The first is an **online interview with the Director of the International Student Program and the Principal**. The others are the completed online application, prior academic and behavioral performance, and the English-test scores. The interview is held online, so it **replaces the campus visit** that opens every domestic band. A family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013**. It issues its own I-20 (the form a student needs to apply for a student visa) rather than routing families through a third party.",
-      "of": "5c6c182e",
+      "text": "Admission rests on four things the school lists together. The first is an **online interview with the Director of the International Student Program and the Principal**. The others are the completed online application, prior academic and behavioral performance, and the English-test scores. The interview is held online, so it **replaces the campus visit** that opens every other band. A family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013**. It issues its own I-20 (the form a student needs to apply for a student visa) rather than routing families through a third party.",
+      "of": "9866b096",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[0].detail"
       ],
-      "t": "प्रवेश चार बातों पर टिका है, जिन्हें स्कूल एक साथ गिनाता है। पहली है **Director of the International Student Program और Principal के साथ एक ऑनलाइन इंटरव्यू**। बाकी हैं पूरा भरा हुआ ऑनलाइन आवेदन, पिछला शैक्षणिक प्रदर्शन और व्यवहार, और अंग्रेज़ी टेस्ट के अंक। इंटरव्यू ऑनलाइन होता है, इसलिए यह उस **कैंपस विज़िट की जगह लेता है**, जिससे हर घरेलू बैंड शुरू होता है। विदेश से आवेदन करने वाले परिवार से पहले यात्रा करने की अपेक्षा नहीं की जाती। Hickory Grove **2013** से अपना अंतरराष्ट्रीय प्रोग्राम चला रहा है। वह परिवारों को किसी तीसरे पक्ष के पास भेजने के बजाय अपना I-20 (वह फ़ॉर्म जो छात्र वीज़ा के आवेदन के लिए चाहिए) ख़ुद जारी करता है।"
+      "t": "प्रवेश चार बातों पर टिका है, जिन्हें स्कूल एक साथ गिनाता है। पहली है **Director of the International Student Program और Principal के साथ एक ऑनलाइन इंटरव्यू**। बाकी हैं पूरा भरा हुआ ऑनलाइन आवेदन, पिछला शैक्षणिक प्रदर्शन और व्यवहार, और अंग्रेज़ी टेस्ट के अंक। इंटरव्यू ऑनलाइन होता है, इसलिए यह उस **कैंपस विज़िट की जगह लेता है**, जिससे बाकी हर बैंड शुरू होता है। विदेश से आवेदन करने वाले परिवार से पहले यात्रा करने की अपेक्षा नहीं की जाती। Hickory Grove **2013** से अपना अंतरराष्ट्रीय प्रोग्राम चला रहा है। वह परिवारों को किसी तीसरे पक्ष के पास भेजने के बजाय अपना I-20 (वह फ़ॉर्म जो छात्र वीज़ा के आवेदन के लिए चाहिए) ख़ुद जारी करता है।"
     },
     {
       "text": "Complete the online admission application",
@@ -7884,7 +7959,8 @@
       "text": "Pay in full by August 1",
       "of": "59e0571c",
       "at": [
-        "hickory-grove-christian:guide.bands[4].steps[6].title"
+        "hickory-grove-christian:guide.bands[4].steps[6].title",
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
       ],
       "t": "1 अगस्त तक पूरा भुगतान करें"
     },
@@ -7897,12 +7973,12 @@
       "t": "1 अगस्त तक"
     },
     {
-      "text": "**Full payment must be received by August 1** before the student can be enrolled. A balance still unpaid on the first day of school puts the application on **financial hold**. Paying in full before enrollment is the sharpest difference from the domestic bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**. Nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**",
-      "of": "364b52db",
+      "text": "**Full payment must be received by August 1** before the student can be enrolled. A balance still unpaid on the first day of school puts the application on **financial hold**. Paying in full before enrollment is the sharpest difference from the other bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**. Nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**",
+      "of": "8e34db31",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[6].detail"
       ],
-      "t": "छात्र का एनरोलमेंट हो सके, इसके लिए **पूरा भुगतान 1 अगस्त तक मिल जाना चाहिए**। स्कूल के पहले दिन तक कोई बकाया रहने पर आवेदन **फ़ाइनेंशियल होल्ड** पर चला जाता है। एनरोलमेंट से पहले पूरा भुगतान ही घरेलू बैंड से सबसे बड़ा फ़र्क़ है, जो स्वीकृति पर $500 की जमा राशि लेते हैं और बाकी रकम साल भर में बिल करते हैं। **अंतरराष्ट्रीय ट्यूशन की राशि प्रकाशित नहीं है**। यह भी प्रकाशित नहीं है कि वित्तीय सहायता अंतरराष्ट्रीय छात्रों तक पहुँचती है या नहीं। **जल्दी नाम वापस लेने पर $500 और अंतरराष्ट्रीय ट्यूशन का 50% लगता है।**"
+      "t": "छात्र का एनरोलमेंट हो सके, इसके लिए **पूरा भुगतान 1 अगस्त तक मिल जाना चाहिए**। स्कूल के पहले दिन तक कोई बकाया रहने पर आवेदन **फ़ाइनेंशियल होल्ड** पर चला जाता है। एनरोलमेंट से पहले पूरा भुगतान ही बाकी बैंड से सबसे बड़ा फ़र्क़ है, जो स्वीकृति पर $500 की जमा राशि लेते हैं और बाकी रकम साल भर में बिल करते हैं। **अंतरराष्ट्रीय ट्यूशन की राशि प्रकाशित नहीं है**। यह भी प्रकाशित नहीं है कि वित्तीय सहायता अंतरराष्ट्रीय छात्रों तक पहुँचती है या नहीं। **जल्दी नाम वापस लेने पर $500 और अंतरराष्ट्रीय ट्यूशन का 50% लगता है।**"
     },
     {
       "text": "What the program includes once you arrive",
@@ -7953,12 +8029,12 @@
       "t": "प्रोग्राम निदेशक और प्रिंसिपल के साथ ऑनलाइन इंटरव्यू तय करें"
     },
     {
-      "text": "Part of the admission review, and it replaces the campus visit the domestic bands begin with.",
-      "of": "89bbddfb",
+      "text": "Part of the admission review, and it replaces the campus visit the other bands begin with.",
+      "of": "0ead3ef9",
       "at": [
         "hickory-grove-christian:guide.bands[4].checklistRows[0].detail"
       ],
-      "t": "यह प्रवेश समीक्षा का हिस्सा है, और उस कैंपस विज़िट की जगह लेता है जिससे घरेलू बैंड शुरू होते हैं।"
+      "t": "यह प्रवेश समीक्षा का हिस्सा है, और उस कैंपस विज़िट की जगह लेता है जिससे बाकी बैंड शुरू होते हैं।"
     },
     {
       "text": "Before the decision",
@@ -8097,14 +8173,6 @@
         "hickory-grove-christian:guide.bands[4].checklistRows[7].detail"
       ],
       "t": "American Benefit Services (Short Term Medical) — 843-214-2447।"
-    },
-    {
-      "text": "Pay the $500 enrollment deposit, then the balance in full",
-      "of": "eb37b221",
-      "at": [
-        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
-      ],
-      "t": "$500 प्रवेश जमा राशि चुकाएँ, फिर बाकी रकम पूरी"
     },
     {
       "text": "Full payment by August 1; a balance unpaid on the first day of school puts the application on financial hold.",
@@ -8393,12 +8461,12 @@
       "t": "1 अगस्त तक पूरा भुगतान, वरना सीट फ़ाइनेंशियल होल्ड पर चली जाती है"
     },
     {
-      "text": "Constant in every domestic band",
-      "of": "eef95440",
+      "text": "Constant in every band except International",
+      "of": "88c24713",
       "at": [
         "hickory-grove-christian:guide.comparison.rows[8].label"
       ],
-      "t": "हर घरेलू स्तर पर एक जैसा"
+      "t": "International को छोड़कर हर स्तर पर एक जैसा"
     },
     {
       "text": "A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application · a non-refundable $300 application fee through May 31, 2027 ($550 from June 1, 2027), not applied toward tuition · testing set up only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and depends on space in the grade · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission",

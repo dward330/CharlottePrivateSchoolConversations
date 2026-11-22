@@ -1208,3 +1208,24 @@ https://www.charlottelatin.org/academics/college-counseling. Each address is pub
 | Lucy Smith | lucy.smith@charlottelatin.org |
 | Haley Cripps | haley.cripps@charlottelatin.org |
 | Alex Segura | alex.segura@charlottelatin.org |
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.charlottelatin.org/leading-programs/student-support-and-wellness (fetched 2026-11-22,
+  HTTP 200) still shows a "Learning Resources" tile, which opens in a pop-up. The page HTML and the
+  tile's post URL returned no program text to curl, so the founding year, the Upper School model and
+  the per-session billing could not be re-read.
+- https://www.charlottelatin.org/academics/learning-resources (fetched 2026-11-22): HTTP 404.
+- https://www.charlottelatin.org/academics/college-counseling/acceptances (fetched 2026-11-22,
+  HTTP 200): "Acceptances by the Classes of 2023-25".
+
+### Re-verification 2026-11-22 (plan consistency5, planning)
+
+https://www.charlottelatin.org/fs/elements/38616?is_popup=true&post_id=4916&show_post=true (the
+Learning Resources pop-up on /leading-programs/student-support-and-wellness). Its whole text: "The
+Learning Resources program's goal is to remediate academic deficits and teach compensatory
+strategies that help enable students with diagnosed learning disabilities and/or attention issues
+to reach their potential. Independence, self-awareness, and self-advocacy are important objectives
+as students gain self-confidence through academic success." It names no charge and no billing.

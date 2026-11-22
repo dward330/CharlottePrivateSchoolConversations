@@ -53,3 +53,27 @@ This file is not ingested. A data refresh of the Latin admissions card should go
 - So the school now publishes when aid awards are released relative to the admission decision:
   the same day. The Financial Aid report (figures as of 24 Jul 2026) still lists that timing as
   "Not published"; it predates this block.
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+Fetched 2026-11-22, each HTTP 200.
+
+- https://www.charlottelatin.org/admissions/application-process: "Applicants take the WPPSi. Please
+  refer to the CAIS brochure for all details." Its dates block reads "January 15: Grades 1-11
+  applications due". Its calendar lists "Jan 15 2027 Grades 1-11 Admissions Applications Due" and
+  "Jan 20 2027 Coffee & Panel for Parents of TK/KG Applicants 9:30 AM - 11:00 AM".
+- https://www.charlottelatin.org/admissions: the calendar lists "Grades 1-11 Admissions Applications
+  Due", and the page says "we welcome and encourage applications for all grade levels".
+- The "CAIS brochure" link on the Application Process page,
+  https://www.charlottelatin.org/fs/resource-manager/view/b7d9c0ac-a112-48e1-a634-98bf792f9cad,
+  redirects to
+  https://resources.finalsite.net/images/v1786969110/charlottelatin/zqmzmbmo4bnhaqcddhl6/CAIS2027-2028Upload.pdf.
+  It is the 2027-2028 edition and lists Charlotte Latin School as a member. Verbatim:
+  - "TK/JK/K CAIS Testing Complete by February 1, 2027"
+  - "Grades 1-4 CAIS Testing Completed by February 26, 2027"
+  - "TK/JK/K for all CAIS schools: Notification date is Friday, February 26, 2027. Contracts must be
+    returned by Friday, March 5, 2027."
+  - "Grades 1-4 for all CAIS schools: Notification date is Thursday, April 9, 2027. Contracts must be
+    returned by Thursday, April 16, 2027." (Both dates fall on a Friday in 2027.)
+  - "Testing Fees: $300 for WPPSI-IV $300 for WISC-V"
+  - "In addition to the assessment, CAIS schools require an interview with each child."

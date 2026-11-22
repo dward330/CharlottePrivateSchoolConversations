@@ -15,6 +15,15 @@
 - Supersedes the corresponding facts in `… - Admissions - Live-Site Refresh 2026-10-04.md`
   where they disagree. That file stays the record of the October state.
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+https://hgchristian.org/international-student-enrollment-pr (curl):
+
+- Step 2, "If accepted", lists the email notice, the I-20, the embassy interview and homestay.
+  It then says "Full payment must be received by August 1st before the student can be enrolled."
+- The page names no enrollment or acceptance deposit. Its only $500 is the "Early Withdrawal fee
+  of $500.00 and 50% of the International Tuition".
+
 ## Source URLs (live 2026-11-04)
 
 | Page | URL | Replaces |

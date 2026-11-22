@@ -134,32 +134,32 @@ lessons K–8. Registration via Veracross; fees due at registration; cancellatio
 week 1 only. Cancelled classes are refunded in full, and each session has a make-up week
 at the end.
 
-Session 3, 2025-26 — March 9 – May 22, 2026 (the most recent published):
+Session 3, 2025-26 — March 9 – May 22, 2026 (superseded for the app 2026-11-22 by Session 2, 2026-27, under Method):
 
 | Class | Grades | Day | Time | Cost | Provider |
 | --- | --- | --- | --- | --- | --- |
-| 3 v. 3 Basketball | 2-6 | Mon | 3:00-4:00 | $22/class; $176 | Kelli Waller |
-| Jr. Cannon Cheer | JrK-2 | Mon | 3:00-4:00 | $25/class; $200 | Nash & Colacion |
-| Engineering Design | K-2 | Mon | 3:00-4:00 | $25/class; $200 | BrickEd |
-| Kaleidoscope of Crafts | 2-4 | Mon | 3:00-4:00 | $25/class; $200 | McKinsey & Raphael |
-| LEGO Robotics Team | 3-5 | Mon | 3:00-4:00 | $23/class; $184 | Lisa Nussbaumer |
-| Puppet Playhouse | JrK-2 | Mon | 3:00-4:00 | $20/class; $160 | Rhiannon Bresalier |
-| Baking with Chef Craig | 1-3 | Tue | 3:00-4:00 | $25/class; $250 | Craig Rosekrans |
+| 3 v. 3 Basketball | 2-6 | Mon | 3:00-4:00 | $22/class; $176 | [name withheld] |
+| Jr. Cannon Cheer | JrK-2 | Mon | 3:00-4:00 | $25/class; $200 | [name withheld] |
+| Engineering Design | K-2 | Mon | 3:00-4:00 | $25/class; $200 | [name withheld] |
+| Kaleidoscope of Crafts | 2-4 | Mon | 3:00-4:00 | $25/class; $200 | [name withheld] |
+| LEGO Robotics Team | 3-5 | Mon | 3:00-4:00 | $23/class; $184 | [name withheld] |
+| Puppet Playhouse | JrK-2 | Mon | 3:00-4:00 | $20/class; $160 | [name withheld] |
+| Baking with Chef Craig | 1-3 | Tue | 3:00-4:00 | $25/class; $250 | [name withheld] |
 | Art on The Go | 3-8 | Tue | 3:00-4:30 | $25/class; $250 | AR Workshop Concord |
 | Motion Makers (dance) | K-2 | Tue | 3:00-4:00 | $20/class; $200 | Art in Motion Dance |
-| Nature Games | JrK-4 | Tue | 3:00-4:00 | $22/class; $220 | Kelli Waller |
+| Nature Games | JrK-4 | Tue | 3:00-4:00 | $22/class; $220 | [name withheld] |
 | CSF Soccer Academy | K-6 | Tue | 3:00-4:00 | $25/class; $250 | Carolina Soccer Factory |
-| Wonder Lab: Art & Science | JrK-1 | Tue | 3:00-4:00 | $25/class; $250 | Mayo & Cavicchi |
+| Wonder Lab: Art & Science | JrK-1 | Tue | 3:00-4:00 | $25/class; $250 | [name withheld] |
 | Ballet Class | JrK-2 | Wed | 3:00-4:00 | $30/class; $300 | Le Petit Ballet Co. |
-| Beginner String Orchestra | 1-8 | Wed | 3:00-4:00 | $30/class; $300 | Anne Marie Samuel |
+| Beginner String Orchestra | 1-8 | Wed | 3:00-4:00 | $30/class; $300 | [name withheld] |
 | Golf Academy | K-5 | Wed | 3:00-4:00 | $25/class; $250 | Better Golf for Kids |
-| Junior Sculptors | JrK-2 | Wed | 3:00-4:00 | $20/class; $200 | Alex Bresalier |
-| Let's Get Organized | 5-8 | Wed | 3:00-4:00 | $25/class; $250 | Sherrill & O'Brien |
-| Young Athlete Performance (YAPP) | 2-4 | Wed | 3:00-4:00 | $18/class; $180 | Donnie Hayes |
-| Hands On History | 4-8 | Thu | 3:00-4:00 | $20/class; $200 | Stephanie Lee |
-| Introduction to Photography | 3-6 | Thu | 3:00-4:00 | $20/class; $200 | Danielle Sandlof |
-| Make It Melt! Perler Beads | K-4 | Thu | 3:00-4:00 | $25/class; $250 | Dobbins & Fox |
-| Masterpiece Makers | K-3 | Thu | 3:00-4:00 | $25/class; $250 | Danielle Lucas |
+| Junior Sculptors | JrK-2 | Wed | 3:00-4:00 | $20/class; $200 | [name withheld] |
+| Let's Get Organized | 5-8 | Wed | 3:00-4:00 | $25/class; $250 | [name withheld] |
+| Young Athlete Performance (YAPP) | 2-4 | Wed | 3:00-4:00 | $18/class; $180 | [name withheld] |
+| Hands On History | 4-8 | Thu | 3:00-4:00 | $20/class; $200 | [name withheld] |
+| Introduction to Photography | 3-6 | Thu | 3:00-4:00 | $20/class; $200 | [name withheld] |
+| Make It Melt! Perler Beads | K-4 | Thu | 3:00-4:00 | $25/class; $250 | [name withheld] |
+| Masterpiece Makers | K-3 | Thu | 3:00-4:00 | $25/class; $250 | [name withheld] |
 
 Session 1, 2025-26 — Sept 2 – Nov 7, 2025: LEGO Playtime Engineers (JrK-2, Mon,
 $25/$200) · Yoga Strong (3-7, Mon, $22/$176) · Science Sleuths (3-5, Mon, $22/$176) ·
@@ -174,10 +174,10 @@ Sports (1-4, Fri, $20/$160) · F.A.S.S.T. (7-8, Tue & Thu 6:30-7:30 pm, $25/$425
 FUNdamental Athletic Development (5-6, Tue & Thu 6:30-7:30 pm, $25/$425).
 
 Private music lessons: Cello $25/class (Mon/Wed) · Guitar $25/class (Wed/Fri) · Voice
-$30/class (Tue/Thu, Kevin Beyer) · Piano $30/class (Mon/Tue/Thu, Daniel Poissant) ·
-Violin/Viola $30/class (Tue/Thu, Anne Marie Samuel).
+$30/class (Tue/Thu, [name withheld]) · Piano $30/class (Mon/Tue/Thu, [name withheld]) ·
+Violin/Viola $30/class (Tue/Thu, [name withheld]).
 
-No 2026-27 BTB catalog is published yet — Session 3 (February 2026) is the newest of 14
+As of the first research pass no 2026-27 BTB catalog was published (one now is: see Method) — Session 3 (February 2026) is the newest of 14
 archived on Issuu.
 
 ## Card — Verdict & Visit Checklist
@@ -255,3 +255,65 @@ Cannon's full Issuu publication archive: https://issuu.com/cannonschool
 ### Re-verification 2026-11-22 (plan consistency4, self-scan)
 
 - https://www.cannonschool.org/cannon-life/beyond-the-bell-enrichment-program (HTTP 200): now embeds "Beyond the Bell Enrichment Offerings - Session 2 Brochure" and says "Registration for Session 1 opens Registration for BTB will open Aug 16 th and the first day of classes will be Aug 31 st". https://issuu.com/cannonschool/docs/beyond_the_bell_-_session_2 refused the fetch (HTTP 403), so the brochure's year and classes were not read.
+
+### Re-verification 2026-11-22 (plan consistency5, read in Chrome at the user's request)
+
+https://issuu.com/cannonschool/docs/beyond_the_bell_-_session_2 : "Beyond the Bell, 2026-2027
+Session 2", published on Issuu November 6, 2026, 20 pages, every page read on screen in the user's
+Chrome at the user's request. Nothing was downloaded. Individual instructors are left out, and the
+brochure names two students (music lessons) who are never to be recorded: role only.
+
+- Session: November 30 - February 5. Registration: 6:00 p.m. Wednesday, November 11 to 11:59 p.m. Friday, November 27.
+- JrK through Grade 8, plus private music lessons K through 12. Payment at registration, by card online.
+- A family may cancel within the first week and is billed only for the one class attended. After the
+  second class, full payment is required. A canceled class is made up "during the designated make-up
+  week" where possible (February 8-11). **The brochure promises no refund for a canceled class.**
+- All classes are 3:00-4:00 p.m., except Let's Get Organized, 7:30-8:00 a.m. before school.
+- No classes December 11, December 18, December 21 to January 1, or January 18. No Chess January 8. No String Skills January 11.
+- 31 distinct classes. The grid has 32 weekly slots, because Let's Get Organized meets Monday and Wednesday.
+- $15-$30 a class and $125-$240 a session, 5 to 15 meetings.
+
+| class | grades | day | meetings | per class | total | organization or role |
+|---|---|---|---|---|---|---|
+| Happy Feet - Tap/Jazz Combo Dance | JrK-1st | Mon | 7 | $25/class | $175 | Art in Motion Dance Performing Co. |
+| Introduction to Photography | 3rd-6th | Mon | 7 | $20/class | $140 | individual instructor |
+| Let's Get Organized | 5th-8th | Mon/Wed | 15 | $15/class | $225 | individual instructor |
+| Little Makers Craft Club | JrK-2nd | Mon | 7 | $25/class | $175 | individual instructor |
+| Lower School Tennis - Racquets & Jackets | K-4th | Mon | 7 | $25/class | $175 | Cannon varsity tennis coaching staff |
+| Pokémon Trainers Academy | 2nd-6th | Mon | 7 | $20/class | $140 | individual instructor |
+| String Skills Academy | 3rd-8th | Mon | 6 | $30/class | $180 | individual instructor |
+| Baking with Chef Craig | K-1st | Tue | 8 | $30/class | $240 | individual instructor |
+| Classic Maker Space Fun | 1st-3rd | Tue | 8 | $25/class | $200 | individual instructor |
+| CSF Soccer | JrK-4th | Tue | 8 | $25/class | $200 | Carolina Soccer Factory |
+| Diamond Art - Create, Make & Take | 2nd-6th | Tue | 8 | $25/class | $200 | individual instructor |
+| Middle School Tennis - Racquets & Jackets | 5th-8th | Tue | 8 | $25/class | $200 | Cannon varsity tennis coaching staff |
+| Wander & Wonder | JrK-4th | Tue | 8 | $25/class | $200 | individual instructor |
+| Ballet Class | JrK-2nd | Wed | 8 | $30/class | $240 | Le Petit Ballet Co. |
+| Beginners Pottery Wheel | 2nd-6th | Wed | 8 | $25/class | $200 | individual instructor |
+| Beginner String Orchestra | 1st-8th | Wed | 8 | $30/class | $240 | Cannon's String Orchestra Director |
+| Lacrosse Skills | K-4th | Wed | 8 | $25/class | $200 | Cannon School lacrosse coaches |
+| Robocoding | JrK-1st | Wed | 8 | $30/class | $240 | Nexplore |
+| Young Athlete Performance Program (YAPP) | 2nd-5th | Wed | 8 | $20/class | $160 | individual instructor |
+| Better Golf for Kids Academy | 1st-6th | Thu | 8 | $25/class | $200 | Better Golf for Kids Academy |
+| Ceramics | 2nd-6th | Thu | 8 | $25/class | $200 | individual instructor |
+| Couch to 3K | JrK-4th | Thu | 8 | $20/class | $160 | individual instructor |
+| Creative Kids Art Academy | JrK-2nd | Thu | 8 | $20/class | $160 | AR Workshop |
+| SportsPlay | JrK-2nd | Thu | 8 | $25/class | $200 | Kidokinetics of North Charlotte |
+| TaeKwonDo | 1st-5th | Thu | 8 | $20/class | $160 | Concord TaeKwonDo Inc. |
+| Cheer-It with Spirit! | JrK-4th | Fri | 6 | $25/class | $150 | Overtime Athletics |
+| Chess | K-8th | Fri | 5 | $25/class | $125 | Charlotte Chess Center head coach |
+| Classic Magic | 2nd-5th | Fri | 6 | $30/class | $180 | Nexplore |
+| Cooking with Chef Craig | 5th-7th | Fri | 6 | $30/class | $180 | individual instructor |
+| Creative Sparks | K-6th | Fri | 6 | $25/class | $150 | individual instructor |
+| LEGO Lab | JrK-4th | Fri | 6 | $25/class | $150 | individual instructor |
+
+Private music lessons (K-12th): piano $30/class (Mon./Tues.; a second teacher Wed./Thurs./Fri.);
+violin/viola $30 (Tues./Thurs.); voice $30, grades 2-12 (Tues./Thurs./Fri.); cello $25 (Mon. to Thurs.)
+and guitar $25 (Tues./Wed./Thurs.), both taught by Upper School student teachers.
+The program contact is the Director of Enrichment Programs (jlauher@cannonschool.org).
+
+### Names withheld 2026-11-23 (plan consistency5, the user's call)
+
+The Provider column of the Session 3, 2025-26 table no longer names individual instructors. The
+record gives no age or adult role for them, so the Student-name standard takes the names out.
+Entries that are clearly companies stay.

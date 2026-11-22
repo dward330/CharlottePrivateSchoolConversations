@@ -228,3 +228,14 @@ never rolled forward. See the Financial Support file.
 | **Enrollment-contract deadline** | **Not published by Trinity.** It is reachable only via the CAIS brochure, and there it is a **CAIS-wide rule**, not a Trinity date. State it as a CAIS rule. |
 
 *Superseded 2026-11-14 — see Live-site recheck* — the application fee row: the fee is now published as $100.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+https://www.tescharlotte.org/admissions/applying-to-trinity (curl):
+
+- "These materials, and the testing results, are due by February 1, 2027 for Kindergarten
+  applicants, and February 26, 2027 for Grades 1-8."
+- "Kindergarten decisions are emailed to parents on February 26, 2027."
+- "Decisions for Grades 1-8 are emailed to parents on April 9, 2027."

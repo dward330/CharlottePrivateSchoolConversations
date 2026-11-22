@@ -316,7 +316,7 @@ export const charlotteChristian: CollegeSupportProgram = {
     stats: [
       { value: '697', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '54.8%', label: 'pooled admit rate — 382 of 697 across those five classes' },
-      { value: '26.3%', label: 'at UNC-Chapel Hill — 10 of 38, the toughest of the six for this school' },
+      { value: '26.3%', label: 'at UNC-Chapel Hill — 10 of 38 in Fall 2025, the lowest of the six that year' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (38)' },
     ],
     latestTerm: '2025',

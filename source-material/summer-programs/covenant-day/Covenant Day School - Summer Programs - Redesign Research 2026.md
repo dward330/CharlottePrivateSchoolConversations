@@ -44,7 +44,7 @@ per-week variants and portal-only camps likely account for the difference.
 ### Grades and care
 
 Grades **JK/TK–12** across the slate (Little Lion/Cub Camp at the bottom, College
-Admissions and Strength & Conditioning for HS at the top). Wrap-around care:
+Admissions for HS at the top; corrected 2026-11-22, Strength & Conditioning is not a camp). Wrap-around care:
 
 - **Before Care $50/week, 7:30–8:45 a.m.** (TK-8)
 - **After Care $50/week, 4:00–5:30 p.m.** (TK-8)
@@ -90,3 +90,7 @@ Fullwood Lane, Matthews NC 28105. Camps office: camps@covenantday.org,
   end (HTTP 200). The "2026 Summer Camps" board shows 19 camps, with no "load more" or second page.
   Strength and Conditioning appears only as an Athletics menu link.
 - The app moves from 20 to 19 and drops that row. The earlier slate listed it as the 20th camp.
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.covenantday.org/campus-life/summercamps (fetched with curl): "Strength & Conditioning" appears only in the Athletics menu. It is not a camp on the page.

@@ -246,7 +246,7 @@ export const charlotteCountryDay: AfterSchoolProgram = {
       },
       {
         kind: 'gap',
-        text: 'No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 20% of students receive tuition aid. The tuition page says $9.4M to 341 students, and Fast Facts says $10.1M to 347. Summer programs, by contrast, do have their own aid application.',
+        text: 'No Extended Day sibling discount is published, and no financial-aid policy for Extended Day is published. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 20% of students receive tuition aid. The tuition page says $9.4M to 341 students, and Fast Facts says $10.1M to 347. Summer programs, by contrast, do have their own aid application.',
       },
       {
         kind: 'verify',

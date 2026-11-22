@@ -177,7 +177,7 @@ export const cannon: SportsProgram = {
       },
     ],
     didNotWin:
-      'football, girls soccer, girls lacrosse and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · softball, in the D1 series (Covenant Day) · baseball (Charlotte Christian) · volleyball (North Raleigh Christian) · both golf titles and wrestling (Charlotte Latin) · girls tennis and field hockey (Charlotte Country Day) · boys soccer, boys XC and boys track (Christ School) · boys lacrosse, boys tennis, girls XC and girls track (Durham Academy).',
+      'In 2025–26: football, girls soccer, girls lacrosse and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · softball, in the D1 series (Covenant Day) · baseball (Charlotte Christian) · volleyball (North Raleigh Christian) · both golf titles and wrestling (Charlotte Latin) · girls tennis and field hockey (Charlotte Country Day) · boys soccer, boys XC and boys track (Christ School) · boys lacrosse, boys tennis, girls XC and girls track (Durham Academy).',
     bars: [
       { program: 'Volleyball', record: '23–2', pct: 0.92, tag: "'23–24" },
       { program: 'Boys Lacrosse', record: '19–3', pct: 0.864, tag: "'23–24" },
@@ -209,7 +209,7 @@ export const cannon: SportsProgram = {
         url: 'https://www.highschoolot.com/story/the-2023-24-ncisaa-team-state-champions-in-every-sport/21461689/',
       },
       {
-        label: '2024 volleyball title',
+        label: '2023 volleyball title',
         url: 'https://www.highschoolot.com/story/cannon-school-dethrones-north-raleigh-christian-in-ncisaa-4a-volleyball-title-ends-8-year-reign/21144814/',
       },
     ],

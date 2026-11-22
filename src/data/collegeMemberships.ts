@@ -172,6 +172,11 @@ export const HBCUS: readonly string[] = [
   // Added 2026-11-04 for Hickory Grove's 2026–27 profile list (plan hgprofile), the
   // first list to name it. On the DoE-designated roster cited in the source .md.
   'Tuskegee University',
+  // Added 2026-11-22 (plan consistency5, PD-U1): both are on the federal list (34 CFR 608.2)
+  // and on the full 107-school roster now saved in the source .md, which check:memberships
+  // reads so that the next omission of this kind fails the build.
+  'University of the District of Columbia', // Providence Day's list drops the "the"
+  'University of Maryland Eastern Shore',
 ]
 
 /**

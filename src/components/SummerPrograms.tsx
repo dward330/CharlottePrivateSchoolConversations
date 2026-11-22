@@ -274,7 +274,7 @@ export function CampCatalogBody({ data }: { data: CampCatalog }) {
 
       {data.gradeFilters.length > 0 && (
         <div className="as-filters">
-          <span className="as-filters-label text-muted">{t('tables.grade')}</span>
+          <span className="as-filters-label text-muted">{t(data.agesNotGrades ? 'tables.age' : 'tables.grade')}</span>
           {data.gradeFilters.map((g) => (
             <button
               key={g.token}
@@ -325,7 +325,7 @@ export function CampCatalogBody({ data }: { data: CampCatalog }) {
             <tr>
               <th scope="col" className="as-th">{t('summerPrograms.colCamp')}</th>
               <th scope="col" className="as-th">{t('summerPrograms.colWhen')}</th>
-              <th scope="col" className="as-th">{t('tables.grades')}</th>
+              <th scope="col" className="as-th">{t(data.agesNotGrades ? 'tables.ages' : 'tables.grades')}</th>
               <th scope="col" className="as-th as-th-fee">{t('summerPrograms.colPrice')}</th>
             </tr>
           </thead>

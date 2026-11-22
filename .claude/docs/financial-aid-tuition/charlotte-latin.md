@@ -659,6 +659,18 @@ the Policies page and all three documents. Every value in the self-scan note abo
 - Both mailto links and the one printed address on the tuition page are
  "financialaid@charlottelatin.org".
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+Fetched 2026-11-22, each HTTP 200.
+
+- https://www.charlottelatin.org/admissions/tuition-financial-assistance: "A non-refundable deposit
+ of $2,500 is required at the time of initial enrollment or reenrollment. This amount will be
+ deducted from the second tuition payment." Also "the balance, less the $2,500 deposit, due by
+ November 30."
+- https://www.charlottelatin.org/after-school/hawks-club: "the per-semester rates for the 2026–27
+ school year". The TK/K 1:30–4:30 p.m. row reads $635 (1-day), $1,270, $1,905, $2300, $2,540 (5-day).
+ The 1st-5th 2:55–4:30 p.m. row reads $295, $590, $885, $1,880, $1,475.
+
 
 ---
 
@@ -672,5 +684,6 @@ the Policies page and all three documents. Every value in the self-scan note abo
 - https://www.charlottelatin.org/admissions/transportation
 - https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents
 - https://www.charlottelatin.org/admissions/tuition-financial-assistance:
+- https://www.charlottelatin.org/after-school/hawks-club:
 - https://www.charlottelatin.org/student-life/transportation
 - https://www.charlottelatin.org/support/alumni/alumni-giving

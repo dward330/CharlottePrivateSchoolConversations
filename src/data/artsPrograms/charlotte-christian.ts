@@ -108,7 +108,7 @@ export const charlotteChristian: ArtsProgram = {
       },
       {
         label: 'Box office & season',
-        text: 'A dedicated Fine Arts Box Office sells tickets online, with PDF delivery and a HomeTown Fan app. The 2025-26 season is themed "Pure Imagination," with sales opening September 2025. But individual production titles were not published at time of research.',
+        text: 'A dedicated Fine Arts Box Office sells tickets online, with PDF delivery and a HomeTown Fan app. The 2026-27 season is themed "Called to Courage!" Its musicals are Matilda Jr. (October 22–24), The Little Mermaid (February 25–27) and Frozen KIDS (April 8–10).',
       },
       {
         label: 'Apple Distinguished School',
@@ -133,16 +133,16 @@ export const charlotteChristian: ArtsProgram = {
     seasonTitle: 'The season rhythm — three mainstage musicals, grades 4–12',
     season: [
       {
-        season: '2025-26',
-        kind: 'Season: "Pure Imagination"',
+        season: '2026-27',
+        kind: 'Season: "Called to Courage!"',
         detail:
-          'The season carries a theme — "familiar fictional worlds brimming with humor, joy, love, fantasy, and imagination" — but individual production titles were not published at time of research.',
+          'Matilda Jr. (October 22–24) · The Little Mermaid (February 25–27) · Frozen KIDS (April 8–10). The 2025-26 season was "Pure Imagination"; the Blumey lists name Cinderella as that year’s musical.',
       },
       {
         season: 'Recent',
         kind: 'Mainstage musicals',
         detail:
-          'Published as an unordered set, without years: High School Musical, Shrek, Footloose, Beauty and the Beast, Joseph and the Amazing Technicolor Dreamcoat, Into the Woods, Tarzan, Freaky Friday.',
+          'Past shows, which the school lists without years: High School Musical, Shrek, Footloose, Beauty and the Beast, Joseph and the Amazing Technicolor Dreamcoat, Into the Woods, Tarzan, Freaky Friday.',
       },
     ],
     whoRunsIt:
@@ -162,6 +162,12 @@ export const charlotteChristian: ArtsProgram = {
         show: 'Tarzan (Blumey)',
         result:
           'FINALIST — not nominee — in all five performance categories: Best Actor (as Tarzan) · Best Actress (as Jane) · Best Supporting Actor (as Kerchak) · Best Supporting Actress (as Terk) · Best Featured Performer (as Jaquar). The school did not reach the top-6 nominee cut in any category. Field: 50 schools.',
+      },
+      {
+        year: '2023',
+        show: 'Into the Woods (Blumey)',
+        result:
+          'Five finalists: Best Actor (as Baker) · Best Actress (as Witch) · Best Supporting Actor (as Cinderella’s Prince) · Best Supporting Actress (as Little Red Riding Hood) · Best Featured Performer (as Ensemble/Wolf).',
       },
       {
         year: '2016',
@@ -185,14 +191,15 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'The 2013 Best Musical win is the program’s top arts achievement, and it is confirmed directly by Blumenthal Arts. The school later reported three nominations, for Shrek the Musical in 2015. The 2024 Tarzan finalist places sit one tier below nomination, in a field that had grown from 17 schools to 50. In 2026 Cinderella had five finalists, and one was a top-six nominee. The CITA record is the school’s most distinctive credential, because the circuit fits the school’s identity. But it rests on a single published year: 2016. The school describes CITA honors as earned "each year," and that wording has one data point behind it. Separately, no specific NCTC award could be found for any year.',
+      'The 2013 Best Musical win is the program’s top arts achievement, and it is confirmed directly by Blumenthal Arts. The school later reported three nominations, for Shrek the Musical in 2015. Into the Woods had five finalists in 2023. The 2024 Tarzan finalist places sit one tier below nomination, in a field that had grown from 17 schools to 50. In 2026 Cinderella had five finalists, and one was a top-six nominee. The CITA record is the school’s most distinctive credential, because the circuit fits the school’s identity. But it rests on a single published year: 2016. The school describes CITA honors as earned "each year," and that wording has one data point behind it. Separately, no specific NCTC award could be found for any year.',
     sources: [
       { label: 'charlottechristian.com — Theatre', url: CC_THEATRE },
-      { label: 'Box Office (2025-26 season)', url: CC_BOX },
+      { label: 'Box Office (2026-27 season)', url: CC_BOX },
       {
         label: 'Blumenthal Arts — 2013 Blumey winners',
         url: 'https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners',
       },
+      { label: 'Blumenthal Arts — 2023 nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf' },
       {
         label: 'Blumenthal Arts — 2024 all nominees & finalists (PDF)',
         url: 'https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf',
@@ -323,16 +330,17 @@ export const charlotteChristian: ArtsProgram = {
       {
         when: 'National',
         name: 'Scholastic Art & Writing',
-        detail: 'participation cited on both the Visual Art and Digital Arts pages',
+        detail: '54 awards over the last five years, per the 2026–27 profile (art and writing together; not broken out)',
       },
     ],
     footnote:
-      'No visual art or digital arts faculty are named on either branch page. A dedicated Digital Media Studio is named but not described: no size, equipment or station count. And no separate broadcast studio, green screen or recording booth is documented, despite a Broadcasting course. The school calls the program "award-winning" and confirms it takes part in Scholastic Art & Writing, Festival in the Park and the Patriotic Art Competition. But not one individual visual-art award with a student name and year could be found, so no award counts appear here. The page speaks in general terms of "a variety of media," and the curriculum guide names them by course. Studio facilities such as a kiln, wheel or darkroom are not published.',
+      'No visual art or digital arts faculty are named on either branch page. A dedicated Digital Media Studio is named but not described: no size, equipment or station count. And no separate broadcast studio, green screen or recording booth is documented, despite a Broadcasting course. The school calls the program "award-winning" and confirms it takes part in Scholastic Art & Writing, Festival in the Park and the Patriotic Art Competition. The 2026–27 profile counts 54 Scholastic Art and Writing awards over the last five years. It does not break out visual art or list awards by year. The page speaks in general terms of "a variety of media," and the curriculum guide names them by course. Studio facilities such as a kiln, wheel or darkroom are not published.',
     sources: [
       { label: 'charlottechristian.com — Visual Art', url: CC_VISUAL },
       { label: 'Digital Arts', url: CC_DIGITAL },
       { label: 'Fine Arts', url: CC_ARTS },
       { label: 'Upper School Curriculum Guide 2026–27 (studio media, PDF)', url: CC_GUIDE },
+      { label: '2026–27 Upper School Profile (Scholastic awards, PDF)', url: 'https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf' },
     ],
   },
 
@@ -344,7 +352,7 @@ export const charlotteChristian: ArtsProgram = {
     holdsUp: [
       {
         label: 'A top-prize win, plus recent finalists',
-        text: 'the 2013 Oklahoma! Best Musical win came as a four-award sweep including Best Lighting Execution, from a 17-school field. In 2024, Tarzan earned finalist slots in all five acting categories, in a field grown to 50. In 2026, Cinderella had five finalists and one top-six nominee.',
+        text: 'the 2013 Oklahoma! Best Musical win came as a four-award sweep including Best Lighting Execution, from a 17-school field. In 2023, Into the Woods had five finalists. In 2024, Tarzan earned finalist slots in all five acting categories, in a field grown to 50. In 2026, Cinderella had five finalists and one top-six nominee.',
       },
       {
         label: 'Two performance spaces and a scene shop',
@@ -369,12 +377,12 @@ export const charlotteChristian: ArtsProgram = {
     ],
     ask: [
       'Who directs theatre and who is your technical director, and how long have they been here? No faculty are named for any of the four branches, and the only names findable date to 2016 — ask this first.',
-      'Tarzan had five finalists and no top-6 nominee in 2024, and Cinderella had five and one in 2026. What is the gap you are working on before another win?',
+      'Tarzan had five finalists and no top-six nominee in 2024. Cinderella had five finalists and one top-six nominee in 2026. What is the gap you are working on before another win?',
       'Can you show me CITA results for the last three years, by category? The 2016 ledger is strong; nothing after it is public.',
       'Show me the black box and the scene shop. How often is the black box used, and who builds the sets — students or contractors?',
       'The main auditorium is chapel, assembly and theatre. Walk me through a production week: how much stage time does the cast get, and where do they rehearse when chapel owns the room?',
       'Digital Arts has nine electives and professional software but no AP. If my child wants a film or design portfolio, does the path have to route through AP Studio Art in Visual Art?',
-      'Which students earned Scholastic Art & Writing Gold or Silver Keys in the last two years, and in what categories?',
+      'How many of the 54 Scholastic Art & Writing awards were Gold or Silver Keys in visual art?',
       'Of the 40-plus electives, how many can one Upper School student realistically take across four years alongside AP academics? The figure is a JK–12 count that includes Grade 5 brass and Grade 6 choir.',
       'AP Music Theory is on the curriculum guide’s AP roster, but the guide gives no course description. Does it actually run, and is there any other music theory course?',
     ],

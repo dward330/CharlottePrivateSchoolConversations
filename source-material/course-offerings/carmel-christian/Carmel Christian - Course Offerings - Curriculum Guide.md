@@ -158,14 +158,50 @@ not collapse. The level tag is the differentiator.
 
 ## Dual enrollment
 
-"Dual-enrollment elective offerings across various content areas." The **partner college
-is NOT PUBLISHED** as a named institution (do not cite CPCC — it appears only as a faculty
-credential; TO VERIFY).
+"Dual-enrollment elective offerings across various content areas." The 2026-27 guide names two
+partners for juniors and seniors: **Grand Canyon University and Liberty University** (do not cite
+CPCC — it appears only as a faculty credential).
 
 ## Flags
 
-- **NOT PUBLISHED:** dual-enrollment partner college; LS/MS named course lists.
-- **NOT EXTRACTABLE:** the Calaméo guide's full course *descriptions* (JS/token-gated);
-  catalog titles recovered from S2/S3/S4 instead.
-- **TO VERIFY:** AP count 15 vs 16; Bible course titles (S2 vs S3 disagree); whether AP US
-  Government & Politics is currently offered.
+- **NOT PUBLISHED:** LS/MS named course lists.
+- **RESOLVED 2026-11-22:** the Calaméo guide was read on screen. Its list is under Method and
+  supersedes the high school titles recovered from S2/S3/S4. It settles the Bible titles, prints
+  16 AP courses, and lists AP US Government & Politics.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, read in Chrome at the user's request)
+
+https://www.calameo.com/read/003203619b939a7cb178b : "2026-2027 High School Course Description
+Guide", 24 pages, every page read on screen in the user's Chrome at the user's request (the user
+identified it as the latest). Nothing was downloaded. This supersedes the NOT EXTRACTABLE flag and
+the Bible-title TO VERIFY above.
+
+- The guide prints **one** "Honors Biology" and **one** "Honors Chemistry" (CAR-T8: we list each twice).
+- Counted one entry per level: **92 entries, 69 distinct titles, 16 AP courses, 9 departments.** A grid name
+  with level bullets counts as Standard plus those levels, as the headings show for Math 2, Algebra II,
+  Biology and the other paired courses. Geometry is in the grid only, with an Honors bullet. Math 1 and
+  Math 4 each carry a Pathways bullet. Those three are the only judgment in the count.
+- Personal Finance is printed under both Social Studies and Business, and is counted once.
+- Dual enrollment, juniors and seniors: "an agreement with two Christian Universities, Grand Canyon
+  University and Liberty University" (the NOT PUBLISHED partner flag above is superseded).
+- AP courses are marked "Fee required." Every course but AP 2-D Art & Design was read for
+  the exam line: each says students are required to take the exam in May.
+  AP 2-D Art & Design requires a portfolio instead.
+- Not in this guide, though in our list: Old Testament, New Testament, Understanding the Faith & Culture,
+  Understanding the Times, Honors Precalculus, Psychology/Sociology, standard Spanish III, high school
+  Choir, Digital Photography II, Media & Journalism I and II, Finance and Business Ethics, Christian
+  Leadership Practicum, Science and Faith. Also absent: Creative Writing, Technical Theater.
+
+| department | entries | courses (P = Pathways, S = Standard, H = Honors) |
+|---|---|---|
+| Bible | 4 | Biblical Foundations · Apologetics · Introduction to Worldviews · Understanding the Culture |
+| English | 14 | Genres and Themes (P,S,H) · American Literature (P,S,H) · British Literature (P,S,H) · World Literature (P,S,H) · AP English Language & Composition · AP English Literature & Composition |
+| Mathematics | 17 | Math 1 (P,S) · Math 2 (P,S,H) · Geometry (S,H) · Algebra II (P,S,H) · Math 4 [Algebra III & Trigonometry] (P,S) · Probability & Statistics (S,H) · AP Precalculus · AP Calculus AB · AP Statistics |
+| Science | 13 | Biology (S,H) · Chemistry (S,H) · Forensics · Human Anatomy & Physiology (S,H) · Conceptual Physics · Honors Physics · Intro to Engineering & Robotics · Honors Engineering II · AP Biology · AP Environmental Science |
+| Social Studies | 13 | World History (S,H) · US Government & Economics (S,H) · US History (S,H) · AP World History: Modern · AP US Government & Politics · AP US History · Cultural Geography · AP Human Geography · AP Psychology · Personal Finance |
+| World Languages | 7 | Spanish I · Spanish II (S,H) · Honors Spanish III · Honors Spanish IV · AP Spanish · World Language (Online) |
+| Health & Fitness | 3 | Health and Physical Education · Team Sports and Weight Training (Men) · Team Sports and Athletic Conditioning (Women) |
+| Arts | 12 | Art I · Art II · Honors Art III · Honors Art IV · Wired for Wonder: A Creative Arts Journey · AP 2-D Art & Design · Symphonic Band · Ignite Praise Band · Theatrical Studies · Honors Acting Studio · Digital Photography I · Yearbook |
+| Electives | 9 | AP Seminar · AP Research · Entrepreneurship and Marketing · Business Capstone · Educational Internship · Public Speaking and Debate · Computer Science & AI · World Missions: History, Culture, and Future Impact · Honors Christian Thought |

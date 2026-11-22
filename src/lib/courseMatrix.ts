@@ -190,6 +190,7 @@ export const TITLE_ALIASES: Record<string, SubjectKey[]> = {
   'Media / Technology': ['computerScience'],
   'Tech Tank': ['computerScience'],
   'Computer Programming': ['computerScience'],
+  'Computer Science & AI': ['computerScience'],
   'AP Computer Science': ['computerScience'],
   'Advanced Placement Computer Science A': ['computerScience'],
   'Advanced Placement Computer Science Principles': ['computerScience'],
@@ -216,7 +217,6 @@ export const TITLE_ALIASES: Record<string, SubjectKey[]> = {
   'Yearbook I': ['journalismMedia'],
   'Broadcast Media': ['journalismMedia'],
   'Broadcasting Honors (Knights Knews)': ['journalismMedia'],
-  'Media & Journalism I': ['journalismMedia'],
   'Innovation Lab': ['innovationDesign'],
   // Covenant Day's own Lower School curriculum: "CREATE Junior integrates technology
   // and critical thinking skills … through science, technology, math, and

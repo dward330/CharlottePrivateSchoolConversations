@@ -18,8 +18,14 @@
 // presented as current.
 //
 // Cannon also has by far the richest published enrichment catalog of the six:
-// 22 Beyond the Bell classes in a single session, each with a real day, grade
-// band, provider and per-class fee.
+// 31 Beyond the Bell classes in Session 2, 2026-27, each with a real day, grade
+// band, provider or role, and per-class fee (plan consistency5, step 5a). The brochure
+// was read in the user's Chrome and saved in the research record: issuu refuses
+// automated fetches, so do not request it.
+//
+// ⛔ Descriptions name organizations and roles, never an individual instructor. Two of
+// the brochure's music teachers are students: never name them, and do not re-open the
+// brochure to check who they are.
 
 import type { AfterSchoolProgram } from '../afterSchool.ts'
 
@@ -77,7 +83,7 @@ export const cannon: AfterSchoolProgram = {
       },
       {
         label: 'Before school',
-        text: 'no paid program — free arrival from 7:30 a.m. only',
+        text: 'no paid care program — free arrival from 7:30 a.m. only',
       },
       {
         label: 'Dismissal changes',
@@ -194,7 +200,7 @@ export const cannon: AfterSchoolProgram = {
     headline:
       'The school describes homework help, sports, art, cooking, nature and a garden — but never says when any of it happens.',
     subhead:
-      'What Cannon does publish in real detail is Beyond the Bell: three 10-week enrichment sessions a year, with a genuine day, grade band, provider and fee for every class.',
+      'What Cannon does publish in real detail is Beyond the Bell, with three 10-week enrichment sessions a year. Every class has a day, a grade band, a provider or role, and a fee.',
     rhythm: [],
     wordsTitle: 'The program, in the school’s words',
     words: [
@@ -208,43 +214,48 @@ export const cannon: AfterSchoolProgram = {
     ],
     wordsText:
       '"Cannon School’s After School Program (ASP) provides students in grades JrK - 8 with a safe, nurturing environment. Students have the opportunity to receive assistance with their homework, play sports, participate in art activities, cook, discover and explore nature, and experience cultivating and observing our garden." The school adds that experiences "foster their individual, developmental, social, and emotional needs" so that "the students truly become adaptive experts". The Admission FAQs stress the flexibility: care "can be used on an as-needed, drop-in basis".',
-    catalogTitle: 'Beyond the Bell — Session 3, spring 2026',
+    catalogTitle: 'Beyond the Bell — Session 2, 2026–27',
     catalogIntro:
-      'Three 10-week sessions run each year for JrK–grade 8, plus private music lessons. The 22 classes below are the most recent published catalog, **9 March to 22 May 2026** — taken from the school’s own session brochure. Fees are shown per class and per session. Note that Beyond the Bell is a **separate purchase from ASP**: a 3:00–4:00 class does not cover you to 6:00.',
-    dayFilters: ['All', 'Mon', 'Tue', 'Wed', 'Thu'],
+      'Three 10-week sessions run each year for JrK–grade 8, plus private music lessons for K–12. The 31 classes below are the Session 2 catalog, **November 30 to February 5**. They come from the school’s own session brochure. Fees are shown per class and per session. Note that Beyond the Bell is a **separate purchase from ASP**: a 3:00–4:00 class does not cover you to 6:00.',
+    dayFilters: ['All', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
     gradeFilters: ['All', 'JrK', 'K', '1', '2', '3', '4', '5', '6', '7', '8'],
     classes: [
-      { name: '3 v. 3 Basketball', desc: 'Small-sided games with Kelli Waller', day: 'Mon', grades: ['2', '3', '4', '5', '6'], gradeLabel: '2–6', fee: '$22/class · $176' },
-      { name: 'Jr. Cannon Cheer', desc: 'Cheer fundamentals with Nash & Colacion', day: 'Mon', grades: ['JrK', 'K', '1', '2'], gradeLabel: 'JrK–2', fee: '$25/class · $200' },
-      { name: 'Engineering Design', desc: 'Build-and-test challenges run by BrickEd', day: 'Mon', grades: ['K', '1', '2'], gradeLabel: 'K–2', fee: '$25/class · $200' },
-      { name: 'Kaleidoscope of Crafts', desc: 'Mixed-media making with McKinsey & Raphael', day: 'Mon', grades: ['2', '3', '4'], gradeLabel: '2–4', fee: '$25/class · $200' },
-      { name: 'LEGO Robotics Team', desc: 'Team build-and-program with Lisa Nussbaumer', day: 'Mon', grades: ['3', '4', '5'], gradeLabel: '3–5', fee: '$23/class · $184' },
-      { name: 'Puppet Playhouse', desc: 'Puppet making and performance with Rhiannon Bresalier', day: 'Mon', grades: ['JrK', 'K', '1', '2'], gradeLabel: 'JrK–2', fee: '$20/class · $160' },
-      { name: 'Baking with Chef Craig', desc: 'Kitchen skills and recipes with Craig Rosekrans', day: 'Tue', grades: ['1', '2', '3'], gradeLabel: '1–3', fee: '$25/class · $250' },
-      { name: 'Art on The Go', desc: 'Run by AR Workshop Concord; 3:00–4:30', day: 'Tue', grades: ['3', '4', '5', '6', '7', '8'], gradeLabel: '3–8', fee: '$25/class · $250' },
-      { name: 'Motion Makers', desc: 'Dance with Art in Motion Dance', day: 'Tue', grades: ['K', '1', '2'], gradeLabel: 'K–2', fee: '$20/class · $200' },
-      { name: 'Nature Games', desc: 'Outdoor exploration and games with Kelli Waller', day: 'Tue', grades: ['JrK', 'K', '1', '2', '3', '4'], gradeLabel: 'JrK–4', fee: '$22/class · $220' },
-      { name: 'CSF Soccer Academy', desc: 'Coached by Carolina Soccer Factory', day: 'Tue', grades: ['K', '1', '2', '3', '4', '5', '6'], gradeLabel: 'K–6', fee: '$25/class · $250' },
-      { name: 'Wonder Lab: Art & Science', desc: 'Cross-disciplinary making with Mayo & Cavicchi', day: 'Tue', grades: ['JrK', 'K', '1'], gradeLabel: 'JrK–1', fee: '$25/class · $250' },
-      { name: 'Ballet Class', desc: 'Taught by Le Petit Ballet Co.', day: 'Wed', grades: ['JrK', 'K', '1', '2'], gradeLabel: 'JrK–2', fee: '$30/class · $300' },
-      { name: 'Beginner String Orchestra', desc: 'Ensemble strings with Anne Marie Samuel', day: 'Wed', grades: ['1', '2', '3', '4', '5', '6', '7', '8'], gradeLabel: '1–8', fee: '$30/class · $300' },
-      { name: 'Golf Academy', desc: 'Run by Better Golf for Kids', day: 'Wed', grades: ['K', '1', '2', '3', '4', '5'], gradeLabel: 'K–5', fee: '$25/class · $250' },
-      { name: 'Junior Sculptors', desc: 'Three-dimensional art with Alex Bresalier', day: 'Wed', grades: ['JrK', 'K', '1', '2'], gradeLabel: 'JrK–2', fee: '$20/class · $200' },
-      { name: "Let's Get Organized", desc: 'Executive-function skills for Middle School, with Sherrill & O’Brien', day: 'Wed', grades: ['5', '6', '7', '8'], gradeLabel: '5–8', fee: '$25/class · $250' },
-      { name: 'Young Athlete Performance (YAPP)', desc: 'Athletic development with Donnie Hayes', day: 'Wed', grades: ['2', '3', '4'], gradeLabel: '2–4', fee: '$18/class · $180' },
-      { name: 'Hands On History', desc: 'Object-based history with Stephanie Lee', day: 'Thu', grades: ['4', '5', '6', '7', '8'], gradeLabel: '4–8', fee: '$20/class · $200' },
-      { name: 'Introduction to Photography', desc: 'Camera basics and composition with Danielle Sandlof', day: 'Thu', grades: ['3', '4', '5', '6'], gradeLabel: '3–6', fee: '$20/class · $200' },
-      { name: 'Make It Melt! Perler Beads', desc: 'Bead art with Dobbins & Fox', day: 'Thu', grades: ['K', '1', '2', '3', '4'], gradeLabel: 'K–4', fee: '$25/class · $250' },
-      { name: 'Masterpiece Makers', desc: 'Painting and drawing with Danielle Lucas', day: 'Thu', grades: ['K', '1', '2', '3'], gradeLabel: 'K–3', fee: '$25/class · $250' },
+      { name: 'Happy Feet - Tap/Jazz Combo Dance', desc: 'Tap and jazz with Art in Motion Dance Performing Co.', day: 'Mon', grades: ['JrK', 'K', '1'], gradeLabel: 'JrK–1', fee: '$25/class · $175' },
+      { name: 'Introduction to Photography', desc: 'An introduction to photography. Individual instructor', day: 'Mon', grades: ['3', '4', '5', '6'], gradeLabel: '3–6', fee: '$20/class · $140' },
+      { name: "Let's Get Organized", desc: 'Organization skills for Middle School, 7:30–8:00 a.m., before school. Individual instructor', day: 'Mon/Wed', days: ['Mon', 'Wed'], grades: ['5', '6', '7', '8'], gradeLabel: '5–8', fee: '$15/class · $225' },
+      { name: 'Little Makers Craft Club', desc: 'A craft club. Individual instructor', day: 'Mon', grades: ['JrK', 'K', '1', '2'], gradeLabel: 'JrK–2', fee: '$25/class · $175' },
+      { name: 'Lower School Tennis - Racquets & Jackets', desc: 'Tennis with Cannon’s varsity tennis coaching staff', day: 'Mon', grades: ['K', '1', '2', '3', '4'], gradeLabel: 'K–4', fee: '$25/class · $175' },
+      { name: 'Pokémon Trainers Academy', desc: 'A Pokémon club. Individual instructor', day: 'Mon', grades: ['2', '3', '4', '5', '6'], gradeLabel: '2–6', fee: '$20/class · $140' },
+      { name: 'String Skills Academy', desc: 'String-instrument skills. Individual instructor', day: 'Mon', grades: ['3', '4', '5', '6', '7', '8'], gradeLabel: '3–8', fee: '$30/class · $180' },
+      { name: 'Baking with Chef Craig', desc: 'A baking class. Individual instructor', day: 'Tue', grades: ['K', '1'], gradeLabel: 'K–1', fee: '$30/class · $240' },
+      { name: 'Classic Maker Space Fun', desc: 'A maker-space class. Individual instructor', day: 'Tue', grades: ['1', '2', '3'], gradeLabel: '1–3', fee: '$25/class · $200' },
+      { name: 'CSF Soccer', desc: 'Coached by Carolina Soccer Factory', day: 'Tue', grades: ['JrK', 'K', '1', '2', '3', '4'], gradeLabel: 'JrK–4', fee: '$25/class · $200' },
+      { name: 'Diamond Art - Create, Make & Take', desc: 'Diamond-art projects. Individual instructor', day: 'Tue', grades: ['2', '3', '4', '5', '6'], gradeLabel: '2–6', fee: '$25/class · $200' },
+      { name: 'Middle School Tennis - Racquets & Jackets', desc: 'Tennis with Cannon’s varsity tennis coaching staff', day: 'Tue', grades: ['5', '6', '7', '8'], gradeLabel: '5–8', fee: '$25/class · $200' },
+      { name: 'Wander & Wonder', desc: 'Individual instructor', day: 'Tue', grades: ['JrK', 'K', '1', '2', '3', '4'], gradeLabel: 'JrK–4', fee: '$25/class · $200' },
+      { name: 'Ballet Class', desc: 'Taught by Le Petit Ballet Co.', day: 'Wed', grades: ['JrK', 'K', '1', '2'], gradeLabel: 'JrK–2', fee: '$30/class · $240' },
+      { name: 'Beginners Pottery Wheel', desc: 'Pottery on the wheel. Individual instructor', day: 'Wed', grades: ['2', '3', '4', '5', '6'], gradeLabel: '2–6', fee: '$25/class · $200' },
+      { name: 'Beginner String Orchestra', desc: 'Ensemble strings with Cannon’s String Orchestra Director', day: 'Wed', grades: ['1', '2', '3', '4', '5', '6', '7', '8'], gradeLabel: '1–8', fee: '$30/class · $240' },
+      { name: 'Lacrosse Skills', desc: 'Lacrosse with Cannon School lacrosse coaches', day: 'Wed', grades: ['K', '1', '2', '3', '4'], gradeLabel: 'K–4', fee: '$25/class · $200' },
+      { name: 'Robocoding', desc: 'Robot coding with Nexplore', day: 'Wed', grades: ['JrK', 'K', '1'], gradeLabel: 'JrK–1', fee: '$30/class · $240' },
+      { name: 'Young Athlete Performance Program (YAPP)', desc: 'Athletic development. Individual instructor', day: 'Wed', grades: ['2', '3', '4', '5'], gradeLabel: '2–5', fee: '$20/class · $160' },
+      { name: 'Better Golf for Kids Academy', desc: 'Run by Better Golf for Kids Academy', day: 'Thu', grades: ['1', '2', '3', '4', '5', '6'], gradeLabel: '1–6', fee: '$25/class · $200' },
+      { name: 'Ceramics', desc: 'A ceramics class. Individual instructor', day: 'Thu', grades: ['2', '3', '4', '5', '6'], gradeLabel: '2–6', fee: '$25/class · $200' },
+      { name: 'Couch to 3K', desc: 'A running class. Individual instructor', day: 'Thu', grades: ['JrK', 'K', '1', '2', '3', '4'], gradeLabel: 'JrK–4', fee: '$20/class · $160' },
+      { name: 'Creative Kids Art Academy', desc: 'Art with AR Workshop', day: 'Thu', grades: ['JrK', 'K', '1', '2'], gradeLabel: 'JrK–2', fee: '$20/class · $160' },
+      { name: 'SportsPlay', desc: 'Run by Kidokinetics of North Charlotte', day: 'Thu', grades: ['JrK', 'K', '1', '2'], gradeLabel: 'JrK–2', fee: '$25/class · $200' },
+      { name: 'TaeKwonDo', desc: 'Taught by Concord TaeKwonDo Inc.', day: 'Thu', grades: ['1', '2', '3', '4', '5'], gradeLabel: '1–5', fee: '$20/class · $160' },
+      { name: 'Cheer-It with Spirit!', desc: 'Cheer with Overtime Athletics', day: 'Fri', grades: ['JrK', 'K', '1', '2', '3', '4'], gradeLabel: 'JrK–4', fee: '$25/class · $150' },
+      { name: 'Chess', desc: 'Taught by the Charlotte Chess Center head coach', day: 'Fri', grades: ['K', '1', '2', '3', '4', '5', '6', '7', '8'], gradeLabel: 'K–8', fee: '$25/class · $125' },
+      { name: 'Classic Magic', desc: 'Magic with Nexplore', day: 'Fri', grades: ['2', '3', '4', '5'], gradeLabel: '2–5', fee: '$30/class · $180' },
+      { name: 'Cooking with Chef Craig', desc: 'A cooking class. Individual instructor', day: 'Fri', grades: ['5', '6', '7'], gradeLabel: '5–7', fee: '$30/class · $180' },
+      { name: 'Creative Sparks', desc: 'Individual instructor', day: 'Fri', grades: ['K', '1', '2', '3', '4', '5', '6'], gradeLabel: 'K–6', fee: '$25/class · $150' },
+      { name: 'LEGO Lab', desc: 'A LEGO class. Individual instructor', day: 'Fri', grades: ['JrK', 'K', '1', '2', '3', '4'], gradeLabel: 'JrK–4', fee: '$25/class · $150' },
     ],
     flags: [
       {
         kind: 'verify',
-        text: 'Private music lessons run alongside for K–8: cello $25/class (Mon/Wed), guitar $25 (Wed/Fri), voice $30 (Tue/Thu), piano $30 (Mon/Tue/Thu) and violin or viola $30 (Tue/Thu).',
-      },
-      {
-        kind: 'stale',
-        text: 'This is the **2025-26 Session 3** catalog — the newest published. No 2026-27 Beyond the Bell catalog has been posted yet, so the specific classes will change even though the price band and structure are likely to hold.',
+        text: 'Private music lessons run alongside for K–12: piano $30/class (Mon/Tue, and Wed/Thu/Fri with a second teacher), violin or viola $30 (Tue/Thu), voice $30 for grades 2–12 (Tue/Thu/Fri), cello $25 (Mon–Thu) and guitar $25 (Tue/Wed/Thu).',
       },
       {
         kind: 'gap',
@@ -257,8 +268,8 @@ export const cannon: AfterSchoolProgram = {
         url: 'https://www.cannonschool.org/cannon-life/beyond-the-bell-enrichment-program',
       },
       {
-        label: 'issuu.com — Beyond the Bell Session 3, 2025-26 catalog',
-        url: 'https://issuu.com/cannonschool/docs/beyond_the_bell_session_3',
+        label: 'issuu.com — Beyond the Bell Session 2, 2026-27 catalog',
+        url: 'https://issuu.com/cannonschool/docs/beyond_the_bell_-_session_2',
       },
       {
         label: 'cannonschool.org — After School Program',
@@ -281,9 +292,9 @@ export const cannon: AfterSchoolProgram = {
       '**Early-dismissal days are covered**, 11:45 a.m.–4:00 p.m., which many schools do not do at all.',
       '**True drop-in at $11.50 an hour with no contract.** Two afternoons a month is about $69 a month on the hourly rate, against $1,904 a year for a two-day contract. For occasional use, that is unusually forgiving.',
       '**A sharp price ladder** — five days costs only about 3.7× the one-day rate, so heavy users get a real discount rather than a linear bill.',
-      '**A large, fully priced enrichment catalog** — 22 distinct classes in a single session, from robotics and ballet to sculpture, golf and photography. Each has a named provider and a real fee.',
-      '**Enrichment is modestly priced and transparent** — $18–$30 per class and $160–$300 for the session of 8 or 10 classes, with full refunds for canceled classes and a make-up week.',
-      '**An executive-function class for Middle School** ("Let’s Get Organized") — a genuinely unusual offering at this age.',
+      '**A large, fully priced enrichment catalog** — 31 distinct classes in a single session, from robot coding and ballet to pottery, golf and photography. Each has a real fee.',
+      '**Enrichment is modestly priced and transparent** — $15–$30 per class and $125–$240 for a session of 5–15 meetings. A family may cancel within the first week and pay only for the class attended. A canceled class is made up where possible.',
+      '**An organization-skills class for Middle School** ("Let’s Get Organized"), twice a week before school — a genuinely unusual offering at this age.',
     ],
     watchouts: [
       '**No after-school coverage for grades 9–12 at all.** A family with an Upper Schooler and a Lower Schooler gets care for only one.',

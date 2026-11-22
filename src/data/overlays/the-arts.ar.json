@@ -316,6 +316,7 @@
         "providence-day:theatre.season[1].kind",
         "charlotte-catholic:theatre.season[0].kind",
         "charlotte-catholic:theatre.season[1].kind",
+        "charlotte-catholic:theatre.season[2].kind",
         "charlotte-country-day:theatre.season[1].kind",
         "gaston-day:theatre.season[1].kind"
       ]
@@ -825,8 +826,8 @@
       ]
     },
     {
-      "t": "برنامج فنون من TK–12 مبنيّ على الاتّساع لا الانتقاء — فرقة واحدة وأوركسترا واحدة وجوقة واحدة لكل مرحلة، مع مسرح \"مفتوح للجميع.\"",
-      "of": "b2d81d17",
+      "t": "برنامج فنون من TK–12 مبنيّ على الاتّساع لا الانتقاء — فرقة وأوركسترا وجوقة، كل منها مفتوحة للصفوف 5–12 دون مستوى بالاختبار، مع مسرح \"open to everyone.\" (أي مفتوح للجميع)",
+      "of": "a806a076",
       "at": [
         "charlotte-latin:ladder.headline"
       ]
@@ -1127,8 +1128,8 @@
       ]
     },
     {
-      "t": "سجلّ Blumey — نتائج من أربع سنوات",
-      "of": "e2a4997b",
+      "t": "سجلّ Blumey — نتائج من ست سنوات",
+      "of": "793a89a9",
       "at": [
         "charlotte-latin:theatre.ledgerTitle"
       ]
@@ -1148,22 +1149,36 @@
       ]
     },
     {
+      "t": "خمسة متأهّلين: أفضل ممثّل (بدور Damien) · أفضل ممثّلة (بدور Cady Herron) · أفضل ممثّل مساعد (بدور Aaron Samuels) · أفضل ممثّلة مساعدة (بدور Karen Smith) · أفضل مؤدٍّ مميَّز (بدور Kevin G.). لا ترشيحات.",
+      "of": "66bd6171",
+      "at": [
+        "charlotte-latin:theatre.ledger[2].result"
+      ]
+    },
+    {
+      "t": "خمسة متأهّلين: أفضل ممثّل (بدور Farquad) · أفضل ممثّلة (بدور Fiona) · أفضل ممثّل مساعد (بدور Pinocchio) · أفضل ممثّلة مساعدة (بدور Dragon) · أفضل مؤدٍّ مميَّز (بدور Gingy/Wicked Witch).",
+      "of": "dfc86366",
+      "at": [
+        "charlotte-latin:theatre.ledger[3].result"
+      ]
+    },
+    {
       "t": "أفضل ممثّلة — طالبة بدور Alice Murphy. وفازت أيضًا بأفضل مؤدٍّ مميَّز — طالب بدور Daryl. فوزان في ليلة واحدة.",
       "of": "7c83d490",
       "at": [
-        "charlotte-latin:theatre.ledger[2].result"
+        "charlotte-latin:theatre.ledger[4].result"
       ]
     },
     {
       "t": "جوائز Blumey الافتتاحية: مُرشَّحة لـ Wells Fargo Best Musical وأفضل ممثّل (بدور Joseph).",
       "of": "4f90ea49",
       "at": [
-        "charlotte-latin:theatre.ledger[3].result"
+        "charlotte-latin:theatre.ledger[5].result"
       ]
     },
     {
-      "t": "Blumey لأفضل ممثّلة هو أشدّ التكريمات الفردية تنافسًا في المنطقة، ولدى Latin واحد، إضافةً إلى أفضل مؤدٍّ مميَّز في الليلة نفسها. وتلك ذروة حقيقية. لكن النتائج منذ ذلك الحين متواضعة. فقد كان لدى Latin خمسة متأهّلين في كلٍّ من 2025 و2026، لكن ترشيحها الوحيد في هاتين السنتين كان لمدير مسرح في 2025. وLatin مشارِكة حقيقية، لا مهيمنة. وبمعزل عن ذلك، لم يُعثَر على أي نتائج مهرجان عرض أحادي لـ NCTC في أي مكان. فالمسرح التنافسي في Latin يتمحور حول جوائز Blumey (المسرحيات الغنائية)، لا حول NCTC (مهرجان للمسرحيات). ويغطّي هذا السجلّ أربع سنوات من إصدارات Blumenthal، فهو حدّ أدنى لا تاريخ كامل.",
-      "of": "c383e9e5",
+      "t": "Blumey لأفضل ممثّلة هو أشدّ التكريمات الفردية تنافسًا في المنطقة، ولدى Latin واحد، إضافةً إلى أفضل مؤدٍّ مميَّز في الليلة نفسها. وتلك ذروة حقيقية. لكن النتائج منذ ذلك الحين متواضعة. فقد كان لدى Latin خمسة متأهّلين في كل سنة من 2023 إلى 2026. وترشيحها الوحيد في 2024–26 كان لمدير مسرح في 2025. وLatin مشارِكة حقيقية، لا مهيمنة. وبمعزل عن ذلك، لم يُعثَر على أي نتائج مهرجان عرض أحادي لـ NCTC في أي مكان. فالمسرح التنافسي في Latin يتمحور حول جوائز Blumey (المسرحيات الغنائية)، لا حول NCTC (مهرجان للمسرحيات). ويغطّي هذا السجلّ ست سنوات من إصدارات Blumenthal، فهو حدّ أدنى لا تاريخ كامل.",
+      "of": "5649fa31",
       "at": [
         "charlotte-latin:theatre.honestContext"
       ]
@@ -1183,8 +1198,8 @@
       ]
     },
     {
-      "t": "فرقة واحدة وأوركسترا واحدة وجوقة واحدة لكل مرحلة — شاملة عمدًا لا متدرّجة، بمسار نظرية من خطوتين نحو AP.",
-      "of": "00caf2b9",
+      "t": "فرقة وأوركسترا وجوقة، كل منها مفتوحة للصفوف 5–12 دون مستوى بالاختبار — شاملة عمدًا، بمسار نظرية من خطوتين نحو AP.",
+      "of": "d9ea32a7",
       "at": [
         "charlotte-latin:music.headline"
       ]
@@ -1461,8 +1476,8 @@
       ]
     },
     {
-      "t": "كان لدى Latin فوزان في Blumey في 2022، وترشيح مدير مسرح واحد في 2025، وخمسة متأهّلين دون ترشيحات لـ Cabaret في 2026. ما الذي تغيّر، وإلى أين يتّجه برنامج مسرح الغناء مع The Little Mermaid؟",
-      "of": "892d0b88",
+      "t": "كان لدى Latin فوزان في Blumey في 2022، وخمسة متأهّلين في كل سنة من 2023 إلى 2026. وفي 2024–26 لم يكن لديها سوى ترشيح واحد، لمدير مسرح في 2025. ما الذي تغيّر، وإلى أين يتّجه برنامج مسرح الغناء مع The Little Mermaid؟",
+      "of": "ceb77425",
       "at": [
         "charlotte-latin:verdict.ask[1]"
       ]
@@ -1475,8 +1490,8 @@
       ]
     },
     {
-      "t": "لا توجد فرق بالاختبار أو متدرّجة منشورة — لا فرقة جاز، ولا a cappella، ولا فرقة حجرة أو رياح. كيف يواصل عازف في مستوى All-State أصلًا تقدّمه بدلًا من الانجراف؟",
-      "of": "4158ebd7",
+      "t": "لا توجد فرق بالاختبار أو متدرّجة منشورة — لا فرقة جاز، ولا فرقة حجرة أو رياح. وتتضمّن قائمة الأندية Acapella Club مفتوحًا للجميع. فهل توجد مجموعة a cappella بالاختبار، وكيف يواصل عازف في مستوى All-State أصلًا تقدّمه بدلًا من الانجراف؟",
+      "of": "9be54ed6",
       "at": [
         "charlotte-latin:verdict.ask[3]"
       ]
@@ -1683,8 +1698,8 @@
       ]
     },
     {
-      "t": "يبيع Fine Arts Box Office مخصَّص التذاكر إلكترونيًّا، بتسليم PDF وتطبيق HomeTown Fan. وموسم 2025-26 بعنوان \"Pure Imagination،\" ببدء البيع في سبتمبر 2025. لكن عناوين الإنتاجات الفردية لم تُنشَر وقت البحث.",
-      "of": "93c8b847",
+      "t": "يبيع Fine Arts Box Office مخصَّص التذاكر إلكترونيًّا، بتسليم PDF وتطبيق HomeTown Fan. وموسم 2026-27 بعنوان \"Called to Courage!\" ومسرحياته الغنائية هي Matilda Jr. (22–24 أكتوبر)، وThe Little Mermaid (25–27 فبراير)، وFrozen KIDS (8–10 أبريل).",
+      "of": "97436fd2",
       "at": [
         "charlotte-christian:ladder.enrichment[2].text"
       ]
@@ -1725,23 +1740,22 @@
       ]
     },
     {
-      "t": "2025-26",
-      "of": "fe38e73d",
+      "t": "2026-27",
+      "of": "0a1761dd",
       "at": [
-        "charlotte-christian:theatre.season[0].season",
-        "davidson-day:theatre.season[0].season"
+        "charlotte-christian:theatre.season[0].season"
       ]
     },
     {
-      "t": "الموسم: \"Pure Imagination\"",
-      "of": "ba30416a",
+      "t": "الموسم: \"Called to Courage!\"",
+      "of": "35f66619",
       "at": [
         "charlotte-christian:theatre.season[0].kind"
       ]
     },
     {
-      "t": "يحمل الموسم موضوعًا — \"عوالم خيالية مألوفة تفيض بالفكاهة والفرح والحبّ والخيال والتصوّر\" — لكن عناوين الإنتاجات الفردية لم تُنشَر وقت البحث.",
-      "of": "89ffb444",
+      "t": "Matilda Jr. (22–24 أكتوبر) · The Little Mermaid (25–27 فبراير) · Frozen KIDS (8–10 أبريل). وكان موسم 2025-26 بعنوان \"Pure Imagination\"؛ وتذكر قوائم Blumey أن Cinderella هي المسرحية الغنائية لتلك السنة.",
+      "of": "b88873a7",
       "at": [
         "charlotte-christian:theatre.season[0].detail"
       ]
@@ -1762,8 +1776,8 @@
       ]
     },
     {
-      "t": "منشورة مجموعةً غير مرتّبة، دون سنوات: High School Musical وShrek وFootloose وBeauty and the Beast وJoseph and the Amazing Technicolor Dreamcoat وInto the Woods وTarzan وFreaky Friday.",
-      "of": "687b8ede",
+      "t": "عروض سابقة، تُدرجها المدرسة دون سنوات: High School Musical وShrek وFootloose وBeauty and the Beast وJoseph and the Amazing Technicolor Dreamcoat وInto the Woods وTarzan وFreaky Friday.",
+      "of": "910cd848",
       "at": [
         "charlotte-christian:theatre.season[1].detail"
       ]
@@ -1804,29 +1818,36 @@
       ]
     },
     {
+      "t": "خمسة متأهّلين: أفضل ممثّل (بدور Baker) · أفضل ممثّلة (بدور Witch) · أفضل ممثّل مساعد (بدور Cinderella’s Prince) · أفضل ممثّلة مساعدة (بدور Little Red Riding Hood) · أفضل مؤدٍّ مميَّز (بدور Ensemble/Wolf).",
+      "of": "23a82877",
+      "at": [
+        "charlotte-christian:theatre.ledger[2].result"
+      ]
+    },
+    {
       "t": "ستّة مراكز: المركز 1 في Ensemble Theatre · المركز 1 في Solo Jr High Musical Theatre · المركز 3 في الفئة نفسها · تنويه Duo · تنويه Contrasting Monologues · Technical Theatre Costume Design.",
       "of": "18dcf122",
       "at": [
-        "charlotte-christian:theatre.ledger[2].result"
+        "charlotte-christian:theatre.ledger[3].result"
       ]
     },
     {
       "t": "ثلاثة ترشيحات، كما ذكرتها المدرسة: أفضل ممثّلة (بدور Fiona) · أفضل ممثّل (بدور Shrek) · أفضل ممثّل مساعد (بدور Donkey). الميدان: 39 مدرسة.",
       "of": "83f7d35f",
       "at": [
-        "charlotte-christian:theatre.ledger[3].result"
+        "charlotte-christian:theatre.ledger[4].result"
       ]
     },
     {
       "t": "اكتساح بأربع جوائز: Wells Fargo Best Musical، وأفضل فرقة/جوقة، وأفضل تنفيذ تصميم راقص، وأفضل تنفيذ إضاءة — وجائزة الإضاءة تشير إلى قدرة تقنية، لا مجرّد غناء قوي. الميدان: 17 مدرسة.",
       "of": "de1aeff5",
       "at": [
-        "charlotte-christian:theatre.ledger[4].result"
+        "charlotte-christian:theatre.ledger[5].result"
       ]
     },
     {
-      "t": "فوز أفضل مسرحية غنائية في 2013 هو أبرز إنجاز فنّي للبرنامج، ويؤكّده Blumenthal Arts مباشرةً. وذكرت المدرسة لاحقًا ثلاثة ترشيحات، عن Shrek the Musical في 2015. وتقع مراكز Tarzan النهائية في 2024 درجةً تحت الترشيح، في ميدان نما من 17 مدرسة إلى 50. وفي 2026 كان لـ Cinderella خمسة متأهّلين، وكان واحد منهم مرشَّحًا ضمن الستة الأوائل. وسجلّ CITA هو أميز مؤهّل للمدرسة، لأن الدائرة تناسب هوية المدرسة. لكنه يستند إلى سنة منشورة واحدة: 2016. وتصف المدرسة تكريمات CITA بأنها تُنال \"كل سنة،\" ولتلك الصياغة نقطة بيانات واحدة خلفها. وبمعزل عن ذلك، لم يُعثَر على أي جائزة NCTC محدَّدة لأي سنة.",
-      "of": "e5f6f8cb",
+      "t": "فوز أفضل مسرحية غنائية في 2013 هو أبرز إنجاز فنّي للبرنامج، ويؤكّده Blumenthal Arts مباشرةً. وذكرت المدرسة لاحقًا ثلاثة ترشيحات، عن Shrek the Musical في 2015. وكان لـ Into the Woods خمسة متأهّلين في 2023. وتقع مراكز Tarzan النهائية في 2024 درجةً تحت الترشيح، في ميدان نما من 17 مدرسة إلى 50. وفي 2026 كان لـ Cinderella خمسة متأهّلين، وكان واحد منهم مرشَّحًا ضمن الستة الأوائل. وسجلّ CITA هو أميز مؤهّل للمدرسة، لأن الدائرة تناسب هوية المدرسة. لكنه يستند إلى سنة منشورة واحدة: 2016. وتصف المدرسة تكريمات CITA بأنها تُنال \"each year,\" (أي كل سنة)، ولتلك الصياغة نقطة بيانات واحدة خلفها. وبمعزل عن ذلك، لم يُعثَر على أي جائزة NCTC محدَّدة لأي سنة.",
+      "of": "80273272",
       "at": [
         "charlotte-christian:theatre.honestContext"
       ]
@@ -2031,15 +2052,15 @@
       ]
     },
     {
-      "t": "المشاركة مذكورة على صفحتَي الفنّ البصري والفنون الرقمية كلتيهما",
-      "of": "c78f8c8a",
+      "t": "54 جائزة خلال السنوات الخمس الأخيرة، وفق ملفّ 2026–27 (الفنّ والكتابة معًا؛ دون تفصيل لكل منهما)",
+      "of": "79f155ec",
       "at": [
         "charlotte-christian:visual.exhibits[3].detail"
       ]
     },
     {
-      "t": "لا يُسمّى أي عضو هيئة تدريس فنّ بصري أو فنون رقمية على أي من صفحتَي الفرعين. ويُسمّى Digital Media Studio مخصَّص لكنه لا يُوصَف: لا حجم أو معدّات أو عدد محطّات. ولا يُوثَّق أي استوديو بثّ منفصل أو خلفية خضراء أو كابينة تسجيل، رغم وجود حصّة Broadcasting. وتسمّي المدرسة البرنامج \"حائزًا على جوائز\" وتؤكّد أنه يشارك في Scholastic Art & Writing وFestival in the Park وPatriotic Art Competition. لكن لم يُعثَر على جائزة فنّ بصري فردية واحدة باسم طالب وسنة، فلا تظهر أعداد جوائز هنا. وتتحدّث الصفحة بعبارات عامّة عن \"مجموعة متنوّعة من الوسائط\"، ويسمّيها دليل المناهج بحسب المقرّر. ولا تُنشَر مرافق الاستوديو مثل الفرن أو العجلة أو الغرفة المظلمة.",
-      "of": "7000e0ab",
+      "t": "لا يُسمّى أي عضو هيئة تدريس فنّ بصري أو فنون رقمية على أي من صفحتَي الفرعين. ويُسمّى Digital Media Studio مخصَّص لكنه لا يُوصَف: لا حجم أو معدّات أو عدد محطّات. ولا يُوثَّق أي استوديو بثّ منفصل أو خلفية خضراء أو كابينة تسجيل، رغم وجود حصّة Broadcasting. وتصف المدرسة البرنامج بأنه \"award-winning\" (حائز على جوائز) وتؤكّد أنه يشارك في Scholastic Art & Writing وFestival in the Park وPatriotic Art Competition. ويُحصي ملفّ 2026–27 عدد 54 من جوائز Scholastic Art and Writing خلال السنوات الخمس الأخيرة. ولا يفصل الفنّ البصري ولا يُدرج الجوائز بحسب السنة. وتتحدّث الصفحة بعبارات عامّة عن \"a variety of media,\" (مجموعة متنوّعة من الوسائط)، ويسمّيها دليل المناهج بحسب المقرّر. ولا تُنشَر مرافق الاستوديو مثل الفرن أو العجلة أو الغرفة المظلمة.",
+      "of": "08f43928",
       "at": [
         "charlotte-christian:visual.footnote"
       ]
@@ -2066,8 +2087,8 @@
       ]
     },
     {
-      "t": "جاء فوز Oklahoma! لأفضل مسرحية غنائية في 2013 اكتساحًا بأربع جوائز منها أفضل تنفيذ إضاءة، من ميدان 17 مدرسة. وفي 2024، نال Tarzan مراكز نهائية في فئات التمثيل الخمس كلها، في ميدان نما إلى 50. وفي 2026، كان لـ Cinderella خمسة متأهّلين ومرشَّح واحد ضمن الستة الأوائل.",
-      "of": "6b090769",
+      "t": "جاء فوز Oklahoma! لأفضل مسرحية غنائية في 2013 اكتساحًا بأربع جوائز منها أفضل تنفيذ إضاءة، من ميدان 17 مدرسة. وفي 2023، كان لـ Into the Woods خمسة متأهّلين. وفي 2024، نال Tarzan مراكز نهائية في فئات التمثيل الخمس كلها، في ميدان نما إلى 50. وفي 2026، كان لـ Cinderella خمسة متأهّلين ومرشَّح واحد ضمن الستة الأوائل.",
+      "of": "577fa4fc",
       "at": [
         "charlotte-christian:verdict.holdsUp[0].text"
       ]
@@ -2150,8 +2171,8 @@
       ]
     },
     {
-      "t": "كان لـ Tarzan في 2024 خمسة متأهّلين ولا مرشَّح ضمن أفضل 6، وكان لـ Cinderella في 2026 خمسة وواحد. فما الفجوة التي تعملون عليها قبل فوز آخر؟",
-      "of": "2c3b76b3",
+      "t": "كان لـ Tarzan في 2024 خمسة متأهّلين ولا مرشَّح ضمن الستة الأوائل. وكان لـ Cinderella في 2026 خمسة متأهّلين ومرشَّح واحد ضمن الستة الأوائل. فما الفجوة التي تعملون عليها قبل فوز آخر؟",
+      "of": "ca09a6ea",
       "at": [
         "charlotte-christian:verdict.ask[1]"
       ]
@@ -2185,8 +2206,8 @@
       ]
     },
     {
-      "t": "أي طلاب نالوا مفاتيح Gold أو Silver في Scholastic Art & Writing في السنتين الأخيرتين، وفي أي فئات؟",
-      "of": "40a200e2",
+      "t": "كم من جوائز Scholastic Art & Writing الـ54 كانت مفاتيح Gold أو Silver في الفنّ البصري؟",
+      "of": "58e184e7",
       "at": [
         "charlotte-christian:verdict.ask[6]"
       ]
@@ -2487,15 +2508,15 @@
       ]
     },
     {
-      "t": "خمسة متأهّلين نهائيين في Blumey في 2025، وخمسة آخرون في 2026 — ولا فوز بعد.",
-      "of": "21746aaa",
+      "t": "خمسة متأهّلين نهائيين في Blumey في كلٍّ من 2024 و2025 و2026 — ولا فوز في 2025 ولا في 2026.",
+      "of": "7aede97c",
       "at": [
         "charlotte-catholic:theatre.headline"
       ]
     },
     {
-      "t": "حلّ Fiddler on the Roof متأهّلًا نهائيًّا في كل فئة من فئات الأداء الفردي الخمس.",
-      "of": "45dc749e",
+      "t": "كان للمسرحية الغنائية في كل سنة متأهّل نهائي في كل فئة من فئات الأداء الفردي الخمس.",
+      "of": "279b2ada",
       "at": [
         "charlotte-catholic:theatre.subhead"
       ]
@@ -2508,31 +2529,45 @@
       ]
     },
     {
+      "t": "2023–24",
+      "of": "58be07db",
+      "at": [
+        "charlotte-catholic:theatre.season[0].season"
+      ]
+    },
+    {
+      "t": "Phantom of the Opera — خمسة متأهّلين نهائيين في Blumey، واحد في كل فئة أداء فردي",
+      "of": "3139db03",
+      "at": [
+        "charlotte-catholic:theatre.season[0].detail"
+      ]
+    },
+    {
       "t": "2024–25",
       "of": "96952863",
       "at": [
-        "charlotte-catholic:theatre.season[0].season"
+        "charlotte-catholic:theatre.season[1].season"
       ]
     },
     {
       "t": "Fiddler on the Roof — خمسة متأهّلين نهائيين في Blumey، واحد في كل فئة أداء فردي",
       "of": "59143597",
       "at": [
-        "charlotte-catholic:theatre.season[0].detail"
+        "charlotte-catholic:theatre.season[1].detail"
       ]
     },
     {
       "t": "2025–26",
       "of": "f54f7583",
       "at": [
-        "charlotte-catholic:theatre.season[1].season"
+        "charlotte-catholic:theatre.season[2].season"
       ]
     },
     {
       "t": "The Wizard of Oz — خمسة متأهّلين نهائيين في Blumey",
       "of": "6edcfdfe",
       "at": [
-        "charlotte-catholic:theatre.season[1].detail"
+        "charlotte-catholic:theatre.season[2].detail"
       ]
     },
     {
@@ -2557,78 +2592,113 @@
       ]
     },
     {
+      "t": "متأهّل نهائي، Best Actor — بدور The Phantom",
+      "of": "2427a8c8",
+      "at": [
+        "charlotte-catholic:theatre.ledger[0].result"
+      ]
+    },
+    {
+      "t": "متأهّلة نهائية، Best Actress — بدور Carlotta",
+      "of": "ff18e11e",
+      "at": [
+        "charlotte-catholic:theatre.ledger[1].result"
+      ]
+    },
+    {
+      "t": "متأهّل نهائي، Best Supporting Actor — بدور Firmin",
+      "of": "409d27da",
+      "at": [
+        "charlotte-catholic:theatre.ledger[2].result"
+      ]
+    },
+    {
+      "t": "متأهّلة نهائية، Best Supporting Actress — بدور Madame Giry",
+      "of": "0f05e689",
+      "at": [
+        "charlotte-catholic:theatre.ledger[3].result"
+      ]
+    },
+    {
+      "t": "متأهّل نهائي، Best Featured Performer — بدور Joseph Buquet",
+      "of": "3572998c",
+      "at": [
+        "charlotte-catholic:theatre.ledger[4].result"
+      ]
+    },
+    {
       "t": "متأهّل نهائي، Best Actor — بدور Motel",
       "of": "18d8dbab",
       "at": [
-        "charlotte-catholic:theatre.ledger[0].result"
+        "charlotte-catholic:theatre.ledger[5].result"
       ]
     },
     {
       "t": "متأهّلة نهائية، Best Actress — بدور Hodel",
       "of": "90f205ca",
       "at": [
-        "charlotte-catholic:theatre.ledger[1].result"
+        "charlotte-catholic:theatre.ledger[6].result"
       ]
     },
     {
       "t": "متأهّل نهائي، Best Supporting Actor — بدور Perchik",
       "of": "d441ed8b",
       "at": [
-        "charlotte-catholic:theatre.ledger[2].result"
+        "charlotte-catholic:theatre.ledger[7].result"
       ]
     },
     {
       "t": "متأهّلة نهائية، Best Supporting Actress — بدور Tzeitel",
       "of": "b807953c",
       "at": [
-        "charlotte-catholic:theatre.ledger[3].result"
+        "charlotte-catholic:theatre.ledger[8].result"
       ]
     },
     {
       "t": "متأهّل نهائي، Best Featured Performer — بدور Rabbi",
       "of": "b120c80b",
       "at": [
-        "charlotte-catholic:theatre.ledger[4].result"
+        "charlotte-catholic:theatre.ledger[9].result"
       ]
     },
     {
       "t": "متأهّل نهائي، Best Actor — بدور Scarecrow",
       "of": "118c3ac5",
       "at": [
-        "charlotte-catholic:theatre.ledger[5].result"
+        "charlotte-catholic:theatre.ledger[10].result"
       ]
     },
     {
       "t": "متأهّلة نهائية، Best Actress — بدور Dorothy",
       "of": "15b1875d",
       "at": [
-        "charlotte-catholic:theatre.ledger[6].result"
+        "charlotte-catholic:theatre.ledger[11].result"
       ]
     },
     {
       "t": "متأهّل نهائي، Best Supporting Actor — بدور Uncle Henry / Guard",
       "of": "0f6c3a56",
       "at": [
-        "charlotte-catholic:theatre.ledger[7].result"
+        "charlotte-catholic:theatre.ledger[12].result"
       ]
     },
     {
       "t": "متأهّلة نهائية، Best Supporting Actress — بدور Glinda",
       "of": "24b48308",
       "at": [
-        "charlotte-catholic:theatre.ledger[8].result"
+        "charlotte-catholic:theatre.ledger[13].result"
       ]
     },
     {
       "t": "متأهّلة نهائية، Best Featured Performer — بدور Toto Puppeteer",
       "of": "f14dfb53",
       "at": [
-        "charlotte-catholic:theatre.ledger[9].result"
+        "charlotte-catholic:theatre.ledger[14].result"
       ]
     },
     {
-      "t": "لم تفز CCHS بجائزة Blumey في أيٍّ من السنتين. وقد تحقّقنا من ذلك مقابل بيان الفائزين الرسمي من Blumenthal لعام 2026، حيث ذهبت جوائز الأداء الفردي الخمس إلى North Lincoln وCarmel Christian وNorthwest School of the Arts وWeddington. وقد جاء التقدير هنا دون انتصارات: عشرة مراكز نهائية عبر سنتين. ولم يكن أيٌّ من خمسة 2026 مرشَّحًا ضمن الستة الأوائل. وكُرِّمت طالبة واحدة في كلتا السنتين (Hodel في 2025، وDorothy في 2026). ولاحظ أيضًا أن تقويم العروض الخاص بالمدرسة لا ينشر شيئًا. فالإنتاجان أعلاه جُمِعا من سجلّات Blumey، ومن ثمّ فقد يكون الموسم الفعلي أكبر ممّا تتيح المدرسة لأسرة أن تراه.",
-      "of": "774c21c6",
+      "t": "لم تفز CCHS بجائزة Blumey في 2025 ولا في 2026. وقد تحقّقنا من ذلك مقابل بيان الفائزين الرسمي من Blumenthal لعام 2026، حيث ذهبت جوائز الأداء الفردي الخمس إلى North Lincoln وCarmel Christian وNorthwest School of the Arts وWeddington. والسجلّ خمسة عشر مركزًا نهائيًّا عبر ثلاث سنوات. ولم يكن أيٌّ من خمسة 2026 مرشَّحًا ضمن الستة الأوائل. وتأهّل اثنان من الطلاب في سنتين من تلك السنوات. أحدهما أدّى دور The Phantom في 2024 وMotel في 2025. والآخر أدّى دور Hodel في 2025 وDorothy في 2026. ولاحظ أيضًا أن تقويم العروض الخاص بالمدرسة لا ينشر شيئًا. فالإنتاجات الثلاثة أعلاه جُمِعت من سجلّات Blumey، ومن ثمّ فقد يكون الموسم الفعلي أكبر ممّا تتيح المدرسة لأسرة أن تراه.",
+      "of": "9f71a581",
       "at": [
         "charlotte-catholic:theatre.honestContext"
       ]
@@ -2976,15 +3046,15 @@
       ]
     },
     {
-      "t": "تقدير في كلتا السنتين",
-      "of": "a249cab0",
+      "t": "تقدير في ثلاث سنوات متتالية",
+      "of": "ec0f6c99",
       "at": [
         "charlotte-catholic:verdict.holdsUp[2].label"
       ]
     },
     {
-      "t": "خمسة متأهّلين نهائيين في Blumey في 2025 — واحد في كل فئة أداء فردي — وخمسة آخرون في 2026، من عرض مختلف.",
-      "of": "e74337dd",
+      "t": "خمسة متأهّلين نهائيين في Blumey في كلٍّ من 2024 و2025 و2026، واحد في كل فئة أداء فردي، من ثلاثة عروض مختلفة.",
+      "of": "f9583a07",
       "at": [
         "charlotte-catholic:verdict.holdsUp[2].text"
       ]
@@ -3060,8 +3130,8 @@
       ]
     },
     {
-      "t": "خمسة متأهّلين نهائيين في Blumey في 2025 ولا فوز — فما الذي يراه برنامج المسرح فجوةً؟",
-      "of": "12fdc4bf",
+      "t": "خمسة متأهّلين نهائيين في Blumey كل سنة من 2024 إلى 2026، ولا فوز في 2025 ولا في 2026 — فما الذي يراه برنامج المسرح فجوةً؟",
+      "of": "0446f00b",
       "at": [
         "charlotte-catholic:verdict.ask[4]"
       ]
@@ -3475,7 +3545,7 @@
     },
     {
       "t": "مجموعات المستوى المبتدئ — Upper School",
-      "of": "8de1dda7",
+      "of": "ed91c9bc",
       "at": [
         "charlotte-country-day:music.tracks[1].label"
       ]
@@ -3698,8 +3768,8 @@
       ]
     },
     {
-      "t": "فوزان في Blumey في 2022 منهما أفضل إخراج، إضافةً إلى بطولتَي ولاية NCTC متتاليتين مع The Crane Wife، في مهرجان يجذب أكثر من 100 مدرسة.",
-      "of": "e022b911",
+      "t": "فوزان في Blumey في 2022 منهما أفضل إخراج، إضافةً إلى بطولتَي ولاية NCTC متتاليتين، ثانيتهما مع The Crane Wife، في مهرجان يجذب 100+ مدرسة.",
+      "of": "d21a9eda",
       "at": [
         "charlotte-country-day:verdict.holdsUp[3].text"
       ]
@@ -4084,6 +4154,13 @@
       ]
     },
     {
+      "t": "Mean Girls: High School Version (تُدرجها Blumenthal باسم Mean Girls School Edition)",
+      "of": "e95d9434",
+      "at": [
+        "cannon:theatre.ledger[0].show"
+      ]
+    },
+    {
       "t": "خمسة مراكز نهائية: أفضل ممثّل (بدور Damian Hubbard) · أفضل ممثّلة (بدور Cady Heron) · أفضل ممثّل مساعد (بدور Aaron Samuels) · أفضل ممثّلة مساعدة (بدور Janis Sarkisian) · أفضل مؤدٍّ مميَّز (بدور Mrs. Norbury). ولم يكن أيٌّ منهم مرشَّحًا ضمن الستة الأوائل.",
       "of": "00197b80",
       "at": [
@@ -4385,15 +4462,15 @@
       ]
     },
     {
-      "t": "الفنون تُوزَن كالمواد الأكاديمية",
-      "of": "f9226dc4",
+      "t": "الفنون تحمل مستويات المواد الأكاديمية",
+      "of": "7a103b5c",
       "at": [
         "cannon:verdict.holdsUp[0].label"
       ]
     },
     {
-      "t": "كل حصص فنون Upper School الـ 24 هي Honors أو AP أو Advanced Topics — لا حصّة فنون بمسار عادي. وفوق ذلك، ثمّة شرط تخرّج فنّي مدّته سنتان. وهذا مؤشّر يمكنك التحقّق منه بشأن كيفية احتساب الفنون في GPA وكشف الدرجات، لا شعار.",
-      "of": "e5f05584",
+      "t": "كل حصص فنون Upper School الـ 24 هي Honors أو AP أو Advanced Topics — لا حصّة فنون بمسار عادي. وفوق ذلك، ثمّة شرط تخرّج فنّي مدّته سنتان. وهذا مؤشّر يمكنك التحقّق منه بشأن كيفية ظهور الفنون في كشف الدرجات، لا شعار. ولا يضيف وزنًا إلى GPA سوى AP Studio Art وAT Art History؛ أما Honors فلا تضيف أي وزن.",
+      "of": "6db50ccf",
       "at": [
         "cannon:verdict.holdsUp[0].text"
       ]
@@ -4518,8 +4595,8 @@
       ]
     },
     {
-      "t": "كيف يبدو التزام Varsity عند 7:30 صباحًا فعلًا عبر أسبوع، وهل يصطدم بالرياضة؟",
-      "of": "26ddf6e6",
+      "t": "تجتمع Varsity Chorus وOrchestra أيام الاثنين والأربعاء والجمعة قبل الدوام المدرسي. فمتى تجتمع Varsity Band، وهل يصطدم أيٌّ من ذلك بالرياضة؟",
+      "of": "d91fe59c",
       "at": [
         "cannon:verdict.ask[7]"
       ]
@@ -4819,8 +4896,8 @@
       ]
     },
     {
-      "t": "يخفت السجلّ بعد 2019 في Blumeys. فصفحة مسرح المدرسة نفسها لا تحمل أي إدخال Blumey بعد 2019. ولا تُنشَر عناوين العروض، فـ Curtains هو العرض الوحيد المعروف بالاسم. ويُظهر المتأهّل النهائي في Shakespeare أن البرنامج ما زال يحقّق نتائج.",
-      "of": "bd740e94",
+      "t": "لا تقدير مسجَّلًا في Blumey بعد 2019، وإن كانت Covenant Day قد تنافست في 2022. فصفحة مسرح المدرسة نفسها لا تحمل أي إدخال Blumey بعد 2019. ولا تُنشَر عناوين العروض، فـ Curtains هو العرض الوحيد المعروف بالاسم. ويُظهر المتأهّل النهائي في Shakespeare أن البرنامج ما زال يحقّق نتائج.",
+      "of": "225d4448",
       "at": [
         "covenant-day:theatre.honestContext"
       ]
@@ -5071,8 +5148,8 @@
       ]
     },
     {
-      "t": "ما كانت آخر مسرحية غنائية في المرحلة الثانوية، ومتى دخل البرنامج Blumeys آخر مرة؟ السجلّ العام يتوقّف في 2019.",
-      "of": "42245184",
+      "t": "ما آخر مسرحية غنائية في المرحلة الثانوية؟ وهل شاركتم في Blumeys منذ 2022؟ آخر تقدير مسجَّل يعود إلى 2019.",
+      "of": "0937d6ad",
       "at": [
         "covenant-day:verdict.ask[0]"
       ]
@@ -5134,8 +5211,8 @@
       ]
     },
     {
-      "t": "Studio Art — الفنّ الوحيد في AP",
-      "of": "055e9162",
+      "t": "Studio Art — الفنّ الوحيد في AP (في الكتالوج؛ ولا يُدرجه ملفّ 2026–27)",
+      "of": "db046990",
       "at": [
         "davidson-day:ladder.stats[1].label"
       ]
@@ -5198,15 +5275,15 @@
       ]
     },
     {
-      "t": "الفنون البصرية: Photography I–III، وPortfolio، وStudio I، وStudio II Honors، وAP Studio Art",
-      "of": "f8b8fc8b",
+      "t": "الفنون البصرية: Photography I–III، وPortfolio، وStudio I، وStudio II Honors، وAP Studio Art (في الكتالوج؛ ولا يُدرجه ملفّ 2026–27)",
+      "of": "a0b24377",
       "at": [
         "davidson-day:ladder.divisions[2].items[0]"
       ]
     },
     {
-      "t": "الموسيقى والفنون الأدائية: Performance Ensemble (مسرح)، وContemporary Ensemble، وModern Music، وFilm Studies & Production",
-      "of": "63ba1e96",
+      "t": "الموسيقى والفنون الأدائية: Performance Ensemble (مسرح)، وContemporary Ensemble، وModern Music (يشير ملفّ 2026–27 إلى أنه غير مطروح هذه السنة)، وFilm Studies & Production",
+      "of": "49dc8e31",
       "at": [
         "davidson-day:ladder.divisions[2].items[1]"
       ]
@@ -5297,8 +5374,8 @@
       ]
     },
     {
-      "t": "سجلّ Blumey مشروع على مستوى البرنامج من مدرسة صغيرة جدًّا — ثلاثة ترشيحات للعرض كاملًا في 2023، وخمسة متأهّلين في كلٍّ من 2025 و2026.",
-      "of": "f4e12a38",
+      "t": "سجلّ Blumey مشروع على مستوى البرنامج من مدرسة صغيرة جدًّا — ثلاثة ترشيحات للعرض كاملًا في 2023، وخمسة متأهّلين في كلٍّ من 2024 و2025 و2026.",
+      "of": "c9f8aa11",
       "at": [
         "davidson-day:theatre.headline"
       ]
@@ -5318,6 +5395,13 @@
       ]
     },
     {
+      "t": "2025-26",
+      "of": "fe38e73d",
+      "at": [
+        "davidson-day:theatre.season[0].season"
+      ]
+    },
+    {
       "t": "Big Fish — مشاركة المدرسة في Blumey 2026، التي أنتجت خمسة مراكز نهائية.",
       "of": "c1585b03",
       "at": [
@@ -5332,8 +5416,8 @@
       ]
     },
     {
-      "t": "Once Upon a One More Time, High School Edition (2024-25)؛ وMean Girls (2022-23)، أقوى سنة تنافسية. ولم يُعثَر على عنوان 2023-24، ولا تنشر المدرسة صفحة موسم مسرحي.",
-      "of": "eb3c71d7",
+      "t": "Once Upon a One More Time, High School Edition (2024-25)؛ وSomething Rotten! (2023-24)؛ وMean Girls (2022-23)، أقوى سنة تنافسية. ولا تنشر المدرسة صفحة موسم مسرحي.",
+      "of": "2dd102bf",
       "at": [
         "davidson-day:theatre.season[1].detail"
       ]
@@ -5374,17 +5458,24 @@
       ]
     },
     {
-      "t": "أقوى سنة عُثِر عليها: خمسة ترشيحات، ثلاثة منها للبرنامج كلّه. وهي أفضل مسرحية غنائية (Tier 2) وأفضل فرقة/جوقة وأفضل إخراج عام. والآخران أفضل ممثّلة (بدور Regina George) وأفضل مؤدٍّ مميَّز (بدور Mrs. George).",
-      "of": "cf06e074",
+      "t": "خمسة متأهّلين: أفضل ممثّل (بدور Nick Bottom) · أفضل ممثّلة (بدور Bea Bottom) · أفضل ممثّل مساعد (بدور Nigel Bottom) · أفضل ممثّلة مساعدة (بدور Portia) · أفضل مؤدٍّ مميَّز (بدور Minstrel). ولا ترشيح.",
+      "of": "d30f792a",
       "at": [
         "davidson-day:theatre.ledger[2].result"
+      ]
+    },
+    {
+      "t": "أقوى سنة عُثِر عليها: أربعة ترشيحات، ثلاثة منها للبرنامج كلّه. وهي أفضل مسرحية غنائية (Tier 2) وأفضل فرقة/جوقة وأفضل إخراج عام. والرابع أفضل مؤدٍّ مميَّز (بدور Mrs. George). وكان لديها أيضًا خمسة متأهّلين فرديين، منهم أفضل ممثّلة (بدور Regina George).",
+      "of": "ac8e13f2",
+      "at": [
+        "davidson-day:theatre.ledger[3].result"
       ]
     },
     {
       "t": "تلقّى طالب منحة Gordon Hay البالغة $5,000. وتُمنَح المنحة لطالب سنة أخيرة في منطقة شارلوت يسعى إلى مهنة غير أدائية في الفنون الأدائية. والجائزة موثَّقة جيّدًا. لكن سنتها (Blumey السنوية رقم 4) غير مؤكَّدة على أي صفحة من Blumenthal أمكن فحصها.",
       "of": "de6f716c",
       "at": [
-        "davidson-day:theatre.ledger[3].result"
+        "davidson-day:theatre.ledger[4].result"
       ]
     },
     {
@@ -5430,8 +5521,8 @@
       ]
     },
     {
-      "t": "يُوصَف Contemporary Ensemble بأنه \"School of Rock الخاصّ\" بالمدرسة: بوب وروك بلمسة من الجاز والبلوز والفانك. والفرقة مفتوحة لكل المستويات وكل الآلات والمغنّين، ويُوفَّر الغيتار والبيس والكيبورد والطبول في الصف. وعلى الأعضاء الأداء علنًا مرّة واحدة على الأقلّ كل فصل. ويغطّي Modern Music تاريخ الموسيقى وإنتاجها في GarageBand، دون اشتراط أداء. ولا تظهر أي فرقة حفلات أو فرقة سيمفونية أو فرقة استعراضية أو أوركسترا أو فرقة جاز أو جوقة أو فرقة غنائية بوصفها حصّة Upper School مُسمّاة في دليل 2026-27. ولا يُسمّى مدير فرقة أو جوقة أو قسم موسيقى في أي مكان.",
-      "of": "b119c053",
+      "t": "يُوصَف Contemporary Ensemble بأنه \"very own School of Rock\" للمدرسة (أي School of Rock الخاصّ بها): بوب وروك بلمسة من الجاز والبلوز والفانك. والفرقة مفتوحة لكل المستويات وكل الآلات والمغنّين، ويُوفَّر الغيتار والبيس والكيبورد والطبول في الصف. وعلى الأعضاء الأداء علنًا مرّة واحدة على الأقلّ كل فصل. ويشير ملفّ 2026–27 إلى أن Modern Music غير مطروح هذه السنة. ويغطّي Modern Music تاريخ الموسيقى وإنتاجها في GarageBand، دون اشتراط أداء. ولا تظهر أي فرقة حفلات أو فرقة سيمفونية أو فرقة استعراضية أو أوركسترا أو فرقة جاز أو جوقة أو فرقة غنائية بوصفها حصّة Upper School مُسمّاة في دليل 2026-27. ولا يُسمّى مدير فرقة أو جوقة أو قسم موسيقى في أي مكان.",
+      "of": "0310057a",
       "at": [
         "davidson-day:music.boardNote"
       ]
@@ -5535,8 +5626,8 @@
       ]
     },
     {
-      "t": "يتطلّب AP Studio Art موافقة القسم. ويجري Portfolio نقطة انطلاق بديلة نحو AP، وPhotography I → II → III مسار موازٍ من ثلاث سنوات ينتهي بموقع شخصي",
-      "of": "c8fb6a60",
+      "t": "يتطلّب AP Studio Art موافقة القسم. وهو في الكتالوج. ولا يُدرجه ملفّ 2026–27. ويجري Portfolio نقطة انطلاق بديلة نحو AP، وPhotography I ثم II ثم III مسار موازٍ من ثلاث سنوات ينتهي بموقع شخصي",
+      "of": "9cf506bb",
       "at": [
         "davidson-day:visual.pathNote"
       ]
@@ -5640,8 +5731,8 @@
       ]
     },
     {
-      "t": "جذب Mean Girls في 2023 ترشيحات أفضل مسرحية غنائية وأفضل فرقة/جوقة وأفضل إخراج عام. وكان لـ Once Upon a One More Time خمسة متأهّلين في 2025. وأنتج Big Fish في 2026 خمسة آخرين: أفضل ممثّل · أفضل ممثّلة · أفضل ممثّل مساعد · أفضل ممثّلة مساعدة · أفضل مؤدٍّ مميَّز.",
-      "of": "c45b92f1",
+      "t": "جذب Mean Girls في 2023 ترشيحات أفضل مسرحية غنائية وأفضل فرقة/جوقة وأفضل إخراج عام. وكان لـ Something Rotten! خمسة متأهّلين في 2024. وكان لـ Once Upon a One More Time خمسة متأهّلين في 2025. وأنتج Big Fish في 2026 خمسة آخرين: أفضل ممثّل · أفضل ممثّلة · أفضل ممثّل مساعد · أفضل ممثّلة مساعدة · أفضل مؤدٍّ مميَّز.",
+      "of": "ec072dc1",
       "at": [
         "davidson-day:verdict.holdsUp[2].text"
       ]
@@ -5654,8 +5745,8 @@
       ]
     },
     {
-      "t": "Photography I–III إلى جانب Studio I → Studio II Honors → AP Studio Art مدرج من أربع إلى خمس سنوات، مع Portfolio طريقًا ثانيًا أكثر توجيهًا ذاتيًّا للدخول.",
-      "of": "5031b1c4",
+      "t": "Photography I–III إلى جانب Studio I ثم Studio II Honors ثم AP Studio Art مدرج من أربع إلى خمس سنوات، مع Portfolio طريقًا ثانيًا أكثر توجيهًا ذاتيًّا للدخول. وAP Studio Art في الكتالوج؛ ولا يُدرجه ملفّ 2026–27.",
+      "of": "7d5fa16b",
       "at": [
         "davidson-day:verdict.holdsUp[3].text"
       ]
@@ -5668,8 +5759,8 @@
       ]
     },
     {
-      "t": "Film Studies & Production وModern Music (تأليف في GarageBand، وبناء موسيقى تصويرية)، إضافةً إلى اشتراط الموقع الشخصي في Photography III، تمنح الطالب الميّال للوسائط ناتجًا ظاهرًا في ملفّ الأعمال دون اشتراط أداء.",
-      "of": "aba5b860",
+      "t": "يتيح Film Studies & Production وModern Music (تأليف في GarageBand، وبناء موسيقى تصويرية) للطالب بناء أعمال في الوسائط دون أداء. وكذلك Photography III، حيث ينشئ الطلاب موقعًا شخصيًّا. ويشير ملفّ 2026–27 إلى أن Modern Music غير مطروح هذه السنة.",
+      "of": "0961f94b",
       "at": [
         "davidson-day:verdict.holdsUp[4].text"
       ]
@@ -5738,8 +5829,15 @@
       ]
     },
     {
-      "t": "برنامج فنون للصفوف K–12 — موسيقى وفنّ متكاملان لكل طالب في الصفوف K–4، يتحوّل إلى مسار متسلسل مدفوع بالمواد الاختيارية من الصف الخامس فما فوق.",
-      "of": "97212600",
+      "t": "هل يُدرَّس AP Studio Art وModern Music هذه السنة؟",
+      "of": "b2ce5eb7",
+      "at": [
+        "davidson-day:verdict.ask[7]"
+      ]
+    },
+    {
+      "t": "برنامج فنون للصفوف K–12 — موسيقى وفنّ متكاملان في الصفوف المبكّرة، يتحوّل إلى مسار مدفوع أكثر بالمواد الاختيارية من الصف 5 فما فوق.",
+      "of": "91aff7f6",
       "at": [
         "carmel-christian:ladder.headline"
       ]
@@ -5752,8 +5850,8 @@
       ]
     },
     {
-      "t": "برنامج فنون، متكامل K–4",
-      "of": "38b25f94",
+      "t": "برنامج فنون، متكامل في الصفوف المبكّرة",
+      "of": "dbc25833",
       "at": [
         "carmel-christian:ladder.stats[0].label"
       ]
@@ -5787,8 +5885,8 @@
       ]
     },
     {
-      "t": "كل طالب في الصفوف K–4 يأخذ حصص موسيقى وفنّ معاً",
-      "of": "3689145f",
+      "t": "تذكر صفحة الفنون أن كل طالب في الصفوف K–4 يأخذ موسيقى وفنًّا؛ ويُدرج دليل المرحلة الابتدائية لعام 2026–27 الموسيقى لكل صف حتى 5",
+      "of": "6e9a6a21",
       "at": [
         "carmel-christian:ladder.divisions[0].items[0]"
       ]
@@ -5843,24 +5941,31 @@
       ]
     },
     {
-      "t": "Choir · Symphonic Band · Ignite Band (HS Praise Band، قائمة على تجربة أداء)",
-      "of": "e7f845fc",
+      "t": "Symphonic Band · Ignite Band (HS Praise Band، قائمة على تجربة أداء)",
+      "of": "ae370af2",
       "at": [
         "carmel-christian:ladder.divisions[2].items[0]"
       ]
     },
     {
-      "t": "المسرح إضافةً إلى Technical Theater and Design",
-      "of": "d55eadc7",
+      "t": "Theatre",
+      "of": "25e3c5ec",
       "at": [
         "carmel-christian:ladder.divisions[2].items[1]"
       ]
     },
     {
-      "t": "Visual Arts · Digital Photography · Yearbook · Creative Writing · Journalism",
-      "of": "13fbd309",
+      "t": "Visual Arts · Digital Photography · Yearbook",
+      "of": "42582eda",
       "at": [
         "carmel-christian:ladder.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "في صفحة الفنون لا في دليل مقرّرات 2026–27: Choir وTechnical Theater and Design وCreative Writing وJournalism",
+      "of": "031ea7a1",
+      "at": [
+        "carmel-christian:ladder.divisions[2].items[3]"
       ]
     },
     {
@@ -5977,22 +6082,36 @@
       ]
     },
     {
-      "t": "ترشيحان بحسب صفحة أخبار المدرسة غير المؤرَّخة: Best Actress وBest Actor. تنسبهما المدرسة إلى \"Singin' in the Rain\"، وهو إنتاج أسبق من Anastasia؛ والسنة الدقيقة غير منشورة.",
-      "of": "f171a3f9",
+      "t": "ثلاثة متأهّلين: أفضل ممثّل مساعد (بدور George Banks) · أفضل ممثّلة مساعدة (بدور Winifred Banks) · أفضل مؤدٍّ مميَّز (بدور Miss Andrew).",
+      "of": "cc1c7c41",
       "at": [
         "carmel-christian:theatre.ledger[3].result"
       ]
     },
     {
-      "t": "حلّت طالبة واحدة في مراكز في ثلاث سنوات متتالية. فقد كانت متأهّلة نهائية في دور Lily في 2024 وفي دور Laurey Williams في 2025. وفي 2026 فازت بجائزة Best Actress عن Footloose وتأهّلت إلى Jimmy Awards الوطنية. وترشيحات 2024 تعود إلى Anastasia، لا إلى \"Singin' in the Rain\". فصفحة أخبار المدرسة غير المؤرَّخة تنسب زوجاً منفصلاً أسبق من الترشيحات إلى ذلك الإنتاج.",
-      "of": "65906468",
+      "t": "سابقًا (السنة غير منشورة)",
+      "of": "aca49800",
+      "at": [
+        "carmel-christian:theatre.ledger[4].year"
+      ]
+    },
+    {
+      "t": "ترشيحان بحسب صفحة أخبار المدرسة غير المؤرَّخة: Best Actress وBest Actor. تنسبهما المدرسة إلى \"Singin' in the Rain\"، وهو إنتاج أسبق من Anastasia؛ والسنة الدقيقة غير منشورة.",
+      "of": "f171a3f9",
+      "at": [
+        "carmel-christian:theatre.ledger[4].result"
+      ]
+    },
+    {
+      "t": "حلّ اثنان من الطلاب في مراكز في ثلاث سنوات متتالية لكل منهما: أحدهما في 2023–25 والآخر في 2024–26. كان الأول متأهّلًا نهائيًّا في أدوار George Banks وDmitry وCurly McLain. أما الثانية فكانت متأهّلة نهائية في دور Lily في 2024 وفي دور Laurey Williams في 2025. وفي 2026 فازت الطالبة نفسها بجائزة Best Actress عن Footloose وتأهّلت إلى Jimmy Awards الوطنية. وترشيحات 2024 تعود إلى Anastasia، لا إلى \"Singin' in the Rain\". فصفحة أخبار المدرسة غير المؤرَّخة تنسب زوجاً منفصلاً أسبق من الترشيحات إلى ذلك الإنتاج.",
+      "of": "dde352f0",
       "at": [
         "carmel-christian:theatre.honestContext"
       ]
     },
     {
-      "t": "ثلاث فِرَق مسمّاة عبر المراحل — Symphonic Band وChoir وفريق التسبيح Ignite Band القائم على تجربة أداء.",
-      "of": "594b5b4b",
+      "t": "ثلاث فِرَق مسمّاة في صفحات الفنون — Symphonic Band وChoir وفريق التسبيح Ignite Band القائم على تجربة أداء.",
+      "of": "8e17d8d5",
       "at": [
         "carmel-christian:music.headline"
       ]
@@ -6012,8 +6131,8 @@
       ]
     },
     {
-      "t": "Ignite Band هي فريق تسبيح المرحلة الثانوية. والفرقة قائمة على تجربة أداء: إرسال فيديو يتبعه جولة حضورية بالدعوة. ولا تُنشَر أي أوركسترا أو مجموعة a cappella أو Tri-M / جمعية تكريم موسيقية.",
-      "of": "35b14ff2",
+      "t": "تُدرج صفحة الفنون High School Choir؛ ولا يُدرجها Course Description Guide لعام 2026–27. وIgnite Band هي فريق تسبيح المرحلة الثانوية. والفرقة قائمة على تجربة أداء: إرسال فيديو يتبعه جولة حضورية بالدعوة. ولا تُنشَر أي أوركسترا أو مجموعة a cappella أو Tri-M / جمعية تكريم موسيقية.",
+      "of": "ef0f0816",
       "at": [
         "carmel-christian:music.boardNote"
       ]
@@ -6027,8 +6146,8 @@
       ]
     },
     {
-      "t": "تبدأ الجوقة من الصف 5 والفرقة من المرحلة المتوسطة، وتستمرّان كلتاهما حتى المرحلة الثانوية، مع حفلات عيد الميلاد والربيع على تقويم المرحلة المتوسطة.",
-      "of": "5bdeb6bf",
+      "t": "تبدأ الجوقة من الصف 5 والفرقة من المرحلة المتوسطة، مع حفلات عيد الميلاد والربيع على تقويم المرحلة المتوسطة. وتذكر صفحة الفنون أن كلتيهما تستمرّان حتى المرحلة الثانوية. ويُدرج دليل مقرّرات 2026–27 الفرقة فيها، لكن لا يُدرج جوقة.",
+      "of": "8fda8037",
       "at": [
         "carmel-christian:music.ladder[0].text"
       ]
@@ -6055,8 +6174,8 @@
       ]
     },
     {
-      "t": "مسار studio يتّسع إلى الإعلام والمنشورات في المرحلة الثانوية — فنون بصرية وتصوير رقمي ومجلّة سنوية وكتابة إبداعية وصحافة.",
-      "of": "04dd2270",
+      "t": "مسار studio يتّسع في المرحلة الثانوية إلى التصوير الرقمي والمجلّة السنوية. وتذكر صفحة الفنون أيضًا الكتابة الإبداعية والصحافة، ولا يُدرجهما دليل مقرّرات 2026–27.",
+      "of": "1420e354",
       "at": [
         "carmel-christian:visual.headline"
       ]
@@ -6098,8 +6217,8 @@
       ]
     },
     {
-      "t": "مادّة اختيارية فنية في المرحلة الثانوية",
-      "of": "a9b384c1",
+      "t": "في صفحة الفنون، لا في دليل مقرّرات 2026–27",
+      "of": "20c08f46",
       "at": [
         "carmel-christian:visual.media[3].detail",
         "carmel-christian:visual.media[4].detail"
@@ -6148,8 +6267,8 @@
       ]
     },
     {
-      "t": "أخذت طالبة Best Actress عن \"Footloose\" في جوائز Blumey لعام 2026، كما أفادت WFAE. ثم مضت إلى Jimmy Awards الوطنية. وكان فوزًا صريحًا، بعد مراكز نهائية في 2024 و2025.",
-      "of": "b83e1427",
+      "t": "أخذت طالبة Best Actress عن \"Footloose\" في جوائز Blumey لعام 2026، كما أفادت WFAE. ثم مضت إلى Jimmy Awards الوطنية. وكان فوزًا صريحًا، بعد مراكز نهائية للطالبة نفسها في 2024 و2025.",
+      "of": "96be9d4d",
       "at": [
         "carmel-christian:verdict.holdsUp[0].text"
       ]
@@ -6162,8 +6281,8 @@
       ]
     },
     {
-      "t": "حلّت مسيرة \"Footloose\" لعام 2026 في مراكز في ستّ فئات (ممثّلة، ممثّل، كلا الدورين المساندين، أداء مميّز، وتصميم رقصات). وكان لـ \"Oklahoma!\" خمسة متأهّلين في 2025. وكان لـ \"Anastasia\" خمسة في 2024، اثنان منهم مرشَّحان ضمن الستة الأوائل.",
-      "of": "62b994ff",
+      "t": "حلّت مسيرة \"Footloose\" لعام 2026 في مراكز في ستّ فئات (ممثّلة، ممثّل، كلا الدورين المساندين، أداء مميّز، وتصميم رقصات). وكان لـ \"Oklahoma!\" خمسة متأهّلين في 2025. وكان لـ \"Anastasia\" خمسة في 2024، اثنان منهم مرشَّحان ضمن الستة الأوائل. وكان لـ \"Mary Poppins\" ثلاثة في 2023.",
+      "of": "7a9c6fca",
       "at": [
         "carmel-christian:verdict.holdsUp[1].text"
       ]
@@ -6177,8 +6296,8 @@
       ]
     },
     {
-      "t": "يسير دليل Course Offerings عبر Art I/II → Honors Art III/IV → AP 2-D Art & Design، إضافةً إلى مجموعة إعلام ومنشورات (تصوير رقمي، مجلّة سنوية، كتابة إبداعية، صحافة) في المرحلة الثانوية.",
-      "of": "5bdf3ffc",
+      "t": "يسير دليل Course Offerings عبر Art I/II ثم Honors Art III/IV ثم AP 2-D Art & Design، إضافةً إلى التصوير الرقمي والمجلّة السنوية في المرحلة الثانوية. وتضيف صفحة الفنون الكتابة الإبداعية والصحافة، ولا يُدرجهما الدليل.",
+      "of": "ee4f34d2",
       "at": [
         "carmel-christian:verdict.holdsUp[2].text"
       ]
@@ -6212,31 +6331,38 @@
       ]
     },
     {
-      "t": "يدرج دليل Course Offerings مقرّرات Honors Art III/IV وHonors Acting Studio وAP 2-D Art & Design، لكن صفحة الفنون لا تسمّي أياً منها. أيٌّ منها يُدرَّس فعلاً كل عام؟",
-      "of": "c5e2aed2",
+      "t": "يدرج دليل Course Offerings مقرّرات Honors Art III/IV وHonors Acting Studio وAP 2-D Art & Design، لكن صفحة الفنون لا تسمّي أياً منها. وتُدرج صفحة الفنون Choir وTechnical Theater وCreative Writing وJournalism، ولا يُدرجها الدليل. أيٌّ منها يُدرَّس فعلاً كل عام؟",
+      "of": "ee35a9c7",
       "at": [
         "carmel-christian:verdict.ask[2]"
+      ]
+    },
+    {
+      "t": "هل يدرس كل طالب في الصف 5 الموسيقى؟",
+      "of": "c795a96a",
+      "at": [
+        "carmel-christian:verdict.ask[3]"
       ]
     },
     {
       "t": "هل توجد أي موسيقى إلى جانب الفرقة والجوقة وفِرَق تسبيح Ignite — أوركسترا، أو برنامج آلات وترية، أو مجموعة a cappella؟",
       "of": "6279455d",
       "at": [
-        "carmel-christian:verdict.ask[3]"
+        "carmel-christian:verdict.ask[4]"
       ]
     },
     {
       "t": "ماذا يحدث في فعالية \"Honor Band\" في المرحلة المتوسطة، وهل يخوض الطلاب منها تجربة أداء لأي فرقة تكريم على مستوى الولاية أو الإقليم؟",
       "of": "ec980e55",
       "at": [
-        "carmel-christian:verdict.ask[4]"
+        "carmel-christian:verdict.ask[5]"
       ]
     },
     {
-      "t": "هل كان زوج Blumey لـ \"Singin' in the Rain\" سنةً منفصلةً عن ترشيحات \"Anastasia\" لعام 2024 — وأي سنة كانت؟",
-      "of": "ef6f25b5",
+      "t": "في أي سنة كان زوج Blumey لـ \"Singin' in the Rain\"؟ كان عرض 2023 هو \"Mary Poppins\" وعرض 2024 هو \"Anastasia\".",
+      "of": "def3db5a",
       "at": [
-        "carmel-christian:verdict.ask[5]"
+        "carmel-christian:verdict.ask[6]"
       ]
     },
     {
@@ -6970,8 +7096,8 @@
       ]
     },
     {
-      "t": "تقدّم المدرسة إنتاجين كبيرين كل سنة، أحدهما المسرحية الغنائية الربيعية. والعناوين والتواريخ المحدّدة غير منشورة.",
-      "of": "5d1d381a",
+      "t": "تقدّم المدرسة إنتاجين كبيرين كل سنة، أحدهما المسرحية الغنائية الربيعية. ولا تنشر المدرسة عناوين ولا تواريخ. ويذكر سجلّ Blumey في هذه البطاقة ثلاثة عروض حديثة.",
+      "of": "6a356a7b",
       "at": [
         "gaston-day:theatre.season[0].detail"
       ]
@@ -7040,8 +7166,36 @@
       ]
     },
     {
-      "t": "لا تنشر المدرسة عناوين إنتاجات ولا تواريخ عروض ولا أحجام فرق تمثيل ولا نتائج مسابقات مسرحية. ولا تذكر ما إذا كانت لديها فرقة في International Thespian Society. فشكل البرنامج موثَّق جيدًا، لكن سجلّه ليس كذلك. ولذلك لا تحمل هذه البطاقة سجلّ جوائز عمدًا بدلًا من أن تحمل سجلًّا فارغًا.",
-      "of": "a3700cea",
+      "t": "سجلّ Blumey — من 2024 إلى 2026",
+      "of": "e75c166c",
+      "at": [
+        "gaston-day:theatre.ledgerTitle"
+      ]
+    },
+    {
+      "t": "خمسة متأهّلين: Best Actor (بدور Professor Bhaer) · Best Actress (بدور Jo March) · Best Supporting Actor (بدور John Brooke) · Best Supporting Actress (بدور Meg) · Best Featured Performer (بدور Aunt March/Mrs. Kirk). ولم يكن أيٌّ منهم مرشَّحًا ضمن الستة الأوائل.",
+      "of": "49dcdaf2",
+      "at": [
+        "gaston-day:theatre.ledger[0].result"
+      ]
+    },
+    {
+      "t": "ترشيح لأفضل إخراج. وخمسة متأهّلين: أفضل ممثّل (بدور Minstrel) · أفضل ممثّلة (بدور Princess Winnifred) · أفضل ممثّل مساعد (بدور Prince Harry) · أفضل ممثّلة مساعدة (بدور Lady Larken) · أفضل مؤدٍّ مميَّز (بدور King Sextimus).",
+      "of": "cc18ffcc",
+      "at": [
+        "gaston-day:theatre.ledger[1].result"
+      ]
+    },
+    {
+      "t": "ترشيحان: أفضل ممثّلة (بدور Lucy) وأفضل مصمّم ديكور طالب. وخمسة متأهّلين: أفضل ممثّل (بدور Snoopy) · أفضل ممثّلة (بدور Lucy) · أفضل ممثّل مساعد (بدور Linus) · أفضل ممثّلة مساعدة (بدور Sally) · أفضل مؤدٍّ مميَّز (بدور Little Red Headed Girl).",
+      "of": "b8f8345f",
+      "at": [
+        "gaston-day:theatre.ledger[2].result"
+      ]
+    },
+    {
+      "t": "تذكر قوائم Blumey لدى Blumenthal مدرسة Gaston Day في 2024 و2025 و2026، بخمسة متأهّلين كل سنة وثلاثة ترشيحات في المجموع. ولا ينشر موقع المدرسة نفسه عناوين إنتاجات ولا تواريخ عروض ولا أحجام فرق تمثيل. ولا يذكر أيضًا ما إذا كانت لديها فرقة في International Thespian Society.",
+      "of": "615c0ceb",
       "at": [
         "gaston-day:theatre.honestContext"
       ]
@@ -7236,8 +7390,8 @@
       ]
     },
     {
-      "t": "ما ينقص هو السجلّ لا البرنامج: إذ لا يكاد يُنشَر شيء بحسب السنة أو العنوان أو الاسم.",
-      "of": "34f65bf8",
+      "t": "ما ينقص هو التفاصيل من المدرسة نفسها: إذ لا تكاد تنشر شيئًا بحسب السنة أو العنوان أو الاسم. وتوفّر قوائم Blumenthal ثلاث سنوات من سجلّها في Blumey.",
+      "of": "31e452fd",
       "at": [
         "gaston-day:verdict.subhead"
       ]
@@ -7327,8 +7481,8 @@
       ]
     },
     {
-      "t": "ما إنتاجات السنتين الأخيرتين، وكم طالبًا أُسنِد إليه دور تمثيلي مقابل من عمل في الطاقم؟",
-      "of": "95c3ac2d",
+      "t": "بخلاف العروض في قوائم Blumey، ما إنتاجات السنتين الأخيرتين، وكم طالبًا أُسنِد إليه دور تمثيلي مقابل من عمل في الطاقم؟",
+      "of": "0d132fe4",
       "at": [
         "gaston-day:verdict.ask[0]"
       ]

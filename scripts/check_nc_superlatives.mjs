@@ -35,7 +35,8 @@ import path from 'node:path'
 const DIR = 'src/data/collegeSupportPrograms'
 const num = (s) => Number(String(s).replace(/,/g, ''))
 
-const LOW_LABEL = 'the most selective of the six'
+// The second form dates the claim, for a school where another campus is lower over five years (LAT-U13).
+const LOW_LABELS = ['the most selective of the six', 'the lowest of the six in Fall 2025']
 const HIGH_LABEL = 'largest admit rates of the six'
 
 const findings = []
@@ -68,10 +69,11 @@ for (const file of fs.readdirSync(DIR).sort()) {
   const highest = pick((x, y) => x > y)
 
   for (const [label, winner, which] of [
-    [LOW_LABEL, lowest, 'lowest'],
+    [LOW_LABELS.find((l) => rows.some((r) => r.note.includes(l))) ?? LOW_LABELS[0], lowest, 'lowest'],
     [HIGH_LABEL, highest, 'highest'],
   ]) {
-    const carriers = rows.filter((r) => r.note.includes(label))
+    const forms = which === 'lowest' ? LOW_LABELS : [label]
+    const carriers = rows.filter((r) => forms.some((l) => r.note.includes(l)))
     if (carriers.length === 0) {
       findings.push(`${school}: no row carries "${label}" (should be ${winner.name}, ${winner.rate}%)`)
     } else if (carriers.length > 1) {
@@ -95,8 +97,14 @@ for (const file of fs.readdirSync(DIR).sort()) {
     }
   }
 
-  const tile = seg.match(/\{ value: '([\d.]+%)', label: 'at ([^—]+) — ([\d,]+) of ([\d,]+), ([^']*)' \}/)
-  if (tile && /toughest|most selective/.test(tile[5])) {
+  // The tile names its term since plan consistency5 (LAT-U13): "23 of 69 in Fall 2025, the
+  // lowest of the six that year". A shape this regex misses would skip the rule silently,
+  // so a superlative tile that does not parse is itself a finding.
+  const tile = seg.match(/\{ value: '([\d.]+%)', label: 'at ([^—]+) — ([\d,]+) of ([\d,]+)(?: in Fall \d{4})?, ([^']*)' \}/)
+  if (!tile && /label: 'at [^']*(?:toughest|lowest|most selective)/.test(seg)) {
+    findings.push(`${school}: the stat tile makes a ranking claim in a shape this check cannot read.`)
+  }
+  if (tile && /toughest|lowest|most selective/.test(tile[5])) {
     const name = tile[2].trim()
     const named = rows.find((r) => r.name === name)
     if (!named) findings.push(`${school}: stat tile names unknown campus ${JSON.stringify(name)}`)

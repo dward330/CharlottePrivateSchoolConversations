@@ -382,3 +382,20 @@ Opened 2026-11-22 (curl, HTTP 200; pdftotext).
   - Western Carolina University
 - This supersedes the note above that the bold could not be recovered. The profile gives no count
   of students per college.
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.gastonday.org/upper-school/ (curl): the College Counseling part prints a short list
+  of colleges. It has no class or year in the fetched text. It includes "Agnes Scott College",
+  "Brenau University", "Brown University", "Harvard College", "Massachusetts Institute of
+  Technology" and "Wheaton College". None of those six is on the 2019-2025 profile list. Not merged:
+  the list is undated.
+- The same page: "Students also have the opportunity to serve as leaders on the Upper School
+  Student Government". Its Clubs part names "3-D Printing Club to Green Team to International
+  Council". The November 2025 profile does not name Student Government.
+
+### Re-verification 2026-11-22 (plan consistency5, planning)
+
+https://www.gastonday.org/upper-school/: the college list follows the paragraph on college
+placement, with no heading, year, class, or "accepted" or "enrolled" wording in the page text. It
+names Harvard College, Brown University and Massachusetts Institute of Technology.

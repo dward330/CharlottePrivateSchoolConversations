@@ -24,13 +24,17 @@
  * dependency. isRtl() reads `document`, absent here, so this runs LTR; RTL
  * isolates are check:bidi's job.
  *
- * Two invariants, checked for every string in the corpus:
+ * Three invariants, checked for every string in the corpus:
  *
  *   comma  count of /,(?!\d)/ is unchanged by rendering. A rendered figure never
  *          ends in a comma, and every grouping/decimal comma Intl emits is
  *          followed by a digit — so any drop is punctuation the renderer ate.
  *   cents  every "$N.NN" token's fraction digits appear in the output right
  *          after "." or ",".
+ *   period rendering never creates a double period: es, fr and it abbreviate
+ *          "/wk" and "/sem" with a period, which doubled the one ending the
+ *          sentence (plan consistency5, 7d). Unit strings are checked with or
+ *          without money, and the English is rendered in all three locales too.
  *
  * Corpus: every work-file `text` (rendered as en) and `t` (as its own locale),
  * plus every line of every .ts file under src/data holding "$<digit>" (as en) — the latter
@@ -81,15 +85,19 @@ if (typeof fmt.localizeMoneyText !== 'function') {
 const render = (lang, s) => { stub.resolvedLanguage = lang; stub.language = lang; return fmt.localizeMoneyText(s) }
 const COMMA = /,(?!\d)/g
 const CENTS = /\$\d+(?:,\d{3})*\.(\d+)/g
+const DOUBLE = /(?<!\.)\.\.(?!\.)/g
+const UNIT = /\/(?:yr|mo|sem|wk|class|hr)\b/
+const ABBREVIATING = ['es', 'fr', 'it']
 
 function findings(lang, input) {
-  if (!/\$\d/.test(input)) return []
+  if (!/\$\d/.test(input) && !UNIT.test(input)) return []
   const out = render(lang, input)
   const f = []
   if ((input.match(COMMA) || []).length !== (out.match(COMMA) || []).length) f.push(['comma', input, out])
   for (const m of input.matchAll(CENTS)) {
     if (!out.includes(`.${m[1]}`) && !out.includes(`,${m[1]}`)) { f.push(['cents', input, out]); break }
   }
+  if ((out.match(DOUBLE) || []).length > (input.match(DOUBLE) || []).length) f.push(['period', input, out])
   return f
 }
 
@@ -98,11 +106,12 @@ const FIXED = [
   'fees $2,175, as the school', 'a fee of $250, non-refundable', '($850, $1,500, $9,000)',
   '$250,000, then', '$1,018–$3,290, or', '$11.50/hr', '$1.00', '$11,647.50', '$3.0M',
   '$3.25M, and', '$220K, then', '≈$378/mo, or', '$36,500', '$3,683,971.',
+  'care is $100/wk.', 'it costs $950/sem. The rest', 'billed /wk.', 'and $60/wk...',
 ]
 
 const byLocale = {}
 const add = (lang, kind, input, out) => {
-  const b = (byLocale[lang] ??= { comma: 0, cents: 0, examples: [] })
+  const b = (byLocale[lang] ??= { comma: 0, cents: 0, period: 0, examples: [] })
   b[kind]++
   if (b.examples.length < 5) b.examples.push(`${kind}: ${JSON.stringify(input.slice(0, 140))}\n        → ${JSON.stringify(out.slice(0, 140))}`)
 }
@@ -111,7 +120,7 @@ const add = (lang, kind, input, out) => {
 const seen = new Set()
 let checked = 0
 const run = (lang, s) => {
-  if (!/\$\d/.test(s)) return
+  if (!/\$\d/.test(s) && !UNIT.test(s)) return
   const key = `${lang}\u0000${s}`
   if (seen.has(key)) return
   seen.add(key)
@@ -127,7 +136,10 @@ for (const f of readdirSync(WORK).filter((n) => n.endsWith('.json'))) {
   if (!LOCALES.includes(lang)) continue
   const w = JSON.parse(readFileSync(join(WORK, f), 'utf8'))
   for (const e of w.strings ?? []) {
-    if (typeof e.text === 'string') run('en', e.text)
+    if (typeof e.text === 'string') {
+      run('en', e.text)
+      if (UNIT.test(e.text)) for (const l of ABBREVIATING) run(l, e.text)
+    }
     if (typeof e.t === 'string' && e.t) run(lang, e.t)
   }
 }
@@ -137,17 +149,20 @@ const walk = (d) => readdirSync(d).flatMap((n) => {
   return statSync(p).isDirectory() ? (n === 'overlays' ? [] : walk(p)) : p.endsWith('.ts') ? [p] : []
 })
 for (const p of walk(join(ROOT, 'src/data'))) {
-  for (const line of readFileSync(p, 'utf8').split('\n')) if (/\$\d/.test(line)) run('en', line)
+  for (const line of readFileSync(p, 'utf8').split('\n')) {
+    if (/\$\d/.test(line)) run('en', line)
+    if (UNIT.test(line) && !/https?:|^\s*(?:\/\/|\*)/.test(line)) for (const l of ABBREVIATING) run(l, line)
+  }
 }
 
 const bad = Object.entries(byLocale)
 if (!bad.length) {
-  console.log(`✓ ${checked} money-bearing strings rendered through the real format.ts in ${LOCALES.length} locales — no punctuation eaten, no cents dropped`)
+  console.log(`✓ ${checked} money-bearing strings rendered through the real format.ts in ${LOCALES.length} locales — no punctuation eaten or doubled, no cents dropped`)
   process.exit(0)
 }
 for (const [lang, b] of bad) {
-  console.log(`✗ ${lang}: ${b.comma} comma finding(s), ${b.cents} cents finding(s)`)
+  console.log(`✗ ${lang}: ${b.comma} comma finding(s), ${b.cents} cents finding(s), ${b.period} period finding(s)`)
   for (const ex of b.examples) console.log(`    ${ex}`)
 }
-console.log(`\n${bad.reduce((n, [, b]) => n + b.comma + b.cents, 0)} finding(s). Fix src/lib/format.ts — never the data: the source figures are what the school published.`)
+console.log(`\n${bad.reduce((n, [, b]) => n + b.comma + b.cents + b.period, 0)} finding(s). Fix src/lib/format.ts — never the data: the source figures are what the school published.`)
 process.exit(1)

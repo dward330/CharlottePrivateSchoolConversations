@@ -462,3 +462,14 @@ Fetched https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlv
 - International Research Projects: "Davidson Day has led full-scale ongoing archaeological research with the American Foreign Academic Research, more commonly recognized as AFAR, organization in Belize since 2009, Spain since 2014, Greece since 2017, and Portugal since 2018."
 
 These match the transcription above. Note for the consistency plan: the school's Global Studies page (fetched the same day, see the International Travel Source URLs file) states different requirements, and the school's archived International Research page dates AFAR's Belize work to 2006.
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf
+(curl, pdftotext), the course grid:
+
+- Key: "*New course for 26-27, **Course not offered in 26-27, *** Classes offered through North
+  Carolina Virtual Public School."
+- Marked **: "Creative Writing**", "Forensics**, Zoology**", "Spanish Literature**", "Modern Music**".
+- Fine Arts prints "Studio I*, Studio II*" under College Prep, and no AP Studio Art.
+- "in Belize since 2009, Spain since 2014, Greece since 2017, and Portugal since 2018".

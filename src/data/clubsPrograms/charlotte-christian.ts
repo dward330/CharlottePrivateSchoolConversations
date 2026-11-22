@@ -79,7 +79,7 @@ export const charlotteChristian: ClubsProgram = {
       },
       {
         title: 'Middle School',
-        text: 'Students learn about other cultures in class, in heritage months and on field trips. Grade 6 visits Sudan Interior Missions. Grade 7 visits the Butterfly Memorial dedicated to the Holocaust Museum. Grade 8 has activities on the Civil Rights Movement.',
+        text: 'Students learn about other cultures in class, in heritage months and on field trips. Grade 6 visits Sudan Interior Missions. Grade 7 visits what the school calls “the Butterfly Memorial dedicated to the Holocaust Museum.” Grade 8 has activities on the Civil Rights Movement.',
       },
       {
         title: 'Parents',

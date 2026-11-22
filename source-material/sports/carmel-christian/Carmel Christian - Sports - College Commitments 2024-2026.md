@@ -153,3 +153,9 @@ Class of 2027.md`, which is provisional until the early signing period (opens 20
 | Jaeden Mustaf — Georgia Tech → Indiana | RealGM (2024) | Not on Carmel's 2023-24 roster, and the dossier already flagged that he graduated elsewhere |
 | Landon Boyd — Florida International | HighSchoolOT baseball tracker | Contradicted by the school's list and Perfect Game (USC Aiken). The row stays at USC Aiken |
 | [name withheld] — South Carolina (dance) | Next Steps | Not an intercollegiate sport (see above) |
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://charlotte.jwuathletics.com/ and https://charlotte.jwuathletics.com/sports/mens-basketball/schedule/2024-25 (fetched): both name the Coast-To-Coast Athletic Conference (C2C) and carry the NCAA mark in the footer. Neither names the USCAA. This supports the C2C row in this record.

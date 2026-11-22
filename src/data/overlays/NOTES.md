@@ -329,7 +329,7 @@ and wrong in another, and only the path can tell them apart.
 9. **Enrichment class *descriptions* are translated; class *names* are not** —
    the names live in a skipped field as published (`Chess`, `Mad Science`,
    `Beyond the Bell` classes with named providers). Provider names inside the
-   translated descriptions also stay English (`BrickEd`, `Carolina Soccer
+   translated descriptions also stay English ([name withheld], `Carolina Soccer
    Factory`, `Le Petit Ballet Co.`). Intentional, and worth confirming it reads
    as deliberate rather than half-finished.
 

@@ -17,7 +17,7 @@
 From nothing on record to **3** committed, **2** Division I, **1** Power 4 for the Classes of
 2024–2026: two volleyball players (Megan Brown ’24, Wofford; Anne Bradley Bing ’25, South
 Carolina) and one boys basketball player (Braylen Todd ’26, Johnson & Wales–Charlotte,
-USCAA). Gaston Day had no College Pipeline card before this pass, and the two Compare window
+C2C, NCAA Division III; corrected 2026-11-22). Gaston Day had no College Pipeline card before this pass, and the two Compare window
 rows were `null`.
 
 ## Scope

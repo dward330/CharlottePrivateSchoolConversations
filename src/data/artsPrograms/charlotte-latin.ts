@@ -38,7 +38,7 @@ const CL_ARTSWALK = 'https://www.charlottelatin.org/the-arts/artswalk'
 export const charlotteLatin: ArtsProgram = {
   ladder: {
     headline:
-      'A TK–12 arts program built for breadth over selection — one band, one orchestra and one choir per division, with the stage "open to everyone."',
+      'A TK–12 arts program built for breadth over selection — band, orchestra and choir, each open to grades 5–12 with no auditioned tier, and the stage "open to everyone."',
     subhead:
       'Over 80% of students participate (school-reported, no methodology published). Anchored by the Horne Performing Arts Center, six visual art studios, a Student Art Gallery and the permanent Arts Walk collection.',
     stats: [
@@ -147,7 +147,7 @@ export const charlotteLatin: ArtsProgram = {
       'Alicia Long heads the performing arts program. The tech track is laid out step by step, and the school undersells it. First, the backstage/technical course starts in Grade 6 — a year before the acting course. Then the Upper School sequence runs Stagecraft I → Stagecraft II → Advanced Design, plus an after-school stagecraft option. The track produced a 2025 Blumey nomination for Best Student Stage Manager. For a student who would rather build than perform, this is stronger than most peer schools publish.',
     venueNote:
       'Latin runs a dedicated box office (boxoffice@charlottelatin.org) with a waitlist for sold-out shows. The theatre program runs like a ticketed venue. The school publishes no name for a theatre director or technical director. That is a real gap in openness compared with peer schools.',
-    ledgerTitle: 'The Blumey ledger — results from four years',
+    ledgerTitle: 'The Blumey ledger — results from six years',
     ledger: [
       {
         year: '2026',
@@ -160,6 +160,18 @@ export const charlotteLatin: ArtsProgram = {
         show: 'The Drowsy Chaperone',
         result:
           'Nominated: Best Student Stage Manager — a craft category rather than a performance one. It also had five finalists in the performance categories.',
+      },
+      {
+        year: '2024',
+        show: 'Mean Girls High School Edition',
+        result:
+          'Five finalists: Best Actor (as Damien) · Best Actress (as Cady Herron) · Best Supporting Actor (as Aaron Samuels) · Best Supporting Actress (as Karen Smith) · Best Featured Performer (as Kevin G.). No nominations.',
+      },
+      {
+        year: '2023',
+        show: 'Shrek the Musical',
+        result:
+          'Five finalists: Best Actor (as Farquad) · Best Actress (as Fiona) · Best Supporting Actor (as Pinocchio) · Best Supporting Actress (as Dragon) · Best Featured Performer (as Gingy/Wicked Witch).',
       },
       {
         year: '2022',
@@ -176,7 +188,7 @@ export const charlotteLatin: ArtsProgram = {
       },
     ],
     honestContext:
-      'A Best Actress Blumey is the most competitive individual honor in the region, and Latin has one, plus Best Featured Performer the same night. That is a real peak. But results since then are modest. Latin had five finalists in both 2025 and 2026, but its one nomination in those years was for stage manager in 2025. Latin is a real participant, not a dominant one. Separately, no NCTC one-act festival results could be found anywhere. Latin’s competitive theatre centers on the Blumeys (musicals), not on NCTC (a play festival). This ledger covers four years of Blumenthal releases, so it is a floor, not a complete history.',
+      'A Best Actress Blumey is the most competitive individual honor in the region, and Latin has one, plus Best Featured Performer the same night. That is a real peak. But results since then are modest. Latin had five finalists in each year from 2023 to 2026. Its one nomination in 2024–26 was for stage manager in 2025. Latin is a real participant, not a dominant one. Separately, no NCTC one-act festival results could be found anywhere. Latin’s competitive theatre centers on the Blumeys (musicals), not on NCTC (a play festival). This ledger covers six years of Blumenthal releases, so it is a floor, not a complete history.',
     photo: {
       src: '/arts/charlotte-latin-production.jpg',
       name: 'Winnie the Pooh Jr.',
@@ -199,6 +211,8 @@ export const charlotteLatin: ArtsProgram = {
         label: 'Blumenthal Arts — 2025 nominations',
         url: 'https://www.blumenthalarts.org/news/detail/2025-blumey-awards-nominations',
       },
+      { label: 'Blumenthal Arts — 2023 nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf' },
+      { label: 'Blumenthal Arts — 2024 all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf' },
       { label: 'Blumenthal Arts — 2026 nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
       { label: 'Blumenthal Arts — 2025 all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf' },
       {
@@ -210,7 +224,7 @@ export const charlotteLatin: ArtsProgram = {
 
   music: {
     headline:
-      'One band, one orchestra and one choir per division — deliberately inclusive rather than tiered, with a two-step theory path to AP.',
+      'Band, orchestra and choir, each open to grades 5–12 with no auditioned tier — deliberately inclusive, with a two-step theory path to AP.',
     subhead:
       'The school’s own framing: a place for "both the most advanced student and those trying something new for the first time."',
     tracks: [
@@ -354,9 +368,9 @@ export const charlotteLatin: ArtsProgram = {
     ],
     ask: [
       'You offer AP Music Theory but no AP Studio Art, AP 2-D/3-D Art & Design or AP Art History. If my child wants to submit a college-level studio portfolio, what is the path past Art Studio IV?',
-      'Latin had two Blumey wins in 2022, one stage-manager nomination in 2025, and five finalists but no nominations for Cabaret in 2026. What changed, and where is the musical theatre program heading with The Little Mermaid?',
+      'Latin had two Blumey wins in 2022. It had five finalists in each year from 2023 to 2026. In 2024–26 it had only one nomination, for stage manager in 2025. What changed, and where is the musical theatre program heading with The Little Mermaid?',
       'Your materials name Alicia Long, Richard Fletcher and an assistant band director. They name no Director of Bands, orchestra director, choral director, theatre director or technical director. Who leads each ensemble, and how long have they been here?',
-      'There are no auditioned or tiered ensembles published — no jazz band, no a cappella, no chamber or wind ensemble. How does a player already at All-State level keep progressing rather than coasting?',
+      'There are no auditioned or tiered ensembles published — no jazz band, no chamber or wind ensemble. The club list has an open Acapella Club. Is there an auditioned a cappella group, and how does a player already at All-State level keep progressing rather than coasting?',
       'Six studios — which media does each hold? Is there a kiln, a darkroom, a printmaking press, a dedicated dance studio? The Arts Facilities page is photos only, with no descriptive text.',
       'You cite over 80% arts participation. Does that count required Lower and Middle School arts classes, or only elective and ensemble enrollment — and what is the Upper School–only number?',
       'How is the Fab Lab actually used by the arts department, as opposed to Innovation & Design? Walk me through one project combining digital fabrication with studio art.',

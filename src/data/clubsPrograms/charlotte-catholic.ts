@@ -172,7 +172,7 @@ export const charlotteCatholic: ClubsProgram = {
       { label: 'Service academies', text: 'Three US Naval Academy appointments in 2025, plus an Army ROTC scholarship at Cornell.' },
       { label: 'The decile chart', text: 'CCHS does not rank students, so there is no valedictorian or class-rank distinction — a 10-decile GPA chart stands in its place.' },
       { label: 'St. Augustine Scholars Program', text: 'A selective four-year classical pathway, begun in 2025-26 with a group of 9th graders. It is a program, not a society. But it is the school’s most selective academic designation.' },
-      { label: 'Blumey finalists', text: 'Five finalists in 2025 and five more in 2026, with no win in either year.' },
+      { label: 'Blumey finalists', text: 'Five finalists in each of 2024, 2025 and 2026, with no win in 2025 or 2026.' },
     ],
     flags: [
       {

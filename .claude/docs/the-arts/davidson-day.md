@@ -567,6 +567,24 @@ left out on purpose.
  body), looking for Davidson Day under the Best Musical tiers. The Blumeys have no category
  called "Best Show"; Best Musical, in Tier 1 and Tier 2, is its program-level equivalent.
 
+### Re-verification 2026-11-22 (plan consistency5, implement)
+
+Read from copies of Blumenthal's lists saved during plan consistency4, with no new request to
+that site. Roles only: no student is named.
+
+| year | show | category | role |
+|---|---|---|---|
+| 2024 | Something Rotten! | Best Actor (finalist) | Nick Bottom |
+| 2024 | Something Rotten! | Best Actress (finalist) | Bea Bottom |
+| 2024 | Something Rotten! | Best Supporting Actor (finalist) | Nigel Bottom |
+| 2024 | Something Rotten! | Best Supporting Actress (finalist) | Portia |
+| 2024 | Something Rotten! | Best Featured Performer (finalist) | Minstrel |
+
+2024: https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf, with no Davidson Day nomination. 2023 (https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf) lists four nominations: Best Musical
+(Tier 2), Best Ensemble/Chorus, Best Overall Direction and Best Featured Performer (as Mrs. George).
+Best Actress (as Regina George) is on it only as a finalist, beside four other finalists (user
+ruling DD-U3, 2026-11-22).
+
 ## Source URLs
 
 - School Profile 2026–27: https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf
@@ -793,6 +811,7 @@ Student news: "Davidson Day Sophomore Wins International Journalism Award" (davi
 - https://issuu.com/davidsondayschool/docs/2025-2026_upper_school_course_catalogue_
 - https://issuu.com/davidsondayschool/docs/2026-2027_upper_school_course_catalog
 - https://resources.finalsite.net/images/v1790855129/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf
+- https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf
 - https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
 - https://www.blumenthalarts.org/assets/doc/2024-Blumey-Nominees-and-Finalists-6435d5b18b.pdf
 - https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf

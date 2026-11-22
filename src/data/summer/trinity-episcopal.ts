@@ -1214,6 +1214,7 @@ export const trinityEpiscopal: SummerProgram = {
         label: 'Half-day premium / short full-day',
         panelLabel: 'Premium camp · $305–$395 band',
         price: 395,
+        daysPerWeek: 4,
         detail: '8 camps, including the four-day-week full-day sections.',
       },
       {

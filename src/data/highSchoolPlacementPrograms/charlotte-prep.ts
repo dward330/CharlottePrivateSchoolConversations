@@ -2,7 +2,7 @@
 //
 // The SECOND occupant of this area, after Trinity Episcopal, and the area that
 // justifies adding the school: it publishes a top-two-choice acceptance rate
-// for every class since 2023, a named destination list for each of those
+// for every class since 2024 (2023 is a different measure: top choice, singular), a named destination list for each of those
 // classes, and a twelve-step placement process.
 //
 // Source material: source-material/high-school-placement/charlotte-prep/
@@ -68,7 +68,7 @@ export const charlottePrep: HighSchoolPlacementProgram = {
   /* -------------------------------------------- 2a where graduates go -- */
   outcomes: {
     headline:
-      '97% of the Class of 2026 were accepted into one or both of their top two high school choices. Charlotte Prep has published a rate like it for every class since 2023.',
+      '97% of the Class of 2026 were accepted into one or both of their top two high school choices. Charlotte Prep has published a rate like it for every class since 2024.',
     subhead:
       'Fifteen members of the Class of 2026 were accepted to every school they applied to, the school says.',
     stats: [

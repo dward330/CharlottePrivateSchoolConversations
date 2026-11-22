@@ -78,7 +78,7 @@ Notes & gaps
 - Discrepancy to flag: grades 1–5 dismiss at 2:50 pm but the fee matrix bills them from
   3:00 pm. The 2:50–3:00 gap is not explained on any published page.
 - Summer: "Summer at Providence Day School", https://summer.providenceday.org/ — nine
-  sessions, June through early August. Extended Day explicitly does not run in summer
+  sessions, June through July (corrected 2026-11-22: the 2026 brochure ends July 31). Extended Day explicitly does not run in summer
   ("opens on the first day of school and closes on the last day of school"). Summer
   rates, grade ranges and hours: NOT PUBLISHED on the dates-rates page.
 

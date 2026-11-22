@@ -287,11 +287,11 @@ export const carmelChristian: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Carmel Christian School’s applicants were admitted at a pooled 59.2% over the last five entering classes — 346 acceptances from 584 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 25.0% in Fall 2025 — 4 of 16 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 25.0% in Fall 2025 — 4 of 16 — a little below NC State’s 30.8%. The other four ran 57–100%. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '584', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '59.2%', label: 'pooled admit rate — 346 of 584 across those five classes' },
-      { value: '25.0%', label: 'at UNC-Chapel Hill — 4 of 16, the toughest of the six for this school' },
+      { value: '25.0%', label: 'at UNC-Chapel Hill — 4 of 16 in Fall 2025, the lowest of the six that year' },
       { value: 'UNC Wilmington', label: 'drew the most applications in Fall 2025 (31)' },
     ],
     latestTerm: '2025',
@@ -300,7 +300,7 @@ export const carmelChristian: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · Chapel Hill · the most selective of the six',
+        note: 'Flagship · Chapel Hill · the lowest of the six in Fall 2025',
         applied: '16',
         accepted: '4',
         rate: '25.0%',
@@ -702,7 +702,7 @@ export const carmelChristian: CollegeSupportProgram = {
       },
       {
         label: 'The weighting changes with the Class of 2026',
-        text: 'The profile states that from the Class of 2026, honors courses carry **+0.5** and AP courses **+1.0**. That is down from the **+1** and **+2** quality points behind the GPA ranges above. So a weighted GPA quoted today is not calculated the same way as one quoted for a current freshman.',
+        text: 'The profile states that from the Class of 2026, honors courses carry **+0.5** and AP courses **+1.0**. That is down from the **+1** and **+2** quality points behind the GPA ranges above. So the Class of 2024 range above is not on the same scale as a current student’s weighted GPA.',
       },
     ],
     checklist: [

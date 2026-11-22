@@ -1029,3 +1029,12 @@ https://www.providenceday.org/upper-school/college-guidance. Each address is pub
 | Abby Jones | abby.jones@providenceday.org |
 | Gina Hubbard | gina.hubbard@providenceday.org |
 | Darren Morgan | darren.morgan@providenceday.org |
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/25pd-studentsrecognized-by-national-merit-and-the-college-board
+  (HTTP 200), Class of 2021: "25 students recognized" and "17%". The categories on record
+  (6 semifinalists, 16 commended, 4 College Board recognition) add to 26, so the total is not
+  the sum of the three. No student name is recorded here.
