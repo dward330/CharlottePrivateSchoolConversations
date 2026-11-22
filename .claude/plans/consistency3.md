@@ -288,21 +288,21 @@ catalogs in `TRANSLATED` (`src/locales/{en,es,bn,ht,te,fr,fa,it,hi,ar}.json`).
    `scripts/i18n_splice_work.mjs`, joining by stamp. Never pop on apply, because stamps
    recur across topics. Run a by-stamp audit that no kept `t` changed. Report kept, added
    and dropped counts.
-1a. **⚠ Shifted overlay paths (found by the second review pass, 2026-11-22).** Overlay
-   entries are keyed by `school:path`, and array positions moved in `financial-aid-report`.
-   Davidson Day's `sections[4].plans` lost its first row; Providence Day's
-   `sections[6].questions` lost one item; Charlotte Latin's engine `timeline` gained a
-   `15 Nov` row at index 1, so every later timeline row moved down. About 20 paths per locale
-   moved, and every moved unit's text still exists elsewhere in the overlay. So **`check:live`
-   passes them** (it tests the set of stamps) while the runtime shows English. Re-extract
-   `financial-aid-report` (and `admissions` for Latin) per locale, so the splice rewrites `at`
-   from the live data. Then replay the lookup by **path** for every touched school before
-   trusting the build: for each `school:path` in the live English, the overlay must resolve
-   it. This is the same class as the mid-array `VALUE_METRICS` insert in `testscores` (#439).
-1b. **Removed units (CCD-R8).** The deleted ladder details, figure notes and box sentences
-   drop out of the extract. Confirm the splice reports them as dropped, and that the shortened
-   box body and both source lines are re-translated as minimal edits in step 3. LAT-13's
-   `tileBasis` is one new unit per locale; keep "TK/K" and "$4,650" as figures.
+1a. **⚠ Shifted overlay paths (measured 2026-11-22: 26 per locale, in TWO topics).** Overlay
+   entries are keyed by `school:path`, and array positions moved:
+   - `financial-aid-report` (22): Providence Day `sections[6].questions` (10), Davidson Day
+     `sections[4].plans` (9), Charlotte Latin `sections[2].timeline` (3).
+   - `the-arts` (4): Trinity `verdict.ask[5..8]`, moved by TRI-S2's inserted ask.
+
+   **`check:live` passes all 26** (it tests the set of stamps) while the runtime shows English.
+   Re-extract every touched topic per locale, so the splice rewrites `at` from the live data.
+   Then run `consistency3-data/path_replay.mjs` per locale (usage in its header) and require
+   `TOTAL 0`. The starting point is 100 per locale: 74 changed or new strings plus these 26.
+   Do not size the work from `check:live`'s count (76).
+1b. **No removed units for CCD-R8, and no source-line translation.** The ladder stays (settled
+   S7). Financial Aid `source` / `sources` lines and their link text are citations: never
+   extracted, English in every locale (user, 2026-11-22). LAT-13's `tileBasis` is one new unit
+   per locale; keep "TK/K" and "$4,650" as figures.
 2. **Carry over figure-only edits** by token substitution, asserting one replacement per
    locale: HG-17 "10" → "9", GD-S3 "$175" → "$140", and the PD Compare "4 ensembles" →
    "6 ensembles".
@@ -311,7 +311,7 @@ catalogs in `TRANSLATED` (`src/locales/{en,es,bn,ht,te,fr,fa,it,hi,ar}.json`).
    and isolates, script share, length ratio.
 4. **Chrome keys** in the nine non-English catalogs. "PS–12" keeps its grade codes as the
    other `@slug` ladder titles do.
-5. **Build the overlays**, run the Phase 2 checks, then open the PR with `--body-file` and
+5. **Merge `origin/main` into the branch first** (it has #515). **Build the overlays**, run the Phase 2 checks and the path replay, then open the PR with `--body-file` and
    merge with `gh pr merge --squash --delete-branch`. Pull `main`, flip the INDEX row to
    *Implemented* with the PR link, and write `## Implementation notes`. **Do not deploy.**
 6. **Rescan** (`/implement` step 10). With `main` pulled, run `/consistency-self-scan`. It
@@ -596,3 +596,23 @@ both Latin documents, the DD pages) and the 7 + 9 = 16 / 56% arithmetic. It foun
 
 The loop is capped at two passes, so the review stops here. **Phase 2 impact:** item 5 adds 8
 Latin admissions strings to translate.
+
+### Phase 1 close-out (2026-11-22, build of `0b1c4df1`)
+
+- **Phase 2 is 100 strings per locale, plus the two chrome keys.** This corrects the counts
+  above ("17 changed English sentences", "about 20 paths", `check:live` 76). The path replay
+  found 74 changed or new and 26 moved. Four of the moved are in `the-arts`, which both review
+  passes missed. Step 1a now covers them.
+- **`audit:daterender` exits 1: 14 English dates per locale at 6 render sites.** They are
+  CC-S1 and CCD-S1's new English, Latin's changed timeline and Admissions strings, and Latin
+  timeline rows that only moved. All are in the replay's 100; Phase 2 must bring the audit to 0.
+- `.claude/docs/INDEX.md` (two new records) was left out of `6cbc68a5` and is committed here.
+- Latin's "transport page sits a year behind" was re-checked: the live page still reads "Bus
+  Service Annual Fees 2025-26", $1,800 / $900 / $450.
+- The shipped source lines hold 228 links (`fa-source-links.json` → `current`).
+- The fixes from the last review pass had no reviewer (two-pass cap); the rescan covers them.
+- **A bug in the last review pass's fix, found at close-out and fixed.** The edit for its item 3
+  anchored on the first `fa-numbers` section in the file, which is Covenant Day's. So
+  `0b1c4df1` put Latin's financial aid FAQ citation on Covenant Day's report and left Latin's
+  section without it. Moved. Since `6b1b21ee` only the four intended reports differ, and no
+  URL is cited by two schools. Anchor scripted edits inside the school's own report.

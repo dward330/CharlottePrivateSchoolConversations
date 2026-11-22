@@ -1015,7 +1015,7 @@ const COVENANT_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'projects.propublica.org — [Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561656570), EIN 56-1656570, retrieved 15 Aug 2026 · "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" (full text, 22 Nov 2026)',
+        'projects.propublica.org — [Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561656570), EIN 56-1656570, retrieved 15 Aug 2026',
     },
     {
       id: 'fa-merit',
@@ -1524,7 +1524,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents); [Charlotte Latin Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability); [IRS Form 990 via ProPublica](https://projects.propublica.org/nonprofits/organizations/560944449), retrieved 24 Jul 2026',
+        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents); [Charlotte Latin Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability); [IRS Form 990 via ProPublica](https://projects.propublica.org/nonprofits/organizations/560944449), retrieved 24 Jul 2026 · "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" (full text, 22 Nov 2026)',
     },
     {
       id: 'fa-merit',
