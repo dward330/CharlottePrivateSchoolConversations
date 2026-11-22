@@ -1540,7 +1540,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: 'NCTC festival', // competes in NC Theatre Conference HS Play Festival
       'charlotte-christian': 'Blumey Best Musical (2013)', // Wells Fargo Best Musical for Oklahoma! (2013), one of four awards that year; https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners
       'charlotte-catholic': '5 Blumey finalists (2025)', // one finalist in each of the five individual performance categories, for Fiddler on the Roof; 5 more finalists in 2026 for The Wizard of Oz, no win either year
-      'charlotte-country-day': '31+ noms, school’s count', // the school's own 31+ Blumey claim, not rebuilt from the lists
+      'charlotte-country-day': '2 Blumey wins (2022)', // Best Choreography + Best Direction 2022; replaces the school's 31+ nominations claim, which the lists do not rebuild (user ruling 2026-11-22)
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
       'covenant-day': '2 Blumey wins', // Best Featured Performer 2013 + Student Critic Award 2016; 8 recognitions 2013-2019
       'carmel-christian': '2026 Blumey — Best Actress', // Anna Jernigan, Footloose; advances to the Jimmy Awards
@@ -1569,7 +1569,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'The school reports 31+ nominations at the Blumey Awards, the Charlotte region’s high-school musical-theater awards. It is the school’s own all-years count, and the award lists on its card do not add up to it. Its two verified wins are from 2022.',
+        text: 'Country Day won Best Choreography and Best Direction in 2022 at the Blumey Awards, the Charlotte region’s high-school musical-theater awards. The school also reports 31+ nominations across all years.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -1750,7 +1750,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '~5', // standing HS bodies: NHS, Beta, Spanish Honor Society, Student Council, Timothy Project
       'davidson-day': '≥3', // school-named Upper School groups only (user, 2026-11-10, plan plainclubs); the 9 PrivateSchoolReview clubs were removed
       'hickory-grove-christian': '≥4', // school-named high school groups only (user, 2026-11-10, plan plainclubs); the 27-org PrivateSchoolReview roster was removed
-      'gaston-day': '≥10', // school-named only (user ruling 2026-11-10, plan thespianname): 9 clubs/organizations + NHS named on gastonday.org and the Academic Profiles; the 20 third-party-only entries were removed. A floor — students may start clubs
+      'gaston-day': '≥9', // school-named only (user ruling 2026-11-10, plan thespianname; iGEM dropped 2026-11-22, plan consistency4): 8 clubs/organizations + NHS named on gastonday.org and the Academic Profiles; the 20 third-party-only entries were removed. A floor — students may start clubs
       'providence-day': '77', // official 25–26 US list, 5 arts clubs excluded
     },
     quals: {
@@ -1798,7 +1798,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       // Added by plan plainclubs (2026-11-10): the ≥10 floor shipped in #478 without a tip.
       'gaston-day': {
         kind: 'minimum',
-        text: 'Gaston Day publishes no full club list, so this is a documented floor. It counts the 10 organizations the school names on its own website and Academic Profiles. They are iGEM, VEX Robotics, 3-D Printing Club, Blutopia, Yearbook, Upper School Student Government, Peer Mentoring, Green Team, International Council and the National Honor Society.',
+        text: 'Gaston Day publishes no full club list, so this is a documented floor. It counts the 9 organizations the school names on its own website and Academic Profiles. They are VEX Robotics, 3-D Printing Club, Blutopia, Yearbook, Upper School Student Government, Peer Mentoring, Green Team, International Council and the National Honor Society.',
       },
     },
   },
@@ -1823,7 +1823,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '2022 NCISAA 4A basketball title', // def. Greensboro Day 71-66 (Cade Tyson 31 pts)
       'davidson-day': null, // no school-published competitive club result; the Battle of the Books regional first place appears on no davidsonday.org page (removed 2026-11-10, plan plainclubs)
       'hickory-grove-christian': null, // no competitive club result published in any source (confirmed null)
-      'gaston-day': 'iGEM gold medal', // school's 2023-24 Academic Profile: iGEM Silver, Gold and Bronze awards over a decade; plus TSA VEX Nationals qualification in 2023 (2025-26 profile)
+      'gaston-day': 'VEX Nationals qualifier (2023)', // 2025-26 profile; iGEM dropped 2026-11-22, no proof it is still active (plan consistency4)
       'providence-day': 'DECA → ICDC ’26', // DECA advanced to national ICDC 2026
     },
     quals: {
@@ -1834,7 +1834,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'official',
-        text: 'The iGEM gold medal is the school\'s strongest published past competitive result. The school says its research teams previously competed in iGEM, a synthetic-biology research competition, for over a decade and won Silver, Gold and Bronze awards. The VEX Robotics team separately qualified for TSA VEX Nationals in 2023, its first year competing.',
+        text: 'The school’s VEX Robotics club qualified for TSA VEX Nationals in 2023, its first year competing. It is the strongest result the school publishes for a current club.',
       },
       cannon: {
         kind: 'scope',

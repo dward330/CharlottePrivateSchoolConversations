@@ -175,6 +175,15 @@ Each entry's **Still a finding** line names what remains reportable even while i
 
 ---
 
+### S10 — Gaston Day's iGEM team is not listed (plan consistency4)
+
+- **Covers (these values):** Gaston Day shows 9 organizations (Compare `≥9`) and no iGEM club or
+  award, while its 2023-24 Academic Profile names past iGEM teams and awards.
+- **Do not report:** iGEM as a missing club or award, or 9 against a profile that also names iGEM.
+- **Why:** the user, 2026-11-22: "If there is no proof it is still active, drop the club". The
+  profile says "previously competed", and the newest team page found is from 2021.
+- **Still a finding:** the school publishing a current iGEM team, or any card still showing 10.
+
 ## Rule candidates already turned down
 
 Step 5 must not re-propose these as new `check:consistency` rules.

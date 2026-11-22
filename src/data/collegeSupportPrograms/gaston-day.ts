@@ -31,8 +31,6 @@ const PROFILE =
 // edition (PROFILE) is still live and alone prints the grade distribution.
 const PROFILE_NOV =
   'https://www.gastonday.org/wp-content/uploads/2025/11/25-26-GDS-Profile-1.pdf'
-const PROFILE_2324 =
-  'https://www.gastonday.org/wp-content/uploads/2023/10/GDScollegeprofile2324.pdf'
 const COUNSELING = 'https://www.gastonday.org/collegecounseling/'
 const UPPER = 'https://www.gastonday.org/upper-school/'
 
@@ -620,7 +618,7 @@ export const gastonDay: CollegeSupportProgram = {
 
   edge: {
     headline:
-      'The standout strengths here are unusually concrete for a small school. The school says its past iGEM research teams won Silver, Gold and Bronze awards over more than a decade. Its VEX Robotics squad reached TSA Nationals in its first year. And every senior must complete a 40-hour Capstone.',
+      'The standout strengths here are unusually concrete for a small school. Its VEX Robotics squad reached TSA Nationals in its first year. And every senior must complete a 40-hour Capstone.',
     subhead:
       'What the school cannot offer is wide name recognition. Gaston Day is a 510-student school in Gastonia, not a nationally known feeder school. So its case rests on being distinctive, not on sending many students.',
     levers: [
@@ -629,7 +627,6 @@ export const gastonDay: CollegeSupportProgram = {
         hint: 'what a student can actually point at',
         glyph: '◆',
         items: [
-          '**iGEM synthetic biology, in past years.** The school says its research teams "previously competed in the iGEM competition for over a decade and won various Silver, Gold and Bronze awards." iGEM is a research competition in synthetic biology.',
           '**VEX Robotics** — for years Gaston Day was part of a FIRST Robotics team shared with other schools, which placed **4th at state**. Then it started its own team, which **qualified for TSA VEX Nationals in 2023, its first year competing**.',
           '**Capstone Project** — every senior completes an internship, research or service project of **at least 40 hours**. It is documented and reported on across a full year. It is required, so every applicant has one.',
           '**Sunship Earth peer mentoring** — juniors and seniors lead the fourth-grade class through a multi-day mountain program, then mentor the same child for the rest of the year. A sustained leadership commitment rather than a one-off.',
@@ -654,14 +651,13 @@ export const gastonDay: CollegeSupportProgram = {
     flags: [
       {
         kind: 'verify',
-        text: 'Re-read 2026-11-22: the 2023-24 profile says teams "previously competed", and neither 2025-26 edition names iGEM. Years and projects are only on the team wikis, so they are not shown.',
+        text: 'iGEM dropped 2026-11-22 by user ruling, for lack of proof it is still active: the 2023-24 profile says teams "previously competed", neither 2025-26 edition names it, and the newest team page found is from 2021.',
       },
     ],
     sources: [
       { label: 'gastonday.org — Academic Profile 2025-2026, September 2025 edition (signature learning experiences, robotics, Capstone, Blutopia, grades by department)', url: PROFILE },
       { label: 'gastonday.org — Academic Profile 2025-2026, November 2025 edition (linked from College Counseling; no grade distribution)', url: PROFILE_NOV },
       { label: 'gastonday.org — Upper School (President’s Service Award, leadership, clubs)', url: UPPER },
-      { label: 'gastonday.org — Academic Profile 2023-2024 (past iGEM awards)', url: PROFILE_2324 },
     ],
   },
 
@@ -750,7 +746,7 @@ export const gastonDay: CollegeSupportProgram = {
       { label: 'The AP trend is real and rising', text: 'The 3+ rate went 72% → 76% → 86% → 89% → **95%** across 2021–2025, and because **every AP student must sit the exam**, that rate is not flattered by opting out.' },
       { label: 'Rank is replaced, not merely omitted', text: 'Most no-rank schools stop there. Gaston Day publishes a **five-band GPA quintile table** and **defined AP maxima** as substitutes. Its September 2025 profile also has a **grade distribution by department**; the November 2025 edition does not.' },
       { label: 'Counseling starts in eighth grade', text: 'Course planning begins four years before applications, and two college-counseling staff for 35 seniors is an unusually small caseload.' },
-      { label: 'The spike is institutional', text: 'Past **iGEM awards** show a record of research. **TSA VEX Nationals in year one** and a **required 40-hour Capstone** make distinctiveness part of the program, rather than something left to each student.' },
+      { label: 'The spike is institutional', text: '**TSA VEX Nationals in year one** and a **required 40-hour Capstone** make distinctiveness part of the program, rather than something left to each student.' },
       { label: 'The acceptance breadth is genuine', text: '**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 24 top-75 liberal arts colleges — wide range for classes of ~35.' },
       { label: 'The money is disclosed', text: 'Four years of merit-scholarship totals are published — **$3.76M for 21 students in 2025** — where many schools publish none.' },
     ],

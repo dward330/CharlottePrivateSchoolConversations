@@ -1,5 +1,5 @@
 # Gaston Day School — Student Clubs
-> Distilled from 2 source document(s) in `source-material/student-clubs/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 2 source document(s) in `source-material/student-clubs/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic and Competitive Clubs, Club Catalog and Overview
 
 
@@ -202,6 +202,21 @@ sponsor** — so the roster is intentionally open-ended and any enumeration is a
 
 **What the app now shows:** iGEM, VEX Robotics, 3-D Printing Club, Blutopia, Yearbook, Upper School Student Government, Peer Mentoring (Sunship Earth), Green Team, International Council and National Honor Society. That is 10 organizations, and Compare `us-organizations` shows `≥10`, a floor.
 
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, implement): iGEM
+
+The user ruled: "If there is no proof it is still active, drop the club." No proof was found.
+
+- The 2023-24 Academic Profile says research teams "previously competed":
+ https://www.gastonday.org/wp-content/uploads/2023/10/GDScollegeprofile2324.pdf
+- Neither 2025-26 profile edition names iGEM:
+ https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf
+- The newest team page a web search found is from 2021: https://2021.igem.org/Team:Gaston_Day_School/Team
+- A search of gastonday.org found no current team or club.
+
+The app now shows 9 organizations (Compare `≥9`) and no iGEM result. This supersedes "10" above.
+
 
 ---
 
@@ -210,6 +225,7 @@ sponsor** — so the roster is intentionally open-ended and any enumeration is a
 - https://2016.igem.org/Team:Gaston_Day
 - https://2018.igem.org:443/Team:Gaston_Day_School/Attributions
 - https://2020.igem.org/Team:Gaston_Day_School
+- https://2021.igem.org/Team:Gaston_Day_School/Team
 - https://blog.igem.org/blog/2024/6/10/the-experimental-nature-of-high-school-igem-teams
 - https://future.gastonday.org/strategic-plan/
 - https://issuu.com/gdsblutopia/docs/blutopia_2012

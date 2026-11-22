@@ -615,13 +615,14 @@ const HICKORY_GROVE_CHRISTIAN: ClubCatalog = {
 // list comes only from the school's own website or documents). The school
 // publishes no full clubs page: its Upper School page names three clubs by way
 // of example and says students may start one with a faculty sponsor, and its
-// Academic Profiles (2025-26, 2023-24) name VEX Robotics, iGEM, Blutopia,
-// Yearbook, Sunship Earth and NHS. The 20 entries reconstructed from
+// Academic Profiles (2025-26, 2023-24) name VEX Robotics, Blutopia,
+// Yearbook, Sunship Earth and NHS. iGEM was dropped 2026-11-22: no proof it is
+// still active (user ruling, plan consistency4). The 20 entries reconstructed from
 // PrivateSchoolReview and Niche, and iGEM's wiki-only detail, were removed in
 // plan thespianname.
 const GASTON_DAY: ClubCatalog = {
   verdict:
-    'Ten organizations the school names itself. The standouts: past iGEM research teams with awards over more than a decade, and a VEX Robotics club that reached TSA Nationals in its first year.',
+    'Nine organizations the school names itself. The standout: a VEX Robotics club that reached TSA Nationals in its first year.',
   verdictHint:
     'The school publishes no full clubs list. Its Upper School page names three clubs and says students can start a new one with a faculty sponsor; its Academic Profile names the rest.',
   countNoun: 'named orgs',
@@ -633,7 +634,6 @@ const GASTON_DAY: ClubCatalog = {
     { key: 'honor', short: 'Honor societies', full: 'Honor society' },
   ],
   clubs: [
-    { name: 'iGEM Synthetic Biology Team', cat: 'stem', note: 'The school says its research teams previously competed in iGEM for over a decade and won Silver, Gold and Bronze awards' },
     { name: 'VEX Robotics', cat: 'stem', note: 'Qualified for TSA VEX Nationals in 2023, its first year competing; previously 4th at state in FIRST Robotics' },
     { name: '3-D Printing Club', cat: 'stem', note: 'Named on the school’s Upper School page' },
     { name: 'Blutopia', cat: 'pub', note: 'Upper School literary and arts magazine — numerous Scholastic Art & Writing Awards and repeated NCSMA Literary Magazine Contest recognition' },
@@ -651,8 +651,8 @@ const GASTON_DAY: ClubCatalog = {
       tag: 'School-reported',
     },
     {
-      label: 'The two standouts',
-      text: 'iGEM and VEX Robotics are the distinctive entries. VEX is in the 2025–26 profile. The 2023–24 profile lists iGEM as past competition. Its teams won awards over more than a decade, and VEX reached Nationals in the club’s first year.',
+      label: 'The standout',
+      text: 'VEX Robotics is the distinctive entry. It is in the 2025–26 profile, and it qualified for TSA VEX Nationals in 2023, the club’s first year.',
       tag: 'School-reported',
     },
     {
@@ -662,7 +662,7 @@ const GASTON_DAY: ClubCatalog = {
     },
   ],
   source:
-    'gastonday.org — Upper School (3-D Printing Club, Green Team, International Council, Student Government) · Academic Profile 2025-2026 and 2023-2024 (VEX Robotics, iGEM, Blutopia, Yearbook, Sunship Earth, NHS) · Middle School (LEAD, Spartan Strong)',
+    'gastonday.org — Upper School (3-D Printing Club, Green Team, International Council, Student Government) · Academic Profile 2025-2026 and 2023-2024 (VEX Robotics, Blutopia, Yearbook, Sunship Earth, NHS) · Middle School (LEAD, Spartan Strong)',
 }
 
 // ── Charlotte Catholic ── 76 clubs across the school's own six categories,

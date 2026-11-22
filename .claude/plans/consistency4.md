@@ -349,16 +349,17 @@ Providence day colleges -> fix. The rest is your recommendation".
 
 The design re-capture is done and verified. The English awaits the user's review.
 
-**Open calls put to the user, none answered yet. Phase 2 must check for answers before translating:**
+**The user answered on 2026-11-22. The English is approved ("English is fine").**
 
-1. **Student names in shipped content** (72 students from Blumey lists in the published chunks,
-   preexisting). Recommended: a separate fix on its own branch from main, before anything else.
-   History rewriting would be its own decision.
-2. **Gaston Day's "ten organizations":** drop the past iGEM team, making nine (recommended).
-3. **Country Day's Compare cell:** keep "31+ noms, school's count" or use "2 Blumey wins (2022)"
-   (recommended).
-4. **Missing award history** (Gaston Day, plus older years at five schools): next round
-   (recommended).
+1. **Student names:** "Please remove non-athlete student names. Thats a hard rule not to expose
+   their names". This ends the 2026-11-10 allowance for names in research files. It runs on its
+   own branch from main (`fix/student-names`). **Phase 2 merges main first and never carries a
+   non-athlete student name into a translation, plan, work file or commit message.**
+2. **Gaston Day iGEM:** "If there is no proof it is still active, drop the club". No proof was
+   found, so it is out of the catalog (nine), clusters, honors, College Support and Compare
+   (settled S10). **Array items were removed here: re-splice the locale paths.**
+3. **Country Day's Compare cell:** now "2 Blumey wins (2022)".
+4. **Missing award history** (Gaston Day, older years at five schools): next round, consistency5.
 
 **Found, not fixed, preexisting:** literal markdown asterisks render in Providence Day College
 Support, The Applicant's Edge, Senior Project row ("has *no* community-service requirement").
