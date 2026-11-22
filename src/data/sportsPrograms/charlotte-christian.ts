@@ -218,7 +218,7 @@ export const charlotteChristian: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      '48 college commitments across the classes of 2024, 2025 and 2026, 35 of them Division I and 9 Power 4.',
+      '48 college commitments across the classes of 2024, 2025 and 2026, 35 of them Division I and 11 Power 4.',
     subhead:
       'More than 100 Division I signees across the 2014–2025 classes — one of the deepest sustained pipelines in the Charlotte private-school field.',
     funnel: [
@@ -232,9 +232,9 @@ export const charlotteChristian: SportsProgram = {
       { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.73, shade: 'mid' },
       {
         label: 'Power 4',
-        hint: '(SEC · Big Ten · ACC · Big 12)',
+        hint: '(SEC · Big Ten · ACC · Big 12, plus Notre Dame)',
         derive: 'p4',
-        width: 0.19,
+        width: 0.23,
         shade: 'full',
       },
     ],
@@ -250,7 +250,7 @@ export const charlotteChristian: SportsProgram = {
       { sport: 'Other', match: 'other' },
     ],
     realityCheck:
-      'Football is the biggest source of college commits, with sixteen Division I commits. Among them are Jamal Rule to Nebraska and two service-academy signees: Henry Hulbert to Army and Vincent Rosen to Air Force. But the Power 4 signees are spread unusually wide across sports. Wrestling to NC State, softball to Florida State, lacrosse to Penn State and track to Kentucky each produced one P4 signee. Charlotte Christian sends athletes to college from many sports, not mostly from one.',
+      'Football is the biggest source of college commits, with sixteen Division I commits. Among them are Jamal Rule to Nebraska and two service-academy signees: Henry Hulbert to Army and Vincent Rosen to Air Force. Football also has six of the eleven Power 4 signees. The other five come from five sports: baseball, wrestling, softball, lacrosse and track. Charlotte Christian sends athletes to college from many sports, not mostly from one.',
     rankedRecruits:
       'Bryce Young (’24, Notre Dame) was the No. 73 national recruit in the 247Sports Composite. Jamal Rule (’26, Nebraska) was the No. 31 prospect in North Carolina. The opposite case is the most useful one. Stephen Curry left in 2006 with no major-conference scholarship offer and 31 point guards ranked ahead of him. Virginia Tech, the college his father attended, offered him only a walk-on spot.',
     roster: [
@@ -292,9 +292,9 @@ export const charlotteChristian: SportsProgram = {
       { cls: "'24", name: 'Tre Wilfong', sport: 'Wrestling', college: 'NC State', conf: 'ACC', level: 'P4' },
       { cls: "'24", name: 'Tripp Woody', sport: 'Football', college: 'Iowa', conf: 'Big Ten', level: 'P4',
         rank247: { state: 67, url: 'https://247sports.com/player/tripp-woody-46146089/' } },
-      { cls: "'24", name: 'Micah Gilbert', sport: 'Football', college: 'Notre Dame', conf: 'FBS Ind.', level: 'D1',
+      { cls: "'24", name: 'Micah Gilbert', sport: 'Football', college: 'Notre Dame', conf: 'FBS Ind.', level: 'P4',
         rank247: { national: 245, state: 8, url: 'https://247sports.com/player/micah-gilbert-46128048/' } },
-      { cls: "'24", name: 'Bryce Young', sport: 'Football', college: 'Notre Dame', conf: 'FBS Ind.', level: 'D1',
+      { cls: "'24", name: 'Bryce Young', sport: 'Football', college: 'Notre Dame', conf: 'FBS Ind.', level: 'P4',
         rank247: { national: 73, state: 2, url: 'https://247sports.com/player/bryce-young-46130942/' } },
       { cls: "'24", name: 'Drew Beard', sport: 'Baseball', college: 'James Madison', conf: 'Sun Belt', level: 'D1' },
       { cls: "'24", name: 'Nic Harris', sport: 'Baseball', college: 'Elon', conf: 'CAA', level: 'D1' },

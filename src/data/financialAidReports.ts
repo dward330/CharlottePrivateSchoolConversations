@@ -379,7 +379,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       questionsNote:
         'Each is unanswerable from published sources and materially affects what a family pays or receives.',
       questions: [
-        'Which school year does each published aid figure describe: $9.4M to 341 students, or $10.1M to 347? And is the share 20% or 21%, against which enrollment?',
+        'Which school year does each published aid figure describe: $9.4M to 341 students, or $10.1M to 347? And which enrollment is the ~20% share measured against?',
         'What are this year\'s average and median awards, the range — and does any award cover full tuition?',
         'What are the dollar rates for the dining hall and MS PE uniforms?',
         'Does the ten-month plan carry a fee or interest, and is there a discount for paying in full?',

@@ -796,7 +796,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
           '**Special Olympics Mecklenburg County Spring Games** — the Upper School has paused classes for two days every April **since 1984** to host them. To an admissions office, a 40-year commitment by the whole school reads very differently than a service club.',
         ],
         note:
-          'There is no required internship, capstone or independent research thesis. The Senior Externship is a single day, and the school never says it is required. Still, 136 of ~141 seniors took part, which suggests nearly every senior does it in practice.',
+          'There is no required internship, capstone or independent research thesis. The Senior Externship is a single day, and the school never says it is required.',
       },
       {
         title: 'Lever 2 — What the school brings',

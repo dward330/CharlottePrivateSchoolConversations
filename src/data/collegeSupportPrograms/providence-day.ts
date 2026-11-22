@@ -806,7 +806,7 @@ export const providenceDay: CollegeSupportProgram = {
           '**The Academic Profile as an instrument** — it shares far more than most school profiles, and that openness is what the school brings. It gives the full AP score spread for each of 29 subjects. Its quintile table shows the average SAT and ACT for each fifth of the class. It states the most APs a student may take in each grade. It also gives the weighting formula, with unweighted grades on the transcript. That turns the no-rank policy from a weakness into useful context.',
           '**Integrity signaling** — the school states it follows the **NACAC Guide to Ethical Practice**. It also “reports all student behavioral probations, suspensions and expulsions through time of graduation” to any college that asks. A student-run Honor Council backs this up. It has eight students, two per grade, plus two elected faculty members and a third named by the Head of School. Being this open earns the trust of college readers, and every applicant gains from it.',
           '**Repeat pipelines, numbered rather than implied** — the Class of 2025 scholar was Providence Day’s **18th Morehead-Cain**. That is a record going back decades with North Carolina’s most selective merit award. The colleges in bold across the list work as a practical map of the school’s pipelines. Four of the five federal service academies appear.',
-          '**Two-way relationships and memberships** — the school belongs to NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** and the College Board, plus Global Online Academy. It is accredited by SAIS and SACS, and **81%** of Upper School faculty hold advanced degrees. The school hosted ~150 college reps and visited 50+ campuses, a real two-way flow. A deep UK/Europe pipeline (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Bocconi, Toronto) fits its Global Studies focus.',
+          '**Two-way relationships and memberships** — the school belongs to NAIS, NCAIS, SAIS, ERB, NACAC, SACAC, **ACCIS** and the College Board, plus Global Online Academy. It is accredited by SAIS and SACS, and **81%** of Upper School faculty hold advanced degrees. The school hosted ~150 college reps and visited 50+ campuses, a real two-way flow. A deep UK/Europe pipeline (Oxford, St Andrews, UCL, LSE, Trinity Dublin, Toronto) fits its Global Studies focus.',
         ],
       },
     ],
@@ -886,7 +886,7 @@ export const providenceDay: CollegeSupportProgram = {
       },
       {
         label: 'When direction changes',
-        text: 'Conservatories: Berklee, RISD, Parsons, SAIC, SCAD, School of Visual Arts and UNCSA. Four of the five federal service academies. A deep international list: Oxford, St Andrews, Edinburgh, UCL, LSE, King’s College London, Trinity Dublin, Leiden, Amsterdam, Bocconi and Toronto.',
+        text: 'Conservatories: Berklee, RISD, Parsons, SAIC, SCAD and UNCSA. Four of the five federal service academies. A deep international list: Oxford, St Andrews, Edinburgh, UCL, LSE, King’s College London, Trinity Dublin, Leiden, Amsterdam and Toronto.',
       },
     ],
     flags: [

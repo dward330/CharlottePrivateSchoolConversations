@@ -2338,10 +2338,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'sports',
     key: 'p4-commits-2426',
     label: 'Power 4 commits',
-    note: 'Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.',
+    note: 'Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program or to Notre Dame, Classes of 2024–2026. Documented minimum.',
     values: {
       cannon: '4', // ’24 A.Swartz (Miami), Galloway (North Carolina), B.Wilson (North Carolina) · ’25 Kroll (Notre Dame)
-      'charlotte-christian': '9', // ’24: Henley, Wilfong, Woody, Zinger · ’25: E.Boykin, Hinde, Nicholson, Vance · ’26: Rule
+      'charlotte-christian': '11', // ’24: Henley, Wilfong, Woody, Zinger, Gilbert + B.Young (Notre Dame football, P4 by settled S8) · ’25: E.Boykin, Hinde, Nicholson, Vance · ’26: Rule
       'charlotte-catholic': '15', // ’24: Larsen (Notre Dame), Hill (South Carolina), Leckner (West Virginia), MacIntyre (Indiana), Bernardo (LSU), Thomas (UNC), Daniels (Louisville), Hedrick (Duke) · ’25: Baumgratz (Va Tech), Guthrie (Georgia), Hartman (Vanderbilt), McKnight (UNC) · ’26: Q. O’Rourke (Arizona), Gornet (NC State), Hoffman (Va Tech) — see the CCHS College Commitments 2024-2026 source file
       'charlotte-country-day': '9', // ’24: Klein, Lewis, Stajos, McDonald · ’25: Scott, Pifer · ’26: T.Klein, Alzate-Celin, Mallard — on the school’s own lists, cross-referenced 2026-11-08
       'charlotte-latin': '8', // ’24 Salvage (South Carolina), Monk (North Carolina), Hill (Tennessee), Spinner (Northwestern), Henry (Cal), McMahan (Virginia) · ’25 Clontz (Cal) · ’26 Lee (NC State)
@@ -2364,7 +2364,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'minimum',
-        text: 'A documented minimum: the school’s public commitment list runs through 2025, so its Class of 2026 is confirmed from college rosters and the school’s own announcements.',
+        text: 'A documented minimum: the school’s public commitment list runs through 2025, so its Class of 2026 is confirmed from college rosters and the school’s own announcements. The eleven include two Notre Dame football signees.',
       },
       'charlotte-latin': {
         kind: 'minimum',

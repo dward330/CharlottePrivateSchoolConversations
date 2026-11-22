@@ -347,7 +347,7 @@ export const charlotteLatin: ArtsProgram = {
       },
       {
         label: 'Documented Scholastic recognition and real demand',
-        text: 'a Gold Key for photography plus recognized work in fashion, oil painting and drawing across multiple years — and Cabaret sold out with a managed box-office waitlist.',
+        text: 'a Gold Key for photography plus recognized work in fashion, oil painting and drawing — and Cabaret sold out with a managed box-office waitlist.',
       },
     ],
     ask: [

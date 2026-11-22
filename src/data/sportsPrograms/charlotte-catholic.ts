@@ -256,7 +256,7 @@ export const charlotteCatholic: SportsProgram = {
       { label: 'Alumni who played in college', hint: 'NCAA / NAIA / JUCO, all years', count: '1000+', width: 0.62, shade: 'pale' },
       { label: 'Documented commits', hint: 'Classes of 2024–2026', derive: 'all', width: 0.46, shade: 'mid' },
       { label: 'Division I', hint: 'includes Power Four', derive: 'd1', width: 0.33, shade: 'mid' },
-      { label: 'Power Four', hint: 'ACC · Big Ten · Big 12 · SEC', derive: 'p4', width: 0.13, shade: 'full' },
+      { label: 'Power Four', hint: 'ACC · Big Ten · Big 12 · SEC, plus Notre Dame', derive: 'p4', width: 0.13, shade: 'full' },
     ],
     funnelNote:
       'The 1000+ figure is the school’s own all-time count. It is not limited to these three classes, so it counts a different span of years from the rows beneath it. The three classes below are a documented minimum. CCHS holds separate fall, winter and spring signing days and publishes no combined list. So athletes appear here once a signing article, a newspaper signing list or the college’s own roster names them.',
@@ -319,7 +319,7 @@ export const charlotteCatholic: SportsProgram = {
       { cls: "'24", name: 'Blanca Thomas', sport: 'Basketball', college: 'North Carolina', conf: 'ACC', level: 'P4' },
       { cls: "'24", name: 'Kate Daniels', sport: 'Lacrosse', college: 'University of Louisville', conf: 'ACC', level: 'P4' },
       { cls: "'24", name: 'Jack Hedrick', sport: 'Baseball', college: 'Duke University', conf: 'ACC', level: 'P4' },
-      { cls: "'24", name: 'Jack Larsen', sport: 'Football', college: 'University of Notre Dame', conf: 'ACC', level: 'P4',
+      { cls: "'24", name: 'Jack Larsen', sport: 'Football', college: 'University of Notre Dame', conf: 'FBS Ind.', level: 'P4',
         rank247: { national: 481, state: 15, url: 'https://247sports.com/player/jack-larsen-46117223/' } },
       { cls: "'24", name: 'Logan Hill', sport: 'Cross country / track', college: 'University of South Carolina', conf: 'SEC', level: 'P4' },
       { cls: "'24", name: 'Logan Leckner', sport: 'Swim & dive', college: 'West Virginia University', conf: 'Big 12', level: 'P4' },

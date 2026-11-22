@@ -233,7 +233,7 @@ export const cannon: SportsProgram = {
       { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.52, shade: 'mid' },
       {
         label: 'Power 4',
-        hint: '(SEC · Big Ten · ACC · Big 12)',
+        hint: '(SEC · Big Ten · ACC · Big 12, plus Notre Dame)',
         derive: 'p4',
         width: 0.17,
         shade: 'full',
