@@ -529,3 +529,28 @@ The link research turned up four things; the user directed a fix for each. Evide
 without it. `CARD_REPLACED` keeps their content sections untranslated and unrendered.
 `schools.json` was restored to HEAD order. **Phase 2 impact:** `check:live` went from 48 to 65
 stale entries per locale, the 17 changed English sentences in these four reports.
+
+### Review of the linked sources (2026-11-22): 6 found, 4 fixed, 1 already fixed, 1 rejected
+
+A fresh agent reviewed `364b92e1..6b1b21ee`. It fetched 60+ of the URLs (29 PDFs and 33
+pages across all 13 schools), compared all 86 lines old against new, and rendered every page,
+some in es and ar. It found no wrong page, no wrong edition, no text drift and no rendering
+failure. Its six items:
+
+1. **Latin "(research pass, not re-retrieved)". Fixed (dropped).** Research bookkeeping, and
+   the PDF linked beside it fetches fine.
+2. **Latin "bodies not retrievable". Already fixed** in `6cbc68a5`.
+3. **Hickory Grove's ProPublica link was a live search query. Fixed (unlinked).** An empty
+   result is not a page and can change. The text "(church files no Form 990)" stays.
+4. **Davidson Day back-to-school links a 10 Aug 2026 capture under "retrieved 22 Jul
+   2026". Rejected.** It is 19 days from the retrieval date and shows the same 2026–27
+   edition, as the brief allowed. Extended care was unlinked for a different reason: its only
+   copy was six years older, from a page already 404 on the retrieval date.
+5. **A stale `src/index.css` comment** said the report's rows have no links. **Fixed.**
+6. **`fa-source-links.json` lagged HEAD. Fixed:** a `current` block, regenerated from the data
+   (225 links), now records what ships.
+
+Out of scope and older than this plan, noted for a later round: some source lines show raw
+`$` in es (source lines are not localized). There is research-bookkeeping wording in a few
+source lines ("[research tier]", "Schedule I and Schedule D not retrieved", "aggregators
+checked and excluded"). And five sections with a questions block never render their `source`.
