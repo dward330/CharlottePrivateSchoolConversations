@@ -54,15 +54,12 @@
 
 | Athlete | Sport | College | Conf | Level | Confirmed by |
 |---|---|---|---|---|---|
-| Braylen Todd | Boys Basketball | Johnson & Wales (NC) | USCAA | non-NCAA (see note) | Johnson & Wales 2026-27 roster; RealGM |
+| Braylen Todd | Boys Basketball | Johnson & Wales (NC) | C2C | D3 | Johnson & Wales 2026-27 roster; RealGM |
 
-**Level note for the plan:** Johnson & Wales University–Charlotte competes in the **USCAA**
-(United States Collegiate Athletic Association), which is neither NCAA nor NAIA, and the
-card's `CommitLevel` (`'P4' | 'D1' | 'D2' | 'D3' | 'NAIA'`) has no USCAA tier. The nearest
-precedent is junior college, listed at `'D3'` with `conf: 'NJCAA'` and explained in
-`rosterNote` (Covenant Day, Hickory Grove). On that precedent Todd goes at `'D3'` with
-`conf: 'USCAA'`, which is a new conference string and therefore one new identifier unit per
-locale. He is not a Division I count either way.
+**Level note for the plan:** Johnson & Wales University–Charlotte competes in the Coast-To-Coast
+Athletic Conference (C2C) at NCAA Division III (corrected 2026-11-22:
+https://charlotte.jwuathletics.com/). Todd is `'D3'` with `conf: 'C2C'`, and is not a Division I
+count.
 
 ## Class of 2025 — 1
 
@@ -109,3 +106,12 @@ the two window rows. She is the whole of the `seniors-committed` value (`'1'`, u
   2023-24 girls tennis roster. **Unverified:** she is absent from Emerson's women's tennis
   rosters for 2024-25 and 2025-26, and no second source was found. A reader-submitted
   tracker alone is a lead, not a row (the Cannon girls-lacrosse precedent).
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, planning)
+
+https://charlotte.jwuathletics.com/ and https://charlotte.jwuathletics.com/sports/mens-basketball/schedule
+(both HTTP 200): the conference is the "Coast-To-Coast Athletic Conference" (C2C), the footer
+links NCAA Division III, and USCAA appears 0 times. The card's "USCAA rather than the NCAA" is
+wrong (finding CAR-U6).

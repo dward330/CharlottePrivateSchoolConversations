@@ -328,7 +328,7 @@ const colleges = [
   { name: 'University of Lynchburg', cats: [] },
   { name: 'University of Mary Washington', cats: [] },
   { name: 'University of Maryland', cats: ['nu75', 'p4'], enrolling: true },
-  { name: 'University of Maryland Eastern Shore', cats: [] },
+  { name: 'University of Maryland Eastern Shore', cats: ['hbcu'] },
   { name: 'University of Massachusetts (Amherst)', cats: ['nu75'] },
   { name: 'University of Massachusetts (Boston)', cats: [] },
   { name: 'University of Memphis', cats: [] },
@@ -435,11 +435,11 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Charlotte Country Day School’s applicants were admitted at a pooled 46.7% over the last five entering classes — 328 acceptances from 702 applications.',
     subhead:
-      'NC State University is the hard one: 22.9% in Fall 2025 — 11 of 48 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
+      'NC State University is the hard one: 22.9% in Fall 2025 — 11 of 48 — a little below UNC-Chapel Hill’s 29.0%. The other four ran 59–100%. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '702', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '46.7%', label: 'pooled admit rate — 328 of 702 across those five classes' },
-      { value: '22.9%', label: 'at NC State University — 11 of 48, the toughest of the six for this school' },
+      { value: '22.9%', label: 'at NC State University — 11 of 48 in Fall 2025, the lowest of the six that year' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (69)' },
     ],
     latestTerm: '2025',
@@ -731,13 +731,13 @@ export const charlotteCountryDay: CollegeSupportProgram = {
 
   outcomes: {
     headline:
-      'The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada. UNC–Chapel Hill alone admitted 32 of them, up from 23 the year before.',
+      'The Class of 2026 — 141 seniors — enrolled at 70 institutions across 24 states, DC and Canada. UNC–Chapel Hill alone admitted 32 of them, up from 23 by the school’s count (the state’s Fall 2025 data shows 20).',
     subhead:
       'The published list covers four years of acceptances at 363 colleges. Harvard, Caltech, Johns Hopkins and Northwestern were among those added in the final edition. Only the names in bold are places where a Class of 2026 student actually enrolled. The school’s own documents differ slightly: the profile says 24 states, the Class of 2026 page says 23, and the list bolds 69 colleges against the 70 both pages give.',
     stats: [
       { value: '70', label: 'institutions actually enrolling a Class of 2026 student' },
       { value: '170', label: 'unique institutions admitting them · 1,107 applications sent' },
-      { value: '32', label: 'seniors admitted to UNC–Chapel Hill (up from 23)' },
+      { value: '32', label: 'seniors admitted to UNC–Chapel Hill (up from 23 by the school’s count; the state’s Fall 2025 data shows 20)' },
       { value: '$14.7M', label: 'scholarship offers, Class of 2026 ($13M for 2025)' },
     ],
     buckets: [
@@ -746,7 +746,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { tier: 'Top-75 National Universities', count: '75 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '50 / 75', note: '— includes three of the five federal service academies' },
       { tier: 'Power Four', count: '64 / 68' },
-      { tier: 'HBCUs', count: '19 / 107', note: '— Historically Black Colleges & Universities' },
+      { tier: 'HBCUs', count: '20 / 107', note: '— Historically Black Colleges & Universities' },
     ],
     collegesTitle: 'Every acceptance, 2023–2026',
     colleges,
@@ -804,8 +804,8 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         items: [
           '**The School Profile as an instrument** — the 2026–27 edition names the top course in every subject. It states the weighting formula. It shows AP results by subject, including the low end (Fine Arts at 91%/61%). Its AP-load groups grew to four. It dropped the 2025–26 edition’s test medians for each fifth, but it brought back a whole-class SAT/ACT middle 50%. That openness itself builds trust.',
           '**Integrity signaling** — an Honor Code students pledge every year, a student-run Honor Council, and membership in ACCIS, NACAC and SACAC. Signs of strong teachers matter here too. The Upper School’s **83 teaching and administrative staff** include **AP exam readers**, National Board graders and Klingenstein Fellows. 82% hold advanced degrees, and 100% take part in teacher training each year.',
-          '**A dominant UNC–Chapel Hill pipeline** — UNC–Chapel Hill admitted 32 Class of 2026 seniors, up from 23 the year before. The school also counts 34 Morehead-Cain recipients all-time. Add a lasting Jefferson Scholar link to UVA and a decade of service-academy appointments.',
-          '**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolled Class of 2026 students. The list holds 19 HBCUs (historically Black colleges and universities), with Claflin new. Recent awards include a February One Scholarship and a Ron Brown Scholar.',
+          '**A dominant UNC–Chapel Hill pipeline** — UNC–Chapel Hill admitted 32 Class of 2026 seniors. That is up from 23 by the school’s count; the state’s Fall 2025 data shows 20. The school also counts 34 Morehead-Cain recipients all-time. Add a lasting Jefferson Scholar link to UVA and a decade of service-academy appointments.',
+          '**A substantial HBCU pipeline** — North Carolina A&T, Howard, Hampton and Clark Atlanta all enrolled Class of 2026 students. The list holds 20 HBCUs (historically Black colleges and universities), with Claflin new. Recent awards include a February One Scholarship and a Ron Brown Scholar.',
         ],
         note:
           'The school does not publish its policy on reporting discipline. That policy would say whether, and how, Honor Council findings or suspensions reach the secondary school report (the form the school sends to colleges). The school lists NACAC membership, so this gap is a sharp question to ask on a tour.',

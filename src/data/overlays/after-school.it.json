@@ -70,10 +70,17 @@
       ]
     },
     {
-      "t": "GIU–AGO",
-      "of": "4f3a376a",
+      "t": "GIU–LUG",
+      "of": "6298b842",
       "at": [
-        "providence-day:coverage.summer.season"
+        "providence-day:coverage.summer.season",
+        "charlotte-latin:coverage.summer.season",
+        "charlotte-christian:coverage.summer.season",
+        "charlotte-country-day:coverage.summer.season",
+        "cannon:coverage.summer.season",
+        "gaston-day:coverage.summer.season",
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -1038,19 +1045,6 @@
       "of": "72c3da9a",
       "at": [
         "charlotte-latin:coverage.rows[3].flatLabel"
-      ]
-    },
-    {
-      "t": "GIU–LUG",
-      "of": "6298b842",
-      "at": [
-        "charlotte-latin:coverage.summer.season",
-        "charlotte-christian:coverage.summer.season",
-        "charlotte-country-day:coverage.summer.season",
-        "cannon:coverage.summer.season",
-        "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season",
-        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -3100,8 +3094,8 @@
       ]
     },
     {
-      "t": "Non è pubblicato alcuno sconto per fratelli sull'Extended Day, e non esiste alcuna politica di aiuto finanziario per l'Extended Day. È fatturato come **addebito accessorio**, il che lo colloca al di fuori dell'assistenza alla retta, anche se circa il 20% degli studenti riceve un aiuto sulla retta. La pagina della retta dice $9.4M a 341 studenti e Fast Facts dice $10.1M a 347. I programmi estivi, al contrario, hanno una propria domanda di aiuto.",
-      "of": "84fc27f4",
+      "t": "Non è pubblicato alcuno sconto per fratelli sull'Extended Day, e non è pubblicata alcuna politica di aiuto finanziario per l'Extended Day. È fatturato come **addebito accessorio**, il che lo colloca al di fuori dell'assistenza alla retta, anche se circa il 20% degli studenti riceve un aiuto sulla retta. La pagina della retta dice $9.4M a 341 studenti e Fast Facts dice $10.1M a 347. I programmi estivi, al contrario, hanno una propria domanda di aiuto.",
+      "of": "a659c262",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ]
@@ -3613,8 +3607,8 @@
       ]
     },
     {
-      "t": "nessun programma a pagamento — solo arrivo gratuito dalle 7:30 a.m.",
-      "of": "3e084a43",
+      "t": "nessun programma di assistenza a pagamento — solo arrivo gratuito dalle 7:30 a.m.",
+      "of": "619685dc",
       "at": [
         "cannon:coverage.facts[1].text"
       ]
@@ -3781,8 +3775,8 @@
       ]
     },
     {
-      "t": "Ciò che Cannon pubblica con reale dettaglio è Beyond the Bell: tre sessioni di enrichment di 10 settimane l'anno, con un giorno, una fascia di grado, un fornitore e una tariffa effettivi per ogni corso.",
-      "of": "688c480b",
+      "t": "Ciò che Cannon pubblica con reale dettaglio è Beyond the Bell, con tre sessioni di enrichment di 10 settimane l'anno. Ogni corso ha un giorno, una fascia di grado, un fornitore o un ruolo e una tariffa.",
+      "of": "37b490f7",
       "at": [
         "cannon:dayInside.subhead"
       ]
@@ -3844,143 +3838,162 @@
       ]
     },
     {
-      "t": "Beyond the Bell — Session 3, primavera 2026",
-      "of": "35adb5e8",
+      "t": "Beyond the Bell — Sessione 2, 2026–27",
+      "of": "40273360",
       "at": [
         "cannon:dayInside.catalogTitle"
       ]
     },
     {
-      "t": "Ogni anno si svolgono tre sessioni di 10 settimane per JrK–grade 8, più lezioni private di musica. I 22 corsi qui sotto sono il catalogo pubblicato più recente, **dal 9 marzo al 22 maggio 2026** — presi dalla brochure della sessione della scuola stessa. Le tariffe sono indicate per corso e per sessione. Nota che Beyond the Bell è un **acquisto separato dall'ASP**: un corso 3:00–4:00 non ti copre fino alle 6:00.",
-      "of": "b5d62754",
+      "t": "Ogni anno si svolgono tre sessioni di 10 settimane per JrK–grade 8, più lezioni private di musica per K–12. I 31 corsi qui sotto sono il catalogo della Sessione 2, **dal 30 novembre al 5 febbraio**. Provengono dalla brochure della sessione della scuola stessa. Le tariffe sono indicate per corso e per sessione. Nota che Beyond the Bell è un **acquisto separato dall'ASP**: un corso 3:00–4:00 non ti copre fino alle 6:00.",
+      "of": "3c1e2638",
       "at": [
         "cannon:dayInside.catalogIntro"
       ]
     },
     {
-      "t": "Partite a ranghi ridotti con Kelli Waller",
-      "of": "716c2549",
+      "t": "Tip tap e danza jazz con Art in Motion Dance Performing Co.",
+      "of": "3f13bb14",
       "at": [
         "cannon:dayInside.classes[0].desc"
       ]
     },
     {
-      "t": "2–6",
-      "of": "dc4d67cc",
+      "t": "JrK–1",
+      "of": "f42a2236",
       "at": [
-        "cannon:dayInside.classes[0].gradeLabel"
+        "cannon:dayInside.classes[0].gradeLabel",
+        "cannon:dayInside.classes[17].gradeLabel"
       ]
     },
     {
-      "t": "Fondamentali di cheer con Nash & Colacion",
-      "of": "85bf76c2",
+      "t": "Introduzione alla fotografia. Tenuto da un singolo istruttore",
+      "of": "4aea9b60",
       "at": [
         "cannon:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "3–6",
+      "of": "71b1a3ef",
+      "at": [
+        "cannon:dayInside.classes[1].gradeLabel",
+        "charlotte-prep:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "Competenze organizzative per la Middle School, 7:30–8:00 a.m., prima delle lezioni. Tenuto da un singolo istruttore",
+      "of": "42f62174",
+      "at": [
+        "cannon:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "cannon:dayInside.classes[2].gradeLabel",
+        "cannon:dayInside.classes[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "Un club di lavoretti creativi. Tenuto da un singolo istruttore",
+      "of": "d4ff7fc6",
+      "at": [
+        "cannon:dayInside.classes[3].desc"
       ]
     },
     {
       "t": "JrK–2",
       "of": "f32a20a3",
       "at": [
-        "cannon:dayInside.classes[1].gradeLabel",
-        "cannon:dayInside.classes[5].gradeLabel",
-        "cannon:dayInside.classes[12].gradeLabel",
-        "cannon:dayInside.classes[15].gradeLabel"
-      ]
-    },
-    {
-      "t": "Sfide di costruzione e collaudo gestite da BrickEd",
-      "of": "fc32f7b2",
-      "at": [
-        "cannon:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–2",
-      "of": "5e92d4cb",
-      "at": [
-        "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel",
-        "charlotte-prep:dayInside.classes[1].gradeLabel"
-      ]
-    },
-    {
-      "t": "Creazione multimediale con McKinsey & Raphael",
-      "of": "12042fb8",
-      "at": [
-        "cannon:dayInside.classes[3].desc"
-      ]
-    },
-    {
-      "t": "2–4",
-      "of": "de4d6af2",
-      "at": [
         "cannon:dayInside.classes[3].gradeLabel",
-        "cannon:dayInside.classes[17].gradeLabel"
+        "cannon:dayInside.classes[13].gradeLabel",
+        "cannon:dayInside.classes[22].gradeLabel",
+        "cannon:dayInside.classes[23].gradeLabel"
       ]
     },
     {
-      "t": "Costruzione e programmazione di squadra con Lisa Nussbaumer",
-      "of": "a4c630c5",
+      "t": "Tennis con lo staff tecnico del tennis varsity di Cannon",
+      "of": "692bb940",
       "at": [
-        "cannon:dayInside.classes[4].desc"
+        "cannon:dayInside.classes[4].desc",
+        "cannon:dayInside.classes[11].desc"
       ]
     },
     {
-      "t": "3–5",
-      "of": "72b1a582",
+      "t": "K–4",
+      "of": "6492de3d",
       "at": [
         "cannon:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[3].gradeLabel",
-        "charlotte-prep:dayInside.classes[5].gradeLabel"
+        "cannon:dayInside.classes[16].gradeLabel",
+        "charlotte-prep:dayInside.classes[0].gradeLabel"
       ]
     },
     {
-      "t": "Creazione di burattini e spettacolo con Rhiannon Bresalier",
-      "of": "9234b989",
+      "t": "Un club Pokémon. Tenuto da un singolo istruttore",
+      "of": "58d4dc0d",
       "at": [
         "cannon:dayInside.classes[5].desc"
       ]
     },
     {
-      "t": "Competenze in cucina e ricette con Craig Rosekrans",
-      "of": "66339c45",
+      "t": "2–6",
+      "of": "dc4d67cc",
+      "at": [
+        "cannon:dayInside.classes[5].gradeLabel",
+        "cannon:dayInside.classes[10].gradeLabel",
+        "cannon:dayInside.classes[14].gradeLabel",
+        "cannon:dayInside.classes[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "Tecnica degli strumenti ad arco. Tenuto da un singolo istruttore",
+      "of": "b8f2970c",
       "at": [
         "cannon:dayInside.classes[6].desc"
-      ]
-    },
-    {
-      "t": "1–3",
-      "of": "aa9ea5ea",
-      "at": [
-        "cannon:dayInside.classes[6].gradeLabel"
-      ]
-    },
-    {
-      "t": "Gestito da AR Workshop Concord; 3:00–4:30",
-      "of": "ec18d9af",
-      "at": [
-        "cannon:dayInside.classes[7].desc"
       ]
     },
     {
       "t": "3–8",
       "of": "77b1ad61",
       "at": [
-        "cannon:dayInside.classes[7].gradeLabel",
+        "cannon:dayInside.classes[6].gradeLabel",
         "charlotte-prep:dayInside.classes[2].gradeLabel"
       ]
     },
     {
-      "t": "Danza con Art in Motion Dance",
-      "of": "6d0482e1",
+      "t": "Un corso di pasticceria. Tenuto da un singolo istruttore",
+      "of": "039f66ae",
+      "at": [
+        "cannon:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "K–1",
+      "of": "5f92d65e",
+      "at": [
+        "cannon:dayInside.classes[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "Un corso di maker space. Tenuto da un singolo istruttore",
+      "of": "a373c8d9",
       "at": [
         "cannon:dayInside.classes[8].desc"
       ]
     },
     {
-      "t": "Esplorazione all'aperto e giochi con Kelli Waller",
-      "of": "d09d34c2",
+      "t": "1–3",
+      "of": "aa9ea5ea",
+      "at": [
+        "cannon:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "Guidato da Carolina Soccer Factory",
+      "of": "55c5f69b",
       "at": [
         "cannon:dayInside.classes[9].desc"
       ]
@@ -3989,178 +4002,212 @@
       "t": "JrK–4",
       "of": "f92a2a15",
       "at": [
-        "cannon:dayInside.classes[9].gradeLabel"
+        "cannon:dayInside.classes[9].gradeLabel",
+        "cannon:dayInside.classes[12].gradeLabel",
+        "cannon:dayInside.classes[21].gradeLabel",
+        "cannon:dayInside.classes[25].gradeLabel",
+        "cannon:dayInside.classes[30].gradeLabel"
       ]
     },
     {
-      "t": "Guidato da Carolina Soccer Factory",
-      "of": "55c5f69b",
+      "t": "Progetti di diamond art. Tenuto da un singolo istruttore",
+      "of": "83ec038d",
       "at": [
         "cannon:dayInside.classes[10].desc"
       ]
     },
     {
-      "t": "K–6",
-      "of": "6292db17",
+      "t": "Tenuto da un singolo istruttore",
+      "of": "c2e74de5",
       "at": [
-        "cannon:dayInside.classes[10].gradeLabel"
-      ]
-    },
-    {
-      "t": "Creazione interdisciplinare con Mayo & Cavicchi",
-      "of": "892a9a9a",
-      "at": [
-        "cannon:dayInside.classes[11].desc"
-      ]
-    },
-    {
-      "t": "JrK–1",
-      "of": "f42a2236",
-      "at": [
-        "cannon:dayInside.classes[11].gradeLabel"
+        "cannon:dayInside.classes[12].desc",
+        "cannon:dayInside.classes[29].desc"
       ]
     },
     {
       "t": "Tenuto da Le Petit Ballet Co.",
       "of": "54903c06",
       "at": [
-        "cannon:dayInside.classes[12].desc"
+        "cannon:dayInside.classes[13].desc"
       ]
     },
     {
-      "t": "Archi d'insieme con Anne Marie Samuel",
-      "of": "cee50463",
+      "t": "Ceramica al tornio. Tenuto da un singolo istruttore",
+      "of": "21bb2035",
       "at": [
-        "cannon:dayInside.classes[13].desc"
+        "cannon:dayInside.classes[14].desc"
+      ]
+    },
+    {
+      "t": "Musica d’insieme per archi con lo String Orchestra Director di Cannon",
+      "of": "be9b40b7",
+      "at": [
+        "cannon:dayInside.classes[15].desc"
       ]
     },
     {
       "t": "1–8",
       "of": "a19e97bf",
       "at": [
-        "cannon:dayInside.classes[13].gradeLabel"
+        "cannon:dayInside.classes[15].gradeLabel"
       ]
     },
     {
-      "t": "Gestito da Better Golf for Kids",
-      "of": "f995456f",
-      "at": [
-        "cannon:dayInside.classes[14].desc"
-      ]
-    },
-    {
-      "t": "K–5",
-      "of": "6392dcaa",
-      "at": [
-        "cannon:dayInside.classes[14].gradeLabel"
-      ]
-    },
-    {
-      "t": "Arte tridimensionale con Alex Bresalier",
-      "of": "4dd98a79",
-      "at": [
-        "cannon:dayInside.classes[15].desc"
-      ]
-    },
-    {
-      "t": "Competenze di funzione esecutiva per la Middle School, con Sherrill & O'Brien",
-      "of": "1cef586d",
+      "t": "Lacrosse con gli allenatori di lacrosse della Cannon School",
+      "of": "9b2f1dbe",
       "at": [
         "cannon:dayInside.classes[16].desc"
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
-      "at": [
-        "cannon:dayInside.classes[16].gradeLabel"
-      ]
-    },
-    {
-      "t": "Sviluppo atletico con Donnie Hayes",
-      "of": "aebfe251",
+      "t": "Programmazione di robot con Nexplore",
+      "of": "981427da",
       "at": [
         "cannon:dayInside.classes[17].desc"
       ]
     },
     {
-      "t": "Storia basata sugli oggetti con Stephanie Lee",
-      "of": "6c10a569",
+      "t": "Preparazione atletica. Tenuto da un singolo istruttore",
+      "of": "1e12eca4",
       "at": [
         "cannon:dayInside.classes[18].desc"
       ]
     },
     {
-      "t": "4–8",
-      "of": "d12b05b8",
+      "t": "2–5",
+      "of": "df4d6c85",
       "at": [
-        "cannon:dayInside.classes[18].gradeLabel"
+        "cannon:dayInside.classes[18].gradeLabel",
+        "cannon:dayInside.classes[27].gradeLabel"
       ]
     },
     {
-      "t": "Basi della macchina fotografica e composizione con Danielle Sandlof",
-      "of": "753d981d",
+      "t": "Gestito da Better Golf for Kids Academy",
+      "of": "e35d51f5",
       "at": [
         "cannon:dayInside.classes[19].desc"
       ]
     },
     {
-      "t": "3–6",
-      "of": "71b1a3ef",
+      "t": "1–6",
+      "of": "a79ea131",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel",
-        "charlotte-prep:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[8].gradeLabel"
+        "cannon:dayInside.classes[19].gradeLabel"
       ]
     },
     {
-      "t": "Arte con le perline con Dobbins & Fox",
-      "of": "5832d170",
+      "t": "Un corso di ceramica. Tenuto da un singolo istruttore",
+      "of": "5c6ac547",
       "at": [
         "cannon:dayInside.classes[20].desc"
       ]
     },
     {
-      "t": "K–4",
-      "of": "6492de3d",
-      "at": [
-        "cannon:dayInside.classes[20].gradeLabel",
-        "charlotte-prep:dayInside.classes[0].gradeLabel"
-      ]
-    },
-    {
-      "t": "Pittura e disegno con Danielle Lucas",
-      "of": "e404b9fa",
+      "t": "Un corso di corsa a piedi. Tenuto da un singolo istruttore",
+      "of": "79379dd5",
       "at": [
         "cannon:dayInside.classes[21].desc"
       ]
     },
     {
-      "t": "K–3",
-      "of": "5d92d338",
+      "t": "Arte con AR Workshop",
+      "of": "ada8f20e",
       "at": [
-        "cannon:dayInside.classes[21].gradeLabel"
+        "cannon:dayInside.classes[22].desc"
       ]
     },
     {
-      "t": "Lezioni private di musica si affiancano per la K–8: violoncello $25/lezione (Mon/Wed), chitarra $25 (Wed/Fri), canto $30 (Tue/Thu), pianoforte $30 (Mon/Tue/Thu) e violino o viola $30 (Tue/Thu).",
-      "of": "1bb78a11",
+      "t": "Gestito da Kidokinetics of North Charlotte",
+      "of": "8dd86e42",
+      "at": [
+        "cannon:dayInside.classes[23].desc"
+      ]
+    },
+    {
+      "t": "Tenuto da Concord TaeKwonDo Inc.",
+      "of": "3242095f",
+      "at": [
+        "cannon:dayInside.classes[24].desc"
+      ]
+    },
+    {
+      "t": "1–5",
+      "of": "a49e9c78",
+      "at": [
+        "cannon:dayInside.classes[24].gradeLabel"
+      ]
+    },
+    {
+      "t": "Cheerleading con Overtime Athletics",
+      "of": "1aa0fba0",
+      "at": [
+        "cannon:dayInside.classes[25].desc"
+      ]
+    },
+    {
+      "t": "Tenuto dall’head coach del Charlotte Chess Center",
+      "of": "f5fe7acf",
+      "at": [
+        "cannon:dayInside.classes[26].desc"
+      ]
+    },
+    {
+      "t": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "cannon:dayInside.classes[26].gradeLabel",
+        "trinity-episcopal:dayInside.classes[0].gradeLabel",
+        "trinity-episcopal:dayInside.classes[1].gradeLabel",
+        "trinity-episcopal:dayInside.classes[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "Magia con Nexplore",
+      "of": "0b37a651",
+      "at": [
+        "cannon:dayInside.classes[27].desc"
+      ]
+    },
+    {
+      "t": "Un corso di cucina. Tenuto da un singolo istruttore",
+      "of": "6a5d3918",
+      "at": [
+        "cannon:dayInside.classes[28].desc"
+      ]
+    },
+    {
+      "t": "5–7",
+      "of": "73037a4a",
+      "at": [
+        "cannon:dayInside.classes[28].gradeLabel"
+      ]
+    },
+    {
+      "t": "K–6",
+      "of": "6292db17",
+      "at": [
+        "cannon:dayInside.classes[29].gradeLabel"
+      ]
+    },
+    {
+      "t": "Un corso LEGO. Tenuto da un singolo istruttore",
+      "of": "8e0b917b",
+      "at": [
+        "cannon:dayInside.classes[30].desc"
+      ]
+    },
+    {
+      "t": "Lezioni private di musica si affiancano per la K–12: pianoforte $30/lezione (Lun/Mar, e Mer/Gio/Ven con un secondo insegnante), violino o viola $30 (Mar/Gio), canto $30 per le classi 2–12 (Mar/Gio/Ven), violoncello $25 (Lun–Gio) e chitarra $25 (Mar/Mer/Gio).",
+      "of": "d303045f",
       "at": [
         "cannon:dayInside.flags[0].text"
-      ]
-    },
-    {
-      "t": "Questo è il catalogo della **Session 3 del 2025-26** — il più recente pubblicato. Non è ancora stato pubblicato alcun catalogo Beyond the Bell 2026-27, quindi i corsi specifici cambieranno anche se la fascia di prezzo e la struttura probabilmente reggeranno.",
-      "of": "bd097f64",
-      "at": [
-        "cannon:dayInside.flags[1].text"
       ]
     },
     {
       "t": "Non è pubblicato alcun ritmo giornaliero ora per ora né alcun rapporto personale-bambini per l'After School Program vero e proprio. La Middle School non ha una descrizione di programma separata: le grades 5–8 rientrano nello stesso programma JrK–8.",
       "of": "9c982864",
       "at": [
-        "cannon:dayInside.flags[2].text"
+        "cannon:dayInside.flags[1].text"
       ]
     },
     {
@@ -4206,22 +4253,22 @@
       ]
     },
     {
-      "t": "**Un ricco catalogo di enrichment con prezzi completi** — 22 corsi distinti in una sola sessione, da robotica e danza classica a scultura, golf e fotografia. Ciascuno ha un fornitore indicato per nome e una tariffa reale.",
-      "of": "591807b0",
+      "t": "**Un ricco catalogo di enrichment con prezzi completi** — 31 corsi distinti in una sola sessione, da programmazione di robot e danza classica a ceramica, golf e fotografia. Ciascuno ha una tariffa reale.",
+      "of": "c7483779",
       "at": [
         "cannon:verdict.strengths[4]"
       ]
     },
     {
-      "t": "**L'enrichment ha prezzi contenuti ed è trasparente** — $18–$30 a lezione e $160–$300+ per la sessione di 8 o 10 lezioni, con rimborsi integrali per i corsi annullati e una settimana di recupero.",
-      "of": "6274a884",
+      "t": "**L'enrichment ha prezzi contenuti ed è trasparente** — $15–$30 a lezione e $125–$240 per una sessione di 5–15 incontri. Una famiglia può disdire entro la prima settimana e pagare solo la lezione frequentata. Una lezione annullata viene recuperata dove possibile.",
+      "of": "8aba83f9",
       "at": [
         "cannon:verdict.strengths[5]"
       ]
     },
     {
-      "t": "**Un corso di funzione esecutiva per la Middle School** (\"Let's Get Organized\") — un'offerta davvero insolita a questa età.",
-      "of": "4ab6a038",
+      "t": "**Un corso di competenze organizzative per la Middle School** (\"Let’s Get Organized\"), due volte a settimana prima delle lezioni — un'offerta davvero insolita a questa età.",
+      "of": "77a48c2d",
       "at": [
         "cannon:verdict.strengths[6]"
       ]
@@ -6025,8 +6072,8 @@
       ]
     },
     {
-      "t": "L’assistenza arriva fino alle 5:30 pm dalla Pre-K all’8ª classe. La fascia Lower School inizia alle 3:00 e la fascia Middle School alle 3:15.",
-      "of": "fecea180",
+      "t": "L’assistenza arriva fino alle 5:30 pm dalla Preschool all’8ª classe. La fascia Lower School inizia alle 3:00 e la fascia Middle School alle 3:15.",
+      "of": "61235bc4",
       "at": [
         "gaston-day:coverage.headline"
       ]
@@ -6151,8 +6198,8 @@
       ]
     },
     {
-      "t": "Il programma copre **solo dalla Pre-K all’8ª classe**. Non è pubblicata alcuna assistenza doposcuola per le classi 9–12, cosa comune ma che vale la pena dichiarare.",
-      "of": "a27225ab",
+      "t": "Il programma copre **solo dalla Preschool all’8ª classe**. Non è pubblicata alcuna assistenza doposcuola per le classi 9–12, cosa comune ma che vale la pena dichiarare.",
+      "of": "ba0c1c4b",
       "at": [
         "gaston-day:coverage.facts[5].text"
       ]
@@ -6608,8 +6655,8 @@
       ]
     },
     {
-      "t": "**La copertura va dalla Pre-K all’8ª classe** in due fasce, entrambe fino alle 5:30 pm.",
-      "of": "55e040df",
+      "t": "**La copertura va dalla Preschool all’8ª classe** in due fasce, entrambe fino alle 5:30 pm.",
+      "of": "a5a8e713",
       "at": [
         "gaston-day:verdict.strengths[4]"
       ]
@@ -6713,8 +6760,8 @@
       ]
     },
     {
-      "t": "In che modo la fascia 5th–8th è sorvegliata diversamente dalla fascia Pre-K–4th?",
-      "of": "3bc8eeb5",
+      "t": "In che modo la fascia 5th–8th è sorvegliata diversamente dalla fascia Preschool–4th?",
+      "of": "88b837f1",
       "at": [
         "gaston-day:verdict.checklist[6]"
       ]
@@ -6959,15 +7006,6 @@
       "at": [
         "trinity-episcopal:dayInside.classes[0].desc",
         "trinity-episcopal:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–8",
-      "of": "5892cb59",
-      "at": [
-        "trinity-episcopal:dayInside.classes[0].gradeLabel",
-        "trinity-episcopal:dayInside.classes[1].gradeLabel",
-        "trinity-episcopal:dayInside.classes[2].gradeLabel"
       ]
     },
     {
@@ -7433,6 +7471,13 @@
       ]
     },
     {
+      "t": "K–2",
+      "of": "5e92d4cb",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
+      ]
+    },
+    {
       "t": "Fare il provino e recitare in un atto unico.",
       "of": "e1c0cf53",
       "at": [
@@ -7444,6 +7489,14 @@
       "of": "b9eaca1b",
       "at": [
         "charlotte-prep:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "3–5",
+      "of": "72b1a582",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
       ]
     },
     {

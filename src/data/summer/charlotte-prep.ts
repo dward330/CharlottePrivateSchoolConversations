@@ -335,7 +335,7 @@ export const charlottePrep: SummerProgram = {
         label: 'Sports or music camp',
         panelLabel: 'Sports / Rhythm & Beats · $500',
         price: 500,
-        detail: 'Amazing Athletes, Basketball, Volleyball, Kidokinetics (July) and Rhythm & Beats.',
+        detail: 'Amazing Athletes, Basketball, Volleyball, Kidokinetics (July) and Rhythm & Beats (four days, $125 a day).',
       },
       {
         id: 'junior-counselor',

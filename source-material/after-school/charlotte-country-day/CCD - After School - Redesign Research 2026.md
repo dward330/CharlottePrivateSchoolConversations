@@ -344,3 +344,9 @@ lists "Enrichment classes · no rate" and asks for the rate (Q3).
 
 - https://www.charlottecountryday.org/bucsnet/quick-reference (HTTP 200): "Grades 1–2: 8:00 am–2:50 pm" and "Grades 3–4: 8:00 am–3:05 pm". https://www.charlottecountryday.org/cd-experience/after-school/program-directors: "Grades 1–4 (15:1 ratio) : 3:05–4:05 pm". So grades 1–2 wait 15 minutes.
 - https://www.charlottecountryday.org/bucsnet/after-school/extended-day (HTTP 200): "3:00 pm (carpool siblings only), 3:30 pm, 4:30 pm, 6 pm", and the JK 3 pm five-day rate "$450".
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.charlottecountryday.org/bucsnet/after-school/extended-day (HTTP 200):
+  "Registration Fee. $80 (due upon enrollment)"; drop-in "one-time $40 registration fee";
+  conference and professional days "at a separate cost"; "3:00 pm (carpool siblings only)".

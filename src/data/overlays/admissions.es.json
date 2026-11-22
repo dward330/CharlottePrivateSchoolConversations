@@ -93,7 +93,6 @@
         "charlotte-latin:guide.bands[3].checklistRows[6].due",
         "charlotte-latin:guide.comparison.rows[0].cells.ls",
         "charlotte-latin:guide.comparison.rows[0].cells.ms",
-        "charlotte-latin:guide.comparison.rows[0].cells.us",
         "charlotte-christian:guide.stats[1].value",
         "charlotte-christian:guide.bands[0].checklistRows[3].due",
         "charlotte-christian:guide.bands[0].checklistRows[4].due",
@@ -136,7 +135,6 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
-        "charlotte-latin:guide.stats[1].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ]
@@ -1572,10 +1570,17 @@
       ]
     },
     {
-      "t": "plazo de solicitud de TK/Kindergarten — 13 días antes que el de todos los demás grados",
-      "of": "af3286a6",
+      "t": "plazo de solicitud de TK/Kindergarten — 13 días antes que el de los grados 1–11",
+      "of": "0e0e9a6a",
       "at": [
         "charlotte-latin:guide.stats[0].label"
+      ]
+    },
+    {
+      "t": "plazo de solicitud para los grados 1–11",
+      "of": "5ce9158d",
+      "at": [
+        "charlotte-latin:guide.stats[1].label"
       ]
     },
     {
@@ -1626,8 +1631,7 @@
       "at": [
         "charlotte-latin:guide.bands[0].deadlines[0].label",
         "charlotte-latin:guide.bands[1].deadlines[0].label",
-        "charlotte-latin:guide.bands[2].deadlines[0].label",
-        "charlotte-latin:guide.bands[3].deadlines[0].label"
+        "charlotte-latin:guide.bands[2].deadlines[0].label"
       ]
     },
     {
@@ -1690,8 +1694,8 @@
       ]
     },
     {
-      "t": "Opcional, no obligatorio. El **TK/K Fly By Open House del 10 de octubre de 2026, de 9:30 a 11:00 a.m.** es el único evento con fecha publicado para este nivel. Las visitas al campus comienzan en septiembre y se mantienen durante todo el curso. Las jornadas de puertas abiertas, las visitas y las sesiones virtuales se reservan todas desde su cuenta del portal.",
-      "of": "0b83f028",
+      "t": "Opcional, no obligatorio. Se publican dos eventos con fecha para este nivel. El **TK/K Fly By Open House** es el 10 de octubre de 2026, de 9:30 a 11:00 a.m. Un **café con mesa redonda para padres de aspirantes a TK/K** es el 20 de enero de 2027, de 9:30 a 11:00 a.m. Las visitas al campus comienzan en septiembre y se mantienen durante todo el curso. Las jornadas de puertas abiertas, las visitas y las sesiones virtuales se reservan todas desde su cuenta del portal.",
+      "of": "cb1d064a",
       "at": [
         "charlotte-latin:guide.bands[0].steps[1].detail"
       ]
@@ -1707,8 +1711,8 @@
       ]
     },
     {
-      "t": "Obligatorio, y con fecha límite el **2 de enero de 2027**. Son trece días antes que cualquier otro grado del colegio. Así que el plazo de este nivel cae en la primera semana de enero y no a mediados. **No se publica ningún corte de edad ni de fecha de nacimiento** para Transitional Kindergarten ni para Kindergarten. El colegio describe TK solo en términos generales, como algo «diseñado para niños que acaban de cumplir cinco años y están listos para Kindergarten», y no indica ninguna fecha. Pregunte a la oficina de admisiones dónde encaja su hijo. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones. El calendario dice K-12, así que no aclara si incluye TK.",
-      "of": "3c4bf219",
+      "t": "Obligatorio, y con fecha límite el **2 de enero de 2027**. Son trece días antes que los grados 1–11. Así que el plazo de este nivel cae en la primera semana de enero y no a mediados. **No se publica ningún corte de edad ni de fecha de nacimiento** para Transitional Kindergarten ni para Kindergarten. El colegio describe TK solo en términos generales, como algo “designed for children that are newly five and ready for Kindergarten” (diseñado para niños que acaban de cumplir cinco años y están listos para Kindergarten), y no indica ninguna fecha. Pregunte a la oficina de admisiones dónde encaja su hijo. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones. El calendario dice K-12, así que no aclara si incluye TK.",
+      "of": "3ddeb149",
       "at": [
         "charlotte-latin:guide.bands[0].steps[2].detail"
       ]
@@ -1752,8 +1756,8 @@
       ]
     },
     {
-      "t": "Obligatorio. Los aspirantes a este nivel realizan el **WPPSI**. Lo administra un psicólogo del consorcio Charlotte Area Independent Schools. La prueba «debe concertarse con antelación». Usted reserva directamente con el psicólogo y pide que se envíen las puntuaciones a Charlotte Latin. El colegio no gestiona la cita.",
-      "of": "371c6a2f",
+      "t": "Obligatorio. Los aspirantes a este nivel realizan el **WPPSI**. Lo administra un psicólogo del consorcio Charlotte Area Independent Schools. Según el colegio, las pruebas “need[s] to be scheduled in advance” (deben concertarse con antelación). Usted reserva directamente con el psicólogo y pide que se envíen las puntuaciones a Charlotte Latin. El colegio no gestiona la cita. El folleto de CAIS dice que la prueba debe completarse a más tardar el **1 de febrero de 2027** y que cuesta **$300**. También dice que los colegios de CAIS entrevistan a cada niño, aunque la página de Latin no describe ninguna entrevista para este nivel.",
+      "of": "fe64a670",
       "at": [
         "charlotte-latin:guide.bands[0].steps[4].detail"
       ]
@@ -1793,8 +1797,8 @@
       ]
     },
     {
-      "t": "El **26 de febrero de 2027** es el «día de notificación de TK y K» del colegio. Las decisiones sobre la ayuda financiera se comunican ese mismo día. **No se publica ninguna fecha límite para el contrato de matriculación**, así que pregunte a la oficina de admisiones cuándo vence. Para matricularse también se exige el **depósito no reembolsable de $2,500**.",
-      "of": "965fb3f3",
+      "t": "El **26 de febrero de 2027** es el día de notificación de TK y K del colegio (“TK and K notification day”). Las decisiones sobre la ayuda financiera se comunican ese mismo día. El folleto de CAIS dice que el contrato de matriculación vence el **5 de marzo de 2027**. Para matricularse también se exige el **depósito no reembolsable de $2,500**.",
+      "of": "3059c61c",
       "at": [
         "charlotte-latin:guide.bands[0].steps[6].detail"
       ]
@@ -1807,8 +1811,8 @@
       ]
     },
     {
-      "t": "Transitional Kindergarten y Kindergarten solicitan trece días antes que cualquier otro grado. En este nivel, el Visit Day lo concierta la oficina de admisiones, no la familia. No se publica ninguna fecha límite de documentación completa para este nivel. Así que tome la lista de su portal como la última palabra sobre lo que sigue pendiente. Las decisiones llegan en el día de notificación, el 26 de febrero de 2027. No se publica ninguna fecha límite para el contrato de matriculación, así que confírmela con la oficina de admisiones.",
-      "of": "251668a8",
+      "t": "Transitional Kindergarten y Kindergarten solicitan trece días antes que los grados 1–11. En este nivel, el Visit Day lo concierta la oficina de admisiones, no la familia. No se publica ninguna fecha límite de documentación completa para este nivel. Así que tome la lista de su portal como la última palabra sobre lo que sigue pendiente. El folleto de CAIS fija la prueba a más tardar el 1 de febrero de 2027. Las decisiones llegan en el día de notificación, el 26 de febrero de 2027. El folleto dice que el contrato de matriculación vence el 5 de marzo de 2027.",
+      "of": "010536bd",
       "at": [
         "charlotte-latin:guide.bands[0].checklistCallout.text"
       ]
@@ -1878,8 +1882,8 @@
       ]
     },
     {
-      "t": "Trece días antes del plazo de los grados 1–12. No se publica ningún corte de edad.",
-      "of": "614a3486",
+      "t": "Trece días antes del plazo de los grados 1–11. No se publica ningún corte de edad.",
+      "of": "81a4c04f",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[3].detail"
       ]
@@ -1913,19 +1917,17 @@
       ]
     },
     {
-      "t": "Se concierta con antelación con un psicólogo de CAIS; pida que se envíen las puntuaciones a Latin.",
-      "of": "4f9cd594",
+      "t": "Se concierta con antelación con un psicólogo de CAIS; pida que se envíen las puntuaciones a Latin. $300, según el folleto de CAIS.",
+      "of": "676033c7",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[5].detail"
       ]
     },
     {
-      "t": "Antes de su fecha límite",
-      "of": "de184993",
+      "t": "A más tardar el 1 de febrero de 2027",
+      "of": "6a0ec2a3",
       "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[5].due",
-        "charlotte-latin:guide.bands[1].checklistRows[3].due",
-        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+        "charlotte-latin:guide.bands[0].checklistRows[5].due"
       ]
     },
     {
@@ -1959,12 +1961,10 @@
       ]
     },
     {
-      "t": "Ese día llegan las decisiones de admisión y de ayuda financiera. No se publica ninguna fecha límite para el contrato; confírmela con admisiones.",
-      "of": "9ebc1ec7",
+      "t": "Ese día llegan las decisiones de admisión y de ayuda financiera. El folleto de CAIS dice que el contrato vence el 5 de marzo de 2027.",
+      "of": "ec3068ef",
       "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[7].detail",
-        "charlotte-latin:guide.bands[1].checklistRows[6].detail",
-        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
+        "charlotte-latin:guide.bands[0].checklistRows[7].detail"
       ]
     },
     {
@@ -1991,8 +1991,8 @@
       ]
     },
     {
-      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**: el plazo al que se atienen todos los grados del 1 al 12, trece días más tarde que Transitional Kindergarten y Kindergarten. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones.",
-      "of": "d9c67bf3",
+      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**. Ese es el plazo de los grados 1–11, trece días más tarde que Transitional Kindergarten y Kindergarten. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones.",
+      "of": "1ae2bdd7",
       "at": [
         "charlotte-latin:guide.bands[1].steps[1].detail"
       ]
@@ -2029,8 +2029,8 @@
       ]
     },
     {
-      "t": "Obligatorio, y **la prueba cambia dos veces dentro de este mismo nivel**. Los aspirantes a grado 1 realizan el **WPPSI**, los de grados 2–4 el **WISC-V** y los de grado 5 el **ISEE**. La forma de reservar cambia con ella. El WPPSI y el WISC-V los administra un psicólogo del consorcio Charlotte Area Independent Schools, y usted contacta directamente con ese psicólogo. El ISEE lo elabora y administra el **Educational Records Bureau**, y las familias de grado 5 se inscriben a través del ERB. Compruebe qué prueba corresponde al grado al que entra su hijo antes de reservar nada.",
-      "of": "e0901ac3",
+      "t": "Obligatorio, y **la prueba cambia dos veces dentro de este mismo nivel**. Los aspirantes a grado 1 realizan el **WPPSI**, los de grados 2–4 el **WISC-V** y los de grado 5 el **ISEE**. La forma de reservar cambia con ella. El WPPSI y el WISC-V los administra un psicólogo del consorcio Charlotte Area Independent Schools, y usted contacta directamente con ese psicólogo. El ISEE lo elabora y administra el **Educational Records Bureau**, y las familias de grado 5 se inscriben a través del ERB. Compruebe qué prueba corresponde al grado al que entra su hijo antes de reservar nada. El folleto de CAIS dice que la prueba de los grados 1–4 debe completarse a más tardar el **26 de febrero de 2027** y que cuesta **$300**. También dice que los colegios de CAIS entrevistan a cada niño, aunque la página de Latin no describe ninguna entrevista para este nivel.",
+      "of": "2192188f",
       "at": [
         "charlotte-latin:guide.bands[1].steps[3].detail"
       ]
@@ -2052,11 +2052,10 @@
       ]
     },
     {
-      "t": "El **9 de abril de 2027** es el «día de notificación de los grados 1-11» del colegio. Las decisiones sobre la ayuda financiera se comunican ese mismo día. **No se publica ninguna fecha límite para el contrato de matriculación**, así que pregunte a la oficina de admisiones cuándo vence. Para matricularse también se exige el **depósito no reembolsable de $2,500**.",
-      "of": "1735da67",
+      "t": "El **9 de abril de 2027** es el día de notificación que el colegio llama “Grades 1-11 notification day”. Las decisiones sobre la ayuda financiera se comunican ese mismo día. El folleto de CAIS dice que los contratos de los grados 1–4 vencen el **16 de abril de 2027**. **No se publica ninguna fecha límite de contrato para el grado 5**, así que pregunte a la oficina de admisiones. Para matricularse también se exige el **depósito no reembolsable de $2,500**.",
+      "of": "0d880376",
       "at": [
-        "charlotte-latin:guide.bands[1].steps[5].detail",
-        "charlotte-latin:guide.bands[2].steps[6].detail"
+        "charlotte-latin:guide.bands[1].steps[5].detail"
       ]
     },
     {
@@ -2067,15 +2066,15 @@
       ]
     },
     {
-      "t": "El grado 1 realiza el WPPSI, los grados 2–4 el WISC-V y el grado 5 el ISEE. La forma de reservar cambia con ella. Para el WPPSI y el WISC-V, usted contacta directamente con un psicólogo de CAIS. Para el ISEE, se inscribe en el Educational Records Bureau. Confirme qué prueba corresponde al grado de entrada de su hijo antes de reservar. No se publica ninguna fecha límite de documentación completa para este nivel. Así que tome la lista de su portal como la última palabra sobre lo que sigue pendiente. Las decisiones llegan en el día de notificación, el 9 de abril de 2027. No se publica ninguna fecha límite para el contrato de matriculación, así que confírmela con la oficina de admisiones.",
-      "of": "e075f067",
+      "t": "El grado 1 realiza el WPPSI, los grados 2–4 el WISC-V y el grado 5 el ISEE. La forma de reservar cambia con ella. Para el WPPSI y el WISC-V, usted contacta directamente con un psicólogo de CAIS. Para el ISEE, se inscribe en el Educational Records Bureau. Confirme qué prueba corresponde al grado de entrada de su hijo antes de reservar. No se publica ninguna fecha límite de documentación completa para este nivel. Así que tome la lista de su portal como la última palabra sobre lo que sigue pendiente. El folleto de CAIS fija la prueba de los grados 1–4 a más tardar el 26 de febrero de 2027. Las decisiones llegan en el día de notificación, el 9 de abril de 2027. El folleto dice que los contratos de los grados 1–4 vencen el 16 de abril de 2027. Para el grado 5 no se publica ninguna fecha, así que confírmela con la oficina de admisiones.",
+      "of": "25371f97",
       "at": [
         "charlotte-latin:guide.bands[1].checklistCallout.text"
       ]
     },
     {
-      "t": "El plazo de los grados 1–12, trece días después del de TK/K.",
-      "of": "2e0d0ce3",
+      "t": "El plazo de los grados 1–11, trece días después del de TK/K.",
+      "of": "0dd14a86",
       "at": [
         "charlotte-latin:guide.bands[1].checklistRows[2].detail"
       ]
@@ -2088,6 +2087,13 @@
       ]
     },
     {
+      "t": "Antes de su fecha límite",
+      "of": "de184993",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[3].due"
+      ]
+    },
+    {
       "t": "Concierte y realice la prueba de su grado de entrada",
       "of": "58f28450",
       "at": [
@@ -2095,10 +2101,24 @@
       ]
     },
     {
-      "t": "Grado 1 WPPSI · grados 2–4 WISC-V (ambos CAIS) · grado 5 ISEE (a través del ERB).",
-      "of": "cc9ee7d8",
+      "t": "Grado 1 WPPSI · grados 2–4 WISC-V (ambos CAIS, $300, completados a más tardar el 26 de febrero de 2027) · grado 5 ISEE (a través del ERB, sin fecha publicada).",
+      "of": "32d528cd",
       "at": [
         "charlotte-latin:guide.bands[1].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "26 de febrero de 2027 para los grados 1–4",
+      "of": "a8240a24",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+      ]
+    },
+    {
+      "t": "Ese día llegan las decisiones de admisión y de ayuda financiera. El folleto de CAIS dice que los contratos de los grados 1–4 vencen el 16 de abril de 2027. Para el grado 5 no se publica ninguna fecha.",
+      "of": "e940ba53",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[6].detail"
       ]
     },
     {
@@ -2133,8 +2153,8 @@
       ]
     },
     {
-      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**: el plazo compartido por todos los grados del 1 al 12. Sexto es uno de los cursos en los que el colegio «se amplía de forma natural», junto con TK, Kindergarten y noveno. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones.",
-      "of": "c285c5c0",
+      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**: el plazo compartido por los grados 1–11. Sexto es uno de los cursos en los que el colegio “naturally expand[s]” (se amplía de forma natural), junto con TK, Kindergarten y noveno. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones.",
+      "of": "67d1f72b",
       "at": [
         "charlotte-latin:guide.bands[2].steps[1].detail"
       ]
@@ -2192,6 +2212,13 @@
       ]
     },
     {
+      "t": "El **9 de abril de 2027** es el «día de notificación de los grados 1-11» del colegio. Las decisiones sobre la ayuda financiera se comunican ese mismo día. **No se publica ninguna fecha límite para el contrato de matriculación**, así que pregunte a la oficina de admisiones cuándo vence. Para matricularse también se exige el **depósito no reembolsable de $2,500**.",
+      "of": "1735da67",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[6].detail"
+      ]
+    },
+    {
       "t": "El 26 de febrero de 2027 es la fecha que marca este nivel.",
       "of": "eb208bbd",
       "at": [
@@ -2207,8 +2234,8 @@
       ]
     },
     {
-      "t": "El plazo de los grados 1–12. Sexto es un curso de ampliación natural.",
-      "of": "4da27e9e",
+      "t": "El plazo de los grados 1–11. El grado 6 es un curso de ampliación natural.",
+      "of": "659d5c09",
       "at": [
         "charlotte-latin:guide.bands[2].checklistRows[2].detail"
       ]
@@ -2260,6 +2287,13 @@
       ]
     },
     {
+      "t": "Ese día llegan las decisiones de admisión y de ayuda financiera. No se publica ninguna fecha límite para el contrato; confírmela con admisiones.",
+      "of": "9ebc1ec7",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
+      ]
+    },
+    {
       "t": "Upper School · grados 9–12",
       "of": "3ae019cb",
       "at": [
@@ -2274,6 +2308,13 @@
       ]
     },
     {
+      "t": "fecha límite de la solicitud — grados 9–11",
+      "of": "85cf42cd",
+      "at": [
+        "charlotte-latin:guide.bands[3].deadlines[0].label"
+      ]
+    },
+    {
       "t": "día de notificación — grados 9–11",
       "of": "7d521e76",
       "at": [
@@ -2281,8 +2322,8 @@
       ]
     },
     {
-      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027**: el plazo compartido por todos los grados del 1 al 12. Noveno es uno de los cursos en los que el colegio «se amplía de forma natural», junto con TK, Kindergarten y sexto. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones.",
-      "of": "bbcb2cdc",
+      "t": "Obligatorio, y con fecha límite el **15 de enero de 2027** para los grados 9–11. La lista de fechas del colegio no indica ningún plazo para el grado 12, así que pregunte. Noveno es uno de los cursos en los que el colegio “naturally expand[s]” (se amplía de forma natural), junto con TK, Kindergarten y sexto. Los hermanos de alumnos actuales tenían un plazo anterior. El calendario del colegio indicaba **solicitudes de hermanos K-12 con fecha límite el 15 de octubre de 2026**. Si es una familia con hermanos que solicita ahora, pregunte a la oficina de admisiones.",
+      "of": "004acaee",
       "at": [
         "charlotte-latin:guide.bands[3].steps[1].detail"
       ]
@@ -2330,8 +2371,8 @@
       ]
     },
     {
-      "t": "El plazo de los grados 1–12. Noveno es un curso de ampliación natural.",
-      "of": "3eb92b51",
+      "t": "Grados 9–11. No se publica ningún plazo para el grado 12, así que pregunte. El grado 9 es un curso de ampliación natural.",
+      "of": "5d0e6c07",
       "at": [
         "charlotte-latin:guide.bands[3].checklistRows[2].detail"
       ]
@@ -2369,6 +2410,13 @@
       "of": "b235946d",
       "at": [
         "charlotte-latin:guide.aid.text"
+      ]
+    },
+    {
+      "t": "15 de enero de 2027 (gr. 9–11) · nada publicado para gr. 12",
+      "of": "b9ff242c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[0].cells.us"
       ]
     },
     {
@@ -2423,10 +2471,16 @@
       ]
     },
     {
-      "t": "No se describe",
-      "of": "664909c9",
+      "t": "Latin no lo describe · el folleto de CAIS dice que los colegios de CAIS entrevistan a cada niño",
+      "of": "4fce4beb",
       "at": [
-        "charlotte-latin:guide.comparison.rows[3].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[3].cells.tkk"
+      ]
+    },
+    {
+      "t": "Latin no lo describe · para gr. 1–4, el folleto de CAIS dice que los colegios de CAIS entrevistan a cada niño",
+      "of": "bcd81d79",
+      "at": [
         "charlotte-latin:guide.comparison.rows[3].cells.ls"
       ]
     },
@@ -2481,10 +2535,16 @@
       ]
     },
     {
-      "t": "Nada publicado",
-      "of": "de8a893d",
+      "t": "Prueba a más tardar el 1 de febrero de 2027 (folleto de CAIS) · no se publica fecha para la documentación",
+      "of": "fa0d73ba",
       "at": [
-        "charlotte-latin:guide.comparison.rows[5].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[5].cells.tkk"
+      ]
+    },
+    {
+      "t": "Prueba de gr. 1–4 a más tardar el 26 de febrero de 2027 (folleto de CAIS) · no se publica fecha para gr. 5 ni para la documentación",
+      "of": "e6732698",
+      "at": [
         "charlotte-latin:guide.comparison.rows[5].cells.ls"
       ]
     },
@@ -2496,17 +2556,23 @@
       ]
     },
     {
-      "t": "26 de febrero de 2027 · no se publica fecha límite para el contrato",
-      "of": "aa29f6e3",
+      "t": "26 de febrero de 2027 · el contrato vence el 5 de marzo de 2027 (folleto de CAIS)",
+      "of": "36553e63",
       "at": [
         "charlotte-latin:guide.comparison.rows[6].cells.tkk"
+      ]
+    },
+    {
+      "t": "9 de abril de 2027 · el contrato de gr. 1–4 vence el 16 de abril de 2027 (folleto de CAIS) · no se publica fecha para gr. 5",
+      "of": "5ab634ae",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.ls"
       ]
     },
     {
       "t": "9 de abril de 2027 · no se publica fecha límite para el contrato",
       "of": "6bd709e2",
       "at": [
-        "charlotte-latin:guide.comparison.rows[6].cells.ls",
         "charlotte-latin:guide.comparison.rows[6].cells.ms"
       ]
     },
@@ -2668,8 +2734,8 @@
       ]
     },
     {
-      "t": "Las fechas corresponden al ciclo de ingreso 2027–28 según se publican en charlottelatin.org (consultado en agosto de 2026; fechas revisadas en noviembre de 2026). Proceden de las páginas del proceso de solicitud, de matrícula y ayuda financiera, y de admisiones. Algunos elementos, como la fecha límite del contrato de matriculación, aparecen solo dentro del portal de solicitudes o no se publican en absoluto. Las fechas del ciclo cambian de un año a otro, y estas páginas han mostrado un conjunto distinto en una temporada anterior. Así que verifíquelas en las páginas en vivo antes de actuar. Compilado por Charlotte School Compare; sin vinculación con Charlotte Latin School.",
-      "of": "a56510ed",
+      "t": "Las fechas corresponden al ciclo de ingreso 2027–28 según se publican en charlottelatin.org (consultado en agosto de 2026; fechas revisadas en noviembre de 2026). Proceden de las páginas del proceso de solicitud, de matrícula y ayuda financiera, y de admisiones, y del folleto de CAIS que enlaza el colegio. Algunos elementos, como la fecha límite del contrato a partir del grado 5, aparecen solo dentro del portal de solicitudes o no se publican en absoluto. Las fechas del ciclo cambian de un año a otro, y estas páginas han mostrado un conjunto distinto en una temporada anterior. Así que verifíquelas en las páginas en vivo antes de actuar. Compilado por Charlotte School Compare; sin vinculación con Charlotte Latin School.",
+      "of": "efcf7cee",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ]
@@ -5910,8 +5976,7 @@
         "hickory-grove-christian:guide.bands[0].deadlines[2].value",
         "hickory-grove-christian:guide.bands[1].deadlines[2].value",
         "hickory-grove-christian:guide.bands[2].deadlines[2].value",
-        "hickory-grove-christian:guide.bands[3].deadlines[2].value",
-        "hickory-grove-christian:guide.bands[4].deadlines[2].value"
+        "hickory-grove-christian:guide.bands[3].deadlines[2].value"
       ]
     },
     {
@@ -5950,8 +6015,8 @@
       ]
     },
     {
-      "t": "Todas las bandas nacionales siguen los mismos pasos principales. Primero: presentar el formulario de solicitud de información → inscribirse en la jornada de puertas abiertas → solicitar en FACTS y pagar la cuota de solicitud. Después: enviar los formularios que exige su banda → presentar las pruebas de ingreso, que se programan solo cuando han llegado todos los formularios → asistir a la entrevista familiar. Por último: recibir la decisión por escrito → pagar el depósito de matrícula de $500. Lo que cambia entre bandas es qué formularios se envían, si hay un día de acompañamiento y si se aplica una prueba de ubicación. El proceso internacional F-1 sustituye la mayor parte de esto y tiene su propia banda.",
-      "of": "e96f28e4",
+      "t": "Todas las bandas, excepto la internacional, siguen los mismos pasos principales. Primero: presentar el formulario de solicitud de información → inscribirse en la jornada de puertas abiertas → solicitar en FACTS y pagar la cuota de solicitud. Después: enviar los formularios que exige su banda → presentar las pruebas de ingreso, que se programan solo cuando han llegado todos los formularios → asistir a la entrevista familiar. Por último: recibir la decisión por escrito → pagar el depósito de matrícula de $500. Lo que cambia entre bandas es qué formularios se envían, si hay un día de acompañamiento y si se aplica una prueba de ubicación. El proceso internacional F-1 sustituye la mayor parte de esto y tiene su propia banda.",
+      "of": "70647c54",
       "at": [
         "hickory-grove-christian:guide.spineNote"
       ]
@@ -5987,8 +6052,7 @@
         "hickory-grove-christian:guide.bands[0].deadlines[2].label",
         "hickory-grove-christian:guide.bands[1].deadlines[2].label",
         "hickory-grove-christian:guide.bands[2].deadlines[2].label",
-        "hickory-grove-christian:guide.bands[3].deadlines[2].label",
-        "hickory-grove-christian:guide.bands[4].deadlines[2].label"
+        "hickory-grove-christian:guide.bands[3].deadlines[2].label"
       ]
     },
     {
@@ -6551,8 +6615,8 @@
       ]
     },
     {
-      "t": "Tres recomendaciones docentes",
-      "of": "4becfc9d",
+      "t": "Tres recomendaciones de la escuela + la del pastor",
+      "of": "9c2b9f21",
       "at": [
         "hickory-grove-christian:guide.bands[2].sublabel"
       ]
@@ -6912,8 +6976,8 @@
       ]
     },
     {
-      "t": "La admisión se basa en cuatro elementos que la escuela enumera juntos. El primero es una **entrevista en línea con la dirección del International Student Program y la dirección del centro (Principal)**. Los demás son la solicitud en línea completa, el desempeño académico y de conducta previo, y los puntajes de la prueba de inglés. La entrevista es en línea, de modo que **sustituye la visita al campus** con la que empieza cada banda nacional. No se espera que una familia que solicita desde el extranjero viaje antes. Hickory Grove tiene su programa internacional desde **2013**. Emite su propio I-20 (el formulario que un estudiante necesita para solicitar una visa de estudiante) en lugar de derivar a las familias a un tercero.",
-      "of": "5c6c182e",
+      "t": "La admisión se basa en cuatro elementos que la escuela enumera juntos. El primero es una **entrevista en línea con la dirección del International Student Program y la dirección del centro (Principal)**. Los demás son la solicitud en línea completa, el desempeño académico y de conducta previo, y los puntajes de la prueba de inglés. La entrevista es en línea, de modo que **sustituye la visita al campus** con la que empiezan todas las demás bandas. No se espera que una familia que solicita desde el extranjero viaje antes. Hickory Grove tiene su programa internacional desde **2013**. Emite su propio I-20 (el formulario que un estudiante necesita para solicitar una visa de estudiante) en lugar de derivar a las familias a un tercero.",
+      "of": "9866b096",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[0].detail"
       ]
@@ -7021,7 +7085,8 @@
       "t": "Pague la totalidad antes del 1 de agosto",
       "of": "59e0571c",
       "at": [
-        "hickory-grove-christian:guide.bands[4].steps[6].title"
+        "hickory-grove-christian:guide.bands[4].steps[6].title",
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
       ]
     },
     {
@@ -7032,8 +7097,8 @@
       ]
     },
     {
-      "t": "**El pago total debe recibirse antes del 1 de agosto** para que el estudiante pueda matricularse. Un saldo aún pendiente el primer día de clases deja la solicitud en **retención financiera**. Pagar todo antes de la matrícula es la diferencia más marcada con las bandas nacionales, que cobran un depósito de $500 al ser aceptado y facturan el saldo a lo largo del año. **La matrícula internacional no está publicada**. Tampoco se publica si la ayuda financiera llega a los estudiantes internacionales. **Retirarse antes de tiempo cuesta $500 más el 50% de la matrícula internacional.**",
-      "of": "364b52db",
+      "t": "**El pago total debe recibirse antes del 1 de agosto** para que el estudiante pueda matricularse. Un saldo aún pendiente el primer día de clases deja la solicitud en **retención financiera**. Pagar todo antes de la matrícula es la diferencia más marcada con las demás bandas, que cobran un depósito de $500 al ser aceptado y facturan el saldo a lo largo del año. **La matrícula internacional no está publicada**. Tampoco se publica si la ayuda financiera llega a los estudiantes internacionales. **Retirarse antes de tiempo cuesta $500 más el 50% de la matrícula internacional.**",
+      "of": "8e34db31",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[6].detail"
       ]
@@ -7081,8 +7146,8 @@
       ]
     },
     {
-      "t": "Forma parte de la evaluación de admisión y sustituye la visita al campus con la que empiezan las bandas nacionales.",
-      "of": "89bbddfb",
+      "t": "Forma parte de la evaluación de admisión y sustituye la visita al campus con la que empiezan las demás bandas.",
+      "of": "0ead3ef9",
       "at": [
         "hickory-grove-christian:guide.bands[4].checklistRows[0].detail"
       ]
@@ -7206,13 +7271,6 @@
       "of": "ee64305b",
       "at": [
         "hickory-grove-christian:guide.bands[4].checklistRows[7].detail"
-      ]
-    },
-    {
-      "t": "Pagar el depósito de matriculación de $500 y después el saldo completo",
-      "of": "eb37b221",
-      "at": [
-        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
       ]
     },
     {
@@ -7468,8 +7526,8 @@
       ]
     },
     {
-      "t": "Constante en todos los niveles para solicitantes nacionales",
-      "of": "eef95440",
+      "t": "Constante en todos los niveles excepto el internacional",
+      "of": "88c24713",
       "at": [
         "hickory-grove-christian:guide.comparison.rows[8].label"
       ]

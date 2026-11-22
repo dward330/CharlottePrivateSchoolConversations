@@ -23,7 +23,7 @@ const STUDENT_LIFE = 'https://www.covenantday.org/campus-life/student-life'
 export const covenantDay: ClubsProgram = {
   service: {
     headline:
-      'A service ladder that scales with age — fourth graders at twenty community sites, middle schoolers twice a year, and high schoolers building housing for Pine Ridge.',
+      'A service ladder that scales with age — fourth graders at nearly twenty community sites, middle schoolers twice a year, and high schoolers building housing for Pine Ridge.',
     subhead:
       'Program-based rather than hours-logged: no service-hour requirement exists, and the school publishes no annual totals.',
     programs: [

@@ -882,7 +882,7 @@ Root type `SummerProgram` · registry `SUMMER_CARDS` · `src/data/summerPrograms
 
 `Camp` — `name`, `desc`, `category`, `categoryLabel`, `grades`, `gradeLabel`, `days`, `dayLabel`, `price`, `hours`, `weeks?`, `estimated?`
 
-`CampCatalog` — `headline`, `subhead?`, `intro?`, `categoryFilters`, `dayFilters`, `gradeFilters`, `camps`, `flags`, `sources`
+`CampCatalog` — `headline`, `subhead?`, `intro?`, `categoryFilters`, `dayFilters`, `gradeFilters`, `agesNotGrades?`, `camps`, `flags`, `sources`
 
 `PlannerTier` — `id`, `label`, `panelLabel`, `price`, `detail?`, `estimated?`, `daysPerWeek?`
 

@@ -408,8 +408,8 @@
       ]
     },
     {
-      "t": "Non esiste una pagina permanente dedicata alle società onorarie. I dati qui provengono da singoli comunicati stampa, dall’elenco dei club 2025–26 e dal profilo 2026–27. Quindi i conteggi pubblicati sono storici più che attuali, tranne i 118 nuovi membri NHS del profilo — 89 nuovi membri NHS nel 2017, 34 membri Cum Laude nel 2022, quasi 50 nuovi membri per l’arte in un mese di maggio, 11 nuovi membri Tri-M nel 2019. I criteri di ammissione sono pubblicati solo per la National Honor Society; le altre cinque non ne pubblicano alcuno.",
-      "of": "b07e10ae",
+      "t": "Non esiste una pagina permanente dedicata alle società onorarie. I dati qui provengono da singoli comunicati stampa, dall’elenco dei club 2025–26 e dal profilo 2026–27. Quindi i conteggi pubblicati sono storici più che attuali, tranne i 118 nuovi membri NHS del profilo. I conteggi storici sono 89 nuovi membri NHS nel 2017, 34 membri Cum Laude nel 2022, quasi 50 nuovi membri per l’arte in un mese di maggio e 11 nuovi membri Tri-M nel 2019. I criteri di ammissione sono pubblicati solo per la National Honor Society; le altre cinque non ne pubblicano alcuno.",
+      "of": "a12dbd48",
       "at": [
         "providence-day:honors.flags[0].text"
       ]
@@ -1231,6 +1231,8 @@
         "charlotte-latin:clusters.rows[4].evidenceLabel",
         "charlotte-latin:catalog.divisions[0].tag",
         "charlotte-christian:catalog.divisions[2].tag",
+        "charlotte-country-day:clusters.rows[2].evidenceLabel",
+        "charlotte-country-day:clusters.rows[3].evidenceLabel",
         "charlotte-country-day:catalog.divisions[0].tag",
         "cannon:clusters.rows[2].evidenceLabel",
         "cannon:clusters.rows[3].evidenceLabel",
@@ -1342,8 +1344,8 @@
       ]
     },
     {
-      "t": "Il servizio non è deliberatamente obbligatorio — eppure gli studenti hanno comunque registrato 3,396 ore entro la fine del terzo anno, con alle spalle una società di riconoscimento e un primato nazionale.",
-      "of": "9bfdf4a1",
+      "t": "Il servizio non è deliberatamente obbligatorio — eppure la Class of 2023 ha comunque registrato 3,396 ore entro la fine del terzo anno, con alle spalle una società di riconoscimento e un primato nazionale.",
+      "of": "762de734",
       "at": [
         "charlotte-latin:service.headline"
       ]
@@ -1455,8 +1457,8 @@
       ]
     },
     {
-      "t": "Il più alto riconoscimento accademico della scuola — studenti dell’ultimo anno nel 20% migliore e studenti del terzo anno nel 10% migliore della loro classe · 28 ammessi nella cerimonia più recente",
-      "of": "f59b792e",
+      "t": "Il più alto riconoscimento accademico della scuola — studenti dell’ultimo anno nel 20% migliore e studenti del terzo anno nel 10% migliore della loro classe · 28 ammessi nell’aprile 2024 (Classes of 2024 e 2025)",
+      "of": "4353bf87",
       "at": [
         "charlotte-latin:honors.societies[0].recognizes"
       ]
@@ -1607,7 +1609,8 @@
       "t": "World Quest",
       "of": "6be6dbe1",
       "at": [
-        "charlotte-latin:clusters.rows[3].name"
+        "charlotte-latin:clusters.rows[3].name",
+        "charlotte-country-day:clusters.rows[2].name"
       ]
     },
     {
@@ -2021,8 +2024,8 @@
       ]
     },
     {
-      "t": "Gli studenti conoscono altre culture in classe, durante i mesi del patrimonio culturale e nelle gite. La 6ª classe visita le Sudan Interior Missions. La 7ª visita il Butterfly Memorial dedicato all’Holocaust Museum. L’8ª svolge attività sul Civil Rights Movement.",
-      "of": "90d0e3c6",
+      "t": "Gli studenti conoscono altre culture in classe, durante i mesi del patrimonio culturale e nelle gite. La 6ª classe visita le Sudan Interior Missions. La 7ª visita quello che la scuola chiama “the Butterfly Memorial dedicated to the Holocaust Museum.” L’8ª svolge attività sul Civil Rights Movement.",
+      "of": "3dabbffb",
       "at": [
         "charlotte-christian:affinity.strips[1].text"
       ]
@@ -3095,8 +3098,8 @@
       ]
     },
     {
-      "t": "Cinque finalisti nel 2025 e altri cinque nel 2026, senza vittorie in nessuno dei due anni.",
-      "of": "1863fb4f",
+      "t": "Cinque finalisti in ciascuno degli anni 2024, 2025 e 2026, senza vittorie nel 2025 o nel 2026.",
+      "of": "a11e0e0d",
       "at": [
         "charlotte-catholic:honors.adjacent[4].text"
       ]
@@ -4173,8 +4176,8 @@
       ]
     },
     {
-      "t": "Model UN è il fiore all’occhiello, con premi ripetuti nelle conferenze.",
-      "of": "642b6163",
+      "t": "Model UN e World Quest sono in testa, con premi e vittorie ripetuti.",
+      "of": "2823ac6d",
       "at": [
         "charlotte-country-day:clusters.verdict"
       ]
@@ -4212,6 +4215,41 @@
       "of": "d2040f26",
       "at": [
         "charlotte-country-day:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Primo posto ad Academic WorldQuest “nearly every year”, dice la scuola",
+      "of": "4d645e33",
+      "at": [
+        "charlotte-country-day:clusters.rows[2].oneLiner"
+      ]
+    },
+    {
+      "t": "La pagina International Studies della scuola dice che gli studenti “finish in first place at the Academic WorldQuest competition nearly every year.” Conta inoltre 23 vittorie in tutto tra Academic WorldQuest, Euro Challenge e conferenze Model UN. Non ne elenca gli anni.",
+      "of": "68170ca2",
+      "at": [
+        "charlotte-country-day:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Euro Challenge",
+      "of": "ab2db471",
+      "at": [
+        "charlotte-country-day:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "Una squadra dell’Upper School, conteggiata nelle 23 vittorie complessive della scuola",
+      "of": "20c8e6a8",
+      "at": [
+        "charlotte-country-day:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "La scuola elenca Euro Challenge tra i programmi internazionali dell’Upper School. Il suo conteggio di 23 vittorie unisce Euro Challenge, Academic WorldQuest e conferenze Model UN. Non dice quante provengano da Euro Challenge.",
+      "of": "9386330e",
+      "at": [
+        "charlotte-country-day:clusters.rows[3].note"
       ]
     },
     {
@@ -4871,38 +4909,45 @@
       ]
     },
     {
+      "t": "Organo dell’Upper School eletto dagli studenti, che la scuola definisce “a model of community governance and integrity”",
+      "of": "448161a7",
+      "at": [
+        "cannon:catalog.clubs[10].note"
+      ]
+    },
+    {
       "t": "Club di servizio dell’Upper School; cantieri Habitat for Humanity inclusi i viaggi Winterm",
       "of": "c0ae6f19",
       "at": [
-        "cannon:catalog.clubs[10].note"
+        "cannon:catalog.clubs[11].note"
       ]
     },
     {
       "t": "Squadra della Middle School che coordina i volontari per gli Special Olympics della Cabarrus County",
       "of": "64f9dc72",
       "at": [
-        "cannon:catalog.clubs[11].note"
+        "cannon:catalog.clubs[12].note"
       ]
     },
     {
       "t": "Categoria di punta della vita dei club dell’Upper School nel quadro DBE; nessun elenco nominato pubblicato",
       "of": "9a325c90",
       "at": [
-        "cannon:catalog.clubs[12].note"
+        "cannon:catalog.clubs[13].note"
       ]
     },
     {
       "t": "Pubblicazione attiva dell’Upper School con redattori studenteschi e una cerimonia di dedica",
       "of": "15c58ed0",
       "at": [
-        "cannon:catalog.clubs[13].note"
+        "cannon:catalog.clubs[14].note"
       ]
     },
     {
       "t": "Citato come club di interesse \"fun and adventurous\" rappresentativo dell’Upper School",
       "of": "2fb58d9b",
       "at": [
-        "cannon:catalog.clubs[14].note"
+        "cannon:catalog.clubs[15].note"
       ]
     },
     {
@@ -4949,8 +4994,8 @@
       ]
     },
     {
-      "t": "Una scala di servizio che cresce con l'età — i ragazzi di 4th grade in venti sedi della comunità, la middle school due volte all'anno e la high school che costruisce alloggi per Pine Ridge.",
-      "of": "21aa8032",
+      "t": "Una scala di servizio che cresce con l'età — i ragazzi della quarta classe in quasi venti sedi della comunità, la middle school due volte all'anno e la high school che costruisce alloggi per Pine Ridge.",
+      "of": "a0b32a87",
       "at": [
         "covenant-day:service.headline"
       ]
@@ -6276,8 +6321,8 @@
       ]
     },
     {
-      "t": "Una qualificazione ai VEX Nationals al primo anno regge ciò che la scuola stessa nomina.",
-      "of": "43bec817",
+      "t": "Il risultato di punta che la scuola nomina è una qualificazione ai VEX Nationals al primo anno.",
+      "of": "f73ea7dd",
       "at": [
         "gaston-day:clusters.verdict"
       ]
@@ -6360,8 +6405,8 @@
       ]
     },
     {
-      "t": "La scuola non pubblica un elenco completo dei club. La sua pagina dell’Upper School nomina tre club e afferma che gli studenti possono fondarne uno nuovo con un docente referente; il suo Academic Profile nomina gli altri.",
-      "of": "13d1c9c7",
+      "t": "La scuola non pubblica un elenco completo dei club. La sua pagina dell’Upper School nomina tre club e lo Student Government, e afferma che gli studenti possono fondarne uno nuovo con un docente referente. Il suo Academic Profile nomina gli altri.",
+      "of": "9b8eb0ea",
       "at": [
         "gaston-day:catalog.verdictHint"
       ]

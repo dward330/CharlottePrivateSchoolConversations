@@ -46,6 +46,7 @@ export const charlotteLatin: SummerProgram = {
       { token: 'a1215', label: '12–15' },
       { token: 'a1618', label: '16–18' },
     ],
+    agesNotGrades: true,
     camps: [
       /* ------------------------------------ Camp Victor: the traditional camp -- */
       {

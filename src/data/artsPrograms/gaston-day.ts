@@ -9,12 +9,13 @@
 // documented performance travel), and the profile supplies the course sequence
 // and the fine-arts graduation requirement.
 //
-// Two deliberate omissions inside the cards:
-//  - No `photo` on any card. The design's photo slots ship only with a real
-//    sourced photograph of this school's own venue, and none was obtainable.
-//  - The theatre `ledger` is omitted: the school names two productions a year
-//    and a spring musical, but publishes no show titles, dates or competition
-//    results, so an awards ledger would be an empty table.
+// One deliberate omission inside the cards: no `photo` on any card. The design's photo
+// slots ship only with a real sourced photograph of this school's own venue, and none
+// was obtainable.
+//
+// The theatre `ledger` (added by plan consistency5, GD-U2) comes from Blumenthal's own
+// Blumey lists for 2024–26, saved in the research record. The school itself publishes
+// no show titles. Students appear by role only, never by name.
 
 import type { ArtsProgram } from '../artsProgram.ts'
 
@@ -110,7 +111,7 @@ export const gastonDay: ArtsProgram = {
         season: 'Across the year',
         kind: 'Two major shows',
         detail:
-          'The school stages two major productions each year, one of which is the spring musical. Specific titles and dates are not published.',
+          'The school stages two major productions each year, one of which is the spring musical. The school does not publish titles or dates. The Blumey ledger on this card names three recent shows.',
       },
       {
         season: 'Spring',
@@ -135,9 +136,34 @@ export const gastonDay: ArtsProgram = {
       'Travis Johnson chairs the Fine Arts Department (ext. 415). The Actors’ Conservatory Theatre operates as a dedicated program within the school’s theatre offering.',
     venueNote:
       'The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 and carries modern lighting and sound systems plus a professional dance studio — a substantial house for a school of 510 students.',
+    ledgerTitle: 'The Blumey ledger — 2024 to 2026',
+    ledger: [
+      {
+        year: '2026',
+        show: 'Little Women',
+        result:
+          'Five finalists: Best Actor (as Professor Bhaer) · Best Actress (as Jo March) · Best Supporting Actor (as John Brooke) · Best Supporting Actress (as Meg) · Best Featured Performer (as Aunt March/Mrs. Kirk). None was a top-six nominee.',
+      },
+      {
+        year: '2025',
+        show: 'Once Upon a Mattress',
+        result:
+          'Nominated for Best Direction. Five finalists: Best Actor (as Minstrel) · Best Actress (as Princess Winnifred) · Best Supporting Actor (as Prince Harry) · Best Supporting Actress (as Lady Larken) · Best Featured Performer (as King Sextimus).',
+      },
+      {
+        year: '2024',
+        show: "You're a Good Man, Charlie Brown (Revised)",
+        result:
+          'Two nominations: Best Actress (as Lucy) and Best Student Set Designer. Five finalists: Best Actor (as Snoopy) · Best Actress (as Lucy) · Best Supporting Actor (as Linus) · Best Supporting Actress (as Sally) · Best Featured Performer (as Little Red Headed Girl).',
+      },
+    ],
     honestContext:
-      'The school publishes no production titles, performance dates, cast sizes or theatre competition results. It does not say whether it has an International Thespian Society troupe. So the shape of the program is well documented, but its record is not. This card deliberately carries no awards ledger rather than an empty one.',
+      'Blumenthal’s Blumey lists name Gaston Day in 2024, 2025 and 2026, with five finalists each year and three nominations in all. The school’s own site publishes no production titles, performance dates or cast sizes. It also does not say whether it has an International Thespian Society troupe.',
     sources: [
+      { label: 'Blumenthal Arts — 2026 Blumey nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
+      { label: 'Blumenthal Arts — 2026 final nominees', url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees' },
+      { label: 'Blumenthal Arts — 2025 all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf' },
+      { label: 'Blumenthal Arts — 2024 all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf' },
       { label: 'gastonday.org — Arts (productions, roles, Actors’ Conservatory Theatre, venue)', url: ARTS },
       { label: 'gastonday.org — Academic Profile 2025-2026 (Drama in the fine-arts course table)', url: PROFILE },
     ],
@@ -264,7 +290,7 @@ export const gastonDay: ArtsProgram = {
     headline:
       'A serious arts program for a 510-student school — a named 550-seat center, a six-year adjudication record, and a student magazine with a national award history.',
     subhead:
-      'What is missing is the record rather than the program: almost nothing is published by year, by title or by name.',
+      'What is missing is detail from the school itself: it publishes almost nothing by year, by title or by name. Blumenthal’s lists supply three years of its Blumey record.',
     holdsUp: [
       {
         label: 'The facility is real and named',
@@ -292,7 +318,7 @@ export const gastonDay: ArtsProgram = {
       },
     ],
     ask: [
-      'What were the last two years’ productions, and how many students were cast versus crewed?',
+      'Beyond the shows on the Blumey lists, what were the last two years’ productions, and how many students were cast versus crewed?',
       'How large are Band, Concert Choir and the Vocal Performance Ensemble — and does everyone who auditions get a place?',
       'Visual Art IV is the terminal course with no AP Studio Art — how do students building an art-school portfolio go further?',
       'Which regional adjudications does the chorus enter, and what were the ratings in the last two years specifically?',

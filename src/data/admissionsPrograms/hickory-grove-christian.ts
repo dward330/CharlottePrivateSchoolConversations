@@ -239,7 +239,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
     ],
 
     spineNote:
-      'Every domestic band follows the same main steps. First: submit the inquiry form → register for the Open House → apply in FACTS and pay the application fee. Next: send the forms your band requires → take the entrance testing, which is scheduled only once every form has arrived → attend the family interview. Last: receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this, and it has its own band.',
+      'Every grade band except International follows the same main steps. First: submit the inquiry form → register for the Open House → apply in FACTS and pay the application fee. Next: send the forms your band requires → take the entrance testing, which is scheduled only once every form has arrived → attend the family interview. Last: receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this, and it has its own band.',
 
     bands: [
       {
@@ -481,7 +481,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
       {
         key: 'ms',
         label: 'Middle · Grades 6–8',
-        sublabel: 'Three teacher recommendations',
+        sublabel: 'Three school recommendations + pastor',
         title: 'Middle School — Grades 6–8',
         deadlines: [
           { value: 'Nov 2, 2026', label: 'priority window opens — members, EEC, siblings' },
@@ -762,7 +762,6 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         deadlines: [
           { value: 'TOEFL 80', label: 'English proficiency — or Duolingo 115' },
           { value: 'Aug 1', label: 'full payment due before enrollment' },
-          { value: '$500', label: 'enrollment deposit on acceptance' },
         ],
         steps: [
           {
@@ -770,7 +769,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'part of the review',
             tagKind: 'accent',
             detail:
-              'Admission rests on four things the school lists together. The first is an **online interview with the Director of the International Student Program and the Principal**. The others are the completed online application, prior academic and behavioral performance, and the English-test scores. The interview is held online, so it **replaces the campus visit** that opens every domestic band. A family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013**. It issues its own I-20 (the form a student needs to apply for a student visa) rather than routing families through a third party.',
+              'Admission rests on four things the school lists together. The first is an **online interview with the Director of the International Student Program and the Principal**. The others are the completed online application, prior academic and behavioral performance, and the English-test scores. The interview is held online, so it **replaces the campus visit** that opens every other band. A family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013**. It issues its own I-20 (the form a student needs to apply for a student visa) rather than routing families through a third party.',
           },
           {
             title: 'Complete the online admission application',
@@ -812,7 +811,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             tag: 'by Aug 1',
             tagKind: 'accent',
             detail:
-              '**Full payment must be received by August 1** before the student can be enrolled. A balance still unpaid on the first day of school puts the application on **financial hold**. Paying in full before enrollment is the sharpest difference from the domestic bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**. Nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**',
+              '**Full payment must be received by August 1** before the student can be enrolled. A balance still unpaid on the first day of school puts the application on **financial hold**. Paying in full before enrollment is the sharpest difference from the other bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**. Nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**',
           },
           {
             title: 'What the program includes once you arrive',
@@ -830,7 +829,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
         checklistRows: [
           {
             action: 'Arrange the online interview with the program director and the principal',
-            detail: 'Part of the admission review, and it replaces the campus visit the domestic bands begin with.',
+            detail: 'Part of the admission review, and it replaces the campus visit the other bands begin with.',
             due: 'Before the decision',
           },
           {
@@ -869,7 +868,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
             due: 'Before arrival',
           },
           {
-            action: 'Pay the $500 enrollment deposit, then the balance in full',
+            action: 'Pay in full by August 1',
             detail: 'Full payment by August 1; a balance unpaid on the first day of school puts the application on financial hold.',
             due: 'By Aug 1',
           },
@@ -973,7 +972,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           },
         },
         {
-          label: 'Constant in every domestic band',
+          label: 'Constant in every band except International',
           cells: {
             all: 'A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application · a non-refundable $300 application fee through May 31, 2027 ($550 from June 1, 2027), not applied toward tuition · testing set up only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and depends on space in the grade · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission',
           },

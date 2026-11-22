@@ -133,6 +133,11 @@ Fetched https://www.discovermacs.org/admissions/tuitionandaffordability (HTTP 20
 - The page gives no percentage of tuition for ESA+ or the Opportunity Scholarship.
 - https://resources.finalsite.net/images/v1783870190/charlottecatholicorg/noikdbslslpxnkvxqrcc/2026-2027TuitionandFeeScheduleUPDATED.pdf re-opened (image read): "$150 per new student", "$75 per returning student".
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.discovermacs.org/admissions/tuitionandaffordability (fetched): the 2026-2027 rate table has an Options block after the High block, with "Options – CCHS $24,077 $18,345".
+- Same page: "$150 per new student", "$150 per returning student", "$75 per PK student". Opportunity Scholarship: "There is no income cap to apply for this program."
+
 
 ---
 

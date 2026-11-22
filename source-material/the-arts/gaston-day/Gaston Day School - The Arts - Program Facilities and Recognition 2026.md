@@ -105,3 +105,31 @@ characterised.
 Per-production titles and dates for the current season, ensemble sizes, arts faculty roster
 beyond the department chair, and any arts-specific facility hours were not found on any page
 in this pass. Recorded as absences rather than left implied.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, planning)
+
+Read from copies of Blumenthal's lists saved during plan consistency4. The site refuses automated
+fetches, so it was not requested again. Roles only: no student is named. Five finalist entries,
+always in this order: Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress,
+Best Featured Performer.
+
+| year | show | five finalist roles | nominations |
+|---|---|---|---|
+| 2024 | You're a Good Man, Charlie Brown (Revised) | Snoopy; Lucy; Linus; Sally; Little Red Headed Girl | Best Actress (as Lucy); Best Student Set Designer |
+| 2025 | Once Upon a Mattress | Minstrel; Princess Winnifred; Prince Harry; Lady Larken; King Sextimus | Best Direction (corrected below) |
+| 2026 | Little Women | Professor Bhaer; Jo March; John Brooke; Meg; Aunt March/Mrs. Kirk | none found |
+
+2024: https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+2025: the 2025 all-nominees and finalists PDF listed under Sources in the Davidson Day Arts Redesign Deep Research record.
+2026: https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
+
+### Re-verification 2026-11-22 (plan consistency5, implement)
+
+The planning table above first gave the 2025 nomination as Best Ensemble. That was a
+transcription error. The saved 2025 PDF (sha256 9b848e893a..., the hash in its own URL,
+https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf)
+lists "Gaston Day – Once Upon a Mattress" under "Best Direction", by text order and by position
+on the page. Best Ensemble is the category above it, and its six rows do not include Gaston Day.
+Every finalist role in the table was re-read and holds. No request was made to the site.

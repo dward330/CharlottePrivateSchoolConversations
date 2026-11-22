@@ -236,7 +236,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
     stats: [
       { value: '342', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '74.9%', label: 'pooled admit rate — 256 of 342 across those five classes' },
-      { value: '20.0%', label: 'at UNC-Chapel Hill — 2 of 10, the toughest of the six for this school' },
+      { value: '20.0%', label: 'at UNC-Chapel Hill — 2 of 10 in Fall 2025, the lowest of the six that year' },
       { value: 'UNC Charlotte', label: 'drew the most applications in Fall 2025 (25)' },
     ],
     latestTerm: '2025',

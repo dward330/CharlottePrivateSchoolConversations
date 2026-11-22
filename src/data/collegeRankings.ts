@@ -533,6 +533,8 @@ export const RANK_ALIAS: Record<string, string> = {
   // Davidson Day's 2026–27 profile: Virginia Wesleyan under its 2026-07-01 name, and
   // the Manoa flagship with its campus in parentheses.
   'batten univ': 'Virginia Wesleyan University',
+  // Providence Day writes Miami of Ohio as "Miami University–OH" (plan consistency5, PD-U4).
+  'miami univ oh': 'Miami University',
   'univ of hawaii manoa': 'University of Hawaii at Manoa',
 }
 for (const [variant, canon] of Object.entries(RANK_ALIAS)) {

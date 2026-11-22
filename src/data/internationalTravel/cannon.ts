@@ -271,7 +271,7 @@ export const cannon: InternationalTravelProgram = {
       },
       {
         name: 'Model UN & World Quest',
-        text: 'Model UN is a Middle School academic team, and Model UN and World Quest both count toward the certificate.',
+        text: 'Model UN runs in the Middle and Upper Schools, and Model UN and World Quest both count toward the certificate.',
       },
       {
         name: 'Global Education Badge',

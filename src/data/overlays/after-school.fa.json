@@ -70,10 +70,17 @@
       ]
     },
     {
-      "t": "ژوئن–اوت",
-      "of": "4f3a376a",
+      "t": "ژوئن–ژوئیه",
+      "of": "6298b842",
       "at": [
-        "providence-day:coverage.summer.season"
+        "providence-day:coverage.summer.season",
+        "charlotte-latin:coverage.summer.season",
+        "charlotte-christian:coverage.summer.season",
+        "charlotte-country-day:coverage.summer.season",
+        "cannon:coverage.summer.season",
+        "gaston-day:coverage.summer.season",
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -1038,19 +1045,6 @@
       "of": "72c3da9a",
       "at": [
         "charlotte-latin:coverage.rows[3].flatLabel"
-      ]
-    },
-    {
-      "t": "ژوئن–ژوئیه",
-      "of": "6298b842",
-      "at": [
-        "charlotte-latin:coverage.summer.season",
-        "charlotte-christian:coverage.summer.season",
-        "charlotte-country-day:coverage.summer.season",
-        "cannon:coverage.summer.season",
-        "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season",
-        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -3100,8 +3094,8 @@
       ]
     },
     {
-      "t": "هیچ تخفیف خواهر و برادری برای Extended Day منتشر نشده است، و هیچ سیاست کمک‌هزینهٔ مالی برای Extended Day وجود ندارد. این هزینه به‌عنوان **هزینهٔ جانبی** صورت‌حساب می‌شود، که آن را بیرون از کمک‌هزینهٔ شهریه قرار می‌دهد، هرچند حدود 20% دانش‌آموزان کمک‌هزینهٔ شهریه دریافت می‌کنند. صفحهٔ شهریه مبلغ $9.4M برای 341 دانش‌آموز را می‌گوید، و صفحهٔ Fast Facts مبلغ $10.1M برای 347 نفر را. در مقابل، برنامه‌های تابستانی درخواست کمک‌هزینهٔ ویژهٔ خود را دارند.",
-      "of": "84fc27f4",
+      "t": "هیچ تخفیف خواهر و برادری برای Extended Day منتشر نشده است، و هیچ سیاست کمک‌هزینهٔ مالی برای Extended Day نیز منتشر نشده است. این هزینه به‌عنوان **هزینهٔ جانبی** صورت‌حساب می‌شود، که آن را بیرون از کمک‌هزینهٔ شهریه قرار می‌دهد، هرچند حدود 20% دانش‌آموزان کمک‌هزینهٔ شهریه دریافت می‌کنند. صفحهٔ شهریه مبلغ $9.4M برای 341 دانش‌آموز را می‌گوید، و صفحهٔ Fast Facts مبلغ $10.1M برای 347 نفر را. در مقابل، برنامه‌های تابستانی درخواست کمک‌هزینهٔ ویژهٔ خود را دارند.",
+      "of": "a659c262",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ]
@@ -3613,8 +3607,8 @@
       ]
     },
     {
-      "t": "برنامهٔ پولی نیست — تنها ورود رایگان از 7:30 a.m.",
-      "of": "3e084a43",
+      "t": "برنامهٔ مراقبت پولی نیست — تنها ورود رایگان از 7:30 صبح",
+      "of": "619685dc",
       "at": [
         "cannon:coverage.facts[1].text"
       ]
@@ -3781,8 +3775,8 @@
       ]
     },
     {
-      "t": "آنچه Cannon واقعاً با جزئیات منتشر می‌کند Beyond the Bell است: سه دورهٔ غنی‌سازی 10 هفته‌ای در سال، با روز، بازهٔ پایه، ارائه‌دهنده و هزینهٔ واقعی برای هر کلاس.",
-      "of": "688c480b",
+      "t": "آنچه Cannon واقعاً با جزئیات منتشر می‌کند Beyond the Bell است، با سه دورهٔ غنی‌سازی 10 هفته‌ای در سال. هر کلاس روز، بازهٔ پایه، ارائه‌دهنده یا سمت، و هزینه دارد.",
+      "of": "37b490f7",
       "at": [
         "cannon:dayInside.subhead"
       ]
@@ -3844,143 +3838,162 @@
       ]
     },
     {
-      "t": "Beyond the Bell — دورهٔ 3، بهار 2026",
-      "of": "35adb5e8",
+      "t": "Beyond the Bell — دورهٔ 2، سال 2026–27",
+      "of": "40273360",
       "at": [
         "cannon:dayInside.catalogTitle"
       ]
     },
     {
-      "t": "سه دورهٔ 10 هفته‌ای هر سال برای JrK تا پایهٔ 8 برگزار می‌شود، به‌علاوهٔ کلاس‌های خصوصی موسیقی. 22 کلاس زیر تازه‌ترین فهرست منتشرشده است، **9 مارس تا 22 مه 2026** — که از بروشور دورهٔ خود مدرسه گرفته شده است. هزینه‌ها برای هر کلاس و هر دوره نشان داده شده‌اند. توجه کنید که Beyond the Bell **خریدی جدا از ASP** است: یک کلاس 3:00–4:00 شما را تا 6:00 پوشش نمی‌دهد.",
-      "of": "b5d62754",
+      "t": "سه دورهٔ 10 هفته‌ای هر سال برای JrK تا پایهٔ 8 برگزار می‌شود، به‌علاوهٔ کلاس‌های خصوصی موسیقی برای K–12. تعداد 31 کلاس زیر فهرست دورهٔ 2 است، **30 نوامبر تا 5 فوریه**. این فهرست از بروشور دورهٔ خود مدرسه گرفته شده است. هزینه‌ها برای هر کلاس و هر دوره نشان داده شده‌اند. توجه کنید که Beyond the Bell **خریدی جدا از ASP** است: یک کلاس 3:00–4:00 شما را تا 6:00 پوشش نمی‌دهد.",
+      "of": "3c1e2638",
       "at": [
         "cannon:dayInside.catalogIntro"
       ]
     },
     {
-      "t": "بازی در زمین کوچک با Kelli Waller",
-      "of": "716c2549",
+      "t": "رقص تپ و جاز با Art in Motion Dance Performing Co.",
+      "of": "3f13bb14",
       "at": [
         "cannon:dayInside.classes[0].desc"
       ]
     },
     {
-      "t": "2–6",
-      "of": "dc4d67cc",
+      "t": "JrK–1",
+      "of": "f42a2236",
       "at": [
-        "cannon:dayInside.classes[0].gradeLabel"
+        "cannon:dayInside.classes[0].gradeLabel",
+        "cannon:dayInside.classes[17].gradeLabel"
       ]
     },
     {
-      "t": "مبانی تشویق با Nash و Colacion",
-      "of": "85bf76c2",
+      "t": "آشنایی با عکاسی. با تدریس یک مربی مستقل",
+      "of": "4aea9b60",
       "at": [
         "cannon:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "3–6",
+      "of": "71b1a3ef",
+      "at": [
+        "cannon:dayInside.classes[1].gradeLabel",
+        "charlotte-prep:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "مهارت‌های سازمان‌دهی برای Middle School، ساعت 7:30–8:00 صبح، پیش از مدرسه. با تدریس یک مربی مستقل",
+      "of": "42f62174",
+      "at": [
+        "cannon:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "cannon:dayInside.classes[2].gradeLabel",
+        "cannon:dayInside.classes[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "باشگاه کاردستی. با تدریس یک مربی مستقل",
+      "of": "d4ff7fc6",
+      "at": [
+        "cannon:dayInside.classes[3].desc"
       ]
     },
     {
       "t": "JrK–2",
       "of": "f32a20a3",
       "at": [
-        "cannon:dayInside.classes[1].gradeLabel",
-        "cannon:dayInside.classes[5].gradeLabel",
-        "cannon:dayInside.classes[12].gradeLabel",
-        "cannon:dayInside.classes[15].gradeLabel"
-      ]
-    },
-    {
-      "t": "چالش‌های ساخت و آزمون با اجرای BrickEd",
-      "of": "fc32f7b2",
-      "at": [
-        "cannon:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–2",
-      "of": "5e92d4cb",
-      "at": [
-        "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel",
-        "charlotte-prep:dayInside.classes[1].gradeLabel"
-      ]
-    },
-    {
-      "t": "ساخت با رسانهٔ ترکیبی با McKinsey و Raphael",
-      "of": "12042fb8",
-      "at": [
-        "cannon:dayInside.classes[3].desc"
-      ]
-    },
-    {
-      "t": "2–4",
-      "of": "de4d6af2",
-      "at": [
         "cannon:dayInside.classes[3].gradeLabel",
-        "cannon:dayInside.classes[17].gradeLabel"
+        "cannon:dayInside.classes[13].gradeLabel",
+        "cannon:dayInside.classes[22].gradeLabel",
+        "cannon:dayInside.classes[23].gradeLabel"
       ]
     },
     {
-      "t": "ساخت و برنامه‌نویسی تیمی با Lisa Nussbaumer",
-      "of": "a4c630c5",
+      "t": "تنیس با کادر مربیگری تیم varsity تنیس Cannon",
+      "of": "692bb940",
       "at": [
-        "cannon:dayInside.classes[4].desc"
+        "cannon:dayInside.classes[4].desc",
+        "cannon:dayInside.classes[11].desc"
       ]
     },
     {
-      "t": "3–5",
-      "of": "72b1a582",
+      "t": "K–4",
+      "of": "6492de3d",
       "at": [
         "cannon:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[3].gradeLabel",
-        "charlotte-prep:dayInside.classes[5].gradeLabel"
+        "cannon:dayInside.classes[16].gradeLabel",
+        "charlotte-prep:dayInside.classes[0].gradeLabel"
       ]
     },
     {
-      "t": "عروسک‌سازی و اجرا با Rhiannon Bresalier",
-      "of": "9234b989",
+      "t": "باشگاه Pokémon. با تدریس یک مربی مستقل",
+      "of": "58d4dc0d",
       "at": [
         "cannon:dayInside.classes[5].desc"
       ]
     },
     {
-      "t": "مهارت‌های آشپزخانه و دستور غذا با Craig Rosekrans",
-      "of": "66339c45",
+      "t": "2–6",
+      "of": "dc4d67cc",
+      "at": [
+        "cannon:dayInside.classes[5].gradeLabel",
+        "cannon:dayInside.classes[10].gradeLabel",
+        "cannon:dayInside.classes[14].gradeLabel",
+        "cannon:dayInside.classes[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "مهارت‌های سازهای زهی. با تدریس یک مربی مستقل",
+      "of": "b8f2970c",
       "at": [
         "cannon:dayInside.classes[6].desc"
-      ]
-    },
-    {
-      "t": "1–3",
-      "of": "aa9ea5ea",
-      "at": [
-        "cannon:dayInside.classes[6].gradeLabel"
-      ]
-    },
-    {
-      "t": "با اجرای AR Workshop Concord؛ 3:00–4:30",
-      "of": "ec18d9af",
-      "at": [
-        "cannon:dayInside.classes[7].desc"
       ]
     },
     {
       "t": "3–8",
       "of": "77b1ad61",
       "at": [
-        "cannon:dayInside.classes[7].gradeLabel",
+        "cannon:dayInside.classes[6].gradeLabel",
         "charlotte-prep:dayInside.classes[2].gradeLabel"
       ]
     },
     {
-      "t": "رقص با Art in Motion Dance",
-      "of": "6d0482e1",
+      "t": "کلاس شیرینی‌پزی. با تدریس یک مربی مستقل",
+      "of": "039f66ae",
+      "at": [
+        "cannon:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "K–1",
+      "of": "5f92d65e",
+      "at": [
+        "cannon:dayInside.classes[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "کلاس کارگاه ساخت (maker-space). با تدریس یک مربی مستقل",
+      "of": "a373c8d9",
       "at": [
         "cannon:dayInside.classes[8].desc"
       ]
     },
     {
-      "t": "کاوش و بازی در فضای باز با Kelli Waller",
-      "of": "d09d34c2",
+      "t": "1–3",
+      "of": "aa9ea5ea",
+      "at": [
+        "cannon:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "با مربیگری Carolina Soccer Factory",
+      "of": "55c5f69b",
       "at": [
         "cannon:dayInside.classes[9].desc"
       ]
@@ -3989,178 +4002,212 @@
       "t": "JrK–4",
       "of": "f92a2a15",
       "at": [
-        "cannon:dayInside.classes[9].gradeLabel"
+        "cannon:dayInside.classes[9].gradeLabel",
+        "cannon:dayInside.classes[12].gradeLabel",
+        "cannon:dayInside.classes[21].gradeLabel",
+        "cannon:dayInside.classes[25].gradeLabel",
+        "cannon:dayInside.classes[30].gradeLabel"
       ]
     },
     {
-      "t": "با مربیگری Carolina Soccer Factory",
-      "of": "55c5f69b",
+      "t": "پروژه‌های هنر الماس‌نشان. با تدریس یک مربی مستقل",
+      "of": "83ec038d",
       "at": [
         "cannon:dayInside.classes[10].desc"
       ]
     },
     {
-      "t": "K–6",
-      "of": "6292db17",
+      "t": "با تدریس یک مربی مستقل",
+      "of": "c2e74de5",
       "at": [
-        "cannon:dayInside.classes[10].gradeLabel"
-      ]
-    },
-    {
-      "t": "ساخت میان‌رشته‌ای با Mayo و Cavicchi",
-      "of": "892a9a9a",
-      "at": [
-        "cannon:dayInside.classes[11].desc"
-      ]
-    },
-    {
-      "t": "JrK–1",
-      "of": "f42a2236",
-      "at": [
-        "cannon:dayInside.classes[11].gradeLabel"
+        "cannon:dayInside.classes[12].desc",
+        "cannon:dayInside.classes[29].desc"
       ]
     },
     {
       "t": "با تدریس Le Petit Ballet Co.",
       "of": "54903c06",
       "at": [
-        "cannon:dayInside.classes[12].desc"
+        "cannon:dayInside.classes[13].desc"
       ]
     },
     {
-      "t": "سازهای زهی گروهی با Anne Marie Samuel",
-      "of": "cee50463",
+      "t": "سفالگری با چرخ. با تدریس یک مربی مستقل",
+      "of": "21bb2035",
       "at": [
-        "cannon:dayInside.classes[13].desc"
+        "cannon:dayInside.classes[14].desc"
+      ]
+    },
+    {
+      "t": "گروه‌نوازی سازهای زهی با String Orchestra Director مدرسهٔ Cannon",
+      "of": "be9b40b7",
+      "at": [
+        "cannon:dayInside.classes[15].desc"
       ]
     },
     {
       "t": "1–8",
       "of": "a19e97bf",
       "at": [
-        "cannon:dayInside.classes[13].gradeLabel"
+        "cannon:dayInside.classes[15].gradeLabel"
       ]
     },
     {
-      "t": "با اجرای Better Golf for Kids",
-      "of": "f995456f",
-      "at": [
-        "cannon:dayInside.classes[14].desc"
-      ]
-    },
-    {
-      "t": "K–5",
-      "of": "6392dcaa",
-      "at": [
-        "cannon:dayInside.classes[14].gradeLabel"
-      ]
-    },
-    {
-      "t": "هنر سه‌بعدی با Alex Bresalier",
-      "of": "4dd98a79",
-      "at": [
-        "cannon:dayInside.classes[15].desc"
-      ]
-    },
-    {
-      "t": "مهارت‌های کارکرد اجرایی برای Middle School، با Sherrill و O’Brien",
-      "of": "1cef586d",
+      "t": "لاکراس با مربیان لاکراس Cannon School",
+      "of": "9b2f1dbe",
       "at": [
         "cannon:dayInside.classes[16].desc"
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
-      "at": [
-        "cannon:dayInside.classes[16].gradeLabel"
-      ]
-    },
-    {
-      "t": "رشد ورزشی با Donnie Hayes",
-      "of": "aebfe251",
+      "t": "برنامه‌نویسی ربات با Nexplore",
+      "of": "981427da",
       "at": [
         "cannon:dayInside.classes[17].desc"
       ]
     },
     {
-      "t": "تاریخ شیءمحور با Stephanie Lee",
-      "of": "6c10a569",
+      "t": "پرورش توانایی‌های ورزشی. با تدریس یک مربی مستقل",
+      "of": "1e12eca4",
       "at": [
         "cannon:dayInside.classes[18].desc"
       ]
     },
     {
-      "t": "4–8",
-      "of": "d12b05b8",
+      "t": "2–5",
+      "of": "df4d6c85",
       "at": [
-        "cannon:dayInside.classes[18].gradeLabel"
+        "cannon:dayInside.classes[18].gradeLabel",
+        "cannon:dayInside.classes[27].gradeLabel"
       ]
     },
     {
-      "t": "مبانی دوربین و ترکیب‌بندی با Danielle Sandlof",
-      "of": "753d981d",
+      "t": "با اجرای Better Golf for Kids Academy",
+      "of": "e35d51f5",
       "at": [
         "cannon:dayInside.classes[19].desc"
       ]
     },
     {
-      "t": "3–6",
-      "of": "71b1a3ef",
+      "t": "1–6",
+      "of": "a79ea131",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel",
-        "charlotte-prep:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[8].gradeLabel"
+        "cannon:dayInside.classes[19].gradeLabel"
       ]
     },
     {
-      "t": "هنر مهره با Dobbins و Fox",
-      "of": "5832d170",
+      "t": "کلاس سرامیک. با تدریس یک مربی مستقل",
+      "of": "5c6ac547",
       "at": [
         "cannon:dayInside.classes[20].desc"
       ]
     },
     {
-      "t": "K–4",
-      "of": "6492de3d",
-      "at": [
-        "cannon:dayInside.classes[20].gradeLabel",
-        "charlotte-prep:dayInside.classes[0].gradeLabel"
-      ]
-    },
-    {
-      "t": "نقاشی و طراحی با Danielle Lucas",
-      "of": "e404b9fa",
+      "t": "کلاس دو. با تدریس یک مربی مستقل",
+      "of": "79379dd5",
       "at": [
         "cannon:dayInside.classes[21].desc"
       ]
     },
     {
-      "t": "K–3",
-      "of": "5d92d338",
+      "t": "هنر با AR Workshop",
+      "of": "ada8f20e",
       "at": [
-        "cannon:dayInside.classes[21].gradeLabel"
+        "cannon:dayInside.classes[22].desc"
       ]
     },
     {
-      "t": "کلاس‌های خصوصی موسیقی در کنار آن برای K–8 برگزار می‌شود: ویولنسل $25 در هر کلاس (دوشنبه/چهارشنبه)، گیتار $25 (چهارشنبه/جمعه)، آواز $30 (سه‌شنبه/پنجشنبه)، پیانو $30 (دوشنبه/سه‌شنبه/پنجشنبه) و ویولن یا ویولا $30 (سه‌شنبه/پنجشنبه).",
-      "of": "1bb78a11",
+      "t": "با اجرای Kidokinetics of North Charlotte",
+      "of": "8dd86e42",
+      "at": [
+        "cannon:dayInside.classes[23].desc"
+      ]
+    },
+    {
+      "t": "با تدریس Concord TaeKwonDo Inc.",
+      "of": "3242095f",
+      "at": [
+        "cannon:dayInside.classes[24].desc"
+      ]
+    },
+    {
+      "t": "1–5",
+      "of": "a49e9c78",
+      "at": [
+        "cannon:dayInside.classes[24].gradeLabel"
+      ]
+    },
+    {
+      "t": "تشویق ورزشی با Overtime Athletics",
+      "of": "1aa0fba0",
+      "at": [
+        "cannon:dayInside.classes[25].desc"
+      ]
+    },
+    {
+      "t": "با تدریس سرمربی Charlotte Chess Center",
+      "of": "f5fe7acf",
+      "at": [
+        "cannon:dayInside.classes[26].desc"
+      ]
+    },
+    {
+      "t": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "cannon:dayInside.classes[26].gradeLabel",
+        "trinity-episcopal:dayInside.classes[0].gradeLabel",
+        "trinity-episcopal:dayInside.classes[1].gradeLabel",
+        "trinity-episcopal:dayInside.classes[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "شعبده‌بازی با Nexplore",
+      "of": "0b37a651",
+      "at": [
+        "cannon:dayInside.classes[27].desc"
+      ]
+    },
+    {
+      "t": "کلاس آشپزی. با تدریس یک مربی مستقل",
+      "of": "6a5d3918",
+      "at": [
+        "cannon:dayInside.classes[28].desc"
+      ]
+    },
+    {
+      "t": "5–7",
+      "of": "73037a4a",
+      "at": [
+        "cannon:dayInside.classes[28].gradeLabel"
+      ]
+    },
+    {
+      "t": "K–6",
+      "of": "6292db17",
+      "at": [
+        "cannon:dayInside.classes[29].gradeLabel"
+      ]
+    },
+    {
+      "t": "کلاس LEGO. با تدریس یک مربی مستقل",
+      "of": "8e0b917b",
+      "at": [
+        "cannon:dayInside.classes[30].desc"
+      ]
+    },
+    {
+      "t": "کلاس‌های خصوصی موسیقی در کنار آن برای K–12 برگزار می‌شود: پیانو $30 در هر کلاس (دوشنبه/سه‌شنبه، و چهارشنبه/پنجشنبه/جمعه با معلمی دیگر)، ویولن یا ویولا $30 (سه‌شنبه/پنجشنبه)، آواز $30 برای پایه‌های 2–12 (سه‌شنبه/پنجشنبه/جمعه)، ویولنسل $25 (دوشنبه تا پنجشنبه) و گیتار $25 (سه‌شنبه/چهارشنبه/پنجشنبه).",
+      "of": "d303045f",
       "at": [
         "cannon:dayInside.flags[0].text"
-      ]
-    },
-    {
-      "t": "این فهرست **دورهٔ 3 سال 2025-26** است — تازه‌ترین فهرست منتشرشده. هنوز هیچ فهرست Beyond the Bell برای 2026-27 منتشر نشده است، پس کلاس‌های مشخص تغییر خواهند کرد، هرچند بازهٔ قیمت و ساختار احتمالاً پابرجا می‌ماند.",
-      "of": "bd097f64",
-      "at": [
-        "cannon:dayInside.flags[1].text"
       ]
     },
     {
       "t": "هیچ ریتم روزانهٔ ساعت‌به‌ساعتی و هیچ نسبت کارکنان به کودکی برای خود After School Program منتشر نشده است. Middle School توصیف برنامهٔ جداگانه‌ای ندارد: پایه‌های 5–8 درون همان برنامهٔ JrK–8 قرار دارند.",
       "of": "9c982864",
       "at": [
-        "cannon:dayInside.flags[2].text"
+        "cannon:dayInside.flags[1].text"
       ]
     },
     {
@@ -4206,22 +4253,22 @@
       ]
     },
     {
-      "t": "**فهرست غنی‌سازی بزرگ و با قیمت کامل** — 22 کلاس متمایز در یک دوره، از رباتیک و باله تا مجسمه‌سازی، گلف و عکاسی. هر یک ارائه‌دهنده‌ای نام‌برده و هزینه‌ای واقعی دارد.",
-      "of": "591807b0",
+      "t": "**فهرست غنی‌سازی بزرگ و با قیمت کامل** — 31 کلاس متمایز در یک دوره، از برنامه‌نویسی ربات و باله تا سفالگری، گلف و عکاسی. هر یک هزینه‌ای واقعی دارد.",
+      "of": "c7483779",
       "at": [
         "cannon:verdict.strengths[4]"
       ]
     },
     {
-      "t": "**غنی‌سازی با قیمتی متعادل و شفاف** — $18 تا $30 در هر کلاس، و $160 تا $300 برای دورهٔ 8 یا 10 جلسه‌ای، با بازپرداخت کامل برای کلاس‌های لغوشده و یک هفتهٔ جبرانی.",
-      "of": "6274a884",
+      "t": "**غنی‌سازی با قیمتی متعادل و شفاف** — $15 تا $30 در هر کلاس، و $125 تا $240 برای یک دورهٔ 5–15 جلسه‌ای. خانواده می‌تواند در هفتهٔ نخست انصراف دهد و تنها هزینهٔ کلاسی را که در آن شرکت کرده بپردازد. کلاس لغوشده، در صورت امکان، جبران می‌شود.",
+      "of": "8aba83f9",
       "at": [
         "cannon:verdict.strengths[5]"
       ]
     },
     {
-      "t": "**یک کلاس کارکرد اجرایی برای Middle School** («Let’s Get Organized») — ارائه‌ای واقعاً غیرمعمول در این سن.",
-      "of": "4ab6a038",
+      "t": "**یک کلاس مهارت‌های سازمان‌دهی برای Middle School** («Let’s Get Organized»)، دو بار در هفته پیش از مدرسه — ارائه‌ای واقعاً غیرمعمول در این سن.",
+      "of": "77a48c2d",
       "at": [
         "cannon:verdict.strengths[6]"
       ]
@@ -6025,8 +6072,8 @@
       ]
     },
     {
-      "t": "مراقبت برای Pre-K تا پایهٔ 8 تا 5:30 pm ادامه دارد. ردهٔ Lower School در 3:00 و ردهٔ Middle School در 3:15 آغاز می‌شود.",
-      "of": "fecea180",
+      "t": "مراقبت برای پیش‌دبستانی تا پایهٔ 8 تا 5:30 عصر ادامه دارد. ردهٔ Lower School در 3:00 و ردهٔ Middle School در 3:15 آغاز می‌شود.",
+      "of": "61235bc4",
       "at": [
         "gaston-day:coverage.headline"
       ]
@@ -6151,8 +6198,8 @@
       ]
     },
     {
-      "t": "این برنامه **تنها Pre-K تا پایهٔ 8** را پوشش می‌دهد. هیچ مراقبت پس از مدرسه‌ای برای پایه‌های 9–12 منتشر نشده است، که رایج است اما گفتنش می‌ارزد.",
-      "of": "a27225ab",
+      "t": "این برنامه **تنها پیش‌دبستانی تا پایهٔ 8** را پوشش می‌دهد. هیچ مراقبت پس از مدرسه‌ای برای پایه‌های 9–12 منتشر نشده است، که رایج است اما گفتنش می‌ارزد.",
+      "of": "ba0c1c4b",
       "at": [
         "gaston-day:coverage.facts[5].text"
       ]
@@ -6608,8 +6655,8 @@
       ]
     },
     {
-      "t": "**پوشش، Pre-K تا پایهٔ 8 را در بر می‌گیرد**، در دو رده که هر دو تا 5:30 pm ادامه دارند.",
-      "of": "55e040df",
+      "t": "**پوشش، پیش‌دبستانی تا پایهٔ 8 را در بر می‌گیرد**، در دو رده که هر دو تا 5:30 عصر ادامه دارند.",
+      "of": "a5a8e713",
       "at": [
         "gaston-day:verdict.strengths[4]"
       ]
@@ -6713,8 +6760,8 @@
       ]
     },
     {
-      "t": "نظارت بر ردهٔ پایه‌های 5–8 چگونه با ردهٔ Pre-K تا پایهٔ 4 تفاوت می‌کند؟",
-      "of": "3bc8eeb5",
+      "t": "نظارت بر ردهٔ پایه‌های 5–8 چگونه با ردهٔ پیش‌دبستانی تا پایهٔ 4 تفاوت می‌کند؟",
+      "of": "88b837f1",
       "at": [
         "gaston-day:verdict.checklist[6]"
       ]
@@ -6959,15 +7006,6 @@
       "at": [
         "trinity-episcopal:dayInside.classes[0].desc",
         "trinity-episcopal:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–8",
-      "of": "5892cb59",
-      "at": [
-        "trinity-episcopal:dayInside.classes[0].gradeLabel",
-        "trinity-episcopal:dayInside.classes[1].gradeLabel",
-        "trinity-episcopal:dayInside.classes[2].gradeLabel"
       ]
     },
     {
@@ -7433,6 +7471,13 @@
       ]
     },
     {
+      "t": "K–2",
+      "of": "5e92d4cb",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
+      ]
+    },
+    {
       "t": "تست بازیگری و اجرای یک نمایش تک‌پرده‌ای.",
       "of": "e1c0cf53",
       "at": [
@@ -7444,6 +7489,14 @@
       "of": "b9eaca1b",
       "at": [
         "charlotte-prep:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "3–5",
+      "of": "72b1a582",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
       ]
     },
     {

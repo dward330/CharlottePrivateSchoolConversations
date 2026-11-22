@@ -1,5 +1,5 @@
 # Gaston Day School — Sports
-> Distilled from 5 source document(s) in `source-material/sports/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 5 source document(s) in `source-material/sports/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** College Commitments Class of 2027, College Commitments 2024-2026, Program and Championship Ledger 2026, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026
 
 
@@ -115,15 +115,12 @@ signing period (opens 2026-11-11), so it is provisional: re-run after the Novemb
 
 | Athlete | Sport | College | Conf | Level | Confirmed by |
 |---|---|---|---|---|---|
-| Braylen Todd | Boys Basketball | Johnson & Wales (NC) | USCAA | non-NCAA (see note) | Johnson & Wales 2026-27 roster; RealGM |
+| Braylen Todd | Boys Basketball | Johnson & Wales (NC) | C2C | D3 | Johnson & Wales 2026-27 roster; RealGM |
 
-**Level note for the plan:** Johnson & Wales University–Charlotte competes in the **USCAA**
-(United States Collegiate Athletic Association), which is neither NCAA nor NAIA, and the
-card's `CommitLevel` (`'P4' | 'D1' | 'D2' | 'D3' | 'NAIA'`) has no USCAA tier. The nearest
-precedent is junior college, listed at `'D3'` with `conf: 'NJCAA'` and explained in
-`rosterNote` (Covenant Day, Hickory Grove). On that precedent Todd goes at `'D3'` with
-`conf: 'USCAA'`, which is a new conference string and therefore one new identifier unit per
-locale. He is not a Division I count either way.
+**Level note for the plan:** Johnson & Wales University–Charlotte competes in the Coast-To-Coast
+Athletic Conference (C2C) at NCAA Division III (corrected 2026-11-22:
+https://charlotte.jwuathletics.com/). Todd is `'D3'` with `conf: 'C2C'`, and is not a Division I
+count.
 
 ## Class of 2025 — 1
 
@@ -170,6 +167,15 @@ the two window rows. She is the whole of the `seniors-committed` value (`'1'`, u
  2023-24 girls tennis roster. **Unverified:** she is absent from Emerson's women's tennis
  rosters for 2024-25 and 2025-26, and no second source was found. A reader-submitted
  tracker alone is a lead, not a row (the Cannon girls-lacrosse precedent).
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, planning)
+
+https://charlotte.jwuathletics.com/ and https://charlotte.jwuathletics.com/sports/mens-basketball/schedule
+(both HTTP 200): the conference is the "Coast-To-Coast Athletic Conference" (C2C), the footer
+links NCAA Division III, and USCAA appears 0 times. The card's "USCAA rather than the NCAA" is
+wrong (finding CAR-U6).
 
 
 ---
@@ -289,6 +295,20 @@ extractable form from the JS-rendered athletics site.
 - S6 https://www.highschoolot.com/story/gaston-day-repeats-ncisaa-2a-girls-tennis-title-downs-epiphany-school/21693252/ (read in Chrome): "Top-seeded Gaston Day girls tennis repeated its N.C. Independent Schools Athletic Association 2A championship on Saturday. The Spartans defeated Epiphany School 5-2 at N.C. Wesleyan University. ... Gaston Day won last year's title over Trinity School of Durham and Chapel Hill". The phrase "third state championship in four years and fourth overall" does NOT appear in the article today.
 - S4 https://www.highschoolot.com/the-2024-25-ncisaa-team-state-champions-in-every-sport/22016545/: the 2A entry reads "Gaston Day (2) — volleyball, boys soccer, girls tennis"; the phrase does not appear there either.
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+NCISAA 2026-27 brackets, fetched with curl. Each championship round was read by its table column.
+
+- Volleyball, https://archives.ncisaa.org/index.php?sport=12&currentyear=1 : 2A finalists
+ "#4 Gaston Day School (13-4)" and "#2 Hickory Christian Academy (17-2)". Champion's cell:
+ "#4 Gaston Day School (14-4)". Final dates on the bracket: 10/30 and 10/31.
+- Girls tennis, https://archives.ncisaa.org/index.php?sport=11&currentyear=1 : Gaston Day is not
+ in the 2A bracket. The champion's cell is "#1 The Epiphany School of Global Studies (19-1)".
+- Boys soccer, https://archives.ncisaa.org/index.php?sport=8&currentyear=1 : Gaston Day appears
+ only in the first round, "Gaston Day School (3-10)". The 2A champion's cell is "#3 Westchester
+ Country Day School (17-3)".
+- Cross country (sport=2) and girls golf (sport=20) post no 2026-27 results there yet.
+
 
 ---
 
@@ -315,7 +335,7 @@ extractable form from the JS-rendered athletics site.
 From nothing on record to **3** committed, **2** Division I, **1** Power 4 for the Classes of
 2024–2026: two volleyball players (Megan Brown ’24, Wofford; Anne Bradley Bing ’25, South
 Carolina) and one boys basketball player (Braylen Todd ’26, Johnson & Wales–Charlotte,
-USCAA). Gaston Day had no College Pipeline card before this pass, and the two Compare window
+C2C, NCAA Division III; corrected 2026-11-22). Gaston Day had no College Pipeline card before this pass, and the two Compare window
 rows were `null`.
 
 ## Scope
@@ -597,10 +617,15 @@ Dropped, under the usual bar of a title or a runner-up year: boys golf 2021 (3rd
 - https://admin.ncisaa.org/uploads/SWIMMING/2023/2023%20division%203%20Swim%20scores.pdf
 - https://admin.ncisaa.org/uploads/SWIMMING/Div%203%20Final_Team_Ind.pdf
 - https://alamancenews.com/bca-boys-track-and-field-team-secures-first-title-in-any-sport-for-school/
+- https://archives.ncisaa.org/index.php?sport=11&currentyear=1
+- https://archives.ncisaa.org/index.php?sport=12&currentyear=1
 - https://archives.ncisaa.org/index.php?sport=12&years=2021-2022
+- https://archives.ncisaa.org/index.php?sport=8&currentyear=1
 - https://basketball.realgm.com/highschool/teams/1873/Gaston-Day-School-NC
 - https://bbafnc.org/
+- https://charlotte.jwuathletics.com/
 - https://charlotte.jwuathletics.com/sports/mens-basketball/roster
+- https://charlotte.jwuathletics.com/sports/mens-basketball/schedule
 - https://gamecocksonline.com/sports/wvball/roster/player/anne-bradley-bing/
 - https://gastondayathletics.com/
 - https://sports.yahoo.com/articles/best-high-school-swimmers-charlotte-100000360.html

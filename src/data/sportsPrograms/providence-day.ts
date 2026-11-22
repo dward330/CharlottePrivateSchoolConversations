@@ -120,9 +120,9 @@ export const providenceDay: SportsProgram = {
   /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
-      'Four NCISAA 4A state titles in 2025–26 — the most of any 4A school in North Carolina that year.',
+      'Four NCISAA 4A state titles in 2025–26 — tied for the most of any 4A school in North Carolina that year.',
     subhead:
-      '"State" = NCISAA (the private-school association); PD does not compete in the public-school NCHSAA.',
+      'In fall 2026 PD won football again and was the girls tennis runner-up. "State" = NCISAA (the private-school association); PD does not compete in the public-school NCHSAA.',
     seasonLabels: ["'23–24", "'24–25", "'25–26"],
     rows: [
       {
@@ -132,7 +132,7 @@ export const providenceDay: SportsProgram = {
           { result: 'RUNNER-UP', record: '9–3' },
           { result: 'STATE', record: '13–0' },
         ],
-        note: '4 titles in 5 years; first undefeated season in program history',
+        note: '5 titles in 6 seasons, 2021–26; 2025 was the first undefeated season in program history',
       },
       {
         program: 'Girls Soccer',
@@ -173,15 +173,17 @@ export const providenceDay: SportsProgram = {
       {
         program: 'Girls Basketball',
         cells: [
-          { result: 'NONE' },
+          // No record: the bracket prints 21–9 going INTO the final PD lost, and the matrix holds
+          // season-ending records. Do not type a computed one (plan consistency5, PD-U2, review 1).
+          { result: 'RUNNER-UP', toVerify: true },
           { result: 'NONE' },
           { result: 'RUNNER-UP', toVerify: true },
         ],
-        note: "Lost the '26 final to Cannon (Cannon's 3rd straight)",
+        note: "Lost the '24 and '26 finals to Cannon",
       },
     ],
     didNotWin:
-      'boys basketball (Forsyth Country Day) · girls basketball (Cannon) · boys cross country, boys soccer & boys track (Christ School) · girls cross country, boys lacrosse & boys tennis (Durham Academy) · wrestling and both golf titles (Charlotte Latin) · field hockey & girls tennis (Charlotte Country Day) · boys swimming (Cary Academy) · baseball (Charlotte Christian) · volleyball (North Raleigh Christian).',
+      'In 2025–26: boys basketball (Forsyth Country Day) · girls basketball (Cannon) · boys cross country, boys soccer & boys track (Christ School) · girls cross country, girls track, boys lacrosse & boys tennis (Durham Academy) · wrestling and both golf titles (Charlotte Latin) · field hockey & girls tennis (Charlotte Country Day) · boys swimming (Cary Academy) · baseball (Charlotte Christian) · volleyball (North Raleigh Christian).',
     bars: [
       { program: 'Football', record: '34–4', pct: 0.895 },
       { program: 'Girls Soccer', record: '42–5–2', pct: 0.878, tag: '2 OF 3 YRS' },
@@ -191,7 +193,7 @@ export const providenceDay: SportsProgram = {
     seasonDetail: [
       {
         program: 'Football',
-        text: '2023 12–1 (state champion) · 2024 9–3 (runner-up, lost 42–39 to Rabun Gap-Nacoochee, GA) · 2025 13–0 (champion; beat Charlotte Christian 42–6 behind three Zaid Lott touchdown passes — the first undefeated season in program history).',
+        text: '2023 12–1 (state champion) · 2024 9–3 (runner-up, lost 42–39 to Rabun Gap-Nacoochee, GA) · 2025 13–0 (champion; beat Charlotte Christian 42–6 behind three Zaid Lott touchdown passes — the first undefeated season in program history) · 2026 champion again on November 20, beating Rabun Gap-Nacoochee 34–18 for a second straight title.',
       },
       {
         program: 'Boys Basketball',
@@ -208,6 +210,13 @@ export const providenceDay: SportsProgram = {
     ],
     sources: [
       { label: 'HighSchoolOT — 2025–26 NCISAA champions in every sport', url: CHAMPS },
+      {
+        label: 'WBTV — 2026 football final',
+        url: 'https://www.wbtv.com/2026/11/21/providence-day-tops-rabun-gap-34-18-capture-ncisaa-division-i-state-title/',
+      },
+      { label: 'NCISAA — 2026 girls tennis bracket', url: 'https://archives.ncisaa.org/index.php?sport=11&currentyear=1' },
+      { label: 'NCISAA — 2023–24 girls basketball bracket', url: 'https://archives.ncisaa.org/index.php?sport=23&years=2023-2024' },
+      { label: 'Mitchell Timing — 2026 NCISAA Division 1 track championships', url: 'http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_Division_1_Track_and_Field_Championships/' },
       {
         label: '2025 football final',
         url: 'https://www.highschoolot.com/story/back-on-top-providence-day-reclaims-division-i-state-title-with-win-over-rival-charlotte-christian/22257301/',
@@ -261,7 +270,7 @@ export const providenceDay: SportsProgram = {
     realityCheck:
       'Baseball, lacrosse, golf, tennis, softball and boys and girls basketball send most of their commits to NCAA Division III: 19 of 31 in 2024–26. These colleges recur heavily: Denison · Hampden-Sydney · Tufts · Emory · Kenyon · Hamilton · Washington & Lee. That pattern fits PD’s identity as an academically selective school. For many families, a D3 offer from a top academic college is the win.',
     rankedRecruits:
-      'Seven PD players made NC Football News’ 53-man consensus list for the class of 2027, which blends 247Sports, Rivals and ESPN. Safety Robert Geathers III leads them. Recent top-rated recruits: David Sanders ’25 (five-star, the No. 1 offensive tackle and No. 4 recruit nationally, to Tennessee) and Jadyn Davis ’24 (NC Mr. Football, to Michigan). PD had one five-star and seven four-stars in the 2025 football class alone.',
+      'Seven PD players made NC Football News’ 53-man consensus list for the class of 2027, which blends 247Sports, Rivals and ESPN. Safety Robert Geathers III leads them. Recent top-rated recruits: David Sanders ’25 (five-star, the No. 1 offensive tackle and ESPN’s No. 4 recruit nationally, to Tennessee) and Jadyn Davis ’24 (NC Mr. Football, to Michigan). PD had one five-star and seven four-stars in the 2025 football class alone.',
     roster: [
       { cls: "'26", name: 'Gordon Sellars', sport: 'Football', college: 'Clemson', conf: 'ACC', level: 'P4',
         rank247: { national: 177, state: 10, url: 'https://247sports.com/player/gordon-sellars-iii-46142814/' } },
@@ -371,7 +380,7 @@ export const providenceDay: SportsProgram = {
       { cls: "'27", name: 'Maddy Boland', sport: 'Swimming', college: 'North Carolina', conf: 'ACC', level: 'P4' },
       { cls: "'27", name: 'Ethan Dempsey', sport: 'Football', college: 'Charlotte', conf: 'American', level: 'D1' },
       { cls: "'27", name: 'Cooper Hodson', sport: 'Football', college: 'Delaware', conf: 'CAA', level: 'D1' },
-      { cls: "'27", name: 'Justin Abanquah', sport: 'Football', college: 'Elon', conf: 'Southern', level: 'D1' },
+      { cls: "'27", name: 'Justin Abanquah', sport: 'Football', college: 'Elon', conf: 'CAA', level: 'D1' },
     ],
     rosterNote:
       'This site added the level labels (P4 / D1 / D2 / D3) and conferences from each college’s NCAA status. These labels are not on the school’s list. P4 = SEC · Big Ten · ACC · Big 12. The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign. Three athletes have since moved: Jadyn Davis from Michigan to East Tennessee State, Trajan Thompson from Denver to West Florida and Chase Jackson from Gardner-Webb to Claflin. The roster shows the college each one committed to out of Providence Day. Zach Makemson is listed by the school as a Tennessee commit but enrolled at Appalachian State, which is the college shown here.',
@@ -487,9 +496,13 @@ export const providenceDay: SportsProgram = {
       {
         kicker: 'The pedigree hire · Football, since 2020',
         name: 'Chad Grier',
+        // "through 2025" is OUR inference (plan consistency5, PD-U13, settled S12): no source
+        // gives an as-of season, and Grier's stops in the research add to 15 at the 2025 season
+        // (Davidson Day 6, Oceanside 3, Providence Day 2020–25 is 6). Do not add the 2026
+        // season to either figure without a published number.
         stats: [
-          { value: '147–26', label: 'career record, 15 seasons' },
-          { value: '8', label: 'state titles — 3rd-most in NC history' },
+          { value: '147–26', label: 'career record, 15 seasons, through 2025' },
+          { value: '8', label: 'state titles through 2025 — 3rd-most in NC history' },
           { value: '#1', label: 'win % in NC, coaches with 100+ games' },
         ],
         detail:
@@ -501,7 +514,7 @@ export const providenceDay: SportsProgram = {
         stats: [
           { value: '24 yrs', label: "leading the program — PD alum, Class of '96" },
           { value: 'HOF', label: 'NC Track & Field / XC Hall of Fame' },
-          { value: '20', label: 'consecutive CISAA XC titles, 2000–20' },
+          { value: '20', label: 'consecutive boys’ CISAA XC titles for the program, 2000–20 (he took over in 2002)' },
         ],
         detail:
           'A former PD runner who took over from the founding coach and built a perennial power. He was the 2023 Charlotte Observer Boys Track Coach of the Year, after winning a fourth straight state title (nine of the prior ten).',
@@ -615,13 +628,13 @@ export const providenceDay: SportsProgram = {
   /* -------------------------------------------------------- 1h national -- */
   national: {
     headline:
-      'MaxPreps ranked PD #1 in North Carolina across all classifications — and for a full year its athletes could sign NIL deals while public-school rivals legally could not.',
+      'MaxPreps ranked PD #1 in North Carolina across all classifications in the 2024 preseason — and for a full year its athletes could sign NIL deals while public-school rivals legally could not.',
     subhead: 'Grier’s stated goal: "the epicenter of high school football… and beyond."',
     stats: [
       { value: '#1 in NC', label: "MaxPreps '24 preseason, all classifications" },
       { value: '#65', label: 'MaxPreps national rank, 2025–26' },
       { value: '13–0', label: 'first undefeated season, 2025' },
-      { value: '5 straight', label: 'NCISAA D-I state finals, 2021–25' },
+      { value: '6 straight', label: 'NCISAA D-I state finals, 2021–26' },
     ],
     scheduleTitle: 'The deliberately national schedule — 2025',
     schedule: [
@@ -653,6 +666,10 @@ export const providenceDay: SportsProgram = {
       },
     ],
     sources: [
+      {
+        label: 'MaxPreps — 2024 preseason North Carolina rankings (PD No. 1)',
+        url: 'https://www.maxpreps.com/news/zV4CX-6SUUy9GSmSTHOLEw/north-carolina-high-school-football-rankings-providence-day-no-1-in-2024-preseason-maxpreps-top-25.htm',
+      },
       {
         label: 'MaxPreps — PD football rankings',
         url: 'https://www.maxpreps.com/nc/charlotte/providence-day-chargers/football/rankings/',

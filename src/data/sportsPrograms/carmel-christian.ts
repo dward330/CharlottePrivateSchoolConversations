@@ -240,7 +240,7 @@ export const carmelChristian: SportsProgram = {
       { cls: "'25", name: 'Noah Daniels', sport: 'Tennis', college: 'Anderson (SC)', conf: 'SAC', level: 'D2' },
       { cls: "'25", name: 'Christopher Grace', sport: 'Tennis', college: 'Anderson (SC)', conf: 'SAC', level: 'D2' },
       { cls: "'25", name: 'Anderson Rider', sport: 'Baseball', college: 'Ferrum', conf: 'ODAC', level: 'D3' },
-      { cls: "'25", name: 'Miles Leaks', sport: 'Basketball', college: 'Johnson & Wales', conf: 'C2C', level: 'D3' },
+      { cls: "'25", name: 'Miles Leaks', sport: 'Basketball', college: 'Johnson & Wales (Charlotte)', conf: 'C2C', level: 'D3' },
       { cls: "'25", name: 'Ben Price', sport: 'Tennis', college: 'Hampden-Sydney', conf: 'ODAC', level: 'D3' },
       { cls: "'24", name: 'Gabe Avram', sport: 'Tennis', college: 'South Carolina', conf: 'SEC', level: 'P4' },
       { cls: "'24", name: 'Kam Taylor', sport: 'Basketball', college: 'UNC Asheville', conf: 'Big South', level: 'D1' },

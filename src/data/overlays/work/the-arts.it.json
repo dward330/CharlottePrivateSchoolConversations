@@ -356,6 +356,7 @@
         "providence-day:theatre.season[1].kind",
         "charlotte-catholic:theatre.season[0].kind",
         "charlotte-catholic:theatre.season[1].kind",
+        "charlotte-catholic:theatre.season[2].kind",
         "charlotte-country-day:theatre.season[1].kind",
         "gaston-day:theatre.season[1].kind"
       ],
@@ -933,12 +934,12 @@
       "t": "Chi dirige oggi il musical di primavera? Caroline Bower ha guidato la serie di piazzamenti Blumey del 2015–2017 e non è più in organico."
     },
     {
-      "text": "A TK–12 arts program built for breadth over selection — one band, one orchestra and one choir per division, with the stage \"open to everyone.\"",
-      "of": "b2d81d17",
+      "text": "A TK–12 arts program built for breadth over selection — band, orchestra and choir, each open to grades 5–12 with no auditioned tier, and the stage \"open to everyone.\"",
+      "of": "a806a076",
       "at": [
         "charlotte-latin:ladder.headline"
       ],
-      "t": "Un programma artistico TK–12 costruito per l'ampiezza più che per la selezione — una band, un'orchestra e un coro per divisione, con il palco \"aperto a tutti.\""
+      "t": "Un programma artistico TK–12 costruito per l'ampiezza più che per la selezione — band, orchestra e coro, ciascuno aperto alle classi 5–12 senza alcun livello su audizione, e il palco \"open to everyone.\""
     },
     {
       "text": "Over 80% of students participate (school-reported, no methodology published). Anchored by the Horne Performing Arts Center, six visual art studios, a Student Art Gallery and the permanent Arts Walk collection.",
@@ -1278,12 +1279,12 @@
       "t": "Latin gestisce una biglietteria dedicata (boxoffice@charlottelatin.org) con una lista d'attesa per gli spettacoli esauriti. Il programma teatrale opera come una sede a biglietteria. La scuola non pubblica alcun nome di direttore teatrale o direttore tecnico. È una vera lacuna di trasparenza rispetto alle scuole pari."
     },
     {
-      "text": "The Blumey ledger — results from four years",
-      "of": "e2a4997b",
+      "text": "The Blumey ledger — results from six years",
+      "of": "793a89a9",
       "at": [
         "charlotte-latin:theatre.ledgerTitle"
       ],
-      "t": "Il registro Blumey — i risultati di quattro anni"
+      "t": "Il registro Blumey — i risultati di sei anni"
     },
     {
       "text": "Five finalists: Best Actor (as MC) · Best Actress (as Fraulein Schneider) · Best Supporting Actor (as Herr Schultz) · Best Supporting Actress (as Fraulein Kost) · Best Featured Performer (as Gorilla Ballerina). No nominations, in a 59-school field.",
@@ -1302,10 +1303,26 @@
       "t": "Candidata: Best Student Stage Manager — una categoria di mestiere più che di interpretazione. Ha avuto anche cinque finalisti nelle categorie di interpretazione."
     },
     {
+      "text": "Five finalists: Best Actor (as Damien) · Best Actress (as Cady Herron) · Best Supporting Actor (as Aaron Samuels) · Best Supporting Actress (as Karen Smith) · Best Featured Performer (as Kevin G.). No nominations.",
+      "of": "66bd6171",
+      "at": [
+        "charlotte-latin:theatre.ledger[2].result"
+      ],
+      "t": "Cinque finalisti: Best Actor (nel ruolo di Damien) · Best Actress (nel ruolo di Cady Herron) · Best Supporting Actor (nel ruolo di Aaron Samuels) · Best Supporting Actress (nel ruolo di Karen Smith) · Best Featured Performer (nel ruolo di Kevin G.). Nessuna candidatura."
+    },
+    {
+      "text": "Five finalists: Best Actor (as Farquad) · Best Actress (as Fiona) · Best Supporting Actor (as Pinocchio) · Best Supporting Actress (as Dragon) · Best Featured Performer (as Gingy/Wicked Witch).",
+      "of": "dfc86366",
+      "at": [
+        "charlotte-latin:theatre.ledger[3].result"
+      ],
+      "t": "Cinque finalisti: Best Actor (nel ruolo di Farquad) · Best Actress (nel ruolo di Fiona) · Best Supporting Actor (nel ruolo di Pinocchio) · Best Supporting Actress (nel ruolo di Dragon) · Best Featured Performer (nel ruolo di Gingy/Wicked Witch)."
+    },
+    {
       "text": "Best Actress — a student playing Alice Murphy. Also won Best Featured Performer — a student playing Daryl. Two wins in one night.",
       "of": "7c83d490",
       "at": [
-        "charlotte-latin:theatre.ledger[2].result"
+        "charlotte-latin:theatre.ledger[4].result"
       ],
       "t": "Best Actress — una studentessa nel ruolo di Alice Murphy. Vinto anche Best Featured Performer — uno studente nel ruolo di Daryl. Due vittorie in una sera."
     },
@@ -1313,17 +1330,17 @@
       "text": "The inaugural Blumeys: nominated for Wells Fargo Best Musical and Best Actor (as Joseph).",
       "of": "4f90ea49",
       "at": [
-        "charlotte-latin:theatre.ledger[3].result"
+        "charlotte-latin:theatre.ledger[5].result"
       ],
       "t": "I Blumeys inaugurali: candidata a Wells Fargo Best Musical e Best Actor (nel ruolo di Joseph)."
     },
     {
-      "text": "A Best Actress Blumey is the most competitive individual honor in the region, and Latin has one, plus Best Featured Performer the same night. That is a real peak. But results since then are modest. Latin had five finalists in both 2025 and 2026, but its one nomination in those years was for stage manager in 2025. Latin is a real participant, not a dominant one. Separately, no NCTC one-act festival results could be found anywhere. Latin’s competitive theatre centers on the Blumeys (musicals), not on NCTC (a play festival). This ledger covers four years of Blumenthal releases, so it is a floor, not a complete history.",
-      "of": "c383e9e5",
+      "text": "A Best Actress Blumey is the most competitive individual honor in the region, and Latin has one, plus Best Featured Performer the same night. That is a real peak. But results since then are modest. Latin had five finalists in each year from 2023 to 2026. Its one nomination in 2024–26 was for stage manager in 2025. Latin is a real participant, not a dominant one. Separately, no NCTC one-act festival results could be found anywhere. Latin’s competitive theatre centers on the Blumeys (musicals), not on NCTC (a play festival). This ledger covers six years of Blumenthal releases, so it is a floor, not a complete history.",
+      "of": "5649fa31",
       "at": [
         "charlotte-latin:theatre.honestContext"
       ],
-      "t": "Un Blumey come Best Actress è il riconoscimento individuale più competitivo della regione, e Latin ne ha uno, più Best Featured Performer la stessa sera. È un vero apice. Ma i risultati da allora sono modesti. Latin ha avuto cinque finalisti sia nel 2025 sia nel 2026, ma la sua unica candidatura in quegli anni è stata come stage manager nel 2025. Latin è una vera partecipante, non una dominatrice. A parte questo, non è stato possibile trovare da nessuna parte risultati del festival di atti unici NCTC. Il teatro competitivo di Latin ruota attorno ai Blumeys (musical), non all'NCTC (un festival di prosa). Questo registro copre quattro anni di comunicati Blumenthal, quindi è un minimo, non una storia completa."
+      "t": "Un Blumey come Best Actress è il riconoscimento individuale più competitivo della regione, e Latin ne ha uno, più Best Featured Performer la stessa sera. È un vero apice. Ma i risultati da allora sono modesti. Latin ha avuto cinque finalisti in ogni anno dal 2023 al 2026. La sua unica candidatura nel 2024–26 è stata come stage manager nel 2025. Latin è una vera partecipante, non una dominatrice. A parte questo, non è stato possibile trovare da nessuna parte risultati del festival di atti unici NCTC. Il teatro competitivo di Latin ruota attorno ai Blumeys (musical), non all'NCTC (un festival di prosa). Questo registro copre sei anni di comunicati Blumenthal, quindi è un minimo, non una storia completa."
     },
     {
       "text": "A Lower School production on the mainstage — the fourth- and fifth-grade musical is an annual fixture.",
@@ -1342,12 +1359,12 @@
       "t": "charlottelatin.org — Performing Arts"
     },
     {
-      "text": "One band, one orchestra and one choir per division — deliberately inclusive rather than tiered, with a two-step theory path to AP.",
-      "of": "00caf2b9",
+      "text": "Band, orchestra and choir, each open to grades 5–12 with no auditioned tier — deliberately inclusive, with a two-step theory path to AP.",
+      "of": "d9ea32a7",
       "at": [
         "charlotte-latin:music.headline"
       ],
-      "t": "Una band, un'orchestra e un coro per divisione — deliberatamente inclusivi anziché suddivisi in livelli, con un percorso di teoria in due tappe verso l'AP."
+      "t": "Band, orchestra e coro, ciascuno aperto alle classi 5–12 senza alcun livello su audizione — deliberatamente inclusivi, con un percorso di teoria in due tappe verso l'AP."
     },
     {
       "text": "The school’s own framing: a place for \"both the most advanced student and those trying something new for the first time.\"",
@@ -1659,12 +1676,12 @@
       "t": "Offrite AP Music Theory ma non AP Studio Art, AP 2-D/3-D Art & Design o AP Art History. Se mio figlio vuole presentare un portfolio di studio di livello universitario, qual è il percorso oltre Art Studio IV?"
     },
     {
-      "text": "Latin had two Blumey wins in 2022, one stage-manager nomination in 2025, and five finalists but no nominations for Cabaret in 2026. What changed, and where is the musical theatre program heading with The Little Mermaid?",
-      "of": "892d0b88",
+      "text": "Latin had two Blumey wins in 2022. It had five finalists in each year from 2023 to 2026. In 2024–26 it had only one nomination, for stage manager in 2025. What changed, and where is the musical theatre program heading with The Little Mermaid?",
+      "of": "ceb77425",
       "at": [
         "charlotte-latin:verdict.ask[1]"
       ],
-      "t": "Latin ha avuto due vittorie Blumey nel 2022, una candidatura come stage manager nel 2025 e cinque finalisti ma nessuna candidatura per Cabaret nel 2026. Cosa è cambiato, e verso dove è diretto il programma di teatro musicale con The Little Mermaid?"
+      "t": "Latin ha avuto due vittorie Blumey nel 2022. Ha avuto cinque finalisti in ogni anno dal 2023 al 2026. Nel 2024–26 ha avuto una sola candidatura, come stage manager nel 2025. Cosa è cambiato, e verso dove è diretto il programma di teatro musicale con The Little Mermaid?"
     },
     {
       "text": "Your materials name Alicia Long, Richard Fletcher and an assistant band director. They name no Director of Bands, orchestra director, choral director, theatre director or technical director. Who leads each ensemble, and how long have they been here?",
@@ -1675,12 +1692,12 @@
       "t": "I vostri materiali nominano Alicia Long, Richard Fletcher e un direttore di band assistente. Non nominano alcun Director of Bands, direttore d'orchestra, direttore corale, direttore teatrale o direttore tecnico. Chi guida ciascun ensemble, e da quanto tempo è qui?"
     },
     {
-      "text": "There are no auditioned or tiered ensembles published — no jazz band, no a cappella, no chamber or wind ensemble. How does a player already at All-State level keep progressing rather than coasting?",
-      "of": "4158ebd7",
+      "text": "There are no auditioned or tiered ensembles published — no jazz band, no chamber or wind ensemble. The club list has an open Acapella Club. Is there an auditioned a cappella group, and how does a player already at All-State level keep progressing rather than coasting?",
+      "of": "9be54ed6",
       "at": [
         "charlotte-latin:verdict.ask[3]"
       ],
-      "t": "Non sono pubblicati ensemble su audizione o suddivisi in livelli — nessuna jazz band, nessun a cappella, nessun ensemble da camera o di fiati. Come fa un esecutore già a livello All-State a continuare a progredire anziché adagiarsi?"
+      "t": "Non sono pubblicati ensemble su audizione o suddivisi in livelli — nessuna jazz band, nessun ensemble da camera o di fiati. L'elenco dei club include un Acapella Club aperto. Esiste un gruppo a cappella su audizione, e come fa un esecutore già a livello All-State a continuare a progredire anziché adagiarsi?"
     },
     {
       "text": "Six studios — which media does each hold? Is there a kiln, a darkroom, a printmaking press, a dedicated dance studio? The Arts Facilities page is photos only, with no descriptive text.",
@@ -1912,12 +1929,12 @@
       "t": "Botteghino & stagione"
     },
     {
-      "text": "A dedicated Fine Arts Box Office sells tickets online, with PDF delivery and a HomeTown Fan app. The 2025-26 season is themed \"Pure Imagination,\" with sales opening September 2025. But individual production titles were not published at time of research.",
-      "of": "93c8b847",
+      "text": "A dedicated Fine Arts Box Office sells tickets online, with PDF delivery and a HomeTown Fan app. The 2026-27 season is themed \"Called to Courage!\" Its musicals are Matilda Jr. (October 22–24), The Little Mermaid (February 25–27) and Frozen KIDS (April 8–10).",
+      "of": "97436fd2",
       "at": [
         "charlotte-christian:ladder.enrichment[2].text"
       ],
-      "t": "Un Fine Arts Box Office dedicato vende i biglietti online, con consegna in PDF e un'app HomeTown Fan. La stagione 2025-26 ha come tema \"Pure Imagination,\" con le vendite aperte da settembre 2025. Ma i titoli delle singole produzioni non erano pubblicati al momento della ricerca."
+      "t": "Un Fine Arts Box Office dedicato vende i biglietti online, con consegna in PDF e un'app HomeTown Fan. La stagione 2026-27 ha come tema \"Called to Courage!\" I suoi musical sono Matilda Jr. (22–24 ottobre), The Little Mermaid (25–27 febbraio) e Frozen KIDS (8–10 aprile)."
     },
     {
       "text": "Apple Distinguished School",
@@ -1960,29 +1977,28 @@
       "t": "Il ritmo della stagione — tre musical del palco principale, grades 4–12"
     },
     {
-      "text": "2025-26",
-      "of": "fe38e73d",
+      "text": "2026-27",
+      "of": "0a1761dd",
       "at": [
-        "charlotte-christian:theatre.season[0].season",
-        "davidson-day:theatre.season[0].season"
+        "charlotte-christian:theatre.season[0].season"
       ],
-      "t": "2025-26"
+      "t": "2026-27"
     },
     {
-      "text": "Season: \"Pure Imagination\"",
-      "of": "ba30416a",
+      "text": "Season: \"Called to Courage!\"",
+      "of": "35f66619",
       "at": [
         "charlotte-christian:theatre.season[0].kind"
       ],
-      "t": "Stagione: \"Pure Imagination\""
+      "t": "Stagione: \"Called to Courage!\""
     },
     {
-      "text": "The season carries a theme — \"familiar fictional worlds brimming with humor, joy, love, fantasy, and imagination\" — but individual production titles were not published at time of research.",
-      "of": "89ffb444",
+      "text": "Matilda Jr. (October 22–24) · The Little Mermaid (February 25–27) · Frozen KIDS (April 8–10). The 2025-26 season was \"Pure Imagination\"; the Blumey lists name Cinderella as that year’s musical.",
+      "of": "b88873a7",
       "at": [
         "charlotte-christian:theatre.season[0].detail"
       ],
-      "t": "La stagione porta un tema — \"familiar fictional worlds brimming with humor, joy, love, fantasy, and imagination\" — ma i titoli delle singole produzioni non erano pubblicati al momento della ricerca."
+      "t": "Matilda Jr. (22–24 ottobre) · The Little Mermaid (25–27 febbraio) · Frozen KIDS (8–10 aprile). La stagione 2025-26 era \"Pure Imagination\"; gli elenchi dei Blumey indicano Cinderella come musical di quell'anno."
     },
     {
       "text": "Recent",
@@ -2002,12 +2018,12 @@
       "t": "Musical del palco principale"
     },
     {
-      "text": "Published as an unordered set, without years: High School Musical, Shrek, Footloose, Beauty and the Beast, Joseph and the Amazing Technicolor Dreamcoat, Into the Woods, Tarzan, Freaky Friday.",
-      "of": "687b8ede",
+      "text": "Past shows, which the school lists without years: High School Musical, Shrek, Footloose, Beauty and the Beast, Joseph and the Amazing Technicolor Dreamcoat, Into the Woods, Tarzan, Freaky Friday.",
+      "of": "910cd848",
       "at": [
         "charlotte-christian:theatre.season[1].detail"
       ],
-      "t": "Pubblicati come insieme non ordinato, senza anni: High School Musical, Shrek, Footloose, Beauty and the Beast, Joseph and the Amazing Technicolor Dreamcoat, Into the Woods, Tarzan, Freaky Friday."
+      "t": "Spettacoli passati, che la scuola elenca senza anni: High School Musical, Shrek, Footloose, Beauty and the Beast, Joseph and the Amazing Technicolor Dreamcoat, Into the Woods, Tarzan, Freaky Friday."
     },
     {
       "text": "Two audition-only competition teams do the competitive work: ACT 1 (high school) and ACT 2 (middle school). The tech track has more behind it than the school advertises. First, the seven theatre electives for grades 6–12 cover technical directing and stage management. The venue also has a scene shop and dressing rooms, per the contractor. And students place in technical categories at off-campus competitions: a CITA Technical Theatre Costume Design award, plus the 2013 Blumey win for Best Lighting Execution. A caution on staff: the only theatre staff names found anywhere are Angela Tomaselli (ACT 1) and Conrad Bear (ACT 2). Both names date to a 2016 news post and may be out of date. No current director or technical director is published, and no faculty are named on any of the four branch pages.",
@@ -2050,10 +2066,18 @@
       "t": "FINALISTA — non candidata — in tutte e cinque le categorie di interpretazione: Best Actor (nel ruolo di Tarzan) · Best Actress (nel ruolo di Jane) · Best Supporting Actor (nel ruolo di Kerchak) · Best Supporting Actress (nel ruolo di Terk) · Best Featured Performer (nel ruolo di Jaquar). La scuola non ha raggiunto il taglio dei primi 6 candidati in nessuna categoria. Platea: 50 scuole."
     },
     {
+      "text": "Five finalists: Best Actor (as Baker) · Best Actress (as Witch) · Best Supporting Actor (as Cinderella’s Prince) · Best Supporting Actress (as Little Red Riding Hood) · Best Featured Performer (as Ensemble/Wolf).",
+      "of": "23a82877",
+      "at": [
+        "charlotte-christian:theatre.ledger[2].result"
+      ],
+      "t": "Cinque finalisti: Best Actor (nel ruolo di Baker) · Best Actress (nel ruolo di Witch) · Best Supporting Actor (nel ruolo di Cinderella’s Prince) · Best Supporting Actress (nel ruolo di Little Red Riding Hood) · Best Featured Performer (nel ruolo di Ensemble/Wolf)."
+    },
+    {
       "text": "Six placements: 1st Place Ensemble Theatre · 1st Place Solo Jr High Musical Theatre · 3rd Place in the same category · Honorable Mention Duo · Honorable Mention Contrasting Monologues · Technical Theatre Costume Design.",
       "of": "18dcf122",
       "at": [
-        "charlotte-christian:theatre.ledger[2].result"
+        "charlotte-christian:theatre.ledger[3].result"
       ],
       "t": "Sei piazzamenti: 1° Posto Ensemble Theatre · 1° Posto Solo Jr High Musical Theatre · 3° Posto nella stessa categoria · Honorable Mention Duo · Honorable Mention Contrasting Monologues · Technical Theatre Costume Design."
     },
@@ -2061,7 +2085,7 @@
       "text": "Three nominations, as reported by the school: Best Actress (as Fiona) · Best Actor (as Shrek) · Best Supporting Actor (as Donkey). Field: 39 schools.",
       "of": "83f7d35f",
       "at": [
-        "charlotte-christian:theatre.ledger[3].result"
+        "charlotte-christian:theatre.ledger[4].result"
       ],
       "t": "Tre candidature, secondo quanto riferito dalla scuola: Best Actress (nel ruolo di Fiona) · Best Actor (nel ruolo di Shrek) · Best Supporting Actor (nel ruolo di Donkey). Platea: 39 scuole."
     },
@@ -2069,17 +2093,17 @@
       "text": "A four-award sweep: Wells Fargo Best Musical, Best Ensemble/Chorus, Best Choreography Execution and Best Lighting Execution — the lighting award signaling technical capability, not just strong singing. Field: 17 schools.",
       "of": "de1aeff5",
       "at": [
-        "charlotte-christian:theatre.ledger[4].result"
+        "charlotte-christian:theatre.ledger[5].result"
       ],
       "t": "Un en plein da quattro premi: Wells Fargo Best Musical, Best Ensemble/Chorus, Best Choreography Execution e Best Lighting Execution — il premio per l'illuminazione segnale di capacità tecnica, non solo di buon canto. Platea: 17 scuole."
     },
     {
-      "text": "The 2013 Best Musical win is the program’s top arts achievement, and it is confirmed directly by Blumenthal Arts. The school later reported three nominations, for Shrek the Musical in 2015. The 2024 Tarzan finalist places sit one tier below nomination, in a field that had grown from 17 schools to 50. In 2026 Cinderella had five finalists, and one was a top-six nominee. The CITA record is the school’s most distinctive credential, because the circuit fits the school’s identity. But it rests on a single published year: 2016. The school describes CITA honors as earned \"each year,\" and that wording has one data point behind it. Separately, no specific NCTC award could be found for any year.",
-      "of": "e5f6f8cb",
+      "text": "The 2013 Best Musical win is the program’s top arts achievement, and it is confirmed directly by Blumenthal Arts. The school later reported three nominations, for Shrek the Musical in 2015. Into the Woods had five finalists in 2023. The 2024 Tarzan finalist places sit one tier below nomination, in a field that had grown from 17 schools to 50. In 2026 Cinderella had five finalists, and one was a top-six nominee. The CITA record is the school’s most distinctive credential, because the circuit fits the school’s identity. But it rests on a single published year: 2016. The school describes CITA honors as earned \"each year,\" and that wording has one data point behind it. Separately, no specific NCTC award could be found for any year.",
+      "of": "80273272",
       "at": [
         "charlotte-christian:theatre.honestContext"
       ],
-      "t": "La vittoria Best Musical del 2013 è il traguardo artistico di punta del programma, ed è confermata direttamente da Blumenthal Arts. In seguito la scuola ha riferito tre candidature, per Shrek the Musical nel 2015. I piazzamenti da finalista di Tarzan del 2024 si collocano un livello sotto la candidatura, in una platea cresciuta da 17 scuole a 50. Nel 2026 Cinderella ha avuto cinque finalisti, uno dei quali candidato tra i primi sei. Il record CITA è la credenziale più distintiva della scuola, perché il circuito si adatta alla sua identità. Ma poggia su un unico anno pubblicato: 2016. La scuola descrive gli onori CITA come conquistati \"each year,\" e questa formulazione ha un solo dato a supporto. A parte questo, non è stato possibile trovare alcun premio NCTC specifico per alcun anno."
+      "t": "La vittoria Best Musical del 2013 è il traguardo artistico di punta del programma, ed è confermata direttamente da Blumenthal Arts. In seguito la scuola ha riferito tre candidature, per Shrek the Musical nel 2015. Into the Woods ha avuto cinque finalisti nel 2023. I piazzamenti da finalista di Tarzan del 2024 si collocano un livello sotto la candidatura, in una platea cresciuta da 17 scuole a 50. Nel 2026 Cinderella ha avuto cinque finalisti, uno dei quali candidato tra i primi sei. Il record CITA è la credenziale più distintiva della scuola, perché il circuito si adatta alla sua identità. Ma poggia su un unico anno pubblicato: 2016. La scuola descrive gli onori CITA come conquistati \"each year,\" e questa formulazione ha un solo dato a supporto. A parte questo, non è stato possibile trovare alcun premio NCTC specifico per alcun anno."
     },
     {
       "text": "Instrumental music from Grade 5 by instrument family, climbing to six Honors ensembles — and a Carnegie Hall Honors Performance Series placement.",
@@ -2309,20 +2333,20 @@
       "t": "Nazionale"
     },
     {
-      "text": "participation cited on both the Visual Art and Digital Arts pages",
-      "of": "c78f8c8a",
+      "text": "54 awards over the last five years, per the 2026–27 profile (art and writing together; not broken out)",
+      "of": "79f155ec",
       "at": [
         "charlotte-christian:visual.exhibits[3].detail"
       ],
-      "t": "partecipazione citata sia sulla pagina Visual Art sia su quella Digital Arts"
+      "t": "54 premi negli ultimi cinque anni, secondo il profilo 2026–27 (arte e scrittura insieme; senza suddivisione)"
     },
     {
-      "text": "No visual art or digital arts faculty are named on either branch page. A dedicated Digital Media Studio is named but not described: no size, equipment or station count. And no separate broadcast studio, green screen or recording booth is documented, despite a Broadcasting course. The school calls the program \"award-winning\" and confirms it takes part in Scholastic Art & Writing, Festival in the Park and the Patriotic Art Competition. But not one individual visual-art award with a student name and year could be found, so no award counts appear here. The page speaks in general terms of \"a variety of media,\" and the curriculum guide names them by course. Studio facilities such as a kiln, wheel or darkroom are not published.",
-      "of": "7000e0ab",
+      "text": "No visual art or digital arts faculty are named on either branch page. A dedicated Digital Media Studio is named but not described: no size, equipment or station count. And no separate broadcast studio, green screen or recording booth is documented, despite a Broadcasting course. The school calls the program \"award-winning\" and confirms it takes part in Scholastic Art & Writing, Festival in the Park and the Patriotic Art Competition. The 2026–27 profile counts 54 Scholastic Art and Writing awards over the last five years. It does not break out visual art or list awards by year. The page speaks in general terms of \"a variety of media,\" and the curriculum guide names them by course. Studio facilities such as a kiln, wheel or darkroom are not published.",
+      "of": "08f43928",
       "at": [
         "charlotte-christian:visual.footnote"
       ],
-      "t": "Nessun docente di arti visive o digitali è nominato su nessuna delle due pagine dei rami. È nominato un Digital Media Studio dedicato ma non descritto: nessuna dimensione, attrezzatura o numero di postazioni. E non è documentato alcuno studio di broadcasting, green screen o cabina di registrazione separati, nonostante un corso di Broadcasting. La scuola definisce il programma \"award-winning\" e conferma la partecipazione a Scholastic Art & Writing, Festival in the Park e alla Patriotic Art Competition. Ma non è stato possibile trovare un solo premio individuale di arti visive con nome dello studente e anno, quindi qui non compaiono conteggi di premi. La pagina parla in termini generici di \"a variety of media,\" e la guida curricolare li nomina corso per corso. Le strutture di studio, come forno, tornio o camera oscura, non sono pubblicate."
+      "t": "Nessun docente di arti visive o digitali è nominato su nessuna delle due pagine dei rami. È nominato un Digital Media Studio dedicato ma non descritto: nessuna dimensione, attrezzatura o numero di postazioni. E non è documentato alcuno studio di broadcasting, green screen o cabina di registrazione separati, nonostante un corso di Broadcasting. La scuola definisce il programma \"award-winning\" e conferma la partecipazione a Scholastic Art & Writing, Festival in the Park e alla Patriotic Art Competition. Il profilo 2026–27 conta 54 premi Scholastic Art and Writing negli ultimi cinque anni. Non separa le arti visive né elenca i premi per anno. La pagina parla in termini generici di \"a variety of media,\" e la guida curricolare li nomina corso per corso. Le strutture di studio, come forno, tornio o camera oscura, non sono pubblicate."
     },
     {
       "text": "A Best Musical Blumey, a purpose-built two-venue arts facility, a transcript-level arts distinction — and a program whose faculty are entirely unpublished.",
@@ -2349,12 +2373,12 @@
       "t": "Un premio di massimo livello, più finalisti recenti"
     },
     {
-      "text": "the 2013 Oklahoma! Best Musical win came as a four-award sweep including Best Lighting Execution, from a 17-school field. In 2024, Tarzan earned finalist slots in all five acting categories, in a field grown to 50. In 2026, Cinderella had five finalists and one top-six nominee.",
-      "of": "6b090769",
+      "text": "the 2013 Oklahoma! Best Musical win came as a four-award sweep including Best Lighting Execution, from a 17-school field. In 2023, Into the Woods had five finalists. In 2024, Tarzan earned finalist slots in all five acting categories, in a field grown to 50. In 2026, Cinderella had five finalists and one top-six nominee.",
+      "of": "577fa4fc",
       "at": [
         "charlotte-christian:verdict.holdsUp[0].text"
       ],
-      "t": "la vittoria Best Musical del 2013 con Oklahoma! è arrivata come en plein da quattro premi incluso Best Lighting Execution, su una platea di 17 scuole. Nel 2024, Tarzan ha ottenuto posti da finalista in tutte e cinque le categorie di recitazione, in una platea cresciuta a 50. Nel 2026, Cinderella ha avuto cinque finalisti e una candidatura tra i primi sei."
+      "t": "la vittoria Best Musical del 2013 con Oklahoma! è arrivata come en plein da quattro premi incluso Best Lighting Execution, su una platea di 17 scuole. Nel 2023, Into the Woods ha avuto cinque finalisti. Nel 2024, Tarzan ha ottenuto posti da finalista in tutte e cinque le categorie di recitazione, in una platea cresciuta a 50. Nel 2026, Cinderella ha avuto cinque finalisti e una candidatura tra i primi sei."
     },
     {
       "text": "Two performance spaces and a scene shop",
@@ -2445,12 +2469,12 @@
       "t": "Chi dirige il teatro e chi è il vostro direttore tecnico, e da quanto tempo sono qui? Nessun docente è nominato per alcuno dei quattro rami, e gli unici nomi reperibili risalgono al 2016 — chiedetelo per primo."
     },
     {
-      "text": "Tarzan had five finalists and no top-6 nominee in 2024, and Cinderella had five and one in 2026. What is the gap you are working on before another win?",
-      "of": "2c3b76b3",
+      "text": "Tarzan had five finalists and no top-six nominee in 2024. Cinderella had five finalists and one top-six nominee in 2026. What is the gap you are working on before another win?",
+      "of": "ca09a6ea",
       "at": [
         "charlotte-christian:verdict.ask[1]"
       ],
-      "t": "Tarzan ha avuto cinque finalisti e nessun candidato tra i primi 6 nel 2024, e Cinderella cinque finalisti e un candidato nel 2026. Qual è la distanza su cui state lavorando prima di un'altra vittoria?"
+      "t": "Tarzan ha avuto cinque finalisti e nessun candidato tra i primi sei nel 2024. Cinderella ha avuto cinque finalisti e un candidato tra i primi sei nel 2026. Qual è la distanza su cui state lavorando prima di un'altra vittoria?"
     },
     {
       "text": "Can you show me CITA results for the last three years, by category? The 2016 ledger is strong; nothing after it is public.",
@@ -2485,12 +2509,12 @@
       "t": "Digital Arts ha nove materie opzionali e software professionale ma nessun AP. Se mio figlio vuole un portfolio di cinema o design, il percorso deve per forza passare attraverso AP Studio Art in Visual Art?"
     },
     {
-      "text": "Which students earned Scholastic Art & Writing Gold or Silver Keys in the last two years, and in what categories?",
-      "of": "40a200e2",
+      "text": "How many of the 54 Scholastic Art & Writing awards were Gold or Silver Keys in visual art?",
+      "of": "58e184e7",
       "at": [
         "charlotte-christian:verdict.ask[6]"
       ],
-      "t": "Quali studenti hanno ottenuto Scholastic Art & Writing Gold o Silver Keys negli ultimi due anni, e in quali categorie?"
+      "t": "Quanti dei 54 premi Scholastic Art & Writing erano Gold o Silver Keys nelle arti visive?"
     },
     {
       "text": "Of the 40-plus electives, how many can one Upper School student realistically take across four years alongside AP academics? The figure is a JK–12 count that includes Grade 5 brass and Grade 6 choir.",
@@ -2830,20 +2854,20 @@
       "t": "Gli studenti partecipano agli Charlotte-Mecklenburg Scholastic Art Awards, ottenendo Gold, Silver e Honorable Mention."
     },
     {
-      "text": "Five Blumey finalists in 2025, five more in 2026 — and no win yet.",
-      "of": "21746aaa",
+      "text": "Five Blumey finalists in each of 2024, 2025 and 2026 — and no win in 2025 or 2026.",
+      "of": "7aede97c",
       "at": [
         "charlotte-catholic:theatre.headline"
       ],
-      "t": "Cinque finalisti ai Blumey nel 2025, altri cinque nel 2026 — e nessuna vittoria finora."
+      "t": "Cinque finalisti ai Blumey in ciascuno degli anni 2024, 2025 e 2026 — e nessuna vittoria nel 2025 o nel 2026."
     },
     {
-      "text": "Fiddler on the Roof placed a finalist in each of the five individual performance categories.",
-      "of": "45dc749e",
+      "text": "Each year’s musical placed a finalist in each of the five individual performance categories.",
+      "of": "279b2ada",
       "at": [
         "charlotte-catholic:theatre.subhead"
       ],
-      "t": "Fiddler on the Roof ha piazzato un finalista in ciascuna delle cinque categorie individuali di interpretazione."
+      "t": "Il musical di ogni anno ha piazzato un finalista in ciascuna delle cinque categorie individuali di interpretazione."
     },
     {
       "text": "The documented production season",
@@ -2854,10 +2878,26 @@
       "t": "La stagione di produzioni documentata"
     },
     {
+      "text": "2023–24",
+      "of": "58be07db",
+      "at": [
+        "charlotte-catholic:theatre.season[0].season"
+      ],
+      "t": "2023–24"
+    },
+    {
+      "text": "Phantom of the Opera — five Blumey finalists, one in each individual performance category",
+      "of": "3139db03",
+      "at": [
+        "charlotte-catholic:theatre.season[0].detail"
+      ],
+      "t": "Phantom of the Opera — cinque finalisti ai Blumey, uno in ogni categoria individuale di interpretazione"
+    },
+    {
       "text": "2024–25",
       "of": "96952863",
       "at": [
-        "charlotte-catholic:theatre.season[0].season"
+        "charlotte-catholic:theatre.season[1].season"
       ],
       "t": "2024–25"
     },
@@ -2865,7 +2905,7 @@
       "text": "Fiddler on the Roof — five Blumey finalists, one in each individual performance category",
       "of": "59143597",
       "at": [
-        "charlotte-catholic:theatre.season[0].detail"
+        "charlotte-catholic:theatre.season[1].detail"
       ],
       "t": "Fiddler on the Roof — cinque finalisti ai Blumey, uno in ciascuna categoria individuale di interpretazione"
     },
@@ -2873,7 +2913,7 @@
       "text": "2025–26",
       "of": "f54f7583",
       "at": [
-        "charlotte-catholic:theatre.season[1].season"
+        "charlotte-catholic:theatre.season[2].season"
       ],
       "t": "2025–26"
     },
@@ -2881,7 +2921,7 @@
       "text": "The Wizard of Oz — five Blumey finalists",
       "of": "6edcfdfe",
       "at": [
-        "charlotte-catholic:theatre.season[1].detail"
+        "charlotte-catholic:theatre.season[2].detail"
       ],
       "t": "The Wizard of Oz — cinque finalisti ai Blumey"
     },
@@ -2910,10 +2950,50 @@
       "t": "Registro dei Blumey Awards"
     },
     {
+      "text": "Finalist, Best Actor — as The Phantom",
+      "of": "2427a8c8",
+      "at": [
+        "charlotte-catholic:theatre.ledger[0].result"
+      ],
+      "t": "Finalista come Best Actor — nel ruolo di The Phantom"
+    },
+    {
+      "text": "Finalist, Best Actress — as Carlotta",
+      "of": "ff18e11e",
+      "at": [
+        "charlotte-catholic:theatre.ledger[1].result"
+      ],
+      "t": "Finalista come Best Actress — nel ruolo di Carlotta"
+    },
+    {
+      "text": "Finalist, Best Supporting Actor — as Firmin",
+      "of": "409d27da",
+      "at": [
+        "charlotte-catholic:theatre.ledger[2].result"
+      ],
+      "t": "Finalista come Best Supporting Actor — nel ruolo di Firmin"
+    },
+    {
+      "text": "Finalist, Best Supporting Actress — as Madame Giry",
+      "of": "0f05e689",
+      "at": [
+        "charlotte-catholic:theatre.ledger[3].result"
+      ],
+      "t": "Finalista come Best Supporting Actress — nel ruolo di Madame Giry"
+    },
+    {
+      "text": "Finalist, Best Featured Performer — as Joseph Buquet",
+      "of": "3572998c",
+      "at": [
+        "charlotte-catholic:theatre.ledger[4].result"
+      ],
+      "t": "Finalista come Best Featured Performer — nel ruolo di Joseph Buquet"
+    },
+    {
       "text": "Finalist, Best Actor — as Motel",
       "of": "18d8dbab",
       "at": [
-        "charlotte-catholic:theatre.ledger[0].result"
+        "charlotte-catholic:theatre.ledger[5].result"
       ],
       "t": "Finalista come Best Actor — nel ruolo di Motel"
     },
@@ -2921,7 +3001,7 @@
       "text": "Finalist, Best Actress — as Hodel",
       "of": "90f205ca",
       "at": [
-        "charlotte-catholic:theatre.ledger[1].result"
+        "charlotte-catholic:theatre.ledger[6].result"
       ],
       "t": "Finalista come Best Actress — nel ruolo di Hodel"
     },
@@ -2929,7 +3009,7 @@
       "text": "Finalist, Best Supporting Actor — as Perchik",
       "of": "d441ed8b",
       "at": [
-        "charlotte-catholic:theatre.ledger[2].result"
+        "charlotte-catholic:theatre.ledger[7].result"
       ],
       "t": "Finalista come Best Supporting Actor — nel ruolo di Perchik"
     },
@@ -2937,7 +3017,7 @@
       "text": "Finalist, Best Supporting Actress — as Tzeitel",
       "of": "b807953c",
       "at": [
-        "charlotte-catholic:theatre.ledger[3].result"
+        "charlotte-catholic:theatre.ledger[8].result"
       ],
       "t": "Finalista come Best Supporting Actress — nel ruolo di Tzeitel"
     },
@@ -2945,7 +3025,7 @@
       "text": "Finalist, Best Featured Performer — as Rabbi",
       "of": "b120c80b",
       "at": [
-        "charlotte-catholic:theatre.ledger[4].result"
+        "charlotte-catholic:theatre.ledger[9].result"
       ],
       "t": "Finalista come Best Featured Performer — nel ruolo di Rabbi"
     },
@@ -2953,7 +3033,7 @@
       "text": "Finalist, Best Actor — as Scarecrow",
       "of": "118c3ac5",
       "at": [
-        "charlotte-catholic:theatre.ledger[5].result"
+        "charlotte-catholic:theatre.ledger[10].result"
       ],
       "t": "Finalista come Best Actor — nel ruolo di Scarecrow"
     },
@@ -2961,7 +3041,7 @@
       "text": "Finalist, Best Actress — as Dorothy",
       "of": "15b1875d",
       "at": [
-        "charlotte-catholic:theatre.ledger[6].result"
+        "charlotte-catholic:theatre.ledger[11].result"
       ],
       "t": "Finalista come Best Actress — nel ruolo di Dorothy"
     },
@@ -2969,7 +3049,7 @@
       "text": "Finalist, Best Supporting Actor — as Uncle Henry / Guard",
       "of": "0f6c3a56",
       "at": [
-        "charlotte-catholic:theatre.ledger[7].result"
+        "charlotte-catholic:theatre.ledger[12].result"
       ],
       "t": "Finalista come Best Supporting Actor — nel ruolo di Uncle Henry / Guard"
     },
@@ -2977,7 +3057,7 @@
       "text": "Finalist, Best Supporting Actress — as Glinda",
       "of": "24b48308",
       "at": [
-        "charlotte-catholic:theatre.ledger[8].result"
+        "charlotte-catholic:theatre.ledger[13].result"
       ],
       "t": "Finalista come Best Supporting Actress — nel ruolo di Glinda"
     },
@@ -2985,17 +3065,17 @@
       "text": "Finalist, Best Featured Performer — as Toto Puppeteer",
       "of": "f14dfb53",
       "at": [
-        "charlotte-catholic:theatre.ledger[9].result"
+        "charlotte-catholic:theatre.ledger[14].result"
       ],
       "t": "Finalista come Best Featured Performer — nel ruolo di Toto Puppeteer"
     },
     {
-      "text": "CCHS has NOT won a Blumey in either year. That is verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here has come without wins: ten finalist places across two years. None of the 2026 five was a top-six nominee. One student was recognized in both years (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing. The two productions above are pieced together from Blumey records, so the real season may well be larger than the school lets a family see.",
-      "of": "774c21c6",
+      "text": "CCHS did not win a Blumey in 2025 or 2026. That is verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. The record is fifteen finalist places across three years. None of the 2026 five was a top-six nominee. Two students placed in two of those years. One was The Phantom in 2024 and Motel in 2025. The other was Hodel in 2025 and Dorothy in 2026. Note also that the school’s own performances calendar publishes nothing. The three productions above are pieced together from Blumey records, so the real season may well be larger than the school lets a family see.",
+      "of": "9f71a581",
       "at": [
         "charlotte-catholic:theatre.honestContext"
       ],
-      "t": "CCHS NON ha vinto un Blumey in nessuno dei due anni. È verificato sul comunicato dei vincitori 2026 di Blumenthal stessa, dove i cinque premi individuali di interpretazione sono andati a North Lincoln, Carmel Christian, Northwest School of the Arts e Weddington. Il riconoscimento qui è arrivato senza vittorie: dieci piazzamenti da finalista in due anni. Nessuno dei cinque del 2026 è stato candidato tra i primi sei. Una studentessa ha ottenuto un riconoscimento in entrambi gli anni (Hodel nel 2025, Dorothy nel 2026). Da notare anche che il calendario degli spettacoli della scuola stessa non pubblica nulla. Le due produzioni qui sopra sono ricostruite dai verbali dei Blumey, quindi la stagione reale potrebbe benissimo essere più ampia di quanto la scuola lasci vedere a una famiglia."
+      "t": "CCHS non ha vinto un Blumey nel 2025 o nel 2026. È verificato sul comunicato dei vincitori 2026 di Blumenthal stessa, dove i cinque premi individuali di interpretazione sono andati a North Lincoln, Carmel Christian, Northwest School of the Arts e Weddington. Il bilancio è di quindici piazzamenti da finalista in tre anni. Nessuno dei cinque del 2026 è stato candidato tra i primi sei. Due studenti si sono piazzati in due di quegli anni. Uno è stato The Phantom nel 2024 e Motel nel 2025. L'altra è stata Hodel nel 2025 e Dorothy nel 2026. Da notare anche che il calendario degli spettacoli della scuola stessa non pubblica nulla. Le tre produzioni qui sopra sono ricostruite dai verbali dei Blumey, quindi la stagione reale potrebbe benissimo essere più ampia di quanto la scuola lasci vedere a una famiglia."
     },
     {
       "text": "Twelve named ensembles, and an Honors rung on almost every one.",
@@ -3387,20 +3467,20 @@
       "t": "Dodici corsi artistici Honors, ciascuno con lo stesso punto di qualità +1 di un corso accademico Honors, quindi quattro anni nell'ala della musica non costano GPA a uno studente."
     },
     {
-      "text": "Recognition in both years",
-      "of": "a249cab0",
+      "text": "Recognition in three straight years",
+      "of": "ec0f6c99",
       "at": [
         "charlotte-catholic:verdict.holdsUp[2].label"
       ],
-      "t": "Riconoscimenti in entrambi gli anni"
+      "t": "Riconoscimenti per tre anni consecutivi"
     },
     {
-      "text": "Five Blumey finalists in 2025 — one in each individual performance category — and five more in 2026, from a different show.",
-      "of": "e74337dd",
+      "text": "Five Blumey finalists in each of 2024, 2025 and 2026, one in each individual performance category, from three different shows.",
+      "of": "f9583a07",
       "at": [
         "charlotte-catholic:verdict.holdsUp[2].text"
       ],
-      "t": "Cinque finalisti ai Blumey nel 2025 — uno in ogni categoria individuale di interpretazione — e altri cinque nel 2026, con uno spettacolo diverso."
+      "t": "Cinque finalisti ai Blumey in ciascuno degli anni 2024, 2025 e 2026, uno in ogni categoria individuale di interpretazione, con tre spettacoli diversi."
     },
     {
       "text": "The facility is purpose-built and recent",
@@ -3483,12 +3563,12 @@
       "t": "Gli ensemble Honors portano un punto di qualità. Esiste un limite al numero di corsi artistici Honors che contano ai fini del GPA ponderato?"
     },
     {
-      "text": "Five Blumey finalists in 2025 and no win — what does the theatre program think is the gap?",
-      "of": "12fdc4bf",
+      "text": "Five Blumey finalists a year from 2024 to 2026, and no win in 2025 or 2026 — what does the theatre program think is the gap?",
+      "of": "0446f00b",
       "at": [
         "charlotte-catholic:verdict.ask[4]"
       ],
-      "t": "Cinque finalisti ai Blumey nel 2025 e nessuna vittoria — che cosa considera il programma teatrale come l'elemento mancante?"
+      "t": "Cinque finalisti ai Blumey all'anno dal 2024 al 2026 e nessuna vittoria nel 2025 o nel 2026 — che cosa considera il programma teatrale come l'elemento mancante?"
     },
     {
       "text": "Is the darkroom still in regular use, or is film photography now taught mainly digitally?",
@@ -3956,8 +4036,8 @@
       "t": "Livello honors / select — Upper School"
     },
     {
-      "text": "Entry groups — Upper School",
-      "of": "8de1dda7",
+      "text": "Entry-level groups — Upper School",
+      "of": "ed91c9bc",
       "at": [
         "charlotte-country-day:music.tracks[1].label"
       ],
@@ -4212,12 +4292,12 @@
       "t": "Teatro convalidato esternamente al massimo livello"
     },
     {
-      "text": "two Blumey wins in 2022 including Best Direction, plus back-to-back NCTC state championships with The Crane Wife, in a festival drawing 100+ schools.",
-      "of": "e022b911",
+      "text": "two Blumey wins in 2022 including Best Direction, plus back-to-back NCTC state championships, the second with The Crane Wife, in a festival drawing 100+ schools.",
+      "of": "d21a9eda",
       "at": [
         "charlotte-country-day:verdict.holdsUp[3].text"
       ],
-      "t": "due vittorie Blumey nel 2022 incluso Best Direction, più due campionati statali NCTC consecutivi con The Crane Wife, in un festival che richiama 100+ scuole."
+      "t": "due vittorie Blumey nel 2022 incluso Best Direction, più due campionati statali NCTC consecutivi, il secondo con The Crane Wife, in un festival che richiama 100+ scuole."
     },
     {
       "text": "The strongest credential is about the teaching",
@@ -4653,6 +4733,14 @@
       "t": "Il registro Blumey — piazzamenti da finalista per anno"
     },
     {
+      "text": "Mean Girls: High School Version (listed by Blumenthal as Mean Girls School Edition)",
+      "of": "e95d9434",
+      "at": [
+        "cannon:theatre.ledger[0].show"
+      ],
+      "t": "Mean Girls: High School Version (indicato da Blumenthal come Mean Girls School Edition)"
+    },
+    {
       "text": "Five finalist placements: Best Actor (as Damian Hubbard) · Best Actress (as Cady Heron) · Best Supporting Actor (as Aaron Samuels) · Best Supporting Actress (as Janis Sarkisian) · Best Featured Performer (as Mrs. Norbury). None was a top-six nominee.",
       "of": "00197b80",
       "at": [
@@ -4997,20 +5085,20 @@
       "t": "L'asimmetria è la cosa da capire: il teatro porta una solida validazione di terze parti, mentre il riconoscimento esterno della musica non è documentato e la sua forza risiede invece nella produzione."
     },
     {
-      "text": "The arts are weighted like academics",
-      "of": "f9226dc4",
+      "text": "The arts carry academic course levels",
+      "of": "7a103b5c",
       "at": [
         "cannon:verdict.holdsUp[0].label"
       ],
-      "t": "Le arti sono pesate come le materie accademiche"
+      "t": "Le arti hanno livelli di corso accademici"
     },
     {
-      "text": "all 24 Upper School arts courses are Honors, AP or Advanced Topics — there is no regular-track arts course. On top of that, there is a two-year arts graduation requirement. That is a signal you can check about how the arts count on a GPA and transcript, not a slogan.",
-      "of": "e5f05584",
+      "text": "all 24 Upper School arts courses are Honors, AP or Advanced Topics — there is no regular-track arts course. On top of that, there is a two-year arts graduation requirement. That is a signal you can check about how the arts appear on a transcript, not a slogan. Only AP Studio Art and AT Art History add GPA weight; Honors adds none.",
+      "of": "6db50ccf",
       "at": [
         "cannon:verdict.holdsUp[0].text"
       ],
-      "t": "tutti e 24 i corsi artistici della Upper School sono Honors, AP o Advanced Topics — non c'è alcun corso artistico di percorso ordinario. In più, c'è un requisito di diploma di due anni di arte. È un segnale verificabile su come contano le arti nel GPA e sulla pagella, non uno slogan."
+      "t": "tutti e 24 i corsi artistici della Upper School sono Honors, AP o Advanced Topics — non c'è alcun corso artistico di percorso ordinario. In più, c'è un requisito di diploma di due anni di arte. È un segnale verificabile su come appaiono le arti sulla pagella, non uno slogan. Solo AP Studio Art e AT Art History aggiungono peso al GPA; Honors non ne aggiunge."
     },
     {
       "text": "Theatre has hard third-party validation",
@@ -5149,12 +5237,12 @@
       "t": "L'organizzazione artistica dei genitori si chiama ora \"Parents at Cannon Create\" o ancora CAFTA? Entrambi i nomi compaiono sul vostro sito."
     },
     {
-      "text": "What does the 7:30 a.m. Varsity commitment really look like across a week, and does it collide with athletics?",
-      "of": "26ddf6e6",
+      "text": "Varsity Chorus and Orchestra meet Monday, Wednesday and Friday before school. When does Varsity Band meet, and does any of it collide with athletics?",
+      "of": "d91fe59c",
       "at": [
         "cannon:verdict.ask[7]"
       ],
-      "t": "Come appare davvero l'impegno Varsity delle 7:30 a.m. nell'arco di una settimana, e si scontra con l'atletica?"
+      "t": "Varsity Chorus e Orchestra si incontrano lunedì, mercoledì e venerdì prima delle lezioni. Quando si incontra la Varsity Band, e qualcuno di questi impegni si scontra con l'atletica?"
     },
     {
       "text": "A JK–12 ladder with a worship-music spine: art integrated from junior kindergarten, sequential from grade 1, ensembles from Lower School.",
@@ -5493,12 +5581,12 @@
       "t": "Una studentessa nominata Finalist"
     },
     {
-      "text": "The ledger goes quiet after 2019 at the Blumeys. The school’s own theater page has no Blumey entry after 2019. Production titles are not published, so Curtains is the only show known by name. The Shakespeare finalist shows the program is still producing results.",
-      "of": "bd740e94",
+      "text": "No Blumey recognition is on record after 2019, though Covenant Day competed in 2022. The school’s own theater page has no Blumey entry after 2019. Production titles are not published, so Curtains is the only show known by name. The Shakespeare finalist shows the program is still producing results.",
+      "of": "225d4448",
       "at": [
         "covenant-day:theatre.honestContext"
       ],
-      "t": "Il registro si spegne dopo il 2019 ai Blumey. La pagina teatrale della scuola stessa non riporta alcuna voce Blumey successiva al 2019. I titoli delle produzioni non sono pubblicati, quindi Curtains è l'unico spettacolo noto per nome. La finalista shakespeariana mostra che il programma sta ancora producendo risultati."
+      "t": "Dopo il 2019 non risulta alcun riconoscimento Blumey, anche se Covenant Day ha partecipato nel 2022. La pagina teatrale della scuola stessa non riporta alcuna voce Blumey successiva al 2019. I titoli delle produzioni non sono pubblicati, quindi Curtains è l'unico spettacolo noto per nome. La finalista shakespeariana mostra che il programma sta ancora producendo risultati."
     },
     {
       "text": "Nine ensembles from Lower School up — and the distinctive rung is worship: credit-bearing Worship Leadership plus worship bands in both divisions.",
@@ -5781,12 +5869,12 @@
       "t": "Le fasce da $100–$1,000 della Covenant Arts Association finanziano e forniscono personale a tutte e tre le aree artistiche."
     },
     {
-      "text": "What was the last high school musical, and when did the program last enter the Blumeys? The public ledger stops in 2019.",
-      "of": "42245184",
+      "text": "What was the last high school musical? Have you entered the Blumeys since 2022? The last recognition on record is from 2019.",
+      "of": "0937d6ad",
       "at": [
         "covenant-day:verdict.ask[0]"
       ],
-      "t": "Qual è stato l'ultimo musical della high school, e quando il programma ha partecipato ai Blumey per l'ultima volta? Il registro pubblico si ferma al 2019."
+      "t": "Qual è stato l'ultimo musical della high school? Avete partecipato ai Blumey dopo il 2022? L'ultimo riconoscimento registrato è del 2019."
     },
     {
       "text": "Ensemble sizes: how many students are in Symphonic Band and HS Choir this year? No participation figure is published.",
@@ -5853,12 +5941,12 @@
       "t": "arte dall'early childhood"
     },
     {
-      "text": "Studio Art — the only arts AP",
-      "of": "055e9162",
+      "text": "Studio Art — the only arts AP (in the catalog; the 2026–27 profile does not list it)",
+      "of": "db046990",
       "at": [
         "davidson-day:ladder.stats[1].label"
       ],
-      "t": "Studio Art — l'unico AP artistico"
+      "t": "Studio Art — l'unico AP artistico (nel catalogo; il profilo 2026–27 non lo elenca)"
     },
     {
       "text": "credit-bearing performing ensembles",
@@ -5926,20 +6014,20 @@
       "t": "Se esista una band o un coro della Middle School, e se confluiscano da qualche parte, non è pubblicato"
     },
     {
-      "text": "Visual Arts: Photography I–III, Portfolio, Studio I, Studio II Honors, AP Studio Art",
-      "of": "f8b8fc8b",
+      "text": "Visual Arts: Photography I–III, Portfolio, Studio I, Studio II Honors, AP Studio Art (in the catalog; the 2026–27 profile does not list it)",
+      "of": "a0b24377",
       "at": [
         "davidson-day:ladder.divisions[2].items[0]"
       ],
-      "t": "Visual Arts: Photography I–III, Portfolio, Studio I, Studio II Honors, AP Studio Art"
+      "t": "Visual Arts: Photography I–III, Portfolio, Studio I, Studio II Honors, AP Studio Art (nel catalogo; il profilo 2026–27 non lo elenca)"
     },
     {
-      "text": "Music & Performing Arts: Performance Ensemble (theatre), Contemporary Ensemble, Modern Music, Film Studies & Production",
-      "of": "63ba1e96",
+      "text": "Music & Performing Arts: Performance Ensemble (theatre), Contemporary Ensemble, Modern Music (the 2026–27 profile marks it not offered this year), Film Studies & Production",
+      "of": "49dc8e31",
       "at": [
         "davidson-day:ladder.divisions[2].items[1]"
       ],
-      "t": "Music & Performing Arts: Performance Ensemble (teatro), Contemporary Ensemble, Modern Music, Film Studies & Production"
+      "t": "Music & Performing Arts: Performance Ensemble (teatro), Contemporary Ensemble, Modern Music (il profilo 2026–27 lo indica come non offerto quest'anno), Film Studies & Production"
     },
     {
       "text": "Studio II Honors carries a .50 GPA weighting and requires an A− in the prerequisite",
@@ -6039,12 +6127,12 @@
       "t": "Nessuna di queste voci compare in alcuna fonte: una serie di artisti in visita o di artista residente · un'organizzazione artistica dei genitori · un festival artistico o un calendario di gallery night · un docente d'arte nominato. Due insegnanti d'arte sono ritratti nel catalogo, ma nessuno dei due ha didascalia."
     },
     {
-      "text": "A legitimate, program-level Blumey record from a very small school — three whole-show nominations in 2023, five finalists in both 2025 and 2026.",
-      "of": "f4e12a38",
+      "text": "A legitimate, program-level Blumey record from a very small school — three whole-show nominations in 2023, five finalists in each of 2024, 2025 and 2026.",
+      "of": "c9f8aa11",
       "at": [
         "davidson-day:theatre.headline"
       ],
-      "t": "Un record Blumey legittimo e di livello programmatico da una scuola molto piccola — tre candidature per l'intero spettacolo nel 2023, cinque finalisti sia nel 2025 sia nel 2026."
+      "t": "Un record Blumey legittimo e di livello programmatico da una scuola molto piccola — tre candidature per l'intero spettacolo nel 2023, cinque finalisti in ciascuno degli anni 2024, 2025 e 2026."
     },
     {
       "text": "The Blumeys are Blumenthal Performing Arts’ Charlotte-region high-school musical-theater awards. Davidson Day’s external theatre identity runs entirely through them — no NCTC record exists.",
@@ -6063,6 +6151,14 @@
       "t": "Il ritmo della stagione — un musical della Upper School l'anno"
     },
     {
+      "text": "2025-26",
+      "of": "fe38e73d",
+      "at": [
+        "davidson-day:theatre.season[0].season"
+      ],
+      "t": "2025-26"
+    },
+    {
       "text": "Big Fish — the school’s 2026 Blumey entry, which produced five finalist placements.",
       "of": "c1585b03",
       "at": [
@@ -6079,12 +6175,12 @@
       "t": "Musical della Upper School"
     },
     {
-      "text": "Once Upon a One More Time, High School Edition (2024-25); Mean Girls (2022-23), the strongest competitive year. The 2023-24 title could not be found, and the school publishes no theatre season page.",
-      "of": "eb3c71d7",
+      "text": "Once Upon a One More Time, High School Edition (2024-25); Something Rotten! (2023-24); Mean Girls (2022-23), the strongest competitive year. The school publishes no theatre season page.",
+      "of": "2dd102bf",
       "at": [
         "davidson-day:theatre.season[1].detail"
       ],
-      "t": "Once Upon a One More Time, High School Edition (2024-25); Mean Girls (2022-23), l'anno competitivo più forte. Il titolo 2023-24 non ha potuto essere trovato, e la scuola non pubblica alcuna pagina della stagione teatrale."
+      "t": "Once Upon a One More Time, High School Edition (2024-25); Something Rotten! (2023-24); Mean Girls (2022-23), l'anno competitivo più forte. La scuola non pubblica alcuna pagina della stagione teatrale."
     },
     {
       "text": "No theatre director, musical director or drama teacher is named in any source, and the catalog does not link courses to teachers. The missing names stand out, because the school earned a Best Overall Direction nomination in 2023. Blumenthal credits that nomination to the school, not to a person. The Theatre Performance Ensemble is a select company. New students must audition, most class time is rehearsal, and there are after-school calls before performances. There is NO stagecraft or technical theatre course in the 2026-27 catalog. The nearest offering, Film Studies & Production, is video editing, not stage tech. Students clearly build large, multi-level scenery, and a Davidson Day student once won a scholarship for non-performing theater work. So backstage work exists in some form. Whether it happens through a class, a club or a crew is unpublished.",
@@ -6127,18 +6223,26 @@
       "t": "Cinque finalisti: Best Actor (nel ruolo di Prince Charming) · Best Actress (nel ruolo di Cinderella) · Best Supporting Actor (nel ruolo di Prince Erudite) · Best Supporting Actress (nel ruolo di Snow White) · Best Featured Performer (nel ruolo di Betany). Nessuna vittoria registrata."
     },
     {
-      "text": "The strongest year found: five nominations, three of them for the whole program. Those were Best Musical (Tier 2), Best Ensemble/Chorus and Best Overall Direction. The others were Best Actress (as Regina George) and Best Featured Performer (as Mrs. George).",
-      "of": "cf06e074",
+      "text": "Five finalists: Best Actor (as Nick Bottom) · Best Actress (as Bea Bottom) · Best Supporting Actor (as Nigel Bottom) · Best Supporting Actress (as Portia) · Best Featured Performer (as Minstrel). No nomination.",
+      "of": "d30f792a",
       "at": [
         "davidson-day:theatre.ledger[2].result"
       ],
-      "t": "L'anno più forte trovato: cinque candidature, tre delle quali per l'intero programma. Erano Best Musical (Tier 2), Best Ensemble/Chorus e Best Overall Direction. Le altre erano Best Actress (nel ruolo di Regina George) e Best Featured Performer (nel ruolo di Mrs. George)."
+      "t": "Cinque finalisti: Best Actor (nel ruolo di Nick Bottom) · Best Actress (nel ruolo di Bea Bottom) · Best Supporting Actor (nel ruolo di Nigel Bottom) · Best Supporting Actress (nel ruolo di Portia) · Best Featured Performer (nel ruolo di Minstrel). Nessuna candidatura."
+    },
+    {
+      "text": "The strongest year found: four nominations, three of them for the whole program. Those were Best Musical (Tier 2), Best Ensemble/Chorus and Best Overall Direction. The fourth was Best Featured Performer (as Mrs. George). It also had five individual finalists, including Best Actress (as Regina George).",
+      "of": "ac8e13f2",
+      "at": [
+        "davidson-day:theatre.ledger[3].result"
+      ],
+      "t": "L'anno più forte trovato: quattro candidature, tre delle quali per l'intero programma. Erano Best Musical (Tier 2), Best Ensemble/Chorus e Best Overall Direction. La quarta era Best Featured Performer (nel ruolo di Mrs. George). Ha avuto anche cinque finalisti individuali, tra cui Best Actress (nel ruolo di Regina George)."
     },
     {
       "text": "A student received the $5,000 Gordon Hay Scholarship. The scholarship goes to a Charlotte-area senior pursuing a NON-performing career in the performing arts. The award is well attested. But its year (the 4th annual Blumeys) is not confirmed on any Blumenthal page that could be checked.",
       "of": "de6f716c",
       "at": [
-        "davidson-day:theatre.ledger[3].result"
+        "davidson-day:theatre.ledger[4].result"
       ],
       "t": "Uno studente ha ricevuto la Gordon Hay Scholarship da $5,000. La borsa va a uno studente dell'ultimo anno dell'area di Charlotte che intraprende una carriera NON interpretativa nelle arti performative. Il premio è ben attestato. Ma il suo anno (i 4° Blumeys annuali) non è confermato su alcuna pagina Blumenthal che sia stato possibile controllare."
     },
@@ -6191,12 +6295,12 @@
       "t": "In aula — nessun obbligo di esecuzione"
     },
     {
-      "text": "Contemporary Ensemble is described as the school’s \"very own School of Rock\": pop and rock with a dash of jazz, blues and funk. The ensemble is open to all levels, all instruments and vocalists, and guitars, bass, keyboards and drums are provided in the classroom. Members must perform publicly at least once per quarter. Modern Music covers music history and production in GarageBand, with no performance requirement. No concert band, symphonic band, marching band, orchestra, jazz band, chorus or vocal ensemble appears as a named Upper School course in the 2026-27 catalog. No band, choral or music-department director is named anywhere.",
-      "of": "b119c053",
+      "text": "Contemporary Ensemble is described as the school’s \"very own School of Rock\": pop and rock with a dash of jazz, blues and funk. The ensemble is open to all levels, all instruments and vocalists, and guitars, bass, keyboards and drums are provided in the classroom. Members must perform publicly at least once per quarter. The 2026–27 profile marks Modern Music not offered this year. Modern Music covers music history and production in GarageBand, with no performance requirement. No concert band, symphonic band, marching band, orchestra, jazz band, chorus or vocal ensemble appears as a named Upper School course in the 2026-27 catalog. No band, choral or music-department director is named anywhere.",
+      "of": "0310057a",
       "at": [
         "davidson-day:music.boardNote"
       ],
-      "t": "Il Contemporary Ensemble è descritto come la \"very own School of Rock\" della scuola: pop e rock con una spolverata di jazz, blues e funk. L'ensemble è aperto a ogni livello, a tutti gli strumenti e ai cantanti, e chitarre, basso, tastiere e batteria sono forniti in aula. I membri devono esibirsi in pubblico almeno una volta a trimestre. Modern Music copre la storia della musica e la produzione in GarageBand, senza obbligo di esecuzione. Nessuna concert band, symphonic band, marching band, orchestra, jazz band, coro o vocal ensemble compare come corso denominato della Upper School nel catalogo 2026-27. Nessun direttore di band, corale o del dipartimento musicale è nominato da nessuna parte."
+      "t": "Il Contemporary Ensemble è descritto come la \"very own School of Rock\" della scuola: pop e rock con una spolverata di jazz, blues e funk. L'ensemble è aperto a ogni livello, a tutti gli strumenti e ai cantanti, e chitarre, basso, tastiere e batteria sono forniti in aula. I membri devono esibirsi in pubblico almeno una volta a trimestre. Il profilo 2026–27 indica Modern Music come non offerto quest'anno. Modern Music copre la storia della musica e la produzione in GarageBand, senza obbligo di esecuzione. Nessuna concert band, symphonic band, marching band, orchestra, jazz band, coro o vocal ensemble compare come corso denominato della Upper School nel catalogo 2026-27. Nessun direttore di band, corale o del dipartimento musicale è nominato da nessuna parte."
     },
     {
       "text": "The honors ladder — where it stops",
@@ -6311,12 +6415,12 @@
       "t": "non menzionata da nessuna parte — presumere che non ci sia salvo diversa indicazione della scuola"
     },
     {
-      "text": "AP Studio Art requires departmental approval. Portfolio runs as an alternate stepping-stone into AP, and Photography I → II → III is a parallel three-year track ending in a personal website",
-      "of": "c8fb6a60",
+      "text": "AP Studio Art requires departmental approval. It is in the catalog. The 2026–27 profile does not list it. Portfolio runs as an alternate stepping-stone into AP, and Photography I → II → III is a parallel three-year track ending in a personal website",
+      "of": "9cf506bb",
       "at": [
         "davidson-day:visual.pathNote"
       ],
-      "t": "AP Studio Art richiede l'approvazione del dipartimento. Portfolio funziona come trampolino alternativo verso l'AP, e Photography I → II → III è un binario parallelo triennale che si conclude con un sito web personale"
+      "t": "AP Studio Art richiede l'approvazione del dipartimento. È nel catalogo. Il profilo 2026–27 non lo elenca. Portfolio funziona come trampolino alternativo verso l'AP, e Photography I → II → III è un binario parallelo triennale che si conclude con un sito web personale"
     },
     {
       "text": "Course-end",
@@ -6431,12 +6535,12 @@
       "t": "Il record Blumey è di livello programmatico, non solo individui fortunati"
     },
     {
-      "text": "2023 Mean Girls drew Best Musical, Best Ensemble/Chorus and Best Overall Direction nominations. Once Upon a One More Time had five finalists in 2025. 2026 Big Fish produced five more: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer.",
-      "of": "c45b92f1",
+      "text": "2023 Mean Girls drew Best Musical, Best Ensemble/Chorus and Best Overall Direction nominations. Something Rotten! had five finalists in 2024. Once Upon a One More Time had five finalists in 2025. 2026 Big Fish produced five more: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer.",
+      "of": "ec072dc1",
       "at": [
         "davidson-day:verdict.holdsUp[2].text"
       ],
-      "t": "Mean Girls del 2023 ha ottenuto candidature a Best Musical, Best Ensemble/Chorus e Best Overall Direction. Once Upon a One More Time ha avuto cinque finalisti nel 2025. Big Fish del 2026 ne ha prodotti altri cinque: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer."
+      "t": "Mean Girls del 2023 ha ottenuto candidature a Best Musical, Best Ensemble/Chorus e Best Overall Direction. Something Rotten! ha avuto cinque finalisti nel 2024. Once Upon a One More Time ha avuto cinque finalisti nel 2025. Big Fish del 2026 ne ha prodotti altri cinque: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer."
     },
     {
       "text": "A complete visual-arts ladder terminating in AP",
@@ -6447,12 +6551,12 @@
       "t": "Una scala di arti visive completa che culmina nell'AP"
     },
     {
-      "text": "Photography I–III alongside Studio I → Studio II Honors → AP Studio Art is a four-to-five-year runway, with Portfolio as a second, more self-directed route in.",
-      "of": "5031b1c4",
+      "text": "Photography I–III alongside Studio I → Studio II Honors → AP Studio Art is a four-to-five-year runway, with Portfolio as a second, more self-directed route in. AP Studio Art is in the catalog; the 2026–27 profile does not list it.",
+      "of": "7d5fa16b",
       "at": [
         "davidson-day:verdict.holdsUp[3].text"
       ],
-      "t": "Photography I–III accanto a Studio I → Studio II Honors → AP Studio Art è una rampa da quattro a cinque anni, con Portfolio come seconda via d'accesso, più autodiretta."
+      "t": "Photography I–III accanto a Studio I → Studio II Honors → AP Studio Art è una rampa da quattro a cinque anni, con Portfolio come seconda via d'accesso, più autodiretta. AP Studio Art è nel catalogo; il profilo 2026–27 non lo elenca."
     },
     {
       "text": "Media breadth beyond the traditional arts",
@@ -6463,12 +6567,12 @@
       "t": "Ampiezza mediale oltre le arti tradizionali"
     },
     {
-      "text": "Film Studies & Production and Modern Music (GarageBand composition, soundtrack building), plus Photography III’s personal-website requirement, give a media-leaning student portfolio-visible output with no performance requirement.",
-      "of": "aba5b860",
+      "text": "Film Studies & Production and Modern Music (GarageBand composition, soundtrack building) let a student build media work without performing. So does Photography III, where students make a personal website. The 2026–27 profile marks Modern Music not offered this year.",
+      "of": "0961f94b",
       "at": [
         "davidson-day:verdict.holdsUp[4].text"
       ],
-      "t": "Film Studies & Production e Modern Music (composizione in GarageBand, costruzione di colonne sonore), più il requisito del sito web personale di Photography III, danno a uno studente orientato ai media un risultato visibile in portfolio senza obbligo di esecuzione."
+      "t": "Film Studies & Production e Modern Music (composizione in GarageBand, costruzione di colonne sonore) permettono a uno studente di realizzare lavori multimediali senza esibirsi. Lo stesso vale per Photography III, in cui gli studenti creano un sito web personale. Il profilo 2026–27 indica Modern Music come non offerto quest'anno."
     },
     {
       "text": "The requirements are arts-friendly at the margins",
@@ -6543,12 +6647,20 @@
       "t": "Esiste una band o un coro della Middle School, e alimentano qualcosa nella Upper School?"
     },
     {
-      "text": "A K–12 arts program — integrated music and art for every K–4 student, becoming a sequential, elective-driven track from grade 5 up.",
-      "of": "97212600",
+      "text": "Are AP Studio Art and Modern Music running this year?",
+      "of": "b2ce5eb7",
+      "at": [
+        "davidson-day:verdict.ask[7]"
+      ],
+      "t": "AP Studio Art e Modern Music sono attivati quest'anno?"
+    },
+    {
+      "text": "A K–12 arts program — integrated music and art in the early grades, becoming a more elective-driven track from grade 5 up.",
+      "of": "91aff7f6",
       "at": [
         "carmel-christian:ladder.headline"
       ],
-      "t": "Un programma artistico K–12 — musica e arte integrate per ogni studente K–4, che diventa dalla 5ª classe in su un percorso sequenziale guidato dalle materie opzionali."
+      "t": "Un programma artistico K–12 — musica e arte integrate nei primi anni, che diventa dalla 5ª classe in su un percorso più guidato dalle materie opzionali."
     },
     {
       "text": "Overseen by Arts Director Christina McCorkle, and headlined in 2026 by a Blumey Best Actress win that advanced to the national Jimmy Awards.",
@@ -6559,12 +6671,12 @@
       "t": "Supervisionato dalla Arts Director Christina McCorkle, e reso protagonista nel 2026 da una vittoria come Blumey Best Actress che è avanzata ai Jimmy Awards nazionali."
     },
     {
-      "text": "arts program, integrated K–4",
-      "of": "38b25f94",
+      "text": "arts program, integrated in the early grades",
+      "of": "dbc25833",
       "at": [
         "carmel-christian:ladder.stats[0].label"
       ],
-      "t": "programma artistico, integrato K–4"
+      "t": "programma artistico, integrato nei primi anni"
     },
     {
       "text": "named ensembles, including the auditioned Ignite Band",
@@ -6599,12 +6711,12 @@
       "t": "K–5"
     },
     {
-      "text": "Every K–4 student takes both music and art classes",
-      "of": "3689145f",
+      "text": "The arts page says every K–4 student takes music and art; the 2026–27 elementary guide lists music for every grade through 5",
+      "of": "6e9a6a21",
       "at": [
         "carmel-christian:ladder.divisions[0].items[0]"
       ],
-      "t": "Ogni studente K–4 frequenta sia le lezioni di musica sia quelle di arte"
+      "t": "La pagina delle arti dice che ogni studente K–4 segue musica e arte; la guida 2026–27 della scuola elementare elenca musica per ogni classe fino alla 5ª"
     },
     {
       "text": "At grade 5 visual art continues and students may join choir / creative arts",
@@ -6663,28 +6775,36 @@
       "t": "Conferenza Christians in Theatre Arts (CITA)"
     },
     {
-      "text": "Choir · Symphonic Band · Ignite Band (HS Praise Band, audition-based)",
-      "of": "e7f845fc",
+      "text": "Symphonic Band · Ignite Band (HS Praise Band, audition-based)",
+      "of": "ae370af2",
       "at": [
         "carmel-christian:ladder.divisions[2].items[0]"
       ],
-      "t": "Coro · Symphonic Band · Ignite Band (HS Praise Band, su audizione)"
+      "t": "Symphonic Band · Ignite Band (HS Praise Band, su audizione)"
     },
     {
-      "text": "Theatre plus Technical Theater and Design",
-      "of": "d55eadc7",
+      "text": "Theatre",
+      "of": "25e3c5ec",
       "at": [
         "carmel-christian:ladder.divisions[2].items[1]"
       ],
-      "t": "Teatro più Technical Theater and Design"
+      "t": "Teatro"
     },
     {
-      "text": "Visual Arts · Digital Photography · Yearbook · Creative Writing · Journalism",
-      "of": "13fbd309",
+      "text": "Visual Arts · Digital Photography · Yearbook",
+      "of": "42582eda",
       "at": [
         "carmel-christian:ladder.divisions[2].items[2]"
       ],
-      "t": "Arti visive · Digital Photography · Yearbook · Creative Writing · Journalism"
+      "t": "Arti visive · Digital Photography · Yearbook"
+    },
+    {
+      "text": "On the arts page but not in the 2026–27 course guide: Choir, Technical Theater and Design, Creative Writing and Journalism",
+      "of": "031ea7a1",
+      "at": [
+        "carmel-christian:ladder.divisions[2].items[3]"
+      ],
+      "t": "Sulla pagina delle arti ma non nella guida ai corsi 2026–27: Coro, Technical Theater and Design, Creative Writing e Journalism"
     },
     {
       "text": "Christians in Theatre Arts (CITA)",
@@ -6816,28 +6936,44 @@
       "t": "Cinque finalisti, nessuna vittoria: Best Actor (come Dmitry) · Best Actress (come Lily) · Best Supporting Actor (come Vlad) · Best Supporting Actress (come Dowager Empress) · Best Featured Performer (come Ballet Lead). Le interpretazioni di Vlad e Ballet Lead hanno ottenuto anche candidature tra i primi sei."
     },
     {
+      "text": "Three finalists: Best Supporting Actor (as George Banks) · Best Supporting Actress (as Winifred Banks) · Best Featured Performer (as Miss Andrew).",
+      "of": "cc1c7c41",
+      "at": [
+        "carmel-christian:theatre.ledger[3].result"
+      ],
+      "t": "Tre finalisti: Best Supporting Actor (nel ruolo di George Banks) · Best Supporting Actress (nel ruolo di Winifred Banks) · Best Featured Performer (nel ruolo di Miss Andrew)."
+    },
+    {
+      "text": "Earlier (year not published)",
+      "of": "aca49800",
+      "at": [
+        "carmel-christian:theatre.ledger[4].year"
+      ],
+      "t": "In precedenza (anno non pubblicato)"
+    },
+    {
       "text": "Two nominations per the school’s undated news page: Best Actress and Best Actor. Attributed by the school to \"Singin' in the Rain,\" an earlier production than Anastasia; the exact year is not published.",
       "of": "f171a3f9",
       "at": [
-        "carmel-christian:theatre.ledger[3].result"
+        "carmel-christian:theatre.ledger[4].result"
       ],
       "t": "Due candidature secondo la pagina di notizie non datata della scuola: Best Actress e Best Actor. Attribuite dalla scuola a \"Singin' in the Rain,\" una produzione precedente ad Anastasia; l’anno esatto non è pubblicato."
     },
     {
-      "text": "One student placed in three straight years. They were a finalist as Lily in 2024 and as Laurey Williams in 2025. In 2026 they won Best Actress for Footloose and advanced to the national Jimmy Awards. The 2024 nominations belong to Anastasia, not to \"Singin' in the Rain\". The school’s undated news page ties a separate, earlier pair of nominations to that production.",
-      "of": "65906468",
+      "text": "Two students placed in three straight years: one 2023–25, one 2024–26. The first was a finalist as George Banks, Dmitry and Curly McLain. The second was a finalist as Lily in 2024 and as Laurey Williams in 2025. In 2026 that student won Best Actress for Footloose and advanced to the national Jimmy Awards. The 2024 nominations belong to Anastasia, not to \"Singin' in the Rain\". The school’s undated news page ties a separate, earlier pair of nominations to that production.",
+      "of": "dde352f0",
       "at": [
         "carmel-christian:theatre.honestContext"
       ],
-      "t": "Una studentessa si è piazzata per tre anni di fila. È stata finalista come Lily nel 2024 e come Laurey Williams nel 2025. Nel 2026 ha vinto Best Actress per Footloose ed è avanzata ai Jimmy Awards nazionali. Le candidature 2024 appartengono ad Anastasia, non a \"Singin' in the Rain\". La pagina di notizie non datata della scuola collega una coppia separata e precedente di candidature a quella produzione."
+      "t": "Due studenti si sono piazzati per tre anni di fila: uno nel 2023–25, una nel 2024–26. Il primo è stato finalista come George Banks, Dmitry e Curly McLain. La seconda è stata finalista come Lily nel 2024 e come Laurey Williams nel 2025. Nel 2026 la stessa studentessa ha vinto Best Actress per Footloose ed è avanzata ai Jimmy Awards nazionali. Le candidature 2024 appartengono ad Anastasia, non a \"Singin' in the Rain\". La pagina di notizie non datata della scuola collega una coppia separata e precedente di candidature a quella produzione."
     },
     {
-      "text": "Three named ensembles across the divisions — Symphonic Band, Choir and the audition-based Ignite Band praise team.",
-      "of": "594b5b4b",
+      "text": "Three ensembles named on the arts pages — Symphonic Band, Choir and the audition-based Ignite Band praise team.",
+      "of": "8e17d8d5",
       "at": [
         "carmel-christian:music.headline"
       ],
-      "t": "Tre ensemble nominati tra i cicli — Symphonic Band, Choir e la Ignite Band su audizione, il gruppo di lode."
+      "t": "Tre ensemble nominati sulle pagine delle arti — Symphonic Band, Choir e la Ignite Band su audizione, il gruppo di lode."
     },
     {
       "text": "The ensemble slate is band- and choir-centered; no orchestra, a cappella group or music honor society is published.",
@@ -6856,12 +6992,12 @@
       "t": "Culto della Middle School"
     },
     {
-      "text": "Ignite Band is the High School praise team. The band is audition-based: a video submission followed by an in-person round by invitation. No orchestra, a cappella group or Tri-M / music honor society is published.",
-      "of": "35b14ff2",
+      "text": "The arts page lists a High School Choir; the 2026–27 Course Description Guide does not. Ignite Band is the High School praise team. The band is audition-based: a video submission followed by an in-person round by invitation. No orchestra, a cappella group or Tri-M / music honor society is published.",
+      "of": "ef0f0816",
       "at": [
         "carmel-christian:music.boardNote"
       ],
-      "t": "La Ignite Band è il gruppo di lode della High School. La band è su audizione: un invio video seguito da un turno di persona su invito. Non sono pubblicati orchestra, gruppo a cappella o Tri-M / società onoraria musicale."
+      "t": "La pagina delle arti elenca un High School Choir; la Course Description Guide 2026–27 no. La Ignite Band è il gruppo di lode della High School. La band è su audizione: un invio video seguito da un turno di persona su invito. Non sono pubblicati orchestra, gruppo a cappella o Tri-M / società onoraria musicale."
     },
     {
       "text": "The honors ladder — what is published",
@@ -6873,12 +7009,12 @@
       "t": "La scala honors — cosa è pubblicato"
     },
     {
-      "text": "choir runs from grade 5 and band from Middle School, both through High School, with Christmas and Spring Concerts on the Middle School calendar.",
-      "of": "5bdeb6bf",
+      "text": "choir runs from grade 5 and band from Middle School, with Christmas and Spring Concerts on the Middle School calendar. The arts page carries both through High School. The 2026–27 course guide lists band there, but no choir.",
+      "of": "8fda8037",
       "at": [
         "carmel-christian:music.ladder[0].text"
       ],
-      "t": "il coro parte dalla 5ª classe e la banda dalla Middle School, entrambi fino alla High School, con concerti di Natale e primavera nel calendario della Middle School."
+      "t": "il coro parte dalla 5ª classe e la banda dalla Middle School, con concerti di Natale e primavera nel calendario della Middle School. La pagina delle arti li porta entrambi fino alla High School. Per la High School, la guida ai corsi 2026–27 elenca la banda, ma nessun coro."
     },
     {
       "text": "Ignite Band (HS Praise Band) holds an audition — a video round followed by an in-person round by invitation.",
@@ -6905,12 +7041,12 @@
       "t": "Non sono pubblicati società onoraria musicale (es. Tri-M) né conteggi per anno di selezioni o valutazioni superior. Il quadro delle onorificenze oltre l’evento Honor Band della Middle School non è documentato."
     },
     {
-      "text": "A studio track that widens into media and publications in High School — visual arts, digital photography, yearbook, creative writing and journalism.",
-      "of": "04dd2270",
+      "text": "A studio track that widens in High School to digital photography and yearbook. The arts page also names creative writing and journalism, which the 2026–27 course guide does not list.",
+      "of": "1420e354",
       "at": [
         "carmel-christian:visual.headline"
       ],
-      "t": "Un percorso di studio che si allarga a media e pubblicazioni alla High School — arti visive, fotografia digitale, yearbook, scrittura creativa e giornalismo."
+      "t": "Un percorso di studio che si allarga alla High School a fotografia digitale e yearbook. La pagina delle arti nomina anche scrittura creativa e giornalismo, che la guida ai corsi 2026–27 non elenca."
     },
     {
       "text": "The arts page names no leveled studio sequence, but the Course Offerings guide does: a path from Art I/II up to AP 2-D Art & Design.",
@@ -6954,13 +7090,13 @@
       "t": "progettazione di pubblicazioni"
     },
     {
-      "text": "a High School arts elective",
-      "of": "a9b384c1",
+      "text": "on the arts page, not in the 2026–27 course guide",
+      "of": "20c08f46",
       "at": [
         "carmel-christian:visual.media[3].detail",
         "carmel-christian:visual.media[4].detail"
       ],
-      "t": "un corso opzionale artistico della High School"
+      "t": "sulla pagina delle arti, non nella guida ai corsi 2026–27"
     },
     {
       "text": "This sequence comes from the Course Offerings guide, not the arts page — the two disagree, and the arts page names no leveled sequence at all. Graphic design as a separate course is not published.",
@@ -7011,12 +7147,12 @@
       "t": "Una vittoria Blumey verificata — non solo finalisti"
     },
     {
-      "text": "a student took Best Actress for \"Footloose\" at the 2026 Blumey Awards, as WFAE reported. They went on to the national Jimmy Awards. It was an outright win, after finalist places in 2024 and 2025.",
-      "of": "b83e1427",
+      "text": "a student took Best Actress for \"Footloose\" at the 2026 Blumey Awards, as WFAE reported. They went on to the national Jimmy Awards. It was an outright win, after that student’s finalist places in 2024 and 2025.",
+      "of": "96be9d4d",
       "at": [
         "carmel-christian:verdict.holdsUp[0].text"
       ],
-      "t": "una studentessa ha vinto come Best Actress per \"Footloose\" ai Blumey Awards 2026, come riportato da WFAE. È poi avanzata ai Jimmy Awards nazionali. È stata una vittoria netta, dopo piazzamenti da finalista nel 2024 e nel 2025."
+      "t": "una studentessa ha vinto come Best Actress per \"Footloose\" ai Blumey Awards 2026, come riportato da WFAE. È poi avanzata ai Jimmy Awards nazionali. È stata una vittoria netta, dopo i piazzamenti da finalista della stessa studentessa nel 2024 e nel 2025."
     },
     {
       "text": "The record around the win",
@@ -7027,12 +7163,12 @@
       "t": "I risultati attorno alla vittoria"
     },
     {
-      "text": "the 2026 \"Footloose\" run placed in six categories (actress, actor, both supporting, featured performer and choreography). \"Oklahoma!\" had five finalists in 2025. \"Anastasia\" had five in 2024, two of them top-six nominees.",
-      "of": "62b994ff",
+      "text": "the 2026 \"Footloose\" run placed in six categories (actress, actor, both supporting, featured performer and choreography). \"Oklahoma!\" had five finalists in 2025. \"Anastasia\" had five in 2024, two of them top-six nominees. \"Mary Poppins\" had three in 2023.",
+      "of": "7a9c6fca",
       "at": [
         "carmel-christian:verdict.holdsUp[1].text"
       ],
-      "t": "la corsa 2026 di \"Footloose\" si è piazzata in sei categorie (attrice, attore, entrambi i non protagonisti, featured performer e coreografia). \"Oklahoma!\" ha avuto cinque finalisti nel 2025. \"Anastasia\" ne ha avuti cinque nel 2024, due dei quali candidati tra i primi sei."
+      "t": "la corsa 2026 di \"Footloose\" si è piazzata in sei categorie (attrice, attore, entrambi i non protagonisti, featured performer e coreografia). \"Oklahoma!\" ha avuto cinque finalisti nel 2025. \"Anastasia\" ne ha avuti cinque nel 2024, due dei quali candidati tra i primi sei. \"Mary Poppins\" ne ha avuti tre nel 2023."
     },
     {
       "text": "A studio path that reaches AP",
@@ -7044,12 +7180,12 @@
       "t": "Un percorso di studio che arriva all’AP"
     },
     {
-      "text": "the Course Offerings guide runs Art I/II → Honors Art III/IV → AP 2-D Art & Design, plus a media-and-publications cluster (digital photography, yearbook, creative writing, journalism) in High School.",
-      "of": "5bdf3ffc",
+      "text": "the Course Offerings guide runs Art I/II → Honors Art III/IV → AP 2-D Art & Design, plus digital photography and yearbook in High School. The arts page adds creative writing and journalism, which the guide does not list.",
+      "of": "ee4f34d2",
       "at": [
         "carmel-christian:verdict.holdsUp[2].text"
       ],
-      "t": "la guida Course Offerings propone Art I/II → Honors Art III/IV → AP 2-D Art & Design, più un gruppo di media e pubblicazioni (fotografia digitale, yearbook, scrittura creativa, giornalismo) alla High School."
+      "t": "la guida Course Offerings propone Art I/II → Honors Art III/IV → AP 2-D Art & Design, più fotografia digitale e yearbook alla High School. La pagina delle arti aggiunge scrittura creativa e giornalismo, che la guida non elenca."
     },
     {
       "text": "A faith-based theatre circuit",
@@ -7084,18 +7220,26 @@
       "t": "Chi dirige il musical della Upper School, e chi ha curato il \"Footloose\" vincitore del Blumey 2026? Non è pubblicato alcun regista."
     },
     {
-      "text": "The Course Offerings guide lists Honors Art III/IV, Honors Acting Studio and AP 2-D Art & Design, but the arts page names none of them. Which of these actually runs each year?",
-      "of": "c5e2aed2",
+      "text": "The Course Offerings guide lists Honors Art III/IV, Honors Acting Studio and AP 2-D Art & Design, but the arts page names none of them. The arts page lists Choir, Technical Theater, Creative Writing and Journalism, which the guide does not. Which of these actually run each year?",
+      "of": "ee35a9c7",
       "at": [
         "carmel-christian:verdict.ask[2]"
       ],
-      "t": "La guida Course Offerings elenca Honors Art III/IV, Honors Acting Studio e AP 2-D Art & Design, ma la pagina delle arti non ne nomina nessuno. Quali di questi vengono effettivamente attivati ogni anno?"
+      "t": "La guida Course Offerings elenca Honors Art III/IV, Honors Acting Studio e AP 2-D Art & Design, ma la pagina delle arti non ne nomina nessuno. La pagina delle arti elenca Choir, Technical Theater, Creative Writing e Journalism, che la guida non riporta. Quali di questi vengono effettivamente attivati ogni anno?"
+    },
+    {
+      "text": "Does every 5th grader take music?",
+      "of": "c795a96a",
+      "at": [
+        "carmel-christian:verdict.ask[3]"
+      ],
+      "t": "Tutti gli alunni di 5ª classe seguono musica?"
     },
     {
       "text": "Is there any music beyond band, choir and the Ignite praise teams — an orchestra, a strings program, or an a cappella group?",
       "of": "6279455d",
       "at": [
-        "carmel-christian:verdict.ask[3]"
+        "carmel-christian:verdict.ask[4]"
       ],
       "t": "C’è musica oltre a banda, coro e i gruppi di lode Ignite — un’orchestra, un programma di archi o un gruppo a cappella?"
     },
@@ -7103,17 +7247,17 @@
       "text": "What happens at the Middle School \"Honor Band\" event, and do students audition into any all-state or regional honors ensemble from there?",
       "of": "ec980e55",
       "at": [
-        "carmel-christian:verdict.ask[4]"
+        "carmel-christian:verdict.ask[5]"
       ],
       "t": "Cosa succede all’evento \"Honor Band\" della Middle School, e da lì gli studenti sostengono audizioni per qualche ensemble onorario all-state o regionale?"
     },
     {
-      "text": "Was the \"Singin' in the Rain\" Blumey pair a separate year from the 2024 \"Anastasia\" nominations — and what year was it?",
-      "of": "ef6f25b5",
+      "text": "What year was the \"Singin' in the Rain\" Blumey pair? The 2023 show was \"Mary Poppins\" and the 2024 show \"Anastasia\".",
+      "of": "def3db5a",
       "at": [
-        "carmel-christian:verdict.ask[5]"
+        "carmel-christian:verdict.ask[6]"
       ],
-      "t": "La coppia Blumey di \"Singin' in the Rain\" è stata di un anno diverso dalle candidature di \"Anastasia\" del 2024 — e di che anno si è trattato?"
+      "t": "Di che anno è stata la coppia Blumey di \"Singin' in the Rain\"? Lo spettacolo del 2023 era \"Mary Poppins\" e quello del 2024 \"Anastasia\"."
     },
     {
       "text": "A TK–12 arts ladder — visual art and music for every young student, widening into band, choir, theatre, dance and a leveled studio track in the upper grades.",
@@ -7950,12 +8094,12 @@
       "t": "Due grandi spettacoli"
     },
     {
-      "text": "The school stages two major productions each year, one of which is the spring musical. Specific titles and dates are not published.",
-      "of": "5d1d381a",
+      "text": "The school stages two major productions each year, one of which is the spring musical. The school does not publish titles or dates. The Blumey ledger on this card names three recent shows.",
+      "of": "6a356a7b",
       "at": [
         "gaston-day:theatre.season[0].detail"
       ],
-      "t": "La scuola mette in scena due grandi produzioni ogni anno, una delle quali è il musical primaverile. Titoli e date specifici non sono pubblicati."
+      "t": "La scuola mette in scena due grandi produzioni ogni anno, una delle quali è il musical primaverile. La scuola non pubblica titoli né date. Il registro Blumey in questa scheda nomina tre spettacoli recenti."
     },
     {
       "text": "The spring musical is the named anchor of the production calendar.",
@@ -8030,12 +8174,44 @@
       "t": "Il Pamela Kimbrell Warlick Visual & Performing Arts Center ha 550 posti e dispone di impianti moderni di luci e audio oltre a uno studio di danza professionale — una sala considerevole per una scuola di 510 studenti."
     },
     {
-      "text": "The school publishes no production titles, performance dates, cast sizes or theatre competition results. It does not say whether it has an International Thespian Society troupe. So the shape of the program is well documented, but its record is not. This card deliberately carries no awards ledger rather than an empty one.",
-      "of": "a3700cea",
+      "text": "The Blumey ledger — 2024 to 2026",
+      "of": "e75c166c",
+      "at": [
+        "gaston-day:theatre.ledgerTitle"
+      ],
+      "t": "Il registro Blumey — dal 2024 al 2026"
+    },
+    {
+      "text": "Five finalists: Best Actor (as Professor Bhaer) · Best Actress (as Jo March) · Best Supporting Actor (as John Brooke) · Best Supporting Actress (as Meg) · Best Featured Performer (as Aunt March/Mrs. Kirk). None was a top-six nominee.",
+      "of": "49dcdaf2",
+      "at": [
+        "gaston-day:theatre.ledger[0].result"
+      ],
+      "t": "Cinque finalisti: Best Actor (nel ruolo di Professor Bhaer) · Best Actress (nel ruolo di Jo March) · Best Supporting Actor (nel ruolo di John Brooke) · Best Supporting Actress (nel ruolo di Meg) · Best Featured Performer (nel ruolo di Aunt March/Mrs. Kirk). Nessuno è stato candidato tra i primi sei."
+    },
+    {
+      "text": "Nominated for Best Direction. Five finalists: Best Actor (as Minstrel) · Best Actress (as Princess Winnifred) · Best Supporting Actor (as Prince Harry) · Best Supporting Actress (as Lady Larken) · Best Featured Performer (as King Sextimus).",
+      "of": "cc18ffcc",
+      "at": [
+        "gaston-day:theatre.ledger[1].result"
+      ],
+      "t": "Candidatura per Best Direction. Cinque finalisti: Best Actor (nel ruolo di Minstrel) · Best Actress (nel ruolo di Princess Winnifred) · Best Supporting Actor (nel ruolo di Prince Harry) · Best Supporting Actress (nel ruolo di Lady Larken) · Best Featured Performer (nel ruolo di King Sextimus)."
+    },
+    {
+      "text": "Two nominations: Best Actress (as Lucy) and Best Student Set Designer. Five finalists: Best Actor (as Snoopy) · Best Actress (as Lucy) · Best Supporting Actor (as Linus) · Best Supporting Actress (as Sally) · Best Featured Performer (as Little Red Headed Girl).",
+      "of": "b8f8345f",
+      "at": [
+        "gaston-day:theatre.ledger[2].result"
+      ],
+      "t": "Due candidature: Best Actress (nel ruolo di Lucy) e Best Student Set Designer. Cinque finalisti: Best Actor (nel ruolo di Snoopy) · Best Actress (nel ruolo di Lucy) · Best Supporting Actor (nel ruolo di Linus) · Best Supporting Actress (nel ruolo di Sally) · Best Featured Performer (nel ruolo di Little Red Headed Girl)."
+    },
+    {
+      "text": "Blumenthal’s Blumey lists name Gaston Day in 2024, 2025 and 2026, with five finalists each year and three nominations in all. The school’s own site publishes no production titles, performance dates or cast sizes. It also does not say whether it has an International Thespian Society troupe.",
+      "of": "615c0ceb",
       "at": [
         "gaston-day:theatre.honestContext"
       ],
-      "t": "La scuola non pubblica titoli delle produzioni, date degli spettacoli, dimensioni del cast o risultati di concorsi teatrali. Non dice se abbia una troupe dell’International Thespian Society. Quindi la forma del programma è ben documentata, ma il suo palmarès non lo è. Questa scheda non riporta deliberatamente alcun registro dei premi anziché presentarne uno vuoto."
+      "t": "Gli elenchi Blumey di Blumenthal nominano Gaston Day nel 2024, 2025 e 2026, con cinque finalisti ogni anno e tre candidature in tutto. Il sito della scuola stessa non pubblica titoli delle produzioni, date degli spettacoli o dimensioni del cast. Non dice nemmeno se abbia una troupe dell’International Thespian Society."
     },
     {
       "text": "Chorus students earned “superior” ratings in regional adjudications across six years, and the program has sent students on to the UNC School of the Arts and Governor’s School.",
@@ -8254,12 +8430,12 @@
       "t": "Un programma artistico serio per una scuola di 510 studenti — un centro da 550 posti che porta un nome, sei anni di valutazioni di giuria e una rivista studentesca con un palmarès nazionale."
     },
     {
-      "text": "What is missing is the record rather than the program: almost nothing is published by year, by title or by name.",
-      "of": "34f65bf8",
+      "text": "What is missing is detail from the school itself: it publishes almost nothing by year, by title or by name. Blumenthal’s lists supply three years of its Blumey record.",
+      "of": "31e452fd",
       "at": [
         "gaston-day:verdict.subhead"
       ],
-      "t": "Ciò che manca è il palmarès più che il programma: quasi nulla è pubblicato per anno, per titolo o con i nomi."
+      "t": "Ciò che manca sono i dettagli dalla scuola stessa: non pubblica quasi nulla per anno, per titolo o con i nomi. Gli elenchi di Blumenthal forniscono tre anni del suo record Blumey."
     },
     {
       "text": "The facility is real and named",
@@ -8358,12 +8534,12 @@
       "t": "Il profilo di settembre 2025 riporta una distribuzione dei voti ARTS per il 2024-25 (72% A+, 22% A, 5% A-). L’edizione di novembre 2025, a cui ora rimanda College Counseling, non la riporta. Va letta come contesto sul modo in cui il dipartimento valuta, non come un segnale di difficoltà."
     },
     {
-      "text": "What were the last two years’ productions, and how many students were cast versus crewed?",
-      "of": "95c3ac2d",
+      "text": "Beyond the shows on the Blumey lists, what were the last two years’ productions, and how many students were cast versus crewed?",
+      "of": "0d132fe4",
       "at": [
         "gaston-day:verdict.ask[0]"
       ],
-      "t": "Quali sono state le produzioni degli ultimi due anni, e quanti studenti sono stati scritturati rispetto a quanti hanno lavorato in troupe?"
+      "t": "A parte gli spettacoli negli elenchi Blumey, quali sono state le produzioni degli ultimi due anni, e quanti studenti sono stati scritturati rispetto a quanti hanno lavorato in troupe?"
     },
     {
       "text": "How large are Band, Concert Choir and the Vocal Performance Ensemble — and does everyone who auditions get a place?",

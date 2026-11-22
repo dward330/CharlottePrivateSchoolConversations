@@ -39,11 +39,11 @@ const HANDBOOK =
 export const charlotteCatholic: SummerProgram = {
   catalog: {
     headline:
-      'Four sports camps CCHS runs for the surrounding community — for children aged 6 to 13, not for its own high schoolers.',
+      'Four youth sports camps: baseball takes ages 6–13, basketball rising 2–8, football rising 3–9. Soccer’s ages are not published.',
     subhead:
-      'Charlotte Catholic is a 9–12 school. Its summer slate is outreach coaching for younger children in the neighbourhood, plus two non-CCHS programs it points its own students toward.',
+      'Charlotte Catholic is a 9–12 school. Its summer slate is outreach coaching for younger children in the neighborhood, plus two non-CCHS programs it points its own students toward.',
     intro:
-      'Every camp below is a half-day athletic camp hosted by a CCHS coaching staff and open to the community. Ages are the campers’ ages, which run well below CCHS’s own 9–12 enrollment. The school runs no academic summer school and no credit recovery — its handbook twice states that a student who fails a course retakes it externally, "at their expense over the summer".',
+      'Every camp below is a half-day athletic camp hosted by a CCHS coaching staff and open to the community. Baseball goes by age, and basketball and football by rising grade. Most campers are younger than CCHS students. Football also takes rising 9th graders, who are incoming high schoolers. The school runs no academic summer school and no credit recovery — its handbook twice states that a student who fails a course retakes it externally, "at their expense over the summer".',
     categoryFilters: [
       { token: 'all', label: 'All' },
       { token: 'sports', label: 'Sports' },
@@ -52,7 +52,7 @@ export const charlotteCatholic: SummerProgram = {
     gradeFilters: [
       { token: 'all', label: 'All ages' },
       { token: 'elementary', label: 'Rising 2–5 / ages 6–10' },
-      { token: 'middle', label: 'Rising 6–9 / ages 11–13' },
+      { token: 'middle', label: 'Rising 6–9' },
     ],
     camps: [
       {

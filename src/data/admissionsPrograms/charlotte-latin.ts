@@ -23,7 +23,16 @@
 // different cycles over time, every figure here is anchored to the live pages
 // as retrieved on the dates in the research file.
 //
-// ⚠️ NOTIFICATION DAYS PUBLISHED; NO CONTRACT DUE DATE (updated 2026-11-10, plan
+// ⚠️ CAIS BROCHURE DATES (added 2026-11-22, plan consistency5, LAT-U1). Latin's Application
+// Process page links the 2027-2028 CAIS brochure and sends families to it "for all details".
+// The brochure publishes: testing complete by Feb 1 (TK/K) and Feb 26 (Grades 1-4); contracts
+// due Mar 5 (TK/K) and Apr 16 (Grades 1-4); $300 for either test; an interview with each child.
+// Those are shipped with the brochure named. PRINT NO WEEKDAY beside the April dates: the
+// brochure calls both Thursdays and both are Fridays in 2027. Where the notes below say "no
+// contract date", read "none from Latin's own page, and none at all from Grade 5 up".
+// VERIFY (dev note): Latin's page describes no interview for TK to Grade 5, so both are shown.
+//
+// ⚠️ NOTIFICATION DAYS PUBLISHED; NO CONTRACT DUE DATE ON LATIN'S PAGE (updated 2026-11-10, plan
 // latinnotify). The Application Process page's "Important Admissions and
 // Financial Aid Dates" block reads "February 26: TK and K notification day; TK
 // and K financial award decisions communicated" and "April 9: Grades 1-11
@@ -153,8 +162,8 @@
 //
 // NOT RETRIEVED: the main events calendar is JavaScript-rendered and could not
 // be read server-side, so admissions events beyond the TK/K Fly By Open House
-// may exist behind it. The card names only the one dated event the school
-// publishes in readable HTML.
+// may exist behind it. The card names only the dated events the school publishes
+// in readable HTML: the Fly By and, since 2026-11-22, the January 20 TK/K coffee and panel.
 
 import type { AdmissionsProgram } from '../admissionsPrograms.ts'
 
@@ -168,9 +177,9 @@ export const charlotteLatin: AdmissionsProgram = {
       // The 'grade bands' count tile was removed by request (2026-08-31) — not a data gap.
       {
         value: 'Jan 2, 2027',
-        label: 'TK/Kindergarten application deadline — 13 days ahead of every other grade',
+        label: 'TK/Kindergarten application deadline — 13 days ahead of Grades 1–11',
       },
-      { value: 'Jan 15, 2027', label: 'Grades 1–12 application deadline' },
+      { value: 'Jan 15, 2027', label: 'Grades 1–11 application deadline' },
       { value: '$2,500', label: 'non-refundable enrollment deposit' },
     ],
 
@@ -215,14 +224,14 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'Oct 10, 2026',
             tagKind: 'outline',
             detail:
-              'Optional, not required. The **TK/K Fly By Open House on October 10, 2026, 9:30–11:00 a.m.** is the one dated event published for this band. Campus tours begin in September and run throughout the school year. Open houses, tours and virtual sessions are all booked through your portal account.',
+              'Optional, not required. Two dated events are published for this band. The **TK/K Fly By Open House** runs 9:30–11:00 a.m. on October 10, 2026. A **coffee and panel for parents of TK/K applicants** runs 9:30–11:00 a.m. on January 20, 2027. Campus tours begin in September and run throughout the school year. Open houses, tours and virtual sessions are all booked through your portal account.',
           },
           {
             title: 'Complete the application',
             tag: 'by Jan 2',
             tagKind: 'accent',
             detail:
-              'Required, and due **January 2, 2027**. That is thirteen days ahead of every other grade in the school. So this band\'s deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being "designed for children that are newly five and ready for Kindergarten," and states no calendar date. Ask the admissions office where your child falls. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office. The listing says K-12, so it does not say whether it covers TK.',
+              'Required, and due **January 2, 2027**. That is thirteen days ahead of Grades 1–11. So this band\'s deadline falls in the first week of January, not the middle of it. **No age or birthday cutoff is published** for Transitional Kindergarten or Kindergarten. The school describes TK only in general terms, as being "designed for children that are newly five and ready for Kindergarten," and states no calendar date. Ask the admissions office where your child falls. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office. The listing says K-12, so it does not say whether it covers TK.',
           },
           {
             title: 'Attend a Visit Day — the office schedules it',
@@ -236,7 +245,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'required',
             tagKind: 'accent',
             detail:
-              'Required. Applicants to this band take the **WPPSI**. A psychologist in the Charlotte Area Independent Schools consortium gives the test. Testing "need[s] to be scheduled in advance." You book the psychologist directly and ask that the scores be sent to Charlotte Latin. The school does not arrange the appointment.',
+              'Required. Applicants to this band take the **WPPSI**. A psychologist in the Charlotte Area Independent Schools consortium gives the test. Testing "need[s] to be scheduled in advance." You book the psychologist directly and ask that the scores be sent to Charlotte Latin. The school does not arrange the appointment. The CAIS brochure says testing must be complete by **February 1, 2027** and costs **$300**. It also says CAIS schools interview each child, though Latin’s page does not describe an interview for this band.',
           },
           {
             title: 'Apply for financial aid, if you need it',
@@ -250,7 +259,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'Feb 26',
             tagKind: 'accent',
             detail:
-              '**February 26, 2027** is the school\'s "TK and K notification day." Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
+              '**February 26, 2027** is the school\'s "TK and K notification day." Financial aid award decisions are communicated the same day. The CAIS brochure says the enrollment contract is due **March 5, 2027**. Enrolling also requires the **$2,500 non-refundable deposit**.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The earlier deadline,
@@ -260,7 +269,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'Your application deadline is Jan 2, 2027.',
-          text: 'Transitional Kindergarten and Kindergarten apply thirteen days ahead of every other grade. The admissions office, not the family, schedules this band\'s Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, February 26, 2027. No due date for the enrollment contract is published, so confirm it with the admissions office.',
+          text: 'Transitional Kindergarten and Kindergarten apply thirteen days ahead of Grades 1–11. The admissions office, not the family, schedules this band\'s Visit Day. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. The CAIS brochure sets testing by February 1, 2027. Decisions come on notification day, February 26, 2027. The brochure says the enrollment contract is due March 5, 2027.',
         },
         checklistRows: [
           {
@@ -280,7 +289,7 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Submit the application',
-            detail: 'Thirteen days ahead of the Grades 1–12 deadline. No age cutoff is published.',
+            detail: 'Thirteen days ahead of the Grades 1–11 deadline. No age cutoff is published.',
             due: 'Jan 2, 2027',
           },
           {
@@ -290,8 +299,8 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Book and complete the WPPSI assessment',
-            detail: 'Scheduled in advance with a CAIS psychologist; ask that scores be sent to Latin.',
-            due: 'Before your deadline',
+            detail: 'Scheduled in advance with a CAIS psychologist; ask that scores be sent to Latin. $300, per the CAIS brochure.',
+            due: 'By Feb 1, 2027',
           },
           {
             action: 'Submit the Clarity financial aid application',
@@ -300,7 +309,7 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Watch for your notification day',
-            detail: 'Admission and financial aid decisions come that day. No contract due date is published; confirm it with admissions.',
+            detail: 'Admission and financial aid decisions come that day. The CAIS brochure says the contract is due March 5, 2027.',
             due: 'Feb 26, 2027',
           },
         ],
@@ -333,7 +342,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'accent',
             detail:
-              'Required, and due **January 15, 2027** — the deadline every grade from 1 through 12 works to, thirteen days later than Transitional Kindergarten and Kindergarten. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.',
+              'Required, and due **January 15, 2027**. That is the deadline for Grades 1–11, thirteen days later than Transitional Kindergarten and Kindergarten. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.',
           },
           {
             title: 'Schedule and attend a Visit Day',
@@ -347,7 +356,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'required',
             tagKind: 'accent',
             detail:
-              'Required, and **the test changes twice inside this one band**. Grade 1 applicants take the **WPPSI**, Grades 2–4 the **WISC-V**, and Grade 5 the **ISEE**. How you book changes with it. A psychologist in the Charlotte Area Independent Schools consortium gives the WPPSI and WISC-V, and you contact that psychologist directly. The ISEE is developed and given by the **Educational Records Bureau**, and Grade 5 families register through the ERB. Check which test applies to the grade your child is entering before you book anything.',
+              'Required, and **the test changes twice inside this one band**. Grade 1 applicants take the **WPPSI**, Grades 2–4 the **WISC-V**, and Grade 5 the **ISEE**. How you book changes with it. A psychologist in the Charlotte Area Independent Schools consortium gives the WPPSI and WISC-V, and you contact that psychologist directly. The ISEE is developed and given by the **Educational Records Bureau**, and Grade 5 families register through the ERB. Check which test applies to the grade your child is entering before you book anything. The CAIS brochure says Grades 1–4 testing must be complete by **February 26, 2027** and costs **$300**. It also says CAIS schools interview each child, though Latin’s page does not describe an interview for this band.',
           },
           {
             title: 'Apply for financial aid, if you need it',
@@ -361,7 +370,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'Apr 9',
             tagKind: 'accent',
             detail:
-              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. **No due date for the enrollment contract is published**, so ask the admissions office when it is due. Enrolling also requires the **$2,500 non-refundable deposit**.',
+              '**April 9, 2027** is the school\'s "Grades 1-11 notification day." Financial aid award decisions are communicated the same day. The CAIS brochure says contracts for Grades 1–4 are due **April 16, 2027**. **No contract due date is published for Grade 5**, so ask the admissions office. Enrolling also requires the **$2,500 non-refundable deposit**.',
           },
         ],
         // EMPTY BY DECISION, 2026-08-31 — see the header. The twice-changing
@@ -370,7 +379,7 @@ export const charlotteLatin: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'The assessment changes twice inside this one band.',
-          text: 'Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child\'s entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. Decisions come on notification day, April 9, 2027. No due date for the enrollment contract is published, so confirm it with the admissions office.',
+          text: 'Grade 1 takes the WPPSI, Grades 2–4 the WISC-V and Grade 5 the ISEE. How you book changes with it. For the WPPSI and WISC-V, you contact a CAIS psychologist directly. For the ISEE, you register with the Educational Records Bureau. Confirm which test applies to your child\'s entry grade before booking. No deadline for all file materials is published for this band. So treat your portal checklist as the final word on what is still outstanding. The CAIS brochure sets Grades 1–4 testing by February 26, 2027. Decisions come on notification day, April 9, 2027. The brochure says Grades 1–4 contracts are due April 16, 2027. None is published for Grade 5, so confirm it with the admissions office.',
         },
         checklistRows: [
           {
@@ -385,7 +394,7 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Submit the application',
-            detail: 'The Grades 1–12 deadline, thirteen days after the TK/K one.',
+            detail: 'The Grades 1–11 deadline, thirteen days after the TK/K one.',
             due: 'Jan 15, 2027',
           },
           {
@@ -395,8 +404,8 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Book and complete the assessment for your entry grade',
-            detail: 'Grade 1 WPPSI · Grades 2–4 WISC-V (both CAIS) · Grade 5 ISEE (through the ERB).',
-            due: 'Before your deadline',
+            detail: 'Grade 1 WPPSI · Grades 2–4 WISC-V (both CAIS, $300, done by Feb 26, 2027) · Grade 5 ISEE (through the ERB, no date published).',
+            due: 'Feb 26, 2027 for Grades 1–4',
           },
           {
             action: 'Submit the Clarity financial aid application',
@@ -405,7 +414,7 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Watch for your notification day',
-            detail: 'Admission and financial aid decisions come that day. No contract due date is published; confirm it with admissions.',
+            detail: 'Admission and financial aid decisions come that day. The CAIS brochure says Grades 1–4 contracts are due April 16, 2027. None is published for Grade 5.',
             due: 'Apr 9, 2027',
           },
         ],
@@ -434,7 +443,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'accent',
             detail:
-              'Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Sixth grade is one of the years the school "naturally expand[s]" in, alongside TK, Kindergarten and ninth grade. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.',
+              'Required, and due **January 15, 2027** — the deadline shared by Grades 1–11. Sixth grade is one of the years the school "naturally expand[s]" in, alongside TK, Kindergarten and ninth grade. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.',
           },
           {
             title: 'Schedule and attend a Visit Day — interview included',
@@ -493,7 +502,7 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Submit the application',
-            detail: 'The Grades 1–12 deadline. Grade 6 is a natural expansion year.',
+            detail: 'The Grades 1–11 deadline. Grade 6 is a natural expansion year.',
             due: 'Jan 15, 2027',
           },
           {
@@ -528,7 +537,7 @@ export const charlotteLatin: AdmissionsProgram = {
         label: 'Upper School · Grades 9–12',
         title: 'Upper School — Grades 9–12',
         deadlines: [
-          { value: 'Jan 15, 2027', label: 'application due' },
+          { value: 'Jan 15, 2027', label: 'application due — Grades 9–11' },
           { value: 'Feb 26, 2027', label: 'testing completed and submitted' },
           { value: 'Feb 26, 2027', label: 'all file material due' },
           { value: 'Jan 15, 2027', label: 'financial aid application due' },
@@ -547,7 +556,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'accent',
             detail:
-              'Required, and due **January 15, 2027** — the deadline shared by every grade from 1 through 12. Ninth grade is one of the years the school "naturally expand[s]" in, alongside TK, Kindergarten and sixth grade. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.',
+              'Required, and due **January 15, 2027** for Grades 9–11. The school’s dates list names no deadline for Grade 12, so ask. Ninth grade is one of the years the school "naturally expand[s]" in, alongside TK, Kindergarten and sixth grade. Siblings of current students had an earlier deadline. The school\'s calendar listed **K-12 sibling applications due October 15, 2026**. If you are a sibling family applying now, ask the admissions office.',
           },
           {
             title: 'Schedule and attend a Visit Day — interview and a shadow day',
@@ -607,7 +616,7 @@ export const charlotteLatin: AdmissionsProgram = {
           },
           {
             action: 'Submit the application',
-            detail: 'The Grades 1–12 deadline. Grade 9 is a natural expansion year.',
+            detail: 'Grades 9–11. No Grade 12 deadline is published, so ask. Grade 9 is a natural expansion year.',
             due: 'Jan 15, 2027',
           },
           {
@@ -655,7 +664,7 @@ export const charlotteLatin: AdmissionsProgram = {
             tkk: 'Jan 2, 2027',
             ls: 'Jan 15, 2027',
             ms: 'Jan 15, 2027',
-            us: 'Jan 15, 2027',
+            us: 'Jan 15, 2027 (Gr 9–11) · nothing published for Gr 12',
           },
         },
         {
@@ -679,8 +688,8 @@ export const charlotteLatin: AdmissionsProgram = {
         {
           label: 'Interview at the Visit Day',
           cells: {
-            tkk: 'Not described',
-            ls: 'Not described',
+            tkk: 'Not described by Latin · the CAIS brochure says CAIS schools interview each child',
+            ls: 'Not described by Latin · for Gr 1–4 the CAIS brochure says CAIS schools interview each child',
             ms: 'Yes',
             us: 'Yes',
           },
@@ -697,8 +706,8 @@ export const charlotteLatin: AdmissionsProgram = {
         {
           label: 'Testing and file material due',
           cells: {
-            tkk: 'None published',
-            ls: 'None published',
+            tkk: 'Testing by Feb 1, 2027 (CAIS brochure) · no file-material date published',
+            ls: 'Gr 1–4 testing by Feb 26, 2027 (CAIS brochure) · no date published for Gr 5 or for file material',
             ms: 'Feb 26, 2027',
             us: 'Feb 26, 2027',
           },
@@ -706,8 +715,8 @@ export const charlotteLatin: AdmissionsProgram = {
         {
           label: 'Decision and contract',
           cells: {
-            tkk: 'Feb 26, 2027 · no contract due date published',
-            ls: 'Apr 9, 2027 · no contract due date published',
+            tkk: 'Feb 26, 2027 · contract due Mar 5, 2027 (CAIS brochure)',
+            ls: 'Apr 9, 2027 · Gr 1–4 contract due Apr 16, 2027 (CAIS brochure) · none published for Gr 5',
             ms: 'Apr 9, 2027 · no contract due date published',
             us: 'Apr 9, 2027 (Gr 9–11) · nothing published for Gr 12 · no contract due date published',
           },
@@ -763,7 +772,7 @@ export const charlotteLatin: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages. Some items, such as the enrollment contract due date, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.',
+        'Dates are for the 2027–28 entry cycle, as published on charlottelatin.org (retrieved Aug 2026; dates rechecked Nov 2026). They come from the application process, tuition and financial assistance, and admissions pages, and the CAIS brochure the school links. Some items, such as the contract due date from Grade 5 up, are shown only inside the application portal or are not published at all. Cycle dates change from year to year, and these pages have shown a different set in a past season. So check the live pages before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Latin School.',
     },
 
     sources: [
@@ -771,6 +780,11 @@ export const charlotteLatin: AdmissionsProgram = {
         label:
           'charlottelatin.org — application process: the four grade-band tabs, every application deadline, each band\'s Visit Day description and who schedules it, the assessment by grade, the Feb 26, 2027 testing and file-material dates, the notification days and the K-12 sibling deadline',
         url: 'https://www.charlottelatin.org/admissions/application-process',
+      },
+      {
+        label:
+          'CAIS 2027-2028 brochure, linked from the Application Process page: testing dates and fee, contract due dates for TK to Grade 4, and the interview',
+        url: 'https://resources.finalsite.net/images/v1786969110/charlottelatin/zqmzmbmo4bnhaqcddhl6/CAIS2027-2028Upload.pdf',
       },
       {
         label:

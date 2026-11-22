@@ -1286,13 +1286,14 @@ a gate.
   and the identical-strings report). Either fix the findings or ship the check as a
   report with exit 0 — never leave a gate red by default.
 - **A headline must agree with the list beneath it: `npm run check:consistency`** (in the
-  build). It gates rules R1–R7 and R9–R11: the College Pipeline funnel headline and Compare
+  build). It gates rules R1–R7 and R9–R12: the College Pipeline funnel headline and Compare
   commit rows against the roster (the funnel and bars are now *derived*,
   `src/lib/pipeline.ts`), camp intros against the camp rows, course teasers against
   Compare and the rendered rows ("shown here as N entries"), the teaser's AP count against `advanced-courses`, `~N:1`
   ratio notation, "absent …" lists against their `n / total`, Sports Offered season
   headers and "N sports" figures, a camp row's "offered in N weeks" against its week list,
-  and Financial Aid component counts and percentages against the grid. R8
+  Financial Aid component counts and percentages against the grid, and one conference and
+  level per college and sport group across every school's roster (R12). R8
   (`-- --report`) groups every `<number> <noun>` pair per school and **is a report, never
   a gate**. Fix a finding in the data; never allowlist it (plans `consistency`,
   `consistency2`). The gate sees only the shapes it was written for; **`/consistency-self-scan`**

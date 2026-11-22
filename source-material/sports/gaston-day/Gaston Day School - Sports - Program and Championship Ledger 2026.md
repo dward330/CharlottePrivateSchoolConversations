@@ -108,3 +108,17 @@ extractable form from the JS-rendered athletics site.
 
 - S6 https://www.highschoolot.com/story/gaston-day-repeats-ncisaa-2a-girls-tennis-title-downs-epiphany-school/21693252/ (read in Chrome): "Top-seeded Gaston Day girls tennis repeated its N.C. Independent Schools Athletic Association 2A championship on Saturday. The Spartans defeated Epiphany School 5-2 at N.C. Wesleyan University. ... Gaston Day won last year's title over Trinity School of Durham and Chapel Hill". The phrase "third state championship in four years and fourth overall" does NOT appear in the article today.
 - S4 https://www.highschoolot.com/the-2024-25-ncisaa-team-state-champions-in-every-sport/22016545/: the 2A entry reads "Gaston Day (2) — volleyball, boys soccer, girls tennis"; the phrase does not appear there either.
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+NCISAA 2026-27 brackets, fetched with curl. Each championship round was read by its table column.
+
+- Volleyball, https://archives.ncisaa.org/index.php?sport=12&currentyear=1 : 2A finalists
+  "#4 Gaston Day School (13-4)" and "#2 Hickory Christian Academy (17-2)". Champion's cell:
+  "#4 Gaston Day School (14-4)". Final dates on the bracket: 10/30 and 10/31.
+- Girls tennis, https://archives.ncisaa.org/index.php?sport=11&currentyear=1 : Gaston Day is not
+  in the 2A bracket. The champion's cell is "#1 The Epiphany School of Global Studies (19-1)".
+- Boys soccer, https://archives.ncisaa.org/index.php?sport=8&currentyear=1 : Gaston Day appears
+  only in the first round, "Gaston Day School (3-10)". The 2A champion's cell is "#3 Westchester
+  Country Day School (17-3)".
+- Cross country (sport=2) and girls golf (sport=20) post no 2026-27 results there yet.

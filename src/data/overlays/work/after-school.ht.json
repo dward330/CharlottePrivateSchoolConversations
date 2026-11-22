@@ -81,12 +81,19 @@
       "t": "Pa gen pwogram ki pibliye — mande sou etid ak sipèvizyon"
     },
     {
-      "text": "JUN–AUG",
-      "of": "4f3a376a",
+      "text": "JUN–JUL",
+      "of": "6298b842",
       "at": [
-        "providence-day:coverage.summer.season"
+        "providence-day:coverage.summer.season",
+        "charlotte-latin:coverage.summer.season",
+        "charlotte-christian:coverage.summer.season",
+        "charlotte-country-day:coverage.summer.season",
+        "cannon:coverage.summer.season",
+        "gaston-day:coverage.summer.season",
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ],
-      "t": "JEN–OUT"
+      "t": "JEN–JIYÈ"
     },
     {
       "text": "**Summer at Providence Day** carries coverage year-round — nine sessions, separate registration at summer.providenceday.org. Extended Day itself closes on the last day of school.",
@@ -1185,20 +1192,6 @@
         "charlotte-latin:coverage.rows[3].flatLabel"
       ],
       "t": "Pa gen pwogram gadri — bibliyotèk US louvri jiska 5:30 p.m."
-    },
-    {
-      "text": "JUN–JUL",
-      "of": "6298b842",
-      "at": [
-        "charlotte-latin:coverage.summer.season",
-        "charlotte-christian:coverage.summer.season",
-        "charlotte-country-day:coverage.summer.season",
-        "cannon:coverage.summer.season",
-        "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season",
-        "charlotte-prep:coverage.summer.season"
-      ],
-      "t": "JEN–JIYÈ"
     },
     {
       "text": "**Latin Camps** — open to any child aged 3.5–18, seven weekly sessions 8 June to 31 July 2026, with after care to 5:30 p.m. Registration $45 per family, per season.",
@@ -3531,12 +3524,12 @@
       "t": "Liy Kindergarten 6:00 p.m. la se sèl la ki gen valè ki pa won — $208, $489, $615 — pandan chak lòt liy sèvi ak chif won. Sa vo lapèn konfime se pa yon erè tap."
     },
     {
-      "text": "No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 20% of students receive tuition aid. The tuition page says $9.4M to 341 students, and Fast Facts says $10.1M to 347. Summer programs, by contrast, do have their own aid application.",
-      "of": "84fc27f4",
+      "text": "No Extended Day sibling discount is published, and no financial-aid policy for Extended Day is published. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 20% of students receive tuition aid. The tuition page says $9.4M to 341 students, and Fast Facts says $10.1M to 347. Summer programs, by contrast, do have their own aid application.",
+      "of": "a659c262",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ],
-      "t": "Pa gen okenn rabè frè ak sè Extended Day ki pibliye, epi pa gen okenn politik èd finansye pou Extended Day. Yo faktire l kòm yon **frè segondè**, sa ki mete l deyò asistans frè eskolè a, menm si anviwon 20% elèv resevwa èd frè eskolè. Paj frè eskolè a di $9.4M pou 341 elèv, epi Fast Facts di $10.1M pou 347. Pwogram ete yo, okontrè, gen pwòp aplikasyon èd pa yo."
+      "t": "Pa gen okenn rabè frè ak sè Extended Day ki pibliye, epi pa gen okenn politik èd finansye pou Extended Day ki pibliye. Yo faktire l kòm yon **frè segondè**, sa ki mete l deyò asistans frè eskolè a, menm si anviwon 20% elèv resevwa èd frè eskolè. Paj frè eskolè a di $9.4M pou 341 elèv, epi Fast Facts di $10.1M pou 347. Pwogram ete yo, okontrè, gen pwòp aplikasyon èd pa yo."
     },
     {
       "text": "Contract rigidity is real: one change per semester, $50 for any additional change, and **no changes permitted in August or December** — the two months a family is most likely to discover its schedule was wrong.",
@@ -4117,12 +4110,12 @@
       "t": "elèv yo sipèvize sèlman jiska **3:15 p.m.** — apre sa yo voye yo nan After School Care epi yo faktire yo, kit fanmi an te chwazi l kit li pa t chwazi l"
     },
     {
-      "text": "no paid program — free arrival from 7:30 a.m. only",
-      "of": "3e084a43",
+      "text": "no paid care program — free arrival from 7:30 a.m. only",
+      "of": "619685dc",
       "at": [
         "cannon:coverage.facts[1].text"
       ],
-      "t": "pa gen pwogram ki peye — arive gratis apati 7:30 a.m. sèlman"
+      "t": "pa gen pwogram gadri ki peye — arive gratis apati 7:30 a.m. sèlman"
     },
     {
       "text": "Dismissal changes",
@@ -4309,12 +4302,12 @@
       "t": "Lekòl la dekri èd devwa, espò, atizay, kwit manje, lanati ak yon jaden — men li pa janm di kilè okenn nan sa yo pase."
     },
     {
-      "text": "What Cannon does publish in real detail is Beyond the Bell: three 10-week enrichment sessions a year, with a genuine day, grade band, provider and fee for every class.",
-      "of": "688c480b",
+      "text": "What Cannon does publish in real detail is Beyond the Bell, with three 10-week enrichment sessions a year. Every class has a day, a grade band, a provider or role, and a fee.",
+      "of": "37b490f7",
       "at": [
         "cannon:dayInside.subhead"
       ],
-      "t": "Sa Cannon pibliye vre an detay se Beyond the Bell: twa sesyon anrichisman 10 semèn pa ane, ak yon vrè jou, bann nivo, founisè ak frè pou chak klas."
+      "t": "Sa Cannon pibliye vre an detay se Beyond the Bell, ak twa sesyon anrichisman 10 semèn pa ane. Chak klas gen yon jou, yon bann nivo, yon founisè oswa yon wòl, ak yon frè."
     },
     {
       "text": "safe, nurturing environment",
@@ -4381,366 +4374,425 @@
       "t": "“After School Program (ASP) Cannon School la bay elèv nan grad JrK - 8 yon anviwònman ki an sekirite epi ki bay swen. Elèv yo gen opòtinite pou resevwa èd ak devwa yo, jwe espò, patisipe nan aktivite atistik, kwit manje, dekouvri ak eksplore lanati, epi fè eksperyans kiltive ak obsève jaden nou an.” Lekòl la ajoute ke eksperyans yo “ankouraje bezwen endividyèl, devlopmantal, sosyal, ak emosyonèl yo” pou “elèv yo vrèman vin ekspè adaptatif”. FAQ Admisyon yo mete aksan sou fleksibilite a: gadri a “ka itilize sou yon baz san randevou, jan sa nesesè”."
     },
     {
-      "text": "Beyond the Bell — Session 3, spring 2026",
-      "of": "35adb5e8",
+      "text": "Beyond the Bell — Session 2, 2026–27",
+      "of": "40273360",
       "at": [
         "cannon:dayInside.catalogTitle"
       ],
-      "t": "Beyond the Bell — Sesyon 3, prentan 2026"
+      "t": "Beyond the Bell — Sesyon 2, 2026–27"
     },
     {
-      "text": "Three 10-week sessions run each year for JrK–grade 8, plus private music lessons. The 22 classes below are the most recent published catalog, **9 March to 22 May 2026** — taken from the school’s own session brochure. Fees are shown per class and per session. Note that Beyond the Bell is a **separate purchase from ASP**: a 3:00–4:00 class does not cover you to 6:00.",
-      "of": "b5d62754",
+      "text": "Three 10-week sessions run each year for JrK–grade 8, plus private music lessons for K–12. The 31 classes below are the Session 2 catalog, **November 30 to February 5**. They come from the school’s own session brochure. Fees are shown per class and per session. Note that Beyond the Bell is a **separate purchase from ASP**: a 3:00–4:00 class does not cover you to 6:00.",
+      "of": "3c1e2638",
       "at": [
         "cannon:dayInside.catalogIntro"
       ],
-      "t": "Twa sesyon 10 semèn fonksyone chak ane pou JrK–grad 8, plis leson mizik prive. 22 klas anba yo se dènye katalòg ki pibliye a, **9 mas rive 22 me 2026** — pran nan pwòp bwochi sesyon lekòl la. Frè yo montre pa klas ak pa sesyon. Note ke Beyond the Bell se yon **acha apa de ASP**: yon klas 3:00–4:00 pa kouvri w jiska 6:00."
+      "t": "Twa sesyon 10 semèn fonksyone chak ane pou JrK–grad 8, plis leson mizik prive pou K–12. 31 klas anba yo se katalòg Sesyon 2 a, **30 novanm rive 5 fevriye**. Yo soti nan pwòp bwochi sesyon lekòl la. Frè yo montre pa klas ak pa sesyon. Note ke Beyond the Bell se yon **acha apa de ASP**: yon klas 3:00–4:00 pa kouvri w jiska 6:00."
     },
     {
-      "text": "Small-sided games with Kelli Waller",
-      "of": "716c2549",
+      "text": "Tap and jazz with Art in Motion Dance Performing Co.",
+      "of": "3f13bb14",
       "at": [
         "cannon:dayInside.classes[0].desc"
       ],
-      "t": "Jwèt an ti gwoup ak Kelli Waller"
-    },
-    {
-      "text": "2–6",
-      "of": "dc4d67cc",
-      "at": [
-        "cannon:dayInside.classes[0].gradeLabel"
-      ],
-      "t": "2–6"
-    },
-    {
-      "text": "Cheer fundamentals with Nash & Colacion",
-      "of": "85bf76c2",
-      "at": [
-        "cannon:dayInside.classes[1].desc"
-      ],
-      "t": "Baz cheer ak Nash ak Colacion"
-    },
-    {
-      "text": "JrK–2",
-      "of": "f32a20a3",
-      "at": [
-        "cannon:dayInside.classes[1].gradeLabel",
-        "cannon:dayInside.classes[5].gradeLabel",
-        "cannon:dayInside.classes[12].gradeLabel",
-        "cannon:dayInside.classes[15].gradeLabel"
-      ],
-      "t": "JrK–2"
-    },
-    {
-      "text": "Build-and-test challenges run by BrickEd",
-      "of": "fc32f7b2",
-      "at": [
-        "cannon:dayInside.classes[2].desc"
-      ],
-      "t": "Defi bati-ak-teste ke BrickEd dirije"
-    },
-    {
-      "text": "K–2",
-      "of": "5e92d4cb",
-      "at": [
-        "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel",
-        "charlotte-prep:dayInside.classes[1].gradeLabel"
-      ],
-      "t": "K–2"
-    },
-    {
-      "text": "Mixed-media making with McKinsey & Raphael",
-      "of": "12042fb8",
-      "at": [
-        "cannon:dayInside.classes[3].desc"
-      ],
-      "t": "Kreyasyon medya melanje ak McKinsey ak Raphael"
-    },
-    {
-      "text": "2–4",
-      "of": "de4d6af2",
-      "at": [
-        "cannon:dayInside.classes[3].gradeLabel",
-        "cannon:dayInside.classes[17].gradeLabel"
-      ],
-      "t": "2–4"
-    },
-    {
-      "text": "Team build-and-program with Lisa Nussbaumer",
-      "of": "a4c630c5",
-      "at": [
-        "cannon:dayInside.classes[4].desc"
-      ],
-      "t": "Bati-ak-pwograme an ekip ak Lisa Nussbaumer"
-    },
-    {
-      "text": "3–5",
-      "of": "72b1a582",
-      "at": [
-        "cannon:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[3].gradeLabel",
-        "charlotte-prep:dayInside.classes[5].gradeLabel"
-      ],
-      "t": "3–5"
-    },
-    {
-      "text": "Puppet making and performance with Rhiannon Bresalier",
-      "of": "9234b989",
-      "at": [
-        "cannon:dayInside.classes[5].desc"
-      ],
-      "t": "Fè maryonèt ak pèfòmans ak Rhiannon Bresalier"
-    },
-    {
-      "text": "Kitchen skills and recipes with Craig Rosekrans",
-      "of": "66339c45",
-      "at": [
-        "cannon:dayInside.classes[6].desc"
-      ],
-      "t": "Konpetans nan kizin ak resèt ak Craig Rosekrans"
-    },
-    {
-      "text": "1–3",
-      "of": "aa9ea5ea",
-      "at": [
-        "cannon:dayInside.classes[6].gradeLabel"
-      ],
-      "t": "1–3"
-    },
-    {
-      "text": "Run by AR Workshop Concord; 3:00–4:30",
-      "of": "ec18d9af",
-      "at": [
-        "cannon:dayInside.classes[7].desc"
-      ],
-      "t": "AR Workshop Concord dirije l; 3:00–4:30"
-    },
-    {
-      "text": "3–8",
-      "of": "77b1ad61",
-      "at": [
-        "cannon:dayInside.classes[7].gradeLabel",
-        "charlotte-prep:dayInside.classes[2].gradeLabel"
-      ],
-      "t": "3–8"
-    },
-    {
-      "text": "Dance with Art in Motion Dance",
-      "of": "6d0482e1",
-      "at": [
-        "cannon:dayInside.classes[8].desc"
-      ],
-      "t": "Dans ak Art in Motion Dance"
-    },
-    {
-      "text": "Outdoor exploration and games with Kelli Waller",
-      "of": "d09d34c2",
-      "at": [
-        "cannon:dayInside.classes[9].desc"
-      ],
-      "t": "Eksplorasyon deyò ak jwèt ak Kelli Waller"
-    },
-    {
-      "text": "JrK–4",
-      "of": "f92a2a15",
-      "at": [
-        "cannon:dayInside.classes[9].gradeLabel"
-      ],
-      "t": "JrK–4"
-    },
-    {
-      "text": "Coached by Carolina Soccer Factory",
-      "of": "55c5f69b",
-      "at": [
-        "cannon:dayInside.classes[10].desc"
-      ],
-      "t": "Antrene pa Carolina Soccer Factory"
-    },
-    {
-      "text": "K–6",
-      "of": "6292db17",
-      "at": [
-        "cannon:dayInside.classes[10].gradeLabel"
-      ],
-      "t": "K–6"
-    },
-    {
-      "text": "Cross-disciplinary making with Mayo & Cavicchi",
-      "of": "892a9a9a",
-      "at": [
-        "cannon:dayInside.classes[11].desc"
-      ],
-      "t": "Kreyasyon ant disiplin ak Mayo ak Cavicchi"
+      "t": "Tap ak jaz ak Art in Motion Dance Performing Co."
     },
     {
       "text": "JrK–1",
       "of": "f42a2236",
       "at": [
-        "cannon:dayInside.classes[11].gradeLabel"
+        "cannon:dayInside.classes[0].gradeLabel",
+        "cannon:dayInside.classes[17].gradeLabel"
       ],
       "t": "JrK–1"
     },
     {
-      "text": "Taught by Le Petit Ballet Co.",
-      "of": "54903c06",
+      "text": "An introduction to photography. Individual instructor",
+      "of": "4aea9b60",
       "at": [
-        "cannon:dayInside.classes[12].desc"
+        "cannon:dayInside.classes[1].desc"
       ],
-      "t": "Ansenye pa Le Petit Ballet Co."
-    },
-    {
-      "text": "Ensemble strings with Anne Marie Samuel",
-      "of": "cee50463",
-      "at": [
-        "cannon:dayInside.classes[13].desc"
-      ],
-      "t": "Kòd an ansanm ak Anne Marie Samuel"
-    },
-    {
-      "text": "1–8",
-      "of": "a19e97bf",
-      "at": [
-        "cannon:dayInside.classes[13].gradeLabel"
-      ],
-      "t": "1–8"
-    },
-    {
-      "text": "Run by Better Golf for Kids",
-      "of": "f995456f",
-      "at": [
-        "cannon:dayInside.classes[14].desc"
-      ],
-      "t": "Better Golf for Kids dirije l"
-    },
-    {
-      "text": "K–5",
-      "of": "6392dcaa",
-      "at": [
-        "cannon:dayInside.classes[14].gradeLabel"
-      ],
-      "t": "K–5"
-    },
-    {
-      "text": "Three-dimensional art with Alex Bresalier",
-      "of": "4dd98a79",
-      "at": [
-        "cannon:dayInside.classes[15].desc"
-      ],
-      "t": "Atizay an twa dimansyon ak Alex Bresalier"
-    },
-    {
-      "text": "Executive-function skills for Middle School, with Sherrill & O’Brien",
-      "of": "1cef586d",
-      "at": [
-        "cannon:dayInside.classes[16].desc"
-      ],
-      "t": "Konpetans fonksyon egzekitif pou Middle School, ak Sherrill ak O’Brien"
-    },
-    {
-      "text": "5–8",
-      "of": "660365d3",
-      "at": [
-        "cannon:dayInside.classes[16].gradeLabel"
-      ],
-      "t": "5–8"
-    },
-    {
-      "text": "Athletic development with Donnie Hayes",
-      "of": "aebfe251",
-      "at": [
-        "cannon:dayInside.classes[17].desc"
-      ],
-      "t": "Devlopman atletik ak Donnie Hayes"
-    },
-    {
-      "text": "Object-based history with Stephanie Lee",
-      "of": "6c10a569",
-      "at": [
-        "cannon:dayInside.classes[18].desc"
-      ],
-      "t": "Istwa ki baze sou objè ak Stephanie Lee"
-    },
-    {
-      "text": "4–8",
-      "of": "d12b05b8",
-      "at": [
-        "cannon:dayInside.classes[18].gradeLabel"
-      ],
-      "t": "4–8"
-    },
-    {
-      "text": "Camera basics and composition with Danielle Sandlof",
-      "of": "753d981d",
-      "at": [
-        "cannon:dayInside.classes[19].desc"
-      ],
-      "t": "Baz kamera ak konpozisyon ak Danielle Sandlof"
+      "t": "Yon entwodiksyon nan fotografi. Enstriktè endividyèl"
     },
     {
       "text": "3–6",
       "of": "71b1a3ef",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel",
+        "cannon:dayInside.classes[1].gradeLabel",
         "charlotte-prep:dayInside.classes[4].gradeLabel",
         "charlotte-prep:dayInside.classes[8].gradeLabel"
       ],
       "t": "3–6"
     },
     {
-      "text": "Bead art with Dobbins & Fox",
-      "of": "5832d170",
+      "text": "Organization skills for Middle School, 7:30–8:00 a.m., before school. Individual instructor",
+      "of": "42f62174",
       "at": [
-        "cannon:dayInside.classes[20].desc"
+        "cannon:dayInside.classes[2].desc"
       ],
-      "t": "Atizay ak grenn ak Dobbins ak Fox"
+      "t": "Konpetans òganizasyon pou Middle School, 7:30–8:00 a.m., anvan lekòl. Enstriktè endividyèl"
+    },
+    {
+      "text": "5–8",
+      "of": "660365d3",
+      "at": [
+        "cannon:dayInside.classes[2].gradeLabel",
+        "cannon:dayInside.classes[11].gradeLabel"
+      ],
+      "t": "5–8"
+    },
+    {
+      "text": "A craft club. Individual instructor",
+      "of": "d4ff7fc6",
+      "at": [
+        "cannon:dayInside.classes[3].desc"
+      ],
+      "t": "Yon klib atizana. Enstriktè endividyèl"
+    },
+    {
+      "text": "JrK–2",
+      "of": "f32a20a3",
+      "at": [
+        "cannon:dayInside.classes[3].gradeLabel",
+        "cannon:dayInside.classes[13].gradeLabel",
+        "cannon:dayInside.classes[22].gradeLabel",
+        "cannon:dayInside.classes[23].gradeLabel"
+      ],
+      "t": "JrK–2"
+    },
+    {
+      "text": "Tennis with Cannon’s varsity tennis coaching staff",
+      "of": "692bb940",
+      "at": [
+        "cannon:dayInside.classes[4].desc",
+        "cannon:dayInside.classes[11].desc"
+      ],
+      "t": "Tenis ak ekip antrenè tenis varsity Cannon yo"
     },
     {
       "text": "K–4",
       "of": "6492de3d",
       "at": [
-        "cannon:dayInside.classes[20].gradeLabel",
+        "cannon:dayInside.classes[4].gradeLabel",
+        "cannon:dayInside.classes[16].gradeLabel",
         "charlotte-prep:dayInside.classes[0].gradeLabel"
       ],
       "t": "K–4"
     },
     {
-      "text": "Painting and drawing with Danielle Lucas",
-      "of": "e404b9fa",
+      "text": "A Pokémon club. Individual instructor",
+      "of": "58d4dc0d",
+      "at": [
+        "cannon:dayInside.classes[5].desc"
+      ],
+      "t": "Yon klib Pokémon. Enstriktè endividyèl"
+    },
+    {
+      "text": "2–6",
+      "of": "dc4d67cc",
+      "at": [
+        "cannon:dayInside.classes[5].gradeLabel",
+        "cannon:dayInside.classes[10].gradeLabel",
+        "cannon:dayInside.classes[14].gradeLabel",
+        "cannon:dayInside.classes[20].gradeLabel"
+      ],
+      "t": "2–6"
+    },
+    {
+      "text": "String-instrument skills. Individual instructor",
+      "of": "b8f2970c",
+      "at": [
+        "cannon:dayInside.classes[6].desc"
+      ],
+      "t": "Konpetans enstriman a kòd. Enstriktè endividyèl"
+    },
+    {
+      "text": "3–8",
+      "of": "77b1ad61",
+      "at": [
+        "cannon:dayInside.classes[6].gradeLabel",
+        "charlotte-prep:dayInside.classes[2].gradeLabel"
+      ],
+      "t": "3–8"
+    },
+    {
+      "text": "A baking class. Individual instructor",
+      "of": "039f66ae",
+      "at": [
+        "cannon:dayInside.classes[7].desc"
+      ],
+      "t": "Yon klas patisri. Enstriktè endividyèl"
+    },
+    {
+      "text": "K–1",
+      "of": "5f92d65e",
+      "at": [
+        "cannon:dayInside.classes[7].gradeLabel"
+      ],
+      "t": "K–1"
+    },
+    {
+      "text": "A maker-space class. Individual instructor",
+      "of": "a373c8d9",
+      "at": [
+        "cannon:dayInside.classes[8].desc"
+      ],
+      "t": "Yon klas maker-space. Enstriktè endividyèl"
+    },
+    {
+      "text": "1–3",
+      "of": "aa9ea5ea",
+      "at": [
+        "cannon:dayInside.classes[8].gradeLabel"
+      ],
+      "t": "1–3"
+    },
+    {
+      "text": "Coached by Carolina Soccer Factory",
+      "of": "55c5f69b",
+      "at": [
+        "cannon:dayInside.classes[9].desc"
+      ],
+      "t": "Antrene pa Carolina Soccer Factory"
+    },
+    {
+      "text": "JrK–4",
+      "of": "f92a2a15",
+      "at": [
+        "cannon:dayInside.classes[9].gradeLabel",
+        "cannon:dayInside.classes[12].gradeLabel",
+        "cannon:dayInside.classes[21].gradeLabel",
+        "cannon:dayInside.classes[25].gradeLabel",
+        "cannon:dayInside.classes[30].gradeLabel"
+      ],
+      "t": "JrK–4"
+    },
+    {
+      "text": "Diamond-art projects. Individual instructor",
+      "of": "83ec038d",
+      "at": [
+        "cannon:dayInside.classes[10].desc"
+      ],
+      "t": "Pwojè diamond art. Enstriktè endividyèl"
+    },
+    {
+      "text": "Individual instructor",
+      "of": "c2e74de5",
+      "at": [
+        "cannon:dayInside.classes[12].desc",
+        "cannon:dayInside.classes[29].desc"
+      ],
+      "t": "Enstriktè endividyèl"
+    },
+    {
+      "text": "Taught by Le Petit Ballet Co.",
+      "of": "54903c06",
+      "at": [
+        "cannon:dayInside.classes[13].desc"
+      ],
+      "t": "Ansenye pa Le Petit Ballet Co."
+    },
+    {
+      "text": "Pottery on the wheel. Individual instructor",
+      "of": "21bb2035",
+      "at": [
+        "cannon:dayInside.classes[14].desc"
+      ],
+      "t": "Potri sou wou. Enstriktè endividyèl"
+    },
+    {
+      "text": "Ensemble strings with Cannon’s String Orchestra Director",
+      "of": "be9b40b7",
+      "at": [
+        "cannon:dayInside.classes[15].desc"
+      ],
+      "t": "Ansanm enstriman a kòd ak String Orchestra Director Cannon an"
+    },
+    {
+      "text": "1–8",
+      "of": "a19e97bf",
+      "at": [
+        "cannon:dayInside.classes[15].gradeLabel"
+      ],
+      "t": "1–8"
+    },
+    {
+      "text": "Lacrosse with Cannon School lacrosse coaches",
+      "of": "9b2f1dbe",
+      "at": [
+        "cannon:dayInside.classes[16].desc"
+      ],
+      "t": "Kwòs ak antrenè kwòs Cannon School yo"
+    },
+    {
+      "text": "Robot coding with Nexplore",
+      "of": "981427da",
+      "at": [
+        "cannon:dayInside.classes[17].desc"
+      ],
+      "t": "Pwogramasyon robo ak Nexplore"
+    },
+    {
+      "text": "Athletic development. Individual instructor",
+      "of": "1e12eca4",
+      "at": [
+        "cannon:dayInside.classes[18].desc"
+      ],
+      "t": "Devlopman atletik. Enstriktè endividyèl"
+    },
+    {
+      "text": "2–5",
+      "of": "df4d6c85",
+      "at": [
+        "cannon:dayInside.classes[18].gradeLabel",
+        "cannon:dayInside.classes[27].gradeLabel"
+      ],
+      "t": "2–5"
+    },
+    {
+      "text": "Run by Better Golf for Kids Academy",
+      "of": "e35d51f5",
+      "at": [
+        "cannon:dayInside.classes[19].desc"
+      ],
+      "t": "Dirije pa Better Golf for Kids Academy"
+    },
+    {
+      "text": "1–6",
+      "of": "a79ea131",
+      "at": [
+        "cannon:dayInside.classes[19].gradeLabel"
+      ],
+      "t": "1–6"
+    },
+    {
+      "text": "A ceramics class. Individual instructor",
+      "of": "5c6ac547",
+      "at": [
+        "cannon:dayInside.classes[20].desc"
+      ],
+      "t": "Yon klas seramik. Enstriktè endividyèl"
+    },
+    {
+      "text": "A running class. Individual instructor",
+      "of": "79379dd5",
       "at": [
         "cannon:dayInside.classes[21].desc"
       ],
-      "t": "Penti ak desen ak Danielle Lucas"
+      "t": "Yon klas kous. Enstriktè endividyèl"
     },
     {
-      "text": "K–3",
-      "of": "5d92d338",
+      "text": "Art with AR Workshop",
+      "of": "ada8f20e",
       "at": [
-        "cannon:dayInside.classes[21].gradeLabel"
+        "cannon:dayInside.classes[22].desc"
       ],
-      "t": "K–3"
+      "t": "Atizay ak AR Workshop"
     },
     {
-      "text": "Private music lessons run alongside for K–8: cello $25/class (Mon/Wed), guitar $25 (Wed/Fri), voice $30 (Tue/Thu), piano $30 (Mon/Tue/Thu) and violin or viola $30 (Tue/Thu).",
-      "of": "1bb78a11",
+      "text": "Run by Kidokinetics of North Charlotte",
+      "of": "8dd86e42",
+      "at": [
+        "cannon:dayInside.classes[23].desc"
+      ],
+      "t": "Dirije pa Kidokinetics of North Charlotte"
+    },
+    {
+      "text": "Taught by Concord TaeKwonDo Inc.",
+      "of": "3242095f",
+      "at": [
+        "cannon:dayInside.classes[24].desc"
+      ],
+      "t": "Ansenye pa Concord TaeKwonDo Inc."
+    },
+    {
+      "text": "1–5",
+      "of": "a49e9c78",
+      "at": [
+        "cannon:dayInside.classes[24].gradeLabel"
+      ],
+      "t": "1–5"
+    },
+    {
+      "text": "Cheer with Overtime Athletics",
+      "of": "1aa0fba0",
+      "at": [
+        "cannon:dayInside.classes[25].desc"
+      ],
+      "t": "Cheerleading ak Overtime Athletics"
+    },
+    {
+      "text": "Taught by the Charlotte Chess Center head coach",
+      "of": "f5fe7acf",
+      "at": [
+        "cannon:dayInside.classes[26].desc"
+      ],
+      "t": "Ansenye pa antrenè prensipal Charlotte Chess Center la"
+    },
+    {
+      "text": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "cannon:dayInside.classes[26].gradeLabel",
+        "trinity-episcopal:dayInside.classes[0].gradeLabel",
+        "trinity-episcopal:dayInside.classes[1].gradeLabel",
+        "trinity-episcopal:dayInside.classes[2].gradeLabel"
+      ],
+      "t": "K–8"
+    },
+    {
+      "text": "Magic with Nexplore",
+      "of": "0b37a651",
+      "at": [
+        "cannon:dayInside.classes[27].desc"
+      ],
+      "t": "Maji ak Nexplore"
+    },
+    {
+      "text": "A cooking class. Individual instructor",
+      "of": "6a5d3918",
+      "at": [
+        "cannon:dayInside.classes[28].desc"
+      ],
+      "t": "Yon klas kizin. Enstriktè endividyèl"
+    },
+    {
+      "text": "5–7",
+      "of": "73037a4a",
+      "at": [
+        "cannon:dayInside.classes[28].gradeLabel"
+      ],
+      "t": "5–7"
+    },
+    {
+      "text": "K–6",
+      "of": "6292db17",
+      "at": [
+        "cannon:dayInside.classes[29].gradeLabel"
+      ],
+      "t": "K–6"
+    },
+    {
+      "text": "A LEGO class. Individual instructor",
+      "of": "8e0b917b",
+      "at": [
+        "cannon:dayInside.classes[30].desc"
+      ],
+      "t": "Yon klas LEGO. Enstriktè endividyèl"
+    },
+    {
+      "text": "Private music lessons run alongside for K–12: piano $30/class (Mon/Tue, and Wed/Thu/Fri with a second teacher), violin or viola $30 (Tue/Thu), voice $30 for grades 2–12 (Tue/Thu/Fri), cello $25 (Mon–Thu) and guitar $25 (Tue/Wed/Thu).",
+      "of": "d303045f",
       "at": [
         "cannon:dayInside.flags[0].text"
       ],
-      "t": "Leson mizik prive fonksyone akote pou K–8: chèlo $25/klas (len/mèk), gita $25 (mèk/van), vwa $30 (mad/jed), pyano $30 (len/mad/jed) ak vyolon oswa alto $30 (mad/jed)."
-    },
-    {
-      "text": "This is the **2025-26 Session 3** catalog — the newest published. No 2026-27 Beyond the Bell catalog has been posted yet, so the specific classes will change even though the price band and structure are likely to hold.",
-      "of": "bd097f64",
-      "at": [
-        "cannon:dayInside.flags[1].text"
-      ],
-      "t": "Sa a se katalòg **Sesyon 3 2025-26** la — pi nouvo ki pibliye. Pa gen okenn katalòg Beyond the Bell 2026-27 ki afiche ankò, kidonk klas espesifik yo ap chanje menm si bann pri a ak estrikti a gen anpil chans rete menm jan."
+      "t": "Leson mizik prive fonksyone akote pou K–12: pyano $30/klas (len/mad, epi mèk/jed/van ak yon dezyèm pwofesè), vyolon oswa alto $30 (mad/jed), vwa $30 pou grad 2–12 (mad/jed/van), chèlo $25 (len–jed) ak gita $25 (mad/mèk/jed)."
     },
     {
       "text": "No hour-by-hour daily rhythm and no staff-to-child ratios are published for the After School Program itself. Middle School has no separate program description: grades 5–8 sit inside the same JrK–8 program.",
       "of": "9c982864",
       "at": [
-        "cannon:dayInside.flags[2].text"
+        "cannon:dayInside.flags[1].text"
       ],
       "t": "Pa gen okenn ritm chak jou èdtan pa èdtan ak pa gen okenn rapò estaf-a-timoun ki pibliye pou After School Program nan li menm. Middle School pa gen okenn deskripsyon pwogram apa: grad 5–8 chita anndan menm pwogram JrK–8 la."
     },
@@ -4793,28 +4845,28 @@
       "t": "**Yon nechèl pri ki byen file** — senk jou koute sèlman anviwon 3.7× to yon jou a, kidonk moun ki sèvi anpil jwenn yon vrè rabè olye ke yon bòdwo lineyè."
     },
     {
-      "text": "**A large, fully priced enrichment catalog** — 22 distinct classes in a single session, from robotics and ballet to sculpture, golf and photography. Each has a named provider and a real fee.",
-      "of": "591807b0",
+      "text": "**A large, fully priced enrichment catalog** — 31 distinct classes in a single session, from robot coding and ballet to pottery, golf and photography. Each has a real fee.",
+      "of": "c7483779",
       "at": [
         "cannon:verdict.strengths[4]"
       ],
-      "t": "**Yon gwo katalòg anrichisman ak tout pri** — 22 klas diferan nan yon sèl sesyon, soti nan robotik ak balè rive nan eskilti, gòlf ak fotografi. Chak klas gen yon founisè ki gen non ak yon vrè frè."
+      "t": "**Yon gwo katalòg anrichisman ak tout pri** — 31 klas diferan nan yon sèl sesyon, soti nan pwogramasyon robo ak balè rive nan potri, gòlf ak fotografi. Chak klas gen yon vrè frè."
     },
     {
-      "text": "**Enrichment is modestly priced and transparent** — $18–$30 per class and $160–$300 for the session of 8 or 10 classes, with full refunds for canceled classes and a make-up week.",
-      "of": "6274a884",
+      "text": "**Enrichment is modestly priced and transparent** — $15–$30 per class and $125–$240 for a session of 5–15 meetings. A family may cancel within the first week and pay only for the class attended. A canceled class is made up where possible.",
+      "of": "8aba83f9",
       "at": [
         "cannon:verdict.strengths[5]"
       ],
-      "t": "**Anrichisman gen pri modès ak transparan** — $18–$30 pa klas ak $160–$300 pou sesyon 8 oswa 10 klas la, ak ranbousman konplè pou klas yo anile ak yon semèn pou ranplase."
+      "t": "**Anrichisman gen pri modès ak transparan** — $15–$30 pa klas ak $125–$240 pou yon sesyon 5–15 rankont. Yon fanmi ka anile nan premye semèn nan epi peye sèlman pou klas timoun nan te ale a. Lè yon klas anile, yo ranplase l si sa posib."
     },
     {
-      "text": "**An executive-function class for Middle School** (\"Let’s Get Organized\") — a genuinely unusual offering at this age.",
-      "of": "4ab6a038",
+      "text": "**An organization-skills class for Middle School** (\"Let’s Get Organized\"), twice a week before school — a genuinely unusual offering at this age.",
+      "of": "77a48c2d",
       "at": [
         "cannon:verdict.strengths[6]"
       ],
-      "t": "**Yon klas fonksyon egzekitif pou Middle School** (“Let’s Get Organized”) — yon ofrann vrèman pa abityèl nan laj sa a."
+      "t": "**Yon klas konpetans òganizasyon pou Middle School** (“Let’s Get Organized”), de fwa pa semèn anvan lekòl — yon ofrann vrèman pa abityèl nan laj sa a."
     },
     {
       "text": "**No after-school coverage for grades 9–12 at all.** A family with an Upper Schooler and a Lower Schooler gets care for only one.",
@@ -6871,12 +6923,12 @@
       "t": "Ki opsyon gadri ki egziste nan ete a, piske pwogram nan fèmen — pi lwen pase kan demi-jounen yo?"
     },
     {
-      "text": "Care runs to 5:30 pm for Pre-K through 8th grade. The Lower School tier starts at 3:00 and the Middle School tier at 3:15.",
-      "of": "fecea180",
+      "text": "Care runs to 5:30 pm for Preschool through 8th grade. The Lower School tier starts at 3:00 and the Middle School tier at 3:15.",
+      "of": "61235bc4",
       "at": [
         "gaston-day:coverage.headline"
       ],
-      "t": "Swen kouri jiska 5:30 pm pou Pre-K rive 8yèm grad. Nivo Lower School la kòmanse a 3:00 epi nivo Middle School la a 3:15."
+      "t": "Swen kouri jiska 5:30 pm pou Preschool rive 8yèm grad. Nivo Lower School la kòmanse a 3:00 epi nivo Middle School la a 3:15."
     },
     {
       "text": "Both tiers end at 5:30. The school publishes one afternoon schedule, starting at 3:15.",
@@ -7015,12 +7067,12 @@
       "t": "Pa gen swen Upper School"
     },
     {
-      "text": "The program covers **Pre-K through 8th grade only**. No after-school care is published for grades 9–12, which is common but worth stating.",
-      "of": "a27225ab",
+      "text": "The program covers **Preschool through 8th grade only**. No after-school care is published for grades 9–12, which is common but worth stating.",
+      "of": "ba0c1c4b",
       "at": [
         "gaston-day:coverage.facts[5].text"
       ],
-      "t": "Pwogram nan kouvri **Pre-K rive 8yèm grad sèlman**. Pa gen okenn swen apre lekòl ki pibliye pou grad 9–12, sa ki komen men ki vo lapèn deklare."
+      "t": "Pwogram nan kouvri **Preschool rive 8yèm grad sèlman**. Pa gen okenn swen apre lekòl ki pibliye pou grad 9–12, sa ki komen men ki vo lapèn deklare."
     },
     {
       "text": "Aftercare costs $100 a week for the Lower School and $60 for the Middle School.",
@@ -7537,12 +7589,12 @@
       "t": "**Gen yon aktivite gwoup estriktire chak jou** ki bati otou STEAM ak kolaborasyon, kidonk apremidi a pa sèlman gadyen timoun."
     },
     {
-      "text": "**Coverage spans Pre-K through 8th grade** in two tiers, both running to 5:30 pm.",
-      "of": "55e040df",
+      "text": "**Coverage spans Preschool through 8th grade** in two tiers, both running to 5:30 pm.",
+      "of": "a5a8e713",
       "at": [
         "gaston-day:verdict.strengths[4]"
       ],
-      "t": "**Kouvèti a kouvri Pre-K rive 8yèm grad** nan de nivo, ki tou de kouri jiska 5:30 pm."
+      "t": "**Kouvèti a kouvri Preschool rive 8yèm grad** nan de nivo, ki tou de kouri jiska 5:30 pm."
     },
     {
       "text": "**It interlocks with music lessons**, letting Middle School students do homework free while waiting.",
@@ -7657,12 +7709,12 @@
       "t": "Èske gen èd finansye pou swen apre lekòl, jan sa ye pou frè eskolè, oswa yon rabè pou frè ak sè?"
     },
     {
-      "text": "How is the 5th–8th grade tier supervised differently from the Pre-K–4th tier?",
-      "of": "3bc8eeb5",
+      "text": "How is the 5th–8th grade tier supervised differently from the Preschool–4th tier?",
+      "of": "88b837f1",
       "at": [
         "gaston-day:verdict.checklist[6]"
       ],
-      "t": "Kijan yo sipèvize nivo 5yèm–8yèm grad la yon fason diferan de nivo Pre-K–4yèm nan?"
+      "t": "Kijan yo sipèvize nivo 5yèm–8yèm grad la yon fason diferan de nivo Preschool–4yèm nan?"
     },
     {
       "text": "One K–8 program, Trinity Extended Day, runs from dismissal to 6:00 p.m. at one monthly rate: $380, or $355 for each additional sibling.",
@@ -7939,16 +7991,6 @@
         "trinity-episcopal:dayInside.classes[2].desc"
       ],
       "t": "Lekòl la site l kòm yon egzanp yon anrichisman sezonye TED; jou, bann ane ak frè pa pibliye."
-    },
-    {
-      "text": "K–8",
-      "of": "5892cb59",
-      "at": [
-        "trinity-episcopal:dayInside.classes[0].gradeLabel",
-        "trinity-episcopal:dayInside.classes[1].gradeLabel",
-        "trinity-episcopal:dayInside.classes[2].gradeLabel"
-      ],
-      "t": "K–8"
     },
     {
       "text": "Named by the school as an example of a seasonal TED enrichment; day, grade band and fee are not published. Separately, the 2026-27 School Profile lists Girls on the Run & Let Me Run as Lower School clubs.",
@@ -8479,6 +8521,14 @@
       "t": "Jwe teyat ak kominikasyon, ki fini ak yon ti pèfòmans Reader’s Theatre enfòmèl."
     },
     {
+      "text": "K–2",
+      "of": "5e92d4cb",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
+      ],
+      "t": "K–2"
+    },
+    {
       "text": "Audition for and perform a one-act play.",
       "of": "e1c0cf53",
       "at": [
@@ -8493,6 +8543,15 @@
         "charlotte-prep:dayInside.classes[3].desc"
       ],
       "t": "Akò ak fason pou grate kòd yo."
+    },
+    {
+      "text": "3–5",
+      "of": "72b1a582",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
+      ],
+      "t": "3–5"
     },
     {
       "text": "Tinker, design, build and test in the STEM Lab.",

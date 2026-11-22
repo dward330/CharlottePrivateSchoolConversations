@@ -334,6 +334,7 @@ const CANNON: ClubCatalog = {
     { name: 'Upper School Student Council', cat: 'gov', note: 'Elected Upper School student governance body' },
     { name: 'Middle School Student Council', cat: 'gov', note: 'Grades 5–8, ~4 elected students per grade; plans events and supports student life' },
     { name: 'Lower School Student Council', cat: 'gov', note: 'Elected Lower School leadership; year-long core-values initiatives' },
+    { name: 'Honor Council', cat: 'gov', note: 'Student-elected Upper School body, which the school calls “a model of community governance and integrity”' },
     // Service (named clubs / teams)
     { name: 'Habitat Club', cat: 'svc', note: 'Upper School service club; Habitat for Humanity builds incl. Winterm trips' },
     { name: 'Special Olympics Team (MS)', cat: 'svc', note: 'Middle School team coordinating volunteers for the Special Olympics of Cabarrus County' },
@@ -362,7 +363,7 @@ const CANNON: ClubCatalog = {
     },
   ],
   source:
-    'cannonschool.org — Upper / Middle / Lower School Student Life · Esports · Student Profile · Deans’ Daily Download (named orgs only; no public chartered directory)',
+    'cannonschool.org — Upper / Middle / Lower School Student Life · Upper School overview (cannonschool.org/academics/upper-school) · Esports · Student Profile · Deans’ Daily Download (named orgs only; no public chartered directory)',
 }
 
 // ── Charlotte Christian ── the fullest enumerated roster of the honest-gap set:
@@ -624,7 +625,7 @@ const GASTON_DAY: ClubCatalog = {
   verdict:
     'Nine organizations the school names itself. The standout: a VEX Robotics club that reached TSA Nationals in its first year.',
   verdictHint:
-    'The school publishes no full clubs list. Its Upper School page names three clubs and says students can start a new one with a faculty sponsor; its Academic Profile names the rest.',
+    'The school publishes no full clubs list. Its Upper School page names three clubs and the Student Government, and says students can start a new one with a faculty sponsor. Its Academic Profile names the rest.',
   countNoun: 'named orgs',
   categories: [
     { key: 'stem', short: 'STEM & competitive', full: 'STEM / competitive' },

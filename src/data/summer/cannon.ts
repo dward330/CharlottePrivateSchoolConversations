@@ -280,7 +280,7 @@ export const cannon: SummerProgram = {
       },
       {
         name: 'Leadership Launch!',
-        desc: 'The oldest camp in the catalog — leadership for teens.',
+        desc: 'Leadership for teens, ages 14 to 17.',
         category: 'stem',
         categoryLabel: 'STEM & Academics',
         grades: ['a1317'],
@@ -463,7 +463,7 @@ export const cannon: SummerProgram = {
       },
       {
         name: "We're Going to the Park",
-        desc: 'A different Concord park every day — the school’s most-repeated outdoor camp.',
+        desc: 'A different Concord park every day, offered in four weeks.',
         category: 'sports',
         categoryLabel: 'Sports & Games',
         grades: ['a46', 'a79'],

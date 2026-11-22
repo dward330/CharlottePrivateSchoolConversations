@@ -241,7 +241,7 @@ const CHARLOTTE_CHRISTIAN: ClubClusters = {
 // program (repeat conference awards). From
 // src/content/student-clubs/charlotte-country-day.json.
 const CHARLOTTE_COUNTRY_DAY: ClubClusters = {
-  verdict: 'Model UN is the flagship, with repeat conference awards.',
+  verdict: 'Model UN and World Quest lead, with repeat awards and wins.',
   verdictHint: 'Open any row for the full research note and its source.',
   rows: [
     {
@@ -259,6 +259,22 @@ const CHARLOTTE_COUNTRY_DAY: ClubClusters = {
       evidenceLabel: 'Named only',
       note: 'Robotics is confirmed by name via student profiles in the news archive, but no public competition results (FIRST, VEX, or similar) surfaced for the Upper School program.',
       source: 'charlottecountryday.org — school news (scholarship nominee profiles)',
+    },
+    {
+      name: 'World Quest',
+      oneLiner: 'First place at Academic WorldQuest “nearly every year,” the school says',
+      evidence: 'reported',
+      evidenceLabel: 'School-reported',
+      note: 'The school’s International Studies page says students “finish in first place at the Academic WorldQuest competition nearly every year.” It also counts 23 wins across Academic WorldQuest, Euro Challenge and Model UN conferences combined. It does not list the years.',
+      source: 'charlottecountryday.org/cd-education/international-studies — International Studies',
+    },
+    {
+      name: 'Euro Challenge',
+      oneLiner: 'An Upper School team, counted in the school’s 23 combined wins',
+      evidence: 'reported',
+      evidenceLabel: 'School-reported',
+      note: 'The school lists Euro Challenge among its Upper School international programs. Its count of 23 wins combines Euro Challenge, Academic WorldQuest and Model UN conferences. It does not say how many came from Euro Challenge.',
+      source: 'charlottecountryday.org/cd-education/international-studies — International Studies',
     },
   ],
 }
@@ -363,7 +379,7 @@ const CARMEL_CHRISTIAN: ClubClusters = {
 // clubs" row was removed in plan thespianname, and the iGEM row in plan
 // consistency4 (no proof the team is still active).
 const GASTON_DAY: ClubClusters = {
-  verdict: 'A first-year VEX Nationals qualification anchors what the school itself names.',
+  verdict: 'The top result the school names is a first-year VEX Nationals qualification.',
   verdictHint: 'Open any row for the full research note and its source.',
   rows: [
     {
@@ -396,7 +412,7 @@ const GASTON_DAY: ClubClusters = {
 // ── Charlotte Catholic ── the competitive slate is genuinely thin in public
 // relative to the school's size: 76 clubs, but almost none publish results. The
 // strongest documented competitive outcome anywhere in the research is the
-// Blumey Awards theatre record (five finalists in 2025), which belongs to The
+// Blumey Awards theatre record (fifteen finalist places, 2024-26), which belongs to The
 // Arts rather than here. Speech & Debate has a real competitive history but the
 // only coverage found is from 2017 — nine years old — so it is recorded as
 // reported rather than verified, with the staleness stated in the note.

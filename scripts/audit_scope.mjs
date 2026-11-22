@@ -583,11 +583,14 @@ export function printScope(scope, { prefix = '' } = {}) {
 /**
  * The visits a date/money audit makes for one locale, in order. Full mode is
  * the old sweep (every school, every Compare topic, every checklist band);
- * scoped mode is the scope's pages, Compare topics and checklists only. Each
+ * scoped mode is the scope's pages, Compare topics and checklists only. A checklist
+ * is visited at its default band and at each key in that school's own guide
+ * (checklistBands(), plan consistency5 7c: a fixed list named 6 of the 26). Each
  * visit is { kind: 'school'|'compare'|'checklist', url, label, roots?, admissions? }:
  * `roots` set means scan only the scoped cards and areas (a whole page has none).
  */
 export function planVisits(scope, { base, lang, slugs, compareTopics, bands }) {
+  if (!(bands instanceof Map)) throw new Error('planVisits: bands is the Map from checklistBands()')
   const out = []
   const pages = scope.full ? slugs.map((slug) => ({ slug, whole: true, areas: {} })) : scope.pages
   for (const p of pages) {
@@ -606,10 +609,24 @@ export function planVisits(scope, { base, lang, slugs, compareTopics, bands }) {
     out.push({ kind: 'compare', url: `${base}/compare/?${q}`, label: `/compare/ ${topic}`, route: `/compare/ ${topic}`, roots: null, admissions: true })
   }
   for (const s of scope.full ? slugs : slugs.filter((x) => scope.checklist.has(x))) {
-    for (const band of bands) {
+    for (const band of ['', ...(bands.get(s) ?? [])]) {
       const q = new URLSearchParams(band ? { band, lang } : { lang })
       out.push({ kind: 'checklist', url: `${base}/school/${s}/admissions-checklist/?${q}`, label: `/school/${s}/admissions-checklist/ ${band || '(default)'}`, route: `/school/${s}/admissions-checklist/ ${band || '(default)'}` })
     }
+  }
+  return out
+}
+
+/** slug → that school's `guide.bands[].key`, read from its Admissions module. */
+export async function checklistBands(slugs) {
+  const out = new Map()
+  for (const slug of slugs) {
+    const file = new URL(`../src/data/admissionsPrograms/${slug}.ts`, import.meta.url)
+    if (!existsSync(file)) continue // no Admissions area, so no checklist
+    const program = Object.values(await import(file.href)).find((v) => v?.guide)
+    const keys = program?.guide?.bands?.map((b) => b.key) ?? []
+    if (!keys.length) throw new Error(`checklistBands: ${slug} has an Admissions module and no bands`)
+    out.set(slug, keys)
   }
   return out
 }

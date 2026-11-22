@@ -84,7 +84,7 @@ export const providenceDay: AfterSchoolProgram = {
       },
     ],
     summer: {
-      season: 'JUN–AUG',
+      season: 'JUN–JUL',
       text: '**Summer at Providence Day** carries coverage year-round — nine sessions, separate registration at summer.providenceday.org. Extended Day itself closes on the last day of school.',
     },
     facts: [

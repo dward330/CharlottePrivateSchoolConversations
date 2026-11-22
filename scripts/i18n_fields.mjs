@@ -929,6 +929,10 @@ export const WORDED_VALUES = new Map([
   ['sections[].stats[].value', /[A-Za-z]{2}/],
   // 'Choir (7th–8th, in the course catalog)' — a hedge inside a name
   ['music.tracks[].ensembles[]', /\bin the course catalog\b/],
+  // 'Earlier (year not published)' in the Blumey ledger's year column — never '2026' or '~2015'
+  ['theatre.ledger[].year', /[A-Za-z]{4}/],
+  // 'Mean Girls: High School Version (listed by Blumenthal as …)' — an attribution beside a title
+  ['theatre.ledger[].show', /\(listed by /],
 ])
 
 /**

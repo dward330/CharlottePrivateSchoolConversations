@@ -30,9 +30,10 @@ The repeatable version of three rounds that were run by hand:
 Each round's lesson is the reason this is a recurring skill and not a one-off. **The defect
 regenerates.** Almost every count on a page is typed by hand, and only the list beneath it is
 real data, so a typed figure drifts as its list grows. And a fix lands in one card while a
-second card restates the old value. The `check:consistency` build gate (R1–R11) catches the
+second card restates the old value. The `check:consistency` build gate (R1–R12) catches the
 shapes it was written for; everything else needs someone to read the pages. Rules R9–R11 were
-themselves written from the round-2 re-scan's findings, so a scan also feeds the gate.
+themselves written from the round-2 re-scan's findings, and R12 (one college, one conference
+across every roster) from round 5's, so a scan also feeds the gate.
 
 The flow is **mode → preflight → build + dump → mechanical pass → parallel sweeps → verify +
 consolidate → report → `/plan` → `/implement` (with an adversarial review before the English

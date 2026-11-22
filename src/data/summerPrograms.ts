@@ -115,6 +115,11 @@ export type CampCatalog = {
   dayFilters: string[]
   /** Grade-band filter chips. Empty hides the grade filter. */
   gradeFilters: { token: string; label: string }[]
+  /**
+   * The school indexes its camps by age, not by grade: the filter reads "Age" and the
+   * column "Ages". The tokens are unchanged. (Plan consistency5, LAT-U14.)
+   */
+  agesNotGrades?: boolean
   /** The camps. */
   camps: Camp[]
   flags: SuFlag[]

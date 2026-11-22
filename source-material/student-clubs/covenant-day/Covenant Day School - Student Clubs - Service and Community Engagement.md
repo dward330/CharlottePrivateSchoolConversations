@@ -32,3 +32,9 @@ trips to Spain, Haiti, Belize, and Pine Ridge.
 **No service-hour requirement and no annual-hours total** is published — the
 model is program-based ("students serve together, then reflect"), not
 hours-logging. Confirmed absence.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.covenantday.org/campus-life/service (fetched): "Each year, our fourth grade students head out into the community to serve at nearly twenty different sites for Goodness Gorillas".

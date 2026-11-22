@@ -193,3 +193,10 @@ the app carries on cards 1c and 1d. **Card 1g is therefore omitted for Latin.**
 - Collapsing boys' and girls' entries, those 24 are **16 distinct sports**, not 17. The page
   names no 17th sport. The school's "17 sports" and its own directory therefore disagree by one;
   which sport the 17th is (if any) is not published.
+
+### Re-verification 2026-11-22 (plan consistency5, planning)
+
+https://archives.ncisaa.org/index.php?sport=11&currentyear=1: 2026 4A girls tennis
+champion "#1 Charlotte Latin School (17-2)", 5-0 over Providence Day.
+https://archives.ncisaa.org/index.php?sport=12&currentyear=1: 2026 4A volleyball, out in the semifinals.
+https://archives.ncisaa.org/index.php?sport=9&currentyear=1: 2026 Division 1 field hockey, out in the semifinals.

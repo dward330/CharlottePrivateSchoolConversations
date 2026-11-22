@@ -99,9 +99,10 @@ export const covenantDay: ArtsProgram = {
       { year: '2025', show: 'National Shakespeare Competition', result: 'A student named Finalist' },
     ],
     honestContext:
-      'The ledger goes quiet after 2019 at the Blumeys. The school’s own theater page has no Blumey entry after 2019. Production titles are not published, so Curtains is the only show known by name. The Shakespeare finalist shows the program is still producing results.',
+      'No Blumey recognition is on record after 2019, though Covenant Day competed in 2022. The school’s own theater page has no Blumey entry after 2019. Production titles are not published, so Curtains is the only show known by name. The Shakespeare finalist shows the program is still producing results.',
     sources: [
       { label: 'covenantday.org — Theater (ledger, courses, categories)', url: THEATER },
+      { label: 'Blumenthal Arts — 2022 winners (lists the competing schools)', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announced-the-9th-annual-blumey-awards-winners' },
       {
         label: 'Blumenthal Arts — Blumey nominees (names Curtains)',
         url: 'https://www.blumenthalarts.org/about-us/news/detail/blumenthal-announces-blumey-awards-nominees',
@@ -194,7 +195,7 @@ export const covenantDay: ArtsProgram = {
       },
     ],
     ask: [
-      'What was the last high school musical, and when did the program last enter the Blumeys? The public ledger stops in 2019.',
+      'What was the last high school musical? Have you entered the Blumeys since 2022? The last recognition on record is from 2019.',
       'Ensemble sizes: how many students are in Symphonic Band and HS Choir this year? No participation figure is published.',
       'Is there any strings/orchestra pathway, or dance? Neither appears in the program.',
       'How does the 200-seat Lions Theater handle demand for the HS musical — how fast do public tickets go after the Arts Association pre-sale?',

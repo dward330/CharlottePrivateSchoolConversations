@@ -144,8 +144,8 @@ they exist.
   https://www.charlottelatin.org/the-arts/arts-calendar
 - **[NOT FOUND]** Named auditioned sub-ensembles — no jazz band, no a cappella group, no
   chamber orchestra, no show choir, no wind ensemble/symphonic band tiering is published
-  anywhere on the arts pages. Latin's public ensemble picture is one band, one orchestra, one
-  choir per division plus a Community Chorale.
+  anywhere on the arts pages. Latin's public ensemble picture is band, orchestra and choir,
+  each open to grades 5–12, plus a Community Chorale.
 
 ### Facilities
 
@@ -325,7 +325,7 @@ https://www.charlottelatin.org/the-arts/performing
 - **[NOT FOUND]** Latin publishes **no auditioned sub-ensembles** — no jazz ensemble, no
   a cappella, no chamber group, no honors/select choir. This is worth stating plainly: unlike
   peers that tier band into concert/symphonic/wind ensemble by audition, Latin's public music
-  structure appears to be single-track per division. There is "a place for both the most
+  structure is band, orchestra and choir, each open to grades 5–12 with no auditioned tier. There is "a place for both the most
   advanced student and those trying something new for the first time" — the school's own
   framing suggests deliberate inclusivity over tiering. **[SCHOOL-CLAIM]**
   https://www.charlottelatin.org/the-arts/performing
@@ -554,7 +554,7 @@ list with Gold Key / Silver Key / Honorable Mention counts by year.
    theatre or technical director. Who actually leads each ensemble and the theatre, and how
    long have they been here?"** (Turnover and thin naming often travel together.)
 
-4. **"There's one band, one orchestra, and one choir per division with no auditioned or
+4. **"There's band, orchestra and choir for grades 5–12, with no auditioned or
    tiered ensembles published — no jazz band, no a cappella, no chamber or wind ensemble. How
    does an advanced player who's already at All-State level keep progressing here rather than
    coasting?"** ([name withheld]'s case makes this concrete.)
@@ -858,3 +858,29 @@ left out on purpose.
 - https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
 
 2026: five finalists and no nomination. 2025: five finalists beside the stage-manager nomination.
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://www.charlottelatin.org/the-arts/performing (fetched 2026-11-22, HTTP 200): "Band (Grades
+  5-12)", "Orchestra (Grades 5-12)", "Concert Choir (Grades 5-12)". The page does not say "one per
+  division".
+- Blumenthal's 2023 and 2024 nominee and finalist PDFs, read from copies saved earlier on
+  2026-11-22, with no new request to that site. Student names are left out on purpose. In each year
+  Charlotte Latin is listed five times, once under each of "Finalists for Best Actor", "Best
+  Actress", "Best Supporting Actor", "Best Supporting Actress" and "Best Featured Performer": for
+  Shrek the Musical (2023) and Mean Girls High School Edition (2024).
+
+### Re-verification 2026-11-22 (plan consistency5, planning)
+
+Read from copies of Blumenthal's lists saved during plan consistency4. The site refuses automated
+fetches, so it was not requested again. Roles only: no student is named. Five finalist entries,
+always in this order: Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress,
+Best Featured Performer.
+
+| year | show | five finalist roles |
+|---|---|---|
+| 2023 | Shrek the Musical | Farquad; Fiona; Pinocchio; Dragon; Gingy/Wicked Witch |
+| 2024 | Mean Girls High School Edition | Damien; Cady Herron; Aaron Samuels; Karen Smith; Kevin G. |
+
+2023: https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf
+2024: https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf

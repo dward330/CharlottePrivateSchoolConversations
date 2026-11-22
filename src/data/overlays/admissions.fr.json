@@ -93,7 +93,6 @@
         "charlotte-latin:guide.bands[3].checklistRows[6].due",
         "charlotte-latin:guide.comparison.rows[0].cells.ls",
         "charlotte-latin:guide.comparison.rows[0].cells.ms",
-        "charlotte-latin:guide.comparison.rows[0].cells.us",
         "charlotte-christian:guide.stats[1].value",
         "charlotte-christian:guide.bands[0].checklistRows[3].due",
         "charlotte-christian:guide.bands[0].checklistRows[4].due",
@@ -136,7 +135,6 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
-        "charlotte-latin:guide.stats[1].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ]
@@ -1572,10 +1570,17 @@
       ]
     },
     {
-      "t": "date limite de candidature pour TK/Kindergarten — 13 jours avant tous les autres niveaux",
-      "of": "af3286a6",
+      "t": "date limite de candidature pour TK/Kindergarten — 13 jours avant les niveaux 1–11",
+      "of": "0e0e9a6a",
       "at": [
         "charlotte-latin:guide.stats[0].label"
+      ]
+    },
+    {
+      "t": "date limite de candidature pour les niveaux 1–11",
+      "of": "5ce9158d",
+      "at": [
+        "charlotte-latin:guide.stats[1].label"
       ]
     },
     {
@@ -1626,8 +1631,7 @@
       "at": [
         "charlotte-latin:guide.bands[0].deadlines[0].label",
         "charlotte-latin:guide.bands[1].deadlines[0].label",
-        "charlotte-latin:guide.bands[2].deadlines[0].label",
-        "charlotte-latin:guide.bands[3].deadlines[0].label"
+        "charlotte-latin:guide.bands[2].deadlines[0].label"
       ]
     },
     {
@@ -1690,8 +1694,8 @@
       ]
     },
     {
-      "t": "Facultatif, non obligatoire. Le **TK/K Fly By Open House du 10 octobre 2026, de 9:30 à 11:00 a.m.** est le seul événement daté publié pour ce niveau. Les visites du campus commencent en septembre et se poursuivent toute l’année scolaire. Portes ouvertes, visites et sessions virtuelles se réservent toutes depuis votre compte sur le portail.",
-      "of": "0b83f028",
+      "t": "Facultatif, non obligatoire. Deux événements datés sont publiés pour ce niveau. Le **TK/K Fly By Open House** a lieu de 9:30 à 11:00 a.m. le 10 octobre 2026. Un **café-table ronde pour les parents de candidats TK/K** a lieu de 9:30 à 11:00 a.m. le 20 janvier 2027. Les visites du campus commencent en septembre et se poursuivent toute l’année scolaire. Portes ouvertes, visites et sessions virtuelles se réservent toutes depuis votre compte sur le portail.",
+      "of": "cb1d064a",
       "at": [
         "charlotte-latin:guide.bands[0].steps[1].detail"
       ]
@@ -1707,8 +1711,8 @@
       ]
     },
     {
-      "t": "Obligatoire, à déposer avant le **2 janvier 2027**. C’est treize jours avant tous les autres niveaux de l’école. L’échéance de ce niveau tombe donc dans la première semaine de janvier, et non à la mi-janvier. **Aucune limite d’âge ni date de naissance n’est publiée** pour la Transitional Kindergarten ni pour la Kindergarten. L’école décrit la TK seulement en termes généraux, comme « conçue pour des enfants qui viennent d’avoir cinq ans et sont prêts pour la Kindergarten », sans indiquer de date. Demandez au bureau des admissions où se situe votre enfant. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions. L’annonce dit K-12 : elle ne précise donc pas si elle couvre la TK.",
-      "of": "3c4bf219",
+      "t": "Obligatoire, à déposer avant le **2 janvier 2027**. C’est treize jours avant les niveaux 1–11. L’échéance de ce niveau tombe donc dans la première semaine de janvier, et non à la mi-janvier. **Aucune limite d’âge ni date de naissance n’est publiée** pour la Transitional Kindergarten ni pour la Kindergarten. L’école décrit la TK seulement en termes généraux, comme « designed for children that are newly five and ready for Kindergarten » (conçue pour des enfants qui viennent d’avoir cinq ans et sont prêts pour la Kindergarten), sans indiquer de date. Demandez au bureau des admissions où se situe votre enfant. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions. L’annonce dit K-12 : elle ne précise donc pas si elle couvre la TK.",
+      "of": "3ddeb149",
       "at": [
         "charlotte-latin:guide.bands[0].steps[2].detail"
       ]
@@ -1752,8 +1756,8 @@
       ]
     },
     {
-      "t": "Obligatoire. Les candidats à ce niveau passent le **WPPSI**. Un psychologue du consortium Charlotte Area Independent Schools fait passer le test. Le test « doit être programmé à l’avance ». Vous contactez directement le psychologue et demandez que les résultats soient envoyés à Charlotte Latin. L’école ne prend pas le rendez-vous.",
-      "of": "371c6a2f",
+      "t": "Obligatoire. Les candidats à ce niveau passent le **WPPSI**. Un psychologue du consortium Charlotte Area Independent Schools fait passer le test. Le test « need[s] to be scheduled in advance » (doit être programmé à l’avance). Vous contactez directement le psychologue et demandez que les résultats soient envoyés à Charlotte Latin. L’école ne prend pas le rendez-vous. La brochure CAIS indique que le test doit être terminé au plus tard le **1er février 2027** et qu’il coûte **$300**. Elle indique aussi que les écoles CAIS s’entretiennent avec chaque enfant, bien que la page de Latin ne décrive pas d’entretien pour ce niveau.",
+      "of": "fe64a670",
       "at": [
         "charlotte-latin:guide.bands[0].steps[4].detail"
       ]
@@ -1793,8 +1797,8 @@
       ]
     },
     {
-      "t": "Le **26 février 2027** est le « jour de notification TK et K » de l’école. Les décisions d’aide financière sont communiquées le même jour. **Aucune date limite de remise du contrat d’inscription n’est publiée** : demandez donc au bureau des admissions quand il est à remettre. L’inscription exige aussi l’**acompte non remboursable de $2,500**.",
-      "of": "965fb3f3",
+      "t": "Le **26 février 2027** est le « TK and K notification day » (jour de notification) de l’école. Les décisions d’aide financière sont communiquées le même jour. La brochure CAIS indique que le contrat d’inscription est à remettre au plus tard le **5 mars 2027**. L’inscription exige aussi l’**acompte non remboursable de $2,500**.",
+      "of": "3059c61c",
       "at": [
         "charlotte-latin:guide.bands[0].steps[6].detail"
       ]
@@ -1807,8 +1811,8 @@
       ]
     },
     {
-      "t": "La Transitional Kindergarten et la Kindergarten candidatent treize jours avant tous les autres niveaux. Pour ce niveau, c’est le bureau des admissions, et non la famille, qui fixe le Visit Day. Aucune date limite pour l’ensemble des pièces du dossier n’est publiée pour ce niveau. Considérez donc la check-list de votre portail comme la référence pour ce qui reste à fournir. Les décisions arrivent le jour de notification, le 26 février 2027. Aucune date limite de remise du contrat d’inscription n’est publiée : vérifiez-la donc auprès du bureau des admissions.",
-      "of": "251668a8",
+      "t": "La Transitional Kindergarten et la Kindergarten candidatent treize jours avant les niveaux 1–11. Pour ce niveau, c’est le bureau des admissions, et non la famille, qui fixe le Visit Day. Aucune date limite pour l’ensemble des pièces du dossier n’est publiée pour ce niveau. Considérez donc la check-list de votre portail comme la référence pour ce qui reste à fournir. La brochure CAIS fixe la fin des tests au 1er février 2027. Les décisions arrivent le jour de notification, le 26 février 2027. La brochure indique que le contrat d’inscription est à remettre au plus tard le 5 mars 2027.",
+      "of": "010536bd",
       "at": [
         "charlotte-latin:guide.bands[0].checklistCallout.text"
       ]
@@ -1878,8 +1882,8 @@
       ]
     },
     {
-      "t": "Treize jours avant l’échéance des niveaux 1–12. Aucune limite d’âge n’est publiée.",
-      "of": "614a3486",
+      "t": "Treize jours avant l’échéance des niveaux 1–11. Aucune limite d’âge n’est publiée.",
+      "of": "81a4c04f",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[3].detail"
       ]
@@ -1913,19 +1917,17 @@
       ]
     },
     {
-      "t": "À programmer à l’avance avec un psychologue CAIS ; demandez l’envoi des résultats à Latin.",
-      "of": "4f9cd594",
+      "t": "À programmer à l’avance avec un psychologue CAIS ; demandez l’envoi des résultats à Latin. $300, selon la brochure CAIS.",
+      "of": "676033c7",
       "at": [
         "charlotte-latin:guide.bands[0].checklistRows[5].detail"
       ]
     },
     {
-      "t": "Avant votre échéance",
-      "of": "de184993",
+      "t": "Au plus tard le 1er février 2027",
+      "of": "6a0ec2a3",
       "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[5].due",
-        "charlotte-latin:guide.bands[1].checklistRows[3].due",
-        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+        "charlotte-latin:guide.bands[0].checklistRows[5].due"
       ]
     },
     {
@@ -1959,12 +1961,10 @@
       ]
     },
     {
-      "t": "Les décisions d’admission et d’aide financière arrivent ce jour-là. Aucune date limite de contrat n’est publiée ; vérifiez-la auprès des admissions.",
-      "of": "9ebc1ec7",
+      "t": "Les décisions d’admission et d’aide financière arrivent ce jour-là. La brochure CAIS indique que le contrat est à remettre au plus tard le 5 mars 2027.",
+      "of": "ec3068ef",
       "at": [
-        "charlotte-latin:guide.bands[0].checklistRows[7].detail",
-        "charlotte-latin:guide.bands[1].checklistRows[6].detail",
-        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
+        "charlotte-latin:guide.bands[0].checklistRows[7].detail"
       ]
     },
     {
@@ -1991,8 +1991,8 @@
       ]
     },
     {
-      "t": "Obligatoire, à déposer avant le **15 janvier 2027** — l’échéance qui vaut pour tous les niveaux de 1 à 12, treize jours après celle de la Transitional Kindergarten et de la Kindergarten. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions.",
-      "of": "d9c67bf3",
+      "t": "Obligatoire, à déposer avant le **15 janvier 2027**. C’est l’échéance des niveaux 1–11, treize jours après celle de la Transitional Kindergarten et de la Kindergarten. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions.",
+      "of": "1ae2bdd7",
       "at": [
         "charlotte-latin:guide.bands[1].steps[1].detail"
       ]
@@ -2029,8 +2029,8 @@
       ]
     },
     {
-      "t": "Obligatoire, et **le test change deux fois à l’intérieur de ce seul niveau**. Les candidats au niveau 1 passent le **WPPSI**, ceux des niveaux 2–4 le **WISC-V**, et ceux du niveau 5 l’**ISEE**. La façon de réserver change avec lui. Un psychologue du consortium Charlotte Area Independent Schools fait passer le WPPSI et le WISC-V, et vous contactez directement ce psychologue. L’ISEE est conçu et administré par l’**Educational Records Bureau**, et les familles du niveau 5 s’inscrivent auprès de l’ERB. Vérifiez quel test s’applique au niveau d’entrée de votre enfant avant de réserver quoi que ce soit.",
-      "of": "e0901ac3",
+      "t": "Obligatoire, et **le test change deux fois à l’intérieur de ce seul niveau**. Les candidats au niveau 1 passent le **WPPSI**, ceux des niveaux 2–4 le **WISC-V**, et ceux du niveau 5 l’**ISEE**. La façon de réserver change avec lui. Un psychologue du consortium Charlotte Area Independent Schools fait passer le WPPSI et le WISC-V, et vous contactez directement ce psychologue. L’ISEE est conçu et administré par l’**Educational Records Bureau**, et les familles du niveau 5 s’inscrivent auprès de l’ERB. Vérifiez quel test s’applique au niveau d’entrée de votre enfant avant de réserver quoi que ce soit. La brochure CAIS indique que les tests des niveaux 1–4 doivent être terminés au plus tard le **26 février 2027** et qu’ils coûtent **$300**. Elle indique aussi que les écoles CAIS s’entretiennent avec chaque enfant, bien que la page de Latin ne décrive pas d’entretien pour ce niveau.",
+      "of": "2192188f",
       "at": [
         "charlotte-latin:guide.bands[1].steps[3].detail"
       ]
@@ -2052,11 +2052,10 @@
       ]
     },
     {
-      "t": "Le **9 avril 2027** est le « jour de notification des niveaux 1-11 » de l’école. Les décisions d’aide financière sont communiquées le même jour. **Aucune date limite de remise du contrat d’inscription n’est publiée** : demandez donc au bureau des admissions quand il est à remettre. L’inscription exige aussi l’**acompte non remboursable de $2,500**.",
-      "of": "1735da67",
+      "t": "Le **9 avril 2027** est le « Grades 1-11 notification day » (jour de notification) de l’école. Les décisions d’aide financière sont communiquées le même jour. La brochure CAIS indique que les contrats des niveaux 1–4 sont à remettre au plus tard le **16 avril 2027**. **Aucune date limite de contrat n’est publiée pour le niveau 5** : renseignez-vous donc auprès du bureau des admissions. L’inscription exige aussi l’**acompte non remboursable de $2,500**.",
+      "of": "0d880376",
       "at": [
-        "charlotte-latin:guide.bands[1].steps[5].detail",
-        "charlotte-latin:guide.bands[2].steps[6].detail"
+        "charlotte-latin:guide.bands[1].steps[5].detail"
       ]
     },
     {
@@ -2067,15 +2066,15 @@
       ]
     },
     {
-      "t": "Le niveau 1 passe le WPPSI, les niveaux 2–4 le WISC-V et le niveau 5 l’ISEE. La façon de réserver change avec lui. Pour le WPPSI et le WISC-V, vous contactez directement un psychologue CAIS. Pour l’ISEE, vous vous inscrivez auprès de l’Educational Records Bureau. Vérifiez quel test s’applique au niveau d’entrée de votre enfant avant de réserver. Aucune date limite pour l’ensemble des pièces du dossier n’est publiée pour ce niveau. Considérez donc la check-list de votre portail comme la référence pour ce qui reste à fournir. Les décisions arrivent le jour de notification, le 9 avril 2027. Aucune date limite de remise du contrat d’inscription n’est publiée : vérifiez-la donc auprès du bureau des admissions.",
-      "of": "e075f067",
+      "t": "Le niveau 1 passe le WPPSI, les niveaux 2–4 le WISC-V et le niveau 5 l’ISEE. La façon de réserver change avec lui. Pour le WPPSI et le WISC-V, vous contactez directement un psychologue CAIS. Pour l’ISEE, vous vous inscrivez auprès de l’Educational Records Bureau. Vérifiez quel test s’applique au niveau d’entrée de votre enfant avant de réserver. Aucune date limite pour l’ensemble des pièces du dossier n’est publiée pour ce niveau. Considérez donc la check-list de votre portail comme la référence pour ce qui reste à fournir. La brochure CAIS fixe la fin des tests des niveaux 1–4 au 26 février 2027. Les décisions arrivent le jour de notification, le 9 avril 2027. La brochure indique que les contrats des niveaux 1–4 sont à remettre au plus tard le 16 avril 2027. Aucune date n’est publiée pour le niveau 5 : vérifiez-la donc auprès du bureau des admissions.",
+      "of": "25371f97",
       "at": [
         "charlotte-latin:guide.bands[1].checklistCallout.text"
       ]
     },
     {
-      "t": "L’échéance des niveaux 1–12, treize jours après celle de TK/K.",
-      "of": "2e0d0ce3",
+      "t": "L’échéance des niveaux 1–11, treize jours après celle de TK/K.",
+      "of": "0dd14a86",
       "at": [
         "charlotte-latin:guide.bands[1].checklistRows[2].detail"
       ]
@@ -2088,6 +2087,13 @@
       ]
     },
     {
+      "t": "Avant votre échéance",
+      "of": "de184993",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[3].due"
+      ]
+    },
+    {
       "t": "Programmez et passez le test correspondant à votre niveau d’entrée",
       "of": "58f28450",
       "at": [
@@ -2095,10 +2101,24 @@
       ]
     },
     {
-      "t": "Niveau 1 WPPSI · niveaux 2–4 WISC-V (tous deux CAIS) · niveau 5 ISEE (auprès de l’ERB).",
-      "of": "cc9ee7d8",
+      "t": "Niveau 1 WPPSI · niveaux 2–4 WISC-V (tous deux CAIS, $300, à terminer au plus tard le 26 février 2027) · niveau 5 ISEE (auprès de l’ERB, aucune date publiée).",
+      "of": "32d528cd",
       "at": [
         "charlotte-latin:guide.bands[1].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "26 février 2027 pour les niveaux 1–4",
+      "of": "a8240a24",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+      ]
+    },
+    {
+      "t": "Les décisions d’admission et d’aide financière arrivent ce jour-là. La brochure CAIS indique que les contrats des niveaux 1–4 sont à remettre au plus tard le 16 avril 2027. Aucune date n’est publiée pour le niveau 5.",
+      "of": "e940ba53",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[6].detail"
       ]
     },
     {
@@ -2133,8 +2153,8 @@
       ]
     },
     {
-      "t": "Obligatoire, à déposer avant le **15 janvier 2027** — l’échéance commune à tous les niveaux de 1 à 12. La sixième est l’une des années où l’école « s’élargit naturellement », avec TK, la Kindergarten et la neuvième. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions.",
-      "of": "c285c5c0",
+      "t": "Obligatoire, à déposer avant le **15 janvier 2027** — l’échéance commune aux niveaux 1–11. La sixième est l’une des années où l’école « naturally expand[s] » (s’élargit naturellement), avec TK, la Kindergarten et la neuvième. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions.",
+      "of": "67d1f72b",
       "at": [
         "charlotte-latin:guide.bands[2].steps[1].detail"
       ]
@@ -2192,6 +2212,13 @@
       ]
     },
     {
+      "t": "Le **9 avril 2027** est le « jour de notification des niveaux 1-11 » de l’école. Les décisions d’aide financière sont communiquées le même jour. **Aucune date limite de remise du contrat d’inscription n’est publiée** : demandez donc au bureau des admissions quand il est à remettre. L’inscription exige aussi l’**acompte non remboursable de $2,500**.",
+      "of": "1735da67",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[6].detail"
+      ]
+    },
+    {
       "t": "Le 26 février 2027 est la date qui structure ce niveau.",
       "of": "eb208bbd",
       "at": [
@@ -2207,8 +2234,8 @@
       ]
     },
     {
-      "t": "L’échéance des niveaux 1–12. La sixième est une année d’élargissement naturel.",
-      "of": "4da27e9e",
+      "t": "L’échéance des niveaux 1–11. Le niveau 6 est une année d’élargissement naturel.",
+      "of": "659d5c09",
       "at": [
         "charlotte-latin:guide.bands[2].checklistRows[2].detail"
       ]
@@ -2260,6 +2287,13 @@
       ]
     },
     {
+      "t": "Les décisions d’admission et d’aide financière arrivent ce jour-là. Aucune date limite de contrat n’est publiée ; vérifiez-la auprès des admissions.",
+      "of": "9ebc1ec7",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail"
+      ]
+    },
+    {
       "t": "Upper School · niveaux 9–12",
       "of": "3ae019cb",
       "at": [
@@ -2274,6 +2308,13 @@
       ]
     },
     {
+      "t": "date limite de la candidature — niveaux 9–11",
+      "of": "85cf42cd",
+      "at": [
+        "charlotte-latin:guide.bands[3].deadlines[0].label"
+      ]
+    },
+    {
       "t": "jour de notification — niveaux 9–11",
       "of": "7d521e76",
       "at": [
@@ -2281,8 +2322,8 @@
       ]
     },
     {
-      "t": "Obligatoire, à déposer avant le **15 janvier 2027** — l’échéance commune à tous les niveaux de 1 à 12. La neuvième est l’une des années où l’école « s’élargit naturellement », avec TK, la Kindergarten et la sixième. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions.",
-      "of": "bbcb2cdc",
+      "t": "Obligatoire, à déposer avant le **15 janvier 2027** pour les niveaux 9–11. La liste de dates de l’école n’indique aucune échéance pour le niveau 12 : renseignez-vous donc. La neuvième est l’une des années où l’école « naturally expand[s] » (s’élargit naturellement), avec TK, la Kindergarten et la sixième. Les frères et sœurs d’élèves actuels avaient une échéance plus tôt. Le calendrier de l’école indiquait **candidatures des frères et sœurs K-12 à déposer avant le 15 octobre 2026**. Si vous êtes une famille de frère ou sœur qui candidate maintenant, demandez au bureau des admissions.",
+      "of": "004acaee",
       "at": [
         "charlotte-latin:guide.bands[3].steps[1].detail"
       ]
@@ -2330,8 +2371,8 @@
       ]
     },
     {
-      "t": "L’échéance des niveaux 1–12. La neuvième est une année d’élargissement naturel.",
-      "of": "3eb92b51",
+      "t": "Niveaux 9–11. Aucune échéance n’est publiée pour le niveau 12 : renseignez-vous donc. Le niveau 9 est une année d’élargissement naturel.",
+      "of": "5d0e6c07",
       "at": [
         "charlotte-latin:guide.bands[3].checklistRows[2].detail"
       ]
@@ -2369,6 +2410,13 @@
       "of": "b235946d",
       "at": [
         "charlotte-latin:guide.aid.text"
+      ]
+    },
+    {
+      "t": "15 janvier 2027 (niv. 9–11) · rien de publié pour le niv. 12",
+      "of": "b9ff242c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[0].cells.us"
       ]
     },
     {
@@ -2423,10 +2471,16 @@
       ]
     },
     {
-      "t": "Non précisé",
-      "of": "664909c9",
+      "t": "Non décrit par Latin · la brochure CAIS indique que les écoles CAIS s’entretiennent avec chaque enfant",
+      "of": "4fce4beb",
       "at": [
-        "charlotte-latin:guide.comparison.rows[3].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[3].cells.tkk"
+      ]
+    },
+    {
+      "t": "Non décrit par Latin · pour les niv. 1–4, la brochure CAIS indique que les écoles CAIS s’entretiennent avec chaque enfant",
+      "of": "bcd81d79",
+      "at": [
         "charlotte-latin:guide.comparison.rows[3].cells.ls"
       ]
     },
@@ -2481,10 +2535,16 @@
       ]
     },
     {
-      "t": "Rien de publié",
-      "of": "de8a893d",
+      "t": "Tests au plus tard le 1er février 2027 (brochure CAIS) · aucune date publiée pour les pièces du dossier",
+      "of": "fa0d73ba",
       "at": [
-        "charlotte-latin:guide.comparison.rows[5].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[5].cells.tkk"
+      ]
+    },
+    {
+      "t": "Tests des niv. 1–4 au plus tard le 26 février 2027 (brochure CAIS) · aucune date publiée pour le niv. 5 ni pour les pièces du dossier",
+      "of": "e6732698",
+      "at": [
         "charlotte-latin:guide.comparison.rows[5].cells.ls"
       ]
     },
@@ -2496,17 +2556,23 @@
       ]
     },
     {
-      "t": "26 février 2027 · aucune date limite de contrat publiée",
-      "of": "aa29f6e3",
+      "t": "26 février 2027 · contrat à remettre au plus tard le 5 mars 2027 (brochure CAIS)",
+      "of": "36553e63",
       "at": [
         "charlotte-latin:guide.comparison.rows[6].cells.tkk"
+      ]
+    },
+    {
+      "t": "9 avril 2027 · contrat des niv. 1–4 à remettre au plus tard le 16 avril 2027 (brochure CAIS) · aucune date publiée pour le niv. 5",
+      "of": "5ab634ae",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.ls"
       ]
     },
     {
       "t": "9 avril 2027 · aucune date limite de contrat publiée",
       "of": "6bd709e2",
       "at": [
-        "charlotte-latin:guide.comparison.rows[6].cells.ls",
         "charlotte-latin:guide.comparison.rows[6].cells.ms"
       ]
     },
@@ -2668,8 +2734,8 @@
       ]
     },
     {
-      "t": "Les dates correspondent au cycle d’admission 2027–28, tel que publié sur charlottelatin.org (consulté en août 2026 ; dates revérifiées en novembre 2026). Elles proviennent des pages de la procédure de candidature, des frais de scolarité et de l’aide financière, et des admissions. Certains éléments, comme la date limite du contrat d’inscription, sont visibles uniquement dans le portail de candidature ou ne sont pas publiés du tout. Les dates du cycle changent d’une année à l’autre, et ces pages ont affiché un autre ensemble lors d’une saison passée. Vérifiez donc les pages en ligne avant d’agir. Compilé par Charlotte School Compare ; sans lien avec Charlotte Latin School.",
-      "of": "a56510ed",
+      "t": "Les dates correspondent au cycle d’admission 2027–28, tel que publié sur charlottelatin.org (consulté en août 2026 ; dates revérifiées en novembre 2026). Elles proviennent des pages de la procédure de candidature, des frais de scolarité et de l’aide financière, et des admissions, ainsi que de la brochure CAIS vers laquelle l’école renvoie. Certains éléments, comme la date limite du contrat à partir du niveau 5, sont visibles uniquement dans le portail de candidature ou ne sont pas publiés du tout. Les dates du cycle changent d’une année à l’autre, et ces pages ont affiché un autre ensemble lors d’une saison passée. Vérifiez donc les pages en ligne avant d’agir. Compilé par Charlotte School Compare ; sans lien avec Charlotte Latin School.",
+      "of": "efcf7cee",
       "at": [
         "charlotte-latin:guide.checklist.disclaimer"
       ]
@@ -5910,8 +5976,7 @@
         "hickory-grove-christian:guide.bands[0].deadlines[2].value",
         "hickory-grove-christian:guide.bands[1].deadlines[2].value",
         "hickory-grove-christian:guide.bands[2].deadlines[2].value",
-        "hickory-grove-christian:guide.bands[3].deadlines[2].value",
-        "hickory-grove-christian:guide.bands[4].deadlines[2].value"
+        "hickory-grove-christian:guide.bands[3].deadlines[2].value"
       ]
     },
     {
@@ -5950,8 +6015,8 @@
       ]
     },
     {
-      "t": "Chaque filière nationale suit les mêmes grandes étapes. D’abord : envoyer le formulaire de demande de renseignements → s’inscrire à la journée portes ouvertes → candidater dans FACTS et payer les frais de dossier. Ensuite : envoyer les formulaires exigés par votre filière → passer les tests d’entrée, programmés seulement une fois tous les formulaires reçus → assister à l’entretien familial. Enfin : recevoir la décision par écrit → verser l’acompte d’inscription de $500. Ce qui change d’une filière à l’autre, ce sont les formulaires à envoyer, l’existence ou non d’une journée d’immersion et l’application ou non d’un test de placement. La procédure internationale F-1 remplace l’essentiel de ce parcours, et elle a sa propre filière.",
-      "of": "e96f28e4",
+      "t": "Chaque filière, sauf International, suit les mêmes grandes étapes. D’abord : envoyer le formulaire de demande de renseignements → s’inscrire à la journée portes ouvertes → candidater dans FACTS et payer les frais de dossier. Ensuite : envoyer les formulaires exigés par votre filière → passer les tests d’entrée, programmés seulement une fois tous les formulaires reçus → assister à l’entretien familial. Enfin : recevoir la décision par écrit → verser l’acompte d’inscription de $500. Ce qui change d’une filière à l’autre, ce sont les formulaires à envoyer, l’existence ou non d’une journée d’immersion et l’application ou non d’un test de placement. La procédure internationale F-1 remplace l’essentiel de ce parcours, et elle a sa propre filière.",
+      "of": "70647c54",
       "at": [
         "hickory-grove-christian:guide.spineNote"
       ]
@@ -5987,8 +6052,7 @@
         "hickory-grove-christian:guide.bands[0].deadlines[2].label",
         "hickory-grove-christian:guide.bands[1].deadlines[2].label",
         "hickory-grove-christian:guide.bands[2].deadlines[2].label",
-        "hickory-grove-christian:guide.bands[3].deadlines[2].label",
-        "hickory-grove-christian:guide.bands[4].deadlines[2].label"
+        "hickory-grove-christian:guide.bands[3].deadlines[2].label"
       ]
     },
     {
@@ -6551,8 +6615,8 @@
       ]
     },
     {
-      "t": "Trois recommandations d’enseignants",
-      "of": "4becfc9d",
+      "t": "Trois recommandations scolaires + pasteur",
+      "of": "9c2b9f21",
       "at": [
         "hickory-grove-christian:guide.bands[2].sublabel"
       ]
@@ -6912,8 +6976,8 @@
       ]
     },
     {
-      "t": "L’admission repose sur quatre éléments que l’école énumère ensemble. Le premier est un **entretien en ligne avec la direction de l’International Student Program et la direction de l’établissement (Principal)**. Les autres sont le dossier de candidature en ligne complet, les résultats scolaires et le comportement antérieurs, et les scores au test d’anglais. L’entretien se déroule en ligne, si bien qu’il **remplace la visite du campus** par laquelle commence chaque filière nationale. Une famille qui candidate depuis l’étranger n’a pas à se déplacer d’abord. Hickory Grove gère son programme international depuis **2013**. Elle délivre son propre I-20 (le formulaire dont un élève a besoin pour demander un visa étudiant) au lieu d’orienter les familles vers un tiers.",
-      "of": "5c6c182e",
+      "t": "L’admission repose sur quatre éléments que l’école énumère ensemble. Le premier est un **entretien en ligne avec la direction de l’International Student Program et la direction de l’établissement (Principal)**. Les autres sont le dossier de candidature en ligne complet, les résultats scolaires et le comportement antérieurs, et les scores au test d’anglais. L’entretien se déroule en ligne, si bien qu’il **remplace la visite du campus** par laquelle commence chacune des autres filières. Une famille qui candidate depuis l’étranger n’a pas à se déplacer d’abord. Hickory Grove gère son programme international depuis **2013**. Elle délivre son propre I-20 (le formulaire dont un élève a besoin pour demander un visa étudiant) au lieu d’orienter les familles vers un tiers.",
+      "of": "9866b096",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[0].detail"
       ]
@@ -7021,7 +7085,8 @@
       "t": "Payer l’intégralité avant le 1er août",
       "of": "59e0571c",
       "at": [
-        "hickory-grove-christian:guide.bands[4].steps[6].title"
+        "hickory-grove-christian:guide.bands[4].steps[6].title",
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
       ]
     },
     {
@@ -7032,8 +7097,8 @@
       ]
     },
     {
-      "t": "**Le paiement intégral doit être reçu avant le 1er août** pour que l’élève puisse être inscrit. Un solde encore impayé le premier jour d’école place la candidature en **blocage financier**. Ce paiement intégral avant l’inscription est la différence la plus nette avec les filières nationales, qui demandent un acompte de $500 à l’admission et facturent le solde au fil de l’année. **Le montant des frais de scolarité internationaux n’est pas publié**. La possibilité pour les élèves internationaux de bénéficier d’une aide financière ne l’est pas non plus. **Un retrait anticipé coûte $500 plus 50% des frais de scolarité internationaux.**",
-      "of": "364b52db",
+      "t": "**Le paiement intégral doit être reçu avant le 1er août** pour que l’élève puisse être inscrit. Un solde encore impayé le premier jour d’école place la candidature en **blocage financier**. Ce paiement intégral avant l’inscription est la différence la plus nette avec les autres filières, qui demandent un acompte de $500 à l’admission et facturent le solde au fil de l’année. **Le montant des frais de scolarité internationaux n’est pas publié**. La possibilité pour les élèves internationaux de bénéficier d’une aide financière ne l’est pas non plus. **Un retrait anticipé coûte $500 plus 50% des frais de scolarité internationaux.**",
+      "of": "8e34db31",
       "at": [
         "hickory-grove-christian:guide.bands[4].steps[6].detail"
       ]
@@ -7081,8 +7146,8 @@
       ]
     },
     {
-      "t": "Il fait partie de l’examen d’admission et remplace la visite du campus par laquelle commencent les filières nationales.",
-      "of": "89bbddfb",
+      "t": "Il fait partie de l’examen d’admission et remplace la visite du campus par laquelle commencent les autres filières.",
+      "of": "0ead3ef9",
       "at": [
         "hickory-grove-christian:guide.bands[4].checklistRows[0].detail"
       ]
@@ -7206,13 +7271,6 @@
       "of": "ee64305b",
       "at": [
         "hickory-grove-christian:guide.bands[4].checklistRows[7].detail"
-      ]
-    },
-    {
-      "t": "Verser l’acompte d’inscription de $500, puis le solde en intégralité",
-      "of": "eb37b221",
-      "at": [
-        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
       ]
     },
     {
@@ -7468,8 +7526,8 @@
       ]
     },
     {
-      "t": "Constant dans toutes les filières nationales",
-      "of": "eef95440",
+      "t": "Constant dans toutes les filières sauf International",
+      "of": "88c24713",
       "at": [
         "hickory-grove-christian:guide.comparison.rows[8].label"
       ]

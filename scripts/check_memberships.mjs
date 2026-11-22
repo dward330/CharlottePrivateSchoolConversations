@@ -58,6 +58,12 @@
  * `65 / 68` (card) and `57 / 68` (Compare) at once. Every automated check passed;
  * only opening the page showed it. This gate now covers both.
  *
+ * IT ALSO CHECKS THE MASTER AGAINST THE FULL LIST. `HBCUS` is a hand-kept subset,
+ * so a member absent from the master AND from the tags passed every rule above:
+ * UDC and UMES sat untagged on two lists until 2026-11-22 (plan consistency5,
+ * PD-U1). The 107-school roster is saved in HBCU - Membership and Count 2026.md,
+ * and an accepted college that is on it but not in `HBCUS` now fails.
+ *
  * DELIBERATELY UNCHECKED: `ivy` and `ivyplus`. `ivy` is self-evidently correct
  * (exactly the right 8 institutions, verified 2026-08-25) and `ivyplus` has no
  * settled definition to check against — it is an editorial grouping, not a
@@ -67,7 +73,7 @@
  * 1 = violations found, 2 = setup error.
  */
 
-import { readdirSync } from 'node:fs'
+import { readdirSync, readFileSync } from 'node:fs'
 
 const LOCALE_RE = /\.(es|bn|ht|te|fr|fa|it|hi|ar)\.ts$/
 const DIR = new URL('../src/data/collegeSupportPrograms/', import.meta.url)
@@ -79,6 +85,33 @@ try {
   ))
 } catch (e) {
   console.error(`check:memberships — cannot import the master collegeMemberships.ts: ${e.message}`)
+  process.exit(2)
+}
+
+let normName
+try {
+  ;({ normName } = await import('../src/data/collegeRankings.ts'))
+} catch (e) {
+  console.error(`check:memberships — cannot import normName: ${e.message}`)
+  process.exit(2)
+}
+
+// The full federal roster: normalized name -> the name as the source prints it.
+const ROSTER_MD = new URL(
+  '../source-material/college-support/_shared/HBCU%20-%20Membership%20and%20Count%202026.md',
+  import.meta.url,
+)
+const federal = new Map()
+try {
+  const table = readFileSync(ROSTER_MD, 'utf8').split('<!-- roster:start -->')[1].split('<!-- roster:end -->')[0]
+  const rows = table.split('\n').filter((l) => l.startsWith('| ')).slice(1) // the header row
+  if (rows.length !== 107) throw new Error(`the roster table has ${rows.length} rows, not 107`)
+  for (const row of rows) {
+    const [, name, , , also] = row.split('|').map((x) => x.trim())
+    for (const n of [name, ...(also ? also.split(';') : [])]) federal.set(normName(n.trim()), name)
+  }
+} catch (e) {
+  console.error(`check:memberships — cannot read the saved 107-school HBCU roster: ${e.message}`)
   process.exit(2)
 }
 
@@ -105,6 +138,7 @@ if (files.length === 0) {
 const over = []
 const under = []
 const counts = []
+const unrostered = []
 const institutions = {}
 let entries = 0
 
@@ -125,6 +159,8 @@ for (const file of files) {
     const key = canonicalMember(c.name)
     if (key && isPowerFour(c.name)) distinct.p4.add(key)
     if (key && isHbcu(c.name)) distinct.hbcu.add(key)
+    const listed = federal.get(normName(c.name))
+    if (listed && !isHbcu(c.name)) unrostered.push({ slug, name: c.name, listed })
     const cats = c.cats ?? []
     for (const [bucket, [isMember]] of Object.entries(BUCKETS)) {
       const tagged = cats.includes(bucket)
@@ -230,9 +266,15 @@ if (counts.length) {
   )
 }
 
-if (over.length || under.length || counts.length) {
+if (unrostered.length) {
+  console.log(`MISSING FROM THE MASTER — on the 107-school HBCU roster but not in HBCUS (${unrostered.length}):`)
+  for (const v of unrostered) console.log(`  ✗ ${v.slug} · ${v.name} · the roster lists "${v.listed}"`)
+  console.log('\n  Add it to HBCUS, tag the row, and move every printed n / 107 for that school.\n')
+}
+
+if (over.length || under.length || counts.length || unrostered.length) {
   console.log(
-    `check:memberships — ${over.length + under.length + counts.length} disagreement(s) across ` +
+    `check:memberships — ${over.length + under.length + counts.length + unrostered.length} disagreement(s) across ` +
       `${entries} colleges in ${files.length} schools.\n` +
       'Fix whichever side is actually wrong: the `cats` array in\n' +
       'src/data/collegeSupportPrograms/<slug>.ts, or the roster in\n' +

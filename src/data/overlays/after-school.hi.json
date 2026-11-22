@@ -70,10 +70,17 @@
       ]
     },
     {
-      "t": "जून–अगस्त",
-      "of": "4f3a376a",
+      "t": "जून–जुलाई",
+      "of": "6298b842",
       "at": [
-        "providence-day:coverage.summer.season"
+        "providence-day:coverage.summer.season",
+        "charlotte-latin:coverage.summer.season",
+        "charlotte-christian:coverage.summer.season",
+        "charlotte-country-day:coverage.summer.season",
+        "cannon:coverage.summer.season",
+        "gaston-day:coverage.summer.season",
+        "trinity-episcopal:coverage.summer.season",
+        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -1038,19 +1045,6 @@
       "of": "72c3da9a",
       "at": [
         "charlotte-latin:coverage.rows[3].flatLabel"
-      ]
-    },
-    {
-      "t": "जून–जुलाई",
-      "of": "6298b842",
-      "at": [
-        "charlotte-latin:coverage.summer.season",
-        "charlotte-christian:coverage.summer.season",
-        "charlotte-country-day:coverage.summer.season",
-        "cannon:coverage.summer.season",
-        "gaston-day:coverage.summer.season",
-        "trinity-episcopal:coverage.summer.season",
-        "charlotte-prep:coverage.summer.season"
       ]
     },
     {
@@ -3100,8 +3094,8 @@
       ]
     },
     {
-      "t": "Extended Day के लिए कोई भाई-बहन छूट प्रकाशित नहीं है, और Extended Day के लिए वित्तीय सहायता की कोई नीति है ही नहीं। इसका बिल **आनुषंगिक शुल्क** के रूप में आता है, जो इसे ट्यूशन सहायता से बाहर रखता है, जबकि लगभग 20% छात्रों को ट्यूशन सहायता मिलती है। ट्यूशन पृष्ठ 341 छात्रों को $9.4M बताता है, और Fast Facts 347 को $10.1M। इसके उलट, summer programs का अपना अलग सहायता आवेदन है।",
-      "of": "84fc27f4",
+      "t": "Extended Day के लिए कोई भाई-बहन छूट प्रकाशित नहीं है, और Extended Day के लिए वित्तीय सहायता की कोई नीति भी प्रकाशित नहीं है। इसका बिल **आनुषंगिक शुल्क** के रूप में आता है, जो इसे ट्यूशन सहायता से बाहर रखता है, जबकि लगभग 20% छात्रों को ट्यूशन सहायता मिलती है। ट्यूशन पृष्ठ 341 छात्रों को $9.4M बताता है, और Fast Facts 347 को $10.1M। इसके उलट, summer programs का अपना अलग सहायता आवेदन है।",
+      "of": "a659c262",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ]
@@ -3613,8 +3607,8 @@
       ]
     },
     {
-      "t": "कोई सशुल्क कार्यक्रम नहीं — केवल 7:30 a.m. से मुफ़्त आगमन",
-      "of": "3e084a43",
+      "t": "देखभाल का कोई सशुल्क कार्यक्रम नहीं — केवल 7:30 a.m. से मुफ़्त आगमन",
+      "of": "619685dc",
       "at": [
         "cannon:coverage.facts[1].text"
       ]
@@ -3781,8 +3775,8 @@
       ]
     },
     {
-      "t": "Cannon जो चीज़ वाकई विस्तार से प्रकाशित करता है वह है Beyond the Bell: साल में तीन 10-सप्ताह के enrichment सत्र, और हर कक्षा के लिए असली दिन, कक्षा-श्रेणी, प्रदाता और शुल्क।",
-      "of": "688c480b",
+      "t": "Cannon जो चीज़ वाकई विस्तार से प्रकाशित करता है वह है Beyond the Bell, जिसमें साल में तीन 10-सप्ताह के enrichment सत्र होते हैं। हर कक्षा के साथ दिन, कक्षा-श्रेणी, प्रदाता या भूमिका, और शुल्क दिया गया है।",
+      "of": "37b490f7",
       "at": [
         "cannon:dayInside.subhead"
       ]
@@ -3844,143 +3838,162 @@
       ]
     },
     {
-      "t": "Beyond the Bell — Session 3, वसंत 2026",
-      "of": "35adb5e8",
+      "t": "Beyond the Bell — सत्र 2, 2026–27",
+      "of": "40273360",
       "at": [
         "cannon:dayInside.catalogTitle"
       ]
     },
     {
-      "t": "JrK–कक्षा 8 के लिए हर साल तीन 10-सप्ताह के सत्र चलते हैं, साथ में निजी संगीत कक्षाएँ। नीचे दी गई 22 कक्षाएँ सबसे हाल में प्रकाशित सूची हैं, **9 मार्च से 22 मई 2026** — जो स्कूल की अपनी सत्र-विवरणिका से ली गई हैं। शुल्क प्रति कक्षा और प्रति सत्र दिखाए गए हैं। ध्यान दें कि Beyond the Bell **ASP से अलग खरीद** है: 3:00–4:00 वाली कक्षा आपको 6:00 तक कवर नहीं करती।",
-      "of": "b5d62754",
+      "t": "JrK–कक्षा 8 के लिए हर साल तीन 10-सप्ताह के सत्र चलते हैं, साथ में K–12 के लिए निजी संगीत कक्षाएँ। नीचे दी गई 31 कक्षाएँ Session 2 की सूची हैं, **30 नवंबर से 5 फ़रवरी**। ये स्कूल की अपनी सत्र-विवरणिका से ली गई हैं। शुल्क प्रति कक्षा और प्रति सत्र दिखाए गए हैं। ध्यान दें कि Beyond the Bell **ASP से अलग खरीद** है: 3:00–4:00 वाली कक्षा आपको 6:00 तक कवर नहीं करती।",
+      "of": "3c1e2638",
       "at": [
         "cannon:dayInside.catalogIntro"
       ]
     },
     {
-      "t": "Kelli Waller के साथ छोटी टीमों वाले खेल",
-      "of": "716c2549",
+      "t": "Art in Motion Dance Performing Co. के साथ tap और jazz",
+      "of": "3f13bb14",
       "at": [
         "cannon:dayInside.classes[0].desc"
       ]
     },
     {
-      "t": "2–6",
-      "of": "dc4d67cc",
+      "t": "JrK–1",
+      "of": "f42a2236",
       "at": [
-        "cannon:dayInside.classes[0].gradeLabel"
+        "cannon:dayInside.classes[0].gradeLabel",
+        "cannon:dayInside.classes[17].gradeLabel"
       ]
     },
     {
-      "t": "Nash और Colacion के साथ cheer की बुनियादी बातें",
-      "of": "85bf76c2",
+      "t": "फ़ोटोग्राफ़ी का परिचय। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "4aea9b60",
       "at": [
         "cannon:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "3–6",
+      "of": "71b1a3ef",
+      "at": [
+        "cannon:dayInside.classes[1].gradeLabel",
+        "charlotte-prep:dayInside.classes[4].gradeLabel",
+        "charlotte-prep:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "Middle School के लिए व्यवस्थित रहने के कौशल, स्कूल से पहले सुबह 7:30–8:00। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "42f62174",
+      "at": [
+        "cannon:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "cannon:dayInside.classes[2].gradeLabel",
+        "cannon:dayInside.classes[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "हस्तशिल्प का एक क्लब। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "d4ff7fc6",
+      "at": [
+        "cannon:dayInside.classes[3].desc"
       ]
     },
     {
       "t": "JrK–2",
       "of": "f32a20a3",
       "at": [
-        "cannon:dayInside.classes[1].gradeLabel",
-        "cannon:dayInside.classes[5].gradeLabel",
-        "cannon:dayInside.classes[12].gradeLabel",
-        "cannon:dayInside.classes[15].gradeLabel"
-      ]
-    },
-    {
-      "t": "BrickEd द्वारा संचालित बनाओ-और-परखो चुनौतियाँ",
-      "of": "fc32f7b2",
-      "at": [
-        "cannon:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–2",
-      "of": "5e92d4cb",
-      "at": [
-        "cannon:dayInside.classes[2].gradeLabel",
-        "cannon:dayInside.classes[8].gradeLabel",
-        "charlotte-prep:dayInside.classes[1].gradeLabel"
-      ]
-    },
-    {
-      "t": "McKinsey और Raphael के साथ मिश्रित माध्यमों से रचना",
-      "of": "12042fb8",
-      "at": [
-        "cannon:dayInside.classes[3].desc"
-      ]
-    },
-    {
-      "t": "2–4",
-      "of": "de4d6af2",
-      "at": [
         "cannon:dayInside.classes[3].gradeLabel",
-        "cannon:dayInside.classes[17].gradeLabel"
+        "cannon:dayInside.classes[13].gradeLabel",
+        "cannon:dayInside.classes[22].gradeLabel",
+        "cannon:dayInside.classes[23].gradeLabel"
       ]
     },
     {
-      "t": "Lisa Nussbaumer के साथ टीम में बनाना और program करना",
-      "of": "a4c630c5",
+      "t": "Cannon के varsity tennis कोचिंग स्टाफ़ के साथ tennis",
+      "of": "692bb940",
       "at": [
-        "cannon:dayInside.classes[4].desc"
+        "cannon:dayInside.classes[4].desc",
+        "cannon:dayInside.classes[11].desc"
       ]
     },
     {
-      "t": "3–5",
-      "of": "72b1a582",
+      "t": "K–4",
+      "of": "6492de3d",
       "at": [
         "cannon:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[3].gradeLabel",
-        "charlotte-prep:dayInside.classes[5].gradeLabel"
+        "cannon:dayInside.classes[16].gradeLabel",
+        "charlotte-prep:dayInside.classes[0].gradeLabel"
       ]
     },
     {
-      "t": "Rhiannon Bresalier के साथ कठपुतली बनाना और प्रस्तुति",
-      "of": "9234b989",
+      "t": "Pokémon का एक क्लब। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "58d4dc0d",
       "at": [
         "cannon:dayInside.classes[5].desc"
       ]
     },
     {
-      "t": "Craig Rosekrans के साथ रसोई के कौशल और व्यंजन",
-      "of": "66339c45",
+      "t": "2–6",
+      "of": "dc4d67cc",
+      "at": [
+        "cannon:dayInside.classes[5].gradeLabel",
+        "cannon:dayInside.classes[10].gradeLabel",
+        "cannon:dayInside.classes[14].gradeLabel",
+        "cannon:dayInside.classes[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "तंतु-वाद्य के कौशल। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "b8f2970c",
       "at": [
         "cannon:dayInside.classes[6].desc"
-      ]
-    },
-    {
-      "t": "1–3",
-      "of": "aa9ea5ea",
-      "at": [
-        "cannon:dayInside.classes[6].gradeLabel"
-      ]
-    },
-    {
-      "t": "AR Workshop Concord द्वारा संचालित; 3:00–4:30",
-      "of": "ec18d9af",
-      "at": [
-        "cannon:dayInside.classes[7].desc"
       ]
     },
     {
       "t": "3–8",
       "of": "77b1ad61",
       "at": [
-        "cannon:dayInside.classes[7].gradeLabel",
+        "cannon:dayInside.classes[6].gradeLabel",
         "charlotte-prep:dayInside.classes[2].gradeLabel"
       ]
     },
     {
-      "t": "Art in Motion Dance के साथ नृत्य",
-      "of": "6d0482e1",
+      "t": "बेकिंग की एक कक्षा। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "039f66ae",
+      "at": [
+        "cannon:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "K–1",
+      "of": "5f92d65e",
+      "at": [
+        "cannon:dayInside.classes[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "maker-space की एक कक्षा। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "a373c8d9",
       "at": [
         "cannon:dayInside.classes[8].desc"
       ]
     },
     {
-      "t": "Kelli Waller के साथ बाहरी खोजबीन और खेल",
-      "of": "d09d34c2",
+      "t": "1–3",
+      "of": "aa9ea5ea",
+      "at": [
+        "cannon:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "Carolina Soccer Factory द्वारा प्रशिक्षण",
+      "of": "55c5f69b",
       "at": [
         "cannon:dayInside.classes[9].desc"
       ]
@@ -3989,178 +4002,212 @@
       "t": "JrK–4",
       "of": "f92a2a15",
       "at": [
-        "cannon:dayInside.classes[9].gradeLabel"
+        "cannon:dayInside.classes[9].gradeLabel",
+        "cannon:dayInside.classes[12].gradeLabel",
+        "cannon:dayInside.classes[21].gradeLabel",
+        "cannon:dayInside.classes[25].gradeLabel",
+        "cannon:dayInside.classes[30].gradeLabel"
       ]
     },
     {
-      "t": "Carolina Soccer Factory द्वारा प्रशिक्षण",
-      "of": "55c5f69b",
+      "t": "diamond-art के प्रोजेक्ट। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "83ec038d",
       "at": [
         "cannon:dayInside.classes[10].desc"
       ]
     },
     {
-      "t": "K–6",
-      "of": "6292db17",
+      "t": "व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "c2e74de5",
       "at": [
-        "cannon:dayInside.classes[10].gradeLabel"
-      ]
-    },
-    {
-      "t": "Mayo और Cavicchi के साथ विविध विषयों को जोड़कर रचना",
-      "of": "892a9a9a",
-      "at": [
-        "cannon:dayInside.classes[11].desc"
-      ]
-    },
-    {
-      "t": "JrK–1",
-      "of": "f42a2236",
-      "at": [
-        "cannon:dayInside.classes[11].gradeLabel"
+        "cannon:dayInside.classes[12].desc",
+        "cannon:dayInside.classes[29].desc"
       ]
     },
     {
       "t": "Le Petit Ballet Co. द्वारा शिक्षण",
       "of": "54903c06",
       "at": [
-        "cannon:dayInside.classes[12].desc"
+        "cannon:dayInside.classes[13].desc"
       ]
     },
     {
-      "t": "Anne Marie Samuel के साथ सामूहिक तंतु-वादन",
-      "of": "cee50463",
+      "t": "चाक पर मिट्टी के बर्तन। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "21bb2035",
       "at": [
-        "cannon:dayInside.classes[13].desc"
+        "cannon:dayInside.classes[14].desc"
+      ]
+    },
+    {
+      "t": "Cannon के String Orchestra Director के साथ तंतु-वाद्यों का सामूहिक वादन",
+      "of": "be9b40b7",
+      "at": [
+        "cannon:dayInside.classes[15].desc"
       ]
     },
     {
       "t": "1–8",
       "of": "a19e97bf",
       "at": [
-        "cannon:dayInside.classes[13].gradeLabel"
+        "cannon:dayInside.classes[15].gradeLabel"
       ]
     },
     {
-      "t": "Better Golf for Kids द्वारा संचालित",
-      "of": "f995456f",
-      "at": [
-        "cannon:dayInside.classes[14].desc"
-      ]
-    },
-    {
-      "t": "K–5",
-      "of": "6392dcaa",
-      "at": [
-        "cannon:dayInside.classes[14].gradeLabel"
-      ]
-    },
-    {
-      "t": "Alex Bresalier के साथ त्रि-आयामी कला",
-      "of": "4dd98a79",
-      "at": [
-        "cannon:dayInside.classes[15].desc"
-      ]
-    },
-    {
-      "t": "Middle School के लिए executive-function कौशल, Sherrill और O’Brien के साथ",
-      "of": "1cef586d",
+      "t": "Cannon School के lacrosse कोचों के साथ lacrosse",
+      "of": "9b2f1dbe",
       "at": [
         "cannon:dayInside.classes[16].desc"
       ]
     },
     {
-      "t": "5–8",
-      "of": "660365d3",
-      "at": [
-        "cannon:dayInside.classes[16].gradeLabel"
-      ]
-    },
-    {
-      "t": "Donnie Hayes के साथ खेल-क्षमता का विकास",
-      "of": "aebfe251",
+      "t": "Nexplore के साथ robot coding",
+      "of": "981427da",
       "at": [
         "cannon:dayInside.classes[17].desc"
       ]
     },
     {
-      "t": "Stephanie Lee के साथ वस्तुओं के ज़रिये इतिहास",
-      "of": "6c10a569",
+      "t": "खेल-क्षमता का विकास। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "1e12eca4",
       "at": [
         "cannon:dayInside.classes[18].desc"
       ]
     },
     {
-      "t": "4–8",
-      "of": "d12b05b8",
+      "t": "2–5",
+      "of": "df4d6c85",
       "at": [
-        "cannon:dayInside.classes[18].gradeLabel"
+        "cannon:dayInside.classes[18].gradeLabel",
+        "cannon:dayInside.classes[27].gradeLabel"
       ]
     },
     {
-      "t": "Danielle Sandlof के साथ camera की बुनियादी बातें और संयोजन",
-      "of": "753d981d",
+      "t": "Better Golf for Kids Academy द्वारा संचालित",
+      "of": "e35d51f5",
       "at": [
         "cannon:dayInside.classes[19].desc"
       ]
     },
     {
-      "t": "3–6",
-      "of": "71b1a3ef",
+      "t": "1–6",
+      "of": "a79ea131",
       "at": [
-        "cannon:dayInside.classes[19].gradeLabel",
-        "charlotte-prep:dayInside.classes[4].gradeLabel",
-        "charlotte-prep:dayInside.classes[8].gradeLabel"
+        "cannon:dayInside.classes[19].gradeLabel"
       ]
     },
     {
-      "t": "Dobbins और Fox के साथ मोती-कला",
-      "of": "5832d170",
+      "t": "सिरेमिक की एक कक्षा। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "5c6ac547",
       "at": [
         "cannon:dayInside.classes[20].desc"
       ]
     },
     {
-      "t": "K–4",
-      "of": "6492de3d",
-      "at": [
-        "cannon:dayInside.classes[20].gradeLabel",
-        "charlotte-prep:dayInside.classes[0].gradeLabel"
-      ]
-    },
-    {
-      "t": "Danielle Lucas के साथ चित्रकारी और चित्रांकन",
-      "of": "e404b9fa",
+      "t": "दौड़ की एक कक्षा। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "79379dd5",
       "at": [
         "cannon:dayInside.classes[21].desc"
       ]
     },
     {
-      "t": "K–3",
-      "of": "5d92d338",
+      "t": "AR Workshop के साथ कला",
+      "of": "ada8f20e",
       "at": [
-        "cannon:dayInside.classes[21].gradeLabel"
+        "cannon:dayInside.classes[22].desc"
       ]
     },
     {
-      "t": "K–8 के लिए साथ-साथ निजी संगीत कक्षाएँ चलती हैं: cello $25/कक्षा (सोम/बुध), guitar $25 (बुध/शुक्र), गायन $30 (मंगल/गुरु), piano $30 (सोम/मंगल/गुरु) और violin या viola $30 (मंगल/गुरु)।",
-      "of": "1bb78a11",
+      "t": "Kidokinetics of North Charlotte द्वारा संचालित",
+      "of": "8dd86e42",
+      "at": [
+        "cannon:dayInside.classes[23].desc"
+      ]
+    },
+    {
+      "t": "Concord TaeKwonDo Inc. द्वारा शिक्षण",
+      "of": "3242095f",
+      "at": [
+        "cannon:dayInside.classes[24].desc"
+      ]
+    },
+    {
+      "t": "1–5",
+      "of": "a49e9c78",
+      "at": [
+        "cannon:dayInside.classes[24].gradeLabel"
+      ]
+    },
+    {
+      "t": "Overtime Athletics के साथ cheer",
+      "of": "1aa0fba0",
+      "at": [
+        "cannon:dayInside.classes[25].desc"
+      ]
+    },
+    {
+      "t": "Charlotte Chess Center के मुख्य कोच द्वारा शिक्षण",
+      "of": "f5fe7acf",
+      "at": [
+        "cannon:dayInside.classes[26].desc"
+      ]
+    },
+    {
+      "t": "K–8",
+      "of": "5892cb59",
+      "at": [
+        "cannon:dayInside.classes[26].gradeLabel",
+        "trinity-episcopal:dayInside.classes[0].gradeLabel",
+        "trinity-episcopal:dayInside.classes[1].gradeLabel",
+        "trinity-episcopal:dayInside.classes[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "Nexplore के साथ जादू",
+      "of": "0b37a651",
+      "at": [
+        "cannon:dayInside.classes[27].desc"
+      ]
+    },
+    {
+      "t": "खाना पकाने की एक कक्षा। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "6a5d3918",
+      "at": [
+        "cannon:dayInside.classes[28].desc"
+      ]
+    },
+    {
+      "t": "5–7",
+      "of": "73037a4a",
+      "at": [
+        "cannon:dayInside.classes[28].gradeLabel"
+      ]
+    },
+    {
+      "t": "K–6",
+      "of": "6292db17",
+      "at": [
+        "cannon:dayInside.classes[29].gradeLabel"
+      ]
+    },
+    {
+      "t": "LEGO की एक कक्षा। व्यक्तिगत प्रशिक्षक (कंपनी नहीं)",
+      "of": "8e0b917b",
+      "at": [
+        "cannon:dayInside.classes[30].desc"
+      ]
+    },
+    {
+      "t": "K–12 के लिए साथ-साथ निजी संगीत कक्षाएँ चलती हैं: piano $30/कक्षा (सोम/मंगल, और दूसरे शिक्षक के साथ बुध/गुरु/शुक्र), violin या viola $30 (मंगल/गुरु), कक्षा 2–12 के लिए गायन $30 (मंगल/गुरु/शुक्र), cello $25 (सोम–गुरु) और guitar $25 (मंगल/बुध/गुरु)।",
+      "of": "d303045f",
       "at": [
         "cannon:dayInside.flags[0].text"
-      ]
-    },
-    {
-      "t": "यह **2025-26 Session 3** की सूची है — सबसे नई प्रकाशित। 2026-27 की Beyond the Bell सूची अभी नहीं डाली गई है, इसलिए विशिष्ट कक्षाएँ बदलेंगी, हालाँकि कीमत का दायरा और ढाँचा शायद वैसा ही रहेगा।",
-      "of": "bd097f64",
-      "at": [
-        "cannon:dayInside.flags[1].text"
       ]
     },
     {
       "t": "खुद After School Program के लिए न घंटे-दर-घंटे की दिनचर्या प्रकाशित है और न स्टाफ़-प्रति-बच्चा अनुपात। Middle School का कोई अलग कार्यक्रम-विवरण नहीं है: कक्षा 5–8 उसी JrK–8 कार्यक्रम के भीतर आते हैं।",
       "of": "9c982864",
       "at": [
-        "cannon:dayInside.flags[2].text"
+        "cannon:dayInside.flags[1].text"
       ]
     },
     {
@@ -4206,22 +4253,22 @@
       ]
     },
     {
-      "t": "**एक बड़ी, पूरी कीमतों वाली enrichment सूची** — एक ही सत्र में 22 अलग-अलग कक्षाएँ, robotics और ballet से लेकर मूर्तिकला, golf और फ़ोटोग्राफ़ी तक। हर एक के साथ नामित प्रदाता और असली शुल्क दिया गया है।",
-      "of": "591807b0",
+      "t": "**एक बड़ी, पूरी कीमतों वाली enrichment सूची** — एक ही सत्र में 31 अलग-अलग कक्षाएँ, robot coding और ballet से लेकर मिट्टी के बर्तन, golf और फ़ोटोग्राफ़ी तक। हर एक के साथ असली शुल्क दिया गया है।",
+      "of": "c7483779",
       "at": [
         "cannon:verdict.strengths[4]"
       ]
     },
     {
-      "t": "**enrichment की कीमत कम और पारदर्शी है** — $18–$30 प्रति कक्षा और 8 या 10 कक्षाओं वाले सत्र के लिए $160–$300, और रद्द हुई कक्षाओं पर पूरी धन-वापसी तथा एक भरपाई सप्ताह।",
-      "of": "6274a884",
+      "t": "**enrichment की कीमत कम और पारदर्शी है** — $15–$30 प्रति कक्षा और 5–15 कक्षाओं वाले सत्र के लिए $125–$240। परिवार पहले सप्ताह के भीतर नाम वापस ले सकता है और केवल उसी कक्षा का भुगतान करता है जिसमें बच्चा गया। रद्द हुई कक्षा की जहाँ संभव हो भरपाई की जाती है।",
+      "of": "8aba83f9",
       "at": [
         "cannon:verdict.strengths[5]"
       ]
     },
     {
-      "t": "**Middle School के लिए executive-function की एक कक्षा** (\"Let’s Get Organized\") — इस उम्र के लिए वाकई असामान्य पेशकश।",
-      "of": "4ab6a038",
+      "t": "**Middle School के लिए व्यवस्थित रहने के कौशल की एक कक्षा** (\"Let’s Get Organized\"), सप्ताह में दो बार स्कूल से पहले — इस उम्र के लिए वाकई असामान्य पेशकश।",
+      "of": "77a48c2d",
       "at": [
         "cannon:verdict.strengths[6]"
       ]
@@ -6025,8 +6072,8 @@
       ]
     },
     {
-      "t": "Pre-K से 8वीं कक्षा तक देखभाल 5:30 pm तक चलती है। Lower School स्तर 3:00 पर और Middle School स्तर 3:15 पर शुरू होता है।",
-      "of": "fecea180",
+      "t": "Preschool से 8वीं कक्षा तक देखभाल 5:30 pm तक चलती है। Lower School स्तर 3:00 पर और Middle School स्तर 3:15 पर शुरू होता है।",
+      "of": "61235bc4",
       "at": [
         "gaston-day:coverage.headline"
       ]
@@ -6151,8 +6198,8 @@
       ]
     },
     {
-      "t": "यह कार्यक्रम **केवल Pre-K से 8वीं कक्षा तक** है। कक्षा 9–12 के लिए स्कूल के बाद की कोई देखभाल प्रकाशित नहीं है, जो आम बात है पर कहने लायक़ है।",
-      "of": "a27225ab",
+      "t": "यह कार्यक्रम **केवल Preschool से 8वीं कक्षा तक** है। कक्षा 9–12 के लिए स्कूल के बाद की कोई देखभाल प्रकाशित नहीं है, जो आम बात है पर कहने लायक़ है।",
+      "of": "ba0c1c4b",
       "at": [
         "gaston-day:coverage.facts[5].text"
       ]
@@ -6608,8 +6655,8 @@
       ]
     },
     {
-      "t": "**देखभाल Pre-K से 8वीं कक्षा तक का दायरा समेटती है**, दो स्तरों में, और दोनों 5:30 pm तक चलते हैं।",
-      "of": "55e040df",
+      "t": "**देखभाल Preschool से 8वीं कक्षा तक का दायरा समेटती है**, दो स्तरों में, और दोनों 5:30 pm तक चलते हैं।",
+      "of": "a5a8e713",
       "at": [
         "gaston-day:verdict.strengths[4]"
       ]
@@ -6713,8 +6760,8 @@
       ]
     },
     {
-      "t": "5वीं–8वीं के स्तर की देखरेख Pre-K–4th के स्तर से किस तरह अलग होती है?",
-      "of": "3bc8eeb5",
+      "t": "5वीं–8वीं के स्तर की देखरेख Preschool–4th के स्तर से किस तरह अलग होती है?",
+      "of": "88b837f1",
       "at": [
         "gaston-day:verdict.checklist[6]"
       ]
@@ -6959,15 +7006,6 @@
       "at": [
         "trinity-episcopal:dayInside.classes[0].desc",
         "trinity-episcopal:dayInside.classes[2].desc"
-      ]
-    },
-    {
-      "t": "K–8",
-      "of": "5892cb59",
-      "at": [
-        "trinity-episcopal:dayInside.classes[0].gradeLabel",
-        "trinity-episcopal:dayInside.classes[1].gradeLabel",
-        "trinity-episcopal:dayInside.classes[2].gradeLabel"
       ]
     },
     {
@@ -7433,6 +7471,13 @@
       ]
     },
     {
+      "t": "K–2",
+      "of": "5e92d4cb",
+      "at": [
+        "charlotte-prep:dayInside.classes[1].gradeLabel"
+      ]
+    },
+    {
       "t": "एक एकांकी नाटक के लिए ऑडिशन दें और उसमें प्रस्तुति करें।",
       "of": "e1c0cf53",
       "at": [
@@ -7444,6 +7489,14 @@
       "of": "b9eaca1b",
       "at": [
         "charlotte-prep:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "3–5",
+      "of": "72b1a582",
+      "at": [
+        "charlotte-prep:dayInside.classes[3].gradeLabel",
+        "charlotte-prep:dayInside.classes[5].gradeLabel"
       ]
     },
     {

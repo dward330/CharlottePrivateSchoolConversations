@@ -161,9 +161,9 @@ export const davidsonDay: SportsProgram = {
   /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
-      'Seven state championships in 2023–24 — the most of any 2A school that year — then four, then one. This is a program in visible decline.',
+      'Seven state championships in 2023–24 — the most of any 2A school that year — then four, then one. In fall 2026 it won two more: volleyball and girls tennis.',
     subhead:
-      "Boys tennis is the only title survivor of 2025–26, its fourth straight; girls soccer's three-peat ended the same year.",
+      "Boys tennis was the only title survivor of 2025–26, its fourth straight; girls soccer's three-peat ended the same year.",
     seasonLabels: ["'23–24", "'24–25", "'25–26"],
     rows: [
       {
@@ -182,7 +182,7 @@ export const davidsonDay: SportsProgram = {
           { result: 'STATE', record: '24–4' },
           { result: 'RUNNER-UP', record: '18–11' },
         ],
-        note: 'Lost the 2025 final 1–3 to Wake Christian',
+        note: 'Lost the 2025 final 1–3 to Wake Christian; won again in fall 2026',
       },
       {
         program: 'Girls Soccer',
@@ -231,7 +231,7 @@ export const davidsonDay: SportsProgram = {
       },
     ],
     didNotWin:
-      'volleyball (Wake Christian) · girls soccer (Gaston Christian) · boys basketball (Greensboro Day, which also eliminated Davidson Day in the semifinal) · both cross country titles (GRACE Christian of Raleigh) · boys soccer (Trinity Academy eliminated the Patriots in the quarterfinals).',
+      'In 2025–26: volleyball (Wake Christian) · girls soccer (Gaston Christian) · boys basketball (Greensboro Day, which also eliminated Davidson Day in the semifinal) · both cross country titles (GRACE Christian of Raleigh) · boys soccer (Trinity Academy eliminated the Patriots in the quarterfinals).',
     bars: [
       { program: 'Boys Basketball', record: '30–1', pct: 0.968, tag: "'19–20 PEAK" },
       { program: 'Volleyball', record: '111–33–2', pct: 0.767, tag: '5 YRS' }, // ties count half: (111 + 1) ÷ 146
@@ -253,7 +253,7 @@ export const davidsonDay: SportsProgram = {
       },
       {
         program: '2025–26',
-        text: "The decline. Girls soccer's three-peat and boys soccer's two-year title run both ended, volleyball lost the final, and both cross country titles went elsewhere. Girls soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor: soccer changed hands after 2024–25, and girls basketball has had seven head coaches in eight documented seasons.",
+        text: "A down year. Girls soccer's three-peat and boys soccer's two-year title run both ended, volleyball lost the final, and both cross country titles went elsewhere. Girls soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor: soccer changed hands after 2024–25, and girls basketball has had seven head coaches in eight documented seasons.",
       },
     ],
     sources: [
@@ -271,6 +271,8 @@ export const davidsonDay: SportsProgram = {
       { label: 'NCISAA boys soccer bracket, 2022–23', url: `${ARCHIVE}8&years=2022-2023` },
       { label: 'NCISAA boys soccer bracket, 2025–26', url: `${ARCHIVE}8&years=2025-2026` },
       { label: 'NCISAA volleyball bracket, 2025–26', url: `${ARCHIVE}12&years=2025-2026` },
+      { label: 'NCISAA volleyball bracket, 2026–27', url: `${ARCHIVE}12&currentyear=1` },
+      { label: 'NCISAA girls tennis bracket, 2026–27', url: `${ARCHIVE}11&currentyear=1` },
     ],
   },
 
@@ -428,7 +430,7 @@ export const davidsonDay: SportsProgram = {
       },
       {
         label: 'Team state championships',
-        text: '37 team titles across 13 programs — girls soccer leads with six, and the school has won the NCISAA Wells Fargo Cup twice, in 2019–20 and 2023–24. In 2025–26 it had five NCISAA state runners-up: volleyball and girls lacrosse, plus the girls’ 100 meters, boys shot put and boys discus in track and field.',
+        text: 'The school’s page counts 37 team titles across 13 programs through 2025–26 — girls soccer leads with six, and the school has won the NCISAA Wells Fargo Cup twice, in 2019–20 and 2023–24. In 2025–26 it had five NCISAA state runners-up: volleyball and girls lacrosse, plus the girls’ 100 meters, boys shot put and boys discus in track and field.',
         tag: 'Program-wide',
       },
       {
@@ -481,7 +483,7 @@ export const davidsonDay: SportsProgram = {
           'A genuinely significant hire for a school this size. His record: two state titles, nine conference championships, eight Sweet 16 appearances and two North Carolina Basketball Coaches Association Coach of the Year awards. In year one at Davidson Day he went 23–11, reached the state semifinal and beat Oak Hill Academy. He also serves as the Upper School Strength Teacher, the only documented strength-training role on campus.',
       },
       {
-        kicker: 'The continuity anchor · Soccer, since 2017',
+        kicker: 'The continuity anchor · Soccer, 2017–2025',
         name: 'Brad Laatsch',
         stats: [
           { value: '8+ yrs', label: 'heading both boys and girls soccer' },

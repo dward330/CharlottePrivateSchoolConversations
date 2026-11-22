@@ -742,6 +742,21 @@ star ratings were not re-verified.
  247Sports' own ranking. Will Stevens: three stars at 247Sports; the fourth star and "No. 1 in NC"
  are On3's, from the cited commitment article.
 
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+NCISAA 2026-27 brackets, fetched with curl. Each championship round was read by its table column.
+
+- Volleyball, https://archives.ncisaa.org/index.php?sport=12&currentyear=1 : 3A finalists
+ "#2 Davidson Day School (20-2)" and "#1 Wake Christian Academy (25-5)". Champion's cell:
+ "#2 Davidson Day School (21-2)". Final dates on the bracket: 10/30 and 10/31.
+- Girls tennis, https://archives.ncisaa.org/index.php?sport=11&currentyear=1 : 3A finalists
+ "#4 Trinity Academy (15-3)" and "#3 Davidson Day School (9-1)". Champion's cell:
+ "#3 Davidson Day School (10-1)".
+- Boys soccer, https://archives.ncisaa.org/index.php?sport=8&currentyear=1 : Davidson Day's last
+ cell is "#7 Davidson Day School (9-6)". The 3A champion's cell is "#2 John Paul II Catholic High
+ School (22-1-1)".
+- Cross country (sport=2) and girls golf (sport=20) post no 2026-27 results there yet.
+
 
 ---
 
@@ -2249,10 +2264,13 @@ Davidson Day School — Athletics Research Series · compiled from public source
 - https://admin.ncisaa.org/uploads/ncisaa%20division%20iii%20scores.pdf
 - https://appstatesports.com/news/2026/3/23/mens-basketball-cj-huntley-makes-nba-debut-for-phoenix-suns.aspx
 - https://archives.ncisaa.org/
+- https://archives.ncisaa.org/index.php?sport=11&currentyear=1
+- https://archives.ncisaa.org/index.php?sport=12&currentyear=1
 - https://archives.ncisaa.org/index.php?sport=12&years=2025-2026
 - https://archives.ncisaa.org/index.php?sport=16&years=2025-2026
 - https://archives.ncisaa.org/index.php?sport=19&years=2025-2026
 - https://archives.ncisaa.org/index.php?sport=22&years=2025-2026
+- https://archives.ncisaa.org/index.php?sport=8&currentyear=1
 - https://athletics.uchicago.edu/sports/mens-soccer/roster
 - https://athletics.wofford.edu/sports/mens-basketball/roster
 - https://athletics.wofford.edu/sports/mens-basketball/roster/2024-25

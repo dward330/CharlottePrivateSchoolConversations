@@ -155,8 +155,8 @@ they exist.
  https://www.charlottelatin.org/the-arts/arts-calendar
 - **[NOT FOUND]** Named auditioned sub-ensembles — no jazz band, no a cappella group, no
  chamber orchestra, no show choir, no wind ensemble/symphonic band tiering is published
- anywhere on the arts pages. Latin's public ensemble picture is one band, one orchestra, one
- choir per division plus a Community Chorale.
+ anywhere on the arts pages. Latin's public ensemble picture is band, orchestra and choir,
+ each open to grades 5–12, plus a Community Chorale.
 
 ### Facilities
 
@@ -336,7 +336,7 @@ https://www.charlottelatin.org/the-arts/performing
 - **[NOT FOUND]** Latin publishes **no auditioned sub-ensembles** — no jazz ensemble, no
  a cappella, no chamber group, no honors/select choir. This is worth stating plainly: unlike
  peers that tier band into concert/symphonic/wind ensemble by audition, Latin's public music
- structure appears to be single-track per division. There is "a place for both the most
+ structure is band, orchestra and choir, each open to grades 5–12 with no auditioned tier. There is "a place for both the most
  advanced student and those trying something new for the first time" — the school's own
  framing suggests deliberate inclusivity over tiering. **[SCHOOL-CLAIM]**
  https://www.charlottelatin.org/the-arts/performing
@@ -565,7 +565,7 @@ list with Gold Key / Silver Key / Honorable Mention counts by year.
  theatre or technical director. Who actually leads each ensemble and the theatre, and how
  long have they been here?"** (Turnover and thin naming often travel together.)
 
-4. **"There's one band, one orchestra, and one choir per division with no auditioned or
+4. **"There's band, orchestra and choir for grades 5–12, with no auditioned or
  tiered ensembles published — no jazz band, no a cappella, no chamber or wind ensemble. How
  does an advanced player who's already at All-State level keep progressing here rather than
  coasting?"** ([name withheld]'s case makes this concrete.)
@@ -731,7 +731,7 @@ From the news flyout present on the arts pages:
 13. https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announced-the-9th-annual-blumey-awards-winners
  — 2022: [name withheld] WON Best Actress (*Bright Star*); [name withheld] WON Best
  Featured Performer
-14. https://www.blumenthalarts.org/news/detail/2025-blumey-awards-no
+14. https://www.blumenthalarts.or
 
 …[truncated]
 
@@ -1020,7 +1020,7 @@ Awards" (charlottelatin.org).
 - https://resources.finalsite.net/images/f_auto,q_auto/v1727206947/charlottelatin/xiifcn1ctrnoh5kq59f5/Etched_Glass_Murals_.jpg
 - https://resources.finalsite.net/images/f_auto,q_auto/v1727370348/charlottelatin/dzpyfeeko9icjgs8fhcq/Crater.jpg
 - https://resources.finalsite.net/images/f_auto,q_auto/v1727381424/charlottelatin/gfiii7t5y755ravjayql/Nurkin_Hawk_2.jpg
-- https://www.blumenthalarts.org/news/detail/2025-blumey-awards-no
+- https://www.blumenthalarts.or
 - https://www.blumenthalarts.org/news/detail/2025-blumey-awards-nominations
 - https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees
 - https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announced-the-9th-annual-blumey-awards-winners

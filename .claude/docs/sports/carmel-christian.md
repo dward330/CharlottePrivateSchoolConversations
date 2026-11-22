@@ -230,6 +230,12 @@ Class of 2027.md`, which is provisional until the early signing period (opens 20
 | Landon Boyd — Florida International | HighSchoolOT baseball tracker | Contradicted by the school's list and Perfect Game (USC Aiken). The row stays at USC Aiken |
 | [name withheld] — South Carolina (dance) | Next Steps | Not an intercollegiate sport (see above) |
 
+## Method
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+- https://charlotte.jwuathletics.com/ and https://charlotte.jwuathletics.com/sports/mens-basketball/schedule/2024-25 (fetched): both name the Coast-To-Coast Athletic Conference (C2C) and carry the NCAA mark in the footer. Neither names the USCAA. This supports the C2C row in this record.
+
 
 ---
 
@@ -734,6 +740,8 @@ Within the six Cup seasons the brackets give Carmel Christian three team state t
 - https://carmelchristian.org/apps/news/show_news.jsp?REC_ID=980022&id=0
 - https://carmelchristian.org/apps/news/show_news.jsp?REC_ID=999101&id=0
 - https://carmelchristian.org/athletics101
+- https://charlotte.jwuathletics.com/
+- https://charlotte.jwuathletics.com/sports/mens-basketball/schedule/2024-25
 - https://ferrumpanthers.com/sports/baseball/roster/2026
 - https://gamecocksonline.com/sports/mten/roster/
 - https://gobstate.com/sports/baseball/roster/david-rodriguez/2990

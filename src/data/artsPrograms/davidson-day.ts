@@ -54,7 +54,9 @@ export const davidsonDay: ArtsProgram = {
       'Arts run from Early Childhood through grade 12. Only one fine-arts credit is required to graduate, and theater participation can satisfy the PE credit instead.',
     stats: [
       { value: 'EC–12', label: 'arts from early childhood' },
-      { value: '1 AP', label: 'Studio Art — the only arts AP' },
+      // VERIFY (plan consistency5, DD-U4): the 2026–27 profile prints Studio I and II as College Prep, no AP
+      // Studio Art, and marks Modern Music not offered. The catalog lists all of them. Pick neither.
+      { value: '1 AP', label: 'Studio Art — the only arts AP (in the catalog; the 2026–27 profile does not list it)' },
       { value: '2', label: 'credit-bearing performing ensembles' },
       { value: '1 credit', label: 'fine arts required to graduate' },
     ],
@@ -80,8 +82,8 @@ export const davidsonDay: ArtsProgram = {
         name: 'Upper School',
         grades: '9–12',
         items: [
-          'Visual Arts: Photography I–III, Portfolio, Studio I, Studio II Honors, AP Studio Art',
-          'Music & Performing Arts: Performance Ensemble (theatre), Contemporary Ensemble, Modern Music, Film Studies & Production',
+          'Visual Arts: Photography I–III, Portfolio, Studio I, Studio II Honors, AP Studio Art (in the catalog; the 2026–27 profile does not list it)',
+          'Music & Performing Arts: Performance Ensemble (theatre), Contemporary Ensemble, Modern Music (the 2026–27 profile marks it not offered this year), Film Studies & Production',
           'Studio II Honors carries a .50 GPA weighting and requires an A− in the prerequisite',
           'Photography III students build and maintain their own websites to showcase work',
           'Theater participation can be requested in place of the PE credit',
@@ -116,7 +118,7 @@ export const davidsonDay: ArtsProgram = {
 
   theatre: {
     headline:
-      'A legitimate, program-level Blumey record from a very small school — three whole-show nominations in 2023, five finalists in both 2025 and 2026.',
+      'A legitimate, program-level Blumey record from a very small school — three whole-show nominations in 2023, five finalists in each of 2024, 2025 and 2026.',
     subhead:
       'The Blumeys are Blumenthal Performing Arts’ Charlotte-region high-school musical-theater awards. Davidson Day’s external theatre identity runs entirely through them — no NCTC record exists.',
     seasonTitle: 'The season rhythm — one Upper School musical a year',
@@ -131,7 +133,7 @@ export const davidsonDay: ArtsProgram = {
         season: 'Recent',
         kind: 'Upper School Musicals',
         detail:
-          'Once Upon a One More Time, High School Edition (2024-25); Mean Girls (2022-23), the strongest competitive year. The 2023-24 title could not be found, and the school publishes no theatre season page.',
+          'Once Upon a One More Time, High School Edition (2024-25); Something Rotten! (2023-24); Mean Girls (2022-23), the strongest competitive year. The school publishes no theatre season page.',
       },
     ],
     whoRunsIt:
@@ -153,10 +155,18 @@ export const davidsonDay: ArtsProgram = {
           'Five finalists: Best Actor (as Prince Charming) · Best Actress (as Cinderella) · Best Supporting Actor (as Prince Erudite) · Best Supporting Actress (as Snow White) · Best Featured Performer (as Betany). No win recorded.',
       },
       {
+        year: '2024',
+        show: 'Something Rotten!',
+        result:
+          'Five finalists: Best Actor (as Nick Bottom) · Best Actress (as Bea Bottom) · Best Supporting Actor (as Nigel Bottom) · Best Supporting Actress (as Portia) · Best Featured Performer (as Minstrel). No nomination.',
+      },
+      {
         year: '2023',
         show: 'Mean Girls',
+        // DD-U3 (plan consistency5, user ruling): the saved official list has four nominations, and
+        // Best Actress appears on it only as a finalist.
         result:
-          'The strongest year found: five nominations, three of them for the whole program. Those were Best Musical (Tier 2), Best Ensemble/Chorus and Best Overall Direction. The others were Best Actress (as Regina George) and Best Featured Performer (as Mrs. George).',
+          'The strongest year found: four nominations, three of them for the whole program. Those were Best Musical (Tier 2), Best Ensemble/Chorus and Best Overall Direction. The fourth was Best Featured Performer (as Mrs. George). It also had five individual finalists, including Best Actress (as Regina George).',
       },
       {
         year: '~2015',
@@ -177,6 +187,7 @@ export const davidsonDay: ArtsProgram = {
         label: 'Blumenthal Arts — 2023 Blumey nominees',
         url: 'https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announces-2023-blumey-awards-nominees',
       },
+      { label: 'Blumenthal Arts — 2024 all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf' },
       { label: 'Blumenthal Arts — 2025 all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf' },
       {
         label: 'Blumenthal Arts — 2025 nominations',
@@ -210,7 +221,7 @@ export const davidsonDay: ArtsProgram = {
       },
     ],
     boardNote:
-      'Contemporary Ensemble is described as the school’s "very own School of Rock": pop and rock with a dash of jazz, blues and funk. The ensemble is open to all levels, all instruments and vocalists, and guitars, bass, keyboards and drums are provided in the classroom. Members must perform publicly at least once per quarter. Modern Music covers music history and production in GarageBand, with no performance requirement. No concert band, symphonic band, marching band, orchestra, jazz band, chorus or vocal ensemble appears as a named Upper School course in the 2026-27 catalog. No band, choral or music-department director is named anywhere.',
+      'Contemporary Ensemble is described as the school’s "very own School of Rock": pop and rock with a dash of jazz, blues and funk. The ensemble is open to all levels, all instruments and vocalists, and guitars, bass, keyboards and drums are provided in the classroom. Members must perform publicly at least once per quarter. The 2026–27 profile marks Modern Music not offered this year. Modern Music covers music history and production in GarageBand, with no performance requirement. No concert band, symphonic band, marching band, orchestra, jazz band, chorus or vocal ensemble appears as a named Upper School course in the 2026-27 catalog. No band, choral or music-department director is named anywhere.',
     ladderTitle: 'The honors ladder — where it stops',
     ladder: [
       {
@@ -235,6 +246,7 @@ export const davidsonDay: ArtsProgram = {
     sources: [
       { label: '2026-27 Upper School Course Catalog', url: DD_CATALOG },
       { label: 'davidsonday.org — Arts', url: DD_ARTS },
+      { label: 'School Profile 2026–27 (course grid)', url: DD_PROFILE },
     ],
   },
 
@@ -258,7 +270,7 @@ export const davidsonDay: ArtsProgram = {
       { name: 'AP Studio Art', terminal: true },
     ],
     pathNote:
-      'AP Studio Art requires departmental approval. Portfolio runs as an alternate stepping-stone into AP, and Photography I → II → III is a parallel three-year track ending in a personal website',
+      'AP Studio Art requires departmental approval. It is in the catalog. The 2026–27 profile does not list it. Portfolio runs as an alternate stepping-stone into AP, and Photography I → II → III is a parallel three-year track ending in a personal website',
     exhibits: [
       {
         when: 'Course-end',
@@ -286,6 +298,7 @@ export const davidsonDay: ArtsProgram = {
     sources: [
       { label: '2026-27 Upper School Course Catalog', url: DD_CATALOG },
       { label: 'davidsonday.org — Arts', url: DD_ARTS },
+      { label: 'School Profile 2026–27 (course grid)', url: DD_PROFILE },
     ],
   },
 
@@ -305,15 +318,15 @@ export const davidsonDay: ArtsProgram = {
       },
       {
         label: 'The Blumey record is program-level, not just lucky individuals',
-        text: '2023 Mean Girls drew Best Musical, Best Ensemble/Chorus and Best Overall Direction nominations. Once Upon a One More Time had five finalists in 2025. 2026 Big Fish produced five more: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer.',
+        text: '2023 Mean Girls drew Best Musical, Best Ensemble/Chorus and Best Overall Direction nominations. Something Rotten! had five finalists in 2024. Once Upon a One More Time had five finalists in 2025. 2026 Big Fish produced five more: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer.',
       },
       {
         label: 'A complete visual-arts ladder terminating in AP',
-        text: 'Photography I–III alongside Studio I → Studio II Honors → AP Studio Art is a four-to-five-year runway, with Portfolio as a second, more self-directed route in.',
+        text: 'Photography I–III alongside Studio I → Studio II Honors → AP Studio Art is a four-to-five-year runway, with Portfolio as a second, more self-directed route in. AP Studio Art is in the catalog; the 2026–27 profile does not list it.',
       },
       {
         label: 'Media breadth beyond the traditional arts',
-        text: 'Film Studies & Production and Modern Music (GarageBand composition, soundtrack building), plus Photography III’s personal-website requirement, give a media-leaning student portfolio-visible output with no performance requirement.',
+        text: 'Film Studies & Production and Modern Music (GarageBand composition, soundtrack building) let a student build media work without performing. So does Photography III, where students make a personal website. The 2026–27 profile marks Modern Music not offered this year.',
       },
       {
         label: 'The requirements are arts-friendly at the margins',
@@ -328,6 +341,7 @@ export const davidsonDay: ArtsProgram = {
       'What external arts recognition have students earned in the last three years beyond the Blumeys? None of these could be found: all-state selections · adjudicated ratings (scores from festival judges) · NCTC participation · an Art Honor Society · a Tri-M chapter.',
       'How does visual art get shown, and is any film or darkroom work possible? No gallery, student-show calendar or art honor society is published, and the photo sequence reads as digital-only. Does the school provide cameras?',
       'Does a Middle School band or chorus exist, and does it feed anything in the Upper School?',
+      'Are AP Studio Art and Modern Music running this year?',
     ],
     sources: [
       { label: 'davidsonday.org — Arts', url: DD_ARTS },
@@ -335,6 +349,7 @@ export const davidsonDay: ArtsProgram = {
       {
         label: 'Verdict synthesized by the researcher from the sources cited on cards 1a–1d',
       },
+      { label: 'School Profile 2026–27 (course grid)', url: DD_PROFILE },
     ],
   },
 }

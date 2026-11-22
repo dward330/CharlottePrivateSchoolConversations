@@ -61,7 +61,7 @@ import { chromium } from 'playwright'
 import { readFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { markRoots, planVisits, printScope, progress, resolveScope, scopeFlags, settle } from './audit_scope.mjs'
+import { checklistBands, markRoots, planVisits, printScope, progress, resolveScope, scopeFlags, settle } from './audit_scope.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const args = process.argv.slice(2)
@@ -84,7 +84,6 @@ if (bad.length) {
 }
 
 const COMPARE_TOPICS = ['financial-aid-tuition', 'admissions', 'after-school', 'summer-programs', 'college-support']
-const BANDS = ['', 'tkk5', 'es', 'ms', 'hs', 'intl', 'lower', 'middle', 'upper']
 const scope = await resolveScope({ ...scopeFlags(args), compareTopics: COMPARE_TOPICS })
 if (printScope(scope)) process.exit(0)
 
@@ -198,7 +197,8 @@ async function visit(v, rows) {
   }
 }
 
-const plans = LANGS.map((lang) => [lang, planVisits(scope, { base: BASE, lang, slugs, compareTopics: COMPARE_TOPICS, bands: BANDS })])
+const bands = await checklistBands(slugs)
+const plans = LANGS.map((lang) => [lang, planVisits(scope, { base: BASE, lang, slugs, compareTopics: COMPARE_TOPICS, bands })])
 const prog = progress(plans.reduce((n, [, p]) => n + p.length, 0))
 let total = 0
 for (const [lang, visits] of plans) {

@@ -277,3 +277,13 @@ Re-opened 2026-11-22: the five pages in the self-scan note above, with the same 
 - No live page read links Vernette Rucker to Mosaic, calls Mosaic "student-led", or restates the DEI
   Committees, parent sessions or Cookbook Club. Those rested on the retired page (July 2026).
 - The Diwali post dates its assembly "Friday, October 17", which is 2025.
+
+### Re-verification 2026-11-22 (plan consistency5, self-scan)
+
+Fetched 2026-11-22 (HTTP 200). Student names are left out on purpose.
+
+- https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-students-inducted-into-cum-laude-society:
+  the ceremony was held "April 10" and "inducted 28 new members" from the "Class of ’24 and Class of
+  ’25". "Fourteen members of the Class of ’25 were inducted", "another 14 were inducted from the
+  Class of ’24", and they joined 14 members of the Class of ’24 inducted the year before. The
+  classes place the ceremony in April 2024. The post does not print the year in its text.

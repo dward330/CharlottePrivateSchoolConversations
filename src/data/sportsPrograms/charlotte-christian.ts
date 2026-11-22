@@ -176,7 +176,7 @@ export const charlotteChristian: SportsProgram = {
       },
     ],
     didNotWin:
-      'football, girls soccer, girls lacrosse and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · girls basketball (Cannon) · softball (Covenant Day) · wrestling and both golf titles (Charlotte Latin) · girls tennis and field hockey (Charlotte Country Day) · volleyball (North Raleigh Christian) · boys soccer and both boys distance titles (Christ School) · boys lacrosse, boys tennis and girls track (Durham Academy).',
+      'In 2025–26: football, girls soccer, girls lacrosse and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · girls basketball (Cannon) · softball (Covenant Day) · wrestling and both golf titles (Charlotte Latin) · girls tennis and field hockey (Charlotte Country Day) · volleyball (North Raleigh Christian) · boys soccer and both boys distance titles (Christ School) · boys lacrosse, boys tennis and girls track (Durham Academy).',
     bars: [
       { program: 'Baseball', record: '28–7', pct: 0.8, tag: "'25–26" },
       { program: 'Football — Estep era', record: '138–42', pct: 0.767, tag: '2007–22' },
@@ -218,7 +218,7 @@ export const charlotteChristian: SportsProgram = {
   /* --------------------------------------------------------- 1d pipeline -- */
   pipeline: {
     headline:
-      '48 college commitments across the classes of 2024, 2025 and 2026, 35 of them Division I and 11 Power 4.',
+      '48 college commitments across the classes of 2024, 2025 and 2026, 36 of them Division I and 11 Power 4.',
     subhead:
       'More than 100 Division I signees across the 2014–2025 classes — one of the deepest sustained pipelines in the Charlotte private-school field.',
     funnel: [
@@ -229,7 +229,7 @@ export const charlotteChristian: SportsProgram = {
         width: 1,
         shade: 'pale',
       },
-      { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.73, shade: 'mid' },
+      { label: 'NCAA Division I', hint: '(any conference)', derive: 'd1', width: 0.75, shade: 'mid' },
       {
         label: 'Power 4',
         hint: '(SEC · Big Ten · ACC · Big 12, plus Notre Dame)',
@@ -239,7 +239,7 @@ export const charlotteChristian: SportsProgram = {
       },
     ],
     funnelNote:
-      'The classes of 2024 and 2025 come from the school’s published "Knights in College" roster. That list does not yet include the Class of 2026, which is confirmed on the colleges’ own rosters and in the school’s announcements. At 73%, the Division I share of commitments is unusually high.',
+      'The classes of 2024 and 2025 come from the school’s published "Knights in College" roster. That list does not yet include the Class of 2026, which is confirmed on the colleges’ own rosters and in the school’s announcements. At 75%, the Division I share of commitments is unusually high.',
     sportBars: [
       { sport: 'Football', match: ['Football'] },
       { sport: 'Baseball', match: ['Baseball'] },
@@ -283,7 +283,7 @@ export const charlotteChristian: SportsProgram = {
       { cls: "'25", name: 'Alexander Paschall', sport: 'Golf', college: 'Davidson', conf: 'Atlantic 10', level: 'D1' },
       { cls: "'25", name: 'Alesia Sylverain', sport: 'Track & Field', college: 'Johnson C. Smith', conf: 'CIAA', level: 'D2' },
       { cls: "'25", name: 'Wade Thompson', sport: 'Baseball', college: 'Wingate', conf: 'SAC', level: 'D2' },
-      { cls: "'25", name: 'Stokes Greene', sport: 'Golf', college: 'Queens (Charlotte)', conf: 'SAC', level: 'D2' },
+      { cls: "'25", name: 'Stokes Greene', sport: 'Golf', college: 'Queens (Charlotte)', conf: 'ASUN', level: 'D1' },
       { cls: "'25", name: 'Andrew Boythe', sport: 'Boys Soccer', college: 'Cedarville', conf: 'G-MAC', level: 'D2' },
       { cls: "'25", name: 'Nick Dunkley', sport: 'Soccer & Track', college: 'Christopher Newport', conf: 'C2C', level: 'D3' },
       { cls: "'25", name: 'Griffin Fox', sport: 'Lacrosse', college: 'Grove City', conf: 'PAC', level: 'D3' },

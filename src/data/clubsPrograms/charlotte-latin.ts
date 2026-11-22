@@ -95,7 +95,7 @@ export const charlotteLatin: ClubsProgram = {
 
   service: {
     headline:
-      'Service is deliberately not required — and students still logged 3,396 hours by the end of junior year, with a recognition society and a national first behind them.',
+      'Service is deliberately not required — and the Class of 2023 still logged 3,396 hours by the end of junior year, with a recognition society and a national first behind them.',
     subhead:
       'The school states plainly that it has no service-hours graduation requirement; what it has instead is a reflection-based recognition model running across all four Upper School years.',
     programs: [
@@ -150,7 +150,7 @@ export const charlotteLatin: ClubsProgram = {
         name: 'Cum Laude Society — Edward J. Fox Chapter',
         division: 'Upper School',
         recognizes:
-          'The highest academic honor at the school — seniors in the top 20% and juniors in the top 10% of their class · 28 inducted in the most recent ceremony',
+          'The highest academic honor at the school — seniors in the top 20% and juniors in the top 10% of their class · 28 inducted in April 2024 (Classes of 2024 and 2025)',
         feedsFrom: 'the classroom',
       },
       {

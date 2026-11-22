@@ -460,12 +460,12 @@
       "t": "informatica"
     },
     {
-      "text": "There is no standing honor-societies page. The facts here come from one-off news posts, the 2025–26 club list and the 2026–27 profile. So the published counts are historical rather than current, except the profile’s 118 NHS inductees — 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May, 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other five publish none.",
-      "of": "b07e10ae",
+      "text": "There is no standing honor-societies page. The facts here come from one-off news posts, the 2025–26 club list and the 2026–27 profile. So the published counts are historical rather than current, except the profile’s 118 NHS inductees. The historical counts are 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May and 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other five publish none.",
+      "of": "a12dbd48",
       "at": [
         "providence-day:honors.flags[0].text"
       ],
-      "t": "Non esiste una pagina permanente dedicata alle società onorarie. I dati qui provengono da singoli comunicati stampa, dall’elenco dei club 2025–26 e dal profilo 2026–27. Quindi i conteggi pubblicati sono storici più che attuali, tranne i 118 nuovi membri NHS del profilo — 89 nuovi membri NHS nel 2017, 34 membri Cum Laude nel 2022, quasi 50 nuovi membri per l’arte in un mese di maggio, 11 nuovi membri Tri-M nel 2019. I criteri di ammissione sono pubblicati solo per la National Honor Society; le altre cinque non ne pubblicano alcuno."
+      "t": "Non esiste una pagina permanente dedicata alle società onorarie. I dati qui provengono da singoli comunicati stampa, dall’elenco dei club 2025–26 e dal profilo 2026–27. Quindi i conteggi pubblicati sono storici più che attuali, tranne i 118 nuovi membri NHS del profilo. I conteggi storici sono 89 nuovi membri NHS nel 2017, 34 membri Cum Laude nel 2022, quasi 50 nuovi membri per l’arte in un mese di maggio e 11 nuovi membri Tri-M nel 2019. I criteri di ammissione sono pubblicati solo per la National Honor Society; le altre cinque non ne pubblicano alcuno."
     },
     {
       "text": "No Middle School honor society could be confirmed, and despite five world languages on offer only the French society is evidenced. Archive searches across the site’s full URL history for Rho Kappa, Mu Alpha Theta, Quill & Scroll, a junior honor society and a Spanish society returned nothing.",
@@ -1394,6 +1394,8 @@
         "charlotte-latin:clusters.rows[4].evidenceLabel",
         "charlotte-latin:catalog.divisions[0].tag",
         "charlotte-christian:catalog.divisions[2].tag",
+        "charlotte-country-day:clusters.rows[2].evidenceLabel",
+        "charlotte-country-day:clusters.rows[3].evidenceLabel",
         "charlotte-country-day:catalog.divisions[0].tag",
         "cannon:clusters.rows[2].evidenceLabel",
         "cannon:clusters.rows[3].evidenceLabel",
@@ -1518,12 +1520,12 @@
       "t": "La vecchia pagina DEI nominava \"the student-led Diversity Club and Alliance Groups\" in un’unica frase. Ora dà 404, e il suo collegamento \"Diversity Club List\" reindirizza alla pagina Community, Belonging and Global Education, che non contiene alcun elenco. Non è pubblicato alcun conteggio né elenco completo dei gruppi di affinità, quindi non ci sono cifre discordanti da conciliare. I gruppi della Lower e della Middle School sono pubblicati sotto Brotherhood & Belonging (Voices, The Boys’ Room); la sua parte per l’Upper School è descritta come un’espansione futura. Sulle pagine lette non sono stati trovati un corpo di leadership studentesca sulla diversità né la partecipazione a una conferenza nazionale."
     },
     {
-      "text": "Service is deliberately not required — and students still logged 3,396 hours by the end of junior year, with a recognition society and a national first behind them.",
-      "of": "9bfdf4a1",
+      "text": "Service is deliberately not required — and the Class of 2023 still logged 3,396 hours by the end of junior year, with a recognition society and a national first behind them.",
+      "of": "762de734",
       "at": [
         "charlotte-latin:service.headline"
       ],
-      "t": "Il servizio non è deliberatamente obbligatorio — eppure gli studenti hanno comunque registrato 3,396 ore entro la fine del terzo anno, con alle spalle una società di riconoscimento e un primato nazionale."
+      "t": "Il servizio non è deliberatamente obbligatorio — eppure la Class of 2023 ha comunque registrato 3,396 ore entro la fine del terzo anno, con alle spalle una società di riconoscimento e un primato nazionale."
     },
     {
       "text": "The school states plainly that it has no service-hours graduation requirement; what it has instead is a reflection-based recognition model running across all four Upper School years.",
@@ -1647,12 +1649,12 @@
       "t": "Charlotte Latin riconosce i risultati in singole materie e nelle lingue straniere tramite premi intitolati anziché società onorarie, quindi il registro è breve per scelta."
     },
     {
-      "text": "The highest academic honor at the school — seniors in the top 20% and juniors in the top 10% of their class · 28 inducted in the most recent ceremony",
-      "of": "f59b792e",
+      "text": "The highest academic honor at the school — seniors in the top 20% and juniors in the top 10% of their class · 28 inducted in April 2024 (Classes of 2024 and 2025)",
+      "of": "4353bf87",
       "at": [
         "charlotte-latin:honors.societies[0].recognizes"
       ],
-      "t": "Il più alto riconoscimento accademico della scuola — studenti dell’ultimo anno nel 20% migliore e studenti del terzo anno nel 10% migliore della loro classe · 28 ammessi nella cerimonia più recente"
+      "t": "Il più alto riconoscimento accademico della scuola — studenti dell’ultimo anno nel 20% migliore e studenti del terzo anno nel 10% migliore della loro classe · 28 ammessi nell’aprile 2024 (Classes of 2024 e 2025)"
     },
     {
       "text": "Significant contribution to the community through service — 150 hours across four years",
@@ -1820,7 +1822,8 @@
       "text": "World Quest",
       "of": "6be6dbe1",
       "at": [
-        "charlotte-latin:clusters.rows[3].name"
+        "charlotte-latin:clusters.rows[3].name",
+        "charlotte-country-day:clusters.rows[2].name"
       ],
       "t": "World Quest"
     },
@@ -2290,12 +2293,12 @@
       "t": "Consapevolezza multiculturale attraverso letteratura, relatori ospiti e lezioni basate su progetti; a ciascuna classe viene assegnato un paese per il Multicultural Festival. Programmazione anziché gruppi permanenti."
     },
     {
-      "text": "Students learn about other cultures in class, in heritage months and on field trips. Grade 6 visits Sudan Interior Missions. Grade 7 visits the Butterfly Memorial dedicated to the Holocaust Museum. Grade 8 has activities on the Civil Rights Movement.",
-      "of": "90d0e3c6",
+      "text": "Students learn about other cultures in class, in heritage months and on field trips. Grade 6 visits Sudan Interior Missions. Grade 7 visits what the school calls “the Butterfly Memorial dedicated to the Holocaust Museum.” Grade 8 has activities on the Civil Rights Movement.",
+      "of": "3dabbffb",
       "at": [
         "charlotte-christian:affinity.strips[1].text"
       ],
-      "t": "Gli studenti conoscono altre culture in classe, durante i mesi del patrimonio culturale e nelle gite. La 6ª classe visita le Sudan Interior Missions. La 7ª visita il Butterfly Memorial dedicato all’Holocaust Museum. L’8ª svolge attività sul Civil Rights Movement."
+      "t": "Gli studenti conoscono altre culture in classe, durante i mesi del patrimonio culturale e nelle gite. La 6ª classe visita le Sudan Interior Missions. La 7ª visita quello che la scuola chiama “the Butterfly Memorial dedicated to the Holocaust Museum.” L’8ª svolge attività sul Civil Rights Movement."
     },
     {
       "text": "Beyond Romans 12, the parent bodies are PTF (Parent Teacher Fellowship) and N.E.W. (Newcomers Embraced & Welcomed) — new-family assimilation rather than identity-based groups — plus the Haverim Ladies’ Bible Study.",
@@ -3515,12 +3518,12 @@
       "t": "Finalisti ai Blumey"
     },
     {
-      "text": "Five finalists in 2025 and five more in 2026, with no win in either year.",
-      "of": "1863fb4f",
+      "text": "Five finalists in each of 2024, 2025 and 2026, with no win in 2025 or 2026.",
+      "of": "a11e0e0d",
       "at": [
         "charlotte-catholic:honors.adjacent[4].text"
       ],
-      "t": "Cinque finalisti nel 2025 e altri cinque nel 2026, senza vittorie in nessuno dei due anni."
+      "t": "Cinque finalisti in ciascuno degli anni 2024, 2025 e 2026, senza vittorie nel 2025 o nel 2026."
     },
     {
       "text": "Induction criteria are published for five of the ten societies. The four world-language societies and the National Art Honor Society are named on the school profile without a stated GPA or points threshold, and no society publishes its membership count.",
@@ -4745,12 +4748,12 @@
       "t": "Qui non esiste alcuna società onoraria di lingua straniera — nessuna società di francese, spagnolo o latino — nonostante quelle lingue attraversino l’AP e l’IB. Né esiste una società di matematica, scienze o giornalismo. Si tratta di un’assenza, non semplicemente di qualcosa di non documentato."
     },
     {
-      "text": "Model UN is the flagship, with repeat conference awards.",
-      "of": "642b6163",
+      "text": "Model UN and World Quest lead, with repeat awards and wins.",
+      "of": "2823ac6d",
       "at": [
         "charlotte-country-day:clusters.verdict"
       ],
-      "t": "Model UN è il fiore all’occhiello, con premi ripetuti nelle conferenze."
+      "t": "Model UN e World Quest sono in testa, con premi e vittorie ripetuti."
     },
     {
       "text": "Delegations of 10–20 to UNC (MUNCH) and Virginia (VAMUN), 2024–26",
@@ -4791,6 +4794,46 @@
         "charlotte-country-day:clusters.rows[1].note"
       ],
       "t": "La robotica è confermata per nome tramite i profili degli studenti nell’archivio delle notizie, ma non sono emersi risultati pubblici di gare (FIRST, VEX o simili) per il programma dell’Upper School."
+    },
+    {
+      "text": "First place at Academic WorldQuest “nearly every year,” the school says",
+      "of": "4d645e33",
+      "at": [
+        "charlotte-country-day:clusters.rows[2].oneLiner"
+      ],
+      "t": "Primo posto ad Academic WorldQuest “nearly every year”, dice la scuola"
+    },
+    {
+      "text": "The school’s International Studies page says students “finish in first place at the Academic WorldQuest competition nearly every year.” It also counts 23 wins across Academic WorldQuest, Euro Challenge and Model UN conferences combined. It does not list the years.",
+      "of": "68170ca2",
+      "at": [
+        "charlotte-country-day:clusters.rows[2].note"
+      ],
+      "t": "La pagina International Studies della scuola dice che gli studenti “finish in first place at the Academic WorldQuest competition nearly every year.” Conta inoltre 23 vittorie in tutto tra Academic WorldQuest, Euro Challenge e conferenze Model UN. Non ne elenca gli anni."
+    },
+    {
+      "text": "Euro Challenge",
+      "of": "ab2db471",
+      "at": [
+        "charlotte-country-day:clusters.rows[3].name"
+      ],
+      "t": "Euro Challenge"
+    },
+    {
+      "text": "An Upper School team, counted in the school’s 23 combined wins",
+      "of": "20c8e6a8",
+      "at": [
+        "charlotte-country-day:clusters.rows[3].oneLiner"
+      ],
+      "t": "Una squadra dell’Upper School, conteggiata nelle 23 vittorie complessive della scuola"
+    },
+    {
+      "text": "The school lists Euro Challenge among its Upper School international programs. Its count of 23 wins combines Euro Challenge, Academic WorldQuest and Model UN conferences. It does not say how many came from Euro Challenge.",
+      "of": "9386330e",
+      "at": [
+        "charlotte-country-day:clusters.rows[3].note"
+      ],
+      "t": "La scuola elenca Euro Challenge tra i programmi internazionali dell’Upper School. Il suo conteggio di 23 vittorie unisce Euro Challenge, Academic WorldQuest e conferenze Model UN. Non dice quante provengano da Euro Challenge."
     },
     {
       "text": "About 45–50 Upper School clubs and activities, spanning governance, academics, service, and affinity groups.",
@@ -5541,10 +5584,18 @@
       "t": "Leadership eletta della Lower School; iniziative annuali sui valori fondamentali"
     },
     {
+      "text": "Student-elected Upper School body, which the school calls “a model of community governance and integrity”",
+      "of": "448161a7",
+      "at": [
+        "cannon:catalog.clubs[10].note"
+      ],
+      "t": "Organo dell’Upper School eletto dagli studenti, che la scuola definisce “a model of community governance and integrity”"
+    },
+    {
       "text": "Upper School service club; Habitat for Humanity builds incl. Winterm trips",
       "of": "c0ae6f19",
       "at": [
-        "cannon:catalog.clubs[10].note"
+        "cannon:catalog.clubs[11].note"
       ],
       "t": "Club di servizio dell’Upper School; cantieri Habitat for Humanity inclusi i viaggi Winterm"
     },
@@ -5552,7 +5603,7 @@
       "text": "Middle School team coordinating volunteers for the Special Olympics of Cabarrus County",
       "of": "64f9dc72",
       "at": [
-        "cannon:catalog.clubs[11].note"
+        "cannon:catalog.clubs[12].note"
       ],
       "t": "Squadra della Middle School che coordina i volontari per gli Special Olympics della Cabarrus County"
     },
@@ -5560,7 +5611,7 @@
       "text": "Flagship category of Upper School club life under the DBE framework; no named roster published",
       "of": "9a325c90",
       "at": [
-        "cannon:catalog.clubs[12].note"
+        "cannon:catalog.clubs[13].note"
       ],
       "t": "Categoria di punta della vita dei club dell’Upper School nel quadro DBE; nessun elenco nominato pubblicato"
     },
@@ -5568,7 +5619,7 @@
       "text": "Active Upper School publication with student editors and a dedication ceremony",
       "of": "15c58ed0",
       "at": [
-        "cannon:catalog.clubs[13].note"
+        "cannon:catalog.clubs[14].note"
       ],
       "t": "Pubblicazione attiva dell’Upper School con redattori studenteschi e una cerimonia di dedica"
     },
@@ -5576,7 +5627,7 @@
       "text": "Cited as a representative “fun and adventurous” Upper School interest club",
       "of": "2fb58d9b",
       "at": [
-        "cannon:catalog.clubs[14].note"
+        "cannon:catalog.clubs[15].note"
       ],
       "t": "Citato come club di interesse \"fun and adventurous\" rappresentativo dell’Upper School"
     },
@@ -5630,12 +5681,12 @@
       "t": "Il servizio è radicato in profondità: quasi 10,000 ore di servizio all’anno nell’Upper School (non un requisito per il diploma), progetti benefici Senior Capstone e una House Day of Service. Ma passa attraverso quadri e tradizioni più che club permanenti. Il lavoro sull’affinità rientra nell’impegno Diversity, Belongingness & Engagement (DBE)."
     },
     {
-      "text": "A service ladder that scales with age — fourth graders at twenty community sites, middle schoolers twice a year, and high schoolers building housing for Pine Ridge.",
-      "of": "21aa8032",
+      "text": "A service ladder that scales with age — fourth graders at nearly twenty community sites, middle schoolers twice a year, and high schoolers building housing for Pine Ridge.",
+      "of": "a0b32a87",
       "at": [
         "covenant-day:service.headline"
       ],
-      "t": "Una scala di servizio che cresce con l'età — i ragazzi di 4th grade in venti sedi della comunità, la middle school due volte all'anno e la high school che costruisce alloggi per Pine Ridge."
+      "t": "Una scala di servizio che cresce con l'età — i ragazzi della quarta classe in quasi venti sedi della comunità, la middle school due volte all'anno e la high school che costruisce alloggi per Pine Ridge."
     },
     {
       "text": "Program-based rather than hours-logged: no service-hour requirement exists, and the school publishes no annual totals.",
@@ -7145,12 +7196,12 @@
       "t": "Per la National Honor Society non sono pubblicati criteri di ammissione, soglie di GPA, nomi delle sezioni o numeri di membri — solo il fatto che esista. Il programma National Merit non è affatto menzionato nel profilo, per cui non è stato possibile costruire alcun registro di Semifinalist/Commended."
     },
     {
-      "text": "A first-year VEX Nationals qualification anchors what the school itself names.",
-      "of": "43bec817",
+      "text": "The top result the school names is a first-year VEX Nationals qualification.",
+      "of": "f73ea7dd",
       "at": [
         "gaston-day:clusters.verdict"
       ],
-      "t": "Una qualificazione ai VEX Nationals al primo anno regge ciò che la scuola stessa nomina."
+      "t": "Il risultato di punta che la scuola nomina è una qualificazione ai VEX Nationals al primo anno."
     },
     {
       "text": "VEX Robotics",
@@ -7241,12 +7292,12 @@
       "t": "Nove organizzazioni nominate dalla scuola stessa. La più notevole: un club di VEX Robotics arrivato ai TSA Nationals al primo anno."
     },
     {
-      "text": "The school publishes no full clubs list. Its Upper School page names three clubs and says students can start a new one with a faculty sponsor; its Academic Profile names the rest.",
-      "of": "13d1c9c7",
+      "text": "The school publishes no full clubs list. Its Upper School page names three clubs and the Student Government, and says students can start a new one with a faculty sponsor. Its Academic Profile names the rest.",
+      "of": "9b8eb0ea",
       "at": [
         "gaston-day:catalog.verdictHint"
       ],
-      "t": "La scuola non pubblica un elenco completo dei club. La sua pagina dell’Upper School nomina tre club e afferma che gli studenti possono fondarne uno nuovo con un docente referente; il suo Academic Profile nomina gli altri."
+      "t": "La scuola non pubblica un elenco completo dei club. La sua pagina dell’Upper School nomina tre club e lo Student Government, e afferma che gli studenti possono fondarne uno nuovo con un docente referente. Il suo Academic Profile nomina gli altri."
     },
     {
       "text": "STEM & competitive",

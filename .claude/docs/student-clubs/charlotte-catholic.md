@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — Student Clubs
-> Distilled from 2 source document(s) in `source-material/student-clubs/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
+> Distilled from 2 source document(s) in `source-material/student-clubs/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-23.
 **Documents:** Governance Web Check 2026, Club Catalog and Overview
 
 
@@ -129,7 +129,7 @@ The strongest documented competitive result is **Speech & Debate: North Carolina
 runner-up, with [name withheld] the Program Oral Interpretation State Champion** —
 but that coverage is from **2017** (S6), nine years old and older than anything shipped for
 any other school on this roster. **It is not used as the flagship result.** The app instead
-uses the **2025 Blumey Awards finalists** (five finalists, one in each of five categories),
+uses the **Blumey Awards finalists of 2024 to 2026** (fifteen finalist places, five in each year),
 which is recent, dated and independently verifiable.
 
 ## The 76 clubs

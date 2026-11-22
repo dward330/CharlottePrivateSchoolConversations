@@ -188,7 +188,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '117', // line-by-line count of the Total Index of Courses by Department (p.8), re-read 2026-11-20; 119 had counted two sub-headings
       'charlotte-latin': '122', // 136 live posts on the Upper School course-offerings page minus 14 department intros (re-counted 2026-11-20)
       'covenant-day': '89', // level-qualified entries: 86 on the 9 /academics/high-school tiles + 3 only in the Aug 2026 profile (plan consistency4, COV-T4)
-      'carmel-christian': '96', // HS catalog across 9 depts (S2/S3/S4), one entry per level = 96 rows; 77 distinct titles (plan consistency CAR-3)
+      'carmel-christian': '92', // the 2026-27 HS Course Description Guide, 9 depts, one entry per level = 92 rows; 69 distinct titles, 16 AP (plan consistency5, 5b)
       'davidson-day': '86', // 86 catalog courses (recounted 2026-11-20, plan consistency DD-2); 66 on the 2026-27 offerings grid
       'hickory-grove-christian': '112', // real courses in the 2026-2027 Course Selection Catalog; 117 distinct title strings, 5 of them spelling variants
       'gaston-day': '46', // counted from the Academic Profile 2025-2026 curriculum table — the school publishes no separate course catalog
@@ -218,7 +218,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'carmel-christian': {
         kind: 'scope',
-        text: 'Counted from the 2026–27 high-school course listings, one entry per course level, as Covenant Day and Hickory Grove are counted. A subject taught at Standard, Honors and AP counts three times, so the 96 entries come from 77 distinct titles.',
+        text: 'Counted from the 2026–27 high school Course Description Guide, one entry per course level, as Covenant Day and Hickory Grove are counted. A subject taught at Pathways, Standard and Honors counts three times, so the 92 entries come from 69 distinct titles.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -243,7 +243,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '23 AP + 18 IB', // plus the IB core (Theory of Knowledge, Extended Essay, CAS)
       'charlotte-latin': '24 AP subjects', // the 2026–27 Upper School Profile; the course-offerings page lists 23 AP courses
       'covenant-day': '17 AP', // AP-tagged courses on the /academics/high-school department tiles; the 2026-27 Profile matrix listed 15
-      'carmel-christian': '16 AP', // 16 AP courses (landing page; profile says 15, +AP World History → 16)
+      'carmel-christian': '16 AP', // 16 AP courses in the 2026-27 guide, and the landing page says 16 (the older profile said 15)
       'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
       'hickory-grove-christian': '17 AP', // the 2026-2027 catalog's Advanced Placement section, counted title by title
       'gaston-day': '10 AP', // counted from the profile's own course table; PSR says 9 and omits Chemistry, which the profile marks (H)(AP)
@@ -781,14 +781,14 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: '11 / 107', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '11 / 107', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '3 / 107', // Hampton University, Benedict College, West Virginia State University
-      'charlotte-country-day': '19 / 107', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-country-day': '20 / 107', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '10 / 107', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '3 / 107', // Fayetteville State, Johnson C. Smith, NC A&T (NC A&T bold/matriculated)
       'carmel-christian': '8 / 107', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
       'davidson-day': '5 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
       'hickory-grove-christian': '23 / 107', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023 + 2025–2026 lists)
       'gaston-day': '5 / 107', // Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo
-      'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
+      'providence-day': '15 / 107', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
       'charlotte-catholic': {
@@ -802,11 +802,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-christian': { kind: 'scope', text: '11 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'charlotte-country-day': { kind: 'scope', text: '19 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '20 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': { kind: 'scope', text: '10 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published 2023–25 and 2024–26 acceptance lists, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'covenant-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '5 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
-      'providence-day': { kind: 'scope', text: '14 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '15 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2027 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
         kind: 'scope',
         text: 'Historically Black colleges and universities named on the acceptance list.',
@@ -1472,7 +1472,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': 'JK–12',
       'charlotte-latin': 'TK–12',
       'covenant-day': 'JK–12',
-      'carmel-christian': 'K–12', // arts integrated K-4, sequential from grade 5
+      'carmel-christian': 'K–12', // arts integrated in the early grades (the arts page says K-4, the elementary guide music through 5), electives from grade 5
       'davidson-day': 'Age 2–Gr 12',
       'hickory-grove-christian': 'TK–12',
       'gaston-day': 'PS–Grade 12', // drama from grade 2; integrated arts from preschool
@@ -1518,7 +1518,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'carmel-christian': {
         kind: 'range',
-        text: 'Arts run K–12: integrated music and art in grades K–4, becoming sequential and elective from grade 5 up.',
+        text: 'Arts run K–12. The arts page says every K–4 student takes music and art, with electives from grade 5 up. The 2026–27 elementary guide lists music for every grade through 5.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -1537,9 +1537,9 @@ export const VALUE_METRICS: ValueMetric[] = [
     // Latin's "80%+ participation" purely for carrying a number.
     noLead: true,
     values: {
-      cannon: 'NCTC festival', // competes in NC Theatre Conference HS Play Festival
+      cannon: '15 Blumey finalists', // the card's ledger: five finalist places in each of 2023, 2025 and 2026 (plan consistency5, CAN-U4). NCTC is participation only
       'charlotte-christian': 'Blumey Best Musical (2013)', // Wells Fargo Best Musical for Oklahoma! (2013), one of four awards that year; https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners
-      'charlotte-catholic': '5 Blumey finalists (2025)', // one finalist in each of the five individual performance categories, for Fiddler on the Roof; 5 more finalists in 2026 for The Wizard of Oz, no win either year
+      'charlotte-catholic': '15 Blumey finalists', // five finalist places in each of 2024, 2025 and 2026, no win in 2025 or 2026 (plan consistency5, the user's call 2026-11-23; the qual gives all fifteen)
       'charlotte-country-day': '2 Blumey wins (2022)', // Best Choreography + Best Direction 2022; replaces the school's 31+ nominations claim, which the lists do not rebuild (user ruling 2026-11-22)
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
       'covenant-day': '2 Blumey wins', // Best Featured Performer 2013 + Student Critic Award 2016; 8 recognitions 2013-2019
@@ -1553,7 +1553,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Five Blumey Award finalists in 2025, one in each of the five individual performance categories, all for Fiddler on the Roof. Five more finalists followed in 2026, for The Wizard of Oz. None was a top-six nominee. CCHS has not won a Blumey in either year.',
+          'Fifteen Blumey finalist places across three years, five in each of 2024, 2025 and 2026. Two students placed in two of those years. The shows were Phantom of the Opera, Fiddler on the Roof and The Wizard of Oz. None of the 2026 five was a top-six nominee. CCHS did not win a Blumey in 2025 or 2026.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -1561,7 +1561,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: {
         kind: 'scope',
-        text: 'The school’s theatre program competes in the NC Theatre Conference High School Play Festival — the recognition its note leads with.',
+        text: 'Fifteen Blumey finalist placements in 2023, 2025 and 2026, with no win found. Cannon also enters the NCTC play festival each year.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -1627,7 +1627,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: {
         kind: 'scope',
-        text: 'The advanced arts course the note names is AP Studio Art.',
+        text: 'AP Studio Art is the one AP arts course. Advanced Topics: Art History carries the same weight.',
       },
       'charlotte-country-day': {
         kind: 'scope',
@@ -1671,7 +1671,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '8 ensembles', // 8 vocal/instrumental groups
       'charlotte-latin': '3 ensembles', // Band, Orchestra, Concert Choir, each "Grades 5-12" on /the-arts/performing; re-read 2026-11-22 (plan consistency4 LAT-T8)
       'covenant-day': '9 ensembles', // Children's Choir, MS Band/Choir/Worship, Symphonic Band, HS Choir/Worship/A Cappella + gr.5 intro
-      'carmel-christian': '3', // Symphonic Band, Choir, Ignite Band
+      'carmel-christian': '3', // Symphonic Band, Choir, Ignite Band, per the arts page; the 2026-27 guide lists no HS choir (named in the qual)
       'davidson-day': '2 ensembles', // Contemporary Ensemble + the auditioned Theatre Performance Ensemble, 2026-27 catalog (plan consistency4, DD-T5)
       'hickory-grove-christian': '3 ensembles', // HS: Concert Band, Chapel Band, High School Choir (no orchestra); Jazz Band dropped 2026-11-10 — not on the live site or the 2026–27 catalog
       'gaston-day': '3 ensembles', // Upper School: Band, Concert Choir, Vocal Performance Ensemble (the high-school basis; the MS Instrumental Ensemble and Chorus are named in the qual)
@@ -1699,9 +1699,13 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Band, Orchestra and Concert Choir, each offered in grades 5–12. The Community Chorale and the Acapella Club are not counted.',
       },
+      'carmel-christian': {
+        kind: 'scope',
+        text: 'The arts page names three high school ensembles: Symphonic Band, Choir and Ignite Band. The 2026–27 Course Description Guide lists the two bands, but no choir.',
+      },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'Eight vocal and instrumental groups across Middle and Upper School, spanning auditioned honors ensembles and entry groups.',
+        text: 'Eight vocal and instrumental groups across Middle and Upper School, spanning auditioned honors ensembles and entry-level groups.',
       },
       'covenant-day': {
         kind: 'scope',
@@ -1741,7 +1745,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     // range on its midpoint so it competes as the count it represents.
     compareAs: 'range-mid',
     values: {
-      cannon: '≥20', // 8 named US orgs + 12 US honor societies (NHS chapter 2025); no chartered directory published
+      cannon: '≥21', // 9 named US orgs (Honor Council added 2026-11-22, plan consistency5) + 12 US honor societies (NHS chapter 2025); no chartered directory published
       'charlotte-christian': '23', // 23 named US orgs (part of 38 across JK–12)
       'charlotte-catholic': '76', // counted from the clubs directory's raw HTML — 6 categories: Education 16, Service 23, Community 9, Culture 4, Sports 15, General Interest 9. The school profile's 'over 50' is a round prose figure
       'charlotte-country-day': '~45–50', // school publishes a range; only 11 confirmed by name
@@ -1761,7 +1765,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       cannon: {
         kind: 'minimum',
-        text: 'Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 12 Upper School honor societies. A school news post also announces a Science National Honor Society chapter, which is not counted here. The live roster shifts year to year and is not fully disclosed.',
+        text: 'Cannon publishes no chartered club directory, so this is a documented floor: 9 named Upper School organizations plus its 12 Upper School honor societies. A school news post also announces a Science National Honor Society chapter, which is not counted here. The live roster shifts year to year and is not fully disclosed.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -1769,7 +1773,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'range',
-        text: 'The school publishes a range rather than a list — its Upper School page cites “nearly 50 clubs” and the 2025–26 profile lists “45 different clubs and activities.” Only 11 are confirmed by name in public sources.',
+        text: 'The school publishes a range rather than a list. Its Upper School page cites “nearly 50 clubs.” The 2025–26 profile lists “45 different clubs and activities.” The club catalog names 11; the school also names nine affinity groups, one of them in both lists.',
       },
       'covenant-day': {
         kind: 'minimum',
@@ -1816,7 +1820,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: 'FLL Worlds top 100', // FIRST Lego League World Championship, top 100 of 32,000+ (2024 & 2025)
       'charlotte-christian': 'Chess 2nd place', // MS Chess team 2nd at tournament
-      'charlotte-catholic': '5 Blumey finalists (2025)', // the strongest recent dated result. The only competitive alternative found is Speech & Debate state runner-up from 2017 — nine years old, older than anything else shipped
+      'charlotte-catholic': '15 Blumey finalists', // 2024 to 2026, the same count as signature-recognition. The strongest recent result. The only competitive alternative found is Speech & Debate state runner-up from 2017 — nine years old, older than anything else shipped
       'charlotte-country-day': 'Model UN — 6 awards', // MUNCH 2025: 6 awards incl. 4 Outstanding Delegate
       'charlotte-latin': 'Debate top-20 US', // NSDA Schools of Excellence — top 20 nationally
       'covenant-day': 'Mock Trial art 2nd NC', // courtroom artist: regional champion, 2025 state runner-up
@@ -1830,7 +1834,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'The strongest recent dated competitive result. The only alternative found is a Speech & Debate state runner-up finish from 2017 — nine years old, and older than any result shipped for another school here.',
+          'Fifteen Blumey finalist places across three years, five in each of 2024, 2025 and 2026, with no win in 2025 or 2026. It is the strongest recent competitive result. The only alternative found is a Speech & Debate state runner-up finish from 2017 — nine years old, and older than any result shipped for another school here.',
       },
       'gaston-day': {
         kind: 'official',
@@ -2095,7 +2099,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'summer-programs',
     key: 'summer-weeks',
     label: 'Weeks of summer camp',
-    note: 'Number of camp weeks the school runs in summer 2026, counting shortened holiday weeks. A longer season is more weeks a family can cover.',
+    note: 'Number of camp weeks the school runs in summer 2026, counting shortened holiday weeks. A longer season is more weeks a family can cover. Hickory Grove’s figure is from summer 2023, the last schedule found.',
     values: {
       cannon: '7', // June 8 – July 31, closed Juneteenth + the week of June 29
       'charlotte-christian': '6', // June 1 – July 17, one-week break for July 4 (no camps June 29 – July 3)
@@ -2137,7 +2141,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'summer-programs',
     key: 'summer-camps',
     label: 'Camps published',
-    note: 'Camp offerings in the school’s own 2026 catalog. Counting conventions differ — most schools count each week a camp runs as a separate row — so read the per-cell notes before comparing.',
+    note: 'Camp offerings in the school’s own 2026 catalog. Counting conventions differ — most schools count each week a camp runs as a separate row — so read the per-cell notes before comparing. Hickory Grove’s figure is from summer 2023, the last schedule found.',
     values: {
       cannon: '251', // camp-week offerings; ~180 distinct titles
       'charlotte-christian': '133', // session-level rows; ~96 distinct camps
@@ -2202,10 +2206,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '4–18', // "Open to all children ages 4 to 18"
       'charlotte-christian': 'JK–Grade 12', // rising 2026-27 grades; JK must turn 4 by Feb 1
-      'charlotte-catholic': 'ages 6–13', // these are community youth camps CCHS athletics HOSTS, not programming for its own 9-12 students — campers are rising 2nd-9th graders, younger than the school's own enrollment
+      'charlotte-catholic': 'rising 2–9', // community youth camps CCHS athletics HOSTS: baseball by age (6–13), basketball rising 2–8, football rising 3–9 (plan consistency5, CCHS-U3)
       'charlotte-country-day': 'Age 4–Grade 12', // listing bands run Age 4 to Grade 12
       'charlotte-latin': '3.5–18', // "open to all campers ages 3.5 - 18 years old"
-      'covenant-day': 'JK–Grade 12', // rising grades, Little Lion/Cub Camp at the bottom to HS strength & college camps
+      'covenant-day': 'JK–Grade 12', // rising grades, Little Lion/Cub Camp at the bottom to the HS College Admissions camp
       'carmel-christian': 'rising K–8', // Summer Adventures
       'davidson-day': null,
       'hickory-grove-christian': 'rising 1–8, plus 11th and 12th', // Summer 2023: camps rising 1st–8th + the HS College Admissions Boot Camp (11–12)
@@ -2216,7 +2220,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'These are community youth camps that CCHS athletics hosts, not summer programming for its own students. Campers are rising 2nd-9th graders aged 6-13 — younger than the 9-12 school running them, which is why the band sits below the school\'s own grade span.',
+          'These are community youth camps that CCHS athletics hosts, not summer programming for its own students. Baseball takes ages 6–13, basketball rising grades 2–8 and football rising grades 3–9. Only football reaches incoming high schoolers, its rising 9th graders.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -2244,7 +2248,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'scope',
-        text: 'Grades are rising grades for the coming school year, from Little Lion/Cub Camp at the bottom through high-school strength-and-conditioning and college-admissions camps. Camps are open to the community.',
+        text: 'Grades are rising grades for the coming school year, from Little Lion/Cub Camp at the bottom through the high-school College Admissions camp. Camps are open to the community.',
       },
       'carmel-christian': {
         kind: 'range',
@@ -2377,7 +2381,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'davidson-day': {
         kind: 'minimum',
-        text: 'A documented minimum. Davidson Day published no signing list for the Class of 2024, which is counted from college rosters; the Classes of 2025 and 2026 come from the school’s own published lists.',
+        text: 'A documented minimum. Davidson Day published no signing list for the Class of 2024, which is counted from college rosters. The Class of 2026 comes from the school’s recap; the Class of 2025 from its seven-athlete signing list plus college rosters.',
       },
       'gaston-day': {
         kind: 'minimum',
@@ -2392,15 +2396,15 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.',
     values: {
       cannon: '12', // ’24: A.Swartz, Galloway, B.Wilson, Frood, Maynor, W.Swartz, Falasca, Morrow · ’25: Kroll, McCorkle, Nix, Baker (2026 class: two D3 only; ’27 verbals not counted)
-      'charlotte-christian': '35', // ’24: 11 · ’25: 15 · ’26: 9 (Layton ’24 drafted, never enrolled — excluded)
+      'charlotte-christian': '36', // ’24: 11 · ’25: 16 · ’26: 9 (Layton ’24 drafted, never enrolled — excluded)
       'charlotte-catholic': '39', // of 54 documented athletes; P4 is a subset. See the CCHS College Commitments 2024-2026 source file
       'charlotte-country-day': '28', // ’24: 10 · ’25: 12 · ’26: 6 — every row on the school’s own per-class list (17 / 18 / 13), cross-referenced 2026-11-08
       'charlotte-latin': '22', // ’24: Salvage, Monk, Hill, Spinner, Henry, McMahan, Coppage, Floyd, DiRoma, Rose (10) · ’25: Clontz, Booker, Connor, Milligan, Morgan (5) · ’26: Lee, Short, K.Smith, Holland, Gorelick, Cheatwood, Barber (7)
       'covenant-day': '10', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner (App State), Stanley, Rivens (Charlotte football) (5) · ’26: Neil, Welsh, Houseton (3)
       'carmel-christian': '6', // ’24: K.Taylor (UNCA), Avram (South Carolina tennis) · ’25: B.Slay (Marshall), Bowman (UNCG), Agafonov (Queens tennis) · ’26: Johnson (UNCA). Buzzard removed: graduated from East Mecklenburg
-      'davidson-day': '13', // ’24: M.Smith (Furman), Neace (Wofford), Zulman (Villanova) · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck, Arnold, Perry (2024 from college rosters — no school list; 2025/2026 per the school’s lists)
+      'davidson-day': '13', // ’24: M.Smith (Furman), Neace (Wofford), Zulman (Villanova) · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck, Arnold, Perry (2024 from college rosters — no school list; 2025 from the seven-athlete list plus rosters; 2026 per the school’s recap)
       'hickory-grove-christian': '4', // ’24: Barozzino (App State baseball), Dukes (NC Central football) · ’25: Cabbage (UNCW), Green (UNC Asheville). Johnson is at Wingate (D2), not ETSU — see the HGCS College Commitments 2024-2026 source file
-      'gaston-day': '2', // ’24 Brown (Wofford volleyball) · ’25 Bing (South Carolina volleyball); ’26 Todd is USCAA (Johnson & Wales Charlotte), not D1
+      'gaston-day': '2', // ’24 Brown (Wofford volleyball) · ’25 Bing (South Carolina volleyball); ’26 Todd is D3 (Johnson & Wales Charlotte, C2C), not D1
       'providence-day': '39', // 14 / 12 / 13 by class (’24 / ’25 / ’26), each confirmed on the college’s roster 2026-11-08 (see College Commitments 2024-2026.md)
     },
     quals: {
@@ -2427,7 +2431,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'davidson-day': {
         kind: 'minimum',
-        text: 'A documented minimum. Davidson Day published no signing list for the Class of 2024, which is counted from college rosters; the Classes of 2025 and 2026 come from the school’s own published lists.',
+        text: 'A documented minimum. Davidson Day published no signing list for the Class of 2024, which is counted from college rosters. The Class of 2026 comes from the school’s recap; the Class of 2025 from its seven-athlete signing list plus college rosters.',
       },
       'hickory-grove-christian': {
         kind: 'minimum',

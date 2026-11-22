@@ -266,9 +266,13 @@ const UNIT_SUFFIX: Record<string, Record<string, string>> = {
 function localizeUnits(text: string): string {
   const map = UNIT_SUFFIX[lang().slice(0, 2)]
   if (!map) return text
-  return text.replace(/\/(yr|mo|sem|wk|class|hr)\b/g, (whole, unit: string) =>
-    map[unit] ? `/${map[unit]}` : whole,
-  )
+  // "/wk." would render "/sem.." where the localized unit carries its own period, so one
+  // following period is swallowed there. An ellipsis is left alone (plan consistency5, 7d).
+  return text.replace(/\/(yr|mo|sem|wk|class|hr)\b(\.(?!\.))?/g, (whole, unit: string, stop?: string) => {
+    const out = map[unit]
+    if (!out) return whole
+    return out.endsWith('.') ? `/${out}` : `/${out}${stop ?? ''}`
+  })
 }
 
 /**

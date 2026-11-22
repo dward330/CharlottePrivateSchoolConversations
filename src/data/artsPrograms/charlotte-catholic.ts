@@ -33,6 +33,8 @@ const GUIDE =
   'https://resources.finalsite.net/images/v1771958102/charlottecatholicorg/ggbqwr7ecdypclivyab5/2026-2027CurriculumGuideedited.pdf'
 const PROFILE_2627 =
   'https://resources.finalsite.net/images/v1787830297/charlottecatholicorg/ihsker6gva69wmhq5agy/2026-2027CCHSSchoolProfile.pdf'
+const BLUMEY24 =
+  'https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf'
 const BLUMEY25 =
   'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf'
 const BLUMEY26 =
@@ -119,11 +121,12 @@ export const charlotteCatholic: ArtsProgram = {
   },
 
   theatre: {
-    headline: 'Five Blumey finalists in 2025, five more in 2026 — and no win yet.',
+    headline: 'Five Blumey finalists in each of 2024, 2025 and 2026 — and no win in 2025 or 2026.',
     subhead:
-      'Fiddler on the Roof placed a finalist in each of the five individual performance categories.',
+      'Each year’s musical placed a finalist in each of the five individual performance categories.',
     seasonTitle: 'The documented production season',
     season: [
+      { season: '2023–24', kind: 'Musical', detail: 'Phantom of the Opera — five Blumey finalists, one in each individual performance category' },
       { season: '2024–25', kind: 'Musical', detail: 'Fiddler on the Roof — five Blumey finalists, one in each individual performance category' },
       { season: '2025–26', kind: 'Musical', detail: 'The Wizard of Oz — five Blumey finalists' },
     ],
@@ -133,6 +136,11 @@ export const charlotteCatholic: ArtsProgram = {
       'Performances are staged in the MACS Fine Arts Center’s 650-seat auditorium, dedicated in 2022 and shared across all Mecklenburg Area Catholic Schools.',
     ledgerTitle: 'Blumey Awards ledger',
     ledger: [
+      { year: '2024', show: 'Phantom of the Opera', result: 'Finalist, Best Actor — as The Phantom' },
+      { year: '2024', show: 'Phantom of the Opera', result: 'Finalist, Best Actress — as Carlotta' },
+      { year: '2024', show: 'Phantom of the Opera', result: 'Finalist, Best Supporting Actor — as Firmin' },
+      { year: '2024', show: 'Phantom of the Opera', result: 'Finalist, Best Supporting Actress — as Madame Giry' },
+      { year: '2024', show: 'Phantom of the Opera', result: 'Finalist, Best Featured Performer — as Joseph Buquet' },
       { year: '2025', show: 'Fiddler on the Roof', result: 'Finalist, Best Actor — as Motel' },
       { year: '2025', show: 'Fiddler on the Roof', result: 'Finalist, Best Actress — as Hodel' },
       { year: '2025', show: 'Fiddler on the Roof', result: 'Finalist, Best Supporting Actor — as Perchik' },
@@ -145,8 +153,9 @@ export const charlotteCatholic: ArtsProgram = {
       { year: '2026', show: 'The Wizard of Oz', result: 'Finalist, Best Featured Performer — as Toto Puppeteer' },
     ],
     honestContext:
-      'CCHS has NOT won a Blumey in either year. That is verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here has come without wins: ten finalist places across two years. None of the 2026 five was a top-six nominee. One student was recognized in both years (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing. The two productions above are pieced together from Blumey records, so the real season may well be larger than the school lets a family see.',
+      'CCHS did not win a Blumey in 2025 or 2026. That is verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. The record is fifteen finalist places across three years. None of the 2026 five was a top-six nominee. Two students placed in two of those years. One was The Phantom in 2024 and Motel in 2025. The other was Hodel in 2025 and Dorothy in 2026. Note also that the school’s own performances calendar publishes nothing. The three productions above are pieced together from Blumey records, so the real season may well be larger than the school lets a family see.',
     sources: [
+      { label: 'blumenthalarts.org — 2024 Blumey nominees and finalists (PDF)', url: BLUMEY24 },
       { label: 'blumenthalarts.org — 2025 Blumey nominees and finalists (PDF)', url: BLUMEY25 },
       { label: 'blumenthalarts.org — 2026 Blumey nominees and finalists', url: BLUMEY26 },
       { label: 'blumenthalarts.org — 2026 Blumey winners', url: BLUMEY26W },
@@ -252,7 +261,7 @@ export const charlotteCatholic: ArtsProgram = {
     holdsUp: [
       { label: 'It is the biggest department in the school', text: '39 of 199 courses — more than English, Science or Mathematics. That is a staffing commitment, not a brochure claim.' },
       { label: 'The honors ladder is real', text: 'Twelve Honors arts courses, each carrying the same +1 quality point as an Honors academic course, so four years in the music wing does not cost a student GPA.' },
-      { label: 'Recognition in both years', text: 'Five Blumey finalists in 2025 — one in each individual performance category — and five more in 2026, from a different show.' },
+      { label: 'Recognition in three straight years', text: 'Five Blumey finalists in each of 2024, 2025 and 2026, one in each individual performance category, from three different shows.' },
       { label: 'The facility is purpose-built and recent', text: 'A 650-seat auditorium dedicated in 2022, with a darkroom, ceramics studio, broadcast studio and dance studio among nine named spaces.' },
       { label: 'Outside expertise is wired in', text: 'A Charlotte Symphony partnership supplying sectionals and private lessons, and a band that performs quadrennially in Dublin.' },
       { label: 'Be clear about the AP ceiling', text: 'AP Studio Art is the only AP arts course. No AP Music Theory, no AP Art History — the Honors rungs are the top of the ladder here.' },
@@ -262,7 +271,7 @@ export const charlotteCatholic: ArtsProgram = {
       'Twelve ensembles is a lot for 1,330 students: how many students audition for the auditioned groups, and what proportion get in?',
       'The Fine Arts Center serves all MACS schools — how often does that limit CCHS rehearsal or performance time?',
       'Honors ensembles carry a quality point. Is there any cap on how many arts Honors courses count toward the weighted GPA?',
-      'Five Blumey finalists in 2025 and no win — what does the theatre program think is the gap?',
+      'Five Blumey finalists a year from 2024 to 2026, and no win in 2025 or 2026 — what does the theatre program think is the gap?',
       'Is the darkroom still in regular use, or is film photography now taught mainly digitally?',
       'When is the next Dublin parade trip, and what does it cost a family?',
       'AP Studio Art is the only AP. For a student wanting AP Music Theory or AP Art History, what is the alternative — dual enrollment, or nothing?',

@@ -60,11 +60,11 @@ export const gastonDay: SportsProgram = {
     headline:
       '19 team sports across three seasons, with about 70% of students in grades 6–12 playing at least one.',
     subhead:
-      'An NCISAA 2A program that has won 14 team state championships since 2021 — a title rate that reads much larger than the school’s 510 enrollment.',
+      'An NCISAA 2A program that has won 15 team state championships since 2021 — a title rate that reads much larger than the school’s 510 enrollment.',
     stats: [
       { value: '19', label: 'team sports across three seasons' },
       { value: '~70%', label: 'of grades 6–12 play at least one sport' },
-      { value: '14', label: 'NCISAA team state titles since 2021' },
+      { value: '15', label: 'NCISAA team state titles since 2021' },
       { value: '2A', label: 'NCISAA classification' },
     ],
     seasons: [
@@ -164,9 +164,10 @@ export const gastonDay: SportsProgram = {
   /* ----------------------------------------------------------- 1c record -- */
   record: {
     headline:
-      'Fourteen NCISAA team state championships since 2021, in six sports — including five in the 2021–22 school year alone.',
+      'Fifteen NCISAA team state championships since 2021, in six sports — including five in the 2021–22 school year alone.',
     subhead:
-      'Girls tennis has four titles and is on a three-peat; volleyball and boys soccer have three each, and the 2025 volleyball final went five sets.',
+      'Girls tennis won three straight, 2023–25, and has four titles since 2021. Volleyball also has four (2021, 2024, 2025, 2026) after winning again in fall 2026. Boys soccer has three.',
+    matrixTitle: 'State-title matrix, 2023–25',
     seasonLabels: ['2023', '2024', '2025'],
     rows: [
       {
@@ -185,7 +186,7 @@ export const gastonDay: SportsProgram = {
           { result: 'STATE', record: 'swept' },
           { result: 'STATE', record: '3–2 final' },
         ],
-        note: 'Three titles (2021, 2024, 2025); swept Westminster Catawba on Oct 26 2024, then beat St. Thomas More Academy 3–2 on Oct 25 2025. Plus three further finals appearances and five league titles over the decade',
+        note: 'Four titles (2021, 2024, 2025, 2026); swept Westminster Catawba on Oct 26 2024, beat St. Thomas More Academy 3–2 on Oct 25 2025, then won again in fall 2026. Plus three further finals appearances and five league titles over the decade',
       },
       {
         program: 'Boys Soccer',
@@ -208,16 +209,16 @@ export const gastonDay: SportsProgram = {
       },
     ],
     didNotWin:
-      'every other program. The 14 titles since 2021 sit in six sports: girls tennis, volleyball, boys soccer, boys golf, boys track and girls swimming. The school publishes no championship history of its own, so this list rests on association results and local coverage.',
+      'every other program. The 15 titles since 2021 sit in six sports: girls tennis, volleyball, boys soccer, boys golf, boys track and girls swimming. The school publishes no championship history of its own, so this list rests on association results and local coverage.',
     bars: [],
     seasonDetail: [
       {
         program: 'Girls Tennis',
-        text: 'The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win came over Epiphany School, and the 2025 win over the same opponent made it three straight.',
+        text: 'Tied with volleyball for the most titles since 2021: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win came over Epiphany School, and the 2025 win over the same opponent made it three straight.',
       },
       {
         program: 'Volleyball',
-        text: 'Won the 2A title in 2021, then again in 2024 and 2025 under head coach Derek Bing. The 2025 final against St. Thomas More Academy went the full five sets, 3–2, on October 25 2025. Beyond the three titles the program has reached three further finals and taken five league titles over the decade.',
+        text: 'Won the 2A title in 2021, then again in 2024 and 2025 under head coach Derek Bing. The 2025 final against St. Thomas More Academy went the full five sets, 3–2, on October 25 2025. In fall 2026 it won a fourth title. Beyond its championships the program has reached three further finals and taken five league titles over the decade.',
       },
       {
         program: 'Boys Soccer',
@@ -244,6 +245,8 @@ export const gastonDay: SportsProgram = {
       { label: 'MaxPreps — Gaston Day volleyball (2025 final score and date)', url: MAXPREPS_VB },
       { label: 'NCISAA playoff results archive', url: 'https://archives.ncisaa.org/' },
       { label: 'NCISAA boys soccer bracket, 2025–26', url: `${ARCHIVE}8&years=2025-2026` },
+      { label: 'NCISAA volleyball bracket, 2026–27', url: `${ARCHIVE}12&currentyear=1` },
+      { label: 'NCISAA girls tennis bracket, 2026–27', url: `${ARCHIVE}11&currentyear=1` },
       { label: 'NCISAA swimming team scores, 2022', url: `${SWIM}Div%203%20Final_Team_Ind.pdf` },
       { label: 'Gaston Gazette — boys golf title, 2022', url: GOLF_22 },
       { label: 'HighSchoolOT — 2023 boys golf rankings, NCISAA D3 champion', url: GOLF_23 },
@@ -273,14 +276,14 @@ export const gastonDay: SportsProgram = {
     realityCheck:
       'Volleyball, Gaston Day’s state-championship program, produced both Division I commits. Braylen Todd (’26) went on to play basketball at Johnson & Wales in Charlotte. The school publishes no signing list or signing-day announcements, so the count is a documented minimum. Bree Smith (’27), a 50 and 100 freestyle swimmer, has committed to swim at Stanford.',
     roster: [
-      { cls: "'26", name: 'Braylen Todd', sport: 'Boys Basketball', college: 'Johnson & Wales (Charlotte)', conf: 'USCAA', level: 'D3' },
+      { cls: "'26", name: 'Braylen Todd', sport: 'Boys Basketball', college: 'Johnson & Wales (Charlotte)', conf: 'C2C', level: 'D3' },
       { cls: "'25", name: 'Anne Bradley Bing', sport: 'Volleyball', college: 'South Carolina', conf: 'SEC', level: 'P4' },
       { cls: "'24", name: 'Megan Brown', sport: 'Volleyball', college: 'Wofford', conf: 'Southern', level: 'D1' },
       // Class of 2027 — public verbal commitment, not yet signed; not in the funnel or Compare
       { cls: "'27", name: 'Bree Smith', sport: 'Swimming', college: 'Stanford', conf: 'ACC', level: 'P4' },
     ],
     rosterNote:
-      'Each row is the college the athlete went to out of Gaston Day, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. Johnson & Wales in Charlotte competes in the USCAA rather than the NCAA. Braylen Todd is listed at the D3 level, because this table has no USCAA level. The Class of 2027 row is a public commitment, listed because it is already announced. This row is not counted in the funnel, the sport bars or on the Compare page until the athlete signs.',
+      'Each row is the college the athlete went to out of Gaston Day, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. The Class of 2027 row is a public commitment, listed because it is already announced. This row is not counted in the funnel, the sport bars or on the Compare page until the athlete signs.',
     sources: [
       { label: 'HighSchoolOT — NC volleyball recruiting tracker (Brown, Bing)', url: 'https://www.highschoolot.com/story/north-carolina-high-school-volleyball-recruiting-tracker/21031942/' },
       { label: 'Wofford — volleyball inks five signees, December 2023 (Megan Brown)', url: 'https://woffordterriers.com/news/2023/12/14/volleyball-inks-five-signees.aspx' },
@@ -327,7 +330,7 @@ export const gastonDay: SportsProgram = {
       {
         label: 'Decade',
         text:
-          'Volleyball — three further NCISAA finals appearances and five league titles beyond the three championships.',
+          'Volleyball — a fourth title since 2021 in fall 2026, plus three further NCISAA finals appearances and five league titles beyond the championships.',
       },
     ],
     sources: [
