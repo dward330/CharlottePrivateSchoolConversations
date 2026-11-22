@@ -1,11 +1,11 @@
 ---
 name: consistency4
 title: Fix the findings of the round-4 consistency rescan, our errors first
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-22
 branch: fix/consistency4
-prs: []
+prs: [520]
 closing_loop: consistency-self-scan
 ---
 
