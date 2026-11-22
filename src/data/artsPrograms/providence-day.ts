@@ -191,10 +191,12 @@ export const providenceDay: ArtsProgram = {
       },
     ],
     honestContext:
-      'The school’s awards page claims "26 BLUMEY Awards," but that figure counts nominations and finalist placements together with wins. Cross-checked against Blumenthal’s published winner lists, exactly one outright win is verifiable: Best Supporting Actor, 2022. PD competes consistently and reliably produces individual acting finalists, but it is not a Blumey powerhouse. In 2025 and 2026 it placed 5–6 finalists each year, won none, and appeared in no production-level category. Northwest School of the Arts took three wins in 2026 alone. PD’s best years were 2016–2022. Where the program does win is NCTC: Superior ratings in 2014, 2019 and 2022 · Overall Regional Site Winner (Adjudicators’ Choice) for The Yellow Boat · Regional Site Winner (Audience Choice) for Radium Girls, which advanced to the State Festival and took state-level Lighting and Set Design honors · Excellence in Directing in both 2023 and 2024.',
+      'The school’s awards page claims "26 BLUMEY Awards," but that figure counts nominations and finalist placements together with wins. Cross-checked against Blumenthal’s published winner lists, exactly one outright win is verifiable: Best Supporting Actor, 2022. PD competes consistently, but it is not a Blumey powerhouse. In 2025 and 2026 it placed five finalists each year, won none, and appeared in no production-level category. Northwest School of the Arts took three wins in 2026 alone. PD’s best years were 2016–2022. Where the program does win is NCTC: Superior ratings in 2014, 2019 and 2022 · Overall Regional Site Winner (Adjudicators’ Choice) for The Yellow Boat · Regional Site Winner (Audience Choice) for Radium Girls, which advanced to the State Festival and took state-level Lighting and Set Design honors · Excellence in Directing in both 2023 and 2024.',
     sources: [
       { label: 'providenceday.org — Past Performances & Awards', url: PD_AWARDS },
       { label: 'Upper School Arts', url: PD_US },
+      { label: 'Blumenthal Arts — 2026 nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
+      { label: 'Blumenthal Arts — 2026 final nominees', url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees' },
       {
         label: 'Blumenthal Arts — 2026 Blumey winners',
         url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-2026-blumey-award-winners',

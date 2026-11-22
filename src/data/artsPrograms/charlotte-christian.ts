@@ -198,6 +198,7 @@ export const charlotteChristian: ArtsProgram = {
         url: 'https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf',
       },
       { label: 'Blumenthal Arts — 2026 nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
+      { label: 'Blumenthal Arts — 2026 final nominees', url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees' },
       {
         label: 'CCS news — 2015 Blumey nominations',
         url: 'https://www.charlottechristian.com/cf_news/view.cfm?newsid=854',
@@ -368,7 +369,7 @@ export const charlotteChristian: ArtsProgram = {
     ],
     ask: [
       'Who directs theatre and who is your technical director, and how long have they been here? No faculty are named for any of the four branches, and the only names findable date to 2016 — ask this first.',
-      'Tarzan had five finalists and no top-6 nominee in 2024, and Cinderella had five and one in 2026. What is the gap you are working on before a win?',
+      'Tarzan had five finalists and no top-6 nominee in 2024, and Cinderella had five and one in 2026. What is the gap you are working on before another win?',
       'Can you show me CITA results for the last three years, by category? The 2016 ledger is strong; nothing after it is public.',
       'Show me the black box and the scene shop. How often is the black box used, and who builds the sets — students or contractors?',
       'The main auditorium is chapel, assembly and theatre. Walk me through a production week: how much stage time does the cast get, and where do they rehearse when chapel owns the room?',

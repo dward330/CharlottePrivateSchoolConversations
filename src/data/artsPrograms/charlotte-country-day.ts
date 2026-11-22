@@ -10,8 +10,8 @@
 // matters, because it changed the story in three ways:
 //
 //  1. The school's "31+ Blumey nominations" headline is only defensible as a
-//     cumulative multi-year total that counts finalist placements; clean
-//     category nominations across 2022–25 come to ~24. It is not a season
+//     cumulative multi-year total that counts finalist placements. The lists
+//     on file do not rebuild it (plan consistency4). It is not a season
 //     figure and not a win count, so the card never repeats "31+" unqualified.
 //  2. Verified WINS are two, both in 2022 (Best Choreography, Best Direction).
 //     No win was located for 2023, 2024, 2025 or 2026.
@@ -142,7 +142,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     whoRunsIt:
-      'Jenny Goodfellow directs Upper School theatre. Karl Hoffman is technical director, Linda Booth does the choreography and Jaclyn Orchard does costumes. Country Day staffs three dedicated drama directors, one per division: Krista Maggart (Lower), Aaron Mize (Middle) and Goodfellow (Upper). That staffing backs up the JK–12 theatre claim better than the "100% participation" figure does. That figure is a result of drama being required from JK, so it does not measure how many students choose drama. An outside source has confirmed the technical-theatre track: students were named Blumey Stage Management finalists in both 2023 and 2024.',
+      'Jenny Goodfellow directs Upper School theatre. Karl Hoffman is technical director, Linda Booth does the choreography and Jaclyn Orchard does costumes. Country Day staffs three dedicated drama directors, one per division: Krista Maggart (Lower), Aaron Mize (Middle) and Goodfellow (Upper). That staffing backs up the JK–12 theatre claim better than the "100% participation" figure does. That figure is a result of drama being required from JK, so it does not measure how many students choose drama. An outside source has confirmed the technical-theatre track: a student was a Blumey Best Student Stage Manager nominee in 2024. The school also reports stage-manager recognition in 2023.',
     venueNote:
       'The 400-seat Gorelick Family Theater is the main stage. The Black Box Theater in the Hance Fine Arts Center adds more space, so performance, rehearsal and studio work never compete for the same room.',
     ledgerTitle: 'The Blumey ledger — from the official nominee records',
@@ -169,7 +169,7 @@ export const charlotteCountryDay: ArtsProgram = {
         year: '2023',
         show: 'Something Rotten',
         result:
-          'Roughly nine placements, including Best Overall Direction, Best Choreography Execution and Best Ensemble/Chorus. The others: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer · a stage manager. The school also claims a Best Musical nod, which the official PDF did not confirm. No win located.',
+          'Five nominations on the first 2023 list: Best Musical (Tier 2) · Best Overall Direction · Best Choreography Execution · Best Ensemble/Chorus · Best Supporting Actor. It also had five finalists in the performance categories, and the school reports stage-manager recognition. No win located.',
       },
       {
         year: '2022',
@@ -186,7 +186,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     honestContext:
-      'Country Day is a steady, credible Blumey contender, not a current front-runner. It had nominations or finalist places every year from 2022 through 2026, but no wins after 2022. It had no nominations in 2026. Its best year was truly strong: two wins, including Best Direction. Its work developing individual performers looks repeatable, not lucky. One student placed in three consecutive cycles, twice in the Best Actress category (2023 and 2025), and five different students placed in five performance categories in 2025. On NCTC, the school claims five state championships, but only one play title could be verified. That title is The Crane Wife, a second consecutive championship, which places it in fall 2018, with the prior title in fall 2017 (title unknown). The other three years and titles could not be found. Country Day did not place at the 2025 state festival, so all five come before 2025. Treat "five championships" as the school’s claim. The strongest independently verified credential here is about teaching, not trophies. NCTC named Jenny Goodfellow North Carolina’s 2022 K-12 Theatre Arts Educator, confirmed on NCTC’s own awards page. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions.',
+      'Country Day is a steady, credible Blumey contender, not a current front-runner. It had nominations or finalist places every year from 2022 through 2026, but no wins after 2022. It had no nominations in 2026. Its best year was truly strong: two wins, including Best Direction. One student placed in three consecutive cycles, twice in the Best Actress category (2023 and 2025). On NCTC, the school claims five state championships, but only one play title could be verified. That title is The Crane Wife, a second consecutive championship, which places it in fall 2018, with the prior title in fall 2017 (title unknown). The other three years and titles could not be found. Country Day did not place at the 2025 state festival, so all five come before 2025. Treat "five championships" as the school’s claim. The strongest independently verified credential here is about teaching, not trophies. NCTC named Jenny Goodfellow North Carolina’s 2022 K-12 Theatre Arts Educator, confirmed on NCTC’s own awards page. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions.',
     photo: {
       src: '/arts/charlotte-country-day-anastasia.jpg',
       name: 'Anastasia (2022)',

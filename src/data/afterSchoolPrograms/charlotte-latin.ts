@@ -347,7 +347,7 @@ export const charlotteLatin: AfterSchoolProgram = {
     ],
     watchouts: [
       '**Coverage stops dead at grade 5.** There is no Middle or Upper School after-school care of any kind. Middle School is the most stranded: its library closes at dismissal, leaving athletics or nothing.',
-      '**The TK/K cost cliff is severe** — $1,725 a semester just to bridge the 85 minutes to the grade 1 bell, and $9,300 a year for five-day coverage to 6:00 p.m.',
+      '**The TK/K cost cliff is severe** — $1,725 a semester just for TK/K care from 1:30 to 2:55, and $9,300 a year for five-day coverage to 6:00 p.m.',
       '**No published daily schedule** for a program a child may spend three hours a day in.',
       '**Enrichment publishes names only** — no days, no grade ranges, no fees, and the page that once held that grid now 404s.',
       '**No drop-in option is published.** The model appears to be pre-registered fixed days billed by semester, with no published way to change mid-semester.',

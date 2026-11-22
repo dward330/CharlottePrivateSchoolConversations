@@ -1540,7 +1540,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: 'NCTC festival', // competes in NC Theatre Conference HS Play Festival
       'charlotte-christian': 'Blumey Best Musical (2013)', // Wells Fargo Best Musical for Oklahoma! (2013), one of four awards that year; https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners
       'charlotte-catholic': '5 Blumey finalists (2025)', // one finalist in each of the five individual performance categories, for Fiddler on the Roof; 5 more finalists in 2026 for The Wizard of Oz, no win either year
-      'charlotte-country-day': '31+ Blumey noms', // 31+ Blumey Award nominations
+      'charlotte-country-day': '31+ noms, school’s count', // the school's own 31+ Blumey claim, not rebuilt from the lists
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
       'covenant-day': '2 Blumey wins', // Best Featured Performer 2013 + Student Critic Award 2016; 8 recognitions 2013-2019
       'carmel-christian': '2026 Blumey — Best Actress', // Anna Jernigan, Footloose; advances to the Jimmy Awards
@@ -1569,7 +1569,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: '31+ nominations at the Blumey Awards, the Charlotte region’s high-school musical-theatre awards — a breadth-of-recognition figure rather than a single win.',
+        text: 'The school reports 31+ nominations at the Blumey Awards, the Charlotte region’s high-school musical-theater awards. It is the school’s own all-years count, and the award lists on its card do not add up to it. Its two verified wins are from 2022.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -1593,7 +1593,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'Five Blumey Award finalists in each of two seasons: Seussical (2025), with one top-six nominee, and Disney’s The Little Mermaid (2026). Three performers recur. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
+        text: 'Five Blumey Award finalists in each of two seasons: Seussical (2025), with a top-six Best Featured Performer nominee, and Disney’s The Little Mermaid (2026). Three performers recur. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
       },
     },
   },
@@ -1834,7 +1834,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'gaston-day': {
         kind: 'official',
-        text: 'The iGEM gold medal is the school\'s strongest published competitive result. The school says its research teams competed in iGEM, a synthetic-biology research competition, for over a decade and won Silver, Gold and Bronze awards. The VEX Robotics team separately qualified for TSA VEX Nationals in 2023, its first year competing.',
+        text: 'The iGEM gold medal is the school\'s strongest published past competitive result. The school says its research teams previously competed in iGEM, a synthetic-biology research competition, for over a decade and won Silver, Gold and Bronze awards. The VEX Robotics team separately qualified for TSA VEX Nationals in 2023, its first year competing.',
       },
       cannon: {
         kind: 'scope',

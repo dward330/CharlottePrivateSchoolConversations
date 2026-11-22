@@ -15,7 +15,7 @@
 //  - performing-arts lists Technical Theatre and no Middle School choir; the two
 //    2026–27 catalogs list no Technical Theatre course and a Gr 7–8 Choir.
 //
-// The Blumey ledger is unchanged: it comes from Blumenthal Arts' official 2025
+// The Blumey ledger (2026 tiers corrected by plan consistency4) comes from Blumenthal Arts' official 2025
 // nominees/finalists PDF (via pdftotext) and its 2026 nominees news page, so the
 // category→nominee→show mapping is exact. Original research: "Hickory Grove
 // Christian - The Arts - Deep Research.md".
@@ -107,7 +107,7 @@ export const hickoryGroveChristian: ArtsProgram = {
     headline:
       'A fall show and a spring musical each year — with Blumey Award recognition in back-to-back seasons: Seussical in 2025 and Disney\'s The Little Mermaid in 2026.',
     subhead:
-      'The Blumeys are Blumenthal Performing Arts\' regional high-school musical-theater awards. HGCS had five finalists in each year and one top-six nominee, in 2025. No outright win is published.',
+      'The Blumeys are Blumenthal Performing Arts\' regional high-school musical-theater awards. HGCS had five finalists in each year, including a top-six Best Featured Performer nominee in 2025. No outright win is published.',
     seasonTitle: 'The season rhythm',
     season: [
       {
@@ -146,6 +146,7 @@ export const hickoryGroveChristian: ArtsProgram = {
       { label: 'hgchristian.org — Performing Arts (productions, Blumey participation)', url: PERFORMING },
       { label: 'hgchristian.org — Arts (two productions a year)', url: ARTS },
       { label: 'Blumenthal Arts — 2026 Blumey nominees & finalists', url: BLUMEY_2026 },
+      { label: 'Blumenthal Arts — 2026 final nominees', url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees' },
       { label: 'Blumenthal Arts — 2025 Blumey all nominees & finalists (PDF)', url: BLUMEY_2025 },
     ],
   },
@@ -238,7 +239,7 @@ export const hickoryGroveChristian: ArtsProgram = {
     holdsUp: [
       {
         label: 'Back-to-back Blumey recognition',
-        text: 'HGCS had five Blumey finalists for Seussical in 2025, one of them a top-six nominee. It had five more for The Little Mermaid in 2026. Three performers each appear in both years.',
+        text: 'HGCS had five Blumey finalists for Seussical in 2025, including a top-six Best Featured Performer nominee. It had five more for The Little Mermaid in 2026. Three performers each appear in both years.',
       },
       {
         label: 'A studio path that reaches AP',

@@ -295,7 +295,14 @@ Providence day colleges -> fix. The rest is your recommendation".
   Day 2026's tiers, and Cannon's and Latin's missing 2026 finalists. All fixed.
 - **Found, not built (omissions, no false claim):** Gaston Day has Blumey nominees or finalists in
   2024, 2025 and 2026 and no Blumey mention on its card. Older finalist years are missing at
-  Davidson Day (2024), Latin (2023, 2024), Carmel (2023) and Charlotte Christian (2023).
+  Davidson Day (2024), Latin (2023, 2024), Carmel (2023), Charlotte Christian (2023) and
+  Charlotte Catholic (2024).
+- **Adversarial review 2 (the capped last pass): 14 found, 14 fixed, 0 rejected.** These last fixes
+  had no reviewer: the rescan covers them.
+- **Found, not fixed, preexisting: student names in shipped content.** The `src/content/the-arts`
+  files (generated from the research records) carry students named in Blumey lists, and Vite
+  publishes them as lazy chunks even though no page renders them. The repo is public too. This
+  needs the user's decision, so it was not changed here.
 - **Adversarial review 1: 11 found, 11 fixed, 0 rejected.** For iGEM (finding 7) the wording is
   fixed. Whether a past team stays in Gaston Day's count of ten is the user's call.
 - **More moved paths for Phase 2:** the Christian and Carmel Blumey ledgers, and theatre sources.

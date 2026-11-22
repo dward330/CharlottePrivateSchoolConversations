@@ -121,7 +121,7 @@ export const gastonDay: ClubsProgram = {
       },
       {
         label: 'iGEM awards',
-        text: 'The school says its research teams competed in iGEM for over a decade and won Silver, Gold and Bronze awards. It is the school’s most distinctive competitive recognition, and sits outside any society structure.',
+        text: 'The school says its research teams previously competed in iGEM for over a decade and won Silver, Gold and Bronze awards. It is the school’s most distinctive past competitive recognition, and sits outside any society structure.',
       },
     ],
     flags: [

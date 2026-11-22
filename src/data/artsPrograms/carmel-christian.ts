@@ -269,7 +269,7 @@ export const carmelChristian: ArtsProgram = {
         text: 'a student took Best Actress for "Footloose" at the 2026 Blumey Awards, as WFAE reported. They went on to the national Jimmy Awards. It was an outright win, after finalist places in 2024 and 2025.',
       },
       {
-        label: 'Depth behind the win',
+        label: 'The record around the win',
         text: 'the 2026 "Footloose" run placed in six categories (actress, actor, both supporting, featured performer and choreography). "Oklahoma!" had five finalists in 2025. "Anastasia" had five in 2024, two of them top-six nominees.',
       },
       {

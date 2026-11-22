@@ -299,10 +299,10 @@ export const ARTS_CARDS = [
  *    for a school that does not compete in them.
  *
  * Worth recording, because it contradicts the obvious guess: BOTH out-of-town
- * schools do compete. Cannon (Concord, Cabarrus County) has ten verified Blumey
- * finalist placements across 2023 and 2025 and enters again in 2026, so it keeps
+ * schools do compete. Cannon (Concord, Cabarrus County) has fifteen verified Blumey
+ * finalist placements across 2023, 2025 and 2026, so it keeps
  * the Blumey title. Davidson Day (Davidson) has 2023 program-level nominations
- * and three 2026 finalists — but no NCTC record at all, so its card is titled
+ * and five finalists in both 2025 and 2026 — but no NCTC record at all, so its card is titled
  * for the recognition it actually has rather than implying a second circuit.
  * Charlotte Christian competes in four circuits, of which the Blumeys are one,
  * so its card is titled for the wider set.
@@ -310,7 +310,7 @@ export const ARTS_CARDS = [
 const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>> = {
   // Charlotte Catholic is a 9–12 school — the only one on this roster with no
   // lower or middle school — so there is no TK–12 ladder to describe. It DOES
-  // compete in the Blumeys (five finalists in 2025, five more placements in
+  // compete in the Blumeys (five finalists in 2025, five more in
   // 2026), so the theatre card keeps the shared Blumey title.
   'charlotte-catholic': {
     ladder: 'The 9–12 Arts Ladder',
