@@ -848,3 +848,15 @@ Fetched 2026-11-22, each HTTP 200.
   Choir, each "Grades 5-12".
 - Blumenthal's site was not requested in this pass. The 2022 field size is not used: the wrong
   "59-school" wording was removed from the 2022 statements.
+
+### Re-verification 2026-11-22 (plan consistency4, implement, Blumey lists)
+
+Read by the parent from copies downloaded from blumenthalarts.org earlier on 2026-11-22
+(HTTP 200). The site later refused a request and was not asked again. Student names are
+left out on purpose.
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (final nominees, every category)
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+
+2026: five finalists and no nomination. 2025: five finalists beside the stage-manager nomination.

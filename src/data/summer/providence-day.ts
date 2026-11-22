@@ -895,7 +895,7 @@ export const providenceDay: SummerProgram = {
         grades: ['tk', 'g12', 'g35'],
         gradeLabel: 'K-5',
         days: [],
-        dayLabel: 'Mon–Fri',
+        dayLabel: '4 or 5 days',
         price: '$315',
         hours: '1–4pm',
         weeks: 'S3, S4, S5, S6, S7, S8, S9',

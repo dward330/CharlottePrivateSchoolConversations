@@ -10,7 +10,8 @@
 // Everything here therefore frames advanced coursework as 1 AP + 12 Honors.
 //
 // ⚠️ CCHS won NO Blumey award in 2026 — checked directly against Blumenthal's
-// winners release. It had four nominees and one finalist for The Wizard of Oz.
+// winners release. It had five finalists and no nominee for The Wizard of Oz
+// (both 2026 lists, plan consistency4 CCHS-T7).
 // A wins claim would be factually wrong; the ledger below records tiers exactly.
 //
 // ⚠️ The school's own performances calendar is EMPTY ("No showings"), so the
@@ -118,13 +119,13 @@ export const charlotteCatholic: ArtsProgram = {
   },
 
   theatre: {
-    headline: 'Five Blumey finalists in 2025, five more placements in 2026 — and no win yet.',
+    headline: 'Five Blumey finalists in 2025, five more in 2026 — and no win yet.',
     subhead:
       'Fiddler on the Roof placed a finalist in each of the five individual performance categories.',
     seasonTitle: 'The documented production season',
     season: [
       { season: '2024–25', kind: 'Musical', detail: 'Fiddler on the Roof — five Blumey finalists, one in each individual performance category' },
-      { season: '2025–26', kind: 'Musical', detail: 'The Wizard of Oz — four Blumey nominees and one finalist' },
+      { season: '2025–26', kind: 'Musical', detail: 'The Wizard of Oz — five Blumey finalists' },
     ],
     whoRunsIt:
       'Marcus Riter has led theatre at CCHS for twelve years. The program runs acting, directing, design and tech, costume and film as separate course strands, each with an Honors rung.',
@@ -137,18 +138,19 @@ export const charlotteCatholic: ArtsProgram = {
       { year: '2025', show: 'Fiddler on the Roof', result: 'Finalist, Best Supporting Actor — as Perchik' },
       { year: '2025', show: 'Fiddler on the Roof', result: 'Finalist, Best Supporting Actress — as Tzeitel' },
       { year: '2025', show: 'Fiddler on the Roof', result: 'Finalist, Best Featured Performer — as Rabbi' },
-      { year: '2026', show: 'The Wizard of Oz', result: 'Nominee, Best Actor — as Scarecrow' },
-      { year: '2026', show: 'The Wizard of Oz', result: 'Nominee, Best Actress — as Dorothy' },
-      { year: '2026', show: 'The Wizard of Oz', result: 'Nominee, Best Supporting Actor — as Uncle Henry / Guard' },
-      { year: '2026', show: 'The Wizard of Oz', result: 'Nominee, Best Supporting Actress — as Glinda' },
+      { year: '2026', show: 'The Wizard of Oz', result: 'Finalist, Best Actor — as Scarecrow' },
+      { year: '2026', show: 'The Wizard of Oz', result: 'Finalist, Best Actress — as Dorothy' },
+      { year: '2026', show: 'The Wizard of Oz', result: 'Finalist, Best Supporting Actor — as Uncle Henry / Guard' },
+      { year: '2026', show: 'The Wizard of Oz', result: 'Finalist, Best Supporting Actress — as Glinda' },
       { year: '2026', show: 'The Wizard of Oz', result: 'Finalist, Best Featured Performer — as Toto Puppeteer' },
     ],
     honestContext:
-      'CCHS has NOT won a Blumey in either year. That is verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here has come without wins: ten placements across two years. One student was recognized in both years (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing. The two productions above are pieced together from Blumey records, so the real season may well be larger than the school lets a family see.',
+      'CCHS has NOT won a Blumey in either year. That is verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here has come without wins: ten finalist places across two years. None of the 2026 five was a top-six nominee. One student was recognized in both years (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing. The two productions above are pieced together from Blumey records, so the real season may well be larger than the school lets a family see.',
     sources: [
       { label: 'blumenthalarts.org — 2025 Blumey nominees and finalists (PDF)', url: BLUMEY25 },
       { label: 'blumenthalarts.org — 2026 Blumey nominees and finalists', url: BLUMEY26 },
       { label: 'blumenthalarts.org — 2026 Blumey winners', url: BLUMEY26W },
+      { label: 'blumenthalarts.org — 2026 final nominees', url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees' },
     ],
   },
 
@@ -250,7 +252,7 @@ export const charlotteCatholic: ArtsProgram = {
     holdsUp: [
       { label: 'It is the biggest department in the school', text: '39 of 199 courses — more than English, Science or Mathematics. That is a staffing commitment, not a brochure claim.' },
       { label: 'The honors ladder is real', text: 'Twelve Honors arts courses, each carrying the same +1 quality point as an Honors academic course, so four years in the music wing does not cost a student GPA.' },
-      { label: 'Recognition in both years', text: 'Five Blumey finalists in 2025 — one in each individual performance category — and five more placements in 2026, from a different show.' },
+      { label: 'Recognition in both years', text: 'Five Blumey finalists in 2025 — one in each individual performance category — and five more in 2026, from a different show.' },
       { label: 'The facility is purpose-built and recent', text: 'A 650-seat auditorium dedicated in 2022, with a darkroom, ceramics studio, broadcast studio and dance studio among nine named spaces.' },
       { label: 'Outside expertise is wired in', text: 'A Charlotte Symphony partnership supplying sectionals and private lessons, and a band that performs quadrennially in Dublin.' },
       { label: 'Be clear about the AP ceiling', text: 'AP Studio Art is the only AP arts course. No AP Music Theory, no AP Art History — the Honors rungs are the top of the ladder here.' },

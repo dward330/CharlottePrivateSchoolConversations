@@ -363,7 +363,7 @@ const CARMEL_CHRISTIAN: ClubClusters = {
 // club's first year (2025-26). The third-party "competition clubs" row and the
 // wiki-only iGEM detail were removed in plan thespianname.
 const GASTON_DAY: ClubClusters = {
-  verdict: 'iGEM awards over more than a decade and a first-year VEX Nationals qualification anchor what the school itself names.',
+  verdict: 'Past iGEM awards over more than a decade and a first-year VEX Nationals qualification anchor what the school itself names.',
   verdictHint: 'Open any row for the full research note and its source.',
   rows: [
     {

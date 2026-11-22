@@ -691,3 +691,15 @@ Middle School · 5–8), which disagree with the rest of the school page.
 So the school's divisions are Lower School TK–5 and Middle School 6–8. The "TK–4" in section 1a
 above describes the Lower School general-music curriculum (with 5th-grade ensembles), not the
 division's grade span.
+
+### Re-verification 2026-11-22 (plan consistency4, implement, Blumey lists)
+
+Read by the parent from copies downloaded from blumenthalarts.org earlier on 2026-11-22
+(HTTP 200). The site later refused a request and was not asked again. Student names are
+left out on purpose.
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (final nominees, every category)
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+
+2026: five finalists. Two nominations: Best Supporting Actress and Best Student Set Designer (a nominee, not a finalist).

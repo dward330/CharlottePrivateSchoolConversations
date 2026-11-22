@@ -43,7 +43,7 @@ export const charlotteLatin: AfterSchoolProgram = {
       },
       {
         division: 'Grades 1–5',
-        dismissal: 'dismissal 2:55',
+        dismissal: 'dismissal 2:55 or 3:05',
         startFrac: frac(14, 55),
         endFrac: frac(18),
         tiers: [
@@ -177,7 +177,7 @@ export const charlotteLatin: AfterSchoolProgram = {
     ],
     aside: {
       title: 'The TK/K cost cliff.',
-      text: 'TK and K dismiss at 1:30, grades 1–5 at 2:55. A TK/K family pays **$1,725 a semester — $3,450 a year — purely to cover the 85 minutes** that a grade 1 family gets for free.',
+      text: 'TK and K dismiss at 1:30. The Hawks’ Club page has grades 1–5 at 2:55. A TK/K family pays **$1,725 a semester — $3,450 a year — purely to cover the 85 minutes** that a grade 1 family gets for free.',
     },
     fees: [
       { label: 'Billed', value: '23 Sep & 20 Jan' },

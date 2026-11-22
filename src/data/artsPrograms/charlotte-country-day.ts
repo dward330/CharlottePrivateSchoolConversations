@@ -15,8 +15,8 @@
 //     figure and not a win count, so the card never repeats "31+" unqualified.
 //  2. Verified WINS are two, both in 2022 (Best Choreography, Best Direction).
 //     No win was located for 2023, 2024, 2025 or 2026.
-//  3. The trend is clearly downward — ~9 nominations (2023) → ~9 (2024) → 5,
-//     all individual-performance (2025) → ZERO (2026, in a 59-school field).
+//  3. Nominations fell: several in 2023, five in 2024, none in 2026 (59-school
+//     field). Five finalist places each year 2023–26 (plan consistency4, X2).
 //
 // Several baseline claims did NOT survive checking and are therefore absent
 // here rather than asserted: the Middle School Chamber Orchestra's state
@@ -119,7 +119,7 @@ export const charlotteCountryDay: ArtsProgram = {
     headline:
       'Two Blumey wins in 2022 including Best Direction, back-to-back NCTC state championships, and a director named North Carolina’s best K-12 theatre educator.',
     subhead:
-      'But the recent Blumey trend runs the other way: roughly nine nominations in 2023 and 2024, five in 2025, and none at all in 2026 from a 59-school field.',
+      'But the recent Blumey trend runs the other way. Country Day drew production-level nominations in 2023 and 2024. It had five finalists in 2025 and five in 2026, with no nomination in 2026.',
     seasonTitle: 'The season rhythm — a three-show Upper School year',
     season: [
       {
@@ -151,19 +151,19 @@ export const charlotteCountryDay: ArtsProgram = {
         year: '2026',
         show: 'Frozen',
         result:
-          'Zero nominations and zero awards. Country Day appears only in the list of 59 participating schools.',
+          'Five finalists: Best Actor (as Kristoff) · Best Actress (as Anna) · Best Supporting Actor (as Hans) · Best Supporting Actress (as Olaf) · Best Featured Performer (as Pabbie/Ensemble). No nominations and no awards. Field: 59 schools.',
       },
       {
         year: '2025',
         show: 'Bright Star',
         result:
-          'Five nominations, ALL individual performance — Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress, Best Featured Performer. No Direction, Ensemble, Choreography or Best Musical nod. Field: 54 schools.',
+          'Five finalists, ALL individual performance — Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress, Best Featured Performer. No Direction, Ensemble, Choreography or Best Musical nod. Field: 54 schools.',
       },
       {
         year: '2024',
         show: 'Bonnie and Clyde',
         result:
-          'Roughly nine placements, including Best Overall Direction, Best Choreography Execution and Best Ensemble/Chorus. The others: Best Actor · Best Actress · Best Supporting Actor · Best Supporting Actress · Best Featured Performer · a stage-manager finalist. No win located.',
+          'Five nominations: Best Overall Direction · Best Ensemble/Chorus · Best Actor · Best Supporting Actress · Best Student Stage Manager. It also had a finalist in each of the five performance categories. No win located.',
       },
       {
         year: '2023',
@@ -186,7 +186,7 @@ export const charlotteCountryDay: ArtsProgram = {
       },
     ],
     honestContext:
-      'Country Day is a steady, credible Blumey contender, not a current front-runner. It was nominated every year from 2022 through 2025, but had zero wins after 2022, then had no nominations at all in 2026. Its best year was truly strong: two wins, including Best Direction. Its work developing individual performers looks repeatable, not lucky. One student placed in three consecutive cycles, twice in the Best Actress category (2023 and 2025), and five different students placed in five performance categories in 2025. On NCTC, the school claims five state championships, but only one play title could be verified. That title is The Crane Wife, a second consecutive championship, which places it in fall 2018, with the prior title in fall 2017 (title unknown). The other three years and titles could not be found. Country Day did not place at the 2025 state festival, so all five come before 2025. Treat "five championships" as the school’s claim. The strongest independently verified credential here is about teaching, not trophies. NCTC named Jenny Goodfellow North Carolina’s 2022 K-12 Theatre Arts Educator, confirmed on NCTC’s own awards page. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions.',
+      'Country Day is a steady, credible Blumey contender, not a current front-runner. It had nominations or finalist places every year from 2022 through 2026, but no wins after 2022. It had no nominations in 2026. Its best year was truly strong: two wins, including Best Direction. Its work developing individual performers looks repeatable, not lucky. One student placed in three consecutive cycles, twice in the Best Actress category (2023 and 2025), and five different students placed in five performance categories in 2025. On NCTC, the school claims five state championships, but only one play title could be verified. That title is The Crane Wife, a second consecutive championship, which places it in fall 2018, with the prior title in fall 2017 (title unknown). The other three years and titles could not be found. Country Day did not place at the 2025 state festival, so all five come before 2025. Treat "five championships" as the school’s claim. The strongest independently verified credential here is about teaching, not trophies. NCTC named Jenny Goodfellow North Carolina’s 2022 K-12 Theatre Arts Educator, confirmed on NCTC’s own awards page. For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions.',
     photo: {
       src: '/arts/charlotte-country-day-anastasia.jpg',
       name: 'Anastasia (2022)',
@@ -210,6 +210,8 @@ export const charlotteCountryDay: ArtsProgram = {
         label: 'Blumenthal Arts — 2025 all nominees & finalists (PDF)',
         url: 'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf',
       },
+      { label: 'Blumenthal Arts — 2026 nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
+      { label: 'Blumenthal Arts — 2024 all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf' },
       {
         label: 'Blumenthal Arts — 2026 nominees (59 schools)',
         url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees',
@@ -331,7 +333,7 @@ export const charlotteCountryDay: ArtsProgram = {
     headline:
       'Unusually deep arts facilities, a dual AP-and-IB ceiling, and a statewide-honored theatre director — with a Blumey record that has cooled sharply.',
     subhead:
-      'The open questions are about the undocumented NCTC championship count and the 2026 nomination shutout — both good tour material.',
+      'The open questions are about the undocumented NCTC championship count and the lack of 2026 nominations — both good tour material.',
     holdsUp: [
       {
         label: 'The facility is top-tier and verified',
@@ -360,8 +362,8 @@ export const charlotteCountryDay: ArtsProgram = {
     ],
     ask: [
       'Your site says five NCTC state championships. Which five years, and which plays? Only The Crane Wife is documented — and are they recent or decades old?',
-      'You had zero Blumey nominations in 2026 for Frozen, after five in 2025 and about nine each in 2023 and 2024. What changed? Was it turnover on the creative team, or was Frozen chosen on purpose as a large-cast, accessible show?',
-      'You were nominated every year from 2022 to 2025, without a win after 2022. Is the program aiming at competitive placement or at participation breadth? With 100% theatre participation, breadth may genuinely be the strategy.',
+      'You had five Blumey finalists but no nominations in 2026 for Frozen, after production-level nominations in 2023 and 2024. What changed? Was it turnover on the creative team, or was Frozen chosen on purpose as a large-cast, accessible show?',
+      'You placed every year from 2022 to 2026, without a win after 2022. Is the program aiming at competitive placement or at participation breadth? With 100% theatre participation, breadth may genuinely be the strategy.',
       'The course guide asks newcomers to band or orchestra to audition. Can a beginner still join either one in 9th grade?',
       'How many Scholastic Art & Writing Gold and Silver Keys did students earn last year, and how many advanced to national judging?',
       'Which year did the Edinburgh Fringe trip happen, what did students perform, and how often does it recur?',

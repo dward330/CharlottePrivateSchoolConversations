@@ -286,14 +286,19 @@ Providence day colleges -> fix. The rest is your recommendation".
   The parent read each app diff, re-opened the doubtful and high-stakes sources, applied it and
   ran the gates. Of 161 assigned rows: 153 built, 6 part-built, 2 held. The rows ruled on later
   and the approved UX fixes were built by the parent afterward.
-- **Held for Blumenthal** (the site refused a fetch, HTTP 406, and it was not retried):
-  - **CCHS-T7, held.** "Four nominees and one finalist" still shows on the Arts card and the
-    Compare qual, and is probably five finalists.
-  - **CAR-T3, held.** Carmel's 2025 ledger row.
-  - **CC-T3, part.** The false "no nomination since 2013" is gone and a 2015 row is added from the
-    school's own post. The 2026 row waits.
-  - **CAR-T2, part.** The wrong category labels are gone. The right ones wait, and so does
-    "Seven placements", which may count two nominees twice.
+- **Blumenthal rows: closed after review 1.** CCHS-T7, CAR-T3, CC-T3 and CAR-T2 were held
+  because the site refused a fetch. The scan had already saved the lists, final 2026 nominees
+  included, so they were built from those copies with no new request.
+- **X2 was not complete, and is now.** A census of every roster school in the saved 2024, 2025
+  and 2026 lists found false claims the scan missed: Hickory Grove 2026 (five finalists, not three
+  nominees), Davidson Day 2025 (five finalists, not none), Country Day 2026 and 2024, Providence
+  Day 2026's tiers, and Cannon's and Latin's missing 2026 finalists. All fixed.
+- **Found, not built (omissions, no false claim):** Gaston Day has Blumey nominees or finalists in
+  2024, 2025 and 2026 and no Blumey mention on its card. Older finalist years are missing at
+  Davidson Day (2024), Latin (2023, 2024), Carmel (2023) and Charlotte Christian (2023).
+- **Adversarial review 1: 11 found, 11 fixed, 0 rejected.** For iGEM (finding 7) the wording is
+  fixed. Whether a past team stays in Gaston Day's count of ten is the user's call.
+- **More moved paths for Phase 2:** the Christian and Carmel Blumey ledgers, and theatre sources.
 - **Part-built for want of a field:** GD-T10 (one `sourceUrl` per division), and DD-T3, HG-T6,
   HG-T7 (those cards take no verify flags, so a code comment holds the note).
 - **Deviations from the worklist's proposed fix:**
@@ -312,8 +317,8 @@ Providence day colleges -> fix. The rest is your recommendation".
   Redesign). Re-capture them from the final Phase 1 build, after the review's fixes.
 - **Ingest.** 88 generated files. schools.json kept HEAD order (same records), and 69 date-only
   notes were put back. No research bookkeeping reaches a page dump.
-- **Coverage floor:** Davidson Day is now 33/45 (73%). CLAUDE.md still says 31/45 until the user
-  approves that edit.
+- **Coverage floor:** Davidson Day is now 33/45 (73%). CLAUDE.md, the add-school skill and its
+  register entry were updated in d08a247a, approved by the user 2026-11-22.
 - **Verified:** every build gate exits 0 except `check:live` (the expected English-first stop).
   The plain-language hook has 0 findings in 70 files. `audit:mobile` has 0 broken cards and 0
   overflow. The planner, both matrix headings and the column header were read in Chrome.

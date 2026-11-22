@@ -132,7 +132,7 @@ export const providenceDay: ArtsProgram = {
         year: '2026',
         show: 'Sweet Charity',
         result:
-          'No wins. Six finalist placements, all in acting or design: Best Actress · Best Actor · Best Supporting Actress · Best Supporting Actor · Best Featured Performer · Best Student Set Designer.',
+          'No wins. Five finalist placements: Best Actress · Best Actor · Best Supporting Actress · Best Supporting Actor · Best Featured Performer. Two top-six nominations: Best Supporting Actress and Best Student Set Designer.',
       },
       {
         year: '2025',
@@ -350,7 +350,7 @@ export const providenceDay: ArtsProgram = {
     ask: [
       '3D Design includes ceramics — is there a kiln on campus for that work?',
       'Of the "26 Blumey Awards" on your awards page, how many were outright wins versus nominations or finalist placements?',
-      'In 2025 and 2026 you had five and six Blumey finalists and no wins, and no production-level nominations. What is the plan to convert — do you staff a choreographer and a pit orchestra for the spring musical?',
+      'In 2025 and 2026 you had five Blumey finalists each year and no wins, and no production-level nominations. What is the plan to convert — do you staff a choreographer and a pit orchestra for the spring musical?',
       'How many students made honors ensembles last year, out of how many who auditioned? The "100+ musicians" and "50+ superior ratings" figures carry no time window.',
       'Can a student do a sport and the spring musical? The fall one-act, NCTC festivals, December auditions and April performances make for a dense calendar at a strong athletics school.',
       'Can a student who does not make ChargHers stay in the non-auditioned Chorus for all four years?',

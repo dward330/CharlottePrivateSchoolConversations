@@ -643,7 +643,7 @@ const CANNON: FinancialAidReport = {
 
 const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 23 Jul 2026',
+  meta: '2026–27 school year · figures as of 23 Jul 2026; aid dates and requirement 22 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -886,7 +886,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
     },
   ],
   sources:
-    'charlottechristian.com — [2026–27](https://resources.finalsite.net/images/v1787800765/charlotte/wam30s6cqq5mgpzpxkan/2026-27tuitionchart.pdf) and [2024–25](https://resources.finalsite.net/images/v1725556600/charlotte/domyev1ywikmbxfkpml9/2024-25tuitionchart.pdf) Tuition & Fees charts (PDF), [Tuition & Financial Assistance](https://www.charlottechristian.com/admissions/tuition), [2026–27 Financial Assistance How to Apply / Due Dates](https://resources.finalsite.net/images/v1769003003/charlotte/nf0yf6xdi9fanpkianbz/2026-27financialaid.pdf) (PDF), [Apply](https://www.charlottechristian.com/admissions/apply) page, [Endowment & Planned Giving](https://www.charlottechristian.com/support-christian/endowment-planned-giving), [Admissions FAQ](https://www.charlottechristian.com/admissions/faqs) (all 23 Jul 2026) · 2023–24 enrollment packet, [2025–26 fees chart](https://resources.finalsite.net/images/v1753121155/charlotte/opclzyaqrt3clu4v2ud7/2025-26tuitionchart.pdf), [annual reports 2022–23](https://resources.finalsite.net/images/v1705021810/charlotte/qnnbankkqvph5w0svmyb/CurrentAnnualReport.pdf) & [2024–25](https://resources.finalsite.net/images/v1768875054/charlotte/charlotte/charlotte/charlotte/qz5ejjvxrr9esc8ziod3/2024-25_AnnualReport.pdf), [lower school extended day packet](https://resources.finalsite.net/images/v1780338464/charlotte/ahr13amhtgtsrxgzpuwt/ExtendedDayPacket.pdf), [IRS Forms 990](https://projects.propublica.org/nonprofits/organizations/560750913) via ProPublica, [MinistryWatch entry](https://db.ministrywatch.com/ministry.php?ein=560750913) [all research tier]. Aggregators (figures ~$17,200 to $26,105) checked and excluded. The school did not commission, review or approve this report.',
+    'charlottechristian.com — [2026–27](https://resources.finalsite.net/images/v1787800765/charlotte/wam30s6cqq5mgpzpxkan/2026-27tuitionchart.pdf) and [2024–25](https://resources.finalsite.net/images/v1725556600/charlotte/domyev1ywikmbxfkpml9/2024-25tuitionchart.pdf) Tuition & Fees charts (PDF), [Tuition & Financial Assistance](https://www.charlottechristian.com/admissions/tuition), [2026–27 Financial Assistance How to Apply / Due Dates](https://resources.finalsite.net/images/v1769003003/charlotte/nf0yf6xdi9fanpkianbz/2026-27financialaid.pdf) (PDF), [Apply](https://www.charlottechristian.com/admissions/apply) page, [Endowment & Planned Giving](https://www.charlottechristian.com/support-christian/endowment-planned-giving), [Admissions FAQ](https://www.charlottechristian.com/admissions/faqs) (all 23 Jul 2026; Tuition & Financial Assistance re-read 22 Nov 2026) · 2023–24 enrollment packet, [2025–26 fees chart](https://resources.finalsite.net/images/v1753121155/charlotte/opclzyaqrt3clu4v2ud7/2025-26tuitionchart.pdf), [annual reports 2022–23](https://resources.finalsite.net/images/v1705021810/charlotte/qnnbankkqvph5w0svmyb/CurrentAnnualReport.pdf) & [2024–25](https://resources.finalsite.net/images/v1768875054/charlotte/charlotte/charlotte/charlotte/qz5ejjvxrr9esc8ziod3/2024-25_AnnualReport.pdf), [lower school extended day packet](https://resources.finalsite.net/images/v1780338464/charlotte/ahr13amhtgtsrxgzpuwt/ExtendedDayPacket.pdf), [IRS Forms 990](https://projects.propublica.org/nonprofits/organizations/560750913) via ProPublica, [MinistryWatch entry](https://db.ministrywatch.com/ministry.php?ein=560750913) [all research tier]. Aggregators (figures ~$17,200 to $26,105) checked and excluded. The school did not commission, review or approve this report.',
 }
 
 /* ── Covenant Day ── transcribed from the school's tuition page (2026-27), the
@@ -898,7 +898,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
    totals exist anywhere to find — a first for this roster. */
 const COVENANT_DAY: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 15 Aug 2026',
+  meta: '2026–27 school year · figures as of 15 Aug 2026; aid fee and dates 22 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -2187,7 +2187,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
    aid, and is deliberately kept out of the aid-outcome sections. */
 const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 tuition · figures as of 10 Nov 2026',
+  meta: '2026–27 tuition · figures as of 10 Nov 2026; scholarships and policies 22 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -2627,7 +2627,7 @@ const GASTON_DAY: FinancialAidReport = {
 
 const CHARLOTTE_CATHOLIC: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 18 Aug 2026',
+  meta: '2026–27 school year · figures as of 18 Aug 2026; fees, plans and aid dates 22 Nov 2026',
   framing: [
     {
       icon: 'info',

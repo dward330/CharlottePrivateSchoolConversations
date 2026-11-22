@@ -135,3 +135,15 @@ TO VERIFY (curriculum guide / campus map).
 
 - The six 2026 placements in the ledger above sit in six different categories (recount).
 - The 2024 category corrections and the 2025 row are NOT built: blumenthalarts.org refused a fetch in this round, and carmelchristian.org is not fetchable. The app now names the 2024 roles without categories.
+
+### Re-verification 2026-11-22 (plan consistency4, implement, Blumey lists)
+
+Read by the parent from copies downloaded from blumenthalarts.org earlier on 2026-11-22
+(HTTP 200). The site later refused a request and was not asked again. Student names are
+left out on purpose.
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (final nominees, every category)
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+
+2024: five finalists; Vlad and Ballet Lead are also nominees, and no other category nominates the school. 2025, Oklahoma!: five finalists. This supersedes the 2024 category table and "seven placements" above.

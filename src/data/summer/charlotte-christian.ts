@@ -1335,7 +1335,7 @@ export const charlotteChristian: SummerProgram = {
     headline:
       'Every tier here is a half-day. To cover a working day, price two — the bridge care between them is free.',
     subhead:
-      'Six weeks are available. Week 3 is a four-day week and is priced down; the tiers below are the five-day rates.',
+      'Six weeks are available. Week 3 is a four-day week and is priced down. Apart from the first two tiers, the tiers below are five-day rates.',
     maxWeeks: 6,
     defaultWeeks: 3,
     defaultTier: 'standard',

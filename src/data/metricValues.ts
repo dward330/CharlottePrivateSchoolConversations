@@ -439,7 +439,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'college-support',
     key: 'ap-performance',
     label: 'AP scoring 3+',
-    note: 'Share of AP exams scoring 3 or higher, most recent reported year. Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate. Carmel Christian’s figure is the share of seniors with at least one 3+, so it does not compare with the others.',
+    note: 'Share of AP exams scoring 3 or higher, most recent reported year. Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate. Three schools use another basis: Cannon and Gaston Day report a share of students, and Carmel Christian a share of seniors. Those three do not compare directly with the per-exam figures.',
     values: {
       cannon: '90%', // 90.16% "Students with Scores 3+", May 2026 (446 exams, 195 students)
       'charlotte-christian': '94%', // 2026: 94% of 435 exams (2026–27 profile; no pass count printed)
@@ -1539,13 +1539,13 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: 'NCTC festival', // competes in NC Theatre Conference HS Play Festival
       'charlotte-christian': 'Blumey Best Musical (2013)', // Wells Fargo Best Musical for Oklahoma! (2013), one of four awards that year; https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners
-      'charlotte-catholic': '5 Blumey finalists (2025)', // one finalist in each of the five individual performance categories, for Fiddler on the Roof; 5 further placements in 2026 for The Wizard of Oz, no win either year
+      'charlotte-catholic': '5 Blumey finalists (2025)', // one finalist in each of the five individual performance categories, for Fiddler on the Roof; 5 more finalists in 2026 for The Wizard of Oz, no win either year
       'charlotte-country-day': '31+ Blumey noms', // 31+ Blumey Award nominations
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
       'covenant-day': '2 Blumey wins', // Best Featured Performer 2013 + Student Critic Award 2016; 8 recognitions 2013-2019
       'carmel-christian': '2026 Blumey — Best Actress', // Anna Jernigan, Footloose; advances to the Jimmy Awards
       'davidson-day': '5 Blumey finalists (2026)', // Big Fish, five finalists — the-arts/davidson-day Blumey Verification 2026 (plan consistency4, DD-T5)
-      'hickory-grove-christian': '2025–26 Blumey noms', // nominees/finalists both years (Seussical, The Little Mermaid); no win
+      'hickory-grove-christian': '2025–26 Blumey finalists', // five finalists both years (Seussical, The Little Mermaid), one nominee in 2025; no win
       'gaston-day': '6-yr superior ratings', // chorus "superior" in regional adjudications over six years; plus UNCSA and Governor's School admissions
       'providence-day': 'Blumey recognition', // repeated Blumey Awards recognition
     },
@@ -1553,7 +1553,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'scope',
         text:
-          'Five Blumey Award finalists in 2025, one in each of the five individual performance categories, all for Fiddler on the Roof. Five further placements followed in 2026 for The Wizard of Oz — four nominees and one finalist. CCHS has not won a Blumey in either year.',
+          'Five Blumey Award finalists in 2025, one in each of the five individual performance categories, all for Fiddler on the Roof. Five more finalists followed in 2026, for The Wizard of Oz. None was a top-six nominee. CCHS has not won a Blumey in either year.',
       },
       'gaston-day': {
         kind: 'scope',
@@ -1593,7 +1593,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'Blumey Award nominees and finalists in back-to-back seasons — Seussical (2025) and Disney’s The Little Mermaid (2026), with two performers recurring. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
+        text: 'Five Blumey Award finalists in each of two seasons: Seussical (2025), with one top-six nominee, and Disney’s The Little Mermaid (2026). Three performers recur. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
       },
     },
   },
@@ -1701,7 +1701,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-country-day': {
         kind: 'scope',
-        text: 'Eight vocal and instrumental groups across Middle and Upper School, spanning auditioned honors ensembles and open-enrollment groups.',
+        text: 'Eight vocal and instrumental groups across Middle and Upper School, spanning auditioned honors ensembles and entry groups.',
       },
       'covenant-day': {
         kind: 'scope',
@@ -2323,9 +2323,10 @@ export const VALUE_METRICS: ValueMetric[] = [
 
   // --- Sports college commitments, cumulative over the Classes of 2024, 2025 & 2026.
   // Counts of DISTINCT athletes who committed to play college sports at each level;
-  // NESTED (Power 4 ⊆ Division I). Power 4 = SEC / Big Ten / ACC / Big 12 only
+  // NESTED (Power 4 ⊆ Division I). Power 4 = SEC / Big Ten / ACC / Big 12, plus
+  // Notre Dame in every sport, football included (settled S8)
   // (Big East, AAC, A-10, Ivy, etc. are "other D1"; Cal/Berkeley counts P4 as an ACC
-  // member; Notre Dame's non-football sports count P4 via the ACC).
+  // member).
   //
   // Compiled by hand from each school's published commitment rosters + Charlotte-area
   // signing-day coverage (see git history for per-athlete sourcing in this file's

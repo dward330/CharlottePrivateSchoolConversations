@@ -153,13 +153,13 @@ export const charlotteLatin: ArtsProgram = {
         year: '2026',
         show: 'Cabaret',
         result:
-          'Competed among the 59-school field and received no nominations in any category.',
+          'Five finalists: Best Actor (as MC) · Best Actress (as Fraulein Schneider) · Best Supporting Actor (as Herr Schultz) · Best Supporting Actress (as Fraulein Kost) · Best Featured Performer (as Gorilla Ballerina). No nominations, in a 59-school field.',
       },
       {
         year: '2025',
         show: 'The Drowsy Chaperone',
         result:
-          'Nominated: Best Student Stage Manager — a craft category rather than a performance one.',
+          'Nominated: Best Student Stage Manager — a craft category rather than a performance one. It also had five finalists in the performance categories.',
       },
       {
         year: '2022',
@@ -176,7 +176,7 @@ export const charlotteLatin: ArtsProgram = {
       },
     ],
     honestContext:
-      'A Best Actress Blumey is the most competitive individual honor in the region, and Latin has one, plus Best Featured Performer the same night. That is a real peak. But results since then are modest: one stage-manager nomination in 2025, then zero nominations for Cabaret in 2026 against a 59-school field. Latin is a real participant, not a dominant one. Separately, no NCTC one-act festival results could be found anywhere. Latin’s competitive theatre centers on the Blumeys (musicals), not on NCTC (a play festival). This ledger draws on four Blumenthal releases, so it is a floor, not a complete history.',
+      'A Best Actress Blumey is the most competitive individual honor in the region, and Latin has one, plus Best Featured Performer the same night. That is a real peak. But results since then are modest. Latin had five finalists in both 2025 and 2026, but its one nomination in those years was for stage manager in 2025. Latin is a real participant, not a dominant one. Separately, no NCTC one-act festival results could be found anywhere. Latin’s competitive theatre centers on the Blumeys (musicals), not on NCTC (a play festival). This ledger draws on four Blumenthal releases, so it is a floor, not a complete history.',
     photo: {
       src: '/arts/charlotte-latin-production.jpg',
       name: 'Winnie the Pooh Jr.',
@@ -199,6 +199,8 @@ export const charlotteLatin: ArtsProgram = {
         label: 'Blumenthal Arts — 2025 nominations',
         url: 'https://www.blumenthalarts.org/news/detail/2025-blumey-awards-nominations',
       },
+      { label: 'Blumenthal Arts — 2026 nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
+      { label: 'Blumenthal Arts — 2025 all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf' },
       {
         label: 'Blumenthal Arts — 2026 nominees (59 competing schools)',
         url: 'https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees',
@@ -352,7 +354,7 @@ export const charlotteLatin: ArtsProgram = {
     ],
     ask: [
       'You offer AP Music Theory but no AP Studio Art, AP 2-D/3-D Art & Design or AP Art History. If my child wants to submit a college-level studio portfolio, what is the path past Art Studio IV?',
-      'Latin had two Blumey wins in 2022, one stage-manager nomination in 2025, and zero nominations for Cabaret in 2026. What changed, and where is the musical theatre program heading with The Little Mermaid?',
+      'Latin had two Blumey wins in 2022, one stage-manager nomination in 2025, and five finalists but no nominations for Cabaret in 2026. What changed, and where is the musical theatre program heading with The Little Mermaid?',
       'Your materials name Alicia Long, Richard Fletcher and an assistant band director. They name no Director of Bands, orchestra director, choral director, theatre director or technical director. Who leads each ensemble, and how long have they been here?',
       'There are no auditioned or tiered ensembles published — no jazz band, no a cappella, no chamber or wind ensemble. How does a player already at All-State level keep progressing rather than coasting?',
       'Six studios — which media does each hold? Is there a kiln, a darkroom, a printmaking press, a dedicated dance studio? The Arts Facilities page is photos only, with no descriptive text.',

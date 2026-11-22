@@ -11,8 +11,8 @@
 //     noms (Pisacano/Wilson) to "Singin' in the Rain." The 2024 ledger below is
 //     therefore attributed to Anastasia — extracted from Blumenthal's official
 //     2024 nominee PDF. The category→role mapping we once typed was wrong for
-//     several roles (there is no "labeling quirk"), so the row names roles only
-//     until that PDF can be re-read (plan consistency4, CAR-T2) — and the Singin' in the Rain row is kept separate, its year shown
+//     several roles (there is no "labeling quirk"). It was re-read from the saved
+//     PDF (plan consistency4, CAR-T2) — and the Singin' in the Rain row is kept separate, its year shown
 //     as approximate ("~2022-23") because the school never dates it. (The
 //     "(year to verify)" bookkeeping that once sat in the year cell was removed
 //     in plan artsfacts, 2026-11-10: it rendered to parents in every locale.)
@@ -147,10 +147,16 @@ export const carmelChristian: ArtsProgram = {
         win: true,
       },
       {
+        year: '2025',
+        show: 'Oklahoma!',
+        result:
+          'Five finalists: Best Actor (as Curly McLain) · Best Actress (as Laurey Williams) · Best Supporting Actor (as Ali Hakim) · Best Supporting Actress (as Ado Annie Carnes) · Best Featured Performer (as Gertie Cummings).',
+      },
+      {
         year: '2024',
         show: 'Anastasia',
         result:
-          'Seven placements, no win: two nominees (as Ballet Lead and as Vlad) and five finalists (as Dmitry, Lily, Vlad, Dowager Empress and Ballet Lead).',
+          'Five finalists, no win: Best Actor (as Dmitry) · Best Actress (as Lily) · Best Supporting Actor (as Vlad) · Best Supporting Actress (as Dowager Empress) · Best Featured Performer (as Ballet Lead). Vlad and Ballet Lead were also top-six nominees.',
       },
       {
         year: '~2022-23',
@@ -160,12 +166,13 @@ export const carmelChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'One student placed in both years. In 2024 they were a finalist as Lily in Anastasia. In 2026 they won Best Actress for Footloose and advanced to the national Jimmy Awards. The 2024 nominations belong to Anastasia, not to "Singin\' in the Rain". The school’s undated news page ties a separate, earlier pair of nominations to that production.',
+      'One student placed in three straight years. They were a finalist as Lily in 2024 and as Laurey Williams in 2025. In 2026 they won Best Actress for Footloose and advanced to the national Jimmy Awards. The 2024 nominations belong to Anastasia, not to "Singin\' in the Rain". The school’s undated news page ties a separate, earlier pair of nominations to that production.',
     sources: [
       { label: 'carmelchristian.org — Theatre Productions (2025-26 season)', url: CC_PRODUCTIONS },
       { label: 'carmelchristian.org — 2024-25 theatre season', url: CC_SEASON_2425 },
       { label: 'carmelchristian.org — earlier "Singin\' in the Rain" Blumey noms (undated)', url: CC_SINGIN },
       { label: 'Blumenthal Arts — 2026 Blumey nominees & finalists', url: BLUMEY_2026 },
+      { label: 'Blumenthal Arts — 2025 Blumey all nominees & finalists (PDF)', url: 'https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf' },
       { label: 'Blumenthal Arts — 2024 Blumey nominees & finalists (PDF)', url: BLUMEY_2024 },
       { label: 'WFAE — 2026 Blumey Awards winners announced', url: WFAE_2026 },
     ],
@@ -259,11 +266,11 @@ export const carmelChristian: ArtsProgram = {
     holdsUp: [
       {
         label: 'A verified Blumey win — not just finalists',
-        text: 'a student took Best Actress for "Footloose" at the 2026 Blumey Awards, as WFAE reported. They went on to the national Jimmy Awards. It was an outright win, two years after they were a finalist in 2024.',
+        text: 'a student took Best Actress for "Footloose" at the 2026 Blumey Awards, as WFAE reported. They went on to the national Jimmy Awards. It was an outright win, after finalist places in 2024 and 2025.',
       },
       {
         label: 'Depth behind the win',
-        text: 'the 2026 "Footloose" run placed in six categories (actress, actor, both supporting, featured performer and choreography). "Anastasia" had seven placements in 2024.',
+        text: 'the 2026 "Footloose" run placed in six categories (actress, actor, both supporting, featured performer and choreography). "Oklahoma!" had five finalists in 2025. "Anastasia" had five in 2024, two of them top-six nominees.',
       },
       {
         label: 'A studio path that reaches AP',

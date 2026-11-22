@@ -47,10 +47,10 @@ export const hickoryGroveChristian: ArtsProgram = {
     headline:
       'A TK–12 arts ladder — visual art and music for every young student, widening into band, choir, theatre, dance and a leveled studio track in the upper grades.',
     subhead:
-      'Band- and choir-centered, with no orchestra at any level. The performing-arts headline is a run of Blumey Award nominations in 2025 and 2026.',
+      'Band- and choir-centered, with no orchestra at any level. The performing-arts headline is Blumey Award recognition in 2025 and 2026.',
     stats: [
       { value: 'TK–12', label: 'arts program, from the Early Education Center up' },
-      { value: '2026', label: 'three Blumey nominees from The Little Mermaid' },
+      { value: '2026', label: 'five Blumey finalists from The Little Mermaid' },
       { value: '2 or 3', label: 'productions a year: two on the Arts home page, three on Performing Arts' },
       { value: 'ITS', label: 'International Thespian Society, the theatre honor society' },
     ],
@@ -107,7 +107,7 @@ export const hickoryGroveChristian: ArtsProgram = {
     headline:
       'A fall show and a spring musical each year — with Blumey Award recognition in back-to-back seasons: Seussical in 2025 and Disney\'s The Little Mermaid in 2026.',
     subhead:
-      'The Blumeys are Blumenthal Performing Arts\' regional high-school musical-theater awards. HGCS placed nominees and finalists across both years, though no outright win is published.',
+      'The Blumeys are Blumenthal Performing Arts\' regional high-school musical-theater awards. HGCS had five finalists in each year and one top-six nominee, in 2025. No outright win is published.',
     seasonTitle: 'The season rhythm',
     season: [
       {
@@ -131,7 +131,7 @@ export const hickoryGroveChristian: ArtsProgram = {
         year: '2026',
         show: "Disney's The Little Mermaid",
         result:
-          'Three nominees: Best Supporting Actor (as Scuttle), Best Supporting Actress (as Flounder), and Best Featured Performer (as Aquata). No win is published.',
+          'Five finalists: Best Actor (as Triton) · Best Actress (as Ursula) · Best Supporting Actor (as Scuttle) · Best Supporting Actress (as Flounder) · Best Featured Performer (as Aquata). None was a top-six nominee, and no win is published.',
       },
       {
         year: '2025',
@@ -141,7 +141,7 @@ export const hickoryGroveChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'Two performers each appear in both years. So the program is a repeat producer of recognized performers. But no Blumey win is published for HGCS in either year. The school’s recognition came as nominees and finalists only. No director name, venue or recent non-Blumey show title is published either.',
+      'Three performers each appear in both years. But no Blumey win is published for HGCS in either year. The school’s recognition came as nominees and finalists only. No director name, venue or recent non-Blumey show title is published either.',
     sources: [
       { label: 'hgchristian.org — Performing Arts (productions, Blumey participation)', url: PERFORMING },
       { label: 'hgchristian.org — Arts (two productions a year)', url: ARTS },
@@ -234,11 +234,11 @@ export const hickoryGroveChristian: ArtsProgram = {
     headline:
       'A band-and-choir music program and a step-by-step studio track. The theatre program has drawn Blumey recognition two years running. The open questions are the unpublished venue, director and orchestra.',
     subhead:
-      'The Blumey nominations across Seussical (2025) and The Little Mermaid (2026) are the real, verified headline; the gaps are the undocumented facilities and the absence of orchestra and a cappella.',
+      'The Blumey finalist places across Seussical (2025) and The Little Mermaid (2026) are the real, verified headline; the gaps are the undocumented facilities and the absence of orchestra and a cappella.',
     holdsUp: [
       {
         label: 'Back-to-back Blumey recognition',
-        text: 'HGCS placed nominees and finalists at the 2025 (Seussical) and 2026 (The Little Mermaid) Blumey Awards. Two performers each appear in both years. So the program is a repeat producer of recognized performers.',
+        text: 'HGCS had five Blumey finalists for Seussical in 2025, one of them a top-six nominee. It had five more for The Little Mermaid in 2026. Three performers each appear in both years.',
       },
       {
         label: 'A studio path that reaches AP',

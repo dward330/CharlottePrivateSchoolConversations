@@ -521,3 +521,17 @@ Load-bearing negatives — these are researched findings, not unexamined blanks:
     confirmed on the fetched nominee page. **Gordon Hay Scholarship year** for Aslan Freidline
     (search indicates the 4th annual / 2015 cycle) is likewise unconfirmed on a fetched page.
 13. **Visiting artists, parent arts organization, arts showcase calendar — NOT FOUND.**
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, implement, Blumey lists)
+
+Read by the parent from copies downloaded from blumenthalarts.org earlier on 2026-11-22
+(HTTP 200). The site later refused a request and was not asked again. Student names are
+left out on purpose.
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (final nominees, every category)
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+
+2025: five finalists (Prince Charming, Cinderella, Prince Erudite, Snow White, Betany). This supersedes "no individual nomination was found" above.

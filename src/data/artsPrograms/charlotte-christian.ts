@@ -152,6 +152,12 @@ export const charlotteChristian: ArtsProgram = {
     ledgerTitle: 'The awards ledger — Blumeys and CITA',
     ledger: [
       {
+        year: '2026',
+        show: 'Cinderella (Blumey)',
+        result:
+          'Five finalists: Best Actor (as Prince Topher) · Best Actress (as Charlotte) · Best Supporting Actor (as Sebastian) · Best Supporting Actress (as Madame) · Best Featured Performer (as Coachman). Madame was also a top-six nominee. Field: 59 schools.',
+      },
+      {
         year: '2024',
         show: 'Tarzan (Blumey)',
         result:
@@ -179,7 +185,7 @@ export const charlotteChristian: ArtsProgram = {
       },
     ],
     honestContext:
-      'The 2013 Best Musical win is the program’s top arts achievement, and it is confirmed directly by Blumenthal Arts. The school later reported three nominations, for Shrek the Musical in 2015. The 2024 Tarzan finalist places sit one tier below nomination, in a field that had grown from 17 schools to 50. The CITA record is the school’s most distinctive credential, because the circuit fits the school’s identity. But it rests on a single published year: 2016. The school describes CITA honors as earned "each year," and that wording has one data point behind it. Separately, no specific NCTC award could be found for any year.',
+      'The 2013 Best Musical win is the program’s top arts achievement, and it is confirmed directly by Blumenthal Arts. The school later reported three nominations, for Shrek the Musical in 2015. The 2024 Tarzan finalist places sit one tier below nomination, in a field that had grown from 17 schools to 50. In 2026 Cinderella had five finalists, and one was a top-six nominee. The CITA record is the school’s most distinctive credential, because the circuit fits the school’s identity. But it rests on a single published year: 2016. The school describes CITA honors as earned "each year," and that wording has one data point behind it. Separately, no specific NCTC award could be found for any year.',
     sources: [
       { label: 'charlottechristian.com — Theatre', url: CC_THEATRE },
       { label: 'Box Office (2025-26 season)', url: CC_BOX },
@@ -191,6 +197,7 @@ export const charlotteChristian: ArtsProgram = {
         label: 'Blumenthal Arts — 2024 all nominees & finalists (PDF)',
         url: 'https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf',
       },
+      { label: 'Blumenthal Arts — 2026 nominees & finalists', url: 'https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards' },
       {
         label: 'CCS news — 2015 Blumey nominations',
         url: 'https://www.charlottechristian.com/cf_news/view.cfm?newsid=854',
@@ -335,8 +342,8 @@ export const charlotteChristian: ArtsProgram = {
       'The faith integration is structural rather than decorative, which is both the program’s distinctive asset and the thing a comparing parent should probe.',
     holdsUp: [
       {
-        label: 'A top-prize win, plus 2024 finalists',
-        text: 'the 2013 Oklahoma! Best Musical win came as a four-award sweep including Best Lighting Execution, from a 17-school field. In 2024, Tarzan earned finalist slots in all five acting categories, in a field grown to 50.',
+        label: 'A top-prize win, plus recent finalists',
+        text: 'the 2013 Oklahoma! Best Musical win came as a four-award sweep including Best Lighting Execution, from a 17-school field. In 2024, Tarzan earned finalist slots in all five acting categories, in a field grown to 50. In 2026, Cinderella had five finalists and one top-six nominee.',
       },
       {
         label: 'Two performance spaces and a scene shop',
@@ -361,7 +368,7 @@ export const charlotteChristian: ArtsProgram = {
     ],
     ask: [
       'Who directs theatre and who is your technical director, and how long have they been here? No faculty are named for any of the four branches, and the only names findable date to 2016 — ask this first.',
-      'In 2024 Tarzan was a finalist in all five acting categories but did not reach the top-6 nominees. What is the gap you are working on, and how has the program placed since 2024?',
+      'Tarzan had five finalists and no top-6 nominee in 2024, and Cinderella had five and one in 2026. What is the gap you are working on before a win?',
       'Can you show me CITA results for the last three years, by category? The 2016 ledger is strong; nothing after it is public.',
       'Show me the black box and the scene shop. How often is the black box used, and who builds the sets — students or contractors?',
       'The main auditorium is chapel, assembly and theatre. Walk me through a production week: how much stage time does the cast get, and where do they rehearse when chapel owns the room?',

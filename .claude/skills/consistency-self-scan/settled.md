@@ -207,7 +207,7 @@ The parent appends newly verified "not a conflict" groups here through the round
 | Charlotte Country Day | teams | 72 / 55 | School's count vs chips; footnote names both bases |
 | Charlotte Country Day | institutions | 1 / 150 | A merit detail vs reps hosted |
 | Charlotte Country Day | seniors | 27 / 32 / 141 | Ratio, UNC admits, Class of 2026 |
-| Charlotte Country Day | students | 12 / 15 / 10 / 20 / 17 / 1 | Trip groups, MUNCH 2026/2025, 1:1 support |
+| Charlotte Country Day | students | 12 / 15 / 10 / 20 / 17 / 1 / 341 / 347 | Trip groups, MUNCH 2026/2025, 1:1 support, and the two attributed aid counts |
 | Providence Day | teams | 66 / 56 | Footnote explains the basis |
 | Providence Day | institutions | 13 / 8 / 150 / 383 / 249 | Different facts |
 | Providence Day | seniors | 36 / 1 / 179 | 179 ÷ 5 = 35.8; "1" parses "~36:1" |
@@ -215,9 +215,10 @@ The parent appends newly verified "not a conflict" groups here through the round
 | Charlotte Latin | camps | 232 / 169 | Offerings vs distinct titles, both labelled (totals are S2) |
 | Charlotte Latin | seniors | 1 / 151 / 38 | "1" parses "~38:1"; 151 ÷ 4 = 38 |
 | Charlotte Latin | students | 12 / 1500 / 20 / 22 / 5 | Trip caps, a 2025 group, arts "1,500+", a course description |
+| Charlotte Latin | ensembles | 12 / 3 | "12" is parsed from "Grades 5–12 ensembles" |
 | Charlotte Latin | AP | 24 / 23 | Attributed split (LAT-1b); the Compare qual names both |
 | Charlotte Catholic | AP | 22 / 2 | Subjects examined vs junior-year load |
-| Charlotte Catholic | seniors | 336 / 56 | Seniors vs seniors per counselor |
+| Charlotte Catholic | seniors | 336 / 56 / 67 | Seniors, per counselor of six, and per counselor of the five assigned by last name |
 | Charlotte Catholic | students | 1330 / 9 / 10 / 11 / 12 | Enrollment vs grade numbers |
 | Charlotte Catholic | clubs | 76 / 15 / 23 | Category subtotals of 76 |
 | Charlotte Christian | teams | 50 / 44 | School's "50+", footnoted against 44 chips |

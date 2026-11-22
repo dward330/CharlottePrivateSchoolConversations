@@ -621,7 +621,7 @@ const HICKORY_GROVE_CHRISTIAN: ClubCatalog = {
 // plan thespianname.
 const GASTON_DAY: ClubCatalog = {
   verdict:
-    'Ten organizations the school names itself. The standouts: iGEM research teams with awards over more than a decade, and a VEX Robotics club that reached TSA Nationals in its first year.',
+    'Ten organizations the school names itself. The standouts: past iGEM research teams with awards over more than a decade, and a VEX Robotics club that reached TSA Nationals in its first year.',
   verdictHint:
     'The school publishes no full clubs list. Its Upper School page names three clubs and says students can start a new one with a faculty sponsor; its Academic Profile names the rest.',
   countNoun: 'named orgs',
@@ -633,7 +633,7 @@ const GASTON_DAY: ClubCatalog = {
     { key: 'honor', short: 'Honor societies', full: 'Honor society' },
   ],
   clubs: [
-    { name: 'iGEM Synthetic Biology Team', cat: 'stem', note: 'The school says its research teams competed in iGEM for over a decade and won Silver, Gold and Bronze awards' },
+    { name: 'iGEM Synthetic Biology Team', cat: 'stem', note: 'The school says its research teams previously competed in iGEM for over a decade and won Silver, Gold and Bronze awards' },
     { name: 'VEX Robotics', cat: 'stem', note: 'Qualified for TSA VEX Nationals in 2023, its first year competing; previously 4th at state in FIRST Robotics' },
     { name: '3-D Printing Club', cat: 'stem', note: 'Named on the school’s Upper School page' },
     { name: 'Blutopia', cat: 'pub', note: 'Upper School literary and arts magazine — numerous Scholastic Art & Writing Awards and repeated NCSMA Literary Magazine Contest recognition' },
@@ -652,7 +652,7 @@ const GASTON_DAY: ClubCatalog = {
     },
     {
       label: 'The two standouts',
-      text: 'iGEM and VEX Robotics are the distinctive entries. Both appear in the school’s own Academic Profile. iGEM teams won awards over more than a decade, and VEX reached Nationals in the club’s first year.',
+      text: 'iGEM and VEX Robotics are the distinctive entries. VEX is in the 2025–26 profile. The 2023–24 profile lists iGEM as past competition. Its teams won awards over more than a decade, and VEX reached Nationals in the club’s first year.',
       tag: 'School-reported',
     },
     {
