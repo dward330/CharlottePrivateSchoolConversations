@@ -1,7 +1,7 @@
 ---
 name: consistency4
 title: Fix the findings of the round-4 consistency rescan, our errors first
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-22
 branch: fix/consistency4
@@ -344,3 +344,21 @@ Providence day colleges -> fix. The rest is your recommendation".
 - **New chrome key:** `cardLabels.apResults`, for nine catalogs. `check:chrome` does not list it.
 - **New prose key:** `matrixTitle`.
 - **New money ranges** (`$195–$375`, `$1,670–$1,785`, `$175 to $600`): words in fa and ar.
+
+### Phase 1 handed back (2026-11-22)
+
+The design re-capture is done and verified. The English awaits the user's review.
+
+**Open calls put to the user, none answered yet. Phase 2 must check for answers before translating:**
+
+1. **Student names in shipped content** (72 students from Blumey lists in the published chunks,
+   preexisting). Recommended: a separate fix on its own branch from main, before anything else.
+   History rewriting would be its own decision.
+2. **Gaston Day's "ten organizations":** drop the past iGEM team, making nine (recommended).
+3. **Country Day's Compare cell:** keep "31+ noms, school's count" or use "2 Blumey wins (2022)"
+   (recommended).
+4. **Missing award history** (Gaston Day, plus older years at five schools): next round
+   (recommended).
+
+**Found, not fixed, preexisting:** literal markdown asterisks render in Providence Day College
+Support, The Applicant's Edge, Senior Project row ("has *no* community-service requirement").
