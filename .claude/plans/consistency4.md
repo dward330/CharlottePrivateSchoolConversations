@@ -279,3 +279,56 @@ Providence day colleges -> fix. The rest is your recommendation".
       `check_figures.py`, `check:dates`, the path replay and the three browser audits.
 
 ## Implementation notes
+
+### Phase 1 (2026-11-22, `fix/consistency4`)
+
+- **How it was built.** Four agents fixed one school group each in a private copy of the branch.
+  The parent read each app diff, re-opened the doubtful and high-stakes sources, applied it and
+  ran the gates. Of 161 assigned rows: 153 built, 6 part-built, 2 held. The rows ruled on later
+  and the approved UX fixes were built by the parent afterward.
+- **Held for Blumenthal** (the site refused a fetch, HTTP 406, and it was not retried):
+  - **CCHS-T7, held.** "Four nominees and one finalist" still shows on the Arts card and the
+    Compare qual, and is probably five finalists.
+  - **CAR-T3, held.** Carmel's 2025 ledger row.
+  - **CC-T3, part.** The false "no nomination since 2013" is gone and a 2015 row is added from the
+    school's own post. The 2026 row waits.
+  - **CAR-T2, part.** The wrong category labels are gone. The right ones wait, and so does
+    "Seven placements", which may count two nominees twice.
+- **Part-built for want of a field:** GD-T10 (one `sourceUrl` per division), and DD-T3, HG-T6,
+  HG-T7 (those cards take no verify flags, so a code comment holds the note).
+- **Deviations from the worklist's proposed fix:**
+  - CCD-T6: grades 1–2 also wait, 15 minutes.
+  - CCD-T7: the 3:00 tier is "carpool siblings only", said on the card.
+  - CCD-T20: the ask is narrowed, not dropped.
+  - CAN-T16: both limits are attributed, the profile's to the Class of 2027.
+  - LAT-T3: the ask says "such as", because more programs have no fee.
+  - HG-T2: the value reads "rising 1–8, plus 11th and 12th". The proposed "rising 1–8, 11–12"
+    failed `check:spans` and dropped out of the Compare ranking.
+  - X1: the label drops "published", so the tile does not say it twice.
+  - CC-T16 also corrected the sentence that the new count made false: football has six of the
+    eleven Power 4 signees.
+- **Design.** The three mocks were written to Claude Design and verified byte for byte before
+  the build (Summer Programs Section, Sports Section Redesign, College Support Section
+  Redesign). Re-capture them from the final Phase 1 build, after the review's fixes.
+- **Ingest.** 88 generated files. schools.json kept HEAD order (same records), and 69 date-only
+  notes were put back. No research bookkeeping reaches a page dump.
+- **Coverage floor:** Davidson Day is now 33/45 (73%). CLAUDE.md still says 31/45 until the user
+  approves that edit.
+- **Verified:** every build gate exits 0 except `check:live` (the expected English-first stop).
+  The plain-language hook has 0 findings in 70 files. `audit:mobile` has 0 broken cards and 0
+  overflow. The planner, both matrix headings and the column header were read in Chrome.
+
+### Traps for Phase 2
+
+- **Moved paths:** Latin Financial Aid questions (bus Q4 removed), PD After School checklist (one
+  removed), Cannon Financial Aid components (one removed), CCD After School tiers (one inserted),
+  Charlotte Christian theatre ledger and sources (inserted), Covenant math courses (CP Statistics
+  removed), DD and GD questions, GD payment plans and checklists. Require `path_replay` TOTAL 0.
+- **`src/content` moved.** `check:live` also reports a stale block in
+  `financial-aid-tuition.content`. Re-run the content extractor (`i18n_extract_content.mjs`) and
+  translate the changed blocks: they are a different layer from the data overlays.
+- **"Not published" in `sections[].stats[].value` is skipped by the extractor** and would render
+  English in nine locales. It needs an override that does not pull every figure into translation.
+- **New chrome key:** `cardLabels.apResults`, for nine catalogs. `check:chrome` does not list it.
+- **New prose key:** `matrixTitle`.
+- **New money ranges** (`$195–$375`, `$1,670–$1,785`, `$175 to $600`): words in fa and ar.
