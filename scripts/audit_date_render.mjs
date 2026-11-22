@@ -43,11 +43,15 @@
  *   npm run audit:daterender -- --all         # full sweep
  *   npm run audit:daterender -- --since <ref> # scope against another git ref
  *   npm run audit:daterender -- --lang it --base http://localhost:4319
+ *   npm run audit:daterender -- --headed      # show the browser window
  * It prints one progress line per page as it goes. Do NOT pipe it into `tail`:
  * that buffers the whole run, and a slow run then looks hung.
  *
- * Real Chrome via Playwright (channel 'chrome', headed). domcontentloaded plus a
- * settle wait, never networkidle — school pages never go idle. Every <details>
+ * Real Chrome via Playwright (channel 'chrome'), headless by default so no window
+ * opens over the user's own browser (user, 2026-11-23). It is the installed Chrome,
+ * and this audit reads text after the page's scripts run, which a window does not
+ * change. `--headed` shows the window. domcontentloaded plus a settle wait, never
+ * networkidle — school pages never go idle. Every <details>
  * in scope is forced open and every admissions band tab clicked, because a
  * collapsed panel renders nothing a scan can see.
  *
@@ -99,7 +103,7 @@ const DATE_SRC = `\\b${M}\\.? \\d{1,2}(?:st|nd|rd|th)?\\b|\\b\\d{1,2} ${M}\\b\\.
 
 const slugs = JSON.parse(readFileSync(join(ROOT, 'src/data/schools.json'), 'utf8')).schools.map((s) => s.slug)
 
-const browser = await chromium.launch({ channel: 'chrome', headless: false })
+const browser = await chromium.launch({ channel: 'chrome', headless: !args.includes('--headed') })
 const page = await browser.newPage()
 // Never log page-views from an audit.
 await page.route(/cloudflareinsights\.com/, (r) => r.abort())

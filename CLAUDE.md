@@ -579,7 +579,8 @@ needs `npm run build && npx vite preview`, so it is not in the build. By default
 visits only what the branch changed since `main`, opening each changed card through its
 deep link, and it switches to the full sweep by itself on any render-code change (plan
 `auditscope`; `npm run audit:scope` prints the scope). Run `-- --all` after adding a
-render site or a skipped field.
+render site or a skipped field. It runs the installed Chrome with no window by default, so it never
+covers the user's own browser (user, 2026-11-23); `-- --headed` shows the window.
 
 **Percent signs stay unspaced in every locale, French included.** French
 orthography wants `80 %` and `Intl` agrees — but these percentages are citations
@@ -843,7 +844,8 @@ because the fields were called `label`, `text` or `detail` (Trinity's
 `-- --all` after adding a render site or a locale; it needs `npm run build && npx vite
 preview`, so it is not in the build. By default it visits only what the branch changed
 since `main`, through card deep links, and falls back to the full sweep on any
-render-code change (`format.ts` included).
+render-code change (`format.ts` included). Like `audit:daterender`, it runs with no window unless
+given `--headed`.
 
 **Telugu keeps native lakh/crore grouping** — it is deliberately absent from
 `FIGURE_SAFE_NUMBERS`, the opposite of the `bn` line, so `$3,250,000` renders
