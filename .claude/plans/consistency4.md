@@ -375,3 +375,57 @@ The design re-capture is done and verified. The English awaits the user's review
 4. **Gaston Day After School:** the contacts follow the live page, with both published emails.
 5. **Latest News:** student names shown there live are not a finding (CLAUDE.md, PR #519). Never copy
    one into a file.
+
+### Phase 2 (nine locales), 2026-11-22
+
+**Method.** 540 changed units per locale (539 overlay units and one `src/content` block),
+re-extracted and spliced by stamp, plus five chrome keys in nine catalogs.
+
+**Deviations.**
+
+- **X1's mechanism:** `WORDED_VALUES` in `scripts/i18n_fields.mjs`. `classifyField(path, leaf,
+  value)` promotes a worded value in `sections[].stats[].value` and `music.tracks[].ensembles[]`
+  without pulling every figure into translation. The extractor and the path replay pass the value.
+- **`check_translations.mjs` carried its own copy of the classifier** and failed on the change.
+  It now uses the shared function.
+- **Two renamed `name` rows stay English,** as the rows they replace did: Gaston Day's
+  "Art-school acceptances" and Trinity's "Lower School art (K–5), on the TAB model".
+- **Older translation errors fixed, as step 3 asked:** the four title keys, the Covenant director,
+  "million" in four merit rows, and fa/ar money ranges and arrows.
+- **Doubled period, found by the render probe (seven spots in two units, also on main).**
+  `UNIT_SUFFIX` in `format.ts` renders `/wk` and `/sem` as `sem.` or `sett.`, so a period after
+  one doubled. `after-school` 696610c1 (es, fr, it) and 4faa8191 (fr) now write "per week" in
+  words. The formatter is unchanged.
+
+**Verified on the final tree.**
+
+- `checks.sh`, 176 commands, all exit 0: the whole build, every listed gate, the per-topic figure
+  sweep, sepdrift, and the path replay (TOTAL 0 in nine locales).
+- By stamp against the tree before the splice: 136,514 kept, 92 intended fixes, 41 arrow fixes,
+  0 other changes, 0 blank, 0 duplicate paths.
+- `check:digits`: 10 to review, all deliberate renderings. `i18n:leaks`: below main in seven
+  locales; fa +1 and ar +2 are Latin-label keeps.
+- Render probe, 4,833 renderings: one flag, a false alarm (`/yr` renders `/anno`). Of 25 units on
+  no school page, 19 are flag kinds that never render and 6 were found on checklist pages in all
+  nine locales.
+- Browser audits with `--all`: dates in nine locales, money in es and fr, and mobile. After the
+  period fix: dates and money again in es, fr and it, and mobile again.
+- All 26 real checklist bands in nine locales: 0 English dates; 0 raw money in es, fr and it.
+- fa/ar: changed ranges read in Chrome, and 1,742 year ranges measured by glyph, 0 reversed.
+
+**For the next round (found, not fixed here).**
+
+- The band list in `audit:daterender` and `audit:moneyrender` names only 6 of the 26 real
+  checklist bands. Read the keys from each school's guide.
+- The unit-abbreviation period above needs a formatter fix or a check, or it will recur.
+- `i18n_audit_skips` exits 1 on main as well.
+- English lines the translators flagged (approved English, left as is):
+  - "had five and one in 2026" (`the-arts` 2c3b76b3) is unclear.
+  - "about the rise in every band" is a fragment.
+  - "no financial-aid policy for Extended Day exists" (`after-school` 84fc27f4) overclaims.
+  - `$0–700`-style ranges lack the second dollar sign.
+  - "Butterfly Memorial dedicated to the Holocaust Museum" is garbled.
+  - "anchors what the school itself names", "domestic band" and "entry groups" are unclear.
+  - The dash in "the 118 NHS inductees" and the Cahal Pech active-sites count are ambiguous.
+- Older translations flagged: translated quotes, te `/week` units, two other Country Day
+  "million" units, and the bn "Rising" label family.
