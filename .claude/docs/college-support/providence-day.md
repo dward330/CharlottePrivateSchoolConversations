@@ -1,5 +1,5 @@
 # Providence Day School — College Support
-> Distilled from 12 source document(s) in `source-material/college-support/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 12 source document(s) in `source-material/college-support/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Redesign Research 2026, School Profile 2026-2027, Standing Out, UNC System Admissions, Deep Research
 
 
@@ -696,7 +696,7 @@ Commended (Academic Profile). The Class of 2026 result is a genuine step up from
 this metric** — it still reports the Class of 2024 ledger while the Class of 2026 has graduated.
 
 **Class of 2026 AP Scholar awards** (from the June 2026 post): **26 AP Scholars, 29 AP Scholars
-with Honor, 51 AP Scholars with Distinction**. Also: **Maya Kodali '26 was the first Providence
+with Honor, 51 AP Scholars with Distinction**. Also: **[name withheld] '26 was the first Providence
 Day student ever to receive the AP International Diploma.**
 
 ### Post-AP course depth
@@ -1003,10 +1003,10 @@ Iowa State, West Virginia, UCF. **All four conferences: saturated.**
 **Class of 2026:**
 - **more than $21 million** in merit scholarships and academic honors; **82% of seniors** offered
  merit scholarships or academic recognition.
-- **5 National Merit Scholarship recipients:** Wes Kropf, Owen Moore, Coley Roberson, Alex Shi,
- Eleanor Zhang.
-- **Valedictorian Maya Kodali '26 → Harvard University**; **Salutatorian Wes Kropf '26 →
- Princeton University**; King Constantine Medal to Elizabeth Cicoletti '26 (Cal Poly SLO).
+- **5 National Merit Scholarship recipients:** [name withheld], [name withheld], [name withheld], [name withheld],
+ [name withheld].
+- **Valedictorian [name withheld] '26 → Harvard University**; **Salutatorian [name withheld] '26 →
+ Princeton University**; King Constantine Medal to [name withheld] '26 (Cal Poly SLO).
 - **31 senior student-athletes** continuing at the collegiate level, **13 at Division I**.
 - **NOT PUBLISHED for 2026:** Morehead-Cain, QuestBridge, ROTC, or service-academy outcomes were
  not mentioned in the Class of 2026 posts.
@@ -1229,7 +1229,7 @@ leverage. It voluntarily hands admissions readers:
 This is a school choosing to be legible rather than opaque. It converts a no-rank policy from a
 liability into context.
 
-**Integrity and discipline reporting — NACAC complianc
+**Integrity and discipl
 
 …[truncated]
 
@@ -2205,8 +2205,8 @@ associates. Providenceday + 2
 National Merit. For the Class of 2025, the National Merit Scholarship Corporation named 7
 https://claude.ai/chat/68c044a9-3c47-44c8-a722-63dd0ea2c133 Page 1 of 5
 Providence Day School College Counseling and Placement Program: Program Review and Outcomes Analysis 7/1/26, 8:06 PM
-Providence Day Semifinalists (Daniel Behrman, Liza Grimes, Lisa Liu, Ethan Mudd,
-Carson Orner, Nikhil Patel, and Rishil Saxena) and 16 Commended Students. The school's
+Providence Day Semifinalists ([name withheld], [name withheld], [name withheld], [name withheld],
+[name withheld], [name withheld], and [name withheld]) and 16 Commended Students. The school's
 own news post ("National Merit Scholarship Organization Recognizes Over 20 Students")
 quotes Director Jack Whelan: "After 18 years, you'd think I'd be used to the excellent
 students here at Providence Day, but that is never the case. This batch of National Merit
@@ -2220,10 +2220,9 @@ Merit counts (Semifinalists/Commended) could not be confirmed from Providence
 Day's website or accessible local news; the 2026 Semifinalists were announced September
 10, 2025. Providenceday + 3
 College Board National Recognition Program (Class of 2025). National African
-American/Black Awards — Sydney Allen, Liles Kendall, Coley Roberson, Gelila Sisay,
-Payton Thompson; National Hispanic/Latino Awards — Isabel Hsu, Charlotte Kraus,
-Austin Nelson; National First Generation Awards — Caleb Joel, Carson Orner, Bunary
-Sum, Skylar Wright; and Vanessa Brandt (both National First Generation and National
+American/Black Awards — [name withheld], [name withheld], [name withheld], [name withheld],
+[name withheld]; National Hispanic/Latino Awards — [name withheld], [name withheld],
+[name withheld]; National First Generation Awards — [name withheld], [name withheld], [name withheld], [name withheld]; and [name withheld] (both National First Generation and National
 Hispanic/Latino).
 Scholarships and named awards. The Class of 2025 (176 graduates) was "o"ered more
 than $23 million in merit scholarships" and "accepted at a PD-record 249 colleges in 39

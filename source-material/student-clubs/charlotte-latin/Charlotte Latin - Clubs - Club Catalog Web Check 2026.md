@@ -37,7 +37,7 @@ the app's Honor Societies card instead).
 NSDA year check, same day: the school news post
 https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-places-in-top-20-debate-programs-in-usa
 (page metadata dated 2025-07-25) says "This summer … over five days of competition in June in Des
-Moines, IA … The team of Anisha Chandra ’26 and Divija Rao ’26 ranked in fifth place in the
+Moines, IA … The team of [name withheld] ’26 and [name withheld] ’26 ranked in fifth place in the
 category of Public Forum Debate". That is the **June 2025** National Tournament; "'26" is the
 students' class year.
 

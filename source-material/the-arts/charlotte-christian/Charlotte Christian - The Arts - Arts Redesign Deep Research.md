@@ -160,7 +160,7 @@ Source: https://www.charlottechristian.com/fine-arts/theatre
 **Tech-theater / stagecraft track — [VERIFIED], and better resourced than the school advertises.** Three converging pieces of evidence:
 - **Courses:** technical directing and stage management are two of the seven theatre electives. https://www.charlottechristian.com/fine-arts/theatre
 - **Facility:** the venue includes a **scene shop** for set construction and **dressing rooms** — dedicated build space, per the contractor. https://www.rodgersbuilders.com/projects/charlotte-christian-school-2/
-- **Competitive results:** a **Technical Theatre Costume Design Award** at CITA 2016 (Katherine Hanebutt) confirms students compete and place in technical categories; the 2013 Blumey **Best Lighting Execution** win confirms technical strength on a mainstage. https://www.charlottechristian.com/cf_news/view.cfm?newsid=1030
+- **Competitive results:** a **Technical Theatre Costume Design Award** at CITA 2016 ([name withheld]) confirms students compete and place in technical categories; the 2013 Blumey **Best Lighting Execution** win confirms technical strength on a mainstage. https://www.charlottechristian.com/cf_news/view.cfm?newsid=1030
 
 A scene shop plus two tech electives plus a lighting award is a real tech track, not a nominal one. **[NOT FOUND]** — a named multi-year stagecraft sequence (e.g. Stagecraft I/II/III) or a student tech-crew organization name.
 
@@ -227,20 +227,20 @@ This is the item the prior research pass was mid-way through. **It is now resolv
 
 | Year | Production | Category | Level | Student | Role |
 |---|---|---|---|---|---|
-| 2024 | *Tarzan* | Best Actor | **Finalist** | Jayden Stall | Tarzan |
-| 2024 | *Tarzan* | Best Actress | **Finalist** | Karsen Betzold | Jane |
-| 2024 | *Tarzan* | Best Supporting Actor | **Finalist** | Jeffery Wilson | Kerchak |
-| 2024 | *Tarzan* | Best Supporting Actress | **Finalist** | Hannah Roddy | Terk |
-| 2024 | *Tarzan* | Best Featured Performer | **Finalist** | Isa Long | Jaquar |
+| 2024 | *Tarzan* | Best Actor | **Finalist** | [name withheld] | Tarzan |
+| 2024 | *Tarzan* | Best Actress | **Finalist** | [name withheld] | Jane |
+| 2024 | *Tarzan* | Best Supporting Actor | **Finalist** | [name withheld] | Kerchak |
+| 2024 | *Tarzan* | Best Supporting Actress | **Finalist** | [name withheld] | Terk |
+| 2024 | *Tarzan* | Best Featured Performer | **Finalist** | [name withheld] | Jaquar |
 
-Source: https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf (verified verbatim, e.g. "Charlotte Christian School - Jayden Stall as Tarzan - Tarzan"; corroborated identically in https://www.blumenthalarts.org/assets/doc/2024-Blumey-Nominees-and-Finalists-6435d5b18b.pdf)
+Source: https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf (verified verbatim, e.g. "Charlotte Christian School - [name withheld] as Tarzan - Tarzan"; corroborated identically in https://www.blumenthalarts.org/assets/doc/2024-Blumey-Nominees-and-Finalists-6435d5b18b.pdf)
 
 **Critical distinction — "finalist" is not "nominee," and this reconciles the conflicting sources.** The 2024 Blumey structure has two tiers, stated explicitly in the PDF: each participating production names **one finalist per performance category**, and from that pool the Blumeys announce a **top 6 nominees** per category (for Best Actor/Actress, "the 6 nominees for these categories will be announced the week of May 5, 2024").
 
 - Charlotte Christian earned a **finalist slot in all five performance categories** — i.e., its cast was its production's designated best in every acting category. **[VERIFIED]**
 - Charlotte Christian was **NOT** among the **top-6 nominees** in any category, and **not** in Best Musical, Best Student Orchestra, Best Student Reporter, Best Student Stage Manager, Best Student Set Designer, or Best Student Costume Designer. I enumerated the top-6 nominee section of the PDF directly and Charlotte Christian appears nowhere in it. **[VERIFIED by absence]**
 
-**So both earlier readings were half-right:** the search snippet correctly found Betzold and Wilson (and missed three others), while the news-announcement page correctly showed no *nominations* — because the announcement page lists top-6 nominees, and CCS's five placements were at the finalist tier. **Report this as "five 2024 Blumey finalist slots for *Tarzan*," never as "nominations."**
+**So both earlier readings were half-right:** the search snippet correctly found [name withheld] (and missed three others), while the news-announcement page correctly showed no *nominations* — because the announcement page lists top-6 nominees, and CCS's five placements were at the finalist tier. **Report this as "five 2024 Blumey finalist slots for *Tarzan*," never as "nominations."**
 
 **Field context [VERIFIED]:** **50 schools/productions** participated in the 2024 Blumey Awards; ceremony at Belk Theater, **May 26, 2024**.
 Source: https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-the-2024-blumey-awards-nominees
@@ -268,12 +268,12 @@ This is the school's most distinctive competitive arena — a Christian-schools 
 
 | Year | Category | Placement | Student(s) |
 |---|---|---|---|
-| 2016 | Ensemble Theatre | **1st Place** | Grace DuPre', Colin Gallagher, Mary King, Avery Williams |
-| 2016 | Solo Junior High Musical Theatre | **1st Place** | Hailey Thomas |
-| 2016 | Solo Junior High Musical Theatre | **3rd Place** | Lilly Mull |
-| 2016 | Duo Theatre | Honorable Mention | Xander Hanegraaff, Mary Elizabeth Johnson |
-| 2016 | Contrasting Monologues | Honorable Mention | Lily Robinson |
-| 2016 | Technical Theatre — Costume Design | **Award** | Katherine Hanebutt |
+| 2016 | Ensemble Theatre | **1st Place** | [name withheld], [name withheld], [name withheld], [name withheld] |
+| 2016 | Solo Junior High Musical Theatre | **1st Place** | [name withheld] |
+| 2016 | Solo Junior High Musical Theatre | **3rd Place** | [name withheld] |
+| 2016 | Duo Theatre | Honorable Mention | [name withheld], [name withheld] |
+| 2016 | Contrasting Monologues | Honorable Mention | [name withheld] |
+| 2016 | Technical Theatre — Costume Design | **Award** | [name withheld] |
 
 Source: https://www.charlottechristian.com/cf_news/view.cfm?newsid=1030
 
@@ -626,7 +626,7 @@ Ordered by impact on the parent-facing comparison.
 
 ### High impact
 
-> **RESOLVED during this pass — the 2024 *Tarzan* question.** The prior attempt's open item is now closed: *Tarzan* earned **five Blumey finalist slots** in 2024 (Best Actor — Jayden Stall; Best Actress — Karsen Betzold; Best Supporting Actor — Jeffery Wilson; Best Supporting Actress — Hannah Roddy; Best Featured Performer — Isa Long), and **no** top-6 nomination. Extracted from the Blumenthal all-nominees PDF by local decompression after the fetch tool returned unparseable binary. See bucket 1b.
+> **RESOLVED during this pass — the 2024 *Tarzan* question.** The prior attempt's open item is now closed: *Tarzan* earned **five Blumey finalist slots** in 2024 (Best Actor — [name withheld]; Best Actress — [name withheld]; Best Supporting Actor — [name withheld]; Best Supporting Actress — [name withheld]; Best Featured Performer — [name withheld]), and **no** top-6 nomination. Extracted from the Blumenthal all-nominees PDF by local decompression after the fetch tool returned unparseable binary. See bucket 1b.
 
 1. **2025-26 individual production titles.** Season theme "Pure Imagination" is [VERIFIED]; the specific **fall play and spring musical titles are [NOT FOUND]**. Retry the Box Office page mid-season, or locate the fine arts events calendar. **Highest-value remaining gap for a current-season parent view.**
 

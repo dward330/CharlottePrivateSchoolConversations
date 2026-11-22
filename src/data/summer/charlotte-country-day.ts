@@ -482,7 +482,7 @@ export const charlotteCountryDay: SummerProgram = {
         weeks: 'June 8-12',
       },
       {
-        name: 'Pickle Pros with Carter & Maggie',
+        name: 'Pickle Pros',
         desc: 'Pickleball with named instructors. $230 in the four-day weeks, $280 otherwise.',
         category: 'morning',
         categoryLabel: 'Morning',

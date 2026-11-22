@@ -8,7 +8,7 @@
 //
 //  1. The school's awards page claims "26 BLUMEY Awards." Cross-checked against
 //     Blumenthal's own published winner lists, exactly ONE outright win is
-//     independently verifiable (Max Odom, Best Supporting Actor, Xanadu, 2022).
+//     independently verifiable ([name withheld], Best Supporting Actor, Xanadu, 2022).
 //     The rest are nominations and finalist placements. So the ledger below
 //     distinguishes wins from finalists row by row, and the honest-context note
 //     states the discrepancy rather than repeating "26 awards" unqualified.

@@ -97,7 +97,7 @@ export function parse(html: string, _boardUrl: string): NewsItem[] {
  * a captioned hero image, and that caption is a <p> inside
  * `<figure class="fsImageCaptioned">` sitting BEFORE the first body paragraph.
  * It is comfortably over 60 chars, so a plain "first long <p>" rule returns
- * "Pictured: Brooks Hinton '27 with Lower School Freedom School scholars." as
+ * "Pictured: [name withheld] with Lower School Freedom School scholars." as
  * the preview — grammatical, plausible, and not what the story is about.
  * Captions are therefore excluded structurally.
  */

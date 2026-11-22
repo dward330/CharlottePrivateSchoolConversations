@@ -122,8 +122,8 @@ assessment, so no re-searching from scratch):
 - Blumey 2025 `https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf`
 - Blumey 2026 `https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards`
 - Found: TK–12 arts ladder; Band (Concert, Jazz), Choir (no orchestra); theatre 3
-  productions/yr + biennial musical; **Blumey noms 2025 (Amara Aghedo, *Seussical*) & 2026
-  (Christian Young; *The Little Mermaid* recognized)**; Tri-M + Thespian societies; visual
+  productions/yr + biennial musical; **Blumey noms 2025 ([name withheld], *Seussical*) & 2026
+  ([name withheld]; *The Little Mermaid* recognized)**; Tri-M + Thespian societies; visual
   arts Art I–IV + AP 2D Design; *Exodus* yearbook. Facilities not found (omit).
 
 **Sports**

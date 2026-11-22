@@ -80,7 +80,7 @@ The school's list and a self-submitted MileSplit entry (2023-07-01) say Zach Mak
 Appalachian State's own page lists him as a 2025-26 sophomore from Providence Day whose first
 season was 2024-25, and his TFRRS profile is under Appalachian State from January 2025 with
 no Tennessee season. Every transfer precedent on these cards (Baker, Galloway, Swartz,
-Thompson, Davis, Jackson) enrolled at the first college; a **verbal that never enrolled** is
+Thompson, [name withheld]) enrolled at the first college; a **verbal that never enrolled** is
 new. The recommendation, written into the source file, is to show the college whose page
 confirms him and carry the verbal in `rosterNote`. That moves the Compare P4 row 17 → 16 and
 the SEC share 4 → 3. The user may keep Tennessee instead; both variants are spelled out in

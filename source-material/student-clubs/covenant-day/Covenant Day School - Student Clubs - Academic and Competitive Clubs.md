@@ -6,10 +6,10 @@
 ### Sources
 
 - https://www.covenantday.org/academics/high-school (Mock Trial named)
-- NC Mock Trial regional winners (Cornelia Knight, Covenant Day):
+- NC Mock Trial regional winners ([name withheld], Covenant Day):
   https://ncmocktrial.org/2024/02/12/congratulations-to-courtroom-artists-regional-winners/
-- 2025 state courtroom-artist result (Knight runner-up):
-  https://ncmocktrial.org/2025/03/17/congratulations-to-courtroom-artist-state-champion-erica-oliver-2/
+- 2025 state courtroom-artist result ([name withheld] runner-up):
+  https://ncmocktrial.org/2025/03/17/name-withheld/
 - https://www.privateschoolreview.com/covenant-day-school-profile (roster)
 
 ### The competitive slate
@@ -17,7 +17,7 @@
 - **Mock Trial** — the school's flagship competitive club, named on the school's
   own high-school page. The NC Mock Trial Program's records show **"Covenant Day
   School Blue"** competing (the "Blue" suffix implies multiple CDS teams), and
-  **Cornelia Knight of Covenant Day School Blue won the courtroom-artist regional
+  **[name withheld] of Covenant Day School Blue won the courtroom-artist regional
   (Hickory) and was the 2025 State Champion Courtroom Artist runner-up** — the
   program's best-documented statewide result.
 - **Robotics — First Lego League** (US) and **Junior First Lego League** (LS/MS).
@@ -34,5 +34,5 @@
 ### Flagship result for the app
 
 Mock Trial: **regional champion + 2025 state runner-up, courtroom artist**
-(Cornelia Knight, Covenant Day Blue) — the single most notable documented
+([name withheld], Covenant Day Blue) — the single most notable documented
 competitive result.

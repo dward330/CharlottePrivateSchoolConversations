@@ -108,14 +108,12 @@ Scholar award** after 2021, which explains its disappearance rather than any dec
 | National Merit Semifinalists | **12** |
 | Commended Students | **18** |
 
-Named Semifinalists (Class of 2026): Avery Bly, Luca Bravo, June Budzichowski, Emily Cao,
-Connor Cruz, Kabir Nawaz, Jackie Rao, Kelsey Sciacca, Isabel Yang, Claire Zhang, Lynn Zhao,
-Ryan Zhou.
+Named Semifinalists (Class of 2026): [name withheld], [name withheld], [name withheld], [name withheld],
+[name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld],
+[name withheld].
 
-Named Commended Students (Class of 2026): Max Bai, Ananya Banerjee, Natalie Berman, Hannah
-Blackhall, Jolin Cheng, Peter DiSciullo, Eloise Eirich, Samora Elam, Evelyn Haggstrom, Watts
-Humphrey, Webb Kiser, Sophia Oh, Divija Rao, Peyton Samii, Wesley Seagraves, Raaj Thakur,
-David Vaughn, Angelina Yang.
+Named Commended Students (Class of 2026): [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld],
+[name withheld], [name withheld].
 
 **Three-year aggregates by profile edition:**
 
@@ -127,7 +125,7 @@ David Vaughn, Angelina Yang.
 | Classes of 2015–17 | 34 | 33 | 2 National Achievement SF; 1 National Hispanic Finalist |
 
 **Class of 2024 detail** (from the 2024 Honors and Awards Ceremony): **6 National Merit
-Finalists**, **16 Commended Students**, and **1 National Merit Scholar** — Evan Li '24.
+Finalists**, **16 Commended Students**, and **1 National Merit Scholar** — [name withheld] '24.
 
 > **Discrepancy flagged:** The 2025–26 profile reports **20 Semifinalists across the Classes
 > of 2023–25** (a 3-year total). The Class of **2026 alone** produced **12 Semifinalists** —
@@ -143,9 +141,9 @@ Finalists**, **16 Commended Students**, and **1 National Merit Scholar** — Eva
 
 From the 2024 Honors and Awards Ceremony (the only year located with this detail):
 
-- **National Hispanic and Latino Recognition Program:** Alessandra Martin '25
-- **National African American Recognition Program:** Maya Belton '25, Toryn Nichols '24,
-  Kenny Ogbata '25, Kwasi Thornhill '24
+- **National Hispanic and Latino Recognition Program:** [name withheld] '25
+- **National African American Recognition Program:** [name withheld] '25, [name withheld] '24,
+  [name withheld] '25, [name withheld] '24
 
 Counts for other class years are **NOT PUBLISHED**.
 
@@ -220,7 +218,7 @@ the profile explicitly warns colleges not to misread standard-track placement �
   https://www.charlottelatin.org/academics/college-counseling
 - National Merit Class of 2026 (12 Semifinalists, 18 Commended, named students):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/upper-school-salutes-national-merit-semifinalists-and-commended-students
-- 2024 Honors and Awards Ceremony (6 NM Finalists, 16 Commended, Evan Li '24 NM Scholar,
+- 2024 Honors and Awards Ceremony (6 NM Finalists, 16 Commended, [name withheld] '24 NM Scholar,
   College Board National Recognition honorees, AP Scholar counts):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2024-honors-and-awards-ceremony
 - Upper School Profile 2017–18 (marking system, quality points, "does not report class rank",
@@ -460,15 +458,15 @@ the profile.** What is on the record:
 |---|---|---|---|
 | **Total merit scholarships offered** | "93 seniors reported **231 merit scholarships** at **85 different colleges & universities, totaling more than $13 million**. An impressive **48 students received awards of more than $100,000 each**" | Class of **2023** | Published |
 | **Total merit scholarships offered** | "74 seniors reported **207 merit scholarships** at 95 different colleges and universities **totaling more than $14 million**. Forty-four students were awarded more than $100,000 each" | Class of **2022** | Published |
-| **Johnson Scholarship, Washington & Lee** (full tuition, room and board) | **Kelsey Sciacca '26** | 2026 | Published |
+| **Johnson Scholarship, Washington & Lee** (full tuition, room and board) | **[name withheld] '26** | 2026 | Published |
 | **Park Scholar, NC State** | unnamed | Class of 2023 | Published |
 | **Dowdy Scholar, NC A&T** | unnamed | Class of 2023 | Published |
-| **Morehead-Cain, UNC-Chapel Hill** | **Thierry Charles '22** | 2022 | Published — **outside the 2023–25 window** |
-| **Morrill Scholarship, Ohio State** | Kwasi Thornhill '24 | 2024 | Published |
-| **High Point Presidential Scholar** (full tuition) | Samora Elam '26 | 2026 | Published |
-| **National ROTC Scholarship** (worth **over $154,000**) | Colin Degenhardt '24 | 2024 | Published |
-| **U.S. Air Force Academy appointment** | **Graham Blanton '25** | 2025 | Published |
-| **U.S. Naval Academy appointment** | **Brendan Miles '25** | 2025 | Published |
+| **Morehead-Cain, UNC-Chapel Hill** | **[name withheld] '22** | 2022 | Published — **outside the 2023–25 window** |
+| **Morrill Scholarship, Ohio State** | [name withheld] '24 | 2024 | Published |
+| **High Point Presidential Scholar** (full tuition) | [name withheld] '26 | 2026 | Published |
+| **National ROTC Scholarship** (worth **over $154,000**) | [name withheld] '24 | 2024 | Published |
+| **U.S. Air Force Academy appointment** | **[name withheld] '25** | 2025 | Published |
+| **U.S. Naval Academy appointment** | **[name withheld] '25** | 2025 | Published |
 | **U.S. Naval Academy appointment** | unnamed | Class of 2023 | Published |
 | **National Merit Scholarship winners** | 5 (Class of 2026), 3 (2025), 1 (2024) | 2024–26 | Published |
 
@@ -584,17 +582,17 @@ present them as current.
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/commencement-exercises-for-the-class-of-2023
 - Commencement, Class of 2022 ($14M / 207 merit scholarships / 44 students over $100k):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/commencement-exercises-for-the-class-of-2022
-- 2026 Upper School Honors and Awards Ceremony (Johnson Scholarship — Kelsey Sciacca '26; 12
+- 2026 Upper School Honors and Awards Ceremony (Johnson Scholarship — [name withheld] '26; 12
   National Merit Finalists, 5 National Merit Scholarship winners named):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2026-upper-school-honors-and-awards-ceremony
-- 2025 Honors and Awards Ceremony (Air Force Academy — Graham Blanton '25; Naval Academy —
-  Brendan Miles '25; 7 Finalists, 3 National Merit Scholarship winners):
+- 2025 Honors and Awards Ceremony (Air Force Academy — [name withheld] '25; Naval Academy —
+  [name withheld] '25; 7 Finalists, 3 National Merit Scholarship winners):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2025-honors-and-awards-ceremony
-- 2024 Honors and Awards Ceremony (National ROTC Scholarship over $154,000 — Colin Degenhardt '24;
-  Morrill Scholarship — Kwasi Thornhill '24; Evan Li '24 National Merit Scholar):
+- 2024 Honors and Awards Ceremony (National ROTC Scholarship over $154,000 — [name withheld] '24;
+  Morrill Scholarship — [name withheld] '24; [name withheld] '24 National Merit Scholar):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2024-honors-and-awards-ceremony
-- Morehead-Cain award to Thierry Charles '22:
-  https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charles-receives-morehead-cain-scholarship
+- Morehead-Cain award to [name withheld] '22:
+  https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/name-withheld
 - Upper School Profile 2017–18 ("One hundred percent expect to matriculate at four-year colleges";
   the 279-colleges/37-states/115-matriculations paragraph; the full named-scholarship list):
   https://www.charlottelatin.org/uploaded/COMPOSER/AcademicsTab/USprofile1718.pdf
@@ -631,9 +629,9 @@ that manufactures one.
 | TOC bids or TOC results | — | **NOT FOUND** for Charlotte Latin |
 | NCFL Grand Nationals results | — | **NOT FOUND** |
 
-**Named national results (all Class of 2026):** Anisha Chandra '26 & Divija Rao '26 — **5th place,
-Public Forum Debate**; Angelina Yang '26 — **Quarterfinalist, Congressional Debate (House)**;
-Natalie Berman '26 & Nicholas Willett '26 — 25th, Public Forum; Isabel Yang '26 — 33rd, World
+**Named national results (all Class of 2026):** [name withheld] '26 & [name withheld] '26 — **5th place,
+Public Forum Debate**; [name withheld] '26 — **Quarterfinalist, Congressional Debate (House)**;
+[name withheld] '26 & [name withheld] '26 — 25th, Public Forum; [name withheld] '26 — 33rd, World
 Schools Debate.
 
 **It is curricular, not just a club** — and the courses carry a competition mandate. Verbatim:
@@ -643,7 +641,7 @@ of the year or three tournaments over the course of a semester." Courses sit in 
 **Communications & Global Leadership** department: Introduction to Speech and Debate (9–12),
 Advanced Speech and Advanced Debate (10–12).
 
-> `TO VERIFY` — an unsourced snippet referencing a "Luke Tillitski, Charlotte Latin, 2018 national
+> `TO VERIFY` — an unsourced snippet referencing a "[name withheld], Charlotte Latin, 2018 national
 > champion" surfaced during research but **could not be corroborated** against speechanddebate.org.
 > It is **deliberately excluded** from the ledger above. Do not use it without verification.
 
@@ -670,8 +668,7 @@ Advanced Speech and Advanced Debate (10–12).
 required and not school-wide.**
 
 - **Biomedical Internship Program** — partnership with **Atrium Health's Carolinas Rehabilitation**
-  and **The Pearl** innovation district. **Six seniors** (Class of 2026): Scarlett Black, Karlin
-  Smith, Caroline Uys, Marisol Wickham, Aaron Dunnigan, Daniel Lokas. Students **design and
+  and **The Pearl** innovation district. **Six seniors** (Class of 2026): [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld]. Students **design and
   manufacture assistive devices for patients in wheelchairs**, apply data science to treatment
   outcomes, and shadow clinicians. Dubick, verbatim: "By the time students reach phase three, we
   think they're ready to start working on real-world problems," and "Two students came to me on the
@@ -987,8 +984,8 @@ is genuinely broad:
 
 | Path | Evidence |
 |---|---|
-| **Service academies** | **United States Air Force Academy*** and **United States Naval Academy*** — both with matriculation asterisks. Named appointments: **Graham Blanton '25** (Air Force), **Brendan Miles '25** (Navy), plus an unnamed Naval Academy appointment in the Class of 2023. **West Point is ABSENT** from the 2023–25 list |
-| **ROTC** | **Colin Degenhardt '24** — National ROTC Scholarship **worth over $154,000** |
+| **Service academies** | **United States Air Force Academy*** and **United States Naval Academy*** — both with matriculation asterisks. Named appointments: **[name withheld] '25** (Air Force), **[name withheld] '25** (Navy), plus an unnamed Naval Academy appointment in the Class of 2023. **West Point is ABSENT** from the 2023–25 list |
+| **ROTC** | **[name withheld] '24** — National ROTC Scholarship **worth over $154,000** |
 | **Art & design schools / conservatory-adjacent** | **Ringling College of Art and Design***, **University of North Carolina School of the Arts*** (both matriculated), plus Savannah College of Art and Design, School of the Art Institute of Chicago, School of the Museum of Fine Arts, Parsons Paris at The New School, Berklee-adjacent none. **No dedicated music conservatory** (Juilliard, Curtis, New England, Berklee) appears on the 2023–25 list |
 | **International universities** | **11 institutions** — with matriculation asterisks at **McGill***, **University of Toronto***, **University of St Andrews***, **University of Amsterdam***, **The University of Queensland***; accepted-only at Imperial College London, King's College London, University College London, Leiden University, Duke Kunshan University, Parsons Paris |
 
@@ -1052,10 +1049,10 @@ is genuinely broad:
 - College Counseling page ("Arts in College" session; "both in the United States and abroad"; the
   absence of gap-year, military and international advising):
   https://www.charlottelatin.org/academics/college-counseling
-- 2025 Honors and Awards Ceremony (Air Force Academy — Graham Blanton '25; Naval Academy —
-  Brendan Miles '25):
+- 2025 Honors and Awards Ceremony (Air Force Academy — [name withheld] '25; Naval Academy —
+  [name withheld] '25):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2025-honors-and-awards-ceremony
-- 2024 Honors and Awards Ceremony (National ROTC Scholarship over $154,000 — Colin Degenhardt '24):
+- 2024 Honors and Awards Ceremony (National ROTC Scholarship over $154,000 — [name withheld] '24):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2024-honors-and-awards-ceremony
 
 ---
@@ -1091,7 +1088,7 @@ ledger across 2023–25. The profile's candid warning that "**many fine math stu
 
 **5. Recognition and merit outcomes are documented with named students.** **12 National Merit
 Finalists and 18 Commended** in the Class of 2026 with **five National Merit Scholarship winners
-named**; a full-ride **Johnson Scholarship at Washington & Lee** (Kelsey Sciacca '26); named
+named**; a full-ride **Johnson Scholarship at Washington & Lee** ([name withheld] '26); named
 service-academy appointments; a **$154,000+ National ROTC Scholarship**. The Class of 2023 reported
 **231 merit scholarships totaling more than $13 million**, with **48 students offered over $100,000
 each**. *(Cards 1 and 3)*
@@ -1183,11 +1180,11 @@ applications, and portfolios or auditions?** None of these appear in your publis
 - Global Studies (seven sister schools; no certificate or diploma):
   https://www.charlottelatin.org/leading-programs/global-studies-and-travel-opportunities
 - 2026 Upper School Honors and Awards Ceremony (12 Finalists, 18 Commended, five National Merit
-  Scholarship winners named; Johnson Scholarship — Kelsey Sciacca '26):
+  Scholarship winners named; Johnson Scholarship — [name withheld] '26):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2026-upper-school-honors-and-awards-ceremony
-- 2025 Honors and Awards Ceremony (service academy appointments — Blanton '25, Miles '25):
+- 2025 Honors and Awards Ceremony (service academy appointments — [name withheld], [name withheld]):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2025-honors-and-awards-ceremony
-- 2024 Honors and Awards Ceremony (National ROTC Scholarship over $154,000 — Degenhardt '24):
+- 2024 Honors and Awards Ceremony (National ROTC Scholarship over $154,000 — [name withheld]):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/2024-honors-and-awards-ceremony
 - Commencement, Class of 2023 (231 merit scholarships, >$13 million, 48 students over $100,000):
   https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/commencement-exercises-for-the-class-of-2023

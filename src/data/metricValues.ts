@@ -1543,7 +1543,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '31+ Blumey noms', // 31+ Blumey Award nominations
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
       'covenant-day': '2 Blumey wins', // Best Featured Performer 2013 + Student Critic Award 2016; 8 recognitions 2013-2019
-      'carmel-christian': '2026 Blumey — Best Actress', // Anna Jernigan, Footloose; advances to the Jimmy Awards
+      'carmel-christian': '2026 Blumey — Best Actress', // [name withheld], Footloose; advances to the Jimmy Awards
       'davidson-day': null, // no signature recognition named
       'hickory-grove-christian': '2025–26 Blumey noms', // nominees/finalists both years (Seussical, The Little Mermaid); no win
       'gaston-day': '6-yr superior ratings', // chorus "superior" in regional adjudications over six years; plus UNCSA and Governor's School admissions

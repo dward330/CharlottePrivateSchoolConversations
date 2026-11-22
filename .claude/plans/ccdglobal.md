@@ -648,7 +648,7 @@ Two layers, two mechanisms. Re-read both lists first; they can grow.
 - [ ] Every `sources` URL in the new file appears in the Source URLs file as fetched or
       Wayback. Spot-check five by opening them.
 - [ ] No student, parent or trip leader is named. Grep the file for the surnames listed on
-      MS-GE and the news posts (e.g. `Gates`, `Strickland`, `Coley`, `Buford`, `Haggart`).
+      MS-GE and the news posts (names omitted: no names in the repo).
 - [ ] **Browser check** (`npm run build && npx vite preview`, real Chrome via Playwright,
       every `<details>` open):
   - `/school/charlotte-country-day/`: the Global Exposure chip and rail item sit after

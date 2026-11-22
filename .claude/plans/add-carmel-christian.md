@@ -180,7 +180,7 @@ skill. Nothing enters the app that is not traceable to one of these files.
 - `https://carmelchristian.org/apps/news/show_news.jsp?REC_ID=791781&id=0` (Blumey noms —
   Singin' in the Rain)
 - `https://www.wfae.org/arts-culture/2026-05-18/blumey-awards-winners-announced` (2026
-  Blumey **Best Actress WIN** — Anna Jernigan)
+  Blumey **Best Actress WIN** — [name withheld])
 - `https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards`
 - `https://www.axios.com/local/charlotte/2026/05/11/finalists-named-for-charlotte-s-high-school-theater-awards`
 
@@ -286,9 +286,9 @@ Logan Johnson (**UNC Asheville**). `p4-commits-2426` = **0** (top prospects took
 Walk the Class-of-2026 Athletic Signing article for the full D1 count. THIN: coaches roster,
 facilities (Alumni Gym referenced; no facilities page found).
 
-**The Arts.** K–12 span. **2026 Blumey Awards Best Actress WIN** — Anna Jernigan (Ariel in
-*Footloose*); plus Best Actor finalist James Coleman (Ren) and a Best Choreography nom for
-*Footloose*. Earlier Blumey noms: Darien Pisacano (Best Actress), Dylan Wilson (Best Actor)
+**The Arts.** K–12 span. **2026 Blumey Awards Best Actress WIN** — [name withheld] (Ariel in
+*Footloose*); plus Best Actor finalist [name withheld] (Ren) and a Best Choreography nom for
+*Footloose*. Earlier Blumey noms: [name withheld] (Best Actress), [name withheld] (Best Actor)
 for *Singin' in the Rain*. 2024-25 season: *Seussical KIDS* (5th gr), *Lion King Jr* (MS),
 *Oklahoma!* (HS). Ensembles confirmed: band, choir, student worship band (no orchestra
 confirmed; no named-ensemble roster published). Advanced-arts-course count and arts

@@ -2237,7 +2237,7 @@ Keyed by string **and** locale, per the rule #190 established.
 | `Lower School Courses` | `te` | Division title; `te` keeps these (#193). **Note the asymmetry:** the same string is a genuine LEAK in `fa`, whose two sibling division titles are translated. |
 | `History / Social Studies` | `te` | Division/course title; `te` keeps these (#193). Also a LEAK in `fa` — same asymmetry. |
 | `Cross country / track` | `te` | Bare sport name as a roster identifier (#193). |
-| `**6** Finalists · **16** Commended · 1 National Merit Scholar (Evan Li ’24)` | `te` | Bare National Merit award-tier string — see the convention below. |
+| `**6** Finalists · **16** Commended · 1 National Merit Scholar ([name withheld] ’24)` | `te` | Bare National Merit award-tier string — see the convention below. |
 | `25 Semifinalists · 34 Commended · 7 National Hispanic Scholars` | `te` | Same class. |
 | `34 Semifinalists · 33 Commended · 2 National Achievement Semifinalists` | `te` | Same class. |
 | `**14** Finalists · **48** Commended Scholars` | `te` | Same class. |

@@ -1,5 +1,5 @@
 # Charlotte Preparatory School — Sports
-> Distilled from 2 source document(s) in `source-material/sports/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 2 source document(s) in `source-material/sports/charlotte-prep/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Selected Results and Coaching, Sports Offered and Participation
 
 
@@ -104,14 +104,14 @@ From "Playing it Forward: Prep Grads Give Back", September 11, 2024 (https://cha
 
 Retrieved 2026-10-19. Raw HTML was fetched with curl and converted to text locally; quotations are character-for-character from page source. Wayback captures were fetched in raw (id_) form.
 
-**What was searched.** All 113 news stories in the school's sitemap (https://charlotteprep.org/cache/sitemap.xml.gz, 178 URLs in all) were downloaded and every story body was searched for QCC, Queen City, conference, tournament, champion, undefeated, coach, athletic director and each sport name. Only the two championship stories and the February 6, 2024 student story (https://charlotteprep.org/community/news/stories/lila-s-prep-story-finding-my-voice, cited here only because the slug carries a student's first name) report a result. All 100 profiles in the staff directory (https://charlotteprep.org/about/faculty-staff-directory, each at ?id=N) were downloaded and searched for coach, athlet and every sport name. Only Renee Suttles holds an athletics title; Amber O'Connell's biography mentions cross country coaching; other hits were hobbies. The CDX listing for charlotteprep.org* was used to find the archived athletics, Fast Facts, staff and field pages.
+**What was searched.** All 113 news stories in the school's sitemap (https://charlotteprep.org/cache/sitemap.xml.gz, 178 URLs in all) were downloaded and every story body was searched for QCC, Queen City, conference, tournament, champion, undefeated, coach, athletic director and each sport name. Only the two championship stories and the February 6, 2024 student story (https://charlotteprep.org/community/news/stories/name-withheld, cited here only because the slug carries a student's first name) report a result. All 100 profiles in the staff directory (https://charlotteprep.org/about/faculty-staff-directory, each at ?id=N) were downloaded and searched for coach, athlet and every sport name. Only Renee Suttles holds an athletics title; Amber O'Connell's biography mentions cross country coaching; other hits were hobbies. The CDX listing for charlotteprep.org* was used to find the archived athletics, Fast Facts, staff and field pages.
 
 **Source URLs**
 - https://charlotteprep.org/community/news/stories/tigers-win-qcc-championship
 - https://charlotteprep.org/community/news/stories/victory-for-girls-volleyball
 - https://charlotteprep.org/community/news/stories/playing-it-forward-prep-grads-give-back
 - https://charlotteprep.org/community/news/stories/summer-of-growth-teachers-learning-leading-and-innovating
-- https://charlotteprep.org/community/news/stories/lila-s-prep-story-finding-my-voice
+- https://charlotteprep.org/community/news/stories/name-withheld
 - https://charlotteprep.org/about/faculty-staff-directory?id=455452
 - https://charlotteprep.org/about/faculty-staff-directory?id=455426
 - https://charlotteprep.org/about/faculty-staff-directory
@@ -274,7 +274,7 @@ Neither lacrosse nor flag football appears on the current site. Lower school int
 
 Retrieved 2026-10-19. Raw HTML was fetched with curl (desktop browser user-agent) and converted to text locally with a Python HTML parser, so every quotation above is character-for-character from page source. Wayback captures were fetched in raw form (the id_ URL suffix) and parsed the same way.
 
-**Inventory.** All 178 URLs in https://charlotteprep.org/cache/sitemap.xml.gz (linked from https://charlotteprep.org/sitemap.xml) were downloaded, including all 113 news stories. Every story body was searched for: athlet, basketball, soccer, volleyball, tennis, golf, cross country, cheer, coach, Founders Field, gym, QCC, conference, tournament, champion, undefeated, athletic director, intramural, flag football, lacrosse, field. Only four stories are filed under the Athletics news category: tigers-win-qcc-championship, victory-for-girls-volleyball, playing-it-forward-prep-grads-give-back and an eighth grader's first-person story of February 6, 2024 (https://charlotteprep.org/community/news/stories/lila-s-prep-story-finding-my-voice — a student's first name is in the slug, so it is cited here only).
+**Inventory.** All 178 URLs in https://charlotteprep.org/cache/sitemap.xml.gz (linked from https://charlotteprep.org/sitemap.xml) were downloaded, including all 113 news stories. Every story body was searched for: athlet, basketball, soccer, volleyball, tennis, golf, cross country, cheer, coach, Founders Field, gym, QCC, conference, tournament, champion, undefeated, athletic director, intramural, flag football, lacrosse, field. Only four stories are filed under the Athletics news category: tigers-win-qcc-championship, victory-for-girls-volleyball, playing-it-forward-prep-grads-give-back and an eighth grader's first-person story of February 6, 2024 (https://charlotteprep.org/community/news/stories/name-withheld — a student's first name is in the slug, so it is cited here only).
 
 **Wayback.** The CDX listing for charlotteprep.org* (2,898 rows, collapse=urlkey) was grepped for athletics, fast facts, field, sport, coach, campus, tiger and directory URLs. All Fast Facts captures were listed by digest (2023-01-30, 2023-03-01, 2023-03-08, 2023-06-28, 2023-07-08, 2024-11-24, 2026-02-26); the July 2023 and November 2024 captures bracket the 80% to 70+% and 10 to 11 changes. The January 2023 capture is a JavaScript shell with no figures.
 
@@ -340,8 +340,8 @@ Retrieved 2026-10-19. Raw HTML was fetched with curl (desktop browser user-agent
 - https://charlotteprep.org/admissions/tuition-fees
 - https://charlotteprep.org/cache/sitemap.xml.gz
 - https://charlotteprep.org/community/news/stories/charlotte-prep-presents-willy-wonka-jr
-- https://charlotteprep.org/community/news/stories/lila-s-prep-story-finding-my-voice
 - https://charlotteprep.org/community/news/stories/message-from-head-of-school-coffee
+- https://charlotteprep.org/community/news/stories/name-withheld
 - https://charlotteprep.org/community/news/stories/playing-it-forward-prep-grads-give-back
 - https://charlotteprep.org/community/news/stories/prep-players-present-alice
 - https://charlotteprep.org/community/news/stories/summer-of-growth-teachers-learning-leading-and-innovating

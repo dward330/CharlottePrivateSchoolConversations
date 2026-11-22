@@ -10,8 +10,7 @@ deep-research dossier (transcribed alongside this file as
 every fact below was re-read on the live page. Where the two disagree, the live site wins
 (see "Corrections to the deep-research dossier" at the end).
 
-No student is named in this file. The school's pages name students (a "Leighton's ARC
-Story" video link, students quoted in news stories); those names are deliberately not
+No student is named in this file. The school's pages name students (a "[name withheld]" video link, students quoted in news stories); those names are deliberately not
 recorded.
 
 ## Source URLs

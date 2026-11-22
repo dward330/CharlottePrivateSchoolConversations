@@ -129,7 +129,7 @@
 // 404, and Country Day's /meet-our-team spelling does not work here). Five
 // named staff, each with a title and a direct email; NO individual phone
 // numbers or extensions are published for any of them, unlike Country Day. Do
-// not synthesize extensions. A sixth name on that page, Ethan Walker ('27),
+// not synthesize extensions. A sixth name on that page, [name withheld] ('27),
 // "Admissions Prefect", is a STUDENT leadership position published with no
 // contact details and is deliberately excluded from a staff-contact grid.
 //

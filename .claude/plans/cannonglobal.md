@@ -430,9 +430,7 @@ Then research prose, per `PROSE_TRANSLATED` (mechanism:
 - [ ] `grep -nE '(January|February|March|April|May|June|July|August|September|October|November|December) [0-9]' src/data/internationalTravel/cannon.ts` — **no hits** (no signup card)
 - [ ] `grep -in "not stated\|not published" src/data/internationalTravel/cannon.ts` — hits only inside `verdict`
 - [ ] `grep -n "Global Education Certificate\|at least two" src/data/internationalTravel/cannon.ts` — **no hits**
-- [ ] No person is named: grep the file for `Arriaga`, `Taylor`, `Garcia`, `Less`, `Oswald`,
-      `Mattsson`, `Grady`, `Guiselle`, `Wang`, `Sherrill`, `Fernandez`, `Storr`, `Diskin`,
-      `Riley ` (the endowment name "John Riley Endowment" is allowed only inside `verdict`) — no other hits
+- [ ] No person is named: grep the file for the names on the source pages (list omitted: no names in the repo), and for `Riley ` (the endowment name "John Riley Endowment" is allowed only inside `verdict`) — no other hits
 - [ ] Every `sources` URL is a fetched or Wayback row of the Source URLs file; spot-check five
 - [ ] **Browser check** (`npm run build && npx vite preview`, real Chrome via Playwright,
       every `<details>` open):

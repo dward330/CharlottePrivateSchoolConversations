@@ -63,7 +63,7 @@ no JavaScript execution required. `curl` returns HTTP 200 and 61,995 bytes.
    `<figure class="fsImageCaptioned">`, appearing **before** the first body paragraph.
    It is well over 60 characters, so a plain "first substantive `<p>`" rule returns
 
-   > "Pictured: Brooks Hinton '27 with Lower School Freedom School scholars."
+   > "Pictured: [name withheld] with Lower School Freedom School scholars."
 
    as the article preview — grammatical, plausible, and not what the story is about.
    Affected the *Inspired to Serve* (Jul 21) and *Prestigious National Recognition*
@@ -79,7 +79,7 @@ no JavaScript execution required. `curl` returns HTTP 200 and 61,995 bytes.
 2026-08-24  Where Global Studies Meets Entrepreneurship: Inside PD's Innovative Summer Course
 2026-08-10  Providence Day Expands Nutrition Resources for Families
 2026-07-30  Celebrating 25 Years of Senior Venture in Boston and Cape Cod
-2026-07-21  Inspired to Serve: Brooks Hinton '27 Builds Math Website for Freedom School Scholars
+2026-07-21  Inspired to Serve: [name withheld] Builds Math Website for Freedom School Scholars
 2026-07-07  Providence Day Student Builds Statewide Network for Latino Student Leaders
 2026-07-02  Celebrating 20 Years of Partnership with Charlotte Chinese Academy
 2026-06-23  Providence Day Earns Prestigious National Recognition in Global Education

@@ -1,5 +1,5 @@
 # Covenant Day School — College Support
-> Distilled from 9 source document(s) in `source-material/college-support/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 9 source document(s) in `source-material/college-support/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and the Whole Class, Institutional Leverage, Outcomes, Redesign Research 2026, Standing Out, UNC System Admissions
 
 
@@ -581,7 +581,7 @@ ranked-bucket college on any school's list carries its rank label.
 - **The rigor narrative** — AP gating plus the required-exam policy (every AP
  student sits the exam; 96% score 3+) makes the school's AP grades legible to
  admissions readers in a way open-enrollment AP programs are not.
-- **Mock Trial + courtroom-artist results** — Cornelia Knight (Covenant Day School
+- **Mock Trial + courtroom-artist results** — [name withheld] (Covenant Day School
  Blue team) won the NC Mock Trial courtroom-artist regional (Hickory) and was 2025
  **state runner-up** — see the Student Clubs research for sourcing.
 

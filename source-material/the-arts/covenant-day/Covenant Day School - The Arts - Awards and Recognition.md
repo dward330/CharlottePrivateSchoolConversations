@@ -18,12 +18,12 @@
 - 2016 — **won the Student Critic Award**.
 - 2017 — Best Ensemble nomination.
 - 2018 — two nominations (Featured Performer, Best Supporting Actress).
-- 2019 — Best Actress nomination (Evan Bertram as Georgia Hendricks in
+- 2019 — Best Actress nomination ([name withheld] as Georgia Hendricks in
   ***Curtains*** — the one CDS production title recoverable from Blumey coverage).
 
 ### National Shakespeare Competition
 
-- 2025 — **Caroline Garbarino named Finalist** (school's own theater page).
+- 2025 — **[name withheld] named Finalist** (school's own theater page).
 
 ### Music in the Parks adjudications
 

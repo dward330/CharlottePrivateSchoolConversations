@@ -1,5 +1,5 @@
 # Davidson Day School — Student Clubs
-> Distilled from 11 source document(s) in `source-material/student-clubs/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 11 source document(s) in `source-material/student-clubs/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** AFAR Archaeology and Global Studies, Academic Recognition and Competition, Club Catalog and Overview, Community Engagement Web Check 2026, Diversity Belonging and Student Leadership, Honor Societies Web Check 2026, NotebookLM Prompt, Publications and Student Media, Service and Community Engagement, Signature Traditions and Student Life, Clubs Redesign Deep Research
 
 
@@ -583,14 +583,14 @@ Citizenship Initiative
 ### "Individual activity, not a club" — VERIFIED
 
 - **Longevity LKN** — a student-**founded**, student-run **501(c)(3) nonprofit**, not a
- school club. Free blood-pressure screenings across Lake Norman; founder Adam Rezai
- (junior), co-presidents Alexander Ajjan and Piper Pritchard. **Over 100 community members
+ school club. Free blood-pressure screenings across Lake Norman; founder [name withheld]
+ (junior), co-presidents [name withheld] and [name withheld]. **Over 100 community members
  screened**, more than half showing high readings. Partnered with FeedNC. →
  https://www.davidsonday.org/p/~board/all-blogs/post/making-a-difference-one-conversation-at-a-time
 - **AFAR archaeology** — **13 students** excavated the Adam Spach Rock House (Nov 2024)
  alongside five archaeologists from the Environmental Research Group; "first high school
  students to work on an archaeological site with the North Carolina State Historic
- Preservation Office." Parent liaisons Jim and Christy Pritchard. Whether this is a club or
+ Preservation Office." Parent liaisons Jim and Christy [name withheld]. Whether this is a club or
  a program is **not defined** on the page. →
  https://www.davidsonday.org/p/~board/all-blogs/post/making-history-uncovering-history-davidson-day-afar-and-the-adam-spach-rock-house
 - **Patriot Pals** — a peer-mentorship tradition, not a service club.

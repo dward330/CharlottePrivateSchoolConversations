@@ -1726,7 +1726,7 @@ ORTUGAL
 ===== PAGE 33 =====
 
 ```text
-sef! Justice Wehunt
+sef! [name withheld]
 Students in History courses learn to
 interpret primary and secondary sources,
 to think critically, and to write analytically
@@ -3241,7 +3241,7 @@ Drop D
 12:44-1:34 F
 1:37-2:27 G
 2:30 - 3:20 H
-1- Nicholas
+[name withheld]
 IBL
 MIDDLE SCHOOL TA (Teacher's
 Assistant)

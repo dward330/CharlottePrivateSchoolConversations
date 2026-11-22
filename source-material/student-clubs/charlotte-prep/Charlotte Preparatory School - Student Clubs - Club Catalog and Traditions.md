@@ -67,8 +67,8 @@ Source URLs:
 - https://charlotteprep.org/support/the-prep-fund
 - https://charlotteprep.org/about/the-prek-8-model ("serving on student government")
 - https://charlotteprep.org/community/news/stories/how-our-middle-schoolers-become-leaders
-- https://charlotteprep.org/community/news/stories/mila-s-prep-story
-- https://charlotteprep.org/community/news/stories/liam-s-prep-story
+- https://charlotteprep.org/community/news/stories/name-withheld
+- https://charlotteprep.org/community/news/stories/name-withheld
 - https://charlotteprep.org/community/news/stories/support-for-hurricane-helene-recovery
 - https://charlotteprep.org/community/news/stories/model-un-club-awarded-at-conference
 - https://charlotteprep.org/community/news/stories/prep-players-present-alice

@@ -204,11 +204,11 @@ assets. **[VERIFIED]** https://www.charlottelatin.org/latinartsassociation
 - **The LAA organizes auditions** for the fall play and musical, keeps a regular meeting
   schedule, and runs arts celebrations and workshops through the year.
 - **2024-25 executive board:** President **Jen Wouters**; Vice Presidents **Carolyn Stone**
-  and **Abbe McCracken**; Treasurer **Maria Hurden**; Secretary **Ivy Babcock**; Special
+  and **[name withheld]**; Treasurer **Maria Hurden**; Secretary **Ivy Babcock**; Special
   Events **Brittany DuBose**. Each division (Lower, Middle, Upper) has **three at-large
   representatives**.
-  - Worth noting for the theatre story: **Abbe McCracken** (VP) shares a surname with
-    **Kate McCracken**, Latin's 2022 Best Actress Blumey winner — likely a parent of the
+  - Worth noting for the theatre story: **[name withheld]** (VP) shares a surname with
+    **[name withheld]**, Latin's 2022 Best Actress Blumey winner — likely a parent of the
     program's most decorated performer. **[VERIFIED names; relationship inferred, not stated]**
 - Parents join by emailing individual committee chairs directly.
 - **[NOT FOUND]** LAA budget, annual fundraising totals, or a current (2025-26 / 2026-27)
@@ -229,18 +229,18 @@ acting award in the program**. But its recognition is concentrated in the 2010s 
 
 | Year | Latin's show | Result |
 |---|---|---|
-| 2012 (inaugural, 1st annual) | *Joseph and the Amazing Technicolor Dreamcoat* | **Nominated: Wells Fargo Best Musical**; **Nominated: Best Actor — Will Branner as Joseph** |
-| 2022 (9th annual) | *Bright Star* | **WON: Best Actress — Kate McCracken as "Alice Murphy"**; **WON: Best Featured Performer — Dominick Charles as "Daryl"** |
-| 2025 | *The Drowsy Chaperone* | **Nominated: Best Student Stage Manager — Claire Addison** |
+| 2012 (inaugural, 1st annual) | *Joseph and the Amazing Technicolor Dreamcoat* | **Nominated: Wells Fargo Best Musical**; **Nominated: Best Actor — [name withheld] as Joseph** |
+| 2022 (9th annual) | *Bright Star* | **WON: Best Actress — [name withheld] as "Alice Murphy"**; **WON: Best Featured Performer — [name withheld] as "Daryl"** |
+| 2025 | *The Drowsy Chaperone* | **Nominated: Best Student Stage Manager — [name withheld]** |
 | 2026 (ceremony May 17, 2026, Belk Theater) | *Cabaret* | **Competed; received NO nominations in any category** |
 
 Sources:
-- Inaugural 2012 nominees (Best Musical + Will Branner, Best Actor):
+- Inaugural 2012 nominees (Best Musical + [name withheld], Best Actor):
   https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announces-the-inaugural-blumey-awards-nominees
-- 2022 winners (Kate McCracken, Best Actress; Dominick Charles, Best Featured Performer, both
+- 2022 winners ([name withheld], Best Actress; [name withheld], Best Featured Performer, both
   in *Bright Star*):
   https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announced-the-9th-annual-blumey-awards-winners
-- 2025 nominees (Claire Addison, Best Student Stage Manager, *The Drowsy Chaperone*):
+- 2025 nominees ([name withheld], Best Student Stage Manager, *The Drowsy Chaperone*):
   https://www.blumenthalarts.org/news/detail/2025-blumey-awards-nominations
 - 2026 final nominees — Latin listed among the **59 competing schools** with *Cabaret*, with
   **no nomination in any category**:
@@ -354,7 +354,7 @@ https://www.charlottelatin.org/the-arts/performing
 
 **All-State Honors Band — 2026 [VERIFIED, with full detail]**
 
-- **Sofia Rodrigues Angrisano**, **eighth grade**, **clarinet**.
+- **[name withheld]**, **eighth grade**, **clarinet**.
 - Auditioned successfully for the **South Central District Band Association** honor band and
   earned a seat in the **All-State Honors Band**, recognized by the **NC Music Educators
   Association**.
@@ -435,10 +435,10 @@ strengths. **[VERIFIED]** https://www.charlottelatin.org/the-arts/arts-calendar
   development opportunities for personal artistic voice," emphasizing artistic process and
   historical context over isolated activities. **[VERIFIED]**
   https://www.charlottelatin.org/the-arts/student-art-gallery-clone
-  - Student artists listed there include **Hope Gottschling** (Upper School),
-    **Madison Nabors** (Upper School, multiple entries), **Sloan Ellison** (Upper School,
-    multiple entries), **Marion DuBose** (Upper School, multiple entries), and
-    **Ellen Chapman** (Middle School, multiple entries). **[VERIFIED]**
+  - Student artists listed there include **[name withheld]** (Upper School),
+    **[name withheld]** (Upper School, multiple entries), **[name withheld]** (Upper School,
+    multiple entries), **[name withheld]** (Upper School, multiple entries), and
+    **[name withheld]** (Middle School, multiple entries). **[VERIFIED]**
 - **Arts Walk — permanent campus art collection.** **[VERIFIED]** The Arts Walk page carries a
   substantial photographed collection of named works installed around campus. Titles readable
   from the page's own image assets include **Wingspan**, **The Hawk**, **The Finish Line**,
@@ -456,26 +456,26 @@ mention"** — the visual arts page hosts a set of images filed under a `/Schola
 path, which is how the school archives its Scholastic-recognized work. **[VERIFIED]**
 https://www.charlottelatin.org/the-arts/visual
 
-- **Hope Gottschling '24 — fashion work.** **[VERIFIED]** The arts landing page hosts her
-  piece as `24_Gottschling_Hope_SilkStrength_FashionLarge.jpg` — filed as class of **'24**,
+- **[name withheld] '24 — fashion work.** **[VERIFIED]** The arts landing page hosts her
+  piece as `[name withheld]` — filed as class of **'24**,
   titled something on the order of **"Silk Strength,"** categorized **Fashion**. The
   sewn-and-photographed fashion-portfolio framing is consistent with the asset name.
   The specific **award level (honorable mention)** is **[NOT FOUND]** on Latin's site — the
   gallery page lists student names without award levels, so treat "honorable mention" as
   unconfirmed by this pass.
   https://www.charlottelatin.org/the-arts
-- **Ella Hennessy '28 — "Strike," Photography — GOLD KEY.** **[VERIFIED]** Asset filed as
-  `CopyofEllaHennessy_Strike_Photography_co28_GoldKey.jpg` on the visual arts page. **This is
+- **[name withheld] '28 — "Strike," Photography — GOLD KEY.** **[VERIFIED]** Asset filed as
+  `[name withheld]` on the visual arts page. **This is
   the highest documented Scholastic honor found for Latin in this pass** — a Gold Key is the
-  top regional award and advances to national judging. Worth surfacing ahead of Gottschling.
+  top regional award and advances to national judging. Worth surfacing ahead of [name withheld].
   https://www.charlottelatin.org/the-arts/visual
-- **Anjali Rao — Fashion, 2023.** **[VERIFIED]** Asset: `Copyof27_Rao_Anjali_Fashion_2023.jpg`
+- **[name withheld] — Fashion, 2023.** **[VERIFIED]** Asset: `[name withheld]`
   (class of '27). https://www.charlottelatin.org/the-arts/visual
-- **Cary Mone — "South African Landscape," Oil Painting, 2023.** **[VERIFIED]** Asset:
-  `CopyofMone_Cary_SouthAfricanLandscape_OilPainting_2023.jpg`.
+- **[name withheld] — "South African Landscape," Oil Painting, 2023.** **[VERIFIED]** Asset:
+  `[name withheld]`.
   https://www.charlottelatin.org/the-arts/visual
-- **Madison Nabors '25 — Drawing, 2023.** **[VERIFIED]** Asset:
-  `Copyof25_Nabors_Madison_Drawing_20236.jpg`. https://www.charlottelatin.org/the-arts/visual
+- **[name withheld] '25 — Drawing, 2023.** **[VERIFIED]** Asset:
+  `[name withheld]`. https://www.charlottelatin.org/the-arts/visual
 
 **Caveat on method:** the student names, titles, media, years and the Gold Key level above are
 read from **image filenames in the page HTML**, which is reliable for identity but not a
@@ -500,8 +500,8 @@ list with Gold Key / Silver Key / Honorable Mention counts by year.
 
 ### Reasons the arts program holds up (concrete)
 
-1. **A real Blumey win at the top of the region's marquee category.** Kate McCracken took
-   **Best Actress at the 2022 Blumeys** for *Bright Star*, and Dominick Charles took **Best
+1. **A real Blumey win at the top of the region's marquee category.** [name withheld] took
+   **Best Actress at the 2022 Blumeys** for *Bright Star*, and [name withheld] took **Best
    Featured Performer** the same night. In a 59-school regional field, a Best Actress win is
    the single most competitive individual honor available, and Latin has one.
    https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announced-the-9th-annual-blumey-awards-winners
@@ -509,8 +509,7 @@ list with Gold Key / Silver Key / Honorable Mention counts by year.
 2. **A genuinely articulated technical-theatre track — rare and undersold.** Backstage tech
    starts in **Grade 6** (a year *before* the acting course), and the Upper School sequence
    runs **Stagecraft I → Stagecraft II → Advanced Design**, plus an after-school stagecraft
-   option. It produced a **2025 Blumey nomination for Best Student Stage Manager (Claire
-   Addison, *The Drowsy Chaperone*)**. For a student who wants to build rather than perform,
+   option. It produced a **2025 Blumey nomination for Best Student Stage Manager ([name withheld], *The Drowsy Chaperone*)**. For a student who wants to build rather than perform,
    this is a stronger offering than most peer schools publish.
 
 3. **An unusual independent-study on-ramp in visual art at Grade 8.** Eighth graders
@@ -528,10 +527,10 @@ list with Gold Key / Silver Key / Honorable Mention counts by year.
    material rather than only crowd-pleasers.
    https://www.charlottelatin.org/the-arts/arts-calendar
 
-5. **Documented Scholastic Art & Writing recognition including a Gold Key** (Ella Hennessy
+5. **Documented Scholastic Art & Writing recognition including a Gold Key** ([name withheld]
    '28, "Strike," Photography), spanning multiple media and multiple years — fashion, oil
    painting, drawing, photography. Plus **an eighth grader earning an All-State Honors Band
-   chair (Sofia Rodrigues Angrisano, clarinet, 11th of 20, 2026)** — statewide validation
+   chair ([name withheld], clarinet, 11th of 20, 2026)** — statewide validation
    achieved while still in Middle School.
 
 6. **Sold-out demand and box-office infrastructure.** *Cabaret* sold out with a managed
@@ -558,7 +557,7 @@ list with Gold Key / Silver Key / Honorable Mention counts by year.
 4. **"There's one band, one orchestra, and one choir per division with no auditioned or
    tiered ensembles published — no jazz band, no a cappella, no chamber or wind ensemble. How
    does an advanced player who's already at All-State level keep progressing here rather than
-   coasting?"** (Sofia's case makes this concrete.)
+   coasting?"** ([name withheld]'s case makes this concrete.)
 
 5. **"How is the Fab Lab actually used by the arts department, as opposed to Innovation &
    Design? Can you walk me through one project from the last year where a student combined
@@ -623,11 +622,11 @@ From https://www.charlottelatin.org/the-arts/performing:
   - https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1756153441/charlottelatin/squjhjlhahwp3yrmvqb3/CLFall23__K3A7308.jpg
   - https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1740112463/charlottelatin/gp3c0yaoqs5gxcdshxo9/RS3453_CL-Fall-23__K3A6399.jpg
 
-### (c) Studio, gallery, student artwork, and the Gottschling fashion work
+### (c) Studio, gallery, student artwork, and the [name withheld] fashion work
 
-- **Hope Gottschling '24 — "Silk Strength," Fashion** (the piece referenced in the baseline;
+- **[name withheld] '24 — "Silk Strength," Fashion** (the piece referenced in the baseline;
   found on the arts landing page, https://www.charlottelatin.org/the-arts):
-  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_3/v1756255762/charlottelatin/zqucgp3mpfzkwsvwelwa/24_Gottschling_Hope_SilkStrength_FashionLarge.jpg
+  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_3/v1756255762/charlottelatin/zqucgp3mpfzkwsvwelwa/name-withheld
   (native width 906px: swap `t_image_size_3` for `f_auto,q_auto`)
 - **Richard Fletcher, Chair of Visual Arts, teaching an Upper School class**
   (https://www.charlottelatin.org/the-arts):
@@ -636,14 +635,14 @@ From https://www.charlottelatin.org/the-arts/performing:
 From https://www.charlottelatin.org/the-arts/visual — Scholastic-recognized student work
 (note the `/Scholastic/` asset path):
 
-- **Ella Hennessy '28 — "Strike," Photography, GOLD KEY:**
-  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1707852732/Scholastic/ard0bvibwiqbfed1gils/CopyofEllaHennessy_Strike_Photography_co28_GoldKey.jpg
-- **Anjali Rao '27 — Fashion, 2023:**
-  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1707852729/Scholastic/m5j1lnxs46xt8qvsfcm9/Copyof27_Rao_Anjali_Fashion_2023.jpg
-- **Cary Mone — "South African Landscape," Oil Painting, 2023:**
-  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1707852729/Scholastic/tr2xc5hzu6gpszhxqrir/CopyofMone_Cary_SouthAfricanLandscape_OilPainting_2023.jpg
-- **Madison Nabors '25 — Drawing, 2023:**
-  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1707852730/Scholastic/gpdxiehs0i3zkbzjgqdw/Copyof25_Nabors_Madison_Drawing_20236.jpg
+- **[name withheld] '28 — "Strike," Photography, GOLD KEY:**
+  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1707852732/Scholastic/ard0bvibwiqbfed1gils/name-withheld
+- **[name withheld] '27 — Fashion, 2023:**
+  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1707852729/Scholastic/m5j1lnxs46xt8qvsfcm9/name-withheld
+- **[name withheld] — "South African Landscape," Oil Painting, 2023:**
+  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1707852729/Scholastic/tr2xc5hzu6gpszhxqrir/name-withheld
+- **[name withheld] '25 — Drawing, 2023:**
+  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1707852730/Scholastic/gpdxiehs0i3zkbzjgqdw/name-withheld
 
 Studio / classroom images, same page:
 
@@ -671,15 +670,15 @@ because each sculpture's asset is named for the work:
 - **Nurkin Hawk:** https://resources.finalsite.net/images/f_auto,q_auto/v1727381424/charlottelatin/gfiii7t5y755ravjayql/Nurkin_Hawk_2.jpg
 - **Lower School art:** https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1728321760/charlottelatin/iesxlgcmfpoygzzm3cqn/LS_Art.jpg
 - Additional Arts Walk image: https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1755987622/charlottelatin/wliovrdgwikdamv5gn9m/CopyofIMG_4619.jpg
-- **"laura"** (unclear subject; asset title is a first name only): https://resources.finalsite.net/images/f_auto,q_auto/v1727206641/charlottelatin/nw15j0p4iaecnzlyltcw/laura.jpg
+- **"[name withheld]"** (unclear subject; asset title is a first name only): https://resources.finalsite.net/images/f_auto,q_auto/v1727206641/charlottelatin/nw15j0p4iaecnzlyltcw/name-withheld
 - **Edward Fox:** https://resources.finalsite.net/images/f_auto,q_auto/v1727206880/charlottelatin/rcoxksj1izdrawn2d8xq/edward_fox.jpg
 
 ### (e) All-State Honors Band news thumbnail
 
 From the news flyout present on the arts pages:
 
-- **Sofia Rodrigues Angrisano, All-State Honors Band (May 2026):**
-  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1778255195/dtmk07b9ki99fqkiucfu/sofia_all-state_thumb.jpg
+- **[name withheld], All-State Honors Band (May 2026):**
+  https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_5/v1778255195/dtmk07b9ki99fqkiucfu/name-withheld
 
 ---
 
@@ -689,7 +688,7 @@ From the news flyout present on the arts pages:
 
 1. https://www.charlottelatin.org/the-arts — arts landing page; 80%+ participation, Horne
    "creative heartbeat," Alicia Long and Richard Fletcher titles, division framing, Fab Lab
-   reference, Gottschling and Fletcher images
+   reference, [name withheld] and Fletcher images
 2. https://www.charlottelatin.org/the-arts/performing — performing arts by division,
    ensembles, Grade 5 instrument entry, Grades 7-12 theatre / 6-12 backstage, senior capstone
    film, *Cabaret* sold out, box office, Alicia Long
@@ -703,9 +702,9 @@ From the news flyout present on the arts pages:
    (10 images, no descriptive text); 1,500+ TK-12 enrollment
 7. https://www.charlottelatin.org/the-arts/artswalk — permanent campus art collection
 8. https://www.charlottelatin.org/the-arts/student-art-gallery-clone — online Student Art
-   Gallery; student names by division including Hope Gottschling
+   Gallery; student names by division including [name withheld]
 9. https://www.charlottelatin.org/about/school-news/news-details/~board/kudos/post/latin-eighth-grader-earns-seat-in-all-state-honors-band
-   — Sofia Rodrigues Angrisano, clarinet, 11th of 20, UNCG audition, Pam Sweer quote,
+   — [name withheld], clarinet, 11th of 20, UNCG audition, Pam Sweer quote,
    May 9, 2026
 10. `https://www.charlottelatin.org/arts/facilities` — **DEAD LINK (HTTP 404)**. A search-result
     snippet attributed "Thies Auditorium" and "Anne's Black Box Theater" to this URL, but it
@@ -717,12 +716,11 @@ From the news flyout present on the arts pages:
 
 12. https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announces-the-inaugural-blumey-awards-nominees
     — 2012 inaugural: Latin's *Joseph and the Amazing Technicolor Dreamcoat* nominated for
-    Wells Fargo Best Musical; Will Branner nominated Best Actor
+    Wells Fargo Best Musical; [name withheld] nominated Best Actor
 13. https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announced-the-9th-annual-blumey-awards-winners
-    — 2022: Kate McCracken WON Best Actress (*Bright Star*); Dominick Charles WON Best
+    — 2022: [name withheld] WON Best Actress (*Bright Star*); [name withheld] WON Best
     Featured Performer
-14. https://www.blumenthalarts.org/news/detail/2025-blumey-awards-nominations — 2025: Claire
-    Addison nominated Best Student Stage Manager (*The Drowsy Chaperone*)
+14. https://www.blumenthalarts.org/news/detail/2025-blumey-awards-nominations — 2025: [name withheld] nominated Best Student Stage Manager (*The Drowsy Chaperone*)
 15. https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees — 2026: Latin listed
     among 59 competing schools with *Cabaret*; **no nominations**; ceremony May 17, 2026,
     Belk Theater
@@ -759,7 +757,7 @@ From the news flyout present on the arts pages:
 **Music honors**
 
 - All-State **Chorus** and All-State **Orchestra** selections — none found, any year.
-- Additional All-State **Band** students beyond Sofia Rodrigues Angrisano (2026).
+- Additional All-State **Band** students beyond [name withheld] (2026).
 - **NCAIS** honors ensemble participation.
 - **Adjudicated ratings** (MPA/festival Superior ratings) — Latin publishes no festival results.
 - **Tri-M Music Honor Society** chapter — no evidence one exists at Latin.
@@ -791,8 +789,8 @@ From the news flyout present on the arts pages:
 **Visual arts recognition**
 
 - A **school-published Scholastic Art & Writing results list** with award tiers and counts by
-  year. Award levels above were inferred from image filenames — reliable for Ella Hennessy's
-  **Gold Key**, but the baseline claim that **Hope Gottschling's award was an honorable
+  year. Award levels above were inferred from image filenames — reliable for [name withheld]
+  **Gold Key**, but the baseline claim that **[name withheld]'s award was an honorable
   mention is NOT confirmed** by anything on Latin's site.
 - National-level (as opposed to regional) Scholastic medals.
 - Whether the **Student Art Gallery** is refreshed annually and how selection works.

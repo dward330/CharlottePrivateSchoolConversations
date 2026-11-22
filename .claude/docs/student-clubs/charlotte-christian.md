@@ -1,5 +1,5 @@
 # Charlotte Christian School — Student Clubs
-> Distilled from 10 source document(s) in `source-material/student-clubs/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 10 source document(s) in `source-material/student-clubs/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic and Competition Clubs, Affinity Identity and Global Awareness Groups, Clubs and Activities Landscape, Honor Societies, Leadership Governance and Student Media, Lower and Middle School Activities, NotebookLM Prompt, Service and Outreach Organizations, Special Interest and Recreational Clubs, Clubs Redesign Deep Research
 
 
@@ -586,8 +586,8 @@ built under the school's own global-awareness framing rather than an identity fr
 
 ### Knights Nations Club detail — VERIFIED
 
-Founded two years before the article by upper school students **Dailey Schenck** and
-**Gabi Martin**; incoming leader **junior David Thomas Little**. Activities include visiting
+Founded two years before the article by upper school students **[name withheld]** and
+**[name withheld]**; incoming leader **[name withheld]**. Activities include visiting
 international grocery stores, interactive games, service projects, and learning cultural
 traditions (e.g. "the ways Easter is celebrated across the globe"). No faculty sponsor,
 membership count, or countries-represented figure is published; the article carries no
@@ -841,7 +841,7 @@ School page.
 
 ### Re-verification 2026-11-20 (plan `consistency`, re-scan)
 
-- https://www.charlottechristian.com/post-details/~board/knights-headlines/post/knights-nations-club-fosters-a-friendly-and-welcoming-environment-for-upper-school-students (fetched 2026-11-20). Title: "KNIGHTS NATIONS CLUB FOSTERS A FRIENDLY AND WELCOMING ENVIRONMENT FOR UPPER SCHOOL STUDENTS". No date is shown. Quotes: "Two years ago, upper school students Dailey Schenck and Gabi Martin founded the Knights Nations Club"; "Junior David Thomas Little will lead the club next year". The article is undated, so whether the club is active in 2026–27 cannot be read from it. It is named on the Global & Cultural Groups card and in Global Exposure, but it is not in the 23-organization Upper School catalog.
+- https://www.charlottechristian.com/post-details/~board/knights-headlines/post/knights-nations-club-fosters-a-friendly-and-welcoming-environment-for-upper-school-students (fetched 2026-11-20). Title: "KNIGHTS NATIONS CLUB FOSTERS A FRIENDLY AND WELCOMING ENVIRONMENT FOR UPPER SCHOOL STUDENTS". No date is shown. Quotes: "Two years ago, upper school students [name withheld] and [name withheld] founded the Knights Nations Club"; "[name withheld] will lead the club next year". The article is undated, so whether the club is active in 2026–27 cannot be read from it. It is named on the Global & Cultural Groups card and in Global Exposure, but it is not in the 23-organization Upper School catalog.
 
 
 ---

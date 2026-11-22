@@ -1,5 +1,5 @@
 # Carmel Christian School — Sports
-> Distilled from 6 source document(s) in `source-material/sports/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 6 source document(s) in `source-material/sports/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** 247Sports Recruiting Rankings, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026
 
 
@@ -181,7 +181,7 @@ both pass the graduate test.
 | Miles Leaks | Basketball | Johnson & Wales (Charlotte) | C2C | D3 | Next Steps; MaxPreps Sr.; RealGM "Johnson & Wales (NC)". **Conf corrected: GNAC → C2C** (GNAC is the Providence campus; the Charlotte Wildcats play in the Coast-to-Coast Athletic Conference) |
 | Ben Price | Tennis | Hampden-Sydney | ODAC | D3 | Next Steps; MaxPreps Sr. 2024-25; H-SC roster ("Carmel Christian") |
 
-Not counted: **Audrey Bucey** — "University of South Carolina — Dance" on Next Steps. A
+Not counted: **[name withheld]** — "University of South Carolina — Dance" on Next Steps. A
 dance team is a spirit program, not an intercollegiate sport, and counting it would make it
 a Power 4 row. This is recorded here so a later pass sees the decision.
 
@@ -228,7 +228,7 @@ Class of 2027.md`, which is provisional until the early signing period (opens 20
 | Michael Marcus Jr. — George Mason | RealGM (2024) | Not on Carmel's 2023-24 roster. He is a Covenant Day graduate on that school's card |
 | Jaeden Mustaf — Georgia Tech → Indiana | RealGM (2024) | Not on Carmel's 2023-24 roster, and the dossier already flagged that he graduated elsewhere |
 | Landon Boyd — Florida International | HighSchoolOT baseball tracker | Contradicted by the school's list and Perfect Game (USC Aiken). The row stays at USC Aiken |
-| Audrey Bucey — South Carolina (dance) | Next Steps | Not an intercollegiate sport (see above) |
+| [name withheld] — South Carolina (dance) | Next Steps | Not an intercollegiate sport (see above) |
 
 
 ---
@@ -570,7 +570,7 @@ swimmer. PrepVolleyball search found no Carmel page.
 | Jaeden Mustaf — Georgia Tech ('24) | RealGM | Not on Carmel's 23-24 roster |
 | Cody Peck — Dayton ('26) | RealGM | Graduated elsewhere |
 | Landon Boyd → Florida International | HighSchoolOT baseball tracker | School list and Perfect Game both say USC Aiken |
-| Audrey Bucey — South Carolina dance ('25) | Next Steps | Dance team is not an intercollegiate sport; not counted |
+| [name withheld] — South Carolina dance ('25) | Next Steps | Dance team is not an intercollegiate sport; not counted |
 
 ## Nulls (searched, nothing found)
 

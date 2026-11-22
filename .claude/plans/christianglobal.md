@@ -662,10 +662,7 @@ Then the research prose, per `PROSE_TRANSLATED`. The mechanism is in
       — **no hits**. No travel date; the sign-up dates are July to September.
 - [ ] `grep -in "not stated\|not published" src/data/internationalTravel/charlotte-christian.ts` — hits only inside `verdict`
 - [ ] `grep -n "Peru\|Puerto Rico\|Vancouver\|Belize" src/data/internationalTravel/charlotte-christian.ts` — **no hits**
-- [ ] No person is named. Grep the file for `Walker`, `Gillette`, `Giller`, `Reeves`,
-      `Sturdevant`, `Pleshko`, `Brilhante`, `McCarrick`, `Cochran`, `Simmons`, `Gatlin`,
-      `Mendieta`, `Rice`, `McGinnis`, `Gyorfi`, `Jones`, `Foxx`, `Abarca`, `Szymborski`,
-      `McKnabb`, `Ulman`, `Schenck`, `Little`, `Caceres`, `Foskey`, `Moreau`. There should
+- [ ] No person is named. Grep the file for the names on the source pages (list omitted: no names in the repo). There should
       be no hits.
 - [ ] Every `sources` URL is a fetched or Wayback row of the Source URLs file. Spot-check five.
 - [ ] Trip count in `years` equals the headline's number, and countries equal the `15` tile

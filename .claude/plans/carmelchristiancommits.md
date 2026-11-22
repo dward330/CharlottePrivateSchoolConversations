@@ -73,7 +73,7 @@ needs no change.**
 | '26 | James Wood | new — Basketball · WVU Tech · NAIA · NAIA | https://www.carmelchristian.org/apps/news/show_news.jsp?REC_ID=1030111&id=0; WVU Tech roster (FR, Carmel Christian High School) |
 | '26 | **Jordan Buzzard** | **removed** | Coastal's roster: Last School East Mecklenburg, "four-year letterman"; MaxPreps East Meck Sr. 25-26; absent from Carmel's 25-26 roster |
 
-Not counted: **Audrey Bucey** (Next Steps: "University of South Carolina — Dance"). Dance is a
+Not counted: **[name withheld]** (Next Steps: "University of South Carolina — Dance"). Dance is a
 spirit program, and counting it would have made it a Power 4 row. It is recorded in the
 commitments file and mentioned once in `realityCheck`.
 
