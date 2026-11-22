@@ -150,7 +150,7 @@ created and inducted its first class in 2025. The Hall of Fame will induct its n
 - **Mallorie Haines, girls basketball since 2025** — a Davidson Day '21 alum who played D1
   basketball at Davidson College.
 
-**Head coaches for 8 of 13 sports are undocumented** — the school publishes no coaching
+**Head coaches are documented for only three sports (volleyball, soccer and basketball)** — the school publishes no coaching
 directory and its athletics site is offline. Basketball shows chronic churn: at least seven
 boys head coaches since 2008, and seven girls head coaches in eight documented seasons. The
 2024 title-winning coach (James Long) left for the college ranks a season later.
@@ -209,7 +209,7 @@ general web, On3's NIL database, 247Sports player profiles and local coverage.
 
 ## GAPS / UNCONFIRMED
 - Classes of 2024 and 2026 commitments largely undocumented (the site is dead).
-- Head coaches for 8 of 13 sports unknown; no coach start years published.
+- Head coaches documented for only three sports (volleyball, soccer, basketball); no coach start years published.
 - Gary Ellington's hire year is ambiguous — the announcement says "Friday, April 17" without
   a year; MaxPreps implies a 2025 hire. The school spells it "Gary"; some snippets say "Greg".
 - Brad Laatsch's departure is inferred from MaxPreps coach fields, not announced.

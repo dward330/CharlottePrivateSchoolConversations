@@ -1389,6 +1389,13 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         {t.slug === 'college-support' && vm.subs?.[slug] && (
                           <div className="stat-tile-sub">{localizeMoneyText(vm.subs[slug])}</div>
                         )}
+                        {/* A per-school basis line, where the value alone cannot say
+                            what it buys (Latin's after-school cost, plan consistency3
+                            LAT-13). Same face as the College Support sub line, set in
+                            Claude Design. Every tile without an entry is unchanged. */}
+                        {vm.tileBasis?.[slug] && (
+                          <div className="stat-tile-sub">{localizeMoneyText(vm.tileBasis[slug])}</div>
+                        )}
                         <div className="stat-tile-label">{vm.label}</div>
                       </div>
                     ))}

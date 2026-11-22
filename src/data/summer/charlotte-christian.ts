@@ -26,7 +26,7 @@ export const charlotteChristian: SummerProgram = {
     headline:
       '133 camp sessions across six weeks — and every single one is a three-hour half-day. There is no full-day camp.',
     subhead:
-      'A full day is built by pairing a morning and an afternoon camp, with the noon–1 p.m. bridge care free of charge between them. The season runs June 1 to July 17, 2026, with a two-week break around July 4.',
+      'A full day is built by pairing a morning and an afternoon camp, with the noon–1 p.m. bridge care free of charge between them. The season runs June 1 to July 17, 2026, with a one-week break for July 4 (no camps June 29 – July 3).',
     intro:
       '**All 96 distinct camps are listed below**, collapsed from the school’s 133 session-level rows (a camp offered in three weeks counts three times in that total). Grades are **rising 2026-27**. Despite the school’s athletic reputation, sports is a minority of this catalog — 34 of the 133 sessions (22 of the 96 camps).',
     categoryFilters: [

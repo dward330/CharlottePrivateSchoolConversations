@@ -158,6 +158,15 @@ const RULES: Record<string, Rule[]> = {
       label: 'In-Depth Report',
     },
     { match: /^tuition and fees$/i, key: 'in-depth-report', label: 'In-Depth Report' },
+    // Evidence records behind the hand-authored report, added by plan consistency3
+    // (2026-11-22): Providence Day's 2026-27 bus fare table and Charlotte Latin's
+    // two financial aid documents. They feed figures already on the report card,
+    // so they fold onto its key rather than standing up cards of their own.
+    {
+      match: /^transportation \d{4}-\d{2}$|^scholarships and aid faq$/i,
+      key: 'in-depth-report',
+      label: 'In-Depth Report',
+    },
     // Trinity's four research files are committed MARKDOWN, not the gitignored
     // PDF every other school's deep-dive arrives as — so the content builder
     // slices them at every `## ` heading and each slice became its own card

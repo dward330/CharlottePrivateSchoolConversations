@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Summer Programs
-> Distilled from 1 source document(s) in `source-material/summer-programs/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 1 source document(s) in `source-material/summer-programs/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Camp Catalog
 
 
@@ -292,6 +292,32 @@ names (76 distinct name + camp-type pairs), not "roughly 85". Rows per title, ve
 - "Outdoor Adventure Camp" — 4 rows: June 1-5, June 22-26, June 29-July 2* ($ 480.00), July 13-17 ($ 600.00 otherwise).
 - "Camp Buccaneer" — 4 rows: June 8-12, June 15-18*, June 22-26, June 29-July 2* ($ 460.00; $ 560.00 otherwise).
 - No other title runs more than 4 weeks.
+
+### Re-verification 2026-11-20 (plan consistency2, re-scan)
+
+Second re-scan after PR #509. Two checks, both against the school's own pages.
+
+1. **Four-day-week prices, from the 2026 priced listing** (the copy of
+ https://resources.finalsite.net/images/v1768310602/charlottecds/charlottecds/ffivawlw5eojdrzsp3wn/2026SummerProgramslisting.pdf
+ re-downloaded earlier today, `pdftotext -layout`). Half-day camps cost $ 230.00 in both
+ starred weeks. Full-day camps are priced down only in June 29-July 2*. Verbatim rows:
+ - `Camp Buccaneer June 15-18* Full Day JK Grade 5 $ 560.00`
+ - `La Finca Farm Camp June 15-18* Full Day Grade 1 Grade 9 $ 560.00`
+ - `Camp Buccaneer June 29-July 2* Full Day JK Grade 5 $ 460.00`
+ - `Outdoor Adventure Camp June 29-July 2* Full Day - Farm Grade 1 Grade 7 $ 480.00`
+ - Half-day examples at $ 230.00 in a starred week: BUCS Soccer Camp (June 15-18*), Fun with
+ Chess (June 15-18*), Pop Vocals (June 15-18*, Grade 1–Grade 4), Ready, Set, Tumble:
+ Gymnastics! (June 15-18* and June 29-July 2*), Sports Spectacular, Pickle Pros with
+ Carter & Maggie and Kids Adventure Art (each June 29-July 2*). The same camps are
+ $ 280.00 in their five-day weeks.
+2. **Camp Leaders page**, https://www.charlottecountryday.org/summer/camp-leaders (HTTP 200,
+ fetched today). It now describes **Summer 2027**, not 2026: "Summer 2027 Camp Weeks June 7–11
+ June 14–17* June 21–25 June 28–July 2 July 6–9* July 12–16 July 19–23 July 26–30 *Shortened
+ week for Juneteenth (June 19) and observance of Independence Day (July 5)". Its rates:
+ "Standard Weekly Rates … AM Half Day 4 hours $300 · PM Half Day 3 hours $240 · Full Day
+ 7.5 hours $560 · Four-Day Week Rates … AM Half Day 4 hours $240 · PM Half Day 3 hours $195 ·
+ Full Day 7.5 hours $450". The 2026 figures this record quotes from that page ($280 / $560 /
+ $230 / $450) are no longer on it. The 2026 listing above is unchanged.
 
 
 ---

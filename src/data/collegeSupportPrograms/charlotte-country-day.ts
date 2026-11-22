@@ -860,7 +860,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       },
       {
         label: 'The Upper School model',
-        text: '**Academic coaches** help with subjects and with planning, organizing and focus skills. **Learning specialists** work one-on-one so students “recognize and utilize their strengths”. The goal is for students to learn on their own and speak up for themselves.',
+        text: '**Four academic coaches** help with subjects and with planning, organizing and focus skills (one coach across core classes in 9th grade, then Humanities or STEM). The goal is for students to learn on their own and speak up for themselves.',
       },
       {
         label: 'Where it reaches the application',
@@ -935,7 +935,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       'The Class of 2025 had 2 National Merit Semifinalists where the classes either side had 7 and 6. What happened that year?',
       'Harvard appears on the 2023–2026 list for the first time in the final edition, and still no Class of 2026 student enrolled at an Ivy. How do you read that, and what does Ivy enrollment look like year over year?',
       'What exactly does the “34 Morehead-Cain recipients” figure cover — how many years? The Class of 2026 post names exactly one.',
-      'How many learning specialists and academic coaches work with Upper School students, what are their credentials, and what is the caseload?',
+      'What caseload does each of the four Upper School academic coaches carry, and what are their credentials?',
       'How do you report Honor Council findings and disciplinary actions on the secondary school report?',
       'How many colleges do your counselors visit each year, is the Senior Externship required, and what gap-year, post-AP computer science, or capstone-research options exist?',
       'Your pages give slightly different figures: 23 or 24 states for the Class of 2026, $14.7 or $14.8 million in scholarships, four or five full-time counselors, and 100+ or 175+ externship employers. Which are current?',

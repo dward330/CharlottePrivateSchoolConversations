@@ -1,5 +1,5 @@
 # Davidson Day School — Sports
-> Distilled from 21 source document(s) in `source-material/sports/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 21 source document(s) in `source-material/sports/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** 247Sports Recruiting Rankings, Athletics Recap 2025-2026, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, School Profile 2026-2027, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Awards and Honors, Championships, Coaches Pedigree and Continuity, D1 and Top-50 Academic Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, WinLoss Records
 
 
@@ -630,7 +630,7 @@ created and inducted its first class in 2025. The Hall of Fame will induct its n
 - **Mallorie Haines, girls basketball since 2025** — a Davidson Day '21 alum who played D1
  basketball at Davidson College.
 
-**Head coaches for 8 of 13 sports are undocumented** — the school publishes no coaching
+**Head coaches are documented for only three sports (volleyball, soccer and basketball)** — the school publishes no coaching
 directory and its athletics site is offline. Basketball shows chronic churn: at least seven
 boys head coaches since 2008, and seven girls head coaches in eight documented seasons. The
 2024 title-winning coach (James Long) left for the college ranks a season later.
@@ -689,7 +689,7 @@ general web, On3's NIL database, 247Sports player profiles and local coverage.
 
 ## GAPS / UNCONFIRMED
 - Classes of 2024 and 2026 commitments largely undocumented (the site is dead).
-- Head coaches for 8 of 13 sports unknown; no coach start years published.
+- Head coaches documented for only three sports (volleyball, soccer, basketball); no coach start years published.
 - Gary Ellington's hire year is ambiguous — the announcement says "Friday, April 17" without
  a year; MaxPreps implies a 2025 hire. The school spells it "Gary"; some snippets say "Greg".
 - Brad Laatsch's departure is inferred from MaxPreps coach fields, not announced.

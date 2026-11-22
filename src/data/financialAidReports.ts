@@ -135,7 +135,14 @@ export type ReportSection = {
   boxes?: InfoBox[]
   /** Bulleted list rendered in the first box, where the source gives one. */
   bullets?: string[]
-  /** Per-section citation (hidden when 'show sources' is off). */
+  /**
+   * Per-section citation (hidden when 'show sources' is off). Each page it names
+   * is a markdown link, `[Financial Aid FAQs](https://…)`, rendered as that name
+   * with ↗. The domain prefix, "(PDF)" and the retrieval date stay plain text.
+   * Citation text is never extracted for translation, so the link text stays
+   * English in every locale: a parent matches it against the page it opens
+   * (plan consistency3, 2026-11-22).
+   */
   source?: string
 }
 
@@ -146,7 +153,7 @@ export type FinancialAidReport = {
   /** The three framing rules at the top of the card. */
   framing: { icon: 'info' | 'clock' | 'book'; title: string; body: string }[]
   sections: ReportSection[]
-  /** Run-on citation list in the card footer. */
+  /** Run-on citation list in the card footer. Same `[name](url)` links as `source`. */
   sources: string
 }
 
@@ -201,7 +208,7 @@ const COUNTRY_DAY: FinancialAidReport = {
         'An international-student rate — 14% of students are international',
       ],
       source:
-        'charlottecountryday.org — Tuition & Financial Aid, retrieved 23 Jul 2026',
+        'charlottecountryday.org — [Tuition & Financial Aid](https://www.charlottecountryday.org/admissions/tuition-financial-aid), retrieved 23 Jul 2026',
     },
     {
       id: 'fa-beyond',
@@ -273,7 +280,7 @@ const COUNTRY_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'charlottecountryday.org — Tuition & Financial Aid; Admissions FAQs, retrieved 23 Jul 2026',
+        'charlottecountryday.org — [Tuition & Financial Aid](https://www.charlottecountryday.org/admissions/tuition-financial-aid); [Admissions FAQs](https://www.charlottecountryday.org/admissions/frequently-asked-questions), retrieved 23 Jul 2026',
     },
     {
       id: 'fa-merit',
@@ -302,8 +309,11 @@ const COUNTRY_DAY: FinancialAidReport = {
           body: 'Sibling discounts · employee tuition remission · clergy/military/first-responder discounts · indexed or sliding-scale tuition · how many named scholarships are granted each year, and at what size.',
         },
       ],
+      // CCD-R8 (plan consistency3): the ladder and the endowed-fund examples are on
+      // the school's live Endowment & Capital Giving page, re-checked 22 Nov 2026 and
+      // matching word for word. Kept by the user's ruling (settled.md S7).
       source:
-        'charlottecountryday.org — Endowment & Capital Giving, retrieved 23 Jul 2026',
+        'charlottecountryday.org — [Endowment & Capital Giving](https://www.charlottecountryday.org/about/support/endowment-capital) (retrieved 22 Nov 2026)',
     },
     {
       id: 'fa-paying',
@@ -377,7 +387,7 @@ const COUNTRY_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'charlottecountryday.org — Tuition & Financial Aid, Admissions, FAQs, Endowment & Capital Giving, Parent Quick Reference (all 23 Jul 2026) · Enrichment fees: https://www.charlottecountryday.org/cd-experience/after-school/program-directors (20 Nov 2026) · School Profiles 2024–25 & 2025–26 · IRS Form 990, EIN 56-0623935 · Axios Charlotte, 20 Mar 2024. Third-party tuition aggregators checked and excluded — none matched the school\'s own table. The school did not commission, review or approve this report.',
+    'charlottecountryday.org — [Tuition & Financial Aid](https://www.charlottecountryday.org/admissions/tuition-financial-aid), [Admissions](https://www.charlottecountryday.org/admissions), [FAQs](https://www.charlottecountryday.org/admissions/frequently-asked-questions), [Parent Quick Reference](https://www.charlottecountryday.org/bucsnet/quick-reference) (all 23 Jul 2026) · [Endowment & Capital Giving](https://www.charlottecountryday.org/about/support/endowment-capital) (retrieved 22 Nov 2026) · [Enrichment fees](https://www.charlottecountryday.org/cd-experience/after-school/program-directors) (20 Nov 2026) · [School Profiles 2024–25](https://resources.finalsite.net/images/v1726775598/charlottecds/enzt08thdabvh3uxiz0i/2024-2025CCDSSchoolProfile.pdf) & [2025–26](https://resources.finalsite.net/images/v1759320688/charlottecds/dn5vss9ud5xxwzyt70ah/CCDSSchoolProfile2025-2026-FINAL.pdf) · [IRS Form 990](https://projects.propublica.org/nonprofits/organizations/560623935), EIN 56-0623935 · [Axios Charlotte](https://web.archive.org/web/20260517193931/https://www.axios.com/local/charlotte/2024/03/20/private-school-vouchers-north-carolina), 20 Mar 2024. Third-party tuition aggregators checked and excluded — none matched the school\'s own table. The school did not commission, review or approve this report.',
 }
 
 const CANNON: FinancialAidReport = {
@@ -428,7 +438,7 @@ const CANNON: FinancialAidReport = {
         'Rate history on the live site — recovered only from archived copies',
       ],
       source:
-        'cannonschool.org — Tuition & Affordability, retrieved 23 Jul 2026',
+        'cannonschool.org — [Tuition & Affordability](https://www.cannonschool.org/admission/tuition-and-fees), retrieved 23 Jul 2026',
     },
     {
       id: 'fa-beyond',
@@ -465,7 +475,7 @@ const CANNON: FinancialAidReport = {
         },
       ],
       source:
-        'cannonschool.org — Non-Tuition Fees and Expenses 2026–27 (PDF); Transportation page, retrieved 23 Jul 2026',
+        'cannonschool.org — [Non-Tuition Fees and Expenses 2026–27](https://resources.finalsite.net/images/v1769013407/cannonschoolorg/b5mo6ysxt5kn7i3xfxi4/AllSchool26-27Non-TuitionFeesExpenses.pdf) (PDF); [Transportation](https://www.cannonschool.org/cannon-life/transportation) page, retrieved 23 Jul 2026',
     },
     {
       id: 'fa-engine',
@@ -509,7 +519,7 @@ const CANNON: FinancialAidReport = {
         },
       ],
       source:
-        'cannonschool.org — Financial Aid; Financial Aid FAQs; Apply to Cannon, retrieved 23 Jul 2026',
+        'cannonschool.org — [Financial Aid](https://www.cannonschool.org/admission/financial-aid); [Financial Aid FAQs](https://www.cannonschool.org/admission/financial-aid/financial-aid-faqs); [Apply to Cannon](https://www.cannonschool.org/admission/application-procedures), retrieved 23 Jul 2026',
     },
     {
       id: 'fa-merit',
@@ -543,7 +553,7 @@ const CANNON: FinancialAidReport = {
         },
       ],
       source:
-        'cannonschool.org — Financial Aid; Admission FAQs, retrieved 23 Jul 2026',
+        'cannonschool.org — [Financial Aid](https://www.cannonschool.org/admission/financial-aid); [Admission FAQs](https://www.cannonschool.org/admission/admission-faqs), retrieved 23 Jul 2026',
     },
     {
       id: 'fa-paying',
@@ -584,7 +594,7 @@ const CANNON: FinancialAidReport = {
           body: 'What a family owes on withdrawal before the year begins · what is owed on mid-year departure · whether any tuition is refundable and on what schedule · late-payment consequences · arrears and enrollment. No prepayment discount and no third-party lender is named. The Tuition Refund Plan\'s cost, and whether it is required, sit in a document that is not publicly readable.',
         },
       ],
-      source: 'cannonschool.org — Tuition & Affordability, retrieved 23 Jul 2026',
+      source: 'cannonschool.org — [Tuition & Affordability](https://www.cannonschool.org/admission/tuition-and-fees), retrieved 23 Jul 2026',
     },
     {
       id: 'fa-trend',
@@ -627,7 +637,7 @@ const CANNON: FinancialAidReport = {
     },
   ],
   sources:
-    'cannonschool.org — Tuition & Affordability, Financial Aid, Financial Aid FAQs, Admission FAQs, Apply to Cannon, Transportation (all 23 Jul 2026) · Non-Tuition Fees and Expenses 2026–27 and 2024–25 editions (PDF) · Student Profiles 2024–25 & 2025–26 · Gratitude Report 2024–25 · IRS Form 990, EIN 56-0935064, via ProPublica · NC State Education Assistance Authority reports · Clarity Tuition help documentation. Third-party aggregators (figures from ~$10,900 to ~$30,700) checked and excluded. The school did not commission, review or approve this report.',
+    'cannonschool.org — [Tuition & Affordability](https://www.cannonschool.org/admission/tuition-and-fees), [Financial Aid](https://www.cannonschool.org/admission/financial-aid), [Financial Aid FAQs](https://www.cannonschool.org/admission/financial-aid/financial-aid-faqs), [Admission FAQs](https://www.cannonschool.org/admission/admission-faqs), [Apply to Cannon](https://www.cannonschool.org/admission/application-procedures), [Transportation](https://www.cannonschool.org/cannon-life/transportation) (all 23 Jul 2026) · [Non-Tuition Fees and Expenses 2026–27](https://resources.finalsite.net/images/v1769013407/cannonschoolorg/b5mo6ysxt5kn7i3xfxi4/AllSchool26-27Non-TuitionFeesExpenses.pdf) and [2024–25](https://resources.finalsite.net/images/v1705528025/cannonschoolorg/nisncbajgzs0ptdrj7qn/AllSchool24-25Non-TuitionFeesExpenses.pdf) editions (PDF) · [Student Profiles 2024–25](https://resources.finalsite.net/images/v1727105974/cannonschoolorg/q6vdhpxfxelejegmx4n8/2024-2025_StudentProfile_87212e_webemail.pdf) & [2025–26](https://web.archive.org/web/20260313013811/https://resources.finalsite.net/images/v1757349467/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf) · [Gratitude Report 2024–25](https://web.archive.org/web/20260717015803/https://www.cannonschool.org/support-cannon/gratitude-report) · [IRS Form 990](https://projects.propublica.org/nonprofits/organizations/560935064), EIN 56-0935064, via ProPublica · NC State Education Assistance Authority reports · Clarity Tuition help documentation. Third-party aggregators (figures from ~$10,900 to ~$30,700) checked and excluded. The school did not commission, review or approve this report.',
 }
 
 const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
@@ -677,7 +687,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottechristian.com — 2026–27 Tuition & Fees chart (PDF), retrieved 23 Jul 2026',
+        'charlottechristian.com — [2026–27 Tuition & Fees chart](https://resources.finalsite.net/images/v1787800765/charlotte/wam30s6cqq5mgpzpxkan/2026-27tuitionchart.pdf) (PDF), retrieved 23 Jul 2026',
     },
     {
       id: 'fa-beyond',
@@ -712,7 +722,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         { value: '$27,355', label: 'Upper School all-in, common case (gr. 9–12)' },
       ],
       source:
-        'charlottechristian.com — 2026–27 Tuition & Fees chart (PDF); Apply page, retrieved 23 Jul 2026',
+        'charlottechristian.com — [2026–27 Tuition & Fees chart](https://resources.finalsite.net/images/v1787800765/charlotte/wam30s6cqq5mgpzpxkan/2026-27tuitionchart.pdf) (PDF); [Apply](https://www.charlottechristian.com/admissions/apply) page, retrieved 23 Jul 2026',
     },
     {
       id: 'fa-engine',
@@ -759,7 +769,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottechristian.com — 2026–27 Financial Assistance How to Apply / Due Dates (PDF), retrieved 23 Jul 2026; Clarity platform and the Nov 2026 / Jan 2027 due dates from the live Tuition & Financial Assistance page, retrieved 14 Sep 2026',
+        'charlottechristian.com — [2026–27 Financial Assistance How to Apply / Due Dates](https://resources.finalsite.net/images/v1769003003/charlotte/nf0yf6xdi9fanpkianbz/2026-27financialaid.pdf) (PDF), retrieved 23 Jul 2026; Clarity platform and the Nov 2026 / Jan 2027 due dates from the live [Tuition & Financial Assistance](https://www.charlottechristian.com/admissions/tuition) page, retrieved 14 Sep 2026',
     },
     {
       id: 'fa-merit',
@@ -793,7 +803,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottechristian.com — Tuition & Financial Assistance page; 2026–27 Financial Assistance instruction sheet (PDF), retrieved 23 Jul 2026',
+        'charlottechristian.com — [Tuition & Financial Assistance](https://www.charlottechristian.com/admissions/tuition) page; [2026–27 Financial Assistance instruction sheet](https://resources.finalsite.net/images/v1769003003/charlotte/nf0yf6xdi9fanpkianbz/2026-27financialaid.pdf) (PDF), retrieved 23 Jul 2026',
     },
     {
       id: 'fa-paying',
@@ -837,7 +847,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottechristian.com — 2023–24 enrollment packet [research tier]; 2026–27 Tuition & Fees chart (PDF)',
+        'charlottechristian.com — 2023–24 enrollment packet [research tier]; [2026–27 Tuition & Fees chart](https://resources.finalsite.net/images/v1787800765/charlotte/wam30s6cqq5mgpzpxkan/2026-27tuitionchart.pdf) (PDF)',
     },
     {
       id: 'fa-trend',
@@ -875,7 +885,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
     },
   ],
   sources:
-    'charlottechristian.com — 2026–27 and 2024–25 Tuition & Fees charts (PDF), Tuition & Financial Assistance, 2026–27 Financial Assistance How to Apply / Due Dates (PDF), Apply page, Endowment & Planned Giving, Admissions FAQ (all 23 Jul 2026) · 2023–24 enrollment packet, 2025–26 fees chart, annual reports 2022–23 & 2024–25, lower school extended day packet, IRS Forms 990 via ProPublica, MinistryWatch entry [all research tier]. Aggregators (figures ~$17,200 to $26,105) checked and excluded. The school did not commission, review or approve this report.',
+    'charlottechristian.com — [2026–27](https://resources.finalsite.net/images/v1787800765/charlotte/wam30s6cqq5mgpzpxkan/2026-27tuitionchart.pdf) and [2024–25](https://resources.finalsite.net/images/v1725556600/charlotte/domyev1ywikmbxfkpml9/2024-25tuitionchart.pdf) Tuition & Fees charts (PDF), [Tuition & Financial Assistance](https://www.charlottechristian.com/admissions/tuition), [2026–27 Financial Assistance How to Apply / Due Dates](https://resources.finalsite.net/images/v1769003003/charlotte/nf0yf6xdi9fanpkianbz/2026-27financialaid.pdf) (PDF), [Apply](https://www.charlottechristian.com/admissions/apply) page, [Endowment & Planned Giving](https://www.charlottechristian.com/support-christian/endowment-planned-giving), [Admissions FAQ](https://www.charlottechristian.com/admissions/faqs) (all 23 Jul 2026) · 2023–24 enrollment packet, [2025–26 fees chart](https://resources.finalsite.net/images/v1753121155/charlotte/opclzyaqrt3clu4v2ud7/2025-26tuitionchart.pdf), [annual reports 2022–23](https://resources.finalsite.net/images/v1705021810/charlotte/qnnbankkqvph5w0svmyb/CurrentAnnualReport.pdf) & [2024–25](https://resources.finalsite.net/images/v1768875054/charlotte/charlotte/charlotte/charlotte/qz5ejjvxrr9esc8ziod3/2024-25_AnnualReport.pdf), [lower school extended day packet](https://resources.finalsite.net/images/v1780338464/charlotte/ahr13amhtgtsrxgzpuwt/ExtendedDayPacket.pdf), [IRS Forms 990](https://projects.propublica.org/nonprofits/organizations/560750913) via ProPublica, [MinistryWatch entry](https://db.ministrywatch.com/ministry.php?ein=560750913) [all research tier]. Aggregators (figures ~$17,200 to $26,105) checked and excluded. The school did not commission, review or approve this report.',
 }
 
 /* ── Covenant Day ── transcribed from the school's tuition page (2026-27) and
@@ -922,7 +932,7 @@ const COVENANT_DAY: FinancialAidReport = {
       figureNote2:
         'The school states what tuition includes: on-campus computers/iPads · technology expenses · school retreats and required field trips · science lab and elective fees · most athletic expenses. Many schools do not publish a list like this.',
       source:
-        'covenantday.org — Tuition & Financial Aid (2026-27 table); 2025-2026 Tuition Payment Terms and Conditions PDF, retrieved 15 Aug 2026',
+        'covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid) (2026-27 table); [2025-2026 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) PDF, retrieved 15 Aug 2026',
     },
     {
       id: 'fa-beyond',
@@ -948,7 +958,7 @@ const COVENANT_DAY: FinancialAidReport = {
         },
       ],
       source:
-        '2025-2026 Tuition Payment Terms and Conditions PDF; covenantday.org — Tuition & Financial Aid, retrieved 15 Aug 2026',
+        '[2025-2026 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) PDF; covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid), retrieved 15 Aug 2026',
     },
     {
       id: 'fa-engine',
@@ -985,7 +995,7 @@ const COVENANT_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'covenantday.org — Tuition & Financial Aid; 2025-2026 Tuition Payment Terms §6, retrieved 15 Aug 2026',
+        'covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid); [2025-2026 Tuition Payment Terms](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) §6, retrieved 15 Aug 2026',
     },
     {
       id: 'fa-numbers',
@@ -1005,7 +1015,7 @@ const COVENANT_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'projects.propublica.org — Nonprofit Explorer, EIN 56-1656570, retrieved 15 Aug 2026',
+        'projects.propublica.org — [Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561656570), EIN 56-1656570, retrieved 15 Aug 2026',
     },
     {
       id: 'fa-merit',
@@ -1037,7 +1047,7 @@ const COVENANT_DAY: FinancialAidReport = {
         },
       ],
       source:
-        '2025-2026 Tuition Payment Terms §3; covenantday.org — Tuition & Financial Aid, retrieved 15 Aug 2026',
+        '[2025-2026 Tuition Payment Terms](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) §3; covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid), retrieved 15 Aug 2026',
     },
     {
       id: 'fa-paying',
@@ -1072,7 +1082,7 @@ const COVENANT_DAY: FinancialAidReport = {
           body: 'Accounts more than 30 days past due can suspend re-enrollment, report cards, transcript release — and class access. A standard force-majeure clause keeps tuition obligations alive through closures.',
         },
       ],
-      source: '2025-2026 Tuition Payment Terms §§1–2, 7–8, retrieved 15 Aug 2026',
+      source: '[2025-2026 Tuition Payment Terms](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) §§1–2, 7–8, retrieved 15 Aug 2026',
     },
     {
       id: 'fa-trend',
@@ -1096,7 +1106,7 @@ const COVENANT_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'covenantday.org — Tuition & Financial Aid · 2025-2026 Tuition Payment Terms and Conditions (PDF) · ProPublica Nonprofit Explorer (EIN 56-1656570) — retrieved 15 Aug 2026',
+    'covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid) · [2025-2026 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) (PDF) · [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561656570) (EIN 56-1656570) — retrieved 15 Aug 2026',
 }
 
 const DAVIDSON_DAY: FinancialAidReport = {
@@ -1128,8 +1138,9 @@ const DAVIDSON_DAY: FinancialAidReport = {
       figureCaption: 'Published tuition by division',
       // 2025–26 rates recovered from Wayback (see "… - Tuition History.md" in
       // source-material). The Early Childhood prior-year figure is the FULL-TIME
-      // price: through 2025–26 the band was six priced options (half-day from
-      // $12,290), collapsing to a single row for 2026–27. Charting the current
+      // price: through 2023–24 the band had six labeled options (half-day from
+      // $12,290 in 2022–23); by 2025–26 only full-time rows remained, and for
+      // 2026–27 it is a single row. Charting the current
       // row against the discontinued half-day price would invent an ~84% rise.
       bands: [
         { label: 'Early Childhood', amount: 22590, prior: 21620, delta: '+4.5%' },
@@ -1140,9 +1151,9 @@ const DAVIDSON_DAY: FinancialAidReport = {
       figureNote:
         'Four division bands covering ages two through 12th grade, a $4,320 spread from lowest to highest. The school does not publish rate history, but archived copies of the tuition page carry 2022–23 onward — every division has risen about 4.5% a year since 2023–24. Half-day options, new-vs-returning rates, and what tuition includes are all unpublished.',
       figureNote2:
-        'The Early Childhood bar compares full-time rates only. Through 2025–26 that band was six separately priced options (half-day from $12,290); for 2026–27 it collapsed to one row, so anything but the full-time figure would be a false comparison.',
+        'The Early Childhood bar compares full-time rates only. Through 2023–24 the band had six labeled options (half-day from $12,290 in 2022–23). By 2025–26 only full-time rows remained, and for 2026–27 it is one row, so anything but the full-time figure would be a false comparison.',
       source:
-        'davidsonday.org — Tuition and Affordability (published 9 Apr 2026), retrieved 22 Jul 2026',
+        'davidsonday.org — [Tuition and Affordability](https://www.davidsonday.org/admission/tuition-and-affordability) (published 9 Apr 2026), retrieved 22 Jul 2026',
     },
     {
       id: 'fa-beyond',
@@ -1178,7 +1189,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'davidsonday.org — Tuition and Affordability; deposit, enrollment, extended care and back-to-school pages, retrieved 22 Jul 2026',
+        'davidsonday.org — [Tuition and Affordability](https://www.davidsonday.org/admission/tuition-and-affordability); deposit, [enrollment](https://www.davidsonday.org/enrollment-instructions) and [back-to-school](https://web.archive.org/web/20260810043917/https://www.davidsonday.org/back-to-school-site) pages, retrieved 22 Jul 2026',
     },
     {
       id: 'fa-engine',
@@ -1223,7 +1234,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'davidsonday.org — Tuition and Affordability; Clarity family application guide (2025–26), retrieved 22 Jul 2026',
+        'davidsonday.org — [Tuition and Affordability](https://www.davidsonday.org/admission/tuition-and-affordability); [Clarity family application guide](https://bbk12e1-cdn.myschoolcdn.com/ftpimages/660/misc/misc_231824.pdf) (2025–26), retrieved 22 Jul 2026',
     },
     {
       id: 'fa-merit',
@@ -1258,11 +1269,11 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED — DISCOUNTS',
-          body: 'No sibling, military or clergy discount is published. No indexed tuition (a price set by family income) or sliding scale is published either. Employee parents have a separate enrollment process and an eleven-month payment plan. But the public record does not show whether working at the school brings any tuition remission (reduced tuition for employees). How many scholarships are given each year, and what it takes to renew them beyond "good standing," are also unpublished.',
+          body: 'No sibling, military or clergy discount is published. No indexed tuition (a price set by family income) or sliding scale is published either. Employee parents have a separate enrollment process. But the public record does not show whether working at the school brings any tuition remission (reduced tuition for employees). How many scholarships are given each year, and what it takes to renew them beyond "good standing," are also unpublished.',
         },
       ],
       source:
-        'davidsonday.org — Tuition and Affordability (published 9 Apr 2026), retrieved 22 Jul 2026',
+        'davidsonday.org — [Tuition and Affordability](https://www.davidsonday.org/admission/tuition-and-affordability) (published 9 Apr 2026), retrieved 22 Jul 2026 · [Enrollment Instructions for Employees](https://www.davidsonday.org/enrollment-instructions-for-employees), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-paying',
@@ -1270,12 +1281,6 @@ const DAVIDSON_DAY: FinancialAidReport = {
       title: 'Payment Plans & Contract Terms',
       confidence: 55,
       plans: [
-        {
-          figure: '11×',
-          label: 'Eleven-month plan',
-          detail:
-            'An eleven-month plan exists, but its installment due dates are not published. Materials for employees carry a Truth in Lending disclosure that puts the additional cost of paying monthly at **$0**. No matching statement is published for other families.',
-        },
         {
           figure: '2.8%',
           label: 'Refund Plan fee',
@@ -1302,7 +1307,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'davidsonday.org — enrollment instructions, employee-parent enrollment instructions and deposit instructions, retrieved 22 Jul 2026',
+        'davidsonday.org — [enrollment instructions](https://www.davidsonday.org/enrollment-instructions) and deposit instructions, retrieved 22 Jul 2026',
     },
     {
       id: 'fa-trend',
@@ -1324,7 +1329,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
         },
         {
           tag: 'A COMPARISON TRAP IN THE EARLY YEARS',
-          body: 'The Early Childhood band was **restructured**, not merely repriced: six separately priced options through 2025–26 (half-day from $12,290) became a single row for 2026–27. Comparing the current row against the old half-day price would suggest an ~84% increase that never happened. The Section 01 chart compares full-time rates only.',
+          body: 'The Early Childhood band was **restructured**, not merely repriced: six labeled options through 2023–24 (half-day from $12,290 in 2022–23) became a single row for 2026–27. Comparing the current row against the 2022–23 half-day price would suggest an ~84% increase that never happened. The Section 01 chart compares full-time rates only.',
         },
       ],
       questionsNote:
@@ -1342,7 +1347,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'davidsonday.org — Tuition and Affordability (published 9 Apr 2026), enrollment instructions, employee-parent enrollment instructions, deposit instructions, extended care and back-to-school pages (all 22 Jul 2026) · Clarity Financial Aid family application guide, 2025–26 cycle · ProPublica Nonprofit Explorer, EIN 11-1976223, Form 990 FY2019–FY2025. Third-party listing sites disagree with one another on both tuition and enrollment and are not the source of any figure here. The school did not commission, review or approve this report.',
+    'davidsonday.org — [Tuition and Affordability](https://www.davidsonday.org/admission/tuition-and-affordability) (published 9 Apr 2026), [enrollment instructions](https://www.davidsonday.org/enrollment-instructions), deposit instructions and [back-to-school](https://web.archive.org/web/20260810043917/https://www.davidsonday.org/back-to-school-site) pages (all 22 Jul 2026) · [Enrollment Instructions for Employees](https://www.davidsonday.org/enrollment-instructions-for-employees) (22 Nov 2026) · [Clarity Financial Aid family application guide](https://bbk12e1-cdn.myschoolcdn.com/ftpimages/660/misc/misc_231824.pdf), 2025–26 cycle · [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/111976223), EIN 11-1976223, Form 990 FY2019–FY2025. Third-party listing sites disagree with one another on both tuition and enrollment and are not the source of any figure here. The school did not commission, review or approve this report.',
 }
 
 const CHARLOTTE_LATIN: FinancialAidReport = {
@@ -1357,7 +1362,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
     {
       icon: 'clock',
       title: 'Published ≠ current.',
-      body: 'Every dollar figure carries the school year it applies to. The transport and aid-document pages sit a year behind the 2026–27 tuition table — different cycles, not a contradiction.',
+      body: 'Every dollar figure carries the school year it applies to. The transport page sits a year behind the 2026–27 tuition table — different cycles, not a contradiction.',
     },
     {
       icon: 'book',
@@ -1389,7 +1394,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       figureNote2:
         'Enrollment context: 1,555 students total, 586 in the Upper School (2025–26 Upper School Profile).',
       source:
-        'charlottelatin.org — Tuition & Financial Assistance; Upper School Profile 2025–26, retrieved 24 Jul 2026',
+        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Upper School Profile 2025–26](https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf), retrieved 24 Jul 2026',
     },
     {
       id: 'fa-beyond',
@@ -1435,7 +1440,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — Tuition & Financial Assistance; Transportation; Hawks\' Club; Dining; Charlotte Latin Strategic Plan, "Access and Affordability", retrieved 24 Jul 2026',
+        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Transportation](https://www.charlottelatin.org/admissions/transportation); [Hawks\' Club](https://www.charlottelatin.org/after-school/hawks-club); [Dining](https://www.charlottelatin.org/student-life/dining); [Charlotte Latin Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability), retrieved 24 Jul 2026',
     },
     {
       id: 'fa-engine',
@@ -1446,6 +1451,11 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       timeline: [
         { when: '15 Sep', detail: 'Financial aid application process **opens**' },
         {
+          when: '15 Nov',
+          detail:
+            'Returning families apply again each year: all financial aid materials are due by **15 November** for the award to appear on the annual enrollment contract',
+        },
+        {
           when: '15 Jan',
           detail:
             'Priority round deadline — stated as **15 January 2027** for the next cycle. Applications in by this date are considered for priority decisions',
@@ -1454,12 +1464,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         {
           when: '26 Feb · 9 Apr',
           detail:
-            'Award decisions are communicated on notification day: 26 February 2027 for TK and K, 9 April 2027 for Grades 1–11. No enrollment-contract date is published, so the school does not say whether a family knows its award before the contract is due',
-        },
-        {
-          when: 'Not retrieved',
-          detail:
-            'Whether aid must be reapplied for annually — very likely inside the document library below, which could not be opened',
+            'Award decisions are communicated on notification day: 26 February 2027 for TK and K, 9 April 2027 for Grades 1–11. The school\'s financial aid FAQ says an award is written on the enrollment contract, which is published at acceptance. So a family sees its award in the contract itself',
         },
       ],
       boxes: [
@@ -1481,7 +1486,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — Tuition & Financial Assistance; Policies, Procedures and Documents, retrieved 24 Jul 2026 · Application Process (award dates), https://www.charlottelatin.org/admissions/application-process, retrieved 20 Nov 2026',
+        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents), retrieved 24 Jul 2026 · [Application Process](https://www.charlottelatin.org/admissions/application-process) (award dates), retrieved 20 Nov 2026 · "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" and "[How to Apply for Financial Aid](https://docs.google.com/document/d/1q7BaP7wBPIi4y5bFFqotfPQzl79bpzhd/edit)" (full text, 22 Nov 2026)',
     },
     {
       id: 'fa-numbers',
@@ -1511,7 +1516,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           title: 'Supplemental support',
-          body: 'Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. It does not publish what else this help covers, or how much need makes a family eligible.',
+          body: 'Beyond tuition aid, the school states that it also covers extra help with school basics, **including lunch**, for its **highest-need families**. Its financial aid FAQ adds that students who earn a named endowed scholarship may also have extra school costs covered. Families learn at acceptance, from the school\'s stewardship and scholarship administrator, whether they qualify and what is covered. It does not publish what else this help covers, or how much need makes a family eligible.',
         },
         {
           tag: 'HOW TO READ THE 990 FIGURE',
@@ -1519,7 +1524,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — Tuition & Financial Assistance; Policies, Procedures and Documents; Charlotte Latin Strategic Plan, "Access and Affordability"; IRS Form 990 via ProPublica, retrieved 24 Jul 2026',
+        'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents); [Charlotte Latin Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability); [IRS Form 990 via ProPublica](https://projects.propublica.org/nonprofits/organizations/560944449), retrieved 24 Jul 2026 · "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" (full text, 22 Nov 2026)',
     },
     {
       id: 'fa-merit',
@@ -1534,11 +1539,11 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
         {
           title: 'Named funds that reach beyond tuition',
-          body: 'The scholarships document states three things about the **Malone, Sunny, Thrive, Wall and Kearney** scholarships. They cover additional school expenses **beyond tuition**. They are Middle and Upper School awards. They are made **at the time of admission**. That matters, because a scholarship that pays for costs beyond tuition is aimed at exactly the gap Section 02 describes. (This comes from the document\'s summary only; the full document could not be opened.)',
+          body: 'The scholarships document says the **Malone, Sunny, Thrive, Wall and Kearney** scholarships cover school expenses **beyond tuition**. They are Middle and Upper School awards, made **at the time of acceptance**. There is **no separate application**: the financial aid application is enough. Every accepted Middle or Upper School student with demonstrated financial need is eligible for a named scholarship. That matters, because a scholarship that pays for costs beyond tuition is aimed at exactly the gap Section 02 describes.',
         },
         {
-          tag: 'NOT PUBLISHED — SIZES, CRITERIA AND STACKING',
-          body: 'For each named fund, the public record does not state the award amount, how many are given in a year, or who is eligible. Nor does it say whether a scholarship can be held alongside need-based aid. The one number published is that **36 students held awards from 17 endowed scholarships in 2024–25**. That shows how many students the funds reach, not how large an award is. Ask which scholarships an applicant would be considered for, whether that happens automatically, and whether an award reduces need-based aid.',
+          tag: 'NOT PUBLISHED — SIZES, SELECTION AND STACKING',
+          body: 'For each named fund, the public record does not state the award amount or how many are given in a year. Nor does it say whether a scholarship can be held alongside need-based aid. The one number published is that **36 students held awards from 17 endowed scholarships in 2024–25**. That shows how many students the funds reach, not how large an award is. Ask which scholarships an applicant would be considered for, and whether an award reduces need-based aid.',
         },
         {
           tag: 'NOT PUBLISHED — DISCOUNTS',
@@ -1546,7 +1551,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottelatin.org — "2025-26 Scholarships" document summary; Upper School Profile 2025–26; Endowed Gifts, retrieved 24 Jul 2026',
+        'charlottelatin.org — "[2025-26 Scholarships](https://docs.google.com/document/d/1utWb3PNI0U_PR6NowrtZOzifRjMQNry0/edit)" document (full text, 22 Nov 2026); [Upper School Profile 2025–26](https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf); [Endowed Gifts](https://www.charlottelatin.org/support/endowed-gifts), retrieved 24 Jul 2026',
     },
     {
       id: 'fa-paying',
@@ -1592,7 +1597,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         },
       ],
       source:
-        "charlottelatin.org — Tuition & Financial Assistance; Hawks' Club, retrieved 24 Jul 2026",
+        "charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Hawks' Club](https://www.charlottelatin.org/after-school/hawks-club), retrieved 24 Jul 2026",
     },
     {
       id: 'fa-trend',
@@ -1634,14 +1639,14 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
         'What are the 2026–27 bus rates?',
         'What is the current share of students receiving tuition assistance, and for which year?',
         'What is the median award, what is the range from smallest to largest, and does any award reach full tuition?',
-        'For each named scholarship: the amount, how many are awarded, the criteria, and whether it can be held alongside need-based aid?',
-        'Must aid be reapplied for annually, do awards typically renew at a consistent level, and is there an appeals or change-of-circumstance process?',
+        'For each named scholarship: the amount, how many are awarded, how recipients are chosen among eligible students, and whether it can be held alongside need-based aid?',
+        'Do awards typically renew at a consistent level from year to year, and is there an appeals or change-of-circumstance process?',
         "Please confirm the four-day and five-day Hawks' Club rates in the two rows flagged in Section 02.",
       ],
     },
   ],
   sources:
-    'charlottelatin.org — Tuition & Financial Assistance; Policies, Procedures and Documents; Transportation; Hawks\' Club; Dining; Upper School Profile 2025–26; Endowed Gifts (all 24 Jul 2026) · charlottelatinleads.org — Strategic Plan, "Access and Affordability" (24 Jul 2026) · "2025-26 Scholarships" and "2025-26 Commonly Asked Questions about Financial Aid" (document summaries only; bodies not retrievable) · 2024–2025 financial aid process presentation (research pass, not re-retrieved) · IRS Form 990, Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024, via ProPublica Nonprofit Explorer. Commercial school-directory sites publish tuition figures that disagree with one another and with the school\'s own page; none is the source of any figure here. The school did not commission, review or approve this report.',
+    'charlottelatin.org — [Tuition & Financial Assistance](https://www.charlottelatin.org/admissions/tuition-financial-assistance); [Policies, Procedures and Documents](https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents); [Transportation](https://www.charlottelatin.org/admissions/transportation); [Hawks\' Club](https://www.charlottelatin.org/after-school/hawks-club); [Dining](https://www.charlottelatin.org/student-life/dining); [Upper School Profile 2025–26](https://resources.finalsite.net/images/v1760637579/charlottelatin/qzxflgjmybf7ydg71xab/USProfile-2.pdf); [Endowed Gifts](https://www.charlottelatin.org/support/endowed-gifts) (all 24 Jul 2026) · charlottelatinleads.org — [Strategic Plan, "Access and Affordability"](https://www.charlottelatinleads.org/access-and-affordability) (24 Jul 2026) · "[2025-26 Scholarships](https://docs.google.com/document/d/1utWb3PNI0U_PR6NowrtZOzifRjMQNry0/edit)" and "[2025-26 Commonly Asked Questions about Financial Aid](https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/edit)" and "[How to Apply for Financial Aid](https://docs.google.com/document/d/1q7BaP7wBPIi4y5bFFqotfPQzl79bpzhd/edit)" (full text retrieved 22 Nov 2026) · [2024–2025 financial aid process presentation](https://www.charlottelatin.org/uploaded/Admissions/2024_2025_Financial_Aid_Process_Presentation.pdf) · IRS Form 990, Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024, via [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/560944449). Commercial school-directory sites publish tuition figures that disagree with one another and with the school\'s own page; none is the source of any figure here. The school did not commission, review or approve this report.',
 }
 
 const PROVIDENCE_DAY: FinancialAidReport = {
@@ -1656,7 +1661,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
     {
       icon: 'clock',
       title: 'Published ≠ current.',
-      body: 'Every dollar figure carries the school year it applies to. The transportation page still refers to 2023–2024 while the tuition table has moved to 2026–27 — different cycles, not a contradiction.',
+      body: 'Every dollar figure carries the school year it applies to. Tuition and the bus fares here are both for 2026–27.',
     },
     {
       icon: 'book',
@@ -1693,7 +1698,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         'A sibling-based variation on the published rate',
       ],
       source:
-        'providenceday.org — Tuition and Financial Assistance, retrieved 24 Jul 2026',
+        'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance), retrieved 24 Jul 2026',
     },
     {
       id: 'fa-beyond',
@@ -1708,7 +1713,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Clubhouse registration · $100/student/yr (MS)', status: 'priced' },
         { label: 'Extended Day late pick-up · $1/min after 6 p.m.', status: 'priced' },
         { label: 'Extended Day program fee · $100–$750/mo', status: 'priced' },
-        { label: 'Bus transportation · 2023–24 page, fares not retrieved', status: 'range' },
+        { label: 'Bus transportation · $1,830–$1,965 round trip per student, 2026–27 (siblings $1,379–$1,507)', status: 'priced' },
         { label: 'FLIK Dining participation · no rate', status: 'unpriced' },
         { label: 'Extended Day enrichment classes · $200 (TK/K) or $220 (grades 1–5) a class', status: 'priced' },
         { label: '8th grade field trip · no rate', status: 'unpriced' },
@@ -1721,7 +1726,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Tutoring services · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'Of sixteen confirmed cost items, six have a published price and nine do not. The bus fare sits on an old page and is not counted either way. That leaves 56% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
+        'Of sixteen confirmed cost items, seven have a published price and nine do not. That leaves 56% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
       boxes: [
         {
           title: 'The deposit, 2026–27',
@@ -1729,7 +1734,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'providenceday.org — Tuition and Financial Assistance; Extended Day (Lower School); Clubhouse (Middle School); Transportation, all retrieved 24 Jul 2026',
+        'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance); [Extended Day](https://www.providenceday.org/lower-school/extended-day) (Lower School); [Clubhouse](https://www.providenceday.org/middle-school/clubhouse) (Middle School); [Transportation](https://www.providenceday.org/around-campus/transportation), all retrieved 24 Jul 2026; 2026–27 bus fares retrieved 22 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -1778,7 +1783,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'providenceday.org — Tuition and Financial Assistance, Application Process and the five published FAQs, retrieved 24 Jul 2026',
+        'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance), Application Process and the five published FAQs, retrieved 24 Jul 2026',
     },
     {
       id: 'fa-numbers',
@@ -1820,7 +1825,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'providenceday.org — Tuition and Financial Assistance; Report on Philanthropy 2012–13, 2013–14 and 2017–18. I.R.S. Form 990, EIN 56-0952382, via ProPublica. Retrieved 24 Jul 2026',
+        'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance); [Report on Philanthropy 2012–13](https://www.providenceday.org/uploaded/Giving/ROP_12-13.pdf), [2013–14](https://www.providenceday.org/uploaded/Giving/ROP_13-14.pdf) and [2017–18](https://www.providenceday.org/uploaded/Giving/ROP_2018-19_Web.pdf). I.R.S. Form 990, EIN 56-0952382, via [ProPublica](https://projects.propublica.org/nonprofits/organizations/560952382). Retrieved 24 Jul 2026',
     },
     {
       id: 'fa-merit',
@@ -1857,7 +1862,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'providenceday.org — Endowment page and Donor Recognition; Report on Philanthropy 2017–18 and 2012–13, Endowments sections. Retrieved 24 Jul 2026',
+        'providenceday.org — [Endowment page](https://www.providenceday.org/philanthropy/endowment) and [Donor Recognition](https://www.providenceday.org/philanthropy/donor-recognition); [Report on Philanthropy 2017–18](https://www.providenceday.org/uploaded/Giving/ROP_2018-19_Web.pdf) and [2012–13](https://www.providenceday.org/uploaded/Giving/ROP_12-13.pdf), Endowments sections. Retrieved 24 Jul 2026',
     },
     {
       id: 'fa-paying',
@@ -1897,7 +1902,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'providenceday.org — Tuition and Financial Assistance, "Are tuition payment plans available?" Retrieved 24 Jul 2026',
+        'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance), "Are tuition payment plans available?" Retrieved 24 Jul 2026',
     },
     {
       id: 'fa-trend',
@@ -1922,7 +1927,6 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       questionsNote:
         'Each corresponds to a gap in this report and is ordered by how much it is likely to move a family\'s total.',
       questions: [
-        'What are the bus fares for our address for the current year?',
         'What do the 8th and 12th grade field trips cost, and when are those charges billed?',
         'What is the current cost of FLIK Dining participation, and is it charged per meal or per term?',
         'Do the 3-, 10- or 12-installment plans carry a fee or interest, and is there a discount for paying in full?',
@@ -1937,7 +1941,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'providenceday.org — Tuition and Financial Assistance, Extended Day (Lower School), Clubhouse (Middle School), Transportation, Endowment and Donor Recognition, Strategic Framework (all 24 Jul 2026) · Report on Philanthropy 2012–13, 2013–14 and 2017–18, "Enrollment at a Glance" and Endowments · I.R.S. Form 990 filings for Providence Day School, Inc., EIN 56-0952382, via ProPublica Nonprofit Explorer (Schedule I and Schedule D not retrieved). Commercial tuition aggregators are the source of no figure here. Every figure was anchored to EIN 56-0952382, the 5800 Sardis Road address, or CEEB 340687 before use. The school did not commission, review or approve this report.',
+    'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance), [Extended Day](https://www.providenceday.org/lower-school/extended-day) (Lower School), [Clubhouse](https://www.providenceday.org/middle-school/clubhouse) (Middle School), [Transportation](https://www.providenceday.org/around-campus/transportation), [Endowment](https://www.providenceday.org/philanthropy/endowment) and [Donor Recognition](https://www.providenceday.org/philanthropy/donor-recognition), [Strategic Framework](https://www.providenceday.org/the-pd-difference/leadership/strategic-framework) (all 24 Jul 2026; 2026–27 bus fares 22 Nov 2026) · [Report on Philanthropy 2012–13](https://www.providenceday.org/uploaded/Giving/ROP_12-13.pdf), [2013–14](https://www.providenceday.org/uploaded/Giving/ROP_13-14.pdf) and [2017–18](https://www.providenceday.org/uploaded/Giving/ROP_2018-19_Web.pdf), "Enrollment at a Glance" and Endowments · I.R.S. Form 990 filings for Providence Day School, Inc., EIN 56-0952382, via [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/560952382) (Schedule I and Schedule D not retrieved). Commercial tuition aggregators are the source of no figure here. Every figure was anchored to EIN 56-0952382, the 5800 Sardis Road address, or CEEB 340687 before use. The school did not commission, review or approve this report.',
 }
 
 /* ── Carmel Christian ── transcribed from the school's own 2026-2027 Tuition
@@ -1988,7 +1992,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       figureNote2:
         'A separate "2026-2027 International Student Tuition" PDF is referenced on the aid page but was not retrieved; international rates are not captured here.',
       source:
-        'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF, dated 5 Dec 2025), retrieved 16 Aug 2026',
+        'carmelchristian.org — [2026-2027 Tuition and Enrollment Fees](https://www.carmelchristian.org/pdf/2026-2027%20Tuition%20and%20Enrollment%20Fees_web.pdf) (PDF, dated 5 Dec 2025), retrieved 16 Aug 2026',
     },
     {
       id: 'fa-beyond',
@@ -2009,7 +2013,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       componentsNote:
         'The $500 enrollment (or re-enrollment) fee is non-refundable. The school says it must be paid in full at the time of enrollment. The grade-9 technology fee and the $200 senior fee are the only other priced add-ons. The PDF also names athletics, fine arts, AP classes, Impact Week and the Senior Trip as additional costs, but gives no amounts.',
       source:
-        'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF), retrieved 16 Aug 2026',
+        'carmelchristian.org — [2026-2027 Tuition and Enrollment Fees](https://www.carmelchristian.org/pdf/2026-2027%20Tuition%20and%20Enrollment%20Fees_web.pdf) (PDF), retrieved 16 Aug 2026',
     },
     {
       id: 'fa-engine',
@@ -2045,7 +2049,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'carmelchristian.org — Financial Aid landing page; ncseaa.edu — NC Opportunity Scholarship, retrieved 16 Aug 2026',
+        'carmelchristian.org — [Financial Aid landing page](https://www.carmelchristian.org/apps/pages/index.jsp?uREC_ID=503176&type=d); ncseaa.edu — [NC Opportunity Scholarship](https://k12.ncseaa.edu/opportunity-scholarship/), retrieved 16 Aug 2026',
     },
     {
       id: 'fa-numbers',
@@ -2069,7 +2073,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'projects.propublica.org — Nonprofit Explorer (school files none; Carmel Educational Foundation EIN 56-2107877), retrieved 16 Aug 2026',
+        'projects.propublica.org — [Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/562107877) (school files none; Carmel Educational Foundation EIN 56-2107877), retrieved 16 Aug 2026',
     },
     {
       id: 'fa-merit',
@@ -2101,7 +2105,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF); Financial Aid landing page, retrieved 16 Aug 2026',
+        'carmelchristian.org — [2026-2027 Tuition and Enrollment Fees](https://www.carmelchristian.org/pdf/2026-2027%20Tuition%20and%20Enrollment%20Fees_web.pdf) (PDF); [Financial Aid landing page](https://www.carmelchristian.org/apps/pages/index.jsp?uREC_ID=503176&type=d), retrieved 16 Aug 2026',
     },
     {
       id: 'fa-paying',
@@ -2127,7 +2131,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'carmelchristian.org — Financial Aid landing page (FACTS), retrieved 16 Aug 2026',
+        'carmelchristian.org — [Financial Aid landing page](https://www.carmelchristian.org/apps/pages/index.jsp?uREC_ID=503176&type=d) (FACTS), retrieved 16 Aug 2026',
     },
     {
       id: 'fa-trend',
@@ -2151,7 +2155,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
     },
   ],
   sources:
-    'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF, dated 5 Dec 2025), Financial Aid landing page · ncseaa.edu — NC Opportunity Scholarship · projects.propublica.org — Nonprofit Explorer (school files no Form 990; Carmel Educational Foundation, EIN 56-2107877). Retrieved 16 Aug 2026. The school did not commission, review or approve this report.',
+    'carmelchristian.org — [2026-2027 Tuition and Enrollment Fees](https://www.carmelchristian.org/pdf/2026-2027%20Tuition%20and%20Enrollment%20Fees_web.pdf) (PDF, dated 5 Dec 2025), [Financial Aid landing page](https://www.carmelchristian.org/apps/pages/index.jsp?uREC_ID=503176&type=d) · ncseaa.edu — [NC Opportunity Scholarship](https://k12.ncseaa.edu/opportunity-scholarship/) · projects.propublica.org — [Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/562107877) (school files no Form 990; Carmel Educational Foundation, EIN 56-2107877). Retrieved 16 Aug 2026. The school did not commission, review or approve this report.',
 }
 
 /* ── Hickory Grove Christian ── the tuition bands are the school's own 2026–27
@@ -2203,7 +2207,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       figureNote2:
         'The same page lists a $700 add-on for K–8 Spanish Immersion. Optional services are added to the family\'s payment plan: bus transportation from the Mallard Creek campus ($1,000 a year) and after-school childcare ($2,600 a year for TK–5, $1,300 for grades 6–12).',
       source:
-        'hgchristian.org — Tuition and Fees (2026-2027 Tuition and Fees table), retrieved 10 Nov 2026',
+        'hgchristian.org — [Tuition and Fees](https://www.hgchristian.org/tuition-and-fees) (2026-2027 Tuition and Fees table), retrieved 10 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -2235,11 +2239,11 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'The public record has no decision timeline, no appeals process and no award-ceiling policy. For the FACTS payment plan, the number of payments and any plan fee are set in the portal. The school says its automatic legacy discounts (multi-child, clergy) were **discontinued as of 2026-2027**.',
+          body: 'The public record has no decision timeline, no appeals process and no award-ceiling policy. For the FACTS payment plan, the number of payments and any plan fee are set in the portal. The school says it does **not provide automatic discounts**, such as multi-child or pastor discounts.',
         },
       ],
       source:
-        'hgchristian.org — Scholarships (NCSEAA tiers, ESA+, FACTS Grant & Aid, 5% early-pay), retrieved 17 Aug 2026',
+        'hgchristian.org — [Scholarships](https://www.hgchristian.org/scholarships) (NCSEAA tiers, ESA+, FACTS Grant & Aid, 5% early-pay), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-numbers',
@@ -2264,7 +2268,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'projects.propublica.org — Nonprofit Explorer (church files no Form 990); ncleg.gov — NC Opportunity Scholarship 2023-24 Annual Report (voucher line), retrieved 17 Aug 2026',
+        'projects.propublica.org — Nonprofit Explorer (church files no Form 990); ncleg.gov — [NC Opportunity Scholarship 2023-24 Annual Report](https://webservices.ncleg.gov/ViewDocSiteFile/91108) (voucher line), retrieved 17 Aug 2026',
     },
     {
       id: 'fa-merit',
@@ -2292,11 +2296,11 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'No merit scholarships appear on the public record — the school\'s own aid (FACTS Grant & Aid) is need-based only. The previously-offered automatic multi-child and clergy discounts were discontinued as of 2026-2027.',
+          body: 'No merit scholarships appear on the public record — the school\'s own aid (FACTS Grant & Aid) is need-based only. The school says it does not provide automatic discounts, such as multi-child or pastor discounts. The 5% early-payment discount still applies.',
         },
       ],
       source:
-        'hgchristian.org — Scholarships (NCSEAA tiers, ESA+, 5% early-pay, discontinued legacy discounts), retrieved 17 Aug 2026',
+        'hgchristian.org — [Scholarships](https://www.hgchristian.org/scholarships) (NCSEAA tiers, ESA+, 5% early-pay, no automatic discounts), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-paying',
@@ -2322,7 +2326,7 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'hgchristian.org — Tuition and Fees / Scholarships (FACTS billing, 5% early-pay), retrieved 17 Aug 2026',
+        'hgchristian.org — [Tuition and Fees](https://www.hgchristian.org/tuition-and-fees) / [Scholarships](https://www.hgchristian.org/scholarships) (FACTS billing, 5% early-pay), retrieved 17 Aug 2026 and 22 Nov 2026',
     },
     {
       id: 'fa-trend',
@@ -2340,13 +2344,12 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
         'Are there other "student services fees" beyond the after-school childcare rate, and where can we see them before enrolling?',
         'How does the NCSEAA Opportunity Scholarship interact with the school\'s own FACTS Grant & Aid for a given family?',
         'Is there any appeals or mid-year change-of-circumstance process for need-based aid?',
-        'Were the multi-child and clergy discounts fully discontinued for 2026-27, or replaced by anything?',
       ],
       source: 'Synthesis of the sources cited on the sections above',
     },
   ],
   sources:
-    'hgchristian.org — Tuition and Fees (2026-2027 table, retrieved 10 Nov 2026) and Scholarships (NCSEAA Opportunity Scholarship tiers, ESA+, FACTS Grant & Aid, 5% early-pay) · projects.propublica.org — Nonprofit Explorer (Hickory Grove Baptist Church files no Form 990) · ncleg.gov — NC Opportunity Scholarship 2023-24 Annual Report (state-voucher line, not institutional aid). Retrieved 17 Aug 2026. The school did not commission, review or approve this report.',
+    'hgchristian.org — [Tuition and Fees](https://www.hgchristian.org/tuition-and-fees) (2026-2027 table, retrieved 10 Nov 2026) and [Scholarships](https://www.hgchristian.org/scholarships) (NCSEAA Opportunity Scholarship tiers, ESA+, FACTS Grant & Aid, 5% early-pay, retrieved 22 Nov 2026) · projects.propublica.org — Nonprofit Explorer (Hickory Grove Baptist Church files no Form 990) · ncleg.gov — [NC Opportunity Scholarship 2023-24 Annual Report](https://webservices.ncleg.gov/ViewDocSiteFile/91108) (state-voucher line, not institutional aid). Retrieved 17 Aug 2026. The school did not commission, review or approve this report.',
 }
 
 /* ── Gaston Day ── transcribed from the school's own SCHEDULE OF TUITION AND
@@ -2397,7 +2400,7 @@ const GASTON_DAY: FinancialAidReport = {
       figureNote2:
         'For 2026-27 the school publishes only a range — $20,300 to $23,310 depending on grade — with no per-grade schedule posted at the time of this research.',
       source:
-        'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF); Cost and Financial Aid page, retrieved 18 Aug 2026',
+        'gastonday.org — [Schedule of Tuition and Fees 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf) (PDF); [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/) page, retrieved 18 Aug 2026',
     },
     {
       id: 'fa-beyond',
@@ -2413,7 +2416,7 @@ const GASTON_DAY: FinancialAidReport = {
         { label: 'After school care, Middle School · $55/week or $15/day', status: 'priced' },
         { label: 'Extended Day drop-in fee · $25', status: 'priced' },
         { label: 'Music lessons · $35 per lesson', status: 'priced' },
-        { label: 'Summer camps · $175–$300/week, plus wrap-around care', status: 'priced' },
+        { label: 'Summer camps · $140–$300/week, plus wrap-around care', status: 'priced' },
         { label: 'Financial aid application fee (Clarity) · $65', status: 'priced' },
         { label: 'Lunch — Sparty’s Dining Service', status: 'unpriced' },
         { label: 'Uniforms / dress code', status: 'unpriced' },
@@ -2424,7 +2427,7 @@ const GASTON_DAY: FinancialAidReport = {
       componentsAside:
         'The fees column is not itemized. A family sees "$2,175 in fees" at the Upper School band without being told what those fees buy.',
       source:
-        'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF); After School Program page; 2026 Summer Camps Catalog, retrieved 18 Aug 2026',
+        'gastonday.org — [Schedule of Tuition and Fees 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf) (PDF); [After School Program](https://www.gastonday.org/afterschoolprogram/) page; [2026 Summer Camps Catalog](https://docs.google.com/document/d/1_6aE8KD3zpXlr5pQL1D3efBdSAImDMuY-f92oosFNKk/edit?usp=sharing), retrieved 18 Aug 2026',
     },
     {
       id: 'fa-engine',
@@ -2469,7 +2472,7 @@ const GASTON_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'gastonday.org — Cost and Financial Aid (Clarity five-step process), retrieved 18 Aug 2026',
+        'gastonday.org — [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/) (Clarity five-step process), retrieved 18 Aug 2026',
     },
     {
       id: 'fa-numbers',
@@ -2498,7 +2501,7 @@ const GASTON_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'gastonday.org — Academic Profile 2025-2026; Cost and Financial Aid; nces.ed.gov PSS 2023-24, retrieved 18 Aug 2026',
+        'gastonday.org — [Academic Profile 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf); [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/); nces.ed.gov [PSS 2023-24](https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?ID=01011099), retrieved 18 Aug 2026',
     },
     {
       id: 'fa-merit',
@@ -2532,7 +2535,7 @@ const GASTON_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'gastonday.org — Scholarships page; Cost and Financial Aid, retrieved 18 Aug 2026',
+        'gastonday.org — [Scholarships](https://www.gastonday.org/scholarships/) page; [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/), retrieved 18 Aug 2026',
     },
     {
       id: 'fa-paying',
@@ -2558,7 +2561,7 @@ const GASTON_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF), retrieved 18 Aug 2026',
+        'gastonday.org — [Schedule of Tuition and Fees 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf) (PDF), retrieved 18 Aug 2026',
     },
     {
       id: 'fa-trend',
@@ -2584,7 +2587,7 @@ const GASTON_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF) · Cost and Financial Aid · Scholarships · Academic Profile 2025-2026 (PDF) · After School Program · 2026 Summer Camps Catalog · nces.ed.gov PSS — retrieved 18 Aug 2026',
+    'gastonday.org — [Schedule of Tuition and Fees 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/01/SCHEDULE-OF-TUITION-FEES-2025-2026.pdf) (PDF) · [Cost and Financial Aid](https://www.gastonday.org/cost-and-financial-aid/) · [Scholarships](https://www.gastonday.org/scholarships/) · [Academic Profile 2025-2026](https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf) (PDF) · [After School Program](https://www.gastonday.org/afterschoolprogram/) · [2026 Summer Camps Catalog](https://docs.google.com/document/d/1_6aE8KD3zpXlr5pQL1D3efBdSAImDMuY-f92oosFNKk/edit?usp=sharing) · nces.ed.gov [PSS](https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?ID=01011099) — retrieved 18 Aug 2026',
 }
 
 const CHARLOTTE_CATHOLIC: FinancialAidReport = {
@@ -2624,7 +2627,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         'Few schools price tuition this way: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041**, and a community family pays **$21,562**, for the same seat in the same classroom. That is a **$6,521 difference, roughly 30%**. CCHS is a 9–12 school, so there is no ladder of grade bands at all. These three rows are the entire schedule.',
       figureNote2:
         'The International rate applies to students requiring an I-20. The **$21,562** community rate is the figure to compare against other schools\' published tuition, since it is the price to a family with no parish affiliation.',
-      source: 'discovermacs.org — Tuition & Affordability, retrieved 18 Aug 2026',
+      source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability), retrieved 18 Aug 2026',
     },
     {
       id: 'fa-beyond',
@@ -2646,7 +2649,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         'The **capital fee is charged per family rather than per student**, so unlike the application and enrollment fees it does not scale with the number of children enrolled.',
       componentsAside:
         'A first-year community-rate family with one student pays $21,562 + $1,995 + $120 = **$23,677** before books, activities or athletics.',
-      source: 'discovermacs.org — Tuition & Affordability',
+      source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability)',
     },
     {
       id: 'fa-engine',
@@ -2689,7 +2692,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
           body: 'No decision timeline, appeals process, or award-ceiling policy is published. Whether FIT awards are renewed automatically on re-application is not stated.',
         },
       ],
-      source: 'discovermacs.org — Tuition & Affordability',
+      source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability)',
     },
     {
       id: 'fa-numbers',
@@ -2704,7 +2707,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
           body: 'MACS publishes aid data **diocese-wide only, never per school**. There is no published percentage of CCHS students receiving aid, no total aid awarded at CCHS, and no average award. This is a disclosure structure, not a research gap — the figures are not published anywhere for this school specifically.',
         },
       ],
-      source: 'discovermacs.org — Tuition & Affordability',
+      source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability)',
     },
     {
       id: 'fa-merit',
@@ -2732,7 +2735,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         },
       ],
       source:
-        'discovermacs.org; catholicnewsherald.com — Opportunity Scholarship coverage',
+        'discovermacs.org; catholicnewsherald.com — [Opportunity Scholarship coverage](https://catholicnewsherald.com/schools/94-news/schools/11321-apply-now-for-2025-26-opportunity-scholarships)',
     },
     {
       id: 'fa-paying',
@@ -2762,7 +2765,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
           body: 'The number of installments in the FACTS plan, whether a pay-in-full discount exists, and any late-payment or withdrawal policy are not published — they sit inside the enrollment portal.',
         },
       ],
-      source: 'discovermacs.org — Tuition & Affordability',
+      source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability)',
     },
     {
       id: 'fa-trend',
@@ -2784,7 +2787,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
     },
   ],
   sources:
-    'discovermacs.org — Tuition & Affordability (2026-27 schedule, fees, FIT, Clarity, multi-child discounts, OSP and ESA+, deadlines), retrieved 18 Aug 2026; catholicnewsherald.com — Opportunity Scholarship coverage; ProPublica Nonprofit Explorer — MACS EIN 56-1779865 (religious-organization filing exemption); charlottecatholic.org — School Profile 2025-2026 (PDF)',
+    'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability) (2026-27 schedule, fees, FIT, Clarity, multi-child discounts, OSP and ESA+, deadlines), retrieved 18 Aug 2026; catholicnewsherald.com — [Opportunity Scholarship coverage](https://catholicnewsherald.com/schools/94-news/schools/11321-apply-now-for-2025-26-opportunity-scholarships); [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561779865) — MACS EIN 56-1779865 (religious-organization filing exemption); charlottecatholic.org — [School Profile 2025-2026](https://resources.finalsite.net/images/v1756128027/charlottecatholicorg/f5yfsecttu3cgmmtsh3f/CCHSSchoolProfile25-26FinalforOnline.pdf) (PDF)',
 }
 
 /* Trinity Episcopal School — a K–8 school, so two tuition bands rather than
@@ -2854,7 +2857,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         'Any multi-child or sibling tuition discount',
       ],
       source:
-        'tescharlotte.org — Tuition & Financial Support; 2026-27 School Profile (PDF), checked 14 Nov 2026',
+        'tescharlotte.org — [Tuition & Financial Support](https://www.tescharlotte.org/admissions/tuition-financial-support); [2026-27 School Profile](https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf) (PDF), checked 14 Nov 2026',
     },
     {
       id: 'fa-beyond',
@@ -2898,7 +2901,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
       componentsAside:
         'The school uses the **Tuition Refund Plan** from **A.W.G. Dewar, Inc.**, which it says is "used at more than 1,200 independent schools." It links the 2026-2027 plan brochure but publishes no price for the plan.',
       source:
-        'tescharlotte.org — Tuition & Financial Support; Applying to Trinity; 2027-28 Clarity Family Application Guide; Wildcat Summer Camp 2026 camp grid (the school\'s own document), checked 14 Nov 2026',
+        'tescharlotte.org — [Tuition & Financial Support](https://www.tescharlotte.org/admissions/tuition-financial-support); [Applying to Trinity](https://www.tescharlotte.org/admissions/applying-to-trinity); [2027-28 Clarity Family Application Guide](https://drive.google.com/file/d/1DgVzX9VYJtoFMZiw8IWnYkPnhj5g2M22/preview); [Wildcat Summer Camp 2026 camp grid](https://docs.google.com/spreadsheets/d/1KkkMI4t7nInLLNfDj1yhNgRo_Ajl7B99I_TZAaJpfHk/edit?gid=0#gid=0) (the school\'s own document), checked 14 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -2949,7 +2952,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         },
                       ],
       source:
-        'tescharlotte.org — Tuition & Financial Support; Applying to Trinity, checked 14 Nov 2026',
+        'tescharlotte.org — [Tuition & Financial Support](https://www.tescharlotte.org/admissions/tuition-financial-support); [Applying to Trinity](https://www.tescharlotte.org/admissions/applying-to-trinity), checked 14 Nov 2026',
     },
     {
       id: 'fa-numbers',
@@ -2972,7 +2975,7 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
       // and was removed at the 2026-11-14 live-site recheck. Both stay in
       // source-material/financial-aid-tuition/trinity-episcopal/.
       source:
-        'tescharlotte.org — 2026-27 School Profile (PDF); Trinity At a Glance, checked 14 Nov 2026',
+        'tescharlotte.org — [2026-27 School Profile](https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf) (PDF); [Trinity At a Glance](https://www.tescharlotte.org/about-us/trinity-at-a-glance), checked 14 Nov 2026',
     },
     {
       id: 'fa-merit',
@@ -2996,11 +2999,11 @@ const TRINITY_EPISCOPAL: FinancialAidReport = {
         },
               ],
       source:
-        'tescharlotte.org — Tuition & Financial Support; Ways to Give; 2026-27 School Profile (PDF), checked 14 Nov 2026',
+        'tescharlotte.org — [Tuition & Financial Support](https://www.tescharlotte.org/admissions/tuition-financial-support); [Ways to Give](https://www.tescharlotte.org/give/ways-to-give); [2026-27 School Profile](https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf) (PDF), checked 14 Nov 2026',
     },
           ],
   sources:
-    'tescharlotte.org — Tuition & Financial Support · Applying to Trinity · Trinity At a Glance · Ways to Give · 2026-27 School Profile (PDF) · 2027-28 Clarity Family Application Guide · Wildcat Summer Camp 2026 camp grid · ProPublica Nonprofit Explorer, EIN 56-2059568 — checked 14 Nov 2026',
+    'tescharlotte.org — [Tuition & Financial Support](https://www.tescharlotte.org/admissions/tuition-financial-support) · [Applying to Trinity](https://www.tescharlotte.org/admissions/applying-to-trinity) · [Trinity At a Glance](https://www.tescharlotte.org/about-us/trinity-at-a-glance) · [Ways to Give](https://www.tescharlotte.org/give/ways-to-give) · [2026-27 School Profile](https://resources.finalsite.net/images/v1790266877/tescharlotteorg/jraele9yxiqjc8nohifm/26-27SchoolProfile.pdf) (PDF) · [2027-28 Clarity Family Application Guide](https://drive.google.com/file/d/1DgVzX9VYJtoFMZiw8IWnYkPnhj5g2M22/preview) · [Wildcat Summer Camp 2026 camp grid](https://docs.google.com/spreadsheets/d/1KkkMI4t7nInLLNfDj1yhNgRo_Ajl7B99I_TZAaJpfHk/edit?gid=0#gid=0) · [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/562059568), EIN 56-2059568 — checked 14 Nov 2026',
 }
 
 /* Charlotte Preparatory School — PreK–8. Transcribed from
@@ -3059,7 +3062,7 @@ const CHARLOTTE_PREP: FinancialAidReport = {
       figureNote2:
         'A **3% discount** applies for younger siblings of current students.',
       source:
-        'charlotteprep.org — Tuition & Fees 2026-27; archived tuition pages (Wayback, 2015 to 2024); Strategic Plan 2022-2027, retrieved 19 Oct 2026',
+        'charlotteprep.org — [Tuition & Fees 2026-27](https://charlotteprep.org/admissions/tuition-fees); archived tuition pages (Wayback, 2015 to 2024); [Strategic Plan 2022-2027](https://charlotteprep.org/about/strategic-plan-2022-2027), retrieved 19 Oct 2026',
     },
     {
       id: 'fa-beyond',
@@ -3082,7 +3085,7 @@ const CHARLOTTE_PREP: FinancialAidReport = {
       ],
       componentsNote:
         'The **Tuition Refund Plan is required unless the full annual fees are paid by May 1**, in which case it is optional. At about 1.45%, it would add roughly $418 to Grades 1–4 tuition — our estimate, since the school gives a percentage and no dollar figure.',
-      source: 'charlotteprep.org — Tuition & Fees 2026-27; Tuition Refund Plan pamphlet 2026-2027, retrieved 19 Oct 2026',
+      source: 'charlotteprep.org — [Tuition & Fees 2026-27](https://charlotteprep.org/admissions/tuition-fees); [Tuition Refund Plan pamphlet 2026-2027](https://charlotteprep.org/uploads/files/Admissions/Tuition-Assistance/trp_20pamphlet_202026-2027.pdf), retrieved 19 Oct 2026',
     },
     {
       id: 'fa-engine',
@@ -3115,7 +3118,7 @@ const CHARLOTTE_PREP: FinancialAidReport = {
           body: 'Assistance is "offered in grades K-8th", so a family entering at **Pre-Primary, Primary or TK** pays full tuition until Kindergarten. For a family planning nine or ten years at the school, the Early School years cost the most once aid is counted. That is because no aid is offered then.',
         },
       ],
-      source: 'charlotteprep.org — Tuition Assistance; Tuition & Fees 2026-27, retrieved 19 Oct 2026',
+      source: 'charlotteprep.org — [Tuition Assistance](https://charlotteprep.org/admissions/tuition-fees#financial); [Tuition & Fees 2026-27](https://charlotteprep.org/admissions/tuition-fees), retrieved 19 Oct 2026',
     },
     {
       id: 'fa-numbers',
@@ -3132,11 +3135,11 @@ const CHARLOTTE_PREP: FinancialAidReport = {
       figureNote2:
         'The school\'s 10% is a share of **families**, and the 990 counts **students**, so the two are not combined into a rate.',
       source:
-        'Charlotte Prep 2024-2025 Prep Fund results; IRS Form 990 filings, EIN 45-2588411, FY2018–FY2025 (IRS TEOS e-file data), retrieved 19 Oct 2026',
+        '[Charlotte Prep 2024-2025 Prep Fund results](https://charlotteprep.org/support/the-prep-fund); IRS Form 990 filings, EIN 45-2588411, FY2018–FY2025 ([IRS TEOS e-file data](https://www.irs.gov/charities-non-profits/form-990-series-downloads)), retrieved 19 Oct 2026',
     },
   ],
   sources:
-    'charlotteprep.org — Tuition & Fees 2026-27 · Tuition Assistance · Strategic Plan 2022-2027 · Tuition Refund Plan pamphlet 2026-2027 · archived tuition pages via the Wayback Machine (2015 to 2024) · IRS Form 990 filings, EIN 45-2588411 (FY2018–FY2025) · ProPublica Nonprofit Explorer — retrieved 19 Oct 2026',
+    'charlotteprep.org — [Tuition & Fees 2026-27](https://charlotteprep.org/admissions/tuition-fees) · [Tuition Assistance](https://charlotteprep.org/admissions/tuition-fees#financial) · [Strategic Plan 2022-2027](https://charlotteprep.org/about/strategic-plan-2022-2027) · [Tuition Refund Plan pamphlet 2026-2027](https://charlotteprep.org/uploads/files/Admissions/Tuition-Assistance/trp_20pamphlet_202026-2027.pdf) · archived tuition pages via the Wayback Machine (2015 to 2024) · IRS Form 990 filings, EIN 45-2588411 (FY2018–FY2025) · [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/452588411) — retrieved 19 Oct 2026',
 }
 
 const REPORTS: Record<string, FinancialAidReport> = {

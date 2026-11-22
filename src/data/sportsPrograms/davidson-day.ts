@@ -97,7 +97,7 @@ export const davidsonDay: SportsProgram = {
       },
     ],
     footnote:
-      'Davidson Day moved up from 1A to 2A to 3A as enrollment grew, reaching 3A for 2024–25. It fields no wrestling, softball, field hockey or boys lacrosse. MaxPreps lists some of these, but the school’s own teams page does not, so this page follows the school. Eight of the campus’s fifteen acres are given to fields and a wooded park. The park has waterfront access to the Lake Davidson Nature Preserve, which supports the rowing program. Football and baseball are fielded in partnership with SouthLake Christian Academy, per the 2026–27 School Profile. The school counts 35 teams. Its list splits middle-school volleyball and boys’ and girls’ basketball into 5th/6th and 7th/8th teams, shown here as one MS chip each. It also counts 13 sports, but the list below names 14, and the school does not say which two it combines.',
+      'Davidson Day moved up from 1A to 2A to 3A as enrollment grew, reaching 3A for 2024–25. It fields no wrestling, softball, field hockey or boys lacrosse. MaxPreps lists some of these, but the school’s own teams page does not, so this page follows the school. Eight of the campus’s fifteen acres are given to fields and a wooded park. The park has waterfront access to the Lake Davidson Nature Preserve, which supports the rowing program. Football and baseball are fielded in partnership with SouthLake Christian Academy, per the 2026–27 School Profile. The school counts 35 teams. Its list splits middle-school volleyball and boys’ and girls’ basketball into 5th/6th and 7th/8th teams, shown here as one MS chip each. Its single ‘Varsity/JV Girls Basketball’ line is shown as two chips. It also counts 13 sports, but the list below names 14, and the school does not say which two it combines.',
     sources: [
       { label: 'davidsonday.org — Patriot Teams', url: 'https://www.davidsonday.org/athletics/patriot-teams' },
       { label: 'School Profile 2026–27 (athlete count, SouthLake partnership)', url: PROFILE },
@@ -279,7 +279,7 @@ export const davidsonDay: SportsProgram = {
     headline:
       'Twenty-one documented commitments across 2024–26, thirteen of them Division I and five Power 4 — a high conversion rate for a 565-student school.',
     subhead:
-      'Basketball leads with seven commits: signees to North Carolina, Clemson, Dayton, Furman and Wofford, and a preferred walk-on (promised a roster spot, without athletic aid) at Duke. Soccer has six, from NC State and Villanova to three Division III programs. The Class of 2026 also sent two lacrosse players to Division II and two track athletes to Division III.',
+      'Basketball leads with seven commits. Five signed with North Carolina, Clemson, Dayton, Furman and Wofford, and one with Division II Charleston (WV). The seventh is a preferred walk-on (promised a roster spot, without athletic aid) at Duke. Soccer has six, from NC State and Villanova to three Division III programs. The Class of 2026 also sent two lacrosse players to Division II and two track athletes to Division III.',
     funnel: [
       {
         label: 'Committed to college athletics',
@@ -310,7 +310,7 @@ export const davidsonDay: SportsProgram = {
       { sport: 'Equestrian', match: ['Equestrian'] },
     ],
     realityCheck:
-      'The unusual thing about this pipeline is still the ratio: thirteen of twenty-one documented commitments are Division I. Basketball remains the biggest source, with seven college signees in three classes. Soccer is close behind with six, including a Big East defender at Villanova and an ACC signee at NC State. The Class of 2026 added two lacrosse players bound for Division II and two track athletes bound for Division III. So athletes outside basketball now have examples of their own.',
+      'The unusual thing about this pipeline is still the ratio: thirteen of twenty-one documented commitments are Division I. Basketball remains the biggest source, with seven college commitments in three classes. Soccer is close behind with six, including a Big East defender at Villanova and an ACC signee at NC State. The Class of 2026 added two lacrosse players bound for Division II and two track athletes bound for Division III. So athletes outside basketball now have examples of their own.',
     rankedRecruits:
       'Three four-star basketball recruits in consecutive classes. Cody Peck ’26 is ranked No. 82 nationally by 247Sports and No. 99 by ESPN — he transferred in from IMG Academy for his senior year and chose Dayton over Creighton, Tennessee and Miami. Isaiah Denis ’25 was No. 56 in the On3 Industry ranking and the No. 1 recruit in North Carolina before signing with UNC. Will Stevens ’26, a 6-foot-10 center, was No. 1 in NC per On3 and committed to Clemson over Vanderbilt and South Carolina.',
     roster: [
@@ -384,7 +384,7 @@ export const davidsonDay: SportsProgram = {
     // attended, so surfacing the denial would raise a question nobody asked and
     // put another school's athlete on Davidson Day's page.
     subhead:
-      'Unusually wide professional reach for a school of about 565 students — across three sports and NASCAR.',
+      'Unusually wide professional reach for a school of about 565 students — across three leagues (NBA, NFL and WNBA) and NASCAR.',
     pros: [
       {
         kicker: "NBA · Class of '20",
@@ -501,7 +501,7 @@ export const davidsonDay: SportsProgram = {
       { name: 'P. Letourneau', role: 'Soccer — succeeded Laatsch', width: 0.12, since: 'since 2025' },
     ],
     worthKnowing:
-      'the school publishes no coaching directory, so head coaches for eight of its thirteen sports are undocumented. That is because its official athletics website is offline. Volleyball’s Catherine Glass and soccer’s Brad Laatsch have had long tenures that produced titles. Basketball is the opposite, with at least seven boys head coaches since 2008 and seven girls head coaches in eight documented seasons. The 2024 title-winning coach, James Long, left for the college ranks a season later.',
+      'the school publishes no coaching directory, so head coaches are documented for only three of its sports: volleyball, soccer and basketball. That is because its official athletics website is offline. Volleyball’s Catherine Glass and soccer’s Brad Laatsch have had long tenures that produced titles. Basketball is the opposite, with at least seven boys head coaches since 2008 and seven girls head coaches in eight documented seasons. The 2024 title-winning coach, James Long, left for the college ranks a season later.',
     sources: [
       { label: 'davidsonday.org — Athletics', url: ATHLETICS },
       {

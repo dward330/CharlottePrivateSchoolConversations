@@ -307,7 +307,7 @@ export const cannon: SummerProgram = {
       },
       {
         name: 'Cannon Baseball',
-        desc: 'Baseball, offered in four of the seven weeks.',
+        desc: 'Baseball, offered in four of the seven weeks; $180.00 in the four-day Week 2 and $225.00 otherwise.',
         category: 'sports',
         categoryLabel: 'Sports & Games',
         grades: ['a46', 'a79', 'a1012'],
@@ -450,7 +450,7 @@ export const cannon: SummerProgram = {
       },
       {
         name: 'Busy Bees Active Adventures',
-        desc: 'Active play for the youngest campers, offered in three weeks.',
+        desc: 'Active play for the youngest campers, offered in three weeks; $196.00 in the four-day Week 2 and $245.00 otherwise.',
         category: 'sports',
         categoryLabel: 'Sports & Games',
         grades: ['a46', 'a79'],
@@ -594,6 +594,8 @@ export const cannon: SummerProgram = {
       /* -------------------------------------------------------------- STEM -- */
       {
         name: 'Veterinary Science',
+        // Week 2 price not recorded: this camp is absent from the brochure record's Week 2
+        // sample, so the four-day price is not stated rather than guessed (plan consistency3, CCD-S2).
         desc: 'Animal science, offered in three consecutive weeks.',
         category: 'stem',
         categoryLabel: 'STEM & Academics',
@@ -646,6 +648,8 @@ export const cannon: SummerProgram = {
       },
       {
         name: 'Exploradores: Cultural Competence Through Spanish Immersion',
+        // Week 2 price not recorded: this camp is absent from the brochure record's Week 2
+        // sample, so the four-day price is not stated rather than guessed (plan consistency3, CCD-S2).
         desc: 'Spanish immersion, offered in the first two weeks.',
         category: 'stem',
         categoryLabel: 'STEM & Academics',
@@ -763,7 +767,7 @@ export const cannon: SummerProgram = {
       },
       {
         name: 'Music Tech for Beginners',
-        desc: 'Music production, offered in three weeks.',
+        desc: 'Music production, offered in three weeks; $180.00 in the four-day Week 2 and $225.00 otherwise.',
         category: 'stem',
         categoryLabel: 'STEM & Academics',
         grades: ['a1012', 'a1317'],
@@ -790,6 +794,8 @@ export const cannon: SummerProgram = {
       },
       {
         name: 'Watercolor Wonders',
+        // Week 2 price not recorded: this camp is absent from the brochure record's Week 2
+        // sample, so the four-day price is not stated rather than guessed (plan consistency3, CCD-S2).
         desc: 'Watercolor painting, offered in three consecutive weeks.',
         category: 'visual',
         categoryLabel: 'Visual Arts',
@@ -869,6 +875,8 @@ export const cannon: SummerProgram = {
       /* --------------------------------------------------- performance arts -- */
       {
         name: 'Irish Dance',
+        // Week 2 price not recorded: this camp is absent from the brochure record's Week 2
+        // sample, so the four-day price is not stated rather than guessed (plan consistency3, CCD-S2).
         desc: 'Traditional Irish dance, offered in the first two weeks.',
         category: 'visual',
         categoryLabel: 'Visual Arts',

@@ -353,9 +353,32 @@ function Boxes({ boxes, bullets }: { boxes: InfoBox[]; bullets?: string[] }) {
 function SourceRow({ text }: { text: string }) {
   return (
     <SourceRowRaw className="fa-srcrow">
-      <span className="fa-src-text">{text}</span>
+      <span className="fa-src-text"><SourceLinks text={text} /></span>
     </SourceRowRaw>
   )
+}
+
+/**
+ * A citation line with its pages linked. Each `[name](url)` in the data renders
+ * as the name with ↗, opening in a new tab, the same affordance as Course
+ * Offerings' source line. Everything else in the line (the domain prefix,
+ * "(PDF)", the retrieval date) stays plain text. Plan consistency3, 2026-11-22.
+ */
+const SOURCE_LINK = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g
+function SourceLinks({ text }: { text: string }) {
+  const out: React.ReactNode[] = []
+  let last = 0
+  for (const m of text.matchAll(SOURCE_LINK)) {
+    if (m.index! > last) out.push(text.slice(last, m.index))
+    out.push(
+      <a key={m.index} href={m[2]} target="_blank" rel="noopener noreferrer">
+        {m[1]} ↗
+      </a>,
+    )
+    last = m.index! + m[0].length
+  }
+  if (last < text.length) out.push(text.slice(last))
+  return <>{out}</>
 }
 
 /* ----------------------------------------------------------------- section */
@@ -603,7 +626,7 @@ export function FinancialAidReportCard({
       ))}
 
       <SourceRowRaw className="fa-sources">
-        <span className="fa-src-text">{reportSources(t, report.sources)}</span>
+        <span className="fa-src-text"><SourceLinks text={reportSources(t, report.sources)} /></span>
       </SourceRowRaw>
     </div>
   )

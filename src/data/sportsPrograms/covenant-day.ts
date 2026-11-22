@@ -352,12 +352,12 @@ export const covenantDay: SportsProgram = {
   /* --------------------------------------------------------- 1f coaching -- */
   coaching: {
     headline:
-      'The college counseling director has coached varsity volleyball for 22 seasons — and the new athletic director was promoted from high school principal.',
+      'The college counseling director has coached varsity volleyball since 2003 (22 seasons through 2024) — and the new athletic director was promoted from high school principal.',
     subhead:
       'Athletic Director: Mike Freace. Continuity here is generational: two current signees are children of the AD and the guidance counselor.',
     featured: [
       {
-        kicker: 'The continuity anchor · Volleyball, 22 seasons',
+        kicker: 'The continuity anchor · Volleyball, since 2003',
         name: 'Heather Mills',
         stats: [
           { value: '22', label: 'seasons as head coach in 2024' },

@@ -423,6 +423,20 @@ export const PATH_OVERRIDES = new Map([
   ['subs.carmel-christian', true],
   ['subs.hickory-grove-christian', true],
   ['subs.gaston-day', true],
+  // The school-page tile's basis line (metricValues.ts `tileBasis`, plan
+  // consistency3 LAT-13): a phrase a parent reads ("TK/K · 5 days to 6:00 p.m. ·
+  // $4,650 a semester"), keyed per slug for the same reason as `subs`.
+  ['tileBasis.providence-day', true],
+  ['tileBasis.charlotte-latin', true],
+  ['tileBasis.charlotte-christian', true],
+  ['tileBasis.charlotte-catholic', true],
+  ['tileBasis.charlotte-country-day', true],
+  ['tileBasis.cannon', true],
+  ['tileBasis.covenant-day', true],
+  ['tileBasis.davidson-day', true],
+  ['tileBasis.carmel-christian', true],
+  ['tileBasis.hickory-grove-christian', true],
+  ['tileBasis.gaston-day', true],
   // Per-cell provenance tooltips (metricValues.ts `quals`). The `.text` leaf is
   // prose (translated); the `.kind` leaf is an ENUM KEY resolved through the
   // locale catalogs (compare.qual.*), NOT display text — it must NOT be extracted.

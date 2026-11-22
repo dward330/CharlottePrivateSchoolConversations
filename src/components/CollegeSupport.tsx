@@ -355,7 +355,9 @@ export function TranscriptBody({ data }: { data: Transcript }) {
                 <thead>
                   <tr>
                     <th scope="col" className="cs-th cs-th-year">{tr('tables.classLabel')}</th>
-                    <th scope="col" className="cs-th">{tr('cardLabels.nationalMerit')}</th>
+                    <th scope="col" className="cs-th">
+                      {tr(data.meritCollegeAwards ? 'cardLabels.collegeMeritAwards' : 'cardLabels.nationalMerit')}
+                    </th>
                   </tr>
                 </thead>
                 <tbody>

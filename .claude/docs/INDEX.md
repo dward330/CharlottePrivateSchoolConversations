@@ -68,13 +68,13 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Catholic High School](financial-aid-tuition/charlotte-catholic.md) — 1 docs
 - [Charlotte Christian School](financial-aid-tuition/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](financial-aid-tuition/charlotte-country-day.md) — 2 docs
-- [Charlotte Latin School](financial-aid-tuition/charlotte-latin.md) — 1 docs
+- [Charlotte Latin School](financial-aid-tuition/charlotte-latin.md) — 2 docs
 - [Charlotte Preparatory School](financial-aid-tuition/charlotte-prep.md) — 4 docs
 - [Covenant Day School](financial-aid-tuition/covenant-day.md) — 2 docs
 - [Davidson Day School](financial-aid-tuition/davidson-day.md) — 2 docs
 - [Gaston Day School](financial-aid-tuition/gaston-day.md) — 1 docs
 - [Hickory Grove Christian School](financial-aid-tuition/hickory-grove-christian.md) — 1 docs
-- [Providence Day School](financial-aid-tuition/providence-day.md) — 1 docs
+- [Providence Day School](financial-aid-tuition/providence-day.md) — 2 docs
 - [Trinity Episcopal School](financial-aid-tuition/trinity-episcopal.md) — 4 docs
 
 ### High School Placement (`high-school-placement/`)
@@ -164,4 +164,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 568 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 570 documents across 12 topics and 13 schools.

@@ -7606,9 +7606,11 @@ a.cs-college-name:focus-visible {
    An always-on underline was rejected (user's call): stacked forty rows deep it
    reads as noise, where on contact it confirms what the arrow already claims.
 
-   The three URL-LESS rows — the club catalog, the club clusters and the
-   financial-aid report — cite a document name with no URL in it, so they render
-   as plain text and are untouched here. They have no <a> to match.
+   The two URL-LESS rows — the club catalog and the club clusters — cite a
+   document name with no URL in it, so they render as plain text and are
+   untouched here. The financial-aid report's rows used to be a third; since
+   plan consistency3 (2026-11-22) each page they name is a `[name](url)` link,
+   rendered by SourceLinks with the same ↗ and matched by `.srcrow a` below.
 
    `.srcrow a` is a DESCENDANT selector on purpose: it has to reach both
    SourceRow's direct `.srcrow-item` anchors and Course Offerings' anchor nested

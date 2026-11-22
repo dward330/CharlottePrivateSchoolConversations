@@ -200,6 +200,13 @@ export type Transcript = {
   meritTitle?: string
   /** Year-by-year National Merit ledger. Empty where a school publishes none. */
   merit: MeritYear[]
+  /**
+   * Set when the ledger rows are college merit scholarships rather than National
+   * Merit or College Board honors: the column header then reads "College merit
+   * awards" (`cardLabels.collegeMeritAwards`). A boolean, not a string, so the
+   * label stays chrome in every catalog (plan consistency3, GD-S2).
+   */
+  meritCollegeAwards?: boolean
   /** A note beneath the ledger — usually a counting-window discrepancy. */
   meritNote?: string
   /** Heading over the post-AP depth list. */

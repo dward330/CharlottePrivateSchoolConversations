@@ -47,6 +47,15 @@ export type ValueMetric = {
    */
   subs?: Record<string, string>
   /**
+   * Optional per-school basis line on the SCHOOL-PAGE stat tile only, under the
+   * value: what the figure buys, where the value alone cannot say it (Latin's
+   * ≈$930/mo is derived from a semester price for one tier). Compare never shows
+   * it — its cells carry the same facts in the qual tooltip. A tile with no entry
+   * renders exactly as before. Prose, through `localizeMoneyText()` at render
+   * (plan consistency3, LAT-13).
+   */
+  tileBasis?: Record<string, string>
+  /**
    * Suppress the leader highlight on this row.
    *
    * Compare tints `Math.max` as the standout, which is right for a row where
@@ -1591,7 +1600,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'Advanced (AP/IB) arts coursework offered, where the note names it.',
     values: {
       cannon: 'AP Studio Art',
-      'charlotte-christian': '2 AP + 9 Honors', // 2026–27 profile, p.3 Fine Arts: AP Art History, AP Art & Design + 9 Honors (incl. Broadcasting)
+      'charlotte-christian': '2 AP + 9 Honors', // 2026–27 profile, p.3 Fine Arts: AP Art History, AP Art & Design + 9 Honors (incl. Broadcasting). B (plan consistency3, CC-S3): the 2026–27 curriculum guide also lists AP Music Theory and two more Honors ensembles; both are named in the qual, no value picked.
       'charlotte-catholic': '1 AP + 12 Honors', // AP Studio Art is the only AP arts course — no AP Music Theory, no AP Art History, confirmed by sweeping all 199 courses. An AP-only count would misread a 39-course department
       'charlotte-country-day': 'AP + IB', // AP and IB arts pathways (rare dual offering)
       'charlotte-latin': null, // not detailed
@@ -1622,7 +1631,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'scope',
-        text: 'AP Studio Art tops the visual path (Intro to Art → Art 2/3 → Honors Studio Art → AP Studio Art); Honors Auditioned Theatre is the performing-side advanced course.',
+        text: 'AP Studio Art tops the visual path (Intro to Art → Art 2/3 → Honors Studio Art → AP Studio Art). On the performing side, the advanced courses are Choir Honors, Symphonic Band Honors and Honors Auditioned Theatre.',
       },
       'providence-day': {
         kind: 'scope',
@@ -1630,7 +1639,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'scope',
-        text: 'Two AP arts courses, AP Art History and AP Art & Design, over nine Honors Fine Arts courses on the school’s 2026–27 profile: Acting Studio, Art III, Broadcasting, Upper School Choir, Digital Design and Animation II, Digital Music II, Jazz Band, Orchestra and Wind Ensemble.',
+        text: 'The school’s 2026–27 profile lists two AP arts courses, AP Art History and AP Art & Design. It also lists nine Honors Fine Arts courses: Acting Studio, Art III, Broadcasting, Upper School Choir, Digital Design and Animation II, Digital Music II, Jazz Band, Orchestra and Wind Ensemble. The 2026–27 curriculum guide also lists AP Music Theory (no description) and two more Honors ensembles, Chamber Ensemble and UKnight Worship.',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -1654,7 +1663,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // no count stated
       'hickory-grove-christian': '3 ensembles', // HS: Concert Band, Chapel Band, High School Choir (no orchestra); Jazz Band dropped 2026-11-10 — not on the live site or the 2026–27 catalog
       'gaston-day': '3 ensembles', // US Vocal Performance Ensemble, MS Instrumental Ensemble, MS Chorus (Band and Concert Choir also run as courses)
-      'providence-day': '4 ensembles', // Band, Orchestra, Chorus, Jazz
+      'providence-day': '6 ensembles', // 3 curricular (Band, Orchestra, Chorus) + 3 auditioned (Jazz Ensemble, A Cappella, The ChargHers), as the Arts tile counts them
     },
     quals: {
       'charlotte-catholic': {
@@ -1684,7 +1693,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'providence-day': {
         kind: 'scope',
-        text: 'Four curricular ensembles: Band, Orchestra, Chorus, and Jazz. Two auditioned groups, A Cappella and The ChargHers, are not counted here.',
+        text: 'Three curricular ensembles (Band, Orchestra, Chorus) and three auditioned groups (Jazz Ensemble, A Cappella, The ChargHers).',
       },
       'hickory-grove-christian': {
         kind: 'scope',
@@ -1940,7 +1949,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'davidson-day': {
         kind: 'scope',
-        text: 'The Lower School’s Extended Care runs 2:45–6:00 p.m. Confirm current hours with the school.',
+        text: 'From the school’s archived 2020 Extended Care page (2:45–6:00 p.m., TT–8). The program pages have since been removed and K–4 now dismisses at 3:05, so confirm current hours.',
       },
       'carmel-christian': {
         kind: 'official',
@@ -1986,6 +1995,9 @@ export const VALUE_METRICS: ValueMetric[] = [
       'hickory-grove-christian': '≈$260/mo', // $2,600/yr ÷ 10 — the TK–5 annual price on the Tuition and Fees page (published since at least 2026-11-20, plan consistency HG-16); $35/day Adventure Days is a separate out-of-session program
       'gaston-day': '$95/wk', // Lower School weekly rate, 2025-26 fee schedule; MS $55/wk; drop-in $30/day LS and $15/day MS
       'providence-day': '$750/mo', // TK · 1–6 p.m. tier · 5 days/wk, 2026-27
+    },
+    tileBasis: {
+      'charlotte-latin': 'TK/K · 5 days to 6:00 p.m. · $4,650 a semester',
     },
     // The year's total under each monthly figure. Cannon's, Latin's and Hickory
     // Grove's are the schools' OWN published figures ($3,784/yr, $4,650/sem × 2,
@@ -2066,7 +2078,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     note: 'Number of camp weeks the school runs in summer 2026, counting shortened holiday weeks. A longer season is more weeks a family can cover.',
     values: {
       cannon: '7', // June 8 – July 31, closed Juneteenth + the week of June 29
-      'charlotte-christian': '6', // June 1 – July 17, two-week break around July 4
+      'charlotte-christian': '6', // June 1 – July 17, one-week break for July 4 (no camps June 29 – July 3)
       'charlotte-catholic': '4', // four distinct camp windows across June and July; every one is a half-day block, and the school runs no continuous multi-week season
       'charlotte-country-day': '8', // June 1 – July 24, incl. the June 1-5 "Pre-Camp" week
       'charlotte-latin': '7', // June 8 – July 31, no camps June 29 – July 4
@@ -2093,7 +2105,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'scope',
-        text: 'Six weeks, but not consecutive: the school takes a two-week break around July 4 (June 29 – July 3 has no camps).',
+        text: 'Six weeks, but not consecutive: there are no camps the week of June 29 – July 3.',
       },
       'covenant-day': {
         kind: 'scope',
@@ -2115,7 +2127,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '20', // distinct camps named on the public 2026 page; school markets "29 camps"
       'carmel-christian': '36', // named camps across the 6 weeks
       'davidson-day': null,
-      'hickory-grove-christian': '15', // Summer 2023 slate (representative): 15 camps in 17 sessions (Science and Fluency run twice) — 10 academic + Boot Camp + 5 athletic
+      'hickory-grove-christian': '15', // Summer 2023 slate (representative): 15 camps in 17 sessions (Science and Fluency run twice) — 9 academic + Boot Camp + 5 athletic
       'gaston-day': '27', // the live 2026 catalog lists 27 entries (2 Camp Spartan + 11 enrichment + 10 partner + 3 Nike + tutoring); re-counted 2026-11-20
       'providence-day': '170', // priced brochure rows; 151 distinct names
     },
@@ -2131,7 +2143,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: '15 named camps (17 sessions) in the Summer 2023 catalog: 10 academic, the College Admissions Boot Camp and 5 athletic. They come from the Internet Archive, because the live 2026 catalog sits behind the school\'s registration platform. A representative slate, not the exact 2026 list.',
+        text: '15 named camps (17 sessions) in the Summer 2023 catalog: 9 academic, the College Admissions Boot Camp and 5 athletic. They come from the Internet Archive, because the live 2026 catalog sits behind the school\'s registration platform. A representative slate, not the exact 2026 list.',
       },
       'charlotte-latin': {
         kind: 'scope',

@@ -302,14 +302,14 @@ it is not unbuilt work.
 | `Admissions Checklist.dc.html` | stale | Site header and footer around it; inline toolbar; flat bordered sheet; two-line steps; bullet lists in the aid box | replace |
 | `Providence Day School.dc.html` (606 KB) | **stale + ahead** | Stale: International Travel name, no Wells Fargo Cup, old College Support and Clubs card sets, no Global Community / Firsts / Global Learning cards, inline sources. **Ahead (unbuilt):** "The Summer Campus" photo card, and photo slots in the Arts ladder, Theatre, Studio to Gallery, Where They Go, Exchanges & Homestays and A Day Inside. Retired: tenure bars, roster link-out, TO VERIFY markers | replace (3 parts) — user, 2026-11-20: "what the app shows is the primary, it overrides what the design has". The unbuilt photo-card ideas stay in the archive copy |
 | `Sports Section Redesign.dc.html` | stale | No stat strip or podcast bar; old depth chips (app ships 2c); Cup table now "every NCISAA 4A school" with dossier markers and links; 247 columns in the roster; Girls Basketball row. Retired: tenure bars (user, 2026-10-19), duotone photos, visible TO VERIFY | replace (2 parts) |
-| `College Support Section Redesign.dc.html` | stale | Nine-tile stat strip; new card order with Where Graduates Go first; renamed NC admissions card; counselor emails. Retired: parent-question subtitles, visible TO VERIFY / DISCREPANCY chips | replace (2 parts) |
+| `College Support Section Redesign.dc.html` | stale | Nine-tile stat strip; new card order with Where Graduates Go first; renamed NC admissions card; counselor emails. Retired: parent-question subtitles, visible TO VERIFY / DISCREPANCY chips | replace (2 parts) · re-captured 2026-11-22 from `229961c8` (plan `consistency3`) |
 | `Arts Section Redesign.dc.html` | stale | Four-tile stat strip and podcast bar; Show sources toggles; card close control. Retired: student names in the Blumey ledger (no-minor-names rule) | replace |
 | `Clubs Section Redesign.dc.html` | stale | Club Catalog now first, Academic & Competitive last; stat strip; podcast bar; Faculty & Alumni strip in Affinity | replace |
 | `International Travel Section Redesign.dc.html` | stale | Renamed Global Exposure; adds Global Community on Campus and Firsts & Milestones; new card order; dated sign-up list. Retired: numbered kickers (no-kicker rule) | replace (2 parts) |
 | `Learning Support Section Redesign.dc.html` | stale | Testing & Evaluation moved second; RF/REQUIRED chip legend; email column. Retired: Compare button (area is off Compare), kickers. Possibly ahead: a "THIRD-PARTY · NOT CODED" chip and letter prefixes on service headers | replace |
 | `High School Placement Section Redesign.dc.html` | stale (some ahead?) | Where They Land merged into Where Graduates Go at Charlotte Prep; per-class rate tiles; class selector and school search; Visit Checklist; class video. Shown in the file but not rendered: the Class by Class table (component supports it, Charlotte Prep's data has none), "Why it holds up" / "Where it is thin" in the verdict | replace (user accepted the recommendation, 2026-11-20) |
-| `After School Section Redesign.dc.html` | stale | Stat strip; podcast bar; "See Summer Programs →" link; Show sources toggles. Retired: visible TO VERIFY flags | replace |
-| `Financial Aid & Tuition.dc.html` | stale | The report now has 7 sections (new 04 "The Aid Numbers"); it lives inside the school page as an In-Depth Report card; 4 stat tiles; deposit sub-block. Retired: "CS" mock logo | replace |
+| `After School Section Redesign.dc.html` | stale | Stat strip; podcast bar; "See Summer Programs →" link; Show sources toggles. Retired: visible TO VERIFY flags | replace · re-captured 2026-11-22 from `229961c8` (plan `consistency3`) |
+| `Financial Aid & Tuition.dc.html` | stale | The report now has 7 sections (new 04 "The Aid Numbers"); it lives inside the school page as an In-Depth Report card; 4 stat tiles; deposit sub-block. Retired: "CS" mock logo | replace · re-captured 2026-11-22 from `6b1b21ee` (plan `consistency3`, linked sources) |
 | `Charlotte Prep Course Offerings.dc.html` | spec record | Matches the app's three division cards; small differences (Show sources, per-card notes, course-count line). Current state is in `School Page (K-8)` and `Course Offerings Section` | leave |
 | `High School Placement Class Video.dc.html` | spec record | The video card shipped as specified; the surrounding cards in the file are out of date | leave |
 | `More Schools Row.dc.html` | spec record | Matches the app apart from a "KEEP LOOKING" eyebrow; the row is in both school-page captures | leave |
@@ -352,7 +352,7 @@ the existing name.
 | `High School Placement Section Redesign.dc.html` | replaced | Charlotte Prep + Trinity Episcopal's Where They Land card | 38.3 KB | ✓ |
 | `After School Section Redesign.dc.html` | replaced | Providence Day | 35.9 KB | ✓ |
 | `Summer Programs Section.dc.html` | new | Providence Day | 17.4 KB | ✓ |
-| `Financial Aid & Tuition.dc.html` | replaced | Cannon + Gaston Day's Bus Services and Named Scholarships cards + Charlotte Catholic's Fees card | 36.6 KB | ✓ |
+| `Financial Aid & Tuition.dc.html` | replaced | Cannon + Gaston Day's Bus Services and Named Scholarships cards + Charlotte Catholic's Fees card | 36.6 KB | ✓ · re-captured 2026-11-22 from `6b1b21ee` (plan `consistency3`, linked sources) |
 | `As Built - Index.md` | new | this doc's index | 5.2 KB | ✓ |
 
 The server stores the index as `As Built - Index.md` (it normalized the em dash in the
@@ -407,19 +407,24 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Arts Sect
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Sports Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'sports'
 
 # College Support Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'College Support Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'college-support'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'College Support Section Redesign' '--out' <out> '--refs' 'Providence Day + Gaston Day'\''s Transcript card (its College merit awards column)' '--sha' '229961c8' '--area' 'college-support' '--extra' 'gaston-day:college-support/the-transcript-colleges-see'
+# then relabel the extra: "Extra card from Gaston Day School — its merit column reads “College merit awards” … (plan consistency3, GD-S2)" 
 
 # High School Placement Section Redesign
 npm run design:capture -- '--page' '/school/charlotte-prep/' '--name' 'High School Placement Section Redesign' '--out' <out> '--refs' 'Charlotte Prep + Trinity Episcopal'\''s Where They Land card' '--sha' 'ff5ab214' '--area' 'high-school-placement' '--extra' 'trinity-episcopal:high-school-placement/where-they-land'
 
 # After School Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'After School Section Redesign' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'after-school'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'After School Section Redesign' '--out' <out> '--refs' 'Providence Day + Charlotte Latin'\''s stat strip (tile basis line)' '--sha' '229961c8' '--area' 'after-school'
+# then append Charlotte Latin's built `.stat-strip` (from dist/school/charlotte-latin/index.html,
+# #topic-after-school) as a labelled `ds-extra` section: --extra takes cards by id, and a stat strip has none
 
 # Summer Programs Section
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Programs Section' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'summer-programs'
 
 # Financial Aid & Tuition
-npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' 'ff5ab214' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
+npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
+# then append two of Cannon's source lines, opened, as a labelled `ds-extra` block in the
+# component's markup (captures keep source rows closed): plan consistency3, linked sources
 ```
 
 The CSS chunks: `npm run design:capture -- --css --out <out>`.
@@ -486,7 +491,7 @@ index note:
 |---|--:|
 | Providence Day School | 80,941 bytes |
 | Sports | 66,777 bytes |
-| College Support | 56,813 bytes |
+| College Support | 56,813 bytes (64,190 since plan `consistency3`, with Gaston Day's Transcript card) |
 | Compare | 52,801 bytes |
 | Global Exposure | 47,659 bytes |
 
@@ -500,6 +505,28 @@ page and nothing else changed.
 
 Trimming is unchanged: it still applies to a page over 40 KB, so no page's content moved.
 Latest News headlines in Providence Day are the ones live when that page was captured.
+
+**Plan `consistency3` (2026-11-22): two approved UX tweaks, designed here first.** The
+design came first (step 0b). Both files were captured from the pre-change build. The
+proposed element was patched in with a dashed outline and a "PROPOSED" label, then written
+and `design:verify`'d before the app was built:
+
+- *College Support*: Gaston Day's Transcript card was added as an extra, with its merit
+  column header reading "College merit awards" (GD-S2).
+- *After School*: Charlotte Latin's stat strip was added as a labelled block, with the
+  ≈$930/mo tile's basis line ("TK/K · 5 days to 6:00 p.m. · $4,650 a semester") in the
+  `stat-tile-sub` face, between value and label (LAT-13).
+
+After the build (step 5b), both files were re-captured from commit `229961c8`, so they show
+what shipped, and verified byte for byte. College Support is 64,190 bytes; After School is
+38,285 bytes, including Latin's strip copied from the built DOM.
+
+**Plan `consistency3`, linked sources (2026-11-22).** At the user's request, each page a
+Financial Aid source line names became a link. It was designed first: Cannon's source rows,
+opened, with the page names linked and outlined, were added to `Financial Aid & Tuition.dc.html`
+and verified. It was then built and the file re-captured from `6b1b21ee` (39,865 bytes, byte for
+byte). A capture keeps source rows closed, so the opened lines are a labelled block generated in
+the component's own markup, checked against the live DOM.
 
 **Not represented, by design:** filters, tabs, hover tips, the photo viewer and the
 podcast and video players are static (players are labelled boxes); Latest News shows

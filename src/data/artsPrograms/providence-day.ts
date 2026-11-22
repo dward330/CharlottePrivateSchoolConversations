@@ -37,7 +37,7 @@ export const providenceDay: ArtsProgram = {
     stats: [
       { value: 'TK–12', label: 'continuous arts program' },
       { value: '3 AP', label: 'AP Art and Design · AP Art History · AP Music Theory' },
-      { value: '6', label: 'ensembles: 4 curricular + 2 auditioned' },
+      { value: '6', label: 'ensembles: 3 curricular + 3 auditioned' },
       { value: '37k sq ft', label: 'McMahon complex · 500-seat theater' },
     ],
     divisions: [
@@ -212,17 +212,19 @@ export const providenceDay: ArtsProgram = {
 
   music: {
     headline:
-      'Four curricular ensembles plus auditioned groups, feeding an honors circuit that sits on the published arts calendar as recurring fixtures.',
+      'Three curricular ensembles plus auditioned groups, feeding an honors circuit that sits on the published arts calendar as recurring fixtures.',
     subhead:
       'The hardest recent result: five students selected for the 2026 ACDA Southern Region Honor Choir, chosen from over 1,500 applicants across 11 southeastern states.',
     tracks: [
       {
         label: 'Curricular — join by enrolling',
-        ensembles: ['Band', 'Orchestra', 'Chorus', 'Jazz Ensemble'],
+        ensembles: ['Band', 'Orchestra', 'Chorus'],
       },
       {
         label: 'Auditioned — earn a seat',
-        ensembles: ['A Cappella', 'The ChargHers'],
+        // Jazz Ensemble is auditioned: the 2026–27 US Course of Study lists it
+        // with "Prerequisite: Audition is required" (plan consistency3, PD-S1).
+        ensembles: ['Jazz Ensemble', 'A Cappella', 'The ChargHers'],
       },
       {
         label: 'Classroom — theory track',
@@ -230,7 +232,7 @@ export const providenceDay: ArtsProgram = {
       },
     ],
     boardNote:
-      'Chaired by Michael Hough (Performing Arts chair, Director of Bands), with Adrian Gordon (orchestras), Stephanie Smeltzer (choirs), Lesli Clowes (assistant band) and Kyra Totillo (assistant orchestra). Lower School music is taught by Arienne Hood and Ron Pringle. Institutional member of NAfME, NCMEA and ACDA. Whether Jazz Ensemble is formally auditioned is not published.',
+      'Chaired by Michael Hough (Performing Arts chair, Director of Bands), with Adrian Gordon (orchestras), Stephanie Smeltzer (choirs), Lesli Clowes (assistant band) and Kyra Totillo (assistant orchestra). Lower School music is taught by Arienne Hood and Ron Pringle. Institutional member of NAfME, NCMEA and ACDA.',
     ladderTitle: 'The honors ladder — how far it goes',
     ladder: [
       {
@@ -239,7 +241,7 @@ export const providenceDay: ArtsProgram = {
       },
       {
         label: 'Audition up',
-        text: 'A Cappella and the ChargHers hold their own auditions (ChargHers auditions are a discrete calendar fixture). Ensembles perform at adjudicated festivals — the school reports 50+ superior ratings, cumulative and undated.',
+        text: 'Jazz Ensemble requires an audition. A Cappella and the ChargHers hold their own (ChargHers auditions are a discrete calendar fixture). Ensembles perform at adjudicated festivals — the school reports 50+ superior ratings, cumulative and undated.',
       },
       {
         label: 'Get selected beyond campus',

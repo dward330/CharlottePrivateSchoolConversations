@@ -132,6 +132,24 @@ Each entry's **Still a finding** line names what remains reportable even while i
 
 ---
 
+### S7 — Charlotte Country Day's endowed-scholarship ladder stays (was CCD-R8)
+
+- **Covers:** these values. Financial Aid › Merit & Scholarships (`financialAidReports.ts`, CCD
+  `fa-merit`): the donor gift-level ladder ($220K → 25% · $9,900/yr, $440K → 50% · $19,800/yr,
+  $660K → 75% · $29,700/yr, $880K → 100% · $39,600/yr), its figure notes, and the endowed-fund
+  examples in the "No merit track" box.
+- **Do not report:** that $39,600 at 100% is more than the highest 2026–27 tuition band
+  ($34,075), or that the source page could not be found.
+- **Why:** the figures are the school's own estimated annual distributions per gift level,
+  live at https://www.charlottecountryday.org/about/support/endowment-capital (re-checked
+  2026-11-22, word for word). The card's figure note already says they are donor gift levels
+  and design targets, not awards granted. Re-scan #1's 404s came from guessed slugs.
+- **Ruled:** by the user, 2026-11-22 (plan `consistency3`): keep the ladder; cite the live URL.
+- **Still a finding:** the page going away or changing any gift level or distribution, or the
+  card's note losing the "design targets, not awards granted" framing.
+
+---
+
 ## Rule candidates already turned down
 
 Step 5 must not re-propose these as new `check:consistency` rules.

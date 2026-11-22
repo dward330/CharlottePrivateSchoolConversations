@@ -402,6 +402,8 @@ export const gastonDay: CollegeSupportProgram = {
       { value: '+1.0', label: 'GPA bonus for AP · +0.50 for Honors, on a 4.0 scale' },
     ],
     meritTitle: 'College merit scholarships won by graduating classes',
+    // The rows are college merit awards, not National Merit honors (GD-S2).
+    meritCollegeAwards: true,
     merit: [
       { year: '2025', detail: '**21** students awarded · **$3.76 million** total' },
       { year: '2024', detail: '**20** students awarded · **$3.87 million** total' },
@@ -466,7 +468,7 @@ export const gastonDay: CollegeSupportProgram = {
 
   counseling: {
     headline:
-      'Two counselors for a graduating class of 35 — roughly 18 seniors each — with the four-year sequence starting in eighth grade rather than eleventh.',
+      'Two college-counseling staff, a director and an assistant, for a graduating class of 35, with the four-year sequence starting in eighth grade rather than eleventh.',
     subhead:
       'The office runs on SCOIR, publishes exactly when transcripts go out, and states up front that it will report Honor Code violations when a college asks.',
     stats: [
@@ -706,7 +708,7 @@ export const gastonDay: CollegeSupportProgram = {
     middleTitle: 'If a student is in the middle',
     middle: [
       { label: 'Everyone gets an advisor', text: 'Every Upper School student gets a faculty advisor matched to their interests and needs. The advisor **stays with them through graduation**. That steady support does not depend on being a top student.' },
-      { label: 'Everyone gets the counselor', text: 'With ~18 seniors per counselor, the office reaches the whole class rather than triaging to the strongest applicants.' },
+      { label: 'Everyone gets the counselor', text: 'With 35 seniors and two college-counseling staff, the office reaches the whole class rather than triaging to the strongest applicants.' },
       { label: 'A six-course load, not a race', text: 'AP access is deliberately capped (1 in grade 10, 3 in grades 11 and 12), so the transcript ceiling is defined and a moderate load is normal rather than remedial.' },
       { label: 'Demanding non-AP courses', text: 'A broad Honors tier sits below the AP courses across every department, plus dual enrollment from grade 11 for students who want college credit without an AP exam.' },
       { label: 'A required spike for everyone', text: 'The 40-hour Capstone and the 25-hour annual service requirement mean every graduate has something concrete to write about, not only the students who sought it out.' },
@@ -735,7 +737,7 @@ export const gastonDay: CollegeSupportProgram = {
     points: [
       { label: 'The AP trend is real and rising', text: 'The 3+ rate went 72% → 76% → 86% → 89% → **95%** across 2021–2025, and because **every AP student must sit the exam**, that rate is not flattered by opting out.' },
       { label: 'Rank is replaced, not merely omitted', text: 'Most no-rank schools stop there. Gaston Day publishes a **five-band GPA quintile table**, a **grade distribution by department**, and **defined AP maxima** — three separate substitutes.' },
-      { label: 'Counseling starts in eighth grade', text: 'Course planning begins four years before applications, and the ~18:1 senior caseload is unusually low.' },
+      { label: 'Counseling starts in eighth grade', text: 'Course planning begins four years before applications, and two college-counseling staff for 35 seniors is an unusually small caseload.' },
       { label: 'The spike is institutional', text: 'A **gold-medal iGEM** team, **TSA VEX Nationals in year one**, and a **required 40-hour Capstone** mean distinctiveness is built into the program rather than left to the individual student.' },
       { label: 'The acceptance breadth is genuine', text: '**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 24 top-75 liberal arts colleges — wide range for classes of ~35.' },
       { label: 'The money is disclosed', text: 'Four years of merit-scholarship totals are published — **$3.76M for 21 students in 2025** — where many schools publish none.' },

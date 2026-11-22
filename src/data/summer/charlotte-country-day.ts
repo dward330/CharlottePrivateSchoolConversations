@@ -25,7 +25,7 @@ export const charlotteCountryDay: SummerProgram = {
     headline:
       '132 priced camps across eight weeks, including a dedicated farm campus tier, which is rare.',
     subhead:
-      'The season runs June 1 to July 24, 2026. Two of the eight weeks are shortened — for Juneteenth and for July 3 — and are priced down.',
+      'The season runs June 1 to July 24, 2026. Two of the eight weeks are shortened — for Juneteenth and for July 3. Half-day camps cost $230 in both. Full-day camps cost less only in the July 3 week (Camp Buccaneer $460, Outdoor Adventure $480).',
     intro:
       '**72 of the 132 published rows are listed below**, sampled across every category, tier and week. The full listing is the school’s own 2026 catalog PDF, linked in the sources. Note that these are session-level rows: a camp running three weeks appears three times in the school’s count, so the 132 covers roughly **75 distinct camp titles**. The school separately markets the program as "over 150 exciting camp options".',
     categoryFilters: [
@@ -340,7 +340,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'BUCS Soccer Camp',
-        desc: 'The general soccer camp, offered in three weeks.',
+        desc: 'The general soccer camp, offered in three weeks. $230 in the four-day weeks, $280 otherwise.',
         category: 'morning',
         categoryLabel: 'Morning',
         grades: ['k2', 'g35', 'g68'],
@@ -483,7 +483,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'Pickle Pros with Carter & Maggie',
-        desc: 'Pickleball with named instructors.',
+        desc: 'Pickleball with named instructors. $230 in the four-day weeks, $280 otherwise.',
         category: 'morning',
         categoryLabel: 'Morning',
         grades: ['k2', 'g35', 'g68'],
@@ -561,7 +561,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'Fun with Chess',
-        desc: 'The widest grade span in the catalog — grade 1 through 12.',
+        desc: 'The widest grade span in the catalog — grade 1 through 12. $230 in the four-day weeks, $280 otherwise.',
         category: 'morning',
         categoryLabel: 'Morning',
         grades: ['k2', 'g35', 'g68', 'g912'],
@@ -691,7 +691,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'Pop Vocals',
-        desc: 'Vocal camp, run for two grade bands in different weeks.',
+        desc: 'Vocal camp, run for two grade bands in different weeks. $230 in the four-day weeks, $280 otherwise.',
         category: 'morning',
         categoryLabel: 'Morning',
         grades: ['k2', 'g35', 'g68'],
@@ -756,7 +756,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'Sports Spectacular',
-        desc: 'A multi-sport sampler.',
+        desc: 'A multi-sport sampler. $230 in the four-day weeks, $280 otherwise.',
         category: 'morning',
         categoryLabel: 'Morning',
         grades: ['jk', 'k2', 'g35'],
@@ -796,7 +796,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'Ready, Set, Tumble: Gymnastics!',
-        desc: 'The most-repeated camp in the catalog — offered in seven of the eight weeks.',
+        desc: 'The most-repeated camp in the catalog — offered in seven of the eight weeks. $230 in the four-day weeks, $280 otherwise.',
         category: 'afternoon',
         categoryLabel: 'Afternoon',
         grades: ['jk', 'k2', 'g35'],
@@ -822,7 +822,7 @@ export const charlotteCountryDay: SummerProgram = {
       },
       {
         name: 'Kids Adventure Art',
-        desc: 'Afternoon art, offered in three weeks.',
+        desc: 'Afternoon art, offered in three weeks. $230 in the four-day weeks, $280 otherwise.',
         category: 'afternoon',
         categoryLabel: 'Afternoon',
         grades: ['jk', 'k2', 'g35'],
@@ -1024,7 +1024,7 @@ export const charlotteCountryDay: SummerProgram = {
     headline:
       'Country Day’s rates are unusually clean — one half-day price, one full-day price, and a farm premium on top.',
     subhead:
-      'Eight weeks are available. Two of them are four-day weeks and cost less; the tiers below are the five-day rates.',
+      'Eight weeks are available. Two of them are four-day weeks: half-day camps cost $230 in both, and full-day camps cost less only in the July 3 week. The tiers below are the five-day rates.',
     maxWeeks: 8,
     defaultWeeks: 4,
     defaultTier: 'fullday',
