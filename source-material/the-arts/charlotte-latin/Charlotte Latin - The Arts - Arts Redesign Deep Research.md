@@ -822,3 +822,20 @@ Fetched 2026-11-20 with curl (HTTP 200): https://www.charlottelatin.org/the-arts
 - The school's division pages, fetched the same day: Lower School page title "Lower School | TK-5"
   (https://www.charlottelatin.org/academics/lower-school); Middle School is "grades six, seven, and
   eight" (https://www.charlottelatin.org/academics/middle-school).
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22, each HTTP 200.
+
+- https://www.blumenthalarts.org/news/detail/blumenthal-performing-arts-announced-the-9th-annual-blumey-awards-winners
+  (2022): "All who participated from the 41 schools this year". Latin won Best Actress and is in the
+  list of competing schools.
+- https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees (2026): "a pool of students
+  representing 59 area schools". The 59-school field is 2026's, not 2022's.
+- https://www.charlottelatin.org/student-life/student-clubs/clubs: "Acapella Club: To have fun
+  informally exploring this style of music. No previous experience required."
+- https://www.charlottelatin.org/the-arts/performing: "Band (Grades 5-12)", "Orchestra (Grades 5-12)",
+  "Concert Choir (Grades 5-12)".
+- https://www.charlottelatin.org/academics/upper-school/course-offerings: "Music Theory AP".
+- https://www.charlottelatin.org/the-arts/visual: the Scholastic image file names that carry a year
+  all carry 2023. The Gold Key file carries a class year (co28) and no award year.

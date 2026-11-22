@@ -123,3 +123,20 @@ registration. Several 2026 sessions already show "sold out" / "full" on the live
   live page confirms **8 session windows** consistent with the ~8 week-blocks below.
 - **Duplicate camp runs are intentional:** Science Camp and Foundational Fluency Camp each
   ran in two separate week-blocks; both instances are listed verbatim above.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22 (curl, HTTP 200). The /academics/summer-camps address now redirects to /academics-home. The live
+pages are new:
+
+- https://www.hgchristian.org/summer-camps: "week-long morning camps for curious kids from rising kindergarteners
+  through middle schoolers"; "2027 Camps are coming soon!"; "Week-long sessions: Monday through Thursday, June and
+  July"; "Most camps run 9 am to 12 pm". "Camps we've offered": STEM & Math; Ready for Kindergarten ("incoming TK and
+  K5 students"); Literacy & Musical Theatre; Science Discovery; Spanish Immersion; Art. It shows no session windows.
+- https://www.hgchristian.org/athletic-camps: "rising 3rd–8th graders"; "Coed Cross Country · Boys Football · Girls
+  Softball · Coed Soccer · Coed Basketball · Boys Baseball · Girls Cheer · Girls Volleyball"; "some sports hold
+  evening sessions from 6 to 8 PM"; "Summer 2027 camp dates will be released this spring."
+- So "the live 2026 page confirms eight session windows" can no longer be verified on the live site. The 2023 catalog
+  above spans six distinct weeks; the other two in "~8" came from 2022 variants.

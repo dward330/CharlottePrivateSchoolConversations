@@ -77,3 +77,9 @@ High School 201 Covenant Church Lane · Warner Park 515 Matthews Township Parkwa
 (football/soccer camps) · Main Gym 200 Covenant Church Lane · Main office 800
 Fullwood Lane, Matthews NC 28105. Camps office: camps@covenantday.org,
 704-708-6194.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.covenantday.org/campus-life/summercamps (fetched 2026-11-22 with curl). The server-rendered "2026 Summer Camps" board holds 19 camps. Strength and Conditioning, the 20th on this record, is not among them. Whether it was withdrawn or is loaded another way was not determined. The grade filter shows JK and Kindergarten; the popups were not read.

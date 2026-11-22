@@ -71,3 +71,32 @@ It also restates the Clarity points the report already carries: one application 
 children, usable on a phone, "typically takes 30 minutes or less", progress saved, and 1040/W2
 documents transferred from the IRS. The page lists two more documents, which are not used here:
 1DyLrqj3WhdWdClADvo1Z1Tu4VEDJ67uH and 1xh4eUCBy-UepyPsE_3OXreuwBX0YLV46.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22, each HTTP 200.
+
+- https://www.charlottelatin.org/student-life/transportation is headed "Bus Service Annual Fees
+  2026-27": "Round trip $1,900", "One Way $950", then "If your child is not registered for a
+  round-trip ride: Middle/Upper School Sports Activity Bus: $550 per season · Talons: $80 per
+  session · Enrichment: $80 per session · Upper School & Lower School Play Practice: $80 each play ·
+  Middle School Play Practice: $160 each play".
+- https://www.charlottelatin.org/admissions/transportation is a second, different Transportation
+  page. It is still headed "Bus Service Annual Fees 2025-26": "Round trip $1,800", "One Way $900",
+  "Activity Bus cost per season for one-way riders and non riders $450."
+- https://www.charlottelatin.org/support/alumni/alumni-giving, The Plus Fund: "Families on
+  substantial financial aid often do not have the resources to pay for items beyond the tuition,
+  such as lunch, books, rentals, sports fees, travel experiences, or learning resources. The Plus
+  Fund provides funds above tuition assistance to finance these additional and/or unexpected costs".
+- https://www.charlottelatin.org/admissions/tuition-financial-assistance: the four bands, the
+  deposit, the $710 advance, both payment plans, "$3.25 Million", "6%", "$17,900" and "36 Students"
+  are unchanged. Every financial aid email address in the page's HTML reads
+  "financialaid@charlottelatin.org".
+- https://docs.google.com/document/d/1q7BaP7wBPIi4y5bFFqotfPQzl79bpzhd/export?format=txt ("How to
+  Apply for Financial Aid") prints the misspelled "financialaid@charlottleatin.org". Its Returning
+  Families deadline still reads "November 15".
+- https://docs.google.com/document/d/1t1sFQuFUKNG3-39FrDofWJDkbe_MOtRs/export?format=txt: "The
+  Office of Admission and the Office of Financial Aid run a parallel but separate process to ensure
+  the confidentiality of the applicant." Also "The contract is published at the time of acceptance."
+- https://www.charlottelatin.org/admissions/tuition-financial-assistance/policies-procedures-and-documents
+  lists "Scholarships" and "Commonly Asked Questions about Financial Aid" with no school year.

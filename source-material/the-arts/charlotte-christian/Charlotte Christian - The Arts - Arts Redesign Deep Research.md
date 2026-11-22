@@ -674,3 +674,12 @@ Ordered by impact on the parent-facing comparison.
 ### Re-verification 2026-11-20 (plan `consistency`, re-scan)
 
 - https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners (fetched 2026-11-20): "Charlotte Christian School from Mecklenburg County won the Wells Fargo Best Musical Award for their production of Oklahoma." The winners list also gives Best Ensemble/Chorus, Best Choreography Execution and Best Lighting Execution to *Oklahoma!*. No award named "Best Show" appears. The Compare cell `signature-recognition` ("Blumey Best Show") disagrees with this; the Arts cards ("Best Musical") agree.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards (fetched 2026-11-22). Charlotte Christian, Cinderella: a top-six nominee for "Best Supporting Actress" (as Madame), plus finalists in the five performance categories. The "no top-6 nomination since 2013" reading no longer holds.
+- https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf (fetched). Charlotte Christian, Into the Woods: finalists in the same five categories.
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf (fetched). "The students listed below are each production’s finalists in the categories of Best Supporting Actor and Best Supporting Actress." The same wording is used for Best Featured Performer.
+- https://www.charlottechristian.com/fine-arts/theatre (fetched): "seven elective offerings for students in grades 6-12".
+- https://www.charlottechristian.com/fine-arts/visual-art (fetched): "literacy in a variety of media and expressions".
+- https://resources.finalsite.net/images/v1769627723/charlotte/charlotte/charlotte/charlotte/charlotte/charlotte/zfkrvos5nbatuumajvz4/2026-27USCourseCurriculumGuidedocx.pdf (fetched). Jazz Band Honors, Choir Honors and UKnight Worship Honors: "Prerequisite: Audition required". Chamber Ensemble Honors: "Departmental approval". Orchestra and Wind Ensemble Honors: "Departmental approval/instrument proficiency". Choir: "None; open to grades 9-12". The visual-art entries name drawing, painting, graphic design, ceramics, printmaking, clay, plaster and more.

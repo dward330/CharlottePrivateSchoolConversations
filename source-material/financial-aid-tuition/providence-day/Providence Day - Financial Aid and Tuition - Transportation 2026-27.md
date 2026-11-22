@@ -29,3 +29,8 @@ Fetched 2026-11-22 with curl (HTTP 200) during plan `consistency3`. The deep-div
 (24 Jul 2026) had recorded this page as still referring to 2023–2024, with the fare table not
 rendering. Today the page carries the 2026-2027 table above and no 2023-2024 text. Range used
 on the Financial Aid card: round trip, first child, $1,830–$1,965; siblings $1,379–$1,507.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.providenceday.org/around-campus/transportation (HTTP 200): "2026-2027 Bus Transportation Schedule and Fares". Round trip "1st Child: $1,830 Siblings: $1,379" up to "1st Child: $1,965 Siblings: $1,507". Unchanged.
+- https://www.providenceday.org/admissions/tuition-and-financial-assistance (HTTP 200): "Approximately 21% of Providence Day School families receive some form of financial assistance." and "Additional fees apply for the 8th and 12th grade field trips, club travel, performing and musical arts competition and athletic tournament travel, P.E. uniforms, graphing calculators, tutoring services Extended Day or Clubhouse , and Transportation .".

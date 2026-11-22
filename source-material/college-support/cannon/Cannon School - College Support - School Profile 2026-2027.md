@@ -517,3 +517,10 @@ itself publishes no addresses.
 | Connie Stavrakas | 2938 | Associate Director of College Counseling | — (profile carries a bio, no email) |
 | Brittany Pasut | 23405 | College Counseling & MS Academic Program Coordinator | bpasut@cannonschool.org (`insertEmail(…, "gro.loohcsnonnac", "tusapb")`) |
 
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1791909516/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf (HTTP 200, pages 2 and 3 read as images): "Advanced Topics: American Language and Composition", "Advanced Topics: Design Thinking for Entrepreneurship", "AP Business with Personal Finance", "Global Education Certificate".
+- https://resources.finalsite.net/images/v1769529893/cannonschoolorg/ihl0lzuqgs9loqntga7z/CannonAcademicCourseCatalog2026-2027.pdf (HTTP 200): "Sophomores can enroll in no more than two AP/AT courses." and "Juniors may not take more than five AP/ AT courses." It names the "Global Education Certificate".
+- https://www.cannonschool.org/academics/upper-school/curriculum (HTTP 200): "Advanced Topics: Design Thinking for Entrepreneurship with Honors Design Thinking for Entrepreneurship LAB", "Advanced Topics: American Language and Literature", "Capstone invites seniors to reflect upon their most powerful learning experiences".

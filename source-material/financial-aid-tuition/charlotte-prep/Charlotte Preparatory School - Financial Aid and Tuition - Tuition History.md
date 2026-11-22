@@ -100,3 +100,10 @@ The compound annual rates were about 3.9%, 4.5% and 4.6% over the 11 years, and 
 **The fee folding.** Strategic plan status note at https://charlotteprep.org/about/strategic-plan-2022-2027: "We have included the fees for athletics, fine arts, and technology in tuition for the 2024-25 school year".
 
 **Correction to the earlier sweep.** It listed "2015 (unlabelled)" and the years 2018–19 / 2021–22 / 2023–24 / 2024–25 / 2026–27, and all of those figures are confirmed. The sweep missed the 2016–17 and 2017–18 price sets. Its "2025–26 missing; those captures return HTTP 520" is confirmed: those are stored 520s, not a temporary error.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+https://charlotteprep.org/about/strategic-plan-2022-2027 (HTTP 200, 2026-11-22): "Status: We have included the fees
+for athletics, fine arts, and technology in tuition for the 2024-25 school year and will continue to do so moving
+forward. Other fees, which are mainly for optional activities, will still be billed separately." The fees were
+already inside the 2024-25 prices.

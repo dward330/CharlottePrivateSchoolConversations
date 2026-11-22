@@ -161,3 +161,12 @@ citations were removed from the report, along with the claims only they supporte
   is 404 and was never archived. The report's "Eleven-month plan" row and its "eleven-month
   payment plan" clause were removed. "Employee parents have a separate enrollment process" stays,
   cited to the live employees page.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+https://www.davidsonday.org/admission/tuition-and-affordability (HTTP 200, 2026-11-22) states both of these:
+"No financial aid award covers the full cost of tuition at Davidson Day School. Families receiving the "maximum"
+award at Davidson Day are required to pay $3,000 per year, per student for tuition."; and, for the scholarships,
+Acclaim "will cover 90% of tuition through graduation" and Wolter "covers all but $500 of annual tuition", each
+requiring demonstrated need through the financial aid application. The 2026-27 rates are unchanged ($22,590 /
+$25,010 / $26,320 / $26,910).

@@ -191,3 +191,23 @@ One thing changed. The live page says "HGCS does NOT provide AUTOMATIC discounts
 multi-child, like-minded pastor, etc )". The July page had said they were discontinued for
 2026-2027. The report now uses the live wording, matching the Admissions card's "No automatic
 discounts (multi-child, pastor)", and its Scholarships links point to the live page.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22 (curl, HTTP 200).
+
+- https://www.hgchristian.org/tuition-and-fees links two documents, "Tuition Rates" and "Educational Support
+  Services Fees", and prints Financial Policies:
+  - "Withdrawals: Each child is considered enrolled for the entire school year unless the admissions office receives
+    his/her written withdrawal notice minimum of two weeks prior to withdrawal."
+  - "If a student is withdrawn from HGCS due to financial delinquency, all grades, test scores, report cards,
+    transcripts, and cumulative records will be held until the account has been paid"; "If a delinquency occurs at
+    year-end, the student will not be allowed to re-enroll for the following school year."
+  - Seniors verify accounts "including FACTS, lunch account, graduation fees, and athletic fees".
+- https://files.smartsites.parentsquare.com/14485/tuitionrates26-27.pdf: $11,900 / $12,900 / $14,100, Spanish
+  Immersion $700, bus $1,000, TK-5 after school $2,600, "6th-12th grade After School Study Hall" $1,300
+  ("Revised 1/5/26").
+- https://files.smartsites.parentsquare.com/14485/edsupportservicesfees26-27.pdf: case management $300/year; testing
+  $370 / $760 / $1200; K5-8 $1892 to $4414; Instructional Support Class $4455/year.
+- https://www.hgchristian.org/afterschool-program is unchanged: "Study Hall – for students in grades 6–11", to
+  5:30 p.m.

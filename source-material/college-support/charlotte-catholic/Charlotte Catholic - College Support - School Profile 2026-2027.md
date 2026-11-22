@@ -529,3 +529,7 @@ Consequence for the app (plan `consistency`, row CCHS-31): replace "~1,171" with
 (2023–24, NCES)" wherever it renders outside Financial Aid & Tuition, and recompute the derived
 "~195 students per counselor" as ≈222 (1,330 ÷ 6). Financial Aid & Tuition is school-sourced
 only (user ruling 2026-11-10), so there the figure is dropped rather than replaced.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1787830297/charlottecatholicorg/ihsker6gva69wmhq5agy/2026-2027CCHSSchoolProfile.pdf (fetched 2026-11-22): "Since 2000, Charlotte Catholic has won 79 state championships and has been state runner-up 68 times"; "Of those, … 32% elected to remain in North Carolina, and 2% will be attending 2-year institutions."

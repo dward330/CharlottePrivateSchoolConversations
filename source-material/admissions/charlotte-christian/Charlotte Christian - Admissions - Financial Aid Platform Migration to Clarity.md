@@ -122,3 +122,10 @@ checklist PDF and every other reference say **2027**. 2027 is correct.
 This is a *second* such typo at this school: the Admissions Calendar PDF prints
 "Sunday, Feb. 1, **2026** — JK-K File Materials Due", already documented and
 corrected to 2027 in the app's data file.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.charlottechristian.com/admissions/tuition (fetched 2026-11-22). It now reads "Current family applications are due by Nov. 2, 2026. Awards will be communicated at the time of re-enrollment in February." and "Prospective family applications are due by Jan. 22, 2027. Awards will be communicated at the time of acceptance when an enrollment contract is offered by Admissions."
+- The same page has restored the state requirement: "All families applying for financial assistance to Charlotte Christian School must also apply to the North Carolina Opportunity Scholarship Program. Applications for this program open Feb. 1, 2027". This supersedes Finding 3 and the Nov. 1 date in Finding 2.

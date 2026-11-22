@@ -249,3 +249,9 @@ Beyond the Bell Session 3, 2025-26 catalog: https://issuu.com/cannonschool/docs/
 Beyond the Bell Session 1, 2025-26 catalog: https://issuu.com/cannonschool/docs/cannon_school_beyond_the_bell_session_1_2025-
 Camp Cannon 2026 brochure: https://issuu.com/cannonschool/docs/camp_cannon_brochure_summer_2026
 Cannon's full Issuu publication archive: https://issuu.com/cannonschool
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.cannonschool.org/cannon-life/beyond-the-bell-enrichment-program (HTTP 200): now embeds "Beyond the Bell Enrichment Offerings - Session 2 Brochure" and says "Registration for Session 1 opens Registration for BTB will open Aug 16 th and the first day of classes will be Aug 31 st". https://issuu.com/cannonschool/docs/beyond_the_bell_-_session_2 refused the fetch (HTTP 403), so the brochure's year and classes were not read.

@@ -124,3 +124,31 @@ publication; they are carried with that caveat and flagged for verification wher
 The W. Duke Kimbrell Scholarship is the school's **highest honor** and is full-tuition —
 notable because a 100%-of-tuition merit award is uncommon.
 
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22 (curl, HTTP 200).
+
+- https://www.gastonday.org/cost-and-financial-aid/ now prints a per-grade "26-27 Cost and Financial Aid" table:
+  "Preschool (3's) and Pre-K (4's): Half-Day $9,145 N/A N/A", "Full Day $11,340 N/A N/A",
+  "Kindergarten - Fourth $20,300", "Fifth-Eighth $22,300", "Ninth - Twelfth $23,310", and
+  "* 2026-2027 tuition is listed above. The 2027-2028 tuition will be set in January 2027."
+- Same page: "the school has implemented an Indexed Tuition plan whereby a range of tuitions is charged based on
+  demonstrated family need"; "The calculation for a family's demonstrated need will include the Opportunity amount
+  awarded"; "Cost of Attendance at GDS – Opportunity Award = Possible Remaining Financial Need"; "It is possible to
+  receive both GDS financial aid and the Opportunity Scholarship."
+- It links https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf (read with pdftotext):
+  - Tuition / fees / total: half day $8,200 / $945 / $9,145; full day $10,300 / $1,040 / $11,340;
+    K-4 $18,400 / $1,900 / $20,300; 5-8 $20,150 / $2,150 / $22,300; 9-12 $21,025 / $2,285 / $23,310.
+  - "*Fees include security, technology, and text books."
+  - Re-enrollment deposits by / after Feb 13, 2026: K-12 $1,150 / $1,250; Preschool and Pre-K $800 / $900.
+  - "PLAN A: Single Payment - Due July 1, 2026": $19,150 / $21,150 / $22,160 (K-4 / 5-8 / 9-12).
+  - "PLAN B: Two Payment - (Tuition Refund Program [TRP] & Surcharge is required with this plan)": TRP and surcharge
+    each $479 / $529 / $554; payments July 1 and December 1 of $10,054 / $11,104 / $11,634.
+  - "PLAN C: Nine Payment", May 1, 2026 to January 1, 2027: $2,234 / $2,468 / $2,585 a month.
+  - "A 4% processing fee will be added to all credit and debit card payments"; "A $100 return deposit fee".
+  - Bus: round trip $2,500, one way $1,630, "PM Shuttle (August 15th through November 15th) $ 600", per trip $18.
+  - "Music Lessons (per 30 minute lesson) $35"; "Extended Day Drop-In Fee $25".
+  - Preschool sheet: "Full day programs include Extended Day until 3:00"; half day drop-in "$25 per day/$120 per week".

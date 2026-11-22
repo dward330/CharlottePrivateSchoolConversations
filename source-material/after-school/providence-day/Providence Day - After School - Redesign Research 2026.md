@@ -320,3 +320,10 @@ stefanie.nicholson@providenceday.org; Clubhouse Brittany Lipman,
 brittany.lipman@providenceday.org; Extended Day nurse Lisa O'Neal,
 lisa.oneal@providenceday.org; enrichment billing Monique Gelista,
 monique.gelista@providenceday.org.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://docs.google.com/document/d/1_5u6M_MQtSRbLpKPYFjKqSXZB2pAV3McqIaD2TFhJWE/export?format=txt (HTTP 200, linked from the Extended Day page): "Annual Registration Fee: $80" and "Monthly Fees listed below will be charged and collected via Blackbaud Tuition Management."
+- The committed "Providence Day - After School - Enrichment Classes Fall 2026.pdf" (not re-fetched): Karate, TK, K and grades 1-5, "Fee: $220". Yola, TK, K and grades 1-2, "Fee: $200".

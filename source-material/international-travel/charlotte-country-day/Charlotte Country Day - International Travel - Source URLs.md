@@ -175,3 +175,8 @@ values that disagree within the app. Both are the school's own wording; neither 
 
 Both conflicts are the school's own pages disagreeing (category B in the plan): the app
 attributes each year or claim to its page rather than choosing one.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.charlottecountryday.org/cd-education/international-studies (HTTP 200): clubs "Model United Nations, Interact Club, International Studies Board, World Quest, and Euro Challenge (Upper School)"; "Upper School students contrast the U.S. system with other countries in AP Comparative Government".
+- https://www.charlottecountryday.org/cd-education/lower-school/ls-curriculum (HTTP 200): "Special area classes include science, design lab, physical education, modern languages (French and Spanish), music, art, drama, and library."

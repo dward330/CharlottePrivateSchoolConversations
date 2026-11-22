@@ -88,3 +88,22 @@ this pass.
 Staff-to-child ratios, capacity or enrolment caps, whether care runs on early-dismissal or
 teacher-workday dates, and summer-vs-term-time distinctions. Recorded as absences. (Summer
 wrap-around care **is** published separately and is documented in the summer-programs file.)
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22 (curl, HTTP 200).
+
+- https://www.gastonday.org/wp-content/uploads/2026/01/2627-GDS-Tuition-and-Fees.pdf (the 2026-2027 schedule):
+  "Lower School After School Care Fee – 3:00 until 5:30 $100 per week/$30 per day";
+  "Middle School After School Care Fee – 3:15 until 5:30 $60 per week/$15 per day".
+  Also "PLANNED ENRICHMENT PROGRAM: We anticipate offering varying After School Enrichment Programs in Dance,
+  Art/Painting, Cheer, Running (Speedy Spartans), Sports (Volleyball/Basketball) Science & Nature."
+- https://www.gastonday.org/afterschoolprogram/ now reads "The weekly fee is $100 and you will be billed monthly by
+  the Finance Office." (Lower) and "The weekly fee is $60 and you will be billed monthly by the Finance Office."
+  (Middle). Both say "Students must be picked up no later than 5:30pm". Also "There is no charge to sign your child
+  up and registration only takes 5 minutes or less." and "Students who are waiting on music lessons or afternoon
+  practice may work on homework at no charge."
+- So the period and hours conflicts recorded above hold only against the 2025-26 schedule. The page and the 2026-27
+  schedule agree on $100 / $60 a week and 5:30.

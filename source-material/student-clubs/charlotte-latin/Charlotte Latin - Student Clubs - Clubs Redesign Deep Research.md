@@ -242,3 +242,26 @@ Two nuances that explain the absence:
   (`/programs/service` returns 404).
 - The site is Finalsite with no `sitemap.xml` and JS-driven search, so scraping page HTML
   directly is the reliable route rather than fetching guessed slugs.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22.
+
+- https://www.charlottelatin.org/about/diversity-equity-inclusion now returns HTTP 404.
+- https://www.charlottelatin.org/about/community-belonging-global-education (200): "The Office of
+  Community, Belonging, and Global Education".
+- https://www.charlottelatin.org/about/community-belonging-global-education/community-and-belonging
+  (200): "Vernette Rucker — Associate Director of community and belonging".
+- https://www.charlottelatin.org/about/community-belonging-global-education/academic-transition-and-student-support
+  (200): "Affinity Group Programming: Brotherhood & Belonging"; "culturally responsive spaces for
+  historically underrepresented boys in Grades 3–12"; "Lower School (Grades 3–5): Voices –
+  Brotherhood & Identity"; "Middle School: The Boys' Room"; "Upper School: Leadership & Legacy",
+  described as "Future expansion".
+- https://www.charlottelatin.org/student-life/student-clubs/clubs (200) still lists 27 Upper School
+  clubs, including "Acapella Club: To have fun informally exploring this style of music. No previous
+  experience required." Mosaic reads "Under Mosaic we have Q&A and BSA." BSA is not expanded, and no
+  Indian Student Alliance is listed.
+- https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-celebrates-diwali
+  (200): "Members of the Indian Student Alliance took turns at the podium".

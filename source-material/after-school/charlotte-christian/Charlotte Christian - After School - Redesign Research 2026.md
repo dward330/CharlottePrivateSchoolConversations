@@ -314,3 +314,8 @@ Fetched (HTTP 200, full text):
 
 - https://www.charlottechristian.com/campus-life/extended-day-after-school-clubs (fetched 2026-11-20): no rate, no billing-month count and no annual total on the HTML page. It links the packet below.
 - https://resources.finalsite.net/images/v1749660471/charlotte/ahr13amhtgtsrxgzpuwt/2025-26ExtendedDayPacket.pdf (fetched 2026-11-20; PDF title metadata "2026-27 Extended Day Packet"). BILLING: "Families are billed monthly based upon attendance. Fees are charged based on the number of days attended each week." Rates: 5 days $325/month · 4 days $295 · 3 days $245 · 2 days $175 · 1 day $125 · JK-K Bridge Care (2:20-3:15 p.m.) $125/month · Grades 1-4 Bridge Care (2:40-3:35 p.m.) $125/month · daily drop-in $50/day · late fee $25/quarter hour from 6:01 p.m. · half-day early dismissal $25/day. **No count of billing months is stated.** So the Cost Planner's 9 months ($2,925) and the Compare `aftercare-cost` sub's 10 months (≈$3,250/yr) are both assumptions.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://resources.finalsite.net/images/v1780338464/charlotte/ahr13amhtgtsrxgzpuwt/ExtendedDayPacket.pdf (fetched 2026-11-22). Lower School: "3:45 - 4:30 p.m. Homework/Reading"; "JK-K Bridge Care (2:20-3:15 p.m.) $125/month"; "Grades 1-4 Bridge Care (2:40-3:35 p.m.) $125/month".
+- https://resources.finalsite.net/images/v1749660643/charlotte/qoqgaekh4yy1z74sy0m3/MSExtendedDay-ParentInformation1.pdf (fetched). Middle School: "4:00-4:30 p.m. Homework/Reading", a 30-minute block, then "4:30-5:00 p.m. Recreational Reading/Free Play/Homework".

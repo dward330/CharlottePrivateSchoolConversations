@@ -152,3 +152,12 @@ made anywhere in the app.
 ⚠️ **The school's own performances calendar is empty ("No showings")**, so the production
 season is reconstructed from the Blumey records above rather than from the school site.
 Only these two productions are documented; the app does not imply a fuller season list.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards (fetched 2026-11-22). All five Charlotte Catholic entries sit under "Finalists for …". The school is in none of the top-six nominee lists for Best Supporting Actor, Best Supporting Actress or Best Featured Performer. "The nominees for Best Actor, Best Actress … will be announced on Monday, May 4, 2026"; that later list was not found.
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf (fetched). "The students listed below are each production’s finalists in the categories of Best Supporting Actor and Best Supporting Actress." The same wording is used for Best Featured Performer, so every production has a finalist there.
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf (fetched). Charlotte Catholic, Phantom of the Opera: finalists in the same five categories.
+- https://resources.finalsite.net/images/v1771958102/charlottecatholicorg/ggbqwr7ecdypclivyab5/2026-2027CurriculumGuideedited.pdf (fetched). Choral Ensemble: "Prerequisites: Freshman Chorus or audition". Concert Band: "Prerequisites: Middle school band experience, private lessons, or audition"; "eligible for this class through an audition". Percussion has the same kind of prerequisite.

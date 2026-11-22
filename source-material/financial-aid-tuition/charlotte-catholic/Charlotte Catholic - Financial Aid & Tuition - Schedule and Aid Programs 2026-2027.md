@@ -110,3 +110,8 @@ Fetched https://www.discovermacs.org/admissions/tuitionandaffordability (HTTP 20
 - Options – CCHS: Community $24,077 · Participating Catholic $18,345.
 - Capital Fee $1,995 per family; Application Fee $120 per student; Continuous Enrollment Fee $150; FACTS plan fee $15-$45 per family.
 - Multiple Child Tuition Discount (Participating Catholic families only): 2nd 10%, 3rd 25%, 4th 50%, 5th+ 100%.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.discovermacs.org/admissions/tuitionandaffordability (fetched 2026-11-22). Continuous Enrollment Fee: "$150 per new student", "$150 per returning student", "$75 per PK student". Capital Fee: "Assessed annually to each family". Payment plans: Annual (June 20th), Semi-Annual (June 20th & December 20th), Quarterly, Monthly, "Monthly-10** 20th of each month (skip December & May)". "credit & debit cards are subject to a 2.95% service fee". Important Dates: "November 2026: 2027-28 FIT applications open"; "3/16/27: 2027-28 FIT determinations emailed to families whose FIT applications are completed by 3/1/27". Participating Catholic requirements are listed (registered parish, Mass attendance, service, sacraments, verified by the parish).
+- https://resources.finalsite.net/images/v1783870190/charlottecatholicorg/noikdbslslpxnkvxqrcc/2026-2027TuitionandFeeScheduleUPDATED.pdf (fetched, image read). Continuous Enrollment Fee: "$150 per new student", "$150 per PK student", "$75 per returning student". The PDF and the web page swap the PK and returning figures.

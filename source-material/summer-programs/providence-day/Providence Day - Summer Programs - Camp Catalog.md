@@ -355,3 +355,9 @@ waitlist data.
 
 The Family Night Creatives weekday (brochure and website disagree); the categories of
 18 camp rows absent from the archived session snapshots.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://summer.providenceday.org/fs/resource-manager/view/15c9f316-1d70-4adf-af87-862c78ec285d (HTTP 200, the 2026 brochure PDF): "Junior Masters Chess Camp $255 K-5" and "$315 K-5", "IDEAS - Battle Bot Camp $360 5-8" and "$450 5-8", "Playlax Lite $445 1-8", under "Session (no camps June 19 and July 3)". The session marks are glyphs that do not extract, so the session columns rest on the table above.

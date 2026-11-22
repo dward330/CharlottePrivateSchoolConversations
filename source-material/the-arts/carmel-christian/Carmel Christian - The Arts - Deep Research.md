@@ -122,3 +122,11 @@ TO VERIFY (curriculum guide / campus map).
 - **TO VERIFY:** Singin' in the Rain year; Carowinds/music adjudication honors; graphic
   design as a named course; the arts-page vs curriculum-guide disagreement on advanced arts
   courses.
+
+## Method
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.blumenthalarts.org/assets/doc/2024-Blumey-Nominees-and-Finalists-6435d5b18b.pdf (fetched 2026-11-22, `pdftotext -layout`, headings re-read). Anastasia: top-six nominees are Best Featured Performer (Ballet Lead) and Best Supporting Actor (Vlad). Finalists are Best Actor (Dmitry), Best Actress (Lily), Best Supporting Actor (Vlad), Best Supporting Actress (Dowager Empress) and Best Featured Performer (Ballet Lead). The ledger above assigned three of these to the wrong category. Lily is under "Finalists for Best Actress", so there is no labeling quirk.
+- https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf (fetched). Carmel Christian, Oklahoma!: one finalist in each of the five performance categories. The ledger above omits that year.
+- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards (fetched). Footloose: six placements in six categories (Best Choreography Execution, Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress, Best Featured Performer).

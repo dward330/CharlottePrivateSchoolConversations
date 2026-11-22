@@ -200,11 +200,13 @@ The parent appends newly verified "not a conflict" groups here through the round
 | Covenant Day | camps | 29 / 20 | Marketed 29 vs 20 enumerable camps, attributed |
 | Covenant Day | seniors | 1 / 85 | One dedicated counselor |
 | Covenant Day | ensembles | 1 / 9 | "1" parses "sequential from grade 1" |
+| Davidson Day | teams | 35 / 33 | School's count vs chips; the footnote names the basis |
 | Davidson Day | students | 565 / 13 / 10 / 18 / 500 / 4 / 1 | Enrollment, a dig, presenters, a session cap, program-wide, a group size, "1 course" |
 | Davidson Day | institutions | 2 / 70 / 278 | Counselor tile (mis-parsed), a fair, the list |
 | Gaston Day | teams | 19 / 7 / 5 / 20 | Headers 7 + 5 + 7 = 19; chips add volleyball JV |
 | Gaston Day | camps | 1 / 27 | "2-4-1 Camp" parsed as "1 camp" |
 | Gaston Day | institutions | 2 / 231 | A mis-parsed tile |
+| Gaston Day | seniors | 1 / 35 / 18 | 18 is the computed caseload, 35 ÷ 2; "1" parses "~18:1" |
 | Gaston Day | students | 11 / 510 | "grade-11 students" parsed as 11 |
 | Gaston Day | ensembles | 2 / 3 | "drama from grade 2" parsed as 2 |
 | Hickory Grove | teams | 30 / 28 / 27 | Attributed: athletics page, Wikipedia, coached-level chips |

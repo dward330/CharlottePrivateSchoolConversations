@@ -333,3 +333,9 @@ $225 | Alternative pricing may be considered based on program needs." The page i
 enrichment program directors, so a given class may be priced differently, but a standard 2026–27 enrichment fee is
 published on the school's own site. The After School verdict prints the $225 mini; the Financial Aid report still
 lists "Enrichment classes · no rate" and asks for the rate (Q3).
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+- https://www.charlottecountryday.org/bucsnet/quick-reference (HTTP 200): "Grades 5–8: 8:00 am–3:10 pm" and "Grades 9–12: 8:00 am–3:15 pm".
+- https://www.charlottecountryday.org/cd-experience/after-school/program-directors (HTTP 200): "Grades 5–8 (17:1 ratio) : 3:20–4:20 pm".
+- https://www.charlottecountryday.org/cd-experience/after-school (HTTP 200): "Extended Day , which provides structured care and supervised play until 6 pm". /bucsnet/after-school/extended-day: "for students from JK through grade 8".

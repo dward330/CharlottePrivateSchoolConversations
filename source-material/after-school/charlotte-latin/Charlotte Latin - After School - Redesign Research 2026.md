@@ -375,3 +375,26 @@ without a comma). $1,880 is above that row's own 5-day rate ($1,475), so as prin
 linear either: two rows now break the pattern, not one. The Wayback Machine holds only a
 2026-02-10 capture of this URL, so whether the page changed after July 27 or the July pass misread
 it cannot be told from archives.
+
+### Re-verification 2026-11-22 (plan consistency4, self-scan)
+
+Fetched 2026-11-22, each HTTP 200.
+
+- https://www.charlottelatin.org/student-life/transportation: "Morning buses leave their stops for
+  campus at an assigned time between 7:00 a.m. and 7:25 a.m." Afternoon: "1:30 p.m. (designated for
+  Kindergarten dismissal) and 3:05 p.m. (TK-K Hawks Club students and Grades 1-5). Departure time for
+  students attending Flyzone, Middle School and Upper School is 3:20 p.m." Activity buses: "4:45 p.m.
+  (LS only), 5:30 p.m. (MS & US), 6:00 p.m. (MS & US)".
+- https://www.charlottelatin.org/admissions/transportation: "between 7:00 a.m. and 7:20 a.m.";
+  "1:30 p.m. (designated for Kindergarten dismissal) and 2:55 p.m. Departure time for Middle School
+  and Upper School students is 3:30 p.m."; activity bus "4:30 p.m. (Lower School)".
+- https://www.charlottelatin.org/after-school/hawks-club: "Grades 1–5 dismiss at 2:55 p.m.
+  (Dismissal times subject to change.)"; "Lower School students participating in after-school or
+  enrichment programs may take the 4:30 p.m. late activity bus." The rate table is unchanged.
+- https://www.charlottelatin.org/after-school/youth-sports-recreation-program now lists two more
+  sessions. Session Three (November 7 - February 13): Flag Football, Grades KG-5, "$195"; Wrestling,
+  Grades 4 & 5, "$250"; Indoor Field Hockey, no fee printed. Session Four (February 16 - May 22):
+  Boys' and Girls' Lacrosse, grades 3 & 4 "$325", Boys' grades 5 & 6 "$350", Girls' grades 5 & 6
+  "$375"; Boys Soccer Academy "$300"; Volleyball "$275". Basketball and swimming are not yet priced.
+- https://www.charlottelatin.org/after-school still gives Talons as "Grades 3–6".
+- https://www.charlottelatin.org/after-school/enrichment-programs still lists 27 classes with no fee.
