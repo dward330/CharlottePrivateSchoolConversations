@@ -398,8 +398,9 @@ catalogs in `TRANSLATED` (`src/locales/{en,es,bn,ht,te,fr,fa,it,hi,ar}.json`).
   **User ruling, 2026-11-22: keep the ladder and cite the live page.** The section `source`
   and the report `sources` line now carry the URL ("retrieved 22 Nov 2026"), and the ruling
   is settled as **S7** in `.claude/skills/consistency-self-scan/settled.md`, so a rescan does
-  not re-raise it. **Phase 2 step 1b therefore changes:** no units are removed. The two
-  edited source lines are re-translated as minimal edits instead.
+  not re-raise it. **Phase 2 step 1b therefore changes:** no units are removed. *(Corrected
+  2026-11-22: Financial Aid source lines are citation labels and are never extracted, so the
+  edited lines need no translation either. They render English in every locale by design.)*
 - **LAT-13 `tileBasis` is registered in `PATH_OVERRIDES`, not `PROSE_KEYS`.** Its leaf key
   is the school slug, so a `PROSE_KEYS` entry would never match. It follows `subs`, with
   one `['tileBasis.<slug>', true]` per high school.
@@ -469,3 +470,25 @@ findings, with their resolutions. It confirmed all five first-pass fixes and fou
    `## Method` record.
 
 That was the second pass, so per the cap the review loop ends here. Nothing is left open.
+
+### Scope addition (user, 2026-11-22): linked sources in the Financial Aid reports
+
+After the Phase 1 review, the user asked for the Financial Aid report's source lines to link
+the pages they name, and chose to fold it into this plan. That is the "(PDF)/URL is plain
+text" suggestion from the Phase 1 hand-back. The user's decisions:
+
+- **Link the page names** ("Link the page names (Recommended)"): `[Financial Aid FAQs](https://…)`
+  in the data renders as the name with ↗, in Course Offerings' link style. The domain prefix,
+  "(PDF)" and the retrieval date stay plain. Raw URLs in the line were rejected as too noisy.
+- **No translation.** "you dont need to translate urls into other languages" / "the display
+  text of the urls can stay in english too". The source lines were already never extracted
+  (`source` is a citation label in `scripts/i18n_fields.mjs`), so this adds nothing to Phase 2.
+- **UX change, designed first.** It was mocked in `Financial Aid & Tuition.dc.html` (Cannon's
+  source rows opened, links outlined), then built, then re-captured, per the CLAUDE.md hard rule.
+- **Component:** `SourceLinks` in `src/components/FinancialAidReport.tsx` renders both the
+  section `source` and the report `sources` line. The type docs in `financialAidReports.ts` name
+  the syntax.
+- **Data:** all 86 source lines in 13 reports. Each named page's URL was found by research,
+  checked live today (HTTP 200, title matching the name), or taken as the Wayback copy of the
+  named edition when that edition has left the live site. Nothing guessed: a name with no
+  verifiable URL stays plain, and the reason is recorded in `consistency3-data/fa-source-links.json`.
