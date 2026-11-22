@@ -295,6 +295,41 @@ association too: its all-time list gives Charlotte Catholic 10, against the Scho
 
 See [`.claude/skills/wells-fargo-cup/SKILL.md`](.claude/skills/wells-fargo-cup/SKILL.md).
 
+## Student-name standard (required)
+
+**⛔ Never expose the name of a student who is not an athlete (HARD rule, user 2026-11-22:
+"Please remove non-athlete student names. Thats a hard rule not to expose their names").**
+The user first set it on 2026-11-10 ("Only student athletes name get mentioned since that
+case is so public"), when research files could still keep names if no page showed them.
+**That allowance is over.** The repo is public and `src/content/` ships as public chunks, so
+"no page renders it" is never a defense.
+
+- **It covers everything tracked, shipped or posted:** pages, every translation, research
+  `.md`, generated notes and content, plans, worklists, code comments, filenames, URLs and
+  slugs, photos, branch names, commit messages, and PR and issue text. It binds every skill,
+  workflow and subagent, so put it in the brief of any agent that fetches or writes research.
+- **Only an athlete may be named, and only for athletics** (rosters, commitments, records,
+  athletics awards). An athlete's name comes out of an arts award, an academic honor or a
+  graduate-to-college list. Dance is athletics only where the school fields it as a varsity
+  sport. A team manager is not an athlete.
+- **A student is still a student after graduating,** when named for what they did at school.
+  First name alone, surname alone, initials and transliterations all count.
+- **If you cannot show that a person is an athlete or an adult, leave the name out.** Staff,
+  coaches and other adults in adult roles stay named.
+- **Write the recognition and the role instead:** "Best Actor (as Harry Bright)", "two
+  students". In a research record, `[name withheld]` marks a name taken out.
+- **Never repeat a name to report, fix or test its removal.** Not in a plan, a grep list, a
+  commit, a PR or a reply: those are how removed names came back.
+- **Look at a photo before shipping it** for a readable name on clothing, work or a label.
+- **Raw PDFs keep their names, so the ingest withholds them** from a local, gitignored list,
+  `source-material/_name_redactions.json`. Never commit or print that list. It knows only
+  names somebody found: read each new file's generated note and add what it brings.
+- **A name check cannot rely on word boundaries alone.** Names hid joined to Arabic letters,
+  split across PDF lines and inside slugs.
+
+A stricter local rule still wins: Global Exposure, Learning Support and the podcast episodes
+name no student at all.
+
 ## Podcast episode standard (required)
 
 Every NotebookLM prompt written for an episode of *Charlotte Private School Conversations*,
@@ -1304,7 +1339,9 @@ sources into the repo — not just the derived number in the app.**
 - Save it as a `.md` file in the correct `source-material/<topic>/<school>/` folder,
   named `<School> - <Topic> - <Subtopic>.md` so the ingest pipeline picks it up.
 - Include, at minimum: a short provenance header (who/when/how), the **source URLs**, and
-  the athlete/record-level detail behind any number you put in the app.
+  the athlete/record-level detail behind any number you put in the app. Names in that detail
+  follow the Student-name standard: athletes for athletics only, every other student by
+  recognition and role.
 - These `.md` files are committed (the `.gitignore` exempts `source-material/**/*.md`),
   so the repo always retains the hard data even though raw PDFs are not committed.
 - Any figure surfaced in `src/data/metricValues.ts` (or elsewhere in the app) must be
