@@ -128,6 +128,7 @@ export const hickoryGroveChristian: SportsProgram = {
       'Twelve NCISAA team state titles since joining in 2002 — seven in softball, three in baseball, and one each in girls basketball and boys track.',
     subhead:
       '"State" = NCISAA (the private-school association); HGCS competes in 3A. Softball is the flagship: seven titles across 2006–2019, and back in the state final in 2022 and 2023.',
+    matrixTitle: 'State-title matrix, 2021–25',
     seasonLabels: ['2021', '2023', '2024–25'],
     rows: [
       {

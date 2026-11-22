@@ -58,6 +58,8 @@ export const PROSE_KEYS = new Set([
   // merit block is a five-year AP line, not a National Merit ledger), so they
   // are research findings that vary per school: prose.
   'meritTitle',
+  // The state-title matrix heading, set where the columns are not the last N seasons.
+  'matrixTitle',
   'depthTitle',
   'trustTitle',
   'kicker', 'verdict', 'result',

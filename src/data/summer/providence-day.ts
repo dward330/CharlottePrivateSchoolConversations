@@ -1006,6 +1006,7 @@ export const providenceDay: SummerProgram = {
         label: 'Half-day, four-day week',
         panelLabel: 'Half-day camp · four-day week',
         price: 255,
+        daysPerWeek: 4,
         detail: 'Sessions 3 and 5 only — the weeks with no camp June 19 or July 3.',
       },
       {

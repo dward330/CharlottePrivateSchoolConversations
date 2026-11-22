@@ -1034,6 +1034,7 @@ export const charlotteCountryDay: SummerProgram = {
         label: 'Half-day, four-day week',
         panelLabel: 'Half-day camp · four-day week',
         price: 230,
+        daysPerWeek: 4,
         detail: 'The June 15-18 and June 29-July 2 weeks only.',
       },
       {

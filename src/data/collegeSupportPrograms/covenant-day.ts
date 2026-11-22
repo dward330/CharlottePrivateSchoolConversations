@@ -163,6 +163,7 @@ export const covenantDay: CollegeSupportProgram = {
       { value: '74%', label: 'of HS faculty hold advanced degrees' },
     ],
     meritTitle: 'The five-year AP line, as the profile charts it',
+    meritApResults: true,
     merit: [
       { year: '2022', detail: '84% of AP exam scores 3+' },
       { year: '2023', detail: '93% — Class of 2023: 161 students, 324 exams; SAT 1268 / ACT 26' },

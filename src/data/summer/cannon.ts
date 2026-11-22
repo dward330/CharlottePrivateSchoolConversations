@@ -1086,6 +1086,7 @@ export const cannon: SummerProgram = {
         label: 'Half-day, four-day week',
         panelLabel: 'Half-day camp · four-day week',
         price: 180,
+        daysPerWeek: 4,
         detail: 'Week 2 only (June 15-18, closed for Juneteenth).',
       },
       {
@@ -1093,6 +1094,7 @@ export const cannon: SummerProgram = {
         label: 'Half-day premium, four-day week',
         panelLabel: 'Half-day premium camp · four-day week',
         price: 196,
+        daysPerWeek: 4,
         detail: 'Week 2 only.',
       },
       {

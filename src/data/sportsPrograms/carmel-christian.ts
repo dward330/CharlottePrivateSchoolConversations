@@ -106,6 +106,7 @@ export const carmelChristian: SportsProgram = {
       'Four recent NCISAA titles — two in boys basketball (2019 3A, 2022 4A), one in boys soccer (2020 4A) and one in boys tennis (2025 4A) — behind a string of deep finals runs.',
     subhead:
       '"State" = NCISAA (the private-school association); Carmel does not compete in the public-school NCHSAA.',
+    matrixTitle: 'State-title matrix, 2019–26',
     seasonLabels: ['2019–20 finals', '2021–22 finals', '2023–26 finals'],
     rows: [
       {

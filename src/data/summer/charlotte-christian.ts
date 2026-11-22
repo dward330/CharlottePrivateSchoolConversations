@@ -1345,6 +1345,7 @@ export const charlotteChristian: SummerProgram = {
         label: 'Four-day week, discounted',
         panelLabel: 'Half-day camp · four-day week (discounted)',
         price: 155,
+        daysPerWeek: 4,
         detail: 'Week 3 only — 3 of the 133 sessions.',
       },
       {
@@ -1352,6 +1353,7 @@ export const charlotteChristian: SummerProgram = {
         label: 'Four-day week, standard',
         panelLabel: 'Half-day camp · four-day week',
         price: 160,
+        daysPerWeek: 4,
         detail: 'Week 3 only — 17 sessions.',
       },
       {

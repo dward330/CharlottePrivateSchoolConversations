@@ -557,6 +557,7 @@ export const carmelChristian: SummerProgram = {
         label: 'Four-day week',
         panelLabel: 'Half-day camp · four-day week · 9 a.m.–12 p.m.',
         price: 180,
+        daysPerWeek: 4,
         detail: 'The standard week (Weeks 1, 4, 5 and 6). Half-day, Monday–Thursday.',
       },
       {
@@ -564,6 +565,7 @@ export const carmelChristian: SummerProgram = {
         label: 'Three-day week',
         panelLabel: 'Half-day camp · three-day week · 9 a.m.–12 p.m.',
         price: 150,
+        daysPerWeek: 3,
         detail: 'Weeks 2 and 3 only — the Juneteenth and July 4 weeks run Monday–Wednesday.',
       },
     ],

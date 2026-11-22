@@ -145,6 +145,11 @@ export type PlannerTier = {
   detail?: string
   /** Set when the rate is modeled rather than published — renders EST. */
   estimated?: boolean
+  /**
+   * Camp days in this tier's week, for the planner's "per camp day" figure. Set
+   * it on every short-week tier. Omitted means five (plan consistency4, CAR-T4).
+   */
+  daysPerWeek?: number
 }
 
 /** One optional extra a family can add, priced per week alongside the camp. */

@@ -431,9 +431,9 @@ export function CostPlannerBody({ data }: { data: CostPlanner }) {
   const summerTotal = campTotal + addonTotal + oneTime
 
   /* A camp day is the atomic unit a parent compares against a sitter, so the
-     panel closes on it. Five days a week is the published camp week for every
-     school here; a school selling anything else would need its own divisor. */
-  const perCampDay = Math.round(summerTotal / (weeks * 5))
+     panel closes on it. A week is five days unless the selected tier says
+     otherwise: short weeks are sold as tiers of their own. */
+  const perCampDay = Math.round(summerTotal / (weeks * (tier.daysPerWeek ?? 5)))
 
   /* Any figure in the estimate that came from a modeled rate makes the whole
      total modeled — a total is only as published as its least published input. */
