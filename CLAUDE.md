@@ -327,6 +327,13 @@ case is so public"), when research files could still keep names if no page showe
 - **A name check cannot rely on word boundaries alone.** Names hid joined to Arabic letters,
   split across PDF lines and inside slugs.
 
+**The one exception: the Latest News section (user, 2026-11-22: "Latest news showing student
+names can be ignored").** It shows each school's own headlines and previews, fetched live, so
+a student named there is **not a finding**. Do not filter, hide or reword it for this rule,
+and do not re-raise it in a scan or review. The exception covers **only what that section
+renders live**: never copy a name from it into a tracked file (a parser comment, a news-board
+research record, a plan, a test, a skill example), a commit or a PR.
+
 A stricter local rule still wins: Global Exposure, Learning Support and the podcast episodes
 name no student at all.
 
@@ -445,6 +452,10 @@ stays English. **Never add this section to `i18n_topics.mjs`, the prose extracto
 `PROSE_TRANSLATED`, or any overlay** — it is not a research area and holds no `src/data`
 prose. If a reviewer reports "the headlines are in English on the Spanish page", that is
 correct behaviour.
+
+**Student names in this section are allowed as fetched** (user, 2026-11-22). It is the one
+exception to the Student-name standard, and it stops at the rendered section: a name never
+moves from here into a file.
 
 Adding a school's news is therefore always **single-phase**. See
 [`.claude/skills/add-school-news/SKILL.md`](.claude/skills/add-school-news/SKILL.md).
