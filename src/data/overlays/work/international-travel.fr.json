@@ -1691,13 +1691,20 @@
       "t": "Ouverture des inscriptions aux Global Trips"
     },
     {
-      "text": "Middle & Upper School · grades 6–12",
-      "of": "843c2227",
+      "text": "Middle & Upper School · grades 6–11",
+      "of": "853c23ba",
       "at": [
         "providence-day:signup.groups[0].events[0].audience",
-        "providence-day:signup.groups[0].events[1].audience"
+        "providence-day:signup.groups[0].events[1].audience",
+        "providence-day:signup.groups[0].events[2].audience",
+        "providence-day:signup.groups[0].events[3].audience",
+        "providence-day:signup.groups[0].events[4].audience",
+        "providence-day:signup.groups[0].events[5].audience",
+        "providence-day:signup.groups[0].events[6].audience",
+        "providence-day:signup.groups[0].events[7].audience",
+        "providence-day:signup.groups[0].events[8].audience"
       ],
-      "t": "Middle School et Upper School · niveaux 6–12"
+      "t": "Middle School et Upper School · niveaux 6–11"
     },
     {
       "text": "October 22, 2026 · 6:30–7:00 PM",
@@ -1738,20 +1745,6 @@
         "providence-day:signup.groups[0].events[2].name"
       ],
       "t": "Date limite d’inscription, de versement de l’acompte non remboursable et de demande d’aide financière"
-    },
-    {
-      "text": "Middle & Upper School · grades 6–11",
-      "of": "853c23ba",
-      "at": [
-        "providence-day:signup.groups[0].events[2].audience",
-        "providence-day:signup.groups[0].events[3].audience",
-        "providence-day:signup.groups[0].events[4].audience",
-        "providence-day:signup.groups[0].events[5].audience",
-        "providence-day:signup.groups[0].events[6].audience",
-        "providence-day:signup.groups[0].events[7].audience",
-        "providence-day:signup.groups[0].events[8].audience"
-      ],
-      "t": "Middle School et Upper School · niveaux 6–11"
     },
     {
       "text": "November 13, 2026",
@@ -8035,12 +8028,12 @@
       "t": "Lower School et langues."
     },
     {
-      "text": "What global and language curriculum runs before Middle School, and is there a published language sequence from JK to 12?",
-      "of": "9259a6b1",
+      "text": "French and Spanish begin in Lower School. Is there one published language sequence that runs from JK to 12th grade?",
+      "of": "c44a6e48",
       "at": [
         "charlotte-country-day:verdict.ask[8].question"
       ],
-      "t": "Quel programme international et linguistique est proposé avant la Middle School, et existe-t-il une progression linguistique publiée de JK à 12 ?"
+      "t": "Le français et l’espagnol commencent en Lower School. Existe-t-il une progression linguistique unique et publiée qui va de JK à la 12e année ?"
     },
     {
       "text": "Is a global certificate or diploma planned?",
@@ -8747,12 +8740,12 @@
       "t": "Quels voyages sont prévus pour 2026–27 ? Aucune liste de voyages n’est publiée."
     },
     {
-      "text": "What does a trip cost, and what does it include? No trip price is published.",
-      "of": "50cea9fe",
+      "text": "The fee list gives $0–500 for a Winterm course, depending on the one chosen, but no price for any trip abroad. What does a trip cost, and what does it include?",
+      "of": "edba8f97",
       "at": [
         "cannon:verdict.ask[2].question"
       ],
-      "t": "Combien coûte un voyage, et que comprend-il ? Aucun prix de voyage n’est publié."
+      "t": "La liste des frais indique $0–500 pour un cours Winterm, selon celui choisi, mais aucun prix pour un voyage à l’étranger. Combien coûte un voyage, et que comprend-il ?"
     },
     {
       "text": "Financial aid covers \"Required overnight class trips\". Do aid or the John Riley Endowment for Science, Service, and Travel cover optional trips abroad?",
@@ -9692,12 +9685,12 @@
       "t": "Le programme international de Davidson Day sort de l’ordinaire : ses voyages relèvent de la recherche archéologique, et non du tourisme. Les élèves fouillent avec des professionnels en Espagne, au Portugal et au Belize. Ils présentent leurs résultats lors de conférences universitaires. Les fouilles et les conférences font partie d’une distinction de recherche de deux ans en Upper School."
     },
     {
-      "text": "Summer field research at three active sites, one of them on record for 20 seasons",
-      "of": "7d81b0c4",
+      "text": "Summer field research at three active sites, after 20 seasons at Cahal Pech",
+      "of": "874694ea",
       "at": [
         "davidson-day:verdict.standsOut.points[0]"
       ],
-      "t": "Des recherches de terrain l’été sur trois sites actifs, dont l’un compte 20 saisons documentées"
+      "t": "Des recherches de terrain l’été sur trois sites actifs, après 20 saisons à Cahal Pech"
     },
     {
       "text": "Student research presented at Mount Royal University — 10 students in fall 2024",

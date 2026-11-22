@@ -52,7 +52,7 @@ for (const topic of Object.keys(L.TOPICS)) {
     if (before.get(p) === s) continue // English on main too
     const [school, path] = [p.slice(0, p.indexOf(':')), p.slice(p.indexOf(':') + 1)]
     const leaf = path.replace(/(\[\d+\])+$/, '').split('.').pop()
-    const c = classifyField(path, leaf)
+    const c = classifyField(path.replace(/\[\d+\]/g, '[]'), leaf, s)
     const prose = c === true || c === 'prose' || c?.prose === true || c?.kind === 'prose' || c?.translate === true || c?.extract === true
     if (ok.has(p) || prose) changed.push([p, s])
   }

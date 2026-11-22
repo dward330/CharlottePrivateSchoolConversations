@@ -464,12 +464,12 @@
       "t": "Pa gen okenn rabè frè ak sè ki pibliye ni pou frè eskolè ni pou Extended Day. De timoun nan grad 1–5 nan nivo konplè 3:00–6:00 la se $940/mwa."
     },
     {
-      "text": "Sources disagree on the billing platform: the fee document names **Blackbaud**, the tuition and aid pages reference **Clarity**, and an archived FAQ references **Smart Tuition**.",
-      "of": "250f3eec",
+      "text": "Billing is **Blackbaud**, per the 2026-27 fee document. The tuition page uses **Clarity** only to assess aid. An archived FAQ named **Smart Tuition**; the current fee document does not.",
+      "of": "a92b11e0",
       "at": [
         "providence-day:cost.flags[2].text"
       ],
-      "t": "Sous yo pa dakò sou platfòm faktirasyon an: dokiman frè a nonmen **Blackbaud**, paj frè eskolè ak èd yo referans **Clarity**, epi yon FAQ achive referans **Smart Tuition**."
+      "t": "Faktirasyon an fèt ak **Blackbaud**, dapre dokiman frè 2026-27 la. Paj frè eskolè a sèvi ak **Clarity** sèlman pou evalye èd. Yon FAQ achive te nonmen **Smart Tuition**; dokiman frè aktyèl la pa nonmen l."
     },
     {
       "text": "Financial assistance reaches after-school here, which is uncommon — the tuition page states aid \"may be available for some of these additional costs\", naming Extended Day and Clubhouse. It is hedged, not a guarantee.",
@@ -673,12 +673,12 @@
       "t": "Klas anrichisman Otòn 2026"
     },
     {
-      "text": "The school’s own Fall 2026 packet — real fees, days and grade bands. All classes run **10 sessions**; TK/K classes are $200 and grades 1–5 are $220. Students may take only **one** enrichment program per day, and enrollment in Extended Day is required to attend any of them.",
-      "of": "fa0d70ed",
+      "text": "The school’s own Fall 2026 packet — real fees, days and grade bands. All classes run **10 sessions**. Most TK/K classes are $200 and most grades 1–5 classes are $220. Karate is $220 and YoLa is $200 for every grade they take. Students may take only **one** enrichment program per day, and enrollment in Extended Day is required to attend any of them.",
+      "of": "832a5f40",
       "at": [
         "providence-day:dayInside.catalogIntro"
       ],
-      "t": "Pwòp pakè Otòn 2026 lekòl la — vrè frè, jou ak bann nivo. Tout klas fonksyone **10 sesyon**; klas TK/K se $200 epi grad 1–5 se $220. Elèv yo ka pran sèlman **yon sèl** pwogram anrichisman pa jou, epi enskripsyon nan Extended Day obligatwa pou patisipe nan nenpòt nan yo."
+      "t": "Pwòp pakè Otòn 2026 lekòl la — vrè frè, jou ak bann nivo. Tout klas fonksyone **10 sesyon**. Pifò klas TK/K se $200 epi pifò klas grad 1–5 se $220. Karate se $220 epi YoLa se $200 pou tout grad yo aksepte. Elèv yo ka pran sèlman **yon sèl** pwogram anrichisman pa jou, epi enskripsyon nan Extended Day obligatwa pou patisipe nan nenpòt nan yo."
     },
     {
       "text": "Classical and modern styles on canvas with Coloring on Canvas, LLC",
@@ -897,12 +897,12 @@
       "t": "Kesyon ki rete yo se rapò yo, mank nan Upper School la, ak frè Jou Aktivite a ki pa pibliye — egzakteman sa yon vizit reponn."
     },
     {
-      "text": "**Best-in-class price transparency** — a complete published 40-cell grade × tier × days matrix, so a family can compute its exact annual cost before applying.",
-      "of": "d76cd609",
+      "text": "**Best-in-class price transparency** — a complete published 40-cell grade × tier × days matrix, so a family can compute its exact monthly cost before applying.",
+      "of": "e88b97e7",
       "at": [
         "providence-day:verdict.strengths[0]"
       ],
-      "t": "**Pi bon transparans pri nan gwoup la** — yon matris konplè 40 selil ki pibliye pa nivo × palye × jou, kidonk yon fanmi ka kalkile depans anyèl egzak li anvan li aplike."
+      "t": "**Pi bon transparans pri nan gwoup la** — yon matris konplè 40 selil ki pibliye pa nivo × palye × jou, kidonk yon fanmi ka kalkile depans chak mwa egzak li anvan li aplike."
     },
     {
       "text": "**Three tiers for the youngest students**, explicitly designed around sibling-pickup logistics. The 1:00 p.m. TK dismissal is a real burden and the school priced an answer to it.",
@@ -1073,18 +1073,10 @@
       "t": "Kijan asistans finansye a aplike vre nan Extended Day ak Clubhouse — menm to prim ak frè eskolè a, epi èske li rive nan frè anrichisman?"
     },
     {
-      "text": "Which platform actually bills Extended Day — Blackbaud, Clarity, or Smart Tuition?",
-      "of": "67d6608d",
-      "at": [
-        "providence-day:verdict.checklist[6]"
-      ],
-      "t": "Ki platfòm ki faktire Extended Day vre — Blackbaud, Clarity, oswa Smart Tuition?"
-    },
-    {
       "text": "Are there sibling discounts? Two children at $470/month is $940/month.",
       "of": "b35016b2",
       "at": [
-        "providence-day:verdict.checklist[7]"
+        "providence-day:verdict.checklist[6]"
       ],
       "t": "Èske gen rabè pou frè ak sè? De timoun a $470/mwa se $940/mwa."
     },
@@ -1092,7 +1084,7 @@
       "text": "What is the staff-to-child ratio by age group, and what is staff retention like?",
       "of": "e971e5d2",
       "at": [
-        "providence-day:verdict.checklist[8]"
+        "providence-day:verdict.checklist[7]"
       ],
       "t": "Ki rapò estaf-a-timoun nan pa gwoup laj, epi kijan retansyon estaf la ye?"
     },
@@ -1100,7 +1092,7 @@
       "text": "Can we change tiers mid-year, and does the $30/hour adjustment rate apply?",
       "of": "9008bceb",
       "at": [
-        "providence-day:verdict.checklist[9]"
+        "providence-day:verdict.checklist[8]"
       ],
       "t": "Èske nou ka chanje palye nan mitan ane a, epi èske to ajisteman $30/èdtan an aplike?"
     },
@@ -1108,7 +1100,7 @@
       "text": "Clubhouse specifics: ratio, homework support, and is the $100 really the only cost?",
       "of": "221a82e1",
       "at": [
-        "providence-day:verdict.checklist[10]"
+        "providence-day:verdict.checklist[9]"
       ],
       "t": "Detay Clubhouse: rapò a, sipò devwa, epi èske $100 an se vrèman sèl depans lan?"
     },
@@ -1116,7 +1108,7 @@
       "text": "Is Extended Day capacity-constrained at any tier, especially 3:00–6:00 five-day?",
       "of": "5ce8c0cf",
       "at": [
-        "providence-day:verdict.checklist[11]"
+        "providence-day:verdict.checklist[10]"
       ],
       "t": "Èske Extended Day gen limit kapasite nan nenpòt palye, sitou 3:00–6:00 senk jou?"
     },
@@ -1124,7 +1116,7 @@
       "text": "If a child’s enrichment class runs to 4:45, must we buy the 6:00 p.m. tier?",
       "of": "46400404",
       "at": [
-        "providence-day:verdict.checklist[12]"
+        "providence-day:verdict.checklist[11]"
       ],
       "t": "Si klas anrichisman yon timoun fini a 4:45, èske nou dwe achte palye 6:00 p.m. la?"
     },
@@ -1162,21 +1154,21 @@
       "t": "lekòl kase 1:30"
     },
     {
-      "text": "dismissal 2:55",
-      "of": "32ef5284",
+      "text": "dismissal 2:55 or 3:05",
+      "of": "2b4e5d6d",
       "at": [
         "charlotte-latin:coverage.rows[1].dismissal"
       ],
-      "t": "lekòl kase 2:55"
+      "t": "lekòl kase 2:55 oswa 3:05"
     },
     {
-      "text": "dismissal ~3:20",
-      "of": "4cf5d07f",
+      "text": "dismissal 3:20 or 3:30",
+      "of": "14f6a2b4",
       "at": [
         "charlotte-latin:coverage.rows[2].dismissal",
         "charlotte-latin:coverage.rows[3].dismissal"
       ],
-      "t": "lekòl kase ~3:20"
+      "t": "lekòl kase 3:20 oswa 3:30"
     },
     {
       "text": "No care program — LS/MS library closes at dismissal",
@@ -1257,12 +1249,12 @@
       "t": "Bis aktivite"
     },
     {
-      "text": "4:30 p.m. for Lower School; 5:30 and 6:00 p.m. for Middle and Upper School",
-      "of": "de7414bd",
+      "text": "4:30 p.m. for Lower School on the Hawks’ Club and Admissions pages, and 4:45 p.m. on the Student Life page. The 5:30 and 6:00 p.m. buses are for Middle and Upper School",
+      "of": "65187986",
       "at": [
         "charlotte-latin:coverage.facts[2].text"
       ],
-      "t": "4:30 p.m. pou Lower School; 5:30 ak 6:00 p.m. pou Middle ak Upper School"
+      "t": "4:30 p.m. pou Lower School sou paj Hawks’ Club ak paj Admissions, epi 4:45 p.m. sou paj Student Life la. Bis 5:30 ak 6:00 p.m. yo se pou Middle ak Upper School"
     },
     {
       "text": "Fly Zone",
@@ -1281,12 +1273,28 @@
       "t": "se pa yon pwogram ki peye — sal datant pou frè ak sè pi jèn ki gen gran frè ak sè ki kase pi ta"
     },
     {
-      "text": "Latin’s own pages disagree on when Lower School dismisses. The After-School pages use **2:55** — the number the pricing table is built on — while Transportation says **3:05** for \"TK-K Hawks Club students and Grades 1-5\", and a third source says 3:10. Middle and Upper School are given as both 3:20 and 3:25.",
-      "of": "804bdfef",
+      "text": "Two Transportation pages",
+      "of": "025194ad",
+      "at": [
+        "charlotte-latin:coverage.facts[4].label"
+      ],
+      "t": "De paj Transportation"
+    },
+    {
+      "text": "The Student Life page gives morning buses 7:00–7:25 a.m. Its afternoon times are 3:05 p.m. for grades 1–5 and 3:20 p.m. for Middle and Upper School. The Admissions page gives 7:00–7:20 a.m., 2:55 p.m. and 3:30 p.m.",
+      "of": "6989102f",
+      "at": [
+        "charlotte-latin:coverage.facts[4].text"
+      ],
+      "t": "Paj Student Life la bay bis maten 7:00–7:25 a.m. Lè aprèmidi li yo se 3:05 p.m. pou grad 1–5 ak 3:20 p.m. pou Middle ak Upper School. Paj Admissions lan bay 7:00–7:20 a.m., 2:55 p.m. ak 3:30 p.m."
+    },
+    {
+      "text": "The school’s two Transportation pages disagree, read 2026-11-22 (plan consistency4 LAT-T2). /student-life/transportation: morning 7:00–7:25; **3:05** for \"TK-K Hawks Club students and Grades 1-5\"; 3:20 for Flyzone, Middle and Upper School; Lower School activity bus 4:45. /admissions/transportation: 7:00–7:20; **2:55**; 3:30; 4:30. Both print bus departure times. Hawks’ Club uses 2:55 (the number the pricing table is built on) and a 4:30 bus. The bars are drawn from 2:55 and 3:20; no winner is picked. The 3:10 (a search snippet) and 3:25 in the July record are on neither page.",
+      "of": "7e6ff722",
       "at": [
         "charlotte-latin:coverage.flags[0].text"
       ],
-      "t": "Pwòp paj Latin yo pa dakò sou lè Lower School kase. Paj Aprè-Lekòl yo sèvi ak **2:55** — chif tab pri a bati sou li a — pandan Transportation di **3:05** pou “elèv TK-K Hawks Club ak Grad 1-5”, epi yon twazyèm sous di 3:10. Yo bay Middle ak Upper School kòm tou de 3:20 ak 3:25."
+      "t": "De paj Transportation lekòl la pa dakò, nou li yo 2026-11-22 (plan consistency4 LAT-T2). /student-life/transportation: maten 7:00–7:25; **3:05** pou \"TK-K Hawks Club students and Grades 1-5\"; 3:20 pou Flyzone, Middle ak Upper School; bis aktivite Lower School 4:45. /admissions/transportation: 7:00–7:20; **2:55**; 3:30; 4:30. Tou de bay lè bis yo pati. Hawks’ Club sèvi ak 2:55 (chif tab pri a bati sou li a) ak yon bis 4:30. Ba yo trase apati 2:55 ak 3:20; nou pa chwazi okenn ganyan. 3:10 la (yon moso rezilta rechèch) ak 3:25 ki nan dosye jiyè a pa sou ni youn ni lòt paj."
     },
     {
       "text": "The cost of the full-day non-school-day program is never stated — it is not said whether those days are included in the semester rate or billed on top.",
@@ -1297,12 +1305,12 @@
       "t": "Yo pa janm di konbyen pwogram tout jounen an pou jou ki pa jou lekòl la koute — yo pa di si jou sa yo enkli nan to semès la oswa si yo faktire yo anplis."
     },
     {
-      "text": "No before-school care is published. The only morning data points are the 7:00–7:25 a.m. bus window and the 7:30 a.m. library opening.",
-      "of": "5180c265",
+      "text": "No before-school care is published. The only morning data points are the 7:30 a.m. library opening and the bus window. That window ends at 7:25 on the Student Life Transportation page and 7:20 on the Admissions one.",
+      "of": "1477536d",
       "at": [
         "charlotte-latin:coverage.flags[2].text"
       ],
-      "t": "Pa gen okenn gadri anvan lekòl ki pibliye. Sèl done maten yo se fenèt bis 7:00–7:25 a.m. la ak lè bibliyotèk la louvri a 7:30 a.m."
+      "t": "Pa gen okenn gadri anvan lekòl ki pibliye. Sèl done maten yo se lè bibliyotèk la louvri a 7:30 a.m. ak fenèt bis la. Fenèt sa a fini a 7:25 sou paj Student Life Transportation la epi a 7:20 sou paj Admissions lan."
     },
     {
       "text": "Hawks’ Club bills PER SEMESTER, not per month — two charges a year, on 23 September and 20 January.",
@@ -1417,12 +1425,12 @@
       "t": "Falèz depans TK/K la."
     },
     {
-      "text": "TK and K dismiss at 1:30, grades 1–5 at 2:55. A TK/K family pays **$1,725 a semester — $3,450 a year — purely to cover the 85 minutes** that a grade 1 family gets for free.",
-      "of": "d75d0ce0",
+      "text": "TK and K dismiss at 1:30. The Hawks’ Club page has grades 1–5 at 2:55. A TK/K family pays **$1,725 a semester — $3,450 a year — purely to cover the 85 minutes** that a grade 1 family gets for free.",
+      "of": "c35ce56d",
       "at": [
         "charlotte-latin:cost.aside.text"
       ],
-      "t": "TK ak K kase a 1:30, grad 1–5 a 2:55. Yon fanmi TK/K peye **$1,725 pa semès — $3,450 pa ane — sèlman pou kouvri 85 minit** yon fanmi grad 1 jwenn gratis."
+      "t": "TK ak K kase a 1:30. Paj Hawks’ Club la mete grad 1–5 a 2:55. Yon fanmi TK/K peye **$1,725 pa semès — $3,450 pa ane — sèlman pou kouvri 85 minit** yon fanmi grad 1 jwenn gratis."
     },
     {
       "text": "Billed",
@@ -1638,12 +1646,12 @@
       "t": "Twa fason pou sòti"
     },
     {
-      "text": "Front carpool, back to Hawks’ Club, or the Lower School bus at 4:30",
-      "of": "977bfcc4",
+      "text": "Front carpool, back to Hawks’ Club, or the Lower School bus. The Hawks’ Club and Admissions pages put that bus at 4:30; the Student Life page says 4:45",
+      "of": "ae4a264e",
       "at": [
         "charlotte-latin:dayInside.rhythm[3].detail"
       ],
-      "t": "Kovwatiraj devan, retounen nan Hawks’ Club, oswa bis Lower School la a 4:30"
+      "t": "Kovwatiraj devan, retounen nan Hawks’ Club, oswa bis Lower School la. Paj Hawks’ Club ak paj Admissions mete bis sa a a 4:30; paj Student Life la di 4:45"
     },
     {
       "text": "The program, in the school’s words",
@@ -1998,12 +2006,12 @@
       "t": "Pa gen okenn orè chak jou èdtan pa èdtan ki pibliye, epi yo pa bay okenn rapò estaf-a-timoun ni gwosè gwoup — sèlman ke chak sal klas gen yon pwofesè prensipal ak yon asistan."
     },
     {
-      "text": "**Talons** youth sports runs alongside for grades 3–6 — field hockey, basketball, baseball, lacrosse, co-ed soccer and cross country, 2–3 days a week between 3:00 and 5:15 p.m., at $200–$350 depending on sport. Only Fall sessions are published; winter and spring are not.",
-      "of": "43412fa1",
+      "text": "**Talons** grades and fees, read 2026-11-22 (plan consistency4 LAT-T3). The After School page says grades 3–6; the Talons page lists flag football for KG–5 and fall soccer for grades 2–6. The Talons page now lists fall, winter and spring. Fees are printed only for some winter and spring programs, $195–$375. None is printed for basketball, swimming, indoor field hockey, the flag football league, tennis or the fall programs. The July record had $200–$350 for fall.",
+      "of": "5a397ac3",
       "at": [
         "charlotte-latin:dayInside.flags[2].text"
       ],
-      "t": "**Talons** espò jèn fonksyone akote pou grad 3–6 — hockey sou gazon, baskètbòl, bezbòl, kwòs, foutbòl miks ak kous kwaze, 2–3 jou pa semèn ant 3:00 ak 5:15 p.m., a $200–$350 depann de espò a. Se sèlman sesyon Otòn yo ki pibliye; ivè ak prentan pa pibliye."
+      "t": "Grad ak frè **Talons**, nou li yo 2026-11-22 (plan consistency4 LAT-T3). Paj After School la di grad 3–6; paj Talons la bay flag football pou KG–5 ak foutbòl otòn pou grad 2–6. Kounye a paj Talons la bay otòn, ivè ak prentan. Gen frè ki ekri sèlman pou kèk pwogram ivè ak prentan, $195–$375. Pa gen okenn ki ekri pou baskètbòl, natasyon, hockey sou gazon andedan, lig flag football la, tenis oswa pwogram otòn yo. Dosye jiyè a te gen $200–$350 pou otòn."
     },
     {
       "text": "An unusually well-housed and well-staffed Lower School program with mostly linear pricing — that stops completely at grade 5.",
@@ -2014,12 +2022,12 @@
       "t": "Yon pwogram Lower School ki byen loje ak byen estafe yon fason ki pa abityèl ak pri ki sitou lineyè — ki kanpe konplètman nan grad 5."
     },
     {
-      "text": "The TK/K cost cliff and the near-total fee opacity are the two things to press on, and Middle School families should ask what happens at 3:20 p.m.",
-      "of": "e2e784f1",
+      "text": "The TK/K cost cliff and the near-total fee opacity are the two things to press on, and Middle School families should ask what happens after dismissal.",
+      "of": "ad3ee503",
       "at": [
         "charlotte-latin:verdict.subhead"
       ],
-      "t": "Falèz depans TK/K la ak opasite prèske total sou frè yo se de bagay pou peze sou yo, epi fanmi Middle School yo ta dwe mande kisa k ap pase a 3:20 p.m."
+      "t": "Falèz depans TK/K la ak opasite prèske total sou frè yo se de bagay pou peze sou yo, epi fanmi Middle School yo ta dwe mande kisa k ap pase apre lekòl kase."
     },
     {
       "text": "**A dedicated after-school building**, not a repurposed cafeteria or gym — materially better for a child spending three-plus hours a day there.",
@@ -2078,12 +2086,12 @@
       "t": "**Talons se yon vrè ranp antre atletik**, eksplisitman konsevwa kòm sa k ap alimante ekip varsity Hawks yo."
     },
     {
-      "text": "**Activity-bus integration** at 4:30, 5:30 and 6:00, so after-school participation doesn’t strictly require a car at pickup.",
-      "of": "711e2917",
+      "text": "**Activity-bus integration**, so after-school participation doesn’t strictly require a car at pickup. The later buses are at 5:30 and 6:00. The Lower School bus is at 4:30 on the Hawks’ Club and Admissions pages, and 4:45 on the Student Life page.",
+      "of": "2df8234b",
       "at": [
         "charlotte-latin:verdict.strengths[7]"
       ],
-      "t": "**Entegrasyon bis aktivite** a 4:30, 5:30 ak 6:00, kidonk patisipasyon aprè-lekòl pa egzije yon machin estrikteman lè yo vin chèche timoun nan."
+      "t": "**Entegrasyon bis aktivite**, kidonk patisipasyon aprè-lekòl pa egzije yon machin estrikteman lè yo vin chèche timoun nan. Bis ki pita yo se a 5:30 ak 6:00. Bis Lower School la se a 4:30 sou paj Hawks’ Club ak paj Admissions, epi a 4:45 sou paj Student Life la."
     },
     {
       "text": "**Coverage stops dead at grade 5.** There is no Middle or Upper School after-school care of any kind. Middle School is the most stranded: its library closes at dismissal, leaving athletics or nothing.",
@@ -2094,12 +2102,12 @@
       "t": "**Kouvèti a kanpe nèt nan grad 5.** Pa gen okenn gadri aprè-lekòl Middle oswa Upper School ditou. Middle School se sa ki pi izole: bibliyotèk li a fèmen lè lekòl kase, sa ki kite atletism oswa anyen."
     },
     {
-      "text": "**The TK/K cost cliff is severe** — $1,725 a semester just to bridge the 85 minutes to the grade 1 bell, and $9,300 a year for five-day coverage to 6:00 p.m.",
-      "of": "49350c41",
+      "text": "**The TK/K cost cliff is severe** — $1,725 a semester just for TK/K care from 1:30 to 2:55, and $9,300 a year for five-day coverage to 6:00 p.m.",
+      "of": "edb7a3c5",
       "at": [
         "charlotte-latin:verdict.watchouts[1]"
       ],
-      "t": "**Falèz depans TK/K la grav** — $1,725 pa semès sèlman pou konble 85 minit rive nan klòch grad 1 an, ak $9,300 pa ane pou kouvèti senk jou jiska 6:00 p.m."
+      "t": "**Falèz depans TK/K la grav** — $1,725 pa semès sèlman pou gadri TK/K soti 1:30 rive 2:55, ak $9,300 pa ane pou kouvèti senk jou jiska 6:00 p.m."
     },
     {
       "text": "**No published daily schedule** for a program a child may spend three hours a day in.",
@@ -2150,20 +2158,20 @@
       "t": "**Sit la kontredi tèt li sou lè lekòl kase**, epi de liy pri kase modèl chak lòt liy swiv la."
     },
     {
-      "text": "What are our options for after-school supervision once our child reaches Middle School? Is there anything between the 3:20 dismissal and the 5:30 activity bus?",
-      "of": "cc77766d",
+      "text": "What are our options for after-school supervision once our child reaches Middle School? Is there anything between dismissal (3:20 or 3:30) and the 5:30 activity bus?",
+      "of": "fc2df58e",
       "at": [
         "charlotte-latin:verdict.checklist[0]"
       ],
-      "t": "Ki opsyon nou genyen pou sipèvizyon aprè-lekòl lè pitit nou rive nan Middle School? Èske gen anyen ant lè lekòl kase a 3:20 ak bis aktivite 5:30 la?"
+      "t": "Ki opsyon nou genyen pou sipèvizyon aprè-lekòl lè pitit nou rive nan Middle School? Èske gen anyen ant lè lekòl kase (3:20 oswa 3:30) ak bis aktivite 5:30 la?"
     },
     {
-      "text": "Please confirm the actual Grades 1–5 dismissal time — 2:55, 3:05, or 3:10? Your Transportation and After-School pages disagree.",
-      "of": "4175da40",
+      "text": "Please confirm the actual Grades 1–5 dismissal time — 2:55 or 3:05? Is the Lower School activity bus at 4:30 or 4:45? Your two Transportation pages disagree.",
+      "of": "710281ac",
       "at": [
         "charlotte-latin:verdict.checklist[1]"
       ],
-      "t": "Tanpri konfime vrè lè Grad 1–5 kase a — 2:55, 3:05, oswa 3:10? Paj Transportation ak Aprè-Lekòl nou yo pa dakò."
+      "t": "Tanpri konfime vrè lè Grad 1–5 kase a — 2:55 oswa 3:05? Èske bis aktivite Lower School la se a 4:30 oswa 4:45? De paj Transportation nou yo pa dakò."
     },
     {
       "text": "Please confirm two pricing rows. For TK/K 1:30–4:30, is five days really $2,540 and four days $2,300? For Grades 1–5 2:55–4:30, is four days really $1,880, more than the $1,475 for five?",
@@ -2270,12 +2278,12 @@
       "t": "Konbyen tan sa pran pou klas popilè yo plen lè enskripsyon an louvri a 8:00 p.m., epi èske gen yon lis datant?"
     },
     {
-      "text": "Are there winter and spring Talons seasons, and what is the exact fee for the sport we want?",
-      "of": "aaba6621",
+      "text": "What will the Talons programs with no posted fee cost, such as basketball, swimming and indoor field hockey?",
+      "of": "d1e6e9c0",
       "at": [
         "charlotte-latin:verdict.checklist[15]"
       ],
-      "t": "Èske gen sezon Talons pou ivè ak prentan, epi konbyen frè egzak la ye pou espò nou vle a?"
+      "t": "Konbyen pwogram Talons ki pa gen frè afiche yo ap koute, tankou baskètbòl, natasyon ak hockey sou gazon andedan?"
     },
     {
       "text": "Lower School is covered to 6:00 p.m. and Middle School only to 5:00 p.m. — a full hour earlier, an unusually sharp split.",
@@ -2286,20 +2294,20 @@
       "t": "Lower School kouvri jiska 6:00 p.m. epi Middle School sèlman jiska 5:00 p.m. — yon èdtan konplè pi bonè, yon separasyon byen sèk ki pa abityèl."
     },
     {
-      "text": "Two cheap \"Bridge Care\" tiers exist purely to close the gap between the JK-K bell and the grades 1–4 bell. Upper School has no after-school care at all.",
-      "of": "88d4fc22",
+      "text": "Two short \"Bridge Care\" tiers cover the first 55 minutes after each Lower School bell: JK-K to 3:15, grades 1–4 to 3:35. Upper School has no after-school care at all.",
+      "of": "5d3da8d2",
       "at": [
         "charlotte-christian:coverage.subhead"
       ],
-      "t": "De palye “Bridge Care” bon mache egziste sèlman pou fèmen espas ant klòch JK-K la ak klòch grad 1–4 la. Upper School pa gen okenn gadri aprè-lekòl ditou."
+      "t": "De palye “Bridge Care” kout kouvri premye 55 minit apre chak klòch Lower School: JK-K jiska 3:15, grad 1–4 jiska 3:35. Upper School pa gen okenn gadri aprè-lekòl ditou."
     },
     {
-      "text": "The to-6:00 price is the **full-time monthly rate — 5 days a week**; 1–4 days a week runs $125–$295. **Bridge Care is a flat $125 a month whatever the day count**, which is what makes it such a cheap way to close the gap to the grades 1–4 bell. Open **The Cost Planner** below to price any combination.",
-      "of": "fdb538f2",
+      "text": "The to-6:00 price is the **full-time monthly rate — 5 days a week**; 1–4 days a week runs $125–$295. **Bridge Care is a flat $125 a month whatever the day count**, and it covers JK-K to 3:15 and grades 1–4 to 3:35. Open **The Cost Planner** below to price any combination.",
+      "of": "e2a27b56",
       "at": [
         "charlotte-christian:coverage.basisNote"
       ],
-      "t": "Pri jiska 6:00 la se **to mansyèl aplentan an — 5 jou pa semèn**; 1–4 jou pa semèn kouri $125–$295. **Bridge Care se yon $125 fiks pa mwa kèlkeswa kantite jou yo**, epi se sa ki fè l yon fason bon mache pou fèmen espas la rive nan klòch grad 1–4 la. Louvri **The Cost Planner** anba a pou kalkile pri nenpòt konbinezon."
+      "t": "Pri jiska 6:00 la se **to mansyèl aplentan an — 5 jou pa semèn**; 1–4 jou pa semèn kouri $125–$295. **Bridge Care se yon $125 fiks pa mwa kèlkeswa kantite jou yo**, epi li kouvri JK-K jiska 3:15 ak grad 1–4 jiska 3:35. Louvri **The Cost Planner** anba a pou kalkile pri nenpòt konbinezon."
     },
     {
       "text": "dismissal 2:20",
@@ -2628,12 +2636,12 @@
       "t": "Bridge Care pibliye kòm yon $125/mwa fiks san yon dekoupaj jou pa semèn, kidonk kolòn ki anwo yo repete sèl chif sa a ki pibliye olye ke sijere senk pri diferan."
     },
     {
-      "text": "Charlotte Christian publishes an actual timed daily schedule, which few schools do, and it protects a 45-minute homework block in both divisions.",
-      "of": "4c22b92e",
+      "text": "Charlotte Christian publishes an actual timed daily schedule, which few schools do, and it protects a homework block in both divisions: 45 minutes in Lower School, 30 in Middle School.",
+      "of": "48b2dcd5",
       "at": [
         "charlotte-christian:dayInside.headline"
       ],
-      "t": "Charlotte Christian pibliye yon vrè orè chak jou ak lè, sa pa anpil lekòl fè, epi li pwoteje yon blòk devwa 45 minit nan tou de divizyon."
+      "t": "Charlotte Christian pibliye yon vrè orè chak jou ak lè, sa pa anpil lekòl fè, epi li pwoteje yon blòk devwa nan tou de divizyon: 45 minit nan Lower School, 30 nan Middle School."
     },
     {
       "text": "The Middle School program deliberately splits students into separate age groups. The school says it is \"tailored to the developmental needs of our two distinct cohorts — grades 5 and 6, and grades 7 and 8.\"",
@@ -2828,12 +2836,12 @@
       "t": "Pa gen okenn rapò estaf-a-elèv ak okenn kapasite pwogram ki pibliye pou ni youn ni lòt divizyon, epi tou de orè ki pibliye yo gen rezèv “sijè a chanjman jan sa nesesè”."
     },
     {
-      "text": "An unusually transparent program — a published schedule, a protected homework block, and a genuinely clever Bridge Care tier — wrapped around rates that have risen very fast.",
-      "of": "d8c24be2",
+      "text": "An unusually transparent program — a published schedule, a protected homework block, and two short, low-cost Bridge Care tiers — wrapped around rates that have risen very fast.",
+      "of": "f37b6cef",
       "at": [
         "charlotte-christian:verdict.headline"
       ],
-      "t": "Yon pwogram ki transparan yon fason ki pa abityèl — yon orè ki pibliye, yon blòk devwa ki pwoteje, ak yon palye Bridge Care ki vrèman entelijan — vlope otou to ki monte byen vit."
+      "t": "Yon pwogram ki transparan yon fason ki pa abityèl — yon orè ki pibliye, yon blòk devwa ki pwoteje, ak de palye Bridge Care ki kout epi bon mache — vlope otou to ki monte byen vit."
     },
     {
       "text": "The two hard edges are the split 5:00/6:00 deadlines between divisions and a club catalog you cannot see until you are already a parent.",
@@ -2844,20 +2852,20 @@
       "t": "De bò ki di yo se dat limit 5:00/6:00 ki separe ant divizyon yo ak yon katalòg klib ou pa ka wè jiskaske ou deja yon paran."
     },
     {
-      "text": "**A published, structured daily rhythm** for both divisions, with a protected 45-minute homework and reading block. Few schools publish their after-school schedule at all.",
-      "of": "1cac09a3",
+      "text": "**A published, structured daily rhythm** for both divisions, with a homework and reading block: 45 minutes in Lower School, 30 in Middle School. Few schools publish their after-school schedule at all.",
+      "of": "9d1b78b0",
       "at": [
         "charlotte-christian:verdict.strengths[0]"
       ],
-      "t": "**Yon ritm chak jou ki pibliye epi ki estriktire** pou tou de divizyon, ak yon blòk devwa ak lekti 45 minit ki pwoteje. Pa anpil lekòl ki pibliye orè apre lekòl yo ditou."
+      "t": "**Yon ritm chak jou ki pibliye epi ki estriktire** pou tou de divizyon, ak yon blòk devwa ak lekti: 45 minit nan Lower School, 30 nan Middle School. Pa anpil lekòl ki pibliye orè apre lekòl yo ditou."
     },
     {
-      "text": "**Bridge Care is a real cost innovation** — $125/month to bridge the JK-K 2:20 bell to the grades 1–4 bell, instead of forcing a family onto a full $325 plan.",
-      "of": "567eca7a",
+      "text": "**Bridge Care is a low-cost option.** It is $125/month for care to 3:15 in JK-K or 3:35 in grades 1–4, instead of a full $325 plan.",
+      "of": "c46e508e",
       "at": [
         "charlotte-christian:verdict.strengths[1]"
       ],
-      "t": "**Bridge Care se yon vrè inovasyon nan depans** — $125/mwa pou konble klòch JK-K 2:20 la rive nan klòch grad 1–4 la, olye ke fòse yon fanmi sou yon plan konplè $325."
+      "t": "**Bridge Care se yon opsyon bon mache.** Li koute $125/mwa pou gadri jiska 3:15 nan JK-K oswa 3:35 nan grad 1–4, olye yon plan konplè $325."
     },
     {
       "text": "**Middle School is pay-as-you-go at $8/hour with automatic registration** — no commitment, no form, no minimum. For occasional users this is far friendlier than a monthly tier.",
@@ -3020,12 +3028,12 @@
       "t": "Èske gen okenn gadri anvan lekòl pi lwen pase aksè gratis sou kanpis la a 7:15 a.m.?"
     },
     {
-      "text": "How much homework actually gets finished in the 45-minute block — is there active help, or is it supervision only?",
-      "of": "9ed96f62",
+      "text": "How much homework actually gets finished in the homework block — is there active help, or is it supervision only?",
+      "of": "6568d33e",
       "at": [
         "charlotte-christian:verdict.checklist[7]"
       ],
-      "t": "Konbyen devwa ki fini vre nan blòk 45 minit la — èske gen èd aktif, oswa se sipèvizyon sèlman?"
+      "t": "Konbyen devwa ki fini vre nan blòk devwa a — èske gen èd aktif, oswa se sipèvizyon sèlman?"
     },
     {
       "text": "For Middle School: how are the 5–6 and 7–8 groups physically separated, and what happens between 5:00 p.m. and a later pickup?",
@@ -3060,12 +3068,12 @@
       "t": "Upper School pa gen okenn Extended Day ditou, epi pa gen okenn gadri anvan lekòl ki pibliye pou ane eskolè a. Lè JK kase a 1:15 p.m. ki bonè yon fason ki pa abityèl gen pwòp palye 2:00 p.m. pa l kòm sipò."
     },
     {
-      "text": "Prices on the bars are the **full-time monthly rate — 5 days a week**, the most common case. Country Day contracts 1–5 days a week, and the cheaper day-counts are substantially less; open **The Cost Planner** below to price any of the 13 published combinations.",
-      "of": "d974574f",
+      "text": "Prices on the bars are the **full-time monthly rate — 5 days a week**, the most common case. Country Day contracts 1–5 days a week, and the cheaper day-counts are substantially less; open **The Cost Planner** below to price any of the 13 published combinations. The 3:00 p.m. pickup is for carpool siblings only.",
+      "of": "0990dfc4",
       "at": [
         "charlotte-country-day:coverage.basisNote"
       ],
-      "t": "Pri sou ba yo se **to mansyèl aplentan an — 5 jou pa semèn**, ka ki pi komen an. Country Day fè kontra 1–5 jou pa semèn, epi kantite jou ki pi bon mache yo koute siyifikativman mwens; louvri **The Cost Planner** anba a pou kalkile pri nenpòt nan 13 konbinezon ki pibliye yo."
+      "t": "Pri sou ba yo se **to mansyèl aplentan an — 5 jou pa semèn**, ka ki pi komen an. Country Day fè kontra 1–5 jou pa semèn, epi kantite jou ki pi bon mache yo koute siyifikativman mwens; louvri **The Cost Planner** anba a pou kalkile pri nenpòt nan 13 konbinezon ki pibliye yo. Lè 3:00 p.m. pou vin chèche timoun yo se sèlman pou frè ak sè ki nan kovwatiraj."
     },
     {
       "text": "dismissal 1:15",
@@ -3101,12 +3109,12 @@
       "t": "Pa gen Extended Day — sèlman plaj anrichisman 3:45–4:45"
     },
     {
-      "text": "**Country Day Summer Programs** — ages 4–18, to 24 July 2026. The school markets 150+ camps from 8 June; its priced listing has 132 sessions from 1 June. Before-camp care 7:30–9:00 a.m. at $105/wk; afternoon care $85/wk. A **separate summer financial-aid application** exists.",
-      "of": "5ef0e29c",
+      "text": "**Country Day Summer Programs** — ages 4–18 (the after-school page says 3–18), to 24 July 2026. The school markets 150+ camps from 8 June; its priced listing has 132 sessions from 1 June. Before-camp care 7:30–9:00 a.m. at $105/wk; afternoon care $85/wk. A **separate summer financial-aid application** exists.",
+      "of": "696610c1",
       "at": [
         "charlotte-country-day:coverage.summer.text"
       ],
-      "t": "**Country Day Summer Programs** — laj 4–18, jiska 24 jiyè 2026. Lekòl la fè piblisite pou 150+ kan apati 8 jen; lis li ki gen pri yo gen 132 sesyon apati 1ye jen. Gadri anvan kan 7:30–9:00 a.m. a $105/sem; gadri aprèmidi $85/sem. Gen yon **aplikasyon èd finansye apa pou ete a**."
+      "t": "**Country Day Summer Programs** — laj 4–18 (paj aprè-lekòl la di 3–18), jiska 24 jiyè 2026. Lekòl la fè piblisite pou 150+ kan apati 8 jen; lis li ki gen pri yo gen 132 sesyon apati 1ye jen. Gadri anvan kan 7:30–9:00 a.m. a $105/sem; gadri aprèmidi $85/sem. Gen yon **aplikasyon èd finansye apa pou ete a**."
     },
     {
       "text": "Program year",
@@ -3523,12 +3531,12 @@
       "t": "Liy Kindergarten 6:00 p.m. la se sèl la ki gen valè ki pa won — $208, $489, $615 — pandan chak lòt liy sèvi ak chif won. Sa vo lapèn konfime se pa yon erè tap."
     },
     {
-      "text": "No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 20% of students (341) receive tuition aid. Summer programs, by contrast, do have their own aid application.",
-      "of": "ee4a34f0",
+      "text": "No Extended Day sibling discount is published, and no financial-aid policy for Extended Day exists. It is billed as an **incidental charge**, which puts it outside tuition assistance, even though about 20% of students receive tuition aid. The tuition page says $9.4M to 341 students, and Fast Facts says $10.1M to 347. Summer programs, by contrast, do have their own aid application.",
+      "of": "84fc27f4",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ],
-      "t": "Pa gen okenn rabè frè ak sè Extended Day ki pibliye, epi pa gen okenn politik èd finansye pou Extended Day. Yo faktire l kòm yon **frè segondè**, sa ki mete l deyò asistans frè eskolè a, menm si anviwon 20% elèv (341) resevwa èd frè eskolè. Pwogram ete yo, okontrè, gen pwòp aplikasyon èd pa yo."
+      "t": "Pa gen okenn rabè frè ak sè Extended Day ki pibliye, epi pa gen okenn politik èd finansye pou Extended Day. Yo faktire l kòm yon **frè segondè**, sa ki mete l deyò asistans frè eskolè a, menm si anviwon 20% elèv resevwa èd frè eskolè. Paj frè eskolè a di $9.4M pou 341 elèv, epi Fast Facts di $10.1M pou 347. Pwogram ete yo, okontrè, gen pwòp aplikasyon èd pa yo."
     },
     {
       "text": "Contract rigidity is real: one change per semester, $50 for any additional change, and **no changes permitted in August or December** — the two months a family is most likely to discover its schedule was wrong.",
@@ -3539,6 +3547,14 @@
       "t": "Rijidite kontra a reyèl: yon chanjman pa semès, $50 pou nenpòt chanjman anplis, epi **pa gen okenn chanjman ki pèmèt nan out oswa desanm** — de mwa yon fanmi gen plis chans dekouvri orè l la te mal."
     },
     {
+      "text": "Aid totals differ on two live pages (re-read 2026-11-22, plan consistency4 CCD-T3): the tuition page says **$9.4 million to 341 students**, Fast Facts says **$10.1 million to 347**. Neither is dated. Both are shown, and no winner is picked.",
+      "of": "6697bb07",
+      "at": [
+        "charlotte-country-day:cost.flags[3].text"
+      ],
+      "t": "Total èd yo diferan sou de paj an dirèk (nou reli yo 2026-11-22, plan consistency4 CCD-T3): paj frè eskolè a di **$9.4 milyon pou 341 elèv**, Fast Facts di **$10.1 milyon pou 347**. Ni youn ni lòt pa gen dat. Nou montre tou de, epi nou pa chwazi okenn ganyan."
+    },
+    {
       "text": "Extended Day is framed around working families — \"more than 50 percent of our two-parent families are dual income,\" and the program is built to match.",
       "of": "85d2b10e",
       "at": [
@@ -3547,20 +3563,20 @@
       "t": "Extended Day chapante otou fanmi k ap travay — “plis pase 50 pousan nan fanmi nou yo ak de paran gen de revni,” epi pwogram nan bati pou matche ak sa."
     },
     {
-      "text": "The school publishes the parts of the afternoon but never puts them in order with clock times. What it does publish in detail is how enrichment works: each division’s class begins exactly at its own dismissal bell.",
-      "of": "7639bf03",
+      "text": "The school publishes the parts of the afternoon but never puts them in order with clock times. What it does publish in detail is when enrichment starts. JK, Kindergarten and grades 3–4 classes start at dismissal. Grades 1–2 wait 15 minutes, Middle School 10 and Upper School 30.",
+      "of": "199b3797",
       "at": [
         "charlotte-country-day:dayInside.subhead"
       ],
-      "t": "Lekòl la pibliye pati aprèmidi a men li pa janm mete yo an lòd ak lè. Sa li pibliye an detay se kijan anrichisman an mache: klas chak divizyon kòmanse egzakteman nan klòch pa l lè lekòl kase."
+      "t": "Lekòl la pibliye pati aprèmidi a men li pa janm mete yo an lòd ak lè. Sa li pibliye an detay se kilè anrichisman an kòmanse. Klas JK, Kindergarten ak grad 3–4 yo kòmanse lè lekòl kase. Grad 1–2 tann 15 minit, Middle School 10 ak Upper School 30."
     },
     {
-      "text": "Enrichment starts at the bell — published slots and ratios",
-      "of": "9175cad0",
+      "text": "Enrichment after dismissal — published slots and ratios",
+      "of": "37d9c40b",
       "at": [
         "charlotte-country-day:dayInside.rhythmTitle"
       ],
-      "t": "Anrichisman kòmanse nan klòch la — plaj ak rapò ki pibliye"
+      "t": "Anrichisman apre lekòl kase — plaj ak rapò ki pibliye"
     },
     {
       "text": "1:15–1:45",
@@ -3797,12 +3813,12 @@
       "t": "**Bati pou paran k ap travay espre**, epi lekòl la di sa: “plis pase 50 pousan nan fanmi nou yo ak de paran gen de revni”."
     },
     {
-      "text": "**Enrichment starts at the dismissal bell** for every division, with published per-grade ratios — no dead gap between school and activity.",
-      "of": "e070f322",
+      "text": "**Enrichment starts soon after dismissal**, with published per-grade ratios. JK, Kindergarten and grades 3–4 start at the bell. Grades 1–2 wait 15 minutes, Middle School 10 and Upper School 30.",
+      "of": "4159314b",
       "at": [
         "charlotte-country-day:verdict.strengths[3]"
       ],
-      "t": "**Anrichisman kòmanse nan klòch lekòl kase a** pou chak divizyon, ak rapò pa nivo ki pibliye — pa gen espas mouri ant lekòl ak aktivite."
+      "t": "**Anrichisman kòmanse yon ti moman apre lekòl kase**, ak rapò pa nivo ki pibliye. JK, Kindergarten ak grad 3–4 kòmanse nan klòch la. Grad 1–2 tann 15 minit, Middle School 10 ak Upper School 30."
     },
     {
       "text": "**Four enrichment cycles a year**, including a low-commitment 3-week mini at $225, so a child can sample without a season-long commitment.",
@@ -3853,12 +3869,12 @@
       "t": "**Depans lan anpile rèd** — JK jiska 6:00 p.m. senk jou pa semèn se $900/mwa, apeprè $8,100 pa ane sou tèt $24,515 frè eskolè, anviwon yon tyè anplis sou pri afiche a."
     },
     {
-      "text": "**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 20% of students (341) receive tuition assistance. Summer programs, by contrast, do have their own aid application.",
-      "of": "008fec7d",
+      "text": "**Extended Day appears to sit outside financial aid.** It is billed as an incidental charge with no published aid policy, even though about 20% of students receive tuition assistance. The tuition page says $9.4M to 341 students, and Fast Facts says $10.1M to 347. Summer programs, by contrast, do have their own aid application.",
+      "of": "1829d03b",
       "at": [
         "charlotte-country-day:verdict.watchouts[2]"
       ],
-      "t": "**Extended Day sanble chita deyò èd finansye.** Yo faktire l kòm yon frè segondè san okenn politik èd ki pibliye, menm si anviwon 20% elèv (341) resevwa asistans frè eskolè. Pwogram ete yo, okontrè, gen pwòp aplikasyon èd pa yo."
+      "t": "**Extended Day sanble chita deyò èd finansye.** Yo faktire l kòm yon frè segondè san okenn politik èd ki pibliye, menm si anviwon 20% elèv resevwa asistans frè eskolè. Paj frè eskolè a di $9.4M pou 341 elèv, epi Fast Facts di $10.1M pou 347. Pwogram ete yo, okontrè, gen pwòp aplikasyon èd pa yo."
     },
     {
       "text": "**Contract rigidity** — one change per semester, $50 for any additional change, and no changes at all in August or December.",
@@ -4261,12 +4277,12 @@
       "t": "Chak chif ki anwo a se **2025-26, se pa 2026-27**. Pa gen okenn kat to aktyèl ki pibliye okenn kote — Back-to-School Center ki an dirèk la vide epi kounye a li senpleman voye fanmi yo nan My Cannon Portal la. Trete sa yo kòm yon plafon anba ki gen yon sik epi atann yon ogmantasyon."
     },
     {
-      "text": "The pricing is effectively hidden from families looking at the school. The rate card exists only on an orphaned backup URL inside a collapsed accordion. The program page, the tuition page and the official Non-Tuition Fees PDF all omit it. That PDF even lists \"After School Program\" and \"Beyond the Bell\" as fee-bearing, but gives them no amount. Yet the PDF prices everything else, down to a $98 AP exam.",
-      "of": "cc357e68",
+      "text": "The pricing is effectively hidden from families looking at the school. The rate card exists only on an orphaned backup URL inside a collapsed accordion. The program page, the tuition page and the official Non-Tuition Fees PDF all omit it. That PDF even lists \"After School Program\" and \"Beyond the Bell\" as fee-bearing, but gives them no amount. Yet the PDF prices many other items, down to a $98 AP exam.",
+      "of": "c3e72dfd",
       "at": [
         "cannon:cost.flags[1].text"
       ],
-      "t": "Pri a efektivman kache pou fanmi k ap gade lekòl la. Kat to a egziste sèlman sou yon URL sovgad òfelen anndan yon akòdeyon ki fèmen. Paj pwogram nan, paj frè eskolè a ak PDF ofisyèl Non-Tuition Fees la tout kite l deyò. PDF sa a menm liste “After School Program” ak “Beyond the Bell” kòm bagay ki gen frè, men li pa ba yo okenn montan. Poutan PDF la mete pri sou tout lòt bagay, jiska yon egzamen AP $98."
+      "t": "Pri a efektivman kache pou fanmi k ap gade lekòl la. Kat to a egziste sèlman sou yon URL sovgad òfelen anndan yon akòdeyon ki fèmen. Paj pwogram nan, paj frè eskolè a ak PDF ofisyèl Non-Tuition Fees la tout kite l deyò. PDF sa a menm liste “After School Program” ak “Beyond the Bell” kòm bagay ki gen frè, men li pa ba yo okenn montan. Poutan PDF la mete pri sou anpil lòt bagay, jiska yon egzamen AP $98."
     },
     {
       "text": "Sibling discounts, financial-aid applicability to After School, and the billing cadence — annual up front, per semester, or monthly — are all unpublished.",
@@ -4777,20 +4793,20 @@
       "t": "**Yon nechèl pri ki byen file** — senk jou koute sèlman anviwon 3.7× to yon jou a, kidonk moun ki sèvi anpil jwenn yon vrè rabè olye ke yon bòdwo lineyè."
     },
     {
-      "text": "**A large, fully priced enrichment catalog** — 22 distinct classes in a single session, from robotics, ballet and chess to pottery, golf and photography. Each has a named provider and a real fee.",
-      "of": "904c966a",
+      "text": "**A large, fully priced enrichment catalog** — 22 distinct classes in a single session, from robotics and ballet to sculpture, golf and photography. Each has a named provider and a real fee.",
+      "of": "591807b0",
       "at": [
         "cannon:verdict.strengths[4]"
       ],
-      "t": "**Yon gwo katalòg anrichisman ak tout pri** — 22 klas diferan nan yon sèl sesyon, soti nan robotik, balè ak echèk rive nan poterie, gòlf ak fotografi. Chak klas gen yon founisè ki gen non ak yon vrè frè."
+      "t": "**Yon gwo katalòg anrichisman ak tout pri** — 22 klas diferan nan yon sèl sesyon, soti nan robotik ak balè rive nan eskilti, gòlf ak fotografi. Chak klas gen yon founisè ki gen non ak yon vrè frè."
     },
     {
-      "text": "**Enrichment is modestly priced and transparent** — $18–$30 per class, mostly $144–$300 for a 10-week session, with full refunds for canceled classes and a make-up week.",
-      "of": "e89bfac2",
+      "text": "**Enrichment is modestly priced and transparent** — $18–$30 per class and $160–$300 for the session of 8 or 10 classes, with full refunds for canceled classes and a make-up week.",
+      "of": "6274a884",
       "at": [
         "cannon:verdict.strengths[5]"
       ],
-      "t": "**Anrichisman gen pri modès ak transparan** — $18–$30 pa klas, sitou $144–$300 pou yon sesyon 10 semèn, ak ranbousman konplè pou klas yo anile ak yon semèn pou ranplase."
+      "t": "**Anrichisman gen pri modès ak transparan** — $18–$30 pa klas ak $160–$300 pou sesyon 8 oswa 10 klas la, ak ranbousman konplè pou klas yo anile ak yon semèn pou ranplase."
     },
     {
       "text": "**An executive-function class for Middle School** (\"Let’s Get Organized\") — a genuinely unusual offering at this age.",
@@ -5411,12 +5427,12 @@
       "t": "**Yo retire paj Extended Care ak After School Programs yo nèt sou sit ki an dirèk la**. Tou de montre yon erè 404 paj-pa-jwenn kounye a, sa konfime nan jiyè 2026, epi ni youn ni lòt pa parèt nan plan sit aktyèl la. Yon fanmi 2026-27 pa gen okenn deskripsyon pwogram ki pibliye ditou."
     },
     {
-      "text": "No summer program is published on the live site, and no summer page exists in the site map. An archived 2019 camp page and a third-party listing site exist, but the school has not confirmed either one on its own pages.",
-      "of": "e61b8f40",
+      "text": "No summer camp is published on the live site, and no summer page exists in the site map. An archived 2019 camp page and a third-party listing site exist, but the school has not confirmed either one on its own pages. The Learning Enrichment Center’s summer tutoring and therapy are separate: see Learning Support.",
+      "of": "a2ba01c8",
       "at": [
         "davidson-day:coverage.flags[2].text"
       ],
-      "t": "Pa gen okenn pwogram ete ki pibliye sou sit ki an dirèk la, epi pa gen okenn paj ete nan plan sit la. Yon paj kan 2019 ki achive ak yon sit lis twazyèm pati egziste, men lekòl la pa konfime ni youn ni lòt sou pwòp paj li yo."
+      "t": "Pa gen okenn kan ete ki pibliye sou sit ki an dirèk la, epi pa gen okenn paj ete nan plan sit la. Yon paj kan 2019 ki achive ak yon sit lis twazyèm pati egziste, men lekòl la pa konfime ni youn ni lòt sou pwòp paj li yo. Leson patikilye ak terapi ete Learning Enrichment Center a se yon bagay apa: gade Sipò pou aprantisaj."
     },
     {
       "text": "Whether care runs on half-days or conference days is not published. The 2026-27 calendar does confirm the dates that would need it — half-days 18 Dec 2026, 15 Apr and 26 May 2027, and conference closures 14–18 Sep 2026, 4 Jan and 16 Apr 2027.",
@@ -5539,12 +5555,12 @@
       "t": "Gadri pwolonje eksplisitman eskli nan èd finansye, sa ki fè pri ki manke a yon vrè pwoblèm desizyon olye ke yon ti kritik sou dokimantasyon."
     },
     {
-      "text": "**Coverage runs to 6:00 p.m.**, competitive with peers, and spans **Traditional Toddler through grade 8** — including a toddler tier many schools do not cover at all.",
-      "of": "d611da9d",
+      "text": "**Coverage ran to 6:00 p.m.** for **Traditional Toddler through grade 8** on the school’s 2020 page. Confirm it still does.",
+      "of": "8914e54f",
       "at": [
         "davidson-day:verdict.strengths[0]"
       ],
-      "t": "**Kouvèti a kouri jiska 6:00 p.m.**, konpetitif ak lekòl parèy, epi li kouvri **Traditional Toddler jiska grad 8** — ki enkli yon palye pou timoun piti anpil lekòl pa kouvri ditou."
+      "t": "**Kouvèti a te kouri jiska 6:00 p.m.** pou **Traditional Toddler jiska grad 8** sou paj 2020 lekòl la. Konfime li toujou konsa."
     },
     {
       "text": "**Before School Care was teacher-staffed at 7:1** — genuinely strong for before-care, and staffed by full-time Davidson Day teachers rather than outside hires, if it still holds.",
@@ -6102,12 +6118,12 @@
       "t": "Nan After Care"
     },
     {
-      "text": "YCC children move into After School care alongside grades 1–8; Middle School students arrive by 3:30",
-      "of": "afde5739",
+      "text": "YCC children move into After YCC care; Middle School students arrive by 3:30",
+      "of": "e4ed9584",
       "at": [
         "carmel-christian:dayInside.rhythm[2].detail"
       ],
-      "t": "Timoun YCC yo antre nan After School care ansanm ak klas 1–8; elèv Middle School yo rive anvan 3:30"
+      "t": "Timoun YCC yo antre nan gadri After YCC; elèv Middle School yo rive anvan 3:30"
     },
     {
       "text": "5:00",
@@ -6430,12 +6446,12 @@
       "t": "Kisa Morning Sibling Care a 7:35 a.m. ye, epi èske li koute anyen konpare ak swen anvan lekòl peye a?"
     },
     {
-      "text": "One 2:30–5:30 p.m. window covers the whole school — an Afterschool program for TK–5 and a supervised Study Hall for grades 6–11 — with the latest pickup at 5:30.",
-      "of": "5ad69bf4",
+      "text": "One 2:30–5:30 p.m. window covers TK through at least 11th grade. It holds an Afterschool program for TK–5 and a supervised Study Hall for grades 6–11. The latest pickup is 5:30.",
+      "of": "061bbddb",
       "at": [
         "hickory-grove-christian:coverage.headline"
       ],
-      "t": "Yon sèl fenèt 2:30–5:30 p.m. kouvri tout lekòl la — yon pwogram Afterschool pou TK–5 ak yon Study Hall ak sipèvizyon pou grad 6–11 — ak dènye lè pou vin chèche timoun nan a 5:30."
+      "t": "Yon sèl fenèt 2:30–5:30 p.m. kouvri TK rive omwen 11yèm ane. Li gen yon pwogram Afterschool pou TK–5 ak yon Study Hall ak sipèvizyon pou grad 6–11. Dènye lè pou vin chèche timoun nan se 5:30."
     },
     {
       "text": "Both are full-year programs (no single-day drop-ins), billed annually in equal payments. The tuition page prices after-school childcare at $2,600 a year for TK–5 and $1,300 for grades 6–12; the Afterschool page describes Study Hall for grades 6–11.",
@@ -6727,12 +6743,12 @@
       "t": "Pa gen okenn rapò estaf-a-timoun, gwosè gwoup, oswa orè èdtan pa èdtan ki pibliye pi lwen pase lis aktivite anwo yo. Aktivite anrichisman yo gen non, men yo pa òganize kòm yon katalòg klas ak jou, nivo oswa frè."
     },
     {
-      "text": "A single, age-split afternoon program that covers the whole school to 5:30 p.m. — with published activities and annual prices, but no summer coverage.",
-      "of": "12d560ff",
+      "text": "A single, age-split afternoon program that covers TK through at least 11th grade to 5:30 p.m. — with published activities and annual prices, but no summer coverage.",
+      "of": "ce6462ca",
       "at": [
         "hickory-grove-christian:verdict.headline"
       ],
-      "t": "Yon sèl pwogram aprèmidi ki separe pa laj epi ki kouvri tout lekòl la jiska 5:30 p.m. — ak aktivite ak pri anyèl ki pibliye, men san kouvèti pou ete."
+      "t": "Yon sèl pwogram aprèmidi ki separe pa laj epi ki kouvri TK rive omwen 11yèm ane jiska 5:30 p.m. — ak aktivite ak pri anyèl ki pibliye, men san kouvèti pou ete."
     },
     {
       "text": "The open questions are the missing staff ratio, which grades Study Hall serves, and the fact that both tracks are full-year commitments with no drop-in option.",
@@ -6743,12 +6759,12 @@
       "t": "Kesyon ki rete yo se rapò estaf ki manke a, ki nivo klas Study Hall sèvi, ak fè ke tou de pis yo se angajman pou tout ane a san okenn opsyon san randevou."
     },
     {
-      "text": "**Whole-school coverage in one window** — TK–5 Afterschool and 6–11 Study Hall both run 2:30–5:30 p.m., so there is no division gap.",
-      "of": "19d88b54",
+      "text": "**One window for TK through at least 11th grade** — TK–5 Afterschool and 6–11 Study Hall both run 2:30–5:30 p.m.",
+      "of": "4a46a99b",
       "at": [
         "hickory-grove-christian:verdict.strengths[0]"
       ],
-      "t": "**Kouvèti pou tout lekòl la nan yon sèl fenèt** — Afterschool TK–5 ak Study Hall 6–11 tou de fonksyone 2:30–5:30 p.m., kidonk pa gen okenn twou ant divizyon yo."
+      "t": "**Yon sèl fenèt pou TK rive omwen 11yèm ane** — Afterschool TK–5 ak Study Hall 6–11 tou de fonksyone 2:30–5:30 p.m."
     },
     {
       "text": "**A clearly described afternoon** — the TK–5 activity list (homework help, outdoor play, reading, computer lab) and the 6–11 Study Hall framing are published in the school's own words.",
@@ -6839,12 +6855,12 @@
       "t": "Piske pa gen opsyon san randevou, èske gen yon fason pou enskri pou kèk aprèmidi sèlman pa semèn?"
     },
     {
-      "text": "Are there other \"student services fees\" beyond the after-school rate, and where can we see them before enrolling?",
-      "of": "4ef98c37",
+      "text": "What do lunch, athletic and graduation fees cost? Learning Support lists the Educational Support Services fees.",
+      "of": "57ea2df2",
       "at": [
         "hickory-grove-christian:verdict.checklist[4]"
       ],
-      "t": "Èske gen lòt \"student services fees\" anplis to aprè-lekòl la, epi kote nou ka wè yo anvan nou enskri?"
+      "t": "Konbyen frè manje midi, frè atletik ak frè gradyasyon yo koute? Seksyon Sipò pou aprantisaj la bay lis frè Educational Support Services yo."
     },
     {
       "text": "What child-care options exist in the summer, given the program is closed — beyond the half-day camps?",
@@ -6855,60 +6871,60 @@
       "t": "Ki opsyon gadri ki egziste nan ete a, piske pwogram nan fèmen — pi lwen pase kan demi-jounen yo?"
     },
     {
-      "text": "Care runs to 6:00 pm for Pre-K through 8th grade, split into a Lower School tier from 3:00 and a Middle School tier from 4:00.",
-      "of": "bfb77064",
+      "text": "Care runs to 5:30 pm for Pre-K through 8th grade. The Lower School tier starts at 3:00 and the Middle School tier at 3:15.",
+      "of": "fecea180",
       "at": [
         "gaston-day:coverage.headline"
       ],
-      "t": "Swen kouri jiska 6:00 pm pou Pre-K rive 8yèm grad, separe an yon nivo Lower School apati 3:00 ak yon nivo Middle School apati 4:00."
+      "t": "Swen kouri jiska 5:30 pm pou Pre-K rive 8yèm grad. Nivo Lower School la kòmanse a 3:00 epi nivo Middle School la a 3:15."
     },
     {
-      "text": "Both tiers land in the same room by mid-afternoon; the difference is when each division’s day ends, not what the program offers.",
-      "of": "c5985fd5",
+      "text": "Both tiers end at 5:30. The school publishes one afternoon schedule, starting at 3:15.",
+      "of": "2281f5b8",
       "at": [
         "gaston-day:coverage.subhead"
       ],
-      "t": "Tou de nivo yo ateri nan menm sal la nan mitan apremidi a; diferans lan se lè jounen chak divizyon fini, se pa sa pwogram nan ofri."
+      "t": "Tou de nivo yo fini a 5:30. Lekòl la pibliye yon sèl orè apremidi, ki kòmanse a 3:15."
     },
     {
-      "text": "Prices shown are the published WEEKLY rates from the school’s 2025-26 Schedule of Tuition and Fees. They assume regular enrollment. Drop-in is billed per day instead and is listed in the facts below. See the flags below: the program web page labels near-identical figures as monthly.",
-      "of": "b2b5c551",
+      "text": "Prices shown are the published WEEKLY rates from the school’s 2026–27 Schedule of Tuition and Fees. They assume regular enrollment, and the Finance Office bills them monthly. Drop-in is priced per day instead and is listed in the facts below.",
+      "of": "28411b1e",
       "at": [
         "gaston-day:coverage.basisNote"
       ],
-      "t": "Pri ki parèt yo se to CHAK SEMÈN ki pibliye nan Schedule of Tuition and Fees 2025-26 lekòl la. Yo sipoze yon enskripsyon regilye. San randevou a faktire pa jou pito, epi li nan lis enfòmasyon ki anba yo. Gade drapo ki anba yo: paj wèb pwogram nan make chif prèske idantik kòm mansyèl."
+      "t": "Pri ki parèt yo se to CHAK SEMÈN ki pibliye nan Schedule of Tuition and Fees 2026–27 lekòl la. Yo sipoze yon enskripsyon regilye, epi Finance Office la fakture yo chak mwa. San randevou gen pri pa jou pito, epi li nan lis enfòmasyon ki anba yo."
     },
     {
-      "text": "PS–4th · dismissal 3:00",
-      "of": "cf1739b4",
+      "text": "PS–4th · care from 3:00",
+      "of": "490868c6",
       "at": [
         "gaston-day:coverage.rows[0].dismissal"
       ],
-      "t": "PS–4yèm · lekòl kase 3:00"
+      "t": "PS–4yèm · gadri apati 3:00"
     },
     {
-      "text": "After School Care · $95/week or $30/day",
-      "of": "582d1893",
+      "text": "After School Care · $100/week or $30/day",
+      "of": "79406b4c",
       "at": [
         "gaston-day:coverage.rows[0].flatLabel"
       ],
-      "t": "After School Care · $95/semèn oswa $30/jou"
+      "t": "After School Care · $100/semèn oswa $30/jou"
     },
     {
-      "text": "5th–8th · dismissal 4:00",
-      "of": "8c483b1b",
+      "text": "5th–8th · care from 3:15",
+      "of": "0b7412ac",
       "at": [
         "gaston-day:coverage.rows[1].dismissal"
       ],
-      "t": "5yèm–8yèm · lekòl kase 4:00"
+      "t": "5yèm–8yèm · gadri apati 3:15"
     },
     {
-      "text": "After School Care · $55/week or $15/day",
-      "of": "0e52375e",
+      "text": "After School Care · $60/week or $15/day",
+      "of": "51ed35e2",
       "at": [
         "gaston-day:coverage.rows[1].flatLabel"
       ],
-      "t": "After School Care · $55/semèn oswa $15/jou"
+      "t": "After School Care · $60/semèn oswa $15/jou"
     },
     {
       "text": "9th–12th",
@@ -6927,12 +6943,12 @@
       "t": "Swen ete se yon pwogram apa ak pwòp to pibliye pa l — jounen konplè ak demi jounen Camp Spartan plis swen anvan kan apati 7:45 am ak swen apre kan jiska 5:00 pm. Gade zòn Summer Programs la."
     },
     {
-      "text": "Available without weekly enrollment at **$30/day** (Lower School) and **$15/day** (Middle School). An **Extended Day Drop-In Fee of $25** also appears on the fee schedule.",
-      "of": "fde9d877",
+      "text": "Available without weekly enrollment at **$30/day** (Lower School) and **$15/day** (Middle School). An **Extended Day Drop-In Fee of $25** also appears on the fee schedule. For half-day Preschool and Pre-K it is $25 a day or $120 a week.",
+      "of": "d8333dcb",
       "at": [
         "gaston-day:coverage.facts[0].text"
       ],
-      "t": "Disponib san enskripsyon chak semèn a **$30/jou** (Lower School) ak **$15/jou** (Middle School). Yon **Extended Day Drop-In Fee de $25** parèt tou sou barèm frè a."
+      "t": "Disponib san enskripsyon chak semèn a **$30/jou** (Lower School) ak **$15/jou** (Middle School). Yon **Extended Day Drop-In Fee de $25** parèt tou sou barèm frè a. Pou Preschool ak Pre-K demi-jounen, se $25 pa jou oswa $120 pa semèn."
     },
     {
       "text": "**$10 for the first 5 minutes**, then **$5 per additional 5-minute increment**. Pickup is from the front carpool line.",
@@ -6951,12 +6967,12 @@
       "t": "Enskripsyon"
     },
     {
-      "text": "Through the **Popsicle** app — the same platform the summer camps use. Registration is free and stated as taking under five minutes.",
-      "of": "339f1dae",
+      "text": "Through the **Popsicle** app — the same platform the summer camps use. Registration is free and takes five minutes or less.",
+      "of": "da07c0b5",
       "at": [
         "gaston-day:coverage.facts[2].text"
       ],
-      "t": "Atravè aplikasyon **Popsicle** la — menm platfòm kan ete yo sèvi ak li. Enskripsyon an gratis epi yo deklare li pran mwens pase senk minit."
+      "t": "Atravè aplikasyon **Popsicle** la — menm platfòm kan ete yo sèvi ak li. Enskripsyon an gratis epi li pran senk minit oswa mwens."
     },
     {
       "text": "Staff contacts",
@@ -6967,12 +6983,12 @@
       "t": "Kontak nan pèsonèl la"
     },
     {
-      "text": "**Letty Jimenez** (980.502.5817) and **Traci Harbin**.",
-      "of": "bc1cdbb7",
+      "text": "**Letty Jimenez** (980.502.5817, Ljimenez@gastonday.org) and **Julie Dellibovi** (jdellibovi@gastonday.org).",
+      "of": "b944598c",
       "at": [
         "gaston-day:coverage.facts[3].text"
       ],
-      "t": "**Letty Jimenez** (980.502.5817) ak **Traci Harbin**."
+      "t": "**Letty Jimenez** (980.502.5817, Ljimenez@gastonday.org) ak **Julie Dellibovi** (jdellibovi@gastonday.org)."
     },
     {
       "text": "Music lessons interlock",
@@ -6983,12 +6999,12 @@
       "t": "Leson mizik makonnen"
     },
     {
-      "text": "Middle School students waiting for a music lesson (**$35/lesson**) may work on homework in aftercare **at no charge**.",
-      "of": "df2e3b63",
+      "text": "Middle School students waiting for a music lesson (**$35 per 30-minute lesson**) may work on homework in aftercare **at no charge**.",
+      "of": "fc9fac09",
       "at": [
         "gaston-day:coverage.facts[4].text"
       ],
-      "t": "Elèv Middle School k ap tann yon leson mizik (**$35/leson**) ka travay sou devwa yo nan swen apre lekòl **gratis**."
+      "t": "Elèv Middle School k ap tann yon leson mizik (**$35 pou chak leson 30 minit**) ka travay sou devwa yo nan swen apre lekòl **gratis**."
     },
     {
       "text": "No Upper School care",
@@ -7007,36 +7023,20 @@
       "t": "Pwogram nan kouvri **Pre-K rive 8yèm grad sèlman**. Pa gen okenn swen apre lekòl ki pibliye pou grad 9–12, sa ki komen men ki vo lapèn deklare."
     },
     {
-      "text": "The programme page says **3:15–5:30 pm** for both divisions; the 2025-26 fee schedule says **3:00–6:00** (Lower School) and **4:00–6:00** (Middle School). Both are shown here: the fee schedule sets the rates and the Compare row’s 6:00 pm latest pickup, the page sets the afternoon rhythm. A family should confirm the current window at enrolment.",
-      "of": "5998fe68",
-      "at": [
-        "gaston-day:coverage.flags[0].text"
-      ],
-      "t": "Paj pwogram nan di **3:15–5:30 pm** pou tou de divizyon yo; barèm frè 2025-26 la di **3:00–6:00** (Lower School) ak **4:00–6:00** (Middle School). Nou montre tou de isit la: barèm frè a fikse to yo ak dènye lè pou vin chèche 6:00 pm nan liy Compare la, paj la fikse ritm apremidi a. Yon fanmi ta dwe konfime fenèt aktyèl la lè enskripsyon."
-    },
-    {
-      "text": "The page prices weekly enrolment at **$100/month** (LS) and **$60/month** (MS); the fee schedule says **$95/week** and **$55/week**. The drop-in rates ($30/day, $15/day) are identical in both. The per-week reading is used, since a monthly rate below four drop-in days is not economically coherent.",
-      "of": "27660033",
-      "at": [
-        "gaston-day:coverage.flags[1].text"
-      ],
-      "t": "Paj la bay pri enskripsyon chak semèn nan a **$100/mwa** (LS) ak **$60/mwa** (MS); barèm frè a di **$95/semèn** ak **$55/semèn**. To san randevou yo ($30/jou, $15/jou) idantik nan tou de. Nou sèvi ak lekti pa semèn nan, paske yon to mansyèl ki pi ba pase kat jou san randevou pa gen koyerans ekonomik."
-    },
-    {
-      "text": "Aftercare costs $95 a week for the Lower School and $55 for the Middle School.",
-      "of": "7ce0a36e",
+      "text": "Aftercare costs $100 a week for the Lower School and $60 for the Middle School.",
+      "of": "77dd11e9",
       "at": [
         "gaston-day:cost.headline"
       ],
-      "t": "Swen apre lekòl la koute $95 pa semèn pou Lower School la ak $55 pou Middle School la."
+      "t": "Swen apre lekòl la koute $100 pa semèn pou Lower School la ak $60 pou Middle School la."
     },
     {
-      "text": "A full school year of five-day Lower School care comes to roughly $3,420 across 36 weeks — before any drop-in days or late fees.",
-      "of": "01cdd883",
+      "text": "A full school year of five-day Lower School care comes to roughly $3,600 across 36 weeks — before any drop-in days or late fees.",
+      "of": "483b0ccb",
       "at": [
         "gaston-day:cost.subhead"
       ],
-      "t": "Yon ane eskolè konplè ak swen Lower School senk jou rive apeprè $3,420 sou 36 semèn — anvan nenpòt jou san randevou oswa frè reta."
+      "t": "Yon ane eskolè konplè ak swen Lower School senk jou rive apeprè $3,600 sou 36 semèn — anvan nenpòt jou san randevou oswa frè reta."
     },
     {
       "text": "36 school weeks",
@@ -7121,12 +7121,12 @@
       "t": "To chak semèn nan fiks, kidonk li pa monte selon kantite jou"
     },
     {
-      "text": "The published $95 and $55 figures are weekly enrollment rates. They stay the same however many afternoons a child attends, which is why those two rows show the same price in every column. Drop-in is the option whose cost grows with use. At Lower School rates, drop-in costs less than weekly enrollment up to three days a week ($90 vs $95). From four days, it costs more ($120 vs $95).",
-      "of": "72a334a5",
+      "text": "The published $100 and $60 figures are weekly enrollment rates. They stay the same however many afternoons a child attends, which is why those two rows show the same price in every column. Drop-in is the option whose cost grows with use. At Lower School rates, drop-in costs less than weekly enrollment up to three days a week ($90 vs $100). From four days, it costs more ($120 vs $100).",
+      "of": "5035b92a",
       "at": [
         "gaston-day:cost.aside.text"
       ],
-      "t": "Chif $95 ak $55 ki pibliye yo se to enskripsyon chak semèn. Yo rete menm jan kèlkeswa konbyen apremidi yon timoun vini, se poutèt sa de liy sa yo montre menm pri a nan chak kolòn. San randevou se opsyon ki gen pri ki monte ak itilizasyon. Nan to Lower School yo, san randevou koute mwens pase enskripsyon chak semèn jiska twa jou pa semèn ($90 kont $95). Apati kat jou, li koute plis ($120 kont $95)."
+      "t": "Chif $100 ak $60 ki pibliye yo se to enskripsyon chak semèn. Yo rete menm jan kèlkeswa konbyen apremidi yon timoun vini, se poutèt sa de liy sa yo montre menm pri a nan chak kolòn. San randevou se opsyon ki gen pri ki monte ak itilizasyon. Nan to Lower School yo, san randevou koute mwens pase enskripsyon chak semèn jiska twa jou pa semèn ($90 kont $100). Apati kat jou, li koute plis ($120 kont $100)."
     },
     {
       "text": "Lower School · weekly enrollment",
@@ -7137,12 +7137,12 @@
       "t": "Lower School · enskripsyon chak semèn"
     },
     {
-      "text": "$95/week",
-      "of": "cf4c30e6",
+      "text": "$100/week",
+      "of": "aeef688b",
       "at": [
         "gaston-day:cost.fees[0].value"
       ],
-      "t": "$95/semèn"
+      "t": "$100/semèn"
     },
     {
       "text": "$30/day",
@@ -7161,12 +7161,12 @@
       "t": "Middle School · enskripsyon chak semèn"
     },
     {
-      "text": "$55/week",
-      "of": "84acf482",
+      "text": "$60/week",
+      "of": "46daf1ea",
       "at": [
         "gaston-day:cost.fees[2].value"
       ],
-      "t": "$55/semèn"
+      "t": "$60/semèn"
     },
     {
       "text": "$15/day",
@@ -7185,12 +7185,12 @@
       "t": "Extended Day Drop-In Fee"
     },
     {
-      "text": "Music lessons",
-      "of": "4d585419",
+      "text": "Music lessons, 30 minutes",
+      "of": "2681e3a7",
       "at": [
         "gaston-day:cost.fees[5].label"
       ],
-      "t": "Leson mizik"
+      "t": "Leson mizik, 30 minit"
     },
     {
       "text": "$35/lesson",
@@ -7233,28 +7233,28 @@
       "t": "$5"
     },
     {
-      "text": "This page assumes a 36-week school year so schools can be compared. Gaston Day does not publish that figure. The school states no annual aftercare total, no registration fee, no sibling discount and no tuition-insurance terms for the program.",
-      "of": "a0b66ef2",
+      "text": "This page assumes a 36-week school year so schools can be compared. Gaston Day does not publish that figure. Registration is free. The school states no annual aftercare total, no sibling discount and no refund terms for the program.",
+      "of": "8e7cd54c",
       "at": [
         "gaston-day:cost.fees[8].label"
       ],
-      "t": "Paj sa a sipoze yon ane lekòl 36 semèn pou nou ka konpare lekòl yo. Gaston Day pa pibliye chif sa a. Lekòl la pa deklare okenn total anyèl pou swen apre lekòl, okenn frè enskripsyon, okenn rabè pou frè ak sè ni okenn kondisyon asirans frè eskolè pou pwogram nan."
+      "t": "Paj sa a sipoze yon ane lekòl 36 semèn pou nou ka konpare lekòl yo. Gaston Day pa pibliye chif sa a. Enskripsyon an gratis. Lekòl la pa deklare okenn total anyèl pou swen apre lekòl, okenn rabè pou frè ak sè ni okenn kondisyon ranbousman pou pwogram nan."
     },
     {
-      "text": "The programme page labels these same figures as **$100/month** and **$60/month**. The weekly reading from the official fee schedule is used — see the Coverage card’s flag for why.",
-      "of": "38c63975",
+      "text": "Re-read 2026-11-22: the page and the 2026-27 schedule both give $100 and $60 a week, billed monthly. The 36-week multiplier is our assumption.",
+      "of": "82c898a1",
       "at": [
         "gaston-day:cost.flags[0].text"
       ],
-      "t": "Paj pwogram nan make menm chif sa yo kòm **$100/mwa** ak **$60/mwa**. Nou sèvi ak lekti chak semèn nan ki soti nan barèm frè ofisyèl la — gade drapo kat Coverage la pou rezon an."
+      "t": "Nou reli 2026-11-22: paj la ak barèm 2026-27 la tou de bay $100 ak $60 pa semèn, yo fakture yo chak mwa. Miltiplikasyon pa 36 semèn nan se sipozisyon pa nou."
     },
     {
-      "text": "No registration fee, sibling discount, financial-aid pathway or annual cap is published for aftercare specifically.",
-      "of": "e3faf456",
+      "text": "Registration is free. No sibling discount, financial-aid pathway or annual cap is published for aftercare specifically.",
+      "of": "d1baab78",
       "at": [
         "gaston-day:cost.flags[1].text"
       ],
-      "t": "Pa gen okenn frè enskripsyon, rabè pou frè ak sè, wout èd finansye ni plafon anyèl ki pibliye pou swen apre lekòl espesifikman."
+      "t": "Enskripsyon an gratis. Pa gen okenn rabè pou frè ak sè, wout èd finansye ni plafon anyèl ki pibliye pou swen apre lekòl espesifikman."
     },
     {
       "text": "A published minute-by-minute afternoon: choice time, then snack and homework by grade level, then a STEAM group activity, then choice time again.",
@@ -7449,28 +7449,28 @@
       "t": "Klas anrichisman"
     },
     {
-      "text": "The school lists enrichment programs as **“coming soon”**, so there is no class catalog to show. The section is on the school’s page, but it lists no offerings yet.",
-      "of": "32335278",
+      "text": "The school’s page lists enrichment programs as **“coming soon”**. Its 2026–27 fee schedule names planned programs: dance, art and painting, cheer, running (Speedy Spartans), sports (volleyball and basketball), and science and nature. It says details will be sent home during the year.",
+      "of": "d1e158aa",
       "at": [
         "gaston-day:dayInside.catalogIntro"
       ],
-      "t": "Lekòl la liste pwogram anrichisman yo kòm **“coming soon”**, kidonk pa gen okenn katalòg klas pou montre. Seksyon an la sou paj lekòl la, men li poko liste okenn ofrann."
+      "t": "Paj lekòl la liste pwogram anrichisman yo kòm **“coming soon”**. Barèm frè 2026–27 li a nonmen pwogram yo planifye: dans, atizay ak penti, cheerleading, kous (Speedy Spartans), espò (volebòl ak baskètbòl), ak syans ak lanati. Li di y ap voye detay yo lakay pandan ane a."
     },
     {
-      "text": "Enrichment offerings are advertised as \"coming soon\" with no classes, days, grades or fees published — so no catalog is shown rather than an empty one.",
-      "of": "e8b6c7b8",
+      "text": "The school names planned enrichment subjects but publishes no classes, days, grades or fees, so there is no catalog yet.",
+      "of": "c6c769ca",
       "at": [
         "gaston-day:dayInside.flags[0].text"
       ],
-      "t": "Yo anonse ofrann anrichisman yo kòm “coming soon” san okenn klas, jou, nivo ni frè ki pibliye — kidonk nou pa montre okenn katalòg olye ke yon katalòg vid."
+      "t": "Lekòl la nonmen sijè anrichisman li planifye yo men li pa pibliye okenn klas, jou, nivo ni frè, kidonk poko gen katalòg."
     },
     {
-      "text": "This rhythm is the web page’s 3:15–5:30 window. The fee schedule’s window runs 3:00–6:00 (Lower School), so the published blocks may start 15 minutes earlier and run 30 minutes later than shown.",
-      "of": "319251b2",
+      "text": "The page’s rhythm starts at 3:15. The 2026-27 fee schedule starts Lower School care at 3:00, and the page does not describe that first 15 minutes.",
+      "of": "930faa63",
       "at": [
         "gaston-day:dayInside.flags[1].text"
       ],
-      "t": "Ritm sa a se fenèt 3:15–5:30 paj wèb la. Fenèt barèm frè a kouri 3:00–6:00 (Lower School), kidonk blòk ki pibliye yo ka kòmanse 15 minit pi bonè epi kouri 30 minit pi ta pase sa ki parèt la."
+      "t": "Ritm paj la kòmanse a 3:15. Barèm frè 2026-27 la fè gadri Lower School la kòmanse a 3:00, epi paj la pa dekri premye 15 minit sa yo."
     },
     {
       "text": "No staff-to-child ratio, capacity, or policy for early-dismissal and teacher-workday coverage is published.",
@@ -7481,20 +7481,20 @@
       "t": "Pa gen okenn rapò pèsonèl-a-timoun, kapasite, ni politik pou kouvèti nan jou lekòl kase bonè ak jou travay pwofesè ki pibliye."
     },
     {
-      "text": "Cheap, published in detail, and genuinely structured — but with an unresolved conflict between the school’s two own sources on both hours and billing period.",
-      "of": "c7b15ee8",
+      "text": "Priced and scheduled in detail, with a structured afternoon that ends at 5:30.",
+      "of": "5de78fbe",
       "at": [
         "gaston-day:verdict.headline"
       ],
-      "t": "Bon mache, pibliye an detay, epi vrèman estriktire — men ak yon konfli ki pa rezoud ant de pwòp sous lekòl la sou tou de lè yo ak peryòd faktirasyon an."
+      "t": "Pri ak orè yo bay an detay, ak yon apremidi estriktire ki fini a 5:30."
     },
     {
-      "text": "For a family that needs care to 6:00 pm, the price is low; confirm the window before relying on it.",
-      "of": "84fa0017",
+      "text": "A family that needs care after 5:30 will need another plan.",
+      "of": "440a16cd",
       "at": [
         "gaston-day:verdict.subhead"
       ],
-      "t": "Pou yon fanmi ki bezwen swen jiska 6:00 pm, pri a ba; konfime fenèt la anvan ou konte sou li."
+      "t": "Yon fanmi ki bezwen swen apre 5:30 ap bezwen yon lòt plan."
     },
     {
       "text": "What holds up",
@@ -7505,12 +7505,12 @@
       "t": "Sa ki kenbe"
     },
     {
-      "text": "**The price is low.** $95/week for Lower School and $55/week for Middle School, with drop-in at $30 and $15 — no registration fee published.",
-      "of": "cf5ef55e",
+      "text": "**The price is published.** $100/week for Lower School and $60/week for Middle School, with drop-in at $30 and $15. Registration is free.",
+      "of": "06a421fe",
       "at": [
         "gaston-day:verdict.strengths[0]"
       ],
-      "t": "**Pri a ba.** $95/semèn pou Lower School ak $55/semèn pou Middle School, ak san randevou a $30 ak $15 — pa gen frè enskripsyon ki pibliye."
+      "t": "**Pri a pibliye.** $100/semèn pou Lower School ak $60/semèn pou Middle School, ak san randevou a $30 ak $15. Enskripsyon an gratis."
     },
     {
       "text": "**The afternoon is published minute by minute.** Four named blocks with times, rather than a general description of \"supervision and activities\".",
@@ -7537,12 +7537,12 @@
       "t": "**Gen yon aktivite gwoup estriktire chak jou** ki bati otou STEAM ak kolaborasyon, kidonk apremidi a pa sèlman gadyen timoun."
     },
     {
-      "text": "**Coverage runs to 6:00 pm** on the fee schedule — later than several peers, and covering the full Pre-K–8 span in two tiers.",
-      "of": "70978dc2",
+      "text": "**Coverage spans Pre-K through 8th grade** in two tiers, both running to 5:30 pm.",
+      "of": "55e040df",
       "at": [
         "gaston-day:verdict.strengths[4]"
       ],
-      "t": "**Kouvèti a kouri jiska 6:00 pm** sou barèm frè a — pi ta pase plizyè lekòl parèy, epi li kouvri tout etandi Pre-K–8 la nan de nivo."
+      "t": "**Kouvèti a kouvri Pre-K rive 8yèm grad** nan de nivo, ki tou de kouri jiska 5:30 pm."
     },
     {
       "text": "**It interlocks with music lessons**, letting Middle School students do homework free while waiting.",
@@ -7561,28 +7561,28 @@
       "t": "Sa pou verifye"
     },
     {
-      "text": "**The hours conflict.** 3:15–5:30 on the program page versus 3:00–6:00 and 4:00–6:00 on the fee schedule — a 30-minute difference at the end of the day that matters if you are relying on it.",
-      "of": "dc1f7c3f",
+      "text": "**Pickup is by 5:30.** Neither division has a later option on the fee schedule.",
+      "of": "b9fcfa81",
       "at": [
         "gaston-day:verdict.watchouts[0]"
       ],
-      "t": "**Lè yo an konfli.** 3:15–5:30 sou paj pwogram nan kont 3:00–6:00 ak 4:00–6:00 sou barèm frè a — yon diferans 30 minit nan fen jounen an ki gen enpòtans si w ap konte sou li."
+      "t": "**Fòk yo vin chèche timoun nan anvan 5:30.** Pa gen okenn divizyon ki gen yon opsyon pi ta sou barèm frè a."
     },
     {
-      "text": "**The billing period conflicts.** \"$100/month\" on the page versus \"$95/week\" on the fee schedule. These are very different annual totals; confirm which you will be billed.",
-      "of": "5c58535c",
+      "text": "**The rate is weekly, but the bill is monthly.** The Finance Office bills care monthly. The school publishes no total for the year.",
+      "of": "e11a2242",
       "at": [
         "gaston-day:verdict.watchouts[1]"
       ],
-      "t": "**Peryòd faktirasyon an an konfli.** “$100/mwa” sou paj la kont “$95/semèn” sou barèm frè a. Sa yo se total anyèl ki byen diferan; konfime kilès y ap faktire w."
+      "t": "**To a se pa semèn, men fakti a se pa mwa.** Finance Office la fakture swen an chak mwa. Lekòl la pa pibliye okenn total pou ane a."
     },
     {
-      "text": "**Enrichment is \"coming soon\"** — the extras that other schools bundle into aftercare do not exist here yet.",
-      "of": "8f4fe97c",
+      "text": "**Enrichment is still \"coming soon\"** on the program page. The fee schedule names planned subjects, with no days or fees.",
+      "of": "a67f0030",
       "at": [
         "gaston-day:verdict.watchouts[2]"
       ],
-      "t": "**Anrichisman se “coming soon”** — bagay anplis lòt lekòl yo mete nan swen apre lekòl pa egziste isit la ankò."
+      "t": "**Anrichisman toujou “coming soon”** sou paj pwogram nan. Barèm frè a nonmen sijè yo planifye, san jou ni frè."
     },
     {
       "text": "**No Upper School care.** Grades 9–12 have no published after-school program.",
@@ -7609,20 +7609,20 @@
       "t": "**Anyen pa pibliye sou rapò oswa kapasite**, kidonk pa gen okenn fason pou konnen konbyen timoun yon sèl granmoun ap sipèvize."
     },
     {
-      "text": "Which is current — 3:15–5:30 on the website, or the 3:00–6:00 and 4:00–6:00 on the fee schedule?",
-      "of": "6384b23c",
+      "text": "Is any care offered after 5:30?",
+      "of": "489dbf08",
       "at": [
         "gaston-day:verdict.checklist[0]"
       ],
-      "t": "Kilès ki aktyèl — 3:15–5:30 sou sit wèb la, oswa 3:00–6:00 ak 4:00–6:00 sou barèm frè a?"
+      "t": "Èske gen okenn swen yo ofri apre 5:30?"
     },
     {
-      "text": "Is the recurring rate $95 a week or $100 a month? What is the actual annual cost for five days?",
-      "of": "6f700ad8",
+      "text": "How many weeks are billed in a school year, and what is the annual cost for five days?",
+      "of": "70e7d5ef",
       "at": [
         "gaston-day:verdict.checklist[1]"
       ],
-      "t": "Èske to k ap repete a se $95 pa semèn oswa $100 pa mwa? Ki vrè depans anyèl la pou senk jou?"
+      "t": "Konbyen semèn yo fakture nan yon ane lekòl, epi konbyen senk jou pa semèn koute pou ane a?"
     },
     {
       "text": "What is the staff-to-child ratio, and how many children are typically in the room by 5 pm?",
@@ -7649,20 +7649,20 @@
       "t": "Èske swen apre lekòl fonksyone nan jou lekòl kase bonè, jou travay pwofesè ak jou egzamen?"
     },
     {
-      "text": "Is there any financial-aid pathway or sibling discount for aftercare, as there is for tuition?",
-      "of": "3a923a3f",
+      "text": "Is there any financial aid for aftercare, as there is for tuition, or a sibling discount?",
+      "of": "1a0db1fd",
       "at": [
         "gaston-day:verdict.checklist[5]"
       ],
-      "t": "Èske gen yon wout èd finansye oswa rabè pou frè ak sè pou swen apre lekòl, jan sa ye pou frè eskolè?"
+      "t": "Èske gen èd finansye pou swen apre lekòl, jan sa ye pou frè eskolè, oswa yon rabè pou frè ak sè?"
     },
     {
-      "text": "How is the 5th–8th grade tier supervised differently from the Pre-K–4th tier once both are in the same room?",
-      "of": "d1678ff8",
+      "text": "How is the 5th–8th grade tier supervised differently from the Pre-K–4th tier?",
+      "of": "3bc8eeb5",
       "at": [
         "gaston-day:verdict.checklist[6]"
       ],
-      "t": "Kijan yo sipèvize nivo 5yèm–8yèm grad la yon fason diferan de nivo Pre-K–4yèm nan yon fwa tou de nan menm sal la?"
+      "t": "Kijan yo sipèvize nivo 5yèm–8yèm grad la yon fason diferan de nivo Pre-K–4yèm nan?"
     },
     {
       "text": "One K–8 program, Trinity Extended Day, runs from dismissal to 6:00 p.m. at one monthly rate: $380, or $355 for each additional sibling.",

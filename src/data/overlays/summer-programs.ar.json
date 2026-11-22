@@ -188,7 +188,6 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel",
         "gaston-day:catalog.categoryFilters[3].label",
         "gaston-day:catalog.camps[3].categoryLabel",
         "gaston-day:catalog.camps[8].categoryLabel",
@@ -328,7 +327,6 @@
         "providence-day:catalog.camps[23].dayLabel",
         "providence-day:catalog.camps[24].dayLabel",
         "providence-day:catalog.camps[25].dayLabel",
-        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[28].dayLabel",
         "providence-day:catalog.camps[29].dayLabel",
         "providence-day:catalog.camps[31].dayLabel",
@@ -341,7 +339,6 @@
         "providence-day:catalog.camps[38].dayLabel",
         "providence-day:catalog.camps[39].dayLabel",
         "providence-day:catalog.camps[40].dayLabel",
-        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[42].dayLabel",
         "providence-day:catalog.camps[43].dayLabel",
         "providence-day:catalog.camps[44].dayLabel",
@@ -363,7 +360,6 @@
         "providence-day:catalog.camps[61].dayLabel",
         "providence-day:catalog.camps[62].dayLabel",
         "providence-day:catalog.camps[63].dayLabel",
-        "providence-day:catalog.camps[64].dayLabel",
         "providence-day:catalog.camps[65].dayLabel",
         "providence-day:catalog.camps[66].dayLabel",
         "providence-day:catalog.camps[67].dayLabel",
@@ -524,7 +520,6 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel",
         "gaston-day:catalog.camps[0].dayLabel",
         "gaston-day:catalog.camps[1].dayLabel",
         "gaston-day:catalog.camps[2].dayLabel",
@@ -707,8 +702,10 @@
       "at": [
         "providence-day:catalog.camps[3].dayLabel",
         "providence-day:catalog.camps[14].dayLabel",
+        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[27].dayLabel",
         "providence-day:catalog.camps[30].dayLabel",
+        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[49].dayLabel"
       ]
     },
@@ -1733,8 +1730,15 @@
       ]
     },
     {
-      "t": "S4, S6, S7, S8, S9",
-      "of": "0d40c04e",
+      "t": "4 أو 5 أيام",
+      "of": "4031e882",
+      "at": [
+        "providence-day:catalog.camps[64].dayLabel"
+      ]
+    },
+    {
+      "t": "S3, S4, S5, S6, S7, S8, S9",
+      "of": "71bb785c",
       "at": [
         "providence-day:catalog.camps[64].weeks"
       ]
@@ -3012,8 +3016,8 @@
       ]
     },
     {
-      "t": "مخيم فنون مميّز ليوم كامل — أحد مخيمين اثنين فقط عند هذا المستوى السعري.",
-      "of": "d2a6f6ff",
+      "t": "مخيم فنون مميّز ليوم كامل، هو الوحيد بسعره.",
+      "of": "d11cb67d",
       "at": [
         "charlotte-latin:catalog.camps[48].desc"
       ]
@@ -3343,8 +3347,8 @@
       ]
     },
     {
-      "t": "26 عرضًا. الشريحة الوحيدة بلا خصم تسجيل مبكر.",
-      "of": "b96cddcc",
+      "t": "26 عرضًا، بلا خصم تسجيل مبكر.",
+      "of": "41f28575",
       "at": [
         "charlotte-latin:costPlanner.tiers[1].detail"
       ]
@@ -3511,8 +3515,8 @@
       ]
     },
     {
-      "t": "**Super Care يجمع الرعاية القبلية والبعدية بـ $195.00/week** — وهو الخصم المنشور الوحيد لدى المدرسة، أي $25.00 أقل من خيارَي $70.00 + $150.00 أعلاه. والتأخّر في الاصطحاب بعد 5:30pm بـ $25.00 عن كل 15 دقيقة.",
-      "of": "296008fb",
+      "t": "**Super Care يجمع الرعاية القبلية والبعدية بـ $195.00/week** — وهي باقة تسمّيها المدرسة خصمًا، أي $25.00 أقل من خيارَي $70.00 + $150.00 أعلاه. والتأخّر في الاصطحاب بعد 5:30 مساءً بـ $25.00 عن كل 15 دقيقة.",
+      "of": "0fae47d6",
       "at": [
         "charlotte-latin:costPlanner.fees[1].label"
       ]
@@ -3988,8 +3992,8 @@
       ]
     },
     {
-      "t": "أوسع نطاق صفوف بين مخيمات هذا الكتالوج — من الصف 1 حتى 11 — ويُقدَّم في خمسة من الأسابيع الستة.",
-      "of": "8434e236",
+      "t": "من الصف 1 حتى 11، في خمسة من الأسابيع الستة؛ و$160 في أسبوع الأربعة أيام.",
+      "of": "f2f2aa20",
       "at": [
         "charlotte-christian:catalog.camps[4].desc"
       ]
@@ -4246,8 +4250,8 @@
       ]
     },
     {
-      "t": "أرخص مخيم في الكتالوج، في أسبوع الأربعة أيام.",
-      "of": "6890b7f6",
+      "t": "مخيم بسعر $155 في أسبوع الأربعة أيام، وهو أقلّ سعر في الكتالوج.",
+      "of": "7ef114ea",
       "at": [
         "charlotte-christian:catalog.camps[15].desc"
       ]
@@ -4299,8 +4303,8 @@
       ]
     },
     {
-      "t": "المخيم الآخر بسعر $155 في أسبوع الأربعة أيام.",
-      "of": "e7bd1548",
+      "t": "مخيم آخر بسعر $155 في أسبوع الأربعة أيام.",
+      "of": "a2e4938b",
       "at": [
         "charlotte-christian:catalog.camps[16].desc"
       ]
@@ -4321,8 +4325,8 @@
       ]
     },
     {
-      "t": "جمباز أرضي وتشجيع عبر أوسع نطاق بين مخيمات الرياضة هنا.",
-      "of": "62002db4",
+      "t": "جمباز أرضي وتشجيع من JK حتى الصف 8.",
+      "of": "7fc068af",
       "at": [
         "charlotte-christian:catalog.camps[18].desc"
       ]
@@ -4383,8 +4387,8 @@
       ]
     },
     {
-      "t": "مخيم ألعاب حركية.",
-      "of": "4abf883d",
+      "t": "مخيم ألعاب حركية؛ $160 في أسبوع الأربعة أيام.",
+      "of": "b75a32e2",
       "at": [
         "charlotte-christian:catalog.camps[22].desc"
       ]
@@ -4501,8 +4505,8 @@
       ]
     },
     {
-      "t": "أكثر مخيمات الكتالوج تكرارًا — يُقدَّم في الأسابيع الستة كلها.",
-      "of": "fce66e82",
+      "t": "أكثر مخيمات الكتالوج تكرارًا — يُقدَّم في الأسابيع الستة كلها؛ و$155 في أسبوع الأربعة أيام.",
+      "of": "809bf7b3",
       "at": [
         "charlotte-christian:catalog.camps[28].desc"
       ]
@@ -4567,8 +4571,8 @@
       ]
     },
     {
-      "t": "التفكيك وإعادة البناء لأصغر الصنّاع سنًّا.",
-      "of": "77d7b6ec",
+      "t": "التفكيك وإعادة البناء لأصغر الصنّاع سنًّا؛ و$160 في أسبوع الأربعة أيام.",
+      "of": "5849d3f9",
       "at": [
         "charlotte-christian:catalog.camps[33].desc"
       ]
@@ -5354,8 +5358,8 @@
       ]
     },
     {
-      "t": "ستة أسابيع متاحة. الأسبوع 3 أسبوع من أربعة أيام وسعره أقل؛ والشرائح أدناه هي أسعار الخمسة أيام.",
-      "of": "37e889c5",
+      "t": "ستة أسابيع متاحة. الأسبوع 3 أسبوع من أربعة أيام وسعره أقل. وباستثناء أول شريحتين، فالشرائح أدناه هي أسعار الخمسة أيام.",
+      "of": "2bab70f9",
       "at": [
         "charlotte-christian:costPlanner.subhead"
       ]
@@ -7206,8 +7210,8 @@
       ]
     },
     {
-      "t": "ثمانية أسابيع متاحة. اثنان منها أسبوعان من أربعة أيام: تكلفة مخيمات نصف اليوم $230 في كليهما، ولا تنخفض تكلفة مخيمات اليوم الكامل إلا في أسبوع 3 يوليو. والشرائح أدناه هي أسعار الخمسة أيام.",
-      "of": "42573fdb",
+      "t": "ثمانية أسابيع متاحة. اثنان منها أسبوعان من أربعة أيام: تكلفة مخيمات نصف اليوم $230 في كليهما، ولا تنخفض تكلفة مخيمات اليوم الكامل إلا في أسبوع 3 يوليو. وباستثناء الشريحة الأولى، فالشرائح أدناه هي أسعار الخمسة أيام.",
+      "of": "9f864e29",
       "at": [
         "charlotte-country-day:costPlanner.subhead"
       ]
@@ -7381,8 +7385,8 @@
       ]
     },
     {
-      "t": "**إذا تناول المشارك لنصف يوم غداءه في الحرم، فيجب تسجيل خيار غداء** — وهو أمر غير اختياري. وتتعارض صفحتان من صفحات المدرسة نفسها حول ما إذا كان الطعام مشمولًا بذلك السعر؛ انظر التنبيه أدناه.",
-      "of": "2b9b56df",
+      "t": "**إذا تناول المشارك لنصف يوم غداءه في الحرم، فيجب تسجيل خيار غداء** — وهو أمر غير اختياري. وتقول صفحة الصيف إن المشاركين يحضرون غداءهم. أما صفحة Camp Ready فتقول الأمرين معًا: إن الغداء يُقدَّم في قاعة الطعام، وإن على المشاركين إحضار غداء مُعدّ في المنزل.",
+      "of": "37c41680",
       "at": [
         "charlotte-country-day:costPlanner.fees[2].label"
       ]
@@ -7402,8 +7406,8 @@
       ]
     },
     {
-      "t": "تتعارض صفحتان رسميتان بشأن **رعاية الغداء البالغة $30/week**: فصفحة الصيف تصفها بأنها إشراف فقط مع إحضار المشاركين غداءهم، بينما تقول صفحة Camp Ready إن غداء قاعة الطعام مُقدَّم للمسجَّلين أنفسهم. يستحق الأمر مكالمة هاتفية واحدة قبل افتراض أيٍّ منهما.",
-      "of": "d637cfff",
+      "t": "تتعارض صفحتان رسميتان بشأن **رعاية الغداء البالغة $30/week**: فصفحة الصيف تصفها بأنها إشراف فقط مع إحضار المشاركين غداءهم، بينما تقول صفحة Camp Ready إن غداء قاعة الطعام مُقدَّم للمسجَّلين أنفسهم. كما تناقض Camp Ready نفسها: إذ يقول قسم رعاية الغداء فيها إن على المشاركين إحضار غدائهم المُعدّ في المنزل (أُعيد الاطّلاع في 2026-11-22). يستحق الأمر مكالمة هاتفية واحدة قبل افتراض أيٍّ منهما.",
+      "of": "4a2c4b34",
       "at": [
         "charlotte-country-day:costPlanner.flags[0].text"
       ]
@@ -7475,8 +7479,8 @@
         "cannon:catalog.camps[54].categoryLabel",
         "cannon:catalog.camps[55].categoryLabel",
         "covenant-day:catalog.categoryFilters[4].label",
-        "covenant-day:catalog.camps[18].categoryLabel",
-        "covenant-day:catalog.camps[19].categoryLabel"
+        "covenant-day:catalog.camps[17].categoryLabel",
+        "covenant-day:catalog.camps[18].categoryLabel"
       ]
     },
     {
@@ -7973,8 +7977,8 @@
       ]
     },
     {
-      "t": "صاعد JK وK",
-      "of": "1791a585",
+      "t": "صاعد JK وK / صاعد 1–4",
+      "of": "088d863d",
       "at": [
         "cannon:catalog.camps[16].gradeLabel"
       ]
@@ -8884,8 +8888,8 @@
       ]
     },
     {
-      "t": "تؤمّن **دفعة مقدَّمة بنسبة 50%** المقعد، على أن يُستحق الرصيد المتبقّي في 15 مايو 2026 — وهو هيكل الدفعة المقدَّمة الوحيد بين هذه البرامج الخمسة. وتُسترد الدفعات المقدَّمة بالكامل قبل 15 مايو؛ **وفي ذلك التاريخ أو بعده لا يوجد أي استرداد إطلاقًا.** وتقول المدرسة صراحةً إن \"بعض المخيمات الشائعة تمتلئ بعد فتح التسجيل بوقت قصير جدًّا.\"",
-      "of": "f19bf601",
+      "t": "تؤمّن **دفعة مقدَّمة بنسبة 50%** المقعد، على أن يُستحق الرصيد المتبقّي في 15 مايو 2026. وتُسترد الدفعات المقدَّمة بالكامل قبل 15 مايو؛ **وفي ذلك التاريخ أو بعده لا يوجد أي استرداد إطلاقًا.** وتقول المدرسة صراحةً إن \"بعض المخيمات الشائعة تمتلئ بعد فتح التسجيل بوقت قصير جدًّا.\"",
+      "of": "afad2a75",
       "at": [
         "cannon:costPlanner.aside.text"
       ]
@@ -8898,29 +8902,29 @@
       ]
     },
     {
-      "t": "لا تنشر Cannon **أي خصم للأشقّاء ولا خصمًا لتعدّد الأسابيع ولا أي مساعدة مالية للمخيمات**. والتخفيض السعري الوحيد في كُتيّب 2026 هو التخفيض الهيكلي لأسبوع الأربعة أيام رقم 2.",
-      "of": "d8366833",
+      "t": "لا تنشر Cannon **أي خصم للأشقّاء ولا خصمًا لتعدّد الأسابيع ولا أي مساعدة مالية للمخيمات**. والتخفيض الوحيد على رسوم المخيمات في كُتيّب 2026 هو لأسبوع الأربعة أيام رقم 2. أما الرعاية فلها سعر مجمَّع قدره $90.",
+      "of": "70c66cd9",
       "at": [
         "cannon:costPlanner.flags[1].text"
       ]
     },
     {
-      "t": "20 مخيمًا مُسمّى لصيف 2026 على مدى ثمانية أسابيع، 1 يونيو – 31 يوليو — مرتكزة على Camp Lion وCub Camp، المخيمين النهاريين التقليديين اللذين يضمّان الرعاية مجانًا.",
-      "of": "9dd79355",
+      "t": "19 مخيمًا مُسمّى لصيف 2026 على مدى ثمانية أسابيع، من 1 يونيو إلى 31 يوليو — مرتكزة على Camp Lion وCub Camp، المخيمين النهاريين التقليديين اللذين يضمّان الرعاية مجانًا.",
+      "of": "f5db8795",
       "at": [
         "covenant-day:catalog.headline"
       ]
     },
     {
-      "t": "يجري التسجيل عبر بوابة CampBrain مع خصومات الحجز المبكّر حتى 27 فبراير. وتسوّق المدرسة لـ \"29 مخيمًا\"؛ ويمكن عدّ 20 منها في الصفحة العامة.",
-      "of": "8cc84630",
+      "t": "يجري التسجيل عبر بوابة CampBrain مع خصومات الحجز المبكّر حتى 27 فبراير. وتسوّق المدرسة لـ \"29 مخيمًا\"؛ ويمكن عدّ 19 منها في الصفحة العامة.",
+      "of": "81f512f0",
       "at": [
         "covenant-day:catalog.subhead"
       ]
     },
     {
-      "t": "مدرَجة كل المخيمات الـ 20 المُسمّاة علنًا. **الأسعار والساعات الحالية لكل مخيم محجوبة خلف البوابة**. لذا فالأسعار أدناه تقديرات، من النطاق الحالي لطرف ثالث ($170–$325/week) ومن كتالوج المدرسة نفسه لعام 2018. أما أسعار إضافات الرعاية في Cost Planner فهي أرقام المدرسة الحالية نفسها.",
-      "of": "07ba6457",
+      "t": "مدرَجة كل المخيمات الـ 19 المُسمّاة علنًا. **الأسعار والساعات الحالية لكل مخيم محجوبة خلف البوابة**. لذا فالأسعار أدناه تقديرات، من النطاق الحالي لطرف ثالث (من $170 إلى $325/week) ومن كتالوج المدرسة نفسه لعام 2018. أما أسعار إضافات الرعاية في Cost Planner فهي أرقام المدرسة الحالية نفسها.",
+      "of": "219d303b",
       "at": [
         "covenant-day:catalog.intro"
       ]
@@ -8933,7 +8937,7 @@
         "covenant-day:catalog.camps[0].categoryLabel",
         "covenant-day:catalog.camps[1].categoryLabel",
         "covenant-day:catalog.camps[2].categoryLabel",
-        "covenant-day:catalog.camps[13].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -8941,10 +8945,10 @@
       "of": "e043e144",
       "at": [
         "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[13].categoryLabel",
         "covenant-day:catalog.camps[14].categoryLabel",
         "covenant-day:catalog.camps[15].categoryLabel",
-        "covenant-day:catalog.camps[16].categoryLabel",
-        "covenant-day:catalog.camps[17].categoryLabel"
+        "covenant-day:catalog.camps[16].categoryLabel"
       ]
     },
     {
@@ -9030,11 +9034,11 @@
         "covenant-day:catalog.camps[9].hours",
         "covenant-day:catalog.camps[10].hours",
         "covenant-day:catalog.camps[11].hours",
-        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[14].hours",
         "covenant-day:catalog.camps[15].hours",
         "covenant-day:catalog.camps[16].hours",
-        "covenant-day:catalog.camps[17].hours",
-        "covenant-day:catalog.camps[18].hours"
+        "covenant-day:catalog.camps[17].hours"
       ]
     },
     {
@@ -9086,9 +9090,9 @@
         "covenant-day:catalog.camps[5].gradeLabel",
         "covenant-day:catalog.camps[6].gradeLabel",
         "covenant-day:catalog.camps[10].gradeLabel",
-        "covenant-day:catalog.camps[13].gradeLabel",
-        "covenant-day:catalog.camps[17].gradeLabel",
-        "covenant-day:catalog.camps[18].gradeLabel"
+        "covenant-day:catalog.camps[12].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel"
       ]
     },
     {
@@ -9133,8 +9137,8 @@
       "of": "75e26068",
       "at": [
         "covenant-day:catalog.camps[9].gradeLabel",
-        "covenant-day:catalog.camps[15].gradeLabel",
-        "covenant-day:catalog.camps[16].gradeLabel"
+        "covenant-day:catalog.camps[14].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel"
       ]
     },
     {
@@ -9152,107 +9156,92 @@
       ]
     },
     {
-      "t": "برنامج Webb Fitness Center، يديره مدرّب القوة واللياقة في المدرسة — نفس رفع الأثقال الصيفي الذي يؤدّيه رياضيّو الفريق الأول.",
-      "of": "2e9659bb",
-      "at": [
-        "covenant-day:catalog.camps[12].desc"
-      ]
-    },
-    {
-      "t": "الصفوف 6–12",
-      "of": "5a57e078",
-      "at": [
-        "covenant-day:catalog.camps[12].gradeLabel"
-      ]
-    },
-    {
-      "t": "دورات",
-      "of": "130573cc",
-      "at": [
-        "covenant-day:catalog.camps[12].hours",
-        "covenant-day:catalog.camps[19].hours"
-      ]
-    },
-    {
       "t": "أسبوع المتعة الخالصة.",
       "of": "9ee1d298",
       "at": [
-        "covenant-day:catalog.camps[13].desc"
+        "covenant-day:catalog.camps[12].desc"
       ]
     },
     {
       "t": "يشمل Lunch Care مجانًا — المخيم الوحيد غير النهاري بضمّ الرعاية.",
       "of": "9710a44d",
       "at": [
-        "covenant-day:catalog.camps[14].desc"
+        "covenant-day:catalog.camps[13].desc"
       ]
     },
     {
       "t": "MS",
       "of": "35dfbd11",
       "at": [
-        "covenant-day:catalog.camps[14].gradeLabel"
+        "covenant-day:catalog.camps[13].gradeLabel"
       ]
     },
     {
       "t": "يوم كامل يشمل الغداء",
       "of": "6cdcfa40",
       "at": [
-        "covenant-day:catalog.camps[14].hours"
+        "covenant-day:catalog.camps[13].hours"
       ]
     },
     {
       "t": "أسبوع المسرح أوّلًا للطلاب الأصغر.",
       "of": "e3899851",
       "at": [
-        "covenant-day:catalog.camps[15].desc"
+        "covenant-day:catalog.camps[14].desc"
       ]
     },
     {
       "t": "عيّنة من الاستوديو في غرف الفنون البصرية.",
       "of": "a6d6d5ee",
       "at": [
-        "covenant-day:catalog.camps[16].desc"
+        "covenant-day:catalog.camps[15].desc"
       ]
     },
     {
       "t": "أسبوع الطهي.",
       "of": "15b6f079",
       "at": [
-        "covenant-day:catalog.camps[17].desc"
+        "covenant-day:catalog.camps[16].desc"
       ]
     },
     {
       "t": "أسبوع STEM.",
       "of": "45e94be3",
       "at": [
-        "covenant-day:catalog.camps[18].desc"
+        "covenant-day:catalog.camps[17].desc"
       ]
     },
     {
       "t": "أسبوع للمرحلة الثانوية يُدار وفق تقويم مكتب التوجيه — مخيم أكاديمي ثانوي نادر.",
       "of": "86fd317c",
       "at": [
-        "covenant-day:catalog.camps[19].desc"
+        "covenant-day:catalog.camps[18].desc"
       ]
     },
     {
       "t": "HS",
       "of": "6deb4e2c",
       "at": [
-        "covenant-day:catalog.camps[19].gradeLabel"
+        "covenant-day:catalog.camps[18].gradeLabel"
       ]
     },
     {
-      "t": "أسعار وساعات كل مخيم **تقديرات**. فالأرقام الحالية محجوبة خلف بوابة التسجيل CampBrain. لذا فالنطاق المعروض هو الرقم الحالي لطرف ثالث ($170–$325/week). والساعات مصوغة على نمط كتالوج المدرسة نفسه لعام 2018، حيث وُجد المخيم نفسه.",
+      "t": "دورات",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[18].hours"
+      ]
+    },
+    {
+      "t": "أسعار وساعات كل مخيم **تقديرات**. فالأرقام الحالية محجوبة خلف بوابة التسجيل CampBrain. لذا فالنطاق المعروض هو الرقم الحالي لطرف ثالث (من $170 إلى $325/week). والساعات مصوغة على نمط كتالوج المدرسة نفسه لعام 2018، حيث وُجد المخيم نفسه.",
       "of": "3a4c72f6",
       "at": [
         "covenant-day:catalog.flags[0].text"
       ]
     },
     {
-      "t": "تسوّق المدرسة لـ \"**29 مخيمًا**\"؛ وتَعُدّ الصفحة العامة 20 (مُدرَج حادٍ وعشرون، \"Splash Squad\"، هو منصب وظيفي). ويُرجَّح أن تفسّر متغيّرات لكل أسبوع ومخيمات حصرية للبوابة الفارق.",
-      "of": "19b8adfa",
+      "t": "تسوّق المدرسة لـ \"**29 مخيمًا**\"؛ وتَعُدّ الصفحة العامة 19، وقد دُقِّقت في المتصفّح في 2026-11-22 (\"Splash Squad\" منصب وظيفي، ولم يعد Strength and Conditioning مُدرجًا). ويُرجَّح أن تفسّر متغيّرات لكل أسبوع ومخيمات حصرية للبوابة الفارق.",
+      "of": "ac56e695",
       "at": [
         "covenant-day:catalog.flags[1].text"
       ]
@@ -9265,7 +9254,7 @@
       ]
     },
     {
-      "t": "خصّص ميزانية $170–$325 أسبوعيًّا للمخيم نفسه — ثم $50 للرعاية القبلية، و$50 للرعاية البعدية، و$30 لرعاية الغداء، إلا إذا ضمّ Camp Lion أو Cub Camp الثلاثة مجانًا.",
+      "t": "خصّص ميزانية من $170 إلى $325 أسبوعيًّا للمخيم نفسه — ثم $50 للرعاية القبلية، و$50 للرعاية البعدية، و$30 لرعاية الغداء، إلا إذا ضمّ Camp Lion أو Cub Camp الثلاثة مجانًا.",
       "of": "02b6638d",
       "at": [
         "covenant-day:costPlanner.headline"
@@ -10242,15 +10231,15 @@
       ]
     },
     {
-      "t": "تُقام المخيمات الأكاديمية من 9 a.m. إلى 1 p.m. والمخيمات الرياضية من 9 a.m. إلى 12 p.m. (وFootball مساءً)، من الاثنين إلى الخميس، على امتداد نحو ثمانية أسابيع من أواخر مايو حتى أواخر يوليو.",
-      "of": "f7887b86",
+      "t": "تُقام المخيمات الأكاديمية من 9 صباحًا إلى 1 ظهرًا والمخيمات الرياضية من 9 صباحًا إلى 12 ظهرًا (وFootball مساءً)، من الاثنين إلى الخميس، على امتداد ستة أسابيع من أواخر مايو حتى أواخر يوليو.",
+      "of": "665a2061",
       "at": [
         "hickory-grove-christian:catalog.subhead"
       ]
     },
     {
-      "t": "هذا هو **كتالوج صيف 2023، من نسخ محفوظة لصفحات المدرسة القديمة**. وهو قائمة تمثيلية لا القائمة الحية لعام 2026، لأن HGCS تُخفي الآن أسماء المخيمات وأسعارها خلف منصة Brushfire. وتؤكد صفحة 2026 الحية ثماني نوافذ للجلسات تتسق مع الأسابيع الواردة أدناه. **الأسعار غير منشورة في أي مكان** (متاحة عبر Brushfire فقط)، ولذلك لا تُعرض أي تكلفة. والصفوف المذكورة هي صفوف **الانتقال**.",
-      "of": "e18209dc",
+      "t": "هذا هو **كتالوج صيف 2023، من نسخ محفوظة لصفحات المدرسة القديمة**. وهو قائمة تمثيلية لا القائمة الحالية. ويُفتح جدول المدرسة لعام 2027 وباب التسجيل فيه في ربيع 2027. وحتى ذلك الحين، تذكر صفحاتها الحية أنواع المخيمات والرياضات، دون مواعيد لكلٍّ منها. **الأسعار غير منشورة**، ولذلك لا تُعرض أي تكلفة. والصفوف المذكورة هي صفوف **الانتقال**.",
+      "of": "55ca12a6",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ]
@@ -10533,15 +10522,15 @@
       ]
     },
     {
-      "t": "هذه قائمة صيف 2023، من نسخ محفوظة لصفحات المدرسة القديمة على Internet Archive. أما كتالوج 2026 الحي فمُخفى خلف منصة التسجيل Brushfire، ولذلك فإن أسماء مخيمات 2026 بالضبط موجودة داخل تلك المنصة. وتؤكد الصفحة الحية ثماني نوافذ للجلسات تتسق مع هذه الأسابيع.",
-      "of": "8b8fe821",
+      "t": "هذه قائمة صيف 2023، من نسخ محفوظة لصفحات المدرسة القديمة على Internet Archive. وتقول المدرسة إن مخيمات 2027 قادمة قريبًا، مع الجدول الكامل في ربيع 2027. ولا تذكر صفحاتها الحية سوى أنواع المخيمات والرياضات، لذا قد تختلف المخيمات الحالية.",
+      "of": "ee483d54",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ]
     },
     {
-      "t": "لا يُنشر أي سعر لكل مخيم على أي صفحة حية أو مؤرشفة. إذ لا توجد الأسعار إلا داخل صفحة الدفع في Brushfire. ولذلك لا تتضمّن هذه الصفحة مخطّط تكلفة لهذه المخيمات، وتُظهر أرقام تكلفة الصيف N/A. ولا توجد كذلك رعاية صيفية ممتدة. فالمخيمات بنصف يوم، وبرنامج ما بعد المدرسة مغلق في الصيف.",
-      "of": "0ce646d3",
+      "t": "لا يُنشر أي سعر لكل مخيم على أي صفحة حية أو مؤرشفة. ولذلك لا تتضمّن هذه الصفحة مخطّط تكلفة لهذه المخيمات، وتُظهر أرقام تكلفة الصيف N/A. ولا توجد كذلك رعاية صيفية ممتدة. فالمخيمات بنصف يوم، وبرنامج ما بعد المدرسة مغلق في الصيف.",
+      "of": "f27ebc58",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ]
@@ -11806,8 +11795,8 @@
       ]
     },
     {
-      "t": "مخيم دراجات لنصف يوم للنطاقات الأكبر في Middle School.",
-      "of": "5162a0a5",
+      "t": "مخيم دراجات لنصف يوم للمنتقلين إلى الصفوف 4–8.",
+      "of": "aa48d562",
       "at": [
         "trinity-episcopal:catalog.camps[11].desc"
       ]
@@ -11924,8 +11913,8 @@
       ]
     },
     {
-      "t": "تدريب تنس لنصف يوم يشمل نطاق Middle School كلّه.",
-      "of": "15fdee7c",
+      "t": "تدريب تنس لنصف يوم للمنتقلين إلى الصفوف 3–8.",
+      "of": "b93ecc35",
       "at": [
         "trinity-episcopal:catalog.camps[20].desc"
       ]
@@ -11969,8 +11958,8 @@
       ]
     },
     {
-      "t": "مخيم رسم رقمي ليوم كامل لنطاق Middle School.",
-      "of": "ecea0045",
+      "t": "مخيم رسم رقمي ليوم كامل للمنتقلين إلى الصفوف 5–8.",
+      "of": "1816fa4a",
       "at": [
         "trinity-episcopal:catalog.camps[25].desc"
       ]
@@ -12079,8 +12068,8 @@
       ]
     },
     {
-      "t": "مخيم قيادة لـ Middle School، وهو ثاني المخيمَين المقصورين على جنس واحد.",
-      "of": "9d96c806",
+      "t": "مخيم قيادة للمنتقلين إلى الصفوف 5–8، وهو ثاني المخيمَين المقصورين على جنس واحد.",
+      "of": "faa7b192",
       "at": [
         "trinity-episcopal:catalog.camps[35].desc"
       ]
@@ -12538,7 +12527,7 @@
       ]
     },
     {
-      "t": "مخيم نصف يوم · شريحة $225–$245",
+      "t": "مخيم نصف يوم · شريحة من $225 إلى $245",
       "of": "f65f36f3",
       "at": [
         "trinity-episcopal:costPlanner.tiers[0].panelLabel"
@@ -12559,7 +12548,7 @@
       ]
     },
     {
-      "t": "مخيم نصف يوم · شريحة $255–$295",
+      "t": "مخيم نصف يوم · شريحة من $255 إلى $295",
       "of": "7d1b5407",
       "at": [
         "trinity-episcopal:costPlanner.tiers[1].panelLabel"
@@ -12580,7 +12569,7 @@
       ]
     },
     {
-      "t": "مخيم مميّز · شريحة $305–$395",
+      "t": "مخيم مميّز · شريحة من $305 إلى $395",
       "of": "61ddb489",
       "at": [
         "trinity-episcopal:costPlanner.tiers[2].panelLabel"
@@ -12601,7 +12590,7 @@
       ]
     },
     {
-      "t": "مخيم يوم كامل · شريحة $400–$475",
+      "t": "مخيم يوم كامل · شريحة من $400 إلى $475",
       "of": "f98e5c17",
       "at": [
         "trinity-episcopal:costPlanner.tiers[3].panelLabel"
@@ -12622,7 +12611,7 @@
       ]
     },
     {
-      "t": "مخيم تخصّصي · شريحة $525–$785",
+      "t": "مخيم تخصّصي · شريحة من $525 إلى $785",
       "of": "e77b2bb3",
       "at": [
         "trinity-episcopal:costPlanner.tiers[4].panelLabel"
@@ -12650,8 +12639,8 @@
       ]
     },
     {
-      "t": "دفعة غير قابلة للاسترداد، لكل مخيم",
-      "of": "97136d00",
+      "t": "دفعة غير قابلة للاسترداد، لكل مخيم، تُخصم من سعر المخيم",
+      "of": "5f842f96",
       "at": [
         "trinity-episcopal:costPlanner.fees[0].label"
       ]
@@ -12713,8 +12702,8 @@
       ]
     },
     {
-      "t": "استمرّ صيف 2026 سبعة أسابيع، من 8 يونيو إلى 31 يوليو، للمخيّمين من Early School حتى الصف 8 — مخيّم نهاري تقليدي إضافة إلى مخيّم تخصّصي أو رياضي في كل أسبوع تقريبًا.",
-      "of": "ad1bd718",
+      "t": "استمرّ صيف 2026 سبعة أسابيع، من 8 يونيو إلى 31 يوليو، للمخيّمين من Early School حتى الصف 8. وكان في كل أسبوع مخيّم نهاري تقليدي ومخيّم تخصّصي ومخيّم رياضي.",
+      "of": "5443ba51",
       "at": [
         "charlotte-prep:catalog.headline"
       ]
@@ -13055,7 +13044,7 @@
       ]
     },
     {
-      "t": "سُعّر صيف 2026 بالأسبوع: $525 لليوم الكامل في Traditional Camp، و$500 لمخيّم Early School، و$500–$600 لأسبوع تخصّصي أو رياضي.",
+      "t": "سُعّر صيف 2026 بالأسبوع: $525 لليوم الكامل في Traditional Camp، و$500 لمخيّم Early School، ومن $500 إلى $600 لأسبوع تخصّصي أو رياضي.",
       "of": "07e1335f",
       "at": [
         "charlotte-prep:costPlanner.headline"

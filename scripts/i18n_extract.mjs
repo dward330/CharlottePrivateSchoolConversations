@@ -207,7 +207,7 @@ async function main() {
 
     const prose = []
     for (const h of hits) {
-      const kind = classifyField(h.generic, h.leaf)
+      const kind = classifyField(h.generic, h.leaf, h.value)
       if (kind === 'unclassified') {
         const k = `${topic}:${h.generic}`
         if (!unclassified.has(k)) unclassified.set(k, { n: 0, ex: h.value })

@@ -188,7 +188,6 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel",
         "gaston-day:catalog.categoryFilters[3].label",
         "gaston-day:catalog.camps[3].categoryLabel",
         "gaston-day:catalog.camps[8].categoryLabel",
@@ -328,7 +327,6 @@
         "providence-day:catalog.camps[23].dayLabel",
         "providence-day:catalog.camps[24].dayLabel",
         "providence-day:catalog.camps[25].dayLabel",
-        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[28].dayLabel",
         "providence-day:catalog.camps[29].dayLabel",
         "providence-day:catalog.camps[31].dayLabel",
@@ -341,7 +339,6 @@
         "providence-day:catalog.camps[38].dayLabel",
         "providence-day:catalog.camps[39].dayLabel",
         "providence-day:catalog.camps[40].dayLabel",
-        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[42].dayLabel",
         "providence-day:catalog.camps[43].dayLabel",
         "providence-day:catalog.camps[44].dayLabel",
@@ -363,7 +360,6 @@
         "providence-day:catalog.camps[61].dayLabel",
         "providence-day:catalog.camps[62].dayLabel",
         "providence-day:catalog.camps[63].dayLabel",
-        "providence-day:catalog.camps[64].dayLabel",
         "providence-day:catalog.camps[65].dayLabel",
         "providence-day:catalog.camps[66].dayLabel",
         "providence-day:catalog.camps[67].dayLabel",
@@ -524,7 +520,6 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel",
         "gaston-day:catalog.camps[0].dayLabel",
         "gaston-day:catalog.camps[1].dayLabel",
         "gaston-day:catalog.camps[2].dayLabel",
@@ -707,8 +702,10 @@
       "at": [
         "providence-day:catalog.camps[3].dayLabel",
         "providence-day:catalog.camps[14].dayLabel",
+        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[27].dayLabel",
         "providence-day:catalog.camps[30].dayLabel",
+        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[49].dayLabel"
       ]
     },
@@ -1733,8 +1730,15 @@
       ]
     },
     {
-      "t": "S4, S6, S7, S8, S9",
-      "of": "0d40c04e",
+      "t": "4 o 5 giorni",
+      "of": "4031e882",
+      "at": [
+        "providence-day:catalog.camps[64].dayLabel"
+      ]
+    },
+    {
+      "t": "S3, S4, S5, S6, S7, S8, S9",
+      "of": "71bb785c",
       "at": [
         "providence-day:catalog.camps[64].weeks"
       ]
@@ -3012,8 +3016,8 @@
       ]
     },
     {
-      "t": "Un campo artistico premium a giornata intera — uno dei soli due a questo prezzo.",
-      "of": "d2a6f6ff",
+      "t": "Un campo artistico premium a giornata intera, l’unico a questo prezzo.",
+      "of": "d11cb67d",
       "at": [
         "charlotte-latin:catalog.camps[48].desc"
       ]
@@ -3343,8 +3347,8 @@
       ]
     },
     {
-      "t": "26 proposte. L’unica fascia senza sconto early-bird.",
-      "of": "b96cddcc",
+      "t": "26 proposte, senza sconto early-bird.",
+      "of": "41f28575",
       "at": [
         "charlotte-latin:costPlanner.tiers[1].detail"
       ]
@@ -3511,8 +3515,8 @@
       ]
     },
     {
-      "t": "**Super Care unisce accoglienza anticipata e assistenza post-campo a $195.00/settimana** — l’unico sconto pubblicato dalla scuola, $25.00 in meno rispetto alle voci da $70.00 + $150.00 qui sopra. Il ritiro in ritardo dopo le 5:30pm costa $25.00 ogni 15 minuti.",
-      "of": "296008fb",
+      "t": "**Super Care unisce accoglienza anticipata e assistenza post-campo a $195.00/settimana** — un pacchetto che la scuola definisce sconto, $25.00 in meno rispetto alle voci da $70.00 + $150.00 qui sopra. Il ritiro in ritardo dopo le 5:30pm costa $25.00 ogni 15 minuti.",
+      "of": "0fae47d6",
       "at": [
         "charlotte-latin:costPlanner.fees[1].label"
       ]
@@ -3988,8 +3992,8 @@
       ]
     },
     {
-      "t": "La fascia di classi più ampia tra i campi qui presenti — dalla classe 1 alla 11 — e proposto in cinque delle sei settimane.",
-      "of": "8434e236",
+      "t": "Classi dalla 1 alla 11, in cinque delle sei settimane; $160 nella settimana di quattro giorni.",
+      "of": "f2f2aa20",
       "at": [
         "charlotte-christian:catalog.camps[4].desc"
       ]
@@ -4246,8 +4250,8 @@
       ]
     },
     {
-      "t": "Il campo più economico del catalogo, nella settimana di quattro giorni.",
-      "of": "6890b7f6",
+      "t": "Un campo da $155 nella settimana di quattro giorni, il prezzo più basso del catalogo.",
+      "of": "7ef114ea",
       "at": [
         "charlotte-christian:catalog.camps[15].desc"
       ]
@@ -4299,8 +4303,8 @@
       ]
     },
     {
-      "t": "L’altro campo da $155 nella settimana di quattro giorni.",
-      "of": "e7bd1548",
+      "t": "Un altro campo da $155 nella settimana di quattro giorni.",
+      "of": "a2e4938b",
       "at": [
         "charlotte-christian:catalog.camps[16].desc"
       ]
@@ -4321,8 +4325,8 @@
       ]
     },
     {
-      "t": "Ginnastica acrobatica e cheer sulla fascia più ampia tra i campi sportivi qui presenti.",
-      "of": "62002db4",
+      "t": "Ginnastica acrobatica e cheer dalla JK alla classe 8.",
+      "of": "7fc068af",
       "at": [
         "charlotte-christian:catalog.camps[18].desc"
       ]
@@ -4383,8 +4387,8 @@
       ]
     },
     {
-      "t": "Campo di giochi di movimento.",
-      "of": "4abf883d",
+      "t": "Campo di giochi di movimento; $160 nella settimana di quattro giorni.",
+      "of": "b75a32e2",
       "at": [
         "charlotte-christian:catalog.camps[22].desc"
       ]
@@ -4501,8 +4505,8 @@
       ]
     },
     {
-      "t": "Il campo più replicato del catalogo — proposto in tutte e sei le settimane.",
-      "of": "fce66e82",
+      "t": "Il campo più replicato del catalogo — proposto in tutte e sei le settimane; $155 nella settimana di quattro giorni.",
+      "of": "809bf7b3",
       "at": [
         "charlotte-christian:catalog.camps[28].desc"
       ]
@@ -4567,8 +4571,8 @@
       ]
     },
     {
-      "t": "Smontare e ricostruire per i maker più piccoli.",
-      "of": "77d7b6ec",
+      "t": "Smontare e ricostruire per i maker più piccoli; $160 nella settimana di quattro giorni.",
+      "of": "5849d3f9",
       "at": [
         "charlotte-christian:catalog.camps[33].desc"
       ]
@@ -5354,8 +5358,8 @@
       ]
     },
     {
-      "t": "Sono disponibili sei settimane. La settimana 3 è di quattro giorni e ha un prezzo ridotto; le fasce qui sotto sono le tariffe per cinque giorni.",
-      "of": "37e889c5",
+      "t": "Sono disponibili sei settimane. La settimana 3 è di quattro giorni e ha un prezzo ridotto. A parte le prime due fasce, quelle qui sotto sono le tariffe per cinque giorni.",
+      "of": "2bab70f9",
       "at": [
         "charlotte-christian:costPlanner.subhead"
       ]
@@ -7206,8 +7210,8 @@
       ]
     },
     {
-      "t": "Sono disponibili otto settimane. Due di esse sono settimane di quattro giorni: i campi a mezza giornata costano $230 in entrambe, mentre quelli a giornata intera costano meno solo nella settimana del 3 luglio. Le fasce qui sotto sono le tariffe per cinque giorni.",
-      "of": "42573fdb",
+      "t": "Sono disponibili otto settimane. Due di esse sono settimane di quattro giorni: i campi a mezza giornata costano $230 in entrambe, mentre quelli a giornata intera costano meno solo nella settimana del 3 luglio. A parte la prima fascia, quelle qui sotto sono le tariffe per cinque giorni.",
+      "of": "9f864e29",
       "at": [
         "charlotte-country-day:costPlanner.subhead"
       ]
@@ -7381,8 +7385,8 @@
       ]
     },
     {
-      "t": "**Se un partecipante alla mezza giornata pranza nel campus, è obbligatorio iscriversi a un’opzione pranzo** — non è facoltativa. Due pagine della scuola stessa non concordano sul fatto che il cibo sia incluso a quel prezzo; si veda la segnalazione qui sotto.",
-      "of": "2b9b56df",
+      "t": "**Se un partecipante alla mezza giornata pranza nel campus, è obbligatorio iscriversi a un’opzione pranzo** — non è facoltativa. La pagina estiva dice che i partecipanti portano il proprio pranzo. La pagina Camp Ready dice sia che il pranzo è fornito in mensa sia che i partecipanti devono portare un pranzo al sacco.",
+      "of": "37c41680",
       "at": [
         "charlotte-country-day:costPlanner.fees[2].label"
       ]
@@ -7402,8 +7406,8 @@
       ]
     },
     {
-      "t": "Due pagine ufficiali non concordano sull’**assistenza pranzo da $30/settimana**: la pagina estiva la descrive come sola sorveglianza, con i partecipanti che portano il proprio pranzo, mentre la pagina Camp Ready afferma che agli stessi iscritti viene fornito il pranzo in mensa. Vale una telefonata prima di dare per buona una delle due versioni.",
-      "of": "d637cfff",
+      "t": "Due pagine ufficiali non concordano sull’**assistenza pranzo da $30/settimana**: la pagina estiva la descrive come sola sorveglianza, con i partecipanti che portano il proprio pranzo, mentre la pagina Camp Ready afferma che agli stessi iscritti viene fornito il pranzo in mensa. Camp Ready si contraddice anche da sola: la sua sezione Lunch Care dice che i partecipanti devono portare il proprio pranzo al sacco (riletto il 2026-11-22). Vale una telefonata prima di dare per buona una delle due versioni.",
+      "of": "4a2c4b34",
       "at": [
         "charlotte-country-day:costPlanner.flags[0].text"
       ]
@@ -7475,8 +7479,8 @@
         "cannon:catalog.camps[54].categoryLabel",
         "cannon:catalog.camps[55].categoryLabel",
         "covenant-day:catalog.categoryFilters[4].label",
-        "covenant-day:catalog.camps[18].categoryLabel",
-        "covenant-day:catalog.camps[19].categoryLabel"
+        "covenant-day:catalog.camps[17].categoryLabel",
+        "covenant-day:catalog.camps[18].categoryLabel"
       ]
     },
     {
@@ -7973,8 +7977,8 @@
       ]
     },
     {
-      "t": "In ingresso JK & K",
-      "of": "1791a585",
+      "t": "In ingresso JK & K / in ingresso 1ª–4ª",
+      "of": "088d863d",
       "at": [
         "cannon:catalog.camps[16].gradeLabel"
       ]
@@ -8884,8 +8888,8 @@
       ]
     },
     {
-      "t": "Un **acconto del 50%** assicura il posto, con il saldo dovuto entro il 15 maggio 2026 — l’unica struttura con acconto tra questi cinque programmi. Gli acconti sono rimborsati per intero prima del 15 maggio; **da tale data in poi non è previsto alcun rimborso.** La scuola dichiara chiaramente che “alcuni campi molto richiesti si riempiono pochissimo tempo dopo l’apertura delle iscrizioni”.",
-      "of": "f19bf601",
+      "t": "Un **acconto del 50%** assicura il posto, con il saldo dovuto entro il 15 maggio 2026. Gli acconti sono rimborsati per intero prima del 15 maggio; **da tale data in poi non è previsto alcun rimborso.** La scuola dichiara chiaramente che “alcuni campi molto richiesti si riempiono pochissimo tempo dopo l’apertura delle iscrizioni”.",
+      "of": "afad2a75",
       "at": [
         "cannon:costPlanner.aside.text"
       ]
@@ -8898,29 +8902,29 @@
       ]
     },
     {
-      "t": "Cannon non pubblica **alcuno sconto per fratelli, alcuno sconto per più settimane né aiuti finanziari per i campi**. L’unica riduzione di prezzo nella brochure 2026 è quella strutturale per la settimana 2 di quattro giorni.",
-      "of": "d8366833",
+      "t": "Cannon non pubblica **alcuno sconto per fratelli, alcuno sconto per più settimane né aiuti finanziari per i campi**. L’unica riduzione di prezzo sulla retta dei campi nella brochure 2026 è quella per la settimana 2 di quattro giorni. L’assistenza ha una tariffa combinata di $90.",
+      "of": "70c66cd9",
       "at": [
         "cannon:costPlanner.flags[1].text"
       ]
     },
     {
-      "t": "20 campi indicati per l’estate 2026 su otto settimane, dal 1 giugno al 31 luglio — imperniati su Camp Lion e Cub Camp, i campi diurni tradizionali che includono l’assistenza gratuitamente.",
-      "of": "9dd79355",
+      "t": "19 campi indicati per l’estate 2026 su otto settimane, dal 1º giugno al 31 luglio — imperniati su Camp Lion e Cub Camp, i campi diurni tradizionali che includono l’assistenza gratuitamente.",
+      "of": "f5db8795",
       "at": [
         "covenant-day:catalog.headline"
       ]
     },
     {
-      "t": "L’iscrizione si svolge sul portale CampBrain con sconti early-bird fino al 27 febbraio. La scuola pubblicizza \"29 camps\"; 20 sono enumerabili sulla pagina pubblica.",
-      "of": "8cc84630",
+      "t": "L’iscrizione si svolge sul portale CampBrain con sconti early-bird fino al 27 febbraio. La scuola pubblicizza \"29 camps\"; 19 sono enumerabili sulla pagina pubblica.",
+      "of": "81f512f0",
       "at": [
         "covenant-day:catalog.subhead"
       ]
     },
     {
-      "t": "Sono elencati tutti i 20 campi indicati pubblicamente. **I prezzi e gli orari attuali per campo sono protetti dal portale**. Quindi i prezzi qui sotto sono stime, basate sulla fascia attuale di terze parti ($170–$325/week) e sul catalogo 2018 della scuola stessa. Le tariffe dei servizi di assistenza aggiuntivi sul Cost Planner sono le cifre attuali della scuola stessa.",
-      "of": "07ba6457",
+      "t": "Sono elencati tutti i 19 campi indicati pubblicamente. **I prezzi e gli orari attuali per campo sono protetti dal portale**. Quindi i prezzi qui sotto sono stime, basate sulla fascia attuale di terze parti ($170–$325/week) e sul catalogo 2018 della scuola stessa. Le tariffe dei servizi di assistenza aggiuntivi sul Cost Planner sono le cifre attuali della scuola stessa.",
+      "of": "219d303b",
       "at": [
         "covenant-day:catalog.intro"
       ]
@@ -8933,7 +8937,7 @@
         "covenant-day:catalog.camps[0].categoryLabel",
         "covenant-day:catalog.camps[1].categoryLabel",
         "covenant-day:catalog.camps[2].categoryLabel",
-        "covenant-day:catalog.camps[13].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -8941,10 +8945,10 @@
       "of": "e043e144",
       "at": [
         "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[13].categoryLabel",
         "covenant-day:catalog.camps[14].categoryLabel",
         "covenant-day:catalog.camps[15].categoryLabel",
-        "covenant-day:catalog.camps[16].categoryLabel",
-        "covenant-day:catalog.camps[17].categoryLabel"
+        "covenant-day:catalog.camps[16].categoryLabel"
       ]
     },
     {
@@ -9030,11 +9034,11 @@
         "covenant-day:catalog.camps[9].hours",
         "covenant-day:catalog.camps[10].hours",
         "covenant-day:catalog.camps[11].hours",
-        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[14].hours",
         "covenant-day:catalog.camps[15].hours",
         "covenant-day:catalog.camps[16].hours",
-        "covenant-day:catalog.camps[17].hours",
-        "covenant-day:catalog.camps[18].hours"
+        "covenant-day:catalog.camps[17].hours"
       ]
     },
     {
@@ -9086,9 +9090,9 @@
         "covenant-day:catalog.camps[5].gradeLabel",
         "covenant-day:catalog.camps[6].gradeLabel",
         "covenant-day:catalog.camps[10].gradeLabel",
-        "covenant-day:catalog.camps[13].gradeLabel",
-        "covenant-day:catalog.camps[17].gradeLabel",
-        "covenant-day:catalog.camps[18].gradeLabel"
+        "covenant-day:catalog.camps[12].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel"
       ]
     },
     {
@@ -9133,8 +9137,8 @@
       "of": "75e26068",
       "at": [
         "covenant-day:catalog.camps[9].gradeLabel",
-        "covenant-day:catalog.camps[15].gradeLabel",
-        "covenant-day:catalog.camps[16].gradeLabel"
+        "covenant-day:catalog.camps[14].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel"
       ]
     },
     {
@@ -9152,95 +9156,80 @@
       ]
     },
     {
-      "t": "Il programma del Webb Fitness Center, condotto dal coach S&C della scuola — lo stesso sollevamento estivo che fanno gli atleti varsity.",
-      "of": "2e9659bb",
-      "at": [
-        "covenant-day:catalog.camps[12].desc"
-      ]
-    },
-    {
-      "t": "Gr 6–12",
-      "of": "5a57e078",
-      "at": [
-        "covenant-day:catalog.camps[12].gradeLabel"
-      ]
-    },
-    {
-      "t": "sessioni",
-      "of": "130573cc",
-      "at": [
-        "covenant-day:catalog.camps[12].hours",
-        "covenant-day:catalog.camps[19].hours"
-      ]
-    },
-    {
       "t": "La settimana del puro divertimento.",
       "of": "9ee1d298",
       "at": [
-        "covenant-day:catalog.camps[13].desc"
+        "covenant-day:catalog.camps[12].desc"
       ]
     },
     {
       "t": "Include Lunch Care gratuita — l’unico non-campo-diurno con assistenza inclusa.",
       "of": "9710a44d",
       "at": [
-        "covenant-day:catalog.camps[14].desc"
+        "covenant-day:catalog.camps[13].desc"
       ]
     },
     {
       "t": "MS",
       "of": "35dfbd11",
       "at": [
-        "covenant-day:catalog.camps[14].gradeLabel"
+        "covenant-day:catalog.camps[13].gradeLabel"
       ]
     },
     {
       "t": "giornata intera incl. pranzo",
       "of": "6cdcfa40",
       "at": [
-        "covenant-day:catalog.camps[14].hours"
+        "covenant-day:catalog.camps[13].hours"
       ]
     },
     {
       "t": "La settimana incentrata sul palco per gli studenti più giovani.",
       "of": "e3899851",
       "at": [
-        "covenant-day:catalog.camps[15].desc"
+        "covenant-day:catalog.camps[14].desc"
       ]
     },
     {
       "t": "Assaggio di studio nelle sale di arti visive.",
       "of": "a6d6d5ee",
       "at": [
-        "covenant-day:catalog.camps[16].desc"
+        "covenant-day:catalog.camps[15].desc"
       ]
     },
     {
       "t": "La settimana culinaria.",
       "of": "15b6f079",
       "at": [
-        "covenant-day:catalog.camps[17].desc"
+        "covenant-day:catalog.camps[16].desc"
       ]
     },
     {
       "t": "La settimana STEM.",
       "of": "45e94be3",
       "at": [
-        "covenant-day:catalog.camps[18].desc"
+        "covenant-day:catalog.camps[17].desc"
       ]
     },
     {
       "t": "Una settimana per la scuola superiore programmata in base al calendario dell’ufficio di orientamento — un raro campo accademico per la scuola superiore.",
       "of": "86fd317c",
       "at": [
-        "covenant-day:catalog.camps[19].desc"
+        "covenant-day:catalog.camps[18].desc"
       ]
     },
     {
       "t": "HS",
       "of": "6deb4e2c",
       "at": [
-        "covenant-day:catalog.camps[19].gradeLabel"
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "sessioni",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[18].hours"
       ]
     },
     {
@@ -9251,8 +9240,8 @@
       ]
     },
     {
-      "t": "La scuola pubblicizza \"**29 camps**\"; la pagina pubblica ne enumera 20 (una 21ª voce, \"Splash Squad\", è una posizione di staff). Varianti settimanali e campi solo su portale probabilmente spiegano la differenza.",
-      "of": "19b8adfa",
+      "t": "La scuola pubblicizza \"**29 camps**\"; la pagina pubblica ne enumera 19, verificati in un browser il 2026-11-22 (\"Splash Squad\" è una posizione di staff, e Strength and Conditioning non è più elencato). Varianti settimanali e campi solo su portale probabilmente spiegano la differenza.",
+      "of": "ac56e695",
       "at": [
         "covenant-day:catalog.flags[1].text"
       ]
@@ -10242,15 +10231,15 @@
       ]
     },
     {
-      "t": "I campi accademici si svolgono dalle 9 a.m. all'1 p.m. e quelli atletici dalle 9 a.m. alle 12 p.m. (il football in serata), dal lunedì al giovedì, lungo circa otto blocchi settimanali da fine maggio a fine luglio.",
-      "of": "f7887b86",
+      "t": "I campi accademici si svolgono dalle 9 a.m. all'1 p.m. e quelli atletici dalle 9 a.m. alle 12 p.m. (il football in serata), dal lunedì al giovedì, lungo sei settimane da fine maggio a fine luglio.",
+      "of": "665a2061",
       "at": [
         "hickory-grove-christian:catalog.subhead"
       ]
     },
     {
-      "t": "Questo è il **catalogo Summer 2023, tratto da copie salvate delle vecchie pagine della scuola**. È un elenco rappresentativo, non l'elenco attuale del 2026, perché HGCS ora nasconde nomi e prezzi dei campi dietro la piattaforma Brushfire. La pagina attuale del 2026 conferma otto finestre di turni coerenti con i blocchi settimanali riportati sotto. **I prezzi non sono pubblicati da nessuna parte** (solo su Brushfire), perciò non è mostrato alcun costo. Le classi indicate sono quelle **in ingresso**.",
-      "of": "e18209dc",
+      "t": "Questo è il **catalogo Summer 2023, tratto da copie salvate delle vecchie pagine della scuola**. È un elenco rappresentativo, non quello attuale. Il programma e le iscrizioni 2027 della scuola aprono nella primavera 2027. Fino ad allora, le sue pagine attive indicano i tipi di campo e gli sport, senza date per ciascuno. **I prezzi non sono pubblicati**, perciò non è mostrato alcun costo. Le classi indicate sono quelle **in ingresso**.",
+      "of": "55ca12a6",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ]
@@ -10533,15 +10522,15 @@
       ]
     },
     {
-      "t": "Questo è l'elenco Summer 2023, tratto da copie salvate delle vecchie pagine della scuola sull'Internet Archive. Il catalogo attuale del 2026 è nascosto dietro la piattaforma di iscrizione Brushfire, quindi i nomi esatti dei campi del 2026 si trovano all'interno di quella piattaforma. La pagina attuale conferma però otto finestre di turni coerenti con questi blocchi settimanali.",
-      "of": "8b8fe821",
+      "t": "Questo è l'elenco Summer 2023, tratto da copie salvate delle vecchie pagine della scuola sull'Internet Archive. La scuola dice che i suoi campi 2027 arriveranno presto, con il programma completo nella primavera 2027. Le sue pagine attive indicano solo i tipi di campo e gli sport, quindi i campi attuali potrebbero essere diversi.",
+      "of": "ee483d54",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ]
     },
     {
-      "t": "Nessun prezzo per singolo campo è pubblicato su alcuna pagina attuale o archiviata. I prezzi esistono solo all'interno della cassa Brushfire. Perciò questa pagina non ha un Cost Planner per questi campi, e le cifre sul costo estivo indicano N/A. Non esiste inoltre un servizio estivo di custodia a copertura estesa. I campi sono a mezza giornata, e il programma di doposcuola è chiuso in estate.",
-      "of": "0ce646d3",
+      "t": "Nessun prezzo per singolo campo è pubblicato su alcuna pagina attuale o archiviata. Perciò questa pagina non ha un Cost Planner per questi campi, e le cifre sul costo estivo indicano N/A. Non esiste inoltre un servizio estivo di custodia a copertura estesa. I campi sono a mezza giornata, e il programma di doposcuola è chiuso in estate.",
+      "of": "f27ebc58",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ]
@@ -11806,8 +11795,8 @@
       ]
     },
     {
-      "t": "Un campo di ciclismo a mezza giornata per le fasce più grandi della Middle School.",
-      "of": "5162a0a5",
+      "t": "Un campo di ciclismo a mezza giornata per gli studenti in ingresso dalla 4ª all’8ª.",
+      "of": "aa48d562",
       "at": [
         "trinity-episcopal:catalog.camps[11].desc"
       ]
@@ -11924,8 +11913,8 @@
       ]
     },
     {
-      "t": "Lezioni di tennis a mezza giornata che coprono l’intera fascia della Middle School.",
-      "of": "15fdee7c",
+      "t": "Lezioni di tennis a mezza giornata per gli studenti in ingresso dalla 3ª all’8ª.",
+      "of": "b93ecc35",
       "at": [
         "trinity-episcopal:catalog.camps[20].desc"
       ]
@@ -11969,8 +11958,8 @@
       ]
     },
     {
-      "t": "Un campo di illustrazione digitale a giornata intera per la fascia della Middle School.",
-      "of": "ecea0045",
+      "t": "Un campo di illustrazione digitale a giornata intera per gli studenti in ingresso dalla 5ª all’8ª.",
+      "of": "1816fa4a",
       "at": [
         "trinity-episcopal:catalog.camps[25].desc"
       ]
@@ -12079,8 +12068,8 @@
       ]
     },
     {
-      "t": "Un campo di leadership della Middle School, e il secondo dei due campi riservati per genere.",
-      "of": "9d96c806",
+      "t": "Un campo di leadership per gli studenti in ingresso dalla 5ª all’8ª, e il secondo dei due campi riservati per genere.",
+      "of": "faa7b192",
       "at": [
         "trinity-episcopal:catalog.camps[35].desc"
       ]
@@ -12650,8 +12639,8 @@
       ]
     },
     {
-      "t": "Caparra non rimborsabile, per campo",
-      "of": "97136d00",
+      "t": "Caparra non rimborsabile, per campo, scalata dal prezzo del campo",
+      "of": "5f842f96",
       "at": [
         "trinity-episcopal:costPlanner.fees[0].label"
       ]
@@ -12713,8 +12702,8 @@
       ]
     },
     {
-      "t": "L’estate 2026 è durata sette settimane, dall’8 giugno al 31 luglio, per i partecipanti dalla Early School alla classe 8ª — un campo diurno tradizionale più un campo specialistico o sportivo quasi ogni settimana.",
-      "of": "ad1bd718",
+      "t": "L’estate 2026 è durata sette settimane, dall’8 giugno al 31 luglio, per i partecipanti dalla Early School alla classe 8ª. Ogni settimana ha avuto un campo diurno tradizionale, un campo specialistico e un campo sportivo.",
+      "of": "5443ba51",
       "at": [
         "charlotte-prep:catalog.headline"
       ]

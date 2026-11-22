@@ -2404,9 +2404,9 @@
         "cannon:divisions[2].departments[6].courses[1].tag",
         "covenant-day:divisions[0].departments[0].courses[8].tag",
         "covenant-day:divisions[0].departments[0].courses[9].tag",
+        "covenant-day:divisions[0].departments[1].courses[10].tag",
         "covenant-day:divisions[0].departments[1].courses[11].tag",
         "covenant-day:divisions[0].departments[1].courses[12].tag",
-        "covenant-day:divisions[0].departments[1].courses[13].tag",
         "covenant-day:divisions[0].departments[2].courses[8].tag",
         "covenant-day:divisions[0].departments[2].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[10].tag",
@@ -3039,7 +3039,6 @@
       "of": "9e6fb02a",
       "at": [
         "providence-day:divisions[2].departments[2].courses[10].title",
-        "covenant-day:divisions[0].departments[1].courses[9].title",
         "gaston-day:divisions[1].departments[1].courses[6].title"
       ]
     },
@@ -3084,7 +3083,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
-        "covenant-day:divisions[0].departments[1].courses[11].title",
+        "covenant-day:divisions[0].departments[1].courses[10].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[2].courses[11].title"
       ]
@@ -3102,7 +3101,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
-        "covenant-day:divisions[0].departments[1].courses[12].title",
+        "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[10].title"
       ]
     },
@@ -3119,7 +3118,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[15].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
-        "covenant-day:divisions[0].departments[1].courses[13].title",
+        "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
         "carmel-christian:divisions[0].departments[2].courses[12].title"
       ]
@@ -4602,7 +4601,7 @@
         "covenant-day:divisions[0].departments[1].courses[4].tag",
         "covenant-day:divisions[0].departments[1].courses[7].tag",
         "covenant-day:divisions[0].departments[1].courses[8].tag",
-        "covenant-day:divisions[0].departments[1].courses[10].tag",
+        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[1].tag",
         "covenant-day:divisions[0].departments[2].courses[3].tag",
         "covenant-day:divisions[0].departments[2].courses[4].tag",
@@ -6158,7 +6157,7 @@
       "of": "58226eb6",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[13].description",
-        "covenant-day:divisions[0].departments[1].courses[13].description",
+        "covenant-day:divisions[0].departments[1].courses[12].description",
         "carmel-christian:divisions[0].departments[2].courses[12].description"
       ]
     },
@@ -12868,8 +12867,8 @@
       ]
     },
     {
-      "t": "117 خطّ حصّة عبر 9 أقسام في فهرس الدليل — 23 حصّة AP و18 حصّة IB إضافةً إلى نواة IB Diploma الكاملة. وتظهر هنا في 121 إدخالًا، بما فيها خمس حصص يصفها الدليل ولا يفهرسها.",
-      "of": "35c1ab48",
+      "t": "117 خطّ حصّة عبر 9 أقسام في فهرس الدليل — 23 حصّة AP و18 حصّة IB إضافةً إلى نواة IB Diploma الكاملة. وهذا دليل 2025–26؛ أما ملفّ 2026–27 فيحصي 26 حصّة AP. وتظهر هنا في 121 إدخالًا، بما فيها خمس حصص يصفها الدليل ولا يفهرسها.",
+      "of": "82da0ae8",
       "at": [
         "charlotte-country-day:divisions[2].teaser"
       ]
@@ -13935,8 +13934,8 @@
       ]
     },
     {
-      "t": "جوقة حفلات بمستوى honors.",
-      "of": "9266c7e0",
+      "t": "جوقة حفلات بمستوى honors، يُلتحَق بها عبر طلب وتجربة أداء.",
+      "of": "565b037a",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[1].description"
       ]
@@ -14450,7 +14449,6 @@
         "cannon:divisions[0].departments[0].courses[1].tag",
         "cannon:divisions[0].departments[0].courses[2].tag",
         "cannon:divisions[0].departments[0].courses[3].tag",
-        "cannon:divisions[0].departments[1].courses[0].tag",
         "cannon:divisions[0].departments[2].courses[0].tag",
         "cannon:divisions[0].departments[2].courses[1].tag",
         "cannon:divisions[0].departments[2].courses[2].tag",
@@ -14508,6 +14506,13 @@
       "of": "07cf2b06",
       "at": [
         "cannon:divisions[0].departments[0].courses[4].description"
+      ]
+    },
+    {
+      "t": "JrK–Gr 4",
+      "of": "60efa0ce",
+      "at": [
+        "cannon:divisions[0].departments[1].courses[0].tag"
       ]
     },
     {
@@ -16264,8 +16269,8 @@
       ]
     },
     {
-      "t": "90 مادّة دراسيّة في 9 أقسام — 17 مادّة Advanced Placement، ومادّة Bible مُسمّاة لكلّ سنة من السنوات الأربع، وقسم Restoration & Sustainability، وهو أمر نادر.",
-      "of": "ea2eb72a",
+      "t": "89 مادّة دراسيّة في 9 أقسام: 86 في صفحة الأكاديميات وثلاث أخرى في ملفّ 2026–27. وتشمل 17 مادّة Advanced Placement، ومادّة Bible مُسمّاة لكلّ سنة من السنوات الأربع، وقسم Restoration & Sustainability، وهو أمر نادر.",
+      "of": "521f35dc",
       "at": [
         "covenant-day:divisions[0].teaser"
       ]
@@ -16290,7 +16295,6 @@
         "covenant-day:divisions[0].departments[1].courses[3].tag",
         "covenant-day:divisions[0].departments[1].courses[5].tag",
         "covenant-day:divisions[0].departments[1].courses[6].tag",
-        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[0].tag",
         "covenant-day:divisions[0].departments[2].courses[2].tag",
         "covenant-day:divisions[0].departments[2].courses[5].tag",
@@ -16416,8 +16420,7 @@
         "covenant-day:divisions[0].departments[0].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[7].title",
-        "carmel-christian:divisions[0].departments[1].courses[8].title",
-        "gaston-day:divisions[1].departments[0].courses[3].title"
+        "carmel-christian:divisions[0].departments[1].courses[8].title"
       ]
     },
     {
@@ -16563,31 +16566,24 @@
       ]
     },
     {
-      "t": "إحصاء تمهيدي.",
-      "of": "b729daf0",
-      "at": [
-        "covenant-day:divisions[0].departments[1].courses[9].description"
-      ]
-    },
-    {
       "t": "Statistics Honors",
       "of": "b7b12c3b",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].title"
+        "covenant-day:divisions[0].departments[1].courses[9].title"
       ]
     },
     {
       "t": "إحصاء honors — متاح للتسجيل المزدوج مع Covenant College.",
       "of": "534c8b8a",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].description"
+        "covenant-day:divisions[0].departments[1].courses[9].description"
       ]
     },
     {
       "t": "تفاضل وتكامل تفاضلي وتكاملي بمستوى جامعي.",
       "of": "cf28429f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[11].description",
+        "covenant-day:divisions[0].departments[1].courses[10].description",
         "carmel-christian:divisions[0].departments[2].courses[11].description"
       ]
     },
@@ -16595,7 +16591,7 @@
       "t": "المسار الأسرع في التفاضل والتكامل، حتى المتسلسلات؛ وتشير المدرسة إلى أنّ عدد الطلاب المسجّلين قد يؤثّر في تقديم هذه المادّة.",
       "of": "c8c6d5de",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[12].description"
+        "covenant-day:divisions[0].departments[1].courses[11].description"
       ]
     },
     {
@@ -16779,8 +16775,8 @@
       ]
     },
     {
-      "t": "علم نفس honors.",
-      "of": "05020b75",
+      "t": "علم نفس honors. وهو مُدرج في ملفّ 2026–27، لا في صفحة الأكاديميات.",
+      "of": "2a89baca",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[6].description"
       ]
@@ -16823,8 +16819,8 @@
       ]
     },
     {
-      "t": "مادّة Bible للسنة الأولى؛ يُسجَّل الطلاب في مادّة Bible كلّ سنة، وتُشترط ثلاث وحدات للتخرّج.",
-      "of": "e1318f97",
+      "t": "مادّة Bible للسنة الأولى؛ يُسجَّل الطلاب في مادّة Bible كلّ سنة، وتُشترط 3.5 وحدة للتخرّج.",
+      "of": "527a5ea3",
       "at": [
         "covenant-day:divisions[0].departments[4].courses[0].description"
       ]
@@ -17120,8 +17116,8 @@
       ]
     },
     {
-      "t": "مسرح تقني — ديكور وإضاءة وإنتاج.",
-      "of": "4e2c17db",
+      "t": "مسرح تقني — ديكور وإضاءة وإنتاج. وهو مُدرج في ملفّ 2026–27، لا في صفحة الأكاديميات.",
+      "of": "902048c4",
       "at": [
         "covenant-day:divisions[0].departments[6].courses[5].description"
       ]
@@ -17305,8 +17301,8 @@
       ]
     },
     {
-      "t": "انخراط تطبيقي عابر للثقافات.",
-      "of": "7de1b888",
+      "t": "انخراط تطبيقي عابر للثقافات. وهو مُدرج في ملفّ 2026–27، لا في صفحة الأكاديميات.",
+      "of": "4bf28df3",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[2].description"
       ]
@@ -18056,8 +18052,8 @@
       ]
     },
     {
-      "t": "الموسيقى الغنائيّة والآليّة والإيقاعيّة لملحّنين كلاسيكيّين ومعاصرين · يتعلّم الصفّ 4 المزمار والصفّ 5 آلات الفرقة الموسيقيّة · تتوفّر جوقة أطفال لطلاب الصفّين 4 و5، ودروس خاصّة في البيانو والغناء والغيتار.",
-      "of": "96360919",
+      "t": "الموسيقى الغنائيّة والآليّة والإيقاعيّة لملحّنين كلاسيكيّين ومعاصرين · يتعلّم الصفّ 4 المزمار والصفّ 5 آلات الفرقة الموسيقيّة · جوقة أطفال لطلاب الصفّين 4 و5 (تذكر صفحة الموسيقى الصفوف 3–5) · تتوفّر دروس خاصّة في البيانو والغناء والغيتار.",
+      "of": "9f3ec7c6",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[1].description"
       ]
@@ -23116,7 +23112,20 @@
       "t": "مسح بمستوى متقدّم يُقدَّم بمستوى Honors.",
       "of": "7fd423da",
       "at": [
-        "gaston-day:divisions[1].departments[0].courses[2].description",
+        "gaston-day:divisions[1].departments[0].courses[2].description"
+      ]
+    },
+    {
+      "t": "European Literature (British Literature في نسخة سبتمبر)",
+      "of": "28c72695",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[3].title"
+      ]
+    },
+    {
+      "t": "مسح بمستوى متقدّم بمستوى Honors. يسمّيه ملفّ نوفمبر 2025 European Literature. وتسمّيه نسخة سبتمبر 2025 British Literature.",
+      "of": "94274a49",
+      "at": [
         "gaston-day:divisions[1].departments[0].courses[3].description"
       ]
     },
@@ -23296,8 +23305,8 @@
       ]
     },
     {
-      "t": "إكمال المستويات حتى Level III، بالإسبانية أو الفرنسية، مطلوب للتخرّج، باستثناء الطلاب الدوليين الذين تكون الإنجليزية لغتهم الثانية.",
-      "of": "37ea1ab6",
+      "t": "تشترط صفحة Upper School إكمال المستويات حتى Level III بالإسبانية أو الفرنسية للتخرّج. ويُعفى الطلاب الدوليون الذين تكون الإنجليزية لغتهم الثانية. ولا يُدرج جدول الحصص في الملفّ إلا الإسبانية.",
+      "of": "ea50fce3",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[0].description"
       ]

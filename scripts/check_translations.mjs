@@ -29,7 +29,7 @@
  * findings, 2 = script error.
  */
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
-import { PROSE_KEYS, SKIP_KEYS, pathOverride } from './i18n_fields.mjs'
+import { classifyField } from './i18n_fields.mjs'
 
 /* The topic/accessor/export layout is defined ONCE in i18n_topics.mjs and
    imported by every script that walks src/data/**. This file used to carry its
@@ -97,14 +97,6 @@ const ONLY_LANG = i === -1 ? null : args[i + 1]
 import { stamp } from './i18n_stamp.mjs'
 const generic = (p) => p.replace(/\[\d+\]/g, '[]')
 
-function classify(path, leaf) {
-  const override = pathOverride(path)
-  if (override !== undefined) return override ? 'prose' : 'skip'
-  if (SKIP_KEYS.has(leaf)) return 'skip'
-  if (PROSE_KEYS.has(leaf)) return 'prose'
-  return 'unclassified'
-}
-
 function walk(node, path, hits) {
   if (node == null) return
   if (typeof node === 'string') {
@@ -127,7 +119,7 @@ async function englishProse(topic) {
     if (entry) walk(entry, '', hits)
     for (const [prefix, extra] of await extraFor(topic, slug)) walk(extra, prefix, hits)
     for (const h of hits) {
-      if (classify(generic(h.path), h.leaf) !== 'prose') continue
+      if (classifyField(generic(h.path), h.leaf, h.value) !== 'prose') continue
       out.set(`${slug}:${h.path}`, { value: h.value, of: stamp(h.value) })
     }
   }

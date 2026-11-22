@@ -407,8 +407,8 @@
       ]
     },
     {
-      "t": "Les sources divergent sur la plateforme de facturation : le document tarifaire cite **Blackbaud**, les pages sur les frais et l’aide financière renvoient à **Clarity**, et une FAQ archivée mentionne **Smart Tuition**.",
-      "of": "250f3eec",
+      "t": "La facturation passe par **Blackbaud**, selon le document tarifaire 2026-27. La page des frais de scolarité n’utilise **Clarity** que pour évaluer l’aide. Une FAQ archivée citait **Smart Tuition** ; le document tarifaire actuel ne le fait pas.",
+      "of": "a92b11e0",
       "at": [
         "providence-day:cost.flags[2].text"
       ]
@@ -590,8 +590,8 @@
       ]
     },
     {
-      "t": "Le dossier de l’automne 2026 de l’école — tarifs, jours et tranches de niveaux réels. Tous les cours comptent **10 séances** ; les cours TK/K sont à $200 et ceux des niveaux 1 à 5 à $220. Les élèves ne peuvent suivre qu’**un seul** programme d’enrichissement par jour, et l’inscription à l’Extended Day est obligatoire pour y participer.",
-      "of": "fa0d70ed",
+      "t": "Le dossier de l’automne 2026 de l’école — tarifs, jours et tranches de niveaux réels. Tous les cours comptent **10 séances**. La plupart des cours TK/K sont à $200 et la plupart de ceux des niveaux 1 à 5 à $220. Le Karate est à $220 et YoLa à $200, pour tous les niveaux qu’ils accueillent. Les élèves ne peuvent suivre qu’**un seul** programme d’enrichissement par jour, et l’inscription à l’Extended Day est obligatoire pour y participer.",
+      "of": "832a5f40",
       "at": [
         "providence-day:dayInside.catalogIntro"
       ]
@@ -787,8 +787,8 @@
       ]
     },
     {
-      "t": "**Une transparence tarifaire exemplaire** — une grille complète et publiée de 40 cases croisant niveau, palier et jours, permettant à une famille de calculer son coût annuel exact avant de candidater.",
-      "of": "d76cd609",
+      "t": "**Une transparence tarifaire exemplaire** — une grille complète et publiée de 40 cases croisant niveau, palier et jours, permettant à une famille de calculer son coût mensuel exact avant de candidater.",
+      "of": "e88b97e7",
       "at": [
         "providence-day:verdict.strengths[0]"
       ]
@@ -941,52 +941,45 @@
       ]
     },
     {
-      "t": "Quelle plateforme facture réellement l’Extended Day — Blackbaud, Clarity ou Smart Tuition ?",
-      "of": "67d6608d",
-      "at": [
-        "providence-day:verdict.checklist[6]"
-      ]
-    },
-    {
       "t": "Existe-t-il des réductions pour fratrie ? Deux enfants à $470/mois représentent $940/mois.",
       "of": "b35016b2",
       "at": [
-        "providence-day:verdict.checklist[7]"
+        "providence-day:verdict.checklist[6]"
       ]
     },
     {
       "t": "Quel est le taux d’encadrement par tranche d’âge, et quelle est la stabilité du personnel ?",
       "of": "e971e5d2",
       "at": [
-        "providence-day:verdict.checklist[8]"
+        "providence-day:verdict.checklist[7]"
       ]
     },
     {
       "t": "Pouvons-nous changer de palier en cours d’année, et le tarif d’ajustement de $30/heure s’applique-t-il ?",
       "of": "9008bceb",
       "at": [
-        "providence-day:verdict.checklist[9]"
+        "providence-day:verdict.checklist[8]"
       ]
     },
     {
       "t": "Précisions sur le Clubhouse : taux d’encadrement, aide aux devoirs, et les $100 sont-ils vraiment le seul coût ?",
       "of": "221a82e1",
       "at": [
-        "providence-day:verdict.checklist[10]"
+        "providence-day:verdict.checklist[9]"
       ]
     },
     {
       "t": "Les places d’Extended Day sont-elles limitées à certains paliers, en particulier 3:00–6:00 sur cinq jours ?",
       "of": "5ce8c0cf",
       "at": [
-        "providence-day:verdict.checklist[11]"
+        "providence-day:verdict.checklist[10]"
       ]
     },
     {
       "t": "Si le cours d’enrichissement d’un enfant se termine à 4:45, devons-nous souscrire au palier de 6:00 p.m. ?",
       "of": "46400404",
       "at": [
-        "providence-day:verdict.checklist[12]"
+        "providence-day:verdict.checklist[11]"
       ]
     },
     {
@@ -1019,15 +1012,15 @@
       ]
     },
     {
-      "t": "sortie 2:55",
-      "of": "32ef5284",
+      "t": "sortie 2:55 ou 3:05",
+      "of": "2b4e5d6d",
       "at": [
         "charlotte-latin:coverage.rows[1].dismissal"
       ]
     },
     {
-      "t": "sortie ~3:20",
-      "of": "4cf5d07f",
+      "t": "sortie 3:20 ou 3:30",
+      "of": "14f6a2b4",
       "at": [
         "charlotte-latin:coverage.rows[2].dismissal",
         "charlotte-latin:coverage.rows[3].dismissal"
@@ -1103,8 +1096,8 @@
       ]
     },
     {
-      "t": "4:30 p.m. pour la Lower School ; 5:30 et 6:00 p.m. pour la Middle et l’Upper School",
-      "of": "de7414bd",
+      "t": "4:30 p.m. pour la Lower School sur les pages Hawks’ Club et Admissions, et 4:45 p.m. sur la page Student Life. Les bus de 5:30 et 6:00 p.m. sont pour la Middle et l’Upper School",
+      "of": "65187986",
       "at": [
         "charlotte-latin:coverage.facts[2].text"
       ]
@@ -1124,8 +1117,22 @@
       ]
     },
     {
-      "t": "Les pages de Latin se contredisent sur l’heure de sortie de la Lower School. Les pages After-School indiquent **2:55** — le chiffre sur lequel repose la grille tarifaire — tandis que la page Transportation indique **3:05** pour « TK-K Hawks Club students and Grades 1-5 », et une troisième source indique 3:10. La Middle et l’Upper School sont données à la fois à 3:20 et à 3:25.",
-      "of": "804bdfef",
+      "t": "Deux pages Transportation",
+      "of": "025194ad",
+      "at": [
+        "charlotte-latin:coverage.facts[4].label"
+      ]
+    },
+    {
+      "t": "La page Student Life indique des bus du matin de 7:00 à 7:25 a.m. Ses horaires de l’après-midi sont 3:05 p.m. pour les niveaux 1 à 5 et 3:20 p.m. pour la Middle et l’Upper School. La page Admissions indique de 7:00 à 7:20 a.m., 2:55 p.m. et 3:30 p.m.",
+      "of": "6989102f",
+      "at": [
+        "charlotte-latin:coverage.facts[4].text"
+      ]
+    },
+    {
+      "t": "Les deux pages Transportation de l’école se contredisent, lecture du 2026-11-22 (plan consistency4 LAT-T2). /student-life/transportation : matin 7:00–7:25 ; **3:05** pour « TK-K Hawks Club students and Grades 1-5 » ; 3:20 pour Flyzone, la Middle et l’Upper School ; bus d’activités de la Lower School à 4:45. /admissions/transportation : 7:00–7:20 ; **2:55** ; 3:30 ; 4:30. Les deux impriment des heures de départ de bus. Le Hawks’ Club utilise 2:55 (le chiffre sur lequel repose la grille tarifaire) et un bus à 4:30. Les barres sont tracées à partir de 2:55 et 3:20 ; aucune valeur n’est privilégiée. Le 3:10 (un extrait de recherche) et le 3:25 du relevé de juillet ne figurent sur aucune des deux pages.",
+      "of": "7e6ff722",
       "at": [
         "charlotte-latin:coverage.flags[0].text"
       ]
@@ -1138,8 +1145,8 @@
       ]
     },
     {
-      "t": "Aucun accueil du matin n’est publié. Les seuls repères matinaux sont la plage de bus de 7:00 à 7:25 a.m. et l’ouverture de la bibliothèque à 7:30 a.m.",
-      "of": "5180c265",
+      "t": "Aucun accueil du matin n’est publié. Les seuls repères matinaux sont l’ouverture de la bibliothèque à 7:30 a.m. et la plage de bus. Cette plage se termine à 7:25 sur la page Transportation de Student Life et à 7:20 sur celle d’Admissions.",
+      "of": "1477536d",
       "at": [
         "charlotte-latin:coverage.flags[2].text"
       ]
@@ -1243,8 +1250,8 @@
       ]
     },
     {
-      "t": "Les TK et K sortent à 1:30, les niveaux 1 à 5 à 2:55. Une famille TK/K paie **$1,725 par semestre — $3,450 par an — uniquement pour couvrir les 85 minutes** dont une famille de niveau 1 bénéficie gratuitement.",
-      "of": "d75d0ce0",
+      "t": "Les TK et K sortent à 1:30. La page du Hawks’ Club place la sortie des niveaux 1 à 5 à 2:55. Une famille TK/K paie **$1,725 par semestre — $3,450 par an — uniquement pour couvrir les 85 minutes** dont une famille de niveau 1 bénéficie gratuitement.",
+      "of": "c35ce56d",
       "at": [
         "charlotte-latin:cost.aside.text"
       ]
@@ -1438,8 +1445,8 @@
       ]
     },
     {
-      "t": "Covoiturage à l’avant, retour au Hawks’ Club, ou bus de la Lower School à 4:30",
-      "of": "977bfcc4",
+      "t": "Covoiturage à l’avant, retour au Hawks’ Club, ou bus de la Lower School. Les pages Hawks’ Club et Admissions placent ce bus à 4:30 ; la page Student Life indique 4:45",
+      "of": "ae4a264e",
       "at": [
         "charlotte-latin:dayInside.rhythm[3].detail"
       ]
@@ -1757,8 +1764,8 @@
       ]
     },
     {
-      "t": "**Talons**, le programme sportif jeunesse, fonctionne en parallèle pour les niveaux 3 à 6 — hockey sur gazon, basketball, baseball, lacrosse, soccer mixte et cross-country, 2 à 3 jours par semaine entre 3:00 et 5:15 p.m., de $200 à $350 selon le sport. Seules les sessions d’automne sont publiées ; ni l’hiver ni le printemps ne le sont.",
-      "of": "43412fa1",
+      "t": "Niveaux et tarifs des **Talons**, lecture du 2026-11-22 (plan consistency4 LAT-T3). La page After School indique les niveaux 3–6 ; la page Talons propose le flag football pour KG–5 et le soccer d’automne pour les niveaux 2–6. La page Talons affiche désormais l’automne, l’hiver et le printemps. Les tarifs ne sont imprimés que pour certains programmes d’hiver et de printemps, $195–$375. Aucun ne l’est pour le basketball, la natation, le hockey sur gazon en salle, la ligue de flag football, le tennis ni les programmes d’automne. Le relevé de juillet donnait $200–$350 pour l’automne.",
+      "of": "5a397ac3",
       "at": [
         "charlotte-latin:dayInside.flags[2].text"
       ]
@@ -1771,8 +1778,8 @@
       ]
     },
     {
-      "t": "La marche tarifaire des TK/K et l’opacité quasi totale des frais sont les deux points à creuser, et les familles de Middle School devraient demander ce qui se passe à 3:20 p.m.",
-      "of": "e2e784f1",
+      "t": "La marche tarifaire des TK/K et l’opacité quasi totale des frais sont les deux points à creuser, et les familles de Middle School devraient demander ce qui se passe après la sortie.",
+      "of": "ad3ee503",
       "at": [
         "charlotte-latin:verdict.subhead"
       ]
@@ -1827,8 +1834,8 @@
       ]
     },
     {
-      "t": "**L’intégration des bus d’activités** à 4:30, 5:30 et 6:00, de sorte que participer au périscolaire n’exige pas nécessairement une voiture à la récupération.",
-      "of": "711e2917",
+      "t": "**L’intégration des bus d’activités**, de sorte que participer au périscolaire n’exige pas nécessairement une voiture à la récupération. Les bus les plus tardifs partent à 5:30 et 6:00. Le bus de la Lower School est à 4:30 sur les pages Hawks’ Club et Admissions, et à 4:45 sur la page Student Life.",
+      "of": "2df8234b",
       "at": [
         "charlotte-latin:verdict.strengths[7]"
       ]
@@ -1841,8 +1848,8 @@
       ]
     },
     {
-      "t": "**La marche tarifaire des TK/K est brutale** — $1,725 par semestre uniquement pour combler les 85 minutes jusqu’à la sonnerie des niveaux 1, et $9,300 par an pour une couverture de cinq jours jusqu’à 6:00 p.m.",
-      "of": "49350c41",
+      "t": "**La marche tarifaire des TK/K est brutale** — $1,725 par semestre uniquement pour la garde des TK/K de 1:30 à 2:55, et $9,300 par an pour une couverture de cinq jours jusqu’à 6:00 p.m.",
+      "of": "edb7a3c5",
       "at": [
         "charlotte-latin:verdict.watchouts[1]"
       ]
@@ -1890,15 +1897,15 @@
       ]
     },
     {
-      "t": "Quelles sont nos options de surveillance après les cours lorsque notre enfant entre en Middle School ? Y a-t-il quelque chose entre la sortie de 3:20 et le bus d’activités de 5:30 ?",
-      "of": "cc77766d",
+      "t": "Quelles sont nos options de surveillance après les cours lorsque notre enfant entre en Middle School ? Y a-t-il quelque chose entre la sortie (3:20 ou 3:30) et le bus d’activités de 5:30 ?",
+      "of": "fc2df58e",
       "at": [
         "charlotte-latin:verdict.checklist[0]"
       ]
     },
     {
-      "t": "Merci de confirmer l’heure réelle de sortie des niveaux 1 à 5 — 2:55, 3:05 ou 3:10 ? Vos pages Transportation et After-School se contredisent.",
-      "of": "4175da40",
+      "t": "Merci de confirmer l’heure réelle de sortie des niveaux 1 à 5 — 2:55 ou 3:05 ? Le bus d’activités de la Lower School est-il à 4:30 ou à 4:45 ? Vos deux pages Transportation se contredisent.",
+      "of": "710281ac",
       "at": [
         "charlotte-latin:verdict.checklist[1]"
       ]
@@ -1995,8 +2002,8 @@
       ]
     },
     {
-      "t": "Existe-t-il des saisons Talons en hiver et au printemps, et quel est le tarif exact pour le sport qui nous intéresse ?",
-      "of": "aaba6621",
+      "t": "Combien coûteront les programmes Talons sans tarif affiché, comme le basketball, la natation et le hockey sur gazon en salle ?",
+      "of": "d1e6e9c0",
       "at": [
         "charlotte-latin:verdict.checklist[15]"
       ]
@@ -2009,15 +2016,15 @@
       ]
     },
     {
-      "t": "Deux paliers « Bridge Care » peu coûteux existent uniquement pour combler l’écart entre la sonnerie des JK-K et celle des niveaux 1 à 4. L’Upper School ne dispose d’aucun accueil périscolaire.",
-      "of": "88d4fc22",
+      "t": "Deux paliers courts « Bridge Care » couvrent les 55 premières minutes après chaque sonnerie de la Lower School : jusqu’à 3:15 pour les JK-K, jusqu’à 3:35 pour les niveaux 1 à 4. L’Upper School ne dispose d’aucun accueil périscolaire.",
+      "of": "5d3da8d2",
       "at": [
         "charlotte-christian:coverage.subhead"
       ]
     },
     {
-      "t": "Le tarif jusqu’à 6:00 correspond au **tarif mensuel à temps plein — 5 jours par semaine** ; de 1 à 4 jours par semaine, il varie de $125 à $295. **Le Bridge Care coûte $125 par mois, quel que soit le nombre de jours**, ce qui en fait un moyen très économique de combler l’écart jusqu’à la sonnerie des niveaux 1 à 4. Ouvrez **Le planificateur de coûts** ci-dessous pour chiffrer n’importe quelle combinaison.",
-      "of": "fdb538f2",
+      "t": "Le tarif jusqu’à 6:00 correspond au **tarif mensuel à temps plein — 5 jours par semaine** ; de 1 à 4 jours par semaine, il varie de $125 à $295. **Le Bridge Care coûte $125 par mois, quel que soit le nombre de jours**, et il couvre les JK-K jusqu’à 3:15 et les niveaux 1 à 4 jusqu’à 3:35. Ouvrez **Le planificateur de coûts** ci-dessous pour chiffrer n’importe quelle combinaison.",
+      "of": "e2a27b56",
       "at": [
         "charlotte-christian:coverage.basisNote"
       ]
@@ -2309,8 +2316,8 @@
       ]
     },
     {
-      "t": "Charlotte Christian publie un véritable emploi du temps quotidien horodaté, ce que peu d’écoles font, et elle y protège un créneau de devoirs de 45 minutes dans les deux divisions.",
-      "of": "4c22b92e",
+      "t": "Charlotte Christian publie un véritable emploi du temps quotidien horodaté, ce que peu d’écoles font, et elle y protège un créneau de devoirs dans les deux divisions : 45 minutes en Lower School, 30 en Middle School.",
+      "of": "48b2dcd5",
       "at": [
         "charlotte-christian:dayInside.headline"
       ]
@@ -2484,8 +2491,8 @@
       ]
     },
     {
-      "t": "Un programme d’une transparence inhabituelle — un emploi du temps publié, un créneau de devoirs protégé et un palier Bridge Care réellement astucieux — mais adossé à des tarifs qui ont très fortement augmenté.",
-      "of": "d8c24be2",
+      "t": "Un programme d’une transparence inhabituelle — un emploi du temps publié, un créneau de devoirs protégé et deux paliers Bridge Care courts et peu coûteux — mais adossé à des tarifs qui ont très fortement augmenté.",
+      "of": "f37b6cef",
       "at": [
         "charlotte-christian:verdict.headline"
       ]
@@ -2498,15 +2505,15 @@
       ]
     },
     {
-      "t": "**Un déroulé quotidien publié et structuré** pour les deux divisions, avec un créneau protégé de 45 minutes de devoirs et de lecture. Peu d’écoles publient même leur emploi du temps périscolaire.",
-      "of": "1cac09a3",
+      "t": "**Un déroulé quotidien publié et structuré** pour les deux divisions, avec un créneau de devoirs et de lecture : 45 minutes en Lower School, 30 en Middle School. Peu d’écoles publient même leur emploi du temps périscolaire.",
+      "of": "9d1b78b0",
       "at": [
         "charlotte-christian:verdict.strengths[0]"
       ]
     },
     {
-      "t": "**Le Bridge Care est une véritable innovation tarifaire** — $125/mois pour relier la sonnerie de 2:20 des JK-K à celle des niveaux 1 à 4, au lieu de contraindre une famille à souscrire un forfait complet à $325.",
-      "of": "567eca7a",
+      "t": "**Le Bridge Care est une option peu coûteuse.** Il coûte $125/mois pour un accueil jusqu’à 3:15 en JK-K ou jusqu’à 3:35 pour les niveaux 1 à 4, au lieu d’un forfait complet à $325.",
+      "of": "c46e508e",
       "at": [
         "charlotte-christian:verdict.strengths[1]"
       ]
@@ -2652,8 +2659,8 @@
       ]
     },
     {
-      "t": "Quelle part des devoirs est réellement terminée pendant le créneau de 45 minutes — y a-t-il une aide active, ou s’agit-il d’une simple surveillance ?",
-      "of": "9ed96f62",
+      "t": "Quelle part des devoirs est réellement terminée pendant le créneau de devoirs — y a-t-il une aide active, ou s’agit-il d’une simple surveillance ?",
+      "of": "6568d33e",
       "at": [
         "charlotte-christian:verdict.checklist[7]"
       ]
@@ -2687,8 +2694,8 @@
       ]
     },
     {
-      "t": "Les prix affichés sur les barres correspondent au **tarif mensuel à temps plein — 5 jours par semaine**, le cas le plus courant. Country Day propose des contrats de 1 à 5 jours par semaine, et les formules à moins de jours reviennent nettement moins cher ; ouvrez **Le planificateur de coûts** ci-dessous pour chiffrer l’une des 13 combinaisons publiées.",
-      "of": "d974574f",
+      "t": "Les prix affichés sur les barres correspondent au **tarif mensuel à temps plein — 5 jours par semaine**, le cas le plus courant. Country Day propose des contrats de 1 à 5 jours par semaine, et les formules à moins de jours reviennent nettement moins cher ; ouvrez **Le planificateur de coûts** ci-dessous pour chiffrer l’une des 13 combinaisons publiées. La récupération de 3:00 p.m. est réservée aux frères et sœurs en covoiturage.",
+      "of": "0990dfc4",
       "at": [
         "charlotte-country-day:coverage.basisNote"
       ]
@@ -2723,8 +2730,8 @@
       ]
     },
     {
-      "t": "**Country Day Summer Programs** — de 4 à 18 ans, jusqu’au 24 juillet 2026. L’école annonce plus de 150 camps à partir du 8 juin ; sa liste tarifée compte 132 sessions à partir du 1er juin. Accueil avant le camp de 7:30 à 9:00 a.m. à $105/sem. ; accueil de l’après-midi à $85/sem. Une **demande d’aide financière distincte pour l’été** existe.",
-      "of": "5ef0e29c",
+      "t": "**Country Day Summer Programs** — de 4 à 18 ans (la page périscolaire indique 3–18), jusqu’au 24 juillet 2026. L’école annonce plus de 150 camps à partir du 8 juin ; sa liste tarifée compte 132 sessions à partir du 1er juin. Accueil avant le camp de 7:30 à 9:00 a.m. à $105/sem. ; accueil de l’après-midi à $85/sem. Une **demande d’aide financière distincte pour l’été** existe.",
+      "of": "696610c1",
       "at": [
         "charlotte-country-day:coverage.summer.text"
       ]
@@ -3093,8 +3100,8 @@
       ]
     },
     {
-      "t": "Aucune réduction pour fratrie n’est publiée pour l’Extended Day, et il n’existe aucune politique d’aide financière le concernant. Il est facturé au titre des **frais annexes**, ce qui le place hors de l’aide aux frais de scolarité, alors même qu’environ 20% des élèves (341) en bénéficient. Les programmes d’été, en revanche, disposent de leur propre demande d’aide.",
-      "of": "ee4a34f0",
+      "t": "Aucune réduction pour fratrie n’est publiée pour l’Extended Day, et il n’existe aucune politique d’aide financière le concernant. Il est facturé au titre des **frais annexes**, ce qui le place hors de l’aide aux frais de scolarité, alors même qu’environ 20% des élèves en bénéficient. La page des frais de scolarité indique $9.4M pour 341 élèves, et Fast Facts $10.1M pour 347. Les programmes d’été, en revanche, disposent de leur propre demande d’aide.",
+      "of": "84fc27f4",
       "at": [
         "charlotte-country-day:cost.flags[1].text"
       ]
@@ -3107,6 +3114,13 @@
       ]
     },
     {
+      "t": "Les totaux d’aide diffèrent entre deux pages en ligne (relecture du 2026-11-22, plan consistency4 CCD-T3) : la page des frais de scolarité indique **$9.4 millions pour 341 élèves**, Fast Facts **$10.1 millions pour 347**. Aucune n’est datée. Les deux sont présentées, et aucune n’est privilégiée.",
+      "of": "6697bb07",
+      "at": [
+        "charlotte-country-day:cost.flags[3].text"
+      ]
+    },
+    {
       "t": "L’Extended Day est pensé pour les familles actives — « more than 50 percent of our two-parent families are dual income », et le programme est conçu en conséquence.",
       "of": "85d2b10e",
       "at": [
@@ -3114,15 +3128,15 @@
       ]
     },
     {
-      "t": "L’école publie les différentes parties de l’après-midi mais ne les place jamais dans l’ordre avec des horaires. Ce qu’elle publie en détail, c’est le fonctionnement de l’enrichissement : le cours de chaque division commence exactement à sa propre sonnerie de sortie.",
-      "of": "7639bf03",
+      "t": "L’école publie les différentes parties de l’après-midi mais ne les place jamais dans l’ordre avec des horaires. Ce qu’elle publie en détail, c’est l’heure de début de l’enrichissement. Les cours des JK, du Kindergarten et des niveaux 3–4 commencent dès la sortie. Les niveaux 1–2 attendent 15 minutes, la Middle School 10 et l’Upper School 30.",
+      "of": "199b3797",
       "at": [
         "charlotte-country-day:dayInside.subhead"
       ]
     },
     {
-      "t": "L’enrichissement démarre à la sonnerie — créneaux et taux d’encadrement publiés",
-      "of": "9175cad0",
+      "t": "Enrichissement après la sortie — créneaux et taux d’encadrement publiés",
+      "of": "37d9c40b",
       "at": [
         "charlotte-country-day:dayInside.rhythmTitle"
       ]
@@ -3333,8 +3347,8 @@
       ]
     },
     {
-      "t": "**L’enrichissement démarre à la sonnerie de sortie** pour chaque division, avec des taux d’encadrement publiés par niveau — aucun temps mort entre l’école et l’activité.",
-      "of": "e070f322",
+      "t": "**L’enrichissement démarre peu après la sortie**, avec des taux d’encadrement publiés par niveau. Les JK, le Kindergarten et les niveaux 3–4 commencent à la sonnerie. Les niveaux 1–2 attendent 15 minutes, la Middle School 10 et l’Upper School 30.",
+      "of": "4159314b",
       "at": [
         "charlotte-country-day:verdict.strengths[3]"
       ]
@@ -3382,8 +3396,8 @@
       ]
     },
     {
-      "t": "**L’Extended Day semble échapper à l’aide financière.** Il est facturé au titre des frais annexes, sans politique d’aide publiée, alors même qu’environ 20% des élèves (341) bénéficient d’une aide aux frais de scolarité. Les programmes d’été, en revanche, disposent de leur propre demande d’aide.",
-      "of": "008fec7d",
+      "t": "**L’Extended Day semble échapper à l’aide financière.** Il est facturé au titre des frais annexes, sans politique d’aide publiée, alors même qu’environ 20% des élèves bénéficient d’une aide aux frais de scolarité. La page des frais de scolarité indique $9.4M pour 341 élèves, et Fast Facts $10.1M pour 347. Les programmes d’été, en revanche, disposent de leur propre demande d’aide.",
+      "of": "1829d03b",
       "at": [
         "charlotte-country-day:verdict.watchouts[2]"
       ]
@@ -3739,8 +3753,8 @@
       ]
     },
     {
-      "t": "La tarification est en pratique dissimulée aux familles qui s’intéressent à l’école. La grille n’existe que sur une URL de sauvegarde orpheline, à l’intérieur d’un accordéon replié. La page du programme, la page des frais et le PDF officiel Non-Tuition Fees l’omettent tous. Ce PDF va jusqu’à mentionner « After School Program » et « Beyond the Bell » comme payants, mais sans leur attribuer de montant. Pourtant, il chiffre tout le reste, jusqu’à un examen AP à $98.",
-      "of": "cc357e68",
+      "t": "La tarification est en pratique dissimulée aux familles qui s’intéressent à l’école. La grille n’existe que sur une URL de sauvegarde orpheline, à l’intérieur d’un accordéon replié. La page du programme, la page des frais et le PDF officiel Non-Tuition Fees l’omettent tous. Ce PDF va jusqu’à mentionner « After School Program » et « Beyond the Bell » comme payants, mais sans leur attribuer de montant. Pourtant, il chiffre de nombreux autres postes, jusqu’à un examen AP à $98.",
+      "of": "c3e72dfd",
       "at": [
         "cannon:cost.flags[1].text"
       ]
@@ -4192,15 +4206,15 @@
       ]
     },
     {
-      "t": "**Un catalogue d’enrichissement fourni et entièrement chiffré** — 22 cours distincts sur une seule session, de la robotique, du ballet et des échecs à la poterie, au golf et à la photographie. Chacun a un prestataire nommé et un tarif réel.",
-      "of": "904c966a",
+      "t": "**Un catalogue d’enrichissement fourni et entièrement chiffré** — 22 cours distincts sur une seule session, de la robotique et du ballet à la sculpture, au golf et à la photographie. Chacun a un prestataire nommé et un tarif réel.",
+      "of": "591807b0",
       "at": [
         "cannon:verdict.strengths[4]"
       ]
     },
     {
-      "t": "**L’enrichissement est peu coûteux et transparent** — de $18 à $30 par cours, le plus souvent de $144 à $300 pour une session de 10 semaines, avec remboursement intégral des cours annulés et une semaine de rattrapage.",
-      "of": "e89bfac2",
+      "t": "**L’enrichissement est peu coûteux et transparent** — de $18 à $30 par cours, et de $160 à $300 pour la session de 8 ou 10 cours, avec remboursement intégral des cours annulés et une semaine de rattrapage.",
+      "of": "6274a884",
       "at": [
         "cannon:verdict.strengths[5]"
       ]
@@ -4747,8 +4761,8 @@
       ]
     },
     {
-      "t": "Aucun programme d’été n’est publié sur le site en ligne, et aucune page consacrée à l’été ne figure au plan du site. Une page de camp archivée de 2019 et un site d’annonces tiers existent, mais l’école n’a confirmé ni l’un ni l’autre sur ses propres pages.",
-      "of": "e61b8f40",
+      "t": "Aucun camp d’été n’est publié sur le site en ligne, et aucune page consacrée à l’été ne figure au plan du site. Une page de camp archivée de 2019 et un site d’annonces tiers existent, mais l’école n’a confirmé ni l’un ni l’autre sur ses propres pages. Le tutorat et les thérapies d’été du Learning Enrichment Center sont distincts : voir Soutien à l’apprentissage.",
+      "of": "a2ba01c8",
       "at": [
         "davidson-day:coverage.flags[2].text"
       ]
@@ -4859,8 +4873,8 @@
       ]
     },
     {
-      "t": "**La couverture va jusqu’à 6:00 p.m.**, à parité avec les écoles comparables, et s’étend du **Traditional Toddler à la 8e année** — y compris une tranche tout-petits que beaucoup d’écoles ne couvrent pas du tout.",
-      "of": "d611da9d",
+      "t": "**La couverture allait jusqu’à 6:00 p.m.** du **Traditional Toddler à la 8e année** sur la page 2020 de l’école. Confirmez que c’est toujours le cas.",
+      "of": "8914e54f",
       "at": [
         "davidson-day:verdict.strengths[0]"
       ]
@@ -5352,8 +5366,8 @@
       ]
     },
     {
-      "t": "Les enfants du YCC passent à l'accueil After School aux côtés des 1re à 8e années ; les élèves de Middle School arrivent avant 3:30",
-      "of": "afde5739",
+      "t": "Les enfants du YCC passent à l'accueil After YCC ; les élèves de Middle School arrivent avant 3:30",
+      "of": "e4ed9584",
       "at": [
         "carmel-christian:dayInside.rhythm[2].detail"
       ]
@@ -5639,8 +5653,8 @@
       ]
     },
     {
-      "t": "Une seule plage de 2:30 à 5:30 p.m. couvre toute l’école — un programme Afterschool pour les TK–5 et une Study Hall surveillée pour les niveaux 6–11 — avec un départ au plus tard à 5:30.",
-      "of": "5ad69bf4",
+      "t": "Une seule plage de 2:30 à 5:30 p.m. couvre les élèves du TK jusqu’à la 11e année au moins. Elle comprend un programme Afterschool pour les TK–5 et une Study Hall surveillée pour les niveaux 6–11. Le départ le plus tardif est à 5:30.",
+      "of": "061bbddb",
       "at": [
         "hickory-grove-christian:coverage.headline"
       ]
@@ -5899,8 +5913,8 @@
       ]
     },
     {
-      "t": "Un programme d’après-midi unique, scindé par âge, qui couvre toute l’école jusqu’à 5:30 p.m. — avec des activités et des prix annuels publiés, mais aucune couverture estivale.",
-      "of": "12d560ff",
+      "t": "Un programme d’après-midi unique, scindé par âge, qui accueille les élèves du TK à la 11e année au moins, jusqu’à 5:30 p.m. — avec des activités et des prix annuels publiés, mais aucune couverture estivale.",
+      "of": "ce6462ca",
       "at": [
         "hickory-grove-christian:verdict.headline"
       ]
@@ -5913,8 +5927,8 @@
       ]
     },
     {
-      "t": "**Une couverture de toute l’école en une seule plage** — l’Afterschool TK–5 et la Study Hall 6–11 se déroulent tous deux de 2:30 à 5:30 p.m., il n’y a donc aucun trou entre les divisions.",
-      "of": "19d88b54",
+      "t": "**Une seule plage du TK jusqu’à la 11e année au moins** — l’Afterschool TK–5 et la Study Hall 6–11 se déroulent tous deux de 2:30 à 5:30 p.m.",
+      "of": "4a46a99b",
       "at": [
         "hickory-grove-christian:verdict.strengths[0]"
       ]
@@ -5997,8 +6011,8 @@
       ]
     },
     {
-      "t": "Existe-t-il d’autres « student services fees » en plus du tarif de la garde périscolaire, et où peut-on les consulter avant l’inscription ?",
-      "of": "4ef98c37",
+      "t": "Combien coûtent les frais de déjeuner, de sport et de remise des diplômes ? La rubrique Soutien à l’apprentissage indique les frais des Educational Support Services.",
+      "of": "57ea2df2",
       "at": [
         "hickory-grove-christian:verdict.checklist[4]"
       ]
@@ -6011,50 +6025,50 @@
       ]
     },
     {
-      "t": "L’accueil fonctionne jusqu’à 6:00 pm de la Pre-K à la 8e année, réparti en un palier Lower School à partir de 3:00 et un palier Middle School à partir de 4:00.",
-      "of": "bfb77064",
+      "t": "L’accueil fonctionne jusqu’à 5:30 pm de la Pre-K à la 8e année. Le palier Lower School commence à 3:00 et le palier Middle School à 3:15.",
+      "of": "fecea180",
       "at": [
         "gaston-day:coverage.headline"
       ]
     },
     {
-      "t": "Les deux paliers se retrouvent dans la même salle en milieu d’après-midi ; la différence tient à l’heure de fin de journée de chaque division, non à ce que le programme propose.",
-      "of": "c5985fd5",
+      "t": "Les deux paliers se terminent à 5:30. L’école publie un seul emploi du temps d’après-midi, qui commence à 3:15.",
+      "of": "2281f5b8",
       "at": [
         "gaston-day:coverage.subhead"
       ]
     },
     {
-      "t": "Les prix affichés sont les tarifs HEBDOMADAIRES publiés dans le Schedule of Tuition and Fees 2025-26 de l’école. Ils supposent une inscription régulière. L’accueil ponctuel, lui, est facturé à la journée et figure dans les faits ci-dessous. Voir les signalements ci-dessous : la page web du programme libelle des montants quasi identiques comme mensuels.",
-      "of": "b2b5c551",
+      "t": "Les prix affichés sont les tarifs HEBDOMADAIRES publiés dans le Schedule of Tuition and Fees 2026–27 de l’école. Ils supposent une inscription régulière, et le Finance Office les facture chaque mois. L’accueil ponctuel, lui, est tarifé à la journée et figure dans les faits ci-dessous.",
+      "of": "28411b1e",
       "at": [
         "gaston-day:coverage.basisNote"
       ]
     },
     {
-      "t": "PS–4th · sortie 3:00",
-      "of": "cf1739b4",
+      "t": "PS–4th · accueil dès 3:00",
+      "of": "490868c6",
       "at": [
         "gaston-day:coverage.rows[0].dismissal"
       ]
     },
     {
-      "t": "After School Care · $95/semaine ou $30/jour",
-      "of": "582d1893",
+      "t": "After School Care · $100/semaine ou $30/jour",
+      "of": "79406b4c",
       "at": [
         "gaston-day:coverage.rows[0].flatLabel"
       ]
     },
     {
-      "t": "5th–8th · sortie 4:00",
-      "of": "8c483b1b",
+      "t": "5th–8th · accueil dès 3:15",
+      "of": "0b7412ac",
       "at": [
         "gaston-day:coverage.rows[1].dismissal"
       ]
     },
     {
-      "t": "After School Care · $55/semaine ou $15/jour",
-      "of": "0e52375e",
+      "t": "After School Care · $60/semaine ou $15/jour",
+      "of": "51ed35e2",
       "at": [
         "gaston-day:coverage.rows[1].flatLabel"
       ]
@@ -6074,8 +6088,8 @@
       ]
     },
     {
-      "t": "Accessible sans inscription hebdomadaire à **$30/jour** (Lower School) et **$15/jour** (Middle School). Des **frais d’accueil ponctuel Extended Day de $25** figurent également sur le barème.",
-      "of": "fde9d877",
+      "t": "Accessible sans inscription hebdomadaire à **$30/jour** (Lower School) et **$15/jour** (Middle School). Des **frais d’accueil ponctuel Extended Day de $25** figurent également sur le barème. Pour la Preschool et la Pre-K en demi-journée, c’est $25 par jour ou $120 par semaine.",
+      "of": "d8333dcb",
       "at": [
         "gaston-day:coverage.facts[0].text"
       ]
@@ -6095,8 +6109,8 @@
       ]
     },
     {
-      "t": "Via l’application **Popsicle** — la même plateforme que celle utilisée par les camps d’été. L’inscription est gratuite et annoncée comme prenant moins de cinq minutes.",
-      "of": "339f1dae",
+      "t": "Via l’application **Popsicle** — la même plateforme que celle utilisée par les camps d’été. L’inscription est gratuite et prend cinq minutes ou moins.",
+      "of": "da07c0b5",
       "at": [
         "gaston-day:coverage.facts[2].text"
       ]
@@ -6109,8 +6123,8 @@
       ]
     },
     {
-      "t": "**Letty Jimenez** (980.502.5817) et **Traci Harbin**.",
-      "of": "bc1cdbb7",
+      "t": "**Letty Jimenez** (980.502.5817, Ljimenez@gastonday.org) et **Julie Dellibovi** (jdellibovi@gastonday.org).",
+      "of": "b944598c",
       "at": [
         "gaston-day:coverage.facts[3].text"
       ]
@@ -6123,8 +6137,8 @@
       ]
     },
     {
-      "t": "Les élèves du Middle School qui attendent un cours de musique (**$35/cours**) peuvent faire leurs devoirs à l’accueil périscolaire **sans frais**.",
-      "of": "df2e3b63",
+      "t": "Les élèves du Middle School qui attendent un cours de musique (**$35 par cours de 30 minutes**) peuvent faire leurs devoirs à l’accueil périscolaire **sans frais**.",
+      "of": "fc9fac09",
       "at": [
         "gaston-day:coverage.facts[4].text"
       ]
@@ -6144,29 +6158,15 @@
       ]
     },
     {
-      "t": "La page du programme indique **3:15–5:30 pm** pour les deux divisions ; le barème 2025-26 indique **3:00–6:00** (Lower School) et **4:00–6:00** (Middle School). Les deux sont présentés ici : le barème fixe les tarifs et l’heure de récupération la plus tardive de 6:00 pm de la ligne Compare, la page fixe le rythme de l’après-midi. Une famille devrait confirmer la plage horaire actuelle au moment de l’inscription.",
-      "of": "5998fe68",
-      "at": [
-        "gaston-day:coverage.flags[0].text"
-      ]
-    },
-    {
-      "t": "La page tarifie l’inscription hebdomadaire à **$100/mois** (LS) et **$60/mois** (MS) ; le barème indique **$95/semaine** et **$55/semaine**. Les tarifs d’accueil ponctuel ($30/jour, $15/jour) sont identiques dans les deux. C’est la lecture hebdomadaire qui est retenue, puisqu’un tarif mensuel inférieur à quatre journées ponctuelles n’est pas économiquement cohérent.",
-      "of": "27660033",
-      "at": [
-        "gaston-day:coverage.flags[1].text"
-      ]
-    },
-    {
-      "t": "L’accueil périscolaire coûte $95 par semaine pour la Lower School et $55 pour la Middle School.",
-      "of": "7ce0a36e",
+      "t": "L’accueil périscolaire coûte $100 par semaine pour la Lower School et $60 pour la Middle School.",
+      "of": "77dd11e9",
       "at": [
         "gaston-day:cost.headline"
       ]
     },
     {
-      "t": "Une année scolaire complète d’accueil cinq jours par semaine en Lower School revient à environ $3,420 sur 36 semaines — avant toute journée ponctuelle ou tout frais de retard.",
-      "of": "01cdd883",
+      "t": "Une année scolaire complète d’accueil cinq jours par semaine en Lower School revient à environ $3,600 sur 36 semaines — avant toute journée ponctuelle ou tout frais de retard.",
+      "of": "483b0ccb",
       "at": [
         "gaston-day:cost.subhead"
       ]
@@ -6244,8 +6244,8 @@
       ]
     },
     {
-      "t": "Les montants publiés de $95 et $55 sont des tarifs d’inscription hebdomadaire. Ils restent les mêmes quel que soit le nombre d’après-midi passés par l’enfant, c’est pourquoi ces deux lignes affichent le même prix dans chaque colonne. L’accueil ponctuel est l’option dont le coût augmente avec l’usage. Aux tarifs de la Lower School, il coûte moins que l’inscription hebdomadaire jusqu’à trois jours par semaine ($90 contre $95). À partir de quatre jours, il coûte plus ($120 contre $95).",
-      "of": "72a334a5",
+      "t": "Les montants publiés de $100 et $60 sont des tarifs d’inscription hebdomadaire. Ils restent les mêmes quel que soit le nombre d’après-midi passés par l’enfant, c’est pourquoi ces deux lignes affichent le même prix dans chaque colonne. L’accueil ponctuel est l’option dont le coût augmente avec l’usage. Aux tarifs de la Lower School, il coûte moins que l’inscription hebdomadaire jusqu’à trois jours par semaine ($90 contre $100). À partir de quatre jours, il coûte plus ($120 contre $100).",
+      "of": "5035b92a",
       "at": [
         "gaston-day:cost.aside.text"
       ]
@@ -6258,8 +6258,8 @@
       ]
     },
     {
-      "t": "$95/semaine",
-      "of": "cf4c30e6",
+      "t": "$100/semaine",
+      "of": "aeef688b",
       "at": [
         "gaston-day:cost.fees[0].value"
       ]
@@ -6279,8 +6279,8 @@
       ]
     },
     {
-      "t": "$55/semaine",
-      "of": "84acf482",
+      "t": "$60/semaine",
+      "of": "46daf1ea",
       "at": [
         "gaston-day:cost.fees[2].value"
       ]
@@ -6300,8 +6300,8 @@
       ]
     },
     {
-      "t": "Cours de musique",
-      "of": "4d585419",
+      "t": "Cours de musique, 30 minutes",
+      "of": "2681e3a7",
       "at": [
         "gaston-day:cost.fees[5].label"
       ]
@@ -6342,22 +6342,22 @@
       ]
     },
     {
-      "t": "Cette page suppose une année scolaire de 36 semaines pour permettre la comparaison entre écoles. Gaston Day ne publie pas ce chiffre. L’école n’indique aucun total annuel d’accueil périscolaire, aucun frais d’inscription, aucune réduction fratrie et aucune condition d’assurance scolarité pour ce programme.",
-      "of": "a0b66ef2",
+      "t": "Cette page suppose une année scolaire de 36 semaines pour permettre la comparaison entre écoles. Gaston Day ne publie pas ce chiffre. L’inscription est gratuite. L’école n’indique aucun total annuel d’accueil périscolaire, aucune réduction fratrie et aucune condition de remboursement pour ce programme.",
+      "of": "8e7cd54c",
       "at": [
         "gaston-day:cost.fees[8].label"
       ]
     },
     {
-      "t": "La page du programme libelle ces mêmes montants comme **$100/mois** et **$60/mois**. C’est la lecture hebdomadaire du barème officiel qui est retenue — voir le signalement de la carte Couverture pour les raisons.",
-      "of": "38c63975",
+      "t": "Relecture du 2026-11-22 : la page et le barème 2026-27 indiquent tous deux $100 et $60 par semaine, facturés chaque mois. Le multiplicateur de 36 semaines est notre hypothèse.",
+      "of": "82c898a1",
       "at": [
         "gaston-day:cost.flags[0].text"
       ]
     },
     {
-      "t": "Aucun frais d’inscription, réduction fratrie, voie d’aide financière ni plafond annuel n’est publié pour l’accueil périscolaire en particulier.",
-      "of": "e3faf456",
+      "t": "L’inscription est gratuite. Aucune réduction fratrie, voie d’aide financière ni plafond annuel n’est publié pour l’accueil périscolaire en particulier.",
+      "of": "d1baab78",
       "at": [
         "gaston-day:cost.flags[1].text"
       ]
@@ -6531,22 +6531,22 @@
       ]
     },
     {
-      "t": "L’école indique les programmes d’enrichissement comme **« coming soon »** : il n’y a donc pas de catalogue de cours à présenter. La rubrique figure sur la page de l’école, mais elle ne propose encore aucune offre.",
-      "of": "32335278",
+      "t": "La page de l’école indique les programmes d’enrichissement comme **« coming soon »**. Son barème 2026–27 nomme les programmes prévus : danse, art et peinture, cheerleading, course à pied (Speedy Spartans), sports (volleyball et basketball), ainsi que sciences et nature. Il précise que les détails seront envoyés aux familles en cours d’année.",
+      "of": "d1e158aa",
       "at": [
         "gaston-day:dayInside.catalogIntro"
       ]
     },
     {
-      "t": "Les offres d’enrichissement sont annoncées comme \"coming soon\", sans cours, jours, niveaux ni tarifs publiés — aucun catalogue n’est donc présenté plutôt qu’un catalogue vide.",
-      "of": "e8b6c7b8",
+      "t": "L’école nomme les matières d’enrichissement prévues mais ne publie ni cours, ni jours, ni niveaux, ni tarifs : il n’y a donc pas encore de catalogue.",
+      "of": "c6c769ca",
       "at": [
         "gaston-day:dayInside.flags[0].text"
       ]
     },
     {
-      "t": "Ce rythme correspond à la plage 3:15–5:30 de la page web. La plage du barème va de 3:00 à 6:00 (Lower School) : les blocs publiés peuvent donc commencer 15 minutes plus tôt et se terminer 30 minutes plus tard que ce qui est indiqué.",
-      "of": "319251b2",
+      "t": "Le rythme de la page commence à 3:15. Le barème 2026-27 fait commencer l’accueil de la Lower School à 3:00, et la page ne décrit pas ces 15 premières minutes.",
+      "of": "930faa63",
       "at": [
         "gaston-day:dayInside.flags[1].text"
       ]
@@ -6559,15 +6559,15 @@
       ]
     },
     {
-      "t": "Bon marché, publié en détail et véritablement structuré — mais avec un conflit non résolu entre les deux sources de l’école elle-même, tant sur les horaires que sur la période de facturation.",
-      "of": "c7b15ee8",
+      "t": "Tarifs et horaires publiés en détail, avec un après-midi structuré qui se termine à 5:30.",
+      "of": "5de78fbe",
       "at": [
         "gaston-day:verdict.headline"
       ]
     },
     {
-      "t": "Pour une famille qui a besoin d’un accueil jusqu’à 6:00 pm, le prix est bas ; confirmez la plage horaire avant de compter dessus.",
-      "of": "84fa0017",
+      "t": "Une famille qui a besoin d’un accueil après 5:30 devra prévoir une autre solution.",
+      "of": "440a16cd",
       "at": [
         "gaston-day:verdict.subhead"
       ]
@@ -6580,8 +6580,8 @@
       ]
     },
     {
-      "t": "**Le prix est bas.** $95/semaine pour la Lower School et $55/semaine pour la Middle School, avec un accueil ponctuel à $30 et $15 — aucun frais d’inscription publié.",
-      "of": "cf5ef55e",
+      "t": "**Le prix est publié.** $100/semaine pour la Lower School et $60/semaine pour la Middle School, avec un accueil ponctuel à $30 et $15. L’inscription est gratuite.",
+      "of": "06a421fe",
       "at": [
         "gaston-day:verdict.strengths[0]"
       ]
@@ -6608,8 +6608,8 @@
       ]
     },
     {
-      "t": "**La couverture va jusqu’à 6:00 pm** selon le barème — plus tard que plusieurs écoles homologues, et couvrant toute la tranche Pre-K–8 en deux paliers.",
-      "of": "70978dc2",
+      "t": "**La couverture s’étend de la Pre-K à la 8e année** en deux paliers, qui vont tous deux jusqu’à 5:30 pm.",
+      "of": "55e040df",
       "at": [
         "gaston-day:verdict.strengths[4]"
       ]
@@ -6629,22 +6629,22 @@
       ]
     },
     {
-      "t": "**Les horaires se contredisent.** 3:15–5:30 sur la page du programme contre 3:00–6:00 et 4:00–6:00 sur le barème — un écart de 30 minutes en fin de journée qui compte si vous comptez dessus.",
-      "of": "dc1f7c3f",
+      "t": "**La récupération se fait au plus tard à 5:30.** Aucune des deux divisions n’a d’option plus tardive au barème.",
+      "of": "b9fcfa81",
       "at": [
         "gaston-day:verdict.watchouts[0]"
       ]
     },
     {
-      "t": "**La période de facturation se contredit.** \"$100/mois\" sur la page contre \"$95/semaine\" sur le barème. Les totaux annuels sont très différents ; confirmez lequel vous sera facturé.",
-      "of": "5c58535c",
+      "t": "**Le tarif est hebdomadaire, mais la facture est mensuelle.** Le Finance Office facture l’accueil chaque mois. L’école ne publie aucun total pour l’année.",
+      "of": "e11a2242",
       "at": [
         "gaston-day:verdict.watchouts[1]"
       ]
     },
     {
-      "t": "**L’enrichissement est annoncé \"coming soon\"** — les compléments que d’autres écoles intègrent à l’accueil périscolaire n’existent pas encore ici.",
-      "of": "8f4fe97c",
+      "t": "**L’enrichissement est encore annoncé \"coming soon\"** sur la page du programme. Le barème nomme les matières prévues, sans jours ni tarifs.",
+      "of": "a67f0030",
       "at": [
         "gaston-day:verdict.watchouts[2]"
       ]
@@ -6671,15 +6671,15 @@
       ]
     },
     {
-      "t": "Laquelle est en vigueur — 3:15–5:30 sur le site web, ou les plages 3:00–6:00 et 4:00–6:00 du barème ?",
-      "of": "6384b23c",
+      "t": "Un accueil est-il proposé après 5:30 ?",
+      "of": "489dbf08",
       "at": [
         "gaston-day:verdict.checklist[0]"
       ]
     },
     {
-      "t": "Le tarif récurrent est-il de $95 par semaine ou de $100 par mois ? Quel est le coût annuel réel pour cinq jours ?",
-      "of": "6f700ad8",
+      "t": "Combien de semaines sont facturées dans une année scolaire, et quel est le coût annuel pour cinq jours ?",
+      "of": "70e7d5ef",
       "at": [
         "gaston-day:verdict.checklist[1]"
       ]
@@ -6706,15 +6706,15 @@
       ]
     },
     {
-      "t": "Existe-t-il une voie d’aide financière ou une réduction fratrie pour l’accueil périscolaire, comme il en existe pour les frais de scolarité ?",
-      "of": "3a923a3f",
+      "t": "Existe-t-il une aide financière pour l’accueil périscolaire, comme il en existe pour les frais de scolarité, ou une réduction fratrie ?",
+      "of": "1a0db1fd",
       "at": [
         "gaston-day:verdict.checklist[5]"
       ]
     },
     {
-      "t": "En quoi l’encadrement du palier 5th–8th diffère-t-il de celui du palier Pre-K–4th une fois que les deux se retrouvent dans la même salle ?",
-      "of": "d1678ff8",
+      "t": "En quoi l’encadrement du palier 5th–8th diffère-t-il de celui du palier Pre-K–4th ?",
+      "of": "3bc8eeb5",
       "at": [
         "gaston-day:verdict.checklist[6]"
       ]

@@ -188,7 +188,6 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel",
         "gaston-day:catalog.categoryFilters[3].label",
         "gaston-day:catalog.camps[3].categoryLabel",
         "gaston-day:catalog.camps[8].categoryLabel",
@@ -328,7 +327,6 @@
         "providence-day:catalog.camps[23].dayLabel",
         "providence-day:catalog.camps[24].dayLabel",
         "providence-day:catalog.camps[25].dayLabel",
-        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[28].dayLabel",
         "providence-day:catalog.camps[29].dayLabel",
         "providence-day:catalog.camps[31].dayLabel",
@@ -341,7 +339,6 @@
         "providence-day:catalog.camps[38].dayLabel",
         "providence-day:catalog.camps[39].dayLabel",
         "providence-day:catalog.camps[40].dayLabel",
-        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[42].dayLabel",
         "providence-day:catalog.camps[43].dayLabel",
         "providence-day:catalog.camps[44].dayLabel",
@@ -363,7 +360,6 @@
         "providence-day:catalog.camps[61].dayLabel",
         "providence-day:catalog.camps[62].dayLabel",
         "providence-day:catalog.camps[63].dayLabel",
-        "providence-day:catalog.camps[64].dayLabel",
         "providence-day:catalog.camps[65].dayLabel",
         "providence-day:catalog.camps[66].dayLabel",
         "providence-day:catalog.camps[67].dayLabel",
@@ -524,7 +520,6 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel",
         "gaston-day:catalog.camps[0].dayLabel",
         "gaston-day:catalog.camps[1].dayLabel",
         "gaston-day:catalog.camps[2].dayLabel",
@@ -707,8 +702,10 @@
       "at": [
         "providence-day:catalog.camps[3].dayLabel",
         "providence-day:catalog.camps[14].dayLabel",
+        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[27].dayLabel",
         "providence-day:catalog.camps[30].dayLabel",
+        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[49].dayLabel"
       ]
     },
@@ -1733,8 +1730,15 @@
       ]
     },
     {
-      "t": "S4, S6, S7, S8, S9",
-      "of": "0d40c04e",
+      "t": "4 oswa 5 jou",
+      "of": "4031e882",
+      "at": [
+        "providence-day:catalog.camps[64].dayLabel"
+      ]
+    },
+    {
+      "t": "S3, S4, S5, S6, S7, S8, S9",
+      "of": "71bb785c",
       "at": [
         "providence-day:catalog.camps[64].weeks"
       ]
@@ -3012,8 +3016,8 @@
       ]
     },
     {
-      "t": "Yon kan atizay premyòm tout lajounen — youn nan de sèlman nan nivo pri li a.",
-      "of": "d2a6f6ff",
+      "t": "Yon kan atizay premyòm tout lajounen — sèl kan nan pri sa a.",
+      "of": "d11cb67d",
       "at": [
         "charlotte-latin:catalog.camps[48].desc"
       ]
@@ -3343,8 +3347,8 @@
       ]
     },
     {
-      "t": "26 ofrann. Sèl nivo ki pa gen rabè early-bird.",
-      "of": "b96cddcc",
+      "t": "26 ofrann, san rabè early-bird.",
+      "of": "41f28575",
       "at": [
         "charlotte-latin:costPlanner.tiers[1].detail"
       ]
@@ -3511,8 +3515,8 @@
       ]
     },
     {
-      "t": "**Super Care mete Swen Anvan ak Swen Apre ansanm a $195.00/semèn** — sèl rabè lekòl la pibliye, $25.00 mwens pase bouton $70.00 + $150.00 ki anwo yo. Vin chèche an reta apre 5:30pm se $25.00 chak 15 minit.",
-      "of": "296008fb",
+      "t": "**Super Care mete Swen Anvan ak Swen Apre ansanm a $195.00/semèn** — yon konbinezon lekòl la rele yon rabè, $25.00 mwens pase bouton $70.00 + $150.00 ki anwo yo. Vin chèche an reta apre 5:30pm se $25.00 chak 15 minit.",
+      "of": "0fae47d6",
       "at": [
         "charlotte-latin:costPlanner.fees[1].label"
       ]
@@ -3988,8 +3992,8 @@
       ]
     },
     {
-      "t": "Pi laj plaj nivo nan tout kan isit la — nivo 1 rive 11 — epi ofri nan senk nan sis semèn yo.",
-      "of": "8434e236",
+      "t": "Nivo 1 rive 11, nan senk nan sis semèn yo; $160 nan semèn kat jou a.",
+      "of": "f2f2aa20",
       "at": [
         "charlotte-christian:catalog.camps[4].desc"
       ]
@@ -4246,8 +4250,8 @@
       ]
     },
     {
-      "t": "Kan ki pi bon mache nan katalòg la, nan semèn kat jou a.",
-      "of": "6890b7f6",
+      "t": "Yon kan $155 nan semèn kat jou a, pri ki pi ba nan katalòg la.",
+      "of": "7ef114ea",
       "at": [
         "charlotte-christian:catalog.camps[15].desc"
       ]
@@ -4299,8 +4303,8 @@
       ]
     },
     {
-      "t": "Lòt kan $155 semèn kat jou a.",
-      "of": "e7bd1548",
+      "t": "Yon lòt kan $155 nan semèn kat jou a.",
+      "of": "a2e4938b",
       "at": [
         "charlotte-christian:catalog.camps[16].desc"
       ]
@@ -4321,8 +4325,8 @@
       ]
     },
     {
-      "t": "Tumbling ak cheer atravè pi laj plaj nan tout kan espò isit la.",
-      "of": "62002db4",
+      "t": "Tumbling ak cheer pou JK rive nivo 8.",
+      "of": "7fc068af",
       "at": [
         "charlotte-christian:catalog.camps[18].desc"
       ]
@@ -4383,8 +4387,8 @@
       ]
     },
     {
-      "t": "Kan jwèt aktif.",
-      "of": "4abf883d",
+      "t": "Kan jwèt aktif; $160 nan semèn kat jou a.",
+      "of": "b75a32e2",
       "at": [
         "charlotte-christian:catalog.camps[22].desc"
       ]
@@ -4501,8 +4505,8 @@
       ]
     },
     {
-      "t": "Kan yo repete plis nan katalòg la — ofri nan tout sis semèn yo.",
-      "of": "fce66e82",
+      "t": "Kan yo repete plis nan katalòg la — ofri nan tout sis semèn yo; $155 nan semèn kat jou a.",
+      "of": "809bf7b3",
       "at": [
         "charlotte-christian:catalog.camps[28].desc"
       ]
@@ -4567,8 +4571,8 @@
       ]
     },
     {
-      "t": "Demonte ak rebati pou pi jèn mekanisyen yo.",
-      "of": "77d7b6ec",
+      "t": "Demonte ak rebati pou pi jèn mekanisyen yo; $160 nan semèn kat jou a.",
+      "of": "5849d3f9",
       "at": [
         "charlotte-christian:catalog.camps[33].desc"
       ]
@@ -5354,8 +5358,8 @@
       ]
     },
     {
-      "t": "Sis semèn disponib. Semèn 3 se yon semèn kat jou epi pri l bese; nivo anba yo se to senk jou yo.",
-      "of": "37e889c5",
+      "t": "Sis semèn disponib. Semèn 3 se yon semèn kat jou epi pri l bese. Eksepte de premye nivo yo, nivo anba yo se to senk jou.",
+      "of": "2bab70f9",
       "at": [
         "charlotte-christian:costPlanner.subhead"
       ]
@@ -7206,8 +7210,8 @@
       ]
     },
     {
-      "t": "Uit semèn disponib. De ladan yo se semèn kat jou: kan demi-jounen yo koute $230 nan tou de, epi se sèlman nan semèn 3 jiyè a kan jounen konplè yo koute mwens. Nivo ki anba yo se to senk jou yo.",
-      "of": "42573fdb",
+      "t": "Uit semèn disponib. De ladan yo se semèn kat jou: kan demi-jounen yo koute $230 nan tou de, epi se sèlman nan semèn 3 jiyè a kan jounen konplè yo koute mwens. Eksepte premye nivo a, nivo ki anba yo se to senk jou.",
+      "of": "9f864e29",
       "at": [
         "charlotte-country-day:costPlanner.subhead"
       ]
@@ -7381,8 +7385,8 @@
       ]
     },
     {
-      "t": "**Si yon kanpè demi-jounen manje midi sou kanpis la, li dwe enskri nan yon opsyon manje midi** — se pa yon chwa. De nan pwòp paj lekòl la pa dakò sou si manje a enkli nan pri sa a; gade nòt la anba a.",
-      "of": "2b9b56df",
+      "t": "**Si yon kanpè demi-jounen manje midi sou kanpis la, li dwe enskri nan yon opsyon manje midi** — se pa yon chwa. Paj ete a di kanpè yo pote pwòp manje midi pa yo. Paj Camp Ready a di alafwa yo bay manje midi nan sal manje a epi kanpè yo dwe pote yon manje midi anbale.",
+      "of": "37c41680",
       "at": [
         "charlotte-country-day:costPlanner.fees[2].label"
       ]
@@ -7402,8 +7406,8 @@
       ]
     },
     {
-      "t": "De paj ofisyèl pa dakò sou **Swen Manje Midi $30/semèn nan**: paj ete a rele l sipèvizyon sèlman ak kanpè yo k ap pote pwòp manje pa yo, pandan paj Camp Ready a di yo bay manje midi nan sal manje a pou menm moun ki enskri yo. Li vo yon apèl telefòn anvan w sipoze ni youn ni lòt.",
-      "of": "d637cfff",
+      "t": "De paj ofisyèl pa dakò sou **Swen Manje Midi $30/semèn nan**: paj ete a rele l sipèvizyon sèlman ak kanpè yo k ap pote pwòp manje pa yo, pandan paj Camp Ready a di yo bay manje midi nan sal manje a pou menm moun ki enskri yo. Camp Ready kontredi tèt li tou: seksyon Swen Manje Midi li a di kanpè yo dwe pote pwòp manje midi anbale pa yo (nou reli l 2026-11-22). Li vo yon apèl telefòn anvan w sipoze ni youn ni lòt.",
+      "of": "4a2c4b34",
       "at": [
         "charlotte-country-day:costPlanner.flags[0].text"
       ]
@@ -7475,8 +7479,8 @@
         "cannon:catalog.camps[54].categoryLabel",
         "cannon:catalog.camps[55].categoryLabel",
         "covenant-day:catalog.categoryFilters[4].label",
-        "covenant-day:catalog.camps[18].categoryLabel",
-        "covenant-day:catalog.camps[19].categoryLabel"
+        "covenant-day:catalog.camps[17].categoryLabel",
+        "covenant-day:catalog.camps[18].categoryLabel"
       ]
     },
     {
@@ -7973,8 +7977,8 @@
       ]
     },
     {
-      "t": "K ap monte JK & K",
-      "of": "1791a585",
+      "t": "K ap monte JK & K / K ap monte 1ye–4yèm",
+      "of": "088d863d",
       "at": [
         "cannon:catalog.camps[16].gradeLabel"
       ]
@@ -8884,8 +8888,8 @@
       ]
     },
     {
-      "t": "Yon **depo 50%** rezève yon plas, ak rès la ki dwe peye 15 me 2026 — sèl estrikti depo pami senk pwogram sa yo. Depo yo ranbouse nèt anvan 15 me; **nan dat sa a oswa apre pa gen okenn ranbousman ditou.** Lekòl la di klèman ke \"some popular camps fill very shortly after registration opens.\"",
-      "of": "f19bf601",
+      "t": "Yon **depo 50%** rezève yon plas, ak rès la ki dwe peye 15 me 2026. Depo yo ranbouse nèt anvan 15 me; **nan dat sa a oswa apre pa gen okenn ranbousman ditou.** Lekòl la di klèman ke \"some popular camps fill very shortly after registration opens.\"",
+      "of": "afad2a75",
       "at": [
         "cannon:costPlanner.aside.text"
       ]
@@ -8898,29 +8902,29 @@
       ]
     },
     {
-      "t": "Cannon pa pibliye **okenn rabè pou frè ak sè, okenn rabè pou plizyè semèn ni okenn èd finansye pou kan**. Sèl bès pri nan bwochi 2026 la se sa ki estriktirèl la pou Semèn 2 kat jou a.",
-      "of": "d8366833",
+      "t": "Cannon pa pibliye **okenn rabè pou frè ak sè, okenn rabè pou plizyè semèn ni okenn èd finansye pou kan**. Sèl bès pri sou frè kan nan bwochi 2026 la se pou Semèn 2 kat jou a. Swen gen yon to konbine $90.",
+      "of": "70c66cd9",
       "at": [
         "cannon:costPlanner.flags[1].text"
       ]
     },
     {
-      "t": "20 kan yo nonmen pou ete 2026 atravè uit semèn, 1ye jen – 31 jiyè — ankre pa Camp Lion ak Cub Camp, kan lajounen tradisyonèl yo ki mete swen ansanm gratis.",
-      "of": "9dd79355",
+      "t": "19 kan yo nonmen pou ete 2026 atravè uit semèn, 1ye jen – 31 jiyè — ankre pa Camp Lion ak Cub Camp, kan lajounen tradisyonèl yo ki mete swen ansanm gratis.",
+      "of": "f5db8795",
       "at": [
         "covenant-day:catalog.headline"
       ]
     },
     {
-      "t": "Enskripsyon woule sou pòtal CampBrain la ak rabè bonè jiska 27 fevriye. Lekòl la mache \"29 kan\"; 20 ka konte sou paj piblik la.",
-      "of": "8cc84630",
+      "t": "Enskripsyon woule sou pòtal CampBrain la ak rabè bonè jiska 27 fevriye. Lekòl la mache \"29 kan\"; 19 ka konte sou paj piblik la.",
+      "of": "81f512f0",
       "at": [
         "covenant-day:catalog.subhead"
       ]
     },
     {
-      "t": "Tou le 20 kan yo nonmen piblikman yo parèt. **Pri aktyèl pa kan ak lè yo bloke dèyè pòtal la**. Kidonk pri anba yo se estimasyon, ki soti nan plaj aktyèl twazyèm pati a ($170–$325/semèn) ak katalòg 2018 lekòl la li menm. To swen anplis yo sou Cost Planner a se chif aktyèl lekòl la li menm.",
-      "of": "07ba6457",
+      "t": "Tout 19 kan yo nonmen piblikman yo parèt. **Pri aktyèl pa kan ak lè yo bloke dèyè pòtal la**. Kidonk pri anba yo se estimasyon, ki soti nan plaj aktyèl twazyèm pati a ($170–$325/semèn) ak katalòg 2018 lekòl la li menm. To swen anplis yo sou Cost Planner a se chif aktyèl lekòl la li menm.",
+      "of": "219d303b",
       "at": [
         "covenant-day:catalog.intro"
       ]
@@ -8933,7 +8937,7 @@
         "covenant-day:catalog.camps[0].categoryLabel",
         "covenant-day:catalog.camps[1].categoryLabel",
         "covenant-day:catalog.camps[2].categoryLabel",
-        "covenant-day:catalog.camps[13].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -8941,10 +8945,10 @@
       "of": "e043e144",
       "at": [
         "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[13].categoryLabel",
         "covenant-day:catalog.camps[14].categoryLabel",
         "covenant-day:catalog.camps[15].categoryLabel",
-        "covenant-day:catalog.camps[16].categoryLabel",
-        "covenant-day:catalog.camps[17].categoryLabel"
+        "covenant-day:catalog.camps[16].categoryLabel"
       ]
     },
     {
@@ -9030,11 +9034,11 @@
         "covenant-day:catalog.camps[9].hours",
         "covenant-day:catalog.camps[10].hours",
         "covenant-day:catalog.camps[11].hours",
-        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[14].hours",
         "covenant-day:catalog.camps[15].hours",
         "covenant-day:catalog.camps[16].hours",
-        "covenant-day:catalog.camps[17].hours",
-        "covenant-day:catalog.camps[18].hours"
+        "covenant-day:catalog.camps[17].hours"
       ]
     },
     {
@@ -9086,9 +9090,9 @@
         "covenant-day:catalog.camps[5].gradeLabel",
         "covenant-day:catalog.camps[6].gradeLabel",
         "covenant-day:catalog.camps[10].gradeLabel",
-        "covenant-day:catalog.camps[13].gradeLabel",
-        "covenant-day:catalog.camps[17].gradeLabel",
-        "covenant-day:catalog.camps[18].gradeLabel"
+        "covenant-day:catalog.camps[12].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel"
       ]
     },
     {
@@ -9133,8 +9137,8 @@
       "of": "75e26068",
       "at": [
         "covenant-day:catalog.camps[9].gradeLabel",
-        "covenant-day:catalog.camps[15].gradeLabel",
-        "covenant-day:catalog.camps[16].gradeLabel"
+        "covenant-day:catalog.camps[14].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel"
       ]
     },
     {
@@ -9152,95 +9156,80 @@
       ]
     },
     {
-      "t": "Pwogram Webb Fitness Center la, antrenè S&C lekòl la dirije — menm leve pwa ete atlèt varsity yo fè.",
-      "of": "2e9659bb",
-      "at": [
-        "covenant-day:catalog.camps[12].desc"
-      ]
-    },
-    {
-      "t": "Grad 6–12",
-      "of": "5a57e078",
-      "at": [
-        "covenant-day:catalog.camps[12].gradeLabel"
-      ]
-    },
-    {
-      "t": "sesyon",
-      "of": "130573cc",
-      "at": [
-        "covenant-day:catalog.camps[12].hours",
-        "covenant-day:catalog.camps[19].hours"
-      ]
-    },
-    {
       "t": "Semèn plezi pi a.",
       "of": "9ee1d298",
       "at": [
-        "covenant-day:catalog.camps[13].desc"
+        "covenant-day:catalog.camps[12].desc"
       ]
     },
     {
       "t": "Gen ladan Lunch Care gratis — sèl kan ki pa kan lajounen ki gen swen ki mete ansanm.",
       "of": "9710a44d",
       "at": [
-        "covenant-day:catalog.camps[14].desc"
+        "covenant-day:catalog.camps[13].desc"
       ]
     },
     {
       "t": "MS",
       "of": "35dfbd11",
       "at": [
-        "covenant-day:catalog.camps[14].gradeLabel"
+        "covenant-day:catalog.camps[13].gradeLabel"
       ]
     },
     {
       "t": "tout lajounen ak manje midi",
       "of": "6cdcfa40",
       "at": [
-        "covenant-day:catalog.camps[14].hours"
+        "covenant-day:catalog.camps[13].hours"
       ]
     },
     {
       "t": "Semèn sèn-anvan an pou elèv ki pi jèn yo.",
       "of": "e3899851",
       "at": [
-        "covenant-day:catalog.camps[15].desc"
+        "covenant-day:catalog.camps[14].desc"
       ]
     },
     {
       "t": "Echantiyon estidyo nan sal atizay vizyèl yo.",
       "of": "a6d6d5ee",
       "at": [
-        "covenant-day:catalog.camps[16].desc"
+        "covenant-day:catalog.camps[15].desc"
       ]
     },
     {
       "t": "Semèn kwizin nan.",
       "of": "15b6f079",
       "at": [
-        "covenant-day:catalog.camps[17].desc"
+        "covenant-day:catalog.camps[16].desc"
       ]
     },
     {
       "t": "Semèn STEM nan.",
       "of": "45e94be3",
       "at": [
-        "covenant-day:catalog.camps[18].desc"
+        "covenant-day:catalog.camps[17].desc"
       ]
     },
     {
       "t": "Yon semèn lekòl segondè ki woule sou kalandriye biwo oryantasyon an — yon kan akademik lekòl segondè ki ra.",
       "of": "86fd317c",
       "at": [
-        "covenant-day:catalog.camps[19].desc"
+        "covenant-day:catalog.camps[18].desc"
       ]
     },
     {
       "t": "HS",
       "of": "6deb4e2c",
       "at": [
-        "covenant-day:catalog.camps[19].gradeLabel"
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "sesyon",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[18].hours"
       ]
     },
     {
@@ -9251,8 +9240,8 @@
       ]
     },
     {
-      "t": "Lekòl la mache \"**29 kan**\"; paj piblik la konte 20 (yon 21yèm antre, \"Splash Squad,\" se yon pòs anplwaye). Varyant pa semèn ak kan ki nan pòtal sèlman gen dwa esplike diferans lan.",
-      "of": "19b8adfa",
+      "t": "Lekòl la mache \"**29 kan**\"; paj piblik la konte 19, nou verifye l nan yon navigatè 2026-11-22 (\"Splash Squad\" se yon pòs anplwaye, epi Strength and Conditioning pa sou lis la ankò). Varyant pa semèn ak kan ki nan pòtal sèlman gen dwa esplike diferans lan.",
+      "of": "ac56e695",
       "at": [
         "covenant-day:catalog.flags[1].text"
       ]
@@ -10242,15 +10231,15 @@
       ]
     },
     {
-      "t": "Kan akademik yo woule 9 a.m.–1 p.m. epi kan atletik yo 9 a.m.–12 p.m. (Football nan aswè), Lendi–Jedi, atravè apeprè uit blòk semèn depi fen me rive fen jiyè.",
-      "of": "f7887b86",
+      "t": "Kan akademik yo woule 9 a.m.–1 p.m. epi kan atletik yo 9 a.m.–12 p.m. (Football nan aswè), Lendi–Jedi, atravè sis semèn depi fen me rive fen jiyè.",
+      "of": "665a2061",
       "at": [
         "hickory-grove-christian:catalog.subhead"
       ]
     },
     {
-      "t": "Sa a se **katalòg Summer 2023 la, ki soti nan kopi ki te sove de ansyen paj lekòl la**. Se yon lis reprezantatif, se pa lis 2026 an dirèk la, paske HGCS kounye a kache non kan ak pri yo dèyè platfòm Brushfire la. Paj 2026 an dirèk la konfime uit fenèt sesyon ki dakò ak blòk semèn ki anba yo. **Pri yo pa pibliye okenn kote** (Brushfire sèlman), kidonk pa gen okenn depans ki montre. Klas yo se klas **rising**.",
-      "of": "e18209dc",
+      "t": "Sa a se **katalòg Summer 2023 la, ki soti nan kopi ki te sove de ansyen paj lekòl la**. Se yon lis reprezantatif, se pa lis aktyèl la. Orè ak enskripsyon 2027 lekòl la ap louvri nan prentan 2027. Annatandan, paj an dirèk li yo nonmen kalite kan ak espò, san dat pou chak. **Pri yo pa pibliye**, kidonk pa gen okenn depans ki montre. Klas yo se klas **rising**.",
+      "of": "55ca12a6",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ]
@@ -10533,15 +10522,15 @@
       ]
     },
     {
-      "t": "Sa a se lis Summer 2023 la, ki soti nan kopi ki te sove de ansyen paj lekòl la sou Internet Archive. Katalòg 2026 an dirèk la kache dèyè platfòm enskripsyon Brushfire la, kidonk non egzak kan 2026 yo chita anndan platfòm sa a. Paj an dirèk la konfime uit fenèt sesyon ki dakò ak blòk semèn sa yo.",
-      "of": "8b8fe821",
+      "t": "Sa a se lis Summer 2023 la, ki soti nan kopi ki te sove de ansyen paj lekòl la sou Internet Archive. Lekòl la di kan 2027 li yo ap vini byento, ak orè konplè a nan prentan 2027. Paj an dirèk li yo nonmen sèlman kalite kan ak espò, kidonk kan aktyèl yo ka diferan.",
+      "of": "ee483d54",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ]
     },
     {
-      "t": "Pa gen okenn pri pa kan ki pibliye ni sou yon paj an dirèk ni sou yon paj achive. Pri a egziste sèlman anndan chèk-out Brushfire la. Kidonk paj sa a pa gen okenn planifikatè pri pou kan sa yo, epi chif depans ete yo montre N/A. Pa gen okenn gadri pwolonje pou ete non plis. Kan yo se demi-jounen, epi pwogram aprè-lekòl la fèmen nan ete a.",
-      "of": "0ce646d3",
+      "t": "Pa gen okenn pri pa kan ki pibliye ni sou yon paj an dirèk ni sou yon paj achive. Kidonk paj sa a pa gen okenn planifikatè pri pou kan sa yo, epi chif depans ete yo montre N/A. Pa gen okenn gadri pwolonje pou ete non plis. Kan yo se demi-jounen, epi pwogram aprè-lekòl la fèmen nan ete a.",
+      "of": "f27ebc58",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ]
@@ -11806,8 +11795,8 @@
       ]
     },
     {
-      "t": "Yon kan bisiklèt demi jounen pou bann Middle School ki pi gran yo.",
-      "of": "5162a0a5",
+      "t": "Yon kan bisiklèt demi jounen pou elèv k ap monte nan 4yèm–8yèm.",
+      "of": "aa48d562",
       "at": [
         "trinity-episcopal:catalog.camps[11].desc"
       ]
@@ -11924,8 +11913,8 @@
       ]
     },
     {
-      "t": "Ansèyman tenis demi jounen ki kouvri tout bann Middle School la.",
-      "of": "15fdee7c",
+      "t": "Ansèyman tenis demi jounen pou elèv k ap monte nan 3yèm–8yèm.",
+      "of": "b93ecc35",
       "at": [
         "trinity-episcopal:catalog.camps[20].desc"
       ]
@@ -11969,8 +11958,8 @@
       ]
     },
     {
-      "t": "Yon kan ilistrasyon dijital jounen konplè pou bann Middle School la.",
-      "of": "ecea0045",
+      "t": "Yon kan ilistrasyon dijital jounen konplè pou elèv k ap monte nan 5yèm–8yèm.",
+      "of": "1816fa4a",
       "at": [
         "trinity-episcopal:catalog.camps[25].desc"
       ]
@@ -12079,8 +12068,8 @@
       ]
     },
     {
-      "t": "Yon kan lidèchip Middle School, e dezyèm nan de kan ki limite dapre sèks yo.",
-      "of": "9d96c806",
+      "t": "Yon kan lidèchip pou elèv k ap monte nan 5yèm–8yèm, e dezyèm nan de kan ki limite dapre sèks yo.",
+      "of": "faa7b192",
       "at": [
         "trinity-episcopal:catalog.camps[35].desc"
       ]
@@ -12650,8 +12639,8 @@
       ]
     },
     {
-      "t": "Depo ki pa ranbousab, pa kan",
-      "of": "97136d00",
+      "t": "Depo ki pa ranbousab, pa kan, yo dedwi l sou pri kan an",
+      "of": "5f842f96",
       "at": [
         "trinity-episcopal:costPlanner.fees[0].label"
       ]
@@ -12713,8 +12702,8 @@
       ]
     },
     {
-      "t": "Ete 2026 te dire sèt semèn, 8 jen rive 31 jiyè, pou timoun depi Early School rive 8yèm ane — yon kan lajounen tradisyonèl plis yon kan espesyalite oswa espò prèske chak semèn.",
-      "of": "ad1bd718",
+      "t": "Ete 2026 te dire sèt semèn, 8 jen rive 31 jiyè, pou timoun depi Early School rive 8yèm ane. Chak semèn te gen yon kan lajounen tradisyonèl, yon kan espesyalite ak yon kan espò.",
+      "of": "5443ba51",
       "at": [
         "charlotte-prep:catalog.headline"
       ]

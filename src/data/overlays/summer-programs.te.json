@@ -188,7 +188,6 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel",
         "gaston-day:catalog.categoryFilters[3].label",
         "gaston-day:catalog.camps[3].categoryLabel",
         "gaston-day:catalog.camps[8].categoryLabel",
@@ -328,7 +327,6 @@
         "providence-day:catalog.camps[23].dayLabel",
         "providence-day:catalog.camps[24].dayLabel",
         "providence-day:catalog.camps[25].dayLabel",
-        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[28].dayLabel",
         "providence-day:catalog.camps[29].dayLabel",
         "providence-day:catalog.camps[31].dayLabel",
@@ -341,7 +339,6 @@
         "providence-day:catalog.camps[38].dayLabel",
         "providence-day:catalog.camps[39].dayLabel",
         "providence-day:catalog.camps[40].dayLabel",
-        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[42].dayLabel",
         "providence-day:catalog.camps[43].dayLabel",
         "providence-day:catalog.camps[44].dayLabel",
@@ -363,7 +360,6 @@
         "providence-day:catalog.camps[61].dayLabel",
         "providence-day:catalog.camps[62].dayLabel",
         "providence-day:catalog.camps[63].dayLabel",
-        "providence-day:catalog.camps[64].dayLabel",
         "providence-day:catalog.camps[65].dayLabel",
         "providence-day:catalog.camps[66].dayLabel",
         "providence-day:catalog.camps[67].dayLabel",
@@ -524,7 +520,6 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel",
         "gaston-day:catalog.camps[0].dayLabel",
         "gaston-day:catalog.camps[1].dayLabel",
         "gaston-day:catalog.camps[2].dayLabel",
@@ -707,8 +702,10 @@
       "at": [
         "providence-day:catalog.camps[3].dayLabel",
         "providence-day:catalog.camps[14].dayLabel",
+        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[27].dayLabel",
         "providence-day:catalog.camps[30].dayLabel",
+        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[49].dayLabel"
       ]
     },
@@ -1733,8 +1730,15 @@
       ]
     },
     {
-      "t": "S4, S6, S7, S8, S9",
-      "of": "0d40c04e",
+      "t": "4 లేదా 5 రోజులు",
+      "of": "4031e882",
+      "at": [
+        "providence-day:catalog.camps[64].dayLabel"
+      ]
+    },
+    {
+      "t": "S3, S4, S5, S6, S7, S8, S9",
+      "of": "71bb785c",
       "at": [
         "providence-day:catalog.camps[64].weeks"
       ]
@@ -3012,8 +3016,8 @@
       ]
     },
     {
-      "t": "పూర్తి-దినం కళల ప్రీమియం శిబిరం — ఆ ధర స్థాయిలో ఉన్న రెండింటిలో ఒకటి.",
-      "of": "d2a6f6ff",
+      "t": "పూర్తి-దినం కళల ప్రీమియం శిబిరం, ఆ ధరకు ఉన్న ఏకైక శిబిరం.",
+      "of": "d11cb67d",
       "at": [
         "charlotte-latin:catalog.camps[48].desc"
       ]
@@ -3343,8 +3347,8 @@
       ]
     },
     {
-      "t": "26 ఆఫర్లు. ముందస్తు-నమోదు రాయితీ లేని ఏకైక శ్రేణి.",
-      "of": "b96cddcc",
+      "t": "26 ఆఫర్లు, ముందస్తు-నమోదు రాయితీ లేకుండా.",
+      "of": "41f28575",
       "at": [
         "charlotte-latin:costPlanner.tiers[1].detail"
       ]
@@ -3511,8 +3515,8 @@
       ]
     },
     {
-      "t": "**Super Care Before మరియు After Careను వారానికి $195.00కు కలిపి ఇస్తుంది** — పాఠశాల ప్రచురించిన ఏకైక రాయితీ, పైన ఉన్న $70.00 + $150.00 టోగుల్‌ల కంటే $25.00 తక్కువ. 5:30pm తర్వాత ఆలస్యంగా తీసుకెళ్లడం ప్రతి 15 నిమిషాలకు $25.00.",
-      "of": "296008fb",
+      "t": "**Super Care Before మరియు After Careను వారానికి $195.00కు కలిపి ఇస్తుంది** — పాఠశాల రాయితీ అని పిలిచే కలయిక, పైన ఉన్న $70.00 + $150.00 టోగుల్‌ల కంటే $25.00 తక్కువ. 5:30pm తర్వాత ఆలస్యంగా తీసుకెళ్లడం ప్రతి 15 నిమిషాలకు $25.00.",
+      "of": "0fae47d6",
       "at": [
         "charlotte-latin:costPlanner.fees[1].label"
       ]
@@ -3988,8 +3992,8 @@
       ]
     },
     {
-      "t": "ఇక్కడి ఏ శిబిరం కంటే విస్తృత తరగతి శ్రేణి — 1వ తరగతి నుంచి 11వ తరగతి వరకు — మరియు ఆరు వారాల్లో ఐదింటిలో అందుబాటులో ఉంది.",
-      "of": "8434e236",
+      "t": "1 నుంచి 11 తరగతులు, ఆరు వారాల్లో ఐదింటిలో; నాలుగు-రోజుల వారంలో $160.",
+      "of": "f2f2aa20",
       "at": [
         "charlotte-christian:catalog.camps[4].desc"
       ]
@@ -4246,8 +4250,8 @@
       ]
     },
     {
-      "t": "నాలుగు-రోజుల వారంలో, జాబితాలో అత్యంత చౌకైన శిబిరం.",
-      "of": "6890b7f6",
+      "t": "నాలుగు-రోజుల వారంలో $155 శిబిరం, జాబితాలో అత్యంత తక్కువ ధర.",
+      "of": "7ef114ea",
       "at": [
         "charlotte-christian:catalog.camps[15].desc"
       ]
@@ -4299,8 +4303,8 @@
       ]
     },
     {
-      "t": "మరో $155 నాలుగు-రోజుల-వారపు శిబిరం.",
-      "of": "e7bd1548",
+      "t": "నాలుగు-రోజుల వారంలో మరో $155 శిబిరం.",
+      "of": "a2e4938b",
       "at": [
         "charlotte-christian:catalog.camps[16].desc"
       ]
@@ -4321,8 +4325,8 @@
       ]
     },
     {
-      "t": "ఇక్కడి ఏ క్రీడా శిబిరం కంటే విస్తృత శ్రేణిలో టంబ్లింగ్ మరియు చీర్.",
-      "of": "62002db4",
+      "t": "JK నుంచి 8వ తరగతి వరకు టంబ్లింగ్ మరియు చీర్.",
+      "of": "7fc068af",
       "at": [
         "charlotte-christian:catalog.camps[18].desc"
       ]
@@ -4383,8 +4387,8 @@
       ]
     },
     {
-      "t": "చురుకైన ఆటల శిబిరం.",
-      "of": "4abf883d",
+      "t": "చురుకైన ఆటల శిబిరం; నాలుగు-రోజుల వారంలో $160.",
+      "of": "b75a32e2",
       "at": [
         "charlotte-christian:catalog.camps[22].desc"
       ]
@@ -4501,8 +4505,8 @@
       ]
     },
     {
-      "t": "జాబితాలో అత్యధికసార్లు పునరావృతమయ్యే శిబిరం — ఆరు వారాల్లోనూ అందుబాటులో ఉంది.",
-      "of": "fce66e82",
+      "t": "జాబితాలో అత్యధికసార్లు పునరావృతమయ్యే శిబిరం — ఆరు వారాల్లోనూ అందుబాటులో ఉంది; నాలుగు-రోజుల వారంలో $155.",
+      "of": "809bf7b3",
       "at": [
         "charlotte-christian:catalog.camps[28].desc"
       ]
@@ -4567,8 +4571,8 @@
       ]
     },
     {
-      "t": "అతి చిన్న మేకర్ల కోసం విడదీయడం మరియు తిరిగి నిర్మించడం.",
-      "of": "77d7b6ec",
+      "t": "అతి చిన్న మేకర్ల కోసం విడదీయడం మరియు తిరిగి నిర్మించడం; నాలుగు-రోజుల వారంలో $160.",
+      "of": "5849d3f9",
       "at": [
         "charlotte-christian:catalog.camps[33].desc"
       ]
@@ -5354,8 +5358,8 @@
       ]
     },
     {
-      "t": "ఆరు వారాలు అందుబాటులో ఉన్నాయి. వారం 3 నాలుగు-రోజుల వారం మరియు దాని ధర తక్కువ; కింది శ్రేణులు ఐదు-రోజుల రేట్లు.",
-      "of": "37e889c5",
+      "t": "ఆరు వారాలు అందుబాటులో ఉన్నాయి. వారం 3 నాలుగు-రోజుల వారం మరియు దాని ధర తక్కువ. మొదటి రెండు శ్రేణులు మినహా, కింది శ్రేణులు ఐదు-రోజుల రేట్లు.",
+      "of": "2bab70f9",
       "at": [
         "charlotte-christian:costPlanner.subhead"
       ]
@@ -7206,8 +7210,8 @@
       ]
     },
     {
-      "t": "ఎనిమిది వారాలు అందుబాటులో ఉన్నాయి. వాటిలో రెండు నాలుగు-రోజుల వారాలు: అర్ధ-దినం శిబిరాల ధర రెండింటిలోనూ $230, మరియు పూర్తి-దినం శిబిరాల ధర జూలై 3 వారంలో మాత్రమే తగ్గుతుంది. కింది శ్రేణులు ఐదు-రోజుల రేట్లు.",
-      "of": "42573fdb",
+      "t": "ఎనిమిది వారాలు అందుబాటులో ఉన్నాయి. వాటిలో రెండు నాలుగు-రోజుల వారాలు: అర్ధ-దినం శిబిరాల ధర రెండింటిలోనూ $230, మరియు పూర్తి-దినం శిబిరాల ధర జూలై 3 వారంలో మాత్రమే తగ్గుతుంది. మొదటి శ్రేణి మినహా, కింది శ్రేణులు ఐదు-రోజుల రేట్లు.",
+      "of": "9f864e29",
       "at": [
         "charlotte-country-day:costPlanner.subhead"
       ]
@@ -7381,8 +7385,8 @@
       ]
     },
     {
-      "t": "**అర్ధ-దినం శిబిరార్థి క్యాంపస్‌లో భోజనం చేస్తే, భోజన ఎంపికను తప్పనిసరిగా నమోదు చేయాలి** — అది ఐచ్ఛికం కాదు. ఆ ధరలో ఆహారం కలిసి ఉందా లేదా అనే విషయంపై పాఠశాల సొంత పేజీల్లో రెండు విభేదిస్తున్నాయి; కింది ఫ్లాగ్ చూడండి.",
-      "of": "2b9b56df",
+      "t": "**అర్ధ-దినం శిబిరార్థి క్యాంపస్‌లో భోజనం చేస్తే, భోజన ఎంపికను తప్పనిసరిగా నమోదు చేయాలి** — అది ఐచ్ఛికం కాదు. శిబిరార్థులు తమ సొంత భోజనం తెచ్చుకుంటారని వేసవి పేజీ చెబుతుంది. Camp Ready పేజీ రెండూ చెబుతుంది: భోజనశాలలో భోజనం అందిస్తారని, అలాగే శిబిరార్థులు కట్టుకున్న భోజనం తప్పనిసరిగా తెచ్చుకోవాలని.",
+      "of": "37c41680",
       "at": [
         "charlotte-country-day:costPlanner.fees[2].label"
       ]
@@ -7402,8 +7406,8 @@
       ]
     },
     {
-      "t": "**వారానికి $30 Lunch Care**పై రెండు అధికారిక పేజీలు విభేదిస్తున్నాయి: వేసవి పేజీ దీన్ని కేవలం పర్యవేక్షణ అని, శిబిరార్థులు తమ సొంత భోజనం తెచ్చుకోవాలని చెబుతుంది, అయితే Camp Ready పేజీ అదే నమోదైన వారికి భోజనశాల భోజనం అందిస్తారని చెబుతుంది. ఏదో ఒకటి అనుకునే ముందు ఒక ఫోన్ కాల్ చేయడం మంచిది.",
-      "of": "d637cfff",
+      "t": "**వారానికి $30 Lunch Care**పై రెండు అధికారిక పేజీలు విభేదిస్తున్నాయి: వేసవి పేజీ దీన్ని కేవలం పర్యవేక్షణ అని, శిబిరార్థులు తమ సొంత భోజనం తెచ్చుకోవాలని చెబుతుంది, అయితే Camp Ready పేజీ అదే నమోదైన వారికి భోజనశాల భోజనం అందిస్తారని చెబుతుంది. Camp Ready తనతో తానే విభేదిస్తుంది: శిబిరార్థులు తమ సొంత కట్టుకున్న భోజనం తప్పనిసరిగా తెచ్చుకోవాలని దాని Lunch Care విభాగం చెబుతుంది (2026-11-22న మళ్లీ చదివాం). ఏదో ఒకటి అనుకునే ముందు ఒక ఫోన్ కాల్ చేయడం మంచిది.",
+      "of": "4a2c4b34",
       "at": [
         "charlotte-country-day:costPlanner.flags[0].text"
       ]
@@ -7475,8 +7479,8 @@
         "cannon:catalog.camps[54].categoryLabel",
         "cannon:catalog.camps[55].categoryLabel",
         "covenant-day:catalog.categoryFilters[4].label",
-        "covenant-day:catalog.camps[18].categoryLabel",
-        "covenant-day:catalog.camps[19].categoryLabel"
+        "covenant-day:catalog.camps[17].categoryLabel",
+        "covenant-day:catalog.camps[18].categoryLabel"
       ]
     },
     {
@@ -7973,8 +7977,8 @@
       ]
     },
     {
-      "t": "JK & Kలోకి వెళ్తున్నవారు",
-      "of": "1791a585",
+      "t": "JK & Kలోకి వెళ్తున్నవారు / 1వ–4వలోకి వెళ్తున్నవారు",
+      "of": "088d863d",
       "at": [
         "cannon:catalog.camps[16].gradeLabel"
       ]
@@ -8884,8 +8888,8 @@
       ]
     },
     {
-      "t": "**50% డిపాజిట్** ఒక స్థానాన్ని ఖాయం చేస్తుంది, మిగిలిన మొత్తం మే 15, 2026 నాటికి చెల్లించాలి — ఈ ఐదు కార్యక్రమాల్లో ఇదొక్కటే డిపాజిట్ నిర్మాణం. మే 15కు ముందు డిపాజిట్లు పూర్తిగా తిరిగి చెల్లించబడతాయి; **ఆ తేదీన లేదా ఆ తర్వాత ఎలాంటి రిఫండ్లూ ఉండవు.** \"కొన్ని ప్రజాదరణ పొందిన శిబిరాలు నమోదు ప్రారంభమైన కొద్ది సేపటికే నిండిపోతాయి\" అని పాఠశాల స్పష్టంగా చెబుతుంది.",
-      "of": "f19bf601",
+      "t": "**50% డిపాజిట్** ఒక స్థానాన్ని ఖాయం చేస్తుంది, మిగిలిన మొత్తం మే 15, 2026 నాటికి చెల్లించాలి. మే 15కు ముందు డిపాజిట్లు పూర్తిగా తిరిగి చెల్లించబడతాయి; **ఆ తేదీన లేదా ఆ తర్వాత ఎలాంటి రిఫండ్లూ ఉండవు.** \"కొన్ని ప్రజాదరణ పొందిన శిబిరాలు నమోదు ప్రారంభమైన కొద్ది సేపటికే నిండిపోతాయి\" అని పాఠశాల స్పష్టంగా చెబుతుంది.",
+      "of": "afad2a75",
       "at": [
         "cannon:costPlanner.aside.text"
       ]
@@ -8898,29 +8902,29 @@
       ]
     },
     {
-      "t": "Cannon **ఎలాంటి తోబుట్టువుల రాయితీ, బహు-వారాల రాయితీ లేదా శిబిర ఆర్థిక సహాయం ప్రచురించలేదు**. 2026 బ్రోషర్‌లో ఉన్న ఏకైక ధర ఉపశమనం నాలుగు-రోజుల వారం 2 కోసం ఉన్న నిర్మాణపరమైనదే.",
-      "of": "d8366833",
+      "t": "Cannon **ఎలాంటి తోబుట్టువుల రాయితీ, బహు-వారాల రాయితీ లేదా శిబిర ఆర్థిక సహాయం ప్రచురించలేదు**. 2026 బ్రోషర్‌లో శిబిర ట్యూషన్‌పై ఉన్న ఏకైక ధర ఉపశమనం నాలుగు-రోజుల వారం 2 కోసమే. సంరక్షణకు $90 కలయిక రేటు ఉంది.",
+      "of": "70c66cd9",
       "at": [
         "cannon:costPlanner.flags[1].text"
       ]
     },
     {
-      "t": "ఎనిమిది వారాలలో summer 2026 కోసం పేర్కొన్న 20 శిబిరాలు, జూన్ 1 – జూలై 31 — care ఉచితంగా కలిపే సంప్రదాయ day camps అయిన Camp Lion మరియు Cub Camp వీటికి ఆధారం.",
-      "of": "9dd79355",
+      "t": "ఎనిమిది వారాలలో summer 2026 కోసం పేర్కొన్న 19 శిబిరాలు, జూన్ 1 – జూలై 31 — care ఉచితంగా కలిపే సంప్రదాయ day camps అయిన Camp Lion మరియు Cub Camp వీటికి ఆధారం.",
+      "of": "f5db8795",
       "at": [
         "covenant-day:catalog.headline"
       ]
     },
     {
-      "t": "ఫిబ్రవరి 27 వరకు early-bird రాయితీలతో నమోదు CampBrain portalలో జరుగుతుంది. పాఠశాల \"29 camps\" అని ప్రచారం చేస్తుంది; బహిరంగ పేజీలో 20 లెక్కించగలం.",
-      "of": "8cc84630",
+      "t": "ఫిబ్రవరి 27 వరకు early-bird రాయితీలతో నమోదు CampBrain portalలో జరుగుతుంది. పాఠశాల \"29 camps\" అని ప్రచారం చేస్తుంది; బహిరంగ పేజీలో 19 లెక్కించగలం.",
+      "of": "81f512f0",
       "at": [
         "covenant-day:catalog.subhead"
       ]
     },
     {
-      "t": "బహిరంగంగా పేర్కొన్న 20 శిబిరాలూ ఇక్కడ ఇవ్వబడ్డాయి. **ప్రస్తుత ఒక్కో-శిబిర ధరలు మరియు సమయాలు portal-నియంత్రితం**. కాబట్టి కింది ధరలు అంచనాలు, third-party ప్రస్తుత శ్రేణి ($170–$325/week) మరియు పాఠశాల సొంత 2018 catalog నుంచి. Cost Plannerలోని care add-on రేట్లు పాఠశాల సొంత ప్రస్తుత సంఖ్యలు.",
-      "of": "07ba6457",
+      "t": "బహిరంగంగా పేర్కొన్న 19 శిబిరాలూ ఇక్కడ ఇవ్వబడ్డాయి. **ప్రస్తుత ఒక్కో-శిబిర ధరలు మరియు సమయాలు portal-నియంత్రితం**. కాబట్టి కింది ధరలు అంచనాలు, third-party ప్రస్తుత శ్రేణి ($170–$325/week) మరియు పాఠశాల సొంత 2018 catalog నుంచి. Cost Plannerలోని care add-on రేట్లు పాఠశాల సొంత ప్రస్తుత సంఖ్యలు.",
+      "of": "219d303b",
       "at": [
         "covenant-day:catalog.intro"
       ]
@@ -8933,7 +8937,7 @@
         "covenant-day:catalog.camps[0].categoryLabel",
         "covenant-day:catalog.camps[1].categoryLabel",
         "covenant-day:catalog.camps[2].categoryLabel",
-        "covenant-day:catalog.camps[13].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -8941,10 +8945,10 @@
       "of": "e043e144",
       "at": [
         "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[13].categoryLabel",
         "covenant-day:catalog.camps[14].categoryLabel",
         "covenant-day:catalog.camps[15].categoryLabel",
-        "covenant-day:catalog.camps[16].categoryLabel",
-        "covenant-day:catalog.camps[17].categoryLabel"
+        "covenant-day:catalog.camps[16].categoryLabel"
       ]
     },
     {
@@ -9030,11 +9034,11 @@
         "covenant-day:catalog.camps[9].hours",
         "covenant-day:catalog.camps[10].hours",
         "covenant-day:catalog.camps[11].hours",
-        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[14].hours",
         "covenant-day:catalog.camps[15].hours",
         "covenant-day:catalog.camps[16].hours",
-        "covenant-day:catalog.camps[17].hours",
-        "covenant-day:catalog.camps[18].hours"
+        "covenant-day:catalog.camps[17].hours"
       ]
     },
     {
@@ -9086,9 +9090,9 @@
         "covenant-day:catalog.camps[5].gradeLabel",
         "covenant-day:catalog.camps[6].gradeLabel",
         "covenant-day:catalog.camps[10].gradeLabel",
-        "covenant-day:catalog.camps[13].gradeLabel",
-        "covenant-day:catalog.camps[17].gradeLabel",
-        "covenant-day:catalog.camps[18].gradeLabel"
+        "covenant-day:catalog.camps[12].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel"
       ]
     },
     {
@@ -9133,8 +9137,8 @@
       "of": "75e26068",
       "at": [
         "covenant-day:catalog.camps[9].gradeLabel",
-        "covenant-day:catalog.camps[15].gradeLabel",
-        "covenant-day:catalog.camps[16].gradeLabel"
+        "covenant-day:catalog.camps[14].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel"
       ]
     },
     {
@@ -9152,95 +9156,80 @@
       ]
     },
     {
-      "t": "పాఠశాల S&C coach నడిపే Webb Fitness Center కార్యక్రమం — varsity క్రీడాకారులు చేసే అదే వేసవి బరువుల శిక్షణ.",
-      "of": "2e9659bb",
-      "at": [
-        "covenant-day:catalog.camps[12].desc"
-      ]
-    },
-    {
-      "t": "6–12 తరగతులు",
-      "of": "5a57e078",
-      "at": [
-        "covenant-day:catalog.camps[12].gradeLabel"
-      ]
-    },
-    {
-      "t": "సెషన్లు",
-      "of": "130573cc",
-      "at": [
-        "covenant-day:catalog.camps[12].hours",
-        "covenant-day:catalog.camps[19].hours"
-      ]
-    },
-    {
       "t": "పూర్తిగా వినోదపు వారం.",
       "of": "9ee1d298",
       "at": [
-        "covenant-day:catalog.camps[13].desc"
+        "covenant-day:catalog.camps[12].desc"
       ]
     },
     {
       "t": "Lunch Care ఉచితంగా — care కలిపిన ఏకైక non-day-camp.",
       "of": "9710a44d",
       "at": [
-        "covenant-day:catalog.camps[14].desc"
+        "covenant-day:catalog.camps[13].desc"
       ]
     },
     {
       "t": "MS",
       "of": "35dfbd11",
       "at": [
-        "covenant-day:catalog.camps[14].gradeLabel"
+        "covenant-day:catalog.camps[13].gradeLabel"
       ]
     },
     {
       "t": "పూర్తి దినం, భోజనంతో కలిపి",
       "of": "6cdcfa40",
       "at": [
-        "covenant-day:catalog.camps[14].hours"
+        "covenant-day:catalog.camps[13].hours"
       ]
     },
     {
       "t": "చిన్న విద్యార్థులకు stage-first వారం.",
       "of": "e3899851",
       "at": [
-        "covenant-day:catalog.camps[15].desc"
+        "covenant-day:catalog.camps[14].desc"
       ]
     },
     {
       "t": "visual-arts గదులలో studio sampler.",
       "of": "a6d6d5ee",
       "at": [
-        "covenant-day:catalog.camps[16].desc"
+        "covenant-day:catalog.camps[15].desc"
       ]
     },
     {
       "t": "వంటల వారం.",
       "of": "15b6f079",
       "at": [
-        "covenant-day:catalog.camps[17].desc"
+        "covenant-day:catalog.camps[16].desc"
       ]
     },
     {
       "t": "STEM వారం.",
       "of": "45e94be3",
       "at": [
-        "covenant-day:catalog.camps[18].desc"
+        "covenant-day:catalog.camps[17].desc"
       ]
     },
     {
       "t": "guidance కార్యాలయ క్యాలెండర్ ప్రకారం నడిచే ఒక high-school వారం — అరుదైన high-school విద్యా శిబిరం.",
       "of": "86fd317c",
       "at": [
-        "covenant-day:catalog.camps[19].desc"
+        "covenant-day:catalog.camps[18].desc"
       ]
     },
     {
       "t": "HS",
       "of": "6deb4e2c",
       "at": [
-        "covenant-day:catalog.camps[19].gradeLabel"
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "సెషన్లు",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[18].hours"
       ]
     },
     {
@@ -9251,8 +9240,8 @@
       ]
     },
     {
-      "t": "పాఠశాల \"**29 camps**\" అని ప్రచారం చేస్తుంది; బహిరంగ పేజీ 20 లెక్కిస్తుంది (21వ నమోదు \"Splash Squad\" ఒక సిబ్బంది పదవి). వారానికి మారే రూపాంతరాలు మరియు portal-మాత్రమే శిబిరాలు ఈ తేడాకు కారణం కావచ్చు.",
-      "of": "19b8adfa",
+      "t": "పాఠశాల \"**29 camps**\" అని ప్రచారం చేస్తుంది; బహిరంగ పేజీ 19 లెక్కిస్తుంది, 2026-11-22న browserలో సరిచూశాం (\"Splash Squad\" ఒక సిబ్బంది పదవి, Strength and Conditioning ఇప్పుడు జాబితాలో లేదు). వారానికి మారే రూపాంతరాలు మరియు portal-మాత్రమే శిబిరాలు ఈ తేడాకు కారణం కావచ్చు.",
+      "of": "ac56e695",
       "at": [
         "covenant-day:catalog.flags[1].text"
       ]
@@ -10242,15 +10231,15 @@
       ]
     },
     {
-      "t": "విద్యా శిబిరాలు 9 a.m.–1 p.m. మరియు క్రీడా శిబిరాలు 9 a.m.–12 p.m. (Football సాయంత్రం) నడుస్తాయి, సోమ–గురువారాలు, మే చివరి నుంచి జూలై చివరి వరకు సుమారు ఎనిమిది వార-విడతలలో.",
-      "of": "f7887b86",
+      "t": "విద్యా శిబిరాలు 9 a.m.–1 p.m. మరియు క్రీడా శిబిరాలు 9 a.m.–12 p.m. (Football సాయంత్రం) నడుస్తాయి, సోమ–గురువారాలు, మే చివరి నుంచి జూలై చివరి వరకు ఆరు వారాలలో.",
+      "of": "665a2061",
       "at": [
         "hickory-grove-christian:catalog.subhead"
       ]
     },
     {
-      "t": "ఇది **పాఠశాల పాత పేజీల భద్రపరిచిన కాపీల నుంచి తీసుకున్న Summer 2023 జాబితా**. HGCS ఇప్పుడు శిబిరాల పేర్లను మరియు ధరలను Brushfire platform వెనుక దాచుతున్నందున, ఇది ప్రస్తుత 2026 జాబితా కాక ఒక ప్రాతినిధ్య జాబితా. ప్రస్తుత 2026 పేజీ, కింద ఇచ్చిన వార-విడతలకు అనుగుణంగా ఎనిమిది సెషన్ కాలాలను ధ్రువీకరిస్తుంది. **ధరలు ఎక్కడా ప్రచురించబడలేదు** (Brushfireలో మాత్రమే), కాబట్టి ఖర్చు ఏదీ చూపబడలేదు. తరగతులు అంటే విద్యార్థి **వెళ్తున్న** తరగతులు.",
-      "of": "e18209dc",
+      "t": "ఇది **పాఠశాల పాత పేజీల భద్రపరిచిన కాపీల నుంచి తీసుకున్న Summer 2023 జాబితా**. ఇది ప్రస్తుత జాబితా కాక ఒక ప్రాతినిధ్య జాబితా. పాఠశాల 2027 షెడ్యూల్, నమోదు 2027 వసంతంలో మొదలవుతాయి. అప్పటివరకు దాని ప్రస్తుత పేజీలు శిబిరాల రకాలు, క్రీడల పేర్లు చెబుతాయి, ఒక్కోదానికి తేదీలు లేకుండా. **ధరలు ప్రచురించబడలేదు**, కాబట్టి ఖర్చు ఏదీ చూపబడలేదు. తరగతులు అంటే విద్యార్థి **వెళ్తున్న** తరగతులు.",
+      "of": "55ca12a6",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ]
@@ -10533,15 +10522,15 @@
       ]
     },
     {
-      "t": "ఇది Internet Archive లో ఉన్న పాఠశాల పాత పేజీల భద్రపరిచిన కాపీల నుంచి తీసుకున్న Summer 2023 జాబితా. ప్రస్తుత 2026 జాబితా Brushfire నమోదు platform వెనుక దాగి ఉంది, కాబట్టి 2026 శిబిరాల ఖచ్చితమైన పేర్లు ఆ platform లోపలే ఉన్నాయి. ఈ వార-విడతలకు అనుగుణంగా ఎనిమిది సెషన్ కాలాలు ఉన్నాయని మాత్రం ప్రస్తుత పేజీ ధ్రువీకరిస్తుంది.",
-      "of": "8b8fe821",
+      "t": "ఇది Internet Archive లో ఉన్న పాఠశాల పాత పేజీల భద్రపరిచిన కాపీల నుంచి తీసుకున్న Summer 2023 జాబితా. 2027 శిబిరాలు త్వరలో వస్తాయని, పూర్తి షెడ్యూల్ 2027 వసంతంలో వస్తుందని పాఠశాల చెబుతుంది. దాని ప్రస్తుత పేజీలు శిబిరాల రకాలు, క్రీడల పేర్లు మాత్రమే చెబుతాయి, కాబట్టి ప్రస్తుత శిబిరాలు వేరుగా ఉండవచ్చు.",
+      "of": "ee483d54",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ]
     },
     {
-      "t": "ఒక్కో శిబిరం ధర ప్రస్తుత లేదా archived పేజీలలో దేనిలోనూ ప్రచురించబడలేదు. ధరలు Brushfire checkout లోపల మాత్రమే ఉంటాయి. కాబట్టి ఈ పేజీలో ఈ శిబిరాలకు Cost Planner లేదు, మరియు వేసవి-ఖర్చు సంఖ్యలు N/A చూపుతాయి. వేసవిలో పూర్తి-రోజు అనుబంధ సంరక్షణ కూడా లేదు. శిబిరాలు అర్ధ-దినం మాత్రమే, మరియు పాఠశాల అనంతర కార్యక్రమం వేసవిలో మూసి ఉంటుంది.",
-      "of": "0ce646d3",
+      "t": "ఒక్కో శిబిరం ధర ప్రస్తుత లేదా archived పేజీలలో దేనిలోనూ ప్రచురించబడలేదు. కాబట్టి ఈ పేజీలో ఈ శిబిరాలకు Cost Planner లేదు, మరియు వేసవి-ఖర్చు సంఖ్యలు N/A చూపుతాయి. వేసవిలో పూర్తి-రోజు అనుబంధ సంరక్షణ కూడా లేదు. శిబిరాలు అర్ధ-దినం మాత్రమే, మరియు పాఠశాల అనంతర కార్యక్రమం వేసవిలో మూసి ఉంటుంది.",
+      "of": "f27ebc58",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ]
@@ -11806,8 +11795,8 @@
       ]
     },
     {
-      "t": "పెద్ద Middle School శ్రేణుల కోసం అర్ధ-దినం సైక్లింగ్ శిబిరం.",
-      "of": "5162a0a5",
+      "t": "4వ–8వ తరగతుల్లోకి వెళ్తున్న విద్యార్థుల కోసం అర్ధ-దినం సైక్లింగ్ శిబిరం.",
+      "of": "aa48d562",
       "at": [
         "trinity-episcopal:catalog.camps[11].desc"
       ]
@@ -11924,8 +11913,8 @@
       ]
     },
     {
-      "t": "మొత్తం Middle School శ్రేణికి వర్తించే అర్ధ-దినం టెన్నిస్ శిక్షణ.",
-      "of": "15fdee7c",
+      "t": "3వ–8వ తరగతుల్లోకి వెళ్తున్న విద్యార్థులకు అర్ధ-దినం టెన్నిస్ శిక్షణ.",
+      "of": "b93ecc35",
       "at": [
         "trinity-episcopal:catalog.camps[20].desc"
       ]
@@ -11969,8 +11958,8 @@
       ]
     },
     {
-      "t": "Middle School శ్రేణి కోసం పూర్తి-దినం డిజిటల్ చిత్రలేఖన శిబిరం.",
-      "of": "ecea0045",
+      "t": "5వ–8వ తరగతుల్లోకి వెళ్తున్న విద్యార్థుల కోసం పూర్తి-దినం డిజిటల్ చిత్రలేఖన శిబిరం.",
+      "of": "1816fa4a",
       "at": [
         "trinity-episcopal:catalog.camps[25].desc"
       ]
@@ -12079,8 +12068,8 @@
       ]
     },
     {
-      "t": "Middle School నాయకత్వ శిబిరం, మరియు రెండు లింగ-పరిమిత శిబిరాల్లో రెండోది.",
-      "of": "9d96c806",
+      "t": "5వ–8వ తరగతుల్లోకి వెళ్తున్న విద్యార్థుల కోసం నాయకత్వ శిబిరం, మరియు రెండు లింగ-పరిమిత శిబిరాల్లో రెండోది.",
+      "of": "faa7b192",
       "at": [
         "trinity-episcopal:catalog.camps[35].desc"
       ]
@@ -12650,8 +12639,8 @@
       ]
     },
     {
-      "t": "తిరిగి ఇవ్వని డిపాజిట్, ఒక్కో శిబిరానికి",
-      "of": "97136d00",
+      "t": "తిరిగి ఇవ్వని డిపాజిట్, ఒక్కో శిబిరానికి, శిబిరం ధరలో సర్దుబాటు అవుతుంది",
+      "of": "5f842f96",
       "at": [
         "trinity-episcopal:costPlanner.fees[0].label"
       ]
@@ -12713,8 +12702,8 @@
       ]
     },
     {
-      "t": "2026 వేసవి ఏడు వారాలు నడిచింది, జూన్ 8 నుంచి జూలై 31 వరకు, Early School నుంచి 8వ తరగతి వరకు శిబిరార్థుల కోసం — ఒక సంప్రదాయ రోజు శిబిరం, దాదాపు ప్రతి వారం ఒక ప్రత్యేక లేదా క్రీడా శిబిరం కూడా.",
-      "of": "ad1bd718",
+      "t": "2026 వేసవి ఏడు వారాలు నడిచింది, జూన్ 8 నుంచి జూలై 31 వరకు, Early School నుంచి 8వ తరగతి వరకు శిబిరార్థుల కోసం. ప్రతి వారం ఒక సంప్రదాయ రోజు శిబిరం, ఒక ప్రత్యేక శిబిరం మరియు ఒక క్రీడా శిబిరం ఉన్నాయి.",
+      "of": "5443ba51",
       "at": [
         "charlotte-prep:catalog.headline"
       ]

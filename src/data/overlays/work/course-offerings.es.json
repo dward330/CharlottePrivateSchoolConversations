@@ -2610,9 +2610,9 @@
         "cannon:divisions[2].departments[6].courses[1].tag",
         "covenant-day:divisions[0].departments[0].courses[8].tag",
         "covenant-day:divisions[0].departments[0].courses[9].tag",
+        "covenant-day:divisions[0].departments[1].courses[10].tag",
         "covenant-day:divisions[0].departments[1].courses[11].tag",
         "covenant-day:divisions[0].departments[1].courses[12].tag",
-        "covenant-day:divisions[0].departments[1].courses[13].tag",
         "covenant-day:divisions[0].departments[2].courses[8].tag",
         "covenant-day:divisions[0].departments[2].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[10].tag",
@@ -3317,7 +3317,6 @@
       "of": "9e6fb02a",
       "at": [
         "providence-day:divisions[2].departments[2].courses[10].title",
-        "covenant-day:divisions[0].departments[1].courses[9].title",
         "gaston-day:divisions[1].departments[1].courses[6].title"
       ],
       "t": "Estadística"
@@ -3368,7 +3367,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
-        "covenant-day:divisions[0].departments[1].courses[11].title",
+        "covenant-day:divisions[0].departments[1].courses[10].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[2].courses[11].title"
       ],
@@ -3388,7 +3387,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
-        "covenant-day:divisions[0].departments[1].courses[12].title",
+        "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[10].title"
       ],
       "t": "AP Calculus BC"
@@ -3407,7 +3406,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[15].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
-        "covenant-day:divisions[0].departments[1].courses[13].title",
+        "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
         "carmel-christian:divisions[0].departments[2].courses[12].title"
       ],
@@ -5066,7 +5065,7 @@
         "covenant-day:divisions[0].departments[1].courses[4].tag",
         "covenant-day:divisions[0].departments[1].courses[7].tag",
         "covenant-day:divisions[0].departments[1].courses[8].tag",
-        "covenant-day:divisions[0].departments[1].courses[10].tag",
+        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[1].tag",
         "covenant-day:divisions[0].departments[2].courses[3].tag",
         "covenant-day:divisions[0].departments[2].courses[4].tag",
@@ -6805,7 +6804,7 @@
       "of": "58226eb6",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[13].description",
-        "covenant-day:divisions[0].departments[1].courses[13].description",
+        "covenant-day:divisions[0].departments[1].courses[12].description",
         "carmel-christian:divisions[0].departments[2].courses[12].description"
       ],
       "t": "Estadística de nivel universitario."
@@ -14435,12 +14434,12 @@
       "t": "A cada estudiante se le asigna un tutor del profesorado que ofrece orientación académica y personal y sirve de enlace entre el colegio y la familia."
     },
     {
-      "text": "117 course lines across 9 departments in the guide’s index — 23 AP courses AND 18 IB courses plus the full IB Diploma core. Shown here as 121 entries, including five courses the guide describes but does not index.",
-      "of": "35c1ab48",
+      "text": "117 course lines across 9 departments in the guide’s index — 23 AP courses AND 18 IB courses plus the full IB Diploma core. That is the 2025–26 guide; the 2026–27 profile counts 26 AP courses. Shown here as 121 entries, including five courses the guide describes but does not index.",
+      "of": "82da0ae8",
       "at": [
         "charlotte-country-day:divisions[2].teaser"
       ],
-      "t": "117 líneas de asignaturas en 9 departamentos según el índice de la guía — 23 asignaturas AP Y 18 asignaturas IB, además del núcleo completo del Diploma del IB. Aquí se muestran como 121 entradas, incluidas cinco asignaturas que la guía describe pero no indexa."
+      "t": "117 líneas de asignaturas en 9 departamentos según el índice de la guía — 23 asignaturas AP Y 18 asignaturas IB, además del núcleo completo del Diploma del IB. Esa es la guía de 2025–26; el profile de 2026–27 cuenta 26 asignaturas AP. Aquí se muestran como 121 entradas, incluidas cinco asignaturas que la guía describe pero no indexa."
     },
     {
       "text": "English 9: Foundations in English",
@@ -15652,12 +15651,12 @@
       "t": "Un conjunto coral sin audición."
     },
     {
-      "text": "Honors-level concert choir.",
-      "of": "9266c7e0",
+      "text": "Honors-level concert choir, entered by application and audition.",
+      "of": "565b037a",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[1].description"
       ],
-      "t": "Coro de concierto de nivel Honors."
+      "t": "Coro de concierto de nivel Honors, al que se accede por solicitud y audición."
     },
     {
       "text": "Honors Chamber Choir",
@@ -16239,7 +16238,6 @@
         "cannon:divisions[0].departments[0].courses[1].tag",
         "cannon:divisions[0].departments[0].courses[2].tag",
         "cannon:divisions[0].departments[0].courses[3].tag",
-        "cannon:divisions[0].departments[1].courses[0].tag",
         "cannon:divisions[0].departments[2].courses[0].tag",
         "cannon:divisions[0].departments[2].courses[1].tag",
         "cannon:divisions[0].departments[2].courses[2].tag",
@@ -16306,6 +16304,14 @@
         "cannon:divisions[0].departments[0].courses[4].description"
       ],
       "t": "El plan de estudios construye una base académica sólida en lectura, escritura y matemáticas mediante un aprendizaje práctico, colaborativo y multisensorial."
+    },
+    {
+      "text": "JrK–Gr 4",
+      "of": "60efa0ce",
+      "at": [
+        "cannon:divisions[0].departments[1].courses[0].tag"
+      ],
+      "t": "JrK–Gr 4"
     },
     {
       "text": "Combines the Communicative Language Approach with the Foreign Language in the Elementary School (FLES) approach.",
@@ -18307,12 +18313,12 @@
       "t": "Asignaturas de High School"
     },
     {
-      "text": "90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department, which is rare.",
-      "of": "ea2eb72a",
+      "text": "89 course entries across 9 departments: 86 on the academics page and three more in the 2026–27 profile. They include 17 Advanced Placement courses, a named Bible course for each of the four years, and a Restoration & Sustainability department, which is rare.",
+      "of": "521f35dc",
       "at": [
         "covenant-day:divisions[0].teaser"
       ],
-      "t": "90 asignaturas en 9 departamentos — 17 Advanced Placement, una asignatura de Bible con nombre propio para cada uno de los cuatro años y un departamento de Restoration & Sustainability, algo poco común."
+      "t": "89 asignaturas en 9 departamentos: 86 en la página académica y tres más en el profile de 2026–27. Incluyen 17 asignaturas Advanced Placement, una asignatura de Bible con nombre propio para cada uno de los cuatro años y un departamento de Restoration & Sustainability, algo poco común."
     },
     {
       "text": "Language & Literature",
@@ -18335,7 +18341,6 @@
         "covenant-day:divisions[0].departments[1].courses[3].tag",
         "covenant-day:divisions[0].departments[1].courses[5].tag",
         "covenant-day:divisions[0].departments[1].courses[6].tag",
-        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[0].tag",
         "covenant-day:divisions[0].departments[2].courses[2].tag",
         "covenant-day:divisions[0].departments[2].courses[5].tag",
@@ -18472,8 +18477,7 @@
         "covenant-day:divisions[0].departments[0].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[7].title",
-        "carmel-christian:divisions[0].departments[1].courses[8].title",
-        "gaston-day:divisions[1].departments[0].courses[3].title"
+        "carmel-christian:divisions[0].departments[1].courses[8].title"
       ],
       "t": "British Literature"
     },
@@ -18640,18 +18644,10 @@
       "t": "Cálculo de honores — disponible para inscripción dual con Covenant College."
     },
     {
-      "text": "Introductory statistics.",
-      "of": "b729daf0",
-      "at": [
-        "covenant-day:divisions[0].departments[1].courses[9].description"
-      ],
-      "t": "Estadística introductoria."
-    },
-    {
       "text": "Statistics Honors",
       "of": "b7b12c3b",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].title"
+        "covenant-day:divisions[0].departments[1].courses[9].title"
       ],
       "t": "Statistics Honors"
     },
@@ -18659,7 +18655,7 @@
       "text": "Honors statistics — available for dual enrollment with Covenant College.",
       "of": "534c8b8a",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].description"
+        "covenant-day:divisions[0].departments[1].courses[9].description"
       ],
       "t": "Estadística de honores — disponible para inscripción dual con Covenant College."
     },
@@ -18667,7 +18663,7 @@
       "text": "College-level differential and integral calculus.",
       "of": "cf28429f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[11].description",
+        "covenant-day:divisions[0].departments[1].courses[10].description",
         "carmel-christian:divisions[0].departments[2].courses[11].description"
       ],
       "t": "Cálculo diferencial e integral de nivel universitario."
@@ -18676,7 +18672,7 @@
       "text": "The faster calculus track, through series; the school notes this offering may be impacted by student enrollment.",
       "of": "c8c6d5de",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[12].description"
+        "covenant-day:divisions[0].departments[1].courses[11].description"
       ],
       "t": "La vía de cálculo más rápida, hasta las series; el colegio advierte de que esta oferta puede verse afectada por la matrícula de estudiantes."
     },
@@ -18886,12 +18882,12 @@
       "t": "Psychology Honors"
     },
     {
-      "text": "Honors psychology.",
-      "of": "05020b75",
+      "text": "Honors psychology. It is listed in the 2026–27 profile, not on the academics page.",
+      "of": "2a89baca",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[6].description"
       ],
-      "t": "Psicología de honores."
+      "t": "Psicología de honores. Figura en el profile de 2026–27, no en la página académica."
     },
     {
       "text": "AP U.S. History",
@@ -18936,12 +18932,12 @@
       "t": "9.º curso"
     },
     {
-      "text": "The freshman Bible course; students are enrolled in a Bible course every year, and three units are required to graduate.",
-      "of": "e1318f97",
+      "text": "The freshman Bible course; students are enrolled in a Bible course every year, and 3.5 units are required to graduate.",
+      "of": "527a5ea3",
       "at": [
         "covenant-day:divisions[0].departments[4].courses[0].description"
       ],
-      "t": "La asignatura de Bible de primer año; los estudiantes están matriculados en una asignatura de Bible todos los años y se exigen tres unidades para graduarse."
+      "t": "La asignatura de Bible de primer año; los estudiantes están matriculados en una asignatura de Bible todos los años y se exigen 3.5 unidades para graduarse."
     },
     {
       "text": "10th Grade",
@@ -19275,12 +19271,12 @@
       "t": "Theatre Tech"
     },
     {
-      "text": "Technical theatre — sets, lighting, production.",
-      "of": "4e2c17db",
+      "text": "Technical theatre — sets, lighting, production. It is listed in the 2026–27 profile, not on the academics page.",
+      "of": "902048c4",
       "at": [
         "covenant-day:divisions[0].departments[6].courses[5].description"
       ],
-      "t": "Teatro técnico — decorados, iluminación, producción."
+      "t": "Teatro técnico — decorados, iluminación, producción. Figura en el profile de 2026–27, no en la página académica."
     },
     {
       "text": "Auditioned Theatre Honors",
@@ -19486,12 +19482,12 @@
       "t": "Intercultural Practicum"
     },
     {
-      "text": "Applied cross-cultural engagement.",
-      "of": "7de1b888",
+      "text": "Applied cross-cultural engagement. It is listed in the 2026–27 profile, not on the academics page.",
+      "of": "4bf28df3",
       "at": [
         "covenant-day:divisions[0].departments[7].courses[2].description"
       ],
-      "t": "Compromiso intercultural aplicado."
+      "t": "Compromiso intercultural aplicado. Figura en el profile de 2026–27, no en la página académica."
     },
     {
       "text": "Intro to Engineering",
@@ -20340,12 +20336,12 @@
       "t": "La destreza, la maestría artesanal, la belleza, la claridad, el equilibrio y otros elementos atemporales, practicados mediante la pintura, el dibujo, la cerámica, el grabado, los paisajes, los retratos y muchos otros proyectos, que se exponen en el Art Walk anual de primavera."
     },
     {
-      "text": "Vocal, instrumental and percussion music by classical and modern composers · 4th grade learns recorder and 5th grade band instruments · a children’s choir for 4th and 5th graders and private piano, vocal and guitar lessons are available.",
-      "of": "96360919",
+      "text": "Vocal, instrumental and percussion music by classical and modern composers · 4th grade learns recorder and 5th grade band instruments · a children’s choir for 4th and 5th graders (the music page says grades 3–5) · private piano, vocal and guitar lessons are available.",
+      "of": "9f3ec7c6",
       "at": [
         "covenant-day:divisions[2].departments[7].courses[1].description"
       ],
-      "t": "Música vocal, instrumental y de percusión de compositores clásicos y modernos · en 4.º curso se aprende la flauta dulce y en 5.º los instrumentos de banda · se ofrecen un coro infantil para 4.º y 5.º y clases particulares de piano, canto y guitarra."
+      "t": "Música vocal, instrumental y de percusión de compositores clásicos y modernos · en 4.º curso se aprende la flauta dulce y en 5.º los instrumentos de banda · un coro infantil para 4.º y 5.º (la página de música dice los grados 3–5) · se ofrecen clases particulares de piano, canto y guitarra."
     },
     {
       "text": "CREATE Junior",
@@ -26104,10 +26100,25 @@
       "text": "Upper-level survey offered at the Honors level.",
       "of": "7fd423da",
       "at": [
-        "gaston-day:divisions[1].departments[0].courses[2].description",
-        "gaston-day:divisions[1].departments[0].courses[3].description"
+        "gaston-day:divisions[1].departments[0].courses[2].description"
       ],
       "t": "Panorámica de nivel superior ofrecida en el nivel Honors."
+    },
+    {
+      "text": "European Literature (British Literature in the September edition)",
+      "of": "28c72695",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[3].title"
+      ],
+      "t": "European Literature (British Literature en la edición de septiembre)"
+    },
+    {
+      "text": "Upper-level survey at the Honors level. The November 2025 profile calls it European Literature. The September 2025 edition calls it British Literature.",
+      "of": "94274a49",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[3].description"
+      ],
+      "t": "Panorámica de nivel superior en el nivel Honors. El profile de noviembre de 2025 la llama European Literature. La edición de septiembre de 2025 la llama British Literature."
     },
     {
       "text": "English Literature & Composition",
@@ -26309,12 +26320,12 @@
       "t": "Spanish I, II, III"
     },
     {
-      "text": "Completion through Level III, in Spanish or French, is required for graduation, except for international students for whom English is a second language.",
-      "of": "37ea1ab6",
+      "text": "The Upper School page requires completion through Level III in Spanish or French to graduate. International students for whom English is a second language are exempt. The profile’s course table lists only Spanish.",
+      "of": "ea50fce3",
       "at": [
         "gaston-day:divisions[1].departments[4].courses[0].description"
       ],
-      "t": "Completar hasta el nivel III, en español o en francés, es obligatorio para graduarse, excepto para los estudiantes internacionales cuya segunda lengua es el inglés."
+      "t": "La página de Upper School exige completar hasta el nivel III en español o en francés para graduarse. Los estudiantes internacionales cuya segunda lengua es el inglés están exentos. La tabla de asignaturas del profile solo incluye español."
     },
     {
       "text": "Spanish IV",

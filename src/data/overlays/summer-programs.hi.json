@@ -188,7 +188,6 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel",
         "gaston-day:catalog.categoryFilters[3].label",
         "gaston-day:catalog.camps[3].categoryLabel",
         "gaston-day:catalog.camps[8].categoryLabel",
@@ -328,7 +327,6 @@
         "providence-day:catalog.camps[23].dayLabel",
         "providence-day:catalog.camps[24].dayLabel",
         "providence-day:catalog.camps[25].dayLabel",
-        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[28].dayLabel",
         "providence-day:catalog.camps[29].dayLabel",
         "providence-day:catalog.camps[31].dayLabel",
@@ -341,7 +339,6 @@
         "providence-day:catalog.camps[38].dayLabel",
         "providence-day:catalog.camps[39].dayLabel",
         "providence-day:catalog.camps[40].dayLabel",
-        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[42].dayLabel",
         "providence-day:catalog.camps[43].dayLabel",
         "providence-day:catalog.camps[44].dayLabel",
@@ -363,7 +360,6 @@
         "providence-day:catalog.camps[61].dayLabel",
         "providence-day:catalog.camps[62].dayLabel",
         "providence-day:catalog.camps[63].dayLabel",
-        "providence-day:catalog.camps[64].dayLabel",
         "providence-day:catalog.camps[65].dayLabel",
         "providence-day:catalog.camps[66].dayLabel",
         "providence-day:catalog.camps[67].dayLabel",
@@ -524,7 +520,6 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel",
         "gaston-day:catalog.camps[0].dayLabel",
         "gaston-day:catalog.camps[1].dayLabel",
         "gaston-day:catalog.camps[2].dayLabel",
@@ -707,8 +702,10 @@
       "at": [
         "providence-day:catalog.camps[3].dayLabel",
         "providence-day:catalog.camps[14].dayLabel",
+        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[27].dayLabel",
         "providence-day:catalog.camps[30].dayLabel",
+        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[49].dayLabel"
       ]
     },
@@ -1733,8 +1730,15 @@
       ]
     },
     {
-      "t": "S4, S6, S7, S8, S9",
-      "of": "0d40c04e",
+      "t": "4 या 5 दिन",
+      "of": "4031e882",
+      "at": [
+        "providence-day:catalog.camps[64].dayLabel"
+      ]
+    },
+    {
+      "t": "S3, S4, S5, S6, S7, S8, S9",
+      "of": "71bb785c",
       "at": [
         "providence-day:catalog.camps[64].weeks"
       ]
@@ -3012,8 +3016,8 @@
       ]
     },
     {
-      "t": "पूरे दिन का कला प्रीमियम कैंप — इस मूल्य-स्तर के केवल दो कैंपों में से एक।",
-      "of": "d2a6f6ff",
+      "t": "पूरे दिन का कला प्रीमियम कैंप, इस मूल्य पर अकेला।",
+      "of": "d11cb67d",
       "at": [
         "charlotte-latin:catalog.camps[48].desc"
       ]
@@ -3343,8 +3347,8 @@
       ]
     },
     {
-      "t": "26 विकल्प। एकमात्र स्तर जिस पर कोई early-bird छूट नहीं है।",
-      "of": "b96cddcc",
+      "t": "26 विकल्प, जिन पर कोई early-bird छूट नहीं है।",
+      "of": "41f28575",
       "at": [
         "charlotte-latin:costPlanner.tiers[1].detail"
       ]
@@ -3511,8 +3515,8 @@
       ]
     },
     {
-      "t": "**Super Care में Before और After Care साथ मिलकर $195.00/week पर मिलते हैं** — स्कूल की एकमात्र प्रकाशित छूट, जो ऊपर के $70.00 + $150.00 विकल्पों से $25.00 कम है। 5:30pm के बाद देर से लेने पर हर 15 मिनट के $25.00 लगते हैं।",
-      "of": "296008fb",
+      "t": "**Super Care में Before और After Care साथ मिलकर $195.00/week पर मिलते हैं** — ऐसा बंडल जिसे स्कूल छूट कहता है, जो ऊपर के $70.00 + $150.00 विकल्पों से $25.00 कम है। 5:30pm के बाद देर से लेने पर हर 15 मिनट के $25.00 लगते हैं।",
+      "of": "0fae47d6",
       "at": [
         "charlotte-latin:costPlanner.fees[1].label"
       ]
@@ -3988,8 +3992,8 @@
       ]
     },
     {
-      "t": "यहाँ के किसी भी कैंप की सबसे बड़ी कक्षा-सीमा — कक्षा 1 से 11 तक — और छह में से पाँच सप्ताहों में उपलब्ध।",
-      "of": "8434e236",
+      "t": "कक्षा 1 से 11 तक, छह में से पाँच सप्ताहों में; चार-दिवसीय सप्ताह में $160।",
+      "of": "f2f2aa20",
       "at": [
         "charlotte-christian:catalog.camps[4].desc"
       ]
@@ -4246,8 +4250,8 @@
       ]
     },
     {
-      "t": "कैटलॉग का सबसे सस्ता कैंप, चार-दिवसीय सप्ताह में।",
-      "of": "6890b7f6",
+      "t": "चार-दिवसीय सप्ताह में $155 का कैंप, कैटलॉग में सबसे कम कीमत।",
+      "of": "7ef114ea",
       "at": [
         "charlotte-christian:catalog.camps[15].desc"
       ]
@@ -4299,8 +4303,8 @@
       ]
     },
     {
-      "t": "$155 वाला दूसरा चार-दिवसीय-सप्ताह कैंप।",
-      "of": "e7bd1548",
+      "t": "चार-दिवसीय सप्ताह में $155 का एक और कैंप।",
+      "of": "a2e4938b",
       "at": [
         "charlotte-christian:catalog.camps[16].desc"
       ]
@@ -4321,8 +4325,8 @@
       ]
     },
     {
-      "t": "टम्बलिंग और चीयर, यहाँ के किसी भी स्पोर्ट्स कैंप की सबसे बड़ी सीमा पर।",
-      "of": "62002db4",
+      "t": "JK से कक्षा 8 तक के लिए टम्बलिंग और चीयर।",
+      "of": "7fc068af",
       "at": [
         "charlotte-christian:catalog.camps[18].desc"
       ]
@@ -4383,8 +4387,8 @@
       ]
     },
     {
-      "t": "सक्रिय खेलों का कैंप।",
-      "of": "4abf883d",
+      "t": "सक्रिय खेलों का कैंप; चार-दिवसीय सप्ताह में $160।",
+      "of": "b75a32e2",
       "at": [
         "charlotte-christian:catalog.camps[22].desc"
       ]
@@ -4501,8 +4505,8 @@
       ]
     },
     {
-      "t": "कैटलॉग में सबसे अधिक बार दोहराया गया कैंप — छहों सप्ताहों में उपलब्ध।",
-      "of": "fce66e82",
+      "t": "कैटलॉग में सबसे अधिक बार दोहराया गया कैंप — छहों सप्ताहों में उपलब्ध; चार-दिवसीय सप्ताह में $155।",
+      "of": "809bf7b3",
       "at": [
         "charlotte-christian:catalog.camps[28].desc"
       ]
@@ -4567,8 +4571,8 @@
       ]
     },
     {
-      "t": "सबसे छोटे मेकरों के लिए चीज़ें खोलना और फिर से बनाना।",
-      "of": "77d7b6ec",
+      "t": "सबसे छोटे मेकरों के लिए चीज़ें खोलना और फिर से बनाना; चार-दिवसीय सप्ताह में $160।",
+      "of": "5849d3f9",
       "at": [
         "charlotte-christian:catalog.camps[33].desc"
       ]
@@ -5354,8 +5358,8 @@
       ]
     },
     {
-      "t": "छह सप्ताह उपलब्ध हैं। सप्ताह 3 चार-दिवसीय सप्ताह है और उसका शुल्क कम है; नीचे दिए गए स्तर पाँच-दिवसीय दरें हैं।",
-      "of": "37e889c5",
+      "t": "छह सप्ताह उपलब्ध हैं। सप्ताह 3 चार-दिवसीय सप्ताह है और उसका शुल्क कम है। पहले दो स्तरों को छोड़कर, नीचे दिए गए स्तर पाँच-दिवसीय दरें हैं।",
+      "of": "2bab70f9",
       "at": [
         "charlotte-christian:costPlanner.subhead"
       ]
@@ -7206,8 +7210,8 @@
       ]
     },
     {
-      "t": "आठ सप्ताह उपलब्ध हैं। इनमें से दो चार-दिवसीय सप्ताह हैं: आधे दिन के कैंपों का शुल्क दोनों में $230 है, और पूरे दिन के कैंपों का शुल्क केवल 3 जुलाई वाले सप्ताह में कम है। नीचे दिए गए स्तर पाँच-दिवसीय दरें हैं।",
-      "of": "42573fdb",
+      "t": "आठ सप्ताह उपलब्ध हैं। इनमें से दो चार-दिवसीय सप्ताह हैं: आधे दिन के कैंपों का शुल्क दोनों में $230 है, और पूरे दिन के कैंपों का शुल्क केवल 3 जुलाई वाले सप्ताह में कम है। पहले स्तर को छोड़कर, नीचे दिए गए स्तर पाँच-दिवसीय दरें हैं।",
+      "of": "9f864e29",
       "at": [
         "charlotte-country-day:costPlanner.subhead"
       ]
@@ -7381,8 +7385,8 @@
       ]
     },
     {
-      "t": "**यदि आधे दिन का कैंपर परिसर में दोपहर का भोजन करता है, तो भोजन विकल्प का पंजीकरण अनिवार्य है** — यह वैकल्पिक नहीं है। स्कूल के अपने दो पेज इस बात पर असहमत हैं कि उस कीमत में भोजन शामिल है या नहीं; नीचे दिया गया संकेत देखें।",
-      "of": "2b9b56df",
+      "t": "**यदि आधे दिन का कैंपर परिसर में दोपहर का भोजन करता है, तो भोजन विकल्प का पंजीकरण अनिवार्य है** — यह वैकल्पिक नहीं है। समर पेज कहता है कि कैंपर अपना भोजन साथ लाते हैं। Camp Ready पेज दोनों बातें कहता है: कि भोजन डाइनिंग-हॉल में दिया जाता है और कि कैंपर को पैक किया हुआ भोजन लाना होगा।",
+      "of": "37c41680",
       "at": [
         "charlotte-country-day:costPlanner.fees[2].label"
       ]
@@ -7402,8 +7406,8 @@
       ]
     },
     {
-      "t": "दो आधिकारिक पेज **$30/week वाली Lunch Care** पर असहमत हैं: समर पेज इसे केवल देखरेख बताता है जिसमें कैंपर अपना भोजन साथ लाते हैं, जबकि Camp Ready पेज कहता है कि उन्हीं नामांकित बच्चों को डाइनिंग-हॉल का भोजन दिया जाता है। किसी एक को मान लेने से पहले एक फ़ोन कॉल कर लेना उचित है।",
-      "of": "d637cfff",
+      "t": "दो आधिकारिक पेज **$30/week वाली Lunch Care** पर असहमत हैं: समर पेज इसे केवल देखरेख बताता है जिसमें कैंपर अपना भोजन साथ लाते हैं, जबकि Camp Ready पेज कहता है कि उन्हीं नामांकित बच्चों को डाइनिंग-हॉल का भोजन दिया जाता है। Camp Ready अपनी ही बात भी काटता है: उसका Lunch Care खंड कहता है कि कैंपर को अपना पैक किया हुआ भोजन लाना होगा (2026-11-22 को दोबारा पढ़ा गया)। किसी एक को मान लेने से पहले एक फ़ोन कॉल कर लेना उचित है।",
+      "of": "4a2c4b34",
       "at": [
         "charlotte-country-day:costPlanner.flags[0].text"
       ]
@@ -7475,8 +7479,8 @@
         "cannon:catalog.camps[54].categoryLabel",
         "cannon:catalog.camps[55].categoryLabel",
         "covenant-day:catalog.categoryFilters[4].label",
-        "covenant-day:catalog.camps[18].categoryLabel",
-        "covenant-day:catalog.camps[19].categoryLabel"
+        "covenant-day:catalog.camps[17].categoryLabel",
+        "covenant-day:catalog.camps[18].categoryLabel"
       ]
     },
     {
@@ -7973,8 +7977,8 @@
       ]
     },
     {
-      "t": "JK & K में जाने वाले",
-      "of": "1791a585",
+      "t": "JK & K में जाने वाले / 1st–4th में जाने वाले",
+      "of": "088d863d",
       "at": [
         "cannon:catalog.camps[16].gradeLabel"
       ]
@@ -8884,8 +8888,8 @@
       ]
     },
     {
-      "t": "**50% जमा-राशि** से सीट सुरक्षित होती है, और शेष राशि 15 मई 2026 को देय होती है — इन पाँच कार्यक्रमों में यही एकमात्र जमा-राशि व्यवस्था है। 15 मई से पहले जमा-राशि पूरी लौटा दी जाती है; **उस तिथि को या उसके बाद कोई धन-वापसी नहीं होती।** स्कूल साफ़ कहता है कि \"some popular camps fill very shortly after registration opens.\"",
-      "of": "f19bf601",
+      "t": "**50% जमा-राशि** से सीट सुरक्षित होती है, और शेष राशि 15 मई 2026 को देय होती है। 15 मई से पहले जमा-राशि पूरी लौटा दी जाती है; **उस तिथि को या उसके बाद कोई धन-वापसी नहीं होती।** स्कूल साफ़ कहता है कि \"some popular camps fill very shortly after registration opens.\"",
+      "of": "afad2a75",
       "at": [
         "cannon:costPlanner.aside.text"
       ]
@@ -8898,29 +8902,29 @@
       ]
     },
     {
-      "t": "Cannon **न भाई-बहन छूट, न कई-सप्ताह की छूट और न कैंप के लिए कोई वित्तीय सहायता** प्रकाशित करता है। 2026 के ब्रोशर में एकमात्र मूल्य-राहत चार-दिवसीय सप्ताह 2 वाली संरचनात्मक राहत है।",
-      "of": "d8366833",
+      "t": "Cannon **न भाई-बहन छूट, न कई-सप्ताह की छूट और न कैंप के लिए कोई वित्तीय सहायता** प्रकाशित करता है। 2026 के ब्रोशर में कैंप की फ़ीस पर एकमात्र मूल्य-राहत चार-दिवसीय सप्ताह 2 के लिए है। देखभाल की एक $90 की संयुक्त दर है।",
+      "of": "70c66cd9",
       "at": [
         "cannon:costPlanner.flags[1].text"
       ]
     },
     {
-      "t": "summer 2026 के लिए आठ सप्ताहों में नामित 20 कैंप, 1 जून – 31 जुलाई — जिनका आधार Camp Lion और Cub Camp हैं, वे पारंपरिक day camps जो देखभाल मुफ़्त में जोड़ते हैं।",
-      "of": "9dd79355",
+      "t": "summer 2026 के लिए आठ सप्ताहों में नामित 19 कैंप, 1 जून – 31 जुलाई — जिनका आधार Camp Lion और Cub Camp हैं, वे पारंपरिक day camps जो देखभाल मुफ़्त में जोड़ते हैं।",
+      "of": "f5db8795",
       "at": [
         "covenant-day:catalog.headline"
       ]
     },
     {
-      "t": "पंजीकरण CampBrain portal पर चलता है, 27 फ़रवरी तक early-bird छूट के साथ। स्कूल \"29 camps\" का प्रचार करता है; सार्वजनिक पेज पर 20 गिने जा सकते हैं।",
-      "of": "8cc84630",
+      "t": "पंजीकरण CampBrain portal पर चलता है, 27 फ़रवरी तक early-bird छूट के साथ। स्कूल \"29 camps\" का प्रचार करता है; सार्वजनिक पेज पर 19 गिने जा सकते हैं।",
+      "of": "81f512f0",
       "at": [
         "covenant-day:catalog.subhead"
       ]
     },
     {
-      "t": "सभी 20 सार्वजनिक रूप से नामित कैंप सूचीबद्ध हैं। **मौजूदा प्रति-कैंप कीमतें और घंटे portal-सीमित हैं**। इसलिए नीचे की कीमतें अनुमान हैं, जो तृतीय-पक्ष की मौजूदा सीमा ($170–$325/week) और स्कूल के अपने 2018 कैटलॉग से ली गई हैं। Cost Planner पर देखभाल add-on दरें स्कूल के अपने मौजूदा आँकड़े हैं।",
-      "of": "07ba6457",
+      "t": "सभी 19 सार्वजनिक रूप से नामित कैंप सूचीबद्ध हैं। **मौजूदा प्रति-कैंप कीमतें और घंटे portal-सीमित हैं**। इसलिए नीचे की कीमतें अनुमान हैं, जो तृतीय-पक्ष की मौजूदा सीमा ($170–$325/week) और स्कूल के अपने 2018 कैटलॉग से ली गई हैं। Cost Planner पर देखभाल add-on दरें स्कूल के अपने मौजूदा आँकड़े हैं।",
+      "of": "219d303b",
       "at": [
         "covenant-day:catalog.intro"
       ]
@@ -8933,7 +8937,7 @@
         "covenant-day:catalog.camps[0].categoryLabel",
         "covenant-day:catalog.camps[1].categoryLabel",
         "covenant-day:catalog.camps[2].categoryLabel",
-        "covenant-day:catalog.camps[13].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -8941,10 +8945,10 @@
       "of": "e043e144",
       "at": [
         "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[13].categoryLabel",
         "covenant-day:catalog.camps[14].categoryLabel",
         "covenant-day:catalog.camps[15].categoryLabel",
-        "covenant-day:catalog.camps[16].categoryLabel",
-        "covenant-day:catalog.camps[17].categoryLabel"
+        "covenant-day:catalog.camps[16].categoryLabel"
       ]
     },
     {
@@ -9030,11 +9034,11 @@
         "covenant-day:catalog.camps[9].hours",
         "covenant-day:catalog.camps[10].hours",
         "covenant-day:catalog.camps[11].hours",
-        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[14].hours",
         "covenant-day:catalog.camps[15].hours",
         "covenant-day:catalog.camps[16].hours",
-        "covenant-day:catalog.camps[17].hours",
-        "covenant-day:catalog.camps[18].hours"
+        "covenant-day:catalog.camps[17].hours"
       ]
     },
     {
@@ -9086,9 +9090,9 @@
         "covenant-day:catalog.camps[5].gradeLabel",
         "covenant-day:catalog.camps[6].gradeLabel",
         "covenant-day:catalog.camps[10].gradeLabel",
-        "covenant-day:catalog.camps[13].gradeLabel",
-        "covenant-day:catalog.camps[17].gradeLabel",
-        "covenant-day:catalog.camps[18].gradeLabel"
+        "covenant-day:catalog.camps[12].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel"
       ]
     },
     {
@@ -9133,8 +9137,8 @@
       "of": "75e26068",
       "at": [
         "covenant-day:catalog.camps[9].gradeLabel",
-        "covenant-day:catalog.camps[15].gradeLabel",
-        "covenant-day:catalog.camps[16].gradeLabel"
+        "covenant-day:catalog.camps[14].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel"
       ]
     },
     {
@@ -9152,95 +9156,80 @@
       ]
     },
     {
-      "t": "Webb Fitness Center कार्यक्रम, स्कूल के S&C coach द्वारा संचालित — वही summer lifting जो varsity खिलाड़ी करते हैं।",
-      "of": "2e9659bb",
-      "at": [
-        "covenant-day:catalog.camps[12].desc"
-      ]
-    },
-    {
-      "t": "कक्षा 6–12",
-      "of": "5a57e078",
-      "at": [
-        "covenant-day:catalog.camps[12].gradeLabel"
-      ]
-    },
-    {
-      "t": "सत्र",
-      "of": "130573cc",
-      "at": [
-        "covenant-day:catalog.camps[12].hours",
-        "covenant-day:catalog.camps[19].hours"
-      ]
-    },
-    {
       "t": "शुद्ध-मस्ती वाला सप्ताह।",
       "of": "9ee1d298",
       "at": [
-        "covenant-day:catalog.camps[13].desc"
+        "covenant-day:catalog.camps[12].desc"
       ]
     },
     {
       "t": "Lunch Care मुफ़्त शामिल — जुड़ी देखभाल वाला एकमात्र गैर-day-camp।",
       "of": "9710a44d",
       "at": [
-        "covenant-day:catalog.camps[14].desc"
+        "covenant-day:catalog.camps[13].desc"
       ]
     },
     {
       "t": "MS",
       "of": "35dfbd11",
       "at": [
-        "covenant-day:catalog.camps[14].gradeLabel"
+        "covenant-day:catalog.camps[13].gradeLabel"
       ]
     },
     {
       "t": "पूरा दिन, lunch सहित",
       "of": "6cdcfa40",
       "at": [
-        "covenant-day:catalog.camps[14].hours"
+        "covenant-day:catalog.camps[13].hours"
       ]
     },
     {
       "t": "छोटे विद्यार्थियों के लिए stage-पहले वाला सप्ताह।",
       "of": "e3899851",
       "at": [
-        "covenant-day:catalog.camps[15].desc"
+        "covenant-day:catalog.camps[14].desc"
       ]
     },
     {
       "t": "दृश्य-कला कमरों में studio sampler।",
       "of": "a6d6d5ee",
       "at": [
-        "covenant-day:catalog.camps[16].desc"
+        "covenant-day:catalog.camps[15].desc"
       ]
     },
     {
       "t": "culinary सप्ताह।",
       "of": "15b6f079",
       "at": [
-        "covenant-day:catalog.camps[17].desc"
+        "covenant-day:catalog.camps[16].desc"
       ]
     },
     {
       "t": "STEM सप्ताह।",
       "of": "45e94be3",
       "at": [
-        "covenant-day:catalog.camps[18].desc"
+        "covenant-day:catalog.camps[17].desc"
       ]
     },
     {
       "t": "guidance office के कैलेंडर के अनुसार चलने वाला एक high-school सप्ताह — एक दुर्लभ high-school शैक्षणिक कैंप।",
       "of": "86fd317c",
       "at": [
-        "covenant-day:catalog.camps[19].desc"
+        "covenant-day:catalog.camps[18].desc"
       ]
     },
     {
       "t": "HS",
       "of": "6deb4e2c",
       "at": [
-        "covenant-day:catalog.camps[19].gradeLabel"
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "सत्र",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[18].hours"
       ]
     },
     {
@@ -9251,8 +9240,8 @@
       ]
     },
     {
-      "t": "स्कूल \"**29 camps**\" का प्रचार करता है; सार्वजनिक पेज 20 गिनता है (एक 21वीं सूची, \"Splash Squad,\" एक स्टाफ पद है)। प्रति-सप्ताह variants और केवल-portal कैंप शायद इस अंतर का कारण हैं।",
-      "of": "19b8adfa",
+      "t": "स्कूल \"**29 camps**\" का प्रचार करता है; सार्वजनिक पेज 19 गिनता है, 2026-11-22 को ब्राउज़र में जाँचा गया (\"Splash Squad\" एक स्टाफ पद है, और Strength and Conditioning अब सूचीबद्ध नहीं है)। प्रति-सप्ताह variants और केवल-portal कैंप शायद इस अंतर का कारण हैं।",
+      "of": "ac56e695",
       "at": [
         "covenant-day:catalog.flags[1].text"
       ]
@@ -10242,15 +10231,15 @@
       ]
     },
     {
-      "t": "शैक्षणिक camps 9 a.m.–1 p.m. और खेल camps 9 a.m.–12 p.m. चलते हैं (Football शाम को), सोमवार–गुरुवार, May के अंत से July के अंत तक लगभग आठ सप्ताह-खंडों में।",
-      "of": "f7887b86",
+      "t": "शैक्षणिक camps 9 a.m.–1 p.m. और खेल camps 9 a.m.–12 p.m. चलते हैं (Football शाम को), सोमवार–गुरुवार, मई के अंत से जुलाई के अंत तक छह सप्ताहों में।",
+      "of": "665a2061",
       "at": [
         "hickory-grove-christian:catalog.subhead"
       ]
     },
     {
-      "t": "यह **Summer 2023 की सूची है, जो स्कूल के पुराने पेजों की सहेजी गई प्रतियों से ली गई है**। यह एक प्रतिनिधि सूची है, न कि 2026 की मौजूदा सूची, क्योंकि HGCS अब camp के नाम और क़ीमतें Brushfire platform के पीछे छिपाता है। 2026 का मौजूदा पेज आठ सत्र-अवधियों की पुष्टि करता है, जो नीचे दिए सप्ताह-खंडों से मेल खाती हैं। **क़ीमतें कहीं भी प्रकाशित नहीं हैं** (केवल Brushfire पर), इसलिए कोई लागत नहीं दिखाई गई है। कक्षाएँ **rising** कक्षाएँ हैं।",
-      "of": "e18209dc",
+      "t": "यह **Summer 2023 की सूची है, जो स्कूल के पुराने पेजों की सहेजी गई प्रतियों से ली गई है**। यह एक प्रतिनिधि सूची है, मौजूदा सूची नहीं। स्कूल की 2027 की समय-सारणी और पंजीकरण 2027 के वसंत में खुलेंगे। तब तक इसके मौजूदा पेज कैंप के प्रकार और खेलों के नाम देते हैं, पर किसी की तारीख़ें नहीं। **क़ीमतें प्रकाशित नहीं हैं**, इसलिए कोई लागत नहीं दिखाई गई है। कक्षाएँ **rising** कक्षाएँ हैं।",
+      "of": "55ca12a6",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ]
@@ -10533,15 +10522,15 @@
       ]
     },
     {
-      "t": "यह Summer 2023 की सूची है, जो Internet Archive पर स्कूल के पुराने पेजों की सहेजी गई प्रतियों से ली गई है। 2026 की मौजूदा सूची Brushfire registration platform के पीछे छिपी है, इसलिए 2026 के camps के सटीक नाम उसी platform के भीतर हैं। मौजूदा पेज आठ सत्र-अवधियों की पुष्टि ज़रूर करता है, जो इन सप्ताह-खंडों से मेल खाती हैं।",
-      "of": "8b8fe821",
+      "t": "यह Summer 2023 की सूची है, जो Internet Archive पर स्कूल के पुराने पेजों की सहेजी गई प्रतियों से ली गई है। स्कूल कहता है कि उसके 2027 के camps जल्द आ रहे हैं, और पूरी समय-सारणी 2027 के वसंत में आएगी। उसके मौजूदा पेज केवल कैंप के प्रकार और खेलों के नाम देते हैं, इसलिए मौजूदा camps अलग हो सकते हैं।",
+      "of": "ee483d54",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ]
     },
     {
-      "t": "किसी भी मौजूदा या संग्रहित पेज पर प्रति-camp क़ीमत प्रकाशित नहीं है। क़ीमतें केवल Brushfire checkout के भीतर मौजूद हैं। इसलिए इस पेज पर इन camps के लिए कोई Cost Planner नहीं है, और गर्मियों की लागत के आँकड़े N/A दिखाते हैं। गर्मियों में कोई wrap-around देखभाल भी नहीं है। camps आधे दिन के होते हैं, और after-school कार्यक्रम गर्मियों में बंद रहता है।",
-      "of": "0ce646d3",
+      "t": "किसी भी मौजूदा या संग्रहित पेज पर प्रति-camp क़ीमत प्रकाशित नहीं है। इसलिए इस पेज पर इन camps के लिए कोई Cost Planner नहीं है, और गर्मियों की लागत के आँकड़े N/A दिखाते हैं। गर्मियों में कोई wrap-around देखभाल भी नहीं है। camps आधे दिन के होते हैं, और after-school कार्यक्रम गर्मियों में बंद रहता है।",
+      "of": "f27ebc58",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ]
@@ -11806,8 +11795,8 @@
       ]
     },
     {
-      "t": "Middle School के बड़े बैंड के लिए आधे दिन का साइकिलिंग camp।",
-      "of": "5162a0a5",
+      "t": "4th–8th में जाने वाले छात्रों के लिए आधे दिन का साइकिलिंग camp।",
+      "of": "aa48d562",
       "at": [
         "trinity-episcopal:catalog.camps[11].desc"
       ]
@@ -11924,8 +11913,8 @@
       ]
     },
     {
-      "t": "पूरे Middle School बैंड के लिए आधे दिन का tennis प्रशिक्षण।",
-      "of": "15fdee7c",
+      "t": "3rd–8th में जाने वाले छात्रों के लिए आधे दिन का tennis प्रशिक्षण।",
+      "of": "b93ecc35",
       "at": [
         "trinity-episcopal:catalog.camps[20].desc"
       ]
@@ -11969,8 +11958,8 @@
       ]
     },
     {
-      "t": "Middle School बैंड के लिए पूरे दिन का digital illustration camp।",
-      "of": "ecea0045",
+      "t": "5th–8th में जाने वाले छात्रों के लिए पूरे दिन का digital illustration camp।",
+      "of": "1816fa4a",
       "at": [
         "trinity-episcopal:catalog.camps[25].desc"
       ]
@@ -12079,8 +12068,8 @@
       ]
     },
     {
-      "t": "Middle School का एक नेतृत्व camp, और दो लिंग-आधारित camp में से दूसरा।",
-      "of": "9d96c806",
+      "t": "5th–8th में जाने वाले छात्रों के लिए एक नेतृत्व camp, और दो लिंग-आधारित camp में से दूसरा।",
+      "of": "faa7b192",
       "at": [
         "trinity-episcopal:catalog.camps[35].desc"
       ]
@@ -12650,8 +12639,8 @@
       ]
     },
     {
-      "t": "वापस न होने वाली जमा राशि, प्रति camp",
-      "of": "97136d00",
+      "t": "वापस न होने वाली जमा राशि, प्रति camp, जो camp की कीमत में समायोजित होती है",
+      "of": "5f842f96",
       "at": [
         "trinity-episcopal:costPlanner.fees[0].label"
       ]
@@ -12713,8 +12702,8 @@
       ]
     },
     {
-      "t": "गर्मी 2026 का कैंप सात सप्ताह चला, 8 जून से 31 जुलाई तक, Early School से कक्षा 8 तक के कैंपर्स के लिए — एक पारंपरिक डे कैंप, साथ में लगभग हर सप्ताह एक विशेष या खेल कैंप।",
-      "of": "ad1bd718",
+      "t": "गर्मी 2026 का कैंप सात सप्ताह चला, 8 जून से 31 जुलाई तक, Early School से कक्षा 8 तक के कैंपर्स के लिए। हर सप्ताह एक पारंपरिक डे कैंप, एक विशेष कैंप और एक खेल कैंप था।",
+      "of": "5443ba51",
       "at": [
         "charlotte-prep:catalog.headline"
       ]

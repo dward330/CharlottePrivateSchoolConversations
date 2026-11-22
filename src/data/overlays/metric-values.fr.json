@@ -52,8 +52,8 @@
       ]
     },
     {
-      "t": "90",
-      "of": "0bfe98cc",
+      "t": "89",
+      "of": "9901b55a",
       "at": [
         "providence-day:[0].values.covenant-day"
       ]
@@ -108,8 +108,8 @@
       ]
     },
     {
-      "t": "Comptées comme entrées qualifiées par niveau sur les neuf volets de département que l’école publie sur sa propre page académique du High School — un intitulé proposé en CP, Honors et AP compte une fois par niveau, comme les catalogues des autres écoles listent leurs cours. La matrice de cours du High School Profile 2026–27, plus ancienne, en affichait 80.",
-      "of": "baa73324",
+      "t": "89 entrées : 86 sur les neuf volets de département de la page académique du High School de l’école, plus trois que seul son profil 2026–27 mentionne. Un intitulé proposé en CP, Honors et AP compte une fois par niveau, comme les catalogues des autres écoles listent leurs cours. La matrice de cours du profil lui-même en affiche 79.",
+      "of": "dbd23e42",
       "at": [
         "providence-day:[0].quals.covenant-day.text"
       ]
@@ -236,15 +236,15 @@
       ]
     },
     {
-      "t": "D’après le catalogue 2026–27. Le School Profile 2026–27 donne le même total de 27, mais le répartit en 15 AP + 12 AT, car il classe le cours d’économie d’entreprise comme AP et omet AT: English Seminar and Inquiry. Les cours AT ont le même poids qu’un AP.",
-      "of": "1f6db755",
+      "t": "D’après le catalogue 2026–27. Le School Profile 2026–27 donne le même total de 27, mais le répartit en 15 AP + 12 AT. Il classe le cours d’économie d’entreprise comme AP, omet AT: English Seminar and Inquiry et ajoute AT: Design Thinking for Entrepreneurship. Il appelle aussi AT: English Language and Composition « American Language and Composition ». Les cours AT ont le même poids qu’un AP.",
+      "of": "8df18847",
       "at": [
         "providence-day:[1].quals.cannon.text"
       ]
     },
     {
-      "t": "La seule école ici à proposer à la fois l’AP et le IB Diploma complet. Au-delà des 18 cours IB se trouve le tronc IB — Theory of Knowledge, l’Extended Essay et le CAS.",
-      "of": "2f0a6d40",
+      "t": "La seule école ici à proposer à la fois l’AP et le IB Diploma complet. Au-delà des 18 cours IB se trouve le tronc IB — Theory of Knowledge, l’Extended Essay et le CAS. Le décompte de 23 AP provient du guide 2025–26 ; le profil 2026–27 en compte 26.",
+      "of": "ab7944ec",
       "at": [
         "providence-day:[1].quals.charlotte-country-day.text"
       ]
@@ -257,8 +257,8 @@
       ]
     },
     {
-      "t": "17 cours AP sur la propre page académique du High School de l’école, qui recense AP Calculus BC et AP French, absents de la matrice de cours du Profile 2026–27, plus ancienne (15). Tous deux portent la mention de l’école selon laquelle l’offre peut être affectée par les effectifs, si bien que le catalogue varie d’une année à l’autre — les éditions antérieures sont montées jusqu’à 18.",
-      "of": "08f79dd2",
+      "t": "17 cours AP sur la propre page académique du High School de l’école, qui recense AP Calculus BC et AP French, absents de la matrice de cours du Profile 2026–27 (15). Tous deux portent la mention de l’école selon laquelle l’offre peut être affectée par les effectifs, si bien que le catalogue varie d’une année à l’autre — les éditions antérieures sont montées jusqu’à 18.",
+      "of": "c4ecc4a4",
       "at": [
         "providence-day:[1].quals.covenant-day.text"
       ]
@@ -299,7 +299,6 @@
         "providence-day:[2].values.gaston-day",
         "providence-day:[38].values.charlotte-country-day",
         "providence-day:[38].values.covenant-day",
-        "providence-day:[38].values.hickory-grove-christian",
         "providence-day:[38].values.gaston-day",
         "providence-day:[42].values.charlotte-latin",
         "providence-day:[45].values.charlotte-latin"
@@ -311,7 +310,8 @@
       "at": [
         "providence-day:[2].values.charlotte-christian",
         "providence-day:[2].values.charlotte-catholic",
-        "providence-day:[2].values.providence-day"
+        "providence-day:[2].values.providence-day",
+        "providence-day:[42].values.charlotte-christian"
       ]
     },
     {
@@ -323,7 +323,6 @@
         "providence-day:[2].values.carmel-christian",
         "providence-day:[2].values.davidson-day",
         "providence-day:[38].values.providence-day",
-        "providence-day:[42].values.charlotte-christian",
         "providence-day:[42].values.charlotte-country-day"
       ]
     },
@@ -623,8 +622,8 @@
       ]
     },
     {
-      "t": "Part des examens AP obtenant 3 ou plus, dernière année publiée. Davidson Day et Hickory Grove Christian ne publient pas de taux de réussite par examen.",
-      "of": "ec2adcaf",
+      "t": "Part des examens AP obtenant 3 ou plus, dernière année publiée. Davidson Day et Hickory Grove Christian ne publient pas de taux de réussite par examen. Trois écoles utilisent une autre base : Cannon et Gaston Day indiquent une part des élèves, et Carmel Christian une part des élèves de dernière année. Ces trois chiffres ne se comparent pas directement aux chiffres par examen.",
+      "of": "df41205c",
       "at": [
         "providence-day:[5].note"
       ]
@@ -1513,8 +1512,8 @@
       ]
     },
     {
-      "t": "Établi d’après le tableau US News 2027 des National Liberal Arts, et comprend les trois académies de service — Naval #3, Air Force #5 et West Point #10. CCHS a fait état de trois admissions à la Naval Academy en 2025, puis d’une admission à la Naval Academy et d’une à West Point en 2026.",
-      "of": "a4430f66",
+      "t": "Établi d’après le tableau US News 2027 des National Liberal Arts, et comprend trois des cinq académies fédérales de service — Naval #3, West Point #9 et Air Force #11. CCHS a fait état de trois admissions à la Naval Academy en 2025, puis d’une admission à la Naval Academy et d’une à West Point en 2026.",
+      "of": "b28e9023",
       "at": [
         "providence-day:[10].quals.charlotte-catholic.text"
       ]
@@ -1826,8 +1825,8 @@
       ]
     },
     {
-      "t": "Établissements d’enseignement supérieur historiquement noirs figurant sur la liste d’admissions 2019–2025, rapportés au registre fédéral de 107 : Hampton, NC A&T, NC Central, Winston-Salem State et Tougaloo. Tougaloo détient également un classement Liberal Arts 2026 (#180) et compte donc dans deux catégories.",
-      "of": "ac3cf220",
+      "t": "Établissements d’enseignement supérieur historiquement noirs figurant sur la liste d’admissions 2019–2025, rapportés au registre fédéral de 107 : Hampton, NC A&T, NC Central, Winston-Salem State et Tougaloo.",
+      "of": "8b25b60c",
       "at": [
         "providence-day:[12].quals.gaston-day.text"
       ]
@@ -2818,8 +2817,8 @@
       ]
     },
     {
-      "t": "$19,500",
-      "of": "c8e996e2",
+      "t": "$20,300",
+      "of": "8b09d9d4",
       "at": [
         "providence-day:[20].values.gaston-day"
       ]
@@ -2854,7 +2853,8 @@
       "t": "(2026–27 · K–4)",
       "of": "95f77159",
       "at": [
-        "providence-day:[20].subs.davidson-day"
+        "providence-day:[20].subs.davidson-day",
+        "providence-day:[20].subs.gaston-day"
       ]
     },
     {
@@ -2862,13 +2862,6 @@
       "of": "19b58d40",
       "at": [
         "providence-day:[20].subs.hickory-grove-christian"
-      ]
-    },
-    {
-      "t": "(2025–26 · K–4)",
-      "of": "791d875d",
-      "at": [
-        "providence-day:[20].subs.gaston-day"
       ]
     },
     {
@@ -2928,8 +2921,8 @@
       ]
     },
     {
-      "t": "La tranche tout compris Kindergarten–4th (frais de scolarité plus frais annexes, tels que les totalise le barème de l’école elle-même). Preschool/Pre-K coûte $10,890 à temps plein ou $8,775 à mi-temps.",
-      "of": "cf1adf48",
+      "t": "La tranche tout compris Kindergarten–4th (frais de scolarité plus frais annexes, tels que les totalise le barème de l’école elle-même). Preschool/Pre-K coûte $11,340 à temps plein ou $9,145 à mi-temps.",
+      "of": "6058123f",
       "at": [
         "providence-day:[20].quals.gaston-day.text"
       ]
@@ -3012,8 +3005,8 @@
       ]
     },
     {
-      "t": "$21,425",
-      "of": "54afabe3",
+      "t": "$22,300",
+      "of": "cab7496a",
       "at": [
         "providence-day:[21].values.gaston-day"
       ]
@@ -3033,7 +3026,8 @@
         "providence-day:[21].subs.cannon",
         "providence-day:[21].subs.charlotte-christian",
         "providence-day:[21].subs.charlotte-country-day",
-        "providence-day:[21].subs.davidson-day"
+        "providence-day:[21].subs.davidson-day",
+        "providence-day:[21].subs.gaston-day"
       ]
     },
     {
@@ -3044,13 +3038,6 @@
         "providence-day:[21].subs.covenant-day",
         "providence-day:[21].subs.carmel-christian",
         "providence-day:[21].subs.hickory-grove-christian"
-      ]
-    },
-    {
-      "t": "(2025–26 · Grades 5–8)",
-      "of": "51a1d5d3",
-      "at": [
-        "providence-day:[21].subs.gaston-day"
       ]
     },
     {
@@ -3167,8 +3154,8 @@
       ]
     },
     {
-      "t": "$22,390",
-      "of": "c0a5f08b",
+      "t": "$23,310",
+      "of": "c18fb334",
       "at": [
         "providence-day:[22].values.gaston-day"
       ]
@@ -3185,13 +3172,7 @@
         "providence-day:[22].subs.covenant-day",
         "providence-day:[22].subs.carmel-christian",
         "providence-day:[22].subs.davidson-day",
-        "providence-day:[22].subs.hickory-grove-christian"
-      ]
-    },
-    {
-      "t": "(2025–26 · Grades 9–12)",
-      "of": "580f2d52",
-      "at": [
+        "providence-day:[22].subs.hickory-grove-christian",
         "providence-day:[22].subs.gaston-day"
       ]
     },
@@ -3287,8 +3268,8 @@
       ]
     },
     {
-      "t": "$283,650",
-      "of": "6de82ea5",
+      "t": "$295,280",
+      "of": "2cc94d3f",
       "at": [
         "providence-day:[23].values.gaston-day"
       ]
@@ -3334,8 +3315,8 @@
       ]
     },
     {
-      "t": "(tarifs 2025–26 · PK–12, 14 ans)",
-      "of": "313fea94",
+      "t": "(tarifs 2026–27 · PK–12, 14 ans)",
+      "of": "bef66fd0",
       "at": [
         "providence-day:[23].subs.gaston-day"
       ]
@@ -3391,8 +3372,8 @@
       ]
     },
     {
-      "t": "Une année au tarif temps plein de Preschool/Pre-K ($10,890 ; le tarif mi-temps est de $8,775), cinq en Kindergarten–4th, quatre en 5th–8th et quatre en 9th–12th, selon les tranches tout compris de l’école (frais de scolarité plus frais annexes) pour 2025–26.",
-      "of": "d3123292",
+      "t": "Une année au tarif temps plein de Preschool/Pre-K ($11,340 ; le mi-temps est à $9,145), cinq en Kindergarten–4th, quatre en 5th–8th et quatre en 9th–12th. Chacune utilise la tranche tout compris 2026–27 de l’école (frais de scolarité plus frais annexes).",
+      "of": "8e85a030",
       "at": [
         "providence-day:[23].quals.gaston-day.text"
       ]
@@ -3475,8 +3456,8 @@
       ]
     },
     {
-      "t": "$175,260",
-      "of": "9e5f285e",
+      "t": "$182,440",
+      "of": "3e0f733c",
       "at": [
         "providence-day:[24].values.gaston-day"
       ]
@@ -3495,7 +3476,8 @@
         "providence-day:[24].subs.cannon",
         "providence-day:[24].subs.charlotte-christian",
         "providence-day:[24].subs.charlotte-country-day",
-        "providence-day:[24].subs.davidson-day"
+        "providence-day:[24].subs.davidson-day",
+        "providence-day:[24].subs.gaston-day"
       ]
     },
     {
@@ -3507,13 +3489,6 @@
         "providence-day:[24].subs.carmel-christian",
         "providence-day:[24].subs.hickory-grove-christian",
         "providence-day:[24].subs.providence-day"
-      ]
-    },
-    {
-      "t": "(tarifs 2025–26 · Grades 5–12)",
-      "of": "6d5b8197",
-      "at": [
-        "providence-day:[24].subs.gaston-day"
       ]
     },
     {
@@ -3531,8 +3506,8 @@
       ]
     },
     {
-      "t": "Huit ans : quatre en 5th–8th et quatre en 9th–12th, selon les tranches tout compris de l’école (frais de scolarité plus frais annexes) pour 2025–26.",
-      "of": "b22c6291",
+      "t": "Huit ans : quatre en 5th–8th et quatre en 9th–12th, selon les tranches tout compris de l’école (frais de scolarité plus frais annexes) pour 2026–27.",
+      "of": "fa7c3955",
       "at": [
         "providence-day:[24].quals.gaston-day.text"
       ]
@@ -3622,8 +3597,8 @@
       ]
     },
     {
-      "t": "$89,560",
-      "of": "f8c7f9f5",
+      "t": "$93,240",
+      "of": "7c707c15",
       "at": [
         "providence-day:[25].values.gaston-day"
       ]
@@ -3648,14 +3623,8 @@
         "providence-day:[25].subs.carmel-christian",
         "providence-day:[25].subs.davidson-day",
         "providence-day:[25].subs.hickory-grove-christian",
+        "providence-day:[25].subs.gaston-day",
         "providence-day:[25].subs.providence-day"
-      ]
-    },
-    {
-      "t": "(tarifs 2025–26 · Grades 9–12)",
-      "of": "bfd347a3",
-      "at": [
-        "providence-day:[25].subs.gaston-day"
       ]
     },
     {
@@ -3673,8 +3642,8 @@
       ]
     },
     {
-      "t": "Quatre ans dans la tranche tout compris 9th–12th (frais de scolarité plus frais annexes, tels que les totalise le barème de l’école elle-même) pour 2025–26.",
-      "of": "478415af",
+      "t": "Quatre ans dans la tranche tout compris 9th–12th (frais de scolarité plus frais annexes, tels que les totalise le barème de l’école elle-même) pour 2026–27.",
+      "of": "601298ff",
       "at": [
         "providence-day:[25].quals.gaston-day.text"
       ]
@@ -3694,8 +3663,8 @@
       ]
     },
     {
-      "t": "Part des élèves/familles bénéficiant d’une aide, telle que l’école l’indique. « ~ » lorsque l’école dit « approximately » ; l’année et le dénominateur varient — voir le rapport de l’école. Charlotte Christian, Covenant Day, Carmel Christian, Davidson Day et Hickory Grove Christian ne publient pas cette donnée.",
-      "of": "8b379748",
+      "t": "Part des élèves/familles bénéficiant d’une aide, telle que l’école l’indique. « ~ » lorsque l’école dit « approximately » ; l’année et le dénominateur varient — voir le rapport de l’école. Charlotte Christian, Charlotte Catholic, Covenant Day, Carmel Christian, Davidson Day et Hickory Grove Christian ne publient pas cette donnée.",
+      "of": "b9873555",
       "at": [
         "providence-day:[26].note"
       ]
@@ -3736,8 +3705,8 @@
       ]
     },
     {
-      "t": "Environ 20% de l’effectif, selon le School Profile 2026–27 ($9.4M) ; le profil ne date pas ce chiffre.",
-      "of": "de1d258c",
+      "t": "Environ 20% de l’effectif, selon le School Profile 2026–27 et la page des frais de scolarité. La page des frais de scolarité indique $9.4M pour 341 élèves ; Fast Facts indique $10.1M pour 347. L’école ne date aucun des deux chiffres.",
+      "of": "6fc21a23",
       "at": [
         "providence-day:[26].quals.charlotte-country-day.text"
       ]
@@ -3764,8 +3733,8 @@
       ]
     },
     {
-      "t": "Montant total de l’aide aux frais de scolarité accordée, pour la dernière année où l’école avance un chiffre. Charlotte Christian et Davidson Day ne publient pas de total.",
-      "of": "02bfb813",
+      "t": "Montant total de l’aide aux frais de scolarité accordée, pour la dernière année où l’école avance un chiffre. Charlotte Christian, Charlotte Catholic, Covenant Day, Carmel Christian, Davidson Day, Gaston Day et Hickory Grove Christian ne publient pas de total.",
+      "of": "22c5bb14",
       "at": [
         "providence-day:[27].note"
       ]
@@ -3806,8 +3775,8 @@
       ]
     },
     {
-      "t": "$9.4M d’aide financière à environ 20% des élèves, selon le School Profile 2026–27 ; le profil n’indique pas l’année couverte par ce chiffre.",
-      "of": "03280355",
+      "t": "$9.4M d’aide financière à environ 20% des élèves, selon le School Profile 2026–27. La page des frais de scolarité donne les mêmes $9.4M, pour 341 élèves, tandis que Fast Facts indique $10.1M pour 347. L’école n’indique pas l’année couverte par l’un ou l’autre chiffre.",
+      "of": "67f54e3f",
       "at": [
         "providence-day:[27].quals.charlotte-country-day.text"
       ]
@@ -4037,8 +4006,8 @@
       ]
     },
     {
-      "t": "31+ nominations aux Blumey",
-      "of": "1b07308b",
+      "t": "2 victoires Blumey (2022)",
+      "of": "9bee4245",
       "at": [
         "providence-day:[30].values.charlotte-country-day"
       ]
@@ -4065,8 +4034,15 @@
       ]
     },
     {
-      "t": "Nominations Blumey 2025–26",
-      "of": "5a21c3aa",
+      "t": "5 finalistes Blumey (2026)",
+      "of": "5a6f8c7c",
+      "at": [
+        "providence-day:[30].values.davidson-day"
+      ]
+    },
+    {
+      "t": "Finalistes Blumey 2025–26",
+      "of": "5bb141f2",
       "at": [
         "providence-day:[30].values.hickory-grove-christian"
       ]
@@ -4086,8 +4062,8 @@
       ]
     },
     {
-      "t": "Cinq finalistes aux Blumey Awards en 2025, un dans chacune des cinq catégories d’interprétation individuelle, tous pour Fiddler on the Roof. Cinq places supplémentaires ont suivi en 2026 pour The Wizard of Oz — quatre nommés et un finaliste. CCHS n’a remporté aucun Blumey ni l’une ni l’autre année.",
-      "of": "7eec925f",
+      "t": "Cinq finalistes aux Blumey Awards en 2025, un dans chacune des cinq catégories d’interprétation individuelle, tous pour Fiddler on the Roof. Cinq autres finalistes ont suivi en 2026, pour The Wizard of Oz. Aucun n’a été nommé dans le top six. CCHS n’a remporté aucun Blumey ni l’une ni l’autre année.",
+      "of": "8b65f433",
       "at": [
         "providence-day:[30].quals.charlotte-catholic.text"
       ]
@@ -4114,8 +4090,8 @@
       ]
     },
     {
-      "t": "31+ nominations aux Blumey Awards, les récompenses du théâtre musical lycéen de la région de Charlotte — un indicateur d’ampleur de la reconnaissance plutôt qu’une victoire unique.",
-      "of": "66200628",
+      "t": "Country Day a remporté Best Choreography et Best Direction en 2022 aux Blumey Awards, les récompenses du théâtre musical lycéen de la région de Charlotte. L’école déclare aussi 31+ nominations, toutes années confondues.",
+      "of": "559e8848",
       "at": [
         "providence-day:[30].quals.charlotte-country-day.text"
       ]
@@ -4149,8 +4125,15 @@
       ]
     },
     {
-      "t": "Nommés et finalistes aux Blumey Awards sur deux saisons consécutives — Seussical (2025) et Disney’s The Little Mermaid (2026), avec deux interprètes présents les deux fois. Aucune victoire n’est publiée. Les Blumeys sont les prix de comédie musicale scolaire de la région de Charlotte.",
-      "of": "1dab42e1",
+      "t": "Cinq finalistes aux Blumey Awards en 2026 pour Big Fish : Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress et Best Featured Performer. Aucune victoire n’est recensée. Les Blumeys sont les prix de comédie musicale scolaire de la région de Charlotte.",
+      "of": "2e476701",
+      "at": [
+        "providence-day:[30].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "Cinq finalistes aux Blumey Awards lors de chacune de deux saisons : Seussical (2025), avec une nomination dans le top six en Best Featured Performer, et Disney’s The Little Mermaid (2026). Trois interprètes sont présents les deux fois. Aucune victoire n’est publiée. Les Blumeys sont les prix de comédie musicale scolaire de la région de Charlotte.",
+      "of": "ee8c197f",
       "at": [
         "providence-day:[30].quals.hickory-grove-christian.text"
       ]
@@ -4174,7 +4157,8 @@
       "of": "c75dc683",
       "at": [
         "providence-day:[31].values.cannon",
-        "providence-day:[31].values.covenant-day"
+        "providence-day:[31].values.covenant-day",
+        "providence-day:[31].values.davidson-day"
       ]
     },
     {
@@ -4196,6 +4180,13 @@
       "of": "3b521870",
       "at": [
         "providence-day:[31].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "1 AP",
+      "of": "55ef872d",
+      "at": [
+        "providence-day:[31].values.charlotte-latin"
       ]
     },
     {
@@ -4262,6 +4253,13 @@
       ]
     },
     {
+      "t": "AP Music Theory est le seul cours AP d’arts. La liste des cours de l’Upper School ne comporte aucun AP d’arts plastiques.",
+      "of": "85b67670",
+      "at": [
+        "providence-day:[31].quals.charlotte-latin.text"
+      ]
+    },
+    {
       "t": "Trois cours d’arts AP : AP Art and Design, AP Art History et AP Music Theory.",
       "of": "b17a71cb",
       "at": [
@@ -4273,6 +4271,13 @@
       "of": "6fbcc9eb",
       "at": [
         "providence-day:[31].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Le catalogue des cours 2026–27 mentionne un AP d’arts, AP Studio Art, qui exige l’accord du département. La liste des cours du School Profile 2026–27 ne l’imprime pas.",
+      "of": "42cabbf6",
+      "at": [
+        "providence-day:[31].quals.davidson-day.text"
       ]
     },
     {
@@ -4325,6 +4330,15 @@
       ]
     },
     {
+      "t": "3 ensembles",
+      "of": "6d5a020e",
+      "at": [
+        "providence-day:[32].values.charlotte-latin",
+        "providence-day:[32].values.hickory-grove-christian",
+        "providence-day:[32].values.gaston-day"
+      ]
+    },
+    {
       "t": "9 ensembles",
       "of": "924f6d38",
       "at": [
@@ -4343,11 +4357,10 @@
       ]
     },
     {
-      "t": "3 ensembles",
-      "of": "6d5a020e",
+      "t": "2 ensembles",
+      "of": "0a0a5819",
       "at": [
-        "providence-day:[32].values.hickory-grove-christian",
-        "providence-day:[32].values.gaston-day"
+        "providence-day:[32].values.davidson-day"
       ]
     },
     {
@@ -4365,8 +4378,8 @@
       ]
     },
     {
-      "t": "Trois ensembles nommés : le Upper School Vocal Performance Ensemble, le MS Instrumental Ensemble (bois, cuivres, percussions, piano, guitare) et le Middle School Chorus. Band et Concert Choir fonctionnent également comme des cours de fine arts crédités, mais ne sont pas comptés ici comme des ensembles.",
-      "of": "7a4e9010",
+      "t": "Trois ensembles de l’Upper School : Band, Concert Choir et le Vocal Performance Ensemble. Band et Concert Choir donnent aussi des crédits de fine arts. Le Middle School a ses propres Instrumental Ensemble et Chorus.",
+      "of": "cf14e4f6",
       "at": [
         "providence-day:[32].quals.gaston-day.text"
       ]
@@ -4386,15 +4399,22 @@
       ]
     },
     {
-      "t": "Huit groupes vocaux et instrumentaux répartis sur le Middle School et l’Upper School, allant des ensembles honors sur audition aux groupes ouverts à tous.",
-      "of": "1905d4d4",
+      "t": "Band, Orchestra et Concert Choir, chacun proposé aux niveaux 5–12. La Community Chorale et l’Acapella Club ne sont pas comptés.",
+      "of": "6e47e8ef",
+      "at": [
+        "providence-day:[32].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "Huit groupes vocaux et instrumentaux répartis sur le Middle School et l’Upper School, allant des ensembles honors sur audition aux groupes de premier niveau.",
+      "of": "ad2ebc43",
       "at": [
         "providence-day:[32].quals.charlotte-country-day.text"
       ]
     },
     {
-      "t": "Neuf ensembles nommés dans toutes les divisions — CDS Children’s Choir (3–5), MS Band, MS Choir, MS Worship Band, Symphonic Band, HS Choir, HS Worship Band, HS A Cappella et les ensembles d’initiation de 5e année — plus un chapitre de la Tri-M Music Honor Society. Les worship bands au collège comme au lycée constituent l’échelon distinctif.",
-      "of": "ca3c56d6",
+      "t": "Neuf ensembles nommés dans toutes les divisions. Le CDS Children’s Choir concerne les niveaux 3–5 selon la page de musique et 4–5 selon la page Lower School. Le Middle School compte MS Band, MS Choir et MS Worship Band. Le High School compte Symphonic Band, HS Choir, HS Worship Band et HS A Cappella. Les ensembles d’initiation de 5e année complètent les neuf. Il existe aussi un chapitre de la Tri-M Music Honor Society. Les worship bands au collège comme au lycée distinguent le programme.",
+      "of": "4089438e",
       "at": [
         "providence-day:[32].quals.covenant-day.text"
       ]
@@ -4404,6 +4424,13 @@
       "of": "e34b232f",
       "at": [
         "providence-day:[32].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Deux ensembles de l’Upper School donnant des crédits : Contemporary Ensemble, un groupe de rock ouvert à tous, et le Theatre Performance Ensemble sur audition, une troupe de théâtre.",
+      "of": "d888bf52",
+      "at": [
+        "providence-day:[32].quals.davidson-day.text"
       ]
     },
     {
@@ -4452,8 +4479,7 @@
       "t": "≥10",
       "of": "cd042349",
       "at": [
-        "providence-day:[33].values.covenant-day",
-        "providence-day:[33].values.gaston-day"
+        "providence-day:[33].values.covenant-day"
       ]
     },
     {
@@ -4478,6 +4504,13 @@
       ]
     },
     {
+      "t": "≥9",
+      "of": "e05ccd9b",
+      "at": [
+        "providence-day:[33].values.gaston-day"
+      ]
+    },
+    {
       "t": "77",
       "of": "8ae5c8d3",
       "at": [
@@ -4492,8 +4525,8 @@
       ]
     },
     {
-      "t": "Cannon ne publie aucun annuaire de clubs officiels, il s’agit donc d’un plancher documenté : 8 organisations nommées de l’Upper School plus ses 12 sociétés d’honneur de l’Upper School. La liste réelle évolue d’année en année et n’est pas entièrement divulguée.",
-      "of": "4bfc21de",
+      "t": "Cannon ne publie aucun annuaire de clubs officiels, il s’agit donc d’un plancher documenté : 8 organisations nommées de l’Upper School plus ses 12 sociétés d’honneur de l’Upper School. Un article d’actualité de l’école annonce aussi un chapitre de la Science National Honor Society, qui n’est pas compté ici. La liste réelle évolue d’année en année et n’est pas entièrement divulguée.",
+      "of": "893d5473",
       "at": [
         "providence-day:[33].quals.cannon.text"
       ]
@@ -4506,8 +4539,8 @@
       ]
     },
     {
-      "t": "L’école publie une fourchette plutôt qu’une liste — sa page Upper School cite « nearly 50 clubs » et le profil 2025–26 répertorie « 45 different clubs and activities ». Seuls 7 sont confirmés nommément dans des sources publiques.",
-      "of": "ac32cf5a",
+      "t": "L’école publie une fourchette plutôt qu’une liste — sa page Upper School cite « nearly 50 clubs » et le profil 2025–26 répertorie « 45 different clubs and activities ». Seuls 11 sont confirmés nommément dans des sources publiques.",
+      "of": "eb1cbdd3",
       "at": [
         "providence-day:[33].quals.charlotte-country-day.text"
       ]
@@ -4555,8 +4588,8 @@
       ]
     },
     {
-      "t": "Gaston Day ne publie aucune liste complète de clubs ; il s’agit donc d’un socle documenté. Il compte les 10 organisations que l’école nomme sur son propre site et dans ses Academic Profiles : iGEM, VEX Robotics, 3-D Printing Club, Blutopia, Yearbook, Upper School Student Government, Peer Mentoring, Green Team, International Council et la National Honor Society.",
-      "of": "b9c89f66",
+      "t": "Gaston Day ne publie aucune liste complète de clubs ; il s’agit donc d’un socle documenté. Il compte les 9 organisations que l’école nomme sur son propre site et dans ses Academic Profiles : VEX Robotics, 3-D Printing Club, Blutopia, Yearbook, Upper School Student Government, Peer Mentoring, Green Team, International Council et la National Honor Society.",
+      "of": "5affbb44",
       "at": [
         "providence-day:[33].quals.gaston-day.text"
       ]
@@ -4618,8 +4651,8 @@
       ]
     },
     {
-      "t": "médaille d’or iGEM",
-      "of": "c7a9f494",
+      "t": "Qualifié pour les VEX Nationals (2023)",
+      "of": "feae029d",
       "at": [
         "providence-day:[34].values.gaston-day"
       ]
@@ -4639,8 +4672,8 @@
       ]
     },
     {
-      "t": "La médaille d’or iGEM est le meilleur résultat compétitif publié par l’école. L’école indique que ses équipes de recherche ont participé pendant plus d’une décennie à l’iGEM, une compétition de recherche en biologie de synthèse, et y ont remporté des distinctions d’argent, d’or et de bronze. L’équipe de VEX Robotics s’est par ailleurs qualifiée pour les TSA VEX Nationals en 2023, sa première année de compétition.",
-      "of": "bb4e8c6c",
+      "t": "Le club VEX Robotics de l’école s’est qualifié pour les TSA VEX Nationals en 2023, sa première année de compétition. C’est le meilleur résultat que publie l’école pour un club actuel.",
+      "of": "94c62b33",
       "at": [
         "providence-day:[34].quals.gaston-day.text"
       ]
@@ -4801,7 +4834,6 @@
         "providence-day:[36].values.covenant-day",
         "providence-day:[36].values.carmel-christian",
         "providence-day:[36].values.davidson-day",
-        "providence-day:[36].values.gaston-day",
         "providence-day:[36].values.cannon",
         "providence-day:[36].values.providence-day",
         "providence-day:[36].values.charlotte-christian"
@@ -4811,12 +4843,13 @@
       "t": "5:30 p.m.",
       "of": "ce6d8030",
       "at": [
-        "providence-day:[36].values.hickory-grove-christian"
+        "providence-day:[36].values.hickory-grove-christian",
+        "providence-day:[36].values.gaston-day"
       ]
     },
     {
-      "t": "6:00 PM provient du Schedule of Tuition and Fees 2025-26 de l’école elle-même (Lower School 3:00–6:00, Middle School 4:00–6:00). La page web du After School Program indique 5:30 PM pour les deux divisions — les deux sources de l’école divergent, et une famille devrait confirmer la plage horaire actuelle.",
-      "of": "63555ec8",
+      "t": "Le barème 2026–27 de l’école prévoit l’accueil de la Lower School de 3:00 à 5:30 et celui de la Middle School de 3:15 à 5:30. Sa page After School Program indique aussi que la récupération se fait au plus tard à 5:30 p.m.",
+      "of": "d3196807",
       "at": [
         "providence-day:[36].quals.gaston-day.text"
       ]
@@ -4829,15 +4862,15 @@
       ]
     },
     {
-      "t": "6:00 p.m. correspond à la Lower School : Extended Day (JK–4) fonctionne de la sortie des classes jusqu'à 6:00 p.m., et l'école précise que tout l'accueil Extended Day prend fin à 6 p.m. précises. La Middle School (niveaux 5–8) est un programme distinct qui se termine à 5:00 p.m., une heure plus tôt, avec ses propres frais de retard à partir de 5:01 p.m. C'est le seul établissement de la liste dont les divisions diffèrent : lisez cette ligne comme la Lower School et confirmez séparément les horaires de la Middle School.",
-      "of": "147bb01f",
+      "t": "6:00 p.m. correspond à la Lower School. Extended Day (JK–4) fonctionne jusqu'à cette heure, et l'école précise que tout son accueil prend fin à 6 p.m. précises. La Middle School (niveaux 5–8) est un programme distinct. Elle se termine une heure plus tôt, à 5:00 p.m., avec ses propres frais de retard à partir de 5:01 p.m. Lisez cette ligne comme l'horaire de la Lower School et confirmez séparément les horaires de la Middle School.",
+      "of": "94980314",
       "at": [
         "providence-day:[36].quals.charlotte-christian.text"
       ]
     },
     {
-      "t": "Le programme Structured Care du Lower School fonctionne jusqu’à 6:00 p.m. Confirmez les horaires actuels auprès de l’école.",
-      "of": "b14230c9",
+      "t": "L’Extended Day accueille les élèves de JK au niveau 8 jusqu’à 6:00 p.m. Confirmez les horaires actuels auprès de l’école.",
+      "of": "4ffbefc1",
       "at": [
         "providence-day:[36].quals.charlotte-country-day.text"
       ]
@@ -4878,8 +4911,8 @@
       ]
     },
     {
-      "t": "Le programme Afterschool (TK–5) et la Study Hall (niveaux 6–11) partagent une même plage de 2:30 à 5:30 p.m. : 5:30 p.m. est donc le départ le plus tardif — plus tôt que les 6:00 p.m. proposés par les autres écoles.",
-      "of": "7c44cd2b",
+      "t": "Le programme Afterschool (TK–5) et la Study Hall (niveaux 6–11) partagent une même plage de 2:30 à 5:30 p.m. : 5:30 p.m. est donc le départ le plus tardif.",
+      "of": "2405c906",
       "at": [
         "providence-day:[36].quals.hickory-grove-christian.text"
       ]
@@ -4892,8 +4925,8 @@
       ]
     },
     {
-      "t": "La formule publiée la plus chère : la tranche de niveaux la plus coûteuse, à l’horaire de sortie le plus tardif, cinq jours par semaine. Chaque cellule affiche un coût mensuel avec le total annuel en dessous. Les écoles facturent sur des périodes différentes — mensuelle, semestrielle, annuelle — le signe ≈ marque donc le chiffre que nous avons converti et non celui que publie l’école. Lorsqu’une école facture mensuellement sans publier le nombre de mois, l’année compte 9 mois de facturation. Lorsqu’elle publie un prix annuel ou semestriel, le chiffre mensuel le répartit sur 10 mois. Lisez les notes de chaque cellule avant de comparer. Tarifs 2026–27, sauf ceux de Cannon, qui datent de 2025–26.",
-      "of": "7cb1674f",
+      "t": "La formule publiée la plus chère : la tranche de niveaux la plus coûteuse, à l’horaire de sortie le plus tardif, cinq jours par semaine. Chaque cellule affiche un coût mensuel avec le total annuel en dessous, sauf celle de Gaston Day, qui donne le tarif hebdomadaire publié par cette école. Les écoles facturent sur des périodes différentes — mensuelle, semestrielle, annuelle — le signe ≈ marque donc le chiffre que nous avons converti et non celui que publie l’école. Lorsqu’une école facture mensuellement sans publier le nombre de mois, l’année compte 9 mois de facturation. Lorsqu’elle publie un prix annuel ou semestriel, le chiffre mensuel le répartit sur 10 mois. Lisez les notes de chaque cellule avant de comparer. Tarifs 2026–27, sauf ceux de Cannon, qui datent de 2025–26.",
+      "of": "11553753",
       "at": [
         "providence-day:[37].note"
       ]
@@ -4948,8 +4981,8 @@
       ]
     },
     {
-      "t": "$95/wk",
-      "of": "14616d74",
+      "t": "$100/wk",
+      "of": "0f4aad9d",
       "at": [
         "providence-day:[37].values.gaston-day"
       ]
@@ -5032,15 +5065,15 @@
       ]
     },
     {
-      "t": "$95/semaine est le tarif Lower School (PS–4th) du barème 2025-26 ; le Middle School (5th–8th) est à $55/semaine. L’accueil ponctuel est à $30/jour et $15/jour respectivement. La page web du programme libelle les montants récurrents comme $100 et $60 par MOIS — c’est la lecture hebdomadaire qui est retenue, car un tarif mensuel inférieur à quatre journées ponctuelles n’est pas cohérent.",
-      "of": "1207f18c",
+      "t": "$100/semaine est le tarif Lower School (PS–4th) du barème 2026–27, pour un accueil de 3:00 à 5:30. Le Middle School (5th–8th) est à $60/semaine à partir de 3:15. L’accueil ponctuel est à $30/jour et $15/jour. L’école facture chaque mois mais ne publie aucun nombre de semaines : la cellule affiche donc son tarif hebdomadaire.",
+      "of": "02047470",
       "at": [
         "providence-day:[37].quals.gaston-day.text"
       ]
     },
     {
-      "t": "Cannon publie un seul prix annuel, $3,784 — le chiffre mensuel ci-dessus est ce montant réparti sur 10 mois, et non un tarif annoncé par l’école. Il couvre l’After School Program JrK–8, de 3:00 à 6:00 p.m. (3 heures), cinq jours par semaine, aux tarifs 2025–26 : la seule école ici qui ne soit pas en 2026–27, car la page portant la grille tarifaire n’est plus liée publiquement.",
-      "of": "a2b60be7",
+      "t": "Cannon publie un seul prix annuel, $3,784 — le chiffre mensuel ci-dessus est ce montant réparti sur 10 mois, et non un tarif annoncé par l’école. Il couvre l’After School Program JrK–8, de 3:00 à 6:00 p.m. (3 heures), cinq jours par semaine, aux tarifs 2025–26.",
+      "of": "f1b136e9",
       "at": [
         "providence-day:[37].quals.cannon.text"
       ]
@@ -5060,8 +5093,8 @@
       ]
     },
     {
-      "t": "Latin facture au semestre, $4,650 deux fois par an — le chiffre mensuel ci-dessus correspond à ces $9,300 répartis sur 10 mois, et non à un tarif annoncé par l’école. Il couvre TK/K à l’horaire de 1:30 à 6:00 p.m. cinq jours par semaine ; TK et Kindergarten sortent à 1:30 p.m., ce qui couvre donc 4.5 heures par jour, plus que tout autre chiffre à côté. Les classes 1–5 à leur horaire de 2:55 à 6:00 p.m. coûtent $3,000 par semestre.",
-      "of": "761a11d0",
+      "t": "Latin facture au semestre, $4,650 deux fois par an — le chiffre mensuel ci-dessus correspond à ces $9,300 répartis sur 10 mois, et non à un tarif annoncé par l’école. Il couvre TK/K à l’horaire de 1:30 à 6:00 p.m. cinq jours par semaine ; TK et Kindergarten sortent à 1:30 p.m., ce qui couvre donc 4.5 heures par jour. Les classes 1–5 à leur horaire de 2:55 à 6:00 p.m. coûtent $3,000 par semestre.",
+      "of": "e7e70543",
       "at": [
         "providence-day:[37].quals.charlotte-latin.text"
       ]
@@ -5117,6 +5150,7 @@
       "at": [
         "providence-day:[38].values.charlotte-christian",
         "providence-day:[38].values.carmel-christian",
+        "providence-day:[38].values.hickory-grove-christian",
         "providence-day:[43].values.carmel-christian",
         "providence-day:[44].values.cannon",
         "providence-day:[50].values.charlotte-country-day"
@@ -5152,8 +5186,8 @@
       ]
     },
     {
-      "t": "La page 2026 en ligne affiche huit fenêtres de session (juin–juil.), ce qui concorde avec les ~8 blocs hebdomadaires du catalogue Summer 2023 récupéré depuis l’Internet Archive ; les noms exacts des stages 2026 sont masqués derrière la plateforme d’inscription de l’école.",
-      "of": "952a5232",
+      "t": "Six semaines de stage dans le catalogue de l’été 2023, de fin mai à fin juillet, et non à l’été 2026. Les pages en ligne de l’école ne nomment que des types de stages. Elles indiquent que le programme 2027 arrivera au printemps 2027.",
+      "of": "d34ffc79",
       "at": [
         "providence-day:[38].quals.hickory-grove-christian.text"
       ]
@@ -5215,8 +5249,8 @@
       ]
     },
     {
-      "t": "20",
-      "of": "8df2997f",
+      "t": "19",
+      "of": "14eb1f3f",
       "at": [
         "providence-day:[39].values.covenant-day"
       ]
@@ -5265,8 +5299,8 @@
       ]
     },
     {
-      "t": "15 stages nommés (17 sessions) dans le catalogue Summer 2023 : 9 académiques, le College Admissions Boot Camp et 5 sportifs. Ils proviennent de l’Internet Archive, le catalogue 2026 en vigueur se trouvant derrière la plateforme d’inscription de l’école. Une programmation représentative, et non la liste exacte de 2026.",
-      "of": "ffa4d0ce",
+      "t": "15 stages nommés (17 sessions) dans le catalogue Summer 2023 : 9 académiques, le College Admissions Boot Camp et 5 sportifs. Ils proviennent de l’Internet Archive, car les pages en ligne ne nomment que des types de stages et des sports. Une programmation représentative, et non la liste actuelle.",
+      "of": "f57c5034",
       "at": [
         "providence-day:[39].quals.hickory-grove-christian.text"
       ]
@@ -5300,8 +5334,8 @@
       ]
     },
     {
-      "t": "20 stages distincts nommés sur la page publique 2026 — un décompte par stage, et non le décompte de sessions par semaine que publient la plupart des écoles voisines. L’école commercialise séparément « 29 camps » ; les variantes par semaine et les offres réservées au portail expliquent probablement la différence.",
-      "of": "f3deb34b",
+      "t": "19 stages distincts nommés sur la page publique 2026 — un décompte par stage, et non le décompte de sessions par semaine que publient la plupart des écoles voisines. L’école commercialise séparément « 29 camps » ; les variantes par semaine et les offres réservées au portail expliquent probablement la différence.",
+      "of": "774cbf8b",
       "at": [
         "providence-day:[39].quals.covenant-day.text"
       ]
@@ -5365,8 +5399,8 @@
       ]
     },
     {
-      "t": "futurs 1–8",
-      "of": "cbc3c1d3",
+      "t": "futurs 1–8, plus 11e et 12e",
+      "of": "78c053f5",
       "at": [
         "providence-day:[40].values.hickory-grove-christian"
       ]
@@ -5386,8 +5420,8 @@
       ]
     },
     {
-      "t": "Camp Spartan Jr accueille les futurs PK–K et Camp Spartan les futurs 1st–5th ; les stages d’enrichissement en demi-journée couvrent les futurs PreK–6th ; le soutien scolaire d’été va jusqu’aux futurs 12th. Les Nike Sports Camps sont annoncés par âge (8–17) et non par niveau.",
-      "of": "e5ef27d2",
+      "t": "Camp Spartan Jr accueille les futurs PK–K et Camp Spartan les futurs 1st–5th ; les stages d’enrichissement en demi-journée couvrent les futurs PreK–8th ; le soutien scolaire d’été va jusqu’aux futurs 12th. Les Nike Sports Camps sont annoncés par âge (8–17) et non par niveau.",
+      "of": "af53a700",
       "at": [
         "providence-day:[40].quals.gaston-day.text"
       ]
@@ -5442,8 +5476,8 @@
       ]
     },
     {
-      "t": "La grande majorité des stages s’adresse aux futurs élèves de la 1re à la 8e année, à quoi s’ajoute un stage destiné au lycée (un College Admissions Boot Camp pour les futurs élèves de 11e et 12e année). D’après le catalogue Summer 2023, récupéré depuis l’Internet Archive.",
-      "of": "cdadf459",
+      "t": "D’après le catalogue de l’été 2023 : des stages pour les futurs élèves de la 1re à la 8e année, plus un College Admissions Boot Camp pour les futurs élèves de 11e et 12e année. La page en ligne annonce désormais des stages allant des futurs élèves de kindergarten au collège.",
+      "of": "e056be3c",
       "at": [
         "providence-day:[40].quals.hickory-grove-christian.text"
       ]
@@ -5507,8 +5541,8 @@
       ]
     },
     {
-      "t": "Une amplitude de onze heures, la plus large des cinq — Before Care dès 7am et After Care jusqu’à 6pm, à $120/semaine chacun, ou $220/semaine en formule groupée Complete Care.",
-      "of": "5f49f081",
+      "t": "Une amplitude de onze heures, la plus large de cette ligne — Before Care dès 7am et After Care jusqu’à 6pm, à $120/semaine chacun, ou $220/semaine en formule groupée Complete Care.",
+      "of": "c05f3a66",
       "at": [
         "providence-day:[41].quals.providence-day.text"
       ]
@@ -5563,8 +5597,8 @@
       ]
     },
     {
-      "t": "Athlètes distincts engagés auprès d’un programme SEC / Big Ten / ACC / Big 12, promotions 2024–2026. Minimum documenté.",
-      "of": "4b7d536c",
+      "t": "Athlètes distincts engagés auprès d’un programme SEC / Big Ten / ACC / Big 12 ou de Notre Dame, promotions 2024–2026. Minimum documenté.",
+      "of": "a39d8dc1",
       "at": [
         "providence-day:[42].note"
       ]
@@ -5640,11 +5674,10 @@
       ]
     },
     {
-      "t": "Un minimum documenté : la liste publique des engagements de l’école va jusqu’en 2025, si bien que sa Class of 2026 est confirmée d’après les effectifs universitaires et les annonces de l’école elle-même.",
-      "of": "1e6dde4a",
+      "t": "Un minimum documenté : la liste publique des engagements de l’école va jusqu’en 2025, si bien que sa Class of 2026 est confirmée d’après les effectifs universitaires et les annonces de l’école elle-même. Les onze comprennent deux signataires de football à Notre Dame.",
+      "of": "1922903c",
       "at": [
-        "providence-day:[42].quals.charlotte-christian.text",
-        "providence-day:[43].quals.charlotte-christian.text"
+        "providence-day:[42].quals.charlotte-christian.text"
       ]
     },
     {
@@ -5743,6 +5776,13 @@
       "of": "dab41619",
       "at": [
         "providence-day:[43].quals.charlotte-catholic.text"
+      ]
+    },
+    {
+      "t": "Un minimum documenté : la liste publique des engagements de l’école va jusqu’en 2025, si bien que sa Class of 2026 est confirmée d’après les effectifs universitaires et les annonces de l’école elle-même.",
+      "of": "1e6dde4a",
+      "at": [
+        "providence-day:[43].quals.charlotte-christian.text"
       ]
     },
     {

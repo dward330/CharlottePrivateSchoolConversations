@@ -188,7 +188,6 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel",
         "gaston-day:catalog.categoryFilters[3].label",
         "gaston-day:catalog.camps[3].categoryLabel",
         "gaston-day:catalog.camps[8].categoryLabel",
@@ -328,7 +327,6 @@
         "providence-day:catalog.camps[23].dayLabel",
         "providence-day:catalog.camps[24].dayLabel",
         "providence-day:catalog.camps[25].dayLabel",
-        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[28].dayLabel",
         "providence-day:catalog.camps[29].dayLabel",
         "providence-day:catalog.camps[31].dayLabel",
@@ -341,7 +339,6 @@
         "providence-day:catalog.camps[38].dayLabel",
         "providence-day:catalog.camps[39].dayLabel",
         "providence-day:catalog.camps[40].dayLabel",
-        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[42].dayLabel",
         "providence-day:catalog.camps[43].dayLabel",
         "providence-day:catalog.camps[44].dayLabel",
@@ -363,7 +360,6 @@
         "providence-day:catalog.camps[61].dayLabel",
         "providence-day:catalog.camps[62].dayLabel",
         "providence-day:catalog.camps[63].dayLabel",
-        "providence-day:catalog.camps[64].dayLabel",
         "providence-day:catalog.camps[65].dayLabel",
         "providence-day:catalog.camps[66].dayLabel",
         "providence-day:catalog.camps[67].dayLabel",
@@ -524,7 +520,6 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel",
         "gaston-day:catalog.camps[0].dayLabel",
         "gaston-day:catalog.camps[1].dayLabel",
         "gaston-day:catalog.camps[2].dayLabel",
@@ -707,8 +702,10 @@
       "at": [
         "providence-day:catalog.camps[3].dayLabel",
         "providence-day:catalog.camps[14].dayLabel",
+        "providence-day:catalog.camps[26].dayLabel",
         "providence-day:catalog.camps[27].dayLabel",
         "providence-day:catalog.camps[30].dayLabel",
+        "providence-day:catalog.camps[41].dayLabel",
         "providence-day:catalog.camps[49].dayLabel"
       ]
     },
@@ -1733,8 +1730,15 @@
       ]
     },
     {
-      "t": "S4, S6, S7, S8, S9",
-      "of": "0d40c04e",
+      "t": "4 یا 5 روز",
+      "of": "4031e882",
+      "at": [
+        "providence-day:catalog.camps[64].dayLabel"
+      ]
+    },
+    {
+      "t": "S3, S4, S5, S6, S7, S8, S9",
+      "of": "71bb785c",
       "at": [
         "providence-day:catalog.camps[64].weeks"
       ]
@@ -3012,8 +3016,8 @@
       ]
     },
     {
-      "t": "یک اردوی هنری تمام‌روز در ردهٔ ویژه — یکی از تنها دو اردو در این سطح قیمت.",
-      "of": "d2a6f6ff",
+      "t": "یک اردوی هنری تمام‌روز در ردهٔ ویژه، تنها اردو با این قیمت.",
+      "of": "d11cb67d",
       "at": [
         "charlotte-latin:catalog.camps[48].desc"
       ]
@@ -3343,8 +3347,8 @@
       ]
     },
     {
-      "t": "26 مورد ارائه‌شده. تنها ردهٔ بدون تخفیف ثبت‌نام زودهنگام.",
-      "of": "b96cddcc",
+      "t": "26 مورد ارائه‌شده، بدون تخفیف ثبت‌نام زودهنگام.",
+      "of": "41f28575",
       "at": [
         "charlotte-latin:costPlanner.tiers[1].detail"
       ]
@@ -3511,8 +3515,8 @@
       ]
     },
     {
-      "t": "**Super Care، Before Care و After Care را با هم در نرخ $195.00/week بسته‌بندی می‌کند** — تنها تخفیف منتشرشدهٔ مدرسه، $25.00 کمتر از کلیدهای $70.00 + $150.00 بالا. تأخیر در تحویل پس از 5:30pm هر 15 دقیقه $25.00 هزینه دارد.",
-      "of": "296008fb",
+      "t": "**Super Care، Before Care و After Care را با هم در نرخ $195.00/week بسته‌بندی می‌کند** — بسته‌ای که مدرسه آن را تخفیف می‌نامد، $25.00 کمتر از کلیدهای $70.00 + $150.00 بالا. تأخیر در تحویل پس از 5:30pm هر 15 دقیقه $25.00 هزینه دارد.",
+      "of": "0fae47d6",
       "at": [
         "charlotte-latin:costPlanner.fees[1].label"
       ]
@@ -3988,8 +3992,8 @@
       ]
     },
     {
-      "t": "گسترده‌ترین بازهٔ پایه در میان اردوهای اینجا — از پایهٔ 1 تا 11 — و ارائه در پنج هفته از شش هفته.",
-      "of": "8434e236",
+      "t": "از پایهٔ 1 تا 11، در پنج هفته از شش هفته؛ $160 در هفتهٔ چهارروزه.",
+      "of": "f2f2aa20",
       "at": [
         "charlotte-christian:catalog.camps[4].desc"
       ]
@@ -4246,8 +4250,8 @@
       ]
     },
     {
-      "t": "ارزان‌ترین اردوی این فهرست، در هفتهٔ چهارروزه.",
-      "of": "6890b7f6",
+      "t": "یک اردوی $155 در هفتهٔ چهارروزه، کمترین قیمت این فهرست.",
+      "of": "7ef114ea",
       "at": [
         "charlotte-christian:catalog.camps[15].desc"
       ]
@@ -4299,8 +4303,8 @@
       ]
     },
     {
-      "t": "آن یکی اردوی $155 در هفتهٔ چهارروزه.",
-      "of": "e7bd1548",
+      "t": "یک اردوی دیگر $155 در هفتهٔ چهارروزه.",
+      "of": "a2e4938b",
       "at": [
         "charlotte-christian:catalog.camps[16].desc"
       ]
@@ -4321,8 +4325,8 @@
       ]
     },
     {
-      "t": "آکروبات و تشویق‌گری در گسترده‌ترین بازهٔ هر اردوی ورزشی اینجا.",
-      "of": "62002db4",
+      "t": "آکروبات و تشویق‌گری برای JK تا پایهٔ 8.",
+      "of": "7fc068af",
       "at": [
         "charlotte-christian:catalog.camps[18].desc"
       ]
@@ -4383,8 +4387,8 @@
       ]
     },
     {
-      "t": "اردوی بازی‌های پرتحرک.",
-      "of": "4abf883d",
+      "t": "اردوی بازی‌های پرتحرک؛ $160 در هفتهٔ چهارروزه.",
+      "of": "b75a32e2",
       "at": [
         "charlotte-christian:catalog.camps[22].desc"
       ]
@@ -4501,8 +4505,8 @@
       ]
     },
     {
-      "t": "پرتکرارترین اردوی این فهرست — که در هر شش هفته ارائه می‌شود.",
-      "of": "fce66e82",
+      "t": "پرتکرارترین اردوی این فهرست — که در هر شش هفته ارائه می‌شود؛ $155 در هفتهٔ چهارروزه.",
+      "of": "809bf7b3",
       "at": [
         "charlotte-christian:catalog.camps[28].desc"
       ]
@@ -4567,8 +4571,8 @@
       ]
     },
     {
-      "t": "باز کردن و دوباره ساختن برای کوچک‌ترین سازندگان.",
-      "of": "77d7b6ec",
+      "t": "باز کردن و دوباره ساختن برای کوچک‌ترین سازندگان؛ $160 در هفتهٔ چهارروزه.",
+      "of": "5849d3f9",
       "at": [
         "charlotte-christian:catalog.camps[33].desc"
       ]
@@ -5354,8 +5358,8 @@
       ]
     },
     {
-      "t": "شش هفته در دسترس است. هفتهٔ 3 یک هفتهٔ چهارروزه است و ارزان‌تر قیمت‌گذاری شده؛ رده‌های زیر نرخ‌های پنج‌روزه هستند.",
-      "of": "37e889c5",
+      "t": "شش هفته در دسترس است. هفتهٔ 3 یک هفتهٔ چهارروزه است و ارزان‌تر قیمت‌گذاری شده. جز دو ردهٔ نخست، رده‌های زیر نرخ‌های پنج‌روزه هستند.",
+      "of": "2bab70f9",
       "at": [
         "charlotte-christian:costPlanner.subhead"
       ]
@@ -7206,8 +7210,8 @@
       ]
     },
     {
-      "t": "هشت هفته در دسترس است. دو هفته از آن‌ها چهارروزه‌اند: اردوهای نیم‌روزه در هر دو $230 هزینه دارند، و اردوهای تمام‌روز تنها در هفتهٔ مربوط به 3 ژوئیه هزینهٔ کمتری دارند. رده‌های زیر نرخ‌های پنج‌روزه هستند.",
-      "of": "42573fdb",
+      "t": "هشت هفته در دسترس است. دو هفته از آن‌ها چهارروزه‌اند: اردوهای نیم‌روزه در هر دو $230 هزینه دارند، و اردوهای تمام‌روز تنها در هفتهٔ مربوط به 3 ژوئیه هزینهٔ کمتری دارند. جز ردهٔ نخست، رده‌های زیر نرخ‌های پنج‌روزه هستند.",
+      "of": "9f864e29",
       "at": [
         "charlotte-country-day:costPlanner.subhead"
       ]
@@ -7381,8 +7385,8 @@
       ]
     },
     {
-      "t": "**اگر اردونشین نیم‌روزه در محوطهٔ مدرسه ناهار بخورد، باید یک گزینهٔ ناهار ثبت شود** — این اختیاری نیست. دو صفحهٔ خود مدرسه دربارهٔ اینکه آیا خوراک در آن قیمت گنجانده شده یا نه با هم اختلاف دارند؛ به هشدار زیر نگاه کنید.",
-      "of": "2b9b56df",
+      "t": "**اگر اردونشین نیم‌روزه در محوطهٔ مدرسه ناهار بخورد، باید یک گزینهٔ ناهار ثبت شود** — این اختیاری نیست. صفحهٔ تابستان می‌گوید اردونشینان ناهار خود را می‌آورند. صفحهٔ Camp Ready هم می‌گوید ناهار در سالن غذاخوری داده می‌شود و هم می‌گوید اردونشینان باید ناهار بسته‌بندی‌شده با خود بیاورند.",
+      "of": "37c41680",
       "at": [
         "charlotte-country-day:costPlanner.fees[2].label"
       ]
@@ -7402,8 +7406,8 @@
       ]
     },
     {
-      "t": "دو صفحهٔ رسمی دربارهٔ **Lunch Care با نرخ $30/week** با هم اختلاف دارند: صفحهٔ تابستان آن را تنها نظارت می‌داند که در آن اردونشینان ناهار خود را می‌آورند، در حالی که صفحهٔ Camp Ready می‌گوید ناهار سالن غذاخوری به همان ثبت‌نام‌کنندگان داده می‌شود. پیش از فرض گرفتن هر یک، ارزش یک تماس تلفنی را دارد.",
-      "of": "d637cfff",
+      "t": "دو صفحهٔ رسمی دربارهٔ **Lunch Care با نرخ $30/week** با هم اختلاف دارند: صفحهٔ تابستان آن را تنها نظارت می‌داند که در آن اردونشینان ناهار خود را می‌آورند، در حالی که صفحهٔ Camp Ready می‌گوید ناهار سالن غذاخوری به همان ثبت‌نام‌کنندگان داده می‌شود. Camp Ready با خودش نیز ناسازگار است: بخش Lunch Care آن می‌گوید اردونشینان باید ناهار بسته‌بندی‌شدهٔ خود را بیاورند (بازخوانی در 2026-11-22). پیش از فرض گرفتن هر یک، ارزش یک تماس تلفنی را دارد.",
+      "of": "4a2c4b34",
       "at": [
         "charlotte-country-day:costPlanner.flags[0].text"
       ]
@@ -7475,8 +7479,8 @@
         "cannon:catalog.camps[54].categoryLabel",
         "cannon:catalog.camps[55].categoryLabel",
         "covenant-day:catalog.categoryFilters[4].label",
-        "covenant-day:catalog.camps[18].categoryLabel",
-        "covenant-day:catalog.camps[19].categoryLabel"
+        "covenant-day:catalog.camps[17].categoryLabel",
+        "covenant-day:catalog.camps[18].categoryLabel"
       ]
     },
     {
@@ -7973,8 +7977,8 @@
       ]
     },
     {
-      "t": "ورودی JK و K",
-      "of": "1791a585",
+      "t": "ورودی JK و K / ورودی پایه‌های 1 تا 4",
+      "of": "088d863d",
       "at": [
         "cannon:catalog.camps[16].gradeLabel"
       ]
@@ -8884,8 +8888,8 @@
       ]
     },
     {
-      "t": "یک **بیعانهٔ 50%** جای اردونشین را تضمین می‌کند و مانده تا 15 مه 2026 سررسید می‌شود — تنها ساختار بیعانه‌ای در میان این پنج برنامه. بیعانه‌ها پیش از 15 مه به‌طور کامل بازپرداخت می‌شوند؛ **در آن تاریخ یا پس از آن هیچ بازپرداختی در کار نیست.** مدرسه به‌روشنی می‌گوید که «برخی اردوهای محبوب اندکی پس از باز شدن ثبت‌نام پر می‌شوند.»",
-      "of": "f19bf601",
+      "t": "یک **بیعانهٔ 50%** جای اردونشین را تضمین می‌کند و مانده تا 15 مه 2026 سررسید می‌شود. بیعانه‌ها پیش از 15 مه به‌طور کامل بازپرداخت می‌شوند؛ **در آن تاریخ یا پس از آن هیچ بازپرداختی در کار نیست.** مدرسه به‌روشنی می‌گوید که «برخی اردوهای محبوب اندکی پس از باز شدن ثبت‌نام پر می‌شوند.»",
+      "of": "afad2a75",
       "at": [
         "cannon:costPlanner.aside.text"
       ]
@@ -8898,29 +8902,29 @@
       ]
     },
     {
-      "t": "Cannon **هیچ تخفیف خواهر و برادر، هیچ تخفیف چندهفته‌ای و هیچ کمک‌هزینهٔ اردویی** منتشر نمی‌کند. تنها تخفیف قیمتی در بروشور 2026، تخفیف ساختاری برای هفتهٔ 2 چهارروزه است.",
-      "of": "d8366833",
+      "t": "Cannon **هیچ تخفیف خواهر و برادر، هیچ تخفیف چندهفته‌ای و هیچ کمک‌هزینهٔ اردویی** منتشر نمی‌کند. تنها تخفیف قیمتی شهریهٔ اردو در بروشور 2026 برای هفتهٔ 2 چهارروزه است. مراقبت یک نرخ ترکیبی $90 دارد.",
+      "of": "70c66cd9",
       "at": [
         "cannon:costPlanner.flags[1].text"
       ]
     },
     {
-      "t": "20 اردوی نام‌برده برای تابستان 2026 در طول هشت هفته، 1 ژوئن – 31 ژوئیه — با محوریت Camp Lion و Cub Camp، اردوهای روزانهٔ سنتی که مراقبت را رایگان به همراه دارند.",
-      "of": "9dd79355",
+      "t": "19 اردوی نام‌برده برای تابستان 2026 در طول هشت هفته، 1 ژوئن – 31 ژوئیه — با محوریت Camp Lion و Cub Camp، اردوهای روزانهٔ سنتی که مراقبت را رایگان به همراه دارند.",
+      "of": "f5db8795",
       "at": [
         "covenant-day:catalog.headline"
       ]
     },
     {
-      "t": "ثبت‌نام روی درگاه CampBrain اجرا می‌شود با تخفیف‌های زودهنگام تا 27 فوریه. مدرسه «29 اردو» را بازاریابی می‌کند؛ 20 اردو روی صفحهٔ عمومی قابل شمارش‌اند.",
-      "of": "8cc84630",
+      "t": "ثبت‌نام روی درگاه CampBrain اجرا می‌شود با تخفیف‌های زودهنگام تا 27 فوریه. مدرسه «29 اردو» را بازاریابی می‌کند؛ 19 اردو روی صفحهٔ عمومی قابل شمارش‌اند.",
+      "of": "81f512f0",
       "at": [
         "covenant-day:catalog.subhead"
       ]
     },
     {
-      "t": "همهٔ 20 اردوی نام‌بردهٔ عمومی فهرست شده‌اند. **قیمت و ساعت کنونی هر اردو پشت درگاه است**. بنابراین قیمت‌های زیر برآوردهایی از بازهٔ کنونی شخص ثالث ($170–$325/week) و فهرست 2018 خود مدرسه‌اند. نرخ‌های افزودهٔ مراقبت روی Cost Planner ارقام کنونی خود مدرسه‌اند.",
-      "of": "07ba6457",
+      "t": "همهٔ 19 اردوی نام‌بردهٔ عمومی فهرست شده‌اند. **قیمت و ساعت کنونی هر اردو پشت درگاه است**. بنابراین قیمت‌های زیر برآوردهایی از بازهٔ کنونی شخص ثالث (از $170 تا $325 در هفته) و فهرست 2018 خود مدرسه‌اند. نرخ‌های افزودهٔ مراقبت روی Cost Planner ارقام کنونی خود مدرسه‌اند.",
+      "of": "219d303b",
       "at": [
         "covenant-day:catalog.intro"
       ]
@@ -8933,7 +8937,7 @@
         "covenant-day:catalog.camps[0].categoryLabel",
         "covenant-day:catalog.camps[1].categoryLabel",
         "covenant-day:catalog.camps[2].categoryLabel",
-        "covenant-day:catalog.camps[13].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -8941,10 +8945,10 @@
       "of": "e043e144",
       "at": [
         "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[13].categoryLabel",
         "covenant-day:catalog.camps[14].categoryLabel",
         "covenant-day:catalog.camps[15].categoryLabel",
-        "covenant-day:catalog.camps[16].categoryLabel",
-        "covenant-day:catalog.camps[17].categoryLabel"
+        "covenant-day:catalog.camps[16].categoryLabel"
       ]
     },
     {
@@ -9030,11 +9034,11 @@
         "covenant-day:catalog.camps[9].hours",
         "covenant-day:catalog.camps[10].hours",
         "covenant-day:catalog.camps[11].hours",
-        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[14].hours",
         "covenant-day:catalog.camps[15].hours",
         "covenant-day:catalog.camps[16].hours",
-        "covenant-day:catalog.camps[17].hours",
-        "covenant-day:catalog.camps[18].hours"
+        "covenant-day:catalog.camps[17].hours"
       ]
     },
     {
@@ -9086,9 +9090,9 @@
         "covenant-day:catalog.camps[5].gradeLabel",
         "covenant-day:catalog.camps[6].gradeLabel",
         "covenant-day:catalog.camps[10].gradeLabel",
-        "covenant-day:catalog.camps[13].gradeLabel",
-        "covenant-day:catalog.camps[17].gradeLabel",
-        "covenant-day:catalog.camps[18].gradeLabel"
+        "covenant-day:catalog.camps[12].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel"
       ]
     },
     {
@@ -9133,8 +9137,8 @@
       "of": "75e26068",
       "at": [
         "covenant-day:catalog.camps[9].gradeLabel",
-        "covenant-day:catalog.camps[15].gradeLabel",
-        "covenant-day:catalog.camps[16].gradeLabel"
+        "covenant-day:catalog.camps[14].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel"
       ]
     },
     {
@@ -9152,107 +9156,92 @@
       ]
     },
     {
-      "t": "برنامهٔ Webb Fitness Center، که با مربی S&C مدرسه اجرا می‌شود — همان تمرین وزنهٔ تابستانی که ورزشکاران varsity انجام می‌دهند.",
-      "of": "2e9659bb",
-      "at": [
-        "covenant-day:catalog.camps[12].desc"
-      ]
-    },
-    {
-      "t": "پایه‌های 6–12",
-      "of": "5a57e078",
-      "at": [
-        "covenant-day:catalog.camps[12].gradeLabel"
-      ]
-    },
-    {
-      "t": "دوره",
-      "of": "130573cc",
-      "at": [
-        "covenant-day:catalog.camps[12].hours",
-        "covenant-day:catalog.camps[19].hours"
-      ]
-    },
-    {
       "t": "هفتهٔ محض سرگرمی.",
       "of": "9ee1d298",
       "at": [
-        "covenant-day:catalog.camps[13].desc"
+        "covenant-day:catalog.camps[12].desc"
       ]
     },
     {
       "t": "شامل Lunch Care رایگان — تنها غیر-اردوی-روزانه با مراقبت همراه.",
       "of": "9710a44d",
       "at": [
-        "covenant-day:catalog.camps[14].desc"
+        "covenant-day:catalog.camps[13].desc"
       ]
     },
     {
       "t": "MS",
       "of": "35dfbd11",
       "at": [
-        "covenant-day:catalog.camps[14].gradeLabel"
+        "covenant-day:catalog.camps[13].gradeLabel"
       ]
     },
     {
       "t": "تمام‌روز شامل ناهار",
       "of": "6cdcfa40",
       "at": [
-        "covenant-day:catalog.camps[14].hours"
+        "covenant-day:catalog.camps[13].hours"
       ]
     },
     {
       "t": "هفتهٔ صحنه-محور برای دانش‌آموزان کوچک‌تر.",
       "of": "e3899851",
       "at": [
-        "covenant-day:catalog.camps[15].desc"
+        "covenant-day:catalog.camps[14].desc"
       ]
     },
     {
       "t": "نمونه‌کار استودیویی در اتاق‌های هنرهای تجسمی.",
       "of": "a6d6d5ee",
       "at": [
-        "covenant-day:catalog.camps[16].desc"
+        "covenant-day:catalog.camps[15].desc"
       ]
     },
     {
       "t": "هفتهٔ آشپزی.",
       "of": "15b6f079",
       "at": [
-        "covenant-day:catalog.camps[17].desc"
+        "covenant-day:catalog.camps[16].desc"
       ]
     },
     {
       "t": "هفتهٔ STEM.",
       "of": "45e94be3",
       "at": [
-        "covenant-day:catalog.camps[18].desc"
+        "covenant-day:catalog.camps[17].desc"
       ]
     },
     {
       "t": "یک هفتهٔ دبیرستانی که مطابق تقویم دفتر مشاوره اجرا می‌شود — یک اردوی تحصیلی دبیرستانیِ نادر.",
       "of": "86fd317c",
       "at": [
-        "covenant-day:catalog.camps[19].desc"
+        "covenant-day:catalog.camps[18].desc"
       ]
     },
     {
       "t": "HS",
       "of": "6deb4e2c",
       "at": [
-        "covenant-day:catalog.camps[19].gradeLabel"
+        "covenant-day:catalog.camps[18].gradeLabel"
       ]
     },
     {
-      "t": "قیمت و ساعت هر اردو **برآورد** است. ارقام کنونی پشت درگاه ثبت‌نام CampBrain قرار دارند. بنابراین بازهٔ نشان‌داده‌شده رقم کنونی شخص ثالث است ($170–$325/week). ساعت‌ها از فهرست 2018 خود مدرسه الگوبرداری شده‌اند، در جایی که همان اردو وجود داشته است.",
+      "t": "دوره",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[18].hours"
+      ]
+    },
+    {
+      "t": "قیمت و ساعت هر اردو **برآورد** است. ارقام کنونی پشت درگاه ثبت‌نام CampBrain قرار دارند. بنابراین بازهٔ نشان‌داده‌شده رقم کنونی شخص ثالث است (از $170 تا $325 در هفته). ساعت‌ها از فهرست 2018 خود مدرسه الگوبرداری شده‌اند، در جایی که همان اردو وجود داشته است.",
       "of": "3a4c72f6",
       "at": [
         "covenant-day:catalog.flags[0].text"
       ]
     },
     {
-      "t": "مدرسه «**29 اردو**» را بازاریابی می‌کند؛ صفحهٔ عمومی 20 اردو را برمی‌شمارد (یک مدخل بیست‌ویکم، «Splash Squad»، یک موقعیت کارکنان است). گونه‌های هر هفته و اردوهای فقط-درگاه احتمالاً این تفاوت را توضیح می‌دهند.",
-      "of": "19b8adfa",
+      "t": "مدرسه «**29 اردو**» را بازاریابی می‌کند؛ صفحهٔ عمومی 19 اردو را برمی‌شمارد، که در 2026-11-22 در مرورگر بررسی شد («Splash Squad» یک موقعیت کارکنان است، و Strength and Conditioning دیگر فهرست نشده است). گونه‌های هر هفته و اردوهای فقط-درگاه احتمالاً این تفاوت را توضیح می‌دهند.",
+      "of": "ac56e695",
       "at": [
         "covenant-day:catalog.flags[1].text"
       ]
@@ -9265,7 +9254,7 @@
       ]
     },
     {
-      "t": "برای خود اردو هفته‌ای $170–$325 بودجه در نظر بگیرید — سپس $50 مراقبت پیش از اردو، $50 مراقبت پس از اردو و $30 مراقبت ناهار، مگر اینکه Camp Lion یا Cub Camp هر سه را رایگان به همراه داشته باشد.",
+      "t": "برای خود اردو هفته‌ای $170 تا $325 بودجه در نظر بگیرید — سپس $50 مراقبت پیش از اردو، $50 مراقبت پس از اردو و $30 مراقبت ناهار، مگر اینکه Camp Lion یا Cub Camp هر سه را رایگان به همراه داشته باشد.",
       "of": "02b6638d",
       "at": [
         "covenant-day:costPlanner.headline"
@@ -10242,15 +10231,15 @@
       ]
     },
     {
-      "t": "اردوهای آموزشی از 9 a.m. تا 1 p.m. و اردوهای ورزشی از 9 a.m. تا 12 p.m. برگزار می‌شوند (Football عصرها)، از دوشنبه تا پنجشنبه، در حدود هشت بلوک هفتگی از اواخر ماه مه تا اواخر ژوئیه.",
-      "of": "f7887b86",
+      "t": "اردوهای آموزشی از 9 a.m. تا 1 p.m. و اردوهای ورزشی از 9 a.m. تا 12 p.m. برگزار می‌شوند (Football عصرها)، از دوشنبه تا پنجشنبه، در شش هفته از اواخر ماه مه تا اواخر ژوئیه.",
+      "of": "665a2061",
       "at": [
         "hickory-grove-christian:catalog.subhead"
       ]
     },
     {
-      "t": "این **فهرست تابستان 2023 است، از نسخه‌های ذخیره‌شدهٔ صفحه‌های قدیمی مدرسه**. فهرستی نماینده است، نه فهرست زندهٔ 2026، زیرا HGCS اکنون نام و قیمت اردوها را پشت سکوی Brushfire پنهان می‌کند. صفحهٔ زندهٔ 2026 هشت بازهٔ برگزاری را تأیید می‌کند که با بلوک‌های هفتگی زیر هم‌خوان است. **قیمت‌ها در هیچ جا منتشر نشده‌اند** (فقط در Brushfire)، بنابراین هیچ هزینه‌ای نمایش داده نمی‌شود. پایه‌ها، پایه‌هایی هستند که دانش‌آموز **به آن‌ها می‌رود**.",
-      "of": "e18209dc",
+      "t": "این **فهرست تابستان 2023 است، از نسخه‌های ذخیره‌شدهٔ صفحه‌های قدیمی مدرسه**. فهرستی نماینده است، نه فهرست کنونی. برنامه و ثبت‌نام 2027 مدرسه در بهار 2027 باز می‌شود. تا آن زمان، صفحه‌های زندهٔ آن از انواع اردو و رشته‌های ورزشی نام می‌برند، بی‌آنکه برای هر یک تاریخی بدهند. **قیمت‌ها منتشر نشده‌اند**، بنابراین هیچ هزینه‌ای نمایش داده نمی‌شود. پایه‌ها، پایه‌هایی هستند که دانش‌آموز **به آن‌ها می‌رود**.",
+      "of": "55ca12a6",
       "at": [
         "hickory-grove-christian:catalog.intro"
       ]
@@ -10533,15 +10522,15 @@
       ]
     },
     {
-      "t": "این فهرست تابستان 2023 است، از نسخه‌های ذخیره‌شدهٔ صفحه‌های قدیمی مدرسه در Internet Archive. فهرست زندهٔ 2026 پشت سکوی ثبت‌نام Brushfire پنهان است، بنابراین نام دقیق اردوهای 2026 درون همان سکو قرار دارد. صفحهٔ زنده هشت بازهٔ برگزاری را تأیید می‌کند که با این بلوک‌های هفتگی هم‌خوان است.",
-      "of": "8b8fe821",
+      "t": "این فهرست تابستان 2023 است، از نسخه‌های ذخیره‌شدهٔ صفحه‌های قدیمی مدرسه در Internet Archive. مدرسه می‌گوید اردوهای 2027 آن به‌زودی می‌آیند و برنامهٔ کامل در بهار 2027 منتشر می‌شود. صفحه‌های زندهٔ آن تنها از انواع اردو و رشته‌های ورزشی نام می‌برند، پس اردوهای کنونی ممکن است متفاوت باشند.",
+      "of": "ee483d54",
       "at": [
         "hickory-grove-christian:catalog.flags[0].text"
       ]
     },
     {
-      "t": "هیچ قیمتی برای تک‌تک اردوها در هیچ صفحهٔ زنده یا بایگانی‌شده‌ای منتشر نشده است. قیمت‌گذاری تنها درون فرایند پرداخت Brushfire وجود دارد. بنابراین این صفحه برنامه‌ریز هزینه‌ای برای این اردوها ندارد، و ارقام هزینهٔ تابستان N/A نشان می‌دهند. همچنین هیچ مراقبت تکمیلی تابستانی وجود ندارد. اردوها نیم‌روزه‌اند، و برنامهٔ پس از مدرسه در تابستان تعطیل است.",
-      "of": "0ce646d3",
+      "t": "هیچ قیمتی برای تک‌تک اردوها در هیچ صفحهٔ زنده یا بایگانی‌شده‌ای منتشر نشده است. بنابراین این صفحه برنامه‌ریز هزینه‌ای برای این اردوها ندارد، و ارقام هزینهٔ تابستان N/A نشان می‌دهند. همچنین هیچ مراقبت تکمیلی تابستانی وجود ندارد. اردوها نیم‌روزه‌اند، و برنامهٔ پس از مدرسه در تابستان تعطیل است.",
+      "of": "f27ebc58",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
       ]
@@ -11806,8 +11795,8 @@
       ]
     },
     {
-      "t": "یک اردوی نیم‌روزهٔ دوچرخه‌سواری برای گروه‌های بزرگ‌تر Middle School.",
-      "of": "5162a0a5",
+      "t": "یک اردوی نیم‌روزهٔ دوچرخه‌سواری برای ورودی‌های پایه‌های 4 تا 8.",
+      "of": "aa48d562",
       "at": [
         "trinity-episcopal:catalog.camps[11].desc"
       ]
@@ -11924,8 +11913,8 @@
       ]
     },
     {
-      "t": "آموزش نیم‌روزهٔ تنیس که کل گروه Middle School را در بر می‌گیرد.",
-      "of": "15fdee7c",
+      "t": "آموزش نیم‌روزهٔ تنیس برای ورودی‌های پایه‌های 3 تا 8.",
+      "of": "b93ecc35",
       "at": [
         "trinity-episcopal:catalog.camps[20].desc"
       ]
@@ -11969,8 +11958,8 @@
       ]
     },
     {
-      "t": "یک اردوی تمام‌روز تصویرسازی دیجیتال برای گروه Middle School.",
-      "of": "ecea0045",
+      "t": "یک اردوی تمام‌روز تصویرسازی دیجیتال برای ورودی‌های پایه‌های 5 تا 8.",
+      "of": "1816fa4a",
       "at": [
         "trinity-episcopal:catalog.camps[25].desc"
       ]
@@ -12079,8 +12068,8 @@
       ]
     },
     {
-      "t": "یک اردوی رهبری در Middle School، و دومین اردو از دو اردوی محدود به یک جنسیت.",
-      "of": "9d96c806",
+      "t": "یک اردوی رهبری برای ورودی‌های پایه‌های 5 تا 8، و دومین اردو از دو اردوی محدود به یک جنسیت.",
+      "of": "faa7b192",
       "at": [
         "trinity-episcopal:catalog.camps[35].desc"
       ]
@@ -12538,7 +12527,7 @@
       ]
     },
     {
-      "t": "اردوی نیم‌روزه · بازهٔ $225–$245",
+      "t": "اردوی نیم‌روزه · بازهٔ $225 تا $245",
       "of": "f65f36f3",
       "at": [
         "trinity-episcopal:costPlanner.tiers[0].panelLabel"
@@ -12559,7 +12548,7 @@
       ]
     },
     {
-      "t": "اردوی نیم‌روزه · بازهٔ $255–$295",
+      "t": "اردوی نیم‌روزه · بازهٔ $255 تا $295",
       "of": "7d1b5407",
       "at": [
         "trinity-episcopal:costPlanner.tiers[1].panelLabel"
@@ -12580,7 +12569,7 @@
       ]
     },
     {
-      "t": "اردوی ویژه · بازهٔ $305–$395",
+      "t": "اردوی ویژه · بازهٔ $305 تا $395",
       "of": "61ddb489",
       "at": [
         "trinity-episcopal:costPlanner.tiers[2].panelLabel"
@@ -12601,7 +12590,7 @@
       ]
     },
     {
-      "t": "اردوی تمام‌روز · بازهٔ $400–$475",
+      "t": "اردوی تمام‌روز · بازهٔ $400 تا $475",
       "of": "f98e5c17",
       "at": [
         "trinity-episcopal:costPlanner.tiers[3].panelLabel"
@@ -12622,7 +12611,7 @@
       ]
     },
     {
-      "t": "اردوی تخصصی · بازهٔ $525–$785",
+      "t": "اردوی تخصصی · بازهٔ $525 تا $785",
       "of": "e77b2bb3",
       "at": [
         "trinity-episcopal:costPlanner.tiers[4].panelLabel"
@@ -12650,8 +12639,8 @@
       ]
     },
     {
-      "t": "ودیعهٔ غیرقابل‌بازگشت، برای هر اردو",
-      "of": "97136d00",
+      "t": "ودیعهٔ غیرقابل‌بازگشت، برای هر اردو، که از قیمت اردو کسر می‌شود",
+      "of": "5f842f96",
       "at": [
         "trinity-episcopal:costPlanner.fees[0].label"
       ]
@@ -12713,8 +12702,8 @@
       ]
     },
     {
-      "t": "تابستان 2026 هفت هفته، از 8 ژوئن تا 31 ژوئیه، برای اردونشینان از Early School تا پایهٔ 8 برگزار شد — یک اردوی روزانهٔ سنتی به‌علاوهٔ یک اردوی تخصصی یا ورزشی تقریباً در هر هفته.",
-      "of": "ad1bd718",
+      "t": "تابستان 2026 هفت هفته، از 8 ژوئن تا 31 ژوئیه، برای اردونشینان از Early School تا پایهٔ 8 برگزار شد. هر هفته یک اردوی روزانهٔ سنتی، یک اردوی تخصصی و یک اردوی ورزشی داشت.",
+      "of": "5443ba51",
       "at": [
         "charlotte-prep:catalog.headline"
       ]
@@ -13055,7 +13044,7 @@
       ]
     },
     {
-      "t": "قیمت‌گذاری تابستان 2026 هفتگی بود: برای یک روز کامل Traditional Camp مبلغ $525، برای اردوی Early School مبلغ $500، و برای یک هفتهٔ تخصصی یا ورزشی $500–$600.",
+      "t": "قیمت‌گذاری تابستان 2026 هفتگی بود: برای یک روز کامل Traditional Camp مبلغ $525، برای اردوی Early School مبلغ $500، و برای یک هفتهٔ تخصصی یا ورزشی از $500 تا $600.",
       "of": "07e1335f",
       "at": [
         "charlotte-prep:costPlanner.headline"
