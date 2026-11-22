@@ -747,18 +747,18 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
             'New grades 1–12 applicants notified by this date (2026–27 cycle). Later applications still accepted, but awards are limited to funds available at each grade level',
         },
         {
-          when: '1 Nov 2026',
-          detail: 'Priority deadline for **current families** — via Clarity',
+          when: '2 Nov 2026',
+          detail: 'Priority deadline for **current families** — via Clarity. Awards are sent at re-enrollment in February',
         },
         {
           when: '22 Jan 2027',
-          detail: 'Priority deadline for **prospective families** — via Clarity',
+          detail: 'Priority deadline for **prospective families** — via Clarity. Awards are sent at acceptance, with the enrollment contract',
         },
       ],
       boxes: [
         {
-          title: 'An unusual requirement — and since withdrawn',
-          body: 'Through the 2026–27 cycle, every applicant family had to **also apply to the North Carolina Opportunity Scholarship Program**. Applications for that state program opened 2 February. Few schools make their own aid application depend on a state application. **It no longer applies**: the school\'s live tuition page (retrieved 14 Sep 2026) does not mention it. That fits the school\'s own note that NC Opportunity Scholarship participation ends after 2025–26.',
+          title: 'An unusual requirement',
+          body: 'Every family applying for aid must **also apply to the North Carolina Opportunity Scholarship Program**. Applications for that state program open 1 Feb 2027. Few schools make their own aid application depend on a state application.',
         },
         {
           tag: 'DOCUMENTATION HAZARD',
@@ -770,7 +770,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
         },
       ],
       source:
-        'charlottechristian.com — [2026–27 Financial Assistance How to Apply / Due Dates](https://resources.finalsite.net/images/v1769003003/charlotte/nf0yf6xdi9fanpkianbz/2026-27financialaid.pdf) (PDF), retrieved 23 Jul 2026; Clarity platform and the Nov 2026 / Jan 2027 due dates from the live [Tuition & Financial Assistance](https://www.charlottechristian.com/admissions/tuition) page, retrieved 14 Sep 2026',
+        'charlottechristian.com — [2026–27 Financial Assistance How to Apply / Due Dates](https://resources.finalsite.net/images/v1769003003/charlotte/nf0yf6xdi9fanpkianbz/2026-27financialaid.pdf) (PDF), retrieved 23 Jul 2026; Clarity platform, the 2 Nov 2026 / 22 Jan 2027 due dates, award timing and the state-scholarship requirement from the live [Tuition & Financial Assistance](https://www.charlottechristian.com/admissions/tuition) page, retrieved 22 Nov 2026',
     },
     {
       id: 'fa-merit',
@@ -889,8 +889,9 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
     'charlottechristian.com — [2026–27](https://resources.finalsite.net/images/v1787800765/charlotte/wam30s6cqq5mgpzpxkan/2026-27tuitionchart.pdf) and [2024–25](https://resources.finalsite.net/images/v1725556600/charlotte/domyev1ywikmbxfkpml9/2024-25tuitionchart.pdf) Tuition & Fees charts (PDF), [Tuition & Financial Assistance](https://www.charlottechristian.com/admissions/tuition), [2026–27 Financial Assistance How to Apply / Due Dates](https://resources.finalsite.net/images/v1769003003/charlotte/nf0yf6xdi9fanpkianbz/2026-27financialaid.pdf) (PDF), [Apply](https://www.charlottechristian.com/admissions/apply) page, [Endowment & Planned Giving](https://www.charlottechristian.com/support-christian/endowment-planned-giving), [Admissions FAQ](https://www.charlottechristian.com/admissions/faqs) (all 23 Jul 2026) · 2023–24 enrollment packet, [2025–26 fees chart](https://resources.finalsite.net/images/v1753121155/charlotte/opclzyaqrt3clu4v2ud7/2025-26tuitionchart.pdf), [annual reports 2022–23](https://resources.finalsite.net/images/v1705021810/charlotte/qnnbankkqvph5w0svmyb/CurrentAnnualReport.pdf) & [2024–25](https://resources.finalsite.net/images/v1768875054/charlotte/charlotte/charlotte/charlotte/qz5ejjvxrr9esc8ziod3/2024-25_AnnualReport.pdf), [lower school extended day packet](https://resources.finalsite.net/images/v1780338464/charlotte/ahr13amhtgtsrxgzpuwt/ExtendedDayPacket.pdf), [IRS Forms 990](https://projects.propublica.org/nonprofits/organizations/560750913) via ProPublica, [MinistryWatch entry](https://db.ministrywatch.com/ministry.php?ein=560750913) [all research tier]. Aggregators (figures ~$17,200 to $26,105) checked and excluded. The school did not commission, review or approve this report.',
 }
 
-/* ── Covenant Day ── transcribed from the school's tuition page (2026-27) and
-   the 2025-2026 Tuition Payment Terms and Conditions PDF — see
+/* ── Covenant Day ── transcribed from the school's tuition page (2026-27), the
+   2026-2027 Tuition Payment Terms and Conditions and financial-aid packet PDFs,
+   and the 2025-2026 terms for last year's rates only — see
    source-material/financial-aid-tuition/covenant-day/. The structural fact
    shaping the whole aid-numbers section: as a ministry of Christ Covenant
    Church (PCA), the school is IRS-exempt from filing Form 990, so no aid
@@ -906,8 +907,8 @@ const COVENANT_DAY: FinancialAidReport = {
     },
     {
       icon: 'clock',
-      title: 'Two years are live at once.',
-      body: 'The website table shows 2026–27 while the linked payment-terms PDF shows 2025–26. Every figure here names its year; the report leads with 2026–27.',
+      title: 'Published ≠ current.',
+      body: 'Tuition and payment terms are for 2026–27. The 2025–26 terms supply last year’s rates only. The aid dates are from the 2026–27 cycle, which has closed.',
     },
     {
       icon: 'book',
@@ -933,7 +934,7 @@ const COVENANT_DAY: FinancialAidReport = {
       figureNote2:
         'The school states what tuition includes: on-campus computers/iPads · technology expenses · school retreats and required field trips · science lab and elective fees · most athletic expenses. Many schools do not publish a list like this.',
       source:
-        'covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid) (2026-27 table); [2025-2026 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) PDF, retrieved 15 Aug 2026',
+        'covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid) (2026-27 table); [2026-2027 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1768486957/covenant/gmuysnpyrcfzpsnlxnnc/2026-2027TuitionPaymentTermsandConditions.pdf) PDF; [2025-2026 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) PDF (prior-year rates), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-beyond',
@@ -949,6 +950,7 @@ const COVENANT_DAY: FinancialAidReport = {
         { label: 'Laptop, grades 9–12 · bring your own', status: 'unpriced' },
         { label: 'Tutoring / special testing beyond classroom help', status: 'unpriced' },
         { label: 'Uniform (JK–8) / HS dress code', status: 'unpriced' },
+        { label: 'FACTS aid application fee · $45', status: 'priced' },
       ],
       componentsNote:
         'The inclusions list does real work here: retreats, required field trips, lab and elective fees, and most athletic expenses sit inside tuition, so the priced add-ons are genuinely few. Grades 9–12 must supply a laptop meeting the school’s specs.',
@@ -959,7 +961,7 @@ const COVENANT_DAY: FinancialAidReport = {
         },
       ],
       source:
-        '[2025-2026 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) PDF; covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid), retrieved 15 Aug 2026',
+        '[2026-2027 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1768486957/covenant/gmuysnpyrcfzpsnlxnnc/2026-2027TuitionPaymentTermsandConditions.pdf) PDF; [Financial Aid Information Packet 2026-2027](https://resources.finalsite.net/images/v1768487046/covenant/i3e3yxqehr2pidswgeyq/FinancialAidatCovenantDay-2026-27.pdf) (PDF); covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -984,19 +986,27 @@ const COVENANT_DAY: FinancialAidReport = {
           when: 'Every year',
           detail: 'No multi-year award — families submit a new application each year',
         },
+        {
+          when: 'By Feb 10, 2026',
+          detail: '2026–27 cycle: new families who finish the aid application by this date get a decision with their offer letter. Current families contact the Business Office by this date for the half deposit, ahead of Feb 17 re-enrollment',
+        },
+        {
+          when: 'By Mar 10, 2026',
+          detail: '2026–27 cycle: current families send all tax documents by this date to be in the first round',
+        },
       ],
       boxes: [
         {
           title: 'Platform & scope',
-          body: '**FACTS** runs the confidential need assessment. Aid is need-based only, and only the party responsible for paying tuition may apply. Contact: Christen Marshall, Student Accounts Coordinator, 704-708-6102.',
+          body: '**FACTS** runs the confidential need assessment and charges **$45** for the application. Aid is need-based only, and only the party responsible for paying tuition may apply. Contact: Christen Marshall, Student Accounts Coordinator, 704-708-6102.',
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'No aid deadline date, no decision timeline, no appeals process, and no award-ceiling policy appears on the public record. The application fee for FACTS, if any, is also unstated.',
+          body: 'No appeals process and no award-ceiling policy appears on the public record.',
         },
       ],
       source:
-        'covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid); [2025-2026 Tuition Payment Terms](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) §6, retrieved 15 Aug 2026',
+        'covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid); [2026-2027 Tuition Payment Terms](https://resources.finalsite.net/images/v1768486957/covenant/gmuysnpyrcfzpsnlxnnc/2026-2027TuitionPaymentTermsandConditions.pdf) §6; [Financial Aid Information Packet 2026-2027](https://resources.finalsite.net/images/v1768487046/covenant/i3e3yxqehr2pidswgeyq/FinancialAidatCovenantDay-2026-27.pdf) (PDF), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-numbers',
@@ -1005,7 +1015,7 @@ const COVENANT_DAY: FinancialAidReport = {
       confidence: 25,
       stats: [
         { value: 'No 990', label: 'church ministry — IRS-exempt from filing' },
-        { value: '$0', label: 'published aid totals, averages, or budgets' },
+        { value: 'Not published', label: 'aid totals, averages, or budgets' },
       ],
       figureNote:
         'The school publishes no share of students on aid, no total awarded and no average award.',
@@ -1048,7 +1058,7 @@ const COVENANT_DAY: FinancialAidReport = {
         },
       ],
       source:
-        '[2025-2026 Tuition Payment Terms](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) §3; covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid), retrieved 15 Aug 2026',
+        '[2026-2027 Tuition Payment Terms](https://resources.finalsite.net/images/v1768486957/covenant/gmuysnpyrcfzpsnlxnnc/2026-2027TuitionPaymentTermsandConditions.pdf) §3; covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-paying',
@@ -1083,7 +1093,7 @@ const COVENANT_DAY: FinancialAidReport = {
           body: 'Accounts more than 30 days past due can suspend re-enrollment, report cards, transcript release — and class access. A standard force-majeure clause keeps tuition obligations alive through closures.',
         },
       ],
-      source: '[2025-2026 Tuition Payment Terms](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) §§1–2, 7–8, retrieved 15 Aug 2026',
+      source: '[2026-2027 Tuition Payment Terms](https://resources.finalsite.net/images/v1768486957/covenant/gmuysnpyrcfzpsnlxnnc/2026-2027TuitionPaymentTermsandConditions.pdf) §§1–2, 7–8, retrieved 22 Nov 2026',
     },
     {
       id: 'fa-trend',
@@ -1093,12 +1103,12 @@ const COVENANT_DAY: FinancialAidReport = {
       stats: [
         { value: '+$1,200', label: 'flat increase at every band, 2025–26 → 2026–27' },
         { value: '$22,790', label: 'top band' },
-        { value: '2 yrs', label: 'of published rates (website + terms PDF)' },
+        { value: '2 yrs', label: 'of published rates (2025–26 and 2026–27 terms PDFs)' },
       ],
       questionsTitle: 'Questions the public record cannot answer',
       questions: [
         'What share of families receive aid, and what is the average award?',
-        'What is the aid application deadline, and when are decisions released relative to enrollment contracts?',
+        'What are the 2027–28 aid deadlines and decision dates? The published packet covers 2026–27.',
         'How does the mandatory NC Opportunity Scholarship application interact with CDS aid for families above the state income cap?',
         'Is there an appeals or mid-year change-of-circumstance process?',
         'Was the flat-$1,200 increase a one-year choice or the standing pattern?',
@@ -1107,7 +1117,7 @@ const COVENANT_DAY: FinancialAidReport = {
     },
   ],
   sources:
-    'covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid) · [2025-2026 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) (PDF) · [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561656570) (EIN 56-1656570) — retrieved 15 Aug 2026',
+    'covenantday.org — [Tuition & Financial Aid](https://www.covenantday.org/admissions/tuition-financial-aid) · [2026-2027 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1768486957/covenant/gmuysnpyrcfzpsnlxnnc/2026-2027TuitionPaymentTermsandConditions.pdf) (PDF) · [Financial Aid Information Packet 2026-2027](https://resources.finalsite.net/images/v1768487046/covenant/i3e3yxqehr2pidswgeyq/FinancialAidatCovenantDay-2026-27.pdf) (PDF), both retrieved 22 Nov 2026 · [2025-2026 Tuition Payment Terms and Conditions](https://resources.finalsite.net/images/v1754326613/covenant/bhpp1ljaepvofjcqlxnh/2025-2026TuitionPaymentTermsandConditions.pdf) (PDF, prior-year rates) · [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561656570) (EIN 56-1656570) — retrieved 15 Aug 2026',
 }
 
 const DAVIDSON_DAY: FinancialAidReport = {
@@ -2059,7 +2069,7 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
       confidence: 20,
       stats: [
         { value: 'No 990', label: 'church ministry — IRS-exempt from filing' },
-        { value: '$0', label: 'published aid totals, averages, or budgets' },
+        { value: 'Not published', label: 'aid totals, averages, or budgets' },
       ],
       figureNote:
         'The school publishes no share of students on aid, no total awarded and no average award.',
@@ -2639,7 +2649,10 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       components: [
         { label: 'Capital fee — $1,995 per FAMILY', status: 'priced' },
         { label: 'Application fee — $120 per student', status: 'priced' },
-        { label: 'Continuous enrollment fee — $150 per returning student', status: 'priced' },
+        // B (plan consistency4, CCHS-T1): for a returning student the MACS web page says
+        // $150 and the MACS PDF schedule says $75. Both agree on $150 for a new student.
+        // Show both; do not pick one.
+        { label: 'Continuous enrollment fee — $150 per new student; $150 (web page) or $75 (PDF schedule) per returning student', status: 'priced' },
         { label: 'FACTS payment plan fee — $15–$45 per family', status: 'range' },
         { label: 'Clarity aid application fee — $65', status: 'priced' },
         { label: 'Books, technology and course fees', status: 'unpriced' },
@@ -2649,8 +2662,8 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       componentsNote:
         'The **capital fee is charged per family rather than per student**, so unlike the application and enrollment fees it does not scale with the number of children enrolled.',
       componentsAside:
-        'A first-year community-rate family with one student pays $21,562 + $1,995 + $120 = **$23,677** before books, activities or athletics.',
-      source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability)',
+        'A first-year community-rate family with one student pays $21,562 + $1,995 + $120 + $150 = **$23,827**. That is before the FACTS plan fee, books, activities or athletics.',
+      source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability); [2026-2027 Tuition and Fee Schedule](https://resources.finalsite.net/images/v1783870190/charlottecatholicorg/noikdbslslpxnkvxqrcc/2026-2027TuitionandFeeScheduleUPDATED.pdf) (PDF), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -2674,6 +2687,11 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
             '**Family Individualized Tuition (FIT) deadline for returning students.** New families are encouraged to apply alongside the admission application',
           emphasis: true,
         },
+        {
+          when: 'By March 1, 2027',
+          detail:
+            '**2027-28 FIT applications** completed by this date get a decision by email on March 16, 2027',
+        },
       ],
       boxes: [
         {
@@ -2690,7 +2708,7 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         },
         {
           tag: 'NOT PUBLISHED',
-          body: 'No decision timeline, appeals process, or award-ceiling policy is published. Whether FIT awards are renewed automatically on re-application is not stated.',
+          body: 'No appeals process or award-ceiling policy is published. Whether FIT awards are renewed automatically on re-application is not stated.',
         },
       ],
       source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability)',
@@ -2718,12 +2736,10 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       ladder: [
         {
           gift: 'ESA+',
-          share: 100,
           detail: '**$9,000 or $17,000** yearly for students with qualifying disabilities — the largest single funding layer available here',
         },
         {
           gift: 'Opportunity Scholarship',
-          share: 45,
           detail: 'Up to **$7,000+** annually, and — since the 2024 expansion — **with no income cap**, so families previously excluded now qualify',
         },
       ],
@@ -2747,12 +2763,12 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
         {
           figure: 'FACTS',
           label: 'Payment processor',
-          detail: 'Runs the tuition draft. Plan fee **$15–$45 per family**.',
+          detail: 'Runs the tuition draft on the 20th of the month. Plans are annual (June), semi-annual (June and December), quarterly (June, September, December and March), monthly, or ten-month. The ten-month plan skips December and May. The semi-annual, quarterly and ten-month plans require enrollment before June 10. Plan fee **$15–$45 per family**, and card payments add a **2.95%** fee.',
         },
         {
           figure: '$150',
-          label: 'Continuous enrollment',
-          detail: 'Charged per returning student to hold the seat for the next year.',
+          label: 'Continuous enrollment, new student',
+          detail: 'Holds the seat each year: $150 per new student. For a returning student, the web page says $150 and the PDF schedule says $75.',
         },
         {
           figure: 'May 15',
@@ -2763,10 +2779,10 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       boxes: [
         {
           tag: 'NOT PUBLISHED',
-          body: 'The number of installments in the FACTS plan, whether a pay-in-full discount exists, and any late-payment or withdrawal policy are not published — they sit inside the enrollment portal.',
+          body: 'No pay-in-full discount, late-payment policy or withdrawal policy is published.',
         },
       ],
-      source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability)',
+      source: 'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability); [2026-2027 Tuition and Fee Schedule](https://resources.finalsite.net/images/v1783870190/charlottecatholicorg/noikdbslslpxnkvxqrcc/2026-2027TuitionandFeeScheduleUPDATED.pdf) (PDF), retrieved 22 Nov 2026',
     },
     {
       id: 'fa-trend',
@@ -2775,20 +2791,20 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
       confidence: 60,
       questionsTitle: 'Ask the admissions office',
       questions: [
-        'What exactly qualifies us as a "participating Catholic" family, and which parish verifies it?',
+        'What does our parish ask for, beyond the published minimums, to approve the "participating Catholic" rate?',
         'If our parish participation changes mid-enrollment, does our tuition rate change with it?',
         'What did FIT actually award families at our income level last year — even as a range?',
         'Are FIT awards renewed automatically on re-application, or reassessed from scratch each year?',
         'Do the multi-child discounts apply before or after a FIT award is calculated?',
-        'Does the $1,995 capital fee recur every year, or is it charged once?',
-        'How many installments does the FACTS plan run, and is there a discount for paying in full?',
+        'Is the continuous enrollment fee for a returning student $150, as the web page says, or $75, as the PDF schedule says?',
+        'Is there a discount for paying in full, and what are the late-payment and withdrawal terms?',
         'What should we budget beyond tuition for books, athletics and the band\'s Dublin trip?',
       ],
       source: 'discovermacs.org; charlottecatholic.org',
     },
   ],
   sources:
-    'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability) (2026-27 schedule, fees, FIT, Clarity, multi-child discounts, OSP and ESA+, deadlines), retrieved 18 Aug 2026; catholicnewsherald.com — [Opportunity Scholarship coverage](https://catholicnewsherald.com/schools/94-news/schools/11321-apply-now-for-2025-26-opportunity-scholarships); [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561779865) — MACS EIN 56-1779865 (religious-organization filing exemption); charlottecatholic.org — [School Profile 2025-2026](https://resources.finalsite.net/images/v1756128027/charlottecatholicorg/f5yfsecttu3cgmmtsh3f/CCHSSchoolProfile25-26FinalforOnline.pdf) (PDF)',
+    'discovermacs.org — [Tuition & Affordability](https://www.discovermacs.org/admissions/tuitionandaffordability) (2026-27 schedule, fees, FIT, Clarity, multi-child discounts, OSP and ESA+, deadlines), retrieved 18 Aug 2026, with fees, payment plans and FIT dates re-read 22 Nov 2026; [2026-2027 Tuition and Fee Schedule](https://resources.finalsite.net/images/v1783870190/charlottecatholicorg/noikdbslslpxnkvxqrcc/2026-2027TuitionandFeeScheduleUPDATED.pdf) (PDF), retrieved 22 Nov 2026; catholicnewsherald.com — [Opportunity Scholarship coverage](https://catholicnewsherald.com/schools/94-news/schools/11321-apply-now-for-2025-26-opportunity-scholarships); [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/organizations/561779865) — MACS EIN 56-1779865 (religious-organization filing exemption); charlottecatholic.org — [School Profile 2025-2026](https://resources.finalsite.net/images/v1756128027/charlottecatholicorg/f5yfsecttu3cgmmtsh3f/CCHSSchoolProfile25-26FinalforOnline.pdf) (PDF)',
 }
 
 /* Trinity Episcopal School — a K–8 school, so two tuition bands rather than

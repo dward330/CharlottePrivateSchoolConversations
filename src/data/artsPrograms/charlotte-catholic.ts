@@ -120,7 +120,7 @@ export const charlotteCatholic: ArtsProgram = {
   theatre: {
     headline: 'Five Blumey finalists in 2025, five more placements in 2026 — and no win yet.',
     subhead:
-      'Fiddler on the Roof placed a finalist in every one of the five individual performance categories, which is a rare sweep of finalist placements for one production.',
+      'Fiddler on the Roof placed a finalist in each of the five individual performance categories.',
     seasonTitle: 'The documented production season',
     season: [
       { season: '2024–25', kind: 'Musical', detail: 'Fiddler on the Roof — five Blumey finalists, one in each individual performance category' },
@@ -144,7 +144,7 @@ export const charlotteCatholic: ArtsProgram = {
       { year: '2026', show: 'The Wizard of Oz', result: 'Finalist, Best Featured Performer — as Toto Puppeteer' },
     ],
     honestContext:
-      'CCHS has NOT won a Blumey in either year. That is verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here is steady and deep, but without wins: ten placements across two years. One student was recognized in both years (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing. The two productions above are pieced together from Blumey records, so the real season may well be larger than the school lets a family see.',
+      'CCHS has NOT won a Blumey in either year. That is verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here has come without wins: ten placements across two years. One student was recognized in both years (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing. The two productions above are pieced together from Blumey records, so the real season may well be larger than the school lets a family see.',
     sources: [
       { label: 'blumenthalarts.org — 2025 Blumey nominees and finalists (PDF)', url: BLUMEY25 },
       { label: 'blumenthalarts.org — 2026 Blumey nominees and finalists', url: BLUMEY26 },
@@ -185,11 +185,11 @@ export const charlotteCatholic: ArtsProgram = {
       },
     ],
     boardNote:
-      'Twelve ensembles carry course codes. Marching Band, Symphonic Band and Jazz Band run alongside them. Percussionists perform as members of the Symphonic Band in all concerts. Jazz Band is an after-school group, not a course in the school day.',
+      'Twelve choral, band and percussion ensembles carry course codes. The two guitar classes also carry codes, but they are not counted as ensembles. Marching Band, Symphonic Band and Jazz Band run alongside them. Percussionists perform as members of the Symphonic Band in all concerts. Jazz Band is an after-school group, not a course in the school day.',
     ladderTitle: 'The honors pipeline',
     ladder: [
       { label: 'Entry', text: 'Freshman Men’s or Women’s Chorus (301, 302) — a dedicated ninth-grade rung most schools do not staff separately.' },
-      { label: 'Development', text: 'Choral Ensemble (332), Concert Band (326), Percussion (372) — the open-enrollment middle of the program.' },
+      { label: 'Development', text: 'Choral Ensemble (332), Concert Band (326), Percussion (372) — the middle of the program, entered by prior experience or audition.' },
       { label: 'Selective', text: 'Women’s and Men’s Chamber Ensembles (304, 303) — auditioned single-sex groups.' },
       { label: 'Honors', text: 'Honors Chamber Ensembles (392, 357), Honors Wind Ensemble (394), Honors Percussion (373) — each carrying the extra quality point.' },
       { label: 'Terminal', text: 'Honors Concert Choir (361) — the co-ed top of the choral ladder.' },
@@ -250,14 +250,14 @@ export const charlotteCatholic: ArtsProgram = {
     holdsUp: [
       { label: 'It is the biggest department in the school', text: '39 of 199 courses — more than English, Science or Mathematics. That is a staffing commitment, not a brochure claim.' },
       { label: 'The honors ladder is real', text: 'Twelve Honors arts courses, each carrying the same +1 quality point as an Honors academic course, so four years in the music wing does not cost a student GPA.' },
-      { label: 'Recognition is consistent', text: 'Five Blumey finalists in 2025 — one in every individual performance category — and five more placements in 2026. Deep and repeated, across two different shows.' },
+      { label: 'Recognition in both years', text: 'Five Blumey finalists in 2025 — one in each individual performance category — and five more placements in 2026, from a different show.' },
       { label: 'The facility is purpose-built and recent', text: 'A 650-seat auditorium dedicated in 2022, with a darkroom, ceramics studio, broadcast studio and dance studio among nine named spaces.' },
       { label: 'Outside expertise is wired in', text: 'A Charlotte Symphony partnership supplying sectionals and private lessons, and a band that performs quadrennially in Dublin.' },
       { label: 'Be clear about the AP ceiling', text: 'AP Studio Art is the only AP arts course. No AP Music Theory, no AP Art History — the Honors rungs are the top of the ladder here.' },
     ],
     ask: [
       'The performances calendar shows "No showings" — where do families actually find the season, and can we see this year’s?',
-      'Twelve ensembles is a lot for 1,330 students: which are auditioned, and what proportion of applicants get in?',
+      'Twelve ensembles is a lot for 1,330 students: how many students audition for the auditioned groups, and what proportion get in?',
       'The Fine Arts Center serves all MACS schools — how often does that limit CCHS rehearsal or performance time?',
       'Honors ensembles carry a quality point. Is there any cap on how many arts Honors courses count toward the weighted GPA?',
       'Five Blumey finalists in 2025 and no win — what does the theatre program think is the gap?',

@@ -478,7 +478,7 @@ const COVENANT_DAY: ClubCatalog = {
   divisions: [
     {
       label: 'Middle & Lower School',
-      text: 'The Middle School Outreach Committee · Doulos Day, a middle school service day held twice a year · Goodness Gorillas, the 4th-grade service program at nearly twenty sites · the CDS Children’s Choir (grades 3–5).',
+      text: 'The Middle School Outreach Committee · Doulos Day, a middle school service day held twice a year · Goodness Gorillas, the 4th-grade service program at nearly twenty sites · the CDS Children’s Choir (grades 3–5 on the music page, grades 4–5 on the Lower School page).',
       tag: 'Documented',
     },
     {
@@ -560,7 +560,7 @@ const CARMEL_CHRISTIAN: ClubCatalog = {
     },
     {
       label: 'Spiritual life & traditions',
-      text: 'Chapel and tradition rather than clubs. The Ignite Praise Band leads Thursday chapel worship. The school year runs on these traditions: the Windy Gap retreat · See You at the Pole (led by the MS SGA and HS Student Council) · Spirit Week / Homecoming · J-Term (a graduation-requirement week that can include mission trips) · international missions trips.',
+      text: 'Chapel and tradition rather than clubs. The Ignite Praise Band leads Thursday chapel worship. The school year runs on these traditions: the Windy Gap retreat · See You at the Pole (led by the MS SGA and HS Student Council) · Spirit Week / Homecoming · J-Term in the 2021–22 handbook (a graduation-requirement week that can include mission trips; the 2026–27 requirements name a Mission Trip and Impact Week) · international missions trips.',
       tag: 'School-reported',
     },
   ],

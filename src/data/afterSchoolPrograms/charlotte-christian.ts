@@ -25,10 +25,10 @@ export const charlotteChristian: AfterSchoolProgram = {
     headline:
       'Lower School is covered to 6:00 p.m. and Middle School only to 5:00 p.m. — a full hour earlier, an unusually sharp split.',
     subhead:
-      'Two cheap "Bridge Care" tiers exist purely to close the gap between the JK-K bell and the grades 1–4 bell. Upper School has no after-school care at all.',
+      'Two short "Bridge Care" tiers cover the first 55 minutes after each Lower School bell: JK-K to 3:15, grades 1–4 to 3:35. Upper School has no after-school care at all.',
     hours: ['2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
     basisNote:
-      'The to-6:00 price is the **full-time monthly rate — 5 days a week**; 1–4 days a week runs $125–$295. **Bridge Care is a flat $125 a month whatever the day count**, which is what makes it such a cheap way to close the gap to the grades 1–4 bell. Open **The Cost Planner** below to price any combination.',
+      'The to-6:00 price is the **full-time monthly rate — 5 days a week**; 1–4 days a week runs $125–$295. **Bridge Care is a flat $125 a month whatever the day count**, and it covers JK-K to 3:15 and grades 1–4 to 3:35. Open **The Cost Planner** below to price any combination.',
     rows: [
       {
         division: 'JK & Kindergarten',
@@ -207,7 +207,7 @@ export const charlotteChristian: AfterSchoolProgram = {
 
   dayInside: {
     headline:
-      'Charlotte Christian publishes an actual timed daily schedule, which few schools do, and it protects a 45-minute homework block in both divisions.',
+      'Charlotte Christian publishes an actual timed daily schedule, which few schools do, and it protects a homework block in both divisions: 45 minutes in Lower School, 30 in Middle School.',
     subhead:
       'The Middle School program deliberately splits students into separate age groups. The school says it is "tailored to the developmental needs of our two distinct cohorts — grades 5 and 6, and grades 7 and 8."',
     rhythmTitle: 'The Lower School afternoon, as published',
@@ -283,12 +283,12 @@ export const charlotteChristian: AfterSchoolProgram = {
 
   verdict: {
     headline:
-      'An unusually transparent program — a published schedule, a protected homework block, and a genuinely clever Bridge Care tier — wrapped around rates that have risen very fast.',
+      'An unusually transparent program — a published schedule, a protected homework block, and two short, low-cost Bridge Care tiers — wrapped around rates that have risen very fast.',
     subhead:
       'The two hard edges are the split 5:00/6:00 deadlines between divisions and a club catalog you cannot see until you are already a parent.',
     strengths: [
-      '**A published, structured daily rhythm** for both divisions, with a protected 45-minute homework and reading block. Few schools publish their after-school schedule at all.',
-      '**Bridge Care is a real cost innovation** — $125/month to bridge the JK-K 2:20 bell to the grades 1–4 bell, instead of forcing a family onto a full $325 plan.',
+      '**A published, structured daily rhythm** for both divisions, with a homework and reading block: 45 minutes in Lower School, 30 in Middle School. Few schools publish their after-school schedule at all.',
+      '**Bridge Care is a low-cost option.** It is $125/month for care to 3:15 in JK-K or 3:35 in grades 1–4, instead of a full $325 plan.',
       '**Middle School is pay-as-you-go at $8/hour with automatic registration** — no commitment, no form, no minimum. For occasional users this is far friendlier than a monthly tier.',
       '**The MS program splits into separate age groups**: grades 5–6 and 7–8. The split matters at these ages, since putting 8th and 5th graders in one room often goes badly.',
       '**Coverage to 6:00 p.m. for JK–4** is among the later end times in this market, and it is a hard, clearly stated cutoff.',
@@ -313,7 +313,7 @@ export const charlotteChristian: AfterSchoolProgram = {
       'Is the 3:05 auto-drop-in rule enforced strictly, and is there any grace period?',
       'Can I switch tiers mid-year, and is there proration when we do?',
       'Is there any before-school care beyond free 7:15 a.m. campus access?',
-      'How much homework actually gets finished in the 45-minute block — is there active help, or is it supervision only?',
+      'How much homework actually gets finished in the homework block — is there active help, or is it supervision only?',
       'For Middle School: how are the 5–6 and 7–8 groups physically separated, and what happens between 5:00 p.m. and a later pickup?',
       'Does Extended Day run on early-dismissal days automatically, or must we opt in for the $25?',
     ],

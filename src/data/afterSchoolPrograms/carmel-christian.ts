@@ -204,7 +204,7 @@ export const carmelChristian: AfterSchoolProgram = {
         time: '3:00',
         name: 'Into After Care',
         detail:
-          'YCC children move into After School care alongside grades 1–8; Middle School students arrive by 3:30',
+          'YCC children move into After YCC care; Middle School students arrive by 3:30',
       },
       {
         time: '5:00',

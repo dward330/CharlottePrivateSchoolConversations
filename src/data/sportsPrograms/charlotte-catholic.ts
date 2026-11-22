@@ -148,7 +148,7 @@ export const charlotteCatholic: SportsProgram = {
   },
 
   record: {
-    headline: '79 state championships since 2000 — and four more in 2026 alone.',
+    headline: '79 state championships since 2000 — four of them in 2026 alone.',
     subhead:
       'Girls soccer went undefeated; both lacrosse programs won in overtime, each ending a twelve-year drought. All NCHSAA titles.',
     seasonLabels: ['2024', '2025', '2026'],
@@ -220,7 +220,7 @@ export const charlotteCatholic: SportsProgram = {
       },
     ],
     didNotWin:
-      'The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season list of titles, so a blank cell means "no title found for that year", not a verified loss. The 79-title total since 2000 is the school’s own figure and spans far more sports than these four.',
+      'The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season list of titles, so a blank cell means "no title found for that year", not a verified loss. The 79-title total since 2000 is the school’s own figure and spans far more sports than the nine shown here.',
     bars: [
       { program: 'Boys lacrosse (2026)', record: '21–3', pct: 0.875, tag: 'STATE' },
       { program: 'Baseball (2025)', record: '22–6–1', pct: 0.776 },
@@ -276,7 +276,7 @@ export const charlotteCatholic: SportsProgram = {
     realityCheck:
       'Baseball is now the school’s deepest pipeline, with 13 of 54 documented athletes. They include Power Four signees at Duke, North Carolina, Virginia Tech, Arizona and NC State across three classes. Football and lacrosse follow with 11 each, and both lacrosse programs won state titles in 2026.',
     rankedRecruits:
-      'Three football signees carry 247Sports Composite ranks. Among them, Jack Larsen (Notre Dame) was No. 15 in North Carolina in the Class of 2024. No CCHS athlete in these classes was a national top-100 recruit.',
+      'Four football signees carry 247Sports Composite ranks. Among them, Jack Larsen (Notre Dame) was No. 15 in North Carolina in the Class of 2024. No CCHS athlete in these classes was a national top-100 recruit.',
     roster: [
       { cls: "'26", name: 'Alex Hoffman', sport: 'Baseball', college: 'Virginia Tech', conf: 'ACC', level: 'P4' },
       { cls: "'26", name: 'Quinn O’Rourke', sport: 'Baseball', college: 'University of Arizona', conf: 'Big 12', level: 'P4' },

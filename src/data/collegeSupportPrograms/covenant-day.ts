@@ -17,7 +17,13 @@
 import type { CollegeSupportProgram } from '../collegeSupport.ts'
 
 const GUIDANCE = 'https://www.covenantday.org/academics/college-guidance'
+// Two 2026-2027 editions. August 2026 is the one the college-guidance page links
+// (74% advanced degrees, 3.5 units of Bible). July 2026 is still served and is the
+// only one printing the staff table, 85 seniors, AP gating, the 4-or-5 share, the
+// AP Scholar tiers and the five-year SAT/ACT averages.
 const PROFILE_2627 =
+  'https://resources.finalsite.net/images/v1788450343/covenant/xsfiowwd1hd8ooel8svi/2026-2027HSGuidanceProfile.pdf'
+const PROFILE_2627_JULY =
   'https://resources.finalsite.net/images/v1758547252/covenant/x8i0qddxvctsp5jqbpmt/2025-26HSGuidanceProfile.pdf'
 const PROFILE_2425 =
   'https://resources.finalsite.net/images/v1726168257/covenant/jg1wjr67fw5ewgwy5bkz/2024-2025HSGuidanceProfilefinal_1.pdf'
@@ -154,7 +160,7 @@ export const covenantDay: CollegeSupportProgram = {
       { value: '96%', label: 'of AP exams scored 3+ in 2026 (401 exams, 179 students)' },
       { value: '78%', label: 'of AP scores were a 4 or 5' },
       { value: '1263 / 26', label: 'Class of 2026 SAT / ACT averages' },
-      { value: '80%', label: 'of HS faculty hold advanced degrees' },
+      { value: '74%', label: 'of HS faculty hold advanced degrees' },
     ],
     meritTitle: 'The five-year AP line, as the profile charts it',
     merit: [
@@ -171,7 +177,7 @@ export const covenantDay: CollegeSupportProgram = {
       { label: 'Weighting', text: 'A+ = 4.33 unweighted; Honors +0.5; Dual Enrollment and AP +1.0. GPA computed on all subjects, grades 9–12.' },
       { label: 'AP gating', text: 'No AP for freshmen; sophomores capped at one. The profile itself calls two junior-year and four senior-year APs "a very demanding course load."' },
       { label: 'Dual enrollment', text: 'Honors Calculus, Statistics, and Literature & Philosophy carry Covenant College credit; SevenStar Academy extends the catalog online, noted on the transcript.' },
-      { label: 'Graduation', text: '25 Carnegie Units, including 3 units of Bible (a Bible course every year) and a Fine Arts unit.' },
+      { label: 'Graduation', text: '25 Carnegie Units, including 3.5 units of Bible (a Bible course every year) and a Fine Arts unit.' },
     ],
     trustTitle: 'Why colleges can read the grades',
     trust: [
@@ -185,9 +191,10 @@ export const covenantDay: CollegeSupportProgram = {
       },
     ],
     sources: [
-      { label: 'High School Profile 2026–2027 (PDF)', url: PROFILE_2627 },
+      { label: 'High School Profile 2026–2027, August edition (PDF)', url: PROFILE_2627 },
       { label: 'High School Profile 2024–2025 (PDF)', url: PROFILE_2425 },
       { label: 'High School Profile 2023–24 (PDF)', url: PROFILE_2324 },
+      { label: 'High School Profile 2026–2027, July edition (AP gating, 4-or-5 share, PDF)', url: PROFILE_2627_JULY },
     ],
   },
 
@@ -271,7 +278,7 @@ export const covenantDay: CollegeSupportProgram = {
     sources: [
       { label: 'covenantday.org — College Guidance (roster, bios)', url: GUIDANCE },
       { label: 'covenantday.org — High School academics', url: HS_ACADEMICS },
-      { label: 'High School Profile 2026–2027 (85 seniors, staff table)', url: PROFILE_2627 },
+      { label: 'High School Profile 2026–2027, July edition (85 seniors, staff table)', url: PROFILE_2627_JULY },
     ],
   },
 
@@ -291,7 +298,7 @@ export const covenantDay: CollegeSupportProgram = {
       { tier: 'Ivy League', count: '2 / 8', note: '— Dartmouth, Penn; both bolded (matriculated)' },
       { tier: '“Ivy Plus”', count: '3 / 17', note: '— adds Duke, also bolded' },
       { tier: 'Top-75 National Universities', count: '36 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '10 / 75', note: '— Davidson through Gettysburg' },
+      { tier: 'Top-75 Liberal Arts', count: '10 / 75', note: '— Air Force Academy (#11) through Bard (#72)' },
       { tier: 'Power Four', count: '46 / 68', note: '— 14 ACC · 12 SEC · 11 Big Ten · 9 Big 12' },
       { tier: 'HBCUs', count: '3 / 107', note: '— Fayetteville State, Johnson C. Smith, NC A&T' },
     ],
@@ -557,7 +564,7 @@ export const covenantDay: CollegeSupportProgram = {
         glyph: '◆',
         items: [
           'A named high-school department with its own director (Dr. Rebeca Burnett) — an unusual structure',
-          'Course ladder: Augustine Literacy Project, Intercultural Practicum, Introduction to Engineering, Restore525',
+          'Course ladder: Augustine Literacy Project, ContainIt, Intercultural Practicum, Introduction to Engineering, Restore525',
           'The profile gives it a stand-alone descriptive block — a transcript line few applicants carry',
         ],
       },
@@ -658,7 +665,7 @@ export const covenantDay: CollegeSupportProgram = {
       },
     ],
     sources: [
-      { label: 'High School Profile 2026–2027', url: PROFILE_2627 },
+      { label: 'High School Profile 2026–2027, July edition', url: PROFILE_2627_JULY },
       { label: 'High School Profile 2024–2025', url: PROFILE_2425 },
       { label: 'High School Profile 2023–24', url: PROFILE_2324 },
     ],
@@ -677,7 +684,7 @@ export const covenantDay: CollegeSupportProgram = {
       },
       {
         label: 'A heavy caseload',
-        text: 'One dedicated college counselor for 85 seniors — cushioned by a director at Covenant Day since 2003, with NACCAP standing, but a ratio a parent should ask about directly.',
+        text: 'One dedicated college counseling director for 85 seniors. The director has been at Covenant Day since 2003, has NACCAP standing, and is backed by a guidance counselor and an assistant. Ask about the ratio directly.',
       },
       {
         label: 'You can actually see where graduates enrolled',
@@ -695,7 +702,7 @@ export const covenantDay: CollegeSupportProgram = {
     checklist: [
       'How does one director manage 85 seniors at peak season — what does the junior spring / senior fall calendar actually look like?',
       'Which platform do families use — Naviance, Scoir, something else — and when do students get access?',
-      'Which AP courses will actually run next year? The matrix moved from 18 to 15 between editions.',
+      'Which AP courses will actually run next year? The profile’s matrix moved from 18 to 15 between editions, while the academics page lists 17.',
       'What did last year’s class look like beyond the averages — how many tested, and where did the middle of the class land?',
       'How does the NC Opportunity Scholarship prerequisite interact with the aid timeline for a family also applying elsewhere?',
     ],

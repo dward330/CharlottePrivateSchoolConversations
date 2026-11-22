@@ -26,7 +26,7 @@ export const carmelChristian: SportsProgram = {
     headline:
       '9 varsity sports across 29 teams — a focused Cougars program in NCISAA 4A, the top private-school classification.',
     subhead:
-      'Boys’ basketball, soccer, volleyball and baseball carry a JV and Middle School ladder; there is no football, lacrosse or track on the current offered list.',
+      'Boys’ basketball, boys’ and girls’ soccer, girls’ volleyball and baseball carry a JV and Middle School ladder. There is no football, lacrosse or track on the current offered list.',
     stats: [
       { value: '9', label: 'distinct varsity sports' },
       { value: '29', label: 'teams across V · JV · MS' },

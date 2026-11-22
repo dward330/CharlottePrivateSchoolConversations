@@ -26,7 +26,7 @@ implementing app should attribute the 2024 ledger to **Anastasia**.
 | S7 | https://carmelchristian.org/apps/news/show_news.jsp?REC_ID=910928&id=0 | 2024-25 theatre season |
 | S8 | https://carmelchristian.org/apps/news/show_news.jsp?REC_ID=791781&id=0 | Earlier "Singin' in the Rain" Blumey noms (undated) |
 | S9 | https://www.blumenthalarts.org/assets/doc/2024-Blumey-Nominees-and-Finalists-6435d5b18b.pdf | 2024 Blumey official nominee/finalist PDF (Anastasia ledger) |
-| S10 | https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards | 2026 Blumey nominees/finalists — Footloose (6 across 5 categories) |
+| S10 | https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards | 2026 Blumey nominees/finalists — Footloose (6 placements in 6 categories) |
 | S11 | https://www.wfae.org/arts-culture/2026-05-18/blumey-awards-winners-announced | 2026 Best Actress WIN — Anna Jernigan (Footloose) |
 
 ## Metrics
@@ -81,8 +81,8 @@ Oklahoma! (HS). 2025-26 (S6): Disney's High School Musical, Jr. (Nov 14-15 2025)
 Jernigan won Best Actress for her performance in 'Footloose.'" Ceremony May 17 2026 at Belk
 Theater; winner advances to the Jimmy Awards. Anna Jernigan's arc: 2024 Best Actor finalist
 (Lily, Anastasia) → 2026 Best Actress winner (Footloose). *(In 2024 she's listed under
-"Finalists for Best Actor" — verbatim from the official PDF, likely a Blumenthal labeling
-quirk; TO VERIFY.)*
+"Finalists for Best Actor" in our first extraction. That category was our error, not a
+Blumenthal labeling quirk: see Method.)*
 
 ## Card 3 — Music
 
@@ -130,3 +130,8 @@ TO VERIFY (curriculum guide / campus map).
 - https://www.blumenthalarts.org/assets/doc/2024-Blumey-Nominees-and-Finalists-6435d5b18b.pdf (fetched 2026-11-22, `pdftotext -layout`, headings re-read). Anastasia: top-six nominees are Best Featured Performer (Ballet Lead) and Best Supporting Actor (Vlad). Finalists are Best Actor (Dmitry), Best Actress (Lily), Best Supporting Actor (Vlad), Best Supporting Actress (Dowager Empress) and Best Featured Performer (Ballet Lead). The ledger above assigned three of these to the wrong category. Lily is under "Finalists for Best Actress", so there is no labeling quirk.
 - https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf (fetched). Carmel Christian, Oklahoma!: one finalist in each of the five performance categories. The ledger above omits that year.
 - https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards (fetched). Footloose: six placements in six categories (Best Choreography Execution, Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress, Best Featured Performer).
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- The six 2026 placements in the ledger above sit in six different categories (recount).
+- The 2024 category corrections and the 2025 row are NOT built: blumenthalarts.org refused a fetch in this round, and carmelchristian.org is not fetchable. The app now names the 2024 roles without categories.

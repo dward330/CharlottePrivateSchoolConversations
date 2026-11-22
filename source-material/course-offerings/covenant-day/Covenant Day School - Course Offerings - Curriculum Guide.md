@@ -34,6 +34,7 @@
 
 ### Counting rules (decisions, recorded per the plan)
 
+- *(Superseded 2026-11-22: the app counts 89, and the August 2026 profile matrix totals 79, with no CP Statistics. See the High School Course and Elective Offerings record.)*
 - **`us-courses` = 80** — level-qualified course entries in the 2026-2027 matrix
   (a title offered at CP, Honors and AP counts once per level, matching how the
   other schools' catalogs list courses). Distinct titles ≈ 65.

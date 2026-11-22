@@ -89,10 +89,11 @@
 // NO URL-LESS TRAILING NOTE IN `sources` (2026-09-01), following PR #258 —
 // prose paragraphs in a row of citation links read as broken links. The
 // NOT-PUBLISHED register (Grade 12 entry, waitlist and sibling/legacy preference, transfer and mid-year entry, F-1/I-20 and
-// English-proficiency requirements, any reduced deposit for aid applicants, the
-// FACTS aid application fee, 2027–28 tuition) lives in this header and in the
-// research file. Each gap that a parent would act on is also named at the point
-// it matters — the aid strip says the fee and reduced deposit are unpublished.
+// English-proficiency requirements, 2027–28 tuition and aid dates) lives in
+// this header and in the research file. Each gap that a parent would act on is
+// also named at the point it matters. The $45 FACTS aid fee and the half
+// deposit for aid applicants ARE published, in the 2026–27 packet and terms
+// (plan consistency4, COV-T1).
 //
 // COME SEE COVENANT TIMES ARE PUBLISHED — on the event's own page,
 // /admissions/comeseecovenant (both Thursday, 9:30–11:30 a.m.; verified
@@ -523,7 +524,7 @@ export const covenantDay: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid is **need-based** and runs through **FACTS**, with **a new application required each year**. There is also one unusual step you must complete first. To be eligible for aid from Covenant Day, **families must first provide proof of application for the NC Opportunity Scholarship**. File the aid application **at the same time as the admissions application**, not after a decision. Enrollment carries a **$1,000 non-refundable deposit** per student, applied toward tuition. **The FACTS application fee and any reduced deposit for aid applicants are not published**.',
+      text: 'Aid is **need-based** and runs through **FACTS**, with **a new application required each year**. There is also one unusual step you must complete first. To be eligible for aid from Covenant Day, **families must first provide proof of application for the NC Opportunity Scholarship**. File the aid application **at the same time as the admissions application**, not after a decision. Enrollment carries a **$1,000 non-refundable deposit** per student, applied toward tuition. **The FACTS application costs $45.** A family that completes an aid application before enrolling can ask to pay **half the deposit**.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -642,7 +643,7 @@ export const covenantDay: AdmissionsProgram = {
           'Before you can be considered, you must provide proof of application for the NC Opportunity Scholarship. Covenant Day accepts the NC Opportunity and ESA+ Scholarships, which are run by the North Carolina State Education Assistance Authority.',
           'Complete the aid application concurrently with the admissions application rather than waiting for a decision.',
           'Enrollment carries a $1,000 non-refundable deposit per student, applied toward the year’s tuition.',
-          'The FACTS application fee and any reduced deposit for aid applicants are not published — confirm both with the student accounts office.',
+          'The FACTS application costs $45. A family that completes an aid application before enrolling can ask the Business Office to halve the deposit. Both rules are from the 2026–27 documents, so confirm them for 2027–28.',
         ],
       },
       contactPanel: {
@@ -688,6 +689,11 @@ export const covenantDay: AdmissionsProgram = {
         label:
           'covenantday.org — tuition and financial aid: the $1,000 enrollment deposit, need-based aid through FACTS, the NC Opportunity Scholarship precondition, and the ESA+ and NCSEAA participation',
         url: 'https://www.covenantday.org/admissions/tuition-financial-aid',
+      },
+      {
+        label:
+          'covenantday.org — Financial Aid Information Packet 2026-2027 (PDF): the $45 FACTS application charge and the half deposit for aid applicants',
+        url: 'https://resources.finalsite.net/images/v1768487046/covenant/i3e3yxqehr2pidswgeyq/FinancialAidatCovenantDay-2026-27.pdf',
       },
       {
         label:

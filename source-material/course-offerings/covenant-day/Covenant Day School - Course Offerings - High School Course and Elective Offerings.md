@@ -206,3 +206,8 @@ Student Assistant
 - https://www.covenantday.org/academics/college-guidance now links https://resources.finalsite.net/images/v1788450343/covenant/xsfiowwd1hd8ooel8svi/2026-2027HSGuidanceProfile.pdf (PDF created 2026-08-21; fetched). It replaces the earlier 2026-2027 edition (https://resources.finalsite.net/images/v1758547252/covenant/x8i0qddxvctsp5jqbpmt/2025-26HSGuidanceProfile.pdf, modified 2026-07-24; also fetched). The new edition reads "74% of the full-time high school faculty hold advanced degrees" (earlier: 80%), "3.5 units of Bible" and "5 units of electives" (earlier: 3 and 5.5). Its matrix keeps Honors Psychology, Theatre Tech and Intercultural Practicum, and has no CP Statistics (the earlier edition had it).
 - https://www.covenantday.org/arts/theater (fetched): "Theater I-II". The Arts tile lists one course, "Theatre".
 - https://www.covenantday.org/arts/music (fetched): "CDS Children's Choir (grades 3-5)". The Lower School Specials tile (`/fs/elements/40062?is_popup=true&post_id=673&show_post=true`, fetched): "4th & 5th grade students interested in singing can join the children’s choir."
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- All nine tiles and the August 2026 profile re-opened. The tiles total 86. The profile matrix totals 79 and 15 AP. The union shown in the app is 89: 86 plus Psychology Honors, Theatre Tech and Intercultural Practicum.
+- CP Statistics is on neither current source and was removed.

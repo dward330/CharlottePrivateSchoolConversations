@@ -319,3 +319,8 @@ Fetched (HTTP 200, full text):
 
 - https://resources.finalsite.net/images/v1780338464/charlotte/ahr13amhtgtsrxgzpuwt/ExtendedDayPacket.pdf (fetched 2026-11-22). Lower School: "3:45 - 4:30 p.m. Homework/Reading"; "JK-K Bridge Care (2:20-3:15 p.m.) $125/month"; "Grades 1-4 Bridge Care (2:40-3:35 p.m.) $125/month".
 - https://resources.finalsite.net/images/v1749660643/charlotte/qoqgaekh4yy1z74sy0m3/MSExtendedDay-ParentInformation1.pdf (fetched). Middle School: "4:00-4:30 p.m. Homework/Reading", a 30-minute block, then "4:30-5:00 p.m. Recreational Reading/Free Play/Homework".
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- Both packets re-opened. Bridge Care covers 55 minutes after each Lower School bell (2:20–3:15, 2:40–3:35), so "bridge the JK-K bell to the grades 1–4 bell" above is superseded.
+- The homework block is 45 minutes in Lower School (3:45–4:30) and 30 in Middle School (4:00–4:30), so "45-minute block" above is the Lower School figure only.

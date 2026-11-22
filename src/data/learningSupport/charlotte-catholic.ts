@@ -141,7 +141,7 @@ export const charlotteCatholic: LearningSupportProgram = {
 
   services: {
     headline:
-      'Every service the school’s pages describe, grouped and coded by who delivers it. Academic Achievement support is included in tuition; the Options Program has its own tuition rate. Pick your child’s need to see what applies.',
+      'Every service the school’s pages describe, grouped and coded by who delivers it. Academic Achievement has no published fee; the Options Program has its own tuition rate. Pick your child’s need to see what applies.',
     verdicts: {
       read: {
         head: 'Accommodations and small-group support, but no named reading method.',

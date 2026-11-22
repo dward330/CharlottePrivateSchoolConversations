@@ -79,7 +79,7 @@ export const charlotteChristian: ClubsProgram = {
       },
       {
         title: 'Middle School',
-        text: 'Cross-cultural development through curriculum, heritage month celebrations and field trips — grade 6 to Sudan Interior Missions, grade 7 to the Holocaust Museum, grade 8 to Civil Rights activities.',
+        text: 'Students learn about other cultures in class, in heritage months and on field trips. Grade 6 visits Sudan Interior Missions. Grade 7 visits the Butterfly Memorial dedicated to the Holocaust Museum. Grade 8 has activities on the Civil Rights Movement.',
       },
       {
         title: 'Parents',
@@ -142,7 +142,7 @@ export const charlotteChristian: ClubsProgram = {
     flags: [
       {
         kind: 'not-a-club',
-        text: 'Winterim trips are a graduation requirement and a travel program. Kingdom Impact Day is a service day for a whole division. The Multicultural Festival is a yearly all-school event. Cross-Cultural Communications service is a class doing service. Vocational Shadowing and the Alternative Winterim Experience are arranged for each student, through the family. None is a club.',
+        text: 'Winterim trips are a graduation requirement and a travel program. Kingdom Impact Day is a service day for a whole division. The Multicultural Festival is a yearly event tied to Lower School Spanish. Cross-Cultural Communications service is a class doing service. Vocational Shadowing and the Alternative Winterim Experience are arranged for each student, through the family. None is a club.',
       },
       {
         kind: 'gap',

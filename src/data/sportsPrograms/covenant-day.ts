@@ -354,7 +354,7 @@ export const covenantDay: SportsProgram = {
     headline:
       'The college counseling director has coached varsity volleyball since 2003 (22 seasons through 2024) — and the new athletic director was promoted from high school principal.',
     subhead:
-      'Athletic Director: Mike Freace. Continuity here is generational: two current signees are children of the AD and the guidance counselor.',
+      'Athletic Director: Mike Freace. Continuity here is generational: two Class of 2025 signees are children of the AD and the guidance counselor.',
     featured: [
       {
         kicker: 'The continuity anchor · Volleyball, since 2003',

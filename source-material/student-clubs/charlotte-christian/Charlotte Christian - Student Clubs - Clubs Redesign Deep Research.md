@@ -183,7 +183,7 @@ as such rather than counted in any club roster:
 
 - **Winterim trips** — a graduation requirement and travel program.
 - **Kingdom Impact Day** — a division-wide service day.
-- **Multicultural Festival** — an annual all-school event (organized by Global Knights).
+- **Multicultural Festival** — an annual event tied to Lower School Spanish (organized by Global Knights).
 - **Cross-Cultural Communications service** — a class doing service; explicitly curricular.
 - **Vocational Shadowing / Alternative Winterim Experience** — individually arranged and
   family-brokered; explicitly individual.

@@ -91,7 +91,7 @@ school's highest published tier, consistent with how that row is defined for oth
 | Fee | Amount |
 | --- | --- |
 | Application fee | **$120 per student** |
-| Continuous enrollment fee | **$150 per returning student** |
+| Continuous enrollment fee | **$150 per new student**; per returning student, **$150** on the web page and **$75** in the PDF schedule |
 | **Capital fee** | **$1,995 per family** |
 | FACTS payment plan fee | **$15–$45 per family** |
 
@@ -115,3 +115,9 @@ Fetched https://www.discovermacs.org/admissions/tuitionandaffordability (HTTP 20
 
 - https://www.discovermacs.org/admissions/tuitionandaffordability (fetched 2026-11-22). Continuous Enrollment Fee: "$150 per new student", "$150 per returning student", "$75 per PK student". Capital Fee: "Assessed annually to each family". Payment plans: Annual (June 20th), Semi-Annual (June 20th & December 20th), Quarterly, Monthly, "Monthly-10** 20th of each month (skip December & May)". "credit & debit cards are subject to a 2.95% service fee". Important Dates: "November 2026: 2027-28 FIT applications open"; "3/16/27: 2027-28 FIT determinations emailed to families whose FIT applications are completed by 3/1/27". Participating Catholic requirements are listed (registered parish, Mass attendance, service, sacraments, verified by the parish).
 - https://resources.finalsite.net/images/v1783870190/charlottecatholicorg/noikdbslslpxnkvxqrcc/2026-2027TuitionandFeeScheduleUPDATED.pdf (fetched, image read). Continuous Enrollment Fee: "$150 per new student", "$150 per PK student", "$75 per returning student". The PDF and the web page swap the PK and returning figures.
+
+### Re-verification 2026-11-22 (plan consistency4, implement)
+
+- https://www.discovermacs.org/admissions/tuitionandaffordability re-opened: Semi-Annual, Quarterly and Monthly-10 plans "are only offered for enrollments completed before June 10th"; Quarterly is "June 20th, Sept. 20th, Dec. 20th, & Mar. 20th"; parishes "generally require up to six months of verified active engagement".
+- The page gives no percentage of tuition for ESA+ or the Opportunity Scholarship.
+- https://resources.finalsite.net/images/v1783870190/charlottecatholicorg/noikdbslslpxnkvxqrcc/2026-2027TuitionandFeeScheduleUPDATED.pdf re-opened (image read): "$150 per new student", "$75 per returning student".
