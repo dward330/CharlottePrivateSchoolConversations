@@ -81,7 +81,7 @@ waiting for music lessons may "work on homework at no charge."
 first 5 minutes, then $5 per additional 5-minute increment.**
 
 **Registration and staff.** Register via the **Popsicle** app. Contacts: **Letty Jimenez**
-(980.502.5817) and **Traci Harbin**. Registration is free and stated as taking under five
+(980.502.5817, Ljimenez@gastonday.org) and **Julie Dellibovi** (jdellibovi@gastonday.org). Registration is free and stated as taking under five
 minutes.
 
 **Enrichment.** Enrichment programmes are listed as "coming soon" on the page at the time of
@@ -128,6 +128,13 @@ Opened 2026-11-22 (curl, HTTP 200).
  https://www.gastonday.org/afterschoolprogram/ both give $100 and $60 a week and a 5:30 close. The page bills
  monthly, and the registration links go to popsicle.app.
 - Derived: 36 assumed weeks x $100 = $3,600 (Lower School) and 36 x $60 = $2,160 (Middle School).
+
+### Re-verification 2026-11-22 (plan consistency4, implement): staff contacts
+
+- https://www.gastonday.org/afterschoolprogram/ (HTTP 200) lists Letty Jimenez (980.502.5817,
+ Ljimenez@gastonday.org) and says "Please contact Julie Dellibovi jdellibovi@gastonday.org if you have
+ any questions or concerns."
+- The second contact this record carried before is no longer on the page, so the card follows the page.
 
 
 ---

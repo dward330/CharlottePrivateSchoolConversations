@@ -873,7 +873,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     middle: [
       {
-        label: 'The list matches the distribution',
+        label: 'The list spans selective and less selective colleges',
         text: 'The colleges where students enrolled are not just a top-25 highlight reel. Appalachian State, East Carolina, UNC–Charlotte, High Point, Queens, Liberty, Tampa, Mississippi, Kentucky and Southwest Minnesota State all appear. **55% of the Class of 2026 enrolled at public universities**, and 32% stayed in North Carolina.',
       },
       {

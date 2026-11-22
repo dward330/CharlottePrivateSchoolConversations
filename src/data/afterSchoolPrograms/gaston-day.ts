@@ -74,7 +74,7 @@ export const gastonDay: AfterSchoolProgram = {
       },
       {
         label: 'Staff contacts',
-        text: '**Letty Jimenez** (980.502.5817) and **Traci Harbin**.',
+        text: '**Letty Jimenez** (980.502.5817, Ljimenez@gastonday.org) and **Julie Dellibovi** (jdellibovi@gastonday.org).',
       },
       {
         label: 'Music lessons interlock',

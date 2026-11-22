@@ -793,7 +793,7 @@ export const providenceDay: CollegeSupportProgram = {
         items: [
           '**Global Studies Diploma** — “the first of its kind in the country”. It begins in 9th grade and requires a world language all four years. It also requires globally focused courses, a cross-cultural experience and a personal portfolio. The final course, Global Leadership, ends in a long research paper. **375 graduates since 2007**, 23 in the Class of 2026 alone.',
           '**Diploma in Entrepreneurial Studies** — new for 2026, sitting inside IDEAS@PD (Innovation, Design, Entrepreneurship, Analytics, Sustainability) with industry-certification opportunities and business partnerships.',
-          '**Required 30-hour Senior Project internship** — every student must complete it to graduate, so every graduate leaves with documented work experience. The school deliberately has *no* community-service requirement.',
+          '**Required 30-hour Senior Project internship** — every student must complete it to graduate, so every graduate leaves with documented work experience. The school deliberately has no community-service requirement.',
           '**Recruiting & arts tracks** — “Facts About Athletic Recruiting” and “Studying the Arts in College” sessions run in alternating years. The Class of 2026 sent 31 student-athletes to college sport, 13 at Division I.',
         ],
         note:

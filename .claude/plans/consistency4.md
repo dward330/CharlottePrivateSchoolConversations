@@ -364,5 +364,14 @@ The design re-capture is done and verified. The English awaits the user's review
 3. **Country Day's Compare cell:** now "2 Blumey wins (2022)".
 4. **Missing award history** (Gaston Day, older years at five schools): next round, consistency5.
 
-**Found, not fixed, preexisting:** literal markdown asterisks render in Providence Day College
-Support, The Applicant's Edge, Senior Project row ("has *no* community-service requirement").
+### Late fixes, approved by the user 2026-11-22 after the English approval
+
+1. **Literal asterisks removed** from four spans on three College Support pages (Providence Day,
+   Davidson Day ×2, Charlotte Catholic). Drop them from the translations too.
+2. **Country Day:** "The list matches the distribution" is now "The list spans selective and less
+   selective colleges", the PD-T11 label.
+3. **Gaston Day College Support:** 20 colleges now carry `enrolling` (the profile's bold = Class of
+   2025 enrolled). The subhead, list legend, gap flag and checklist question follow.
+4. **Gaston Day After School:** the contacts follow the live page, with both published emails.
+5. **Latest News:** student names shown there live are not a finding (CLAUDE.md, PR #519). Never copy
+   one into a file.
