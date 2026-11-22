@@ -609,7 +609,7 @@ Latin admissions strings to translate.
 - `.claude/docs/INDEX.md` (two new records) was left out of `6cbc68a5` and is committed here.
 - Latin's "transport page sits a year behind" was re-checked: the live page still reads "Bus
   Service Annual Fees 2025-26", $1,800 / $900 / $450.
-- The shipped source lines hold 228 links (`fa-source-links.json` → `current`).
+- The shipped source lines hold 230 links, all rendering in Chrome (`fa-source-links.json` → `current`).
 - The fixes from the last review pass had no reviewer (two-pass cap); the rescan covers them.
 - **A bug in the last review pass's fix, found at close-out and fixed.** The edit for its item 3
   anchored on the first `fa-numbers` section in the file, which is Covenant Day's. So
