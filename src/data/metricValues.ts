@@ -2208,7 +2208,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': 'JK–Grade 12', // rising grades, Little Lion/Cub Camp at the bottom to HS strength & college camps
       'carmel-christian': 'rising K–8', // Summer Adventures
       'davidson-day': null,
-      'hickory-grove-christian': 'rising 1–8, 11–12', // Summer 2023: camps rising 1st–8th + the HS College Admissions Boot Camp (11–12)
+      'hickory-grove-christian': 'rising 1–8, plus 11th and 12th', // Summer 2023: camps rising 1st–8th + the HS College Admissions Boot Camp (11–12)
       'gaston-day': 'rising PK–Grade 12', // Camp Spartan Jr from rising PK; tutoring to rising 12th; Nike camps by age (8-17)
       'providence-day': '4–18', // four by January 1, 2026; About page says 4.5 to 18
     },
