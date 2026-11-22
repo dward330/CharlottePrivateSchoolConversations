@@ -84,7 +84,7 @@ Source URLs:
 - https://charlotteprep.org/community/news/stories/prep-players-present-alice
 - https://charlotteprep.org/community/news/stories/prep-8th-grader-accepted-at-walnut-hill-school-for-the-arts
 - https://charlotteprep.org/community/news/stories/a-stage-set-for-success
-- https://charlotteprep.org/community/news/stories/liam-s-prep-story (a student's account: "By winter, I tried out for the musical", followed by a role in Willy Wonka Jr.; student not named here)
+- https://charlotteprep.org/community/news/stories/name-withheld (a student's account: "By winter, I tried out for the musical", followed by a role in Willy Wonka Jr.; student not named here)
 - https://charlotteprep.org/student-life/fine-arts
 - https://charlotteprep.org/student-life/life-at-prep
 - https://charlotteprep.org/support/the-prep-fund

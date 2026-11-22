@@ -65,7 +65,7 @@ How the data was gathered:
 Source URLs:
 - https://charlotteprep.org/community/news/stories/model-un-club-awarded-at-conference
 - https://charlotteprep.org/community/news/stories/sparking-debate-to-grow-critical-thinking
-- https://charlotteprep.org/community/news/stories/mila-s-prep-story
+- https://charlotteprep.org/community/news/stories/name-withheld
 - https://charlotteprep.org/community/news/stories/prep-scholar-awarded-at-state-science-fair
 - https://charlotteprep.org/community/news/stories/a-stage-set-for-success
 - https://charlotteprep.org/student-life/leadership

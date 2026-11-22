@@ -40,16 +40,16 @@ not the three the app's ledger shows:
 
 | Category | Davidson Day entry (verbatim) |
 |---|---|
-| Finalists for Best Actor | Davidson Day School - Lukas Paeper as Edward Bloom - Big Fish |
-| Finalists for Best Actress | Davidson Day School - Malena Lessa as Sandra Bloom - Big Fish |
-| Finalists for Best Supporting Actor | Davidson Day School - Noah Larsen as Will Bloom - Big Fish |
-| Finalists for Best Supporting Actress | Davidson Day School - Katelyn Ray as Witch - Big Fish |
-| Finalists for Best Featured Performer | Davidson Day School - Elizabeth Robinson as Giant - Big Fish |
-| Best Featured Performer (nominee, top six) | Davidson Day School – Elizabeth Robinson as Giant – Big Fish |
+| Finalists for Best Actor | Davidson Day School - [name withheld] as Edward Bloom - Big Fish |
+| Finalists for Best Actress | Davidson Day School - [name withheld] as Sandra Bloom - Big Fish |
+| Finalists for Best Supporting Actor | Davidson Day School - [name withheld] as Will Bloom - Big Fish |
+| Finalists for Best Supporting Actress | Davidson Day School - [name withheld] as Witch - Big Fish |
+| Finalists for Best Featured Performer | Davidson Day School - [name withheld] as Giant - Big Fish |
+| Best Featured Performer (nominee, top six) | Davidson Day School – [name withheld] as Giant – Big Fish |
 
 The earlier research missed Best Actress and Best Supporting Actor. The page also says the
 Best Actor and Best Actress *nominees* were announced separately on May 4, 2026, so a
-Paeper or Lessa nomination is not established here. The app says "finalist" and nothing
+[name withheld] or [name withheld] nomination is not established here. The app says "finalist" and nothing
 more.
 
 **No win.** The 2026 winners page

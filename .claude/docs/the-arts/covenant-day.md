@@ -1,5 +1,5 @@
 # Covenant Day School — The Arts
-> Distilled from 8 source document(s) in `source-material/the-arts/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 8 source document(s) in `source-material/the-arts/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Awards and Recognition, Deep Research, Facilities, Music, Program Overview, Theater and Drama, Visual Arts Course List 2026, Visual Arts
 
 
@@ -29,12 +29,12 @@
 - 2016 — **won the Student Critic Award**.
 - 2017 — Best Ensemble nomination.
 - 2018 — two nominations (Featured Performer, Best Supporting Actress).
-- 2019 — Best Actress nomination (Evan Bertram as Georgia Hendricks in
+- 2019 — Best Actress nomination ([name withheld] as Georgia Hendricks in
  ***Curtains*** — the one CDS production title recoverable from Blumey coverage).
 
 ### National Shakespeare Competition
 
-- 2025 — **Caroline Garbarino named Finalist** (school's own theater page).
+- 2025 — **[name withheld] named Finalist** (school's own theater page).
 
 ### Music in the Parks adjudications
 
@@ -75,7 +75,7 @@ theatre program with a real regional award history**. Its distinctive facts:
 - A **Blumey ledger spanning 2013-2019** (two wins — Best Featured Performer 2013,
  Student Critic Award 2016 — plus six more nominations including Best Actress for
  *Curtains*, 2019) and a **2025 National Shakespeare Competition finalist**
- (Caroline Garbarino).
+ ([name withheld]).
 - **Worship bands at both MS and HS**, plus a credit-bearing Worship Leadership
  course — the clearest arts expression of the school's church-ministry identity,
  and a rung no other school in this project has.
@@ -269,12 +269,11 @@ The program's annual performance slate, per the school's own pages:
 - **Spring Drama** (April; calendar shows April 25-27).
 - **Middle School Theater Night** and **High School Theater Night** showcases.
 - **High School Shakespeare Competition** (fed the 2025 National Shakespeare
- Competition finalist, Caroline Garbarino).
+ Competition finalist, [name withheld]).
 - **North Carolina Theater Conference** participation.
 
 The school lists production *categories*, not titles; the one recoverable named
-production is ***Curtains*** (the 2019 Blumey Best Actress nomination for Evan
-Bertram as Georgia Hendricks).
+production is ***Curtains*** (the 2019 Blumey Best Actress nomination for [name withheld] as Georgia Hendricks).
 
 ### The venue
 

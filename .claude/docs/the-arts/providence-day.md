@@ -1,5 +1,5 @@
 # Providence Day School — The Arts
-> Distilled from 7 source document(s) in `source-material/the-arts/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 7 source document(s) in `source-material/the-arts/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Arts Redesign Deep Research, Awards and Recognition, Deep Research, Music, Program Overview, Theater, Visual Arts
 
 
@@ -203,7 +203,7 @@ https://www.providenceday.org/performances-and-awards
  [NOT FOUND]** — the school describes the track only in the aggregate.
 - Strong indirect evidence the tech track is real and competitive: students win **named NCTC
  design awards** in Lighting Design, Set Design, Stage Management, and Set Carpentry, and one
- student (**April Liu**) earned a **Blumey Best Student Set Designer** nomination in 2024 and
+ student (**[name withheld]**) earned a **Blumey Best Student Set Designer** nomination in 2024 and
  again in 2026. See ledger below.
 
 ### THE BLUMEY LEDGER — year by year
@@ -212,23 +212,23 @@ The school's own summary claims **26 "BLUMEY" Awards from N.C. Blumenthal Perfor
 **[SCHOOL-CLAIM]** https://www.providenceday.org/performances-and-awards
 ⚠️ **Important caveat for the app:** that "26 awards" figure counts *nominations and finalist
 placements*, not wins. Cross-checking against Blumenthal's own published winner lists, I could
-verify exactly **ONE outright Blumey win** (Max Odom, 2022). Do not render "26 awards" without
+verify exactly **ONE outright Blumey win** ([name withheld], 2022). Do not render "26 awards" without
 qualification.
 
 | Year | Musical submitted | Result — what it won / was nominated or finalist for | Source |
 |---|---|---|---|
-| **2026** | ***Sweet Charity*** | **No wins.** Six **finalist** placements, all in acting/design: Best Actress (Ayla Hoody as Charity); Best Actor (Eli Coblenz as Oscar); Best Supporting Actress (Rowan Barwick as Nickie); Best Supporting Actor (Owen Moore as Vittorio Vidal); Best Featured Performer (Kate Reece as Carmen); Best Student Set Designer (April Liu). **[VERIFIED]** | [nominees/finalists](https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards) · [final nominees](https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees) · [winners](https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-2026-blumey-award-winners) |
-| **2025** | ***Peter Pan*** | **No wins.** Five **finalist** placements: Best Actor (Wyatt Olliff as Hook/Mr. Darling); Best Actress (Liza Grimes as Peter Pan); Best Supporting Actor (Eli Coblenz as John); Best Supporting Actress (Rowan Barwick as Storm); Best Featured Performer (Mia Ostrowski as Liza). **[VERIFIED]** — I text-extracted the official PDF and confirmed each name sits under its category header, in the *finalist* tier. PD appears in **none** of the six production-level categories (Best Musical Tier 1/2, Best Ensemble, Best Direction, Best Choreography, Best Student Orchestra). | [official PDF](https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf) · [school ledger](https://www.providenceday.org/performances-and-awards) |
-| **2024** | ***Freaky Friday*** | Six placements per the school: Best Actor (Eli Coblenz); Best Actress (Casey Miller); Best Supporting Actor (Jackson Davis); Best Supporting Actress (Liza Grimes); Best Featured Performer (Sarah Holt); **Best Student Set Designer (April Liu)**. **[SCHOOL-CLAIM]** — not cross-checked against a Blumenthal list. Wins **[NOT FOUND]**. | https://www.providenceday.org/performances-and-awards |
-| **2023** | ***Once Upon a Mattress*** | Six placements per the school: Best Actor (Carson Sacco); Best Actress (Avery Thalberg); Best Supporting Actor (Astrid James); Best Supporting Actress (Cassie Miller); Best Featured Performer (John Carter Krell); Best Student Set Designer (Caroline Grubbs). **[SCHOOL-CLAIM]**. Wins **[NOT FOUND]**. | https://www.providenceday.org/performances-and-awards |
-| **2022** | ***Xanadu*** | **THE PROGRAM'S BEST YEAR.** **WIN: Best Supporting Actor — Max Odom as Danny** (independently confirmed on Blumenthal's winners coverage). Plus nominations for **Best Overall Direction** and **Best Musical (Tier 2)**. **[VERIFIED]** ⚠️ The Tier-2 Best Musical went to Central Academy (*Heathers*) and Best Overall Direction went to Charlotte Country Day (*Anastasia*) — so these two were **nominations, not wins**, despite the school's page listing them without that distinction. | [Charlotte Post winners list](https://www.thecharlottepost.com/news/2022/06/01/arts-and-entertainment/regional-high-school-musicals-take-bow-at-the-ninth-annual-blumey-awards/) · [school ledger](https://www.providenceday.org/performances-and-awards) |
-| **2021** | (title **[NOT FOUND]**) | **Best Actress Finalist (Katie Beason)**. **[SCHOOL-CLAIM]** — the school lists the finalist but not the show title. | https://www.providenceday.org/performances-and-awards |
+| **2026** | ***Sweet Charity*** | **No wins.** Six **finalist** placements, all in acting/design: Best Actress ([name withheld] as Charity); Best Actor ([name withheld] as Oscar); Best Supporting Actress ([name withheld] as Nickie); Best Supporting Actor ([name withheld] as Vittorio Vidal); Best Featured Performer ([name withheld] as Carmen); Best Student Set Designer ([name withheld]). **[VERIFIED]** | [nominees/finalists](https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-nominees-finalists-for-2026-blumey-awards) · [final nominees](https://www.blumenthalarts.org/news/detail/2026blumeyawardsnominees) · [winners](https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-2026-blumey-award-winners) |
+| **2025** | ***Peter Pan*** | **No wins.** Five **finalist** placements: Best Actor ([name withheld] as Hook/Mr. Darling); Best Actress ([name withheld] as Peter Pan); Best Supporting Actor ([name withheld] as John); Best Supporting Actress ([name withheld] as Storm); Best Featured Performer ([name withheld] as Liza). **[VERIFIED]** — I text-extracted the official PDF and confirmed each name sits under its category header, in the *finalist* tier. PD appears in **none** of the six production-level categories (Best Musical Tier 1/2, Best Ensemble, Best Direction, Best Choreography, Best Student Orchestra). | [official PDF](https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf) · [school ledger](https://www.providenceday.org/performances-and-awards) |
+| **2024** | ***Freaky Friday*** | Six placements per the school: Best Actor ([name withheld]); Best Actress ([name withheld]); Best Supporting Actor ([name withheld]); Best Supporting Actress ([name withheld]); Best Featured Performer ([name withheld]); **Best Student Set Designer ([name withheld])**. **[SCHOOL-CLAIM]** — not cross-checked against a Blumenthal list. Wins **[NOT FOUND]**. | https://www.providenceday.org/performances-and-awards |
+| **2023** | ***Once Upon a Mattress*** | Six placements per the school: Best Actor ([name withheld]); Best Actress ([name withheld]); Best Supporting Actor ([name withheld]); Best Supporting Actress ([name withheld]); Best Featured Performer ([name withheld]); Best Student Set Designer ([name withheld]). **[SCHOOL-CLAIM]**. Wins **[NOT FOUND]**. | https://www.providenceday.org/performances-and-awards |
+| **2022** | ***Xanadu*** | **THE PROGRAM'S BEST YEAR.** **WIN: Best Supporting Actor — [name withheld] as Danny** (independently confirmed on Blumenthal's winners coverage). Plus nominations for **Best Overall Direction** and **Best Musical (Tier 2)**. **[VERIFIED]** ⚠️ The Tier-2 Best Musical went to Central Academy (*Heathers*) and Best Overall Direction went to Charlotte Country Day (*Anastasia*) — so these two were **nominations, not wins**, despite the school's page listing them without that distinction. | [Charlotte Post winners list](https://www.thecharlottepost.com/news/2022/06/01/arts-and-entertainment/regional-high-school-musicals-take-bow-at-the-ninth-annual-blumey-awards/) · [school ledger](https://www.providenceday.org/performances-and-awards) |
+| **2021** | (title **[NOT FOUND]**) | **Best Actress Finalist ([name withheld])**. **[SCHOOL-CLAIM]** — the school lists the finalist but not the show title. | https://www.providenceday.org/performances-and-awards |
 | **2020** | — | **[NOT FOUND]** — no entry on the school's ledger. The 2020 Blumeys were disrupted by COVID; I could not confirm whether PD submitted. | — |
 | **2019** | — | **[NOT FOUND]** — no Blumey entry listed for 2019 (the school lists only an NCTC result that year for *Far Away*). | — |
-| **2018** | ***Pippin*** | **Five nominations:** Best Choreography Execution; Best Ensemble/Chorus; Best Supporting Actress (Isabella Patterson as Fastrada); Best Actress (Tess Giordano as Leading Player — invited to audition for the top six); Best Actor (Chris Melton as Pippin — invited to audition for the top six). **[VERIFIED]** Wins **[NOT FOUND]**. | [school news post](https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/upper-school-musical-nominated-for-five-blumey-awards) |
-| **2017** | ***Sideshow*** | **Five+ placements:** Best Set Construction; Best Ensemble/Chorus; Best Overall Direction; Best Supporting Actor (David Conlin as Buddy); Best Supporting Actress (Katlyn Gonzalez as Daisy); plus Chris Melton a **top-six Best Actor finalist** (as Terry) and Tessa Giordano top-20 for Best Actress (as Violet). Director credited: **Caroline Bower**. **[VERIFIED]** Wins **[NOT FOUND]**. | [school news post](https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/upper-school-musical-nominated-for-several-blumey-awards) |
-| **2016** | ***Anything Goes*** | **The largest haul on the ledger — eight placements including a Best Musical nod:** Best Set Construction; Best Choreography Execution; Best Ensemble/Chorus; Best Overall Direction; Best Featured Performer (David Conlin); Best Supporting Actor (Aidan Clements); Best Supporting Actress (Katlyn Gonzalez); **Best Musical**. **[SCHOOL-CLAIM]** Wins **[NOT FOUND]**. | https://www.providenceday.org/performances-and-awards |
-| **2015** | ***Into the Woods*** | **Five placements:** Best Set Construction; Best Costume Creation; Best Choreography Execution; Best Supporting Actress (Katlyn Gonzalez as Little Red Ridinghood); plus a top-20 acting finalist. **[VERIFIED]** ⚠️ The two lead-acting names in the 2015 article (Tessa Giordano, Thomas Laub) were returned with **Best Actor/Best Actress labels apparently swapped** between the school's news post and its awards ledger — do not publish either lead-acting attribution without re-checking. Director: **Caroline Bower**. | [school news post](https://www.providenceday.org/cf_news/view.cfm?newsid=311) · [school ledger](https://www.providenceday.org/performances-and-awards) |
+| **2018** | ***Pippin*** | **Five nominations:** Best Choreography Execution; Best Ensemble/Chorus; Best Supporting Actress ([name withheld] as Fastrada); Best Actress ([name withheld] as Leading Player — invited to audition for the top six); Best Actor ([name withheld] as Pippin — invited to audition for the top six). **[VERIFIED]** Wins **[NOT FOUND]**. | [school news post](https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/upper-school-musical-nominated-for-five-blumey-awards) |
+| **2017** | ***Sideshow*** | **Five+ placements:** Best Set Construction; Best Ensemble/Chorus; Best Overall Direction; Best Supporting Actor ([name withheld] as Buddy); Best Supporting Actress ([name withheld] as Daisy); plus [name withheld] a **top-six Best Actor finalist** (as Terry) and [name withheld] top-20 for Best Actress (as Violet). Director credited: **Caroline Bower**. **[VERIFIED]** Wins **[NOT FOUND]**. | [school news post](https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/upper-school-musical-nominated-for-several-blumey-awards) |
+| **2016** | ***Anything Goes*** | **The largest haul on the ledger — eight placements including a Best Musical nod:** Best Set Construction; Best Choreography Execution; Best Ensemble/Chorus; Best Overall Direction; Best Featured Performer ([name withheld]); Best Supporting Actor ([name withheld]); Best Supporting Actress ([name withheld]); **Best Musical**. **[SCHOOL-CLAIM]** Wins **[NOT FOUND]**. | https://www.providenceday.org/performances-and-awards |
+| **2015** | ***Into the Woods*** | **Five placements:** Best Set Construction; Best Costume Creation; Best Choreography Execution; Best Supporting Actress ([name withheld] as Little Red Ridinghood); plus a top-20 acting finalist. **[VERIFIED]** ⚠️ The two lead-acting names in the 2015 article ([name withheld], [name withheld]) were returned with **Best Actor/Best Actress labels apparently swapped** between the school's news post and its awards ledger — do not publish either lead-acting attribution without re-checking. Director: **Caroline Bower**. | [school news post](https://www.providenceday.org/cf_news/view.cfm?newsid=311) · [school ledger](https://www.providenceday.org/performances-and-awards) |
 
 ### Where PD actually sits in the Blumey field — honest assessment
 
@@ -242,8 +242,8 @@ qualification.
  (Best Musical, Best Ensemble, Best Direction, Best Choreography, Best Student Orchestra).
  **[VERIFIED]** (2025 PDF + 2026 winners page)
 - **Northwest School of the Arts**, by direct contrast, took **three 2026 wins** — Best
- Supporting Actor (Wiley Seago), Best Supporting Actress (Andie Jones), and Best Student Stage
- Manager (Spencer Angel), all for *Head Over Heels* — off seven nominations. **CATA** took
+ Supporting Actor ([name withheld]), Best Supporting Actress ([name withheld]), and Best Student Stage
+ Manager ([name withheld]), all for *Head Over Heels* — off seven nominations. **CATA** took
  **Best Student Orchestra** for *Pippin (2013 Revival)* off five nominations. **[VERIFIED]**
  https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-2026-blumey-award-winners
 - The 2026 top prizes went to **Weddington** (Best Musical Tier 1, *Legally Blonde*) and
@@ -254,7 +254,7 @@ qualification.
  2016, and in 2022 a Best Musical Tier-2 + Best Direction nomination with one outright win).
  Its recent seasons are strong on **individual performer development** and **student design**
  but have not been converting at the production level. Notably, the one category where PD keeps
- showing up on the *design* side is **Best Student Set Designer** (April Liu, 2024 and 2026) —
+ showing up on the *design* side is **Best Student Set Designer** ([name withheld], 2024 and 2026) —
  consistent with the program's evident investment in set construction.
 
 ### NC Theatre Conference (NCTC) one-act results — a genuinely strong record
@@ -264,19 +264,18 @@ underweighted relative to the Blumeys. All **[VERIFIED]** from
 https://www.providenceday.org/performances-and-awards
 
 - **2024 — *Psycho Beach Party*:** Regional Festival — **Honorable Mention (school)**;
- Charlie Zeller, Excellence in Production and Design for **Lighting Design**; Emmaline
- Shepherd, Outstanding Achievement for **Stage Management**; Elaina Cannon, CC Chatigny and
- Jay Scanga, Outstanding Achievement for **Set Carpentry**; **Brooke Fulton and Jordan Ellis,
- Excellence in Directing**; Harper Mann and Kate Reece, Outstanding Achievement in **Acting**.
+ [name withheld], Excellence in Production and Design for **Lighting Design**; [name withheld], Outstanding Achievement for **Stage Management**; [name withheld], [name withheld] and
+ [name withheld], Outstanding Achievement for **Set Carpentry**; **Brooke Fulton and Jordan Ellis,
+ Excellence in Directing**; [name withheld] and [name withheld], Outstanding Achievement in **Acting**.
 - **2023 — *Radium Girls*:** **Regional Site Winner — Audience Choice**; Brooke Fulton,
- Excellence in Directing; Charlie Zeller, Lighting Design (Regional **and State**); April Liu
- and Stephanie Melton, Set Design (Regional **and State**). This one **advanced to the State
+ Excellence in Directing; [name withheld], Lighting Design (Regional **and State**); [name withheld]
+ and [name withheld], Set Design (Regional **and State**). This one **advanced to the State
  Festival** and won design honors there.
 - **2022 — *The Yellow Boat*:** **Superior Rating**; **Overall Regional Site Winner
- (Adjudicators' Choice)**; Excellence in Run Crew; Mhakai White, Excellence in Acting (Benjamin).
+ (Adjudicators' Choice)**; Excellence in Run Crew; [name withheld], Excellence in Acting (Benjamin).
 - **2022 — *You're a Good Man, Charlie Brown*:** Excellent Rating; **Excellence in a Musical**;
- Astrid James, Outstanding Acting (Snoopy).
-- **2019 — *Far Away*:** **Superior Rating**; Isabella Patterson, **Best Actress**.
+ [name withheld], Outstanding Acting (Snoopy).
+- **2019 — *Far Away*:** **Superior Rating**; [name withheld], **Best Actress**.
 - **2014 — *Poe's Midnight Dreary*:** **Superior Rating**; won **Best Ensemble**.
 - School summary: "Competed and won at the regional NCTC competition and **advanced to the state
  level with two different one-act plays**." **[SCHOOL-CLAIM]**
@@ -346,11 +345,11 @@ marketing claim. All **[VERIFIED]** from https://www.providenceday.org/upper-sch
 
 **Named, dated external honor — the strongest single music result found:**
 - **Five Providence Day students were selected for the 2026 ACDA (American Choral Directors
- Association) Southern Region Honor Choir**: **Ford Bobick '31, Jake Tucker '30, Ellie Picard
- '30, Charlie Zolak '28, and Presley Fink '28**. The regional conference was held in
+ Association) Southern Region Honor Choir**: **[name withheld] '31, [name withheld] '30, [name withheld]
+ '30, [name withheld] '28, and [name withheld] '28**. The regional conference was held in
  **Memphis, Tennessee**, drawing applicants from **11 southeastern states**, with **over 1,500
  students competing** for limited spots. Prepared by **Stephanie Smeltzer**, Director of
- Choirs. Presley Fink made the choir **in her first year in chorus**. **[VERIFIED]**
+ Choirs. [name withheld] made the choir **in her first year in chorus**. **[VERIFIED]**
  https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/providence-day-students-earn-spot-in-one-of-choral-musics-most-prestigious-honors
  (School news index dates this March 10, 2026: https://www.providenceday.org/)
 
@@ -463,13 +462,13 @@ capstone show.
 https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/artists-and-writers-shine-in-2025-scholastic-awards
 
 - **Art Gold Keys (2):**
- - **Elle Sigg** (Senior) — Gold Key, **sculpture**
- - **Bridget Brewster** (Junior) — Gold Key, **photography**
-- **Writing Gold Keys (2):** Lisa Liu (Senior), critical essay; Paige Thompson (Sophomore).
-- **Writing Silver Keys:** Austin Skeete (Senior, flash fiction); Maya Kodali (Junior, poetry);
- Alexander Shi (Junior, poetry); Paige Thompson (Sophomore); Lisa Liu (Senior, two).
-- **Honorable Mentions:** Lena Amin (Soph.); Isabel Hsu (Junior); Eleanor Zhang (Junior);
- Maya Kodali (Junior, humor); Alexander Shi (Junior — personal essay, poetry ×2, humor).
+ - **[name withheld]** (Senior) — Gold Key, **sculpture**
+ - **[name withheld]** (Junior) — Gold Key, **photography**
+- **Writing Gold Keys (2):** [name withheld] (Senior), critical essay; [name withheld] (Sophomore).
+- **Writing Silver Keys:** [name withheld] (Senior, flash fiction); [name withheld] (Junior, poetry);
+ [name withheld] (Junior, poetry); [name withheld] (Sophomore); [name withheld] (Senior, two).
+- **Honorable Mentions:** [name withheld] (Soph.); [name withheld] (Junior); [name withheld] (Junior);
+ [name withheld] (Junior, humor); [name withheld] (Junior — personal essay, poetry ×2, humor).
 - **Exhibition:** the **2025 Scholastic Gold and Silver Key Regional Winners Exhibition** ran
  **March 1 – April 6** at the **Mint Museum Uptown**, free admission.
 - Teachers credited: **Richard Dewey** (art), **Patricia Whelan** (Upper School English).
@@ -512,7 +511,7 @@ https://www.providenceday.org/about/pd-communications/news-media/post/~board/new
 4. **Technical theatre and design are treated as first-class disciplines.** Tech theatre starts
  in **Middle School**; the awards page gives **"Set Builds"** its own media section; students
  win **named NCTC awards in Lighting Design, Set Design, Stage Management and Set Carpentry**;
- and **April Liu** earned **Blumey Best Student Set Designer** placements in both **2024 and
+ and **[name withheld]** earned **Blumey Best Student Set Designer** placements in both **2024 and
  2026**. A kid who'd rather build than sing has a real, credentialed path here.
 
 5. **A working wet darkroom.** "Developing film in the darkroom" is explicitly part of the US
@@ -522,7 +521,7 @@ https://www.providenceday.org/about/pd-communications/news-media/post/~board/new
 
 **The honest counterweight (state this plainly to parents):** in the **Blumey** arena — the
 region's highest-profile high-school musical theatre competition, now **59 schools** — Providence
-Day has produced **many finalists but, verifiably, one win** (Max Odom, Best Supporting Actor,
+Day has produced **many finalists but, verifiably, one win** ([name withheld], Best Supporting Actor,
 *Xanadu*, 2022). In both **2025** and **2026** it placed 5–6 acting/design finalists and
 converted **none**, and appeared in **no** production-level category. Northwest School of the
 Arts took **three wins** in 2026 alone; CATA took Best Student Orchestra. PD is a strong
@@ -643,9 +642,7 @@ Press / third party:
 - Full Upper School **arts course catalog** — no catalog page or PDF locatable. Non-AP course
  titles across visual arts, theatre, technical theatre and music are all **NOT FOUND**.
 - The **intermediate visual-arts sequence** (what sits between MS foundations and AP Studio Art).
-- **Ceramics / kiln** — never mentioned on any page fetched. Do **not** assume it is offered.
-- **Digital art, graphic design, film/video** as named courses — NOT FOUND.
-- **Stagecraft / Tech Theatre** course titles — NOT FOUND (the track is confirmed 
+- **Ceramics / 
 
 …[truncated]
 

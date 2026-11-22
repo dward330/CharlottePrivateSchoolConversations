@@ -125,6 +125,46 @@ def subtopic(fn):
     base = os.path.splitext(fn)[0].replace("__", " - ").replace("_", " ")
     return base.split(" - ")[-1].strip()
 
+# Non-athlete student names are never published (HARD rule, user 2026-11-22), and this
+# script's output is committed and shipped. The raw PDFs keep the names, so each
+# extracted text passes through a list of them. The list holds the names, so it must
+# never be committed: `source-material/**` ignores every non-.md file, this one included.
+REDACTIONS = os.path.join(SM, "_name_redactions.json")
+WITHHELD = "[name withheld]"
+
+def load_redactions():
+    if not os.path.exists(REDACTIONS):
+        # Markdown is committed already clean. Only the local raw files need the list.
+        for base, _, files in os.walk(SM):
+            if any(f.lower().endswith((".pdf", ".txt")) for f in files):
+                sys.exit(f"Refusing to ingest: raw files are present but {REDACTIONS} is missing, "
+                         "so student names in them would be published.")
+        return []
+    rules = json.load(open(REDACTIONS, encoding="utf-8"))["rules"]
+    return [(re.compile(r["re"]),
+             re.compile(r["paths"]) if r.get("paths") else None,
+             re.compile(r["line"], re.I) if r.get("line") else None,
+             r.get("to")) for r in rules]
+
+def redact(text, relpath, rules):
+    """Withhold each listed name. A match inside a URL gets a URL-safe token."""
+    for rx, paths, line, to in rules:
+        if paths and not paths.search(relpath):
+            continue
+        def swap(m):
+            s, start = m.string, m.start()
+            if line:
+                a = s.rfind("\n", 0, start) + 1
+                b = s.find("\n", m.end())
+                if not line.search(s[a:b if b != -1 else len(s)]):
+                    return m.group(0)
+            if to is not None:
+                return to
+            run = re.search(r"[^\s\"'<>()\[\]`]*$", s[max(0, start - 300):start]).group(0)
+            return "name-withheld" if "://" in run else WITHHELD
+        text = rx.sub(swap, text)
+    return text
+
 def find_urls(text):
     seen, out = set(), []
     for u in re.findall(r"https?://[^\s\)\]]+", text):
@@ -149,6 +189,7 @@ def main():
 
     os.makedirs(DATADIR, exist_ok=True)
     manifest_docs, counts = [], {}
+    redactions = load_redactions()
     topics = [t for t in list_dirs(SM)
               if (not only or t == only) and t not in INTERNAL_TOPICS]
 
@@ -173,6 +214,8 @@ def main():
                 warn_fragments(text, f)
                 if len(text) > 45000:
                     text = text[:45000] + "\n\n…[truncated]"
+                # After the cut, so withholding a name never pulls more raw text into the note.
+                text = redact(text, f"source-material/{tslug}/{sslug}/{f}", redactions)
                 urls.update(find_urls(text))
                 parts.append(f"\n\n---\n\n## {st}\n\n*Source file: `{f}`*\n\n{text}\n")
                 manifest_docs.append({

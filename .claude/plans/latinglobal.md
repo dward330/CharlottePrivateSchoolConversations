@@ -585,8 +585,7 @@ Then research prose, per `PROSE_TRANSLATED` (mechanism:
       — hits **only** inside `signup`
 - [ ] `grep -in "not stated\|not published" src/data/internationalTravel/charlotte-latin.ts` — hits only inside `verdict`
 - [ ] Every `sources` URL in the new file is a fetched or Wayback row of the Source URLs file; spot-check five
-- [ ] No person is named: grep the file for `Taylor`, `Willis`, `Paridy`, `Clutter`, `Cammer`,
-      `Nurkin`, `Gullapalli`, `Wimbish`, `Roth`, `Sinclair` — **no hits**
+- [ ] No person is named: grep the file for the names on the source pages (list omitted: no names in the repo) — **no hits**
 - [ ] **Browser check** (`npm run build && npx vite preview`, real Chrome via Playwright,
       every `<details>` open; memory `headed-chrome-via-playwright`, avoid `networkidle`):
   - `/school/charlotte-latin/`: Global Exposure chip and rail item after Course Offerings;

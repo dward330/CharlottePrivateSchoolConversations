@@ -54,6 +54,22 @@ Corollary: a new subtopic that falls through `normalizeMetric()` to `slugify()` 
 create an unapproved card. Treat that as a blocker to raise, not a silent outcome — see
 section 1 of the app-layer checklist.
 
+## Hard constraint — no non-athlete student names
+
+**Nothing this skill writes may name a student who is not an athlete named for athletics**
+(user, 2026-11-22: "Thats a hard rule not to expose their names"). That covers research
+`.md` files, `.claude/docs/`, `src/content/`, the manifest, and the commit message and PR
+that carry them. The repo is public and `src/content/` ships as public chunks, so "no page
+renders it" is not a defense. Write the recognition and the role, never the name.
+
+- `.md` files you write are clean at the source.
+- Raw PDFs and `.txt` files cannot be edited, so `build_docs.py` withholds the names listed
+  in `source-material/_name_redactions.json`. That file is local and gitignored: **never
+  commit it, quote it or copy it into a tracked file.** The build refuses to run when raw
+  files are present and the list is missing.
+- **The list knows only names somebody has found.** After adding a raw file, read its
+  regenerated note for student names, add each one to the list, and rebuild before committing.
+
 ## Data flow
 
 ```

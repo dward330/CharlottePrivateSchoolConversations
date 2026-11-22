@@ -117,7 +117,7 @@ otherwise. Currently, all classes are taught as full-year courses." Cannon runs 
 **NOT PUBLISHED.** No National Merit Semifinalist, Finalist, or Commended counts by class year appear
 on the 2025-26 Profile, the 2024-25 Profile, the College Counseling pages, or in Cannon news posts.
 Repeated targeted searches (site-scoped and open web) returned only a **2011** item naming a single
-National Merit Scholar (Nora Munger, valedictorian). Cannon does not appear to run an annual National
+National Merit Scholar ([name withheld], valedictorian). Cannon does not appear to run an annual National
 Merit announcement, unlike several peer schools. Recorded as genuinely unpublished — not estimated.
 
 ### Post-AP depth
@@ -289,8 +289,8 @@ the two host schools.
 Sources: 2025-26 Profile (Class of 2025), 2024-25 Profile (Class of 2024). The Class of 2025 is
 described in Cannon's commencement coverage as "the second largest class in the school's history";
 total Cannon graduates all-time reached **2,011**. Class of 2025 detail: 22 "lifers" (enrolled since
-Junior Kindergarten), 17 zip codes, valedictorian **Annalise Leck**, and an unprecedented three-way
-salutatorian tie (**Ian Kuo, James Ter Poorten, Ada Hicks**).
+Junior Kindergarten), 17 zip codes, valedictorian **[name withheld]**, and an unprecedented three-way
+salutatorian tie (**[name withheld], [name withheld], [name withheld]**).
 
 **Number of colleges accepted to: NOT PUBLISHED.** Cannon publishes no "accepted to N colleges" count.
 The acceptance list below can be counted, but that is a list length across three classes, not a
@@ -504,7 +504,7 @@ also appearing as enrollments/acceptances.
 - **Total merit scholarship dollars: NOT PUBLISHED.** No "$X million in merit aid offered" headline
   appears on either profile or any news post.
 - **Morehead-Cain:** No current-cycle recipient published. The only Cannon Morehead-Cain items located
-  are **2015** (senior Jack Amoroso, recipient) and a faculty item (social studies chair **Laura
+  are **2015** (senior [name withheld], recipient) and a faculty item (social studies chair **Laura
   Huffman** named a Morehead-Cain **Impact Educator** by a semifinalist — which implies a Cannon
   semifinalist existed in that cycle, but the student is not named and the year is not stated).
   `TO VERIFY`.
@@ -585,8 +585,8 @@ Biology Summer Term," so summer accelerators forgo it — a real tradeoff to rai
   plus **Creative Design & Engineering Studio**, housed alongside **The Mill** and additional
   Makerspaces. Again, **no published Engineering Distinction.**
 - **Cum Laude Society chapter awarded 2005** — an external academic-honor credential colleges recognize.
-- **Science National Honor Society** — chapter newly established by students (Annette Mensah '26 and
-  Jake Miranda '26), inaugural induction of 21 founding members on April 2. A student-initiated
+- **Science National Honor Society** — chapter newly established by students ([name withheld] '26 and
+  [name withheld] '26), inaugural induction of 21 founding members on April 2. A student-initiated
   institution-building story, itself a spike exemplar.
 
 **Required internship / capstone / independent research:** The **Senior Capstone service project is the

@@ -138,7 +138,7 @@ committed). The rules are plainaid's:
 | Trinity's Ghana exchange: Children Inspiring Hope (CIH), begun 2023-24, "second consecutive year as of October 2024", "CIH's first new partner school since the pandemic", led by Jen Rankey-Zona with CIH founder Amy Gaylor Nedriga | trinity-episcopal `ladder.enrichment[1].text`, `visual.exhibits[4].detail`, `visual.subhead` | 4 |
 | "a 2025 CATO Excellence in Teaching Award … one of six educators recognized across the Charlotte area" | trinity-episcopal `visual.subhead`, `visual.exhibits[3].detail` | 4 |
 | "choice-based" / "named pedagogy" (the jargon gloss) | trinity-episcopal `visual.headline`, `verdict.headline` | 4 |
-| "Amara Aghedo and Christian Young … across both years — a repeat producer of nominated performers" | hickory-grove-christian `theatre.honestContext`, `verdict.holdsUp[0].text` | 5 |
+| "[name withheld] and [name withheld] … across both years — a repeat producer of nominated performers" | hickory-grove-christian `theatre.honestContext`, `verdict.holdsUp[0].text` | 5 |
 
 **One site off the worklist** (keep the shared sentence or clause byte-identical in the
 worklist unit):
@@ -254,7 +254,7 @@ This is the list Step 3 applies and the reviewer checks against.
    Ignite Band, Contemporary Ensemble, Theatre Performance Ensemble, ACT 1, ACT 2),
    courses (Honors Theater I, Honors Visual Foundations, Advanced Topics: Art History,
    Music Technology I–III, Visual Art IV (H), Honors Portfolio Prep (364), "Jazz 1"),
-   productions and roles ("Best Actor (Griffen Evans as Harry Bright)"), venues (Cindric
+   productions and roles ("Best Actor ([name withheld] as Harry Bright)"), venues (Cindric
    Performing Arts Center, Leck Family thrust stage, Gorelick Family Theater, Hance Fine
    Arts Center, McMahon Fine Arts Foyer, The Mill, Texas Grace Audio Lab), teachers and
    students, award categories (Best Featured Performer, Best Choreography Execution, Best
@@ -367,8 +367,8 @@ build's later checks by hand. Phase 2 makes the full build green.
   4+ parallel items after a short lead ending in a colon). This is the main tool for the
   ledger results and the faculty, space, festival and calendar lists. Every item stays, in
   order, with its parentheses. For example, Cannon `ledger[1]`: "Five finalist placements,
-  one in every performance category: Best Actor (Griffen Evans as Harry Bright) · Best
-  Actress (Avery Fawcett as Rosie) · …". The `sentences()` splitter reads ` · ` as a break
+  one in every performance category: Best Actor ([name withheld] as Harry Bright) · Best
+  Actress ([name withheld] as Rosie) · …". The `sentences()` splitter reads ` · ` as a break
   (#469). Prefer plain sentences for three items or fewer. The cards already use `·` in
   division heads and path notes.
 - **Caps emphasis stays on the same words** (see "How each field renders").
@@ -421,8 +421,7 @@ build's later checks by hand. Phase 2 makes the full build green.
   labeling error, since she played Lily"). Precedent: hickorygrovecommits (#461) stripped
   TO-VERIFY bookkeeping the same way. This is a deliberate guard-(h)-neutral change; list
   it in Implementation notes.
-- **The eighth-grade student's name** in charlotte-latin `music.ladder[2].text` ("Sofia
-  Rodrigues Angrisano, an eighth-grade clarinettist") conflicts with the standing rule to
+- **The eighth-grade student's name** in charlotte-latin `music.ladder[2].text` ("[name withheld], an eighth-grade clarinettist") conflicts with the standing rule to
   omit K–8 students' names (memory `no-minor-student-names`: report the recognition, not
   the child). **Default: drop the name in the rewrite** ("An eighth-grade clarinetist
   cleared …"), keeping every other fact. This is the one content removal in the plan, so
@@ -439,7 +438,7 @@ build's later checks by hand. Phase 2 makes the full build green.
 | **2** | charlotte-country-day (16), carmel-christian (8) | **24** | 1,307 | CCD holds the longest unit (171 words), two parallel ledger rows, the "five championships" claim, the NCTC-scale sentence Cannon copies, and the Hance space list. Carmel has the WIN row, the TO VERIFY token, and sets the "Scholastic or otherwise" wording. |
 | **3** | cannon (17), charlotte-catholic (5) | **22** | 1,329 | Cannon has the two parallel sweep rows, the missing-catalog-course caveats, the `rigor` jargon, and copies the NCTC and Scholastic wording. Catholic has the "+1 quality point" near-repeat, the faculty and nine-space lists, and "NOT won". |
 | **4** | davidson-day (17), trinity-episcopal (11) | **28** | 1,455 | DD has the no-director and no-stagecraft units, the $5,000 scholarship, the Matilda Jr. exclusion and the small-school near-repeat. Trinity has both `pedagogy` units, the Ghana and CATO near-repeats, the Vimeo title list and the two conflicting production lists. |
-| **5** | charlotte-christian (13), hickory-grove-christian (7), gaston-day (10) | **30** | 1,473 | Christian has the contractor-vs-school facility claims, "two storeys", the tier-defining "FINALIST — not nominee" row and the CITA one-data-point claim. HG copies the Scholastic wording and has its own Aghedo repeat. Gaston has the `experiential learning` item, `*shape*`/`*record*`, the seven-school acceptance list and "+0.50 vs +1.0". |
+| **5** | charlotte-christian (13), hickory-grove-christian (7), gaston-day (10) | **30** | 1,473 | Christian has the contractor-vs-school facility claims, "two storeys", the tier-defining "FINALIST — not nominee" row and the CITA one-data-point claim. HG copies the Scholastic wording and has its own [name withheld] repeat. Gaston has the `experiential learning` item, `*shape*`/`*record*`, the seven-school acceptance list and "+0.50 vs +1.0". |
 
 28 + 24 + 22 + 28 + 30 = **132** paths. Phase 2 runs **once**, after Batch 5 is approved.
 
@@ -474,7 +473,7 @@ Seeded at planning time from reading all 132 units. These are not rulings, only 
 **Batch 1**
 - **PD `theatre.honestContext`**: the school's `"26 BLUMEY Awards,"` counts nominations and
   finalist placements together with wins. Keep "exactly one outright win is verifiable —
-  Max Odom, 2022", "5–6 finalists each year, converted none", "Its high-water mark was
+  [name withheld], 2022", "5–6 finalists each year, converted none", "Its high-water mark was
   2016–2022", and the full NCTC list (shared with `holdsUp[1]`).
 - **PD `theatre.ledger[4].result`**: "independently confirmed"; "Best Musical (Tier 2)";
   both went elsewhere, to the named schools.
@@ -518,10 +517,9 @@ Seeded at planning time from reading all 132 units. These are not rulings, only 
   "about nine" in 2023 and 2024. It stays a question with both possible reasons.
 - **Carmel `theatre.ledger[0].result`**: the WIN, the Jimmy Awards dates, and "five more
   placements across four categories" (4 finalists + 1 nominee).
-- **Carmel `theatre.ledger[1].result`**: "Seven placements, no win"; Caeden Moore and Sasha
-  Mashchenko each appear twice; drop TO VERIFY (Decisions).
+- **Carmel `theatre.ledger[1].result`**: "Seven placements, no win"; [name withheld] and [name withheld] each appear twice; drop TO VERIFY (Decisions).
 - **Carmel `theatre.honestContext`**: the 2024 nominations belong to Anastasia, not to
-  `"Singin' in the Rain"`; the undated news page's earlier pair (Pisacano, Wilson).
+  `"Singin' in the Rain"`; the undated news page's earlier pair ([name withheld]).
 - **Carmel `verdict.holdsUp[1].text`**: "six across five categories" and "seven in 2024".
 
 **Batch 3**
@@ -588,7 +586,7 @@ Seeded at planning time from reading all 132 units. These are not rulings, only 
   audition requirement is stated; the tiering reflects the published structure.
 - **Christian `ladder.enrichment[3].text`**: the Apple link is not drawn by the school
   ("the school does not state it"), and the designation years are not published.
-- **HG `theatre.ledger[1].result`**: Aghedo is both a nominee and a finalist; keep both.
+- **HG `theatre.ledger[1].result`**: [name withheld] is both a nominee and a finalist; keep both.
 - **HG `verdict.headline`**: "two years running"; the open questions are venue, director
   and orchestra.
 - **Gaston `visual.pathNote`**: `+0.50` and `+1.0` exactly; "Visual Art IV (H) is the
@@ -646,7 +644,7 @@ here as precedent.
 - **Batch 1 (approved 2026-11-10): no rulings.** The resume command arrived with the
   `<, with these rulings: …>` placeholder unfilled, read as "approved, no rulings". So both
   defaults stand: the eighth-grade student's name stays out of Latin `music.ladder[2]`, and
-  Anjali Rao ’27 stays in Latin `visual.footnote`. Batch 1's choices stand as precedent:
+  [name withheld] ’27 stays in Latin `visual.footnote`. Batch 1's choices stand as precedent:
   - ledger rows and name lists of 4+ items become a `·` run after a colon lead, with the
     lead ("No wins. N finalist placements…:") kept parallel across a school's rows;
   - a quoted span that ends a sentence goes at the end of the unit, or is followed by a
@@ -661,7 +659,7 @@ here as precedent.
     Fab Lab is not shown…", "such a selection").
 
 - **Batch 2 (approved 2026-11-10): no rulings.** Placeholder unfilled again. The two
-  flagged items (CCD McGovern fact error, Carmel `ledger[2].year` "(year to verify)") got
+  flagged items ([name withheld] fact error, Carmel `ledger[2].year` "(year to verify)") got
   no answer, so they stay unchanged under Candidates. Batch 2's choices stand:
   - a shared noun phrase carries over, but each school keeps its own verb class ("turned
     up" / "could be found" / "is published");
@@ -1190,7 +1188,7 @@ Every guard passed on the first `--check`, for Batch 2 and for Batches 1–2 tog
 - **Carmel `visual.footnote` sets the shared noun phrase** "no external visual-arts recognition (Scholastic or otherwise)". Its verb is "turned up", because "was found" would have entered the NOTFOUND class, which the before-text's "surfaced in this pass" did not hold.
 - **CCD sets the NCTC-scale sentence** that Cannon copies: "For scale, the NCTC festival draws 3,500+ students from 100+ schools across 130+ productions."
 
-**Independent review: 12 findings, all fixed** (see the review file). The reviewer also reported one fact error in the before-text, left unchanged and flagged: CCD's "Sabrina McGovern earned lead-category nominations in three consecutive cycles" disagrees with the school's own ledger, where 2024 is Best Supporting Actress. It also caught that the plan's near-repeat table misquoted Carmel `music.ladder[1]`; the table is corrected.
+**Independent review: 12 findings, all fixed** (see the review file). The reviewer also reported one fact error in the before-text, left unchanged and flagged: CCD's "[name withheld] earned lead-category nominations in three consecutive cycles" disagrees with the school's own ledger, where 2024 is Best Supporting Actress. It also caught that the plan's near-repeat table misquoted Carmel `music.ladder[1]`; the table is corrected.
 
 **Step 6 checks.** All green:
 - `npx tsc -b` and `npx vite build`;
@@ -1279,7 +1277,7 @@ Two guard catches came before the review:
 
 **Independent review: 14 findings, all fixed** (see the review file). The reviewer also reported three before-text fact problems:
 - **Charlotte Christian says there is no AP Music Theory, but the course catalog data and the Compare page say there is.**
-- HG's "repeat producer of nominated performers" counts Young, who was a finalist in 2025.
+- HG's "repeat producer of nominated performers" counts [name withheld], who was a finalist in 2025.
 - Gaston's Thespian Society claim rests only on the student-clubs research.
 
 **Step 6 checks.** All green:
@@ -1311,7 +1309,7 @@ Two guard catches came before the review:
 
 - **Approval.** The user approved the English ("The English page is approved. Run only Phase 2"). Phase 2 ran in the same window as Batch 5, on `feat/plainarts`.
 - **Splice matched exactly.** `i18n_splice_work.mjs --topic the-arts` gave **1,044 kept / 132 added / 132 dropped** in all nine locales. That equals the final `check:live` count. Every added unit paired 1:1 with its dropped predecessor by `at` path (0 unpaired), using the `main` work files as the source of the old English and old `t`. No rewrite merged into an existing string.
-- **Translation.** Nine parallel `general-purpose` subagents, one per locale, each *revised* the reviewed `t` to match the new English. Each got 45 reviewed same-area units as a terminology reference and its locale's rollout doc, read only its own task file and wrote only its own output. The scratch gate is plainaid's gate with four additions: the ` · ` count, no `*`, `N+` tokens among the money/percent/year tokens, and an English-month check that exempts a month word followed by the same capitalized word as the English. That last one was added mid-run, because "April" in the student name April Liu was flagged in every locale. All nine passed with 0 problems.
+- **Translation.** Nine parallel `general-purpose` subagents, one per locale, each *revised* the reviewed `t` to match the new English. Each got 45 reviewed same-area units as a terminology reference and its locale's rollout doc, read only its own task file and wrote only its own output. The scratch gate is plainaid's gate with four additions: the ` · ` count, no `*`, `N+` tokens among the money/percent/year tokens, and an English-month check that exempts a month word followed by the same capitalized word as the English. That last one was added mid-run, because a word in a withheld student name read as a month and was flagged in every locale. All nine passed with 0 problems.
 - **Wrong-script scan.** No wrong-script characters were found in any output (Bangla's danda U+0964 is excluded; it is the known false positive). The ht translator found and fixed a **Cyrillic "е" (U+0435) inside "nominе"** in two reviewed ht units, `f00fcab5` and `c8c58c4c`. It is worth scanning the rest of the ht work files for this.
 - **Systematic changes worth a native reviewer's look:**
   - **The new glosses have no reviewed predecessor in any locale:** proscenium, adjudicated festivals and ratings, production-level categories, capstone, "Hands-on music classes (Experiential music)", residency, and "teaching method" replacing "pedagogy".
@@ -1359,10 +1357,10 @@ Two guard catches came before the review:
   `theatre.ledger[0].result`: "were not published at time of research"). A later plan
   could add a dev-only field to the arts type.
 - **A second K–8-grade student's name, found at Batch 1.** charlotte-latin
-  `visual.footnote` lists "Anjali Rao ’27 (fashion, 2023)". A Class of 2027 student was in
+  `visual.footnote` lists "[name withheld] ’27 (fashion, 2023)". A Class of 2027 student was in
   8th grade in 2022–23. She is in high school now, and the plan's default covered only
   the current eighth grader, so the name is kept. **Flagged for the user.**
-- **CCD's McGovern claim (found at Batch 2).** `charlotte-country-day:theatre.honestContext`
+- **[name withheld] claim (found at Batch 2).** `charlotte-country-day:theatre.honestContext`
   says "lead-category nominations in three consecutive cycles". The ledger shows 2024 as Best
   Supporting Actress, so two of three are lead categories. This is a fact fix, not a wording
   one. **Flagged for the user.**
@@ -1387,8 +1385,8 @@ Two guard catches came before the review:
     `ARTS_MATRIX['charlotte-christian'].musicTheory.US` cites it, so Compare shows Yes. The
     Arts card and Compare disagree. Recommended next fix.
   - hickory-grove-christian "a repeat producer of nominated performers" (`theatre.
-    honestContext`, `holdsUp[0]`): Young was a 2025 finalist and a 2026 nominee, so only
-    Aghedo was nominated in both years.
+    honestContext`, `holdsUp[0]`): [name withheld] was a 2025 finalist and a 2026 nominee, so only
+    [name withheld] was nominated in both years.
   - gaston-day `theatre.honestContext` says the school chartered the International Thespian
     Society, while off-worklist `verdict.ask[6]` asks whether a troupe exists. The only
     source is the student-clubs research file.

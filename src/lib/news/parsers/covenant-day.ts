@@ -135,7 +135,7 @@ function titleText(link: Element): string {
  * per-article prose:
  *   • "Seven CDS athletes committed to continuing their athletic careers…"
  *   • "Registration is open for the upcoming Booster Club Golf Tournament!"
- *   • "Siti Oo's family immigrated from Burma and descends from the Chin people."
+ *   • "[name withheld] family immigrated from Burma and descends from the Chin people."
  *
  * So this school needs no `preview()` pass, and adding one "for consistency"
  * would cost extra proxy round-trips to recover text already in hand.

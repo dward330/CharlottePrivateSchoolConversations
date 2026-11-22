@@ -135,7 +135,7 @@ Commended (Academic Profile). The Class of 2026 result is a genuine step up from
 this metric** — it still reports the Class of 2024 ledger while the Class of 2026 has graduated.
 
 **Class of 2026 AP Scholar awards** (from the June 2026 post): **26 AP Scholars, 29 AP Scholars
-with Honor, 51 AP Scholars with Distinction**. Also: **Maya Kodali '26 was the first Providence
+with Honor, 51 AP Scholars with Distinction**. Also: **[name withheld] '26 was the first Providence
 Day student ever to receive the AP International Diploma.**
 
 ### Post-AP course depth
@@ -442,10 +442,10 @@ Iowa State, West Virginia, UCF. **All four conferences: saturated.**
 **Class of 2026:**
 - **more than $21 million** in merit scholarships and academic honors; **82% of seniors** offered
   merit scholarships or academic recognition.
-- **5 National Merit Scholarship recipients:** Wes Kropf, Owen Moore, Coley Roberson, Alex Shi,
-  Eleanor Zhang.
-- **Valedictorian Maya Kodali '26 → Harvard University**; **Salutatorian Wes Kropf '26 →
-  Princeton University**; King Constantine Medal to Elizabeth Cicoletti '26 (Cal Poly SLO).
+- **5 National Merit Scholarship recipients:** [name withheld], [name withheld], [name withheld], [name withheld],
+  [name withheld].
+- **Valedictorian [name withheld] '26 → Harvard University**; **Salutatorian [name withheld] '26 →
+  Princeton University**; King Constantine Medal to [name withheld] '26 (Cal Poly SLO).
 - **31 senior student-athletes** continuing at the collegiate level, **13 at Division I**.
 - **NOT PUBLISHED for 2026:** Morehead-Cain, QuestBridge, ROTC, or service-academy outcomes were
   not mentioned in the Class of 2026 posts.

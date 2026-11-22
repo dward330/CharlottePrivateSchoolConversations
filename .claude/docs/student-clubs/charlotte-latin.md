@@ -1,5 +1,5 @@
 # Charlotte Latin School — Student Clubs
-> Distilled from 9 source document(s) in `source-material/student-clubs/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 9 source document(s) in `source-material/student-clubs/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic and Competitive Programs, Club Catalog Web Check 2026, Club Catalog and Descriptions, Governance, Formation, Funding and Discovery, NotebookLM Episode Prompt, Participation and Popularity, Service, Leadership and Civic Engagement, Thematic Pathways, Clubs Redesign Deep Research
 
 
@@ -41,13 +41,13 @@ with his teams accumulating more than 30,000 NSDA points over a decade of coachi
 charlottelatin.org — News & Speech and Debate; NSDA]
 Recent national-tournament results
 Students Event Result
-Anisha Chandra & Divija Rao Public Forum Debate 5th at the NSDA National Tournament
+[name withheld] & [name withheld] Public Forum Debate 5th at the NSDA National Tournament
 Compiled June 24, 2026. Sources cited inline and listed at end of each document. Page 1
 CHARLOTTE LATIN SCHOOL HAWKS — STUDENT CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
 Students Event Result
-Natalie Berman & Nicholas Willett Public Forum Debate 25th at the NSDA National Tournament
-Isabel Yang World Schools Debate 33rd at the NSDA National Tournament
-Alaric Pan ('23) Academic All-American NSDA Academic All-American (top ~1%
+[name withheld] & [name withheld] Public Forum Debate 25th at the NSDA National Tournament
+[name withheld] World Schools Debate 33rd at the NSDA National Tournament
+[name withheld] ('23) Academic All-American NSDA Academic All-American (top ~1%
 of members)
 Sources: charlottelatin.org news ('Charlotte Latin Places in Top 20 Debate Programs'; 'Speech & Debate All-American'). The program
 spans both Middle and Upper School.
@@ -144,7 +144,7 @@ the app's Honor Societies card instead).
 NSDA year check, same day: the school news post
 https://www.charlottelatin.org/about/school-news/news-details/~board/news/post/charlotte-latin-places-in-top-20-debate-programs-in-usa
 (page metadata dated 2025-07-25) says "This summer … over five days of competition in June in Des
-Moines, IA … The team of Anisha Chandra ’26 and Divija Rao ’26 ranked in fifth place in the
+Moines, IA … The team of [name withheld] ’26 and [name withheld] ’26 ranked in fifth place in the
 category of Public Forum Debate". That is the **June 2025** National Tournament; "'26" is the
 students' class year.
 

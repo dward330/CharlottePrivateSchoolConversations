@@ -189,7 +189,7 @@ and leave the index telling the truth about what shipped.
 
 **Keep the derived layers in sync with raw research.**
 
-`.claude/skills/ingest-source-material/SKILL.md` · added 2026-07-03 · updated 2026-11-20 (dependents registry)
+`.claude/skills/ingest-source-material/SKILL.md` · added 2026-07-03 · updated 2026-11-22 (no student names)
 Ships with `build_docs.py`. *The oldest skill in the repo.*
 
 Regenerates the distilled notes in `.claude/docs/` and the manifest `src/data/schools.json`
@@ -206,6 +206,11 @@ source-material/<topic>/<school>/*      raw (PDFs gitignored, .md committed)
           ▼  hand-maintained checklist
 metrics.ts · metricValues.ts · financialAidReports.ts · locales/*.json
 ```
+
+> **🚫 Hard constraint — no non-athlete student names** (user, 2026-11-22). Research `.md`
+> is clean at the source. `build_docs.py` withholds names found in raw PDFs using a local,
+> gitignored list (`source-material/_name_redactions.json`), which is never committed, and
+> it refuses to run on raw files without that list.
 
 > **🎨 Hard constraint — ingestion never changes the UX.** Enriching, correcting and
 > extending existing cards is free. A **new card, section, stat tile, Compare row, metric

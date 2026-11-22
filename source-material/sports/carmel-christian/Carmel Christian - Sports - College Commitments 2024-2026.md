@@ -105,7 +105,7 @@ both pass the graduate test.
 | Miles Leaks | Basketball | Johnson & Wales (Charlotte) | C2C | D3 | Next Steps; MaxPreps Sr.; RealGM "Johnson & Wales (NC)". **Conf corrected: GNAC → C2C** (GNAC is the Providence campus; the Charlotte Wildcats play in the Coast-to-Coast Athletic Conference) |
 | Ben Price | Tennis | Hampden-Sydney | ODAC | D3 | Next Steps; MaxPreps Sr. 2024-25; H-SC roster ("Carmel Christian") |
 
-Not counted: **Audrey Bucey** — "University of South Carolina — Dance" on Next Steps. A
+Not counted: **[name withheld]** — "University of South Carolina — Dance" on Next Steps. A
 dance team is a spirit program, not an intercollegiate sport, and counting it would make it
 a Power 4 row. This is recorded here so a later pass sees the decision.
 
@@ -152,4 +152,4 @@ Class of 2027.md`, which is provisional until the early signing period (opens 20
 | Michael Marcus Jr. — George Mason | RealGM (2024) | Not on Carmel's 2023-24 roster. He is a Covenant Day graduate on that school's card |
 | Jaeden Mustaf — Georgia Tech → Indiana | RealGM (2024) | Not on Carmel's 2023-24 roster, and the dossier already flagged that he graduated elsewhere |
 | Landon Boyd — Florida International | HighSchoolOT baseball tracker | Contradicted by the school's list and Perfect Game (USC Aiken). The row stays at USC Aiken |
-| Audrey Bucey — South Carolina (dance) | Next Steps | Not an intercollegiate sport (see above) |
+| [name withheld] — South Carolina (dance) | Next Steps | Not an intercollegiate sport (see above) |

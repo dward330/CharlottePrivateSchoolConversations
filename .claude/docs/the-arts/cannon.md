@@ -1,5 +1,5 @@
 # Cannon School — The Arts
-> Distilled from 9 source document(s) in `source-material/the-arts/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 9 source document(s) in `source-material/the-arts/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Arts Redesign Deep Research, Course Offerings, Deep Research, Facilities, Music, Program Overview, Theater Course Check 2026, Theater, Visual Arts
 
 
@@ -334,22 +334,22 @@ https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists
 
 | Category | Student | Role |
 |---|---|---|
-| Finalists for Best Actor | Griffen Evans | Harry Bright |
-| Finalists for Best Actress | Avery Fawcett | Rosie |
-| Finalists for Best Supporting Actor | Lucas Guilfoyle | Sam Carmichael |
-| Finalists for Best Supporting Actress | Shah Aashvi | Tanya |
-| Finalists for Best Featured Performer | Malcolm Musinguzi | Pepper |
+| Finalists for Best Actor | [name withheld] | Harry Bright |
+| Finalists for Best Actress | [name withheld] | Rosie |
+| Finalists for Best Supporting Actor | [name withheld] | Sam Carmichael |
+| Finalists for Best Supporting Actress | [name withheld] | Tanya |
+| Finalists for Best Featured Performer | [name withheld] | Pepper |
 
 **2023 Blumey Awards (10th annual) — *Freaky Friday* — 5 finalist nominations** **[VERIFIED]**
 https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf
 
 | Category | Student | Role |
 |---|---|---|
-| Finalists for Best Actor | Jonah Feeley | Adam |
-| Finalists for Best Actress | Annalise Randall-Bauer | Ellie Blake |
-| Finalists for Best Supporting Actor | Michael Wang | Mike |
-| Finalists for Best Supporting Actress | Abby Guilfoyle | Torrey |
-| Finalists for Best Featured Performer | Avery Fawcett | Mrs. Luckenbill / Officer Sitz |
+| Finalists for Best Actor | [name withheld] | Adam |
+| Finalists for Best Actress | [name withheld] | Ellie Blake |
+| Finalists for Best Supporting Actor | [name withheld] | Mike |
+| Finalists for Best Supporting Actress | [name withheld] | Torrey |
+| Finalists for Best Featured Performer | [name withheld] | Mrs. Luckenbill / Officer Sitz |
 
 **2026 Blumey Awards** — Cannon is a **participating school** with *Mean Girls School Edition*
 (Feb. 11–14). Nominees/winners for 2026 were **[NOT FOUND]** at time of compile. **[VERIFIED
@@ -681,7 +681,7 @@ a legitimate and arguably more interesting story — but it must be told as such
  **[VERIFIED]**
 4. **The theatre season is structurally serious: three distinct outward-facing commitments a year** —
  NCTC festival play in the fall, Blumey-competing musical in the winter, spring show — plus a May
- Cabaret with awards. A student can perform, co
+ Cabaret with awards. A student can per
 
 …[truncated]
 

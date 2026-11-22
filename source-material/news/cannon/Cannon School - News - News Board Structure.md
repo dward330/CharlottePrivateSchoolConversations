@@ -152,7 +152,7 @@ Board HTML ~64KB, HTTP 200, all 18 articles server-rendered (not JS-hydrated).
 | 1 | 10 | 2026-08-25 | Cannon School Celebrates Completion of Upper School Expansion and Renovation |
 | 2 | 10 | 2026-08-25 | Behind the Scenes at Cannon Studios |
 | 3 | 10 | 2026-08-13 | Teaching and Learning at Cannon in the Age of AI |
-| 4 | 10 | 2026-08-03 | Alumni Spotlight: Eden and Shelby Sipperly '11 Turn Grief Into Connection |
+| 4 | 10 | 2026-08-03 | Alumni Spotlight: [name withheld] '11 Turn Grief Into Connection |
 | 5 | 10 | 2026-08-03 | Gratitude Report Celebrates a Community Investing in Cannon's Future |
 | 6 | 10 | 2026-08-03 | A Flourishing Future: August Construction Update |
 | 7 | 10 | 2026-08-03 | Cannon School Welcomes New Faculty, Staff, and Leadership for the 2026–2027 School Year |

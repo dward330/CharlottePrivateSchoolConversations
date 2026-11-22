@@ -1,5 +1,5 @@
 # Charlotte Country Day School — The Arts
-> Distilled from 9 source document(s) in `source-material/the-arts/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 9 source document(s) in `source-material/the-arts/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Arts Redesign Deep Research, Awards and Recognition, Deep Research, Drama, Facilities, Music Ensembles Web Check 2026, Music, Program Overview, Visual Arts
 
 
@@ -246,7 +246,7 @@ Press corroboration: https://www.thecharlottepost.com/news/2022/06/01/arts-and-e
 - **WON: Best Choreography** (Linda Booth)
 - **WON: Best Direction / Best Overall Direction** (Jenny Goodfellow)
 - 8 nominations total; ceremony May 29, 2022 (9th annual Blumeys)
-- Students recognized: Grace Tingen '23, Sophie Davis '22, Lance Toppin '23, Emma Taylor '22
+- Students recognized: [name withheld] '23, [name withheld] '22, [name withheld] '23, [name withheld] '22
 - **Baseline check:** the claim "CCD won Best Overall Direction in 2022 for *Anastasia*" is
  **CONFIRMED** — the school reports the win as "Best Direction," and it was one of two wins
  that night alongside Best Choreography.
@@ -258,12 +258,12 @@ Nominations confirmed line-by-line in the official PDF:
 - Best Choreography Execution — *Something Rotten*
 - Best Ensemble/Chorus — *Something Rotten*
 - **Best Overall Direction** — *Something Rotten*
-- Best Actor — **Lance Toppin** as Nick Bottom
-- Best Actress — **Sabrina McGovern** as Bea
-- Best Supporting Actor — **Jack Cooper** as Shakespeare
-- Best Supporting Actress — **Magdeline Fraser** as Portia
-- Best Featured Performer — **Reagan Harris** as Ensemble/Peter
-- Best Student Stage Manager — **Graham McPhail** *(school post; category listed as a
+- Best Actor — **[name withheld]** as Nick Bottom
+- Best Actress — **[name withheld]** as Bea
+- Best Supporting Actor — **[name withheld]** as Shakespeare
+- Best Supporting Actress — **[name withheld]** as Portia
+- Best Featured Performer — **[name withheld]** as Ensemble/Peter
+- Best Student Stage Manager — **[name withheld]** *(school post; category listed as a
  finalist/nomination)*
 - School post also claims a **Best Musical** nomination. The Best Musical (Tier 1/Tier 2) lines
  in the official 2023 PDF did not resolve to CCD in the parse — treat the Best Musical claim as
@@ -277,12 +277,12 @@ Confirmed in the official PDF:
 - Best Choreography Execution — *Bonnie and Clyde*
 - Best Ensemble/Chorus — *Bonnie and Clyde*
 - **Best Overall Direction** — *Bonnie and Clyde*
-- Best Actor — **Jack Cooper** as Clyde
-- Best Actress — **Magdeline Fraser** as Bonnie
-- Best Supporting Actor — **Thomas Lawn** as Buck Barrow
-- Best Supporting Actress — **Sabrina McGovern** as Blanche Barrow
-- Best Featured Performer — **Liza Simon** as Young Bonnie
-- Stage Management — **Abby Wood**, top-six finalist consideration *(school post)*
+- Best Actor — **[name withheld]** as Clyde
+- Best Actress — **[name withheld]** as Bonnie
+- Best Supporting Actor — **[name withheld]** as Buck Barrow
+- Best Supporting Actress — **[name withheld]** as Blanche Barrow
+- Best Featured Performer — **[name withheld]** as Young Bonnie
+- Stage Management — **[name withheld]**, top-six finalist consideration *(school post)*
 - Ceremony: Belk Theater, Sunday May 26, 2024. **[VERIFIED]**
 - **Wins in 2024: [NOT FOUND]**.
 
@@ -290,11 +290,11 @@ Confirmed in the official PDF:
 Primary source PDF: https://www.blumenthalarts.org/assets/doc/2025-Blumey-All-Nominees-and-Finalists-9b848e893a.pdf
 Announcement: https://www.blumenthalarts.org/news/detail/2025-blumey-awards-nominations
 Confirmed line-by-line:
-- Best Actor — **Charles Dekle** as Major Josiah Dobbs
-- Best Actress — **Sabrina McGovern** as Alice Murphy
-- Best Supporting Actor — **Reid Cook** as Billy Cane
-- Best Supporting Actress — **Addi Bianchi** as Margo Crawford
-- Best Featured Performer — **Brady Heintschel** as Daryl Ames
+- Best Actor — **[name withheld]** as Major Josiah Dobbs
+- Best Actress — **[name withheld]** as Alice Murphy
+- Best Supporting Actor — **[name withheld]** as Billy Cane
+- Best Supporting Actress — **[name withheld]** as Margo Crawford
+- Best Featured Performer — **[name withheld]** as Daryl Ames
 - Notable: **all five 2025 nominations are individual performance categories** — no Direction,
  Ensemble, Choreography or Best Musical nomination in 2025, a step down from 2023–24.
 - 2025 field size: **54 schools**. **[VERIFIED]**
@@ -339,7 +339,7 @@ https://www.charlottecountryday.org/about/history/news-details-page-history/~boa
  (Central Academy of Technology & Arts, Northwest School of the Arts, Weddington,
  North Lincoln, Providence, Hough). CCD competes with those programs on nominations without
  usually beating them on trophies.
-- The **individual-performance strength is real and repeatable** — Sabrina McGovern was
+- The **individual-performance strength is real and repeatable** — [name withheld] was
  nominated in three consecutive cycles (2023 Best Actress, 2024 Best Supporting Actress,
  2025 Best Actress). That is a signal about coaching of principals. **[VERIFIED]**
 
@@ -536,7 +536,7 @@ Source: https://www.charlottecountryday.org/cd-experience/arts/visual-arts
  Blumey field. **[VERIFIED]**
 
 5. **Individual performer development is demonstrably repeatable** — the same student
- (Sabrina McGovern) earned lead-category Blumey nominations in three straight cycles, and CCD
+ ([name withheld]) earned lead-category Blumey nominations in three straight cycles, and CCD
  placed five different students in five performance categories in 2025. That reflects coaching
  depth, not one lucky cohort. **[VERIFIED]**
 
@@ -702,8 +702,7 @@ Press / third party
 13. **Arts department chair / visual arts chair / choral director names: [NOT FOUND].** Only
  Jenny Goodfellow (theatre), Chris Rydel (US instrumental), Stacy Utley (US art), Karl Hoffman
  (technical director), Linda Booth (choreography), Megan DeLaura and Lindsey Schroeder (music
- direction) and Jaclyn Orchard (costumes) are named.
-14
+ direction
 
 …[truncated]
 

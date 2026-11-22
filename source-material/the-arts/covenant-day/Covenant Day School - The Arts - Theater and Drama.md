@@ -22,12 +22,11 @@ The program's annual performance slate, per the school's own pages:
 - **Spring Drama** (April; calendar shows April 25-27).
 - **Middle School Theater Night** and **High School Theater Night** showcases.
 - **High School Shakespeare Competition** (fed the 2025 National Shakespeare
-  Competition finalist, Caroline Garbarino).
+  Competition finalist, [name withheld]).
 - **North Carolina Theater Conference** participation.
 
 The school lists production *categories*, not titles; the one recoverable named
-production is ***Curtains*** (the 2019 Blumey Best Actress nomination for Evan
-Bertram as Georgia Hendricks).
+production is ***Curtains*** (the 2019 Blumey Best Actress nomination for [name withheld] as Georgia Hendricks).
 
 ### The venue
 

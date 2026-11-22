@@ -122,7 +122,7 @@ swimmer. PrepVolleyball search found no Carmel page.
 | Jaeden Mustaf — Georgia Tech ('24) | RealGM | Not on Carmel's 23-24 roster |
 | Cody Peck — Dayton ('26) | RealGM | Graduated elsewhere |
 | Landon Boyd → Florida International | HighSchoolOT baseball tracker | School list and Perfect Game both say USC Aiken |
-| Audrey Bucey — South Carolina dance ('25) | Next Steps | Dance team is not an intercollegiate sport; not counted |
+| [name withheld] — South Carolina dance ('25) | Next Steps | Dance team is not an intercollegiate sport; not counted |
 
 ## Nulls (searched, nothing found)
 

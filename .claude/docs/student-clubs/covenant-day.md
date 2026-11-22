@@ -1,5 +1,5 @@
 # Covenant Day School — Student Clubs
-> Distilled from 6 source document(s) in `source-material/student-clubs/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 6 source document(s) in `source-material/student-clubs/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic and Competitive Clubs, Club Catalog and Overview, Honor Societies, Lower and Middle School Activities, Service and Community Engagement, Signature Traditions and Student Life
 
 
@@ -17,10 +17,10 @@
 ### Sources
 
 - https://www.covenantday.org/academics/high-school (Mock Trial named)
-- NC Mock Trial regional winners (Cornelia Knight, Covenant Day):
+- NC Mock Trial regional winners ([name withheld], Covenant Day):
  https://ncmocktrial.org/2024/02/12/congratulations-to-courtroom-artists-regional-winners/
-- 2025 state courtroom-artist result (Knight runner-up):
- https://ncmocktrial.org/2025/03/17/congratulations-to-courtroom-artist-state-champion-erica-oliver-2/
+- 2025 state courtroom-artist result ([name withheld] runner-up):
+ https://ncmocktrial.org/2025/03/17/name-withheld/
 - https://www.privateschoolreview.com/covenant-day-school-profile (roster)
 
 ### The competitive slate
@@ -28,7 +28,7 @@
 - **Mock Trial** — the school's flagship competitive club, named on the school's
  own high-school page. The NC Mock Trial Program's records show **"Covenant Day
  School Blue"** competing (the "Blue" suffix implies multiple CDS teams), and
- **Cornelia Knight of Covenant Day School Blue won the courtroom-artist regional
+ **[name withheld] of Covenant Day School Blue won the courtroom-artist regional
  (Hickory) and was the 2025 State Champion Courtroom Artist runner-up** — the
  program's best-documented statewide result.
 - **Robotics — First Lego League** (US) and **Junior First Lego League** (LS/MS).
@@ -45,7 +45,7 @@
 ### Flagship result for the app
 
 Mock Trial: **regional champion + 2025 state runner-up, courtroom artist**
-(Cornelia Knight, Covenant Day Blue) — the single most notable documented
+([name withheld], Covenant Day Blue) — the single most notable documented
 competitive result.
 
 
@@ -316,7 +316,7 @@ against /campus-life/student-life and /campus-life/discipleship).
 ## Sources referenced across these documents
 
 - https://ncmocktrial.org/2024/02/12/congratulations-to-courtroom-artists-regional-winners/
-- https://ncmocktrial.org/2025/03/17/congratulations-to-courtroom-artist-state-champion-erica-oliver-2/
+- https://ncmocktrial.org/2025/03/17/name-withheld/
 - https://www.covenantday.org/about-us/news
 - https://www.covenantday.org/academics/high-school
 - https://www.covenantday.org/arts/music

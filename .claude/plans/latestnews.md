@@ -400,7 +400,7 @@ that caption in a `<p>` inside `<figure class="fsImageCaptioned">` **before** th
 body paragraph. It clears 60 characters, so the planned "first substantive `<p>`" rule
 shipped
 
-> "Pictured: Brooks Hinton '27 with Lower School Freedom School scholars."
+> "Pictured: [name withheld] with Lower School Freedom School scholars."
 
 as the story preview on **2 of 10 rows** — grammatical, plausible, and not what the story
 is about. Captions are now excluded structurally (`closest('figure, figcaption,

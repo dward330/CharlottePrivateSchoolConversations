@@ -1,5 +1,5 @@
 # Providence Day School — Sports
-> Distilled from 22 source document(s) in `source-material/sports/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 22 source document(s) in `source-material/sports/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Football Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records, 247Sports Recruiting Rankings, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Division Sizes 2025-26, Wells Fargo Cup History and Scoring, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026
 
 
@@ -60,7 +60,7 @@ Charger Athlete of the Year Jane Updyke & Aidan Gallos
 Coach of the Year Kristina Bond (Swimming) & Chad Grier (Football)
 Academic Athlete of the Year Raj Das & Taylor Pochick
 Impact Athletes of the Year Devin McElroy, Gordon Sellars, Zetta Grace Bartee, Cullen Ward
-Manager of the Year Aidan Gould (Boys Basketball)
+Manager of the Year [name withheld] (Boys Basketball)
 [Source: pdschargers.com 2026 PD ESPYs]
 Conference & State All-Star Honors
 (cid:127) CISAA Players of the Year (2026): Abby Goldean and Trevor Yancey — described by the school as “elite

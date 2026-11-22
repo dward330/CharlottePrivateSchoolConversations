@@ -1,5 +1,5 @@
 # Charlotte Country Day School — College Support
-> Distilled from 11 source document(s) in `source-material/college-support/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 11 source document(s) in `source-material/college-support/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Redesign Research 2026, School Profile 2026-2027, Standing Out, UNC System Admissions
 
 
@@ -584,7 +584,7 @@ Verbatim from the 2025-26 Profile (identical wording in 2024-25):
 Notes and cautions on this table:
 
 - **Class-year labelling is inconsistent across sources and is the single biggest trap here.** The 9/29/20 post explicitly names "Class of 2021"; the 10/8/21 post says "senior class" in Oct 2021, i.e. Class of 2022. Semifinalist announcements land in the fall of senior year, so a Sept 2025 announcement = Class of 2026.
-- The 9/25/25 post ("six National Merit Semifinalists") names: Benjamin Eligator, Tilly King, Caroline Mallard, Brady Mills, Ella Grace Parsons, Soraya Shah. Six semifinalists → five finalists is internally consistent with the May 2026 post.
+- The 9/25/25 post ("six National Merit Semifinalists") names: [name withheld], [name withheld], [name withheld], [name withheld], [name withheld], [name withheld]. Six semifinalists → five finalists is internally consistent with the May 2026 post.
 - **Class of 2025 is a conspicuous trough** (2 SF / 2 F / 5 Commended) between Class of 2024 (7/7/2) and Class of 2026 (6/5/13). Both neighbouring years are 3x higher. This is school-reported in the official profile and is not obviously an error, but it is an outlier worth asking about. `TO VERIFY`
 - **College Board National Recognition Program awards: NOT PUBLISHED.** Despite a school news headline referencing academic recognition programs, no CCD source found publishes a count of College Board National Recognition Program awardees (National African American / Hispanic / Indigenous / Rural & Small Town / First-Generation Recognition). Do not populate this metric.
 
@@ -1178,7 +1178,7 @@ Agnes Scott College · Appalachian State University · Auburn University · Bate
 | University of North Carolina (Pembroke) | | |
 | University of North Carolina (Wilmington) | | |
 | University of North Carolina School of the Arts | | Conservatory |
-| **University of Notre Dame** | Yes | **NU 
+| **University of Notre Dame** | Yes 
 
 …[truncated]
 
