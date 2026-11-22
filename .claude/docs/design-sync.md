@@ -309,7 +309,7 @@ it is not unbuilt work.
 | `Learning Support Section Redesign.dc.html` | stale | Testing & Evaluation moved second; RF/REQUIRED chip legend; email column. Retired: Compare button (area is off Compare), kickers. Possibly ahead: a "THIRD-PARTY · NOT CODED" chip and letter prefixes on service headers | replace |
 | `High School Placement Section Redesign.dc.html` | stale (some ahead?) | Where They Land merged into Where Graduates Go at Charlotte Prep; per-class rate tiles; class selector and school search; Visit Checklist; class video. Shown in the file but not rendered: the Class by Class table (component supports it, Charlotte Prep's data has none), "Why it holds up" / "Where it is thin" in the verdict | replace (user accepted the recommendation, 2026-11-20) |
 | `After School Section Redesign.dc.html` | stale | Stat strip; podcast bar; "See Summer Programs →" link; Show sources toggles. Retired: visible TO VERIFY flags | replace · re-captured 2026-11-22 from `229961c8` (plan `consistency3`) |
-| `Financial Aid & Tuition.dc.html` | stale | The report now has 7 sections (new 04 "The Aid Numbers"); it lives inside the school page as an In-Depth Report card; 4 stat tiles; deposit sub-block. Retired: "CS" mock logo | replace |
+| `Financial Aid & Tuition.dc.html` | stale | The report now has 7 sections (new 04 "The Aid Numbers"); it lives inside the school page as an In-Depth Report card; 4 stat tiles; deposit sub-block. Retired: "CS" mock logo | replace · re-captured 2026-11-22 from `6b1b21ee` (plan `consistency3`, linked sources) |
 | `Charlotte Prep Course Offerings.dc.html` | spec record | Matches the app's three division cards; small differences (Show sources, per-card notes, course-count line). Current state is in `School Page (K-8)` and `Course Offerings Section` | leave |
 | `High School Placement Class Video.dc.html` | spec record | The video card shipped as specified; the surrounding cards in the file are out of date | leave |
 | `More Schools Row.dc.html` | spec record | Matches the app apart from a "KEEP LOOKING" eyebrow; the row is in both school-page captures | leave |
@@ -352,7 +352,7 @@ the existing name.
 | `High School Placement Section Redesign.dc.html` | replaced | Charlotte Prep + Trinity Episcopal's Where They Land card | 38.3 KB | ✓ |
 | `After School Section Redesign.dc.html` | replaced | Providence Day | 35.9 KB | ✓ |
 | `Summer Programs Section.dc.html` | new | Providence Day | 17.4 KB | ✓ |
-| `Financial Aid & Tuition.dc.html` | replaced | Cannon + Gaston Day's Bus Services and Named Scholarships cards + Charlotte Catholic's Fees card | 36.6 KB | ✓ |
+| `Financial Aid & Tuition.dc.html` | replaced | Cannon + Gaston Day's Bus Services and Named Scholarships cards + Charlotte Catholic's Fees card | 36.6 KB | ✓ · re-captured 2026-11-22 from `6b1b21ee` (plan `consistency3`, linked sources) |
 | `As Built - Index.md` | new | this doc's index | 5.2 KB | ✓ |
 
 The server stores the index as `As Built - Index.md` (it normalized the em dash in the
@@ -422,7 +422,9 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'After Sch
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Programs Section' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--area' 'summer-programs'
 
 # Financial Aid & Tuition
-npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' 'ff5ab214' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
+npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
+# then append two of Cannon's source lines, opened, as a labelled `ds-extra` block in the
+# component's markup (captures keep source rows closed): plan consistency3, linked sources
 ```
 
 The CSS chunks: `npm run design:capture -- --css --out <out>`.
@@ -518,6 +520,13 @@ and `design:verify`'d before the app was built:
 After the build (step 5b), both files were re-captured from commit `229961c8`, so they show
 what shipped, and verified byte for byte. College Support is 64,190 bytes; After School is
 38,285 bytes, including Latin's strip copied from the built DOM.
+
+**Plan `consistency3`, linked sources (2026-11-22).** At the user's request, each page a
+Financial Aid source line names became a link. It was designed first: Cannon's source rows,
+opened, with the page names linked and outlined, were added to `Financial Aid & Tuition.dc.html`
+and verified. It was then built and the file re-captured from `6b1b21ee` (39,865 bytes, byte for
+byte). A capture keeps source rows closed, so the opened lines are a labelled block generated in
+the component's own markup, checked against the live DOM.
 
 **Not represented, by design:** filters, tabs, hover tips, the photo viewer and the
 podcast and video players are static (players are labelled boxes); Latest News shows

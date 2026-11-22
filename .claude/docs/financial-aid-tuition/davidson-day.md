@@ -1,5 +1,5 @@
 # Davidson Day School — Financial Aid & Tuition
-> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-10.
+> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Deep Dive Report, Tuition History
 
 
@@ -572,6 +572,26 @@ published table, not that it was priced at zero.
 | Upper School (9–12) | +6.99% | +4.50% | +4.50% | +4.50% |
 
 These percentages are worked out from the tuition figures above, which the school publishes. Davidson Day has held very close to a flat ~4.5% annual increase since 2023–24.
+## Method
+
+### Re-verification 2026-11-22 (plan `consistency3`, linked sources)
+
+Two pages the Financial Aid report cited (retrieved 22 Jul 2026) no longer support it, so both
+citations were removed from the report, along with the claims only they supported:
+
+- **Extended care.** davidsonday.org/community/auxiliary-programs/extended-care exists only as
+ Wayback captures from 2019–2020 (last 20200518232512). The school's After School research
+ already recorded it as 404 on 22 Jul 2026. The report's "Extended care · no rate" stays: the
+ live Tuition and Affordability FAQ still says "Financial Aid does not cover extended care,
+ arts/music supplies or instruments, or athletic equipment/team packs."
+- **Employee-parent enrollment instructions.** The live
+ https://www.davidsonday.org/enrollment-instructions-for-employees covers the 2026–2027
+ contract and mentions neither an eleven-month payment plan nor a Truth in Lending
+ disclosure; nor do https://www.davidsonday.org/enrollment-instructions or the tuition page
+ (all fetched 2026-11-22). The older /enrollment-instructions-for-employee-parents (2025-2026)
+ is 404 and was never archived. The report's "Eleven-month plan" row and its "eleven-month
+ payment plan" clause were removed. "Employee parents have a separate enrollment process" stays,
+ cited to the live employees page.
 
 
 ---
@@ -590,3 +610,5 @@ These percentages are worked out from the tuition figures above, which the schoo
 - https://web.archive.org/web/20260415013011/https://www.davidsonday.org/admission/tuition-and-affordability
 - https://www.davidsonday.org/admission/tuition-and-affordability
 - https://www.davidsonday.org/admission/tuition-and-financial-aid
+- https://www.davidsonday.org/enrollment-instructions
+- https://www.davidsonday.org/enrollment-instructions-for-employees

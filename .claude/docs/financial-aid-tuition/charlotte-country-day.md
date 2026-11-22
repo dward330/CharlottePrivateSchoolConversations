@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Financial Aid & Tuition
-> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Tuition History, Financial Aid and Tuition- Deep Dive Report
 
 
@@ -110,6 +110,45 @@ million in financial assistance a year"; deadlines November 1 (current families)
 15 (new families); $65 application fee. The "about 30% of K–12 students receive need-based
 tuition assistance" in `after-school/charlotte-country-day/CCD - After School - Redesign
 Research 2026.md` has no source URL and disagrees with this page.
+
+### Re-verification 2026-11-22 (plan `consistency3`, implement)
+
+CCD-R8 asked whether the Endowment & Capital Giving page, the only source of the Merit
+section's donor gift-level ladder, is gone. **It is live.** Re-scan #1 (2026-11-20) tried
+four guessed slugs, and all 404'd. The page sits at a slug none of them used:
+
+- https://www.charlottecountryday.org/about/support/endowment-capital: HTTP 200, title
+ "Endowment & Capital Giving". It is linked from https://www.charlottecountryday.org/about/support
+ ("Learn more") and from the Tuition & Financial Aid page ("Review a full list of
+ scholarship offerings", `/fs/pages/2695`, which 301-redirects here). It is not in the
+ Support sub-nav. Wayback has archived it at this URL since 2022-05-19.
+- Verbatim today: "Currently, Country Day has 35 endowments that support scholarships." ·
+ "$220,000 (current minimum) Supports 25% of a student(s) tuition Current annual
+ distribution is estimated at $9,900 $440,000 Supports 50% … $19,800 $660,000 Supports 75%
+ … $29,700 $880,000 Supports 100% of a student(s) tuition Current annual distribution is
+ estimated at $39,600" · "+6,000 annually Often our scholarship families inquire about
+ receiving ancillary support … this is the average cost annually."
+- Example funds, verbatim: Country Day Ready (2019) "full tuition plus $6,000 in ancillary
+ expenses annually to a qualified student for their entire career at Charlotte Country Day
+ School"; Scott Benson (2013) "four years of financial aid for an Upper School Student who
+ excels in both academics and athletics"; W.R. Pitts Family (1991) "will fund the full
+ tuition (100 percent) of an incoming kindergarten student … renewed annually until the
+ child completes the fourth grade."
+- 404 today: `/giving`, `/support-cd`, `/giving/endowment`, `/support/endowment`,
+ `/giving/endowment-capital-giving`, `/support-country-day/endowment-and-capital-giving`,
+ `/about/support/endowment`, `/about/support/endowment-capital-giving`,
+ `/about/support/endowment-and-capital-giving`, `/about/support/capital-giving`,
+ `/about/support/endowed-scholarships`.
+- https://www.charlottecountryday.org/admissions/frequently-asked-questions (200): "Does
+ Country Day offer any merit scholarships? No, we only have need-based awards and endowed
+ scholarships, which are also based on financial need."
+- https://www.charlottecountryday.org/admissions/tuition-financial-aid (200): "Full and
+ Partial Endowed Scholarships Country Day has a variety of endowed scholarships awarded by
+ the school to qualified applicants based on financial need as determined through the
+ School and Clarity."
+
+Because the page was found, the plan's deletion step is **on hold for the user's call**. The
+ladder figures still match the live page word for word.
 
 
 ---
@@ -568,4 +607,7 @@ Charlotte Country Day School — Tuition & Financial Aid — figures cover the 2
 - https://web.archive.org/web/20250419212556/https://www.charlottecountryday.org/admissions/tuition-financial-aid
 - https://web.archive.org/web/20251110135437/https://www.charlottecountryday.org/admissions/tuition-financial-aid
 - https://web.archive.org/web/20260127094544/https://www.charlottecountryday.org/admissions/tuition-financial-aid
+- https://www.charlottecountryday.org/about/support
+- https://www.charlottecountryday.org/about/support/endowment-capital:
+- https://www.charlottecountryday.org/admissions/frequently-asked-questions
 - https://www.charlottecountryday.org/admissions/tuition-financial-aid

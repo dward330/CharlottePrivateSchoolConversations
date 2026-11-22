@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — Financial Aid & Tuition
-> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-13.
+> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
 **Documents:** Deep Dive Report
 
 
@@ -187,6 +187,22 @@ What the app now shows (`src/data/financialAidReports.ts`, `src/data/metricValue
 
 The band-to-grade mapping (Elementary = TK–5, Middle = 6–8, High = 9–12) is unchanged from the earlier research. The page labels the rows only "Elementary", "Middle School" and "High School", and its after-school childcare lines use the same TK–5 / 6–12 split. The new Compare runs are TK–12 $178,400 (7 × $11,900 + 3 × $12,900 + 4 × $14,100), Grades 6–12 $95,100, and Grades 9–12 $56,400.
 
+### Re-verification 2026-11-22 (plan `consistency3`, linked sources)
+
+The Scholarships page moved. /admissions/scholarships now redirects to Admissions Home, and
+the live page is https://www.hgchristian.org/scholarships ("NC State Scholarships", HTTP 200).
+Re-checked against it today, the report's figures all hold: "The full award amount for
+2026-2027 is $7,942"; four tiers of 100% $7,942, 90% $7,148, 60% $4,766 and 45% $3,574; "No
+income restrictions exist for APPLYING"; "There is a $40 application charge from FACTS";
+"Applications open February 1 st" ("will open February 1, 2027, for the 2027-2028 School
+Year"); ESA+ "for children with disabilities"; "families will still earn a 5% discount for
+paying the entire school year tuition by May 31st".
+
+One thing changed. The live page says "HGCS does NOT provide AUTOMATIC discounts (i.e.,
+multi-child, like-minded pastor, etc )". The July page had said they were discontinued for
+2026-2027. The report now uses the live wording, matching the Admissions card's "No automatic
+discounts (multi-child, pastor)", and its Scholarships links point to the live page.
+
 
 ---
 
@@ -197,6 +213,7 @@ The band-to-grade mapping (Elementary = TK–5, Middle = 6–8, High = 9–12) i
 - https://webservices.ncleg.gov/ViewDocSiteFile/91108
 - https://www.hgchristian.org/admissions/scholarships
 - https://www.hgchristian.org/admissions/tuition-and-fees
+- https://www.hgchristian.org/scholarships
 - https://www.hgchristian.org/tuition-and-fees
 - https://www.privateschoolreview.com/hickory-grove-christian-school-profile
 - https://www.schooltuitions.org/school/charlotte-nc-hickory_grove_christian_school

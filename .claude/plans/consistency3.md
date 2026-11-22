@@ -492,3 +492,40 @@ text" suggestion from the Phase 1 hand-back. The user's decisions:
   checked live today (HTTP 200, title matching the name), or taken as the Wayback copy of the
   named edition when that edition has left the live site. Nothing guessed: a name with no
   verifiable URL stays plain, and the reason is recorded in `consistency3-data/fa-source-links.json`.
+
+### Four research findings, fixed (user, 2026-11-22)
+
+The link research turned up four things; the user directed a fix for each. Evidence:
+`consistency3-data/new-findings-fa-sources.md` and the records below.
+
+1. **Providence Day now publishes its 2026–27 bus fares** ("fix this and update/add to the
+   correct location"). Beyond Tuition's bus row is now priced: "$1,830–$1,965 round trip per
+   student, 2026–27 (siblings $1,379–$1,507)". The components note reads seven priced and nine
+   unpriced, still 56%, and R11 is clean. The framing no longer says the page refers to
+   2023–2024, and the "What are the bus fares…" ask is gone. Record: new
+   `source-material/financial-aid-tuition/providence-day/… - Transportation 2026-27.md`.
+2. **Two Davidson Day citations no longer hold** ("Remove them then"). "Extended care" and
+   "employee-parent enrollment instructions" are removed from all source lines. **Also removed:**
+   the claims that only the employee page supported, the "11× Eleven-month plan" row and the
+   "eleven-month payment plan" clause. No live page supports them, and an unsourced claim cannot
+   stay. "Extended care · no rate" stays, because the live tuition FAQ names it. "Separate
+   enrollment process" stays, cited to the live employees page. Record: `## Method` added to the
+   DD Tuition History record.
+3. **Latin's two financial aid documents are readable** ("Utilize and update the site"). Their
+   full text now drives the report: named scholarships need no separate application, every
+   accepted MS/US student with need is eligible, the award appears on the enrollment contract at
+   acceptance, extra costs are covered for the highest-need students and for named scholars, and
+   the FAQ does not say whether aid is reapplied for. The "could not be opened" and "not
+   retrievable" wording is gone. Record: new `… - Scholarships and Aid FAQ.md`.
+4. **Hickory Grove's Scholarships page moved** (implementer's recommendation: re-check against
+   the live page). Every figure matched the live hgchristian.org/scholarships, so the links
+   point there now, not at Wayback. The one wording change: "does NOT provide AUTOMATIC
+   discounts (multi-child, like-minded pastor)" replaces "discontinued as of 2026-2027", which
+   matches the Admissions card. The answered ask is dropped. Record: re-verification under the HG
+   deep-dive record's `## Method`.
+
+**Ingest:** both new records are mapped to `in-depth-report` by a new `RULES` entry in
+`src/lib/metrics.ts`, because `check:metrics` showed them as unmatched subtopics (new cards)
+without it. `CARD_REPLACED` keeps their content sections untranslated and unrendered.
+`schools.json` was restored to HEAD order. **Phase 2 impact:** `check:live` went from 48 to 65
+stale entries per locale, the 17 changed English sentences in these four reports.

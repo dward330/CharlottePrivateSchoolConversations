@@ -1,4 +1,9 @@
-# New findings from linking the Financial Aid sources (2026-11-22, not fixed in consistency3)
+# New findings from linking the Financial Aid sources (2026-11-22)
+
+**All four were then FIXED in consistency3 at the user's direction (2026-11-22)**: Providence
+Day fares added; the two Davidson Day citations removed with the claims only they supported;
+Latin's two documents used; Hickory Grove re-checked against the live Scholarships page. See
+the plan's "Four research findings, fixed" notes.
 
 ## Providence Day: its bus fares are now published
 

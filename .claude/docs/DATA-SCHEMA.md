@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 568 ingested research documents.
+**13 schools × 12 research areas**, 570 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -68,7 +68,7 @@ exists yet and **the section does not render at all** for that school.
 | High School Placement | `high-school-placement` | — | — | — | — | — | — | 3 | — | — | — | — | — | 3 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
-| Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 1 | 2 | 1 | 4 | 2 | 2 | 1 | 1 | 1 | 4 |
+| Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 1 | 2 | 2 | 4 | 2 | 2 | 1 | 1 | 2 | 4 |
 
 ## 2. Research-area sections (prose layer)
 
@@ -196,7 +196,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `in-depth-report` | In-Depth Report | 13/13 | 8 |
+| `in-depth-report` | In-Depth Report | 13/13 | 10 |
 | `tuition-history` | Tuition History & Sources | 5/13 | 1 |
 
 > ⚠️ **Unmatched subtopics.** These keys were not produced by a `RULES` entry — they
