@@ -24,11 +24,11 @@ const PORTAL = 'https://covenantdayschool.campbrainregistration.com'
 export const covenantDay: SummerProgram = {
   catalog: {
     headline:
-      '20 camps named for summer 2026 across eight weeks, June 1 – July 31 — anchored by Camp Lion and Cub Camp, the traditional day camps that bundle care free.',
+      '19 camps named for summer 2026 across eight weeks, June 1 – July 31 — anchored by Camp Lion and Cub Camp, the traditional day camps that bundle care free.',
     subhead:
-      'Registration runs on the CampBrain portal with early-bird discounts through February 27. The school markets "29 camps"; 20 are enumerable on the public page.',
+      'Registration runs on the CampBrain portal with early-bird discounts through February 27. The school markets "29 camps"; 19 are enumerable on the public page.',
     intro:
-      'All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**. So the prices below are estimates, from the third-party current range ($170–$325/week) and the school’s own 2018 catalog. The care add-on rates on the Cost Planner are the school’s own current figures.',
+      'All 19 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**. So the prices below are estimates, from the third-party current range ($170–$325/week) and the school’s own 2018 catalog. The care add-on rates on the Cost Planner are the school’s own current figures.',
     categoryFilters: [
       { token: 'All', label: 'All' },
       { token: 'daycamp', label: 'Day Camps' },
@@ -201,19 +201,6 @@ export const covenantDay: SummerProgram = {
         estimated: true,
       },
       {
-        name: 'Strength and Conditioning',
-        desc: 'The Webb Fitness Center program, run by the school’s S&C coach — the same summer lifting the varsity athletes do.',
-        category: 'sports',
-        categoryLabel: 'Sports',
-        grades: ['ms', 'hs'],
-        gradeLabel: 'Gr 6–12',
-        days: [],
-        dayLabel: 'Mon–Fri',
-        price: '$170–$325',
-        hours: 'sessions',
-        estimated: true,
-      },
-      {
         name: 'Nerf Camp',
         desc: 'The pure-fun week.',
         category: 'daycamp',
@@ -312,7 +299,7 @@ export const covenantDay: SummerProgram = {
       },
       {
         kind: 'verify',
-        text: 'The school markets "**29 camps**"; the public page enumerates 20 (a 21st listing, "Splash Squad," is a staff position). Per-week variants and portal-only camps likely account for the difference.',
+        text: 'The school markets "**29 camps**"; the public page enumerates 19, checked in a browser 2026-11-22 ("Splash Squad" is a staff position, and Strength and Conditioning is no longer listed). Per-week variants and portal-only camps likely account for the difference.',
       },
       {
         kind: 'stale',

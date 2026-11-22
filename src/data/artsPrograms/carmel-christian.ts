@@ -203,7 +203,7 @@ export const carmelChristian: ArtsProgram = {
     ladder: [
       {
         label: 'Join an ensemble',
-        text: 'band and choir run from grade 5 through High School, with Christmas and Spring Concerts on the Middle School calendar.',
+        text: 'choir runs from grade 5 and band from Middle School, both through High School, with Christmas and Spring Concerts on the Middle School calendar.',
       },
       {
         label: 'Audition up',

@@ -38,18 +38,18 @@ June 22-26 and July 6-10): Week 1 June 1-5 · 2 June 8-12 · 3 June 15-19 ·
 4 June 22-26 · 5 July 6-10 · 6 July 13-17 · 7 July 20-24 · 8 July 27-31.
 **Early-bird discounts for registration on or before February 27.**
 
-### The 2026 camp slate — 20 camps named on the page
+### The 2026 camp slate — 19 camps named on the page
 
 The Great Covenant Day Bake Off · Girls Cheerleading · Art Discovery · College
 Admissions · Boys Football · Basketball · Baseball · **Camp Lion** (traditional
 day camp) · **Cub Camp** · Little Lion Camp · Co-Ed Soccer · Science, Engineering
 & More · Pickleball · Nerf Camp · Middle School Musical Theater · Lady Lions
 Field Hockey · Lower School Field Hockey · Girls Volleyball · Lower School
-Theater · Strength and Conditioning. (A 21st listing, "Splash Squad," is a staff
+Theater. ("Splash Squad" is a staff
 position, not a camp.)
 
 **Count reconciliation:** the school's marketing says "29 camps"; the public page
-enumerates 20. The app uses the enumerable **20**, with the discrepancy noted —
+enumerates 19. The app uses the enumerable **19**, with the discrepancy noted —
 per-week variants and portal-only camps likely account for the difference.
 
 ### Grades and care
@@ -94,6 +94,13 @@ Fullwood Lane, Matthews NC 28105. Camps office: camps@covenantday.org,
 ### Re-verification 2026-11-22 (plan consistency4, self-scan)
 
 - https://www.covenantday.org/campus-life/summercamps (fetched 2026-11-22 with curl). The server-rendered "2026 Summer Camps" board holds 19 camps. Strength and Conditioning, the 20th on this record, is not among them. Whether it was withdrawn or is loaded another way was not determined. The grade filter shows JK and Kindergarten; the popups were not read.
+
+### Re-verification 2026-11-22 (plan consistency4, implement): COV-T15
+
+- https://www.covenantday.org/campus-life/summercamps, loaded in headed Chrome and scrolled to the
+ end (HTTP 200). The "2026 Summer Camps" board shows 19 camps, with no "load more" or second page.
+ Strength and Conditioning appears only as an Athletics menu link.
+- The app moves from 20 to 19 and drops that row. The earlier slate listed it as the 20th camp.
 
 
 ---

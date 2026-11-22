@@ -232,7 +232,7 @@ The parent appends newly verified "not a conflict" groups here through the round
 | Charlotte Catholic | clubs | 76 / 15 / 23 | Category subtotals of 76 |
 | Charlotte Christian | teams | 50 / 44 | School's "50+", footnoted against 44 chips |
 | Charlotte Christian | AP | 22 / 21 | Attributed guide-list vs titles split (CC-5) |
-| Covenant Day | camps | 29 / 20 | Marketed 29 vs 20 enumerable camps, attributed |
+| Covenant Day | camps | 29 / 19 | Marketed 29 vs 19 enumerable camps, attributed |
 | Covenant Day | seniors | 1 / 85 | One dedicated counselor |
 | Covenant Day | ensembles | 1 / 9 | "1" parses "sequential from grade 1" |
 | Davidson Day | teams | 35 / 33 | School's count vs chips; the footnote names the basis |

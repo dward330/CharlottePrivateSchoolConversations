@@ -2144,7 +2144,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': '4', // Cougar Basketball, Eddie Hull Baseball, Cougar Football, Just4Kicks Soccer. Notre Dame Vision and the Mayor's Youth Employment Program are not CCHS-run and are excluded
       'charlotte-country-day': '132', // session-level rows; ~75 distinct titles
       'charlotte-latin': '232', // camp offerings; 169 unique titles
-      'covenant-day': '20', // distinct camps named on the public 2026 page; school markets "29 camps"
+      'covenant-day': '19', // distinct camps named on the public 2026 page (browser check 2026-11-22); school markets "29 camps"
       'carmel-christian': '36', // named camps across the 6 weeks
       'davidson-day': null,
       'hickory-grove-christian': '15', // Summer 2023 slate (representative): 15 camps in 17 sessions (Science and Fluency run twice) — 9 academic + Boot Camp + 5 athletic
@@ -2183,7 +2183,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'scope',
-        text: '20 distinct camps named on the public 2026 page — a per-camp count, not the per-week session count most schools beside it publish. The school separately markets "29 camps"; per-week variants and portal-only offerings likely account for the difference.',
+        text: '19 distinct camps named on the public 2026 page — a per-camp count, not the per-week session count most schools beside it publish. The school separately markets "29 camps"; per-week variants and portal-only offerings likely account for the difference.',
       },
     },
   },

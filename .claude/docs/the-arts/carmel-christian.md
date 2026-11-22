@@ -159,6 +159,12 @@ left out on purpose.
 
 2024: five finalists; Vlad and Ballet Lead are also nominees, and no other category nominates the school. 2025, Oklahoma!: five finalists. This supersedes the 2024 category table and "seven placements" above.
 
+### Re-verification 2026-11-22 (plan consistency4, implement): CAR-T6
+
+- Fixed from this record, on the user's word: grade 5 may join choir (S3), and Middle School Band is
+ grades 6-8. The card had said band runs from grade 5.
+- Not re-fetched: carmelchristian.org refused a fetch on 2026-11-22.
+
 
 ---
 

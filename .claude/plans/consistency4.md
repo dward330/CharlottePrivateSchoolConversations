@@ -60,17 +60,18 @@ Providence day colleges -> fix. The rest is your recommendation".
 - **CCD-T1, CCD-T2:** price the rows, with no all-in estimate.
 - **CAN-T15:** the honor-society count stays twelve.
 - **GD-T11 / X1:** the tile reads "Not published".
-- **CAN-T17, COV-T15, CAR-T6, CAR-T8, DD-T4:** left until a source can be opened.
+- **CAN-T17, CAR-T8:** left until a source can be opened.
+- **COV-T15, CAR-T6, DD-T4:** approved and built 2026-11-22, after the English approval (the user: "Yes
+  go with your recommendation on the fixes for those 3 schools"). Covenant is 19 camps by a browser
+  check; the other two come from records already saved. **COV-T15 removes an array item: re-splice
+  the summer-programs locale paths.**
 
 ## Out of scope
 
 | id | why held |
 |---|---|
 | CAN-T17 | Left by the user until its source can be opened. |
-| COV-T15 | Left by the user until its source can be opened. |
-| CAR-T6 | Left by the user until its source can be opened. |
 | CAR-T8 | Left by the user until its source can be opened. |
-| DD-T4 | Left by the user until its source can be opened. |
 | CCD-T11 | Kept as it is, by the user (settled S9). |
 
 ## Steps
