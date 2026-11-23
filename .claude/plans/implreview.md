@@ -436,3 +436,42 @@ Single-phase — adds no user-facing text.
 - **Order versus `allcommits`.** If `implreview` merges first, `/implement allcommits` gets the
   review automatically. **Default:** no change to `allcommits` (it has no review step to
   remove). If `allcommits` is implemented first, it runs under the old skill with no review.
+
+## Implementation notes
+
+### Deviations from the plan
+
+- **`consistency-self-scan/SKILL.md` Step 6 handoff also changed** (not in step 3). It told
+  `/plan` to "end its Steps with the two closing-loop steps" (review and rescan). Under the
+  Decision "Plans do not write a review step", a listed review would run twice, and a listed
+  rescan would duplicate `/implement` step 10 the same way. It now says the plan carries only
+  `closing_loop:`, which selects the brief and adds the rescan. (Review pass 1, #8.)
+- **`.claude/plans/README.md` gained one sentence** on the review, so the `/implement`
+  summary that `CLAUDE.md` points readers to still matches. Outside the plan's Files touched;
+  the developer picked it at review (pass 1, #9).
+- **The new `CLAUDE.md` paragraph sits after "That is the bar a plan is written to."**, not
+  straight after the `/implement` paragraph, so "The split is the point" still follows the
+  text it refers to (pass 1, #11).
+- `.claude/SKILLS.md`'s "Last updated" line was bumped to 2026-11-23 along with the entry dates.
+
+### Adversarial review 2026-11-23
+
+Step 7's dogfood run of the new step 5b, using the general brief
+(`.claude/skills/implement/review.md`). The diff touches no `src/`, so there were no dumps.
+
+**Pass 1** (commit reviewed `2577728f`): 11 found, 11 confirmed, 0 rejected, 11 fixed,
+0 declined. The AskUserQuestion flow ran as specified: one call, three multi-select questions
+(Fix 1–4, Fix 5–8, Fix 9–11), and the developer picked all 11.
+
+1. should-fix: `CLAUDE.md` sentence read as if the reviewer checks its own findings. Fixed.
+2. should-fix: step 9's final report omitted the review tally and the two lists. Fixed.
+3. minor: step 9 said "add" an Implementation notes section that 5b already creates. Fixed.
+4. minor: 5b's Brief line implied a required before-dump. Fixed ("if one was kept").
+5. minor: sub-step 3 did not say how to fill the second-pass placeholders on pass 1. Fixed.
+6. minor: option numbers could disagree with the table after the severity sort. Fixed
+   (renumber in severity order first).
+7. minor: hand-back template had no "skipped by developer" slot. Fixed.
+8. minor: the consistency skill's Step 6 handoff edit was unrecorded. Fixed (note above).
+9. minor: `.claude/plans/README.md` did not mention the review. Fixed (outside scope, picked).
+10. minor: the SKILLS.md `implement` entry did not list `review.md`. Fixed ("Ships with").
+11. minor: the new `CLAUDE.md` paragraph broke "The split is the point". Fixed (moved).

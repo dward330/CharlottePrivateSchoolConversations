@@ -154,8 +154,9 @@ once, treat that plan step as satisfied by it, and note it.
 
 **Brief:** a closing-loop plan (front matter `closing_loop: consistency-self-scan`, or, for a
 plan written before that field existed, a name `consistency<N>`) uses
-[`../consistency-self-scan/review.md`](../consistency-self-scan/review.md) with its worklist
-and a before-dump. Every other plan uses [`review.md`](review.md) in this skill.
+[`../consistency-self-scan/review.md`](../consistency-self-scan/review.md) with its worklist,
+plus a before-dump if one was kept (otherwise "none"). Every other plan uses
+[`review.md`](review.md) in this skill.
 
 **Pass 1**
 
@@ -168,7 +169,8 @@ and a before-dump. Every other plan uses [`review.md`](review.md) in this skill.
    not Compare.
 3. **Spawn** the filled brief (in the scratchpad: plan, branch, dump folder, an output path,
    plus the worklist and before-dump for the consistency brief) on **one fresh
-   `general-purpose` agent**. Give it those paths only, never your own summary of what you
+   `general-purpose` agent**. On pass 1, fill the second-pass placeholders (`{{FIX_DIFF}}`,
+   `{{FIRST_FINDINGS}}`) with `n/a (first pass)`. Give it those paths only, never your own summary of what you
    built or fixed: its job is to prove the work wrong, and a reviewer handed a conclusion tends
    to confirm it.
 4. **Verify** every finding yourself against the diff and the dumps, and set or correct its
@@ -180,8 +182,9 @@ and a before-dump. Every other plan uses [`review.md`](review.md) in this skill.
 5. **Ask the developer which confirmed findings to fix.**
    - **0 confirmed:** no question. Say "the review found nothing to fix", with the rejected
      count.
-   - **1–16 confirmed:** print the full table first: number, severity, one-line problem,
-     where, suggested fix. Then sort by severity (must-fix first) and cut into **chunks of 4**,
+   - **1–16 confirmed:** sort by severity (must-fix first) and **renumber in that order**, so
+     a finding's `#<n>` is the same in the table and the question. Print the full table first:
+     number, severity, one-line problem, where, suggested fix. Then cut into **chunks of 4**,
      one `multiSelect: true` question per chunk, all in **one** `AskUserQuestion` call. Never
      make a question per severity group: 5 + 5 + 5 findings would need six questions, and the
      limit is four. Option label: `#<n> <≤4-word gist>`; description: severity, the problem and
@@ -255,7 +258,7 @@ Then report, and make the ask concrete:
 > Verification: <results>
 >
 > Review: pass 1 — <found> found, <confirmed> confirmed, <fixed> fixed, <declined> declined,
-> <rejected> rejected; pass 2 — <same, or which skip rule applied>.
+> <rejected> rejected (or "skipped by developer"); pass 2 — <same, or which skip rule applied>.
 > Fixed, not re-reviewed: <list, when any>. Open: <declined findings, when any>.
 >
 > Nothing is translated yet. Once you're happy with the English wording, say the word and
@@ -352,8 +355,8 @@ in the moment, every time.
 Update both records:
 
 - **The plan document** — front matter `status: implemented` and `prs: [123]`. If the
-  build deviated from the plan, add a short `## Implementation notes` section at the
-  bottom saying what changed and why. The plan is the historical record of what was
+  build deviated from the plan, say what changed and why in its `## Implementation notes`
+  section at the bottom (step 5b has usually created it; create it if missing). The plan is the historical record of what was
   actually done, not what was intended.
 - **`.claude/plans/INDEX.md`** — status `Implemented`, PR cell holding the link.
 - **[`.claude/SKILLS.md`](../../SKILLS.md)** — **only if this plan created, renamed,
@@ -369,8 +372,9 @@ If the work was partial, use `In progress` in both places and list the remaining
 the implementation notes so a later window can resume. `Implemented` on a two-phase plan
 means **both** phases shipped; a feature sitting in English is `English shipped`.
 
-Then report to the user: what shipped, verification results, the PR link, anything left
-out and why, and any suggestion you deliberately kept out of the diff.
+Then report to the user: what shipped, verification results, the review tally per pass
+(step 5b) with its "fixed, not re-reviewed" and "open" lists, the PR link, anything left out
+and why, and any suggestion you deliberately kept out of the diff.
 
 ### 10. Rescan — closing-loop plans only
 

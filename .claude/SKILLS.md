@@ -149,6 +149,7 @@ the plan is not done.
 **Execute a documented plan: build, verify, PR, close the loop.**
 
 `.claude/skills/implement/SKILL.md` · added 2026-08-02 · updated 2026-11-23 (adversarial review for every plan, developer picks the fixes; new general brief `review.md`, plan implreview; 2026-11-22: a capped second review pass on the fixes; 2026-11-21: source-freshness and Claude Design gates; closing-loop review and rescan; 2026-11-05: Phase 2 runs `check:digits`)
+Ships with `review.md` (the general adversarial reviewer's brief for step 5b, with a second-pass mode; closing-loop plans use `consistency-self-scan`'s brief instead).
 
 The plan is the spec. This skill's job is to execute it faithfully, verify it honestly,
 and leave the index telling the truth about what shipped.

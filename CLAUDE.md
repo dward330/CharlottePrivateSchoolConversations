@@ -39,14 +39,14 @@ code**; its only outputs are the plan document and the index row.
 unimplemented ones from the index and asks. It branches, builds the steps, runs the plan's
 verification, opens a PR, and flips the index row to *Implemented* with the PR link.
 
-**Every implementation gets an adversarial review at the end of Phase 1.** `/implement`
-spawns a fresh agent that tries to prove the work wrong, verifies its findings, and asks
-you which to fix. One second pass checks those fixes and asks again (never a third).
-Phase 2 is not reviewed. A plan never needs to list this step.
-
 The split is the point: the implementing window has **no memory of the planning
 conversation**, so anything decided while planning and not written into the document is
 lost. That is the bar a plan is written to.
+
+**Every implementation gets an adversarial review at the end of Phase 1.** `/implement`
+spawns a fresh agent that tries to prove the work wrong, then checks its findings itself
+and asks you which to fix. One second pass checks those fixes and asks again (never a
+third). Phase 2 is not reviewed. A plan never needs to list this step.
 
 **Every plan that touches user-facing text is built English-first, in two phases.**
 `/implement` builds the feature in English, commits it to the branch, and **stops** — then

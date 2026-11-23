@@ -15,7 +15,8 @@ writes a document a fresh Claude window can execute cold, closing with the exact
 **`/implement`** takes it from there. Given `/implement <name>` it reads that plan; given
 nothing it lists the unimplemented ones and asks. It branches, builds the steps, runs the
 plan's verification, opens a PR, and flips the row in `INDEX.md` to `Implemented` with the
-PR link.
+PR link. Before the work comes back to you, a fresh agent reviews it adversarially and you
+pick which of its confirmed findings to fix (its step 5b); a plan never lists that step.
 
 The split exists so planning and building happen in separate context windows. That is also
 the standard the plan is written to: **everything needed to build the feature is in the
