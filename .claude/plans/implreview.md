@@ -1,12 +1,12 @@
 ---
 name: implreview
 title: Every /implement run gets an adversarial review, and the developer picks which findings to fix
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-22
 amended: 2026-11-22
 branch: feat/implreview
-prs: []
+prs: [525]
 ---
 
 # An adversarial review for every plan, with the developer choosing the fixes
