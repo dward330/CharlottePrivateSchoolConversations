@@ -1,11 +1,11 @@
 ---
 name: scangroups
 title: Split the consistency self-scan's sweep into eight school groups, so a rescan finishes sooner
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-11-23
 branch: docs/scangroups
-prs: []
+prs: [524]
 ---
 
 # Eight sweep groups for /consistency-self-scan
