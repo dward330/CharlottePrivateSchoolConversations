@@ -27,6 +27,11 @@ An inconsistency is either of these:
 
 ## Hard rules
 
+- **⛔ Never expose the name of a student who is not an athlete**, in anything you write: the
+  output file, any source-material append, any command output you quote. Only athletes may be
+  named, and only for athletics. Staff and other adults stay named. From a source that may hold
+  names, report counts, never the matched text. Never print a diff of a regenerated content
+  chunk. Write `[name withheld]` in a research record where a name is taken out.
 - **Read-only on the repo.** Never edit anything under `src/`, `scripts/`, `.claude/` or any
   generated file. Never run `npm run build`, `npm run deploy`, `git add`, `git commit`,
   `git checkout` or `git stash`. The working tree is shared with other live sessions.

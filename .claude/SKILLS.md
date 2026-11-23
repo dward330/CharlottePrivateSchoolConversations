@@ -654,7 +654,7 @@ a current student without a documented commitment, claim a scholarship, or deplo
 **Scan every school page for places where the app contradicts itself through its own data,
 diagnose each conflict against the live source, and hand the worklist to `/plan`.**
 
-`.claude/skills/consistency-self-scan/SKILL.md` · added 2026-11-21 · updated 2026-11-22 (settled S11–S14 and rule R12, plan consistency5; review.md second-pass mode; 2026-11-21: settled ledger; the closing loop) · supporting files: `review.md` (the adversarial reviewer's brief, used by `/implement` step 5b, with a second-pass mode for the fixes),
+`.claude/skills/consistency-self-scan/SKILL.md` · added 2026-11-21 · updated 2026-11-23 (eight sweep groups, the brief's student-name rule, plan scangroups); 2026-11-22 (settled S11–S14 and rule R12, plan consistency5; review.md second-pass mode; 2026-11-21: settled ledger; the closing loop) · supporting files: `review.md` (the adversarial reviewer's brief, used by `/implement` step 5b, with a second-pass mode for the fixes),
 `brief.md` (the sweep agents' brief, filled per run), `dump_pages.py` (page-text dump of
 `dist/school/*`, copied from `consistency-data/`), `settled.md` (the permanent ledger of settled
 rulings, rule ideas turned down and R8 groups triaged as not a conflict; agents never report
@@ -678,8 +678,8 @@ school slug.
 | **1** | Preflight: confirms the tree is `main`, records the scanned SHA, diffs the data changed since the last round. |
 | **2** | `npm run build`, then dumps every pre-rendered school page to text. Every card is in the HTML, open or closed. |
 | **3** | `check_consistency.mjs --report` for the R8 noun-collision groups; scratch recounts where no rule reaches. |
-| **4** | Up to four `general-purpose` sweep agents in parallel, one per school group, each on the filled `brief.md`: ten sweep classes, A/B/C/D, live re-check, R8 triage. |
-| **5** | Greps every quoted value back into the dumps and data files, merges cross-school causes into X rows, writes `.claude/plans/<name>-data/` (agent files, `r8.txt`, `findings.md`), and names candidate new `check:consistency` rules. |
+| **4** | Up to eight `general-purpose` sweep agents in parallel, one per school group (eight school groups since plan `scangroups`), each on the filled `brief.md`: ten sweep classes, A/B/C/D, live re-check, R8 triage. |
+| **5** | Greps every quoted value back into the dumps and data files, merges cross-school causes into X rows, checks each new finding's class at schools outside the group that raised it, and records each sweep's time, writes `.claude/plans/<name>-data/` (agent files, `r8.txt`, `findings.md`), and names candidate new `check:consistency` rules. |
 | **6** | Reports the tally, sharpest examples, approvals and decisions, then offers `/plan <name>`, which is two-phase whenever English prose or chrome changes and carries `closing_loop: consistency-self-scan`. A declined plan is marked *Held off* in `findings.md`. |
 | **Loop** | `/implement` runs an **adversarial review** at the end of Phase 1 (one fresh agent on `review.md`, given the diff and page dumps but not the implementer's summary). When that review leads to fixes, a **second pass** checks only those fixes, and the loop is **capped at two** because an adversarial reviewer rarely returns empty. A **rescan** follows the merge. Clean ends the loop; otherwise it reports how many findings the round's own fixes caused and offers the next round or a hold-off. |
 
