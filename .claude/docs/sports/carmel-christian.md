@@ -1,5 +1,5 @@
 # Carmel Christian School — Sports
-> Distilled from 6 source document(s) in `source-material/sports/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
+> Distilled from 6 source document(s) in `source-material/sports/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-23.
 **Documents:** 247Sports Recruiting Rankings, College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026
 
 
@@ -92,7 +92,9 @@ Composite (shown in the app) and 247Sports in-house lists, NC, high-school insti
 > **Standard applied (same as Cannon, Davidson Day and Covenant Day):** the card counts
 > documented commitments to college athletics at any level. D2, D3 and NAIA count.
 > "Scholarship" is never claimed. Spirit and dance programs are not intercollegiate sports,
-> so they are recorded but not counted.
+> so they are recorded but not counted. *(Superseded 2026-11-23, plan `allcommits`: see the
+> Class of 2025 note. A dance or cheer signee is now counted as `Other` when the school fields
+> that sport at varsity; Carmel fields no varsity dance team.)*
 >
 > **Graduate test:** an athlete counts for Carmel only if they finished high school at
 > Carmel. Evidence is the athlete's senior season on the Carmel MaxPreps roster, or the
@@ -180,6 +182,8 @@ both pass the graduate test.
 | Anderson Rider | Baseball | Ferrum | ODAC | D3 | Next Steps; MaxPreps Sr.; Ferrum 2026 roster |
 | Miles Leaks | Basketball | Johnson & Wales (Charlotte) | C2C | D3 | Next Steps; MaxPreps Sr.; RealGM "Johnson & Wales (NC)". **Conf corrected: GNAC → C2C** (GNAC is the Providence campus; the Charlotte Wildcats play in the Coast-to-Coast Athletic Conference) |
 | Ben Price | Tennis | Hampden-Sydney | ODAC | D3 | Next Steps; MaxPreps Sr. 2024-25; H-SC roster ("Carmel Christian") |
+
+**Re-stated 2026-11-23 (plan `allcommits`):** counted means listed. Since this plan, college dance and cheer signees ARE counted, with level `Other`, at a school that fields the sport at varsity (Charlotte Latin, Charlotte Country Day). Carmel fields cheerleading but no varsity dance team, so this signee is not an athlete who may be named, and she stays recorded but not counted or listed.
 
 Not counted: **[name withheld]** — "University of South Carolina — Dance" on Next Steps. A
 dance team is a spirit program, not an intercollegiate sport, and counting it would make it

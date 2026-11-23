@@ -591,7 +591,7 @@ only: `pipeline` in the school's `sportsPrograms` module, and `p4-commits-2426`,
 
 **Counted means listed** (user, 2026-11-22): every commitment a funnel total counts is a
 named roster row. Junior colleges are `JUCO`, a college team outside any association
-(dance, cheer) is `Other`; neither is ever filed as D3, and both count in the all-levels
+(dance, cheer) is `Other`, and only where the school fields that sport at varsity; neither is ever filed as D3, and both count in the all-levels
 figure only. There is no off-roster count. Row notes and tips never say "documented
 minimum": they say what the school publishes, then "so the real count may be higher".
 
@@ -648,7 +648,7 @@ missing for <school>".
 > count once; a club's newsletter about its own players counts; an AD quoted on the record
 > is the school; confirm the class year on the roster before counting a preview's "commit".
 
-> **📅 The window rolls once a year, as its own plan.** The Power 4 and Division I rows
+> **📅 The window rolls once a year, as its own plan.** The window rows (P4, D1, all levels)
 > cover three graduated classes (`…-2426` → 2024–2026). The skill computes the current
 > senior class and the most recently graduated one on every run; when a graduated class is
 > newer than the window's last year (from 1 June of its graduation), it tells the user to
@@ -658,7 +658,7 @@ missing for <school>".
 > 2026-11-08).
 
 **Deliberately cannot:** edit app code, research a school the app does not cover, count a
-verbal commitment in the Power 4 or Division I rows, roll the window for one school, name
+verbal commitment in the window rows (P4, D1, all levels), roll the window for one school, name
 a current student without a documented commitment, claim a scholarship, or deploy.
 
 ---

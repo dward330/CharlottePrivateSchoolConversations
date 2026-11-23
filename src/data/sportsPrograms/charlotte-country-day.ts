@@ -313,7 +313,7 @@ export const charlotteCountryDay: SportsProgram = {
       { cls: "'24", name: 'Kendall Blount', sport: 'Cheer', college: 'Louisville', conf: '—', level: 'Other' },
     ],
     rosterNote:
-      'This site added the level labels and conferences from each college’s NCAA status. These labels are not on the school’s published roster. P4 = SEC · Big Ten · ACC · Big 12. Other marks a college cheer signee. Cheer is not an NCAA sport, so she counts in the funnel total but not in the Division I or Power 4 counts.',
+      'This site added the level labels and conferences. These labels are not on the school’s published roster. P4 = SEC · Big Ten · ACC · Big 12. Other marks a college cheer signee. Cheer is not an NCAA sport, so she counts in the funnel total but not in the Division I or Power 4 counts.',
     sources: [
       {
         label: 'charlottecountryday.org — Collegiate Athletics',

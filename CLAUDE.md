@@ -99,9 +99,9 @@ discover at ingest time.
 **The bar is calibrated to the thinnest school already shipped, and it is computed, not
 transcribed.** `npm run coverage:floor` (`scripts/coverage_floor.mjs`) prints every
 school's Compare fill rate and research-area count and derives the floor from the weakest.
-As of 2026-11-23 that is Davidson Day — 34/46 Compare rows (**73%**), up from 30/45 once three
-Arts cells were filled from its own page (plan `consistency4`) and 34/46 once the all-levels
-commit row shipped with a value for it (plan `allcommits`), and no Summer
+As of 2026-11-23 that is Davidson Day — 34/46 Compare rows (**73%**), up from 30/45 to 33/45 once
+three Arts cells were filled from its own page (plan `consistency4`), and to 34/46 once the
+all-levels commit row shipped with a value for it (plan `allcommits`), and no Summer
 Programs material at all. The gate is **≥34 of 46 Compare rows, and one area below the
 count the script derives**, compared inclusively: exactly 34/46 passes, 33/46 does not.
 The row total moves too (30 → 36 when the six Top 6 NC admit-rate rows shipped,

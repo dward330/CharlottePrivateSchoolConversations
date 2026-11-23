@@ -54,8 +54,8 @@ with the roster. So a refresh needs **data, not component changes**.
   as his last school — and each would have inflated the count.
 - **Verbal commitments are listed, never counted in the window.** A current senior with a
   public commitment goes on the roster (the Brooke Busby precedent) and stays out of the
-  funnel, the sport bars and the Power 4 / Division I rows until they sign and the window
-  rolls. They **are** the value of the `seniors-committed` Compare row (plan `seniorsrow`),
+  funnel, the sport bars and the window rows (P4, D1, all levels) until they sign and the
+  window rolls. They **are** the value of the `seniors-committed` Compare row (plan `seniorsrow`),
   which counts the current senior class at any level, verbal or signed.
 - **Counted means listed** (user, 2026-11-22, plan `allcommits`). Every commitment a funnel
   total counts is a roster row with a name, at every school, so a parent can count the names.
@@ -64,6 +64,11 @@ with the roster. So a refresh needs **data, not component changes**.
   Compare row, never in D1/P4 or the sport bars. Whether the sport offers scholarships is not
   the test: Division III offers none, and its athletes are listed. There is no off-roster
   count (`offRosterCommits` was removed); never add one back.
+  An `Other` row needs the school to field that sport at varsity (it is on the school's
+  Sports Offered card), because only then is the signee an athlete who may be named under
+  the Student-name standard. A signee in a sport the school does not field (Carmel
+  Christian's college dance signee: Carmel has no varsity dance team) is recorded in the
+  source file with `[name withheld]`, and is neither listed nor counted.
 - **The current senior class's commitments are always retained in their own file**,
   `<School> - Sports - College Commitments Class of <year>.md`, so that when the window
   rolls the class can be promoted into the counts without re-research. That file is never

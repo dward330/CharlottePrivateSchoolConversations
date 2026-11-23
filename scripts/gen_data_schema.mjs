@@ -517,6 +517,9 @@ for (const s of STRUCTURED) {
     w('(dance, cheer). Both count in the funnel\'s all stage and the `all-commits-2426` Compare row')
     w('only, never D1/P4 or the sport bars; neither is ever filed as D3. `Other` renders through')
     w('the chrome key `cardLabels.levelOther`, because `level` is never extracted for translation.')
+    w('An `Other` row needs the school to field that sport at varsity, so the signee is an athlete')
+    w('who may be named. A signee in a sport the school does not field is recorded in the source')
+    w('file with the name withheld, and is neither listed nor counted (Carmel Christian\'s dance signee).')
     w()
   }
   if (s.topic === 'college-support') {

@@ -332,6 +332,9 @@ There is no off-roster count, so a parent can count the names behind every total
 (dance, cheer). Both count in the funnel's all stage and the `all-commits-2426` Compare row
 only, never D1/P4 or the sport bars; neither is ever filed as D3. `Other` renders through
 the chrome key `cardLabels.levelOther`, because `level` is never extracted for translation.
+An `Other` row needs the school to field that sport at varsity, so the signee is an athlete
+who may be named. A signee in a sport the school does not field is recorded in the source
+file with the name withheld, and is neither listed nor counted (Carmel Christian's dance signee).
 
 **Schools with data:** 13/13
 
