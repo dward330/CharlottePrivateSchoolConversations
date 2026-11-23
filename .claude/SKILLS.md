@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**14 active** · 0 retired · Last updated **2026-11-21**
+**14 active** · 0 retired · Last updated **2026-11-23**
 
 ---
 
@@ -112,7 +112,7 @@ not the vetted record.
 
 **Research a change and write a durable implementation plan.**
 
-`.claude/skills/plan/SKILL.md` · added 2026-08-02 · updated 2026-11-21 (approved UX changes get a Claude Design step before the build and a re-capture after; consistency rounds carry the closing loop)
+`.claude/skills/plan/SKILL.md` · added 2026-08-02 · updated 2026-11-23 (every plan gets `/implement`'s adversarial review, so a plan never lists a review step; `closing_loop:` only selects the consistency brief and the rescan; 2026-11-21: approved UX changes get a Claude Design step before the build and a re-capture after; consistency rounds carry the closing loop)
 Ships with `plan-template.md`.
 
 Produces one self-contained document at `.claude/plans/<name>.md` that a **fresh Claude
@@ -128,6 +128,9 @@ the plan is not done.
 4. Decides **one phase or two** — see below
 5. Writes the plan
 6. Registers it in `INDEX.md` as *Not implemented* and gives you the exact `/implement` command
+
+> **🔍 A plan never writes a review step.** `/implement` runs an adversarial review on every
+> plan at the end of Phase 1 (its step 5b), so a listed one would run twice.
 
 > **🔒 Writes no app code.** Its only outputs are the plan, the index row, and any
 > `source-material/**/*.md` it fetched — left **uningested** for `/implement` to run on a
@@ -145,7 +148,8 @@ the plan is not done.
 
 **Execute a documented plan: build, verify, PR, close the loop.**
 
-`.claude/skills/implement/SKILL.md` · added 2026-08-02 · updated 2026-11-22 (a capped second review pass on the fixes; 2026-11-21: source-freshness and Claude Design gates; closing-loop review and rescan; 2026-11-05: Phase 2 runs `check:digits`)
+`.claude/skills/implement/SKILL.md` · added 2026-08-02 · updated 2026-11-23 (adversarial review for every plan, developer picks the fixes; new general brief `review.md`, plan implreview; 2026-11-22: a capped second review pass on the fixes; 2026-11-21: source-freshness and Claude Design gates; closing-loop review and rescan; 2026-11-05: Phase 2 runs `check:digits`)
+Ships with `review.md` (the general adversarial reviewer's brief for step 5b, with a second-pass mode; closing-loop plans use `consistency-self-scan`'s brief instead).
 
 The plan is the spec. This skill's job is to execute it faithfully, verify it honestly,
 and leave the index telling the truth about what shipped.
@@ -158,7 +162,7 @@ and leave the index telling the truth about what shipped.
 | 2 | **Gate** — approvals, Claude Design connected, open questions, staleness, staged research, source freshness |
 | 3 | Branch (never commit to `main`) |
 | 4 | 🇬🇧 **Build Phase 1 — English only** |
-| 5 | Verify Phase 1 · **5b** adversarial review (closing-loop plans), plus one second pass on its fixes, capped at two |
+| 5 | Verify Phase 1 · **5b** adversarial review (every plan; you pick which findings to fix), plus one second pass on the fixes (you pick again), capped at two |
 | 6 | 🛑 **STOP** — hand the English back for review |
 | 7 | 🌍 Phase 2 — the other nine locales, *after* they confirm |
 | 8 | Commit and PR |
@@ -167,6 +171,11 @@ and leave the index telling the truth about what shipped.
 
 > **🛑 Step 6 is a real stop.** Both phases land in one PR, but between them the plan sits
 > at `English shipped` awaiting your review of the wording.
+
+> **🔍 Every plan gets an adversarial review.** A fresh agent tries to prove the work wrong
+> before it comes back to you. You see the confirmed findings and choose which to fix; the rest
+> are recorded as declined. One second pass then checks the fixes and asks you again, and there
+> is never a third. Phase 2 (translation) is not reviewed.
 
 > **🎨 An approved UX change is designed in Claude Design first, and re-captured after.**
 > If the Claude Design MCP is not connected, `/implement` stops and asks you to reconnect it
@@ -654,7 +663,7 @@ a current student without a documented commitment, claim a scholarship, or deplo
 **Scan every school page for places where the app contradicts itself through its own data,
 diagnose each conflict against the live source, and hand the worklist to `/plan`.**
 
-`.claude/skills/consistency-self-scan/SKILL.md` · added 2026-11-21 · updated 2026-11-23 (eight sweep groups, the brief's student-name rule, plan scangroups); 2026-11-22 (settled S11–S14 and rule R12, plan consistency5; review.md second-pass mode; 2026-11-21: settled ledger; the closing loop) · supporting files: `review.md` (the adversarial reviewer's brief, used by `/implement` step 5b, with a second-pass mode for the fixes),
+`.claude/skills/consistency-self-scan/SKILL.md` · added 2026-11-21 · updated 2026-11-23 (the developer picks which review findings to fix, and review.md learns "declined" and the student-name rule, plan implreview; eight sweep groups, the brief's student-name rule, plan scangroups); 2026-11-22 (settled S11–S14 and rule R12, plan consistency5; review.md second-pass mode; 2026-11-21: settled ledger; the closing loop) · supporting files: `review.md` (the adversarial reviewer's brief, used by `/implement` step 5b, with a second-pass mode for the fixes),
 `brief.md` (the sweep agents' brief, filled per run), `dump_pages.py` (page-text dump of
 `dist/school/*`, copied from `consistency-data/`), `settled.md` (the permanent ledger of settled
 rulings, rule ideas turned down and R8 groups triaged as not a conflict; agents never report
@@ -681,7 +690,7 @@ school slug.
 | **4** | Up to eight `general-purpose` sweep agents in parallel, one per school group (eight school groups since plan `scangroups`), each on the filled `brief.md`: ten sweep classes, A/B/C/D, live re-check, R8 triage. |
 | **5** | Greps every quoted value back into the dumps and data files, merges cross-school causes into X rows, checks each new finding's class at schools outside the group that raised it, and records each sweep's time, writes `.claude/plans/<name>-data/` (agent files, `r8.txt`, `findings.md`), and names candidate new `check:consistency` rules. |
 | **6** | Reports the tally, sharpest examples, approvals and decisions, then offers `/plan <name>`, which is two-phase whenever English prose or chrome changes and carries `closing_loop: consistency-self-scan`. A declined plan is marked *Held off* in `findings.md`. |
-| **Loop** | `/implement` runs an **adversarial review** at the end of Phase 1 (one fresh agent on `review.md`, given the diff and page dumps but not the implementer's summary). When that review leads to fixes, a **second pass** checks only those fixes, and the loop is **capped at two** because an adversarial reviewer rarely returns empty. A **rescan** follows the merge. Clean ends the loop; otherwise it reports how many findings the round's own fixes caused and offers the next round or a hold-off. |
+| **Loop** | `/implement` runs an **adversarial review** at the end of Phase 1 (one fresh agent on `review.md`, given the diff and page dumps but not the implementer's summary). You pick which of its confirmed findings to fix. When that leads to fixes, a **second pass** checks only those fixes and you pick again, and the loop is **capped at two** because an adversarial reviewer rarely returns empty. A **rescan** follows the merge. Clean ends the loop; otherwise it reports how many findings the round's own fixes caused and offers the next round or a hold-off. |
 
 > **⚠️ A fix lands in one card and misses the second.** Round 2's biggest group was "not
 > published" in one card while another card on the same page published it. A rescan greps every

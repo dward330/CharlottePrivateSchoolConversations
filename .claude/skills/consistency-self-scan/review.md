@@ -33,6 +33,10 @@ Never edit a file other than your output file. Never run `npm run build`, `git c
 `git stash`, `git add` or `git commit`: the tree is shared. You may run read-only commands,
 `node scripts/check_consistency.mjs --report`, and grep anything.
 
+**Never write a student's name** (the Student-name standard in `CLAUDE.md`). Your findings file
+is quoted into a committed plan and a PR body. If a finding is about a name, give the file and
+line and write `[name withheld]` in place of the name, in every column.
+
 ## What to try to break
 
 1. **Every ID in the plan landed as decided.** For each row in the plan's Steps tables, find
@@ -69,11 +73,12 @@ out (its *Out of scope* section) unless the diff made it worse.
 ## Second-pass mode
 
 Use this mode when the brief names a **fix diff** and a **first-pass findings file**: `/implement`
-fixed the first pass's findings and wants only those fixes checked. It is the last pass;
+fixed the first-pass findings the developer picked and wants only those fixes checked. It is the last pass;
 `/implement` caps the loop at two.
 
 - **Fix diff:** `{{FIX_DIFF}}`. Run it yourself. It is the only change in scope.
-- **First pass's findings, each marked fixed or rejected:** `{{FIRST_FINDINGS}}`
+- **First pass's findings, each marked fixed, declined by the developer, or rejected:**
+  `{{FIRST_FINDINGS}}`
 
 Check two things only:
 
@@ -84,8 +89,8 @@ Check two things only:
    in rule 2 above.
 
 Do **not** re-review the rest of the round, and do not re-raise a first-pass finding marked
-rejected unless the fix diff made it worse. Report "no findings" when there are none: that is
-the expected result of a good fix, not a failure to look.
+rejected or declined unless the fix diff made it worse. Report "no findings" when there are
+none: that is the expected result of a good fix, not a failure to look.
 
 ## Output
 
