@@ -475,3 +475,18 @@ Step 7's dogfood run of the new step 5b, using the general brief
 9. minor: `.claude/plans/README.md` did not mention the review. Fixed (outside scope, picked).
 10. minor: the SKILLS.md `implement` entry did not list `review.md`. Fixed ("Ships with").
 11. minor: the new `CLAUDE.md` paragraph broke "The split is the point". Fixed (moved).
+
+**Pass 2** (fix diff `2577728f..95790946`, second-pass mode): 3 found, 3 confirmed, 0 rejected,
+3 fixed, 0 declined. One question with three options; the developer picked all 3. No third
+pass, so all three are **fixed, not re-reviewed**. **Open:** none.
+
+1. minor: renumbering in severity order did not reach the reviewer's findings file, so picks
+   and file numbers could drift. Fixed: keep the reviewer's number beside the new one.
+2. minor: a second place for pass-1 #4, where sub-step 3 still listed the before-dump as
+   always present. Fixed ("if kept").
+3. minor: the reworded `CLAUDE.md` sentence could still attach "checks its findings" to the
+   agent. Fixed: split into two sentences, with `/implement` as the second subject.
+
+The dogfood verification held: the reviewer worked from the new brief with paths only, the
+multi-select flow ran in both passes, only picked findings were fixed, and the second pass ran
+on the fixes alone.

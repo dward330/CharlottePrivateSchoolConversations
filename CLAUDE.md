@@ -44,9 +44,9 @@ conversation**, so anything decided while planning and not written into the docu
 lost. That is the bar a plan is written to.
 
 **Every implementation gets an adversarial review at the end of Phase 1.** `/implement`
-spawns a fresh agent that tries to prove the work wrong, then checks its findings itself
-and asks you which to fix. One second pass checks those fixes and asks again (never a
-third). Phase 2 is not reviewed. A plan never needs to list this step.
+spawns a fresh agent to try to prove the work wrong. `/implement` then checks the findings
+itself and asks you which to fix. One second pass checks those fixes and asks again (never
+a third). Phase 2 is not reviewed. A plan never needs to list this step.
 
 **Every plan that touches user-facing text is built English-first, in two phases.**
 `/implement` builds the feature in English, commits it to the branch, and **stops** — then

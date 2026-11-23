@@ -168,11 +168,11 @@ plus a before-dump if one was kept (otherwise "none"). Every other plan uses
    Otherwise pass "none" (a skill-, script- or doc-only plan). The dumps hold school pages only,
    not Compare.
 3. **Spawn** the filled brief (in the scratchpad: plan, branch, dump folder, an output path,
-   plus the worklist and before-dump for the consistency brief) on **one fresh
+   plus the worklist and, if kept, the before-dump for the consistency brief) on **one fresh
    `general-purpose` agent**. On pass 1, fill the second-pass placeholders (`{{FIX_DIFF}}`,
-   `{{FIRST_FINDINGS}}`) with `n/a (first pass)`. Give it those paths only, never your own summary of what you
-   built or fixed: its job is to prove the work wrong, and a reviewer handed a conclusion tends
-   to confirm it.
+   `{{FIRST_FINDINGS}}`) with `n/a (first pass)`. Give it those paths only, never your own
+   summary of what you built or fixed: its job is to prove the work wrong, and a reviewer
+   handed a conclusion tends to confirm it.
 4. **Verify** every finding yourself against the diff and the dumps, and set or correct its
    severity: `must-fix` (wrong or broken: a wrong figure, a plan step that did not land, a
    page contradiction, a build or house-rule breach), `should-fix` (a house-rule or clarity
@@ -183,7 +183,9 @@ plus a before-dump if one was kept (otherwise "none"). Every other plan uses
    - **0 confirmed:** no question. Say "the review found nothing to fix", with the rejected
      count.
    - **1–16 confirmed:** sort by severity (must-fix first) and **renumber in that order**, so
-     a finding's `#<n>` is the same in the table and the question. Print the full table first:
+     a finding's `#<n>` is the same in the table and the question. Keep the reviewer's own
+     number beside it (`#3 (R5)`) in the table and when you record outcomes in the findings
+     file, so the developer's picks and the file still match. Print the full table first:
      number, severity, one-line problem, where, suggested fix. Then cut into **chunks of 4**,
      one `multiSelect: true` question per chunk, all in **one** `AskUserQuestion` call. Never
      make a question per severity group: 5 + 5 + 5 findings would need six questions, and the
