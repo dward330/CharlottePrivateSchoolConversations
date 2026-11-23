@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-23
 branch: fix/consistency6
-prs: []
+prs: [523]
 closing_loop: consistency-self-scan
 ---
 
