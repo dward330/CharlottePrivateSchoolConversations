@@ -347,8 +347,9 @@ Write, uningested (`/implement` runs the ingest on a branch):
 
 Invoke `/plan` with the name `<slug>commits` and a brief that mirrors
 `.claude/plans/cannoncommits.md`: the per-athlete verification table, the exact roster
-rows in the card's conventions (classes newest-signed first, verbals last; P4 → D1 → D2 →
-D3 → NAIA → JUCO → Other within a class; roster `cls` is an apostrophe plus two digits (`"'26"`), matching
+rows in the card's conventions (the card sorts the roster newest class first, so the
+current seniors' verbals lead, then P4 → D1 → D2 → D3 → NAIA → JUCO → Other within a class
+(plan `allcommits`); keep the data in that order too; roster `cls` is an apostrophe plus two digits (`"'26"`), matching
 Providence Day, and `tsc -b` rejects any other form), the funnel counts and widths, the sport bars, the five prose fields to
 rewrite (`headline`, `subhead`, `funnelNote`, `realityCheck`, `rosterNote` — never say what
 was searched or could not be found; say what the school does or does not publish), the
