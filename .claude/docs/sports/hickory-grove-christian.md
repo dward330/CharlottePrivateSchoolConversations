@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — Sports
-> Distilled from 6 source document(s) in `source-material/sports/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 6 source document(s) in `source-material/sports/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-23.
 **Documents:** College Commitments 2024-2026, College Commitments Class of 2027, Redesign Research 2026, School Profile 2026-2027, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026
 
 
@@ -96,6 +96,8 @@ card shows the college he went to out of the school. Whether he first committed 
 changed is not published, so the ETSU line is dropped rather than carried as a transfer.
 
 ## Class of 2024 — 3
+
+**Superseded 2026-11-22 (plan `allcommits`):** junior-college rows now carry level `JUCO` on the card, not `D3`.
 
 | Athlete | Sport | College | Conf | Level | Confirmed by |
 |---|---|---|---|---|---|

@@ -201,7 +201,7 @@ export const SKIP_KEYS = new Map([
   ['name', 'proper noun — people, schools, colleges, sports, venues'],
   ['college', 'proper noun'],
   ['conf', 'athletic conference code (ACC, SEC)'],
-  ['level', 'recruiting tier code (P4, D1)'],
+  ['level', 'recruiting tier code (P4, D1); a non-acronym code renders through `cardLabels.level<Code>`'],
   ['levels', 'competition-level code (V, JV, MS)'],
   ['cls', 'class year — "\'26"'],
   ['cats', 'internal category code (lac75)'],

@@ -274,7 +274,7 @@ export const gastonDay: SportsProgram = {
       { sport: 'Boys Basketball', match: ['Boys Basketball'] },
     ],
     realityCheck:
-      'Volleyball, Gaston Day’s state-championship program, produced both Division I commits. Braylen Todd (’26) went on to play basketball at Johnson & Wales in Charlotte. The school publishes no signing list or signing-day announcements, so the count is a documented minimum. Bree Smith (’27), a 50 and 100 freestyle swimmer, has committed to swim at Stanford.',
+      'Volleyball, Gaston Day’s state-championship program, produced both Division I commits. Braylen Todd (’26) went on to play basketball at Johnson & Wales in Charlotte. The school publishes no signing list or signing-day announcements, so the real count may be higher. Bree Smith (’27), a 50 and 100 freestyle swimmer, has committed to swim at Stanford.',
     roster: [
       { cls: "'26", name: 'Braylen Todd', sport: 'Boys Basketball', college: 'Johnson & Wales (Charlotte)', conf: 'C2C', level: 'D3' },
       { cls: "'25", name: 'Anne Bradley Bing', sport: 'Volleyball', college: 'South Carolina', conf: 'SEC', level: 'P4' },

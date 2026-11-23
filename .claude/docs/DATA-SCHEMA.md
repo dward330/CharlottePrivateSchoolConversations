@@ -326,6 +326,16 @@ appear only when at least one roster row carries a rank. Five rules travel with 
   with every `##` heading containing "Recruiting" so it folds onto `sports :: recruiting`
   rather than slugifying into a new card.
 
+**Counted means listed: every commitment in the College Pipeline funnel is a roster row.**
+There is no off-roster count, so a parent can count the names behind every total. Level
+`JUCO` = a junior college (NJCAA); `Other` = a college team outside any association
+(dance, cheer). Both count in the funnel's all stage and the `all-commits-2426` Compare row
+only, never D1/P4 or the sport bars; neither is ever filed as D3. `Other` renders through
+the chrome key `cardLabels.levelOther`, because `level` is never extracted for translation.
+An `Other` row needs the school to field that sport at varsity, so the signee is an athlete
+who may be named. A signee in a sport the school does not field is recorded in the source
+file with the name withheld, and is neither listed nor counted (Carmel Christian's dance signee).
+
 **Schools with data:** 13/13
 
 <details><summary>Types defined in <code>sportsProgram.ts</code> (33)</summary>
@@ -354,7 +364,7 @@ appear only when at least one roster row carries a rank. Five rules travel with 
 
 `WinningRecord` — `headline`, `subhead?`, `seasonLabels`, `matrixTitle?`, `rows`, `didNotWin?`, `bars`, `seasonDetail?`, `sources`
 
-`CommitLevel` *(union)* — `P4` \| `D1` \| `D2` \| `D3` \| `NAIA`
+`CommitLevel` *(union)* — `P4` \| `D1` \| `D2` \| `D3` \| `NAIA` \| `JUCO` \| `Other`
 
 `Commit` — `cls`, `name`, `sport`, `college`, `conf`, `level`, `rank247?`
 
@@ -362,7 +372,7 @@ appear only when at least one roster row carries a rank. Five rules travel with 
 
 `SportBar` — `sport`, `match`
 
-`CollegePipeline` — `headline`, `subhead?`, `funnel`, `offRosterCommits?`, `funnelNote?`, `sportBars`, `realityCheck?`, `rankedRecruits?`, `roster`, `rosterNote?`, `sources`
+`CollegePipeline` — `headline`, `subhead?`, `funnel`, `funnelNote?`, `sportBars`, `realityCheck?`, `rankedRecruits?`, `roster`, `rosterNote?`, `sources`
 
 `ProAlum` — `kicker`, `name`, `detail`, `path?`
 
@@ -1150,6 +1160,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 |---|---|--:|---|
 | `p4-commits-2426` | Power 4 commits | 11/13 | Q |
 | `d1-commits-2426` | Division I commits | 11/13 | Q |
+| `all-commits-2426` | College commits (all levels) | 11/13 |  |
 | `seniors-committed` | Current seniors committed | 11/13 | Q |
 | `cup-finish` | Wells Fargo Cup finish, 2025–26 | 11/13 | – Q C sub |
 | `cup-titles` | Wells Fargo Cup titles, 2020–21 to 2025–26 | 11/13 | – Q C sub |
@@ -1207,7 +1218,7 @@ only, no school-page stat tile (the school page shows the figures in a structure
 | `aid-awarded` | Aid awarded / year | 4/13 | Q |
 | `avg-award` | Average award | 2/13 | Q |
 
-**Total:** 54 Compare rows across 9 research areas.
+**Total:** 55 Compare rows across 9 research areas.
 
 <details><summary>ValueMetric shape</summary>
 

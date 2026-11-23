@@ -16,8 +16,9 @@
  *       (at most two words between), equals the count derived from the 2024–26
  *       roster. The subhead is a per-sport breakdown and is not read
  *       (src/lib/pipeline.ts). Class of 2027 rows are excluded.
- *   R1b Compare: p4-commits-2426, d1-commits-2426 and seniors-committed equal
- *       the derived counts (leading integer, as check:cup reads its rows).
+ *   R1b Compare: p4-commits-2426, d1-commits-2426, all-commits-2426 and
+ *       seniors-committed equal the derived counts (leading integer, as check:cup
+ *       reads its rows).
  *   R2  "D1 commits by sport" bars: every D1 row lands in exactly one bar, and
  *       no bar names a sport the roster never uses. (Typed bar counts, the old
  *       shape, must sum to the D1 count.)
@@ -75,6 +76,7 @@
  *       are folded by meaning: Miami (Ohio) is never Miami, Johnson & Wales
  *       (Charlotte) is never the Providence campus, "South Atlantic" is SAC. Add a
  *       spelling to the fold when one appears. Never add a school to skip.
+ *       Rows at level `Other` (dance, cheer: no association) are skipped.
  *
  * Usage:
  *   node scripts/check_consistency.mjs            gate R1–R7, R9–R12; exit 1 on any finding
@@ -208,7 +210,7 @@ for (const [slug, prog] of Object.entries(data.sportsPrograms)) {
     }
   }
   // R1b — Compare rows.
-  for (const [key, k] of [['p4-commits-2426', 'p4'], ['d1-commits-2426', 'd1'], ['seniors-committed', 'seniors']]) {
+  for (const [key, k] of [['p4-commits-2426', 'p4'], ['d1-commits-2426', 'd1'], ['all-commits-2426', 'all'], ['seniors-committed', 'seniors']]) {
     const v = cell(key, slug)
     if (v == null) continue
     if (leadInt(v) !== counts[k]) add('R1b', slug, `Compare ${key} = ${v}; the roster gives ${counts[k]}`)
@@ -618,6 +620,11 @@ const sportGroup = (sport) =>
 const byCollege = new Map()
 for (const [slug, prog] of Object.entries(data.sportsPrograms)) {
   for (const r of prog.pipeline?.roster ?? []) {
+    // An `Other` row is a college team outside any athletics association (dance,
+    // cheer): it has no conference, so it never disagrees with that college's
+    // conference in another sport (plan `allcommits`). Skipped by level, never by
+    // school or college.
+    if (r.level === 'Other') continue
     const key = `${collegeKey(r.college)} (${sportGroup(r.sport)})`
     if (!byCollege.has(key)) byCollege.set(key, [])
     byCollege.get(key).push({ slug, r })

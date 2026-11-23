@@ -5,6 +5,7 @@
   "targetGrade": 10,
   "gradeMinWords": 30,
   "terms": [
+    { "term": "documented minimum", "match": "documented minimums?", "plain": "say what the school publishes, then: so the real count may be higher" },
     { "term": "matriculation", "match": "matriculat(?:e|es|ed|ing|ion|ions)", "plain": "enroll / enrolled at / where graduates enrolled" },
     { "term": "differentiated instruction", "match": "differentiated (?:instruction|learning)", "plain": "teaching adjusted to each student's level" },
     { "term": "rigor", "match": "rigou?r|rigorous(?:ly)?", "plain": "demanding / hard (or say what makes it hard)" },

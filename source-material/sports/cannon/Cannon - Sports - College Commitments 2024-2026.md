@@ -173,6 +173,8 @@ Rank data for the card: Swartz `rank247 { national: 66, state: 6 }` (247Sports p
 and the final Composite may differ**). Galloway: 247 shows N/A → no `rank247`.
 
 ## Class of 2025 (9) — Division I 4, of which Power 4 1
+**Superseded 2026-11-22 (plan `allcommits`):** junior-college rows now carry level `JUCO` on the card, not `D3`.
+
 | Athlete | Sport | College | Conf. | Level | Confirmed by |
 |---|---|---|---|---|---|
 | John Kroll | Swimming | Notre Dame | ACC | **P4** | signing-day roundup (2026-07-04 pass) |

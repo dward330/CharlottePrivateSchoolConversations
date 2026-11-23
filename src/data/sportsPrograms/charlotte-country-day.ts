@@ -228,7 +228,6 @@ export const charlotteCountryDay: SportsProgram = {
       '48 college commitments across 2024–26, 28 of them Division I and 9 Power 4 — with track and cross country supplying the most Division I commits and swimming the most Power 4.',
     subhead:
       'The school reports roughly 15 seniors committing per year over the last five years — 13 in the Class of 2026 and 60 across the last four classes, per the 2026–27 profile.',
-    offRosterCommits: 1,
     funnel: [
       {
         label: 'Committed to college athletics',
@@ -311,9 +310,10 @@ export const charlotteCountryDay: SportsProgram = {
       { cls: "'24", name: 'Owen Miller', sport: 'Baseball', college: 'Denison', conf: 'NCAC', level: 'D3' },
       { cls: "'24", name: 'Campbell Baumgartner', sport: 'Swimming', college: 'Connecticut College', conf: 'NESCAC', level: 'D3' },
       { cls: "'24", name: 'Amare Bethel', sport: 'Boys Basketball', college: 'Metropolitan State', conf: 'RMAC', level: 'D2' },
+      { cls: "'24", name: 'Kendall Blount', sport: 'Cheer', college: 'Louisville', conf: '—', level: 'Other' },
     ],
     rosterNote:
-      'This site added the level labels and conferences from each college’s NCAA status. These labels are not on the school’s published roster. P4 = SEC · Big Ten · ACC · Big 12.',
+      'This site added the level labels and conferences. These labels are not on the school’s published roster. P4 = SEC · Big Ten · ACC · Big 12. Other marks a college cheer signee. Cheer is not an NCAA sport, so she counts in the funnel total but not in the Division I or Power 4 counts.',
     sources: [
       {
         label: 'charlottecountryday.org — Collegiate Athletics',

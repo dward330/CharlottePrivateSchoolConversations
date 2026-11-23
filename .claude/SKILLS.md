@@ -61,7 +61,7 @@ Four stand alone: `add-school-news`, `admissions-episode`, `learning-support-epi
 
 **Assess a candidate school, then hand off to `/plan`.**
 
-`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-11-22 (floor 33/45, 73%)
+`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-11-23 (floor 34/46, 73%)
 
 Answers one question before any work starts: **can this school actually be populated
 against the schema the app already has?** A school with a thin public footprint yields a
@@ -568,11 +568,11 @@ build on a ledger the association disagrees with; or deploy. Adding the publishe
 
 ## 🎯 `athlete-commits`
 
-**Refresh one roster school's College Pipeline card and its two Compare commit rows by
+**Refresh one roster school's College Pipeline card and its four Compare commit rows by
 cross-referencing its varsity rosters against college rosters and recruiting services, then
 hand the verified record to `/plan`.**
 
-`.claude/skills/athlete-commits/SKILL.md` · added 2026-11-08 · updated 2026-11-22 (Notre Dame counts as Power 4 in every sport, football included); 2026-11-08 (every
+`.claude/skills/athlete-commits/SKILL.md` · added 2026-11-08 · updated 2026-11-23 (plan `allcommits`: four Compare rows with `all-commits-2426`; counted means listed, with `JUCO` and `Other` levels; the floor-wording rule); 2026-11-22 (Notre Dame counts as Power 4 in every sport, football included); 2026-11-08 (every
 varsity sport, HighSchoolOT trackers, LaxNumbers; window check, per-class retention file,
 `seniors-committed` row; the current-senior pass — timing, roster-wide mode, evidence
 grading — after the eleven-school sweep in plan `seniorsrow`)
@@ -585,8 +585,15 @@ Galloway – North Carolina). A second pass over the sports the first had skippe
 more, eight of them lacrosse, including a third Power 4 (Brevin Wilson – North Carolina) —
 so the skill now covers **every varsity sport the school fields**, with depth tiered by
 whether a sport has a commitment database. The card is data-driven, so a refresh is data
-only: `pipeline` in the school's `sportsPrograms` module, `p4-commits-2426` /
-`d1-commits-2426` in `metricValues.ts`.
+only: `pipeline` in the school's `sportsPrograms` module, and `p4-commits-2426`,
+`d1-commits-2426`, `all-commits-2426` and `seniors-committed` in `metricValues.ts`, which
+`check:consistency` R1b gates against the roster.
+
+**Counted means listed** (user, 2026-11-22): every commitment a funnel total counts is a
+named roster row. Junior colleges are `JUCO`, a college team outside any association
+(dance, cheer) is `Other`, and only where the school fields that sport at varsity; neither is ever filed as D3, and both count in the all-levels
+figure only. There is no off-roster count. Row notes and tips never say "documented
+minimum": they say what the school publishes, then "so the real count may be higher".
 
 **Use it when** a school's pipeline card may be stale: `/athlete-commits`, "find new college
 commits for <school>", "cross-reference <school>'s rosters", "are there athletes we're
@@ -598,9 +605,9 @@ missing for <school>".
 | **1** | Asks which school; **refuses a school not in `schools.json`**, stops on a K-8 school, flags a school with no `pipeline` card as a UX-gate case. Reads what the card holds today and **runs the window check** — if a class has graduated past the Compare window's last year, tells the user it is time to roll the window by one. |
 | **2** | Pulls the rosters for **every varsity sport**: the school's own team pages (current classes) and MaxPreps for the last three seasons plus the current one (graduating classes). |
 | **3** | Greps the school's name in all 17 **HighSchoolOT per-sport recruiting trackers**, then cross-references every senior — RealGM and LaxNumbers in Chrome, the NC Football News trackers, PrepVolleyball, SwimSwam, TennisRecruiting, MileSplit, TopDrawerSoccer, Prep Girls Hoops — and confirms each on the **college's own roster**. Applies the graduate test. **The current-senior pass** runs roster-wide first (statewide trackers, club commitment lists, the Observer previews, grepped for every school at once), confirms each class year on the school's roster, and grades verbals by source type. |
-| **4** | Classifies with the existing level / conference / sport vocabulary (JUCO at the D3 tier with `NJCAA`, Covenant Day precedent); `rank247` only where 247 publishes a Composite rank. |
+| **4** | Classifies with the existing level / conference / sport vocabulary (junior college → `JUCO` with `NJCAA`; dance or cheer → `Other` with `—`; never D3); `rank247` only where 247 publishes a Composite rank. |
 | **5** | Reports new, changed, verbal and ruled-out athletes, the funnel and Compare deltas, and the nulls separately from the unchecked gaps. |
-| **6–7** | Rebuilds `<School> - Sports - College Commitments 2024-2026.md`, writes `… - Varsity Roster Cross-Reference <year>.md`, **writes or extends `… - College Commitments Class of <year>.md` for the current seniors (kept forever; zero commitments is still a file)**, notes the dossier, and invokes `/plan` as `<slug>commits` with the two window values and the `seniors-committed` value. |
+| **6–7** | Rebuilds `<School> - Sports - College Commitments 2024-2026.md`, writes `… - Varsity Roster Cross-Reference <year>.md`, **writes or extends `… - College Commitments Class of <year>.md` for the current seniors (kept forever; zero commitments is still a file)**, notes the dossier, and invokes `/plan` as `<slug>commits` with the three window values (P4, D1, all levels) and the `seniors-committed` value. |
 
 > **🔑 Claude in Chrome is required, not optional.** RealGM's school page (every basketball
 > graduate with their college) and LaxNumbers' team recruits page (every lacrosse commit by
@@ -641,7 +648,7 @@ missing for <school>".
 > count once; a club's newsletter about its own players counts; an AD quoted on the record
 > is the school; confirm the class year on the roster before counting a preview's "commit".
 
-> **📅 The window rolls once a year, as its own plan.** The Power 4 and Division I rows
+> **📅 The window rolls once a year, as its own plan.** The window rows (P4, D1, all levels)
 > cover three graduated classes (`…-2426` → 2024–2026). The skill computes the current
 > senior class and the most recently graduated one on every run; when a graduated class is
 > newer than the window's last year (from 1 June of its graduation), it tells the user to
@@ -651,7 +658,7 @@ missing for <school>".
 > 2026-11-08).
 
 **Deliberately cannot:** edit app code, research a school the app does not cover, count a
-verbal commitment in the Power 4 or Division I rows, roll the window for one school, name
+verbal commitment in the window rows (P4, D1, all levels), roll the window for one school, name
 a current student without a documented commitment, claim a scholarship, or deploy.
 
 ---

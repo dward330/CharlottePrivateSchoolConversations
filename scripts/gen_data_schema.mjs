@@ -510,6 +510,17 @@ for (const s of STRUCTURED) {
     w('  with every `##` heading containing "Recruiting" so it folds onto `sports :: recruiting`')
     w('  rather than slugifying into a new card.')
     w()
+    // Standing rule set 2026-11-22 with the all-levels Compare row (plan allcommits).
+    w('**Counted means listed: every commitment in the College Pipeline funnel is a roster row.**')
+    w('There is no off-roster count, so a parent can count the names behind every total. Level')
+    w('`JUCO` = a junior college (NJCAA); `Other` = a college team outside any association')
+    w('(dance, cheer). Both count in the funnel\'s all stage and the `all-commits-2426` Compare row')
+    w('only, never D1/P4 or the sport bars; neither is ever filed as D3. `Other` renders through')
+    w('the chrome key `cardLabels.levelOther`, because `level` is never extracted for translation.')
+    w('An `Other` row needs the school to field that sport at varsity, so the signee is an athlete')
+    w('who may be named. A signee in a sport the school does not field is recorded in the source')
+    w('file with the name withheld, and is neither listed nor counted (Carmel Christian\'s dance signee).')
+    w()
   }
   if (s.topic === 'college-support') {
     // Standing rule set 2026-08-19 with the ncAdmissions card. Lives here

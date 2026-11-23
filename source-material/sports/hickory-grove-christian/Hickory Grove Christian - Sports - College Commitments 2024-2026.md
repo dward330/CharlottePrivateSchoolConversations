@@ -86,6 +86,8 @@ changed is not published, so the ETSU line is dropped rather than carried as a t
 
 ## Class of 2024 — 3
 
+**Superseded 2026-11-22 (plan `allcommits`):** junior-college rows now carry level `JUCO` on the card, not `D3`.
+
 | Athlete | Sport | College | Conf | Level | Confirmed by |
 |---|---|---|---|---|---|
 | Conner Barozzino | Baseball | Appalachian State | Sun Belt | D1 | App State roster bio; HighSchoolOT tracker; PBR 2024 preview |

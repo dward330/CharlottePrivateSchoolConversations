@@ -750,7 +750,19 @@ const LEVEL_TAG: Record<CommitLevel, string> = {
   D2: 'tag-neutral',
   D3: 'tag-neutral',
   NAIA: 'tag-neutral',
+  JUCO: 'tag-neutral',
+  Other: 'tag-neutral',
 }
+
+/**
+ * Level codes that are words, not acronyms, render through a chrome key: the
+ * `level` field is skipped by the i18n extractor as a code, so a raw word would
+ * show English in every locale. Acronyms (P4, D1, NAIA, JUCO) render as-is.
+ */
+const LEVEL_LABEL: Partial<Record<CommitLevel, string>> = { Other: 'cardLabels.levelOther' }
+
+/** Roster order within one class (the roster itself runs newest class first). */
+const LEVEL_ORDER: CommitLevel[] = ['P4', 'D1', 'D2', 'D3', 'NAIA', 'JUCO', 'Other']
 
 /** A 247Sports rank cell: the number links to the athlete's 247 profile; a dash when unranked. */
 function RankCell({ n, url }: { n?: number; url?: string }) {
@@ -776,6 +788,8 @@ function RosterRow({
   q: string
   hasRanks: boolean
 }) {
+  const { t } = useTranslation()
+  const levelKey = LEVEL_LABEL[row.level]
   return (
     <>
       <span className="sports-td text-muted">{row.cls}</span>
@@ -798,7 +812,7 @@ function RosterRow({
         </>
       )}
       <span className="sports-td sports-th-c">
-        <span className={`${LEVEL_TAG[row.level]} sports-level`}>{row.level}</span>
+        <span className={`${LEVEL_TAG[row.level]} sports-level`}>{levelKey ? t(levelKey) : row.level}</span>
       </span>
     </>
   )
@@ -837,13 +851,22 @@ export function CollegePipelineBody({
   const q = query.trim().toLowerCase()
   const rows = useMemo(
     () =>
-      data.roster.filter((r) => {
-        if (filter === 'p4' && r.level !== 'P4') return false
-        if (filter === 'd1' && r.level !== 'P4' && r.level !== 'D1') return false
-        if (q && ![r.name, r.sport, r.college, r.conf].some((t) => t.toLowerCase().includes(q)))
-          return false
-        return true
-      }),
+      data.roster
+        .filter((r) => {
+          if (filter === 'p4' && r.level !== 'P4') return false
+          if (filter === 'd1' && r.level !== 'P4' && r.level !== 'D1') return false
+          if (q && ![r.name, r.sport, r.college, r.conf].some((t) => t.toLowerCase().includes(q)))
+            return false
+          return true
+        })
+        // Newest class first, so the current seniors lead (user, 2026-11-23, plan
+        // `allcommits`), then the level order within a class. The sort is stable,
+        // so rows of one class and level keep their data order. `cls` is always
+        // "'NN", so a string compare orders the classes.
+        .sort(
+          (a, b) =>
+            b.cls.localeCompare(a.cls) || LEVEL_ORDER.indexOf(a.level) - LEVEL_ORDER.indexOf(b.level),
+        ),
     [data.roster, filter, q],
   )
 

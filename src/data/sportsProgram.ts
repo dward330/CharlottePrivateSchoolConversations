@@ -183,8 +183,14 @@ export type WinningRecord = {
 
 /* ----------------------------------------------------- 1d college pipeline -- */
 
-/** Recruiting level, driving both the roster filter tabs and the row tag. */
-export type CommitLevel = 'P4' | 'D1' | 'D2' | 'D3' | 'NAIA'
+/**
+ * Recruiting level, driving both the roster filter tabs and the row tag.
+ * `JUCO` is a junior (two-year) college, NJCAA. `Other` is a college team in a
+ * sport outside the college athletics divisions (dance, cheer). Both count in
+ * the funnel's all stage only, never D1/P4. Neither is ever filed as D3.
+ * Order within a class: P4 → D1 → D2 → D3 → NAIA → JUCO → Other.
+ */
+export type CommitLevel = 'P4' | 'D1' | 'D2' | 'D3' | 'NAIA' | 'JUCO' | 'Other'
 
 /** One decimal digit, for `ClassYear`. */
 type Digit = '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
@@ -260,12 +266,6 @@ export type CollegePipeline = {
   headline: string
   subhead?: string
   funnel: FunnelStage[]
-  /**
-   * Commitments counted in the funnel's "all" stage but not listed as roster
-   * rows (e.g. dance or cheer signees the school names without a college
-   * roster). The funnel note must say why they are off the roster.
-   */
-  offRosterCommits?: number
   /** Caveat beneath the funnel — offers vs commitments, floor vs ceiling. */
   funnelNote?: string
   sportBars: SportBar[]

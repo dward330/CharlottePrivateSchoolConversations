@@ -1,5 +1,5 @@
 # Cannon School — Sports
-> Distilled from 19 source document(s) in `source-material/sports/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 19 source document(s) in `source-material/sports/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-23.
 **Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, College Commitments Class of 2027, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Basketball Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
@@ -461,6 +461,8 @@ Rank data for the card: Swartz `rank247 { national: 66, state: 6 }` (247Sports p
 and the final Composite may differ**). Galloway: 247 shows N/A → no `rank247`.
 
 ## Class of 2025 (9) — Division I 4, of which Power 4 1
+**Superseded 2026-11-22 (plan `allcommits`):** junior-college rows now carry level `JUCO` on the card, not `D3`.
+
 | Athlete | Sport | College | Conf. | Level | Confirmed by |
 |---|---|---|---|---|---|
 | John Kroll | Swimming | Notre Dame | ACC | **P4** | signing-day roundup (2026-07-04 pass) |

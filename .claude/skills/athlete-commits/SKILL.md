@@ -1,7 +1,7 @@
 ---
 name: athlete-commits
 description: >
-  Refresh one roster school's College Pipeline card (Sports) and its two Compare commit rows
+  Refresh one roster school's College Pipeline card (Sports) and its four Compare commit rows
   by cross-referencing the school's varsity rosters — every varsity sport the school fields,
   from the school's own team pages and MaxPreps for the last three seasons plus the current
   one — against the HighSchoolOT per-sport recruiting trackers, college rosters, 247Sports,
@@ -29,9 +29,12 @@ sport the school fields**, not a shortlist. The flow is **school → rosters →
 graduate test → report → source-material → `/plan` → `/implement`**.
 
 The card is data-driven (`pipeline` in `src/data/sportsPrograms/<slug>.ts`, rendered by
-`src/components/SportsProgram.tsx`), and the Compare rows `p4-commits-2426` and
-`d1-commits-2426` are typed in `src/data/metricValues.ts`. So a refresh needs **data, not
-component changes**.
+`src/components/SportsProgram.tsx`), and the four Compare commit rows are typed in
+`src/data/metricValues.ts`: `p4-commits-2426`, `d1-commits-2426`, `all-commits-2426` and
+`seniors-committed`. `all-commits-2426` (*College commits (all levels)*, plan `allcommits`)
+equals the funnel's `pipelineCounts().all`, every window roster row at any level, so the rows
+nest P4 ⊆ D1 ⊆ all. `check:consistency` R1b fails the build on any of the four that disagrees
+with the roster. So a refresh needs **data, not component changes**.
 
 ## Hard constraints
 
@@ -51,9 +54,21 @@ component changes**.
   as his last school — and each would have inflated the count.
 - **Verbal commitments are listed, never counted in the window.** A current senior with a
   public commitment goes on the roster (the Brooke Busby precedent) and stays out of the
-  funnel, the sport bars and the Power 4 / Division I rows until they sign and the window
-  rolls. They **are** the value of the `seniors-committed` Compare row (plan `seniorsrow`),
+  funnel, the sport bars and the window rows (P4, D1, all levels) until they sign and the
+  window rolls. They **are** the value of the `seniors-committed` Compare row (plan `seniorsrow`),
   which counts the current senior class at any level, verbal or signed.
+- **Counted means listed** (user, 2026-11-22, plan `allcommits`). Every commitment a funnel
+  total counts is a roster row with a name, at every school, so a parent can count the names.
+  A college team in a sport outside the college athletics divisions (dance, cheer) gets
+  `level: 'Other'` and `conf: '—'`. It counts in the funnel's all stage and on the all-levels
+  Compare row, never in D1/P4 or the sport bars. Whether the sport offers scholarships is not
+  the test: Division III offers none, and its athletes are listed. There is no off-roster
+  count (`offRosterCommits` was removed); never add one back.
+  An `Other` row needs the school to field that sport at varsity (it is on the school's
+  Sports Offered card), because only then is the signee an athlete who may be named under
+  the Student-name standard. A signee in a sport the school does not field (Carmel
+  Christian's college dance signee: Carmel has no varsity dance team) is recorded in the
+  source file with `[name withheld]`, and is neither listed nor counted.
 - **The current senior class's commitments are always retained in their own file**,
   `<School> - Sports - College Commitments Class of <year>.md`, so that when the window
   rolls the class can be promoted into the counts without re-research. That file is never
@@ -111,8 +126,9 @@ under the UX-design gate, and the handoff must say the user's approval is needed
 `/implement`. A school with a card needs no approval — every change fills existing fields.
 
 Read before researching, and write down what the card holds today: `roster[]` (names,
-classes, levels), `funnel[]` counts, `sportBars[]`, the three Compare values
-(`p4-commits-2426`, `d1-commits-2426`, `seniors-committed`) and their `quals.<slug>.text`,
+classes, levels), `funnel[]` counts, `sportBars[]`, the four Compare values
+(`p4-commits-2426`, `d1-commits-2426`, `all-commits-2426`, `seniors-committed`) and their
+`quals.<slug>.text`,
 and the existing provenance files `source-material/sports/<slug>/<School> - Sports - College
 Commitments 2024-2026.md` and `… - College Commitments Class of <year>.md`. The report in
 step 5 is a diff against this.
@@ -123,7 +139,7 @@ the current senior class (the school year's end: month ≥ 7 → year + 1, else 
 most recently graduated class (current − 1; a class counts as graduated from 1 June). If
 the most recently graduated class is **later than the window's last year, tell the user it
 is time to roll the window by one**, and that the roll is its own plan, not part of this
-school's refresh: rename both keys (`2426` → `2527`) and their labels and notes, recount
+school's refresh: rename the three window keys (`…-2426` → `…-2527`) and their labels and notes, recount
 every school from the retained `College Commitments Class of <year>.md` files (promoting
 that class's confirmed rows into each school's window file), move the `seniors-committed`
 row and the roster's verbal block to the new senior class, and update the floor paragraph in
@@ -263,8 +279,12 @@ Record the choice.
   American Athletic Conference is `'American'` (5 uses) not `'AAC'` (3); Furman is
   `'Southern'` where the school's own file already uses it. A new string is a new translation
   unit in nine locales.
-- **Junior college** has no `CommitLevel`: list at `'D3'` with `conf: 'NJCAA'` and say so in
-  `rosterNote` (Covenant Day precedent, `covenant-day.ts`).
+- **Junior college** (NJCAA) is `level: 'JUCO'`, with `conf: 'NJCAA'`. A college team outside
+  any association (dance, cheer) is `level: 'Other'`, with `conf: '—'`. Never file either one
+  as `'D3'` (plan `allcommits`). Take a college's association from that college's own
+  athletics site for the current season, never from RealGM or memory. A `rosterNote` that
+  uses JUCO explains it once: "JUCO = junior college, a two-year college." An `Other` row is
+  explained in the `rosterNote` too ("Other marks …").
 - **`rank247`** only when 247Sports publishes a Composite rank (football and basketball);
   omit the field otherwise, never a placeholder. Read the live page before typing the numbers
   — a September rank and the final Composite differ.
@@ -287,8 +307,8 @@ Print, before any persistence, so the user sees the result:
   the current class, marked as uncounted.
 - **Ruled out**, each with the reason (graduate test, offer-not-commit, mislabelled school,
   unverified).
-- **The deltas**: funnel before → after (committed / D1 / P4), by-sport counts, and the two
-  Compare values before → after.
+- **The deltas**: funnel before → after (committed / D1 / P4), by-sport counts, and the
+  three window Compare values (P4, D1, all levels) and `seniors-committed`, before → after.
 - **Nulls** (what was searched and found empty, as counts per sport and class) and
   **unchecked** (rosters that could not be retrieved) — kept apart, because a null is a
   finding and an unchecked gap is not.
@@ -327,15 +347,26 @@ Write, uningested (`/implement` runs the ingest on a branch):
 
 Invoke `/plan` with the name `<slug>commits` and a brief that mirrors
 `.claude/plans/cannoncommits.md`: the per-athlete verification table, the exact roster
-rows in the card's conventions (classes newest-signed first, verbals last; P4 → D1 → D2 →
-D3 within a class; roster `cls` is an apostrophe plus two digits (`"'26"`), matching
+rows in the card's conventions (the card sorts the roster newest class first, so the
+current seniors' verbals lead, then P4 → D1 → D2 → D3 → NAIA → JUCO → Other within a class
+(plan `allcommits`); keep the data in that order too; roster `cls` is an apostrophe plus two digits (`"'26"`), matching
 Providence Day, and `tsc -b` rejects any other form), the funnel counts and widths, the sport bars, the five prose fields to
 rewrite (`headline`, `subhead`, `funnelNote`, `realityCheck`, `rosterNote` — never say what
 was searched or could not be found; say what the school does or does not publish), the
-`sources[]` additions, the three Compare values — the two window rows and
-`seniors-committed` (the count of the per-class file's confirmed rows, any level) — and the
-shared `quals` text, the `metrics.ts` rule if needed, and the Phase 2 unit forecast (five
-`sports` prose units plus one `metric-values` unit per locale; new roster rows attach to
+`sources[]` additions, the four Compare values — the three window rows (P4, D1, all levels)
+and `seniors-committed` (the count of the per-class file's confirmed rows, any level) — and
+the shared `quals` text, the `metrics.ts` rule if needed, and the Phase 2 unit forecast (five
+`sports` prose units, plus one `metric-values` unit per changed qual string, plus the
+value-only cells, which carry by token substitution; new roster rows attach to
 existing identifier units; roster indexes shift, so the splice matches by stamp, never by
 path). Two-phase, as every card change with prose is. Say whether the UX gate applies (no
 `pipeline` card today → yes), and repeat the window check's result so the plan records it.
+
+### Wording for row notes and cell tips
+
+Never write "documented minimum" (the plain-language hook flags it). Say what the school
+publishes, then "so the real count may be higher", or end "The real count may be higher." when
+the school's publishing is already described. A school that names every signee (Charlotte
+Latin) gets no "may be higher" clause. No research bookkeeping: never "confirmed on",
+"sweep" or "we found" (CLAUDE.md, "Research bookkeeping is dev-only"). Set by plan
+`allcommits` (2026-11-22).

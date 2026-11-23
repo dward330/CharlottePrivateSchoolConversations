@@ -259,7 +259,7 @@ export const charlotteCatholic: SportsProgram = {
       { label: 'Power Four', hint: 'ACC · Big Ten · Big 12 · SEC, plus Notre Dame', derive: 'p4', width: 0.13, shade: 'full' },
     ],
     funnelNote:
-      'The 1000+ figure is the school’s own all-time count. It is not limited to these three classes, so it counts a different span of years from the rows beneath it. The three classes below are a documented minimum. CCHS holds separate fall, winter and spring signing days and publishes no combined list. So athletes appear here once a signing article, a newspaper signing list or the college’s own roster names them.',
+      'The 1000+ figure is the school’s own all-time count. It is not limited to these three classes, so it counts a different span of years from the rows beneath it. CCHS holds separate fall, winter and spring signing days and publishes no combined list. So athletes appear here once a signing article, a newspaper signing list or the college’s own roster names them. The real count may be higher.',
     sportBars: [
       { sport: 'Baseball', match: ['Baseball'] },
       { sport: 'Football', match: ['Football'] },

@@ -99,20 +99,22 @@ discover at ingest time.
 **The bar is calibrated to the thinnest school already shipped, and it is computed, not
 transcribed.** `npm run coverage:floor` (`scripts/coverage_floor.mjs`) prints every
 school's Compare fill rate and research-area count and derives the floor from the weakest.
-As of 2026-11-22 that is Davidson Day — 33/45 Compare rows (**73%**), up from 30/45 once three
-Arts cells were filled from its own page (plan `consistency4`), and no Summer
-Programs material at all. The gate is **≥33 of 45 Compare rows, and one area below the
-count the script derives**, compared inclusively: exactly 33/45 passes, 32/45 does not.
+As of 2026-11-23 that is Davidson Day — 34/46 Compare rows (**73%**), up from 30/45 to 33/45 once
+three Arts cells were filled from its own page (plan `consistency4`), and to 34/46 once the
+all-levels commit row shipped with a value for it (plan `allcommits`), and no Summer
+Programs material at all. The gate is **≥34 of 46 Compare rows, and one area below the
+count the script derives**, compared inclusively: exactly 34/46 passes, 33/46 does not.
 The row total moves too (30 → 36 when the six Top 6 NC admit-rate rows shipped,
 2026-10-05; 36 → 37 with `ap-top-scores`; 37 → 39 when the SAT and ACT rows shipped,
 2026-11-07, both null for Davidson Day at first and filled later that day from its 2020–21
 profile, the last to print scores; 39 → 44 when the
 six tuition rows replaced `top-tuition` the same day, plan `comparerows`; 44 → 45 when the
-`seniors-committed` row shipped, 2026-11-08, plan `seniorsrow`), so read it from
+`seniors-committed` row shipped, 2026-11-08, plan `seniorsrow`; 45 → 46 when the
+`all-commits-2426` row shipped, 2026-11-23, plan `allcommits`), so read it from
 the script like the area count. Those six rows exist only for
 NC high schools — the UNC System dashboard covers no other state — so an out-of-state
 candidate (a Fort Mill, SC school, say) scores 0/6 on them and should be judged against
-the other 39. The five Global Exposure Compare rows (2026-10-26) are excluded from the
+the other 40. The five Global Exposure Compare rows (2026-10-26) are excluded from the
 floor by `FLOOR_EXCLUDED_TOPICS` in `coverage_floor.mjs`. A candidate is never gated on
 Global Exposure research. The three Wells Fargo Cup Compare rows (2026-11-01, `cup-best` 2026-11-07) are excluded by
 `FLOOR_EXCLUDED_KEYS`, because only schools in these NC associations can hold them.
@@ -137,7 +139,7 @@ card keys **5–6 of 6** existing schools hold, never against every key that exi
 
 **The per-area line is ~50%, deliberately NOT the school-wide 73%**, and it is a trigger
 for a conversation rather than a pass/fail gate. Three reasons, each of which bit a draft:
-the 73% is a rate over 45 Compare rows while an area's denominator is 2–28, so they are
+the 73% is a rate over 46 Compare rows while an area's denominator is 2–28, so they are
 not the same kind of measurement; **Davidson Day — the school the bar is calibrated to —
 has no Summer Programs material at all (0%)**, so a 73% per-area gate would reject an area
 the project already ships without; and Course Offerings quantizes to 0/25/50/75/100, where

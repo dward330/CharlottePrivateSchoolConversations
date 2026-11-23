@@ -223,7 +223,7 @@ export const carmelChristian: SportsProgram = {
       { sport: 'Tennis', match: ['Tennis'] },
     ],
     realityCheck:
-      'Most Carmel signees land in NCAA Division II and III. Baseball: Lander, USC Aiken, Bluefield State and Ferrum. Basketball: Fayetteville State and Johnson & Wales, and WVU Tech in the NAIA. Golf: North Greenville and Randolph-Macon. Volleyball: Winston-Salem State. Tennis is the program’s second pipeline, with six signees in the classes of 2024 and 2025, from the SEC to Johns Hopkins. The school’s list also includes a dance-team signee, who is not counted here as an athletic commitment.',
+      'Most Carmel signees land in NCAA Division II and III. Baseball: Lander, USC Aiken, Bluefield State and Ferrum. Basketball: Fayetteville State and Johnson & Wales, and WVU Tech in the NAIA. Golf: North Greenville and Randolph-Macon. Volleyball: Winston-Salem State. Tennis is the program’s second pipeline, with six signees in the classes of 2024 and 2025, from the SEC to Johns Hopkins. The school’s list also includes a college dance-team signee. Carmel has no varsity dance team, so that signing is not counted or listed here.',
     rankedRecruits:
       'Cade Tyson (’22) was 2022 NC Mr. Basketball and left as the program’s recruiting headliner. His path: Belmont → UNC → Minnesota; a 2026 NBA G League Draft Combine and Portsmouth invitee. Jaeden Mustaf, all-state at Carmel and son of ex-NBA Jerrod Mustaf, led the 2022–23 team to 28–4 and the state final before Georgia Tech → Indiana. Cody Peck (6\'10", four-star, top-100 → Dayton) is often linked to Carmel but played only two seasons there and graduated elsewhere. He is not a Carmel commit.',
     roster: [
