@@ -384,8 +384,8 @@
         "charlotte-latin:pipeline.roster[19].sport",
         "charlotte-latin:pipeline.roster[31].sport",
         "charlotte-latin:pipeline.roster[37].sport",
-        "charlotte-latin:pipeline.roster[44].sport",
-        "charlotte-latin:pipeline.roster[57].sport",
+        "charlotte-latin:pipeline.roster[47].sport",
+        "charlotte-latin:pipeline.roster[60].sport",
         "charlotte-latin:coaching.tenure[7].role",
         "charlotte-christian:pipeline.roster[0].sport",
         "charlotte-christian:pipeline.roster[1].sport",
@@ -466,13 +466,13 @@
         "charlotte-latin:pipeline.roster[27].sport",
         "charlotte-latin:pipeline.roster[42].sport",
         "charlotte-latin:pipeline.roster[43].sport",
-        "charlotte-latin:pipeline.roster[45].sport",
-        "charlotte-latin:pipeline.roster[46].sport",
-        "charlotte-latin:pipeline.roster[47].sport",
-        "charlotte-latin:pipeline.roster[51].sport",
-        "charlotte-latin:pipeline.roster[55].sport",
-        "charlotte-latin:pipeline.roster[56].sport",
-        "charlotte-latin:pipeline.roster[60].sport",
+        "charlotte-latin:pipeline.roster[48].sport",
+        "charlotte-latin:pipeline.roster[49].sport",
+        "charlotte-latin:pipeline.roster[50].sport",
+        "charlotte-latin:pipeline.roster[54].sport",
+        "charlotte-latin:pipeline.roster[58].sport",
+        "charlotte-latin:pipeline.roster[59].sport",
+        "charlotte-latin:pipeline.roster[63].sport",
         "charlotte-christian:pipeline.roster[21].sport",
         "charlotte-country-day:pipeline.roster[0].sport",
         "charlotte-country-day:pipeline.roster[1].sport",
@@ -566,7 +566,7 @@
         "providence-day:pipeline.roster[69].sport",
         "providence-day:pipeline.roster[70].sport",
         "charlotte-latin:pipeline.roster[11].sport",
-        "cannon:pipeline.roster[10].sport",
+        "cannon:pipeline.roster[9].sport",
         "cannon:pipeline.roster[13].sport",
         "cannon:pipeline.roster[14].sport",
         "cannon:pipeline.roster[15].sport",
@@ -588,15 +588,15 @@
         "providence-day:pipeline.roster[44].sport",
         "providence-day:pipeline.roster[75].sport",
         "charlotte-latin:pipeline.roster[41].sport",
-        "charlotte-latin:pipeline.roster[53].sport",
-        "charlotte-latin:pipeline.roster[59].sport",
+        "charlotte-latin:pipeline.roster[56].sport",
+        "charlotte-latin:pipeline.roster[62].sport",
         "charlotte-country-day:pipeline.roster[3].sport",
         "charlotte-country-day:pipeline.roster[29].sport",
         "charlotte-country-day:pipeline.roster[30].sport",
         "charlotte-country-day:pipeline.roster[46].sport",
         "charlotte-country-day:coaching.tenure[4].role",
         "cannon:pipeline.roster[5].sport",
-        "cannon:pipeline.roster[9].sport",
+        "cannon:pipeline.roster[10].sport",
         "cannon:pipeline.roster[11].sport",
         "cannon:pipeline.roster[19].sport",
         "cannon:pipeline.roster[20].sport",
@@ -646,7 +646,7 @@
         "charlotte-latin:pipeline.roster[20].sport",
         "charlotte-latin:pipeline.roster[26].sport",
         "charlotte-latin:pipeline.roster[30].sport",
-        "charlotte-latin:pipeline.roster[58].sport",
+        "charlotte-latin:pipeline.roster[61].sport",
         "charlotte-christian:pipeline.roster[6].sport",
         "charlotte-christian:pipeline.roster[7].sport",
         "charlotte-christian:pipeline.roster[12].sport",
@@ -703,9 +703,9 @@
         "providence-day:pipeline.roster[52].sport",
         "charlotte-latin:pipeline.roster[28].sport",
         "charlotte-latin:pipeline.roster[29].sport",
-        "charlotte-latin:pipeline.roster[48].sport",
-        "charlotte-latin:pipeline.roster[49].sport",
-        "charlotte-latin:pipeline.roster[54].sport",
+        "charlotte-latin:pipeline.roster[51].sport",
+        "charlotte-latin:pipeline.roster[52].sport",
+        "charlotte-latin:pipeline.roster[57].sport",
         "charlotte-country-day:pipeline.roster[21].sport",
         "davidson-day:pipeline.roster[4].sport",
         "davidson-day:pipeline.roster[5].sport"
@@ -1850,7 +1850,7 @@
       "at": [
         "charlotte-latin:pipeline.roster[35].sport",
         "charlotte-latin:pipeline.roster[40].sport",
-        "charlotte-latin:pipeline.roster[52].sport",
+        "charlotte-latin:pipeline.roster[55].sport",
         "charlotte-country-day:pipeline.roster[15].sport",
         "charlotte-country-day:pipeline.roster[18].sport",
         "charlotte-country-day:pipeline.roster[19].sport",
@@ -1863,10 +1863,26 @@
       ]
     },
     {
+      "t": "Dance",
+      "of": "ca0fab3c",
+      "at": [
+        "charlotte-latin:pipeline.roster[44].sport",
+        "charlotte-latin:pipeline.roster[45].sport"
+      ]
+    },
+    {
+      "t": "Cheer",
+      "of": "5030fcea",
+      "at": [
+        "charlotte-latin:pipeline.roster[46].sport",
+        "charlotte-country-day:pipeline.roster[47].sport"
+      ]
+    },
+    {
       "t": "Tennis",
       "of": "622705c2",
       "at": [
-        "charlotte-latin:pipeline.roster[50].sport",
+        "charlotte-latin:pipeline.roster[53].sport",
         "charlotte-christian:pipeline.roster[19].sport",
         "charlotte-catholic:pipeline.roster[51].sport",
         "charlotte-country-day:pipeline.roster[22].sport",
@@ -1881,8 +1897,8 @@
       ]
     },
     {
-      "t": "P4 = SEC · Big Ten · ACC · Big 12. Tres firmantes de la promoción de 2025 con equipos universitarios de danza y cheer se cuentan en el embudo pero no figuran en la lista, porque ninguno de los dos es un deporte patrocinado por la NCAA. Las filas de la promoción de 2027 son compromisos verbales públicos y figuran porque ya se han anunciado. Estas filas no se cuentan en el embudo, en las barras por deporte ni en las filas de Power 4 y de División I hasta que esos deportistas firmen.",
-      "of": "a9439344",
+      "t": "P4 = SEC · Big Ten · ACC · Big 12. La etiqueta Otro señala a los tres firmantes de la promoción de 2025 con equipos universitarios de danza y cheer. Ninguno de los dos es un deporte de la NCAA, así que cuentan en el total del embudo pero no en los recuentos de División I ni de Power 4. Las filas de la promoción de 2027 son compromisos verbales públicos y figuran porque ya se han anunciado. Estas filas no se cuentan en el embudo, en las barras por deporte ni en las filas de Power 4 y de División I hasta que esos deportistas firmen.",
+      "of": "2780719f",
       "at": [
         "charlotte-latin:pipeline.rosterNote"
       ]
@@ -3545,8 +3561,8 @@
       ]
     },
     {
-      "t": "La cifra de 1000+ es el recuento histórico del propio centro. No se limita a estas tres promociones, por lo que abarca un periodo de años distinto del de las filas de abajo. Las tres promociones de abajo son un mínimo documentado. CCHS celebra jornadas de firma separadas en otoño, invierno y primavera y no publica una lista combinada. Por eso los deportistas aparecen aquí en cuanto un artículo de firmas, una lista de firmas de un periódico o la plantilla de la propia universidad los nombra.",
-      "of": "ae21f627",
+      "t": "La cifra de 1000+ es el recuento histórico del propio centro. No se limita a estas tres promociones, por lo que abarca un periodo de años distinto del de las filas de abajo. CCHS celebra jornadas de firma separadas en otoño, invierno y primavera y no publica una lista combinada. Por eso los deportistas aparecen aquí en cuanto un artículo de firmas, una lista de firmas de un periódico o la plantilla de la propia universidad los nombra. El recuento real puede ser mayor.",
+      "of": "c3cd58f9",
       "at": [
         "charlotte-catholic:pipeline.funnelNote"
       ]
@@ -4376,8 +4392,8 @@
       ]
     },
     {
-      "t": "Este sitio añadió las etiquetas de nivel y las conferencias según el estatus NCAA de cada universidad. Estas etiquetas no figuran en la lista publicada por el centro. P4 = SEC · Big Ten · ACC · Big 12.",
-      "of": "8d6c1401",
+      "t": "Este sitio añadió las etiquetas de nivel y las conferencias. Estas etiquetas no figuran en la lista publicada por el centro. P4 = SEC · Big Ten · ACC · Big 12. La etiqueta Otro señala a una firmante de cheer universitario. El cheer no es un deporte de la NCAA, así que ella cuenta en el total del embudo pero no en los recuentos de División I ni de Power 4.",
+      "of": "f5c2d1a8",
       "at": [
         "charlotte-country-day:pipeline.rosterNote"
       ]
@@ -5078,8 +5094,8 @@
       ]
     },
     {
-      "t": "Las filas de la promoción de 2027 son compromisos verbales públicos y figuran porque ya se han anunciado. Estas filas no se cuentan en el embudo, en las barras por deporte ni en la página Comparar hasta que esos deportistas firmen. El junior college de Evan Ingram figura en el nivel D3, porque esta tabla no tiene nivel NJCAA. Desde entonces, tres deportistas han cambiado de universidad: Austin Swartz de Miami a Creighton, Hayes Galloway de North Carolina a Clemson y Jake Baker de East Carolina a Western Carolina. Galloway se incorporó a Clemson como preferred walk-on. La lista muestra la universidad con la que cada uno se comprometió al salir de Cannon.",
-      "of": "38282f26",
+      "t": "Las filas de la promoción de 2027 son compromisos verbales públicos y figuran porque ya se han anunciado. Estas filas no se cuentan en el embudo, en las barras por deporte ni en la página Comparar hasta que esos deportistas firmen. JUCO = junior college, una universidad de dos años. Desde entonces, tres deportistas han cambiado de universidad: Austin Swartz de Miami a Creighton, Hayes Galloway de North Carolina a Clemson y Jake Baker de East Carolina a Western Carolina. Galloway se incorporó a Clemson como preferred walk-on. La lista muestra la universidad con la que cada uno se comprometió al salir de Cannon.",
+      "of": "8a1254f4",
       "at": [
         "cannon:pipeline.rosterNote"
       ]
@@ -5740,8 +5756,8 @@
       ]
     },
     {
-      "t": "Son mínimos documentados. Proceden de los propios artículos de firmas del colegio, que nombran a cada firmante de las promociones de 2024–26. También proceden de las listas Lions Beyond CDS de exalumnos que juegan en la universidad, que publica la página de cada equipo. Elijah Green ’24 figura según el roster de William Peace. La afirmación acumulada del colegio es de 175+ deportistas universitarios desde 2006.",
-      "of": "057e492c",
+      "t": "Estos recuentos proceden de los propios artículos de firmas del colegio, que nombran a cada firmante de las promociones de 2024–26. También proceden de las listas Lions Beyond CDS de exalumnos que juegan en la universidad, que publica la página de cada equipo. Elijah Green ’24 figura según el roster de William Peace. El recuento real puede ser mayor. La afirmación acumulada del colegio es de 175+ deportistas universitarios desde 2006.",
+      "of": "c7ab03f0",
       "at": [
         "covenant-day:pipeline.funnelNote"
       ]
@@ -5770,8 +5786,8 @@
       ]
     },
     {
-      "t": "Compilado a partir de los propios artículos de firmas de Lions News del colegio (de septiembre de 2024 a abril de 2026) y de sus listas de exalumnos Lions Beyond CDS. Cada fila muestra la universidad a la que fue el deportista al salir de Covenant Day. Grant Gardner firmó con Davidson y se matriculó en Appalachian State. Chris Rivens firmó con Guilford para baloncesto y se incorporó al roster de fútbol americano de UNC Charlotte. Este sitio confirmó los niveles y las conferencias de cada universidad. Los tres firmantes con junior colleges figuran en el nivel D3, porque esta tabla no tiene nivel NJCAA. Desde su ingreso, Emily Eaton se ha transferido de Louisville a Virginia, también en la ACC. Michael Marcus Jr se ha transferido de Appalachian State a George Mason.",
-      "of": "2ad56bcd",
+      "t": "Compilado a partir de los propios artículos de firmas de Lions News del colegio (de septiembre de 2024 a abril de 2026) y de sus listas de exalumnos Lions Beyond CDS. Cada fila muestra la universidad a la que fue el deportista al salir de Covenant Day. Grant Gardner firmó con Davidson y se matriculó en Appalachian State. Chris Rivens firmó con Guilford para baloncesto y se incorporó al roster de fútbol americano de UNC Charlotte. Este sitio confirmó los niveles y las conferencias de cada universidad. JUCO = junior college, una universidad de dos años. Desde su ingreso, Emily Eaton se ha transferido de Louisville a Virginia, también en la ACC. Michael Marcus Jr se ha transferido de Appalachian State a George Mason.",
+      "of": "ff4648a7",
       "at": [
         "covenant-day:pipeline.rosterNote"
       ]
@@ -6878,8 +6894,8 @@
       ]
     },
     {
-      "t": "La mayoría de los firmantes de Carmel llegan a las Divisiones II y III de la NCAA. Béisbol: Lander, USC Aiken, Bluefield State y Ferrum. Baloncesto: Fayetteville State y Johnson & Wales, y WVU Tech en la NAIA. Golf: North Greenville y Randolph-Macon. Voleibol: Winston-Salem State. El tenis es la segunda vía del programa, con seis firmantes en las clases de 2024 y 2025, desde la SEC hasta Johns Hopkins. La lista de la escuela también incluye un firmante del equipo de danza, que aquí no se cuenta como compromiso deportivo.",
-      "of": "66a7cdbf",
+      "t": "La mayoría de los firmantes de Carmel llegan a las Divisiones II y III de la NCAA. Béisbol: Lander, USC Aiken, Bluefield State y Ferrum. Baloncesto: Fayetteville State y Johnson & Wales, y WVU Tech en la NAIA. Golf: North Greenville y Randolph-Macon. Voleibol: Winston-Salem State. El tenis es la segunda vía del programa, con seis firmantes en las clases de 2024 y 2025, desde la SEC hasta Johns Hopkins. La lista de la escuela también incluye un firmante de un equipo universitario de danza. Carmel no tiene equipo de danza varsity, así que esa firma no se cuenta ni figura aquí.",
+      "of": "353989b7",
       "at": [
         "carmel-christian:pipeline.realityCheck"
       ]
@@ -7186,15 +7202,15 @@
       ]
     },
     {
-      "t": "El béisbol, el programa detrás de dos de los títulos estatales recientes de HGCS, reúne seis de los siete compromisos. Esos compromisos llegan a la Division II en Wingate y Mars Hill y al junior college en Gaston College, además de a programas de Division I. El colegio no publica ninguna lista de firmas de todos los deportes, por lo que el recuento es un mínimo documentado.",
-      "of": "529d9302",
+      "t": "El béisbol, el programa detrás de dos de los títulos estatales recientes de HGCS, reúne seis de los siete compromisos. Esos compromisos llegan a la Division II en Wingate y Mars Hill y al junior college en Gaston College, además de a programas de Division I. El colegio no publica ninguna lista de firmas de todos los deportes, por lo que el recuento real puede ser mayor.",
+      "of": "77a50462",
       "at": [
         "hickory-grove-christian:pipeline.realityCheck"
       ]
     },
     {
-      "t": "Cada fila es la universidad a la que fue el deportista al salir de Hickory Grove, tal como figura en la plantilla de esa universidad. P4 = SEC · Big Ten · ACC · Big 12. El junior college de Colby Vanhook figura en el nivel D3, porque esta tabla no tiene nivel NJCAA.",
-      "of": "eeeb3526",
+      "t": "Cada fila es la universidad a la que fue el deportista al salir de Hickory Grove, tal como figura en la plantilla de esa universidad. P4 = SEC · Big Ten · ACC · Big 12. JUCO = junior college, una universidad de dos años.",
+      "of": "49c0ac13",
       "at": [
         "hickory-grove-christian:pipeline.rosterNote"
       ]
@@ -7532,8 +7548,8 @@
       ]
     },
     {
-      "t": "El voleibol, el programa de Gaston Day con títulos estatales, aportó los dos compromisos de Division I. Braylen Todd (’26) pasó a jugar al baloncesto en Johnson & Wales, en Charlotte. El colegio no publica ninguna lista de firmas ni anuncios del día de firma, por lo que el recuento es un mínimo documentado. Bree Smith (’27), especialista en 50 y 100 libres, se ha comprometido a nadar en Stanford.",
-      "of": "dcc6cea1",
+      "t": "El voleibol, el programa de Gaston Day con títulos estatales, aportó los dos compromisos de Division I. Braylen Todd (’26) pasó a jugar al baloncesto en Johnson & Wales, en Charlotte. El colegio no publica ninguna lista de firmas ni anuncios del día de firma, por lo que el recuento real puede ser mayor. Bree Smith (’27), especialista en 50 y 100 libres, se ha comprometido a nadar en Stanford.",
+      "of": "764c3c07",
       "at": [
         "gaston-day:pipeline.realityCheck"
       ]
