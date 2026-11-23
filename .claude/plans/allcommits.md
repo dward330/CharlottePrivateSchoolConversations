@@ -1,7 +1,7 @@
 ---
 name: allcommits
 title: "College commits (all levels)" Compare row, counted-means-listed (dance/cheer listed as Other), JUCO tag, plain floor wording, /athlete-commits maintains it
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-22
 branch: feat/allcommits
@@ -777,3 +777,74 @@ of reviewed `t`, one agent per locale in a private directory, central validation
   English review.
 - **Is "junior colleges" in the sub-heading OK?** The user asked for D I–III + NAIA. **Default:**
   include it, because without it the note is untrue for three schools; ask at the review.
+
+## Implementation notes
+
+### Phase 1 — English (2026-11-23, branch `feat/allcommits`)
+
+Built as planned from `c4a9c9eb`. `consistency5` was merged (no `conf: 'USCAA'`), and step 1's
+re-derivation matched the Context table exactly (Charlotte Christian D1 36). Open questions ran
+on their defaults: Latin's tips have no "may be higher" clause, and the sub-heading names
+junior colleges.
+
+Deviations and choices:
+
+- **Step 0b capture.** The capture script now turns card links on for any non-area page, so the
+  Compare capture needs `--card-links off`. The project stores file names with a plain hyphen,
+  so the file is `Compare Schools - Sports.dc.html`, not "—". Another session's preview held
+  port 4173, so captures ran against a copy of `dist` on another port (`--base`).
+- **Step 1c/1d ingest ran in an isolated tree** (a `git archive` of the branch plus the raw
+  PDFs, the redaction list and the edited records). Other sessions had uncommitted edits in
+  four sports Redesign Research files and Carmel's Cup standings, and a plain run would have
+  baked them into the notes. Only the changed schools' notes and content chunks were copied
+  back. Date-only notes were dropped, and `schools.json` was a pure reorder, so HEAD order was kept.
+- **Two tips split for the 30-word limit** (the hook would have flagged them): Covenant Day's
+  and Hickory Grove's D1 tips. The facts are the same as the plan's drafts.
+- **Latin tip wording:** the plan's draft "academically strong" replaced the live "academically
+  heavy".
+- **Step 13 re-capture.** The Sports file was re-captured with the two existing Winning Record
+  extras, plus a labelled block holding one real JUCO, NAIA and Other roster row taken from the
+  built pages. A whole-pipeline `--extra` failed twice. The capture trims a roster to its first 6
+  rows, so the rows that matter were cut. Two extra pipeline cards also made the file 96 KB,
+  over the largest proven write.
+- **Added mid-build, user 2026-11-23: the roster runs newest class first.** `CollegePipelineBody`
+  now sorts by class (newest first, so the Class of 2027 verbals lead), then by level within a
+  class (P4 → D1 → D2 → D3 → NAIA → JUCO → Other). This fixes all 11 schools, including Covenant
+  Day's oldest-first order. No data or translation change. It was designed in *Sports Section
+  Redesign* first, then built and re-captured. The skill's handoff convention now says
+  "newest class first". This came after both review passes, so it is **fixed, not re-reviewed**.
+- **No PR at the English stop.** Plan step 14 says to open one. `/implement` step 6 keeps both
+  phases in one PR, opened after Phase 2.
+
+Verification: `tsc -b` clean. `npm run build` stops only at the expected English-first
+`check:live` (stale stamps on the reworded units, Phase 2). Every later gate exits 0 on its own:
+chrome, runtime, moneytext, dates, spans, news, photos and cardlink. check:consistency (with
+both negative tests), schema, spelling, quals, plain, flags, matrices, sportsmatrix and cup all
+pass. `coverage:floor`: 46 rows, Davidson Day 34/46 (73%). Browser (headless Playwright): the
+row order, the 11 values, the PD leader tint, no tips on the new row, and AT LEAST on the commit
+tips and on the ensembles, bucket and us-organizations tips. Other is 3 + 1 rows (Latin 64,
+CCD 48), and the D1/P4 tabs exclude it. JUCO sits after D3 and NAIA. All 11 rosters run newest
+class first. `audit:mobile`: no broken card and no page overflow. Compare's phone-width overflow
+(1,240px) is the same on `main`.
+
+### Adversarial review 2026-11-23
+
+- **Pass 1:** 8 found, 5 confirmed, 3 rejected, 4 fixed, 1 declined.
+  - #1 (R2) should-fix, Carmel's dance signee excluded for a reason the plan reverses: **fixed**.
+    The skill Hard constraint and the schema rule now say an Other row needs the school to field
+    that sport at varsity. Carmel's realityCheck is reworded, its record has dated notes, and
+    Carmel is re-ingested.
+  - #2 (R3) should-fix, Covenant Day "names every signee" and then "may be higher": **declined
+    by developer**.
+  - #3 (R4) minor, the skill docs named only the P4 and D1 window rows: **fixed**.
+  - #4 (R5) minor, CCD's rosterNote said its labels come "from each college's NCAA status":
+    **fixed**.
+  - #5 (R7) minor, the CLAUDE.md floor history sentence: **fixed**.
+  - R1 step 13 not done: **rejected**, sequenced after the review on purpose. R6 R8 noise:
+    **rejected**, report-only false positives. R8 no notes yet: **rejected**, written here.
+- **Pass 2 (on `5829ad3b..0effd3f3`):** 2 found, 2 confirmed, 0 fixed, 2 declined.
+  - #1 (R1) should-fix, the varsity condition is missing from the skill's Step 4 and its
+    SKILLS.md row: **declined by developer (open)**.
+  - #2 (R2) minor, Carmel's record still gives the old reason under the new note: **declined by
+    developer (open)**.
+- **Fixed, not re-reviewed:** the newest-class-first roster sort (`7511268d`).

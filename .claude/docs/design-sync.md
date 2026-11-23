@@ -410,8 +410,13 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Arts Sect
 # then relabel the extra with what it shows (plan consistency5)
 
 # Sports Section Redesign
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Sports Section Redesign' '--out' <out> '--refs' 'Providence Day + Carmel Christian'\''s and Hickory Grove'\''s Winning Record cards (their per-school matrix headings)' '--sha' 'ac5ac3bf' '--area' 'sports' '--extra' 'carmel-christian:sports/winning-record,hickory-grove-christian:sports/winning-record'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Sports Section Redesign' '--out' <out> '--refs' 'Providence Day + Carmel Christian'\''s and Hickory Grove'\''s Winning Record cards (their per-school matrix headings)' '--sha' '7511268d' '--area' 'sports' '--extra' 'carmel-christian:sports/winning-record,hickory-grove-christian:sports/winning-record'
 # then relabel each extra with what it shows (plan consistency4)
+# then append one JUCO, one NAIA and one Other roster row (Hickory Grove, Covenant Day,
+# Charlotte Latin) from the built pipeline cards as a labelled block, 247 rank cells dropped
+# (plan allcommits). An --extra of a whole pipeline card does not work: the capture trims a
+# roster to its first 6 rows (now the Class of 2027), and two extra cards put the file at
+# 96 KB, over the largest proven write.
 
 # College Support Section Redesign
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'College Support Section Redesign' '--out' <out> '--refs' 'Providence Day + Gaston Day'\''s and Covenant Day'\''s Transcript cards (their merit-table column headers)' '--sha' '69ff78d3' '--area' 'college-support' '--extra' 'gaston-day:college-support/the-transcript-colleges-see,covenant-day:college-support/the-transcript-colleges-see'
@@ -574,3 +579,10 @@ The same table is in the design project as `As Built - Index.md`.
 | Canvas | empty, untouched |
 
 All captured files: `main` at `ff5ab214`, captured 2026-11-20.
+
+**Plan `allcommits` (2026-11-23): two approved UX changes, designed here first.** A new file,
+*Compare Schools - Sports*, mocked the College commits (all levels) row and the AT LEAST tip
+heading, and *Sports Section Redesign* mocked JUCO and Other roster rows and, after the user
+asked for it mid-build, the newest-class-first roster order. Both files were then
+re-captured from commit `7511268d` (after the adversarial review) and verified byte for
+byte: Compare Schools - Sports (72,010 bytes) and Sports Section Redesign (79,839 bytes).
