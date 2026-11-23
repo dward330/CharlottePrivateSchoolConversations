@@ -141,45 +141,102 @@ reported as a pass is worse than no check. If the change touches rendering, the 
 should have asked for a browser check; this repo's record is that render-layer defects
 survive every automated check, so do it rather than reasoning that it's fine.
 
-### 5b. Adversarial review — closing-loop plans only
+### 5b. Adversarial review — every plan
 
-**Applies when** the plan's front matter has `closing_loop: consistency-self-scan` (or, for a
-plan written before that field existed, its name is `consistency<N>`). Skip otherwise.
+**When:** Phase 1 only, after step 5 passes. For a two-phase plan it runs before the step 6
+English stop; for a single-phase plan, before step 8's PR. **Phase 2 is not reviewed**:
+translation has its own checks (`check:runtime`, `check:digits`, `i18n:leaks` …).
 
-After step 5 passes, and before the English goes back to the user:
+It is never skipped on your own judgment, small plans included. The developer may say "skip
+the review" at that moment; record "skipped by developer" in the plan's Implementation notes
+and the report. A plan written before this step existed may list its own review step: run 5b
+once, treat that plan step as satisfied by it, and note it.
 
-1. Build the branch and dump its pages:
+**Brief:** a closing-loop plan (front matter `closing_loop: consistency-self-scan`, or, for a
+plan written before that field existed, a name `consistency<N>`) uses
+[`../consistency-self-scan/review.md`](../consistency-self-scan/review.md) with its worklist
+and a before-dump. Every other plan uses [`review.md`](review.md) in this skill.
+
+**Pass 1**
+
+1. **Commit** the Phase 1 work, staging explicit paths, and note the SHA as *the commit
+   reviewed*. The reviewer reads `git diff main...<branch>`, which shows nothing uncommitted.
+2. **Dumps.** If `git diff --name-only main...HEAD` touches `src/`, `public/` or `index.html`,
+   run `npm run build`, `mkdir -p <scratchpad>/pages-after`, then
    `python3 -I .claude/skills/consistency-self-scan/dump_pages.py dist/school <scratchpad>/pages-after`.
-2. Fill [`.claude/skills/consistency-self-scan/review.md`](../consistency-self-scan/review.md)
-   into the scratchpad (plan, worklist, branch, the two dump folders, an output path) and spawn
-   **one fresh `general-purpose` agent** on it. Give it those paths only, never your own
-   summary of what you fixed: its job is to prove the work wrong, and a reviewer handed a
-   conclusion tends to confirm it.
-3. Verify every finding yourself against the dump and the diff. Fix the real ones on the
-   branch and re-run the affected checks. Reject the rest with a one-line reason.
-4. **Second pass on the fixes — whenever step 3 changed anything** (user, 2026-11-22). A fix
-   is new text that no reviewer has read, and new text is where this project's defects come
-   from: round 2 shipped "10 academic" where the list held 9. Commit the fixes, rebuild,
-   re-dump, then spawn **one more fresh agent** on `review.md` in its *second-pass* mode. Give it
-   the fix diff (`git diff <commit reviewed>..HEAD`), the first pass's findings file and the
-   new dump, and record each finding as fixed or rejected in the findings file before you
-   spawn. It checks only that each fix is right and caused no second-card conflict, which is
-   far cheaper than a full review. Handle its findings as in step 3.
-   **The loop is capped at two passes.** An adversarial reviewer is told to assume something
-   is wrong, so "loop until it comes back empty" can fail to converge, drifting into wording
-   preferences and re-raised rejections. After the second pass, fix what is real and stop.
-   Anything left goes in the hand-back as an open item for the user's English review. Skip the
-   second pass when the first found nothing real or every fix was a pure deletion. The rescan
-   in step 10 is the backstop for anything both passes miss.
-5. Record the result in the plan's `## Implementation notes` (found / fixed / rejected, per
-   pass), and put the same counts in the Phase 1 hand-back.
+   Otherwise pass "none" (a skill-, script- or doc-only plan). The dumps hold school pages only,
+   not Compare.
+3. **Spawn** the filled brief (in the scratchpad: plan, branch, dump folder, an output path,
+   plus the worklist and before-dump for the consistency brief) on **one fresh
+   `general-purpose` agent**. Give it those paths only, never your own summary of what you
+   built or fixed: its job is to prove the work wrong, and a reviewer handed a conclusion tends
+   to confirm it.
+4. **Verify** every finding yourself against the diff and the dumps, and set or correct its
+   severity: `must-fix` (wrong or broken: a wrong figure, a plan step that did not land, a
+   page contradiction, a build or house-rule breach), `should-fix` (a house-rule or clarity
+   problem that is not wrong) or `minor`. The consistency brief has no severity column, so you
+   set it there. Reject each false positive with a one-line reason. Rejected findings are
+   listed, never asked about, so the question is not padded with noise.
+5. **Ask the developer which confirmed findings to fix.**
+   - **0 confirmed:** no question. Say "the review found nothing to fix", with the rejected
+     count.
+   - **1–16 confirmed:** print the full table first: number, severity, one-line problem,
+     where, suggested fix. Then sort by severity (must-fix first) and cut into **chunks of 4**,
+     one `multiSelect: true` question per chunk, all in **one** `AskUserQuestion` call. Never
+     make a question per severity group: 5 + 5 + 5 findings would need six questions, and the
+     limit is four. Option label: `#<n> <≤4-word gist>`; description: severity, the problem and
+     the suggested fix. Header (12 characters at most): "Fix 1–4", "Fix 5–8" and so on. A
+     question needs at least two options, so a last chunk of one gets a second option,
+     "Don't fix".
+   - **More than 16:** print the table, then ask one single-select question: "Fix all
+     must-fix", "Fix all confirmed", "Fix none" (Other is added automatically: "type the
+     numbers").
+   - **Outside the plan's scope:** a fix that would go beyond the plan says so in its option
+     description ("outside the plan's scope"), since the plan is the scope (step 4).
+   - **`AskUserQuestion` unavailable** (a non-interactive run): print the table, fix nothing,
+     and end the turn asking for the numbers in text.
+6. **Fix only the picked findings** on the branch. Re-run the checks the fixes touch, then
+   step 5's verification for the affected area. Declined findings are recorded, not fixed.
+
+**Pass 2, on the fixes** (user, 2026-11-22)
+
+7. A fix is new text that no reviewer has read, and new text is where this project's defects
+   come from: round 2 shipped "10 academic" where the list held 9. So run a second pass
+   whenever pass 1 led to a fix. **Skip it** only when nothing was fixed (none confirmed, or all
+   declined), when every fix was a pure deletion, or when the developer says to skip it, and
+   record which. Otherwise:
+   - mark every pass-1 finding fixed, declined by the developer, or rejected (with its reason)
+     in the findings file;
+   - commit the fixes;
+   - if sub-step 2 made dumps, rebuild and re-dump into a new folder, `pages-after-2`;
+   - spawn **one more fresh agent** on the same brief in its *second-pass* mode. Give it the fix
+     diff (`git diff <commit reviewed>..HEAD`), the findings file and the new dump. It checks
+     only that each fix is right and caused no second-place conflict, which is far cheaper
+     than a full review;
+   - **verify, ask and fix exactly as in sub-steps 4–6.** The developer picks here too.
+8. **Stop at two passes. There is never a third.** An adversarial reviewer is told to assume
+   something is wrong, so "loop until it comes back empty" can fail to converge, drifting into
+   wording preferences and re-raised rejections. Fixes made after pass 2 are listed as **"fixed,
+   not re-reviewed"**, and anything declined in either pass as **"open"**, in the hand-back
+   (two-phase) or the final report and PR body (single-phase). For a closing-loop plan the
+   step 10 rescan is the backstop for anything both passes miss. Other plans have none, which
+   is why those two lists must be reported.
+
+**After the passes**
+
+9. **Record** under the plan's `## Implementation notes` → `### Adversarial review <date>`:
+   the counts per pass (found, confirmed, rejected, fixed, declined) and one line per finding
+   with its outcome (fixed / declined by developer / rejected: reason). Never write a student's
+   name there; give the file and line and `[name withheld]`. Commit it. The same counts go in
+   the Phase 1 hand-back (or the single-phase report) and in the PR body.
 
 This runs before the user's review, not after Phase 2, because a defect caught in English is
 one fix and the same defect caught after translation is ten.
 
 ### 6. STOP — hand the English version back for review
 
-**Single-phase plan?** Skip to step 8 (commit and PR) — there is no Phase 2 and no gate.
+**Single-phase plan?** Skip to step 8 (commit and PR), after step 5b — there is no Phase 2
+and no gate.
 
 **Two-phase plan: commit Phase 1 to the branch, then end the turn.** Do not open the PR
 and do not start translating. Both phases land in one PR, so the branch stays open across
@@ -196,6 +253,10 @@ Then report, and make the ask concrete:
 > <what changed, and where to look at it — the page, the route, the command to run>
 >
 > Verification: <results>
+>
+> Review: pass 1 — <found> found, <confirmed> confirmed, <fixed> fixed, <declined> declined,
+> <rejected> rejected; pass 2 — <same, or which skip rule applied>.
+> Fixed, not re-reviewed: <list, when any>. Open: <declined findings, when any>.
 >
 > Nothing is translated yet. Once you're happy with the English wording, say the word and
 > I'll roll it out to the other <N> locales.
@@ -279,7 +340,8 @@ Two things a fresh window gets wrong here:
 
 Commit with a message describing the change (not "implement plan X"), referencing the plan
 document. Push and open a PR with `gh pr create`, whose body summarizes what shipped,
-links the plan, and lists the verification results.
+links the plan, and lists the verification results, the review tally per pass (step 5b) and
+any "fixed, not re-reviewed" or "open" items.
 
 Standing permission covers squash-merging and deleting the branch on your own PRs, then
 checking out `main` and pulling. **Never deploy** — `npm run deploy` is the user's call,
@@ -312,10 +374,11 @@ out and why, and any suggestion you deliberately kept out of the diff.
 
 ### 10. Rescan — closing-loop plans only
 
-**Applies when** step 5b applied. After the merge and `git pull` on `main`, run the
-`consistency-self-scan` skill in this window. It picks RESCAN mode by itself, because this plan
-is now *Implemented*, and checks every row of the round you just shipped before sweeping for
-anything new. No deploy is needed: it scans the `main` build. Deploying stays the user's call.
+**Applies to closing-loop plans only** (front matter `closing_loop: consistency-self-scan`,
+or a name `consistency<N>`), the ones step 5b gave the consistency brief. After the merge and
+`git pull` on `main`, run the `consistency-self-scan` skill in this window. It picks RESCAN
+mode by itself, because this plan is now *Implemented*, and checks every row of the round you
+just shipped before sweeping for anything new. No deploy is needed: it scans the `main` build. Deploying stays the user's call.
 
 The skill ends with a verdict. **Clean**: say the round is clean and stop. **Not clean**: it
 reports what is left, says how many findings this round's own fixes caused, recommends the

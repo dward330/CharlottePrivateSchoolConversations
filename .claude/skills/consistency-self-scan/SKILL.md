@@ -246,9 +246,11 @@ gives the worklist path, the approvals and decisions to surface at planning time
 precedents to follow: the `## Implementation notes` of `consistency` and `consistency2` (how
 B items were attributed, how chrome overrides and card-link aliases were handled). The plan is
 **two-phase** whenever a fix touches English prose or chrome, as almost every round does.
-Tell `/plan` to put **`closing_loop: consistency-self-scan`** in the plan's front matter and to
-end its Steps with the two closing-loop steps below (the adversarial review at the end of
-Phase 1, and the rescan after the merge). `/implement` keys on that field. `/plan` then hands
+Tell `/plan` to put **`closing_loop: consistency-self-scan`** in the plan's front matter.
+`/implement` keys on that field: it selects this skill's review brief for the adversarial
+review at the end of Phase 1 and adds the rescan after the merge (the two closing-loop steps
+below). The plan does not list either as a step of its own: `/implement` runs both, so a listed
+step would run twice. `/plan` then hands
 off to `/implement` as usual.
 
 If the user declines to plan, write **"Held off by the user <date>"** at the top of
@@ -277,8 +279,11 @@ dumps of the branch build, and **not** the implementer's own summary, because a 
 a conclusion tends to confirm it. Its job is to prove the work wrong: an ID that did not land,
 the second card still showing the old value, a fix with its own error, collateral damage, a
 house-rule breach, a UX change that does not match its Claude Design file. The implementer
-verifies every finding against the dump and the diff, fixes the real ones on the branch, and
-reports the count (found, fixed, rejected with the reason) in the Phase 1 hand-back. It runs
+verifies every finding against the dump and the diff, rejects false positives with a reason,
+asks the developer which confirmed findings to fix (`/implement` step 5b), fixes those, and
+reports the count per pass (found, confirmed, fixed, declined, rejected) in the Phase 1
+hand-back. When anything was fixed, a second pass checks only the fixes and asks the same way,
+capped at two passes. It runs
 before the user's wording review, not after Phase 2, because a defect caught in English is one
 fix, and caught after translation it is ten.
 

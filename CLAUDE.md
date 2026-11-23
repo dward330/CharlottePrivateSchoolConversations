@@ -39,6 +39,11 @@ code**; its only outputs are the plan document and the index row.
 unimplemented ones from the index and asks. It branches, builds the steps, runs the plan's
 verification, opens a PR, and flips the index row to *Implemented* with the PR link.
 
+**Every implementation gets an adversarial review at the end of Phase 1.** `/implement`
+spawns a fresh agent that tries to prove the work wrong, verifies its findings, and asks
+you which to fix. One second pass checks those fixes and asks again (never a third).
+Phase 2 is not reviewed. A plan never needs to list this step.
+
 The split is the point: the implementing window has **no memory of the planning
 conversation**, so anything decided while planning and not written into the document is
 lost. That is the bar a plan is written to.
@@ -1299,8 +1304,8 @@ a gate.
   `consistency2`). The gate sees only the shapes it was written for; **`/consistency-self-scan`**
   reads every page for the rest, diagnoses each conflict A/B/C/D against the live source and
   hands the worklist to `/plan`. Each round closes its own loop: `/implement` runs an
-  adversarial review before the English review and a rescan after the merge, and rounds repeat
-  until a rescan is clean or the user holds off. Each round so far has found fixes that landed
+  adversarial review before the English review (as it does for every plan) and a rescan after
+  the merge, and rounds repeat until a rescan is clean or the user holds off. Each round so far has found fixes that landed
   in one card and missed the card restating them.
 - **Data sources list their dependents: `scripts/data_dependents.json`.** A PostToolUse
   hook (`scripts/notify_dependents.mjs --hook`) prints, once per session, everything built
