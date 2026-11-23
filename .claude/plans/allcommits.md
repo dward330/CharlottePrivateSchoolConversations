@@ -1,11 +1,11 @@
 ---
 name: allcommits
 title: "College commits (all levels)" Compare row, counted-means-listed (dance/cheer listed as Other), JUCO tag, plain floor wording, /athlete-commits maintains it
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-22
 branch: feat/allcommits
-prs: []
+prs: [526]
 ---
 
 # "College commits (all levels)" on Compare, and "Documented minimum" retired
@@ -848,3 +848,35 @@ class first. `audit:mobile`: no broken card and no page overflow. Compare's phon
   - #2 (R2) minor, Carmel's record still gives the old reason under the new note: **declined by
     developer (open)**.
 - **Fixed, not re-reviewed:** the newest-class-first roster sort (`7511268d`).
+
+### Phase 2 — Locales (2026-11-23, PR #526)
+
+Run in a fresh window after the user approved the English. Built as planned:
+
+- **Re-splice by stamp.** `metric-values`: 900 kept, 23 added, 16 dropped per locale, which matches
+  the forecast: the label and note, 3 notes, `SENIORS_QUAL`, 3 shared and 9 per-row tips, and the 5
+  new cell values. `sports`: 1,041 kept, 12 added, 10 dropped. Number-only units carry `t = text`.
+- **Translation.** One agent per locale, each in a private scratch directory with a hardcoded
+  locale suffix. Each got a brief pairing every new unit with the dropped unit it replaced and that
+  unit's reviewed translation. Edits were minimal. Each locale uses one floor sentence throughout,
+  and the tag word in the Latin and CCD roster notes equals its `cardLabels.levelOther`. Applied
+  centrally. One central fix: `ar` had two versions of the Hickory Grove "no all-sport list"
+  sentence, now made the same.
+- **`Dance` / `Cheer` roster chips** stay English except in `ar`: bare roster sport names are a
+  ledgered identifier keep (memory `latincommits-shipped`). The plan left this open.
+- **Chrome.** "At least" is es *Al menos*, bn *অন্তত*, ht *Omwen*, te *కనీసం*, fr *Au moins*,
+  fa *دست‌کم*, it *Almeno*, hi *कम से कम*, ar *على الأقل*. The Other tag is *Otro*, *অন্যান্য*, *Lòt*,
+  *ఇతర*, *Autre*, *سایر*, *Altro*, *अन्य*, *أخرى*.
+- **Verification.**
+  - All 17,469 kept units are identical by stamp, and none is blank.
+  - These pass: runtime, live, chrome, dates, fr, bidi, fa, hi, currency, money, moneytext and
+    consistency.
+  - sepdrift and check_figures (both topics) exit 0 in all nine locales. check:digits compared
+    315 units, with 0 to review. i18n:leaks flags no new string. `tsc -b` and `npm run build` pass.
+  - Headless Chrome on Compare in es, fa and hi: the row order is right, the new row and the rows
+    after the insert render translated, and the tip heading is translated with no "documented"
+    left (es, fa, hi, ar).
+  - The Latin pipeline shows Other in es and ar, and Cannon shows JUCO in fr.
+- **Not run:** `check_work_integrity.mjs`. After a splice it always reports index-shift
+  "mutations", so the by-stamp diff above stands in for it.
+
