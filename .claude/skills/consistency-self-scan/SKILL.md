@@ -90,7 +90,7 @@ The finding-ID letter: round 1 used bare numbers (`LAT-13`), round 2 used `R` (`
 used `S` (`PD-S1`). Each later round takes the next letter (`T`, `U`, …).
 
 Tell the user in one line what will run: the mode, the name, the school groups, and that the
-sweep fans out up to four agents and takes a while. Then go. Typing the command is the
+sweep fans out up to eight agents and takes a while. Then go. Typing the command is the
 go-ahead; do not ask for further confirmation unless the table above says to stop.
 
 ## Step 1 — Preflight
@@ -145,18 +145,29 @@ node scripts/check_consistency.mjs --report > "$SCRATCH/r8.txt"
 
 ## Step 4 — Parallel sweeps
 
-**Groups.** Balance by page size (the dumps' byte counts). The default, used in rounds 2 and 3:
+**Groups.** Balance by page size (the dumps' byte counts). The default since round 8 (plan
+`scangroups`), balanced on the 2026-11-23 dump. Rounds 2–7 used four groups (`pd-ccd-cannon`,
+`latin`, `cc-cchs-cov-carmel`, `dd-gd-hg-k8`).
 
-| Group | Schools |
-|---|---|
-| `pd-ccd-cannon` | providence-day, charlotte-country-day, cannon |
-| `latin` | charlotte-latin |
-| `cc-cchs-cov-carmel` | charlotte-christian, charlotte-catholic, covenant-day, carmel-christian |
-| `dd-gd-hg-k8` | davidson-day, gaston-day, hickory-grove-christian, trinity-episcopal, charlotte-prep |
+| Group | Schools | KB (2026-11-23 dump) |
+|---|---|---|
+| `pd` | providence-day | 199 |
+| `ccd` | charlotte-country-day | 191 |
+| `latin` | charlotte-latin | 175 |
+| `cannon` | cannon | 170 |
+| `cc` | charlotte-christian | 166 |
+| `cchs-cov` | charlotte-catholic, covenant-day | 260 |
+| `dd-gd-car` | davidson-day, gaston-day, carmel-christian | 342 |
+| `hg-k8` | hickory-grove-christian, trinity-episcopal, charlotte-prep | 263 |
+
+The five largest pages each get an agent. The two K–8 schools stay together, because their shape
+(no College Support, no Compare rows) is a pattern of its own. `dd-gd-car` is the pace-setter, so
+a round that wants more speed splits it next.
 
 **Check that the groups cover every slug in `schools.json`.** A school added since this table
-goes to the group with the smallest total page bytes. Never leave a school out. Stay at four
-agents or fewer.
+goes to the group with the smallest total page bytes. Never leave a school out. Stay at eight
+agents or fewer. One agent per school costs 13 times the fixed reading and loses cross-school
+patterns.
 
 **Brief.** Copy `.claude/skills/consistency-self-scan/brief.md` to `"$SCRATCH/brief.md"` and fill
 every `{{PLACEHOLDER}}`: `NAME`, `MODE`, `SHA`, `DATE`, `PAGES`, `SCRATCH`, `ROUND_LETTER`,
@@ -179,6 +190,10 @@ Agents return confident summaries, and their mistakes read the same as their fin
    whose two values turn out to be the same fact, is dropped or corrected. Say how many.
 2. **Merge cross-school causes** into `X` rows. One cause at several schools is one finding, as
    the bars bug was in round 1 (six schools, one row).
+2a. **Look across groups.** For each new finding, grep its class (the phrase or value shape) in
+   the dumps of schools outside the group that raised it. A match is either an X row or a new
+   finding at that school. Eight groups see fewer schools each, and five see only one, so this
+   is the parent's job.
 3. **Check against the previous worklists.** A "new" finding that a prior round already holds
    is Part 1 material (REGRESSED), not new.
 3a. **Drop anything [`settled.md`](settled.md) lists**, whichever agent raised it and whatever
@@ -195,7 +210,8 @@ Agents return confident summaries, and their mistakes read the same as their fin
 4. **Write the worklist folder** `.claude/plans/<name>-data/`:
    - each agent's file, copied as-is;
    - `r8.txt`, so the next rescan can diff it;
-   - `findings.md`: header (date, mode, SCANNED_SHA, groups, the previous round it rescans),
+   - `findings.md`: header (date, mode, SCANNED_SHA, groups with each sweep's wall-clock time
+     beside its group, the previous round it rescans),
      Part 1 status counts per group, the merged new-findings table, a tally by category and
      school, the X rows, the approvals list (every UX-GATE and CHROME mark), the decisions the
      user must make (every B that needs an ask wording and every D), the rule candidates (below),
