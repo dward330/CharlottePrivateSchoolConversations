@@ -220,7 +220,7 @@ Rules for the table:
   the two as if they carried equal weight. Recompute these denominators from the schema doc
   rather than trusting the table — they move whenever a card or Compare row is added.
 
-  **Admissions contributes no Compare rows at all**, so it cannot move the ≥33/45 figure in
+  **Admissions contributes no Compare rows at all**, so it cannot move the ≥34/46 figure in
   either direction. A school can be perfect on Admissions and still fail the Compare bar,
   or vice versa — do not let a strong Admissions sweep read as progress toward it.
 - **Score against the cards the existing schools actually have, not every card that
@@ -265,14 +265,14 @@ a figure they doubt.
 #### The bar
 
 Two gates, both calibrated to **the thinnest school the project has judged worth
-shipping** — as of 2026-11-22 that is Davidson Day, at 33/45 Compare rows (73%) and 9 of
+shipping** — as of 2026-11-23 that is Davidson Day, at 34/46 Compare rows (73%) and 9 of
 the areas the script counts, with **no Summer Programs material at all**. That was an acceptable
 outcome, so the floor is "at least as good as our thinnest shipped school," not an invented
 round number. `npm run coverage:floor` recomputes it — **run it, do not transcribe these
 numbers.** The area denominator moved from 8 to 9 when Admissions shipped, and it will move
 again; the script reads the live data, this paragraph does not. The Compare-row total
 moves the same way (30 → 36 on 2026-10-05, 37 with `ap-top-scores`, 39 when the SAT and
-ACT rows shipped on 2026-11-07). The five Global Exposure Compare rows
+ACT rows shipped on 2026-11-07, 46 with `all-commits-2426` on 2026-11-23). The five Global Exposure Compare rows
 (2026-10-26) are excluded from the floor by `FLOOR_EXCLUDED_TOPICS` in
 `coverage_floor.mjs`. A candidate is never gated on Global Exposure research. The two Wells
 Fargo Cup Compare rows (2026-11-01) are excluded by `FLOOR_EXCLUDED_KEYS`, because only
@@ -281,7 +281,7 @@ schools in these NC associations can hold them.
 **The six Top 6 NC admit-rate rows exist only for NC high schools.** They come from the UNC
 System dashboard, which covers NC schools alone, so an out-of-state candidate (Fort Mill,
 SC, say) scores 0/6 on them by construction. Report that candidate's Compare fill against
-the other 39 rows as well, and say so, rather than letting six structural zeros read as a
+the other 40 rows as well, and say so, rather than letting six structural zeros read as a
 research gap.
 
 - **Per area (include / omit / dig deeper):** **under ~50%, take the area to the step-5
@@ -292,7 +292,7 @@ research gap.
   NOT the school-wide 73%.** Three reasons, each of which bit an earlier draft of this
   skill:
 
-  1. **73% is a rate over 45 Compare rows.** An area's denominator is 2–28, so the two
+  1. **73% is a rate over 46 Compare rows.** An area's denominator is 2–28, so the two
      numbers are not the same kind of measurement and a shared threshold implies a
      precision that is not there.
   2. **The calibration school fails it.** Davidson Day — the shipped floor this whole bar
@@ -305,20 +305,20 @@ research gap.
   So: ~50% is a rough line for *which areas are worth discussing*, and the discussion —
   with its dig-deeper option — is what actually decides. An area a hair under it that the
   user obviously wants is included without ceremony.
-- **School-wide (go / no-go), K–12 SCHOOLS:** **≥33 of 45 Compare rows, and one area
+- **School-wide (go / no-go), K–12 SCHOOLS:** **≥34 of 46 Compare rows, and one area
   below what `coverage:floor` derives.** (A K–8 school has no Compare rows at all — see
   the K–8 gate below.)
-  The comparison is **inclusive** — exactly 33/45 passes, 32/45 (71%) does not. Count in
+  The comparison is **inclusive** — exactly 34/46 passes, 33/46 (72%) does not. Count in
   **rows, not rounded percentages**: each row moves the figure ~2.2 points, so "73%" means
-  "at least 33 of 45." Do not round to a neater number in either direction.
+  "at least 34 of 46." Do not round to a neater number in either direction.
 
   **Do not confuse this 73% with an area percentage.** They measure different things and
   are not comparable: this one is Compare rows only, across the whole school, against a
-  denominator of 45; an area percentage pools prose cards and structured-card fields too,
+  denominator of 46; an area percentage pools prose cards and structured-card fields too,
   against a denominator of 2–28. A school can sit at 90% on most areas and still miss this
   bar, because published *numbers* are scarcer than published *prose* — that asymmetry is
   a finding worth reporting, not an inconsistency to reconcile. When both figures appear in
-  one report, label them (`Compare rows: 33/45` vs `Sports area: ~83%`).
+  one report, label them (`Compare rows: 34/46` vs `Sports area: ~83%`).
 
   On the area count, the stated bar is **one area below whatever the script derives from
   Davidson Day** — deliberately more permissive. Davidson Day's two gaps are
@@ -343,7 +343,7 @@ research gap.
 **A K–8 school has ZERO Compare rows, by design.** It is excluded from the Compare
 page entirely (`hasHighSchool: false` → `comparableSchools`), so there are no
 `metricValues.ts` keys to fill and `check:metrics` skips it and prints the skip. Scoring a
-K–8 candidate on "≥33 of 45 Compare rows" fails **every** K–8 school at step 1, including
+K–8 candidate on "≥34 of 46 Compare rows" fails **every** K–8 school at step 1, including
 the one already shipped. Never apply it.
 
 For a K–8 candidate the gate is the **area axis alone**, at the same latitude the K–12
@@ -470,7 +470,7 @@ Two honesty rules on this, because the failure mode is talking yourself into a s
   motivated reasoning, not research. Say that plainly rather than offering another round.
 
 Offer the same option at the **school-wide** level too, before a no-go: if the candidate
-misses the ≥33/45 bar but the misses are concentrated in two or three areas, ask whether to
+misses the ≥34/46 bar but the misses are concentrated in two or three areas, ask whether to
 deep-dive those before declining the school outright. A school rejected on a shallow sweep
 that would have cleared the bar on a real look is the most expensive possible outcome of
 this skill — it is the one mistake that never gets discovered.

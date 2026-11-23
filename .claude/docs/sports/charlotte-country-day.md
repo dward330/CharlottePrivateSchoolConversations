@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Sports
-> Distilled from 20 source document(s) in `source-material/sports/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
+> Distilled from 20 source document(s) in `source-material/sports/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-23.
 **Documents:** Awards and Honors, Championships, Coaches Pedigree and Continuity, College Commitments 2024-2026, D1 and Top-50 Academic Matriculation, Facilities and Infrastructure, NIL Landscape, National Swimming Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, WinLoss Records, 247Sports Recruiting Rankings, College Commitments Class of 2027, Redesign Research 2026, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Points 2026-27 Season, Wells Fargo Cup Standings 2020-2026
 
 
@@ -260,6 +260,8 @@ School list: Class of 2024 post (17, named) and the February/May 2024 signing po
 | Amare Bethel | Boys Basketball | Metropolitan State | RMAC | D2 | School list; RealGM; HighSchoolOT |
 | Kendall Blount | Cheer | Louisville | — | **total only** | School list; May 2024 signing post |
 
+**Superseded 2026-11-22 (plan `allcommits`):** counted means listed. These signees are now roster rows with level `Other`; they are still outside the Division I and Power 4 counts.
+
 **Kendall Blount — counted in the total, not in a level.** Country Day counts her among its
 17 Class of 2024 college athletes. Competitive cheer is not an NCAA-sponsored sport, so she
 has no honest Division I / Power 4 slot (Louisville is ACC; labelling her P4 would count a
@@ -299,7 +301,7 @@ Kept in `Charlotte Country Day - Sports - College Commitments Class of 2027.md`.
 boys lacrosse → Saint Joseph's). Neither is counted here or in the window rows.
 
 ## Excluded
-- **Kendall Blount** (2024, Louisville cheer): in the total only, see above.
+- **Kendall Blount** (2024, Louisville cheer): in the total only, see above. *(Superseded 2026-11-22, plan `allcommits`: now a roster row with level `Other`.)*
 - **Owen Timperman** (2026, boys lacrosse goalkeeper, USA Lacrosse All-American) and
  **Evelyn Turner** (2026, girls lacrosse/basketball, USA Lacrosse All-American): seniors in
  2025–26, but absent from the school's complete 13-name Class of 2026 list and from every

@@ -35,7 +35,10 @@ export type DerivedBar = {
 }
 
 export type PipelineCounts = {
-  /** Every documented commitment, 2024–26: roster rows plus `offRosterCommits`. */
+  /**
+   * Every documented commitment, 2024–26: every roster row in the window.
+   * Counted means listed (plan `allcommits`): there is no off-roster count.
+   */
   all: number
   /** Division I, Power 4 included. */
   d1: number
@@ -68,7 +71,7 @@ export function pipelineCounts(p: CollegePipeline): PipelineCounts {
     .sort((a, b) => Number(a.other) - Number(b.other) || b.count - a.count || a.i - b.i)
   const max = Math.max(1, ...shown.map((b) => b.count))
   return {
-    all: rows.length + (p.offRosterCommits ?? 0),
+    all: rows.length,
     d1: d1Rows.length,
     p4: rows.filter(isP4).length,
     seniors: p.roster.length - rows.length,

@@ -216,7 +216,7 @@ export const hickoryGroveChristian: SportsProgram = {
       { sport: 'Football', match: ['Football'] },
     ],
     realityCheck:
-      'Baseball, the program behind two of HGCS’s recent state titles, accounts for six of the seven commits. Those commits reach Division II at Wingate and Mars Hill and junior college at Gaston College, as well as Division I programs. The school publishes no all-sport signing list, so the count is a documented minimum.',
+      'Baseball, the program behind two of HGCS’s recent state titles, accounts for six of the seven commits. Those commits reach Division II at Wingate and Mars Hill and junior college at Gaston College, as well as Division I programs. The school publishes no all-sport signing list, so the real count may be higher.',
     roster: [
       { cls: "'25", name: 'Davis Cabbage', sport: 'Baseball', college: 'UNC Wilmington', conf: 'CAA', level: 'D1' },
       { cls: "'25", name: 'Ben Green', sport: 'Baseball', college: 'UNC Asheville', conf: 'Big South', level: 'D1' },
@@ -224,10 +224,10 @@ export const hickoryGroveChristian: SportsProgram = {
       { cls: "'25", name: 'Von Pelow', sport: 'Baseball', college: 'Mars Hill', conf: 'SAC', level: 'D2' },
       { cls: "'24", name: 'Conner Barozzino', sport: 'Baseball', college: 'Appalachian State', conf: 'Sun Belt', level: 'D1' },
       { cls: "'24", name: 'Jahzir Dukes', sport: 'Football', college: 'North Carolina Central', conf: 'MEAC', level: 'D1' },
-      { cls: "'24", name: 'Colby Vanhook', sport: 'Baseball', college: 'Gaston College', conf: 'NJCAA', level: 'D3' },
+      { cls: "'24", name: 'Colby Vanhook', sport: 'Baseball', college: 'Gaston College', conf: 'NJCAA', level: 'JUCO' },
     ],
     rosterNote:
-      'Each row is the college the athlete went to out of Hickory Grove, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. Colby Vanhook’s junior college is listed at the D3 level, because this table has no NJCAA level.',
+      'Each row is the college the athlete went to out of Hickory Grove, as listed on that college’s own roster. P4 = SEC · Big Ten · ACC · Big 12. JUCO = junior college, a two-year college.',
     sources: [
       { label: 'HighSchoolOT — NC baseball recruiting tracker (Barozzino, Cabbage, Green, Vanhook)', url: RECRUIT_TRACKER },
       { label: 'HighSchoolOT — Building the Fence: Class of 2024 in-state football commits (Dukes)', url: 'https://www.highschoolot.com/story/building-the-fence-class-of-2024-in-state-football-commits/20968251/' },

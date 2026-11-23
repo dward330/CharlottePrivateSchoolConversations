@@ -316,6 +316,8 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 > graduating group since at least 2008"). The earlier version also printed "Not published"
 > for ten sports that the posts do name.
 >
+> **Superseded 2026-11-22 (plan `allcommits`):** counted means listed. These signees are now roster rows with level `Other`; they are still outside the Division I and Power 4 counts.
+>
 > **Standard applied (same as Cannon, Davidson Day, Charlotte Country Day):** the card counts
 > documented commitments to college athletics at any level. D3 counts, a walk-on counts.
 > "Scholarship" is never claimed. College dance and cheer are counted **in the funnel total
@@ -422,6 +424,8 @@ excluded (see *Excluded*).
 | Cordelia Kim | Dance | Rutgers | — | total only | Apr 2025 post |
 | Zoe Bradley | Cheer | Tulane | — | total only | Apr 2025 post |
 
+**Superseded 2026-11-22 (plan `allcommits`):** counted means listed. These signees are now roster rows with level `Other`; they are still outside the Division I and Power 4 counts.
+
 Hyder's "Trinity" is Trinity College (Connecticut) — the post says "Trinity College"; the
 earlier version's `conf: '—'` is corrected to NESCAC. Yee is listed under `'Swimming'`
 (the existing unit; the post says "Diving").
@@ -460,6 +464,8 @@ earlier version's `conf: '—'` is corrected to NESCAC. Yee is listed under `'Sw
 string is already in the vocabulary.
 
 ## Totals → app metric values
+
+**Superseded 2026-11-22 (plan `allcommits`):** counted means listed. These signees are now roster rows with level `Other`; they are still outside the Division I and Power 4 counts.
 
 | | 2024 | 2025 | 2026 | Window |
 |---|---|---|---|---|

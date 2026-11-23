@@ -166,7 +166,7 @@ const ACCEPTANCE_WINDOWS: Record<string, string> = {
 
 /** One shared tooltip for every school on the `seniors-committed` row — identical strings share one translation unit. */
 const SENIORS_QUAL =
-  'Public commitments by the current senior class, counted at any level and verbal until signed; a documented minimum that grows through the spring signing period. Names are on the school’s College Pipeline card.'
+  'Public commitments by the current senior class, counted at any level and verbal until signed. The count grows through the spring signing period, and not every school publishes a full signing list, so the real count may be higher. Names are on the school’s College Pipeline card.'
 
 export const VALUE_METRICS: ValueMetric[] = [
   // =========================== Course Offerings ============================
@@ -2339,11 +2339,13 @@ export const VALUE_METRICS: ValueMetric[] = [
   // through 2025 (its 2026 class isn't compiled yet); Charlotte Latin publishes a
   // named post for each of its three yearly signing events and sends many to D3; Cannon's
   // best-known athletes (Richardson '21, Bradley '22, Nix '27) fall outside this window.
+  // The rows nest P4 ⊆ D1 ⊆ all: `all-commits-2426` (below Division I) is the superset,
+  // every 2024–26 roster row at any level (plan `allcommits`).
   {
     topic: 'sports',
     key: 'p4-commits-2426',
     label: 'Power 4 commits',
-    note: 'Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program or to Notre Dame, Classes of 2024–2026. Documented minimum.',
+    note: 'Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program or to Notre Dame, Classes of 2024–2026. Not every school publishes a full signing list, so the real count may be higher.',
     values: {
       cannon: '4', // ’24 A.Swartz (Miami), Galloway (North Carolina), B.Wilson (North Carolina) · ’25 Kroll (Notre Dame)
       'charlotte-christian': '11', // ’24: Henley, Wilfong, Woody, Zinger, Gilbert + B.Young (Notre Dame football, P4 by settled S8) · ’25: E.Boykin, Hinde, Nicholson, Vance · ’26: Rule
@@ -2361,31 +2363,31 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'minimum',
         text:
-          'Fifteen Power Four commitments across the Classes of 2024-2026, from the school’s signing articles, newspaper signing lists and the colleges’ own rosters. A documented minimum: CCHS publishes no consolidated signing list.',
+          'Fifteen Power Four commitments across the Classes of 2024-2026, named in the school’s signing articles, newspaper signing lists and the colleges’ own rosters. CCHS publishes no combined signing list, so the real count may be higher.',
       },
       cannon: {
         kind: 'minimum',
-        text: 'A documented minimum: Cannon publishes no signing list, so these athletes were confirmed on college rosters and recruiting services. Several of Cannon’s best-known athletes committed outside the 2024–26 window and so are not counted here.',
+        text: 'Cannon publishes no signing list, so the real count may be higher. Several of Cannon’s best-known athletes committed outside the Classes of 2024–2026 and are not counted here.',
       },
       'charlotte-christian': {
         kind: 'minimum',
-        text: 'A documented minimum: the school’s public commitment list runs through 2025, so its Class of 2026 is confirmed from college rosters and the school’s own announcements. The eleven include two Notre Dame football signees.',
+        text: 'The school’s public commitment list runs through 2025, so its Class of 2026 comes from college rosters and the school’s own announcements. The eleven include two Notre Dame football signees. The real count may be higher.',
       },
       'charlotte-latin': {
         kind: 'minimum',
-        text: 'A documented minimum. Charlotte Latin names every signee from its three yearly signing events; its academically heavy classes send many athletes to Division III.',
+        text: 'Charlotte Latin names every signee from its three yearly signing events. Its academically strong classes send many athletes to Division III.',
       },
       'covenant-day': {
         kind: 'minimum',
-        text: 'A documented minimum: Emily Eaton (’24) signed with Louisville field hockey, an ACC program, and started every game as a freshman. She is the one Power Four commitment among the 35 that the school’s signing posts and alumni lists document for 2024–2026.',
+        text: 'Emily Eaton (’24) signed with Louisville field hockey, an ACC program, and started every game as a freshman. She is the one Power Four commitment among the 35 that the school’s signing posts and alumni lists name for 2024–2026. The real count may be higher.',
       },
       'davidson-day': {
         kind: 'minimum',
-        text: 'A documented minimum. Davidson Day published no signing list for the Class of 2024, which is counted from college rosters. The Class of 2026 comes from the school’s recap; the Class of 2025 from its seven-athlete signing list plus college rosters.',
+        text: 'Davidson Day published no signing list for the Class of 2024, which comes from college rosters. The Class of 2025 comes from the school’s seven-athlete signing list and college rosters, and the Class of 2026 from the school’s recap. The real count may be higher.',
       },
       'gaston-day': {
         kind: 'minimum',
-        text: 'A documented minimum: Anne Bradley Bing (’25) signed with South Carolina volleyball, an SEC program. Gaston Day publishes no signing list, so its commitments are confirmed from college rosters.',
+        text: 'Anne Bradley Bing (’25) signed with South Carolina volleyball, an SEC program. Gaston Day publishes no signing list, so the real count may be higher.',
       },
     },
   },
@@ -2393,7 +2395,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'sports',
     key: 'd1-commits-2426',
     label: 'Division I commits',
-    note: 'Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.',
+    note: 'Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Not every school publishes a full signing list, so the real count may be higher.',
     values: {
       cannon: '12', // ’24: A.Swartz, Galloway, B.Wilson, Frood, Maynor, W.Swartz, Falasca, Morrow · ’25: Kroll, McCorkle, Nix, Baker (2026 class: two D3 only; ’27 verbals not counted)
       'charlotte-christian': '36', // ’24: 11 · ’25: 16 · ’26: 9 (Layton ’24 drafted, never enrolled — excluded)
@@ -2411,36 +2413,61 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-catholic': {
         kind: 'minimum',
         text:
-          'Thirty-nine Division I commitments among 54 documented athletes; Power Four is a subset. Athletes named on a signing list but never found on a college roster are excluded.',
+          'Thirty-nine of the 54 athletes named for 2024–2026 went to Division I programs, and the Power Four count is part of that. CCHS publishes no combined signing list, so the real count may be higher.',
       },
       cannon: {
         kind: 'minimum',
-        text: 'A documented minimum: Cannon publishes no signing list, so these athletes were confirmed on college rosters and recruiting services. Several of Cannon’s best-known athletes committed outside the 2024–26 window and so are not counted here.',
+        text: 'Cannon publishes no signing list, so the real count may be higher. Several of Cannon’s best-known athletes committed outside the Classes of 2024–2026 and are not counted here.',
       },
       'charlotte-christian': {
         kind: 'minimum',
-        text: 'A documented minimum: the school’s public commitment list runs through 2025, so its Class of 2026 is confirmed from college rosters and the school’s own announcements.',
+        text: 'The school’s public commitment list runs through 2025, so its Class of 2026 comes from college rosters and the school’s own announcements. The real count may be higher.',
       },
       'charlotte-latin': {
         kind: 'minimum',
-        text: 'A documented minimum. Charlotte Latin names every signee from its three yearly signing events; its academically heavy classes send many athletes to Division III.',
+        text: 'Charlotte Latin names every signee from its three yearly signing events. Its academically strong classes send many athletes to Division III.',
       },
       'covenant-day': {
         kind: 'minimum',
-        text: 'A documented minimum from the school’s own signing posts and alumni lists: Eaton and Marcus (’24); Huitt, Dirks, Gardner, Stanley and Rivens (’25), Gardner at Appalachian State and Rivens in football at UNC Charlotte; Neil, Welsh and Houseton (’26).',
+        text: 'The school’s own signing posts and alumni lists name all ten. They are Eaton and Marcus (’24); Huitt, Dirks, Gardner, Stanley and Rivens (’25); and Neil, Welsh and Houseton (’26). Gardner is at Appalachian State, and Rivens plays football at UNC Charlotte. The real count may be higher.',
       },
       'davidson-day': {
         kind: 'minimum',
-        text: 'A documented minimum. Davidson Day published no signing list for the Class of 2024, which is counted from college rosters. The Class of 2026 comes from the school’s recap; the Class of 2025 from its seven-athlete signing list plus college rosters.',
+        text: 'Davidson Day published no signing list for the Class of 2024, which comes from college rosters. The Class of 2025 comes from the school’s seven-athlete signing list and college rosters, and the Class of 2026 from the school’s recap. The real count may be higher.',
       },
       'hickory-grove-christian': {
         kind: 'minimum',
-        text: 'A documented minimum — three baseball and one football: Conner Barozzino (Appalachian State) and Jahzir Dukes (North Carolina Central, football) in the Class of 2024, and Davis Cabbage (UNC Wilmington) and Ben Green (UNC Asheville) in the Class of 2025. All four are mid-major Division I; the school publishes no all-sport signing list.',
+        text: 'Three baseball and one football. The Class of 2024 sent Conner Barozzino (Appalachian State) and Jahzir Dukes (North Carolina Central, football). The Class of 2025 sent Davis Cabbage (UNC Wilmington) and Ben Green (UNC Asheville). All four are mid-major Division I. The school publishes no all-sport signing list, so the real count may be higher.',
       },
       'gaston-day': {
         kind: 'minimum',
-        text: 'A documented minimum — both volleyball: Megan Brown (’24) at Wofford and Anne Bradley Bing (’25) at South Carolina. Gaston Day publishes no signing list, so its commitments are confirmed from college rosters.',
+        text: 'Both volleyball: Megan Brown (’24) at Wofford and Anne Bradley Bing (’25) at South Carolina. Gaston Day publishes no signing list, so the real count may be higher.',
       },
+    },
+  },
+  // Sits directly under Division I by the user's request (2026-11-22, plan `allcommits`):
+  // P4 ⊆ D1 ⊆ all. The value is pipelineCounts().all — every 2024–26 roster row at any level
+  // (counted means listed: every athlete here is a name on the card) — so it equals each
+  // card's funnel; check:consistency R1b gates it. Junior-college and dance/cheer
+  // rows carry levels JUCO and Other. Inserting
+  // mid-array shifts later overlay paths: re-splice in Phase 2.
+  {
+    topic: 'sports',
+    key: 'all-commits-2426',
+    label: 'College commits (all levels)',
+    note: 'Distinct athletes committed to play a college sport at any level, Classes of 2024–2026. That includes NCAA Division I, II and III, the NAIA (a separate college sports association) and junior colleges. The Division I count above is part of this total. Names are on the school’s College Pipeline card, which also lists current seniors’ commitments that are not counted here. Not every school publishes a full signing list, so the real count may be higher.',
+    values: {
+      cannon: '23', // 12 D1 · 2 D2 · 8 D3 · 1 JUCO (Ingram)
+      'charlotte-christian': '48', // 36 D1 · 6 D2 · 6 D3
+      'charlotte-catholic': '54', // 39 D1 · 6 D2 · 9 D3
+      'charlotte-country-day': '48', // 28 D1 · 5 D2 · 14 D3 · 1 Other (Blount, Louisville cheer)
+      'charlotte-latin': '63', // 22 D1 · 4 D2 · 34 D3 · 3 Other (Belton, Kim: dance; Bradley: cheer)
+      'covenant-day': '35', // 10 D1 · 4 D2 · 15 D3 · 3 NAIA (Dixon, Johnson, Jones) · 3 JUCO (Snapp, Boyd, Dorsey)
+      'carmel-christian': '20', // 6 D1 · 8 D2 · 5 D3 · 1 NAIA (Wood)
+      'davidson-day': '21', // 13 D1 · 3 D2 · 5 D3
+      'hickory-grove-christian': '7', // 4 D1 · 2 D2 · 1 JUCO (Vanhook)
+      'gaston-day': '3', // 2 D1 · 1 D3 (Todd, Johnson & Wales Charlotte, C2C)
+      'providence-day': '86', // 39 D1 · 7 D2 · 40 D3
     },
   },
   // Sits directly under the Division I row by the user's request (2026-11-08), so the
@@ -2453,7 +2480,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'sports',
     key: 'seniors-committed',
     label: 'Current seniors committed',
-    note: 'Class of 2027 athletes with a public college-athletics commitment at any level, verbal until signed. Documented minimum as of the most recent sweep; the class joins the Power 4 and Division I rows when the window rolls after graduation.',
+    note: 'Class of 2027 athletes with a public college-athletics commitment at any level, verbal until signed. They join the rows above when the class graduates. Not every school publishes a full signing list, so the real count may be higher.',
     values: {
       cannon: '6', // Busby (Princeton), Drayton (Coastal Carolina), Sales (Ohio), K.Davis (Furman), Cooler (Villanova), Higbea (Brown) — all verbal, 2026-11-08
       'providence-day': '10', // Geathers (Florida), Galloway (Kentucky), Drummond (Nebraska), Cooper (Penn State), Poku-Kankam (Rutgers), Fletcher (Wake Forest), Boland (UNC swim), Dempsey (Charlotte), Hodson (Delaware), Abanquah (Elon); Howard (Dartmouth) and Hamid (Davidson) single-source leads · Thompson (CNU, LaxNumbers-only lead)

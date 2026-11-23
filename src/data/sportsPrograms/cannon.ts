@@ -265,8 +265,8 @@ export const cannon: SportsProgram = {
       { cls: "'25", name: 'Khloe Thompson', sport: 'Girls Basketball', college: 'Winston-Salem State', conf: 'CIAA', level: 'D2' },
       { cls: "'25", name: 'Ari Lopez', sport: 'Volleyball', college: 'Tampa', conf: 'SSC', level: 'D2' },
       { cls: "'25", name: 'Lily Wittgraefe', sport: 'Volleyball', college: 'Hobart & William Smith', conf: 'Liberty', level: 'D3' },
-      { cls: "'25", name: 'Evan Ingram', sport: 'Boys Basketball', college: 'Davidson-Davie CC', conf: 'NJCAA', level: 'D3' },
       { cls: "'25", name: 'JT Murphy', sport: 'Boys Lacrosse', college: 'Skidmore', conf: 'Liberty', level: 'D3' },
+      { cls: "'25", name: 'Evan Ingram', sport: 'Boys Basketball', college: 'Davidson-Davie CC', conf: 'NJCAA', level: 'JUCO' },
       // Class of 2024
       {
         cls: "'24",
@@ -305,7 +305,7 @@ export const cannon: SportsProgram = {
       { cls: "'27", name: 'Hudson Higbea', sport: 'Boys Lacrosse', college: 'Brown', conf: 'Ivy', level: 'D1' },
     ],
     rosterNote:
-      'The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or on the Compare page until those athletes sign. Evan Ingram’s junior college is listed at the D3 level, because this table has no NJCAA level. Three athletes have since moved: Austin Swartz from Miami to Creighton, Hayes Galloway from North Carolina to Clemson and Jake Baker from East Carolina to Western Carolina. Galloway joined Clemson as a preferred walk-on. The roster shows the college each one committed to out of Cannon.',
+      'The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or on the Compare page until those athletes sign. JUCO = junior college, a two-year college. Three athletes have since moved: Austin Swartz from Miami to Creighton, Hayes Galloway from North Carolina to Clemson and Jake Baker from East Carolina to Western Carolina. Galloway joined Clemson as a preferred walk-on. The roster shows the college each one committed to out of Cannon.',
     sources: [
       {
         label: 'Charlotte-area signing day roundup',

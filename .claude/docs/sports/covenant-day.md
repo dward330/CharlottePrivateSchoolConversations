@@ -412,6 +412,8 @@ Elijah Green is the one athlete the school's articles do not name.
 
 ## Class of 2025 — 16 committed · Division I 5 · Power 4 0
 
+**Superseded 2026-11-22 (plan `allcommits`):** junior-college rows now carry level `JUCO` on the card, not `D3`.
+
 | Athlete | Sport | College | Conf. | Level | Confirmed by |
 |---|---|---|---|---|---|
 | Hamilton Huitt | Tennis | Queens (Charlotte) | ASUN | D1 | School Apr 2025 article; Queens roster (Fr., Covenant Day School); school tennis alumni list |
@@ -436,6 +438,8 @@ Elijah Green is the one athlete the school's articles do not name.
 ## Class of 2026 — 12 committed · Division I 3 · Power 4 0
 
 Matches the school's 2026 spring wrap exactly ("12 students … 3 at Division 1 institutions").
+
+**Superseded 2026-11-22 (plan `allcommits`):** junior-college rows now carry level `JUCO` on the card, not `D3`.
 
 | Athlete | Sport | College | Conf. | Level | Confirmed by |
 |---|---|---|---|---|---|

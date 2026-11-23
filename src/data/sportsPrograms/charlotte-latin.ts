@@ -270,7 +270,6 @@ export const charlotteLatin: SportsProgram = {
       '63 college commitments across 2024–26, 22 of them Division I and 8 Power 4 — a pipeline led by swimming and girls’ lacrosse.',
     subhead:
       'Swimming alone produced eight Division I commits and four Power 4, to North Carolina, Tennessee, Northwestern and Cal. Football produced two Division I commits, Neil Salvage to South Carolina and Matthew Barber to Georgetown.',
-    offRosterCommits: 3,
     funnel: [
       {
         label: 'Committed to college athletics',
@@ -350,6 +349,9 @@ export const charlotteLatin: SportsProgram = {
       { cls: "'25", name: 'James Jones', sport: 'Boys Basketball', college: 'DePauw', conf: 'NCAC', level: 'D3' },
       { cls: "'25", name: 'Bryce Spangler', sport: 'Swimming', college: 'Denison', conf: 'NCAC', level: 'D3' },
       { cls: "'25", name: 'Logan Yee', sport: 'Swimming', college: 'MIT', conf: 'NEWMAC', level: 'D3' },
+      { cls: "'25", name: 'Maya Belton', sport: 'Dance', college: 'College of Charleston', conf: '—', level: 'Other' },
+      { cls: "'25", name: 'Cordelia Kim', sport: 'Dance', college: 'Rutgers', conf: '—', level: 'Other' },
+      { cls: "'25", name: 'Zoe Bradley', sport: 'Cheer', college: 'Tulane', conf: '—', level: 'Other' },
       { cls: "'24", name: 'Neil Salvage', sport: 'Football', college: 'South Carolina', conf: 'SEC', level: 'P4' },
       { cls: "'24", name: 'Ivy Monk', sport: 'Swimming', college: 'North Carolina', conf: 'ACC', level: 'P4' },
       { cls: "'24", name: 'Aidan Hill', sport: 'Swimming', college: 'Tennessee', conf: 'SEC', level: 'P4' },
@@ -370,7 +372,7 @@ export const charlotteLatin: SportsProgram = {
       { cls: "'27", name: 'Thomas Greathouse', sport: 'Swimming', college: 'George Washington', conf: 'Atlantic 10', level: 'D1' },
     ],
     rosterNote:
-      'P4 = SEC · Big Ten · ACC · Big 12. Three Class of 2025 signees to college dance and cheer teams are counted in the funnel but not listed, because neither is an NCAA-sponsored sport. The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
+      'P4 = SEC · Big Ten · ACC · Big 12. Other marks the three Class of 2025 signees to college dance and cheer teams. Neither is an NCAA sport, so they count in the funnel total but not in the Division I or Power 4 counts. The Class of 2027 rows are public verbal commitments, listed because they are already announced. These rows are not counted in the funnel, the sport bars or the Power 4 and Division I rows until those athletes sign.',
     sources: [
       {
         label: 'clshawks.com — 2026 signing day',

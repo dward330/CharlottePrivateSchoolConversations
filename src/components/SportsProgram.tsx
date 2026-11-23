@@ -750,7 +750,16 @@ const LEVEL_TAG: Record<CommitLevel, string> = {
   D2: 'tag-neutral',
   D3: 'tag-neutral',
   NAIA: 'tag-neutral',
+  JUCO: 'tag-neutral',
+  Other: 'tag-neutral',
 }
+
+/**
+ * Level codes that are words, not acronyms, render through a chrome key: the
+ * `level` field is skipped by the i18n extractor as a code, so a raw word would
+ * show English in every locale. Acronyms (P4, D1, NAIA, JUCO) render as-is.
+ */
+const LEVEL_LABEL: Partial<Record<CommitLevel, string>> = { Other: 'cardLabels.levelOther' }
 
 /** A 247Sports rank cell: the number links to the athlete's 247 profile; a dash when unranked. */
 function RankCell({ n, url }: { n?: number; url?: string }) {
@@ -776,6 +785,8 @@ function RosterRow({
   q: string
   hasRanks: boolean
 }) {
+  const { t } = useTranslation()
+  const levelKey = LEVEL_LABEL[row.level]
   return (
     <>
       <span className="sports-td text-muted">{row.cls}</span>
@@ -798,7 +809,7 @@ function RosterRow({
         </>
       )}
       <span className="sports-td sports-th-c">
-        <span className={`${LEVEL_TAG[row.level]} sports-level`}>{row.level}</span>
+        <span className={`${LEVEL_TAG[row.level]} sports-level`}>{levelKey ? t(levelKey) : row.level}</span>
       </span>
     </>
   )

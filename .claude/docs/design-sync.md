@@ -373,6 +373,11 @@ npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'H
 # Compare Schools
 npm run design:capture -- '--page' '/compare/?topic=college-support&schools=cannon%2Ccarmel-christian%2Ccharlotte-catholic%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Ccovenant-day%2Cdavidson-day%2Cgaston-day%2Chickory-grove-christian%2Cprovidence-day' '--name' 'Compare Schools' '--out' <out> '--refs' 'every high school, College Support (the default Compare topic)' '--sha' 'ff5ab214' '--interactive' 'the topic and school pickers, row tips and the leader tint'
 
+# Compare Schools - Sports (plan allcommits: the four commit rows, AT LEAST tips)
+npm run design:capture -- '--page' '/compare/?topic=sports&schools=cannon%2Ccarmel-christian%2Ccharlotte-catholic%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Ccovenant-day%2Cdavidson-day%2Cgaston-day%2Chickory-grove-christian%2Cprovidence-day' '--name' 'Compare Schools - Sports' '--out' <out> '--refs' 'every high school, Sports' '--sha' '<build commit>' '--card-links' 'off' '--interactive' 'row tips and the leader tint'
+# --card-links off: a page with no cards otherwise stops with "found no card headers".
+# The project stores the name with a plain hyphen, so the capture uses one too.
+
 # Admissions Checklist
 npm run design:capture -- '--page' '/school/providence-day/admissions-checklist/' '--name' 'Admissions Checklist' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--interactive' 'the band switch and Print'
 

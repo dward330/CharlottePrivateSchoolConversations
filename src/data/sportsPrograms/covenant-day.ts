@@ -211,7 +211,7 @@ export const covenantDay: SportsProgram = {
       },
     ],
     funnelNote:
-      'These are documented minimums. They come from the school’s own signing posts, which name every signee in the classes of 2024–26. They also come from the Lions Beyond CDS lists of alumni playing in college, which each team page publishes. Elijah Green ’24 is listed from William Peace’s roster. The school’s cumulative claim is 175+ collegiate athletes since 2006.',
+      'These counts come from the school’s own signing posts, which name every signee in the classes of 2024–26. They also come from the Lions Beyond CDS lists of alumni playing in college, which each team page publishes. Elijah Green ’24 is listed from William Peace’s roster. The real count may be higher. The school’s cumulative claim is 175+ collegiate athletes since 2006.',
     sportBars: [
       { sport: 'Soccer', match: ['Soccer'] },
       { sport: 'Baseball', match: ['Baseball'] },
@@ -250,7 +250,7 @@ export const covenantDay: SportsProgram = {
       { cls: "'25", name: 'Brode Dixon', sport: 'Baseball', college: 'Asbury', conf: 'NAIA', level: 'NAIA' },
       { cls: "'25", name: 'Lydia Johnson', sport: 'Soccer', college: 'Taylor', conf: 'NAIA', level: 'NAIA' },
       { cls: "'25", name: 'Millie Jones', sport: 'Soccer', college: 'Taylor', conf: 'NAIA', level: 'NAIA' },
-      { cls: "'25", name: 'Isaac Snapp', sport: 'Baseball', college: 'Southeastern CC', conf: 'NJCAA', level: 'D3' },
+      { cls: "'25", name: 'Isaac Snapp', sport: 'Baseball', college: 'Southeastern CC', conf: 'NJCAA', level: 'JUCO' },
       { cls: "'26", name: 'Jane Neil', sport: 'Soccer', college: 'Louisiana Tech', conf: 'CUSA', level: 'D1' },
       { cls: "'26", name: 'Ethan Welsh', sport: 'XC / Track', college: 'East Carolina', conf: 'American', level: 'D1' },
       { cls: "'26", name: 'Avery Houseton', sport: 'Softball', college: 'UNC Charlotte', conf: 'American', level: 'D1' },
@@ -261,11 +261,11 @@ export const covenantDay: SportsProgram = {
       { cls: "'26", name: 'Maggie Shannon', sport: 'Volleyball', college: 'Springfield', conf: 'NEWMAC', level: 'D3' },
       { cls: "'26", name: 'Douglas Smith', sport: 'Basketball', college: 'Grove City', conf: 'PAC', level: 'D3' },
       { cls: "'26", name: 'Luke Thompson', sport: 'Basketball', college: 'Macalester', conf: 'MIAC', level: 'D3' },
-      { cls: "'26", name: 'Jalen Boyd', sport: 'Baseball', college: 'Paul D. Camp CC', conf: 'NJCAA', level: 'D3' },
-      { cls: "'26", name: 'Matthew Dorsey', sport: 'Baseball', college: 'Wake Tech CC', conf: 'NJCAA', level: 'D3' },
+      { cls: "'26", name: 'Jalen Boyd', sport: 'Baseball', college: 'Paul D. Camp CC', conf: 'NJCAA', level: 'JUCO' },
+      { cls: "'26", name: 'Matthew Dorsey', sport: 'Baseball', college: 'Wake Tech CC', conf: 'NJCAA', level: 'JUCO' },
     ],
     rosterNote:
-      'Compiled from the school’s own Lions News signing articles (September 2024 through April 2026) and its Lions Beyond CDS alumni lists. Each row shows the college the athlete went to out of Covenant Day. Grant Gardner signed with Davidson and enrolled at Appalachian State. Chris Rivens signed with Guilford for basketball and joined UNC Charlotte’s football roster. This site confirmed the levels and conferences for each college. The three junior-college signees are listed at the D3 level, because this table has no NJCAA level. Since enrolling, Emily Eaton has transferred from Louisville to Virginia, also ACC. Michael Marcus Jr has transferred from Appalachian State to George Mason.',
+      'Compiled from the school’s own Lions News signing articles (September 2024 through April 2026) and its Lions Beyond CDS alumni lists. Each row shows the college the athlete went to out of Covenant Day. Grant Gardner signed with Davidson and enrolled at Appalachian State. Chris Rivens signed with Guilford for basketball and joined UNC Charlotte’s football roster. This site confirmed the levels and conferences for each college. JUCO = junior college, a two-year college. Since enrolling, Emily Eaton has transferred from Louisville to Virginia, also ACC. Michael Marcus Jr has transferred from Appalachian State to George Mason.',
     sources: [
       {
         label: 'covenantday.org — 2 student-athletes commit to D1 schools (Eaton, Marcus)',
