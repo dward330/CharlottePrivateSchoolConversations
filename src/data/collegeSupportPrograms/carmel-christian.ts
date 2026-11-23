@@ -339,7 +339,7 @@ export const carmelChristian: CollegeSupportProgram = {
         key: 'east-carolina-university',
         name: 'East Carolina University',
         rank: 4,
-        note: 'Greenville · eastern NC · largest admit rates of the six',
+        note: 'Greenville · eastern NC · the highest of the six in Fall 2025, tied with UNC Greensboro',
         applied: '20',
         accepted: '20',
         rate: '100.0%',

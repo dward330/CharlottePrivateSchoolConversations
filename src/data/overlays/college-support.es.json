@@ -63,8 +63,8 @@
       ]
     },
     {
-      "t": "Institución insignia de STEM · Raleigh · la más selectiva de las seis",
-      "of": "f452f952",
+      "t": "Institución insignia de STEM · Raleigh · la tasa más baja de las seis en otoño de 2025",
+      "of": "e9a436de",
       "at": [
         "providence-day:ncAdmissions.universities[1].note",
         "charlotte-country-day:ncAdmissions.universities[1].note"
@@ -114,12 +114,11 @@
       ]
     },
     {
-      "t": "Piedmont Triad · las mayores tasas de admisión de las seis",
-      "of": "013e700c",
+      "t": "Piedmont Triad · la tasa más alta de las seis en otoño de 2025",
+      "of": "fb2f93e2",
       "at": [
         "providence-day:ncAdmissions.universities[5].note",
-        "charlotte-christian:ncAdmissions.universities[5].note",
-        "hickory-grove-christian:ncAdmissions.universities[5].note"
+        "charlotte-christian:ncAdmissions.universities[5].note"
       ]
     },
     {
@@ -207,8 +206,8 @@
       ]
     },
     {
-      "t": "cursos AP en la tabla de cursos del profile, 29 de ellos examinados en mayo de 2026",
-      "of": "cb8dc89d",
+      "t": "cursos AP en la tabla de cursos del profile; su tabla de puntuaciones de mayo de 2026 abarca 29 materias de examen",
+      "of": "520f0657",
       "at": [
         "providence-day:transcript.stats[2].label"
       ]
@@ -1727,8 +1726,8 @@
       ]
     },
     {
-      "t": "Su profile menciona 30 cursos AP, pero en mayo de 2026 se examinaron 29 materias. ¿Se imparten este año tanto AP German como AP Business with Personal Finance?",
-      "of": "63091b03",
+      "t": "Su profile menciona 30 cursos AP, pero AP German, AP Business with Personal Finance y AP Music Theory no tienen fila en su tabla de puntuaciones de mayo de 2026. ¿Se imparten este año los tres?",
+      "of": "8099ac85",
       "at": [
         "providence-day:verdict.checklist[6]"
       ]
@@ -1788,8 +1787,14 @@
       "of": "86a529a7",
       "at": [
         "charlotte-latin:ncAdmissions.universities[0].note",
+        "charlotte-christian:ncAdmissions.universities[0].note",
+        "charlotte-catholic:ncAdmissions.universities[0].note",
+        "cannon:ncAdmissions.universities[0].note",
+        "covenant-day:ncAdmissions.universities[0].note",
         "davidson-day:ncAdmissions.universities[0].note",
-        "carmel-christian:ncAdmissions.universities[0].note"
+        "carmel-christian:ncAdmissions.universities[0].note",
+        "hickory-grove-christian:ncAdmissions.universities[0].note",
+        "gaston-day:ncAdmissions.universities[0].note"
       ]
     },
     {
@@ -1808,12 +1813,10 @@
       ]
     },
     {
-      "t": "Greenville · este de Carolina del Norte · las mayores tasas de admisión de las seis",
-      "of": "df4c696f",
+      "t": "Greenville · este de Carolina del Norte · la tasa más alta de las seis en otoño de 2025, empatada con UNC Greensboro",
+      "of": "a93f15c1",
       "at": [
         "charlotte-latin:ncAdmissions.universities[3].note",
-        "charlotte-catholic:ncAdmissions.universities[3].note",
-        "charlotte-country-day:ncAdmissions.universities[3].note",
         "davidson-day:ncAdmissions.universities[3].note",
         "carmel-christian:ncAdmissions.universities[3].note",
         "gaston-day:ncAdmissions.universities[3].note"
@@ -2934,18 +2937,6 @@
       ]
     },
     {
-      "t": "Institución insignia · Chapel Hill · la más selectiva de las seis",
-      "of": "5c94c33d",
-      "at": [
-        "charlotte-christian:ncAdmissions.universities[0].note",
-        "charlotte-catholic:ncAdmissions.universities[0].note",
-        "cannon:ncAdmissions.universities[0].note",
-        "covenant-day:ncAdmissions.universities[0].note",
-        "hickory-grove-christian:ncAdmissions.universities[0].note",
-        "gaston-day:ncAdmissions.universities[0].note"
-      ]
-    },
-    {
       "t": "Los alumnos de clases AP están obligados a presentar el examen, y el 94% de los 435 exámenes de 2026 obtuvo un 3 o más: una tasa lograda con un grupo obligatorio y no autoseleccionado.",
       "of": "481a8057",
       "at": [
@@ -4003,6 +3994,14 @@
       "of": "a78a3c92",
       "at": [
         "charlotte-catholic:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
+      "t": "Greenville · este de Carolina del Norte · la tasa más alta de las seis en otoño de 2025",
+      "of": "f281b5f3",
+      "at": [
+        "charlotte-catholic:ncAdmissions.universities[3].note",
+        "charlotte-country-day:ncAdmissions.universities[3].note"
       ]
     },
     {
@@ -6549,11 +6548,10 @@
       ]
     },
     {
-      "t": "Campus local · las mayores tasas de admisión de las seis",
-      "of": "d0419022",
+      "t": "Campus local · la tasa más alta de las seis en otoño de 2025, empatada con East Carolina University y UNC Greensboro",
+      "of": "c0bba457",
       "at": [
-        "cannon:ncAdmissions.universities[2].note",
-        "covenant-day:ncAdmissions.universities[2].note"
+        "cannon:ncAdmissions.universities[2].note"
       ]
     },
     {
@@ -6592,8 +6590,8 @@
       ]
     },
     {
-      "t": "de los estudiantes obtuvo un 3 o más (446 exámenes, 195 estudiantes, mayo de 2026)",
-      "of": "50a5f677",
+      "t": "“Students with Scores 3+”, como lo titula el profile (446 exámenes, 195 estudiantes, mayo de 2026)",
+      "of": "b9667778",
       "at": [
         "cannon:transcript.stats[1].label"
       ]
@@ -7531,6 +7529,13 @@
       "of": "08d287a2",
       "at": [
         "covenant-day:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
+      "t": "Campus local · la tasa más alta de las seis en otoño de 2025",
+      "of": "0374c718",
+      "at": [
+        "covenant-day:ncAdmissions.universities[2].note"
       ]
     },
     {
@@ -10675,6 +10680,13 @@
       "of": "138cb23b",
       "at": [
         "hickory-grove-christian:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "Piedmont Triad · la tasa más alta de las seis en otoño de 2025, empatada con East Carolina University",
+      "of": "ae55cd56",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.universities[5].note"
       ]
     },
     {

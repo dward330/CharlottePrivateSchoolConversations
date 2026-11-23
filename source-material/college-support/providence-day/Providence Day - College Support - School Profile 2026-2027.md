@@ -713,3 +713,17 @@ https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/
 
 - https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/Collegeguidancecollegeprofile26-27updated.pdf (HTTP 200): "Quintile distribution of the Class of 2027 — (179 seniors) as of August 2026" and "Advanced Structures in Java (post-AP)". The acceptance list has no Bocconi University and no School of Visual Arts.
 - https://www.providenceday.org/fs/pages/2728 (HTTP 200, redirects to /upper-school/college-guidance/college-acceptances): no Bocconi University and no School of Visual Arts on the page.
+
+### Re-verification 2026-11-23 (plan consistency6, self-scan)
+
+- https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/Collegeguidancecollegeprofile26-27updated.pdf (HTTP 200, no redirect; text layer read with `pdftotext`): "In May 2026, 497 Providence Day students took 1,282 AP Exams." The "Subject (# of exams)" table has 29 rows, and its counts sum to 1,282. It prints "2-D Art and Design (8)" and "3-D Art and Design (4)" as two rows for the one course "Art & Design", and "Physics C: Elec. & Mag. (11)" and "Physics C: Mechanics (11)" as two rows for the one course "Physics C". The AP course table names "AP Business & Personal Finance", "German" (World Language AP column) and "Music Theory" (Fine Arts AP column), and none of the three has a row in the exam table. So 27 of the 30 named AP courses have exam rows.
+
+### Re-verification 2026-11-23 (plan consistency6, implement)
+
+Re-opened before typing (PD-V1).
+
+- https://resources.finalsite.net/images/v1787160331/provday/uoyzvocbz4fm51bh8lqd/Collegeguidancecollegeprofile26-27updated.pdf
+  (HTTP 200, text layer): the May 2026 score table has 29 subject rows. Art and Design prints two
+  (2-D and 3-D) and Physics C prints two (Elec. & Mag., Mechanics). The course table names "AP
+  Business & Personal Finance", "German" and "Music Theory", and none of the three has a score row.
+  The transcript tile now calls the 29 exam subjects, and the ask names all three courses.

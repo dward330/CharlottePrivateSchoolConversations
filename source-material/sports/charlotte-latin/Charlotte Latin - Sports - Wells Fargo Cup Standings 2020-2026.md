@@ -118,3 +118,12 @@ Latin's Cup page lists its wins as 1984, 1988–1991, 1993–1995, 1997, 2005–
   Soccer (Girls), Softball, Swimming (Boys), Swimming (Girls), Tennis (Boys), Tennis (Girls), Track
   & Field (Boys), Track & Field (Girls), Volleyball, Wrestling. By the app's season grouping that is
   9 fall, 6 winter and 9 spring programs.
+
+### Re-verification 2026-11-23 (plan consistency6, implement)
+
+- The 198-versus-165 question in "Wells Fargo Cup state-title context" is closed. The school's
+  athletics site now prints "200 NCISAA STATE TITLES" in a graphic dated June 8, 2026
+  (https://clshawks.com/sports/2026/3/31/cls-team-championships.aspx, re-read today), and the
+  Sports Offered card shows 200 "through spring 2026". 198 through December 2025 plus the 2026
+  wrestling and boys golf titles makes 200, which is consistent. Wikipedia's 165 is no longer used.
+

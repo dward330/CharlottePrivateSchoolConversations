@@ -147,11 +147,11 @@ export const covenantDay: SportsProgram = {
           { result: 'NONE' },
           { result: 'NONE' },
         ],
-        note: 'Took Providence Day to overtime in the state quarterfinal; state runner-up in 2022',
+        note: 'Took Providence Day to overtime in the 2025–26 state quarterfinal; state runner-up in 2022',
       },
     ],
     didNotWin:
-      'boys soccer (Christ School won the 2025–26 final 2–1 at Covenant Day) · field hockey (eliminated in overtime by Providence Day) · volleyball, whose three consecutive state runner-up finishes are the program’s standing high-water mark.',
+      'boys soccer (Christ School won the 2025–26 final 2–1 at Covenant Day) · field hockey (eliminated in overtime by Providence Day in 2025–26) · volleyball, whose three consecutive state runner-up finishes are the program’s standing high-water mark.',
     bars: [
       { program: 'Softball', record: '10–1', pct: 0.909, tag: "'25–26 CONF" },
       { program: 'Baseball', record: '12–14', pct: 0.462, tag: "'25–26" },

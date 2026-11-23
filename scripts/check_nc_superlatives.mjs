@@ -28,6 +28,15 @@
  * 3 of 3). Ties break on the larger denominator — 25 of 25 outranks 8 of 8 —
  * which limits but does not remove it. The subhead and third stat tile quote
  * the same term, so the whole card now speaks in one column.
+ *
+ * DATED FORMS ONLY, since 2026-11-23 (plan consistency6, finding X1). Undated
+ * labels read as facts about the university, and the five-year column can
+ * disagree with them (Latin's ECU led Fall 2025 but trailed UNC Greensboro over
+ * five years). So the labels are exactly LOW_LABEL and HIGH_LABEL below, and the
+ * old undated forms fail. A label whose campus shares its Fall 2025 rate with
+ * another must add ", tied with <name>" (", tied with <a> and <b>" for two),
+ * naming exactly the tied campuses: an unnamed tie fails, and so does a name that
+ * is not tied. The tie-break on `applied` still picks which row carries it.
  */
 import fs from 'node:fs'
 import path from 'node:path'
@@ -35,9 +44,10 @@ import path from 'node:path'
 const DIR = 'src/data/collegeSupportPrograms'
 const num = (s) => Number(String(s).replace(/,/g, ''))
 
-// The second form dates the claim, for a school where another campus is lower over five years (LAT-U13).
-const LOW_LABELS = ['the most selective of the six', 'the lowest of the six in Fall 2025']
-const HIGH_LABEL = 'largest admit rates of the six'
+const LOW_LABEL = 'the lowest of the six in Fall 2025'
+const HIGH_LABEL = 'the highest of the six in Fall 2025'
+// Retired 2026-11-23: an undated label is itself a finding.
+const UNDATED = ['the most selective of the six', 'largest admit rates of the six']
 
 const findings = []
 
@@ -68,12 +78,32 @@ for (const file of fs.readdirSync(DIR).sort()) {
   const lowest = pick((x, y) => x < y)
   const highest = pick((x, y) => x > y)
 
+  for (const r of rows) {
+    for (const u of UNDATED) {
+      if (r.note.includes(u)) findings.push(`${school}: ${r.name} carries the undated label "${u}" — use the dated form.`)
+    }
+  }
+
   for (const [label, winner, which] of [
-    [LOW_LABELS.find((l) => rows.some((r) => r.note.includes(l))) ?? LOW_LABELS[0], lowest, 'lowest'],
+    [LOW_LABEL, lowest, 'lowest'],
     [HIGH_LABEL, highest, 'highest'],
   ]) {
-    const forms = which === 'lowest' ? LOW_LABELS : [label]
-    const carriers = rows.filter((r) => forms.some((l) => r.note.includes(l)))
+    const carriers = rows.filter((r) => r.note.includes(label))
+    if (carriers.length === 1 && carriers[0].key === winner.key) {
+      // The tie clause: exactly the other campuses at the winner's rate, by row name.
+      const rest = carriers[0].note.slice(carriers[0].note.indexOf(label) + label.length)
+      const tied = rows.filter((r) => r.key !== winner.key && r.rate === winner.rate).map((r) => r.name)
+      let named = []
+      if (rest !== '') {
+        const m = rest.match(/^, tied with (.+)$/)
+        if (!m) findings.push(`${school}: unexpected text after "${label}" on ${winner.name}: ${JSON.stringify(rest)}`)
+        else named = m[1].split(/, | and /)
+      }
+      const missing = tied.filter((n) => !named.includes(n))
+      const extra = named.filter((n) => !tied.includes(n))
+      if (missing.length) findings.push(`${school}: "${label}" on ${winner.name} does not name the tie with ${missing.join(', ')} (also ${winner.rate}% in Fall 2025).`)
+      if (extra.length) findings.push(`${school}: "${label}" on ${winner.name} says tied with ${extra.join(', ')}, which is not at ${winner.rate}% in Fall 2025.`)
+    }
     if (carriers.length === 0) {
       findings.push(`${school}: no row carries "${label}" (should be ${winner.name}, ${winner.rate}%)`)
     } else if (carriers.length > 1) {
@@ -125,4 +155,4 @@ if (findings.length) {
   console.error(`\n${findings.length} finding(s).`)
   process.exit(1)
 }
-console.log('check:ncsuper OK — both ranking labels sit on the university that earns them (Fall 2025 rate), on every school.')
+console.log('check:ncsuper OK — both dated ranking labels sit on the university that earns them (Fall 2025 rate), with every tie named, on every school.')

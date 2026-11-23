@@ -30,12 +30,12 @@ export const charlotteLatin: SportsProgram = {
     headline:
       '66 teams across 17 sports on a 128-acre campus, with about 90% of students in grades 7–12 playing something.',
     subhead:
-      'The largest campus among Charlotte-area independent schools, and 165 state championships across 21 sports since the NCISAA formed in 1973.',
+      'The largest campus among Charlotte-area independent schools, and 200 NCISAA state titles through spring 2026 (the school’s athletics site).',
     stats: [
       { value: '17', label: 'sports offered' },
       { value: '66', label: 'teams, grades 7–12' },
       { value: '~90%', label: 'of students play a sport' },
-      { value: '165', label: 'state titles since 1973' },
+      { value: '200', label: 'NCISAA state titles, through 2025–26' },
     ],
     seasons: [
       {
@@ -86,6 +86,7 @@ export const charlotteLatin: SportsProgram = {
     sources: [
       { label: 'charlottelatin.org — Athletic Teams', url: TEAMS },
       { label: 'clshawks.com — About Athletics', url: 'https://clshawks.com/sports/2024/10/16/about.aspx' },
+      { label: 'clshawks.com — Team championships (200 NCISAA state titles)', url: 'https://clshawks.com/sports/2026/3/31/cls-team-championships.aspx' },
       { label: 'Wikipedia — Charlotte Latin School', url: 'https://en.wikipedia.org/wiki/Charlotte_Latin_School' },
     ],
   },
@@ -192,6 +193,29 @@ export const charlotteLatin: SportsProgram = {
         ],
         note: 'Lost the final 1–0 to top-seed Charlotte Country Day',
       },
+      // Three runner-up rows from the NCISAA archive brackets (sport=17, 16; cross
+      // country via Mitchell Timing), re-read 2026-11-23. A bracket prints only the
+      // record going into each round, so a runner-up cell carries no record.
+      {
+        program: 'Girls Soccer',
+        cells: [{ result: 'RUNNER-UP' }, { result: 'RUNNER-UP' }, { result: 'NONE' }],
+        note: 'Lost the 2024 and 2025 finals to Providence Day',
+      },
+      {
+        program: 'Girls Cross Country',
+        cells: [
+          { result: 'NONE' },
+          { result: 'RUNNER-UP' },
+          // The NCISAA archive links no fall 2025 results, and no official timing page was found.
+          { result: 'NONE', toVerify: true },
+        ],
+        note: 'Second in 2024, 86 points to Country Day’s 79',
+      },
+      {
+        program: 'Boys Tennis',
+        cells: [{ result: 'NONE' }, { result: 'RUNNER-UP' }, { result: 'RUNNER-UP' }],
+        note: 'Back-to-back finals, lost to Carmel Christian in 2025 and Durham Academy in 2026',
+      },
     ],
     didNotWin:
       'In 2025–26: volleyball (North Raleigh Christian) · field hockey and girls tennis (Charlotte Country Day) · girls lacrosse, girls soccer, football and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · girls basketball (Cannon) · boys lacrosse, boys tennis, girls cross country and girls track (Durham Academy) · boys soccer, boys cross country and boys track (Christ School) · boys swimming (Cary Academy) · baseball (Charlotte Christian) · softball (Covenant Day).',
@@ -220,6 +244,11 @@ export const charlotteLatin: SportsProgram = {
     sources: [
       { label: 'HighSchoolOT — 2025–26 NCISAA champions', url: CHAMPS_26 },
       { label: 'NCISAA — 2026 girls tennis bracket', url: 'https://archives.ncisaa.org/index.php?sport=11&currentyear=1' },
+      { label: 'NCISAA — 2024 girls soccer bracket', url: 'https://archives.ncisaa.org/index.php?sport=17&years=2023-2024' },
+      { label: 'NCISAA — 2025 girls soccer bracket', url: 'https://archives.ncisaa.org/index.php?sport=17&years=2024-2025' },
+      { label: 'NCISAA — 2025 boys tennis bracket', url: 'https://archives.ncisaa.org/index.php?sport=16&years=2024-2025' },
+      { label: 'NCISAA — 2026 boys tennis bracket', url: 'https://archives.ncisaa.org/index.php?sport=16&years=2025-2026' },
+      { label: '2024 cross country team results (official timing)', url: 'http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_XC_Championships_2024/' },
       {
         label: '2024 boys swimming title',
         url: 'https://www.highschoolot.com/story/charlotte-latin-wins-ncisaa-d1-boys-swimming-championship-sets-four-records/21295043/',
@@ -273,7 +302,7 @@ export const charlotteLatin: SportsProgram = {
       { sport: 'Basketball', match: ['Boys Basketball', 'Girls Basketball'] },
     ],
     realityCheck:
-      'Latin’s Division I pipeline runs through the pool and the girls’ lacrosse field. Swimming produced eight D1 commits and girls’ lacrosse four. Between them, swimming and girls’ lacrosse account for six of the eight Power 4 signees. Football produced two Division I commits, despite the program’s eleven historic state titles. For most Latin families, the realistic outcome is still a Division III place at an academically strong college. These colleges recur on the signing lists: Washington & Lee · Emory · Case Western · Denison · Hampden-Sydney.',
+      'Latin’s Division I pipeline runs through the pool and the girls’ lacrosse field. Swimming produced eight D1 commits and girls’ lacrosse four. Between them, swimming and girls’ lacrosse account for six of the eight Power 4 signees. Football produced two Division I commits, despite the program’s twelve state titles. For most Latin families, the realistic outcome is still a Division III place at an academically strong college. These colleges recur on the signing lists: Washington & Lee · Emory · Case Western · Denison · Hampden-Sydney.',
     rankedRecruits:
       'Wrestling supplies the real national credential. Spear Gorelick ’26 was a 2025 National Prep All-American. He was seeded No. 6 nationally at 150 lbs before the 2026 National Prep Championships, and he reached 100 career wins before signing with Davidson. Freshman Jack Gilson also reached the national bracket at 138 lbs. In golf, Griffin Cheatwood was NCISAA medalist and Charlotte Observer Golfer of the Year. Aston Lee was CISAA Golfer of the Year. No Latin athlete currently appears in a 247Sports/On3/Rivals national top-100 for football or basketball.',
     roster: [

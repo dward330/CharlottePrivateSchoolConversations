@@ -117,7 +117,7 @@ export const charlotteChristian: SportsProgram = {
     headline:
       'Eighteen baseball state championships — the deepest single-sport dynasty in the Charlotte private-school field — capped by a 28–7 title run in 2026.',
     subhead:
-      'Football supplies the second pillar with nine titles, though Providence Day has ended the Knights’ season in each of the last three years.',
+      'Football supplies the second pillar with nine titles, though Providence Day ended the Knights’ season in 2023, 2024 and 2025.',
     seasonLabels: ["'23–24", "'24–25", "'25–26"],
     rows: [
       {
@@ -191,7 +191,7 @@ export const charlotteChristian: SportsProgram = {
       },
       {
         program: 'Football',
-        text: 'Providence Day has ended the Knights’ season three years running — playoff losses in 2023 and 2024, then the 2025 state final, 42–6. The run to that final included a 55–48 win over Rabun Gap-Nacoochee, the Georgia program that had beaten Providence Day for the 2024 title.',
+        text: 'Providence Day ended the Knights’ season three years running, 2023–25: playoff losses in 2023 and 2024, then the 2025 state final, 42–6. The run to that final included a 55–48 win over Rabun Gap-Nacoochee, the Georgia program that had beaten Providence Day for the 2024 title.',
       },
       {
         program: 'Wrestling',

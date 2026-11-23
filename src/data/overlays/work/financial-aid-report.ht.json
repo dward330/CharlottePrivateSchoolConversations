@@ -25,12 +25,12 @@
       "t": "Frè Eskolè ak Èd Finansye — Rapò Apwofondi"
     },
     {
-      "text": "2026–27 school year · figures as of 24 Jul 2026; bus fares and Extended Day registration 22 Nov 2026",
-      "of": "ed51b82e",
+      "text": "2026–27 school year · figures as of 24 Jul 2026; bus fares and Extended Day registration 22 Nov, Extended Day late and adjustment fees 23 Nov 2026",
+      "of": "2f142a06",
       "at": [
         "providence-day:meta"
       ],
-      "t": "Ane eskolè 2026–27 · chif yo dapre 24 jiyè 2026; frè bis ak enskripsyon Extended Day 22 novanm 2026"
+      "t": "Ane eskolè 2026–27 · chif yo dapre 24 jiyè 2026; frè bis ak enskripsyon Extended Day 22 novanm, frè reta ak frè ajisteman Extended Day 23 novanm 2026"
     },
     {
       "text": "Unpublished ≠ deficient.",
@@ -309,20 +309,20 @@
       "t": "Pi Lwen Pase Frè Eskolè — Vrè Depans pou Ale Lekòl la"
     },
     {
-      "text": "Eighteen confirmed components for a 2026–27 family — 10 unpriced",
-      "of": "32aa65ae",
+      "text": "Twenty confirmed components for a 2026–27 family — 10 unpriced",
+      "of": "d7e6e7c6",
       "at": [
         "providence-day:sections[1].componentsTitle"
       ],
-      "t": "Dizuit eleman konfime pou yon fanmi 2026–27 — 10 san pri"
+      "t": "Ven eleman konfime pou yon fanmi 2026–27 — 10 san pri"
     },
     {
-      "text": "All-in estimate not built: 56% unpriced > 33% threshold",
-      "of": "03b7f7a7",
+      "text": "All-in estimate not built: 50% unpriced > 33% threshold",
+      "of": "72911ef1",
       "at": [
         "providence-day:sections[1].componentsAside"
       ],
-      "t": "Nou pa bati yon estimasyon total: 56% san pri > sèy 33% la"
+      "t": "Nou pa bati yon estimasyon total: 50% san pri > sèy 33% la"
     },
     {
       "text": "Tuition — four bands, priced",
@@ -360,10 +360,18 @@
       "t": "Vin chèche an reta Extended Day · $1/min apre 6 p.m."
     },
     {
+      "text": "Extended Day adjustment rate · $30/hr",
+      "of": "5fe165f6",
+      "at": [
+        "providence-day:sections[1].components[4].label"
+      ],
+      "t": "To ajisteman Extended Day · $30/èdtan"
+    },
+    {
       "text": "Extended Day program fee · $100–$750/mo",
       "of": "6e3ba654",
       "at": [
-        "providence-day:sections[1].components[4].label"
+        "providence-day:sections[1].components[5].label"
       ],
       "t": "Frè pwogram Extended Day · $100–$750/mwa"
     },
@@ -371,7 +379,7 @@
       "text": "Bus transportation · $1,830–$1,965 round trip per student, 2026–27 (siblings $1,379–$1,507)",
       "of": "b845012f",
       "at": [
-        "providence-day:sections[1].components[5].label"
+        "providence-day:sections[1].components[6].label"
       ],
       "t": "Transpò an bis · $1,830–$1,965 ale-retou pa elèv, 2026–27 (frè ak sè $1,379–$1,507)"
     },
@@ -379,7 +387,7 @@
       "text": "FLIK Dining participation · no rate",
       "of": "cdbe227f",
       "at": [
-        "providence-day:sections[1].components[6].label"
+        "providence-day:sections[1].components[7].label"
       ],
       "t": "Patisipasyon FLIK Dining · pa gen to"
     },
@@ -387,15 +395,23 @@
       "text": "Extended Day enrichment classes · $200 or $220 a class, by grade and program",
       "of": "25cac1bb",
       "at": [
-        "providence-day:sections[1].components[7].label"
+        "providence-day:sections[1].components[8].label"
       ],
       "t": "Klas anrichisman Extended Day · $200 oswa $220 pa klas, selon nivo ak pwogram"
+    },
+    {
+      "text": "Enrichment withdrawal, after 1 class · $25",
+      "of": "dabbe980",
+      "at": [
+        "providence-day:sections[1].components[9].label"
+      ],
+      "t": "Retire nan anrichisman, apre 1 klas · $25"
     },
     {
       "text": "8th grade field trip · no rate",
       "of": "a814ee61",
       "at": [
-        "providence-day:sections[1].components[8].label"
+        "providence-day:sections[1].components[10].label"
       ],
       "t": "Vwayaj klas grad 8 · pa gen to"
     },
@@ -403,7 +419,7 @@
       "text": "12th grade field trip · no rate",
       "of": "43953ba2",
       "at": [
-        "providence-day:sections[1].components[9].label"
+        "providence-day:sections[1].components[11].label"
       ],
       "t": "Vwayaj klas grad 12 · pa gen to"
     },
@@ -411,7 +427,7 @@
       "text": "Club travel · no rate",
       "of": "ce468795",
       "at": [
-        "providence-day:sections[1].components[10].label"
+        "providence-day:sections[1].components[12].label"
       ],
       "t": "Vwayaj klib · pa gen to"
     },
@@ -419,7 +435,7 @@
       "text": "Arts competition travel · no rate",
       "of": "521467de",
       "at": [
-        "providence-day:sections[1].components[11].label"
+        "providence-day:sections[1].components[13].label"
       ],
       "t": "Vwayaj konpetisyon atistik · pa gen to"
     },
@@ -427,7 +443,7 @@
       "text": "Athletic tournament travel · no rate",
       "of": "5a671506",
       "at": [
-        "providence-day:sections[1].components[12].label"
+        "providence-day:sections[1].components[14].label"
       ],
       "t": "Vwayaj tounwa atletik · pa gen to"
     },
@@ -435,7 +451,7 @@
       "text": "P.E. uniforms · no rate",
       "of": "9bbccd57",
       "at": [
-        "providence-day:sections[1].components[13].label"
+        "providence-day:sections[1].components[15].label"
       ],
       "t": "Inifòm P.E. · pa gen to"
     },
@@ -443,7 +459,7 @@
       "text": "Graphing calculators · no rate",
       "of": "bb4e30c6",
       "at": [
-        "providence-day:sections[1].components[14].label"
+        "providence-day:sections[1].components[16].label"
       ],
       "t": "Kalkilatris grafik · pa gen to"
     },
@@ -451,7 +467,7 @@
       "text": "Tutoring services · no rate",
       "of": "31402b59",
       "at": [
-        "providence-day:sections[1].components[15].label"
+        "providence-day:sections[1].components[17].label"
       ],
       "t": "Sèvis titora · pa gen to"
     },
@@ -459,7 +475,7 @@
       "text": "Extended Day registration · $80/yr",
       "of": "b692a540",
       "at": [
-        "providence-day:sections[1].components[16].label"
+        "providence-day:sections[1].components[18].label"
       ],
       "t": "Enskripsyon Extended Day · $80/ane"
     },
@@ -467,17 +483,17 @@
       "text": "Extended Day Activity Days · no rate",
       "of": "ca22aca4",
       "at": [
-        "providence-day:sections[1].components[17].label"
+        "providence-day:sections[1].components[19].label"
       ],
       "t": "Extended Day Activity Days · pa gen to"
     },
     {
-      "text": "Of eighteen confirmed cost items, eight have a published price and ten do not. That leaves 56% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.",
-      "of": "6e380bf5",
+      "text": "Of twenty confirmed cost items, ten have a published price and ten do not. That leaves 50% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.",
+      "of": "c00f8adf",
       "at": [
         "providence-day:sections[1].componentsNote"
       ],
-      "t": "Nan dizuit atik depans konfime yo, uit gen yon pri ki pibliye epi dis pa genyen. Sa vle di 56% san pri. Rapò sa a montre yon estimasyon total sèlman lè yon tyè atik yo oswa mwens pa gen pri. Kidonk li pa montre youn isit la, olye ke li bati yon ranje sitou ak pri ki manke. De fon ak dotasyon (Seksyon 5) egziste pou peye depans pi lwen pase frè eskolè. Egzistans yo se yon lòt prèv ke frè sa yo reyèl."
+      "t": "Nan ven atik depans konfime yo, dis gen yon pri ki pibliye epi dis pa genyen. Sa vle di 50% san pri. Rapò sa a montre yon estimasyon total sèlman lè yon tyè atik yo oswa mwens pa gen pri. Kidonk li pa montre youn isit la, olye ke li bati yon ranje sitou ak pri ki manke. De fon ak dotasyon (Seksyon 5) egziste pou peye depans pi lwen pase frè eskolè. Egzistans yo se yon lòt prèv ke frè sa yo reyèl."
     },
     {
       "text": "The deposit, 2026–27",
@@ -3554,12 +3570,12 @@
       "t": "Konbyen nou ta dwe prevwa pi lwen pase frè eskolè a pou liv, espò ak vwayaj Dublin fanfa a?"
     },
     {
-      "text": "2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus, tutoring and Extended Day registration fees 22 Nov 2026",
-      "of": "dbe6d8c6",
+      "text": "2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus, tutoring and Extended Day registration fees 22 Nov, Extended Day late and contract-change fees 23 Nov 2026",
+      "of": "6c9f2f64",
       "at": [
         "charlotte-country-day:meta"
       ],
-      "t": "Ane eskolè 2026–27 · chif yo dapre 23 jiyè 2026; frè anrichisman 20 novanm, frè bis, titora ak enskripsyon Extended Day 22 novanm 2026"
+      "t": "Ane eskolè 2026–27 · chif yo dapre 23 jiyè 2026; frè anrichisman 20 novanm, frè bis, titora ak enskripsyon Extended Day 22 novanm, frè reta ak frè chanjman kontra Extended Day 23 novanm 2026"
     },
     {
       "text": "Every dollar figure carries the school year it applies to. Undated school figures are flagged, not guessed.",
@@ -3708,20 +3724,20 @@
       "t": "Echèl $0–700. Yon estimasyon ak limit pa divizyon, se pa yon barèm frè detaye — li kouvri liv ak materyèl (gr. 5–12), frè aktivite, ak frè atletik. Depo enskripsyon: 10% nan frè eskolè, kredite sou frè eskolè ki dwe."
     },
     {
-      "text": "Twelve confirmed cost components — 3 unpriced",
-      "of": "d83d8ce5",
+      "text": "Fourteen confirmed cost components — 3 unpriced",
+      "of": "1b4f47b6",
       "at": [
         "charlotte-country-day:sections[1].componentsTitle"
       ],
-      "t": "Douz eleman depans konfime — 3 san pri"
+      "t": "Katòz eleman depans konfime — 3 san pri"
     },
     {
-      "text": "All-in estimate not built: 25% unpriced, plus 25% in a range only",
-      "of": "6e5bc36c",
+      "text": "All-in estimate not built: 21% unpriced, plus 21% in a range only",
+      "of": "9f302d24",
       "at": [
         "charlotte-country-day:sections[1].componentsAside"
       ],
-      "t": "Nou pa bati yon estimasyon total: 25% san pri, plis 25% ki gen sèlman yon ranje"
+      "t": "Nou pa bati yon estimasyon total: 21% san pri, plis 21% ki gen sèlman yon ranje"
     },
     {
       "text": "Tuition — five bands, priced",
@@ -3813,20 +3829,36 @@
       "t": "Enskripsyon Extended Day · $80 ak kontra, $40 drop-in"
     },
     {
+      "text": "Extended Day late pickup · $10 per 10-minute interval after 6:00 p.m.",
+      "of": "7ef30c2d",
+      "at": [
+        "charlotte-country-day:sections[1].components[11].label"
+      ],
+      "t": "Vin chèche an reta Extended Day · $10 pou chak entèval 10 minit apre 6:00 p.m."
+    },
+    {
+      "text": "Extended Day contract change (beyond the first) · $50",
+      "of": "08712631",
+      "at": [
+        "charlotte-country-day:sections[1].components[12].label"
+      ],
+      "t": "Chanjman kontra Extended Day (apre premye a) · $50"
+    },
+    {
       "text": "Extended Day conference days · no rate",
       "of": "13a206ed",
       "at": [
-        "charlotte-country-day:sections[1].components[11].label"
+        "charlotte-country-day:sections[1].components[13].label"
       ],
       "t": "Jou konferans Extended Day · pa gen to"
     },
     {
-      "text": "Three of the twelve items have no published price: the dining hall, Middle School PE uniforms and Extended Day conference days. The first two are on the school's monthly billing list. Three more are priced only as a range. So half have no set price, and this report does not add the items into one total.",
-      "of": "41077156",
+      "text": "Three of the fourteen items have no published price: the dining hall, Middle School PE uniforms and Extended Day conference days. The first two are on the school's monthly billing list. Three more are priced only as a range. So 6 of the 14 have no set price, and this report does not add the items into one total.",
+      "of": "e903956f",
       "at": [
         "charlotte-country-day:sections[1].componentsNote"
       ],
-      "t": "Twa nan douz atik yo pa gen pri ki pibliye: sal manje a, inifòm PE Middle School yo ak jou konferans Extended Day yo. De premye yo sou lis faktirasyon chak mwa lekòl la. Twa lòt gen pri sèlman kòm yon ranje. Kidonk mwatye pa gen pri fiks, epi rapò sa a pa adisyone atik yo nan yon sèl total."
+      "t": "Twa nan katòz atik yo pa gen pri ki pibliye: sal manje a, inifòm PE Middle School yo ak jou konferans Extended Day yo. De premye yo sou lis faktirasyon chak mwa lekòl la. Twa lòt gen pri sèlman kòm yon ranje. Kidonk 6 nan 14 yo pa gen pri fiks, epi rapò sa a pa adisyone atik yo nan yon sèl total."
     },
     {
       "text": "the best-documented part of the picture",

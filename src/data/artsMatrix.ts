@@ -62,7 +62,7 @@ export const ARTS_MATRIX: ArtsTable = {
     musicTheory: { US: 'AP Music Theory' },
     plays: { MS: 'The Odyssey (MS play, May)', US: 'Upper School Play' },
     musicals: { LS: 'Madagascar Kids', MS: 'Into the Woods Jr. (MS, Nov)', US: 'Upper School Musical' },
-    technicalTheatre: { MS: 'the backstage/technical course starts in Grade 6', US: 'Stagecraft I–II' },
+    technicalTheatre: { MS: 'The arts page lists Backstage for Grades 6–12', US: 'Stagecraft I–II' },
   },
   'charlotte-country-day': {
     visualArt: { LS: 'Two child-scaled art studios', MS: 'Three dedicated visual arts rooms', US: { course: '2-D Art I–IV' } },

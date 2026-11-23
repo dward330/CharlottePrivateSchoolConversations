@@ -1,0 +1,216 @@
+
+R8 (report only) — numbers that share a noun on one school page
+
+  cannon
+    students: 300 vs 195 vs 40 vs 3 vs 9
+      300: sportsPrograms.offered.headline · sportsPrograms.offered.stats[2].value+label
+      195: collegeSupportPrograms.transcript.flags[0].text
+      40: artsPrograms.ladder.enrichment[0].text
+      3: courseOfferings.divisions[0].departments[0].courses[2].description · courseOfferings.divisions[0].departments[2].courses[0].description
+      9: financialAidReport.sections[1].componentsTitle
+    seniors: 105 vs 26
+      105: collegeSupportPrograms.wholeClass.scoreTables[1].note · collegeSupportPrograms.verdict.checklist[1]
+      26: Compare counselor-caseload
+
+  charlotte-catholic
+    AP: 22 vs 2
+      22: collegeSupportPrograms.transcript.stats[1].value+label
+      2: collegeSupportPrograms.transcript.trust[2].text
+    seniors: 336 vs 56 vs 67
+      336: collegeSupportPrograms.counseling.headline · collegeSupportPrograms.counseling.stats[0].value+label · collegeSupportPrograms.counseling.stats[0].label · collegeSupportPrograms.wholeClass.scoreTables[0].note
+      56: collegeSupportPrograms.counseling.headline · collegeSupportPrograms.counseling.stats[0].value+label · Compare counselor-caseload
+      67: collegeSupportPrograms.verdict.checklist[4]
+    students: 1330 vs 9 vs 10 vs 11 vs 12
+      1330: artsPrograms.verdict.ask[1]
+      9: courseOfferings.divisions[0].departments[3].courses[0].description · courseOfferings.divisions[0].departments[3].courses[4].description · courseOfferings.divisions[0].departments[3].courses[9].description
+      10: courseOfferings.divisions[0].departments[3].courses[1].description · courseOfferings.divisions[0].departments[3].courses[5].description · courseOfferings.divisions[0].departments[3].courses[10].description
+      11: courseOfferings.divisions[0].departments[3].courses[2].description · courseOfferings.divisions[0].departments[3].courses[6].description · courseOfferings.divisions[0].departments[3].courses[11].description
+      12: courseOfferings.divisions[0].departments[3].courses[3].description · courseOfferings.divisions[0].departments[3].courses[7].description · courseOfferings.divisions[0].departments[3].courses[12].description
+    clubs: 76 vs 15 vs 23
+      76: clubsPrograms.affinity.headline · clubsPrograms.affinity.umbrella.detail · clubCatalog.verdict
+      15: clubsPrograms.affinity.strips[2].hint
+      23: clubCatalog.verdictHint
+
+  charlotte-christian
+    teams: 50 vs 44
+      50: sportsPrograms.offered.headline · sportsPrograms.offered.stats[1].value+label · sportsPrograms.offered.footnote
+      44: computed: V/JV/MS chips on Sports Offered
+    AP: 22 vs 21
+      22: collegeSupportPrograms.verdict.checklist[3]
+      21: courseOfferings.divisions[2].teaser
+    students: 31 vs 40 vs 35 vs 32 vs 20 vs 12 vs 30 vs 25 vs 21 vs 45 vs 27 vs 36 vs 15 vs 22 vs 42
+      31: internationalTravel.stats[3].note · internationalTravel.trips.alsoOnRecord[1].text · internationalTravel.network.conferences[5].text · internationalTravel.milestones.events[2].text
+      40: internationalTravel.trips.years[0].trips[0].group · internationalTravel.trips.years[0].trips[3].group · internationalTravel.trips.years[1].trips[0].group · internationalTravel.trips.years[2].trips[2].group (+5)
+      35: internationalTravel.trips.years[0].trips[1].group · internationalTravel.trips.years[3].trips[3].group · internationalTravel.trips.years[3].trips[4].group
+      32: internationalTravel.trips.years[0].trips[2].group · internationalTravel.trips.years[0].trips[4].group
+      20: internationalTravel.trips.years[0].trips[5].group · internationalTravel.trips.years[1].trips[3].group · internationalTravel.trips.years[2].trips[0].group · internationalTravel.trips.years[3].trips[6].group (+1)
+      12: internationalTravel.trips.years[0].trips[6].group
+      30: internationalTravel.trips.years[1].trips[1].group · internationalTravel.trips.years[1].trips[4].group · internationalTravel.trips.years[1].trips[5].group · internationalTravel.trips.years[1].trips[7].group (+1)
+      25: internationalTravel.trips.years[1].trips[2].group · internationalTravel.trips.years[3].trips[1].group
+      21: internationalTravel.trips.years[1].trips[6].group · internationalTravel.trips.years[2].trips[5].group
+      45: internationalTravel.trips.years[2].trips[1].group
+      27: internationalTravel.trips.years[3].trips[2].group
+      36: internationalTravel.trips.years[3].trips[5].group · internationalTravel.trips.years[4].trips[2].group
+      15: internationalTravel.trips.years[3].trips[7].group · internationalTravel.trips.years[4].trips[4].group
+      22: internationalTravel.trips.years[4].trips[1].group
+      42: internationalTravel.trips.alsoOnRecord[3].text
+
+  charlotte-country-day
+    teams: 72 vs 55
+      72: sportsPrograms.offered.headline · sportsPrograms.offered.stats[1].value+label · sportsPrograms.offered.footnote
+      55: computed: V/JV/MS chips on Sports Offered
+    institutions: 1 vs 150
+      1: collegeSupportPrograms.transcript.merit[3].detail
+      150: collegeSupportPrograms.counseling.stats[2].value+label
+    seniors: 27 vs 141
+      27: collegeSupportPrograms.counseling.headline · Compare counselor-caseload
+      141: collegeSupportPrograms.verdict.points[5].text
+    students: 341 vs 347 vs 12 vs 15 vs 10 vs 20 vs 17 vs 1
+      341: afterSchoolPrograms.cost.flags[1].text · afterSchoolPrograms.verdict.watchouts[2] · financialAidReport.sections[5].questions[0]
+      347: afterSchoolPrograms.cost.sources[3].label
+      12: internationalTravel.trips.years[0].trips[0].group
+      15: internationalTravel.trips.years[0].trips[2].group · internationalTravel.trips.years[0].trips[5].group
+      10: internationalTravel.trips.years[0].trips[3].group
+      20: internationalTravel.network.conferences[0].text
+      17: internationalTravel.network.conferences[1].text
+      1: learningSupport.services.verdicts.read.body · learningSupport.services.groups[0].rows[1].detail
+
+  charlotte-latin
+    teams: 66 vs 34
+      66: sportsPrograms.offered.headline · sportsPrograms.offered.stats[1].value+label · sportsPrograms.offered.footnote · sportsPrograms.offered.footnote
+      34: computed: V/JV/MS chips on Sports Offered
+    camps: 232 vs 169
+      232: summer.catalog.headline · Compare summer-camps
+      169: summer.catalog.intro
+    seniors: 1 vs 151 vs 38
+      1: collegeSupportPrograms.counseling.stats[0].value+label
+      151: collegeSupportPrograms.counseling.flags[0].text · collegeSupportPrograms.verdict.points[1].text
+      38: Compare counselor-caseload
+    students: 12 vs 1500 vs 20 vs 22 vs 5
+      12: collegeSupportPrograms.wholeClass.support[1].text · internationalTravel.trips.years[0].trips[0].group · internationalTravel.trips.years[0].trips[1].group · internationalTravel.trips.years[0].trips[2].group (+5)
+      1500: artsPrograms.ladder.stats[0].value+label · artsPrograms.ladder.stats[0].label
+      20: internationalTravel.trips.years[0].trips[7].group
+      22: internationalTravel.trips.years[2].trips[1].group · internationalTravel.milestones.events[8].text
+      5: courseOfferings.divisions[0].departments[2].courses[2].description
+    AP: 24 vs 23
+      24: collegeSupportPrograms.verdict.checklist[7] · Compare advanced-courses
+      23: courseOfferings.divisions[2].teaser
+    ensembles: 12 vs 3
+      12: artsPrograms.ladder.divisions[0].items[4]
+      3: Compare ensembles
+
+  charlotte-prep
+    teams: 10 vs 4 vs 2 vs 3 vs 11 vs 9
+      10: sportsPrograms.offered.stats[0].value+label
+      4: sportsPrograms.offered.seasons[0].note
+      2: sportsPrograms.offered.seasons[1].note
+      3: sportsPrograms.offered.seasons[2].note
+      11: sportsPrograms.offered.sources[1].label
+      9: computed: V/JV/MS chips on Sports Offered
+
+  covenant-day
+    camps: 29 vs 19
+      29: summer.catalog.subhead
+      19: Compare summer-camps
+    seniors: 1 vs 85
+      1: collegeSupportPrograms.counseling.stats[0].value+label
+      85: collegeSupportPrograms.counseling.flags[1].text · collegeSupportPrograms.verdict.checklist[0] · Compare counselor-caseload
+    ensembles: 1 vs 9
+      1: artsPrograms.ladder.headline
+      9: artsPrograms.ladder.stats[1].value+label · Compare ensembles
+
+  davidson-day
+    teams: 35 vs 33
+      35: sportsPrograms.offered.headline · sportsPrograms.offered.stats[1].value+label
+      33: computed: V/JV/MS chips on Sports Offered
+    students: 565 vs 13 vs 10 vs 18 vs 500 vs 4 vs 1
+      565: sportsPrograms.honors.subhead
+      13: clubsPrograms.service.flags[0].text · internationalTravel.trips.alsoOnRecord[2].text
+      10: internationalTravel.stats[2].value+label
+      18: internationalTravel.trips.years[0].trips[0].group · internationalTravel.trips.years[0].trips[1].group · internationalTravel.trips.years[0].trips[2].group
+      500: internationalTravel.network.intro.strong
+      4: learningSupport.services.verdicts.social.body · learningSupport.services.groups[0].rows[3].detail · learningSupport.services.groups[3].rows[1].detail
+      1: courseOfferings.divisions[0].notPublished
+    institutions: 2 vs 70 vs 278
+      2: collegeSupportPrograms.counseling.stats[1].value+label
+      70: collegeSupportPrograms.counseling.timeline[1].note · collegeSupportPrograms.verdict.points[4].text
+      278: collegeSupportPrograms.outcomes.collegesTotal
+
+  gaston-day
+    teams: 19 vs 7 vs 5 vs 20
+      19: sportsPrograms.offered.headline · sportsPrograms.offered.stats[0].value+label
+      7: sportsPrograms.offered.seasons[0].note · sportsPrograms.offered.seasons[2].note
+      5: sportsPrograms.offered.seasons[1].note
+      20: computed: V/JV/MS chips on Sports Offered
+    camps: 1 vs 27
+      1: summer.catalog.camps[13].name · summer.catalog.camps[13].desc · summer.catalog.sources[3].label
+      27: Compare summer-camps
+    seniors: 1 vs 35 vs 18
+      1: collegeSupportPrograms.counseling.stats[0].value+label
+      35: collegeSupportPrograms.counseling.stats[0].value+label · collegeSupportPrograms.counseling.stats[0].label · collegeSupportPrograms.counseling.flags[0].text · collegeSupportPrograms.counseling.flags[0].text (+3)
+      18: Compare counselor-caseload
+    institutions: 2 vs 231
+      2: collegeSupportPrograms.counseling.stats[1].value+label
+      231: collegeSupportPrograms.verdict.points[4].text
+    students: 11 vs 510
+      11: collegeSupportPrograms.wholeClass.scoreTables[1].note
+      510: artsPrograms.theatre.venueNote
+    ensembles: 2 vs 3
+      2: artsPrograms.ladder.sources[0].label
+      3: Compare ensembles
+
+  hickory-grove-christian
+    teams: 30 vs 28 vs 27
+      30: sportsPrograms.offered.headline · sportsPrograms.offered.stats[0].value+label · sportsPrograms.offered.footnote · sportsPrograms.offered.sources[0].label
+      28: sportsPrograms.offered.footnote
+      27: computed: V/JV/MS chips on Sports Offered
+    seniors: 1 vs 34
+      1: collegeSupportPrograms.counseling.stats[1].value+label
+      34: Compare counselor-caseload
+
+  providence-day
+    teams: 66 vs 56
+      66: sportsPrograms.offered.headline · sportsPrograms.offered.stats[1].value+label
+      56: computed: V/JV/MS chips on Sports Offered
+    institutions: 13 vs 8 vs 150 vs 383 vs 249
+      13: collegeSupportPrograms.transcript.merit[1].detail
+      8: collegeSupportPrograms.transcript.merit[2].detail
+      150: collegeSupportPrograms.counseling.subhead · collegeSupportPrograms.edge.levers[1].items[3]
+      383: collegeSupportPrograms.outcomes.collegesTotal
+      249: collegeSupportPrograms.outcomes.sources[2].label
+    seniors: 36 vs 1 vs 179
+      36: collegeSupportPrograms.counseling.headline · collegeSupportPrograms.verdict.points[2].text · Compare counselor-caseload
+      1: collegeSupportPrograms.counseling.stats[0].value+label · collegeSupportPrograms.counseling.flags[0].text
+      179: collegeSupportPrograms.counseling.flags[0].text · collegeSupportPrograms.verdict.checklist[3]
+    students: 497 vs 100 vs 30 vs 16 vs 6 vs 10 vs 12 vs 2 vs 4 vs 20 vs 375 vs 1
+      497: collegeSupportPrograms.verdict.points[1].text
+      100: artsPrograms.music.ladderNote
+      30: clubsPrograms.service.footnote
+      16: internationalTravel.trips.intro.strong
+      6: internationalTravel.trips.years[2].trips[0].group · internationalTravel.trips.years[2].trips[1].group
+      10: internationalTravel.trips.years[2].trips[2].group · internationalTravel.trips.years[2].trips[3].group
+      12: internationalTravel.trips.years[2].trips[4].group
+      2: internationalTravel.trips.years[2].trips[5].group
+      4: internationalTravel.trips.years[3].trips[1].group · internationalTravel.network.cells[1].text
+      20: internationalTravel.credential.stats[0].value+label
+      375: internationalTravel.credential.stats[1].value+label
+      1: courseOfferings.divisions[2].departments[4].courses[9].description
+
+  trinity-episcopal
+    teams: 4 vs 2 vs 10
+      4: sportsPrograms.offered.seasons[0].note · sportsPrograms.offered.seasons[2].note
+      2: sportsPrograms.offered.seasons[1].note
+      10: computed: V/JV/MS chips on Sports Offered
+    camps: 21 vs 38 vs 8 vs 13 vs 3
+      21: summer.costPlanner.tiers[0].detail
+      38: summer.costPlanner.tiers[1].detail
+      8: summer.costPlanner.tiers[2].detail
+      13: summer.costPlanner.tiers[3].detail
+      3: summer.costPlanner.tiers[4].detail
+    students: 5 vs 419
+      5: artsPrograms.visual.exhibits[0].detail
+      419: financialAidReport.sections[3].stats[2].value+label
+
+R8: 41 noun group(s) with more than one number.
+
+check:consistency: R1–R7 and R9–R12 clean.

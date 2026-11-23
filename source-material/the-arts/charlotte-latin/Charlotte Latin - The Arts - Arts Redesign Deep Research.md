@@ -884,3 +884,27 @@ Best Featured Performer.
 
 2023: https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf
 2024: https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+
+### Re-verification 2026-11-23 (plan consistency6, self-scan)
+
+- https://www.charlottelatin.org/the-arts/performing (HTTP 200): the program tabs still read
+  "Lower School (TK-Grade 4) · Band (Grades 5-12) · Orchestra (Grades 5-12) · Concert Choir
+  (Grades 5-12) · Theater (Grades 7-12) · Backstage (Grades 6-12)". The tab bodies are not in the
+  served HTML, so the page does not say whether Backstage is a class or a crew.
+- https://www.charlottelatin.org/academics/middle-school (HTTP 200), Electives: "Grade 6: Art ·
+  Band · Concert Choir · Engineering · Strings"; Grades 7 and 8 add Computer Programming, Drama,
+  Leadership Lab and Speech and Debate. No backstage, stagecraft or technical-theatre elective is
+  listed in any Middle School grade.
+
+### Re-verification 2026-11-23 (plan consistency6, implement)
+
+Re-opened before typing (LAT-V5).
+
+- https://www.charlottelatin.org/the-arts/performing (HTTP 200): the tab list still reads
+  "Theater (Grades 7-12) · Backstage (Grades 6-12)". The served HTML does not say whether
+  Backstage is a class.
+- https://www.charlottelatin.org/academics/middle-school (HTTP 200), Electives: "Grade 6: Art ·
+  Band · Concert Choir · Engineering · Strings". Grades 7 and 8 add Drama among others. The page
+  names no backstage, stagecraft or technical-theater class (0 matches).
+- The Arts card now attributes both pages, never calls Backstage a course, and asks "Is Backstage
+  in Grade 6 a class or an after-school crew?".

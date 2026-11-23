@@ -93,3 +93,10 @@ no credit-recovery program and no enrichment academic term of its own.
 - https://resources.finalsite.net/images/v1709839178/charlottecatholicorg/iyu7apngmnkk7rl5an1s/2024CougarCampFlyer.pdf (fetched): "Rising 3rd Grade- Rising 9th Grade". The football flyer gives no age range.
 - https://www.charlottecatholic.org/community/students/summer-camps (fetched): the basketball camp "is open to girls in rising grades 2–8".
 - https://www.charlottecatholic.org/athletics/all-sports/baseball/camps-clinics (fetched): "6-13 Years Old".
+
+### Re-verification 2026-11-23 (plan consistency6, self-scan)
+
+- https://resources.finalsite.net/images/v1709839178/charlottecatholicorg/iyu7apngmnkk7rl5an1s/2024CougarCampFlyer.pdf
+  (fetched, HTTP 200, no redirect): "COUGAR FOOTBALL CAMP", "MON. JULY 8TH- THURS. JULY 11TH, 2024",
+  "8:30am-11:30am", "Rising 3rd Grade- Rising 9th Grade", "MAIL FORM AND $160". Still a 2024 flyer, so
+  the card's "July" and its STALE flag stand. No 2026 date is published.

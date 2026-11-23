@@ -63,8 +63,8 @@
       ]
     },
     {
-      "t": "Établissement phare en STEM · Raleigh · la plus sélective des six",
-      "of": "f452f952",
+      "t": "Établissement phare en STEM · Raleigh · le taux le plus bas des six à l’automne 2025",
+      "of": "e9a436de",
       "at": [
         "providence-day:ncAdmissions.universities[1].note",
         "charlotte-country-day:ncAdmissions.universities[1].note"
@@ -114,12 +114,11 @@
       ]
     },
     {
-      "t": "Piedmont Triad · les taux d’admission les plus élevés des six",
-      "of": "013e700c",
+      "t": "Piedmont Triad · le taux le plus élevé des six à l’automne 2025",
+      "of": "fb2f93e2",
       "at": [
         "providence-day:ncAdmissions.universities[5].note",
-        "charlotte-christian:ncAdmissions.universities[5].note",
-        "hickory-grove-christian:ncAdmissions.universities[5].note"
+        "charlotte-christian:ncAdmissions.universities[5].note"
       ]
     },
     {
@@ -207,8 +206,8 @@
       ]
     },
     {
-      "t": "cours AP dans le tableau des cours du profil, dont 29 examinés en mai 2026",
-      "of": "cb8dc89d",
+      "t": "cours AP dans le tableau des cours du profil ; son tableau des scores de mai 2026 couvre 29 matières d’examen",
+      "of": "520f0657",
       "at": [
         "providence-day:transcript.stats[2].label"
       ]
@@ -1727,8 +1726,8 @@
       ]
     },
     {
-      "t": "Votre profil cite 30 cours AP, mais 29 matières ont été examinées en mai 2026. L’AP German et l’AP Business with Personal Finance sont-ils tous deux proposés cette année ?",
-      "of": "63091b03",
+      "t": "Votre profil cite 30 cours AP, mais l’AP German, l’AP Business with Personal Finance et l’AP Music Theory n’ont aucune ligne dans son tableau des scores de mai 2026. Ces trois cours sont-ils tous proposés cette année ?",
+      "of": "8099ac85",
       "at": [
         "providence-day:verdict.checklist[6]"
       ]
@@ -1788,8 +1787,14 @@
       "of": "86a529a7",
       "at": [
         "charlotte-latin:ncAdmissions.universities[0].note",
+        "charlotte-christian:ncAdmissions.universities[0].note",
+        "charlotte-catholic:ncAdmissions.universities[0].note",
+        "cannon:ncAdmissions.universities[0].note",
+        "covenant-day:ncAdmissions.universities[0].note",
         "davidson-day:ncAdmissions.universities[0].note",
-        "carmel-christian:ncAdmissions.universities[0].note"
+        "carmel-christian:ncAdmissions.universities[0].note",
+        "hickory-grove-christian:ncAdmissions.universities[0].note",
+        "gaston-day:ncAdmissions.universities[0].note"
       ]
     },
     {
@@ -1808,12 +1813,10 @@
       ]
     },
     {
-      "t": "Greenville · est de la Caroline du Nord · les taux d’admission les plus élevés des six",
-      "of": "df4c696f",
+      "t": "Greenville · est de la Caroline du Nord · le taux le plus élevé des six à l’automne 2025, à égalité avec UNC Greensboro",
+      "of": "a93f15c1",
       "at": [
         "charlotte-latin:ncAdmissions.universities[3].note",
-        "charlotte-catholic:ncAdmissions.universities[3].note",
-        "charlotte-country-day:ncAdmissions.universities[3].note",
         "davidson-day:ncAdmissions.universities[3].note",
         "carmel-christian:ncAdmissions.universities[3].note",
         "gaston-day:ncAdmissions.universities[3].note"
@@ -2934,18 +2937,6 @@
       ]
     },
     {
-      "t": "Établissement phare · Chapel Hill · la plus sélective des six",
-      "of": "5c94c33d",
-      "at": [
-        "charlotte-christian:ncAdmissions.universities[0].note",
-        "charlotte-catholic:ncAdmissions.universities[0].note",
-        "cannon:ncAdmissions.universities[0].note",
-        "covenant-day:ncAdmissions.universities[0].note",
-        "hickory-grove-christian:ncAdmissions.universities[0].note",
-        "gaston-day:ncAdmissions.universities[0].note"
-      ]
-    },
-    {
       "t": "Les élèves des cours AP sont tenus de passer l’examen, et 94% des 435 examens de 2026 ont obtenu 3 ou plus — un taux obtenu sur un vivier imposé plutôt qu’auto-sélectionné.",
       "of": "481a8057",
       "at": [
@@ -4003,6 +3994,14 @@
       "of": "a78a3c92",
       "at": [
         "charlotte-catholic:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
+      "t": "Greenville · est de la Caroline du Nord · le taux le plus élevé des six à l’automne 2025",
+      "of": "f281b5f3",
+      "at": [
+        "charlotte-catholic:ncAdmissions.universities[3].note",
+        "charlotte-country-day:ncAdmissions.universities[3].note"
       ]
     },
     {
@@ -6549,11 +6548,10 @@
       ]
     },
     {
-      "t": "Campus local · les taux d’admission les plus élevés des six",
-      "of": "d0419022",
+      "t": "Campus local · le taux le plus élevé des six à l’automne 2025, à égalité avec East Carolina University et UNC Greensboro",
+      "of": "c0bba457",
       "at": [
-        "cannon:ncAdmissions.universities[2].note",
-        "covenant-day:ncAdmissions.universities[2].note"
+        "cannon:ncAdmissions.universities[2].note"
       ]
     },
     {
@@ -6592,8 +6590,8 @@
       ]
     },
     {
-      "t": "des élèves ont obtenu 3+ (446 examens, 195 élèves, mai 2026)",
-      "of": "50a5f677",
+      "t": "« Students with Scores 3+ », selon l’intitulé du profil (446 examens, 195 élèves, mai 2026)",
+      "of": "b9667778",
       "at": [
         "cannon:transcript.stats[1].label"
       ]
@@ -7531,6 +7529,13 @@
       "of": "08d287a2",
       "at": [
         "covenant-day:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
+      "t": "Campus local · le taux le plus élevé des six à l’automne 2025",
+      "of": "0374c718",
+      "at": [
+        "covenant-day:ncAdmissions.universities[2].note"
       ]
     },
     {
@@ -10675,6 +10680,13 @@
       "of": "138cb23b",
       "at": [
         "hickory-grove-christian:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "Piedmont Triad · le taux le plus élevé des six à l’automne 2025, à égalité avec East Carolina University",
+      "of": "ae55cd56",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.universities[5].note"
       ]
     },
     {
