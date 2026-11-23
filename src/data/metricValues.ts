@@ -439,9 +439,9 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'college-support',
     key: 'ap-performance',
     label: 'AP scoring 3+',
-    note: 'Share of AP exams scoring 3 or higher, most recent reported year. Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate. Three schools use another basis: Cannon and Gaston Day report a share of students, and Carmel Christian a share of seniors. Those three do not compare directly with the per-exam figures.',
+    note: 'Share of AP exams scoring 3 or higher, most recent reported year. Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate. Gaston Day reports a share of students and Carmel Christian a share of seniors, so those two do not compare directly with the per-exam figures. Cannon’s profile labels its figure a share of students but also gives an exam count, so its basis is not certain.',
     values: {
-      cannon: '90%', // 90.16% "Students with Scores 3+", May 2026 (446 exams, 195 students)
+      cannon: '90%', // 90.16% labelled "Students with Scores 3+", May 2026 (446 exams, 195 students); whether it counts students or exams is not stated
       'charlotte-christian': '94%', // 2026: 94% of 435 exams (2026–27 profile; no pass count printed)
       'charlotte-catholic': '94%', // 2026: 94% of 1,184 exams, 22 subjects, 393 students — AP exams are MANDATORY in each AP course, so this is a whole-cohort figure
       'charlotte-country-day': '96%', // 2026 overall 96%, 589 exams (CCD - College Support - School Profile 2026-2027.md)
@@ -472,7 +472,7 @@ export const VALUE_METRICS: ValueMetric[] = [
         text:
           '94% of 1,184 AP exams scored 3 or above in 2026 (22 subjects, 393 students); 76% scored 4 or 5. AP exams are mandatory in every AP course at CCHS, so this is a whole-cohort rate and cannot be flattered by weaker candidates skipping the exam.',
       },
-      cannon: { kind: 'scope', text: 'About 90% scored 3 or higher in May 2026 (the school reports 90.16% of students with scores 3+; 195 students, 446 exams). A score of 3+ is the level most colleges treat as a passing result.' },
+      cannon: { kind: 'scope', text: 'The profile labels 90.16% “Students with Scores 3+” for May 2026. It gives both 195 students and 446 exams, so its basis is not certain. A score of 3+ is the level most colleges treat as a passing result.' },
       'covenant-day': { kind: 'scope', text: '96% of AP exams scored 3 or higher in 2026 (179 students took 401 exams; every AP student must sit the exam). A score of 3+ is the level most colleges treat as a passing result.' },
       'charlotte-christian': { kind: 'scope', text: '94% of AP exams scored 3 or higher in 2026 (435 exams, 208 students; the profile gives no pass count). A score of 3+ is the level most colleges treat as a passing result.' },
       'charlotte-latin': { kind: 'scope', text: '92% of 833 AP exams scored 3 or higher in 2026 (308 students; mean score 4.10). Latin requires every AP student to sit the exam. A score of 3+ is the level most colleges treat as a passing result.' },

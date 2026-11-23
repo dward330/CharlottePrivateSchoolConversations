@@ -343,7 +343,7 @@ export const cannon: ArtsProgram = {
 
   verdict: {
     headline:
-      'An arts department that weights the arts like academics — 24 courses all at honors or above, a two-year requirement, and a documented strategic mission.',
+      'An arts department that sets every arts course at an academic level — 24 courses all at honors or above, a two-year requirement, and a documented strategic mission.',
     subhead:
       'The asymmetry is the thing to understand: theatre carries hard third-party validation, while music’s external recognition is undocumented and its strength lies in production instead.',
     holdsUp: [

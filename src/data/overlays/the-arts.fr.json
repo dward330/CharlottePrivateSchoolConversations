@@ -917,8 +917,8 @@
       ]
     },
     {
-      "t": "Le théâtre se déroule des niveaux 7 à 12 — mais le cours de coulisses/technique commence en Grade 6, un an plus tôt",
-      "of": "5fbb13f2",
+      "t": "La page des arts présente Backstage pour les niveaux 6–12, un an avant Theater (7–12). La liste des cours du Middle School ne mentionne aucun cours de coulisses.",
+      "of": "c22a27e1",
       "at": [
         "charlotte-latin:ladder.divisions[1].items[1]"
       ]
@@ -1114,8 +1114,8 @@
       ]
     },
     {
-      "t": "Alicia Long dirige le programme des arts du spectacle. La filière technique est construite étape par étape, et l’école la sous-vend. D’abord, le cours de coulisses/technique commence en Grade 6 — un an avant le cours d’interprétation. Ensuite, la séquence de l’Upper School se déroule Stagecraft I → Stagecraft II → Advanced Design, avec en plus une option de technique de scène après les cours. Cette filière a produit une nomination Blumey 2025 en Best Student Stage Manager. Pour un élève qui préfère construire plutôt que jouer, c’est plus solide que ce que publient la plupart des établissements comparables.",
-      "of": "d0c5e207",
+      "t": "Alicia Long dirige le programme des arts du spectacle. La filière technique est construite étape par étape, et l’école la sous-vend. D’abord, la page des arts présente Backstage dès le Grade 6, un an avant Theater, bien que la liste des cours du Middle School ne mentionne aucun cours de coulisses. Ensuite, la séquence de l’Upper School se déroule Stagecraft I → Stagecraft II → Advanced Design, avec en plus une option de technique de scène après les cours. Cette filière a produit une nomination Blumey 2025 en Best Student Stage Manager. Pour un élève qui préfère construire plutôt que jouer, c’est plus solide que ce que publient la plupart des établissements comparables.",
+      "of": "1d9402fd",
       "at": [
         "charlotte-latin:theatre.whoRunsIt"
       ]
@@ -1420,8 +1420,8 @@
       ]
     },
     {
-      "t": "la technique de coulisses commence en Grade 6 — un an avant le cours d’interprétation — et se déroule Stagecraft I → II → Advanced Design, avec en plus de la technique de scène après les cours. Elle a produit une nomination Blumey 2025 en Best Student Stage Manager.",
-      "of": "7fe9c60d",
+      "t": "la page des arts présente Backstage dès le Grade 6, un an avant Theater, bien que la liste des cours du Middle School ne mentionne aucun cours de coulisses. L’Upper School propose Stagecraft I → II → Advanced Design, avec en plus de la technique de scène après les cours. Cette filière a produit une nomination Blumey 2025 en Best Student Stage Manager.",
+      "of": "be7a8059",
       "at": [
         "charlotte-latin:verdict.holdsUp[1].text"
       ]
@@ -1497,24 +1497,31 @@
       ]
     },
     {
+      "t": "La page des arts présente Backstage pour les niveaux 6–12, mais la liste des cours du Middle School ne mentionne aucun cours de coulisses. Backstage en Grade 6 est-il un cours ou une équipe technique après les cours ?",
+      "of": "5215ee41",
+      "at": [
+        "charlotte-latin:verdict.ask[4]"
+      ]
+    },
+    {
       "t": "Six ateliers — quels supports chacun accueille-t-il ? Y a-t-il un four céramique, une chambre noire, une presse de gravure, un studio de danse dédié ? La page Arts Facilities ne contient que des photos, sans aucun texte descriptif.",
       "of": "4d941a78",
       "at": [
-        "charlotte-latin:verdict.ask[4]"
+        "charlotte-latin:verdict.ask[5]"
       ]
     },
     {
       "t": "Vous citez plus de 80% de participation aux arts. Ce chiffre inclut-il les cours d’arts obligatoires de Lower School et de Middle School, ou uniquement les inscriptions en option et en ensemble — et quel est le chiffre pour l’Upper School seule ?",
       "of": "1858002f",
       "at": [
-        "charlotte-latin:verdict.ask[5]"
+        "charlotte-latin:verdict.ask[6]"
       ]
     },
     {
       "t": "Comment le Fab Lab est-il réellement utilisé par le département des arts, par opposition à Innovation & Design ? Décrivez-moi un projet qui combine fabrication numérique et arts plastiques.",
       "of": "322458ef",
       "at": [
-        "charlotte-latin:verdict.ask[6]"
+        "charlotte-latin:verdict.ask[7]"
       ]
     },
     {
@@ -4448,8 +4455,8 @@
       ]
     },
     {
-      "t": "Un département artistique qui pondère les arts comme les matières académiques — 24 cours tous au niveau honors ou au-dessus, une exigence de deux ans, et une mission stratégique documentée.",
-      "of": "3706ae87",
+      "t": "Un département artistique qui place chaque cours d’arts à un niveau académique — 24 cours tous au niveau honors ou au-dessus, une exigence de deux ans, et une mission stratégique documentée.",
+      "of": "45ab32a4",
       "at": [
         "cannon:verdict.headline"
       ]

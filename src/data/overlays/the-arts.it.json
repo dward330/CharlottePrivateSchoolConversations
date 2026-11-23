@@ -917,8 +917,8 @@
       ]
     },
     {
-      "t": "Il teatro va dalla Grade 7 alla 12 — ma il corso di scena/tecnico inizia in Grade 6, un anno prima",
-      "of": "5fbb13f2",
+      "t": "La pagina delle arti elenca Backstage per le Grade 6–12, un anno prima di Theater (7–12). L'elenco dei corsi della Middle School non nomina alcun corso di scena.",
+      "of": "c22a27e1",
       "at": [
         "charlotte-latin:ladder.divisions[1].items[1]"
       ]
@@ -1114,8 +1114,8 @@
       ]
     },
     {
-      "t": "Alicia Long dirige il programma di arti performative. Il percorso tecnico è articolato passo per passo, e la scuola lo valorizza meno di quanto meriti. Per prima cosa, il corso di scena/tecnico inizia in Grade 6 — un anno prima del corso di recitazione. Poi la sequenza della Upper School va da Stagecraft I → Stagecraft II → Advanced Design, più un'opzione di scenotecnica dopo la scuola. Il percorso ha prodotto una candidatura Blumey 2025 come Best Student Stage Manager. Per uno studente che preferisce costruire piuttosto che esibirsi, questo è più solido di quanto pubblichi la maggior parte delle scuole pari.",
-      "of": "d0c5e207",
+      "t": "Alicia Long dirige il programma di arti performative. Il percorso tecnico è articolato passo per passo, e la scuola lo valorizza meno di quanto meriti. Per prima cosa, la pagina delle arti elenca Backstage dalla Grade 6, un anno prima di Theater, anche se l'elenco dei corsi della Middle School non nomina alcun corso di scena. Poi la sequenza della Upper School va da Stagecraft I → Stagecraft II → Advanced Design, più un'opzione di scenotecnica dopo la scuola. Il percorso ha prodotto una candidatura Blumey 2025 come Best Student Stage Manager. Per uno studente che preferisce costruire piuttosto che esibirsi, questo è più solido di quanto pubblichi la maggior parte delle scuole pari.",
+      "of": "1d9402fd",
       "at": [
         "charlotte-latin:theatre.whoRunsIt"
       ]
@@ -1420,8 +1420,8 @@
       ]
     },
     {
-      "t": "la tecnica di scena inizia in Grade 6 — un anno prima del corso di recitazione — e prosegue Stagecraft I → II → Advanced Design, più scenotecnica dopo la scuola. Ha prodotto una candidatura Blumey 2025 come Best Student Stage Manager.",
-      "of": "7fe9c60d",
+      "t": "la pagina delle arti elenca Backstage dalla Grade 6, un anno prima di Theater, anche se l'elenco dei corsi della Middle School non nomina alcun corso di scena. La Upper School prosegue con Stagecraft I → II → Advanced Design, più scenotecnica dopo la scuola. Ha prodotto una candidatura Blumey 2025 come Best Student Stage Manager.",
+      "of": "be7a8059",
       "at": [
         "charlotte-latin:verdict.holdsUp[1].text"
       ]
@@ -1497,24 +1497,31 @@
       ]
     },
     {
+      "t": "La pagina delle arti elenca Backstage per le Grade 6–12, ma l'elenco dei corsi della Middle School non nomina alcun corso di scena. Backstage in Grade 6 è un corso o un gruppo tecnico dopo la scuola?",
+      "of": "5215ee41",
+      "at": [
+        "charlotte-latin:verdict.ask[4]"
+      ]
+    },
+    {
       "t": "Sei studi — quali media ospita ciascuno? C'è un forno, una camera oscura, un torchio da stampa, uno studio di danza dedicato? La pagina Arts Facilities è di sole foto, senza testo descrittivo.",
       "of": "4d941a78",
       "at": [
-        "charlotte-latin:verdict.ask[4]"
+        "charlotte-latin:verdict.ask[5]"
       ]
     },
     {
       "t": "Citate oltre l'80% di partecipazione alle arti. Questo conteggia le lezioni d'arte obbligatorie di Lower e Middle School, oppure solo le iscrizioni a materie opzionali ed ensemble — e qual è il numero relativo alla sola Upper School?",
       "of": "1858002f",
       "at": [
-        "charlotte-latin:verdict.ask[5]"
+        "charlotte-latin:verdict.ask[6]"
       ]
     },
     {
       "t": "Come viene effettivamente usato il Fab Lab dal dipartimento artistico, rispetto a Innovation & Design? Illustratemi un progetto che combina fabbricazione digitale e arte di studio.",
       "of": "322458ef",
       "at": [
-        "charlotte-latin:verdict.ask[6]"
+        "charlotte-latin:verdict.ask[7]"
       ]
     },
     {
@@ -4448,8 +4455,8 @@
       ]
     },
     {
-      "t": "Un dipartimento artistico che pesa le arti come le materie accademiche — 24 corsi tutti honors o superiore, un requisito di due anni e una missione strategica documentata.",
-      "of": "3706ae87",
+      "t": "Un dipartimento artistico che colloca ogni corso di arte a livello accademico — 24 corsi tutti honors o superiore, un requisito di due anni e una missione strategica documentata.",
+      "of": "45ab32a4",
       "at": [
         "cannon:verdict.headline"
       ]

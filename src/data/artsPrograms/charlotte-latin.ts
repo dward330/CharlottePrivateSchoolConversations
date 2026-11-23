@@ -65,7 +65,12 @@ export const charlotteLatin: ArtsProgram = {
         grades: '6–8',
         items: [
           'Band, orchestra, choir and theater are the foundation, with ensemble and solo performance',
-          'Theater runs Grades 7–12 — but the backstage/technical course starts in Grade 6, a year earlier',
+          // Backstage (LAT-V5, re-read 2026-11-23): https://www.charlottelatin.org/the-arts/performing
+          // lists "Backstage (Grades 6-12)" beside "Theater (Grades 7-12)", but
+          // https://www.charlottelatin.org/academics/middle-school lists no backstage class in any
+          // grade (Grade 6: Art, Band, Concert Choir, Engineering, Strings). Not called a course
+          // until the school says what it is; the Verdict asks.
+          'The arts page lists Backstage for Grades 6–12, a year before Theater (7–12). The Middle School course list names no backstage class.',
           'Visual arts electives by choice',
           'Grade 8 visual art is SELF-DESIGNED: students set their own course and may sculpt, paint, draw, design or photograph any subject in any genre',
         ],
@@ -144,7 +149,7 @@ export const charlotteLatin: ArtsProgram = {
       },
     ],
     whoRunsIt:
-      'Alicia Long heads the performing arts program. The tech track is laid out step by step, and the school undersells it. First, the backstage/technical course starts in Grade 6 — a year before the acting course. Then the Upper School sequence runs Stagecraft I → Stagecraft II → Advanced Design, plus an after-school stagecraft option. The track produced a 2025 Blumey nomination for Best Student Stage Manager. For a student who would rather build than perform, this is stronger than most peer schools publish.',
+      'Alicia Long heads the performing arts program. The tech track is laid out step by step, and the school undersells it. First, the arts page lists Backstage from Grade 6, a year before Theater, though the Middle School course list names no backstage class. Then the Upper School sequence runs Stagecraft I → Stagecraft II → Advanced Design, plus an after-school stagecraft option. The track produced a 2025 Blumey nomination for Best Student Stage Manager. For a student who would rather build than perform, this is stronger than most peer schools publish.',
     venueNote:
       'Latin runs a dedicated box office (boxoffice@charlottelatin.org) with a waitlist for sold-out shows. The theatre program runs like a ticketed venue. The school publishes no name for a theatre director or technical director. That is a real gap in openness compared with peer schools.',
     ledgerTitle: 'The Blumey ledger — results from six years',
@@ -351,7 +356,7 @@ export const charlotteLatin: ArtsProgram = {
       },
       {
         label: 'A genuinely articulated tech-theatre track',
-        text: 'backstage tech starts in Grade 6 — a year before the acting course — and runs Stagecraft I → II → Advanced Design, plus after-school stagecraft. It produced a 2025 Blumey nomination for Best Student Stage Manager.',
+        text: 'the arts page lists Backstage from Grade 6, a year before Theater, though the Middle School course list names no backstage class. The Upper School runs Stagecraft I → II → Advanced Design, plus after-school stagecraft. It produced a 2025 Blumey nomination for Best Student Stage Manager.',
       },
       {
         label: 'An independent-study on-ramp at Grade 8',
@@ -371,6 +376,7 @@ export const charlotteLatin: ArtsProgram = {
       'Latin had two Blumey wins in 2022. It had five finalists in each year from 2023 to 2026. In 2024–26 it had only one nomination, for stage manager in 2025. What changed, and where is the musical theatre program heading with The Little Mermaid?',
       'Your materials name Alicia Long, Richard Fletcher and an assistant band director. They name no Director of Bands, orchestra director, choral director, theatre director or technical director. Who leads each ensemble, and how long have they been here?',
       'There are no auditioned or tiered ensembles published — no jazz band, no chamber or wind ensemble. The club list has an open Acapella Club. Is there an auditioned a cappella group, and how does a player already at All-State level keep progressing rather than coasting?',
+      'The arts page lists Backstage for Grades 6–12, but the Middle School course list names no backstage class. Is Backstage in Grade 6 a class or an after-school crew?',
       'Six studios — which media does each hold? Is there a kiln, a darkroom, a printmaking press, a dedicated dance studio? The Arts Facilities page is photos only, with no descriptive text.',
       'You cite over 80% arts participation. Does that count required Lower and Middle School arts classes, or only elective and ensemble enrollment — and what is the Upper School–only number?',
       'How is the Fab Lab actually used by the arts department, as opposed to Innovation & Design? Walk me through one project combining digital fabrication with studio art.',

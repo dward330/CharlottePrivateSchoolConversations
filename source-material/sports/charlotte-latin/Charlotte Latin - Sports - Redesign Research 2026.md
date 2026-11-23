@@ -27,8 +27,13 @@
 - NCISAA **4A**, **CISAA** conference; football in the new "Big South". AD David Gatoux is
   the current CISAA president. https://clshawks.com/sports/2024/10/16/about.aspx
 - **128-acre campus** — the largest of any Charlotte-area independent school.
-  **165 state championships across 21 sports** since 1973; **17 Wells Fargo Cups**.
-  https://en.wikipedia.org/wiki/Charlotte_Latin_School
+  **200 NCISAA state titles through spring 2026**, per the school's athletics site (a graphic
+  dated June 8, 2026, with 23 sport lines that sum to 200).
+  https://clshawks.com/sports/2026/3/31/cls-team-championships.aspx
+  **18 Wells Fargo Cups**, per the school's Cup page,
+  https://clshawks.com/sports/2025/12/16/wells-fargo-cup.aspx (Wikipedia says 17,
+  https://en.wikipedia.org/wiki/Charlotte_Latin_School; see the Wells Fargo Cup Standings
+  2020-2026 record).
 
 ## 2. Winning Record — 8 state titles in three seasons
 
@@ -41,6 +46,9 @@
 | Boys Swimming | STATE (462 pts, 4 records) | 2nd | 2nd |
 | Volleyball | 13–11 | 18–6 | RUNNER-UP 29–2 |
 | Field Hockey | 14–6 | 11–8 | RUNNER-UP 16–5 |
+| Girls Soccer | RUNNER-UP | RUNNER-UP | — (quarterfinal) |
+| Girls Cross Country | — (3rd, 94 pts) | RUNNER-UP (86 to Country Day's 79) | not confirmed |
+| Boys Tennis | — (quarterfinal) | RUNNER-UP | RUNNER-UP |
 
 - 2024 swimming: https://www.highschoolot.com/story/charlotte-latin-wins-ncisaa-d1-boys-swimming-championship-sets-four-records/21295043/
 - 2025 wrestling one-point loss: https://www.highschoolot.com/story/metrolina-christian-takes-ncisaa-wrestling-championship-by-one-point/21863211/
@@ -175,7 +183,8 @@ the app carries on cards 1c and 1d. **Card 1g is therefore omitted for Latin.**
 - Wrestling dual records for 2023-24 and 2024-25 not published; golf has no W–L record.
 - Tenure start years unknown for 11 of 20 head coaches; career records unknown for the same.
 - Boys soccer head coach ambiguous: staff directory says Kyle Searles, MaxPreps credits Lee Horton.
-- Whether McNulty's total is 11 or 12 football titles is unresolved.
+- Football titles: resolved 2026-11-23. The program has 12 (the school's graphic); 11 of them
+  came under one coach, 1987–2016 (his Hall of Fame page).
 - Square footage unpublished for the Strength Center, Fitness Center and Belk Gym.
 - Claudia Dickey's professional soccer status is inferred from her HOF induction, not verified.
 
@@ -200,3 +209,48 @@ https://archives.ncisaa.org/index.php?sport=11&currentyear=1: 2026 4A girls tenn
 champion "#1 Charlotte Latin School (17-2)", 5-0 over Providence Day.
 https://archives.ncisaa.org/index.php?sport=12&currentyear=1: 2026 4A volleyball, out in the semifinals.
 https://archives.ncisaa.org/index.php?sport=9&currentyear=1: 2026 Division 1 field hockey, out in the semifinals.
+
+### Re-verification 2026-11-23 (plan consistency6, self-scan)
+
+- https://clshawks.com/sports/2026/3/31/cls-team-championships.aspx (HTTP 200) links a graphic,
+  https://clshawks.com/images/2026/6/8/CLS_State_Championship_Graphic__1_.png (dated June 8, 2026
+  in its path; read as an image). It prints "200 NCISAA STATE TITLES" and a per-sport list that
+  sums to 200 across 23 sport lines, including "26 WRESTLING", "15 TENNIS - GIRLS" and
+  "12 FOOTBALL". The Sports Offered card's "165 state championships across 21 sports" (Wikipedia)
+  is therefore below the school's own count, and the graphic predates the fall 2026 girls tennis
+  title.
+- https://clshawks.com/honors/hall-of-fame/coach-larry-mcnulty/13 (HTTP 200): "leading the team to
+  11 state football championships (1987, 1989, 1991, 1996, 1999, 2003, 2005, 2006, 2007, 2009,
+  2016)". So 11 is the McNulty-era count and 12 is the school's program count. The College
+  Pipeline card's "the program's eleven historic state titles" uses the coach's figure.
+- https://clshawks.com/staff-directory/brad-hoover/162 (HTTP 200): "After a very successful 10-year
+  stint playing fullback in the NFL, Hoover retired from the Panthers in 2010"; "joining the
+  Carolina Panthers franchise as a free agent in 2000". The card's "10 yrs" and "2000–10" are the
+  school's own.
+
+### Re-verification 2026-11-23 (plan consistency6, implement)
+
+Re-opened before typing. Every value below matches the self-scan's read of the same day.
+
+- https://clshawks.com/sports/2026/3/31/cls-team-championships.aspx (HTTP 200) still links
+  `CLS_State_Championship_Graphic__1_.png` (dated 2026/6/8; a 302 to the Sidearm image CDN, read
+  before following). The graphic reads "200 NCISAA STATE TITLES". Its 23 lines sum to 200, and
+  one is "12 FOOTBALL". The Sports Offered card now prints 200 "through spring 2026" and drops
+  Wikipedia's "165 … across 21 sports". 201 is not typed for the fall 2026 girls tennis title.
+- https://clshawks.com/honors/hall-of-fame/coach-larry-mcnulty/13 (HTTP 200): still "11 state
+  football championships (1987, … 2016)". The College Pipeline card now says twelve.
+- Matrix rows added from the NCISAA archive (bracket depth read from the table columns):
+  - Girls soccer (`sport=17`): 2023–24 and 2024–25 4A finals lost to Providence Day; 2025–26 out
+    in the quarterfinal as the #6 seed.
+  - Boys tennis (`sport=16`): 2023–24 out in the quarterfinal (Cary Academy won); 2024–25 final
+    lost to Carmel Christian; 2025–26 final lost to Durham Academy.
+  - Girls cross country (`sport=2` links Mitchell Timing): fall 2023 4A girls, Latin 3rd with 94
+    (Providence Day 41, Country Day 83),
+    http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_Cross_Country_Championships_2023/ ; fall
+    2024, Latin 2nd with 86 to Country Day's 79,
+    http://results.tfmeetpro.com/Mitchell_Timing/NCISAA_XC_Championships_2024/ . The 2025–26 page
+    links no results and no Mitchell Timing page was found for fall 2025, so that cell is held as
+    NONE with a dev-only `toVerify` (plan default). The Cup ledger has no 2025 girls cross country
+    finish, and HighSchoolOT's 2025–26 champions list names Durham Academy.
+  - No bracket prints a season-ending record for a runner-up, so those cells carry none.
+

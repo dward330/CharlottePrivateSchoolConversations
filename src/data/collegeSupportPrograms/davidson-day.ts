@@ -405,7 +405,7 @@ export const davidsonDay: CollegeSupportProgram = {
         key: 'east-carolina-university',
         name: 'East Carolina University',
         rank: 4,
-        note: 'Greenville · eastern NC · largest admit rates of the six',
+        note: 'Greenville · eastern NC · the highest of the six in Fall 2025, tied with UNC Greensboro',
         applied: '6',
         accepted: '6',
         rate: '100.0%',

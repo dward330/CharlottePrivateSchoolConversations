@@ -225,7 +225,7 @@ export const charlottePrep: SummerProgram = {
         grades: K_8,
         gradeLabel: 'K–8',
         days: [],
-        dayLabel: 'Mon–Fri',
+        dayLabel: 'Mon–Thu (June) · Mon–Fri (July)',
         price: '$400 · $500',
         hours: '9:00–4:00',
         weeks: 'June 15–18 and July 13–17',

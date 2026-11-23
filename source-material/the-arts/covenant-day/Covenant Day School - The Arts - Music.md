@@ -38,3 +38,13 @@ Teacher.**
 
 No NCMEA All-State/All-District honors appear on the music page (confirmed
 absence), and no marching band exists — the band program is concert/symphonic.
+
+## Method
+
+### Re-verification 2026-11-23 (plan consistency6, self-scan)
+
+- https://www.covenantday.org/arts/music (fetched, HTTP 200). Course Offerings: "General Music (JK-4)",
+  "Introduction to Choir and Band (5)", "Middle School Band (6-8)", "Middle School Choir (6-8)",
+  "Middle School Worship Band", "High School Symphonic Band", "High School Choir", "High School Worship
+  Band". Co-curricular: "Tri-M Honor Society", "CDS Children's Choir (grades 3-5)", "High School A
+  Cappella". The grade-5 introduction is one listed offering, so the nine ensembles above still hold.

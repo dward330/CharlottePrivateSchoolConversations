@@ -350,3 +350,15 @@ lists "Enrichment classes · no rate" and asks for the rate (Q3).
 - https://www.charlottecountryday.org/bucsnet/after-school/extended-day (HTTP 200):
   "Registration Fee. $80 (due upon enrollment)"; drop-in "one-time $40 registration fee";
   conference and professional days "at a separate cost"; "3:00 pm (carpool siblings only)".
+
+### Re-verification 2026-11-23 (plan consistency6, self-scan)
+
+- https://www.charlottecountryday.org/bucsnet/after-school/extended-day (HTTP 200, no redirect): "Fees are based on pick-up times; additional time incurs hourly charges, and late pick-ups after 6 pm are charged $10 per 10-minute interval."
+
+### Re-verification 2026-11-23 (plan consistency6, implement)
+
+Re-opened before typing (PD-V3).
+
+- https://www.charlottecountryday.org/bucsnet/after-school/extended-day (HTTP 200): "late pick-ups
+  after 6 pm are charged $10 per 10-minute interval". Beyond Tuition now lists it, per the user's
+  ruling of 2026-11-23 (list every published Extended Day charge).

@@ -917,8 +917,8 @@
       ]
     },
     {
-      "t": "El teatro va de 7.º a 12.º — pero la asignatura de tramoya y técnica empieza en 6.º, un año antes",
-      "of": "5fbb13f2",
+      "t": "La página de artes incluye Backstage de 6.º a 12.º grado, un año antes que Theater (de 7.º a 12.º). La lista de cursos de Middle School no recoge ninguna clase de tramoya.",
+      "of": "c22a27e1",
       "at": [
         "charlotte-latin:ladder.divisions[1].items[1]"
       ]
@@ -1114,8 +1114,8 @@
       ]
     },
     {
-      "t": "Alicia Long dirige el programa de artes escénicas. El itinerario técnico está planteado paso a paso, y la escuela lo publicita poco. Primero, la asignatura de tramoya empieza en 6.º grado — un año antes que la de interpretación. Después, la secuencia de la Upper School va de Stagecraft I a Stagecraft II y Diseño Avanzado, más una opción extraescolar de tramoya. El itinerario produjo una nominación Blumey de 2025 a Mejor Regidor Estudiantil. Para quien prefiera construir antes que actuar, esto es más sólido de lo que publican la mayoría de las escuelas comparables.",
-      "of": "d0c5e207",
+      "t": "Alicia Long dirige el programa de artes escénicas. El itinerario técnico está planteado paso a paso, y la escuela lo publicita poco. Primero, la página de artes incluye Backstage desde 6.º grado, un año antes que Theater, aunque la lista de cursos de Middle School no recoge ninguna clase de tramoya. Después, la secuencia de la Upper School es Stagecraft I → Stagecraft II → Advanced Design, más una opción extraescolar de tramoya. El itinerario produjo una nominación Blumey de 2025 a Mejor Regidor Estudiantil. Para quien prefiera construir antes que actuar, esto es más sólido de lo que publican la mayoría de las escuelas comparables.",
+      "of": "1d9402fd",
       "at": [
         "charlotte-latin:theatre.whoRunsIt"
       ]
@@ -1420,8 +1420,8 @@
       ]
     },
     {
-      "t": "la tramoya empieza en 6.º grado — un año antes que la asignatura de interpretación — y avanza de Stagecraft I a II y Diseño Avanzado, más tramoya extraescolar. Produjo una nominación Blumey de 2025 a Mejor Regidora Estudiantil.",
-      "of": "7fe9c60d",
+      "t": "la página de artes incluye Backstage desde 6.º grado, un año antes que Theater, aunque la lista de cursos de Middle School no recoge ninguna clase de tramoya. La Upper School sigue Stagecraft I → II → Advanced Design, más tramoya extraescolar. Produjo una nominación Blumey de 2025 a Mejor Regidora Estudiantil.",
+      "of": "be7a8059",
       "at": [
         "charlotte-latin:verdict.holdsUp[1].text"
       ]
@@ -1497,24 +1497,31 @@
       ]
     },
     {
+      "t": "La página de artes incluye Backstage de 6.º a 12.º grado, pero la lista de cursos de Middle School no recoge ninguna clase de tramoya. ¿Backstage en 6.º grado es una clase o un equipo extraescolar?",
+      "of": "5215ee41",
+      "at": [
+        "charlotte-latin:verdict.ask[4]"
+      ]
+    },
+    {
       "t": "Seis talleres — ¿qué disciplinas alberga cada uno? ¿Hay horno, cuarto oscuro, prensa de grabado, sala de danza propia? La página de instalaciones artísticas son solo fotos, sin texto descriptivo.",
       "of": "4d941a78",
       "at": [
-        "charlotte-latin:verdict.ask[4]"
+        "charlotte-latin:verdict.ask[5]"
       ]
     },
     {
       "t": "Citan más del 80% de participación en artes. ¿Eso cuenta las clases obligatorias de artes de la Lower y la Middle School, o solo las optativas y los conjuntos — y cuál es la cifra solo de la Upper School?",
       "of": "1858002f",
       "at": [
-        "charlotte-latin:verdict.ask[5]"
+        "charlotte-latin:verdict.ask[6]"
       ]
     },
     {
       "t": "¿Cómo usa realmente el departamento de artes el Fab Lab, frente a Innovation & Design? Descríbanme un proyecto que combine fabricación digital y arte de taller.",
       "of": "322458ef",
       "at": [
-        "charlotte-latin:verdict.ask[6]"
+        "charlotte-latin:verdict.ask[7]"
       ]
     },
     {
@@ -4448,8 +4455,8 @@
       ]
     },
     {
-      "t": "Un departamento de artes que da a las artes el mismo peso que a lo académico — 24 asignaturas de honores o superior, un requisito de dos años y una misión estratégica documentada.",
-      "of": "3706ae87",
+      "t": "Un departamento de artes que da a cada asignatura de artes un nivel académico — 24 asignaturas, todas de honores o superior, un requisito de dos años y una misión estratégica documentada.",
+      "of": "45ab32a4",
       "at": [
         "cannon:verdict.headline"
       ]

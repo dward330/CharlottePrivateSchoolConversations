@@ -159,7 +159,7 @@ export type FinancialAidReport = {
 
 const COUNTRY_DAY: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus, tutoring and Extended Day registration fees 22 Nov 2026',
+  meta: '2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus, tutoring and Extended Day registration fees 22 Nov, Extended Day late and contract-change fees 23 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -224,8 +224,8 @@ const COUNTRY_DAY: FinancialAidReport = {
       rangeMax: 700,
       figureNote:
         'Scale $0–700. A bounded estimate per division, not an itemized fee schedule — covers textbooks & supplies (gr. 5–12), activity fees, and athletic fees. Enrollment deposit: 10% of tuition, credited toward tuition due.',
-      componentsTitle: 'Twelve confirmed cost components — 3 unpriced',
-      componentsAside: 'All-in estimate not built: 25% unpriced, plus 25% in a range only',
+      componentsTitle: 'Fourteen confirmed cost components — 3 unpriced',
+      componentsAside: 'All-in estimate not built: 21% unpriced, plus 21% in a range only',
       components: [
         { label: 'Tuition — five bands, priced', status: 'priced' },
         { label: 'Textbooks & supplies · in range only', status: 'range' },
@@ -238,12 +238,14 @@ const COUNTRY_DAY: FinancialAidReport = {
         { label: 'Dining hall · no rate', status: 'unpriced' },
         { label: 'MS PE uniforms · no rate', status: 'unpriced' },
         { label: 'Extended Day registration · $80 contract, $40 drop-in', status: 'priced' },
+        { label: 'Extended Day late pickup · $10 per 10-minute interval after 6:00 p.m.', status: 'priced' },
+        { label: 'Extended Day contract change (beyond the first) · $50', status: 'priced' },
         { label: 'Extended Day conference days · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        "Three of the twelve items have no published price: the dining hall, Middle School PE uniforms and Extended Day conference days. The first two are on the school's monthly billing list. Three more are priced only as a range. So half have no set price, and this report does not add the items into one total.",
+        "Three of the fourteen items have no published price: the dining hall, Middle School PE uniforms and Extended Day conference days. The first two are on the school's monthly billing list. Three more are priced only as a range. So 6 of the 14 have no set price, and this report does not add the items into one total.",
       source:
-        'charlottecountryday.org — [Parent Quick Reference](https://www.charlottecountryday.org/bucsnet/quick-reference); [Extended Day](https://www.charlottecountryday.org/bucsnet/after-school/extended-day); [Bus Transportation](https://www.charlottecountryday.org/bucsnet/bus); Educational Resource Program pages for [Lower](https://www.charlottecountryday.org/bucsnet/lower-school/erp), [Middle](https://www.charlottecountryday.org/bucsnet/middle-school/erp) and [Upper School](https://www.charlottecountryday.org/bucsnet/upper-school/erp), retrieved 22 Nov 2026',
+        'charlottecountryday.org — [Parent Quick Reference](https://www.charlottecountryday.org/bucsnet/quick-reference); [Extended Day](https://www.charlottecountryday.org/bucsnet/after-school/extended-day); [Bus Transportation](https://www.charlottecountryday.org/bucsnet/bus); Educational Resource Program pages for [Lower](https://www.charlottecountryday.org/bucsnet/lower-school/erp), [Middle](https://www.charlottecountryday.org/bucsnet/middle-school/erp) and [Upper School](https://www.charlottecountryday.org/bucsnet/upper-school/erp), retrieved 22 Nov 2026; Extended Day late and contract-change fees 23 Nov 2026',
     },
     {
       id: 'fa-engine',
@@ -1668,7 +1670,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
 
 const PROVIDENCE_DAY: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
-  meta: '2026–27 school year · figures as of 24 Jul 2026; bus fares and Extended Day registration 22 Nov 2026',
+  meta: '2026–27 school year · figures as of 24 Jul 2026; bus fares and Extended Day registration 22 Nov, Extended Day late and adjustment fees 23 Nov 2026',
   framing: [
     {
       icon: 'info',
@@ -1722,17 +1724,19 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       navTitle: 'Beyond Tuition',
       title: 'Beyond Tuition — The Real Cost of Attendance',
       confidence: 60,
-      componentsTitle: 'Eighteen confirmed components for a 2026–27 family — 10 unpriced',
-      componentsAside: 'All-in estimate not built: 56% unpriced > 33% threshold',
+      componentsTitle: 'Twenty confirmed components for a 2026–27 family — 10 unpriced',
+      componentsAside: 'All-in estimate not built: 50% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
         { label: 'Enrollment deposit · $2,500, non-refundable', status: 'priced' },
         { label: 'Clubhouse registration · $100/student/yr (MS)', status: 'priced' },
         { label: 'Extended Day late pick-up · $1/min after 6 p.m.', status: 'priced' },
+        { label: 'Extended Day adjustment rate · $30/hr', status: 'priced' },
         { label: 'Extended Day program fee · $100–$750/mo', status: 'priced' },
         { label: 'Bus transportation · $1,830–$1,965 round trip per student, 2026–27 (siblings $1,379–$1,507)', status: 'priced' },
         { label: 'FLIK Dining participation · no rate', status: 'unpriced' },
         { label: 'Extended Day enrichment classes · $200 or $220 a class, by grade and program', status: 'priced' },
+        { label: 'Enrichment withdrawal, after 1 class · $25', status: 'priced' },
         { label: '8th grade field trip · no rate', status: 'unpriced' },
         { label: '12th grade field trip · no rate', status: 'unpriced' },
         { label: 'Club travel · no rate', status: 'unpriced' },
@@ -1745,7 +1749,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         { label: 'Extended Day Activity Days · no rate', status: 'unpriced' },
       ],
       componentsNote:
-        'Of eighteen confirmed cost items, eight have a published price and ten do not. That leaves 56% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
+        'Of twenty confirmed cost items, ten have a published price and ten do not. That leaves 50% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.',
       boxes: [
         {
           title: 'The deposit, 2026–27',
@@ -1753,7 +1757,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
         },
       ],
       source:
-        'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance); [Extended Day](https://www.providenceday.org/lower-school/extended-day) (Lower School); [Clubhouse](https://www.providenceday.org/middle-school/clubhouse) (Middle School); [Transportation](https://www.providenceday.org/around-campus/transportation), all retrieved 24 Jul 2026; 2026–27 bus fares and the [Extended Day fee document](https://docs.google.com/document/d/1_5u6M_MQtSRbLpKPYFjKqSXZB2pAV3McqIaD2TFhJWE) retrieved 22 Nov 2026',
+        'providenceday.org — [Tuition and Financial Assistance](https://www.providenceday.org/admissions/tuition-and-financial-assistance); [Extended Day](https://www.providenceday.org/lower-school/extended-day) (Lower School); [Clubhouse](https://www.providenceday.org/middle-school/clubhouse) (Middle School); [Transportation](https://www.providenceday.org/around-campus/transportation), all retrieved 24 Jul 2026; 2026–27 bus fares and the [Extended Day fee document](https://docs.google.com/document/d/1_5u6M_MQtSRbLpKPYFjKqSXZB2pAV3McqIaD2TFhJWE) retrieved 22 Nov 2026 and re-read 23 Nov 2026; the enrichment withdrawal fee from the school’s Fall 2026 enrichment packet',
     },
     {
       id: 'fa-engine',

@@ -25,12 +25,12 @@
       "t": "Frais de scolarité et aide financière — rapport d’analyse approfondie"
     },
     {
-      "text": "2026–27 school year · figures as of 24 Jul 2026; bus fares and Extended Day registration 22 Nov 2026",
-      "of": "ed51b82e",
+      "text": "2026–27 school year · figures as of 24 Jul 2026; bus fares and Extended Day registration 22 Nov, Extended Day late and adjustment fees 23 Nov 2026",
+      "of": "2f142a06",
       "at": [
         "providence-day:meta"
       ],
-      "t": "Année scolaire 2026–27 · chiffres au 24 juillet 2026 ; tarifs de bus et inscription à l’Extended Day au 22 novembre 2026"
+      "t": "Année scolaire 2026–27 · chiffres au 24 juillet 2026 ; tarifs de bus et inscription à l’Extended Day au 22 novembre, frais de retard et d’ajustement de l’Extended Day au 23 novembre 2026"
     },
     {
       "text": "Unpublished ≠ deficient.",
@@ -309,20 +309,20 @@
       "t": "Au-delà des frais de scolarité — le coût réel de la scolarité"
     },
     {
-      "text": "Eighteen confirmed components for a 2026–27 family — 10 unpriced",
-      "of": "32aa65ae",
+      "text": "Twenty confirmed components for a 2026–27 family — 10 unpriced",
+      "of": "d7e6e7c6",
       "at": [
         "providence-day:sections[1].componentsTitle"
       ],
-      "t": "Dix-huit composantes confirmées pour une famille en 2026–27 — 10 sans tarif publié"
+      "t": "Vingt composantes confirmées pour une famille en 2026–27 — 10 sans tarif publié"
     },
     {
-      "text": "All-in estimate not built: 56% unpriced > 33% threshold",
-      "of": "03b7f7a7",
+      "text": "All-in estimate not built: 50% unpriced > 33% threshold",
+      "of": "72911ef1",
       "at": [
         "providence-day:sections[1].componentsAside"
       ],
-      "t": "Estimation tout compris non établie : 56% non chiffrés > seuil de 33%"
+      "t": "Estimation tout compris non établie : 50% non chiffrés > seuil de 33%"
     },
     {
       "text": "Tuition — four bands, priced",
@@ -360,10 +360,18 @@
       "t": "Retard de récupération à l’Extended Day · $1/min après 18 h"
     },
     {
+      "text": "Extended Day adjustment rate · $30/hr",
+      "of": "5fe165f6",
+      "at": [
+        "providence-day:sections[1].components[4].label"
+      ],
+      "t": "Tarif d’ajustement de l’Extended Day · $30/heure"
+    },
+    {
       "text": "Extended Day program fee · $100–$750/mo",
       "of": "6e3ba654",
       "at": [
-        "providence-day:sections[1].components[4].label"
+        "providence-day:sections[1].components[5].label"
       ],
       "t": "Frais du programme Extended Day · $100–$750/mois"
     },
@@ -371,7 +379,7 @@
       "text": "Bus transportation · $1,830–$1,965 round trip per student, 2026–27 (siblings $1,379–$1,507)",
       "of": "b845012f",
       "at": [
-        "providence-day:sections[1].components[5].label"
+        "providence-day:sections[1].components[6].label"
       ],
       "t": "Transport en autobus · $1,830–$1,965 aller-retour par élève, 2026–27 (frères et sœurs $1,379–$1,507)"
     },
@@ -379,7 +387,7 @@
       "text": "FLIK Dining participation · no rate",
       "of": "cdbe227f",
       "at": [
-        "providence-day:sections[1].components[6].label"
+        "providence-day:sections[1].components[7].label"
       ],
       "t": "Participation à FLIK Dining · aucun tarif"
     },
@@ -387,15 +395,23 @@
       "text": "Extended Day enrichment classes · $200 or $220 a class, by grade and program",
       "of": "25cac1bb",
       "at": [
-        "providence-day:sections[1].components[7].label"
+        "providence-day:sections[1].components[8].label"
       ],
       "t": "Cours d’enrichissement de l’Extended Day · $200 ou $220 par cours, selon le niveau et le programme"
+    },
+    {
+      "text": "Enrichment withdrawal, after 1 class · $25",
+      "of": "dabbe980",
+      "at": [
+        "providence-day:sections[1].components[9].label"
+      ],
+      "t": "Retrait d’un cours d’enrichissement, après 1 séance · $25"
     },
     {
       "text": "8th grade field trip · no rate",
       "of": "a814ee61",
       "at": [
-        "providence-day:sections[1].components[8].label"
+        "providence-day:sections[1].components[10].label"
       ],
       "t": "Sortie scolaire de 8e année · aucun tarif"
     },
@@ -403,7 +419,7 @@
       "text": "12th grade field trip · no rate",
       "of": "43953ba2",
       "at": [
-        "providence-day:sections[1].components[9].label"
+        "providence-day:sections[1].components[11].label"
       ],
       "t": "Sortie scolaire de 12e année · aucun tarif"
     },
@@ -411,7 +427,7 @@
       "text": "Club travel · no rate",
       "of": "ce468795",
       "at": [
-        "providence-day:sections[1].components[10].label"
+        "providence-day:sections[1].components[12].label"
       ],
       "t": "Déplacements des clubs · aucun tarif"
     },
@@ -419,7 +435,7 @@
       "text": "Arts competition travel · no rate",
       "of": "521467de",
       "at": [
-        "providence-day:sections[1].components[11].label"
+        "providence-day:sections[1].components[13].label"
       ],
       "t": "Déplacements pour les concours artistiques · aucun tarif"
     },
@@ -427,7 +443,7 @@
       "text": "Athletic tournament travel · no rate",
       "of": "5a671506",
       "at": [
-        "providence-day:sections[1].components[12].label"
+        "providence-day:sections[1].components[14].label"
       ],
       "t": "Déplacements pour les tournois sportifs · aucun tarif"
     },
@@ -435,7 +451,7 @@
       "text": "P.E. uniforms · no rate",
       "of": "9bbccd57",
       "at": [
-        "providence-day:sections[1].components[13].label"
+        "providence-day:sections[1].components[15].label"
       ],
       "t": "Tenues d’éducation physique · aucun tarif"
     },
@@ -443,7 +459,7 @@
       "text": "Graphing calculators · no rate",
       "of": "bb4e30c6",
       "at": [
-        "providence-day:sections[1].components[14].label"
+        "providence-day:sections[1].components[16].label"
       ],
       "t": "Calculatrices graphiques · aucun tarif"
     },
@@ -451,7 +467,7 @@
       "text": "Tutoring services · no rate",
       "of": "31402b59",
       "at": [
-        "providence-day:sections[1].components[15].label"
+        "providence-day:sections[1].components[17].label"
       ],
       "t": "Services de tutorat · aucun tarif"
     },
@@ -459,7 +475,7 @@
       "text": "Extended Day registration · $80/yr",
       "of": "b692a540",
       "at": [
-        "providence-day:sections[1].components[16].label"
+        "providence-day:sections[1].components[18].label"
       ],
       "t": "Inscription à l’Extended Day · $80/an"
     },
@@ -467,17 +483,17 @@
       "text": "Extended Day Activity Days · no rate",
       "of": "ca22aca4",
       "at": [
-        "providence-day:sections[1].components[17].label"
+        "providence-day:sections[1].components[19].label"
       ],
       "t": "Extended Day Activity Days · aucun tarif"
     },
     {
-      "text": "Of eighteen confirmed cost items, eight have a published price and ten do not. That leaves 56% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.",
-      "of": "6e380bf5",
+      "text": "Of twenty confirmed cost items, ten have a published price and ten do not. That leaves 50% unpriced. This report shows an all-in estimate only when one-third of the items or fewer are unpriced. So it shows none here, rather than build a range mostly from missing prices. Two endowed funds (Section 5) exist to pay for costs above and beyond tuition. Their existence is separate evidence that these charges are real.",
+      "of": "c00f8adf",
       "at": [
         "providence-day:sections[1].componentsNote"
       ],
-      "t": "Sur dix-huit composantes de coût confirmées, huit affichent un tarif publié et dix n’en affichent pas. Cela laisse 56% sans tarif. Ce rapport ne présente une estimation tout compris que lorsqu’un tiers des composantes ou moins sont sans tarif. Il n’en présente donc aucune ici, plutôt que de construire une fourchette à partir de tarifs majoritairement manquants. Deux fonds de dotation (section 5) existent pour couvrir les coûts s’ajoutant aux frais de scolarité. Leur existence confirme de façon indépendante que ces frais sont bien réels."
+      "t": "Sur vingt composantes de coût confirmées, dix affichent un tarif publié et dix n’en affichent pas. Cela laisse 50% sans tarif. Ce rapport ne présente une estimation tout compris que lorsqu’un tiers des composantes ou moins sont sans tarif. Il n’en présente donc aucune ici, plutôt que de construire une fourchette à partir de tarifs majoritairement manquants. Deux fonds de dotation (section 5) existent pour couvrir les coûts s’ajoutant aux frais de scolarité. Leur existence confirme de façon indépendante que ces frais sont bien réels."
     },
     {
       "text": "The deposit, 2026–27",
@@ -3554,12 +3570,12 @@
       "t": "Quel budget prévoir au-delà des frais de scolarité pour les manuels, le sport et le voyage de l’orchestre à Dublin ?"
     },
     {
-      "text": "2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus, tutoring and Extended Day registration fees 22 Nov 2026",
-      "of": "dbe6d8c6",
+      "text": "2026–27 school year · figures as of 23 Jul 2026; enrichment fees 20 Nov, bus, tutoring and Extended Day registration fees 22 Nov, Extended Day late and contract-change fees 23 Nov 2026",
+      "of": "6c9f2f64",
       "at": [
         "charlotte-country-day:meta"
       ],
-      "t": "année scolaire 2026–27 · chiffres au 23 juil. 2026 ; frais d’enrichissement au 20 nov., frais de bus, de soutien scolaire et d’inscription à l’Extended Day au 22 nov. 2026"
+      "t": "année scolaire 2026–27 · chiffres au 23 juil. 2026 ; frais d’enrichissement au 20 nov., frais de bus, de soutien scolaire et d’inscription à l’Extended Day au 22 nov., frais de retard et de modification de contrat de l’Extended Day au 23 nov. 2026"
     },
     {
       "text": "Every dollar figure carries the school year it applies to. Undated school figures are flagged, not guessed.",
@@ -3708,20 +3724,20 @@
       "t": "Échelle $0–700. Une estimation encadrée par division, et non une grille tarifaire détaillée — couvre les manuels et fournitures (niv. 5–12), les frais d’activités et les frais sportifs. Acompte d’inscription : 10% des frais de scolarité, imputé sur les frais de scolarité dus."
     },
     {
-      "text": "Twelve confirmed cost components — 3 unpriced",
-      "of": "d83d8ce5",
+      "text": "Fourteen confirmed cost components — 3 unpriced",
+      "of": "1b4f47b6",
       "at": [
         "charlotte-country-day:sections[1].componentsTitle"
       ],
-      "t": "Douze postes de coûts confirmés — 3 non chiffrés"
+      "t": "Quatorze postes de coûts confirmés — 3 non chiffrés"
     },
     {
-      "text": "All-in estimate not built: 25% unpriced, plus 25% in a range only",
-      "of": "6e5bc36c",
+      "text": "All-in estimate not built: 21% unpriced, plus 21% in a range only",
+      "of": "9f302d24",
       "at": [
         "charlotte-country-day:sections[1].componentsAside"
       ],
-      "t": "Estimation tout compris non établie : 25% sans tarif, plus 25% sous forme de fourchette seulement"
+      "t": "Estimation tout compris non établie : 21% sans tarif, plus 21% sous forme de fourchette seulement"
     },
     {
       "text": "Tuition — five bands, priced",
@@ -3813,20 +3829,36 @@
       "t": "Inscription à l’Extended Day · $80 sous contrat, $40 en accès libre"
     },
     {
+      "text": "Extended Day late pickup · $10 per 10-minute interval after 6:00 p.m.",
+      "of": "7ef30c2d",
+      "at": [
+        "charlotte-country-day:sections[1].components[11].label"
+      ],
+      "t": "Retard de récupération à l’Extended Day · $10 par tranche de 10 minutes après 6:00 p.m."
+    },
+    {
+      "text": "Extended Day contract change (beyond the first) · $50",
+      "of": "08712631",
+      "at": [
+        "charlotte-country-day:sections[1].components[12].label"
+      ],
+      "t": "Modification de contrat de l’Extended Day (au-delà de la première) · $50"
+    },
+    {
       "text": "Extended Day conference days · no rate",
       "of": "13a206ed",
       "at": [
-        "charlotte-country-day:sections[1].components[11].label"
+        "charlotte-country-day:sections[1].components[13].label"
       ],
       "t": "Extended Day, jours de rencontres parents-enseignants · aucun tarif"
     },
     {
-      "text": "Three of the twelve items have no published price: the dining hall, Middle School PE uniforms and Extended Day conference days. The first two are on the school's monthly billing list. Three more are priced only as a range. So half have no set price, and this report does not add the items into one total.",
-      "of": "41077156",
+      "text": "Three of the fourteen items have no published price: the dining hall, Middle School PE uniforms and Extended Day conference days. The first two are on the school's monthly billing list. Three more are priced only as a range. So 6 of the 14 have no set price, and this report does not add the items into one total.",
+      "of": "e903956f",
       "at": [
         "charlotte-country-day:sections[1].componentsNote"
       ],
-      "t": "Trois des douze postes n’ont aucun tarif publié : le réfectoire, les tenues d’EPS du Middle School et l’Extended Day des jours de rencontres parents-enseignants. Les deux premiers figurent sur la liste de facturation mensuelle de l’école. Trois autres ne sont tarifés que sous forme de fourchette. La moitié n’a donc pas de prix fixe, et ce rapport n’additionne pas les postes en un total unique."
+      "t": "Trois des quatorze postes n’ont aucun tarif publié : le réfectoire, les tenues d’EPS du Middle School et l’Extended Day des jours de rencontres parents-enseignants. Les deux premiers figurent sur la liste de facturation mensuelle de l’école. Trois autres ne sont tarifés que sous forme de fourchette. Ainsi, 6 des 14 n’ont pas de prix fixe, et ce rapport n’additionne pas les postes en un total unique."
     },
     {
       "text": "the best-documented part of the picture",

@@ -1,5 +1,5 @@
 # Covenant Day School — Sports
-> Distilled from 19 source document(s) in `source-material/sports/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-20.
+> Distilled from 19 source document(s) in `source-material/sports/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-23.
 **Documents:** College Commitments Class of 2027, 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches Pedigree and Continuity, College Commitments 2024-2026, Facilities and Infrastructure, NIL Landscape, National Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Team Levels (V-JV-MS), Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
@@ -234,6 +234,27 @@ Year; CDS's all-time leading field hockey goal scorer (18 goals led the state in
  meets and was named CISAA Runner of the Year.
 - Girls tennis 2025: first-ever **Ashe Cup** win (annual Covenant Day vs. Charlotte
  Christian match trophy).
+
+## Method
+
+### Re-verification 2026-11-23 (plan consistency6, self-scan)
+
+- https://archives.ncisaa.org/index.php?sport=9&years=2026-2027 (fetched, HTTP 200), 2026-2027 Field
+ Hockey Championship, Division 1: "#6 Covenant Day School (10-9)" beat Greensboro Day School 6-0
+ on Tuesday 10/20, then lost 3-0 to "#3 Cary Christian School (10-4)" on Friday 10/23. The 2025–26
+ overtime loss to Providence Day is no longer the program's most recent exit.
+- https://archives.ncisaa.org/index.php?sport=8&years=2026-2027 (Boys Soccer), 4A: "#8 Covenant Day
+ School (11-6)" beat Durham Academy 2-1, then lost 5-4 to "#1 Rabun Gap School (13-3)".
+- https://archives.ncisaa.org/index.php?sport=11&years=2026-2027 (Girls Tennis), 4A: "Covenant Day
+ School (5-10)" lost its first game 5-4 to "#7 Greensboro Day School (16-2)". No fall 2026 title.
+
+### Re-verification 2026-11-23 (plan consistency6, implement)
+
+Re-opened before typing (X2).
+
+- https://archives.ncisaa.org/index.php?sport=9&years=2026-2027 (HTTP 200), Division 1: "#6
+ Covenant Day School" goes out to "#3 Cary Christian School" in fall 2026. The overtime loss to
+ Providence Day was 2025–26, so the "What they didn't win" item now says so.
 
 
 ---
@@ -1284,13 +1305,16 @@ results rather than complete win-loss tables; full records live on MaxPreps
 - https://appstatesports.com/sports/mens-basketball/roster/2024-25
 - https://archives.ncisaa.org/
 - https://archives.ncisaa.org/index.php?sport=1&years=2025-2026
+- https://archives.ncisaa.org/index.php?sport=11&years=2026-2027
 - https://archives.ncisaa.org/index.php?sport=12&years=2015-2016
 - https://archives.ncisaa.org/index.php?sport=21&years=2025-2026
 - https://archives.ncisaa.org/index.php?sport=31&years=2022-2023
 - https://archives.ncisaa.org/index.php?sport=8&years=2024-2025
 - https://archives.ncisaa.org/index.php?sport=8&years=2025-2026
+- https://archives.ncisaa.org/index.php?sport=8&years=2026-2027
 - https://archives.ncisaa.org/index.php?sport=9&years=2022-2023
 - https://archives.ncisaa.org/index.php?sport=9&years=2025-2026
+- https://archives.ncisaa.org/index.php?sport=9&years=2026-2027
 - https://basketball.realgm.com/highschool/teams/12805/Covenant-Day-School-NC
 - https://basketball.realgm.com/highschool/teams/12805/Covenant-Day-School-NC`
 - https://charlotte49ers.com/sports/football/roster/2025

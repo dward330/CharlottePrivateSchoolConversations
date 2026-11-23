@@ -1,5 +1,5 @@
 # Charlotte Christian School — Sports
-> Distilled from 20 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
+> Distilled from 20 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-23.
 **Documents:** 247Sports Recruiting Rankings, Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, College Commitments Class of 2027, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Profile, Podcast Episode 33 Saleh Athletic Center, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Varsity Roster Cross-Reference 2026, Wells Fargo Cup Standings 2020-2026, Win-Loss Records
 
 
@@ -1405,6 +1405,32 @@ date. Three school sources now agree:
 None of the three gives a date for Brown's move. The basketball facts above (486 wins, 10 CISAA
 titles, the Curry and Gill players, stepping down as coach in April 2025) are unaffected.
 
+## Method
+
+### Re-verification 2026-11-23 (plan consistency6, self-scan)
+
+- https://archives.ncisaa.org/index.php?sport=31&years=2026-2027 (fetched, HTTP 200), 2026-2027
+ Football Championships, Division 1, "Quarterfinals - Friday, 11/6": "#3 Cannon - Concord Academy
+ (7-3)" | "51-14" | "#3 Cannon - Concord Academy (8-3)" | "#6 Charlotte Christian School (3-6)".
+ Cannon, not Providence Day, ended the Knights' 2026 season, in the quarterfinal. The final paired
+ #1 Providence Day and #2 Rabun Gap "@ Providence Day School" on Friday 11/20; the bracket prints no
+ final score.
+- So "Providence Day has ended the Knights' season three years running" (section 2 above) holds for
+ 2023, 2024 and 2025 only.
+- https://archives.ncisaa.org/index.php?sport=12&years=2026-2027 (Volleyball) and `sport=11`
+ (Girls Tennis): Charlotte Christian lost its first game in each 4A bracket (3-0 to Durham Academy,
+ and 5-0 to North Raleigh Christian Academy). No fall 2026 title.
+
+### Re-verification 2026-11-23 (plan consistency6, implement)
+
+Re-opened before typing (X2).
+
+- https://archives.ncisaa.org/index.php?sport=31&years=2026-2027 (HTTP 200), Division 1: "#3
+ Cannon - Concord Academy (7-3)", "51-14", "#6 Charlotte Christian School (3-6)" in the
+ quarterfinal. The final pairs Providence Day and Rabun Gap. So Providence Day ended the Knights'
+ season in 2023, 2024 and 2025, and Cannon ended it in 2026. The card's two sentences now carry
+ those years.
+
 
 ---
 
@@ -1956,12 +1982,14 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://anchor.fm/s/11187a32c/podcast/rss
 - https://archives.ncisaa.org/
 - https://archives.ncisaa.org/index.php?sport=1&years=2020-2021
+- https://archives.ncisaa.org/index.php?sport=12&years=2026-2027
 - https://archives.ncisaa.org/index.php?sport=13&years=2023-2024
 - https://archives.ncisaa.org/index.php?sport=13&years=2025-2026
 - https://archives.ncisaa.org/index.php?sport=14&years=2020-2021
 - https://archives.ncisaa.org/index.php?sport=14&years=2021-2022
 - https://archives.ncisaa.org/index.php?sport=21&years=2020-2021
 - https://archives.ncisaa.org/index.php?sport=31&years=2020-2021
+- https://archives.ncisaa.org/index.php?sport=31&years=2026-2027
 - https://bartonbulldogs.com/sports/football/roster/2026
 - https://bartonbulldogs.com/sports/football/schedule
 - https://basketball.realgm.com/highschool/teams/587/Charlotte-Christian-School-NC

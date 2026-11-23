@@ -1,5 +1,5 @@
 # Providence Day School — After School
-> Distilled from 6 source document(s) in `source-material/after-school/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-22.
+> Distilled from 6 source document(s) in `source-material/after-school/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-11-23.
 **Documents:** Deep Research, Enrichment Classes Fall 2026, Extended Day and Clubhouse, Pricing, Program Overview, Redesign Research 2026
 
 
@@ -871,6 +871,22 @@ monique.gelista@providenceday.org.
 
 - https://docs.google.com/document/d/1_5u6M_MQtSRbLpKPYFjKqSXZB2pAV3McqIaD2TFhJWE/export?format=txt (HTTP 200, linked from the Extended Day page): "Annual Registration Fee: $80" and "Monthly Fees listed below will be charged and collected via Blackbaud Tuition Management."
 - The committed "Providence Day - After School - Enrichment Classes Fall 2026.pdf" (not re-fetched): Karate, TK, K and grades 1-5, "Fee: $220". Yola, TK, K and grades 1-2, "Fee: $200".
+
+### Re-verification 2026-11-23 (plan consistency6, self-scan)
+
+- https://docs.google.com/document/d/1_5u6M_MQtSRbLpKPYFjKqSXZB2pAV3McqIaD2TFhJWE/export?format=txt (HTTP 307 to a docs.googleusercontent.com export URL, then HTTP 200): "Annual Registration Fee: $80", "Late Fee: $1/minute after 6pm", "No drop-in option. Adjustment Rate: $30/hour (unexpected circumstances)".
+
+### Re-verification 2026-11-23 (plan consistency6, implement)
+
+Re-opened before typing (PD-V3).
+
+- The 2026–2027 Extended Day fee document
+ (https://docs.google.com/document/d/1_5u6M_MQtSRbLpKPYFjKqSXZB2pAV3McqIaD2TFhJWE/export?format=txt;
+ a 307 to docs.googleusercontent.com, read before following) still reads "Late Fee: $1/minute
+ after 6pm" and "Adjustment Rate: $30/hour (unexpected circumstances)". The $25 enrichment
+ withdrawal fee is from the committed Fall 2026 enrichment packet, not re-fetched.
+- User ruling (2026-11-23, option a): Beyond Tuition lists every published Extended Day charge, so
+ the adjustment rate and the withdrawal fee join the late fee there.
 
 
 ---

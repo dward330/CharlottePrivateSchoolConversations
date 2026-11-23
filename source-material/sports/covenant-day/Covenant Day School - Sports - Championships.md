@@ -50,3 +50,24 @@
   meets and was named CISAA Runner of the Year.
 - Girls tennis 2025: first-ever **Ashe Cup** win (annual Covenant Day vs. Charlotte
   Christian match trophy).
+
+## Method
+
+### Re-verification 2026-11-23 (plan consistency6, self-scan)
+
+- https://archives.ncisaa.org/index.php?sport=9&years=2026-2027 (fetched, HTTP 200), 2026-2027 Field
+  Hockey Championship, Division 1: "#6 Covenant Day School (10-9)" beat Greensboro Day School 6-0
+  on Tuesday 10/20, then lost 3-0 to "#3 Cary Christian School (10-4)" on Friday 10/23. The 2025–26
+  overtime loss to Providence Day is no longer the program's most recent exit.
+- https://archives.ncisaa.org/index.php?sport=8&years=2026-2027 (Boys Soccer), 4A: "#8 Covenant Day
+  School (11-6)" beat Durham Academy 2-1, then lost 5-4 to "#1 Rabun Gap School (13-3)".
+- https://archives.ncisaa.org/index.php?sport=11&years=2026-2027 (Girls Tennis), 4A: "Covenant Day
+  School (5-10)" lost its first game 5-4 to "#7 Greensboro Day School (16-2)". No fall 2026 title.
+
+### Re-verification 2026-11-23 (plan consistency6, implement)
+
+Re-opened before typing (X2).
+
+- https://archives.ncisaa.org/index.php?sport=9&years=2026-2027 (HTTP 200), Division 1: "#6
+  Covenant Day School" goes out to "#3 Cary Christian School" in fall 2026. The overtime loss to
+  Providence Day was 2025–26, so the "What they didn't win" item now says so.

@@ -596,9 +596,16 @@ so they MOVE rather than being deleted. How the field is built:
   limits but does not remove. Legibility beside the quoted column won.
 - **`subhead` and the third stat tile name the same hard campus**, on the same
   anchor.
+- **Both labels name their term, and a tie is named.** The exact forms are
+  `the lowest of the six in Fall 2025` and `the highest of the six in Fall 2025`.
+  When another campus has the same Fall 2025 rate, the label adds
+  `, tied with <campus>` (`… and <campus>` for two), using the row names as shown.
+  The undated `the most selective of the six` and `largest admit rates of the six`
+  are retired (2026-11-23). When the dashboard adds a term, move every label to it.
 - **`npm run check:ncsuper` enforces all of it** and is chained into
   `npm run build`: each label must appear exactly once, on the campus holding the
-  lowest (resp. highest) pooled rate.
+  lowest (resp. highest) latest-term rate, in its dated form, naming exactly the
+  campuses tied with it.
 
 Note this makes `note` a PER-SCHOOL string. Identical English still collapses to
 one overlay entry by content hash, so the four purely institutional notes remain
