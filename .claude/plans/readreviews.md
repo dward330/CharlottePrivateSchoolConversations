@@ -1,7 +1,7 @@
 ---
 name: readreviews
 title: Read Reviews research area — link boxes to GreatSchools, Niche and SchoolDigger on every school page
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-25
 branch: feat/readreviews
@@ -539,3 +539,39 @@ Phase 1 built 2026-11-25 on `feat/readreviews`. Deviations from the plan, each w
 The coverage floor printed identical output before and after (`npm run coverage:floor`).
 Open question defaults applied: Read Reviews **counts** as a research area (the meta
 description now says 11 areas for Providence Day), and SchoolDigger keeps a box on every school.
+
+### Adversarial review 2026-11-25
+
+Commit reviewed: `97407911`. Brief: `.claude/skills/implement/review.md`.
+
+**Pass 1:** 8 found, 7 confirmed, 1 rejected; the developer picked 6 to fix and declined 1.
+
+- #1 (R1) should-fix — note 4 claimed `check:chrome` sees the new keys; it cannot, so the
+  Phase 2 gate was hollow. **Fixed:** note corrected; Phase 2 now requires an explicit
+  key-parity check over all ten catalogs.
+- #2 (R2) should-fix — `check:reviewlinks` did not trace map URLs to the research files.
+  **Fixed:** new rule plus three negative tests.
+- #3 (R3) should-fix — two documents said no review count enters the repo; research files
+  record SchoolDigger counts. **Fixed:** wording now says the page shows nothing but the
+  site names and the repo stores no rating, grade, review text or reviewer name.
+- #4 (R4) minor — note 3 said nine schools share Providence Day's zoom; it is eight. **Fixed.**
+- #5 (R5) minor — INDEX row and *Source material* called the research uncommitted and
+  unverified. **Fixed.**
+- #6 (R7) minor — research files cite the address "from the school's own site" with no URL;
+  Charlotte Prep has no row in the branding address table. **Declined by the developer.**
+- #7 (R8) minor — the link files inflated Home's "N source documents". **Fixed:**
+  `researchDocCount()` (note 10).
+- R6 minor — the schema doc lists `review-sites` as a card key that never renders.
+  **Rejected:** every full-substitution area lists its folded key the same way, and §5
+  "Review links" explains the area.
+
+**Pass 2** (fix diff `97407911..90678055`): 2 found, 2 confirmed, 0 rejected; both fixed.
+All six pass-1 fixes were judged correct.
+
+- #1 should-fix — `reviewSites.ts`, `CLAUDE.md` and the schema doc said every link was
+  checked in a browser; GreatSchools was fetched. **Fixed** (not re-reviewed).
+- #2 minor — dev-only nav count still used `docCount`, so it no longer summed to the header
+  total. **Fixed** (not re-reviewed): the nav uses `researchDocCount`, so Read Reviews shows
+  `00` in dev, and Providence Day's nav sums to the header's 69.
+
+Open: pass-1 #6 (address source URL), declined.
