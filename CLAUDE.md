@@ -306,7 +306,7 @@ See [`.claude/skills/wells-fargo-cup/SKILL.md`](.claude/skills/wells-fargo-cup/S
 
 **Read Reviews** (slug `read-reviews`, added 2026-11-25, plan `readreviews`) is the last
 research area on every school page. It is **links only**: one box per review site
-(GreatSchools, Niche, SchoolDigger), each opening that school's own page there, then a
+(Niche, GreatSchools, SchoolDigger, in that order), each opening that school's own page there, then a
 decorative Google map. **No rating, grade, review text or reviewer name ever enters the
 repo.** Each box shows the site's name as plain text on the school's own color; a logo
 ships only with a recorded `logoBasis` (published terms or written permission). It is off
