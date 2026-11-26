@@ -1598,8 +1598,8 @@ mounted only when the section nears the viewport).
 
 Sites: GreatSchools, Niche, SchoolDigger. Today: 39 links across 13 schools, 13 maps.
 
-- **Links only.** No rating, grade, review count, review text or reviewer name is copied
-  into the repo.
+- **Links only.** The page shows nothing from the sites but their names, and the repo
+  stores no rating, grade, review text or reviewer name.
 - **Text plates, not logos.** Each box shows the site's name in our own type on the
   school's own color. A logo file ships only with a `logoBasis` (the site's published
   terms allowing it, or the user's written permission).

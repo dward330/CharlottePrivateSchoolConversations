@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { topicLabel } from '../lib/labels.ts'
-import { schools, topics, comparableTopics, topicsForSchool, docCount, projectStats, generated, brandOf } from '../lib/manifest.ts'
+import { schools, topics, comparableTopics, topicsForSchool, researchDocCount, projectStats, generated, brandOf } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { toSchool, toCompare, useNavigate } from '../lib/router.ts'
@@ -90,7 +90,7 @@ export function Home() {
         <div className="school-grid">
           {schools.map((s) => {
             const covered = topicsForSchool(s.slug)
-            const docs = topics.reduce((sum, topic) => sum + docCount(topic.slug, s.slug), 0)
+            const docs = topics.reduce((sum, topic) => sum + researchDocCount(topic.slug, s.slug), 0)
             return (
               <a
                 key={s.slug}

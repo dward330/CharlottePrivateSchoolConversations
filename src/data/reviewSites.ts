@@ -9,8 +9,10 @@
  * file, so a link cannot change without its record. A NEW SCHOOL needs an entry
  * here and its research file, verified in a browser.
  *
- * Links only. Nothing from these sites is copied into the repo: no rating, grade,
- * review count, review text or reviewer name.
+ * Links only. The page shows nothing from these sites but their names, and the
+ * repo stores no rating, grade, review text or reviewer name. (Each research file
+ * notes whether SchoolDigger showed any reviews, which is why its box promises
+ * school data rather than reviews.)
  *
  * Logos: every site ships as a text plate (its name in our own type, on the
  * school's own color). `logo` is set ONLY when the site's published terms allow

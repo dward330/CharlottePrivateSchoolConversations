@@ -171,7 +171,7 @@ The section itself is approved (direct request, 2026-11-25) and already designed
 
 ## Source material
 
-- **Written during planning, uncommitted:**
+- **Written during planning, committed on the branch by `/implement`:**
   `source-material/branding/_shared/All Schools - Read Reviews - Review Site Links.md` — all
   39 candidate URLs, how each was verified, site names, logo and brand-terms findings.
   It is under `branding/` on purpose: the ingest skips that folder, so the area cannot
@@ -451,7 +451,12 @@ not touched.
 
 ### Phase 2 — Locales
 
-- [ ] `npm run check:chrome` — no key missing from any catalog
+- [ ] **Key parity, checked explicitly** (`check:chrome` cannot see component keys): for each
+      of the ten `src/locales/*.json` in `TRANSLATED`, every key under `reviews.*` plus
+      `topics.read-reviews` that `en.json` has exists, is non-empty, and keeps each
+      `{{school}}` / `{{site}}` placeholder its English has. A short `node -e` over the
+      catalogs is enough; report the count checked per locale.
+- [ ] `npm run check:chrome` — still green (it does not cover the new keys; see above)
 - [ ] `npm run build` — green
 - [ ] Browser: the section in `es`, `fa` (RTL) and `hi`; site names in Latin; the address
       link `?lang=es#read-reviews` lands on the section
@@ -496,8 +501,8 @@ Phase 1 built 2026-11-25 on `feat/readreviews`. Deviations from the plan, each w
    in Chrome and each landed on a single listing with the school's name and street address.
 3. **The 13 embed codes were pasted by the user** (the plan's own fallback: the extension can
    open "Embed a map" but cannot read its code). They are used **exactly as given** (user:
-   "keep the zoom i gave you from my share"). Nine share Providence Day's span (`!1d` ≈ 3,250
-   to 3,265 m, zoom 15) and Charlotte Country Day is close (3,083 m). **Charlotte Catholic,
+   "keep the zoom i gave you from my share"). Eight, Providence Day included, share its span
+   (`!1d` ≈ 3,250 to 3,265 m, zoom 15) and Charlotte Country Day is close (3,083 m). **Charlotte Catholic,
    Charlotte Prep, Davidson Day and Trinity Episcopal are one step closer (`!1d` ≈ 1,630 m,
    about zoom 16).** So the plan's "same zoom for all 13" holds for 9 of 13; the user chose to
    keep their own views. All 13 were checked in the app at 320px and 240px: pin on the right
@@ -506,7 +511,9 @@ Phase 1 built 2026-11-25 on `feat/readreviews`. Deviations from the plan, each w
    {{site}}"), because only 3 of 13 schools show any SchoolDigger reviews (Providence Day,
    Davidson Day, Gaston Day; 2026-11-25). Its blurb is "School facts, such as enrollment. Few
    schools have reviews here." The component picks `go` / `goData` per site from a literal key
-   map so `check:chrome` can see every key.
+   map, so a grep finds every key. (`check:chrome` does **not** see these keys: it only checks
+   data fields that render through a chrome key. Phase 2 therefore gates on an explicit key
+   check; see Verification.)
 5. **`src/data/reviewSites.ts` is mapped in `EVERY_SCHOOL` in `scripts/audit_scope.mjs`**, not
    `LOADERS`: it is a data module for every school, not a topic loader with overlay wiring.
    Both visit the area by its `#read-reviews` link.
@@ -521,6 +528,13 @@ Phase 1 built 2026-11-25 on `feat/readreviews`. Deviations from the plan, each w
    and how each was checked), so `check:reviewlinks` can trace them.
 9. **The design file's Option B was not built**, per the plan. The phone layout uses the
    900px breakpoint where `.note-cards` drops to one column; the map drops to 240px at 600px.
+
+10. **Read Reviews' link files are left out of the "N source documents" figures** (review
+    finding, picked by the user): Home's "distilled from N source documents", its per-school
+    card counts and the dev-only header count use `researchDocCount()` in
+    `src/lib/manifest.ts`, which skips `read-reviews`. `docCount()` is unchanged because a
+    non-zero count is what makes the area render. The schema doc's "ingested research
+    documents" total is the manifest's own count and still includes the 13 files.
 
 The coverage floor printed identical output before and after (`npm run coverage:floor`).
 Open question defaults applied: Read Reviews **counts** as a research area (the meta

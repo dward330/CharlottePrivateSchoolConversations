@@ -4,6 +4,7 @@ import {
   brandOf,
   topicsForSchool,
   docCount,
+  researchDocCount,
 } from '../lib/manifest.ts'
 import {
   loadMetricGroups,
@@ -701,7 +702,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
     )
   }
 
-  const totalDocs = covered.reduce((sum, t) => sum + docCount(t.slug, slug), 0)
+  const totalDocs = covered.reduce((sum, t) => sum + researchDocCount(t.slug, slug), 0)
   /* The per-topic "compare on this topic" links open on the school being read
      PLUS the standing default peer set, rather than all eleven columns — a
      reader arrives beside their own school and a consistent comparison group.

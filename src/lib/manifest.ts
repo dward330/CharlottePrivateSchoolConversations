@@ -82,6 +82,19 @@ export function docCount(topicSlug: string, schoolSlug: string): number {
   )
 }
 
+/**
+ * Areas whose source files are link records, not research. Read Reviews' one
+ * file per school lists its review-site links (plan `readreviews`), so it must
+ * not inflate the "distilled from N source documents" figures. `docCount` still
+ * counts it, because a non-zero docCount is what makes the area render.
+ */
+const NOT_RESEARCH_DOCS: ReadonlySet<string> = new Set(['read-reviews'])
+
+/** `docCount`, minus link-record areas — for the "N source documents" figures. */
+export function researchDocCount(topicSlug: string, schoolSlug: string): number {
+  return NOT_RESEARCH_DOCS.has(topicSlug) ? 0 : docCount(topicSlug, schoolSlug)
+}
+
 /** Topics that actually have research for a given school, in manifest order. */
 export function topicsForSchool(schoolSlug: string): Topic[] {
   return topics.filter((t) => docCount(t.slug, schoolSlug) > 0)
@@ -201,6 +214,6 @@ export function projectStats(): ProjectStats {
   return {
     schools: schools.length,
     topics: topics.length,
-    documents: manifest.documents.length,
+    documents: manifest.documents.filter((d) => !NOT_RESEARCH_DOCS.has(d.topic_slug)).length,
   }
 }

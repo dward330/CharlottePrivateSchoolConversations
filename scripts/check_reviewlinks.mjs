@@ -15,6 +15,8 @@
  *     (https://www.google.com/maps/embed?pb=…), a `link` is not an https Google
  *     Maps URL, an `apple` link is not https://maps.apple.com/? with both
  *     `address` and `q`, or one embed is used by two schools;
+ *   - a map's embed, link or apple URL does not appear in that school's
+ *     research file (the same trace the review links get);
  *   - a site has `logo` without `logoBasis`, a `logo` is a remote URL rather
  *     than a file under public/review-sites/, or that file does not exist (the
  *     logo rule in the plan: a logo ships only with a recorded basis).
@@ -126,6 +128,12 @@ for (const [slug, m] of Object.entries(SCHOOL_MAPS)) {
     fail(`${slug} map: apple ${m.apple} is not https://maps.apple.com/? with both address and q`)
   }
   if (!REVIEW_LINKS[slug]) fail(`${slug} map: has a map but no review links — the map only lives inside Read Reviews`)
+  const record = research(slug)
+  for (const k of ['embed', 'link', 'apple']) {
+    if (typeof m[k] === 'string' && !record.includes(m[k])) {
+      fail(`${slug} map: ${k} is not in source-material/${TOPIC}/${slug}/ — record the verified URL first`)
+    }
+  }
 }
 
 // ---------------------------------------------------------------- report ----
