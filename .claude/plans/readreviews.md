@@ -1,11 +1,11 @@
 ---
 name: readreviews
 title: Read Reviews research area — link boxes to GreatSchools, Niche and SchoolDigger on every school page
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-25
 branch: feat/readreviews
-prs: []
+prs: [527]
 ---
 
 # Read Reviews research area
