@@ -8,6 +8,11 @@ them.
 - Niche: https://www.niche.com/k12/carmel-christian-school-matthews-nc/reviews/
 - SchoolDigger: https://www.schooldigger.com/go/NC/schools/9999968988/school.aspx
 
+Map links (the decorative map under the boxes):
+
+- Open in Google Maps: https://www.google.com/maps/search/?api=1&query=Carmel%20Christian%20School%2C%201145%20Pineville%20Matthews%20Road%2C%20Matthews%2C%20NC%2028105
+- Open in Apple Maps: https://maps.apple.com/?address=1145%20Pineville%20Matthews%20Road%2C%20Matthews%2C%20NC%2028105&q=Carmel%20Christian%20School
+
 ## Method
 
 **Provenance.** Written 2026-11-25 by `/implement readreviews` (plan
@@ -22,3 +27,9 @@ School address from the school's own site: 1145 Pineville Matthews Road, Matthew
 | SchoolDigger | https://www.schooldigger.com/go/NC/schools/9999968988/school.aspx | Opened in Chrome: page title "Carmel Christian School in Matthews NC - SchoolDigger", address line "1145 Pineville Matthews Rd", no redirect. SchoolDigger has no separate reviews page. On this date the page showed no ratings yet. |
 
 SchoolDigger's other listing for this school, id `9999924878`, now returns SchoolDigger's 404 page (2026-11-25), so id `9999968988` is the only live one.
+
+**Map links, checked 2026-11-25 in Chrome.** The Google link uses Google's documented
+Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing titled
+"Carmel Christian School - Google Maps", address Carmel Christian School, 1145 Pineville-Matthews Rd, Matthews, NC 28105. The Apple link uses Apple's documented Map Links form
+(`?address=…&q=…`). It opened the street address with Carmel Christian School at it. The Google embed code is
+recorded here once it has been copied from Google Maps' Share → "Embed a map".

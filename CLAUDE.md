@@ -302,6 +302,19 @@ association too: its all-time list gives Charlotte Catholic 10, against the Scho
 
 See [`.claude/skills/wells-fargo-cup/SKILL.md`](.claude/skills/wells-fargo-cup/SKILL.md).
 
+### Read Reviews research area
+
+**Read Reviews** (slug `read-reviews`, added 2026-11-25, plan `readreviews`) is the last
+research area on every school page. It is **links only**: one box per review site
+(GreatSchools, Niche, SchoolDigger), each opening that school's own page there, then a
+decorative Google map. **No rating, grade, review text or reviewer name ever enters the
+repo.** Each box shows the site's name as plain text on the school's own color; a logo
+ships only with a recorded `logoBasis` (published terms or written permission). It is off
+Compare (`COMPARE_DEFERRED_TOPICS`) and out of the `/add-school` area floor
+(`FLOOR_EXCLUDED_AREAS`). The links live in `src/data/reviewSites.ts`, each verified in a
+browser by name and city and recorded in `source-material/read-reviews/<school>/`;
+`npm run check:reviewlinks` (in the build) holds the two together.
+
 ## Student-name standard (required)
 
 **⛔ Never expose the name of a student who is not an athlete (HARD rule, user 2026-11-22:

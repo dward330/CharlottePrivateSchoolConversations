@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23",
+  "generated": "2026-11-25",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -87,6 +87,10 @@
     {
       "slug": "learning-support",
       "name": "Learning Support & Student Services"
+    },
+    {
+      "slug": "read-reviews",
+      "name": "Read Reviews"
     },
     {
       "slug": "sports",
@@ -454,6 +458,71 @@
     {
       "topic_slug": "learning-support",
       "school_slug": "hickory-grove-christian",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "cannon",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "carmel-christian",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "charlotte-catholic",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "charlotte-christian",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "charlotte-country-day",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "charlotte-latin",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "charlotte-prep",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "covenant-day",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "davidson-day",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "gaston-day",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "hickory-grove-christian",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "providence-day",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "read-reviews",
+      "school_slug": "trinity-episcopal",
       "doc_count": 1
     },
     {
@@ -6411,6 +6480,136 @@
       "subtopic": "Transportation 2026-27",
       "source_file": "source-material/financial-aid-tuition/providence-day/Providence Day - Financial Aid and Tuition - Transportation 2026-27.md",
       "note_file": ".claude/docs/financial-aid-tuition/providence-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/cannon/Cannon School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/carmel-christian/Carmel Christian School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/carmel-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-catholic",
+      "school": "Charlotte Catholic High School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/charlotte-catholic/Charlotte Catholic High School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/charlotte-catholic.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/charlotte-christian/Charlotte Christian School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/charlotte-country-day/Charlotte Country Day School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/charlotte-country-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/charlotte-latin/Charlotte Latin School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-prep",
+      "school": "Charlotte Preparatory School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/charlotte-prep/Charlotte Preparatory School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/charlotte-prep.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/covenant-day/Covenant Day School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/davidson-day/Davidson Day School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/davidson-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "gaston-day",
+      "school": "Gaston Day School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/gaston-day/Gaston Day School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/gaston-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "hickory-grove-christian",
+      "school": "Hickory Grove Christian School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/hickory-grove-christian/Hickory Grove Christian School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/hickory-grove-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/providence-day/Providence Day School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/providence-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "trinity-episcopal",
+      "school": "Trinity Episcopal School",
+      "topic_slug": "read-reviews",
+      "topic": "Read Reviews",
+      "subtopic": "Review Site Links",
+      "source_file": "source-material/read-reviews/trinity-episcopal/Trinity Episcopal School - Read Reviews - Review Site Links.md",
+      "note_file": ".claude/docs/read-reviews/trinity-episcopal.md",
       "type": "md"
     }
   ]

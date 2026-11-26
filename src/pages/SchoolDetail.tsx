@@ -170,6 +170,8 @@ import { scrollToSection } from '../lib/scrollToSection.ts'
 import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
 import { areaOfCardId, cardLinkId, linkName, openFromHash, showLinkInUrl } from '../lib/cardLink.ts'
 import { localizeMoneyText } from '../lib/format.ts'
+import { ReadReviews } from '../components/ReadReviews.tsx'
+import { reviewLinks } from '../data/reviewSites.ts'
 import { pipelineCounts } from '../lib/pipeline.ts'
 
 type Loaded = Record<string, MetricGroup[]>
@@ -1145,6 +1147,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
               : []
             const learning = lsCardList.length > 0 ? lsEntry : undefined
             const lsCards = lsCardList
+            /* Read Reviews: link boxes to review sites replace the ingested
+               link list, folded onto one metric key by RULES['read-reviews'].
+               No cards (plan `readreviews`). */
+            const reviews = t.slug === 'read-reviews' ? reviewLinks(slug) : []
+            const hasReviews = reviews.length > 0
             const cardCount = offerings
               ? offerings.divisions.length
               : sports
@@ -1180,7 +1187,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
               (t.slug === 'summer-programs' && summer) ||
               (t.slug === 'admissions' && admissions) ||
               (t.slug === 'international-travel' && travel) ||
-              (t.slug === 'learning-support' && learning)
+              (t.slug === 'learning-support' && learning) ||
+              (t.slug === 'read-reviews' && hasReviews)
                 ? []
                 : groups
             /* Student Clubs leads with the Club Catalog & Overview card, ahead
@@ -1330,7 +1338,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                       all are still live in dev. The `'…'` placeholder is part
                       of this affordance: it only reserves the count's slot
                       while notes load, so it goes with it. */}
-                  {import.meta.env.DEV && (
+                  {import.meta.env.DEV && !hasReviews && (
                     <span className="topic-count">
                       {!ready
                         ? '…'
@@ -1430,6 +1438,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     <LearningSupportLead program={learning} />
                     <LearningSupportStatBand program={learning} />
                   </>
+                )}
+
+                {/* Read Reviews: the boxes and the map are the whole area. */}
+                {ready && t.slug === 'read-reviews' && hasReviews && (
+                  <ReadReviews slug={slug} schoolName={school.name} />
                 )}
 
                 {!ready && <p className="loading">Loading research…</p>}

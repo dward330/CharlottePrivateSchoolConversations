@@ -95,11 +95,15 @@ export function topicsForSchool(schoolSlug: string): Topic[] {
  * the compare tool/button just yet"). It is filtered out of `comparableTopics`
  * (pills, home grid, Compare meta description) and gates the dossier's
  * "Compare on …" button. When Compare is wanted, delete the entry.
+ *
+ * Read Reviews joined 2026-11-25 (plan `readreviews`): it is links out to
+ * review sites, with nothing to compare, so it stays off Compare for good.
  */
 // International Travel was deferred the same way 2026-10-11 and moved onto
 // Compare 2026-10-26 (plan `globalcompare`).
 export const COMPARE_DEFERRED_TOPICS: ReadonlySet<string> = new Set([
   'learning-support',
+  'read-reviews',
 ])
 
 /**

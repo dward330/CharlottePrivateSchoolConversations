@@ -116,6 +116,10 @@ const RULES: Record<string, Rule[]> = {
       label: 'Learning Support Research (2026)',
     },
   ],
+  // Read Reviews renders as link boxes driven by data/reviewSites.ts, never as
+  // prose cards (plan `readreviews`, 2026-11-25) — the same full substitution
+  // as Learning Support. Every slice of the research folds onto one key.
+  'read-reviews': [{ match: /.*/, key: 'review-sites', label: 'Review Sites' }],
   'summer-programs': [
     // Summer Programs renders as two consolidated cards driven by
     // data/summerPrograms.ts, not by the ingested prose (the same full
@@ -394,6 +398,12 @@ const TOPIC_ORDER: string[] = [
   'summer-programs'
 ]
 
+// Topics that sort after EVERY other, including the unlisted ones that fall to
+// the end above (Financial Aid & Tuition is one). Read Reviews is the last area
+// on the page at the user's request (plan `readreviews`, 2026-11-25): links out
+// to independent review sites, no research prose.
+const TOPIC_LAST: string[] = ['read-reviews']
+
 /**
  * The topic the Compare page opens on when the URL names none.
  *
@@ -452,9 +462,12 @@ export const COMPARE_DEFAULT_SCHOOLS: string[] = [
   'providence-day'
 ]
 
-/** Stable-sort topic slugs into the explicit TOPIC_ORDER; unlisted slugs keep order. */
+/** Stable-sort topic slugs into the explicit TOPIC_ORDER; unlisted slugs keep order,
+    and TOPIC_LAST slugs come after all of them. */
 export function orderTopicSlugs(slugs: string[]): string[] {
   const rank = (s: string) => {
+    const last = TOPIC_LAST.indexOf(s)
+    if (last !== -1) return TOPIC_ORDER.length + 1 + last
     const i = TOPIC_ORDER.indexOf(s)
     return i === -1 ? TOPIC_ORDER.length : i
   }

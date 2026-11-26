@@ -61,7 +61,7 @@ Four stand alone: `add-school-news`, `admissions-episode`, `learning-support-epi
 
 **Assess a candidate school, then hand off to `/plan`.**
 
-`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-11-23 (floor 34/46, 73%)
+`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-11-25 (brief carries the three Read Reviews links)
 
 Answers one question before any work starts: **can this school actually be populated
 against the schema the app already has?** A school with a thin public footprint yields a
@@ -77,7 +77,8 @@ expensive to discover at ingest time.
 4. Reports a **coverage table** — % of each research area, structured card and Compare row
 5. Walks each thin area: **dig deeper / include as-is / omit**
 6. Asks which Welcome Video the page features
-7. Invokes `/plan` with the brief
+7. Invokes `/plan` with the brief, including the school's three Read Reviews links as
+   leads for `/implement` to verify in a browser
 
 > **🎯 The bar is computed, not transcribed.** `npm run coverage:floor` derives it from the
 > thinnest school already shipped — Davidson Day, **23/36 Compare rows**. The K–12 gate is

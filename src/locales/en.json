@@ -49,7 +49,8 @@
     "the-arts": "The Arts",
     "high-school-placement": "High School Placement",
     "international-travel": "Global Exposure",
-    "learning-support": "Learning Support & Student Services"
+    "learning-support": "Learning Support & Student Services",
+    "read-reviews": "Read Reviews"
   },
   "metrics": {
     "admissions.redesign-research": "Admissions Research Dossier (2026)",
@@ -898,5 +899,27 @@
     "askOnTour": "Ask on the tour",
     "askOnTourNote": "not published on the school's site",
     "confirmCalendar": "Confirm exact dates and times on the live school calendar."
+  },
+  "reviews": {
+    "lead": "See what other families say about {{school}}. Each box opens the school's page on an independent review site, in a new tab.",
+    "go": "Read reviews on {{site}}",
+    "goData": "See the school on {{site}}",
+    "note": "Other organizations run these sites. The reviews and ratings are theirs, not ours and not the school's.",
+    "logoAlt": "{{site}} logo",
+    "sites": {
+      "greatschools": {
+        "blurb": "Reviews from parents, plus school details."
+      },
+      "niche": {
+        "blurb": "Reviews from parents and students, plus Niche's grades."
+      },
+      "schooldigger": {
+        "blurb": "School facts, such as enrollment. Few schools have reviews here."
+      }
+    },
+    "mapCaption": "Where {{school}} is",
+    "mapTitle": "Map showing {{school}}",
+    "mapOpen": "Open in Google Maps",
+    "mapOpenApple": "Open in Apple Maps"
   }
 }

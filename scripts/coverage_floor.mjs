@@ -34,7 +34,7 @@ const KEY = (slug) => `(?:'${slug}'|"${slug}"|(?<![\\w-])${slug})`
 function readManifest() {
   const m = JSON.parse(readFileSync(join(ROOT, 'src/data/schools.json'), 'utf8'))
   const schools = m.schools.map((s) => ({ slug: s.slug, name: s.name }))
-  const topics = m.topics.map((t) => t.slug)
+  const topics = m.topics.map((t) => t.slug).filter((t) => !FLOOR_EXCLUDED_AREAS.has(t))
   // Documents key on `school_slug`/`topic_slug`; `school`/`topic` are display names.
   const docs = new Map()
   for (const d of m.documents) {
@@ -60,6 +60,15 @@ const FLOOR_EXCLUDED_TOPICS = new Set(['international-travel'])
  * would get 0 of them (`cup-best` joined 2026-11-07). Sports is a counted topic, so this works by key.
  */
 const FLOOR_EXCLUDED_KEYS = new Set(['cup-finish', 'cup-titles', 'cup-best'])
+
+/**
+ * Research areas left out of the AREA count and its total. Read Reviews
+ * (2026-11-25, plan `readreviews`) is links out to review sites that every
+ * school gets for free, so counting it would loosen the /add-school area gate
+ * by one. FLOOR_EXCLUDED_TOPICS above filters Compare rows only; this filters
+ * areas.
+ */
+const FLOOR_EXCLUDED_AREAS = new Set(['read-reviews'])
 const isFloorExcluded = (r) => FLOOR_EXCLUDED_TOPICS.has(r.topic) || FLOOR_EXCLUDED_KEYS.has(r.key)
 
 /** Pull each VALUE_METRICS row's `values:{…}` block by brace-matching. Every row

@@ -131,6 +131,8 @@ const EVERY_SCHOOL = {
   'src/data/collegeRankings.ts': 'college-support',
   'src/data/collegeUrls.ts': 'college-support',
   'src/data/artsMatrix.ts': 'the-arts',
+  // Read Reviews has no cards, so a change visits the area by its #read-reviews link.
+  'src/data/reviewSites.ts': 'read-reviews',
 }
 
 /** Overlay topic -> the page topic its strings render in. */

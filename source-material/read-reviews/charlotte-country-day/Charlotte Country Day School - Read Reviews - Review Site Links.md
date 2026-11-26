@@ -8,6 +8,11 @@ them.
 - Niche: https://www.niche.com/k12/charlotte-country-day-school-charlotte-nc/reviews/
 - SchoolDigger: https://www.schooldigger.com/go/NC/schools/9999942994/school.aspx
 
+Map links (the decorative map under the boxes):
+
+- Open in Google Maps: https://www.google.com/maps/search/?api=1&query=Charlotte%20Country%20Day%20School%2C%201440%20Carmel%20Road%2C%20Charlotte%2C%20NC%2028226
+- Open in Apple Maps: https://maps.apple.com/?address=1440%20Carmel%20Road%2C%20Charlotte%2C%20NC%2028226&q=Charlotte%20Country%20Day%20School
+
 ## Method
 
 **Provenance.** Written 2026-11-25 by `/implement readreviews` (plan
@@ -20,3 +25,9 @@ School address from the school's own site: 1440 Carmel Road, Charlotte, NC 28226
 | GreatSchools | https://www.greatschools.org/north-carolina/charlotte/2175-Charlotte-Country-Day-School/reviews/ | Fetched: HTTP 200, page title "Charlotte Country Day School Reviews \| GreatSchools". The profile page (same URL without `reviews/`) was fetched at planning and showed the school's street address. |
 | Niche | https://www.niche.com/k12/charlotte-country-day-school-charlotte-nc/reviews/ | Opened in Chrome: page title "Charlotte Country Day School Reviews - Niche", city Charlotte, NC on the page, no redirect. |
 | SchoolDigger | https://www.schooldigger.com/go/NC/schools/9999942994/school.aspx | Opened in Chrome: page title "Charlotte Country Day School in Charlotte NC - SchoolDigger", address line "1440 Carmel Rd", no redirect. SchoolDigger has no separate reviews page. On this date the page showed no ratings yet. |
+
+**Map links, checked 2026-11-25 in Chrome.** The Google link uses Google's documented
+Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing titled
+"Charlotte Country Day School - Google Maps", address Charlotte Country Day School, 1440 Carmel Rd, Charlotte, NC 28226. The Apple link uses Apple's documented Map Links form
+(`?address=…&q=…`). It opened the street address with Charlotte Country Day School at it. The Google embed code is
+recorded here once it has been copied from Google Maps' Share → "Embed a map".

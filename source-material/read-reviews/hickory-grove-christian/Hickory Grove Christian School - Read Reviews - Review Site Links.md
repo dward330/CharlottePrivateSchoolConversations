@@ -8,6 +8,11 @@ them.
 - Niche: https://www.niche.com/k12/hickory-grove-christian-school-charlotte-nc/reviews/
 - SchoolDigger: https://www.schooldigger.com/go/NC/schools/9999925040/school.aspx
 
+Map links (the decorative map under the boxes):
+
+- Open in Google Maps: https://www.google.com/maps/search/?api=1&query=Hickory%20Grove%20Christian%20School%2C%207200%20E.%20WT%20Harris%20Blvd.%2C%20Charlotte%2C%20NC%2028215
+- Open in Apple Maps: https://maps.apple.com/?address=7200%20E.%20WT%20Harris%20Blvd.%2C%20Charlotte%2C%20NC%2028215&q=Hickory%20Grove%20Christian%20School
+
 ## Method
 
 **Provenance.** Written 2026-11-25 by `/implement readreviews` (plan
@@ -22,3 +27,9 @@ School address from the school's own site: 7200 E. WT Harris Blvd., Charlotte, N
 | SchoolDigger | https://www.schooldigger.com/go/NC/schools/9999925040/school.aspx | Opened in Chrome: page title "Hickory Grove Christian School in Charlotte NC - SchoolDigger", address line "7200 E W T Harris Blvd", no redirect. SchoolDigger has no separate reviews page. On this date the page showed no ratings yet. |
 
 GreatSchools also serves this school at the `2506-Hickory-Grove-Christian-School/` slug, which answers HTTP 301 to the `2506-Hickory-Grove-Baptist-Chr.-School/` slug used here (its canonical link names the same).
+
+**Map links, checked 2026-11-25 in Chrome.** The Google link uses Google's documented
+Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing titled
+"Hickory Grove Christian School - Google Maps", address Hickory Grove Christian School, 7200 E W.T. Harris Blvd, Charlotte, NC 28215. The Apple link uses Apple's documented Map Links form
+(`?address=…&q=…`). It opened the street address with Hickory Grove Christian School at it. The Google embed code is
+recorded here once it has been copied from Google Maps' Share → "Embed a map".

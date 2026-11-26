@@ -233,7 +233,7 @@ const STRUCTURED = [
   // On Compare since 2026-10-26 through five compareOnly `travel-*` rows; its
   // stat strip is still the topic's own data, never VALUE_METRICS.
   { topic: 'international-travel', file: 'internationalTravel.ts', reg: 'INTERNATIONAL_TRAVEL_CARDS', root: 'InternationalTravelProgram', dir: 'internationalTravel' },
-  // Kept off Compare by COMPARE_DEFERRED_TOPICS (src/lib/manifest.ts), the only entry.
+  // Kept off Compare by COMPARE_DEFERRED_TOPICS (src/lib/manifest.ts), with Read Reviews.
   { topic: 'learning-support', file: 'learningSupport.ts', reg: 'LEARNING_SUPPORT_CARDS', root: 'LearningSupportProgram', dir: 'learningSupport' },
 ]
 
@@ -1066,6 +1066,36 @@ for (const s of STANDALONE) {
   if (s.types.some((t) => unionValues(s.src, t))) w()
 }
 
+// Read Reviews (plan `readreviews`, 2026-11-25): a research area with no cards
+// and no prose, only links out. Counts come from the live module.
+{
+  const { REVIEW_SITES, REVIEW_LINKS, SCHOOL_MAPS } = await import('../src/data/reviewSites.ts')
+  const nLinks = Object.values(REVIEW_LINKS).reduce((n, l) => n + Object.keys(l).length, 0)
+  w('### Review links (the Read Reviews area)')
+  w()
+  w('`src/data/reviewSites.ts` · `REVIEW_SITES`, `REVIEW_LINKS`, `SCHOOL_MAPS` · rendered by `src/components/ReadReviews.tsx`')
+  w()
+  w(`Read Reviews (slug \`read-reviews\`) is the last research area on every school page. It holds`)
+  w('no cards and no research prose: one box per review site, each opening **that school\'s own')
+  w('page** on the site in a new tab, then a decorative Google map (Google\'s keyless embed,')
+  w('mounted only when the section nears the viewport).')
+  w()
+  w(`Sites: ${REVIEW_SITES.map((x) => x.name).join(', ')}. Today: ${nLinks} links across ${Object.keys(REVIEW_LINKS).length} schools, ${Object.keys(SCHOOL_MAPS).length} maps.`)
+  w()
+  w('- **Links only.** No rating, grade, review count, review text or reviewer name is copied')
+  w('  into the repo.')
+  w('- **Text plates, not logos.** Each box shows the site\'s name in our own type on the')
+  w('  school\'s own color. A logo file ships only with a `logoBasis` (the site\'s published')
+  w('  terms allowing it, or the user\'s written permission).')
+  w('- **Off Compare** (`COMPARE_DEFERRED_TOPICS`) and **out of the `/add-school` area floor**')
+  w('  (`FLOOR_EXCLUDED_AREAS` in `scripts/coverage_floor.mjs`): every school gets it for free.')
+  w('- **Each link is verified in a browser** (name and city) and recorded in')
+  w('  `source-material/read-reviews/<school>/`; a box with no verified URL is omitted.')
+  w('  `npm run check:reviewlinks` (in the build) fails on a link missing from that record, a')
+  w('  wrong host, a duplicate, or a logo with no basis.')
+  w()
+}
+
 // ---- 6. how to extend
 w('## 6. Adding to the schema')
 w()
@@ -1082,6 +1112,7 @@ w('| A **new research area** | `RULES[topic]`, `TOPIC_ORDER`, `LOCALES`/routes |
 w('| A **Compare row** | `VALUE_METRICS` in `src/data/metricValues.ts` | **yes** — new row |')
 w('| A **structured card** | the topic\'s root type + `*_CARDS` registry | **yes** — new card |')
 w('| A **school\'s structured data** | `src/data/<dir>/<slug>.ts` | no — backfilling an existing card |')
+w('| A school\'s **review links** (Read Reviews) | `REVIEW_LINKS` (and `SCHOOL_MAPS`) in `src/data/reviewSites.ts`, plus `source-material/read-reviews/<school>/` recording each link, verified in a browser by name and city | no — every new school needs them; `npm run check:reviewlinks` |')
 w('| A school\'s **acceptance list** (College Support) | `outcomes.colleges` (name + cats only); ranks resolve from the master `src/data/collegeRankings.ts` | no — but every ranked college needs a row in the master (see §3, `npm run check:ranks`) |')
 w()
 w('After any of these, run `npm run schema` to refresh this doc (and `npm run check:metrics`,')
@@ -1135,7 +1166,7 @@ w()
   w('**The flag is `hasHighSchool: false`** in `src/data/brands.ts`. It drives the')
   w('Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and, through it,')
   w('the Compare topic list (`comparableTopics`, same file; it also drops the editorially')
-  w('deferred `COMPARE_DEFERRED_TOPICS`, today only Learning Support) — and nothing else')
+  w('deferred `COMPARE_DEFERRED_TOPICS`, today Learning Support and Read Reviews) — and nothing else')
   w('automatically. Every rule below is a research and authoring decision.')
   w()
   w(k8.length
@@ -1153,7 +1184,7 @@ w()
   w('|---|---|---|')
   w(`| Research areas | up to ${topics.length - 1} of ${topics.length} | **up to ${topics.length - 1} of ${topics.length}** — the same ceiling, but College Support swaps for High School Placement |`)
   w('| Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |')
-  w('| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, the only entry since International Travel joined Compare 2026-10-26), not a data absence |')
+  w('| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, with Read Reviews; International Travel left the list when it joined Compare 2026-10-26), not a data absence |')
   w(`| Sports cards | up to ${sportsAll} | **up to ${sportsAll - K8_SPORTS_DROPPED.length}** — the ${K8_SPORTS_DROPPED.length} college-bound ones do not apply |`)
   w(`| College Support | ${nCards('college-support')} cards | **none** |`)
   w(`| High School Placement | none | **up to ${nCards('high-school-placement')} cards** |`)
