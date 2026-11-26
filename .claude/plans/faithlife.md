@@ -1,7 +1,7 @@
 ---
 name: faithlife
 title: Add a Faith & Spiritual Life research area — ten structured cards, Charlotte Christian School first, from two official-site research passes and the Claude Design mock
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-26
 branch: feat/faithlife
@@ -374,3 +374,81 @@ section.** Nothing below runs until they confirm the wording.
   paths in `PATH_OVERRIDES` instead.
 - **Tile four.** `12,556` service hours (class of 2026) replaced the retreat tile in
   design v2. **Default:** keep it; it is a published, checkable figure.
+
+## Implementation notes
+
+### Phase 1 (English), 2026-11-26
+
+Built on `feat/faithlife`. Phase 2 has not started.
+
+**Where the build departs from the design mock or the plan, and why**
+
+- **"Six more Bible teachers" is "Five more".** The directory lists five Bible teachers
+  besides the two already on the card (three Upper School, two Middle School). The mock
+  counted one of the two on the card.
+- **Heading "Core values", not "Five core values".** The heading is chrome shared by every
+  later school, so it carries no count. The developer kept this at the review.
+- **An extra chrome key, `faith.mission` ("Mission.")**, so the bold opener is not typed in
+  JSX. Each card also carries a `headline` (the teaser), which the plan's shapes left out.
+- **Chapel speakers.** "Recent speakers include" became "Speakers listed for fall 2026
+  include" (Lower School) and "Speakers listed for 2026 include" (Middle School): two were
+  still upcoming on the research date, and one spoke in spring 2026.
+- **All-school chapels** are "held outdoors on the school's field and in its stadium". The
+  calendar puts one on a field, not in the stadium.
+- **Bible distinction:** "Its requirements include", because the mock's three items are not
+  the whole list.
+- **Quotes.** The World Religions and Windy Gap quotes no longer capitalize a word the
+  school prints in lower case. Five quotes cut mid-sentence close before the period, and the
+  Family Agreement quote runs to its real end ("… and Responsible Use Policy in myCCS.").
+- **Kingdom Impact Day:** the crayon drive is called "a separate Middle School crayon
+  drive", since it was not part of that day.
+- **Lead sentence** split into shorter sentences to pass the reading-level check.
+- **The two mock lines the plan said to reword:** the Families note now says the school
+  keeps the handbook, Honor Code and application behind a family login; the chapel note
+  says days and times "follow the school's 2026–27 calendar".
+- **Dev-only notes** are a `verify: string[]` on each card, shown on the dev server through
+  `SHOW_TO_VERIFY`. They are skipped by the extractor, so they are never translated.
+- **`stats[].value` "Weekly"** is promoted by a `WORDED_VALUES` rule so it translates;
+  figure values stay skipped. No other area's extraction changed.
+- **One personal staff detail** (a place of worship from a directory pop-up) was withheld
+  from the second research file before the ingest.
+- **`SHORT_TOPIC_NAMES` was not needed:** `check:seo` passes.
+- **Audits.** `audit:cardlink` was run headless and for Charlotte Christian only (78 of 78
+  links), so no window covered the developer's screen; the headed run the plan names is
+  still owed. `audit:mobile` ran for Charlotte Christian at 320/360/390.
+- **`check:metrics` exits 1** on an unmatched Sports subtopic that is already on `main`.
+- **Design re-capture (step 16)** ran after the review fixes, from `81748e40`. The capture
+  trims the statement of faith and the questions to six of ten; the app shows all ten.
+
+**Source freshness.** Every printed fact was re-checked against the live pages on
+2026-11-26; nothing had moved. Recorded under the first research file's `## Method`.
+
+### Adversarial review 2026-11-26
+
+Commit reviewed: `aaf23d43`. Fix commit: `81748e40`.
+
+**Pass 1:** 11 found, 11 confirmed, 0 rejected. 8 fixed (one of them in part), 1 declined,
+and 2 were plan or process steps done anyway.
+
+- R1 design-sync row missing: done with the step 16 re-capture.
+- R2 heading "Core values" against the mock's "Five core values": declined by developer.
+- R3 no Implementation notes: this section.
+- R4 schema doc named two Compare-deferred areas: fixed.
+- R5 schema doc's area ceiling wrong for a school that is not faith-based: fixed in the
+  generator. `CLAUDE.md` left as is, since its "total − 1" uses the coverage script's
+  total, which already leaves the area out.
+- R6 schema doc dropped and truncated the new types: fixed (plain multi-line types).
+- R7 two claims with no source on their card: fixed (brochure, three supply lists).
+- R8 six cut quotes: fixed.
+- R9 upcoming speakers stated as past: fixed.
+- R10 `CLAUDE.md` no-student list omitted the area: fixed.
+- R11 stray hand-off line in a research file: fixed. The head of school's church line
+  (from his published leadership bio) stays: declined by developer.
+
+**Pass 2 (on the fixes):** 1 found, 1 confirmed, 0 fixed.
+
+- The schema doc lists `FaithChip` by its first shape only (`band`), a generator limit on a
+  one-line union of object types: **open**, put to the developer at the Phase 1 hand-back.
+
+Fixed, not re-reviewed: none. Open: R2 (declined), the church line in R11 (declined), the
+`FaithChip` line.
