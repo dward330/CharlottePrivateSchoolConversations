@@ -51,6 +51,13 @@ const KNIGHTLIGHT = src(
   'KnightLight Worship audition packet, fall 2026 (PDF)',
   'https://resources.finalsite.net/images/v1788272478/charlotte/vqmnmtkuht4qnhjeqjta/LSWorshipTeamAuditionPacketFall26-27.pdf',
 )
+const LS_BROCHURE = src('Lower School curriculum brochure (PDF)', '/fs/resource-manager/view/94f7a8dc-97a5-4798-aeeb-bb83410b4312')
+const LS_SUPPLIES = src('Lower School Supply Lists 2026-27 (PDF)', '/fs/resource-manager/view/add5156c-9c0d-4f36-91b0-2b61c7e72894')
+const MS_SUPPLIES = src(
+  'Middle School Supply Lists 2026-27 (Google Doc)',
+  'https://docs.google.com/document/d/1QGhDLnNQ4apPmAnn76byfK_-UnukPNqXzSyxRHUtRy0/preview?tab=t.0',
+)
+const US_SUPPLIES = src('Upper School Supply Lists 2026-27 (PDF)', '/fs/resource-manager/view/0a409e37-08f1-4d96-b856-79a7518fba29')
 const US_GUIDE = src('Upper School Course Curriculum Guide 2026-27 (PDF)', '/fs/resource-manager/view/e07cd151-2d20-44e0-a7db-f0b6d50ba314')
 const MS_GUIDE = src('Middle School Course Curriculum Guide 2026-27 (PDF)', '/fs/resource-manager/view/e8e85321-72b3-4030-b64e-22dccc17cf1a')
 const CONSERVATORY = src('Academic Conservatory Guide (PDF)', '/fs/resource-manager/view/9dc4d494-e8ee-4398-b511-d699e694467d')
@@ -115,14 +122,14 @@ export const charlotteChristian: FaithLifeProgram = {
         title: 'Lower School chapel',
         text: 'Thursdays, 8:15–8:45 AM, Alkire Auditorium. “Weekly chapels led by spiritual life director.”',
         muted:
-          'Speakers in fall 2026 include the Lower School counselor and the Lower School principal. One week, teachers and students acted out a story from the book of Daniel.',
+          'Speakers listed for fall 2026 include the Lower School counselor and the Lower School principal. One week, teachers and students acted out a story from the book of Daniel.',
       },
       {
         chip: { band: '5–8' },
         title: 'Middle School chapel',
         text: 'Tuesdays, 9:30–10:05 AM, Alkire Auditorium. Chapels run in series with names like “Blessing Burglars.”',
         muted:
-          'Speakers in 2026 include the Campus Pastor, the Middle School Spiritual Life Director, Middle School teachers and an Upper School student leader. Guest worship leaders visit.',
+          'Speakers listed for 2026 include the Campus Pastor, the Middle School Spiritual Life Director, Middle School teachers and an Upper School student leader. Guest worship leaders visit.',
       },
       {
         chip: { band: '9–12' },
@@ -140,7 +147,7 @@ export const charlotteChristian: FaithLifeProgram = {
       {
         chip: { band: '3–4' },
         title: 'KnightLight Worship',
-        text: 'The Lower School worship team. “Students in grades 3 and 4 are eligible to audition.” The team rehearses on Wednesdays after school and leads “worship for lower school chapel several times this semester.”',
+        text: 'The Lower School worship team. “Students in grades 3 and 4 are eligible to audition”. The team rehearses on Wednesdays after school and leads “worship for lower school chapel several times this semester.”',
       },
       {
         chip: { band: '9–12' },
@@ -154,7 +161,7 @@ export const charlotteChristian: FaithLifeProgram = {
       muted:
         'Every chapel ends with the same benediction, from Micah 6:8. Chapel days and times follow the school’s 2026–27 calendar. Some weeks have no chapel.',
     },
-    sources: [SPIRITUAL, CALENDAR, BELIEVE, RECAP_NOV12, RECAP_NOV5, FOCUS, ARCHIVE, KNIGHTLIGHT, MUSIC, CURRICULUM],
+    sources: [SPIRITUAL, CALENDAR, LS_BROCHURE, BELIEVE, RECAP_NOV12, RECAP_NOV5, FOCUS, ARCHIVE, KNIGHTLIGHT, MUSIC, CURRICULUM],
     verify: [
       'No page states the chapel weekday as a rule. The pattern is counted from the 2026-27 calendar: LS 35 Thursdays (1 Monday), MS 32 Tuesdays (1 Monday, plus two split March entries), US 27 Wednesdays (2 Thursdays).',
       'The Lower School principal (Dec. 3) and the Middle School teachers (Dec. 1) were listed as upcoming speakers on /campus-life/weekly-focus when read on 2026-11-26.',
@@ -243,7 +250,7 @@ export const charlotteChristian: FaithLifeProgram = {
       muted:
         'Students can also graduate with distinction in Bible, Religion and Philosophy. Its requirements include a 3.89 Bible GPA, active participation in a local church and an interview with the Bible department.',
     },
-    sources: [BELIEVE, CURRICULUM, MS_GUIDE, US_GUIDE, CONSERVATORY, PARENTS_HUB],
+    sources: [BELIEVE, CURRICULUM, MS_GUIDE, US_GUIDE, CONSERVATORY, PARENTS_HUB, LS_SUPPLIES, MS_SUPPLIES, US_SUPPLIES],
     verify: [
       'No Bible curriculum publisher and no Scripture memory program is named on any public page. Both are on the Ask the School card.',
       'The 2026-27 profile names the distinction "Bible, Philosophy & Religion"; the curriculum page and the conservatory guide say "Bible, Religion and Philosophy".',
@@ -258,7 +265,7 @@ export const charlotteChristian: FaithLifeProgram = {
     cells: [
       {
         title: 'Lower School: Camp S.L.A.M.',
-        text: '“All lower school students will participate in a full day of Camp S.L.A.M. (Spiritual Life and Meaning) activities.” The day holds team games, “praise, worship, and study.” The speaker in fall 2026 was the Lower School Spiritual Life Director. Grade 4 has its own leadership and team-building day.',
+        text: '“All lower school students will participate in a full day of Camp S.L.A.M. (Spiritual Life and Meaning) activities”. The day holds team games, “praise, worship, and study.” The speaker in fall 2026 was the Lower School Spiritual Life Director. Grade 4 has its own leadership and team-building day.',
       },
       {
         title: 'Middle School: Carolina Point',
@@ -315,7 +322,7 @@ export const charlotteChristian: FaithLifeProgram = {
       {
         chip: { band: '5–12' },
         title: 'Spiritual Life Conference',
-        text: 'On conference days, “special speakers are invited to campus for a time of focused teaching and discussion.”',
+        text: 'On conference days, “special speakers are invited to campus for a time of focused teaching and discussion”.',
       },
     ],
     sources: [ARCHIVE, MIDDLE, MS_GUIDE, UPPER, SPIRITUAL, RECAP_NOV12],
@@ -406,7 +413,7 @@ export const charlotteChristian: FaithLifeProgram = {
             label: 'Family Agreement Form',
             status: 'published',
             detail:
-              '“Both parents and students need to read and digitally sign the online Back-to-School Form including the Family Agreement Form.” The form itself is not on the public site.',
+              '“Both parents and students need to read and digitally sign the online Back-to-School Form including the Family Agreement Form and Responsible Use Policy in myCCS.” The form itself is not on the public site.',
           },
           {
             label: 'Bible class',
@@ -480,7 +487,7 @@ export const charlotteChristian: FaithLifeProgram = {
     ],
     note: {
       strong: 'Service hours start in sixth grade.',
-      text: '“Beginning in sixth grade, students are encouraged to earn service hours each year.”',
+      text: '“Beginning in sixth grade, students are encouraged to earn service hours each year”.',
       muted: 'The school’s pages do not give a number of hours per grade.',
     },
     sources: [SPIRITUAL, SERVE, RECAP_EASTER, OCC_EMAIL, IMPACT_DAY, CRAYONS, WINTERIM, SENIORS],
@@ -546,7 +553,7 @@ export const charlotteChristian: FaithLifeProgram = {
       {
         chip: { word: 'weekly' },
         title: 'Parents in Prayer',
-        text: 'Thursdays, 8:00–9:30 AM on campus, with a virtual session about once a month. “Prayer parents pray for the boys or girls in their child’s grade level on a regular basis.”',
+        text: 'Thursdays, 8:00–9:30 AM on campus, with a virtual session about once a month. “Prayer parents pray for the boys or girls in their child’s grade level on a regular basis”.',
       },
       {
         chip: { word: 'monthly' },

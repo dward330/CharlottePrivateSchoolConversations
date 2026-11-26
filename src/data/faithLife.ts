@@ -27,13 +27,24 @@ import type { Source } from '../components/SourceRow.tsx'
 /* ------------------------------------------------------------------ types -- */
 
 /** A bold lead sentence with an optional muted follow-on. */
-export type FaithLead = { strong: string; muted?: string }
+export type FaithLead = {
+  strong: string
+  muted?: string
+}
 
 /** One stat tile. `note` is the small line under the label. */
-export type FaithStat = { value: string; label: string; note?: string }
+export type FaithStat = {
+  value: string
+  label: string
+  note?: string
+}
 
 /** A note paragraph: optional bold opener, plain text, muted follow-on. */
-export type FaithNote = { strong?: string; text?: string; muted?: string }
+export type FaithNote = {
+  strong?: string
+  text?: string
+  muted?: string
+}
 
 /** Word chips. Labels are chrome (`faith.code.<word>`). */
 export type FaithWord = 'all' | 'weekly' | 'monthly' | 'yearly'
@@ -45,17 +56,26 @@ export type FaithWord = 'all' | 'weekly' | 'monthly' | 'yearly'
 export type FaithChip = { band: string } | { word: FaithWord }
 
 /** One chip + title + text row (chapel, groups, service, parents). */
-export type FaithEntry = { chip: FaithChip; title: string; text: string; muted?: string }
+export type FaithEntry = {
+  chip: FaithChip
+  title: string
+  text: string
+  muted?: string
+}
 
-/** Fields every card carries. `verify` is research bookkeeping: dev server only. */
-type CardBase = {
-  /** The teaser under the card title. */
+/**
+ * Every card carries `headline` (the teaser under the card title), `sources`
+ * and an optional `verify` (research bookkeeping: dev server only). The fields
+ * are written out on each card type, never shared through an intersection:
+ * `gen_data_schema.mjs` reads `export type X = { … }` blocks as text.
+ */
+export type EntriesCard = {
   headline: string
+  entries: FaithEntry[]
+  note?: FaithNote
   sources: Source[]
   verify?: string[]
 }
-
-export type EntriesCard = CardBase & { entries: FaithEntry[]; note?: FaithNote }
 
 export type ClassRow = {
   label: string
@@ -66,18 +86,25 @@ export type ClassRow = {
   detail: string
 }
 
-export type ClassesCard = CardBase & {
+export type ClassesCard = {
+  headline: string
   intro?: FaithNote
   groups: { name: string; tally?: string; rows: ClassRow[] }[]
   note?: FaithNote
+  sources: Source[]
+  verify?: string[]
 }
 
-export type RetreatsCard = CardBase & {
+export type RetreatsCard = {
+  headline: string
   cells: { title: string; text: string }[]
   note?: FaithNote
+  sources: Source[]
+  verify?: string[]
 }
 
-export type BeliefsCard = CardBase & {
+export type BeliefsCard = {
+  headline: string
   /** The mission statement, quoted whole. */
   mission?: string
   /** Core values: the value and the Bible reference the school pairs it with. */
@@ -85,6 +112,8 @@ export type BeliefsCard = CardBase & {
   note?: FaithNote
   /** The statement of faith: one whole verbatim article per string, in page order. */
   articles?: string[]
+  sources: Source[]
+  verify?: string[]
 }
 
 export type FamilyRow = {
@@ -94,18 +123,31 @@ export type FamilyRow = {
   detail: string
 }
 
-export type FamiliesCard = CardBase & {
+export type FamiliesCard = {
+  headline: string
   groups: { name: string; rows: FamilyRow[] }[]
   note?: FaithNote
+  sources: Source[]
+  verify?: string[]
 }
 
 /**
  * `email` only where the school's own directory publishes it — never built
  * from a name pattern. Rendered as a mailto link, never translated.
  */
-export type FaithPerson = { name: string; role: string; email?: string }
+export type FaithPerson = {
+  name: string
+  role: string
+  email?: string
+}
 
-export type FaithStaffCard = CardBase & { people: FaithPerson[]; note?: FaithLead }
+export type FaithStaffCard = {
+  headline: string
+  people: FaithPerson[]
+  note?: FaithLead
+  sources: Source[]
+  verify?: string[]
+}
 
 export type FaithAskCard = {
   headline: string

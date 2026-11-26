@@ -333,9 +333,7 @@ here and none may be used.
 enrollment packet, a 2007 magazine, an old preview-host page) are marked and support no
 parent-facing fact.
 
-Second pass complete: five of the eight gaps moved, but the top-priority one (parent faith requirements) is still not answered by any current public page. No repo file was edited and no git command was run.
-
-All pages were read 2026-11-26. No student is named below; six sources carry student names and are marked.
+Five of the eight gaps moved in this pass. The top-priority one (parent faith requirements) is still not answered by any current public page. All pages were read 2026-11-26.
 
 ## Source URLs (new in this pass), and what failed
 

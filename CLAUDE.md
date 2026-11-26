@@ -377,8 +377,8 @@ and do not re-raise it in a scan or review. The exception covers **only what tha
 renders live**: never copy a name from it into a tracked file (a parser comment, a news-board
 research record, a plan, a test, a skill example), a commit or a PR.
 
-A stricter local rule still wins: Global Exposure, Learning Support and the podcast episodes
-name no student at all.
+A stricter local rule still wins: Global Exposure, Learning Support, Faith & Spiritual Life
+and the podcast episodes name no student at all.
 
 ## Podcast episode standard (required)
 

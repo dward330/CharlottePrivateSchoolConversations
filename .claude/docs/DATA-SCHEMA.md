@@ -1157,23 +1157,35 @@ only from the school's own directory. Trip prices and exact travel dates stay ou
 
 <details><summary>Types defined in <code>faithLife.ts</code> (18)</summary>
 
-`FaithLead` — `strong`
+`FaithLead` — `strong`, `muted?`
 
-`FaithStat` — `value`
+`FaithStat` — `value`, `label`, `note?`
 
-`FaithNote` — `strong?`
+`FaithNote` — `strong?`, `text?`, `muted?`
 
 `FaithWord` *(union)* — `all` \| `weekly` \| `monthly` \| `yearly`
 
 `FaithChip` — `band`
 
-`FaithEntry` — `chip`
+`FaithEntry` — `chip`, `title`, `text`, `muted?`
+
+`EntriesCard` — `headline`, `entries`, `note?`, `sources`, `verify?`
 
 `ClassRow` — `label`, `band`, `credit?`, `detail`
 
+`ClassesCard` — `headline`, `intro?`, `groups`, `note?`, `sources`, `verify?`
+
+`RetreatsCard` — `headline`, `cells`, `note?`, `sources`, `verify?`
+
+`BeliefsCard` — `headline`, `mission?`, `values?`, `note?`, `articles?`, `sources`, `verify?`
+
 `FamilyRow` — `label`, `status`, `detail`
 
-`FaithPerson` — `name`
+`FamiliesCard` — `headline`, `groups`, `note?`, `sources`, `verify?`
+
+`FaithPerson` — `name`, `role`, `email?`
+
+`FaithStaffCard` — `headline`, `people`, `note?`, `sources`, `verify?`
 
 `FaithAskCard` — `headline`, `questions`, `asOf`, `verify?`
 
@@ -1742,7 +1754,7 @@ counted as gaps in its coverage.
 **The flag is `hasHighSchool: false`** in `src/data/brands.ts`. It drives the
 Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and, through it,
 the Compare topic list (`comparableTopics`, same file; it also drops the editorially
-deferred `COMPARE_DEFERRED_TOPICS`, today Learning Support and Read Reviews) — and nothing else
+deferred `COMPARE_DEFERRED_TOPICS`, today Learning Support, Faith & Spiritual Life and Read Reviews) — and nothing else
 automatically. Every rule below is a research and authoring decision.
 
 **K-8 schools today (2):** `trinity-episcopal`, `charlotte-prep`
@@ -1751,9 +1763,9 @@ automatically. Every rule below is a research and authoring decision.
 
 | Layer | K-12 school | K-8 school |
 |---|---|---|
-| Research areas | up to 13 of 14 | **up to 13 of 14** — the same ceiling, but College Support swaps for High School Placement |
+| Research areas | up to 13 of 14, or 12 for a school that is not faith-based (only a faith-based school holds Faith & Spiritual Life) | **up to 13 of 14, or 12 if not faith-based** — the same ceiling, but College Support swaps for High School Placement |
 | Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |
-| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, with Read Reviews; International Travel left the list when it joined Compare 2026-10-26), not a data absence |
+| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, with Faith & Spiritual Life and Read Reviews; International Travel left the list when it joined Compare 2026-10-26), not a data absence |
 | Sports cards | up to 8 | **up to 3** — the 5 college-bound ones do not apply |
 | College Support | 7 cards | **none** |
 | High School Placement | none | **up to 4 cards** |
