@@ -646,3 +646,11 @@ At the user's request, after #528 was deployed:
   re-captured; see `design-sync.md`. Browser-checked in en, es, fa and hi; no overflow at
   320 or 390px. Not adversarially reviewed (a follow-up, not a plan).
 
+### Follow-up 2026-11-25 (3): Niche first
+
+At the user's request the boxes run Niche, GreatSchools, SchoolDigger on every school
+(`REVIEW_SITES` order). Niche holds the most reviews at 10 of 13 schools (ties at Davidson
+Day; GreatSchools leads only at the two K-8 schools) and the student reviews. One fixed
+order, not a per-school sort, so a box sits in the same place on every page. Mocked in
+Claude Design first, then built and re-captured; `CLAUDE.md` names the new order.
+
