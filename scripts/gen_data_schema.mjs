@@ -1113,7 +1113,7 @@ w('| A **new research area** | `RULES[topic]`, `TOPIC_ORDER`, `LOCALES`/routes |
 w('| A **Compare row** | `VALUE_METRICS` in `src/data/metricValues.ts` | **yes** — new row |')
 w('| A **structured card** | the topic\'s root type + `*_CARDS` registry | **yes** — new card |')
 w('| A **school\'s structured data** | `src/data/<dir>/<slug>.ts` | no — backfilling an existing card |')
-w('| A school\'s **review links** (Read Reviews) | `REVIEW_LINKS` (and `SCHOOL_MAPS`) in `src/data/reviewSites.ts`, plus `source-material/read-reviews/<school>/` recording each link, verified in a browser by name and city | no — every new school needs them; `npm run check:reviewlinks` |')
+w('| A school\'s **review links** (Read Reviews) | `REVIEW_LINKS` (and `SCHOOL_MAPS`) in `src/data/reviewSites.ts`, plus `source-material/read-reviews/<school>/` recording each link, checked by name and city (Niche and SchoolDigger in a browser, GreatSchools by fetch) | no — every new school needs them; `npm run check:reviewlinks` |')
 w('| A school\'s **acceptance list** (College Support) | `outcomes.colleges` (name + cats only); ranks resolve from the master `src/data/collegeRankings.ts` | no — but every ranked college needs a row in the master (see §3, `npm run check:ranks`) |')
 w()
 w('After any of these, run `npm run schema` to refresh this doc (and `npm run check:metrics`,')

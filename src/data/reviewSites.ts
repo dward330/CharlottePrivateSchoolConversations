@@ -8,7 +8,7 @@
  * `source-material/read-reviews/<slug>/<School Name> - Read Reviews - Review Site Links.md`.
  * `npm run check:reviewlinks` (in the build) fails when a URL here is not in that
  * file, so a link cannot change without its record. A NEW SCHOOL needs an entry
- * here and its research file, verified in a browser.
+ * here and its research file, checked the same way.
  *
  * Links only. The page shows nothing from these sites but their names, and the
  * repo stores no rating, grade, review text or reviewer name. (Each research file

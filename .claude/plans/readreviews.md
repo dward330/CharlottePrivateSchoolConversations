@@ -609,3 +609,18 @@ English approved by the user. Built in a fresh window on `feat/readreviews`.
   section's rules were not in the project's copy (dated 2026-11-20), and the user saw the
   boxes unstyled in the project until it landed.
 - **Phase 2 is not adversarially reviewed** (per `/implement` step 5b).
+
+### Follow-up 2026-11-25 (after #527, at the user's request)
+
+- **The two "fixed, not re-reviewed" items were re-reviewed** by one fresh agent on the
+  second-pass brief, against fix commit `0bf2773c` as merged. Both fixes were judged right
+  where they were made (the dev nav and header now both sum `researchDocCount`; Providence
+  Day 69 research documents). It found 3 should-fix places fix #1 missed, all confirmed
+  and all fixed: the schema doc's §6 "review links" row (`gen_data_schema.mjs`), the
+  closing line of `reviewSites.ts`' header, and the `add-school` skill plus its `SKILLS.md`
+  entry, which still said every link is opened in a browser. They now say Niche and
+  SchoolDigger in a browser, GreatSchools by fetch. These fixes were not reviewed again.
+- **Map label in design captures:** `design_capture.mjs` now labels a Google Maps iframe
+  "Embedded map (…) — loads in the app"; video embeds keep "Embedded player". Read Reviews
+  Section, Providence Day School and School Page (K-8) re-captured from `fd22a339` and
+  verified byte for byte again.
