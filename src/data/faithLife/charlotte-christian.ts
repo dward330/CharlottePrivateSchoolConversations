@@ -58,6 +58,7 @@ const MS_SUPPLIES = src(
   'https://docs.google.com/document/d/1QGhDLnNQ4apPmAnn76byfK_-UnukPNqXzSyxRHUtRy0/preview?tab=t.0',
 )
 const US_SUPPLIES = src('Upper School Supply Lists 2026-27 (PDF)', '/fs/resource-manager/view/0a409e37-08f1-4d96-b856-79a7518fba29')
+const PROFILE = src('2026-27 Academic & Student Profile (PDF)', '/fs/resource-manager/view/f2a08f94-0860-459b-9fc3-e59cfa5ebbca')
 const US_GUIDE = src('Upper School Course Curriculum Guide 2026-27 (PDF)', '/fs/resource-manager/view/e07cd151-2d20-44e0-a7db-f0b6d50ba314')
 const MS_GUIDE = src('Middle School Course Curriculum Guide 2026-27 (PDF)', '/fs/resource-manager/view/e8e85321-72b3-4030-b64e-22dccc17cf1a')
 const CONSERVATORY = src('Academic Conservatory Guide (PDF)', '/fs/resource-manager/view/9dc4d494-e8ee-4398-b511-d699e694467d')
@@ -86,7 +87,7 @@ export const charlotteChristian: FaithLifeProgram = {
 
   lead: {
     strong:
-      'Charlotte Christian calls itself “a Christ-centered, college preparatory school.” It is independent and non-denominational. Every student takes a Bible class each year, from junior kindergarten through grade 12. Each division has a weekly chapel.',
+      'Charlotte Christian calls itself “a Christ-centered, college preparatory school”. It is independent and non-denominational. Every student takes a Bible class each year, from junior kindergarten through grade 12. Each division has a weekly chapel.',
     muted: '“The school is not under the direction, influence or support of any particular church,” it says.',
   },
 
@@ -248,12 +249,12 @@ export const charlotteChristian: FaithLifeProgram = {
       strong: 'A student who joins late still takes Bible.',
       text: '“Students must complete a Bible class each year they are enrolled at Charlotte Christian School. If a student is admitted as a senior, they will be required to complete both junior and senior Bible classes.”',
       muted:
-        'Students can also graduate with distinction in Bible, Religion and Philosophy. Its requirements include a 3.89 Bible GPA, active participation in a local church and an interview with the Bible department.',
+        'Students can also graduate with distinction in Bible, Philosophy & Religion. Its requirements include a 3.89 Bible GPA, active participation in a local church and an interview with the Bible department.',
     },
-    sources: [BELIEVE, CURRICULUM, MS_GUIDE, US_GUIDE, CONSERVATORY, PARENTS_HUB, LS_SUPPLIES, MS_SUPPLIES, US_SUPPLIES],
+    sources: [BELIEVE, CURRICULUM, MS_GUIDE, US_GUIDE, CONSERVATORY, PROFILE, PARENTS_HUB, LS_SUPPLIES, MS_SUPPLIES, US_SUPPLIES],
     verify: [
       'No Bible curriculum publisher and no Scripture memory program is named on any public page. Both are on the Ask the School card.',
-      'The 2026-27 profile names the distinction "Bible, Philosophy & Religion"; the curriculum page and the conservatory guide say "Bible, Religion and Philosophy".',
+      'The 2026-27 profile names the distinction "Bible, Philosophy & Religion"; the curriculum page and the conservatory guide say "Bible, Religion and Philosophy". The card uses the profile\'s order, as the Student Clubs and College Support cards do.',
       'Graduation total: "Total Unit Requirements - 26" (curriculum page, US guide) against "27 Total Credits" (2026-27 profile). Both say 4 units of Biblical Studies. The card prints no total.',
       'Supply lists: "1 ESV Bible" on the grades 1–4 and upper school lists, "(1) ESV Bible" on the grades 5-8 list.',
     ],
@@ -362,7 +363,7 @@ export const charlotteChristian: FaithLifeProgram = {
       '“We believe that Jesus Christ, the Son of God, will return to renew the whole creation and to judge the living and the dead.”',
       '“We believe Christian education is a partnership between students, faculty and parents that provides an opportunity for students to learn and experience academics and co-curricular activities through a biblical worldview, in the presence of Christ-honoring faculty.”',
     ],
-    sources: [BELIEVE, CAROLINA_POINT],
+    sources: [BELIEVE, PROFILE, FAQS, CAROLINA_POINT],
     verify: [
       'The 2014 bylaws linked from /about/leadership carry a different seven-point doctrinal statement and a staff-and-board lifestyle statement. By the plan\'s decision they stay in the research file only.',
       'The Appearance Code lists the five core values in a different order. Same five values.',
@@ -424,7 +425,7 @@ export const charlotteChristian: FaithLifeProgram = {
             label: 'Retreats',
             status: 'published',
             detail:
-              'In the Middle School, “all students participate.” In the Upper School, “all students are asked to participate.”',
+              'In the Middle School, “all students participate”. In the Upper School, “all students are asked to participate”.',
           },
           {
             label: 'Student conduct',
@@ -436,7 +437,7 @@ export const charlotteChristian: FaithLifeProgram = {
             label: 'Partnership with parents',
             status: 'published',
             detail:
-              'The statement of faith calls Christian education “a partnership between students, faculty and parents.”',
+              'The statement of faith calls Christian education “a partnership between students, faculty and parents”.',
           },
           {
             label: 'Chapel attendance',
@@ -477,7 +478,7 @@ export const charlotteChristian: FaithLifeProgram = {
       {
         chip: { band: '5–8' },
         title: 'Kingdom Impact Day',
-        text: '“Six local nonprofit organizations shared about their missions” with Middle School students in spring 2026. A separate Middle School crayon drive collected “98,484 crayons.”',
+        text: '“Six local nonprofit organizations shared about their missions” with Middle School students in spring 2026. A separate Middle School crayon drive collected “98,484 crayons”.',
       },
       {
         chip: { band: '9–12' },

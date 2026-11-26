@@ -452,3 +452,33 @@ and 2 were plan or process steps done anyway.
 
 Fixed, not re-reviewed: none. Open: R2 (declined), the church line in R11 (declined), the
 `FaithChip` line.
+
+**Pass 3 (full re-review, asked for by the developer; the process normally stops at two):**
+commit reviewed `b8334b20`. 6 found, 6 confirmed, 0 rejected, 6 fixed, 0 declined.
+
+- P3-1 Student Clubs said service hours are "encouraged, not required" while Ask the School
+  says the school's pages disagree: fixed by dropping that Clubs sentence (outside this
+  plan's scope, picked by the developer). The unit was already translated, so its nine
+  locale work files were re-stamped by `at` path with the matching last sentence removed,
+  and the nine `student-clubs` overlays rebuilt. `check:live`, `check:runtime` and
+  `check:digits` pass.
+- P3-2 the Bible classes card was missing from `scripts/data_dependents.json`: fixed.
+- P3-3 the distinction was named three ways on one page: the new card now uses the
+  profile's order, "Bible, Philosophy & Religion", like Student Clubs and College Support.
+- P3-4 five more cut quotes closed with the period inside, and one swapped the school's
+  "!" for a period: fixed.
+- P3-5 two claims had no source on What the School Believes: the 2026-27 profile and the
+  Admissions FAQs added.
+- P3-6 the design project's *Home* capture shows 11 research areas for Charlotte Christian:
+  drift noted in `design-sync.md`, re-capture due at the end of Phase 2.
+
+Fixed, not re-reviewed: all six pass-3 fixes.
+
+**Design file is five wording changes behind.** *Faith & Spiritual Life Section* in the
+design project was captured at `81748e40`, before the pass-3 fixes (the lead quote ending,
+two Families rows, the crayons figure, the distinction name). It is re-captured after the
+developer's English review, since that review may change wording again.
+
+**Phase 2 note:** the Student Clubs unit above needs no further work. For the new area,
+`fa`/`ar` should check the closing-quote-then-period endings in a browser.
+

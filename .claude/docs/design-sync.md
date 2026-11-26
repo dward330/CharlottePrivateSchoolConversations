@@ -653,3 +653,9 @@ were not re-written). Both were verified byte for byte. The capture trims the te
 statement of faith and the ten questions to their first six; the app shows all ten. Neither
 school-page capture changed, because Providence Day and Charlotte Prep do not hold the
 area. Re-capture once more if Phase 2 or the English review changes the section.
+
+**Known drift, to close at the end of plan `faithlife` Phase 2:** *Home* was captured on
+2026-11-20 and shows Charlotte Christian with 11 research areas. The built Home page now
+shows 12, since the school gained Faith & Spiritual Life. Re-capture *Home* once Phase 2
+lands. (Read Reviews left the same gap on every school card: the Home capture predates it
+too.)

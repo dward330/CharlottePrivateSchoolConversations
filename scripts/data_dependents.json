@@ -24,7 +24,8 @@
         { "file": "src/data/internationalTravel/<slug>.ts", "field": "language-course counts (e.g. '38 language courses incl. 5 APs')", "why": "Global Exposure restates the world-language catalog; also language-start grades restated in headlines (e.g. 'five world languages, three of them from TK' — plan consistency2 PD-R6)" },
         { "file": "source-material/course-offerings/<slug>/", "field": "an older condensation record beside a newer full-description record", "why": "add a 'superseded for the app' pointer at the top of the older record; keep its content as provenance" },
         { "file": "src/data/overlays/course-offerings.<lang>.json", "field": "changed, added or moved units", "why": "translation (Phase 2): inserts and removals shift `at` paths, so re-splice by stamp" },
-        { "file": "src/data/podcastEpisodes.ts", "field": "researchArea: 'course-offerings' entries", "why": "normally no change: entries hold titles and links only, and the audio is a dated recording" }
+        { "file": "src/data/podcastEpisodes.ts", "field": "researchArea: 'course-offerings' entries", "why": "normally no change: entries hold titles and links only, and the audio is a dated recording" },
+        { "file": "src/data/faithLife/<slug>.ts", "field": "the Bible & Faith Classes card: Bible course names per grade, credits per course, the 'Biblical Studies credits to graduate' tile and tally, and the uKnight Worship credit", "why": "Faith & Spiritual Life restates the Bible department's catalog and the graduation requirement (plan faithlife)" }
       ],
       "commands": [
         "npm run check:consistency",
