@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 12 research areas**, 570 ingested research documents.
+**13 schools × 13 research areas**, 583 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -69,6 +69,7 @@ exists yet and **the section does not render at all** for that school.
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 1 | 4 | 5 | 1 | 1 | 6 | 1 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 1 | — | 1 | 1 | 1 | 2 |
 | Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 1 | 2 | 2 | 4 | 2 | 2 | 1 | 1 | 2 | 4 |
+| Read Reviews | `read-reviews` | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
 ## 2. Research-area sections (prose layer)
 
@@ -198,6 +199,12 @@ research dossier folds in behind a structured card.
 |---|---|--:|--:|
 | `in-depth-report` | In-Depth Report | 13/13 | 10 |
 | `tuition-history` | Tuition History & Sources | 5/13 | 1 |
+
+### Read Reviews `read-reviews`
+
+| Card key | Label | Schools | Distinct subtopic phrasings |
+|---|---|--:|--:|
+| `review-sites` | Review Sites | 13/13 | 1 |
 
 > ⚠️ **Unmatched subtopics.** These keys were not produced by a `RULES` entry — they
 > were slugified from a raw subtopic that matched no rule, so each is effectively an
@@ -1580,6 +1587,30 @@ Per-school colors and marks used by the page chrome.
 | `homepageUrl` | `string` |  |
 | `hasHighSchool` | `boolean` |  |
 
+### Review links (the Read Reviews area)
+
+`src/data/reviewSites.ts` · `REVIEW_SITES`, `REVIEW_LINKS`, `SCHOOL_MAPS` · rendered by `src/components/ReadReviews.tsx`
+
+Read Reviews (slug `read-reviews`) is the last research area on every school page. It holds
+no cards and no research prose: one box per review site, each opening **that school's own
+page** on the site in a new tab, then a decorative Google map (Google's keyless embed,
+mounted only when the section nears the viewport).
+
+Sites: GreatSchools, Niche, SchoolDigger. Today: 39 links across 13 schools, 13 maps.
+
+- **Links only.** The page shows nothing from the sites but their names, and the repo
+  stores no rating, grade, review text or reviewer name.
+- **Text plates, not logos.** Each box shows the site's name in our own type on the
+  school's own color. A logo file ships only with a `logoBasis` (the site's published
+  terms allowing it, or the user's written permission).
+- **Off Compare** (`COMPARE_DEFERRED_TOPICS`) and **out of the `/add-school` area floor**
+  (`FLOOR_EXCLUDED_AREAS` in `scripts/coverage_floor.mjs`): every school gets it for free.
+- **Each link is checked by name and city** (Niche and SchoolDigger in a browser,
+  GreatSchools by fetch) and recorded in
+  `source-material/read-reviews/<school>/`; a box with no verified URL is omitted.
+  `npm run check:reviewlinks` (in the build) fails on a link missing from that record, a
+  wrong host, a duplicate, or a logo with no basis.
+
 ## 6. Adding to the schema
 
 What to touch when the data grows. The UX-approval gate in `CLAUDE.md` applies to
@@ -1595,6 +1626,7 @@ everything in the second column that adds a card, section, row, or research area
 | A **Compare row** | `VALUE_METRICS` in `src/data/metricValues.ts` | **yes** — new row |
 | A **structured card** | the topic's root type + `*_CARDS` registry | **yes** — new card |
 | A **school's structured data** | `src/data/<dir>/<slug>.ts` | no — backfilling an existing card |
+| A school's **review links** (Read Reviews) | `REVIEW_LINKS` (and `SCHOOL_MAPS`) in `src/data/reviewSites.ts`, plus `source-material/read-reviews/<school>/` recording each link, verified in a browser by name and city | no — every new school needs them; `npm run check:reviewlinks` |
 | A school's **acceptance list** (College Support) | `outcomes.colleges` (name + cats only); ranks resolve from the master `src/data/collegeRankings.ts` | no — but every ranked college needs a row in the master (see §3, `npm run check:ranks`) |
 
 After any of these, run `npm run schema` to refresh this doc (and `npm run check:metrics`,
@@ -1634,7 +1666,7 @@ counted as gaps in its coverage.
 **The flag is `hasHighSchool: false`** in `src/data/brands.ts`. It drives the
 Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and, through it,
 the Compare topic list (`comparableTopics`, same file; it also drops the editorially
-deferred `COMPARE_DEFERRED_TOPICS`, today only Learning Support) — and nothing else
+deferred `COMPARE_DEFERRED_TOPICS`, today Learning Support and Read Reviews) — and nothing else
 automatically. Every rule below is a research and authoring decision.
 
 **K-8 schools today (2):** `trinity-episcopal`, `charlotte-prep`
@@ -1643,9 +1675,9 @@ automatically. Every rule below is a research and authoring decision.
 
 | Layer | K-12 school | K-8 school |
 |---|---|---|
-| Research areas | up to 11 of 12 | **up to 11 of 12** — the same ceiling, but College Support swaps for High School Placement |
+| Research areas | up to 12 of 13 | **up to 12 of 13** — the same ceiling, but College Support swaps for High School Placement |
 | Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |
-| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, the only entry since International Travel joined Compare 2026-10-26), not a data absence |
+| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, with Read Reviews; International Travel left the list when it joined Compare 2026-10-26), not a data absence |
 | Sports cards | up to 8 | **up to 3** — the 5 college-bound ones do not apply |
 | College Support | 7 cards | **none** |
 | High School Placement | none | **up to 4 cards** |

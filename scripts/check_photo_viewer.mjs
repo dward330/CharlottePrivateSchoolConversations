@@ -44,6 +44,7 @@ const EXEMPT = [
   { file: 'src/pages/SchoolDetail.tsx', match: 'className="dossier-crest"', reason: "school crest; it links to the school's own homepage" },
   { file: 'src/components/LatestNews.tsx', match: 'src={lead.photo}', reason: "news thumbnail inside a link to the article on the school's site" },
   { file: 'src/components/LatestNews.tsx', match: 'src={item.photo}', reason: "news thumbnail inside a link to the article on the school's site" },
+  { file: 'src/components/ReadReviews.tsx', match: 'src={site.logo}', reason: "a review site's logo inside the link to that site (none ships today; logos need a logoBasis)" },
 ]
 
 /** Blank out comments, keeping offsets (and so line numbers) intact. */

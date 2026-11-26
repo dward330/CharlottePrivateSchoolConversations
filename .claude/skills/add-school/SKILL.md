@@ -590,6 +590,13 @@ The brief must carry, explicitly:
      vocabulary is NCISAA state titles, so a middle-school conference championship cannot
      be expressed in it without printing a false claim in ten locales.
 - **Every source URL found**, per area. This is the plan's head start.
+- **Its three Read Reviews links** (GreatSchools, Niche, SchoolDigger), as leads. Every
+  school gets the Read Reviews area, which is not part of the coverage floor. The plan must
+  have `/implement` open each link **in a browser** and confirm the school's name and city
+  (same-name schools elsewhere are the trap; Niche and SchoolDigger refuse scripted
+  fetches), then record them in `source-material/read-reviews/<school>/` and add them to
+  `REVIEW_LINKS` in `src/data/reviewSites.ts`. A link that cannot be confirmed is left out.
+  See "Review links" in §5 of `DATA-SCHEMA.md`.
 
 Then make sure the plan `/plan` writes carries these, since they are the parts a fresh
 implementing window would otherwise get wrong:

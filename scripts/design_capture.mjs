@@ -633,6 +633,7 @@ const AREA_FILES = {
   'course-offerings': 'Course Offerings Section.dc.html',
   'international-travel': 'International Travel Section Redesign.dc.html',
   'learning-support': 'Learning Support Section Redesign.dc.html',
+  'read-reviews': 'Read Reviews Section.dc.html',
   'student-clubs': 'Clubs Section Redesign.dc.html',
   'the-arts': 'Arts Section Redesign.dc.html',
   'sports': 'Sports Section Redesign.dc.html',

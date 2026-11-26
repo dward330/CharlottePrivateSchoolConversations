@@ -99,6 +99,22 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Davidson Day School](learning-support/davidson-day.md) — 2 docs
 - [Hickory Grove Christian School](learning-support/hickory-grove-christian.md) — 1 docs
 
+### Read Reviews (`read-reviews/`)
+
+- [Cannon School](read-reviews/cannon.md) — 1 docs
+- [Carmel Christian School](read-reviews/carmel-christian.md) — 1 docs
+- [Charlotte Catholic High School](read-reviews/charlotte-catholic.md) — 1 docs
+- [Charlotte Christian School](read-reviews/charlotte-christian.md) — 1 docs
+- [Charlotte Country Day School](read-reviews/charlotte-country-day.md) — 1 docs
+- [Charlotte Latin School](read-reviews/charlotte-latin.md) — 1 docs
+- [Charlotte Preparatory School](read-reviews/charlotte-prep.md) — 1 docs
+- [Covenant Day School](read-reviews/covenant-day.md) — 1 docs
+- [Davidson Day School](read-reviews/davidson-day.md) — 1 docs
+- [Gaston Day School](read-reviews/gaston-day.md) — 1 docs
+- [Hickory Grove Christian School](read-reviews/hickory-grove-christian.md) — 1 docs
+- [Providence Day School](read-reviews/providence-day.md) — 1 docs
+- [Trinity Episcopal School](read-reviews/trinity-episcopal.md) — 1 docs
+
 ### Sports (`sports/`)
 
 - [Cannon School](sports/cannon.md) — 19 docs
@@ -164,4 +180,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 570 documents across 12 topics and 13 schools.
+- `src/data/schools.json` — 583 documents across 13 topics and 13 schools.
