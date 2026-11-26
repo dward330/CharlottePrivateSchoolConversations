@@ -43,6 +43,7 @@
     "high-school-placement": "Orientation vers le secondaire",
     "international-travel": "Ouverture internationale",
     "learning-support": "Soutien à l’apprentissage et services aux élèves",
+    "faith-spiritual-life": "Foi et vie spirituelle",
     "read-reviews": "Lire les avis"
   },
   "metrics": {
@@ -94,7 +95,8 @@
     "visual-arts": "Arts visuels",
     "win-loss": "Bilans victoires-défaites",
     "international-travel.redesign-research": "Dossier de recherche sur l’ouverture internationale (2026)",
-    "learning-support.redesign-research": "Recherche sur le soutien à l’apprentissage (2026)"
+    "learning-support.redesign-research": "Recherche sur le soutien à l’apprentissage (2026)",
+    "faith-spiritual-life.redesign-research": "Recherche sur la foi et la vie spirituelle (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -693,7 +695,17 @@
     "learning-support.therapy": "Thérapies et services associés",
     "learning-support.testing": "Évaluations et bilans",
     "learning-support.staff": "Vos interlocuteurs",
-    "learning-support.ask": "Questions à poser à l’école"
+    "learning-support.ask": "Questions à poser à l’école",
+    "faith-spiritual-life.chapel": "Chapelle et louange",
+    "faith-spiritual-life.classes": "Cours de Bible et de foi",
+    "faith-spiritual-life.retreats": "Retraites",
+    "faith-spiritual-life.groups": "Petits groupes et discipulat",
+    "faith-spiritual-life.beliefs": "Ce que croit l’école",
+    "faith-spiritual-life.families": "Ce que l’école demande aux familles",
+    "faith-spiritual-life.service": "Service et missions",
+    "faith-spiritual-life.staff": "Qui anime la vie spirituelle",
+    "faith-spiritual-life.parents": "La vie de foi pour les parents",
+    "faith-spiritual-life.ask": "Questions à poser à l’école"
   },
   "cardLabels": {
     "afternoonRhythm": "Le rythme de l’après-midi",
@@ -874,6 +886,26 @@
       "iep": "Individualized Education Program : document des écoles publiques qui fixe les services et objectifs d’éducation spécialisée prévus par l’IDEA.",
       "idea": "Individuals with Disabilities Education Act : la loi fédérale qui régit l’éducation spécialisée dans les écoles publiques."
     },
+    "asOf": "Recherche à jour au {{date}}."
+  },
+  "faith": {
+    "code": {
+      "all": "TOUS",
+      "weekly": "HEBDOMADAIRE",
+      "monthly": "MENSUEL",
+      "yearly": "ANNUEL",
+      "published": "PUBLIÉ",
+      "notStated": "NON PRÉCISÉ",
+      "credit": "{{grade}} · {{credit}} CRÉDIT"
+    },
+    "legend": {
+      "published": "indiqué sur le site de l’école",
+      "notStated": "absent des pages publiques de l’école, ce qui ne veut pas dire non exigé"
+    },
+    "tally": "{{published}} publiés · {{notStated}} non précisés",
+    "mission": "Mission.",
+    "coreValues": "Valeurs fondamentales",
+    "statementOfFaith": "Déclaration de foi, telle que l’école la publie",
     "asOf": "Recherche à jour au {{date}}."
   },
   "travel": {

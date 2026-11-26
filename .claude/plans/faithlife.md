@@ -501,3 +501,28 @@ go-ahead: 793 of 793 links pass on 13 schools, the URL and canonical follow clic
 **Phase 2 note:** the Student Clubs unit above needs no further work. For the new area,
 `fa`/`ar` should check the closing-quote-then-period endings in a browser.
 
+
+### Phase 2 (locales), 2026-11-26
+
+Run in a fresh window on the developer's go-ahead ("The English page is approved").
+
+- **Chrome:** all 26 Phase 1 keys added to the nine catalogs, placed beside their Learning
+  Support siblings. `faith.tally`, `faith.asOf` and `faith.code.notStated` match the
+  `learning.*` renderings already shipped. `check:chrome` passes.
+- **Prose:** 196 units × 9 locales in `faith-spiritual-life.<lang>.json`, by stamp from a
+  fresh extract. Nine translators, one per locale, each writing only its own file. Seven of
+  them hit a usage limit after writing their file but before their own final re-read, so
+  the files were checked centrally instead (keys, placeholders, digit runs, length ratio,
+  bidi controls, course titles, foreign script) and the riskiest units were read by hand.
+- **One deviation:** `.5 credit` is worded in fa/ar ("half a credit"), because a
+  leading-period decimal drew as `5.` in RTL. Recorded in `src/data/overlays/NOTES.md`.
+- **Checks:** `npm run build` green; `check:chrome`, `check:runtime`, `check:live`,
+  `check:dates`, `check:fr`, `check:bidi`, `check:fa`, `check:hi`, `check:moneytext`,
+  `check:currency`, `check:money` pass; `check_figures.py` and `check:sepdrift` pass for
+  all nine; `check:digits` compares 1,773 units and lists only the two fa/ar rewordings;
+  `i18n:leaks` shows one hit in the area (es `Israel`, a keep).
+- **Browser** (headless Chrome, every card open): es/fa/hi/ar at 1280 and fa/ar at 390 —
+  10 cards in order, 10 articles, 6 email links, no English prose, 0 reversed ranges,
+  0 overflow. `audit:mobile` full sweep: no broken card, no overflow.
+- **Not reviewed by a native speaker.** The soft-spot list in `NOTES.md` is written for
+  that pass.

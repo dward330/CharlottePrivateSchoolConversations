@@ -43,6 +43,7 @@
     "high-school-placement": "جایابی دبیرستان",
     "international-travel": "تجربهٔ جهانی",
     "learning-support": "پشتیبانی یادگیری و خدمات دانش‌آموزی",
+    "faith-spiritual-life": "ایمان و زندگی روحانی",
     "read-reviews": "خواندن نظرات"
   },
   "metrics": {
@@ -94,7 +95,8 @@
     "visual-arts": "هنرهای تجسمی",
     "win-loss": "کارنامهٔ برد–باخت",
     "international-travel.redesign-research": "پروندهٔ پژوهش تجربهٔ جهانی (2026)",
-    "learning-support.redesign-research": "پژوهش پشتیبانی یادگیری (2026)"
+    "learning-support.redesign-research": "پژوهش پشتیبانی یادگیری (2026)",
+    "faith-spiritual-life.redesign-research": "پژوهش ایمان و زندگی روحانی (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -692,7 +694,17 @@
     "learning-support.therapy": "درمان‌ها و خدمات وابسته",
     "learning-support.testing": "آزمون و ارزیابی",
     "learning-support.staff": "با چه کسانی کار خواهید کرد",
-    "learning-support.ask": "از مدرسه بپرسید"
+    "learning-support.ask": "از مدرسه بپرسید",
+    "faith-spiritual-life.chapel": "مراسم نیایش و پرستش",
+    "faith-spiritual-life.classes": "کلاس‌های کتاب‌مقدس و ایمان",
+    "faith-spiritual-life.retreats": "اردوهای روحانی",
+    "faith-spiritual-life.groups": "گروه‌های کوچک و شاگردسازی",
+    "faith-spiritual-life.beliefs": "مدرسه به چه چیزی ایمان دارد",
+    "faith-spiritual-life.families": "مدرسه از خانواده‌ها چه می‌خواهد",
+    "faith-spiritual-life.service": "خدمت و بشارت",
+    "faith-spiritual-life.staff": "چه کسانی زندگی روحانی را رهبری می‌کنند",
+    "faith-spiritual-life.parents": "زندگی ایمانی برای والدین",
+    "faith-spiritual-life.ask": "از مدرسه بپرسید"
   },
   "cardLabels": {
     "afternoonRhythm": "ریتم بعدازظهر",
@@ -872,6 +884,26 @@
       "iep": "Individualized Education Program: سندی در مدارس دولتی که خدمات و اهداف آموزش ویژه را طبق IDEA تعیین می‌کند.",
       "idea": "Individuals with Disabilities Education Act: قانون فدرالی که آموزش ویژه را در مدارس دولتی آمریکا تنظیم می‌کند."
     },
+    "asOf": "پژوهش به‌روز تا {{date}}."
+  },
+  "faith": {
+    "code": {
+      "all": "همه",
+      "weekly": "هفتگی",
+      "monthly": "ماهانه",
+      "yearly": "سالانه",
+      "published": "منتشرشده",
+      "notStated": "ذکر نشده",
+      "credit": "{{grade}} · {{credit}} واحد"
+    },
+    "legend": {
+      "published": "در سایت مدرسه آمده است",
+      "notStated": "در صفحه‌های عمومی مدرسه یافت نشد، که به معنای الزامی نبودن نیست"
+    },
+    "tally": "{{published}} منتشرشده · {{notStated}} ذکرنشده",
+    "mission": "مأموریت.",
+    "coreValues": "ارزش‌های بنیادین",
+    "statementOfFaith": "اعتقادنامه، به همان شکلی که مدرسه منتشر می‌کند",
     "asOf": "پژوهش به‌روز تا {{date}}."
   },
   "travel": {

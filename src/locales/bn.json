@@ -43,6 +43,7 @@
     "high-school-placement": "হাই স্কুল প্লেসমেন্ট",
     "international-travel": "বৈশ্বিক অভিজ্ঞতা",
     "learning-support": "শেখায় সহায়তা ও শিক্ষার্থী সেবা",
+    "faith-spiritual-life": "বিশ্বাস ও আধ্যাত্মিক জীবন",
     "read-reviews": "রিভিউ পড়ুন"
   },
   "metrics": {
@@ -94,7 +95,8 @@
     "visual-arts": "দৃশ্যকলা",
     "win-loss": "জয়–পরাজয়ের রেকর্ড",
     "international-travel.redesign-research": "বৈশ্বিক অভিজ্ঞতা গবেষণা নথি (2026)",
-    "learning-support.redesign-research": "শেখায় সহায়তা বিষয়ক গবেষণা (2026)"
+    "learning-support.redesign-research": "শেখায় সহায়তা বিষয়ক গবেষণা (2026)",
+    "faith-spiritual-life.redesign-research": "বিশ্বাস ও আধ্যাত্মিক জীবন বিষয়ক গবেষণা (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -696,7 +698,17 @@
     "learning-support.therapy": "থেরাপি ও সংশ্লিষ্ট সেবা",
     "learning-support.testing": "টেস্টিং ও মূল্যায়ন",
     "learning-support.staff": "আপনি কাদের সঙ্গে কাজ করবেন",
-    "learning-support.ask": "স্কুলকে জিজ্ঞাসা করুন"
+    "learning-support.ask": "স্কুলকে জিজ্ঞাসা করুন",
+    "faith-spiritual-life.chapel": "চ্যাপেল ও আরাধনা",
+    "faith-spiritual-life.classes": "বাইবেল ও বিশ্বাস-বিষয়ক ক্লাস",
+    "faith-spiritual-life.retreats": "রিট্রিট",
+    "faith-spiritual-life.groups": "ছোট দল ও শিষ্যত্ব",
+    "faith-spiritual-life.beliefs": "স্কুল কী বিশ্বাস করে",
+    "faith-spiritual-life.families": "পরিবারের কাছে স্কুল কী চায়",
+    "faith-spiritual-life.service": "সেবা ও মিশন",
+    "faith-spiritual-life.staff": "আধ্যাত্মিক জীবনের নেতৃত্বে কারা",
+    "faith-spiritual-life.parents": "অভিভাবকদের জন্য বিশ্বাসের জীবন",
+    "faith-spiritual-life.ask": "স্কুলকে জিজ্ঞাসা করুন"
   },
   "cardLabels": {
     "afternoonRhythm": "বিকেলের ছন্দ",
@@ -876,6 +888,26 @@
       "iep": "Individualized Education Program: সরকারি স্কুলের একটি নথি, যা IDEA অনুযায়ী বিশেষ শিক্ষা সেবা ও লক্ষ্য নির্ধারণ করে।",
       "idea": "Individuals with Disabilities Education Act: যুক্তরাষ্ট্রের কেন্দ্রীয় আইন, যা সরকারি স্কুলে বিশেষ শিক্ষা নিয়ন্ত্রণ করে।"
     },
+    "asOf": "গবেষণা {{date}} পর্যন্ত হালনাগাদ।"
+  },
+  "faith": {
+    "code": {
+      "all": "সবাই",
+      "weekly": "সাপ্তাহিক",
+      "monthly": "মাসিক",
+      "yearly": "বার্ষিক",
+      "published": "প্রকাশিত",
+      "notStated": "উল্লেখ নেই",
+      "credit": "{{grade}} · {{credit}} ক্রেডিট"
+    },
+    "legend": {
+      "published": "স্কুলের সাইটে বলা আছে",
+      "notStated": "স্কুলের প্রকাশ্য পাতায় পাওয়া যায়নি, এর মানে এই নয় যে এটি আবশ্যিক নয়"
+    },
+    "tally": "{{published}}টি প্রকাশিত · {{notStated}}টির উল্লেখ নেই",
+    "mission": "লক্ষ্য।",
+    "coreValues": "মূল মূল্যবোধ",
+    "statementOfFaith": "বিশ্বাসের ঘোষণা, স্কুল যেভাবে প্রকাশ করে",
     "asOf": "গবেষণা {{date}} পর্যন্ত হালনাগাদ।"
   },
   "travel": {

@@ -3359,3 +3359,45 @@ and a count of how the same locale treats the strings beside it on the same card
 `check_figures.py` also reported four `es` and five `fa` items on other strings. Those were
 fixed separately the same day: `es` now copies `$7,500`, `$50` and `$5,000`, and repeats
 `2026`, and `fa` uses ASCII `%` in all 345 percent strings.
+
+## Faith & Spiritual Life (`faithlife`) — Phase 2, 2026-11-26
+
+New topic `faith-spiritual-life`, Charlotte Christian only: 196 strings (2,652 words) and 26
+chrome keys per locale, from a fresh extract, written as stamp→translation maps and applied
+by stamp. One translator per locale, each writing only its own file, so the parallel-agent
+collision recorded for Trinity could not recur; a central script-purity scan found no
+foreign script in any locale.
+
+**Translated, by the user's decision:** the mission, the five core values and all ten
+statement-of-faith articles, whole, with each locale's established church vocabulary (es
+*justificados por gracia mediante la fe*, fa *پارسا شمرده می‌شوند*, ar from the Van Dyck
+register). The browser pass counts ten articles in every locale.
+
+**Kept Latin in every locale:** chapter-and-verse references (`Micah 6:8`,
+`Philippians 4:4-7`); the nine Upper and Middle School course titles (`Old Testament
+Survey` … `Bible 8`); program, place and form names (`Alkire Auditorium`, `KnightLight
+Worship`, `uKnight Worship`, `DIG`, `Camp S.L.A.M.`, `Carolina Point`, `Windy Gap`,
+`Winterim`, `Haverim`, `Knight to Knight`, `Kingdom Impact Day`, `Operation Christmas
+Child`, `Family Agreement Form`, `Honor Code`, `Family Handbook`, `Chapel Recap`); and the
+named series and themes (`Blessing Burglars`, `The Rejoice Choice`, `Transformed by
+Christ`). Most locales add a short parenthetical gloss on first use. A Bible book named in
+running prose takes the language's own book name. Five titles are therefore identical to
+English in most locales, by design: the three retreat titles where the locale keeps the
+division name, `Family Agreement Form` and `Operation Christmas Child`.
+
+**`.5 credit` is worded in fa and ar** (fa *نیم واحد*, ar *نصف رصيد*). A leading-period
+decimal has no digit before its neutral `.`, so `isolateFigures()` does not catch it, and in
+an RTL run it drew as `5.`. Found in a browser screenshot, not by any checker or by the range
+probe. `check:digits` lists these two units; they are deliberate. A future `.N` figure in an
+fa/ar string needs the same browser look.
+
+**Soft spots for a native reviewer:**
+- **"chapel"**: es *capilla*, fr *chapelle*, it *funzioni religiose*, fa *مراسم نیایش*, ar
+  *الاجتماع الروحي*; bn/te/hi transliterate. **"worship"**: es *alabanza*, fr *louange*.
+- **"partnership"** (article 10): es *alianza*; *colaboración* is the alternative.
+- **"mission trips"**: fa *سفرهای بشارتی* leans evangelistic; *سفرهای خدمتی* is softer.
+- **fa "your child's division director"** is rendered as the division's *spiritual life*
+  director, because a bare *مدیر بخش* reads as the principal.
+- **Gender:** staff roles use slash or neutral forms; `ask.questions[7]` ("meet with him")
+  is masculine, following the English.
+- **es `Israel`** is identical to English and flagged by `i18n:leaks`: the same word, a KEEP.
