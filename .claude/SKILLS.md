@@ -760,7 +760,7 @@ already published.**
 `scripts/episode_gaps.mjs` (`npm run episodes:gaps`)
 
 It sits in front of the three episode skills. An idea may cover one school, several schools,
-one research area or a theme across areas. With no scope it returns 10.
+one research area or a theme across areas. With no scope it returns up to 10 new ideas: a ceiling, never a quota, so a run with one good idea returns one.
 
 1. **What is published and what is open.** `episodes:gaps` reads the live feed, joins it to
    `podcastEpisodes.ts`, and prints the school × area grid and every open pair.
