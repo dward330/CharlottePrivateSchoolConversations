@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**14 active** · 0 retired · Last updated **2026-11-25**
+**15 active** · 0 retired · Last updated **2026-11-26**
 
 ---
 
@@ -29,6 +29,7 @@
 | 🎧 | [`learning-support-episode`](#learning-support-episode) | One school's Learning Support → podcast | ❌ Generates files | Single |
 | 🏆 | [`wells-fargo-cup`](#wells-fargo-cup) | Official Cup tables → go/no-go → next school's Cup card plan | ❌ Never | — |
 | 📣 | [`cup-episode`](#cup-episode) | One Cup division → podcast | ❌ Generates files | Single |
+| 💡 | [`episode-ideas`](#episode-ideas) | What should the show cover next? → ranked, de-duplicated episode ideas | ❌ Never | — |
 | 🎯 | [`athlete-commits`](#athlete-commits) | Varsity rosters → college rosters → missing commits → pipeline plan | ❌ Never | — |
 | 🔍 | [`consistency-self-scan`](#consistency-self-scan) | Where does the app contradict itself? → diagnosed worklist → fix plan | ❌ Never | — |
 
@@ -50,8 +51,9 @@ in a go/no-go and then a `/plan` handoff), `wells-fargo-cup` (the next school's 
 ending the same way), `athlete-commits` (a roster school's College Pipeline refresh, ending
 the same way), `consistency-self-scan` (a whole-app scan for self-contradictions, ending the
 same way) and `ingest-source-material` (everything else).
-Four stand alone: `add-school-news`, `admissions-episode`, `learning-support-episode` and
-`cup-episode`.
+Five stand alone: `add-school-news`, `admissions-episode`, `learning-support-episode`,
+`cup-episode` and `episode-ideas` (which suggests episodes and routes each to the skill
+that makes it).
 
 ---
 
@@ -742,6 +744,52 @@ more than a clean list.
 | Skill | Active | Retired | Why |
 |---|---|---|---|
 | — | — | — | — |
+
+---
+
+<a id="episode-ideas"></a>
+
+## 💡 `episode-ideas`
+
+**Suggest a ranked list of new podcast episodes, checked against everything the show has
+already published.**
+
+`.claude/skills/episode-ideas/SKILL.md` · added 2026-11-26 · helper:
+`scripts/episode_gaps.mjs` (`npm run episodes:gaps`)
+
+It sits in front of the three episode skills. An idea may cover one school, several schools,
+one research area or a theme across areas. With no scope it returns 10.
+
+1. **What is published and what is open.** `episodes:gaps` reads the live feed, joins it to
+   `podcastEpisodes.ts`, and prints the school × area grid and every open pair.
+2. **Reads every title and description for its angle.** A duplicate is the same school set,
+   area and angle. A changed data set makes an **update**, never a new idea.
+3. **Checks what the app can back,** card by card. Figures in a title are copied from the data.
+4. **Parent-demand research** on Reddit, local forums, local press and the calendar.
+5. **Scores and ranks** out of 17: demand 5, material 5, new to the catalog 3, timely 2,
+   ready to make 2. The numbers are shown.
+6. **Reports** in the reply and in `reports/episode-ideas/<date>.md` (gitignored), with the
+   route for each idea (`/admissions-episode`, `/learning-support-episode`, `/cup-episode`,
+   or a hand-written prompt), a "We don't hold this yet" list and a "Left out on purpose" list.
+
+> **⚠️ The episode table is a lower bound.** A published episode reaches `podcastEpisodes.ts`
+> through a later PR, so the skill checks the live feed. A feed that cannot be read exits 3
+> and is said in the report, never skipped.
+
+> **⚠️ The grid is a first filter.** An episode maps to one area but its title names its
+> angle (episodes 1 and 2 are STEM, inside Course Offerings), and a cross-area theme never
+> shows in the grid.
+
+> **🔒 A forum post is a demand signal, never a source.** It can move an idea up the list.
+> It adds no fact about a school, and no post text, username, rating or name is copied. A
+> search that finds nothing is reported as nothing.
+
+> **⛔ Hard limits drop an idea whatever the demand:** no student named, no Learning Support
+> comparison between schools, no trip costs or travel dates, nothing from Read Reviews, and
+> no fact the app does not hold.
+
+**Deliberately cannot:** build a PDF, prompt or episode; edit app code, research data,
+`source-material/` or `podcastEpisodes.ts`; or commit anything.
 
 ---
 
