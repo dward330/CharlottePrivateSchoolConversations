@@ -22,7 +22,10 @@ Three inputs, one ranked list:
 3. **What parents want to hear.** Demand moves an idea up the list. It never adds a fact.
 
 The user may narrow the run ("for Covenant Day", "sports only", "five ideas", "something
-for January"). With no scope, cover every school and area and return **10** ranked ideas.
+for January"). With no scope, cover every school and area and return **up to 10** new ranked ideas.
+**Ten is a ceiling, never a quota** (user, 2026-11-26). Return only the ideas that hold up:
+three good ones, or one, is a useful run. Never pad the list with a thin or near-duplicate
+idea to reach a number. If nothing new holds up, say so and show the running list.
 Do not stop to ask for a scope.
 
 **Show rules:** the Podcast episode standard and the Student-name standard in `CLAUDE.md`
@@ -202,7 +205,7 @@ every idea suggested so far that has not been made. Each run:
    take it out and say why under "Left out on purpose".
 4. **Add this run's new ideas,** each marked "new this run".
 5. **Rank old and new together** in one table, best first, with a "First suggested" column.
-   The running list has no cap: the 10 is how many **new** ideas a run adds. A scoped run
+   The running list has no cap: 10 is the most **new** ideas a run adds, and it may add fewer. A scoped run
    ("for Covenant Day") adds its ideas and shows the whole list, with the scope's ideas
    marked.
 6. **Write the merged list back** to `RUNNING.md` and to the dated report.
