@@ -1605,7 +1605,8 @@ Sites: GreatSchools, Niche, SchoolDigger. Today: 39 links across 13 schools, 13 
   terms allowing it, or the user's written permission).
 - **Off Compare** (`COMPARE_DEFERRED_TOPICS`) and **out of the `/add-school` area floor**
   (`FLOOR_EXCLUDED_AREAS` in `scripts/coverage_floor.mjs`): every school gets it for free.
-- **Each link is verified in a browser** (name and city) and recorded in
+- **Each link is checked by name and city** (Niche and SchoolDigger in a browser,
+  GreatSchools by fetch) and recorded in
   `source-material/read-reviews/<school>/`; a box with no verified URL is omitted.
   `npm run check:reviewlinks` (in the build) fails on a link missing from that record, a
   wrong host, a duplicate, or a logo with no basis.

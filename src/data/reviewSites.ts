@@ -2,8 +2,9 @@
  * Read Reviews — the review sites each school page links out to (plan
  * `readreviews`, 2026-11-25).
  *
- * HAND-MAINTAINED. Every URL below was opened in a browser and checked for the
- * school's name and city on the date in that school's research file,
+ * HAND-MAINTAINED. Every URL below was checked for the school's name and city on
+ * the date in that school's research file (Niche, SchoolDigger and the map links
+ * opened in a browser; GreatSchools by fetch, which the browser extension blocks):
  * `source-material/read-reviews/<slug>/<School Name> - Read Reviews - Review Site Links.md`.
  * `npm run check:reviewlinks` (in the build) fails when a URL here is not in that
  * file, so a link cannot change without its record. A NEW SCHOOL needs an entry

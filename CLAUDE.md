@@ -311,8 +311,9 @@ decorative Google map. **No rating, grade, review text or reviewer name ever ent
 repo.** Each box shows the site's name as plain text on the school's own color; a logo
 ships only with a recorded `logoBasis` (published terms or written permission). It is off
 Compare (`COMPARE_DEFERRED_TOPICS`) and out of the `/add-school` area floor
-(`FLOOR_EXCLUDED_AREAS`). The links live in `src/data/reviewSites.ts`, each verified in a
-browser by name and city and recorded in `source-material/read-reviews/<school>/`;
+(`FLOOR_EXCLUDED_AREAS`). The links live in `src/data/reviewSites.ts`, each checked by name
+and city (Niche and SchoolDigger in a browser, GreatSchools by fetch) and recorded in
+`source-material/read-reviews/<school>/`;
 `npm run check:reviewlinks` (in the build) holds the two together.
 
 ## Student-name standard (required)

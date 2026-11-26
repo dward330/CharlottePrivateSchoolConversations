@@ -3,7 +3,6 @@ import {
   schoolBySlug,
   brandOf,
   topicsForSchool,
-  docCount,
   researchDocCount,
 } from '../lib/manifest.ts'
 import {
@@ -898,10 +897,12 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   and false in every `vite build`, including the pre-render pass
                   (which drives the built dist/). Do not remove the DEV guard,
                   and do not delete the `.dossier-nav .count` CSS or the
-                  `docCount` import — both are still live in dev, and `docCount`
-                  additionally decides which areas render at all. */}
+                  `researchDocCount` import — both are still live in dev. It
+                  skips Read Reviews' link file, so these counts add up to the
+                  header's total; `docCount` (manifest.ts) still decides which
+                  areas render at all. */}
               {import.meta.env.DEV && (
-                <span className="count">{String(docCount(t.slug, slug)).padStart(2, '0')}</span>
+                <span className="count">{String(researchDocCount(t.slug, slug)).padStart(2, '0')}</span>
               )}
             </a>
           ))}
