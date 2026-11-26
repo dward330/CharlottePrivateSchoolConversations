@@ -474,10 +474,28 @@ commit reviewed `b8334b20`. 6 found, 6 confirmed, 0 rejected, 6 fixed, 0 decline
 
 Fixed, not re-reviewed: all six pass-3 fixes.
 
-**Design file is five wording changes behind.** *Faith & Spiritual Life Section* in the
-design project was captured at `81748e40`, before the pass-3 fixes (the lead quote ending,
-two Families rows, the crayons figure, the distinction name). It is re-captured after the
-developer's English review, since that review may change wording again.
+**Pass 4 (on the pass-3 fixes, asked for by the developer):** fix diff `b8334b20..a20ef0ee`.
+1 found, 1 confirmed, 1 fixed. The Home-capture note gave a wrong count (11) for Charlotte
+Christian; the note now says the capture predates both Read Reviews and this area. The nine
+re-stamped Student Clubs units were checked: each lost exactly its last sentence, and the
+new stamp was recomputed independently. Fixed, not re-reviewed: that one doc correction.
+
+**Developer decisions, 2026-11-26 (close the plan's open questions)**
+
+- **Second accent:** left to the implementer. `colors.gold` is now `#60a5fa`, a light blue
+  from the same ramp as the brand's royal blue. The school's colors are royal blue and
+  white, so it has no gold, and white cannot carry the rules and chip fills. Checked in
+  Chrome in light and dark.
+- **Section position:** stays after Learning Support.
+- **Statement of faith:** translated in Phase 2, like every other quoted school text.
+- **"Core values" heading:** stays, with no count.
+- **`FaithChip` schema line:** left as a known generator limit.
+
+**Design file is current.** *Faith & Spiritual Life Section* was re-captured from
+`e0bd378b`, after the pass-3 fixes and the accent change, and verified byte for byte.
+
+**Headed `audit:cardlink`:** run across every school on 2026-11-26 at the developer's
+go-ahead; result recorded in the hand-back.
 
 **Phase 2 note:** the Student Clubs unit above needs no further work. For the new area,
 `fa`/`ar` should check the closing-quote-then-period endings in a browser.

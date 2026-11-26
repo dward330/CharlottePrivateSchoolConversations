@@ -456,7 +456,7 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Pr
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Read Reviews Section' '--out' <out> '--refs' 'Providence Day' '--sha' '7bec6bae' '--area' 'read-reviews'
 
 # Faith & Spiritual Life Section (plan faithlife; Charlotte Christian is the only school with the area)
-npm run design:capture -- '--page' '/school/charlotte-christian/' '--name' 'Faith & Spiritual Life Section' '--out' <out> '--refs' 'Charlotte Christian' '--sha' '81748e40' '--area' 'faith-spiritual-life'
+npm run design:capture -- '--page' '/school/charlotte-christian/' '--name' 'Faith & Spiritual Life Section' '--out' <out> '--refs' 'Charlotte Christian' '--sha' 'e0bd378b' '--area' 'faith-spiritual-life'
 
 # Financial Aid & Tuition
 npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
@@ -652,7 +652,9 @@ from branch commit `81748e40` (42,865 bytes) and `app-css/app-4.css` was re-writ
 were not re-written). Both were verified byte for byte. The capture trims the ten-article
 statement of faith and the ten questions to their first six; the app shows all ten. Neither
 school-page capture changed, because Providence Day and Charlotte Prep do not hold the
-area. Re-capture once more if Phase 2 or the English review changes the section.
+area. It was re-captured again from `e0bd378b` (42,867 bytes, verified byte for byte) after
+the third review pass and the choice of a light-blue second accent (`#60a5fa`). Re-capture
+once more if Phase 2 or the English review changes the section.
 
 **Known drift, to close at the end of plan `faithlife` Phase 2:** *Home* was captured on
 2026-11-20, before both Read Reviews and Faith & Spiritual Life, so its research-area
