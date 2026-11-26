@@ -904,19 +904,12 @@
   "reviews": {
     "lead": "Découvrez ce que d’autres familles disent de {{school}}. Chaque encadré ouvre la page de l’école sur un site d’avis indépendant, dans un nouvel onglet.",
     "go": "Lire les avis sur {{site}}",
-    "goData": "Voir l’école sur {{site}}",
     "note": "D’autres organisations gèrent ces sites. Les avis et les notes sont les leurs, pas les nôtres ni ceux de l’école.",
     "logoAlt": "Logo de {{site}}",
-    "sites": {
-      "greatschools": {
-        "blurb": "Avis de parents, et informations sur l’école."
-      },
-      "niche": {
-        "blurb": "Avis de parents et d’élèves, et notes attribuées par Niche."
-      },
-      "schooldigger": {
-        "blurb": "Données sur l’école, comme les effectifs. Peu d’écoles y ont des avis."
-      }
+    "from": {
+      "parents": "Avis de parents",
+      "parentsStudents": "Avis de parents et d’élèves",
+      "students": "Avis d’élèves"
     },
     "mapCaption": "Où se trouve {{school}}",
     "mapTitle": "Carte indiquant l’emplacement de {{school}}",

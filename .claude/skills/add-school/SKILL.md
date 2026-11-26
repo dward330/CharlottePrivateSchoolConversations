@@ -595,7 +595,9 @@ The brief must carry, explicitly:
   have `/implement` confirm each link's school name and city (same-name schools elsewhere
   are the trap): Niche and SchoolDigger **in a browser**, since both refuse scripted fetches,
   and GreatSchools by fetch, since the browser extension blocks it. Then it must record them in `source-material/read-reviews/<school>/` and add them to
-  `REVIEW_LINKS` in `src/data/reviewSites.ts`. A link that cannot be confirmed is left out.
+  `REVIEW_LINKS` in `src/data/reviewSites.ts`, with each box's subheading in
+  `REVIEW_AUDIENCE` (who wrote its reviews, counted from the site's reviewer labels and
+  recorded as `<site>: <audience>`). A link that cannot be confirmed is left out.
   See "Review links" in §5 of `DATA-SCHEMA.md`.
 
 Then make sure the plan `/plan` writes carries these, since they are the parts a fresh

@@ -61,7 +61,7 @@ Four stand alone: `add-school-news`, `admissions-episode`, `learning-support-epi
 
 **Assess a candidate school, then hand off to `/plan`.**
 
-`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-11-25 (brief carries the three Read Reviews links, and says how each site is checked)
+`.claude/skills/add-school/SKILL.md` · added 2026-08-15 · updated 2026-11-25 (brief carries the three Read Reviews links, says how each site is checked, and asks for each box's reviewer audience)
 
 Answers one question before any work starts: **can this school actually be populated
 against the schema the app already has?** A school with a thin public footprint yields a

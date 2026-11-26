@@ -46,6 +46,20 @@ by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used 
 given. Its `!1d3265.1` span (for a 1024×768 view) is zoom 15, the same as Providence Day. Its place name is
 "Charlotte Latin School" and its place id is `0x885427a8f5c6b4a7:0xc2a27f49ef17a956`.
 
+### Reviewer roles, checked 2026-11-25 (the box subheadings)
+
+Who wrote the reviews, counted from each site's own reviewer label only (no review
+text, rating or name copied). Rules (user, 2026-11-25): "parents and students" when a
+box holds at least one of each; an alum counts as a student; teachers, staff, "Works
+Here", "community member", "Other", "Niche User" and unlabelled reviews do not change the
+label.
+
+| Site | What was counted | Subheading |
+|---|---|---|
+| GreatSchools | All 4 reviews on the reviews pages (the page states 4), fetched with `?page=N`, by `user_type`: community member 1, parent 2, unknown 1 | `greatschools: parents` |
+| Niche | The first 20 of 112 reviews, read in Chrome, by author label: Parent 11, Senior 3, Junior 3, Sophomore 1, Alum 2 | `niche: parents-students` |
+| SchoolDigger | Opened in Chrome: no ratings or written reviews on the page; the box says "parents" by the user's choice (2026-11-25) | `schooldigger: parents` |
+
 
 ---
 

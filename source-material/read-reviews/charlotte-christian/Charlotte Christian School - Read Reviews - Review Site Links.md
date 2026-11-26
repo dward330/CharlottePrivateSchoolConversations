@@ -34,3 +34,18 @@ Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing
 by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used exactly as
 given. Its `!1d3262.7` span (for a 1024×768 view) is zoom 15, the same as Providence Day. Its place name is
 "Charlotte Christian School" and its place id is `0x885420d91744fd5b:0xe496db17d9111d69`.
+
+
+### Reviewer roles, checked 2026-11-25 (the box subheadings)
+
+Who wrote the reviews, counted from each site's own reviewer label only (no review
+text, rating or name copied). Rules (user, 2026-11-25): "parents and students" when a
+box holds at least one of each; an alum counts as a student; teachers, staff, "Works
+Here", "community member", "Other", "Niche User" and unlabelled reviews do not change the
+label.
+
+| Site | What was counted | Subheading |
+|---|---|---|
+| GreatSchools | All 11 reviews on the reviews pages (the page states 11), fetched with `?page=N`, by `user_type`: community member 1, parent 6, student 4 | `greatschools: parents-students` |
+| Niche | The first 20 of 208 reviews, read in Chrome, by author label: Parent 10, Junior 7, Senior 2, Alum 1 | `niche: parents-students` |
+| SchoolDigger | Opened in Chrome: no ratings or written reviews on the page; the box says "parents" by the user's choice (2026-11-25) | `schooldigger: parents` |

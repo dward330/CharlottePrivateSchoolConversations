@@ -903,19 +903,12 @@
   "reviews": {
     "lead": "See what other families say about {{school}}. Each box opens the school's page on an independent review site, in a new tab.",
     "go": "Read reviews on {{site}}",
-    "goData": "See the school on {{site}}",
     "note": "Other organizations run these sites. The reviews and ratings are theirs, not ours and not the school's.",
     "logoAlt": "{{site}} logo",
-    "sites": {
-      "greatschools": {
-        "blurb": "Reviews from parents, plus school details."
-      },
-      "niche": {
-        "blurb": "Reviews from parents and students, plus Niche's grades."
-      },
-      "schooldigger": {
-        "blurb": "School facts, such as enrollment. Few schools have reviews here."
-      }
+    "from": {
+      "parents": "Reviews from parents",
+      "parentsStudents": "Reviews from parents and students",
+      "students": "Reviews from students"
     },
     "mapCaption": "Where {{school}} is",
     "mapTitle": "Map showing {{school}}",

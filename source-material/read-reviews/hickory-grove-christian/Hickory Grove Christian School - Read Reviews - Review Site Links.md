@@ -36,3 +36,18 @@ Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing
 by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used exactly as
 given. Its `!1d3259.4` span (for a 1024×768 view) is zoom 15, the same as Providence Day. Its place name is
 "Hickory Grove Christian School" and its place id is `0x88541f52ef866821:0x7affbd16327a7aa8`.
+
+
+### Reviewer roles, checked 2026-11-25 (the box subheadings)
+
+Who wrote the reviews, counted from each site's own reviewer label only (no review
+text, rating or name copied). Rules (user, 2026-11-25): "parents and students" when a
+box holds at least one of each; an alum counts as a student; teachers, staff, "Works
+Here", "community member", "Other", "Niche User" and unlabelled reviews do not change the
+label.
+
+| Site | What was counted | Subheading |
+|---|---|---|
+| GreatSchools | All 38 reviews on the reviews pages (the page states 38), fetched with `?page=N`, by `user_type`: parent 30, community member 4, teacher 2, unknown 2 | `greatschools: parents` |
+| Niche | The first 20 of 105 reviews, read in Chrome, by author label: Parent 12, Senior 7, Alum 1 | `niche: parents-students` |
+| SchoolDigger | Opened in Chrome: no ratings or written reviews on the page; the box says "parents" by the user's choice (2026-11-25) | `schooldigger: parents` |

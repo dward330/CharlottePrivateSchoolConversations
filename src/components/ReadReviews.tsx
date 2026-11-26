@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { reviewLinks, SCHOOL_MAPS, type ReviewSiteKey } from '../data/reviewSites.ts'
+import { reviewLinks, SCHOOL_MAPS, type ReviewAudience } from '../data/reviewSites.ts'
 
 /* Read Reviews (plan `readreviews`, designed in Claude Design as
    "Read Reviews Section.dc.html"): one box per review site, each opening the
@@ -10,18 +10,12 @@ import { reviewLinks, SCHOOL_MAPS, type ReviewSiteKey } from '../data/reviewSite
    the school's own color (--brand) — never the site's logo, font or colors,
    unless reviewSites.ts records a `logoBasis` for a logo file. */
 
-/* Literal keys, so the chrome checkers can see every one. */
-const BLURB: Record<ReviewSiteKey, string> = {
-  greatschools: 'reviews.sites.greatschools.blurb',
-  niche: 'reviews.sites.niche.blurb',
-  schooldigger: 'reviews.sites.schooldigger.blurb',
-}
-/* SchoolDigger shows reviews for only 3 of the 13 schools (2026-11-25), so its
-   link promises the school's page, not reviews. */
-const GO: Record<ReviewSiteKey, string> = {
-  greatschools: 'reviews.go',
-  niche: 'reviews.go',
-  schooldigger: 'reviews.goData',
+/* Literal keys, so the chrome checkers can see every one. The subheading says who
+   wrote the reviews in that box (REVIEW_AUDIENCE in reviewSites.ts). */
+const FROM: Record<ReviewAudience, string> = {
+  parents: 'reviews.from.parents',
+  'parents-students': 'reviews.from.parentsStudents',
+  students: 'reviews.from.students',
 }
 
 function ExternalArrow() {
@@ -111,7 +105,7 @@ export function ReadReviews({ slug, schoolName }: { slug: string; schoolName: st
     <>
       <p className="reviews-lead">{t('reviews.lead', { school: schoolName })}</p>
       <div className="review-sites">
-        {links.map(({ site, url }) => (
+        {links.map(({ site, url, audience }) => (
           <a
             key={site.key}
             className="review-site"
@@ -128,9 +122,9 @@ export function ReadReviews({ slug, schoolName }: { slug: string; schoolName: st
             </span>
             <span className="review-site-body">
               {site.logo && <span className="review-site-name">{site.name}</span>}
-              <span className="review-site-blurb">{t(BLURB[site.key])}</span>
+              <span className="review-site-blurb">{t(FROM[audience])}</span>
               <span className="review-site-go">
-                {t(GO[site.key], { site: site.name })} <ExternalArrow />
+                {t('reviews.go', { site: site.name })} <ExternalArrow />
               </span>
             </span>
           </a>

@@ -34,3 +34,18 @@ Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing
 by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used exactly as
 given. Its `!1d1632.4` span (for a 1024×768 view) is about zoom 16, one step closer than Providence Day (the user's view, kept as given). Its place name is
 "Charlotte Catholic High School" and its place id is `0x88569d0097ae7fd3:0x1c8ea924fadb477`.
+
+
+### Reviewer roles, checked 2026-11-25 (the box subheadings)
+
+Who wrote the reviews, counted from each site's own reviewer label only (no review
+text, rating or name copied). Rules (user, 2026-11-25): "parents and students" when a
+box holds at least one of each; an alum counts as a student; teachers, staff, "Works
+Here", "community member", "Other", "Niche User" and unlabelled reviews do not change the
+label.
+
+| Site | What was counted | Subheading |
+|---|---|---|
+| GreatSchools | All 15 reviews on the reviews pages (the page states 15), fetched with `?page=N`, by `user_type`: parent 5, student 4, unknown 4, community member 2 | `greatschools: parents-students` |
+| Niche | The first 20 of 224 reviews, read in Chrome, by author label: Parent 4, Senior 7, Junior 4, Sophomore 1, Alum 2, Works Here 1, Other 1 | `niche: parents-students` |
+| SchoolDigger | Opened in Chrome: no ratings or written reviews on the page; the box says "parents" by the user's choice (2026-11-25) | `schooldigger: parents` |

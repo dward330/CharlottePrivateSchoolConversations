@@ -7886,7 +7886,7 @@ a.cs-college-name:focus-visible {
 
 /* ---- Read Reviews (plan `readreviews`, designed in Claude Design as
    "Read Reviews Section.dc.html") ---- */
-.reviews-lead { margin: 0 0 18px; max-width: 72ch; }
+.reviews-lead { margin: 0 0 18px; }
 .review-sites { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .review-site {
   display: flex; flex-direction: column; min-width: 0;
