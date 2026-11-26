@@ -389,6 +389,16 @@ checks each idea against the **live feed**, since `podcastEpisodes.ts` trails ev
 A forum post is a demand signal and never a source of a fact. It suggests only. See
 [`.claude/skills/episode-ideas/SKILL.md`](.claude/skills/episode-ideas/SKILL.md).
 
+## Suggesting new research areas — `/research-area-ideas`
+
+`/research-area-ideas` suggests new research areas for the school pages. It reads what the
+app already holds from `DATA-SCHEMA.md`, sweeps every roster school's own website for what
+the app does not cover, and ranks the candidates. **An area needs at least two schools that
+publish enough to fill it**, and only a school's own official pages count as evidence. It
+suggests only: it writes no `source-material/`, starts no plan, and a new area still goes
+through the UX-design standard below. See
+[`.claude/skills/research-area-ideas/SKILL.md`](.claude/skills/research-area-ideas/SKILL.md).
+
 ## UX-design standard (required)
 
 **Ingestion and research work enrich data only — they must never change the web app's UX

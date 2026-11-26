@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**15 active** · 0 retired · Last updated **2026-11-26**
+**16 active** · 0 retired · Last updated **2026-11-26**
 
 ---
 
@@ -30,6 +30,7 @@
 | 🏆 | [`wells-fargo-cup`](#wells-fargo-cup) | Official Cup tables → go/no-go → next school's Cup card plan | ❌ Never | — |
 | 📣 | [`cup-episode`](#cup-episode) | One Cup division → podcast | ❌ Generates files | Single |
 | 💡 | [`episode-ideas`](#episode-ideas) | What should the show cover next? → ranked, de-duplicated episode ideas | ❌ Never | — |
+| 🧭 | [`research-area-ideas`](#research-area-ideas) | What should the school pages cover next? → ranked new research areas, each backed by 2+ schools' own sites | ❌ Never | — |
 | 🎯 | [`athlete-commits`](#athlete-commits) | Varsity rosters → college rosters → missing commits → pipeline plan | ❌ Never | — |
 | 🔍 | [`consistency-self-scan`](#consistency-self-scan) | Where does the app contradict itself? → diagnosed worklist → fix plan | ❌ Never | — |
 
@@ -51,9 +52,10 @@ in a go/no-go and then a `/plan` handoff), `wells-fargo-cup` (the next school's 
 ending the same way), `athlete-commits` (a roster school's College Pipeline refresh, ending
 the same way), `consistency-self-scan` (a whole-app scan for self-contradictions, ending the
 same way) and `ingest-source-material` (everything else).
-Five stand alone: `add-school-news`, `admissions-episode`, `learning-support-episode`,
-`cup-episode` and `episode-ideas` (which suggests episodes and routes each to the skill
-that makes it).
+Six stand alone: `add-school-news`, `admissions-episode`, `learning-support-episode`,
+`cup-episode`, `episode-ideas` (which suggests episodes and routes each to the skill
+that makes it) and `research-area-ideas` (which suggests new research areas and leaves the
+choice, the design and the `/plan` to the user).
 
 ---
 
@@ -790,6 +792,58 @@ one research area or a theme across areas. With no scope it returns 10.
 
 **Deliberately cannot:** build a PDF, prompt or episode; edit app code, research data,
 `source-material/` or `podcastEpisodes.ts`; or commit anything.
+
+---
+
+<a id="research-area-ideas"></a>
+
+## 🧭 `research-area-ideas`
+
+**Suggest a ranked list of new research areas, each one backed by what at least two
+schools publish on their own websites.**
+
+`.claude/skills/research-area-ideas/SKILL.md` · added 2026-11-26
+
+The research-side twin of `episode-ideas`. With no scope it sweeps every roster school and
+returns up to 10 ideas, and fewer when fewer clear the bar.
+
+1. **What the app already holds,** read from the generated `DATA-SCHEMA.md` at card level.
+   Material that fits an existing area is listed as a card idea, never as an area.
+2. **Earlier runs** in `reports/research-area-ideas/`, so a turned-down idea stays out.
+3. **Sweeps each school's own site** (navigation, footer, sitemap, and the documents the
+   site links to) with parallel agents, and grades each uncovered theme per school:
+   Strong, Supports, Mentions or Not found.
+4. **Groups the themes, re-opens the evidence and applies the bar:** two or more schools at
+   Strong or Supports.
+5. **Sketches each area:** a plain name, three to six cards, possible Compare rows, K–8 or
+   K–12, and how often it would need a refresh.
+6. **Scores and ranks** out of 20: breadth 5, depth 5, parent value 3, stands apart 3,
+   comparable 2, low upkeep 2. The numbers are shown.
+7. **Reports** in the reply and in `reports/research-area-ideas/<date>.md` (gitignored),
+   with a per-school support table and URLs for every idea, then four lists: better as a
+   card, one school only, not enough published yet, and left out on purpose.
+
+> **🔒 Official school sources only.** The school's own domain, or a document its site links
+> to. A third-party page, an archived page or a marketing paragraph with no checkable facts
+> never counts toward the two-school bar.
+
+> **⚠️ "Not found" is not "not published".** The sweep is shallow by design, so a gap is
+> reported as "not found in this sweep". A thin fetch is re-read in a browser before it is
+> recorded as nothing, since school sites hide content in pop-up tiles and accordions.
+
+> **⚠️ An agent's mistake reads as confidently as its finding.** The parent opens at least
+> one evidence URL per supporting school before an idea is ranked.
+
+> **🎨 A new area is a UX change.** The skill only suggests. Picking an idea is the user's
+> approval to pursue it; the Claude Design step and `/plan` follow, and the skill starts
+> neither.
+
+> **⛔ Hard limits drop an idea whatever the support:** an area that depends on naming
+> students, ratings or review text, trip prices or travel dates, news rather than standing
+> facts, and anything backed only by stale pages.
+
+**Deliberately cannot:** add an area, card or Compare row; edit app code; write
+`source-material/` or run the ingest; start a plan or a design; or commit anything.
 
 ---
 
