@@ -807,7 +807,7 @@ gitignored file.
 **Suggest a ranked list of new research areas, each one backed by what at least two
 schools publish on their own websites.**
 
-`.claude/skills/research-area-ideas/SKILL.md` · added 2026-11-26
+`.claude/skills/research-area-ideas/SKILL.md` · added 2026-11-26 · updated 2026-11-26 (parent-demand research on Reddit, forums and press, run before the sweep; scored 0–5)
 
 The research-side twin of `episode-ideas`. With no scope it sweeps every roster school and
 returns up to 10 ideas, and fewer when fewer clear the bar.
@@ -815,18 +815,26 @@ returns up to 10 ideas, and fewer when fewer clear the bar.
 1. **What the app already holds,** read from the generated `DATA-SCHEMA.md` at card level.
    Material that fits an existing area is listed as a card idea, never as an area.
 2. **Earlier runs** in `reports/research-area-ideas/`, so a turned-down idea stays out.
-3. **Sweeps each school's own site** (navigation, footer, sitemap, and the documents the
+3. **Parent-demand research** on Reddit, local forums and local press, run before the sweep
+   so the questions parents ask become themes to look for.
+4. **Sweeps each school's own site** (navigation, footer, sitemap, and the documents the
    site links to) with parallel agents, and grades each uncovered theme per school:
    Strong, Supports, Mentions or Not found.
-4. **Groups the themes, re-opens the evidence and applies the bar:** two or more schools at
+5. **Groups the themes, re-opens the evidence and applies the bar:** two or more schools at
    Strong or Supports.
-5. **Sketches each area:** a plain name, three to six cards, possible Compare rows, K–8 or
+6. **Sketches each area:** a plain name, three to six cards, possible Compare rows, K–8 or
    K–12, and how often it would need a refresh.
-6. **Scores and ranks** out of 20: breadth 5, depth 5, parent value 3, stands apart 3,
+7. **Scores and ranks** out of 22: breadth 5, depth 5, parent demand 5, stands apart 3,
    comparable 2, low upkeep 2. The numbers are shown.
-7. **Reports** in the reply and in `reports/research-area-ideas/<date>.md` (gitignored),
-   with a per-school support table and URLs for every idea, then four lists: better as a
-   card, one school only, not enough published yet, and left out on purpose.
+8. **Reports** in the reply and in `reports/research-area-ideas/<date>.md` (gitignored),
+   with a per-school support table and URLs for every idea, then five lists: better as a
+   card, one school only, parents ask but schools do not publish, not enough published
+   yet, and left out on purpose.
+
+> **🔒 A forum post is a demand signal, never a source.** It tells the sweep where to look
+> and moves an idea up the list. It adds no fact about a school and never counts toward the
+> two-school bar, and no post text, username, rating or name is copied. Demand never
+> rescues an area fewer than two schools can fill.
 
 > **🔒 Official school sources only.** The school's own domain, or a document its site links
 > to. A third-party page, an archived page or a marketing paragraph with no checkable facts
