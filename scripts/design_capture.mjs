@@ -424,11 +424,14 @@ function pageCapture({ areaSel, cards, live, cardSel, drop, keepAttrs, trimRuns 
   let embeds = 0
   rootClone.querySelectorAll('iframe').forEach((f) => {
     const m = frames.get(f.getAttribute('data-ds-frame')) || { w: 560, h: 315, src: '' }
-    const host = (() => { try { return new URL(m.src, live).hostname } catch { return 'embed' } })()
+    const url = (() => { try { return new URL(m.src, live) } catch { return null } })()
+    const host = url ? url.hostname : 'embed'
+    // A Google Maps embed (Read Reviews) is a map, not a player.
+    const isMap = !!url && /(^|\.)google\.[a-z.]+$/.test(host) && url.pathname.startsWith('/maps')
     const box = document.createElement('div')
     box.className = 'ds-embed'
     box.setAttribute('style', `width:100%;max-width:${m.w || 560}px;aspect-ratio:${m.w || 16} / ${m.h || 9}`)
-    box.textContent = `Embedded player (${host}) — plays in the app`
+    box.textContent = isMap ? `Embedded map (${host}) — loads in the app` : `Embedded player (${host}) — plays in the app`
     f.replaceWith(box)
     embeds++
   })

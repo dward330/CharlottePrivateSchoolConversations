@@ -592,9 +592,9 @@ The brief must carry, explicitly:
 - **Every source URL found**, per area. This is the plan's head start.
 - **Its three Read Reviews links** (GreatSchools, Niche, SchoolDigger), as leads. Every
   school gets the Read Reviews area, which is not part of the coverage floor. The plan must
-  have `/implement` open each link **in a browser** and confirm the school's name and city
-  (same-name schools elsewhere are the trap; Niche and SchoolDigger refuse scripted
-  fetches), then record them in `source-material/read-reviews/<school>/` and add them to
+  have `/implement` confirm each link's school name and city (same-name schools elsewhere
+  are the trap): Niche and SchoolDigger **in a browser**, since both refuse scripted fetches,
+  and GreatSchools by fetch, since the browser extension blocks it. Then it must record them in `source-material/read-reviews/<school>/` and add them to
   `REVIEW_LINKS` in `src/data/reviewSites.ts`. A link that cannot be confirmed is left out.
   See "Review links" in §5 of `DATA-SCHEMA.md`.
 

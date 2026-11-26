@@ -382,10 +382,10 @@ npm run design:capture -- '--page' '/compare/?topic=sports&schools=cannon%2Ccarm
 npm run design:capture -- '--page' '/school/providence-day/admissions-checklist/' '--name' 'Admissions Checklist' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--interactive' 'the band switch and Print'
 
 # Providence Day School
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Providence Day School' '--out' <out> '--refs' 'Providence Day (K-12 school page as first seen, every card closed)' '--sha' '9ad7239f' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Providence Day School' '--out' <out> '--refs' 'Providence Day (K-12 school page as first seen, every card closed)' '--sha' 'fd22a339' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
 
 # School Page (K-8)
-npm run design:capture -- '--page' '/school/charlotte-prep/' '--name' 'School Page (K-8)' '--out' <out> '--refs' 'Charlotte Prep (K-8 school page as first seen, every card closed)' '--sha' '9ad7239f' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
+npm run design:capture -- '--page' '/school/charlotte-prep/' '--name' 'School Page (K-8)' '--out' <out> '--refs' 'Charlotte Prep (K-8 school page as first seen, every card closed)' '--sha' 'fd22a339' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
 
 # Shared Components
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Shared Components' '--out' <out> '--refs' 'Providence Day: header, school title, topic chips, side rail, Welcome Video, Latest News (live headlines, never translated), a section head with its podcast strip and stat tiles, More Schools, footer, back to top' '--sha' 'ff5ab214' '--cards' 'closed' '--drop' '.topic-section:not(#topic-admissions), #topic-admissions .note-cards' '--interactive' 'the language menu, theme toggle, Contact us, the video and podcast players'
@@ -435,7 +435,7 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Pr
 # then relabel each extra with what it shows (plans consistency4, consistency5)
 
 # Read Reviews Section (plan readreviews; the map iframe is captured as a labelled box)
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Read Reviews Section' '--out' <out> '--refs' 'Providence Day' '--sha' '9ad7239f' '--area' 'read-reviews'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Read Reviews Section' '--out' <out> '--refs' 'Providence Day' '--sha' 'fd22a339' '--area' 'read-reviews'
 
 # Financial Aid & Tuition
 npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
@@ -600,7 +600,10 @@ the area and its side-rail entry. `app-css/app-4.css` was re-written (33,945 →
 the stylesheet's new `.review-*` rules sit at its end, and `app-1.css` to `app-3.css` were
 checked byte-identical to the project's copies first, so no other file's styling moved.
 All four writes verified byte for byte, and Providence Day at **87,704 bytes is now the
-largest write proven** (the capture still warns above 83,159). Two capture details: the
-embed box says "Embedded player (www.google.com) — plays in the app", the script's generic
-label, though it is a map; and a section capture is unstyled in the project until the
-`app-css` chunk holding its rules is written, so write the CSS first next time.
+largest write proven** (the capture still warns above 83,159). The same three files were then
+re-captured from `fd22a339` (main after PR #527) once the capture script learned to label a
+Google Maps iframe "Embedded map (…) — loads in the app" instead of the generic "Embedded
+player (…) — plays in the app"; video embeds keep the player label. Only the commit and that
+label changed (7,532 / 87,701 / 42,885 bytes), each verified byte for byte again. One
+lesson: a section capture is unstyled in the project until the `app-css` chunk holding its
+rules is written, so write the CSS first next time.
