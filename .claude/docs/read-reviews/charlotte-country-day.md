@@ -46,6 +46,20 @@ by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used 
 given. Its `!1d3082.8` span (for a 1024×768 view) is zoom 15, the same as Providence Day. Its place name is
 "Charlotte Country Day School" and its place id is `0x885420a3cfadd4d5:0x9b8df86e77d82e00`.
 
+### Reviewer roles, checked 2026-11-25 (the box subheadings)
+
+Who wrote the reviews, counted from each site's own reviewer label only (no review
+text, rating or name copied). Rules (user, 2026-11-25): "parents and students" when a
+box holds at least one of each; an alum counts as a student; teachers, staff, "Works
+Here", "community member", "Other", "Niche User" and unlabelled reviews do not change the
+label.
+
+| Site | What was counted | Subheading |
+|---|---|---|
+| GreatSchools | All 22 reviews on the reviews pages (the page states 22), fetched with `?page=N`, by `user_type`: parent 17, unknown 4, student 1 | `greatschools: parents-students` |
+| Niche | The first 20 of 52 reviews, read in Chrome, by author label: Parent 2, Senior 4, Sophomore 3, Junior 1, Freshman 1, Middle school student 1, Alum 7, Niche User 1 | `niche: parents-students` |
+| SchoolDigger | Opened in Chrome: no ratings or written reviews on the page; the box says "parents" by the user's choice (2026-11-25) | `schooldigger: parents` |
+
 
 ---
 

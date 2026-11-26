@@ -46,6 +46,20 @@ by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used 
 given. Its `!1d3260.2` span (for a 1024×768 view) is zoom 15, the same as Providence Day. Its place name is
 "Gaston Day School" and its place id is `0x8856951f5d02184d:0x51e2efe29ba54d55`.
 
+### Reviewer roles, checked 2026-11-25 (the box subheadings)
+
+Who wrote the reviews, counted from each site's own reviewer label only (no review
+text, rating or name copied). Rules (user, 2026-11-25): "parents and students" when a
+box holds at least one of each; an alum counts as a student; teachers, staff, "Works
+Here", "community member", "Other", "Niche User" and unlabelled reviews do not change the
+label.
+
+| Site | What was counted | Subheading |
+|---|---|---|
+| GreatSchools | All 44 reviews on the reviews pages (the page states 44), fetched with `?page=N`, by `user_type`: parent 35, community member 1, teacher 1, student 1, unknown 6 | `greatschools: parents-students` |
+| Niche | The first 20 of 137 reviews, read in Chrome, by author label: Parent 5, Junior 6, Freshman 3, Sophomore 1, Senior 1, Alum 4 | `niche: parents-students` |
+| SchoolDigger | Opened in Chrome: 1 rating, 1 written review, by role: parent 1 | `schooldigger: parents` |
+
 
 ---
 

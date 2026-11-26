@@ -48,6 +48,20 @@ by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used 
 given. Its `!1d1629.6` span (for a 1024×768 view) is about zoom 16, one step closer than Providence Day (the user's view, kept as given). Its place name is
 "Trinity Episcopal School" and its place id is `0x8856a018dd0966cd:0x8e3f229736c0a5c6`.
 
+### Reviewer roles, checked 2026-11-25 (the box subheadings)
+
+Who wrote the reviews, counted from each site's own reviewer label only (no review
+text, rating or name copied). Rules (user, 2026-11-25): "parents and students" when a
+box holds at least one of each; an alum counts as a student; teachers, staff, "Works
+Here", "community member", "Other", "Niche User" and unlabelled reviews do not change the
+label.
+
+| Site | What was counted | Subheading |
+|---|---|---|
+| GreatSchools | All 32 reviews on the reviews pages (the page states 32), fetched with `?page=N`, by `user_type`: parent 23, community member 5, student 2, unknown 2 | `greatschools: parents-students` |
+| Niche | All of 15 reviews, read in Chrome, by author label: Parent 11, Alum 2, Works Here 2 | `niche: parents-students` |
+| SchoolDigger | Opened in Chrome: no ratings or written reviews on the page; the box says "parents" by the user's choice (2026-11-25) | `schooldigger: parents` |
+
 
 ---
 

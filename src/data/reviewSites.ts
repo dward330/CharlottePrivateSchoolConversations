@@ -11,9 +11,9 @@
  * here and its research file, checked the same way.
  *
  * Links only. The page shows nothing from these sites but their names, and the
- * repo stores no rating, grade, review text or reviewer name. (Each research file
- * notes whether SchoolDigger showed any reviews, which is why its box promises
- * school data rather than reviews.)
+ * repo stores no rating, grade, review text or reviewer name. Each research file
+ * records how many reviews each site showed by reviewer role (Parent, Student,
+ * Alum, …) on the date checked, which is what REVIEW_AUDIENCE below says.
  *
  * Logos: every site ships as a text plate (its name in our own type, on the
  * school's own color). `logo` is set ONLY when the site's published terms allow
@@ -111,12 +111,43 @@ export const REVIEW_LINKS: Record<string, Partial<Record<ReviewSiteKey, string>>
   },
 }
 
+/**
+ * Who wrote the reviews in each box, shown as the box's subheading ("Reviews from
+ * parents and students"). Read from each site's reviewer labels on 2026-11-25 and
+ * recorded per school in its research file (counts by role only). Rules (user,
+ * 2026-11-25): a box says "parents and students" when it holds at least one of
+ * each; an alum counts as a student; teachers, staff and community members do not
+ * change the label. SchoolDigger showed no reviews for 10 schools; those boxes
+ * say "parents" by the user's choice. Every link needs an entry
+ * (check:reviewlinks).
+ */
+export type ReviewAudience = 'parents' | 'parents-students' | 'students'
+
+export const REVIEW_AUDIENCE: Record<string, Partial<Record<ReviewSiteKey, ReviewAudience>>> = {
+  cannon: { greatschools: 'parents-students', niche: 'parents-students', schooldigger: 'parents' },
+  'carmel-christian': { greatschools: 'parents-students', niche: 'parents-students', schooldigger: 'parents' },
+  'charlotte-catholic': { greatschools: 'parents-students', niche: 'parents-students', schooldigger: 'parents' },
+  'charlotte-christian': { greatschools: 'parents-students', niche: 'parents-students', schooldigger: 'parents' },
+  'charlotte-country-day': { greatschools: 'parents-students', niche: 'parents-students', schooldigger: 'parents' },
+  'charlotte-latin': { greatschools: 'parents', niche: 'parents-students', schooldigger: 'parents' },
+  'charlotte-prep': { greatschools: 'parents', niche: 'parents', schooldigger: 'parents' },
+  'covenant-day': { greatschools: 'parents', niche: 'parents-students', schooldigger: 'parents' },
+  'davidson-day': { greatschools: 'parents', niche: 'parents-students', schooldigger: 'parents' },
+  'gaston-day': { greatschools: 'parents-students', niche: 'parents-students', schooldigger: 'parents' },
+  'hickory-grove-christian': { greatschools: 'parents', niche: 'parents-students', schooldigger: 'parents' },
+  'providence-day': { greatschools: 'parents-students', niche: 'parents-students', schooldigger: 'parents-students' },
+  'trinity-episcopal': { greatschools: 'parents-students', niche: 'parents-students', schooldigger: 'parents' },
+}
+
 /** The boxes for one school, in REVIEW_SITES order, skipping a site with no URL. */
-export function reviewLinks(slug: string): { site: ReviewSite; url: string }[] {
+export function reviewLinks(
+  slug: string,
+): { site: ReviewSite; url: string; audience: ReviewAudience }[] {
   const links = REVIEW_LINKS[slug] ?? {}
+  const audience = REVIEW_AUDIENCE[slug] ?? {}
   return REVIEW_SITES.flatMap((site) => {
     const url = links[site.key]
-    return url ? [{ site, url }] : []
+    return url ? [{ site, url, audience: audience[site.key] ?? 'parents' }] : []
   })
 }
 

@@ -624,3 +624,25 @@ English approved by the user. Built in a fresh window on `feat/readreviews`.
   "Embedded map (…) — loads in the app"; video embeds keep "Embedded player". Read Reviews
   Section, Providence Day School and School Page (K-8) re-captured from `fd22a339` and
   verified byte for byte again.
+
+### Follow-up 2026-11-25 (2): box subheadings, one link label, full-width lead
+
+At the user's request, after #528 was deployed:
+
+- **Each box's subheading says who wrote its reviews**, per school and site:
+  `REVIEW_AUDIENCE` in `reviewSites.ts`, rendered from `reviews.from.{parents,
+  parentsStudents,students}`. Counted from each site's own reviewer labels: GreatSchools
+  `user_type` over every review page by fetch; Niche author labels in Chrome (the first 20
+  per school, which already held both kinds everywhere except Charlotte Prep and Trinity
+  Episcopal, read in full); SchoolDigger's "by a parent / by a student" markers in Chrome.
+  Each research file records the counts by role and a `<site>: <audience>` line, which
+  `check:reviewlinks` now requires. User rules: an alum counts as a student (only Trinity's
+  Niche box depends on it); the 10 SchoolDigger pages with no reviews say "parents".
+  Result: 21 boxes "parents and students", 18 "parents", 0 "students".
+- **SchoolDigger's link reads "Read reviews on SchoolDigger".** `reviews.goData` and the
+  three per-site blurbs were removed from all ten catalogs; the new keys are in all ten.
+- **The lead runs the full section width** (`max-width: 72ch` removed).
+- Designed in Claude Design first (a mock of *Read Reviews Section*), then built and
+  re-captured; see `design-sync.md`. Browser-checked in en, es, fa and hi; no overflow at
+  320 or 390px. Not adversarially reviewed (a follow-up, not a plan).
+

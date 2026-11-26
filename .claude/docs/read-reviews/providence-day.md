@@ -47,6 +47,20 @@ steps from the listing's default view (17 → 15). Its `!1d3261.8` span (about 3
 1024×768 view) confirms zoom 15, and its place id `0x885420f1c569ee31:0x82f5260b53f2af69`
 is this school's listing.
 
+### Reviewer roles, checked 2026-11-25 (the box subheadings)
+
+Who wrote the reviews, counted from each site's own reviewer label only (no review
+text, rating or name copied). Rules (user, 2026-11-25): "parents and students" when a
+box holds at least one of each; an alum counts as a student; teachers, staff, "Works
+Here", "community member", "Other", "Niche User" and unlabelled reviews do not change the
+label.
+
+| Site | What was counted | Subheading |
+|---|---|---|
+| GreatSchools | All 42 reviews on the reviews pages (the page states 42), fetched with `?page=N`, by `user_type`: parent 30, community member 4, unknown 7, student 1 | `greatschools: parents-students` |
+| Niche | The first 20 of 84 reviews, read in Chrome, by author label: Parent 7, Junior 4, Senior 3, Sophomore 2, Alum 2, Other 2 | `niche: parents-students` |
+| SchoolDigger | Opened in Chrome: 3 ratings, 2 written reviews, by role: parent 1, student 1 | `schooldigger: parents-students` |
+
 
 ---
 

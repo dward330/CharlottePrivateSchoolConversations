@@ -1589,7 +1589,7 @@ Per-school colors and marks used by the page chrome.
 
 ### Review links (the Read Reviews area)
 
-`src/data/reviewSites.ts` · `REVIEW_SITES`, `REVIEW_LINKS`, `SCHOOL_MAPS` · rendered by `src/components/ReadReviews.tsx`
+`src/data/reviewSites.ts` · `REVIEW_SITES`, `REVIEW_LINKS`, `REVIEW_AUDIENCE`, `SCHOOL_MAPS` · rendered by `src/components/ReadReviews.tsx`
 
 Read Reviews (slug `read-reviews`) is the last research area on every school page. It holds
 no cards and no research prose: one box per review site, each opening **that school's own
@@ -1610,6 +1610,12 @@ Sites: GreatSchools, Niche, SchoolDigger. Today: 39 links across 13 schools, 13 
   `source-material/read-reviews/<school>/`; a box with no verified URL is omitted.
   `npm run check:reviewlinks` (in the build) fails on a link missing from that record, a
   wrong host, a duplicate, or a logo with no basis.
+- **Each box's subheading says who wrote its reviews** ("Reviews from parents", "…from
+  parents and students", "…from students"): `REVIEW_AUDIENCE`, read from each site's own
+  reviewer labels and recorded in the research file as `<site>: <audience>` with the
+  counts by role. An alum counts as a student; teachers, staff and community members do
+  not change the label; a SchoolDigger page with no reviews says "parents" (user,
+  2026-11-25). `check:reviewlinks` fails on a link with no audience or an unrecorded one.
 
 ## 6. Adding to the schema
 
@@ -1626,7 +1632,7 @@ everything in the second column that adds a card, section, row, or research area
 | A **Compare row** | `VALUE_METRICS` in `src/data/metricValues.ts` | **yes** — new row |
 | A **structured card** | the topic's root type + `*_CARDS` registry | **yes** — new card |
 | A **school's structured data** | `src/data/<dir>/<slug>.ts` | no — backfilling an existing card |
-| A school's **review links** (Read Reviews) | `REVIEW_LINKS` (and `SCHOOL_MAPS`) in `src/data/reviewSites.ts`, plus `source-material/read-reviews/<school>/` recording each link, checked by name and city (Niche and SchoolDigger in a browser, GreatSchools by fetch) | no — every new school needs them; `npm run check:reviewlinks` |
+| A school's **review links** (Read Reviews) | `REVIEW_LINKS`, `REVIEW_AUDIENCE` (and `SCHOOL_MAPS`) in `src/data/reviewSites.ts`, plus `source-material/read-reviews/<school>/` recording each link and its reviewer roles, checked by name and city (Niche and SchoolDigger in a browser, GreatSchools by fetch) | no — every new school needs them; `npm run check:reviewlinks` |
 | A school's **acceptance list** (College Support) | `outcomes.colleges` (name + cats only); ranks resolve from the master `src/data/collegeRankings.ts` | no — but every ranked college needs a row in the master (see §3, `npm run check:ranks`) |
 
 After any of these, run `npm run schema` to refresh this doc (and `npm run check:metrics`,

@@ -17,6 +17,10 @@
  *     `address` and `q`, or one embed is used by two schools;
  *   - a map's embed, link or apple URL does not appear in that school's
  *     research file (the same trace the review links get);
+ *   - a review link has no REVIEW_AUDIENCE entry (the box's "Reviews from …"
+ *     subheading), an entry is not parents / parents-students / students, an
+ *     entry has no link, or the research file does not record it as
+ *     `<site>: <audience>` (so a subheading cannot change without its record);
  *   - a site has `logo` without `logoBasis`, a `logo` is a remote URL rather
  *     than a file under public/review-sites/, or that file does not exist (the
  *     logo rule in the plan: a logo ships only with a recorded basis).
@@ -35,15 +39,15 @@ import { join } from 'node:path'
 const ROOT = new URL('..', import.meta.url).pathname
 const TOPIC = 'read-reviews'
 
-let REVIEW_SITES, REVIEW_LINKS, SCHOOL_MAPS
+let REVIEW_SITES, REVIEW_LINKS, SCHOOL_MAPS, REVIEW_AUDIENCE
 try {
-  ;({ REVIEW_SITES, REVIEW_LINKS, SCHOOL_MAPS } = await import('../src/data/reviewSites.ts'))
+  ;({ REVIEW_SITES, REVIEW_LINKS, SCHOOL_MAPS, REVIEW_AUDIENCE } = await import('../src/data/reviewSites.ts'))
 } catch (e) {
   console.error(`check:reviewlinks — cannot import src/data/reviewSites.ts: ${e.message}`)
   process.exit(2)
 }
-if (!Array.isArray(REVIEW_SITES) || !REVIEW_LINKS || !SCHOOL_MAPS) {
-  console.error('check:reviewlinks — reviewSites.ts did not export REVIEW_SITES, REVIEW_LINKS and SCHOOL_MAPS')
+if (!Array.isArray(REVIEW_SITES) || !REVIEW_LINKS || !SCHOOL_MAPS || !REVIEW_AUDIENCE) {
+  console.error('check:reviewlinks — reviewSites.ts did not export REVIEW_SITES, REVIEW_LINKS, SCHOOL_MAPS and REVIEW_AUDIENCE')
   process.exit(2)
 }
 
@@ -106,6 +110,25 @@ for (const [slug, links] of Object.entries(REVIEW_LINKS)) {
 }
 for (const slug of withTopic) {
   if (!REVIEW_LINKS[slug]) fail(`${slug}: has ${TOPIC} research but no REVIEW_LINKS entry`)
+}
+
+// ---------------------------------------------------------------- audience --
+
+const AUDIENCES = new Set(['parents', 'parents-students', 'students'])
+for (const [slug, links] of Object.entries(REVIEW_LINKS)) {
+  const aud = REVIEW_AUDIENCE[slug] ?? {}
+  const record = research(slug)
+  for (const key of Object.keys(links)) {
+    const a = aud[key]
+    if (!a) { fail(`${slug} ${key}: no REVIEW_AUDIENCE entry — the box needs its "Reviews from …" subheading`); continue }
+    if (!AUDIENCES.has(a)) { fail(`${slug} ${key}: audience "${a}" is not parents, parents-students or students`); continue }
+    if (!record.includes(`${key}: ${a}`)) fail(`${slug} ${key}: audience "${a}" is not recorded as \`${key}: ${a}\` in source-material/${TOPIC}/${slug}/`)
+  }
+}
+for (const [slug, aud] of Object.entries(REVIEW_AUDIENCE)) {
+  for (const key of Object.keys(aud)) {
+    if (!REVIEW_LINKS[slug]?.[key]) fail(`${slug} ${key}: has a REVIEW_AUDIENCE entry but no review link`)
+  }
 }
 
 // ---------------------------------------------------------------- maps ------
