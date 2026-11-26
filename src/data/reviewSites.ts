@@ -36,9 +36,15 @@ export type ReviewSite = {
   logoBasis?: string
 }
 
+/**
+ * Box order, the same on every school page (user, 2026-11-25): Niche first, as it
+ * holds the most reviews at 10 of 13 schools (ties at Davidson Day) and the
+ * student reviews; then GreatSchools; then SchoolDigger, which shows no reviews
+ * for most schools. The counts are in each school's research file.
+ */
 export const REVIEW_SITES: ReviewSite[] = [
-  { key: 'greatschools', name: 'GreatSchools', host: 'www.greatschools.org' },
   { key: 'niche', name: 'Niche', host: 'www.niche.com' },
+  { key: 'greatschools', name: 'GreatSchools', host: 'www.greatschools.org' },
   { key: 'schooldigger', name: 'SchoolDigger', host: 'www.schooldigger.com' },
 ]
 
