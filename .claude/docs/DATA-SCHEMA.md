@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 13 research areas**, 583 ingested research documents.
+**13 schools × 14 research areas**, 585 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -61,6 +61,7 @@ exists yet and **the section does not render at all** for that school.
 | Course Offerings | `course-offerings` | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 4 | 2 | 1 | 3 | 3 | 2 |
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
+| Faith & Spiritual Life | `faith-spiritual-life` | — | — | — | 2 | — | — | — | — | — | — | — | — | — |
 | Student Clubs | `student-clubs` | 11 | 2 | 2 | 10 | 12 | 9 | 3 | 6 | 11 | 2 | 1 | 9 | 4 |
 | The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 7 | 1 | 3 | 7 | 2 |
 | Sports | `sports` | 19 | 6 | 6 | 20 | 20 | 20 | 2 | 19 | 21 | 5 | 6 | 22 | 2 |
@@ -105,6 +106,12 @@ research dossier folds in behind a structured card.
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
 | `redesign-research` | Learning Support Research (2026) | 5/13 | 2 |
+
+### Faith & Spiritual Life `faith-spiritual-life`
+
+| Card key | Label | Schools | Distinct subtopic phrasings |
+|---|---|--:|--:|
+| `redesign-research` | Faith & Spiritual Life Research (2026) | 1/13 | 2 |
 
 ### Student Clubs `student-clubs`
 
@@ -1111,6 +1118,69 @@ the Therapy card goes in `therapy.people`, not only in `therapy.note`.
 
 </details>
 
+### Faith & Spiritual Life `faith-spiritual-life`
+
+Root type `FaithLifeProgram` · registry `FAITH_LIFE_CARDS` · `src/data/faithLife.ts` · per-school `src/data/faithLife/<slug>.ts`
+
+| Card key | Title | Parent question / kicker |
+|---|---|---|
+| `chapel` | Chapel & Worship | — |
+| `classes` | Bible & Faith Classes | — |
+| `retreats` | Retreats | — |
+| `groups` | Small Groups & Discipleship | — |
+| `beliefs` | What the School Believes | — |
+| `families` | What It Asks of Families | — |
+| `service` | Service & Missions | — |
+| `staff` | Who Leads Spiritual Life | — |
+| `parents` | Faith Life for Parents | — |
+| `ask` | Ask the School | — |
+
+**Only a faith-based school holds this area, and only its own public pages are
+evidence.** No third-party page and no church site. The area is off Compare and out
+of the `/add-school` area floor, so a non-religious school is never marked down for
+lacking it.
+
+**Belief statements are verbatim and whole.** `beliefs.articles` holds the statement
+of faith one article per string, char-for-char, with no summary and no comment.
+
+**An unpublished requirement is `status: 'notStated'`, never a blank** and never
+"not required". The `families` tallies are computed from the rows. When the school's
+own pages disagree, the card prints the published fact a parent can check and `ask`
+carries the question.
+
+**No student is named, and no personal staff detail is carried.** A student who
+spoke in chapel is "an Upper School student leader". `staff.people[].email` comes
+only from the school's own directory. Trip prices and exact travel dates stay out
+(season and year only), and a dated or third-hand document is a lead, never a fact.
+
+**Schools with data:** 1/13 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-country-day`, `charlotte-latin`, `charlotte-prep`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`, `providence-day`, `trinity-episcopal`
+
+<details><summary>Types defined in <code>faithLife.ts</code> (18)</summary>
+
+`FaithLead` — `strong`
+
+`FaithStat` — `value`
+
+`FaithNote` — `strong?`
+
+`FaithWord` *(union)* — `all` \| `weekly` \| `monthly` \| `yearly`
+
+`FaithChip` — `band`
+
+`FaithEntry` — `chip`
+
+`ClassRow` — `label`, `band`, `credit?`, `detail`
+
+`FamilyRow` — `label`, `status`, `detail`
+
+`FaithPerson` — `name`
+
+`FaithAskCard` — `headline`, `questions`, `asOf`, `verify?`
+
+`FaithLifeProgram` — `colors`, `lead`, `stats`, `chapel?`, `classes?`, `retreats?`, `groups?`, `beliefs?`, `families?`, `service?`, `staff?`, `parents?`, `ask?`
+
+</details>
+
 ## 4. Compare rows (quantitative layer)
 
 `VALUE_METRICS` powers both the Compare table and the stat tiles on a school page (a
@@ -1681,7 +1751,7 @@ automatically. Every rule below is a research and authoring decision.
 
 | Layer | K-12 school | K-8 school |
 |---|---|---|
-| Research areas | up to 12 of 13 | **up to 12 of 13** — the same ceiling, but College Support swaps for High School Placement |
+| Research areas | up to 13 of 14 | **up to 13 of 14** — the same ceiling, but College Support swaps for High School Placement |
 | Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |
 | Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, with Read Reviews; International Travel left the list when it joined Compare 2026-10-26), not a data absence |
 | Sports cards | up to 8 | **up to 3** — the 5 college-bound ones do not apply |
@@ -1770,6 +1840,7 @@ sparser in the college-facing areas and no thinner anywhere else.
 | high-school-placement | `placement`, `destinations`, `verdict` | 3/4 |
 | international-travel | — | 0/9 |
 | learning-support | — | 0/6 |
+| faith-spiritual-life | — | 0/10 |
 
 Read from `trinity-episcopal`'s own data files, so it tracks the real page rather than a
 plan. An area at 0 is not necessarily a failure — College Support is 0 by design.

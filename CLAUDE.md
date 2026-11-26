@@ -316,6 +316,28 @@ and city (Niche and SchoolDigger in a browser, GreatSchools by fetch) and record
 `source-material/read-reviews/<school>/`;
 `npm run check:reviewlinks` (in the build) holds the two together.
 
+### Faith & Spiritual Life research area
+
+**Faith & Spiritual Life** (slug `faith-spiritual-life`, added 2026-11-26, plan `faithlife`)
+is a ten-card research area for **faith-based schools only**, with **Charlotte Christian**
+first. Its cards, in fixed order: chapel, Bible classes, retreats, small groups, what the
+school believes, what it asks of families, service, who leads it, faith life for parents,
+and questions to ask. It sits after Learning Support and reuses that area's `ls-*`
+components. Later schools are separate plans.
+
+Six rules travel with the area. **Only the school's own public pages are evidence**: no
+third-party page and no church site. **A statement of faith is quoted whole and verbatim**,
+with no summary and no comment. **An unpublished requirement is a dashed NOT STATED chip**,
+never a blank and never "not required". **No student is named, and no personal staff
+detail is carried** (a directory can print a personal email and a staff member's children).
+**No trip prices or exact travel dates.** **A dated or third-hand document is a lead, never
+a fact.** When the school's pages disagree, the card prints the published fact and Ask the
+School carries the question. It is off Compare (`COMPARE_DEFERRED_TOPICS`) and out of the
+`/add-school` area floor (`FLOOR_EXCLUDED_AREAS`), so a non-religious school is never
+marked down for lacking it.
+
+See [`src/data/faithLife/README.md`](src/data/faithLife/README.md).
+
 ## Student-name standard (required)
 
 **⛔ Never expose the name of a student who is not an athlete (HARD rule, user 2026-11-22:

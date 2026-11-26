@@ -116,6 +116,17 @@ const RULES: Record<string, Rule[]> = {
       label: 'Learning Support Research (2026)',
     },
   ],
+  // Faith & Spiritual Life renders as ten structured cards driven by
+  // data/faithLife.ts (plan `faithlife`, 2026-11-26) — the same full
+  // substitution as Learning Support. Every slice of the research folds onto
+  // one key.
+  'faith-spiritual-life': [
+    {
+      match: /.*/,
+      key: 'redesign-research',
+      label: 'Faith & Spiritual Life Research (2026)',
+    },
+  ],
   // Read Reviews renders as link boxes driven by data/reviewSites.ts, never as
   // prose cards (plan `readreviews`, 2026-11-25) — the same full substitution
   // as Learning Support. Every slice of the research folds onto one key.
@@ -382,6 +393,9 @@ const TOPIC_ORDER: string[] = [
   // Added 2026-10-20 from the Learning Support design handoff. The handoff set
   // no position; it sits with the academic areas, after Global Exposure.
   'learning-support',
+  // Added 2026-11-26 (plan `faithlife`): with the areas that describe daily
+  // school life, after Learning Support. Only faith-based schools hold it.
+  'faith-spiritual-life',
   'student-clubs',
   'the-arts',
   'sports',

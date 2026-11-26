@@ -61,6 +61,10 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Providence Day School](course-offerings/providence-day.md) — 3 docs
 - [Trinity Episcopal School](course-offerings/trinity-episcopal.md) — 2 docs
 
+### Faith & Spiritual Life (`faith-spiritual-life/`)
+
+- [Charlotte Christian School](faith-spiritual-life/charlotte-christian.md) — 2 docs
+
 ### Financial Aid & Tuition (`financial-aid-tuition/`)
 
 - [Cannon School](financial-aid-tuition/cannon.md) — 2 docs
@@ -180,4 +184,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 583 documents across 13 topics and 13 schools.
+- `src/data/schools.json` — 585 documents across 14 topics and 13 schools.

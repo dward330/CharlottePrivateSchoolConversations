@@ -50,6 +50,7 @@
     "high-school-placement": "High School Placement",
     "international-travel": "Global Exposure",
     "learning-support": "Learning Support & Student Services",
+    "faith-spiritual-life": "Faith & Spiritual Life",
     "read-reviews": "Read Reviews"
   },
   "metrics": {
@@ -101,7 +102,8 @@
     "visual-arts": "Visual Arts",
     "win-loss": "Win–Loss Records",
     "international-travel.redesign-research": "Global Exposure Research Dossier (2026)",
-    "learning-support.redesign-research": "Learning Support Research (2026)"
+    "learning-support.redesign-research": "Learning Support Research (2026)",
+    "faith-spiritual-life.redesign-research": "Faith & Spiritual Life Research (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -702,7 +704,17 @@
     "learning-support.therapy": "Therapy & Related Services",
     "learning-support.testing": "Testing & Evaluation",
     "learning-support.staff": "Who You'll Work With",
-    "learning-support.ask": "Ask the School"
+    "learning-support.ask": "Ask the School",
+    "faith-spiritual-life.chapel": "Chapel & Worship",
+    "faith-spiritual-life.classes": "Bible & Faith Classes",
+    "faith-spiritual-life.retreats": "Retreats",
+    "faith-spiritual-life.groups": "Small Groups & Discipleship",
+    "faith-spiritual-life.beliefs": "What the School Believes",
+    "faith-spiritual-life.families": "What It Asks of Families",
+    "faith-spiritual-life.service": "Service & Missions",
+    "faith-spiritual-life.staff": "Who Leads Spiritual Life",
+    "faith-spiritual-life.parents": "Faith Life for Parents",
+    "faith-spiritual-life.ask": "Ask the School"
   },
   "cardLabels": {
     "afternoonRhythm": "The afternoon rhythm",
@@ -875,6 +887,26 @@
       "iep": "Individualized Education Program: a public-school document setting out special-education services and goals under IDEA.",
       "idea": "Individuals with Disabilities Education Act: the federal law governing special education in public schools."
     },
+    "asOf": "Research current as of {{date}}."
+  },
+  "faith": {
+    "code": {
+      "all": "ALL",
+      "weekly": "WEEKLY",
+      "monthly": "MONTHLY",
+      "yearly": "YEARLY",
+      "published": "PUBLISHED",
+      "notStated": "NOT STATED",
+      "credit": "{{grade}} · {{credit}} CREDIT"
+    },
+    "legend": {
+      "published": "stated on the school's site",
+      "notStated": "not found on the school's public pages, which is not the same as not required"
+    },
+    "tally": "{{published}} published · {{notStated}} not stated",
+    "mission": "Mission.",
+    "coreValues": "Core values",
+    "statementOfFaith": "Statement of faith, as the school publishes it",
     "asOf": "Research current as of {{date}}."
   },
   "travel": {

@@ -874,6 +874,70 @@ export const PATH_OVERRIDES = new Map([
   // The section's colours — hex values.
   ['colors.brand', false],
   ['colors.gold', false],
+
+  /* ------------------------------------------- faith & spiritual life -- */
+
+  // Charlotte Christian first (2026-11-26, plan `faithlife`). Path-scoped like
+  // the blocks above. Grade bands and credits are figures authored once
+  // ('JK–4', '9', '.5'); word chips and the published / not-stated status are
+  // enum keys mapped to chrome (faith.code.*). Skipped, or the chip breaks.
+  ['chapel.entries[].chip.band', false],
+  ['chapel.entries[].chip.word', false],
+  ['groups.entries[].chip.band', false],
+  ['groups.entries[].chip.word', false],
+  ['service.entries[].chip.band', false],
+  ['service.entries[].chip.word', false],
+  ['parents.entries[].chip.band', false],
+  ['parents.entries[].chip.word', false],
+  ['classes.groups[].rows[].band', false],
+  // `credit` is prose by default (a photo credit line). Here it is '1' / '.5'.
+  ['classes.groups[].rows[].credit', false],
+  ['families.groups[].rows[].status', false],
+  // A Bible reference ('Matthew 22:37') stays as the school prints it.
+  ['beliefs.values[].verse', false],
+  // Division and group names are phrases ('Lower School', 'When you apply'),
+  // and a core value is a phrase ('Love God') — prose, though `name` is a
+  // proper-noun skip by default.
+  ['classes.groups[].name', true],
+  ['classes.groups[].tally', true],
+  ['families.groups[].name', true],
+  ['beliefs.values[].name', true],
+  // The mission and each statement-of-faith article: whole verbatim quotes,
+  // translated whole like every other quoted school text.
+  ['beliefs.mission', true],
+  ['beliefs.articles[]', true],
+  // Note paragraphs and muted follow-ons on every faith card.
+  ['chapel.entries[].muted', true],
+  ['groups.entries[].muted', true],
+  ['service.entries[].muted', true],
+  ['parents.entries[].muted', true],
+  ['chapel.note.strong', true],
+  ['chapel.note.muted', true],
+  ['classes.intro.muted', true],
+  ['classes.note.strong', true],
+  ['classes.note.muted', true],
+  ['retreats.note.strong', true],
+  ['retreats.note.muted', true],
+  ['beliefs.note.strong', true],
+  ['beliefs.note.muted', true],
+  ['families.note.strong', true],
+  ['families.note.muted', true],
+  ['service.note.strong', true],
+  ['service.note.muted', true],
+  ['parents.note.strong', true],
+  ['parents.note.muted', true],
+  // Research bookkeeping, rendered on the dev server only: never translated,
+  // and outside the plain-language scope.
+  ['chapel.verify[]', false],
+  ['classes.verify[]', false],
+  ['retreats.verify[]', false],
+  ['groups.verify[]', false],
+  ['beliefs.verify[]', false],
+  ['families.verify[]', false],
+  ['service.verify[]', false],
+  ['staff.verify[]', false],
+  ['parents.verify[]', false],
+  ['ask.verify[]', false],
 ])
 
 /**
@@ -933,6 +997,9 @@ export const WORDED_VALUES = new Map([
   ['theatre.ledger[].year', /[A-Za-z]{4}/],
   // 'Mean Girls: High School Version (listed by Blumenthal as …)' — an attribution beside a title
   ['theatre.ledger[].show', /\(listed by /],
+  // 'Weekly' on a Faith & Spiritual Life stat tile (plan `faithlife`) — a whole
+  // word, never '4', '130', '12,556', '$300+' or 'K5–12'
+  ['stats[].value', /^[A-Za-z]{4,}$/],
 ])
 
 /**

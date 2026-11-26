@@ -114,8 +114,11 @@ export function topicsForSchool(schoolSlug: string): Topic[] {
  */
 // International Travel was deferred the same way 2026-10-11 and moved onto
 // Compare 2026-10-26 (plan `globalcompare`).
+// Faith & Spiritual Life joined 2026-11-26 (plan `faithlife`): seven roster
+// schools can never hold the area, so it stays off Compare until asked for.
 export const COMPARE_DEFERRED_TOPICS: ReadonlySet<string> = new Set([
   'learning-support',
+  'faith-spiritual-life',
   'read-reviews',
 ])
 

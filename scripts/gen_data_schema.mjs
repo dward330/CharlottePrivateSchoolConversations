@@ -235,6 +235,9 @@ const STRUCTURED = [
   { topic: 'international-travel', file: 'internationalTravel.ts', reg: 'INTERNATIONAL_TRAVEL_CARDS', root: 'InternationalTravelProgram', dir: 'internationalTravel' },
   // Kept off Compare by COMPARE_DEFERRED_TOPICS (src/lib/manifest.ts), with Read Reviews.
   { topic: 'learning-support', file: 'learningSupport.ts', reg: 'LEARNING_SUPPORT_CARDS', root: 'LearningSupportProgram', dir: 'learningSupport' },
+  // Off Compare (COMPARE_DEFERRED_TOPICS) and out of the /add-school area
+  // floor (FLOOR_EXCLUDED_AREAS): only a faith-based school can hold it.
+  { topic: 'faith-spiritual-life', file: 'faithLife.ts', reg: 'FAITH_LIFE_CARDS', root: 'FaithLifeProgram', dir: 'faithLife' },
 ]
 
 for (const s of STRUCTURED) {
@@ -829,6 +832,28 @@ for (const s of STRUCTURED) {
     w('therapist the school names) render the same name / role / mailto row. The `email`')
     w('comes only from the school\'s own directory, never from a name pattern. A person on')
     w('the Therapy card goes in `therapy.people`, not only in `therapy.note`.')
+    w()
+  }
+  if (s.topic === 'faith-spiritual-life') {
+    // Standing rules from plan `faithlife` (2026-11-26, Charlotte Christian
+    // first). The full wording is in src/data/faithLife/README.md.
+    w('**Only a faith-based school holds this area, and only its own public pages are')
+    w('evidence.** No third-party page and no church site. The area is off Compare and out')
+    w('of the `/add-school` area floor, so a non-religious school is never marked down for')
+    w('lacking it.')
+    w()
+    w('**Belief statements are verbatim and whole.** `beliefs.articles` holds the statement')
+    w('of faith one article per string, char-for-char, with no summary and no comment.')
+    w()
+    w('**An unpublished requirement is `status: \'notStated\'`, never a blank** and never')
+    w('"not required". The `families` tallies are computed from the rows. When the school\'s')
+    w('own pages disagree, the card prints the published fact a parent can check and `ask`')
+    w('carries the question.')
+    w()
+    w('**No student is named, and no personal staff detail is carried.** A student who')
+    w('spoke in chapel is "an Upper School student leader". `staff.people[].email` comes')
+    w('only from the school\'s own directory. Trip prices and exact travel dates stay out')
+    w('(season and year only), and a dated or third-hand document is a lead, never a fact.')
     w()
   }
   const missing = schools.map((x) => x.slug).filter((x) => !s.schools.includes(x))

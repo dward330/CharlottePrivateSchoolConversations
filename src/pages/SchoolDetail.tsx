@@ -161,6 +161,13 @@ import {
   LearningSupportLead,
   LearningSupportStatBand,
 } from '../components/LearningSupport.tsx'
+import {
+  faithLifeProgram,
+  loadFaithLifeOverlay,
+  FAITH_LIFE_CARDS,
+  WIDE_FAITH_CARDS,
+} from '../data/faithLife.ts'
+import { FaithLifeCardBody, FaithLifeLead, FaithLifeStatBand } from '../components/FaithLife.tsx'
 import { WelcomeVideo, ClassVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { LatestNews, NewspaperIcon } from '../components/LatestNews.tsx'
 import { newsSourceFor } from '../lib/news/sources.ts'
@@ -557,6 +564,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadAdmissionsOverlay(lang),
       loadInternationalTravelOverlay(lang),
       loadLearningSupportOverlay(lang),
+      loadFaithLifeOverlay(lang),
       /* The content overlay must be warmed BEFORE loadMetricGroups reads it —
          it resolves blocks synchronously off the cached index, so racing them
          would render English on first paint. */
@@ -574,8 +582,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
          into Object.fromEntries as if it were a [slug, groups] pair — which is
          what `tsc -b` caught when Summer Programs made it nine. Admissions
          made it ten. High School Placement made it eleven. International
-         Travel made it twelve. Learning Support made it thirteen. */
-    ]).then(([, , , , , , , , , , , , , ...entries]) => {
+         Travel made it twelve. Learning Support made it thirteen. Faith &
+         Spiritual Life made it fourteen. */
+    ]).then(([, , , , , , , , , , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -1149,6 +1158,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
               : []
             const learning = lsCardList.length > 0 ? lsEntry : undefined
             const lsCards = lsCardList
+            /* Faith & Spiritual Life: the same full substitution — ten
+               structured cards replace the ingested prose, folded onto one
+               metric key by RULES['faith-spiritual-life'] (plan `faithlife`).
+               Only Charlotte Christian is researched. Same present-but-empty
+               guard as the areas above. */
+            const flEntry =
+              t.slug === 'faith-spiritual-life' ? faithLifeProgram(slug, lang) : undefined
+            const flCards = flEntry ? FAITH_LIFE_CARDS.filter((c) => flEntry[c.key] != null) : []
+            const faith = flCards.length > 0 ? flEntry : undefined
+            /* Both areas share the `ls-section` look and take the school's
+               own two colors from their data file. */
+            const sectionColors = (learning ?? faith)?.colors
             /* Read Reviews: link boxes to review sites replace the ingested
                link list, folded onto one metric key by RULES['read-reviews'].
                No cards (plan `readreviews`). */
@@ -1174,6 +1195,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                               ? itCards.length
                               : learning
                               ? lsCards.length
+                              : faith
+                              ? flCards.length
                               : clubs
                               ? clubsCards.length + groups.length
                               : groups.length
@@ -1190,6 +1213,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
               (t.slug === 'admissions' && admissions) ||
               (t.slug === 'international-travel' && travel) ||
               (t.slug === 'learning-support' && learning) ||
+              (t.slug === 'faith-spiritual-life' && faith) ||
               (t.slug === 'read-reviews' && hasReviews)
                 ? []
                 : groups
@@ -1313,13 +1337,14 @@ export function SchoolDetail({ slug }: { slug: string }) {
               <section
                 key={t.slug}
                 id={`topic-${t.slug}`}
-                className={`topic-section${learning ? ' ls-section' : ''}`}
+                className={`topic-section${sectionColors ? ' ls-section' : ''}`}
                 /* Learning Support takes the school's own colours (the handoff's
                    navy + Vegas gold for Hickory Grove): --brand for ink and
-                   fills, --ls-gold for rules and badges only. */
+                   fills, --ls-gold for rules and badges only. Faith &
+                   Spiritual Life shares the look (plan `faithlife`). */
                 style={
-                  learning
-                    ? ({ '--brand': learning.colors.brand, '--ls-gold': learning.colors.gold } as React.CSSProperties)
+                  sectionColors
+                    ? ({ '--brand': sectionColors.brand, '--ls-gold': sectionColors.gold } as React.CSSProperties)
                     : undefined
                 }
               >
@@ -1439,6 +1464,15 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   <>
                     <LearningSupportLead program={learning} />
                     <LearningSupportStatBand program={learning} />
+                  </>
+                )}
+
+                {/* Faith & Spiritual Life: the lead line, then its stat band —
+                    the topic's own data, off Compare. */}
+                {ready && t.slug === 'faith-spiritual-life' && faith && (
+                  <>
+                    <FaithLifeLead program={faith} />
+                    <FaithLifeStatBand program={faith} />
                   </>
                 )}
 
@@ -1832,6 +1866,37 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         </summary>
                         <div className="note-card-body">
                           <LearningSupportCardBody program={learning} cardKey={card.key} schoolName={school.name} />
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                )}
+
+                {/* Faith & Spiritual Life: ten cards in the fixed order set by
+                    FAITH_LIFE_CARDS. Service and Staff sit two-up; the rest
+                    span the full row. Titles are constant chrome. */}
+                {ready && t.slug === 'faith-spiritual-life' && faith && (
+                  <div className="note-cards">
+                    {flCards.map((card) => (
+                      <details
+                        key={card.key}
+                        id={cardLinkId(areaEn, cardTitle(enT, 'faith-spiritual-life', card.key, card.title))}
+                        data-card={`faith-spiritual-life:${card.key}`}
+                        className={`note-card note-card-report note-card-ls${WIDE_FAITH_CARDS.has(card.key) ? ' note-card-wide' : ''}`}
+                      >
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="topic-title">
+                              {cardTitle(tr, 'faith-spiritual-life', card.key, card.title)}
+                            </span>
+                            <span className="topic-teaser">
+                              {localizeMoneyText(faith[card.key]!.headline)}
+                            </span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <FaithLifeCardBody program={faith} cardKey={card.key} schoolName={school.name} />
                         </div>
                       </details>
                     ))}

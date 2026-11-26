@@ -117,6 +117,7 @@ const LOADERS = {
   'src/data/highSchoolPlacement.ts': 'high-school-placement',
   'src/data/internationalTravel.ts': 'international-travel',
   'src/data/learningSupport.ts': 'learning-support',
+  'src/data/faithLife.ts': 'faith-spiritual-life',
 }
 
 /** Single-module accessors: path -> [export, page topic]. */

@@ -36,6 +36,7 @@ TOPIC_NAMES = {
     "international-travel": "Global Exposure",
     "learning-support": "Learning Support & Student Services",
     "read-reviews": "Read Reviews",
+    "faith-spiritual-life": "Faith & Spiritual Life",
 }
 SCHOOL_NAMES = {
     "cannon": "Cannon School",

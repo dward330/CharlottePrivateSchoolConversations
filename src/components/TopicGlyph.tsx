@@ -58,6 +58,13 @@ const PATHS: Record<string, React.ReactNode> = {
       <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
     </>
   ),
+  // A plain cross — from the Faith & Spiritual Life design (plan `faithlife`).
+  'faith-spiritual-life': (
+    <>
+      <path d="M12 3v18" />
+      <path d="M6 9h12" />
+    </>
+  ),
   // Lucide "message-square" — from the Read Reviews design (plan `readreviews`).
   'read-reviews': <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />,
 }

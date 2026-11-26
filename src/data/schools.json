@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -71,6 +71,10 @@
     {
       "slug": "course-offerings",
       "name": "Course Offerings"
+    },
+    {
+      "slug": "faith-spiritual-life",
+      "name": "Faith & Spiritual Life"
     },
     {
       "slug": "financial-aid-tuition",
@@ -328,6 +332,11 @@
     {
       "topic_slug": "course-offerings",
       "school_slug": "trinity-episcopal",
+      "doc_count": 2
+    },
+    {
+      "topic_slug": "faith-spiritual-life",
+      "school_slug": "charlotte-christian",
       "doc_count": 2
     },
     {
@@ -6610,6 +6619,26 @@
       "subtopic": "Review Site Links",
       "source_file": "source-material/read-reviews/trinity-episcopal/Trinity Episcopal School - Read Reviews - Review Site Links.md",
       "note_file": ".claude/docs/read-reviews/trinity-episcopal.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "faith-spiritual-life",
+      "topic": "Faith & Spiritual Life",
+      "subtopic": "Official Site Research",
+      "source_file": "source-material/faith-spiritual-life/charlotte-christian/Charlotte Christian - Faith and Spiritual Life - Official Site Research.md",
+      "note_file": ".claude/docs/faith-spiritual-life/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "faith-spiritual-life",
+      "topic": "Faith & Spiritual Life",
+      "subtopic": "Second Pass Gap Research",
+      "source_file": "source-material/faith-spiritual-life/charlotte-christian/Charlotte Christian - Faith and Spiritual Life - Second Pass Gap Research.md",
+      "note_file": ".claude/docs/faith-spiritual-life/charlotte-christian.md",
       "type": "md"
     }
   ]

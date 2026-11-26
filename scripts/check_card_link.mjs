@@ -71,6 +71,7 @@ for (const [name, want] of [
   ['Sports', 'sports'],
   ['Global Exposure', 'global-exposure'],
   ['Learning Support & Student Services', 'learning-support-and-student-services'],
+  ['Faith & Spiritual Life', 'faith-and-spiritual-life'],
   ['Café (Crème)', 'cafe-creme'],
   ['  —Leading / trailing+  ', 'leading-trailing'],
 ]) {
@@ -93,6 +94,7 @@ const REGISTRIES = [
   ['../src/data/admissionsPrograms.ts', 'ADMISSIONS_CARDS', 'admissions'],
   ['../src/data/internationalTravel.ts', 'INTERNATIONAL_TRAVEL_CARDS', 'international-travel'],
   ['../src/data/learningSupport.ts', 'LEARNING_SUPPORT_CARDS', 'learning-support'],
+  ['../src/data/faithLife.ts', 'FAITH_LIFE_CARDS', 'faith-spiritual-life'],
   ['../src/data/clubsProgram.ts', 'CLUBS_CARDS', 'student-clubs'],
 ]
 

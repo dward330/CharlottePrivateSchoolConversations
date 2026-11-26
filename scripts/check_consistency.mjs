@@ -132,6 +132,7 @@ const DIRS = [
   'admissionsPrograms',
   'internationalTravel',
   'learningSupport',
+  'faithLife',
   'highSchoolPlacementPrograms',
 ]
 const data = {}
