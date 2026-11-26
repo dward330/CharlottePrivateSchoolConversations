@@ -495,7 +495,8 @@ new stamp was recomputed independently. Fixed, not re-reviewed: that one doc cor
 `e0bd378b`, after the pass-3 fixes and the accent change, and verified byte for byte.
 
 **Headed `audit:cardlink`:** run across every school on 2026-11-26 at the developer's
-go-ahead; result recorded in the hand-back.
+go-ahead: 793 of 793 links pass on 13 schools, the URL and canonical follow clicks, 0
+`pushState` calls. This closes the audit the first Phase 1 note listed as owed.
 
 **Phase 2 note:** the Student Clubs unit above needs no further work. For the new area,
 `fa`/`ar` should check the closing-quote-then-period endings in a browser.
