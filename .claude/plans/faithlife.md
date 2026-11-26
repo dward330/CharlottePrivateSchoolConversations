@@ -469,8 +469,8 @@ commit reviewed `b8334b20`. 6 found, 6 confirmed, 0 rejected, 6 fixed, 0 decline
   "!" for a period: fixed.
 - P3-5 two claims had no source on What the School Believes: the 2026-27 profile and the
   Admissions FAQs added.
-- P3-6 the design project's *Home* capture shows 11 research areas for Charlotte Christian:
-  drift noted in `design-sync.md`, re-capture due at the end of Phase 2.
+- P3-6 the design project's *Home* capture predates this area (and Read Reviews), so its
+  research-area count for Charlotte Christian is behind the built page's 12: drift noted in `design-sync.md`, re-capture due at the end of Phase 2.
 
 Fixed, not re-reviewed: all six pass-3 fixes.
 

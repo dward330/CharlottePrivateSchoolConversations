@@ -12,8 +12,10 @@
 // staff-and-board lifestyle statement, and every LEAD (a 2023-24 enrollment
 // packet, a 2007 magazine, an old preview-host page, the Viewbook images).
 //
-// `colors.gold` is a PLACEHOLDER from the design mock. The app records only
-// royal blue for this school; the second accent is an open question.
+// `colors.gold` (the second accent) is a light blue from the same ramp as the
+// brand's royal blue. The school's colors are royal blue and white: it has no
+// gold, and white cannot carry the section's rules and chip fills. Chosen
+// 2026-11-26 at the developer's request, replacing the mock's placeholder gold.
 
 import type { Source } from '../../components/SourceRow.tsx'
 import type { FaithLifeProgram } from '../faithLife.ts'
@@ -83,7 +85,7 @@ const CRAYONS = src(
 )
 
 export const charlotteChristian: FaithLifeProgram = {
-  colors: { brand: '#1e40af', gold: '#c9a227' },
+  colors: { brand: '#1e40af', gold: '#60a5fa' },
 
   lead: {
     strong:
