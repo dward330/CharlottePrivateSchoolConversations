@@ -209,7 +209,8 @@ a second division, fold it into the generator's template and rebuild.
 Adding the episode to `src/data/podcastEpisodes.ts` is a separate one-row change on its own
 branch and PR, with `schools:` = every roster school in the division and
 `researchArea: 'sports'`. Verify the Spotify URL via oEmbed first, and keep ids contiguous.
-Deploying is the user's call, every time.
+Deploying is the user's call, every time. Then take the episode's idea off the running list in
+`reports/episode-ideas/RUNNING.md`, if it is there (see `/episode-ideas`).
 
 **Deliberately cannot:** edit app code, the Cup ledger or any card; speak a student's name;
 build on a ledger the association disagrees with; or deploy.

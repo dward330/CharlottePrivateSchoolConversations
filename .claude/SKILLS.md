@@ -773,6 +773,10 @@ one research area or a theme across areas. With no scope it returns 10.
 6. **Reports** in the reply and in `reports/episode-ideas/<date>.md` (gitignored), with the
    route for each idea (`/admissions-episode`, `/learning-support-episode`, `/cup-episode`,
    or a hand-written prompt), a "We don't hold this yet" list and a "Left out on purpose" list.
+7. **Keeps a running list** (2026-11-26). `reports/episode-ideas/RUNNING.md` carries every
+   idea not yet made into the next run, with the date it was first suggested. Old and new
+   ideas are ranked together. An idea whose episode is published comes off: at the next
+   run's feed check, and whenever a row is added to `podcastEpisodes.ts`.
 
 > **⚠️ The episode table is a lower bound.** A published episode reaches `podcastEpisodes.ts`
 > through a later PR, so the skill checks the live feed. A feed that cannot be read exits 3
@@ -791,7 +795,8 @@ one research area or a theme across areas. With no scope it returns 10.
 > no fact the app does not hold.
 
 **Deliberately cannot:** build a PDF, prompt or episode; edit app code, research data,
-`source-material/` or `podcastEpisodes.ts`; or commit anything.
+`source-material/` or `podcastEpisodes.ts`; or commit anything. The running list is a local,
+gitignored file.
 
 ---
 

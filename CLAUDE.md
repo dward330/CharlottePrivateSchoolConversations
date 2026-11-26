@@ -386,7 +386,11 @@ claim by claim against the source PDF before publishing.
 **`/episode-ideas` suggests what to make next.** It ranks new episode ideas from what the
 app holds, parent-demand research (Reddit, local forums and press) and the calendar, and it
 checks each idea against the **live feed**, since `podcastEpisodes.ts` trails every release.
-A forum post is a demand signal and never a source of a fact. It suggests only. See
+A forum post is a demand signal and never a source of a fact. It suggests only.
+
+**Its list is a running one** (user, 2026-11-26). Every idea not yet made carries into the
+next run from `reports/episode-ideas/RUNNING.md` (gitignored). **When an episode is added to
+`podcastEpisodes.ts`, or the user says one is published, remove its idea from that file.** See
 [`.claude/skills/episode-ideas/SKILL.md`](.claude/skills/episode-ideas/SKILL.md).
 
 ## Suggesting new research areas — `/research-area-ideas`
