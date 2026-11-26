@@ -42,7 +42,8 @@
     "the-arts": "Atizay yo",
     "high-school-placement": "Plasman nan Lekòl Segondè",
     "international-travel": "Ouvèti sou Mond lan",
-    "learning-support": "Sipò pou aprantisaj ak sèvis pou elèv"
+    "learning-support": "Sipò pou aprantisaj ak sèvis pou elèv",
+    "read-reviews": "Li kòmantè yo"
   },
   "metrics": {
     "admissions.redesign-research": "Dosye Rechèch Admisyon (2026)",
@@ -899,5 +900,27 @@
     "askOnTour": "Mande pandan vizit la",
     "askOnTourNote": "pa pibliye sou sit lekòl la",
     "confirmCalendar": "Konfime dat ak lè egzak yo sou kalandriye lekòl la an dirèk."
+  },
+  "reviews": {
+    "lead": "Gade sa lòt fanmi di sou {{school}}. Chak bwat louvri paj lekòl la sou yon sit endepandan ki pibliye kòmantè, nan yon nouvo onglè.",
+    "go": "Li kòmantè sou {{site}}",
+    "goData": "Gade lekòl la sou {{site}}",
+    "note": "Se lòt òganizasyon ki jere sit sa yo. Kòmantè ak nòt yo se pou yo, se pa pou nou ni pou lekòl la.",
+    "logoAlt": "Logo {{site}}",
+    "sites": {
+      "greatschools": {
+        "blurb": "Kòmantè paran, ansanm ak enfòmasyon sou lekòl la."
+      },
+      "niche": {
+        "blurb": "Kòmantè paran ak elèv, ansanm ak nòt Niche bay."
+      },
+      "schooldigger": {
+        "blurb": "Enfòmasyon sou lekòl la, tankou kantite elèv ki enskri. Se kèk lekòl sèlman ki gen kòmantè la a."
+      }
+    },
+    "mapCaption": "Ki kote {{school}} ye",
+    "mapTitle": "Kat ki montre kote {{school}} ye",
+    "mapOpen": "Louvri nan Google Maps",
+    "mapOpenApple": "Louvri nan Apple Maps"
   }
 }
