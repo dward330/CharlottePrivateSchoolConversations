@@ -12,6 +12,7 @@ Map links (the decorative map under the boxes):
 
 - Open in Google Maps: https://www.google.com/maps/search/?api=1&query=Providence%20Day%20School%2C%205800%20Sardis%20Road%2C%20Charlotte%2C%20NC%2028270
 - Open in Apple Maps: https://maps.apple.com/?address=5800%20Sardis%20Road%2C%20Charlotte%2C%20NC%2028270&q=Providence%20Day%20School
+- Google embed (iframe src): https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.8450102924726!2d-80.78237091151611!3d35.16048593110129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885420f1c569ee31%3A0x82f5260b53f2af69!2sProvidence%20Day%20School!5e0!3m2!1sen!2sus!4v1795657271900!5m2!1sen!2sus
 
 ## Method
 
@@ -29,5 +30,8 @@ School address from the school's own site: 5800 Sardis Road, Charlotte, NC 28270
 **Map links, checked 2026-11-25 in Chrome.** The Google link uses Google's documented
 Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing titled
 "Providence Day School - Google Maps", address Providence Day School, 5800 Sardis Rd, Charlotte, NC 28270. The Apple link uses Apple's documented Map Links form
-(`?address=…&q=…`). It opened the street address with Providence Day School at it. The Google embed code is
-recorded here once it has been copied from Google Maps' Share → "Embed a map".
+(`?address=…&q=…`). It opened the street address with Providence Day School at it. The Google embed code was copied
+by the user from Google Maps' Share → "Embed a map" on 2026-11-25, after zooming out two
+steps from the listing's default view (17 → 15). Its `!1d3261.8` span (about 3.3 km for a
+1024×768 view) confirms zoom 15, and its place id `0x885420f1c569ee31:0x82f5260b53f2af69`
+is this school's listing.

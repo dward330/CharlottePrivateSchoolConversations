@@ -124,4 +124,11 @@ export function reviewLinks(slug: string): { site: ReviewSite; url: string }[] {
  * documented Map Links form, `https://maps.apple.com/?address=…&q=…`. A school
  * with no entry shows the boxes and no map.
  */
-export const SCHOOL_MAPS: Record<string, { embed: string; link: string; apple: string }> = {}
+export const SCHOOL_MAPS: Record<string, { embed: string; link: string; apple: string }> = {
+  'providence-day': {
+    embed:
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.8450102924726!2d-80.78237091151611!3d35.16048593110129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885420f1c569ee31%3A0x82f5260b53f2af69!2sProvidence%20Day%20School!5e0!3m2!1sen!2sus!4v1795657271900!5m2!1sen!2sus',
+    link: 'https://www.google.com/maps/search/?api=1&query=Providence%20Day%20School%2C%205800%20Sardis%20Road%2C%20Charlotte%2C%20NC%2028270',
+    apple: 'https://maps.apple.com/?address=5800%20Sardis%20Road%2C%20Charlotte%2C%20NC%2028270&q=Providence%20Day%20School',
+  },
+}
