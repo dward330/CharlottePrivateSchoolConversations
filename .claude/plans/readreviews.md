@@ -479,3 +479,49 @@ not touched.
 - **Keep SchoolDigger where it shows no reviews for a school?** Owner: user. **Default:**
   keep the box on every school with a verified page, with a blurb and link label that
   promise school data rather than reviews.
+
+## Implementation notes
+
+Phase 1 built 2026-11-25 on `feat/readreviews`. Deviations from the plan, each with its reason:
+
+1. **Read Reviews is last through a new `TOPIC_LAST` list, not by appending to `TOPIC_ORDER`.**
+   Appended to `TOPIC_ORDER`, it rendered *before* Financial Aid & Tuition, which is not in
+   that list and so falls to the end after every listed topic (user spotted it on Providence
+   Day). `orderTopicSlugs()` in `src/lib/metrics.ts` now ranks `TOPIC_LAST` slugs after the
+   unlisted ones.
+2. **"Open in Google Maps" uses Google's documented Maps URLs search form**
+   (`https://www.google.com/maps/search/?api=1&query=<name, address>`), not a copied share
+   link. The Chrome extension blocks reading the Share dialog's text, and the plan forbids
+   building an embed by hand, but this link form is Google's published one. All 13 were opened
+   in Chrome and each landed on a single listing with the school's name and street address.
+3. **The 13 embed codes were pasted by the user** (the plan's own fallback: the extension can
+   open "Embed a map" but cannot read its code). They are used **exactly as given** (user:
+   "keep the zoom i gave you from my share"). Nine share Providence Day's span (`!1d` ≈ 3,250
+   to 3,265 m, zoom 15) and Charlotte Country Day is close (3,083 m). **Charlotte Catholic,
+   Charlotte Prep, Davidson Day and Trinity Episcopal are one step closer (`!1d` ≈ 1,630 m,
+   about zoom 16).** So the plan's "same zoom for all 13" holds for 9 of 13; the user chose to
+   keep their own views. All 13 were checked in the app at 320px and 240px: pin on the right
+   campus, road-map view, at least two named roads readable.
+4. **SchoolDigger's link text is its own key, `reviews.goData`** ("See the school on
+   {{site}}"), because only 3 of 13 schools show any SchoolDigger reviews (Providence Day,
+   Davidson Day, Gaston Day; 2026-11-25). Its blurb is "School facts, such as enrollment. Few
+   schools have reviews here." The component picks `go` / `goData` per site from a literal key
+   map so `check:chrome` can see every key.
+5. **`src/data/reviewSites.ts` is mapped in `EVERY_SCHOOL` in `scripts/audit_scope.mjs`**, not
+   `LOADERS`: it is a data module for every school, not a topic loader with overlay wiring.
+   Both visit the area by its `#read-reviews` link.
+6. **`scripts/check_photo_viewer.mjs` gained one exemption** for the logo `<img>` in
+   `ReadReviews.tsx` (a site logo inside the link to that site). No logo ships today; the
+   build gate refused the `<img>` path without it.
+7. **GreatSchools was re-checked by plain fetch, not in a browser.** The extension still
+   refuses `greatschools.org`. All 13 `reviews/` pages answered HTTP 200 with the school's
+   name in the title; Hickory Grove's `-Hickory-Grove-Christian-School/` slug answers 301 to
+   `-Hickory-Grove-Baptist-Chr.-School/`, which is the one used.
+8. **Map links are recorded in each school's research file** (Google link, Apple link, embed
+   and how each was checked), so `check:reviewlinks` can trace them.
+9. **The design file's Option B was not built**, per the plan. The phone layout uses the
+   900px breakpoint where `.note-cards` drops to one column; the map drops to 240px at 600px.
+
+The coverage floor printed identical output before and after (`npm run coverage:floor`).
+Open question defaults applied: Read Reviews **counts** as a research area (the meta
+description now says 11 areas for Providence Day), and SchoolDigger keeps a box on every school.
