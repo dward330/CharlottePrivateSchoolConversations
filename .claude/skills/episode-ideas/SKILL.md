@@ -186,16 +186,37 @@ two or three of each repeating format and say how many more of that format are o
 
 Give the user the ranked list in the reply, and save the same text to
 `reports/episode-ideas/<YYYY-MM-DD>.md` (`reports/` is gitignored, so nothing is committed).
-If an earlier file is there, read it first and mark any idea suggested before as
-"suggested <date>, not yet made".
+
+**The list is a running one** (user, 2026-11-26). `reports/episode-ideas/RUNNING.md` holds
+every idea suggested so far that has not been made. Each run:
+
+1. **Read `RUNNING.md` first.** If it is missing, build it from the dated reports in the
+   folder. If there are none, this is the first run.
+2. **Take out what has been published.** Check every idea in it against Step 1's output,
+   the live feed and `podcastEpisodes.ts` alike, with Step 2's duplicate test. An idea whose
+   episode exists is removed, and the report names it under **Made since the last run**
+   with its episode number.
+3. **Carry the rest forward.** An earlier idea stays on the list with its
+   "first suggested <date>". Score it again on today's data and calendar, since timeliness
+   and material both move. If the app no longer backs it, or a hard limit now removes it,
+   take it out and say why under "Left out on purpose".
+4. **Add this run's new ideas,** each marked "new this run".
+5. **Rank old and new together** in one table, best first, with a "First suggested" column.
+   The running list has no cap: the 10 is how many **new** ideas a run adds. A scoped run
+   ("for Covenant Day") adds its ideas and shows the whole list, with the scope's ideas
+   marked.
+6. **Write the merged list back** to `RUNNING.md` and to the dated report.
+
+A new idea that matches one already on the list is the same idea. Keep the first date and
+the better wording. Never list it twice.
 
 Open with three lines: how many episodes are published (and how the feed was checked), how
 many open pairs the grid shows, and how the demand research went.
 
 Then a summary table, best first:
 
-| # | Working title | Type | Schools | Score | Make it with |
-|---|---|---|---|---|---|
+| # | Working title | Type | Schools | Score | First suggested | Make it with |
+|---|---|---|---|---|---|---|
 
 Then one block per idea:
 
@@ -219,7 +240,10 @@ Then one block per idea:
 
 - **Watch for:** any limit from Step 3 that the episode will brush against.
 
-Close with two short lists:
+Close with three short lists:
+
+- **Made since the last run:** ideas taken off the running list because their episode is
+  now published, each with its episode number. Leave the list out on a first run.
 
 - **We don't hold this yet:** what parents ask that the app cannot answer, each with its
   demand evidence. These are research leads. Name the route (`/add-school`, `/plan`, a
@@ -230,6 +254,15 @@ Close with two short lists:
 Then stop. The user picks. Making the episode is another skill's job, and adding a
 published episode to `podcastEpisodes.ts` is its own PR.
 
+## When an episode is published, its idea comes off the list
+
+This holds outside a run of this skill (user, 2026-11-26). Whenever a row is added to
+`podcastEpisodes.ts`, or the user says an episode is out, open
+`reports/episode-ideas/RUNNING.md` and remove the idea that episode covers. Use Step 2's
+duplicate test: same school set, same area, same angle. Tell the user which idea came off,
+or that none matched. The file is gitignored, so this is a local edit and never part of the
+PR. The next run's feed check catches anything this step missed.
+
 ## What this skill never does
 
 - Build a PDF, a prompt or an episode.
@@ -237,4 +270,4 @@ published episode to `podcastEpisodes.ts` is its own PR.
 - Treat a forum post as a fact about a school, or copy a post, a username, a rating or a
   name into anything it writes.
 - Suggest an episode the feed already has.
-- Commit anything. Its only output is the reply and the gitignored report file.
+- Commit anything. Its only output is the reply and the gitignored report files.

@@ -169,7 +169,8 @@ school, fold it into the generator's template and rebuild every school.
 Adding the episode to `src/data/podcastEpisodes.ts` (`researchArea: 'learning-support'`)
 is a separate one-row change on its own branch and PR. The section's Listen strip picks it
 up with no other change. Verify the Spotify URL via oEmbed first. Deploying is the user's
-call, every time.
+call, every time. Then take the episode's idea off the running list in
+`reports/episode-ideas/RUNNING.md`, if it is there (see `/episode-ideas`).
 
 **Deliberately cannot:** edit app code or research data, speak a fee or a name, render the
 Ask the School questions, or deploy.
