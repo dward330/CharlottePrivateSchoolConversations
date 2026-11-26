@@ -575,3 +575,37 @@ All six pass-1 fixes were judged correct.
   `00` in dev, and Providence Day's nav sums to the header's 69.
 
 Open: pass-1 #6 (address source URL), declined.
+
+### Phase 2 — 2026-11-25
+
+English approved by the user. Built in a fresh window on `feat/readreviews`.
+
+- **Translations** (commit `9ad7239f`): `topics.read-reviews` plus the 12 `reviews.*` keys in
+  all nine non-English catalogs of `TRANSLATED` (`es`, `bn`, `ht`, `te`, `fr`, `fa`, `it`,
+  `hi`, `ar`). The topic key is placed after `learning-support`, as in `en.json`. Site names,
+  "Google Maps" and "Apple Maps" stay in Latin script. Wording follows each catalog's own
+  vocabulary: `te` uses పాఠశాల (81 uses in its catalog, against 12 for స్కూల్); `es` uses
+  "escuela"; `bn`, `te` and `hi` write "review" as a loanword (রিভিউ, రివ్యూ, रिव्यू), as
+  they do for স্কুল / स्कूल; `ht` uses "kòmantè" and "nòt", avoiding French "avis".
+- **Key parity** (the plan's explicit check, since `check:chrome` cannot see these keys):
+  13 of 13 keys present, non-empty and placeholder-identical in all ten catalogs; none
+  byte-identical to English; no stray Latin outside the brand names in the non-Latin locales.
+- **Checks:** `npx tsc -b` clean; `check:chrome` green; `npm run build` green (whole chain).
+  `check:runtime`, `check:digits`, `check:sepdrift` and `i18n:leaks` cover the prose overlays,
+  which this plan does not touch (no `src/data` prose), so they have nothing new to see;
+  `check:runtime` and the rest of the chain still ran inside the build.
+- **Browser** (built site, Chrome, no window): `es` and `fa` on Providence Day, `hi` on Trinity
+  Episcopal (K-8), `ar` on Gaston Day, each loaded at `?lang=<code>#read-reviews`. Every one
+  landed on the section with the hash kept; heading, lead, three boxes, note, map and the two
+  map links all render translated; site names in Latin; the side rail ends with the area.
+  **RTL needed no change:** in `fa` and `ar` the boxes run right to left, text is
+  right-aligned, the plate stays on top of each box and the map footer mirrors.
+- **Design re-capture** from `9ad7239f`: *Read Reviews Section* (7,535 bytes), *Providence Day
+  School* (87,704) and *School Page (K-8)* (42,888) replaced; `app-css/app-4.css` re-written
+  (36,281), after `app-1.css` to `app-3.css` were checked byte-identical. All four verified
+  byte for byte with `design:verify`. *As Built - Index.md* gained the Read Reviews row and a
+  refresh note; `design-sync.md` gained the capture command, the index row and a plan note.
+  **Deviation:** the plan did not mention the shared CSS. It had to be written, because the
+  section's rules were not in the project's copy (dated 2026-11-20), and the user saw the
+  boxes unstyled in the project until it landed.
+- **Phase 2 is not adversarially reviewed** (per `/implement` step 5b).

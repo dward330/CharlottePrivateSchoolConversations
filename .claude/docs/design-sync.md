@@ -382,10 +382,10 @@ npm run design:capture -- '--page' '/compare/?topic=sports&schools=cannon%2Ccarm
 npm run design:capture -- '--page' '/school/providence-day/admissions-checklist/' '--name' 'Admissions Checklist' '--out' <out> '--refs' 'Providence Day' '--sha' 'ff5ab214' '--interactive' 'the band switch and Print'
 
 # Providence Day School
-npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Providence Day School' '--out' <out> '--refs' 'Providence Day (K-12 school page as first seen, every card closed)' '--sha' 'ff5ab214' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Providence Day School' '--out' <out> '--refs' 'Providence Day (K-12 school page as first seen, every card closed)' '--sha' '9ad7239f' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
 
 # School Page (K-8)
-npm run design:capture -- '--page' '/school/charlotte-prep/' '--name' 'School Page (K-8)' '--out' <out> '--refs' 'Charlotte Prep (K-8 school page as first seen, every card closed)' '--sha' 'ff5ab214' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
+npm run design:capture -- '--page' '/school/charlotte-prep/' '--name' 'School Page (K-8)' '--out' <out> '--refs' 'Charlotte Prep (K-8 school page as first seen, every card closed)' '--sha' '9ad7239f' '--cards' 'closed' '--interactive' 'every card opens; chips, side rail, Latest News, video and podcast players'
 
 # Shared Components
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Shared Components' '--out' <out> '--refs' 'Providence Day: header, school title, topic chips, side rail, Welcome Video, Latest News (live headlines, never translated), a section head with its podcast strip and stat tiles, More Schools, footer, back to top' '--sha' 'ff5ab214' '--cards' 'closed' '--drop' '.topic-section:not(#topic-admissions), #topic-admissions .note-cards' '--interactive' 'the language menu, theme toggle, Contact us, the video and podcast players'
@@ -433,6 +433,9 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'After Sch
 # Summer Programs Section
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Programs Section' '--out' <out> '--refs' 'Providence Day + Carmel Christian'\''s Cost Planner (its short-week day divisor) + Charlotte Latin'\''s Camp Catalog (its Ages labels)' '--sha' 'ac5ac3bf' '--area' 'summer-programs' '--extra' 'carmel-christian:summer-programs/the-summer-cost-planner,charlotte-latin:summer-programs/the-camp-catalog'
 # then relabel each extra with what it shows (plans consistency4, consistency5)
+
+# Read Reviews Section (plan readreviews; the map iframe is captured as a labelled box)
+npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Read Reviews Section' '--out' <out> '--refs' 'Providence Day' '--sha' '9ad7239f' '--area' 'read-reviews'
 
 # Financial Aid & Tuition
 npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
@@ -577,6 +580,7 @@ The same table is in the design project as `As Built - Index.md`.
 | Sports Compare Matrix, Depth Chips Redesign, Academic Clubs Expand Options, Club Catalog Expand Options, Podcast Deep Dive Options | decision records, untouched |
 | Charlotte Prep Course Offerings, High School Placement Class Video, More Schools Row | spec records, untouched |
 | Canvas | empty, untouched |
+| Read Reviews Section | captured, replaced 2026-11-25 (plan `readreviews`; the planning mock is gone) |
 
 All captured files: `main` at `ff5ab214`, captured 2026-11-20.
 
@@ -586,3 +590,17 @@ heading, and *Sports Section Redesign* mocked JUCO and Other roster rows and, af
 asked for it mid-build, the newest-class-first roster order. Both files were then
 re-captured from commit `7511268d` (after the adversarial review) and verified byte for
 byte: Compare Schools - Sports (72,010 bytes) and Sports Section Redesign (79,839 bytes).
+
+**Plan `readreviews` (2026-11-25): a new research area, designed here first.** *Read Reviews
+Section* was mocked at planning (Options A and B; the user chose A, the school-colored name
+plate). After Phase 2 it was re-captured from commit `9ad7239f` with `--area read-reviews`
+(7,535 bytes; the Google map iframe is a labelled box), and *Providence Day School*
+(87,704 bytes) and *School Page (K-8)* (42,888 bytes) were re-captured too, since both gain
+the area and its side-rail entry. `app-css/app-4.css` was re-written (33,945 → 36,281 bytes):
+the stylesheet's new `.review-*` rules sit at its end, and `app-1.css` to `app-3.css` were
+checked byte-identical to the project's copies first, so no other file's styling moved.
+All four writes verified byte for byte, and Providence Day at **87,704 bytes is now the
+largest write proven** (the capture still warns above 83,159). Two capture details: the
+embed box says "Embedded player (www.google.com) — plays in the app", the script's generic
+label, though it is a map; and a section capture is unstyled in the project until the
+`app-css` chunk holding its rules is written, so write the CSS first next time.
