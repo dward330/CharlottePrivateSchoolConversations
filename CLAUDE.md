@@ -396,9 +396,11 @@ next run from `reports/episode-ideas/RUNNING.md` (gitignored). **When an episode
 ## Suggesting new research areas — `/research-area-ideas`
 
 `/research-area-ideas` suggests new research areas for the school pages. It reads what the
-app already holds from `DATA-SCHEMA.md`, sweeps every roster school's own website for what
-the app does not cover, and ranks the candidates. **An area needs at least two schools that
-publish enough to fill it**, and only a school's own official pages count as evidence. It
+app already holds from `DATA-SCHEMA.md`, researches what parents ask on Reddit, local forums
+and local press, sweeps every roster school's own website for what the app does not cover,
+and ranks the candidates. **An area needs at least two schools that publish enough to fill
+it**, and only a school's own official pages count as evidence. A forum post is a demand
+signal: it guides the sweep and the ranking, and never counts as support or as a fact. It
 suggests only: it writes no `source-material/`, starts no plan, and a new area still goes
 through the UX-design standard below. See
 [`.claude/skills/research-area-ideas/SKILL.md`](.claude/skills/research-area-ideas/SKILL.md).
