@@ -12,6 +12,7 @@ Map links (the decorative map under the boxes):
 
 - Open in Google Maps: https://www.google.com/maps/search/?api=1&query=Hickory%20Grove%20Christian%20School%2C%207200%20E.%20WT%20Harris%20Blvd.%2C%20Charlotte%2C%20NC%2028215
 - Open in Apple Maps: https://maps.apple.com/?address=7200%20E.%20WT%20Harris%20Blvd.%2C%20Charlotte%2C%20NC%2028215&q=Hickory%20Grove%20Christian%20School
+- Google embed (iframe src): https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.406297013773!2d-80.72778882297634!3d35.22125464874557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541f52ef866821%3A0x7affbd16327a7aa8!2sHickory%20Grove%20Christian%20School!5e0!3m2!1sen!2sus!4v1795657822690!5m2!1sen!2sus
 
 ## Method
 
@@ -31,5 +32,7 @@ GreatSchools also serves this school at the `2506-Hickory-Grove-Christian-School
 **Map links, checked 2026-11-25 in Chrome.** The Google link uses Google's documented
 Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing titled
 "Hickory Grove Christian School - Google Maps", address Hickory Grove Christian School, 7200 E W.T. Harris Blvd, Charlotte, NC 28215. The Apple link uses Apple's documented Map Links form
-(`?address=…&q=…`). It opened the street address with Hickory Grove Christian School at it. The Google embed code is
-recorded here once it has been copied from Google Maps' Share → "Embed a map".
+(`?address=…&q=…`). It opened the street address with Hickory Grove Christian School at it. The Google embed code was copied
+by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used exactly as
+given. Its `!1d3259.4` span (for a 1024×768 view) is zoom 15, the same as Providence Day. Its place name is
+"Hickory Grove Christian School" and its place id is `0x88541f52ef866821:0x7affbd16327a7aa8`.

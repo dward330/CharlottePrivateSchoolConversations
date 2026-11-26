@@ -23,6 +23,7 @@ Map links (the decorative map under the boxes):
 
 - Open in Google Maps: https://www.google.com/maps/search/?api=1&query=Cannon%20School%2C%205801%20Poplar%20Tent%20Road%2C%20Concord%2C%20NC%2028027
 - Open in Apple Maps: https://maps.apple.com/?address=5801%20Poplar%20Tent%20Road%2C%20Concord%2C%20NC%2028027&q=Cannon%20School
+- Google embed (iframe src): https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.005927742211!2d-80.67408082056338!3d35.40510361318815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854051c46f6ad1f%3A0xed2e20befed37c69!2sCannon%20School!5e0!3m2!1sen!2sus!4v1795657377945!5m2!1sen!2sus
 
 ## Method
 
@@ -40,8 +41,10 @@ School address from the school's own site: 5801 Poplar Tent Road, Concord, NC 28
 **Map links, checked 2026-11-25 in Chrome.** The Google link uses Google's documented
 Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing titled
 "Cannon School - Google Maps", address Cannon School, 5801 Poplar Tent Rd, Concord, NC 28027. The Apple link uses Apple's documented Map Links form
-(`?address=…&q=…`). It opened the street address with Cannon School (listed at this address) at it. The Google embed code is
-recorded here once it has been copied from Google Maps' Share → "Embed a map".
+(`?address=…&q=…`). It opened the street address with Cannon School (listed at this address) at it. The Google embed code was copied
+by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used exactly as
+given. Its `!1d3252.0` span (for a 1024×768 view) is zoom 15, the same as Providence Day. Its place name is
+"Cannon School" and its place id is `0x8854051c46f6ad1f:0xed2e20befed37c69`.
 
 
 ---
@@ -49,6 +52,7 @@ recorded here once it has been copied from Google Maps' Share → "Embed a map".
 ## Sources referenced across these documents
 
 - https://maps.apple.com/?address=5801%20Poplar%20Tent%20Road%2C%20Concord%2C%20NC%2028027&q=Cannon%20School
+- https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.005927742211!2d-80.67408082056338!3d35.40510361318815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8854051c46f6ad1f%3A0xed2e20befed37c69!2sCannon%20School!5e0!3m2!1sen!2sus!4v1795657377945!5m2!1sen!2sus
 - https://www.google.com/maps/search/?api=1&query=Cannon%20School%2C%205801%20Poplar%20Tent%20Road%2C%20Concord%2C%20NC%2028027
 - https://www.greatschools.org/north-carolina/concord/2219-Cannon-School/reviews/
 - https://www.niche.com/k12/cannon-school-concord-nc/reviews/

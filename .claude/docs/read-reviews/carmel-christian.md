@@ -23,6 +23,7 @@ Map links (the decorative map under the boxes):
 
 - Open in Google Maps: https://www.google.com/maps/search/?api=1&query=Carmel%20Christian%20School%2C%201145%20Pineville%20Matthews%20Road%2C%20Matthews%2C%20NC%2028105
 - Open in Apple Maps: https://maps.apple.com/?address=1145%20Pineville%20Matthews%20Road%2C%20Matthews%2C%20NC%2028105&q=Carmel%20Christian%20School
+- Google embed (iframe src): https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.7554291447886!2d-80.7567535228285!3d35.112817453036556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885426c54dc3d141%3A0x80aa28eca6b34310!2sCarmel%20Christian%20School!5e0!3m2!1sen!2sus!4v1795657413086!5m2!1sen!2sus
 
 ## Method
 
@@ -42,8 +43,10 @@ SchoolDigger's other listing for this school, id `9999924878`, now returns Schoo
 **Map links, checked 2026-11-25 in Chrome.** The Google link uses Google's documented
 Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing titled
 "Carmel Christian School - Google Maps", address Carmel Christian School, 1145 Pineville-Matthews Rd, Matthews, NC 28105. The Apple link uses Apple's documented Map Links form
-(`?address=…&q=…`). It opened the street address with Carmel Christian School at it. The Google embed code is
-recorded here once it has been copied from Google Maps' Share → "Embed a map".
+(`?address=…&q=…`). It opened the street address with Carmel Christian School at it. The Google embed code was copied
+by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used exactly as
+given. Its `!1d3263.8` span (for a 1024×768 view) is zoom 15, the same as Providence Day. Its place name is
+"Carmel Christian School" and its place id is `0x885426c54dc3d141:0x80aa28eca6b34310`.
 
 
 ---
@@ -51,6 +54,7 @@ recorded here once it has been copied from Google Maps' Share → "Embed a map".
 ## Sources referenced across these documents
 
 - https://maps.apple.com/?address=1145%20Pineville%20Matthews%20Road%2C%20Matthews%2C%20NC%2028105&q=Carmel%20Christian%20School
+- https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.7554291447886!2d-80.7567535228285!3d35.112817453036556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885426c54dc3d141%3A0x80aa28eca6b34310!2sCarmel%20Christian%20School!5e0!3m2!1sen!2sus!4v1795657413086!5m2!1sen!2sus
 - https://www.google.com/maps/search/?api=1&query=Carmel%20Christian%20School%2C%201145%20Pineville%20Matthews%20Road%2C%20Matthews%2C%20NC%2028105
 - https://www.greatschools.org/north-carolina/matthews/2557-Carmel-Christian-School/reviews/
 - https://www.niche.com/k12/carmel-christian-school-matthews-nc/reviews/

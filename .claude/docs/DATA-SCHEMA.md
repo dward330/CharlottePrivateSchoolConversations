@@ -1596,7 +1596,7 @@ no cards and no research prose: one box per review site, each opening **that sch
 page** on the site in a new tab, then a decorative Google map (Google's keyless embed,
 mounted only when the section nears the viewport).
 
-Sites: GreatSchools, Niche, SchoolDigger. Today: 39 links across 13 schools, 0 maps.
+Sites: GreatSchools, Niche, SchoolDigger. Today: 39 links across 13 schools, 13 maps.
 
 - **Links only.** No rating, grade, review count, review text or reviewer name is copied
   into the repo.

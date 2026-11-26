@@ -12,6 +12,7 @@ Map links (the decorative map under the boxes):
 
 - Open in Google Maps: https://www.google.com/maps/search/?api=1&query=Gaston%20Day%20School%2C%202001%20Gaston%20Day%20School%20Rd%2C%20Gastonia%2C%20NC%2028056
 - Open in Apple Maps: https://maps.apple.com/?address=2001%20Gaston%20Day%20School%20Rd%2C%20Gastonia%2C%20NC%2028056&q=Gaston%20Day%20School
+- Google embed (iframe src): https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.1866832654905!2d-81.14378142297701!3d35.20181864978868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856951f5d02184d%3A0x51e2efe29ba54d55!2sGaston%20Day%20School!5e0!3m2!1sen!2sus!4v1795657765808!5m2!1sen!2sus
 
 ## Method
 
@@ -29,5 +30,7 @@ School address from the school's own site: 2001 Gaston Day School Rd, Gastonia, 
 **Map links, checked 2026-11-25 in Chrome.** The Google link uses Google's documented
 Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing titled
 "Gaston Day School - Google Maps", address Gaston Day School, 2001 Gaston Day School Rd, Gastonia, NC 28056. The Apple link uses Apple's documented Map Links form
-(`?address=…&q=…`). It opened the street address with Gaston Day School at it. The Google embed code is
-recorded here once it has been copied from Google Maps' Share → "Embed a map".
+(`?address=…&q=…`). It opened the street address with Gaston Day School at it. The Google embed code was copied
+by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used exactly as
+given. Its `!1d3260.2` span (for a 1024×768 view) is zoom 15, the same as Providence Day. Its place name is
+"Gaston Day School" and its place id is `0x8856951f5d02184d:0x51e2efe29ba54d55`.

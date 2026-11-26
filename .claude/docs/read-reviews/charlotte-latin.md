@@ -23,6 +23,7 @@ Map links (the decorative map under the boxes):
 
 - Open in Google Maps: https://www.google.com/maps/search/?api=1&query=Charlotte%20Latin%20School%2C%209502%20Providence%20Road%2C%20Charlotte%2C%20NC%2028277
 - Open in Apple Maps: https://maps.apple.com/?address=9502%20Providence%20Road%2C%20Charlotte%2C%20NC%2028277&q=Charlotte%20Latin%20School
+- Google embed (iframe src): https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.1303480503902!2d-80.77661152297861!3d35.07847575648977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885427a8f5c6b4a7%3A0xc2a27f49ef17a956!2sCharlotte%20Latin%20School!5e0!3m2!1sen!2sus!4v1795657556677!5m2!1sen!2sus
 
 ## Method
 
@@ -40,8 +41,10 @@ School address from the school's own site: 9502 Providence Road, Charlotte, NC 2
 **Map links, checked 2026-11-25 in Chrome.** The Google link uses Google's documented
 Maps URLs search form (`/maps/search/?api=1&query=`). It opened a single listing titled
 "Charlotte Latin School - Google Maps", address Charlotte Latin School, 9502 Providence Rd, Charlotte, NC 28277. The Apple link uses Apple's documented Map Links form
-(`?address=…&q=…`). It opened the street address with Charlotte Latin School facilities (the address is the campus) at it. The Google embed code is
-recorded here once it has been copied from Google Maps' Share → "Embed a map".
+(`?address=…&q=…`). It opened the street address with Charlotte Latin School facilities (the address is the campus) at it. The Google embed code was copied
+by the user from Google Maps' Share → "Embed a map" on 2026-11-25 and is used exactly as
+given. Its `!1d3265.1` span (for a 1024×768 view) is zoom 15, the same as Providence Day. Its place name is
+"Charlotte Latin School" and its place id is `0x885427a8f5c6b4a7:0xc2a27f49ef17a956`.
 
 
 ---
@@ -49,6 +52,7 @@ recorded here once it has been copied from Google Maps' Share → "Embed a map".
 ## Sources referenced across these documents
 
 - https://maps.apple.com/?address=9502%20Providence%20Road%2C%20Charlotte%2C%20NC%2028277&q=Charlotte%20Latin%20School
+- https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.1303480503902!2d-80.77661152297861!3d35.07847575648977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885427a8f5c6b4a7%3A0xc2a27f49ef17a956!2sCharlotte%20Latin%20School!5e0!3m2!1sen!2sus!4v1795657556677!5m2!1sen!2sus
 - https://www.google.com/maps/search/?api=1&query=Charlotte%20Latin%20School%2C%209502%20Providence%20Road%2C%20Charlotte%2C%20NC%2028277
 - https://www.greatschools.org/north-carolina/charlotte/2146-Charlotte-Latin-School/reviews/
 - https://www.niche.com/k12/charlotte-latin-school-charlotte-nc/reviews/
