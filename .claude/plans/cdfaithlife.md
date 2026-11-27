@@ -1120,6 +1120,8 @@ byte for byte (`app-css/app-4.css` too):
 - Not changed: the printable Admissions checklist's contact panel, and College Support's
   counselor emails (already underlined, no arrow).
 
+**English approved by the user, 2026-11-27** ("english looks good"), including the reworded belief-list heading and the email links. Phase 2 may start.
+
 **Phase 2 carry-overs:** translate the changed chrome key `faith.statementOfFaith` in all
 nine other `src/locales/*.json` catalogs (each still holds the old heading's translation);
 add the new design file to `As Built - Index.md` with the Home re-capture; correct `NOTES.md`'s "ten articles" to nine; the splice should drop
