@@ -153,7 +153,8 @@
       "t": "Chapelles de toute l’école",
       "of": "e2630cbf",
       "at": [
-        "charlotte-christian:chapel.entries[3].title"
+        "charlotte-christian:chapel.entries[3].title",
+        "hickory-grove-christian:chapel.entries[2].title"
       ]
     },
     {
@@ -342,7 +343,8 @@
       "t": "Middle School",
       "of": "15441234",
       "at": [
-        "charlotte-christian:classes.groups[1].name"
+        "charlotte-christian:classes.groups[1].name",
+        "hickory-grove-christian:classes.groups[1].name"
       ]
     },
     {
@@ -426,7 +428,8 @@
       "t": "Old Testament Survey",
       "of": "6b2cd411",
       "at": [
-        "charlotte-christian:classes.groups[2].rows[0].label"
+        "charlotte-christian:classes.groups[2].rows[0].label",
+        "hickory-grove-christian:classes.groups[2].rows[0].label"
       ]
     },
     {
@@ -440,7 +443,8 @@
       "t": "New Testament Survey",
       "of": "15a0fcf0",
       "at": [
-        "charlotte-christian:classes.groups[2].rows[1].label"
+        "charlotte-christian:classes.groups[2].rows[1].label",
+        "hickory-grove-christian:classes.groups[2].rows[1].label"
       ]
     },
     {
@@ -825,14 +829,16 @@
       "t": "Ce que les pages publiques de l’école disent de la foi au moment de la candidature et une fois l’enfant inscrit, et ce qu’elles ne disent pas.",
       "of": "2700b011",
       "at": [
-        "charlotte-christian:families.headline"
+        "charlotte-christian:families.headline",
+        "hickory-grove-christian:families.headline"
       ]
     },
     {
       "t": "Au moment de la candidature",
       "of": "fbc4b036",
       "at": [
-        "charlotte-christian:families.groups[0].name"
+        "charlotte-christian:families.groups[0].name",
+        "hickory-grove-christian:families.groups[0].name"
       ]
     },
     {
@@ -853,7 +859,8 @@
       "t": "Entretien avec la famille",
       "of": "94e34996",
       "at": [
-        "charlotte-christian:families.groups[0].rows[1].label"
+        "charlotte-christian:families.groups[0].rows[1].label",
+        "hickory-grove-christian:families.groups[0].rows[1].label"
       ]
     },
     {
@@ -867,7 +874,8 @@
       "t": "La foi du parent lui-même",
       "of": "df592ad8",
       "at": [
-        "charlotte-christian:families.groups[0].rows[2].label"
+        "charlotte-christian:families.groups[0].rows[2].label",
+        "hickory-grove-christian:families.groups[0].rows[4].label"
       ]
     },
     {
@@ -881,7 +889,8 @@
       "t": "Recommandation d’un pasteur",
       "of": "cd83f059",
       "at": [
-        "charlotte-christian:families.groups[0].rows[3].label"
+        "charlotte-christian:families.groups[0].rows[3].label",
+        "hickory-grove-christian:families.groups[0].rows[0].label"
       ]
     },
     {
@@ -909,7 +918,8 @@
       "t": "Une fois inscrit",
       "of": "d9033401",
       "at": [
-        "charlotte-christian:families.groups[1].name"
+        "charlotte-christian:families.groups[1].name",
+        "hickory-grove-christian:families.groups[1].name"
       ]
     },
     {
@@ -930,7 +940,8 @@
       "t": "Cours de Bible",
       "of": "6f74c399",
       "at": [
-        "charlotte-christian:families.groups[1].rows[1].label"
+        "charlotte-christian:families.groups[1].rows[1].label",
+        "hickory-grove-christian:families.groups[1].rows[0].label"
       ]
     },
     {
@@ -986,21 +997,24 @@
       "t": "Présence à la chapelle",
       "of": "bf92e599",
       "at": [
-        "charlotte-christian:families.groups[1].rows[5].label"
+        "charlotte-christian:families.groups[1].rows[5].label",
+        "hickory-grove-christian:families.groups[1].rows[3].label"
       ]
     },
     {
       "t": "Les pages publiques ne disent pas si la chapelle est obligatoire.",
       "of": "889f792d",
       "at": [
-        "charlotte-christian:families.groups[1].rows[5].detail"
+        "charlotte-christian:families.groups[1].rows[5].detail",
+        "hickory-grove-christian:families.groups[1].rows[3].detail"
       ]
     },
     {
       "t": "Les enseignants et le personnel doivent partager la foi.",
       "of": "84aea924",
       "at": [
-        "charlotte-christian:families.note.strong"
+        "charlotte-christian:families.note.strong",
+        "hickory-grove-christian:families.note.strong"
       ]
     },
     {
@@ -1301,7 +1315,8 @@
       "t": "Un parent doit-il être chrétien, ou appartenir à une Église, pour qu’un enfant soit admis ?",
       "of": "a0e1e94d",
       "at": [
-        "charlotte-christian:ask.questions[0]"
+        "charlotte-christian:ask.questions[0]",
+        "hickory-grove-christian:ask.questions[0]"
       ]
     },
     {
@@ -1322,7 +1337,8 @@
       "t": "La chapelle est-elle obligatoire pour chaque élève ?",
       "of": "7ff625fb",
       "at": [
-        "charlotte-christian:ask.questions[3]"
+        "charlotte-christian:ask.questions[3]",
+        "hickory-grove-christian:ask.questions[3]"
       ]
     },
     {
@@ -1371,7 +1387,1109 @@
       "t": "26 novembre 2026",
       "of": "2ffc88e3",
       "at": [
-        "charlotte-christian:ask.asOf"
+        "charlotte-christian:ask.asOf",
+        "hickory-grove-christian:ask.asOf"
+      ]
+    },
+    {
+      "t": "Hickory Grove Christian School est « un ministère de la Hickory Grove Baptist Church ». L’Église l’a fondée en 1995. Les élèves suivent la Bible comme matière principale chaque année, et les pasteurs de l’Église enseignent à la chapelle.",
+      "of": "4b2d51ae",
+      "at": [
+        "hickory-grove-christian:lead.strong"
+      ]
+    },
+    {
+      "t": "L’école dit : « La foi chrétienne est le fondement de tout ce que nous faisons à Hickory Grove Christian School. »",
+      "of": "9c24d508",
+      "at": [
+        "hickory-grove-christian:lead.muted"
+      ]
+    },
+    {
+      "t": "chapelles par an",
+      "of": "ae6fed75",
+      "at": [
+        "hickory-grove-christian:stats[0].label"
+      ]
+    },
+    {
+      "t": "huit matinées en deux temps et deux chapelles de toute l’école au calendrier 2026–27",
+      "of": "1d154f58",
+      "at": [
+        "hickory-grove-christian:stats[0].note"
+      ]
+    },
+    {
+      "t": "années de Bible comme matière principale",
+      "of": "4e53c4e2",
+      "at": [
+        "hickory-grove-christian:stats[1].label"
+      ]
+    },
+    {
+      "t": "« du Kindergarten à la 12e année »",
+      "of": "d492bfb3",
+      "at": [
+        "hickory-grove-christian:stats[1].note"
+      ]
+    },
+    {
+      "t": "crédits de Bible pour obtenir le diplôme",
+      "of": "0462af41",
+      "at": [
+        "hickory-grove-christian:stats[2].label"
+      ]
+    },
+    {
+      "t": "un cours de Bible chaque année du High School, sur 27 crédits au total",
+      "of": "eb9a213b",
+      "at": [
+        "hickory-grove-christian:stats[2].note"
+      ]
+    },
+    {
+      "t": "versets bibliques appris par cœur",
+      "of": "977db8d7",
+      "at": [
+        "hickory-grove-christian:stats[3].label"
+      ]
+    },
+    {
+      "t": "d’ici la fin du Elementary School, environ un par semaine",
+      "of": "a9d6d4a3",
+      "at": [
+        "hickory-grove-christian:stats[3].note"
+      ]
+    },
+    {
+      "t": "La chapelle a lieu dix fois par an, surtout le jeudi matin. Les élèves du Elementary School ont leur temps de culte en premier, puis ceux du Middle School et du High School. Des pasteurs de la Hickory Grove Baptist Church enseignent, et des élèves aident à conduire la musique.",
+      "of": "aeef5967",
+      "at": [
+        "hickory-grove-christian:chapel.headline"
+      ]
+    },
+    {
+      "t": "Chapelle du Elementary School",
+      "of": "ae9892da",
+      "at": [
+        "hickory-grove-christian:chapel.entries[0].title"
+      ]
+    },
+    {
+      "t": "À 8:00 AM les matins de chapelle. La série 2026–27 « suit des hommes et des femmes de la Bible qui ont pris position pour Dieu ».",
+      "of": "cdc1a198",
+      "at": [
+        "hickory-grove-christian:chapel.entries[0].text"
+      ]
+    },
+    {
+      "t": "Parmi les intervenants de l’automne 2026 figuraient les Family Discipleship Pastors de l’Église (pasteurs chargés du discipulat des familles).",
+      "of": "f070b25c",
+      "at": [
+        "hickory-grove-christian:chapel.entries[0].muted"
+      ]
+    },
+    {
+      "t": "Chapelle du Middle School et du High School",
+      "of": "21c42430",
+      "at": [
+        "hickory-grove-christian:chapel.entries[1].title"
+      ]
+    },
+    {
+      "t": "À 9:30 AM, dans le sanctuaire. Le thème 2026–27 est « Here I Stand » (je tiens ferme ici). Les élèves du Middle School prennent des notes sur des fiches de chapelle, et ceux du High School écrivent dans un journal Here I Stand.",
+      "of": "2b4cb461",
+      "at": [
+        "hickory-grove-christian:chapel.entries[1].text"
+      ]
+    },
+    {
+      "t": "Parmi les intervenants de l’automne 2026 figuraient les Student Discipleship Pastors de l’Église (pasteurs chargés du discipulat des élèves). Les élèves des niveaux 6–12 portent la tenue Honor Dress à la chapelle.",
+      "of": "2037a310",
+      "at": [
+        "hickory-grove-christian:chapel.entries[1].muted"
+      ]
+    },
+    {
+      "t": "Une chapelle de Thanksgiving et une chapelle de Noël rassemblent toute l’école. Les élèves des arts de la scène conduisent la chapelle de Noël.",
+      "of": "7eb173c0",
+      "at": [
+        "hickory-grove-christian:chapel.entries[2].text"
+      ]
+    },
+    {
+      "t": "Les élèves de dernière année ont aussi une Senior Recognition Chapel (chapelle en l’honneur des élèves de dernière année) en avril.",
+      "of": "77e07003",
+      "at": [
+        "hickory-grove-christian:chapel.entries[2].muted"
+      ]
+    },
+    {
+      "t": "Méditations bibliques du High School",
+      "of": "0261e804",
+      "at": [
+        "hickory-grove-christian:chapel.entries[3].title"
+      ]
+    },
+    {
+      "t": "Chaque mercredi, les élèves du High School écoutent une méditation biblique sur l’un des « trente-quatre témoins qui sont restés fermes pour le Christ à travers vingt siècles ». Un enseignant ou un pasteur raconte chaque histoire.",
+      "of": "0d1d343a",
+      "at": [
+        "hickory-grove-christian:chapel.entries[3].text"
+      ]
+    },
+    {
+      "t": "Méditations bibliques du Middle School",
+      "of": "342f0c8f",
+      "at": [
+        "hickory-grove-christian:chapel.entries[4].title"
+      ]
+    },
+    {
+      "t": "Les enseignants animent une méditation biblique chaque matin. Avant les cours, le Quiet Time Cafe est ouvert pour la méditation et l’écriture d’un journal, de 7:00 à 7:15 a.m.",
+      "of": "c1ee8239",
+      "at": [
+        "hickory-grove-christian:chapel.entries[4].text"
+      ]
+    },
+    {
+      "t": "Chapel Band",
+      "of": "bbdc6ef1",
+      "at": [
+        "hickory-grove-christian:chapel.entries[5].title"
+      ]
+    },
+    {
+      "t": "Des élèves du High School « passent une audition, répètent et aident nos pasteurs de louange à conduire la chapelle animée par les élèves ».",
+      "of": "581f599a",
+      "at": [
+        "hickory-grove-christian:chapel.entries[5].text"
+      ]
+    },
+    {
+      "t": "Praise Team",
+      "of": "cf0bf302",
+      "at": [
+        "hickory-grove-christian:chapel.entries[6].title"
+      ]
+    },
+    {
+      "t": "Un cours du Middle School « conçu pour les élèves qui souhaitent utiliser leurs talents musicaux pour conduire les autres dans la louange ».",
+      "of": "6c6a0331",
+      "at": [
+        "hickory-grove-christian:chapel.entries[6].text"
+      ]
+    },
+    {
+      "t": "Les familles peuvent regarder ou venir sur place.",
+      "of": "6bd62980",
+      "at": [
+        "hickory-grove-christian:chapel.note.strong"
+      ]
+    },
+    {
+      "t": "« Chaque chapelle est diffusée en direct et conservée dans nos archives. » Les visiteurs de 18 ans et plus peuvent s’inscrire à l’avance.",
+      "of": "ed0a2feb",
+      "at": [
+        "hickory-grove-christian:chapel.note.text"
+      ]
+    },
+    {
+      "t": "Les dates et les horaires des chapelles suivent le calendrier 2026–27 de l’école et son formulaire d’inscription à la chapelle.",
+      "of": "4d3d5f47",
+      "at": [
+        "hickory-grove-christian:chapel.note.muted"
+      ]
+    },
+    {
+      "t": "La Bible est une matière principale obligatoire chaque année. Voici ce que chaque niveau étudie, et les quatre crédits de Bible dont un élève du High School a besoin pour obtenir son diplôme.",
+      "of": "7dc817f2",
+      "at": [
+        "hickory-grove-christian:classes.headline"
+      ]
+    },
+    {
+      "t": "« Les cours de Bible sont obligatoires au Elementary School, au Middle School et au High School ».",
+      "of": "03c8622c",
+      "at": [
+        "hickory-grove-christian:classes.intro.text"
+      ]
+    },
+    {
+      "t": "Les élèves du Elementary School « apprennent par cœur environ un verset biblique chaque semaine ».",
+      "of": "7d00f8bb",
+      "at": [
+        "hickory-grove-christian:classes.intro.muted"
+      ]
+    },
+    {
+      "t": "Elementary School",
+      "of": "444c2b2d",
+      "at": [
+        "hickory-grove-christian:classes.groups[0].name"
+      ]
+    },
+    {
+      "t": "la Bible chaque jour",
+      "of": "9d765c6c",
+      "at": [
+        "hickory-grove-christian:classes.groups[0].tally"
+      ]
+    },
+    {
+      "t": "Du Kindergarten au niveau 5",
+      "of": "edc71672",
+      "at": [
+        "hickory-grove-christian:classes.groups[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "Building on the Rock, « un programme de vision biblique du monde et de survol de la Bible ». « Chaque journée commence par les Écritures, une méditation biblique de l’enseignant et la prière ».",
+      "of": "0008928c",
+      "at": [
+        "hickory-grove-christian:classes.groups[0].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Kingdom Builders",
+      "of": "9a94434e",
+      "at": [
+        "hickory-grove-christian:classes.groups[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "Un cours à part, avec des « leçons fondées sur la Bible sur des sujets comme la communication, la résolution des conflits, la résolution de problèmes et l’esprit sportif ».",
+      "of": "34246ae1",
+      "at": [
+        "hickory-grove-christian:classes.groups[0].rows[1].detail"
+      ]
+    },
+    {
+      "t": "un cours de Bible chaque année",
+      "of": "3ba77ed2",
+      "at": [
+        "hickory-grove-christian:classes.groups[1].tally"
+      ]
+    },
+    {
+      "t": "Building on the Rock",
+      "of": "82cdd00e",
+      "at": [
+        "hickory-grove-christian:classes.groups[1].rows[0].label"
+      ]
+    },
+    {
+      "t": "La vision chrétienne du monde, avec un programme de Summit Ministries.",
+      "of": "61361a88",
+      "at": [
+        "hickory-grove-christian:classes.groups[1].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Walking in Truth",
+      "of": "2e76621e",
+      "at": [
+        "hickory-grove-christian:classes.groups[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "Compare les croyances clés du christianisme avec celles de l’islam, du naturalisme et de la nouvelle spiritualité. Programme de Summit Ministries.",
+      "of": "c3bd391f",
+      "at": [
+        "hickory-grove-christian:classes.groups[1].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Light Bearers",
+      "of": "77453ec1",
+      "at": [
+        "hickory-grove-christian:classes.groups[1].rows[2].label"
+      ]
+    },
+    {
+      "t": "Aide les élèves à « comprendre comment ils peuvent vivre leur vision chrétienne du monde dans une culture post-chrétienne ». Programme de Summit Ministries.",
+      "of": "56bce3dc",
+      "at": [
+        "hickory-grove-christian:classes.groups[1].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Options sur la foi et le leadership",
+      "of": "427a5e5d",
+      "at": [
+        "hickory-grove-christian:classes.groups[1].rows[3].label"
+      ]
+    },
+    {
+      "t": "Parmi les cours : Becoming a Young Man of God et Becoming a Young Woman of God (niveaux 7–8), Student on Mission, et Christian Leadership pour des élèves de 8e année sélectionnés.",
+      "of": "120cc5ee",
+      "at": [
+        "hickory-grove-christian:classes.groups[1].rows[3].detail"
+      ]
+    },
+    {
+      "t": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "hickory-grove-christian:classes.groups[2].name"
+      ]
+    },
+    {
+      "t": "4 crédits de Bible pour obtenir le diplôme",
+      "of": "f3ba47fd",
+      "at": [
+        "hickory-grove-christian:classes.groups[2].tally"
+      ]
+    },
+    {
+      "t": "Niveau préparatoire à l’université ou honors. Les élèves « parcourent toute la Bible à travers de grands thèmes ».",
+      "of": "f8d1174b",
+      "at": [
+        "hickory-grove-christian:classes.groups[2].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Niveau préparatoire à l’université ou honors. Les livres du Nouveau Testament, leur monde et la vie du Christ.",
+      "of": "b2b63ff9",
+      "at": [
+        "hickory-grove-christian:classes.groups[2].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Christian Apologetics",
+      "of": "8e467286",
+      "at": [
+        "hickory-grove-christian:classes.groups[2].rows[2].label"
+      ]
+    },
+    {
+      "t": "Niveau préparatoire à l’université ou honors. Les élèves étudient « les preuves logiques, philosophiques, historiques et scientifiques de la foi chrétienne ». L’autre choix possible est Honors Introduction to Philosophy.",
+      "of": "13dd27c3",
+      "at": [
+        "hickory-grove-christian:classes.groups[2].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Systematic Theology",
+      "of": "2723738e",
+      "at": [
+        "hickory-grove-christian:classes.groups[2].rows[3].label"
+      ]
+    },
+    {
+      "t": "Niveau préparatoire à l’université ou honors. Les élèves « consolident leur compréhension des doctrines essentielles à la foi chrétienne orthodoxe ». L’autre choix possible est Honors Introduction to Ethics.",
+      "of": "e795a1ff",
+      "at": [
+        "hickory-grove-christian:classes.groups[2].rows[3].detail"
+      ]
+    },
+    {
+      "t": "Introduction to Bible",
+      "of": "167dd6e0",
+      "at": [
+        "hickory-grove-christian:classes.groups[2].rows[4].label"
+      ]
+    },
+    {
+      "t": "Un cours « recommandé aux élèves qui n’ont jamais fréquenté d’école chrétienne ou qui sont nouveaux à HGCS ». L’inscription se fait sur recommandation de l’école.",
+      "of": "5fc47c09",
+      "at": [
+        "hickory-grove-christian:classes.groups[2].rows[4].detail"
+      ]
+    },
+    {
+      "t": "Honors et crédits universitaires.",
+      "of": "85df5dd5",
+      "at": [
+        "hickory-grove-christian:classes.note.strong"
+      ]
+    },
+    {
+      "t": "Cinq cours de Bible honors sont des cours en double inscription (dual enrollment) avec Judson College, « le programme universitaire de premier cycle du Southeastern Baptist Theological Seminary (SEBTS) ».",
+      "of": "aa231f5b",
+      "at": [
+        "hickory-grove-christian:classes.note.text"
+      ]
+    },
+    {
+      "t": "Les élèves du Middle School en immersion espagnole suivent le cours de Bible en espagnol.",
+      "of": "d66b9c75",
+      "at": [
+        "hickory-grove-christian:classes.note.muted"
+      ]
+    },
+    {
+      "t": "Là où les élèves parlent de la foi en plus petits groupes : des groupes mensuels au Middle School et des groupes animés par des enseignants au High School.",
+      "of": "ea4ea9d7",
+      "at": [
+        "hickory-grove-christian:groups.headline"
+      ]
+    },
+    {
+      "t": "Grove Groups",
+      "of": "d6c20d68",
+      "at": [
+        "hickory-grove-christian:groups.entries[0].title"
+      ]
+    },
+    {
+      "t": "« Le premier jeudi de chaque mois », les élèves se réunissent par niveau pour apprendre de « la vie de martyrs, de missionnaires et de mentors », puis se répartissent en petits groupes de discipulat.",
+      "of": "8194ca24",
+      "at": [
+        "hickory-grove-christian:groups.entries[0].text"
+      ]
+    },
+    {
+      "t": "Groupes de discipulat (D-groups)",
+      "of": "5887b986",
+      "at": [
+        "hickory-grove-christian:groups.entries[1].title"
+      ]
+    },
+    {
+      "t": "« Chaque élève du High School est placé dans un petit groupe de discipulat animé par un enseignant. » Les groupes se réunissent pendant le créneau Club Flex de la mi-journée, la plupart des jeudis.",
+      "of": "98ff950b",
+      "at": [
+        "hickory-grove-christian:groups.entries[1].text"
+      ]
+    },
+    {
+      "t": "Un pasteur des élèves sur le campus",
+      "of": "e2c19d02",
+      "at": [
+        "hickory-grove-christian:groups.entries[2].title"
+      ]
+    },
+    {
+      "t": "Le « pasteur chargé du discipulat des élèves » de l’Église « est présent sur le campus et disponible pour des entretiens individuels avec les élèves ».",
+      "of": "ec0c5403",
+      "at": [
+        "hickory-grove-christian:groups.entries[2].text"
+      ]
+    },
+    {
+      "t": "Christian Leadership",
+      "of": "7dddde73",
+      "at": [
+        "hickory-grove-christian:groups.entries[3].title"
+      ]
+    },
+    {
+      "t": "Un cours pour des élèves de 8e année sélectionnés, qui « devront s’engager à servir comme responsables sur le campus pendant toute l’année scolaire ».",
+      "of": "439d6477",
+      "at": [
+        "hickory-grove-christian:groups.entries[3].text"
+      ]
+    },
+    {
+      "t": "Les équipes aussi.",
+      "of": "4f01fc7b",
+      "at": [
+        "hickory-grove-christian:groups.note.strong"
+      ]
+    },
+    {
+      "t": "L’un des objectifs du programme sportif est de « former des athlètes disciples » : « Nous nous efforcerons d’avoir un excellent discipulat au sein de nos équipes. »",
+      "of": "ef4fa25a",
+      "at": [
+        "hickory-grove-christian:groups.note.text"
+      ]
+    },
+    {
+      "t": "La mission et la vision de l’école, les convictions qu’elle énonce et les qualités qu’elle espère voir chez chaque élève, dans les mots de l’école.",
+      "of": "e021d1dc",
+      "at": [
+        "hickory-grove-christian:beliefs.headline"
+      ]
+    },
+    {
+      "t": "« Hickory Grove Christian School forme des disciples à travers une vision biblique du monde, en les faisant grandir dans les études, le sport et les arts pour qu’ils soient engagés envers Dieu, liés à la mission et sages en Christ, afin qu’ils Le connaissent et Le fassent connaître. »",
+      "of": "5f8ff62b",
+      "at": [
+        "hickory-grove-christian:beliefs.mission"
+      ]
+    },
+    {
+      "t": "Toute vérité est la vérité de Dieu, et chaque matière doit être enseignée à travers une vision biblique du monde.",
+      "of": "36d2ef5b",
+      "at": [
+        "hickory-grove-christian:beliefs.tenets[0]"
+      ]
+    },
+    {
+      "t": "L’éducation chrétienne est un effort commun entre l’école, la famille, la Hickory Grove Baptist Church et l’ensemble du corps du Christ.",
+      "of": "f6f84166",
+      "at": [
+        "hickory-grove-christian:beliefs.tenets[1]"
+      ]
+    },
+    {
+      "t": "L’éducation chrétienne doit avoir une perspective éternelle, centrée sur le salut et le discipulat de la prochaine génération.",
+      "of": "8c70a21c",
+      "at": [
+        "hickory-grove-christian:beliefs.tenets[2]"
+      ]
+    },
+    {
+      "t": "La réussite à HGCS se mesure non seulement au leadership, à l’excellence et à l’intégrité des élèves, mais surtout à un engagement envers Jésus-Christ pour toute la vie.",
+      "of": "0daba68d",
+      "at": [
+        "hickory-grove-christian:beliefs.tenets[3]"
+      ]
+    },
+    {
+      "t": "Un environnement exigeant dans les études, le sport et les arts prépare pleinement les élèves aux défis qui les attendent.",
+      "of": "65c91b53",
+      "at": [
+        "hickory-grove-christian:beliefs.tenets[4]"
+      ]
+    },
+    {
+      "t": "Les élèves apprennent de différentes façons ; nos enseignants utilisent donc diverses stratégies pédagogiques pour accompagner chaque élève.",
+      "of": "afda4e27",
+      "at": [
+        "hickory-grove-christian:beliefs.tenets[5]"
+      ]
+    },
+    {
+      "t": "Chaque élève est créé à l’image de Dieu, avec des besoins spirituels, scolaires, physiques, mentaux et émotionnels qui lui sont propres.",
+      "of": "3e390e3c",
+      "at": [
+        "hickory-grove-christian:beliefs.tenets[6]"
+      ]
+    },
+    {
+      "t": "Engagés envers Dieu",
+      "of": "38f9009c",
+      "at": [
+        "hickory-grove-christian:beliefs.outcomes[0].name"
+      ]
+    },
+    {
+      "t": "Consacrés au Seigneur, avec des amours bien ordonnées",
+      "of": "6a42cc80",
+      "at": [
+        "hickory-grove-christian:beliefs.outcomes[0].text"
+      ]
+    },
+    {
+      "t": "Liés à la mission",
+      "of": "86faef7c",
+      "at": [
+        "hickory-grove-christian:beliefs.outcomes[1].name"
+      ]
+    },
+    {
+      "t": "Unis au corps du Christ dans une mission commune",
+      "of": "5d2fac4e",
+      "at": [
+        "hickory-grove-christian:beliefs.outcomes[1].text"
+      ]
+    },
+    {
+      "t": "Sages en Christ",
+      "of": "5686ade5",
+      "at": [
+        "hickory-grove-christian:beliefs.outcomes[2].name"
+      ]
+    },
+    {
+      "t": "Capables de discerner entre la sagesse biblique de Dieu et la sagesse du monde",
+      "of": "0148d0ab",
+      "at": [
+        "hickory-grove-christian:beliefs.outcomes[2].text"
+      ]
+    },
+    {
+      "t": "Un ministère de la Hickory Grove Baptist Church.",
+      "of": "675ad5ae",
+      "at": [
+        "hickory-grove-christian:beliefs.note.strong"
+      ]
+    },
+    {
+      "t": "Sa vision : « Connaître le Christ et Le faire connaître par l’éducation chrétienne. »",
+      "of": "20f3e7c2",
+      "at": [
+        "hickory-grove-christian:beliefs.note.text"
+      ]
+    },
+    {
+      "t": "Le verset de l’école est Matthew 6:33 (l’Évangile selon Matthieu). L’école a une double accréditation, par Cognia et par l’Association of Christian Schools International (ACSI).",
+      "of": "1145ea45",
+      "at": [
+        "hickory-grove-christian:beliefs.note.muted"
+      ]
+    },
+    {
+      "t": "La liste de contrôle de chaque niveau comprend un « Personal Recommendation form » (formulaire de recommandation personnelle) rempli par le pasteur de la famille. Pour le Middle School et le High School, il est « rempli par le pasteur de l’élève ou de la famille ».",
+      "of": "3492170f",
+      "at": [
+        "hickory-grove-christian:families.groups[0].rows[0].detail"
+      ]
+    },
+    {
+      "t": "« L’entretien avec la famille est l’occasion de présenter la mission, la vision et la déclaration de foi, et d’évaluer si HGCS convient à votre famille ».",
+      "of": "7e1fcf3b",
+      "at": [
+        "hickory-grove-christian:families.groups[0].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Questionnaire de l’élève",
+      "of": "70bc4595",
+      "at": [
+        "hickory-grove-christian:families.groups[0].rows[2].label"
+      ]
+    },
+    {
+      "t": "Les candidats aux niveaux 4–12 remplissent un Student Questionnaire (questionnaire de l’élève). Ses questions ne figurent pas sur le site public.",
+      "of": "58072980",
+      "at": [
+        "hickory-grove-christian:families.groups[0].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Les membres de l’Église posent leur candidature en premier",
+      "of": "62834a83",
+      "at": [
+        "hickory-grove-christian:families.groups[0].rows[3].label"
+      ]
+    },
+    {
+      "t": "Les candidatures ont ouvert le 2 novembre 2026 pour les membres de l’Église, les élèves de l’Early Education Center et leurs frères et sœurs, et le 16 novembre pour toutes les nouvelles familles.",
+      "of": "ff1eefee",
+      "at": [
+        "hickory-grove-christian:families.groups[0].rows[3].detail"
+      ]
+    },
+    {
+      "t": "Les pages publiques ne disent pas si un parent doit être chrétien ou appartenir à une Église. Le formulaire d’intérêt de la maternelle de Mallard Creek pose bien des questions sur l’Église de la famille et la foi des parents.",
+      "of": "90bc5e19",
+      "at": [
+        "hickory-grove-christian:families.groups[0].rows[4].detail"
+      ]
+    },
+    {
+      "t": "Adhésion à une déclaration de foi",
+      "of": "4d0e62a1",
+      "at": [
+        "hickory-grove-christian:families.groups[0].rows[5].label"
+      ]
+    },
+    {
+      "t": "Les pages publiques ne disent pas si les familles en signent une.",
+      "of": "78c021b6",
+      "at": [
+        "hickory-grove-christian:families.groups[0].rows[5].detail"
+      ]
+    },
+    {
+      "t": "Obligatoire chaque année.",
+      "of": "b2052a02",
+      "at": [
+        "hickory-grove-christian:families.groups[1].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Honor Code",
+      "of": "44cd5ffc",
+      "at": [
+        "hickory-grove-christian:families.groups[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "« Chaque élève du High School signe notre Student Honor Code (code d’honneur de l’élève), un engagement organisé autour de nos trois qualités attendues chez les élèves. »",
+      "of": "32678a3d",
+      "at": [
+        "hickory-grove-christian:families.groups[1].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Tenue pour la chapelle",
+      "of": "2f4b2596",
+      "at": [
+        "hickory-grove-christian:families.groups[1].rows[2].label"
+      ]
+    },
+    {
+      "t": "« La tenue Honor Dress est obligatoire pour toutes les chapelles de la 6e à la 12e année et pour certains événements spéciaux. »",
+      "of": "94b46255",
+      "at": [
+        "hickory-grove-christian:families.groups[1].rows[2].detail"
+      ]
+    },
+    {
+      "t": "L’offre d’emploi demande un « chrétien engagé, en accord avec la déclaration de foi de l’école » qui soit « actif dans une Église locale fidèle à la Bible ».",
+      "of": "13cc08e6",
+      "at": [
+        "hickory-grove-christian:families.note.text"
+      ]
+    },
+    {
+      "t": "L’école garde son Parent-Student Handbook (guide des parents et des élèves) et sa candidature en ligne derrière un accès réservé aux familles.",
+      "of": "80ae7348",
+      "at": [
+        "hickory-grove-christian:families.note.muted"
+      ]
+    },
+    {
+      "t": "Les élèves de dernière année partent chaque année en voyage missionnaire en République dominicaine, et toute l’école fait un don pour une cause chaque trimestre.",
+      "of": "c319faa6",
+      "at": [
+        "hickory-grove-christian:service.headline"
+      ]
+    },
+    {
+      "t": "Voyage missionnaire des élèves de dernière année",
+      "of": "33553cb2",
+      "at": [
+        "hickory-grove-christian:service.entries[0].title"
+      ]
+    },
+    {
+      "t": "« Nos élèves de dernière année servent ensemble chaque année lors d’un voyage missionnaire en République dominicaine. » Le voyage 2026–27 a lieu en janvier 2027.",
+      "of": "e89f1c2f",
+      "at": [
+        "hickory-grove-christian:service.entries[0].text"
+      ]
+    },
+    {
+      "t": "Semaine missionnaire du High School",
+      "of": "2ac49c4f",
+      "at": [
+        "hickory-grove-christian:service.entries[1].title"
+      ]
+    },
+    {
+      "t": "« Pendant que les élèves de dernière année sont partis, le reste du High School sert la communauté locale pendant la Mission Week (semaine missionnaire). »",
+      "of": "e298e406",
+      "at": [
+        "hickory-grove-christian:service.entries[1].text"
+      ]
+    },
+    {
+      "t": "Collecte missionnaire trimestrielle",
+      "of": "d7df1e39",
+      "at": [
+        "hickory-grove-christian:service.entries[2].title"
+      ]
+    },
+    {
+      "t": "« Chaque trimestre, notre famille scolaire fait un don pour soutenir un ministère ou une cause locale. » Parmi les causes nommées : XChange, un ministère de l’Église pour les personnes dépendantes ; Operation Christmas Child ; et une Baby Bottle Drive (collecte en biberons) « pour soutenir le caractère sacré de la vie humaine ».",
+      "of": "421bf44c",
+      "at": [
+        "hickory-grove-christian:service.entries[2].text"
+      ]
+    },
+    {
+      "t": "HGBC Food Pantry",
+      "of": "2e9ac33b",
+      "at": [
+        "hickory-grove-christian:service.entries[3].title"
+      ]
+    },
+    {
+      "t": "Les élèves en immersion espagnole « servent d’interprètes chaque semaine quand nos pasteurs annoncent l’Évangile à notre communauté ». Le laboratoire d’aquaponie du High School « produit de la nourriture pour la HG Food Pantry ».",
+      "of": "5db014a7",
+      "at": [
+        "hickory-grove-christian:service.entries[3].text"
+      ]
+    },
+    {
+      "t": "Student on Mission",
+      "of": "23157b7b",
+      "at": [
+        "hickory-grove-christian:service.entries[4].title"
+      ]
+    },
+    {
+      "t": "Un cours du Middle School qui « étudie ce que Dieu fait dans le monde et comment les élèves peuvent servir Charlotte ».",
+      "of": "84aa6016",
+      "at": [
+        "hickory-grove-christian:service.entries[4].text"
+      ]
+    },
+    {
+      "t": "Global Missions & Language Certificate",
+      "of": "80313ab8",
+      "at": [
+        "hickory-grove-christian:service.entries[5].title"
+      ]
+    },
+    {
+      "t": "Les élèves l’obtiennent avec trois unités d’une langue étrangère, des cours de Bible honors, « au moins un voyage missionnaire international » et un stage pratique ou un stage en milieu missionnaire.",
+      "of": "b39f9bee",
+      "at": [
+        "hickory-grove-christian:service.entries[5].text"
+      ]
+    },
+    {
+      "t": "Le catalogue des cours ajoute une autre condition : « Être un membre actif d’une Église de même conviction, ce qui est vérifié par une lettre de recommandation favorable d’un pasteur, de préférence le pasteur des jeunes de l’élève. »",
+      "of": "ec79c40a",
+      "at": [
+        "hickory-grove-christian:service.entries[5].muted"
+      ]
+    },
+    {
+      "t": "Familles d’accueil",
+      "of": "08de32bd",
+      "at": [
+        "hickory-grove-christian:service.entries[6].title"
+      ]
+    },
+    {
+      "t": "Les familles de l’Église et les familles de l’école peuvent accueillir un élève international. L’école appelle cela « la mission à l’envers ».",
+      "of": "ff765539",
+      "at": [
+        "hickory-grove-christian:service.entries[6].text"
+      ]
+    },
+    {
+      "t": "Des actions au-delà de Charlotte.",
+      "of": "ccf8f5b9",
+      "at": [
+        "hickory-grove-christian:service.note.strong"
+      ]
+    },
+    {
+      "t": "L’école cite « des actions d’évangélisation internationales en République dominicaine, en Équateur, en Haïti et au Kenya ».",
+      "of": "69d038ac",
+      "at": [
+        "hickory-grove-christian:service.note.text"
+      ]
+    },
+    {
+      "t": "Les pages de l’école n’indiquent aucune obligation d’heures de service.",
+      "of": "5de87f7f",
+      "at": [
+        "hickory-grove-christian:service.note.muted"
+      ]
+    },
+    {
+      "t": "Des pasteurs de la Hickory Grove Baptist Church enseignent à la chapelle et animent les séances pour les parents. L’école n’indique pas d’aumônier qui lui soit propre.",
+      "of": "91c82d15",
+      "at": [
+        "hickory-grove-christian:staff.headline"
+      ]
+    },
+    {
+      "t": "Pasteur principal, Hickory Grove Baptist Church ; membre de l’Advisory Board (conseil consultatif)",
+      "of": "62f34cd6",
+      "at": [
+        "hickory-grove-christian:staff.people[0].role"
+      ]
+    },
+    {
+      "t": "Pasteur chargé du discipulat des élèves, Hickory Grove Baptist Church",
+      "of": "29d78e88",
+      "at": [
+        "hickory-grove-christian:staff.people[1].role",
+        "hickory-grove-christian:staff.people[2].role"
+      ]
+    },
+    {
+      "t": "Pasteur chargé du discipulat des familles, Hickory Grove Baptist Church",
+      "of": "f6d67519",
+      "at": [
+        "hickory-grove-christian:staff.people[3].role",
+        "hickory-grove-christian:staff.people[4].role"
+      ]
+    },
+    {
+      "t": "Responsable du département de Bible, High School",
+      "of": "a7f858b3",
+      "at": [
+        "hickory-grove-christian:staff.people[5].role"
+      ]
+    },
+    {
+      "t": "Bible et éducation physique, Middle School",
+      "of": "21497841",
+      "at": [
+        "hickory-grove-christian:staff.people[6].role"
+      ]
+    },
+    {
+      "t": "Enseignants et responsables se partagent les méditations bibliques du mercredi.",
+      "of": "c96e81fc",
+      "at": [
+        "hickory-grove-christian:staff.note.strong"
+      ]
+    },
+    {
+      "t": "Parmi les intervenants de l’automne 2026 figuraient le ou la chef d’établissement et la direction du High School.",
+      "of": "78ceaec7",
+      "at": [
+        "hickory-grove-christian:staff.note.muted"
+      ]
+    },
+    {
+      "t": "Une séance pour les parents les matins de chapelle, des résumés de chaque chapelle et de chaque méditation biblique à rapporter à la maison, et un groupe de prière mensuel.",
+      "of": "f368223d",
+      "at": [
+        "hickory-grove-christian:parents.headline"
+      ]
+    },
+    {
+      "t": "Lions Connect",
+      "of": "d035b4a2",
+      "at": [
+        "hickory-grove-christian:parents.entries[0].title"
+      ]
+    },
+    {
+      "t": "« Lions Connect se réunit les matins de chapelle, entre la chapelle du Elementary School et celle du Middle School et du High School, pour que vous puissiez vivre le temps de louange avec votre enfant et rester pour les deux. » Des pasteurs de l’Église l’animent, à 9:00 AM.",
+      "of": "237fa7e7",
+      "at": [
+        "hickory-grove-christian:parents.entries[0].text"
+      ]
+    },
+    {
+      "t": "Les thèmes de l’automne 2026 étaient « Because I Told You So » (parce que je te l’ai dit) et « Hard Providences » (les providences difficiles).",
+      "of": "30748e72",
+      "at": [
+        "hickory-grove-christian:parents.entries[0].muted"
+      ]
+    },
+    {
+      "t": "Chapel at Home",
+      "of": "303afda6",
+      "at": [
+        "hickory-grove-christian:parents.entries[1].title"
+      ]
+    },
+    {
+      "t": "Après chaque chapelle, les familles reçoivent un résumé avec le message, son passage des Écritures et « quelques questions à aborder avec votre enfant ». Il existe une version pour le Elementary School et une version pour le Middle School et le High School.",
+      "of": "119beb08",
+      "at": [
+        "hickory-grove-christian:parents.entries[1].text"
+      ]
+    },
+    {
+      "t": "Résumés des méditations bibliques",
+      "of": "d198ee5d",
+      "at": [
+        "hickory-grove-christian:parents.entries[2].title"
+      ]
+    },
+    {
+      "t": "Un résumé d’une page de chaque méditation biblique du mercredi au High School, « pour que vous puissiez en parler avec votre enfant au dîner ou en voiture ».",
+      "of": "8b520ec0",
+      "at": [
+        "hickory-grove-christian:parents.entries[2].text"
+      ]
+    },
+    {
+      "t": "Lions in Prayer",
+      "of": "0b8e5ea6",
+      "at": [
+        "hickory-grove-christian:parents.entries[3].title"
+      ]
+    },
+    {
+      "t": "« Les parents se réunissent une fois par mois pour prier pour nos élèves, notre personnel et notre école. » Les réunions ont lieu à 8:00 AM le premier lundi du mois.",
+      "of": "beaefa22",
+      "at": [
+        "hickory-grove-christian:parents.entries[3].text"
+      ]
+    },
+    {
+      "t": "La Parent Teacher Fellowship (l’association parents-enseignants).",
+      "of": "b1101883",
+      "at": [
+        "hickory-grove-christian:parents.note.strong"
+      ]
+    },
+    {
+      "t": "« Nous nous appelons une communion fraternelle (fellowship) parce que nous sommes des croyants unis pour faire avancer l’éducation du Royaume. »",
+      "of": "09ed8c22",
+      "at": [
+        "hickory-grove-christian:parents.note.text"
+      ]
+    },
+    {
+      "t": "Contact : Cynthia Sampson, cynthiasampson@hgchristian.org.",
+      "of": "2bfea94f",
+      "at": [
+        "hickory-grove-christian:parents.note.muted"
+      ]
+    },
+    {
+      "t": "Douze questions à emporter pour la visite. Chacune porte sur un point que les pages publiques de l’école laissent sans réponse ou disent de deux façons.",
+      "of": "44bce139",
+      "at": [
+        "hickory-grove-christian:ask.headline"
+      ]
+    },
+    {
+      "t": "Que demande le formulaire de recommandation du pasteur ? Et si notre famille n’a pas de pasteur ?",
+      "of": "b242ce9b",
+      "at": [
+        "hickory-grove-christian:ask.questions[1]"
+      ]
+    },
+    {
+      "t": "Pouvons-nous lire la déclaration de foi présentée lors de l’entretien avec la famille ? Les familles la signent-elles ?",
+      "of": "e9e95fd8",
+      "at": [
+        "hickory-grove-christian:ask.questions[2]"
+      ]
+    },
+    {
+      "t": "À quelle fréquence la chapelle a-t-elle lieu ? Une page dit une fois par mois, et le calendrier 2026–27 en compte deux en mars.",
+      "of": "bce6454c",
+      "at": [
+        "hickory-grove-christian:ask.questions[4]"
+      ]
+    },
+    {
+      "t": "À quelle fréquence les groupes de discipulat du High School se réunissent-ils ? Une page dit plusieurs fois par mois, et une autre dit la plupart des jeudis.",
+      "of": "b8ed44ef",
+      "at": [
+        "hickory-grove-christian:ask.questions[5]"
+      ]
+    },
+    {
+      "t": "Tous les élèves de dernière année partent-ils en voyage missionnaire en République dominicaine, et ce voyage est-il compris dans les frais de scolarité ?",
+      "of": "895c399b",
+      "at": [
+        "hickory-grove-christian:ask.questions[6]"
+      ]
+    },
+    {
+      "t": "De combien de crédits de Bible un élève qui arrive en 10e, 11e ou 12e année a-t-il besoin ?",
+      "of": "a7b381c8",
+      "at": [
+        "hickory-grove-christian:ask.questions[7]"
+      ]
+    },
+    {
+      "t": "Y a-t-il des retraites, pour un niveau quel qu’il soit ?",
+      "of": "6423bdb4",
+      "at": [
+        "hickory-grove-christian:ask.questions[8]"
+      ]
+    },
+    {
+      "t": "Les heures de service sont-elles obligatoires ?",
+      "of": "65648d57",
+      "at": [
+        "hickory-grove-christian:ask.questions[9]"
+      ]
+    },
+    {
+      "t": "Les élèves du Elementary School et du Middle School signent-ils aussi l’Honor Code ?",
+      "of": "e43e6b9e",
+      "at": [
+        "hickory-grove-christian:ask.questions[10]"
+      ]
+    },
+    {
+      "t": "Pouvons-nous lire le Parent-Student Handbook avant d’inscrire notre enfant ?",
+      "of": "65b596cb",
+      "at": [
+        "hickory-grove-christian:ask.questions[11]"
       ]
     }
   ]

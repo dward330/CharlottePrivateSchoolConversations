@@ -171,21 +171,25 @@ Captured from **Charlotte Country Day**.
 
 ### Faith & Spiritual Life
 
-Captured from **Charlotte Christian**, the only school with the area (added 2026-11-26, plan
-`faithlife`; the links work once the branch is merged and published).
+Captured from **Hickory Grove Christian** (plan `hgfaithlife`, 2026-11-26), so the capture
+shows the `tenets` and `outcomes` Beliefs blocks. Two schools hold the area: Charlotte
+Christian (added 2026-11-26, plan `faithlife`) and Hickory Grove Christian. Charlotte
+Christian's statement-of-faith list and its Retreats card are not in this capture; they are
+in the archive copy `archive/2026-11 pre-hgfaithlife/`. The links work once the branch is
+merged and published.
 
 | Card (link name) | Kind | Held by | Captured from | Deep link |
 |---|---|--:|---|---|
-| `chapel-and-worship` | chapel-and-worship | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/chapel-and-worship |
-| `bible-and-faith-classes` | bible-and-faith-classes | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/bible-and-faith-classes |
-| `retreats` | retreats | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/retreats |
-| `small-groups-and-discipleship` | small-groups-and-discipleship | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/small-groups-and-discipleship |
-| `what-the-school-believes` | what-the-school-believes | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/what-the-school-believes |
-| `what-it-asks-of-families` | what-it-asks-of-families | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/what-it-asks-of-families |
-| `service-and-missions` | service-and-missions | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/service-and-missions |
-| `who-leads-spiritual-life` | who-leads-spiritual-life | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/who-leads-spiritual-life |
-| `faith-life-for-parents` | faith-life-for-parents | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/faith-life-for-parents |
-| `ask-the-school` | ask-the-school | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/ask-the-school |
+| `chapel-and-worship` | chapel-and-worship | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/chapel-and-worship |
+| `bible-and-faith-classes` | bible-and-faith-classes | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/bible-and-faith-classes |
+| `retreats` | retreats | 1 | Charlotte Christian (archive copy only) | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/retreats |
+| `small-groups-and-discipleship` | small-groups-and-discipleship | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/small-groups-and-discipleship |
+| `what-the-school-believes` | what-the-school-believes | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-the-school-believes |
+| `what-it-asks-of-families` | what-it-asks-of-families | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-it-asks-of-families |
+| `service-and-missions` | service-and-missions | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/service-and-missions |
+| `who-leads-spiritual-life` | who-leads-spiritual-life | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/who-leads-spiritual-life |
+| `faith-life-for-parents` | faith-life-for-parents | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/faith-life-for-parents |
+| `ask-the-school` | ask-the-school | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/ask-the-school |
 
 ### Student Clubs
 
@@ -386,7 +390,7 @@ names the commit the served build came from.
 
 ```
 # Home
-npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'Home page' '--sha' 'ff5ab214' '--interactive' 'the school cards and the language menu'
+npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'Home page' '--sha' 'a99df2f7' '--card-links' 'off' '--interactive' 'the school cards and the language menu'
 
 # Compare Schools
 npm run design:capture -- '--page' '/compare/?topic=college-support&schools=cannon%2Ccarmel-christian%2Ccharlotte-catholic%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Ccovenant-day%2Cdavidson-day%2Cgaston-day%2Chickory-grove-christian%2Cprovidence-day' '--name' 'Compare Schools' '--out' <out> '--refs' 'every high school, College Support (the default Compare topic)' '--sha' 'ff5ab214' '--interactive' 'the topic and school pickers, row tips and the leader tint'
@@ -455,8 +459,8 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Pr
 # Read Reviews Section (plan readreviews; the map iframe is captured as a labelled box)
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Read Reviews Section' '--out' <out> '--refs' 'Providence Day' '--sha' '7bec6bae' '--area' 'read-reviews'
 
-# Faith & Spiritual Life Section (plan faithlife; Charlotte Christian is the only school with the area)
-npm run design:capture -- '--page' '/school/charlotte-christian/' '--name' 'Faith & Spiritual Life Section' '--out' <out> '--refs' 'Charlotte Christian' '--sha' 'e0bd378b' '--area' 'faith-spiritual-life'
+# Faith & Spiritual Life Section (plan hgfaithlife; captured from Hickory Grove for the tenets and outcomes blocks)
+npm run design:capture -- '--page' '/school/hickory-grove-christian/' '--name' 'Faith & Spiritual Life Section' '--out' <out> '--refs' 'Hickory Grove Christian (tenets and outcomes); Charlotte Christian holds the statement-of-faith list' '--sha' 'ae07be00' '--area' 'faith-spiritual-life'
 
 # Financial Aid & Tuition
 npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
@@ -602,7 +606,7 @@ The same table is in the design project as `As Built - Index.md`.
 | Charlotte Prep Course Offerings, High School Placement Class Video, More Schools Row | spec records, untouched |
 | Canvas | empty, untouched |
 | Read Reviews Section | captured, replaced 2026-11-25 (plan `readreviews`; the planning mock is gone) |
-| Faith & Spiritual Life Section | captured, replaced 2026-11-26 (plan `faithlife`, English phase; the planning mock is gone) |
+| Faith & Spiritual Life Section | captured, replaced 2026-11-26 (plan `faithlife`, English phase; the planning mock is gone); re-captured from Hickory Grove 2026-11-26 (plan `hgfaithlife`) |
 
 All captured files: `main` at `ff5ab214`, captured 2026-11-20.
 
@@ -656,7 +660,21 @@ area. It was re-captured again from `e0bd378b` (42,867 bytes, verified byte for 
 the third review pass and the choice of a light-blue second accent (`#60a5fa`). Re-capture
 once more if Phase 2 or the English review changes the section.
 
-**Known drift, to close at the end of plan `faithlife` Phase 2:** *Home* was captured on
-2026-11-20, before both Read Reviews and Faith & Spiritual Life, so its research-area
-count for Charlotte Christian is two behind the built Home page (which shows 12) and one
-behind for every other school. Re-capture *Home* once Phase 2 lands.
+**Plan `hgfaithlife` (2026-11-26): two new Beliefs blocks, designed here first.** A
+Hickory Grove view of What the School Believes (the `tenets` list with a gold rule, the
+`outcomes` cells) was added to *Faith & Spiritual Life Section* after Charlotte Christian's
+Beliefs card and approved by the user. After the English build the file was copied to
+`archive/2026-11 pre-hgfaithlife/Faith & Spiritual Life Section (Charlotte Christian +
+Hickory Grove design).dc.html`, then re-captured from Hickory Grove at branch commit
+`ae07be00` (37,559 bytes, 9 cards, verified byte for byte). `app-css/app-4.css` was
+re-written (36,429 → 36,652 bytes, the three new `fl-` rules; `app-1.css` to `app-3.css`
+were byte-identical and not re-written). Charlotte Christian's statement-of-faith list and
+Retreats card now live only in the archive copy.
+
+**Drift closed 2026-11-27 (plan `hgfaithlife` Phase 2):** *Home* had been captured on
+2026-11-20, before Read Reviews and Faith & Spiritual Life, so its research-area counts
+were behind the app. It was re-captured from branch commit `a99df2f7` (18,732 bytes,
+verified byte for byte): 14 research areas, 574 source documents, and 12 areas each for
+Charlotte Christian and Hickory Grove. `app-css/` was unchanged and not re-written. The
+Home capture needs `--card-links off`, since the page has no cards; the command below
+now carries it.

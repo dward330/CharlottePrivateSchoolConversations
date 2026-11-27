@@ -7891,6 +7891,16 @@ a.cs-college-name:focus-visible {
 .fl-h { margin: 18px 0 8px; font-weight: 600; }
 .fl-articles { margin: 10px 0 0; padding-inline-start: 22px; display: grid; gap: 8px; }
 .fl-articles li { line-height: 1.5; min-width: 0; }
+/* Beliefs a school lists in its own words: unnumbered, with a gold rule, so they
+   never read as the numbered statement-of-faith list (plan hgfaithlife). */
+.fl-tenets { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
+.fl-tenets li {
+  line-height: 1.5;
+  min-width: 0;
+  padding-inline-start: 12px;
+  border-inline-start: 3px solid var(--ls-300);
+}
+.fl-outcome-text { line-height: 1.45; }
 
 /* ---- Read Reviews (plan `readreviews`, designed in Claude Design as
    "Read Reviews Section.dc.html") ---- */

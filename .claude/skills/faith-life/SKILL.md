@@ -132,7 +132,7 @@ Map the verified facts onto the ten cards. Print this table, **always with count
 | Bible & Faith Classes | grades or courses with a published topic: n; required credits: stated or not | … |
 | Retreats | retreats or faith days by division: n | … |
 | Small Groups & Discipleship | named groups with who, when or how: n | … |
-| What the School Believes | mission: y/n; values: n; belief-statement articles: n | … |
+| What the School Believes | mission: y/n; values: n; belief-statement articles: n; listed beliefs (`tenets`): n; hoped-for outcomes: n | … |
 | What It Asks of Families | rows published: n; not stated: m | … |
 | Service & Missions | named projects or partners: n; an hours rule: stated or not | … |
 | Who Leads Spiritual Life | named people with a published role: n; with a directory email: n | … |
@@ -150,7 +150,7 @@ hold:
 2. at least **two** of Chapel & Worship, Bible & Faith Classes and Retreats are verified
    with a division or grade and a day, time, course or place;
 3. the school can fill at least **60% of the thinnest shipped school's card count**,
-   rounded up (6 of 10 while Charlotte Christian is the only one);
+   rounded up (6 today: Hickory Grove Christian, the thinnest shipped school, holds 9 cards);
 4. at least one **named person with a published faith role**.
 
 **NO-GO** otherwise. Say which test failed, with counts. **Before a NO-GO, offer one
