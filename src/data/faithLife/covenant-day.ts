@@ -207,7 +207,7 @@ export const covenantDay: FaithLifeProgram = {
       'Where students pray and talk about faith in smaller groups: daily homeroom devotions, weekly high school advisory groups and student-led Bible studies.',
     entries: [
       {
-        chip: { word: 'all' },
+        chip: { band: '6–8' },
         title: 'Homeroom devotions',
         text: '“Each day during homeroom, teachers lead a devotional for students.” Students share prayer requests and pray for one another.',
       },
@@ -227,23 +227,17 @@ export const covenantDay: FaithLifeProgram = {
     verify: [
       'Student chaplains (a high school student chaplain team that writes advisory lessons), the HS Chaplain’s Seminars and two adult-led middle school Bible studies are published only in the weekly emails, so they are not printed (user decision 2026-11-27). Student chaplains are on Ask the School.',
       'The 2026-27 spiritual theme is not on a public page.',
-      'The discipleship page does not say which divisions have homeroom devotions; /academics/middle-school confirms "small-group devotions in homeroom".',
+      'The discipleship page does not say which divisions have homeroom devotions; /academics/middle-school confirms "small-group devotions in homeroom", so the chip is 6–8 (review 2026-11-27).',
+      'Student Bible studies: the discipleship page describes them for the whole school and names no division, so the chip stays ALL.',
       'No house system and no named faith club (FCA, Young Life) is published.',
     ],
   },
 
   beliefs: {
     headline:
-      'The school’s mission, the five parts of its vision, its belief summary and the six marks it hopes to see in every graduate, in the school’s own words.',
+      'The school’s mission, its belief summary and the six marks it hopes to see in every graduate, in the school’s own words.',
     mission:
       '“The mission of Covenant Day School is to assist the Christian family by providing an education marked by a biblical worldview and academic excellence so that students are equipped to be salt and light for God’s glory.”',
-    values: [
-      { name: 'Excellence', verse: 'Phil 4:8' },
-      { name: 'Mentorship', verse: 'Proverbs 22:6' },
-      { name: 'Partnership', verse: 'Ephesians 2:11-22' },
-      { name: 'Discipleship', verse: 'Romans 12:2' },
-      { name: 'Service', verse: 'Galatians 5:13' },
-    ],
     outcomes: [
       { name: 'Follow Christ', text: 'Our graduates recognize that their daily spiritual and intellectual lives are inseparable and complementary, with Christ at the center.' },
       { name: 'Serve Others', text: 'Our graduates demonstrate a love for God, the church as the body of Christ, and all people by affirming others as God’s image bearers.' },
@@ -273,7 +267,7 @@ export const covenantDay: FaithLifeProgram = {
       'The nine articles are the "brief summary of what we believe" on /about-us/who-we-are, in page order. The same tab carries further text after them; it is not printed, by the user’s decision of 2026-11-27.',
       'The Westminster Confession is not hosted by the school: /about-us/careers links it to a denomination page. The card names it without a link.',
       'Also on /about-us/who-we-are and not on the card: three core values (the first is quoted in the lead), the four-commitment "Christian Community at Covenant Day" statement, and the school verse "We are taking every thought captive to the obedience of Christ." (2 Corinthians 10:5b).',
-      'The vision pillars are printed with their verses as the school writes them ("Phil 4:8").',
+      'The five vision pillars (Excellence, Mentorship, Partnership, Discipleship, Service, each with a verse) are on /about-us/who-we-are and stay in the research file. The values block renders under the heading "Core values", and the school’s core values are a different three, so the pillars are left off (review 2026-11-27).',
     ],
   },
 
@@ -326,21 +320,21 @@ export const covenantDay: FaithLifeProgram = {
     headline:
       'Service grows with age, from campus jobs in lower school to a high school team that builds homes from shipping containers. Mission trips have gone to Spain, Haiti, Belize and South Dakota.',
     entries: [
-      { chip: { band: 'JK–5' }, title: 'Lower school service', text: 'Projects include boxes for Operation Christmas Child, visits to a nearby assisted living home and support for the Matthews HELP Center.' },
+      { chip: { band: 'JK–5' }, title: 'Lower school service', text: 'On campus, students help with flag and safety patrol and collect recyclables. Projects also include boxes for Operation Christmas Child, visits to a nearby assisted living home and support for the Matthews HELP Center.' },
       { chip: { band: '4' }, title: 'Goodness Gorillas', text: 'Fourth graders “serve at nearly twenty different sites”. It ends their Bible unit on the fruit of the Spirit.' },
       { chip: { band: 'JK–5' }, title: 'Missions Week', text: 'Students “hear from missionaries and learn about cultures from around the world.”', muted: 'It falls in February on the 2026–27 calendar.' },
-      { chip: { band: '6–8' }, title: 'Doulos Days', text: 'Each middle school grade has a day of service with local ministries, nonprofits and neighbors. The schoolwide Penny Wars contest helps pay for the projects.' },
+      { chip: { band: '6–8' }, title: 'Doulos Days', text: 'Twice a year, middle school students spend a day serving local ministries, nonprofits and neighbors, with service days for each grade. The schoolwide Penny Wars contest helps pay for the projects.' },
       { chip: { band: '9–12' }, title: 'ContainIt', text: 'Students turn used shipping containers into homes for teens on Pine Ridge Reservation in South Dakota. “Their vision is to provide housing for more than 30 teens.”' },
       { chip: { band: '9–12' }, title: 'High school service', text: 'Beta Club projects, weekly lunchtime tutoring at local schools, and service with partners such as Matthews Habitat for Humanity, Alexander Children’s Home and Love INC.' },
       { chip: { word: 'all' }, title: 'Mission trips', text: 'Students “have been on school-sponsored mission trips to Spain, Haiti, Belize, and Pine Ridge Reservation in South Dakota.”', muted: 'The school does not list trip years or a 2026–27 trip.' },
     ],
     note: {
-      strong: 'No hours count.',
+      strong: 'No hours published.',
       text: 'The school publishes no service-hour requirement. Its plan follows the Bible’s order of being “Christ’s witnesses to the world beginning in Jerusalem, then to Judea and Samaria, and then to the ends of the earth.”',
     },
     sources: [SERVICE, DISCIPLESHIP, LS, MS, CALENDAR],
     verify: [
-      'Doulos Day: "Twice a year" on /campus-life/service; "dedicated service days for each middle school grade" on the MS milestone tile. The card prints the tile; the count is on Ask the School.',
+      'Doulos Day: "Twice a year, our middle school students head into the surrounding community for Doulos Day, a day of service." (/campus-life/service); "dedicated service days for each middle school grade" on the MS milestone tile, which gives no count. The card prints both, as the Student Clubs card says twice a year.',
       'No service-hour number appears on any page, document or 2026-27 email. Second place: the Student Clubs Service card subhead says "no service-hour requirement exists", a stronger claim than the evidence; see the plan.',
       'Fall 2026 Doulos Day partners and the "Coin Clash" rename of Penny Wars are in emails only; not printed.',
     ],
@@ -402,7 +396,6 @@ export const covenantDay: FaithLifeProgram = {
       'Which Bible translation do classes use?',
       'Must every middle and high school student go to Windy Gap, and who leads it?',
       'Is the 5th-grade spring trip to Fort Caswell or to Kanuga? The school’s pages name both.',
-      'How many Doulos Days does each middle school grade have in a year?',
       'Are any mission trips planned for 2026–27, and for which grades?',
       'Do high school students serve as student chaplains?',
       'When and where does Moms in Prayer meet?',

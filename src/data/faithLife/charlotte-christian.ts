@@ -368,7 +368,7 @@ export const charlotteChristian: FaithLifeProgram = {
     ],
     sources: [BELIEVE, PROFILE, FAQS, CAROLINA_POINT],
     verify: [
-      'The 2014 bylaws linked from /about/leadership carry a different seven-point doctrinal statement and a staff-and-board lifestyle statement. By the plan\'s decision they stay in the research file only.',
+      'The 2014 bylaws linked from /about/leadership carry a different seven-point doctrinal statement and a staff-and-board lifestyle statement. By the plan\'s decision they are noted in the research file only, and the lifestyle statement\'s text is not recorded.',
       'The Appearance Code lists the five core values in a different order. Same five values.',
       'No public page gives a position on the sanctity of life, or says when the statement of faith was adopted.',
       'The statement of faith on /about/what-we-believe has ten articles; the card prints nine. One is left out by the user’s decision of 2026-11-27: the site is rated E for everyone.',

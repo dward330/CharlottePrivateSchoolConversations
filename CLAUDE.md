@@ -327,7 +327,9 @@ components. Later schools are separate plans.
 
 Six rules travel with the area. **Only the school's own public pages are evidence**: no
 third-party page and no church site. **A statement of faith is quoted whole and verbatim**,
-with no summary and no comment. **An unpublished requirement is a dashed NOT STATED chip**,
+with no summary and no comment, except that the site is rated E for everyone (user,
+2026-11-27): a school's statement on human sexuality is never recorded or printed, even
+inside a statement otherwise quoted whole. **An unpublished requirement is a dashed NOT STATED chip**,
 never a blank and never "not required". **No student is named, and no personal staff
 detail is carried** (a directory can print a personal email and a staff member's children).
 **No trip prices or exact travel dates.** **A dated or third-hand document is a lead, never

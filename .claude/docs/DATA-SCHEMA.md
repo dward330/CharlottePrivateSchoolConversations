@@ -1142,6 +1142,9 @@ lacking it.
 
 **Belief statements are verbatim and whole.** `beliefs.articles` holds the statement
 of faith one article per string, char-for-char, with no summary and no comment.
+One exception: the site is rated E for everyone (user, 2026-11-27), so a school's
+statement on human sexuality is never recorded or printed, even inside a statement
+otherwise quoted whole.
 `beliefs.tenets` is a list of beliefs the school gives in its own words and is never
 a statement of faith: one whole verbatim item per string, rendered unnumbered.
 `beliefs.outcomes` holds the outcomes a school hopes for, each a name and its line.

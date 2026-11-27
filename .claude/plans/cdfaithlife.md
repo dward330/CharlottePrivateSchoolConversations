@@ -207,7 +207,7 @@ Lane, Matthews, NC 28105.
 3b. **E-rule cleanup of the two shipped faith sections** (decision 5). Do this before the
    ingest, which regenerates the notes and chunks from the research files.
    1. **`src/data/faithLife/charlotte-christian.ts`:**
-      - Delete the `beliefs.articles` entry that begins `'“We believe that marriage is`.
+      - Delete the eighth `beliefs.articles` entry (the one this decision excludes).
         Nine articles remain, in page order.
       - Change `beliefs.headline` from `'The school’s mission, its five core values and
         its ten-point statement of faith, in the school’s own words.'` to `'The school’s
@@ -220,17 +220,15 @@ Lane, Matthews, NC 28105.
         more.
       - Grep the file for any other count of the articles ("ten", "10") and fix it.
    2. **`src/data/faithLife/hickory-grove-christian.ts`:** in `beliefs.verify`, replace
-      `is a marriage, gender and sexuality statement linked from the employment application.
-      It stays in the research file.` with `is linked from the employment application. Its
+      the sentence that named the employment-linked document's topic with `is linked from the employment application. Its
       text is not recorded (user decision 2026-11-27: the site is rated E for everyone).`
    3. **`source-material/faith-spiritual-life/charlotte-christian/Charlotte Christian - Faith and Spiritual Life - Official Site Research.md`:**
       - In the numbered statement of faith, replace item 8's text with
         `(not recorded: user decision 2026-11-27, the site is rated E for everyone)`. Keep
         the number, so the other articles keep theirs.
-      - Delete the bullet that begins `- Marriage and sexuality:`.
-      - Delete the "Not found" bullet that begins `- A published statement on gender
-        identity`.
-      - In Conflicts item 1, delete the sentence that begins `The marr`, and any other
+      - Delete the Findings bullet on this topic (the one that follows the numbered statement).
+      - Delete the "Not found" bullet on this topic.
+      - In Conflicts item 1, delete the sentence on the excluded article, and any other
         sentence there that describes the bylaws' lifestyle statement on this topic.
       - Fix any count in `## Method` that says ten articles are carried.
       - Do the same in the Second Pass file if the step-3b.6 grep finds anything.
@@ -489,7 +487,7 @@ For the mechanism, see `.claude/docs/prose-translation-architecture.md` and
       `/school/covenant-day/`, every card open, at 1280 light, 1280 dark and 390:
       - [ ] All ten cards appear in registry order, including Retreats.
       - [ ] Four tiles: `JK–12`, `3.5`, `JK–11`, `$400`.
-      - [ ] Families shows **9 PUBLISHED and 4 NOT STATED** in three groups, with the legend.
+      - [ ] Families shows **8 PUBLISHED and 4 NOT STATED** (corrected from 9 at the review: 4 + 2 + 2) in three groups, with the legend.
       - [ ] Beliefs shows the mission, five pillar values with verses, six outcomes, the
             note, and a numbered list of **nine** articles.
       - [ ] Ten people, all with mailto links.
@@ -981,7 +979,7 @@ export const covenantDay = {
 All 18 items checked against the draft at planning:
 
 - **1–3 (counts):** "five parts of its vision" = 5 values; "six marks" = 6 outcomes; no
-  count in a shared heading; the Families tally is computed by the component (9 published,
+  count in a shared heading; the Families tally is computed by the component (8 published,
   4 not stated).
 - **4–6 (quotes):** every mid-sentence quote closes before our period. No school capital
   or punctuation is changed. The church-membership sentence a family must affirm is quoted
