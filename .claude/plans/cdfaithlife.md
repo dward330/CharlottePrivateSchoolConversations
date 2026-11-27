@@ -1101,6 +1101,25 @@ for char, and no excluded text remained anywhere.
 
 **Fixed, not re-reviewed (pass 3):** all three above.
 
+### Email links (user requests, 2026-11-27, outside the plan's original scope)
+
+Two UX changes, each designed in Claude Design first, built, then re-captured and verified
+byte for byte (`app-css/app-4.css` too):
+
+- **Staff emails** (`.ls-person-email`, Learning Support and Faith & Spiritual Life) showed
+  no sign of being links. They now carry a `↗` at rest and an underline on hover, the
+  house link model. The arrow first used `--brand`, which vanished on the dark theme, so
+  it takes the link's own color.
+- **Admissions contact emails** were plain text. `WithEmailLinks` in
+  `AdmissionsProgram.tsx` makes each email in the office line and each person's line a
+  `mailto:` link (subject "<School> Inquiry"), styled `.email-link` the same way. It works
+  on translated text too, since the overlays keep the address verbatim.
+- **The arrow never wraps alone** (user spotted it on Cass Shortt's line): it is an inline
+  `::after` glued by a no-break space, and the hover underline sits on the address's
+  `<bdi>` only. Checked at 320–1280px in real Chrome.
+- Not changed: the printable Admissions checklist's contact panel, and College Support's
+  counselor emails (already underlined, no arrow).
+
 **Phase 2 carry-overs:** translate the changed chrome key `faith.statementOfFaith` in all
 nine other `src/locales/*.json` catalogs (each still holds the old heading's translation);
 add the new design file to `As Built - Index.md` with the Home re-capture; correct `NOTES.md`'s "ten articles" to nine; the splice should drop

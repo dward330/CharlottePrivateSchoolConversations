@@ -108,7 +108,9 @@ on 2026-11-20.
 
 ### Admissions
 
-Captured from **Providence Day**.
+Captured from **Providence Day**. A second file, **Admissions Section - Covenant Day**
+(2026-11-27, plan `cdfaithlife`), shows the contact lines with their email links (arrow at
+rest, underline on hover; user request), which Providence Day's contacts do not have.
 
 | Card (link name) | Kind | Held by | Captured from | Deep link |
 |---|---|--:|---|---|
@@ -466,7 +468,10 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Read Revi
 npm run design:capture -- '--page' '/school/hickory-grove-christian/' '--name' 'Faith & Spiritual Life Section' '--out' <out> '--refs' 'Hickory Grove Christian (tenets and outcomes); Charlotte Christian holds the statement-of-faith list' '--sha' 'ae07be00' '--area' 'faith-spiritual-life'
 
 # Faith & Spiritual Life Section - Covenant Day (plan cdfaithlife; the statement-of-faith list, its heading, and Retreats)
-npm run design:capture -- '--page' '/school/covenant-day/' '--name' 'Faith & Spiritual Life Section - Covenant Day' '--out' <out> '--refs' 'Covenant Day (the statement-of-faith list, Retreats, outcomes)' '--sha' 'aad0553a' '--area' 'faith-spiritual-life'
+npm run design:capture -- '--page' '/school/covenant-day/' '--name' 'Faith & Spiritual Life Section - Covenant Day' '--out' <out> '--refs' 'Covenant Day (the statement-of-faith list, Retreats, outcomes)' '--sha' '866dc3c4' '--area' 'faith-spiritual-life'
+
+# Admissions Section - Covenant Day (plan cdfaithlife; contact lines with email links)
+npm run design:capture -- '--page' '/school/covenant-day/' '--name' 'Admissions Section - Covenant Day' '--out' <out> '--refs' 'Covenant Day (contact lines with email links)' '--sha' '9a256fde' '--area' 'admissions'
 
 # Financial Aid & Tuition
 npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
@@ -613,7 +618,9 @@ The same table is in the design project as `As Built - Index.md`.
 | Canvas | empty, untouched |
 | Read Reviews Section | captured, replaced 2026-11-25 (plan `readreviews`; the planning mock is gone) |
 | Faith & Spiritual Life Section | captured, replaced 2026-11-26 (plan `faithlife`, English phase; the planning mock is gone); re-captured from Hickory Grove 2026-11-26 (plan `hgfaithlife`) |
-| Faith & Spiritual Life Section - Covenant Day | new 2026-11-27 (plan `cdfaithlife`): designed first with the reworded belief-list heading, then re-captured from the built app at `aad0553a` and verified byte for byte |
+| Faith & Spiritual Life Section - Covenant Day | new 2026-11-27 (plan `cdfaithlife`): designed first with the reworded belief-list heading, then re-captured from the built app at `aad0553a` and verified byte for byte; designed again for the staff email arrow, re-captured at `866dc3c4` |
+| Admissions Section - Covenant Day | new 2026-11-27 (plan `cdfaithlife`): designed first for the contact email links, re-captured at `9a256fde`, verified byte for byte |
+| `app-css/app-4.css` | re-written 2026-11-27 (36,652 → 37,172 bytes) for the email-link rules, verified byte for byte; chunks 1–3 unchanged |
 
 All captured files: `main` at `ff5ab214`, captured 2026-11-20.
 
