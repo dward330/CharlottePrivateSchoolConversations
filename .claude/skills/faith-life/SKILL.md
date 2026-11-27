@@ -39,10 +39,14 @@ The rule is *fill every card the school publishes enough for*, never "match its 
 - **This skill writes no app code.** Its outputs are two research files under
   `source-material/faith-spiritual-life/<slug>/` and a `/plan` handoff.
 - **Only the school's own public pages are evidence.** The school's site, documents that
-  site hosts or links as its own, its own public email archive and its own calendar. **No
-  third-party page and no church, parish, diocese or denomination site**, unless the
-  school's site links that exact document as its own. Such a page is a lead to check
-  against the school's pages.
+  site hosts or links as its own, and its own calendar. **No third-party page and no
+  church, parish, diocese or denomination site**, unless the school's site links that exact
+  document as its own. Such a page is a lead to check against the school's pages.
+- **Cards cite only pages a visitor can reach from the site's own navigation** (user,
+  2026-11-27, first applied to Covenant Day). A public email or communications archive, an
+  unlinked page or a document reached only from one is researched as a **lead**: it can
+  point to a menu page that states the fact, and it can raise a question for Ask the
+  School, but a card never prints a fact from it.
 - **Faith-based schools only.** The school's own site must describe it as a religious
   school. Never add this area to a school that does not.
 - **A belief statement is copied whole and verbatim.** No summary, no softening, no
@@ -161,7 +165,8 @@ hold:
 
 **NO-GO** otherwise. Say which test failed, with counts. **Before a NO-GO, offer one
 deeper pass**: the course catalog, the school profile, the handbook if it is public, the
-calendar month by month, the news board end to end, a public email archive. A deep pass
+calendar month by month, the news board end to end, and a public email archive as a
+lead to menu pages (never a card source). A deep pass
 that confirms the gaps is a useful result. Never soften a no-go.
 
 ## Step 6 — ask only what is the user's to decide (one round)

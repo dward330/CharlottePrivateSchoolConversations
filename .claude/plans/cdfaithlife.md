@@ -350,7 +350,11 @@ Scope:
 - The **prose overlay** for `faith-spiritual-life` in every `PROSE_TRANSLATED` locale. Read
   the list from `src/lib/i18n.ts`; today it is `es bn ht te fr fa it hi ar`.
 - **Plus** the one re-stamped Student Clubs unit.
-- No chrome keys.
+- **Plus one chrome key**, `faith.statementOfFaith`, reworded in English at review
+  (user-approved 2026-11-27): "Belief statement, in the school’s own words". Each of the nine
+  other `src/locales/*.json` catalogs still holds the old heading's translation, and
+  `check:chrome` only checks the key exists, so no gate catches the stale value. Translate it
+  from the new English in all nine (step 3b below).
 
 For the mechanism, see `.claude/docs/prose-translation-architecture.md` and
 `src/data/overlays/NOTES.md`.
@@ -400,6 +404,10 @@ For the mechanism, see `.claude/docs/prose-translation-architecture.md` and
      publishes no service-hour requirement" (`scripts/i18n_restamp.mjs` carries `t` by
      path; check its usage first).
    - Rebuild with `node scripts/i18n_build_overlay.mjs --topic student-clubs --lang <code>`.
+3b. **Translate the chrome key** `faith.statementOfFaith` in `es bn ht te fr fa it hi ar`
+   from the new English ("Belief statement, in the school’s own words"), reusing each
+   locale's existing word for "belief" from the `faith.*` keys. Keep it short: it is a
+   small caps heading.
 4. **Build the faith overlays.** Run
    `node scripts/i18n_build_overlay.mjs --topic faith-spiritual-life --lang <code>` for each
    locale, then check by stamp as NOTES.md describes. `check_work_integrity` cannot
@@ -468,6 +476,10 @@ For the mechanism, see `.claude/docs/prose-translation-architecture.md` and
 | `.claude/plans/INDEX.md`, this plan | status and notes |
 | `.claude/docs/faith-spiritual-life/*.md`, `src/content/faith-spiritual-life/*.json` | regenerated for all three schools |
 | Claude Design: `Home.dc.html`, `As Built - Index.md` | re-captured in Phase 2 |
+| `src/locales/en.json` | Phase 1 review follow-up (user-approved UX change): `faith.statementOfFaith` reworded |
+| `src/locales/*.json` (9 others) | Phase 2: `faith.statementOfFaith` translated |
+| Claude Design: `Faith & Spiritual Life Section - Covenant Day.dc.html` | new: designed first, re-captured at `aad0553a` |
+| `CLAUDE.md`, `scripts/gen_data_schema.mjs` | review fix: E-for-everyone exception |
 
 ## Verification
 
@@ -530,6 +542,9 @@ For the mechanism, see `.claude/docs/prose-translation-architecture.md` and
       All prose is translated, ranges and quote endings are not reversed in RTL, and
       overflow is 0. Run `npm run audit:daterender` and `npm run audit:moneyrender` on the
       changed cards (with `npm run build && npx vite preview`).
+- [ ] `faith.statementOfFaith` in all nine catalogs translates the new English (diff each
+      against `main`: every one changed); browser shows it above the article list in `es`
+      and `fa`.
 - [ ] `design:verify` passes for the re-captured *Home*.
 
 ## Risks
@@ -1069,6 +1084,22 @@ Section - Covenant Day* (Covenant Day's capture, since the older Charlotte Chris
 holds the removed article), then built (`aad0553a`), then re-captured from the built app
 and verified byte for byte by `design:verify`. A third review pass was run at the user's
 request (below).
+
+**Pass 3** (full review of the whole branch at `f53c39bc`, run at the user's request after
+the approved heading change; the skill's two-pass cap gives way to the user's ask): 3 found,
+3 confirmed, 0 rejected, 3 fixed, 0 declined. The heading matched its Claude Design file char
+for char, and no excluded text remained anywhere.
+
+- #1 should-fix, the README's "cite only menu-reachable pages" line contradicted the skill
+  and brief, which listed a public email archive as evidence: fixed. The user made it a rule
+  for every school: an archive or unlinked page is a lead, never a card source (SKILL.md,
+  research-brief.md, SKILLS.md, README).
+- #2 should-fix, Phase 2 said "No chrome keys" although `faith.statementOfFaith` changed:
+  fixed (scope line, step 3b, a verification line, Files touched, the INDEX row).
+- #3 minor, the Mission trips `ALL` chip with no published grade levels: fixed as a dev-only
+  verify note. The chip stays, since every entry needs one and no band is supported.
+
+**Fixed, not re-reviewed (pass 3):** all three above.
 
 **Phase 2 carry-overs:** translate the changed chrome key `faith.statementOfFaith` in all
 nine other `src/locales/*.json` catalogs (each still holds the old heading's translation);

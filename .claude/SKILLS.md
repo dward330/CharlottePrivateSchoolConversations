@@ -493,7 +493,7 @@ episode to `podcastEpisodes.ts` is a separate PR.
 **Research a faith-based school's Faith & Spiritual Life from its own website, decide
 whether it is enough for a healthy section, and hand a GO to `/plan`.**
 
-`.claude/skills/faith-life/SKILL.md` · added 2026-11-26 · updated 2026-11-27 (the E-for-everyone rule: never records or prints a school's statement on human sexuality, plan `cdfaithlife`; earlier, 2026-11-26: Beliefs scoring counts the new `tenets` and `outcomes` blocks, plan `hgfaithlife`) · supporting files:
+`.claude/skills/faith-life/SKILL.md` · added 2026-11-26 · updated 2026-11-27 (the E-for-everyone rule: never records or prints a school's statement on human sexuality; cards cite only menu-reachable pages, an email archive is a lead; plan `cdfaithlife`; earlier, 2026-11-26: Beliefs scoring counts the new `tenets` and `outcomes` blocks, plan `hgfaithlife`) · supporting files:
 `research-brief.md` (the two research passes and their record format),
 `review-lessons.md` (what the first school's reviews caught)
 
@@ -515,7 +515,8 @@ the skill fetches the school's pages itself, in two passes.
 
 > **🔒 Only the school's own public pages are evidence.** No third-party page, and no
 > church, parish or diocese site unless the school's site links that exact document as
-> its own.
+> its own. Cards cite only pages reachable from the site's own navigation: an email
+> archive or unlinked page is a lead, never a card source (user, 2026-11-27).
 
 > **📜 A belief statement is copied whole and verbatim.** No summary, no softening, no
 > comment.

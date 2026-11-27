@@ -336,6 +336,7 @@ export const covenantDay: FaithLifeProgram = {
     verify: [
       'Doulos Day: "Twice a year, our middle school students head into the surrounding community for Doulos Day, a day of service." (/campus-life/service); "dedicated service days for each middle school grade" on the MS milestone tile, which gives no count. The card prints both, as the Student Clubs card says twice a year. The fall 2026 Middle School email (excluded from cards) describes separate 7th-grade and 8th-grade service outings, so how the days fall per grade is not settled.',
       'No service-hour number appears on any page, document or 2026-27 email. Second place: the Student Clubs Service card subhead says "no service-hour requirement exists", a stronger claim than the evidence; see the plan.',
+      'Mission trips: no page gives grade levels or years for the named trips, so the chip stays ALL (a chip is required and no band is supported). Which grades go is on Ask the School.',
       'Fall 2026 Doulos Day partners and the "Coin Clash" rename of Penny Wars are in emails only; not printed.',
     ],
   },
