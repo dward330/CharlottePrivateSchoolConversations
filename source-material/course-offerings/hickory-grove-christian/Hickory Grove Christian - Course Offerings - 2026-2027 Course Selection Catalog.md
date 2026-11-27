@@ -1212,3 +1212,21 @@ Every `Course Title:` value in the text layer (117 distinct) and the opening of 
 `Course Description:` (181 occurrences; the extra four over 177 are cross-listed entries
 the regex counts twice) appears in the transcription above. **The catalog is unchanged; the
 app's Upper School division is current.** Only the citation URL was updated.
+
+## Dual enrollment list (page 4), added 2026-11-27 (branch `fix/hgdualenroll`)
+
+The catalog's page 4 names the Bible courses taught on campus for dual credit:
+
+> "All Dual Enrollment courses are aligned with specific student learning objectives
+> established by Judson College, which is the undergraduate college program of
+> Southeastern Baptist Theological Seminary (SEBTS)."
+> Courses: "Honors Old Testament, Honors New Testament, Honors Systematic Theology, Honors
+> Introduction to Philosophy, Honors Introduction to Ethics."
+
+Source: https://hgchristian.org/course-selection-guide (HS catalog p. 4), read live on
+2026-11-26 for plan `hgfaithlife` and recorded in
+`source-material/faith-spiritual-life/hickory-grove-christian/Hickory Grove Christian - Faith and Spiritual Life - Official Site Research.md`.
+The course pages for Honors Introduction to Philosophy and Honors Introduction to Ethics
+(above) do not repeat it, which is why the Course Offerings card first marked only three of
+the five. Both now carry "offered for dual enrollment through Judson College", in the same
+words as the other three.

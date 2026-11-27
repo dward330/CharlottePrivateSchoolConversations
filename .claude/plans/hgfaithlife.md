@@ -825,6 +825,9 @@ asOf: `November 26, 2026`
   to Philosophy and Honors Introduction to Ethics). The gap is in Course Offerings, existed
   before this plan, and is out of its scope. It belongs to the next consistency or Course
   Offerings pass.
+  **Resolved 2026-11-27** on branch `fix/hgdualenroll`: Honors Introduction to Philosophy and
+  Honors Introduction to Ethics now say "offered for dual enrollment through Judson College",
+  in all ten languages.
 - **Ask question 8 widened at the review** from "11th or 12th grade" to "10th, 11th or
   12th grade", to match the Classes card's verify note ("No Bible rule for a student who
   joins in 10th–12th grade is published"). Still twelve questions.
