@@ -523,6 +523,8 @@ Run in a fresh window on the developer's go-ahead ("The English page is approved
   `i18n:leaks` shows one hit in the area (es `Israel`, a keep).
 - **Browser** (headless Chrome, every card open): es/fa/hi/ar at 1280 and fa/ar at 390 —
   10 cards in order, 10 articles, 6 email links, no English prose, 0 reversed ranges,
-  0 overflow. `audit:mobile` full sweep: no broken card, no overflow.
+  0 overflow. Full sweeps: `audit:mobile` no broken card and no overflow; `audit:daterender`
+  no English-form date in any of the nine locales; `audit:moneyrender` no unlocalized `$`
+  in es/fr.
 - **Not reviewed by a native speaker.** The soft-spot list in `NOTES.md` is written for
   that pass.
