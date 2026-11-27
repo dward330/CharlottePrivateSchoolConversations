@@ -24,7 +24,7 @@
  */
 
 export type PodcastEpisode = {
-  /** Episode number in the show, 1–47. */
+  /** Episode number in the show, 1–48. */
   id: number
   /**
    * The condensed form, shown in the popover's episode list. The published
@@ -48,7 +48,7 @@ export const SHOW_APPLE_URL =
   'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555'
 
 /**
- * All 32 Season 1 episodes plus the Season 2 episodes (33–47), in id order.
+ * All 32 Season 1 episodes plus the Season 2 episodes (33–48), in id order.
  *
  * The mapping comes from each episode's own title and description in the show's
  * episode guide — every one names the schools it covers explicitly, so nothing
@@ -704,6 +704,22 @@ export const EPISODES: PodcastEpisode[] = [
     appleUrl:
       'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000802309695',
     schools: ['charlotte-prep'],
+    researchArea: 'high-school-placement',
+  },
+  {
+    id: 48,
+    // Trinity Episcopal's High School Placement episode, the second of the pair
+    // (user, 2026-11-15). Take 7 of the v8 prompt: the K-8 case, the two
+    // counselors, the alumni panel's advice, the Class of 2026 and the list
+    // since 2004 with the national boarding ranks (#501).
+    title: 'Trinity Episcopal: High School Placement',
+    // Published: "Trinity Episcopal School - High School Placement - Nine Years to Choose, and Where Graduates Go"
+    fullTitle:
+      'Trinity Episcopal School - High School Placement - Nine Years to Choose, and Where Graduates Go',
+    spotifyUrl: 'https://open.spotify.com/episode/7wg5WkRVVllcs3EiuSiKdx',
+    appleUrl:
+      'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000804236106',
+    schools: ['trinity-episcopal'],
     researchArea: 'high-school-placement',
   },
 ]
