@@ -3,7 +3,8 @@
 One file per school, `<slug>.ts`, exporting a `FaithLifeProgram` (types and the card
 registry are in [`../faithLife.ts`](../faithLife.ts)). Charlotte Christian School was the
 first school (2026-11-26, plan `faithlife`). Hickory Grove Christian School is the
-second (2026-11-26, plan `hgfaithlife`). The area is for faith-based schools only. It
+second (2026-11-26, plan `hgfaithlife`), and Covenant Day School the third (2026-11-27,
+plan `cdfaithlife`). The area is for faith-based schools only. It
 is off Compare (`COMPARE_DEFERRED_TOPICS`) and out of the `/add-school` area floor
 (`FLOOR_EXCLUDED_AREAS`).
 
@@ -27,7 +28,12 @@ never shipped empty.
   site. Every card's `sources` lists the specific pages, never a bare homepage.
 - **Belief statements are verbatim and whole.** `beliefs.articles` holds the statement of
   faith one article per string, char-for-char, in page order, with no summary and no
-  comment. Nothing is softened or left out.
+  comment. Nothing is softened or left out, with one exception: the site is rated E for
+  everyone (user, 2026-11-27), so a school's statement on human sexuality is never
+  recorded or printed, even inside a statement otherwise quoted whole. Charlotte
+  Christian's card shows nine of its ten articles for this reason.
+- **Cards cite only pages a visitor can reach from the site's own navigation.** An
+  unlinked page or an email archive is not cited (Covenant Day, user decision 2026-11-27).
 - **`beliefs.tenets` is a list the school gives in its own words, never a statement of
   faith.** One whole verbatim item per string, in page order, never a summary. It renders
   under its own heading, unnumbered, so a parent never reads it as doctrine.

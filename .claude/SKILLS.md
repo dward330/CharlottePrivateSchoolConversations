@@ -493,7 +493,7 @@ episode to `podcastEpisodes.ts` is a separate PR.
 **Research a faith-based school's Faith & Spiritual Life from its own website, decide
 whether it is enough for a healthy section, and hand a GO to `/plan`.**
 
-`.claude/skills/faith-life/SKILL.md` · added 2026-11-26 · updated 2026-11-26 (Beliefs scoring counts the new `tenets` and `outcomes` blocks; the 60% bar now reads from Hickory Grove's 9 cards, plan `hgfaithlife`) · supporting files:
+`.claude/skills/faith-life/SKILL.md` · added 2026-11-26 · updated 2026-11-27 (the E-for-everyone rule: never records or prints a school's statement on human sexuality, plan `cdfaithlife`; earlier, 2026-11-26: Beliefs scoring counts the new `tenets` and `outcomes` blocks, plan `hgfaithlife`) · supporting files:
 `research-brief.md` (the two research passes and their record format),
 `review-lessons.md` (what the first school's reviews caught)
 
@@ -519,6 +519,11 @@ the skill fetches the school's pages itself, in two passes.
 
 > **📜 A belief statement is copied whole and verbatim.** No summary, no softening, no
 > comment.
+
+> **🅴 The site is rated E for everyone (user, 2026-11-27).** The skill refuses to record,
+> print, quote or summarize a school's statement on human sexuality, even inside a
+> statement otherwise copied whole. The research file records only that further text
+> exists.
 
 > **🚫 No student is named and no personal staff detail is recorded.** A staff directory
 > can print a personal email, a place of worship and a staff member's children.

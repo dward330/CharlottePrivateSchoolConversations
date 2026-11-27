@@ -244,10 +244,10 @@ export const WIDE_FAITH_CARDS: ReadonlySet<FaithLifeCardKey> = new Set([
 /* ------------------------------------------------------------ school data -- */
 
 /**
- * Per-school entries live in ./faithLife/<slug>.ts. Charlotte Christian and
- * Hickory Grove Christian are researched; every other school is ABSENT rather than
- * present-and-empty, and with no source-material folder the section never
- * renders on its page.
+ * Per-school entries live in ./faithLife/<slug>.ts. Charlotte Christian,
+ * Covenant Day and Hickory Grove Christian are researched; every other school
+ * is ABSENT rather than present-and-empty, and with no source-material folder
+ * the section never renders on its page.
  */
 import {
   localized,
@@ -258,10 +258,12 @@ import {
   type OverlayFile,
 } from '../lib/localizeData.ts'
 import { charlotteChristian } from './faithLife/charlotte-christian.ts'
+import { covenantDay } from './faithLife/covenant-day.ts'
 import { hickoryGroveChristian } from './faithLife/hickory-grove-christian.ts'
 
 const PROGRAMS: Record<string, FaithLifeProgram> = {
   'charlotte-christian': charlotteChristian,
+  'covenant-day': covenantDay,
   'hickory-grove-christian': hickoryGroveChristian,
 }
 

@@ -25,7 +25,7 @@ export const covenantDay: ClubsProgram = {
     headline:
       'A service ladder that scales with age — fourth graders at nearly twenty community sites, middle schoolers twice a year, and high schoolers building housing for Pine Ridge.',
     subhead:
-      'Program-based rather than hours-logged: no service-hour requirement exists, and the school publishes no annual totals.',
+      'Program-based rather than hours-logged: the school publishes no service-hour requirement and no annual totals.',
     programs: [
       {
         value: '~20',

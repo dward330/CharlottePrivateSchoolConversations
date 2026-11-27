@@ -46,7 +46,13 @@ The rule is *fill every card the school publishes enough for*, never "match its 
 - **Faith-based schools only.** The school's own site must describe it as a religious
   school. Never add this area to a school that does not.
 - **A belief statement is copied whole and verbatim.** No summary, no softening, no
-  comment, no article left out. A parent should read it as the school wrote it.
+  comment, no article left out. A parent should read it as the school wrote it. The one
+  exception is the next rule.
+- **The site is rated E for everyone** (user, 2026-11-27). A school's statement on human
+  sexuality is never recorded, printed, quoted or summarized: not in a research file, a
+  card, a `verify` note, the plan, a commit, a PR or a reply. That holds even inside a
+  statement otherwise quoted whole. The research file records only that further text
+  exists and is not recorded, by this rule.
 - **NOT STATED is a finding.** A requirement the public pages do not state is recorded as
   not stated. It is never written as "not required".
 - **No student is named**, anywhere: research files, the plan, the brief, a commit, a
@@ -173,7 +179,9 @@ that confirms the gaps is a useful result. Never soften a no-go.
   standard in `CLAUDE.md`). If the Claude Design tools are not connected, stop and ask the
   user to reconnect. Never build a new card undesigned.
 - **A sensitive belief statement.** Tell the user, in one line, that the statement is
-  printed whole and which articles a parent is likely to ask about. Do not edit it.
+  printed whole and which articles a parent is likely to ask about. It is printed whole
+  except for any part on human sexuality, which is left out without comment (the E for
+  everyone rule above). Never describe that part to the user beyond saying it is left out.
 - **The two colors.** `colors.brand` is the school's color in `src/data/brands.ts`.
   `colors.gold` is the school's own second color. When the second color is white, or the
   school has none, propose a lighter tint from the brand color's own ramp (Charlotte
@@ -183,7 +191,7 @@ that confirms the gaps is a useful result. Never soften a no-go.
 
 Draft every card's wording, then run it through
 **[`review-lessons.md`](review-lessons.md)**. It lists the eighteen things four review
-passes caught on the first school. Each one is cheap to avoid here and costs a review
+passes caught on the first school, plus the E-for-everyone check (item 19). Each one is cheap to avoid here and costs a review
 round later. Fix what you find and list in the brief anything you could not settle.
 
 ## Step 8 — hand off to `/plan`
@@ -237,5 +245,7 @@ finds little. **Never deploy** unless the user asks at that moment.
 - Use a third-party page, or a church or diocese site, as evidence.
 - Print a fact the research files mark LEAD, INFERENCE or not found.
 - Summarize, shorten or comment on a belief statement.
+- Record or print a school's statement on human sexuality (the site is rated E for
+  everyone, user 2026-11-27).
 - Add a card, rename a shared card title, or build a design without the user's approval.
 - Add the area to a school whose own site does not call it a religious school.

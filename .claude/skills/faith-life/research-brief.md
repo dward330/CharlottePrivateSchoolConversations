@@ -25,6 +25,10 @@
 - **Never record a personal staff detail**: a personal email address, a place of worship,
   a staff member's children or their grades. A directory pop-up often prints all three.
 - **No trip prices and no exact travel dates.** Season and year only.
+- **The site is rated E for everyone** (user, 2026-11-27). Never record, quote or
+  summarize a school's statement on human sexuality, even inside a statement of faith you
+  are otherwise copying whole. Record only that further text exists and is not recorded,
+  by this rule.
 - **Label what you did not read as fact.** `INFERENCE:` for a pattern you worked out (a
   weekday counted from calendar entries). `LEAD:` for anything dated, superseded, found
   only by search, or read by eye from an image.

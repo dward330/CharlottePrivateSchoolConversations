@@ -172,24 +172,25 @@ Captured from **Charlotte Country Day**.
 ### Faith & Spiritual Life
 
 Captured from **Hickory Grove Christian** (plan `hgfaithlife`, 2026-11-26), so the capture
-shows the `tenets` and `outcomes` Beliefs blocks. Two schools hold the area: Charlotte
-Christian (added 2026-11-26, plan `faithlife`) and Hickory Grove Christian. Charlotte
+shows the `tenets` and `outcomes` Beliefs blocks. Three schools hold the area: Charlotte
+Christian (added 2026-11-26, plan `faithlife`), Hickory Grove Christian, and Covenant Day
+(added 2026-11-27, plan `cdfaithlife`, data only, so the section is not re-captured). Charlotte
 Christian's statement-of-faith list and its Retreats card are not in this capture; they are
 in the archive copy `archive/2026-11 pre-hgfaithlife/`. The links work once the branch is
 merged and published.
 
 | Card (link name) | Kind | Held by | Captured from | Deep link |
 |---|---|--:|---|---|
-| `chapel-and-worship` | chapel-and-worship | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/chapel-and-worship |
-| `bible-and-faith-classes` | bible-and-faith-classes | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/bible-and-faith-classes |
-| `retreats` | retreats | 1 | Charlotte Christian (archive copy only) | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/retreats |
-| `small-groups-and-discipleship` | small-groups-and-discipleship | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/small-groups-and-discipleship |
-| `what-the-school-believes` | what-the-school-believes | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-the-school-believes |
-| `what-it-asks-of-families` | what-it-asks-of-families | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-it-asks-of-families |
-| `service-and-missions` | service-and-missions | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/service-and-missions |
-| `who-leads-spiritual-life` | who-leads-spiritual-life | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/who-leads-spiritual-life |
-| `faith-life-for-parents` | faith-life-for-parents | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/faith-life-for-parents |
-| `ask-the-school` | ask-the-school | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/ask-the-school |
+| `chapel-and-worship` | chapel-and-worship | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/chapel-and-worship |
+| `bible-and-faith-classes` | bible-and-faith-classes | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/bible-and-faith-classes |
+| `retreats` | retreats | 2 | Charlotte Christian (archive copy only) | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/retreats |
+| `small-groups-and-discipleship` | small-groups-and-discipleship | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/small-groups-and-discipleship |
+| `what-the-school-believes` | what-the-school-believes | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-the-school-believes |
+| `what-it-asks-of-families` | what-it-asks-of-families | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-it-asks-of-families |
+| `service-and-missions` | service-and-missions | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/service-and-missions |
+| `who-leads-spiritual-life` | who-leads-spiritual-life | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/who-leads-spiritual-life |
+| `faith-life-for-parents` | faith-life-for-parents | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/faith-life-for-parents |
+| `ask-the-school` | ask-the-school | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/ask-the-school |
 
 ### Student Clubs
 

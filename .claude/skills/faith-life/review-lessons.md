@@ -85,3 +85,9 @@ rest in the `/plan` brief.
 18. **The second accent color is the school's own.** Never a placeholder. If the school
     has no usable second color, a lighter tint from the brand color's ramp, checked in
     light and dark.
+19. **Nothing on human sexuality, anywhere** (user, 2026-11-27: the site is rated E for
+    everyone). Before the plan, grep the draft and both research files for the topic
+    (`marriage|sexual|gender|homosexual`) and never print a match back. A hit inside a
+    list of things no one is judged by (Charlotte Christian's SHOW KINDNESS quote) is
+    fine; a doctrinal or conduct statement on the topic is removed, leaving only a line
+    that further text exists and is not recorded.
