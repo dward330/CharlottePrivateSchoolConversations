@@ -390,7 +390,7 @@ names the commit the served build came from.
 
 ```
 # Home
-npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'Home page' '--sha' 'ff5ab214' '--interactive' 'the school cards and the language menu'
+npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'Home page' '--sha' 'a99df2f7' '--card-links' 'off' '--interactive' 'the school cards and the language menu'
 
 # Compare Schools
 npm run design:capture -- '--page' '/compare/?topic=college-support&schools=cannon%2Ccarmel-christian%2Ccharlotte-catholic%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Ccovenant-day%2Cdavidson-day%2Cgaston-day%2Chickory-grove-christian%2Cprovidence-day' '--name' 'Compare Schools' '--out' <out> '--refs' 'every high school, College Support (the default Compare topic)' '--sha' 'ff5ab214' '--interactive' 'the topic and school pickers, row tips and the leader tint'
@@ -671,7 +671,10 @@ re-written (36,429 → 36,652 bytes, the three new `fl-` rules; `app-1.css` to `
 were byte-identical and not re-written). Charlotte Christian's statement-of-faith list and
 Retreats card now live only in the archive copy.
 
-**Known drift, to close at the end of plan `faithlife` Phase 2:** *Home* was captured on
-2026-11-20, before both Read Reviews and Faith & Spiritual Life, so its research-area
-count for Charlotte Christian is two behind the built Home page (which shows 12) and one
-behind for every other school. Re-capture *Home* once Phase 2 lands.
+**Drift closed 2026-11-27 (plan `hgfaithlife` Phase 2):** *Home* had been captured on
+2026-11-20, before Read Reviews and Faith & Spiritual Life, so its research-area counts
+were behind the app. It was re-captured from branch commit `a99df2f7` (18,732 bytes,
+verified byte for byte): 14 research areas, 574 source documents, and 12 areas each for
+Charlotte Christian and Hickory Grove. `app-css/` was unchanged and not re-written. The
+Home capture needs `--card-links off`, since the page has no cards; the command below
+now carries it.

@@ -3401,3 +3401,52 @@ fa/ar string needs the same browser look.
 - **Gender:** staff roles use slash or neutral forms; `ask.questions[7]` ("meet with him")
   is masculine, following the English.
 - **es `Israel`** is identical to English and flagged by `i18n:leaks`: the same word, a KEEP.
+
+## Faith & Spiritual Life — Hickory Grove Christian (`hgfaithlife`) — Phase 2, 2026-11-27
+
+The area's second school. 157 new strings per locale (about 2,000 English words), added
+with `i18n_splice_work.mjs`, never a re-extract: 196 Charlotte Christian units kept, 157
+added, 0 dropped in all nine locales. One translator per locale wrote a stamp→translation
+map in the scratchpad, applied centrally by stamp and asserted against `HEAD`: 157 filled,
+0 Charlotte Christian `t` changed, 0 empty, 0 lost. Two chrome keys, `faith.tenets` and
+`faith.outcomes`, were added to the nine other catalogs beside `faith.statementOfFaith`.
+
+**Translated, as for Charlotte Christian:** the mission, the seven listed beliefs
+(`beliefs.tenets[]`), the three outcomes (`beliefs.outcomes[]`, name and text) and every
+quoted school sentence.
+
+**Kept Latin in every locale:** program and place names (`Grove Groups`, `Lions Connect`,
+`Lions in Prayer`, `Chapel at Home`, `Quiet Time Cafe`, `Here I Stand`, `Chapel Band`,
+`Praise Team`, `Kingdom Builders`, `Student on Mission`, `HGBC Food Pantry`, `Honor Code`,
+`Global Missions & Language Certificate`, `Hickory Grove Baptist Church`, `Judson
+College`, `Summit Ministries`, `XChange`), the Summit and high school course titles
+(`Building on the Rock`, `Walking in Truth`, `Light Bearers`, `Christian Apologetics`,
+`Systematic Theology`, `Introduction to Bible`, `Christian Leadership`) and staff names.
+These are the 18 units identical to English in every locale.
+
+**The Bible-classes tabs stay English in every locale:** `Elementary School`, `Middle
+School`, `High School`. `Middle School` is a shared unit with Charlotte Christian's card
+and is kept Latin everywhere, so es, bn and ar, which had translated the other two, were
+set to the Latin form. That way the three tabs read as one set. This is 20
+identical-to-English units per locale.
+
+**Checks:** `check:runtime`, `check:fr`, `check:bidi`, `check:fa`, `check:hi`,
+`check:dates`, `check:moneytext`, `check:chrome`, and `check:sepdrift` and
+`check_figures.py` per locale all pass. `check:digits` compared 1,413 new units and
+flagged 0. `i18n:leaks` shows one area hit, es `“Israel”`, the recorded keep above.
+
+**Browser (real Chrome, every card open):** es, fa and hi at 1280, fa and ar at 390. Nine
+cards, seven tenets, both new headings translated, overflow 0. Every range in the section
+carries its LRI/PDI isolate except the `TK–5` chip, which starts with Latin letters and
+draws correctly. Per-character x positions confirm `6–12` draws left to right; read the
+glyph positions, not a paragraph screenshot, which misled the first look here.
+`7:00 to 7:15 a.m.` is worded with fa *تا* / ar *إلى*, so it has no range glyph.
+
+**Open, site-wide, not this plan's:** at 390px an isolated figure can wrap across a line
+at its dash (`2026–27` in fa and ar, `6-12` in fa). The draw order holds, but the figure
+splits. The whole Hickory Grove fa page has 7 such wraps, 5 in other areas. The fix
+belongs in the render layer (keep an isolate on one line), not in any stored string.
+
+**Soft spots for a native reviewer:** "missions in reverse" (te *ఎదురు దిశలో మిషన్*, hi
+*उल्टी दिशा का मिशन*, ht *misyon nan sans envès*) is loose in every locale; "Kingdom
+Education" is translated, not kept; ar renders the pastor roles masculine.

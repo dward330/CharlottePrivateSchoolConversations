@@ -1,7 +1,7 @@
 ---
 name: hgfaithlife
 title: Add Hickory Grove Christian School to the Faith & Spiritual Life research area (9 of 10 cards; no Retreats, no statement of faith; two new Beliefs blocks)
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-26
 branch: feat/hgfaithlife
@@ -840,3 +840,33 @@ asOf: `November 26, 2026`
   - R6 Ask question 8 narrower than its verify note: fixed (widened to 10th–12th).
 - **Pass 2** (fix diff `64b62cfa..bff13ecc`): 1 found, 1 confirmed, 0 rejected, 1 fixed, 0 declined.
   - The plan appendix still showed question 8's old wording: fixed (appendix line and the note above). Fixed, not re-reviewed.
+
+### Phase 2 — 2026-11-27
+
+- **Approval:** the user approved the English ("The English page is approved") and asked
+  for Phase 2 only. The Open-question defaults stand: all four statement-of-faith mentions
+  kept, design capture from Hickory Grove.
+- **Splice:** 196 kept, 157 added, 0 dropped in each of the nine locales. Translated by one
+  agent per locale into scratchpad stamp maps, applied centrally by stamp, and asserted
+  against `HEAD`: 157 filled, 0 Charlotte Christian `t` changed, 0 empty, 0 lost.
+- **Deviation: division tabs.** es, bn and ar translated the `Elementary School` and `High
+  School` tab labels, while the shared `Middle School` unit is Latin in every locale (a
+  shipped Charlotte Christian unit this plan may not change). They were set to the Latin
+  form, so the three tabs read as one set in all nine locales.
+- **Chrome:** `faith.tenets` and `faith.outcomes` in all ten catalogs; `check:chrome` green.
+- **Checks:** `tsc -b` and `npm run build` green. `check:runtime`, `check:fr`, `check:bidi`,
+  `check:fa`, `check:hi`, `check:dates`, `check:moneytext`, and `check:sepdrift` and
+  `check_figures.py` per locale all pass. `check:digits`: 1,413 units, 0 to review.
+  `i18n:leaks`: one area hit in es (`“Israel”`, a recorded keep). `audit:daterender`
+  (full sweep, render code changed): clean in all nine locales.
+- **Browser:** es, fa and hi at 1280, fa and ar at 390, every card open. Nine cards, seven
+  tenets, both headings translated, overflow 0, ranges isolated and drawn in order.
+- **Found, not fixed (outside scope):** at 390px an isolated figure can wrap at its dash
+  (`2026–27` in fa and ar). It is site-wide: 7 such wraps on Hickory Grove's fa page, 5 in
+  other areas. The fix is a render-layer rule keeping an isolate on one line. Recorded in
+  `src/data/overlays/NOTES.md`.
+- **Claude Design:** *Home* re-captured from `a99df2f7` (18,732 bytes, `design:verify`
+  byte for byte), closing the drift note; `As Built - Index.md` updated. The Home command
+  needs `--card-links off`, now in `design-sync.md`. *Faith & Spiritual Life Section* was
+  not re-captured: the English did not change after Phase 1.
+- Phase 2 is not adversarially reviewed (per `/implement`).
