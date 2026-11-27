@@ -7,7 +7,7 @@
 > materially changed gets recorded here **in the same PR that changes it** — see
 > [Maintaining this index](#maintaining) at the bottom.
 
-**16 active** · 0 retired · Last updated **2026-11-26**
+**17 active** · 0 retired · Last updated **2026-11-26**
 
 ---
 
@@ -27,6 +27,7 @@
 | 🌍 | [`global-exposure`](#global-exposure) | Deep-research prompt → verified Global Exposure plan | ❌ Never | — |
 | 🧩 | [`learning-support`](#learning-support) | Deep-research prompt → go/no-go → Learning Support plan | ❌ Never | — |
 | 🎧 | [`learning-support-episode`](#learning-support-episode) | One school's Learning Support → podcast | ❌ Generates files | Single |
+| ✝️ | [`faith-life`](#faith-life) | A faith-based school's own site → two research passes → go/no-go → Faith & Spiritual Life plan | ❌ Never | — |
 | 🏆 | [`wells-fargo-cup`](#wells-fargo-cup) | Official Cup tables → go/no-go → next school's Cup card plan | ❌ Never | — |
 | 📣 | [`cup-episode`](#cup-episode) | One Cup division → podcast | ❌ Generates files | Single |
 | 💡 | [`episode-ideas`](#episode-ideas) | What should the show cover next? → ranked, de-duplicated episode ideas | ❌ Never | — |
@@ -45,10 +46,12 @@
                                                         single time
 ```
 
-Seven skills feed research **into** that road at any point:
+Eight skills feed research **into** that road at any point:
 `nc-admissions-data` (admit rates), `global-exposure` (a school's Global Exposure area,
 ending in a `/plan` handoff), `learning-support` (a school's Learning Support area, ending
-in a go/no-go and then a `/plan` handoff), `wells-fargo-cup` (the next school's Cup card,
+in a go/no-go and then a `/plan` handoff), `faith-life` (a faith-based school's Faith &
+Spiritual Life area, researched from the school's own site and ending the same way),
+`wells-fargo-cup` (the next school's Cup card,
 ending the same way), `athlete-commits` (a roster school's College Pipeline refresh, ending
 the same way), `consistency-self-scan` (a whole-app scan for self-contradictions, ending the
 same way) and `ingest-source-material` (everything else).
@@ -480,6 +483,65 @@ prompt in `reports/learning-support/` (gitignored), then judges the takes the us
 
 **Deliberately cannot:** edit app code or research data, or deploy. Adding the published
 episode to `podcastEpisodes.ts` is a separate PR.
+
+---
+
+<a id="faith-life"></a>
+
+## ✝️ `faith-life`
+
+**Research a faith-based school's Faith & Spiritual Life from its own website, decide
+whether it is enough for a healthy section, and hand a GO to `/plan`.**
+
+`.claude/skills/faith-life/SKILL.md` · added 2026-11-26 · supporting files:
+`research-brief.md` (the two research passes and their record format),
+`review-lessons.md` (what the first school's reviews caught)
+
+The repeatable version of Charlotte Christian's section (plan `faithlife`). Unlike
+`learning-support` and `global-exposure`, **there is no deep-research prompt and no PDF**:
+the skill fetches the school's pages itself, in two passes.
+
+| Step | What it does |
+|---|---|
+| **0** | Asks which school. Stops if it is not in the app, or if its own site does not call it a religious school. |
+| **1** | Reads the live card registry, the data rules and every shipped school's file. |
+| **2** | **First pass**: a broad sweep of the school's own pages and linked documents into `Official Site Research.md`, in ten finding sections with a conflicts list. |
+| **3** | **Second pass**: tries to close each "not found" and "could not read" from public official pages, and writes `Second Pass Gap Research.md` with a verdict per gap. |
+| **4** | Folds the corrections into the first file, cleans both, and re-verifies the facts the cards would print against a fresh download. |
+| **5** | Scores the ten cards with counts and gives a **GO / NO-GO**. |
+| **6** | One round of questions: proceed, any material that fits no card, the two colors. |
+| **7** | Runs the drafted wording through `review-lessons.md`. |
+| **8** | Invokes `/plan` with the brief. `/implement` follows as usual. |
+
+> **🔒 Only the school's own public pages are evidence.** No third-party page, and no
+> church, parish or diocese site unless the school's site links that exact document as
+> its own.
+
+> **📜 A belief statement is copied whole and verbatim.** No summary, no softening, no
+> comment.
+
+> **🚫 No student is named and no personal staff detail is recorded.** A staff directory
+> can print a personal email, a place of worship and a staff member's children.
+
+> **📏 The GO bar is computed from the thinnest shipped school**: a belief or mission
+> page, two of chapel / classes / retreats verified with detail, 60% of that school's
+> card count, and one named person with a published faith role. A deeper pass is offered
+> before any NO-GO.
+
+> **🎨 A new card is the only design work.** Mass, theology courses and clergy go on the
+> existing ten cards, whose titles are shared and never renamed per school. Material that
+> fits none of them is offered as a new card, which needs the user's approval and a
+> Claude Design file before it is built. A data-only add re-captures only the design
+> project's *Home* file.
+
+> **⚠️ Step 7 exists because the first build needed four review passes.** They confirmed
+> 19 findings, none a wrong figure: counts that did not match their rows, quotes cut
+> mid-sentence with the period inside, a scheduled speaker written as past, claims with
+> no source on their card, and one fact that Student Clubs already stated differently.
+
+**Deliberately cannot:** edit app code, use third-party or church-site evidence, shorten
+or comment on a belief statement, add or rename a card without approval, or add the area
+to a school that is not faith-based.
 
 ---
 
