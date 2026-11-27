@@ -67,8 +67,12 @@ const FLOOR_EXCLUDED_KEYS = new Set(['cup-finish', 'cup-titles', 'cup-best'])
  * school gets for free, so counting it would loosen the /add-school area gate
  * by one. FLOOR_EXCLUDED_TOPICS above filters Compare rows only; this filters
  * areas.
+ *
+ * Faith & Spiritual Life (2026-11-26, plan `faithlife`) is left out for the
+ * opposite reason: only a faith-based school can hold it, so a non-religious
+ * candidate must not be marked down for lacking it.
  */
-const FLOOR_EXCLUDED_AREAS = new Set(['read-reviews'])
+const FLOOR_EXCLUDED_AREAS = new Set(['read-reviews', 'faith-spiritual-life'])
 const isFloorExcluded = (r) => FLOOR_EXCLUDED_TOPICS.has(r.topic) || FLOOR_EXCLUDED_KEYS.has(r.key)
 
 /** Pull each VALUE_METRICS row's `values:{…}` block by brace-matching. Every row

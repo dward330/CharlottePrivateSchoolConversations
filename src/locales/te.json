@@ -43,6 +43,7 @@
     "high-school-placement": "హైస్కూల్ ప్లేస్‌మెంట్",
     "international-travel": "అంతర్జాతీయ అనుభవం",
     "learning-support": "అభ్యసన సహాయం, విద్యార్థి సేవలు",
+    "faith-spiritual-life": "విశ్వాసం, ఆత్మీయ జీవితం",
     "read-reviews": "రివ్యూలు చదవండి"
   },
   "metrics": {
@@ -94,7 +95,8 @@
     "visual-arts": "దృశ్య కళలు",
     "win-loss": "గెలుపు–ఓటమి రికార్డులు",
     "international-travel.redesign-research": "అంతర్జాతీయ అనుభవ పరిశోధన సంపుటి (2026)",
-    "learning-support.redesign-research": "అభ్యసన సహాయంపై పరిశోధన (2026)"
+    "learning-support.redesign-research": "అభ్యసన సహాయంపై పరిశోధన (2026)",
+    "faith-spiritual-life.redesign-research": "విశ్వాసం, ఆత్మీయ జీవితంపై పరిశోధన (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -692,7 +694,17 @@
     "learning-support.therapy": "థెరపీ, సంబంధిత సేవలు",
     "learning-support.testing": "పరీక్షలు, మూల్యాంకనం",
     "learning-support.staff": "మీరు ఎవరితో పని చేస్తారు",
-    "learning-support.ask": "పాఠశాలను అడగండి"
+    "learning-support.ask": "పాఠశాలను అడగండి",
+    "faith-spiritual-life.chapel": "చాపెల్, ఆరాధన",
+    "faith-spiritual-life.classes": "బైబిల్, విశ్వాస క్లాసులు",
+    "faith-spiritual-life.retreats": "రిట్రీట్‌లు",
+    "faith-spiritual-life.groups": "చిన్న బృందాలు, శిష్యరికం",
+    "faith-spiritual-life.beliefs": "పాఠశాల ఏం విశ్వసిస్తుంది",
+    "faith-spiritual-life.families": "కుటుంబాల నుంచి ఏం కోరుతుంది",
+    "faith-spiritual-life.service": "సేవ, మిషన్లు",
+    "faith-spiritual-life.staff": "ఆత్మీయ జీవితాన్ని ఎవరు నడిపిస్తారు",
+    "faith-spiritual-life.parents": "తల్లిదండ్రుల కోసం విశ్వాస జీవితం",
+    "faith-spiritual-life.ask": "పాఠశాలను అడగండి"
   },
   "cardLabels": {
     "afternoonRhythm": "మధ్యాహ్నపు సాగు",
@@ -872,6 +884,26 @@
       "iep": "Individualized Education Program: IDEA కింద ప్రత్యేక విద్యా సేవలు, లక్ష్యాలను నిర్దేశించే ప్రభుత్వ పాఠశాలల పత్రం.",
       "idea": "Individuals with Disabilities Education Act: ప్రభుత్వ పాఠశాలల్లో ప్రత్యేక విద్యను నియంత్రించే అమెరికా సమాఖ్య చట్టం."
     },
+    "asOf": "పరిశోధన {{date}} నాటికి తాజాగా ఉంది."
+  },
+  "faith": {
+    "code": {
+      "all": "అందరూ",
+      "weekly": "ప్రతి వారం",
+      "monthly": "ప్రతి నెల",
+      "yearly": "ప్రతి ఏడాది",
+      "published": "ప్రచురించారు",
+      "notStated": "పేర్కొనలేదు",
+      "credit": "{{grade}} · {{credit}} క్రెడిట్"
+    },
+    "legend": {
+      "published": "పాఠశాల సైట్‌లో పేర్కొన్నారు",
+      "notStated": "పాఠశాల పబ్లిక్ పేజీల్లో కనిపించలేదు, అంటే తప్పనిసరి కాదని కాదు"
+    },
+    "tally": "{{published}} ప్రచురించినవి · {{notStated}} పేర్కొననివి",
+    "mission": "లక్ష్యం.",
+    "coreValues": "మూల విలువలు",
+    "statementOfFaith": "విశ్వాస ప్రకటన, పాఠశాల ప్రచురించిన రూపంలో",
     "asOf": "పరిశోధన {{date}} నాటికి తాజాగా ఉంది."
   },
   "travel": {

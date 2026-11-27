@@ -124,7 +124,7 @@ export const charlotteChristian: ClubsProgram = {
         valueLabel: 'where service hours begin',
         name: 'Knights Serve hours',
         detail:
-          '"Beginning in sixth grade, students are encouraged to earn service hours each year" — framed as learning "the joy of selflessly serving others in the name of Jesus Christ." Note the verb is encouraged, not required.',
+          '"Beginning in sixth grade, students are encouraged to earn service hours each year" — framed as learning "the joy of selflessly serving others in the name of Jesus Christ."',
         source: { label: 'Spiritual Life', url: SPIRITUAL_LIFE },
       },
       {

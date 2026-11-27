@@ -233,8 +233,12 @@ const STRUCTURED = [
   // On Compare since 2026-10-26 through five compareOnly `travel-*` rows; its
   // stat strip is still the topic's own data, never VALUE_METRICS.
   { topic: 'international-travel', file: 'internationalTravel.ts', reg: 'INTERNATIONAL_TRAVEL_CARDS', root: 'InternationalTravelProgram', dir: 'internationalTravel' },
-  // Kept off Compare by COMPARE_DEFERRED_TOPICS (src/lib/manifest.ts), with Read Reviews.
+  // Kept off Compare by COMPARE_DEFERRED_TOPICS (src/lib/manifest.ts), with Faith &
+  // Spiritual Life and Read Reviews.
   { topic: 'learning-support', file: 'learningSupport.ts', reg: 'LEARNING_SUPPORT_CARDS', root: 'LearningSupportProgram', dir: 'learningSupport' },
+  // Off Compare (COMPARE_DEFERRED_TOPICS) and out of the /add-school area
+  // floor (FLOOR_EXCLUDED_AREAS): only a faith-based school can hold it.
+  { topic: 'faith-spiritual-life', file: 'faithLife.ts', reg: 'FAITH_LIFE_CARDS', root: 'FaithLifeProgram', dir: 'faithLife' },
 ]
 
 for (const s of STRUCTURED) {
@@ -831,6 +835,28 @@ for (const s of STRUCTURED) {
     w('the Therapy card goes in `therapy.people`, not only in `therapy.note`.')
     w()
   }
+  if (s.topic === 'faith-spiritual-life') {
+    // Standing rules from plan `faithlife` (2026-11-26, Charlotte Christian
+    // first). The full wording is in src/data/faithLife/README.md.
+    w('**Only a faith-based school holds this area, and only its own public pages are')
+    w('evidence.** No third-party page and no church site. The area is off Compare and out')
+    w('of the `/add-school` area floor, so a non-religious school is never marked down for')
+    w('lacking it.')
+    w()
+    w('**Belief statements are verbatim and whole.** `beliefs.articles` holds the statement')
+    w('of faith one article per string, char-for-char, with no summary and no comment.')
+    w()
+    w('**An unpublished requirement is `status: \'notStated\'`, never a blank** and never')
+    w('"not required". The `families` tallies are computed from the rows. When the school\'s')
+    w('own pages disagree, the card prints the published fact a parent can check and `ask`')
+    w('carries the question.')
+    w()
+    w('**No student is named, and no personal staff detail is carried.** A student who')
+    w('spoke in chapel is "an Upper School student leader". `staff.people[].email` comes')
+    w('only from the school\'s own directory. Trip prices and exact travel dates stay out')
+    w('(season and year only), and a dated or third-hand document is a lead, never a fact.')
+    w()
+  }
   const missing = schools.map((x) => x.slug).filter((x) => !s.schools.includes(x))
   w(`**Schools with data:** ${s.schools.length}/${schools.length}` +
     (missing.length ? ` — absent: ${missing.map((m) => `\`${m}\``).join(', ')}` : ''))
@@ -1173,7 +1199,7 @@ w()
   w('**The flag is `hasHighSchool: false`** in `src/data/brands.ts`. It drives the')
   w('Compare exclusion (`comparableSchools` in `src/lib/manifest.ts`) and, through it,')
   w('the Compare topic list (`comparableTopics`, same file; it also drops the editorially')
-  w('deferred `COMPARE_DEFERRED_TOPICS`, today Learning Support and Read Reviews) — and nothing else')
+  w('deferred `COMPARE_DEFERRED_TOPICS`, today Learning Support, Faith & Spiritual Life and Read Reviews) — and nothing else')
   w('automatically. Every rule below is a research and authoring decision.')
   w()
   w(k8.length
@@ -1189,9 +1215,9 @@ w()
   const sportsAll = nCards('sports')
   w('| Layer | K-12 school | K-8 school |')
   w('|---|---|---|')
-  w(`| Research areas | up to ${topics.length - 1} of ${topics.length} | **up to ${topics.length - 1} of ${topics.length}** — the same ceiling, but College Support swaps for High School Placement |`)
+  w(`| Research areas | up to ${topics.length - 1} of ${topics.length}, or ${topics.length - 2} for a school that is not faith-based (only a faith-based school holds Faith & Spiritual Life) | **up to ${topics.length - 1} of ${topics.length}, or ${topics.length - 2} if not faith-based** — the same ceiling, but College Support swaps for High School Placement |`)
   w('| Compare page | a column | **excluded entirely** — no button, no column, no `metricValues.ts` rows |')
-  w('| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, with Read Reviews; International Travel left the list when it joined Compare 2026-10-26), not a data absence |')
+  w('| Compare topics | every area it researches | an area held **only** by K-8 schools (today High School Placement) gets **no Compare topic pill and no home "What you can compare" cell** — derived by `comparableTopics` in `src/lib/manifest.ts`, never a hardcoded slug. Learning Support is likewise off Compare for every school, but as an editorial deferral (`COMPARE_DEFERRED_TOPICS`, with Faith & Spiritual Life and Read Reviews; International Travel left the list when it joined Compare 2026-10-26), not a data absence |')
   w(`| Sports cards | up to ${sportsAll} | **up to ${sportsAll - K8_SPORTS_DROPPED.length}** — the ${K8_SPORTS_DROPPED.length} college-bound ones do not apply |`)
   w(`| College Support | ${nCards('college-support')} cards | **none** |`)
   w(`| High School Placement | none | **up to ${nCards('high-school-placement')} cards** |`)

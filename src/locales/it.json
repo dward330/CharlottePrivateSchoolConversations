@@ -43,6 +43,7 @@
     "high-school-placement": "Orientamento alle superiori",
     "international-travel": "Apertura internazionale",
     "learning-support": "Supporto all’apprendimento e servizi per gli studenti",
+    "faith-spiritual-life": "Fede e vita spirituale",
     "read-reviews": "Leggi le recensioni"
   },
   "metrics": {
@@ -94,7 +95,8 @@
     "visual-arts": "Arti visive",
     "win-loss": "Bilancio vittorie–sconfitte",
     "international-travel.redesign-research": "Dossier di ricerca sull’apertura internazionale (2026)",
-    "learning-support.redesign-research": "Ricerca sul supporto all’apprendimento (2026)"
+    "learning-support.redesign-research": "Ricerca sul supporto all’apprendimento (2026)",
+    "faith-spiritual-life.redesign-research": "Ricerca su fede e vita spirituale (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -693,7 +695,17 @@
     "learning-support.therapy": "Terapie e servizi correlati",
     "learning-support.testing": "Test e valutazione",
     "learning-support.staff": "Con chi lavorerete",
-    "learning-support.ask": "Domande da fare alla scuola"
+    "learning-support.ask": "Domande da fare alla scuola",
+    "faith-spiritual-life.chapel": "Funzioni religiose e lode",
+    "faith-spiritual-life.classes": "Corsi di Bibbia e di fede",
+    "faith-spiritual-life.retreats": "Ritiri",
+    "faith-spiritual-life.groups": "Piccoli gruppi e discepolato",
+    "faith-spiritual-life.beliefs": "In che cosa crede la scuola",
+    "faith-spiritual-life.families": "Che cosa chiede alle famiglie",
+    "faith-spiritual-life.service": "Servizio e missioni",
+    "faith-spiritual-life.staff": "Chi guida la vita spirituale",
+    "faith-spiritual-life.parents": "La vita di fede per i genitori",
+    "faith-spiritual-life.ask": "Domande da fare alla scuola"
   },
   "cardLabels": {
     "afternoonRhythm": "Il ritmo del pomeriggio",
@@ -874,6 +886,26 @@
       "iep": "Individualized Education Program: un documento delle scuole pubbliche che stabilisce servizi e obiettivi di educazione speciale ai sensi dell’IDEA.",
       "idea": "Individuals with Disabilities Education Act: la legge federale che regola l’educazione speciale nelle scuole pubbliche."
     },
+    "asOf": "Ricerca aggiornata al {{date}}."
+  },
+  "faith": {
+    "code": {
+      "all": "TUTTI",
+      "weekly": "SETTIMANALE",
+      "monthly": "MENSILE",
+      "yearly": "ANNUALE",
+      "published": "PUBBLICATO",
+      "notStated": "NON INDICATO",
+      "credit": "{{grade}} · {{credit}} CREDITO"
+    },
+    "legend": {
+      "published": "indicato sul sito della scuola",
+      "notStated": "non presente sulle pagine pubbliche della scuola, il che non significa che non sia richiesto"
+    },
+    "tally": "{{published}} pubblicati · {{notStated}} non indicati",
+    "mission": "Missione.",
+    "coreValues": "Valori fondamentali",
+    "statementOfFaith": "Dichiarazione di fede, così come la pubblica la scuola",
     "asOf": "Ricerca aggiornata al {{date}}."
   },
   "travel": {

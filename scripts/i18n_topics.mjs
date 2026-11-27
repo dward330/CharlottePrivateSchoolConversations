@@ -67,6 +67,8 @@ export const TOPICS = {
   'international-travel': 'internationalTravel',
   // Hickory Grove (2026-10-20), Cannon (2026-10-24), Davidson Day (2026-10-25), Charlotte Country Day (2026-10-25), Charlotte Catholic (2026-10-26). Registered from the start, same reason.
   'learning-support': 'learningSupport',
+  // Charlotte Christian (2026-11-26, plan `faithlife`). Registered from the start, same reason.
+  'faith-spiritual-life': 'faithLife',
   'course-offerings': null,   // single module + accessor, see ACCESSORS
   'financial-aid-report': null,
   'metric-values': null,

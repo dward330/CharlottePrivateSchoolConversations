@@ -169,6 +169,24 @@ Captured from **Charlotte Country Day**.
 | `who-youll-work-with` | who-youll-work-with | 5 | Charlotte Country Day | https://charlotteschoolinsights.com/school/charlotte-country-day/#learning-support-and-student-services/who-youll-work-with |
 | `ask-the-school` | ask-the-school | 5 | Charlotte Country Day | https://charlotteschoolinsights.com/school/charlotte-country-day/#learning-support-and-student-services/ask-the-school |
 
+### Faith & Spiritual Life
+
+Captured from **Charlotte Christian**, the only school with the area (added 2026-11-26, plan
+`faithlife`; the links work once the branch is merged and published).
+
+| Card (link name) | Kind | Held by | Captured from | Deep link |
+|---|---|--:|---|---|
+| `chapel-and-worship` | chapel-and-worship | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/chapel-and-worship |
+| `bible-and-faith-classes` | bible-and-faith-classes | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/bible-and-faith-classes |
+| `retreats` | retreats | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/retreats |
+| `small-groups-and-discipleship` | small-groups-and-discipleship | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/small-groups-and-discipleship |
+| `what-the-school-believes` | what-the-school-believes | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/what-the-school-believes |
+| `what-it-asks-of-families` | what-it-asks-of-families | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/what-it-asks-of-families |
+| `service-and-missions` | service-and-missions | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/service-and-missions |
+| `who-leads-spiritual-life` | who-leads-spiritual-life | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/who-leads-spiritual-life |
+| `faith-life-for-parents` | faith-life-for-parents | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/faith-life-for-parents |
+| `ask-the-school` | ask-the-school | 1 | Charlotte Christian | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/ask-the-school |
+
 ### Student Clubs
 
 Captured from **Providence Day**.
@@ -437,6 +455,9 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Summer Pr
 # Read Reviews Section (plan readreviews; the map iframe is captured as a labelled box)
 npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Read Reviews Section' '--out' <out> '--refs' 'Providence Day' '--sha' '7bec6bae' '--area' 'read-reviews'
 
+# Faith & Spiritual Life Section (plan faithlife; Charlotte Christian is the only school with the area)
+npm run design:capture -- '--page' '/school/charlotte-christian/' '--name' 'Faith & Spiritual Life Section' '--out' <out> '--refs' 'Charlotte Christian' '--sha' 'e0bd378b' '--area' 'faith-spiritual-life'
+
 # Financial Aid & Tuition
 npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
 # then append two of Cannon's source lines, opened, as a labelled `ds-extra` block in the
@@ -581,6 +602,7 @@ The same table is in the design project as `As Built - Index.md`.
 | Charlotte Prep Course Offerings, High School Placement Class Video, More Schools Row | spec records, untouched |
 | Canvas | empty, untouched |
 | Read Reviews Section | captured, replaced 2026-11-25 (plan `readreviews`; the planning mock is gone) |
+| Faith & Spiritual Life Section | captured, replaced 2026-11-26 (plan `faithlife`, English phase; the planning mock is gone) |
 
 All captured files: `main` at `ff5ab214`, captured 2026-11-20.
 
@@ -621,3 +643,20 @@ re-written (36,266 bytes; `app-1.css` to `app-3.css` unchanged), each verified b
 Section* was patched as a mock (the boxes reordered, a `Proposed` band note) and verified;
 after the build, it, *Providence Day School* and *School Page (K-8)* were re-captured from
 `7bec6bae` (the stylesheet did not change) and verified byte for byte.
+
+**Plan `faithlife` (2026-11-26): a new research area, designed here first.** *Faith &
+Spiritual Life Section* was drawn as a mock at planning (design v2, ten cards, Charlotte
+Christian's data). After the English build and its adversarial review it was re-captured
+from branch commit `81748e40` (42,865 bytes) and `app-css/app-4.css` was re-written
+(36,429 bytes, the two new `fl-` rules; `app-1.css` to `app-3.css` kept their sizes and
+were not re-written). Both were verified byte for byte. The capture trims the ten-article
+statement of faith and the ten questions to their first six; the app shows all ten. Neither
+school-page capture changed, because Providence Day and Charlotte Prep do not hold the
+area. It was re-captured again from `e0bd378b` (42,867 bytes, verified byte for byte) after
+the third review pass and the choice of a light-blue second accent (`#60a5fa`). Re-capture
+once more if Phase 2 or the English review changes the section.
+
+**Known drift, to close at the end of plan `faithlife` Phase 2:** *Home* was captured on
+2026-11-20, before both Read Reviews and Faith & Spiritual Life, so its research-area
+count for Charlotte Christian is two behind the built Home page (which shows 12) and one
+behind for every other school. Re-capture *Home* once Phase 2 lands.

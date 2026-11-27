@@ -43,6 +43,7 @@
     "high-school-placement": "Ubicación en secundaria",
     "international-travel": "Experiencia internacional",
     "learning-support": "Apoyo al aprendizaje y servicios estudiantiles",
+    "faith-spiritual-life": "Fe y vida espiritual",
     "read-reviews": "Leer reseñas"
   },
   "metrics": {
@@ -94,7 +95,8 @@
     "visual-arts": "Artes visuales",
     "win-loss": "Récords de victorias y derrotas",
     "international-travel.redesign-research": "Informe de experiencia internacional (2026)",
-    "learning-support.redesign-research": "Investigación sobre apoyo al aprendizaje (2026)"
+    "learning-support.redesign-research": "Investigación sobre apoyo al aprendizaje (2026)",
+    "faith-spiritual-life.redesign-research": "Investigación sobre fe y vida espiritual (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -692,7 +694,17 @@
     "learning-support.therapy": "Terapias y servicios relacionados",
     "learning-support.testing": "Pruebas y evaluación",
     "learning-support.staff": "Con quién trabajará",
-    "learning-support.ask": "Pregunte a la escuela"
+    "learning-support.ask": "Pregunte a la escuela",
+    "faith-spiritual-life.chapel": "Capilla y alabanza",
+    "faith-spiritual-life.classes": "Clases de Biblia y de fe",
+    "faith-spiritual-life.retreats": "Retiros",
+    "faith-spiritual-life.groups": "Grupos pequeños y discipulado",
+    "faith-spiritual-life.beliefs": "Lo que cree la escuela",
+    "faith-spiritual-life.families": "Lo que pide a las familias",
+    "faith-spiritual-life.service": "Servicio y misiones",
+    "faith-spiritual-life.staff": "Quién dirige la vida espiritual",
+    "faith-spiritual-life.parents": "Vida de fe para los padres",
+    "faith-spiritual-life.ask": "Pregunte a la escuela"
   },
   "cardLabels": {
     "afternoonRhythm": "El ritmo de la tarde",
@@ -874,6 +886,26 @@
       "iep": "Programa de Educación Individualizado: un documento de las escuelas públicas que fija los servicios y objetivos de educación especial según la IDEA.",
       "idea": "Ley de Educación para Personas con Discapacidades: la ley federal que rige la educación especial en las escuelas públicas."
     },
+    "asOf": "Investigación actualizada al {{date}}."
+  },
+  "faith": {
+    "code": {
+      "all": "TODOS",
+      "weekly": "SEMANAL",
+      "monthly": "MENSUAL",
+      "yearly": "ANUAL",
+      "published": "PUBLICADO",
+      "notStated": "NO INDICADO",
+      "credit": "{{grade}} · {{credit}} CRÉDITO"
+    },
+    "legend": {
+      "published": "indicado en el sitio de la escuela",
+      "notStated": "no aparece en las páginas públicas de la escuela, lo que no significa que no se exija"
+    },
+    "tally": "{{published}} publicados · {{notStated}} no indicados",
+    "mission": "Misión.",
+    "coreValues": "Valores fundamentales",
+    "statementOfFaith": "Declaración de fe, tal como la publica la escuela",
     "asOf": "Investigación actualizada al {{date}}."
   },
   "travel": {

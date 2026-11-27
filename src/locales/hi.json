@@ -43,6 +43,7 @@
     "high-school-placement": "हाई स्कूल प्लेसमेंट",
     "international-travel": "वैश्विक अनुभव",
     "learning-support": "लर्निंग सपोर्ट और छात्र सेवाएँ",
+    "faith-spiritual-life": "आस्था और आध्यात्मिक जीवन",
     "read-reviews": "रिव्यू पढ़ें"
   },
   "metrics": {
@@ -94,7 +95,8 @@
     "visual-arts": "दृश्य कला",
     "win-loss": "जीत–हार रिकॉर्ड",
     "international-travel.redesign-research": "वैश्विक अनुभव पर शोध दस्तावेज़ (2026)",
-    "learning-support.redesign-research": "लर्निंग सपोर्ट शोध (2026)"
+    "learning-support.redesign-research": "लर्निंग सपोर्ट शोध (2026)",
+    "faith-spiritual-life.redesign-research": "आस्था और आध्यात्मिक जीवन शोध (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -696,7 +698,17 @@
     "learning-support.therapy": "थेरेपी और संबंधित सेवाएँ",
     "learning-support.testing": "टेस्टिंग और मूल्यांकन",
     "learning-support.staff": "आप किनके साथ काम करेंगे",
-    "learning-support.ask": "स्कूल से पूछें"
+    "learning-support.ask": "स्कूल से पूछें",
+    "faith-spiritual-life.chapel": "चैपल और आराधना",
+    "faith-spiritual-life.classes": "बाइबल और आस्था की कक्षाएँ",
+    "faith-spiritual-life.retreats": "रिट्रीट",
+    "faith-spiritual-life.groups": "छोटे समूह और शिष्यता",
+    "faith-spiritual-life.beliefs": "स्कूल क्या मानता है",
+    "faith-spiritual-life.families": "परिवारों से क्या अपेक्षा है",
+    "faith-spiritual-life.service": "सेवा और मिशन",
+    "faith-spiritual-life.staff": "आध्यात्मिक जीवन की अगुवाई कौन करता है",
+    "faith-spiritual-life.parents": "अभिभावकों के लिए आस्था जीवन",
+    "faith-spiritual-life.ask": "स्कूल से पूछें"
   },
   "cardLabels": {
     "afternoonRhythm": "दोपहर की दिनचर्या",
@@ -876,6 +888,26 @@
       "iep": "Individualized Education Program: सरकारी स्कूलों का एक दस्तावेज़ जो IDEA के तहत विशेष शिक्षा सेवाएँ और लक्ष्य तय करता है।",
       "idea": "Individuals with Disabilities Education Act: वह संघीय क़ानून जो सरकारी स्कूलों में विशेष शिक्षा को नियंत्रित करता है।"
     },
+    "asOf": "शोध {{date}} तक अद्यतन।"
+  },
+  "faith": {
+    "code": {
+      "all": "सभी",
+      "weekly": "साप्ताहिक",
+      "monthly": "मासिक",
+      "yearly": "वार्षिक",
+      "published": "प्रकाशित",
+      "notStated": "उल्लेख नहीं",
+      "credit": "{{grade}} · {{credit}} क्रेडिट"
+    },
+    "legend": {
+      "published": "स्कूल की साइट पर लिखा है",
+      "notStated": "स्कूल के सार्वजनिक पेजों पर नहीं मिला, इसका मतलब यह नहीं कि यह ज़रूरी नहीं है"
+    },
+    "tally": "{{published}} प्रकाशित · {{notStated}} उल्लेख नहीं",
+    "mission": "मिशन।",
+    "coreValues": "मूल मूल्य",
+    "statementOfFaith": "आस्था-वक्तव्य, जैसा स्कूल ने प्रकाशित किया है",
     "asOf": "शोध {{date}} तक अद्यतन।"
   },
   "travel": {

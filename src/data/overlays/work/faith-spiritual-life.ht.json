@@ -1,0 +1,1576 @@
+{
+  "topic": "faith-spiritual-life",
+  "lang": "ht",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "Charlotte Christian calls itself “a Christ-centered, college preparatory school”. It is independent and non-denominational. Every student takes a Bible class each year, from junior kindergarten through grade 12. Each division has a weekly chapel.",
+      "of": "e78f96fc",
+      "at": [
+        "charlotte-christian:lead.strong"
+      ],
+      "t": "Charlotte Christian rele tèt li “yon lekòl ki santre sou Kris la, ki prepare elèv pou inivèsite”. Li endepandan epi li pa tache ak okenn denominasyon. Chak elèv pran yon kou Bib chak ane, depi Junior Kindergarten rive nan 12yèm ane. Chak divizyon gen yon chapèl chak semèn."
+    },
+    {
+      "text": "“The school is not under the direction, influence or support of any particular church,” it says.",
+      "of": "3b304585",
+      "at": [
+        "charlotte-christian:lead.muted"
+      ],
+      "t": "“Lekòl la pa anba direksyon, enfliyans ni sipò okenn legliz an patikilye”, se sa li di."
+    },
+    {
+      "text": "Weekly",
+      "of": "417cc4ce",
+      "at": [
+        "charlotte-christian:stats[0].value"
+      ],
+      "t": "Chak semèn"
+    },
+    {
+      "text": "chapel in every division",
+      "of": "bd8a9141",
+      "at": [
+        "charlotte-christian:stats[0].label"
+      ],
+      "t": "chapèl nan chak divizyon"
+    },
+    {
+      "text": "Lower School on Thursdays, Middle School on Tuesdays and Upper School on Wednesdays on the 2026–27 calendar",
+      "of": "fe7bc3fd",
+      "at": [
+        "charlotte-christian:stats[0].note"
+      ],
+      "t": "Lower School chak jedi, Middle School chak madi ak Upper School chak mèkredi, dapre kalandriye 2026–27 la"
+    },
+    {
+      "text": "Biblical Studies credits to graduate",
+      "of": "0c43c16a",
+      "at": [
+        "charlotte-christian:stats[1].label"
+      ],
+      "t": "kredi Etid Biblik pou gradye"
+    },
+    {
+      "text": "one Bible class for each year a student is enrolled in the Upper School",
+      "of": "fbf979d1",
+      "at": [
+        "charlotte-christian:stats[1].note"
+      ],
+      "t": "yon kou Bib pou chak ane yon elèv enskri nan Upper School"
+    },
+    {
+      "text": "Christian churches, and more",
+      "of": "1033fce9",
+      "at": [
+        "charlotte-christian:stats[2].label"
+      ],
+      "t": "legliz kretyen, ak plis"
+    },
+    {
+      "text": "“our families are members of more than 130 different Christian churches”",
+      "of": "71766cd1",
+      "at": [
+        "charlotte-christian:stats[2].note"
+      ],
+      "t": "“fanmi nou yo se manm plis pase 130 legliz kretyen diferan”"
+    },
+    {
+      "text": "service hours, class of 2026",
+      "of": "dd23d2b8",
+      "at": [
+        "charlotte-christian:stats[3].label"
+      ],
+      "t": "èdtan sèvis, Klas 2026"
+    },
+    {
+      "text": "earned by the class during its Upper School years",
+      "of": "d858a35b",
+      "at": [
+        "charlotte-christian:stats[3].note"
+      ],
+      "t": "klas la te fè pandan ane li yo nan Upper School"
+    },
+    {
+      "text": "Each division has its own weekly chapel in the school auditorium, and the whole school gathers for four more a year. Parents get a recap of each week’s chapels by email.",
+      "of": "b6b4524b",
+      "at": [
+        "charlotte-christian:chapel.headline"
+      ],
+      "t": "Chak divizyon gen pwòp chapèl pa li chak semèn nan oditoryòm lekòl la, epi tout lekòl la reyini pou kat lòt chak ane. Paran yo resevwa yon rezime chapèl chak semèn yo pa imel."
+    },
+    {
+      "text": "Lower School chapel",
+      "of": "00c05305",
+      "at": [
+        "charlotte-christian:chapel.entries[0].title"
+      ],
+      "t": "Chapèl Lower School"
+    },
+    {
+      "text": "Thursdays, 8:15–8:45 AM, Alkire Auditorium. “Weekly chapels led by spiritual life director.”",
+      "of": "9578beba",
+      "at": [
+        "charlotte-christian:chapel.entries[0].text"
+      ],
+      "t": "Chak jedi, 8:15–8:45 AM, Alkire Auditorium. “Chapèl chak semèn, direktè lavi espirityèl la dirije yo.”"
+    },
+    {
+      "text": "Speakers listed for fall 2026 include the Lower School counselor and the Lower School principal. One week, teachers and students acted out a story from the book of Daniel.",
+      "of": "ce1d7c82",
+      "at": [
+        "charlotte-christian:chapel.entries[0].muted"
+      ],
+      "t": "Pami oratè ki sou lis otòn 2026 la gen konseye Lower School la ak direktè Lower School la. Yon semèn, pwofesè ak elèv te jwe yon istwa ki soti nan liv Dànyèl la."
+    },
+    {
+      "text": "Middle School chapel",
+      "of": "16378e57",
+      "at": [
+        "charlotte-christian:chapel.entries[1].title"
+      ],
+      "t": "Chapèl Middle School"
+    },
+    {
+      "text": "Tuesdays, 9:30–10:05 AM, Alkire Auditorium. Chapels run in series with names like “Blessing Burglars.”",
+      "of": "a497ab45",
+      "at": [
+        "charlotte-christian:chapel.entries[1].text"
+      ],
+      "t": "Chak madi, 9:30–10:05 AM, Alkire Auditorium. Chapèl yo fèt an seri ki gen non tankou “Blessing Burglars” (Vòlè benediksyon)."
+    },
+    {
+      "text": "Speakers listed for 2026 include the Campus Pastor, the Middle School Spiritual Life Director, Middle School teachers and an Upper School student leader. Guest worship leaders visit.",
+      "of": "d9ed8570",
+      "at": [
+        "charlotte-christian:chapel.entries[1].muted"
+      ],
+      "t": "Pami oratè ki sou lis 2026 la gen Pastè Kanpis la, Direktè Lavi Espirityèl Middle School la, pwofesè Middle School ak yon elèv lidè Upper School. Gen dirijan adorasyon envite ki vin vizite."
+    },
+    {
+      "text": "Upper School chapel",
+      "of": "c9d9a258",
+      "at": [
+        "charlotte-christian:chapel.entries[2].title"
+      ],
+      "t": "Chapèl Upper School"
+    },
+    {
+      "text": "Wednesdays, 9:25–10:05 AM, Alkire Auditorium.",
+      "of": "37fdadb0",
+      "at": [
+        "charlotte-christian:chapel.entries[2].text"
+      ],
+      "t": "Chak mèkredi, 9:25–10:05 AM, Alkire Auditorium."
+    },
+    {
+      "text": "Recent chapels include a talk by the Upper School principal and “a panel of families from Charlotte Christian” on “what it means to honor God as a family.”",
+      "of": "798e1179",
+      "at": [
+        "charlotte-christian:chapel.entries[2].muted"
+      ],
+      "t": "Pami dènye chapèl yo gen yon diskou direktè Upper School la ak “yon panèl fanmi Charlotte Christian” sou “sa sa vle di onore Bondye antanke fanmi”."
+    },
+    {
+      "text": "All-school chapels",
+      "of": "e2630cbf",
+      "at": [
+        "charlotte-christian:chapel.entries[3].title"
+      ],
+      "t": "Chapèl pou tout lekòl la"
+    },
+    {
+      "text": "Four on the 2026–27 calendar: Back-to-School, Thanksgiving, Easter and National Day of Prayer, held outdoors on the school’s field and in its stadium.",
+      "of": "fc758c66",
+      "at": [
+        "charlotte-christian:chapel.entries[3].text"
+      ],
+      "t": "Kat sou kalandriye 2026–27 la: Rantre lekòl, Thanksgiving (Jou Aksyon de Gras), Pak ak Jounen Nasyonal Lapriyè, ki fèt deyò sou teren lekòl la ak nan estad li a."
+    },
+    {
+      "text": "Seniors also have a Baccalaureate Service in May.",
+      "of": "ea028f36",
+      "at": [
+        "charlotte-christian:chapel.entries[3].muted"
+      ],
+      "t": "Elèv dènye ane yo gen tou yon Baccalaureate Service (sèvis relijye pou gradye yo) nan mwa me."
+    },
+    {
+      "text": "KnightLight Worship",
+      "of": "38ca8c7e",
+      "at": [
+        "charlotte-christian:chapel.entries[4].title"
+      ],
+      "t": "KnightLight Worship"
+    },
+    {
+      "text": "The Lower School worship team. “Students in grades 3 and 4 are eligible to audition”. The team rehearses on Wednesdays after school and leads “worship for lower school chapel several times this semester.”",
+      "of": "800f648f",
+      "at": [
+        "charlotte-christian:chapel.entries[4].text"
+      ],
+      "t": "Ekip adorasyon Lower School la. “Elèv klas 3 ak 4 gen dwa pase odisyon”. Ekip la fè repetisyon chak mèkredi apre lekòl epi li dirije “adorasyon pou chapèl Lower School la plizyè fwa semès sa a”."
+    },
+    {
+      "text": "uKnight Worship",
+      "of": "a9fb8cb7",
+      "at": [
+        "charlotte-christian:chapel.entries[5].title"
+      ],
+      "t": "uKnight Worship"
+    },
+    {
+      "text": "A student worship team of “vocalists, instrumentalists, and student technicians in grades 9-12 who lead worship in chapels throughout the year.” It is an honors course by audition, worth .5 credit, and it can count toward the fine arts requirement.",
+      "of": "164eb926",
+      "at": [
+        "charlotte-christian:chapel.entries[5].text"
+      ],
+      "t": "Yon ekip adorasyon elèv ki gen “chantè, mizisyen ak elèv teknisyen nan klas 9-12 ki dirije adorasyon nan chapèl yo pandan tout ane a”. Se yon kou honors sou odisyon, ki vo .5 kredi, epi li ka konte pou egzijans bozar la."
+    },
+    {
+      "text": "Parents hear what was taught.",
+      "of": "30cb3d72",
+      "at": [
+        "charlotte-christian:chapel.note.strong"
+      ],
+      "t": "Paran yo konnen sa yo te anseye."
+    },
+    {
+      "text": "The three Spiritual Life Directors send a weekly Chapel Recap email, with a playlist of “the songs we sang in chapel this week.”",
+      "of": "e6d128ad",
+      "at": [
+        "charlotte-christian:chapel.note.text"
+      ],
+      "t": "Twa Direktè Lavi Espirityèl yo voye yon imel Chapel Recap (rezime chapèl) chak semèn, ak yon playlist ki gen “chante nou te chante nan chapèl semèn sa a”."
+    },
+    {
+      "text": "Every chapel ends with the same benediction, from Micah 6:8. Chapel days and times follow the school’s 2026–27 calendar. Some weeks have no chapel.",
+      "of": "898d5f14",
+      "at": [
+        "charlotte-christian:chapel.note.muted"
+      ],
+      "t": "Chak chapèl fini ak menm benediksyon an, ki soti nan Micah 6:8. Jou ak lè chapèl yo suiv kalandriye 2026–27 lekòl la. Gen semèn ki pa gen chapèl."
+    },
+    {
+      "text": "Bible is a required class every year from junior kindergarten through grade 12. Here is what each grade studies, and the four credits an Upper School student needs to graduate.",
+      "of": "2ac4ec61",
+      "at": [
+        "charlotte-christian:classes.headline"
+      ],
+      "t": "Bib se yon kou obligatwa chak ane, depi Junior Kindergarten rive nan 12yèm ane. Men sa chak klas etidye, ak kat kredi yon elèv Upper School bezwen pou gradye."
+    },
+    {
+      "text": "“The study of the Bible is a required part of the curriculum beginning in junior kindergarten and continuing through grade 12.”",
+      "of": "a011b44b",
+      "at": [
+        "charlotte-christian:classes.intro.text"
+      ],
+      "t": "“Etid Bib la se yon pati obligatwa nan pwogram lekòl la, ki kòmanse nan Junior Kindergarten epi ki kontinye jiska 12yèm ane.”"
+    },
+    {
+      "text": "“The English Standard Version of the Bible is used in all classes.” Families buy the Bible; it is on the school supply lists for grades 1–12.",
+      "of": "ca8c90ba",
+      "at": [
+        "charlotte-christian:classes.intro.muted"
+      ],
+      "t": "“Se English Standard Version Bib la yo itilize nan tout klas yo.” Se fanmi yo ki achte Bib la; li sou lis founiti lekòl pou klas 1–12."
+    },
+    {
+      "text": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "charlotte-christian:classes.groups[0].name"
+      ],
+      "t": "Lower School"
+    },
+    {
+      "text": "daily Bible lessons",
+      "of": "733a59bd",
+      "at": [
+        "charlotte-christian:classes.groups[0].tally"
+      ],
+      "t": "leson Bib chak jou"
+    },
+    {
+      "text": "Junior Kindergarten",
+      "of": "5ee6535c",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[0].label"
+      ],
+      "t": "Junior Kindergarten"
+    },
+    {
+      "text": "“Heroes of the Faith, God's Love for All, the Truth of God's Word”",
+      "of": "b20811bb",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[0].detail"
+      ],
+      "t": "“Ewo lafwa yo, lanmou Bondye pou tout moun, verite Pawòl Bondye a”"
+    },
+    {
+      "text": "Kindergarten",
+      "of": "68541d89",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[1].label"
+      ],
+      "t": "Kindergarten"
+    },
+    {
+      "text": "“Survey of the Bible”",
+      "of": "3ee57c76",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[1].detail"
+      ],
+      "t": "“Apèsi sou Bib la”"
+    },
+    {
+      "text": "Grade 1",
+      "of": "20673dd7",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[2].label"
+      ],
+      "t": "Klas 1"
+    },
+    {
+      "text": "“Creation through the Promised Land”",
+      "of": "54566fbf",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[2].detail"
+      ],
+      "t": "“Depi Kreyasyon an rive nan Tè Pwomiz la”"
+    },
+    {
+      "text": "Grade 2",
+      "of": "21673f6a",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[3].label"
+      ],
+      "t": "Klas 2"
+    },
+    {
+      "text": "“The Gospels”",
+      "of": "105465d2",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[3].detail"
+      ],
+      "t": "“Levanjil yo”"
+    },
+    {
+      "text": "Grade 3",
+      "of": "226740fd",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[4].label"
+      ],
+      "t": "Klas 3"
+    },
+    {
+      "text": "“Israel”",
+      "of": "53429d22",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[4].detail"
+      ],
+      "t": "“Izrayèl”"
+    },
+    {
+      "text": "Grade 4",
+      "of": "1b6735f8",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[5].label"
+      ],
+      "t": "Klas 4"
+    },
+    {
+      "text": "“Acts and the Early Church.” Fourth graders also “take an introductory course to Christian apologetics” (learning to explain and defend the faith).",
+      "of": "5497d699",
+      "at": [
+        "charlotte-christian:classes.groups[0].rows[5].detail"
+      ],
+      "t": "“Travay apot yo ak Legliz nan kòmansman an”. Elèv katriyèm ane yo “pran yon kou entwodiksyon nan apolojetik kretyen” tou (aprann eksplike ak defann lafwa a)."
+    },
+    {
+      "text": "Middle School",
+      "of": "15441234",
+      "at": [
+        "charlotte-christian:classes.groups[1].name"
+      ],
+      "t": "Middle School"
+    },
+    {
+      "text": "a Bible class each year, plus daily scripture reading",
+      "of": "4b6fc13e",
+      "at": [
+        "charlotte-christian:classes.groups[1].tally"
+      ],
+      "t": "yon kou Bib chak ane, plis lekti Ekriti yo chak jou"
+    },
+    {
+      "text": "Bible 5",
+      "of": "672446e6",
+      "at": [
+        "charlotte-christian:classes.groups[1].rows[0].label"
+      ],
+      "t": "Bible 5"
+    },
+    {
+      "text": "The Prophecy of Christ: “a study of the book of Genesis”",
+      "of": "67866b7d",
+      "at": [
+        "charlotte-christian:classes.groups[1].rows[0].detail"
+      ],
+      "t": "Pwofesi sou Kris la: “yon etid sou liv Jenèz la”"
+    },
+    {
+      "text": "Bible 6",
+      "of": "66244553",
+      "at": [
+        "charlotte-christian:classes.groups[1].rows[1].label"
+      ],
+      "t": "Bible 6"
+    },
+    {
+      "text": "The Preparation for Christ: “a study of the Old Testament, beginning with Exodus and ending with the 400 Years of Silence.”",
+      "of": "72467c36",
+      "at": [
+        "charlotte-christian:classes.groups[1].rows[1].detail"
+      ],
+      "t": "Preparasyon pou Kris la: “yon etid sou Ansyen Testaman an, ki kòmanse ak Egzòd epi ki fini ak 400 Ane Silans yo”."
+    },
+    {
+      "text": "Bible 7",
+      "of": "652443c0",
+      "at": [
+        "charlotte-christian:classes.groups[1].rows[2].label"
+      ],
+      "t": "Bible 7"
+    },
+    {
+      "text": "The Plan of Christ: “an overview of the New Testament.”",
+      "of": "6acb1671",
+      "at": [
+        "charlotte-christian:classes.groups[1].rows[2].detail"
+      ],
+      "t": "Plan Kris la: “yon apèsi sou Nouvo Testaman an”."
+    },
+    {
+      "text": "Bible 8",
+      "of": "74245b5d",
+      "at": [
+        "charlotte-christian:classes.groups[1].rows[3].label"
+      ],
+      "t": "Bible 8"
+    },
+    {
+      "text": "The Person of Christ: the life and teaching of Jesus “as uniquely presented through the Gospel of John.”",
+      "of": "29554636",
+      "at": [
+        "charlotte-christian:classes.groups[1].rows[3].detail"
+      ],
+      "t": "Pèsòn Kris la: lavi ak ansèyman Jezi “jan Levanjil Jan an prezante yo yon fason inik”."
+    },
+    {
+      "text": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "charlotte-christian:classes.groups[2].name"
+      ],
+      "t": "Upper School"
+    },
+    {
+      "text": "4 Biblical Studies credits to graduate",
+      "of": "c9c95bce",
+      "at": [
+        "charlotte-christian:classes.groups[2].tally"
+      ],
+      "t": "4 kredi Etid Biblik pou gradye"
+    },
+    {
+      "text": "Old Testament Survey",
+      "of": "6b2cd411",
+      "at": [
+        "charlotte-christian:classes.groups[2].rows[0].label"
+      ],
+      "t": "Old Testament Survey"
+    },
+    {
+      "text": "Freshman requirement.",
+      "of": "389bafe0",
+      "at": [
+        "charlotte-christian:classes.groups[2].rows[0].detail"
+      ],
+      "t": "Egzijans pou premye ane."
+    },
+    {
+      "text": "New Testament Survey",
+      "of": "15a0fcf0",
+      "at": [
+        "charlotte-christian:classes.groups[2].rows[1].label"
+      ],
+      "t": "New Testament Survey"
+    },
+    {
+      "text": "Sophomore requirement.",
+      "of": "b9ac76f8",
+      "at": [
+        "charlotte-christian:classes.groups[2].rows[1].detail"
+      ],
+      "t": "Egzijans pou dezyèm ane."
+    },
+    {
+      "text": "Christian Theology",
+      "of": "3a8071fd",
+      "at": [
+        "charlotte-christian:classes.groups[2].rows[2].label"
+      ],
+      "t": "Christian Theology"
+    },
+    {
+      "text": "Junior requirement. “Students will learn about church history from the NT period through the Reformation.”",
+      "of": "5056d764",
+      "at": [
+        "charlotte-christian:classes.groups[2].rows[2].detail"
+      ],
+      "t": "Egzijans pou twazyèm ane. “Elèv yo ap aprann istwa legliz la depi epòk Nouvo Testaman an rive nan Refòm nan.”"
+    },
+    {
+      "text": "World Religions",
+      "of": "a0cf6333",
+      "at": [
+        "charlotte-christian:classes.groups[2].rows[3].label"
+      ],
+      "t": "World Religions"
+    },
+    {
+      "text": "Junior requirement. The course is “a critical examination of ancient religions, Eastern Religions (including Hinduism and Buddhism), Judaism and Islam.”",
+      "of": "ff42b6fe",
+      "at": [
+        "charlotte-christian:classes.groups[2].rows[3].detail"
+      ],
+      "t": "Egzijans pou twazyèm ane. Kou a se “yon egzamen kritik sou ansyen relijyon yo, relijyon Oryan yo (ki gen ladan Endouyis ak Boudis), Jidayis ak Islam”."
+    },
+    {
+      "text": "Apologetics and Cultural Engagement",
+      "of": "6b124f9d",
+      "at": [
+        "charlotte-christian:classes.groups[2].rows[4].label"
+      ],
+      "t": "Apologetics and Cultural Engagement"
+    },
+    {
+      "text": "Senior requirement. The first semester covers apologetics. The second covers “biblical and theological foundations for cultural engagement.”",
+      "of": "05c1557f",
+      "at": [
+        "charlotte-christian:classes.groups[2].rows[4].detail"
+      ],
+      "t": "Egzijans pou dènye ane. Premye semès la kouvri apolojetik. Dezyèm nan kouvri “fondman biblik ak teyolojik pou angajman nan kilti a”."
+    },
+    {
+      "text": "A student who joins late still takes Bible.",
+      "of": "567deb60",
+      "at": [
+        "charlotte-christian:classes.note.strong"
+      ],
+      "t": "Yon elèv ki antre ta pran Bib kanmenm."
+    },
+    {
+      "text": "“Students must complete a Bible class each year they are enrolled at Charlotte Christian School. If a student is admitted as a senior, they will be required to complete both junior and senior Bible classes.”",
+      "of": "91bce979",
+      "at": [
+        "charlotte-christian:classes.note.text"
+      ],
+      "t": "“Elèv yo dwe konplete yon kou Bib chak ane yo enskri nan Charlotte Christian School. Si yo admèt yon elèv nan dènye ane, l ap oblije konplete kou Bib twazyèm ane a ak kou Bib dènye ane a, tou de.”"
+    },
+    {
+      "text": "Students can also graduate with distinction in Bible, Philosophy & Religion. Its requirements include a 3.89 Bible GPA, active participation in a local church and an interview with the Bible department.",
+      "of": "2ce95422",
+      "at": [
+        "charlotte-christian:classes.note.muted"
+      ],
+      "t": "Elèv yo ka gradye tou ak distenksyon nan Bible, Philosophy & Religion (Bib, filozofi ak relijyon). Pami egzijans li yo gen yon GPA 3.89 nan Bib, patisipasyon aktif nan yon legliz lokal ak yon entèvyou ak depatman Bib la."
+    },
+    {
+      "text": "Every division has a fall event set aside for faith and friendship. Grades 5–12 go away to the North Carolina mountains, and the cost is part of tuition.",
+      "of": "beed9505",
+      "at": [
+        "charlotte-christian:retreats.headline"
+      ],
+      "t": "Chak divizyon gen yon aktivite nan otòn ki rezève pou lafwa ak zanmitay. Klas 5–12 yo ale nan mòn North Carolina yo, epi pri a fè pati frè eskolè a."
+    },
+    {
+      "text": "Lower School: Camp S.L.A.M.",
+      "of": "99a07ae0",
+      "at": [
+        "charlotte-christian:retreats.cells[0].title"
+      ],
+      "t": "Lower School: Camp S.L.A.M."
+    },
+    {
+      "text": "“All lower school students will participate in a full day of Camp S.L.A.M. (Spiritual Life and Meaning) activities”. The day holds team games, “praise, worship, and study.” The speaker in fall 2026 was the Lower School Spiritual Life Director. Grade 4 has its own leadership and team-building day.",
+      "of": "d5744e60",
+      "at": [
+        "charlotte-christian:retreats.cells[0].text"
+      ],
+      "t": "“Tout elèv Lower School ap patisipe nan yon jounen konplè aktivite Camp S.L.A.M. (Spiritual Life and Meaning)” (lavi espirityèl ak sans). Jounen an gen jwèt an ekip, “louwanj, adorasyon ak etid”. Oratè otòn 2026 la se te Direktè Lavi Espirityèl Lower School la. Klas 4 gen pwòp jounen pa li pou lidèchip ak travay an ekip."
+    },
+    {
+      "text": "Middle School: Carolina Point",
+      "of": "f2a7a675",
+      "at": [
+        "charlotte-christian:retreats.cells[1].title"
+      ],
+      "t": "Middle School: Carolina Point"
+    },
+    {
+      "text": "“As a vital part of the middle school experience, all students participate in the annual Carolina Point retreat,” at a Young Life retreat center “outside Brevard, N.C.” The fall 2026 theme was “The Rejoice Choice.” Each session has games, worship music and a speaker, with cabin devotions at night.",
+      "of": "1f0cbfe9",
+      "at": [
+        "charlotte-christian:retreats.cells[1].text"
+      ],
+      "t": "“Kòm yon pati esansyèl nan eksperyans Middle School la, tout elèv patisipe nan retrèt Carolina Point chak ane a”, nan yon sant retrèt Young Life “andeyò Brevard, N.C.” Tèm otòn 2026 la se te “The Rejoice Choice” (Chwa pou rejwi). Chak sesyon gen jwèt, mizik adorasyon ak yon oratè, ak devosyon nan kabin yo aswè."
+    },
+    {
+      "text": "Upper School: Windy Gap",
+      "of": "fd6412c8",
+      "at": [
+        "charlotte-christian:retreats.cells[2].title"
+      ],
+      "t": "Upper School: Windy Gap"
+    },
+    {
+      "text": "The school says “all students are asked to participate in the annual Windy Gap retreat,” at a Young Life retreat center “outside Asheville, N.C.” The fall 2026 theme was “Transformed by Christ.” Four worship sessions are each followed by “Cabin Time, Reflection, and Sharing.” Seniors go a day early.",
+      "of": "0b4405fb",
+      "at": [
+        "charlotte-christian:retreats.cells[2].text"
+      ],
+      "t": "Lekòl la di “yo mande tout elèv patisipe nan retrèt Windy Gap chak ane a”, nan yon sant retrèt Young Life “andeyò Asheville, N.C.” Tèm otòn 2026 la se te “Transformed by Christ” (Transfòme pa Kris la). Apre chak nan kat sesyon adorasyon yo gen “Cabin Time, Reflection, and Sharing” (tan nan kabin, refleksyon ak pataj). Elèv dènye ane yo ale yon jou pi bonè."
+    },
+    {
+      "text": "Included in tuition:",
+      "of": "adfa710e",
+      "at": [
+        "charlotte-christian:retreats.note.strong"
+      ],
+      "t": "Enkli nan frè eskolè a:"
+    },
+    {
+      "text": "“Carolina Point and Windy Gap Retreats (the middle and upper school spiritual life two-day retreat) and field trips.”",
+      "of": "e5d1ff85",
+      "at": [
+        "charlotte-christian:retreats.note.text"
+      ],
+      "t": "“Retrèt Carolina Point ak Windy Gap (retrèt de jou sou lavi espirityèl pou Middle School ak Upper School) ak sòti eskolè yo.”"
+    },
+    {
+      "text": "“These retreats are only possible with the support of parent volunteers.”",
+      "of": "ea0f66e6",
+      "at": [
+        "charlotte-christian:retreats.note.muted"
+      ],
+      "t": "“Retrèt sa yo posib sèlman grasa sipò paran volontè yo.”"
+    },
+    {
+      "text": "Where students talk about faith in smaller groups: before-school groups, lunch devotions, advisory, and student leaders.",
+      "of": "49db66b0",
+      "at": [
+        "charlotte-christian:groups.headline"
+      ],
+      "t": "Kote elèv yo pale sou lafwa nan pi piti gwoup: gwoup anvan lekòl, devosyon nan lè manje midi, gwoup advisory, ak elèv lidè."
+    },
+    {
+      "text": "DIG groups (Discipleship In Groups)",
+      "of": "e8091e48",
+      "at": [
+        "charlotte-christian:groups.entries[0].title"
+      ],
+      "t": "Gwoup DIG (Discipleship In Groups, fòmasyon disip an gwoup)"
+    },
+    {
+      "text": "Groups “meet before school on Wednesday mornings from 7:10-7:35 a.m.” for part of each semester. “These groups will be led by upper school student volunteers with assistance from middle school faculty members.”",
+      "of": "adce9425",
+      "at": [
+        "charlotte-christian:groups.entries[0].text"
+      ],
+      "t": "Gwoup yo “reyini anvan lekòl chak mèkredi maten, soti 7:10-7:35 a.m.” pandan yon pati nan chak semès. “Se elèv volontè Upper School ki pral dirije gwoup sa yo, ak èd pwofesè Middle School.”"
+    },
+    {
+      "text": "Lunch and devotions",
+      "of": "88ba61b5",
+      "at": [
+        "charlotte-christian:groups.entries[1].title"
+      ],
+      "t": "Manje midi ak devosyon"
+    },
+    {
+      "text": "The Middle School Spiritual Life Director leads a weekly lunch discussion for grade 8 boys. Other groups include “Dodgeball & Devotions” for grades 5–7 boys and a girls’ devotions group.",
+      "of": "765d22c7",
+      "at": [
+        "charlotte-christian:groups.entries[1].text"
+      ],
+      "t": "Direktè Lavi Espirityèl Middle School la dirije yon diskisyon chak semèn nan lè manje midi pou ti gason klas 8. Lòt gwoup yo gen ladan “Dodgeball & Devotions” (jwèt dodgeball ak devosyon) pou ti gason klas 5–7 ak yon gwoup devosyon pou tifi."
+    },
+    {
+      "text": "Kingdoms and advisory",
+      "of": "e9e85801",
+      "at": [
+        "charlotte-christian:groups.entries[2].title"
+      ],
+      "t": "Wayòm yo ak gwoup advisory"
+    },
+    {
+      "text": "“Six kingdoms, one king.” Each Middle School student joins one of six groups “that meet routinely throughout the year.” Advisory groups hold Bible studies, and eighth graders can serve on a Kingdom Council for “spiritual and student life.”",
+      "of": "aaa1b13a",
+      "at": [
+        "charlotte-christian:groups.entries[2].text"
+      ],
+      "t": "“Six kingdoms, one king.” (Sis wayòm, yon sèl wa.) Chak elèv Middle School antre nan youn nan sis gwoup “ki reyini regilyèman pandan tout ane a”. Gwoup advisory yo fè etid biblik, epi elèv uityèm ane ka sèvi nan yon Kingdom Council (konsèy elèv) pou “lavi espirityèl ak lavi elèv”."
+    },
+    {
+      "text": "Upper School Bible studies",
+      "of": "a456d99e",
+      "at": [
+        "charlotte-christian:groups.entries[3].title"
+      ],
+      "t": "Etid biblik Upper School"
+    },
+    {
+      "text": "Parents and teachers can lead “a Bible study for upper school students” through the Upper School Spiritual Life Director.",
+      "of": "7bcf1ba1",
+      "at": [
+        "charlotte-christian:groups.entries[3].text"
+      ],
+      "t": "Paran ak pwofesè ka dirije “yon etid biblik pou elèv Upper School” atravè Direktè Lavi Espirityèl Upper School la."
+    },
+    {
+      "text": "The school’s pages do not say when these groups meet.",
+      "of": "c5b18629",
+      "at": [
+        "charlotte-christian:groups.entries[3].muted"
+      ],
+      "t": "Paj lekòl la pa di ki lè gwoup sa yo reyini."
+    },
+    {
+      "text": "Student leaders",
+      "of": "e60ca716",
+      "at": [
+        "charlotte-christian:groups.entries[4].title"
+      ],
+      "t": "Elèv lidè"
+    },
+    {
+      "text": "A Spiritual Life Prefect is one of nine senior student leaders. Prefects speak and pray in chapel, and Upper School volunteers lead the Middle School DIG groups.",
+      "of": "bcb5af25",
+      "at": [
+        "charlotte-christian:groups.entries[4].text"
+      ],
+      "t": "Yon Spiritual Life Prefect (elèv lidè pou lavi espirityèl) se youn nan nèf elèv lidè dènye ane yo. Prefect yo pale epi yo priye nan chapèl, epi volontè Upper School dirije gwoup DIG Middle School yo."
+    },
+    {
+      "text": "Spiritual Life Conference",
+      "of": "0a7d311a",
+      "at": [
+        "charlotte-christian:groups.entries[5].title"
+      ],
+      "t": "Konferans sou lavi espirityèl"
+    },
+    {
+      "text": "On conference days, “special speakers are invited to campus for a time of focused teaching and discussion”.",
+      "of": "265c7d69",
+      "at": [
+        "charlotte-christian:groups.entries[5].text"
+      ],
+      "t": "Nan jou konferans yo, “yo envite oratè espesyal sou kanpis la pou yon tan ansèyman ak diskisyon ki konsantre”."
+    },
+    {
+      "text": "The school’s mission, its five core values and its ten-point statement of faith, in the school’s own words.",
+      "of": "ef08810f",
+      "at": [
+        "charlotte-christian:beliefs.headline"
+      ],
+      "t": "Misyon lekòl la, senk valè fondamantal li yo ak deklarasyon lafwa li an dis pwen, nan pwòp mo lekòl la."
+    },
+    {
+      "text": "“Charlotte Christian School is a Christ-centered, college preparatory school, equipping and developing students to effectively integrate Biblical truth and learning into their daily lives and to impact the culture for Christ.”",
+      "of": "aed901a1",
+      "at": [
+        "charlotte-christian:beliefs.mission"
+      ],
+      "t": "“Charlotte Christian School se yon lekòl ki santre sou Kris la, ki prepare elèv pou inivèsite, ki ekipe ak devlope elèv yo pou yo entegre verite biblik ak aprantisaj nan lavi yo chak jou yon fason efikas, epi pou yo gen enpak sou kilti a pou Kris la.”"
+    },
+    {
+      "text": "Love God",
+      "of": "aefdea87",
+      "at": [
+        "charlotte-christian:beliefs.values[0].name"
+      ],
+      "t": "Renmen Bondye"
+    },
+    {
+      "text": "Show Kindness",
+      "of": "6dca795d",
+      "at": [
+        "charlotte-christian:beliefs.values[1].name"
+      ],
+      "t": "Montre Bonte"
+    },
+    {
+      "text": "Walk Humbly",
+      "of": "0d4f9943",
+      "at": [
+        "charlotte-christian:beliefs.values[2].name"
+      ],
+      "t": "Mache ak Imilite"
+    },
+    {
+      "text": "Pursue Excellence",
+      "of": "93d0e213",
+      "at": [
+        "charlotte-christian:beliefs.values[3].name"
+      ],
+      "t": "Pouswiv Ekselans"
+    },
+    {
+      "text": "Seek Truth",
+      "of": "635804ac",
+      "at": [
+        "charlotte-christian:beliefs.values[4].name"
+      ],
+      "t": "Chèche Verite"
+    },
+    {
+      "text": "No one church runs the school.",
+      "of": "4eed29f4",
+      "at": [
+        "charlotte-christian:beliefs.note.strong"
+      ],
+      "t": "Pa gen okenn legliz an patikilye ki dirije lekòl la."
+    },
+    {
+      "text": "“The members of the board of trustees, the faculty and the student body represent various denominations and practices. The school is not under the direction, influence or support of any particular church.”",
+      "of": "62ae84e0",
+      "at": [
+        "charlotte-christian:beliefs.note.text"
+      ],
+      "t": "“Manm konsèy administrasyon an, pwofesè yo ak elèv yo reprezante divès denominasyon ak pratik. Lekòl la pa anba direksyon, enfliyans ni sipò okenn legliz an patikilye.”"
+    },
+    {
+      "text": "The 2026–27 theme verse is Philippians 4:4-7.",
+      "of": "2f879cf3",
+      "at": [
+        "charlotte-christian:beliefs.note.muted"
+      ],
+      "t": "Vèsè tèm 2026–27 la se Philippians 4:4-7."
+    },
+    {
+      "text": "“We believe that God is one being – infinitely just, wise, good, loving and holy, and existing eternally in three persons: Father, Son and Holy Spirit. He is the sovereign Creator of the universe and by His providence sustains and rules all that He has made.”",
+      "of": "353df0da",
+      "at": [
+        "charlotte-christian:beliefs.articles[0]"
+      ],
+      "t": "“Nou kwè Bondye se yon sèl èt – ki jis, saj, bon, plen lanmou e sen san limit, epi ki egziste pou tout tan nan twa pèsòn: Papa a, Pitit la ak Sentespri a. Se Li ki Kreyatè souvren linivè a, epi pa pwovidans Li, Li soutni e Li gouvènen tout sa Li fè.”"
+    },
+    {
+      "text": "“We believe that Jesus Christ, Son of God, is fully divine and fully human, and that He saves His people from their sin by His life, death, and resurrection, and is now ruling over His Church and the world through His Word and Spirit.”",
+      "of": "6b2bb59b",
+      "at": [
+        "charlotte-christian:beliefs.articles[1]"
+      ],
+      "t": "“Nou kwè Jezikri, Pitit Bondye a, se Bondye nèt e se moun nèt, e Li sove pèp Li a anba peche yo pa lavi Li, lanmò Li ak rezirèksyon Li, epi kounye a L ap gouvènen Legliz Li a ak lemonn pa Pawòl Li ak Lespri Li.”"
+    },
+    {
+      "text": "“We believe that the Holy Spirit regenerates sinners, resides in believers and enables them to live a Godly life and to use the spiritual gifts He has given them.”",
+      "of": "98e462e3",
+      "at": [
+        "charlotte-christian:beliefs.articles[2]"
+      ],
+      "t": "“Nou kwè Sentespri a fè pechè yo fèt yon lòt fwa, Li rete nan kwayan yo, e Li ba yo kapasite pou yo viv yon lavi ki fè Bondye plezi epi pou yo sèvi ak don espirityèl Li ba yo.”"
+    },
+    {
+      "text": "“We believe that the Scriptures of the Old and New Testaments are the inspired, infallible and inerrant Word of God, our final authority in matters of doctrine and practice.”",
+      "of": "bf248a55",
+      "at": [
+        "charlotte-christian:beliefs.articles[3]"
+      ],
+      "t": "“Nou kwè Ekriti Ansyen Testaman ak Nouvo Testaman yo se Pawòl Bondye, ki enspire, ki enfayib e ki san erè; se yo ki otorite final nou nan zafè doktrin ak pratik.”"
+    },
+    {
+      "text": "“We believe that sinners are justified by grace through faith on the basis of the finished work of Christ (His death and resurrection) and live this life by the power of God.”",
+      "of": "78d0acc5",
+      "at": [
+        "charlotte-christian:beliefs.articles[4]"
+      ],
+      "t": "“Nou kwè pechè yo jistifye pa lagras, grasa lafwa, sou baz travay Kris la fin akonpli a (lanmò Li ak rezirèksyon Li), e yo viv lavi sa a pa pisans Bondye.”"
+    },
+    {
+      "text": "“We believe that God is calling people from the whole human race to believe in His Son, Jesus Christ, and to become members of His Body, the Church. Those who believe in Jesus as Lord and Savior enjoy the blessings of God and fellowship with each other in communities of faith until Jesus returns.”",
+      "of": "6246805c",
+      "at": [
+        "charlotte-christian:beliefs.articles[5]"
+      ],
+      "t": "“Nou kwè Bondye ap rele moun nan tout limanite pou yo kwè nan Pitit Li a, Jezikri, epi pou yo vin manm Kò Li a, Legliz la. Moun ki kwè nan Jezi kòm Senyè ak Sovè jwi benediksyon Bondye ak kominyon youn ak lòt nan kominote lafwa, jiskaske Jezi tounen.”"
+    },
+    {
+      "text": "“We believe that man, male and female, was created in the image of God, but fell into sin through the disobedience of Adam and Eve. As a result of the fall, all people are born sinful and in need of salvation.”",
+      "of": "d8bf7734",
+      "at": [
+        "charlotte-christian:beliefs.articles[6]"
+      ],
+      "t": "“Nou kwè lòm, gason ak fi, te fèt dapre imaj Bondye, men li te tonbe nan peche akòz dezobeyisans Adan ak Èv. Kòm rezilta chit la, tout moun fèt pechè e yo bezwen delivrans.”"
+    },
+    {
+      "text": "“We believe that marriage is a covenantal relationship created by God for a man and a woman. Sexual intimacy is a gift from God and has its proper place only within the context of marriage.”",
+      "of": "e1e3a547",
+      "at": [
+        "charlotte-christian:beliefs.articles[7]"
+      ],
+      "t": "“Nou kwè maryaj se yon relasyon alyans Bondye kreye pou yon gason ak yon fi. Entimite seksyèl se yon kado Bondye bay, e bon plas li se sèlman nan kad maryaj.”"
+    },
+    {
+      "text": "“We believe that Jesus Christ, the Son of God, will return to renew the whole creation and to judge the living and the dead.”",
+      "of": "fe82762c",
+      "at": [
+        "charlotte-christian:beliefs.articles[8]"
+      ],
+      "t": "“Nou kwè Jezikri, Pitit Bondye a, ap tounen pou L renouvle tout kreyasyon an epi pou L jije moun ki vivan ak moun ki mouri.”"
+    },
+    {
+      "text": "“We believe Christian education is a partnership between students, faculty and parents that provides an opportunity for students to learn and experience academics and co-curricular activities through a biblical worldview, in the presence of Christ-honoring faculty.”",
+      "of": "2ed3e072",
+      "at": [
+        "charlotte-christian:beliefs.articles[9]"
+      ],
+      "t": "“Nou kwè edikasyon kretyen se yon patenarya ant elèv, pwofesè ak paran, ki bay elèv yo okazyon pou yo aprann epi viv etid akademik ak aktivite ko-kourikilè atravè yon vizyon biblik sou lemonn, nan prezans pwofesè ki onore Kris la.”"
+    },
+    {
+      "text": "What the school’s public pages say about faith when you apply and once you enroll, and what they leave unsaid.",
+      "of": "2700b011",
+      "at": [
+        "charlotte-christian:families.headline"
+      ],
+      "t": "Sa paj piblik lekòl la di sou lafwa lè w ap aplike ak lè ou fin enskri, ak sa yo pa di."
+    },
+    {
+      "text": "When you apply",
+      "of": "fbc4b036",
+      "at": [
+        "charlotte-christian:families.groups[0].name"
+      ],
+      "t": "Lè w ap aplike"
+    },
+    {
+      "text": "Student faith questions",
+      "of": "e7858d01",
+      "at": [
+        "charlotte-christian:families.groups[0].rows[0].label"
+      ],
+      "t": "Kesyon sou lafwa elèv la"
+    },
+    {
+      "text": "Applicants to grades 5–12 fill in a questionnaire by hand. It asks about “Spiritual and/or church related activities” and says: “Describe your relationship with Jesus Christ.”",
+      "of": "13953c35",
+      "at": [
+        "charlotte-christian:families.groups[0].rows[0].detail"
+      ],
+      "t": "Kandida pou klas 5–12 ranpli yon kesyonè alamen. Li poze kesyon sou “aktivite espirityèl ak/oswa aktivite ki gen rapò ak legliz” epi li di: “Dekri relasyon ou ak Jezikri.”"
+    },
+    {
+      "text": "Family interview",
+      "of": "94e34996",
+      "at": [
+        "charlotte-christian:families.groups[0].rows[1].label"
+      ],
+      "t": "Entèvyou ak fanmi an"
+    },
+    {
+      "text": "Each family meets “a member of our leadership team” to “share goals for the next step in your student’s educational journey.”",
+      "of": "47169ee7",
+      "at": [
+        "charlotte-christian:families.groups[0].rows[1].detail"
+      ],
+      "t": "Chak fanmi rankontre “yon manm ekip direksyon nou an” pou “pataje objektif pou pwochen etap nan pakou edikatif elèv ou a”."
+    },
+    {
+      "text": "A parent’s own faith",
+      "of": "df592ad8",
+      "at": [
+        "charlotte-christian:families.groups[0].rows[2].label"
+      ],
+      "t": "Lafwa paran an menm"
+    },
+    {
+      "text": "The public pages do not say whether a parent must be a Christian or attend a church.",
+      "of": "592818ab",
+      "at": [
+        "charlotte-christian:families.groups[0].rows[2].detail"
+      ],
+      "t": "Paj piblik yo pa di si yon paran dwe kretyen oswa si li dwe ale nan yon legliz."
+    },
+    {
+      "text": "Pastor reference",
+      "of": "cd83f059",
+      "at": [
+        "charlotte-christian:families.groups[0].rows[3].label"
+      ],
+      "t": "Referans yon pastè"
+    },
+    {
+      "text": "None is listed in the published application steps or checklists.",
+      "of": "34654847",
+      "at": [
+        "charlotte-christian:families.groups[0].rows[3].detail"
+      ],
+      "t": "Pa gen okenn ki sou lis nan etap aplikasyon oswa lis verifikasyon ki pibliye yo."
+    },
+    {
+      "text": "Signing the statement of faith",
+      "of": "d7d8e80b",
+      "at": [
+        "charlotte-christian:families.groups[0].rows[4].label"
+      ],
+      "t": "Siyen deklarasyon lafwa a"
+    },
+    {
+      "text": "Not listed in the published application steps.",
+      "of": "19d3e804",
+      "at": [
+        "charlotte-christian:families.groups[0].rows[4].detail"
+      ],
+      "t": "Li pa sou lis nan etap aplikasyon ki pibliye yo."
+    },
+    {
+      "text": "Once enrolled",
+      "of": "d9033401",
+      "at": [
+        "charlotte-christian:families.groups[1].name"
+      ],
+      "t": "Lè ou fin enskri"
+    },
+    {
+      "text": "Family Agreement Form",
+      "of": "56281385",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[0].label"
+      ],
+      "t": "Family Agreement Form"
+    },
+    {
+      "text": "“Both parents and students need to read and digitally sign the online Back-to-School Form including the Family Agreement Form and Responsible Use Policy in myCCS.” The form itself is not on the public site.",
+      "of": "9cdbb748",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[0].detail"
+      ],
+      "t": "“Ni paran ni elèv dwe li epi siyen nan fòma dijital Back-to-School Form sou entènèt la, ki gen ladan Family Agreement Form ak Responsible Use Policy, nan myCCS.” Fòm akò fanmi an menm pa sou sit piblik la."
+    },
+    {
+      "text": "Bible class",
+      "of": "6f74c399",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[1].label"
+      ],
+      "t": "Kou Bib"
+    },
+    {
+      "text": "Required every year, junior kindergarten through grade 12.",
+      "of": "a97a83b2",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[1].detail"
+      ],
+      "t": "Obligatwa chak ane, depi Junior Kindergarten rive nan 12yèm ane."
+    },
+    {
+      "text": "Retreats",
+      "of": "6e3383f9",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[2].label"
+      ],
+      "t": "Retrèt"
+    },
+    {
+      "text": "In the Middle School, “all students participate”. In the Upper School, “all students are asked to participate”.",
+      "of": "914f06ef",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[2].detail"
+      ],
+      "t": "Nan Middle School, “tout elèv patisipe”. Nan Upper School, “yo mande tout elèv patisipe”."
+    },
+    {
+      "text": "Student conduct",
+      "of": "e448eab0",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[3].label"
+      ],
+      "t": "Konduit elèv"
+    },
+    {
+      "text": "The grades 5–12 questionnaire ends: “I understand I need to abide by these policies and honor Christ at all times.” The school’s Honor Code applies around the clock, all year.",
+      "of": "270396a5",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[3].detail"
+      ],
+      "t": "Kesyonè klas 5–12 la fini konsa: “Mwen konprann mwen dwe respekte règleman sa yo epi onore Kris la tout tan.” Honor Code (kòd onè) lekòl la aplike lajounen kou lannuit, pandan tout ane a."
+    },
+    {
+      "text": "Partnership with parents",
+      "of": "253a65fc",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[4].label"
+      ],
+      "t": "Patenarya ak paran yo"
+    },
+    {
+      "text": "The statement of faith calls Christian education “a partnership between students, faculty and parents”.",
+      "of": "42b2acae",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[4].detail"
+      ],
+      "t": "Deklarasyon lafwa a rele edikasyon kretyen “yon patenarya ant elèv, pwofesè ak paran”."
+    },
+    {
+      "text": "Chapel attendance",
+      "of": "bf92e599",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[5].label"
+      ],
+      "t": "Prezans nan chapèl"
+    },
+    {
+      "text": "The public pages do not say whether chapel is required.",
+      "of": "889f792d",
+      "at": [
+        "charlotte-christian:families.groups[1].rows[5].detail"
+      ],
+      "t": "Paj piblik yo pa di si chapèl obligatwa."
+    },
+    {
+      "text": "Teachers and staff must share the faith.",
+      "of": "84aea924",
+      "at": [
+        "charlotte-christian:families.note.strong"
+      ],
+      "t": "Pwofesè ak anplwaye yo dwe pataje lafwa a."
+    },
+    {
+      "text": "“All individuals applying for employment must be willing to serve Christ in the daily performance of their duties and to fully support our statement of faith.”",
+      "of": "b779f756",
+      "at": [
+        "charlotte-christian:families.note.text"
+      ],
+      "t": "“Tout moun ki aplike pou travay dwe dispoze sèvi Kris la nan travay yo chak jou epi sipòte deklarasyon lafwa nou an nèt.”"
+    },
+    {
+      "text": "The school keeps its Family Handbook, its Honor Code and its online application behind a family login, not on its public site.",
+      "of": "122d7c31",
+      "at": [
+        "charlotte-christian:families.note.muted"
+      ],
+      "t": "Lekòl la kenbe Family Handbook (manyèl fanmi) li a, Honor Code li a ak aplikasyon sou entènèt li a dèyè yon koneksyon pou fanmi, pa sou sit piblik li a."
+    },
+    {
+      "text": "The school treats service as part of faith. Students serve local nonprofits all year, and Upper School students can join mission trips during Winterim.",
+      "of": "e01e46c3",
+      "at": [
+        "charlotte-christian:service.headline"
+      ],
+      "t": "Lekòl la konsidere sèvis kòm yon pati nan lafwa. Elèv yo sèvi òganizasyon lokal san bi likratif pandan tout ane a, epi elèv Upper School ka patisipe nan vwayaj misyonè pandan Winterim."
+    },
+    {
+      "text": "All-school serve day",
+      "of": "233e085e",
+      "at": [
+        "charlotte-christian:service.entries[0].title"
+      ],
+      "t": "Jounen sèvis pou tout lekòl la"
+    },
+    {
+      "text": "In spring 2026 the school “packed 79,056 meals” with Servants with a Heart.",
+      "of": "06b1ea3b",
+      "at": [
+        "charlotte-christian:service.entries[0].text"
+      ],
+      "t": "Nan prentan 2026, lekòl la “te anbale 79,056 repa” ansanm ak Servants with a Heart."
+    },
+    {
+      "text": "Operation Christmas Child",
+      "of": "c21f19dc",
+      "at": [
+        "charlotte-christian:service.entries[1].title"
+      ],
+      "t": "Operation Christmas Child"
+    },
+    {
+      "text": "The fall 2026 goal was “to pack 1,850 shoeboxes” in time for the Thanksgiving chapel. Other named partners are The Odd Sock, Bright Blessings, Roof Above and the Harvest Center.",
+      "of": "83d1f787",
+      "at": [
+        "charlotte-christian:service.entries[1].text"
+      ],
+      "t": "Objektif otòn 2026 la se te “ranpli 1,850 bwat soulye” alè pou chapèl Thanksgiving la. Lòt patnè yo nonmen se The Odd Sock, Bright Blessings, Roof Above ak Harvest Center."
+    },
+    {
+      "text": "Kingdom Impact Day",
+      "of": "e47ad8fe",
+      "at": [
+        "charlotte-christian:service.entries[2].title"
+      ],
+      "t": "Kingdom Impact Day"
+    },
+    {
+      "text": "“Six local nonprofit organizations shared about their missions” with Middle School students in spring 2026. A separate Middle School crayon drive collected “98,484 crayons”.",
+      "of": "c375240b",
+      "at": [
+        "charlotte-christian:service.entries[2].text"
+      ],
+      "t": "“Sis òganizasyon lokal san bi likratif te pale sou misyon yo” ak elèv Middle School nan prentan 2026. Yon kolèk kreyon koulè apa nan Middle School te ranmase “98,484 kreyon koulè”."
+    },
+    {
+      "text": "Winterim mission trips",
+      "of": "a2547bb4",
+      "at": [
+        "charlotte-christian:service.entries[3].title"
+      ],
+      "t": "Vwayaj misyonè Winterim"
+    },
+    {
+      "text": "“The upper school offers various local, regional, and international mission trip opportunities throughout the year, including during Winterim.” The 2027 list includes a Serve Charlotte week and trips with SCORE International, Rancho El Camino and Samaritan’s Feet.",
+      "of": "583ae11a",
+      "at": [
+        "charlotte-christian:service.entries[3].text"
+      ],
+      "t": "“Upper School la ofri divès okazyon vwayaj misyonè lokal, rejyonal ak entènasyonal pandan tout ane a, enkli pandan Winterim.” Lis 2027 la gen ladan yon semèn Serve Charlotte ak vwayaj ak SCORE International, Rancho El Camino ak Samaritan’s Feet."
+    },
+    {
+      "text": "Service hours start in sixth grade.",
+      "of": "e7835585",
+      "at": [
+        "charlotte-christian:service.note.strong"
+      ],
+      "t": "Èdtan sèvis kòmanse nan sizyèm ane."
+    },
+    {
+      "text": "“Beginning in sixth grade, students are encouraged to earn service hours each year”.",
+      "of": "b080f66b",
+      "at": [
+        "charlotte-christian:service.note.text"
+      ],
+      "t": "“Apati sizyèm ane, yo ankouraje elèv yo fè èdtan sèvis chak ane”."
+    },
+    {
+      "text": "The school’s pages do not give a number of hours per grade.",
+      "of": "47443ecb",
+      "at": [
+        "charlotte-christian:service.note.muted"
+      ],
+      "t": "Paj lekòl la pa bay yon kantite èdtan pou chak klas."
+    },
+    {
+      "text": "Each division has its own spiritual life director. The school also lists a campus pastor, a service coordinator and a worship coordinator.",
+      "of": "ce5f769a",
+      "at": [
+        "charlotte-christian:staff.headline"
+      ],
+      "t": "Chak divizyon gen pwòp direktè lavi espirityèl pa li. Lekòl la mansyone tou yon pastè kanpis, yon kowòdonatè sèvis ak yon kowòdonatè adorasyon."
+    },
+    {
+      "text": "Lower School Spiritual Life Director",
+      "of": "164a935d",
+      "at": [
+        "charlotte-christian:staff.people[0].role"
+      ],
+      "t": "Direktè Lavi Espirityèl Lower School"
+    },
+    {
+      "text": "Middle School Spiritual Life Director, Middle School Bible Teacher",
+      "of": "6e6cbd6a",
+      "at": [
+        "charlotte-christian:staff.people[1].role"
+      ],
+      "t": "Direktè Lavi Espirityèl Middle School, Pwofesè Bib Middle School"
+    },
+    {
+      "text": "Upper School Spiritual Life Director",
+      "of": "0c132c42",
+      "at": [
+        "charlotte-christian:staff.people[2].role"
+      ],
+      "t": "Direktè Lavi Espirityèl Upper School"
+    },
+    {
+      "text": "Campus Pastor",
+      "of": "a4b30e91",
+      "at": [
+        "charlotte-christian:staff.people[3].role"
+      ],
+      "t": "Pastè Kanpis"
+    },
+    {
+      "text": "Upper School Broadcasting and Film Teacher, Service Coordinator",
+      "of": "c6474b3e",
+      "at": [
+        "charlotte-christian:staff.people[4].role"
+      ],
+      "t": "Pwofesè Difizyon ak Fim Upper School, Kowòdonatè Sèvis"
+    },
+    {
+      "text": "Fine Arts & Worship Coordinator",
+      "of": "d987057b",
+      "at": [
+        "charlotte-christian:staff.people[5].role"
+      ],
+      "t": "Kowòdonatè Bozar ak Adorasyon"
+    },
+    {
+      "text": "Upper School Bible Teacher, Bible Department Head",
+      "of": "27b58135",
+      "at": [
+        "charlotte-christian:staff.people[6].role"
+      ],
+      "t": "Pwofesè Bib Upper School, Chèf Depatman Bib"
+    },
+    {
+      "text": "Start with your child’s division director.",
+      "of": "b6411b3b",
+      "at": [
+        "charlotte-christian:staff.note.strong"
+      ],
+      "t": "Kòmanse ak direktè divizyon pitit ou a."
+    },
+    {
+      "text": "Five more Bible teachers are listed in the school directory.",
+      "of": "645d41b5",
+      "at": [
+        "charlotte-christian:staff.note.muted"
+      ],
+      "t": "Gen senk lòt pwofesè Bib ki nan anyè lekòl la."
+    },
+    {
+      "text": "Bible studies, prayer groups and weekly emails the school runs for parents and grandparents.",
+      "of": "af457c9d",
+      "at": [
+        "charlotte-christian:parents.headline"
+      ],
+      "t": "Etid biblik, gwoup lapriyè ak imel chak semèn lekòl la òganize pou paran ak granparan."
+    },
+    {
+      "text": "Emails home",
+      "of": "5601fdb3",
+      "at": [
+        "charlotte-christian:parents.entries[0].title"
+      ],
+      "t": "Imel pou fanmi yo"
+    },
+    {
+      "text": "A Chapel Recap from the Spiritual Life Directors, and a Monday note from the head of school “with a short devotional thought and a few school-wide prayer requests.”",
+      "of": "188b61b8",
+      "at": [
+        "charlotte-christian:parents.entries[0].text"
+      ],
+      "t": "Yon Chapel Recap Direktè Lavi Espirityèl yo voye, ak yon nòt chak lendi direktè jeneral lekòl la voye “ak yon ti refleksyon devosyonèl ak kèk demann lapriyè pou tout lekòl la”."
+    },
+    {
+      "text": "Haverim Ladies’ Bible Study",
+      "of": "aed144bd",
+      "at": [
+        "charlotte-christian:parents.entries[1].title"
+      ],
+      "t": "Etid biblik Haverim pou medam"
+    },
+    {
+      "text": "“Wednesday from 12:15-2:15 p.m. OR Tuesday via Zoom from 7:30-8:30 p.m.” Open to “moms, grandmothers, alumni moms, and staff.” The 2026–27 study is the book of Romans.",
+      "of": "5a3d57c7",
+      "at": [
+        "charlotte-christian:parents.entries[1].text"
+      ],
+      "t": "“Mèkredi soti 12:15-2:15 p.m. OSWA madi sou Zoom soti 7:30-8:30 p.m.” Li ouvri pou “manman, grann, manman ansyen elèv, ak anplwaye”. Etid 2026–27 la se sou liv Women an."
+    },
+    {
+      "text": "Parents in Prayer",
+      "of": "ca4f5668",
+      "at": [
+        "charlotte-christian:parents.entries[2].title"
+      ],
+      "t": "Parents in Prayer"
+    },
+    {
+      "text": "Thursdays, 8:00–9:30 AM on campus, with a virtual session about once a month. “Prayer parents pray for the boys or girls in their child’s grade level on a regular basis”.",
+      "of": "839ff8ec",
+      "at": [
+        "charlotte-christian:parents.entries[2].text"
+      ],
+      "t": "Chak jedi, 8:00–9:30 AM sou kanpis la, ak yon sesyon vityèl anviwon yon fwa pa mwa. “Paran k ap priye yo priye regilyèman pou ti gason oswa tifi ki nan nivo klas pitit yo”."
+    },
+    {
+      "text": "Men’s Power Hour",
+      "of": "68cdfc78",
+      "at": [
+        "charlotte-christian:parents.entries[3].title"
+      ],
+      "t": "Men’s Power Hour"
+    },
+    {
+      "text": "“For CCS Men,” a monthly morning meeting off campus.",
+      "of": "1a6be535",
+      "at": [
+        "charlotte-christian:parents.entries[3].text"
+      ],
+      "t": "“Pou mesye CCS yo”, yon reyinyon chak mwa nan maten andeyò kanpis la."
+    },
+    {
+      "text": "Books and Fellowship",
+      "of": "0bed32bd",
+      "at": [
+        "charlotte-christian:parents.entries[4].title"
+      ],
+      "t": "Books and Fellowship"
+    },
+    {
+      "text": "“For CCS Ladies,” monthly from 8-9:15 a.m. in a private home.",
+      "of": "65856cef",
+      "at": [
+        "charlotte-christian:parents.entries[4].text"
+      ],
+      "t": "“Pou medam CCS yo”, chak mwa soti 8-9:15 a.m. nan yon kay prive."
+    },
+    {
+      "text": "Romans 12 Gatherings",
+      "of": "a94dd44c",
+      "at": [
+        "charlotte-christian:parents.entries[5].title"
+      ],
+      "t": "Romans 12 Gatherings"
+    },
+    {
+      "text": "Open to the whole school community, to talk about “diversity, belonging, and Jesus’ command to live in unity and reconciliation with one another.”",
+      "of": "28908133",
+      "at": [
+        "charlotte-christian:parents.entries[5].text"
+      ],
+      "t": "Ouvri pou tout kominote lekòl la, pou pale sou “divèsite, apatenans, ak kòmandman Jezi pou nou viv nan inite ak rekonsilyasyon youn ak lòt”."
+    },
+    {
+      "text": "Knight to Knight",
+      "of": "7ef8970a",
+      "at": [
+        "charlotte-christian:parents.entries[6].title"
+      ],
+      "t": "Knight to Knight"
+    },
+    {
+      "text": "Families of Lower and Middle School students are paired with the senior class to “encourage, pray for and bless” the seniors in their last year.",
+      "of": "32740259",
+      "at": [
+        "charlotte-christian:parents.entries[6].text"
+      ],
+      "t": "Yo mete fanmi elèv Lower School ak Middle School ansanm ak elèv dènye ane yo pou “ankouraje yo, priye pou yo epi beni yo” nan dènye ane yo."
+    },
+    {
+      "text": "Every parent belongs to the Parent Teacher Fellowship.",
+      "of": "1eb6ea9d",
+      "at": [
+        "charlotte-christian:parents.note.strong"
+      ],
+      "t": "Chak paran fè pati Parent Teacher Fellowship (asosyasyon paran ak pwofesè)."
+    },
+    {
+      "text": "One of its jobs is “critical prayer support for all aspects of the school community.”",
+      "of": "dfbbcd1a",
+      "at": [
+        "charlotte-christian:parents.note.text"
+      ],
+      "t": "Youn nan travay li se “sipò lapriyè ki esansyèl pou tout aspè kominote lekòl la”."
+    },
+    {
+      "text": "Ten questions to take on the tour. Each covers something the school’s public pages leave unanswered or say two ways.",
+      "of": "d45f86d9",
+      "at": [
+        "charlotte-christian:ask.headline"
+      ],
+      "t": "Dis kesyon pou w pote nan vizit la. Chak kesyon se sou yon bagay paj piblik lekòl la pa reponn oswa di de fason diferan."
+    },
+    {
+      "text": "Does a parent need to be a Christian, or belong to a church, for a child to be admitted?",
+      "of": "a0e1e94d",
+      "at": [
+        "charlotte-christian:ask.questions[0]"
+      ],
+      "t": "Èske yon paran dwe kretyen, oswa manm yon legliz, pou yo admèt yon timoun?"
+    },
+    {
+      "text": "What does the Family Agreement Form ask parents and students to agree to? May we read it before we apply?",
+      "of": "f2ef1a03",
+      "at": [
+        "charlotte-christian:ask.questions[1]"
+      ],
+      "t": "Kisa Family Agreement Form (fòm akò fanmi) mande paran ak elèv dakò ak li? Èske nou ka li l anvan nou aplike?"
+    },
+    {
+      "text": "What are you looking for in a student’s answer to “Describe your relationship with Jesus Christ”?",
+      "of": "e6939ed5",
+      "at": [
+        "charlotte-christian:ask.questions[2]"
+      ],
+      "t": "Kisa lekòl la ap chèche nan repons yon elèv bay pou “Dekri relasyon ou ak Jezikri”?"
+    },
+    {
+      "text": "Is chapel required for every student?",
+      "of": "7ff625fb",
+      "at": [
+        "charlotte-christian:ask.questions[3]"
+      ],
+      "t": "Èske chapèl obligatwa pou chak elèv?"
+    },
+    {
+      "text": "How many service hours does each grade need? One page says hours are “encouraged” and another mentions “school required service hours.”",
+      "of": "ac2ba319",
+      "at": [
+        "charlotte-christian:ask.questions[4]"
+      ],
+      "t": "Konbyen èdtan sèvis chak klas bezwen? Yon paj di yo “ankouraje” èdtan yo, yon lòt pale de “èdtan sèvis lekòl la egzije”."
+    },
+    {
+      "text": "When do Upper School Bible studies meet, who leads them, and how does a student join one?",
+      "of": "1d7fb7f2",
+      "at": [
+        "charlotte-christian:ask.questions[5]"
+      ],
+      "t": "Ki lè etid biblik Upper School yo reyini, kiyès ki dirije yo, epi kijan yon elèv ka antre nan youn?"
+    },
+    {
+      "text": "Which Bible curriculum do the Lower and Middle Schools use? Is there Scripture memory?",
+      "of": "5c351240",
+      "at": [
+        "charlotte-christian:ask.questions[6]"
+      ],
+      "t": "Ki pwogram Bib Lower School ak Middle School itilize? Èske elèv yo aprann vèsè Ekriti pa kè?"
+    },
+    {
+      "text": "What does the Campus Pastor do, and can families meet with him?",
+      "of": "6a615ab5",
+      "at": [
+        "charlotte-christian:ask.questions[7]"
+      ],
+      "t": "Kisa Pastè Kanpis la fè, epi èske fanmi yo ka rankontre l?"
+    },
+    {
+      "text": "How does a student who is new to the Christian faith, or from another faith, fit in here?",
+      "of": "95f84c62",
+      "at": [
+        "charlotte-christian:ask.questions[8]"
+      ],
+      "t": "Kijan yon elèv ki fèk vin nan lafwa kretyen an, oswa ki soti nan yon lòt relijyon, jwenn plas li isit la?"
+    },
+    {
+      "text": "May we read the Honor Code and the Family Handbook before we enroll?",
+      "of": "9858f9f0",
+      "at": [
+        "charlotte-christian:ask.questions[9]"
+      ],
+      "t": "Èske nou ka li Honor Code ak Family Handbook anvan nou enskri?"
+    },
+    {
+      "text": "November 26, 2026",
+      "of": "2ffc88e3",
+      "at": [
+        "charlotte-christian:ask.asOf"
+      ],
+      "t": "26 novanm 2026"
+    }
+  ]
+}

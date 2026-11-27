@@ -7884,6 +7884,14 @@ a.cs-college-name:focus-visible {
 
 .ls-src { margin-top: 16px; }
 
+/* Faith & Spiritual Life (plan `faithlife`) reuses every `ls-` rule above.
+   Only two things are its own: the numbered statement-of-faith list and the
+   small in-card heading. Neither is caps-tracked, so the non-Latin
+   letter-spacing reset does not list them. */
+.fl-h { margin: 18px 0 8px; font-weight: 600; }
+.fl-articles { margin: 10px 0 0; padding-inline-start: 22px; display: grid; gap: 8px; }
+.fl-articles li { line-height: 1.5; min-width: 0; }
+
 /* ---- Read Reviews (plan `readreviews`, designed in Claude Design as
    "Read Reviews Section.dc.html") ---- */
 .reviews-lead { margin: 0 0 18px; }

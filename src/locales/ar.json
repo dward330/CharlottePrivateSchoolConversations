@@ -51,6 +51,7 @@
     "high-school-placement": "الالتحاق بالمرحلة الثانوية",
     "international-travel": "الانفتاح العالمي",
     "learning-support": "دعم التعلّم والخدمات الطلابية",
+    "faith-spiritual-life": "الإيمان والحياة الروحية",
     "read-reviews": "اقرأ المراجعات"
   },
   "metrics": {
@@ -102,7 +103,8 @@
     "visual-arts": "الفنون البصرية",
     "win-loss": "سجلّات الفوز والخسارة",
     "international-travel.redesign-research": "ملف بحثي عن الانفتاح العالمي (2026)",
-    "learning-support.redesign-research": "بحث دعم التعلّم (2026)"
+    "learning-support.redesign-research": "بحث دعم التعلّم (2026)",
+    "faith-spiritual-life.redesign-research": "ملف بحثي عن الإيمان والحياة الروحية (2026)"
   },
   "nav": {
     "brandName": "Charlotte School Insights",
@@ -776,7 +778,17 @@
     "learning-support.therapy": "العلاجات والخدمات المرتبطة",
     "learning-support.testing": "الاختبار والتقييم",
     "learning-support.staff": "مع من ستتعامل",
-    "learning-support.ask": "اسأل المدرسة"
+    "learning-support.ask": "اسأل المدرسة",
+    "faith-spiritual-life.chapel": "الاجتماع الروحي والعبادة",
+    "faith-spiritual-life.classes": "مواد الكتاب المقدّس والإيمان",
+    "faith-spiritual-life.retreats": "الخلوات الروحية",
+    "faith-spiritual-life.groups": "المجموعات الصغيرة والتلمذة",
+    "faith-spiritual-life.beliefs": "بماذا تؤمن المدرسة",
+    "faith-spiritual-life.families": "ما تطلبه من الأسر",
+    "faith-spiritual-life.service": "الخدمة والإرساليات",
+    "faith-spiritual-life.staff": "من يقود الحياة الروحية",
+    "faith-spiritual-life.parents": "حياة الإيمان لأولياء الأمور",
+    "faith-spiritual-life.ask": "اسأل المدرسة"
   },
   "cardLabels": {
     "afternoonRhythm": "إيقاع فترة بعد الظهر",
@@ -980,6 +992,26 @@
       "iep": "Individualized Education Program: وثيقة في المدارس الحكومية تحدّد خدمات التربية الخاصة وأهدافها بموجب IDEA.",
       "idea": "Individuals with Disabilities Education Act: القانون الفيدرالي الأمريكي الذي ينظّم التربية الخاصة في المدارس الحكومية."
     },
+    "asOf": "البحث محدَّث حتى {{date}}."
+  },
+  "faith": {
+    "code": {
+      "all": "الكل",
+      "weekly": "أسبوعي",
+      "monthly": "شهري",
+      "yearly": "سنوي",
+      "published": "منشور",
+      "notStated": "غير مذكور",
+      "credit": "{{grade}} · {{credit}} رصيد"
+    },
+    "legend": {
+      "published": "مذكور في موقع المدرسة",
+      "notStated": "لم يُعثر عليه في صفحات المدرسة العامة، وهذا لا يعني أنه غير مطلوب"
+    },
+    "tally": "منشور: {{published}} · غير مذكور: {{notStated}}",
+    "mission": "الرسالة.",
+    "coreValues": "القيم الأساسية",
+    "statementOfFaith": "بيان الإيمان، كما تنشره المدرسة",
     "asOf": "البحث محدَّث حتى {{date}}."
   },
   "travel": {
