@@ -26,6 +26,8 @@ import { useTranslation } from 'react-i18next'
 import { SourceRow } from './SourceRow.tsx'
 import { localizeMoneyText } from '../lib/format.ts'
 import { toAdmissionsChecklist } from '../lib/router.ts'
+import { schoolInquiryMailto } from '../lib/contact.ts'
+import { schoolBySlug } from '../lib/manifest.ts'
 import type {
   AdBand,
   AdmissionsCardKey,
@@ -108,6 +110,34 @@ function Emphasized({ text }: { text: string }) {
  * per-band calendar link to point at, and the tile's own caption already says
  * the date lives on the live calendar.
  */
+/** An email address inside a contact line. Global so `split` keeps each match. */
+const EMAIL_RE = /([A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,})/g
+
+/**
+ * A contact line with each email address made a mailto link (user, 2026-11-27: an
+ * email that looks like text gives no sign it can be clicked). The rest of the line,
+ * phone numbers included, stays plain text. The address keeps its own direction in
+ * RTL locales, as the staff emails do. Designed first in the Claude Design file
+ * "Admissions Section - Covenant Day".
+ */
+function WithEmailLinks({ text, schoolName }: { text: string; schoolName: string }) {
+  const parts = text.split(EMAIL_RE)
+  if (parts.length === 1) return <>{text}</>
+  return (
+    <>
+      {parts.map((part, i) =>
+        i % 2 === 1 ? (
+          <a key={i} className="email-link" href={schoolInquiryMailto(part, schoolName)}>
+            <bdi dir="ltr">{part}</bdi>
+          </a>
+        ) : (
+          part
+        ),
+      )}
+    </>
+  )
+}
+
 function DeadlineStrip({ band }: { band: AdBand }) {
   return (
     <div className="adm-deadlines">
@@ -219,6 +249,7 @@ function ComparisonTable({ guide }: { guide: AdmissionsGuide }) {
  * paper sheet is something you link to and share.
  */
 export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slug: string }) {
+  const schoolName = schoolBySlug(slug)?.name ?? slug
   const { t } = useTranslation()
   const [bandKey, setBandKey] = useState(data.bands[0]?.key ?? '')
   const band = data.bands.find((b) => b.key === bandKey) ?? data.bands[0]
@@ -357,7 +388,9 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
         <div className="adm-head">
           <span className="adm-head-kicker">{data.contacts.kicker}</span>
           <h4 className="adm-head-title">{data.contacts.title}</h4>
-          <span className="adm-address">{data.contacts.address}</span>
+          <span className="adm-address">
+            <WithEmailLinks text={data.contacts.address} schoolName={schoolName} />
+          </span>
         </div>
         {/* --ad-n is the contact count; src/index.css derives the row count from
             it and the breakpoint's column count, because BOTH grid rules are
@@ -370,7 +403,9 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
           {data.contacts.people.map((p) => (
             <div key={p.name} className="adm-person">
               <div className="adm-person-name">{p.name}</div>
-              <div className="adm-person-detail">{p.detail}</div>
+              <div className="adm-person-detail">
+                <WithEmailLinks text={p.detail} schoolName={schoolName} />
+              </div>
             </div>
           ))}
         </div>

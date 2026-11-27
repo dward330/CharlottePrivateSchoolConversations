@@ -7854,14 +7854,23 @@ a.cs-college-name:focus-visible {
 /* The staff email is a link (user, 2026-11-27: on hover it showed no sign of being one).
    Same model as the citation and destination links: the ↗ is the at-rest cue and the
    underline is hover-only. The arrow is CSS-generated with empty alt text, so a screen
-   reader reads only the address; inline-block keeps the hover underline off it. It takes
+   reader reads only the address. The no-break space glues it to the address, so it never
+   wraps onto a line alone, and the hover underline sits on the address's <bdi> only, so
+   it never runs under the arrow. It takes
    the link's own theme-aware color: --brand vanished on the dark theme. Shared
    by Learning Support and Faith & Spiritual Life. Designed first in the Claude Design file
    "Faith & Spiritual Life Section - Covenant Day". */
 .ls-person-email { text-decoration: none; }
-.ls-person-email::after { content: "\00a0\2197" / ""; display: inline-block; font-size: 10px; }
-.ls-person-email:hover { text-decoration: underline; text-underline-offset: 2px; }
+.ls-person-email::after { content: "\00a0\2197" / ""; font-size: 10px; }
+.ls-person-email:hover > bdi { text-decoration: underline; text-underline-offset: 2px; }
 .ls-person-email:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+/* The same cue for an email written inside a line of text (Admissions contacts:
+   the office address line and each person's detail line). Designed first in the
+   Claude Design file "Admissions Section - Covenant Day". */
+.email-link { color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.email-link::after { content: "\00a0\2197" / ""; font-size: 10px; }
+.email-link:hover > bdi { text-decoration: underline; text-underline-offset: 2px; }
+.email-link:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 /* With any email in the card, three fixed columns, so a row without one keeps
    its role aligned with the rows that have one. Stacks on a phone. */
 .ls-staff[data-email] .ls-person { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); align-items: baseline; }
