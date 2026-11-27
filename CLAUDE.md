@@ -336,7 +336,15 @@ School carries the question. It is off Compare (`COMPARE_DEFERRED_TOPICS`) and o
 `/add-school` area floor (`FLOOR_EXCLUDED_AREAS`), so a non-religious school is never
 marked down for lacking it.
 
-See [`src/data/faithLife/README.md`](src/data/faithLife/README.md).
+**`/faith-life` adds the next school.** It researches the school's own site in two passes
+(no deep-research PDF), re-verifies what the cards would print, scores the ten cards for a
+go / no-go and checks the draft against what the first build's reviews caught, then hands
+off to `/plan`. Mass, theology courses and clergy go on the existing cards, whose titles
+are shared; material that fits none of them is a new card and needs approval and a Claude
+Design file first.
+
+See [`src/data/faithLife/README.md`](src/data/faithLife/README.md) and
+[`.claude/skills/faith-life/SKILL.md`](.claude/skills/faith-life/SKILL.md).
 
 ## Student-name standard (required)
 
