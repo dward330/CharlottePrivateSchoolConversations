@@ -177,6 +177,7 @@
       "of": "e2630cbf",
       "at": [
         "charlotte-christian:chapel.entries[3].title",
+        "covenant-day:chapel.entries[2].title",
         "hickory-grove-christian:chapel.entries[2].title"
       ],
       "t": "পুরো স্কুলের চ্যাপেল"
@@ -281,7 +282,8 @@
       "text": "Lower School",
       "of": "0921a0ca",
       "at": [
-        "charlotte-christian:classes.groups[0].name"
+        "charlotte-christian:classes.groups[0].name",
+        "covenant-day:classes.groups[0].name"
       ],
       "t": "Lower School"
     },
@@ -297,7 +299,8 @@
       "text": "Junior Kindergarten",
       "of": "5ee6535c",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[0].label"
+        "charlotte-christian:classes.groups[0].rows[0].label",
+        "covenant-day:classes.groups[0].rows[0].label"
       ],
       "t": "Junior Kindergarten"
     },
@@ -313,7 +316,8 @@
       "text": "Kindergarten",
       "of": "68541d89",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[1].label"
+        "charlotte-christian:classes.groups[0].rows[1].label",
+        "covenant-day:classes.groups[0].rows[1].label"
       ],
       "t": "Kindergarten"
     },
@@ -329,7 +333,8 @@
       "text": "Grade 1",
       "of": "20673dd7",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[2].label"
+        "charlotte-christian:classes.groups[0].rows[2].label",
+        "covenant-day:classes.groups[0].rows[2].label"
       ],
       "t": "গ্রেড 1"
     },
@@ -345,7 +350,8 @@
       "text": "Grade 2",
       "of": "21673f6a",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[3].label"
+        "charlotte-christian:classes.groups[0].rows[3].label",
+        "covenant-day:classes.groups[0].rows[3].label"
       ],
       "t": "গ্রেড 2"
     },
@@ -361,7 +367,8 @@
       "text": "Grade 3",
       "of": "226740fd",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[4].label"
+        "charlotte-christian:classes.groups[0].rows[4].label",
+        "covenant-day:classes.groups[0].rows[4].label"
       ],
       "t": "গ্রেড 3"
     },
@@ -377,7 +384,8 @@
       "text": "Grade 4",
       "of": "1b6735f8",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[5].label"
+        "charlotte-christian:classes.groups[0].rows[5].label",
+        "covenant-day:classes.groups[0].rows[5].label"
       ],
       "t": "গ্রেড 4"
     },
@@ -394,6 +402,7 @@
       "of": "15441234",
       "at": [
         "charlotte-christian:classes.groups[1].name",
+        "covenant-day:classes.groups[1].name",
         "hickory-grove-christian:classes.groups[1].name"
       ],
       "t": "Middle School"
@@ -491,6 +500,7 @@
       "of": "6b2cd411",
       "at": [
         "charlotte-christian:classes.groups[2].rows[0].label",
+        "covenant-day:classes.groups[2].rows[0].label",
         "hickory-grove-christian:classes.groups[2].rows[0].label"
       ],
       "t": "Old Testament Survey"
@@ -508,6 +518,7 @@
       "of": "15a0fcf0",
       "at": [
         "charlotte-christian:classes.groups[2].rows[1].label",
+        "covenant-day:classes.groups[2].rows[1].label",
         "hickory-grove-christian:classes.groups[2].rows[1].label"
       ],
       "t": "New Testament Survey"
@@ -785,12 +796,12 @@
       "t": "সম্মেলনের দিনগুলোতে “নিবিড় শিক্ষা ও আলোচনার একটি সময়ের জন্য বিশেষ বক্তাদের ক্যাম্পাসে আমন্ত্রণ জানানো হয়”।"
     },
     {
-      "text": "The school’s mission, its five core values and its ten-point statement of faith, in the school’s own words.",
-      "of": "ef08810f",
+      "text": "The school’s mission, its five core values and its statement of faith, in the school’s own words.",
+      "of": "8240389f",
       "at": [
         "charlotte-christian:beliefs.headline"
       ],
-      "t": "স্কুলের লক্ষ্য, তার পাঁচটি মূল মূল্যবোধ এবং দশ দফার বিশ্বাসের ঘোষণা, স্কুলের নিজের ভাষায়।"
+      "t": "স্কুলের লক্ষ্য, তার পাঁচটি মূল মূল্যবোধ এবং বিশ্বাসের ঘোষণা, স্কুলের নিজের ভাষায়।"
     },
     {
       "text": "“Charlotte Christian School is a Christ-centered, college preparatory school, equipping and developing students to effectively integrate Biblical truth and learning into their daily lives and to impact the culture for Christ.”",
@@ -921,18 +932,10 @@
       "t": "“আমরা বিশ্বাস করি, মানুষ, পুরুষ ও নারী, ঈশ্বরের প্রতিমূর্তিতে সৃষ্ট হয়েছিল, কিন্তু আদম ও হবার অবাধ্যতার মধ্য দিয়ে পাপে পতিত হয়েছে। এই পতনের ফলে সব মানুষ পাপী হয়ে জন্মায় এবং তাদের পরিত্রাণ প্রয়োজন।”"
     },
     {
-      "text": "“We believe that marriage is a covenantal relationship created by God for a man and a woman. Sexual intimacy is a gift from God and has its proper place only within the context of marriage.”",
-      "of": "e1e3a547",
-      "at": [
-        "charlotte-christian:beliefs.articles[7]"
-      ],
-      "t": "“আমরা বিশ্বাস করি, বিবাহ একটি চুক্তিবদ্ধ সম্পর্ক, যা ঈশ্বর একজন পুরুষ ও একজন নারীর জন্য সৃষ্টি করেছেন। যৌন ঘনিষ্ঠতা ঈশ্বরের দেওয়া একটি দান, এবং এর যথাযথ স্থান কেবল বিবাহের পরিসরের মধ্যেই।”"
-    },
-    {
       "text": "“We believe that Jesus Christ, the Son of God, will return to renew the whole creation and to judge the living and the dead.”",
       "of": "fe82762c",
       "at": [
-        "charlotte-christian:beliefs.articles[8]"
+        "charlotte-christian:beliefs.articles[7]"
       ],
       "t": "“আমরা বিশ্বাস করি, ঈশ্বরের পুত্র যিশু খ্রিস্ট সমগ্র সৃষ্টিকে নতুন করে তুলতে এবং জীবিত ও মৃতদের বিচার করতে ফিরে আসবেন।”"
     },
@@ -940,7 +943,7 @@
       "text": "“We believe Christian education is a partnership between students, faculty and parents that provides an opportunity for students to learn and experience academics and co-curricular activities through a biblical worldview, in the presence of Christ-honoring faculty.”",
       "of": "2ed3e072",
       "at": [
-        "charlotte-christian:beliefs.articles[9]"
+        "charlotte-christian:beliefs.articles[8]"
       ],
       "t": "“আমরা বিশ্বাস করি, খ্রিস্টীয় শিক্ষা হলো শিক্ষার্থী, শিক্ষক ও অভিভাবকদের মধ্যে একটি অংশীদারত্ব, যা শিক্ষার্থীদের খ্রিস্টকে সম্মান করেন এমন শিক্ষকদের সান্নিধ্যে, বাইবেলভিত্তিক বিশ্বদৃষ্টির মধ্য দিয়ে পড়াশোনা ও সহশিক্ষা কার্যক্রম শেখার ও অভিজ্ঞতা লাভের সুযোগ দেয়।”"
     },
@@ -949,6 +952,7 @@
       "of": "2700b011",
       "at": [
         "charlotte-christian:families.headline",
+        "covenant-day:families.headline",
         "hickory-grove-christian:families.headline"
       ],
       "t": "আবেদনের সময় এবং ভর্তির পরে বিশ্বাস নিয়ে স্কুলের প্রকাশ্য পাতাগুলো কী বলে, আর কী বলে না।"
@@ -958,6 +962,7 @@
       "of": "fbc4b036",
       "at": [
         "charlotte-christian:families.groups[0].name",
+        "covenant-day:families.groups[0].name",
         "hickory-grove-christian:families.groups[0].name"
       ],
       "t": "আবেদনের সময়"
@@ -1075,6 +1080,7 @@
       "of": "6f74c399",
       "at": [
         "charlotte-christian:families.groups[1].rows[1].label",
+        "covenant-day:families.groups[1].rows[0].label",
         "hickory-grove-christian:families.groups[1].rows[0].label"
       ],
       "t": "বাইবেল ক্লাস"
@@ -1140,6 +1146,7 @@
       "of": "bf92e599",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].label",
+        "covenant-day:families.groups[1].rows[2].label",
         "hickory-grove-christian:families.groups[1].rows[3].label"
       ],
       "t": "চ্যাপেলে উপস্থিতি"
@@ -1149,6 +1156,7 @@
       "of": "889f792d",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].detail",
+        "covenant-day:families.groups[1].rows[2].detail",
         "hickory-grove-christian:families.groups[1].rows[3].detail"
       ],
       "t": "চ্যাপেল আবশ্যিক কি না, প্রকাশ্য পাতাগুলো তা বলে না।"
@@ -1590,6 +1598,1388 @@
       "t": "26 নভেম্বর 2026"
     },
     {
+      "text": "Covenant Day School is “a ministry of Christ Covenant Church (PCA)”, a Presbyterian church in Matthews. Students take Bible in every grade, and chapel meets every week.",
+      "of": "23c2be9b",
+      "at": [
+        "covenant-day:lead.strong"
+      ],
+      "t": "Covenant Day School হলো “Christ Covenant Church (PCA)-এর একটি পরিচর্যা কাজ (মিনিস্ট্রি)”, যা Matthews-এর একটি প্রেসবিটেরিয়ান গির্জা। শিক্ষার্থীরা প্রতিটি গ্রেডে বাইবেল পড়ে, আর চ্যাপেল হয় প্রতি সপ্তাহে।"
+    },
+    {
+      "text": "Its first core value: “Our foundation is built on the absolute truth of God and His word, and every aspect of our education is permeated by our faith in Christ.”",
+      "of": "d1299a3e",
+      "at": [
+        "covenant-day:lead.muted"
+      ],
+      "t": "এর প্রথম মূল মূল্যবোধ: “আমাদের ভিত্তি ঈশ্বর ও তাঁর বাক্যের পরম সত্যের ওপর গড়া, এবং আমাদের শিক্ষার প্রতিটি দিক খ্রিস্টে আমাদের বিশ্বাসে পরিপূর্ণ।”"
+    },
+    {
+      "text": "a Bible class in every grade",
+      "of": "492b06d5",
+      "at": [
+        "covenant-day:stats[0].label"
+      ],
+      "t": "প্রতিটি গ্রেডে একটি বাইবেল ক্লাস"
+    },
+    {
+      "text": "from junior kindergarten through 12th grade",
+      "of": "13b7e07d",
+      "at": [
+        "covenant-day:stats[0].note"
+      ],
+      "t": "Junior Kindergarten থেকে গ্রেড 12 পর্যন্ত"
+    },
+    {
+      "text": "Bible units to graduate",
+      "of": "57ba03d0",
+      "at": [
+        "covenant-day:stats[1].label"
+      ],
+      "t": "স্নাতক হতে বাইবেলের ইউনিট"
+    },
+    {
+      "text": "of 25 units in all, with a Bible course each year",
+      "of": "284c87ea",
+      "at": [
+        "covenant-day:stats[1].note"
+      ],
+      "t": "মোট 25 ইউনিটের মধ্যে, প্রতি বছর একটি বাইবেল কোর্সসহ"
+    },
+    {
+      "text": "grades that need a pastor’s recommendation",
+      "of": "981b62ad",
+      "at": [
+        "covenant-day:stats[2].label"
+      ],
+      "t": "যে গ্রেডগুলোতে পাস্টরের সুপারিশ লাগে"
+    },
+    {
+      "text": "and one parent must be a Christ-follower",
+      "of": "eb854799",
+      "at": [
+        "covenant-day:stats[2].note"
+      ],
+      "t": "এবং অভিভাবকদের একজনকে খ্রিস্টের অনুসারী হতে হবে"
+    },
+    {
+      "text": "discount for church members",
+      "of": "7a38fc6f",
+      "at": [
+        "covenant-day:stats[3].label"
+      ],
+      "t": "গির্জার সদস্যদের জন্য ছাড়"
+    },
+    {
+      "text": "per student, for members of Christ Covenant Church",
+      "of": "95c905f4",
+      "at": [
+        "covenant-day:stats[3].note"
+      ],
+      "t": "প্রতি শিক্ষার্থী, Christ Covenant Church-এর সদস্যদের জন্য"
+    },
+    {
+      "text": "Chapel meets every week, with students grouped by age. The whole school gathers for chapel in the church’s Worship Center.",
+      "of": "5c96f345",
+      "at": [
+        "covenant-day:chapel.headline"
+      ],
+      "t": "চ্যাপেল হয় প্রতি সপ্তাহে, শিক্ষার্থীদের বয়স অনুযায়ী ভাগ করে। পুরো স্কুল চ্যাপেলের জন্য একত্র হয় গির্জার Worship Center-এ।"
+    },
+    {
+      "text": "Weekly chapel",
+      "of": "fcfc7d01",
+      "at": [
+        "covenant-day:chapel.entries[0].title"
+      ],
+      "t": "সাপ্তাহিক চ্যাপেল"
+    },
+    {
+      "text": "“Chapels are separated by age and include praise songs, scripture reading, and a message from guest speakers, principals, or teachers.”",
+      "of": "82ac3a1f",
+      "at": [
+        "covenant-day:chapel.entries[0].text"
+      ],
+      "t": "“চ্যাপেলগুলো বয়স অনুযায়ী আলাদা করা হয়, এবং এতে থাকে প্রশংসার গান, শাস্ত্রপাঠ, আর অতিথি বক্তা, প্রধান শিক্ষক বা শিক্ষকদের একটি বার্তা।”"
+    },
+    {
+      "text": "Junior kindergarten and kindergarten students attend chapel every week.",
+      "of": "b332a43f",
+      "at": [
+        "covenant-day:chapel.entries[0].muted"
+      ],
+      "t": "Junior Kindergarten ও Kindergarten-এর শিক্ষার্থীরা প্রতি সপ্তাহে চ্যাপেলে যোগ দেয়।"
+    },
+    {
+      "text": "Middle school chapel",
+      "of": "c0cec2b7",
+      "at": [
+        "covenant-day:chapel.entries[1].title"
+      ],
+      "t": "মিডল স্কুলের চ্যাপেল"
+    },
+    {
+      "text": "The school lists “meaningful chapels” among what middle schoolers gain. Students in 8th grade “can participate in chapel leadership.”",
+      "of": "822fb708",
+      "at": [
+        "covenant-day:chapel.entries[1].text"
+      ],
+      "t": "মিডল স্কুলের শিক্ষার্থীরা যা পায়, তার মধ্যে স্কুল “অর্থবহ চ্যাপেল”-এর কথা উল্লেখ করে। গ্রেড 8-এর শিক্ষার্থীরা “চ্যাপেলের নেতৃত্বে অংশ নিতে পারে।”"
+    },
+    {
+      "text": "The whole school meets in the Worship Center of Christ Covenant Church for chapels and celebrations. The 2026–27 calendar has Convocation in September and an All-School Christmas Chapel in December.",
+      "of": "da6ecf69",
+      "at": [
+        "covenant-day:chapel.entries[2].text"
+      ],
+      "t": "চ্যাপেল ও বিভিন্ন উদযাপনের জন্য পুরো স্কুল Christ Covenant Church-এর Worship Center-এ একত্র হয়। 2026–27 ক্যালেন্ডারে সেপ্টেম্বরে Convocation (শিক্ষাবর্ষের উদ্বোধনী অনুষ্ঠান) এবং ডিসেম্বরে পুরো স্কুলের একটি ক্রিসমাস চ্যাপেল আছে।"
+    },
+    {
+      "text": "Baccalaureate for seniors is in May.",
+      "of": "c483d72a",
+      "at": [
+        "covenant-day:chapel.entries[2].muted"
+      ],
+      "t": "সিনিয়রদের Baccalaureate (স্নাতক হতে যাওয়া শিক্ষার্থীদের জন্য উপাসনা অনুষ্ঠান) হয় মে মাসে।"
+    },
+    {
+      "text": "Worship bands",
+      "of": "921a16a5",
+      "at": [
+        "covenant-day:chapel.entries[3].title"
+      ],
+      "t": "আরাধনা ব্যান্ড"
+    },
+    {
+      "text": "The music program lists a Middle School Worship Band and a High School Worship Band.",
+      "of": "5baf859c",
+      "at": [
+        "covenant-day:chapel.entries[3].text"
+      ],
+      "t": "সংগীত প্রোগ্রামের তালিকায় আছে একটি Middle School Worship Band ও একটি High School Worship Band।"
+    },
+    {
+      "text": "Worship Leadership",
+      "of": "a7167594",
+      "at": [
+        "covenant-day:chapel.entries[4].title"
+      ],
+      "t": "Worship Leadership"
+    },
+    {
+      "text": "A college-prep fine arts course in leading worship.",
+      "of": "d572ab35",
+      "at": [
+        "covenant-day:chapel.entries[4].text"
+      ],
+      "t": "আরাধনা পরিচালনা বিষয়ে একটি কলেজ-প্রস্তুতিমূলক ফাইন আর্টস কোর্স।"
+    },
+    {
+      "text": "Teachers pray too.",
+      "of": "fc959e1a",
+      "at": [
+        "covenant-day:chapel.note.strong"
+      ],
+      "t": "শিক্ষকেরাও প্রার্থনা করেন।"
+    },
+    {
+      "text": "“Several times every week, teachers gather before homeroom to pray for one another and their students.”",
+      "of": "f01045f6",
+      "at": [
+        "covenant-day:chapel.note.text"
+      ],
+      "t": "“প্রতি সপ্তাহে কয়েকবার, হোমরুমের আগে শিক্ষকেরা একত্র হয়ে একে অপরের জন্য ও তাঁদের শিক্ষার্থীদের জন্য প্রার্থনা করেন।”"
+    },
+    {
+      "text": "The whole faculty and staff also “meet quarterly for worship and devotions.”",
+      "of": "0b50a801",
+      "at": [
+        "covenant-day:chapel.note.muted"
+      ],
+      "t": "সব শিক্ষক ও কর্মী মিলে এ ছাড়া “প্রতি কোয়ার্টারে আরাধনা ও ভক্তিমূলক সময়ের জন্য একত্র হন।”"
+    },
+    {
+      "text": "Bible is taught in every grade, from junior kindergarten through 12th grade. Here is what each grade studies, and the Bible units a high schooler needs to graduate.",
+      "of": "07fae2b4",
+      "at": [
+        "covenant-day:classes.headline"
+      ],
+      "t": "Junior Kindergarten থেকে গ্রেড 12 পর্যন্ত প্রতিটি গ্রেডে বাইবেল পড়ানো হয়। প্রতিটি গ্রেডে কী পড়ানো হয়, আর স্নাতক হতে একজন হাই স্কুল শিক্ষার্থীর কত বাইবেল ইউনিট লাগে, তা এখানে দেওয়া হলো।"
+    },
+    {
+      "text": "The school says “All subjects are taught from a biblical worldview”.",
+      "of": "5fa013e4",
+      "at": [
+        "covenant-day:classes.intro.text"
+      ],
+      "t": "স্কুল বলে “সব বিষয় বাইবেলভিত্তিক বিশ্বদৃষ্টি থেকে পড়ানো হয়”।"
+    },
+    {
+      "text": "It names theology among its core subjects, beside literature, math, science, history and world languages.",
+      "of": "1255cf40",
+      "at": [
+        "covenant-day:classes.intro.muted"
+      ],
+      "t": "সাহিত্য, গণিত, বিজ্ঞান, ইতিহাস ও বিশ্বের বিভিন্ন ভাষার পাশাপাশি স্কুল ধর্মতত্ত্বকেও তার মূল বিষয়গুলোর একটি হিসেবে উল্লেখ করে।"
+    },
+    {
+      "text": "Bible every year",
+      "of": "374a99f3",
+      "at": [
+        "covenant-day:classes.groups[0].tally",
+        "covenant-day:classes.groups[1].tally"
+      ],
+      "t": "প্রতি বছর বাইবেল"
+    },
+    {
+      "text": "God’s love, short Scripture passages to memorize, and key Bible characters and their stories.",
+      "of": "2d7a4a1e",
+      "at": [
+        "covenant-day:classes.groups[0].rows[0].detail"
+      ],
+      "t": "ঈশ্বরের ভালোবাসা, মুখস্থ করার জন্য শাস্ত্রের ছোট ছোট অংশ, এবং বাইবেলের প্রধান চরিত্র ও তাদের কাহিনি।"
+    },
+    {
+      "text": "Friendship with God and others, short Scripture passages, and Bible characters and their stories.",
+      "of": "8f04fb30",
+      "at": [
+        "covenant-day:classes.groups[0].rows[1].detail"
+      ],
+      "t": "ঈশ্বর ও অন্যদের সঙ্গে বন্ধুত্ব, শাস্ত্রের ছোট ছোট অংশ, এবং বাইবেলের চরিত্র ও তাদের কাহিনি।"
+    },
+    {
+      "text": "Abraham through the settling of the Promised Land, then Judges and Ruth through the exile and return of Israel, with Psalms and Proverbs.",
+      "of": "10d44e97",
+      "at": [
+        "covenant-day:classes.groups[0].rows[2].detail"
+      ],
+      "t": "অব্রাহাম থেকে প্রতিজ্ঞাত দেশে বসতি স্থাপন পর্যন্ত, তারপর বিচারকর্তৃগণ ও রূত থেকে ইস্রায়েলের নির্বাসন ও প্রত্যাবর্তন পর্যন্ত, সঙ্গে গীতসংহিতা ও হিতোপদেশ।"
+    },
+    {
+      "text": "A review of the Old Testament with the Jesse Tree, then the New Testament: the life, death and resurrection of Jesus, the early church and Paul’s journeys.",
+      "of": "05e387fd",
+      "at": [
+        "covenant-day:classes.groups[0].rows[3].detail"
+      ],
+      "t": "Jesse Tree (যিশয়ের বৃক্ষ)-এর মাধ্যমে পুরাতন নিয়মের পুনরালোচনা, তারপর নতুন নিয়ম: যিশুর জীবন, মৃত্যু ও পুনরুত্থান, আদি মণ্ডলী এবং পৌলের যাত্রাগুলো।"
+    },
+    {
+      "text": "Creation through the Promised Land, ending with a study of Ephesians.",
+      "of": "21467ec2",
+      "at": [
+        "covenant-day:classes.groups[0].rows[4].detail"
+      ],
+      "t": "সৃষ্টি থেকে প্রতিজ্ঞাত দেশ পর্যন্ত, শেষে ইফিষীয় পত্রের অধ্যয়ন।"
+    },
+    {
+      "text": "Philippians, Judges, Joshua and the kings of Israel, Jewish feasts and the fruit of the Spirit. The Goodness Gorillas unit ends in a service project.",
+      "of": "4d244402",
+      "at": [
+        "covenant-day:classes.groups[0].rows[5].detail"
+      ],
+      "t": "ফিলিপীয় পত্র, বিচারকর্তৃগণ, যিহোশূয় ও ইস্রায়েলের রাজারা, ইহুদিদের পর্বগুলো, এবং আত্মার ফল। Goodness Gorillas ইউনিটটি শেষ হয় একটি সেবা প্রকল্প দিয়ে।"
+    },
+    {
+      "text": "Grade 5",
+      "of": "1c67378b",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].label"
+      ],
+      "t": "গ্রেড 5"
+    },
+    {
+      "text": "1 Peter, the Old Testament covenants, how the Gospels were written, and the life and ministry of Jesus.",
+      "of": "2cde9e59",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].detail"
+      ],
+      "t": "1 পিতর, পুরাতন নিয়মের চুক্তিগুলো, সুসমাচারগুলো কীভাবে লেখা হয়েছিল, এবং যিশুর জীবন ও পরিচর্যা।"
+    },
+    {
+      "text": "Old Testament survey",
+      "of": "58881131",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].label"
+      ],
+      "t": "পুরাতন নিয়মের সামগ্রিক পরিচিতি"
+    },
+    {
+      "text": "Students build a Christian worldview “from the study of scripture.”",
+      "of": "d3ec9bd1",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].detail"
+      ],
+      "t": "শিক্ষার্থীরা “শাস্ত্র অধ্যয়নের মধ্য দিয়ে” একটি খ্রিস্টীয় বিশ্বদৃষ্টি গড়ে তোলে।"
+    },
+    {
+      "text": "The Gospels",
+      "of": "0d00fd21",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].label"
+      ],
+      "t": "সুসমাচারগুলো"
+    },
+    {
+      "text": "The life of Christ, how to study the Bible, and “the habit of personal devotions.”",
+      "of": "3a533ab0",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].detail"
+      ],
+      "t": "খ্রিস্টের জীবন, কীভাবে বাইবেল অধ্যয়ন করতে হয়, এবং “ব্যক্তিগত শাস্ত্রপাঠ ও প্রার্থনার অভ্যাস।”"
+    },
+    {
+      "text": "Acts and the letters of Paul",
+      "of": "cd4f25d2",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].label"
+      ],
+      "t": "প্রেরিত পুস্তক ও পৌলের পত্রগুলো"
+    },
+    {
+      "text": "Applying Scripture to daily life, and learning how to share their faith.",
+      "of": "6e1f8ebf",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].detail"
+      ],
+      "t": "দৈনন্দিন জীবনে শাস্ত্রকে প্রয়োগ করা, এবং নিজের বিশ্বাসের কথা অন্যদের কীভাবে জানাতে হয় তা শেখা।"
+    },
+    {
+      "text": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:classes.groups[2].name",
+        "hickory-grove-christian:classes.groups[2].name"
+      ],
+      "t": "High School"
+    },
+    {
+      "text": "3.5 Bible units to graduate",
+      "of": "c1cb38dc",
+      "at": [
+        "covenant-day:classes.groups[2].tally"
+      ],
+      "t": "স্নাতক হতে 3.5 বাইবেল ইউনিট"
+    },
+    {
+      "text": "College prep.",
+      "of": "4647f1f9",
+      "at": [
+        "covenant-day:classes.groups[2].rows[0].detail",
+        "covenant-day:classes.groups[2].rows[1].detail",
+        "covenant-day:classes.groups[2].rows[2].detail"
+      ],
+      "t": "কলেজ-প্রস্তুতিমূলক।"
+    },
+    {
+      "text": "Christian Doctrine",
+      "of": "5eae87e2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[2].label"
+      ],
+      "t": "Christian Doctrine"
+    },
+    {
+      "text": "Engaging the Culture - An Introduction to Apologetics and Worldviews",
+      "of": "67c21bc2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].label"
+      ],
+      "t": "Engaging the Culture - An Introduction to Apologetics and Worldviews"
+    },
+    {
+      "text": "College prep. Apologetics is the case for the Christian faith.",
+      "of": "51683fa5",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].detail"
+      ],
+      "t": "কলেজ-প্রস্তুতিমূলক। অ্যাপোলজেটিক্স হলো খ্রিস্টীয় বিশ্বাসের পক্ষে যুক্তি উপস্থাপন।"
+    },
+    {
+      "text": "A Bible course every year.",
+      "of": "f258adb9",
+      "at": [
+        "covenant-day:classes.note.strong"
+      ],
+      "t": "প্রতি বছর একটি বাইবেল কোর্স।"
+    },
+    {
+      "text": "High schoolers “must be enrolled in a Bible course each year”. 3.5 units of Bible count toward the 25 units needed to graduate.",
+      "of": "891aa0ec",
+      "at": [
+        "covenant-day:classes.note.text"
+      ],
+      "t": "হাই স্কুলের শিক্ষার্থীদের “প্রতি বছর একটি বাইবেল কোর্সে ভর্তি থাকতে হবে”। স্নাতক হতে যে 25 ইউনিট লাগে, তার মধ্যে 3.5 ইউনিট বাইবেলের।"
+    },
+    {
+      "text": "The school does not say which course carries the half unit.",
+      "of": "d22ffe2c",
+      "at": [
+        "covenant-day:classes.note.muted"
+      ],
+      "t": "কোন কোর্সে অর্ধেক ইউনিট ধরা হয়, স্কুল তা বলে না।"
+    },
+    {
+      "text": "Middle and high school start each year with a retreat at Windy Gap. Retreats are included in tuition.",
+      "of": "bb6b6d32",
+      "at": [
+        "covenant-day:retreats.headline"
+      ],
+      "t": "মিডল ও হাই স্কুলের প্রতিটি বছর শুরু হয় Windy Gap-এ একটি রিট্রিট দিয়ে। রিট্রিটের খরচ টিউশনের মধ্যেই ধরা।"
+    },
+    {
+      "text": "High school: Windy Gap",
+      "of": "763421ce",
+      "at": [
+        "covenant-day:retreats.cells[0].title"
+      ],
+      "t": "হাই স্কুল: Windy Gap"
+    },
+    {
+      "text": "Students and teachers “step away from the busyness of life to reconnect—with one another and, most importantly, with the Lord.” The days hold games, skits, cabin time and “time in God’s Word”.",
+      "of": "6f21c994",
+      "at": [
+        "covenant-day:retreats.cells[0].text"
+      ],
+      "t": "শিক্ষার্থী ও শিক্ষকেরা “জীবনের ব্যস্ততা থেকে সরে এসে আবার যুক্ত হয়—একে অপরের সঙ্গে এবং, সবচেয়ে গুরুত্বপূর্ণভাবে, প্রভুর সঙ্গে।” দিনগুলোতে থাকে খেলা, ছোট নাটিকা, কেবিনে কাটানো সময় এবং “ঈশ্বরের বাক্যে সময়”।"
+    },
+    {
+      "text": "Middle school: Windy Gap",
+      "of": "c710963f",
+      "at": [
+        "covenant-day:retreats.cells[1].title"
+      ],
+      "t": "মিডল স্কুল: Windy Gap"
+    },
+    {
+      "text": "A trip in August with friends and teachers, “filled with chapels, team-building, and free time”.",
+      "of": "e1328101",
+      "at": [
+        "covenant-day:retreats.cells[1].text"
+      ],
+      "t": "আগস্টে বন্ধু ও শিক্ষকদের সঙ্গে একটি ভ্রমণ, “চ্যাপেল, দল গঠনের কার্যক্রম ও অবসর সময়ে ভরা”।"
+    },
+    {
+      "text": "In tuition.",
+      "of": "8548f880",
+      "at": [
+        "covenant-day:retreats.note.strong"
+      ],
+      "t": "টিউশনের অন্তর্ভুক্ত।"
+    },
+    {
+      "text": "Tuition includes “school retreats and required field trips”.",
+      "of": "ff3dc56d",
+      "at": [
+        "covenant-day:retreats.note.text"
+      ],
+      "t": "টিউশনের মধ্যে ধরা আছে “স্কুলের রিট্রিট ও আবশ্যিক শিক্ষাসফর”।"
+    },
+    {
+      "text": "Fifth graders also take an overnight trip to Fort Caswell, on the North Carolina coast, in the spring.",
+      "of": "b82e004a",
+      "at": [
+        "covenant-day:retreats.note.muted"
+      ],
+      "t": "পঞ্চম শ্রেণির শিক্ষার্থীরা এ ছাড়া বসন্তে North Carolina-র উপকূলে Fort Caswell-এ রাত কাটানোর একটি ভ্রমণে যায়।"
+    },
+    {
+      "text": "Where students pray and talk about faith in smaller groups: daily homeroom devotions, weekly high school advisory groups and student-led Bible studies.",
+      "of": "9ea6941e",
+      "at": [
+        "covenant-day:groups.headline"
+      ],
+      "t": "শিক্ষার্থীরা যেখানে ছোট ছোট দলে প্রার্থনা করে ও বিশ্বাস নিয়ে কথা বলে: প্রতিদিন হোমরুমে শাস্ত্রপাঠ ও প্রার্থনা, হাই স্কুলের সাপ্তাহিক অ্যাডভাইজরি দল এবং শিক্ষার্থী-পরিচালিত বাইবেল অধ্যয়ন দল।"
+    },
+    {
+      "text": "Homeroom devotions",
+      "of": "0a859b1a",
+      "at": [
+        "covenant-day:groups.entries[0].title"
+      ],
+      "t": "হোমরুমে শাস্ত্রপাঠ ও প্রার্থনা"
+    },
+    {
+      "text": "“Each day during homeroom, teachers lead a devotional for students.” Students share prayer requests and pray for one another.",
+      "of": "20773faf",
+      "at": [
+        "covenant-day:groups.entries[0].text"
+      ],
+      "t": "“প্রতিদিন হোমরুমের সময় শিক্ষকেরা শিক্ষার্থীদের জন্য একটি ভক্তিমূলক পাঠ পরিচালনা করেন।” শিক্ষার্থীরা তাদের প্রার্থনার অনুরোধ জানায় এবং একে অপরের জন্য প্রার্থনা করে।"
+    },
+    {
+      "text": "Advisory groups",
+      "of": "22449f6a",
+      "at": [
+        "covenant-day:groups.entries[1].title"
+      ],
+      "t": "অ্যাডভাইজরি দল"
+    },
+    {
+      "text": "Teacher-led groups meet weekly and “stay together all year long.” Students learn about the year’s spiritual theme, report on their schoolwork and pray together.",
+      "of": "5eb8da46",
+      "at": [
+        "covenant-day:groups.entries[1].text"
+      ],
+      "t": "শিক্ষক-পরিচালিত দলগুলো প্রতি সপ্তাহে বসে এবং “সারা বছর একসঙ্গে থাকে।” শিক্ষার্থীরা বছরের আধ্যাত্মিক মূল ভাবনা সম্পর্কে শেখে, নিজেদের পড়াশোনার অগ্রগতি জানায় এবং একসঙ্গে প্রার্থনা করে।"
+    },
+    {
+      "text": "Groups are often “guided by a book study focused on spiritual growth.”",
+      "of": "15e1cefe",
+      "at": [
+        "covenant-day:groups.entries[1].muted"
+      ],
+      "t": "দলগুলো প্রায়ই চলে “আধ্যাত্মিক বৃদ্ধির ওপর কেন্দ্রিত একটি বই-অধ্যয়নের নির্দেশনায়।”"
+    },
+    {
+      "text": "Student Bible studies",
+      "of": "a84f0783",
+      "at": [
+        "covenant-day:groups.entries[2].title"
+      ],
+      "t": "শিক্ষার্থীদের বাইবেল অধ্যয়ন দল"
+    },
+    {
+      "text": "Small discipleship groups “usually organized and led by students”. They meet before and after school.",
+      "of": "a70256dc",
+      "at": [
+        "covenant-day:groups.entries[2].text"
+      ],
+      "t": "শিষ্যত্বের ছোট ছোট দল, যেগুলো “সাধারণত শিক্ষার্থীরাই সংগঠিত ও পরিচালনা করে”। এগুলো বসে স্কুলের আগে ও পরে।"
+    },
+    {
+      "text": "The school’s mission, its belief summary and the six marks it hopes to see in every graduate, in the school’s own words.",
+      "of": "12e23a6d",
+      "at": [
+        "covenant-day:beliefs.headline"
+      ],
+      "t": "স্কুলের লক্ষ্য, তার বিশ্বাসের সারসংক্ষেপ, এবং প্রত্যেক স্নাতকের মধ্যে স্কুল যে ছয়টি বৈশিষ্ট্য দেখতে চায়, স্কুলের নিজের ভাষায়।"
+    },
+    {
+      "text": "“The mission of Covenant Day School is to assist the Christian family by providing an education marked by a biblical worldview and academic excellence so that students are equipped to be salt and light for God’s glory.”",
+      "of": "1f42aa5c",
+      "at": [
+        "covenant-day:beliefs.mission"
+      ],
+      "t": "“Covenant Day School-এর লক্ষ্য হলো বাইবেলভিত্তিক বিশ্বদৃষ্টি ও শিক্ষাগত উৎকর্ষে চিহ্নিত একটি শিক্ষা দিয়ে খ্রিস্টান পরিবারকে সহায়তা করা, যাতে শিক্ষার্থীরা ঈশ্বরের গৌরবের জন্য লবণ ও আলো হওয়ার উপযোগী হয়ে ওঠে।”"
+    },
+    {
+      "text": "Follow Christ",
+      "of": "1542ffa9",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].name"
+      ],
+      "t": "খ্রিস্টকে অনুসরণ করো"
+    },
+    {
+      "text": "Our graduates recognize that their daily spiritual and intellectual lives are inseparable and complementary, with Christ at the center.",
+      "of": "eabcba41",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].text"
+      ],
+      "t": "আমাদের স্নাতকেরা বোঝে যে তাদের দৈনন্দিন আত্মিক ও বুদ্ধিবৃত্তিক জীবন অবিচ্ছেদ্য ও পরস্পরের পরিপূরক, আর এর কেন্দ্রে আছেন খ্রিস্ট।"
+    },
+    {
+      "text": "Serve Others",
+      "of": "51090807",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].name"
+      ],
+      "t": "অন্যদের সেবা করো"
+    },
+    {
+      "text": "Our graduates demonstrate a love for God, the church as the body of Christ, and all people by affirming others as God’s image bearers.",
+      "of": "890a3b11",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].text"
+      ],
+      "t": "আমাদের স্নাতকেরা অন্যদের ঈশ্বরের প্রতিমূর্তি বহনকারী হিসেবে স্বীকৃতি দিয়ে ঈশ্বরের প্রতি, খ্রিস্টের দেহ হিসেবে মণ্ডলীর প্রতি এবং সব মানুষের প্রতি ভালোবাসা দেখায়।"
+    },
+    {
+      "text": "Pursue Wisdom",
+      "of": "5323c7ee",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].name"
+      ],
+      "t": "প্রজ্ঞার সাধনা করো"
+    },
+    {
+      "text": "Our graduates continue to pursue wisdom and knowledge throughout their lives.",
+      "of": "71b1787b",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].text"
+      ],
+      "t": "আমাদের স্নাতকেরা সারা জীবন প্রজ্ঞা ও জ্ঞানের সাধনা চালিয়ে যায়।"
+    },
+    {
+      "text": "Communicate Effectively",
+      "of": "162ed124",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].name"
+      ],
+      "t": "কার্যকরভাবে যোগাযোগ করো"
+    },
+    {
+      "text": "Our graduates communicate confidently and effectively in written, spoken, mathematical, and technological languages.",
+      "of": "be6a43ca",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].text"
+      ],
+      "t": "আমাদের স্নাতকেরা লিখিত, মৌখিক, গাণিতিক ও প্রযুক্তিগত ভাষায় আত্মবিশ্বাস ও দক্ষতার সঙ্গে যোগাযোগ করে।"
+    },
+    {
+      "text": "Learn Purposefully",
+      "of": "d0764395",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].name"
+      ],
+      "t": "উদ্দেশ্য নিয়ে শেখো"
+    },
+    {
+      "text": "Our graduates have a passion for learning and the academic tools necessary to thrive as they purposefully take the next steps in their lives.",
+      "of": "abfb0fba",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].text"
+      ],
+      "t": "আমাদের স্নাতকদের আছে শেখার প্রতি গভীর আগ্রহ, এবং জীবনের পরবর্তী ধাপগুলো উদ্দেশ্য নিয়ে নেওয়ার সময় সফল হওয়ার জন্য প্রয়োজনীয় শিক্ষাগত দক্ষতা।"
+    },
+    {
+      "text": "Engage the Culture",
+      "of": "99d65c43",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].name"
+      ],
+      "t": "সংস্কৃতির সঙ্গে সম্পৃক্ত হও"
+    },
+    {
+      "text": "As ambassadors for Christ, our graduates are equipped to represent Him well collegiately in academics, athletics, and/or fine arts.",
+      "of": "c7c8acb6",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].text"
+      ],
+      "t": "খ্রিস্টের দূত হিসেবে আমাদের স্নাতকেরা কলেজ পর্যায়ে পড়াশোনা, খেলাধুলা এবং/অথবা ফাইন আর্টসে তাঁর যোগ্য প্রতিনিধিত্ব করার জন্য প্রস্তুত।"
+    },
+    {
+      "text": "A ministry of Christ Covenant Church (PCA).",
+      "of": "5e7cc85f",
+      "at": [
+        "covenant-day:beliefs.note.strong"
+      ],
+      "t": "Christ Covenant Church (PCA)-এর একটি পরিচর্যা কাজ।"
+    },
+    {
+      "text": "The church is “a congregation in the Presbyterian Church in America”. The school says it “is guided by the same doctrinal convictions”, found in the Westminster Confession of Faith and Catechisms.",
+      "of": "f5988533",
+      "at": [
+        "covenant-day:beliefs.note.text"
+      ],
+      "t": "গির্জাটি “Presbyterian Church in America-র একটি মণ্ডলী”। স্কুল বলে, এটি “একই মতবাদগত বিশ্বাস দ্বারা পরিচালিত”, যা পাওয়া যায় Westminster Confession of Faith and Catechisms-এ।"
+    },
+    {
+      "text": "The school also says “many—indeed, most—of our families come from other church traditions.”",
+      "of": "2fe2787a",
+      "at": [
+        "covenant-day:beliefs.note.muted"
+      ],
+      "t": "স্কুল এ-ও বলে, “আমাদের অনেক—প্রকৃতপক্ষে, বেশির ভাগ—পরিবার অন্যান্য গির্জা-ঐতিহ্য থেকে আসে।”"
+    },
+    {
+      "text": "“We believe the Bible is the written word of God, inspired by the Holy Spirit and without error in the original manuscripts. The Bible is the revelation of God’s truth and is infallible and authoritative in all matters of faith and practice.”",
+      "of": "d6badf17",
+      "at": [
+        "covenant-day:beliefs.articles[0]"
+      ],
+      "t": "“আমরা বিশ্বাস করি, বাইবেল ঈশ্বরের লিখিত বাক্য, পবিত্র আত্মার দ্বারা অনুপ্রাণিত এবং মূল পাণ্ডুলিপিতে ত্রুটিহীন। বাইবেল ঈশ্বরের সত্যের প্রকাশ, এবং বিশ্বাস ও আচরণের সব বিষয়ে অভ্রান্ত ও কর্তৃত্বপূর্ণ।”"
+    },
+    {
+      "text": "“We believe in the Holy Trinity. There is one God, who exists eternally in three persons: the Father, the Son, and the Holy Spirit.”",
+      "of": "b9820e07",
+      "at": [
+        "covenant-day:beliefs.articles[1]"
+      ],
+      "t": "“আমরা পবিত্র ত্রিত্বে বিশ্বাস করি। ঈশ্বর একজন, যিনি অনন্তকাল ধরে তিন ব্যক্তিতে বিরাজমান: পিতা, পুত্র ও পবিত্র আত্মা।”"
+    },
+    {
+      "text": "“We believe that all are sinners and totally unable to save themselves from God’s displeasure, except by His mercy.”",
+      "of": "6b8fc3e2",
+      "at": [
+        "covenant-day:beliefs.articles[2]"
+      ],
+      "t": "“আমরা বিশ্বাস করি, সবাই পাপী এবং ঈশ্বরের দয়া ছাড়া ঈশ্বরের অসন্তোষ থেকে নিজেদের রক্ষা করতে সম্পূর্ণ অক্ষম।”"
+    },
+    {
+      "text": "“We believe that salvation is by God alone as He sovereignly chooses those He will save. We believe His choice is based on His grace, not on any human individual merit, or foreseen faith.”",
+      "of": "a457c453",
+      "at": [
+        "covenant-day:beliefs.articles[3]"
+      ],
+      "t": "“আমরা বিশ্বাস করি, পরিত্রাণ কেবল ঈশ্বরের কাছ থেকেই আসে, কারণ তিনি সার্বভৌমভাবে বেছে নেন কাদের তিনি রক্ষা করবেন। আমরা বিশ্বাস করি, তাঁর এই বাছাই তাঁর অনুগ্রহের ওপর ভিত্তি করে, কোনো মানুষের ব্যক্তিগত যোগ্যতা বা আগে থেকে দেখা বিশ্বাসের ওপর নয়।”"
+    },
+    {
+      "text": "“We believe that Jesus Christ is the eternal Son of God, who through His perfect life and sacrificial death atoned for the sins of all who will trust in Him, alone, for salvation.”",
+      "of": "5ea0229c",
+      "at": [
+        "covenant-day:beliefs.articles[4]"
+      ],
+      "t": "“আমরা বিশ্বাস করি, যিশু খ্রিস্ট ঈশ্বরের অনন্ত পুত্র, যিনি তাঁর নিখুঁত জীবন ও আত্মত্যাগী মৃত্যুর মাধ্যমে তাদের সবার পাপের প্রায়শ্চিত্ত করেছেন, যারা পরিত্রাণের জন্য কেবল তাঁরই ওপর ভরসা রাখবে।”"
+    },
+    {
+      "text": "“We believe that God is gracious and faithful to His people not simply as individuals but as families in successive generations according to His covenant promises.”",
+      "of": "427d3702",
+      "at": [
+        "covenant-day:beliefs.articles[5]"
+      ],
+      "t": "“আমরা বিশ্বাস করি, ঈশ্বর তাঁর চুক্তির প্রতিজ্ঞা অনুযায়ী তাঁর লোকদের প্রতি অনুগ্রহশীল ও বিশ্বস্ত, কেবল ব্যক্তি হিসেবে নয়, বরং প্রজন্মের পর প্রজন্ম ধরে পরিবার হিসেবে।”"
+    },
+    {
+      "text": "“We believe that the Holy Spirit indwells God’s people and gives them the strength and wisdom to trust Christ and follow Him.”",
+      "of": "5cb7ec67",
+      "at": [
+        "covenant-day:beliefs.articles[6]"
+      ],
+      "t": "“আমরা বিশ্বাস করি, পবিত্র আত্মা ঈশ্বরের লোকদের মধ্যে বাস করেন এবং তাদের খ্রিস্টের ওপর ভরসা রাখতে ও তাঁকে অনুসরণ করতে শক্তি ও প্রজ্ঞা দেন।”"
+    },
+    {
+      "text": "“We believe that Jesus will return, bodily and visibly, to judge all mankind and to receive His people to Himself.”",
+      "of": "baf53ecb",
+      "at": [
+        "covenant-day:beliefs.articles[7]"
+      ],
+      "t": "“আমরা বিশ্বাস করি, যিশু সশরীরে ও দৃশ্যমানভাবে ফিরে আসবেন, সমগ্র মানবজাতির বিচার করতে এবং তাঁর লোকদের নিজের কাছে গ্রহণ করতে।”"
+    },
+    {
+      "text": "“We believe that all aspects of our lives are to be lived to the glory of God under the Lordship of Jesus Christ.”",
+      "of": "a4295249",
+      "at": [
+        "covenant-day:beliefs.articles[8]"
+      ],
+      "t": "“আমরা বিশ্বাস করি, যিশু খ্রিস্টের প্রভুত্বের অধীনে আমাদের জীবনের সব দিক ঈশ্বরের গৌরবের জন্য যাপন করতে হবে।”"
+    },
+    {
+      "text": "A Christian parent",
+      "of": "595d7fd9",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].label"
+      ],
+      "t": "একজন খ্রিস্টান অভিভাবক"
+    },
+    {
+      "text": "The school partners with families where “at least one parent is a Christ-follower and is actively involved in a local Christian church.”",
+      "of": "e678adc6",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].detail"
+      ],
+      "t": "স্কুল সেই পরিবারগুলোর সঙ্গে অংশীদারত্ব করে, যেখানে “অন্তত একজন অভিভাবক খ্রিস্টের অনুসারী এবং স্থানীয় কোনো খ্রিস্টান গির্জার সঙ্গে সক্রিয়ভাবে যুক্ত।”"
+    },
+    {
+      "text": "Your Christian testimony",
+      "of": "8350c3fb",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].label"
+      ],
+      "t": "আপনার খ্রিস্টীয় সাক্ষ্য"
+    },
+    {
+      "text": "At the parent interview, “parents will be asked to discuss their Christian testimony”.",
+      "of": "77708e03",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].detail"
+      ],
+      "t": "অভিভাবকদের সাক্ষাৎকারে “অভিভাবকদের তাঁদের খ্রিস্টীয় সাক্ষ্য নিয়ে কথা বলতে বলা হবে”।"
+    },
+    {
+      "text": "Pastor’s recommendation",
+      "of": "b1d5c047",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].label"
+      ],
+      "t": "পাস্টরের সুপারিশ"
+    },
+    {
+      "text": "Required for grades JK–11. If you do not know your senior pastor, the form may come from “another pastor on staff, an elder, a deacon, or a ministry leader who knows your family well”.",
+      "of": "42ca6213",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].detail"
+      ],
+      "t": "গ্রেড JK–11-এর জন্য আবশ্যিক। আপনি যদি আপনার প্রধান পাস্টরকে না চেনেন, তাহলে ফর্মটি আসতে পারে “কর্মীদের মধ্যে অন্য কোনো পাস্টর, একজন এল্ডার, একজন ডিকন বা একজন পরিচর্যা-নেতার কাছ থেকে, যিনি আপনার পরিবারকে ভালোভাবে চেনেন”।"
+    },
+    {
+      "text": "Church involvement",
+      "of": "7ed8a2ab",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].label"
+      ],
+      "t": "গির্জায় সম্পৃক্ততা"
+    },
+    {
+      "text": "The admission criteria include “The family’s active involvement in a local church”.",
+      "of": "216d530b",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].detail"
+      ],
+      "t": "ভর্তির মানদণ্ডের মধ্যে আছে “স্থানীয় কোনো গির্জায় পরিবারের সক্রিয় সম্পৃক্ততা”।"
+    },
+    {
+      "text": "The student’s own faith",
+      "of": "7203be33",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].label"
+      ],
+      "t": "শিক্ষার্থীর নিজের বিশ্বাস"
+    },
+    {
+      "text": "The public pages do not say whether a student must profess faith or answer faith questions.",
+      "of": "bb120d18",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].detail"
+      ],
+      "t": "শিক্ষার্থীকে বিশ্বাস স্বীকার করতে হবে কি না, বা বিশ্বাস নিয়ে প্রশ্নের উত্তর দিতে হবে কি না, প্রকাশ্য পাতাগুলো তা বলে না।"
+    },
+    {
+      "text": "Signing the school’s beliefs",
+      "of": "5a5632ef",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].label"
+      ],
+      "t": "স্কুলের বিশ্বাসে স্বাক্ষর"
+    },
+    {
+      "text": "The public pages do not say whether parents must sign or affirm the belief summary.",
+      "of": "d8cf3e3c",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].detail"
+      ],
+      "t": "অভিভাবকদের বিশ্বাসের সারসংক্ষেপে স্বাক্ষর করতে বা তা সমর্থন করতে হবে কি না, প্রকাশ্য পাতাগুলো তা বলে না।"
+    },
+    {
+      "text": "Once you enroll",
+      "of": "f37bf47d",
+      "at": [
+        "covenant-day:families.groups[1].name"
+      ],
+      "t": "ভর্তির পরে"
+    },
+    {
+      "text": "High schoolers “must be enrolled in a Bible course each year”.",
+      "of": "e6604454",
+      "at": [
+        "covenant-day:families.groups[1].rows[0].detail"
+      ],
+      "t": "হাই স্কুলের শিক্ষার্থীদের “প্রতি বছর একটি বাইবেল কোর্সে ভর্তি থাকতে হবে”।"
+    },
+    {
+      "text": "Church-member discount",
+      "of": "a9b9d842",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].label"
+      ],
+      "t": "গির্জার সদস্যদের ছাড়"
+    },
+    {
+      "text": "“A $400 discount is available for each student in grades JK-12 whose parents are members of Christ Covenant Church.” The family “must affirm the church membership statement that is part of the online enrollment process.”",
+      "of": "4d089fa4",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].detail"
+      ],
+      "t": "“গ্রেড JK-12-এর প্রত্যেক শিক্ষার্থীর জন্য $400 ছাড় পাওয়া যায়, যাদের অভিভাবকেরা Christ Covenant Church-এর সদস্য।” পরিবারকে “গির্জার সদস্যপদ-সংক্রান্ত সেই বিবৃতি সমর্থন করতে হবে, যা অনলাইন ভর্তি প্রক্রিয়ার অংশ।”"
+    },
+    {
+      "text": "A family agreement",
+      "of": "c0c10560",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].label"
+      ],
+      "t": "একটি পারিবারিক সম্মতিপত্র"
+    },
+    {
+      "text": "No family agreement, handbook or conduct code is on the school’s public pages.",
+      "of": "f7c794f7",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].detail"
+      ],
+      "t": "স্কুলের প্রকাশ্য পাতাগুলোতে কোনো পারিবারিক সম্মতিপত্র, নির্দেশিকা বা আচরণবিধি নেই।"
+    },
+    {
+      "text": "For staff and trustees",
+      "of": "6e6ff958",
+      "at": [
+        "covenant-day:families.groups[2].name"
+      ],
+      "t": "কর্মী ও ট্রাস্টিদের জন্য"
+    },
+    {
+      "text": "Staff",
+      "of": "0d19a971",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].label"
+      ],
+      "t": "কর্মী"
+    },
+    {
+      "text": "All staff “must subscribe to the Reformed faith and that doctrine as set forth in the Westminster Confession of Faith”.",
+      "of": "55024a8c",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].detail"
+      ],
+      "t": "সব কর্মীকে “রিফর্মড (Reformed) বিশ্বাস এবং Westminster Confession of Faith-এ বর্ণিত মতবাদ মেনে নিতে হবে”।"
+    },
+    {
+      "text": "Trustees",
+      "of": "24f7a214",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].label"
+      ],
+      "t": "ট্রাস্টি"
+    },
+    {
+      "text": "The Session (the elders) of Christ Covenant Church appoints the Board of Trustees.",
+      "of": "5b5ebd15",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].detail"
+      ],
+      "t": "Christ Covenant Church-এর Session (এল্ডারদের পরিষদ) Board of Trustees (ট্রাস্টি বোর্ড) নিয়োগ করে।"
+    },
+    {
+      "text": "A “three-legged stool”.",
+      "of": "f28bf5c3",
+      "at": [
+        "covenant-day:families.note.strong"
+      ],
+      "t": "একটি “তিন পায়ার টুল”।"
+    },
+    {
+      "text": "The school wants “the church, family, and school to all be on the same page.”",
+      "of": "a3082e35",
+      "at": [
+        "covenant-day:families.note.text"
+      ],
+      "t": "স্কুল চায় “গির্জা, পরিবার ও স্কুল সবাই একই অবস্থানে থাকুক।”"
+    },
+    {
+      "text": "Service grows with age, from campus jobs in lower school to a high school team that builds homes from shipping containers. Mission trips have gone to Spain, Haiti, Belize and South Dakota.",
+      "of": "3bee85e2",
+      "at": [
+        "covenant-day:service.headline"
+      ],
+      "t": "বয়সের সঙ্গে সঙ্গে সেবার পরিধি বাড়ে: লোয়ার স্কুলে ক্যাম্পাসের ছোটখাটো কাজ থেকে শুরু করে হাই স্কুলের এমন একটি দল পর্যন্ত, যারা শিপিং কনটেইনার দিয়ে বাড়ি বানায়। মিশন ভ্রমণ হয়েছে স্পেন, হাইতি, বেলিজ ও South Dakota-তে।"
+    },
+    {
+      "text": "Lower school service",
+      "of": "25664f55",
+      "at": [
+        "covenant-day:service.entries[0].title"
+      ],
+      "t": "লোয়ার স্কুলের সেবা"
+    },
+    {
+      "text": "On campus, students help with flag and safety patrol and collect recyclables. Projects also include boxes for Operation Christmas Child, visits to a nearby assisted living home and support for the Matthews HELP Center.",
+      "of": "9150b739",
+      "at": [
+        "covenant-day:service.entries[0].text"
+      ],
+      "t": "ক্যাম্পাসে শিক্ষার্থীরা পতাকা ও নিরাপত্তা টহলে সাহায্য করে এবং পুনর্ব্যবহারযোগ্য জিনিস সংগ্রহ করে। প্রকল্পগুলোর মধ্যে আরও আছে Operation Christmas Child-এর জন্য বাক্স, কাছের একটি বয়স্কদের সহায়তা-নিবাসে যাওয়া এবং Matthews HELP Center-কে সহায়তা।"
+    },
+    {
+      "text": "Goodness Gorillas",
+      "of": "88c271d6",
+      "at": [
+        "covenant-day:service.entries[1].title"
+      ],
+      "t": "Goodness Gorillas"
+    },
+    {
+      "text": "Fourth graders “serve at nearly twenty different sites”. It ends their Bible unit on the fruit of the Spirit.",
+      "of": "df4da813",
+      "at": [
+        "covenant-day:service.entries[1].text"
+      ],
+      "t": "চতুর্থ শ্রেণির শিক্ষার্থীরা “প্রায় বিশটি ভিন্ন জায়গায় সেবা দেয়”। এটি দিয়ে শেষ হয় আত্মার ফল বিষয়ে তাদের বাইবেল ইউনিট।"
+    },
+    {
+      "text": "Missions Week",
+      "of": "63913b46",
+      "at": [
+        "covenant-day:service.entries[2].title"
+      ],
+      "t": "মিশন সপ্তাহ"
+    },
+    {
+      "text": "Students “hear from missionaries and learn about cultures from around the world.”",
+      "of": "ac2a7081",
+      "at": [
+        "covenant-day:service.entries[2].text"
+      ],
+      "t": "শিক্ষার্থীরা “মিশনারিদের কথা শোনে এবং সারা পৃথিবীর নানা সংস্কৃতি সম্পর্কে শেখে।”"
+    },
+    {
+      "text": "It falls in February on the 2026–27 calendar.",
+      "of": "7a8819bd",
+      "at": [
+        "covenant-day:service.entries[2].muted"
+      ],
+      "t": "2026–27 ক্যালেন্ডারে এটি পড়েছে ফেব্রুয়ারিতে।"
+    },
+    {
+      "text": "Doulos Days",
+      "of": "54212ef2",
+      "at": [
+        "covenant-day:service.entries[3].title"
+      ],
+      "t": "Doulos Days"
+    },
+    {
+      "text": "Twice a year, middle school students spend a day serving local ministries, nonprofits and neighbors, with service days for each grade. The schoolwide Penny Wars contest helps pay for the projects.",
+      "of": "4086e1e5",
+      "at": [
+        "covenant-day:service.entries[3].text"
+      ],
+      "t": "বছরে দুবার মিডল স্কুলের শিক্ষার্থীরা একটি দিন স্থানীয় পরিচর্যা সংস্থা, অলাভজনক সংস্থা ও প্রতিবেশীদের সেবায় কাটায়, প্রতিটি গ্রেডের জন্য আলাদা সেবা দিবসসহ। পুরো স্কুলের Penny Wars প্রতিযোগিতা প্রকল্পগুলোর খরচ জোগাতে সাহায্য করে।"
+    },
+    {
+      "text": "ContainIt",
+      "of": "a86ed426",
+      "at": [
+        "covenant-day:service.entries[4].title"
+      ],
+      "t": "ContainIt"
+    },
+    {
+      "text": "Students turn used shipping containers into homes for teens on Pine Ridge Reservation in South Dakota. “Their vision is to provide housing for more than 30 teens.”",
+      "of": "37d529fc",
+      "at": [
+        "covenant-day:service.entries[4].text"
+      ],
+      "t": "শিক্ষার্থীরা পুরোনো শিপিং কনটেইনারকে South Dakota-র Pine Ridge Reservation-এর কিশোর-কিশোরীদের জন্য বাড়িতে রূপান্তর করে। “তাদের লক্ষ্য 30 জনেরও বেশি কিশোর-কিশোরীর জন্য আবাসনের ব্যবস্থা করা।”"
+    },
+    {
+      "text": "High school service",
+      "of": "bbb64d98",
+      "at": [
+        "covenant-day:service.entries[5].title"
+      ],
+      "t": "হাই স্কুলের সেবা"
+    },
+    {
+      "text": "Beta Club projects, weekly lunchtime tutoring at local schools, and service with partners such as Matthews Habitat for Humanity, Alexander Children’s Home and Love INC.",
+      "of": "73e133dd",
+      "at": [
+        "covenant-day:service.entries[5].text"
+      ],
+      "t": "Beta Club-এর প্রকল্প, স্থানীয় স্কুলগুলোতে প্রতি সপ্তাহে দুপুরের খাবারের সময় টিউটরিং, এবং Matthews Habitat for Humanity, Alexander Children’s Home ও Love INC.-এর মতো সহযোগীদের সঙ্গে সেবা।"
+    },
+    {
+      "text": "Mission trips",
+      "of": "c39f4af5",
+      "at": [
+        "covenant-day:service.entries[6].title"
+      ],
+      "t": "মিশন ভ্রমণ"
+    },
+    {
+      "text": "Students “have been on school-sponsored mission trips to Spain, Haiti, Belize, and Pine Ridge Reservation in South Dakota.”",
+      "of": "d3f89323",
+      "at": [
+        "covenant-day:service.entries[6].text"
+      ],
+      "t": "শিক্ষার্থীরা “স্কুলের উদ্যোগে স্পেন, হাইতি, বেলিজ এবং South Dakota-র Pine Ridge Reservation-এ মিশন ভ্রমণে গেছে।”"
+    },
+    {
+      "text": "The school does not list trip years or a 2026–27 trip.",
+      "of": "92015a56",
+      "at": [
+        "covenant-day:service.entries[6].muted"
+      ],
+      "t": "স্কুল ভ্রমণগুলোর বছর বা 2026–27-এর কোনো ভ্রমণের তালিকা দেয় না।"
+    },
+    {
+      "text": "No hours published.",
+      "of": "36413563",
+      "at": [
+        "covenant-day:service.note.strong"
+      ],
+      "t": "ঘণ্টার কোনো সংখ্যা প্রকাশিত নয়।"
+    },
+    {
+      "text": "The school publishes no service-hour requirement. Its plan follows the Bible’s order of being “Christ’s witnesses to the world beginning in Jerusalem, then to Judea and Samaria, and then to the ends of the earth.”",
+      "of": "3d0a07e0",
+      "at": [
+        "covenant-day:service.note.text"
+      ],
+      "t": "স্কুল সেবা-ঘণ্টার কোনো শর্ত প্রকাশ করে না। এর পরিকল্পনা বাইবেলের সেই ক্রম অনুসরণ করে: “জগতের কাছে খ্রিস্টের সাক্ষী হওয়া, প্রথমে যিরূশালেমে, তারপর যিহূদিয়া ও শমরিয়ায়, এবং তারপর পৃথিবীর শেষ প্রান্ত পর্যন্ত।”"
+    },
+    {
+      "text": "The people who lead spiritual life at Covenant Day, with the email each one lists in the school directory.",
+      "of": "ea19c975",
+      "at": [
+        "covenant-day:staff.headline"
+      ],
+      "t": "Covenant Day-এ যাঁরা আধ্যাত্মিক জীবনের নেতৃত্ব দেন, স্কুলের ডিরেক্টরিতে প্রত্যেকের দেওয়া ইমেইলসহ।"
+    },
+    {
+      "text": "Spiritual Formation Director",
+      "of": "5a49804b",
+      "at": [
+        "covenant-day:staff.people[0].role"
+      ],
+      "t": "আধ্যাত্মিক গঠন বিষয়ক পরিচালক"
+    },
+    {
+      "text": "HS Chaplain & Bible Teacher",
+      "of": "fa942adc",
+      "at": [
+        "covenant-day:staff.people[1].role"
+      ],
+      "t": "হাই স্কুলের চ্যাপলিন ও বাইবেল শিক্ষক"
+    },
+    {
+      "text": "HS Bible Teacher",
+      "of": "9b3385dc",
+      "at": [
+        "covenant-day:staff.people[2].role",
+        "covenant-day:staff.people[3].role"
+      ],
+      "t": "হাই স্কুলের বাইবেল শিক্ষক"
+    },
+    {
+      "text": "HS Bible & History Teacher",
+      "of": "bd41d312",
+      "at": [
+        "covenant-day:staff.people[4].role"
+      ],
+      "t": "হাই স্কুলের বাইবেল ও ইতিহাস শিক্ষক"
+    },
+    {
+      "text": "MS Bible Teacher",
+      "of": "285b6f95",
+      "at": [
+        "covenant-day:staff.people[5].role",
+        "covenant-day:staff.people[6].role"
+      ],
+      "t": "মিডল স্কুলের বাইবেল শিক্ষক"
+    },
+    {
+      "text": "Worship and Choir Teacher",
+      "of": "0b327bf1",
+      "at": [
+        "covenant-day:staff.people[7].role"
+      ],
+      "t": "আরাধনা ও গায়কদলের শিক্ষক"
+    },
+    {
+      "text": "Student Culture Director",
+      "of": "cc3166f6",
+      "at": [
+        "covenant-day:staff.people[8].role"
+      ],
+      "t": "শিক্ষার্থী-সংস্কৃতি বিষয়ক পরিচালক"
+    },
+    {
+      "text": "Head of School",
+      "of": "43515cb8",
+      "at": [
+        "covenant-day:staff.people[9].role"
+      ],
+      "t": "স্কুলপ্রধান"
+    },
+    {
+      "text": "The Head of School’s hope:",
+      "of": "f0bf1295",
+      "at": [
+        "covenant-day:staff.note.strong"
+      ],
+      "t": "স্কুলপ্রধানের প্রত্যাশা:"
+    },
+    {
+      "text": "“Students being transformed and becoming disciples of Christ, being anchored in their faith so that they know what they believe and why they believe it.”",
+      "of": "4ab1d1f7",
+      "at": [
+        "covenant-day:staff.note.muted"
+      ],
+      "t": "“শিক্ষার্থীরা রূপান্তরিত হচ্ছে এবং খ্রিস্টের শিষ্য হয়ে উঠছে, নিজেদের বিশ্বাসে দৃঢ়ভাবে প্রোথিত হচ্ছে, যাতে তারা জানে তারা কী বিশ্বাস করে এবং কেন বিশ্বাস করে।”"
+    },
+    {
+      "text": "Weekly prayer groups for moms and for dads, and ways for grandparents and boosters to pray for the school.",
+      "of": "85546abe",
+      "at": [
+        "covenant-day:parents.headline"
+      ],
+      "t": "মা ও বাবাদের জন্য সাপ্তাহিক প্রার্থনা দল, আর দাদা-দাদি, নানা-নানি ও বুস্টারদের জন্য স্কুলের হয়ে প্রার্থনা করার নানা উপায়।"
+    },
+    {
+      "text": "Moms in Prayer",
+      "of": "58172703",
+      "at": [
+        "covenant-day:parents.entries[0].title"
+      ],
+      "t": "Moms in Prayer"
+    },
+    {
+      "text": "“Covenant Day School’s Moms in Prayer groups meet weekly during the school year.” Moms pray together for the school community.",
+      "of": "97779ab2",
+      "at": [
+        "covenant-day:parents.entries[0].text"
+      ],
+      "t": "“Covenant Day School-এর Moms in Prayer দলগুলো শিক্ষাবর্ষজুড়ে প্রতি সপ্তাহে বসে।” মায়েরা একসঙ্গে স্কুল-সমাজের জন্য প্রার্থনা করেন।"
+    },
+    {
+      "text": "Dads Prayer Gathering",
+      "of": "16611963",
+      "at": [
+        "covenant-day:parents.entries[1].title"
+      ],
+      "t": "Dads Prayer Gathering"
+    },
+    {
+      "text": "“Every Friday, CDS dads gather at the tennis gazebo for a time of fellowship and prayer.”",
+      "of": "02cf8ea7",
+      "at": [
+        "covenant-day:parents.entries[1].text"
+      ],
+      "t": "“প্রতি শুক্রবার CDS-এর বাবারা টেনিস গেজেবোতে সহভাগিতা ও প্রার্থনার জন্য একত্র হন।”"
+    },
+    {
+      "text": "Grandparents Prayer Walk",
+      "of": "cd7baf66",
+      "at": [
+        "covenant-day:parents.entries[2].title"
+      ],
+      "t": "দাদা-দাদি ও নানা-নানিদের প্রার্থনা-হাঁটা"
+    },
+    {
+      "text": "The 2026–27 calendar lists a Grandparents Prayer Walk in August.",
+      "of": "138bfc13",
+      "at": [
+        "covenant-day:parents.entries[2].text"
+      ],
+      "t": "2026–27 ক্যালেন্ডারে আগস্টে দাদা-দাদি ও নানা-নানিদের একটি প্রার্থনা-হাঁটার উল্লেখ আছে।"
+    },
+    {
+      "text": "Booster Club prayer partners",
+      "of": "7d90811b",
+      "at": [
+        "covenant-day:parents.entries[3].title"
+      ],
+      "t": "Booster Club-এর প্রার্থনা-সঙ্গী"
+    },
+    {
+      "text": "Booster Club members can sign up for a “Prayer partnership”: a coach and an athlete to pray for all year.",
+      "of": "601d121c",
+      "at": [
+        "covenant-day:parents.entries[3].text"
+      ],
+      "t": "Booster Club-এর সদস্যরা একটি “প্রার্থনা-অংশীদারত্ব”-এর জন্য নাম লেখাতে পারেন: সারা বছর একজন কোচ ও একজন খেলোয়াড়ের জন্য প্রার্থনা করা।"
+    },
+    {
+      "text": "Questions the school’s public pages leave open, to bring to a tour or an interview.",
+      "of": "0a5de2b7",
+      "at": [
+        "covenant-day:ask.headline"
+      ],
+      "t": "যে প্রশ্নগুলোর উত্তর স্কুলের প্রকাশ্য পাতাগুলো দেয় না, ক্যাম্পাস ঘোরা বা সাক্ষাৎকারের সময় জিজ্ঞেস করার জন্য।"
+    },
+    {
+      "text": "What day and time is chapel for each division, and can parents attend?",
+      "of": "3661c13c",
+      "at": [
+        "covenant-day:ask.questions[0]"
+      ],
+      "t": "প্রতিটি বিভাগের চ্যাপেল কোন দিন ও কখন হয়, আর অভিভাবকেরা কি উপস্থিত থাকতে পারেন?"
+    },
+    {
+      "text": "Is chapel attendance required?",
+      "of": "609e96bd",
+      "at": [
+        "covenant-day:ask.questions[1]"
+      ],
+      "t": "চ্যাপেলে উপস্থিতি কি আবশ্যিক?"
+    },
+    {
+      "text": "Must a student share the family’s faith, or answer faith questions, to be admitted?",
+      "of": "0f9e8115",
+      "at": [
+        "covenant-day:ask.questions[2]"
+      ],
+      "t": "ভর্তির জন্য শিক্ষার্থীকে কি পরিবারের বিশ্বাসের অংশীদার হতে হয়, বা বিশ্বাস নিয়ে প্রশ্নের উত্তর দিতে হয়?"
+    },
+    {
+      "text": "Do parents sign or affirm the school’s belief summary, or any family agreement?",
+      "of": "5a4311de",
+      "at": [
+        "covenant-day:ask.questions[3]"
+      ],
+      "t": "অভিভাবকেরা কি স্কুলের বিশ্বাসের সারসংক্ষেপে বা কোনো পারিবারিক সম্মতিপত্রে স্বাক্ষর করেন, বা তা সমর্থন করেন?"
+    },
+    {
+      "text": "Who is interviewed at each grade: parents only, or the student too?",
+      "of": "589c35ab",
+      "at": [
+        "covenant-day:ask.questions[4]"
+      ],
+      "t": "প্রতিটি গ্রেডে কার সাক্ষাৎকার নেওয়া হয়: শুধু অভিভাবকদের, নাকি শিক্ষার্থীরও?"
+    },
+    {
+      "text": "Which high school Bible course carries the half unit, and what does a student who joins in 10th–12th grade take?",
+      "of": "ea1a7b04",
+      "at": [
+        "covenant-day:ask.questions[5]"
+      ],
+      "t": "হাই স্কুলের কোন বাইবেল কোর্সে অর্ধেক ইউনিট ধরা হয়, আর যে শিক্ষার্থী গ্রেড 10–12-এ ভর্তি হয়, সে কী পড়ে?"
+    },
+    {
+      "text": "Which Bible translation do classes use?",
+      "of": "5b85035c",
+      "at": [
+        "covenant-day:ask.questions[6]"
+      ],
+      "t": "ক্লাসগুলোতে বাইবেলের কোন অনুবাদ ব্যবহার করা হয়?"
+    },
+    {
+      "text": "Must every middle and high school student go to Windy Gap, and who leads it?",
+      "of": "24b56828",
+      "at": [
+        "covenant-day:ask.questions[7]"
+      ],
+      "t": "মিডল ও হাই স্কুলের প্রত্যেক শিক্ষার্থীকে কি Windy Gap-এ যেতে হয়, আর এটি কে পরিচালনা করেন?"
+    },
+    {
+      "text": "Is the 5th-grade spring trip to Fort Caswell or to Kanuga? The school’s pages name both.",
+      "of": "27868a9b",
+      "at": [
+        "covenant-day:ask.questions[8]"
+      ],
+      "t": "গ্রেড 5-এর বসন্তকালীন ভ্রমণ কি Fort Caswell-এ, নাকি Kanuga-য়? স্কুলের পাতাগুলোতে দুটির নামই আছে।"
+    },
+    {
+      "text": "Are any mission trips planned for 2026–27, and for which grades?",
+      "of": "1e1cac6a",
+      "at": [
+        "covenant-day:ask.questions[9]"
+      ],
+      "t": "2026–27-এ কি কোনো মিশন ভ্রমণের পরিকল্পনা আছে, আর কোন কোন গ্রেডের জন্য?"
+    },
+    {
+      "text": "Do high school students serve as student chaplains?",
+      "of": "b50a7916",
+      "at": [
+        "covenant-day:ask.questions[10]"
+      ],
+      "t": "হাই স্কুলের শিক্ষার্থীরা কি শিক্ষার্থী-চ্যাপলিন হিসেবে দায়িত্ব পালন করে?"
+    },
+    {
+      "text": "When and where does Moms in Prayer meet?",
+      "of": "7534542a",
+      "at": [
+        "covenant-day:ask.questions[11]"
+      ],
+      "t": "Moms in Prayer কখন এবং কোথায় বসে?"
+    },
+    {
+      "text": "November 27, 2026",
+      "of": "d9eeac50",
+      "at": [
+        "covenant-day:ask.asOf"
+      ],
+      "t": "27 নভেম্বর 2026"
+    },
+    {
       "text": "Hickory Grove Christian School is “a ministry of Hickory Grove Baptist Church”. The church started it in 1995. Students take Bible as a core class every year, and the church’s pastors teach in chapel.",
       "of": "4b2d51ae",
       "at": [
@@ -1972,14 +3362,6 @@
         "hickory-grove-christian:classes.groups[1].rows[3].detail"
       ],
       "t": "কোর্সগুলোর মধ্যে আছে Becoming a Young Man of God ও Becoming a Young Woman of God (গ্রেড 7–8), Student on Mission, এবং বাছাই করা গ্রেড 8-এর শিক্ষার্থীদের জন্য Christian Leadership।"
-    },
-    {
-      "text": "High School",
-      "of": "8ab05d33",
-      "at": [
-        "hickory-grove-christian:classes.groups[2].name"
-      ],
-      "t": "High School"
     },
     {
       "text": "4 Bible credits to graduate",

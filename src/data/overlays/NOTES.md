@@ -3371,7 +3371,9 @@ foreign script in any locale.
 **Translated, by the user's decision:** the mission, the five core values and all ten
 statement-of-faith articles, whole, with each locale's established church vocabulary (es
 *justificados por gracia mediante la fe*, fa *پارسا شمرده می‌شوند*, ar from the Van Dyck
-register). The browser pass counts ten articles in every locale.
+register). The browser pass counted ten articles in every locale. **Since plan `cdfaithlife`
+(2026-11-27) the card shows nine:** one article was removed under the site's
+rated-E-for-everyone rule, and its unit was dropped from every work file and overlay.
 
 **Kept Latin in every locale:** chapter-and-verse references (`Micah 6:8`,
 `Philippians 4:4-7`); the nine Upper and Middle School course titles (`Old Testament
@@ -3450,3 +3452,51 @@ belongs in the render layer (keep an isolate on one line), not in any stored str
 **Soft spots for a native reviewer:** "missions in reverse" (te *ఎదురు దిశలో మిషన్*, hi
 *उल्टी दिशा का मिशन*, ht *misyon nan sans envès*) is loose in every locale; "Kingdom
 Education" is translated, not kept; ar renders the pastor roles masculine.
+
+## Faith & Spiritual Life — Covenant Day (`cdfaithlife`) — Phase 2, 2026-11-27
+
+The area's third school, and the first change to a shipped faith card. Added with
+`i18n_splice_work.mjs`, never a re-extract: 351 units kept, 172 added (171 Covenant Day plus
+Charlotte Christian's new `beliefs.headline`), 2 dropped in all nine locales. The two drops
+are deliberate: one Charlotte Christian statement-of-faith article was removed under the
+site's rated-E-for-everyone rule, and the old "ten-point" headline went with it. The two
+articles after it kept their translations, and their `at` moved from `articles[8]`/`[9]` to
+`[7]`/`[8]` (the splice joins by stamp). The removed article's stamp is in no work file and no
+built overlay. One translator per locale wrote a stamp→translation map in the scratchpad,
+applied centrally by stamp and asserted against `main`: 172 filled, 0 other `t` changed,
+0 empty. The new Charlotte Christian headline is each locale's old one with only the count
+dropped. The card shows nine articles in every locale.
+
+Also in this pass: the Covenant Day Student Clubs `service.subhead` was reworded in English
+("the school publishes no service-hour requirement"), so its one unit was re-spliced and
+re-translated from the old rendering. And the chrome key `faith.statementOfFaith` now reads
+"Belief statement, in the school’s own words", translated in all nine catalogs.
+
+**Kept Latin in every locale:** Christ Covenant Church, Presbyterian Church in America (PCA),
+the Westminster Confession, Windy Gap, Goodness Gorillas, Doulos Days, ContainIt, Moms in
+Prayer, Dads Prayer Gathering, Worship Center, the course names (`Worship Leadership`,
+`Christian Doctrine`, `Engaging the Culture - An Introduction to Apologetics and Worldviews`),
+Bible references and staff names. Eight units are identical to English in every locale.
+**`it` also keeps `High school: Windy Gap` and `Middle school: Windy Gap`** as written: Italian
+uses the lowercase loanwords for the divisions throughout, as on Hickory Grove's cards.
+`i18n:leaks` flags these two in `it`, and es `“Israel”` (recorded above). Both are KEEPs.
+
+**"units", not "credits":** Covenant Day says "units", so es *unidades*, it *unità*, ar *وحدات*
+and so on, kept apart from the "credits" Charlotte Christian's card uses.
+
+**Checks:** `check:runtime`, `check:live`, `check:fr`, `check:bidi`, `check:fa`, `check:hi`,
+`check:dates`, `check:moneytext`, `check:chrome`, and `check:sepdrift` and `check_figures.py`
+per locale all pass. `check:digits` compared 1,557 new units and flagged 0.
+
+**Browser (real Chrome, every card open):** es, fa and hi at 1280, fa and ar at 390. Ten cards,
+nine articles, the new heading above them, overflow 0. Charlotte Christian shows nine articles
+in es and fa under the new heading. In fa and ar, 20 ranges per page, 0 drawn reversed by glyph
+position. At 390px one ar `2026–27` wraps at its dash, the site-wide wrap recorded above.
+
+**Soft spots for a native reviewer:** "homeroom" has no precedent (es *aula de inicio del día*,
+fr *classe de référence*, ar *حصة الصف الصباحية*, fa *کلاس آغاز روز (homeroom)*, it keeps it with
+a gloss). "three-legged stool" is literal everywhere; fa was corrected to *چارپایه‌ای با سه پایه*.
+"Session" (the elders) is kept with a gloss in most locales. The six graduate outcomes are
+imperatives in fa and hi, to match how Charlotte Christian's core values read. "1 Peter" keeps
+its digit in every locale (fa *رسالهٔ 1 پطرس*, where *اول پطرس* is the usual form). ar renders
+"Chaplain" *قسّيس/ة*; check it beside *راعي*.

@@ -154,6 +154,7 @@
       "of": "e2630cbf",
       "at": [
         "charlotte-christian:chapel.entries[3].title",
+        "covenant-day:chapel.entries[2].title",
         "hickory-grove-christian:chapel.entries[2].title"
       ]
     },
@@ -245,7 +246,8 @@
       "t": "Lower School",
       "of": "0921a0ca",
       "at": [
-        "charlotte-christian:classes.groups[0].name"
+        "charlotte-christian:classes.groups[0].name",
+        "covenant-day:classes.groups[0].name"
       ]
     },
     {
@@ -259,7 +261,8 @@
       "t": "Junior Kindergarten",
       "of": "5ee6535c",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[0].label"
+        "charlotte-christian:classes.groups[0].rows[0].label",
+        "covenant-day:classes.groups[0].rows[0].label"
       ]
     },
     {
@@ -273,7 +276,8 @@
       "t": "Kindergarten",
       "of": "68541d89",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[1].label"
+        "charlotte-christian:classes.groups[0].rows[1].label",
+        "covenant-day:classes.groups[0].rows[1].label"
       ]
     },
     {
@@ -287,7 +291,8 @@
       "t": "الصف 1",
       "of": "20673dd7",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[2].label"
+        "charlotte-christian:classes.groups[0].rows[2].label",
+        "covenant-day:classes.groups[0].rows[2].label"
       ]
     },
     {
@@ -301,7 +306,8 @@
       "t": "الصف 2",
       "of": "21673f6a",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[3].label"
+        "charlotte-christian:classes.groups[0].rows[3].label",
+        "covenant-day:classes.groups[0].rows[3].label"
       ]
     },
     {
@@ -315,7 +321,8 @@
       "t": "الصف 3",
       "of": "226740fd",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[4].label"
+        "charlotte-christian:classes.groups[0].rows[4].label",
+        "covenant-day:classes.groups[0].rows[4].label"
       ]
     },
     {
@@ -329,7 +336,8 @@
       "t": "الصف 4",
       "of": "1b6735f8",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[5].label"
+        "charlotte-christian:classes.groups[0].rows[5].label",
+        "covenant-day:classes.groups[0].rows[5].label"
       ]
     },
     {
@@ -344,6 +352,7 @@
       "of": "15441234",
       "at": [
         "charlotte-christian:classes.groups[1].name",
+        "covenant-day:classes.groups[1].name",
         "hickory-grove-christian:classes.groups[1].name"
       ]
     },
@@ -429,6 +438,7 @@
       "of": "6b2cd411",
       "at": [
         "charlotte-christian:classes.groups[2].rows[0].label",
+        "covenant-day:classes.groups[2].rows[0].label",
         "hickory-grove-christian:classes.groups[2].rows[0].label"
       ]
     },
@@ -444,6 +454,7 @@
       "of": "15a0fcf0",
       "at": [
         "charlotte-christian:classes.groups[2].rows[1].label",
+        "covenant-day:classes.groups[2].rows[1].label",
         "hickory-grove-christian:classes.groups[2].rows[1].label"
       ]
     },
@@ -686,8 +697,8 @@
       ]
     },
     {
-      "t": "رسالة المدرسة، وقيمها الأساسية الخمس، وبيان إيمانها المؤلَّف من عشرة بنود، بكلمات المدرسة نفسها.",
-      "of": "ef08810f",
+      "t": "رسالة المدرسة، وقيمها الأساسية الخمس، وبيان إيمانها، بكلمات المدرسة نفسها.",
+      "of": "8240389f",
       "at": [
         "charlotte-christian:beliefs.headline"
       ]
@@ -805,24 +816,17 @@
       ]
     },
     {
-      "t": "«نؤمن بأن الزواج علاقة عهد أنشأها الله لرجل وامرأة. والعلاقة الجنسية الحميمة عطية من الله، ومكانها الصحيح هو في إطار الزواج فقط».",
-      "of": "e1e3a547",
-      "at": [
-        "charlotte-christian:beliefs.articles[7]"
-      ]
-    },
-    {
       "t": "«نؤمن بأن يسوع المسيح، ابن الله، سيعود ليجدّد الخليقة كلها وليدين الأحياء والأموات».",
       "of": "fe82762c",
       "at": [
-        "charlotte-christian:beliefs.articles[8]"
+        "charlotte-christian:beliefs.articles[7]"
       ]
     },
     {
       "t": "«نؤمن بأن التعليم المسيحي شراكة بين الطلاب وهيئة التدريس وأولياء الأمور، تتيح للطلاب فرصة أن يتعلّموا ويختبروا المواد الأكاديمية والأنشطة المصاحبة للمنهج من خلال نظرة كتابية إلى العالم، في حضور هيئة تدريس تكرم المسيح».",
       "of": "2ed3e072",
       "at": [
-        "charlotte-christian:beliefs.articles[9]"
+        "charlotte-christian:beliefs.articles[8]"
       ]
     },
     {
@@ -830,6 +834,7 @@
       "of": "2700b011",
       "at": [
         "charlotte-christian:families.headline",
+        "covenant-day:families.headline",
         "hickory-grove-christian:families.headline"
       ]
     },
@@ -838,6 +843,7 @@
       "of": "fbc4b036",
       "at": [
         "charlotte-christian:families.groups[0].name",
+        "covenant-day:families.groups[0].name",
         "hickory-grove-christian:families.groups[0].name"
       ]
     },
@@ -941,6 +947,7 @@
       "of": "6f74c399",
       "at": [
         "charlotte-christian:families.groups[1].rows[1].label",
+        "covenant-day:families.groups[1].rows[0].label",
         "hickory-grove-christian:families.groups[1].rows[0].label"
       ]
     },
@@ -998,6 +1005,7 @@
       "of": "bf92e599",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].label",
+        "covenant-day:families.groups[1].rows[2].label",
         "hickory-grove-christian:families.groups[1].rows[3].label"
       ]
     },
@@ -1006,6 +1014,7 @@
       "of": "889f792d",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].detail",
+        "covenant-day:families.groups[1].rows[2].detail",
         "hickory-grove-christian:families.groups[1].rows[3].detail"
       ]
     },
@@ -1392,6 +1401,1216 @@
       ]
     },
     {
+      "t": "مدرسة Covenant Day School هي «إحدى خدمات Christ Covenant Church (PCA)»، وهي كنيسة مشيخية في Matthews. يدرس الطلاب الكتاب المقدّس في كل صف، ويُعقد الاجتماع الروحي كل أسبوع.",
+      "of": "23c2be9b",
+      "at": [
+        "covenant-day:lead.strong"
+      ]
+    },
+    {
+      "t": "قيمتها الأساسية الأولى: «أساسنا مبنيّ على الحق المطلق لله ولكلمته، وكل جانب من جوانب تعليمنا يتخلّله إيماننا بالمسيح».",
+      "of": "d1299a3e",
+      "at": [
+        "covenant-day:lead.muted"
+      ]
+    },
+    {
+      "t": "مادة في الكتاب المقدّس في كل صف",
+      "of": "492b06d5",
+      "at": [
+        "covenant-day:stats[0].label"
+      ]
+    },
+    {
+      "t": "من Junior Kindergarten حتى الصف 12",
+      "of": "13b7e07d",
+      "at": [
+        "covenant-day:stats[0].note"
+      ]
+    },
+    {
+      "t": "وحدات في الكتاب المقدّس للتخرّج",
+      "of": "57ba03d0",
+      "at": [
+        "covenant-day:stats[1].label"
+      ]
+    },
+    {
+      "t": "من أصل 25 وحدة إجمالًا، مع مقرّر في الكتاب المقدّس كل سنة",
+      "of": "284c87ea",
+      "at": [
+        "covenant-day:stats[1].note"
+      ]
+    },
+    {
+      "t": "صفوف تحتاج إلى توصية من راعي الكنيسة",
+      "of": "981b62ad",
+      "at": [
+        "covenant-day:stats[2].label"
+      ]
+    },
+    {
+      "t": "ويجب أن يكون أحد الوالدين من أتباع المسيح",
+      "of": "eb854799",
+      "at": [
+        "covenant-day:stats[2].note"
+      ]
+    },
+    {
+      "t": "خصم لأعضاء الكنيسة",
+      "of": "7a38fc6f",
+      "at": [
+        "covenant-day:stats[3].label"
+      ]
+    },
+    {
+      "t": "لكل طالب، لأعضاء Christ Covenant Church",
+      "of": "95c905f4",
+      "at": [
+        "covenant-day:stats[3].note"
+      ]
+    },
+    {
+      "t": "يُعقد الاجتماع الروحي كل أسبوع، والطلاب موزّعون حسب أعمارهم. وتجتمع المدرسة كلها للاجتماع الروحي في Worship Center التابع للكنيسة.",
+      "of": "5c96f345",
+      "at": [
+        "covenant-day:chapel.headline"
+      ]
+    },
+    {
+      "t": "الاجتماع الروحي الأسبوعي",
+      "of": "fcfc7d01",
+      "at": [
+        "covenant-day:chapel.entries[0].title"
+      ]
+    },
+    {
+      "t": "«تُعقد الاجتماعات الروحية منفصلةً حسب العمر، وتتضمّن ترانيم التسبيح وقراءة من الكتاب المقدّس ورسالة يقدّمها متحدثون ضيوف أو مديرو المراحل أو المعلّمون».",
+      "of": "82ac3a1f",
+      "at": [
+        "covenant-day:chapel.entries[0].text"
+      ]
+    },
+    {
+      "t": "يحضر طلاب Junior Kindergarten وKindergarten الاجتماع الروحي كل أسبوع.",
+      "of": "b332a43f",
+      "at": [
+        "covenant-day:chapel.entries[0].muted"
+      ]
+    },
+    {
+      "t": "الاجتماع الروحي في المرحلة المتوسطة",
+      "of": "c0cec2b7",
+      "at": [
+        "covenant-day:chapel.entries[1].title"
+      ]
+    },
+    {
+      "t": "تذكر المدرسة «اجتماعات روحية ذات معنى» ضمن ما يكسبه طلاب المرحلة المتوسطة. ويمكن لطلاب الصف 8 «المشاركة في قيادة الاجتماع الروحي».",
+      "of": "822fb708",
+      "at": [
+        "covenant-day:chapel.entries[1].text"
+      ]
+    },
+    {
+      "t": "تجتمع المدرسة كلها في Worship Center التابع لـChrist Covenant Church للاجتماعات الروحية والاحتفالات. وفي تقويم 2026–27 حفل افتتاح العام (Convocation) في سبتمبر، واجتماع روحي لعيد الميلاد للمدرسة كلها (All-School Christmas Chapel) في ديسمبر.",
+      "of": "da6ecf69",
+      "at": [
+        "covenant-day:chapel.entries[2].text"
+      ]
+    },
+    {
+      "t": "تُقام خدمة العبادة للتخرّج (Baccalaureate) لطلاب السنة الأخيرة في مايو.",
+      "of": "c483d72a",
+      "at": [
+        "covenant-day:chapel.entries[2].muted"
+      ]
+    },
+    {
+      "t": "فرق العبادة",
+      "of": "921a16a5",
+      "at": [
+        "covenant-day:chapel.entries[3].title"
+      ]
+    },
+    {
+      "t": "يذكر برنامج الموسيقى فريق عبادة للمرحلة المتوسطة (Middle School Worship Band) وفريق عبادة للمرحلة الثانوية (High School Worship Band).",
+      "of": "5baf859c",
+      "at": [
+        "covenant-day:chapel.entries[3].text"
+      ]
+    },
+    {
+      "t": "Worship Leadership",
+      "of": "a7167594",
+      "at": [
+        "covenant-day:chapel.entries[4].title"
+      ]
+    },
+    {
+      "t": "مقرّر في الفنون الجميلة بمستوى الإعداد للجامعة في قيادة العبادة.",
+      "of": "d572ab35",
+      "at": [
+        "covenant-day:chapel.entries[4].text"
+      ]
+    },
+    {
+      "t": "المعلّمون يصلّون أيضًا.",
+      "of": "fc959e1a",
+      "at": [
+        "covenant-day:chapel.note.strong"
+      ]
+    },
+    {
+      "t": "«عدة مرات كل أسبوع، يجتمع المعلّمون قبل حصة الصف الصباحية ليصلّوا بعضهم لأجل بعض ولأجل طلابهم».",
+      "of": "f01045f6",
+      "at": [
+        "covenant-day:chapel.note.text"
+      ]
+    },
+    {
+      "t": "كما أن جميع أعضاء هيئة التدريس والموظفين «يجتمعون كل ربع سنة للعبادة والتأمّلات الروحية».",
+      "of": "0b50a801",
+      "at": [
+        "covenant-day:chapel.note.muted"
+      ]
+    },
+    {
+      "t": "يُدرَّس الكتاب المقدّس في كل صف، من Junior Kindergarten حتى الصف 12. إليك ما يدرسه كل صف، ووحدات الكتاب المقدّس التي يحتاجها طالب المرحلة الثانوية للتخرّج.",
+      "of": "07fae2b4",
+      "at": [
+        "covenant-day:classes.headline"
+      ]
+    },
+    {
+      "t": "تقول المدرسة: «تُدرَّس جميع المواد من منظور النظرة الكتابية إلى العالم».",
+      "of": "5fa013e4",
+      "at": [
+        "covenant-day:classes.intro.text"
+      ]
+    },
+    {
+      "t": "وتذكر اللاهوت ضمن موادها الأساسية، إلى جانب الأدب والرياضيات والعلوم والتاريخ واللغات العالمية.",
+      "of": "1255cf40",
+      "at": [
+        "covenant-day:classes.intro.muted"
+      ]
+    },
+    {
+      "t": "الكتاب المقدّس كل سنة",
+      "of": "374a99f3",
+      "at": [
+        "covenant-day:classes.groups[0].tally",
+        "covenant-day:classes.groups[1].tally"
+      ]
+    },
+    {
+      "t": "محبة الله، ومقاطع قصيرة من الكتاب المقدّس للحفظ، وأبرز شخصيات الكتاب المقدّس وقصصها.",
+      "of": "2d7a4a1e",
+      "at": [
+        "covenant-day:classes.groups[0].rows[0].detail"
+      ]
+    },
+    {
+      "t": "الصداقة مع الله ومع الآخرين، ومقاطع قصيرة من الكتاب المقدّس، وشخصيات الكتاب المقدّس وقصصها.",
+      "of": "8f04fb30",
+      "at": [
+        "covenant-day:classes.groups[0].rows[1].detail"
+      ]
+    },
+    {
+      "t": "من إبراهيم حتى الاستقرار في أرض الموعد، ثم من سفرَي القضاة وراعوث حتى سبي إسرائيل وعودته، مع المزامير والأمثال.",
+      "of": "10d44e97",
+      "at": [
+        "covenant-day:classes.groups[0].rows[2].detail"
+      ]
+    },
+    {
+      "t": "مراجعة للعهد القديم باستخدام شجرة يسّى (Jesse Tree)، ثم العهد الجديد: حياة يسوع وموته وقيامته، والكنيسة الأولى، ورحلات بولس.",
+      "of": "05e387fd",
+      "at": [
+        "covenant-day:classes.groups[0].rows[3].detail"
+      ]
+    },
+    {
+      "t": "من الخليقة حتى أرض الموعد، وتُختتم بدراسة لرسالة أفسس.",
+      "of": "21467ec2",
+      "at": [
+        "covenant-day:classes.groups[0].rows[4].detail"
+      ]
+    },
+    {
+      "t": "رسالة فيلبي، وسفرا القضاة ويشوع، وملوك إسرائيل، والأعياد اليهودية، وثمر الروح. وتنتهي وحدة Goodness Gorillas بمشروع خدمة.",
+      "of": "4d244402",
+      "at": [
+        "covenant-day:classes.groups[0].rows[5].detail"
+      ]
+    },
+    {
+      "t": "الصف 5",
+      "of": "1c67378b",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].label"
+      ]
+    },
+    {
+      "t": "رسالة بطرس الأولى (1 Peter)، وعهود العهد القديم، وكيف كُتبت الأناجيل، وحياة يسوع وخدمته.",
+      "of": "2cde9e59",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].detail"
+      ]
+    },
+    {
+      "t": "نظرة عامة على العهد القديم",
+      "of": "58881131",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].label"
+      ]
+    },
+    {
+      "t": "يبني الطلاب نظرة مسيحية إلى العالم «من خلال دراسة الكتاب المقدّس».",
+      "of": "d3ec9bd1",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].detail"
+      ]
+    },
+    {
+      "t": "الأناجيل",
+      "of": "0d00fd21",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "حياة المسيح، وكيفية دراسة الكتاب المقدّس، و«عادة التأمّلات الروحية الشخصية».",
+      "of": "3a533ab0",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].detail"
+      ]
+    },
+    {
+      "t": "أعمال الرسل ورسائل بولس",
+      "of": "cd4f25d2",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].label"
+      ]
+    },
+    {
+      "t": "تطبيق الكتاب المقدّس على الحياة اليومية، وتعلّم كيفية مشاركة إيمانهم.",
+      "of": "6e1f8ebf",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].detail"
+      ]
+    },
+    {
+      "t": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:classes.groups[2].name",
+        "hickory-grove-christian:classes.groups[2].name"
+      ]
+    },
+    {
+      "t": "3.5 وحدات في الكتاب المقدّس للتخرّج",
+      "of": "c1cb38dc",
+      "at": [
+        "covenant-day:classes.groups[2].tally"
+      ]
+    },
+    {
+      "t": "بمستوى الإعداد للجامعة.",
+      "of": "4647f1f9",
+      "at": [
+        "covenant-day:classes.groups[2].rows[0].detail",
+        "covenant-day:classes.groups[2].rows[1].detail",
+        "covenant-day:classes.groups[2].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Christian Doctrine",
+      "of": "5eae87e2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[2].label"
+      ]
+    },
+    {
+      "t": "Engaging the Culture - An Introduction to Apologetics and Worldviews",
+      "of": "67c21bc2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].label"
+      ]
+    },
+    {
+      "t": "بمستوى الإعداد للجامعة. الدفاعيات هي تقديم الحجّة للإيمان المسيحي.",
+      "of": "51683fa5",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].detail"
+      ]
+    },
+    {
+      "t": "مقرّر في الكتاب المقدّس كل سنة.",
+      "of": "f258adb9",
+      "at": [
+        "covenant-day:classes.note.strong"
+      ]
+    },
+    {
+      "t": "طلاب المرحلة الثانوية «يجب أن يكونوا مسجّلين في مقرّر للكتاب المقدّس كل سنة». وتُحتسب 3.5 وحدات في الكتاب المقدّس ضمن الـ25 وحدة اللازمة للتخرّج.",
+      "of": "891aa0ec",
+      "at": [
+        "covenant-day:classes.note.text"
+      ]
+    },
+    {
+      "t": "لا تذكر المدرسة أي مقرّر يحمل نصف الوحدة.",
+      "of": "d22ffe2c",
+      "at": [
+        "covenant-day:classes.note.muted"
+      ]
+    },
+    {
+      "t": "تبدأ المرحلتان المتوسطة والثانوية كل سنة بخلوة في Windy Gap. والخلوات مشمولة في الرسوم الدراسية.",
+      "of": "bb6b6d32",
+      "at": [
+        "covenant-day:retreats.headline"
+      ]
+    },
+    {
+      "t": "المرحلة الثانوية: Windy Gap",
+      "of": "763421ce",
+      "at": [
+        "covenant-day:retreats.cells[0].title"
+      ]
+    },
+    {
+      "t": "الطلاب والمعلّمون «يبتعدون عن انشغالات الحياة ليتواصلوا من جديد، بعضهم مع بعض، والأهم من ذلك مع الرب». وتتضمّن الأيام ألعابًا ومشاهد تمثيلية قصيرة ووقتًا في الأكواخ و«وقتًا في كلمة الله».",
+      "of": "6f21c994",
+      "at": [
+        "covenant-day:retreats.cells[0].text"
+      ]
+    },
+    {
+      "t": "المرحلة المتوسطة: Windy Gap",
+      "of": "c710963f",
+      "at": [
+        "covenant-day:retreats.cells[1].title"
+      ]
+    },
+    {
+      "t": "رحلة في أغسطس مع الأصدقاء والمعلّمين، «مليئة بالاجتماعات الروحية وبناء روح الفريق ووقت الفراغ».",
+      "of": "e1328101",
+      "at": [
+        "covenant-day:retreats.cells[1].text"
+      ]
+    },
+    {
+      "t": "مشمولة في الرسوم الدراسية.",
+      "of": "8548f880",
+      "at": [
+        "covenant-day:retreats.note.strong"
+      ]
+    },
+    {
+      "t": "تشمل الرسوم الدراسية «الخلوات المدرسية والرحلات الميدانية المطلوبة».",
+      "of": "ff3dc56d",
+      "at": [
+        "covenant-day:retreats.note.text"
+      ]
+    },
+    {
+      "t": "ويقوم طلاب الصف الخامس أيضًا برحلة مبيت إلى Fort Caswell، على ساحل ولاية كارولاينا الشمالية، في الربيع.",
+      "of": "b82e004a",
+      "at": [
+        "covenant-day:retreats.note.muted"
+      ]
+    },
+    {
+      "t": "حيث يصلّي الطلاب ويتحدثون عن الإيمان في مجموعات أصغر: تأمّلات روحية يومية في حصة الصف الصباحية، ومجموعات إرشاد أسبوعية في المرحلة الثانوية، ودراسات في الكتاب المقدّس يقودها الطلاب.",
+      "of": "9ea6941e",
+      "at": [
+        "covenant-day:groups.headline"
+      ]
+    },
+    {
+      "t": "التأمّلات الروحية في حصة الصف الصباحية",
+      "of": "0a859b1a",
+      "at": [
+        "covenant-day:groups.entries[0].title"
+      ]
+    },
+    {
+      "t": "«كل يوم خلال حصة الصف الصباحية، يقود المعلّمون تأمّلًا روحيًّا للطلاب». ويتشارك الطلاب طلبات الصلاة ويصلّي بعضهم لأجل بعض.",
+      "of": "20773faf",
+      "at": [
+        "covenant-day:groups.entries[0].text"
+      ]
+    },
+    {
+      "t": "مجموعات الإرشاد",
+      "of": "22449f6a",
+      "at": [
+        "covenant-day:groups.entries[1].title"
+      ]
+    },
+    {
+      "t": "مجموعات يقودها المعلّمون تجتمع أسبوعيًّا و«تبقى معًا طوال السنة». يتعلّم الطلاب عن الموضوع الروحي للسنة، ويقدّمون تقريرًا عن عملهم الدراسي، ويصلّون معًا.",
+      "of": "5eb8da46",
+      "at": [
+        "covenant-day:groups.entries[1].text"
+      ]
+    },
+    {
+      "t": "وكثيرًا ما «يوجّه المجموعاتِ دراسةُ كتابٍ تركّز على النموّ الروحي».",
+      "of": "15e1cefe",
+      "at": [
+        "covenant-day:groups.entries[1].muted"
+      ]
+    },
+    {
+      "t": "دراسات الكتاب المقدّس الطلابية",
+      "of": "a84f0783",
+      "at": [
+        "covenant-day:groups.entries[2].title"
+      ]
+    },
+    {
+      "t": "مجموعات تلمذة صغيرة «ينظّمها ويقودها الطلاب عادةً». وتجتمع قبل بدء الدوام وبعده.",
+      "of": "a70256dc",
+      "at": [
+        "covenant-day:groups.entries[2].text"
+      ]
+    },
+    {
+      "t": "رسالة المدرسة، وملخّص معتقداتها، والسمات الست التي تأمل أن تراها في كل خرّيج، بكلمات المدرسة نفسها.",
+      "of": "12e23a6d",
+      "at": [
+        "covenant-day:beliefs.headline"
+      ]
+    },
+    {
+      "t": "«رسالة Covenant Day School هي مساعدة الأسرة المسيحية من خلال تقديم تعليم يتّسم بالنظرة الكتابية إلى العالم والتميّز الأكاديمي، حتى يكون الطلاب مجهَّزين ليكونوا ملحًا ونورًا لمجد الله».",
+      "of": "1f42aa5c",
+      "at": [
+        "covenant-day:beliefs.mission"
+      ]
+    },
+    {
+      "t": "اتبع المسيح",
+      "of": "1542ffa9",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].name"
+      ]
+    },
+    {
+      "t": "يدرك خرّيجونا أن حياتهم الروحية والفكرية اليومية لا تنفصلان وتكمّل إحداهما الأخرى، والمسيح في مركزهما.",
+      "of": "eabcba41",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].text"
+      ]
+    },
+    {
+      "t": "اخدم الآخرين",
+      "of": "51090807",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].name"
+      ]
+    },
+    {
+      "t": "يُظهر خرّيجونا محبة لله، وللكنيسة بوصفها جسد المسيح، ولجميع الناس، بتأكيدهم أن الآخرين حاملون لصورة الله.",
+      "of": "890a3b11",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].text"
+      ]
+    },
+    {
+      "t": "اسعَ إلى الحكمة",
+      "of": "5323c7ee",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].name"
+      ]
+    },
+    {
+      "t": "يواصل خرّيجونا السعي إلى الحكمة والمعرفة طوال حياتهم.",
+      "of": "71b1787b",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].text"
+      ]
+    },
+    {
+      "t": "تواصَل بفاعلية",
+      "of": "162ed124",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].name"
+      ]
+    },
+    {
+      "t": "يتواصل خرّيجونا بثقة وفاعلية باللغات المكتوبة والمنطوقة والرياضية والتقنية.",
+      "of": "be6a43ca",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].text"
+      ]
+    },
+    {
+      "t": "تعلّم بهدف",
+      "of": "d0764395",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].name"
+      ]
+    },
+    {
+      "t": "لدى خرّيجينا شغف بالتعلّم والأدوات الأكاديمية اللازمة للنجاح وهم يخطون بهدف الخطوات التالية في حياتهم.",
+      "of": "abfb0fba",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].text"
+      ]
+    },
+    {
+      "t": "تفاعل مع الثقافة",
+      "of": "99d65c43",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].name"
+      ]
+    },
+    {
+      "t": "بوصفهم سفراء للمسيح، خرّيجونا مجهَّزون ليمثّلوه تمثيلًا حسنًا في الجامعة، في الدراسة الأكاديمية و/أو الرياضة و/أو الفنون الجميلة.",
+      "of": "c7c8acb6",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].text"
+      ]
+    },
+    {
+      "t": "إحدى خدمات Christ Covenant Church (PCA).",
+      "of": "5e7cc85f",
+      "at": [
+        "covenant-day:beliefs.note.strong"
+      ]
+    },
+    {
+      "t": "الكنيسة «جماعة في Presbyterian Church in America». وتقول المدرسة إنها «تسترشد بالقناعات العقائدية نفسها»، الواردة في Westminster Confession of Faith and Catechisms.",
+      "of": "f5988533",
+      "at": [
+        "covenant-day:beliefs.note.text"
+      ]
+    },
+    {
+      "t": "وتقول المدرسة أيضًا: «كثير من أسرنا، بل معظمها، يأتي من تقاليد كنسية أخرى».",
+      "of": "2fe2787a",
+      "at": [
+        "covenant-day:beliefs.note.muted"
+      ]
+    },
+    {
+      "t": "«نؤمن بأن الكتاب المقدّس هو كلمة الله المكتوبة، الموحى بها من الروح القدس والخالية من الخطأ في المخطوطات الأصلية. والكتاب المقدّس هو إعلان حق الله، وهو معصوم وذو سلطان في جميع أمور الإيمان والممارسة».",
+      "of": "d6badf17",
+      "at": [
+        "covenant-day:beliefs.articles[0]"
+      ]
+    },
+    {
+      "t": "«نؤمن بالثالوث القدوس. يوجد إله واحد، كائن منذ الأزل في ثلاثة أقانيم: الآب والابن والروح القدس».",
+      "of": "b9820e07",
+      "at": [
+        "covenant-day:beliefs.articles[1]"
+      ]
+    },
+    {
+      "t": "«نؤمن بأن الجميع خطاة وعاجزون تمامًا عن أن يخلّصوا أنفسهم من سخط الله، إلا برحمته».",
+      "of": "6b8fc3e2",
+      "at": [
+        "covenant-day:beliefs.articles[2]"
+      ]
+    },
+    {
+      "t": "«نؤمن بأن الخلاص من الله وحده، إذ يختار بسيادته من سيخلّصهم. ونؤمن بأن اختياره قائم على نعمته، لا على أي استحقاق بشري فردي، ولا على إيمان معلوم مسبقًا».",
+      "of": "a457c453",
+      "at": [
+        "covenant-day:beliefs.articles[3]"
+      ]
+    },
+    {
+      "t": "«نؤمن بأن يسوع المسيح هو ابن الله الأزلي، الذي كفّر بحياته الكاملة وموته الكفّاري عن خطايا جميع الذين يتّكلون عليه وحده للخلاص».",
+      "of": "5ea0229c",
+      "at": [
+        "covenant-day:beliefs.articles[4]"
+      ]
+    },
+    {
+      "t": "«نؤمن بأن الله منعم وأمين لشعبه، لا بوصفهم أفرادًا فحسب، بل بوصفهم أسرًا عبر أجيال متعاقبة بحسب مواعيد عهده».",
+      "of": "427d3702",
+      "at": [
+        "covenant-day:beliefs.articles[5]"
+      ]
+    },
+    {
+      "t": "«نؤمن بأن الروح القدس يسكن في شعب الله ويمنحهم القوة والحكمة ليتّكلوا على المسيح ويتبعوه».",
+      "of": "5cb7ec67",
+      "at": [
+        "covenant-day:beliefs.articles[6]"
+      ]
+    },
+    {
+      "t": "«نؤمن بأن يسوع سيعود، بالجسد وعلى نحو منظور، ليدين البشر جميعًا وليأخذ شعبه إليه».",
+      "of": "baf53ecb",
+      "at": [
+        "covenant-day:beliefs.articles[7]"
+      ]
+    },
+    {
+      "t": "«نؤمن بأن جميع جوانب حياتنا يجب أن تُعاش لمجد الله تحت ربوبية يسوع المسيح».",
+      "of": "a4295249",
+      "at": [
+        "covenant-day:beliefs.articles[8]"
+      ]
+    },
+    {
+      "t": "وليّ أمر مسيحي",
+      "of": "595d7fd9",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "تتشارك المدرسة مع الأسر التي يكون فيها «أحد الوالدين على الأقل من أتباع المسيح ومنخرطًا بفاعلية في كنيسة مسيحية محلية».",
+      "of": "e678adc6",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].detail"
+      ]
+    },
+    {
+      "t": "شهادتكم المسيحية",
+      "of": "8350c3fb",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "في مقابلة أولياء الأمور، «سيُطلب من الوالدين الحديث عن شهادتهما المسيحية».",
+      "of": "77708e03",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].detail"
+      ]
+    },
+    {
+      "t": "توصية من راعي الكنيسة",
+      "of": "b1d5c047",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].label"
+      ]
+    },
+    {
+      "t": "مطلوبة للصفوف JK–11. إذا كنتم لا تعرفون الراعي الأول لكنيستكم، فيمكن أن يأتي النموذج من «راعٍ آخر من طاقم الكنيسة، أو شيخ، أو شمّاس، أو قائد خدمة يعرف أسرتكم جيدًا».",
+      "of": "42ca6213",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].detail"
+      ]
+    },
+    {
+      "t": "الانخراط في الكنيسة",
+      "of": "7ed8a2ab",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].label"
+      ]
+    },
+    {
+      "t": "تشمل معايير القبول «انخراط الأسرة الفاعل في كنيسة محلية».",
+      "of": "216d530b",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].detail"
+      ]
+    },
+    {
+      "t": "إيمان الطالب نفسه",
+      "of": "7203be33",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].label"
+      ]
+    },
+    {
+      "t": "لا تذكر الصفحات العامة ما إذا كان يجب على الطالب أن يُعلن إيمانه أو أن يجيب عن أسئلة تتعلّق بالإيمان.",
+      "of": "bb120d18",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].detail"
+      ]
+    },
+    {
+      "t": "التوقيع على معتقدات المدرسة",
+      "of": "5a5632ef",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].label"
+      ]
+    },
+    {
+      "t": "لا تذكر الصفحات العامة ما إذا كان يجب على أولياء الأمور التوقيع على ملخّص المعتقدات أو تأكيده.",
+      "of": "d8cf3e3c",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].detail"
+      ]
+    },
+    {
+      "t": "بعد التسجيل",
+      "of": "f37bf47d",
+      "at": [
+        "covenant-day:families.groups[1].name"
+      ]
+    },
+    {
+      "t": "طلاب المرحلة الثانوية «يجب أن يكونوا مسجّلين في مقرّر للكتاب المقدّس كل سنة».",
+      "of": "e6604454",
+      "at": [
+        "covenant-day:families.groups[1].rows[0].detail"
+      ]
+    },
+    {
+      "t": "خصم لأعضاء الكنيسة",
+      "of": "a9b9d842",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "«يتوفّر خصم قدره $400 لكل طالب في الصفوف JK-12 يكون والداه عضوين في Christ Covenant Church». ويجب على الأسرة «تأكيد بيان العضوية في الكنيسة، وهو جزء من عملية التسجيل الإلكتروني».",
+      "of": "4d089fa4",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].detail"
+      ]
+    },
+    {
+      "t": "اتفاق الأسرة",
+      "of": "c0c10560",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].label"
+      ]
+    },
+    {
+      "t": "لا يوجد في صفحات المدرسة العامة أي اتفاق للأسرة أو دليل أو ميثاق سلوك.",
+      "of": "f7c794f7",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].detail"
+      ]
+    },
+    {
+      "t": "للموظفين والأمناء",
+      "of": "6e6ff958",
+      "at": [
+        "covenant-day:families.groups[2].name"
+      ]
+    },
+    {
+      "t": "الموظفون",
+      "of": "0d19a971",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].label"
+      ]
+    },
+    {
+      "t": "يجب على جميع الموظفين «اعتناق الإيمان المُصلَح وتلك العقيدة كما وردت في Westminster Confession of Faith».",
+      "of": "55024a8c",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].detail"
+      ]
+    },
+    {
+      "t": "الأمناء",
+      "of": "24f7a214",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].label"
+      ]
+    },
+    {
+      "t": "يعيّن Session (مجلس الشيوخ) في Christ Covenant Church مجلسَ الأمناء.",
+      "of": "5b5ebd15",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].detail"
+      ]
+    },
+    {
+      "t": "«كرسي بثلاث أرجل».",
+      "of": "f28bf5c3",
+      "at": [
+        "covenant-day:families.note.strong"
+      ]
+    },
+    {
+      "t": "تريد المدرسة أن تكون «الكنيسة والأسرة والمدرسة كلها على الصفحة نفسها».",
+      "of": "a3082e35",
+      "at": [
+        "covenant-day:families.note.text"
+      ]
+    },
+    {
+      "t": "تنمو الخدمة مع العمر، من مهامّ داخل الحرم المدرسي في المرحلة الابتدائية إلى فريق في المرحلة الثانوية يبني منازل من حاويات الشحن. وقد ذهبت رحلات إرسالية إلى إسبانيا وهايتي وبليز وداكوتا الجنوبية.",
+      "of": "3bee85e2",
+      "at": [
+        "covenant-day:service.headline"
+      ]
+    },
+    {
+      "t": "الخدمة في المرحلة الابتدائية",
+      "of": "25664f55",
+      "at": [
+        "covenant-day:service.entries[0].title"
+      ]
+    },
+    {
+      "t": "في الحرم المدرسي، يساعد الطلاب في دوريات العلم والسلامة ويجمعون المواد القابلة لإعادة التدوير. وتشمل المشاريع أيضًا علبًا لـOperation Christmas Child، وزيارات إلى دار رعاية قريبة لكبار السن، ودعم Matthews HELP Center.",
+      "of": "9150b739",
+      "at": [
+        "covenant-day:service.entries[0].text"
+      ]
+    },
+    {
+      "t": "Goodness Gorillas",
+      "of": "88c271d6",
+      "at": [
+        "covenant-day:service.entries[1].title"
+      ]
+    },
+    {
+      "t": "طلاب الصف الرابع «يخدمون في نحو عشرين موقعًا مختلفًا». وبها تُختتم وحدتهم في الكتاب المقدّس عن ثمر الروح.",
+      "of": "df4da813",
+      "at": [
+        "covenant-day:service.entries[1].text"
+      ]
+    },
+    {
+      "t": "أسبوع الإرساليات",
+      "of": "63913b46",
+      "at": [
+        "covenant-day:service.entries[2].title"
+      ]
+    },
+    {
+      "t": "الطلاب «يستمعون إلى المرسَلين ويتعرّفون إلى ثقافات من أنحاء العالم».",
+      "of": "ac2a7081",
+      "at": [
+        "covenant-day:service.entries[2].text"
+      ]
+    },
+    {
+      "t": "يقع في فبراير بحسب تقويم 2026–27.",
+      "of": "7a8819bd",
+      "at": [
+        "covenant-day:service.entries[2].muted"
+      ]
+    },
+    {
+      "t": "Doulos Days",
+      "of": "54212ef2",
+      "at": [
+        "covenant-day:service.entries[3].title"
+      ]
+    },
+    {
+      "t": "مرتين في السنة، يقضي طلاب المرحلة المتوسطة يومًا في خدمة الخدمات الكنسية المحلية والمنظمات غير الربحية والجيران، مع أيام خدمة لكل صف. وتساعد مسابقة Penny Wars على مستوى المدرسة في تمويل المشاريع.",
+      "of": "4086e1e5",
+      "at": [
+        "covenant-day:service.entries[3].text"
+      ]
+    },
+    {
+      "t": "ContainIt",
+      "of": "a86ed426",
+      "at": [
+        "covenant-day:service.entries[4].title"
+      ]
+    },
+    {
+      "t": "يحوّل الطلاب حاويات شحن مستعملة إلى منازل للمراهقين في Pine Ridge Reservation في داكوتا الجنوبية. «رؤيتهم هي توفير السكن لأكثر من 30 مراهقًا».",
+      "of": "37d529fc",
+      "at": [
+        "covenant-day:service.entries[4].text"
+      ]
+    },
+    {
+      "t": "الخدمة في المرحلة الثانوية",
+      "of": "bbb64d98",
+      "at": [
+        "covenant-day:service.entries[5].title"
+      ]
+    },
+    {
+      "t": "مشاريع Beta Club، ودروس تقوية أسبوعية وقت الغداء في مدارس محلية، والخدمة مع شركاء مثل Matthews Habitat for Humanity وAlexander Children’s Home وLove INC.",
+      "of": "73e133dd",
+      "at": [
+        "covenant-day:service.entries[5].text"
+      ]
+    },
+    {
+      "t": "الرحلات الإرسالية",
+      "of": "c39f4af5",
+      "at": [
+        "covenant-day:service.entries[6].title"
+      ]
+    },
+    {
+      "t": "الطلاب «شاركوا في رحلات إرسالية ترعاها المدرسة إلى إسبانيا وهايتي وبليز وPine Ridge Reservation في داكوتا الجنوبية».",
+      "of": "d3f89323",
+      "at": [
+        "covenant-day:service.entries[6].text"
+      ]
+    },
+    {
+      "t": "لا تذكر المدرسة سنوات الرحلات ولا أي رحلة في 2026–27.",
+      "of": "92015a56",
+      "at": [
+        "covenant-day:service.entries[6].muted"
+      ]
+    },
+    {
+      "t": "لا ساعات منشورة.",
+      "of": "36413563",
+      "at": [
+        "covenant-day:service.note.strong"
+      ]
+    },
+    {
+      "t": "لا تنشر المدرسة أي متطلّب لساعات الخدمة. وتتبع خطتها ترتيب الكتاب المقدّس في أن يكونوا «شهودًا للمسيح أمام العالم، بدءًا من أورشليم، ثم إلى اليهودية والسامرة، ثم إلى أقاصي الأرض».",
+      "of": "3d0a07e0",
+      "at": [
+        "covenant-day:service.note.text"
+      ]
+    },
+    {
+      "t": "الأشخاص الذين يقودون الحياة الروحية في Covenant Day، مع البريد الإلكتروني الذي يذكره كلٌّ منهم في دليل موظفي المدرسة.",
+      "of": "ea19c975",
+      "at": [
+        "covenant-day:staff.headline"
+      ]
+    },
+    {
+      "t": "مدير/ة التكوين الروحي",
+      "of": "5a49804b",
+      "at": [
+        "covenant-day:staff.people[0].role"
+      ]
+    },
+    {
+      "t": "قسّيس/ة المرحلة الثانوية ومعلّم/ة الكتاب المقدّس",
+      "of": "fa942adc",
+      "at": [
+        "covenant-day:staff.people[1].role"
+      ]
+    },
+    {
+      "t": "معلّم/ة الكتاب المقدّس في المرحلة الثانوية",
+      "of": "9b3385dc",
+      "at": [
+        "covenant-day:staff.people[2].role",
+        "covenant-day:staff.people[3].role"
+      ]
+    },
+    {
+      "t": "معلّم/ة الكتاب المقدّس والتاريخ في المرحلة الثانوية",
+      "of": "bd41d312",
+      "at": [
+        "covenant-day:staff.people[4].role"
+      ]
+    },
+    {
+      "t": "معلّم/ة الكتاب المقدّس في المرحلة المتوسطة",
+      "of": "285b6f95",
+      "at": [
+        "covenant-day:staff.people[5].role",
+        "covenant-day:staff.people[6].role"
+      ]
+    },
+    {
+      "t": "معلّم/ة العبادة والجوقة",
+      "of": "0b327bf1",
+      "at": [
+        "covenant-day:staff.people[7].role"
+      ]
+    },
+    {
+      "t": "مدير/ة الثقافة الطلابية",
+      "of": "cc3166f6",
+      "at": [
+        "covenant-day:staff.people[8].role"
+      ]
+    },
+    {
+      "t": "مدير/ة المدرسة",
+      "of": "43515cb8",
+      "at": [
+        "covenant-day:staff.people[9].role"
+      ]
+    },
+    {
+      "t": "ما يأمله مدير/ة المدرسة:",
+      "of": "f0bf1295",
+      "at": [
+        "covenant-day:staff.note.strong"
+      ]
+    },
+    {
+      "t": "«أن يتغيّر الطلاب ويصيروا تلاميذ للمسيح، راسخين في إيمانهم حتى يعرفوا ما يؤمنون به ولماذا يؤمنون به».",
+      "of": "4ab1d1f7",
+      "at": [
+        "covenant-day:staff.note.muted"
+      ]
+    },
+    {
+      "t": "مجموعات صلاة أسبوعية للأمهات وللآباء، وطرق يصلّي بها الأجداد وأعضاء نادي الداعمين من أجل المدرسة.",
+      "of": "85546abe",
+      "at": [
+        "covenant-day:parents.headline"
+      ]
+    },
+    {
+      "t": "Moms in Prayer",
+      "of": "58172703",
+      "at": [
+        "covenant-day:parents.entries[0].title"
+      ]
+    },
+    {
+      "t": "«تجتمع مجموعات Moms in Prayer في Covenant Day School أسبوعيًّا خلال العام الدراسي». وتصلّي الأمهات معًا من أجل مجتمع المدرسة.",
+      "of": "97779ab2",
+      "at": [
+        "covenant-day:parents.entries[0].text"
+      ]
+    },
+    {
+      "t": "Dads Prayer Gathering",
+      "of": "16611963",
+      "at": [
+        "covenant-day:parents.entries[1].title"
+      ]
+    },
+    {
+      "t": "«كل يوم جمعة، يجتمع آباء CDS عند مظلّة ملعب التنس لوقت من الشركة والصلاة».",
+      "of": "02cf8ea7",
+      "at": [
+        "covenant-day:parents.entries[1].text"
+      ]
+    },
+    {
+      "t": "مسيرة صلاة الأجداد",
+      "of": "cd7baf66",
+      "at": [
+        "covenant-day:parents.entries[2].title"
+      ]
+    },
+    {
+      "t": "يذكر تقويم 2026–27 مسيرة صلاة للأجداد في أغسطس.",
+      "of": "138bfc13",
+      "at": [
+        "covenant-day:parents.entries[2].text"
+      ]
+    },
+    {
+      "t": "شركاء الصلاة في نادي الداعمين",
+      "of": "7d90811b",
+      "at": [
+        "covenant-day:parents.entries[3].title"
+      ]
+    },
+    {
+      "t": "يمكن لأعضاء نادي الداعمين (Booster Club) التسجيل في «شراكة صلاة»: مدرّب ورياضي يصلّون من أجلهما طوال السنة.",
+      "of": "601d121c",
+      "at": [
+        "covenant-day:parents.entries[3].text"
+      ]
+    },
+    {
+      "t": "أسئلة تتركها صفحات المدرسة العامة بلا إجابة، لتطرحها في جولة أو مقابلة.",
+      "of": "0a5de2b7",
+      "at": [
+        "covenant-day:ask.headline"
+      ]
+    },
+    {
+      "t": "في أي يوم وأي ساعة يُعقد الاجتماع الروحي لكل مرحلة، وهل يمكن لأولياء الأمور الحضور؟",
+      "of": "3661c13c",
+      "at": [
+        "covenant-day:ask.questions[0]"
+      ]
+    },
+    {
+      "t": "هل حضور الاجتماع الروحي مطلوب؟",
+      "of": "609e96bd",
+      "at": [
+        "covenant-day:ask.questions[1]"
+      ]
+    },
+    {
+      "t": "هل يجب أن يشارك الطالب أسرته إيمانها، أو أن يجيب عن أسئلة تتعلّق بالإيمان، ليُقبل؟",
+      "of": "0f9e8115",
+      "at": [
+        "covenant-day:ask.questions[2]"
+      ]
+    },
+    {
+      "t": "هل يوقّع أولياء الأمور على ملخّص معتقدات المدرسة أو يؤكّدونه، أو على أي اتفاق للأسرة؟",
+      "of": "5a4311de",
+      "at": [
+        "covenant-day:ask.questions[3]"
+      ]
+    },
+    {
+      "t": "من تُجرى معه المقابلة في كل صف: أولياء الأمور فقط، أم الطالب أيضًا؟",
+      "of": "589c35ab",
+      "at": [
+        "covenant-day:ask.questions[4]"
+      ]
+    },
+    {
+      "t": "أي مقرّر للكتاب المقدّس في المرحلة الثانوية يحمل نصف الوحدة، وماذا يدرس الطالب الذي يلتحق في الصفوف 10–12؟",
+      "of": "ea1a7b04",
+      "at": [
+        "covenant-day:ask.questions[5]"
+      ]
+    },
+    {
+      "t": "أي ترجمة للكتاب المقدّس تُستخدم في الصفوف؟",
+      "of": "5b85035c",
+      "at": [
+        "covenant-day:ask.questions[6]"
+      ]
+    },
+    {
+      "t": "هل يجب أن يذهب كل طالب في المرحلتين المتوسطة والثانوية إلى Windy Gap، ومن يقود الخلوة؟",
+      "of": "24b56828",
+      "at": [
+        "covenant-day:ask.questions[7]"
+      ]
+    },
+    {
+      "t": "هل رحلة الربيع للصف 5 إلى Fort Caswell أم إلى Kanuga؟ صفحات المدرسة تذكر الاثنين.",
+      "of": "27868a9b",
+      "at": [
+        "covenant-day:ask.questions[8]"
+      ]
+    },
+    {
+      "t": "هل هناك أي رحلات إرسالية مخطَّط لها في 2026–27، ولأي صفوف؟",
+      "of": "1e1cac6a",
+      "at": [
+        "covenant-day:ask.questions[9]"
+      ]
+    },
+    {
+      "t": "هل يعمل طلاب المرحلة الثانوية قساوسةً طلابيين (student chaplains)؟",
+      "of": "b50a7916",
+      "at": [
+        "covenant-day:ask.questions[10]"
+      ]
+    },
+    {
+      "t": "متى وأين تجتمع Moms in Prayer؟",
+      "of": "7534542a",
+      "at": [
+        "covenant-day:ask.questions[11]"
+      ]
+    },
+    {
+      "t": "27 نوفمبر 2026",
+      "of": "d9eeac50",
+      "at": [
+        "covenant-day:ask.asOf"
+      ]
+    },
+    {
       "t": "مدرسة Hickory Grove Christian School هي «إحدى خدمات Hickory Grove Baptist Church». وقد أسّستها الكنيسة في عام 1995. يدرس الطلاب الكتاب المقدّس مادةً أساسية كل سنة، ويعلّم رعاة الكنيسة في الاجتماع الروحي.",
       "of": "4b2d51ae",
       "at": [
@@ -1725,13 +2944,6 @@
       "of": "120cc5ee",
       "at": [
         "hickory-grove-christian:classes.groups[1].rows[3].detail"
-      ]
-    },
-    {
-      "t": "High School",
-      "of": "8ab05d33",
-      "at": [
-        "hickory-grove-christian:classes.groups[2].name"
       ]
     },
     {

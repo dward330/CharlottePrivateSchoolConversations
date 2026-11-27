@@ -177,6 +177,7 @@
       "of": "e2630cbf",
       "at": [
         "charlotte-christian:chapel.entries[3].title",
+        "covenant-day:chapel.entries[2].title",
         "hickory-grove-christian:chapel.entries[2].title"
       ],
       "t": "పాఠశాల మొత్తానికి చాపెల్‌లు"
@@ -281,7 +282,8 @@
       "text": "Lower School",
       "of": "0921a0ca",
       "at": [
-        "charlotte-christian:classes.groups[0].name"
+        "charlotte-christian:classes.groups[0].name",
+        "covenant-day:classes.groups[0].name"
       ],
       "t": "Lower School"
     },
@@ -297,7 +299,8 @@
       "text": "Junior Kindergarten",
       "of": "5ee6535c",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[0].label"
+        "charlotte-christian:classes.groups[0].rows[0].label",
+        "covenant-day:classes.groups[0].rows[0].label"
       ],
       "t": "Junior Kindergarten"
     },
@@ -313,7 +316,8 @@
       "text": "Kindergarten",
       "of": "68541d89",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[1].label"
+        "charlotte-christian:classes.groups[0].rows[1].label",
+        "covenant-day:classes.groups[0].rows[1].label"
       ],
       "t": "Kindergarten"
     },
@@ -329,7 +333,8 @@
       "text": "Grade 1",
       "of": "20673dd7",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[2].label"
+        "charlotte-christian:classes.groups[0].rows[2].label",
+        "covenant-day:classes.groups[0].rows[2].label"
       ],
       "t": "1వ తరగతి"
     },
@@ -345,7 +350,8 @@
       "text": "Grade 2",
       "of": "21673f6a",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[3].label"
+        "charlotte-christian:classes.groups[0].rows[3].label",
+        "covenant-day:classes.groups[0].rows[3].label"
       ],
       "t": "2వ తరగతి"
     },
@@ -361,7 +367,8 @@
       "text": "Grade 3",
       "of": "226740fd",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[4].label"
+        "charlotte-christian:classes.groups[0].rows[4].label",
+        "covenant-day:classes.groups[0].rows[4].label"
       ],
       "t": "3వ తరగతి"
     },
@@ -377,7 +384,8 @@
       "text": "Grade 4",
       "of": "1b6735f8",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[5].label"
+        "charlotte-christian:classes.groups[0].rows[5].label",
+        "covenant-day:classes.groups[0].rows[5].label"
       ],
       "t": "4వ తరగతి"
     },
@@ -394,6 +402,7 @@
       "of": "15441234",
       "at": [
         "charlotte-christian:classes.groups[1].name",
+        "covenant-day:classes.groups[1].name",
         "hickory-grove-christian:classes.groups[1].name"
       ],
       "t": "Middle School"
@@ -491,6 +500,7 @@
       "of": "6b2cd411",
       "at": [
         "charlotte-christian:classes.groups[2].rows[0].label",
+        "covenant-day:classes.groups[2].rows[0].label",
         "hickory-grove-christian:classes.groups[2].rows[0].label"
       ],
       "t": "Old Testament Survey"
@@ -508,6 +518,7 @@
       "of": "15a0fcf0",
       "at": [
         "charlotte-christian:classes.groups[2].rows[1].label",
+        "covenant-day:classes.groups[2].rows[1].label",
         "hickory-grove-christian:classes.groups[2].rows[1].label"
       ],
       "t": "New Testament Survey"
@@ -785,12 +796,12 @@
       "t": "సదస్సు రోజుల్లో, “ప్రత్యేక దృష్టితో సాగే బోధన, చర్చ కోసం ప్రత్యేక వక్తలను క్యాంపస్‌కు ఆహ్వానిస్తారు”."
     },
     {
-      "text": "The school’s mission, its five core values and its ten-point statement of faith, in the school’s own words.",
-      "of": "ef08810f",
+      "text": "The school’s mission, its five core values and its statement of faith, in the school’s own words.",
+      "of": "8240389f",
       "at": [
         "charlotte-christian:beliefs.headline"
       ],
-      "t": "పాఠశాల లక్ష్యం, దాని ఐదు మూల విలువలు, పది అంశాల విశ్వాస ప్రకటన, పాఠశాల సొంత మాటల్లో."
+      "t": "పాఠశాల లక్ష్యం, దాని ఐదు మూల విలువలు, విశ్వాస ప్రకటన, పాఠశాల సొంత మాటల్లో."
     },
     {
       "text": "“Charlotte Christian School is a Christ-centered, college preparatory school, equipping and developing students to effectively integrate Biblical truth and learning into their daily lives and to impact the culture for Christ.”",
@@ -921,18 +932,10 @@
       "t": "“మానవుడు, పురుషుడిగా, స్త్రీగా, దేవుని స్వరూపంలో సృష్టించబడ్డాడని, కానీ ఆదాము, హవ్వల అవిధేయత వల్ల పాపంలో పడిపోయాడని మేము విశ్వసిస్తున్నాము. ఆ పతనం ఫలితంగా, మనుషులందరూ పాపులుగా పుడతారు, వారికి రక్షణ అవసరం.”"
     },
     {
-      "text": "“We believe that marriage is a covenantal relationship created by God for a man and a woman. Sexual intimacy is a gift from God and has its proper place only within the context of marriage.”",
-      "of": "e1e3a547",
-      "at": [
-        "charlotte-christian:beliefs.articles[7]"
-      ],
-      "t": "“వివాహం ఒక పురుషుడు, ఒక స్త్రీ కోసం దేవుడు సృష్టించిన నిబంధన సంబంధమని మేము విశ్వసిస్తున్నాము. లైంగిక సాన్నిహిత్యం దేవుడిచ్చిన వరం; దానికి సరైన స్థానం వివాహ బంధంలో మాత్రమే ఉంది.”"
-    },
-    {
       "text": "“We believe that Jesus Christ, the Son of God, will return to renew the whole creation and to judge the living and the dead.”",
       "of": "fe82762c",
       "at": [
-        "charlotte-christian:beliefs.articles[8]"
+        "charlotte-christian:beliefs.articles[7]"
       ],
       "t": "“దేవుని కుమారుడైన యేసు క్రీస్తు సృష్టి అంతటినీ నూతనపరచడానికీ, సజీవులకూ మృతులకూ తీర్పు తీర్చడానికీ తిరిగి వస్తాడని మేము విశ్వసిస్తున్నాము.”"
     },
@@ -940,7 +943,7 @@
       "text": "“We believe Christian education is a partnership between students, faculty and parents that provides an opportunity for students to learn and experience academics and co-curricular activities through a biblical worldview, in the presence of Christ-honoring faculty.”",
       "of": "2ed3e072",
       "at": [
-        "charlotte-christian:beliefs.articles[9]"
+        "charlotte-christian:beliefs.articles[8]"
       ],
       "t": "“క్రైస్తవ విద్య అనేది విద్యార్థులు, అధ్యాపకులు, తల్లిదండ్రుల మధ్య భాగస్వామ్యం అని మేము విశ్వసిస్తున్నాము; ఇది క్రీస్తును ఘనపరిచే అధ్యాపకుల సమక్షంలో, బైబిల్ ప్రపంచ దృక్పథం ద్వారా చదువును, సహ-పాఠ్య కార్యక్రమాలను నేర్చుకుని, అనుభవించే అవకాశాన్ని విద్యార్థులకు ఇస్తుంది.”"
     },
@@ -949,6 +952,7 @@
       "of": "2700b011",
       "at": [
         "charlotte-christian:families.headline",
+        "covenant-day:families.headline",
         "hickory-grove-christian:families.headline"
       ],
       "t": "మీరు దరఖాస్తు చేసేటప్పుడు, చేరిన తర్వాత విశ్వాసం గురించి పాఠశాల పబ్లిక్ పేజీలు ఏం చెబుతాయి, ఏం చెప్పకుండా వదిలేస్తాయి."
@@ -958,6 +962,7 @@
       "of": "fbc4b036",
       "at": [
         "charlotte-christian:families.groups[0].name",
+        "covenant-day:families.groups[0].name",
         "hickory-grove-christian:families.groups[0].name"
       ],
       "t": "దరఖాస్తు చేసేటప్పుడు"
@@ -1075,6 +1080,7 @@
       "of": "6f74c399",
       "at": [
         "charlotte-christian:families.groups[1].rows[1].label",
+        "covenant-day:families.groups[1].rows[0].label",
         "hickory-grove-christian:families.groups[1].rows[0].label"
       ],
       "t": "బైబిల్ క్లాసు"
@@ -1140,6 +1146,7 @@
       "of": "bf92e599",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].label",
+        "covenant-day:families.groups[1].rows[2].label",
         "hickory-grove-christian:families.groups[1].rows[3].label"
       ],
       "t": "చాపెల్ హాజరు"
@@ -1149,6 +1156,7 @@
       "of": "889f792d",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].detail",
+        "covenant-day:families.groups[1].rows[2].detail",
         "hickory-grove-christian:families.groups[1].rows[3].detail"
       ],
       "t": "చాపెల్ తప్పనిసరా కాదా అనేది పబ్లిక్ పేజీలు చెప్పడం లేదు."
@@ -1590,6 +1598,1388 @@
       "t": "నవంబర్ 26, 2026"
     },
     {
+      "text": "Covenant Day School is “a ministry of Christ Covenant Church (PCA)”, a Presbyterian church in Matthews. Students take Bible in every grade, and chapel meets every week.",
+      "of": "23c2be9b",
+      "at": [
+        "covenant-day:lead.strong"
+      ],
+      "t": "Covenant Day School “Christ Covenant Church (PCA) పరిచర్యలో భాగం”; ఆ చర్చి Matthewsలోని ఒక ప్రెస్బిటేరియన్ చర్చి. విద్యార్థులు ప్రతి తరగతిలో బైబిల్ చదువుతారు, చాపెల్ ప్రతి వారం జరుగుతుంది."
+    },
+    {
+      "text": "Its first core value: “Our foundation is built on the absolute truth of God and His word, and every aspect of our education is permeated by our faith in Christ.”",
+      "of": "d1299a3e",
+      "at": [
+        "covenant-day:lead.muted"
+      ],
+      "t": "దాని మొదటి మూల విలువ: “మా పునాది దేవుని, ఆయన వాక్యపు సంపూర్ణ సత్యంపై నిర్మించబడింది, మా విద్యలోని ప్రతి అంశంలోనూ క్రీస్తుపై మాకున్న విశ్వాసం నిండి ఉంటుంది.”"
+    },
+    {
+      "text": "a Bible class in every grade",
+      "of": "492b06d5",
+      "at": [
+        "covenant-day:stats[0].label"
+      ],
+      "t": "ప్రతి తరగతిలో ఒక బైబిల్ క్లాసు"
+    },
+    {
+      "text": "from junior kindergarten through 12th grade",
+      "of": "13b7e07d",
+      "at": [
+        "covenant-day:stats[0].note"
+      ],
+      "t": "Junior Kindergarten నుంచి 12వ తరగతి వరకు"
+    },
+    {
+      "text": "Bible units to graduate",
+      "of": "57ba03d0",
+      "at": [
+        "covenant-day:stats[1].label"
+      ],
+      "t": "గ్రాడ్యుయేట్ కావడానికి బైబిల్ యూనిట్లు"
+    },
+    {
+      "text": "of 25 units in all, with a Bible course each year",
+      "of": "284c87ea",
+      "at": [
+        "covenant-day:stats[1].note"
+      ],
+      "t": "మొత్తం 25 యూనిట్లలో, ప్రతి ఏడాది ఒక బైబిల్ కోర్సుతో"
+    },
+    {
+      "text": "grades that need a pastor’s recommendation",
+      "of": "981b62ad",
+      "at": [
+        "covenant-day:stats[2].label"
+      ],
+      "t": "పాస్టర్ సిఫార్సు అవసరమైన తరగతులు"
+    },
+    {
+      "text": "and one parent must be a Christ-follower",
+      "of": "eb854799",
+      "at": [
+        "covenant-day:stats[2].note"
+      ],
+      "t": "అలాగే తల్లిదండ్రుల్లో ఒకరు క్రీస్తు అనుచరులై ఉండాలి"
+    },
+    {
+      "text": "discount for church members",
+      "of": "7a38fc6f",
+      "at": [
+        "covenant-day:stats[3].label"
+      ],
+      "t": "చర్చి సభ్యులకు రాయితీ"
+    },
+    {
+      "text": "per student, for members of Christ Covenant Church",
+      "of": "95c905f4",
+      "at": [
+        "covenant-day:stats[3].note"
+      ],
+      "t": "ఒక్కో విద్యార్థికి, Christ Covenant Church సభ్యులకు"
+    },
+    {
+      "text": "Chapel meets every week, with students grouped by age. The whole school gathers for chapel in the church’s Worship Center.",
+      "of": "5c96f345",
+      "at": [
+        "covenant-day:chapel.headline"
+      ],
+      "t": "చాపెల్ ప్రతి వారం జరుగుతుంది, విద్యార్థులను వయసు వారీగా బృందాలుగా విభజిస్తారు. పాఠశాల మొత్తం చర్చి Worship Centerలో చాపెల్ కోసం సమావేశమవుతుంది."
+    },
+    {
+      "text": "Weekly chapel",
+      "of": "fcfc7d01",
+      "at": [
+        "covenant-day:chapel.entries[0].title"
+      ],
+      "t": "వారపు చాపెల్"
+    },
+    {
+      "text": "“Chapels are separated by age and include praise songs, scripture reading, and a message from guest speakers, principals, or teachers.”",
+      "of": "82ac3a1f",
+      "at": [
+        "covenant-day:chapel.entries[0].text"
+      ],
+      "t": "“చాపెల్‌లను వయసు వారీగా విడిగా నిర్వహిస్తారు; వాటిలో స్తుతి పాటలు, లేఖన పఠనం, అతిథి వక్తలు, ప్రిన్సిపల్‌లు లేదా ఉపాధ్యాయుల సందేశం ఉంటాయి.”"
+    },
+    {
+      "text": "Junior kindergarten and kindergarten students attend chapel every week.",
+      "of": "b332a43f",
+      "at": [
+        "covenant-day:chapel.entries[0].muted"
+      ],
+      "t": "Junior Kindergarten, Kindergarten విద్యార్థులు ప్రతి వారం చాపెల్‌కు హాజరవుతారు."
+    },
+    {
+      "text": "Middle school chapel",
+      "of": "c0cec2b7",
+      "at": [
+        "covenant-day:chapel.entries[1].title"
+      ],
+      "t": "Middle School చాపెల్"
+    },
+    {
+      "text": "The school lists “meaningful chapels” among what middle schoolers gain. Students in 8th grade “can participate in chapel leadership.”",
+      "of": "822fb708",
+      "at": [
+        "covenant-day:chapel.entries[1].text"
+      ],
+      "t": "Middle School విద్యార్థులు పొందే వాటిలో పాఠశాల “అర్థవంతమైన చాపెల్‌లను” పేర్కొంటుంది. 8వ తరగతి విద్యార్థులు “చాపెల్ నాయకత్వంలో పాల్గొనవచ్చు.”"
+    },
+    {
+      "text": "The whole school meets in the Worship Center of Christ Covenant Church for chapels and celebrations. The 2026–27 calendar has Convocation in September and an All-School Christmas Chapel in December.",
+      "of": "da6ecf69",
+      "at": [
+        "covenant-day:chapel.entries[2].text"
+      ],
+      "t": "పాఠశాల మొత్తం చాపెల్‌లు, వేడుకల కోసం Christ Covenant Church Worship Centerలో కలుస్తుంది. 2026–27 క్యాలెండర్‌లో సెప్టెంబర్‌లో Convocation (విద్యా సంవత్సర ప్రారంభ సభ), డిసెంబర్‌లో All-School Christmas Chapel (పాఠశాల మొత్తం క్రిస్మస్ చాపెల్) ఉన్నాయి."
+    },
+    {
+      "text": "Baccalaureate for seniors is in May.",
+      "of": "c483d72a",
+      "at": [
+        "covenant-day:chapel.entries[2].muted"
+      ],
+      "t": "చివరి సంవత్సరం విద్యార్థులకు Baccalaureate (గ్రాడ్యుయేషన్‌కు ముందు జరిగే ఆరాధన) మే నెలలో ఉంటుంది."
+    },
+    {
+      "text": "Worship bands",
+      "of": "921a16a5",
+      "at": [
+        "covenant-day:chapel.entries[3].title"
+      ],
+      "t": "ఆరాధనా బ్యాండ్‌లు"
+    },
+    {
+      "text": "The music program lists a Middle School Worship Band and a High School Worship Band.",
+      "of": "5baf859c",
+      "at": [
+        "covenant-day:chapel.entries[3].text"
+      ],
+      "t": "సంగీత కార్యక్రమం జాబితాలో ఒక Middle School Worship Band, ఒక High School Worship Band ఉన్నాయి."
+    },
+    {
+      "text": "Worship Leadership",
+      "of": "a7167594",
+      "at": [
+        "covenant-day:chapel.entries[4].title"
+      ],
+      "t": "Worship Leadership"
+    },
+    {
+      "text": "A college-prep fine arts course in leading worship.",
+      "of": "d572ab35",
+      "at": [
+        "covenant-day:chapel.entries[4].text"
+      ],
+      "t": "ఆరాధనను నడిపించడంపై కళాశాలకు సిద్ధం చేసే (college-prep) లలిత కళల కోర్సు."
+    },
+    {
+      "text": "Teachers pray too.",
+      "of": "fc959e1a",
+      "at": [
+        "covenant-day:chapel.note.strong"
+      ],
+      "t": "ఉపాధ్యాయులు కూడా ప్రార్థిస్తారు."
+    },
+    {
+      "text": "“Several times every week, teachers gather before homeroom to pray for one another and their students.”",
+      "of": "f01045f6",
+      "at": [
+        "covenant-day:chapel.note.text"
+      ],
+      "t": "“ప్రతి వారం చాలాసార్లు, ఉపాధ్యాయులు హోమ్‌రూమ్‌కు ముందు ఒకరి కోసం ఒకరు, తమ విద్యార్థుల కోసం ప్రార్థించడానికి కలుస్తారు.”"
+    },
+    {
+      "text": "The whole faculty and staff also “meet quarterly for worship and devotions.”",
+      "of": "0b50a801",
+      "at": [
+        "covenant-day:chapel.note.muted"
+      ],
+      "t": "అధ్యాపకులు, సిబ్బంది అందరూ కూడా “ఆరాధన, ధ్యానాల కోసం త్రైమాసికానికి ఒకసారి కలుస్తారు.”"
+    },
+    {
+      "text": "Bible is taught in every grade, from junior kindergarten through 12th grade. Here is what each grade studies, and the Bible units a high schooler needs to graduate.",
+      "of": "07fae2b4",
+      "at": [
+        "covenant-day:classes.headline"
+      ],
+      "t": "Junior Kindergarten నుంచి 12వ తరగతి వరకు ప్రతి తరగతిలో బైబిల్ బోధిస్తారు. ప్రతి తరగతి ఏం చదువుతుందో, High School విద్యార్థి గ్రాడ్యుయేట్ కావడానికి అవసరమైన బైబిల్ యూనిట్లు ఇక్కడ ఉన్నాయి."
+    },
+    {
+      "text": "The school says “All subjects are taught from a biblical worldview”.",
+      "of": "5fa013e4",
+      "at": [
+        "covenant-day:classes.intro.text"
+      ],
+      "t": "పాఠశాల “అన్ని సబ్జెక్టులను బైబిల్ ప్రపంచ దృక్పథం నుంచి బోధిస్తారు” అని చెబుతుంది."
+    },
+    {
+      "text": "It names theology among its core subjects, beside literature, math, science, history and world languages.",
+      "of": "1255cf40",
+      "at": [
+        "covenant-day:classes.intro.muted"
+      ],
+      "t": "సాహిత్యం, గణితం, విజ్ఞానశాస్త్రం, చరిత్ర, ప్రపంచ భాషలతో పాటు వేదాంతశాస్త్రాన్ని (theology) కూడా అది తన ప్రధాన సబ్జెక్టుల్లో ఒకటిగా పేర్కొంటుంది."
+    },
+    {
+      "text": "Bible every year",
+      "of": "374a99f3",
+      "at": [
+        "covenant-day:classes.groups[0].tally",
+        "covenant-day:classes.groups[1].tally"
+      ],
+      "t": "ప్రతి ఏడాది బైబిల్"
+    },
+    {
+      "text": "God’s love, short Scripture passages to memorize, and key Bible characters and their stories.",
+      "of": "2d7a4a1e",
+      "at": [
+        "covenant-day:classes.groups[0].rows[0].detail"
+      ],
+      "t": "దేవుని ప్రేమ, కంఠస్థం చేయడానికి చిన్న లేఖన భాగాలు, ముఖ్యమైన బైబిల్ పాత్రలు, వారి కథలు."
+    },
+    {
+      "text": "Friendship with God and others, short Scripture passages, and Bible characters and their stories.",
+      "of": "8f04fb30",
+      "at": [
+        "covenant-day:classes.groups[0].rows[1].detail"
+      ],
+      "t": "దేవునితో, ఇతరులతో స్నేహం, చిన్న లేఖన భాగాలు, బైబిల్ పాత్రలు, వారి కథలు."
+    },
+    {
+      "text": "Abraham through the settling of the Promised Land, then Judges and Ruth through the exile and return of Israel, with Psalms and Proverbs.",
+      "of": "10d44e97",
+      "at": [
+        "covenant-day:classes.groups[0].rows[2].detail"
+      ],
+      "t": "అబ్రాహాము నుంచి వాగ్దాన దేశంలో స్థిరపడటం వరకు, ఆ తర్వాత న్యాయాధిపతులు, రూతు నుంచి ఇశ్రాయేలు చెర, తిరిగి రావడం వరకు, కీర్తనలు, సామెతలతో పాటు."
+    },
+    {
+      "text": "A review of the Old Testament with the Jesse Tree, then the New Testament: the life, death and resurrection of Jesus, the early church and Paul’s journeys.",
+      "of": "05e387fd",
+      "at": [
+        "covenant-day:classes.groups[0].rows[3].detail"
+      ],
+      "t": "Jesse Tree (యెష్షయి వృక్షం)తో పాత నిబంధన పునశ్చరణ, ఆ తర్వాత కొత్త నిబంధన: యేసు జీవితం, మరణం, పునరుత్థానం, ఆదిమ సంఘం, పౌలు ప్రయాణాలు."
+    },
+    {
+      "text": "Creation through the Promised Land, ending with a study of Ephesians.",
+      "of": "21467ec2",
+      "at": [
+        "covenant-day:classes.groups[0].rows[4].detail"
+      ],
+      "t": "సృష్టి నుంచి వాగ్దాన దేశం వరకు, చివరిలో ఎఫెసీయులకు రాసిన పత్రిక అధ్యయనం."
+    },
+    {
+      "text": "Philippians, Judges, Joshua and the kings of Israel, Jewish feasts and the fruit of the Spirit. The Goodness Gorillas unit ends in a service project.",
+      "of": "4d244402",
+      "at": [
+        "covenant-day:classes.groups[0].rows[5].detail"
+      ],
+      "t": "ఫిలిప్పీయులకు రాసిన పత్రిక, న్యాయాధిపతులు, యెహోషువ, ఇశ్రాయేలు రాజులు, యూదుల పండుగలు, ఆత్మ ఫలం. Goodness Gorillas యూనిట్ ఒక సేవా ప్రాజెక్టుతో ముగుస్తుంది."
+    },
+    {
+      "text": "Grade 5",
+      "of": "1c67378b",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].label"
+      ],
+      "t": "5వ తరగతి"
+    },
+    {
+      "text": "1 Peter, the Old Testament covenants, how the Gospels were written, and the life and ministry of Jesus.",
+      "of": "2cde9e59",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].detail"
+      ],
+      "t": "1 పేతురు పత్రిక, పాత నిబంధన ఒడంబడికలు, సువార్తలు ఎలా రాయబడ్డాయి, యేసు జీవితం, పరిచర్య."
+    },
+    {
+      "text": "Old Testament survey",
+      "of": "58881131",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].label"
+      ],
+      "t": "పాత నిబంధన స్థూల పరిచయం"
+    },
+    {
+      "text": "Students build a Christian worldview “from the study of scripture.”",
+      "of": "d3ec9bd1",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].detail"
+      ],
+      "t": "విద్యార్థులు “లేఖన అధ్యయనం నుంచి” క్రైస్తవ ప్రపంచ దృక్పథాన్ని నిర్మించుకుంటారు."
+    },
+    {
+      "text": "The Gospels",
+      "of": "0d00fd21",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].label"
+      ],
+      "t": "సువార్తలు"
+    },
+    {
+      "text": "The life of Christ, how to study the Bible, and “the habit of personal devotions.”",
+      "of": "3a533ab0",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].detail"
+      ],
+      "t": "క్రీస్తు జీవితం, బైబిల్‌ను ఎలా అధ్యయనం చేయాలి, “వ్యక్తిగత ధ్యానాల అలవాటు.”"
+    },
+    {
+      "text": "Acts and the letters of Paul",
+      "of": "cd4f25d2",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].label"
+      ],
+      "t": "అపొస్తలుల కార్యములు, పౌలు పత్రికలు"
+    },
+    {
+      "text": "Applying Scripture to daily life, and learning how to share their faith.",
+      "of": "6e1f8ebf",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].detail"
+      ],
+      "t": "లేఖనాలను రోజువారీ జీవితానికి అన్వయించడం, తమ విశ్వాసాన్ని ఇతరులతో ఎలా పంచుకోవాలో నేర్చుకోవడం."
+    },
+    {
+      "text": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:classes.groups[2].name",
+        "hickory-grove-christian:classes.groups[2].name"
+      ],
+      "t": "High School"
+    },
+    {
+      "text": "3.5 Bible units to graduate",
+      "of": "c1cb38dc",
+      "at": [
+        "covenant-day:classes.groups[2].tally"
+      ],
+      "t": "గ్రాడ్యుయేట్ కావడానికి 3.5 బైబిల్ యూనిట్లు"
+    },
+    {
+      "text": "College prep.",
+      "of": "4647f1f9",
+      "at": [
+        "covenant-day:classes.groups[2].rows[0].detail",
+        "covenant-day:classes.groups[2].rows[1].detail",
+        "covenant-day:classes.groups[2].rows[2].detail"
+      ],
+      "t": "College prep స్థాయి."
+    },
+    {
+      "text": "Christian Doctrine",
+      "of": "5eae87e2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[2].label"
+      ],
+      "t": "Christian Doctrine"
+    },
+    {
+      "text": "Engaging the Culture - An Introduction to Apologetics and Worldviews",
+      "of": "67c21bc2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].label"
+      ],
+      "t": "Engaging the Culture - An Introduction to Apologetics and Worldviews"
+    },
+    {
+      "text": "College prep. Apologetics is the case for the Christian faith.",
+      "of": "51683fa5",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].detail"
+      ],
+      "t": "College prep స్థాయి. Apologetics అంటే క్రైస్తవ విశ్వాసం పక్షాన చేసే వాదన (సమర్థన)."
+    },
+    {
+      "text": "A Bible course every year.",
+      "of": "f258adb9",
+      "at": [
+        "covenant-day:classes.note.strong"
+      ],
+      "t": "ప్రతి ఏడాది ఒక బైబిల్ కోర్సు."
+    },
+    {
+      "text": "High schoolers “must be enrolled in a Bible course each year”. 3.5 units of Bible count toward the 25 units needed to graduate.",
+      "of": "891aa0ec",
+      "at": [
+        "covenant-day:classes.note.text"
+      ],
+      "t": "High School విద్యార్థులు “ప్రతి ఏడాది ఒక బైబిల్ కోర్సులో నమోదై ఉండాలి”. గ్రాడ్యుయేట్ కావడానికి అవసరమైన 25 యూనిట్లలో 3.5 బైబిల్ యూనిట్లు లెక్కలోకి వస్తాయి."
+    },
+    {
+      "text": "The school does not say which course carries the half unit.",
+      "of": "d22ffe2c",
+      "at": [
+        "covenant-day:classes.note.muted"
+      ],
+      "t": "సగం యూనిట్ ఏ కోర్సుకు వస్తుందో పాఠశాల చెప్పడం లేదు."
+    },
+    {
+      "text": "Middle and high school start each year with a retreat at Windy Gap. Retreats are included in tuition.",
+      "of": "bb6b6d32",
+      "at": [
+        "covenant-day:retreats.headline"
+      ],
+      "t": "Middle School, High School ప్రతి ఏడాదిని Windy Gapలో ఒక రిట్రీట్‌తో ప్రారంభిస్తాయి. రిట్రీట్‌లు ట్యూషన్‌లో కలిసి ఉన్నాయి."
+    },
+    {
+      "text": "High school: Windy Gap",
+      "of": "763421ce",
+      "at": [
+        "covenant-day:retreats.cells[0].title"
+      ],
+      "t": "High School: Windy Gap"
+    },
+    {
+      "text": "Students and teachers “step away from the busyness of life to reconnect—with one another and, most importantly, with the Lord.” The days hold games, skits, cabin time and “time in God’s Word”.",
+      "of": "6f21c994",
+      "at": [
+        "covenant-day:retreats.cells[0].text"
+      ],
+      "t": "విద్యార్థులు, ఉపాధ్యాయులు “జీవితపు హడావిడి నుంచి దూరంగా వెళ్లి ఒకరితో ఒకరు, అన్నింటికంటే ముఖ్యంగా ప్రభువుతో తిరిగి అనుబంధం ఏర్పరచుకుంటారు.” ఆ రోజుల్లో ఆటలు, స్కిట్‌లు, క్యాబిన్ సమయం, “దేవుని వాక్యంలో సమయం” ఉంటాయి."
+    },
+    {
+      "text": "Middle school: Windy Gap",
+      "of": "c710963f",
+      "at": [
+        "covenant-day:retreats.cells[1].title"
+      ],
+      "t": "Middle School: Windy Gap"
+    },
+    {
+      "text": "A trip in August with friends and teachers, “filled with chapels, team-building, and free time”.",
+      "of": "e1328101",
+      "at": [
+        "covenant-day:retreats.cells[1].text"
+      ],
+      "t": "స్నేహితులు, ఉపాధ్యాయులతో ఆగస్టులో ఒక యాత్ర, “చాపెల్‌లు, జట్టు నిర్మాణ కార్యకలాపాలు, ఖాళీ సమయంతో నిండినది”."
+    },
+    {
+      "text": "In tuition.",
+      "of": "8548f880",
+      "at": [
+        "covenant-day:retreats.note.strong"
+      ],
+      "t": "ట్యూషన్‌లో కలిసి ఉంది."
+    },
+    {
+      "text": "Tuition includes “school retreats and required field trips”.",
+      "of": "ff3dc56d",
+      "at": [
+        "covenant-day:retreats.note.text"
+      ],
+      "t": "ట్యూషన్‌లో “పాఠశాల రిట్రీట్‌లు, తప్పనిసరి క్షేత్ర పర్యటనలు” కలిసి ఉంటాయి."
+    },
+    {
+      "text": "Fifth graders also take an overnight trip to Fort Caswell, on the North Carolina coast, in the spring.",
+      "of": "b82e004a",
+      "at": [
+        "covenant-day:retreats.note.muted"
+      ],
+      "t": "ఐదో తరగతి విద్యార్థులు వసంతకాలంలో నార్త్ కరోలినా తీరంలోని Fort Caswellకు ఒక రాత్రి బస చేసే యాత్రకు కూడా వెళ్తారు."
+    },
+    {
+      "text": "Where students pray and talk about faith in smaller groups: daily homeroom devotions, weekly high school advisory groups and student-led Bible studies.",
+      "of": "9ea6941e",
+      "at": [
+        "covenant-day:groups.headline"
+      ],
+      "t": "విద్యార్థులు చిన్న బృందాల్లో ప్రార్థించి, విశ్వాసం గురించి మాట్లాడుకునే చోట్లు: రోజువారీ హోమ్‌రూమ్ ధ్యానాలు, వారపు High School అడ్వైజరీ బృందాలు, విద్యార్థులు నడిపించే బైబిల్ అధ్యయనాలు."
+    },
+    {
+      "text": "Homeroom devotions",
+      "of": "0a859b1a",
+      "at": [
+        "covenant-day:groups.entries[0].title"
+      ],
+      "t": "హోమ్‌రూమ్ (రోజు మొదట్లో తరగతి ఉపాధ్యాయులతో గడిపే సమయం) ధ్యానాలు"
+    },
+    {
+      "text": "“Each day during homeroom, teachers lead a devotional for students.” Students share prayer requests and pray for one another.",
+      "of": "20773faf",
+      "at": [
+        "covenant-day:groups.entries[0].text"
+      ],
+      "t": "“ప్రతి రోజు హోమ్‌రూమ్ సమయంలో, ఉపాధ్యాయులు విద్యార్థుల కోసం ఒక ధ్యానాన్ని నడిపిస్తారు.” విద్యార్థులు తమ ప్రార్థనా విన్నపాలను పంచుకుని, ఒకరి కోసం ఒకరు ప్రార్థిస్తారు."
+    },
+    {
+      "text": "Advisory groups",
+      "of": "22449f6a",
+      "at": [
+        "covenant-day:groups.entries[1].title"
+      ],
+      "t": "అడ్వైజరీ బృందాలు"
+    },
+    {
+      "text": "Teacher-led groups meet weekly and “stay together all year long.” Students learn about the year’s spiritual theme, report on their schoolwork and pray together.",
+      "of": "5eb8da46",
+      "at": [
+        "covenant-day:groups.entries[1].text"
+      ],
+      "t": "ఉపాధ్యాయులు నడిపించే బృందాలు ప్రతి వారం కలుస్తాయి, “ఏడాది పొడవునా కలిసే ఉంటాయి.” విద్యార్థులు ఆ ఏడాది ఆత్మీయ ఇతివృత్తం గురించి నేర్చుకుంటారు, తమ చదువు గురించి వివరిస్తారు, కలిసి ప్రార్థిస్తారు."
+    },
+    {
+      "text": "Groups are often “guided by a book study focused on spiritual growth.”",
+      "of": "15e1cefe",
+      "at": [
+        "covenant-day:groups.entries[1].muted"
+      ],
+      "t": "బృందాలు తరచుగా “ఆత్మీయ ఎదుగుదలపై దృష్టి పెట్టే ఒక పుస్తక అధ్యయనం ఆధారంగా నడుస్తాయి.”"
+    },
+    {
+      "text": "Student Bible studies",
+      "of": "a84f0783",
+      "at": [
+        "covenant-day:groups.entries[2].title"
+      ],
+      "t": "విద్యార్థుల బైబిల్ అధ్యయనాలు"
+    },
+    {
+      "text": "Small discipleship groups “usually organized and led by students”. They meet before and after school.",
+      "of": "a70256dc",
+      "at": [
+        "covenant-day:groups.entries[2].text"
+      ],
+      "t": "చిన్న శిష్యరిక బృందాలు, “సాధారణంగా విద్యార్థులే ఏర్పాటు చేసి నడిపిస్తారు”. ఇవి పాఠశాలకు ముందు, తర్వాత కలుస్తాయి."
+    },
+    {
+      "text": "The school’s mission, its belief summary and the six marks it hopes to see in every graduate, in the school’s own words.",
+      "of": "12e23a6d",
+      "at": [
+        "covenant-day:beliefs.headline"
+      ],
+      "t": "పాఠశాల లక్ష్యం, దాని విశ్వాసాల సారాంశం, ప్రతి గ్రాడ్యుయేట్‌లో అది చూడాలని ఆశించే ఆరు లక్షణాలు, పాఠశాల సొంత మాటల్లో."
+    },
+    {
+      "text": "“The mission of Covenant Day School is to assist the Christian family by providing an education marked by a biblical worldview and academic excellence so that students are equipped to be salt and light for God’s glory.”",
+      "of": "1f42aa5c",
+      "at": [
+        "covenant-day:beliefs.mission"
+      ],
+      "t": "“Covenant Day School లక్ష్యం, బైబిల్ ప్రపంచ దృక్పథం, విద్యా శ్రేష్ఠతలతో కూడిన విద్యను అందించడం ద్వారా క్రైస్తవ కుటుంబానికి తోడ్పడటం; దీంతో విద్యార్థులు దేవుని మహిమ కోసం ఉప్పుగా, వెలుగుగా ఉండేందుకు సన్నద్ధులవుతారు.”"
+    },
+    {
+      "text": "Follow Christ",
+      "of": "1542ffa9",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].name"
+      ],
+      "t": "క్రీస్తును అనుసరించండి"
+    },
+    {
+      "text": "Our graduates recognize that their daily spiritual and intellectual lives are inseparable and complementary, with Christ at the center.",
+      "of": "eabcba41",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].text"
+      ],
+      "t": "మా గ్రాడ్యుయేట్లు తమ రోజువారీ ఆత్మీయ, బౌద్ధిక జీవితాలు విడదీయలేనివని, ఒకదానికొకటి పూరకమైనవని, వాటి కేంద్రంలో క్రీస్తు ఉన్నాడని గుర్తిస్తారు."
+    },
+    {
+      "text": "Serve Others",
+      "of": "51090807",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].name"
+      ],
+      "t": "ఇతరులకు సేవ చేయండి"
+    },
+    {
+      "text": "Our graduates demonstrate a love for God, the church as the body of Christ, and all people by affirming others as God’s image bearers.",
+      "of": "890a3b11",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].text"
+      ],
+      "t": "మా గ్రాడ్యుయేట్లు ఇతరులను దేవుని స్వరూపాన్ని ధరించినవారిగా గౌరవించడం ద్వారా దేవుని పట్ల, క్రీస్తు శరీరమైన సంఘం పట్ల, మనుషులందరి పట్ల ప్రేమను చూపిస్తారు."
+    },
+    {
+      "text": "Pursue Wisdom",
+      "of": "5323c7ee",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].name"
+      ],
+      "t": "జ్ఞానం కోసం కృషి చేయండి"
+    },
+    {
+      "text": "Our graduates continue to pursue wisdom and knowledge throughout their lives.",
+      "of": "71b1787b",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].text"
+      ],
+      "t": "మా గ్రాడ్యుయేట్లు జీవితాంతం జ్ఞానం, విజ్ఞానం కోసం కృషి చేస్తూనే ఉంటారు."
+    },
+    {
+      "text": "Communicate Effectively",
+      "of": "162ed124",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].name"
+      ],
+      "t": "సమర్థంగా సంభాషించండి"
+    },
+    {
+      "text": "Our graduates communicate confidently and effectively in written, spoken, mathematical, and technological languages.",
+      "of": "be6a43ca",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].text"
+      ],
+      "t": "మా గ్రాడ్యుయేట్లు రాత, మాట, గణిత, సాంకేతిక భాషల్లో ఆత్మవిశ్వాసంతో, సమర్థంగా సంభాషిస్తారు."
+    },
+    {
+      "text": "Learn Purposefully",
+      "of": "d0764395",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].name"
+      ],
+      "t": "ఉద్దేశపూర్వకంగా నేర్చుకోండి"
+    },
+    {
+      "text": "Our graduates have a passion for learning and the academic tools necessary to thrive as they purposefully take the next steps in their lives.",
+      "of": "abfb0fba",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].text"
+      ],
+      "t": "మా గ్రాడ్యుయేట్లకు నేర్చుకోవాలనే తపన ఉంటుంది; తమ జీవితంలో తదుపరి అడుగులను ఉద్దేశపూర్వకంగా వేస్తూ రాణించడానికి అవసరమైన విద్యా సాధనాలు కూడా ఉంటాయి."
+    },
+    {
+      "text": "Engage the Culture",
+      "of": "99d65c43",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].name"
+      ],
+      "t": "సమాజ సంస్కృతితో మమేకం కండి"
+    },
+    {
+      "text": "As ambassadors for Christ, our graduates are equipped to represent Him well collegiately in academics, athletics, and/or fine arts.",
+      "of": "c7c8acb6",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].text"
+      ],
+      "t": "క్రీస్తు రాయబారులుగా, మా గ్రాడ్యుయేట్లు కళాశాల స్థాయిలో చదువు, క్రీడలు, మరియు/లేదా లలిత కళల్లో ఆయనకు చక్కగా ప్రాతినిధ్యం వహించేలా సన్నద్ధులై ఉంటారు."
+    },
+    {
+      "text": "A ministry of Christ Covenant Church (PCA).",
+      "of": "5e7cc85f",
+      "at": [
+        "covenant-day:beliefs.note.strong"
+      ],
+      "t": "Christ Covenant Church (PCA) పరిచర్యలో భాగం."
+    },
+    {
+      "text": "The church is “a congregation in the Presbyterian Church in America”. The school says it “is guided by the same doctrinal convictions”, found in the Westminster Confession of Faith and Catechisms.",
+      "of": "f5988533",
+      "at": [
+        "covenant-day:beliefs.note.text"
+      ],
+      "t": "ఆ చర్చి “Presbyterian Church in Americaలోని ఒక సంఘం”. పాఠశాల తాను “అవే సిద్ధాంత విశ్వాసాలచే నడిపించబడుతుంది” అని చెబుతుంది; అవి Westminster Confession of Faith and Catechismsలో ఉన్నాయి."
+    },
+    {
+      "text": "The school also says “many—indeed, most—of our families come from other church traditions.”",
+      "of": "2fe2787a",
+      "at": [
+        "covenant-day:beliefs.note.muted"
+      ],
+      "t": "“మా కుటుంబాల్లో చాలామంది—నిజానికి, అత్యధికులు—ఇతర చర్చి సంప్రదాయాల నుంచి వచ్చినవారు” అని కూడా పాఠశాల చెబుతుంది."
+    },
+    {
+      "text": "“We believe the Bible is the written word of God, inspired by the Holy Spirit and without error in the original manuscripts. The Bible is the revelation of God’s truth and is infallible and authoritative in all matters of faith and practice.”",
+      "of": "d6badf17",
+      "at": [
+        "covenant-day:beliefs.articles[0]"
+      ],
+      "t": "“బైబిల్ దేవుని లిఖిత వాక్యమని, పరిశుద్ధాత్మ ప్రేరణతో కలిగినదని, మూల ప్రతుల్లో దోషరహితమైనదని మేము విశ్వసిస్తున్నాము. బైబిల్ దేవుని సత్య ప్రత్యక్షత; విశ్వాసం, ఆచరణకు సంబంధించిన అన్ని విషయాల్లో అది తప్పిపోనిది, అధికారం గలది.”"
+    },
+    {
+      "text": "“We believe in the Holy Trinity. There is one God, who exists eternally in three persons: the Father, the Son, and the Holy Spirit.”",
+      "of": "b9820e07",
+      "at": [
+        "covenant-day:beliefs.articles[1]"
+      ],
+      "t": "“మేము పరిశుద్ధ త్రిత్వాన్ని విశ్వసిస్తున్నాము. దేవుడు ఒక్కడే; ఆయన తండ్రి, కుమారుడు, పరిశుద్ధాత్మ అనే ముగ్గురు వ్యక్తులుగా నిత్యం ఉన్నాడు.”"
+    },
+    {
+      "text": "“We believe that all are sinners and totally unable to save themselves from God’s displeasure, except by His mercy.”",
+      "of": "6b8fc3e2",
+      "at": [
+        "covenant-day:beliefs.articles[2]"
+      ],
+      "t": "“అందరూ పాపులని, దేవుని కనికరం ద్వారా తప్ప, దేవుని అసంతృప్తి నుంచి తమను తాము రక్షించుకోవడానికి వారు పూర్తిగా అసమర్థులని మేము విశ్వసిస్తున్నాము.”"
+    },
+    {
+      "text": "“We believe that salvation is by God alone as He sovereignly chooses those He will save. We believe His choice is based on His grace, not on any human individual merit, or foreseen faith.”",
+      "of": "a457c453",
+      "at": [
+        "covenant-day:beliefs.articles[3]"
+      ],
+      "t": "“రక్షణ దేవుని ద్వారా మాత్రమే కలుగుతుందని, తాను రక్షించబోయేవారిని ఆయన తన సర్వాధికారంతో ఎన్నుకుంటాడని మేము విశ్వసిస్తున్నాము. ఆయన ఎన్నిక ఆయన కృపపై ఆధారపడినదే గానీ, ఏ మనిషి వ్యక్తిగత యోగ్యతపై గానీ, ముందే చూసిన విశ్వాసంపై గానీ ఆధారపడినది కాదని మేము విశ్వసిస్తున్నాము.”"
+    },
+    {
+      "text": "“We believe that Jesus Christ is the eternal Son of God, who through His perfect life and sacrificial death atoned for the sins of all who will trust in Him, alone, for salvation.”",
+      "of": "5ea0229c",
+      "at": [
+        "covenant-day:beliefs.articles[4]"
+      ],
+      "t": "“యేసు క్రీస్తు దేవుని నిత్య కుమారుడని, ఆయన తన పరిపూర్ణ జీవితం, బలియాగ మరణం ద్వారా రక్షణ కోసం కేవలం ఆయనపైనే నమ్మకం ఉంచే వారందరి పాపాలకు ప్రాయశ్చిత్తం చేశాడని మేము విశ్వసిస్తున్నాము.”"
+    },
+    {
+      "text": "“We believe that God is gracious and faithful to His people not simply as individuals but as families in successive generations according to His covenant promises.”",
+      "of": "427d3702",
+      "at": [
+        "covenant-day:beliefs.articles[5]"
+      ],
+      "t": "“దేవుడు తన ప్రజల పట్ల కేవలం వ్యక్తులుగానే కాకుండా, తన ఒడంబడిక వాగ్దానాల ప్రకారం తరతరాల కుటుంబాలుగా కూడా కృప, నమ్మకత్వం చూపిస్తాడని మేము విశ్వసిస్తున్నాము.”"
+    },
+    {
+      "text": "“We believe that the Holy Spirit indwells God’s people and gives them the strength and wisdom to trust Christ and follow Him.”",
+      "of": "5cb7ec67",
+      "at": [
+        "covenant-day:beliefs.articles[6]"
+      ],
+      "t": "“పరిశుద్ధాత్మ దేవుని ప్రజలలో నివసిస్తాడని, క్రీస్తుపై నమ్మకం ఉంచడానికీ, ఆయనను అనుసరించడానికీ వారికి బలాన్ని, జ్ఞానాన్ని ఇస్తాడని మేము విశ్వసిస్తున్నాము.”"
+    },
+    {
+      "text": "“We believe that Jesus will return, bodily and visibly, to judge all mankind and to receive His people to Himself.”",
+      "of": "baf53ecb",
+      "at": [
+        "covenant-day:beliefs.articles[7]"
+      ],
+      "t": "“మానవజాతి అంతటికీ తీర్పు తీర్చడానికీ, తన ప్రజలను తన దగ్గరికి చేర్చుకోవడానికీ యేసు శరీరంతో, కనిపించేలా తిరిగి వస్తాడని మేము విశ్వసిస్తున్నాము.”"
+    },
+    {
+      "text": "“We believe that all aspects of our lives are to be lived to the glory of God under the Lordship of Jesus Christ.”",
+      "of": "a4295249",
+      "at": [
+        "covenant-day:beliefs.articles[8]"
+      ],
+      "t": "“మా జీవితాల్లోని అన్ని అంశాలనూ ప్రభువైన యేసు క్రీస్తు అధికారం కింద దేవుని మహిమ కోసం జీవించాలని మేము విశ్వసిస్తున్నాము.”"
+    },
+    {
+      "text": "A Christian parent",
+      "of": "595d7fd9",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].label"
+      ],
+      "t": "క్రైస్తవులైన తల్లి లేదా తండ్రి"
+    },
+    {
+      "text": "The school partners with families where “at least one parent is a Christ-follower and is actively involved in a local Christian church.”",
+      "of": "e678adc6",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].detail"
+      ],
+      "t": "పాఠశాల “తల్లిదండ్రుల్లో కనీసం ఒకరు క్రీస్తు అనుచరులై, స్థానిక క్రైస్తవ చర్చిలో చురుకుగా పాల్గొనే” కుటుంబాలతో భాగస్వామ్యం చేసుకుంటుంది."
+    },
+    {
+      "text": "Your Christian testimony",
+      "of": "8350c3fb",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].label"
+      ],
+      "t": "మీ క్రైస్తవ సాక్ష్యం"
+    },
+    {
+      "text": "At the parent interview, “parents will be asked to discuss their Christian testimony”.",
+      "of": "77708e03",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].detail"
+      ],
+      "t": "తల్లిదండ్రుల ఇంటర్వ్యూలో, “తల్లిదండ్రులను తమ క్రైస్తవ సాక్ష్యం గురించి మాట్లాడమని అడుగుతారు”."
+    },
+    {
+      "text": "Pastor’s recommendation",
+      "of": "b1d5c047",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].label"
+      ],
+      "t": "పాస్టర్ సిఫార్సు"
+    },
+    {
+      "text": "Required for grades JK–11. If you do not know your senior pastor, the form may come from “another pastor on staff, an elder, a deacon, or a ministry leader who knows your family well”.",
+      "of": "42ca6213",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].detail"
+      ],
+      "t": "JK–11 తరగతులకు తప్పనిసరి. మీ సీనియర్ పాస్టర్ మీకు తెలియకపోతే, ఆ ఫారం “సిబ్బందిలోని మరో పాస్టర్, ఒక పెద్ద (elder), ఒక డీకన్, లేదా మీ కుటుంబాన్ని బాగా తెలిసిన ఒక పరిచర్య నాయకుడి” నుంచి రావచ్చు."
+    },
+    {
+      "text": "Church involvement",
+      "of": "7ed8a2ab",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].label"
+      ],
+      "t": "చర్చిలో పాల్గొనడం"
+    },
+    {
+      "text": "The admission criteria include “The family’s active involvement in a local church”.",
+      "of": "216d530b",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].detail"
+      ],
+      "t": "ప్రవేశ ప్రమాణాల్లో “స్థానిక చర్చిలో కుటుంబం చురుకుగా పాల్గొనడం” ఉంది."
+    },
+    {
+      "text": "The student’s own faith",
+      "of": "7203be33",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].label"
+      ],
+      "t": "విద్యార్థి సొంత విశ్వాసం"
+    },
+    {
+      "text": "The public pages do not say whether a student must profess faith or answer faith questions.",
+      "of": "bb120d18",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].detail"
+      ],
+      "t": "విద్యార్థి తన విశ్వాసాన్ని ప్రకటించాలా, లేదా విశ్వాసంపై ప్రశ్నలకు జవాబు చెప్పాలా అనేది పబ్లిక్ పేజీలు చెప్పడం లేదు."
+    },
+    {
+      "text": "Signing the school’s beliefs",
+      "of": "5a5632ef",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].label"
+      ],
+      "t": "పాఠశాల విశ్వాసాలపై సంతకం"
+    },
+    {
+      "text": "The public pages do not say whether parents must sign or affirm the belief summary.",
+      "of": "d8cf3e3c",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].detail"
+      ],
+      "t": "తల్లిదండ్రులు విశ్వాసాల సారాంశంపై సంతకం చేయాలా, లేదా దాన్ని అంగీకరించాలా అనేది పబ్లిక్ పేజీలు చెప్పడం లేదు."
+    },
+    {
+      "text": "Once you enroll",
+      "of": "f37bf47d",
+      "at": [
+        "covenant-day:families.groups[1].name"
+      ],
+      "t": "మీరు చేరిన తర్వాత"
+    },
+    {
+      "text": "High schoolers “must be enrolled in a Bible course each year”.",
+      "of": "e6604454",
+      "at": [
+        "covenant-day:families.groups[1].rows[0].detail"
+      ],
+      "t": "High School విద్యార్థులు “ప్రతి ఏడాది ఒక బైబిల్ కోర్సులో నమోదై ఉండాలి”."
+    },
+    {
+      "text": "Church-member discount",
+      "of": "a9b9d842",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].label"
+      ],
+      "t": "చర్చి సభ్యులకు రాయితీ"
+    },
+    {
+      "text": "“A $400 discount is available for each student in grades JK-12 whose parents are members of Christ Covenant Church.” The family “must affirm the church membership statement that is part of the online enrollment process.”",
+      "of": "4d089fa4",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].detail"
+      ],
+      "t": "“తల్లిదండ్రులు Christ Covenant Church సభ్యులైన JK-12 తరగతుల ప్రతి విద్యార్థికి $400 రాయితీ లభిస్తుంది.” ఆ కుటుంబం “ఆన్‌లైన్ నమోదు ప్రక్రియలో భాగమైన చర్చి సభ్యత్వ ప్రకటనను అంగీకరించాలి.”"
+    },
+    {
+      "text": "A family agreement",
+      "of": "c0c10560",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].label"
+      ],
+      "t": "కుటుంబ ఒప్పందం"
+    },
+    {
+      "text": "No family agreement, handbook or conduct code is on the school’s public pages.",
+      "of": "f7c794f7",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].detail"
+      ],
+      "t": "కుటుంబ ఒప్పందం, మార్గదర్శిని (handbook) లేదా ప్రవర్తనా నియమావళి ఏదీ పాఠశాల పబ్లిక్ పేజీల్లో లేదు."
+    },
+    {
+      "text": "For staff and trustees",
+      "of": "6e6ff958",
+      "at": [
+        "covenant-day:families.groups[2].name"
+      ],
+      "t": "సిబ్బంది, ధర్మకర్తల కోసం"
+    },
+    {
+      "text": "Staff",
+      "of": "0d19a971",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].label"
+      ],
+      "t": "సిబ్బంది"
+    },
+    {
+      "text": "All staff “must subscribe to the Reformed faith and that doctrine as set forth in the Westminster Confession of Faith”.",
+      "of": "55024a8c",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].detail"
+      ],
+      "t": "సిబ్బంది అందరూ “Reformed (సంస్కరణ) విశ్వాసాన్ని, Westminster Confession of Faithలో పేర్కొన్న ఆ సిద్ధాంతాన్ని అంగీకరించాలి”."
+    },
+    {
+      "text": "Trustees",
+      "of": "24f7a214",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].label"
+      ],
+      "t": "ధర్మకర్తలు"
+    },
+    {
+      "text": "The Session (the elders) of Christ Covenant Church appoints the Board of Trustees.",
+      "of": "5b5ebd15",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].detail"
+      ],
+      "t": "Christ Covenant Church యొక్క Session (పెద్దల మండలి) Board of Trustees (ధర్మకర్తల మండలి)ను నియమిస్తుంది."
+    },
+    {
+      "text": "A “three-legged stool”.",
+      "of": "f28bf5c3",
+      "at": [
+        "covenant-day:families.note.strong"
+      ],
+      "t": "ఒక “మూడు కాళ్ల పీట”."
+    },
+    {
+      "text": "The school wants “the church, family, and school to all be on the same page.”",
+      "of": "a3082e35",
+      "at": [
+        "covenant-day:families.note.text"
+      ],
+      "t": "పాఠశాల “చర్చి, కుటుంబం, పాఠశాల అన్నీ ఒకే మాటపై ఉండాలని” కోరుకుంటుంది."
+    },
+    {
+      "text": "Service grows with age, from campus jobs in lower school to a high school team that builds homes from shipping containers. Mission trips have gone to Spain, Haiti, Belize and South Dakota.",
+      "of": "3bee85e2",
+      "at": [
+        "covenant-day:service.headline"
+      ],
+      "t": "వయసుతో పాటు సేవ పెరుగుతుంది: Lower Schoolలో క్యాంపస్ పనుల నుంచి, షిప్పింగ్ కంటైనర్లతో ఇళ్లు కట్టే High School బృందం వరకు. మిషన్ యాత్రలు స్పెయిన్, హైతీ, బెలీజ్, సౌత్ డకోటాలకు వెళ్లాయి."
+    },
+    {
+      "text": "Lower school service",
+      "of": "25664f55",
+      "at": [
+        "covenant-day:service.entries[0].title"
+      ],
+      "t": "Lower School సేవ"
+    },
+    {
+      "text": "On campus, students help with flag and safety patrol and collect recyclables. Projects also include boxes for Operation Christmas Child, visits to a nearby assisted living home and support for the Matthews HELP Center.",
+      "of": "9150b739",
+      "at": [
+        "covenant-day:service.entries[0].text"
+      ],
+      "t": "క్యాంపస్‌లో, విద్యార్థులు జెండా, భద్రతా గస్తీ (safety patrol) పనుల్లో సహాయం చేస్తారు, రీసైకిల్ చేయదగిన వస్తువులను సేకరిస్తారు. ప్రాజెక్టుల్లో Operation Christmas Child కోసం పెట్టెలు, సమీపంలోని ఒక assisted living (వృద్ధుల సహాయ నివాస) గృహానికి సందర్శనలు, Matthews HELP Centerకు మద్దతు కూడా ఉన్నాయి."
+    },
+    {
+      "text": "Goodness Gorillas",
+      "of": "88c271d6",
+      "at": [
+        "covenant-day:service.entries[1].title"
+      ],
+      "t": "Goodness Gorillas"
+    },
+    {
+      "text": "Fourth graders “serve at nearly twenty different sites”. It ends their Bible unit on the fruit of the Spirit.",
+      "of": "df4da813",
+      "at": [
+        "covenant-day:service.entries[1].text"
+      ],
+      "t": "నాలుగో తరగతి విద్యార్థులు “దాదాపు ఇరవై వేర్వేరు చోట్ల సేవ చేస్తారు”. ఇది ఆత్మ ఫలం గురించిన వారి బైబిల్ యూనిట్‌కు ముగింపు."
+    },
+    {
+      "text": "Missions Week",
+      "of": "63913b46",
+      "at": [
+        "covenant-day:service.entries[2].title"
+      ],
+      "t": "మిషన్ వారం"
+    },
+    {
+      "text": "Students “hear from missionaries and learn about cultures from around the world.”",
+      "of": "ac2a7081",
+      "at": [
+        "covenant-day:service.entries[2].text"
+      ],
+      "t": "విద్యార్థులు “మిషనరీల మాటలు వింటారు, ప్రపంచవ్యాప్తంగా ఉన్న సంస్కృతుల గురించి నేర్చుకుంటారు.”"
+    },
+    {
+      "text": "It falls in February on the 2026–27 calendar.",
+      "of": "7a8819bd",
+      "at": [
+        "covenant-day:service.entries[2].muted"
+      ],
+      "t": "2026–27 క్యాలెండర్‌లో ఇది ఫిబ్రవరిలో ఉంది."
+    },
+    {
+      "text": "Doulos Days",
+      "of": "54212ef2",
+      "at": [
+        "covenant-day:service.entries[3].title"
+      ],
+      "t": "Doulos Days"
+    },
+    {
+      "text": "Twice a year, middle school students spend a day serving local ministries, nonprofits and neighbors, with service days for each grade. The schoolwide Penny Wars contest helps pay for the projects.",
+      "of": "4086e1e5",
+      "at": [
+        "covenant-day:service.entries[3].text"
+      ],
+      "t": "ఏడాదికి రెండుసార్లు, Middle School విద్యార్థులు ఒక రోజంతా స్థానిక పరిచర్యలు, లాభాపేక్ష లేని సంస్థలు, ఇరుగుపొరుగువారికి సేవ చేస్తారు; ప్రతి తరగతికి సేవా దినాలు ఉంటాయి. పాఠశాల మొత్తం పాల్గొనే Penny Wars పోటీ ఈ ప్రాజెక్టుల ఖర్చుకు సహాయపడుతుంది."
+    },
+    {
+      "text": "ContainIt",
+      "of": "a86ed426",
+      "at": [
+        "covenant-day:service.entries[4].title"
+      ],
+      "t": "ContainIt"
+    },
+    {
+      "text": "Students turn used shipping containers into homes for teens on Pine Ridge Reservation in South Dakota. “Their vision is to provide housing for more than 30 teens.”",
+      "of": "37d529fc",
+      "at": [
+        "covenant-day:service.entries[4].text"
+      ],
+      "t": "విద్యార్థులు వాడిన షిప్పింగ్ కంటైనర్లను సౌత్ డకోటాలోని Pine Ridge Reservationలో టీనేజర్ల కోసం ఇళ్లుగా మారుస్తారు. “30 మందికి పైగా టీనేజర్లకు నివాసం కల్పించడం వారి లక్ష్యం.”"
+    },
+    {
+      "text": "High school service",
+      "of": "bbb64d98",
+      "at": [
+        "covenant-day:service.entries[5].title"
+      ],
+      "t": "High School సేవ"
+    },
+    {
+      "text": "Beta Club projects, weekly lunchtime tutoring at local schools, and service with partners such as Matthews Habitat for Humanity, Alexander Children’s Home and Love INC.",
+      "of": "73e133dd",
+      "at": [
+        "covenant-day:service.entries[5].text"
+      ],
+      "t": "Beta Club ప్రాజెక్టులు, స్థానిక పాఠశాలల్లో ప్రతి వారం భోజన సమయంలో ట్యూటరింగ్, Matthews Habitat for Humanity, Alexander Children’s Home, Love INC. వంటి భాగస్వాములతో సేవ."
+    },
+    {
+      "text": "Mission trips",
+      "of": "c39f4af5",
+      "at": [
+        "covenant-day:service.entries[6].title"
+      ],
+      "t": "మిషన్ యాత్రలు"
+    },
+    {
+      "text": "Students “have been on school-sponsored mission trips to Spain, Haiti, Belize, and Pine Ridge Reservation in South Dakota.”",
+      "of": "d3f89323",
+      "at": [
+        "covenant-day:service.entries[6].text"
+      ],
+      "t": "విద్యార్థులు “స్పెయిన్, హైతీ, బెలీజ్, సౌత్ డకోటాలోని Pine Ridge Reservationకు పాఠశాల ప్రాయోజిత మిషన్ యాత్రలకు వెళ్లారు.”"
+    },
+    {
+      "text": "The school does not list trip years or a 2026–27 trip.",
+      "of": "92015a56",
+      "at": [
+        "covenant-day:service.entries[6].muted"
+      ],
+      "t": "పాఠశాల యాత్రల సంవత్సరాలను గానీ, 2026–27 యాత్రను గానీ జాబితాలో చూపడం లేదు."
+    },
+    {
+      "text": "No hours published.",
+      "of": "36413563",
+      "at": [
+        "covenant-day:service.note.strong"
+      ],
+      "t": "గంటలు ప్రచురించలేదు."
+    },
+    {
+      "text": "The school publishes no service-hour requirement. Its plan follows the Bible’s order of being “Christ’s witnesses to the world beginning in Jerusalem, then to Judea and Samaria, and then to the ends of the earth.”",
+      "of": "3d0a07e0",
+      "at": [
+        "covenant-day:service.note.text"
+      ],
+      "t": "పాఠశాల సేవా గంటల అవసరం ఏదీ ప్రచురించలేదు. దాని ప్రణాళిక బైబిల్‌లోని క్రమాన్ని అనుసరిస్తుంది: “యెరూషలేములో మొదలుపెట్టి, తర్వాత యూదయ, సమరయల్లో, ఆ తర్వాత భూదిగంతముల వరకు లోకానికి క్రీస్తు సాక్షులుగా” ఉండటం."
+    },
+    {
+      "text": "The people who lead spiritual life at Covenant Day, with the email each one lists in the school directory.",
+      "of": "ea19c975",
+      "at": [
+        "covenant-day:staff.headline"
+      ],
+      "t": "Covenant Dayలో ఆత్మీయ జీవితాన్ని నడిపించే వ్యక్తులు, పాఠశాల డైరెక్టరీలో ఒక్కొక్కరు పేర్కొన్న ఇమెయిల్‌తో."
+    },
+    {
+      "text": "Spiritual Formation Director",
+      "of": "5a49804b",
+      "at": [
+        "covenant-day:staff.people[0].role"
+      ],
+      "t": "ఆత్మీయ వికాస డైరెక్టర్"
+    },
+    {
+      "text": "HS Chaplain & Bible Teacher",
+      "of": "fa942adc",
+      "at": [
+        "covenant-day:staff.people[1].role"
+      ],
+      "t": "High School చాప్లిన్, బైబిల్ ఉపాధ్యాయులు"
+    },
+    {
+      "text": "HS Bible Teacher",
+      "of": "9b3385dc",
+      "at": [
+        "covenant-day:staff.people[2].role",
+        "covenant-day:staff.people[3].role"
+      ],
+      "t": "High School బైబిల్ ఉపాధ్యాయులు"
+    },
+    {
+      "text": "HS Bible & History Teacher",
+      "of": "bd41d312",
+      "at": [
+        "covenant-day:staff.people[4].role"
+      ],
+      "t": "High School బైబిల్, చరిత్ర ఉపాధ్యాయులు"
+    },
+    {
+      "text": "MS Bible Teacher",
+      "of": "285b6f95",
+      "at": [
+        "covenant-day:staff.people[5].role",
+        "covenant-day:staff.people[6].role"
+      ],
+      "t": "Middle School బైబిల్ ఉపాధ్యాయులు"
+    },
+    {
+      "text": "Worship and Choir Teacher",
+      "of": "0b327bf1",
+      "at": [
+        "covenant-day:staff.people[7].role"
+      ],
+      "t": "ఆరాధన, గాయక బృంద (choir) ఉపాధ్యాయులు"
+    },
+    {
+      "text": "Student Culture Director",
+      "of": "cc3166f6",
+      "at": [
+        "covenant-day:staff.people[8].role"
+      ],
+      "t": "విద్యార్థి సంస్కృతి డైరెక్టర్"
+    },
+    {
+      "text": "Head of School",
+      "of": "43515cb8",
+      "at": [
+        "covenant-day:staff.people[9].role"
+      ],
+      "t": "పాఠశాల అధిపతి"
+    },
+    {
+      "text": "The Head of School’s hope:",
+      "of": "f0bf1295",
+      "at": [
+        "covenant-day:staff.note.strong"
+      ],
+      "t": "పాఠశాల అధిపతి ఆశ:"
+    },
+    {
+      "text": "“Students being transformed and becoming disciples of Christ, being anchored in their faith so that they know what they believe and why they believe it.”",
+      "of": "4ab1d1f7",
+      "at": [
+        "covenant-day:staff.note.muted"
+      ],
+      "t": "“విద్యార్థులు రూపాంతరం చెంది క్రీస్తు శిష్యులుగా మారడం, తాము ఏం విశ్వసిస్తున్నామో, ఎందుకు విశ్వసిస్తున్నామో తెలుసుకునేలా తమ విశ్వాసంలో స్థిరంగా నాటుకుపోవడం.”"
+    },
+    {
+      "text": "Weekly prayer groups for moms and for dads, and ways for grandparents and boosters to pray for the school.",
+      "of": "85546abe",
+      "at": [
+        "covenant-day:parents.headline"
+      ],
+      "t": "తల్లుల కోసం, తండ్రుల కోసం వారపు ప్రార్థనా బృందాలు; తాతయ్యలు, అమ్మమ్మ-నానమ్మలు, బూస్టర్ సభ్యులు పాఠశాల కోసం ప్రార్థించే మార్గాలు."
+    },
+    {
+      "text": "Moms in Prayer",
+      "of": "58172703",
+      "at": [
+        "covenant-day:parents.entries[0].title"
+      ],
+      "t": "Moms in Prayer"
+    },
+    {
+      "text": "“Covenant Day School’s Moms in Prayer groups meet weekly during the school year.” Moms pray together for the school community.",
+      "of": "97779ab2",
+      "at": [
+        "covenant-day:parents.entries[0].text"
+      ],
+      "t": "“Covenant Day Schoolకు చెందిన Moms in Prayer బృందాలు విద్యా సంవత్సరంలో ప్రతి వారం కలుస్తాయి.” తల్లులు కలిసి పాఠశాల సమాజం కోసం ప్రార్థిస్తారు."
+    },
+    {
+      "text": "Dads Prayer Gathering",
+      "of": "16611963",
+      "at": [
+        "covenant-day:parents.entries[1].title"
+      ],
+      "t": "Dads Prayer Gathering"
+    },
+    {
+      "text": "“Every Friday, CDS dads gather at the tennis gazebo for a time of fellowship and prayer.”",
+      "of": "02cf8ea7",
+      "at": [
+        "covenant-day:parents.entries[1].text"
+      ],
+      "t": "“ప్రతి శుక్రవారం, CDS తండ్రులు సహవాసం, ప్రార్థన కోసం టెన్నిస్ గెజిబో దగ్గర కలుస్తారు.”"
+    },
+    {
+      "text": "Grandparents Prayer Walk",
+      "of": "cd7baf66",
+      "at": [
+        "covenant-day:parents.entries[2].title"
+      ],
+      "t": "తాతయ్యలు, అమ్మమ్మ-నానమ్మల ప్రార్థనా నడక"
+    },
+    {
+      "text": "The 2026–27 calendar lists a Grandparents Prayer Walk in August.",
+      "of": "138bfc13",
+      "at": [
+        "covenant-day:parents.entries[2].text"
+      ],
+      "t": "2026–27 క్యాలెండర్‌లో ఆగస్టులో తాతయ్యలు, అమ్మమ్మ-నానమ్మల ప్రార్థనా నడక ఉంది."
+    },
+    {
+      "text": "Booster Club prayer partners",
+      "of": "7d90811b",
+      "at": [
+        "covenant-day:parents.entries[3].title"
+      ],
+      "t": "Booster Club ప్రార్థనా భాగస్వాములు"
+    },
+    {
+      "text": "Booster Club members can sign up for a “Prayer partnership”: a coach and an athlete to pray for all year.",
+      "of": "601d121c",
+      "at": [
+        "covenant-day:parents.entries[3].text"
+      ],
+      "t": "Booster Club సభ్యులు “ప్రార్థనా భాగస్వామ్యం” కోసం నమోదు చేసుకోవచ్చు: ఏడాది పొడవునా ఒక కోచ్ కోసం, ఒక క్రీడాకారుడి కోసం ప్రార్థించడం."
+    },
+    {
+      "text": "Questions the school’s public pages leave open, to bring to a tour or an interview.",
+      "of": "0a5de2b7",
+      "at": [
+        "covenant-day:ask.headline"
+      ],
+      "t": "పాఠశాల పబ్లిక్ పేజీలు జవాబు చెప్పకుండా వదిలేసిన ప్రశ్నలు, పాఠశాల సందర్శనకు లేదా ఇంటర్వ్యూకు తీసుకెళ్లడానికి."
+    },
+    {
+      "text": "What day and time is chapel for each division, and can parents attend?",
+      "of": "3661c13c",
+      "at": [
+        "covenant-day:ask.questions[0]"
+      ],
+      "t": "ప్రతి విభాగానికి చాపెల్ ఏ రోజు, ఏ సమయంలో ఉంటుంది, తల్లిదండ్రులు హాజరు కావచ్చా?"
+    },
+    {
+      "text": "Is chapel attendance required?",
+      "of": "609e96bd",
+      "at": [
+        "covenant-day:ask.questions[1]"
+      ],
+      "t": "చాపెల్ హాజరు తప్పనిసరా?"
+    },
+    {
+      "text": "Must a student share the family’s faith, or answer faith questions, to be admitted?",
+      "of": "0f9e8115",
+      "at": [
+        "covenant-day:ask.questions[2]"
+      ],
+      "t": "ప్రవేశం పొందాలంటే విద్యార్థి కుటుంబ విశ్వాసాన్నే కలిగి ఉండాలా, లేదా విశ్వాసంపై ప్రశ్నలకు జవాబు చెప్పాలా?"
+    },
+    {
+      "text": "Do parents sign or affirm the school’s belief summary, or any family agreement?",
+      "of": "5a4311de",
+      "at": [
+        "covenant-day:ask.questions[3]"
+      ],
+      "t": "తల్లిదండ్రులు పాఠశాల విశ్వాసాల సారాంశంపై గానీ, ఏదైనా కుటుంబ ఒప్పందంపై గానీ సంతకం చేస్తారా, లేదా అంగీకారం తెలుపుతారా?"
+    },
+    {
+      "text": "Who is interviewed at each grade: parents only, or the student too?",
+      "of": "589c35ab",
+      "at": [
+        "covenant-day:ask.questions[4]"
+      ],
+      "t": "ప్రతి తరగతిలో ఎవరిని ఇంటర్వ్యూ చేస్తారు: తల్లిదండ్రులను మాత్రమేనా, విద్యార్థిని కూడానా?"
+    },
+    {
+      "text": "Which high school Bible course carries the half unit, and what does a student who joins in 10th–12th grade take?",
+      "of": "ea1a7b04",
+      "at": [
+        "covenant-day:ask.questions[5]"
+      ],
+      "t": "సగం యూనిట్ ఏ High School బైబిల్ కోర్సుకు వస్తుంది, 10వ–12వ తరగతుల్లో చేరే విద్యార్థి ఏ కోర్సు తీసుకుంటారు?"
+    },
+    {
+      "text": "Which Bible translation do classes use?",
+      "of": "5b85035c",
+      "at": [
+        "covenant-day:ask.questions[6]"
+      ],
+      "t": "క్లాసుల్లో ఏ బైబిల్ అనువాదాన్ని వాడతారు?"
+    },
+    {
+      "text": "Must every middle and high school student go to Windy Gap, and who leads it?",
+      "of": "24b56828",
+      "at": [
+        "covenant-day:ask.questions[7]"
+      ],
+      "t": "Middle School, High School విద్యార్థులందరూ Windy Gapకు వెళ్లాలా, దాన్ని ఎవరు నడిపిస్తారు?"
+    },
+    {
+      "text": "Is the 5th-grade spring trip to Fort Caswell or to Kanuga? The school’s pages name both.",
+      "of": "27868a9b",
+      "at": [
+        "covenant-day:ask.questions[8]"
+      ],
+      "t": "5వ తరగతి వసంతకాల యాత్ర Fort Caswellకా, Kanugaకా? పాఠశాల పేజీలు రెండింటినీ పేర్కొంటున్నాయి."
+    },
+    {
+      "text": "Are any mission trips planned for 2026–27, and for which grades?",
+      "of": "1e1cac6a",
+      "at": [
+        "covenant-day:ask.questions[9]"
+      ],
+      "t": "2026–27కి ఏవైనా మిషన్ యాత్రలు ప్రణాళికలో ఉన్నాయా, ఏ తరగతులకు?"
+    },
+    {
+      "text": "Do high school students serve as student chaplains?",
+      "of": "b50a7916",
+      "at": [
+        "covenant-day:ask.questions[10]"
+      ],
+      "t": "High School విద్యార్థులు విద్యార్థి చాప్లిన్‌లుగా సేవ చేస్తారా?"
+    },
+    {
+      "text": "When and where does Moms in Prayer meet?",
+      "of": "7534542a",
+      "at": [
+        "covenant-day:ask.questions[11]"
+      ],
+      "t": "Moms in Prayer ఎప్పుడు, ఎక్కడ కలుస్తుంది?"
+    },
+    {
+      "text": "November 27, 2026",
+      "of": "d9eeac50",
+      "at": [
+        "covenant-day:ask.asOf"
+      ],
+      "t": "నవంబర్ 27, 2026"
+    },
+    {
       "text": "Hickory Grove Christian School is “a ministry of Hickory Grove Baptist Church”. The church started it in 1995. Students take Bible as a core class every year, and the church’s pastors teach in chapel.",
       "of": "4b2d51ae",
       "at": [
@@ -1972,14 +3362,6 @@
         "hickory-grove-christian:classes.groups[1].rows[3].detail"
       ],
       "t": "కోర్సుల్లో Becoming a Young Man of God, Becoming a Young Woman of God (7–8 తరగతులు), Student on Mission, ఎంపిక చేసిన 8వ తరగతి విద్యార్థుల కోసం Christian Leadership ఉన్నాయి."
-    },
-    {
-      "text": "High School",
-      "of": "8ab05d33",
-      "at": [
-        "hickory-grove-christian:classes.groups[2].name"
-      ],
-      "t": "High School"
     },
     {
       "text": "4 Bible credits to graduate",
