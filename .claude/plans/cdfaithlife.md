@@ -1062,7 +1062,15 @@ them partly), 1 recorded as a follow-up, 0 declined.
   note).
 
 **Fixed, not re-reviewed:** the three pass-2 fixes above. **Open:** pass-1 #10 (the
-statement-of-faith chrome heading), a follow-up needing UX approval.
+statement-of-faith chrome heading), a follow-up needing UX approval. **Closed 2026-11-27:**
+the user approved it. `faith.statementOfFaith` now reads "Belief statement, in the school’s
+own words". It was designed first in a new Claude Design file, *Faith & Spiritual Life
+Section - Covenant Day* (Covenant Day's capture, since the older Charlotte Christian copy
+holds the removed article), then built (`aad0553a`), then re-captured from the built app
+and verified byte for byte by `design:verify`. A third review pass was run at the user's
+request (below).
 
-**Phase 2 carry-overs:** correct `NOTES.md`'s "ten articles" to nine; the splice should drop
+**Phase 2 carry-overs:** translate the changed chrome key `faith.statementOfFaith` in all
+nine other `src/locales/*.json` catalogs (each still holds the old heading's translation);
+add the new design file to `As Built - Index.md` with the Home re-capture; correct `NOTES.md`'s "ten articles" to nine; the splice should drop
 exactly the 2 Charlotte Christian units; re-stamp the Clubs unit.

@@ -174,16 +174,18 @@ Captured from **Charlotte Country Day**.
 Captured from **Hickory Grove Christian** (plan `hgfaithlife`, 2026-11-26), so the capture
 shows the `tenets` and `outcomes` Beliefs blocks. Three schools hold the area: Charlotte
 Christian (added 2026-11-26, plan `faithlife`), Hickory Grove Christian, and Covenant Day
-(added 2026-11-27, plan `cdfaithlife`, data only, so the section is not re-captured). Charlotte
-Christian's statement-of-faith list and its Retreats card are not in this capture; they are
-in the archive copy `archive/2026-11 pre-hgfaithlife/`. The links work once the branch is
-merged and published.
+(added 2026-11-27, plan `cdfaithlife`). A second file, **Faith & Spiritual Life Section -
+Covenant Day**, is captured from Covenant Day (2026-11-27, plan `cdfaithlife`). It shows
+the statement-of-faith list under its heading "Belief statement, in the school’s own words"
+(reworded 2026-11-27 with the user's approval, designed in that file first) and the Retreats
+card. The archive copy `archive/2026-11 pre-hgfaithlife/` is an older Charlotte Christian
+capture. The links work once the branch is merged and published.
 
 | Card (link name) | Kind | Held by | Captured from | Deep link |
 |---|---|--:|---|---|
 | `chapel-and-worship` | chapel-and-worship | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/chapel-and-worship |
 | `bible-and-faith-classes` | bible-and-faith-classes | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/bible-and-faith-classes |
-| `retreats` | retreats | 2 | Charlotte Christian (archive copy only) | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/retreats |
+| `retreats` | retreats | 2 | Covenant Day (second file) | https://charlotteschoolinsights.com/school/covenant-day/#faith-and-spiritual-life/retreats |
 | `small-groups-and-discipleship` | small-groups-and-discipleship | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/small-groups-and-discipleship |
 | `what-the-school-believes` | what-the-school-believes | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-the-school-believes |
 | `what-it-asks-of-families` | what-it-asks-of-families | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-it-asks-of-families |
@@ -463,6 +465,9 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Read Revi
 # Faith & Spiritual Life Section (plan hgfaithlife; captured from Hickory Grove for the tenets and outcomes blocks)
 npm run design:capture -- '--page' '/school/hickory-grove-christian/' '--name' 'Faith & Spiritual Life Section' '--out' <out> '--refs' 'Hickory Grove Christian (tenets and outcomes); Charlotte Christian holds the statement-of-faith list' '--sha' 'ae07be00' '--area' 'faith-spiritual-life'
 
+# Faith & Spiritual Life Section - Covenant Day (plan cdfaithlife; the statement-of-faith list, its heading, and Retreats)
+npm run design:capture -- '--page' '/school/covenant-day/' '--name' 'Faith & Spiritual Life Section - Covenant Day' '--out' <out> '--refs' 'Covenant Day (the statement-of-faith list, Retreats, outcomes)' '--sha' 'aad0553a' '--area' 'faith-spiritual-life'
+
 # Financial Aid & Tuition
 npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
 # then append two of Cannon's source lines, opened, as a labelled `ds-extra` block in the
@@ -608,6 +613,7 @@ The same table is in the design project as `As Built - Index.md`.
 | Canvas | empty, untouched |
 | Read Reviews Section | captured, replaced 2026-11-25 (plan `readreviews`; the planning mock is gone) |
 | Faith & Spiritual Life Section | captured, replaced 2026-11-26 (plan `faithlife`, English phase; the planning mock is gone); re-captured from Hickory Grove 2026-11-26 (plan `hgfaithlife`) |
+| Faith & Spiritual Life Section - Covenant Day | new 2026-11-27 (plan `cdfaithlife`): designed first with the reworded belief-list heading, then re-captured from the built app at `aad0553a` and verified byte for byte |
 
 All captured files: `main` at `ff5ab214`, captured 2026-11-20.
 
