@@ -103,12 +103,25 @@ export type RetreatsCard = {
   verify?: string[]
 }
 
+/** One outcome a school hopes for in its students, with its one-line description. */
+export type FaithOutcome = {
+  name: string
+  text: string
+}
+
 export type BeliefsCard = {
   headline: string
   /** The mission statement, quoted whole. */
   mission?: string
   /** Core values: the value and the Bible reference the school pairs it with. */
   values?: { name: string; verse: string }[]
+  /**
+   * Beliefs the school lists in its own words; not a statement of faith. One
+   * whole verbatim item per string, in page order. Renders unnumbered.
+   */
+  tenets?: string[]
+  /** The outcomes the school hopes for in every student, each with its description. */
+  outcomes?: FaithOutcome[]
   note?: FaithNote
   /** The statement of faith: one whole verbatim article per string, in page order. */
   articles?: string[]
@@ -231,8 +244,8 @@ export const WIDE_FAITH_CARDS: ReadonlySet<FaithLifeCardKey> = new Set([
 /* ------------------------------------------------------------ school data -- */
 
 /**
- * Per-school entries live in ./faithLife/<slug>.ts. Charlotte Christian is the
- * only school researched; every other school is ABSENT rather than
+ * Per-school entries live in ./faithLife/<slug>.ts. Charlotte Christian and
+ * Hickory Grove Christian are researched; every other school is ABSENT rather than
  * present-and-empty, and with no source-material folder the section never
  * renders on its page.
  */
@@ -245,9 +258,11 @@ import {
   type OverlayFile,
 } from '../lib/localizeData.ts'
 import { charlotteChristian } from './faithLife/charlotte-christian.ts'
+import { hickoryGroveChristian } from './faithLife/hickory-grove-christian.ts'
 
 const PROGRAMS: Record<string, FaithLifeProgram> = {
   'charlotte-christian': charlotteChristian,
+  'hickory-grove-christian': hickoryGroveChristian,
 }
 
 /* ---------------------------------------------------------- translations -- */

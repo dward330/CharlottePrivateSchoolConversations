@@ -906,6 +906,12 @@ export const PATH_OVERRIDES = new Map([
   // translated whole like every other quoted school text.
   ['beliefs.mission', true],
   ['beliefs.articles[]', true],
+  // Beliefs a school lists and the outcomes it hopes for (plan hgfaithlife):
+  // verbatim school phrases, translated whole. `outcomes[].name` is prose here,
+  // as `values[].name` is, not a proper noun.
+  ['beliefs.tenets[]', true],
+  ['beliefs.outcomes[].name', true],
+  ['beliefs.outcomes[].text', true],
   // Note paragraphs and muted follow-ons on every faith card.
   ['chapel.entries[].muted', true],
   ['groups.entries[].muted', true],
@@ -916,6 +922,8 @@ export const PATH_OVERRIDES = new Map([
   ['classes.intro.muted', true],
   ['classes.note.strong', true],
   ['classes.note.muted', true],
+  ['groups.note.strong', true],
+  ['groups.note.muted', true],
   ['retreats.note.strong', true],
   ['retreats.note.muted', true],
   ['beliefs.note.strong', true],

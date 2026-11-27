@@ -237,6 +237,29 @@ function BeliefsBody({ data }: { data: BeliefsCard }) {
           </div>
         </>
       )}
+      {data.tenets && data.tenets.length > 0 && (
+        <>
+          <div className="fl-h">{t('faith.tenets')}</div>
+          <ul className="fl-tenets">
+            {data.tenets.map((x) => (
+              <li key={x}>{x}</li>
+            ))}
+          </ul>
+        </>
+      )}
+      {data.outcomes && data.outcomes.length > 0 && (
+        <>
+          <div className="fl-h">{t('faith.outcomes')}</div>
+          <div className="ls-grid ls-grid-therapy">
+            {data.outcomes.map((o) => (
+              <div key={o.name} className="ls-cell ls-therapy-cell">
+                <span className="ls-therapy-name">{o.name}</span>
+                <span className="ls-cell-text fl-outcome-text">{o.text}</span>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
       {data.note && <Note note={data.note} />}
       {data.articles && data.articles.length > 0 && (
         <>

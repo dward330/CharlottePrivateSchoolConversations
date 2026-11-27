@@ -2,7 +2,8 @@
 
 One file per school, `<slug>.ts`, exporting a `FaithLifeProgram` (types and the card
 registry are in [`../faithLife.ts`](../faithLife.ts)). Charlotte Christian School was the
-first school (2026-11-26, plan `faithlife`). The area is for faith-based schools only. It
+first school (2026-11-26, plan `faithlife`). Hickory Grove Christian School is the
+second (2026-11-26, plan `hgfaithlife`). The area is for faith-based schools only. It
 is off Compare (`COMPARE_DEFERRED_TOPICS`) and out of the `/add-school` area floor
 (`FLOOR_EXCLUDED_AREAS`).
 
@@ -27,8 +28,16 @@ never shipped empty.
 - **Belief statements are verbatim and whole.** `beliefs.articles` holds the statement of
   faith one article per string, char-for-char, in page order, with no summary and no
   comment. Nothing is softened or left out.
+- **`beliefs.tenets` is a list the school gives in its own words, never a statement of
+  faith.** One whole verbatim item per string, in page order, never a summary. It renders
+  under its own heading, unnumbered, so a parent never reads it as doctrine.
+- **`beliefs.outcomes` holds the outcomes a school hopes for**, each a name and its
+  one-line description in the school's words. It is not `values`, which pairs each value
+  with a Bible reference.
 - **A dated governing document about employees is not a statement to families.** It stays
   in the research file (Charlotte Christian's 2014 bylaws are the first case).
+- **A statement linked only from an employment application is not a statement to families
+  either.** It stays in the research file (Hickory Grove, user decision 2026-11-26).
 - **An unpublished requirement is `status: 'notStated'`**, which renders a dashed NOT
   STATED chip. Never leave it blank and never write "not required": the legend says the
   two are different. The published / not stated tallies are computed from the rows.

@@ -5,10 +5,8 @@
 //
 // Every card below is built from hgchristian.org only (user, 2026-11-10: school sources only for every club list; plan plainclubs). The earlier
 // 27-organization PrivateSchoolReview roster, its five honor societies and its two
-// leadership programs were removed. The school's redesigned site (checked
-// 2026-11-10) also no longer shows the four-country mission trips or the
-// aquaponics program the earlier cards cited, so the service card now follows
-// the live Missions & Service page.
+// leadership programs were removed. The service card follows the school's live
+// Missions & Service page.
 //
 // THE 1a AFFINITY CARD IS OMITTED, and that is the research finding rather than a
 // hole in it: HGCS's grouping model is faith-based (discipleship, worship,

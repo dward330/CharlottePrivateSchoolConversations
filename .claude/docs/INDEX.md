@@ -64,6 +64,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 ### Faith & Spiritual Life (`faith-spiritual-life/`)
 
 - [Charlotte Christian School](faith-spiritual-life/charlotte-christian.md) — 2 docs
+- [Hickory Grove Christian School](faith-spiritual-life/hickory-grove-christian.md) — 2 docs
 
 ### Financial Aid & Tuition (`financial-aid-tuition/`)
 
@@ -184,4 +185,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 585 documents across 14 topics and 13 schools.
+- `src/data/schools.json` — 587 documents across 14 topics and 13 schools.
