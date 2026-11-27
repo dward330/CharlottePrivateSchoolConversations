@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-26
 branch: feat/hgfaithlife
-prs: []
+prs: [539]
 ---
 
 # Add Hickory Grove Christian to Faith & Spiritual Life
