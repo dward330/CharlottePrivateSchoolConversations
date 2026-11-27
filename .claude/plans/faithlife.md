@@ -1,11 +1,11 @@
 ---
 name: faithlife
 title: Add a Faith & Spiritual Life research area — ten structured cards, Charlotte Christian School first, from two official-site research passes and the Claude Design mock
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-26
 branch: feat/faithlife
-prs: []
+prs: [537]
 ---
 
 # Faith & Spiritual Life research area (Charlotte Christian first)
