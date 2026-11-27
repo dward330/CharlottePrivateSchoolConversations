@@ -618,7 +618,7 @@ export const hickoryGroveChristian: FaithLifeProgram = {
       'How often does chapel meet? One page says once a month, and the 2026–27 calendar has two in March.',
       'How often do high school discipleship groups meet? One page says several times a month, and another says most Thursdays.',
       'Does every senior go on the Dominican Republic mission trip, and is it part of tuition?',
-      'How many Bible credits does a student who joins in 11th or 12th grade need?',
+      'How many Bible credits does a student who joins in 10th, 11th or 12th grade need?',
       'Are there any retreats, for any grade?',
       'Are service hours required?',
       'Do elementary and middle school students sign the Honor Code too?',

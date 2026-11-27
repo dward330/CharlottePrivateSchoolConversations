@@ -797,3 +797,31 @@ asOf: `November 26, 2026`
 16. Two new fields (`beliefs.tenets`, `beliefs.outcomes`), approved by the user 2026-11-26: designed in Claude Design first, `PATH_OVERRIDES` entries in `scripts/i18n_fields.mjs`, the new type written as a plain multi-line `export type`.
 17. Re-capture the Claude Design *Home* file at the end of Phase 2.
 18. Second color is the school's own gold #c5b358.
+
+## Implementation notes
+
+- **Step 3 skipped**: the build ran on 2026-11-26, the planning day.
+- **Two extra extractor paths**: `groups.note.strong` and `groups.note.muted` in
+  `scripts/i18n_fields.mjs`. Hickory Grove is the first school with a Small Groups note
+  ("Teams too."), so `i18n:report -- --residual` flagged the path as unclassified.
+- **`// plain-ok: rigor`** on the fifth tenet: the hook flagged "rigorous", which is the
+  school's own verbatim word.
+- **Design step**: the Hickory Grove view was added to *Faith & Spiritual Life Section* after
+  Charlotte Christian's Beliefs card and approved by the user ("Build it as designed"):
+  the beliefs unnumbered with a gold rule and no quote marks, and the outcomes in the
+  Core-values cell look. Before the re-capture, that file was copied server-side to
+  `archive/2026-11 pre-hgfaithlife/Faith & Spiritual Life Section (Charlotte Christian +
+  Hickory Grove design).dc.html`, which keeps Charlotte Christian's statement-of-faith list
+  and Retreats card. The re-capture is from Hickory Grove at `ae07be00` (37,559 bytes).
+  `app-css/app-4.css` was re-written (36,429 → 36,652 bytes, the three new rules), because a
+  capture is unstyled in the project until its CSS chunk is written. Both writes were
+  verified byte for byte. `As Built - Index.md` was updated.
+- **Review fix outside the plan's scope (developer's pick)**: `/faith-life`'s Beliefs scoring
+  row now counts `tenets` and `outcomes`, and its 60% bar now names Hickory Grove's 9 cards.
+  `.claude/SKILLS.md` is dated to match.
+- **Follow-up, not fixed here**: Course Offerings marks only three of Hickory Grove's honors
+  Bible courses as dual enrollment (Old Testament, New Testament, Systematic Theology), while
+  the HS catalog (p. 4) and this section's Classes card list five (adding Honors Introduction
+  to Philosophy and Honors Introduction to Ethics). The gap is in Course Offerings, existed
+  before this plan, and is out of its scope. It belongs to the next consistency or Course
+  Offerings pass.

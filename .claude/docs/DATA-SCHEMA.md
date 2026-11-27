@@ -1142,6 +1142,9 @@ lacking it.
 
 **Belief statements are verbatim and whole.** `beliefs.articles` holds the statement
 of faith one article per string, char-for-char, with no summary and no comment.
+`beliefs.tenets` is a list of beliefs the school gives in its own words and is never
+a statement of faith: one whole verbatim item per string, rendered unnumbered.
+`beliefs.outcomes` holds the outcomes a school hopes for, each a name and its line.
 
 **An unpublished requirement is `status: 'notStated'`, never a blank** and never
 "not required". The `families` tallies are computed from the rows. When the school's

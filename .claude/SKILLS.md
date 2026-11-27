@@ -493,7 +493,7 @@ episode to `podcastEpisodes.ts` is a separate PR.
 **Research a faith-based school's Faith & Spiritual Life from its own website, decide
 whether it is enough for a healthy section, and hand a GO to `/plan`.**
 
-`.claude/skills/faith-life/SKILL.md` · added 2026-11-26 · supporting files:
+`.claude/skills/faith-life/SKILL.md` · added 2026-11-26 · updated 2026-11-26 (Beliefs scoring counts the new `tenets` and `outcomes` blocks; the 60% bar now reads from Hickory Grove's 9 cards, plan `hgfaithlife`) · supporting files:
 `research-brief.md` (the two research passes and their record format),
 `review-lessons.md` (what the first school's reviews caught)
 
