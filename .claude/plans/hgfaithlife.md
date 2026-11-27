@@ -1,7 +1,7 @@
 ---
 name: hgfaithlife
 title: Add Hickory Grove Christian School to the Faith & Spiritual Life research area (9 of 10 cards; no Retreats, no statement of faith; two new Beliefs blocks)
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-11-26
 branch: feat/hgfaithlife
@@ -769,7 +769,7 @@ questions (12):
 5. `How often does chapel meet? One page says once a month, and the 2026–27 calendar has two in March.`
 6. `How often do high school discipleship groups meet? One page says several times a month, and another says most Thursdays.`
 7. `Does every senior go on the Dominican Republic mission trip, and is it part of tuition?`
-8. `How many Bible credits does a student who joins in 11th or 12th grade need?`
+8. `How many Bible credits does a student who joins in 10th, 11th or 12th grade need?` (widened from "11th or 12th" at the review, to match the Classes verify note)
 9. `Are there any retreats, for any grade?`
 10. `Are service hours required?`
 11. `Do elementary and middle school students sign the Honor Code too?`
@@ -825,3 +825,18 @@ asOf: `November 26, 2026`
   to Philosophy and Honors Introduction to Ethics). The gap is in Course Offerings, existed
   before this plan, and is out of its scope. It belongs to the next consistency or Course
   Offerings pass.
+- **Ask question 8 widened at the review** from "11th or 12th grade" to "10th, 11th or
+  12th grade", to match the Classes card's verify note ("No Bible rule for a student who
+  joins in 10th–12th grade is published"). Still twelve questions.
+
+### Adversarial review 2026-11-26
+
+- **Pass 1** (commit reviewed `64b62cfa`): 6 found, 4 confirmed, 2 rejected, 4 fixed, 0 declined.
+  - R1 INDEX row still In progress: rejected. The English shipped flip is the hand-back step, after the review.
+  - R2 two unlisted extractor paths (`groups.note.*`): rejected as a defect. They are needed; now recorded above.
+  - R3 `/faith-life` still described a one-school area, and its Beliefs scoring row lacked tenets/outcomes: fixed (outside the plan's scope, developer's pick), with `.claude/SKILLS.md` dated.
+  - R4 tenets rule missing from `DATA-SCHEMA.md`: fixed in `gen_data_schema.mjs`, regenerated.
+  - R5 Course Offerings marks 3 of the 5 dual-enrollment Bible courses: fixed by recording only (follow-up above; no app edit, out of scope).
+  - R6 Ask question 8 narrower than its verify note: fixed (widened to 10th–12th).
+- **Pass 2** (fix diff `64b62cfa..bff13ecc`): 1 found, 1 confirmed, 0 rejected, 1 fixed, 0 declined.
+  - The plan appendix still showed question 8's old wording: fixed (appendix line and the note above). Fixed, not re-reviewed.
