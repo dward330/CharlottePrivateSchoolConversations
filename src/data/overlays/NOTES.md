@@ -3495,7 +3495,7 @@ position. At 390px one ar `2026–27` wraps at its dash, the site-wide wrap reco
 
 **Soft spots for a native reviewer:** "homeroom" has no precedent (es *aula de inicio del día*,
 fr *classe de référence*, ar *حصة الصف الصباحية*, fa *کلاس آغاز روز (homeroom)*, it keeps it with
-a gloss). "three-legged stool" is literal everywhere; fa keeps the idiom *چهارپایهٔ سه‌پایه* (a central edit to *چارپایه‌ای با سه پایه* read "a four-legged stool with three legs" and was reverted at re-review). The fa and it `faith.statementOfFaith` headings were reworded at re-review to match the section's prose: fa *به بیان خود مدرسه* (not *زبان*, which can read as "language"), it *convinzioni* (not *credo*, a formal creed).
+a gloss). "three-legged stool" is literal everywhere; fa keeps the idiom *چهارپایهٔ سه‌پایه* (a central edit to *یک چارپایه‌ای با سه پایه* marked the noun indefinite twice and spelled out "with three legs" clumsily, and was reverted at re-review). The fa and it `faith.statementOfFaith` headings were reworded at re-review to match the section's prose: fa *به بیان خود مدرسه* (not *زبان*, which can read as "language"), it *convinzioni* (not *credo*, a formal creed).
 "Session" (the elders) is kept with a gloss in most locales. The six graduate outcomes are
 imperatives in fa and hi, to match how Charlotte Christian's core values read. "1 Peter" keeps
 its digit in every locale (fa *رسالهٔ 1 پطرس*, where *اول پطرس* is the usual form). ar renders
