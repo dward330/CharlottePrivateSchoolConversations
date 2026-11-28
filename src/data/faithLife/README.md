@@ -34,7 +34,8 @@ never shipped empty.
   Christian's card shows nine of its ten articles for this reason.
 - **Cards cite only pages a visitor can reach from the site's own navigation.** An
   unlinked page or an email archive is a lead, never cited (user, 2026-11-27, for every
-  school; first applied to Covenant Day).
+  school added from Covenant Day on). Charlotte Christian's shipped cards (2026-11-26) still
+  cite its email archive and four school emails: a recorded exception, not a precedent.
 - **`beliefs.tenets` is a list the school gives in its own words, never a statement of
   faith.** One whole verbatim item per string, in page order, never a summary. It renders
   under its own heading, unnumbered, so a parent never reads it as doctrine.

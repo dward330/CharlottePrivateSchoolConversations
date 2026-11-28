@@ -516,7 +516,8 @@ the skill fetches the school's pages itself, in two passes.
 > **🔒 Only the school's own public pages are evidence.** No third-party page, and no
 > church, parish or diocese site unless the school's site links that exact document as
 > its own. Cards cite only pages reachable from the site's own navigation: an email
-> archive or unlinked page is a lead, never a card source (user, 2026-11-27).
+> archive or unlinked page is a lead, never a card source (user, 2026-11-27). It applies from
+> Covenant Day on; Charlotte Christian's shipped email citations are a recorded exception.
 
 > **📜 A belief statement is copied whole and verbatim.** No summary, no softening, no
 > comment.

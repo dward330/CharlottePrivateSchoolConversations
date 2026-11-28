@@ -34,7 +34,8 @@
   by this rule.
 - **Label what you did not read as fact.** `INFERENCE:` for a pattern you worked out (a
   weekday counted from calendar entries). `LEAD:` for anything dated, superseded, found
-  only by search, or read by eye from an image.
+  only by search, read by eye from an image, or found only in an archive or on an unlinked
+  page.
 - **A 404 is a reason to look for the page's new address** in the site's own navigation,
   never a "not published" finding.
 - **Edit no repo file other than the research file. Run no git command.**
@@ -115,7 +116,8 @@ would most want answered: whether a parent must share the faith usually comes fi
 
 Places the first pass tends to miss: a public email or communications archive (a lead
 only, never a card source); the
-weekly announcements page; retreat and trip packets linked from announcements; directory
+weekly announcements page; retreat and trip packets linked from announcements (a lead if reached only from an
+email); directory
 profile pop-ups; the whole news board, not only the posts linked from a hub page; the
 school's publications shelf; job postings; class-of celebration documents.
 
