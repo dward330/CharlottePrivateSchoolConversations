@@ -395,7 +395,7 @@ names the commit the served build came from.
 
 ```
 # Home
-npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'Home page' '--sha' 'a99df2f7' '--card-links' 'off' '--interactive' 'the school cards and the language menu'
+npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'Home page' '--sha' 'b0bd3adb' '--card-links' 'off' '--interactive' 'the school cards and the language menu'
 
 # Compare Schools
 npm run design:capture -- '--page' '/compare/?topic=college-support&schools=cannon%2Ccarmel-christian%2Ccharlotte-catholic%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Ccovenant-day%2Cdavidson-day%2Cgaston-day%2Chickory-grove-christian%2Cprovidence-day' '--name' 'Compare Schools' '--out' <out> '--refs' 'every high school, College Support (the default Compare topic)' '--sha' 'ff5ab214' '--interactive' 'the topic and school pickers, row tips and the leader tint'
@@ -692,3 +692,9 @@ verified byte for byte): 14 research areas, 574 source documents, and 12 areas e
 Charlotte Christian and Hickory Grove. `app-css/` was unchanged and not re-written. The
 Home capture needs `--card-links off`, since the page has no cards; the command below
 now carries it.
+
+**Drift closed again 2026-11-27 (plan `cdfaithlife` Phase 2):** Covenant Day gained Faith &
+Spiritual Life, so *Home* was re-captured from branch commit `b0bd3adb` once the section's
+translations landed (18,732 bytes, verified byte for byte): Covenant Day now counts 11 research
+areas and the site 576 source documents. `app-css/` matched the build and was not re-written.
+`As Built - Index.md` gained rows for the two new Covenant Day files and a refresh note.

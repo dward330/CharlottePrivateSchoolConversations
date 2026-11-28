@@ -1,7 +1,7 @@
 ---
 name: cdfaithlife
 title: Add Covenant Day School to the Faith & Spiritual Life research area (third school), and bring the two shipped faith sections under the E-for-everyone rule
-status: english-done
+status: implemented
 phases: 2
 created: 2026-11-27
 branch: feat/cdfaithlife
@@ -1126,3 +1126,35 @@ byte for byte (`app-css/app-4.css` too):
 nine other `src/locales/*.json` catalogs (each still holds the old heading's translation);
 add the new design file to `As Built - Index.md` with the Home re-capture; correct `NOTES.md`'s "ten articles" to nine; the splice should drop
 exactly the 2 Charlotte Christian units; re-stamp the Clubs unit.
+
+### Phase 2 (2026-11-27)
+
+Run in a fresh window from the plan alone. No deviation from the Phase 2 steps except
+step 3, below.
+
+- **Splice:** 351 kept, 172 added, 2 dropped in every locale, and the 2 are exactly
+  `charlotte-christian:beliefs.articles[7]` (the removed article) and the old
+  `beliefs.headline`. The two later articles kept their translations, `at` now `[7]`/`[8]`.
+  The removed article's stamp is in no work file and no built overlay.
+- **Translation:** one translator per locale wrote a stamp→translation map in the
+  scratchpad, applied centrally by stamp: 172 filled, 0 other `t` changed, 0 empty. One fa
+  phrase was corrected centrally ("three-legged stool").
+- **Step 3 deviation:** `i18n_restamp.mjs` only carries spelling-only changes, so it cannot
+  carry the reworded Clubs subhead. That unit was spliced (`student-clubs`: 1010 kept, 1 added,
+  1 dropped per locale) and re-translated by hand from each locale's old rendering.
+- **Chrome:** `faith.statementOfFaith` translated in all nine catalogs.
+- **Checks:** `tsc -b` clean; `npm run build` green including `check:live` (red in Phase 1, by
+  design) and `check:runtime`; `check:fr`, `check:bidi`, `check:fa`, `check:hi`,
+  `check:dates`, `check:moneytext`, `check:chrome` pass; `check_figures.py` and
+  `check:sepdrift` pass for all nine; `check:digits` 1,557 new units, 0 flagged; `i18n:leaks`
+  area hits are two recorded keeps (es "Israel", it lowercase "school: Windy Gap" titles).
+- **Browser (real Chrome, headless):** Covenant Day 10 cards and 9 articles under the new
+  heading in es/fa/hi at 1280 and fa/ar at 390, overflow 0; Charlotte Christian 9 articles in
+  es and fa; Hickory Grove 9 cards. fa/ar ranges: 20 per page, 0 reversed by glyph position;
+  one ar `2026–27` wraps at its dash at 390 (the open site-wide wrap in NOTES.md).
+  `audit:daterender` (all nine) and `audit:moneyrender` (es, fr), full sweep, both clean.
+- **Claude Design:** *Home* re-captured at `b0bd3adb` (Covenant Day 11 areas, 576 documents)
+  and verified byte for byte; `As Built - Index.md` gained the two Covenant Day files and a
+  refresh note; `app-css/` matched the build.
+- **Phase 2 is not reviewed** (per `/implement`); the rollout note in NOTES.md lists the soft
+  spots for a native reviewer.
