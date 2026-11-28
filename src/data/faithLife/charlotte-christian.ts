@@ -9,8 +9,10 @@
 //
 // Kept out on purpose: every student's name, the personal details the staff
 // directory prints, trip prices and exact travel dates, the 2014 bylaws'
-// staff-and-board lifestyle statement, and every LEAD (a 2023-24 enrollment
-// packet, a 2007 magazine, an old preview-host page, the Viewbook images).
+// staff-and-board lifestyle statement, one article of the statement of faith
+// (user decision 2026-11-27: the site is rated E for everyone), and every LEAD
+// (a 2023-24 enrollment packet, a 2007 magazine, an old preview-host page, the
+// Viewbook images).
 //
 // `colors.gold` (the second accent) is a light blue from the same ramp as the
 // brand's royal blue. The school's colors are royal blue and white: it has no
@@ -338,7 +340,7 @@ export const charlotteChristian: FaithLifeProgram = {
 
   beliefs: {
     headline:
-      'The school’s mission, its five core values and its ten-point statement of faith, in the school’s own words.',
+      'The school’s mission, its five core values and its statement of faith, in the school’s own words.',
     mission:
       '“Charlotte Christian School is a Christ-centered, college preparatory school, equipping and developing students to effectively integrate Biblical truth and learning into their daily lives and to impact the culture for Christ.”',
     values: [
@@ -361,15 +363,15 @@ export const charlotteChristian: FaithLifeProgram = {
       '“We believe that sinners are justified by grace through faith on the basis of the finished work of Christ (His death and resurrection) and live this life by the power of God.”',
       '“We believe that God is calling people from the whole human race to believe in His Son, Jesus Christ, and to become members of His Body, the Church. Those who believe in Jesus as Lord and Savior enjoy the blessings of God and fellowship with each other in communities of faith until Jesus returns.”',
       '“We believe that man, male and female, was created in the image of God, but fell into sin through the disobedience of Adam and Eve. As a result of the fall, all people are born sinful and in need of salvation.”',
-      '“We believe that marriage is a covenantal relationship created by God for a man and a woman. Sexual intimacy is a gift from God and has its proper place only within the context of marriage.”',
       '“We believe that Jesus Christ, the Son of God, will return to renew the whole creation and to judge the living and the dead.”',
       '“We believe Christian education is a partnership between students, faculty and parents that provides an opportunity for students to learn and experience academics and co-curricular activities through a biblical worldview, in the presence of Christ-honoring faculty.”',
     ],
     sources: [BELIEVE, PROFILE, FAQS, CAROLINA_POINT],
     verify: [
-      'The 2014 bylaws linked from /about/leadership carry a different seven-point doctrinal statement and a staff-and-board lifestyle statement. By the plan\'s decision they stay in the research file only.',
+      'The 2014 bylaws linked from /about/leadership carry a different seven-point doctrinal statement and a staff-and-board lifestyle statement. By the plan\'s decision they are noted in the research file only, and the lifestyle statement\'s text is not recorded.',
       'The Appearance Code lists the five core values in a different order. Same five values.',
       'No public page gives a position on the sanctity of life, or says when the statement of faith was adopted.',
+      'The statement of faith on /about/what-we-believe has ten articles; the card prints nine. One is left out by the user’s decision of 2026-11-27: the site is rated E for everyone.',
     ],
   },
 

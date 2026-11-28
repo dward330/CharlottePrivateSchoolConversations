@@ -164,7 +164,7 @@ Base for every relative URL: `https://hgchristian.org`. A `files…/14485/<file>
 - No public copy of the Student Questionnaire or the pastor's Personal Recommendation form: not in any page link, any hosted PDF, the sitemap, or site search ("questionnaire" 0, "recommendation" 1: the international admissions page).
 
 **Gap 8 — a doctrinal statement of faith; Baptist Faith and Message; date**
-- **Still not found.** No page or hosted document carries a general doctrinal statement. The Baptist Faith and Message (2000) is named only inside the employment-linked Statement of Faith; no page links it. The only Statement of Faith link on the site is still the one in the employment application. The document's text carries no date; "(updated Spring, 2022)" is in the PDF's title metadata only (`pdfinfo` Title: "Statement of Faith - Marriage, Gender and Human Sexuality (updated Spring, 2022)"), so it stays a LEAD.
+- **Still not found.** No page or hosted document carries a general doctrinal statement. The Baptist Faith and Message (2000) is named only inside the employment-linked Statement of Faith; no page links it. The only Statement of Faith link on the site is still the one in the employment application. The document's text carries no date; "(updated Spring, 2022)" is in the PDF's title metadata only (`pdfinfo` Title), so it stays a LEAD.
 
 **Gap 9 — school staff with a faith title**
 - HS catalog: "If you have any questions, please feel free to contact the department heads or Tracey Bennett, the Director of Counseling. English- Sarah Beam sarahbeam@hgchristian.org Bible- Fernando Rogante fernandorogante@hgchristian.org …" So Fernando Rogante is published as the **Bible department head** (high school), email fernandorogante@hgchristian.org.

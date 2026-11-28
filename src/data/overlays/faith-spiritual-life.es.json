@@ -154,6 +154,7 @@
       "of": "e2630cbf",
       "at": [
         "charlotte-christian:chapel.entries[3].title",
+        "covenant-day:chapel.entries[2].title",
         "hickory-grove-christian:chapel.entries[2].title"
       ]
     },
@@ -245,7 +246,8 @@
       "t": "Lower School",
       "of": "0921a0ca",
       "at": [
-        "charlotte-christian:classes.groups[0].name"
+        "charlotte-christian:classes.groups[0].name",
+        "covenant-day:classes.groups[0].name"
       ]
     },
     {
@@ -259,7 +261,8 @@
       "t": "Junior Kindergarten",
       "of": "5ee6535c",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[0].label"
+        "charlotte-christian:classes.groups[0].rows[0].label",
+        "covenant-day:classes.groups[0].rows[0].label"
       ]
     },
     {
@@ -273,7 +276,8 @@
       "t": "Kindergarten",
       "of": "68541d89",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[1].label"
+        "charlotte-christian:classes.groups[0].rows[1].label",
+        "covenant-day:classes.groups[0].rows[1].label"
       ]
     },
     {
@@ -287,7 +291,8 @@
       "t": "Grado 1",
       "of": "20673dd7",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[2].label"
+        "charlotte-christian:classes.groups[0].rows[2].label",
+        "covenant-day:classes.groups[0].rows[2].label"
       ]
     },
     {
@@ -301,7 +306,8 @@
       "t": "Grado 2",
       "of": "21673f6a",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[3].label"
+        "charlotte-christian:classes.groups[0].rows[3].label",
+        "covenant-day:classes.groups[0].rows[3].label"
       ]
     },
     {
@@ -315,7 +321,8 @@
       "t": "Grado 3",
       "of": "226740fd",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[4].label"
+        "charlotte-christian:classes.groups[0].rows[4].label",
+        "covenant-day:classes.groups[0].rows[4].label"
       ]
     },
     {
@@ -329,7 +336,8 @@
       "t": "Grado 4",
       "of": "1b6735f8",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[5].label"
+        "charlotte-christian:classes.groups[0].rows[5].label",
+        "covenant-day:classes.groups[0].rows[5].label"
       ]
     },
     {
@@ -344,6 +352,7 @@
       "of": "15441234",
       "at": [
         "charlotte-christian:classes.groups[1].name",
+        "covenant-day:classes.groups[1].name",
         "hickory-grove-christian:classes.groups[1].name"
       ]
     },
@@ -429,6 +438,7 @@
       "of": "6b2cd411",
       "at": [
         "charlotte-christian:classes.groups[2].rows[0].label",
+        "covenant-day:classes.groups[2].rows[0].label",
         "hickory-grove-christian:classes.groups[2].rows[0].label"
       ]
     },
@@ -444,6 +454,7 @@
       "of": "15a0fcf0",
       "at": [
         "charlotte-christian:classes.groups[2].rows[1].label",
+        "covenant-day:classes.groups[2].rows[1].label",
         "hickory-grove-christian:classes.groups[2].rows[1].label"
       ]
     },
@@ -686,8 +697,8 @@
       ]
     },
     {
-      "t": "La misión de la escuela, sus cinco valores fundamentales y su declaración de fe de diez puntos, en las propias palabras de la escuela.",
-      "of": "ef08810f",
+      "t": "La misión de la escuela, sus cinco valores fundamentales y su declaración de fe, en las propias palabras de la escuela.",
+      "of": "8240389f",
       "at": [
         "charlotte-christian:beliefs.headline"
       ]
@@ -805,24 +816,17 @@
       ]
     },
     {
-      "t": "“Creemos que el matrimonio es una relación de pacto creada por Dios para un hombre y una mujer. La intimidad sexual es un don de Dios y tiene su lugar apropiado solo dentro del contexto del matrimonio”.",
-      "of": "e1e3a547",
-      "at": [
-        "charlotte-christian:beliefs.articles[7]"
-      ]
-    },
-    {
       "t": "“Creemos que Jesucristo, el Hijo de Dios, regresará para renovar toda la creación y para juzgar a los vivos y a los muertos”.",
       "of": "fe82762c",
       "at": [
-        "charlotte-christian:beliefs.articles[8]"
+        "charlotte-christian:beliefs.articles[7]"
       ]
     },
     {
       "t": "“Creemos que la educación cristiana es una alianza entre estudiantes, docentes y padres que brinda a los estudiantes la oportunidad de aprender y vivir lo académico y las actividades cocurriculares a través de una cosmovisión bíblica, en presencia de docentes que honran a Cristo”.",
       "of": "2ed3e072",
       "at": [
-        "charlotte-christian:beliefs.articles[9]"
+        "charlotte-christian:beliefs.articles[8]"
       ]
     },
     {
@@ -830,6 +834,7 @@
       "of": "2700b011",
       "at": [
         "charlotte-christian:families.headline",
+        "covenant-day:families.headline",
         "hickory-grove-christian:families.headline"
       ]
     },
@@ -838,6 +843,7 @@
       "of": "fbc4b036",
       "at": [
         "charlotte-christian:families.groups[0].name",
+        "covenant-day:families.groups[0].name",
         "hickory-grove-christian:families.groups[0].name"
       ]
     },
@@ -941,6 +947,7 @@
       "of": "6f74c399",
       "at": [
         "charlotte-christian:families.groups[1].rows[1].label",
+        "covenant-day:families.groups[1].rows[0].label",
         "hickory-grove-christian:families.groups[1].rows[0].label"
       ]
     },
@@ -998,6 +1005,7 @@
       "of": "bf92e599",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].label",
+        "covenant-day:families.groups[1].rows[2].label",
         "hickory-grove-christian:families.groups[1].rows[3].label"
       ]
     },
@@ -1006,6 +1014,7 @@
       "of": "889f792d",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].detail",
+        "covenant-day:families.groups[1].rows[2].detail",
         "hickory-grove-christian:families.groups[1].rows[3].detail"
       ]
     },
@@ -1392,6 +1401,1216 @@
       ]
     },
     {
+      "t": "Covenant Day School es “un ministerio de Christ Covenant Church (PCA)”, una iglesia presbiteriana en Matthews. Los estudiantes toman Biblia en cada grado, y la capilla se reúne cada semana.",
+      "of": "23c2be9b",
+      "at": [
+        "covenant-day:lead.strong"
+      ]
+    },
+    {
+      "t": "Su primer valor fundamental: “Nuestro fundamento se basa en la verdad absoluta de Dios y Su palabra, y cada aspecto de nuestra educación está impregnado de nuestra fe en Cristo”.",
+      "of": "d1299a3e",
+      "at": [
+        "covenant-day:lead.muted"
+      ]
+    },
+    {
+      "t": "una clase de Biblia en cada grado",
+      "of": "492b06d5",
+      "at": [
+        "covenant-day:stats[0].label"
+      ]
+    },
+    {
+      "t": "desde Junior Kindergarten hasta el grado 12",
+      "of": "13b7e07d",
+      "at": [
+        "covenant-day:stats[0].note"
+      ]
+    },
+    {
+      "t": "unidades de Biblia para graduarse",
+      "of": "57ba03d0",
+      "at": [
+        "covenant-day:stats[1].label"
+      ]
+    },
+    {
+      "t": "de 25 unidades en total, con un curso de Biblia cada año",
+      "of": "284c87ea",
+      "at": [
+        "covenant-day:stats[1].note"
+      ]
+    },
+    {
+      "t": "grados que necesitan la recomendación de un pastor",
+      "of": "981b62ad",
+      "at": [
+        "covenant-day:stats[2].label"
+      ]
+    },
+    {
+      "t": "y uno de los padres debe ser seguidor de Cristo",
+      "of": "eb854799",
+      "at": [
+        "covenant-day:stats[2].note"
+      ]
+    },
+    {
+      "t": "de descuento para miembros de la iglesia",
+      "of": "7a38fc6f",
+      "at": [
+        "covenant-day:stats[3].label"
+      ]
+    },
+    {
+      "t": "por estudiante, para los miembros de Christ Covenant Church",
+      "of": "95c905f4",
+      "at": [
+        "covenant-day:stats[3].note"
+      ]
+    },
+    {
+      "t": "La capilla se reúne cada semana, con los estudiantes agrupados por edad. Toda la escuela se reúne para la capilla en el Worship Center de la iglesia.",
+      "of": "5c96f345",
+      "at": [
+        "covenant-day:chapel.headline"
+      ]
+    },
+    {
+      "t": "Capilla semanal",
+      "of": "fcfc7d01",
+      "at": [
+        "covenant-day:chapel.entries[0].title"
+      ]
+    },
+    {
+      "t": "“Las capillas se separan por edad e incluyen cantos de alabanza, lectura de las Escrituras y un mensaje de oradores invitados, directores o docentes”.",
+      "of": "82ac3a1f",
+      "at": [
+        "covenant-day:chapel.entries[0].text"
+      ]
+    },
+    {
+      "t": "Los estudiantes de Junior Kindergarten y Kindergarten asisten a la capilla cada semana.",
+      "of": "b332a43f",
+      "at": [
+        "covenant-day:chapel.entries[0].muted"
+      ]
+    },
+    {
+      "t": "Capilla de la escuela intermedia",
+      "of": "c0cec2b7",
+      "at": [
+        "covenant-day:chapel.entries[1].title"
+      ]
+    },
+    {
+      "t": "La escuela incluye “capillas significativas” entre lo que reciben los estudiantes de la escuela intermedia. Los estudiantes de 8.º grado “pueden participar en el liderazgo de la capilla”.",
+      "of": "822fb708",
+      "at": [
+        "covenant-day:chapel.entries[1].text"
+      ]
+    },
+    {
+      "t": "Toda la escuela se reúne en el Worship Center de Christ Covenant Church para capillas y celebraciones. El calendario 2026–27 incluye la Convocation (ceremonia de apertura) en septiembre y una capilla de Navidad de toda la escuela en diciembre.",
+      "of": "da6ecf69",
+      "at": [
+        "covenant-day:chapel.entries[2].text"
+      ]
+    },
+    {
+      "t": "El Baccalaureate (un culto de graduación) para los estudiantes de último año es en mayo.",
+      "of": "c483d72a",
+      "at": [
+        "covenant-day:chapel.entries[2].muted"
+      ]
+    },
+    {
+      "t": "Bandas de alabanza",
+      "of": "921a16a5",
+      "at": [
+        "covenant-day:chapel.entries[3].title"
+      ]
+    },
+    {
+      "t": "El programa de música incluye una banda de alabanza de la escuela intermedia y una banda de alabanza de la secundaria.",
+      "of": "5baf859c",
+      "at": [
+        "covenant-day:chapel.entries[3].text"
+      ]
+    },
+    {
+      "t": "Worship Leadership",
+      "of": "a7167594",
+      "at": [
+        "covenant-day:chapel.entries[4].title"
+      ]
+    },
+    {
+      "t": "Un curso de bellas artes de preparación universitaria sobre cómo dirigir la alabanza.",
+      "of": "d572ab35",
+      "at": [
+        "covenant-day:chapel.entries[4].text"
+      ]
+    },
+    {
+      "t": "Los docentes también oran.",
+      "of": "fc959e1a",
+      "at": [
+        "covenant-day:chapel.note.strong"
+      ]
+    },
+    {
+      "t": "“Varias veces cada semana, los docentes se reúnen antes del homeroom (aula de inicio del día) para orar unos por otros y por sus estudiantes”.",
+      "of": "f01045f6",
+      "at": [
+        "covenant-day:chapel.note.text"
+      ]
+    },
+    {
+      "t": "Todos los docentes y el personal también “se reúnen cada trimestre para la alabanza y los devocionales”.",
+      "of": "0b50a801",
+      "at": [
+        "covenant-day:chapel.note.muted"
+      ]
+    },
+    {
+      "t": "Biblia se enseña en cada grado, desde Junior Kindergarten hasta el grado 12. Aquí está lo que estudia cada grado, y las unidades de Biblia que un estudiante de secundaria necesita para graduarse.",
+      "of": "07fae2b4",
+      "at": [
+        "covenant-day:classes.headline"
+      ]
+    },
+    {
+      "t": "La escuela dice: “Todas las materias se enseñan desde una cosmovisión bíblica”.",
+      "of": "5fa013e4",
+      "at": [
+        "covenant-day:classes.intro.text"
+      ]
+    },
+    {
+      "t": "Nombra la teología entre sus materias principales, junto a la literatura, las matemáticas, las ciencias, la historia y los idiomas extranjeros.",
+      "of": "1255cf40",
+      "at": [
+        "covenant-day:classes.intro.muted"
+      ]
+    },
+    {
+      "t": "Biblia todos los años",
+      "of": "374a99f3",
+      "at": [
+        "covenant-day:classes.groups[0].tally",
+        "covenant-day:classes.groups[1].tally"
+      ]
+    },
+    {
+      "t": "El amor de Dios, pasajes breves de las Escrituras para memorizar, y personajes clave de la Biblia y sus historias.",
+      "of": "2d7a4a1e",
+      "at": [
+        "covenant-day:classes.groups[0].rows[0].detail"
+      ]
+    },
+    {
+      "t": "La amistad con Dios y con los demás, pasajes breves de las Escrituras, y personajes de la Biblia y sus historias.",
+      "of": "8f04fb30",
+      "at": [
+        "covenant-day:classes.groups[0].rows[1].detail"
+      ]
+    },
+    {
+      "t": "De Abraham hasta el asentamiento en la Tierra Prometida, y luego de Jueces y Rut hasta el exilio y el regreso de Israel, con Salmos y Proverbios.",
+      "of": "10d44e97",
+      "at": [
+        "covenant-day:classes.groups[0].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Un repaso del Antiguo Testamento con el Jesse Tree (árbol de Isaí), y luego el Nuevo Testamento: la vida, la muerte y la resurrección de Jesús, la Iglesia primitiva y los viajes de Pablo.",
+      "of": "05e387fd",
+      "at": [
+        "covenant-day:classes.groups[0].rows[3].detail"
+      ]
+    },
+    {
+      "t": "De la Creación a la Tierra Prometida, terminando con un estudio de Efesios.",
+      "of": "21467ec2",
+      "at": [
+        "covenant-day:classes.groups[0].rows[4].detail"
+      ]
+    },
+    {
+      "t": "Filipenses, Jueces, Josué y los reyes de Israel, las fiestas judías y el fruto del Espíritu. La unidad Goodness Gorillas termina con un proyecto de servicio.",
+      "of": "4d244402",
+      "at": [
+        "covenant-day:classes.groups[0].rows[5].detail"
+      ]
+    },
+    {
+      "t": "Grado 5",
+      "of": "1c67378b",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].label"
+      ]
+    },
+    {
+      "t": "1 Pedro, los pactos del Antiguo Testamento, cómo se escribieron los Evangelios, y la vida y el ministerio de Jesús.",
+      "of": "2cde9e59",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].detail"
+      ]
+    },
+    {
+      "t": "Panorama del Antiguo Testamento",
+      "of": "58881131",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].label"
+      ]
+    },
+    {
+      "t": "Los estudiantes construyen una cosmovisión cristiana “a partir del estudio de las Escrituras”.",
+      "of": "d3ec9bd1",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Los Evangelios",
+      "of": "0d00fd21",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "La vida de Cristo, cómo estudiar la Biblia y “el hábito de los devocionales personales”.",
+      "of": "3a533ab0",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Hechos y las cartas de Pablo",
+      "of": "cd4f25d2",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].label"
+      ]
+    },
+    {
+      "t": "Aplicar las Escrituras a la vida diaria y aprender a compartir su fe.",
+      "of": "6e1f8ebf",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].detail"
+      ]
+    },
+    {
+      "t": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:classes.groups[2].name",
+        "hickory-grove-christian:classes.groups[2].name"
+      ]
+    },
+    {
+      "t": "3.5 unidades de Biblia para graduarse",
+      "of": "c1cb38dc",
+      "at": [
+        "covenant-day:classes.groups[2].tally"
+      ]
+    },
+    {
+      "t": "Preparación universitaria.",
+      "of": "4647f1f9",
+      "at": [
+        "covenant-day:classes.groups[2].rows[0].detail",
+        "covenant-day:classes.groups[2].rows[1].detail",
+        "covenant-day:classes.groups[2].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Christian Doctrine",
+      "of": "5eae87e2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[2].label"
+      ]
+    },
+    {
+      "t": "Engaging the Culture - An Introduction to Apologetics and Worldviews",
+      "of": "67c21bc2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].label"
+      ]
+    },
+    {
+      "t": "Preparación universitaria. La apologética es la defensa razonada de la fe cristiana.",
+      "of": "51683fa5",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].detail"
+      ]
+    },
+    {
+      "t": "Un curso de Biblia cada año.",
+      "of": "f258adb9",
+      "at": [
+        "covenant-day:classes.note.strong"
+      ]
+    },
+    {
+      "t": "Los estudiantes de secundaria “deben estar inscritos en un curso de Biblia cada año”. 3.5 unidades de Biblia cuentan para las 25 unidades necesarias para graduarse.",
+      "of": "891aa0ec",
+      "at": [
+        "covenant-day:classes.note.text"
+      ]
+    },
+    {
+      "t": "La escuela no dice qué curso vale la media unidad.",
+      "of": "d22ffe2c",
+      "at": [
+        "covenant-day:classes.note.muted"
+      ]
+    },
+    {
+      "t": "La escuela intermedia y la secundaria empiezan cada año con un retiro en Windy Gap. Los retiros están incluidos en la matrícula.",
+      "of": "bb6b6d32",
+      "at": [
+        "covenant-day:retreats.headline"
+      ]
+    },
+    {
+      "t": "Secundaria: Windy Gap",
+      "of": "763421ce",
+      "at": [
+        "covenant-day:retreats.cells[0].title"
+      ]
+    },
+    {
+      "t": "Estudiantes y docentes “se apartan del ajetreo de la vida para reconectarse, unos con otros y, sobre todo, con el Señor”. Los días incluyen juegos, sketches, tiempo en las cabañas y “tiempo en la Palabra de Dios”.",
+      "of": "6f21c994",
+      "at": [
+        "covenant-day:retreats.cells[0].text"
+      ]
+    },
+    {
+      "t": "Escuela intermedia: Windy Gap",
+      "of": "c710963f",
+      "at": [
+        "covenant-day:retreats.cells[1].title"
+      ]
+    },
+    {
+      "t": "Un viaje en agosto con amigos y docentes, “lleno de capillas, actividades de trabajo en equipo y tiempo libre”.",
+      "of": "e1328101",
+      "at": [
+        "covenant-day:retreats.cells[1].text"
+      ]
+    },
+    {
+      "t": "En la matrícula.",
+      "of": "8548f880",
+      "at": [
+        "covenant-day:retreats.note.strong"
+      ]
+    },
+    {
+      "t": "La matrícula incluye “los retiros escolares y las excursiones obligatorias”.",
+      "of": "ff3dc56d",
+      "at": [
+        "covenant-day:retreats.note.text"
+      ]
+    },
+    {
+      "t": "Los estudiantes de quinto grado también hacen un viaje con noche fuera a Fort Caswell, en la costa de Carolina del Norte, en la primavera.",
+      "of": "b82e004a",
+      "at": [
+        "covenant-day:retreats.note.muted"
+      ]
+    },
+    {
+      "t": "Dónde oran y hablan de la fe los estudiantes en grupos más pequeños: devocionales diarios en el homeroom, grupos de asesoría (advisory) semanales en la secundaria y estudios bíblicos dirigidos por estudiantes.",
+      "of": "9ea6941e",
+      "at": [
+        "covenant-day:groups.headline"
+      ]
+    },
+    {
+      "t": "Devocionales en el homeroom",
+      "of": "0a859b1a",
+      "at": [
+        "covenant-day:groups.entries[0].title"
+      ]
+    },
+    {
+      "t": "“Cada día, durante el homeroom, los docentes dirigen un devocional para los estudiantes”. Los estudiantes comparten peticiones de oración y oran unos por otros.",
+      "of": "20773faf",
+      "at": [
+        "covenant-day:groups.entries[0].text"
+      ]
+    },
+    {
+      "t": "Grupos de asesoría (advisory)",
+      "of": "22449f6a",
+      "at": [
+        "covenant-day:groups.entries[1].title"
+      ]
+    },
+    {
+      "t": "Grupos dirigidos por docentes se reúnen cada semana y “permanecen juntos todo el año”. Los estudiantes aprenden sobre el tema espiritual del año, informan sobre sus tareas escolares y oran juntos.",
+      "of": "5eb8da46",
+      "at": [
+        "covenant-day:groups.entries[1].text"
+      ]
+    },
+    {
+      "t": "A menudo los grupos se “guían por el estudio de un libro centrado en el crecimiento espiritual”.",
+      "of": "15e1cefe",
+      "at": [
+        "covenant-day:groups.entries[1].muted"
+      ]
+    },
+    {
+      "t": "Estudios bíblicos de estudiantes",
+      "of": "a84f0783",
+      "at": [
+        "covenant-day:groups.entries[2].title"
+      ]
+    },
+    {
+      "t": "Pequeños grupos de discipulado “por lo general organizados y dirigidos por estudiantes”. Se reúnen antes y después de clases.",
+      "of": "a70256dc",
+      "at": [
+        "covenant-day:groups.entries[2].text"
+      ]
+    },
+    {
+      "t": "La misión de la escuela, su resumen de creencias y las seis señales que espera ver en cada graduado, en las propias palabras de la escuela.",
+      "of": "12e23a6d",
+      "at": [
+        "covenant-day:beliefs.headline"
+      ]
+    },
+    {
+      "t": "“La misión de Covenant Day School es ayudar a la familia cristiana ofreciendo una educación marcada por una cosmovisión bíblica y la excelencia académica, para que los estudiantes estén preparados para ser sal y luz para la gloria de Dios”.",
+      "of": "1f42aa5c",
+      "at": [
+        "covenant-day:beliefs.mission"
+      ]
+    },
+    {
+      "t": "Seguir a Cristo",
+      "of": "1542ffa9",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].name"
+      ]
+    },
+    {
+      "t": "Nuestros graduados reconocen que su vida espiritual y su vida intelectual diarias son inseparables y complementarias, con Cristo en el centro.",
+      "of": "eabcba41",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].text"
+      ]
+    },
+    {
+      "t": "Servir a los demás",
+      "of": "51090807",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].name"
+      ]
+    },
+    {
+      "t": "Nuestros graduados demuestran amor por Dios, por la iglesia como cuerpo de Cristo y por todas las personas, afirmando a los demás como portadores de la imagen de Dios.",
+      "of": "890a3b11",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].text"
+      ]
+    },
+    {
+      "t": "Buscar la sabiduría",
+      "of": "5323c7ee",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].name"
+      ]
+    },
+    {
+      "t": "Nuestros graduados siguen buscando la sabiduría y el conocimiento a lo largo de su vida.",
+      "of": "71b1787b",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].text"
+      ]
+    },
+    {
+      "t": "Comunicarse con eficacia",
+      "of": "162ed124",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].name"
+      ]
+    },
+    {
+      "t": "Nuestros graduados se comunican con confianza y eficacia en los lenguajes escrito, oral, matemático y tecnológico.",
+      "of": "be6a43ca",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].text"
+      ]
+    },
+    {
+      "t": "Aprender con propósito",
+      "of": "d0764395",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].name"
+      ]
+    },
+    {
+      "t": "Nuestros graduados tienen pasión por aprender y las herramientas académicas necesarias para prosperar al dar con propósito los siguientes pasos en su vida.",
+      "of": "abfb0fba",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].text"
+      ]
+    },
+    {
+      "t": "Participar en la cultura",
+      "of": "99d65c43",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].name"
+      ]
+    },
+    {
+      "t": "Como embajadores de Cristo, nuestros graduados están preparados para representarlo bien en la universidad, en lo académico, el deporte o las bellas artes.",
+      "of": "c7c8acb6",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].text"
+      ]
+    },
+    {
+      "t": "Un ministerio de Christ Covenant Church (PCA).",
+      "of": "5e7cc85f",
+      "at": [
+        "covenant-day:beliefs.note.strong"
+      ]
+    },
+    {
+      "t": "La iglesia es “una congregación de la Presbyterian Church in America”. La escuela dice que “se guía por las mismas convicciones doctrinales”, que se encuentran en la Westminster Confession of Faith and Catechisms (Confesión de Fe y Catecismos de Westminster).",
+      "of": "f5988533",
+      "at": [
+        "covenant-day:beliefs.note.text"
+      ]
+    },
+    {
+      "t": "La escuela también dice que “muchas, de hecho la mayoría, de nuestras familias provienen de otras tradiciones eclesiásticas”.",
+      "of": "2fe2787a",
+      "at": [
+        "covenant-day:beliefs.note.muted"
+      ]
+    },
+    {
+      "t": "“Creemos que la Biblia es la palabra escrita de Dios, inspirada por el Espíritu Santo y sin error en los manuscritos originales. La Biblia es la revelación de la verdad de Dios y es infalible y tiene autoridad en todos los asuntos de fe y práctica”.",
+      "of": "d6badf17",
+      "at": [
+        "covenant-day:beliefs.articles[0]"
+      ]
+    },
+    {
+      "t": "“Creemos en la Santísima Trinidad. Hay un solo Dios, que existe eternamente en tres personas: el Padre, el Hijo y el Espíritu Santo”.",
+      "of": "b9820e07",
+      "at": [
+        "covenant-day:beliefs.articles[1]"
+      ]
+    },
+    {
+      "t": "“Creemos que todos son pecadores y totalmente incapaces de salvarse a sí mismos del desagrado de Dios, excepto por Su misericordia”.",
+      "of": "6b8fc3e2",
+      "at": [
+        "covenant-day:beliefs.articles[2]"
+      ]
+    },
+    {
+      "t": "“Creemos que la salvación es solo de Dios, ya que Él elige soberanamente a quienes salvará. Creemos que Su elección se basa en Su gracia, no en ningún mérito humano individual ni en una fe prevista”.",
+      "of": "a457c453",
+      "at": [
+        "covenant-day:beliefs.articles[3]"
+      ]
+    },
+    {
+      "t": "“Creemos que Jesucristo es el Hijo eterno de Dios, quien mediante Su vida perfecta y Su muerte sacrificial expió los pecados de todos los que confíen solo en Él para la salvación”.",
+      "of": "5ea0229c",
+      "at": [
+        "covenant-day:beliefs.articles[4]"
+      ]
+    },
+    {
+      "t": "“Creemos que Dios es misericordioso y fiel a Su pueblo, no solo como individuos, sino como familias en generaciones sucesivas, según Sus promesas del pacto”.",
+      "of": "427d3702",
+      "at": [
+        "covenant-day:beliefs.articles[5]"
+      ]
+    },
+    {
+      "t": "“Creemos que el Espíritu Santo mora en el pueblo de Dios y le da la fuerza y la sabiduría para confiar en Cristo y seguirlo”.",
+      "of": "5cb7ec67",
+      "at": [
+        "covenant-day:beliefs.articles[6]"
+      ]
+    },
+    {
+      "t": "“Creemos que Jesús regresará, en cuerpo y de forma visible, para juzgar a toda la humanidad y recibir a Su pueblo consigo”.",
+      "of": "baf53ecb",
+      "at": [
+        "covenant-day:beliefs.articles[7]"
+      ]
+    },
+    {
+      "t": "“Creemos que todos los aspectos de nuestra vida deben vivirse para la gloria de Dios bajo el señorío de Jesucristo”.",
+      "of": "a4295249",
+      "at": [
+        "covenant-day:beliefs.articles[8]"
+      ]
+    },
+    {
+      "t": "Uno de los padres cristiano",
+      "of": "595d7fd9",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "La escuela se asocia con familias en las que “al menos uno de los padres es seguidor de Cristo y participa activamente en una iglesia cristiana local”.",
+      "of": "e678adc6",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Su testimonio cristiano",
+      "of": "8350c3fb",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "En la entrevista con los padres, “se pedirá a los padres que hablen de su testimonio cristiano”.",
+      "of": "77708e03",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Recomendación de un pastor",
+      "of": "b1d5c047",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].label"
+      ]
+    },
+    {
+      "t": "Obligatoria para los grados JK–11. Si usted no conoce a su pastor principal, el formulario puede venir de “otro pastor del equipo, un anciano, un diácono o un líder de ministerio que conozca bien a su familia”.",
+      "of": "42ca6213",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].detail"
+      ]
+    },
+    {
+      "t": "Participación en la iglesia",
+      "of": "7ed8a2ab",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].label"
+      ]
+    },
+    {
+      "t": "Los criterios de admisión incluyen “la participación activa de la familia en una iglesia local”.",
+      "of": "216d530b",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].detail"
+      ]
+    },
+    {
+      "t": "La fe del propio estudiante",
+      "of": "7203be33",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].label"
+      ]
+    },
+    {
+      "t": "Las páginas públicas no dicen si un estudiante debe profesar la fe o responder preguntas sobre la fe.",
+      "of": "bb120d18",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].detail"
+      ]
+    },
+    {
+      "t": "Firmar las creencias de la escuela",
+      "of": "5a5632ef",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].label"
+      ]
+    },
+    {
+      "t": "Las páginas públicas no dicen si los padres deben firmar o afirmar el resumen de creencias.",
+      "of": "d8cf3e3c",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].detail"
+      ]
+    },
+    {
+      "t": "Una vez que inscribe a su hijo",
+      "of": "f37bf47d",
+      "at": [
+        "covenant-day:families.groups[1].name"
+      ]
+    },
+    {
+      "t": "Los estudiantes de secundaria “deben estar inscritos en un curso de Biblia cada año”.",
+      "of": "e6604454",
+      "at": [
+        "covenant-day:families.groups[1].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Descuento para miembros de la iglesia",
+      "of": "a9b9d842",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "“Hay un descuento de $400 para cada estudiante de los grados JK-12 cuyos padres sean miembros de Christ Covenant Church”. La familia “debe afirmar la declaración de membresía de la iglesia que forma parte del proceso de inscripción en línea”.",
+      "of": "4d089fa4",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Un acuerdo familiar",
+      "of": "c0c10560",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].label"
+      ]
+    },
+    {
+      "t": "En las páginas públicas de la escuela no hay ningún acuerdo familiar, manual ni código de conducta.",
+      "of": "f7c794f7",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].detail"
+      ]
+    },
+    {
+      "t": "Para el personal y los miembros de la junta",
+      "of": "6e6ff958",
+      "at": [
+        "covenant-day:families.groups[2].name"
+      ]
+    },
+    {
+      "t": "Personal",
+      "of": "0d19a971",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].label"
+      ]
+    },
+    {
+      "t": "Todo el personal “debe suscribir la fe reformada y esa doctrina tal como se expone en la Westminster Confession of Faith”.",
+      "of": "55024a8c",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].detail"
+      ]
+    },
+    {
+      "t": "Junta directiva",
+      "of": "24f7a214",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].label"
+      ]
+    },
+    {
+      "t": "La Session (el consejo de ancianos) de Christ Covenant Church nombra a la Board of Trustees (junta directiva).",
+      "of": "5b5ebd15",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].detail"
+      ]
+    },
+    {
+      "t": "Un “taburete de tres patas”.",
+      "of": "f28bf5c3",
+      "at": [
+        "covenant-day:families.note.strong"
+      ]
+    },
+    {
+      "t": "La escuela quiere que “la iglesia, la familia y la escuela estén todas en la misma sintonía”.",
+      "of": "a3082e35",
+      "at": [
+        "covenant-day:families.note.text"
+      ]
+    },
+    {
+      "t": "El servicio crece con la edad, desde tareas en el campus en la primaria hasta un equipo de secundaria que construye casas con contenedores de carga. Los viajes misioneros han ido a España, Haití, Belice y Dakota del Sur.",
+      "of": "3bee85e2",
+      "at": [
+        "covenant-day:service.headline"
+      ]
+    },
+    {
+      "t": "Servicio en la primaria",
+      "of": "25664f55",
+      "at": [
+        "covenant-day:service.entries[0].title"
+      ]
+    },
+    {
+      "t": "En el campus, los estudiantes ayudan con la patrulla de la bandera y de seguridad, y recogen materiales reciclables. Los proyectos también incluyen cajas para Operation Christmas Child, visitas a una residencia asistida cercana y apoyo al Matthews HELP Center.",
+      "of": "9150b739",
+      "at": [
+        "covenant-day:service.entries[0].text"
+      ]
+    },
+    {
+      "t": "Goodness Gorillas",
+      "of": "88c271d6",
+      "at": [
+        "covenant-day:service.entries[1].title"
+      ]
+    },
+    {
+      "t": "Los estudiantes de cuarto grado “sirven en casi veinte lugares distintos”. Con esto termina su unidad de Biblia sobre el fruto del Espíritu.",
+      "of": "df4da813",
+      "at": [
+        "covenant-day:service.entries[1].text"
+      ]
+    },
+    {
+      "t": "Semana de Misiones",
+      "of": "63913b46",
+      "at": [
+        "covenant-day:service.entries[2].title"
+      ]
+    },
+    {
+      "t": "Los estudiantes “escuchan a misioneros y aprenden sobre culturas de todo el mundo”.",
+      "of": "ac2a7081",
+      "at": [
+        "covenant-day:service.entries[2].text"
+      ]
+    },
+    {
+      "t": "Cae en febrero en el calendario 2026–27.",
+      "of": "7a8819bd",
+      "at": [
+        "covenant-day:service.entries[2].muted"
+      ]
+    },
+    {
+      "t": "Doulos Days",
+      "of": "54212ef2",
+      "at": [
+        "covenant-day:service.entries[3].title"
+      ]
+    },
+    {
+      "t": "Dos veces al año, los estudiantes de la escuela intermedia pasan un día sirviendo a ministerios locales, organizaciones sin fines de lucro y vecinos, con días de servicio para cada grado. El concurso Penny Wars de toda la escuela ayuda a pagar los proyectos.",
+      "of": "4086e1e5",
+      "at": [
+        "covenant-day:service.entries[3].text"
+      ]
+    },
+    {
+      "t": "ContainIt",
+      "of": "a86ed426",
+      "at": [
+        "covenant-day:service.entries[4].title"
+      ]
+    },
+    {
+      "t": "Los estudiantes convierten contenedores de carga usados en viviendas para adolescentes de Pine Ridge Reservation, en Dakota del Sur. “Su visión es proporcionar vivienda a más de 30 adolescentes”.",
+      "of": "37d529fc",
+      "at": [
+        "covenant-day:service.entries[4].text"
+      ]
+    },
+    {
+      "t": "Servicio en la secundaria",
+      "of": "bbb64d98",
+      "at": [
+        "covenant-day:service.entries[5].title"
+      ]
+    },
+    {
+      "t": "Proyectos del Beta Club, tutorías semanales a la hora del almuerzo en escuelas locales y servicio con aliados como Matthews Habitat for Humanity, Alexander Children’s Home y Love INC.",
+      "of": "73e133dd",
+      "at": [
+        "covenant-day:service.entries[5].text"
+      ]
+    },
+    {
+      "t": "Viajes misioneros",
+      "of": "c39f4af5",
+      "at": [
+        "covenant-day:service.entries[6].title"
+      ]
+    },
+    {
+      "t": "Los estudiantes “han participado en viajes misioneros patrocinados por la escuela a España, Haití, Belice y Pine Ridge Reservation, en Dakota del Sur”.",
+      "of": "d3f89323",
+      "at": [
+        "covenant-day:service.entries[6].text"
+      ]
+    },
+    {
+      "t": "La escuela no indica los años de los viajes ni un viaje para 2026–27.",
+      "of": "92015a56",
+      "at": [
+        "covenant-day:service.entries[6].muted"
+      ]
+    },
+    {
+      "t": "No se publican horas.",
+      "of": "36413563",
+      "at": [
+        "covenant-day:service.note.strong"
+      ]
+    },
+    {
+      "t": "La escuela no publica ningún requisito de horas de servicio. Su plan sigue el orden de la Biblia de ser “testigos de Cristo ante el mundo, comenzando en Jerusalén, luego en Judea y Samaria, y luego hasta los confines de la tierra”.",
+      "of": "3d0a07e0",
+      "at": [
+        "covenant-day:service.note.text"
+      ]
+    },
+    {
+      "t": "Las personas que dirigen la vida espiritual en Covenant Day, con el correo electrónico que cada una indica en el directorio de la escuela.",
+      "of": "ea19c975",
+      "at": [
+        "covenant-day:staff.headline"
+      ]
+    },
+    {
+      "t": "Director/a de Formación Espiritual",
+      "of": "5a49804b",
+      "at": [
+        "covenant-day:staff.people[0].role"
+      ]
+    },
+    {
+      "t": "Capellán/a y docente de Biblia de la secundaria",
+      "of": "fa942adc",
+      "at": [
+        "covenant-day:staff.people[1].role"
+      ]
+    },
+    {
+      "t": "Docente de Biblia de la secundaria",
+      "of": "9b3385dc",
+      "at": [
+        "covenant-day:staff.people[2].role",
+        "covenant-day:staff.people[3].role"
+      ]
+    },
+    {
+      "t": "Docente de Biblia e Historia de la secundaria",
+      "of": "bd41d312",
+      "at": [
+        "covenant-day:staff.people[4].role"
+      ]
+    },
+    {
+      "t": "Docente de Biblia de la escuela intermedia",
+      "of": "285b6f95",
+      "at": [
+        "covenant-day:staff.people[5].role",
+        "covenant-day:staff.people[6].role"
+      ]
+    },
+    {
+      "t": "Docente de alabanza y coro",
+      "of": "0b327bf1",
+      "at": [
+        "covenant-day:staff.people[7].role"
+      ]
+    },
+    {
+      "t": "Director/a de Cultura Estudiantil",
+      "of": "cc3166f6",
+      "at": [
+        "covenant-day:staff.people[8].role"
+      ]
+    },
+    {
+      "t": "Director/a de la escuela",
+      "of": "43515cb8",
+      "at": [
+        "covenant-day:staff.people[9].role"
+      ]
+    },
+    {
+      "t": "La esperanza del/de la director/a de la escuela:",
+      "of": "f0bf1295",
+      "at": [
+        "covenant-day:staff.note.strong"
+      ]
+    },
+    {
+      "t": "“Que los estudiantes sean transformados y se conviertan en discípulos de Cristo, anclados en su fe para que sepan lo que creen y por qué lo creen”.",
+      "of": "4ab1d1f7",
+      "at": [
+        "covenant-day:staff.note.muted"
+      ]
+    },
+    {
+      "t": "Grupos de oración semanales para mamás y para papás, y formas en que los abuelos y los miembros del Booster Club pueden orar por la escuela.",
+      "of": "85546abe",
+      "at": [
+        "covenant-day:parents.headline"
+      ]
+    },
+    {
+      "t": "Moms in Prayer",
+      "of": "58172703",
+      "at": [
+        "covenant-day:parents.entries[0].title"
+      ]
+    },
+    {
+      "t": "“Los grupos de Moms in Prayer de Covenant Day School se reúnen cada semana durante el año escolar”. Las mamás oran juntas por la comunidad escolar.",
+      "of": "97779ab2",
+      "at": [
+        "covenant-day:parents.entries[0].text"
+      ]
+    },
+    {
+      "t": "Dads Prayer Gathering",
+      "of": "16611963",
+      "at": [
+        "covenant-day:parents.entries[1].title"
+      ]
+    },
+    {
+      "t": "“Cada viernes, los papás de CDS se reúnen en el kiosco de las canchas de tenis para un tiempo de compañerismo y oración”.",
+      "of": "02cf8ea7",
+      "at": [
+        "covenant-day:parents.entries[1].text"
+      ]
+    },
+    {
+      "t": "Caminata de oración de los abuelos",
+      "of": "cd7baf66",
+      "at": [
+        "covenant-day:parents.entries[2].title"
+      ]
+    },
+    {
+      "t": "El calendario 2026–27 incluye una caminata de oración de los abuelos en agosto.",
+      "of": "138bfc13",
+      "at": [
+        "covenant-day:parents.entries[2].text"
+      ]
+    },
+    {
+      "t": "Compañeros de oración del Booster Club",
+      "of": "7d90811b",
+      "at": [
+        "covenant-day:parents.entries[3].title"
+      ]
+    },
+    {
+      "t": "Los miembros del Booster Club (club de apoyo deportivo) pueden inscribirse en una “alianza de oración”: un entrenador y un atleta por quienes orar todo el año.",
+      "of": "601d121c",
+      "at": [
+        "covenant-day:parents.entries[3].text"
+      ]
+    },
+    {
+      "t": "Preguntas que las páginas públicas de la escuela dejan abiertas, para llevar a una visita o a una entrevista.",
+      "of": "0a5de2b7",
+      "at": [
+        "covenant-day:ask.headline"
+      ]
+    },
+    {
+      "t": "¿Qué día y a qué hora es la capilla de cada división, y pueden asistir los padres?",
+      "of": "3661c13c",
+      "at": [
+        "covenant-day:ask.questions[0]"
+      ]
+    },
+    {
+      "t": "¿Es obligatoria la asistencia a la capilla?",
+      "of": "609e96bd",
+      "at": [
+        "covenant-day:ask.questions[1]"
+      ]
+    },
+    {
+      "t": "¿Debe un estudiante compartir la fe de la familia, o responder preguntas sobre la fe, para ser admitido?",
+      "of": "0f9e8115",
+      "at": [
+        "covenant-day:ask.questions[2]"
+      ]
+    },
+    {
+      "t": "¿Los padres firman o afirman el resumen de creencias de la escuela, o algún acuerdo familiar?",
+      "of": "5a4311de",
+      "at": [
+        "covenant-day:ask.questions[3]"
+      ]
+    },
+    {
+      "t": "¿A quién se entrevista en cada grado: solo a los padres, o también al estudiante?",
+      "of": "589c35ab",
+      "at": [
+        "covenant-day:ask.questions[4]"
+      ]
+    },
+    {
+      "t": "¿Qué curso de Biblia de la secundaria vale la media unidad, y qué toma un estudiante que entra en los grados 10–12?",
+      "of": "ea1a7b04",
+      "at": [
+        "covenant-day:ask.questions[5]"
+      ]
+    },
+    {
+      "t": "¿Qué traducción de la Biblia usan las clases?",
+      "of": "5b85035c",
+      "at": [
+        "covenant-day:ask.questions[6]"
+      ]
+    },
+    {
+      "t": "¿Deben ir a Windy Gap todos los estudiantes de la escuela intermedia y la secundaria, y quién lo dirige?",
+      "of": "24b56828",
+      "at": [
+        "covenant-day:ask.questions[7]"
+      ]
+    },
+    {
+      "t": "¿El viaje de primavera de 5.º grado es a Fort Caswell o a Kanuga? Las páginas de la escuela nombran ambos.",
+      "of": "27868a9b",
+      "at": [
+        "covenant-day:ask.questions[8]"
+      ]
+    },
+    {
+      "t": "¿Hay viajes misioneros previstos para 2026–27, y para qué grados?",
+      "of": "1e1cac6a",
+      "at": [
+        "covenant-day:ask.questions[9]"
+      ]
+    },
+    {
+      "t": "¿Hay estudiantes de secundaria que sirvan como capellanes estudiantiles?",
+      "of": "b50a7916",
+      "at": [
+        "covenant-day:ask.questions[10]"
+      ]
+    },
+    {
+      "t": "¿Cuándo y dónde se reúne Moms in Prayer?",
+      "of": "7534542a",
+      "at": [
+        "covenant-day:ask.questions[11]"
+      ]
+    },
+    {
+      "t": "27 de noviembre de 2026",
+      "of": "d9eeac50",
+      "at": [
+        "covenant-day:ask.asOf"
+      ]
+    },
+    {
       "t": "Hickory Grove Christian School es “un ministerio de Hickory Grove Baptist Church”. La iglesia la fundó en 1995. Los estudiantes toman Biblia como clase principal cada año, y los pastores de la iglesia enseñan en la capilla.",
       "of": "4b2d51ae",
       "at": [
@@ -1725,13 +2944,6 @@
       "of": "120cc5ee",
       "at": [
         "hickory-grove-christian:classes.groups[1].rows[3].detail"
-      ]
-    },
-    {
-      "t": "High School",
-      "of": "8ab05d33",
-      "at": [
-        "hickory-grove-christian:classes.groups[2].name"
       ]
     },
     {

@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**13 schools × 14 research areas**, 587 ingested research documents.
+**13 schools × 14 research areas**, 589 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -61,7 +61,7 @@ exists yet and **the section does not render at all** for that school.
 | Course Offerings | `course-offerings` | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 4 | 2 | 1 | 3 | 3 | 2 |
 | Global Exposure | `international-travel` | 2 | — | — | 2 | 2 | 2 | — | — | 2 | — | — | 5 | — |
 | Learning Support & Student Services | `learning-support` | 2 | — | 2 | — | 2 | — | — | — | 2 | — | 1 | — | — |
-| Faith & Spiritual Life | `faith-spiritual-life` | — | — | — | 2 | — | — | — | — | — | — | 2 | — | — |
+| Faith & Spiritual Life | `faith-spiritual-life` | — | — | — | 2 | — | — | — | 2 | — | — | 2 | — | — |
 | Student Clubs | `student-clubs` | 11 | 2 | 2 | 10 | 12 | 9 | 3 | 6 | 11 | 2 | 1 | 9 | 4 |
 | The Arts | `the-arts` | 9 | 2 | 1 | 9 | 9 | 7 | 2 | 8 | 7 | 1 | 3 | 7 | 2 |
 | Sports | `sports` | 19 | 6 | 6 | 20 | 20 | 20 | 2 | 19 | 21 | 5 | 6 | 22 | 2 |
@@ -111,7 +111,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Faith & Spiritual Life Research (2026) | 2/13 | 2 |
+| `redesign-research` | Faith & Spiritual Life Research (2026) | 3/13 | 2 |
 
 ### Student Clubs `student-clubs`
 
@@ -1142,6 +1142,9 @@ lacking it.
 
 **Belief statements are verbatim and whole.** `beliefs.articles` holds the statement
 of faith one article per string, char-for-char, with no summary and no comment.
+One exception: the site is rated E for everyone (user, 2026-11-27), so a school's
+statement on human sexuality is never recorded or printed, even inside a statement
+otherwise quoted whole.
 `beliefs.tenets` is a list of beliefs the school gives in its own words and is never
 a statement of faith: one whole verbatim item per string, rendered unnumbered.
 `beliefs.outcomes` holds the outcomes a school hopes for, each a name and its line.
@@ -1156,7 +1159,7 @@ spoke in chapel is "an Upper School student leader". `staff.people[].email` come
 only from the school's own directory. Trip prices and exact travel dates stay out
 (season and year only), and a dated or third-hand document is a lead, never a fact.
 
-**Schools with data:** 2/13 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-country-day`, `charlotte-latin`, `charlotte-prep`, `covenant-day`, `davidson-day`, `gaston-day`, `providence-day`, `trinity-episcopal`
+**Schools with data:** 3/13 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-country-day`, `charlotte-latin`, `charlotte-prep`, `davidson-day`, `gaston-day`, `providence-day`, `trinity-episcopal`
 
 <details><summary>Types defined in <code>faithLife.ts</code> (19)</summary>
 

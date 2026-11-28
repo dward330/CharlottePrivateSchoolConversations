@@ -13,7 +13,10 @@
 ## Rules for both passes
 
 - **Official sources only.** The school's own site, documents it hosts or links as its
-  own, its public email archive and its calendar. No third-party page. No church, parish,
+  own, and its calendar. No third-party page. A public email archive, an unlinked page or
+  a document reached only from one is a **LEAD** (user, 2026-11-27): record it, use it to
+  find the menu page that states the fact, and mark anything found only there `LEAD`,
+  since a card never cites it. No church, parish,
   diocese or denomination site unless the school's site links that exact document as its
   own. A search result is a way to find a school page, never a source.
 - **Confirm the school** by name and street address on its own pages, and record the line.
@@ -25,6 +28,10 @@
 - **Never record a personal staff detail**: a personal email address, a place of worship,
   a staff member's children or their grades. A directory pop-up often prints all three.
 - **No trip prices and no exact travel dates.** Season and year only.
+- **The site is rated E for everyone** (user, 2026-11-27). Never record, quote or
+  summarize a school's statement on human sexuality, even inside a statement of faith you
+  are otherwise copying whole. Record only that further text exists and is not recorded,
+  by this rule.
 - **Label what you did not read as fact.** `INFERENCE:` for a pattern you worked out (a
   weekday counted from calendar entries). `LEAD:` for anything dated, superseded, found
   only by search, or read by eye from an image.
@@ -47,8 +54,8 @@
   - calendar by month: `/fs/elements/<id>?cal_date=YYYY-MM-01`
   - news board pages: `/fs/elements/<id>?start_row=N`
   - a public email archive, if the school has one (`/email-archive`), and its messages at
-    `/fs/comms-manager/view/<id>`. Charlotte Christian's weekly chapel recaps were here,
-    and the first pass missed it.
+    `/fs/comms-manager/view/<id>`, **as leads only**: they point to facts, but a card never
+    cites them (user, 2026-11-27). Charlotte Christian's weekly chapel recaps were here.
   - linked documents: `/fs/resource-manager/view/<id>`
 - **Other platforms**: start from the site's own navigation and footer, then its search
   box, then a site-restricted web search to find pages the navigation hides.
@@ -106,7 +113,8 @@ Take each item under "Not found", "Could not read" and each `INFERENCE:` in the 
 file, and try to close it from public official pages. Rank the gaps by what a parent
 would most want answered: whether a parent must share the faith usually comes first.
 
-Places the first pass tends to miss: a public email or communications archive; the
+Places the first pass tends to miss: a public email or communications archive (a lead
+only, never a card source); the
 weekly announcements page; retreat and trip packets linked from announcements; directory
 profile pop-ups; the whole news board, not only the posts linked from a hub page; the
 school's publications shelf; job postings; class-of celebration documents.

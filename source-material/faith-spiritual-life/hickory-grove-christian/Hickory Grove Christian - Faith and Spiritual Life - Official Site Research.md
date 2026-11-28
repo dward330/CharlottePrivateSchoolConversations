@@ -25,14 +25,11 @@ including the source's own typos (kept as printed and marked [sic] only where no
 **Re-check.** Fourteen key quotes were re-checked against the raw downloads (whitespace-normalized
 substring match) before this file was finished: the "As a ministry of Hickory Grove Baptist Church"
 sentence; "13 Years / of Bible as a core class"; "10 Chapels / each school year"; the chapel page's
-"Once a month" sentence; the middle school "One Thursday a month" sentence; the Statement of Faith
-"Application:" paragraph; the Statement of Faith "Authority:" paragraph; the pastor's
+"Once a month" sentence; the middle school "One Thursday a month" sentence; the pastor's
 "Personal Recommendation form (from student/family's pastor)" line; the Family Interview line; the
 employee "Committed Christian in agreement with the school's Statement of Faith." line; "Bible  4";
-the Global Missions certificate church-member requirement; the Honor Dress chapel sentence; and the
-"Females must present as females" sentence. All fourteen matched. The same check was run on 32
-further quotes in this file (46 in all, all matched), and each of the 17 numbered Statement of Faith
-items below was matched against the PDF text: all 17 matched.
+the Global Missions certificate church-member requirement; and the Honor Dress chapel sentence.
+All eleven matched. The same check was run on 32 further quotes in this file, all matched.
 
 **Names.** No student is named in this file. Sources checked for student names: the 17 chapel,
 Lions Connect and Wednesday-devotion handouts carry adult speakers only (no student name found in a
@@ -99,7 +96,7 @@ A `files.smartsites.parentsquare.com/14485/<file>` path is a document the school
 
 | Link on the school site → file | Document | Date on it |
 |---|---|---|
-| Employment application (Fillout 9UiY6EK35fus on /employment-application) → `https://drive.google.com/file/d/1mDowLVWj8E9ASHkSDCAWp3QHftdd9UMy/view` | "Statement of Faith: Marriage, Gender, and Human Sexuality" (3 pp.) | No date in the text. **LEAD:** the PDF's internal title reads "(updated Spring, 2022)". Linked live as "the HGCS Statement of Faith". |
+| Employment application (Fillout 9UiY6EK35fus on /employment-application) → `https://drive.google.com/file/d/1mDowLVWj8E9ASHkSDCAWp3QHftdd9UMy/view` | An employment-linked document the site calls "the HGCS Statement of Faith" (3 pp.); its text is not recorded (user decision 2026-11-27: the site is rated E for everyone) | No date in the text. **LEAD:** the PDF's internal title reads "(updated Spring, 2022)". Linked live as "the HGCS Statement of Faith". |
 | /admissions → `newfamilyadmissionschecklistesnodate.pdf` | New Elementary Families Admissions Checklist | "Revised 11/17/25"; listed on /admissions as 2026-10-08 |
 | /admissions → `newfamilyadmissionschecklistmhsnodate.pdf` | New Middle and High School Families Admissions Checklist | "Revised 11/17/25"; listed 2026-10-08 |
 | /middle-school-home, /high-school-home → `hgcs_studenthonorcode.pdf` | Honor Code ("Appendix C: Honor Code", pp. 54–56 of a handbook) | undated |
@@ -233,7 +230,7 @@ A `files.smartsites.parentsquare.com/14485/<file>` path is a document the school
 - **Late joiners.** "Introduction to Bible / Grade Level(s): 9-12 … It is recommended for students who have never attended a Christian school or are new to HGCS. Course enrollment will be based on administrative recommendation." — HS catalog p. 26. General transfer rule: "Unless transferring into HGCS during high school, students are required to take all coursework at HGCS in order to earn graduation credits." — HS catalog p. 7. INFERENCE: "Minimum total credits: 1 per year" reads as one Bible credit per year enrolled; the catalog does not say in words whether a late joiner owes all 4. (second pass) The catalog's general line: "Transfer Credits: Students may earn and transfer credits from other accredited institutions." A Bible-specific rule is still unstated.
 - Honors placement: "Students wishing to move from non-honors courses to honors level Bible courses must meet the require- ments listed below." Regular 90+ → Honors; Honors 80+ stays Honors. — HS catalog p. 23 ("Biblical Studies Department Placement Criteria")
 - Dual enrollment: "All Dual Enrollment courses are aligned with specific student learning objectives established by Judson College, which is the undergraduate college program of Southeastern Baptist Theological Seminary (SEBTS)." Courses: "Honors Old Testament, Honors New Testament, Honors Systematic Theology, Honors Introduction to Philosophy, Honors Introduction to Ethics." — HS catalog p. 4
-- Apologetics content: "Students will also learn about various ethical systems and how to respond to issues such as homosexuality, abortion, stem cell research, and euthanasia from a biblical perspective." Honors adds three projects, including to "practice the discipline of apologetics with a non-Christian". — HS catalog p. 24
+- Apologetics content: "Students will also learn about various ethical systems" Honors adds three projects, including to "practice the discipline of apologetics with a non-Christian". — HS catalog p. 24
 - Systematic Theology: "In this course, students solidify their understanding of doctrines essential to the orthodox Christian faith." — HS catalog p. 27
 - Faith electives: "Arts and Theology" (9-12, Biblical Studies); "Fiber Crafts II" ("a small quilt inspired by a study of the women of the Bible … a weekly Bible study is incorporated").
 - Contact: "Bible- Fernando Rogante fernandorogante@hgchristian.org" (department contacts list) — HS catalog p. 3
@@ -317,7 +314,7 @@ No school chaplain, campus pastor, or spiritual life director appears on any pag
 - "HGCS is a ministry of Hickory Grove Baptist Church. HGBC pastors teach in chapel and lead Lions Connect, church and school musicians worship together, and our students serve alongside the church through ministries like the HGBC Food Pantry. Students grow in faith within four communities: their school, their home, Hickory Grove Baptist Church and the broader body of Christ." — /469460_2
 - "The school is a ministry of Hickory Grove Baptist Church and was started by the church in 1995 as an educational institution for the benefit of families in the Charlotte-Metro area." — profile
 - Advisory Board: "The Advisory Board of Hickory Grove Christian School (HGCS) acts as a consultative body for both the school and the Senior Pastor of Hickory Grove Baptist Church." Members: "Clint Pressley, Steve Adams, Richard Jennings, Brooke Hunter, Dr. Paul Kim, Tiffany Morrison, Kyle Scarlett, and Dr. Jimmie Quesinberry"; associate members "René Toadvine, Tommy Abernathy, Jay Manning, Craig Duet" — /advisory-board
-- Denomination: the Statement of Faith's preamble names "the Baptist Faith and Message (2000)" (below). No page names a convention or denomination beyond "Baptist" in the church's name.
+- Denomination: the Statement of Faith's preamble names "the Baptist Faith and Message (2000)". No page names a convention or denomination beyond "Baptist" in the church's name.
 
 **Vision and mission**
 - Vision: "To know Christ and to make Him known through Christian education." — /our-beliefs
@@ -344,50 +341,7 @@ No school chaplain, campus pastor, or spiritual life director appears on any pag
 - "We believe students should first gain knowledge of the Bible (notitia), be led to recognize Christ as divine (assensus), and ultimately place their trust in Him (fiducia)." — /esos
 - "While we cannot guarantee the outcome we seek, a clear vision keeps our teaching, mentoring, and community life focused on that eternal goal." — /esos
 
-**Statement of Faith (verbatim, whole, in page order)**
-
-The public belief pages (/our-beliefs, /469460_2, /esos) carry no doctrinal statement of faith. The one document the school's site links as "the HGCS Statement of Faith" is linked from its own employment application (/employment-application, Fillout form: "Statement of Faith / Please read the HGCS Statement of Faith before answering: https://drive.google.com/file/d/1mDowLVWj8E9ASHkSDCAWp3QHftdd9UMy/view?usp=sharing"). It is a three-page statement on marriage, gender and sexuality that says it elaborates on the Baptist Faith and Message (2000). It is copied below whole. Line breaks inside paragraphs are joined; the running header repeated at the top of pages 2 and 3 is left out; the source's typos ("Identiry", "conforming to their behavior to") are kept.
-
-Title: "Statement of Faith: Marriage, Gender, and Human Sexuality"
-
-1. Preamble: We believe that all matters of faith and conduct must be evaluated on the basis of Holy Scripture, which is our infallible guide (2 Timothy 3:16–17). The intent of this document is to elaborate on the Baptist Faith and Message (2000) and on the nature of human beings and their sexuality. It is imperative that we correctly understand and articulate what the Bible teaches on these matters.
-
-2. We are committed to the home and family as set forth in Holy Scripture. We believe God has ordained and created marriage to exist between one man and one woman, with absolute marital fidelity. The Bible sets forth specific home and family values, which include the distinct roles of husbands and wives, fathers and mothers, and children. It is our firm conviction that we uphold the dignity of each individual as we embrace the unchanging and long-standing principles of scriptural truth.
-
-3. Religious Beliefs: Based on Holy Scripture and the constant moral teaching of the universal Church, we believe:
-
-4. Marriage and Sexual Immorality (Genesis 1:26-28; 2:15-25; 3:1-20; Exodus 20:12; Deuteronomy 6:4-9; Joshua 24:15; 1 Samuel 1:26-28; Psalms 51:5; 78:1-8; 127; 128; 139:13-16; Proverbs 1:8; 5:15-20; 6:20-22; 12:4; 13:24; 14:1; 17:6; 18:22; 22:6,15; 23:13-14; 24:3; 29:15,17; 31:10-31; Ecclesiastes 4:9-12; 9:9; Malachi 2:14-16; Matthew 5:31-32; 18:2-5; 19:3-9; Mark 10:6-12; Romans 1:18-32; 1 Corinthians 7:1-16; Ephesians 5:21-33; 6:1-4; Colossians 3:18-21; 1 Timothy 5:8,14; 2 Timothy 1:3-5; Titus 2:3-5; Hebrews 13:4; 1 Peter 3:1-7.)
-
-5. Marriage: Hickory Grove Christian School (HGCS) defines marriage as the permanent, exclusive, comprehensive, and conjugal “one flesh” union of one man and one woman, intrinsically ordered to procreation and biological family, and in furtherance of the moral, spiritual, and public good of binding father, mother, and child.
-
-6. Sexual Immorality: HGCS believes that sexual acts outside marriage are prohibited as sinful. Consequently, HGCS students, faculty, administration, and staff must resist and refrain from any and all sexual acts outside marriage. We believe that any form of sexual immorality, including adultery, fornication, homosexual behavior, bisexual conduct, bestiality, incest, and use of pornography, is sinful and offensive to God.
-
-7. Matters of Gender and Sexual Identiry Gen. 1:26-28; 2:15-25; 3:1-24; Ex. 20:14; 20:17; Lev. 18:22; 20:13; Dt. 5:18, 21; 22:5; Jdg. 19:22; 2 Sam.11:1-12:15; Job 31:1; Ps. 51:1-19; Prov. 5:1-23; 6:20-35; 7:1-27; Isa. 59:1; Mal. 2:14; Matt. 5:27–30;19:4-6, 8-9, 12; Acts 15:20, 29; Rom. 1:26–27; 1:32; 1 Cor. 6:9–11, 18-20; 7:1-7; 2 Cor. 5:17; Gal. 5:24; Eph. 4:15, 20–24; 5:31–32; Col. 3:5; 1 Thess. 4:3-8; 1 Tim. 1:9–10, 15; 2 Tim. 2:22; Titus 2:11-12; Heb.13:4; Jas. 1:14–15; 1 Pet. 2:11; Jude 7
-
-8. Sexual Identity: HGCS believes that God created mankind in His image: male (man) and female (woman), sexually different but with equal personal dignity. Consequently, HGCS students, faculty, administration, and staff must affirm their biological sex and refrain from any and all attempts to change physically, alter, or disagree with their predominant biological sex — including but not limited to elective sex-reassignment, transvestite, transgender, or non-binary “genderqueer” acts or conduct. In addition, all HGCS students, faculty, administration, and staff born as a biological male shall present as a male. Any individual born as a biological female shall present as female.
-
-9. We believe that God wonderfully and immutably creates each person as male or female. These two distinct, complementary genders together reflect the image and nature of God.
-
-10. Rejection of one's biological sex is a rejection of the image of God within that person. We believe that the term marriage has only one meaning: uniting of one man and one woman in a single exclusive union, as delineated in Scripture.
-
-11. Sexual Orientation: HGCS believes that God created and ordered human sexuality to the permanent, exclusive, comprehensive, and conjugal “one flesh” union of man and woman, intrinsically ordered to procreation and biological family, and in furtherance of the moral, spiritual, and public good of binding father, mother, and child. Consequently, HGCS students, faculty, administration, and staff must affirm the sexual complementarity of man and woman and resist any and all same-sex sexual attractions and refrain from any and all same-sex sexual acts or conduct which are intrinsically disordered.
-
-12. Sexual Redemption: HGCS believes that all have sinned and fall short of the glory of God and should seek redemption through confession, repentance, and faith in Jesus Christ. Consequently, HGCS students, faculty, administration, and staff must welcome and treat with respect, compassion, and sensitivity all who experience same-sex attractions or confess sexually immoral acts but are committed to resisting sexual temptation, refraining from sexual immorality, and conforming to their behavior to HGCS Statement of Faith.
-
-13. Celibacy: HGCS believes that Holy Scripture grants two life-enhancing options for human sexual behavior: (1) the conjugal “one flesh” marital union of one man and one woman, and (2) celibacy. Either is a gift from God, given as He wills for His glory and the good of those who receive and rejoice in His gift to them. Celibacy and faithful singleness are to be celebrated and affirmed within HGCS.
-
-14. Application: All of our students, employees, administration, and volunteers must affirm and adhere to this Doctrinal and Religious Absolute statement on marriage and human sexuality to qualify for involvement with the Hickory Grove Christian School. This is necessary to accomplish our religious mission, goals, and purpose. Behavior or counter-witnessing that does otherwise will impede and burden our integrity and religious mission. We believe that God’s grace can wipe the slate of guilt and sin, though the consequences are still incurred.
-
-15. Authority: The Bible is the inspired and infallible Word of God, acting as the source of authority over morality, our beliefs, Christian lifestyle, and conduct. The Senior Pastor of Hickory Grove Baptist Church is charged with the ministerial responsibility of Biblical interpretation and promulgating religious policy. The Senior Pastor of Hickory Grove Baptist Church will determine life application as well as final matters relating to institutional theology, philosophy, Christian practice, faith, divine truth, morality, and theological and doctrinal resolutions.
-
-16. Failure to agree with the HGCS statement of faith and not being willing to comply with the organization’s standards of conduct serves as grounds for dismissal.
-
-17. ● I believe in the HGCS Statement of Faith.
-    ● I have reviewed the HGCS Statement of Faith and agree to be governed by all the provisions herein.
-
-    PRINT NAME SIGNATURE DATE
-
-(Item 4 is a section heading followed by its Scripture list; item 7 is the second section heading with its list, printed with no parentheses. They are numbered to keep page order.)
+The school's site links one document it calls "the HGCS Statement of Faith", from the employment application only. Its text is not recorded here (user decision 2026-11-27: the site is rated E for everyone).
 
 **Accreditation and memberships**
 - "The elementary, middle, and high schools of HGCS hold dual accreditation through Cognia and the Association of Christian Schools International (ACSI)." — /accreditation
@@ -395,7 +349,7 @@ Title: "Statement of Faith: Marriage, Gender, and Human Sexuality"
 - "Many of our faculty have participated in the Colson Center's Academic Affiliate program, which equips teachers to immerse students in Scripture across the curriculum rather than merely add a verse to a lesson." — /469460_2
 
 **Not found in this research**
-- A general doctrinal statement (God, Scripture, salvation, the church) published by the school. The only linked "Statement of Faith" covers marriage, gender and sexuality and points to the Baptist Faith and Message (2000), which the school's site does not link.
+- A general doctrinal statement (God, Scripture, salvation, the church) published by the school. The only document the site links as "the HGCS Statement of Faith" is linked from the employment application; it points to the Baptist Faith and Message (2000), which the school's site does not link.
 - A date on the Statement of Faith page or document (metadata only, LEAD).
 - Any membership beyond ACSI, Cognia, NCISAA and MAC.
 
@@ -416,8 +370,7 @@ Title: "Statement of Faith: Marriage, Gender, and Human Sexuality"
 - Honor Code: "As a student at HGCS, I covenant to do my very best to be:" … e.g. "I will continually uphold the vision and mission of Hickory Grove Christian School by faithfully supporting the school through my prayers, attitude, and life choices." and "I agree to exercise sound judgment and to live a rightly ordered life consistent with a biblical worldview, both on and off campus." — `hgcs_studenthonorcode.pdf`
 - Honor Code close: "If I fail to uphold any of the above, I understand that I can repent, self-report my actions, and seek guidance and forgiveness." — same
 - Calendar: Aug 27 "Chapel/Honor Code Ceremony" (MS/HS). INFERENCE: the signing happens at this chapel; not stated.
-- The Statement of Faith's "Application" article says "All of our students, employees, administration, and volunteers must affirm and adhere to this Doctrinal and Religious Absolute statement on marriage and human sexuality to qualify for involvement with the Hickory Grove Christian School." (section 5, item 14). Whether a family or student signs it at enrollment is NOT STATED.
-- MS/HS dress code: "This dress code is designed to require students to dress in modest and appropriate clothing for the classroom. Our desire is to grant our students the freedom to make wise choices within the guidelines listed here, while honoring God with their bodies. Females must present as females and males must present as males. Administration reserves the right to deem any clothing as inappropriate, and to take corrective action." — `mshsdresscode.pdf`
+- MS/HS dress code: "This dress code is designed to require students to dress in modest and appropriate clothing for the classroom. Our desire is to grant our students the freedom to make wise choices within the guidelines listed here, while honoring God with their bodies. Administration reserves the right to deem any clothing as inappropriate, and to take corrective action." — `mshsdresscode.pdf`
 - ES dress code: "However, as Christians, we are called to be different than the world." — `esdresscode.pdf`
 - Honor Dress for chapel (section 1).
 - Profile: "Prospective students must score at or above their grade level and be in good standing with their current school to be admitted."
@@ -580,14 +533,14 @@ Title: "Statement of Faith: Marriage, Gender, and Human Sexuality"
 | 2. Bible & Faith Classes | About 28: K–12 Bible every year; 13 years; daily ES Bible with Building on the Rock, verse a week, 200+ verses; MS Summit Ministries titles by grade; Bible in Spanish for immersion students; HS courses by grade with CP and honors; 4 credits of 27; 1 per year; Introduction to Bible for newcomers; honors placement rule; dual enrollment through Judson College (SEBTS); Apologetics and Systematic Theology content; faith electives (Arts and Theology, Fiber Crafts II, Bible Sketch, MS Faith & Leadership courses); Gospel Project in preschool | Stands on its own; the strongest card. Gap: late-joiner credit rule only implied |
 | 3. Retreats | 0 to 1: no retreat on any page or the calendar | **Does not stand.** Omit, or fold the Senior Mission Trip into Service & Missions |
 | 4. Small Groups & Discipleship | About 9: MS Grove Groups (monthly, first Thursday, by grade, small groups); HS discipleship groups (every student, teacher-led, several times a month / most Thursdays in Club Flex); HGBC student discipleship pastor on campus; morning devotions; Quiet Time Cafe; HS Wednesday devotions with 34 witnesses and the journal; Christian Leadership for selected 8th graders; Chapel Band | Stands on its own, and absorbs what a retreats card would hold |
-| 5. What the School Believes | About 30: Statement of Faith (17 numbered items, verbatim); Baptist Faith and Message (2000) named; ministry of HGBC; Senior Pastor's final authority; vision; mission (two wordings); school verse; 7 beliefs; 3 ESOs with outcome lists; notitia/assensus/fiducia; ACSI and Cognia; Colson Center affiliate | Stands on its own. Note: the only published "Statement of Faith" is a marriage-and-sexuality statement linked from the job application, not from the belief pages; the card must say where it is linked |
-| 6. What It Asks of Families | About 12: pastor's Personal Recommendation at every grade; Family Interview shares the Statement of Faith; Student Questionnaire (grades 4–12); HGBC-member priority window; no automatic like-minded-pastor discount; HS students sign the Honor Code (covenant), Honor Code Ceremony at the first chapel; dress code incl. "Females must present as females and males must present as males."; Honor Dress; SoF "Application" article names students; contrasts for staff (SoF agreement, church reference, testimony) and host families (spiritual journey, pastoral reference) | Stands on its own, thinner on parents. NOT STATED: parent faith, parent signature of the SoF, church attendance, chapel attendance |
+| 5. What the School Believes | About 30: an employment-linked document (not recorded); Baptist Faith and Message (2000) named; ministry of HGBC; Senior Pastor's final authority; vision; mission (two wordings); school verse; 7 beliefs; 3 ESOs with outcome lists; notitia/assensus/fiducia; ACSI and Cognia; Colson Center affiliate | Stands on its own. Note: the only published "Statement of Faith" is a document linked from the job application, not from the belief pages; the card must say where it is linked |
+| 6. What It Asks of Families | About 12: pastor's Personal Recommendation at every grade; Family Interview shares the Statement of Faith; Student Questionnaire (grades 4–12); HGBC-member priority window; no automatic like-minded-pastor discount; HS students sign the Honor Code (covenant), Honor Code Ceremony at the first chapel; dress code; Honor Dress; contrasts for staff (SoF agreement, church reference, testimony) and host families (spiritual journey, pastoral reference) | Stands on its own, thinner on parents. NOT STATED: parent faith, parent signature of the SoF, church attendance, chapel attendance |
 | 7. Service & Missions | About 14: Great Commission purpose; senior DR mission trip each year (January); HS Mission Week; quarterly collection and its three named causes; HGBC Food Pantry with immersion interpreters; aquaponics; discipleship-group service; Students on Mission course; outreach in DR, Ecuador, Haiti, Kenya; Global Missions certificate (six requirements incl. pastor letter); host families "missions in reverse" | Stands on its own. Gaps: no hour rule, no dated figures, no trip cost |
 | 8. Who Leads Spiritual Life | About 10 names: Senior Pastor Clint Pressley; two Student Discipleship Pastors and two Family Discipleship Pastors (HGBC); Head of School and HS Principal as devotion speakers; Bible contact and an MS Bible teacher with published emails; principals; Director of Counseling | Stands only as a short list, and its honest headline is that the church's pastors lead, not a school chaplain. The pastors have no published emails on the school site |
 | 9. Faith Life for Parents | About 10: Lions Connect (when, who, two recap topics, book list); Chapel at Home recaps in two versions; Wednesday devotion recaps for families; Lions in Prayer (monthly, first Monday, 8:00 AM); Hang Ten; PTF "believers united"; giving through HGBC's site | Stands on its own |
 | 10. Ask the School | Not fact-based; about 10 questions fall out of the "Not found" lists: must a parent be a Christian or sign the Statement of Faith; what the pastor's recommendation form asks; is chapel attendance required; where elementary chapel meets; is there a school chaplain or only HGBC pastors; how many Bible credits a junior or senior transfer owes; are there any retreats; are service hours required; what the senior mission trip costs and whether all seniors go; whether the MS and ES students sign the Honor Code | Stands on its own as a prompt list, each mapped to a confirmed gap or conflict |
 
-**Overall (INFERENCE):** eight or nine of the ten cards can be filled from the school's own pages. Retreats is the one empty card. The Statement of Faith is unusual: the school's belief pages publish values and outcomes but no doctrinal statement, and the only document it links as "the HGCS Statement of Faith" is the marriage, gender and sexuality statement on the employment application. A second pass should look for a general doctrinal statement (for example in the login-only application or handbook, which cannot be read) and confirm the Senior Mission Trip details.
+**Overall (INFERENCE):** eight or nine of the ten cards can be filled from the school's own pages. Retreats is the one empty card. The Statement of Faith is unusual: the school's belief pages publish values and outcomes but no doctrinal statement, and the only document it links as "the HGCS Statement of Faith" is a document linked from the employment application. A second pass should look for a general doctrinal statement (for example in the login-only application or handbook, which cannot be read) and confirm the Senior Mission Trip details.
 
 ### Re-verification 2026-11-26 (/faith-life)
 
@@ -596,9 +549,8 @@ research passes (18 pages, the Statement of Faith PDF, both admissions checklist
 the MS/HS dress code, both course catalogs, the chapel pre-registration form and the calendar feed).
 Nothing moved.
 
-- **Statement of Faith:** all 17 numbered items above match the PDF char-for-char, once its running
-  page header ("Statement of Faith: Marriage, Gender, and Human Sexuality", printed at the top of
-  pages 2 and 3, mid-paragraph in items 8 and 15) is left out, as this file says it is.
+- **Statement of Faith:** the employment-linked document was read at planning; its text is not
+  recorded here (user decision 2026-11-27: the site is rated E for everyone).
 - **Worship days and times:** the calendar feed lists 8 split chapel days (elementary, then middle
   and high school) on Aug 27, Sep 17, Oct 22, Jan 21, Feb 18, Mar 11, Mar 25 and Apr 22 (all
   Thursdays), the Thanksgiving Chapel (Fri Nov 20) and the school-wide Christmas Chapel (Thu Dec 10):
@@ -616,7 +568,7 @@ Nothing moved.
   first Monday of the month".
 - **Families:** both checklists' pastor-recommendation lines and Family Interview sentence; the Honor
   Code signing sentence; "HGCS does NOT provide AUTOMATIC discounts"; the employment "Committed
-  Christian…" and "Active in a local bible-believing church." lines; the dress code's Honor Dress and
-  "Females must present as females…" sentences; the /myhgcs handbook sentence.
+  Christian…" and "Active in a local bible-believing church." lines; the dress code's Honor Dress
+  sentence; the /myhgcs handbook sentence.
 
-40 quotes checked in all; every one matched.
+39 quotes checked in all (one later removed from this file, user decision 2026-11-27); every one matched.

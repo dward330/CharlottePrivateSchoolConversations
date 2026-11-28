@@ -177,6 +177,7 @@
       "of": "e2630cbf",
       "at": [
         "charlotte-christian:chapel.entries[3].title",
+        "covenant-day:chapel.entries[2].title",
         "hickory-grove-christian:chapel.entries[2].title"
       ],
       "t": "Funzioni di tutta la scuola"
@@ -281,7 +282,8 @@
       "text": "Lower School",
       "of": "0921a0ca",
       "at": [
-        "charlotte-christian:classes.groups[0].name"
+        "charlotte-christian:classes.groups[0].name",
+        "covenant-day:classes.groups[0].name"
       ],
       "t": "Lower School"
     },
@@ -297,7 +299,8 @@
       "text": "Junior Kindergarten",
       "of": "5ee6535c",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[0].label"
+        "charlotte-christian:classes.groups[0].rows[0].label",
+        "covenant-day:classes.groups[0].rows[0].label"
       ],
       "t": "Junior Kindergarten"
     },
@@ -313,7 +316,8 @@
       "text": "Kindergarten",
       "of": "68541d89",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[1].label"
+        "charlotte-christian:classes.groups[0].rows[1].label",
+        "covenant-day:classes.groups[0].rows[1].label"
       ],
       "t": "Kindergarten"
     },
@@ -329,7 +333,8 @@
       "text": "Grade 1",
       "of": "20673dd7",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[2].label"
+        "charlotte-christian:classes.groups[0].rows[2].label",
+        "covenant-day:classes.groups[0].rows[2].label"
       ],
       "t": "Classe 1"
     },
@@ -345,7 +350,8 @@
       "text": "Grade 2",
       "of": "21673f6a",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[3].label"
+        "charlotte-christian:classes.groups[0].rows[3].label",
+        "covenant-day:classes.groups[0].rows[3].label"
       ],
       "t": "Classe 2"
     },
@@ -361,7 +367,8 @@
       "text": "Grade 3",
       "of": "226740fd",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[4].label"
+        "charlotte-christian:classes.groups[0].rows[4].label",
+        "covenant-day:classes.groups[0].rows[4].label"
       ],
       "t": "Classe 3"
     },
@@ -377,7 +384,8 @@
       "text": "Grade 4",
       "of": "1b6735f8",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[5].label"
+        "charlotte-christian:classes.groups[0].rows[5].label",
+        "covenant-day:classes.groups[0].rows[5].label"
       ],
       "t": "Classe 4"
     },
@@ -394,6 +402,7 @@
       "of": "15441234",
       "at": [
         "charlotte-christian:classes.groups[1].name",
+        "covenant-day:classes.groups[1].name",
         "hickory-grove-christian:classes.groups[1].name"
       ],
       "t": "Middle School"
@@ -491,6 +500,7 @@
       "of": "6b2cd411",
       "at": [
         "charlotte-christian:classes.groups[2].rows[0].label",
+        "covenant-day:classes.groups[2].rows[0].label",
         "hickory-grove-christian:classes.groups[2].rows[0].label"
       ],
       "t": "Old Testament Survey"
@@ -508,6 +518,7 @@
       "of": "15a0fcf0",
       "at": [
         "charlotte-christian:classes.groups[2].rows[1].label",
+        "covenant-day:classes.groups[2].rows[1].label",
         "hickory-grove-christian:classes.groups[2].rows[1].label"
       ],
       "t": "New Testament Survey"
@@ -785,12 +796,12 @@
       "t": "Nei giorni della conferenza, “relatori speciali sono invitati nel campus per un momento di insegnamento e discussione mirati”."
     },
     {
-      "text": "The school’s mission, its five core values and its ten-point statement of faith, in the school’s own words.",
-      "of": "ef08810f",
+      "text": "The school’s mission, its five core values and its statement of faith, in the school’s own words.",
+      "of": "8240389f",
       "at": [
         "charlotte-christian:beliefs.headline"
       ],
-      "t": "La missione della scuola, i suoi cinque valori fondamentali e la sua dichiarazione di fede in dieci punti, con le parole della scuola."
+      "t": "La missione della scuola, i suoi cinque valori fondamentali e la sua dichiarazione di fede, con le parole della scuola."
     },
     {
       "text": "“Charlotte Christian School is a Christ-centered, college preparatory school, equipping and developing students to effectively integrate Biblical truth and learning into their daily lives and to impact the culture for Christ.”",
@@ -921,18 +932,10 @@
       "t": "“Crediamo che l’uomo, maschio e femmina, sia stato creato a immagine di Dio, ma sia caduto nel peccato per la disobbedienza di Adamo ed Eva. In conseguenza della caduta, tutte le persone nascono peccatrici e bisognose di salvezza.”"
     },
     {
-      "text": "“We believe that marriage is a covenantal relationship created by God for a man and a woman. Sexual intimacy is a gift from God and has its proper place only within the context of marriage.”",
-      "of": "e1e3a547",
-      "at": [
-        "charlotte-christian:beliefs.articles[7]"
-      ],
-      "t": "“Crediamo che il matrimonio sia una relazione di patto creata da Dio per un uomo e una donna. L’intimità sessuale è un dono di Dio e ha il suo giusto posto solo nel contesto del matrimonio.”"
-    },
-    {
       "text": "“We believe that Jesus Christ, the Son of God, will return to renew the whole creation and to judge the living and the dead.”",
       "of": "fe82762c",
       "at": [
-        "charlotte-christian:beliefs.articles[8]"
+        "charlotte-christian:beliefs.articles[7]"
       ],
       "t": "“Crediamo che Gesù Cristo, il Figlio di Dio, ritornerà per rinnovare l’intera creazione e per giudicare i vivi e i morti.”"
     },
@@ -940,7 +943,7 @@
       "text": "“We believe Christian education is a partnership between students, faculty and parents that provides an opportunity for students to learn and experience academics and co-curricular activities through a biblical worldview, in the presence of Christ-honoring faculty.”",
       "of": "2ed3e072",
       "at": [
-        "charlotte-christian:beliefs.articles[9]"
+        "charlotte-christian:beliefs.articles[8]"
       ],
       "t": "“Crediamo che l’educazione cristiana sia una collaborazione tra studenti, docenti e genitori che offre agli studenti l’opportunità di imparare e di vivere lo studio e le attività co-curricolari attraverso una visione biblica del mondo, alla presenza di docenti che onorano Cristo.”"
     },
@@ -949,6 +952,7 @@
       "of": "2700b011",
       "at": [
         "charlotte-christian:families.headline",
+        "covenant-day:families.headline",
         "hickory-grove-christian:families.headline"
       ],
       "t": "Che cosa dicono le pagine pubbliche della scuola sulla fede quando si fa domanda e una volta iscritti, e che cosa non dicono."
@@ -958,6 +962,7 @@
       "of": "fbc4b036",
       "at": [
         "charlotte-christian:families.groups[0].name",
+        "covenant-day:families.groups[0].name",
         "hickory-grove-christian:families.groups[0].name"
       ],
       "t": "Quando si fa domanda"
@@ -1075,6 +1080,7 @@
       "of": "6f74c399",
       "at": [
         "charlotte-christian:families.groups[1].rows[1].label",
+        "covenant-day:families.groups[1].rows[0].label",
         "hickory-grove-christian:families.groups[1].rows[0].label"
       ],
       "t": "Corso di Bibbia"
@@ -1140,6 +1146,7 @@
       "of": "bf92e599",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].label",
+        "covenant-day:families.groups[1].rows[2].label",
         "hickory-grove-christian:families.groups[1].rows[3].label"
       ],
       "t": "Partecipazione alle funzioni"
@@ -1149,6 +1156,7 @@
       "of": "889f792d",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].detail",
+        "covenant-day:families.groups[1].rows[2].detail",
         "hickory-grove-christian:families.groups[1].rows[3].detail"
       ],
       "t": "Le pagine pubbliche non dicono se la funzione religiosa sia obbligatoria."
@@ -1590,6 +1598,1388 @@
       "t": "26 novembre 2026"
     },
     {
+      "text": "Covenant Day School is “a ministry of Christ Covenant Church (PCA)”, a Presbyterian church in Matthews. Students take Bible in every grade, and chapel meets every week.",
+      "of": "23c2be9b",
+      "at": [
+        "covenant-day:lead.strong"
+      ],
+      "t": "La Covenant Day School è “un ministero della Christ Covenant Church (PCA)”, una chiesa presbiteriana di Matthews. Gli studenti seguono la Bibbia in ogni classe, e la funzione religiosa (chapel) si tiene ogni settimana."
+    },
+    {
+      "text": "Its first core value: “Our foundation is built on the absolute truth of God and His word, and every aspect of our education is permeated by our faith in Christ.”",
+      "of": "d1299a3e",
+      "at": [
+        "covenant-day:lead.muted"
+      ],
+      "t": "Il suo primo valore fondamentale: “Il nostro fondamento è costruito sulla verità assoluta di Dio e della Sua parola, e ogni aspetto della nostra educazione è permeato dalla nostra fede in Cristo.”"
+    },
+    {
+      "text": "a Bible class in every grade",
+      "of": "492b06d5",
+      "at": [
+        "covenant-day:stats[0].label"
+      ],
+      "t": "un corso di Bibbia in ogni classe"
+    },
+    {
+      "text": "from junior kindergarten through 12th grade",
+      "of": "13b7e07d",
+      "at": [
+        "covenant-day:stats[0].note"
+      ],
+      "t": "dal Junior Kindergarten alla classe 12"
+    },
+    {
+      "text": "Bible units to graduate",
+      "of": "57ba03d0",
+      "at": [
+        "covenant-day:stats[1].label"
+      ],
+      "t": "unità di Bibbia per diplomarsi"
+    },
+    {
+      "text": "of 25 units in all, with a Bible course each year",
+      "of": "284c87ea",
+      "at": [
+        "covenant-day:stats[1].note"
+      ],
+      "t": "su 25 unità in tutto, con un corso di Bibbia ogni anno"
+    },
+    {
+      "text": "grades that need a pastor’s recommendation",
+      "of": "981b62ad",
+      "at": [
+        "covenant-day:stats[2].label"
+      ],
+      "t": "classi che richiedono la referenza di un pastore"
+    },
+    {
+      "text": "and one parent must be a Christ-follower",
+      "of": "eb854799",
+      "at": [
+        "covenant-day:stats[2].note"
+      ],
+      "t": "e un genitore deve essere un seguace di Cristo"
+    },
+    {
+      "text": "discount for church members",
+      "of": "7a38fc6f",
+      "at": [
+        "covenant-day:stats[3].label"
+      ],
+      "t": "sconto per i membri della chiesa"
+    },
+    {
+      "text": "per student, for members of Christ Covenant Church",
+      "of": "95c905f4",
+      "at": [
+        "covenant-day:stats[3].note"
+      ],
+      "t": "per studente, per i membri della Christ Covenant Church"
+    },
+    {
+      "text": "Chapel meets every week, with students grouped by age. The whole school gathers for chapel in the church’s Worship Center.",
+      "of": "5c96f345",
+      "at": [
+        "covenant-day:chapel.headline"
+      ],
+      "t": "La funzione religiosa si tiene ogni settimana, con gli studenti divisi per età. Tutta la scuola si riunisce per le funzioni nel Worship Center della chiesa."
+    },
+    {
+      "text": "Weekly chapel",
+      "of": "fcfc7d01",
+      "at": [
+        "covenant-day:chapel.entries[0].title"
+      ],
+      "t": "Funzione settimanale"
+    },
+    {
+      "text": "“Chapels are separated by age and include praise songs, scripture reading, and a message from guest speakers, principals, or teachers.”",
+      "of": "82ac3a1f",
+      "at": [
+        "covenant-day:chapel.entries[0].text"
+      ],
+      "t": "“Le funzioni sono separate per età e comprendono canti di lode, la lettura delle Scritture e un messaggio di relatori ospiti, presidi o insegnanti.”"
+    },
+    {
+      "text": "Junior kindergarten and kindergarten students attend chapel every week.",
+      "of": "b332a43f",
+      "at": [
+        "covenant-day:chapel.entries[0].muted"
+      ],
+      "t": "Gli alunni del Junior Kindergarten e del Kindergarten partecipano alla funzione ogni settimana."
+    },
+    {
+      "text": "Middle school chapel",
+      "of": "c0cec2b7",
+      "at": [
+        "covenant-day:chapel.entries[1].title"
+      ],
+      "t": "Funzione della middle school"
+    },
+    {
+      "text": "The school lists “meaningful chapels” among what middle schoolers gain. Students in 8th grade “can participate in chapel leadership.”",
+      "of": "822fb708",
+      "at": [
+        "covenant-day:chapel.entries[1].text"
+      ],
+      "t": "La scuola indica “funzioni significative” tra ciò che ricevono gli studenti della middle school. Gli studenti della classe 8 “possono partecipare alla guida delle funzioni”."
+    },
+    {
+      "text": "The whole school meets in the Worship Center of Christ Covenant Church for chapels and celebrations. The 2026–27 calendar has Convocation in September and an All-School Christmas Chapel in December.",
+      "of": "da6ecf69",
+      "at": [
+        "covenant-day:chapel.entries[2].text"
+      ],
+      "t": "Tutta la scuola si riunisce nel Worship Center della Christ Covenant Church per funzioni e celebrazioni. Il calendario 2026–27 prevede la Convocation (apertura dell’anno) a settembre e una funzione di Natale di tutta la scuola a dicembre."
+    },
+    {
+      "text": "Baccalaureate for seniors is in May.",
+      "of": "c483d72a",
+      "at": [
+        "covenant-day:chapel.entries[2].muted"
+      ],
+      "t": "Il Baccalaureate per gli studenti dell’ultimo anno (per i diplomandi) è a maggio."
+    },
+    {
+      "text": "Worship bands",
+      "of": "921a16a5",
+      "at": [
+        "covenant-day:chapel.entries[3].title"
+      ],
+      "t": "Gruppi di lode"
+    },
+    {
+      "text": "The music program lists a Middle School Worship Band and a High School Worship Band.",
+      "of": "5baf859c",
+      "at": [
+        "covenant-day:chapel.entries[3].text"
+      ],
+      "t": "Il programma di musica indica un gruppo di lode della middle school e un gruppo di lode della high school."
+    },
+    {
+      "text": "Worship Leadership",
+      "of": "a7167594",
+      "at": [
+        "covenant-day:chapel.entries[4].title"
+      ],
+      "t": "Worship Leadership"
+    },
+    {
+      "text": "A college-prep fine arts course in leading worship.",
+      "of": "d572ab35",
+      "at": [
+        "covenant-day:chapel.entries[4].text"
+      ],
+      "t": "Un corso di arti di livello college prep su come guidare la lode."
+    },
+    {
+      "text": "Teachers pray too.",
+      "of": "fc959e1a",
+      "at": [
+        "covenant-day:chapel.note.strong"
+      ],
+      "t": "Anche gli insegnanti pregano."
+    },
+    {
+      "text": "“Several times every week, teachers gather before homeroom to pray for one another and their students.”",
+      "of": "f01045f6",
+      "at": [
+        "covenant-day:chapel.note.text"
+      ],
+      "t": "“Più volte ogni settimana, gli insegnanti si riuniscono prima dell’homeroom per pregare gli uni per gli altri e per i loro studenti.”"
+    },
+    {
+      "text": "The whole faculty and staff also “meet quarterly for worship and devotions.”",
+      "of": "0b50a801",
+      "at": [
+        "covenant-day:chapel.note.muted"
+      ],
+      "t": "Tutto il corpo docente e il personale si incontrano anche “ogni trimestre per la lode e i momenti devozionali”."
+    },
+    {
+      "text": "Bible is taught in every grade, from junior kindergarten through 12th grade. Here is what each grade studies, and the Bible units a high schooler needs to graduate.",
+      "of": "07fae2b4",
+      "at": [
+        "covenant-day:classes.headline"
+      ],
+      "t": "La Bibbia si insegna in ogni classe, dal Junior Kindergarten alla classe 12. Ecco che cosa studia ogni classe, e le unità di Bibbia che servono a uno studente della high school per diplomarsi."
+    },
+    {
+      "text": "The school says “All subjects are taught from a biblical worldview”.",
+      "of": "5fa013e4",
+      "at": [
+        "covenant-day:classes.intro.text"
+      ],
+      "t": "La scuola dice che “Tutte le materie sono insegnate da una visione biblica del mondo”."
+    },
+    {
+      "text": "It names theology among its core subjects, beside literature, math, science, history and world languages.",
+      "of": "1255cf40",
+      "at": [
+        "covenant-day:classes.intro.muted"
+      ],
+      "t": "Indica la teologia tra le sue materie fondamentali, accanto a letteratura, matematica, scienze, storia e lingue straniere."
+    },
+    {
+      "text": "Bible every year",
+      "of": "374a99f3",
+      "at": [
+        "covenant-day:classes.groups[0].tally",
+        "covenant-day:classes.groups[1].tally"
+      ],
+      "t": "Bibbia ogni anno"
+    },
+    {
+      "text": "God’s love, short Scripture passages to memorize, and key Bible characters and their stories.",
+      "of": "2d7a4a1e",
+      "at": [
+        "covenant-day:classes.groups[0].rows[0].detail"
+      ],
+      "t": "L’amore di Dio, brevi passi delle Scritture da imparare a memoria, e i principali personaggi della Bibbia con le loro storie."
+    },
+    {
+      "text": "Friendship with God and others, short Scripture passages, and Bible characters and their stories.",
+      "of": "8f04fb30",
+      "at": [
+        "covenant-day:classes.groups[0].rows[1].detail"
+      ],
+      "t": "L’amicizia con Dio e con gli altri, brevi passi delle Scritture, e i personaggi della Bibbia con le loro storie."
+    },
+    {
+      "text": "Abraham through the settling of the Promised Land, then Judges and Ruth through the exile and return of Israel, with Psalms and Proverbs.",
+      "of": "10d44e97",
+      "at": [
+        "covenant-day:classes.groups[0].rows[2].detail"
+      ],
+      "t": "Da Abramo all’insediamento nella Terra promessa, poi dai Giudici e Rut fino all’esilio e al ritorno di Israele, con i Salmi e i Proverbi."
+    },
+    {
+      "text": "A review of the Old Testament with the Jesse Tree, then the New Testament: the life, death and resurrection of Jesus, the early church and Paul’s journeys.",
+      "of": "05e387fd",
+      "at": [
+        "covenant-day:classes.groups[0].rows[3].detail"
+      ],
+      "t": "Un ripasso dell’Antico Testamento con il Jesse Tree (albero di Iesse), poi il Nuovo Testamento: la vita, la morte e la risurrezione di Gesù, la Chiesa delle origini e i viaggi di Paolo."
+    },
+    {
+      "text": "Creation through the Promised Land, ending with a study of Ephesians.",
+      "of": "21467ec2",
+      "at": [
+        "covenant-day:classes.groups[0].rows[4].detail"
+      ],
+      "t": "Dalla creazione alla Terra promessa, con uno studio finale della Lettera agli Efesini."
+    },
+    {
+      "text": "Philippians, Judges, Joshua and the kings of Israel, Jewish feasts and the fruit of the Spirit. The Goodness Gorillas unit ends in a service project.",
+      "of": "4d244402",
+      "at": [
+        "covenant-day:classes.groups[0].rows[5].detail"
+      ],
+      "t": "La Lettera ai Filippesi, i Giudici, Giosuè e i re di Israele, le feste ebraiche e il frutto dello Spirito. L’unità Goodness Gorillas si chiude con un progetto di servizio."
+    },
+    {
+      "text": "Grade 5",
+      "of": "1c67378b",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].label"
+      ],
+      "t": "Classe 5"
+    },
+    {
+      "text": "1 Peter, the Old Testament covenants, how the Gospels were written, and the life and ministry of Jesus.",
+      "of": "2cde9e59",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].detail"
+      ],
+      "t": "La lettera 1 Pietro, le alleanze dell’Antico Testamento, come sono stati scritti i Vangeli, e la vita e il ministero di Gesù."
+    },
+    {
+      "text": "Old Testament survey",
+      "of": "58881131",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].label"
+      ],
+      "t": "Panoramica dell’Antico Testamento"
+    },
+    {
+      "text": "Students build a Christian worldview “from the study of scripture.”",
+      "of": "d3ec9bd1",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].detail"
+      ],
+      "t": "Gli studenti costruiscono una visione cristiana del mondo “a partire dallo studio delle Scritture.”"
+    },
+    {
+      "text": "The Gospels",
+      "of": "0d00fd21",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].label"
+      ],
+      "t": "I Vangeli"
+    },
+    {
+      "text": "The life of Christ, how to study the Bible, and “the habit of personal devotions.”",
+      "of": "3a533ab0",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].detail"
+      ],
+      "t": "La vita di Cristo, come studiare la Bibbia, e “l’abitudine ai momenti devozionali personali.”"
+    },
+    {
+      "text": "Acts and the letters of Paul",
+      "of": "cd4f25d2",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].label"
+      ],
+      "t": "Gli Atti e le lettere di Paolo"
+    },
+    {
+      "text": "Applying Scripture to daily life, and learning how to share their faith.",
+      "of": "6e1f8ebf",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].detail"
+      ],
+      "t": "Applicare le Scritture alla vita quotidiana, e imparare a condividere la propria fede."
+    },
+    {
+      "text": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:classes.groups[2].name",
+        "hickory-grove-christian:classes.groups[2].name"
+      ],
+      "t": "High School"
+    },
+    {
+      "text": "3.5 Bible units to graduate",
+      "of": "c1cb38dc",
+      "at": [
+        "covenant-day:classes.groups[2].tally"
+      ],
+      "t": "3.5 unità di Bibbia per diplomarsi"
+    },
+    {
+      "text": "College prep.",
+      "of": "4647f1f9",
+      "at": [
+        "covenant-day:classes.groups[2].rows[0].detail",
+        "covenant-day:classes.groups[2].rows[1].detail",
+        "covenant-day:classes.groups[2].rows[2].detail"
+      ],
+      "t": "Livello college prep."
+    },
+    {
+      "text": "Christian Doctrine",
+      "of": "5eae87e2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[2].label"
+      ],
+      "t": "Christian Doctrine"
+    },
+    {
+      "text": "Engaging the Culture - An Introduction to Apologetics and Worldviews",
+      "of": "67c21bc2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].label"
+      ],
+      "t": "Engaging the Culture - An Introduction to Apologetics and Worldviews"
+    },
+    {
+      "text": "College prep. Apologetics is the case for the Christian faith.",
+      "of": "51683fa5",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].detail"
+      ],
+      "t": "Livello college prep. L’apologetica è la difesa ragionata della fede cristiana."
+    },
+    {
+      "text": "A Bible course every year.",
+      "of": "f258adb9",
+      "at": [
+        "covenant-day:classes.note.strong"
+      ],
+      "t": "Un corso di Bibbia ogni anno."
+    },
+    {
+      "text": "High schoolers “must be enrolled in a Bible course each year”. 3.5 units of Bible count toward the 25 units needed to graduate.",
+      "of": "891aa0ec",
+      "at": [
+        "covenant-day:classes.note.text"
+      ],
+      "t": "Gli studenti della high school “devono essere iscritti a un corso di Bibbia ogni anno”. 3.5 unità di Bibbia contano per le 25 unità necessarie per diplomarsi."
+    },
+    {
+      "text": "The school does not say which course carries the half unit.",
+      "of": "d22ffe2c",
+      "at": [
+        "covenant-day:classes.note.muted"
+      ],
+      "t": "La scuola non dice quale corso vale la mezza unità."
+    },
+    {
+      "text": "Middle and high school start each year with a retreat at Windy Gap. Retreats are included in tuition.",
+      "of": "bb6b6d32",
+      "at": [
+        "covenant-day:retreats.headline"
+      ],
+      "t": "La middle school e la high school iniziano ogni anno con un ritiro a Windy Gap. I ritiri sono compresi nella retta."
+    },
+    {
+      "text": "High school: Windy Gap",
+      "of": "763421ce",
+      "at": [
+        "covenant-day:retreats.cells[0].title"
+      ],
+      "t": "High school: Windy Gap"
+    },
+    {
+      "text": "Students and teachers “step away from the busyness of life to reconnect—with one another and, most importantly, with the Lord.” The days hold games, skits, cabin time and “time in God’s Word”.",
+      "of": "6f21c994",
+      "at": [
+        "covenant-day:retreats.cells[0].text"
+      ],
+      "t": "Studenti e insegnanti “si allontanano dalla frenesia della vita per ritrovare il legame, gli uni con gli altri e, soprattutto, con il Signore.” Le giornate comprendono giochi, scenette, tempo nelle casette e “tempo nella Parola di Dio”."
+    },
+    {
+      "text": "Middle school: Windy Gap",
+      "of": "c710963f",
+      "at": [
+        "covenant-day:retreats.cells[1].title"
+      ],
+      "t": "Middle school: Windy Gap"
+    },
+    {
+      "text": "A trip in August with friends and teachers, “filled with chapels, team-building, and free time”.",
+      "of": "e1328101",
+      "at": [
+        "covenant-day:retreats.cells[1].text"
+      ],
+      "t": "Un viaggio ad agosto con amici e insegnanti, “pieno di funzioni, attività di squadra e tempo libero”."
+    },
+    {
+      "text": "In tuition.",
+      "of": "8548f880",
+      "at": [
+        "covenant-day:retreats.note.strong"
+      ],
+      "t": "Compresi nella retta."
+    },
+    {
+      "text": "Tuition includes “school retreats and required field trips”.",
+      "of": "ff3dc56d",
+      "at": [
+        "covenant-day:retreats.note.text"
+      ],
+      "t": "La retta comprende “i ritiri scolastici e le uscite didattiche obbligatorie”."
+    },
+    {
+      "text": "Fifth graders also take an overnight trip to Fort Caswell, on the North Carolina coast, in the spring.",
+      "of": "b82e004a",
+      "at": [
+        "covenant-day:retreats.note.muted"
+      ],
+      "t": "In primavera, gli alunni di quinta fanno anche un viaggio con pernottamento a Fort Caswell, sulla costa del North Carolina."
+    },
+    {
+      "text": "Where students pray and talk about faith in smaller groups: daily homeroom devotions, weekly high school advisory groups and student-led Bible studies.",
+      "of": "9ea6941e",
+      "at": [
+        "covenant-day:groups.headline"
+      ],
+      "t": "Dove gli studenti pregano e parlano di fede in gruppi più piccoli: momenti devozionali quotidiani in homeroom, gruppi di advisory settimanali alla high school e studi biblici guidati dagli studenti."
+    },
+    {
+      "text": "Homeroom devotions",
+      "of": "0a859b1a",
+      "at": [
+        "covenant-day:groups.entries[0].title"
+      ],
+      "t": "Momenti devozionali in homeroom"
+    },
+    {
+      "text": "“Each day during homeroom, teachers lead a devotional for students.” Students share prayer requests and pray for one another.",
+      "of": "20773faf",
+      "at": [
+        "covenant-day:groups.entries[0].text"
+      ],
+      "t": "“Ogni giorno durante l’homeroom (il momento di classe del mattino), gli insegnanti guidano un momento devozionale per gli studenti.” Gli studenti condividono le richieste di preghiera e pregano gli uni per gli altri."
+    },
+    {
+      "text": "Advisory groups",
+      "of": "22449f6a",
+      "at": [
+        "covenant-day:groups.entries[1].title"
+      ],
+      "t": "Gruppi di advisory"
+    },
+    {
+      "text": "Teacher-led groups meet weekly and “stay together all year long.” Students learn about the year’s spiritual theme, report on their schoolwork and pray together.",
+      "of": "5eb8da46",
+      "at": [
+        "covenant-day:groups.entries[1].text"
+      ],
+      "t": "Gruppi guidati da insegnanti si incontrano ogni settimana e “restano insieme per tutto l’anno.” Gli studenti approfondiscono il tema spirituale dell’anno, raccontano come va lo studio e pregano insieme."
+    },
+    {
+      "text": "Groups are often “guided by a book study focused on spiritual growth.”",
+      "of": "15e1cefe",
+      "at": [
+        "covenant-day:groups.entries[1].muted"
+      ],
+      "t": "I gruppi sono spesso “guidati dallo studio di un libro incentrato sulla crescita spirituale.”"
+    },
+    {
+      "text": "Student Bible studies",
+      "of": "a84f0783",
+      "at": [
+        "covenant-day:groups.entries[2].title"
+      ],
+      "t": "Studi biblici degli studenti"
+    },
+    {
+      "text": "Small discipleship groups “usually organized and led by students”. They meet before and after school.",
+      "of": "a70256dc",
+      "at": [
+        "covenant-day:groups.entries[2].text"
+      ],
+      "t": "Piccoli gruppi di discepolato “di solito organizzati e guidati da studenti”. Si incontrano prima e dopo le lezioni."
+    },
+    {
+      "text": "The school’s mission, its belief summary and the six marks it hopes to see in every graduate, in the school’s own words.",
+      "of": "12e23a6d",
+      "at": [
+        "covenant-day:beliefs.headline"
+      ],
+      "t": "La missione della scuola, la sintesi delle sue convinzioni e i sei tratti che spera di vedere in ogni diplomato, con le parole della scuola."
+    },
+    {
+      "text": "“The mission of Covenant Day School is to assist the Christian family by providing an education marked by a biblical worldview and academic excellence so that students are equipped to be salt and light for God’s glory.”",
+      "of": "1f42aa5c",
+      "at": [
+        "covenant-day:beliefs.mission"
+      ],
+      "t": "“La missione della Covenant Day School è aiutare la famiglia cristiana offrendo un’educazione segnata da una visione biblica del mondo e dall’eccellenza negli studi, perché gli studenti siano preparati a essere sale e luce per la gloria di Dio.”"
+    },
+    {
+      "text": "Follow Christ",
+      "of": "1542ffa9",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].name"
+      ],
+      "t": "Seguire Cristo"
+    },
+    {
+      "text": "Our graduates recognize that their daily spiritual and intellectual lives are inseparable and complementary, with Christ at the center.",
+      "of": "eabcba41",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].text"
+      ],
+      "t": "I nostri diplomati riconoscono che la loro vita spirituale e la loro vita intellettuale di ogni giorno sono inseparabili e complementari, con Cristo al centro."
+    },
+    {
+      "text": "Serve Others",
+      "of": "51090807",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].name"
+      ],
+      "t": "Servire gli altri"
+    },
+    {
+      "text": "Our graduates demonstrate a love for God, the church as the body of Christ, and all people by affirming others as God’s image bearers.",
+      "of": "890a3b11",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].text"
+      ],
+      "t": "I nostri diplomati dimostrano amore per Dio, per la chiesa come corpo di Cristo e per tutte le persone, riconoscendo gli altri come portatori dell’immagine di Dio."
+    },
+    {
+      "text": "Pursue Wisdom",
+      "of": "5323c7ee",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].name"
+      ],
+      "t": "Cercare la sapienza"
+    },
+    {
+      "text": "Our graduates continue to pursue wisdom and knowledge throughout their lives.",
+      "of": "71b1787b",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].text"
+      ],
+      "t": "I nostri diplomati continuano a cercare la sapienza e la conoscenza per tutta la vita."
+    },
+    {
+      "text": "Communicate Effectively",
+      "of": "162ed124",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].name"
+      ],
+      "t": "Comunicare in modo efficace"
+    },
+    {
+      "text": "Our graduates communicate confidently and effectively in written, spoken, mathematical, and technological languages.",
+      "of": "be6a43ca",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].text"
+      ],
+      "t": "I nostri diplomati comunicano con sicurezza ed efficacia nei linguaggi scritto, parlato, matematico e tecnologico."
+    },
+    {
+      "text": "Learn Purposefully",
+      "of": "d0764395",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].name"
+      ],
+      "t": "Imparare con uno scopo"
+    },
+    {
+      "text": "Our graduates have a passion for learning and the academic tools necessary to thrive as they purposefully take the next steps in their lives.",
+      "of": "abfb0fba",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].text"
+      ],
+      "t": "I nostri diplomati hanno la passione per l’apprendimento e gli strumenti di studio necessari per riuscire mentre compiono con uno scopo i prossimi passi della loro vita."
+    },
+    {
+      "text": "Engage the Culture",
+      "of": "99d65c43",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].name"
+      ],
+      "t": "Confrontarsi con la cultura"
+    },
+    {
+      "text": "As ambassadors for Christ, our graduates are equipped to represent Him well collegiately in academics, athletics, and/or fine arts.",
+      "of": "c7c8acb6",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].text"
+      ],
+      "t": "Come ambasciatori di Cristo, i nostri diplomati sono preparati a rappresentarLo bene all’università nello studio, nello sport e/o nelle arti."
+    },
+    {
+      "text": "A ministry of Christ Covenant Church (PCA).",
+      "of": "5e7cc85f",
+      "at": [
+        "covenant-day:beliefs.note.strong"
+      ],
+      "t": "Un ministero della Christ Covenant Church (PCA)."
+    },
+    {
+      "text": "The church is “a congregation in the Presbyterian Church in America”. The school says it “is guided by the same doctrinal convictions”, found in the Westminster Confession of Faith and Catechisms.",
+      "of": "f5988533",
+      "at": [
+        "covenant-day:beliefs.note.text"
+      ],
+      "t": "La chiesa è “una congregazione della Presbyterian Church in America”. La scuola dice di essere “guidata dalle stesse convinzioni dottrinali”, che si trovano nella Westminster Confession of Faith and Catechisms."
+    },
+    {
+      "text": "The school also says “many—indeed, most—of our families come from other church traditions.”",
+      "of": "2fe2787a",
+      "at": [
+        "covenant-day:beliefs.note.muted"
+      ],
+      "t": "La scuola dice anche che “molte, anzi la maggior parte, delle nostre famiglie vengono da altre tradizioni ecclesiali.”"
+    },
+    {
+      "text": "“We believe the Bible is the written word of God, inspired by the Holy Spirit and without error in the original manuscripts. The Bible is the revelation of God’s truth and is infallible and authoritative in all matters of faith and practice.”",
+      "of": "d6badf17",
+      "at": [
+        "covenant-day:beliefs.articles[0]"
+      ],
+      "t": "“Crediamo che la Bibbia sia la parola scritta di Dio, ispirata dallo Spirito Santo e senza errori nei manoscritti originali. La Bibbia è la rivelazione della verità di Dio ed è infallibile e autorevole in tutte le questioni di fede e di vita.”"
+    },
+    {
+      "text": "“We believe in the Holy Trinity. There is one God, who exists eternally in three persons: the Father, the Son, and the Holy Spirit.”",
+      "of": "b9820e07",
+      "at": [
+        "covenant-day:beliefs.articles[1]"
+      ],
+      "t": "“Crediamo nella Santa Trinità. C’è un solo Dio, che esiste eternamente in tre persone: il Padre, il Figlio e lo Spirito Santo.”"
+    },
+    {
+      "text": "“We believe that all are sinners and totally unable to save themselves from God’s displeasure, except by His mercy.”",
+      "of": "6b8fc3e2",
+      "at": [
+        "covenant-day:beliefs.articles[2]"
+      ],
+      "t": "“Crediamo che tutti siano peccatori e del tutto incapaci di salvarsi da soli dalla disapprovazione di Dio, se non per la Sua misericordia.”"
+    },
+    {
+      "text": "“We believe that salvation is by God alone as He sovereignly chooses those He will save. We believe His choice is based on His grace, not on any human individual merit, or foreseen faith.”",
+      "of": "a457c453",
+      "at": [
+        "covenant-day:beliefs.articles[3]"
+      ],
+      "t": "“Crediamo che la salvezza venga da Dio soltanto, poiché Egli sceglie sovranamente coloro che salverà. Crediamo che la Sua scelta si basi sulla Sua grazia, non su alcun merito umano individuale né su una fede prevista.”"
+    },
+    {
+      "text": "“We believe that Jesus Christ is the eternal Son of God, who through His perfect life and sacrificial death atoned for the sins of all who will trust in Him, alone, for salvation.”",
+      "of": "5ea0229c",
+      "at": [
+        "covenant-day:beliefs.articles[4]"
+      ],
+      "t": "“Crediamo che Gesù Cristo sia l’eterno Figlio di Dio, che con la Sua vita perfetta e la Sua morte sacrificale ha espiato i peccati di tutti coloro che confideranno in Lui, solo in Lui, per la salvezza.”"
+    },
+    {
+      "text": "“We believe that God is gracious and faithful to His people not simply as individuals but as families in successive generations according to His covenant promises.”",
+      "of": "427d3702",
+      "at": [
+        "covenant-day:beliefs.articles[5]"
+      ],
+      "t": "“Crediamo che Dio sia benevolo e fedele verso il Suo popolo non semplicemente come individui ma come famiglie, di generazione in generazione, secondo le promesse della Sua alleanza.”"
+    },
+    {
+      "text": "“We believe that the Holy Spirit indwells God’s people and gives them the strength and wisdom to trust Christ and follow Him.”",
+      "of": "5cb7ec67",
+      "at": [
+        "covenant-day:beliefs.articles[6]"
+      ],
+      "t": "“Crediamo che lo Spirito Santo abiti nel popolo di Dio e gli dia la forza e la sapienza per confidare in Cristo e seguirLo.”"
+    },
+    {
+      "text": "“We believe that Jesus will return, bodily and visibly, to judge all mankind and to receive His people to Himself.”",
+      "of": "baf53ecb",
+      "at": [
+        "covenant-day:beliefs.articles[7]"
+      ],
+      "t": "“Crediamo che Gesù tornerà, nel corpo e in modo visibile, per giudicare tutta l’umanità e accogliere a Sé il Suo popolo.”"
+    },
+    {
+      "text": "“We believe that all aspects of our lives are to be lived to the glory of God under the Lordship of Jesus Christ.”",
+      "of": "a4295249",
+      "at": [
+        "covenant-day:beliefs.articles[8]"
+      ],
+      "t": "“Crediamo che ogni aspetto della nostra vita debba essere vissuto per la gloria di Dio sotto la signoria di Gesù Cristo.”"
+    },
+    {
+      "text": "A Christian parent",
+      "of": "595d7fd9",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].label"
+      ],
+      "t": "Un genitore cristiano"
+    },
+    {
+      "text": "The school partners with families where “at least one parent is a Christ-follower and is actively involved in a local Christian church.”",
+      "of": "e678adc6",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].detail"
+      ],
+      "t": "La scuola collabora con famiglie in cui “almeno un genitore è un seguace di Cristo ed è attivamente coinvolto in una chiesa cristiana locale.”"
+    },
+    {
+      "text": "Your Christian testimony",
+      "of": "8350c3fb",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].label"
+      ],
+      "t": "La vostra testimonianza cristiana"
+    },
+    {
+      "text": "At the parent interview, “parents will be asked to discuss their Christian testimony”.",
+      "of": "77708e03",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].detail"
+      ],
+      "t": "Al colloquio con i genitori, “ai genitori verrà chiesto di parlare della loro testimonianza cristiana”."
+    },
+    {
+      "text": "Pastor’s recommendation",
+      "of": "b1d5c047",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].label"
+      ],
+      "t": "Referenza di un pastore"
+    },
+    {
+      "text": "Required for grades JK–11. If you do not know your senior pastor, the form may come from “another pastor on staff, an elder, a deacon, or a ministry leader who knows your family well”.",
+      "of": "42ca6213",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].detail"
+      ],
+      "t": "Obbligatoria per le classi JK–11. Se non conoscete il vostro pastore principale, il modulo può essere compilato da “un altro pastore della chiesa, un anziano, un diacono o un responsabile di ministero che conosce bene la vostra famiglia”."
+    },
+    {
+      "text": "Church involvement",
+      "of": "7ed8a2ab",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].label"
+      ],
+      "t": "Coinvolgimento nella chiesa"
+    },
+    {
+      "text": "The admission criteria include “The family’s active involvement in a local church”.",
+      "of": "216d530b",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].detail"
+      ],
+      "t": "I criteri di ammissione comprendono “Il coinvolgimento attivo della famiglia in una chiesa locale”."
+    },
+    {
+      "text": "The student’s own faith",
+      "of": "7203be33",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].label"
+      ],
+      "t": "La fede personale dello studente"
+    },
+    {
+      "text": "The public pages do not say whether a student must profess faith or answer faith questions.",
+      "of": "bb120d18",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].detail"
+      ],
+      "t": "Le pagine pubbliche non dicono se uno studente debba professare la fede o rispondere a domande sulla fede."
+    },
+    {
+      "text": "Signing the school’s beliefs",
+      "of": "5a5632ef",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].label"
+      ],
+      "t": "Firma delle convinzioni della scuola"
+    },
+    {
+      "text": "The public pages do not say whether parents must sign or affirm the belief summary.",
+      "of": "d8cf3e3c",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].detail"
+      ],
+      "t": "Le pagine pubbliche non dicono se i genitori debbano firmare o accettare la sintesi delle convinzioni."
+    },
+    {
+      "text": "Once you enroll",
+      "of": "f37bf47d",
+      "at": [
+        "covenant-day:families.groups[1].name"
+      ],
+      "t": "Una volta iscritti"
+    },
+    {
+      "text": "High schoolers “must be enrolled in a Bible course each year”.",
+      "of": "e6604454",
+      "at": [
+        "covenant-day:families.groups[1].rows[0].detail"
+      ],
+      "t": "Gli studenti della high school “devono essere iscritti a un corso di Bibbia ogni anno”."
+    },
+    {
+      "text": "Church-member discount",
+      "of": "a9b9d842",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].label"
+      ],
+      "t": "Sconto per i membri della chiesa"
+    },
+    {
+      "text": "“A $400 discount is available for each student in grades JK-12 whose parents are members of Christ Covenant Church.” The family “must affirm the church membership statement that is part of the online enrollment process.”",
+      "of": "4d089fa4",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].detail"
+      ],
+      "t": "“È disponibile uno sconto di $400 per ogni studente delle classi JK-12 i cui genitori sono membri della Christ Covenant Church.” La famiglia “deve accettare la dichiarazione di appartenenza alla chiesa che fa parte della procedura di iscrizione online.”"
+    },
+    {
+      "text": "A family agreement",
+      "of": "c0c10560",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].label"
+      ],
+      "t": "Un accordo con la famiglia"
+    },
+    {
+      "text": "No family agreement, handbook or conduct code is on the school’s public pages.",
+      "of": "f7c794f7",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].detail"
+      ],
+      "t": "Sulle pagine pubbliche della scuola non ci sono un accordo con la famiglia, un manuale o un codice di condotta."
+    },
+    {
+      "text": "For staff and trustees",
+      "of": "6e6ff958",
+      "at": [
+        "covenant-day:families.groups[2].name"
+      ],
+      "t": "Per il personale e i membri del consiglio"
+    },
+    {
+      "text": "Staff",
+      "of": "0d19a971",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].label"
+      ],
+      "t": "Personale"
+    },
+    {
+      "text": "All staff “must subscribe to the Reformed faith and that doctrine as set forth in the Westminster Confession of Faith”.",
+      "of": "55024a8c",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].detail"
+      ],
+      "t": "Tutto il personale “deve aderire alla fede riformata e a quella dottrina come esposta nella Westminster Confession of Faith”."
+    },
+    {
+      "text": "Trustees",
+      "of": "24f7a214",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].label"
+      ],
+      "t": "Consiglio di amministrazione"
+    },
+    {
+      "text": "The Session (the elders) of Christ Covenant Church appoints the Board of Trustees.",
+      "of": "5b5ebd15",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].detail"
+      ],
+      "t": "La Session (il consiglio degli anziani) della Christ Covenant Church nomina il Board of Trustees (consiglio di amministrazione)."
+    },
+    {
+      "text": "A “three-legged stool”.",
+      "of": "f28bf5c3",
+      "at": [
+        "covenant-day:families.note.strong"
+      ],
+      "t": "Uno “sgabello a tre gambe”."
+    },
+    {
+      "text": "The school wants “the church, family, and school to all be on the same page.”",
+      "of": "a3082e35",
+      "at": [
+        "covenant-day:families.note.text"
+      ],
+      "t": "La scuola vuole che “la chiesa, la famiglia e la scuola siano tutte sulla stessa linea.”"
+    },
+    {
+      "text": "Service grows with age, from campus jobs in lower school to a high school team that builds homes from shipping containers. Mission trips have gone to Spain, Haiti, Belize and South Dakota.",
+      "of": "3bee85e2",
+      "at": [
+        "covenant-day:service.headline"
+      ],
+      "t": "Il servizio cresce con l’età, dai piccoli incarichi nel campus alla lower school fino a una squadra della high school che costruisce case da container. I viaggi missionari sono andati in Spagna, ad Haiti, in Belize e in South Dakota."
+    },
+    {
+      "text": "Lower school service",
+      "of": "25664f55",
+      "at": [
+        "covenant-day:service.entries[0].title"
+      ],
+      "t": "Servizio alla lower school"
+    },
+    {
+      "text": "On campus, students help with flag and safety patrol and collect recyclables. Projects also include boxes for Operation Christmas Child, visits to a nearby assisted living home and support for the Matthews HELP Center.",
+      "of": "9150b739",
+      "at": [
+        "covenant-day:service.entries[0].text"
+      ],
+      "t": "Nel campus, gli studenti aiutano con la bandiera e con il servizio di sicurezza, e raccolgono materiali riciclabili. I progetti comprendono anche scatole per Operation Christmas Child, visite a una vicina residenza assistita per anziani e il sostegno al Matthews HELP Center."
+    },
+    {
+      "text": "Goodness Gorillas",
+      "of": "88c271d6",
+      "at": [
+        "covenant-day:service.entries[1].title"
+      ],
+      "t": "Goodness Gorillas"
+    },
+    {
+      "text": "Fourth graders “serve at nearly twenty different sites”. It ends their Bible unit on the fruit of the Spirit.",
+      "of": "df4da813",
+      "at": [
+        "covenant-day:service.entries[1].text"
+      ],
+      "t": "Gli alunni di quarta “prestano servizio in quasi venti luoghi diversi”. Chiude la loro unità di Bibbia sul frutto dello Spirito."
+    },
+    {
+      "text": "Missions Week",
+      "of": "63913b46",
+      "at": [
+        "covenant-day:service.entries[2].title"
+      ],
+      "t": "Settimana delle missioni"
+    },
+    {
+      "text": "Students “hear from missionaries and learn about cultures from around the world.”",
+      "of": "ac2a7081",
+      "at": [
+        "covenant-day:service.entries[2].text"
+      ],
+      "t": "Gli studenti “ascoltano i missionari e conoscono culture di tutto il mondo.”"
+    },
+    {
+      "text": "It falls in February on the 2026–27 calendar.",
+      "of": "7a8819bd",
+      "at": [
+        "covenant-day:service.entries[2].muted"
+      ],
+      "t": "Nel calendario 2026–27 è a febbraio."
+    },
+    {
+      "text": "Doulos Days",
+      "of": "54212ef2",
+      "at": [
+        "covenant-day:service.entries[3].title"
+      ],
+      "t": "Doulos Days"
+    },
+    {
+      "text": "Twice a year, middle school students spend a day serving local ministries, nonprofits and neighbors, with service days for each grade. The schoolwide Penny Wars contest helps pay for the projects.",
+      "of": "4086e1e5",
+      "at": [
+        "covenant-day:service.entries[3].text"
+      ],
+      "t": "Due volte all’anno, gli studenti della middle school passano una giornata al servizio di ministeri locali, organizzazioni non profit e vicini, con giornate di servizio per ogni classe. La gara Penny Wars di tutta la scuola aiuta a pagare i progetti."
+    },
+    {
+      "text": "ContainIt",
+      "of": "a86ed426",
+      "at": [
+        "covenant-day:service.entries[4].title"
+      ],
+      "t": "ContainIt"
+    },
+    {
+      "text": "Students turn used shipping containers into homes for teens on Pine Ridge Reservation in South Dakota. “Their vision is to provide housing for more than 30 teens.”",
+      "of": "37d529fc",
+      "at": [
+        "covenant-day:service.entries[4].text"
+      ],
+      "t": "Gli studenti trasformano container usati in case per ragazzi nella Pine Ridge Reservation, in South Dakota. “Il loro obiettivo è offrire un alloggio a più di 30 ragazzi.”"
+    },
+    {
+      "text": "High school service",
+      "of": "bbb64d98",
+      "at": [
+        "covenant-day:service.entries[5].title"
+      ],
+      "t": "Servizio alla high school"
+    },
+    {
+      "text": "Beta Club projects, weekly lunchtime tutoring at local schools, and service with partners such as Matthews Habitat for Humanity, Alexander Children’s Home and Love INC.",
+      "of": "73e133dd",
+      "at": [
+        "covenant-day:service.entries[5].text"
+      ],
+      "t": "Progetti del Beta Club, ripetizioni settimanali all’ora di pranzo in scuole locali, e servizio con partner come Matthews Habitat for Humanity, Alexander Children’s Home e Love INC."
+    },
+    {
+      "text": "Mission trips",
+      "of": "c39f4af5",
+      "at": [
+        "covenant-day:service.entries[6].title"
+      ],
+      "t": "Viaggi missionari"
+    },
+    {
+      "text": "Students “have been on school-sponsored mission trips to Spain, Haiti, Belize, and Pine Ridge Reservation in South Dakota.”",
+      "of": "d3f89323",
+      "at": [
+        "covenant-day:service.entries[6].text"
+      ],
+      "t": "Gli studenti “hanno partecipato a viaggi missionari organizzati dalla scuola in Spagna, ad Haiti, in Belize e nella Pine Ridge Reservation in South Dakota.”"
+    },
+    {
+      "text": "The school does not list trip years or a 2026–27 trip.",
+      "of": "92015a56",
+      "at": [
+        "covenant-day:service.entries[6].muted"
+      ],
+      "t": "La scuola non indica gli anni dei viaggi né un viaggio per il 2026–27."
+    },
+    {
+      "text": "No hours published.",
+      "of": "36413563",
+      "at": [
+        "covenant-day:service.note.strong"
+      ],
+      "t": "Nessuna ora pubblicata."
+    },
+    {
+      "text": "The school publishes no service-hour requirement. Its plan follows the Bible’s order of being “Christ’s witnesses to the world beginning in Jerusalem, then to Judea and Samaria, and then to the ends of the earth.”",
+      "of": "3d0a07e0",
+      "at": [
+        "covenant-day:service.note.text"
+      ],
+      "t": "La scuola non pubblica un numero obbligatorio di ore di servizio. Il suo piano segue l’ordine della Bibbia di essere “testimoni di Cristo nel mondo, iniziando da Gerusalemme, poi in Giudea e Samaria, e poi fino ai confini della terra.”"
+    },
+    {
+      "text": "The people who lead spiritual life at Covenant Day, with the email each one lists in the school directory.",
+      "of": "ea19c975",
+      "at": [
+        "covenant-day:staff.headline"
+      ],
+      "t": "Le persone che guidano la vita spirituale alla Covenant Day, con l’email che ognuna indica nell’elenco del personale della scuola."
+    },
+    {
+      "text": "Spiritual Formation Director",
+      "of": "5a49804b",
+      "at": [
+        "covenant-day:staff.people[0].role"
+      ],
+      "t": "Responsabile della formazione spirituale"
+    },
+    {
+      "text": "HS Chaplain & Bible Teacher",
+      "of": "fa942adc",
+      "at": [
+        "covenant-day:staff.people[1].role"
+      ],
+      "t": "Cappellano/a e insegnante di Bibbia della high school"
+    },
+    {
+      "text": "HS Bible Teacher",
+      "of": "9b3385dc",
+      "at": [
+        "covenant-day:staff.people[2].role",
+        "covenant-day:staff.people[3].role"
+      ],
+      "t": "Insegnante di Bibbia della high school"
+    },
+    {
+      "text": "HS Bible & History Teacher",
+      "of": "bd41d312",
+      "at": [
+        "covenant-day:staff.people[4].role"
+      ],
+      "t": "Insegnante di Bibbia e storia della high school"
+    },
+    {
+      "text": "MS Bible Teacher",
+      "of": "285b6f95",
+      "at": [
+        "covenant-day:staff.people[5].role",
+        "covenant-day:staff.people[6].role"
+      ],
+      "t": "Insegnante di Bibbia della middle school"
+    },
+    {
+      "text": "Worship and Choir Teacher",
+      "of": "0b327bf1",
+      "at": [
+        "covenant-day:staff.people[7].role"
+      ],
+      "t": "Insegnante di lode e coro"
+    },
+    {
+      "text": "Student Culture Director",
+      "of": "cc3166f6",
+      "at": [
+        "covenant-day:staff.people[8].role"
+      ],
+      "t": "Responsabile della cultura studentesca"
+    },
+    {
+      "text": "Head of School",
+      "of": "43515cb8",
+      "at": [
+        "covenant-day:staff.people[9].role"
+      ],
+      "t": "Head of School (dirigente della scuola)"
+    },
+    {
+      "text": "The Head of School’s hope:",
+      "of": "f0bf1295",
+      "at": [
+        "covenant-day:staff.note.strong"
+      ],
+      "t": "La speranza del/della Head of School:"
+    },
+    {
+      "text": "“Students being transformed and becoming disciples of Christ, being anchored in their faith so that they know what they believe and why they believe it.”",
+      "of": "4ab1d1f7",
+      "at": [
+        "covenant-day:staff.note.muted"
+      ],
+      "t": "“Studenti trasformati che diventano discepoli di Cristo, radicati nella loro fede così da sapere che cosa credono e perché lo credono.”"
+    },
+    {
+      "text": "Weekly prayer groups for moms and for dads, and ways for grandparents and boosters to pray for the school.",
+      "of": "85546abe",
+      "at": [
+        "covenant-day:parents.headline"
+      ],
+      "t": "Gruppi di preghiera settimanali per mamme e per papà, e modi per nonni e sostenitori di pregare per la scuola."
+    },
+    {
+      "text": "Moms in Prayer",
+      "of": "58172703",
+      "at": [
+        "covenant-day:parents.entries[0].title"
+      ],
+      "t": "Moms in Prayer"
+    },
+    {
+      "text": "“Covenant Day School’s Moms in Prayer groups meet weekly during the school year.” Moms pray together for the school community.",
+      "of": "97779ab2",
+      "at": [
+        "covenant-day:parents.entries[0].text"
+      ],
+      "t": "“I gruppi Moms in Prayer della Covenant Day School si incontrano ogni settimana durante l’anno scolastico.” Le mamme pregano insieme per la comunità scolastica."
+    },
+    {
+      "text": "Dads Prayer Gathering",
+      "of": "16611963",
+      "at": [
+        "covenant-day:parents.entries[1].title"
+      ],
+      "t": "Dads Prayer Gathering"
+    },
+    {
+      "text": "“Every Friday, CDS dads gather at the tennis gazebo for a time of fellowship and prayer.”",
+      "of": "02cf8ea7",
+      "at": [
+        "covenant-day:parents.entries[1].text"
+      ],
+      "t": "“Ogni venerdì, i papà della CDS si riuniscono al gazebo dei campi da tennis per un momento di comunione fraterna e di preghiera.”"
+    },
+    {
+      "text": "Grandparents Prayer Walk",
+      "of": "cd7baf66",
+      "at": [
+        "covenant-day:parents.entries[2].title"
+      ],
+      "t": "Passeggiata di preghiera dei nonni"
+    },
+    {
+      "text": "The 2026–27 calendar lists a Grandparents Prayer Walk in August.",
+      "of": "138bfc13",
+      "at": [
+        "covenant-day:parents.entries[2].text"
+      ],
+      "t": "Il calendario 2026–27 indica una passeggiata di preghiera dei nonni ad agosto."
+    },
+    {
+      "text": "Booster Club prayer partners",
+      "of": "7d90811b",
+      "at": [
+        "covenant-day:parents.entries[3].title"
+      ],
+      "t": "Compagni di preghiera del Booster Club"
+    },
+    {
+      "text": "Booster Club members can sign up for a “Prayer partnership”: a coach and an athlete to pray for all year.",
+      "of": "601d121c",
+      "at": [
+        "covenant-day:parents.entries[3].text"
+      ],
+      "t": "I membri del Booster Club (l’associazione dei sostenitori dello sport) possono iscriversi a una “Prayer partnership” (alleanza di preghiera): un allenatore e un atleta per cui pregare tutto l’anno."
+    },
+    {
+      "text": "Questions the school’s public pages leave open, to bring to a tour or an interview.",
+      "of": "0a5de2b7",
+      "at": [
+        "covenant-day:ask.headline"
+      ],
+      "t": "Domande che le pagine pubbliche della scuola lasciano aperte, da portare a una visita o a un colloquio."
+    },
+    {
+      "text": "What day and time is chapel for each division, and can parents attend?",
+      "of": "3661c13c",
+      "at": [
+        "covenant-day:ask.questions[0]"
+      ],
+      "t": "In che giorno e a che ora si tiene la funzione religiosa per ogni divisione, e i genitori possono partecipare?"
+    },
+    {
+      "text": "Is chapel attendance required?",
+      "of": "609e96bd",
+      "at": [
+        "covenant-day:ask.questions[1]"
+      ],
+      "t": "La partecipazione alla funzione religiosa è obbligatoria?"
+    },
+    {
+      "text": "Must a student share the family’s faith, or answer faith questions, to be admitted?",
+      "of": "0f9e8115",
+      "at": [
+        "covenant-day:ask.questions[2]"
+      ],
+      "t": "Uno studente deve condividere la fede della famiglia, o rispondere a domande sulla fede, per essere ammesso?"
+    },
+    {
+      "text": "Do parents sign or affirm the school’s belief summary, or any family agreement?",
+      "of": "5a4311de",
+      "at": [
+        "covenant-day:ask.questions[3]"
+      ],
+      "t": "I genitori firmano o accettano la sintesi delle convinzioni della scuola, o un accordo con la famiglia?"
+    },
+    {
+      "text": "Who is interviewed at each grade: parents only, or the student too?",
+      "of": "589c35ab",
+      "at": [
+        "covenant-day:ask.questions[4]"
+      ],
+      "t": "Chi fa il colloquio in ogni classe: solo i genitori, o anche lo studente?"
+    },
+    {
+      "text": "Which high school Bible course carries the half unit, and what does a student who joins in 10th–12th grade take?",
+      "of": "ea1a7b04",
+      "at": [
+        "covenant-day:ask.questions[5]"
+      ],
+      "t": "Quale corso di Bibbia della high school vale la mezza unità, e che cosa segue uno studente che arriva in 10ª–12ª classe?"
+    },
+    {
+      "text": "Which Bible translation do classes use?",
+      "of": "5b85035c",
+      "at": [
+        "covenant-day:ask.questions[6]"
+      ],
+      "t": "Quale traduzione della Bibbia usano le lezioni?"
+    },
+    {
+      "text": "Must every middle and high school student go to Windy Gap, and who leads it?",
+      "of": "24b56828",
+      "at": [
+        "covenant-day:ask.questions[7]"
+      ],
+      "t": "Ogni studente della middle e della high school deve andare a Windy Gap, e chi guida il ritiro?"
+    },
+    {
+      "text": "Is the 5th-grade spring trip to Fort Caswell or to Kanuga? The school’s pages name both.",
+      "of": "27868a9b",
+      "at": [
+        "covenant-day:ask.questions[8]"
+      ],
+      "t": "Il viaggio di primavera della classe 5 è a Fort Caswell o a Kanuga? Le pagine della scuola li nominano entrambi."
+    },
+    {
+      "text": "Are any mission trips planned for 2026–27, and for which grades?",
+      "of": "1e1cac6a",
+      "at": [
+        "covenant-day:ask.questions[9]"
+      ],
+      "t": "Ci sono viaggi missionari previsti per il 2026–27, e per quali classi?"
+    },
+    {
+      "text": "Do high school students serve as student chaplains?",
+      "of": "b50a7916",
+      "at": [
+        "covenant-day:ask.questions[10]"
+      ],
+      "t": "Gli studenti della high school fanno da cappellani studenteschi?"
+    },
+    {
+      "text": "When and where does Moms in Prayer meet?",
+      "of": "7534542a",
+      "at": [
+        "covenant-day:ask.questions[11]"
+      ],
+      "t": "Quando e dove si incontra Moms in Prayer?"
+    },
+    {
+      "text": "November 27, 2026",
+      "of": "d9eeac50",
+      "at": [
+        "covenant-day:ask.asOf"
+      ],
+      "t": "27 novembre 2026"
+    },
+    {
       "text": "Hickory Grove Christian School is “a ministry of Hickory Grove Baptist Church”. The church started it in 1995. Students take Bible as a core class every year, and the church’s pastors teach in chapel.",
       "of": "4b2d51ae",
       "at": [
@@ -1972,14 +3362,6 @@
         "hickory-grove-christian:classes.groups[1].rows[3].detail"
       ],
       "t": "Tra i corsi ci sono Becoming a Young Man of God e Becoming a Young Woman of God (classi 7–8), Student on Mission e Christian Leadership per alcuni studenti selezionati della classe 8."
-    },
-    {
-      "text": "High School",
-      "of": "8ab05d33",
-      "at": [
-        "hickory-grove-christian:classes.groups[2].name"
-      ],
-      "t": "High School"
     },
     {
       "text": "4 Bible credits to graduate",

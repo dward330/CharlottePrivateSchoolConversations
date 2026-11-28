@@ -177,6 +177,7 @@
       "of": "e2630cbf",
       "at": [
         "charlotte-christian:chapel.entries[3].title",
+        "covenant-day:chapel.entries[2].title",
         "hickory-grove-christian:chapel.entries[2].title"
       ],
       "t": "Chapèl pou tout lekòl la"
@@ -281,7 +282,8 @@
       "text": "Lower School",
       "of": "0921a0ca",
       "at": [
-        "charlotte-christian:classes.groups[0].name"
+        "charlotte-christian:classes.groups[0].name",
+        "covenant-day:classes.groups[0].name"
       ],
       "t": "Lower School"
     },
@@ -297,7 +299,8 @@
       "text": "Junior Kindergarten",
       "of": "5ee6535c",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[0].label"
+        "charlotte-christian:classes.groups[0].rows[0].label",
+        "covenant-day:classes.groups[0].rows[0].label"
       ],
       "t": "Junior Kindergarten"
     },
@@ -313,7 +316,8 @@
       "text": "Kindergarten",
       "of": "68541d89",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[1].label"
+        "charlotte-christian:classes.groups[0].rows[1].label",
+        "covenant-day:classes.groups[0].rows[1].label"
       ],
       "t": "Kindergarten"
     },
@@ -329,7 +333,8 @@
       "text": "Grade 1",
       "of": "20673dd7",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[2].label"
+        "charlotte-christian:classes.groups[0].rows[2].label",
+        "covenant-day:classes.groups[0].rows[2].label"
       ],
       "t": "Klas 1"
     },
@@ -345,7 +350,8 @@
       "text": "Grade 2",
       "of": "21673f6a",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[3].label"
+        "charlotte-christian:classes.groups[0].rows[3].label",
+        "covenant-day:classes.groups[0].rows[3].label"
       ],
       "t": "Klas 2"
     },
@@ -361,7 +367,8 @@
       "text": "Grade 3",
       "of": "226740fd",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[4].label"
+        "charlotte-christian:classes.groups[0].rows[4].label",
+        "covenant-day:classes.groups[0].rows[4].label"
       ],
       "t": "Klas 3"
     },
@@ -377,7 +384,8 @@
       "text": "Grade 4",
       "of": "1b6735f8",
       "at": [
-        "charlotte-christian:classes.groups[0].rows[5].label"
+        "charlotte-christian:classes.groups[0].rows[5].label",
+        "covenant-day:classes.groups[0].rows[5].label"
       ],
       "t": "Klas 4"
     },
@@ -394,6 +402,7 @@
       "of": "15441234",
       "at": [
         "charlotte-christian:classes.groups[1].name",
+        "covenant-day:classes.groups[1].name",
         "hickory-grove-christian:classes.groups[1].name"
       ],
       "t": "Middle School"
@@ -491,6 +500,7 @@
       "of": "6b2cd411",
       "at": [
         "charlotte-christian:classes.groups[2].rows[0].label",
+        "covenant-day:classes.groups[2].rows[0].label",
         "hickory-grove-christian:classes.groups[2].rows[0].label"
       ],
       "t": "Old Testament Survey"
@@ -508,6 +518,7 @@
       "of": "15a0fcf0",
       "at": [
         "charlotte-christian:classes.groups[2].rows[1].label",
+        "covenant-day:classes.groups[2].rows[1].label",
         "hickory-grove-christian:classes.groups[2].rows[1].label"
       ],
       "t": "New Testament Survey"
@@ -785,12 +796,12 @@
       "t": "Nan jou konferans yo, “yo envite oratè espesyal sou kanpis la pou yon tan ansèyman ak diskisyon ki konsantre”."
     },
     {
-      "text": "The school’s mission, its five core values and its ten-point statement of faith, in the school’s own words.",
-      "of": "ef08810f",
+      "text": "The school’s mission, its five core values and its statement of faith, in the school’s own words.",
+      "of": "8240389f",
       "at": [
         "charlotte-christian:beliefs.headline"
       ],
-      "t": "Misyon lekòl la, senk valè fondamantal li yo ak deklarasyon lafwa li an dis pwen, nan pwòp mo lekòl la."
+      "t": "Misyon lekòl la, senk valè fondamantal li yo ak deklarasyon lafwa li, nan pwòp mo lekòl la."
     },
     {
       "text": "“Charlotte Christian School is a Christ-centered, college preparatory school, equipping and developing students to effectively integrate Biblical truth and learning into their daily lives and to impact the culture for Christ.”",
@@ -921,18 +932,10 @@
       "t": "“Nou kwè lòm, gason ak fi, te fèt dapre imaj Bondye, men li te tonbe nan peche akòz dezobeyisans Adan ak Èv. Kòm rezilta chit la, tout moun fèt pechè e yo bezwen delivrans.”"
     },
     {
-      "text": "“We believe that marriage is a covenantal relationship created by God for a man and a woman. Sexual intimacy is a gift from God and has its proper place only within the context of marriage.”",
-      "of": "e1e3a547",
-      "at": [
-        "charlotte-christian:beliefs.articles[7]"
-      ],
-      "t": "“Nou kwè maryaj se yon relasyon alyans Bondye kreye pou yon gason ak yon fi. Entimite seksyèl se yon kado Bondye bay, e bon plas li se sèlman nan kad maryaj.”"
-    },
-    {
       "text": "“We believe that Jesus Christ, the Son of God, will return to renew the whole creation and to judge the living and the dead.”",
       "of": "fe82762c",
       "at": [
-        "charlotte-christian:beliefs.articles[8]"
+        "charlotte-christian:beliefs.articles[7]"
       ],
       "t": "“Nou kwè Jezikri, Pitit Bondye a, ap tounen pou L renouvle tout kreyasyon an epi pou L jije moun ki vivan ak moun ki mouri.”"
     },
@@ -940,7 +943,7 @@
       "text": "“We believe Christian education is a partnership between students, faculty and parents that provides an opportunity for students to learn and experience academics and co-curricular activities through a biblical worldview, in the presence of Christ-honoring faculty.”",
       "of": "2ed3e072",
       "at": [
-        "charlotte-christian:beliefs.articles[9]"
+        "charlotte-christian:beliefs.articles[8]"
       ],
       "t": "“Nou kwè edikasyon kretyen se yon patenarya ant elèv, pwofesè ak paran, ki bay elèv yo okazyon pou yo aprann epi viv etid akademik ak aktivite ko-kourikilè atravè yon vizyon biblik sou lemonn, nan prezans pwofesè ki onore Kris la.”"
     },
@@ -949,6 +952,7 @@
       "of": "2700b011",
       "at": [
         "charlotte-christian:families.headline",
+        "covenant-day:families.headline",
         "hickory-grove-christian:families.headline"
       ],
       "t": "Sa paj piblik lekòl la di sou lafwa lè w ap aplike ak lè ou fin enskri, ak sa yo pa di."
@@ -958,6 +962,7 @@
       "of": "fbc4b036",
       "at": [
         "charlotte-christian:families.groups[0].name",
+        "covenant-day:families.groups[0].name",
         "hickory-grove-christian:families.groups[0].name"
       ],
       "t": "Lè w ap aplike"
@@ -1075,6 +1080,7 @@
       "of": "6f74c399",
       "at": [
         "charlotte-christian:families.groups[1].rows[1].label",
+        "covenant-day:families.groups[1].rows[0].label",
         "hickory-grove-christian:families.groups[1].rows[0].label"
       ],
       "t": "Kou Bib"
@@ -1140,6 +1146,7 @@
       "of": "bf92e599",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].label",
+        "covenant-day:families.groups[1].rows[2].label",
         "hickory-grove-christian:families.groups[1].rows[3].label"
       ],
       "t": "Prezans nan chapèl"
@@ -1149,6 +1156,7 @@
       "of": "889f792d",
       "at": [
         "charlotte-christian:families.groups[1].rows[5].detail",
+        "covenant-day:families.groups[1].rows[2].detail",
         "hickory-grove-christian:families.groups[1].rows[3].detail"
       ],
       "t": "Paj piblik yo pa di si chapèl obligatwa."
@@ -1590,6 +1598,1388 @@
       "t": "26 novanm 2026"
     },
     {
+      "text": "Covenant Day School is “a ministry of Christ Covenant Church (PCA)”, a Presbyterian church in Matthews. Students take Bible in every grade, and chapel meets every week.",
+      "of": "23c2be9b",
+      "at": [
+        "covenant-day:lead.strong"
+      ],
+      "t": "Covenant Day School se “yon ministè Christ Covenant Church (PCA)”, yon legliz presbiteryen nan Matthews. Elèv yo pran Bib nan chak klas, epi chapèl reyini chak semèn."
+    },
+    {
+      "text": "Its first core value: “Our foundation is built on the absolute truth of God and His word, and every aspect of our education is permeated by our faith in Christ.”",
+      "of": "d1299a3e",
+      "at": [
+        "covenant-day:lead.muted"
+      ],
+      "t": "Premye valè fondamantal li: “Fondasyon nou bati sou verite absoli Bondye ak Pawòl Li, epi lafwa nou nan Kris la penetre chak aspè nan edikasyon nou.”"
+    },
+    {
+      "text": "a Bible class in every grade",
+      "of": "492b06d5",
+      "at": [
+        "covenant-day:stats[0].label"
+      ],
+      "t": "yon kou Bib nan chak klas"
+    },
+    {
+      "text": "from junior kindergarten through 12th grade",
+      "of": "13b7e07d",
+      "at": [
+        "covenant-day:stats[0].note"
+      ],
+      "t": "depi Junior Kindergarten rive nan 12yèm ane"
+    },
+    {
+      "text": "Bible units to graduate",
+      "of": "57ba03d0",
+      "at": [
+        "covenant-day:stats[1].label"
+      ],
+      "t": "inite Bib pou gradye"
+    },
+    {
+      "text": "of 25 units in all, with a Bible course each year",
+      "of": "284c87ea",
+      "at": [
+        "covenant-day:stats[1].note"
+      ],
+      "t": "sou 25 inite an tout, ak yon kou Bib chak ane"
+    },
+    {
+      "text": "grades that need a pastor’s recommendation",
+      "of": "981b62ad",
+      "at": [
+        "covenant-day:stats[2].label"
+      ],
+      "t": "klas ki bezwen rekòmandasyon yon pastè"
+    },
+    {
+      "text": "and one parent must be a Christ-follower",
+      "of": "eb854799",
+      "at": [
+        "covenant-day:stats[2].note"
+      ],
+      "t": "epi youn nan paran yo dwe yon moun ki swiv Kris"
+    },
+    {
+      "text": "discount for church members",
+      "of": "7a38fc6f",
+      "at": [
+        "covenant-day:stats[3].label"
+      ],
+      "t": "rabè pou manm legliz"
+    },
+    {
+      "text": "per student, for members of Christ Covenant Church",
+      "of": "95c905f4",
+      "at": [
+        "covenant-day:stats[3].note"
+      ],
+      "t": "pou chak elèv, pou manm Christ Covenant Church"
+    },
+    {
+      "text": "Chapel meets every week, with students grouped by age. The whole school gathers for chapel in the church’s Worship Center.",
+      "of": "5c96f345",
+      "at": [
+        "covenant-day:chapel.headline"
+      ],
+      "t": "Chapèl reyini chak semèn, ak elèv yo gwoupe pa laj. Tout lekòl la reyini pou chapèl nan Worship Center legliz la."
+    },
+    {
+      "text": "Weekly chapel",
+      "of": "fcfc7d01",
+      "at": [
+        "covenant-day:chapel.entries[0].title"
+      ],
+      "t": "Chapèl chak semèn"
+    },
+    {
+      "text": "“Chapels are separated by age and include praise songs, scripture reading, and a message from guest speakers, principals, or teachers.”",
+      "of": "82ac3a1f",
+      "at": [
+        "covenant-day:chapel.entries[0].text"
+      ],
+      "t": "“Chapèl yo separe pa laj epi yo gen chante lwanj, lekti Ekriti yo, ak yon mesaj oratè envite, direktè oswa pwofesè bay.”"
+    },
+    {
+      "text": "Junior kindergarten and kindergarten students attend chapel every week.",
+      "of": "b332a43f",
+      "at": [
+        "covenant-day:chapel.entries[0].muted"
+      ],
+      "t": "Elèv Junior Kindergarten ak Kindergarten yo ale nan chapèl chak semèn."
+    },
+    {
+      "text": "Middle school chapel",
+      "of": "c0cec2b7",
+      "at": [
+        "covenant-day:chapel.entries[1].title"
+      ],
+      "t": "Chapèl Middle School"
+    },
+    {
+      "text": "The school lists “meaningful chapels” among what middle schoolers gain. Students in 8th grade “can participate in chapel leadership.”",
+      "of": "822fb708",
+      "at": [
+        "covenant-day:chapel.entries[1].text"
+      ],
+      "t": "Lekòl la mete “chapèl ki gen sans” pami sa elèv Middle School yo jwenn. Elèv 8yèm ane “ka patisipe nan dirije chapèl la.”"
+    },
+    {
+      "text": "The whole school meets in the Worship Center of Christ Covenant Church for chapels and celebrations. The 2026–27 calendar has Convocation in September and an All-School Christmas Chapel in December.",
+      "of": "da6ecf69",
+      "at": [
+        "covenant-day:chapel.entries[2].text"
+      ],
+      "t": "Tout lekòl la reyini nan Worship Center Christ Covenant Church pou chapèl ak selebrasyon. Kalandriye 2026–27 la gen yon Konvokasyon (seremoni louvèti ane a) nan mwa septanm ak yon Chapèl Nwèl pou Tout Lekòl la nan mwa desanm."
+    },
+    {
+      "text": "Baccalaureate for seniors is in May.",
+      "of": "c483d72a",
+      "at": [
+        "covenant-day:chapel.entries[2].muted"
+      ],
+      "t": "Baccalaureate (yon sèvis relijye espesyal) pou elèv dènye ane yo fèt nan mwa me."
+    },
+    {
+      "text": "Worship bands",
+      "of": "921a16a5",
+      "at": [
+        "covenant-day:chapel.entries[3].title"
+      ],
+      "t": "Gwoup mizik adorasyon"
+    },
+    {
+      "text": "The music program lists a Middle School Worship Band and a High School Worship Band.",
+      "of": "5baf859c",
+      "at": [
+        "covenant-day:chapel.entries[3].text"
+      ],
+      "t": "Pwogram mizik la gen yon Middle School Worship Band (gwoup mizik adorasyon) ak yon High School Worship Band."
+    },
+    {
+      "text": "Worship Leadership",
+      "of": "a7167594",
+      "at": [
+        "covenant-day:chapel.entries[4].title"
+      ],
+      "t": "Worship Leadership"
+    },
+    {
+      "text": "A college-prep fine arts course in leading worship.",
+      "of": "d572ab35",
+      "at": [
+        "covenant-day:chapel.entries[4].text"
+      ],
+      "t": "Yon kou bozar nivo preparasyon inivèsite sou kijan pou dirije adorasyon."
+    },
+    {
+      "text": "Teachers pray too.",
+      "of": "fc959e1a",
+      "at": [
+        "covenant-day:chapel.note.strong"
+      ],
+      "t": "Pwofesè yo priye tou."
+    },
+    {
+      "text": "“Several times every week, teachers gather before homeroom to pray for one another and their students.”",
+      "of": "f01045f6",
+      "at": [
+        "covenant-day:chapel.note.text"
+      ],
+      "t": "“Plizyè fwa chak semèn, pwofesè yo reyini anvan homeroom (klas maten) pou priye youn pou lòt ak pou elèv yo.”"
+    },
+    {
+      "text": "The whole faculty and staff also “meet quarterly for worship and devotions.”",
+      "of": "0b50a801",
+      "at": [
+        "covenant-day:chapel.note.muted"
+      ],
+      "t": "Tout pwofesè ak anplwaye yo tou “reyini chak trimès pou adorasyon ak devosyon.”"
+    },
+    {
+      "text": "Bible is taught in every grade, from junior kindergarten through 12th grade. Here is what each grade studies, and the Bible units a high schooler needs to graduate.",
+      "of": "07fae2b4",
+      "at": [
+        "covenant-day:classes.headline"
+      ],
+      "t": "Yo anseye Bib nan chak klas, depi Junior Kindergarten rive nan 12yèm ane. Men sa chak klas etidye, ak inite Bib yon elèv High School bezwen pou gradye."
+    },
+    {
+      "text": "The school says “All subjects are taught from a biblical worldview”.",
+      "of": "5fa013e4",
+      "at": [
+        "covenant-day:classes.intro.text"
+      ],
+      "t": "Lekòl la di “Yo anseye tout matyè yo apati yon vizyon biblik sou lemonn”."
+    },
+    {
+      "text": "It names theology among its core subjects, beside literature, math, science, history and world languages.",
+      "of": "1255cf40",
+      "at": [
+        "covenant-day:classes.intro.muted"
+      ],
+      "t": "Li mete teyoloji pami matyè prensipal li yo, akote literati, matematik, syans, istwa ak lang etranjè."
+    },
+    {
+      "text": "Bible every year",
+      "of": "374a99f3",
+      "at": [
+        "covenant-day:classes.groups[0].tally",
+        "covenant-day:classes.groups[1].tally"
+      ],
+      "t": "Bib chak ane"
+    },
+    {
+      "text": "God’s love, short Scripture passages to memorize, and key Bible characters and their stories.",
+      "of": "2d7a4a1e",
+      "at": [
+        "covenant-day:classes.groups[0].rows[0].detail"
+      ],
+      "t": "Lanmou Bondye, ti pasaj Ekriti pou aprann pa kè, ak pèsonaj kle nan Bib la ak istwa yo."
+    },
+    {
+      "text": "Friendship with God and others, short Scripture passages, and Bible characters and their stories.",
+      "of": "8f04fb30",
+      "at": [
+        "covenant-day:classes.groups[0].rows[1].detail"
+      ],
+      "t": "Zanmitay ak Bondye ak lòt moun, ti pasaj Ekriti, ak pèsonaj Bib la ak istwa yo."
+    },
+    {
+      "text": "Abraham through the settling of the Promised Land, then Judges and Ruth through the exile and return of Israel, with Psalms and Proverbs.",
+      "of": "10d44e97",
+      "at": [
+        "covenant-day:classes.groups[0].rows[2].detail"
+      ],
+      "t": "Depi Abraram rive lè pèp la te tabli nan Tè Pwomiz la, apre sa depi Jij ak Rit rive nan egzil ak retou pèp Izrayèl, ak Sòm ak Pwovèb."
+    },
+    {
+      "text": "A review of the Old Testament with the Jesse Tree, then the New Testament: the life, death and resurrection of Jesus, the early church and Paul’s journeys.",
+      "of": "05e387fd",
+      "at": [
+        "covenant-day:classes.groups[0].rows[3].detail"
+      ],
+      "t": "Yon revizyon Ansyen Testaman an ak Jesse Tree (yon pyebwa ki montre fanmi Jezi), apre sa Nouvo Testaman an: lavi, lanmò ak rezirèksyon Jezi, legliz nan kòmansman an ak vwayaj Pòl yo."
+    },
+    {
+      "text": "Creation through the Promised Land, ending with a study of Ephesians.",
+      "of": "21467ec2",
+      "at": [
+        "covenant-day:classes.groups[0].rows[4].detail"
+      ],
+      "t": "Depi Kreyasyon an rive nan Tè Pwomiz la, epi li fini ak yon etid sou Efezyen."
+    },
+    {
+      "text": "Philippians, Judges, Joshua and the kings of Israel, Jewish feasts and the fruit of the Spirit. The Goodness Gorillas unit ends in a service project.",
+      "of": "4d244402",
+      "at": [
+        "covenant-day:classes.groups[0].rows[5].detail"
+      ],
+      "t": "Filipyen, Jij, Jozye ak wa Izrayèl yo, fèt jwif yo ak fwi Lespri a. Inite Goodness Gorillas la fini ak yon pwojè sèvis."
+    },
+    {
+      "text": "Grade 5",
+      "of": "1c67378b",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].label"
+      ],
+      "t": "Klas 5"
+    },
+    {
+      "text": "1 Peter, the Old Testament covenants, how the Gospels were written, and the life and ministry of Jesus.",
+      "of": "2cde9e59",
+      "at": [
+        "covenant-day:classes.groups[0].rows[6].detail"
+      ],
+      "t": "1 Pyè, alyans Ansyen Testaman yo, kijan yo te ekri Levanjil yo, ak lavi ak ministè Jezi."
+    },
+    {
+      "text": "Old Testament survey",
+      "of": "58881131",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].label"
+      ],
+      "t": "Apèsi sou Ansyen Testaman an"
+    },
+    {
+      "text": "Students build a Christian worldview “from the study of scripture.”",
+      "of": "d3ec9bd1",
+      "at": [
+        "covenant-day:classes.groups[1].rows[0].detail"
+      ],
+      "t": "Elèv yo bati yon vizyon kretyen sou lemonn “apati etid Ekriti yo.”"
+    },
+    {
+      "text": "The Gospels",
+      "of": "0d00fd21",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].label"
+      ],
+      "t": "Levanjil yo"
+    },
+    {
+      "text": "The life of Christ, how to study the Bible, and “the habit of personal devotions.”",
+      "of": "3a533ab0",
+      "at": [
+        "covenant-day:classes.groups[1].rows[1].detail"
+      ],
+      "t": "Lavi Kris la, kijan pou etidye Bib la, ak “abitid devosyon pèsonèl.”"
+    },
+    {
+      "text": "Acts and the letters of Paul",
+      "of": "cd4f25d2",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].label"
+      ],
+      "t": "Travay apot yo ak lèt Pòl yo"
+    },
+    {
+      "text": "Applying Scripture to daily life, and learning how to share their faith.",
+      "of": "6e1f8ebf",
+      "at": [
+        "covenant-day:classes.groups[1].rows[2].detail"
+      ],
+      "t": "Aplike Ekriti yo nan lavi chak jou, epi aprann kijan pou pataje lafwa yo."
+    },
+    {
+      "text": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:classes.groups[2].name",
+        "hickory-grove-christian:classes.groups[2].name"
+      ],
+      "t": "High School"
+    },
+    {
+      "text": "3.5 Bible units to graduate",
+      "of": "c1cb38dc",
+      "at": [
+        "covenant-day:classes.groups[2].tally"
+      ],
+      "t": "3.5 inite Bib pou gradye"
+    },
+    {
+      "text": "College prep.",
+      "of": "4647f1f9",
+      "at": [
+        "covenant-day:classes.groups[2].rows[0].detail",
+        "covenant-day:classes.groups[2].rows[1].detail",
+        "covenant-day:classes.groups[2].rows[2].detail"
+      ],
+      "t": "Nivo preparasyon inivèsite."
+    },
+    {
+      "text": "Christian Doctrine",
+      "of": "5eae87e2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[2].label"
+      ],
+      "t": "Christian Doctrine"
+    },
+    {
+      "text": "Engaging the Culture - An Introduction to Apologetics and Worldviews",
+      "of": "67c21bc2",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].label"
+      ],
+      "t": "Engaging the Culture - An Introduction to Apologetics and Worldviews"
+    },
+    {
+      "text": "College prep. Apologetics is the case for the Christian faith.",
+      "of": "51683fa5",
+      "at": [
+        "covenant-day:classes.groups[2].rows[3].detail"
+      ],
+      "t": "Nivo preparasyon inivèsite. Apolojetik se agiman pou defann lafwa kretyen an."
+    },
+    {
+      "text": "A Bible course every year.",
+      "of": "f258adb9",
+      "at": [
+        "covenant-day:classes.note.strong"
+      ],
+      "t": "Yon kou Bib chak ane."
+    },
+    {
+      "text": "High schoolers “must be enrolled in a Bible course each year”. 3.5 units of Bible count toward the 25 units needed to graduate.",
+      "of": "891aa0ec",
+      "at": [
+        "covenant-day:classes.note.text"
+      ],
+      "t": "Elèv High School yo “dwe enskri nan yon kou Bib chak ane”. 3.5 inite Bib konte nan 25 inite yo bezwen pou gradye."
+    },
+    {
+      "text": "The school does not say which course carries the half unit.",
+      "of": "d22ffe2c",
+      "at": [
+        "covenant-day:classes.note.muted"
+      ],
+      "t": "Lekòl la pa di ki kou ki gen mwatye inite a."
+    },
+    {
+      "text": "Middle and high school start each year with a retreat at Windy Gap. Retreats are included in tuition.",
+      "of": "bb6b6d32",
+      "at": [
+        "covenant-day:retreats.headline"
+      ],
+      "t": "Middle School ak High School kòmanse chak ane ak yon retrèt nan Windy Gap. Retrèt yo enkli nan frè eskolè a."
+    },
+    {
+      "text": "High school: Windy Gap",
+      "of": "763421ce",
+      "at": [
+        "covenant-day:retreats.cells[0].title"
+      ],
+      "t": "High School: Windy Gap"
+    },
+    {
+      "text": "Students and teachers “step away from the busyness of life to reconnect—with one another and, most importantly, with the Lord.” The days hold games, skits, cabin time and “time in God’s Word”.",
+      "of": "6f21c994",
+      "at": [
+        "covenant-day:retreats.cells[0].text"
+      ],
+      "t": "Elèv ak pwofesè “mete tout aktivite lavi a sou kote pou rekonekte—youn ak lòt epi, sa ki pi enpòtan, ak Senyè a.” Jounen yo gen jwèt, ti pyès teyat, tan nan kabin ak “tan nan Pawòl Bondye”."
+    },
+    {
+      "text": "Middle school: Windy Gap",
+      "of": "c710963f",
+      "at": [
+        "covenant-day:retreats.cells[1].title"
+      ],
+      "t": "Middle School: Windy Gap"
+    },
+    {
+      "text": "A trip in August with friends and teachers, “filled with chapels, team-building, and free time”.",
+      "of": "e1328101",
+      "at": [
+        "covenant-day:retreats.cells[1].text"
+      ],
+      "t": "Yon vwayaj nan mwa out ak zanmi ak pwofesè, “plen chapèl, aktivite pou bati ekip, ak tan lib”."
+    },
+    {
+      "text": "In tuition.",
+      "of": "8548f880",
+      "at": [
+        "covenant-day:retreats.note.strong"
+      ],
+      "t": "Nan frè eskolè a."
+    },
+    {
+      "text": "Tuition includes “school retreats and required field trips”.",
+      "of": "ff3dc56d",
+      "at": [
+        "covenant-day:retreats.note.text"
+      ],
+      "t": "Frè eskolè a gen ladan “retrèt lekòl yo ak sòti eskolè obligatwa yo”."
+    },
+    {
+      "text": "Fifth graders also take an overnight trip to Fort Caswell, on the North Carolina coast, in the spring.",
+      "of": "b82e004a",
+      "at": [
+        "covenant-day:retreats.note.muted"
+      ],
+      "t": "Elèv senkyèm ane yo fè yon vwayaj tou, ak yon nwit deyò, nan Fort Caswell, sou kòt North Carolina, nan prentan."
+    },
+    {
+      "text": "Where students pray and talk about faith in smaller groups: daily homeroom devotions, weekly high school advisory groups and student-led Bible studies.",
+      "of": "9ea6941e",
+      "at": [
+        "covenant-day:groups.headline"
+      ],
+      "t": "Kote elèv yo priye epi pale sou lafwa nan pi piti gwoup: devosyon chak jou nan homeroom, gwoup advisory chak semèn nan High School ak etid biblik elèv yo dirije."
+    },
+    {
+      "text": "Homeroom devotions",
+      "of": "0a859b1a",
+      "at": [
+        "covenant-day:groups.entries[0].title"
+      ],
+      "t": "Devosyon nan homeroom"
+    },
+    {
+      "text": "“Each day during homeroom, teachers lead a devotional for students.” Students share prayer requests and pray for one another.",
+      "of": "20773faf",
+      "at": [
+        "covenant-day:groups.entries[0].text"
+      ],
+      "t": "“Chak jou pandan homeroom, pwofesè yo dirije yon devosyon pou elèv yo.” Elèv yo pataje demann lapriyè epi yo priye youn pou lòt."
+    },
+    {
+      "text": "Advisory groups",
+      "of": "22449f6a",
+      "at": [
+        "covenant-day:groups.entries[1].title"
+      ],
+      "t": "Gwoup advisory"
+    },
+    {
+      "text": "Teacher-led groups meet weekly and “stay together all year long.” Students learn about the year’s spiritual theme, report on their schoolwork and pray together.",
+      "of": "5eb8da46",
+      "at": [
+        "covenant-day:groups.entries[1].text"
+      ],
+      "t": "Gwoup pwofesè dirije yo reyini chak semèn epi yo “rete ansanm pandan tout ane a.” Elèv yo aprann sou tèm espirityèl ane a, yo rapòte sou travay lekòl yo epi yo priye ansanm."
+    },
+    {
+      "text": "Groups are often “guided by a book study focused on spiritual growth.”",
+      "of": "15e1cefe",
+      "at": [
+        "covenant-day:groups.entries[1].muted"
+      ],
+      "t": "Souvan, gwoup yo “swiv yon etid liv ki konsantre sou kwasans espirityèl.”"
+    },
+    {
+      "text": "Student Bible studies",
+      "of": "a84f0783",
+      "at": [
+        "covenant-day:groups.entries[2].title"
+      ],
+      "t": "Etid biblik elèv yo"
+    },
+    {
+      "text": "Small discipleship groups “usually organized and led by students”. They meet before and after school.",
+      "of": "a70256dc",
+      "at": [
+        "covenant-day:groups.entries[2].text"
+      ],
+      "t": "Ti gwoup fòmasyon disip “anjeneral se elèv ki òganize ak dirije yo”. Yo reyini anvan ak apre lekòl."
+    },
+    {
+      "text": "The school’s mission, its belief summary and the six marks it hopes to see in every graduate, in the school’s own words.",
+      "of": "12e23a6d",
+      "at": [
+        "covenant-day:beliefs.headline"
+      ],
+      "t": "Misyon lekòl la, rezime kwayans li ak sis mak li espere wè nan chak gradye, nan pwòp mo lekòl la."
+    },
+    {
+      "text": "“The mission of Covenant Day School is to assist the Christian family by providing an education marked by a biblical worldview and academic excellence so that students are equipped to be salt and light for God’s glory.”",
+      "of": "1f42aa5c",
+      "at": [
+        "covenant-day:beliefs.mission"
+      ],
+      "t": "“Misyon Covenant Day School se ede fanmi kretyen an lè li bay yon edikasyon ki make pa yon vizyon biblik sou lemonn ak ekselans akademik, pou elèv yo ekipe pou yo sèl ak limyè pou glwa Bondye.”"
+    },
+    {
+      "text": "Follow Christ",
+      "of": "1542ffa9",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].name"
+      ],
+      "t": "Swiv Kris"
+    },
+    {
+      "text": "Our graduates recognize that their daily spiritual and intellectual lives are inseparable and complementary, with Christ at the center.",
+      "of": "eabcba41",
+      "at": [
+        "covenant-day:beliefs.outcomes[0].text"
+      ],
+      "t": "Gradye nou yo rekonèt lavi espirityèl ak lavi entèlektyèl yo chak jou pa ka separe epi yo konplete youn lòt, ak Kris nan mitan."
+    },
+    {
+      "text": "Serve Others",
+      "of": "51090807",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].name"
+      ],
+      "t": "Sèvi lòt moun"
+    },
+    {
+      "text": "Our graduates demonstrate a love for God, the church as the body of Christ, and all people by affirming others as God’s image bearers.",
+      "of": "890a3b11",
+      "at": [
+        "covenant-day:beliefs.outcomes[1].text"
+      ],
+      "t": "Gradye nou yo montre yon lanmou pou Bondye, pou legliz la kòm kò Kris la, ak pou tout moun, lè yo afime lòt moun kòm moun ki pote imaj Bondye."
+    },
+    {
+      "text": "Pursue Wisdom",
+      "of": "5323c7ee",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].name"
+      ],
+      "t": "Chèche sajès"
+    },
+    {
+      "text": "Our graduates continue to pursue wisdom and knowledge throughout their lives.",
+      "of": "71b1787b",
+      "at": [
+        "covenant-day:beliefs.outcomes[2].text"
+      ],
+      "t": "Gradye nou yo kontinye chèche sajès ak konesans pandan tout lavi yo."
+    },
+    {
+      "text": "Communicate Effectively",
+      "of": "162ed124",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].name"
+      ],
+      "t": "Kominike byen"
+    },
+    {
+      "text": "Our graduates communicate confidently and effectively in written, spoken, mathematical, and technological languages.",
+      "of": "be6a43ca",
+      "at": [
+        "covenant-day:beliefs.outcomes[3].text"
+      ],
+      "t": "Gradye nou yo kominike avèk konfyans epi byen nan lang ekri, lang pale, lang matematik ak lang teknoloji."
+    },
+    {
+      "text": "Learn Purposefully",
+      "of": "d0764395",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].name"
+      ],
+      "t": "Aprann ak entansyon"
+    },
+    {
+      "text": "Our graduates have a passion for learning and the academic tools necessary to thrive as they purposefully take the next steps in their lives.",
+      "of": "abfb0fba",
+      "at": [
+        "covenant-day:beliefs.outcomes[4].text"
+      ],
+      "t": "Gradye nou yo gen pasyon pou aprann ak zouti akademik yo bezwen pou reyisi pandan y ap pran pwochen etap nan lavi yo ak entansyon."
+    },
+    {
+      "text": "Engage the Culture",
+      "of": "99d65c43",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].name"
+      ],
+      "t": "Angaje ak kilti a"
+    },
+    {
+      "text": "As ambassadors for Christ, our graduates are equipped to represent Him well collegiately in academics, athletics, and/or fine arts.",
+      "of": "c7c8acb6",
+      "at": [
+        "covenant-day:beliefs.outcomes[5].text"
+      ],
+      "t": "Kòm anbasadè Kris, gradye nou yo ekipe pou reprezante L byen nan inivèsite, nan etid akademik, espò ak/oswa bozar."
+    },
+    {
+      "text": "A ministry of Christ Covenant Church (PCA).",
+      "of": "5e7cc85f",
+      "at": [
+        "covenant-day:beliefs.note.strong"
+      ],
+      "t": "Yon ministè Christ Covenant Church (PCA)."
+    },
+    {
+      "text": "The church is “a congregation in the Presbyterian Church in America”. The school says it “is guided by the same doctrinal convictions”, found in the Westminster Confession of Faith and Catechisms.",
+      "of": "f5988533",
+      "at": [
+        "covenant-day:beliefs.note.text"
+      ],
+      "t": "Legliz la se “yon kongregasyon nan Presbyterian Church in America”. Lekòl la di li “gide pa menm konviksyon doktrinal yo”, ki nan Westminster Confession of Faith and Catechisms (Konfesyon lafwa ak katechis Westminster)."
+    },
+    {
+      "text": "The school also says “many—indeed, most—of our families come from other church traditions.”",
+      "of": "2fe2787a",
+      "at": [
+        "covenant-day:beliefs.note.muted"
+      ],
+      "t": "Lekòl la di tou “anpil—an reyalite, pifò—nan fanmi nou yo soti nan lòt tradisyon legliz.”"
+    },
+    {
+      "text": "“We believe the Bible is the written word of God, inspired by the Holy Spirit and without error in the original manuscripts. The Bible is the revelation of God’s truth and is infallible and authoritative in all matters of faith and practice.”",
+      "of": "d6badf17",
+      "at": [
+        "covenant-day:beliefs.articles[0]"
+      ],
+      "t": "“Nou kwè Bib la se pawòl Bondye ki ekri, ki enspire pa Sentespri a epi ki san erè nan maniskri orijinal yo. Bib la se revelasyon verite Bondye epi li enfayib e li gen otorite nan tout zafè lafwa ak pratik.”"
+    },
+    {
+      "text": "“We believe in the Holy Trinity. There is one God, who exists eternally in three persons: the Father, the Son, and the Holy Spirit.”",
+      "of": "b9820e07",
+      "at": [
+        "covenant-day:beliefs.articles[1]"
+      ],
+      "t": "“Nou kwè nan Sent Trinite a. Gen yon sèl Bondye, ki egziste pou tout tan nan twa pèsòn: Papa a, Pitit la ak Sentespri a.”"
+    },
+    {
+      "text": "“We believe that all are sinners and totally unable to save themselves from God’s displeasure, except by His mercy.”",
+      "of": "6b8fc3e2",
+      "at": [
+        "covenant-day:beliefs.articles[2]"
+      ],
+      "t": "“Nou kwè tout moun se pechè epi yo pa kapab ditou sove tèt yo anba mekontantman Bondye, sof grasa mizèrikòd Li.”"
+    },
+    {
+      "text": "“We believe that salvation is by God alone as He sovereignly chooses those He will save. We believe His choice is based on His grace, not on any human individual merit, or foreseen faith.”",
+      "of": "a457c453",
+      "at": [
+        "covenant-day:beliefs.articles[3]"
+      ],
+      "t": "“Nou kwè delivrans soti nan Bondye sèlman, paske Li chwazi ak tout otorite Li moun Li pral sove. Nou kwè chwa Li baze sou gras Li, pa sou okenn merit pèsonèl moun, ni sou yon lafwa Li te wè davans.”"
+    },
+    {
+      "text": "“We believe that Jesus Christ is the eternal Son of God, who through His perfect life and sacrificial death atoned for the sins of all who will trust in Him, alone, for salvation.”",
+      "of": "5ea0229c",
+      "at": [
+        "covenant-day:beliefs.articles[4]"
+      ],
+      "t": "“Nou kwè Jezikri se Pitit Bondye ki etènèl la, ki, atravè lavi pafè Li ak lanmò Li kòm sakrifis, te peye pou peche tout moun ki pral mete konfyans yo nan Li, sèlman nan Li, pou delivrans.”"
+    },
+    {
+      "text": "“We believe that God is gracious and faithful to His people not simply as individuals but as families in successive generations according to His covenant promises.”",
+      "of": "427d3702",
+      "at": [
+        "covenant-day:beliefs.articles[5]"
+      ],
+      "t": "“Nou kwè Bondye plen gras epi Li fidèl ak pèp Li a, pa sèlman kòm moun youn pa youn, men kòm fanmi de jenerasyon an jenerasyon, dapre pwomès alyans Li yo.”"
+    },
+    {
+      "text": "“We believe that the Holy Spirit indwells God’s people and gives them the strength and wisdom to trust Christ and follow Him.”",
+      "of": "5cb7ec67",
+      "at": [
+        "covenant-day:beliefs.articles[6]"
+      ],
+      "t": "“Nou kwè Sentespri a abite nan pèp Bondye a epi Li ba yo fòs ak sajès pou yo mete konfyans yo nan Kris epi swiv Li.”"
+    },
+    {
+      "text": "“We believe that Jesus will return, bodily and visibly, to judge all mankind and to receive His people to Himself.”",
+      "of": "baf53ecb",
+      "at": [
+        "covenant-day:beliefs.articles[7]"
+      ],
+      "t": "“Nou kwè Jezi pral retounen, an kò e yon fason vizib, pou jije tout limanite epi resevwa pèp Li a bò kote L.”"
+    },
+    {
+      "text": "“We believe that all aspects of our lives are to be lived to the glory of God under the Lordship of Jesus Christ.”",
+      "of": "a4295249",
+      "at": [
+        "covenant-day:beliefs.articles[8]"
+      ],
+      "t": "“Nou kwè nou dwe viv tout aspè nan lavi nou pou glwa Bondye, anba otorite Jezikri kòm Senyè.”"
+    },
+    {
+      "text": "A Christian parent",
+      "of": "595d7fd9",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].label"
+      ],
+      "t": "Yon paran kretyen"
+    },
+    {
+      "text": "The school partners with families where “at least one parent is a Christ-follower and is actively involved in a local Christian church.”",
+      "of": "e678adc6",
+      "at": [
+        "covenant-day:families.groups[0].rows[0].detail"
+      ],
+      "t": "Lekòl la travay ansanm ak fanmi kote “omwen youn nan paran yo se yon moun ki swiv Kris epi ki patisipe aktivman nan yon legliz kretyen lokal.”"
+    },
+    {
+      "text": "Your Christian testimony",
+      "of": "8350c3fb",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].label"
+      ],
+      "t": "Temwayaj kretyen ou"
+    },
+    {
+      "text": "At the parent interview, “parents will be asked to discuss their Christian testimony”.",
+      "of": "77708e03",
+      "at": [
+        "covenant-day:families.groups[0].rows[1].detail"
+      ],
+      "t": "Pandan entèvyou ak paran yo, “yo pral mande paran yo pale sou temwayaj kretyen yo”."
+    },
+    {
+      "text": "Pastor’s recommendation",
+      "of": "b1d5c047",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].label"
+      ],
+      "t": "Rekòmandasyon pastè"
+    },
+    {
+      "text": "Required for grades JK–11. If you do not know your senior pastor, the form may come from “another pastor on staff, an elder, a deacon, or a ministry leader who knows your family well”.",
+      "of": "42ca6213",
+      "at": [
+        "covenant-day:families.groups[0].rows[2].detail"
+      ],
+      "t": "Obligatwa pou klas JK–11. Si w pa konnen pastè prensipal ou, fòm nan ka soti nan “yon lòt pastè nan legliz la, yon ansyen, yon dyak, oswa yon lidè ministè ki konnen fanmi w byen”."
+    },
+    {
+      "text": "Church involvement",
+      "of": "7ed8a2ab",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].label"
+      ],
+      "t": "Patisipasyon nan legliz"
+    },
+    {
+      "text": "The admission criteria include “The family’s active involvement in a local church”.",
+      "of": "216d530b",
+      "at": [
+        "covenant-day:families.groups[0].rows[3].detail"
+      ],
+      "t": "Kritè admisyon yo gen ladan “Patisipasyon aktif fanmi an nan yon legliz lokal”."
+    },
+    {
+      "text": "The student’s own faith",
+      "of": "7203be33",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].label"
+      ],
+      "t": "Pwòp lafwa elèv la"
+    },
+    {
+      "text": "The public pages do not say whether a student must profess faith or answer faith questions.",
+      "of": "bb120d18",
+      "at": [
+        "covenant-day:families.groups[0].rows[4].detail"
+      ],
+      "t": "Paj piblik yo pa di si yon elèv dwe konfese lafwa li oswa reponn kesyon sou lafwa."
+    },
+    {
+      "text": "Signing the school’s beliefs",
+      "of": "5a5632ef",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].label"
+      ],
+      "t": "Siyen kwayans lekòl la"
+    },
+    {
+      "text": "The public pages do not say whether parents must sign or affirm the belief summary.",
+      "of": "d8cf3e3c",
+      "at": [
+        "covenant-day:families.groups[0].rows[5].detail"
+      ],
+      "t": "Paj piblik yo pa di si paran yo dwe siyen oswa afime rezime kwayans lan."
+    },
+    {
+      "text": "Once you enroll",
+      "of": "f37bf47d",
+      "at": [
+        "covenant-day:families.groups[1].name"
+      ],
+      "t": "Yon fwa ou enskri"
+    },
+    {
+      "text": "High schoolers “must be enrolled in a Bible course each year”.",
+      "of": "e6604454",
+      "at": [
+        "covenant-day:families.groups[1].rows[0].detail"
+      ],
+      "t": "Elèv High School yo “dwe enskri nan yon kou Bib chak ane”."
+    },
+    {
+      "text": "Church-member discount",
+      "of": "a9b9d842",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].label"
+      ],
+      "t": "Rabè pou manm legliz"
+    },
+    {
+      "text": "“A $400 discount is available for each student in grades JK-12 whose parents are members of Christ Covenant Church.” The family “must affirm the church membership statement that is part of the online enrollment process.”",
+      "of": "4d089fa4",
+      "at": [
+        "covenant-day:families.groups[1].rows[1].detail"
+      ],
+      "t": "“Gen yon rabè $400 pou chak elèv nan klas JK-12 ki gen paran ki manm Christ Covenant Church.” Fanmi an “dwe afime deklarasyon manm legliz la ki fè pati pwosesis enskripsyon sou entènèt la.”"
+    },
+    {
+      "text": "A family agreement",
+      "of": "c0c10560",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].label"
+      ],
+      "t": "Yon akò fanmi"
+    },
+    {
+      "text": "No family agreement, handbook or conduct code is on the school’s public pages.",
+      "of": "f7c794f7",
+      "at": [
+        "covenant-day:families.groups[1].rows[3].detail"
+      ],
+      "t": "Pa gen okenn akò fanmi, manyèl oswa kòd konduit sou paj piblik lekòl la."
+    },
+    {
+      "text": "For staff and trustees",
+      "of": "6e6ff958",
+      "at": [
+        "covenant-day:families.groups[2].name"
+      ],
+      "t": "Pou anplwaye ak manm konsèy administrasyon"
+    },
+    {
+      "text": "Staff",
+      "of": "0d19a971",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].label"
+      ],
+      "t": "Anplwaye"
+    },
+    {
+      "text": "All staff “must subscribe to the Reformed faith and that doctrine as set forth in the Westminster Confession of Faith”.",
+      "of": "55024a8c",
+      "at": [
+        "covenant-day:families.groups[2].rows[0].detail"
+      ],
+      "t": "Tout anplwaye “dwe adopte lafwa Refòme a ak doktrin sa a jan Westminster Confession of Faith la prezante l”."
+    },
+    {
+      "text": "Trustees",
+      "of": "24f7a214",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].label"
+      ],
+      "t": "Manm konsèy administrasyon"
+    },
+    {
+      "text": "The Session (the elders) of Christ Covenant Church appoints the Board of Trustees.",
+      "of": "5b5ebd15",
+      "at": [
+        "covenant-day:families.groups[2].rows[1].detail"
+      ],
+      "t": "Session an (ansyen yo) nan Christ Covenant Church nonmen Konsèy Administrasyon an."
+    },
+    {
+      "text": "A “three-legged stool”.",
+      "of": "f28bf5c3",
+      "at": [
+        "covenant-day:families.note.strong"
+      ],
+      "t": "Yon “tabourè twa pye”."
+    },
+    {
+      "text": "The school wants “the church, family, and school to all be on the same page.”",
+      "of": "a3082e35",
+      "at": [
+        "covenant-day:families.note.text"
+      ],
+      "t": "Lekòl la vle “legliz la, fanmi an ak lekòl la tout dakò sou menm bagay.”"
+    },
+    {
+      "text": "Service grows with age, from campus jobs in lower school to a high school team that builds homes from shipping containers. Mission trips have gone to Spain, Haiti, Belize and South Dakota.",
+      "of": "3bee85e2",
+      "at": [
+        "covenant-day:service.headline"
+      ],
+      "t": "Sèvis grandi ak laj, depi ti travay sou kanpis nan Lower School rive nan yon ekip High School ki bati kay ak kontenè. Vwayaj misyonè yo te ale nan Espay, Ayiti, Beliz ak South Dakota."
+    },
+    {
+      "text": "Lower school service",
+      "of": "25664f55",
+      "at": [
+        "covenant-day:service.entries[0].title"
+      ],
+      "t": "Sèvis nan Lower School"
+    },
+    {
+      "text": "On campus, students help with flag and safety patrol and collect recyclables. Projects also include boxes for Operation Christmas Child, visits to a nearby assisted living home and support for the Matthews HELP Center.",
+      "of": "9150b739",
+      "at": [
+        "covenant-day:service.entries[0].text"
+      ],
+      "t": "Sou kanpis la, elèv yo ede ak drapo a ak patwouy sekirite, epi yo ranmase bagay pou resikle. Pwojè yo gen ladan tou bwat pou Operation Christmas Child, vizit nan yon kay swen pou granmoun ki toupre, ak sipò pou Matthews HELP Center."
+    },
+    {
+      "text": "Goodness Gorillas",
+      "of": "88c271d6",
+      "at": [
+        "covenant-day:service.entries[1].title"
+      ],
+      "t": "Goodness Gorillas"
+    },
+    {
+      "text": "Fourth graders “serve at nearly twenty different sites”. It ends their Bible unit on the fruit of the Spirit.",
+      "of": "df4da813",
+      "at": [
+        "covenant-day:service.entries[1].text"
+      ],
+      "t": "Elèv katriyèm ane yo “sèvi nan prèske ven kote diferan”. Sa fèmen inite Bib yo sou fwi Lespri a."
+    },
+    {
+      "text": "Missions Week",
+      "of": "63913b46",
+      "at": [
+        "covenant-day:service.entries[2].title"
+      ],
+      "t": "Semèn Misyon"
+    },
+    {
+      "text": "Students “hear from missionaries and learn about cultures from around the world.”",
+      "of": "ac2a7081",
+      "at": [
+        "covenant-day:service.entries[2].text"
+      ],
+      "t": "Elèv yo “tande misyonè pale epi aprann sou kilti toupatou sou latè.”"
+    },
+    {
+      "text": "It falls in February on the 2026–27 calendar.",
+      "of": "7a8819bd",
+      "at": [
+        "covenant-day:service.entries[2].muted"
+      ],
+      "t": "Li tonbe nan mwa fevriye sou kalandriye 2026–27 la."
+    },
+    {
+      "text": "Doulos Days",
+      "of": "54212ef2",
+      "at": [
+        "covenant-day:service.entries[3].title"
+      ],
+      "t": "Doulos Days"
+    },
+    {
+      "text": "Twice a year, middle school students spend a day serving local ministries, nonprofits and neighbors, with service days for each grade. The schoolwide Penny Wars contest helps pay for the projects.",
+      "of": "4086e1e5",
+      "at": [
+        "covenant-day:service.entries[3].text"
+      ],
+      "t": "De fwa pa ane, elèv Middle School yo pase yon jounen ap sèvi ministè lokal, òganizasyon san bi likratif ak vwazen, ak jounen sèvis pou chak klas. Konkou Penny Wars pou tout lekòl la ede peye pwojè yo."
+    },
+    {
+      "text": "ContainIt",
+      "of": "a86ed426",
+      "at": [
+        "covenant-day:service.entries[4].title"
+      ],
+      "t": "ContainIt"
+    },
+    {
+      "text": "Students turn used shipping containers into homes for teens on Pine Ridge Reservation in South Dakota. “Their vision is to provide housing for more than 30 teens.”",
+      "of": "37d529fc",
+      "at": [
+        "covenant-day:service.entries[4].text"
+      ],
+      "t": "Elèv yo transfòme kontenè ki te deja sèvi an kay pou adolesan nan Pine Ridge Reservation nan South Dakota. “Vizyon yo se bay lojman pou plis pase 30 adolesan.”"
+    },
+    {
+      "text": "High school service",
+      "of": "bbb64d98",
+      "at": [
+        "covenant-day:service.entries[5].title"
+      ],
+      "t": "Sèvis nan High School"
+    },
+    {
+      "text": "Beta Club projects, weekly lunchtime tutoring at local schools, and service with partners such as Matthews Habitat for Humanity, Alexander Children’s Home and Love INC.",
+      "of": "73e133dd",
+      "at": [
+        "covenant-day:service.entries[5].text"
+      ],
+      "t": "Pwojè Beta Club, leson patikilye chak semèn nan lè manje midi nan lekòl lokal yo, ak sèvis ak patnè tankou Matthews Habitat for Humanity, Alexander Children’s Home ak Love INC."
+    },
+    {
+      "text": "Mission trips",
+      "of": "c39f4af5",
+      "at": [
+        "covenant-day:service.entries[6].title"
+      ],
+      "t": "Vwayaj misyonè"
+    },
+    {
+      "text": "Students “have been on school-sponsored mission trips to Spain, Haiti, Belize, and Pine Ridge Reservation in South Dakota.”",
+      "of": "d3f89323",
+      "at": [
+        "covenant-day:service.entries[6].text"
+      ],
+      "t": "Elèv yo “te fè vwayaj misyonè lekòl la patwone nan Espay, Ayiti, Beliz ak Pine Ridge Reservation nan South Dakota.”"
+    },
+    {
+      "text": "The school does not list trip years or a 2026–27 trip.",
+      "of": "92015a56",
+      "at": [
+        "covenant-day:service.entries[6].muted"
+      ],
+      "t": "Lekòl la pa bay ane vwayaj yo ni okenn vwayaj pou 2026–27."
+    },
+    {
+      "text": "No hours published.",
+      "of": "36413563",
+      "at": [
+        "covenant-day:service.note.strong"
+      ],
+      "t": "Pa gen èdtan pibliye."
+    },
+    {
+      "text": "The school publishes no service-hour requirement. Its plan follows the Bible’s order of being “Christ’s witnesses to the world beginning in Jerusalem, then to Judea and Samaria, and then to the ends of the earth.”",
+      "of": "3d0a07e0",
+      "at": [
+        "covenant-day:service.note.text"
+      ],
+      "t": "Lekòl la pa pibliye okenn egzijans èdtan sèvis. Plan li swiv lòd Bib la, pou yo se “temwen Kris pou lemonn, kòmanse nan Jerizalèm, apre sa nan Jide ak Samari, epi apre sa jiska dènye bout latè.”"
+    },
+    {
+      "text": "The people who lead spiritual life at Covenant Day, with the email each one lists in the school directory.",
+      "of": "ea19c975",
+      "at": [
+        "covenant-day:staff.headline"
+      ],
+      "t": "Moun ki dirije lavi espirityèl nan Covenant Day, ak imel chak moun bay nan anyè lekòl la."
+    },
+    {
+      "text": "Spiritual Formation Director",
+      "of": "5a49804b",
+      "at": [
+        "covenant-day:staff.people[0].role"
+      ],
+      "t": "Direktè Fòmasyon Espirityèl"
+    },
+    {
+      "text": "HS Chaplain & Bible Teacher",
+      "of": "fa942adc",
+      "at": [
+        "covenant-day:staff.people[1].role"
+      ],
+      "t": "Chaplen ak Pwofesè Bib HS"
+    },
+    {
+      "text": "HS Bible Teacher",
+      "of": "9b3385dc",
+      "at": [
+        "covenant-day:staff.people[2].role",
+        "covenant-day:staff.people[3].role"
+      ],
+      "t": "Pwofesè Bib HS"
+    },
+    {
+      "text": "HS Bible & History Teacher",
+      "of": "bd41d312",
+      "at": [
+        "covenant-day:staff.people[4].role"
+      ],
+      "t": "Pwofesè Bib ak Istwa HS"
+    },
+    {
+      "text": "MS Bible Teacher",
+      "of": "285b6f95",
+      "at": [
+        "covenant-day:staff.people[5].role",
+        "covenant-day:staff.people[6].role"
+      ],
+      "t": "Pwofesè Bib MS"
+    },
+    {
+      "text": "Worship and Choir Teacher",
+      "of": "0b327bf1",
+      "at": [
+        "covenant-day:staff.people[7].role"
+      ],
+      "t": "Pwofesè Adorasyon ak Koral"
+    },
+    {
+      "text": "Student Culture Director",
+      "of": "cc3166f6",
+      "at": [
+        "covenant-day:staff.people[8].role"
+      ],
+      "t": "Direktè Kilti Elèv"
+    },
+    {
+      "text": "Head of School",
+      "of": "43515cb8",
+      "at": [
+        "covenant-day:staff.people[9].role"
+      ],
+      "t": "Direktè Jeneral Lekòl la"
+    },
+    {
+      "text": "The Head of School’s hope:",
+      "of": "f0bf1295",
+      "at": [
+        "covenant-day:staff.note.strong"
+      ],
+      "t": "Espwa Direktè Jeneral Lekòl la:"
+    },
+    {
+      "text": "“Students being transformed and becoming disciples of Christ, being anchored in their faith so that they know what they believe and why they believe it.”",
+      "of": "4ab1d1f7",
+      "at": [
+        "covenant-day:staff.note.muted"
+      ],
+      "t": "“Pou elèv yo transfòme epi vin disip Kris, byen ankre nan lafwa yo pou yo konnen sa yo kwè ak poukisa yo kwè l.”"
+    },
+    {
+      "text": "Weekly prayer groups for moms and for dads, and ways for grandparents and boosters to pray for the school.",
+      "of": "85546abe",
+      "at": [
+        "covenant-day:parents.headline"
+      ],
+      "t": "Gwoup lapriyè chak semèn pou manman ak pou papa, ak fason pou granparan ak manm booster club (klib sipòtè) priye pou lekòl la."
+    },
+    {
+      "text": "Moms in Prayer",
+      "of": "58172703",
+      "at": [
+        "covenant-day:parents.entries[0].title"
+      ],
+      "t": "Moms in Prayer"
+    },
+    {
+      "text": "“Covenant Day School’s Moms in Prayer groups meet weekly during the school year.” Moms pray together for the school community.",
+      "of": "97779ab2",
+      "at": [
+        "covenant-day:parents.entries[0].text"
+      ],
+      "t": "“Gwoup Moms in Prayer Covenant Day School yo reyini chak semèn pandan ane lekòl la.” Manman yo priye ansanm pou kominote lekòl la."
+    },
+    {
+      "text": "Dads Prayer Gathering",
+      "of": "16611963",
+      "at": [
+        "covenant-day:parents.entries[1].title"
+      ],
+      "t": "Dads Prayer Gathering"
+    },
+    {
+      "text": "“Every Friday, CDS dads gather at the tennis gazebo for a time of fellowship and prayer.”",
+      "of": "02cf8ea7",
+      "at": [
+        "covenant-day:parents.entries[1].text"
+      ],
+      "t": "“Chak vandredi, papa CDS yo reyini nan gazebo tenis la pou yon moman fratènite ak lapriyè.”"
+    },
+    {
+      "text": "Grandparents Prayer Walk",
+      "of": "cd7baf66",
+      "at": [
+        "covenant-day:parents.entries[2].title"
+      ],
+      "t": "Mach Lapriyè Granparan yo"
+    },
+    {
+      "text": "The 2026–27 calendar lists a Grandparents Prayer Walk in August.",
+      "of": "138bfc13",
+      "at": [
+        "covenant-day:parents.entries[2].text"
+      ],
+      "t": "Kalandriye 2026–27 la gen yon Mach Lapriyè Granparan nan mwa out."
+    },
+    {
+      "text": "Booster Club prayer partners",
+      "of": "7d90811b",
+      "at": [
+        "covenant-day:parents.entries[3].title"
+      ],
+      "t": "Patnè lapriyè Booster Club"
+    },
+    {
+      "text": "Booster Club members can sign up for a “Prayer partnership”: a coach and an athlete to pray for all year.",
+      "of": "601d121c",
+      "at": [
+        "covenant-day:parents.entries[3].text"
+      ],
+      "t": "Manm Booster Club yo ka enskri pou yon “Patenarya lapriyè”: yon antrenè ak yon atlèt pou yo priye pou yo pandan tout ane a."
+    },
+    {
+      "text": "Questions the school’s public pages leave open, to bring to a tour or an interview.",
+      "of": "0a5de2b7",
+      "at": [
+        "covenant-day:ask.headline"
+      ],
+      "t": "Kesyon paj piblik lekòl la kite san repons, pou w pote nan yon vizit oswa yon entèvyou."
+    },
+    {
+      "text": "What day and time is chapel for each division, and can parents attend?",
+      "of": "3661c13c",
+      "at": [
+        "covenant-day:ask.questions[0]"
+      ],
+      "t": "Ki jou ak ki lè chapèl fèt pou chak divizyon, epi èske paran yo ka asiste?"
+    },
+    {
+      "text": "Is chapel attendance required?",
+      "of": "609e96bd",
+      "at": [
+        "covenant-day:ask.questions[1]"
+      ],
+      "t": "Èske prezans nan chapèl obligatwa?"
+    },
+    {
+      "text": "Must a student share the family’s faith, or answer faith questions, to be admitted?",
+      "of": "0f9e8115",
+      "at": [
+        "covenant-day:ask.questions[2]"
+      ],
+      "t": "Èske yon elèv dwe pataje lafwa fanmi an, oswa reponn kesyon sou lafwa, pou yo admèt li?"
+    },
+    {
+      "text": "Do parents sign or affirm the school’s belief summary, or any family agreement?",
+      "of": "5a4311de",
+      "at": [
+        "covenant-day:ask.questions[3]"
+      ],
+      "t": "Èske paran yo siyen oswa afime rezime kwayans lekòl la, oswa nenpòt akò fanmi?"
+    },
+    {
+      "text": "Who is interviewed at each grade: parents only, or the student too?",
+      "of": "589c35ab",
+      "at": [
+        "covenant-day:ask.questions[4]"
+      ],
+      "t": "Kiyès yo fè entèvyou nan chak klas: paran yo sèlman, oswa elèv la tou?"
+    },
+    {
+      "text": "Which high school Bible course carries the half unit, and what does a student who joins in 10th–12th grade take?",
+      "of": "ea1a7b04",
+      "at": [
+        "covenant-day:ask.questions[5]"
+      ],
+      "t": "Ki kou Bib High School ki gen mwatye inite a, epi kisa yon elèv ki antre nan 10yèm–12yèm ane pran?"
+    },
+    {
+      "text": "Which Bible translation do classes use?",
+      "of": "5b85035c",
+      "at": [
+        "covenant-day:ask.questions[6]"
+      ],
+      "t": "Ki tradiksyon Bib klas yo itilize?"
+    },
+    {
+      "text": "Must every middle and high school student go to Windy Gap, and who leads it?",
+      "of": "24b56828",
+      "at": [
+        "covenant-day:ask.questions[7]"
+      ],
+      "t": "Èske chak elèv Middle School ak High School dwe ale Windy Gap, epi kiyès ki dirije l?"
+    },
+    {
+      "text": "Is the 5th-grade spring trip to Fort Caswell or to Kanuga? The school’s pages name both.",
+      "of": "27868a9b",
+      "at": [
+        "covenant-day:ask.questions[8]"
+      ],
+      "t": "Èske vwayaj prentan 5yèm ane a se nan Fort Caswell oswa nan Kanuga? Paj lekòl la nonmen toude."
+    },
+    {
+      "text": "Are any mission trips planned for 2026–27, and for which grades?",
+      "of": "1e1cac6a",
+      "at": [
+        "covenant-day:ask.questions[9]"
+      ],
+      "t": "Èske gen vwayaj misyonè ki planifye pou 2026–27, epi pou ki klas?"
+    },
+    {
+      "text": "Do high school students serve as student chaplains?",
+      "of": "b50a7916",
+      "at": [
+        "covenant-day:ask.questions[10]"
+      ],
+      "t": "Èske elèv High School yo sèvi kòm chaplen elèv?"
+    },
+    {
+      "text": "When and where does Moms in Prayer meet?",
+      "of": "7534542a",
+      "at": [
+        "covenant-day:ask.questions[11]"
+      ],
+      "t": "Ki lè ak ki kote Moms in Prayer reyini?"
+    },
+    {
+      "text": "November 27, 2026",
+      "of": "d9eeac50",
+      "at": [
+        "covenant-day:ask.asOf"
+      ],
+      "t": "27 novanm 2026"
+    },
+    {
       "text": "Hickory Grove Christian School is “a ministry of Hickory Grove Baptist Church”. The church started it in 1995. Students take Bible as a core class every year, and the church’s pastors teach in chapel.",
       "of": "4b2d51ae",
       "at": [
@@ -1972,14 +3362,6 @@
         "hickory-grove-christian:classes.groups[1].rows[3].detail"
       ],
       "t": "Pami kou yo gen Becoming a Young Man of God ak Becoming a Young Woman of God (klas 7–8), Student on Mission, ak Christian Leadership pou kèk elèv 8yèm ane yo chwazi."
-    },
-    {
-      "text": "High School",
-      "of": "8ab05d33",
-      "at": [
-        "hickory-grove-christian:classes.groups[2].name"
-      ],
-      "t": "High School"
     },
     {
       "text": "4 Bible credits to graduate",

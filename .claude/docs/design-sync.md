@@ -108,7 +108,9 @@ on 2026-11-20.
 
 ### Admissions
 
-Captured from **Providence Day**.
+Captured from **Providence Day**. A second file, **Admissions Section - Covenant Day**
+(2026-11-27, plan `cdfaithlife`), shows the contact lines with their email links (arrow at
+rest, underline on hover; user request), which Providence Day's contacts do not have.
 
 | Card (link name) | Kind | Held by | Captured from | Deep link |
 |---|---|--:|---|---|
@@ -172,24 +174,27 @@ Captured from **Charlotte Country Day**.
 ### Faith & Spiritual Life
 
 Captured from **Hickory Grove Christian** (plan `hgfaithlife`, 2026-11-26), so the capture
-shows the `tenets` and `outcomes` Beliefs blocks. Two schools hold the area: Charlotte
-Christian (added 2026-11-26, plan `faithlife`) and Hickory Grove Christian. Charlotte
-Christian's statement-of-faith list and its Retreats card are not in this capture; they are
-in the archive copy `archive/2026-11 pre-hgfaithlife/`. The links work once the branch is
-merged and published.
+shows the `tenets` and `outcomes` Beliefs blocks. Three schools hold the area: Charlotte
+Christian (added 2026-11-26, plan `faithlife`), Hickory Grove Christian, and Covenant Day
+(added 2026-11-27, plan `cdfaithlife`). A second file, **Faith & Spiritual Life Section -
+Covenant Day**, is captured from Covenant Day (2026-11-27, plan `cdfaithlife`). It shows
+the statement-of-faith list under its heading "Belief statement, in the school’s own words"
+(reworded 2026-11-27 with the user's approval, designed in that file first) and the Retreats
+card. The archive copy `archive/2026-11 pre-hgfaithlife/` is an older Charlotte Christian
+capture. The links work once the branch is merged and published.
 
 | Card (link name) | Kind | Held by | Captured from | Deep link |
 |---|---|--:|---|---|
-| `chapel-and-worship` | chapel-and-worship | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/chapel-and-worship |
-| `bible-and-faith-classes` | bible-and-faith-classes | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/bible-and-faith-classes |
-| `retreats` | retreats | 1 | Charlotte Christian (archive copy only) | https://charlotteschoolinsights.com/school/charlotte-christian/#faith-and-spiritual-life/retreats |
-| `small-groups-and-discipleship` | small-groups-and-discipleship | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/small-groups-and-discipleship |
-| `what-the-school-believes` | what-the-school-believes | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-the-school-believes |
-| `what-it-asks-of-families` | what-it-asks-of-families | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-it-asks-of-families |
-| `service-and-missions` | service-and-missions | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/service-and-missions |
-| `who-leads-spiritual-life` | who-leads-spiritual-life | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/who-leads-spiritual-life |
-| `faith-life-for-parents` | faith-life-for-parents | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/faith-life-for-parents |
-| `ask-the-school` | ask-the-school | 2 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/ask-the-school |
+| `chapel-and-worship` | chapel-and-worship | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/chapel-and-worship |
+| `bible-and-faith-classes` | bible-and-faith-classes | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/bible-and-faith-classes |
+| `retreats` | retreats | 2 | Covenant Day (second file) | https://charlotteschoolinsights.com/school/covenant-day/#faith-and-spiritual-life/retreats |
+| `small-groups-and-discipleship` | small-groups-and-discipleship | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/small-groups-and-discipleship |
+| `what-the-school-believes` | what-the-school-believes | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-the-school-believes |
+| `what-it-asks-of-families` | what-it-asks-of-families | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/what-it-asks-of-families |
+| `service-and-missions` | service-and-missions | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/service-and-missions |
+| `who-leads-spiritual-life` | who-leads-spiritual-life | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/who-leads-spiritual-life |
+| `faith-life-for-parents` | faith-life-for-parents | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/faith-life-for-parents |
+| `ask-the-school` | ask-the-school | 3 | Hickory Grove Christian | https://charlotteschoolinsights.com/school/hickory-grove-christian/#faith-and-spiritual-life/ask-the-school |
 
 ### Student Clubs
 
@@ -390,7 +395,7 @@ names the commit the served build came from.
 
 ```
 # Home
-npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'Home page' '--sha' 'a99df2f7' '--card-links' 'off' '--interactive' 'the school cards and the language menu'
+npm run design:capture -- '--page' '/' '--name' 'Home' '--out' <out> '--refs' 'Home page' '--sha' 'b0bd3adb' '--card-links' 'off' '--interactive' 'the school cards and the language menu'
 
 # Compare Schools
 npm run design:capture -- '--page' '/compare/?topic=college-support&schools=cannon%2Ccarmel-christian%2Ccharlotte-catholic%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Ccovenant-day%2Cdavidson-day%2Cgaston-day%2Chickory-grove-christian%2Cprovidence-day' '--name' 'Compare Schools' '--out' <out> '--refs' 'every high school, College Support (the default Compare topic)' '--sha' 'ff5ab214' '--interactive' 'the topic and school pickers, row tips and the leader tint'
@@ -461,6 +466,12 @@ npm run design:capture -- '--page' '/school/providence-day/' '--name' 'Read Revi
 
 # Faith & Spiritual Life Section (plan hgfaithlife; captured from Hickory Grove for the tenets and outcomes blocks)
 npm run design:capture -- '--page' '/school/hickory-grove-christian/' '--name' 'Faith & Spiritual Life Section' '--out' <out> '--refs' 'Hickory Grove Christian (tenets and outcomes); Charlotte Christian holds the statement-of-faith list' '--sha' 'ae07be00' '--area' 'faith-spiritual-life'
+
+# Faith & Spiritual Life Section - Covenant Day (plan cdfaithlife; the statement-of-faith list, its heading, and Retreats)
+npm run design:capture -- '--page' '/school/covenant-day/' '--name' 'Faith & Spiritual Life Section - Covenant Day' '--out' <out> '--refs' 'Covenant Day (the statement-of-faith list, Retreats, outcomes)' '--sha' '866dc3c4' '--area' 'faith-spiritual-life'
+
+# Admissions Section - Covenant Day (plan cdfaithlife; contact lines with email links)
+npm run design:capture -- '--page' '/school/covenant-day/' '--name' 'Admissions Section - Covenant Day' '--out' <out> '--refs' 'Covenant Day (contact lines with email links)' '--sha' '9a256fde' '--area' 'admissions'
 
 # Financial Aid & Tuition
 npm run design:capture -- '--page' '/school/cannon/' '--name' 'Financial Aid & Tuition' '--out' <out> '--refs' 'Cannon + Gaston Day'\''s Bus Services and Named Scholarships cards + Charlotte Catholic'\''s Fees card' '--sha' '6b1b21ee' '--area' 'financial-aid-tuition' '--extra' 'gaston-day:financial-aid-and-tuition/bus-services,gaston-day:financial-aid-and-tuition/named-scholarships,charlotte-catholic:financial-aid-and-tuition/fees'
@@ -607,6 +618,9 @@ The same table is in the design project as `As Built - Index.md`.
 | Canvas | empty, untouched |
 | Read Reviews Section | captured, replaced 2026-11-25 (plan `readreviews`; the planning mock is gone) |
 | Faith & Spiritual Life Section | captured, replaced 2026-11-26 (plan `faithlife`, English phase; the planning mock is gone); re-captured from Hickory Grove 2026-11-26 (plan `hgfaithlife`) |
+| Faith & Spiritual Life Section - Covenant Day | new 2026-11-27 (plan `cdfaithlife`): designed first with the reworded belief-list heading, then re-captured from the built app at `aad0553a` and verified byte for byte; designed again for the staff email arrow, re-captured at `866dc3c4` |
+| Admissions Section - Covenant Day | new 2026-11-27 (plan `cdfaithlife`): designed first for the contact email links, re-captured at `9a256fde`, verified byte for byte |
+| `app-css/app-4.css` | re-written 2026-11-27 (36,652 → 37,172 bytes) for the email-link rules, verified byte for byte; chunks 1–3 unchanged |
 
 All captured files: `main` at `ff5ab214`, captured 2026-11-20.
 
@@ -678,3 +692,9 @@ verified byte for byte): 14 research areas, 574 source documents, and 12 areas e
 Charlotte Christian and Hickory Grove. `app-css/` was unchanged and not re-written. The
 Home capture needs `--card-links off`, since the page has no cards; the command below
 now carries it.
+
+**Drift closed again 2026-11-27 (plan `cdfaithlife` Phase 2):** Covenant Day gained Faith &
+Spiritual Life, so *Home* was re-captured from branch commit `b0bd3adb` once the section's
+translations landed (18,732 bytes, verified byte for byte): Covenant Day now counts 11 research
+areas and the site 576 source documents. `app-css/` matched the build and was not re-written.
+`As Built - Index.md` gained rows for the two new Covenant Day files and a refresh note.

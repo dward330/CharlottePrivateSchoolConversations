@@ -378,7 +378,7 @@ export const hickoryGroveChristian: FaithLifeProgram = {
     sources: [BELIEFS, ESOS, ACADEMICS, PROFILE, SPIRITUAL, ACCREDITATION],
     verify: [
       'The mission is printed in three wordings: the one on the card (/our-beliefs, /academics-home, /469460_2); "To disciple students in the Gospel story of creation, fall, redemption, and restoration, equipping them to be Committed to God, Connected to the Mission, and Wise in Christ." (/admissions-home, /esos); and "To equip students to serve God in the 21st century by providing an excellent academic program founded upon a biblical worldview." (Mallard Creek EEC interest form). The card prints the belief page\'s.',
-      'By the user\'s decision (2026-11-26) the card prints no statement of faith. The belief pages carry none. The only document the site calls "the HGCS Statement of Faith" is a marriage, gender and sexuality statement linked from the employment application. It stays in the research file.',
+      'By the user\'s decision (2026-11-26) the card prints no statement of faith. The belief pages carry none. The only document the site calls "the HGCS Statement of Faith" is linked from the employment application. Its text is not recorded (user decision 2026-11-27: the site is rated E for everyone).',
       '/esos also lists what students "will" do under each outcome. Those lists stay in the research file to keep the card short.',
       '/our-beliefs vision paragraph says "completed in the fear of the Lord"; /academics-home says "consummated". The card does not quote that sentence.',
     ],
