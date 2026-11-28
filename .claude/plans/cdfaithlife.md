@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-11-27
 branch: feat/cdfaithlife
-prs: []
+prs: [541]
 ---
 
 # Add Covenant Day School to Faith & Spiritual Life
