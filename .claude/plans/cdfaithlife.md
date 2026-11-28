@@ -1158,3 +1158,24 @@ step 3, below.
   refresh note; `app-css/` matched the build.
 - **Phase 2 is not reviewed** (per `/implement`); the rollout note in NOTES.md lists the soft
   spots for a native reviewer.
+
+### Re-review of the unreviewed fixes (2026-11-27, after #541, at the user's request)
+
+One fresh reviewer read the pass-3 rule fix (commit `a8d947d4`) and the three Phase 2 edits
+made outside the translators (the fa stool line, the Clubs subhead, the heading key):
+6 found, 6 confirmed, 0 rejected, 6 fixed, 0 declined. Fixed in a follow-up PR.
+
+- #1 (R1) must-fix, the archive rule said "for every school" while Charlotte Christian's
+  shipped cards cite its email archive and four school emails: fixed by narrowing the rule
+  (user's choice) to every school from Covenant Day on, with Charlotte Christian recorded as an
+  exception (SKILL.md, research-brief.md, SKILLS.md, README).
+- #2 (R4) should-fix, the central fa stool edit read "a four-legged stool with three legs":
+  fixed, reverted to the translator's «چهارپایهٔ سه‌پایه»; NOTES.md corrected.
+- #3 (R2) minor, brief: packets reached only from an email are leads: fixed.
+- #4 (R3) minor, brief: the `LEAD:` definition now names archive and unlinked-page material: fixed.
+- #5 (R6) minor, fa heading «زبان» could read "language": fixed to «به بیان خود مدرسه».
+- #6 (R5) minor, it heading «credo» reads as a creed: fixed to «convinzioni».
+
+Checks after the fixes: `check:runtime`, `check:fa`, `check:bidi`, `check:chrome`,
+`check:digits`, fa `check:sepdrift` pass; `npm run build` green; Chrome shows the new fa and it
+headings over nine articles and the fa stool line. **Fixed, not re-reviewed:** these six.

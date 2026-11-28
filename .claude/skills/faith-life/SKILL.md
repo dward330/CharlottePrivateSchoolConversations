@@ -46,7 +46,8 @@ The rule is *fill every card the school publishes enough for*, never "match its 
   2026-11-27, first applied to Covenant Day). A public email or communications archive, an
   unlinked page or a document reached only from one is researched as a **lead**: it can
   point to a menu page that states the fact, and it can raise a question for Ask the
-  School, but a card never prints a fact from it.
+  School, but a card never prints a fact from it. It applies to every school added from
+  Covenant Day on. Charlotte Christian's shipped cards (2026-11-26) still cite its email archive and four school emails; they are a recorded exception, not a precedent.
 - **Faith-based schools only.** The school's own site must describe it as a religious
   school. Never add this area to a school that does not.
 - **A belief statement is copied whole and verbatim.** No summary, no softening, no
