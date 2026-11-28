@@ -218,7 +218,7 @@ Not found in this research:
 - Denominational stance: "The members of the board of trustees, the faculty and the student body represent various denominations and practices. The school is not under the direction, influence or support of any particular church. Charlotte Christian School is dedicated to and operates according to the following statement of faith:" — /about/what-we-believe
 - "Charlotte Christian School is a Christ-centered, college-preparatory, independent, non-denominational school serving students in grades JK-12." — 2026-27 Academic & Student Profile
 - Confirmed: "As an independent Christian school, our families are members of more than 130 different Christian churches." — /admissions/faqs
-- **Statement of faith, verbatim, ten articles, in page order** (/about/what-we-believe):
+- **Statement of faith, verbatim, ten articles, in page order (article 8 not recorded)** (/about/what-we-believe):
  1. "We believe that God is one being – infinitely just, wise, good, loving and holy, and existing eternally in three persons: Father, Son and Holy Spirit. He is the sovereign Creator of the universe and by His providence sustains and rules all that He has made."
  2. "We believe that Jesus Christ, Son of God, is fully divine and fully human, and that He saves His people from their sin by His life, death, and resurrection, and is now ruling over His Church and the world through His Word and Spirit."
  3. "We believe that the Holy Spirit regenerates sinners, resides in believers and enables them to live a Godly life and to use the spiritual gifts He has given them."
@@ -226,17 +226,15 @@ Not found in this research:
  5. "We believe that sinners are justified by grace through faith on the basis of the finished work of Christ (His death and resurrection) and live this life by the power of God."
  6. "We believe that God is calling people from the whole human race to believe in His Son, Jesus Christ, and to become members of His Body, the Church. Those who believe in Jesus as Lord and Savior enjoy the blessings of God and fellowship with each other in communities of faith until Jesus returns."
  7. "We believe that man, male and female, was created in the image of God, but fell into sin through the disobedience of Adam and Eve. As a result of the fall, all people are born sinful and in need of salvation."
- 8. "We believe that marriage is a covenantal relationship created by God for a man and a woman. Sexual intimacy is a gift from God and has its proper place only within the context of marriage."
+ 8. (not recorded: user decision 2026-11-27, the site is rated E for everyone)
  9. "We believe that Jesus Christ, the Son of God, will return to renew the whole creation and to judge the living and the dead."
  10. "We believe Christian education is a partnership between students, faculty and parents that provides an opportunity for students to learn and experience academics and co-curricular activities through a biblical worldview, in the presence of Christ-honoring faculty."
-- Marriage and sexuality: article 8 above is the only statement on the current belief page. The 2014 bylaws (linked live from /about/leadership) carry a separate "ARTICLE III DOCTRINAL STATEMENT" and "ARTICLE IV PERSONAL LIFESTYLE STATEMENT" that apply to "the faculty, staff, and Board". Its sexual-behavior line, verbatim: "Follow the Biblical standards for sexual behavior. Immorality, promiscuity and homosexuality violate the occupational requirement of being a Christ-like role model." That document is dated "as of May 19, 2014"; treat it as a dated governing document, and see Conflicts.
 - Portrait of a Graduate, Spiritual Formation (/academics/portrait-of-a-graduate): "A Charlotte Christian graduate develops the understanding that God is the center of all." with five outcomes: "Has a personal relationship with Jesus Christ and promotes the Gospel (John 3:16 & 2 Corinthians 5:20)"; "Serves and loves God and others (Mark 10:45, I Peter 4:10 and Matthew 22:37-39)"; "Seeks justice and walks humbly (Micah 6:8)"; "Pursues truth and virtues as revealed in Scripture (Philippians 4:8 & 2 Peter 1:5-8)"; "Articulates, understands, and defends his or her faith (1 Peter 3:15 & 2 Corinthians 10:5)".
 - Membership: "Charlotte Christian School is a member of the Council on Educational Standards and Accountability (CESA) which serves Christian schools in their pursuit of excellence." — /about
 - "At the center of all campus activities is an Honor Code that is designed to guide students in their growth as a child of Christ." — /campus-life
 
 Not found in this research:
 - A published position on the sanctity of life or abortion.
-- A published statement on gender identity beyond article 7 ("man, male and female").
 - The Honor Code text.
 
 ### 6. What it asks of families and students
@@ -281,7 +279,17 @@ Not found in this research:
  - "PORTUGAL … Travel with Samaritan's Feet to serve in Lisbon, Portugal … following the example of Jesus by first washing feet (as illustrated in John 13) and sharing the hope of Christ."
  - "BRAZIL FEMALE ATHLETE SPORTS MINISTRY TOUR … This trip is offered in partnership with Missionary Athletes International."
  - Several other trips are "offered in partnership with Joshua Expeditions" and include a service element.
- - "Attending Winterim each year a student is enrolled in the upper school fulfills a graduation requirement. This experience does not count toward additional requirements for conservatory or s
+ - "Attending Winterim each year a student is enrolled in the upper school fulfills a graduation requirement. This experience does not count toward additional requirements for conservatory or service hours."
+- The conservatory guide repeatedly refers to "school required service hours" (for example "Service hours where students were awarded credit for National Honor Society or school required service hours do not qualify.").
+
+Not found in this research:
+- The number of service hours expected or required per grade. The spiritual life page says "encouraged"; the conservatory guide says "school required service hours" without a number (see Conflicts). An old Voice magazine is a LEAD only.
+- Lower school service expectations beyond school-wide drives.
+- Mission trips outside Winterim.
+
+### 8. Parent spiritual life
+
+- "Parents are invited to join us for one or more of these wonderful opportunities to partner together on the journey of parenting." — /campus-l
 
 …[truncated]
 
