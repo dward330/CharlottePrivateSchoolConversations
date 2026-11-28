@@ -16,7 +16,8 @@
   own, and its calendar. No third-party page. A public email archive, an unlinked page or
   a document reached only from one is a **LEAD** (user, 2026-11-27): record it, use it to
   find the menu page that states the fact, and mark anything found only there `LEAD`,
-  since a card never cites it. No church, parish,
+  since a card never cites it. This applies to every school added from Covenant Day on;
+  Charlotte Christian's shipped email citations are a recorded exception. No church, parish,
   diocese or denomination site unless the school's site links that exact document as its
   own. A search result is a way to find a school page, never a source.
 - **Confirm the school** by name and street address on its own pages, and record the line.
@@ -56,7 +57,8 @@
   - news board pages: `/fs/elements/<id>?start_row=N`
   - a public email archive, if the school has one (`/email-archive`), and its messages at
     `/fs/comms-manager/view/<id>`, **as leads only**: they point to facts, but a card never
-    cites them (user, 2026-11-27). Charlotte Christian's weekly chapel recaps were here.
+    cites them (user, 2026-11-27). Charlotte Christian's weekly chapel recaps were here (cited before this rule; a recorded
+    exception, never a precedent).
   - linked documents: `/fs/resource-manager/view/<id>`
 - **Other platforms**: start from the site's own navigation and footer, then its search
   box, then a site-restricted web search to find pages the navigation hides.

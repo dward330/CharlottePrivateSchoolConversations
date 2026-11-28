@@ -1179,3 +1179,18 @@ made outside the translators (the fa stool line, the Clubs subhead, the heading 
 Checks after the fixes: `check:runtime`, `check:fa`, `check:bidi`, `check:chrome`,
 `check:digits`, fa `check:sepdrift` pass; `npm run build` green; Chrome shows the new fa and it
 headings over nine articles and the fa stool line. **Fixed, not re-reviewed:** these six.
+
+### Second re-review (2026-11-27, PR #542 at the user's request)
+
+One fresh reviewer read commit `820ae8c9`: 3 found (2 reported, 1 noted as an overstatement),
+3 confirmed, 0 rejected, 3 fixed, 0 declined. No must-fix.
+
+- #1 (R1) minor, the research brief's rule text carried no scope note although the note above
+  said four files were narrowed: fixed, the brief's rule now names the Covenant Day scope and the
+  Charlotte Christian exception.
+- #2 (R2) minor, the brief's "chapel recaps were here" line could read as precedent: fixed,
+  marked as a recorded exception.
+- #3 minor, NOTES.md gave the wrong reason for the fa revert (چار is only a colloquial spelling of
+  چهار): fixed, the reason is now the double indefinite and the clumsy wording.
+
+**Fixed, not re-reviewed:** these three (doc text only). **Open:** none.
